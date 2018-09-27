@@ -2,12 +2,11 @@
 UID: TP:eap
 ms.assetid: 2c2b371a-b75c-3d1c-9d43-32181af4e3e1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Extensible Authentication Protocol
@@ -22,5 +21,5 @@ To develop Extensible Authentication Protocol, you need these headers:
  * [rrascfg.h](../rrascfg/index.md)
 
 For programming guidance for this technology, see:
-* [Extensible Authentication Protocol](/previous-versions/windows/desktop/eap)
+* [Extensible Authentication Protocol](/windows/desktop/eap)
 

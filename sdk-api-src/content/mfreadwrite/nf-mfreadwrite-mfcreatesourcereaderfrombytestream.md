@@ -7,7 +7,7 @@ old-location: mf\mfcreatesourcereaderfrombytestream.htm
 tech.root: medfound
 ms.assetid: e167159d-902c-4c34-b5f0-eb764fe2de1c
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: MFCreateSourceReaderFromByteStream, MFCreateSourceReaderFromByteStream function [Media Foundation], mf.mfcreatesourcereaderfrombytestream, mfreadwrite/MFCreateSourceReaderFromByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

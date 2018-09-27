@@ -7,7 +7,7 @@ old-location: security\wthelpercertcheckvalidsignature.htm
 tech.root: seccrypto
 ms.assetid: d46eea18-03cb-4199-873e-0e9e13061598
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: WTHelperCertCheckValidSignature, WTHelperCertCheckValidSignature function [Security], security.wthelpercertcheckvalidsignature, wintrust/WTHelperCertCheckValidSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

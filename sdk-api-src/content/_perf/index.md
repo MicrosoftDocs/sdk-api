@@ -2,7 +2,7 @@
 UID: TP:perf
 ms.assetid: 2fbaa3de-aa73-36f1-b7a5-138520680ff6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

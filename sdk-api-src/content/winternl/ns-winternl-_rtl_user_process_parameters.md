@@ -7,7 +7,7 @@ old-location: base\rtl_user_process_parameters.htm
 tech.root: procthread
 ms.assetid: e736aefa-9945-4526-84d8-adb6e82b9991
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS structure pointer, RTL_USER_PROCESS_PARAMETERS, RTL_USER_PROCESS_PARAMETERS structure, _RTL_USER_PROCESS_PARAMETERS, base.rtl_user_process_parameters, winternl/PRTL_USER_PROCESS_PARAMETERS, winternl/RTL_USER_PROCESS_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

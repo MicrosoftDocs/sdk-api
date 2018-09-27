@@ -7,7 +7,7 @@ old-location: security\npformatnetworkname.htm
 tech.root: secauthn
 ms.assetid: a1d599fb-7b1c-4828-9cd7-bd520513f5be
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: NPFormatNetworkName, NPFormatNetworkName function [Security], WNFMT_ABBREVIATED, WNFMT_INENUM, WNFMT_MULTILINE, _mnp_npformatnetworkname, npapi/NPFormatNetworkName, security.npformatnetworkname
 ms.prod: windows-hardware
 ms.technology: windows-devices

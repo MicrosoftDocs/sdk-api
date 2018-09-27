@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_discardfrom.htm
 tech.root: com
 ms.assetid: eb742d04-63cb-4505-bc91-8d87267a3a4a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: DiscardFrom, DiscardFrom method [COM], DiscardFrom method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],DiscardFrom method, IOleUndoManager.DiscardFrom, IOleUndoManager::DiscardFrom, _ole_ioleundomanager_discardfrom, com.ioleundomanager_discardfrom, ocidl/IOleUndoManager::DiscardFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices

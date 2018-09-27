@@ -4,10 +4,10 @@ title: ISearchJob::RequestAbort
 author: windows-sdk-content
 description: Makes a request to cancel the asynchronous search.
 old-location: wua\isearchjob_requestabort.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: ceedfa28-eef3-4707-8e3a-e59ad45dbea7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ISearchJob interface [Windows Update Agent],RequestAbort method, ISearchJob.RequestAbort, ISearchJob::RequestAbort, RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent],ISearchJob interface, wua.isearchjob_requestabort, wuapi/ISearchJob::RequestAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\crypt_xml_references.htm
 tech.root: seccrypto
 ms.assetid: 25414b2d-3283-4e2f-a23c-ccebff1409e2
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES structure [Security], PCRYPT_XML_REFERENCES, PCRYPT_XML_REFERENCES structure pointer [Security], _CRYPT_XML_REFERENCES, cryptxml/CRYPT_XML_REFERENCES, cryptxml/PCRYPT_XML_REFERENCES, security.crypt_xml_references"
 ms.prod: windows
 ms.technology: windows-sdk

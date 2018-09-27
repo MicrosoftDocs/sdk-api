@@ -4,10 +4,10 @@ title: ID2D1SvgGlyphStyle::GetStroke
 author: windows-sdk-content
 description: Returns the requested stroke parameters.
 old-location: direct2d\id2d1svgglyphstyle_getstroke.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 5EC78516-E0E2-4758-9C36-47F951D1BCAE
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetStroke, GetStroke method [Direct2D], GetStroke method [Direct2D],ID2D1SvgGlyphStyle interface, ID2D1SvgGlyphStyle interface [Direct2D],GetStroke method, ID2D1SvgGlyphStyle.GetStroke, ID2D1SvgGlyphStyle::GetStroke, d2d1_3/ID2D1SvgGlyphStyle::GetStroke, direct2d.id2d1svgglyphstyle_getstroke
 ms.prod: windows-hardware
 ms.technology: windows-devices

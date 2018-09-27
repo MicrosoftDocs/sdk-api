@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_getviewtransform.htm
 tech.root: tablet
 ms.assetid: 8a4d768d-09b6-45e1-b412-e267d92cc3ef
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 8a4d768d-09b6-45e1-b412-e267d92cc3ef, GetViewTransform, GetViewTransform method [Tablet PC], GetViewTransform method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],GetViewTransform method, IInkRenderer.GetViewTransform, IInkRenderer::GetViewTransform, msinkaut/IInkRenderer::GetViewTransform, tablet.inkrenderer_getviewtransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

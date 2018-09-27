@@ -7,7 +7,7 @@ old-location: security\enumeratesecuritypackages.htm
 tech.root: secauthn
 ms.assetid: 900790a6-111d-43f5-9316-e85aab03a3bc
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

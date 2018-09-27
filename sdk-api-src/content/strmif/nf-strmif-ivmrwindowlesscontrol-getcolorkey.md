@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: e10f9e03-fbcd-4002-babc-fb028e399d72
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetColorKey method, IVMRWindowlessControl.GetColorKey, IVMRWindowlessControl::GetColorKey, IVMRWindowlessControlGetColorKey, dshow.ivmrwindowlesscontrol_getcolorkey, strmif/IVMRWindowlessControl::GetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

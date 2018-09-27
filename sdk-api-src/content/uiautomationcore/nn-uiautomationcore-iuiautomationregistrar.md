@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRegistrar.htm
 tech.root: WinAuto
 ms.assetid: b5d979aa-7a87-4d6c-acdc-6e9eb19aac98
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IUIAutomationRegistrar, IUIAutomationRegistrar interface [Windows Accessibility], IUIAutomationRegistrar interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationRegistrar, uiauto_IUIAutomationRegistrar, uiautomationcore/IUIAutomationRegistrar, winauto.uiauto_IUIAutomationRegistrar
 ms.prod: windows
 ms.technology: windows-sdk

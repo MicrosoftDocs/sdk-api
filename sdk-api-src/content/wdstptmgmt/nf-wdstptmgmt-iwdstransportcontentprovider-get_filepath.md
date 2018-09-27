@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcontentprovider_filepath.htm
 tech.root: wds
 ms.assetid: 32B434D8-5469-4A5F-A276-12B998760E87
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: FilePath property [Windows Deployment Services], FilePath property [Windows Deployment Services],IWdsTransportContentProvider interface, IWdsTransportContentProvider interface [Windows Deployment Services],FilePath property, IWdsTransportContentProvider.FilePath, IWdsTransportContentProvider.get_FilePath, IWdsTransportContentProvider::FilePath, IWdsTransportContentProvider::get_FilePath, get_FilePath, wds.iwdstransportcontentprovider_filepath, wdstptmgmt/IWdsTransportContentProvider::FilePath, wdstptmgmt/IWdsTransportContentProvider::get_FilePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

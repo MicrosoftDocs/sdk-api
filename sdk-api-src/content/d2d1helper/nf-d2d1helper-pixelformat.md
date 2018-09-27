@@ -4,10 +4,10 @@ title: PixelFormat function
 author: windows-sdk-content
 description: Creates a D2D1_PIXEL_FORMAT structure.
 old-location: direct2d\pixelformat.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 97128e07-68c2-40ab-bad1-7b6f599291b9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: PixelFormat, PixelFormat function [Direct2D], d2d1helper/PixelFormat, direct2d.pixelformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

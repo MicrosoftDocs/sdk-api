@@ -7,7 +7,7 @@ old-location: com\icallframewalker_onwalkinterface.htm
 tech.root: com
 ms.assetid: e599536f-87a3-4f71-ac0e-21bdafafd029
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: ICallFrameWalker interface [COM],OnWalkInterface method, ICallFrameWalker.OnWalkInterface, ICallFrameWalker::OnWalkInterface, OnWalkInterface, OnWalkInterface method [COM], OnWalkInterface method [COM],ICallFrameWalker interface, _com_icallframewalker_onwalkinterface, callobj/ICallFrameWalker::OnWalkInterface, com.icallframewalker_onwalkinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

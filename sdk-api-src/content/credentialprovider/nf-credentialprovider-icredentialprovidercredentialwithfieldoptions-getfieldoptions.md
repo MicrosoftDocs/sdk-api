@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialWithFieldOptions_GetFieldOption
 tech.root: shell
 ms.assetid: DE5E6F0E-F4FD-43ce-A1EB-F45C04C85239
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: GetFieldOptions, GetFieldOptions method [Windows Shell], GetFieldOptions method [Windows Shell],ICredentialProviderCredentialWithFieldOptions interface, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],GetFieldOptions method, ICredentialProviderCredentialWithFieldOptions.GetFieldOptions, ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, credentialprovider/ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions_GetFieldOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

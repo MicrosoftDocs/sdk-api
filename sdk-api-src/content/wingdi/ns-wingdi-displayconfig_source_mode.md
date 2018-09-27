@@ -7,7 +7,7 @@ old-location: display\displayconfig_source_mode.htm
 tech.root: display
 ms.assetid: 413d63e5-da9d-4906-80a9-049da6e85275
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CCD_Structures_c8b6e9f2-0855-478f-a091-78b57b19d596.xml, DISPLAYCONFIG_SOURCE_MODE, DISPLAYCONFIG_SOURCE_MODE structure [Display Devices], display.displayconfig_source_mode, wingdi/DISPLAYCONFIG_SOURCE_MODE
 ms.prod: windows
 ms.technology: windows-sdk

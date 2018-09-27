@@ -7,7 +7,7 @@ old-location: security\icertexit2.htm
 tech.root: seccrypto
 ms.assetid: a9d66aeb-b596-4d50-9c07-b760cdf4f8c0
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: ICertExit2, ICertExit2 interface [Security], ICertExit2 interface [Security],described, _certsrv_icertexit2, certexit/ICertExit2, security.icertexit2
 ms.prod: windows
 ms.technology: windows-sdk

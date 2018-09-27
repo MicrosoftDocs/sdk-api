@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_BrowseToIDList.htm
 tech.root: shell
 ms.assetid: b0633072-e059-4ea4-b9c0-798399ccf66a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: BrowseToIDList, BrowseToIDList method [Windows Shell], BrowseToIDList method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],BrowseToIDList method, IExplorerBrowser.BrowseToIDList, IExplorerBrowser::BrowseToIDList, SBSP_ABSOLUTE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_PARENT, SBSP_RELATIVE, _shell_IExplorerBrowser_BrowseToIDList, shell.IExplorerBrowser_BrowseToIDList, shobjidl_core/IExplorerBrowser::BrowseToIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

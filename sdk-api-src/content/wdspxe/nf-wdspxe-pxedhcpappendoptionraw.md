@@ -7,7 +7,7 @@ old-location: wds\pxedhcpappendoptionraw.htm
 tech.root: wds
 ms.assetid: f6525a06-a3b0-4989-8132-fa8f1ad2fec3
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: PxeDhcpAppendOptionRaw, PxeDhcpAppendOptionRaw function [Windows Deployment Services], wds.pxedhcpappendoptionraw, wdspxe/PxeDhcpAppendOptionRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices

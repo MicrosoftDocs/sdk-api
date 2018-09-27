@@ -7,7 +7,7 @@ old-location: shell\MULTIKEYHELP_str.htm
 tech.root: shell
 ms.assetid: 5fe0cd44-196c-4d9a-b9f8-2a97a92f2545
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: "*LPMULTIKEYHELPA, *PMULTIKEYHELPA, MULTIKEYHELP, MULTIKEYHELP structure [Windows Shell], MULTIKEYHELPA, _win32_MULTIKEYHELP_str, shell.MULTIKEYHELP_str, tagMULTIKEYHELPA, tagMULTIKEYHELPW, winuser/MULTIKEYHELP"
 ms.prod: windows
 ms.technology: windows-sdk

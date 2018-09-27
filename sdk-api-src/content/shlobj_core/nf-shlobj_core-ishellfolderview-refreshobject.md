@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_RefreshObject.htm
 tech.root: shell
 ms.assetid: 6165d2d1-4bd6-4a18-8191-1fd7e924d7d8
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IShellFolderView interface [Windows Shell],RefreshObject method, IShellFolderView.RefreshObject, IShellFolderView::RefreshObject, RefreshObject, RefreshObject method [Windows Shell], RefreshObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_RefreshObject, shell.IShellFolderView_RefreshObject, shlobj_core/IShellFolderView::RefreshObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_decoder_decode_callback.htm
 tech.root: wsw
 ms.assetid: 04ba9b13-8145-4956-85b2-2330c792665a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_DECODER_DECODE_CALLBACK, WS_DECODER_DECODE_CALLBACK callback, WS_DECODER_DECODE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_DECODE_CALLBACK, wsw.ws_decoder_decode_callback
 ms.prod: windows
 ms.technology: windows-sdk

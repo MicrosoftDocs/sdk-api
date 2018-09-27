@@ -7,7 +7,7 @@ old-location: base\setthreadpoolcallbackpersistent.htm
 tech.root: procthread
 ms.assetid: 3f209586-5452-4928-8f97-70648b22460d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: SetThreadpoolCallbackPersistent, SetThreadpoolCallbackPersistent function, base.setthreadpoolcallbackpersistent, winbase/SetThreadpoolCallbackPersistent
 ms.prod: windows-hardware
 ms.technology: windows-devices

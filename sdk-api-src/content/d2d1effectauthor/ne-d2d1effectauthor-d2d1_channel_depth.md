@@ -4,10 +4,10 @@ title: D2D1_CHANNEL_DEPTH
 author: windows-sdk-content
 description: Allows a caller to control the channel depth of a stage in the rendering pipeline.
 old-location: direct2d\d2d1_channel_depth.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 78129b15-a770-49c0-b58b-8cb850f80006
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_CHANNEL_DEPTH, D2D1_CHANNEL_DEPTH enumeration [Direct2D], D2D1_CHANNEL_DEPTH_1, D2D1_CHANNEL_DEPTH_4, D2D1_CHANNEL_DEPTH_DEFAULT, d2d1effectauthor/D2D1_CHANNEL_DEPTH, d2d1effectauthor/D2D1_CHANNEL_DEPTH_1, d2d1effectauthor/D2D1_CHANNEL_DEPTH_4, d2d1effectauthor/D2D1_CHANNEL_DEPTH_DEFAULT, direct2d.d2d1_channel_depth
 ms.prod: windows
 ms.technology: windows-sdk

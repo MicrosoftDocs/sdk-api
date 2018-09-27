@@ -2,7 +2,7 @@
 UID: TP:winprog
 ms.assetid: 83e6e3dc-b151-3e86-ac66-a7eabe59b7b6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,6 +18,7 @@ Overview of the Developer Notes technology.
 To develop Developer Notes, you need these headers:
 
  * [advpub.h](../advpub/index.md)
+ * [apiquery2.h](../apiquery2/index.md)
  * [appcompatapi.h](../appcompatapi/index.md)
  * [aux_ulib.h](../aux_ulib/index.md)
  * [avrfsdk.h](../avrfsdk/index.md)

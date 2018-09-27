@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IDockProvider_SetDockPosition.htm
 tech.root: WinAuto
 ms.assetid: 2e3d9a59-6bf4-4980-b318-f1badb0f8031
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IDockProvider interface [Windows Accessibility],SetDockPosition method, IDockProvider.SetDockPosition, IDockProvider::SetDockPosition, SetDockPosition, SetDockPosition method [Windows Accessibility], SetDockPosition method [Windows Accessibility],IDockProvider interface, uiauto.uiauto_IDockProvider_SetDockPosition, uiauto_IDockProvider_SetDockPosition, uiautomationcore/IDockProvider::SetDockPosition, winauto.uiauto_IDockProvider_SetDockPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

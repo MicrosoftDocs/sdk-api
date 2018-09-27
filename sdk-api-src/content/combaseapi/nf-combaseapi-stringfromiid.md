@@ -7,7 +7,7 @@ old-location: com\stringfromiid.htm
 tech.root: com
 ms.assetid: 92e59631-0675-4bca-bcd4-a1f83ab6ec8a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: StringFromIID, StringFromIID function [COM], _com_StringFromIID, com.stringfromiid, combaseapi/StringFromIID
 ms.prod: windows-hardware
 ms.technology: windows-devices

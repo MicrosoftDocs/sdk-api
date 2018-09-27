@@ -4,10 +4,10 @@ title: INetFwProducts::get_Count
 author: windows-sdk-content
 description: Indicates the number of registered third-party firewall products.
 old-location: ics\inetfwproducts_count.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 2090603e-33c8-4b2a-86d4-efc1c5665af8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwProducts interface, INetFwProducts interface [ICS/ICF],Count property, INetFwProducts.Count, INetFwProducts.get_Count, INetFwProducts::Count, INetFwProducts::get_Count, get_Count, ics.inetfwproducts_count, netfw/INetFwProducts::Count, netfw/INetFwProducts::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

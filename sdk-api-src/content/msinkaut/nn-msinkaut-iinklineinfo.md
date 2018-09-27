@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo.htm
 tech.root: tablet
 ms.assetid: 58774f49-6af2-4b81-bbd5-709eb694af2d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 58774f49-6af2-4b81-bbd5-709eb694af2d, IInkLineInfo, IInkLineInfo interface [Tablet PC], IInkLineInfo interface [Tablet PC],described, msinkaut/IInkLineInfo, tablet.iinklineinfo
 ms.prod: windows
 ms.technology: windows-sdk

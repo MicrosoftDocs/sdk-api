@@ -7,7 +7,7 @@ old-location: wsw\ws_cert_failure.htm
 tech.root: wsw
 ms.assetid: e2324688-abf5-4b09-b236-502af8e1fcd1
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_CERT_FAILURE, WS_CERT_FAILURE enumeration [Web Services for Windows], WS_CERT_FAILURE_CN_MISMATCH, WS_CERT_FAILURE_INVALID_DATE, WS_CERT_FAILURE_REVOCATION_OFFLINE, WS_CERT_FAILURE_UNTRUSTED_ROOT, WS_CERT_FAILURE_WRONG_USAGE, __unnamed_enum_8, webservices/WS_CERT_FAILURE, webservices/WS_CERT_FAILURE_CN_MISMATCH, webservices/WS_CERT_FAILURE_INVALID_DATE, webservices/WS_CERT_FAILURE_REVOCATION_OFFLINE, webservices/WS_CERT_FAILURE_UNTRUSTED_ROOT, webservices/WS_CERT_FAILURE_WRONG_USAGE, wsw.ws_cert_failure
 ms.prod: windows
 ms.technology: windows-sdk

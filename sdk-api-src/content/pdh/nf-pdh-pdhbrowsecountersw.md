@@ -4,10 +4,10 @@ title: PdhBrowseCountersW function
 author: windows-sdk-content
 description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function.
 old-location: perf\pdhbrowsecounters.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: 4e9e4b20-a573-4f6d-97e8-63bcc675032b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: PdhBrowseCounters, PdhBrowseCounters function [Perf], PdhBrowseCountersA, PdhBrowseCountersW, _win32_pdhbrowsecounters, base.pdhbrowsecounters, pdh/PdhBrowseCounters, pdh/PdhBrowseCountersA, pdh/PdhBrowseCountersW, perf.pdhbrowsecounters
 ms.prod: windows-hardware
 ms.technology: windows-devices

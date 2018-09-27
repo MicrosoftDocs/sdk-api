@@ -4,10 +4,10 @@ title: IUpdateSearcher::get_Online
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the UpdateSearcher goes online to search for updates.
 old-location: wua\iupdatesearcheronline.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: b395d19f-812c-441a-b0a7-7edb10dc3fcc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Online property, IUpdateSearcher.Online, IUpdateSearcher.get_Online, IUpdateSearcher::Online, IUpdateSearcher::get_Online, IUpdateSearcher::put_Online, Online property [Windows Update Agent], Online property [Windows Update Agent],IUpdateSearcher interface, get_Online, wua.iupdatesearcheronline, wuapi/IUpdateSearcher::Online, wuapi/IUpdateSearcher::get_Online, wuapi/IUpdateSearcher::put_Online
 ms.prod: windows-hardware
 ms.technology: windows-devices

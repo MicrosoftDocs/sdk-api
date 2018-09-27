@@ -4,10 +4,10 @@ title: "_PERF_COUNTER_INFO"
 author: windows-sdk-content
 description: Defines information about a counter that a provider uses. The CTRPP tool automatically generates this structure based on the schema you specify.
 old-location: perf\perf_counter_info.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: f1fb6ad5-ad38-46d0-b76d-803887ba3d97
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: "*PPERF_COUNTER_INFO, PERF_ATTRIB_BY_REFERENCE, PERF_ATTRIB_DISPLAY_AS_HEX, PERF_ATTRIB_DISPLAY_AS_REAL, PERF_ATTRIB_NO_DISPLAYABLE, PERF_ATTRIB_NO_GROUP_SEPARATOR, PERF_COUNTER_INFO, PERF_COUNTER_INFO structure [Perf], PERF_COUNTER_INFO,*PPERF_COUNTER_INFO, PERF_COUNTER_INFO,*PPERF_COUNTER_INFO structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, _PERF_COUNTER_INFO, base.perf_counter_info, perf.perf_counter_info, perflib/PERF_COUNTER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

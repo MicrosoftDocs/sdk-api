@@ -4,10 +4,10 @@ title: INetFwRule::put_Profiles
 author: windows-sdk-content
 description: Specifies the profiles to which the rule belongs.
 old-location: ics\inetfwrule_profiles.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 98e40140-1df2-439a-9c83-a50f82f65e24
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Profiles property, INetFwRule.Profiles, INetFwRule.put_Profiles, INetFwRule::Profiles, INetFwRule::get_Profiles, INetFwRule::put_Profiles, Profiles property [ICS/ICF], Profiles property [ICS/ICF],INetFwRule interface, ics.inetfwrule_profiles, netfw/INetFwRule::Profiles, netfw/INetFwRule::get_Profiles, netfw/INetFwRule::put_Profiles, put_Profiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

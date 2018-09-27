@@ -7,7 +7,7 @@ old-location: shell\getscalefactorfordevice.htm
 tech.root: shell
 ms.assetid: 5F312914-03F6-42E0-80F9-761D854A81A3
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: GetScaleFactorForDevice, GetScaleFactorForDevice function [Windows Shell], shell.getscalefactorfordevice, shellscalingapi/GetScaleFactorForDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

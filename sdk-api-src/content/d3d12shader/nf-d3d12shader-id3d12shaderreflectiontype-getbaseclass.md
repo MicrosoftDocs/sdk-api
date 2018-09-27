@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectiontype_getbaseclass.htm
 tech.root: direct3d12
 ms.assetid: 87EC1297-0951-4BE5-8CAC-BA71FB6237C0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: GetBaseClass, GetBaseClass method, GetBaseClass method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetBaseClass method, ID3D12ShaderReflectionType.GetBaseClass, ID3D12ShaderReflectionType::GetBaseClass, d3d12shader/ID3D12ShaderReflectionType::GetBaseClass, direct3d12.id3d12shaderreflectiontype_getbaseclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

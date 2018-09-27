@@ -2,13 +2,12 @@
 UID: NA:dhcpssdk
 ms.assetid: 9323c364-117e-30e2-b820-54802b5fa17c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dhcp
-archived: true
 ---
 
 # Dhcpssdk.h header

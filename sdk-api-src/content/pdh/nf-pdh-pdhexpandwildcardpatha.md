@@ -4,10 +4,10 @@ title: PdhExpandWildCardPathA function
 author: windows-sdk-content
 description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters. To use handles to data sources, use the PdhExpandWildCardPathH function.
 old-location: perf\pdhexpandwildcardpath.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: 415da310-de56-4d58-8959-231426867526
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPath, PdhExpandWildCardPath function [Perf], PdhExpandWildCardPathA, PdhExpandWildCardPathW, _win32_pdhexpandwildcardpath, base.pdhexpandwildcardpath, pdh/PdhExpandWildCardPath, pdh/PdhExpandWildCardPathA, pdh/PdhExpandWildCardPathW, perf.pdhexpandwildcardpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

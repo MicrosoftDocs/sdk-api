@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_ActivateHandler.htm
 tech.root: shell
 ms.assetid: 95f332a4-c76c-437f-a756-528cbbb39e2d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: ActivateHandler, ActivateHandler method [Windows Shell], ActivateHandler method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],ActivateHandler method, ISyncMgrControl.ActivateHandler, ISyncMgrControl::ActivateHandler, _shell_ISyncMgrControl_ActivateHandler, shell.ISyncMgrControl_ActivateHandler, syncmgr/ISyncMgrControl::ActivateHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

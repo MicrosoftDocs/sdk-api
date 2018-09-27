@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_deleteconfig.htm
 tech.root: hid
 ms.assetid: f589e5f4-e003-4a42-b7e6-10b5b14d1aa6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: DeleteConfig, DeleteConfig method [Human Input Devices], DeleteConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],DeleteConfig method, IDirectInputJoyConfig8.DeleteConfig, IDirectInputJoyConfig8::DeleteConfig, di_ref_453b121d-6edc-4674-ab3c-f610ba900831.xml, dinputd/IDirectInputJoyConfig8::DeleteConfig, hid.idirectinputjoyconfig8_deleteconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

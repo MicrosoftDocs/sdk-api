@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiocaptureclient_getnextpacketsize.htm
 tech.root: CoreAudio
 ms.assetid: 352dcd7d-a7e1-493f-b9ce-c125f9d45fa8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: GetNextPacketSize, GetNextPacketSize method [Core Audio], GetNextPacketSize method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetNextPacketSize method, IAudioCaptureClient.GetNextPacketSize, IAudioCaptureClient::GetNextPacketSize, IAudioCaptureClientGetNextPacketSize, audioclient/IAudioCaptureClient::GetNextPacketSize, coreaudio.iaudiocaptureclient_getnextpacketsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

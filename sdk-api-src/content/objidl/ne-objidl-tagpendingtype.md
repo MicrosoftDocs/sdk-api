@@ -7,7 +7,7 @@ old-location: com\pendingtype.htm
 tech.root: com
 ms.assetid: 8f167342-5398-4ecc-9b56-dcf2b4248c65
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: PENDINGTYPE, PENDINGTYPE enumeration [COM], PENDINGTYPE_NESTED, PENDINGTYPE_TOPLEVEL, _com_PENDINGTYPE, com.pendingtype, objidl/PENDINGTYPE, objidl/PENDINGTYPE_NESTED, objidl/PENDINGTYPE_TOPLEVEL, tagPENDINGTYPE
 ms.prod: windows
 ms.technology: windows-sdk

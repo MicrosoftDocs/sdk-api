@@ -7,7 +7,7 @@ old-location: setup\msicollectuserinfo.htm
 tech.root: msi
 ms.assetid: a8be3c24-cd5a-4da9-abe7-b0e40a87a07f
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/14/2018
 ms.keywords: MsiCollectUserInfo, MsiCollectUserInfo function, MsiCollectUserInfoA, MsiCollectUserInfoW, _msi_msicollectuserinfo, msi/MsiCollectUserInfo, msi/MsiCollectUserInfoA, msi/MsiCollectUserInfoW, setup.msicollectuserinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

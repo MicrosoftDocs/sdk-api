@@ -4,10 +4,10 @@ title: ITAgentHandlerEvent
 author: windows-sdk-content
 description: The ITAgentHandlerEvent interface contains methods that retrieve the description of agent handler events.
 old-location: tapi3\itagenthandlerevent.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: c61becce-09fd-4b12-bbc9-98df57d5f0d3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITAgentHandlerEvent, ITAgentHandlerEvent interface [TAPI 2.2], ITAgentHandlerEvent interface [TAPI 2.2],described, _tapi3_itagenthandlerevent, tapi3.itagenthandlerevent, tapi3cc/ITAgentHandlerEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ID2D1SvgElement::GetFirstChild
 author: windows-sdk-content
 description: Gets the first child of this element.
 old-location: direct2d\id2d1svgelement_getfirstchild.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 6EA233AE-CC2C-442D-A8CE-FF3DC645785A
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetFirstChild, GetFirstChild method [Direct2D], GetFirstChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetFirstChild method, ID2D1SvgElement.GetFirstChild, ID2D1SvgElement::GetFirstChild, d2d1svg/ID2D1SvgElement::GetFirstChild, direct2d.id2d1svgelement_getfirstchild
 ms.prod: windows-hardware
 ms.technology: windows-devices

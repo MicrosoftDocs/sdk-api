@@ -2,12 +2,11 @@
 UID: TP:debug
 ms.assetid: ef7e939a-0110-36b3-8c6d-e740e5c83133
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Debugging and authoring support
@@ -21,5 +20,5 @@ To develop Debugging and authoring support, you need these headers:
  * [webapplication.h](../webapplication/index.md)
 
 For programming guidance for this technology, see:
-* [Debugging and authoring support](/previous-versions/windows/desktop/debug_wwahost)
+* [Debugging and authoring support](/windows/desktop/debug_wwahost)
 

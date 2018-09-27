@@ -2,7 +2,7 @@
 UID: TP:powermeter
 ms.assetid: 87d19931-d859-3aff-b7ce-1b0060d965a5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

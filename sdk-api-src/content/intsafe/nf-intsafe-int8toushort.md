@@ -7,7 +7,7 @@ old-location: shell\Int8ToUShort.htm
 tech.root: shell
 ms.assetid: 541363e2-a112-4070-af6d-3f5de60a3cd1
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: Int8ToUShort, Int8ToUShort function [Windows Shell], intsafe/Int8ToUShort, shell.Int8ToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

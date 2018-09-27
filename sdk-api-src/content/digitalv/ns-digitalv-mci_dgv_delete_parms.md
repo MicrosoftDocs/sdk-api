@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_delete_parms.htm
 tech.root: Multimedia
 ms.assetid: 0150a749-c8f3-4cc1-b212-c2a280f55afd
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/25/2018
 ms.keywords: "*LPMCI_DGV_DELETE_PARMS, MCI_DGV_DELETE_PARMS, MCI_DGV_DELETE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_DELETE_PARMS_str, digitalv/MCI_DGV_DELETE_PARMS, multimedia.mci_dgv_delete_parms"
 ms.prod: windows
 ms.technology: windows-sdk

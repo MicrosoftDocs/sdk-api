@@ -2,12 +2,12 @@
 UID: NA:comsvcs
 ms.assetid: 03923598-8e51-32d0-ab59-a6cc44135a18
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: cos
+tech.root: winmessenger
 ---
 
 # Comsvcs.h header
@@ -16,6 +16,6 @@ tech.root: cos
 ## -description
 
 
-This header is used by COM+ (Component Services). For more information, see:
+This header is used by Windows Messenger. For more information, see:
 
-- [COM+ (Component Services)](../_cos)
+- [Windows Messenger](../_winmessenger)

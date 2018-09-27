@@ -7,7 +7,7 @@ old-location: shell\IAppPublisher.htm
 tech.root: shell
 ms.assetid: 5391444a-53b6-48c9-9a94-d045b3f97182
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IAppPublisher, IAppPublisher interface [Windows Shell], IAppPublisher interface [Windows Shell],described, inet_IAppPublisher, shappmgr/IAppPublisher, shell.IAppPublisher
 ms.prod: windows
 ms.technology: windows-sdk

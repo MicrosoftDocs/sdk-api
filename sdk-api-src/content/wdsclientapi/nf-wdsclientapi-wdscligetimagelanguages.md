@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagelanguages.htm
 tech.root: wds
 ms.assetid: 2f027cf9-fad6-4ae6-98ac-83b9041c095e
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WdsCliGetImageLanguages, WdsCliGetImageLanguages function [Windows Deployment Services], wds.wdscligetimagelanguages, wdsclientapi/WdsCliGetImageLanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices

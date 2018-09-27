@@ -7,7 +7,7 @@ old-location: base\setcommbreak.htm
 tech.root: devio
 ms.assetid: 997fa1e0-c585-4517-abe7-77b9b08440ee
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: SetCommBreak, SetCommBreak function, _win32_setcommbreak, base.setcommbreak, winbase/SetCommBreak
 ms.prod: windows-hardware
 ms.technology: windows-devices

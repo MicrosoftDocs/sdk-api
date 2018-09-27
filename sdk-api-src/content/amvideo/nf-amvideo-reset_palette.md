@@ -7,7 +7,7 @@ old-location: dshow\reset_palette.htm
 tech.root: DirectShow
 ms.assetid: e981f5d4-9ad2-4e9b-8bc8-6a5e9a2fd632
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: RESET_PALETTE, RESET_PALETTE macro [DirectShow], amvideo/RESET_PALETTE, dshow.reset_palette
 ms.prod: windows-hardware
 ms.technology: windows-devices

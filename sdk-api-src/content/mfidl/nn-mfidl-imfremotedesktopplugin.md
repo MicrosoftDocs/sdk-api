@@ -7,7 +7,7 @@ old-location: mf\imfremotedesktopplugin.htm
 tech.root: medfound
 ms.assetid: 75bb9bf8-12a7-430f-9943-18623aff9903
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 75bb9bf8-12a7-430f-9943-18623aff9903, IMFRemoteDesktopPlugin, IMFRemoteDesktopPlugin interface [Media Foundation], IMFRemoteDesktopPlugin interface [Media Foundation],described, mf.imfremotedesktopplugin, mfidl/IMFRemoteDesktopPlugin
 ms.prod: windows
 ms.technology: windows-sdk

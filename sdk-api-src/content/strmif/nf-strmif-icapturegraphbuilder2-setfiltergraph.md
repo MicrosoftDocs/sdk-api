@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_setfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 6193ece8-cdf1-44f5-9619-16380352193f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetFiltergraph method, ICaptureGraphBuilder2.SetFiltergraph, ICaptureGraphBuilder2::SetFiltergraph, ICaptureGraphBuilder2SetFiltergraph, SetFiltergraph, SetFiltergraph method [DirectShow], SetFiltergraph method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setfiltergraph, strmif/ICaptureGraphBuilder2::SetFiltergraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

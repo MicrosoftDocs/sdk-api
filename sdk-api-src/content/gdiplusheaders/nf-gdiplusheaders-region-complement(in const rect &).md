@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Region.Complement(IN const Rect &)
 title: Region::Complement(IN const Rect &)
 author: windows-sdk-content
-description: This topic lists the Complement methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
-old-location: gdiplus\_gdiplus_CLASS_Region_Complement_Methods.htm
+description: The Region::Complement method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
+old-location: gdiplus\_gdiplus_CLASS_Region_Complement_Rect_rect_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regioncomplementmethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regioncomplementmethods\complement_40rectamprect.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Complement, Complement methods [GDI+], Region.Complement, Region.Complement(IN const Rect &), Region::Complement, Region::Complement(IN const Rect &), _gdiplus_CLASS_Region_Complement_Methods, gdiplus._gdiplus_CLASS_Region_Complement_Methods, gdiplusheaders/Complement
+ms.keywords: Complement, Complement method [GDI+], Complement method [GDI+],Region class, Region class [GDI+],Complement method, Region.Complement, Region.Complement(IN const Rect &), Region.Complement(const Rect&), Region::Complement, Region::Complement(IN const Rect &), _gdiplus_CLASS_Region_Complement_Rect_rect_, gdiplus._gdiplus_CLASS_Region_Complement_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusheaders.h
+ - Gdiplus.dll
 api_name:
  - Region.Complement
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Region::Complement(IN const Rect &)
@@ -50,52 +51,51 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Complement methods of the 
-			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.
+The <b>Region::Complement</b> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a83d400f-0a3d-4486-a9a7-831455908ff8">Complement(Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a83d400f-0a3d-4486-a9a7-831455908ff8">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40ddcb50-60f7-48b6-a0cb-b0c946f9acf2">Complement(RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/40ddcb50-60f7-48b6-a0cb-b0c946f9acf2">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/084846dd-1459-40f4-9db2-db8995d37bd7">Complement(Region*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/084846dd-1459-40f4-9db2-db8995d37bd7">Region::Complement</a> method updates this region to the portion of another region that does not intersect this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/003454a9-5439-463c-939d-a48555ac91b6">Complement(GraphicsPath*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/003454a9-5439-463c-939d-a48555ac91b6">Region::Complement</a> method updates this region to the portion of the specified path's interior that does not intersect this region.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param rect [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
+
+Reference to a rectangle to use to update this 
+					<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the <b>Status</b> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+
+
+
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+ 
+
+ 
 

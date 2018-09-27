@@ -2,12 +2,13 @@
 UID: NA:segment
 ms.assetid: d3c6e3ed-19e3-3299-b12b-0989291a2ee4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: dshow
+tech.root: mstv
+archived: true
 ---
 
 # Segment.h header
@@ -16,6 +17,6 @@ tech.root: dshow
 ## -description
 
 
-This header is used by DirectShow. For more information, see:
+This header is used by Microsoft TV Technologies. For more information, see:
 
-- [DirectShow](../_dshow)
+- [Microsoft TV Technologies](../_mstv)

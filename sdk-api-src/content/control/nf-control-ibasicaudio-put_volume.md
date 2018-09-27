@@ -7,7 +7,7 @@ old-location: dshow\ibasicaudio_put_volume.htm
 tech.root: DirectShow
 ms.assetid: 95171b87-e558-450b-8a48-f43a19069218
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IBasicAudio interface [DirectShow],put_Volume method, IBasicAudio.put_Volume, IBasicAudio::put_Volume, IBasicAudioput_Volume, control/IBasicAudio::put_Volume, dshow.ibasicaudio_put_volume, put_Volume, put_Volume method [DirectShow], put_Volume method [DirectShow],IBasicAudio interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

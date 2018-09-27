@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_mtom_encoding.htm
 tech.root: wsw
 ms.assetid: 18236818-492f-4906-9e7d-6ca03ef28d36
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_XML_WRITER_MTOM_ENCODING, WS_XML_WRITER_MTOM_ENCODING structure [Web Services for Windows], _WS_XML_WRITER_MTOM_ENCODING, webservices/WS_XML_WRITER_MTOM_ENCODING, wsw.ws_xml_writer_mtom_encoding
 ms.prod: windows
 ms.technology: windows-sdk

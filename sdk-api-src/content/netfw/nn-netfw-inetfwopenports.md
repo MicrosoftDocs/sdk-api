@@ -4,10 +4,10 @@ title: INetFwOpenPorts
 author: windows-sdk-content
 description: The INetFwOpenPorts interface is a standard Automation collection interface.
 old-location: ics\inetfwopenports.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: a3a6e5c1-5818-419c-8df4-966b2fbcd8c0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], INetFwOpenPorts interface [ICS/ICF],described, ics.inetfwopenports, netfw/INetFwOpenPorts
 ms.prod: windows
 ms.technology: windows-sdk

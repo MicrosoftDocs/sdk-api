@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_buffer_property.htm
 tech.root: wsw
 ms.assetid: bec8d297-7f5a-4b8f-a333-9b535358c470
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_XML_BUFFER_PROPERTY, WS_XML_BUFFER_PROPERTY structure [Web Services for Windows], _WS_XML_BUFFER_PROPERTY, webservices/WS_XML_BUFFER_PROPERTY, wsw.ws_xml_buffer_property
 ms.prod: windows
 ms.technology: windows-sdk

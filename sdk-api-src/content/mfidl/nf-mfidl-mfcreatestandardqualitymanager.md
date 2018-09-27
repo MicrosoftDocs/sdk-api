@@ -7,7 +7,7 @@ old-location: mf\mfcreatestandardqualitymanager.htm
 tech.root: medfound
 ms.assetid: 9abaa474-8a00-4e36-897d-9de9578333b7
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 9abaa474-8a00-4e36-897d-9de9578333b7, MFCreateStandardQualityManager, MFCreateStandardQualityManager function [Media Foundation], mf.mfcreatestandardqualitymanager, mfidl/MFCreateStandardQualityManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

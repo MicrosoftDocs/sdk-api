@@ -2,7 +2,7 @@
 UID: NA:opmapi
 ms.assetid: 0ea5aeb3-c012-3e42-9263-c1beb0218cb9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

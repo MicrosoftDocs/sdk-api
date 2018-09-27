@@ -7,7 +7,7 @@ old-location: setup\msirecordsetinteger.htm
 tech.root: msi
 ms.assetid: d95105f0-afd6-4f56-94bd-ac8f49cb8f52
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/14/2018
 ms.keywords: MsiRecordSetInteger, MsiRecordSetInteger function, _msi_msirecordsetinteger, msiquery/MsiRecordSetInteger, setup.msirecordsetinteger
 ms.prod: windows-hardware
 ms.technology: windows-devices

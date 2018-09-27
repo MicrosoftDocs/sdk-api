@@ -7,7 +7,7 @@ old-location: base\irtwqasyncresult.htm
 tech.root: procthread
 ms.assetid: AB23282D-D731-48EE-AF55-CC5A513EBA33
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IRtwqAsyncResult, IRtwqAsyncResult interface, IRtwqAsyncResult interface,described, base.irtwqasyncresult, rtworkq/IRtwqAsyncResult
 ms.prod: windows
 ms.technology: windows-sdk

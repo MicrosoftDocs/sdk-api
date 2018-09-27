@@ -2,7 +2,7 @@
 UID: TP:winsock
 ms.assetid: 517f0d35-1c4a-3ed3-b68d-6bb755388d9e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,6 @@ To develop Windows Sockets 2, you need these headers:
  * [sporder.h](../sporder/index.md)
  * [transportsettingcommon.h](../transportsettingcommon/index.md)
  * [winsock.h](../winsock/index.md)
- * [winsock2.h](../winsock2/index.md)
  * [ws2atm.h](../ws2atm/index.md)
  * [ws2spi.h](../ws2spi/index.md)
  * [ws2tcpip.h](../ws2tcpip/index.md)

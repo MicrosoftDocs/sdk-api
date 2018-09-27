@@ -7,7 +7,7 @@ old-location: security\crypt_xml_transform_info.htm
 tech.root: seccrypto
 ms.assetid: 4821dc8f-11d4-4083-bb17-9d9637d99af5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCRYPT_XML_TRANSFORM_INFO, CRYPT_XML_TRANSFORM_INFO, CRYPT_XML_TRANSFORM_INFO structure [Security], CRYPT_XML_TRANSFORM_ON_NODESET, CRYPT_XML_TRANSFORM_ON_STREAM, CRYPT_XML_TRANSFORM_URI_QUERY_STRING, PCRYPT_XML_TRANSFORM_INFO, PCRYPT_XML_TRANSFORM_INFO structure pointer [Security], _CRYPT_XML_TRANSFORM_INFO, cryptxml/CRYPT_XML_TRANSFORM_INFO, cryptxml/PCRYPT_XML_TRANSFORM_INFO, security.crypt_xml_transform_info"
 ms.prod: windows
 ms.technology: windows-sdk

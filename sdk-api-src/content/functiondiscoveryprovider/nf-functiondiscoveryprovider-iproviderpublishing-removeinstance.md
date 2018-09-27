@@ -7,7 +7,7 @@ old-location: ncd\iproviderpublishing_removeinstance_method.htm
 tech.root: fundisc
 ms.assetid: 7b4f6122-944e-4fe9-be95-dd09ae1542f1
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IProviderPublishing interface,RemoveInstance method, IProviderPublishing.RemoveInstance, IProviderPublishing::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IProviderPublishing interface, functiondiscoveryprovider/IProviderPublishing::RemoveInstance, ncd.iproviderpublishing_removeinstance_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_getprocampcontrolrange.htm
 tech.root: DirectShow
 ms.assetid: e7db2b22-b3d2-4c6f-84fc-5a287761ed7a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetProcAmpControlRange, GetProcAmpControlRange method [DirectShow], GetProcAmpControlRange method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControlRange method, IVMRMixerControl9.GetProcAmpControlRange, IVMRMixerControl9::GetProcAmpControlRange, IVMRMixerControl9GetProcAmpControlRange, dshow.ivmrmixercontrol9_getprocampcontrolrange, vmr9/IVMRMixerControl9::GetProcAmpControlRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

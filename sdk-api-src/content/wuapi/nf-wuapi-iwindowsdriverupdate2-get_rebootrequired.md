@@ -4,10 +4,10 @@ title: IWindowsDriverUpdate2::get_RebootRequired
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the computer must be restarted after you install or uninstall an update.
 old-location: wua\iwindowsdriverupdate2_rebootrequired.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 32c6982e-9654-4f8f-acca-ba1e4d52b210
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: IWindowsDriverUpdate2 interface [Windows Update Agent],RebootRequired property, IWindowsDriverUpdate2.RebootRequired, IWindowsDriverUpdate2.get_RebootRequired, IWindowsDriverUpdate2::RebootRequired, IWindowsDriverUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IWindowsDriverUpdate2 interface, get_RebootRequired, wua.iwindowsdriverupdate2_rebootrequired, wuapi/IWindowsDriverUpdate2::RebootRequired, wuapi/IWindowsDriverUpdate2::get_RebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

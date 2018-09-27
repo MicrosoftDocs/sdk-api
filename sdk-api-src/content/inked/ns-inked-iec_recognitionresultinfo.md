@@ -7,7 +7,7 @@ old-location: tablet\iec_recognitionresultinfo__win32_only_.htm
 tech.root: tablet
 ms.assetid: a17dd2e4-0649-4cfc-aab3-c032710480a1
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IEC_RECOGNITIONRESULTINFO, IEC_RECOGNITIONRESULTINFO (Win32 Only), IEC_RECOGNITIONRESULTINFO (Win32 Only) structure [Tablet PC], a17dd2e4-0649-4cfc-aab3-c032710480a1, inked/IEC_RECOGNITIONRESULTINFO, tablet.iec_recognitionresultinfo__win32_only_
 ms.prod: windows
 ms.technology: windows-sdk

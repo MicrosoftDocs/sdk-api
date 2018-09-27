@@ -7,7 +7,7 @@ old-location: winprog\ntdeviceiocontrolfile.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntdeviceiocontrolfile.htm
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/25/2018
 ms.keywords: NtDeviceIoControlFile, NtDeviceIoControlFile function [Windows API], winprog.ntdeviceiocontrolfile, winternl/NtDeviceIoControlFile, winui.ntdeviceiocontrolfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

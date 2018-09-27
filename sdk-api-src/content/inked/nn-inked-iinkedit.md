@@ -7,7 +7,7 @@ old-location: tablet\iinkedit_.htm
 tech.root: tablet
 ms.assetid: 8F47529B-52E9-4D67-81B3-DD2584B98101
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IInkEdit, IInkEdit interface [Tablet PC], IInkEdit interface [Tablet PC],described, inked/IInkEdit, tablet.iinkedit_
 ms.prod: windows
 ms.technology: windows-sdk

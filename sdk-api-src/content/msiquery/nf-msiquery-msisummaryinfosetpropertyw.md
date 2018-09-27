@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfosetproperty.htm
 tech.root: msi
 ms.assetid: 0cd04068-537e-497a-97ff-7aea4e316b87
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/14/2018
 ms.keywords: MsiSummaryInfoSetProperty, MsiSummaryInfoSetProperty function, MsiSummaryInfoSetPropertyA, MsiSummaryInfoSetPropertyW, _msi_msisummaryinfosetproperty, msiquery/MsiSummaryInfoSetProperty, msiquery/MsiSummaryInfoSetPropertyA, msiquery/MsiSummaryInfoSetPropertyW, setup.msisummaryinfosetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

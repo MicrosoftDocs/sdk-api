@@ -7,7 +7,7 @@ old-location: security\crypt_attribute_type_value.htm
 tech.root: seccrypto
 ms.assetid: 84057581-d0a9-464a-9399-ba806e37516f
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE structure [Security], PCRYPT_ATTRIBUTE_TYPE_VALUE, PCRYPT_ATTRIBUTE_TYPE_VALUE structure pointer [Security], _CRYPT_ATTRIBUTE_TYPE_VALUE, _crypto2_crypt_attribute_type_value, security.crypt_attribute_type_value, wincrypt/CRYPT_ATTRIBUTE_TYPE_VALUE, wincrypt/PCRYPT_ATTRIBUTE_TYPE_VALUE"
 ms.prod: windows
 ms.technology: windows-sdk

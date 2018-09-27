@@ -4,10 +4,10 @@ title: ID2D1SvgStrokeDashArray::GetDashes(FLOAT,UINT32,UINT32)
 author: windows-sdk-content
 description: Gets dashes from the array.
 old-location: direct2d\id2d1svgstrokedasharray_getdashes.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: E5C7A573-3373-4323-8712-93D89B6A53C5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetDashes, GetDashes method [Direct2D], GetDashes method [Direct2D],ID2D1SvgStrokeDashArray interface, ID2D1SvgStrokeDashArray interface [Direct2D],GetDashes method, ID2D1SvgStrokeDashArray.GetDashes, ID2D1SvgStrokeDashArray.GetDashes(FLOAT,UINT32,UINT32), ID2D1SvgStrokeDashArray::GetDashes, ID2D1SvgStrokeDashArray::GetDashes(FLOAT,UINT32,UINT32), d2d1svg/ID2D1SvgStrokeDashArray::GetDashes, direct2d.id2d1svgstrokedasharray_getdashes
 ms.prod: windows-hardware
 ms.technology: windows-devices

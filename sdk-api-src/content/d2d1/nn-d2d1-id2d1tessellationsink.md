@@ -4,10 +4,10 @@ title: ID2D1TessellationSink
 author: windows-sdk-content
 description: Populates an ID2D1Mesh object with triangles.
 old-location: direct2d\ID2D1TessellationSink.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 967c702f-d16f-4a8e-ac77-a8bb35afe0a1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1TessellationSink, ID2D1TessellationSink interface [Direct2D], ID2D1TessellationSink interface [Direct2D],described, d2d1/ID2D1TessellationSink, direct2d.ID2D1TessellationSink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\cmc_tagged_other_msg.htm
 tech.root: seccrypto
 ms.assetid: cf70c245-fe22-4c02-9cfd-07690b930585
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG structure [Security], PCMC_TAGGED_OTHER_MSG, PCMC_TAGGED_OTHER_MSG structure pointer [Security], _CMC_TAGGED_OTHER_MSG, _crypto2_cmc_tagged_other_msg, security.cmc_tagged_other_msg, wincrypt/CMC_TAGGED_OTHER_MSG, wincrypt/PCMC_TAGGED_OTHER_MSG"
 ms.prod: windows
 ms.technology: windows-sdk

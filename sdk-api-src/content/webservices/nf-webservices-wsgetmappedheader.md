@@ -7,7 +7,7 @@ old-location: wsw\wsgetmappedheader.htm
 tech.root: wsw
 ms.assetid: abdff5ca-fb0d-4867-b729-5cfe18520f80
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WsGetMappedHeader, WsGetMappedHeader function [Web Services for Windows], webservices/WsGetMappedHeader, wsw.wsgetmappedheader
 ms.prod: windows-hardware
 ms.technology: windows-devices

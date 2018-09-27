@@ -7,7 +7,7 @@ old-location: com\oleclose.htm
 tech.root: com
 ms.assetid: 386f24a4-11d7-4471-960e-1a3ff67ba3c5
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: OLECLOSE, OLECLOSE enumeration [COM], OLECLOSE_NOSAVE, OLECLOSE_PROMPTSAVE, OLECLOSE_SAVEIFDIRTY, _ole_OLECLOSE, com.oleclose, ole/OLECLOSE, ole/OLECLOSE_NOSAVE, ole/OLECLOSE_PROMPTSAVE, ole/OLECLOSE_SAVEIFDIRTY, tagOLECLOSE
 ms.prod: windows
 ms.technology: windows-sdk

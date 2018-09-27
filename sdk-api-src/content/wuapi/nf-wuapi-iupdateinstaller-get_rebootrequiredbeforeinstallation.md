@@ -4,10 +4,10 @@ title: IUpdateInstaller::get_RebootRequiredBeforeInstallation
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a system restart is required before installing or uninstalling updates.
 old-location: wua\iupdateinstaller_rebootrequiredbeforeinstallation.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: ea74de9d-9e09-48c0-9653-c6e593f6497c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],RebootRequiredBeforeInstallation property, IUpdateInstaller.RebootRequiredBeforeInstallation, IUpdateInstaller.get_RebootRequiredBeforeInstallation, IUpdateInstaller::RebootRequiredBeforeInstallation, IUpdateInstaller::get_RebootRequiredBeforeInstallation, RebootRequiredBeforeInstallation property [Windows Update Agent], RebootRequiredBeforeInstallation property [Windows Update Agent],IUpdateInstaller interface, get_RebootRequiredBeforeInstallation, wua.iupdateinstaller_rebootrequiredbeforeinstallation, wuapi/IUpdateInstaller::RebootRequiredBeforeInstallation, wuapi/IUpdateInstaller::get_RebootRequiredBeforeInstallation
 ms.prod: windows-hardware
 ms.technology: windows-devices

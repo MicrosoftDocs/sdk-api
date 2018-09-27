@@ -2,7 +2,6 @@
   "tech": "multimedia",
   "headers": [
     "objbase.h",
-    "unknwn.h",
     "mmreg.h",
     "mmsystem.h",
     "digitalv.h",

@@ -7,7 +7,7 @@ old-location: wsw\ws_http_request_mapping_options.htm
 tech.root: wsw
 ms.assetid: 751bed07-a570-442a-b48a-5fae2d19ad8a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_HTTP_REQUEST_MAPPING_OPTIONS, WS_HTTP_REQUEST_MAPPING_OPTIONS enumeration [Web Services for Windows], WS_HTTP_REQUEST_MAPPING_VERB, __unnamed_enum_3, webservices/WS_HTTP_REQUEST_MAPPING_OPTIONS, webservices/WS_HTTP_REQUEST_MAPPING_VERB, wsw.ws_http_request_mapping_options
 ms.prod: windows
 ms.technology: windows-sdk

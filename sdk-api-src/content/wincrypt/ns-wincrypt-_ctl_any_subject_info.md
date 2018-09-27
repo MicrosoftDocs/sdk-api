@@ -7,7 +7,7 @@ old-location: security\ctl_any_subject_info.htm
 tech.root: seccrypto
 ms.assetid: 367e9914-b69b-47ad-a20a-3dd067708787
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO structure [Security], PCTL_ANY_SUBJECT_INFO, PCTL_ANY_SUBJECT_INFO structure pointer [Security], _CTL_ANY_SUBJECT_INFO, _crypto2_ctl_any_subject_info, security.ctl_any_subject_info, wincrypt/CTL_ANY_SUBJECT_INFO, wincrypt/PCTL_ANY_SUBJECT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

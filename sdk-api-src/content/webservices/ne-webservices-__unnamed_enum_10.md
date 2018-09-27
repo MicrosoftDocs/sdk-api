@@ -7,7 +7,7 @@ old-location: wsw\ws_field_options.htm
 tech.root: wsw
 ms.assetid: 85271aa4-665e-413a-be42-da6f91706bf0
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_FIELD_NILLABLE, WS_FIELD_NILLABLE_ITEM, WS_FIELD_OPTIONAL, WS_FIELD_OPTIONS, WS_FIELD_OPTIONS enumeration [Web Services for Windows], WS_FIELD_OTHER_NAMESPACE, WS_FIELD_POINTER, __unnamed_enum_10, webservices/WS_FIELD_NILLABLE, webservices/WS_FIELD_NILLABLE_ITEM, webservices/WS_FIELD_OPTIONAL, webservices/WS_FIELD_OPTIONS, webservices/WS_FIELD_OTHER_NAMESPACE, webservices/WS_FIELD_POINTER, wsw.ws_field_options
 ms.prod: windows
 ms.technology: windows-sdk

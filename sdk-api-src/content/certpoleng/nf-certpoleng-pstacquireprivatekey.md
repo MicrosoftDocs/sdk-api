@@ -7,7 +7,7 @@ old-location: security\pstacquireprivatekey.htm
 tech.root: secauthn
 ms.assetid: dad2886b-5a74-433f-bd58-deb130104e33
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: PstAcquirePrivateKey, PstAcquirePrivateKey function [Security], certpoleng/PstAcquirePrivateKey, security.pstacquireprivatekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

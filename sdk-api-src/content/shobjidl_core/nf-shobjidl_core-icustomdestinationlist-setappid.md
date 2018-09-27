@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList_SetAppID.htm
 tech.root: shell
 ms.assetid: 7b3a5d32-bf44-4c4f-9b31-6c0a82aac6fd
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: ICustomDestinationList interface [Windows Shell],SetAppID method, ICustomDestinationList.SetAppID, ICustomDestinationList::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],ICustomDestinationList interface, _shell_ICustomDestinationList_SetAppID, shell.ICustomDestinationList_SetAppID, shobjidl_core/ICustomDestinationList::SetAppID
 ms.prod: windows-hardware
 ms.technology: windows-devices

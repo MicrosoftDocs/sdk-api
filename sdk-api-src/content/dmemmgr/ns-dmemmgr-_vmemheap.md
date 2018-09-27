@@ -7,7 +7,7 @@ old-location: display\vmemheap.htm
 tech.root: display
 ms.assetid: bcc5eb95-a438-427f-bb16-7489e9485cd5
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*LPVMEMHEAP, FAR *LPVMEMHEAP, FAR *LPVMEMHEAP structure [Display Devices], VMEMHEAP, VMEMHEAP structure [Display Devices], _VMEMHEAP, ddstrcts_3c571f23-5a4c-43c5-b7fb-69429f8c9dbe.xml, display.vmemheap, dmemmgr/FAR *LPVMEMHEAP, dmemmgr/VMEMHEAP"
 ms.prod: windows
 ms.technology: windows-sdk

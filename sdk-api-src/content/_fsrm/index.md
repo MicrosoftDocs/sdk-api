@@ -2,12 +2,11 @@
 UID: TP:fsrm
 ms.assetid: d2b646ef-23b5-3964-8e20-9a28350f9b5e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # File Server Resource Manager
@@ -26,5 +25,5 @@ To develop File Server Resource Manager, you need these headers:
  * [fsrmscreen.h](../fsrmscreen/index.md)
 
 For programming guidance for this technology, see:
-* [File Server Resource Manager](/previous-versions/windows/desktop/fsrm)
+* [File Server Resource Manager](/windows/desktop/fsrm)
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_url_flags.htm
 tech.root: wsw
 ms.assetid: b74c22fd-35b1-4d7b-974d-8ff7fff07813
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_URL_FLAGS, WS_URL_FLAGS enumeration [Web Services for Windows], WS_URL_FLAGS_ALLOW_HOST_WILDCARDS, WS_URL_FLAGS_NO_PATH_COLLAPSE, WS_URL_FLAGS_ZERO_TERMINATE, __unnamed_enum_12, webservices/WS_URL_FLAGS, webservices/WS_URL_FLAGS_ALLOW_HOST_WILDCARDS, webservices/WS_URL_FLAGS_NO_PATH_COLLAPSE, webservices/WS_URL_FLAGS_ZERO_TERMINATE, wsw.ws_url_flags
 ms.prod: windows
 ms.technology: windows-sdk

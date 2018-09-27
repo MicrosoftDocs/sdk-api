@@ -2,12 +2,12 @@
 UID: NA:mpconfig
 ms.assetid: e3804186-1709-34fa-bf68-111ffe7ed080
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: dshow
+tech.root: virtual
 ---
 
 # Mpconfig.h header
@@ -16,6 +16,6 @@ tech.root: dshow
 ## -description
 
 
-This header is used by DirectShow. For more information, see:
+This header is used by Hyper-V WMI Provider. For more information, see:
 
-- [DirectShow](../_dshow)
+- [Hyper-V WMI Provider](../_virtual)

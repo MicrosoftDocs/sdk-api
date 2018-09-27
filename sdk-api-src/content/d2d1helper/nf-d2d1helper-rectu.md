@@ -4,10 +4,10 @@ title: RectU function
 author: windows-sdk-content
 description: Creates a D2D1_RECT_U structure that contains the specified dimensions.
 old-location: direct2d\rectu.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: a0b7b850-b58d-43a0-b5c5-61a3791f0681
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: RectU, RectU function [Direct2D], d2d1helper/RectU, direct2d.rectu
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: INetFwOpenPorts::get_Count
 author: windows-sdk-content
 description: Retrieves a read-only element yielding the number of items in the collection.
 old-location: ics\inetfwopenports_count.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 83d95b38-0c0d-4325-904e-7953ccef24e7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwOpenPorts interface, INetFwOpenPorts interface [ICS/ICF],Count property, INetFwOpenPorts.Count, INetFwOpenPorts.get_Count, INetFwOpenPorts::Count, INetFwOpenPorts::get_Count, get_Count, ics.inetfwopenports_count, netfw/INetFwOpenPorts::Count, netfw/INetFwOpenPorts::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

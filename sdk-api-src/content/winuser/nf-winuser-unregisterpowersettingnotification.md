@@ -7,7 +7,7 @@ old-location: base\unregisterpowersettingnotification.htm
 tech.root: power
 ms.assetid: de1509f5-cf4c-448e-bb3b-08da6be53bfa
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: UnregisterPowerSettingNotification, UnregisterPowerSettingNotification function, base.unregisterpowersettingnotification, winuser/UnregisterPowerSettingNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_union_field_description.htm
 tech.root: wsw
 ms.assetid: c972e076-0f79-41a7-927b-e57f0cb7bcc6
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_UNION_FIELD_DESCRIPTION, WS_UNION_FIELD_DESCRIPTION structure [Web Services for Windows], _WS_UNION_FIELD_DESCRIPTION, webservices/WS_UNION_FIELD_DESCRIPTION, wsw.ws_union_field_description
 ms.prod: windows
 ms.technology: windows-sdk

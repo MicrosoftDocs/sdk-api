@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryprovider_instancepropertystoreflush.htm
 tech.root: fundisc
 ms.assetid: 7ad29f46-fb21-4287-9fc9-9ab86d44d298
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreFlush method, IFunctionDiscoveryProvider.InstancePropertyStoreFlush, IFunctionDiscoveryProvider::InstancePropertyStoreFlush, InstancePropertyStoreFlush, InstancePropertyStoreFlush method, InstancePropertyStoreFlush method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreFlush, ncd.ifunctiondiscoveryprovider_instancepropertystoreflush
 ms.prod: windows-hardware
 ms.technology: windows-devices

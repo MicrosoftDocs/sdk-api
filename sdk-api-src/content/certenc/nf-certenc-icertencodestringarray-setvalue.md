@@ -7,7 +7,7 @@ old-location: security\icertencodestringarray_setvalue.htm
 tech.root: seccrypto
 ms.assetid: 41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: CCertEncodeStringArray object [Security],SetValue method, ICertEncodeStringArray interface [Security],SetValue method, ICertEncodeStringArray.SetValue, ICertEncodeStringArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeStringArray object, SetValue method [Security],ICertEncodeStringArray interface, _certsrv_icertencodestringarray_setvalue, certenc/ICertEncodeStringArray::SetValue, security.icertencodestringarray_setvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

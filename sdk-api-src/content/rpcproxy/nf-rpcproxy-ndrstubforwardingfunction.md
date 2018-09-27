@@ -7,7 +7,7 @@ old-location: rpc\ndrstubforwardingfunction.htm
 tech.root: rpc
 ms.assetid: 05d69090-4274-4dad-8fef-89db247d0c09
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

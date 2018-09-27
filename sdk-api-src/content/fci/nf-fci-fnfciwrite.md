@@ -7,7 +7,7 @@ old-location: winprog\fnfciwrite.htm
 tech.root: devnotes
 ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/25/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

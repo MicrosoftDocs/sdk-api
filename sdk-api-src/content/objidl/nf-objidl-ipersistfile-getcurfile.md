@@ -7,7 +7,7 @@ old-location: com\ipersistfile_getcurfile.htm
 tech.root: com
 ms.assetid: 61f1751d-47ce-4b3f-9876-24ddd542dacb
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: GetCurFile, GetCurFile method [COM], GetCurFile method [COM],IPersistFile interface, IPersistFile interface [COM],GetCurFile method, IPersistFile.GetCurFile, IPersistFile::GetCurFile, _com_ipersistfile_getcurfile, com.ipersistfile_getcurfile, objidl/IPersistFile::GetCurFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

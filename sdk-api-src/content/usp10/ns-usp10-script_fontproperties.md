@@ -7,7 +7,7 @@ old-location: intl\script_fontproperties.htm
 tech.root: Intl
 ms.assetid: 6757e758-6525-47a4-9ed4-99ef42fa14a3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: SCRIPT_FONTPROPERTIES, SCRIPT_FONTPROPERTIES structure [Internationalization for Windows Applications], _win32_SCRIPT_FONTPROPERTIES_str, intl.script_fontproperties, usp10/SCRIPT_FONTPROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

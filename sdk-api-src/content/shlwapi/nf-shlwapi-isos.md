@@ -7,7 +7,7 @@ old-location: shell\IsOS.htm
 tech.root: shell
 ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\points.htm
 tech.root: display
 ms.assetid: 56d642a0-5281-44aa-af1e-61e1e83186af
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*LPPOINTS, *PPOINTS, LPPOINTS, LPPOINTS structure pointer [Display Devices], POINTS, POINTS structure [Display Devices], PPOINTS, PPOINTS structure pointer [Display Devices], display.points, grstrcts_ae45abcf-f0a0-4fbc-b9b8-f021d8f4f182.xml, tagPOINTS, windef/LPPOINTS, windef/POINTS, windef/PPOINTS"
 ms.prod: windows
 ms.technology: windows-sdk

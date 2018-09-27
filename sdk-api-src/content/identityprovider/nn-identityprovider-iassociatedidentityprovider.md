@@ -7,7 +7,7 @@ old-location: security\iassociatedidentityprovider.htm
 tech.root: secauthn
 ms.assetid: 007d5daf-f0cf-4bfb-bd87-bb949bf90126
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: IAssociatedIdentityProvider, IAssociatedIdentityProvider interface [Security], IAssociatedIdentityProvider interface [Security],described, identityprovider/IAssociatedIdentityProvider, identitystore/IAssociatedIdentityProvider, security.iassociatedidentityprovider
 ms.prod: windows
 ms.technology: windows-sdk

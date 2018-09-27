@@ -1,0 +1,88 @@
+---
+UID: NF:shobjidl_core.IShellLinkA.SetIDList
+title: IShellLinkA::SetIDList
+author: windows-sdk-content
+description: Sets the pointer to an item identifier list (PIDL) for a Shell link object.
+old-location: shell\IShellLink_SetIDList.htm
+tech.root: shell
+ms.assetid: 4c0571a5-1615-4c3f-b9a6-0667df07165b
+ms.author: windowssdkdev
+ms.date: 09/21/2018
+ms.keywords: IShellLink interface [Windows Shell],SetIDList method, IShellLink::SetIDList, IShellLinkA interface [Windows Shell],SetIDList method, IShellLinkA.SetIDList, IShellLinkA::SetIDList, IShellLinkW interface [Windows Shell],SetIDList method, IShellLinkW::SetIDList, SetIDList, SetIDList method [Windows Shell], SetIDList method [Windows Shell],IShellLink interface, SetIDList method [Windows Shell],IShellLinkA interface, SetIDList method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetIDList, shell.IShellLink_SetIDList, shobjidl_core/IShellLink::SetIDList, shobjidl_core/IShellLinkA::SetIDList, shobjidl_core/IShellLinkW::SetIDList
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLink.SetIDList
+ - IShellLinkA.SetIDList
+ - IShellLinkW.SetIDList
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IShellLinkA::SetIDList
+
+
+## -description
+
+
+Sets the pointer to an item identifier list (PIDL) for a Shell link object.
+
+
+## -parameters
+
+
+
+
+### -param pidl [in]
+
+Type: <b>PCIDLIST_ABSOLUTE</b>
+
+The object's fully qualified PIDL.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This method is useful when an application needs to set a Shell link to an object that is not a file, such as a Control Panel application, a printer, or another computer.
+
+
+

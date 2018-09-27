@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_CopyItem.htm
 tech.root: shell
 ms.assetid: 36d623b7-67c3-48b7-be9b-9264b5b8d919
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: CopyItem, CopyItem method [Windows Shell], CopyItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],CopyItem method, IFileOperation.CopyItem, IFileOperation::CopyItem, _shell_IFileOperation_CopyItem, shell.IFileOperation_CopyItem, shobjidl_core/IFileOperation::CopyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

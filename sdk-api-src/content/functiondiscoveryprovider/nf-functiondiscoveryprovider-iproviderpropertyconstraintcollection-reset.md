@@ -7,7 +7,7 @@ old-location: ncd\iproviderpropertyconstraintcollection_reset.htm
 tech.root: fundisc
 ms.assetid: 57357567-b03f-4261-a267-42f44d829d74
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Reset method, IProviderPropertyConstraintCollection.Reset, IProviderPropertyConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Reset, ncd.iproviderpropertyconstraintcollection_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\initsecurityinterface.htm
 tech.root: secauthn
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], InitSecurityInterfaceA, InitSecurityInterfaceW, _ssp_initsecurityinterface, security.initsecurityinterface, sspi/InitSecurityInterface, sspi/InitSecurityInterfaceA, sspi/InitSecurityInterfaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

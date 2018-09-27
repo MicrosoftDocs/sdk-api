@@ -2,7 +2,7 @@
 UID: NA:sbtsv
 ms.assetid: 2ea00425-4363-3cce-a58d-20d7e5db43ec
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

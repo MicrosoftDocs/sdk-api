@@ -2,12 +2,12 @@
 UID: NA:winsock2
 ms.assetid: 1418c4da-e9d0-35ea-9c7b-fe2f54273e08
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winsock
+tech.root: qos
 ---
 
 # Winsock2.h header
@@ -16,6 +16,6 @@ tech.root: winsock
 ## -description
 
 
-This header is used by Windows Sockets 2. For more information, see:
+This header is used by Quality of Service (QOS). For more information, see:
 
-- [Windows Sockets 2](../_winsock)
+- [Quality of Service (QOS)](../_qos)

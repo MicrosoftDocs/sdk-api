@@ -2,12 +2,12 @@
 UID: NA:mmreg
 ms.assetid: d007b444-9242-3b0d-ba8b-3719f561c30a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: dshow
+tech.root: multimedia
 ---
 
 # Mmreg.h header
@@ -16,6 +16,6 @@ tech.root: dshow
 ## -description
 
 
-This header is used by DirectShow. For more information, see:
+This header is used by Windows Multimedia. For more information, see:
 
-- [DirectShow](../_dshow)
+- [Windows Multimedia](../_multimedia)

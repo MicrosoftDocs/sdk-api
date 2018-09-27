@@ -7,7 +7,7 @@ old-location: dshow\igraphbuilder_renderfile.htm
 tech.root: DirectShow
 ms.assetid: 449aec08-c03e-41d6-8c04-0e871e532d11
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IGraphBuilder interface [DirectShow],RenderFile method, IGraphBuilder.RenderFile, IGraphBuilder::RenderFile, IGraphBuilderRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_renderfile, strmif/IGraphBuilder::RenderFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

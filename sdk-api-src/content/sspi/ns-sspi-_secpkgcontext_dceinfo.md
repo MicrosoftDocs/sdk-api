@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_dceinfo.htm
 tech.root: secauthn
 ms.assetid: 490688d0-efdd-4a40-88b9-eb53ff592d2a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: "*PSecPkgContext_DceInfo, PSecPkgContext_DceInfo, PSecPkgContext_DceInfo structure pointer [Security], SecPkgContext_DceInfo, SecPkgContext_DceInfo structure [Security], _SecPkgContext_DceInfo, _ssp_secpkgcontext_dceinfo, security.secpkgcontext_dceinfo, sspi/PSecPkgContext_DceInfo, sspi/SecPkgContext_DceInfo"
 ms.prod: windows
 ms.technology: windows-sdk

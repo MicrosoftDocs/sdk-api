@@ -4,10 +4,10 @@ title: IWindowsDriverUpdate::get_DeviceStatus
 author: windows-sdk-content
 description: Gets the status of the matching device for the Windows driver update.
 old-location: wua\iwindowsdriverupdate_devicestatus.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 15455dad-4829-4dd4-8384-cf08ab42ded2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: DeviceStatus property [Windows Update Agent], DeviceStatus property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DeviceStatus property, IWindowsDriverUpdate.DeviceStatus, IWindowsDriverUpdate.get_DeviceStatus, IWindowsDriverUpdate::DeviceStatus, IWindowsDriverUpdate::get_DeviceStatus, get_DeviceStatus, wua.iwindowsdriverupdate_devicestatus, wuapi/IWindowsDriverUpdate::DeviceStatus, wuapi/IWindowsDriverUpdate::get_DeviceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -21,6 +21,7 @@
     "fhcfg.h",
     "fhsvcctl.h",
     "wdm.h",
+    "apiquery2.h",
     "dciman.h",
     "ddrawgdi.h",
     "ntgdi.h",

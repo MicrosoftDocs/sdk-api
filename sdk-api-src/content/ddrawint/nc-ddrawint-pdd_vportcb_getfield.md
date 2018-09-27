@@ -7,7 +7,7 @@ old-location: display\ddvideoportgetfield.htm
 tech.root: display
 ms.assetid: e8c99103-31cd-4468-8b6b-1e56b31e10da
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: DdVideoPortGetField, DdVideoPortGetField callback function [Display Devices], PDD_VPORTCB_GETFIELD, PDD_VPORTCB_GETFIELD callback, ddfncs_85abec9a-0917-4bde-88c7-9d94ead1745c.xml, ddrawint/DdVideoPortGetField, display.ddvideoportgetfield
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow.htm
 tech.root: seccrypto
 ms.assetid: c9529f7a-9d97-4315-af96-f7b687af3c2e
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], IEnumCERTVIEWROW interface [Security],described, _certsrv_ienumcertviewrow, certview/IEnumCERTVIEWROW, security.ienumcertviewrow
 ms.prod: windows
 ms.technology: windows-sdk

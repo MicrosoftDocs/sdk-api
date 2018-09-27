@@ -7,7 +7,7 @@ old-location: security\imscepsetup_getprovidernamelist.htm
 tech.root: seccrypto
 ms.assetid: e2b5bae3-fc85-4277-8ee9-3911dacf3302
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetProviderNameList method, IMSCEPSetup.GetProviderNameList, IMSCEPSetup::GetProviderNameList, casetup/IMSCEPSetup::GetProviderNameList, security.imscepsetup_getprovidernamelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

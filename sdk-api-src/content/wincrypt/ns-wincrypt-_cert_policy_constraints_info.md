@@ -7,7 +7,7 @@ old-location: security\cert_policy_constraints_info.htm
 tech.root: seccrypto
 ms.assetid: f0121ae9-165c-4e86-8672-352a177bb877
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCERT_POLICY_CONSTRAINTS_INFO, CERT_POLICY_CONSTRAINTS_INFO, CERT_POLICY_CONSTRAINTS_INFO structure [Security], PCERT_POLICY_CONSTRAINTS_INFO, PCERT_POLICY_CONSTRAINTS_INFO structure pointer [Security], _CERT_POLICY_CONSTRAINTS_INFO, _crypto2_cert_policy_constraints_info, security.cert_policy_constraints_info, wincrypt/CERT_POLICY_CONSTRAINTS_INFO, wincrypt/PCERT_POLICY_CONSTRAINTS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

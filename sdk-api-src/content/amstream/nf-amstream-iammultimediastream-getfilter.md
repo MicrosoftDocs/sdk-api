@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_getfilter.htm
 tech.root: DirectShow
 ms.assetid: 7e4df9cb-4008-4615-a179-ae1e76c22337
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetFilter, GetFilter method [DirectShow], GetFilter method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilter method, IAMMultiMediaStream.GetFilter, IAMMultiMediaStream::GetFilter, IAMMultiMediaStreamGetFilter, amstream/IAMMultiMediaStream::GetFilter, dshow.iammultimediastream_getfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

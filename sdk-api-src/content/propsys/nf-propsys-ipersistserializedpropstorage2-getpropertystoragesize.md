@@ -7,7 +7,7 @@ old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageSize.htm
 tech.root: shell
 ms.assetid: 90fe3148-457e-4d29-a117-b0b0e0df92c4
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: GetPropertyStorageSize, GetPropertyStorageSize method [Windows Shell], GetPropertyStorageSize method [Windows Shell],IPersistSerializedPropStorage2 interface, IPersistSerializedPropStorage2 interface [Windows Shell],GetPropertyStorageSize method, IPersistSerializedPropStorage2.GetPropertyStorageSize, IPersistSerializedPropStorage2::GetPropertyStorageSize, _shell_IPersistSerializedPropStorage2_GetPropertyStorageSize, propsys/IPersistSerializedPropStorage2::GetPropertyStorageSize, shell.IPersistSerializedPropStorage2_GetPropertyStorageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

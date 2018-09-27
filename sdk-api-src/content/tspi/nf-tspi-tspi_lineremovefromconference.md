@@ -4,10 +4,10 @@ title: TSPI_lineRemoveFromConference function
 author: windows-sdk-content
 description: The TSPI_lineRemoveFromConference function removes the specified call from the conference call to which it currently belongs. The remaining calls in the conference call are unaffected.
 old-location: tspi\tspi_lineremovefromconference.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 6e09ba3e-d233-4026-9866-8bc0d45ec9aa
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: TSPI_lineRemoveFromConference, TSPI_lineRemoveFromConference function [TAPI 2.2], _tspi_tspi_lineremovefromconference, tspi.tspi_lineremovefromconference, tspi/TSPI_lineRemoveFromConference
 ms.prod: windows-hardware
 ms.technology: windows-devices

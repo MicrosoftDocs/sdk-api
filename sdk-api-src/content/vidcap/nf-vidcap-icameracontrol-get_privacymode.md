@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_privacymode.htm
 tech.root: DirectShow
 ms.assetid: 22bec1da-65ca-4101-8f30-8fbb537e5678
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PrivacyMode method, ICameraControl.get_PrivacyMode, ICameraControl::get_PrivacyMode, ICameraControlget_PrivacyMode, dshow.icameracontrol_get_privacymode, get_PrivacyMode, get_PrivacyMode method [DirectShow], get_PrivacyMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PrivacyMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

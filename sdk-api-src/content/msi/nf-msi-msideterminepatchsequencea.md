@@ -7,7 +7,7 @@ old-location: setup\msideterminepatchsequence.htm
 tech.root: msi
 ms.assetid: f82e7d42-f0cd-4d25-b56f-7e423cb64cfd
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/14/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiDeterminePatchSequence, MsiDeterminePatchSequence function, MsiDeterminePatchSequenceA, MsiDeterminePatchSequenceW, msi/MsiDeterminePatchSequence, msi/MsiDeterminePatchSequenceA, msi/MsiDeterminePatchSequenceW, setup.msideterminepatchsequence
 ms.prod: windows-hardware
 ms.technology: windows-devices

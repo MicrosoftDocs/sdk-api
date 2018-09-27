@@ -7,7 +7,7 @@ old-location: shell\PathUnquoteSpaces.htm
 tech.root: shell
 ms.assetid: 00474c95-ec59-489a-bee3-191b98a47567
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: PathUnquoteSpaces, PathUnquoteSpaces function [Windows Shell], PathUnquoteSpacesA, PathUnquoteSpacesW, _win32_PathUnquoteSpaces, shell.PathUnquoteSpaces, shlwapi/PathUnquoteSpaces, shlwapi/PathUnquoteSpacesA, shlwapi/PathUnquoteSpacesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

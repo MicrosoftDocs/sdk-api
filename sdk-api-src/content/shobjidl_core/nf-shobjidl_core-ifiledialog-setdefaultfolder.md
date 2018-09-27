@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetDefaultFolder.htm
 tech.root: shell
 ms.assetid: dcde0f80-8118-479d-a08c-4b9af6aa343a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetDefaultFolder method, IFileDialog.SetDefaultFolder, IFileDialog::SetDefaultFolder, SetDefaultFolder, SetDefaultFolder method [Windows Shell], SetDefaultFolder method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetDefaultFolder, shell_IFileDialog_SetDefaultFolder, shobjidl_core/IFileDialog::SetDefaultFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

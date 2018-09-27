@@ -4,10 +4,10 @@ title: INATExternalIPAddressCallback
 author: windows-sdk-content
 description: The INATExternalIPAddressCallback interface is implemented by the NAT application with UPnP technology. It provides a method that the system calls if the external IP address of the NAT computer changes.
 old-location: ics\inatexternalipaddresscallback.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: f180f597-680b-47ce-b437-3395069a8c77
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], INATExternalIPAddressCallback interface [ICS/ICF],described, _ics_inatexternalipaddresscallback, ics.inatexternalipaddresscallback, natupnp/INATExternalIPAddressCallback
 ms.prod: windows
 ms.technology: windows-sdk

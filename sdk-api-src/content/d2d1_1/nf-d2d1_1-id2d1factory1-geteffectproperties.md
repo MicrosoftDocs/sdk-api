@@ -4,10 +4,10 @@ title: ID2D1Factory1::GetEffectProperties
 author: windows-sdk-content
 description: Retrieves the properties of an effect.
 old-location: direct2d\id2d1factory1_geteffectproperties.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 0e8a2f03-f297-4d5a-8461-4ed7cd1bf02f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetEffectProperties, GetEffectProperties method [Direct2D], GetEffectProperties method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],GetEffectProperties method, ID2D1Factory1.GetEffectProperties, ID2D1Factory1::GetEffectProperties, d2d1_1/ID2D1Factory1::GetEffectProperties, direct2d.id2d1factory1_geteffectproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\io_counters_str.htm
 tech.root: procthread
 ms.assetid: 78729cbe-5256-4939-a7cc-c393662f8361
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*PIO_COUNTERS, IO_COUNTERS, IO_COUNTERS structure, PIO_COUNTERS, PIO_COUNTERS structure pointer, _IO_COUNTERS, _win32_io_counters_str, base.io_counters_str, winnt/IO_COUNTERS, winnt/PIO_COUNTERS"
 ms.prod: windows
 ms.technology: windows-sdk

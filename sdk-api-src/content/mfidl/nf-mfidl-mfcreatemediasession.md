@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediasession.htm
 tech.root: medfound
 ms.assetid: 86b2b5ec-231c-4943-9add-1a5a60e72268
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 86b2b5ec-231c-4943-9add-1a5a60e72268, MFCreateMediaSession, MFCreateMediaSession function [Media Foundation], mf.mfcreatemediasession, mfidl/MFCreateMediaSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

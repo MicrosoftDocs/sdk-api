@@ -7,7 +7,7 @@ old-location: security\creduicmdlinepromptforcredentials.htm
 tech.root: secauthn
 ms.assetid: 5b5bfe87-8f31-4228-931e-50cfc399b66b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CredUICmdLinePromptForCredentials, CredUICmdLinePromptForCredentials function [Security], CredUICmdLinePromptForCredentialsA, CredUICmdLinePromptForCredentialsW, _cred_creduicmdlinepromptforcredentials, security.creduicmdlinepromptforcredentials, wincred/CredUICmdLinePromptForCredentials, wincred/CredUICmdLinePromptForCredentialsA, wincred/CredUICmdLinePromptForCredentialsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

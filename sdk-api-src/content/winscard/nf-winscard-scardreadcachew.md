@@ -7,7 +7,7 @@ old-location: security\scardreadcache.htm
 tech.root: secauthn
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: SCardReadCache, SCardReadCache function [Security], SCardReadCacheA, SCardReadCacheW, security.scardreadcache, winscard/SCardReadCache, winscard/SCardReadCacheA, winscard/SCardReadCacheW
 ms.prod: windows-hardware
 ms.technology: windows-devices

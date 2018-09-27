@@ -4,10 +4,10 @@ title: StringSetter function
 author: windows-sdk-content
 description: Calls a member-function property setter callback for a string-type property.
 old-location: direct2d\stringsetter.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 6BCDB312-13D8-47EA-BB88-4172C3A02DBE
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: StringSetter, StringSetter function [Direct2D], d2d1effecthelpers/StringSetter, direct2d.stringsetter
 ms.prod: windows-hardware
 ms.technology: windows-devices

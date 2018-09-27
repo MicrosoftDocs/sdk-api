@@ -7,7 +7,7 @@ old-location: security\cmsg_ctrl_verify_signature_ex_para.htm
 tech.root: seccrypto
 ms.assetid: 56b73de8-c170-46f6-b488-096475b59c15
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure [Security], CMSG_VERIFY_SIGNER_CERT, CMSG_VERIFY_SIGNER_CHAIN, CMSG_VERIFY_SIGNER_NULL, CMSG_VERIFY_SIGNER_PUBKEY, PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure pointer [Security], _CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, _crypto2_cmsg_ctrl_verify_signature_ex_para, security.cmsg_ctrl_verify_signature_ex_para, wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, wincrypt/PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: INATExternalIPAddressCallback::NewExternalIPAddress
 author: windows-sdk-content
 description: The system calls the NewExternalIPAddress method if the external IP address of the NAT computer changes.
 old-location: ics\inatexternalipaddresscallback_newexternalipaddress.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: b231ed4d-a115-4f4c-bda5-f6f3131ac45b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INATExternalIPAddressCallback interface [ICS/ICF],NewExternalIPAddress method, INATExternalIPAddressCallback.NewExternalIPAddress, INATExternalIPAddressCallback::NewExternalIPAddress, NewExternalIPAddress, NewExternalIPAddress method [ICS/ICF], NewExternalIPAddress method [ICS/ICF],INATExternalIPAddressCallback interface, _ics_inatexternalipaddresscallback_newexternalipaddress, ics.inatexternalipaddresscallback_newexternalipaddress, natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

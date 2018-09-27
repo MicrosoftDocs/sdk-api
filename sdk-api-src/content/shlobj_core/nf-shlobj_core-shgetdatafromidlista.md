@@ -7,7 +7,7 @@ old-location: shell\SHGetDataFromIDList.htm
 tech.root: shell
 ms.assetid: 11c041bd-22fd-46a4-b75c-cc86ee771241
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: SHGDFIL_DESCRIPTIONID, SHGDFIL_FINDDATA, SHGDFIL_NETRESOURCE, SHGetDataFromIDList, SHGetDataFromIDList function [Windows Shell], SHGetDataFromIDListA, SHGetDataFromIDListW, _win32_SHGetDataFromIDList, shell.SHGetDataFromIDList, shlobj_core/SHGetDataFromIDList, shlobj_core/SHGetDataFromIDListA, shlobj_core/SHGetDataFromIDListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

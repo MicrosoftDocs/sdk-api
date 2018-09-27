@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_parseheader.htm
 tech.root: medfound
 ms.assetid: 149e2514-74e5-403b-925f-53a17dbbcb64
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 149e2514-74e5-403b-925f-53a17dbbcb64, IMFASFContentInfo interface [Media Foundation],ParseHeader method, IMFASFContentInfo.ParseHeader, IMFASFContentInfo::ParseHeader, ParseHeader, ParseHeader method [Media Foundation], ParseHeader method [Media Foundation],IMFASFContentInfo interface, mf.imfasfcontentinfo_parseheader, wmcontainer/IMFASFContentInfo::ParseHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

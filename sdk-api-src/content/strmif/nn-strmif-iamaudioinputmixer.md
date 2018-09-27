@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer.htm
 tech.root: DirectShow
 ms.assetid: 217cb49d-7f5f-42c5-83db-546621f6a375
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], IAMAudioInputMixer interface [DirectShow],described, IAMAudioInputMixerInterface, dshow.iamaudioinputmixer, strmif/IAMAudioInputMixer
 ms.prod: windows
 ms.technology: windows-sdk

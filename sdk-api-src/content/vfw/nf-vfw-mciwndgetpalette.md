@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetpalette.htm
 tech.root: Multimedia
 ms.assetid: cb42fdcc-35c0-4099-97bf-a3c8c1e53047
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/25/2018
 ms.keywords: MCIWndGetPalette, MCIWndGetPalette macro [Windows Multimedia], _win32_MCIWndGetPalette, multimedia.mciwndgetpalette, vfw/MCIWndGetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

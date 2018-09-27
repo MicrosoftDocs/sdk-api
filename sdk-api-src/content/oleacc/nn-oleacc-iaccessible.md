@@ -7,7 +7,7 @@ old-location: winauto\iaccessible.htm
 tech.root: WinAuto
 ms.assetid: 51e95b01-71e7-435b-85fb-28ee43eb08a7
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], IAccessible interface [Windows Accessibility],described, _msaa_IAccessible, msaa.iaccessible, oleacc/IAccessible, winauto.iaccessible
 ms.prod: windows
 ms.technology: windows-sdk

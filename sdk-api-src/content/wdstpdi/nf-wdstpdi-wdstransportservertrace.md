@@ -7,7 +7,7 @@ old-location: wds\wdstransportservertrace.htm
 tech.root: wds
 ms.assetid: 6b0d6b1a-4a77-43f8-affd-6489f9a65050
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WDS_MC_TRACE_ERROR, WDS_MC_TRACE_FATAL, WDS_MC_TRACE_INFO, WDS_MC_TRACE_VERBOSE, WDS_MC_TRACE_WARNING, WdsTransportServerTrace, WdsTransportServerTrace function [Windows Deployment Services], wds.wdstransportservertrace, wdstpdi/WdsTransportServerTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

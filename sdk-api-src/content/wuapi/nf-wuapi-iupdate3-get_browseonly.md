@@ -4,10 +4,10 @@ title: IUpdate3::get_BrowseOnly
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update can be discovered only by browsing through the available updates.
 old-location: wua\iupdate3_browseonly.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: a1b5a225-6089-48f6-903c-0eb0539ca157
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Windows Update Agent],IUpdate3 interface, IUpdate3 interface [Windows Update Agent],BrowseOnly property, IUpdate3.BrowseOnly, IUpdate3.get_BrowseOnly, IUpdate3::BrowseOnly, IUpdate3::get_BrowseOnly, get_BrowseOnly, wua.iupdate3_browseonly, wuapi/IUpdate3::BrowseOnly, wuapi/IUpdate3::get_BrowseOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

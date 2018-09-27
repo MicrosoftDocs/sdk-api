@@ -7,7 +7,7 @@ old-location: base\powerimportpowerscheme.htm
 tech.root: power
 ms.assetid: 84ba8cb6-13ad-459b-b154-c495aaeb67f3
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: PowerImportPowerScheme, PowerImportPowerScheme function, base.powerimportpowerscheme, powrprof/PowerImportPowerScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

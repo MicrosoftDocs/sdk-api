@@ -4,10 +4,10 @@ title: D2D1_LAYER_OPTIONS
 author: windows-sdk-content
 description: Specifies options that can be applied when a layer resource is applied to create a layer.
 old-location: direct2d\D2D1_LAYER_OPTIONS.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: d278211a-e99c-429d-9752-45c305f52ed8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_LAYER_OPTIONS, D2D1_LAYER_OPTIONS enumeration [Direct2D], D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE, D2D1_LAYER_OPTIONS_NONE, d2d1/D2D1_LAYER_OPTIONS, d2d1/D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE, d2d1/D2D1_LAYER_OPTIONS_NONE, direct2d.D2D1_LAYER_OPTIONS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ILogonTrigger::get_UserId
 author: windows-sdk-content
 description: Gets or sets the identifier of the user.
 old-location: taskschd\ilogontrigger_userid.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 22d69609-1400-41eb-ae25-4ca05c4733ba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ILogonTrigger interface [Task Scheduler],UserId property, ILogonTrigger.UserId, ILogonTrigger.get_UserId, ILogonTrigger::UserId, ILogonTrigger::get_UserId, ILogonTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ILogonTrigger interface, get_UserId, taskschd.ilogontrigger_userid, taskschd/ILogonTrigger::UserId, taskschd/ILogonTrigger::get_UserId, taskschd/ILogonTrigger::put_UserId
 ms.prod: windows-hardware
 ms.technology: windows-devices

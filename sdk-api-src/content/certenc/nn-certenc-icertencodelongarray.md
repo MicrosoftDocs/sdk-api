@@ -7,7 +7,7 @@ old-location: security\icertencodelongarray.htm
 tech.root: seccrypto
 ms.assetid: e8555282-6c09-4f23-830e-358bc73287ee
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: ICertEncodeLongArray, ICertEncodeLongArray interface [Security], ICertEncodeLongArray interface [Security],described, _certsrv_icertencodelongarray, certenc/ICertEncodeLongArray, security.icertencodelongarray
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: D2D1_COLOR_SPACE
 author: windows-sdk-content
 description: Defines options that should be applied to the color space.
 old-location: direct2d\__d2d1_color_space.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 2c90978b-8a5a-4e5d-9ced-e0ec917271ff
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_COLOR_SPACE, D2D1_COLOR_SPACE enumeration [Direct2D], D2D1_COLOR_SPACE_CUSTOM, D2D1_COLOR_SPACE_SCRGB, D2D1_COLOR_SPACE_SRGB, d2d1_1/D2D1_COLOR_SPACE, d2d1_1/D2D1_COLOR_SPACE_CUSTOM, d2d1_1/D2D1_COLOR_SPACE_SCRGB, d2d1_1/D2D1_COLOR_SPACE_SRGB, direct2d.__d2d1_color_space
 ms.prod: windows
 ms.technology: windows-sdk

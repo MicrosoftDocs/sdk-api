@@ -4,10 +4,10 @@ title: INetFwService::put_Scope
 author: windows-sdk-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwservice_scope.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 17a7e47d-2145-4439-9999-7384de9fd12c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwService interface [ICS/ICF],Scope property, INetFwService.Scope, INetFwService.put_Scope, INetFwService::Scope, INetFwService::get_Scope, INetFwService::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwService interface, ics.inetfwservice_scope, netfw/INetFwService::Scope, netfw/INetFwService::get_Scope, netfw/INetFwService::put_Scope, put_Scope
 ms.prod: windows-hardware
 ms.technology: windows-devices

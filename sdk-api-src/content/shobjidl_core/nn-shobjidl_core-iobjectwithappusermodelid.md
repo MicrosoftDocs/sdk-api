@@ -7,7 +7,7 @@ old-location: shell\IObjectWithAppUserModelID.htm
 tech.root: shell
 ms.assetid: f5b4e6bf-a5bf-49c5-b343-e9c1ec6c263d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IObjectWithAppUserModelID, IObjectWithAppUserModelID interface [Windows Shell], IObjectWithAppUserModelID interface [Windows Shell],described, _shell_IObjectWithAppUserModelID, shell.IObjectWithAppUserModelID, shobjidl_core/IObjectWithAppUserModelID
 ms.prod: windows
 ms.technology: windows-sdk

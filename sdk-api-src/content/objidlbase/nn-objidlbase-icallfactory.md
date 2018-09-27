@@ -7,7 +7,7 @@ old-location: com\icallfactory.htm
 tech.root: com
 ms.assetid: 323dc627-3867-4170-b278-0bce46077729
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: ICallFactory, ICallFactory interface [COM], ICallFactory interface [COM],described, _com_icallfactory, com.icallfactory, objidlbase/ICallFactory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ID2D1CommandSink::DrawLine
 author: windows-sdk-content
 description: Draws a line drawn between two points.
 old-location: direct2d\id2d1commandsink_drawline.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 3c47b5af-d258-42f8-b329-eb28d9485d3a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: DrawLine, DrawLine method [Direct2D], DrawLine method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawLine method, ID2D1CommandSink.DrawLine, ID2D1CommandSink::DrawLine, d2d1_1/ID2D1CommandSink::DrawLine, direct2d.id2d1commandsink_drawline
 ms.prod: windows-hardware
 ms.technology: windows-devices

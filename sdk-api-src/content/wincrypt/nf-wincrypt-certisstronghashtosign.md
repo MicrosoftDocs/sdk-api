@@ -7,7 +7,7 @@ old-location: security\certisstronghashtosign.htm
 tech.root: seccrypto
 ms.assetid: B498C1F0-1EFF-49AF-9CD4-A447F79256F1
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: CertIsStrongHashToSign, CertIsStrongHashToSign function [Security], security.certisstronghashtosign, wincrypt/CertIsStrongHashToSign
 ms.prod: windows-hardware
 ms.technology: windows-devices

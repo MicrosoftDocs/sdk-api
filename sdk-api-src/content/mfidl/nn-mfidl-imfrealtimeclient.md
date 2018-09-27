@@ -7,7 +7,7 @@ old-location: mf\imfrealtimeclient.htm
 tech.root: medfound
 ms.assetid: b1d1901e-dd49-421f-9212-61e32cff411e
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IMFRealTimeClient, IMFRealTimeClient interface [Media Foundation], IMFRealTimeClient interface [Media Foundation],described, b1d1901e-dd49-421f-9212-61e32cff411e, mf.imfrealtimeclient, mfidl/IMFRealTimeClient
 ms.prod: windows
 ms.technology: windows-sdk

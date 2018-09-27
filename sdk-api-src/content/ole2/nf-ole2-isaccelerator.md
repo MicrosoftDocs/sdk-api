@@ -7,7 +7,7 @@ old-location: com\isaccelerator.htm
 tech.root: com
 ms.assetid: 2d09f81a-b422-4379-89c8-d50992ebb24c
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: IsAccelerator, IsAccelerator function [COM], _com_IsAccelerator, com.isaccelerator, ole2/IsAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITaskDefinition::put_Data
 author: windows-sdk-content
 description: Gets or sets the data that is associated with the task.
 old-location: taskschd\itaskdefinition_data.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: b2bb9102-3192-4336-9f91-efad081124b1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: Data property [Task Scheduler], Data property [Task Scheduler],ITaskDefinition interface, ITaskDefinition interface [Task Scheduler],Data property, ITaskDefinition.Data, ITaskDefinition.put_Data, ITaskDefinition::Data, ITaskDefinition::get_Data, ITaskDefinition::put_Data, put_Data, taskschd.itaskdefinition_data, taskschd/ITaskDefinition::Data, taskschd/ITaskDefinition::get_Data, taskschd/ITaskDefinition::put_Data
 ms.prod: windows-hardware
 ms.technology: windows-devices

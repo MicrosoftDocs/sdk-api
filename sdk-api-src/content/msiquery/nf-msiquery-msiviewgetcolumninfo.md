@@ -7,7 +7,7 @@ old-location: setup\msiviewgetcolumninfo.htm
 tech.root: msi
 ms.assetid: f1b8e24c-ac90-4a25-a1d1-c005c403dffc
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/14/2018
 ms.keywords: MSICOLINFO_NAMES, MSICOLINFO_TYPES, MsiViewGetColumnInfo, MsiViewGetColumnInfo function, _msi_msiviewgetcolumninfo, msiquery/MsiViewGetColumnInfo, setup.msiviewgetcolumninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\ddhal_destroyddlocaldata.htm
 tech.root: display
 ms.assetid: 9d1d14b8-ceaf-4845-a388-a084aa0472a7
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA structure [Display Devices], _DDHAL_DESTROYDDLOCALDATA, d3dstrct_1c587282-0c7f-4a8a-90ce-199cca0e86b9.xml, ddrawi/DDHAL_DESTROYDDLOCALDATA, display.ddhal_destroyddlocaldata"
 ms.prod: windows
 ms.technology: windows-sdk

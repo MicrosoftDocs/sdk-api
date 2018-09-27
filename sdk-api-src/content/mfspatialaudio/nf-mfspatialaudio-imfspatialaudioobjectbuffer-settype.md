@@ -7,7 +7,7 @@ old-location: mf\imfspatialaudioobjectbuffer_settype.htm
 tech.root: medfound
 ms.assetid: 3D21D093-FDCE-4ECA-B8B2-56D6E5D5D9C6
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IMFSpatialAudioObjectBuffer interface [Media Foundation],SetType method, IMFSpatialAudioObjectBuffer.SetType, IMFSpatialAudioObjectBuffer::SetType, SetType, SetType method [Media Foundation], SetType method [Media Foundation],IMFSpatialAudioObjectBuffer interface, mf.imfspatialaudioobjectbuffer_settype, mfspatialaudio/IMFSpatialAudioObjectBuffer::SetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

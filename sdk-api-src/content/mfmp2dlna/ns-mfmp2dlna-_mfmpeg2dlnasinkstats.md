@@ -7,7 +7,7 @@ old-location: mf\mfmpeg2dlnasinkstats.htm
 tech.root: medfound
 ms.assetid: 40d7db61-cf27-4c27-8774-d565ebee2c93
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: MFMPEG2DLNASINKSTATS, MFMPEG2DLNASINKSTATS structure [Media Foundation], _MFMPEG2DLNASINKSTATS, mf.mfmpeg2dlnasinkstats, mfmp2dlna/MFMPEG2DLNASINKSTATS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wds\pxedhcpgetvendoroptionvalue.htm
 tech.root: wds
 ms.assetid: 0cf14db2-b2e6-4e5e-a715-429bc0af7714
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: PxeDhcpGetVendorOptionValue, PxeDhcpGetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpgetvendoroptionvalue, wdspxe/PxeDhcpGetVendorOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

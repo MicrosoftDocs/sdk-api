@@ -7,7 +7,7 @@ old-location: shell\IEnumShellItems_Clone.htm
 tech.root: shell
 ms.assetid: ccfe8ab0-8bc5-4270-9189-01bac38ce36a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumShellItems interface, IEnumShellItems interface [Windows Shell],Clone method, IEnumShellItems.Clone, IEnumShellItems::Clone, _shell_IEnumShellItems_Clone, shell.IEnumShellItems_Clone, shobjidl_core/IEnumShellItems::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

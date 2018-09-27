@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingimportbegin.htm
 tech.root: rpc
 ms.assetid: 8dca0490-72aa-41e0-b747-863d53a705ea
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: RpcNsBindingImportBegin, RpcNsBindingImportBegin function [RPC], RpcNsBindingImportBeginA, RpcNsBindingImportBeginW, _rpc_rpcnsbindingimportbegin, rpc.rpcnsbindingimportbegin, rpcnsi/RpcNsBindingImportBegin, rpcnsi/RpcNsBindingImportBeginA, rpcnsi/RpcNsBindingImportBeginW
 ms.prod: windows-hardware
 ms.technology: windows-devices

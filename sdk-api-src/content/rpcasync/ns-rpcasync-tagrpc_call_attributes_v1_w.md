@@ -7,7 +7,7 @@ old-location: rpc\rpc_call_attributes_v1.htm
 tech.root: rpc
 ms.assetid: 62988900-e794-4d91-861e-f72d854249fe
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: RPC_CALL_ATTRIBUTES_V1, RPC_CALL_ATTRIBUTES_V1 structure [RPC], RPC_CALL_ATTRIBUTES_V1_A, RPC_CALL_ATTRIBUTES_V1_W, rpc.rpc_call_attributes_v1, rpcasync/RPC_CALL_ATTRIBUTES_V1, rpcasync/RPC_CALL_ATTRIBUTES_V1_A, rpcasync/RPC_CALL_ATTRIBUTES_V1_W, tagRPC_CALL_ATTRIBUTES_V1_W
 ms.prod: windows
 ms.technology: windows-sdk

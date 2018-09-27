@@ -4,10 +4,10 @@ title: IRegistrationInfo::put_XmlText
 author: windows-sdk-content
 description: Gets or sets an XML-formatted version of the registration information for the task.
 old-location: taskschd\iregistrationinfo_xmltext.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: ad7de0d3-c5df-49d7-9cc9-d52e30844615
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],XmlText property, IRegistrationInfo.XmlText, IRegistrationInfo.put_XmlText, IRegistrationInfo::XmlText, IRegistrationInfo::get_XmlText, IRegistrationInfo::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IRegistrationInfo interface, put_XmlText, taskschd.iregistrationinfo_xmltext, taskschd/IRegistrationInfo::XmlText, taskschd/IRegistrationInfo::get_XmlText, taskschd/IRegistrationInfo::put_XmlText
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: INetFwServices
 author: windows-sdk-content
 description: The INetFwServices interface is a standard Automation interface which provides access to a collection of services that may be authorized to listen through the firewall.
 old-location: ics\inetfwservices.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: b99464c5-dabc-405a-ad3e-da06a6faef47
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], INetFwServices interface [ICS/ICF],described, ics.inetfwservices, netfw/INetFwServices
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnNotify.htm
 tech.root: shell
 ms.assetid: 666d76da-0891-4645-8852-fc963be75369
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnNotify method, IBrowserService2.OnNotify, IBrowserService2::OnNotify, OnNotify, OnNotify method [Windows Shell], OnNotify method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnNotify, shell.IBrowserService2_OnNotify, zone_IBrowserService2_OnNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

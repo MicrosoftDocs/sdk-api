@@ -4,10 +4,10 @@ title: ID2D1Properties::GetValue(U,BYTE,UINT32,)
 author: windows-sdk-content
 description: Gets the value of the specified property by index.
 old-location: direct2d\id2d1properties_getvalue.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 01678e13-df23-47bb-9af7-9f2ecaf03577
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(U,BYTE,UINT32,), ID2D1Properties::GetValue, ID2D1Properties::GetValue(U,BYTE,UINT32,), ID2D1Properties::GetValue(UINT32,BYTE*,UINT32), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

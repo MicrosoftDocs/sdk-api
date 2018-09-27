@@ -4,10 +4,10 @@ title: IMonthlyTrigger::get_MonthsOfYear
 author: windows-sdk-content
 description: Gets or sets the months of the year during which the task runs.
 old-location: taskschd\imonthlytrigger_monthsofyear.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: e587ea75-ecf9-40d0-82c2-c1325bac72fc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IMonthlyTrigger interface [Task Scheduler],MonthsOfYear property, IMonthlyTrigger.MonthsOfYear, IMonthlyTrigger.get_MonthsOfYear, IMonthlyTrigger::MonthsOfYear, IMonthlyTrigger::get_MonthsOfYear, IMonthlyTrigger::put_MonthsOfYear, MonthsOfYear property [Task Scheduler], MonthsOfYear property [Task Scheduler],IMonthlyTrigger interface, get_MonthsOfYear, taskschd.imonthlytrigger_monthsofyear, taskschd/IMonthlyTrigger::MonthsOfYear, taskschd/IMonthlyTrigger::get_MonthsOfYear, taskschd/IMonthlyTrigger::put_MonthsOfYear
 ms.prod: windows-hardware
 ms.technology: windows-devices

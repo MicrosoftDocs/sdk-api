@@ -2,7 +2,7 @@
 UID: NA:dsrole
 ms.assetid: 0b7ee442-f157-36c0-bd26-2d2641582ca1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

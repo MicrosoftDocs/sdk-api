@@ -4,10 +4,10 @@ title: lineGetTranslateCapsW function
 author: windows-sdk-content
 description: The lineGetTranslateCaps function returns address translation capabilities.
 old-location: tapi2\linegettranslatecaps.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 77437b06-fb02-44b5-8642-b3de700853ef
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: "_tapi2_linegettranslatecaps, lineGetTranslateCaps, lineGetTranslateCaps function [TAPI 2.2], lineGetTranslateCapsA, lineGetTranslateCapsW, tapi/lineGetTranslateCaps, tapi/lineGetTranslateCapsA, tapi/lineGetTranslateCapsW, tapi2.linegettranslatecaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\DefScreenSaverProc.htm
 tech.root: shell
 ms.assetid: eda5c4d4-0484-4c81-a699-5fedea0bd1c2
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: DefScreenSaverProc, DefScreenSaverProc function [Windows Shell], _win32_DefScreenSaverProc, scrnsave/DefScreenSaverProc, shell.DefScreenSaverProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

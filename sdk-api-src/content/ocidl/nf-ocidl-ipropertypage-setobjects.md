@@ -7,7 +7,7 @@ old-location: com\ipropertypage_setobjects.htm
 tech.root: com
 ms.assetid: 0d7a73ce-8e3c-40c5-9040-6370df5edc2b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: IPropertyPage interface [COM],SetObjects method, IPropertyPage.SetObjects, IPropertyPage::SetObjects, SetObjects, SetObjects method [COM], SetObjects method [COM],IPropertyPage interface, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

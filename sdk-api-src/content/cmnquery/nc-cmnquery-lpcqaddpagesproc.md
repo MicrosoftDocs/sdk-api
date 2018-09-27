@@ -7,7 +7,7 @@ old-location: ad\cqaddpagesproc.htm
 tech.root: ad
 ms.assetid: 2b62c1aa-ace7-4083-8eb3-7c5c499762c9
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: CQAddPagesProc, CQAddPagesProc callback, CQAddPagesProc callback function [Active Directory], LPCQADDPAGESPROC, LPCQADDPAGESPROC callback function pointer [Active Directory], ad.cqaddpagesproc, cmnquery/CQAddPagesProc
 ms.prod: windows
 ms.technology: windows-sdk

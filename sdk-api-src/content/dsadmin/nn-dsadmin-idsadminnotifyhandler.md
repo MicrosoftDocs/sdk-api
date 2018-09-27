@@ -7,7 +7,7 @@ old-location: ad\idsadminnotifyhandler.htm
 tech.root: ad
 ms.assetid: d55e1473-8e51-441e-bd22-63208b294e14
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Directory], IDsAdminNotifyHandler interface [Active Directory],described, _glines_idsadminnotifyhandler, ad.idsadminnotifyhandler, dsadmin/IDsAdminNotifyHandler
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,12 +2,11 @@
 UID: TP:eaphost
 ms.assetid: bfd933dc-0ef7-3b44-91ff-81467060c7da
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Extensible Authentication Protocol Host
@@ -29,5 +28,5 @@ To develop Extensible Authentication Protocol Host, you need these headers:
  * [eaptypes.h](../eaptypes/index.md)
 
 For programming guidance for this technology, see:
-* [Extensible Authentication Protocol Host](/previous-versions/windows/desktop/eaphost)
+* [Extensible Authentication Protocol Host](/windows/desktop/eaphost)
 

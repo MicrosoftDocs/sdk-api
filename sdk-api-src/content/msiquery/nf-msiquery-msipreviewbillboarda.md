@@ -7,7 +7,7 @@ old-location: setup\msipreviewbillboard.htm
 tech.root: msi
 ms.assetid: 7404ea12-bb38-4b7d-986e-2dff2fc36346
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/14/2018
 ms.keywords: MsiPreviewBillboard, MsiPreviewBillboard function, MsiPreviewBillboardA, MsiPreviewBillboardW, _msi_msipreviewbillboard, msiquery/MsiPreviewBillboard, msiquery/MsiPreviewBillboardA, msiquery/MsiPreviewBillboardW, setup.msipreviewbillboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

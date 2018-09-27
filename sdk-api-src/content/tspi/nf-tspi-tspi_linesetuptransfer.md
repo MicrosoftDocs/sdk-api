@@ -4,10 +4,10 @@ title: TSPI_lineSetupTransfer function
 author: windows-sdk-content
 description: The TSPI_lineSetupTransfer function initiates a transfer of the call specified by hdCall. It establishes a consultation call, lphdConsultCall, on which the party can be dialed that can become the destination of the transfer.
 old-location: tspi\tspi_linesetuptransfer.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 0cd95e53-62d5-4318-961a-1136646fd222
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: TSPI_lineSetupTransfer, TSPI_lineSetupTransfer function [TAPI 2.2], _tspi_tspi_linesetuptransfer, tspi.tspi_linesetuptransfer, tspi/TSPI_lineSetupTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

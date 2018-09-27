@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialcache.htm
 tech.root: medfound
 ms.assetid: d02e26e7-e99c-4be7-8495-830eff2f1554
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], IMFNetCredentialCache interface [Media Foundation],described, d02e26e7-e99c-4be7-8495-830eff2f1554, mf.imfnetcredentialcache, mfidl/IMFNetCredentialCache
 ms.prod: windows
 ms.technology: windows-sdk

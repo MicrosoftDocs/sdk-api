@@ -7,7 +7,7 @@ old-location: security\scardendtransaction.htm
 tech.root: secauthn
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

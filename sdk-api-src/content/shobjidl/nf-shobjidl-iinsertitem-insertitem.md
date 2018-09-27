@@ -7,7 +7,7 @@ old-location: shell\IInsertitem_InsertItem.htm
 tech.root: shell
 ms.assetid: 45a25357-9bb1-4298-9ffb-20081e3072a5
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IInsertItem interface [Windows Shell],InsertItem method, IInsertItem.InsertItem, IInsertItem::InsertItem, InsertItem, InsertItem method [Windows Shell], InsertItem method [Windows Shell],IInsertItem interface, shell.IInsertitem_InsertItem, shell_IInsertitem_InsertItem, shobjidl/IInsertItem::InsertItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IRunningTask
 author: windows-sdk-content
 description: Provides the methods to get information from and control a running task.
 old-location: taskschd\irunningtask.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], IRunningTask interface [Task Scheduler],described, taskschd.irunningtask, taskschd/IRunningTask
 ms.prod: windows
 ms.technology: windows-sdk

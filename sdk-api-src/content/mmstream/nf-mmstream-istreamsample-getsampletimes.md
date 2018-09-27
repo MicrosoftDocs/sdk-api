@@ -7,7 +7,7 @@ old-location: dshow\istreamsample_getsampletimes.htm
 tech.root: DirectShow
 ms.assetid: d8c716fe-6731-4b54-9b4b-3b0f896f176b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetSampleTimes, GetSampleTimes method [DirectShow], GetSampleTimes method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetSampleTimes method, IStreamSample.GetSampleTimes, IStreamSample::GetSampleTimes, IStreamSampleGetSampleTimes, dshow.istreamsample_getsampletimes, mmstream/IStreamSample::GetSampleTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

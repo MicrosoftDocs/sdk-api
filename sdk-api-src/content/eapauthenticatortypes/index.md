@@ -2,13 +2,12 @@
 UID: NA:eapauthenticatortypes
 ms.assetid: 0d23718a-e379-3023-8412-598fbba7b01b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: eaphost
-archived: true
 ---
 
 # Eapauthenticatortypes.h header

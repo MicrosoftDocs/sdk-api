@@ -4,10 +4,10 @@ title: ITStream
 author: windows-sdk-content
 description: The ITStream interfaces expose methods that allow an application to retrieve information on a stream; to start, pause, or stop the stream; to select or unselect terminals on a stream; and to obtain a list of terminals selected on the stream.
 old-location: tapi3\itstream.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITStream, ITStream interface [TAPI 2.2], ITStream interface [TAPI 2.2],described, _tapi3_itstream, tapi3.itstream, tapi3if/ITStream
 ms.prod: windows
 ms.technology: windows-sdk

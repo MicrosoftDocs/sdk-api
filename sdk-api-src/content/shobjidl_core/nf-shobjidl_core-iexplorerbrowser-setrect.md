@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_SetRect.htm
 tech.root: shell
 ms.assetid: 392052ea-1053-4f55-96aa-2d64b0ee0390
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetRect method, IExplorerBrowser.SetRect, IExplorerBrowser::SetRect, SetRect, SetRect method [Windows Shell], SetRect method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetRect, shell.IExplorerBrowser_SetRect, shobjidl_core/IExplorerBrowser::SetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

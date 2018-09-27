@@ -2,12 +2,13 @@
 UID: NA:wmsinternaladminnetsource
 ms.assetid: 25ad3b6a-f34f-3df7-a68e-7c4861e02aa0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wmformat
+archived: true
 ---
 
 # Wmsinternaladminnetsource.h header

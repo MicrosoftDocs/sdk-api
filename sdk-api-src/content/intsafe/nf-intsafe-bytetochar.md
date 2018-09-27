@@ -7,7 +7,7 @@ old-location: shell\ByteToChar.htm
 tech.root: shell
 ms.assetid: d10b3450-3dfc-4acf-9853-f7c191041b33
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: ByteToChar, ByteToChar function [Windows Shell], intsafe/ByteToChar, shell.ByteToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

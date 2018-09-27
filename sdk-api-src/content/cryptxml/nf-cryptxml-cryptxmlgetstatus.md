@@ -7,7 +7,7 @@ old-location: security\cryptxmlgetstatus.htm
 tech.root: seccrypto
 ms.assetid: 685a87dc-36e9-464a-988e-de907d2dae41
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

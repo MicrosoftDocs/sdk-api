@@ -7,7 +7,7 @@ old-location: security\certserializecertificatestoreelement.htm
 tech.root: seccrypto
 ms.assetid: 104fc986-6344-41b7-8843-23c3c72405a2
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: CertSerializeCertificateStoreElement, CertSerializeCertificateStoreElement function [Security], _crypto2_certserializecertificatestoreelement, security.certserializecertificatestoreelement, wincrypt/CertSerializeCertificateStoreElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

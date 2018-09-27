@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_get_Password.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_password.htm
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ISearchRoot interface [search],get_Password method, ISearchRoot.get_Password, ISearchRoot::get_Password, _search_ISearchRoot_get_Password, get_Password, get_Password method [search], get_Password method [search],ISearchRoot interface, search._search_ISearchRoot_get_Password, searchapi/ISearchRoot::get_Password
 ms.prod: windows-hardware
 ms.technology: windows-devices

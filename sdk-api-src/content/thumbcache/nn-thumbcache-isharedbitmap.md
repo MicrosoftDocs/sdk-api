@@ -7,7 +7,7 @@ old-location: shell\ISharedBitmap.htm
 tech.root: shell
 ms.assetid: 72be7757-f969-4f4f-ada1-71789b8d1de0
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: ISharedBitmap, ISharedBitmap interface [Windows Shell], ISharedBitmap interface [Windows Shell],described, _shell_ISharedBitmap, shell.ISharedBitmap, thumbcache/ISharedBitmap
 ms.prod: windows
 ms.technology: windows-sdk

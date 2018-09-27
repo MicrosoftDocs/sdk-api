@@ -7,7 +7,7 @@ old-location: multimedia\avistreambeginstreaming.htm
 tech.root: Multimedia
 ms.assetid: 79bf7c19-56b6-48fa-a673-32ce1bcdddad
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/25/2018
 ms.keywords: AVIStreamBeginStreaming, AVIStreamBeginStreaming function [Windows Multimedia], _win32_AVIStreamBeginStreaming, multimedia.avistreambeginstreaming, vfw/AVIStreamBeginStreaming
 ms.prod: windows-hardware
 ms.technology: windows-devices

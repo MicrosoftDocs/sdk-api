@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::GetTarget
 author: windows-sdk-content
 description: Gets the target currently associated with the device context.
 old-location: direct2d\id2d1devicecontext_gettarget.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: a70307db-863a-4c59-a327-fb71a5d58f84
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetTarget, GetTarget method [Direct2D], GetTarget method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetTarget method, ID2D1DeviceContext.GetTarget, ID2D1DeviceContext::GetTarget, d2d1_1/ID2D1DeviceContext::GetTarget, direct2d.id2d1devicecontext_gettarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

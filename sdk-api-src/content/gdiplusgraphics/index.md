@@ -2,7 +2,7 @@
 UID: NA:gdiplusgraphics
 ms.assetid: 0899b7e8-5f6d-389a-a8f7-b3d169b17472
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

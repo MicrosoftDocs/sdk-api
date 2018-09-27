@@ -4,10 +4,10 @@ title: TSPI_linePickup function
 author: windows-sdk-content
 description: The TSPI_linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call.
 old-location: tspi\tspi_linepickup.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 97ab8896-3794-4de2-a1af-41025d2b6b17
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: TSPI_linePickup, TSPI_linePickup function [TAPI 2.2], _tspi_tspi_linepickup, tspi.tspi_linepickup, tspi/TSPI_linePickup
 ms.prod: windows-hardware
 ms.technology: windows-devices

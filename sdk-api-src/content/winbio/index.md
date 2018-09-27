@@ -2,7 +2,7 @@
 UID: NA:winbio
 ms.assetid: 36258ca5-57ed-3679-9908-462f12da8128
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\numberfmt.htm
 tech.root: Intl
 ms.assetid: cb8a7714-3777-41b4-894b-bb0c0797d51e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: "*LPNUMBERFMTA, LPNUMBERFMT, LPNUMBERFMT structure pointer [Internationalization for Windows Applications], NUMBERFMT, NUMBERFMT structure [Internationalization for Windows Applications], NUMBERFMTA, _numberfmtA, _win32_NUMBERFMT_str, intl.numberfmt, winnls/LPNUMBERFMT, winnls/NUMBERFMT"
 ms.prod: windows
 ms.technology: windows-sdk

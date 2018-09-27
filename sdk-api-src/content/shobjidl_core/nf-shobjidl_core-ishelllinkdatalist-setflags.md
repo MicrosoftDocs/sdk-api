@@ -7,7 +7,7 @@ old-location: shell\IShellLinkDataList_SetFlags.htm
 tech.root: shell
 ms.assetid: 0fca6394-e8ad-4ef3-a7d8-60e85229556b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],SetFlags method, IShellLinkDataList.SetFlags, IShellLinkDataList::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_SetFlags, shell.IShellLinkDataList_SetFlags, shobjidl_core/IShellLinkDataList::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

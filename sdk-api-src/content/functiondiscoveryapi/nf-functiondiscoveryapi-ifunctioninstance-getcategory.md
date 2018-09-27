@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstance_getcategory_method.htm
 tech.root: fundisc
 ms.assetid: dfb5f144-c9b0-455e-aff9-0c07225a21f6
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetCategory, GetCategory method, GetCategory method,IFunctionInstance interface, IFunctionInstance interface,GetCategory method, IFunctionInstance.GetCategory, IFunctionInstance::GetCategory, functiondiscoveryapi/IFunctionInstance::GetCategory, ncd.ifunctioninstance_getcategory_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

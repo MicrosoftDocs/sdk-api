@@ -7,7 +7,7 @@ old-location: wds\iwdstransportmanager_getwdstransportserver.htm
 tech.root: wds
 ms.assetid: 537f75d1-43aa-4f18-a39b-ad45148c1246
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetWdsTransportServer, GetWdsTransportServer method [Windows Deployment Services], GetWdsTransportServer method [Windows Deployment Services],IWdsTransportManager interface, IWdsTransportManager interface [Windows Deployment Services],GetWdsTransportServer method, IWdsTransportManager.GetWdsTransportServer, IWdsTransportManager::GetWdsTransportServer, wds.iwdstransportmanager_getwdstransportserver, wdstptmgmt/IWdsTransportManager::GetWdsTransportServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

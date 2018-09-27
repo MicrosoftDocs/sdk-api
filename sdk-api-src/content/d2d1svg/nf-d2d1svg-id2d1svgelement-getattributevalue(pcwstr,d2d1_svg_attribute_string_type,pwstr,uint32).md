@@ -4,10 +4,10 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,
 author: windows-sdk-content
 description: Gets an attribute of this element as a string.
 old-location: direct2d\id2d1svgelement_getattributevalue.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 3C05DC2D-6B45-4979-8BBC-CD437068B92A
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,PWSTR,UINT32), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,PWSTR,UINT32), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

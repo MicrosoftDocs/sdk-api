@@ -7,7 +7,7 @@ old-location: shell\IColumnProvider.htm
 tech.root: shell
 ms.assetid: 06993217-2867-43f2-aa76-04b500bf8c17
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IColumnProvider, IColumnProvider interface [Windows Shell], IColumnProvider interface [Windows Shell],described, _win32_IColumnProvider, shell.IColumnProvider, shlobj/IColumnProvider
 ms.prod: windows
 ms.technology: windows-sdk

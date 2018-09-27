@@ -7,7 +7,7 @@ old-location: com\iolecachecontrol.htm
 tech.root: com
 ms.assetid: 64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], IOleCacheControl interface [COM],described, _ole_iolecachecontrol, com.iolecachecontrol, oleidl/IOleCacheControl
 ms.prod: windows
 ms.technology: windows-sdk

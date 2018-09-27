@@ -7,7 +7,7 @@ old-location: wsw\ws_read_message_start_callback.htm
 tech.root: wsw
 ms.assetid: e9c5d9df-2f96-472d-ba9d-ecb7ccac4a13
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_READ_MESSAGE_START_CALLBACK, WS_READ_MESSAGE_START_CALLBACK callback, WS_READ_MESSAGE_START_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_MESSAGE_START_CALLBACK, wsw.ws_read_message_start_callback
 ms.prod: windows
 ms.technology: windows-sdk

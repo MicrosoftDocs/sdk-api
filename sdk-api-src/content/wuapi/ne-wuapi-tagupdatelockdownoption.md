@@ -4,10 +4,10 @@ title: tagUpdateLockdownOption
 author: windows-sdk-content
 description: Defines the functionality that the Windows Update Agent (WUA) object can access from Windows Update.
 old-location: wua\updatelockdownoption.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 6e664485-d26f-4702-9190-9440b13c60b5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: UpdateLockdownOption, UpdateLockdownOption enumeration [Windows Update Agent], tagUpdateLockdownOption, uloForWebsiteAccess, wua.updatelockdownoption, wuapi/UpdateLockdownOption, wuapi/uloForWebsiteAccess
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,12 +2,11 @@
 UID: TP:wab
 ms.assetid: 56a65500-d04e-3d2e-85d2-62accfb13a81
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Windows Address Book
@@ -24,5 +23,5 @@ To develop Windows Address Book, you need these headers:
  * [wabtags.h](../wabtags/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Address Book](/previous-versions/windows/desktop/wab)
+* [Windows Address Book](/windows/desktop/wab)
 

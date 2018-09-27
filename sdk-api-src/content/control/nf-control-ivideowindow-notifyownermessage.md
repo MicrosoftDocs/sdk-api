@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_notifyownermessage.htm
 tech.root: DirectShow
 ms.assetid: 37d28f32-5da5-4082-ac57-5b274e95ca68
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IVideoWindow interface [DirectShow],NotifyOwnerMessage method, IVideoWindow.NotifyOwnerMessage, IVideoWindow::NotifyOwnerMessage, IVideoWindowNotifyOwnerMessage, NotifyOwnerMessage, NotifyOwnerMessage method [DirectShow], NotifyOwnerMessage method [DirectShow],IVideoWindow interface, control/IVideoWindow::NotifyOwnerMessage, dshow.ivideowindow_notifyownermessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

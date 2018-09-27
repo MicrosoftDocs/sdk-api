@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdragpattern_currentdropeffects.htm
 tech.root: WinAuto
 ms.assetid: 393692C9-AA4E-4C50-8006-39457EB57153
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: CurrentDropEffects property [Windows Accessibility], CurrentDropEffects property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CurrentDropEffects property, IUIAutomationDragPattern.CurrentDropEffects, IUIAutomationDragPattern.get_CurrentDropEffects, IUIAutomationDragPattern::CurrentDropEffects, IUIAutomationDragPattern::get_CurrentDropEffects, get_CurrentDropEffects, uiautomationclient/IUIAutomationDragPattern::CurrentDropEffects, uiautomationclient/IUIAutomationDragPattern::get_CurrentDropEffects, winauto.uiauto_iuiautomationdragpattern_currentdropeffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

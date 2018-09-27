@@ -7,7 +7,7 @@ old-location: base\isthreadpooltimerset.htm
 tech.root: procthread
 ms.assetid: f9dee0aa-6310-4218-b207-72a24c5019e2
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IsThreadpoolTimerSet, IsThreadpoolTimerSet function, base.isthreadpooltimerset, threadpoolapiset/IsThreadpoolTimerSet, winbase/IsThreadpoolTimerSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

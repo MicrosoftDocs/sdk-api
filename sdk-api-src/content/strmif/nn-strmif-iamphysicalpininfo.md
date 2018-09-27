@@ -7,7 +7,7 @@ old-location: dshow\iamphysicalpininfo.htm
 tech.root: DirectShow
 ms.assetid: d1d05d2c-018e-421f-bfb9-810d708f726c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IAMPhysicalPinInfo, IAMPhysicalPinInfo interface [DirectShow], IAMPhysicalPinInfo interface [DirectShow],described, IAMPhysicalPinInfoInterface, dshow.iamphysicalpininfo, strmif/IAMPhysicalPinInfo
 ms.prod: windows
 ms.technology: windows-sdk

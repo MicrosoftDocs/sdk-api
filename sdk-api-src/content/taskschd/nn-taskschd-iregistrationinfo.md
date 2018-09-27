@@ -4,10 +4,10 @@ title: IRegistrationInfo
 author: windows-sdk-content
 description: Provides the administrative information that can be used to describe the task.
 old-location: taskschd\iregistrationinfo.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: e04f0c47-ab89-49e4-aac6-028d2555ecf1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], IRegistrationInfo interface [Task Scheduler],described, registration information [Task Scheduler],interface, taskschd.iregistrationinfo, taskschd/IRegistrationInfo
 ms.prod: windows
 ms.technology: windows-sdk

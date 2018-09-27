@@ -7,7 +7,7 @@ old-location: security\cmsg_hashed_encode_info.htm
 tech.root: seccrypto
 ms.assetid: 05dfeda0-a8a1-4203-a68a-af92903ab215
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO structure [Security], PCMSG_HASHED_ENCODE_INFO, PCMSG_HASHED_ENCODE_INFO structure pointer [Security], _CMSG_HASHED_ENCODE_INFO, _crypto2_cmsg_hashed_encode_info, security.cmsg_hashed_encode_info, wincrypt/CMSG_HASHED_ENCODE_INFO, wincrypt/PCMSG_HASHED_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

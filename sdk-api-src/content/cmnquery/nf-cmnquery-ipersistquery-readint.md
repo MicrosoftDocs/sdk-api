@@ -7,7 +7,7 @@ old-location: ad\ipersistquery_readint.htm
 tech.root: ad
 ms.assetid: e7db105f-d331-4048-8d75-e85af94a5c54
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: IPersistQuery interface [Active Directory],ReadInt method, IPersistQuery.ReadInt, IPersistQuery::ReadInt, ReadInt, ReadInt method [Active Directory], ReadInt method [Active Directory],IPersistQuery interface, _glines_ipersistquery_readint, ad.ipersistquery__readint, ad.ipersistquery_readint, cmnquery/IPersistQuery::ReadInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

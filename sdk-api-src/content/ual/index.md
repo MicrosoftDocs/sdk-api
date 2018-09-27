@@ -2,13 +2,12 @@
 UID: NA:ual
 ms.assetid: fa81b147-e0d7-36ae-8648-c11cf8644f80
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: ual
-archived: true
 ---
 
 # Ual.h header

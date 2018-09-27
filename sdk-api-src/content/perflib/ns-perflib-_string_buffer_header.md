@@ -4,10 +4,10 @@ title: "_STRING_BUFFER_HEADER"
 author: windows-sdk-content
 description: Provides information about the PERF_STRING_BUFFER_HEADER block that contains the structure.
 old-location: perf\perf_string_buffer_header.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: 874A97BA-708E-4001-A7CA-1C3114577D7D
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: "*PPERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER structure [Perf], PPERF_STRING_BUFFER_HEADER, PPERF_STRING_BUFFER_HEADER structure pointer [Perf], _STRING_BUFFER_HEADER, perf.perf_string_buffer_header, perflib/PERF_STRING_BUFFER_HEADER, perflib/PPERF_STRING_BUFFER_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

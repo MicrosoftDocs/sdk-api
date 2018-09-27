@@ -7,7 +7,7 @@ old-location: security\ocsp_basic_signed_response_info.htm
 tech.root: seccrypto
 ms.assetid: 4b88a946-030f-490a-b46a-c42507e1268d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*POCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO structure [Security], POCSP_BASIC_SIGNED_RESPONSE_INFO, POCSP_BASIC_SIGNED_RESPONSE_INFO structure pointer [Security], _OCSP_BASIC_SIGNED_RESPONSE_INFO, security.ocsp_basic_signed_response_info, wincrypt/OCSP_BASIC_SIGNED_RESPONSE_INFO, wincrypt/POCSP_BASIC_SIGNED_RESPONSE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

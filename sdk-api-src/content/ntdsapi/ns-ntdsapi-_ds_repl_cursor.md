@@ -7,7 +7,7 @@ old-location: ad\ds_repl_cursor.htm
 tech.root: ad
 ms.assetid: ab4ee8d8-5ccd-4f3f-a1c0-de78c65a10d3
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: DS_REPL_CURSOR, DS_REPL_CURSOR structure [Active Directory], _DS_REPL_CURSOR, _glines_ds_repl_cursor, ad.ds__repl__cursor, ad.ds_repl_cursor, ntdsapi/DS_REPL_CURSOR
 ms.prod: windows
 ms.technology: windows-sdk

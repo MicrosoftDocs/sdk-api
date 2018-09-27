@@ -7,7 +7,7 @@ old-location: shell\IAssocHandler_CreateInvoker.htm
 tech.root: shell
 ms.assetid: 12ffd2f1-e041-41f1-9b57-282a166ccbf7
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: CreateInvoker, CreateInvoker method [Windows Shell], CreateInvoker method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],CreateInvoker method, IAssocHandler.CreateInvoker, IAssocHandler::CreateInvoker, _shell_IAssocHandler_CreateInvoker, shell.IAssocHandler_CreateInvoker, shobjidl_core/IAssocHandler::CreateInvoker
 ms.prod: windows-hardware
 ms.technology: windows-devices

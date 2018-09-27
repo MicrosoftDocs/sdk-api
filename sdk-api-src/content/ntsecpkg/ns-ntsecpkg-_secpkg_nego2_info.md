@@ -7,7 +7,7 @@ old-location: security\secpkg_nego2_info.htm
 tech.root: secauthn
 ms.assetid: 8B093B74-DBF2-4DBD-9FDC-72FD6CC3CCA6
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: "*PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO structure pointer [Security], SECPKG_NEGO2_INFO, SECPKG_NEGO2_INFO structure [Security], _SECPKG_NEGO2_INFO, ntsecpkg/PSECPKG_NEGO2_INFO, ntsecpkg/SECPKG_NEGO2_INFO, security.secpkg_nego2_info"
 ms.prod: windows
 ms.technology: windows-sdk

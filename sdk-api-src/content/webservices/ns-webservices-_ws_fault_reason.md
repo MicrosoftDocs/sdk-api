@@ -7,7 +7,7 @@ old-location: wsw\ws_fault_reason.htm
 tech.root: wsw
 ms.assetid: 70ec3d18-00ab-4dde-8a8a-b200eda44acd
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_FAULT_REASON, WS_FAULT_REASON structure [Web Services for Windows], _WS_FAULT_REASON, webservices/WS_FAULT_REASON, wsw.ws_fault_reason
 ms.prod: windows
 ms.technology: windows-sdk

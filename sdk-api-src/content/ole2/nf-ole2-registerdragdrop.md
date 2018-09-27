@@ -7,7 +7,7 @@ old-location: com\registerdragdrop.htm
 tech.root: com
 ms.assetid: 00726271-4436-41f5-b7cc-666cd77216bc
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: RegisterDragDrop, RegisterDragDrop function [COM], _ole_RegisterDragDrop, com.registerdragdrop, ole2/RegisterDragDrop
 ms.prod: windows-hardware
 ms.technology: windows-devices

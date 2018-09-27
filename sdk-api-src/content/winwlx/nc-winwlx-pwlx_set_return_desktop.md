@@ -7,7 +7,7 @@ old-location: security\wlxsetreturndesktop.htm
 tech.root: secauthn
 ms.assetid: 539e81d9-6362-4476-bdbc-849fb905b268
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: PWLX_SET_RETURN_DESKTOP, PWLX_SET_RETURN_DESKTOP callback, WlxSetReturnDesktop, WlxSetReturnDesktop callback function [Security], _gina_wlxsetreturndesktop, security.wlxsetreturndesktop, winwlx/WlxSetReturnDesktop
 ms.prod: windows
 ms.technology: windows-sdk

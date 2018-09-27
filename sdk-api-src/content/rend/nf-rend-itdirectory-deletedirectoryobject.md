@@ -4,10 +4,10 @@ title: ITDirectory::DeleteDirectoryObject
 author: windows-sdk-content
 description: The DeleteDirectoryObject method deletes an object from the server.
 old-location: tapi3\itdirectory_deletedirectoryobject.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 1d2bb052-6986-4407-8a37-3a74920bf78e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: DeleteDirectoryObject, DeleteDirectoryObject method [TAPI 2.2], DeleteDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],DeleteDirectoryObject method, ITDirectory.DeleteDirectoryObject, ITDirectory::DeleteDirectoryObject, _tapi3_itdirectory_deletedirectoryobject, rend/ITDirectory::DeleteDirectoryObject, tapi3.itdirectory_deletedirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

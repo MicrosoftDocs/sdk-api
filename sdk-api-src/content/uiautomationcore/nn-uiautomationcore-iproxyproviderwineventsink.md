@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IProxyProviderWinEventSink.htm
 tech.root: WinAuto
 ms.assetid: 55489e34-ab23-4c65-9d6f-e2ff39bca74c
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IProxyProviderWinEventSink, IProxyProviderWinEventSink interface [Windows Accessibility], IProxyProviderWinEventSink interface [Windows Accessibility],described, uiauto.uiauto_IProxyProviderWinEventSink, uiauto_IProxyProviderWinEventSink, uiautomationcore/IProxyProviderWinEventSink, winauto.uiauto_IProxyProviderWinEventSink
 ms.prod: windows
 ms.technology: windows-sdk

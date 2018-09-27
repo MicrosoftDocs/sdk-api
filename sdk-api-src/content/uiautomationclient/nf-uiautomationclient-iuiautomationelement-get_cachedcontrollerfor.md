@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedControllerFor.htm
 tech.root: WinAuto
 ms.assetid: 09d9157c-e9e0-4647-9637-d95b66937245
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: CachedControllerFor property [Windows Accessibility], CachedControllerFor property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedControllerFor property, IUIAutomationElement.CachedControllerFor, IUIAutomationElement.get_CachedControllerFor, IUIAutomationElement::CachedControllerFor, IUIAutomationElement::get_CachedControllerFor, get_CachedControllerFor, uiauto.uiauto_IUIAutomationElement_CachedControllerFor, uiauto_IUIAutomationElement_CachedControllerFor, uiautomationclient/IUIAutomationElement::CachedControllerFor, uiautomationclient/IUIAutomationElement::get_CachedControllerFor, winauto.uiauto_IUIAutomationElement_CachedControllerFor
 ms.prod: windows-hardware
 ms.technology: windows-devices

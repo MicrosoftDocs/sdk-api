@@ -7,7 +7,7 @@ old-location: com\createasyncbindctx.htm
 tech.root: com
 ms.assetid: 0c79b61b-d3d6-48fd-aaee-21cddad09208
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: CreateAsyncBindCtx, CreateAsyncBindCtx function [COM], _com_CreateAsyncBindCtx, com.createasyncbindctx, urlmon/CreateAsyncBindCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

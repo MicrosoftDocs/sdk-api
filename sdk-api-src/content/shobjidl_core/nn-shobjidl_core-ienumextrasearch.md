@@ -7,7 +7,7 @@ old-location: shell\IEnumExtraSearch.htm
 tech.root: shell
 ms.assetid: 63b71cd2-483b-482f-b3f4-6d5c937e7708
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IEnumExtraSearch, IEnumExtraSearch interface [Windows Shell], IEnumExtraSearch interface [Windows Shell],described, _win32_IEnumExtraSearch, shell.IEnumExtraSearch, shobjidl_core/IEnumExtraSearch
 ms.prod: windows
 ms.technology: windows-sdk

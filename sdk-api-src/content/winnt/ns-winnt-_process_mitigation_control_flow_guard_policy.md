@@ -7,7 +7,7 @@ old-location: base\process_mitigation_control_flow_guard_policy.htm
 tech.root: procthread
 ms.assetid: AD95D76A-4DDE-4256-B604-15DFD6AD9850
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*PPROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY, PPROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY, PPROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY structure pointer, PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY, PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY structure, _PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY, base.process_mitigation_control_flow_guard_policy, winnt/PPROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY, winnt/PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

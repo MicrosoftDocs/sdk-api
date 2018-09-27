@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IToggleProvider_Toggle.htm
 tech.root: WinAuto
 ms.assetid: afadbcaf-156f-496e-a0f3-900e7f8d44da
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: IToggleProvider interface [Windows Accessibility],Toggle method, IToggleProvider.Toggle, IToggleProvider::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IToggleProvider interface, uiauto.uiauto_IToggleProvider_Toggle, uiauto_IToggleProvider_Toggle, uiautomationcore/IToggleProvider::Toggle, winauto.uiauto_IToggleProvider_Toggle
 ms.prod: windows-hardware
 ms.technology: windows-devices

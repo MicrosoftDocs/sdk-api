@@ -7,7 +7,7 @@ old-location: shell\ITransferAdviseSink_SubStreamFailure.htm
 tech.root: shell
 ms.assetid: 4cca3bc0-45c6-40ee-8050-7035faa1e601
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/21/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],SubStreamFailure method, ITransferAdviseSink.SubStreamFailure, ITransferAdviseSink::SubStreamFailure, SubStreamFailure, SubStreamFailure method [Windows Shell], SubStreamFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_SubStreamFailure, shell.ITransferAdviseSink_SubStreamFailure, shobjidl_core/ITransferAdviseSink::SubStreamFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\vmr_aspect_ratio_mode.htm
 tech.root: DirectShow
 ms.assetid: dd1d1d99-008b-4234-a38a-314ba02bb116
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: VMR_ARMODE_LETTER_BOX, VMR_ARMODE_NONE, VMR_ASPECT_RATIO_MODE, VMR_ASPECT_RATIO_MODE , VMR_ASPECT_RATIO_MODE enumeration [DirectShow], VMR_ASPECT_RATIO_MODEEnumeration, dshow.vmr_aspect_ratio_mode, strmif/VMR_ARMODE_LETTER_BOX, strmif/VMR_ARMODE_NONE, strmif/VMR_ASPECT_RATIO_MODE
 ms.prod: windows
 ms.technology: windows-sdk

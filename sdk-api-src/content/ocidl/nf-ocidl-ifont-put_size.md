@@ -7,7 +7,7 @@ old-location: com\ifont_put_size.htm
 tech.root: com
 ms.assetid: 1c39a7dc-553b-41b7-8b66-1a5980493dce
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/25/2018
 ms.keywords: IFont interface [COM],put_Size method, IFont.put_Size, IFont::put_Size, _ctrl_ifont_put_size, com.ifont_put_size, ocidl/IFont::put_Size, put_Size, put_Size method [COM], put_Size method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
