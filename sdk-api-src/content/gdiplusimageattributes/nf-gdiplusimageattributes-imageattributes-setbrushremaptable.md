@@ -103,22 +103,18 @@ Calling the <b>ImageAttributes::SetBrushRemapTable</b> method has the same effec
 The following example creates an 
 						<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object and sets its brush remap table so that red is converted to green.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ImageAttributes imageAtt;
 ColorMap cMap;
 cMap.oldColor = Color(255, 255, 0, 0);  // red
 cMap.newColor = Color(255, 0, 255, 0);  // green
-imageAtt.SetBrushRemapTable(1, &amp;cMap);
-				</pre>
-</td>
-</tr>
-</table></span></div>
+imageAtt.SetBrushRemapTable(1, &cMap);
+				
+```
+
+
 
 
 

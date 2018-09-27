@@ -182,22 +182,18 @@ The <b>SCardAddReaderToGroup</b> function is a database management function. For
 
 The following example demonstrates how to add a smart card reader to a    group.     The example assumes that lReturn is an existing variable of type <b>LONG</b>, that <i>hContext</i> is a valid handle received from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function, and that "MyReader" and "MyReaderGroup"  are known by the system through previous calls to the <a href="https://msdn.microsoft.com/1f8b9d75-5bba-40c3-99a0-6910855fcd4d">SCardIntroduceReader</a> and <a href="https://msdn.microsoft.com/aaf7d2f9-71d5-42bb-a96f-71124be40aa3">SCardIntroduceReaderGroup</a> functions, respectively.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 lReturn = SCardAddReaderToGroup( hContext, 
                                 L"MyReader",
                                 L"MyReaderGroup");
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardAddReaderToGroup\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

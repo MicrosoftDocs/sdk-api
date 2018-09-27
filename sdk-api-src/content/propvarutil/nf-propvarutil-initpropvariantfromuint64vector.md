@@ -101,25 +101,21 @@ Creates a VT_VECTOR | VT_UI8 propvariant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ULONGLONG rgLongs[] = {4, 7};
+
+```cpp
+ULONGLONG rgLongs[] = {4, 7};
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromUInt32Vector(rgLongs, ARRAYSIZE(rgLongs), &amp;propvar);
+HRESULT hr = InitPropVariantFromUInt32Vector(rgLongs, ARRAYSIZE(rgLongs), &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_UI8.
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 

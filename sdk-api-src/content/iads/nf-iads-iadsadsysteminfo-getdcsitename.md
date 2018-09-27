@@ -95,14 +95,10 @@ An Active Directory site is one or more well-connected TCP/IP subnets holding Ac
 
 The following C++ code example retrieves the Active Directory site name. For brevity, error checking is omitted.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;activeds.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <activeds.h>
+#include <stdio.h>
  
 int main()
 {
@@ -115,16 +111,16 @@ int main()
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsADSystemInfo,
-                          (void**)&amp;pSys);
+                          (void**)&pSys);
  
    BSTR siteName;
    BSTR dnsServer;
-   hr = pSys-&gt;GetAnyDCName(&amp;dnsServer);
+   hr = pSys->GetAnyDCName(&dnsServer);
 
    if (SUCCEEDED(hr)) {
       printf("Domain controller: %S\n", dnsServer);
 
-      hr = pSys-&gt;GetDCSiteName(&amp;siteName);
+      hr = pSys->GetDCSiteName(&siteName);
       if (SUCCEEDED(hr)) {
           printf("Domain controller site: %S\n", siteName);
           SysFreeString(siteName);
@@ -135,51 +131,43 @@ int main()
 
  
    if(pSys) {
-      pSys-&gt;Release();
+      pSys->Release();
    }
  
    CoUninitialize();
    return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The following Visual Basic code example retrieves the name of the Active Directory domain controller site.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim sys As New ADSystemInfo
+
+```vb
+Dim sys As New ADSystemInfo
 dc = sys.GetAnyDCName
-Debug.Print "Domain Controller site: " &amp; sys.GetDCSiteName(dc)</pre>
-</td>
-</tr>
-</table></span></div>
+Debug.Print "Domain Controller site: " & sys.GetDCSiteName(dc)
+```
+
+
 The following VBScript/ASP code example retrieves the name of the Active Directory domain controller site.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;%
+
+```vb
+<%
 Dim sys
 
 Set sys = CreateObject("ADSystemInfo")
 
 dc = sys.GetAnyDCName
 
-wscript.echo "Domain Controller     : " &amp; dc
-wscript.echo "Domain Controller site: " &amp; sys.GetDCSiteName(dc)
+wscript.echo "Domain Controller     : " & dc
+wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
 
-%&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+%>
+```
+
+
 
 
 

@@ -221,58 +221,46 @@ The <code>RenderStream</code> method handles many of the details required for ca
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 For a typical capture graph, connect the preview pin to the default renderer, with no intermediate filter:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Video: 
-pBuilder-&gt;RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Video, 
+pBuilder->RenderStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Video, 
     pCaptureFilter, NULL, NULL); 
 // Audio:
-pBuilder-&gt;RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Audio, 
+pBuilder->RenderStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Audio, 
     pCaptureFilter, NULL, NULL); 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Connect the capture pin to a mux filter or file writer filter, depending on what type of file you wish to output. For AVI files, use the <a href="https://msdn.microsoft.com/31d30c91-fc6a-45ec-a2e0-34e6a1e902a4">AVI Mux</a> filter. For ASF files, use the <a href="https://msdn.microsoft.com/1b12f65f-8d77-4d38-aad9-92bb15cc0426">WM ASF Writer</a> filter. Typically, you will get a pointer to this filter from the <i>ppf</i> parameter of the <a href="https://msdn.microsoft.com/b81a79c1-a6f2-4c80-ae86-095fb9f78673">ICaptureGraphBuilder2::SetOutputFileName</a> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-pBuilder-&gt;SetOutputFileName(&amp;MEDIASUBTYPE_Avi, L"C:\\Example.avi", 
-    &amp;ppf, &amp;pSink);
-pBuilder-&gt;RenderStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Video,
+
+```cpp
+
+pBuilder->SetOutputFileName(&MEDIASUBTYPE_Avi, L"C:\\Example.avi", 
+    &ppf, &pSink);
+pBuilder->RenderStream(&PIN_CATEGORY_CAPTURE, &MEDIATYPE_Video,
     pCaptureFilter, NULL, ppf);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="File_Sources"></a><a id="file_sources"></a><a id="FILE_SOURCES"></a>File Sources</h3>
 You can use this method to transcode or recompress a file. The following discussion assumes that the file has at most one video stream and one audio stream, or else a single interleaved stream. Otherwise, the method will not work correctly.
 
 A file source has one output pin, so set <i>pCategory</i> and <i>pType</i> to <b>NULL</b>. Call the method twice—once to render the video stream, and once to render the audio stream. The first call connects the source filter to a parser filter and renders one of the parser filter's output pins. The second call renders the parser's remaining output pin. If you are compressing one stream but not the other, make sure to specify the compressor filter in the first call. The method will automatically pick the correct stream based on the compression type.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-pBuilder-&gt;RenderStream(NULL, NULL, pSrc, pCompressor, pMux);
-pBuilder-&gt;RenderStream(NULL, NULL, pSrc, NULL, pMux);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+
+pBuilder->RenderStream(NULL, NULL, pSrc, pCompressor, pMux);
+pBuilder->RenderStream(NULL, NULL, pSrc, NULL, pMux);
+
+```
+
+
 For a complete example, see <a href="https://msdn.microsoft.com/7c91e560-ac69-47e1-a921-c312b77ecadc">Recompressing an AVI File</a>.
 
 

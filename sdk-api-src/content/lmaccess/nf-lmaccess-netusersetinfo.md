@@ -673,20 +673,16 @@ The following code sample demonstrates how to disable a user account with a call
 <a href="https://msdn.microsoft.com/142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e">USER_INFO_1008</a> structure, specifying the value UF_ACCOUNTDISABLE. Then the sample calls 
 <b>NetUserSetInfo</b>, specifying information level 0.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <windows.h> 
+#include <lm.h>
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -710,7 +706,7 @@ int wmain(int argc, wchar_t *argv[])
    nStatus = NetUserSetInfo(argv[1],
                             argv[2],
                             dwLevel,
-                            (LPBYTE)&amp;ui,
+                            (LPBYTE)&ui,
                             NULL);
    //
    // Display the result of the call.
@@ -722,10 +718,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

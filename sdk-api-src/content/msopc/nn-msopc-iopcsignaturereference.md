@@ -145,76 +145,68 @@ The interface provides methods to access information about the reference itself,
 
 The following signature markup shows a serialized reference to a signed, application-specific <b>Object</b> element.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;Signature Id="SignatureId" xmlns="http://www.w3.org/2000/09/xmldsig#"&gt;
-    &lt;SignedInfo&gt;
+
+```xml
+<Signature Id="SignatureId" xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
         [...]
-        &lt;Reference URI="#idPackageObject" ...&gt;
+        <Reference URI="#idPackageObject" ...>
             [...]
-        &lt;/Reference&gt;
-        &lt;!-- This reference indicates that the application-specific
-        Object element was signed when the signature was generated.--&gt;
-        &lt;Reference URI="#Application" ...&gt;
+        </Reference>
+        <!-- This reference indicates that the application-specific
+        Object element was signed when the signature was generated.-->
+        <Reference URI="#Application" ...>
             [...]
-        &lt;/Reference&gt;
-    &lt;/SignedInfo&gt;
+        </Reference>
+    </SignedInfo>
     [...]
-    &lt;Object Id="idPackageObject" ...&gt;
+    <Object Id="idPackageObject" ...>
         [...]
-    &lt;/Object&gt;
-    &lt;!-- This application-specific &lt;Object&gt; element was signed when the
-    signature was generated. --&gt;
-    &lt;Object Id="Application"&gt;
+    </Object>
+    <!-- This application-specific <Object> element was signed when the
+    signature was generated. -->
+    <Object Id="Application">
         [...]
-    &lt;/Object&gt;
-&lt;/Signature&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+    </Object>
+</Signature>
+```
+
+
 The following signature markup shows a serialized reference to a signed, child element of an application-specific <b>Object</b> element.<div class="alert"><b>Note</b>  More than one child element of an application-specific <b>Object</b> can be referenced for signing.</div>
 <div> </div>
 
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;Signature Id="SignatureId" xmlns="http://www.w3.org/2000/09/xmldsig#"&gt;
-    &lt;SignedInfo&gt;
+
+```xml
+<Signature Id="SignatureId" xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
         [...]
-        &lt;Reference URI="#idPackageObject" ...&gt;
+        <Reference URI="#idPackageObject" ...>
             [...]
-        &lt;/Reference&gt;
-        &lt;!-- This reference indicates that MyElement in the application
+        </Reference>
+        <!-- This reference indicates that MyElement in the application
         -specific Object element was signed when the signature was
-        generated. --&gt;
-        &lt;Reference URI="#MyElementId" ...&gt;
+        generated. -->
+        <Reference URI="#MyElementId" ...>
             [...]
-        &lt;/Reference&gt;
-    &lt;/SignedInfo&gt;
+        </Reference>
+    </SignedInfo>
     [...]
-    &lt;Object Id="idPackageObject" ...&gt;
+    <Object Id="idPackageObject" ...>
         [...]
-    &lt;/Object&gt;
-    &lt;Object Id="Application"&gt;
+    </Object>
+    <Object Id="Application">
         [...]
-            &lt;!-- This element is signed. --&gt;
-            &lt;MyElement Id="MyElementId"&gt;
+            <!-- This element is signed. -->
+            <MyElement Id="MyElementId">
                 [...]
-            &lt;/MyElement&gt;
+            </MyElement>
         [...]
-    &lt;/Object&gt;
-&lt;/Signature&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+    </Object>
+</Signature>
+```
+
+
 
 
 

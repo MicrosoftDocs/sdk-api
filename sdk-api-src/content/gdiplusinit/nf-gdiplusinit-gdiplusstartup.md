@@ -137,34 +137,30 @@ In the following code, the variable
 <li><b>SuppressBackgroundThread</b> = <b>FALSE</b></li>
 <li><b>SuppressExternalCodecs</b> = <b>FALSE</b></li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;gdiplus.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <gdiplus.h>
+#include <stdio.h>
 using namespace Gdiplus;
 
 INT main()
 {
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    Image* image = new Image(L"FakePhoto.jpg");
-   printf("The width of the image is %u.\n", image-&gt;GetWidth());
-   printf("The height of the image is %u.\n", image-&gt;GetHeight()); 
+   printf("The width of the image is %u.\n", image->GetWidth());
+   printf("The height of the image is %u.\n", image->GetHeight()); 
 
    delete image;
    GdiplusShutdown(gdiplusToken);
    return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

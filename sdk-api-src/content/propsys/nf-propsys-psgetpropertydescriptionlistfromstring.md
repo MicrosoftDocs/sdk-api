@@ -135,25 +135,21 @@ For more information about property schemas, see <a href="shell.Building_Propert
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescriptionListFromString">PSGetPropertyDescriptionListFromString</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IPropertyDescriptionList *pList;
+
+```cpp
+IPropertyDescriptionList *pList;
 
 HRESULT hr = PSGetPropertyDescriptionListFromString(L"prop:System.Title;System.Size",
-                                                    IID_PPV_ARGS(&amp;pList));
+                                                    IID_PPV_ARGS(&pList));
                                                     
 if (SUCCEEDED(hr))
 {
     // pList is now valid.
  
-    pList-&gt;Release();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    pList->Release();
+}
+```
+
+
 
 

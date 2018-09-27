@@ -120,13 +120,9 @@ To learn how an application subscribes to receive notifications through this met
 
 The following C++ code implements the <b>WMDMMessage</b> method, and prints out a device or storage arrival or departure notification message.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT WMDMMessage(DWORD  dwMessageType, LPCWSTR  pwszCanonicalName)
 {
     switch(dwMessageType)
@@ -149,10 +145,10 @@ HRESULT WMDMMessage(DWORD  dwMessageType, LPCWSTR  pwszCanonicalName)
     }
     return S_OK; // Return value is ignored, and not returned to the application.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

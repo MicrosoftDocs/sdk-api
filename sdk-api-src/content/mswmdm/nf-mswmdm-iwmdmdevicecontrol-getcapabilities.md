@@ -174,64 +174,60 @@ Currently, not many devices report their capabilities correctly.
 
 The following C++ code retrieves the device capabilities.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Examine the device capabilities.
 // Use some of these to enable or disable the application's
 // user interface elements.
-CComQIPtr&lt;IWMDMDeviceControl&gt; pDeviceControl(pIWMDMDevice);
+CComQIPtr<IWMDMDeviceControl> pDeviceControl(pIWMDMDevice);
 if (pDeviceControl != NULL)
 {
     DWORD caps = 0;
-    hr = pDeviceControl-&gt;GetCapabilities(&amp;caps);
-    if (caps &amp; WMDM_DEVICECAP_CANPLAY)
+    hr = pDeviceControl->GetCapabilities(&caps);
+    if (caps & WMDM_DEVICECAP_CANPLAY)
     {
         // TODO: Display a message indicating that the media device can play MP3 audio.
     }
-    if (caps &amp; WMDM_DEVICECAP_CANSTREAMPLAY)
+    if (caps & WMDM_DEVICECAP_CANSTREAMPLAY)
     {
         // TODO: Display a message that the device can play audio directly from the host computer.
     }
-    if (caps &amp; WMDM_DEVICECAP_CANRECORD)
+    if (caps & WMDM_DEVICECAP_CANRECORD)
     {
         // TODO: Display a message that the device can record audio.
     }
-    if (caps &amp; WMDM_DEVICECAP_CANSTREAMRECORD)
+    if (caps & WMDM_DEVICECAP_CANSTREAMRECORD)
     {
         // TODO: Display a message that the media device can record 
         // streaming audio directly to the host computer.
     }
-    if (caps &amp; WMDM_DEVICECAP_CANPAUSE)
+    if (caps & WMDM_DEVICECAP_CANPAUSE)
     {
         // TODO: Display a message that the device can pause during play or record operations.
     }
-    if (caps &amp; WMDM_DEVICECAP_CANRESUME)
+    if (caps & WMDM_DEVICECAP_CANRESUME)
     {
         // TODO: Display a message that the device can resume an operation that was paused.
     }
-    if (caps &amp; WMDM_DEVICECAP_CANSTOP)
+    if (caps & WMDM_DEVICECAP_CANSTOP)
     {
         // TODO: Display a message that the device can stop playing before the end of a file.
     }
-    if (caps &amp; WMDM_DEVICECAP_CANSEEK)
+    if (caps & WMDM_DEVICECAP_CANSEEK)
     {
         // TODO: Display a message that the device can seek to a position 
         // other than the beginning of the file.
     }
-    if (caps &amp; WMDM_DEVICECAP_HASSECURECLOCK)
+    if (caps & WMDM_DEVICECAP_HASSECURECLOCK)
     {
         // TODO: Display a message indicating that the device has a secure clock.
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -153,29 +153,21 @@ When you pass <a href="d3d11_map.htm">D3D11_MAP_WRITE</a>, <a href="d3d11_map.ht
 <p class="note">C++ code:
               
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>*((int*)MappedResource.pData) = 0;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+*((int*)MappedResource.pData) = 0;
+```
+
+
 <p class="note">x86 assembly code:
               
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>AND DWORD PTR [EAX],0</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+AND DWORD PTR [EAX],0
+```
+
+
 </div>
 <div> </div>
 

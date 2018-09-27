@@ -150,20 +150,16 @@ Out of memory.
 
 For example, the following call enumerates all audio-rendering endpoint devices that are currently active (present and not disabled):
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-  hr = pDevEnum-&gt;EnumAudioEndpoints(
+
+```cpp
+
+  hr = pDevEnum->EnumAudioEndpoints(
                    eRender, DEVICE_STATE_ACTIVE,
-                   &amp;pEndpoints);
-</pre>
-</td>
-</tr>
-</table></span></div>
+                   &pEndpoints);
+
+```
+
+
 In the preceding code fragment, variable <i>hr</i> is of type <b>HRESULT</b>, <i>pDevEnum</i> is a pointer to an <b>IMMDeviceEnumerator</b> interface, and <i>pEndpoints</i> is a pointer to an <b>IMMDeviceCollection</b> interface.
 
 

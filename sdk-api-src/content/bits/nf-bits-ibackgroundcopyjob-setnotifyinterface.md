@@ -139,31 +139,27 @@ The following example shows how to call the
 <a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface. The example assumes the 
 <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> interface pointer is valid.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IBackgroundCopyJob* pJob;
+
+```cpp
+IBackgroundCopyJob* pJob;
 CNotifyInterface* pNotify = new CNotifyInterface();
 
-hr = pJob-&gt;SetNotifyInterface(pNotify);
+hr = pJob->SetNotifyInterface(pNotify);
 if (SUCCEEDED(hr))
 {
-  hr = pJob-&gt;SetNotifyFlags(BG_NOTIFY_JOB_TRANSFERRED | 
+  hr = pJob->SetNotifyFlags(BG_NOTIFY_JOB_TRANSFERRED | 
                             BG_NOTIFY_JOB_ERROR);
 }
-pNotify-&gt;Release();
+pNotify->Release();
 pNofity = NULL;
 
 if (FAILED(hr))
 {
   //Handle error - unable to register for event notification.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

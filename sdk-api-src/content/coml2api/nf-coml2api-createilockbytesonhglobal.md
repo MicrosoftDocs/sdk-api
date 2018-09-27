@@ -110,13 +110,9 @@ If a memory handle is passed to <b>CreateILockBytesOnHGlobal</b> or if <a href="
 </ul>
 If the caller sets the <i>fDeleteOnRelease</i> parameter to <b>FALSE</b>, then the caller must also free the <i>hGlobal</i> after the final release. If the caller sets the <i>fDeleteOnRelease</i> parameter to <b>TRUE</b>, the final release will automatically free the <i>hGlobal</i>. The memory handle passed as the hGlobal parameter must be allocated as movable and nondiscardable, as shown in the following example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HGLOBAL	hMem = ::GlobalAlloc(GMEM_MOVEABLE,iSize);
+
+```cpp
+HGLOBAL	hMem = ::GlobalAlloc(GMEM_MOVEABLE,iSize);
 if (!hMem)
     AfxThrowMemoryException();
 
@@ -124,13 +120,13 @@ LPVOID pCompoundFile = ::GlobalLock(hMem);
 ... // Fill memory
 ::GlobalUnlock(hMem);
 
-CComPtr&lt;ILockBytes&gt; spLockBytes;
-HRESULT hr = ::CreateILockBytesOnHGlobal(hMem,FALSE,&amp;spLockBytes);
+CComPtr<ILockBytes> spLockBytes;
+HRESULT hr = ::CreateILockBytesOnHGlobal(hMem,FALSE,&spLockBytes);
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>CreateILockBytesOnHGlobal</b> will accept memory allocated with <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GMEM_FIXED</a>, but this usage is not recommended. HGLOBALs allocated with <b>GMEM_FIXED</b> are not really handles and their value can change when they are reallocated. If the memory handle was allocated with <b>GMEM_FIXED</b> and <i>fDeleteOnRelease</i> is <b>FALSE</b>, then the caller must call <a href="https://msdn.microsoft.com/084fcd1d-5b85-448c-862a-378353e1e2e6">GetHGlobalFromILockBytes</a> to get the correct HGLOBAL value in order to free the handle.
 
 This implementation of <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> does not support region locking.  Applications that use this implementation with the <a href="https://msdn.microsoft.com/8af5098d-db04-4273-8f5f-6d1a1d9541de">StgCreateDocfileOnILockBytes</a> or <a href="https://msdn.microsoft.com/7920bd46-0a8f-42e0-9988-59d85edb64e2">StgOpenStorageOnILockBytes</a> functions should avoid opening multiple concurrent instances on the same <b>ILockBytes</b> object. 

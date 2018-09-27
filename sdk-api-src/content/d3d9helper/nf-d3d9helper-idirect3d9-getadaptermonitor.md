@@ -83,26 +83,22 @@ Handle of the monitor associated with the Direct3D object.
 
 As shown in the following code fragment, which illustrates how to obtain a handle to the monitor associated with a given device, use <a href="https://msdn.microsoft.com/42666561-fb2b-47b4-b2c4-49926ea67964">GetDirect3D</a> to return the Direct3D enumerator from the device and use <a href="https://msdn.microsoft.com/18889d40-a64f-41da-92dd-7b197749e685">GetCreationParameters</a> to retrieve the value for Adapter.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-    if( FAILED( pDevice-&gt;GetCreationParameters(  &amp;Parameters ) ) )
+
+```
+
+    if( FAILED( pDevice->GetCreationParameters(  &Parameters ) ) )
         return D3DERR_INVALIDCALL;
     
-    if( FAILED( pDevice-&gt;GetDirect3D(&amp;pD3D) ) )
+    if( FAILED( pDevice->GetDirect3D(&pD3D) ) )
         return D3DERR_INVALIDCALL;
     
-    hMonitor = pD3D-&gt;GetAdapterMonitor(Parameters.AdapterOrdinal);
+    hMonitor = pD3D->GetAdapterMonitor(Parameters.AdapterOrdinal);
     
-    pD3D-&gt;Release();
-</pre>
-</td>
-</tr>
-</table></span></div>
+    pD3D->Release();
+
+```
+
+
 
 
 

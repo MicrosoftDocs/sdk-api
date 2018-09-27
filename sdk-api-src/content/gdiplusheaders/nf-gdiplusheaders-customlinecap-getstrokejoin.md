@@ -86,13 +86,9 @@ The <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">Cu
 
 The following example creates a <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object with a stroke join. It then gets the stroke join and assigns it as the line join of a  <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object that it then uses to draw a line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetStrokeJoin(HDC hdc)
+
+```cpp
+VOID Example_GetStrokeJoin(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -102,7 +98,7 @@ The following example creates a <a href="https://msdn.microsoft.com/bab33c8b-320
    capPath.AddLines(points, 3);
 
    // Create a CustomLineCap object.
-   CustomLineCap custCap(NULL, &amp;capPath); 
+   CustomLineCap custCap(NULL, &capPath); 
   
    // Set the stroke join for custCap.
    custCap.SetStrokeJoin(LineJoinBevel);
@@ -117,11 +113,11 @@ The following example creates a <a href="https://msdn.microsoft.com/bab33c8b-320
    GraphicsPath joinPath;
    joinPath.AddLine(Point(10, 10), Point(10, 200));
    joinPath.AddLine(Point(10, 200), Point(200, 200));
-   graphics.DrawPath(&amp;strokeJoinPen, &amp;joinPath);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawPath(&strokeJoinPen, &joinPath);
+}
+```
+
+
 
 
 

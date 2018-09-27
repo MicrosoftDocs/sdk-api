@@ -149,20 +149,16 @@ The Windows Media Player control always processes incoming URL commands in the f
 </ol>
 When authoring a Windows Media file, you can specify which frame the new URL is displayed in by concatenating two ampersand (&amp;) characters and the name of the frame in the parameter field. The following example specifies that the URL http://myweb/mypage.html must be launched in the frame called myframe.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-scType = "URL"
-Param = http://myweb/mypage.html&amp;&amp;myframe
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+
+scType = "URL"
+Param = http://myweb/mypage.html&&myframe
+
+
+```
+
+
 
 
 

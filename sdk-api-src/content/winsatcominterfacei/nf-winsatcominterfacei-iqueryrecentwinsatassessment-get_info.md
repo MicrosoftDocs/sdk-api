@@ -72,15 +72,11 @@ To retrieve summary information for a subcomponent of the assessment, call the <
 
 The following example shows how to get the summary information for the most recent formal assessment.  The example gets the assessment date, base score, and state information.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;winsatcominterfacei.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <winsatcominterfacei.h>
 
 #pragma comment(lib, "ole32.lib")
 #pragma comment(lib, "oleaut32.lib")
@@ -102,7 +98,7 @@ void main(void)
         NULL,
         CLSCTX_INPROC_SERVER,
         __uuidof(IQueryRecentWinSATAssessment),
-        (void**)&amp;pAssessment);
+        (void**)&pAssessment);
 
     if (FAILED(hr))
     {
@@ -111,19 +107,19 @@ void main(void)
     }
 
     // Get the summary information for the assessment.
-    hr = pAssessment-&gt;get_Info(&amp;pResults);
+    hr = pAssessment->get_Info(&pResults);
     if (FAILED(hr))
     {
-        wprintf(L"pAssessment-&gt;get_Info failed with 0x%x.\n", hr);
+        wprintf(L"pAssessment->get_Info failed with 0x%x.\n", hr);
         goto cleanup;
     }
 
     // Get the state of the assessment. If the state is valid,
     // print the date of the assessment and the base score.
-    hr = pResults-&gt;get_AssessmentState(&amp;state);
+    hr = pResults->get_AssessmentState(&state);
     if (FAILED(hr))
     {
-        wprintf(L"pResults-&gt;get_AssessmentState failed with 0x%x.\n", hr);
+        wprintf(L"pResults->get_AssessmentState failed with 0x%x.\n", hr);
         goto cleanup;
     }
 
@@ -135,18 +131,18 @@ void main(void)
 
         case WINSAT_ASSESSMENT_STATE_VALID:
         case WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE:
-            hr = pResults-&gt;get_AssessmentDateTime(&amp;vAssessmentDate);
+            hr = pResults->get_AssessmentDateTime(&vAssessmentDate);
             if (FAILED(hr))
             {
-                wprintf(L"pResults-&gt;get_AssessmentDateTime failed with 0x%x.\n", hr);
+                wprintf(L"pResults->get_AssessmentDateTime failed with 0x%x.\n", hr);
                 break;
             }
 
-            VariantTimeToSystemTime(vAssessmentDate.dblVal, &amp;st);
+            VariantTimeToSystemTime(vAssessmentDate.dblVal, &st);
             wprintf(L"Assessment ran on %2d/%2d/%2d at %2d:%2d\n", 
                 st.wMonth, st.wDay, st.wYear, st.wHour, st.wMinute);
 
-            hr = pResults-&gt;get_SystemRating(&amp;baseScore);
+            hr = pResults->get_SystemRating(&baseScore);
             if (SUCCEEDED(hr))
             {
                 wprintf(L"The base score for the computer is %.1f\n", baseScore);
@@ -159,7 +155,7 @@ void main(void)
             }
             else
             {
-                wprintf(L"pResults-&gt;get_SystemRating failed with 0x%x.\n", hr);
+                wprintf(L"pResults->get_SystemRating failed with 0x%x.\n", hr);
             }
             break;
 
@@ -178,19 +174,19 @@ void main(void)
 cleanup:
 
     if (pAssessment)
-        pAssessment-&gt;Release();
+        pAssessment->Release();
 
     if (pResults)
-        pResults-&gt;Release();
+        pResults->Release();
 
-    VariantClear(&amp;vAssessmentDate);
+    VariantClear(&vAssessmentDate);
 
     CoUninitialize();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

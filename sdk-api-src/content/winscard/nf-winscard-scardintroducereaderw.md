@@ -133,13 +133,9 @@ To remove a reader, use
 
 The following example  shows introducing a smart card reader.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// This example renames the reader name.
+
+```cpp
+// This example renames the reader name.
 // This is a two-step process (first add the new
 // name, then forget the old name).
 LPBYTE    pbAttr = NULL;
@@ -151,8 +147,8 @@ LONG      lReturn;
 // hCardHandle was set by a previous call to SCardConnect.
 lReturn = SCardGetAttrib(hCardHandle,
                          SCARD_ATTR_DEVICE_SYSTEM_NAME,
-                         (LPBYTE)&amp;pbAttr,
-                         &amp;cByte);
+                         (LPBYTE)&pbAttr,
+                         &cByte);
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardGetAttrib\n");
@@ -180,10 +176,10 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 // Free the memory when done.
 lReturn = SCardFreeMemory( hContext, pbAttr );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

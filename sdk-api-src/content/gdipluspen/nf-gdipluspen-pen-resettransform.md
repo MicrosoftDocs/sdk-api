@@ -94,13 +94,9 @@ The identity matrix represents a transformation that does nothing. If the world 
 The following example creates a 
 						<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object, sets a scaling matrix to the pen, and draws a rectangle. The code then resets the transformation of the pen and draws a second rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_ResetTrans(HDC hdc)
+
+```cpp
+VOID Example_ResetTrans(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -109,16 +105,16 @@ The following example creates a
    pen.ScaleTransform(8, 4);
 
    // Draw a rectangle with the transformed pen.
-   graphics.DrawRectangle(&amp;pen, 50, 50, 150, 100);
+   graphics.DrawRectangle(&pen, 50, 50, 150, 100);
 
    pen.ResetTransform();
 
    // Draw a rectangle with no pen transformation.
-   graphics.DrawRectangle(&amp;pen, 250, 50, 150, 100);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&pen, 250, 50, 150, 100);
+}
+```
+
+
 
 
 

@@ -98,38 +98,26 @@ The <i>PRIORITIZE_FLAG_IGNOREFAILURECOUNT</i> flag is valid only in combination 
 
 The following examples show the use of the asterisk wildcard character and of the <i>PRIORITIZE_FLAG_IGNOREFAILURECOUNT</i>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = cpSearchCatalogManager2-&gt;PrioritizeMatchingURLs("mapi://{&lt;SID&gt;}/Mailbox - Boyer Zara/*",
-            PRIORITIZE_FLAG_RETRYFAILEDITEMS);</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = cpSearchCatalogManager2-&gt;PrioritizeMatchingURLs("file:f:/Project Files/*",
-            PRIORITIZE_FLAG_RETRYFAILEDITEMS);</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = cpSearchCatalogManager2-&gt;PrioritizeMatchingURLs("file:f:/Project Files/*.docx",
-            PRIORITIZE_FLAG_RETRYFAILEDITEMS | PRIORITIZE_FLAG_IGNOREFAILURECOUNT);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+hr = cpSearchCatalogManager2->PrioritizeMatchingURLs("mapi://{<SID>}/Mailbox - Boyer Zara/*",
+            PRIORITIZE_FLAG_RETRYFAILEDITEMS);
+```
+
+
+
+```cpp
+hr = cpSearchCatalogManager2->PrioritizeMatchingURLs("file:f:/Project Files/*",
+            PRIORITIZE_FLAG_RETRYFAILEDITEMS);
+```
+
+
+
+```cpp
+hr = cpSearchCatalogManager2->PrioritizeMatchingURLs("file:f:/Project Files/*.docx",
+            PRIORITIZE_FLAG_RETRYFAILEDITEMS | PRIORITIZE_FLAG_IGNOREFAILURECOUNT);
+```
+
+
 
 

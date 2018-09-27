@@ -125,13 +125,9 @@ The <a href="https://msdn.microsoft.com/bc398732-037d-4f48-940f-c70975447972">IW
 
 This example demonstrates the use of the <b>InitializeFromFilename</b> to create an image decoder.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    IWICImagingFactory *pFactory = NULL;
+
+```cpp
+    IWICImagingFactory *pFactory = NULL;
     IWICStream *pStream = NULL;
     IWICBitmapDecoder *pDecoder = NULL;
 
@@ -139,18 +135,18 @@ This example demonstrates the use of the <b>InitializeFromFilename</b> to create
                     CLSID_WICImagingFactory,
                     NULL,
                     CLSCTX_INPROC_SERVER,
-                    IID_PPV_ARGS(&amp;pFactory));
+                    IID_PPV_ARGS(&pFactory));
 
     // Create the stream.
     if (SUCCEEDED(hr))
     {
-        hr = pFactory-&gt;CreateStream(&amp;pStream);
+        hr = pFactory->CreateStream(&pStream);
     }
 
     // Initialize the stream from a specific file.
     if (SUCCEEDED(hr))
     {
-        hr = pStream-&gt;InitializeFromFilename(L"test.jpg", GENERIC_READ);
+        hr = pStream->InitializeFromFilename(L"test.jpg", GENERIC_READ);
     }    
 
     // Create a JPEG decoder.
@@ -160,16 +156,16 @@ This example demonstrates the use of the <b>InitializeFromFilename</b> to create
     // detect the stream and instantiate the appropriate codec.  
     if (SUCCEEDED(hr))
     {        
-        hr = pFactory-&gt;CreateDecoder(
+        hr = pFactory->CreateDecoder(
                 GUID_ContainerFormatJpeg,   // Explicitly create a JPEG decoder.
                 NULL,                       // No preferred vendor.
-                &amp;pDecoder);                 // Pointer to the decoder.
+                &pDecoder);                 // Pointer to the decoder.
     } 
 
     // Initialize the decoder
     if (SUCCEEDED(hr))
     {
-        hr = pDecoder-&gt;Initialize(
+        hr = pDecoder->Initialize(
                 pStream,                            // The stream to use.
                 WICDecodeMetadataCacheOnDemand);    // Decode metadata when needed.
     } 
@@ -179,14 +175,14 @@ This example demonstrates the use of the <b>InitializeFromFilename</b> to create
     {
         UINT cFrames = 0;
 
-        hr = pDecoder-&gt;GetFrameCount(&amp;cFrames);
+        hr = pDecoder->GetFrameCount(&cFrames);
 
-        if (SUCCEEDED(hr) &amp;&amp; (cFrames &gt; 0))
+        if (SUCCEEDED(hr) && (cFrames > 0))
         {
             UINT width = 0, height = 0;        
             IWICBitmapFrameDecode *pBitmapFrame = NULL;
 
-            hr = pDecoder-&gt;GetFrame(0, &amp;pBitmapFrame);
+            hr = pDecoder->GetFrame(0, &pBitmapFrame);
 
             if (SUCCEEDED(hr))
             {
@@ -195,27 +191,27 @@ This example demonstrates the use of the <b>InitializeFromFilename</b> to create
 
             if (pBitmapFrame)
             {
-                pBitmapFrame-&gt;Release();
+                pBitmapFrame->Release();
             }
         }
     } 
 
     if (pStream)
     {
-        pStream-&gt;Release();
+        pStream->Release();
     }
 
     if (pFactory)
     {
-        pFactory-&gt;Release();
+        pFactory->Release();
     }
 
     if (pDecoder)
     {
-        pDecoder-&gt;Release();
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+        pDecoder->Release();
+    }
+```
+
+
 
 

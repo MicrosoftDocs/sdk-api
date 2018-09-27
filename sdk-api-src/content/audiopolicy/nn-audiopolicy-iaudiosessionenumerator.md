@@ -119,13 +119,9 @@ A session control is valid as long as the application has a reference to the ses
 
 The following example code shows how to create the session enumerator object and then enumerate sessions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT EnumSessions(IAudioSessionManager2* pSessionManager)
+
+```cpp
+HRESULT EnumSessions(IAudioSessionManager2* pSessionManager)
 {
     if (!pSessionManager)
     {
@@ -141,20 +137,20 @@ The following example code shows how to create the session enumerator object and
     IAudioSessionControl* pSessionControl = NULL;
     
     // Get the current list of sessions.
-    CHECK_HR( hr = pSessionManager-&gt;GetSessionEnumerator(&amp;pSessionList));
+    CHECK_HR( hr = pSessionManager->GetSessionEnumerator(&pSessionList));
     
     // Get the session count.
-    CHECK_HR( hr = pSessionList-&gt;GetCount(&amp;cbSessionCount));
+    CHECK_HR( hr = pSessionList->GetCount(&cbSessionCount));
 
-    for (int index = 0 ; index &lt; cbSessionCount ; index++)
+    for (int index = 0 ; index < cbSessionCount ; index++)
     {
         CoTaskMemFree(pswSession);
         SAFE_RELEASE(pSessionControl);
         
-        // Get the &lt;n&gt;th session.
-        CHECK_HR(hr = pSessionList-&gt;GetSession(index, &amp;pSessionControl));
+        // Get the <n>th session.
+        CHECK_HR(hr = pSessionList->GetSession(index, &pSessionControl));
 
-        CHECK_HR(hr = pSessionControl-&gt;GetDisplayName(&amp;pswSession));
+        CHECK_HR(hr = pSessionControl->GetDisplayName(&pswSession));
 
         wprintf_s(L"Session Name: %s\n", pswSession);
     }
@@ -166,10 +162,10 @@ done:
 
     return hr;
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

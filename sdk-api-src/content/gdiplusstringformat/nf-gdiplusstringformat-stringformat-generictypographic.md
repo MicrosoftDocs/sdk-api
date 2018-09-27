@@ -99,18 +99,14 @@ A generic, typographic
 The following example creates a generic, typographic 
 						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object and then uses it to draw a formatted string. The code also draws the string's layout rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GenericTypographic(HDC hdc)
+
+```cpp
+VOID Example_GenericTypographic(HDC hdc)
 {
    Graphics graphics(hdc);
    SolidBrush  solidBrush(Color(255, 255, 0, 0)); 
    FontFamily  fontFamily(L"Times New Roman");
-   Font        font(&amp;fontFamily, 12, FontStyleRegular, UnitPoint);
+   Font        font(&fontFamily, 12, FontStyleRegular, UnitPoint);
    
    // Create a generic typographic StringFormat object.
    const StringFormat* pStringFormat = StringFormat::GenericTypographic();
@@ -119,17 +115,17 @@ The following example creates a generic, typographic
   graphics.DrawString(
       L"Formatted by a generic typographic StringFormat object", 
       54,  // string length
-      &amp;font, 
+      &font, 
       RectF(30, 30, 100, 120), 
       pStringFormat, 
-      &amp;solidBrush);
+      &solidBrush);
    // Draw the rectangle that encloses the text.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawRectangle(&amp;pen, 30, 30, 100, 120);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&pen, 30, 30, 100, 120);
+}
+```
+
+
 
 
 

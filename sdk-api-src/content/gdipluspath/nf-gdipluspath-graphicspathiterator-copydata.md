@@ -114,13 +114,9 @@ You can call the <a href="https://msdn.microsoft.com/36ec0f46-fb11-4d03-8d44-57e
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds three lines to the path. The code creates a <a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>&gt; object and calls its <b>GraphicsPathIterator::CopyData</b> method to retrieve the path's points and point types. Then the code displays the count returned by the <b>GraphicsPathIterator::CopyData</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define BUFFER_SIZE 30
 TCHAR numPointsCopied[BUFFER_SIZE];
 
@@ -133,7 +129,7 @@ GraphicsPath path;
 path.AddLines(pts, 4); // Add the lines to the path.
 
 // Create a GraphicsPathIterator object and associate it with the path. 
-GraphicsPathIterator pathIterator(&amp;path);
+GraphicsPathIterator pathIterator(&path);
 
 // Create destination arrays, and copy the path data to them.
 PointF* pCopiedPoints = new PointF[4]; 
@@ -148,10 +144,10 @@ MessageBox(hWnd, numPointsCopied, TEXT("CopyData"), NULL);
 
 delete[] pCopiedPoints;
 delete[] pTypes;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

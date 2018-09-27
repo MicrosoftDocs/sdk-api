@@ -106,24 +106,20 @@ To be visible to the Windows Biometric Framework, the <b>WbioQueryStorageInterfa
 
 The following pseudocode shows one possible implementation of this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 WINAPI
 WbioQueryStorageInterface(
     __out PWINBIO_STORAGE_INTERFACE *StorageInterface
     )
 {
-    *StorageInterface = &amp;g_StorageInterface; 
+    *StorageInterface = &g_StorageInterface; 
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -114,28 +114,24 @@ Some Unicode characters have multiple equivalent binary representations consisti
 
 The following code demonstrates the use of the buffer length estimate:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>const int maxIterations = 10;
+
+```cpp
+const int maxIterations = 10;
 LPWSTR strResult = NULL;
 HANDLE hHeap = GetProcessHeap();
 
 int iSizeEstimated = NormalizeString(form, strInput, -1, NULL, 0);
-for (int i = 0; i &lt; maxIterations; i++)
+for (int i = 0; i < maxIterations; i++)
 {
     if (strResult)
         HeapFree(hHeap, 0, strResult);
     strResult = (LPWSTR)HeapAlloc(hHeap, 0, iSizeEstimated * sizeof (WCHAR));
     iSizeEstimated = NormalizeString(form, strInput, -1, strResult, iSizeEstimated);
  
-    if (iSizeEstimated &gt; 0)
+    if (iSizeEstimated > 0)
         break; // success 
  
-    if (iSizeEstimated &lt;= 0)
+    if (iSizeEstimated <= 0)
     {
         DWORD dwError = GetLastError();
         if (dwError != ERROR_INSUFFICIENT_BUFFER) break; // Real error, not buffer error 
@@ -144,10 +140,10 @@ for (int i = 0; i &lt; maxIterations; i++)
         iSizeEstimated = -iSizeEstimated;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows XP, Windows Server 2003</b>: The required header file and DLL are part of the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=362">MSDN Download Center</a>.
 
 

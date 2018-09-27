@@ -218,22 +218,18 @@ Setting the MUI_CONSOLE_FILTER flag in the call to <b>SetThreadPreferredUILangua
 To change the code page, the application uses the <b>setlocale</b> function, or equivalent.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+
+```cpp
+[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean SetThreadPreferredUILanguages(
             System.UInt32 dwFlags,
             System.String pwszLanguagesBuffer,
             ref System.UInt32 pulNumLanguages
             );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

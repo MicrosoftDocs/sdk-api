@@ -122,23 +122,19 @@ A call to this method outside of a Windows Store app running on Windows 8 will r
 
 For WPD devices that use an MTP device service, you can create a COM Automation object to work with the device like this:
 
-<div class="code"><span codelanguage="JavaScript"><table>
-<tr>
-<th>JavaScript</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```javascript
+
  
 deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
  
 var device = deviceFactory.getDeviceFromId(deviceId);
 // Get the first service on the device
 var deviceService = device.services[0];
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

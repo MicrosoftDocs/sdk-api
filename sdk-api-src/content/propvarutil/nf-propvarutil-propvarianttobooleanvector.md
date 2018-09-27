@@ -151,20 +151,16 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a> to access a Boolean vector stored in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid.
 
 // The application is expecting the propvar variable to hold 4 Booleans
 // in a vector.
 BOOL rgFlags[4]; 
 ULONG cFlags;
-HRESULT hr = PropVariantToBooleanVector(propvar, rgFlags, ARRAYSIZE(rgFlags), &amp;cFlags);
+HRESULT hr = PropVariantToBooleanVector(propvar, rgFlags, ARRAYSIZE(rgFlags), &cFlags);
 
 if (SUCCEEDED(hr))
 {
@@ -177,9 +173,9 @@ if (SUCCEEDED(hr))
          // The application received cFlags flags which are now stored in the 
          // first cFlags elements of rgFlags.
      }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

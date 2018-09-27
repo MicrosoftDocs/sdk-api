@@ -103,13 +103,9 @@ A font family consists of a single font type with related styles. An example of 
 
 The following example creates a <a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a> object, gets the <a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a> objects contained within the collection, and uses one of the font families to draw text.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetFamilies(HDC hdc)
+
+```cpp
+VOID Example_GetFamilies(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -123,20 +119,20 @@ The following example creates a <a href="https://msdn.microsoft.com/b53cc1cd-9dc
    // fontCollection.
    FontFamily families[3];
    int numFamilies;
-   fontCollection.GetFamilies(3, families, &amp;numFamilies);
+   fontCollection.GetFamilies(3, families, &numFamilies);
 
    // Create a Font object from the first FontFamily object in the array.
-   Font myFont(&amp;families[0], 16);
+   Font myFont(&families[0], 16);
 
    // Use myFont to draw text.
    SolidBrush solidbrush(Color(255, 0, 0, 0));
    WCHAR string[] = L"This is an Arial font";
    graphics.DrawString(string,
-                       21, &amp;myFont, PointF(0, 0), &amp;solidbrush);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+                       21, &myFont, PointF(0, 0), &solidbrush);
+}
+```
+
+
 
 
 

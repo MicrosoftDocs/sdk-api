@@ -185,22 +185,18 @@ function will be hexadecimal language identifiers that do not include the leadin
 characters in length. For example, en-US will be passed as "0409" and en as "0009". The value "1000" is passed to the callback function for any language associated with a supplemental locale. This value corresponds to the hexadecimal value of <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>. It does not distinguish among supplemental locales, even if the selected language is in the user preferred UI languages list or the system preferred UI languages list.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+
+```cpp
+[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean EnumUILanguages(
             EnumUILanguagesProc lpUILanguageEnumProc,
             System.UInt32 dwFlags,
             System.IntPtr lParam
             );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

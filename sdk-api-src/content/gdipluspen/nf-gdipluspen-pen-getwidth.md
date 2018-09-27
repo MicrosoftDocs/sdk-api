@@ -92,20 +92,16 @@ If you pass the address of a pen to one of the draw methods of a
 The following example creates a 
 						<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object with a specified width and draws a line. The code then gets the width of the pen, creates a second pen based on the width of the first pen, and draws a second line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetWidth(HDC hdc)
+
+```cpp
+VOID Example_GetWidth(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // Create a pen with a width of 15, and 
    // use that pen to draw a line.
    Pen pen(Color(255, 0, 0, 255), 15);
-   graphics.DrawLine(&amp;pen, 20, 20, 200, 100);
+   graphics.DrawLine(&pen, 20, 20, 200, 100);
 
    // Get the width of the pen.
    REAL width = pen.GetWidth();
@@ -114,11 +110,11 @@ The following example creates a
    Pen pen2(Color(255, 0, 255, 0), width);
 
    // Draw a second line.
-   graphics.DrawLine(&amp;pen2, 20, 60, 200, 140);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawLine(&pen2, 20, 60, 200, 140);
+}
+```
+
+
 
 
 

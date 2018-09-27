@@ -88,14 +88,10 @@ A user can visualize the marker when the calling application is running under an
 The following code shows how to use <b>SetMarker</b>.
           It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-CComPtr&lt; ID3D11DeviceContext &gt; pID3D11DeviceContext;
+
+```
+
+CComPtr< ID3D11DeviceContext > pID3D11DeviceContext;
 
 HRESULT hrCreateDevice = (*pfnD3D11CreateDevice)( 
         0,
@@ -107,19 +103,19 @@ HRESULT hrCreateDevice = (*pfnD3D11CreateDevice)(
         D3D11_SDK_VERSION,
         NULL,
         0,
-        &amp; pID3D11DeviceContext );
+        & pID3D11DeviceContext );
 VERIFY_SUCCEEDED(hrCreateDevice);
 
-CComPtr&lt;ID3DUserDefinedAnnotation&gt; pPerf;
-HRESULT hr = pID3D11DeviceContext-&gt;QueryInterface( __uuidof(pPerf), reinterpret_cast&lt;void**&gt;(&amp;pPerf) );
+CComPtr<ID3DUserDefinedAnnotation> pPerf;
+HRESULT hr = pID3D11DeviceContext->QueryInterface( __uuidof(pPerf), reinterpret_cast<void**>(&pPerf) );
 if ( FAILED( hr ) ) 
     return;
-pPerf-&gt;SetMarker( L”Occlusion test failed- not drawing sun flare” );
+pPerf->SetMarker( L”Occlusion test failed- not drawing sun flare” );
 
-          </pre>
-</td>
-</tr>
-</table></span></div>
+          
+```
+
+
 <div class="code"></div>
 
 

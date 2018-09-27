@@ -94,19 +94,15 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyStore *ppropstore;
+
+```cpp
+// IPropertyStore *ppropstore;
 
 // Assume variable ppropstore is initialized and valid
 
 PROPVARIANT propvar = {0};
 
-HRESULT hr = ppropstore-&gt;GetValue(PKEY_FlagStatus, &amp;propvar);
+HRESULT hr = ppropstore->GetValue(PKEY_FlagStatus, &propvar);
 
 if (SUCCEEDED(hr))
 
@@ -118,7 +114,7 @@ if (SUCCEEDED(hr))
 
      INT32 iStatus;
 
-     hr = PropVariantToInt32(propvar, &amp;iStatus);
+     hr = PropVariantToInt32(propvar, &iStatus);
 
      if (SUCCEEDED(hr))
 
@@ -136,12 +132,12 @@ if (SUCCEEDED(hr))
 
      }
 
-     PropVariantClear(&amp;propvar);
+     PropVariantClear(&propvar);
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
