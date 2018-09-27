@@ -7,7 +7,7 @@ old-location: dshow\imediaparams_addenvelope.htm
 tech.root: DirectShow
 ms.assetid: acf7c96c-ce0c-40d0-b4a1-dd571fa2a514
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],AddEnvelope method, IMediaParams.AddEnvelope, IMediaParams::AddEnvelope, IMediaParamsAddEnvelope, dshow.imediaparams_addenvelope, medparam/IMediaParams::AddEnvelope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,9 +163,13 @@ To enumerate the parameters supported by this object, along with their index val
 
 The following code sets two envelope segments, both using a linear function.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define MSEC 10000  // One millisecond
 
 // Define an array with two segments. Note the segments appear in 
@@ -193,11 +197,11 @@ MP_ENVELOPE_SEGMENT Segments[] =
 DWORD cSegments = sizeof(Segments) / sizeof(Segments[0]);
 DWORD dwParam = 0;  // Which parameter to set.
 
-hr = pMediaParams->AddEnvelope(dwParam, cSegments, Segments);
-
-```
-
-
+hr = pMediaParams-&gt;AddEnvelope(dwParam, cSegments, Segments);
+</pre>
+</td>
+</tr>
+</table></span></div>
 This example assumes that the caller has previous used the <b>IMediaParamInfo</b> interface to query whether the DMO supports the MP_CURVE_LINEAR curve for that parameter.
 
 <div class="code"></div>

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debug_enabledebuglayer.htm
 tech.root: direct3d12
 ms.assetid: 4C30C7C6-6071-4D69-BAB9-4CF6FED5B7D4
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: EnableDebugLayer, EnableDebugLayer method, EnableDebugLayer method,ID3D12Debug interface, ID3D12Debug interface,EnableDebugLayer method, ID3D12Debug.EnableDebugLayer, ID3D12Debug::EnableDebugLayer, d3d12sdklayers/ID3D12Debug::EnableDebugLayer, direct3d12.id3d12debug_enabledebuglayer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ To enable the debug layers using this API, it must be called before the D3D12 de
         debugController-&gt;EnableDebugLayer();
     }
 }</code></pre>
-Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -101,7 +101,7 @@ Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950153(v=VS.85).aspx">ID3D12Debug</a>
+<a href="https://msdn.microsoft.com/6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9">ID3D12Debug</a>
  
 
  

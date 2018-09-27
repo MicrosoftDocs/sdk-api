@@ -4,10 +4,10 @@ title: FindFirstFileTransactedA function
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation.
 old-location: fs\findfirstfiletransacted.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: d94bf32b-f14b-44b4-824b-ed453d0424ef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FindFirstFileTransacted, FindFirstFileTransacted function [Files], FindFirstFileTransactedA, FindFirstFileTransactedW, fs.findfirstfiletransacted, winbase/FindFirstFileTransacted, winbase/FindFirstFileTransactedA, winbase/FindFirstFileTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

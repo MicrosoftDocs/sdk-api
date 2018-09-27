@@ -4,10 +4,10 @@ title: "_PARTITION_STYLE"
 author: windows-sdk-content
 description: Represents the format of a partition.
 old-location: fs\partition_style_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PARTITION_STYLE, PARTITION_STYLE enumeration [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, _PARTITION_STYLE, _win32_partition_style_str, base.partition_style_str, fs.partition_style_str, winioctl/PARTITION_STYLE, winioctl/PARTITION_STYLE_GPT, winioctl/PARTITION_STYLE_MBR, winioctl/PARTITION_STYLE_RAW
 ms.prod: windows
 ms.technology: windows-sdk

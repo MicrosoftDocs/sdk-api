@@ -113,12 +113,16 @@ You can set case sensitivity with the <b>StrIntlEqN</b> and <b>StrIntlEqNI</b> m
 The syntax of the two macros is:
 				
 
-
-```
-#define StrIntlEqN(s1, s2, nChar) StrIsIntlEqual(TRUE, s1, s2, nChar)
-#define StrIntlEqNI(s1, s2, nChar) StrIsIntlEqual(FALSE, s1, s2, nChar)
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define StrIntlEqN(s1, s2, nChar) StrIsIntlEqual(TRUE, s1, s2, nChar)
+#define StrIntlEqNI(s1, s2, nChar) StrIsIntlEqual(FALSE, s1, s2, nChar)</pre>
+</td>
+</tr>
+</table></span></div>
 
 

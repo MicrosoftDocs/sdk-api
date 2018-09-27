@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_heap_properties.htm
 tech.root: direct3d12
 ms.assetid: 0A197D3D-67F4-46BB-8578-15E05DF46067
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D3D12_HEAP_PROPERTIES, D3D12_HEAP_PROPERTIES structure, d3d12/D3D12_HEAP_PROPERTIES, direct3d12.d3d12_heap_properties
 ms.prod: windows
 ms.technology: windows-sdk

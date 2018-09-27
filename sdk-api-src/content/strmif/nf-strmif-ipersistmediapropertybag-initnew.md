@@ -7,7 +7,7 @@ old-location: dshow\ipersistmediapropertybag_initnew.htm
 tech.root: DirectShow
 ms.assetid: 46d51c05-b653-4f14-810a-eb49d33da359
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],InitNew method, IPersistMediaPropertyBag.InitNew, IPersistMediaPropertyBag::InitNew, IPersistMediaPropertyBagInitNew, InitNew, InitNew method [DirectShow], InitNew method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_initnew, strmif/IPersistMediaPropertyBag::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices

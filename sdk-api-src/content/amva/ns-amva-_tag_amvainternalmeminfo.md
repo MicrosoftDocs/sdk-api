@@ -7,7 +7,7 @@ old-location: dshow\amvainternalmeminfo.htm
 tech.root: DirectShow
 ms.assetid: 8ce27daa-cd8e-4dbd-a949-0c07c370d504
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], _tag_AMVAInternalMemInfo, amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo"
 ms.prod: windows
 ms.technology: windows-sdk

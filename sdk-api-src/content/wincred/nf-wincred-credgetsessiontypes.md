@@ -7,7 +7,7 @@ old-location: security\credgetsessiontypes.htm
 tech.root: secauthn
 ms.assetid: 70f8d5e0-235b-4330-8add-566b41c91c17
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_NONE, CRED_PERSIST_SESSION, CredGetSessionTypes, CredGetSessionTypes function [Security], _cred_credgetsessiontypes, security.credgetsessiontypes, wincred/CredGetSessionTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

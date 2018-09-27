@@ -7,7 +7,7 @@ old-location: com\cocreateinstancefromapp.htm
 tech.root: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CoCreateInstanceFromApp, CoCreateInstanceFromApp function [COM], com.cocreateinstancefromapp, combaseapi/CoCreateInstanceFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The CLSID of the object to be created.
 
 ### -param punkOuter [in, optional]
 
-If this parameter non-<b>NULL</b>, indicates the instance is being created as part of an aggregate, and <i>punkOuter</i> is to be used as the new instance's controlling <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>. Aggregation is currently not supported cross-process or cross-computer. When instantiating an object out of process, CLASS_E_NOAGGREGATION will be returned if <i>punkOuter</i> is non-<b>NULL</b>.
+If this parameter non-<b>NULL</b>, indicates the instance is being created as part of an aggregate, and <i>punkOuter</i> is to be used as the new instance's controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>. Aggregation is currently not supported cross-process or cross-computer. When instantiating an object out of process, CLASS_E_NOAGGREGATION will be returned if <i>punkOuter</i> is non-<b>NULL</b>.
 
 
 ### -param dwClsCtx [in]
@@ -87,7 +87,7 @@ The number of structures in <i>pResults</i>. This value must be greater than 0.
 
 ### -param pResults [in, out]
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/ms687289(v=VS.85).aspx">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> (<b>hr</b>).
+An array of <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> (<b>hr</b>).
 
 
 ## -returns
@@ -141,7 +141,7 @@ This class cannot be created as part of an aggregate.
 </dl>
 </td>
 <td width="60%">
-At least one, but not all of the interfaces requested in the <i>pResults</i> array were successfully retrieved. The <b>hr</b> member of each of the <a href="https://msdn.microsoft.com/en-us/library/ms687289(v=VS.85).aspx">MULTI_QI</a> structures in <i>pResults</i> indicates with S_OK or E_NOINTERFACE whether the specific interface was returned.
+At least one, but not all of the interfaces requested in the <i>pResults</i> array were successfully retrieved. The <b>hr</b> member of each of the <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structures in <i>pResults</i> indicates with S_OK or E_NOINTERFACE whether the specific interface was returned.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ None of the interfaces requested in the <i>pResults</i> array were successfully 
 
 
 
-The <b>CoCreateInstanceFromApp</b> function is the same as the  <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function, with the following differences.
+The <b>CoCreateInstanceFromApp</b> function is the same as the  <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a> function, with the following differences.
 
 
 <ul>
@@ -184,7 +184,7 @@ The <b>CoCreateInstanceFromApp</b> function is the same as the  <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a>
+<a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>
 
 
 

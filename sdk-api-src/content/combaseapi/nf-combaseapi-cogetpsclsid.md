@@ -7,7 +7,7 @@ old-location: com\cogetpsclsid.htm
 tech.root: com
 ms.assetid: dfe6b514-a80a-4adb-bf43-d9a7d0e5f4a3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CoGetPSClsid, CoGetPSClsid function [COM], _com_CoGetPSClsid, com.cogetpsclsid, combaseapi/CoGetPSClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ There is insufficient memory to complete this operation.
 
 
 
-The <b>CoGetPSClsid</b> function looks at the <b>HKEY_CLASSES_ROOT</b>\<b>Interfaces</b>\<i>{string form of riid}</i>\<b>ProxyStubClsid32</b> key in the registry to determine the CLSID of the DLL to load in order to create the proxy and stub for the interface specified by <i>riid</i>. This function also returns the CLSID for any interface IID registered by <a href="https://msdn.microsoft.com/en-us/library/ms690518(v=VS.85).aspx">CoRegisterPSClsid</a> within the current process.
+The <b>CoGetPSClsid</b> function looks at the <b>HKEY_CLASSES_ROOT</b>\<b>Interfaces</b>\<i>{string form of riid}</i>\<b>ProxyStubClsid32</b> key in the registry to determine the CLSID of the DLL to load in order to create the proxy and stub for the interface specified by <i>riid</i>. This function also returns the CLSID for any interface IID registered by <a href="https://msdn.microsoft.com/a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6">CoRegisterPSClsid</a> within the current process.
 
 
 
@@ -136,7 +136,7 @@ The <b>CoGetPSClsid</b> function looks at the <b>HKEY_CLASSES_ROOT</b>\<b>Interf
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690518(v=VS.85).aspx">CoRegisterPSClsid</a>
+<a href="https://msdn.microsoft.com/a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6">CoRegisterPSClsid</a>
  
 
  

@@ -88,16 +88,20 @@ The color key is used when the video renderer draws to an overlay surface.
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 OLE_COLOR ocKey;
 COLORREF clrKey;
-pVideoControl->get_ColorKey(&ocKey);
-OleTranslateColor(ocKey, 0, &clrKey);
-```
-
-
+pVideoControl-&gt;get_ColorKey(&amp;ocKey);
+OleTranslateColor(ocKey, 0, &amp;clrKey);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

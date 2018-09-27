@@ -88,7 +88,7 @@ This function does not work on a remote computer.
 Services that change impersonation should call this function before using any of the predefined handles.
 
 For example, any access of <b>HKEY_CURRENT_USER</b> after this function is called results in open and close operations being performed on <b>HKEY_USERS</b>\<b>SID_of_current_user</b>, or on <b>HKEY_USERS\.DEFAULT</b> if the current user's hive is not loaded. For more information on SIDs, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379571(v=VS.85).aspx">Security Identifiers</a>.
+<a href="security.security_identifiers_sids_">Security Identifiers</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: com\iblockinglock.htm
 tech.root: com
 ms.assetid: 8fccc4f9-17fe-4927-b00d-2815f47857e5
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IBlockingLock, IBlockingLock interface [COM], IBlockingLock interface [COM],described, _com_iblockinglock, com.iblockinglock, objidl/IBlockingLock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Provides a semaphore that can be used to provide temporarily exclusive access to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockingLock</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBlockingLock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockingLock</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IBlockingLock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

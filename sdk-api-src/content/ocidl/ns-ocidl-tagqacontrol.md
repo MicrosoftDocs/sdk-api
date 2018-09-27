@@ -7,7 +7,7 @@ old-location: com\qacontrol.htm
 tech.root: com
 ms.assetid: dd7ee4b1-2ad9-4ceb-b569-9988696760e8
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: QACONTROL, QACONTROL structure [COM], _ctrl_QACONTROL, com.qacontrol, ocidl/QACONTROL, tagQACONTROL
 ms.prod: windows
 ms.technology: windows-sdk

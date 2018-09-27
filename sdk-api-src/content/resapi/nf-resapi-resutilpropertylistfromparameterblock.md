@@ -121,9 +121,13 @@ The following example defines three properties (Protocol, PortNumber, and Connec
      example uses the <a href="https://msdn.microsoft.com/fc2032d2-40a5-45bd-8661-1e778789bad6">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////
 
 //  Be sure to create the following file before you compile.
 //  For a code listing, see "ClusDocEx.h".
@@ -213,10 +217,10 @@ The following example defines three properties (Protocol, PortNumber, and Connec
         nResult = ResUtilPropertyListFromParameterBlock(
                       pPropTable,
                       pPropList,
-                      &cbBufSize,
-                      (LPBYTE) &NewParams,
-                      &cbReturned,
-                      &cbRequired );
+                      &amp;cbBufSize,
+                      (LPBYTE) &amp;NewParams,
+                      &amp;cbReturned,
+                      &amp;cbRequired );
 
         if( nResult == ERROR_MORE_DATA )
         {
@@ -229,10 +233,10 @@ The following example defines three properties (Protocol, PortNumber, and Connec
             nResult = ResUtilPropertyListFromParameterBlock(
                           pPropTable,
                           pPropList,
-                          &cbBufSize,
-                          (PBYTE) &NewParams,
-                          &cbReturned,
-                          &cbRequired );
+                          &amp;cbBufSize,
+                          (PBYTE) &amp;NewParams,
+                          &amp;cbReturned,
+                          &amp;cbRequired );
         }
 
         ClusDocEx_DebugPrint( L"Results:", nResult );
@@ -244,10 +248,10 @@ The following example defines three properties (Protocol, PortNumber, and Connec
     
         return (int)( nResult != ERROR_SUCCESS );    
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

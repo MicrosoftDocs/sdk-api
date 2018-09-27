@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_sharpness.htm
 tech.root: DirectShow
 ms.assetid: 12cb9934-4cef-4356-9b59-6b4e6caca573
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Sharpness method, IVideoProcAmp.get_Sharpness, IVideoProcAmp::get_Sharpness, IVideoProcAmpget_Sharpness, dshow.ivideoprocamp_get_sharpness, get_Sharpness, get_Sharpness method [DirectShow], get_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Sharpness
 ms.prod: windows-hardware
 ms.technology: windows-devices

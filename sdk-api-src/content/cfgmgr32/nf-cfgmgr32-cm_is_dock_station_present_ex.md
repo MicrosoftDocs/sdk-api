@@ -95,12 +95,12 @@ Use this function to determine whether a docking station is present in a local o
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539811(v=VS.85).aspx">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
+<a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539815(v=VS.85).aspx">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
+<a href="https://msdn.microsoft.com/69bcbfa4-fb89-4b5f-bd0a-260569dfb466">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
 
 </li>
 </ul>
@@ -118,11 +118,11 @@ Use this function to determine whether a docking station is present in a local o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539811(v=VS.85).aspx">CM_Request_Eject_PC</a>
+<a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539815(v=VS.85).aspx">CM_Request_Eject_PC_Ex</a>
+<a href="https://msdn.microsoft.com/69bcbfa4-fb89-4b5f-bd0a-260569dfb466">CM_Request_Eject_PC_Ex</a>
  
 
  

@@ -4,10 +4,10 @@ title: IOCTL_VOLUME_OFFLINE
 author: windows-sdk-content
 description: Takes a volume offline.
 old-location: fs\ioctl_volume_offline.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Files], fs.ioctl_volume_offline, winioctl/IOCTL_VOLUME_OFFLINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,13 @@ Takes a volume offline.
 
 To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
     function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,             // handle to device
   IOCTL_VOLUME_OFFLINE,         // dwIoControlCode
   NULL,                         // lpInBuffer
@@ -67,10 +71,10 @@ BOOL DeviceIoControl(
   0,                            // nOutBufferSize
   (LPDWORD) lpBytesReturned,    // number of bytes returned
   (LPOVERLAPPED) lpOverlapped); // OVERLAPPED structure
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

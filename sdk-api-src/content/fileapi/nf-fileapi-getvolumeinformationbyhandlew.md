@@ -4,10 +4,10 @@ title: GetVolumeInformationByHandleW function
 author: windows-sdk-content
 description: Retrieves information about the file system and volume associated with the specified file.
 old-location: fs\getvolumeinformationbyhandlew.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 09fab0a4-23fd-4bd9-b9f6-f0d1597ab609
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FILE_CASE_PRESERVED_NAMES, FILE_CASE_SENSITIVE_SEARCH, FILE_FILE_COMPRESSION, FILE_NAMED_STREAMS, FILE_PERSISTENT_ACLS, FILE_READ_ONLY_VOLUME, FILE_SEQUENTIAL_WRITE_ONCE, FILE_SUPPORTS_ENCRYPTION, FILE_SUPPORTS_EXTENDED_ATTRIBUTES, FILE_SUPPORTS_HARD_LINKS, FILE_SUPPORTS_OBJECT_IDS, FILE_SUPPORTS_OPEN_BY_FILE_ID, FILE_SUPPORTS_REPARSE_POINTS, FILE_SUPPORTS_SPARSE_FILES, FILE_SUPPORTS_TRANSACTIONS, FILE_SUPPORTS_USN_JOURNAL, FILE_UNICODE_ON_DISK, FILE_VOLUME_IS_COMPRESSED, FILE_VOLUME_QUOTAS, GetVolumeInformationByHandleW, GetVolumeInformationByHandleW function [Files], fileapi/GetVolumeInformationByHandleW, fs.getvolumeinformationbyhandlew, winbase/GetVolumeInformationByHandleW
 ms.prod: windows-hardware
 ms.technology: windows-devices

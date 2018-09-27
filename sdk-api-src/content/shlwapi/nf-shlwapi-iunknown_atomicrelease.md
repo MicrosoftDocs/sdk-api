@@ -89,19 +89,23 @@ If <i>ppunk</i> points to a <b>NULL</b> pointer, no operation is performed. Othe
 
 The following example uses <b>IUnknown_AtomicRelease</b> to release the stream, if it exists. If not, it does nothing.
 
-
-```cpp
-void sample()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void sample()
 {
     IStream *pstm = NULL;
-    CreateStreamOnHGlobal(NULL, TRUE, &pstm);
+    CreateStreamOnHGlobal(NULL, TRUE, &amp;pstm);
     
-    IUnknown_AtomicRelease((void**)&pstm);
+    IUnknown_AtomicRelease((void**)&amp;pstm);
     
     // At this point, pstm is NULL
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

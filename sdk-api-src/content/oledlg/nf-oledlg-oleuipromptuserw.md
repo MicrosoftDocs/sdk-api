@@ -7,7 +7,7 @@ old-location: com\oleuipromptuser.htm
 tech.root: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
 ms.prod: windows-hardware
 ms.technology: windows-devices

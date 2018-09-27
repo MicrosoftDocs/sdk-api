@@ -7,7 +7,7 @@ old-location: dshow\iamstreamcontrol_stopat.htm
 tech.root: DirectShow
 ms.assetid: b3dd5332-e93e-4e55-9c7f-47c302ef11a3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IAMStreamControl interface [DirectShow],StopAt method, IAMStreamControl.StopAt, IAMStreamControl::StopAt, IAMStreamControlStopAt, StopAt, StopAt method [DirectShow], StopAt method [DirectShow],IAMStreamControl interface, dshow.iamstreamcontrol_stopat, strmif/IAMStreamControl::StopAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

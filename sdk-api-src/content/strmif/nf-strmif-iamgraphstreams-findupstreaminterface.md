@@ -7,7 +7,7 @@ old-location: dshow\iamgraphstreams_findupstreaminterface.htm
 tech.root: DirectShow
 ms.assetid: 23106ef0-e5ce-47a6-97b0-518bb78ec67c
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: FindUpstreamInterface, FindUpstreamInterface method [DirectShow], FindUpstreamInterface method [DirectShow],IAMGraphStreams interface, IAMGraphStreams interface [DirectShow],FindUpstreamInterface method, IAMGraphStreams.FindUpstreamInterface, IAMGraphStreams::FindUpstreamInterface, IAMGraphStreamsFindUpstreamInterface, dshow.iamgraphstreams_findupstreaminterface, strmif/IAMGraphStreams::FindUpstreamInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

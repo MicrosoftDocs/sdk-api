@@ -7,7 +7,7 @@ old-location: com\iviewobjectex_queryhitpoint.htm
 tech.root: com
 ms.assetid: a9ee26c4-cf5f-4ca9-b40a-0522097a2f07
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.QueryHitPoint, IViewObjectEx::QueryHitPoint, QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,7 +163,7 @@ Transparent objects may wish to implement a complex hit-detection mechanism wher
 An example of non-rectangular and transparent hit detection is a transparent circle control with an object 
      behind it (a line in the example below):
 
-<img alt="" src="./images/a7c7fe0d-f171-4823-ba4c-b51cb90d8733.png"/>
+<img alt="" src="images/a7c7fe0d-f171-4823-ba4c-b51cb90d8733.png"/>
 The values shown are for hit tests against the circle; gray regions are not part of the control, but are shown 
      here to indicate an area around the image considered close. Each object implements its own definition of close 
      but is assisted by a hint provided by the container so that closeness can be adjusted as images zoom larger or 

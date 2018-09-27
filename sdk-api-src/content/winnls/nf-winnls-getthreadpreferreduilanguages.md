@@ -7,7 +7,7 @@ old-location: intl\getthreadpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetThreadPreferredUILanguages, GetThreadPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MERGE_SYSTEM_FALLBACK, MUI_MERGE_USER_FALLBACK, MUI_THREAD_LANGUAGES, MUI_UI_FALLBACK, _win32_GetThreadPreferredUILanguages, intl.getthreadpreferreduilanguages, winnls/GetThreadPreferredUILanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -201,19 +201,23 @@ as "0409" and en as "0009".
 If the application sets the MUI_LANGUAGE_ID flag, the thread preferred UI languages can include one or more languages that correspond to supplemental locales. On successful return from the function, the language buffer contains "1400" for any language corresponding to a supplemental locale. There can be only one such language in this list. The string "1400" corresponds to the hexadecimal value of <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a>. Also on successful return from the function, the <i>pwszLanguagesBuffer</i> contains "1000" for any other language that corresponds to a supplemental locale. The string "1000" corresponds to the hexadecimal value of <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>, which is not useful as an input to any function, because it cannot distinguish among supplemental locales.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean GetThreadPreferredUILanguages(
             System.UInt32 dwFlags,
             ref System.UInt32 pulNumLanguages,
             System.IntPtr pwszLanguagesBuffer,
             ref System.UInt32 pcchLanguagesBuffer
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

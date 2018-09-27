@@ -4,10 +4,10 @@ title: GetFullPathNameA function
 author: windows-sdk-content
 description: Retrieves the full path and file name of the specified file.
 old-location: fs\getfullpathname.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFullPathName, GetFullPathName function [Files], GetFullPathNameA, GetFullPathNameW, _win32_getfullpathname, base.getfullpathname, fileapi/GetFullPathName, fileapi/GetFullPathNameA, fileapi/GetFullPathNameW, fs.getfullpathname, winbase/GetFullPathName, winbase/GetFullPathNameA, winbase/GetFullPathNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -252,11 +252,15 @@ The following C++ example shows a basic use of
      <a href="https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7">GetShortPathName</a>. For another example using dynamic 
      allocation, see <a href="https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7">GetShortPathName</a>.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
 
 #define BUFSIZE 4096
 #define LONG_DIR_NAME TEXT("c:\\longdirectoryname")
@@ -292,7 +296,7 @@ void _tmain(int argc, TCHAR *argv[])
     else 
     {
         _tprintf(TEXT("The full path name is:  %s\n"), buffer);
-        if (lppPart != NULL && *lppPart != 0)
+        if (lppPart != NULL &amp;&amp; *lppPart != 0)
         {
             _tprintf(TEXT("The final component in the path name is:  %s\n"), *lppPart);
         }
@@ -352,10 +356,10 @@ void _tmain(int argc, TCHAR *argv[])
         return;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -79,21 +79,25 @@ A singlemodule load count is maintained on the dynamic link library (as it is wi
 
 The following example demonstrates how to load a signed library and retrieve the address of a function in that library. 
 
-
-```cpp
-IMFSignedLibrary *pLib;
-hr = MFLoadSignedLibrary(TEST_PELOAD_FILE, &pLib);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IMFSignedLibrary *pLib;
+hr = MFLoadSignedLibrary(TEST_PELOAD_FILE, &amp;pLib);
 if (SUCCEEDED(hr))
 {
     PVOID functionAddress;
-    hr = pLib->GetProcedureAddress("myFunctionName", &functionAddress);
+    hr = pLib-&gt;GetProcedureAddress("myFunctionName", &amp;functionAddress);
 }
 //  Unload the library
-pLib->Release();
-
-```
-
-
+pLib-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

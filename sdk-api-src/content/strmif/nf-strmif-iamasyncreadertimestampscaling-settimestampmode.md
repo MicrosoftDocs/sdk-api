@@ -7,7 +7,7 @@ old-location: dshow\iamasyncreadertimestampscaling_settimestampmode.htm
 tech.root: DirectShow
 ms.assetid: 7f556e26-049d-4024-95a2-c899be1ef180
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: FALSE, IAMAsyncReaderTimestampScaling interface [DirectShow],SetTimestampMode method, IAMAsyncReaderTimestampScaling.SetTimestampMode, IAMAsyncReaderTimestampScaling::SetTimestampMode, SetTimestampMode, SetTimestampMode method [DirectShow], SetTimestampMode method [DirectShow],IAMAsyncReaderTimestampScaling interface, TRUE, dshow.iamasyncreadertimestampscaling_settimestampmode, strmif/IAMAsyncReaderTimestampScaling::SetTimestampMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

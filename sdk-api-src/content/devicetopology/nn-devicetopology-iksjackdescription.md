@@ -7,7 +7,7 @@ old-location: coreaudio\iksjackdescription.htm
 tech.root: CoreAudio
 ms.assetid: 0ca9e719-7179-4302-99ff-df137141f58f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IKsJackDescription, IKsJackDescription interface [Core Audio], IKsJackDescription interface [Core Audio],described, coreaudio.iksjackdescription, devicetopology/IKsJackDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,9 +120,13 @@ When the properties window opens, click <b>General</b>. If the selected property
 </ol>
 The following code example shows how to obtain the <b>IKsJackDescription</b> interface for an audio endpoint device:
 
-
-```cpp
-//-----------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-----------------------------------------------------------
 // Get the IKsJackDescription interface that describes the
 // audio jack or jacks that the endpoint device plugs into.
 //-----------------------------------------------------------
@@ -130,7 +134,7 @@ The following code example shows how to obtain the <b>IKsJackDescription</b> int
               if (FAILED(hres)) { goto Exit; }
 #define SAFE_RELEASE(punk)  \
               if ((punk) != NULL)  \
-                { (punk)->Release(); (punk) = NULL; }
+                { (punk)-&gt;Release(); (punk) = NULL; }
 
 HRESULT GetJackInfo(IMMDevice *pDevice,
                     IKsJackDescription **ppJackDesc)
@@ -152,17 +156,17 @@ HRESULT GetJackInfo(IMMDevice *pDevice,
     }
 
     // Get the endpoint device's IDeviceTopology interface.
-    hr = pDevice->Activate(__uuidof(IDeviceTopology), CLSCTX_ALL,
-                           NULL, (void**)&pDeviceTopology);
+    hr = pDevice-&gt;Activate(__uuidof(IDeviceTopology), CLSCTX_ALL,
+                           NULL, (void**)&amp;pDeviceTopology);
     EXIT_ON_ERROR(hr)
 
     // The device topology for an endpoint device always
     // contains just one connector (connector number 0).
-    hr = pDeviceTopology->GetConnector(0, &pConnFrom);
+    hr = pDeviceTopology-&gt;GetConnector(0, &amp;pConnFrom);
     EXIT_ON_ERROR(hr)
 
     // Step across the connection to the jack on the adapter.
-    hr = pConnFrom->GetConnectedTo(&pConnTo);
+    hr = pConnFrom-&gt;GetConnectedTo(&amp;pConnTo);
     if (HRESULT_FROM_WIN32(ERROR_PATH_NOT_FOUND) == hr)
     {
         // The adapter device is not currently active.
@@ -171,12 +175,12 @@ HRESULT GetJackInfo(IMMDevice *pDevice,
     EXIT_ON_ERROR(hr)
 
     // Get the connector's IPart interface.
-    hr = pConnTo->QueryInterface(__uuidof(IPart), (void**)&pPart);
+    hr = pConnTo-&gt;QueryInterface(__uuidof(IPart), (void**)&amp;pPart);
     EXIT_ON_ERROR(hr)
 
     // Activate the connector's IKsJackDescription interface.
-    hr = pPart->Activate(CLSCTX_INPROC_SERVER,
-                         __uuidof(IKsJackDescription), (void**)&pJackDesc);
+    hr = pPart-&gt;Activate(CLSCTX_INPROC_SERVER,
+                         __uuidof(IKsJackDescription), (void**)&amp;pJackDesc);
     EXIT_ON_ERROR(hr)
 
     *ppJackDesc = pJackDesc;
@@ -188,10 +192,10 @@ Exit:
     SAFE_RELEASE(pPart)
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 In the preceding code example, the GetJackInfo function takes two parameters. Input parameter <i>pDevice</i> points to the <a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice</a> interface of an endpoint device. Output parameter <i>ppJackDesc</i> points to a pointer value into which the function writes the address of the corresponding <b>IKsJackDescription</b> interface, if the interface exists. If the interface does not exist, the function writes <b>NULL</b> to  <i>*ppJackDesc</i> and returns error code E_NOINTERFACE.
 
 In the preceding code example, the call to <a href="https://msdn.microsoft.com/12e4a117-1fa3-49c8-949b-8973edf7e12e">IMMDevice::Activate</a> retrieves the <a href="https://msdn.microsoft.com/1b509f69-6277-40c0-a293-02afc30d464a">IDeviceTopology</a> interface of the endpoint device. The device topology of an endpoint device contains a single connector (connector number 0) that connects to the adapter device. At the other side of this connection, the connector on the adapter device represents the audio jack or jacks that the endpoint device plugs into. The call to the <a href="https://msdn.microsoft.com/a2da5d1e-ecd3-411e-8428-f529569cc11d">IDeviceTopology::GetConnector</a> method retrieves the <a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector</a> interface of the connector on the endpoint device, and the <a href="https://msdn.microsoft.com/bee0187c-5650-4b54-89b7-e63874048ed0">IConnector::GetConnectedTo</a> method call retrieves the corresponding connector on the adapter device. Finally, the <b>IConnector::QueryInterface</b> method call retrieves the <a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart</a> interface of the adapter device's connector, and the <a href="https://msdn.microsoft.com/72e08a30-65c0-437b-9932-110ba48a2376">IPart::Activate</a> method call retrieves the connector's <b>IKsJackDescription</b> interface, if it exists.

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink2_drawink.htm
 tech.root: direct2d
 ms.assetid: dd328fdb-c87c-e3ee-b8cd-f89ff3fb1b87
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: DrawInk, DrawInk method [Direct2D], DrawInk method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawInk method, ID2D1CommandSink2.DrawInk, ID2D1CommandSink2::DrawInk, d2d1_3/ID2D1CommandSink2::DrawInk, direct2d.id2d1commandsink2_drawink
 ms.prod: windows-hardware
 ms.technology: windows-devices

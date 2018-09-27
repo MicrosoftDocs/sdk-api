@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_getallsettings.htm
 tech.root: DirectShow
 ms.assetid: 45685033-73cc-4810-90f2-49343494641b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetAllSettings, GetAllSettings method [DirectShow], GetAllSettings method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetAllSettings method, ICodecAPI.GetAllSettings, ICodecAPI::GetAllSettings, ICodecAPIGetAllSettings, dshow.icodecapi_getallsettings, strmif/ICodecAPI::GetAllSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

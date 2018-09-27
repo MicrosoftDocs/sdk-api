@@ -4,10 +4,10 @@ title: "_ENCRYPTION_CERTIFICATE_HASH"
 author: windows-sdk-content
 description: Contains a certificate hash and display information for the certificate.
 old-location: fs\encryption_certificate_hash_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 6930446c-5338-4ff9-a662-791fc9e7cefe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PENCRYPTION_CERTIFICATE_HASH, ENCRYPTION_CERTIFICATE_HASH, ENCRYPTION_CERTIFICATE_HASH structure [Files], PENCRYPTION_CERTIFICATE_HASH, PENCRYPTION_CERTIFICATE_HASH structure pointer [Files], _ENCRYPTION_CERTIFICATE_HASH, _win32_encryption_certificate_hash_str, base.encryption_certificate_hash_str, fs.encryption_certificate_hash_str, winefs/ENCRYPTION_CERTIFICATE_HASH, winefs/PENCRYPTION_CERTIFICATE_HASH"
 ms.prod: windows
 ms.technology: windows-sdk

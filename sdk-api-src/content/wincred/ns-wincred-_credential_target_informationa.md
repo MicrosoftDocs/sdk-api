@@ -7,7 +7,7 @@ old-location: security\credential_target_information.htm
 tech.root: secauthn
 ms.assetid: 92180f2c-ef7c-4481-9b6f-19234c114afb
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCREDENTIAL_TARGET_INFORMATIONA, CREDENTIAL_TARGET_INFORMATION, CREDENTIAL_TARGET_INFORMATION structure [Security], CREDENTIAL_TARGET_INFORMATIONA, PCREDENTIAL_TARGET_INFORMATION, PCREDENTIAL_TARGET_INFORMATION structure pointer [Security], _CREDENTIAL_TARGET_INFORMATIONA, _cred_credential_target_information, security.credential_target_information, wincred/CREDENTIAL_TARGET_INFORMATION, wincred/PCREDENTIAL_TARGET_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CreateFileA function
 author: windows-sdk-content
 description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.
 old-location: fs\createfile.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 80a96083-4de9-4422-9705-b8ad2b6cbd1b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile, CreateFile function [Files], CreateFileA, CreateFileW, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, TRUNCATE_EXISTING, _win32_createfile, base.createfile, fileapi/CreateFile, fileapi/CreateFileA, fileapi/CreateFileW, fs.createfile, winbase/CreateFile, winbase/CreateFileA, winbase/CreateFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -1212,7 +1212,7 @@ The <b>CreateFile</b> function can create a handle to console
       input (CONIN$). If the process has an open handle to it as a result of inheritance or 
       duplication, it can also create a handle to the active screen buffer (CONOUT$). The 
       calling process must be attached to an inherited console or one allocated by the 
-      <a href="https://msdn.microsoft.com/library/ms681944(v=VS.85).aspx">AllocConsole</a> function. For console handles, set the 
+      <a href="base.allocconsole">AllocConsole</a> function. For console handles, set the 
       <b>CreateFile</b> parameters as follows.
 
 <table>
@@ -1231,13 +1231,13 @@ Use the CONIN$ value to specify console input.
 Use the CONOUT$ value to specify console output.
 
 CONIN$ gets a handle to the console input buffer, even if the 
-         <a href="https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx">SetStdHandle</a> function redirects the standard input 
+         <a href="base.setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a>function.
+         <a href="base.getstdhandle">GetStdHandle</a>function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx">SetStdHandle</a>redirects the standard output handle. To 
-         get the standard output handle, use <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a>.
+         <a href="base.setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         get the standard output handle, use <a href="base.getstdhandle">GetStdHandle</a>.
 
 </td>
 </tr>

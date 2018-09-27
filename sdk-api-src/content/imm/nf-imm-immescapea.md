@@ -7,7 +7,7 @@ old-location: intl\immescape.htm
 tech.root: Intl
 ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ImmEscape, ImmEscape function [Internationalization for Windows Applications], ImmEscapeA, ImmEscapeW, _win32_ImmEscape, imm/ImmEscape, imm/ImmEscapeA, imm/ImmEscapeW, intl.immescape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,17 +97,21 @@ Returns an operation-specific value if successful, or 0 otherwise.
 
 When <i>uEscape</i> is set to IME_ESC_QUERY_SUPPORT, <i>lpData</i> indicates the buffer containing the IME escape value. For example, to see if the current IME supports IME_ESC_GETHELPFILENAME, your application uses the following call:
 
-
-```cpp
-DWORD dwEsc = IME_ESC_GETHELPFILENAME;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwEsc = IME_ESC_GETHELPFILENAME;
 LRESULT lRet = ImmEscape(hKL,
                          hIMC,
                          IME_ESC_QUERY_SUPPORT,
-                         (LPVOID)&dwEsc);
-
-```
-
-
+                         (LPVOID)&amp;dwEsc);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

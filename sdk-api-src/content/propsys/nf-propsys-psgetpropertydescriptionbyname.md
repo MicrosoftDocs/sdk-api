@@ -76,7 +76,7 @@ Reference to the interface ID of the requested property.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761517(v=VS.85).aspx">IPropertyDescriptionAliasInfo</a>, or  <a href="https://msdn.microsoft.com/en-us/library/Bb761505(v=VS.85).aspx">IPropertyDescriptionSearchInfo</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>, <a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>, or  <a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>.
 
 
 
@@ -637,23 +637,27 @@ In addition to the new canonical names, callers can pass a legacy name for a pro
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IPropertyDescription *pPropDesc;
 
-```cpp
-IPropertyDescription *pPropDesc;
-
-HRESULT hr = PSGetPropertyDescriptionByName(L"System.Rating", IID_PPV_ARGS(&pPropDesc))
+HRESULT hr = PSGetPropertyDescriptionByName(L"System.Rating", IID_PPV_ARGS(&amp;pPropDesc))
 
 if (SUCCEEDED(hr))
 {
     // pPropDesc is now valid.
  
-    pPropDesc->Release();
-}
-```
-
-
+    pPropDesc-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -662,11 +666,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a>
+<a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\isynchronizehandle_gethandle.htm
 tech.root: com
 ms.assetid: 951bc2e4-2ef9-48cf-91a1-1a39c2361f42
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetHandle, GetHandle method [COM], GetHandle method [COM],ISynchronizeHandle interface, ISynchronizeHandle interface [COM],GetHandle method, ISynchronizeHandle.GetHandle, ISynchronizeHandle::GetHandle, _com_isynchronizehandle_gethandle, com.isynchronizehandle_gethandle, objidlbase/ISynchronizeHandle::GetHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

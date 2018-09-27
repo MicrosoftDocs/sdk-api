@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpointcollection.htm
 tech.root: direct2d
 ms.assetid: 6033F923-35E1-400F-965F-2FBED95B260A
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID2D1SvgPointCollection, ID2D1SvgPointCollection interface [Direct2D], ID2D1SvgPointCollection interface [Direct2D],described, d2d1svg/ID2D1SvgPointCollection, direct2d.id2d1svgpointcollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ioleitemcontainer.htm
 tech.root: com
 ms.assetid: fe306a36-da24-4b1e-ab42-359d37962d36
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IOleItemContainer, IOleItemContainer interface [COM], IOleItemContainer interface [COM],described, _com_ioleitemcontainer, com.ioleitemcontainer, oleidl/IOleItemContainer
 ms.prod: windows
 ms.technology: windows-sdk

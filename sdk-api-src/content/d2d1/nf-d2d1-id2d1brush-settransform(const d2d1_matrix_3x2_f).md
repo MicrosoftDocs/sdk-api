@@ -7,7 +7,7 @@ old-location: direct2d\id2d1brush_settransform.htm
 tech.root: direct2d
 ms.assetid: 57afadc1-88c9-4a5b-a83f-63c4c69182a7
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID2D1Brush.SetTransform, ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F), ID2D1Brush::SetTransform, ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F), SetTransform, SetTransform methods [Direct2D], d2d1_1/SetTransform, direct2d.id2d1brush_settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_GRADIENT_MESH_PATCH.htm
 tech.root: direct2d
 ms.assetid: 16d1ef03-f0c9-7414-d54d-9513199272aa
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D2D1_GRADIENT_MESH_PATCH, D2D1_GRADIENT_MESH_PATCH structure [Direct2D], d2d1_3/D2D1_GRADIENT_MESH_PATCH, direct2d.D2D1_GRADIENT_MESH_PATCH
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 Represents a tensor patch with 16 control points, 4 corner colors, and boundary flags. An ID2D1GradientMesh is made up of 1 or more gradient mesh patches.
-          Use the <a href="https://msdn.microsoft.com/en-us/library/Dn890770(v=VS.85).aspx">GradientMeshPatch function</a> or the <a href="https://msdn.microsoft.com/en-us/library/Dn890772(v=VS.85).aspx">GradientMeshPatchFromCoonsPatch function</a> to create one.
+          Use the <a href="https://msdn.microsoft.com/78d2af9d-e158-29ce-ea6e-67b2d22925a1">GradientMeshPatch function</a> or the <a href="https://msdn.microsoft.com/12469ab9-890c-e4a9-57b2-41a804712052">GradientMeshPatchFromCoonsPatch function</a> to create one.
         
 
 
@@ -186,6 +186,6 @@ Specifies how to render the right edge of the mesh.
 
 The following image shows the numbering of control points on a tensor grid.
 
-<img alt="Number of control points on a tensor grid" src="./images/tensorpatch.png"/>
+<img alt="Number of control points on a tensor grid" src="images/tensorpatch.png"/>
 
 

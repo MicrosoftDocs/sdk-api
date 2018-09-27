@@ -4,10 +4,10 @@ title: "_STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
 author: windows-sdk-content
 description: The STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure is one of the query result structures returned from an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_physical_topology_descriptor.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: CD596355-228D-4054-B77F-83F323AB3D0B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Files], STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Files], _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, fs.storage_physical_topology_descriptor, winioctl/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, winioctl/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

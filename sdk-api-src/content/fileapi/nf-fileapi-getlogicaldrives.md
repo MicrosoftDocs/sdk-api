@@ -4,10 +4,10 @@ title: GetLogicalDrives function
 author: windows-sdk-content
 description: Retrieves a bitmask representing the currently available disk drives.
 old-location: fs\getlogicaldrives.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 21a66050-3bab-4c70-9003-3b52e8c72b00
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives
 ms.prod: windows-hardware
 ms.technology: windows-devices

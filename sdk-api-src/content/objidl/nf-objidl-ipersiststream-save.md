@@ -7,7 +7,7 @@ old-location: com\ipersiststream_save.htm
 tech.root: com
 ms.assetid: b748b4f9-ef9c-486b-bdc4-4d23c4640ff7
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IPersistStream interface [COM],Save method, IPersistStream.Save, IPersistStream::Save, Save, Save method [COM], Save method [COM],IPersistStream interface, _com_ipersiststream_save, com.ipersiststream_save, objidl/IPersistStream::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,7 +146,7 @@ The <b>IPersistStream::Save</b> method does not write the CLSID to the stream. T
 The <b>IPersistStream::Save</b> method can read from, write to, and seek in the stream; but it must not seek to a location in the stream before that of the seek pointer on entry.
 
 <h3><a id="URL_Moniker_Notes"></a><a id="url_moniker_notes"></a><a id="URL_MONIKER_NOTES"></a>URL Moniker Notes</h3>
-Saves an URL moniker to a stream. The binary format of URL moniker is its URL string in Unicode (may be a full or partial URL string, see <a href="https://msdn.microsoft.com/library/ms775103(v=VS.85).aspx">CreateURLMonikerEx</a> for details). This is represented as a <b>ULONG</b> count of characters followed by that many Unicode characters.
+Saves an URL moniker to a stream. The binary format of URL moniker is its URL string in Unicode (may be a full or partial URL string, see <a href="inet_CreateURLMonikerEx">CreateURLMonikerEx</a> for details). This is represented as a <b>ULONG</b> count of characters followed by that many Unicode characters.
 
 
 

@@ -4,10 +4,10 @@ title: "_PRIORITY_HINT"
 author: windows-sdk-content
 description: Defines values that are used with the FILE_IO_PRIORITY_HINT_INFO structure to specify the priority hint for a file I/O operation.
 old-location: fs\priority_hint.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 768e563a-5ff5-4dd2-8811-0a823c253a31
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IoPriorityHintLow, IoPriorityHintNormal, IoPriorityHintVeryLow, MaximumIoPriorityHintType, PRIORITY_HINT, PRIORITY_HINT enumeration [Files], _PRIORITY_HINT, fs.priority_hint, winbase/IoPriorityHintLow, winbase/IoPriorityHintNormal, winbase/IoPriorityHintVeryLow, winbase/MaximumIoPriorityHintType, winbase/PRIORITY_HINT
 ms.prod: windows
 ms.technology: windows-sdk

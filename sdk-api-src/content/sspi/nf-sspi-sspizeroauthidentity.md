@@ -7,7 +7,7 @@ old-location: security\sspizeroauthidentity.htm
 tech.root: secauthn
 ms.assetid: 50b1f24a-c802-4691-a450-316cb31bf44d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: SspiZeroAuthIdentity, SspiZeroAuthIdentity function [Security], security.sspizeroauthidentity, sspi/SspiZeroAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

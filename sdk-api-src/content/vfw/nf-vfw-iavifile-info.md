@@ -96,15 +96,19 @@ If the buffer allocated is too small for the structure, this method should fail 
 
 For handlers written in C++, <b>Info</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Info(AVIFILEINFO *pfi, LONG lSize) 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

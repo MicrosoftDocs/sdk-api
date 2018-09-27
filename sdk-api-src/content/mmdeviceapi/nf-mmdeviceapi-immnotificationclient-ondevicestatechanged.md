@@ -7,7 +7,7 @@ old-location: coreaudio\immnotificationclient_ondevicestatechanged.htm
 tech.root: CoreAudio
 ms.assetid: 4725a300-c84b-40cd-93a6-6ef6c8e89708
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceStateChanged method, IMMNotificationClient.OnDeviceStateChanged, IMMNotificationClient::OnDeviceStateChanged, IMMNotificationClientOnDeviceStateChanged, OnDeviceStateChanged, OnDeviceStateChanged method [Core Audio], OnDeviceStateChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondevicestatechanged, mmdeviceapi/IMMNotificationClient::OnDeviceStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

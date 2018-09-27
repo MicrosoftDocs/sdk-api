@@ -87,15 +87,19 @@ Returns the address of the decompressed frame data.
 
 For handlers written in C++, <b>GetFrame</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LPVOID GetFrame(LONG lPos); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_whitebalance.htm
 tech.root: DirectShow
 ms.assetid: 3c7a21ec-2aa5-4e00-8d7b-a13a366a3f17
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_WhiteBalance method, IVideoProcAmp.getRange_WhiteBalance, IVideoProcAmp::getRange_WhiteBalance, IVideoProcAmpgetRange_WhiteBalance, dshow.ivideoprocamp_getrange_whitebalance, getRange_WhiteBalance, getRange_WhiteBalance method [DirectShow], getRange_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_WhiteBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices

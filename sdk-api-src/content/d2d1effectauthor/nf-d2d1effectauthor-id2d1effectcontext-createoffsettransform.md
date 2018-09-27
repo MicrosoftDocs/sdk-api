@@ -7,7 +7,7 @@ old-location: direct2d\id2d1contextinternal_createoffsettransform.htm
 tech.root: direct2d
 ms.assetid: A0A479F7-CB2C-4A9A-B482-2383A3A1A841
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CreateOffsetTransform, CreateOffsetTransform method [Direct2D], CreateOffsetTransform method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateOffsetTransform method, ID2D1EffectContext.CreateOffsetTransform, ID2D1EffectContext::CreateOffsetTransform, d2d1effectauthor/ID2D1EffectContext::CreateOffsetTransform, direct2d.id2d1contextinternal_createoffsettransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

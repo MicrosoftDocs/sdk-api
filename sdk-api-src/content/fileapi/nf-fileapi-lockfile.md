@@ -4,10 +4,10 @@ title: LockFile function
 author: windows-sdk-content
 description: Locks the specified file for exclusive access by the calling process.
 old-location: fs\lockfile.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: c88e7b6c-c339-443b-adf9-0325807203dc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LockFile, LockFile function [Files], _win32_lockfile, base.lockfile, fileapi/LockFile, fs.lockfile, winbase/LockFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -135,19 +135,23 @@ The <b>DEFINE_PROPERTYKEY</b> macro is defined as follows.
 			
                 
 
-
-```
-#ifdef INITGUID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#ifdef INITGUID
 #define DEFINE_PROPERTYKEY(name, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8, pid) \
 EXTERN_C const PROPERTYKEY DECLSPEC_SELECTANY name = \
 { { l, w1, w2, { b1, b2,  b3,  b4,  b5,  b6,  b7,  b8 } }, pid }
 #else
 #define DEFINE_PROPERTYKEY(name, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8, pid) \ 
 EXTERN_C const PROPERTYKEY name
-#endif // INITGUID 
-```
-
-
+#endif // INITGUID </pre>
+</td>
+</tr>
+</table></span></div>
 When using this macro, you have two options:
                 
                 

@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_setmixingprefs.htm
 tech.root: DirectShow
 ms.assetid: db5bf775-685c-4137-846d-fe71cddce08d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetMixingPrefs method, IVMRMixerControl9.SetMixingPrefs, IVMRMixerControl9::SetMixingPrefs, IVMRMixerControl9SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setmixingprefs, vmr9/IVMRMixerControl9::SetMixingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,25 +108,29 @@ The flags for the mixing preferences are divided into three groups: decimation, 
 </ul>
 You must specify a valid flag for each group. If you want to change a single flag, you can get the current preferences, remove the flag you don't want, and add the flag you want. For example:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get the current mixing preferences.
 DWORD dwPrefs;
-pMixControl->GetMixingPrefs(&dwPrefs);  
+pMixControl-&gt;GetMixingPrefs(&amp;dwPrefs);  
 
 // Remove the current render target flag.
-dwPrefs &= ~MixerPref_RenderTargetMask; 
+dwPrefs &amp;= ~MixerPref_RenderTargetMask; 
 
 // Add the render target flag that we want.
 dwPrefs |= MixerPref_RenderTargetYUV;
 
 // Set the new flags.
-pMixControl->SetMixingPrefs(dwPrefs);
-
-```
-
-
+pMixControl-&gt;SetMixingPrefs(dwPrefs);
+</pre>
+</td>
+</tr>
+</table></span></div>
 If the VMR is in renderless mode, you must set the allocator-presenter before calling <code>SetMixingPrefs</code>. Otherwise, the VMR cannot determine the capabilities of the Direct3D device.
 
 Include DShow.h and D3d9.h before Vmr9.h.

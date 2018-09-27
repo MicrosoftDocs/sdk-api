@@ -4,10 +4,10 @@ title: "_WIM_EXTERNAL_FILE_INFO"
 author: windows-sdk-content
 description: Defines metadata specific to files provided by WOF_PROVIDER_WIM.
 old-location: fs\wim_external_file_info.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: BB40922B-C9D3-451C-B2D1-1740105C4BAB
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO structure pointer [Files], WIM_EXTERNAL_FILE_INFO, WIM_EXTERNAL_FILE_INFO structure [Files], _WIM_EXTERNAL_FILE_INFO, fs.wim_external_file_info, wofapi/PWIM_EXTERNAL_FILE_INFO, wofapi/WIM_EXTERNAL_FILE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

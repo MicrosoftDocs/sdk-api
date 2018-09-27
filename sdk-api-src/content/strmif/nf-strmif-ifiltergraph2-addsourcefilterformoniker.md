@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph2_addsourcefilterformoniker.htm
 tech.root: DirectShow
 ms.assetid: 7e398df6-7cb7-4028-be34-3040a2cd1c2b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: AddSourceFilterForMoniker, AddSourceFilterForMoniker method [DirectShow], AddSourceFilterForMoniker method [DirectShow],IFilterGraph2 interface, IFilterGraph2 interface [DirectShow],AddSourceFilterForMoniker method, IFilterGraph2.AddSourceFilterForMoniker, IFilterGraph2::AddSourceFilterForMoniker, IFilterGraph2AddSourceFilterForMoniker, dshow.ifiltergraph2_addsourcefilterformoniker, strmif/IFilterGraph2::AddSourceFilterForMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -185,9 +185,13 @@ The Filter Graph Manager holds a reference count on the filter until the filter 
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IBaseFilter *pSource = NULL;
 IMoniker *pMoniker = NULL;
 
@@ -195,26 +199,26 @@ IMoniker *pMoniker = NULL;
 
 // Create a bind context for working with the moniker.
 IBindCtx *pContext=0;
-hr = CreateBindCtx(0, &pContext);
+hr = CreateBindCtx(0, &amp;pContext);
 if (SUCCEEDED(hr))
 {
     // Query the Filter Graph Manager for IFilterGraph2.
     IFilterGraph2 *pFG2 = NULL;
-    hr = pGraph->QueryInterface(IID_IFilterGraph2, (void**)&pFG2);
+    hr = pGraph-&gt;QueryInterface(IID_IFilterGraph2, (void**)&amp;pFG2);
     if (SUCCEEDED(hr))
     {
         // Create the source filter.
-        hr = pFG2->AddSourceFilterForMoniker(pMoniker, pContext,
-                 L"Source", &pSource);
-        pFG2->Release();
+        hr = pFG2-&gt;AddSourceFilterForMoniker(pMoniker, pContext,
+                 L"Source", &amp;pSource);
+        pFG2-&gt;Release();
     }
-    pContext->Release();
+    pContext-&gt;Release();
 }
-pMoniker->Release();
-
-```
-
-
+pMoniker-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

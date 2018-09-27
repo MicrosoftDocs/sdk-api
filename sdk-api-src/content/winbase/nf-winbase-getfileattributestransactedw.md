@@ -4,10 +4,10 @@ title: GetFileAttributesTransactedW function
 author: windows-sdk-content
 description: Retrieves file system attributes for a specified file or directory as a transacted operation.
 old-location: fs\getfileattributestransacted.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: dd1435da-93e5-440a-913a-9e40e39b4a01
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFileAttributesTransacted, GetFileAttributesTransacted function [Files], GetFileAttributesTransactedA, GetFileAttributesTransactedW, GetFileExInfoStandard, fs.getfileattributestransacted, winbase/GetFileAttributesTransacted, winbase/GetFileAttributesTransactedA, winbase/GetFileAttributesTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_begindraw.htm
 tech.root: direct2d
 ms.assetid: acadc36f-5028-4f8f-93c6-7fbc0de3c3d5
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: BeginDraw, BeginDraw method [Direct2D], BeginDraw method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],BeginDraw method, ID2D1CommandSink.BeginDraw, ID2D1CommandSink::BeginDraw, d2d1_1/ID2D1CommandSink::BeginDraw, direct2d.id2d1commandsink_begindraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

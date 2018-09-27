@@ -7,7 +7,7 @@ old-location: direct2d\id2d1sourcetransform_setrenderinfo.htm
 tech.root: direct2d
 ms.assetid: 7082A748-E1DF-4805-BBB5-9EF50841B36D
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID2D1SourceTransform interface [Direct2D],SetRenderInfo method, ID2D1SourceTransform.SetRenderInfo, ID2D1SourceTransform::SetRenderInfo, SetRenderInfo, SetRenderInfo method [Direct2D], SetRenderInfo method [Direct2D],ID2D1SourceTransform interface, d2d1effectauthor/ID2D1SourceTransform::SetRenderInfo, direct2d.id2d1sourcetransform_setrenderinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

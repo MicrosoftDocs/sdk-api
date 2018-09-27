@@ -7,7 +7,7 @@ old-location: com\ifilebasedloginit.htm
 tech.root: com
 ms.assetid: c499f32b-3897-4c61-b9c1-d660648aab76
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], IFileBasedLogInit interface [COM],described, _com_ifilebasedloginit, com.ifilebasedloginit, txlogpub/IFileBasedLogInit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Initializes an instance of a file based implementation of <a href="https://msdn.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileBasedLogInit</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IFileBasedLogInit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileBasedLogInit</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IFileBasedLogInit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

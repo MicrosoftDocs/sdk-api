@@ -87,7 +87,7 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/18A47033-3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms705379(v=VS.85).aspx">Media Foundation Enumerations</a>
+<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\iperpropertybrowsing.htm
 tech.root: com
 ms.assetid: 05e46df3-b6c8-4520-af11-21e1ff90fb9f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], IPerPropertyBrowsing interface [COM],described, _ctrl_iperpropertybrowsing, com.iperpropertybrowsing, ocidl/IPerPropertyBrowsing
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Retrieves the information in the property pages offered by an object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPerPropertyBrowsing</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPerPropertyBrowsing</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPerPropertyBrowsing</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPerPropertyBrowsing</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

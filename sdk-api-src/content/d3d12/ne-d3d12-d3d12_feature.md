@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature.htm
 tech.root: direct3d12
 ms.assetid: 165ECFE0-1B18-4A26-8B9C-3CE53776A349
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D3D12_FEATURE, D3D12_FEATURE enumeration, D3D12_FEATURE_ARCHITECTURE, D3D12_FEATURE_ARCHITECTURE1, D3D12_FEATURE_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_D3D12_OPTIONS, D3D12_FEATURE_D3D12_OPTIONS1, D3D12_FEATURE_D3D12_OPTIONS2, D3D12_FEATURE_D3D12_OPTIONS3, D3D12_FEATURE_D3D12_OPTIONS5, D3D12_FEATURE_EXISTING_HEAPS, D3D12_FEATURE_FEATURE_LEVELS, D3D12_FEATURE_FORMAT_INFO, D3D12_FEATURE_FORMAT_SUPPORT, D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D12_FEATURE_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_ROOT_SIGNATURE, D3D12_FEATURE_SHADER_CACHE, D3D12_FEATURE_SHADER_MODEL, d3d12/D3D12_FEATURE, d3d12/D3D12_FEATURE_ARCHITECTURE, d3d12/D3D12_FEATURE_ARCHITECTURE1, d3d12/D3D12_FEATURE_COMMAND_QUEUE_PRIORITY, d3d12/D3D12_FEATURE_D3D12_OPTIONS, d3d12/D3D12_FEATURE_D3D12_OPTIONS1, d3d12/D3D12_FEATURE_D3D12_OPTIONS2, d3d12/D3D12_FEATURE_D3D12_OPTIONS3, d3d12/D3D12_FEATURE_D3D12_OPTIONS5, d3d12/D3D12_FEATURE_EXISTING_HEAPS, d3d12/D3D12_FEATURE_FEATURE_LEVELS, d3d12/D3D12_FEATURE_FORMAT_INFO, d3d12/D3D12_FEATURE_FORMAT_SUPPORT, d3d12/D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, d3d12/D3D12_FEATURE_MULTISAMPLE_QUALITY_LEVELS, d3d12/D3D12_FEATURE_ROOT_SIGNATURE, d3d12/D3D12_FEATURE_SHADER_CACHE, d3d12/D3D12_FEATURE_SHADER_MODEL, direct3d12.d3d12_feature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,7 +148,7 @@ Check for support options described in <a href="https://msdn.microsoft.com/E45DA
 ### -field D3D12_FEATURE_EXISTING_HEAPS
 
 Supports existing heaps, described in 
-          <a href="https://msdn.microsoft.com/en-us/library/Mt844808(v=VS.85).aspx">D3D12_FEATURE_DATA_EXISTING_HEAPS</a>.
+          <a href="https://msdn.microsoft.com/7F0D0FAD-BF29-43AD-95FA-85B9719C4782">D3D12_FEATURE_DATA_EXISTING_HEAPS</a>.
           
 
 
@@ -171,7 +171,7 @@ Check for support options described in <a href="direct3d12.d3d12_feature_data_d3
 
 
 
-Use this enumeration in a call to <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for the Direct3D 12 features.
+Use this enumeration in a call to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for the Direct3D 12 features.
         Each value in this enumeration has a corresponding data structure that you must pass to the <i>pFeatureSupportData</i> parameter
         of <b>ID3D12Device::CheckFeatureSupport</b>.
       
@@ -184,7 +184,7 @@ Use this enumeration in a call to <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
  
 
  

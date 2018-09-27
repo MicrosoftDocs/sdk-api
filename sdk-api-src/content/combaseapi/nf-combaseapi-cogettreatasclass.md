@@ -7,7 +7,7 @@ old-location: com\cogettreatasclass.htm
 tech.root: com
 ms.assetid: f95fefe6-dc37-45f4-93be-87c996990ab9
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CoGetTreatAsClass, CoGetTreatAsClass function [COM], _com_CoGetTreatAsClass, com.cogettreatasclass, combaseapi/CoGetTreatAsClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ A pointer to where the CLSID that can emulate <i>clsidOld</i> objects is retriev
 
 
 
-This function can return the following values, as well as any error values returned by the <a href="https://msdn.microsoft.com/en-us/library/ms680589(v=VS.85).aspx">CLSIDFromString</a> function.
+This function can return the following values, as well as any error values returned by the <a href="https://msdn.microsoft.com/36cc9037-480f-491f-a9bb-5aa1e707781e">CLSIDFromString</a> function.
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ There was an error reading the registry.
 
 
 
-<b>CoGetTreatAsClass</b> returns the <a href="https://msdn.microsoft.com/1d7a1677-738a-4258-9afc-e77bd0dcf40f">TreatAs</a> entry in the registry for the specified object. The <b>TreatAs</b> entry, if set, is the CLSID of a registered object (an application) that can emulate the object in question. The <b>TreatAs</b> entry is set through a call to the <a href="https://msdn.microsoft.com/en-us/library/ms693452(v=VS.85).aspx">CoTreatAsClass</a> function. Emulation allows an application to open and edit an object of a different format, while retaining the original format of the object. Objects of the original CLSID are activated and treated as objects of the second CLSID. When the object is saved, this may result in loss of edits not supported by the original format. If there is no <b>TreatAs</b> entry for the specified object, this function returns the CLSID of the original object (<i>clsidOld</i>). 
+<b>CoGetTreatAsClass</b> returns the <a href="https://msdn.microsoft.com/1d7a1677-738a-4258-9afc-e77bd0dcf40f">TreatAs</a> entry in the registry for the specified object. The <b>TreatAs</b> entry, if set, is the CLSID of a registered object (an application) that can emulate the object in question. The <b>TreatAs</b> entry is set through a call to the <a href="https://msdn.microsoft.com/d871879f-ec68-48e1-8ef6-364cf1447d0f">CoTreatAsClass</a> function. Emulation allows an application to open and edit an object of a different format, while retaining the original format of the object. Objects of the original CLSID are activated and treated as objects of the second CLSID. When the object is saved, this may result in loss of edits not supported by the original format. If there is no <b>TreatAs</b> entry for the specified object, this function returns the CLSID of the original object (<i>clsidOld</i>). 
 
 
 
@@ -140,7 +140,7 @@ There was an error reading the registry.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693452(v=VS.85).aspx">CoTreatAsClass</a>
+<a href="https://msdn.microsoft.com/d871879f-ec68-48e1-8ef6-364cf1447d0f">CoTreatAsClass</a>
  
 
  

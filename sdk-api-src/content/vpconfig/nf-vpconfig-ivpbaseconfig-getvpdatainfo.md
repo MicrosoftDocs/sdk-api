@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_getvpdatainfo.htm
 tech.root: DirectShow
 ms.assetid: 385ab5e4-b904-4268-a97e-1c3e7789b0a2
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetVPDataInfo, GetVPDataInfo method [DirectShow], GetVPDataInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetVPDataInfo method, IVPBaseConfig.GetVPDataInfo, IVPBaseConfig::GetVPDataInfo, IVPBaseConfigGetVPDataInfo, dshow.ivpbaseconfig_getvpdatainfo, vpconfig/IVPBaseConfig::GetVPDataInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

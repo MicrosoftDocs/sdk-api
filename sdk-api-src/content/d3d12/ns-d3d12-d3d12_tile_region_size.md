@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tile_region_size.htm
 tech.root: direct3d12
 ms.assetid: 6F71BD17-09B5-4638-9CD4-E2D3BBA97044
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D3D12_TILE_REGION_SIZE, D3D12_TILE_REGION_SIZE structure, d3d12/D3D12_TILE_REGION_SIZE, direct3d12.d3d12_tile_region_size
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ If <b>TRUE</b>, the runtime uses the <b>Width</b>, <b>Height</b>, and <b>Depth</
 If <b>FALSE</b>, the runtime ignores the <b>Width</b>, <b>Height</b>, and <b>Depth</b> members and uses the <b>NumTiles</b> member to traverse tiles in the resource linearly across x, then y, then z (as applicable) and then spills over mipmaps/arrays in subresource order.  For example, use this technique to map an entire resource at once.
             
 
-Regardless of whether you specify <b>TRUE</b> or <b>FALSE</b> for <b>UseBox</b>, you use a <a href="https://msdn.microsoft.com/en-us/library/Dn770443(v=VS.85).aspx">D3D12_TILED_RESOURCE_COORDINATE</a> structure to specify the starting location for the region within the resource as a separate parameter outside of this structure by using x, y, and z coordinates.
+Regardless of whether you specify <b>TRUE</b> or <b>FALSE</b> for <b>UseBox</b>, you use a <a href="https://msdn.microsoft.com/B7C51C7A-8500-4570-99C1-AE51D6A88529">D3D12_TILED_RESOURCE_COORDINATE</a> structure to specify the starting location for the region within the resource as a separate parameter outside of this structure by using x, y, and z coordinates.
             
 
 When the region includes mipmaps that are packed with nonstandard tiling, <b>UseBox</b> must be <b>FALSE</b> because tile dimensions are not standard and the app only knows a count of how many tiles are consumed by the packed area, which is per array slice.  The corresponding (separate) starting location parameter uses x to offset into the flat range of tiles in this case, and y and z coordinates must each be 0.
@@ -101,7 +101,7 @@ The depth of the tiled region, in tiles. Used for 3D textures or arrays. For arr
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn903865(v=VS.85).aspx">CopyTiles</a>, <a href="https://msdn.microsoft.com/en-us/library/Dn788629(v=VS.85).aspx">CopyTileMappings</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn788641(v=VS.85).aspx">UpdateTileMappings</a> methods.
+This structure is used by the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">CopyTiles</a>, <a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">CopyTileMappings</a> and <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">UpdateTileMappings</a> methods.
       
 
 
@@ -112,11 +112,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186588(v=VS.85).aspx">CD3DX12_TILE_REGION_SIZE</a>
+<a href="https://msdn.microsoft.com/07D2D8DE-C35C-48EE-8E9E-36545B60C594">CD3DX12_TILE_REGION_SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

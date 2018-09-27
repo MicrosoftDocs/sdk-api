@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushcopyofretrievalfilter.htm
 tech.root: direct3d12
 ms.assetid: A6F73BBC-760A-4CF9-AF81-B4499C4B081E
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D12InfoQueue interface,PushCopyOfRetrievalFilter method, ID3D12InfoQueue.PushCopyOfRetrievalFilter, ID3D12InfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method, PushCopyOfRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushCopyOfRetrievalFilter, direct3d12.id3d12infoqueue_pushcopyofretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ Push a copy of retrieval filter currently on the top of the retrieval-filter sta
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           
 
 
@@ -79,7 +79,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

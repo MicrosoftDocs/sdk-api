@@ -4,10 +4,10 @@ title: IDiskQuotaUserBatch
 author: windows-sdk-content
 description: Adds multiple quota user objects to a container that is then submitted for update in a single call.
 old-location: fs\idiskquotauserbatch.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 6cb3da5d-8e4c-45de-b9cf-0f6abf3f1932
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDiskQuotaUserBatch, IDiskQuotaUserBatch interface [Files], IDiskQuotaUserBatch interface [Files],described, _win32_idiskquotauserbatch, base.idiskquotauserbatch, dskquota/IDiskQuotaUserBatch, fs.idiskquotauserbatch
 ms.prod: windows
 ms.technology: windows-sdk

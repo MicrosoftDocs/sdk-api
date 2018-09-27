@@ -86,17 +86,21 @@ Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/2f47fd2c-a0f
 
 This interface provides the native implementation of the <a href="https://msdn.microsoft.com/2f47fd2c-a0ff-4981-a404-0934aed39f84">Windows::UI::XAML::Control::SwapChainBackgroundPanel</a> Windows Runtime type. To obtain a pointer to <b>ISwapChainBackgroundPanelNative</b>, you must cast a <b>SwapChainBackgroundPanel</b> instance to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> or <b>IUnknown</b>, and call <b>QueryInterface</b>.
 
-
-```cpp
-
-Microsoft::WRL::ComPtr<ISwapChainBackgroundPanelNative>	m_swapChainNative;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+Microsoft::WRL::ComPtr&lt;ISwapChainBackgroundPanelNative&gt;	m_swapChainNative;
 // ...
-IInspectable* panelInspectable = (IInspectable*) reinterpret_cast<IInspectable*>(swapChainPanel);
-panelInspectable->QueryInterface(__uuidof(ISwapChainBackgroundPanelNative), (void **)&m_swapChainNative);
-	
-```
-
-
+IInspectable* panelInspectable = (IInspectable*) reinterpret_cast&lt;IInspectable*&gt;(swapChainPanel);
+panelInspectable-&gt;QueryInterface(__uuidof(ISwapChainBackgroundPanelNative), (void **)&amp;m_swapChainNative);
+	</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

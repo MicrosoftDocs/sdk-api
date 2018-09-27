@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_getdestinationposition.htm
 tech.root: DirectShow
 ms.assetid: ee2abf52-edc2-471e-bf9b-eda04f2eabe4
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetDestinationPosition, GetDestinationPosition method [DirectShow], GetDestinationPosition method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetDestinationPosition method, IBasicVideo.GetDestinationPosition, IBasicVideo::GetDestinationPosition, IBasicVideoGetDestinationPosition, control/IBasicVideo::GetDestinationPosition, dshow.ibasicvideo_getdestinationposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/en-us/library/Dd389579(v=VS.85).aspx">IBasicVideo::get_DestinationLeft</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389580(v=VS.85).aspx">IBasicVideo::get_DestinationTop</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389581(v=VS.85).aspx">IBasicVideo::get_DestinationWidth</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd389578(v=VS.85).aspx">IBasicVideo::get_DestinationHeight</a> methods.
+This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/578f5bbd-23b0-4100-a1d8-0987381fd56f">IBasicVideo::get_DestinationLeft</a>, <a href="https://msdn.microsoft.com/79690655-ac84-4119-9d87-799990424f00">IBasicVideo::get_DestinationTop</a>, <a href="https://msdn.microsoft.com/6e27bb57-ca88-4478-86b8-250a69f5fc78">IBasicVideo::get_DestinationWidth</a>, and <a href="https://msdn.microsoft.com/21d6c74a-2adb-4015-b0df-5acb26c22212">IBasicVideo::get_DestinationHeight</a> methods.
 
 
 
@@ -105,11 +105,11 @@ This method has the same effect as individually calling the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

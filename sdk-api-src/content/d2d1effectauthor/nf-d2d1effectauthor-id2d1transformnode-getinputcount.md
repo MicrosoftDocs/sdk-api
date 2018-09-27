@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transformnode_getinputcount.htm
 tech.root: direct2d
 ms.assetid: 8F8D2BD1-AF03-4EEA-8F5E-DED174074333
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetInputCount, GetInputCount method [Direct2D], GetInputCount method [Direct2D],ID2D1TransformNode interface, ID2D1TransformNode interface [Direct2D],GetInputCount method, ID2D1TransformNode.GetInputCount, ID2D1TransformNode::GetInputCount, d2d1effectauthor/ID2D1TransformNode::GetInputCount, direct2d.id2d1transformnode_getinputcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

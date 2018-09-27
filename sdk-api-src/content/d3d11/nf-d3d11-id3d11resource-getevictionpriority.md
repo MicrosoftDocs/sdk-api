@@ -65,7 +65,7 @@ Get the eviction priority of a resource.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 One of the following values, which specifies the eviction priority for the resource:
 
@@ -84,7 +84,7 @@ One of the following values, which specifies the eviction priority for the resou
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>
+<a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>
  
 
  

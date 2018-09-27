@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 7A1D750D-51F1-48F6-9D74-6439A147F1EC
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,described, d3d12/ID3D12PipelineLibrary, direct3d12.id3d12pipelinelibrary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ Manages a pipeline library, in particular loading and retrieving individual PSOs
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12PipelineLibrary</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn788651(v=VS.85).aspx">ID3D12DeviceChild</a>. <b>ID3D12PipelineLibrary</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12PipelineLibrary</b> interface inherits from <a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>. <b>ID3D12PipelineLibrary</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ID3D12PipelineLibrary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt709146(v=VS.85).aspx">GetSerializedSize</a>
+<a href="https://msdn.microsoft.com/45DA092B-AB9B-43BE-8F5C-AE05485EA3C1">GetSerializedSize</a>
 </td>
 <td align="left" width="63%">
 Returns the amount of memory required to serialize the current contents of the database. 
@@ -80,7 +80,7 @@ Returns the amount of memory required to serialize the current contents of the d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt709147(v=VS.85).aspx">LoadComputePipeline</a>
+<a href="https://msdn.microsoft.com/8295D6E3-8353-46AD-A741-170244495F8B">LoadComputePipeline</a>
 </td>
 <td align="left" width="63%">
 Retrieves the requested PSO from the library. The input desc is matched against the data in the current library database, and remembered in order to prevent duplication of PSO contents. 
@@ -90,7 +90,7 @@ Retrieves the requested PSO from the library. The input desc is matched against 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt709148(v=VS.85).aspx">LoadGraphicsPipeline</a>
+<a href="https://msdn.microsoft.com/1DDD1348-2039-4BF4-9ED8-7AA087D0B654">LoadGraphicsPipeline</a>
 </td>
 <td align="left" width="63%">
 Retrieves the requested PSO from the library. 
@@ -99,7 +99,7 @@ Retrieves the requested PSO from the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt709149(v=VS.85).aspx">Serialize</a>
+<a href="https://msdn.microsoft.com/FD81B464-1E93-47CF-9D95-8F8F64C39CD6">Serialize</a>
 </td>
 <td align="left" width="63%">
 Writes the contents of the library to the provided memory, to be provided back to the runtime at a later time. 
@@ -109,7 +109,7 @@ Writes the contents of the library to the provided memory, to be provided back t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt709150(v=VS.85).aspx">StorePipeline</a>
+<a href="https://msdn.microsoft.com/A7847966-4B31-47EA-A5CB-B6576CD2501F">StorePipeline</a>
 </td>
 <td align="left" width="63%">
 Adds the input PSO to an internal database with the corresponding name.
@@ -123,7 +123,7 @@ Adds the input PSO to an internal database with the corresponding name.
 
 
 
-Refer to the remarks and examples for <a href="https://msdn.microsoft.com/en-us/library/Mt709133(v=VS.85).aspx">CreatePipelineLibrary</a>. 
+Refer to the remarks and examples for <a href="https://msdn.microsoft.com/572A95A6-A02F-4512-9BDE-2A8CA58A0A27">CreatePipelineLibrary</a>. 
 
 
 
@@ -133,15 +133,15 @@ Refer to the remarks and examples for <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770457(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788651(v=VS.85).aspx">ID3D12DeviceChild</a>
+<a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt709473(v=VS.85).aspx">Root Signature Version 1.1</a>
+<a href="https://msdn.microsoft.com/8FE42C1C-7F1D-4E70-A7EE-D5EC67237327">Root Signature Version 1.1</a>
  
 
  

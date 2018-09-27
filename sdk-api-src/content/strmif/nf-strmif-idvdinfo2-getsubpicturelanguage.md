@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getsubpicturelanguage.htm
 tech.root: DirectShow
 ms.assetid: 175ab238-59a9-4142-921b-ed374423f4e3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetSubpictureLanguage, GetSubpictureLanguage method [DirectShow], GetSubpictureLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetSubpictureLanguage method, IDvdInfo2.GetSubpictureLanguage, IDvdInfo2::GetSubpictureLanguage, IDvdInfo2GetSubpictureLanguage, dshow.idvdinfo2_getsubpicturelanguage, strmif/IDvdInfo2::GetSubpictureLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,11 +128,15 @@ The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DV
 
 To get the text languages available for a menu, call <a href="https://msdn.microsoft.com/97c95208-e2fc-4c9a-b8ba-61419b96aec9">GetMenuLanguages</a>. <code>GetSubpictureLanguage</code> sets the value pointed to by <i>pLanguage</i> to zero if the stream contains an unknown language. Call the Win32 <b>GetLocaleInfo</b> function as follows to create a human-readable string name from <i>pLanguage</i>:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LCID Language;
-hr = pDvdInfo->GetSubpictureLanguage(ulStream, &Language);
+hr = pDvdInfo-&gt;GetSubpictureLanguage(ulStream, &amp;Language);
 if (SUCCEEDED(hr))
 {
     int cchSize = GetLocaleInfo(Language, LOCALE_SENGLANGUAGE, 0, 0);
@@ -144,10 +148,10 @@ if (SUCCEEDED(hr))
         delete [] szString;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

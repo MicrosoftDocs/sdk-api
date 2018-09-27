@@ -7,7 +7,7 @@ old-location: dshow\iambuffernegotiation_suggestallocatorproperties.htm
 tech.root: DirectShow
 ms.assetid: f6a7f2c4-be8b-4721-87f4-274ba365784f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IAMBufferNegotiation interface [DirectShow],SuggestAllocatorProperties method, IAMBufferNegotiation.SuggestAllocatorProperties, IAMBufferNegotiation::SuggestAllocatorProperties, IAMBufferNegotiationSuggestAllocatorProperties, SuggestAllocatorProperties, SuggestAllocatorProperties method [DirectShow], SuggestAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, dshow.iambuffernegotiation_suggestallocatorproperties, strmif/IAMBufferNegotiation::SuggestAllocatorProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,19 +139,23 @@ To request a particular number of buffers, set the <b>cBuffers</b> member of the
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ALLOCATOR_PROPERTIES AllocProp;
 AllocProp.cbAlign = -1;  // -1 means no preference.
 AllocProp.cbBuffer = dwBytesPerSec *  dwLatencyInMilliseconds / 1000;
 AllocProp.cbPrefix = -1;
 AllocProp.cBuffers = -1;
-pIAMBufferNegotiation->SuggestAllocatorProperties(&AllocProp);
-
-```
-
-
+pIAMBufferNegotiation-&gt;SuggestAllocatorProperties(&amp;AllocProp);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

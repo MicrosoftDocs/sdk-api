@@ -93,28 +93,32 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-
-```cpp
-BOOL     bWriteUserDS;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL     bWriteUserDS;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll2 interface pointer
 
 // get the WriteCertToUserDS value
-hr = pEnroll->get_WriteCertToUserDS( &bWriteUserDS );
+hr = pEnroll-&gt;get_WriteCertToUserDS( &amp;bWriteUserDS );
 if (FAILED( hr ))
     printf("Failed get_WriteCertToUserDS - %x\n", hr );
 else
     printf( "WriteCertToUserDS: %d\n", bWriteUserDS );
 
 // set the WriteCertToUserDS value
-hr = pEnroll->put_WriteCertToUserDS( TRUE );
+hr = pEnroll-&gt;put_WriteCertToUserDS( TRUE );
 if (FAILED( hr ))
     printf("Failed put_WriteCertToUserDS - %x\n", hr );
 else
-    printf( "WriteCertToUserDS set to TRUE\n" );
-```
-
-
+    printf( "WriteCertToUserDS set to TRUE\n" );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

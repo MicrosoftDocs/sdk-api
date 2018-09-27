@@ -7,7 +7,7 @@ old-location: security\wlxsasnotify.htm
 tech.root: secauthn
 ms.assetid: 534afdf8-6809-413a-ac5c-23978f2b288a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: PWLX_SAS_NOTIFY, PWLX_SAS_NOTIFY callback, WLX_SAS_TYPE_CTRL_ALT_DEL, WlxSasNotify, WlxSasNotify callback function [Security], _gina_wlxsasnotify, security.wlxsasnotify, winwlx/WlxSasNotify
 ms.prod: windows
 ms.technology: windows-sdk

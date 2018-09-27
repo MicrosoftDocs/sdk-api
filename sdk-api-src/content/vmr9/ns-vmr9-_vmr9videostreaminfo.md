@@ -7,7 +7,7 @@ old-location: dshow\vmr9videostreaminfo.htm
 tech.root: DirectShow
 ms.assetid: e2da0c1e-d592-49ce-937c-0d75ce270282
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: VMR9VideoStreamInfo, VMR9VideoStreamInfo structure [DirectShow], VMR9VideoStreamInfoStructure, _VMR9VideoStreamInfo, dshow.vmr9videostreaminfo, vmr9/VMR9VideoStreamInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameter
 
 ### -field pddsVideoSurface
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the Direct3D surface that contains the video to be composited.
+A pointer to the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface of the Direct3D surface that contains the video to be composited.
 
 
 ### -field dwWidth

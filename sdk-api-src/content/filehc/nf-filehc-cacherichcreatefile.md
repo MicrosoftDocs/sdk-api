@@ -7,7 +7,7 @@ old-location: winprog\_cacherichcreatefile.htm
 tech.root: devnotes
 ms.assetid: 89b0adcd-0084-4538-b162-661ddae53dc8
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], filehc/CacheRichCreateFile, winprog._cacherichcreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices

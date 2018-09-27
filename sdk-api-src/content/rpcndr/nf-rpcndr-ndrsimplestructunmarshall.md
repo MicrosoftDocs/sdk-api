@@ -7,7 +7,7 @@ old-location: winprog\ndrsimplestructunmarshall.htm
 tech.root: devnotes
 ms.assetid: 6b4a28a3-3d0f-43c5-b59a-58c14435e28f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: NdrSimpleStructUnmarshall, NdrSimpleStructUnmarshall function [Windows API], rpcndr/NdrSimpleStructUnmarshall, winprog.ndrsimplestructunmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

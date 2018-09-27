@@ -7,7 +7,7 @@ old-location: direct2d\id2d1hwndrendertarget_resize.htm
 tech.root: direct2d
 ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID2D1HwndRenderTarget.Resize, ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U &), ID2D1HwndRenderTarget::Resize, ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U &), Resize, Resize methods [Direct2D], d2d1/Resize, direct2d.id2d1hwndrendertarget_resize
 ms.prod: windows-hardware
 ms.technology: windows-devices

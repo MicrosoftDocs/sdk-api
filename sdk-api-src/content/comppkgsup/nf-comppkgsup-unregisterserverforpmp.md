@@ -7,7 +7,7 @@ old-location: winprog\unregisterserverforpmp.htm
 tech.root: devnotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

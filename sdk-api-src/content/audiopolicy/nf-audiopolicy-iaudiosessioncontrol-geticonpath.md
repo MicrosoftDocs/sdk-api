@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_geticonpath.htm
 tech.root: CoreAudio
 ms.assetid: e5b2721a-fd0a-483d-a94c-6e1520f5764c
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetIconPath, GetIconPath method [Core Audio], GetIconPath method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetIconPath method, IAudioSessionControl.GetIconPath, IAudioSessionControl::GetIconPath, IAudioSessionControlGetIconPath, audiopolicy/IAudioSessionControl::GetIconPath, coreaudio.iaudiosessioncontrol_geticonpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

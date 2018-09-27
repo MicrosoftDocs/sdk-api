@@ -65,7 +65,7 @@ A pointer to the arguments.
 
 ### -param eUpgradePhase
 
-A  <a href="https://msdn.microsoft.com/en-us/library/Dn806625(v=VS.85).aspx">CLUSTER_UPGRADE_PHASE</a> enumeration values that indicates the state of the rolling upgrade.
+A  <a href="https://msdn.microsoft.com/75FB1BCD-03E0-4A6F-8C97-99AE8E958174">CLUSTER_UPGRADE_PHASE</a> enumeration values that indicates the state of the rolling upgrade.
 
 
 ## -returns
@@ -89,7 +89,7 @@ This function returns one of the following values:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Functions</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Functions</a>
  
 
  

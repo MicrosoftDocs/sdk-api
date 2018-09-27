@@ -7,7 +7,7 @@ old-location: security\secpkg_primary_cred.htm
 tech.root: secauthn
 ms.assetid: e51fd400-6c3c-4861-ab5c-6c1800b12d31
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSECPKG_PRIMARY_CRED, PRIMARY_CRED_CACHED_LOGON, PRIMARY_CRED_CLEAR_PASSWORD, PRIMARY_CRED_OWF_PASSWORD, PRIMARY_CRED_UPDATE, PSECPKG_PRIMARY_CRED, PSECPKG_PRIMARY_CRED structure pointer [Security], SECPKG_PRIMARY_CRED, SECPKG_PRIMARY_CRED structure [Security], _SECPKG_PRIMARY_CRED, _ssp_secpkg_primary_cred, ntsecpkg/PSECPKG_PRIMARY_CRED, ntsecpkg/SECPKG_PRIMARY_CRED, security.secpkg_primary_cred"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,12 +185,16 @@ A <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNIC
 
 For cached logons, the RPC identifier of the package that performs the logon is identified by shifting the <b>Flags</b> member to the right by using the PRIMARY_CRED_LOGON_PACKAGE_SHIFT constant defined below.
 
-
-```cpp
-#define PRIMARY_CRED_LOGON_PACKAGE_SHIFT 24
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define PRIMARY_CRED_LOGON_PACKAGE_SHIFT 24
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

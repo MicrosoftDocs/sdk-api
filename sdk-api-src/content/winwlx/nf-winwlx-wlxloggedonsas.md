@@ -7,7 +7,7 @@ old-location: security\wlxloggedonsas.htm
 tech.root: secauthn
 ms.assetid: d60d1464-1948-444c-801a-dde17905091b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOnSAS, WlxLoggedOnSAS function [Security], _gina_wlxloggedonsas, security.wlxloggedonsas, winwlx/WlxLoggedOnSAS
 ms.prod: windows-hardware
 ms.technology: windows-devices

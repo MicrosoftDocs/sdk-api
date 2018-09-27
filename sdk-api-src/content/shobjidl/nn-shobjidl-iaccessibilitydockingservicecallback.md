@@ -7,7 +7,7 @@ old-location: com\iaccessibilitydockingservicecallback.htm
 tech.root: com
 ms.assetid: D69C8040-AAC4-4149-ACDA-948FDBACAB48
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], IAccessibilityDockingServiceCallback interface [COM],described, com.iaccessibilitydockingservicecallback, shobjidl/IAccessibilityDockingServiceCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Receives Acessibility Window Docking events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingServiceCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IAccessibilityDockingServiceCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingServiceCallback</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IAccessibilityDockingServiceCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

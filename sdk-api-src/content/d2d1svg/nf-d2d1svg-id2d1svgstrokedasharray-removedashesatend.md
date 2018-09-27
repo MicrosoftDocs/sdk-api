@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgstrokedasharray_removedashesatend.htm
 tech.root: direct2d
 ms.assetid: BF695850-55E2-420E-84B2-075174C0EB8B
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID2D1SvgStrokeDashArray interface [Direct2D],RemoveDashesAtEnd method, ID2D1SvgStrokeDashArray.RemoveDashesAtEnd, ID2D1SvgStrokeDashArray::RemoveDashesAtEnd, RemoveDashesAtEnd, RemoveDashesAtEnd method [Direct2D], RemoveDashesAtEnd method [Direct2D],ID2D1SvgStrokeDashArray interface, d2d1svg/ID2D1SvgStrokeDashArray::RemoveDashesAtEnd, direct2d.id2d1svgstrokedasharray_removedashesatend
 ms.prod: windows-hardware
 ms.technology: windows-devices

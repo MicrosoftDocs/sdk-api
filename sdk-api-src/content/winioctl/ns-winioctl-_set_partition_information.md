@@ -4,10 +4,10 @@ title: "_SET_PARTITION_INFORMATION"
 author: windows-sdk-content
 description: Contains information used to set a disk partition's type.
 old-location: fs\set_partition_information_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: cc04868c-cb9c-455f-a0df-bde6a133eb60
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION structure pointer [Files], SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION structure [Files], SET_PARTITION_INFORMATION_MBR, _SET_PARTITION_INFORMATION, _win32_set_partition_information_str, base.set_partition_information_str, fs.set_partition_information_str, winioctl/PSET_PARTITION_INFORMATION, winioctl/SET_PARTITION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

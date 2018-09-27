@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemorycontrol_getdevid.htm
 tech.root: DirectShow
 ms.assetid: 398cc4b3-c025-4df4-8447-bd4599293dab
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetDevId, GetDevId method [DirectShow], GetDevId method [DirectShow],IAMDevMemoryControl interface, IAMDevMemoryControl interface [DirectShow],GetDevId method, IAMDevMemoryControl.GetDevId, IAMDevMemoryControl::GetDevId, IAMDevMemoryControlGetDevId, dshow.iamdevmemorycontrol_getdevid, strmif/IAMDevMemoryControl::GetDevId
 ms.prod: windows-hardware
 ms.technology: windows-devices

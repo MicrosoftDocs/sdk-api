@@ -7,7 +7,7 @@ old-location: dshow\iconfiginterleaving_get_interleaving.htm
 tech.root: DirectShow
 ms.assetid: 659aa136-c7fd-4955-913b-26f7c05325a8
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Interleaving method, IConfigInterleaving.get_Interleaving, IConfigInterleaving::get_Interleaving, IConfigInterleavingget_Interleaving, dshow.iconfiginterleaving_get_interleaving, get_Interleaving, get_Interleaving method [DirectShow], get_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Interleaving
 ms.prod: windows-hardware
 ms.technology: windows-devices

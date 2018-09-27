@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo2_getpreferredaspectratio.htm
 tech.root: DirectShow
 ms.assetid: eabfb5a3-201c-483c-81d6-efd19a4b5cef
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetPreferredAspectRatio, GetPreferredAspectRatio method [DirectShow], GetPreferredAspectRatio method [DirectShow],IBasicVideo2 interface, IBasicVideo2 interface [DirectShow],GetPreferredAspectRatio method, IBasicVideo2.GetPreferredAspectRatio, IBasicVideo2::GetPreferredAspectRatio, IBasicVideo2GetPreferredAspectRatio, control/IBasicVideo2::GetPreferredAspectRatio, dshow.ibasicvideo2_getpreferredaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,11 +127,11 @@ The renderer does not implement <b>IBasicVideo2</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389541(v=VS.85).aspx">IBasicVideo2 Interface</a>
+<a href="https://msdn.microsoft.com/a21fe7b9-75db-4c5b-bb29-42d305f048a1">IBasicVideo2 Interface</a>
  
 
  

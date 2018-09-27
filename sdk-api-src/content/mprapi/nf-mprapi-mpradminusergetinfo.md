@@ -167,8 +167,8 @@ The user specified by <i>lpwsUserName</i> does not exist on the server specified
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as 
 <a href="https://msdn.microsoft.com/178ff775-9cd2-43f0-9a9a-dbae337c5fe8">RasAdminUserGetInfo</a> rather than 
 <b>MprAdminUserGetInfo</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="_win32_loadlibrary">LoadLibrary</a> and 
+<a href="_win32_getprocaddress">GetProcAddress</a> to access this function.
 
 
 

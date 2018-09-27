@@ -7,7 +7,7 @@ old-location: security\scardlistreaders.htm
 tech.root: secauthn
 ms.assetid: b50218f1-e960-4838-b44b-6c71fa94a0ad
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardListReaders, SCardListReaders function [Security], SCardListReadersA, SCardListReadersW, _smart_scardlistreaders, security.scardlistreaders, winscard/SCardListReaders, winscard/SCardListReadersA, winscard/SCardListReadersW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -193,7 +193,7 @@ SCARD_E_READER_UNAVAILABLE
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -215,9 +215,13 @@ The <b>SCardListReaders</b> function is a database query function. For more info
 
 The following example  shows listing the readers.
 
-
-```cpp
-LPTSTR          pmszReaders = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPTSTR          pmszReaders = NULL;
 LPTSTR          pReader;
 LONG            lReturn, lReturn2;
 DWORD           cch = SCARD_AUTOALLOCATE;
@@ -226,8 +230,8 @@ DWORD           cch = SCARD_AUTOALLOCATE;
 // hSC was set by a previous call to SCardEstablishContext.
 lReturn = SCardListReaders(hSC,
                            NULL,
-                           (LPTSTR)&pmszReaders,
-                           &cch );
+                           (LPTSTR)&amp;pmszReaders,
+                           &amp;cch );
 switch( lReturn )
 {
     case SCARD_E_NO_READERS_AVAILABLE:
@@ -261,10 +265,10 @@ default:
         // ...
         break;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -105,16 +105,20 @@ If the handler does not need to perform any actions when it is activated, it can
 
 The following example shows a simple implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Activate(__in BOOL fActivate)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Activate(__in BOOL fActivate)
 {
     return E_NOTIMPL;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

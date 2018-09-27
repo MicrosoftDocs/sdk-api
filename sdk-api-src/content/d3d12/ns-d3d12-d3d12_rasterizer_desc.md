@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_rasterizer_desc.htm
 tech.root: direct3d12
 ms.assetid: 52ECF841-72BE-44B7-BFB1-305B6981C1F4
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D3D12_RASTERIZER_DESC, D3D12_RASTERIZER_DESC structure, d3d12/D3D12_RASTERIZER_DESC, direct3d12.d3d12_rasterizer_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,19 +78,19 @@ Determines if a triangle is front- or back-facing. If this member is <b>TRUE</b>
 
 ### -field DepthBias
 
-Depth value added to a given pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Depth value added to a given pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6">Depth Bias</a>.
           
 
 
 ### -field DepthBiasClamp
 
-Maximum depth bias of a pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Maximum depth bias of a pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6">Depth Bias</a>.
           
 
 
 ### -field SlopeScaledDepthBias
 
-Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6">Depth Bias</a>.
           
 
 
@@ -217,11 +217,11 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903929(v=VS.85).aspx">Rasterizer Ordered Views</a>
+<a href="https://msdn.microsoft.com/D308BF3E-8CBE-4DF0-B020-4D202E858D99">Rasterizer Ordered Views</a>
  
 
  

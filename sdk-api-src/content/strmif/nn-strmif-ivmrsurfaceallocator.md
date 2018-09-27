@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator.htm
 tech.root: DirectShow
 ms.assetid: bbcbe152-80fd-469b-a79b-c8db6f97da22
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], IVMRSurfaceAllocator interface [DirectShow],described, IVMRSurfaceAllocatorInterface, dshow.ivmrsurfaceallocator, strmif/IVMRSurfaceAllocator
 ms.prod: windows
 ms.technology: windows-sdk

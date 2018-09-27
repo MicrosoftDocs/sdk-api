@@ -7,7 +7,7 @@ old-location: dshow\vmr9frequency.htm
 tech.root: DirectShow
 ms.assetid: a2d19dcf-521e-4df0-8e28-5561f2617411
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: VMR9Frequency, VMR9Frequency structure [DirectShow], VMR9FrequencyStructure, _VMR9Frequency, dshow.vmr9frequency, vmr9/VMR9Frequency
 ms.prod: windows
 ms.technology: windows-sdk

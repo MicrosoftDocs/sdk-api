@@ -7,7 +7,7 @@ old-location: coreaudio\ksjack_description.htm
 tech.root: CoreAudio
 ms.assetid: 4ee9fedf-4241-4678-b621-549a06e8949a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*PKSJACK_DESCRIPTION, KSJACK_DESCRIPTION, KSJACK_DESCRIPTION structure [Core Audio], PKSJACK_DESCRIPTION, PKSJACK_DESCRIPTION structure pointer [Core Audio], __MIDL___MIDL_itf_devicetopology_0000_0000_0009, coreaudio.ksjack_description, devicetopology/KSJACK_DESCRIPTION, devicetopology/PKSJACK_DESCRIPTION"
 ms.prod: windows
 ms.technology: windows-sdk

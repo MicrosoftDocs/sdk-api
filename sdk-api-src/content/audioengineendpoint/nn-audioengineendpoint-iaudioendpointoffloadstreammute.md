@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointoffloadstreammute.htm
 tech.root: CoreAudio
 ms.assetid: F102CBB2-6751-416C-B59B-F91440583594
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IAudioEndpointOffloadStreamMute, IAudioEndpointOffloadStreamMute interface [Core Audio], IAudioEndpointOffloadStreamMute interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamMute, coreaudio.iaudioendpointoffloadstreammute
 ms.prod: windows
 ms.technology: windows-sdk

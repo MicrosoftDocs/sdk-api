@@ -70,7 +70,7 @@ The <b>IMILBitmapEffectPrimitiveImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735252(v=VS.85).aspx">IsDirty</a>
+<a href="https://msdn.microsoft.com/04c21960-41bc-4bd3-8993-6dc9acc4510d">IsDirty</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect needs to be updated.
@@ -79,7 +79,7 @@ Determines whether the effect needs to be updated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735253(v=VS.85).aspx">IsVolatile</a>
+<a href="https://msdn.microsoft.com/56bebc06-405b-4e5c-86c4-a96080297cd6">IsVolatile</a>
 </td>
 <td align="left" width="63%">
 Determines whether the current effect is considered volatile. If an effect is volatile, the effects framework will not attempt to cache the effect's output.

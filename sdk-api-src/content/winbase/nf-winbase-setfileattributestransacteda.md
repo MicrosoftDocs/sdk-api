@@ -4,10 +4,10 @@ title: SetFileAttributesTransactedA function
 author: windows-sdk-content
 description: Sets the attributes for a file or directory as a transacted operation.
 old-location: fs\setfileattributestransacted.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: e25e77b2-a6ad-4ce4-8589-d7ff6c4074f6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_NOT_CONTENT_INDEXED, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, SetFileAttributesTransacted, SetFileAttributesTransacted function [Files], SetFileAttributesTransactedA, SetFileAttributesTransactedW, fs.setfileattributestransacted, winbase/SetFileAttributesTransacted, winbase/SetFileAttributesTransactedA, winbase/SetFileAttributesTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

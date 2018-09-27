@@ -4,10 +4,10 @@ title: CopyFileW function
 author: windows-sdk-content
 description: Copies an existing file to a new file.
 old-location: fs\copyfile.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 2c8ad002-cef4-499c-acda-c162205f6a8d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CopyFile, CopyFile function [Files], CopyFileA, CopyFileW, _win32_copyfile, base.copyfile, fs.copyfile, winbase/CopyFile, winbase/CopyFileA, winbase/CopyFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1geometrysink_addarc.htm
 tech.root: direct2d
 ms.assetid: 845fed36-8425-45fd-a12e-7537e5ba3c4f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: AddArc, AddArc methods [Direct2D], ID2D1GeometrySink.AddArc, ID2D1GeometrySink.AddArc(const D2D1_ARC_SEGMENT), ID2D1GeometrySink::AddArc, ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT), d2d1/AddArc, direct2d.id2d1geometrysink_addarc
 ms.prod: windows-hardware
 ms.technology: windows-devices

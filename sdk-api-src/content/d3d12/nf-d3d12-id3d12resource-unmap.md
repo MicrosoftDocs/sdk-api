@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_unmap.htm
 tech.root: direct3d12
 ms.assetid: EB0E3936-47CC-4FDC-BF17-A506AC8E4C15
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D12Resource interface,Unmap method, ID3D12Resource.Unmap, ID3D12Resource::Unmap, Unmap, Unmap method, Unmap method,ID3D12Resource interface, d3d12/ID3D12Resource::Unmap, direct3d12.id3d12resource_unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ Refer to the extensive Remarks and Examples for the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn705766(v=VS.85).aspx">Subresources</a>
+<a href="https://msdn.microsoft.com/C4F92F8A-DBF0-412B-8707-CC4C1BF2D88F">Subresources</a>
  
 
  

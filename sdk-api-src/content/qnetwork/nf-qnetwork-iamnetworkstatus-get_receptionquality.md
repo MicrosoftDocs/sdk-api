@@ -7,7 +7,7 @@ old-location: dshow\iamnetworkstatus_get_receptionquality.htm
 tech.root: DirectShow
 ms.assetid: 6c80f874-c176-4e52-acc9-26c10fac08d9
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceptionQuality method, IAMNetworkStatus.get_ReceptionQuality, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceptionQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices

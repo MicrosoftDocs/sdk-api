@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_FillGeometry.htm
 tech.root: direct2d
 ms.assetid: 097f21ac-a062-4ce1-bdc7-87317dbdf5be
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: FillGeometry, FillGeometry method [Direct2D], FillGeometry method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillGeometry method, ID2D1RenderTarget.FillGeometry, ID2D1RenderTarget::FillGeometry, d2d1/ID2D1RenderTarget::FillGeometry, direct2d.ID2D1RenderTarget_FillGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

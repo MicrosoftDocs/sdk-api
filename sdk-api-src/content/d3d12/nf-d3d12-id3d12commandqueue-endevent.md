@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_endevent.htm
 tech.root: direct3d12
 ms.assetid: CA45061A-3DD6-4FFB-9723-ED33343052F3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: EndEvent, EndEvent method, EndEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,EndEvent method, ID3D12CommandQueue.EndEvent, ID3D12CommandQueue::EndEvent, d3d12/ID3D12CommandQueue::EndEvent, direct3d12.id3d12commandqueue_endevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ To mark the end of an instrumentation region at the current location within a D3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788627(v=VS.85).aspx">ID3D12CommandQueue</a>
+<a href="https://msdn.microsoft.com/88A4E8BA-02B9-48A1-8E46-2D2560544539">ID3D12CommandQueue</a>
  
 
  

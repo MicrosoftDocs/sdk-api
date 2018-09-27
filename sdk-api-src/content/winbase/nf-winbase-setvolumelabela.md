@@ -4,10 +4,10 @@ title: SetVolumeLabelA function
 author: windows-sdk-content
 description: Sets the label of a file system volume.
 old-location: fs\setvolumelabel.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, SetVolumeLabelW, _win32_setvolumelabel, base.setvolumelabel, fs.setvolumelabel, winbase/SetVolumeLabel, winbase/SetVolumeLabelA, winbase/SetVolumeLabelW
 ms.prod: windows-hardware
 ms.technology: windows-devices

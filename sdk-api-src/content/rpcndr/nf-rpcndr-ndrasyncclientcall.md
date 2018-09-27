@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="https://msdn.microsoft.com/">/Oi</a> and <b>/Oic</b> mode stub.
+The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oi</a> and <b>/Oic</b> mode stub.
 
 
 ## -parameters

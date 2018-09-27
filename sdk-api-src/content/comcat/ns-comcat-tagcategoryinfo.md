@@ -7,7 +7,7 @@ old-location: com\categoryinfo.htm
 tech.root: com
 ms.assetid: a5f0cb04-595d-4388-8943-79b9da76022b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_categoryinfo_structure, com.categoryinfo, comcat/CATEGORYINFO, tagCATEGORYINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The category identifier for the component.
 
 ### -field lcid
 
-The locale identifier. See <a href="https://msdn.microsoft.com/en-us/library/Dd318693(v=VS.85).aspx">Language Identifier Constants and Strings</a>.
+The locale identifier. See <a href="https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a">Language Identifier Constants and Strings</a>.
 
 
 ### -field szDescription
@@ -79,7 +79,7 @@ The description of the category (cannot exceed 128 characters).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680737(v=VS.85).aspx">ICatRegister</a>
+<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
  
 
  

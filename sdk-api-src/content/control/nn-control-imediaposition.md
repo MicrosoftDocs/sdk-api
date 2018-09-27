@@ -7,7 +7,7 @@ old-location: dshow\imediaposition.htm
 tech.root: DirectShow
 ms.assetid: 325dd9a4-80ca-43e3-9ff8-473df1b833e9
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], IMediaPosition interface [DirectShow],described, IMediaPositionInterface, control/IMediaPosition, dshow.imediaposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.redist:
 The <b>IMediaPosition</b> interface contains methods for seeking to a position within a stream. 
 
 
-<div class="alert"><b>Note</b>  Applications should use <a href="https://msdn.microsoft.com/en-us/library/Dd407023(v=VS.85).aspx">IMediaSeeking</a> instead of <b>IMediaPosition</b>. </div>
+<div class="alert"><b>Note</b>  Applications should use <a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking</a> instead of <b>IMediaPosition</b>. </div>
 <div> </div>
 
 
@@ -70,9 +70,9 @@ If one of the distributed calls returns an error, the Filter Graph Manager retur
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaPosition</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMediaPosition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaPosition</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMediaPosition</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -85,7 +85,7 @@ The <b>IMediaPosition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406978(v=VS.85).aspx">CanSeekBackward</a>
+<a href="https://msdn.microsoft.com/8152553a-173b-4f0b-bcdf-b9c20912921d">CanSeekBackward</a>
 </td>
 <td align="left" width="63%">
 Determines whether the filter graph can seek backward in the stream.
@@ -94,7 +94,7 @@ Determines whether the filter graph can seek backward in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406980(v=VS.85).aspx">CanSeekForward</a>
+<a href="https://msdn.microsoft.com/0647d629-79f0-4c62-a346-8d99646469c6">CanSeekForward</a>
 </td>
 <td align="left" width="63%">
 Determines whether the filter graph can seek forward in the stream.
@@ -103,7 +103,7 @@ Determines whether the filter graph can seek forward in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406984(v=VS.85).aspx">get_CurrentPosition</a>
+<a href="https://msdn.microsoft.com/96f4d621-c618-49fa-a0f6-bcc68a41467e">get_CurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current position, relative to the total duration of the stream.
@@ -112,7 +112,7 @@ Retrieves the current position, relative to the total duration of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406985(v=VS.85).aspx">get_Duration</a>
+<a href="https://msdn.microsoft.com/9971ca0e-a16d-4227-9efa-c965d501e6ef">get_Duration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the duration of the stream.
@@ -121,7 +121,7 @@ Retrieves the duration of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406986(v=VS.85).aspx">get_PrerollTime</a>
+<a href="https://msdn.microsoft.com/3cfe9ba0-0138-4847-81ab-ea1e96e2c3a8">get_PrerollTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of data that will be queued before the start position.
@@ -130,7 +130,7 @@ Retrieves the amount of data that will be queued before the start position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406987(v=VS.85).aspx">get_Rate</a>
+<a href="https://msdn.microsoft.com/dbe18522-6adc-4a55-b74a-db05f619d40a">get_Rate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the playback rate.
@@ -139,7 +139,7 @@ Retrieves the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406988(v=VS.85).aspx">get_StopTime</a>
+<a href="https://msdn.microsoft.com/6139ebb2-fad8-4394-9a5f-4753ca9fb143">get_StopTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the time at which the playback will stop, relative to the duration of the stream.
@@ -148,7 +148,7 @@ Retrieves the time at which the playback will stop, relative to the duration of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406991(v=VS.85).aspx">put_CurrentPosition</a>
+<a href="https://msdn.microsoft.com/6af44ce9-91d3-4329-835a-a1249924d672">put_CurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the current position, relative to the total duration of the stream.
@@ -157,7 +157,7 @@ Sets the current position, relative to the total duration of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406992(v=VS.85).aspx">put_PrerollTime</a>
+<a href="https://msdn.microsoft.com/a09e6e9f-7e6f-4e53-b805-ee4b9d97f4e7">put_PrerollTime</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of data that will be queued before the start position.
@@ -166,7 +166,7 @@ Sets the amount of data that will be queued before the start position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406993(v=VS.85).aspx">put_Rate</a>
+<a href="https://msdn.microsoft.com/fba6bb5a-6709-41e6-bf76-182c88ee42e3">put_Rate</a>
 </td>
 <td align="left" width="63%">
 Sets the playback rate.
@@ -175,7 +175,7 @@ Sets the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406994(v=VS.85).aspx">put_StopTime</a>
+<a href="https://msdn.microsoft.com/c068310e-4083-46ac-8ec6-3d57976f4a88">put_StopTime</a>
 </td>
 <td align="left" width="63%">
 Sets the time at which the playback will stop, relative to the duration of the stream.
@@ -190,7 +190,7 @@ Sets the time at which the playback will stop, relative to the duration of the s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

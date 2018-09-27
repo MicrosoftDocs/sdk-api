@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_setheader.htm
 tech.root: Intl
 ms.assetid: 8666DDE7-D90E-4423-984B-EF526FC34320
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],SetHeader method, IFEDictionary.SetHeader, IFEDictionary::SetHeader, SetHeader, SetHeader method [Internationalization for Windows Applications], SetHeader method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_setheader, msime/IFEDictionary::SetHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

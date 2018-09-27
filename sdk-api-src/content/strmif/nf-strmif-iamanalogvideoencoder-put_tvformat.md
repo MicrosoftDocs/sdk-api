@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideoencoder_put_tvformat.htm
 tech.root: DirectShow
 ms.assetid: 76109fa1-2f7a-4538-9755-6e2de5852d4b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_TVFormat method, IAMAnalogVideoEncoder.put_TVFormat, IAMAnalogVideoEncoder::put_TVFormat, IAMAnalogVideoEncoderput_TVFormat, dshow.iamanalogvideoencoder_put_tvformat, put_TVFormat, put_TVFormat method [DirectShow], put_TVFormat method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_TVFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

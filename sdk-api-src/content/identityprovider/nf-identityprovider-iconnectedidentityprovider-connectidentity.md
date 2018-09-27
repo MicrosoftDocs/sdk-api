@@ -7,7 +7,7 @@ old-location: security\iconnectedidentityprovider_connectidentity.htm
 tech.root: secauthn
 ms.assetid: 945CBE34-E364-41FF-8CE4-0FB0BEF3BC69
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ConnectIdentity, ConnectIdentity method [Security], ConnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],ConnectIdentity method, IConnectedIdentityProvider.ConnectIdentity, IConnectedIdentityProvider::ConnectIdentity, identityprovider/IConnectedIdentityProvider::ConnectIdentity, security.iconnectedidentityprovider_connectidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

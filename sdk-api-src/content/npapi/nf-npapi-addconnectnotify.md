@@ -7,7 +7,7 @@ old-location: security\addconnectnotify.htm
 tech.root: secauthn
 ms.assetid: a061b088-81ca-4276-a0d6-9f1d1282a039
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: AddConnectNotify, AddConnectNotify function [Security], _mnp_addconnectnotify, npapi/AddConnectNotify, security.addconnectnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

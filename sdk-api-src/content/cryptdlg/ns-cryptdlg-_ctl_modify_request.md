@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certificate trust list (CTL).  This structure is used in the <a href="https://msdn.microsoft.com/en-us/library/Aa376554(v=VS.85).aspx">CertModifyCertificatesToTrust</a> function.
+The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certificate trust list (CTL).  This structure is used in the <a href="https://msdn.microsoft.com/a23d968e-113f-470e-a629-18c22882c77f">CertModifyCertificatesToTrust</a> function.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certifica
 
 ### -field pccert
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
+A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
 
 
 ### -field dwOperation
@@ -117,7 +117,7 @@ The error code generated for this operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376554(v=VS.85).aspx">CertModifyCertificatesToTrust</a>
+<a href="https://msdn.microsoft.com/a23d968e-113f-470e-a629-18c22882c77f">CertModifyCertificatesToTrust</a>
  
 
  

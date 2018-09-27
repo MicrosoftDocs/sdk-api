@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_dpicompensation_prop.htm
 tech.root: direct2d
 ms.assetid: B8956D69-B014-49EA-BCBA-5AE9DC051A5A
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D2D1_DPICOMPENSATION_PROP, D2D1_DPICOMPENSATION_PROP enumeration [Direct2D], D2D1_DPICOMPENSATION_PROP_BORDER_MODE, D2D1_DPICOMPENSATION_PROP_INPUT_DPI, D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP, d2d1effects/D2D1_DPICOMPENSATION_PROP_BORDER_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP_INPUT_DPI, d2d1effects/D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, direct2d.d2d1_dpicompensation_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh780341(v=VS.85).aspx">DPI compensation effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/EA8AD89B-A710-468F-A6F3-474DA29586F1">DPI compensation effect</a>.
         
 
 
@@ -64,7 +64,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/libr
 The interpolation mode the effect uses to scale the image.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934243(v=VS.85).aspx">D2D1_DPICOMPENSATION_INTERPOLATION_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/D47BE47D-09E3-46A5-8D89-884102EDEA9A">D2D1_DPICOMPENSATION_INTERPOLATION_MODE</a>.
 
 The default value is D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR.
 
@@ -74,7 +74,7 @@ The default value is D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR.
 The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 

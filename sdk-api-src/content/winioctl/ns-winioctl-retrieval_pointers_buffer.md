@@ -4,10 +4,10 @@ title: RETRIEVAL_POINTERS_BUFFER
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTERS control code.
 old-location: fs\retrieval_pointers_buffer_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: ce6ac9c7-6fce-4019-83cf-2f0250d12339
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PRETRIEVAL_POINTERS_BUFFER, PRETRIEVAL_POINTERS_BUFFER, PRETRIEVAL_POINTERS_BUFFER structure pointer [Files], RETRIEVAL_POINTERS_BUFFER, RETRIEVAL_POINTERS_BUFFER structure [Files], _win32_retrieval_pointers_buffer_str, base.retrieval_pointers_buffer_str, fs.retrieval_pointers_buffer_str, winioctl/PRETRIEVAL_POINTERS_BUFFER, winioctl/RETRIEVAL_POINTERS_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

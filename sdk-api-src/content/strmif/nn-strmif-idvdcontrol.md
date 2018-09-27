@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol.htm
 tech.root: DirectShow
 ms.assetid: a6ca0fe8-84e3-43e6-9421-29dcff056dfd
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], IDvdControl interface [DirectShow],described, IDvdControlInterface, dshow.idvdcontrol, strmif/IDvdControl
 ms.prod: windows
 ms.technology: windows-sdk

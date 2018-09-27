@@ -7,7 +7,7 @@ old-location: dshow\vmrdeinterlacecaps.htm
 tech.root: DirectShow
 ms.assetid: e6152130-d574-4c9e-9d35-a42de709f9ae
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: VMRDeinterlaceCaps, VMRDeinterlaceCaps structure [DirectShow], VMRDeinterlaceCapsStructure, _VMRDeinterlaceCaps, dshow.vmrdeinterlacecaps, strmif/VMRDeinterlaceCaps
 ms.prod: windows
 ms.technology: windows-sdk

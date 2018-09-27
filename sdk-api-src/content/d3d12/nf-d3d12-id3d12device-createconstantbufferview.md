@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createconstantbufferview.htm
 tech.root: direct3d12
 ms.assetid: 13251F82-4AE9-4234-A0C8-0E666F8A1856
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CreateConstantBufferView, CreateConstantBufferView method, CreateConstantBufferView method,ID3D12Device interface, ID3D12Device interface,CreateConstantBufferView method, ID3D12Device.CreateConstantBufferView, ID3D12Device::CreateConstantBufferView, d3d12/ID3D12Device::CreateConstantBufferView, direct3d12.id3d12device_createconstantbufferview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,15 +60,15 @@ Creates a constant-buffer view for accessing resource data.
 
 ### -param pDesc [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn770351(v=VS.85).aspx">D3D12_CONSTANT_BUFFER_VIEW_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/83A4522E-AE87-42CE-9B95-CF63E92556AD">D3D12_CONSTANT_BUFFER_VIEW_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn770351(v=VS.85).aspx">D3D12_CONSTANT_BUFFER_VIEW_DESC</a> structure that describes the constant-buffer view.
+A pointer to a <a href="https://msdn.microsoft.com/83A4522E-AE87-42CE-9B95-CF63E92556AD">D3D12_CONSTANT_BUFFER_VIEW_DESC</a> structure that describes the constant-buffer view.
           
 
 
 ### -param DestDescriptor [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn859369(v=VS.85).aspx">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Describes the CPU descriptor handle that represents the start of the heap that holds the constant-buffer view.
           
@@ -89,7 +89,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
  
 
  

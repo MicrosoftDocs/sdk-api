@@ -4,10 +4,10 @@ title: WofEnumEntries function
 author: windows-sdk-content
 description: Enumerates all the data sources from a specified provider for a specified volume.
 old-location: fs\wofenumentries.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: D6BCBFC1-C916-43E3-BB6A-E8EB6467850B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries, wofapi/WofEnumEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

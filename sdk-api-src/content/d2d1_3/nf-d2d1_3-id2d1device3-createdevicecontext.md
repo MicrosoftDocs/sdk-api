@@ -7,7 +7,7 @@ old-location: direct2d\id2d1device3_createdevicecontext.htm
 tech.root: direct2d
 ms.assetid: DA82C681-7A9B-42A4-AC02-CD8ACFDB7F0E
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device3 interface, ID2D1Device3 interface [Direct2D],CreateDeviceContext method, ID2D1Device3.CreateDeviceContext, ID2D1Device3::CreateDeviceContext, d2d1_3/ID2D1Device3::CreateDeviceContext, direct2d.id2d1device3_createdevicecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

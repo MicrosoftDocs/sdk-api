@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_huerotation_prop.htm
 tech.root: direct2d
 ms.assetid: 4283B5E4-9B90-41E0-91A5-1122B2F91C25
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D2D1_HUEROTATION_PROP, D2D1_HUEROTATION_PROP enumeration [Direct2D], D2D1_HUEROTATION_PROP_ANGLE, d2d1effects/D2D1_HUEROTATION_PROP, d2d1effects/D2D1_HUEROTATION_PROP_ANGLE, direct2d.d2d1_huerotation_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706342(v=VS.85).aspx">Hue rotate effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/D322DB2C-2B8B-4101-BFB2-97E49CAC7BF6">Hue rotate effect</a>.
 
 
 ## -enum-fields

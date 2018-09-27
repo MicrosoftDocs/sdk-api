@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Optional flags that control the behavior of <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
+Optional flags that control the behavior of <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a>.
 
 
 ## -enum-fields
@@ -68,7 +68,7 @@ Do not flush the command buffer. This can potentially cause an infinite loop if 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

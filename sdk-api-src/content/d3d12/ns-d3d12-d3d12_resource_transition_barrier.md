@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_transition_barrier.htm
 tech.root: direct3d12
 ms.assetid: 52C21198-827A-4E75-ADB8-DCA0204A4469
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D3D12_RESOURCE_TRANSITION_BARRIER, D3D12_RESOURCE_TRANSITION_BARRIER structure, d3d12/D3D12_RESOURCE_TRANSITION_BARRIER, direct3d12.d3d12_resource_transition_barrier
 ms.prod: windows
 ms.technology: windows-sdk

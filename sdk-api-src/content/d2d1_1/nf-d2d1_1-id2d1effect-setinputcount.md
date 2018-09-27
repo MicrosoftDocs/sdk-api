@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effect_setnumberofinputs.htm
 tech.root: direct2d
 ms.assetid: cdcaa997-acbe-40e3-9439-629b3853d8d4
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID2D1Effect interface [Direct2D],SetInputCount method, ID2D1Effect.SetInputCount, ID2D1Effect::SetInputCount, SetInputCount, SetInputCount method [Direct2D], SetInputCount method [Direct2D],ID2D1Effect interface, d2d1_1/ID2D1Effect::SetInputCount, direct2d.id2d1effect_setnumberofinputs
 ms.prod: windows-hardware
 ms.technology: windows-devices

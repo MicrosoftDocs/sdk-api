@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_getbuffersize.htm
 tech.root: CoreAudio
 ms.assetid: 562d2db6-ae14-47c9-8b8f-d4d90072b3dd
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetBufferSize, GetBufferSize method [Core Audio], GetBufferSize method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetBufferSize method, IAudioClient.GetBufferSize, IAudioClient::GetBufferSize, IAudioClientGetBufferSize, audioclient/IAudioClient::GetBufferSize, coreaudio.iaudioclient_getbuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

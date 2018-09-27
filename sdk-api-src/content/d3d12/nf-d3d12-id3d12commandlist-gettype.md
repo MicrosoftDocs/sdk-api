@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandlist_gettype.htm
 tech.root: direct3d12
 ms.assetid: 39F9EF96-9761-410A-B5DD-A088F6863923
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetType, GetType method, GetType method,ID3D12CommandList interface, ID3D12CommandList interface,GetType method, ID3D12CommandList.GetType, ID3D12CommandList::GetType, d3d12/ID3D12CommandList::GetType, direct3d12.id3d12commandlist_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices

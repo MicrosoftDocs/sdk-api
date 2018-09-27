@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2d_dsv.htm
 tech.root: direct3d12
 ms.assetid: CA6D824D-48EF-4D13-BC13-11B3E0571BC1
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D3D12_TEX2D_DSV, D3D12_TEX2D_DSV structure, d3d12/D3D12_TEX2D_DSV, direct3d12.d3d12_tex2d_dsv
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiohrtfdirectivitycardioid.htm
 tech.root: CoreAudio
 ms.assetid: 71E2E152-14DC-472B-B582-82D4412EAA85
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: PSpatialAudioHrtfDirectivityCardioid, PSpatialAudioHrtfDirectivityCardioid structure pointer [Core Audio], SpatialAudioHrtfDirectivityCardioid, SpatialAudioHrtfDirectivityCardioid structure [Core Audio], coreaudio.spatialaudiohrtfdirectivitycardioid, spatialaudiohrtf/PSpatialAudioHrtfDirectivityCardioid, spatialaudiohrtf/SpatialAudioHrtfDirectivityCardioid
 ms.prod: windows
 ms.technology: windows-sdk

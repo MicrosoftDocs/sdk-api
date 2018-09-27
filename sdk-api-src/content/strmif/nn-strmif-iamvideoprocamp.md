@@ -7,7 +7,7 @@ old-location: dshow\iamvideoprocamp.htm
 tech.root: DirectShow
 ms.assetid: 28c45790-2e5a-4acb-8a53-93f19c51dc6a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], IAMVideoProcAmp interface [DirectShow],described, IAMVideoProcAmpInterface, dshow.iamvideoprocamp, strmif/IAMVideoProcAmp
 ms.prod: windows
 ms.technology: windows-sdk

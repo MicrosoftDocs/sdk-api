@@ -7,7 +7,7 @@ old-location: dshow\am_wst_state.htm
 tech.root: DirectShow
 ms.assetid: b6548144-7e18-4d5d-9243-51eb7db9821b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*PAM_WST_STATE, AM_WST_STATE, AM_WST_STATE , AM_WST_STATE enumeration [DirectShow], AM_WST_STATEEnumeration, AM_WST_STATE_Off, AM_WST_STATE_On, PAM_WST_STATE, PAM_WST_STATE enumeration pointer [DirectShow], _AM_WST_STATE, dshow.am_wst_state, iwstdec/AM_WST_STATE, iwstdec/AM_WST_STATE_Off, iwstdec/AM_WST_STATE_On, iwstdec/PAM_WST_STATE"
 ms.prod: windows
 ms.technology: windows-sdk

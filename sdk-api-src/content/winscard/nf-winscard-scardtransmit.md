@@ -7,7 +7,7 @@ old-location: security\scardtransmit.htm
 tech.root: secauthn
 ms.assetid: d0c16b67-34e7-4872-aa36-79dcad19093e
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: SCardTransmit, SCardTransmit function [Security], _smart_scardtransmit, bCla, bIns, bP1,bP2, bP3, security.scardtransmit, winscard/SCardTransmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,9 +81,13 @@ A pointer to the actual data to be written to the card.
 
 For T=0, the data parameters are placed into the address pointed to by <i>pbSendBuffer</i> according to the following structure:
 
-
-```cpp
-struct {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>struct {
     BYTE
         bCla,   // the instruction class
         bIns,   // the instruction code 
@@ -91,10 +95,10 @@ struct {
         bP2,    // parameter to the instruction
         bP3;    // size of I/O transfer
 } CmdBytes;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 The data sent to the card should immediately follow the send buffer. In the special case where no data is sent to the card and no data is expected in return, <b>bP3</b> is not sent.
 
@@ -191,7 +195,7 @@ For T=0, the receive buffer must be at least two bytes long to receive the SW1 a
 If the function successfully sends a service request to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 
 
@@ -212,9 +216,13 @@ For the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f
 
 The following example  shows sending a service request to the smart card.
 
-
-```cpp
-//  Transmit the request.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Transmit the request.
 //  lReturn is of type LONG.
 //  hCardHandle was set by a previous call to SCardConnect.
 //  pbSend points to the buffer of bytes to send.
@@ -227,16 +235,16 @@ lReturn = SCardTransmit(hCardHandle,
                         dwSend,
                         NULL,
                         pbRecv,
-                        &dwRecv );
+                        &amp;dwRecv );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardTransmit\n");
     exit(1);   // or other appropriate error action
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

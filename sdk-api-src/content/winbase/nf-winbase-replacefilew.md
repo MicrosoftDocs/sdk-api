@@ -4,10 +4,10 @@ title: ReplaceFileW function
 author: windows-sdk-content
 description: Replaces one file with another file, with the option of creating a backup copy of the original file.
 old-location: fs\replacefile.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 23402a71-e945-4891-9815-c75e57051501
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: REPLACEFILE_IGNORE_ACL_ERRORS, REPLACEFILE_IGNORE_MERGE_ERRORS, REPLACEFILE_WRITE_THROUGH, ReplaceFile, ReplaceFile function [Files], ReplaceFileA, ReplaceFileW, _win32_replacefile, base.replacefile, fs.replacefile, winbase/ReplaceFile, winbase/ReplaceFileA, winbase/ReplaceFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

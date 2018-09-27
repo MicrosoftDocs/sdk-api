@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_put_frequencydivider.htm
 tech.root: DirectShow
 ms.assetid: 96e5d8f3-b658-408d-a615-e681d8731442
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_FrequencyDivider method, IMpegAudioDecoder.put_FrequencyDivider, IMpegAudioDecoder::put_FrequencyDivider, IMpegAudioDecoderputFrequencyDivider, dshow.impegaudiodecoder_put_frequencydivider, mpegtype/IMpegAudioDecoder::put_FrequencyDivider, put_FrequencyDivider, put_FrequencyDivider method [DirectShow], put_FrequencyDivider method [DirectShow],IMpegAudioDecoder interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

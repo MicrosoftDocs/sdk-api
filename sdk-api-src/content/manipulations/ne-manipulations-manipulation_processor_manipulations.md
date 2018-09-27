@@ -99,19 +99,23 @@ Use this enumeration with the <a href="https://msdn.microsoft.com/1909394f-83ec-
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
         CoInitialize(0);
 
         hr = spIManipProc.CoCreateInstance(CLSID_ManipulationProcessor, NULL, CLSCTX_ALL);
 
         MANIPULATION_PROCESSOR_MANIPULATIONS mpm;
-        spIManipProc->get_SupportedManipulations(&mpm);    
-        
-```
-
-
+        spIManipProc-&gt;get_SupportedManipulations(&amp;mpm);    
+        </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

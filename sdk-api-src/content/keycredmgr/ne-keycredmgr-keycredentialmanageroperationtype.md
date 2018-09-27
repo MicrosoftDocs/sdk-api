@@ -7,7 +7,7 @@ old-location: security\keycredentialmanageroperationtype.htm
 tech.root: secauthn
 ms.assetid: 871DA6A2-0033-4863-B37E-C75ADD512C3A
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: KeyCredentialManagerOperationType, KeyCredentialManagerOperationType enumeration [Security], KeyCredentialManagerPinChange, KeyCredentialManagerPinReset, KeyCredentialManagerProvisioning, keycredmgr/KeyCredentialManagerOperationType, keycredmgr/KeyCredentialManagerPinChange, keycredmgr/KeyCredentialManagerPinReset, keycredmgr/KeyCredentialManagerProvisioning, security.keycredentialmanageroperationtype
 ms.prod: windows
 ms.technology: windows-sdk

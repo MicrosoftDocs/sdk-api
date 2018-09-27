@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_acceptparentallevelchange.htm
 tech.root: DirectShow
 ms.assetid: a990544e-6600-44b1-91f2-8b88fa43ccaf
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: AcceptParentalLevelChange, AcceptParentalLevelChange method [DirectShow], AcceptParentalLevelChange method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],AcceptParentalLevelChange method, IDvdControl2.AcceptParentalLevelChange, IDvdControl2::AcceptParentalLevelChange, IDvdControl2AcceptParentalLevelChange, dshow.idvdcontrol2_acceptparentallevelchange, strmif/IDvdControl2::AcceptParentalLevelChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

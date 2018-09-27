@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transformgraph_setpassthroughgraph.htm
 tech.root: direct2d
 ms.assetid: 719F7C82-31D7-40A0-BD5C-59F97F0002F9
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],SetPassthroughGraph method, ID2D1TransformGraph.SetPassthroughGraph, ID2D1TransformGraph::SetPassthroughGraph, SetPassthroughGraph, SetPassthroughGraph method [Direct2D], SetPassthroughGraph method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::SetPassthroughGraph, direct2d.id2d1transformgraph_setpassthroughgraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

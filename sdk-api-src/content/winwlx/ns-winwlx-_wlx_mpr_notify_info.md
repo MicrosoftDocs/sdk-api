@@ -7,7 +7,7 @@ old-location: security\wlx_mpr_notify_info.htm
 tech.root: secauthn
 ms.assetid: 68098b26-c58d-45fb-aebe-780a73cded80
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWLX_MPR_NOTIFY_INFO, PWLX_MPR_NOTIFY_INFO, PWLX_MPR_NOTIFY_INFO structure pointer [Security], WLX_MPR_NOTIFY_INFO, WLX_MPR_NOTIFY_INFO structure [Security], _WLX_MPR_NOTIFY_INFO, _gina_wlx_mpr_notify_info, security.wlx_mpr_notify_info, winwlx/PWLX_MPR_NOTIFY_INFO, winwlx/WLX_MPR_NOTIFY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

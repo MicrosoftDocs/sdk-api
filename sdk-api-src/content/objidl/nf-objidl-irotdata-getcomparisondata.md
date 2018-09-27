@@ -7,7 +7,7 @@ old-location: com\irotdata_getcomparisondata.htm
 tech.root: com
 ms.assetid: e7f2d3a6-2517-47bc-aa6a-509d72881a0b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetComparisonData, GetComparisonData method [COM], GetComparisonData method [COM],IROTData interface, IROTData interface [COM],GetComparisonData method, IROTData.GetComparisonData, IROTData::GetComparisonData, _com_irotdata_getcomparisondata, com.irotdata_getcomparisondata, objidl/IROTData::GetComparisonData
 ms.prod: windows-hardware
 ms.technology: windows-devices

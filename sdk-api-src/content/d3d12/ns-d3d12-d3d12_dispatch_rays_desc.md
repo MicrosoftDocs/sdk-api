@@ -1,0 +1,118 @@
+---
+UID: NS:d3d12.D3D12_DISPATCH_RAYS_DESC
+title: D3D12_DISPATCH_RAYS_DESC
+author: windows-sdk-content
+description: Describes the properties of a ray dispatch operation initiated with a call to ID3D12GraphicsCommandList4::DispatchRays.
+old-location: direct3d12\d3d12_dispatch_rays_desc.htm
+tech.root: direct3d12
+ms.assetid: F1DDFA33-A880-4AA2-AB44-43A78F086F19
+ms.author: windowssdkdev
+ms.date: 09/26/2018
+ms.keywords: D3D12_DISPATCH_RAYS_DESC, D3D12_DISPATCH_RAYS_DESC structure, PD3D12_DISPATCH_RAYS_DESC, PD3D12_DISPATCH_RAYS_DESC structure pointer, d3d12/D3D12_DISPATCH_RAYS_DESC, d3d12/PD3D12_DISPATCH_RAYS_DESC, direct3d12.d3d12_dispatch_rays_desc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_DISPATCH_RAYS_DESC
+product: Windows
+targetos: Windows
+req.typenames: D3D12_DISPATCH_RAYS_DESC
+req.redist: 
+---
+
+# D3D12_DISPATCH_RAYS_DESC structure
+
+
+## -description
+
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+Describes the properties of a ray dispatch operation initiated with a call to <a href="direct3d12.id3d12graphicscommandlist4_dispatchrays">ID3D12GraphicsCommandList4::DispatchRays</a>.
+
+
+## -struct-fields
+
+
+
+
+### -field RayGenerationShaderRecord
+
+The shader record for the ray generation shader to use.  
+
+The memory pointed to must be in state <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  
+
+The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
+
+
+### -field MissShaderTable
+
+The shader table for miss shaders.
+
+The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>. 0 is allowed.
+
+The memory pointed to must be in state <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  
+
+The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
+
+
+### -field HitGroupTable
+
+The shader table for hit groups.
+
+The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>. 0 is allowed.
+
+The memory pointed to must be in state <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  
+
+The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
+
+
+### -field CallableShaderTable
+
+The shader table for callable shaders.
+
+The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>. 0 is allowed.
+
+The memory pointed to must be in state <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  
+
+The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
+
+
+### -field Width
+
+The width of the generation shader thread grid.
+
+
+### -field Height
+
+The height of the generation shader thread grid.
+
+
+### -field Depth
+
+The depth of the generation shader thread grid.
+

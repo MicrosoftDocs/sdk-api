@@ -7,7 +7,7 @@ old-location: security\keycredentialmanagerfreeinformation.htm
 tech.root: secauthn
 ms.assetid: CE89671C-C70D-49C0-AA22-E39EEAA310D7
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: KeyCredentialManagerFreeInformation, KeyCredentialManagerFreeInformation function [Security], keycredmgr/KeyCredentialManagerFreeInformation, security.keycredentialmanagerfreeinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_flood_prop.htm
 tech.root: direct2d
 ms.assetid: C8132218-70A8-4242-9D10-A2FD08099DD3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D2D1_FLOOD_PROP, D2D1_FLOOD_PROP enumeration [Direct2D], D2D1_FLOOD_PROP_COLOR, d2d1effects/D2D1_FLOOD_PROP, d2d1effects/D2D1_FLOOD_PROP_COLOR, direct2d.d2d1_flood_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706336(v=VS.85).aspx">Flood effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/F80A6DC0-E18C-4324-BE4A-FE40C5722988">Flood effect</a>.
         
 
 

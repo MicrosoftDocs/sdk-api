@@ -7,7 +7,7 @@ old-location: com\iolecontrol.htm
 tech.root: com
 ms.assetid: ef85dce6-b680-4a72-9277-4cfdab27cbbc
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [COM],described, _ctrl_iolecontrol, com.iolecontrol, ocidl/IOleControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Provides the features for supporting keyboard mnemonics, ambient properties, and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleControl</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

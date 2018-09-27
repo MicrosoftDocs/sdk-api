@@ -4,10 +4,10 @@ title: GetFileType function
 author: windows-sdk-content
 description: Retrieves the file type of the specified file.
 old-location: fs\getfiletype.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFileType, GetFileType function [Files], _win32_getfiletype, base.getfiletype, fileapi/GetFileType, fs.getfiletype, winbase/GetFileType
 ms.prod: windows-hardware
 ms.technology: windows-devices

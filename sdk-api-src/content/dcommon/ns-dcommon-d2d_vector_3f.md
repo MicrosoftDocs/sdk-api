@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_vector_3f.htm
 tech.root: direct2d
 ms.assetid: 469A4FFC-6B5B-4C88-B6A5-23AFD41B885A
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D2D1_VECTOR_3F, D2D1_VECTOR_3F structure [Direct2D], D2D_VECTOR_3F, d2d1_1/D2D1_VECTOR_3F, dcommon/D2D1_VECTOR_3F, direct2d.d2d1_vector_3f
 ms.prod: windows
 ms.technology: windows-sdk

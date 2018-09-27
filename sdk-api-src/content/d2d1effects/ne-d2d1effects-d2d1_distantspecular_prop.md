@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_distantspecular_prop.htm
 tech.root: direct2d
 ms.assetid: 66C00620-4209-4837-9305-4B1B1148881A
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: D2D1_DISTANTSPECULAR_PROP, D2D1_DISTANTSPECULAR_PROP enumeration [Direct2D], D2D1_DISTANTSPECULAR_PROP_AZIMUTH, D2D1_DISTANTSPECULAR_PROP_COLOR, D2D1_DISTANTSPECULAR_PROP_ELEVATION, D2D1_DISTANTSPECULAR_PROP_KERNEL_UNIT_LENGTH, D2D1_DISTANTSPECULAR_PROP_SCALE_MODE, D2D1_DISTANTSPECULAR_PROP_SPECULAR_CONSTANT, D2D1_DISTANTSPECULAR_PROP_SPECULAR_EXPONENT, D2D1_DISTANTSPECULAR_PROP_SURFACE_SCALE, d2d1effects/D2D1_DISTANTSPECULAR_PROP, d2d1effects/D2D1_DISTANTSPECULAR_PROP_AZIMUTH, d2d1effects/D2D1_DISTANTSPECULAR_PROP_COLOR, d2d1effects/D2D1_DISTANTSPECULAR_PROP_ELEVATION, d2d1effects/D2D1_DISTANTSPECULAR_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_DISTANTSPECULAR_PROP_SCALE_MODE, d2d1effects/D2D1_DISTANTSPECULAR_PROP_SPECULAR_CONSTANT, d2d1effects/D2D1_DISTANTSPECULAR_PROP_SPECULAR_EXPONENT, d2d1effects/D2D1_DISTANTSPECULAR_PROP_SURFACE_SCALE, direct2d.d2d1_distantspecular_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706332(v=VS.85).aspx">Distant-specular lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/74D71A2D-8D1D-4FDE-898A-2D2F5A8D5D31">Distant-specular lighting effect</a>.
         
 
 

@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_put_rate.htm
 tech.root: DirectShow
 ms.assetid: fba6bb5a-6709-41e6-bf76-182c88ee42e3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_Rate method, IMediaPosition.put_Rate, IMediaPosition::put_Rate, IMediaPositionput_Rate, control/IMediaPosition::put_Rate, dshow.imediaposition_put_rate, put_Rate, put_Rate method [DirectShow], put_Rate method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,7 +123,7 @@ Not implemented.
 
 The playback rate is expressed as a ratio of the normal speed. Thus, 1.0 is normal playback speed, 0.5 is half speed, and 2.0 is twice speed. For audio streams, changing the rate also changes the pitch.
 
-For more information, see the remarks in <a href="https://msdn.microsoft.com/en-us/library/Dd407039(v=VS.85).aspx">IMediaSeeking::SetRate</a>.
+For more information, see the remarks in <a href="https://msdn.microsoft.com/8cd44480-cadb-4b59-9fe7-4a82b3aed15b">IMediaSeeking::SetRate</a>.
 
 
 
@@ -133,11 +133,11 @@ For more information, see the remarks in <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406977(v=VS.85).aspx">IMediaPosition Interface</a>
+<a href="https://msdn.microsoft.com/325dd9a4-80ca-43e3-9ff8-473df1b833e9">IMediaPosition Interface</a>
  
 
  

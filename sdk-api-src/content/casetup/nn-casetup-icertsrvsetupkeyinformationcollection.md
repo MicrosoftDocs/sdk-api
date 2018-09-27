@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-The <b>ICertSrvSetupKeyInformationCollection</b> interface defines functionality to populate and enumerate a collection of <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> objects. Microsoft provides an implementation of this interface in the <b>CCertSrvSetupKeyInformationCollection</b> class. You cannot create an external instance of this interface. You obtain this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb736388(v=VS.85).aspx">GetExistingCACertificates</a> method.
+The <b>ICertSrvSetupKeyInformationCollection</b> interface defines functionality to populate and enumerate a collection of <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> objects. Microsoft provides an implementation of this interface in the <b>CCertSrvSetupKeyInformationCollection</b> class. You cannot create an external instance of this interface. You obtain this interface by calling the <a href="https://msdn.microsoft.com/fd8c7bac-b6db-41f2-a648-e01ebd09c41c">GetExistingCACertificates</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetupKeyInformationCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICertSrvSetupKeyInformationCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetupKeyInformationCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICertSrvSetupKeyInformationCollection</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,10 +71,10 @@ The <b>ICertSrvSetupKeyInformationCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736374(v=VS.85).aspx">Add</a>
+<a href="https://msdn.microsoft.com/8f342787-13f7-4bca-8320-61bb5112ee34">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object to the collection.
+Adds an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object to the collection.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Adds an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736377(v=VS.85).aspx">_NewEnum</a>
+<a href="https://msdn.microsoft.com/80a34341-176d-4040-bc60-79ce81b917b2">_NewEnum</a>
 
 
 </td>
@@ -105,7 +105,7 @@ Gets an enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736375(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/58412a07-7e97-4379-b052-fb7458400be9">Count</a>
 
 
 </td>
@@ -114,14 +114,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the number of <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> objects in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736376(v=VS.85).aspx">Item</a>
+<a href="https://msdn.microsoft.com/2ae3d695-4dfe-4c72-8e66-64dce88c2bb2">Item</a>
 
 
 </td>
@@ -130,7 +130,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object that is identified by index in the collection.
+Gets an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object that is identified by index in the collection.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: security\lsagetlogonsessiondata.htm
 tech.root: secauthn
 ms.assetid: b1478a7a-f508-4b98-8c7b-adeb2f07bb86
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: LsaGetLogonSessionData, LsaGetLogonSessionData function [Security], _lsa_lsagetlogonsessiondata, ntsecapi/LsaGetLogonSessionData, security.lsagetlogonsessiondata
 ms.prod: windows-hardware
 ms.technology: windows-devices

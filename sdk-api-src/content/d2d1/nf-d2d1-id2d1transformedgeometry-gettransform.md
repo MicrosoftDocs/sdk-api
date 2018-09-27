@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1TransformedGeometry_GetTransform.htm
 tech.root: direct2d
 ms.assetid: 9d448af2-49ad-4209-b3a6-b07b40bb3e9d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetTransform, GetTransform method [Direct2D], GetTransform method [Direct2D],ID2D1TransformedGeometry interface, ID2D1TransformedGeometry interface [Direct2D],GetTransform method, ID2D1TransformedGeometry.GetTransform, ID2D1TransformedGeometry::GetTransform, d2d1/ID2D1TransformedGeometry::GetTransform, direct2d.ID2D1TransformedGeometry_GetTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

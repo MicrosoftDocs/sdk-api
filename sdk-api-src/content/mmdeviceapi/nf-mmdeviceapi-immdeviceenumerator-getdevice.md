@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_getdevice.htm
 tech.root: CoreAudio
 ms.assetid: 88cd7acc-a5d7-406d-ac73-bae357ad2ee2
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: GetDevice, GetDevice method [Core Audio], GetDevice method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDevice method, IMMDeviceEnumerator.GetDevice, IMMDeviceEnumerator::GetDevice, IMMDeviceEnumeratorGetDevice, coreaudio.immdeviceenumerator_getdevice, mmdeviceapi/IMMDeviceEnumerator::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

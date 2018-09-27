@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_createcolorcontextfromwiccolorcontext.
 tech.root: direct2d
 ms.assetid: eaa97544-f767-4a46-95bc-528e484fd24f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: CreateColorContextFromWicColorContext, CreateColorContextFromWicColorContext method [Direct2D], CreateColorContextFromWicColorContext method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateColorContextFromWicColorContext method, ID2D1DeviceContext.CreateColorContextFromWicColorContext, ID2D1DeviceContext::CreateColorContextFromWicColorContext, d2d1_1/ID2D1DeviceContext::CreateColorContextFromWicColorContext, direct2d.id2d1devicecontext_createcolorcontextfromwiccolorcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\sizef.htm
 tech.root: direct2d
 ms.assetid: dbb75605-a0ec-464c-bb10-4455a90c4ae9
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: SizeF, SizeF function [Direct2D], d2d1helper/SizeF, direct2d.sizef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368160(v=VS.85).aspx">D2D1_SIZE_F</a> structure that contains the specified width and height.
+Creates a <a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a> structure that contains the specified width and height.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The height of the size. The default value is 0.f.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368160(v=VS.85).aspx">D2D1_SIZE_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a></b>
 
 The new size structure.
 

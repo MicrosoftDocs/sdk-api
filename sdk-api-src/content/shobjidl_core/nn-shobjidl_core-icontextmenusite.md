@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[The only method, <a href="https://msdn.microsoft.com/5601dc9c-e008-4387-b0d3-4cbdf29b7849">DoContextMenuPopup</a>, is no longer available for use as of Windows Server 2003.]
 
-Implemented by the default folder view created using <a href="https://msdn.microsoft.com/f2948a6d-84a5-456b-b328-ba76dba46e9d">SHCreateShellFolderView</a>. An implementation of <b>IContextMenuSite</b> supports <a href="https://msdn.microsoft.com/329fe15b-c1c1-4ffd-812e-9e74451bad6e">IContextMenu::QueryContextMenu</a>,  <a href="https://msdn.microsoft.com/f3aaa84c-3b33-4288-a46a-cd80d3fa89cf">IContextMenu::InvokeCommand</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> and any message forwarding necessary for that function. <b>IContextMenuSite</b> typically updates the status bar as well.
+Implemented by the default folder view created using <a href="https://msdn.microsoft.com/f2948a6d-84a5-456b-b328-ba76dba46e9d">SHCreateShellFolderView</a>. An implementation of <b>IContextMenuSite</b> supports <a href="https://msdn.microsoft.com/329fe15b-c1c1-4ffd-812e-9e74451bad6e">IContextMenu::QueryContextMenu</a>,  <a href="https://msdn.microsoft.com/f3aaa84c-3b33-4288-a46a-cd80d3fa89cf">IContextMenu::InvokeCommand</a>, and <a href="https://msdn.microsoft.com/2e1e4648-e3fd-4d9a-a558-de7b030e3d75">TrackPopupMenu</a> and any message forwarding necessary for that function. <b>IContextMenuSite</b> typically updates the status bar as well.
 
 
 ## -inheritance
@@ -88,19 +88,23 @@ Creates and displays a shortcut menu, tracks the selection of items on that menu
 
 The IID for this interface is <b>IID_IContextMenuSite</b>.
 
-To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
+To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
 
-
-```
-CComPtr<IContextMenuSite> spcms;
-hr = IUnknown_QueryService(_punkSite, SID_SFolderView, IID_PPV_ARGS(&spcms));
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>CComPtr&lt;IContextMenuSite&gt; spcms;
+hr = IUnknown_QueryService(_punkSite, SID_SFolderView, IID_PPV_ARGS(&amp;spcms));
 
 if (SUCCEEDED(hr))
 {
     ...
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

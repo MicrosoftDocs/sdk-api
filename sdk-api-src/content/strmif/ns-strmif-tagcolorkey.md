@@ -7,7 +7,7 @@ old-location: dshow\colorkey.htm
 tech.root: DirectShow
 ms.assetid: 1563488a-e4e5-472d-b665-5bbcb13fad1a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: COLORKEY, COLORKEY structure [DirectShow], COLORKEYStructure, dshow.colorkey, strmif/COLORKEY, tagCOLORKEY
 ms.prod: windows
 ms.technology: windows-sdk

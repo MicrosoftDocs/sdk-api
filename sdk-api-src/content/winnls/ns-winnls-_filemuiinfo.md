@@ -7,7 +7,7 @@ old-location: intl\filemuiinfo.htm
 tech.root: Intl
 ms.assetid: 4c757d19-ac66-4ba4-a691-f575f61961be
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationalization for Windows Applications], PFILEMUIINFO, PFILEMUIINFO structure pointer [Internationalization for Windows Applications], _FILEMUIINFO, _win32_FILEMUIINFO, intl.filemuiinfo, winnls/FILEMUIINFO, winnls/PFILEMUIINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,37 +144,49 @@ All offsets are from the base of the structure. An offset of 0 indicates that th
 
 The following is an example showing how to access data for the position in the structure that is described by an offset. This example accesses the language name string with the position defined by <i>dwLanguageNameOffset</i>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PFILEMUIINFO pFileMUIInfo = NULL;
 
-```cpp
-PFILEMUIINFO pFileMUIInfo = NULL;
+Allocate_pFileMUIInfo_AndPassTo_GetFileMUIInfo(&amp;pFileMUIInfo);
 
-Allocate_pFileMUIInfo_AndPassTo_GetFileMUIInfo(&pFileMUIInfo);
-
-LPWSTR lpszLang = reinterpret_cast<LPWSTR>(reinterpret_cast<BYTE*>(pFileMUIInfo) + pFileMUIInfo->dwLanguageNameOffset);
-
-```
-
-
+LPWSTR lpszLang = reinterpret_cast&lt;LPWSTR&gt;(reinterpret_cast&lt;BYTE*&gt;(pFileMUIInfo) + pFileMUIInfo-&gt;dwLanguageNameOffset);
+</pre>
+</td>
+</tr>
+</table></span></div>
 This example uses two reinterpret casts. First the code casts to BYTE* so the pointer arithmetic for the offset will be done in bytes. Then the code casts the resulting pointer to the desired type.
 
 Alternatively, the code can be written as shown below. The effect is the same; the choice is strictly one of style.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PFILEMUIINFO pFileMUIInfo = NULL;
 
-```cpp
-PFILEMUIINFO pFileMUIInfo = NULL;
+Allocate_pFileMUIInfo_AndPassTo_GetFileMUIInfo(&amp;pFileMUIInfo);
 
-Allocate_pFileMUIInfo_AndPassTo_GetFileMUIInfo(&pFileMUIInfo);
-
-DWORD ix = pFileMUIInfo->dwLanguageNameOffset - offsetof(struct _FILEMUIINFO, abBuffer);
-LPWSTR lpszLang = reinterpret_cast<LPWSTR>(&(pFileMUIInfo->abBuffer[ix]));
-
-```
-
-
+DWORD ix = pFileMUIInfo-&gt;dwLanguageNameOffset - offsetof(struct _FILEMUIINFO, abBuffer);
+LPWSTR lpszLang = reinterpret_cast&lt;LPWSTR&gt;(&amp;(pFileMUIInfo-&gt;abBuffer[ix]));
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-unsafe public struct FILEMUIINFO
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>unsafe public struct FILEMUIINFO
         {
             public System.UInt32 dwSize;
             public System.UInt32 dwVersion;
@@ -190,10 +202,10 @@ unsafe public struct FILEMUIINFO
             public System.UInt32 dwTypeNameMUIOffset;
             public fixed System.Byte abBuffer[8];
         }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
