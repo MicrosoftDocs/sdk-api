@@ -2,13 +2,12 @@
 UID: NA:mapiunicodehelp
 ms.assetid: 934df035-3853-348e-9aea-890d961e71f7
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mapi
-archived: true
 ---
 
 # Mapiunicodehelp.h header

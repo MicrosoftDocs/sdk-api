@@ -7,7 +7,7 @@ old-location: base\isimmersiveprocess.htm
 tech.root: procthread
 ms.assetid: E95FD9C0-8E4A-44FA-BBA6-0A7F53A0E584
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: IsImmersiveProcess, IsImmersiveProcess function, base.isimmersiveprocess, winuser/IsImmersiveProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

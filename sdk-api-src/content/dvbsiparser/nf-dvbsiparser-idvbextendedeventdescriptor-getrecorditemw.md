@@ -4,10 +4,10 @@ title: IDvbExtendedEventDescriptor::GetRecordItemW
 author: windows-sdk-content
 description: Gets the item and descriptor from a Digital Videl Broadcast (DVB) extended event descriptor, in Unicode string format.
 old-location: mstv\idvbextendedeventdescriptor_getrecorditemw.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 39c046b0-d357-44c5-9abe-2fb3998b7677
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordItemW, GetRecordItemW method [Microsoft TV Technologies], GetRecordItemW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetRecordItemW method, IDvbExtendedEventDescriptor.GetRecordItemW, IDvbExtendedEventDescriptor::GetRecordItemW, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemW, mstv.idvbextendedeventdescriptor_getrecorditemw
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipicture.htm
 tech.root: com
 ms.assetid: 42e3cd0e-2413-494a-8be8-2952089e02d2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IPicture, IPicture interface [COM], IPicture interface [COM],described, _ctrl_ipicture, com.ipicture, ocidl/IPicture
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IBITSExtensionSetup::GetCleanupTask
 author: windows-sdk-content
 description: Use the GetCleanupTask method to retrieve an interface pointer to the cleanup task associated with the virtual directory.
 old-location: bits\ibitsextensionsetup_getcleanuptask.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: ffa89d5b-7ba1-433b-a93d-032012906258
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCleanupTask, GetCleanupTask method [BITS], GetCleanupTask method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],GetCleanupTask method, IBITSExtensionSetup.GetCleanupTask, IBITSExtensionSetup::GetCleanupTask, _drz_ibitsextensionsetup_getcleanuptask, bits.ibitsextensionsetup_getcleanuptask, bitscfg/IBITSExtensionSetup::GetCleanupTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

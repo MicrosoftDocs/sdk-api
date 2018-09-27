@@ -7,7 +7,7 @@ old-location: p2p\peergroupissuecredentials.htm
 tech.root: p2psdk
 ms.assetid: 81284e61-fc31-47c3-a296-c9c02a2889ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PEER_GROUP_STORE_CREDENTIALS, PeerGroupIssueCredentials, PeerGroupIssueCredentials function [Peer Networking], p2p.peergroupissuecredentials, p2p/PeerGroupIssueCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

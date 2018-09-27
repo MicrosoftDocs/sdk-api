@@ -7,7 +7,7 @@ old-location: edp\srpclosethreadnetworkcontext.htm
 tech.root: EDP
 ms.assetid: AB8DD527-BABA-40D0-A423-2BEAAA544B2B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EDP.srpclosethreadnetworkcontext, SrpCloseThreadNetworkContext, SrpCloseThreadNetworkContext function, srpapi/SrpCloseThreadNetworkContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

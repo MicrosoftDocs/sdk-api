@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_IsDirectory.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\isdirectory.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IUrlAccessor interface [search],IsDirectory method, IUrlAccessor.IsDirectory, IUrlAccessor::IsDirectory, IsDirectory, IsDirectory method [search], IsDirectory method [search],IUrlAccessor interface, _search_IUrlAccessor_IsDirectory, search._search_IUrlAccessor_IsDirectory, searchapi/IUrlAccessor::IsDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

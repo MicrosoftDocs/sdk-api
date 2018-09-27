@@ -7,7 +7,7 @@ old-location: search\iloadfilter.htm
 tech.root: search
 ms.assetid: 7ac51909-fa0e-4f97-8da0-0ab4c5de7d60
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: ILoadFilter, ILoadFilter interface [search], ILoadFilter interface [search],described, filtereg/ILoadFilter, search.iloadfilter
 ms.prod: windows
 ms.technology: windows-sdk

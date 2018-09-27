@@ -7,7 +7,7 @@ old-location: com\iconnectionpointcontainer.htm
 tech.root: com
 ms.assetid: 5e2be055-7baa-4c42-bd20-b338da296ab0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IConnectionPointContainer, IConnectionPointContainer interface [COM], IConnectionPointContainer interface [COM],described, _com_iconnectionpointcontainer, com.iconnectionpointcontainer, ocidl/IConnectionPointContainer
 ms.prod: windows
 ms.technology: windows-sdk

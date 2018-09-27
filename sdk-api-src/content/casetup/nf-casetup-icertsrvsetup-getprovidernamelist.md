@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_getprovidernamelist.htm
 tech.root: seccrypto
 ms.assetid: a0915981-8023-4ce8-a870-7acc75c574ac
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetProviderNameList method, ICertSrvSetup.GetProviderNameList, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

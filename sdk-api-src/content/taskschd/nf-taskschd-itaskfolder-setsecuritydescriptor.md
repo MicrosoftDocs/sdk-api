@@ -4,10 +4,10 @@ title: ITaskFolder::SetSecurityDescriptor
 author: windows-sdk-content
 description: Sets the security descriptor for the folder.
 old-location: taskschd\itaskfolder_setsecuritydescriptor.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 54f8a37b-87ac-449c-8e03-aeacd27e8c97
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],SetSecurityDescriptor method, ITaskFolder.SetSecurityDescriptor, ITaskFolder::SetSecurityDescriptor, SetSecurityDescriptor, SetSecurityDescriptor method [Task Scheduler], SetSecurityDescriptor method [Task Scheduler],ITaskFolder interface, taskschd.itaskfolder_setsecuritydescriptor, taskschd/ITaskFolder::SetSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

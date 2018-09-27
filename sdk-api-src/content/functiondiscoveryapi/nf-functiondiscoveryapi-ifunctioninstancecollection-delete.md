@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstancecollection_delete.htm
 tech.root: fundisc
 ms.assetid: e7f94912-9656-4a6b-8754-eb37358b5f9d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: Delete, Delete method, Delete method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Delete method, IFunctionInstanceCollection.Delete, IFunctionInstanceCollection::Delete, functiondiscoveryapi/IFunctionInstanceCollection::Delete, ncd.ifunctioninstancecollection_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

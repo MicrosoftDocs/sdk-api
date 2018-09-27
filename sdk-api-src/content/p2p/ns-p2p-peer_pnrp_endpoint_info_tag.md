@@ -7,7 +7,7 @@ old-location: p2p\peer_pnrp_endpoint_info.htm
 tech.root: p2psdk
 ms.assetid: 986e3bec-9915-4a7c-8f54-faf25fa2848c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PPEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO structure [Peer Networking], PPEER_PNRP_ENDPOINT_INFO, PPEER_PNRP_ENDPOINT_INFO structure pointer [Peer Networking], p2p.peer_pnrp_endpoint_info, p2p/PEER_PNRP_ENDPOINT_INFO, p2p/PPEER_PNRP_ENDPOINT_INFO, peer_pnrp_endpoint_info_tag"
 ms.prod: windows
 ms.technology: windows-sdk

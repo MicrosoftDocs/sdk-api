@@ -7,7 +7,7 @@ old-location: intl\script_state.htm
 tech.root: Intl
 ms.assetid: 4b1724f7-7773-42c0-9c19-fbded5aef14e
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: FALSE, SCRIPT_STATE, SCRIPT_STATE structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_STATE_str, intl.script_state, tag_SCRIPT_STATE, usp10/SCRIPT_STATE
 ms.prod: windows
 ms.technology: windows-sdk

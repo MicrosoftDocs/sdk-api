@@ -4,10 +4,10 @@ title: MprConfigInterfaceTransportSetInfo function
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportSetInfo function updates the configuration information for the client on the specified interface and transport protocol.
 old-location: rras\mprconfiginterfacetransportsetinfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 1f46b528-d9a1-4967-afa2-424ee1eebbcb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MprConfigInterfaceTransportSetInfo, MprConfigInterfaceTransportSetInfo function [RAS], _mpr_mprconfiginterfacetransportsetinfo, mprapi/MprConfigInterfaceTransportSetInfo, rras.mprconfiginterfacetransportsetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

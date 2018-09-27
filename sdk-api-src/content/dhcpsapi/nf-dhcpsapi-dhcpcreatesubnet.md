@@ -4,10 +4,10 @@ title: DhcpCreateSubnet function
 author: windows-sdk-content
 description: The DhcpCreateSubnet function creates a new subnet on the DHCP server.
 old-location: dhcp\dhcpcreatesubnet.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: acae01cf-cbd9-4461-a1cc-5fcb745b9c8f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpCreateSubnet, DhcpCreateSubnet function [DHCP], dhcp.dhcpcreatesubnet, dhcpsapi/DhcpCreateSubnet
 ms.prod: windows-hardware
 ms.technology: windows-devices

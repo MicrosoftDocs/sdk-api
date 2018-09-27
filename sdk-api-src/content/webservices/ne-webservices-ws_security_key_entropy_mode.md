@@ -7,7 +7,7 @@ old-location: wsw\ws_security_key_entropy_mode.htm
 tech.root: wsw
 ms.assetid: dd6bca9a-e47b-46b3-b9ac-23aecb101337
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_SECURITY_KEY_ENTROPY_MODE, WS_SECURITY_KEY_ENTROPY_MODE enumeration [Web Services for Windows], WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY, WS_SECURITY_KEY_ENTROPY_MODE_COMBINED, WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY, webservices/WS_SECURITY_KEY_ENTROPY_MODE, webservices/WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY, webservices/WS_SECURITY_KEY_ENTROPY_MODE_COMBINED, webservices/WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY, wsw.ws_security_key_entropy_mode
 ms.prod: windows
 ms.technology: windows-sdk

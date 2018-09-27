@@ -4,10 +4,10 @@ title: eHeapAllocationState
 author: windows-sdk-content
 description: Specifies the current heap allocation state.
 old-location: winprog\eheapallocationstate.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: c91b169d-fee5-46ad-a589-3b52436d779c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: HeapFullPageHeap, HeapMetadata, HeapStateMask, avrfsdk/HeapFullPageHeap, avrfsdk/HeapMetadata, avrfsdk/HeapStateMask, avrfsdk/eHeapAllocationState, base.eheapallocationstate, eHeapAllocationState, eHeapAllocationState enumeration [Windows API], winprog.eheapallocationstate
 ms.prod: windows
 ms.technology: windows-sdk

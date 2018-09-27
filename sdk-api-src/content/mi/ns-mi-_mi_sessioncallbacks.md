@@ -4,10 +4,10 @@ title: "_MI_SessionCallbacks"
 author: windows-sdk-content
 description: A container for callback function pointers that handle logging and error messages.
 old-location: wmi_v2\mi_sessioncallbacks.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 76b21381-201e-4128-b0db-18d8968a80bb
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_SessionCallbacks, MI_SessionCallbacks structure [Windows Management Infrastructure (MI)], _MI_SessionCallbacks, mi/MI_SessionCallbacks, wmi_v2.mi_sessioncallbacks
 ms.prod: windows
 ms.technology: windows-sdk

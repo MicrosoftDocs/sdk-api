@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetLeft_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getleft_55.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GetLeft, GetLeft method [GDI+], GetLeft method [GDI+],RectF class, RectF class [GDI+],GetLeft method, RectF.GetLeft, RectF::GetLeft, _gdiplus_CLASS_RectF_GetLeft_, gdiplus._gdiplus_CLASS_RectF_GetLeft_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetKernelObjectSecurity function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor that protects a kernel object.
 old-location: security\getkernelobjectsecurity.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 276e9657-5729-48cb-9531-14bfd08b7868
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetKernelObjectSecurity, GetKernelObjectSecurity function [Security], _win32_getkernelobjectsecurity, security.getkernelobjectsecurity, securitybaseapi/GetKernelObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

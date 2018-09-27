@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getdefaultaudiolanguage.htm
 tech.root: DirectShow
 ms.assetid: 89f93521-9df7-4162-bb66-2210cceebc75
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: GetDefaultAudioLanguage, GetDefaultAudioLanguage method [DirectShow], GetDefaultAudioLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultAudioLanguage method, IDvdInfo2.GetDefaultAudioLanguage, IDvdInfo2::GetDefaultAudioLanguage, IDvdInfo2GetDefaultAudioLanguage, dshow.idvdinfo2_getdefaultaudiolanguage, strmif/IDvdInfo2::GetDefaultAudioLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

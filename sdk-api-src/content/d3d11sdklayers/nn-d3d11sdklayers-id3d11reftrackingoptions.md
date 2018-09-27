@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11reftrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: 8A3D1E4E-ED56-47F8-9281-7A8DD82B4DFC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11RefTrackingOptions, ID3D11RefTrackingOptions interface [Direct3D 11], ID3D11RefTrackingOptions interface [Direct3D 11],described, d3d11sdklayers/ID3D11RefTrackingOptions, direct3d11.id3d11reftrackingoptions
 ms.prod: windows
 ms.technology: windows-sdk

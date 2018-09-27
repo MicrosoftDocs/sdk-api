@@ -4,10 +4,10 @@ title: IISDB_LDT::GetVersionHash
 author: windows-sdk-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getversionhash.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ea7f027c-60c3-4dcd-963b-37ae6b088c81
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_LDT.GetVersionHash, IISDB_LDT::GetVersionHash, dvbsiparser/IISDB_LDT::GetVersionHash, mstv.iisdb_ldt_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices

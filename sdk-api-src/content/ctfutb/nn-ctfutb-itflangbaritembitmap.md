@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembitmap.htm
 tech.root: TSF
 ms.assetid: 3bae0422-625e-4f7d-9845-5353ad3ff335
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfLangBarItemBitmap, ITfLangBarItemBitmap interface [Text Services Framework], ITfLangBarItemBitmap interface [Text Services Framework],described, _tsf_itflangbaritembitmap_ref, ctfutb/ITfLangBarItemBitmap, tsf.itflangbaritembitmap
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,12 +2,11 @@
 UID: TP:ldap
 ms.assetid: 15a0bafb-f4a0-3e3e-87c9-c56597e8b4ff
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Lightweight Directory Access Protocol
@@ -22,5 +21,5 @@ To develop Lightweight Directory Access Protocol, you need these headers:
  * [winldap.h](../winldap/index.md)
 
 For programming guidance for this technology, see:
-* [Lightweight Directory Access Protocol](/previous-versions/windows/desktop/ldap)
+* [Lightweight Directory Access Protocol](/windows/desktop/ldap)
 

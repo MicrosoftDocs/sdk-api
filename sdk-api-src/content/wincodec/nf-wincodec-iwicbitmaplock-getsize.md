@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmaplock_getsize.htm
 tech.root: wic
 ms.assetid: 355e81ec-d08a-464e-9b4e-fa8828e30406
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetSize, GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetSize method, IWICBitmapLock.GetSize, IWICBitmapLock::GetSize, _wic_codec_iwicbitmaplock_getsize, wic._wic_codec_iwicbitmaplock_getsize, wincodec/IWICBitmapLock::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

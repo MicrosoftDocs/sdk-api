@@ -4,10 +4,10 @@ title: IESCloseMmiEvent
 author: windows-sdk-content
 description: Receives CloseMMI events from a Media Sink Device (MSD) device under the Protected Broadcast Driver Architecture (PBDA).
 old-location: mstv\iesclosemmievent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c470fefb-61bb-4315-ad56-ef5bc90a4ac7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IESCloseMmiEvent, IESCloseMmiEvent interface [Microsoft TV Technologies], IESCloseMmiEvent interface [Microsoft TV Technologies],described, mstv.iesclosemmievent, tuner/IESCloseMmiEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IATSC_VCT::GetRecordCarrierFrequency
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordcarrierfrequency.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ff875184-1d91-489d-9941-5d1cd3e9e872
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordCarrierFrequency, GetRecordCarrierFrequency method [Microsoft TV Technologies], GetRecordCarrierFrequency method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordCarrierFrequency method, IATSC_VCT.GetRecordCarrierFrequency, IATSC_VCT::GetRecordCarrierFrequency, IATSC_VCTGetRecordCarrierFrequency, atscpsipparser/IATSC_VCT::GetRecordCarrierFrequency, mstv.iatsc_vct_getrecordcarrierfrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEnumDot11AdHocInterfaces::Clone
 author: windows-sdk-content
 description: Creates a new enumeration interface.
 old-location: nwifi\ienumdot11adhocinterfaces_clone.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 3169ff1e-1994-4dd9-920d-c3f270f17b1c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocInterfaces interface, IEnumDot11AdHocInterfaces interface [NativeWIFI],Clone method, IEnumDot11AdHocInterfaces.Clone, IEnumDot11AdHocInterfaces::Clone, adhoc/IEnumDot11AdHocInterfaces::Clone, nwifi.ienumdot11adhocinterfaces_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

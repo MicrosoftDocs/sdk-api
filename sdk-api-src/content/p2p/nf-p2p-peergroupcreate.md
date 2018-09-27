@@ -7,7 +7,7 @@ old-location: p2p\peergroupcreate.htm
 tech.root: p2psdk
 ms.assetid: b85d87c6-28b7-49f8-865c-9d246f89367e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGroupCreate, PeerGroupCreate function [Peer Networking], p2p.peergroupcreate, p2p/PeerGroupCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mmc\icolumndata_getcolumnconfigdata.htm
 tech.root: mmc
 ms.assetid: 197804a2-63e5-4f0c-9d6d-4abc751a8a82
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: GetColumnConfigData, GetColumnConfigData method [MMC], GetColumnConfigData method [MMC],IColumnData interface, IColumnData interface [MMC],GetColumnConfigData method, IColumnData.GetColumnConfigData, IColumnData::GetColumnConfigData, _slate_icolumndata_getcolumnconfigdata, mmc.icolumndata_getcolumnconfigdata, mmc/IColumnData::GetColumnConfigData
 ms.prod: windows-hardware
 ms.technology: windows-devices

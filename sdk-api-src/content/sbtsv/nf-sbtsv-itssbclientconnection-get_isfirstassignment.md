@@ -4,10 +4,10 @@ title: ITsSbClientConnection::get_IsFirstAssignment
 author: windows-sdk-content
 description: Whether this is the first assignment.
 old-location: termserv\itssbclientconnection_isfirstassignment.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a086421f-77a4-43c9-8f9f-a24b0d620de2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],IsFirstAssignment property, ITsSbClientConnection.IsFirstAssignment, ITsSbClientConnection.get_IsFirstAssignment, ITsSbClientConnection::IsFirstAssignment, ITsSbClientConnection::get_IsFirstAssignment, IsFirstAssignment property [Remote Desktop Services], IsFirstAssignment property [Remote Desktop Services],ITsSbClientConnection interface, get_IsFirstAssignment, sbtsv/ITsSbClientConnection::IsFirstAssignment, sbtsv/ITsSbClientConnection::get_IsFirstAssignment, termserv.itssbclientconnection_isfirstassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

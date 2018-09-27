@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_receivetspaddressdata.htm
 tech.root: tapi
 ms.assetid: 56fc4024-bca0-405c-8a15-29ac8e486f80
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],ReceiveTSPAddressData method, CMSPAddress.ReceiveTSPAddressData, CMSPAddress::ReceiveTSPAddressData, ReceiveTSPAddressData, ReceiveTSPAddressData method [TAPI 2.2], ReceiveTSPAddressData method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_receivetspaddressdata, mspaddr/CMSPAddress::ReceiveTSPAddressData, tapi3.cmspaddress_receivetspaddressdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

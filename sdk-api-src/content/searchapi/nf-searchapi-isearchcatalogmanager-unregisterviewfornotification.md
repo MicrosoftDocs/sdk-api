@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_UnregisterViewForNotification
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\unregisterviewfornotification.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: ISearchCatalogManager interface [search],UnregisterViewForNotification method, ISearchCatalogManager.UnregisterViewForNotification, ISearchCatalogManager::UnregisterViewForNotification, UnregisterViewForNotification, UnregisterViewForNotification method [search], UnregisterViewForNotification method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_UnregisterViewForNotification, search._search_ISearchCatalogManager_UnregisterViewForNotification, searchapi/ISearchCatalogManager::UnregisterViewForNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RasGetAutodialEnableA function
 author: windows-sdk-content
 description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location.
 old-location: rras\rasgetautodialenable.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: RasGetAutodialEnable, RasGetAutodialEnable function [RAS], RasGetAutodialEnableA, RasGetAutodialEnableW, _ras_rasgetautodialenable, ras/RasGetAutodialEnable, ras/RasGetAutodialEnableA, ras/RasGetAutodialEnableW, rras.rasgetautodialenable
 ms.prod: windows-hardware
 ms.technology: windows-devices

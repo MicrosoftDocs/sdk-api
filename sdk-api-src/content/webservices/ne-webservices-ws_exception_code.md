@@ -7,7 +7,7 @@ old-location: wsw\ws_exception_code.htm
 tech.root: wsw
 ms.assetid: b59cbd41-03f2-4938-842a-664eddb07b1b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_EXCEPTION_CODE, WS_EXCEPTION_CODE enumeration [Web Services for Windows], WS_EXCEPTION_CODE_INTERNAL_FAILURE, WS_EXCEPTION_CODE_USAGE_FAILURE, webservices/WS_EXCEPTION_CODE, webservices/WS_EXCEPTION_CODE_INTERNAL_FAILURE, webservices/WS_EXCEPTION_CODE_USAGE_FAILURE, wsw.ws_exception_code
 ms.prod: windows
 ms.technology: windows-sdk

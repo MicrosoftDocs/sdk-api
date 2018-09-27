@@ -4,10 +4,10 @@ title: NetFileClose function
 author: windows-sdk-content
 description: Forces a resource to close. This function can be used when an error prevents closure by any other means. You should use NetFileClose with caution because it does not write data cached on the client system to the file before closing the file.
 old-location: fs\netfileclose.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

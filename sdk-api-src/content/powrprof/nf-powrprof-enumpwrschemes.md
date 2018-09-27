@@ -7,7 +7,7 @@ old-location: base\enumpwrschemes.htm
 tech.root: power
 ms.assetid: 5e9e10b4-84c3-40ec-8de9-220d13795403
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/14/2018
 ms.keywords: EnumPwrSchemes, EnumPwrSchemes function, _win32_enumpwrschemes, base.enumpwrschemes, powrprof/EnumPwrSchemes
 ms.prod: windows-hardware
 ms.technology: windows-devices

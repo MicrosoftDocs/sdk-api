@@ -7,7 +7,7 @@ old-location: wsw\ws_service_metadata_document.htm
 tech.root: wsw
 ms.assetid: d15fb735-9f82-4dd2-8586-f67999ab9727
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_SERVICE_METADATA_DOCUMENT, WS_SERVICE_METADATA_DOCUMENT structure [Web Services for Windows], _WS_SERVICE_METADATA_DOCUMENT, webservices/WS_SERVICE_METADATA_DOCUMENT, wsw.ws_service_metadata_document
 ms.prod: windows
 ms.technology: windows-sdk

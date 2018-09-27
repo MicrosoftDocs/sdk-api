@@ -7,7 +7,7 @@ old-location: mf\imfmediasharingengine.htm
 tech.root: medfound
 ms.assetid: D56612FC-840A-41EE-B162-7AF16ED3D975
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFMediaSharingEngine, IMFMediaSharingEngine interface [Media Foundation], IMFMediaSharingEngine interface [Media Foundation],described, mf.imfmediasharingengine, mfsharingengine/IMFMediaSharingEngine
 ms.prod: windows
 ms.technology: windows-sdk

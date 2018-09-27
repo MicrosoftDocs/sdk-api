@@ -7,7 +7,7 @@ old-location: adsi\iadspropertylist_purgepropertylist.htm
 tech.root: ADSI
 ms.assetid: 872c8af7-60c4-4dfc-aa37-0cbb2229a93f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPropertyList interface [ADSI],PurgePropertyList method, IADsPropertyList.PurgePropertyList, IADsPropertyList::PurgePropertyList, PurgePropertyList, PurgePropertyList method [ADSI], PurgePropertyList method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_purgepropertylist, adsi.iadspropertylist__purgepropertylist, adsi.iadspropertylist_purgepropertylist, iads/IADsPropertyList::PurgePropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices

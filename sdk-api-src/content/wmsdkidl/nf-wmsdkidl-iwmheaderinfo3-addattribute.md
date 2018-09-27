@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo3_addattribute.htm
 tech.root: wmformat
 ms.assetid: 15ecb34d-f70d-43a3-b369-2d9c2532945e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: AddAttribute, AddAttribute method [windows Media Format], AddAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddAttribute method, IWMHeaderInfo3.AddAttribute, IWMHeaderInfo3::AddAttribute, IWMHeaderInfo3AddAttribute, wmformat.iwmheaderinfo3_addattribute, wmsdkidl/IWMHeaderInfo3::AddAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

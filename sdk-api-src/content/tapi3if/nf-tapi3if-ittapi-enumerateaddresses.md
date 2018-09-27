@@ -7,7 +7,7 @@ old-location: tapi3\ittapi_enumerateaddresses.htm
 tech.root: tapi
 ms.assetid: b40a2071-24bf-470c-bfba-de23317e8652
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumerateAddresses method, ITTAPI.EnumerateAddresses, ITTAPI::EnumerateAddresses, _tapi3_ittapi_enumerateaddresses, tapi3.ittapi_enumerateaddresses, tapi3if/ITTAPI::EnumerateAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices

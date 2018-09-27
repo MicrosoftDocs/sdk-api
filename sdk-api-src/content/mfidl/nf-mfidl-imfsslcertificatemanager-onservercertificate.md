@@ -7,7 +7,7 @@ old-location: mf\imfsslcertificatemanager_onservercertificate.htm
 tech.root: medfound
 ms.assetid: 4ba43175-4429-437d-acfb-e0ea8d300651
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFSSLCertificateManager interface [Media Foundation],OnServerCertificate method, IMFSSLCertificateManager.OnServerCertificate, IMFSSLCertificateManager::OnServerCertificate, OnServerCertificate, OnServerCertificate method [Media Foundation], OnServerCertificate method [Media Foundation],IMFSSLCertificateManager interface, mf.imfsslcertificatemanager_onservercertificate, mfidl/IMFSSLCertificateManager::OnServerCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

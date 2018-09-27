@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothremovedevice.htm
 tech.root: bluetooth
 ms.assetid: dd4f6468-ccc2-4072-95c5-97553308ae47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BluetoothRemoveDevice, BluetoothRemoveDevice function [Bluetooth], bluetooth.bluetoothremovedevice, bluetoothapis/BluetoothRemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

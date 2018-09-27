@@ -7,7 +7,7 @@ old-location: mf\imfobjectreferencestream.htm
 tech.root: medfound
 ms.assetid: 9d29befd-b0ae-4610-a0b7-17face03c45e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: 9d29befd-b0ae-4610-a0b7-17face03c45e, IMFObjectReferenceStream, IMFObjectReferenceStream interface [Media Foundation], IMFObjectReferenceStream interface [Media Foundation],described, mf.imfobjectreferencestream, mfidl/IMFObjectReferenceStream
 ms.prod: windows
 ms.technology: windows-sdk

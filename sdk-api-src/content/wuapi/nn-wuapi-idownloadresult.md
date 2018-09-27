@@ -7,7 +7,7 @@ old-location: wua\idownloadresult.htm
 tech.root: wua_sdk
 ms.assetid: 293bea59-acec-4774-adb9-1ad1d29406c3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], IDownloadResult interface [Windows Update Agent],described, wua.idownloadresult, wuapi/IDownloadResult
 ms.prod: windows
 ms.technology: windows-sdk

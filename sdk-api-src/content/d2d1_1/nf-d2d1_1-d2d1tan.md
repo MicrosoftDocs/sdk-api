@@ -7,7 +7,7 @@ old-location: direct2d\d2d1tan.htm
 tech.root: direct2d
 ms.assetid: 2BC66DEA-5C40-4EBA-8CDB-B48036E8A85F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1Tan, D2D1Tan function [Direct2D], d2d1_1/D2D1Tan, direct2d.d2d1tan
 ms.prod: windows-hardware
 ms.technology: windows-devices

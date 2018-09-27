@@ -4,10 +4,10 @@ title: IX509ExtensionKeyUsage::InitializeEncode
 author: windows-sdk-content
 description: Initializes the extension by using the X509KeyUsageFlags enumeration.
 old-location: security\ix509extensionkeyusage_initializeencode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a4496125-862c-4ef0-93f3-a513eedeacd1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],InitializeEncode method, IX509ExtensionKeyUsage.InitializeEncode, IX509ExtensionKeyUsage::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionKeyUsage interface, XCN_CERT_CRL_SIGN_KEY_USAGE, XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, XCN_CERT_DECIPHER_ONLY_KEY_USAGE, XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, XCN_CERT_KEY_AGREEMENT_KEY_USAGE, XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, XCN_CERT_NON_REPUDIATION_KEY_USAGE, XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, certenroll/IX509ExtensionKeyUsage::InitializeEncode, security.ix509extensionkeyusage_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsomcolorprofileresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 1576e48f-f238-42d5-b028-4ee3cd1b7287
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMColorProfileResourceCollection.InsertAt, IXpsOMColorProfileResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_insertat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

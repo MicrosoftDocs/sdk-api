@@ -7,7 +7,7 @@ old-location: security\ienroll4.htm
 tech.root: seccrypto
 ms.assetid: 133529fb-e02a-41a2-83df-646cbc01dbe9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], IEnroll4 interface [Security],described, security.ienroll4, xenroll/IEnroll4
 ms.prod: windows
 ms.technology: windows-sdk

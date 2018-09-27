@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual.htm
 tech.root: shell
 ms.assetid: 48135f9d-ee80-4dec-87dc-83f407c25777
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], IShellFolderViewDual interface [Windows Shell],described, _shell_IShellFolderViewDual, shell.IShellFolderViewDual, shldisp/IShellFolderViewDual
 ms.prod: windows
 ms.technology: windows-sdk

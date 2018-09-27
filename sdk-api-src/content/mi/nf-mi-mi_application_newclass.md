@@ -4,10 +4,10 @@ title: MI_Application_NewClass function
 author: windows-sdk-content
 description: Creates an MI_Class from an MI_ClassDecl structure.
 old-location: wmi_v2\mi_application_newclass.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: f325532e-8e29-40d4-ab7f-52f318ae9349
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Application_NewClass, MI_Application_NewClass function [Windows Management Infrastructure (MI)], mi/MI_Application_NewClass, wmi_v2.mi_application_newclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

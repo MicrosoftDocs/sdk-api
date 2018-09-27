@@ -4,10 +4,10 @@ title: WdsCliGetImageSize function
 author: windows-sdk-content
 description: Returns the size of the current image.
 old-location: wds\wdscligetimagesize.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 35d04426-dfb4-48db-bb81-734d2d2ecdcb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WdsCliGetImageSize, WdsCliGetImageSize function [Windows Deployment Services], wds.wdscligetimagesize, wdsclientapi/WdsCliGetImageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

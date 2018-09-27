@@ -7,7 +7,7 @@ old-location: perf\pdhselectdatasource.htm
 tech.root: perfctrs
 ms.assetid: 211d4504-e1f9-48a0-8ddd-613f2f183c59
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/21/2018
 ms.keywords: 0, PDH_FLAGS_FILE_BROWSER_ONLY, PdhSelectDataSource, PdhSelectDataSource function [Perf], PdhSelectDataSourceA, PdhSelectDataSourceW, _win32_pdhselectdatasource, base.pdhselectdatasource, pdh/PdhSelectDataSource, pdh/PdhSelectDataSourceA, pdh/PdhSelectDataSourceW, perf.pdhselectdatasource
 ms.prod: windows-hardware
 ms.technology: windows-devices

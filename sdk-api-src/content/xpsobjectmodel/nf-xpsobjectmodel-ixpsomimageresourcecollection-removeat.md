@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresourcecollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 29945211-d204-4da9-a77d-20598060750f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMImageResourceCollection.RemoveAt, IXpsOMImageResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_removeat, xpsobjectmodel/IXpsOMImageResourceCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

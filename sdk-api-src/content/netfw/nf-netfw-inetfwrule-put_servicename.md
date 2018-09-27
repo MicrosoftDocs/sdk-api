@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_servicename.htm
 tech.root: ics
 ms.assetid: 52bcc317-b900-44b6-8ab4-637ffbd74729
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwRule interface [ICS/ICF],ServiceName property, INetFwRule.ServiceName, INetFwRule.put_ServiceName, INetFwRule::ServiceName, INetFwRule::get_ServiceName, INetFwRule::put_ServiceName, ServiceName property [ICS/ICF], ServiceName property [ICS/ICF],INetFwRule interface, ics.inetfwrule_servicename, netfw/INetFwRule::ServiceName, netfw/INetFwRule::get_ServiceName, netfw/INetFwRule::put_ServiceName, put_ServiceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

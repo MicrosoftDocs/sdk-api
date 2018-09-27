@@ -7,7 +7,7 @@ old-location: wsw\ws_any_attributes.htm
 tech.root: wsw
 ms.assetid: 6c428c99-755f-40ab-bc9e-e1a7a3d70c1d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_ANY_ATTRIBUTES, WS_ANY_ATTRIBUTES structure [Web Services for Windows], _WS_ANY_ATTRIBUTES, webservices/WS_ANY_ATTRIBUTES, wsw.ws_any_attributes
 ms.prod: windows
 ms.technology: windows-sdk

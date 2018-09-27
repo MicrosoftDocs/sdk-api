@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiopeakmeter.htm
 tech.root: CoreAudio
 ms.assetid: 524d83ff-4303-448c-a070-58d17dec03ba
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/25/2018
 ms.keywords: IAudioPeakMeter, IAudioPeakMeter interface [Core Audio], IAudioPeakMeter interface [Core Audio],described, coreaudio.iaudiopeakmeter, devicetopology/IAudioPeakMeter
 ms.prod: windows
 ms.technology: windows-sdk

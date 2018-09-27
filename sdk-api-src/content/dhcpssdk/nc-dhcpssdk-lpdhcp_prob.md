@@ -4,10 +4,10 @@ title: LPDHCP_PROB
 author: windows-sdk-content
 description: The DhcpAddressDelHook function is called by Microsoft DHCP Server when one of the following four defined events occurs.
 old-location: dhcp\dhcpaddressdelhook.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: fd9ce5df-927d-4b34-9561-ff5a2ebad16e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpAddressDelHook, DhcpAddressDelHook callback function [DHCP], LPDHCP_PROB, LPDHCP_PROB callback, _dhcp_dhcpaddressdelhook, dhcp.dhcpaddressdelhook, dhcpssdk/DhcpAddressDelHook
 ms.prod: windows
 ms.technology: windows-sdk

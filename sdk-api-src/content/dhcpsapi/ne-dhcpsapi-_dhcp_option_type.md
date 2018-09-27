@@ -4,10 +4,10 @@ title: "_DHCP_OPTION_TYPE"
 author: windows-sdk-content
 description: The DHCP_OPTION_TYPE enumeration defines the set of possible DHCP option types.
 old-location: dhcp\dhcp_option_type.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 2577c0b6-aa84-4176-87b7-ffd304823d76
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDHCP_OPTION_TYPE, DHCP_OPTION_TYPE, DHCP_OPTION_TYPE enumeration [DHCP], DhcpArrayTypeOption, DhcpUnaryElementTypeOption, LPDHCP_OPTION_TYPE, LPDHCP_OPTION_TYPE enumeration pointer [DHCP], _DHCP_OPTION_TYPE, dhcp.dhcp_option_type, dhcpsapi/DHCP_OPTION_TYPE, dhcpsapi/DhcpArrayTypeOption, dhcpsapi/DhcpUnaryElementTypeOption, dhcpsapi/LPDHCP_OPTION_TYPE"
 ms.prod: windows
 ms.technology: windows-sdk

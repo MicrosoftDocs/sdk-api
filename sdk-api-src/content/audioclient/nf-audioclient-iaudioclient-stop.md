@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_stop.htm
 tech.root: CoreAudio
 ms.assetid: d5824aa9-0b91-4bee-9c0c-26e12a6b96b5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/25/2018
 ms.keywords: IAudioClient interface [Core Audio],Stop method, IAudioClient.Stop, IAudioClient::Stop, IAudioClientStop, Stop, Stop method [Core Audio], Stop method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Stop, coreaudio.iaudioclient_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

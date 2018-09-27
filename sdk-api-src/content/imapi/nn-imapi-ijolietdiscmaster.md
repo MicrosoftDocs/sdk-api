@@ -7,7 +7,7 @@ old-location: imapi\ijolietdiscmaster.htm
 tech.root: imapi
 ms.assetid: e2269b68-1860-4afd-90f2-d61297f3fa9b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], IJolietDiscMaster interface [IMAPI],described, _win32_ijolietdiscmaster, base.ijolietdiscmaster, imapi.ijolietdiscmaster, imapi/IJolietDiscMaster
 ms.prod: windows
 ms.technology: windows-sdk

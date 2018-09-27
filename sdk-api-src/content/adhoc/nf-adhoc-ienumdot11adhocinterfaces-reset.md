@@ -4,10 +4,10 @@ title: IEnumDot11AdHocInterfaces::Reset
 author: windows-sdk-content
 description: Resets to the beginning of the enumeration sequence.
 old-location: nwifi\ienumdot11adhocinterfaces_reset.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: e310cc06-acc0-4a65-bea7-c9b39900b7ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Reset method, IEnumDot11AdHocInterfaces.Reset, IEnumDot11AdHocInterfaces::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Reset, nwifi.ienumdot11adhocinterfaces_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

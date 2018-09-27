@@ -7,7 +7,7 @@ old-location: shell\SHRegDuplicateHKey.htm
 tech.root: shell
 ms.assetid: 73182aa9-0c4d-4723-ba3c-8bab6b51181b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: SHRegDuplicateHKey, SHRegDuplicateHKey function [Windows Shell], _win32_SHRegDuplicateHKey, shell.SHRegDuplicateHKey, shlwapi/SHRegDuplicateHKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

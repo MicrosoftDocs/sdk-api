@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setloop.htm
 tech.root: medfound
 ms.assetid: 0B8890EA-9207-428B-8EC2-18B51E1D8365
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetLoop method, IMFMediaEngine.SetLoop, IMFMediaEngine::SetLoop, SetLoop, SetLoop method [Media Foundation], SetLoop method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setloop, mfmediaengine/IMFMediaEngine::SetLoop
 ms.prod: windows-hardware
 ms.technology: windows-devices

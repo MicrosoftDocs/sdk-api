@@ -7,7 +7,7 @@ old-location: mmc\itoolbar.htm
 tech.root: mmc
 ms.assetid: cf9c9fe9-f58f-47f0-9051-86a514df0c6d
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IToolbar, IToolbar interface [MMC], IToolbar interface [MMC],described, _slate_itoolbar, mmc.itoolbar, mmc/IToolbar
 ms.prod: windows
 ms.technology: windows-sdk

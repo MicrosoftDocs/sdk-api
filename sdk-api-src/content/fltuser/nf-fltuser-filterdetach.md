@@ -7,7 +7,7 @@ old-location: ifsk\filterdetach.htm
 tech.root: ifsk
 ms.assetid: 798b1672-ea3a-418b-a52d-d57b15ed9426
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: FilterDetach, FilterDetach function [Installable File System Drivers], FltWin32ApiRef_ee7eb095-922a-48c6-943a-0a54fb0789f1.xml, fltuser/FilterDetach, ifsk.filterdetach
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_PROJECTION_INFO"
 author: windows-sdk-content
 description: Is used in the RAS_CONNECTION_EX structure as a placeholder for the PPP_PROJECTION_INFO and IKEV2_PROJECTION_INFO structures.
 old-location: rras\projection_info.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 3f87d09a-2408-4fe4-97f9-61ed9b5d2fa5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*PPROJECTION_INFO, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO, PPROJECTION_INFO structure pointer [RAS], PROJECTION_INFO, PROJECTION_INFO structure [RAS], _PROJECTION_INFO, mprapi/PPROJECTION_INFO, mprapi/PROJECTION_INFO, rras.projection_info"
 ms.prod: windows
 ms.technology: windows-sdk

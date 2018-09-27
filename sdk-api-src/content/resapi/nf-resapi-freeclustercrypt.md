@@ -7,7 +7,7 @@ old-location: mscs\freeclustercrypt.htm
 tech.root: mscs
 ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: FreeClusterCrypt, FreeClusterCrypt function [Failover Cluster], PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT function [Failover Cluster], mscs.freeclustercrypt, resapi/FreeClusterCrypt, resapi/PFREE_CLUSTER_CRYPT
 ms.prod: windows-hardware
 ms.technology: windows-devices

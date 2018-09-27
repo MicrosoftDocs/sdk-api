@@ -7,7 +7,7 @@ old-location: tapi3\itilsconfig_get_port.htm
 tech.root: tapi
 ms.assetid: 7aa0a8e7-6799-4685-92a0-c2ce610d0e06
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],get_Port method, ITILSConfig.get_Port, ITILSConfig::get_Port, _tapi3_itilsconfig_get_port, get_Port, get_Port method [TAPI 2.2], get_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::get_Port, tapi3.itilsconfig_get_port
 ms.prod: windows-hardware
 ms.technology: windows-devices

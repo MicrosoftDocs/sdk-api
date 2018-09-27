@@ -4,10 +4,10 @@ title: ITuningSpace::get_CLSID
 author: windows-sdk-content
 description: The get_CLSID method gets the CLSID of the tuning space as a BSTR.
 old-location: mstv\ituningspace_get_clsid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_CLSID method, ITuningSpace.get_CLSID, ITuningSpace::get_CLSID, ITuningSpaceget_CLSID, get_CLSID, get_CLSID method [Microsoft TV Technologies], get_CLSID method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_clsid, tuner/ITuningSpace::get_CLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

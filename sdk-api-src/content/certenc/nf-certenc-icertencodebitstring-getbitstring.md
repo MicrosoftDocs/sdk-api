@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring_getbitstring.htm
 tech.root: seccrypto
 ms.assetid: d0c6c501-3aaa-42ab-a077-69f6d24f1eff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CCertEncodeBitString object [Security],GetBitString method, GetBitString, GetBitString method [Security], GetBitString method [Security],CCertEncodeBitString object, GetBitString method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitString method, ICertEncodeBitString.GetBitString, ICertEncodeBitString::GetBitString, _certsrv_icertencodebitstring_getbitstring, certenc/ICertEncodeBitString::GetBitString, security.icertencodebitstring_getbitstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetIpStatisticsEx function
 author: windows-sdk-content
 description: The GetIpStatisticsEx function retrieves the Internet Protocol (IP) statistics for the current computer.
 old-location: iphlp\getipstatisticsex.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [IP Helper], _iphlp_getipstatisticsex, iphlp.getipstatisticsex, iphlpapi/GetIpStatisticsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

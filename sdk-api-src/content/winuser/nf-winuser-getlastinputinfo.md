@@ -7,7 +7,7 @@ old-location: inputdev\getlastinputinfo.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getlastinputinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetLastInputInfo, GetLastInputInfo function [Keyboard and Mouse Input], _win32_GetLastInputInfo, _win32_getlastinputinfo_cpp, inputdev.getlastinputinfo, winui._win32_getlastinputinfo, winuser/GetLastInputInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

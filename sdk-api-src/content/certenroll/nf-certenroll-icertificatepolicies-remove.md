@@ -4,10 +4,10 @@ title: ICertificatePolicies::Remove
 author: windows-sdk-content
 description: Removes an object from the collection by index number.
 old-location: security\icertificatepolicies_remove_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 5cd010bb-50ee-4251-815e-1fb4de1f2a81
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertificatePolicies interface [Security],Remove method, ICertificatePolicies.Remove, ICertificatePolicies::Remove, Remove, Remove method [Security], Remove method [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::Remove, security.icertificatepolicies_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

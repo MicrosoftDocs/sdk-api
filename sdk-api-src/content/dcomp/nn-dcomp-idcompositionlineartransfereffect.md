@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect.htm
 tech.root: directcomp
 ms.assetid: 516CD029-DBB1-4AD7-92BB-8B6EF6C733FA
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionLinearTransferEffect, IDCompositionLinearTransferEffect interface [DirectComposition], IDCompositionLinearTransferEffect interface [DirectComposition],described, dcomp/IDCompositionLinearTransferEffect, directcomp.idcompositionlineartransfereffect
 ms.prod: windows
 ms.technology: windows-sdk

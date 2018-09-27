@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetState
 author: windows-sdk-content
 description: Retrieves the state of the job.
 old-location: bits\ibackgroundcopyjob_getstate.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 32789bd2-2368-473b-accf-ac6e317d0172
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetState, GetState method [BITS], GetState method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetState method, IBackgroundCopyJob.GetState, IBackgroundCopyJob::GetState, _drz_ibackgroundcopyjob_getstate, bits.ibackgroundcopyjob_getstate, bits/IBackgroundCopyJob::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

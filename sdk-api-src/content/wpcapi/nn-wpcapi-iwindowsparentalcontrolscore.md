@@ -7,7 +7,7 @@ old-location: parcon\iwindowsparentalcontrolscore.htm
 tech.root: parcon
 ms.assetid: 49F43A0F-5C93-4FEC-870B-17535DE674C5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsParentalControlsCore, IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,described, parcon.iwindowsparentalcontrolscore, wpcapi/IWindowsParentalControlsCore
 ms.prod: windows
 ms.technology: windows-sdk

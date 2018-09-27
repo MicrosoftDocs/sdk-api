@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_get__newenum.htm
 tech.root: ics
 ms.assetid: d1a2fa98-d1f2-404c-84fb-b3dccc60031f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get__NewEnum method, IStaticPortMappingCollection.get__NewEnum, IStaticPortMappingCollection::get__NewEnum, _ics_istaticportmappingcollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get__newenum, natupnp/IStaticPortMappingCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

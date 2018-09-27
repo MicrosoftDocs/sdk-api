@@ -4,10 +4,10 @@ title: GetUnicastIpAddressEntry function
 author: windows-sdk-content
 description: Retrieves information for an existing unicast IP address entry on the local computer.
 old-location: iphlp\getunicastipaddressentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: d5475c09-05dd-41d7-80ff-63c52d78468c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetUnicastIpAddressEntry, GetUnicastIpAddressEntry function [IP Helper], iphlp.getunicastipaddressentry, netioapi/GetUnicastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

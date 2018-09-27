@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol.htm
 tech.root: medfound
 ms.assetid: db9b4663-9240-484f-8c47-cb1f5daa238d
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], IMFVideoDisplayControl interface [Media Foundation],described, db9b4663-9240-484f-8c47-cb1f5daa238d, evr/IMFVideoDisplayControl, mf.imfvideodisplaycontrol
 ms.prod: windows
 ms.technology: windows-sdk

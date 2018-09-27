@@ -7,7 +7,7 @@ old-location: automat\dispgetparam.htm
 tech.root: automat
 ms.assetid: 72cdb768-4791-4606-8e5d-72cd003e854a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam
 ms.prod: windows-hardware
 ms.technology: windows-devices

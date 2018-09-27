@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_getinertiaend
 tech.root: directmanipulation
 ms.assetid: BCF0E48F-C47E-42BE-90F8-25737301DC9C
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetInertiaEndTransform, GetInertiaEndTransform method [Direct Manipulation], GetInertiaEndTransform method [Direct Manipulation],IDirectManipulationPrimaryContent interface, IDirectManipulationPrimaryContent interface [Direct Manipulation],GetInertiaEndTransform method, IDirectManipulationPrimaryContent.GetInertiaEndTransform, IDirectManipulationPrimaryContent::GetInertiaEndTransform, directmanipulation.idirectmanipulationprimarycontent_getinertiaendtransform, directmanipulation/IDirectManipulationPrimaryContent::GetInertiaEndTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

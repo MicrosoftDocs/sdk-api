@@ -4,10 +4,10 @@ title: GetNetworkParams function
 author: windows-sdk-content
 description: The GetNetworkParams function retrieves network parameters for the local computer.
 old-location: iphlp\getnetworkparams.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetNetworkParams, GetNetworkParams function [IP Helper], _iphlp_getnetworkparams, iphlp.getnetworkparams, iphlpapi/GetNetworkParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

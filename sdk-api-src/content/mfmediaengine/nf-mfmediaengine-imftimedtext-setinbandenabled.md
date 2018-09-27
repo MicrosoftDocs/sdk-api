@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_setinbandenabled.htm
 tech.root: medfound
 ms.assetid: 4AF63D30-4A91-4DFF-96B9-0A26102B93FE
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetInBandEnabled method, IMFTimedText.SetInBandEnabled, IMFTimedText::SetInBandEnabled, SetInBandEnabled, SetInBandEnabled method [Media Foundation], SetInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setinbandenabled, mfmediaengine/IMFTimedText::SetInBandEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

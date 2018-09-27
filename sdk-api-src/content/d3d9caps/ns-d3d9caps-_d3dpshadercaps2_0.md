@@ -4,10 +4,10 @@ title: "_D3DPSHADERCAPS2_0"
 author: windows-sdk-content
 description: Pixel shader driver caps.
 old-location: direct3d9\d3dpshadercaps2_0.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\d3dpshadercaps2_0.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 469d4061-0c45-7081-5150-edc65b416901, D3DPSHADERCAPS2_0, D3DPSHADERCAPS2_0 structure [Direct3D 9], LPD3DPSHADERCAPS2_0, LPD3DPSHADERCAPS2_0 structure pointer [Direct3D 9], _D3DPSHADERCAPS2_0, d3d9caps/D3DPSHADERCAPS2_0, d3d9caps/LPD3DPSHADERCAPS2_0, direct3d9.d3dpshadercaps2_0
 ms.prod: windows
 ms.technology: windows-sdk

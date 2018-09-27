@@ -4,10 +4,10 @@ title: IATSCComponentType::get_Flags
 author: windows-sdk-content
 description: The get_Flags method queries whether an audio component is in AC-3 format.
 old-location: mstv\iatsccomponenttype_get_flags.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f89f59fd-31bf-48d6-9cb3-92504ba095a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IATSCComponentType interface [Microsoft TV Technologies],get_Flags method, IATSCComponentType.get_Flags, IATSCComponentType::get_Flags, IATSCComponentTypeget_Flags, get_Flags, get_Flags method [Microsoft TV Technologies], get_Flags method [Microsoft TV Technologies],IATSCComponentType interface, mstv.iatsccomponenttype_get_flags, tuner/IATSCComponentType::get_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IStreamBufferConfigure2::SetFFTransitionRates
 author: windows-sdk-content
 description: The SetFFTransitionRates method sets the behavior of fast-forward play (&#0034;trick mode&#0034;) in the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_setfftransitionrates.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c6e7b27a-b217-4430-adf7-c7ebc7e17bf6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetFFTransitionRates method, IStreamBufferConfigure2.SetFFTransitionRates, IStreamBufferConfigure2::SetFFTransitionRates, IStreamBufferConfigure2SetFFTransitionRates, SetFFTransitionRates, SetFFTransitionRates method [Microsoft TV Technologies], SetFFTransitionRates method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, mstv.istreambufferconfigure2_setfftransitionrates, sbe/IStreamBufferConfigure2::SetFFTransitionRates
 ms.prod: windows-hardware
 ms.technology: windows-devices

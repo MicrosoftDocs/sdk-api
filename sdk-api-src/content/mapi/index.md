@@ -2,13 +2,12 @@
 UID: NA:mapi
 ms.assetid: d94e049c-1d17-3bbe-b532-6eb19f1d1ed1
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mapi
-archived: true
 ---
 
 # Mapi.h header

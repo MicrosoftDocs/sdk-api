@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectioncloseenum.htm
 tech.root: mscs
 ms.assetid: b82e13f0-364c-41cf-9fda-98a95f23ff7d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ClusterGroupSetCloseEnum, ClusterGroupSetCloseEnum function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterGroupSetCloseEnum, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, mscs.clustergroupcollectioncloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

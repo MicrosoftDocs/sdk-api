@@ -7,7 +7,7 @@ old-location: winauto\iuiauto_stylesprovider_stylename.htm
 tech.root: WinAuto
 ms.assetid: 5FFCFC37-F03D-4F86-8D8E-3AF03547A40B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],StyleName property, IStylesProvider.StyleName, IStylesProvider.get_StyleName, IStylesProvider::StyleName, IStylesProvider::get_StyleName, StyleName property [Windows Accessibility], StyleName property [Windows Accessibility],IStylesProvider interface, get_StyleName, uiautomationcore/IStylesProvider::StyleName, uiautomationcore/IStylesProvider::get_StyleName, winauto.iuiauto_stylesprovider_stylename
 ms.prod: windows-hardware
 ms.technology: windows-devices

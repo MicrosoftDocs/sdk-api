@@ -4,10 +4,10 @@ title: ITextRow::SetAlignment
 author: windows-sdk-content
 description: Sets the horizontal alignment of a row.
 old-location: controls\itextrow_setalignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: bfcc900d-2bec-4314-a2c5-09f55e27a626
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextRow interface [Windows Controls],SetAlignment method, ITextRow.SetAlignment, ITextRow::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextRow interface, controls.itextrow_setalignment, tom/ITextRow::SetAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

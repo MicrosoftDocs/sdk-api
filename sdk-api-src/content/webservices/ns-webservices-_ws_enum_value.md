@@ -7,7 +7,7 @@ old-location: wsw\ws_enum_value.htm
 tech.root: wsw
 ms.assetid: 4d1ec30a-d8fe-41b2-b689-4011dbb55d34
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_ENUM_VALUE, WS_ENUM_VALUE structure [Web Services for Windows], _WS_ENUM_VALUE, webservices/WS_ENUM_VALUE, wsw.ws_enum_value
 ms.prod: windows
 ms.technology: windows-sdk

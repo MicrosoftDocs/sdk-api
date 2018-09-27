@@ -4,10 +4,10 @@ title: ISmimeCapabilities::get_Count
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ismimecapabilities_count_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 5e0ee42f-10aa-45d8-b6c0-16ee0149dec6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Count property [Security], Count property [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Count property, ISmimeCapabilities.Count, ISmimeCapabilities.get_Count, ISmimeCapabilities::Count, ISmimeCapabilities::get_Count, certenroll/ISmimeCapabilities::Count, certenroll/ISmimeCapabilities::get_Count, get_Count, security.ismimecapabilities_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

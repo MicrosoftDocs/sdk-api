@@ -7,7 +7,7 @@ old-location: security\cryptunregisterdefaultoidfunction.htm
 tech.root: seccrypto
 ms.assetid: 63f5b0c7-f574-4dc6-92c7-091f25febd48
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CryptUnregisterDefaultOIDFunction, CryptUnregisterDefaultOIDFunction function [Security], _crypto2_cryptunregisterdefaultoidfunction, security.cryptunregisterdefaultoidfunction, wincrypt/CryptUnregisterDefaultOIDFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

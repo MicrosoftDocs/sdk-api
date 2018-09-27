@@ -7,7 +7,7 @@ old-location: multimedia\capinfochunk.htm
 tech.root: Multimedia
 ms.assetid: 7dbe8209-73c3-4eab-965e-91b94f77f0a7
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: "*LPCAPINFOCHUNK, *PCAPINFOCHUNK, CAPINFOCHUNK, CAPINFOCHUNK structure [Windows Multimedia], _win32_CAPINFOCHUNK_str, multimedia.capinfochunk, tagCapInfoChunk, vfw/CAPINFOCHUNK"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IPrincipal::get_GroupId
 author: windows-sdk-content
 description: Gets or sets the identifier of the user group that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_groupid.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: df4bffa3-ee38-49cd-bec7-28edda48a953
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: GroupId property [Task Scheduler], GroupId property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],GroupId property, IPrincipal.GroupId, IPrincipal.get_GroupId, IPrincipal::GroupId, IPrincipal::get_GroupId, IPrincipal::put_GroupId, get_GroupId, taskschd.iprincipal_groupid, taskschd/IPrincipal::GroupId, taskschd/IPrincipal::get_GroupId, taskschd/IPrincipal::put_GroupId
 ms.prod: windows-hardware
 ms.technology: windows-devices

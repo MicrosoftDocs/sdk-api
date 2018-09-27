@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_get_autoendofnumbertimeout.htm
 tech.root: tapi
 ms.assetid: c5bc3176-7237-4c20-808a-b2d028ae4344
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoEndOfNumberTimeout method, ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout, ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout, _tapi3_itautomatedphonecontrol_get_autoendofnumbertimeout, get_AutoEndOfNumberTimeout, get_AutoEndOfNumberTimeout method [TAPI 2.2], get_AutoEndOfNumberTimeout method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autoendofnumbertimeout, tapi3if/ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

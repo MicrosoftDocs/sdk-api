@@ -4,10 +4,10 @@ title: IStreamBufferSink::LockProfile
 author: windows-sdk-content
 description: The LockProfile method locks the Stream Buffer Sink filter's profile, thereby fixing the number of streams and their media types. This method can also specify the name and location of the stub file that points to the backing files.
 old-location: mstv\istreambuffersink_lockprofile.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9e694cc2-090e-43b1-88c7-77175a930bf1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],LockProfile method, IStreamBufferSink.LockProfile, IStreamBufferSink::LockProfile, IStreamBufferSinkLockProfile, LockProfile, LockProfile method [Microsoft TV Technologies], LockProfile method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_lockprofile, sbe/IStreamBufferSink::LockProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

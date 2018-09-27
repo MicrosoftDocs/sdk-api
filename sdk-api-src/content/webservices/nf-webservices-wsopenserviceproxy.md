@@ -7,7 +7,7 @@ old-location: wsw\wsopenserviceproxy.htm
 tech.root: wsw
 ms.assetid: b8a0afc7-2004-419d-8ab2-ce197c7e396d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WsOpenServiceProxy, WsOpenServiceProxy function [Web Services for Windows], webservices/WsOpenServiceProxy, wsw.wsopenserviceproxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

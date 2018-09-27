@@ -4,10 +4,10 @@ title: WinHttpCrackUrl function
 author: windows-sdk-content
 description: The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.
 old-location: http\winhttpcrackurl.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCrackUrl, WinHttpCrackUrl function [WinHTTP], http.winhttpcrackurl, winhttp.winhttpcrackurl_function, winhttp/WinHttpCrackUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itprivateevent.htm
 tech.root: tapi
 ms.assetid: 75a711e4-21b2-40a4-81f0-a210829178b9
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITPrivateEvent, ITPrivateEvent interface [TAPI 2.2], ITPrivateEvent interface [TAPI 2.2],described, _tapi3_itprivateevent, tapi3.itprivateevent, tapi3if/ITPrivateEvent
 ms.prod: windows
 ms.technology: windows-sdk

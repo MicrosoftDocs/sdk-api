@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_close.htm
 tech.root: imapi
 ms.assetid: 39af9413-6068-4165-8a26-509389a6d1f2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],Close method, IDiscRecorder.Close, IDiscRecorder::Close, _win32_idiscrecorder_close, base.idiscrecorder_close, imapi.idiscrecorder_close, imapi/IDiscRecorder::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiohrtfactivationparams.htm
 tech.root: CoreAudio
 ms.assetid: 6A549BFB-993A-4A20-AFAB-B38D03EAE35C
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/25/2018
 ms.keywords: PSpatialAudioHrtfActivationParams, PSpatialAudioHrtfActivationParams structure pointer [Core Audio], SpatialAudioHrtfActivationParams, SpatialAudioHrtfActivationParams structure [Core Audio], coreaudio.spatialaudiohrtfactivationparams, spatialaudiohrtf/PSpatialAudioHrtfActivationParams, spatialaudiohrtf/SpatialAudioHrtfActivationParams
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::put_MixerBitmap
 author: windows-sdk-content
 description: The put_MixerBitmap method specifies the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmap.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: fa9d9bea-f711-42f1-a247-322036744c44
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmap method, IMSVidVideoRenderer.put_MixerBitmap, IMSVidVideoRenderer::put_MixerBitmap, IMSVidVideoRendererput_MixerBitmap, mstv.imsvidvideorenderer_put_mixerbitmap, put_MixerBitmap, put_MixerBitmap method [Microsoft TV Technologies], put_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WinHttpGetProxyForUrl function
 author: windows-sdk-content
 description: Retrieves the proxy data for the specified URL.
 old-location: http\winhttpgetproxyforurl.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: d01b101e-a496-4e84-9aec-61afe3920fbb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpGetProxyForUrl, WinHttpGetProxyForUrl function [WinHTTP], http.winhttpgetproxyforurl, winhttp/WinHttpGetProxyForUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

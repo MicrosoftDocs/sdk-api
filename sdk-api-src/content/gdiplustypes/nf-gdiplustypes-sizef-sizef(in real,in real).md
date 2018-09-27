@@ -2,13 +2,13 @@
 UID: NF:gdiplustypes.SizeF.SizeF(IN REAL,IN REAL)
 title: SizeF::SizeF(IN REAL,IN REAL)
 author: windows-sdk-content
-description: Creates a SizeF object and initializes the members to zero. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_SizeF_SizeF_.htm
+description: Creates a SizeF object and initializes its Width and Height data members.
+old-location: gdiplus\_gdiplus_CLASS_SizeF_SizeF_width_height_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefconstructors\sizef_24.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefconstructors\sizef_61width_height.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: SizeF, SizeF class [GDI+],SizeF constructor, SizeF constructor [GDI+], SizeF constructor [GDI+],SizeF class, SizeF.SizeF, SizeF.SizeF(), SizeF.SizeF(IN REAL,IN REAL), SizeF::SizeF, SizeF::SizeF(IN REAL,IN REAL), _gdiplus_CLASS_SizeF_SizeF_, gdiplus._gdiplus_CLASS_SizeF_SizeF_
+ms.date: 09/12/2018
+ms.keywords: SizeF, SizeF class [GDI+],SizeF constructor, SizeF constructor [GDI+], SizeF constructor [GDI+],SizeF class, SizeF.SizeF, SizeF.SizeF(IN REAL,IN REAL), SizeF.SizeF(REAL,REAL), SizeF::SizeF, SizeF::SizeF(IN REAL,IN REAL), _gdiplus_CLASS_SizeF_SizeF_width_height_, gdiplus._gdiplus_CLASS_SizeF_SizeF_width_height_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,9 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object and initializes the members to zero. This is the default constructor.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object and initializes its 
+			<b>Width</b> and 
+			<b>Height</b> data members.
 
 
 ## -parameters
@@ -59,16 +61,20 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).as
 
 
 
-### -param width
+### -param width [in]
 
-TBD
+Type: <b>REAL</b>
 
-
-### -param height
-
-TBD
+Real number that specifies the initial value of the 
+					<b>Width</b> data member. 
 
 
+### -param height [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the initial value of the 
+					<b>Height</b> data member. 
 
 
 ## -see-also

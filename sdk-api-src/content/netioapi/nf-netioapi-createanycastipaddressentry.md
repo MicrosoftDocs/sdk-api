@@ -4,10 +4,10 @@ title: CreateAnycastIpAddressEntry function
 author: windows-sdk-content
 description: Adds a new anycast IP address entry on the local computer.
 old-location: iphlp\createanycastipaddressentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 30393132-0fad-4687-b9e3-7b5cf47fbb96
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: CreateAnycastIpAddressEntry, CreateAnycastIpAddressEntry function [IP Helper], iphlp.createanycastipaddressentry, netioapi/CreateAnycastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\inkpentip.htm
 tech.root: tablet
 ms.assetid: 1e68f701-f012-40bb-8ee4-a47da80cb8d6
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: 1e68f701-f012-40bb-8ee4-a47da80cb8d6, IPT_Ball, IPT_Rectangle, InkPenTip, InkPenTip enumeration [Tablet PC], msinkaut/IPT_Ball, msinkaut/IPT_Rectangle, msinkaut/InkPenTip, tablet.inkpentip
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ics\inetfwproducts.htm
 tech.root: ics
 ms.assetid: 66608887-02df-4caf-91d0-e5091849ff32
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwProducts, INetFwProducts interface [ICS/ICF], INetFwProducts interface [ICS/ICF],described, ics.inetfwproducts, netfw/INetFwProducts
 ms.prod: windows
 ms.technology: windows-sdk

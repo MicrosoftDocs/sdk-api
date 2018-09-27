@@ -4,10 +4,10 @@ title: IDirect3DResource9::PreLoad
 author: windows-sdk-content
 description: Preloads a managed resource.
 old-location: direct3d9\idirect3dresource9__preload.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__preload.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: IDirect3DResource9 interface [Direct3D 9],PreLoad method, IDirect3DResource9.PreLoad, IDirect3DResource9::PreLoad, PreLoad, PreLoad method [Direct3D 9], PreLoad method [Direct3D 9],IDirect3DResource9 interface, d3d9helper/IDirect3DResource9::PreLoad, direct3d9.idirect3dresource9__preload, eae2783a-4a7c-f994-50b0-b5b5c735921f
 ms.prod: windows-hardware
 ms.technology: windows-devices

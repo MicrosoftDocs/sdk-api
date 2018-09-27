@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_SetAntialiasMode.htm
 tech.root: direct2d
 ms.assetid: cd727271-1725-48e1-be39-680b363db2ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],SetAntialiasMode method, ID2D1RenderTarget.SetAntialiasMode, ID2D1RenderTarget::SetAntialiasMode, SetAntialiasMode, SetAntialiasMode method [Direct2D], SetAntialiasMode method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetAntialiasMode, direct2d.ID2D1RenderTarget_SetAntialiasMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

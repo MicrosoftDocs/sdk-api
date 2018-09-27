@@ -7,7 +7,7 @@ old-location: com\iclassfactory.htm
 tech.root: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
 ms.prod: windows
 ms.technology: windows-sdk

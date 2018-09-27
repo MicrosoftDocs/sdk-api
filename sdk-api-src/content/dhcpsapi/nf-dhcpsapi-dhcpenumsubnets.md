@@ -4,10 +4,10 @@ title: DhcpEnumSubnets function
 author: windows-sdk-content
 description: The DhcpEnumSubnets function returns an enumerated list of subnets defined on the DHCP server.
 old-location: dhcp\dhcpenumsubnets.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 333381c9-66d1-44ef-911b-d543c79abefb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpEnumSubnets, DhcpEnumSubnets function [DHCP], dhcp.dhcpenumsubnets, dhcpsapi/DhcpEnumSubnets
 ms.prod: windows-hardware
 ms.technology: windows-devices

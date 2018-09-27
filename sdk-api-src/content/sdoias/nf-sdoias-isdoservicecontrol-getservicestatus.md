@@ -4,10 +4,10 @@ title: ISdoServiceControl::GetServiceStatus
 author: windows-sdk-content
 description: The GetServiceStatus method retrieves the status of the service being administered through SDO.
 old-location: nps\SDO_isdoservicecontrol_getservicestatus.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: 6ef65e85-d77d-4f59-aaac-c0b5b337b564
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetServiceStatus, GetServiceStatus method [Network Policy Server], GetServiceStatus method [Network Policy Server],ISdoServiceControl interface, ISdoServiceControl interface [Network Policy Server],GetServiceStatus method, ISdoServiceControl.GetServiceStatus, ISdoServiceControl::GetServiceStatus, SERVICE_RUNNING, SERVICE_START_PENDING, SERVICE_STOPPED, SERVICE_STOP_PENDING, _sdo_isdoservicecontrol_getservicestatus, nps.SDO_isdoservicecontrol_getservicestatus, sdo.isdoservicecontrol_getservicestatus, sdoias/ISdoServiceControl::GetServiceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

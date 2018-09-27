@@ -7,7 +7,7 @@ old-location: intl\setlocaleinfo.htm
 tech.root: Intl
 ms.assetid: 96e031cb-0d9f-4556-b9b3-3451d8f80da5
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: SetLocaleInfo, SetLocaleInfo function [Internationalization for Windows Applications], SetLocaleInfoA, SetLocaleInfoW, _win32_SetLocaleInfo, intl.setlocaleinfo, winnls/SetLocaleInfo, winnls/SetLocaleInfoA, winnls/SetLocaleInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

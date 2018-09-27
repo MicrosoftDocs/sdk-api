@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient3_initializesharedaudiostream.htm
 tech.root: CoreAudio
 ms.assetid: 2DB9ECEC-8199-4157-8854-26A21B88E58A
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/25/2018
 ms.keywords: IAudioClient3 interface [Core Audio],InitializeSharedAudioStream method, IAudioClient3.InitializeSharedAudioStream, IAudioClient3::InitializeSharedAudioStream, InitializeSharedAudioStream, InitializeSharedAudioStream method [Core Audio], InitializeSharedAudioStream method [Core Audio],IAudioClient3 interface, audioclient/IAudioClient3::InitializeSharedAudioStream, coreaudio.iaudioclient3_initializesharedaudiostream
 ms.prod: windows-hardware
 ms.technology: windows-devices

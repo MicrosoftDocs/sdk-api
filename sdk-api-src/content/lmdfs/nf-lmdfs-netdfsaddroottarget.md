@@ -4,10 +4,10 @@ title: NetDfsAddRootTarget function
 author: windows-sdk-content
 description: Creates a domain-based or stand-alone DFS namespace or adds a new root target to an existing domain-based namespace.
 old-location: dfs\netdfsaddroottarget.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: c4ce8f50-f090-4783-b6c9-834d9e0c33de
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetDfsAddRootTarget, NetDfsAddRootTarget function [Distributed File System], dfs.netdfsaddroottarget, fs.netdfsaddroottarget, lmdfs/NetDfsAddRootTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

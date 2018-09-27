@@ -7,7 +7,7 @@ old-location: wsw\wscreateserviceproxy.htm
 tech.root: wsw
 ms.assetid: 9215684b-979e-48ad-b4ee-2ae1db1e3034
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WsCreateServiceProxy, WsCreateServiceProxy function [Web Services for Windows], webservices/WsCreateServiceProxy, wsw.wscreateserviceproxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

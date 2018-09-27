@@ -4,10 +4,10 @@ title: FwpmFilterGetById0 function
 author: windows-sdk-content
 description: Retrieves a filter object.
 old-location: fwp\fwpmfiltergetbyid0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 87372308-4ff8-460c-ba90-7126275c0e3c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmFilterGetById0, FwpmFilterGetById0 function [Filtering], fwp.fwpmfiltergetbyid0_func, fwpmu/FwpmFilterGetById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

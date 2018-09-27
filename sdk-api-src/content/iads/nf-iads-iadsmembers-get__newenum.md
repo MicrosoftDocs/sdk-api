@@ -7,7 +7,7 @@ old-location: adsi\iadsmembers_get__newenum.htm
 tech.root: ADSI
 ms.assetid: 5a65794c-2407-4267-bc02-d84a134f6bf4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsMembers interface [ADSI],get__NewEnum method, IADsMembers.get__NewEnum, IADsMembers::get__NewEnum, _ds_iadsmembers_get__newenum, adsi.iadsmembers__get____newenum, adsi.iadsmembers_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsMembers interface, iads/IADsMembers::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

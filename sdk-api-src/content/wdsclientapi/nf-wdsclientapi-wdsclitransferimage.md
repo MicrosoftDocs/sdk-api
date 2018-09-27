@@ -4,10 +4,10 @@ title: WdsCliTransferImage function
 author: windows-sdk-content
 description: Transfers an image from a WDS server to the WDS client.
 old-location: wds\wdsclitransferimage.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 43590cee-20d5-47da-8e35-fa4fda1da175
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferImage, WdsCliTransferImage function [Windows Deployment Services], wds.wdsclitransferimage, wdsclientapi/WdsCliTransferImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

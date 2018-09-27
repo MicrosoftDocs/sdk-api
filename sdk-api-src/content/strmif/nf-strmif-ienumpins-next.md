@@ -7,7 +7,7 @@ old-location: dshow\ienumpins_next.htm
 tech.root: DirectShow
 ms.assetid: 03a30eb6-b39f-4497-ad3f-8af2c3ecf2f0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IEnumPins interface [DirectShow],Next method, IEnumPins.Next, IEnumPins::Next, IEnumPinsNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumPins interface, dshow.ienumpins_next, strmif/IEnumPins::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

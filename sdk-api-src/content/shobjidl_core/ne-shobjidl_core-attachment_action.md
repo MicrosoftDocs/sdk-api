@@ -7,7 +7,7 @@ old-location: shell\ATTACHMENT_ACTION.htm
 tech.root: shell
 ms.assetid: 2deeb14b-2665-4970-923c-9da1f561979f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: ATTACHMENT_ACTION, ATTACHMENT_ACTION enumeration [Windows Shell], ATTACHMENT_ACTION_CANCEL, ATTACHMENT_ACTION_EXEC, ATTACHMENT_ACTION_SAVE, _win32_ATTACHMENT_ACTION, shell.ATTACHMENT_ACTION, shobjidl_core/ATTACHMENT_ACTION, shobjidl_core/ATTACHMENT_ACTION_CANCEL, shobjidl_core/ATTACHMENT_ACTION_EXEC, shobjidl_core/ATTACHMENT_ACTION_SAVE
 ms.prod: windows
 ms.technology: windows-sdk

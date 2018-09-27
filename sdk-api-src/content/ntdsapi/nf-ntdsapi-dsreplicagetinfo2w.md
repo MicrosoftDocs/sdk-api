@@ -7,7 +7,7 @@ old-location: ad\dsreplicagetinfo2.htm
 tech.root: ad
 ms.assetid: 5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: DS_REPL_INFO_CURSORS_2_FOR_NC, DS_REPL_INFO_CURSORS_3_FOR_NC, DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_FLAG_IMPROVE_LINKED_ATTRS, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_2_FOR_OBJ, DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DsReplicaGetInfo2, DsReplicaGetInfo2 function [Active Directory], DsReplicaGetInfo2W, ad.dsreplicagetinfo2, ntdsapi/DsReplicaGetInfo2, ntdsapi/DsReplicaGetInfo2W
 ms.prod: windows-hardware
 ms.technology: windows-devices

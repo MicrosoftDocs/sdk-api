@@ -7,7 +7,7 @@ old-location: com\succeeded_macro.htm
 tech.root: com
 ms.assetid: 7a258b0b-d214-46c5-be0a-6493cd14a0e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: SUCCEEDED, SUCCEEDED macro [COM], _com_SUCCEEDED, com.succeeded, com.succeeded_macro, winerror/SUCCEEDED
 ms.prod: windows-hardware
 ms.technology: windows-devices

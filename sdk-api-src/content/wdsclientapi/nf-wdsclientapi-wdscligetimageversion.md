@@ -4,10 +4,10 @@ title: WdsCliGetImageVersion function
 author: windows-sdk-content
 description: Returns the version of the current image.
 old-location: wds\wdscligetimageversion.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 50cd6ca0-dffd-452c-9e68-904037f71ccc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WdsCliGetImageVersion, WdsCliGetImageVersion function [Windows Deployment Services], wds.wdscligetimageversion, wdsclientapi/WdsCliGetImageVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003"
 author: windows-sdk-content
 description: This structure contains information about a connection event.
 old-location: termserv\aaaccountingdata.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AAAccountingData, AAAccountingData structure [Remote Desktop Services], __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003, termserv.aaaccountingdata, tsgpolicyengine/AAAccountingData
 ms.prod: windows
 ms.technology: windows-sdk

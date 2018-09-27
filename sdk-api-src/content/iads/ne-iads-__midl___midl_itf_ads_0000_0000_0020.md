@@ -7,7 +7,7 @@ old-location: adsi\ads_derefenum.htm
 tech.root: ADSI
 ms.assetid: 4cd080cc-59f9-48e8-93c1-1fccea0238ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADS_DEREFENUM, ADS_DEREFENUM enumeration [ADSI], ADS_DEREF_ALWAYS, ADS_DEREF_FINDING, ADS_DEREF_NEVER, ADS_DEREF_SEARCHING, __MIDL___MIDL_itf_ads_0000_0000_0020, _ds_ads_derefenum, adsi.ads__derefenum, adsi.ads_derefenum, iads/ADS_DEREFENUM, iads/ADS_DEREF_ALWAYS, iads/ADS_DEREF_FINDING, iads/ADS_DEREF_NEVER, iads/ADS_DEREF_SEARCHING
 ms.prod: windows
 ms.technology: windows-sdk

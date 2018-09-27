@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidebug1_isleaktrackingenabledforthread.htm
 tech.root: direct3ddxgi
 ms.assetid: ACC57DDE-F019-415F-AAFA-E56ACE4F4197
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDXGIDebug1 interface [DXGI],IsLeakTrackingEnabledForThread method, IDXGIDebug1.IsLeakTrackingEnabledForThread, IDXGIDebug1::IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread method [DXGI], IsLeakTrackingEnabledForThread method [DXGI],IDXGIDebug1 interface, direct3ddxgi.idxgidebug1_isleaktrackingenabledforthread, dxgidebug/IDXGIDebug1::IsLeakTrackingEnabledForThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

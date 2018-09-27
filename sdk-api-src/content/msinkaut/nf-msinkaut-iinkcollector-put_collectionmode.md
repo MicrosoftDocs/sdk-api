@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_collectionmode.htm
 tech.root: tablet
 ms.assetid: 390fa1a1-254a-4070-806c-c8c478f69254
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: 390fa1a1-254a-4070-806c-c8c478f69254, CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],CollectionMode property, IInkCollector.CollectionMode, IInkCollector.put_CollectionMode, IInkCollector::CollectionMode, IInkCollector::get_CollectionMode, IInkCollector::put_CollectionMode, InkCollector.get_CollectionMode, InkCollector.put_CollectionMode, get_CollectionMode, msinkaut/IInkCollector::CollectionMode, msinkaut/IInkCollector::get_CollectionMode, msinkaut/IInkCollector::put_CollectionMode, put_CollectionMode, tablet.inkcollector_collectionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

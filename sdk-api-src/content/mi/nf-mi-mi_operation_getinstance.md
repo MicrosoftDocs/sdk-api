@@ -4,10 +4,10 @@ title: MI_Operation_GetInstance function
 author: windows-sdk-content
 description: Gets a synchronous result for an instance operation.
 old-location: wmi_v2\mi_operation_getinstance.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 25c2d3fa-276d-4506-a044-4057c8cdc863
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Operation_GetInstance, MI_Operation_GetInstance function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetInstance, wmi_v2.mi_operation_getinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

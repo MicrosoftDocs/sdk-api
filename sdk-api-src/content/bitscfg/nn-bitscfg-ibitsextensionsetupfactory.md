@@ -4,10 +4,10 @@ title: IBITSExtensionSetupFactory
 author: windows-sdk-content
 description: Use the IBITSExtensionSetupFactory interface to get a pointer to the IBITSExtensionSetup interface.
 old-location: bits\ibitsextensionsetupfactory.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 0105d525-c841-4e0e-bd4a-2a1bcdb0dc4a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBITSExtensionSetupFactory, IBITSExtensionSetupFactory interface [BITS], IBITSExtensionSetupFactory interface [BITS],described, _drz_ibitsextensionsetupfactory, bits.ibitsextensionsetupfactory, bitscfg/IBITSExtensionSetupFactory
 ms.prod: windows
 ms.technology: windows-sdk

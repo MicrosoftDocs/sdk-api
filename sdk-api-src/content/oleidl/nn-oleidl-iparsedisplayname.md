@@ -7,7 +7,7 @@ old-location: com\iparsedisplayname.htm
 tech.root: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
 ms.prod: windows
 ms.technology: windows-sdk

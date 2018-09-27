@@ -4,10 +4,10 @@ title: Pkcs10AllowedSignatureTypes
 author: windows-sdk-content
 description: Specifies the type of signature permitted when signing a certificate request.
 old-location: security\pkcs10allowedsignaturetypes_enum.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: b5c6a28b-d46b-4d93-adc2-625a82d6df7a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, Pkcs10AllowedSignatureTypes, Pkcs10AllowedSignatureTypes enumeration [Security], certenroll/AllowedKeySignature, certenroll/AllowedNullSignature, certenroll/Pkcs10AllowedSignatureTypes, security.pkcs10allowedsignaturetypes_enum
 ms.prod: windows
 ms.technology: windows-sdk

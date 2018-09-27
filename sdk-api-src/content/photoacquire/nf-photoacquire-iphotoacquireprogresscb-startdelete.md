@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_startdelete.htm
 tech.root: acquisition
 ms.assetid: 510999eb-068e-41e9-98b7-de6e67dbfe2f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartDelete method, IPhotoAcquireProgressCB.StartDelete, IPhotoAcquireProgressCB::StartDelete, IPhotoAcquireProgressCBStartDelete, StartDelete, StartDelete method [Picture Acquisition], StartDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartDelete, picacq.iphotoacquireprogresscb_startdelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

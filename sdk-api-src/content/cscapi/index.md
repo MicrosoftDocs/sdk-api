@@ -2,13 +2,12 @@
 UID: NA:cscapi
 ms.assetid: 598b385b-173a-3709-a828-b99a978ee252
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: of
-archived: true
 ---
 
 # Cscapi.h header

@@ -2,7 +2,7 @@
 UID: TP:xinput
 ms.assetid: 5c8ac494-6872-3057-85f8-b67254b814c4
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

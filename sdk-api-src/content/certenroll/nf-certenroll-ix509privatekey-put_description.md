@@ -4,10 +4,10 @@ title: IX509PrivateKey::put_Description
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a description of the private key.
 old-location: security\ix509privatekey_description_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 84889286-7740-4f4f-b095-1fb999702f9a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Description property [Security], Description property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Description property, IX509PrivateKey.Description, IX509PrivateKey.put_Description, IX509PrivateKey::Description, IX509PrivateKey::get_Description, IX509PrivateKey::put_Description, certenroll/IX509PrivateKey::Description, certenroll/IX509PrivateKey::get_Description, certenroll/IX509PrivateKey::put_Description, put_Description, security.ix509privatekey_description_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

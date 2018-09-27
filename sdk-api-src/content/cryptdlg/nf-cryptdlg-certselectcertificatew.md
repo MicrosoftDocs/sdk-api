@@ -7,7 +7,7 @@ old-location: security\certselectcertificate.htm
 tech.root: seccrypto
 ms.assetid: 8160ea08-c7c0-40f5-8771-6603f768744b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CertSelectCertificate, CertSelectCertificate function [Security], CertSelectCertificateA, CertSelectCertificateW, cryptdlg/CertSelectCertificate, cryptdlg/CertSelectCertificateA, cryptdlg/CertSelectCertificateW, security.certselectcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

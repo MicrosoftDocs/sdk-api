@@ -7,7 +7,7 @@ old-location: setup\msisourcelistaddmediadisk.htm
 tech.root: msi
 ms.assetid: 70c58c39-1b0b-44ec-ba0c-6755015c28d7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListAddMediaDisk, MsiSourceListAddMediaDisk function, MsiSourceListAddMediaDiskA, MsiSourceListAddMediaDiskW, NULL, User SID, msi/MsiSourceListAddMediaDisk, msi/MsiSourceListAddMediaDiskA, msi/MsiSourceListAddMediaDiskW, setup.msisourcelistaddmediadisk, setup.msisourcelistaddmediadisks
 ms.prod: windows-hardware
 ms.technology: windows-devices

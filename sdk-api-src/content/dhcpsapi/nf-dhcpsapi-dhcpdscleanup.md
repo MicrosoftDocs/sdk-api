@@ -4,10 +4,10 @@ title: DhcpDsCleanup function
 author: windows-sdk-content
 description: The DhcpDsCleanup function frees up directory service resources allocated for DHCP services by DhcpDsInit. This function should be called exactly once for each corresponding DHCP service process, and only when the process is terminated.
 old-location: dhcp\dhcpdscleanup.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 7d722ca5-a779-4481-b2c7-6d9d7bb5fcfe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpDsCleanup, DhcpDsCleanup function [DHCP], dhcp.dhcpdscleanup, dhcpsapi/DhcpDsCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices

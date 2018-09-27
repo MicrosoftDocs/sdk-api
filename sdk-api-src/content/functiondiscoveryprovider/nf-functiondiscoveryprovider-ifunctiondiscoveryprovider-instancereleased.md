@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryprovider_instancereleased.htm
 tech.root: fundisc
 ms.assetid: fa348767-8a83-4a45-9411-1e9eb545d97d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceReleased method, IFunctionDiscoveryProvider.InstanceReleased, IFunctionDiscoveryProvider::InstanceReleased, InstanceReleased, InstanceReleased method, InstanceReleased method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased, ncd.ifunctiondiscoveryprovider_instancereleased
 ms.prod: windows-hardware
 ms.technology: windows-devices

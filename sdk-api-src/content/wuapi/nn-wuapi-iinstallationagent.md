@@ -7,7 +7,7 @@ old-location: wua\iinstallationagent.htm
 tech.root: wua_sdk
 ms.assetid: B24B527C-D92B-4BEB-ADCC-5E2BA684A478
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], IInstallationAgent interface [Windows Update Agent],described, wua.iinstallationagent, wuapi/IInstallationAgent
 ms.prod: windows
 ms.technology: windows-sdk

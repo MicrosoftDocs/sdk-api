@@ -7,7 +7,7 @@ old-location: wsw\ws_contract_description.htm
 tech.root: wsw
 ms.assetid: 0b2a5516-6faf-43d5-9370-a25dbc7e2843
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_CONTRACT_DESCRIPTION, WS_CONTRACT_DESCRIPTION structure [Web Services for Windows], _WS_CONTRACT_DESCRIPTION, webservices/WS_CONTRACT_DESCRIPTION, wsw.ws_contract_description
 ms.prod: windows
 ms.technology: windows-sdk

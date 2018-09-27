@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_creategraphicspipelinestate.htm
 tech.root: direct3d12
 ms.assetid: E35FCC4A-7527-4A6C-8569-0801A06AA427
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: CreateGraphicsPipelineState, CreateGraphicsPipelineState method, CreateGraphicsPipelineState method,ID3D12Device interface, ID3D12Device interface,CreateGraphicsPipelineState method, ID3D12Device.CreateGraphicsPipelineState, ID3D12Device::CreateGraphicsPipelineState, d3d12/ID3D12Device::CreateGraphicsPipelineState, direct3d12.id3d12device_creategraphicspipelinestate, direct3d12.id3d12device_createpipelinestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

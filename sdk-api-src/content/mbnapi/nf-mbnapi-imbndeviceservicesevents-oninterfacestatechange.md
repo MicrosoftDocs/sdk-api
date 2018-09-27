@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_oninterfacestatechange.htm
 tech.root: mbn
 ms.assetid: 6677E80E-A9D1-45B5-AE3F-71EE22A7CCB6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnInterfaceStateChange method, IMbnDeviceServicesEvents.OnInterfaceStateChange, IMbnDeviceServicesEvents::OnInterfaceStateChange, OnInterfaceStateChange, OnInterfaceStateChange method [Microsoft Broadband Networks], OnInterfaceStateChange method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oninterfacestatechange, mbnapi/IMbnDeviceServicesEvents::OnInterfaceStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetconnection_disconnect.htm
 tech.root: ics
 ms.assetid: 023abd16-7a07-4247-96cc-607a5e313bad
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: Disconnect, Disconnect method [ICS/ICF], Disconnect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Disconnect method, INetConnection.Disconnect, INetConnection::Disconnect, _ics_inetconnection_disconnect, ics.inetconnection_disconnect, netcon/INetConnection::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

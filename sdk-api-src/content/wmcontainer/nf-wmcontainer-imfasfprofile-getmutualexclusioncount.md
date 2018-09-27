@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_getmutualexclusioncount.htm
 tech.root: medfound
 ms.assetid: 5e275b83-9e59-4730-b8e2-e45f78077891
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: 5e275b83-9e59-4730-b8e2-e45f78077891, GetMutualExclusionCount, GetMutualExclusionCount method [Media Foundation], GetMutualExclusionCount method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetMutualExclusionCount method, IMFASFProfile.GetMutualExclusionCount, IMFASFProfile::GetMutualExclusionCount, mf.imfasfprofile_getmutualexclusioncount, wmcontainer/IMFASFProfile::GetMutualExclusionCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessorenumerator1.htm
 tech.root: medfound
 ms.assetid: BBC4C5BC-2DA0-48BD-B182-FBF62A2491A7
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: ID3D11VideoProcessorEnumerator1, ID3D11VideoProcessorEnumerator1 interface [Media Foundation], ID3D11VideoProcessorEnumerator1 interface [Media Foundation],described, d3d11_1/ID3D11VideoProcessorEnumerator1, mf.id3d11videoprocessorenumerator1
 ms.prod: windows
 ms.technology: windows-sdk

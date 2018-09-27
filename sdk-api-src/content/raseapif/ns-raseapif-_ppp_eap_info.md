@@ -4,10 +4,10 @@ title: "_PPP_EAP_INFO"
 author: windows-sdk-content
 description: The PPP_EAP_INFO structure provides information to the Connection Manager about the authentication protocol, including pointers to functions located in the EAP DLL.
 old-location: eap\ppp_eap_info.htm
-tech.root: eap
+tech.root: EAP
 ms.assetid: 722e8185-3408-418b-ae80-e2ed261edcd1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPPP_EAP_INFO, PPPP_EAP_INFO, PPPP_EAP_INFO structure pointer [EAP], PPP_EAP_INFO, PPP_EAP_INFO structure [EAP], _PPP_EAP_INFO, _eap_ppp_eap_info, eap.ppp_eap_info, raseapif/PPPP_EAP_INFO, raseapif/PPP_EAP_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

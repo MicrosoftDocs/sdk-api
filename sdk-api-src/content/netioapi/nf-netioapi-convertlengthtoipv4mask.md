@@ -4,10 +4,10 @@ title: ConvertLengthToIpv4Mask function
 author: windows-sdk-content
 description: Converts an IPv4 prefix length to an IPv4 subnet mask.
 old-location: iphlp\convertlengthtoipv4mask.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 5d986301-368e-4984-9f90-e2af1f87cbea
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: ConvertLengthToIpv4Mask, ConvertLengthToIpv4Mask function [IP Helper], iphlp.convertlengthtoipv4mask, netioapi/ConvertLengthToIpv4Mask
 ms.prod: windows-hardware
 ms.technology: windows-devices

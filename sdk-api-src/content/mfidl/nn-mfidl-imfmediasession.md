@@ -7,7 +7,7 @@ old-location: mf\imfmediasession.htm
 tech.root: medfound
 ms.assetid: feebf891-73fa-4fe6-94ca-3594986fc92d
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFMediaSession, IMFMediaSession interface [Media Foundation], IMFMediaSession interface [Media Foundation],described, feebf891-73fa-4fe6-94ca-3594986fc92d, mf.imfmediasession, mfidl/IMFMediaSession
 ms.prod: windows
 ms.technology: windows-sdk

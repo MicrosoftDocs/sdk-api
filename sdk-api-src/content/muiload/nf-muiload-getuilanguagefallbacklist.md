@@ -7,7 +7,7 @@ old-location: intl\getuilanguagefallbacklist.htm
 tech.root: Intl
 ms.assetid: 18581fa1-f498-46ff-af83-dfbca80252e2
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: GetUILanguageFallbackList, GetUILanguageFallbackList function [Internationalization for Windows Applications], intl.getuilanguagefallbacklist, muiload/GetUILanguageFallbackList
 ms.prod: windows-hardware
 ms.technology: windows-devices

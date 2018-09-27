@@ -7,7 +7,7 @@ old-location: base\setprotectedpolicy.htm
 tech.root: procthread
 ms.assetid: 36975287-20F0-477B-870F-EA0AC40B39E3
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: SetProtectedPolicy, SetProtectedPolicy function, base.setprotectedpolicy, processthreadsapi/SetProtectedPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

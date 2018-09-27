@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_depth_stencil_view_desc.htm
 tech.root: direct3d11
 ms.assetid: f073a798-edd5-4e6a-a8a7-1592721ce35d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 3b37b2e7-77a6-e3c7-bed5-e8584a152e68, D3D11_DEPTH_STENCIL_VIEW_DESC, D3D11_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC, direct3d11.d3d11_depth_stencil_view_desc
 ms.prod: windows
 ms.technology: windows-sdk

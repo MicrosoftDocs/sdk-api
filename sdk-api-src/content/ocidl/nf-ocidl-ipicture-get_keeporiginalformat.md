@@ -7,7 +7,7 @@ old-location: com\ipicture_get_keeporiginalformat.htm
 tech.root: com
 ms.assetid: 90befcb7-138f-4c63-a6ec-ec06c89b3317
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IPicture interface [COM],get_KeepOriginalFormat method, IPicture.get_KeepOriginalFormat, IPicture::get_KeepOriginalFormat, _ctrl_ipicture_get_keeporiginalformat, com.ipicture_get_keeporiginalformat, get_KeepOriginalFormat, get_KeepOriginalFormat method [COM], get_KeepOriginalFormat method [COM],IPicture interface, ocidl/IPicture::get_KeepOriginalFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

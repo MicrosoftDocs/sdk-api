@@ -7,7 +7,7 @@ old-location: com\ilog_force.htm
 tech.root: com
 ms.assetid: 91df6049-37ce-4a46-b401-9af7d9c09f14
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: Force, Force method [COM], Force method [COM],ILog interface, ILog interface [COM],Force method, ILog.Force, ILog::Force, _com_ilog_force, com.ilog_force, txlogpub/ILog::Force
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1contextinternal_loadvertexshader.htm
 tech.root: direct2d
 ms.assetid: 60D3DB1B-D347-44FC-98F9-545D4213F1F0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1EffectContext interface [Direct2D],LoadVertexShader method, ID2D1EffectContext.LoadVertexShader, ID2D1EffectContext::LoadVertexShader, LoadVertexShader, LoadVertexShader method [Direct2D], LoadVertexShader method [Direct2D],ID2D1EffectContext interface, d2d1effectauthor/ID2D1EffectContext::LoadVertexShader, direct2d.id2d1contextinternal_loadvertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

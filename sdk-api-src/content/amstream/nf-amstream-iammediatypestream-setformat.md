@@ -7,7 +7,7 @@ old-location: dshow\iammediatypestream_setformat.htm
 tech.root: DirectShow
 ms.assetid: 12ac4490-c12c-428a-939f-adf25a77b9e4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IAMMediaTypeStream interface [DirectShow],SetFormat method, IAMMediaTypeStream.SetFormat, IAMMediaTypeStream::SetFormat, IAMMediaTypeStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMMediaTypeStream interface, amstream/IAMMediaTypeStream::SetFormat, dshow.iammediatypestream_setformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

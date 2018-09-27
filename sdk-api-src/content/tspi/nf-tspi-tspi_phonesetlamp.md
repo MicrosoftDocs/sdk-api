@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonesetlamp.htm
 tech.root: tapi
 ms.assetid: d525b5d2-f5f8-490b-9db8-06881060efe5
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: TSPI_phoneSetLamp, TSPI_phoneSetLamp function [TAPI 2.2], _tspi_tspi_phonesetlamp, tspi.tspi_phonesetlamp, tspi/TSPI_phoneSetLamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

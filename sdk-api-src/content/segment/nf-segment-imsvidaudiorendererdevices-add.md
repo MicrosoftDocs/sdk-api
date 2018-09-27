@@ -4,10 +4,10 @@ title: IMSVidAudioRendererDevices::Add
 author: windows-sdk-content
 description: The Add method adds an audio renderer to the collection.
 old-location: mstv\imsvidaudiorendererdevices_add.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 663ca24a-9f27-4642-b8e1-901f93090bd7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, IMSVidAudioRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidAudioRendererDevices.Add, IMSVidAudioRendererDevices::Add, IMSVidAudioRendererDevicesAdd, mstv.imsvidaudiorendererdevices_add, segment/IMSVidAudioRendererDevices::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

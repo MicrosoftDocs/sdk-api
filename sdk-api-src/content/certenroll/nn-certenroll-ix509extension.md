@@ -4,10 +4,10 @@ title: IX509Extension
 author: windows-sdk-content
 description: Can be used to define an extension for a certificate request.
 old-location: security\ix509extension.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: f04e3f63-c826-4401-a1c8-b2614e0dc374
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509Extension, IX509Extension interface [Security], IX509Extension interface [Security],described, certenroll/IX509Extension, security.ix509extension
 ms.prod: windows
 ms.technology: windows-sdk

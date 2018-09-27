@@ -7,7 +7,7 @@ old-location: cmpapi\closecompressor.htm
 tech.root: cmpapi
 ms.assetid: 098cf0b9-cd42-4a40-b30f-d7364d067e41
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/29/2018
 ms.keywords: CloseCompressor, CloseCompressor function [Compression API], cmpapi.closecompressor, compressapi/CloseCompressor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itterminal_get_terminaltype.htm
 tech.root: tapi
 ms.assetid: b6f33151-2415-4f24-b84b-7f2ce724db5b
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_TerminalType method, ITTerminal.get_TerminalType, ITTerminal::get_TerminalType, _tapi3_itterminal_get_terminaltype, get_TerminalType, get_TerminalType method [TAPI 2.2], get_TerminalType method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_terminaltype, tapi3if/ITTerminal::get_TerminalType
 ms.prod: windows-hardware
 ms.technology: windows-devices

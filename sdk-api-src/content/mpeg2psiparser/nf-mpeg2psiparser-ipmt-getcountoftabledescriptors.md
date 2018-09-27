@@ -4,10 +4,10 @@ title: IPMT::GetCountOfTableDescriptors
 author: windows-sdk-content
 description: The GetCountOfTableDescriptors method returns the number of table-wide descriptors in the PMT.
 old-location: mstv\ipmt_getcountoftabledescriptors.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e1f91a13-afec-4703-8f1c-be64c8a8b8f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IPMT.GetCountOfTableDescriptors, IPMT::GetCountOfTableDescriptors, IPMTGetCountOfTableDescriptors, mpeg2psiparser/IPMT::GetCountOfTableDescriptors, mstv.ipmt_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

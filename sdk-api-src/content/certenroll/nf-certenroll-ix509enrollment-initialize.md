@@ -4,10 +4,10 @@ title: IX509Enrollment::Initialize
 author: windows-sdk-content
 description: Initializes the enrollment object and creates a default PKCS #10 request.
 old-location: security\ix509enrollment_initialize_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 3bf4ce4a-6556-403c-8334-a6bf01f074a3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509Enrollment interface [Security],Initialize method, IX509Enrollment.Initialize, IX509Enrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Initialize, security.ix509enrollment_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

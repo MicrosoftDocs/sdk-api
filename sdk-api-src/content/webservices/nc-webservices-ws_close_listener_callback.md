@@ -7,7 +7,7 @@ old-location: wsw\ws_close_listener_callback.htm
 tech.root: wsw
 ms.assetid: 9a5d6b10-b4c8-41ba-9b69-4537e44416df
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_CLOSE_LISTENER_CALLBACK, WS_CLOSE_LISTENER_CALLBACK callback, WS_CLOSE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_LISTENER_CALLBACK, wsw.ws_close_listener_callback
 ms.prod: windows
 ms.technology: windows-sdk

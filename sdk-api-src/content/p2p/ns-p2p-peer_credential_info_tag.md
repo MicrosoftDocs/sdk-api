@@ -7,7 +7,7 @@ old-location: p2p\peer_credential_info.htm
 tech.root: p2psdk
 ms.assetid: c47bb38d-eafd-4218-8ac7-1c54ed6948ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PPEER_CREDENTIAL_INFO, PEER_CREDENTIAL_INFO, PEER_CREDENTIAL_INFO structure [Peer Networking], PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PPEER_CREDENTIAL_INFO, PPEER_CREDENTIAL_INFO structure pointer [Peer Networking], p2p.peer_credential_info, p2p/PEER_CREDENTIAL_INFO, p2p/PPEER_CREDENTIAL_INFO, peer_credential_info_tag"
 ms.prod: windows
 ms.technology: windows-sdk

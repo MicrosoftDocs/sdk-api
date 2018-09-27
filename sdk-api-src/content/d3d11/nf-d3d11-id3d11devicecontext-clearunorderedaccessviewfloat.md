@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_clearunorderedaccessviewfloat.htm
 tech.root: direct3d11
 ms.assetid: c93d8638-c624-402a-8e14-c85aa7b69930
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 2a51f18d-5ea4-ef19-5a3f-a879736bdf6a, ClearUnorderedAccessViewFloat, ClearUnorderedAccessViewFloat method [Direct3D 11], ClearUnorderedAccessViewFloat method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearUnorderedAccessViewFloat method, ID3D11DeviceContext.ClearUnorderedAccessViewFloat, ID3D11DeviceContext::ClearUnorderedAccessViewFloat, d3d11/ID3D11DeviceContext::ClearUnorderedAccessViewFloat, direct3d11.id3d11devicecontext_clearunorderedaccessviewfloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

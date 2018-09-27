@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_get_polarity.htm
 tech.root: devio
 ms.assetid: 834C7CBA-179E-4C1E-9664-A70EB38D74BE
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
 ms.prod: windows
 ms.technology: windows-sdk

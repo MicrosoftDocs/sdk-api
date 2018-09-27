@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner.htm
 tech.root: WMP
 ms.assetid: 2078ebd4-3570-4c39-9081-1b55d9e8286f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], IWMPContentPartner interface [Windows Media Player],described, IWMPContentPartnerInterface, contentpartner/IWMPContentPartner, wmp.iwmpcontentpartner
 ms.prod: windows
 ms.technology: windows-sdk

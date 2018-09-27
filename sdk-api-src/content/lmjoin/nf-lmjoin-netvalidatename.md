@@ -7,7 +7,7 @@ old-location: netmgmt\netvalidatename.htm
 tech.root: netmgmt
 ms.assetid: 772603df-ec17-4a83-a715-2d9a14d5c2bb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetSetupDnsMachine, NetSetupDomain, NetSetupMachine, NetSetupNonExistentDomain, NetSetupUnknown, NetSetupWorkgroup, NetValidateName, NetValidateName function [Network Management], _win32_netvalidatename, lmjoin/NetValidateName, netmgmt.netvalidatename
 ms.prod: windows-hardware
 ms.technology: windows-devices

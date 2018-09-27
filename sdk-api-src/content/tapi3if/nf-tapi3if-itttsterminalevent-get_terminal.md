@@ -7,7 +7,7 @@ old-location: tapi3\itttsterminalevent_get_terminal.htm
 tech.root: tapi
 ms.assetid: ce37e074-8ce0-4fde-b16a-c85a9487f0db
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITTTSTerminalEvent interface [TAPI 2.2],get_Terminal method, ITTTSTerminalEvent.get_Terminal, ITTTSTerminalEvent::get_Terminal, _tapi3_itttsterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITTTSTerminalEvent interface, tapi3.itttsterminalevent_get_terminal, tapi3if/ITTTSTerminalEvent::get_Terminal
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itcollection_get_count.htm
 tech.root: tapi
 ms.assetid: 253c09db-4b64-43d0-8040-b3a2ab95af30
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get_Count method, ITCollection.get_Count, ITCollection::get_Count, _tapi3_itcollection_get_count, get_Count, get_Count method [TAPI 2.2], get_Count method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get_count, tapi3if/ITCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

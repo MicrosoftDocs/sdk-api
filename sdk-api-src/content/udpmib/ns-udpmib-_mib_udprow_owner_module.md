@@ -4,10 +4,10 @@ title: "_MIB_UDPROW_OWNER_MODULE"
 author: windows-sdk-content
 description: Contains an entry from the IPv4 User Datagram Protocol (UDP) listener table on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
 old-location: mib\mib_udprow_owner_module.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: 9ae304e0-4653-4757-a823-d4ccf68627bf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE structure [MIB], PMIB_UDPROW_OWNER_MODULE, PMIB_UDPROW_OWNER_MODULE structure pointer [MIB], _MIB_UDPROW_OWNER_MODULE, iprtrmib/MIB_UDPROW_OWNER_MODULE, iprtrmib/PMIB_UDPROW_OWNER_MODULE, mib.mib_udprow_owner_module, udpmib/MIB_UDPROW_OWNER_MODULE, udpmib/PMIB_UDPROW_OWNER_MODULE"
 ms.prod: windows
 ms.technology: windows-sdk

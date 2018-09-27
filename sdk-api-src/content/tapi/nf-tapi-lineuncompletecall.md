@@ -7,7 +7,7 @@ old-location: tapi2\lineuncompletecall.htm
 tech.root: tapi
 ms.assetid: e6b87d84-071c-4b75-afbf-569a5a861e3a
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: "_tapi2_lineuncompletecall, lineUncompleteCall, lineUncompleteCall function [TAPI 2.2], tapi/lineUncompleteCall, tapi2.lineuncompletecall"
 ms.prod: windows-hardware
 ms.technology: windows-devices

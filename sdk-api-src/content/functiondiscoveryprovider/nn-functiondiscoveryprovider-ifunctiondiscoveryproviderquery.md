@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryproviderquery.htm
 tech.root: fundisc
 ms.assetid: 97468045-faa5-4690-8db5-50ee9656517b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IFunctionDiscoveryProviderQuery, IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery, ncd.ifunctiondiscoveryproviderquery
 ms.prod: windows
 ms.technology: windows-sdk

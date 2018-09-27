@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclock.htm
 tech.root: CoreAudio
 ms.assetid: dbec9468-b555-42a0-a988-dec3a66c9f96
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/25/2018
 ms.keywords: IAudioClock, IAudioClock interface [Core Audio], IAudioClock interface [Core Audio],described, audioclient/IAudioClock, coreaudio.iaudioclock
 ms.prod: windows
 ms.technology: windows-sdk

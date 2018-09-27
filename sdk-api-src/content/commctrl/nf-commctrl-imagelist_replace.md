@@ -4,10 +4,10 @@ title: ImageList_Replace function
 author: windows-sdk-content
 description: Replaces an image in an image list with a new image.
 old-location: controls\ImageList_Replace.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_replace.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ImageList_Replace, ImageList_Replace function [Windows Controls], _win32_ImageList_Replace, _win32_ImageList_Replace_cpp, commctrl/ImageList_Replace, controls.ImageList_Replace, controls._win32_ImageList_Replace
 ms.prod: windows-hardware
 ms.technology: windows-devices

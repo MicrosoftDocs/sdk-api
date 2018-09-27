@@ -4,10 +4,10 @@ title: ISdoMachine::GetServiceSDO
 author: windows-sdk-content
 description: The GetServiceSDO method retrieves a Server Data Object (SDO) for the specified service.
 old-location: nps\SDO_isdomachine_getservicesdo.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: 265f034a-78be-4792-958e-80ad7a71d1a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ""IAS", "RemoteAccess", GetServiceSDO, GetServiceSDO method [Network Policy Server], GetServiceSDO method [Network Policy Server],ISdoMachine interface, GetServiceSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetServiceSDO method, ISdoMachine.GetServiceSDO, ISdoMachine::GetServiceSDO, SdoMachine object [Network Policy Server],GetServiceSDO method, _sdo_isdomachine_getservicesdo, nps.SDO_isdomachine_getservicesdo, sdo.isdomachine_getservicesdo, sdoias/ISdoMachine::GetServiceSDO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

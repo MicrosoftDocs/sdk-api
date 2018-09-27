@@ -7,7 +7,7 @@ old-location: wsw\ws_free_channel_callback.htm
 tech.root: wsw
 ms.assetid: f1781c50-824e-4b79-91b6-97e31581617a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_FREE_CHANNEL_CALLBACK, WS_FREE_CHANNEL_CALLBACK callback, WS_FREE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_CHANNEL_CALLBACK, wsw.ws_free_channel_callback
 ms.prod: windows
 ms.technology: windows-sdk

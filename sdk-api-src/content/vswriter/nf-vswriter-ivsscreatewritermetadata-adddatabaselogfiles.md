@@ -101,7 +101,7 @@ Pointer to a <b>null</b>-terminated wide character string containing the file sp
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
 
 
-#### - dwBackupTypeMask [in]
+### -param dwBackupTypeMask [in]
 
 A bit mask (or bitwise OR) of 
 <a href="https://msdn.microsoft.com/41ba60f7-d621-478a-a24a-202d326ebf2c">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 

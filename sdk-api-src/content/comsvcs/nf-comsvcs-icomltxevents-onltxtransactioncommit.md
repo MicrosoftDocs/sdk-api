@@ -7,7 +7,7 @@ old-location: cos\icomltxevents_onltxtransactioncommit.htm
 tech.root: cossdk
 ms.assetid: c3462a79-6056-4a57-b971-78d8b4bd2a70
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionCommit method, IComLTxEvents.OnLtxTransactionCommit, IComLTxEvents::OnLtxTransactionCommit, OnLtxTransactionCommit, OnLtxTransactionCommit method [COM+], OnLtxTransactionCommit method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionCommit, cos.icomltxevents_onltxtransactioncommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

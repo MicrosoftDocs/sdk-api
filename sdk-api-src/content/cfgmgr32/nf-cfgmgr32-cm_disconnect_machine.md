@@ -7,7 +7,7 @@ old-location: devinst\cm_disconnect_machine.htm
 tech.root: devinst
 ms.assetid: 8318eb7e-f0fa-4b2a-b82d-e8f830665c9d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: CM_Disconnect_Machine, CM_Disconnect_Machine function [Device and Driver Installation], cfgmgr32/CM_Disconnect_Machine, cfgmgrfn_e3549f15-0066-4ace-9b50-45ecf20cce87.xml, devinst.cm_disconnect_machine
 ms.prod: windows-hardware
 ms.technology: windows-devices

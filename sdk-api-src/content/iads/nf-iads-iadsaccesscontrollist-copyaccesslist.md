@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist_copyaccesslist.htm
 tech.root: ADSI
 ms.assetid: 3f4c89ec-1144-4886-981a-75353d2dfe8b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: CopyAccessList, CopyAccessList method [ADSI], CopyAccessList method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],CopyAccessList method, IADsAccessControlList.CopyAccessList, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList
 ms.prod: windows-hardware
 ms.technology: windows-devices

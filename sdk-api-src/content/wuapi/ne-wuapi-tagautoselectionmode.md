@@ -7,7 +7,7 @@ old-location: wua\autoselectionmode.htm
 tech.root: wua_sdk
 ms.assetid: 847fd8a3-eb00-43f7-a89f-579cd79d0620
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: AutoSelectionMode, AutoSelectionMode enumeration [Windows Update Agent], asAlwaysAutoSelect, asAutoSelectIfDownloaded, asLetWindowsUpdateDecide, asNeverAutoSelect, tagAutoSelectionMode, wua.autoselectionmode, wuapi/AutoSelectionMode, wuapi/asAlwaysAutoSelect, wuapi/asAutoSelectIfDownloaded, wuapi/asLetWindowsUpdateDecide, wuapi/asNeverAutoSelect
 ms.prod: windows
 ms.technology: windows-sdk

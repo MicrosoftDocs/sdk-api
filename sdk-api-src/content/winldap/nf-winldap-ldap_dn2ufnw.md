@@ -4,10 +4,10 @@ title: ldap_dn2ufnW function
 author: windows-sdk-content
 description: Converts a distinguished name to a user-friendly format.
 old-location: ldap\ldap_dn2ufn.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 6c9c943f-304a-496c-bac4-283b6c717774
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "_ldap_ldap_dn2ufn, ldap.ldap__dn2ufn, ldap.ldap_dn2ufn, ldap_dn2ufn, ldap_dn2ufn function [LDAP], ldap_dn2ufnA, ldap_dn2ufnW, winldap/ldap_dn2ufn, winldap/ldap_dn2ufnA, winldap/ldap_dn2ufnW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamcachecontrol2.htm
 tech.root: medfound
 ms.assetid: A901F679-B6F2-4DB7-8EFC-EA61249B64FB
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFByteStreamCacheControl2, IMFByteStreamCacheControl2 interface [Media Foundation], IMFByteStreamCacheControl2 interface [Media Foundation],described, mf.imfbytestreamcachecontrol2, mfidl/IMFByteStreamCacheControl2
 ms.prod: windows
 ms.technology: windows-sdk

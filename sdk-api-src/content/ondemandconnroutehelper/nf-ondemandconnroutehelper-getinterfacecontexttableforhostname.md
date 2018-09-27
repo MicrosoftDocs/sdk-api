@@ -4,10 +4,10 @@ title: GetInterfaceContextTableForHostName function
 author: windows-sdk-content
 description: This function retrieves an interface context table for the given hostname and connection profile filter.
 old-location: nla\getinterfacecontexttableforhostname.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetInterfaceContextTableForHostName, GetInterfaceContextTableForHostName function [Network Awareness], nla.getinterfacecontexttableforhostname, ondemandconnroutehelper/GetInterfaceContextTableForHostName
 ms.prod: windows-hardware
 ms.technology: windows-devices

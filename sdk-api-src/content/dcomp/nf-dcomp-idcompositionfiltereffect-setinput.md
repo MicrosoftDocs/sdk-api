@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionfiltereffect_setinput.htm
 tech.root: directcomp
 ms.assetid: 8DFF137E-2979-42D4-A8A5-F831A33468CA
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionFilterEffect interface [DirectComposition],SetInput method, IDCompositionFilterEffect.SetInput, IDCompositionFilterEffect::SetInput, SetInput, SetInput method [DirectComposition], SetInput method [DirectComposition],IDCompositionFilterEffect interface, dcomp/IDCompositionFilterEffect::SetInput, directcomp.idcompositionfiltereffect_setinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

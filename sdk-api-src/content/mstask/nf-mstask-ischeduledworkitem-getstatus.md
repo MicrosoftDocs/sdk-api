@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetStatus
 author: windows-sdk-content
 description: Retrieves the status of the work item.
 old-location: taskschd\ischeduledworkitem_getstatus.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: fb0bc52c-ae50-4c14-864d-099f2903adfb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: GetStatus, GetStatus method [Task Scheduler], GetStatus method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetStatus method, IScheduledWorkItem.GetStatus, IScheduledWorkItem::GetStatus, _msb_ischeduledworkitem_getstatus, mstask/IScheduledWorkItem::GetStatus, taskschd.ischeduledworkitem_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

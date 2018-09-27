@@ -7,7 +7,7 @@ old-location: com\idroptarget_drop.htm
 tech.root: com
 ms.assetid: 7ea6d815-bf8f-47d5-99d3-f9a55bafee2e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: Drop, Drop method [COM], Drop method [COM],IDropTarget interface, IDropTarget interface [COM],Drop method, IDropTarget.Drop, IDropTarget::Drop, _ole_idroptarget_drop, com.idroptarget_drop, oleidl/IDropTarget::Drop
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_MIB_IF_TABLE_LEVEL"
 author: windows-sdk-content
 description: The MIB_IF_TABLE_LEVEL enumeration type defines the level of interface information to retrieve.
 old-location: netvista\mib_if_table_level.htm
-tech.root: netvista
+tech.root: NetVista
 ms.assetid: ffbde22e-9851-4acd-b820-b71f2788b4d2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: "*PMIB_IF_TABLE_LEVEL, MIB_IF_TABLE_LEVEL, MIB_IF_TABLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], MibIfTableNormal, MibIfTableNormalWithoutStatistics, MibIfTableRaw, PMIB_IF_TABLE_LEVEL, PMIB_IF_TABLE_LEVEL enumeration pointer [Network Drivers Starting with Windows Vista], _MIB_IF_TABLE_LEVEL, _MIB_IF_TABLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], iphelper_5f6cb0fa-b27b-45b6-882c-bb9852020775.xml, netioapi/MibIfTableNormal, netioapi/MibIfTableNormalWithoutStatistics, netioapi/MibIfTableRaw, netioapi/PMIB_IF_TABLE_LEVEL, netioapi/_MIB_IF_TABLE_LEVEL, netvista.mib_if_table_level"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLines_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinesmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: DrawLines, DrawLines methods [GDI+], Graphics.DrawLines, Graphics.DrawLines(IN const Pen,IN const PointF,IN INT), Graphics::DrawLines, Graphics::DrawLines(IN const Pen,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_DrawLines_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawLines_Methods, gdiplusgraphics/DrawLines
 ms.prod: windows-hardware
 ms.technology: windows-devices

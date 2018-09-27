@@ -7,7 +7,7 @@ old-location: display\ifiextra.htm
 tech.root: display
 ms.assetid: acca1291-9f58-4520-a4ec-52dc9062630b
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*PIFIEXTRA, IFIEXTRA, IFIEXTRA structure [Display Devices], PIFIEXTRA, PIFIEXTRA structure pointer [Display Devices], _IFIEXTRA, display.ifiextra, grstrcts_6e899cbd-3ebb-4f19-8d04-3e0ca9215fea.xml, winddi/IFIEXTRA, winddi/PIFIEXTRA"
 ms.prod: windows
 ms.technology: windows-sdk

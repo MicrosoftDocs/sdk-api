@@ -4,10 +4,10 @@ title: GetNotificationResourceManagerAsync function
 author: windows-sdk-content
 description: Requests and receives asynchronous notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state.
 old-location: fs\getnotificationresourcemanagerasync.htm
-tech.root: ktm
+tech.root: Ktm
 ms.assetid: c83e104b-6cd7-4399-8232-7c2e7b408f1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetNotificationResourceManagerAsync, GetNotificationResourceManagerAsync function [Files], fs.getnotificationresourcemanagerasync, ktmw32/GetNotificationResourceManagerAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

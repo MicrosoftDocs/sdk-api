@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_IntSafeArrayToNativeArray.htm
 tech.root: WinAuto
 ms.assetid: 422b1bfc-5f67-4ba5-b573-d3dce9b6d806
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],IntSafeArrayToNativeArray method, IUIAutomation.IntSafeArrayToNativeArray, IUIAutomation::IntSafeArrayToNativeArray, IntSafeArrayToNativeArray, IntSafeArrayToNativeArray method [Windows Accessibility], IntSafeArrayToNativeArray method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_IntSafeArrayToNativeArray, uiauto_IUIAutomation_IntSafeArrayToNativeArray, uiautomationclient/IUIAutomation::IntSafeArrayToNativeArray, winauto.uiauto_IUIAutomation_IntSafeArrayToNativeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WlanGetInterfaceCapability function
 author: windows-sdk-content
 description: Retrieves the capabilities of an interface.
 old-location: nwifi\wlangetinterfacecapability.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 09f8273a-5259-44fa-b55e-af3282735c0b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WlanGetInterfaceCapability, WlanGetInterfaceCapability function [NativeWIFI], nwifi.wlangetinterfacecapability, wlanapi/WlanGetInterfaceCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

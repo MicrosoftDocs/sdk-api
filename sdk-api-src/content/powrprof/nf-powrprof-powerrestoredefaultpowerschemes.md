@@ -7,7 +7,7 @@ old-location: base\powerrestoredefaultpowerschemes.htm
 tech.root: power
 ms.assetid: 6d0a6167-34de-439b-afb4-2536c715905c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/14/2018
 ms.keywords: PowerRestoreDefaultPowerSchemes, PowerRestoreDefaultPowerSchemes function, base.powerrestoredefaultpowerschemes, powrprof/PowerRestoreDefaultPowerSchemes
 ms.prod: windows-hardware
 ms.technology: windows-devices

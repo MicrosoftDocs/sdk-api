@@ -7,7 +7,7 @@ old-location: battery\battery_wmi_temperature.htm
 tech.root: battery
 ms.assetid: 341DA703-EB96-4680-AFB8-68043988AF56
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PBATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE structure [Battery Devices], PBATTERY_WMI_TEMPERATURE, PBATTERY_WMI_TEMPERATURE structure pointer [Battery Devices], _BATTERY_WMI_TEMPERATURE, batclass/BATTERY_WMI_TEMPERATURE, batclass/PBATTERY_WMI_TEMPERATURE, battery.battery_wmi_temperature"
 ms.prod: windows
 ms.technology: windows-sdk

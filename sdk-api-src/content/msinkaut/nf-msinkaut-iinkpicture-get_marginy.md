@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_marginy.htm
 tech.root: tablet
 ms.assetid: f5320061-36c7-4dcb-b5d3-3df41ddcac2a
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: IInkPicture interface [Tablet PC],MarginY property, IInkPicture.MarginY, IInkPicture.get_MarginY, IInkPicture::MarginY, IInkPicture::get_MarginY, IInkPicture::put_MarginY, InkPicture.get_MarginY, InkPicture.put_MarginY, MarginY property [Tablet PC], MarginY property [Tablet PC],IInkPicture interface, get_MarginY, msinkaut/IInkPicture::MarginY, msinkaut/IInkPicture::get_MarginY, msinkaut/IInkPicture::put_MarginY, put_MarginY, tablet.inkpicture_marginy
 ms.prod: windows-hardware
 ms.technology: windows-devices

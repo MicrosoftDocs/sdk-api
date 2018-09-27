@@ -7,7 +7,7 @@ old-location: base\getlogicalprocessorinformation.htm
 tech.root: procthread
 ms.assetid: 904d2d35-f419-4e8f-a689-f39ed926644c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

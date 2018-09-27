@@ -7,7 +7,7 @@ old-location: base\getexitcodeprocess.htm
 tech.root: procthread
 ms.assetid: 210f7595-ac12-4bb2-bd77-819649ebec10
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: GetExitCodeProcess, GetExitCodeProcess function, _win32_getexitcodeprocess, base.getexitcodeprocess, processthreadsapi/GetExitCodeProcess, winbase/GetExitCodeProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

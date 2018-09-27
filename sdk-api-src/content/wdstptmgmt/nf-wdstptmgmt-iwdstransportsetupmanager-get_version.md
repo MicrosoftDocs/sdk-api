@@ -4,10 +4,10 @@ title: IWdsTransportSetupManager::get_Version
 author: windows-sdk-content
 description: Receives a value that indicates the operating system version of the WDS server.
 old-location: wds\iwdstransportsetupmanager_version.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 0477a219-0300-41de-bd2a-83052bd7b90f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Version property, IWdsTransportSetupManager.Version, IWdsTransportSetupManager.get_Version, IWdsTransportSetupManager::Version, IWdsTransportSetupManager::get_Version, Version property [Windows Deployment Services], Version property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Version, wds.iwdstransportsetupmanager_version, wdstptmgmt/IWdsTransportSetupManager::Version, wdstptmgmt/IWdsTransportSetupManager::get_Version
 ms.prod: windows-hardware
 ms.technology: windows-devices

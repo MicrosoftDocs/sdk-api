@@ -7,7 +7,7 @@ old-location: indexsrv\dbcontent.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_569g.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/30/2018
 ms.keywords: DBCONTENT, DBCONTENT structure [Indexing Service], _idxs_DBCONTENT, cmdtree/DBCONTENT, indexsrv.dbcontent, tagDBCONTENT
 ms.prod: windows
 ms.technology: windows-sdk

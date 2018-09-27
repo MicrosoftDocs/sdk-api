@@ -4,10 +4,10 @@ title: WlxNetworkProviderLoad function
 author: windows-sdk-content
 description: Winlogon calls this function to collect valid authentication and identification information.
 old-location: security\wlxnetworkproviderload.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: d9a39211-f876-46d8-9a7c-c6bb3ba9edfe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: WlxNetworkProviderLoad, WlxNetworkProviderLoad function [Security], _gina_wlxnetworkproviderload, security.wlxnetworkproviderload, winwlx/WlxNetworkProviderLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices

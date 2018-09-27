@@ -7,7 +7,7 @@ old-location: mscs\addclusterresourcenode.htm
 tech.root: mscs
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AddClusterResourceNode, AddClusterResourceNode function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE function [Failover Cluster], _wolf_addclusterresourcenode, clusapi/AddClusterResourceNode, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, mscs.addclusterresourcenode
 ms.prod: windows-hardware
 ms.technology: windows-devices

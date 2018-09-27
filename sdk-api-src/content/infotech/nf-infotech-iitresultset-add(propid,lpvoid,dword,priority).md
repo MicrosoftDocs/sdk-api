@@ -7,7 +7,7 @@ old-location: htmlhelp\iitresultset_add2.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetaddbuffer.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/30/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,LPVOID,DWORD,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,LPVOID,DWORD,PRIORITY), htmlhelp.iitresultset_add2, infotech/IITResultSet::Add, refIITResultSetAddBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

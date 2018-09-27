@@ -7,7 +7,7 @@ old-location: tapi3\ittoneterminalevent_get_call.htm
 tech.root: tapi
 ms.assetid: adbbce76-827d-439c-865d-9dcfe40c9722
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Call method, ITToneTerminalEvent.get_Call, ITToneTerminalEvent::get_Call, _tapi3_ittoneterminalevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_call, tapi3if/ITToneTerminalEvent::get_Call
 ms.prod: windows-hardware
 ms.technology: windows-devices

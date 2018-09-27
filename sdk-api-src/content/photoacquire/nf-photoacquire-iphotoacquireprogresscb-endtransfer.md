@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_endtransfer.htm
 tech.root: acquisition
 ms.assetid: 9e0fada0-6c83-4e82-a3ac-c5a4832f053f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: EndTransfer, EndTransfer method [Picture Acquisition], EndTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndTransfer method, IPhotoAcquireProgressCB.EndTransfer, IPhotoAcquireProgressCB::EndTransfer, IPhotoAcquireProgressCBEndTransfer, photoacquire/IPhotoAcquireProgressCB::EndTransfer, picacq.iphotoacquireprogresscb_endtransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

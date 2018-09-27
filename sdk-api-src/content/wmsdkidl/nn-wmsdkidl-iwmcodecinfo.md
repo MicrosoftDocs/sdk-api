@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo.htm
 tech.root: wmformat
 ms.assetid: 70661d13-737a-4e83-94e6-9a1af07b0369
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMCodecInfo, IWMCodecInfo interface [windows Media Format], IWMCodecInfo interface [windows Media Format],described, IWMCodecInfoInterface, wmformat.iwmcodecinfo, wmsdkidl/IWMCodecInfo
 ms.prod: windows
 ms.technology: windows-sdk

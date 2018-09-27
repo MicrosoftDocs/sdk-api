@@ -4,10 +4,10 @@ title: IBDA_GuideDataDeliveryService::RequestGuideDataUpdate
 author: windows-sdk-content
 description: Requests updated guide data from the media transform device (MTD).
 old-location: mstv\ibda_guidedatadeliveryservice_requestguidedataupdate.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e9aee857-237a-4bfd-85c2-3d5850f37ce7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],RequestGuideDataUpdate method, IBDA_GuideDataDeliveryService.RequestGuideDataUpdate, IBDA_GuideDataDeliveryService::RequestGuideDataUpdate, RequestGuideDataUpdate, RequestGuideDataUpdate method [Microsoft TV Technologies], RequestGuideDataUpdate method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, bdaiface/IBDA_GuideDataDeliveryService::RequestGuideDataUpdate, mstv.ibda_guidedatadeliveryservice_requestguidedataupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

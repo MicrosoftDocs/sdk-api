@@ -7,7 +7,7 @@ old-location: display\fontobj.htm
 tech.root: display
 ms.assetid: 09af2006-51f1-433e-9227-3c99b9860e75
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/14/2018
 ms.keywords: FONTOBJ, FONTOBJ structure [Display Devices], _FONTOBJ, display.fontobj, grstrcts_245faf9a-31c1-4b75-aa97-c4646022cea6.xml, winddi/FONTOBJ
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi2\lineagentspecific.htm
 tech.root: tapi
 ms.assetid: 4a1f2be4-4465-418a-9717-3857acf930a4
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: "_tapi2_lineagentspecific, lineAgentSpecific, lineAgentSpecific function [TAPI 2.2], tapi/lineAgentSpecific, tapi2.lineagentspecific"
 ms.prod: windows-hardware
 ms.technology: windows-devices

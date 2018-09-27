@@ -7,7 +7,7 @@ old-location: imapi\iblockrange.htm
 tech.root: imapi
 ms.assetid: abebc651-0575-4b76-9fe8-2cea3d617582
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBlockRange, IBlockRange interface [IMAPI], IBlockRange interface [IMAPI],described, imapi.iblockrange, imapi2/IBlockRange
 ms.prod: windows
 ms.technology: windows-sdk

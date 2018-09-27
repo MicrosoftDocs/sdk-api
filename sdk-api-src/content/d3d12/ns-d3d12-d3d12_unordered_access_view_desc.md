@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_unordered_access_view_desc.htm
 tech.root: direct3d12
 ms.assetid: 0C3A31FE-625D-4CB3-87FD-D2C33D008DD4
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_UNORDERED_ACCESS_VIEW_DESC, D3D12_UNORDERED_ACCESS_VIEW_DESC structure, d3d12/D3D12_UNORDERED_ACCESS_VIEW_DESC, direct3d12.d3d12_unordered_access_view_desc
 ms.prod: windows
 ms.technology: windows-sdk

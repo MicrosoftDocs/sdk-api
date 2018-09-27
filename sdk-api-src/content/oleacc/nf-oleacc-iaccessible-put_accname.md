@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_put_accname.htm
 tech.root: WinAuto
 ms.assetid: 562df006-cbde-407b-b539-f86cb3403a97
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accName method, IAccessible.put_accName, IAccessible::put_accName, oleacc/IAccessible::put_accName, put_accName, put_accName method [Windows Accessibility], put_accName method [Windows Accessibility],IAccessible interface, winauto.iaccessible_put_accname
 ms.prod: windows-hardware
 ms.technology: windows-devices

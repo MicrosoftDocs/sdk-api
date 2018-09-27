@@ -7,7 +7,7 @@ old-location: ad\idsdisplayspecifier.htm
 tech.root: ad
 ms.assetid: a6ac7006-73b8-4673-89d6-8285453481d3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: IDsDisplaySpecifier, IDsDisplaySpecifier interface [Active Directory], IDsDisplaySpecifier interface [Active Directory],described, _glines_idsdisplayspecifier, ad.idsdisplayspecifier, dsclient/IDsDisplaySpecifier
 ms.prod: windows
 ms.technology: windows-sdk

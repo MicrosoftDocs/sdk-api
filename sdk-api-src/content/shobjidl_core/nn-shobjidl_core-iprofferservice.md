@@ -7,7 +7,7 @@ old-location: shell\IProfferService.htm
 tech.root: shell
 ms.assetid: 91aa5f9a-c276-4822-93e1-9cd2c48ddd9f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IProfferService, IProfferService interface [Windows Shell], IProfferService interface [Windows Shell],described, inet_IProfferService, shell.IProfferService, shobjidl_core/IProfferService
 ms.prod: windows
 ms.technology: windows-sdk

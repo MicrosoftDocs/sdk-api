@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_75sy.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxJob, IFaxJob interface [Fax Service], IFaxJob interface [Fax Service],described, _mfax_ifaxjob, fax._mfax_ifaxjob, faxcom/IFaxJob
 ms.prod: windows
 ms.technology: windows-sdk

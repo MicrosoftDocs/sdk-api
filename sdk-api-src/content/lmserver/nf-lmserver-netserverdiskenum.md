@@ -7,7 +7,7 @@ old-location: netmgmt\netserverdiskenum.htm
 tech.root: netmgmt
 ms.assetid: 56c981f4-7a1d-4465-bd7b-5996222c4210
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetServerDiskEnum, NetServerDiskEnum function [Network Management], _win32_netserverdiskenum, lmserver/NetServerDiskEnum, netmgmt.netserverdiskenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPSEC_DOSP_STATISTICS0_
 author: windows-sdk-content
 description: The IPSEC_DOSP_STATISTICS0 structure.
 old-location: fwp\ipsec_dosp_statistics0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 951b6aa9-ea96-4256-a304-5b753f2a3656
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_DOSP_STATISTICS0, IPSEC_DOSP_STATISTICS0 structure [Filtering], IPSEC_DOSP_STATISTICS0_, fwp.ipsec_dosp_statistics0, ipsectypes/IPSEC_DOSP_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

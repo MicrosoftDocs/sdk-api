@@ -4,10 +4,10 @@ title: WlxLogoff function
 author: windows-sdk-content
 description: Winlogon calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.
 old-location: security\wlxlogoff.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: bbeafd41-fe01-497d-8514-a6c088a11d73
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security.wlxlogoff, winwlx/WlxLogoff
 ms.prod: windows-hardware
 ms.technology: windows-devices

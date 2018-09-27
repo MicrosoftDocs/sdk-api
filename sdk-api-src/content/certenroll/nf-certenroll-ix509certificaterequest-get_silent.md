@@ -4,10 +4,10 @@ title: IX509CertificateRequest::get_Silent
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether any of the key-related modal dialogs are displayed during the certificate enrollment process.
 old-location: security\ix509certificaterequest_silent_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 339c8d47-4406-4f2e-b927-b2dd5f58d1ec
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509CertificateRequest interface [Security],Silent property, IX509CertificateRequest.Silent, IX509CertificateRequest.get_Silent, IX509CertificateRequest::Silent, IX509CertificateRequest::get_Silent, IX509CertificateRequest::put_Silent, Silent property [Security], Silent property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Silent, certenroll/IX509CertificateRequest::get_Silent, certenroll/IX509CertificateRequest::put_Silent, get_Silent, security.ix509certificaterequest_silent_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

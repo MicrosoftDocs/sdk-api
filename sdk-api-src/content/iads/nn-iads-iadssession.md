@@ -7,7 +7,7 @@ old-location: adsi\iadssession.htm
 tech.root: ADSI
 ms.assetid: 54621f0d-7478-4a6f-a96f-f3f93e64b281
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [ADSI],described, _ds_iadssession, adsi.iadssession, iads/IADsSession
 ms.prod: windows
 ms.technology: windows-sdk

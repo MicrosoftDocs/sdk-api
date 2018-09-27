@@ -7,7 +7,7 @@ old-location: shell\IFrameworkInputPane_AdviseWithHWND.htm
 tech.root: shell
 ms.assetid: 6C4F52DC-0ED0-4A2D-9C5F-F29063E1AAEE
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: AdviseWithHWND, AdviseWithHWND method [Windows Shell], AdviseWithHWND method [Windows Shell],IFrameworkInputPane interface, IFrameworkInputPane interface [Windows Shell],AdviseWithHWND method, IFrameworkInputPane.AdviseWithHWND, IFrameworkInputPane::AdviseWithHWND, shell.IFrameworkInputPane_AdviseWithHWND, shobjidl_core/IFrameworkInputPane::AdviseWithHWND
 ms.prod: windows-hardware
 ms.technology: windows-devices

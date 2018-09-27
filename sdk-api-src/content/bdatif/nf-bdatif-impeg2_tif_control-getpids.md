@@ -4,10 +4,10 @@ title: IMPEG2_TIF_CONTROL::GetPIDs
 author: windows-sdk-content
 description: The GetPIDs method retrieves the list of MPEG-2 Packet IDs being filtered into the TIF's input data.
 old-location: mstv\impeg2_tif_control_getpids.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c7ca141b-e471-47ce-96b5-b2c0cad89daf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetPIDs, GetPIDs method [Microsoft TV Technologies], GetPIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],GetPIDs method, IMPEG2_TIF_CONTROL.GetPIDs, IMPEG2_TIF_CONTROL::GetPIDs, IMPEG2_TIF_CONTROLGetPIDs, bdatif/IMPEG2_TIF_CONTROL::GetPIDs, mstv.impeg2_tif_control_getpids
 ms.prod: windows-hardware
 ms.technology: windows-devices

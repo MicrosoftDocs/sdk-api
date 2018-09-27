@@ -7,7 +7,7 @@ old-location: tapi2\tapirequestmakecall.htm
 tech.root: tapi
 ms.assetid: bdbc1565-6570-4fad-890c-fb3965cce452
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: "_tapi2_tapirequestmakecall, tapi/tapiRequestMakeCall, tapi/tapiRequestMakeCallA, tapi/tapiRequestMakeCallW, tapi2.tapirequestmakecall, tapiRequestMakeCall, tapiRequestMakeCall function [TAPI 2.2], tapiRequestMakeCallA, tapiRequestMakeCallW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

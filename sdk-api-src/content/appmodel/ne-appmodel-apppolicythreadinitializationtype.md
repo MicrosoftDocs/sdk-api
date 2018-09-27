@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicythreadinitializationtype_enumeration.htm
 tech.root: appxpkg
 ms.assetid: F31AC156-5C27-4707-898A-3C8125E11FB3
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: AppPolicyThreadInitializationType, AppPolicyThreadInitializationType enumeration [App packaging and management], AppPolicyThreadInitializationType_InitializeWinRT, AppPolicyThreadInitializationType_None, appmodel/AppPolicyThreadInitializationType, appmodel/AppPolicyThreadInitializationType_InitializeWinRT, appmodel/AppPolicyThreadInitializationType_None, appxpkg.apppolicythreadinitializationtype_enumeration
 ms.prod: windows
 ms.technology: windows-sdk

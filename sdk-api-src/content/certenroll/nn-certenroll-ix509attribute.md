@@ -4,10 +4,10 @@ title: IX509Attribute
 author: windows-sdk-content
 description: Can be used to represent an attribute in a PKCS #7, PKCS #10, or CMC certificate request.
 old-location: security\ix509attribute.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 20965768-2c6b-488a-ab7c-5e0f6f28ac9b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509Attribute, IX509Attribute interface [Security], IX509Attribute interface [Security],described, certenroll/IX509Attribute, security.ix509attribute
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IDVB_BAT::GetRecordTransportStreamId
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_getrecordtransportstreamid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: fdb406d1-5242-4f3e-a1c9-b10296d98d67
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_BAT.GetRecordTransportStreamId, IDVB_BAT::GetRecordTransportStreamId, IDVB_BATGetRecordTransportStreamId, dvbsiparser/IDVB_BAT::GetRecordTransportStreamId, mstv.idvb_bat_getrecordtransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices

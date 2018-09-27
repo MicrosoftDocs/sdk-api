@@ -4,10 +4,10 @@ title: "_DFS_INFO_3"
 author: windows-sdk-content
 description: Contains information about a Distributed File System (DFS) root or link. This structure contains the name, status, number of DFS targets, and information about each target of the root or link.
 old-location: dfs\dfs_info_3_str.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: fd60cb52-fa17-4cac-a7e8-9803303336dc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDFS_INFO_3, *PDFS_INFO_3, DFS_INFO_3, DFS_INFO_3 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_3, LPDFS_INFO_3 structure pointer [Distributed File System], PDFS_INFO_3, PDFS_INFO_3 structure pointer [Distributed File System], _DFS_INFO_3, _win32_dfs_info_3_str, dfs.dfs_info_3_str, fs.dfs_info_3_str, lmdfs/DFS_INFO_3, lmdfs/LPDFS_INFO_3, lmdfs/PDFS_INFO_3, netmgmt.dfs_info_3_str"
 ms.prod: windows
 ms.technology: windows-sdk

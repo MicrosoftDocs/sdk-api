@@ -4,10 +4,10 @@ title: UuidCreate function
 author: windows-sdk-content
 description: The UuidCreate function creates a new UUID.
 old-location: rpc\uuidcreate.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 4008fb54-7770-4f1a-8e1c-4b20bef884f9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: UuidCreate, UuidCreate function [RPC], _rpc_uuidcreate, rpc.uuidcreate, rpcdce/UuidCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

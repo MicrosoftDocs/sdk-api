@@ -4,10 +4,10 @@ title: ITuner
 author: windows-sdk-content
 description: The ITuner interface is implemented on the Microsoft BDA Network Provider filters.
 old-location: mstv\ituner.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1bc965a5-6bc9-488a-a2f9-f35d0cfbcccd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interface [Microsoft TV Technologies],described, ITunerInterface, mstv.ituner, tuner/ITuner
 ms.prod: windows
 ms.technology: windows-sdk

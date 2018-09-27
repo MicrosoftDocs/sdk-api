@@ -7,7 +7,7 @@ old-location: imapi\istreampseudorandombased_put_extendedseed.htm
 tech.root: imapi
 ms.assetid: a6edf21f-b89a-4780-8065-4d09758fe701
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],put_ExtendedSeed method, IStreamPseudoRandomBased.put_ExtendedSeed, IStreamPseudoRandomBased::put_ExtendedSeed, imapi.istreampseudorandombased_put_extendedseed, imapi2/IStreamPseudoRandomBased::put_ExtendedSeed, put_ExtendedSeed, put_ExtendedSeed method [IMAPI], put_ExtendedSeed method [IMAPI],IStreamPseudoRandomBased interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

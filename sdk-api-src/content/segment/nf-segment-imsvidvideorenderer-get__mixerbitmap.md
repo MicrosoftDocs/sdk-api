@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::get__MixerBitmap
 author: windows-sdk-content
 description: The get__MixerBitmap method retrieves the Video Mixing Renderer's IVMRMixerBitmap interface, which controls how the VMR mixes a static bitmap.
 old-location: mstv\imsvidvideorenderer_get__mixerbitmap.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 714b8222-ab8b-4ece-8ae5-61bb41a7ed3c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__MixerBitmap method, IMSVidVideoRenderer.get__MixerBitmap, IMSVidVideoRenderer::get__MixerBitmap, IMSVidVideoRendererget__MixerBitmap, get__MixerBitmap, get__MixerBitmap method [Microsoft TV Technologies], get__MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__mixerbitmap, segment/IMSVidVideoRenderer::get__MixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

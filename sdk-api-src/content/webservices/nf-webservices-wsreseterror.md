@@ -7,7 +7,7 @@ old-location: wsw\wsreseterror.htm
 tech.root: wsw
 ms.assetid: a01a65f1-3eca-452c-a10d-dc9c6c3db124
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WsResetError, WsResetError function [Web Services for Windows], webservices/WsResetError, wsw.wsreseterror
 ms.prod: windows-hardware
 ms.technology: windows-devices

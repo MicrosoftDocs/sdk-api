@@ -7,7 +7,7 @@ old-location: p2p\pfnpeer_validate_record.htm
 tech.root: p2psdk
 ms.assetid: 5d81f09b-e46b-43e6-b0a8-ed7c236f2968
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PFNPEER_VALIDATE_RECORD, PFNPEER_VALIDATE_RECORD callback, PFNPEER_VALIDATE_RECORD callback function [Peer Networking], p2p.pfnpeer_validate_record, p2p/PFNPEER_VALIDATE_RECORD
 ms.prod: windows
 ms.technology: windows-sdk

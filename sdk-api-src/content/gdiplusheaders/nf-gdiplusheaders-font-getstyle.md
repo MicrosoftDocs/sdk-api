@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetStyle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Font class [GDI+],GetStyle method, Font.GetStyle, Font::GetStyle, GetStyle, GetStyle method [GDI+], GetStyle method [GDI+],Font class, _gdiplus_CLASS_Font_GetStyle_, gdiplus._gdiplus_CLASS_Font_GetStyle_
 ms.prod: windows-hardware
 ms.technology: windows-devices

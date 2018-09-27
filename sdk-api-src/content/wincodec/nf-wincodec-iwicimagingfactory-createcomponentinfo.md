@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createcomponentinfo.htm
 tech.root: wic
 ms.assetid: c4feebf7-500f-4ab8-85fa-689edfe31846
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateComponentInfo, CreateComponentInfo method [Windows Imaging Component], CreateComponentInfo method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateComponentInfo method, IWICImagingFactory.CreateComponentInfo, IWICImagingFactory::CreateComponentInfo, _wic_codec_iwicimagingfactory_createcomponentinfo, wic._wic_codec_iwicimagingfactory_createcomponentinfo, wincodec/IWICImagingFactory::CreateComponentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

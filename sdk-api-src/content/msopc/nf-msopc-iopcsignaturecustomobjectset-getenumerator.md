@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectset_getenumerator.htm
 tech.root: OPC
 ms.assetid: a365a1df-4c72-44a0-bcf5-8ef19c54f4ee
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignatureCustomObjectSet.GetEnumerator, IOpcSignatureCustomObjectSet::GetEnumerator, msopc/IOpcSignatureCustomObjectSet::GetEnumerator, opc.iopcsignaturecustomobjectset_getenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

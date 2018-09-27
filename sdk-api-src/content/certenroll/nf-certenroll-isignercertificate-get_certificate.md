@@ -4,10 +4,10 @@ title: ISignerCertificate::get_Certificate
 author: windows-sdk-content
 description: Retrieves a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate.
 old-location: security\isignercertificate_certificate_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 7c7cc326-593d-4b2b-b8db-46aaf894279b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],ISignerCertificate interface, ISignerCertificate interface [Security],Certificate property, ISignerCertificate.Certificate, ISignerCertificate.get_Certificate, ISignerCertificate::Certificate, ISignerCertificate::get_Certificate, certenroll/ISignerCertificate::Certificate, certenroll/ISignerCertificate::get_Certificate, get_Certificate, security.isignercertificate_certificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

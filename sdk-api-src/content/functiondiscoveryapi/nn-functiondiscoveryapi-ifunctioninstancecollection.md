@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstancecollection.htm
 tech.root: fundisc
 ms.assetid: 8ac1a406-92f3-4e39-985e-ab8fa7d28751
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IFunctionInstanceCollection, IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,described, functiondiscoveryapi/IFunctionInstanceCollection, ncd.ifunctioninstancecollection
 ms.prod: windows
 ms.technology: windows-sdk

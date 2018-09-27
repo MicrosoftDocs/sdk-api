@@ -4,10 +4,10 @@ title: IEnumOfflineFilesSettings
 author: windows-sdk-content
 description: Enumerates setting objects associated with the Offline Files service.
 old-location: of\ienumofflinefilessettings.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 2d0e45d5-5559-4c2e-9c20-4e5b84b5fbbd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Offline Files], IEnumOfflineFilesSettings interface [Offline Files],described, cscobj/IEnumOfflineFilesSettings, of.ienumofflinefilessettings
 ms.prod: windows
 ms.technology: windows-sdk

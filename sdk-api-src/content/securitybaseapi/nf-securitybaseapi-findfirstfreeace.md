@@ -4,10 +4,10 @@ title: FindFirstFreeAce function
 author: windows-sdk-content
 description: Retrieves a pointer to the first free byte in an access control list (ACL).
 old-location: security\findfirstfreeace.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: bf770761-008a-4a35-b31f-b781d5a8622b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: FindFirstFreeAce, FindFirstFreeAce function [Security], _win32_findfirstfreeace, security.findfirstfreeace, securitybaseapi/FindFirstFreeAce
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itcallhub.htm
 tech.root: tapi
 ms.assetid: bdc91cac-c0ec-4484-a415-8cd1aa1e18e8
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITCallHub, ITCallHub interface [TAPI 2.2], ITCallHub interface [TAPI 2.2],described, _tapi3_itcallhub, tapi3.itcallhub, tapi3if/ITCallHub
 ms.prod: windows
 ms.technology: windows-sdk

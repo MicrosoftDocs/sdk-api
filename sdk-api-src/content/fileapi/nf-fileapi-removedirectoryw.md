@@ -4,10 +4,10 @@ title: RemoveDirectoryW function
 author: windows-sdk-content
 description: Deletes an existing empty directory.
 old-location: fs\removedirectory.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA, RemoveDirectoryW, _win32_removedirectory, base.removedirectory, fileapi/RemoveDirectory, fileapi/RemoveDirectoryA, fileapi/RemoveDirectoryW, fs.removedirectory, winbase/RemoveDirectory, winbase/RemoveDirectoryA, winbase/RemoveDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:gdipluscolor
 ms.assetid: b9bf4454-b16d-35ba-b437-3f291166884c
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

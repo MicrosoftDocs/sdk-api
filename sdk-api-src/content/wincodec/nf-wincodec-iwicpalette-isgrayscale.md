@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_isgrayscale.htm
 tech.root: wic
 ms.assetid: a559fa20-a967-4f8f-b978-f36365d3f00a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],IsGrayscale method, IWICPalette.IsGrayscale, IWICPalette::IsGrayscale, IsGrayscale, IsGrayscale method [Windows Imaging Component], IsGrayscale method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_isgrayscale, wic._wic_codec_iwicpalette_isgrayscale, wincodec/IWICPalette::IsGrayscale
 ms.prod: windows-hardware
 ms.technology: windows-devices

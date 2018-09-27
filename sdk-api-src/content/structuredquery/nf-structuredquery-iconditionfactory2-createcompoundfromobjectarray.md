@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateCompoundFromObjectArray.ht
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\createcompoundfromobjectarray.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: CreateCompoundFromObjectArray, CreateCompoundFromObjectArray method [search], CreateCompoundFromObjectArray method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateCompoundFromObjectArray method, IConditionFactory2.CreateCompoundFromObjectArray, IConditionFactory2::CreateCompoundFromObjectArray, _search_IConditionFactory2_CreateCompoundFromObjectArray, search._search_IConditionFactory2_CreateCompoundFromObjectArray, structuredquery/IConditionFactory2::CreateCompoundFromObjectArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

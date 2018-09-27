@@ -2,13 +2,12 @@
 UID: NA:oobenotification
 ms.assetid: 5df6a064-6774-3461-b13f-84a962e61fbc
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: windowssetupandmigration
-archived: true
 ---
 
 # Oobenotification.h header

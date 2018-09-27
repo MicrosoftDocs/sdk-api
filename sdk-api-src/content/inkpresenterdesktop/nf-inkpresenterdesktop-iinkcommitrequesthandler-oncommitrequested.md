@@ -7,7 +7,7 @@ old-location: input_ink\iinkcommitrequesthandler_oncommitrequested.htm
 tech.root: input_ink
 ms.assetid: c40ddcd3-ebb6-442b-b36d-2d7d27cfa5db
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/29/2018
 ms.keywords: IInkCommitRequestHandler interface,OnCommitRequested method, IInkCommitRequestHandler.OnCommitRequested, IInkCommitRequestHandler::OnCommitRequested, InkPresenterDesktop.iinkcommitrequesthandler_oncommitrequested, OnCommitRequested, OnCommitRequested method, OnCommitRequested method,IInkCommitRequestHandler interface, inkpresenterdesktop/IInkCommitRequestHandler::OnCommitRequested, input_ink.iinkcommitrequesthandler_oncommitrequested
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_refresh_cpp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6xt4.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],Refresh method, IFaxReceiptOptions.Refresh, IFaxReceiptOptions::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.refresh, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_refresh_cpp, fax._mfax_faxreceiptoptions_refresh, faxcomex/IFaxReceiptOptions::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

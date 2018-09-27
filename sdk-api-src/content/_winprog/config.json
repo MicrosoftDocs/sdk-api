@@ -1,7 +1,6 @@
 {
   "tech": "winprog",
   "headers": [
-    "tbd",
     "wtypes.h",
     "winbase.h",
     "winnt.h",
@@ -22,6 +21,7 @@
     "fhcfg.h",
     "fhsvcctl.h",
     "wdm.h",
+    "apiquery2.h",
     "dciman.h",
     "ddrawgdi.h",
     "ntgdi.h",

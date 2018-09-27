@@ -7,7 +7,7 @@ old-location: mf\mfunlockdxgidevicemanager.htm
 tech.root: medfound
 ms.assetid: 89121716-4F30-4ACD-AA48-F563550B94A1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: MFUnlockDXGIDeviceManager, MFUnlockDXGIDeviceManager function [Media Foundation], mf.mfunlockdxgidevicemanager, mfapi/MFUnlockDXGIDeviceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

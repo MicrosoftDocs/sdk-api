@@ -4,10 +4,10 @@ title: DhcpEnumOptionsV5 function
 author: windows-sdk-content
 description: The DhcpEnumOptionsV5 function returns an enumerated list of DHCP options for a given user or vendor class.
 old-location: dhcp\dhcpenumoptionsv5.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 9fe14fe7-d207-4a5a-b36c-4a5ab32a6bc3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionsV5, DhcpEnumOptionsV5 function [DHCP], dhcp.dhcpenumoptionsv5, dhcpsapi/DhcpEnumOptionsV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

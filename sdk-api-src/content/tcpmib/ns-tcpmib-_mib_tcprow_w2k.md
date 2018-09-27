@@ -4,10 +4,10 @@ title: "_MIB_TCPROW_W2K"
 author: windows-sdk-content
 description: Contains information that descibes an IPv4 TCP connection.
 old-location: mib\mib_tcprow.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: 36364854-caa8-4652-be8e-f741b36d9fd7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_TCPROW, *PMIB_TCPROW_W2K, MIB_TCPROW, MIB_TCPROW structure [MIB], MIB_TCPROW_LH, MIB_TCPROW_W2K, MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW, PMIB_TCPROW structure pointer [MIB], _MIB_TCPROW_W2K, _mpr_mib_tcprow, iprtrmib/MIB_TCPROW, iprtrmib/PMIB_TCPROW, mib.mib_tcprow, rras.mib_tcprow, tcpmib/MIB_TCPROW, tcpmib/PMIB_TCPROW"
 ms.prod: windows
 ms.technology: windows-sdk

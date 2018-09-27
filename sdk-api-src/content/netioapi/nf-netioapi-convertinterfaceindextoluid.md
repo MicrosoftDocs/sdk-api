@@ -4,10 +4,10 @@ title: ConvertInterfaceIndexToLuid function
 author: windows-sdk-content
 description: Converts a local index for a network interface to the locally unique identifier (LUID) for the interface.
 old-location: iphlp\convertinterfaceindextoluid.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: c757228c-93f1-4545-8921-9d048bca580c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: ConvertInterfaceIndexToLuid, ConvertInterfaceIndexToLuid function [IP Helper], iphlp.convertinterfaceindextoluid, netioapi/ConvertInterfaceIndexToLuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

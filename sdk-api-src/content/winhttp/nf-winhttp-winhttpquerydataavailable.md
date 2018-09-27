@@ -4,10 +4,10 @@ title: WinHttpQueryDataAvailable function
 author: windows-sdk-content
 description: Returns the amount of data, in bytes, available to be read with WinHttpReadData.
 old-location: http\winhttpquerydataavailable.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

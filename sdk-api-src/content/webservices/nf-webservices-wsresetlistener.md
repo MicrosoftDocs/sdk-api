@@ -7,7 +7,7 @@ old-location: wsw\wsresetlistener.htm
 tech.root: wsw
 ms.assetid: c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WsResetListener, WsResetListener function [Web Services for Windows], webservices/WsResetListener, wsw.wsresetlistener
 ms.prod: windows-hardware
 ms.technology: windows-devices

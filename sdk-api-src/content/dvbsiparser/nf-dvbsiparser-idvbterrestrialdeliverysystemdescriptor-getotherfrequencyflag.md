@@ -4,10 +4,10 @@ title: IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1462004c-7605-430e-bf9a-beb1776adb6c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetOtherFrequencyFlag, GetOtherFrequencyFlag method [Microsoft TV Technologies], GetOtherFrequencyFlag method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetOtherFrequencyFlag method, IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag, IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag, IDvbTerrestrialDeliverySystemDescriptorGetOtherFrequencyFlag, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag, mstv.idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag
 ms.prod: windows-hardware
 ms.technology: windows-devices

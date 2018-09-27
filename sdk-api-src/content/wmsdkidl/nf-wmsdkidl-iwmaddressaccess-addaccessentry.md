@@ -7,7 +7,7 @@ old-location: wmformat\iwmaddressaccess_addaccessentry.htm
 tech.root: wmformat
 ms.assetid: 670bea6a-0370-4dc4-a2af-fcdbe2a6656a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: AddAccessEntry, AddAccessEntry method [windows Media Format], AddAccessEntry method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],AddAccessEntry method, IWMAddressAccess.AddAccessEntry, IWMAddressAccess::AddAccessEntry, IWMAddressAccessAddAccessEntry, wmformat.iwmaddressaccess_addaccessentry, wmsdkidl/IWMAddressAccess::AddAccessEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_tagRasNapState"
 author: windows-sdk-content
 description: The Network Access Protection (NAP) variables for a remote access connection.
 old-location: rras\rasnapstate.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 1cba931c-041a-4ec6-8c30-db3a02b59ec3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RAS], RASNAPSTATE, RASNAPSTATE structure [RAS], _tagRasNapState, ras/LPRASNAPSTATE, ras/RASNAPSTATE, rras.rasnapstate"
 ms.prod: windows
 ms.technology: windows-sdk

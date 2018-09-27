@@ -4,10 +4,10 @@ title: IX509EnrollmentHelper::Enroll
 author: windows-sdk-content
 description: Enrolls a certificate request and retrieves the issued certificate.
 old-location: security\ix509enrollmenthelper_enroll.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 4f178df7-714f-49e6-9bf5-647acc23b0ad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Enroll, Enroll method [Security], Enroll method [Security],IX509EnrollmentHelper interface, EnrollPrompt, IX509EnrollmentHelper interface [Security],Enroll method, IX509EnrollmentHelper.Enroll, IX509EnrollmentHelper::Enroll, certenroll/IX509EnrollmentHelper::Enroll, security.ix509enrollmenthelper_enroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

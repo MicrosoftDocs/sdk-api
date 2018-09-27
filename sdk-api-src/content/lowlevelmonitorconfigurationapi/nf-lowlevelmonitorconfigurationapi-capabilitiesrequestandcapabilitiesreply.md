@@ -7,7 +7,7 @@ old-location: monitor\capabilitiesrequestandcapabilitiesreply.htm
 tech.root: Monitor
 ms.assetid: 1e556f66-a77a-43f3-b54f-d14995d841f8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: CapabilitiesRequestAndCapabilitiesReply, CapabilitiesRequestAndCapabilitiesReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply, monitor.capabilitiesrequestandcapabilitiesreply
 ms.prod: windows-hardware
 ms.technology: windows-devices

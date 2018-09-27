@@ -4,10 +4,10 @@ title: ITsSbSession::get_CreateTime
 author: windows-sdk-content
 description: Retrieves or specifies the time the session was created.
 old-location: termserv\itssbsession_createtime.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 227ac94a-2d04-4b94-9ba4-e0cc6e2496cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateTime property [Remote Desktop Services], CreateTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],CreateTime property, ITsSbSession.CreateTime, ITsSbSession.get_CreateTime, ITsSbSession::CreateTime, ITsSbSession::get_CreateTime, ITsSbSession::put_CreateTime, get_CreateTime, sbtsv/ITsSbSession::CreateTime, sbtsv/ITsSbSession::get_CreateTime, sbtsv/ITsSbSession::put_CreateTime, termserv.itssbsession_createtime
 ms.prod: windows-hardware
 ms.technology: windows-devices

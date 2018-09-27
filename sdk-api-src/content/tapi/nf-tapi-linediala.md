@@ -7,7 +7,7 @@ old-location: tapi2\linedial.htm
 tech.root: tapi
 ms.assetid: 111e6c11-67a7-4aab-81dd-f1b4316887e7
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: "_tapi2_linedial, lineDial, lineDial function [TAPI 2.2], lineDialA, lineDialW, tapi/lineDial, tapi/lineDialA, tapi/lineDialW, tapi2.linedial"
 ms.prod: windows-hardware
 ms.technology: windows-devices

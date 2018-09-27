@@ -7,7 +7,7 @@ old-location: cos\icomactivityevents.htm
 tech.root: cossdk
 ms.assetid: 9b702bcd-d5a6-41fa-98ce-00a245dfe770
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], IComActivityEvents interface [COM+],described, _dtc_IComActivityEvents, comsvcs/IComActivityEvents, cos.icomactivityevents
 ms.prod: windows
 ms.technology: windows-sdk

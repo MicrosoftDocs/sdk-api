@@ -7,7 +7,7 @@ old-location: shell\ILaunchSourceViewSizePreference_GetSourceViewToPosition.htm
 tech.root: shell
 ms.assetid: 5B2D9CC9-D332-474E-A655-FBFC5E54AAE9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: GetSourceViewToPosition, GetSourceViewToPosition method [Windows Shell], GetSourceViewToPosition method [Windows Shell],ILaunchSourceViewSizePreference interface, ILaunchSourceViewSizePreference interface [Windows Shell],GetSourceViewToPosition method, ILaunchSourceViewSizePreference.GetSourceViewToPosition, ILaunchSourceViewSizePreference::GetSourceViewToPosition, shell.ILaunchSourceViewSizePreference_GetSourceViewToPosition, shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewToPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IKEEXT_POLICY0_
 author: windows-sdk-content
 description: Is used to store the IKE/AuthIP main mode negotiation policy.
 old-location: fwp\ikeext_policy0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 4c33087a-2736-491c-a89f-e4b9ab136026
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IKEEXT_POLICY0, IKEEXT_POLICY0 structure [Filtering], IKEEXT_POLICY0_, IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS, IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH, IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY, IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY, fwp.ikeext_policy0, iketypes/IKEEXT_POLICY0
 ms.prod: windows
 ms.technology: windows-sdk

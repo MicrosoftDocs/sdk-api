@@ -7,7 +7,7 @@ old-location: security\ctl_context.htm
 tech.root: seccrypto
 ms.assetid: 780edddf-1b44-4292-9156-4dfd5100adb8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCTL_CONTEXT, CTL_CONTEXT, CTL_CONTEXT structure [Security], PCCTL_CONTEXT, PCCTL_CONTEXT structure pointer [Security], PCTL_CONTEXT, PCTL_CONTEXT structure pointer [Security], _CTL_CONTEXT, _crypto2_ctl_context, security.ctl_context, wincrypt/CTL_CONTEXT, wincrypt/PCCTL_CONTEXT, wincrypt/PCTL_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

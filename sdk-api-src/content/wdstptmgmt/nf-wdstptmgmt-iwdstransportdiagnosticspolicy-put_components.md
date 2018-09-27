@@ -4,10 +4,10 @@ title: IWdsTransportDiagnosticsPolicy::put_Components
 author: windows-sdk-content
 description: Enables a WDS client to configure which WDS transport components have event logging.
 old-location: wds\iwdstransportdiagnosticspolicy_components.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: da05fd59-641c-4d9b-ad87-d65e682c400e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: Components property [Windows Deployment Services], Components property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Components property, IWdsTransportDiagnosticsPolicy.Components, IWdsTransportDiagnosticsPolicy.put_Components, IWdsTransportDiagnosticsPolicy::Components, IWdsTransportDiagnosticsPolicy::get_Components, IWdsTransportDiagnosticsPolicy::put_Components, put_Components, wds.iwdstransportdiagnosticspolicy_components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components
 ms.prod: windows-hardware
 ms.technology: windows-devices

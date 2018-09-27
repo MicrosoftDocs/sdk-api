@@ -7,7 +7,7 @@ old-location: security\crypt_decrypt_message_para.htm
 tech.root: seccrypto
 ms.assetid: 67e136cd-12e3-4a31-9d8b-b53e1129e940
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA structure [Security], PCRYPT_DECRYPT_MESSAGE_PARA, PCRYPT_DECRYPT_MESSAGE_PARA structure pointer [Security], _CRYPT_DECRYPT_MESSAGE_PARA, _crypto2_crypt_decrypt_message_para, security.crypt_decrypt_message_para, wincrypt/CRYPT_DECRYPT_MESSAGE_PARA, wincrypt/PCRYPT_DECRYPT_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

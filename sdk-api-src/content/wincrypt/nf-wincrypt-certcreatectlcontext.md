@@ -7,7 +7,7 @@ old-location: security\certcreatectlcontext.htm
 tech.root: seccrypto
 ms.assetid: 172c59ee-9e06-4169-aaa7-2624e3fcf015
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CertCreateCTLContext, CertCreateCTLContext function [Security], _crypto2_certcreatectlcontext, security.certcreatectlcontext, wincrypt/CertCreateCTLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

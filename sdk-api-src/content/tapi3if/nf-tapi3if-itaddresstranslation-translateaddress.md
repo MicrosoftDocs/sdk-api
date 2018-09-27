@@ -7,7 +7,7 @@ old-location: tapi3\itaddresstranslation_translateaddress.htm
 tech.root: tapi
 ms.assetid: 14e51de8-33fd-4de0-bc1c-5f8085ea095c
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],TranslateAddress method, ITAddressTranslation.TranslateAddress, ITAddressTranslation::TranslateAddress, TranslateAddress, TranslateAddress method [TAPI 2.2], TranslateAddress method [TAPI 2.2],ITAddressTranslation interface, _tapi3_itaddresstranslation_translateaddress, tapi3.itaddresstranslation_translateaddress, tapi3if/ITAddressTranslation::TranslateAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

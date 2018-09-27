@@ -7,7 +7,7 @@ old-location: lwef\ireconcilableobject_reconcile.htm
 tech.root: lwef
 ms.assetid: 6dfeb68e-fd23-4812-8a3c-ab27fc00a4ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IReconcilableObject interface [Legacy Windows Environment Features],Reconcile method, IReconcilableObject.Reconcile, IReconcilableObject::Reconcile, RECONCILEF_FEEDBACKWINDOWVALID, RECONCILEF_MAYBOTHERUSER, RECONCILEF_NORESIDUESOK, RECONCILEF_OMITSELFRESIDUE, RECONCILEF_ONLYYOUWERECHANGED, RECONCILEF_RESUMEDRECONCILIATION, RECONCILEF_YOUMAYDOTHEUPDATES, Reconcile, Reconcile method [Legacy Windows Environment Features], Reconcile method [Legacy Windows Environment Features],IReconcilableObject interface, _win32_IReconcilableObject_Reconcile, lwef.ireconcilableobject_reconcile, reconcil/IReconcilableObject::Reconcile, shell.ireconcilableobject_reconcile
 ms.prod: windows-hardware
 ms.technology: windows-devices

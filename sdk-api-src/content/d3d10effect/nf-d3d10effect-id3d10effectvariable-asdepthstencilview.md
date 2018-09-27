@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asdepthstencilview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asdepthstencilview.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: AsDepthStencilView, AsDepthStencilView method [Direct3D 10], AsDepthStencilView method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsDepthStencilView method, ID3D10EffectVariable.AsDepthStencilView, ID3D10EffectVariable::AsDepthStencilView, cdd98874-51c7-7e0f-20f6-4efe28164ae0, d3d10effect/ID3D10EffectVariable::AsDepthStencilView, direct3d10.id3d10effectvariable_asdepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer2::get_SuppressEffects
 author: windows-sdk-content
 description: The get_SuppressEffects method retrieves settings that control power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_get_suppresseffects.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 5a8546f8-61de-4e98-bee3-26ca4d0ea2e4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVideoRenderer2.get_SuppressEffects, IMSVidVideoRenderer2::get_SuppressEffects, IMSVidVideoRenderer2get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_suppresseffects, segment/IMSVidVideoRenderer2::get_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

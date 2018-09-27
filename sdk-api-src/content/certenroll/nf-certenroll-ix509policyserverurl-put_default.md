@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::put_Default
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that indicates whether this is the default certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_default.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 957ccbbb-5bd1-4aa8-bf3e-09dd078f1593
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Default property [Security], Default property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Default property, IX509PolicyServerUrl.Default, IX509PolicyServerUrl.put_Default, IX509PolicyServerUrl::Default, IX509PolicyServerUrl::get_Default, IX509PolicyServerUrl::put_Default, certenroll/IX509PolicyServerUrl::Default, certenroll/IX509PolicyServerUrl::get_Default, certenroll/IX509PolicyServerUrl::put_Default, put_Default, security.ix509policyserverurl_default
 ms.prod: windows-hardware
 ms.technology: windows-devices

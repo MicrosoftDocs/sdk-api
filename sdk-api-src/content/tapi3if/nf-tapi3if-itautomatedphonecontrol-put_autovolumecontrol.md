@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrol.htm
 tech.root: tapi
 ms.assetid: 3d45ef58-a7d7-41ab-b06a-9d53bf79690a
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControl method, ITAutomatedPhoneControl.put_AutoVolumeControl, ITAutomatedPhoneControl::put_AutoVolumeControl, _tapi3_itautomatedphonecontrol_put_autovolumecontrol, put_AutoVolumeControl, put_AutoVolumeControl method [TAPI 2.2], put_AutoVolumeControl method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrol, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

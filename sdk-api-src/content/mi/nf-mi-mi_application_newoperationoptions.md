@@ -4,10 +4,10 @@ title: MI_Application_NewOperationOptions function
 author: windows-sdk-content
 description: Creates an MI_OperationOptions object that can be used with the operation functions on the MI_Session object.
 old-location: wmi_v2\mi_application_newoperationoptions.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 0b9f569b-bb32-4393-9fd2-9d5d601c2214
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Application_NewOperationOptions, MI_Application_NewOperationOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewOperationOptions, wmi_v2.mi_application_newoperationoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

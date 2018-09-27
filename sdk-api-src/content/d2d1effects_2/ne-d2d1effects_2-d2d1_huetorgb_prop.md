@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_huetorgb_prop.htm
 tech.root: direct2d
 ms.assetid: 293E05B7-DA10-4E71-B519-0AF99EE007EC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_HUETORGB_PROP, D2D1_HUETORGB_PROP enumeration [Direct2D], D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE, d2d1effects_2/D2D1_HUETORGB_PROP, d2d1effects_2/D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE, direct2d.d2d1_huetorgb_prop
 ms.prod: windows
 ms.technology: windows-sdk

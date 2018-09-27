@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjobmanager.htm
 tech.root: fsrm
 ms.assetid: 2df0e8d0-1da7-422e-8d02-ad5d030fdd8d
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmFileManagementJobManager, IFsrmFileManagementJobManager interface [File Server Resource Manager], IFsrmFileManagementJobManager interface [File Server Resource Manager],described, fs.ifsrmfilemanagementjobmanager, fsrm.ifsrmfilemanagementjobmanager, fsrm/IFsrmFileManagementJobManager
 ms.prod: windows
 ms.technology: windows-sdk

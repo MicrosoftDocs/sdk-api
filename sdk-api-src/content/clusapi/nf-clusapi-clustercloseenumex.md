@@ -7,7 +7,7 @@ old-location: mscs\clustercloseenumex.htm
 tech.root: mscs
 ms.assetid: B62F1259-C4FF-45FC-9EA1-24CABFE1C0F3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ClusterCloseEnumEx, ClusterCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM_EX, mscs.clustercloseenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices

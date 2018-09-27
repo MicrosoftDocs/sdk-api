@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_RemoveAutomationEventHandler.htm
 tech.root: WinAuto
 ms.assetid: c4ebf7d3-c3c4-424b-af69-b8c13dd7a4dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveAutomationEventHandler method, IUIAutomation.RemoveAutomationEventHandler, IUIAutomation::RemoveAutomationEventHandler, RemoveAutomationEventHandler, RemoveAutomationEventHandler method [Windows Accessibility], RemoveAutomationEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveAutomationEventHandler, uiauto_IUIAutomation_RemoveAutomationEventHandler, uiautomationclient/IUIAutomation::RemoveAutomationEventHandler, winauto.uiauto_IUIAutomation_RemoveAutomationEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

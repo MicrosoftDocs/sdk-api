@@ -4,10 +4,10 @@ title: IDot11AdHocManager::CommitCreatedNetwork
 author: windows-sdk-content
 description: Initializes a created network and optionally commits the network's profile to the profile store.
 old-location: nwifi\idot11adhocmanager_commitcreatednetwork.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 45beb340-1c19-4b91-8e5c-8849e690e988
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CommitCreatedNetwork, CommitCreatedNetwork method [NativeWIFI], CommitCreatedNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],CommitCreatedNetwork method, IDot11AdHocManager.CommitCreatedNetwork, IDot11AdHocManager::CommitCreatedNetwork, adhoc/IDot11AdHocManager::CommitCreatedNetwork, nwifi.idot11adhocmanager_commitcreatednetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itaddress2_getphonefromterminal.htm
 tech.root: tapi
 ms.assetid: 0d3873ad-ce3d-4b4c-907f-9c0dbf0ef206
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: GetPhoneFromTerminal, GetPhoneFromTerminal method [TAPI 2.2], GetPhoneFromTerminal method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],GetPhoneFromTerminal method, ITAddress2.GetPhoneFromTerminal, ITAddress2::GetPhoneFromTerminal, _tapi3_itaddress2_getphonefromterminal, tapi3.itaddress2_getphonefromterminal, tapi3if/ITAddress2::GetPhoneFromTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices

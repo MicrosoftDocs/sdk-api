@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewfloat
 tech.root: direct3d12
 ms.assetid: 6A19F429-D7B2-4A71-8904-31BFA1FD10C6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: ClearUnorderedAccessViewFloat, ClearUnorderedAccessViewFloat method, ClearUnorderedAccessViewFloat method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewFloat method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat, ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewfloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IBDA_NetworkProvider
 author: windows-sdk-content
 description: The IBDA_NetworkProvider interface is implemented on a Network Provider filter. It provides methods that BDA device filters call to register themselves after they are added to the graph.
 old-location: mstv\ibda_networkprovider.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 84b6cd51-4cb5-4a43-9ac2-88ca8049b950
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], IBDA_NetworkProvider interface [Microsoft TV Technologies],described, IBDA_NetworkProviderInterface, bdaiface/IBDA_NetworkProvider, mstv.ibda_networkprovider
 ms.prod: windows
 ms.technology: windows-sdk

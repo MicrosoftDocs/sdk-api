@@ -7,7 +7,7 @@ old-location: base\queryoptionaldelayloadedapi.htm
 tech.root: dlls
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/04/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
 ms.prod: windows-hardware
 ms.technology: windows-devices

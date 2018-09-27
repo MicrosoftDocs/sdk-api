@@ -4,10 +4,10 @@ title: DnsModifyRecordsInSet_A function
 author: windows-sdk-content
 description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
 old-location: dns\dnsmodifyrecordsinset.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 4287b4e1-a7a2-4b73-b5bb-21bc639bae73
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DnsModifyRecordsInSet, DnsModifyRecordsInSet function [DNS], DnsModifyRecordsInSet_A, DnsModifyRecordsInSet_UTF8, DnsModifyRecordsInSet_W, _dns_dnsmodifyrecordsinset, dns.dnsmodifyrecordsinset, windns/DnsModifyRecordsInSet, windns/DnsModifyRecordsInSet_A, windns/DnsModifyRecordsInSet_UTF8, windns/DnsModifyRecordsInSet_W
 ms.prod: windows-hardware
 ms.technology: windows-devices

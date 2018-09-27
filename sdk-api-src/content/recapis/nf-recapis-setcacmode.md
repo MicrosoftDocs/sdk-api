@@ -7,7 +7,7 @@ old-location: tablet\setcacmode.htm
 tech.root: tablet
 ms.assetid: 4f51e2e1-612a-484e-acba-6f3ae268082a
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: 4f51e2e1-612a-484e-acba-6f3ae268082a, CAC_FULL, CAC_PREFIX, CAC_RANDOM, SetCACMode, SetCACMode function [Tablet PC], recapis/SetCACMode, tablet.setcacmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

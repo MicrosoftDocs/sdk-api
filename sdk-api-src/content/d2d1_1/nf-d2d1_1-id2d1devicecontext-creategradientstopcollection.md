@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_creategradientstopcollection.htm
 tech.root: direct2d
 ms.assetid: 6374fc62-1f54-4112-8ba3-9c1167bf8685
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection method [Direct2D], CreateGradientStopCollection method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateGradientStopCollection method, ID2D1DeviceContext.CreateGradientStopCollection, ID2D1DeviceContext::CreateGradientStopCollection, d2d1_1/ID2D1DeviceContext::CreateGradientStopCollection, direct2d.id2d1devicecontext_creategradientstopcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: input_feedback\setwindowfeedbacksetting.htm
 tech.root: Input_Feedback
 ms.assetid: 72bee160-7004-40be-9c91-e431b06ccaed
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: SetWindowFeedbackSetting, SetWindowFeedbackSetting function, input_feedback.setwindowfeedbacksetting, inputfeedbackui.setwindowfeedbacksetting, winuser/SetWindowFeedbackSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

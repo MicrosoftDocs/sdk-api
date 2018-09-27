@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectkaraokeaudiopresentationmode.htm
 tech.root: DirectShow
 ms.assetid: 9101fd83-1349-4cdd-b5e9-6daeb7d1e3d8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectKaraokeAudioPresentationMode method, IDvdControl2.SelectKaraokeAudioPresentationMode, IDvdControl2::SelectKaraokeAudioPresentationMode, IDvdControl2SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode method [DirectShow], SelectKaraokeAudioPresentationMode method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectkaraokeaudiopresentationmode, strmif/IDvdControl2::SelectKaraokeAudioPresentationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

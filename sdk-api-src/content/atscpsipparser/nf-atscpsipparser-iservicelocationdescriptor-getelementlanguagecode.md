@@ -4,10 +4,10 @@ title: IServiceLocationDescriptor::GetElementLanguageCode
 author: windows-sdk-content
 description: Gets the three-character ISO 639 language code for an Advanced Television Systems Committee (ATSC) service location descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementlanguagecode.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

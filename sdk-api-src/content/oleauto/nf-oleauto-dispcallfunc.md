@@ -7,7 +7,7 @@ old-location: automat\dispcallfunc.htm
 tech.root: automat
 ms.assetid: 9a16d4e4-a03d-459d-a2ec-3258499f6932
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DispCallFunc, DispCallFunc function [Automation], _oa96_DispCallFunc, automat.dispcallfunc, oleauto/DispCallFunc
 ms.prod: windows-hardware
 ms.technology: windows-devices

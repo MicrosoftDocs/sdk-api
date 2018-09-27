@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase.htm
 tech.root: WmiSdk
 ms.assetid: 0511cd5b-f791-4821-8d75-23b0635e2266
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: "??1CThreadBase@@UAE@XZ, CThreadBase, CThreadBase class [Windows Management Instrumentation], CThreadBase class [Windows Management Instrumentation],described, thrdbase/CThreadBase, wmi.cthreadbase"
 ms.prod: windows
 ms.technology: windows-sdk

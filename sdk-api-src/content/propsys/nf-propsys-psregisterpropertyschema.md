@@ -7,7 +7,7 @@ old-location: properties\PSRegisterPropertySchema.htm
 tech.root: properties
 ms.assetid: ea9c4361-fada-4b07-b450-dd0c6409745a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PSRegisterPropertySchema, PSRegisterPropertySchema function [Windows Properties], properties.PSRegisterPropertySchema, propsys/PSRegisterPropertySchema, shell.PSRegisterPropertySchema, shell_PSRegisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509CertificateRequest::put_HashAlgorithm
 author: windows-sdk-content
 description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request.
 old-location: security\ix509certificaterequest_hashalgorithm_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 9f68ee54-5dea-47bb-8a90-0285d081c9b8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],HashAlgorithm property, IX509CertificateRequest.HashAlgorithm, IX509CertificateRequest.put_HashAlgorithm, IX509CertificateRequest::HashAlgorithm, IX509CertificateRequest::get_HashAlgorithm, IX509CertificateRequest::put_HashAlgorithm, certenroll/IX509CertificateRequest::HashAlgorithm, certenroll/IX509CertificateRequest::get_HashAlgorithm, certenroll/IX509CertificateRequest::put_HashAlgorithm, put_HashAlgorithm, security.ix509certificaterequest_hashalgorithm_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

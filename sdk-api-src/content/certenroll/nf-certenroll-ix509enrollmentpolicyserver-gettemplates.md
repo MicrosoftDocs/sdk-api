@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetTemplates
 author: windows-sdk-content
 description: Retrieves a collection of the templates supported by the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_gettemplates.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 52dd85aa-033b-43ab-9b71-1080f969bebc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetTemplates, GetTemplates method [Security], GetTemplates method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetTemplates method, IX509EnrollmentPolicyServer.GetTemplates, IX509EnrollmentPolicyServer::GetTemplates, certenroll/IX509EnrollmentPolicyServer::GetTemplates, security.ix509enrollmentpolicyserver_gettemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices

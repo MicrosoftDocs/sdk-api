@@ -7,7 +7,7 @@ old-location: wsw\ws_security_algorithm_suite.htm
 tech.root: wsw
 ms.assetid: aa2bb951-47ba-4241-b29a-2f54b92da4cb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_SECURITY_ALGORITHM_SUITE, WS_SECURITY_ALGORITHM_SUITE structure [Web Services for Windows], _WS_SECURITY_ALGORITHM_SUITE, webservices/WS_SECURITY_ALGORITHM_SUITE, wsw.ws_security_algorithm_suite
 ms.prod: windows
 ms.technology: windows-sdk

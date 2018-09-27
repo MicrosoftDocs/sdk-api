@@ -4,10 +4,10 @@ title: NdrStubForwardingFunction function
 author: windows-sdk-content
 description: The NdrStubForwardingFunction function is the entry point for server-side object methods that are defined in a base interface.
 old-location: rpc\ndrstubforwardingfunction.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 05d69090-4274-4dad-8fef-89db247d0c09
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

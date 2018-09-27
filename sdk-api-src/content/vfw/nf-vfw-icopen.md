@@ -7,7 +7,7 @@ old-location: multimedia\icopen.htm
 tech.root: Multimedia
 ms.assetid: 2637b6ef-2324-40db-99e4-773fcb6fdbf6
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: ICOpen, ICOpen function [Windows Multimedia], _win32_ICOpen, multimedia.icopen, vfw/ICOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

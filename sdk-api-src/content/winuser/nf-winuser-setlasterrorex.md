@@ -4,10 +4,10 @@ title: SetLastErrorEx function
 author: windows-sdk-content
 description: Sets the last-error code.
 old-location: base\setlasterrorex.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: d97494db-868a-49d4-a613-e8beba86d4e6
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SetLastErrorEx, SetLastErrorEx function, _win32_setlasterrorex, base.setlasterrorex, winuser/SetLastErrorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

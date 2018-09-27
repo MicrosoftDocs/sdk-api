@@ -7,7 +7,7 @@ old-location: netmgmt\netusergetinfo.htm
 tech.root: netmgmt
 ms.assetid: 5bd13bed-938a-4273-840e-99fca99f7139
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo function [Network Management], _win32_netusergetinfo, lmaccess/NetUserGetInfo, netmgmt.netusergetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

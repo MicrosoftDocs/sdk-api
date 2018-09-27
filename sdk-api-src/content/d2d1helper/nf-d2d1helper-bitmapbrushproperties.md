@@ -7,7 +7,7 @@ old-location: direct2d\bitmapbrushproperties.htm
 tech.root: direct2d
 ms.assetid: 8945b4d8-0d6e-4f23-9a0b-1ec690339bdd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: BitmapBrushProperties, BitmapBrushProperties function [Direct2D], d2d1helper/BitmapBrushProperties, direct2d.bitmapbrushproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

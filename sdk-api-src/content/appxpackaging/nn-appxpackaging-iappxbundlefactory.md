@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlefactory.htm
 tech.root: appxpkg
 ms.assetid: 33A320BD-7B68-4C42-A776-25CC744C6652
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], IAppxBundleFactory interface [App packaging and management],described, appxpackaging/IAppxBundleFactory, appxpkg.iappxbundlefactory
 ms.prod: windows
 ms.technology: windows-sdk

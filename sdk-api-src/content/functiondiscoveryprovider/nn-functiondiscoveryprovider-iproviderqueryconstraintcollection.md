@@ -7,7 +7,7 @@ old-location: ncd\iproviderqueryconstraintcollection.htm
 tech.root: fundisc
 ms.assetid: 4d8ff5b9-ec4a-4ec6-b133-3d315f9c017b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,described, functiondiscoveryprovider/IProviderQueryConstraintCollection, ncd.iproviderqueryconstraintcollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itphone_enumeratepreferredaddresses.htm
 tech.root: tapi
 ms.assetid: 7bb15dc1-c1f0-4da5-8217-baedb45b70f7
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: EnumeratePreferredAddresses, EnumeratePreferredAddresses method [TAPI 2.2], EnumeratePreferredAddresses method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumeratePreferredAddresses method, ITPhone.EnumeratePreferredAddresses, ITPhone::EnumeratePreferredAddresses, _tapi3_itphone_enumeratepreferredaddresses, tapi3.itphone_enumeratepreferredaddresses, tapi3if/ITPhone::EnumeratePreferredAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices

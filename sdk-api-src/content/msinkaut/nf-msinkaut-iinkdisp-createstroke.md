@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_createstroke.htm
 tech.root: tablet
 ms.assetid: 116c5746-61ad-4a47-a5e3-4675af87b0f1
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: 116c5746-61ad-4a47-a5e3-4675af87b0f1, CreateStroke, CreateStroke method [Tablet PC], CreateStroke method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStroke method, IInkDisp.CreateStroke, IInkDisp::CreateStroke, msinkaut/IInkDisp::CreateStroke, tablet.inkdisp_createstroke
 ms.prod: windows-hardware
 ms.technology: windows-devices

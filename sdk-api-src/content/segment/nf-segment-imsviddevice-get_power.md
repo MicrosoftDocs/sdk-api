@@ -4,10 +4,10 @@ title: IMSVidDevice::get_Power
 author: windows-sdk-content
 description: The get_Power method queries whether the device is off or on.
 old-location: mstv\imsviddevice_get_power.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3be4247b-43d4-4a32-8643-7eb2637aee6f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Power method, IMSVidDevice.get_Power, IMSVidDevice::get_Power, IMSVidDeviceget_Power, get_Power, get_Power method [Microsoft TV Technologies], get_Power method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_power, segment/IMSVidDevice::get_Power
 ms.prod: windows-hardware
 ms.technology: windows-devices

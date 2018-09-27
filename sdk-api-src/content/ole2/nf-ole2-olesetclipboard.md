@@ -7,7 +7,7 @@ old-location: com\olesetclipboard.htm
 tech.root: com
 ms.assetid: 741def10-d2b5-4395-8049-1eba2e29b0e8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: OleSetClipboard, OleSetClipboard function [COM], _ole_OleSetClipboard, com.olesetclipboard, ole2/OleSetClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

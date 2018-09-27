@@ -4,10 +4,10 @@ title: MI_Session_TestConnection function
 author: windows-sdk-content
 description: Tests a connection by communicating with the server represented by the session to determine whether it is responding.
 old-location: wmi_v2\mi_session_testconnection.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 513eb39c-6894-49fa-bc4d-932f25318c34
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Session_TestConnection, MI_Session_TestConnection function [Windows Management Infrastructure (MI)], mi/MI_Session_TestConnection, wmi_v2.mi_session_testconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

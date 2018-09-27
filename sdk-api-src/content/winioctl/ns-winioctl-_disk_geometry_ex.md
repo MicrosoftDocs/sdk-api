@@ -4,10 +4,10 @@ title: "_DISK_GEOMETRY_EX"
 author: windows-sdk-content
 description: Describes the extended geometry of disk devices and media.
 old-location: fs\disk_geometry_ex_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2b8b2021-8650-452d-a975-54249620d72f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Files], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Files], _DISK_GEOMETRY_EX, _win32_disk_geometry_ex_str, base.disk_geometry_ex_str, fs.disk_geometry_ex_str, winioctl/DISK_GEOMETRY_EX, winioctl/PDISK_GEOMETRY_EX"
 ms.prod: windows
 ms.technology: windows-sdk

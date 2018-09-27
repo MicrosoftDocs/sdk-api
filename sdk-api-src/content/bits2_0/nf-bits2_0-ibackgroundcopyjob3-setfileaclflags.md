@@ -4,10 +4,10 @@ title: IBackgroundCopyJob3::SetFileACLFlags
 author: windows-sdk-content
 description: Specifies the owner and ACL information to maintain when using SMB to download or upload a file.
 old-location: bits\ibackgroundcopyjob3_setfileaclflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: de218e3d-8c42-4cf3-94b9-94dbc5edbb47
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FILE_OWNER, BG_COPY_FILE_SACL, IBackgroundCopyJob3 interface [BITS],SetFileACLFlags method, IBackgroundCopyJob3.SetFileACLFlags, IBackgroundCopyJob3::SetFileACLFlags, SetFileACLFlags, SetFileACLFlags method [BITS], SetFileACLFlags method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_setfileaclflags, bits2_0/IBackgroundCopyJob3::SetFileACLFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

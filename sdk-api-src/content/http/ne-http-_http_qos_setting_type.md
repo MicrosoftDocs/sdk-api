@@ -4,10 +4,10 @@ title: "_HTTP_QOS_SETTING_TYPE"
 author: windows-sdk-content
 description: Identifies the type of a QOS setting contained in a HTTP_QOS_SETTING_INFO structure.
 old-location: http\http_qos_setting_type.htm
-tech.root: http
+tech.root: Http
 ms.assetid: d1593670-9f5c-48a9-93d9-d5ff744cfc8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PHTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE enumeration [HTTP], HTTP_QOS_SETTING_TYPE, HTTP_QOS_SETTING_TYPE enumeration [HTTP], HttpQosSettingTypeBandwidth, HttpQosSettingTypeConnectionLimit, HttpQosSettingTypeFlowRate, _HTTP_QOS_SETTING_TYPE, http.http_qos_setting_type, http/*PHTTP_QOS_SETTING_TYPE, http/HTTP_QOS_SETTING_TYPE, http/HttpQosSettingTypeBandwidth, http/HttpQosSettingTypeConnectionLimit, http/HttpQosSettingTypeFlowRate"
 ms.prod: windows
 ms.technology: windows-sdk

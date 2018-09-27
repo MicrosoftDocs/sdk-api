@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_QueryForAdditionalItems.htm
 tech.root: shell
 ms.assetid: 3780d88a-4430-4cf3-9d1c-35eb8efc8971
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],QueryForAdditionalItems method, ISyncMgrSyncCallback.QueryForAdditionalItems, ISyncMgrSyncCallback::QueryForAdditionalItems, QueryForAdditionalItems, QueryForAdditionalItems method [Windows Shell], QueryForAdditionalItems method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_QueryForAdditionalItems, shell.ISyncMgrSyncCallback_QueryForAdditionalItems, syncmgr/ISyncMgrSyncCallback::QueryForAdditionalItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

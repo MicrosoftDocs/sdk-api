@@ -4,10 +4,10 @@ title: ImpersonateSecurityContext function
 author: windows-sdk-content
 description: Allows a server to impersonate a client by using a token previously obtained by a call to AcceptSecurityContext (General) or QuerySecurityContextToken.
 old-location: security\impersonatesecuritycontext.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

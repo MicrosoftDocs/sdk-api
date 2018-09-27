@@ -2,7 +2,7 @@
 UID: TP:bits
 ms.assetid: ac07ff24-925f-3c58-8665-88c85795fdca
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

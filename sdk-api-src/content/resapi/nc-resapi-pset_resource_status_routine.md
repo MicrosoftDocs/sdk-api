@@ -7,7 +7,7 @@ old-location: mscs\setresourcestatus.htm
 tech.root: mscs
 ms.assetid: 8ddb4578-f8c4-462e-af04-8c537d585e8b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE, PSET_RESOURCE_STATUS_ROUTINE callback function [Failover Cluster], SetResourceStatus, SetResourceStatus callback, SetResourceStatus callback function [Failover Cluster], _wolf_setresourcestatus, mscs.setresourcestatus, resapi/PSET_RESOURCE_STATUS_ROUTINE, resapi/SetResourceStatus
 ms.prod: windows
 ms.technology: windows-sdk

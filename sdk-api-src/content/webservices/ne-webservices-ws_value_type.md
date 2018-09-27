@@ -7,7 +7,7 @@ old-location: wsw\ws_value_type.htm
 tech.root: wsw
 ms.assetid: 6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_BOOL_VALUE_TYPE, WS_DATETIME_VALUE_TYPE, WS_DECIMAL_VALUE_TYPE, WS_DOUBLE_VALUE_TYPE, WS_DURATION_VALUE_TYPE, WS_FLOAT_VALUE_TYPE, WS_GUID_VALUE_TYPE, WS_INT16_VALUE_TYPE, WS_INT32_VALUE_TYPE, WS_INT64_VALUE_TYPE, WS_INT8_VALUE_TYPE, WS_TIMESPAN_VALUE_TYPE, WS_UINT16_VALUE_TYPE, WS_UINT32_VALUE_TYPE, WS_UINT64_VALUE_TYPE, WS_UINT8_VALUE_TYPE, WS_VALUE_TYPE, WS_VALUE_TYPE enumeration [Web Services for Windows], webservices/WS_BOOL_VALUE_TYPE, webservices/WS_DATETIME_VALUE_TYPE, webservices/WS_DECIMAL_VALUE_TYPE, webservices/WS_DOUBLE_VALUE_TYPE, webservices/WS_DURATION_VALUE_TYPE, webservices/WS_FLOAT_VALUE_TYPE, webservices/WS_GUID_VALUE_TYPE, webservices/WS_INT16_VALUE_TYPE, webservices/WS_INT32_VALUE_TYPE, webservices/WS_INT64_VALUE_TYPE, webservices/WS_INT8_VALUE_TYPE, webservices/WS_TIMESPAN_VALUE_TYPE, webservices/WS_UINT16_VALUE_TYPE, webservices/WS_UINT32_VALUE_TYPE, webservices/WS_UINT64_VALUE_TYPE, webservices/WS_UINT8_VALUE_TYPE, webservices/WS_VALUE_TYPE, wsw.ws_value_type
 ms.prod: windows
 ms.technology: windows-sdk

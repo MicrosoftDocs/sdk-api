@@ -4,10 +4,10 @@ title: IRichEditOleCallback
 author: windows-sdk-content
 description: The IRichEditOleCallback interface is used by a rich text edit control to retrieve OLE-related information from its client.
 old-location: controls\IRichEditOleCallback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], IRichEditOleCallback interface [Windows Controls],described, _win32_IRichEditOleCallback, _win32_IRichEditOleCallback_cpp, controls.IRichEditOleCallback, controls._win32_IRichEditOleCallback, richole/IRichEditOleCallback
 ms.prod: windows
 ms.technology: windows-sdk

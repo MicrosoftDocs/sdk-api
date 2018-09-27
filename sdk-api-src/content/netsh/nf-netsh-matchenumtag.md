@@ -4,10 +4,10 @@ title: MatchEnumTag function
 author: windows-sdk-content
 description: Searches a table of legal values to find a value that matches a specific token.
 old-location: netshell\matchenumtag.htm
-tech.root: netshell
+tech.root: NetShell
 ms.assetid: def20f98-76a2-4d92-a954-152474e25f05
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MatchEnumTag, MatchEnumTag function [NetShell], _netsh_matchenumtag, netsh/MatchEnumTag, netshell.matchenumtag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_rules.htm
 tech.root: ics
 ms.assetid: 1a3f2846-63c0-4790-b44f-654a34faa974
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],Rules property, INetFwPolicy2.Rules, INetFwPolicy2.get_Rules, INetFwPolicy2::Rules, INetFwPolicy2::get_Rules, Rules property [ICS/ICF], Rules property [ICS/ICF],INetFwPolicy2 interface, get_Rules, ics.inetfwpolicy2_rules, netfw/INetFwPolicy2::Rules, netfw/INetFwPolicy2::get_Rules
 ms.prod: windows-hardware
 ms.technology: windows-devices

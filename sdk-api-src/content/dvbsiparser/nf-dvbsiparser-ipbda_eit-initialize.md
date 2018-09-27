@@ -4,10 +4,10 @@ title: IPBDA_EIT::Initialize
 author: windows-sdk-content
 description: Initializes an object that gets data from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_initialize.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1f0d5a6e-eaa8-4694-b6d6-f1217ec6eb88
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IPBDA_EIT interface [Microsoft TV Technologies],Initialize method, IPBDA_EIT.Initialize, IPBDA_EIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDA_EIT interface, dvbsiparser/IPBDA_EIT::Initialize, mstv.ipbda_eit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

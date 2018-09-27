@@ -7,7 +7,7 @@ old-location: p2p\peergroupclosedirectconnection.htm
 tech.root: p2psdk
 ms.assetid: 56b47743-f205-407b-80f2-03e3c9b78be1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGroupCloseDirectConnection, PeerGroupCloseDirectConnection function [Peer Networking], p2p.peergroupclosedirectconnection, p2p/PeerGroupCloseDirectConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

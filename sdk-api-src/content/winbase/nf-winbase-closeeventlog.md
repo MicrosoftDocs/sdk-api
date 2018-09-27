@@ -4,10 +4,10 @@ title: CloseEventLog function
 author: windows-sdk-content
 description: Closes the specified event log.
 old-location: base\closeeventlog.htm
-tech.root: eventlog
+tech.root: EventLog
 ms.assetid: cb98a0cf-8ee9-4d78-8508-efae1d43a91d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.closeeventlog, winbase/CloseEventLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

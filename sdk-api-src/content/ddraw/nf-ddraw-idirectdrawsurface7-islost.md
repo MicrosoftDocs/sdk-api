@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_islost.htm
 tech.root: directdraw
 ms.assetid: f4654478-ca09-4856-8221-ef5454c23535
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],IsLost method, IDirectDrawSurface7.IsLost, IDirectDrawSurface7::IsLost, IsLost, IsLost method [DirectDraw], IsLost method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::IsLost, directdraw.idirectdrawsurface7_islost
 ms.prod: windows-hardware
 ms.technology: windows-devices

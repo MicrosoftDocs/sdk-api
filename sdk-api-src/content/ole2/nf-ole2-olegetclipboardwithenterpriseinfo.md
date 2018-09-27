@@ -7,7 +7,7 @@ old-location: com\olegetclipboardwithenterpriseinfo.htm
 tech.root: com
 ms.assetid: 1DAD2A9A-EDA2-49D2-90F7-2A9022988177
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: OleGetClipboardWithEnterpriseInfo, OleGetClipboardWithEnterpriseInfo function [COM], com.olegetclipboardwithenterpriseinfo, ole2/OleGetClipboardWithEnterpriseInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\startthreadpoolio.htm
 tech.root: procthread
 ms.assetid: 5a817d6f-a8e6-4aaa-b560-0128eacb98b1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: StartThreadpoolIo, StartThreadpoolIo function, base.startthreadpoolio, threadpoolapiset/StartThreadpoolIo, winbase/StartThreadpoolIo
 ms.prod: windows-hardware
 ms.technology: windows-devices

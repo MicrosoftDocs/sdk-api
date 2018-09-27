@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile_authorizedapplications.htm
 tech.root: ics
 ms.assetid: 230f7dc0-6afd-4355-a02c-92343d3e10cd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: AuthorizedApplications property [ICS/ICF], AuthorizedApplications property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],AuthorizedApplications property, INetFwProfile.AuthorizedApplications, INetFwProfile.get_AuthorizedApplications, INetFwProfile::AuthorizedApplications, INetFwProfile::get_AuthorizedApplications, get_AuthorizedApplications, ics.inetfwprofile_authorizedapplications, netfw/INetFwProfile::AuthorizedApplications, netfw/INetFwProfile::get_AuthorizedApplications
 ms.prod: windows-hardware
 ms.technology: windows-devices

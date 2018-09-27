@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IStylesProvider_ExtendedProperties.htm
 tech.root: WinAuto
 ms.assetid: C8C9EC52-FDC5-469B-BDD7-2BCBA332EF8F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: ExtendedProperties property [Windows Accessibility], ExtendedProperties property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],ExtendedProperties property, IStylesProvider.ExtendedProperties, IStylesProvider.get_ExtendedProperties, IStylesProvider::ExtendedProperties, IStylesProvider::get_ExtendedProperties, get_ExtendedProperties, uiautomationcore/IStylesProvider::ExtendedProperties, uiautomationcore/IStylesProvider::get_ExtendedProperties, winauto.uiauto_IStylesProvider_ExtendedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

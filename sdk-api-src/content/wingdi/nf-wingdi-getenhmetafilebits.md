@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafilebits.htm
 tech.root: gdi
 ms.assetid: 2bbfa0da-5b1e-4843-9777-c2e4c5fd3b78
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetEnhMetaFileBits, GetEnhMetaFileBits function [Windows GDI], _win32_GetEnhMetaFileBits, gdi.getenhmetafilebits, wingdi/GetEnhMetaFileBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

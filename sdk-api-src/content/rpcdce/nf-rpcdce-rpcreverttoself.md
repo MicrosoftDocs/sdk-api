@@ -4,10 +4,10 @@ title: RpcRevertToSelf function
 author: windows-sdk-content
 description: After calling RpcImpersonateClient and completing any tasks that require client impersonation, the server calls RpcRevertToSelf to end impersonation and to reestablish its own security identity.
 old-location: rpc\rpcreverttoself.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 07bbf6fa-f1df-4d9c-ae67-e79e2ccc12c8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: RpcRevertToSelf, RpcRevertToSelf function [RPC], _rpc_rpcreverttoself, rpc.rpcreverttoself, rpcdce/RpcRevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices

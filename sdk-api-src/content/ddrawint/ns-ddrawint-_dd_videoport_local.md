@@ -7,7 +7,7 @@ old-location: display\dd_videoport_local.htm
 tech.root: display
 ms.assetid: c497d1ef-0eb1-465f-978c-60cf5606de93
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL structure [Display Devices], _DD_VIDEOPORT_LOCAL, ddrawint/DD_VIDEOPORT_LOCAL, ddstrcts_ca5d2367-9338-4b1e-ad85-5c7a9e528e3e.xml, display.dd_videoport_local"
 ms.prod: windows
 ms.technology: windows-sdk

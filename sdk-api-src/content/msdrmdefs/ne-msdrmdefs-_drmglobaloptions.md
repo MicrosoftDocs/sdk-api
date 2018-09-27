@@ -4,10 +4,10 @@ title: "_DRMGLOBALOPTIONS"
 author: windows-sdk-content
 description: Defines values for specifying which protocol is used for the transport protocol and whether the server lockbox is used. This enumeration is used by the DRMSetGlobalOptions function.
 old-location: rm\drmglobaloptions.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 57debd49-ec1e-432d-baac-2f828aeb4412
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMGLOBALOPTIONS, DRMGLOBALOPTIONS enumeration [Active Directory Rights Management Services SDK 1.0], DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR, DRMGLOBALOPTIONS_USE_WINHTTP, _DRMGLOBALOPTIONS, msdrmdefs/DRMGLOBALOPTIONS, msdrmdefs/DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR, msdrmdefs/DRMGLOBALOPTIONS_USE_WINHTTP, rm.drmglobaloptions
 ms.prod: windows
 ms.technology: windows-sdk

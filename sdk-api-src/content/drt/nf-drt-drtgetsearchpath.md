@@ -7,7 +7,7 @@ old-location: p2p\drtgetsearchpath.htm
 tech.root: p2psdk
 ms.assetid: d095acbe-30bf-4449-bd00-a9f8813111c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: DrtGetSearchPath, DrtGetSearchPath function [Peer Networking], drt/DrtGetSearchPath, p2p.drtgetsearchpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

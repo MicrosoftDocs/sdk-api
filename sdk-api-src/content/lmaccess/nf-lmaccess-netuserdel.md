@@ -7,7 +7,7 @@ old-location: netmgmt\netuserdel.htm
 tech.root: netmgmt
 ms.assetid: c1429b82-4fd1-48b6-8957-04dee0426077
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetUserDel, NetUserDel function [Network Management], _win32_netuserdel, lmaccess/NetUserDel, netmgmt.netuserdel
 ms.prod: windows-hardware
 ms.technology: windows-devices

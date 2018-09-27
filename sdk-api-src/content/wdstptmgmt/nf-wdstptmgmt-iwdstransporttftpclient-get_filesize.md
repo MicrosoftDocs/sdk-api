@@ -4,10 +4,10 @@ title: IWdsTransportTftpClient::get_FileSize
 author: windows-sdk-content
 description: Receives the size in bytes of the file being transferred.
 old-location: wds\iwdstransporttftpclient_filesize.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 1F9E948E-BE0B-4B7C-8693-5B01D1B4098F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: FileSize property [Windows Deployment Services], FileSize property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],FileSize property, IWdsTransportTftpClient.FileSize, IWdsTransportTftpClient.get_FileSize, IWdsTransportTftpClient::FileSize, IWdsTransportTftpClient::get_FileSize, get_FileSize, wds.iwdstransporttftpclient_filesize, wdstptmgmt/IWdsTransportTftpClient::FileSize, wdstptmgmt/IWdsTransportTftpClient::get_FileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

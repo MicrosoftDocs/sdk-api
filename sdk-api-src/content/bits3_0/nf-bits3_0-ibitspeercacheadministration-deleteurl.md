@@ -4,10 +4,10 @@ title: IBitsPeerCacheAdministration::DeleteUrl
 author: windows-sdk-content
 description: Deletes all cache records and the file from the cache for the given URL.
 old-location: bits\ibitspeercacheadministration_deleteurl.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: d4849830-62fa-4bf4-bfad-59bcdbf1a10e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteUrl, DeleteUrl method [BITS], DeleteUrl method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteUrl method, IBitsPeerCacheAdministration.DeleteUrl, IBitsPeerCacheAdministration::DeleteUrl, bits.ibitspeercacheadministration_deleteurl, bits3_0/IBitsPeerCacheAdministration::DeleteUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

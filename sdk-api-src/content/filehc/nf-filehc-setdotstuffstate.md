@@ -4,10 +4,10 @@ title: SetDotStuffState function
 author: windows-sdk-content
 description: Enables dot stuffing to be set in an FIO_CONTEXT structure.
 old-location: winprog\_setdotstuffstate.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 3acfaf74-ec36-4afb-b358-425bd5062153
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/SetDotStuffState, winprog._setdotstuffstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

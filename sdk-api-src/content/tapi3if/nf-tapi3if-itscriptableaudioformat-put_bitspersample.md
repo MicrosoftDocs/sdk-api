@@ -7,7 +7,7 @@ old-location: tapi3\itscriptableaudioformat_put_bitspersample.htm
 tech.root: tapi
 ms.assetid: 8e1038d6-122f-40c9-a6ab-57ae583ff9bc
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_BitsPerSample method, ITScriptableAudioFormat.put_BitsPerSample, ITScriptableAudioFormat::put_BitsPerSample, _tapi3_itscriptableaudioformat_put_bitspersample, put_BitsPerSample, put_BitsPerSample method [TAPI 2.2], put_BitsPerSample method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_bitspersample, tapi3if/ITScriptableAudioFormat::put_BitsPerSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

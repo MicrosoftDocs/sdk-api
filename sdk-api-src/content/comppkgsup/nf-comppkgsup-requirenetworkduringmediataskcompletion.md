@@ -4,10 +4,10 @@ title: RequireNetworkDuringMediaTaskCompletion function
 author: windows-sdk-content
 description: Increments or decrements the count of network connections required for media task completion.
 old-location: winprog\requirenetworkduringmediataskcompletion.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: D3A1E926-CC9C-4E5E-B588-A45B2FEE9FAF
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: RequireNetworkDuringMediaTaskCompletion, RequireNetworkDuringMediaTaskCompletion function [Windows API], comppkgsup/RequireNetworkDuringMediaTaskCompletion, winprog.requirenetworkduringmediataskcompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices

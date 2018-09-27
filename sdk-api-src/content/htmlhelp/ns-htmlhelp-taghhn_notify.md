@@ -7,7 +7,7 @@ old-location: htmlhelp\hhn_notify_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhnnotify.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/30/2018
 ms.keywords: HHN_NOTIFY, HHN_NOTIFY structure [HTML Help Workshop], htmlhelp.hhn_notify_structure, htmlhelp/HHN_NOTIFY, tagHHN_NOTIFY, vsconStrhhnnotify
 ms.prod: windows
 ms.technology: windows-sdk

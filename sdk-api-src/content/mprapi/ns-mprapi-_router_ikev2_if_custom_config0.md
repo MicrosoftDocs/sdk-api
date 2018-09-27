@@ -4,10 +4,10 @@ title: "_ROUTER_IKEv2_IF_CUSTOM_CONFIG0"
 author: windows-sdk-content
 description: Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces.
 old-location: rras\router_ikev2_if_custom_config0.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: c81611c6-3bad-4965-b4fb-b2c8074cee28
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS], ROUTER_IKEv2_IF_CUSTOM_CONFIG0, ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS], _ROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0, rras.router_ikev2_if_custom_config0"
 ms.prod: windows
 ms.technology: windows-sdk

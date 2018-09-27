@@ -4,10 +4,10 @@ title: "_MCAST_CLIENT_UID"
 author: windows-sdk-content
 description: The MCAST_CLIENT_UID structure describes the unique client identifier for each multicast request.
 old-location: madcap\mcast_client_uid.htm
-tech.root: madcap
+tech.root: Madcap
 ms.assetid: 6460ea80-f1b1-4939-a977-580d0db10fd0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID structure pointer [MADCAP], MCAST_CLIENT_UID, MCAST_CLIENT_UID structure [MADCAP], _MCAST_CLIENT_UID, _mdhcp_mcast_client_uid, madcap.mcast_client_uid, madcapcl/LPMCAST_CLIENT_UID, madcapcl/MCAST_CLIENT_UID"
 ms.prod: windows
 ms.technology: windows-sdk

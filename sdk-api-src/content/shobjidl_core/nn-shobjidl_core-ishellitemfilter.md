@@ -7,7 +7,7 @@ old-location: shell\IShellItemFilter.htm
 tech.root: shell
 ms.assetid: c2873385-a25d-4d9d-94ef-05dcdf284be1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IShellItemFilter, IShellItemFilter interface [Windows Shell], IShellItemFilter interface [Windows Shell],described, _shell_IShellItemFilter, shell.IShellItemFilter, shobjidl_core/IShellItemFilter
 ms.prod: windows
 ms.technology: windows-sdk

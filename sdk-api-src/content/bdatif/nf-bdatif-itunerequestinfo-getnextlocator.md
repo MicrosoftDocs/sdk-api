@@ -4,10 +4,10 @@ title: ITuneRequestInfo::GetNextLocator
 author: windows-sdk-content
 description: The GetNextLocator method creates a new tune request with locator information for the next transport stream on the network.
 old-location: mstv\itunerequestinfo_getnextlocator.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 300479bf-f8e3-41e2-898e-8a87e4abc801
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetNextLocator, GetNextLocator method [Microsoft TV Technologies], GetNextLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextLocator method, ITuneRequestInfo.GetNextLocator, ITuneRequestInfo::GetNextLocator, ITuneRequestInfoGetNextLocator, bdatif/ITuneRequestInfo::GetNextLocator, mstv.itunerequestinfo_getnextlocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

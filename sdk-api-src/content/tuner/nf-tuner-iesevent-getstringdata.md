@@ -4,10 +4,10 @@ title: IESEvent::GetStringData
 author: windows-sdk-content
 description: Gets the data from an event that is derived from the IESEvent interface, in Unicode string format. The data is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_getstringdata.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6a1c98af-a753-40e5-bea8-825863f94172
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetStringData, GetStringData method [Microsoft TV Technologies], GetStringData method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetStringData method, IESEvent.GetStringData, IESEvent::GetStringData, mstv.iesevent_getstringdata, tuner/IESEvent::GetStringData
 ms.prod: windows-hardware
 ms.technology: windows-devices

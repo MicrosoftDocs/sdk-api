@@ -7,7 +7,7 @@ old-location: tapi3\itasrterminalevent_get_call.htm
 tech.root: tapi
 ms.assetid: 8736e3bc-9f79-4b0f-84a7-00e6d20550e2
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Call method, ITASRTerminalEvent.get_Call, ITASRTerminalEvent::get_Call, _tapi3_itasrterminalevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_call, tapi3if/ITASRTerminalEvent::get_Call
 ms.prod: windows-hardware
 ms.technology: windows-devices

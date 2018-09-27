@@ -7,7 +7,7 @@ old-location: ics\inetfwopenports.htm
 tech.root: ics
 ms.assetid: a3a6e5c1-5818-419c-8df4-966b2fbcd8c0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], INetFwOpenPorts interface [ICS/ICF],described, ics.inetfwopenports, netfw/INetFwOpenPorts
 ms.prod: windows
 ms.technology: windows-sdk

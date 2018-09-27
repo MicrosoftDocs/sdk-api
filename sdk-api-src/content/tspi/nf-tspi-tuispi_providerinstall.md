@@ -7,7 +7,7 @@ old-location: tspi\tuispi_providerinstall.htm
 tech.root: tapi
 ms.assetid: 4b133336-7cd1-4af4-bc8d-4defce97559d
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: TUISPI_providerInstall, TUISPI_providerInstall function [TAPI 2.2], _tspi_tuispi_providerinstall, tspi.tuispi_providerinstall, tspi/TUISPI_providerInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

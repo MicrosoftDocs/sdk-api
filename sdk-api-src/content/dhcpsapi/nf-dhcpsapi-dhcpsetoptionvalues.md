@@ -4,10 +4,10 @@ title: DhcpSetOptionValues function
 author: windows-sdk-content
 description: Sets option codes and their associated data values for a specific scope defined on the DHCP server.
 old-location: dhcp\dhcpsetoptionvalues.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 10a5513d-dfa2-416c-843e-422154db82ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpSetOptionValues, DhcpSetOptionValues function [DHCP], dhcp.dhcpsetoptionvalues, dhcpsapi/DhcpSetOptionValues
 ms.prod: windows-hardware
 ms.technology: windows-devices

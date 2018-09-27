@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1StrokeStyle_GetDashCap.htm
 tech.root: direct2d
 ms.assetid: 42e5d760-dee0-4360-be47-6db9870d51f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: GetDashCap, GetDashCap method [Direct2D], GetDashCap method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashCap method, ID2D1StrokeStyle.GetDashCap, ID2D1StrokeStyle::GetDashCap, d2d1/ID2D1StrokeStyle::GetDashCap, direct2d.ID2D1StrokeStyle_GetDashCap
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt64.htm
 tech.root: properties
 ms.assetid: 3a6bdfb0-eae1-40e7-85c1-234732a4bc3f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PropVariantToUInt64, PropVariantToUInt64 function [Windows Properties], properties.PropVariantToUInt64, propvarutil/PropVariantToUInt64, shell.PropVariantToUInt64, shell_PropVariantToUInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices

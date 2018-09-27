@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometry.htm
 tech.root: printdocs
 ms.assetid: d3f74c1e-49ef-40ee-a2f4-b6d198b57624
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packaging], IXpsOMGeometry interface [XPS Documents and Packaging],described, xps.ixpsomgeometry, xpsobjectmodel/IXpsOMGeometry
 ms.prod: windows
 ms.technology: windows-sdk

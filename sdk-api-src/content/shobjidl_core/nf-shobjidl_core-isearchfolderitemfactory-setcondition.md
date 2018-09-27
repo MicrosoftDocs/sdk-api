@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetCondition.htm
 tech.root: shell
 ms.assetid: 6ac5acc3-e522-4b6f-a31c-c0850445e00c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetCondition method, ISearchFolderItemFactory.SetCondition, ISearchFolderItemFactory::SetCondition, SetCondition, SetCondition method [Windows Shell], SetCondition method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetCondition, shell.ISearchFolderItemFactory_SetCondition, shobjidl_core/ISearchFolderItemFactory::SetCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DhcpV4GetClientInfo function
 author: windows-sdk-content
 description: Retrieves DHCP client lease record information from the DHCP server database.
 old-location: dhcp\dhcpv4getclientinfo.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: bf6df3ba-bbea-4140-960c-fb34cfe160eb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpV4GetClientInfo, DhcpV4GetClientInfo function [DHCP], dhcp.dhcpv4getclientinfo, dhcpsapi/DhcpV4GetClientInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

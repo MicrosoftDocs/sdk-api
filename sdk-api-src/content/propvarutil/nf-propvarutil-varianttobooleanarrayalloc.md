@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanArrayAlloc.htm
 tech.root: properties
 ms.assetid: 6a623ee0-d99e-47db-82f9-9008c618a526
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: VariantToBooleanArrayAlloc, VariantToBooleanArrayAlloc function [Windows Properties], _shell_VariantToBooleanArrayAlloc, properties.VariantToBooleanArrayAlloc, propvarutil/VariantToBooleanArrayAlloc, shell.VariantToBooleanArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

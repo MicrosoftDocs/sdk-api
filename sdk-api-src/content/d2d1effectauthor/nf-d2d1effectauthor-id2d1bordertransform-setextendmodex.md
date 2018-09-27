@@ -7,7 +7,7 @@ old-location: direct2d\id2d1bordertransform_setextendmodex.htm
 tech.root: direct2d
 ms.assetid: DAE92C50-CCEB-4E22-A37E-8E4AFC47646F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1BorderTransform interface [Direct2D],SetExtendModeX method, ID2D1BorderTransform.SetExtendModeX, ID2D1BorderTransform::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1BorderTransform interface, d2d1effectauthor/ID2D1BorderTransform::SetExtendModeX, direct2d.id2d1bordertransform_setextendmodex
 ms.prod: windows-hardware
 ms.technology: windows-devices

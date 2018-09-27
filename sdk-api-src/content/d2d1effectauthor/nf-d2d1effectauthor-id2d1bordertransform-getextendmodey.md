@@ -7,7 +7,7 @@ old-location: direct2d\id2d1bordertransform_getextendmodey.htm
 tech.root: direct2d
 ms.assetid: 5B63E761-D22A-4789-A9DE-44DD8DC80E8D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: GetExtendModeY, GetExtendModeY method [Direct2D], GetExtendModeY method [Direct2D],ID2D1BorderTransform interface, ID2D1BorderTransform interface [Direct2D],GetExtendModeY method, ID2D1BorderTransform.GetExtendModeY, ID2D1BorderTransform::GetExtendModeY, d2d1effectauthor/ID2D1BorderTransform::GetExtendModeY, direct2d.id2d1bordertransform_getextendmodey
 ms.prod: windows-hardware
 ms.technology: windows-devices

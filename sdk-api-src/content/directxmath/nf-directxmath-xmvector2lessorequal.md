@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2lessorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2LessOrEqual(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMVector2LessOrEqual, XMVector2LessOrEqual, XMVector2LessOrEqual method [DirectX Math Support APIs], dxmath.xmvector2lessorequal
 ms.prod: windows-hardware
 ms.technology: windows-devices

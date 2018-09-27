@@ -4,10 +4,10 @@ title: IAtscPsipParser::GetEAS
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_geteas.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e53b93e3-7269-45aa-8b19-75f78fb44c41
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetEAS, GetEAS method [Microsoft TV Technologies], GetEAS method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetEAS method, IAtscPsipParser.GetEAS, IAtscPsipParser::GetEAS, IAtscPsipParserGetEAS, atscpsipparser/IAtscPsipParser::GetEAS, mstv.iatscpsipparser_geteas
 ms.prod: windows-hardware
 ms.technology: windows-devices

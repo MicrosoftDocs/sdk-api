@@ -7,7 +7,7 @@ old-location: base\process_mitigation_font_disable_policy.htm
 tech.root: procthread
 ms.assetid: 7DDBEDEC-55F4-4DEA-8FFD-EA128FAA1A9B
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: "*PPROCESS_MITIGATION_FONT_DISABLE_POLICY, PPROCESS_MITIGATION_FONT_DISABLE_POLICY, PPROCESS_MITIGATION_FONT_DISABLE_POLICY structure pointer, PROCESS_MITIGATION_FONT_DISABLE_POLICY, PROCESS_MITIGATION_FONT_DISABLE_POLICY structure, _PROCESS_MITIGATION_FONT_DISABLE_POLICY, base.process_mitigation_font_disable_policy, winnt/PPROCESS_MITIGATION_FONT_DISABLE_POLICY, winnt/PROCESS_MITIGATION_FONT_DISABLE_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

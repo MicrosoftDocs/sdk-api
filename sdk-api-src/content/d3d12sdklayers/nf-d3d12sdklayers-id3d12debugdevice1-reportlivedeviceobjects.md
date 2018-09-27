@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice1_reportlivedeviceobjects.htm
 tech.root: direct3d12
 ms.assetid: 99895407-2BFF-40AA-BAE4-C304295DA0E4
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: ID3D12DebugDevice1 interface,ReportLiveDeviceObjects method, ID3D12DebugDevice1.ReportLiveDeviceObjects, ID3D12DebugDevice1::ReportLiveDeviceObjects, ReportLiveDeviceObjects, ReportLiveDeviceObjects method, ReportLiveDeviceObjects method,ID3D12DebugDevice1 interface, d3d12sdklayers/ID3D12DebugDevice1::ReportLiveDeviceObjects, direct3d12.id3d12debugdevice1_reportlivedeviceobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

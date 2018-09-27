@@ -7,7 +7,7 @@ old-location: shell\idatatransfermanagerinterop_getforwindow.htm
 tech.root: shell
 ms.assetid: 129CEEBF-0D02-4746-8F9B-4F5F5A95E6A2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Shell], GetForWindow method [Windows Shell],IDataTransferManagerInterop interface, IDataTransferManagerInterop interface [Windows Shell],GetForWindow method, IDataTransferManagerInterop.GetForWindow, IDataTransferManagerInterop::GetForWindow, shell.idatatransfermanagerinterop_getforwindow, shobjidl_core/IDataTransferManagerInterop::GetForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

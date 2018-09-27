@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiovolumeducknotification_onvolumeunducknotification.
 tech.root: CoreAudio
 ms.assetid: f25f066e-999f-45ff-8287-afa8acb82a19
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/25/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeUnduckNotification method, IAudioVolumeDuckNotification.OnVolumeUnduckNotification, IAudioVolumeDuckNotification::OnVolumeUnduckNotification, OnVolumeUnduckNotification, OnVolumeUnduckNotification method [Core Audio], OnVolumeUnduckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification, coreaudio.iaudiovolumeducknotification_onvolumeunducknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

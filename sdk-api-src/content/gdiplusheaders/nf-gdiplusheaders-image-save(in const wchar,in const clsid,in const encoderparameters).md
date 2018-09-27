@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Save_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesavemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Image.Save, Image.Save(IN const WCHAR,IN const CLSID,IN const EncoderParameters), Image::Save, Image::Save(IN const WCHAR,IN const CLSID,IN const EncoderParameters), Save, Save methods [GDI+], _gdiplus_CLASS_Image_Save_Methods, gdiplus._gdiplus_CLASS_Image_Save_Methods, gdiplusheaders/Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

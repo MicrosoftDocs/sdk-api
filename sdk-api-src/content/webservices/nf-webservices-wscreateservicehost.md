@@ -7,7 +7,7 @@ old-location: wsw\wscreateservicehost.htm
 tech.root: wsw
 ms.assetid: 412a262a-1706-4101-b154-1804408a5b9f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WsCreateServiceHost, WsCreateServiceHost function [Web Services for Windows], webservices/WsCreateServiceHost, wsw.wscreateservicehost
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DRMGetIssuanceLicenseTemplate function
 author: windows-sdk-content
 description: Obtains an issuance license template from an existing issuance license.
 old-location: rm\drmgetissuancelicensetemplate.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 6667bab3-5022-4279-846a-61a0a37e9d33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMGetIssuanceLicenseTemplate, DRMGetIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIssuanceLicenseTemplate, rm.drmgetissuancelicensetemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

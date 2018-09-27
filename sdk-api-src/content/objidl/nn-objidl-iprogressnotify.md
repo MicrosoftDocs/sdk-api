@@ -7,7 +7,7 @@ old-location: com\iprogressnotify.htm
 tech.root: com
 ms.assetid: 3f90437d-df8f-42b2-af81-519bfb9577b1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IProgressNotify, IProgressNotify interface [COM], IProgressNotify interface [COM],described, _com_iprogressnotify, com.iprogressnotify, objidl/IProgressNotify
 ms.prod: windows
 ms.technology: windows-sdk

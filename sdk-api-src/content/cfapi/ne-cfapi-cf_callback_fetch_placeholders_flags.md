@@ -7,7 +7,7 @@ old-location: cloudapi\cf_callback_fetch_placeholders_flags.htm
 tech.root: cfApi
 ms.assetid: CD90EB49-8C39-49DD-8688-CBDF77B1EA92
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS enumeration, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cloudApi.cf_callback_fetch_placeholders_flags
 ms.prod: windows
 ms.technology: windows-sdk

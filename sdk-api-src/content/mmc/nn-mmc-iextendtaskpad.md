@@ -7,7 +7,7 @@ old-location: mmc\iextendtaskpad.htm
 tech.root: mmc
 ms.assetid: 30f5b526-d2d5-48a6-be5f-d0f2ba9397c4
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IExtendTaskPad, IExtendTaskPad interface [MMC], IExtendTaskPad interface [MMC],described, _slate_iextendtaskpad, mmc.iextendtaskpad, mmc/IExtendTaskPad
 ms.prod: windows
 ms.technology: windows-sdk

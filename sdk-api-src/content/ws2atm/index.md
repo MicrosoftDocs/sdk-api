@@ -2,7 +2,7 @@
 UID: NA:ws2atm
 ms.assetid: fcbc2a0c-da3b-380a-bb46-c237a3d33317
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

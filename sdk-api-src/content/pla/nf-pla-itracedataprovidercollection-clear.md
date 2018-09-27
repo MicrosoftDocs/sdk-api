@@ -7,7 +7,7 @@ old-location: pla\itracedataprovidercollection_clear.htm
 tech.root: PLA
 ms.assetid: aee595c2-bffc-4c79-89b3-b83f75e58d89
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Clear method, ITraceDataProviderCollection.Clear, ITraceDataProviderCollection::Clear, base.itracedataprovidercollection_clear, pla.itracedataprovidercollection_clear, pla/ITraceDataProviderCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_put_baseurl.htm
 tech.root: WMP
 ms.assetid: ae070004-e90e-4f1e-b8b8-15deccdc48ad
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_baseURL method, IWMPSettings.put_baseURL, IWMPSettings::put_baseURL, IWMPSettingsput_baseURL, put_baseURL, put_baseURL method [Windows Media Player], put_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_baseurl, wmp/IWMPSettings::put_baseURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

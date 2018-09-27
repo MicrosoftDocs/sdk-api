@@ -4,10 +4,10 @@ title: SCardCancel function
 author: windows-sdk-content
 description: Terminates all outstanding actions within a specific resource manager context.
 old-location: security\scardcancel.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: abf3b4ff-4775-40e9-b68d-97dcf6a892ba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: SCardCancel, SCardCancel function [Security], _smart_scardcancel, security.scardcancel, winscard/SCardCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

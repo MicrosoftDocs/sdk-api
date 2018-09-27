@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetwindowingmodel_function.htm
 tech.root: appxpkg
 ms.assetid: AA1682F8-1DDD-48C3-B16A-6C89D28455E8
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: AppPolicyGetWindowingModel, AppPolicyGetWindowingModel function [App packaging and management], appmodel/AppPolicyGetWindowingModel, appxpkg.apppolicygetwindowingmodel_function
 ms.prod: windows-hardware
 ms.technology: windows-devices

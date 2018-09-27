@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice2_setiteminfo.htm
 tech.root: WMP
 ms.assetid: 664e3e12-125b-4e11-bab5-44f51650983e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPSyncDevice2 interface [Windows Media Player],setItemInfo method, IWMPSyncDevice2.setItemInfo, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPSyncDevice2 interface, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

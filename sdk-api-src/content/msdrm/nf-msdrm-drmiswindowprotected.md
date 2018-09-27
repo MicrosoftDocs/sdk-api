@@ -4,10 +4,10 @@ title: DRMIsWindowProtected function
 author: windows-sdk-content
 description: Indicates whether a window is associated with a protected environment.
 old-location: rm\drmiswindowprotected.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 5cd4b4fe-6941-441c-ac6c-9ec8d838598c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMIsWindowProtected, DRMIsWindowProtected function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMIsWindowProtected, rm.drmiswindowprotected
 ms.prod: windows-hardware
 ms.technology: windows-devices

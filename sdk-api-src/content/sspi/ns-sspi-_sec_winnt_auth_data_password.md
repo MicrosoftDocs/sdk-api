@@ -4,10 +4,10 @@ title: "_SEC_WINNT_AUTH_DATA_PASSWORD"
 author: windows-sdk-content
 description: Specifies a serialized password.
 old-location: security\sec_winnt_auth_data_password.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: f7f3c0e8-be28-4be2-a472-21a39ace04cb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: PSEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD structure [Security], SEC_WINNT_AUTH_DATA_PASSWORD, SEC_WINNT_AUTH_DATA_PASSWORD structure [Security], _SEC_WINNT_AUTH_DATA_PASSWORD, security.sec_winnt_auth_data_password, sspi/PSEC_WINNT_AUTH_DATA_PASSWORD, sspi/SEC_WINNT_AUTH_DATA_PASSWORD
 ms.prod: windows
 ms.technology: windows-sdk

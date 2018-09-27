@@ -2,12 +2,11 @@
 UID: TP:ixhr2
 ms.assetid: 1bcd6a5a-1ca6-357d-9684-cbdeef45fb68
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # XML HTTP Extended Request
@@ -21,5 +20,5 @@ To develop XML HTTP Extended Request, you need these headers:
  * [msxml6.h](../msxml6/index.md)
 
 For programming guidance for this technology, see:
-* [XML HTTP Extended Request](/previous-versions/windows/desktop/ixhr2)
+* [XML HTTP Extended Request](/windows/desktop/ixhr2)
 

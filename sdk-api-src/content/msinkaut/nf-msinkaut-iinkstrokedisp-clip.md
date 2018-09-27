@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_clip.htm
 tech.root: tablet
 ms.assetid: d3733613-fc8e-41f2-9172-07b61fc133dd
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: Clip, Clip method [Tablet PC], Clip method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Clip method, IInkStrokeDisp.Clip, IInkStrokeDisp::Clip, d3733613-fc8e-41f2-9172-07b61fc133dd, msinkaut/IInkStrokeDisp::Clip, tablet.iinkstrokedisp_clip
 ms.prod: windows-hardware
 ms.technology: windows-devices

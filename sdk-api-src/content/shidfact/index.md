@@ -2,7 +2,7 @@
 UID: NA:shidfact
 ms.assetid: ebc48b19-a9a7-3ee7-9d48-7ac301c5bf1a
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

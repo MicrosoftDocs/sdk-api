@@ -7,7 +7,7 @@ old-location: cos\itransactionstatus_settransactionstatus.htm
 tech.root: cossdk
 ms.assetid: 0e69758a-8dc7-489c-8e78-ba35749beb01
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ITransactionStatus interface [COM+],SetTransactionStatus method, ITransactionStatus.SetTransactionStatus, ITransactionStatus::SetTransactionStatus, SetTransactionStatus, SetTransactionStatus method [COM+], SetTransactionStatus method [COM+],ITransactionStatus interface, _cos_ITransactionStatus_SetTransactionStatus, comsvcs/ITransactionStatus::SetTransactionStatus, cos.itransactionstatus_settransactionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetFamily_family_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getfamily.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Font class [GDI+],GetFamily method, Font.GetFamily, Font::GetFamily, GetFamily, GetFamily method [GDI+], GetFamily method [GDI+],Font class, _gdiplus_CLASS_Font_GetFamily_family_, gdiplus._gdiplus_CLASS_Font_GetFamily_family_
 ms.prod: windows-hardware
 ms.technology: windows-devices

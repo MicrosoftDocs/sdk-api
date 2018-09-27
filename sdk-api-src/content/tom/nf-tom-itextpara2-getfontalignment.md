@@ -4,10 +4,10 @@ title: ITextPara2::GetFontAlignment
 author: windows-sdk-content
 description: Gets the paragraph font alignment state.
 old-location: controls\itextpara2_getfontalignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1064c033-2ae0-46ec-a670-603edd673e87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetFontAlignment, GetFontAlignment method [Windows Controls], GetFontAlignment method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetFontAlignment method, ITextPara2.GetFontAlignment, ITextPara2::GetFontAlignment, controls.itextpara2_getfontalignment, tom/ITextPara2::GetFontAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

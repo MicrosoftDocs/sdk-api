@@ -7,7 +7,7 @@ old-location: alljoyn\alljoynsendtobus.htm
 tech.root: AllJoyn
 ms.assetid: 8D941DB8-AA73-472B-92E2-85EA72BD9A40
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: AllJoynSendToBus, AllJoynSendToBus function [AllJoyn API], alljoyn.alljoynsendtobus, msajtransport/AllJoynSendToBus
 ms.prod: windows-hardware
 ms.technology: windows-devices

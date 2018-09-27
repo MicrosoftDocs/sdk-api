@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_ink_bezier_segment.htm
 tech.root: direct2d
 ms.assetid: 27F1F78B-2478-4F5D-BF56-9931E767C358
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_INK_BEZIER_SEGMENT, D2D1_INK_BEZIER_SEGMENT structure [Direct2D], d2d1_3/D2D1_INK_BEZIER_SEGMENT, direct2d.d2d1_ink_bezier_segment
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0003"
 author: windows-sdk-content
 description: Determines the type of multicast sessions used for transmitting objects covered by this namespace.
 old-location: wds\wdstransport_namespace_type.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: baba27d2-6df1-4261-b98d-9728ecbb56f2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: "*PWDSTRANSPORT_NAMESPACE_TYPE, WDSTRANSPORT_NAMESPACE_TYPE, WDSTRANSPORT_NAMESPACE_TYPE enumeration [Windows Deployment Services], WdsTptNamespaceTypeAutoCast, WdsTptNamespaceTypeScheduledCastAutoStart, WdsTptNamespaceTypeScheduledCastManualStart, WdsTptNamespaceTypeUnknown, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0003, wds.wdstransport_namespace_type, wdstptmgmt/WDSTRANSPORT_NAMESPACE_TYPE, wdstptmgmt/WdsTptNamespaceTypeAutoCast, wdstptmgmt/WdsTptNamespaceTypeScheduledCastAutoStart, wdstptmgmt/WdsTptNamespaceTypeScheduledCastManualStart, wdstptmgmt/WdsTptNamespaceTypeUnknown"
 ms.prod: windows
 ms.technology: windows-sdk

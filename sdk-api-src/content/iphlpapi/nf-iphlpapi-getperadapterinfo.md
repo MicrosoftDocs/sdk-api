@@ -4,10 +4,10 @@ title: GetPerAdapterInfo function
 author: windows-sdk-content
 description: The GetPerAdapterInfo function retrieves information about the adapter corresponding to the specified interface.
 old-location: iphlp\getperadapterinfo.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: fc1ae7e4-f856-4b48-8ab4-56cd511ed161
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetPerAdapterInfo, GetPerAdapterInfo function [IP Helper], _iphlp_getperadapterinfo, iphlp.getperadapterinfo, iphlpapi/GetPerAdapterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

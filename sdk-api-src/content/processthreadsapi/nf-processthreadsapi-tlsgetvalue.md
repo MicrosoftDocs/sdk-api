@@ -7,7 +7,7 @@ old-location: base\tlsgetvalue.htm
 tech.root: procthread
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

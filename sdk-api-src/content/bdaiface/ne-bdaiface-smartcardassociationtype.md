@@ -4,10 +4,10 @@ title: SmartCardAssociationType
 author: windows-sdk-content
 description: The SmartCardAssociationType enumeration type specifies a smart card association.
 old-location: mstv\smartcardassociationtype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: Associated, AssociationUnknown, NotAssociated, SmartCardAssociationType, SmartCardAssociationType enumeration [Microsoft TV Technologies], bdaiface/Associated, bdaiface/AssociationUnknown, bdaiface/NotAssociated, bdaiface/SmartCardAssociationType, mstv.smartcardassociationtype
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy.htm
 tech.root: ics
 ms.assetid: 8bfe55b6-c38d-47f8-9160-a304a85eb67f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwPolicy, INetFwPolicy interface [ICS/ICF], INetFwPolicy interface [ICS/ICF],described, ics.inetfwpolicy, netfw/INetFwPolicy
 ms.prod: windows
 ms.technology: windows-sdk

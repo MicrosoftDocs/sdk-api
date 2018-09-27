@@ -7,7 +7,7 @@ old-location: multimedia\acmformatchoosehookproc.htm
 tech.root: Multimedia
 ms.assetid: 75b11c0f-ae85-424d-b936-492d67440659
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: "_win32_acmFormatChooseHookProc, acmFormatChooseHookProc, acmFormatChooseHookProc callback, acmFormatChooseHookProc callback function [Windows Multimedia], msacm/acmFormatChooseHookProc, multimedia.acmformatchoosehookproc"
 ms.prod: windows
 ms.technology: windows-sdk

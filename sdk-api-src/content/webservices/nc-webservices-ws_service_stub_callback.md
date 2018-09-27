@@ -7,7 +7,7 @@ old-location: wsw\ws_service_stub_callback.htm
 tech.root: wsw
 ms.assetid: 3f561dfa-e83f-44f0-91b9-626b5b6036bd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_SERVICE_STUB_CALLBACK, WS_SERVICE_STUB_CALLBACK callback, WS_SERVICE_STUB_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_STUB_CALLBACK, wsw.ws_service_stub_callback
 ms.prod: windows
 ms.technology: windows-sdk

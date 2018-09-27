@@ -7,7 +7,7 @@ old-location: tablet\iinkcustomstrokes.htm
 tech.root: tablet
 ms.assetid: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], IInkCustomStrokes interface [Tablet PC],described, msinkaut/IInkCustomStrokes, tablet.iinkcustomstrokes
 ms.prod: windows
 ms.technology: windows-sdk

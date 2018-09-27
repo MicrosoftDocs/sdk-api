@@ -4,10 +4,10 @@ title: ITsSbProvider::GetInstanceOfGlobalStore
 author: windows-sdk-content
 description: Retrieves an ITsSbGlobalStore instance of the global store object.
 old-location: termserv\itssbprovider_getinstanceofglobalstore.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetInstanceOfGlobalStore method, ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
 ms.prod: windows-hardware
 ms.technology: windows-devices

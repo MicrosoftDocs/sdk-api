@@ -4,10 +4,10 @@ title: RestoreMediaSense function
 author: windows-sdk-content
 description: The RestoreMediaSense function restores the media sensing capability of the TCP/IP stack on a local computer on which the DisableMediaSense function was previously called.
 old-location: iphlp\restoremediasense.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
 ms.prod: windows-hardware
 ms.technology: windows-devices

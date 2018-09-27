@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setcurrenttime.htm
 tech.root: medfound
 ms.assetid: C64BCBA0-097E-4035-BFEE-F9EC949B109A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetCurrentTime method, IMFMediaEngine.SetCurrentTime, IMFMediaEngine::SetCurrentTime, SetCurrentTime, SetCurrentTime method [Media Foundation], SetCurrentTime method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setcurrenttime, mfmediaengine/IMFMediaEngine::SetCurrentTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

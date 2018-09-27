@@ -4,10 +4,10 @@ title: WlanDisconnect function
 author: windows-sdk-content
 description: Disconnects an interface from its current network.
 old-location: nwifi\wlandisconnect.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: cc48ee72-3125-45a0-ac16-0c520ee3cd44
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WlanDisconnect, WlanDisconnect function [NativeWIFI], nwifi.wlandisconnect, wlanapi/WlanDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

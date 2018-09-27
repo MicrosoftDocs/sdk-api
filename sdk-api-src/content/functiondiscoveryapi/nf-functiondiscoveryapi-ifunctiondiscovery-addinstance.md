@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscovery_addinstance_method.htm
 tech.root: fundisc
 ms.assetid: a99213b5-b310-4ce2-99ca-07b343f08c4d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: AddInstance, AddInstance method, AddInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,AddInstance method, IFunctionDiscovery.AddInstance, IFunctionDiscovery::AddInstance, functiondiscoveryapi/IFunctionDiscovery::AddInstance, ncd.ifunctiondiscovery_addinstance_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IThumbnailCachePrimer_PageInThumbnail.htm
 tech.root: shell
 ms.assetid: 395C1158-84CC-4400-AA8C-A2B3008AFECF
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IThumbnailCachePrimer interface [Windows Shell],PageInThumbnail method, IThumbnailCachePrimer.PageInThumbnail, IThumbnailCachePrimer::PageInThumbnail, PageInThumbnail, PageInThumbnail method [Windows Shell], PageInThumbnail method [Windows Shell],IThumbnailCachePrimer interface, shell.IThumbnailCachePrimer_PageInThumbnail, thumbcache/IThumbnailCachePrimer::PageInThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices

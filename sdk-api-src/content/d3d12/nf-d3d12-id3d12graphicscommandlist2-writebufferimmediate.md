@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist2_writebufferimmediate_uint_pa
 tech.root: direct3d12
 ms.assetid: EB1FD3E0-5785-40D1-961B-AF22F9911653
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: ID3D12GraphicsCommandList2 interface,WriteBufferImmediate method, ID3D12GraphicsCommandList2.WriteBufferImmediate, ID3D12GraphicsCommandList2::WriteBufferImmediate, WriteBufferImmediate, WriteBufferImmediate method, WriteBufferImmediate method,ID3D12GraphicsCommandList2 interface, d3d12/ID3D12GraphicsCommandList2::WriteBufferImmediate, direct3d12.id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

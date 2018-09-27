@@ -7,7 +7,7 @@ old-location: dxmath\xmcolorless.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorLess(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMColorLess, XMColorLess, XMColorLess method [DirectX Math Support APIs], dxmath.xmcolorless
 ms.prod: windows-hardware
 ms.technology: windows-devices

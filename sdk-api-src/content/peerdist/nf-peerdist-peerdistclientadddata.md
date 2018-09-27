@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientadddata.htm
 tech.root: p2psdk
 ms.assetid: f1fdd398-ed84-4819-b0e8-e9b653bd6848
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerDistClientAddData, PeerDistClientAddData function [Peer Networking], p2p.peerdistclientadddata, peerdist/PeerDistClientAddData
 ms.prod: windows-hardware
 ms.technology: windows-devices

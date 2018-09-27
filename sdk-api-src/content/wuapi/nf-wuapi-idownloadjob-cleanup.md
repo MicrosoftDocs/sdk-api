@@ -7,7 +7,7 @@ old-location: wua\idownloadjob_cleanup.htm
 tech.root: wua_sdk
 ms.assetid: 0910acbc-81d7-44ae-bae1-26c82b33d29b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],IDownloadJob interface, IDownloadJob interface [Windows Update Agent],CleanUp method, IDownloadJob.CleanUp, IDownloadJob::CleanUp, wua.idownloadjob_cleanup, wuapi/IDownloadJob::CleanUp
 ms.prod: windows-hardware
 ms.technology: windows-devices

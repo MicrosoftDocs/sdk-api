@@ -7,7 +7,7 @@ old-location: mbn\mbn_pin_info.htm
 tech.root: mbn
 ms.assetid: c70b45ea-c16b-4d0d-946a-f543c827c458
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MBN_PIN_INFO, MBN_PIN_INFO structure [Microsoft Broadband Networks], mbn.mbn_pin_info, mbnapi/MBN_PIN_INFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\PathCchRemoveExtension.htm
 tech.root: shell
 ms.assetid: 9adfb054-6d62-41bb-9036-0bf670ea24b2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: PathCchRemoveExtension, PathCchRemoveExtension function [Windows Shell], pathcch/PathCchRemoveExtension, shell.PathCchRemoveExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumqueue.htm
 tech.root: tapi
 ms.assetid: 0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: IEnumQueue, IEnumQueue interface [TAPI 2.2], IEnumQueue interface [TAPI 2.2],described, _tapi3_ienumqueue, tapi3.ienumqueue, tapi3cc/IEnumQueue
 ms.prod: windows
 ms.technology: windows-sdk

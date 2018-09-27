@@ -2,12 +2,13 @@
 UID: NA:videoacc
 ms.assetid: 13e308ee-c79d-328e-872a-7614ff20daeb
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
+archived: true
 ---
 
 # Videoacc.h header

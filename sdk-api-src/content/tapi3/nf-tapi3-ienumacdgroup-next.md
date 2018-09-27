@@ -7,7 +7,7 @@ old-location: tapi3\ienumacdgroup_next.htm
 tech.root: tapi
 ms.assetid: 20cad3aa-2c8c-4ef8-bb3a-b7662b125475
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Next method, IEnumACDGroup.Next, IEnumACDGroup::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_next, tapi3.ienumacdgroup_next, tapi3cc/IEnumACDGroup::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

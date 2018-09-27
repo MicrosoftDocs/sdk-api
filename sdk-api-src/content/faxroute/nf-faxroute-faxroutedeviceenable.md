@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxroutedeviceenable.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_771h.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: FaxRouteDeviceEnable, FaxRouteDeviceEnable function [Fax Service], QUERY_STATUS, STATUS_DISABLE, STATUS_ENABLE, _mfax_faxroutedeviceenable, fax._mfax_faxroutedeviceenable, faxroute/FaxRouteDeviceEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices

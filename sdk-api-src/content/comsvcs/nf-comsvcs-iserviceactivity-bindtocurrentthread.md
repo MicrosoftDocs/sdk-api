@@ -7,7 +7,7 @@ old-location: cos\iserviceactivity_bindtocurrentthread.htm
 tech.root: cossdk
 ms.assetid: 3d2b57fd-1714-4fdf-859c-9fdfb341dd5d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurrentThread method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],BindToCurrentThread method, IServiceActivity.BindToCurrentThread, IServiceActivity::BindToCurrentThread, _cos_IServiceActivity_BindToCurrentThread, comsvcs/IServiceActivity::BindToCurrentThread, cos.iserviceactivity_bindtocurrentthread
 ms.prod: windows-hardware
 ms.technology: windows-devices

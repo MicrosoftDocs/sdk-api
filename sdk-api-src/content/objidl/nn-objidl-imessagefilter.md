@@ -7,7 +7,7 @@ old-location: com\imessagefilter.htm
 tech.root: com
 ms.assetid: e12d48c0-5033-47a8-bdcd-e94c49857248
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IMessageFilter, IMessageFilter interface [COM], IMessageFilter interface [COM],described, _com_imessagefilter, com.imessagefilter, objidl/IMessageFilter
 ms.prod: windows
 ms.technology: windows-sdk

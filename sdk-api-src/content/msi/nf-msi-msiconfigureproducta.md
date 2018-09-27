@@ -7,7 +7,7 @@ old-location: setup\msiconfigureproduct.htm
 tech.root: msi
 ms.assetid: 06f341ac-badd-47a0-af86-4fb76bf528d6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INSTALLLEVEL_DEFAULT, INSTALLLEVEL_MAXIMUM, INSTALLLEVEL_MINIMUM, INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureProduct, MsiConfigureProduct function, MsiConfigureProductA, MsiConfigureProductW, _msi_msiconfigureproduct, msi/MsiConfigureProduct, msi/MsiConfigureProductA, msi/MsiConfigureProductW, setup.msiconfigureproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices

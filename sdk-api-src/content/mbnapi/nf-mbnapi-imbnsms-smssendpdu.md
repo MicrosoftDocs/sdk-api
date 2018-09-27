@@ -7,7 +7,7 @@ old-location: mbn\imbnsms_smssendpdu.htm
 tech.root: mbn
 ms.assetid: c8f5bde5-d28c-4799-9f46-7b02745e6bfb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendPdu method, IMbnSms.SmsSendPdu, IMbnSms::SmsSendPdu, SmsSendPdu, SmsSendPdu method [Microsoft Broadband Networks], SmsSendPdu method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendpdu, mbnapi/IMbnSms::SmsSendPdu
 ms.prod: windows-hardware
 ms.technology: windows-devices

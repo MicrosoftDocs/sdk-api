@@ -4,10 +4,10 @@ title: RtlIpv6AddressToStringExW function
 author: windows-sdk-content
 description: Converts an IPv6 address, scope ID, and port number to a string.
 old-location: iphlp\rtlipv6addresstostringex.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: a7de2da3-21ea-42fa-9474-f33252838632
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: RtlIpv6AddressToStringEx, RtlIpv6AddressToStringEx function [IP Helper], RtlIpv6AddressToStringExW, ip2string/RtlIpv6AddressToStringEx, ip2string/RtlIpv6AddressToStringExW, iphlp.rtlipv6addresstostringex
 ms.prod: windows-hardware
 ms.technology: windows-devices

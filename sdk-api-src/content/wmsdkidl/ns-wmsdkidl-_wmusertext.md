@@ -7,7 +7,7 @@ old-location: wmformat\wm_user_text.htm
 tech.root: wmformat
 ms.assetid: 49a8faf1-2af4-4c47-bbac-d8745c0f60a1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: WM_USER_TEXT, WM_USER_TEXT structure [windows Media Format], _WMUserText, wmformat.wm_user_text, wmsdkidl/WM_USER_TEXT
 ms.prod: windows
 ms.technology: windows-sdk

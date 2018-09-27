@@ -7,7 +7,7 @@ old-location: shell\IntToShort.htm
 tech.root: shell
 ms.assetid: a3f6ae04-fa81-4b41-9792-5e3403016f1d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IntToShort, IntToShort function [Windows Shell], _shell_IntToShort, intsafe/IntToShort, shell.IntToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

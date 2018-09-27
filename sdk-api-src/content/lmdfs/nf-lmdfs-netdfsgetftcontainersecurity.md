@@ -4,10 +4,10 @@ title: NetDfsGetFtContainerSecurity function
 author: windows-sdk-content
 description: Retrieves the security descriptor of the container object for the domain-based DFS namespaces in the specified Active Directory domain.
 old-location: dfs\netdfsgetftcontainersecurity.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: 88e988db-1418-49d5-8cac-1ea6144474a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetDfsGetFtContainerSecurity, NetDfsGetFtContainerSecurity function [Distributed File System], dfs.netdfsgetftcontainersecurity, fs.netdfsgetftcontainersecurity, lmdfs/NetDfsGetFtContainerSecurity, netmgmt.netdfsgetftcontainersecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

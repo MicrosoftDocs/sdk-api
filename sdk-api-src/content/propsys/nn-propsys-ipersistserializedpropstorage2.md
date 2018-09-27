@@ -7,7 +7,7 @@ old-location: shell\IPersistSerializedPropStorage2.htm
 tech.root: shell
 ms.assetid: 7483b51e-d71d-4570-8b76-64e344c2227e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 interface [Windows Shell], IPersistSerializedPropStorage2 interface [Windows Shell],described, _shell_IPersistSerializedPropStorage2, propsys/IPersistSerializedPropStorage2, shell.IPersistSerializedPropStorage2
 ms.prod: windows
 ms.technology: windows-sdk

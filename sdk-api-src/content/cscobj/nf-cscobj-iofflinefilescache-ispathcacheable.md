@@ -4,10 +4,10 @@ title: IOfflineFilesCache::IsPathCacheable
 author: windows-sdk-content
 description: Determines whether a specified UNC path is in the Offline Files cache.
 old-location: of\iofflinefilescache_ispathcacheable.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 4d9a2fda-baad-4ada-8a07-f39c9cfafdfa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],IsPathCacheable method, IOfflineFilesCache.IsPathCacheable, IOfflineFilesCache::IsPathCacheable, IsPathCacheable, IsPathCacheable method [Offline Files], IsPathCacheable method [Offline Files],IOfflineFilesCache interface, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesCache::IsPathCacheable, of.iofflinefilescache_ispathcacheable
 ms.prod: windows-hardware
 ms.technology: windows-devices

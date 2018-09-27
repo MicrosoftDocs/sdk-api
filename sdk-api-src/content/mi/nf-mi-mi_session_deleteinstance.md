@@ -4,10 +4,10 @@ title: MI_Session_DeleteInstance function
 author: windows-sdk-content
 description: Deletes an instance on the server represented by the session.
 old-location: wmi_v2\mi_session_deleteinstance.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 10d49e33-adbc-4202-91f6-7df9b4cff133
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Session_DeleteInstance, MI_Session_DeleteInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_DeleteInstance, wmi_v2.mi_session_deleteinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

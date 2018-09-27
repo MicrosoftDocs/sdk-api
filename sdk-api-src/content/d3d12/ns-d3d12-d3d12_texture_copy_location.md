@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_texture_copy_location.htm
 tech.root: direct3d12
 ms.assetid: D63EC731-EE75-44CD-9CCD-7FB4A761D1A3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_TEXTURE_COPY_LOCATION, D3D12_TEXTURE_COPY_LOCATION structure, d3d12/D3D12_TEXTURE_COPY_LOCATION, direct3d12.d3d12_texture_copy_location
 ms.prod: windows
 ms.technology: windows-sdk

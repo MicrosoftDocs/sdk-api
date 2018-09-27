@@ -7,7 +7,7 @@ old-location: search\_search_ISearchScopeRule_get_FollowFlags.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_followflags.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: ISearchScopeRule interface [search],get_FollowFlags method, ISearchScopeRule.get_FollowFlags, ISearchScopeRule::get_FollowFlags, _search_ISearchScopeRule_get_FollowFlags, get_FollowFlags, get_FollowFlags method [search], get_FollowFlags method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_FollowFlags, searchapi/ISearchScopeRule::get_FollowFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

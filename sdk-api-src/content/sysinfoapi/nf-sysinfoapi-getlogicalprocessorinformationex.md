@@ -7,7 +7,7 @@ old-location: base\getlogicalprocessorinformationex.htm
 tech.root: procthread
 ms.assetid: dfc4f444-4651-4a02-b8f6-f30d9278eae2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx function, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.getlogicalprocessorinformationex, sysinfoapi/GetLogicalProcessorInformationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

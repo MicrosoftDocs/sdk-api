@@ -4,10 +4,10 @@ title: tagPXE_DHCPV6_OPTION
 author: windows-sdk-content
 description: The PXE_DHCPV6_OPTION structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcpv6_option.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 9B0A1A5B-1CF7-46B4-9C94-42355555DD60
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: "*PPXE_DHCPV6_OPTION, PPXE_DHCPV6_OPTION, PPXE_DHCPV6_OPTION structure pointer [Windows Deployment Services], PXE_DHCPV6_OPTION, PXE_DHCPV6_OPTION structure [Windows Deployment Services], tagPXE_DHCPV6_OPTION, wds.pxe_dhcpv6_option, wdspxe/PPXE_DHCPV6_OPTION, wdspxe/PXE_DHCPV6_OPTION"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmobject.htm
 tech.root: fsrm
 ms.assetid: bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmObject, IFsrmObject interface [File Server Resource Manager], IFsrmObject interface [File Server Resource Manager],described, fs.ifsrmobject, fsrm.ifsrmobject, fsrm/IFsrmObject
 ms.prod: windows
 ms.technology: windows-sdk

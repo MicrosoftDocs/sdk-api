@@ -7,7 +7,7 @@ old-location: mf\mftenum.htm
 tech.root: medfound
 ms.assetid: a3bd2b3c-0b0b-4d64-99cc-6093c773f71c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: MFTEnum, MFTEnum function [Media Foundation], a3bd2b3c-0b0b-4d64-99cc-6093c773f71c, mf.mftenum, mfapi/MFTEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

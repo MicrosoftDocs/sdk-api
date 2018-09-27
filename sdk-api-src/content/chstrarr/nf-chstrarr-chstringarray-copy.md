@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_copy.htm
 tech.root: WmiSdk
 ms.assetid: 9598340f-c315-4c93-bc8a-2b7c1eaf5a35
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],Copy method, CHStringArray.Copy, CHStringArray::Copy, Copy, Copy method [Windows Management Instrumentation], Copy method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_copy, chstrarr/CHStringArray::Copy, wmi.chstringarray_copy
 ms.prod: windows-hardware
 ms.technology: windows-devices

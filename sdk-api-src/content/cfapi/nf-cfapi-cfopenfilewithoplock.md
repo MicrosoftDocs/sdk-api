@@ -7,7 +7,7 @@ old-location: cloudapi\cfopenfilewithoplock.htm
 tech.root: cfApi
 ms.assetid: AFC48080-3B4A-4F6B-9122-25C2A025EA95
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CfOpenFileWithOplock, CfOpenFileWithOplock function, cfapi/CfOpenFileWithOplock, cloudApi.cfopenfilewithoplock
 ms.prod: windows-hardware
 ms.technology: windows-devices

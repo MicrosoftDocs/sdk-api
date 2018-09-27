@@ -7,7 +7,7 @@ old-location: ncd\iproviderproperties_getvalue_method.htm
 tech.root: fundisc
 ms.assetid: c32a5367-ef39-4852-bf3b-203d27d0a2d0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: GetValue, GetValue method, GetValue method,IProviderProperties interface, IProviderProperties interface,GetValue method, IProviderProperties.GetValue, IProviderProperties::GetValue, functiondiscoveryprovider/IProviderProperties::GetValue, ncd.iproviderproperties_getvalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

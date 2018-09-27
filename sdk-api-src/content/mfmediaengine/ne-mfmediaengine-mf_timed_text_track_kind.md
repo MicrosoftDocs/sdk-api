@@ -7,7 +7,7 @@ old-location: mf\mf_timed_text_track_kind.htm
 tech.root: medfound
 ms.assetid: FB064449-56D5-48D4-849F-717767F352F5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: MF_TIMED_TEXT_TRACK_KIND, MF_TIMED_TEXT_TRACK_KIND enumeration [Media Foundation], MF_TIMED_TEXT_TRACK_KIND_CAPTIONS, MF_TIMED_TEXT_TRACK_KIND_METADATA, MF_TIMED_TEXT_TRACK_KIND_SUBTITLES, MF_TIMED_TEXT_TRACK_KIND_UNKNOWN, mf.mf_timed_text_track_kind, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_CAPTIONS, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_METADATA, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_SUBTITLES, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

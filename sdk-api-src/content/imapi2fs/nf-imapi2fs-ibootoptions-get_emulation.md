@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions_get_emulation.htm
 tech.root: imapi
 ms.assetid: ade69c2b-ff25-4993-bf4c-ee372e3cc1b0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBootOptions interface [IMAPI],get_Emulation method, IBootOptions.get_Emulation, IBootOptions::get_Emulation, get_Emulation, get_Emulation method [IMAPI], get_Emulation method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_emulation, imapi2fs/IBootOptions::get_Emulation
 ms.prod: windows-hardware
 ms.technology: windows-devices

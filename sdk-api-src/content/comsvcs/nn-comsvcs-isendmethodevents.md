@@ -7,7 +7,7 @@ old-location: cos\isendmethodevents.htm
 tech.root: cossdk
 ms.assetid: d1437581-8a2b-4e88-aa12-a16eb9f40125
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ISendMethodEvents, ISendMethodEvents interface [COM+], ISendMethodEvents interface [COM+],described, _cos_ISendMethodEvents, comsvcs/ISendMethodEvents, cos.isendmethodevents
 ms.prod: windows
 ms.technology: windows-sdk

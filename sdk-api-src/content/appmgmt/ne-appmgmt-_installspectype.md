@@ -7,7 +7,7 @@ old-location: policy\installspectype_enum.htm
 tech.root: Policy
 ms.assetid: 9e62a22d-cae7-4b3e-9000-71eddb1f3cad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: APPNAME, FILEEXT, INSTALLSPECTYPE, INSTALLSPECTYPE enumeration [Group Policy], _INSTALLSPECTYPE, appmgmt/APPNAME, appmgmt/FILEEXT, appmgmt/INSTALLSPECTYPE, policy.installspectype_enum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\jobobject_security_limit_information_str.htm
 tech.root: procthread
 ms.assetid: 148f76b2-809b-4306-a943-bcc04aea547b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: "*PJOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_INFORMATION structure, JOB_OBJECT_SECURITY_FILTER_TOKENS, JOB_OBJECT_SECURITY_NO_ADMIN, JOB_OBJECT_SECURITY_ONLY_TOKEN, JOB_OBJECT_SECURITY_RESTRICTED_TOKEN, PJOBOBJECT_SECURITY_LIMIT_INFORMATION, PJOBOBJECT_SECURITY_LIMIT_INFORMATION structure pointer, _JOBOBJECT_SECURITY_LIMIT_INFORMATION, _win32_jobobject_security_limit_information_str, base.jobobject_security_limit_information_str, winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION, winnt/PJOBOBJECT_SECURITY_LIMIT_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

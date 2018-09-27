@@ -7,7 +7,7 @@ old-location: ifsk\filtercreate.htm
 tech.root: ifsk
 ms.assetid: 950e0b5b-4ee3-4eed-9039-823a6942cd38
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: FilterCreate, FilterCreate function [Installable File System Drivers], FltWin32ApiRef_1f318282-a1f9-40a7-8272-448727603f04.xml, fltuser/FilterCreate, ifsk.filtercreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

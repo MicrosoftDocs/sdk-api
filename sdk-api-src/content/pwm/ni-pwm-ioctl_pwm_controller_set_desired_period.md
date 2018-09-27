@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_controller_set_desired_period.htm
 tech.root: devio
 ms.assetid: 7E25B3C8-8C73-4808-B460-DFC408A2482F
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code, base.ioctl_pwm_controller_set_desired_period, pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 ms.prod: windows
 ms.technology: windows-sdk

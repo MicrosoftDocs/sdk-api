@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_getisolationlevel.htm
 tech.root: cossdk
 ms.assetid: a2b0e99a-0d35-4103-b7a0-407d09a2746e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetIsolationLevel, GetIsolationLevel method [COM+], GetIsolationLevel method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIsolationLevel method, ITransactionProxy.GetIsolationLevel, ITransactionProxy::GetIsolationLevel, comsvcs/ITransactionProxy::GetIsolationLevel, cos.itransactionproxy_getisolationlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

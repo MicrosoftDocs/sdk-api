@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextChildProvider_TextContainer.htm
 tech.root: WinAuto
 ms.assetid: E355AFA9-40D8-4F37-9E3D-9A3923B1F6E5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: ITextChildProvider interface [Windows Accessibility],TextContainer property, ITextChildProvider.TextContainer, ITextChildProvider.get_TextContainer, ITextChildProvider::TextContainer, ITextChildProvider::get_TextContainer, TextContainer property [Windows Accessibility], TextContainer property [Windows Accessibility],ITextChildProvider interface, get_TextContainer, uiautomationcore/ITextChildProvider::TextContainer, uiautomationcore/ITextChildProvider::get_TextContainer, winauto.uiauto_ITextChildProvider_TextContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

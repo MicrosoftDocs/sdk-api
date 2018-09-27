@@ -4,10 +4,10 @@ title: GetTcpTable function
 author: windows-sdk-content
 description: Retrieves the IPv4 TCP connection table.
 old-location: iphlp\gettcptable.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: e90c5aa0-3126-489b-af44-bf86cb45a6d1
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetTcpTable, GetTcpTable function [IP Helper], _iphlp_gettcptable, iphlp.gettcptable, iphlpapi/GetTcpTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPSEC_ID0_
 author: windows-sdk-content
 description: Contains information corresponding to identities that are authenticated by IPsec.
 old-location: fwp\ipsec_id0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: e8881c50-9586-447e-a514-cc28895e5e90
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_ID0, IPSEC_ID0 structure [Filtering], IPSEC_ID0_, fwp.ipsec_id0, ipsectypes/IPSEC_ID0
 ms.prod: windows
 ms.technology: windows-sdk

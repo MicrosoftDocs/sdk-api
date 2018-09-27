@@ -7,7 +7,7 @@ old-location: ics\inetconnectionprops_get_mediatype.htm
 tech.root: ics
 ms.assetid: cefaee7c-22ce-4171-8789-fe6befc7e313
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_MediaType method, INetConnectionProps.get_MediaType, INetConnectionProps::get_MediaType, _ics_inetconnectionprops_get_mediatype, get_MediaType, get_MediaType method [ICS/ICF], get_MediaType method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_mediatype, netcon/INetConnectionProps::get_MediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

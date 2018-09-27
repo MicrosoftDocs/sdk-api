@@ -4,10 +4,10 @@ title: ConvertInterfaceLuidToNameW function
 author: windows-sdk-content
 description: Converts a locally unique identifier (LUID) for a network interface to the Unicode interface name.
 old-location: iphlp\convertinterfaceluidtonamew.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: e4269a6a-1237-4503-b7d7-756388458750
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: ConvertInterfaceLuidToNameW, ConvertInterfaceLuidToNameW function [IP Helper], iphlp.convertinterfaceluidtonamew, netioapi/ConvertInterfaceLuidToNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

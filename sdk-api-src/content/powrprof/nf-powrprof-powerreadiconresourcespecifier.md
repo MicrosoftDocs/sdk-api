@@ -7,7 +7,7 @@ old-location: base\powerreadiconresourcespecifier.htm
 tech.root: power
 ms.assetid: d9454acd-7a4a-4f54-b614-beee8763f1ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/14/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadIconResourceSpecifier, PowerReadIconResourceSpecifier function, base.powerreadiconresourcespecifier, powrprof/PowerReadIconResourceSpecifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

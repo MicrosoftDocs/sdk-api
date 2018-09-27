@@ -7,7 +7,7 @@ old-location: shell\IURLSearchHook.htm
 tech.root: shell
 ms.assetid: 6073ad95-03b5-4c06-9742-836719211e24
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IURLSearchHook, IURLSearchHook interface [Windows Shell], IURLSearchHook interface [Windows Shell],described, _win32_IURLSearchHook, shell.IURLSearchHook, shlobj_core/IURLSearchHook
 ms.prod: windows
 ms.technology: windows-sdk

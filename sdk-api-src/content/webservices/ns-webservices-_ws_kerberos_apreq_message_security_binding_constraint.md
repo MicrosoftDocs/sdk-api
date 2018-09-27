@@ -7,7 +7,7 @@ old-location: wsw\ws_kerberos_apreq_message_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: fd422ee4-64cd-464f-905f-b46b69e1a440
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_kerberos_apreq_message_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk

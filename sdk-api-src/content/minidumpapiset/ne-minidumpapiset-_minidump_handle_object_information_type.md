@@ -4,10 +4,10 @@ title: "_MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE"
 author: windows-sdk-content
 description: Identifies the type of object-specific information.
 old-location: base\minidump_handle_object_information_type.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 255023e3-0412-42c8-ae80-eba5f00af5ff
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE, MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE enumeration, MiniHandleObjectInformationNone, MiniMutantInformation1, MiniMutantInformation2, MiniProcessInformation1, MiniProcessInformation2, MiniThreadInformation1, _MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE, base.minidump_handle_object_information_type, minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE, minidumpapiset/MiniHandleObjectInformationNone, minidumpapiset/MiniMutantInformation1, minidumpapiset/MiniMutantInformation2, minidumpapiset/MiniProcessInformation1, minidumpapiset/MiniProcessInformation2, minidumpapiset/MiniThreadInformation1
 ms.prod: windows
 ms.technology: windows-sdk

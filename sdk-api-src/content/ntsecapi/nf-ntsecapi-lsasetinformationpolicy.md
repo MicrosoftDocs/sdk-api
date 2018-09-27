@@ -4,10 +4,10 @@ title: LsaSetInformationPolicy function
 author: windows-sdk-content
 description: Modifies information in a Policy object.
 old-location: security\lsasetinformationpolicy.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: LsaSetInformationPolicy, LsaSetInformationPolicy function [Security], PolicyAccountDomainInformation, PolicyAuditEventsInformation, PolicyDnsDomainInformation, PolicyLsaServerRoleInformation, PolicyPrimaryDomainInformation, _lsa_lsasetinformationpolicy, ntsecapi/LsaSetInformationPolicy, security.lsasetinformationpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

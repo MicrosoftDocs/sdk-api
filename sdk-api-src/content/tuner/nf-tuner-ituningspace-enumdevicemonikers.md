@@ -4,10 +4,10 @@ title: ITuningSpace::EnumDeviceMonikers
 author: windows-sdk-content
 description: The EnumDeviceMonikers method creates an enumerator of device monikers representing the tuner filters that support this tuning space.
 old-location: mstv\ituningspace_enumdevicemonikers.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 4d1f9bcd-de94-4ea5-89a0-84042a514484
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: EnumDeviceMonikers, EnumDeviceMonikers method [Microsoft TV Technologies], EnumDeviceMonikers method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumDeviceMonikers method, ITuningSpace.EnumDeviceMonikers, ITuningSpace::EnumDeviceMonikers, ITuningSpaceEnumDeviceMonikers, mstv.ituningspace_enumdevicemonikers, tuner/ITuningSpace::EnumDeviceMonikers
 ms.prod: windows-hardware
 ms.technology: windows-devices

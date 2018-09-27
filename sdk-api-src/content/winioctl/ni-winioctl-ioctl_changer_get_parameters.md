@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_get_parameters.htm
 tech.root: devio
 ms.assetid: bd442970-1056-426f-810e-4e28286c65d2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control, IOCTL_CHANGER_GET_PARAMETERS control code, _win32_ioctl_changer_get_parameters, base.ioctl_changer_get_parameters, winioctl/IOCTL_CHANGER_GET_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk

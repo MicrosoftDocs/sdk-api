@@ -4,10 +4,10 @@ title: INetDiagHelper
 author: windows-sdk-content
 description: The INetDiagHelper interface provides methods that capture and provide information associated with diagnoses and resolution of network-related issues.
 old-location: ndf\inetdiaghelper.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: 7f1b8a5b-389b-4276-a49d-94a39be3c35c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], INetDiagHelper interface [NDF],described, ndf.inetdiaghelper, ndhelper/INetDiagHelper
 ms.prod: windows
 ms.technology: windows-sdk

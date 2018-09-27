@@ -7,7 +7,7 @@ old-location: security\icertgetconfig_getconfig.htm
 tech.root: seccrypto
 ms.assetid: 5935bf37-4a4a-4c0f-ae3f-bd76f97d0d9a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, GetConfig, GetConfig method [Security], GetConfig method [Security],ICertGetConfig interface, ICertGetConfig interface [Security],GetConfig method, ICertGetConfig.GetConfig, ICertGetConfig::GetConfig, certcli/ICertGetConfig::GetConfig, security.icertgetconfig_getconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

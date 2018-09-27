@@ -4,10 +4,10 @@ title: "_KDHELP64"
 author: windows-sdk-content
 description: Information that is used by kernel debuggers to trace through user-mode callbacks in a thread's kernel stack.
 old-location: base\kdhelp64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: da31c92c-0257-4ae2-8d69-ea8cd58adc10
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKDHELP64, KDHELP, KDHELP structure, KDHELP64, KDHELP64 structure, PKDHELP64, PKDHELP64 structure pointer, _KDHELP64, _win32_kdhelp64_str, base.kdhelp64_str, dbghelp/KDHELP64, dbghelp/PKDHELP64"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,27 +121,12 @@ The stack limit.
  
 
 
-### -field RetpolineStubFunctionTableSize
-
- 
-
-
-### -field RetpolineStubFunctionTable
-
- 
-
-
-### -field RetpolineStubOffset
-
- 
-
-
-### -field RetpolineStubSize
-
- 
-
-
 ### -field Reserved0
+
+ 
+
+
+### -field Reserved1
 
  
 

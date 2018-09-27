@@ -4,10 +4,10 @@ title: "_TARGET_TYPE"
 author: windows-sdk-content
 description: Indicates whether a target belongs to a pool or farm.
 old-location: termserv\target_type.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4ad44a75-0975-4933-a914-a64a82fcae6c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FARM, NONFARM, TARGET_TYPE, TARGET_TYPE enumeration [Remote Desktop Services], UNKNOWN, _TARGET_TYPE, sessdirpublictypes/FARM, sessdirpublictypes/NONFARM, sessdirpublictypes/TARGET_TYPE, sessdirpublictypes/UNKNOWN, termserv.target_type
 ms.prod: windows
 ms.technology: windows-sdk

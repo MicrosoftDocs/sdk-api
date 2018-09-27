@@ -7,7 +7,7 @@ old-location: dshow\vmrfrequency.htm
 tech.root: DirectShow
 ms.assetid: fb4c094a-2760-45b2-b494-a44d5493987f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: VMRFrequency, VMRFrequency structure [DirectShow], VMRFrequencyStructure, _VMRFrequency, dshow.vmrfrequency, strmif/VMRFrequency
 ms.prod: windows
 ms.technology: windows-sdk

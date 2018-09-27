@@ -4,10 +4,10 @@ title: "_WLX_PROFILE_V2_0"
 author: windows-sdk-content
 description: Contains profile information in addition to the information provided by WLX_PROFILE_V1_0.
 old-location: security\wlx_profile_v2_0.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 6ecec95f-e663-4fb3-b2d4-82984f31cb62
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: "*PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0 structure pointer [Security], WLX_PROFILE_V2_0, WLX_PROFILE_V2_0 structure [Security], _WLX_PROFILE_V2_0, _gina_wlx_profile_v2_0, security.wlx_profile_v2_0, winwlx/PWLX_PROFILE_V2_0, winwlx/WLX_PROFILE_V2_0"
 ms.prod: windows
 ms.technology: windows-sdk

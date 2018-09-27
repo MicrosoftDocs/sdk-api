@@ -7,7 +7,7 @@ old-location: tapi3\itterminal_get_name.htm
 tech.root: tapi
 ms.assetid: ad3a44ff-ad63-4fd0-9cfd-c97c0cea6162
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_Name method, ITTerminal.get_Name, ITTerminal::get_Name, _tapi3_itterminal_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_name, tapi3if/ITTerminal::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

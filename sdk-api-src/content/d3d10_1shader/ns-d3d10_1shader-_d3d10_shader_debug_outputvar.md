@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_debug_outputvar.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_outputvar.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: D3D10_SHADER_DEBUG_OUTPUTVAR, D3D10_SHADER_DEBUG_OUTPUTVAR structure [Direct3D 10], _D3D10_SHADER_DEBUG_OUTPUTVAR, a188f87a-61c2-dda1-1e50-d2cbcbeb680f, d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTVAR, direct3d10.d3d10_shader_debug_outputvar
 ms.prod: windows
 ms.technology: windows-sdk

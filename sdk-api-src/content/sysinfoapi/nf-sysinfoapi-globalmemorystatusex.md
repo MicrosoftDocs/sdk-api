@@ -4,10 +4,10 @@ title: GlobalMemoryStatusEx function
 author: windows-sdk-content
 description: Retrieves information about the system's current usage of both physical and virtual memory.
 old-location: base\globalmemorystatusex.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: bdcee13f-85be-4b9d-b108-3c5ea616dfbb
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GlobalMemoryStatusEx, GlobalMemoryStatusEx function, _win32_globalmemorystatusex, base.globalmemorystatusex, sysinfoapi/GlobalMemoryStatusEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

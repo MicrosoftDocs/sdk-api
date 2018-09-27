@@ -7,7 +7,7 @@ old-location: tapi3\itaddresstranslationinfo_get_displayablestring.htm
 tech.root: tapi
 ms.assetid: c88474ee-5a7e-4966-8dc2-5f839069b2d2
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DisplayableString method, ITAddressTranslationInfo.get_DisplayableString, ITAddressTranslationInfo::get_DisplayableString, _tapi3_itaddresstranslationinfo_get_displayablestring, get_DisplayableString, get_DisplayableString method [TAPI 2.2], get_DisplayableString method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_displayablestring, tapi3if/ITAddressTranslationInfo::get_DisplayableString
 ms.prod: windows-hardware
 ms.technology: windows-devices

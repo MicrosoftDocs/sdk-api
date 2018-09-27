@@ -7,7 +7,7 @@ old-location: com\iquickactivate_quickactivate.htm
 tech.root: com
 ms.assetid: 504cb272-da1c-4ffb-b4b1-fdf288901660
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IQuickActivate interface [COM],QuickActivate method, IQuickActivate.QuickActivate, IQuickActivate::QuickActivate, QuickActivate, QuickActivate method [COM], QuickActivate method [COM],IQuickActivate interface, _ctrl_iquickactivate_quickactivate, com.iquickactivate_quickactivate, ocidl/IQuickActivate::QuickActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

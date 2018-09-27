@@ -4,10 +4,10 @@ title: IEnumOfflineFilesItems::Reset
 author: windows-sdk-content
 description: Resets the enumeration to the beginning.
 old-location: of\ienumofflinefilesitems_reset.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: fa4d1313-e05d-49be-80c3-cbb70463dfb1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Reset method, IEnumOfflineFilesItems.Reset, IEnumOfflineFilesItems::Reset, Reset, Reset method [Offline Files], Reset method [Offline Files],IEnumOfflineFilesItems interface, cscobj/IEnumOfflineFilesItems::Reset, of.ienumofflinefilesitems_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

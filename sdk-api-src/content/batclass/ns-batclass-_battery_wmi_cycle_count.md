@@ -7,7 +7,7 @@ old-location: battery\battery_wmi_cycle_count.htm
 tech.root: battery
 ms.assetid: DFC94773-C198-4FC4-813C-0986ABA953A5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PBATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT structure [Battery Devices], PBATTERY_WMI_CYCLE_COUNT, PBATTERY_WMI_CYCLE_COUNT structure pointer [Battery Devices], _BATTERY_WMI_CYCLE_COUNT, batclass/BATTERY_WMI_CYCLE_COUNT, batclass/PBATTERY_WMI_CYCLE_COUNT, battery.battery_wmi_cycle_count"
 ms.prod: windows
 ms.technology: windows-sdk

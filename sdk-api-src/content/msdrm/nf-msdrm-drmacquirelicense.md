@@ -4,10 +4,10 @@ title: DRMAcquireLicense function
 author: windows-sdk-content
 description: Attempts to acquire an end-user license or client licensor certificate asynchronously.
 old-location: rm\drmacquirelicense.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 0d4ce794-8384-4f1c-bc8c-1e67fbb5f987
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMAcquireLicense, DRMAcquireLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AL_CANCEL, DRM_AL_FETCHNOADVISORY, DRM_AL_NONSILENT, DRM_AL_NOPERSIST, DRM_AL_NOUI, msdrm/DRMAcquireLicense, rm.drmacquirelicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

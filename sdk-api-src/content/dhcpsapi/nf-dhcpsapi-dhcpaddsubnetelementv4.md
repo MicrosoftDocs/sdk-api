@@ -4,10 +4,10 @@ title: DhcpAddSubnetElementV4 function
 author: windows-sdk-content
 description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. This function extends DhcpAddSubnetElement by incorporating subnet elements that consider client type.
 old-location: dhcp\dhcpaddsubnetelementv4.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 97ffcafd-a74e-49ed-9e68-043b62a9017a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpAddSubnetElementV4, DhcpAddSubnetElementV4 function [DHCP], dhcp.dhcpaddsubnetelementv4, dhcpsapi/DhcpAddSubnetElementV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

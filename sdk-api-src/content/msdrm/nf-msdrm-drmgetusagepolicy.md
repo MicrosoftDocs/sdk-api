@@ -4,10 +4,10 @@ title: DRMGetUsagePolicy function
 author: windows-sdk-content
 description: Gets a usage policy that requires, or denies, access to content based on application name, version, or other application characteristics.
 old-location: rm\drmgetusagepolicy.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 135ed2d0-17a9-46a2-9495-4102115f7bad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMGetUsagePolicy, DRMGetUsagePolicy function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsagePolicy, rm.drmgetusagepolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

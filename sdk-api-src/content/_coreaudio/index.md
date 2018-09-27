@@ -2,7 +2,7 @@
 UID: TP:coreaudio
 ms.assetid: 42959537-bb25-3eb8-8a95-3f33f2da8462
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

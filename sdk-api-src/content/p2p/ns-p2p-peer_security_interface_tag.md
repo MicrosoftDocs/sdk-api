@@ -7,7 +7,7 @@ old-location: p2p\peer_security_interface.htm
 tech.root: p2psdk
 ms.assetid: b4331cfc-dc1a-490b-b21d-0550f1d3fe33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PPEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE structure [Peer Networking], PPEER_SECURITY_INTERFACE, PPEER_SECURITY_INTERFACE structure pointer [Peer Networking], p2p.peer_security_interface, p2p/PPEER_SECURITY_INTERFACE, p2p/peer_security_interface_tag, peer_security_interface_tag"
 ms.prod: windows
 ms.technology: windows-sdk

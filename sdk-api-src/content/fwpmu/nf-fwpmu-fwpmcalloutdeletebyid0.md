@@ -4,10 +4,10 @@ title: FwpmCalloutDeleteById0 function
 author: windows-sdk-content
 description: Removes a callout object from the system.
 old-location: fwp\fwpmcalloutdeletebyid0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: fcd591c3-0d3d-48af-933f-ebf02a447b41
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Filtering], fwp.fwpmcalloutdeletebyid0_func, fwpmu/FwpmCalloutDeleteById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

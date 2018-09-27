@@ -4,10 +4,10 @@ title: IAudioEndpointRT
 author: windows-sdk-content
 description: Gets the difference between the current read and write positions in the endpoint buffer.
 old-location: termserv\iaudioendpointrt.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 3fb05ce4-a3be-4c84-8e03-71213f453f74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAudioEndpointRT, IAudioEndpointRT interface [Remote Desktop Services], IAudioEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpointRT, termserv.iaudioendpointrt
 ms.prod: windows
 ms.technology: windows-sdk

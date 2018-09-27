@@ -4,10 +4,10 @@ title: IWdsTransportNamespace::get_Id
 author: windows-sdk-content
 description: Receives the unique namespace ID for a namespace that has been registered on the server.
 old-location: wds\iwdstransportnamespace_id.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: cdbe5807-ba03-45ce-be05-34d352357e04
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Id property, IWdsTransportNamespace.Id, IWdsTransportNamespace.get_Id, IWdsTransportNamespace::Id, IWdsTransportNamespace::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportNamespace interface, get_Id, wds.iwdstransportnamespace_id, wdstptmgmt/IWdsTransportNamespace::Id, wdstptmgmt/IWdsTransportNamespace::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices

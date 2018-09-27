@@ -7,7 +7,7 @@ old-location: p2p\peergraphcreate.htm
 tech.root: p2psdk
 ms.assetid: 62e3ec57-378c-4322-9ad4-a40d98e03dab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGraphCreate, PeerGraphCreate function [Peer Networking], p2p.peergraphcreate, p2p/PeerGraphCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

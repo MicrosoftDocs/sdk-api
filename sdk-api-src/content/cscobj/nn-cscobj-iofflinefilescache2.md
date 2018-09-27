@@ -4,10 +4,10 @@ title: IOfflineFilesCache2
 author: windows-sdk-content
 description: Implements the RenameItemEx method.
 old-location: of\iofflinefilescache2.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: B4E2C2B0-AA6B-4657-8711-E5057720AF15
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesCache2, IOfflineFilesCache2 interface [Offline Files], IOfflineFilesCache2 interface [Offline Files],described, cscobj/IOfflineFilesCache2, of.iofflinefilescache2
 ms.prod: windows
 ms.technology: windows-sdk

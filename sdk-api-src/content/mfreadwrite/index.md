@@ -2,7 +2,7 @@
 UID: NA:mfreadwrite
 ms.assetid: 31d4c454-f1ac-361d-a5a9-077050faf944
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

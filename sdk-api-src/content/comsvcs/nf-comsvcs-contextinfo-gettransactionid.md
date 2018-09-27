@@ -7,7 +7,7 @@ old-location: cos\contextinfo_gettransactionid.htm
 tech.root: cossdk
 ms.assetid: 9eb77a13-14f0-4d45-a6de-4ae28d6bcac4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ContextInfo interface [COM+],GetTransactionId method, ContextInfo.GetTransactionId, ContextInfo::GetTransactionId, GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],ContextInfo interface, _cos_ContextInfo_GetTransactionId, comsvcs/ContextInfo::GetTransactionId, cos.contextinfo_gettransactionid
 ms.prod: windows-hardware
 ms.technology: windows-devices

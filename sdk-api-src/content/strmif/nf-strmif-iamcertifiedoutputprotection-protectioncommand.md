@@ -7,7 +7,7 @@ old-location: dshow\iamcertifiedoutputprotection_protectioncommand.htm
 tech.root: DirectShow
 ms.assetid: facf13b2-6650-4e81-97ba-eadacc514ef0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionCommand method, IAMCertifiedOutputProtection.ProtectionCommand, IAMCertifiedOutputProtection::ProtectionCommand, IAMCertifiedOutputProtectionProtectionCommand, ProtectionCommand, ProtectionCommand method [DirectShow], ProtectionCommand method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectioncommand, strmif/IAMCertifiedOutputProtection::ProtectionCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

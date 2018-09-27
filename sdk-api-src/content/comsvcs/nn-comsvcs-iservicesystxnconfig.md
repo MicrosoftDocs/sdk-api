@@ -7,7 +7,7 @@ old-location: cos\iservicesystxnconfig.htm
 tech.root: cossdk
 ms.assetid: 8e721496-fc2b-46b8-ae28-432da6c429e6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IServiceSysTxnConfig, IServiceSysTxnConfig interface [COM+], IServiceSysTxnConfig interface [COM+],described, comsvcs/IServiceSysTxnConfig, cos.iservicesystxnconfig
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_checkfeaturesupport.htm
 tech.root: direct3d12
 ms.assetid: 2E986E37-30C7-45FE-BC8B-A6DD5670938F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,ID3D12Device interface, ID3D12Device interface,CheckFeatureSupport method, ID3D12Device.CheckFeatureSupport, ID3D12Device::CheckFeatureSupport, d3d12/ID3D12Device::CheckFeatureSupport, direct3d12.id3d12device_checkfeaturesupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,6 +103,8 @@ Returns <b>S_OK</b> if successful; otherwise, returns <b>E_INVALIDARG</b> if an 
 
 
 Refer to <a href="https://msdn.microsoft.com/ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8">Capability Querying</a>.
+
+Starting with the next major update to Windows 10 you can check for raytracing support by specifying the  <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> constant for the <i>Feature</i> parameter and providing a <a href="direct3d12.d3d12_feature_data_d3d12_options5">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> structure, which has a member that specifies the supported raytracing tier to query, for the <i>pFeatureSupportData</i> parameter.
 
 <h3><a id="Hardware_support_for_DXGI_Formats"></a><a id="hardware_support_for_dxgi_formats"></a><a id="HARDWARE_SUPPORT_FOR_DXGI_FORMATS"></a>Hardware support for DXGI Formats</h3>
 To view tables of DXGI formats and hardware features, refer to:

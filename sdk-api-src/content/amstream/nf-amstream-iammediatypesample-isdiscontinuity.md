@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_isdiscontinuity.htm
 tech.root: DirectShow
 ms.assetid: 857729d9-ef46-461b-a3b5-bce9acb84538
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsDiscontinuity method, IAMMediaTypeSample.IsDiscontinuity, IAMMediaTypeSample::IsDiscontinuity, IAMMediaTypeSampleIsDiscontinuity, IsDiscontinuity, IsDiscontinuity method [DirectShow], IsDiscontinuity method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsDiscontinuity, dshow.iammediatypesample_isdiscontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,7 +1,6 @@
 {
   "tech": "cos",
   "headers": [
-    "tbd",
     "comsvcs.h",
     "combaseapi.h",
     "eventsys.h",

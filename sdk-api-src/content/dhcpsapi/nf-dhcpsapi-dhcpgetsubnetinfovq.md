@@ -4,10 +4,10 @@ title: DhcpGetSubnetInfoVQ function
 author: windows-sdk-content
 description: Retrieves the information about a specific IPv4 subnet defined on the DHCP server.
 old-location: dhcp\dhcpgetsubnetinfovq.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 7ee3ba38-a90c-4409-a40f-80e1cd1fc3c3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpGetSubnetInfoVQ, DhcpGetSubnetInfoVQ function [DHCP], dhcp.dhcpgetsubnetinfovq, dhcpsapi/DhcpGetSubnetInfoVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

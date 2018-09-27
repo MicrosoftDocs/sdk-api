@@ -7,7 +7,7 @@ old-location: dshow\imediaparams_addenvelope.htm
 tech.root: DirectShow
 ms.assetid: acf7c96c-ce0c-40d0-b4a1-dd571fa2a514
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],AddEnvelope method, IMediaParams.AddEnvelope, IMediaParams::AddEnvelope, IMediaParamsAddEnvelope, dshow.imediaparams_addenvelope, medparam/IMediaParams::AddEnvelope
 ms.prod: windows-hardware
 ms.technology: windows-devices

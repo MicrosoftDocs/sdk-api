@@ -7,7 +7,7 @@ old-location: pla\iconfigurationdatacollector_filemaxrecursivedepth.htm
 tech.root: PLA
 ms.assetid: 79a87a02-6e9e-4b21-b90f-59c600349ae0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: FileMaxRecursiveDepth property [PLA], FileMaxRecursiveDepth property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxRecursiveDepth property, IConfigurationDataCollector.FileMaxRecursiveDepth, IConfigurationDataCollector.put_FileMaxRecursiveDepth, IConfigurationDataCollector::FileMaxRecursiveDepth, IConfigurationDataCollector::get_FileMaxRecursiveDepth, IConfigurationDataCollector::put_FileMaxRecursiveDepth, base.iconfigurationdatacollector_filemaxrecursivedepth, pla.iconfigurationdatacollector_filemaxrecursivedepth, pla/IConfigurationDataCollector::FileMaxRecursiveDepth, pla/IConfigurationDataCollector::get_FileMaxRecursiveDepth, pla/IConfigurationDataCollector::put_FileMaxRecursiveDepth, put_FileMaxRecursiveDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_KERB_CERTIFICATE_UNLOCK_LOGON"
 author: windows-sdk-content
 description: Contains information used to unlock a workstation that has been locked during an interactive smart card logon session.
 old-location: security\kerb_certificate_unlock_logon.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 04e058b0-9a05-4ed7-9d4a-1c8c003d8077
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: "*PKERB_CERTIFICATE_UNLOCK_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON structure [Security], PKERB_CERTIFICATE_UNLOCK_LOGON, PKERB_CERTIFICATE_UNLOCK_LOGON structure pointer [Security], _KERB_CERTIFICATE_UNLOCK_LOGON, ntsecapi/KERB_CERTIFICATE_UNLOCK_LOGON, ntsecapi/PKERB_CERTIFICATE_UNLOCK_LOGON, security.kerb_certificate_unlock_logon"
 ms.prod: windows
 ms.technology: windows-sdk

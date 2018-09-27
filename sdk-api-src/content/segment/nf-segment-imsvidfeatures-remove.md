@@ -4,10 +4,10 @@ title: IMSVidFeatures::Remove
 author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidfeatures_remove.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6a9e35e2-231e-4ad6-ac57-e6258df2777f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],Remove method, IMSVidFeatures.Remove, IMSVidFeatures::Remove, IMSVidFeaturesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_remove, segment/IMSVidFeatures::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

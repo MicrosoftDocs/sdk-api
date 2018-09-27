@@ -7,7 +7,7 @@ old-location: dshow\impeg2streamidmap_unmapstreamid.htm
 tech.root: DirectShow
 ms.assetid: 99e28b85-effd-4f86-b2da-ec02a05dde40
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IMPEG2StreamIdMap interface [DirectShow],UnmapStreamId method, IMPEG2StreamIdMap.UnmapStreamId, IMPEG2StreamIdMap::UnmapStreamId, IMPEG2StreamIdMapUnmapStreamId, UnmapStreamId, UnmapStreamId method [DirectShow], UnmapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_unmapstreamid, strmif/IMPEG2StreamIdMap::UnmapStreamId
 ms.prod: windows-hardware
 ms.technology: windows-devices

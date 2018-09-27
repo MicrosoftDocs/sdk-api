@@ -7,7 +7,7 @@ old-location: parcon\iwpcproviderconfig.htm
 tech.root: parcon
 ms.assetid: 008786aa-72ef-4591-8826-01176d3e3fba
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfig interface,described, parcon.iwpcproviderconfig, wpcapi/IWPCProviderConfig
 ms.prod: windows
 ms.technology: windows-sdk

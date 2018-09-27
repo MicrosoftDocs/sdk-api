@@ -4,10 +4,10 @@ title: IPMT::GetRecordDescriptorByIndex
 author: windows-sdk-content
 description: The GetRecordDescriptorByIndex method retrieves a descriptor for a specified record in the PMT.
 old-location: mstv\ipmt_getrecorddescriptorbyindex.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1e37db4b-1b86-4b34-8f93-642bb603789e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IPMT.GetRecordDescriptorByIndex, IPMT::GetRecordDescriptorByIndex, IPMTGetRecordDescriptorByIndex, mpeg2psiparser/IPMT::GetRecordDescriptorByIndex, mstv.ipmt_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

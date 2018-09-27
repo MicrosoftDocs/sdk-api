@@ -4,10 +4,10 @@ title: SCardListCardsA function
 author: windows-sdk-content
 description: Searches the smart card database and provides a list of named cards previously introduced to the system by the user.
 old-location: security\scardlistcards.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: SCardListCards, SCardListCards function [Security], SCardListCardsA, SCardListCardsW, _smart_scardlistcards, security.scardlistcards, winscard/SCardListCards, winscard/SCardListCardsA, winscard/SCardListCardsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

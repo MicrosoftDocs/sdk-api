@@ -4,10 +4,10 @@ title: ITsSbTaskInfo::get_Plugin
 author: windows-sdk-content
 description: Retrieves the display name of the task agent.
 old-location: termserv\itssbtaskinfo_plugin.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1302377f-08db-413a-9f6c-ab9c974cf760
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Plugin property, ITsSbTaskInfo.Plugin, ITsSbTaskInfo.get_Plugin, ITsSbTaskInfo::Plugin, ITsSbTaskInfo::get_Plugin, Plugin property [Remote Desktop Services], Plugin property [Remote Desktop Services],ITsSbTaskInfo interface, get_Plugin, sbtsv/ITsSbTaskInfo::Plugin, sbtsv/ITsSbTaskInfo::get_Plugin, termserv.itssbtaskinfo_plugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

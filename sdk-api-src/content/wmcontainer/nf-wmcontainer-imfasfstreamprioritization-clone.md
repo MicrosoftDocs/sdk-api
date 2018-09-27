@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamprioritization_clone.htm
 tech.root: medfound
 ms.assetid: e4d7cc00-4483-4aa6-8f26-d25ddc5129bb
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],Clone method, IMFASFStreamPrioritization.Clone, IMFASFStreamPrioritization::Clone, e4d7cc00-4483-4aa6-8f26-d25ddc5129bb, mf.imfasfstreamprioritization_clone, wmcontainer/IMFASFStreamPrioritization::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

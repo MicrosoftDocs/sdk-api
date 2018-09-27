@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_setpolicy.htm
 tech.root: printdocs
 ms.assetid: 6e1738b3-f1ce-407e-bbaa-7f4c57e30028
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetPolicy method, IXpsSigningOptions.SetPolicy, IXpsSigningOptions::SetPolicy, SetPolicy, SetPolicy method [XPS Documents and Packaging], SetPolicy method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setpolicy, xpsdigitalsignature/IXpsSigningOptions::SetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

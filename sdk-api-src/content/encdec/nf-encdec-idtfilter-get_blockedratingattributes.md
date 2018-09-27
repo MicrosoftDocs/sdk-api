@@ -4,10 +4,10 @@ title: IDTFilter::get_BlockedRatingAttributes
 author: windows-sdk-content
 description: The get_BlockedRatingAttributes method determines whether content is blocked for a given rating system and rating level.
 old-location: mstv\idtfilter_get_blockedratingattributes.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: cf7a5596-3d10-4ce9-a8c8-2703cf1eb7f8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockedRatingAttributes method, IDTFilter.get_BlockedRatingAttributes, IDTFilter::get_BlockedRatingAttributes, IDTFilterget_BlockedRatingAttributes, encdec/IDTFilter::get_BlockedRatingAttributes, get_BlockedRatingAttributes, get_BlockedRatingAttributes method [Microsoft TV Technologies], get_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockedratingattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

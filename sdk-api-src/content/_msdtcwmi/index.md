@@ -2,12 +2,11 @@
 UID: TP:msdtcwmi
 ms.assetid: ef7c9398-7333-3ac3-8703-41dad3372c6d
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Distributed Transaction Coordinator WMI Provider
@@ -16,8 +15,10 @@ archived: true
 
 Overview of the Distributed Transaction Coordinator WMI Provider technology.
 
-The Distributed Transaction Coordinator WMI Provider technology is not associated with any headers.
+To develop Distributed Transaction Coordinator WMI Provider, you need these headers:
+
+ * [wbemcli.h](../wbemcli/index.md)
 
 For programming guidance for this technology, see:
-* [Distributed Transaction Coordinator WMI Provider](/previous-versions/windows/desktop/msdtcwmi)
+* [Distributed Transaction Coordinator WMI Provider](/windows/desktop/msdtcwmi)
 

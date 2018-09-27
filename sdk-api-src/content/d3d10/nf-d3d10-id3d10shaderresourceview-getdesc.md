@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderresourceview_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderresourceview_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 8574c822-dc15-12c5-f791-318996a6c282, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10ShaderResourceView interface, ID3D10ShaderResourceView interface [Direct3D 10],GetDesc method, ID3D10ShaderResourceView.GetDesc, ID3D10ShaderResourceView::GetDesc, d3d10/ID3D10ShaderResourceView::GetDesc, direct3d10.id3d10shaderresourceview_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IAudioEndpointRT::SetPinInactive
 author: windows-sdk-content
 description: Notifies the endpoint that it must change the state of the underlying stream resources to an inactive state.
 old-location: termserv\iaudioendpointrt_setpininactive.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 07062063-cae1-4517-aeed-fb73ec602b27
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],SetPinInactive method, IAudioEndpointRT.SetPinInactive, IAudioEndpointRT::SetPinInactive, SetPinInactive, SetPinInactive method [Remote Desktop Services], SetPinInactive method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::SetPinInactive, termserv.iaudioendpointrt_setpininactive
 ms.prod: windows-hardware
 ms.technology: windows-devices

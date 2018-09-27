@@ -4,10 +4,10 @@ title: NetSessionDel function
 author: windows-sdk-content
 description: Ends a network session between a server and a workstation.
 old-location: fs\netsessiondel.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: a1360f5d-9fd0-44af-b9f5-ab9bc057dfe6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetSessionDel, NetSessionDel function [Files], _win32_netsessiondel, fs.netsessiondel, lmshare/NetSessionDel, netmgmt.netsessiondel
 ms.prod: windows-hardware
 ms.technology: windows-devices

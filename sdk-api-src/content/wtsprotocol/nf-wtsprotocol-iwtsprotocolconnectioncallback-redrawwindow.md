@@ -4,10 +4,10 @@ title: IWTSProtocolConnectionCallback::RedrawWindow
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::RedrawWindow is no longer available. Instead, use IWRdsProtocolConnectionCallback::RedrawWindow.
 old-location: termserv\iwtsprotocolconnectioncallback_redrawwindow.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8c5f7167-53c0-47fd-a62d-5137c341177d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],RedrawWindow method, IWTSProtocolConnectionCallback.RedrawWindow, IWTSProtocolConnectionCallback::RedrawWindow, RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWTSProtocolConnectionCallback::RedrawWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

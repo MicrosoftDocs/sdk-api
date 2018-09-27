@@ -4,10 +4,10 @@ title: IpRenewAddress function
 author: windows-sdk-content
 description: The IpRenewAddressfunction renews a lease on an IPv4 address previously obtained through Dynamic Host Configuration Protocol (DHCP).
 old-location: iphlp\iprenewaddress.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 25b1bf9f-3ae1-453c-baae-5f70ae46cd24
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: IpRenewAddress, IpRenewAddress function [IP Helper], _iphlp_iprenewaddress, iphlp.iprenewaddress, iphlpapi/IpRenewAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

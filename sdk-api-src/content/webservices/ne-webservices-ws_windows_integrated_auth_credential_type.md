@@ -7,7 +7,7 @@ old-location: wsw\ws_windows_integrated_auth_credential_type.htm
 tech.root: wsw
 ms.assetid: 50fc723a-8c32-443d-b3ce-cd660f5ab18b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration [Web Services for Windows], webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, wsw.ws_windows_integrated_auth_credential_type
 ms.prod: windows
 ms.technology: windows-sdk

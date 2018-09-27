@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiomute_getmute.htm
 tech.root: CoreAudio
 ms.assetid: 4b6421d3-f238-46f6-a74a-085a63bf5441
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/25/2018
 ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],IAudioMute interface, IAudioMute interface [Core Audio],GetMute method, IAudioMute.GetMute, IAudioMute::GetMute, IAudioMuteGetMute, coreaudio.iaudiomute_getmute, devicetopology/IAudioMute::GetMute
 ms.prod: windows-hardware
 ms.technology: windows-devices

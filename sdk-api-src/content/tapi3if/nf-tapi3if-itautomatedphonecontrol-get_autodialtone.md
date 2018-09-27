@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_get_autodialtone.htm
 tech.root: tapi
 ms.assetid: 977be70d-bb2d-490a-afd1-8e7f496b10ae
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoDialtone method, ITAutomatedPhoneControl.get_AutoDialtone, ITAutomatedPhoneControl::get_AutoDialtone, _tapi3_itautomatedphonecontrol_get_autodialtone, get_AutoDialtone, get_AutoDialtone method [TAPI 2.2], get_AutoDialtone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autodialtone, tapi3if/ITAutomatedPhoneControl::get_AutoDialtone
 ms.prod: windows-hardware
 ms.technology: windows-devices

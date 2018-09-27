@@ -7,7 +7,7 @@ old-location: wsw\ws_void_description.htm
 tech.root: wsw
 ms.assetid: 92373e0d-3fe1-4486-8e79-deb0fc24cb63
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_VOID_DESCRIPTION, WS_VOID_DESCRIPTION structure [Web Services for Windows], _WS_VOID_DESCRIPTION, webservices/WS_VOID_DESCRIPTION, wsw.ws_void_description
 ms.prod: windows
 ms.technology: windows-sdk

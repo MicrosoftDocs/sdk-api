@@ -7,7 +7,7 @@ old-location: com\olebuildversion.htm
 tech.root: com
 ms.assetid: 5715CF82-7598-4D04-8EC8-BB27582A739E
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: OleBuildVersion, OleBuildVersion function [COM], com.olebuildversion, ole2/OleBuildVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

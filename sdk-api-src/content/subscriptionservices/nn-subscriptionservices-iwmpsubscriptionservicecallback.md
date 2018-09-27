@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservicecallback.htm
 tech.root: WMP
 ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player],described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
 ms.prod: windows
 ms.technology: windows-sdk

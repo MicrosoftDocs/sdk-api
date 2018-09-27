@@ -4,10 +4,10 @@ title: IkeextSaGetById0 function
 author: windows-sdk-content
 description: Retrieves an IKE/AuthIP security association (SA) from the database.
 old-location: fwp\ikeextsagetbyid0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: c500f7d1-ce8f-4a4e-9f09-c37116ef9ab3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IkeextSaGetById0, IkeextSaGetById0 function [Filtering], fwp.ikeextsagetbyid0, fwpmu/IkeextSaGetById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

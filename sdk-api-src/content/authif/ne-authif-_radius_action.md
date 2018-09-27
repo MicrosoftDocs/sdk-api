@@ -4,10 +4,10 @@ title: "_RADIUS_ACTION"
 author: windows-sdk-content
 description: The RADIUS_ACTION type enumerates the responses that a NPS Extension DLL can generate in response to an Access-Request.
 old-location: nps\IAS_radius_action.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: c0bd58ca-24e5-4cee-95e9-521d15c44814
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRADIUS_ACTION, PRADIUS_ACTION, PRADIUS_ACTION enumeration pointer [Network Policy Server], RADIUS_ACTION, RADIUS_ACTION enumeration [Network Policy Server], _RADIUS_ACTION, _ias_radius_action, authif/PRADIUS_ACTION, authif/RADIUS_ACTION, authif/raAccept, authif/raContinue, authif/raReject, ias.radius_action, nps.IAS_radius_action, raAccept, raContinue, raReject"
 ms.prod: windows
 ms.technology: windows-sdk

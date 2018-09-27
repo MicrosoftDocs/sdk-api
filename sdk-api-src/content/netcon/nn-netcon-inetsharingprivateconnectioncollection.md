@@ -7,7 +7,7 @@ old-location: ics\inetsharingprivateconnectioncollection.htm
 tech.root: ics
 ms.assetid: 6e850e7b-841a-4f14-bab2-4a5a67dcb360
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetSharingPrivateConnectionCollection, INetSharingPrivateConnectionCollection interface [ICS/ICF], INetSharingPrivateConnectionCollection interface [ICS/ICF],described, _ics_inetsharingprivateconnectioncollection, ics.inetsharingprivateconnectioncollection, netcon/INetSharingPrivateConnectionCollection
 ms.prod: windows
 ms.technology: windows-sdk

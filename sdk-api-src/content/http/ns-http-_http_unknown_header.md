@@ -4,10 +4,10 @@ title: "_HTTP_UNKNOWN_HEADER"
 author: windows-sdk-content
 description: Contains the name and value for a header in an HTTP request or response whose name does not appear in the enumeration.
 old-location: http\http_unknown_header.htm
-tech.root: http
+tech.root: Http
 ms.assetid: 158f2979-58d3-4120-a74a-311b6fc53136
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PHTTP_UNKNOWN_HEADER, HTTP_UNKNOWN_HEADER, HTTP_UNKNOWN_HEADER structure [HTTP], PHTTP_UNKNOWN_HEADER, PHTTP_UNKNOWN_HEADER structure pointer [HTTP], _HTTP_UNKNOWN_HEADER, _http_http_unknown_header, http.http_unknown_header, http/HTTP_UNKNOWN_HEADER, http/PHTTP_UNKNOWN_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

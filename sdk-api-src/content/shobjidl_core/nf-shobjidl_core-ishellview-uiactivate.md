@@ -7,7 +7,7 @@ old-location: shell\IShellView_UIActivate.htm
 tech.root: shell
 ms.assetid: 169881de-d073-4864-beb2-4e030b855e8f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IShellView interface [Windows Shell],UIActivate method, IShellView.UIActivate, IShellView::UIActivate, SVUIA_ACTIVATE_FOCUS, SVUIA_ACTIVATE_NOFOCUS, SVUIA_DEACTIVATE, SVUIA_INPLACEACTIVATE, UIActivate, UIActivate method [Windows Shell], UIActivate method [Windows Shell],IShellView interface, _win32_IShellView_UIActivate, shell.IShellView_UIActivate, shobjidl_core/IShellView::UIActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

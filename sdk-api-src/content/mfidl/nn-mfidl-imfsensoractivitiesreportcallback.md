@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivitiesreportcallback.htm
 tech.root: medfound
 ms.assetid: 477B008D-7F0A-4084-BDFD-DF19E2A82817
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback
 ms.prod: windows
 ms.technology: windows-sdk

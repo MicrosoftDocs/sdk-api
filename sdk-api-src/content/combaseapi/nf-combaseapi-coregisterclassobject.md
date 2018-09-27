@@ -7,7 +7,7 @@ old-location: com\coregisterclassobject.htm
 tech.root: com
 ms.assetid: d27bfa6c-194a-41f1-8fcf-76c4dff14a8a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: CoRegisterClassObject, CoRegisterClassObject function [COM], _com_CoRegisterClassObject, com.coregisterclassobject, combaseapi/CoRegisterClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

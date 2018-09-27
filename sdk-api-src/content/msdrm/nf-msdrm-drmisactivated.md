@@ -4,10 +4,10 @@ title: DRMIsActivated function
 author: windows-sdk-content
 description: Indicates whether the current user or machine is activated.
 old-location: rm\drmisactivated.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: f6c7bc7f-e9e8-4fc4-b30f-31bc0f5f46aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMIsActivated, DRMIsActivated function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, msdrm/DRMIsActivated, rm.drmisactivated
 ms.prod: windows-hardware
 ms.technology: windows-devices

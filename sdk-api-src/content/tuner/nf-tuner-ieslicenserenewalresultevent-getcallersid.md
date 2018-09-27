@@ -4,10 +4,10 @@ title: IESLicenseRenewalResultEvent::GetCallersId
 author: windows-sdk-content
 description: Gets a unique identifier from a LicenseRenewalResult event that identifies the caller.
 old-location: mstv\ieslicenserenewalresultevent_getcallersid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c1dfbd63-c165-4872-b992-3f536be9cad1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetCallersId, GetCallersId method [DirectShow], GetCallersId method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetCallersId method, IESLicenseRenewalResultEvent.GetCallersId, IESLicenseRenewalResultEvent::GetCallersId, mstv.ieslicenserenewalresultevent_getcallersid, tuner/IESLicenseRenewalResultEvent::GetCallersId
 ms.prod: windows-hardware
 ms.technology: windows-devices

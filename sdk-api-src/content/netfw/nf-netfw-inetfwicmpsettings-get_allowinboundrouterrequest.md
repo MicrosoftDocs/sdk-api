@@ -7,7 +7,7 @@ old-location: ics\inetfwicmpsettings_allowinboundrouterrequest.htm
 tech.root: ics
 ms.assetid: 26d9b17c-808d-4d01-921a-9ac435f327db
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: AllowInboundRouterRequest property [ICS/ICF], AllowInboundRouterRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundRouterRequest property, INetFwIcmpSettings.AllowInboundRouterRequest, INetFwIcmpSettings.get_AllowInboundRouterRequest, INetFwIcmpSettings::AllowInboundRouterRequest, INetFwIcmpSettings::get_AllowInboundRouterRequest, INetFwIcmpSettings::put_AllowInboundRouterRequest, get_AllowInboundRouterRequest, ics.inetfwicmpsettings_allowinboundrouterrequest, netfw/INetFwIcmpSettings::AllowInboundRouterRequest, netfw/INetFwIcmpSettings::get_AllowInboundRouterRequest, netfw/INetFwIcmpSettings::put_AllowInboundRouterRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

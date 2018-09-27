@@ -7,7 +7,7 @@ old-location: tapi3\itlegacywavesupport.htm
 tech.root: tapi
 ms.assetid: f1ef5f5d-822d-466d-997e-e9c1a09abcbe
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITLegacyWaveSupport, ITLegacyWaveSupport interface [TAPI 2.2], ITLegacyWaveSupport interface [TAPI 2.2],described, _tapi3_itlegacywavesupport, tapi3.itlegacywavesupport, tapi3if/ITLegacyWaveSupport
 ms.prod: windows
 ms.technology: windows-sdk

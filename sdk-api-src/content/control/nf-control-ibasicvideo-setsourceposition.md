@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_setsourceposition.htm
 tech.root: DirectShow
 ms.assetid: afe78775-f2b0-4d10-a702-f0329fe79c6d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetSourcePosition method, IBasicVideo.SetSourcePosition, IBasicVideo::SetSourcePosition, IBasicVideoSetSourcePosition, SetSourcePosition, SetSourcePosition method [DirectShow], SetSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetSourcePosition, dshow.ibasicvideo_setsourceposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

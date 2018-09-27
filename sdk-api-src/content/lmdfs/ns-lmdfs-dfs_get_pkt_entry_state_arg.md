@@ -4,10 +4,10 @@ title: DFS_GET_PKT_ENTRY_STATE_ARG
 author: windows-sdk-content
 description: Input buffer used with the FSCTL_DFS_GET_PKT_ENTRY_STATE control code.
 old-location: dfs\dfs_get_pkt_entry_state_arg.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: eb69d346-d88c-48e8-abd7-5cbb5976f41f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDFS_GET_PKT_ENTRY_STATE_ARG, DFS_GET_PKT_ENTRY_STATE_ARG, DFS_GET_PKT_ENTRY_STATE_ARG structure [Distributed File System], PDFS_GET_PKT_ENTRY_STATE_ARG, PDFS_GET_PKT_ENTRY_STATE_ARG structure pointer [Distributed File System], dfs.dfs_get_pkt_entry_state_arg, lmdfs/DFS_GET_PKT_ENTRY_STATE_ARG, lmdfs/PDFS_GET_PKT_ENTRY_STATE_ARG"
 ms.prod: windows
 ms.technology: windows-sdk

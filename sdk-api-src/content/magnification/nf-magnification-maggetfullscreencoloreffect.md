@@ -7,7 +7,7 @@ old-location: magapi\magapi_maggetfullscreencoloreffect.htm
 tech.root: magapi
 ms.assetid: 1C37DB20-1267-447B-A34F-E3EC83F51907
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MagGetFullscreenColorEffect, MagGetFullscreenColorEffect function [Magnification API], magapi.magapi_maggetfullscreencoloreffect, magnification/MagGetFullscreenColorEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

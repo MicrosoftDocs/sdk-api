@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetVertexShader
 author: windows-sdk-content
 description: Retrieves the currently set vertex shader.
 old-location: direct3d9\idirect3ddevice9__getvertexshader.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getvertexshader.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetVertexShader, GetVertexShader method [Direct3D 9], GetVertexShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetVertexShader method, IDirect3DDevice9.GetVertexShader, IDirect3DDevice9::GetVertexShader, ce5c5bb1-c3dc-79d2-8932-365b84538ce0, d3d9helper/IDirect3DDevice9::GetVertexShader, direct3d9.idirect3ddevice9__getvertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

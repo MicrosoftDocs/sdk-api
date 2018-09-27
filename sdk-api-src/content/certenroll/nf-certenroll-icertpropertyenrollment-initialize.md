@@ -4,10 +4,10 @@ title: ICertPropertyEnrollment::Initialize
 author: windows-sdk-content
 description: Initializes the property from the certificate request ID, the certification authority (CA) configuration string, and an optional certificate display name.
 old-location: security\icertpropertyenrollment_initialize_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 47e9b11f-3f23-4e2f-817a-4b6311e3d710
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],Initialize method, ICertPropertyEnrollment.Initialize, ICertPropertyEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::Initialize, security.icertpropertyenrollment_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

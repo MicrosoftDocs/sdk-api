@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectblendvariable_getblendstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable_getblendstate.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 23f9d59f-d37d-7bdf-874c-f23d35773bb5, GetBlendState, GetBlendState method [Direct3D 10], GetBlendState method [Direct3D 10],ID3D10EffectBlendVariable interface, ID3D10EffectBlendVariable interface [Direct3D 10],GetBlendState method, ID3D10EffectBlendVariable.GetBlendState, ID3D10EffectBlendVariable::GetBlendState, d3d10effect/ID3D10EffectBlendVariable::GetBlendState, direct3d10.id3d10effectblendvariable_getblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10V2
 author: windows-sdk-content
 description: The IX509CertificateRequestPkcs10V2 interface represents a PKCS #10 certificate request. It includes all of the methods defined by the IX509CertificateRequestPkcs10 interface and adds methods that enable initialization from certificate request templates.
 old-location: security\ix509certificaterequestpkcs10v2.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 38177793-c15b-4651-8260-c90a151da83e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509CertificateRequestPkcs10V2, IX509CertificateRequestPkcs10V2 interface [Security], IX509CertificateRequestPkcs10V2 interface [Security],described, certenroll/IX509CertificateRequestPkcs10V2, security.ix509certificaterequestpkcs10v2
 ms.prod: windows
 ms.technology: windows-sdk

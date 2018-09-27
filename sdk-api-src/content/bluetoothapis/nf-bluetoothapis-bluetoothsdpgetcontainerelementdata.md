@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetcontainerelementdata.htm
 tech.root: bluetooth
 ms.assetid: 7dbf44f6-8a80-419e-9db7-60ada9ca9647
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BluetoothSdpGetContainerElementData, BluetoothSdpGetContainerElementData function [Bluetooth], bluetooth.bluetoothsdpgetcontainerelementdata, bluetoothapis/BluetoothSdpGetContainerElementData
 ms.prod: windows-hardware
 ms.technology: windows-devices

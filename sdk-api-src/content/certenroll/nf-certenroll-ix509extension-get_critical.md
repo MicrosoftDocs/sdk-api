@@ -4,10 +4,10 @@ title: IX509Extension::get_Critical
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that identifies whether the certificate extension is critical.
 old-location: security\ix509extension_critical_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Critical property [Security], Critical property [Security],IX509Extension interface, IX509Extension interface [Security],Critical property, IX509Extension.Critical, IX509Extension.get_Critical, IX509Extension::Critical, IX509Extension::get_Critical, IX509Extension::put_Critical, certenroll/IX509Extension::Critical, certenroll/IX509Extension::get_Critical, certenroll/IX509Extension::put_Critical, get_Critical, security.ix509extension_critical_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

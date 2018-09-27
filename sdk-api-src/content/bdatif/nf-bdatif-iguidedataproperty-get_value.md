@@ -4,10 +4,10 @@ title: IGuideDataProperty::get_Value
 author: windows-sdk-content
 description: The get_Value method retrieves the value associated with the property.
 old-location: mstv\iguidedataproperty_get_value.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3a6014aa-a8a2-4436-b7a3-d083f2f0fa98
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Value method, IGuideDataProperty.get_Value, IGuideDataProperty::get_Value, IGuideDataPropertyget_Value, bdatif/IGuideDataProperty::get_Value, get_Value, get_Value method [Microsoft TV Technologies], get_Value method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_value
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperties.htm
 tech.root: tablet
 ms.assetid: c7b7f40f-0c28-4848-83d6-d5db73eef998
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], IInkExtendedProperties interface [Tablet PC],described, c7b7f40f-0c28-4848-83d6-d5db73eef998, msinkaut/IInkExtendedProperties, tablet.iinkextendedproperties
 ms.prod: windows
 ms.technology: windows-sdk

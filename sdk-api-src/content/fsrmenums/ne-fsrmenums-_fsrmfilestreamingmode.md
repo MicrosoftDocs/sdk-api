@@ -7,7 +7,7 @@ old-location: fsrm\fsrmfilestreamingmode.htm
 tech.root: fsrm
 ms.assetid: a2f7de78-7102-43f9-a7b8-b35ac0b7286a
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: FsrmFileStreamingMode, FsrmFileStreamingMode enumeration [File Server Resource Manager], FsrmFileStreamingMode_Read, FsrmFileStreamingMode_Unknown, FsrmFileStreamingMode_Write, _FsrmFileStreamingMode, fs.fsrmfilestreamingmode, fsrm.fsrmfilestreamingmode, fsrmenums/FsrmFileStreamingMode, fsrmenums/FsrmFileStreamingMode_Read, fsrmenums/FsrmFileStreamingMode_Unknown, fsrmenums/FsrmFileStreamingMode_Write
 ms.prod: windows
 ms.technology: windows-sdk

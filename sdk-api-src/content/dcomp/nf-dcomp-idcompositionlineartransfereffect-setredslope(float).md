@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setredslope.htm
 tech.root: directcomp
 ms.assetid: 226B0410-8E4E-478D-A0A0-11005DA430A7
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedSlope method, IDCompositionLinearTransferEffect.SetRedSlope, IDCompositionLinearTransferEffect.SetRedSlope(float), IDCompositionLinearTransferEffect::SetRedSlope, IDCompositionLinearTransferEffect::SetRedSlope(float), SetRedSlope, SetRedSlope method [DirectComposition], SetRedSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedSlope, directcomp.idcompositionlineartransfereffect_setredslope
 ms.prod: windows-hardware
 ms.technology: windows-devices

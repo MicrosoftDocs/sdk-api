@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangles_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglesmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: FillRectangles, FillRectangles methods [GDI+], Graphics.FillRectangles, Graphics.FillRectangles(IN const Brush,IN const Rect,IN INT), Graphics::FillRectangles, Graphics::FillRectangles(IN const Brush,IN const Rect,IN INT), _gdiplus_CLASS_Graphics_FillRectangles_Methods, gdiplus._gdiplus_CLASS_Graphics_FillRectangles_Methods, gdiplusgraphics/FillRectangles
 ms.prod: windows-hardware
 ms.technology: windows-devices

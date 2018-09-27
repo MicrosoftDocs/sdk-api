@@ -7,7 +7,7 @@ old-location: bluetooth\sdp_element_data.htm
 tech.root: bluetooth
 ms.assetid: 9c9d6103-cc49-41d2-bbb3-6b6888fb93e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PSDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA structure [Bluetooth], SDP_ELEMENT_DATA, SDP_ELEMENT_DATA structure [Bluetooth], _SDP_ELEMENT_DATA, bluetooth.sdp_element_data, bluetoothapis/*PSDP_ELEMENT_DATA, bluetoothapis/SDP_ELEMENT_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

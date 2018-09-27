@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertydefinition.htm
 tech.root: fsrm
 ms.assetid: b85d5df0-a99a-48d2-9bad-3b8c86abea91
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], IFsrmPropertyDefinition interface [File Server Resource Manager],described, fs.ifsrmpropertydefinition, fsrm.ifsrmpropertydefinition, fsrm/IFsrmPropertyDefinition
 ms.prod: windows
 ms.technology: windows-sdk

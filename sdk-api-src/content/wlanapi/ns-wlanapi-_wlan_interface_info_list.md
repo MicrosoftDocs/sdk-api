@@ -4,10 +4,10 @@ title: "_WLAN_INTERFACE_INFO_LIST"
 author: windows-sdk-content
 description: Array of NIC interface information.
 old-location: nwifi\wlan_interface_info_list.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: c57f4658-9f1e-4b05-a298-38a064121bb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST structure pointer [NativeWIFI], WLAN_INTERFACE_INFO_LIST, WLAN_INTERFACE_INFO_LIST structure [NativeWIFI], _WLAN_INTERFACE_INFO_LIST, nwifi.wlan_interface_info_list, wlanapi/PWLAN_INTERFACE_INFO_LIST, wlanapi/WLAN_INTERFACE_INFO_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

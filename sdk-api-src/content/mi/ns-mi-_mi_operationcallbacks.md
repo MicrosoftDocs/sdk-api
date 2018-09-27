@@ -4,10 +4,10 @@ title: "_MI_OperationCallbacks"
 author: windows-sdk-content
 description: Structure that holds all callback function pointers for carrying out operations.
 old-location: wmi_v2\mi_operationcallbacks.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: f56954bf-c1aa-408b-bc45-0faf2a99b381
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_OperationCallbacks, MI_OperationCallbacks structure [Windows Management Infrastructure (MI)], _MI_OperationCallbacks, mi/MI_OperationCallbacks, wmi._mi_operationcallbacks, wmi_v2.mi_operationcallbacks
 ms.prod: windows
 ms.technology: windows-sdk

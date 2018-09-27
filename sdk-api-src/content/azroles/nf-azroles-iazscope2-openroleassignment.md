@@ -4,10 +4,10 @@ title: IAzScope2::OpenRoleAssignment
 author: windows-sdk-content
 description: Opens an IAzRoleAssignment object with the specified name in this scope.
 old-location: security\iazscope2_openroleassignment.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: cb7560d0-da5c-444d-9944-b6db980985bc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleAssignment method, IAzScope2.OpenRoleAssignment, IAzScope2::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleAssignment, security.iazscope2_openroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_getstreamcount.htm
 tech.root: DirectShow
 ms.assetid: 05c28b44-6b92-418b-bb3f-889e59f4e0c1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: GetStreamCount, GetStreamCount method [DirectShow], GetStreamCount method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetStreamCount method, IMediaObject.GetStreamCount, IMediaObject::GetStreamCount, IMediaObjectGetStreamCount, dshow.imediaobject_getstreamcount, mediaobj/IMediaObject::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_MI_Deserializer"
 author: windows-sdk-content
 description: Deserialization object as created from MI_Application_NewDeserializer. The object itself should not be manually used or changed as it is used internally.
 old-location: wmi_v2\mi_deserializer.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 0d2d8f3b-9567-418f-a789-a34b85c114fd
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Deserializer, MI_Deserializer structure [Windows Management Infrastructure (MI)], _MI_Deserializer, mi/MI_Deserializer, wmi_v2.mi_deserializer
 ms.prod: windows
 ms.technology: windows-sdk

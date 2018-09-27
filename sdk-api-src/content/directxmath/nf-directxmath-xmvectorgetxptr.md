@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorgetxptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetXPtr(float@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMVectorGetXPtr, XMVectorGetXPtr, XMVectorGetXPtr method [DirectX Math Support APIs], dxmath.xmvectorgetxptr
 ms.prod: windows-hardware
 ms.technology: windows-devices

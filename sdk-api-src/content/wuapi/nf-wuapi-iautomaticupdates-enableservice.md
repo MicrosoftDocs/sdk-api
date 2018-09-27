@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates_enableservice.htm
 tech.root: wua_sdk
 ms.assetid: 0dd80943-f9d6-4179-8b02-3a03b5ba3636
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: EnableService, EnableService method [Windows Update Agent], EnableService method [Windows Update Agent],IAutomaticUpdates interface, IAutomaticUpdates interface [Windows Update Agent],EnableService method, IAutomaticUpdates.EnableService, IAutomaticUpdates::EnableService, wua.iautomaticupdates_enableservice, wuapi/IAutomaticUpdates::EnableService
 ms.prod: windows-hardware
 ms.technology: windows-devices

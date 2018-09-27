@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionmanager.htm
 tech.root: mbn
 ms.assetid: 20b9243d-1f20-4092-951a-fbacb2d55481
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnConnectionManager, IMbnConnectionManager interface [Microsoft Broadband Networks], IMbnConnectionManager interface [Microsoft Broadband Networks],described, mbn.imbnconnectionmanager, mbnapi/IMbnConnectionManager
 ms.prod: windows
 ms.technology: windows-sdk

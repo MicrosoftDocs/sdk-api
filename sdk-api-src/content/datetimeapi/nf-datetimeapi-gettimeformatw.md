@@ -7,7 +7,7 @@ old-location: intl\gettimeformat.htm
 tech.root: Intl
 ms.assetid: 3db91d29-df97-4660-b3cd-0db5b42cfd01
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: GetTimeFormat, GetTimeFormat function [Internationalization for Windows Applications], GetTimeFormatA, GetTimeFormatW, _win32_GetTimeFormat, datetimeapi/GetTimeFormat, datetimeapi/GetTimeFormatA, datetimeapi/GetTimeFormatW, intl.gettimeformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

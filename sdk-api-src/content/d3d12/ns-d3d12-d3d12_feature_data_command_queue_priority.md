@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_command_queue_priority.htm
 tech.root: direct3d12
 ms.assetid: 70DB58DB-7EE0-4E5C-8B24-22DA9347A80F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY structure, d3d12/D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, direct3d12.d3d12_feature_data_command_queue_priority
 ms.prod: windows
 ms.technology: windows-sdk

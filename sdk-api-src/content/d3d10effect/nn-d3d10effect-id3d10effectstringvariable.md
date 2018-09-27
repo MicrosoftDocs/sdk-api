@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectstringvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectstringvariable.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D10EffectStringVariable, ID3D10EffectStringVariable interface [Direct3D 10], ID3D10EffectStringVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectStringVariable, direct3d10.id3d10effectstringvariable, f5ea166d-7f4e-006c-4f7e-f59dae22d889
 ms.prod: windows
 ms.technology: windows-sdk

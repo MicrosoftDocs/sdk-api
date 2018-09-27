@@ -4,10 +4,10 @@ title: "_HTTP_SERVICE_BINDING_A"
 author: windows-sdk-content
 description: HTTP_SERVICE_BINDING_A.
 old-location: http\http_service_binding_a.htm
-tech.root: http
+tech.root: Http
 ms.assetid: bad1a042-fda8-4a2a-a8c1-26ed1f87c442
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PHTTP_SERVICE_BINDING_A, HTTP_SERVICE_BINDING_A, HTTP_SERVICE_BINDING_A structure [HTTP], PHTTP_SERVICE_BINDING_A, PHTTP_SERVICE_BINDING_A structure pointer [HTTP], _HTTP_SERVICE_BINDING_A, http.http_service_binding_a, http/HTTP_SERVICE_BINDING_A, http/PHTTP_SERVICE_BINDING_A"
 ms.prod: windows
 ms.technology: windows-sdk

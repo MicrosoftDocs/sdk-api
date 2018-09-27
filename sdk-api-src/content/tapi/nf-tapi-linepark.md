@@ -7,7 +7,7 @@ old-location: tapi2\linepark.htm
 tech.root: tapi
 ms.assetid: a6198229-a6db-43ef-9ef6-957429f270cc
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: "_tapi2_linepark, linePark, linePark function [TAPI 2.2], lineParkA, lineParkW, tapi/linePark, tapi/lineParkA, tapi/lineParkW, tapi2.linepark"
 ms.prod: windows-hardware
 ms.technology: windows-devices

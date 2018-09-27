@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_getmodeinfo.htm
 tech.root: DirectShow
 ms.assetid: c1a4aea8-8c48-4073-80ed-060db5adb514
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: GetModeInfo, GetModeInfo method [DirectShow], GetModeInfo method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetModeInfo method, IFullScreenVideoEx.GetModeInfo, IFullScreenVideoEx::GetModeInfo, IFullScreenVideoGetModeInfo, amvideo/IFullScreenVideoEx::GetModeInfo, dshow.ifullscreenvideoex_getmodeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

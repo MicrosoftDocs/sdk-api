@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcommittablecollection_commit.htm
 tech.root: fsrm
 ms.assetid: 844cb2a5-8526-434b-af22-b1bf856ed6af
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: Commit, Commit method [File Server Resource Manager], Commit method [File Server Resource Manager],IFsrmCommittableCollection interface, IFsrmCommittableCollection interface [File Server Resource Manager],Commit method, IFsrmCommittableCollection.Commit, IFsrmCommittableCollection::Commit, fs.ifsrmcommitablecollection_commit, fs.ifsrmcommittablecollection_commit, fsrm.ifsrmcommittablecollection_commit, fsrm/IFsrmCommittableCollection::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

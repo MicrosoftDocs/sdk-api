@@ -7,7 +7,7 @@ old-location: ad\dscracknames.htm
 tech.root: ad
 ms.assetid: f812a001-5aab-4c62-87bd-54f95792e271
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: DsCrackNames, DsCrackNames function [Active Directory], DsCrackNamesA, DsCrackNamesW, _glines_dscracknames, ad.dscracknames, ntdsapi/DsCrackNames, ntdsapi/DsCrackNamesA, ntdsapi/DsCrackNamesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

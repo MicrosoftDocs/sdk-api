@@ -4,10 +4,10 @@ title: ITaskFolder::DeleteTask
 author: windows-sdk-content
 description: Deletes a task from the folder.
 old-location: taskschd\itaskfolder_deletetask.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 5b929abd-c40a-4f6b-9a0b-702d2f26f1fe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: DeleteTask, DeleteTask method [Task Scheduler], DeleteTask method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteTask method, ITaskFolder.DeleteTask, ITaskFolder::DeleteTask, taskschd.itaskfolder_deletetask, taskschd/ITaskFolder::DeleteTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\cobjectpathparser_unparse.htm
 tech.root: WmiSdk
 ms.assetid: 6135b808-b9eb-4ba0-9eb8-e7a59993ae34
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],UnParse method, CObjectPathParser.Unparse, CObjectPathParser::UnParse, CObjectPathParser::Unparse, UnParse method [Windows Management Instrumentation], UnParse method [Windows Management Instrumentation],CObjectPathParser interface, Unparse, objpath/CObjectPathParser::UnParse, wmi.cobjectpathparser_unparse
 ms.prod: windows-hardware
 ms.technology: windows-devices

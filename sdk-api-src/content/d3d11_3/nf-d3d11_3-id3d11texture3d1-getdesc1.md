@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11texture3d1_getdesc1.htm
 tech.root: direct3d11
 ms.assetid: 0F7E8827-8F7B-4C0E-9592-1DB670B01BDB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetDesc1, GetDesc1 method [Direct3D 11], GetDesc1 method [Direct3D 11],ID3D11Texture3D1 interface, ID3D11Texture3D1 interface [Direct3D 11],GetDesc1 method, ID3D11Texture3D1.GetDesc1, ID3D11Texture3D1::GetDesc1, d3d11_3/ID3D11Texture3D1::GetDesc1, direct3d11.id3d11texture3d1_getdesc1
 ms.prod: windows-hardware
 ms.technology: windows-devices

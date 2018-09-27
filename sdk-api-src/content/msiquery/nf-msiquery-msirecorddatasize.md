@@ -7,7 +7,7 @@ old-location: setup\msirecorddatasize.htm
 tech.root: msi
 ms.assetid: e0e4e842-697f-43fa-8012-dd911bf3eebc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: MsiRecordDataSize, MsiRecordDataSize function, _msi_msirecorddatasize, msiquery/MsiRecordDataSize, setup.msirecorddatasize
 ms.prod: windows-hardware
 ms.technology: windows-devices

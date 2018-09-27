@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFile.htm
 tech.root: DirectWrite
 ms.assetid: d4be5466-0b6c-4cc5-9f16-aa00c6037eb9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: IDWriteFontFile, IDWriteFontFile interface [Direct Write], IDWriteFontFile interface [Direct Write],described, directwrite.IDWriteFontFile, dwrite/IDWriteFontFile
 ms.prod: windows
 ms.technology: windows-sdk

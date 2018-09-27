@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10::get_SignatureInformation
 author: windows-sdk-content
 description: Retrieves the IX509SignatureInformation object that contains information about the certificate request signature.
 old-location: security\ix509certificaterequestpkcs10_signatureinformation_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: d90a8b82-a4d7-4d31-bcd0-293572a2bdd2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],SignatureInformation property, IX509CertificateRequestPkcs10.SignatureInformation, IX509CertificateRequestPkcs10.get_SignatureInformation, IX509CertificateRequestPkcs10::SignatureInformation, IX509CertificateRequestPkcs10::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SignatureInformation, certenroll/IX509CertificateRequestPkcs10::get_SignatureInformation, get_SignatureInformation, security.ix509certificaterequestpkcs10_signatureinformation_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

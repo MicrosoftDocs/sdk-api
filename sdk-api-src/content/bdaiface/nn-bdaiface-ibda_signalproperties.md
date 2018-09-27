@@ -4,10 +4,10 @@ title: IBDA_SignalProperties
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: fe88b628-7959-4d2f-981f-7de9126146f6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], IBDA_SignalProperties interface [Microsoft TV Technologies],described, IBDA_SignalPropertiesInterface, bdaiface/IBDA_SignalProperties, mstv.ibda_signalproperties
 ms.prod: windows
 ms.technology: windows-sdk

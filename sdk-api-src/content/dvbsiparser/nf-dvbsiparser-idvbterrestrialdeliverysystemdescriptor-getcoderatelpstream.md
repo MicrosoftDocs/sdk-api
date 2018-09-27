@@ -4,10 +4,10 @@ title: IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateLPStream
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcoderatelpstream.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: dc4a1eef-1dd3-4946-8dad-6c8993290ca2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetCodeRateLPStream, GetCodeRateLPStream method [Microsoft TV Technologies], GetCodeRateLPStream method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCodeRateLPStream method, IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateLPStream, IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateLPStream, IDvbTerrestrialDeliverySystemDescriptorGetCodeRateLPStream, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateLPStream, mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatelpstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

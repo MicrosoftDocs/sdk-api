@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10createeffectpoolfrommemory.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createeffectpoolfrommemory.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: D3D10CreateEffectPoolFromMemory, D3D10CreateEffectPoolFromMemory function [Direct3D 10], d3d10effect/D3D10CreateEffectPoolFromMemory, direct3d10.d3d10createeffectpoolfrommemory, fe38c43e-d460-f70d-5972-0c60fb75b532
 ms.prod: windows-hardware
 ms.technology: windows-devices

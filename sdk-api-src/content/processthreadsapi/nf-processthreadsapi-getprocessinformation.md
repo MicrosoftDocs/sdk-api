@@ -7,7 +7,7 @@ old-location: base\getprocessinformation.htm
 tech.root: procthread
 ms.assetid: 2b075405-b7b6-4da0-b78d-45eaa9c6c8cd
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: GetProcessInformation, GetProcessInformation function, base.getprocessinformation, processthreadsapi/GetProcessInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

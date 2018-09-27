@@ -7,7 +7,7 @@ old-location: com\ipsfactorybuffer.htm
 tech.root: com
 ms.assetid: ffe85701-a4fa-4cf3-9b86-85f3a0cb63e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IPSFactoryBuffer, IPSFactoryBuffer interface [COM], IPSFactoryBuffer interface [COM],described, _com_ipsfactorybuffer, com.ipsfactorybuffer, objidlbase/IPSFactoryBuffer
 ms.prod: windows
 ms.technology: windows-sdk

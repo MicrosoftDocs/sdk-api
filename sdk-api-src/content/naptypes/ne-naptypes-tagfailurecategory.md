@@ -4,10 +4,10 @@ title: tagFailureCategory
 author: windows-sdk-content
 description: Indicates the source of a failure.
 old-location: nap\failurecategory_enum.htm
-tech.root: nap
+tech.root: NAP
 ms.assetid: 3f528702-c9f3-4a91-960b-8b3f3eea91e9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FailureCategory, FailureCategory enumeration [NAP], failureCategoryClientCommunication, failureCategoryClientComponent, failureCategoryNone, failureCategoryOther, failureCategoryServerCommunication, failureCategoryServerComponent, nap.failurecategory_enum, naptypes/FailureCategory, naptypes/failureCategoryClientCommunication, naptypes/failureCategoryClientComponent, naptypes/failureCategoryNone, naptypes/failureCategoryOther, naptypes/failureCategoryServerCommunication, naptypes/failureCategoryServerComponent, tagFailureCategory
 ms.prod: windows
 ms.technology: windows-sdk

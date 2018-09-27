@@ -4,10 +4,10 @@ title: tagMCGRIDINFO
 author: windows-sdk-content
 description: Contains information about part of a calendar control.
 old-location: controls\MCGRIDINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mcgridinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*PMCGRIDINFO, MCGIF_DATE, MCGIF_NAME, MCGIF_RECT, MCGIP_CALENDAR, MCGIP_CALENDARBODY, MCGIP_CALENDARCELL, MCGIP_CALENDARCONTROL, MCGIP_CALENDARHEADER, MCGIP_CALENDARROW, MCGIP_FOOTER, MCGIP_NEXT, MCGIP_PREV, MCGRIDINFO, MCGRIDINFO structure [Windows Controls], PMCGRIDINFO, PMCGRIDINFO structure pointer [Windows Controls], _shell_MCGRIDINFO, _shell_MCGRIDINFO_cpp, commctrl/MCGRIDINFO, commctrl/PMCGRIDINFO, controls.MCGRIDINFO, controls._shell_MCGRIDINFO, tagMCGRIDINFO"
 ms.prod: windows
 ms.technology: windows-sdk

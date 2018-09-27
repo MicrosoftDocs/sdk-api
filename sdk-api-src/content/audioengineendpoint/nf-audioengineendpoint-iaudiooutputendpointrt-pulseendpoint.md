@@ -4,10 +4,10 @@ title: IAudioOutputEndpointRT::PulseEndpoint
 author: windows-sdk-content
 description: Is reserved.
 old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioOutputEndpointRT.PulseEndpoint, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

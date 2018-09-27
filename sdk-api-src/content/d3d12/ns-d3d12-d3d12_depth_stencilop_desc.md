@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_depth_stencilop_desc.htm
 tech.root: direct3d12
 ms.assetid: 1E72B486-98E1-4140-80E3-6DF95ECA82DB
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_DEPTH_STENCILOP_DESC, D3D12_DEPTH_STENCILOP_DESC structure, d3d12/D3D12_DEPTH_STENCILOP_DESC, direct3d12.d3d12_depth_stencilop_desc
 ms.prod: windows
 ms.technology: windows-sdk

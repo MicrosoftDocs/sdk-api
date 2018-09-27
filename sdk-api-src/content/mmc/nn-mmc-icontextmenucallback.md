@@ -7,7 +7,7 @@ old-location: mmc\icontextmenucallback.htm
 tech.root: mmc
 ms.assetid: 141a650f-a829-47b1-abf9-427302d98444
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IContextMenuCallback, IContextMenuCallback interface [MMC], IContextMenuCallback interface [MMC],described, _slate_icontextmenucallback, mmc.icontextmenucallback, mmc/IContextMenuCallback
 ms.prod: windows
 ms.technology: windows-sdk

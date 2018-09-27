@@ -7,7 +7,7 @@ old-location: ncd\iproviderqueryconstraintcollection_getcount.htm
 tech.root: fundisc
 ms.assetid: 401e1723-751a-490b-bcb6-d1e0f2f73dfb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,GetCount method, IProviderQueryConstraintCollection.GetCount, IProviderQueryConstraintCollection::GetCount, functiondiscoveryprovider/IProviderQueryConstraintCollection::GetCount, ncd.iproviderqueryconstraintcollection_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

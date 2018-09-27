@@ -7,7 +7,7 @@ old-location: intl\script_charprop.htm
 tech.root: Intl
 ms.assetid: 2f3a4d8d-c7b1-4005-aebb-d3e9f2e3a37f
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: SCRIPT_CHARPROP, SCRIPT_CHARPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_CHARPROP, intl.script_charprop, script_charprop, usp10/SCRIPT_CHARPROP
 ms.prod: windows
 ms.technology: windows-sdk

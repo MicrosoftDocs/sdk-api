@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcommittablecollection.htm
 tech.root: fsrm
 ms.assetid: ef4678b4-e6b0-4044-ba11-7a3ae01ad2c7
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmCommittableCollection, IFsrmCommittableCollection interface [File Server Resource Manager], IFsrmCommittableCollection interface [File Server Resource Manager],described, fs.ifsrmcommitablecollection, fs.ifsrmcommittablecollection, fsrm.ifsrmcommittablecollection, fsrm/IFsrmCommittableCollection
 ms.prod: windows
 ms.technology: windows-sdk

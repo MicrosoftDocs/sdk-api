@@ -4,10 +4,10 @@ title: IDvbExtendedEventDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_gettag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8f6dad8a-fd95-48c3-9bb2-222c5ec958f5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbExtendedEventDescriptor.GetTag, IDvbExtendedEventDescriptor::GetTag, dvbsiparser/IDvbExtendedEventDescriptor::GetTag, mstv.idvbextendedeventdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

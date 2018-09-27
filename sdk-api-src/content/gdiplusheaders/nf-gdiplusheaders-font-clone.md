@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\clone_4.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Font class, Font class [GDI+],Clone method, Font.Clone, Font::Clone, _gdiplus_CLASS_Font_Clone_, gdiplus._gdiplus_CLASS_Font_Clone_
 ms.prod: windows-hardware
 ms.technology: windows-devices

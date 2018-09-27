@@ -4,10 +4,10 @@ title: "_MESSAGE"
 author: windows-sdk-content
 description: The MESSAGE union contains information about an event reported to the router manager through the routing protocol's message queue.
 old-location: rras\message.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 94f3069f-c282-4dea-84f9-48645f4e1593
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*PMESSAGE, MESSAGE, MESSAGE structure [RAS], PMESSAGE, PMESSAGE structure pointer [RAS], _MESSAGE, _mpr_message, routprot/MESSAGE, routprot/PMESSAGE, rras.message"
 ms.prod: windows
 ms.technology: windows-sdk

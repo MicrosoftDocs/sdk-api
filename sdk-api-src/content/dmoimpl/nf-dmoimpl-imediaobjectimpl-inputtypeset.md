@@ -7,7 +7,7 @@ old-location: dshow\imediaobjectimpl_inputtypeset.htm
 tech.root: DirectShow
 ms.assetid: f7f2f594-31ed-4c75-8221-9c62f8b4bed3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputTypeSet method, IMediaObjectImpl.InputTypeSet, IMediaObjectImpl::InputTypeSet, IMediaObjectImplInputTypeSet, InputTypeSet, InputTypeSet method [DirectShow], InputTypeSet method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputTypeSet, dshow.imediaobjectimpl_inputtypeset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_int16_description.htm
 tech.root: wsw
 ms.assetid: 06cf286f-971b-46e1-92b4-655d6d55606a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_INT16_DESCRIPTION, WS_INT16_DESCRIPTION structure [Web Services for Windows], _WS_INT16_DESCRIPTION, webservices/WS_INT16_DESCRIPTION, wsw.ws_int16_description
 ms.prod: windows
 ms.technology: windows-sdk

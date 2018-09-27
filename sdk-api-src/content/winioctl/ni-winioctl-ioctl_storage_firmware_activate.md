@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_FIRMWARE_ACTIVATE
 author: windows-sdk-content
 description: Windows applications can use this control code to activate a firmware image on a specified device.
 old-location: fs\ioctl_storage_firmware_activate.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 000BEB58-D91E-4859-AC31-A4C72B84A982
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Files], fs.ioctl_storage_firmware_activate, winioctl/IOCTL_STORAGE_FIRMWARE_ACTIVATE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: inputdev\blockinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\blockinput.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: BlockInput, BlockInput function [Keyboard and Mouse Input], _win32_BlockInput, _win32_blockinput_cpp, inputdev.blockinput, winui._win32_blockinput, winuser/BlockInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

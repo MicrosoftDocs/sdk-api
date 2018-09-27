@@ -7,7 +7,7 @@ old-location: com\imessagedispatcher.htm
 tech.root: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
 ms.prod: windows
 ms.technology: windows-sdk

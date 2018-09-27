@@ -7,7 +7,7 @@ old-location: dshow\am_property_dvd_rate_change.htm
 tech.root: DirectShow
 ms.assetid: 1a8e1a93-893f-4aaa-bbcc-f660b064e8a9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: AM_PROPERTY_DVD_RATE_CHANGE, AM_PROPERTY_DVD_RATE_CHANGE enumeration [DirectShow], AM_RATE_ChangeRate, AM_RATE_DecoderPosition, AM_RATE_DecoderVersion, AM_RATE_FullDataRateMax, AM_RATE_ReverseDecode, dshow.am_property_dvd_rate_change, dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE, dvdmedia/AM_RATE_ChangeRate, dvdmedia/AM_RATE_DecoderPosition, dvdmedia/AM_RATE_DecoderVersion, dvdmedia/AM_RATE_FullDataRateMax, dvdmedia/AM_RATE_ReverseDecode
 ms.prod: windows
 ms.technology: windows-sdk

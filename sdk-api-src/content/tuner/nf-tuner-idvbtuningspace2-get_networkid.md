@@ -4,10 +4,10 @@ title: IDVBTuningSpace2::get_NetworkID
 author: windows-sdk-content
 description: The get_NetworkID method retrieves the Network ID of the DVB system.
 old-location: mstv\idvbtuningspace2_get_networkid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 743977d3-151d-4d04-8d2d-7018d5613cc1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVBTuningSpace2 interface [Microsoft TV Technologies],get_NetworkID method, IDVBTuningSpace2.get_NetworkID, IDVBTuningSpace2::get_NetworkID, IDVBTuningSpace2get_NetworkID, get_NetworkID, get_NetworkID method [Microsoft TV Technologies], get_NetworkID method [Microsoft TV Technologies],IDVBTuningSpace2 interface, mstv.idvbtuningspace2_get_networkid, tuner/IDVBTuningSpace2::get_NetworkID
 ms.prod: windows-hardware
 ms.technology: windows-devices

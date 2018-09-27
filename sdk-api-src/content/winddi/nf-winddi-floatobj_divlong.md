@@ -7,7 +7,7 @@ old-location: display\floatobj_divlong.htm
 tech.root: display
 ms.assetid: 23452749-1a10-4d19-b24a-24ec42931efd
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/14/2018
 ms.keywords: FLOATOBJ_DivLong, FLOATOBJ_DivLong function [Display Devices], display.floatobj_divlong, gdifncs_2c12858b-3c1a-4f4e-883f-aa4527695961.xml, winddi/FLOATOBJ_DivLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

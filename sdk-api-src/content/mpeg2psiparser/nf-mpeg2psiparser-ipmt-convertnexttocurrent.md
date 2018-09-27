@@ -4,10 +4,10 @@ title: IPMT::ConvertNextToCurrent
 author: windows-sdk-content
 description: The ConvertNextToCurrent method converts a next table to a current table.
 old-location: mstv\ipmt_convertnexttocurrent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: cc3eb6f3-c539-42c4-847a-5d1e80c53255
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPMT.ConvertNextToCurrent, IPMT::ConvertNextToCurrent, IPMTConvertNextToCurrent, mpeg2psiparser/IPMT::ConvertNextToCurrent, mstv.ipmt_convertnexttocurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

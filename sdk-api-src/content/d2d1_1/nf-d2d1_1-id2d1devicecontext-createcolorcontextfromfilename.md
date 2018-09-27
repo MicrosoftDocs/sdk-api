@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_createcolorcontextfromfilename.htm
 tech.root: direct2d
 ms.assetid: ae72c68a-d984-4287-b607-a18913f083d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: CreateColorContextFromFilename, CreateColorContextFromFilename method [Direct2D], CreateColorContextFromFilename method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateColorContextFromFilename method, ID2D1DeviceContext.CreateColorContextFromFilename, ID2D1DeviceContext::CreateColorContextFromFilename, d2d1_1/ID2D1DeviceContext::CreateColorContextFromFilename, direct2d.id2d1devicecontext_createcolorcontextfromfilename
 ms.prod: windows-hardware
 ms.technology: windows-devices

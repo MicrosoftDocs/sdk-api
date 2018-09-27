@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationauthoringmode.htm
 tech.root: debug_wwahost
 ms.assetid: c33793c9-499e-4a57-b52d-345d3b360789
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/29/2018
 ms.keywords: IWebApplicationAuthoringMode, IWebApplicationAuthoringMode interface [Debugging Windows Store apps], IWebApplicationAuthoringMode interface [Debugging Windows Store apps],described, debug.iwebapplicationauthoringmode, webapplication/IWebApplicationAuthoringMode
 ms.prod: windows
 ms.technology: windows-sdk

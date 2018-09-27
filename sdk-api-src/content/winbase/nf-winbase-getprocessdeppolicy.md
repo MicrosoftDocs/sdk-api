@@ -4,10 +4,10 @@ title: GetProcessDEPPolicy function
 author: windows-sdk-content
 description: Gets the data execution prevention (DEP) and DEP-ATL thunk emulation settings for the specified 32-bit process.Windows XP with SP3:  Gets the DEP and DEP-ATL thunk emulation settings for the current process.
 old-location: base\getprocessdeppolicy.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: adf15b9c-24f4-49ea-9283-0db5f3f13e65
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetProcessDEPPolicy, GetProcessDEPPolicy function, PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, base.getprocessdeppolicy, winbase/GetProcessDEPPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

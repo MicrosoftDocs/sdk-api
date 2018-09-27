@@ -7,7 +7,7 @@ old-location: cloudapi\cf_callback_delete_flags.htm
 tech.root: cfApi
 ms.assetid: 76F9FB0C-F531-447F-8F0E-1EB849336771
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CF_CALLBACK_DELETE_FLAGS, CF_CALLBACK_DELETE_FLAGS enumeration, CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY, CF_CALLBACK_DELETE_FLAG_NONE, cfapi/CF_CALLBACK_DELETE_FLAGS, cfapi/CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY, cfapi/CF_CALLBACK_DELETE_FLAG_NONE, cloudApi.cf_callback_delete_flags
 ms.prod: windows
 ms.technology: windows-sdk

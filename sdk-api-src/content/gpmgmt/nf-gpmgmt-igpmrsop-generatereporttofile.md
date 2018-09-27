@@ -7,7 +7,7 @@ old-location: gpmc\igpmrsop_generatereporttofile.htm
 tech.root: GPMC
 ms.assetid: 92a199d6-244f-44e5-8158-d77b8488fde0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReportToFile method, IGPMRSOP.GenerateReportToFile, IGPMRSOP::GenerateReportToFile, gpmc.igpmrsop_generatereporttofile, gpmgmt/IGPMRSOP::GenerateReportToFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

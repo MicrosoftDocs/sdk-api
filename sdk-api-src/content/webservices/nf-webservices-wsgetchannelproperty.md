@@ -7,7 +7,7 @@ old-location: wsw\wsgetchannelproperty.htm
 tech.root: wsw
 ms.assetid: 6f3440d2-90cc-4312-bb08-51f08b864cc7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WsGetChannelProperty, WsGetChannelProperty function [Web Services for Windows], webservices/WsGetChannelProperty, wsw.wsgetchannelproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__doubleclick.htm
 tech.root: WMP
 ms.assetid: 76b1eebb-45d9-40fc-a845-24a7dac8c96c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: DoubleClick, DoubleClick method [Windows Media Player], DoubleClick method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DoubleClick method, IWMPEvents.DoubleClick, IWMPEvents::DoubleClick, IWMPEventsDoubleClick, wmp.iwmpevents_iwmpevents__doubleclick, wmp/IWMPEvents::DoubleClick
 ms.prod: windows-hardware
 ms.technology: windows-devices

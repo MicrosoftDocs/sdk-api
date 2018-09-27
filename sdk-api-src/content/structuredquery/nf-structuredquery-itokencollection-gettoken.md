@@ -7,7 +7,7 @@ old-location: search\_search_ITokenCollection_GetToken.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\gettoken.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: GetToken, GetToken method [search], GetToken method [search],ITokenCollection interface, ITokenCollection interface [search],GetToken method, ITokenCollection.GetToken, ITokenCollection::GetToken, _search_ITokenCollection_GetToken, search._search_ITokenCollection_GetToken, structuredquery/ITokenCollection::GetToken
 ms.prod: windows-hardware
 ms.technology: windows-devices

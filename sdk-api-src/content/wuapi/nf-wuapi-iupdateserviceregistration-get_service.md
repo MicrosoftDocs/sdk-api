@@ -7,7 +7,7 @@ old-location: wua\iupdateserviceregistration_service.htm
 tech.root: wua_sdk
 ms.assetid: d890c92f-c0f5-4445-ba6d-044bb0d6983b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],Service property, IUpdateServiceRegistration.Service, IUpdateServiceRegistration.get_Service, IUpdateServiceRegistration::Service, IUpdateServiceRegistration::get_Service, Service property [Windows Update Agent], Service property [Windows Update Agent],IUpdateServiceRegistration interface, get_Service, wua.iupdateserviceregistration_service, wuapi/IUpdateServiceRegistration::Service, wuapi/IUpdateServiceRegistration::get_Service
 ms.prod: windows-hardware
 ms.technology: windows-devices

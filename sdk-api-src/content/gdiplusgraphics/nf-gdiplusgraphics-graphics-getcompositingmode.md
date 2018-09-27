@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetCompositingMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getcompositingmode.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GetCompositingMode, GetCompositingMode method [GDI+], GetCompositingMode method [GDI+],Graphics class, Graphics class [GDI+],GetCompositingMode method, Graphics.GetCompositingMode, Graphics::GetCompositingMode, _gdiplus_CLASS_Graphics_GetCompositingMode_, gdiplus._gdiplus_CLASS_Graphics_GetCompositingMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ILanguageComponentType::put_LangID
 author: windows-sdk-content
 description: The put_LangID method specifies the LCID that identifies the language.
 old-location: mstv\ilanguagecomponenttype_put_langid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c0dc0141-a839-4fdc-9313-24ddd3eaf63d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],put_LangID method, ILanguageComponentType.put_LangID, ILanguageComponentType::put_LangID, ILanguageComponentTypeput_LangID, mstv.ilanguagecomponenttype_put_langid, put_LangID, put_LangID method [Microsoft TV Technologies], put_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, tuner/ILanguageComponentType::put_LangID
 ms.prod: windows-hardware
 ms.technology: windows-devices

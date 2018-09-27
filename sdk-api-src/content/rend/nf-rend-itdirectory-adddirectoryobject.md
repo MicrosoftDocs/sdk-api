@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_adddirectoryobject.htm
 tech.root: tapi
 ms.assetid: 7a379bdc-50e3-4034-ac16-d20d1b03cd35
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: AddDirectoryObject, AddDirectoryObject method [TAPI 2.2], AddDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],AddDirectoryObject method, ITDirectory.AddDirectoryObject, ITDirectory::AddDirectoryObject, _tapi3_itdirectory_adddirectoryobject, rend/ITDirectory::AddDirectoryObject, tapi3.itdirectory_adddirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFhReassociation::SelectConfiguration
 author: windows-sdk-content
 description: Selects one of the File History configurations discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method for subsequent reassociation.
 old-location: winprog\ifhreassociation_selectconfiguration.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 5501F87D-2998-4CB7-B9C8-9EC04F42B22D
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: FhReassociation class [Windows API],SelectConfiguration method, IFhReassociation interface [Windows API],SelectConfiguration method, IFhReassociation.SelectConfiguration, IFhReassociation::SelectConfiguration, SelectConfiguration, SelectConfiguration method [Windows API], SelectConfiguration method [Windows API],FhReassociation class, SelectConfiguration method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::SelectConfiguration, winprog.ifhreassociation_selectconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

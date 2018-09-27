@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller3.htm
 tech.root: wua_sdk
 ms.assetid: 5A237B5C-A07B-470F-B2F6-ABC936DCE1A5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateInstaller3, IUpdateInstaller3 interface [Windows Update Agent], IUpdateInstaller3 interface [Windows Update Agent],described, wua.iupdateinstaller3, wuapi/IUpdateInstaller3
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile_services.htm
 tech.root: ics
 ms.assetid: 38b32f8e-9aeb-4f63-9880-f393cce185fb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],Services property, INetFwProfile.Services, INetFwProfile.get_Services, INetFwProfile::Services, INetFwProfile::get_Services, Services property [ICS/ICF], Services property [ICS/ICF],INetFwProfile interface, get_Services, ics.inetfwprofile_services, netfw/INetFwProfile::Services, netfw/INetFwProfile::get_Services
 ms.prod: windows-hardware
 ms.technology: windows-devices

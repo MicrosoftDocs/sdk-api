@@ -2,12 +2,11 @@
 UID: TP:ics
 ms.assetid: 9d94480c-7b4f-37ab-b155-d62cf72d1a3e
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Windows Firewall Technologies
@@ -25,5 +24,5 @@ To develop Windows Firewall Technologies, you need these headers:
  * [networkisolation.h](../networkisolation/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Firewall Technologies](/previous-versions/windows/desktop/ics)
+* [Windows Firewall Technologies](/windows/desktop/ics)
 

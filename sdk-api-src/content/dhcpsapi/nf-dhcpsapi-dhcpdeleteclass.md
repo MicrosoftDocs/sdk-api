@@ -4,10 +4,10 @@ title: DhcpDeleteClass function
 author: windows-sdk-content
 description: Deletes a DHCP class from the DHCP server.
 old-location: dhcp\dhcpdeleteclass.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 45659805-d0d0-4b84-ac98-4a0f53133b0c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpDeleteClass, DhcpDeleteClass function [DHCP], dhcp.dhcpdeleteclass, dhcpsapi/DhcpDeleteClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

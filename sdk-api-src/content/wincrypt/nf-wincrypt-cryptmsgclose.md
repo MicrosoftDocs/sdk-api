@@ -7,7 +7,7 @@ old-location: security\cryptmsgclose.htm
 tech.root: seccrypto
 ms.assetid: 2478dd60-233a-4ef3-86e9-62d2a59ab28a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CryptMsgClose, CryptMsgClose function [Security], _crypto2_cryptmsgclose, security.cryptmsgclose, wincrypt/CryptMsgClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

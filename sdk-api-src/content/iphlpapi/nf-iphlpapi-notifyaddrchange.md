@@ -4,10 +4,10 @@ title: NotifyAddrChange function
 author: windows-sdk-content
 description: The NotifyAddrChange function causes a notification to be sent to the caller whenever a change occurs in the table that maps IPv4 addresses to interfaces.
 old-location: iphlp\notifyaddrchange.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 22ac3b5b-452c-454b-8fbd-47a873675c6c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: NotifyAddrChange, NotifyAddrChange function [IP Helper], _iphlp_notifyaddrchange, iphlp.notifyaddrchange, iphlpapi/NotifyAddrChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

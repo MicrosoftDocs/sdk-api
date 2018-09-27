@@ -7,7 +7,7 @@ old-location: tapi2\linegeneratetone_str.htm
 tech.root: tapi
 ms.assetid: e430d944-816b-4072-a40b-b9001c465713
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: "*LPLINEGENERATETONE, LINEGENERATETONE, LINEGENERATETONE structure [TAPI 2.2], LPLINEGENERATETONE, LPLINEGENERATETONE structure pointer [TAPI 2.2], _tapi2_linegeneratetone_str, linegeneratetone_tag, tapi/LINEGENERATETONE, tapi/LPLINEGENERATETONE, tapi2.linegeneratetone_str"
 ms.prod: windows
 ms.technology: windows-sdk

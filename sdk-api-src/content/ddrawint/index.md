@@ -2,7 +2,7 @@
 UID: NA:ddrawint
 ms.assetid: 954b5e65-fa11-3768-9767-46435bb4ee33
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

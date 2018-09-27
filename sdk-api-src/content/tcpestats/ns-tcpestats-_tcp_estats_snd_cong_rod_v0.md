@@ -4,10 +4,10 @@ title: "_TCP_ESTATS_SND_CONG_ROD_v0"
 author: windows-sdk-content
 description: Contains read-only dynamic information for extended TCP statistics on sender congestion related data for a TCP connection.
 old-location: iphlp\tcp_estats_snd_cong_rod_v0.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 5eb2d1c6-d4ba-4038-b598-ead517679ae7
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTCP_ESTATS_SND_CONG_ROD_v0, PTCP_ESTATS_SND_CONG_ROD_v0, PTCP_ESTATS_SND_CONG_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_SND_CONG_ROD_v0, TCP_ESTATS_SND_CONG_ROD_v0 structure [IP Helper], _TCP_ESTATS_SND_CONG_ROD_v0, iphlp.tcp_estats_snd_cong_rod_v0, tcpestats/PTCP_ESTATS_SND_CONG_ROD_v0, tcpestats/TCP_ESTATS_SND_CONG_ROD_v0"
 ms.prod: windows
 ms.technology: windows-sdk

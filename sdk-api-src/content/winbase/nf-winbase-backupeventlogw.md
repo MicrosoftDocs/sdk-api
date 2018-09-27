@@ -4,10 +4,10 @@ title: BackupEventLogW function
 author: windows-sdk-content
 description: Saves the specified event log to a backup file.
 old-location: base\backupeventlog.htm
-tech.root: eventlog
+tech.root: EventLog
 ms.assetid: 5cfd5bad-4401-4abd-9e81-5f139e4ecf73
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BackupEventLog, BackupEventLog function, BackupEventLogA, BackupEventLogW, _win32_backupeventlog, base.backupeventlog, winbase/BackupEventLog, winbase/BackupEventLogA, winbase/BackupEventLogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

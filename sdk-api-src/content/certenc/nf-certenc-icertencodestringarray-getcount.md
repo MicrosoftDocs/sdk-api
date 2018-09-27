@@ -7,7 +7,7 @@ old-location: security\icertencodestringarray_getcount.htm
 tech.root: seccrypto
 ms.assetid: c02a23ea-87c2-4458-8b1a-b010e8103a90
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeStringArray object, GetCount method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetCount method, ICertEncodeStringArray.GetCount, ICertEncodeStringArray::GetCount, _certsrv_icertencodestringarray_getcount, certenc/ICertEncodeStringArray::GetCount, security.icertencodestringarray_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

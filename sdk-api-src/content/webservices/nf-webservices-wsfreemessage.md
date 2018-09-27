@@ -7,7 +7,7 @@ old-location: wsw\wsfreemessage.htm
 tech.root: wsw
 ms.assetid: 50e08300-9445-4741-9298-bd80fc777041
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WsFreeMessage, WsFreeMessage function [Web Services for Windows], webservices/WsFreeMessage, wsw.wsfreemessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

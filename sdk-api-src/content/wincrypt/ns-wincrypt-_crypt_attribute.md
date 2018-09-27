@@ -7,7 +7,7 @@ old-location: security\crypt_attribute.htm
 tech.root: seccrypto
 ms.assetid: cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE structure [Security], PCRYPT_ATTRIBUTE, PCRYPT_ATTRIBUTE structure pointer [Security], _CRYPT_ATTRIBUTE, _crypto2_crypt_attribute, security.crypt_attribute, wincrypt/CRYPT_ATTRIBUTE, wincrypt/PCRYPT_ATTRIBUTE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:winrt
 ms.assetid: 19ccb9a3-b0f9-3246-95d5-0d1c2650a2d5
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -39,6 +39,7 @@ To develop Windows Runtime C++ reference, you need these headers:
  * [shcore.h](../shcore/index.md)
  * [weakreference.h](../weakreference/index.md)
  * [windows.data.pdf.interop.h](../windows.data.pdf.interop/index.md)
+ * [windows.foundation.h](../windows.foundation/index.md)
  * [windows.graphics.imaging.interop.h](../windows.graphics.imaging.interop/index.md)
  * [windows.media.core.interop.h](../windows.media.core.interop/index.md)
  * [windows.ui.xaml.hosting.referencetracker.h](../windows.ui.xaml.hosting.referencetracker/index.md)

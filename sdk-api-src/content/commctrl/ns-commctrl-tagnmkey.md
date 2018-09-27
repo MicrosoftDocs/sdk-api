@@ -4,10 +4,10 @@ title: tagNMKEY
 author: windows-sdk-content
 description: Contains information used with key notification messages.
 old-location: controls\NMKEY.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmkey.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPNMKEY, LPNMKEY, LPNMKEY structure pointer [Windows Controls], NMKEY, NMKEY structure [Windows Controls], _win32_NMKEY, _win32_NMKEY_cpp, commctrl/LPNMKEY, commctrl/NMKEY, controls.NMKEY, controls._win32_NMKEY, tagNMKEY"
 ms.prod: windows
 ms.technology: windows-sdk

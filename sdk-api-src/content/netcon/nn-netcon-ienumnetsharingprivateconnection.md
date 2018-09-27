@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingprivateconnection.htm
 tech.root: ics
 ms.assetid: 0e4cfa2e-8caa-4258-bd52-1f5a00403dfa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], IEnumNetSharingPrivateConnection interface [ICS/ICF],described, _ics_ienumnetsharingprivateconnection, ics.ienumnetsharingprivateconnection, netcon/IEnumNetSharingPrivateConnection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionconstantbuffer.htm
 tech.root: direct3d12
 ms.assetid: 4102AF77-3EC7-42CD-8B9C-6D0CC999529A
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,described, d3d12shader/ID3D12ShaderReflectionConstantBuffer, direct3d12.id3d12shaderreflectionconstantbuffer
 ms.prod: windows
 ms.technology: windows-sdk

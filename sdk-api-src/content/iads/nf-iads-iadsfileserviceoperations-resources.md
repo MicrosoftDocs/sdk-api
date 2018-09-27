@@ -7,7 +7,7 @@ old-location: adsi\iadsfileserviceoperations_resources.htm
 tech.root: ADSI
 ms.assetid: 5b7f2240-ca92-4e8e-b3ec-8eab36c3166f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Resources method, IADsFileServiceOperations.Resources, IADsFileServiceOperations::Resources, Resources, Resources method [ADSI], Resources method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_resources, adsi.iadsfileserviceoperations__resources, adsi.iadsfileserviceoperations_resources, iads/IADsFileServiceOperations::Resources
 ms.prod: windows-hardware
 ms.technology: windows-devices

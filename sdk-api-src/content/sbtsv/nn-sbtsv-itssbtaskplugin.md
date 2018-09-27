@@ -4,10 +4,10 @@ title: ITsSbTaskPlugin
 author: windows-sdk-content
 description: Exposes methods that update the queue of tasks for Remote Desktop Connection Broker plugins.
 old-location: termserv\itssbtaskplugin.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 56463b47-c2f2-43b7-884f-d6fab9bebbf0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITsSbTaskPlugin, ITsSbTaskPlugin interface [Remote Desktop Services], ITsSbTaskPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbTaskPlugin, termserv.itssbtaskplugin
 ms.prod: windows
 ms.technology: windows-sdk

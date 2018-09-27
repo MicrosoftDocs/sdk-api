@@ -7,7 +7,7 @@ old-location: mscs\offlineclustergroup.htm
 tech.root: mscs
 ms.assetid: 465e9eac-6286-4955-a11c-a515c64230da
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: OfflineClusterGroup, OfflineClusterGroup function [Failover Cluster], PCLUSAPI_OFFLINE_CLUSTER_GROUP, PCLUSAPI_OFFLINE_CLUSTER_GROUP function [Failover Cluster], _wolf_offlineclustergroup, clusapi/OfflineClusterGroup, clusapi/PCLUSAPI_OFFLINE_CLUSTER_GROUP, mscs.offlineclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,12 +2,13 @@
 UID: NA:mmstream
 ms.assetid: ef67fdfa-597a-3ddd-bc70-7dc48571bbfc
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
+archived: true
 ---
 
 # Mmstream.h header

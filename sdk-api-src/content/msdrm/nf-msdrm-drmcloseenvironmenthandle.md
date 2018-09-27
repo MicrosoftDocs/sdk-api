@@ -4,10 +4,10 @@ title: DRMCloseEnvironmentHandle function
 author: windows-sdk-content
 description: Closes an environment handle.
 old-location: rm\drmcloseenvironmenthandle.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 3edde872-a863-4c7f-92f0-f7e324aff651
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMCloseEnvironmentHandle, DRMCloseEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseEnvironmentHandle, rm.drmcloseenvironmenthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

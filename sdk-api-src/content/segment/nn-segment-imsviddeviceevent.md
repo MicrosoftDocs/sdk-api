@@ -4,10 +4,10 @@ title: IMSVidDeviceEvent
 author: windows-sdk-content
 description: This topic applies to Windows XP or later. The IMSVidDeviceEvent interface is the base interface for device events. Do not implement this interface directly. Other event interfaces derive from this interface.
 old-location: mstv\imsviddeviceevent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1a5a9bc1-7d18-4aa9-bc5f-318f7bedbc48
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidDeviceEvent, IMSVidDeviceEvent interface [Microsoft TV Technologies], IMSVidDeviceEvent interface [Microsoft TV Technologies],described, IMSVidDeviceEventInterface, mstv.imsviddeviceevent, segment/IMSVidDeviceEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_put_advertisingscope.htm
 tech.root: tapi
 ms.assetid: 74d7c770-e11d-4d87-acdb-821d64feed0c
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_AdvertisingScope method, ITDirectoryObjectConference.put_AdvertisingScope, ITDirectoryObjectConference::put_AdvertisingScope, _tapi3_itdirectoryobjectconference_put_advertisingscope, put_AdvertisingScope, put_AdvertisingScope method [TAPI 2.2], put_AdvertisingScope method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_AdvertisingScope, tapi3.itdirectoryobjectconference_put_advertisingscope
 ms.prod: windows-hardware
 ms.technology: windows-devices

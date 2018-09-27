@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientopencontent.htm
 tech.root: p2psdk
 ms.assetid: bf9d4eb2-e939-42c6-8d71-669a949ca77a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerDistClientOpenContent, PeerDistClientOpenContent function [Peer Networking], p2p.peerdistclientopencontent, peerdist/PeerDistClientOpenContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

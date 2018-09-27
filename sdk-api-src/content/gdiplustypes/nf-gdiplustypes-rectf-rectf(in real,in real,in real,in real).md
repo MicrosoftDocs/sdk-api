@@ -2,13 +2,13 @@
 UID: NF:gdiplustypes.RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL)
 title: RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL)
 author: windows-sdk-content
-description: Creates a RectF object and initializes the X, Y, Width, and Height data members to zero. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_.htm
+description: Creates a RectF object by using four integers to initialize the X, Y, Width, and Height data members.
+old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_x_y_width_height_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_42.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_87x_y_width_height.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(), RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL), RectF::RectF, RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_RectF_RectF_, gdiplus._gdiplus_CLASS_RectF_RectF_
+ms.date: 09/12/2018
+ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL), RectF.RectF(REAL,REAL,REAL,REAL), RectF::RectF, RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_RectF_RectF_x_y_width_height_, gdiplus._gdiplus_CLASS_RectF_RectF_x_y_width_height_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,11 +51,11 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object and initializes the 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object by using four integers to initialize the 
 			<b>X</b>, 
 			<b>Y</b>, 
 			<b>Width</b>, and 
-			<b>Height</b>  data members to zero. This is the default constructor.
+			<b>Height</b> data members.
 
 
 ## -parameters
@@ -63,26 +63,32 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).as
 
 
 
-### -param x
+### -param x [in]
 
-TBD
+Type: <b>REAL</b>
 
-
-### -param y
-
-TBD
+Real number used to initialize the x-coordinate of the upper-left corner of the rectangle. 
 
 
-### -param width
+### -param y [in]
 
-TBD
+Type: <b>REAL</b>
 
-
-### -param height
-
-TBD
+Real number used to initialize the y-coordinate of the upper-left corner of the rectangle. 
 
 
+### -param width [in]
+
+Type: <b>REAL</b>
+
+Real number used to initialize the width of this rectangle. 
+
+
+### -param height [in]
+
+Type: <b>REAL</b>
+
+Real number used to initialize the height of this rectangle. 
 
 
 ## -see-also

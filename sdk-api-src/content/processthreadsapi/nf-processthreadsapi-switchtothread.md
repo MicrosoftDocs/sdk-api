@@ -7,7 +7,7 @@ old-location: base\switchtothread.htm
 tech.root: procthread
 ms.assetid: d1e6d734-0c5b-4aa0-b1b3-220f2615e56b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: SwitchToThread, SwitchToThread function, _win32_switchtothread, base.switchtothread, processthreadsapi/SwitchToThread, winbase/SwitchToThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

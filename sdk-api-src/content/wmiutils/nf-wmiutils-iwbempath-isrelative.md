@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_isrelative.htm
 tech.root: WmiSdk
 ms.assetid: e7a2d585-98da-4f8f-b1df-bb961a1286f1
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],IsRelative method, IWbemPath.IsRelative, IWbemPath::IsRelative, IsRelative, IsRelative method [Windows Management Instrumentation], IsRelative method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_isrelative, wmi.iwbempath_isrelative, wmiutils/IWbemPath::IsRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

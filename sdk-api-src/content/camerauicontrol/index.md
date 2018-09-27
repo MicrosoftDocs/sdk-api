@@ -2,7 +2,7 @@
 UID: NA:camerauicontrol
 ms.assetid: 09675054-7282-316d-9f3c-f0acf1007928
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

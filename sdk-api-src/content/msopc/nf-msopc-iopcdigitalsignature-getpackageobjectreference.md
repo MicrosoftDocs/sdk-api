@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature_getpackageobjectreference.htm
 tech.root: OPC
 ms.assetid: 67f4404f-518c-4a47-8c8e-b5b8d13e18cb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPackageObjectReference, GetPackageObjectReference method [Open Packaging Conventions], GetPackageObjectReference method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetPackageObjectReference method, IOpcDigitalSignature.GetPackageObjectReference, IOpcDigitalSignature::GetPackageObjectReference, msopc/IOpcDigitalSignature::GetPackageObjectReference, opc.iopcdigitalsignature_getpackageobjectreference
 ms.prod: windows-hardware
 ms.technology: windows-devices

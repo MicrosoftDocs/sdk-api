@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getscreenext.htm
 tech.root: TSF
 ms.assetid: 5e1b446e-935f-492a-b168-8d1b60868d72
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetScreenExt method, ITextStoreAnchor.GetScreenExt, ITextStoreAnchor::GetScreenExt, textstor/ITextStoreAnchor::GetScreenExt, tsf.itextstoreanchor_getscreenext
 ms.prod: windows-hardware
 ms.technology: windows-devices

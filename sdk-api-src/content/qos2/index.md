@@ -2,13 +2,12 @@
 UID: NA:qos2
 ms.assetid: 763b1312-8c59-3fb2-a278-3e3af4c10385
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: qos
-archived: true
 ---
 
 # Qos2.h header

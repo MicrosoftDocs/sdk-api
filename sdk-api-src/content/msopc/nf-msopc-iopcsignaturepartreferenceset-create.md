@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturepartreferenceset_create.htm
 tech.root: OPC
 ms.assetid: 63162b37-0262-4d92-a14f-726fe4c87cc1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignaturePartReferenceSet interface, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignaturePartReferenceSet.Create, IOpcSignaturePartReferenceSet::Create, msopc/IOpcSignaturePartReferenceSet::Create, opc.iopcsignaturepartreferenceset_create
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadsfileshare.htm
 tech.root: ADSI
 ms.assetid: 37695195-fc33-499d-98c1-ccfd190cb2f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsFileShare, IADsFileShare interface [ADSI], IADsFileShare interface [ADSI],described, _ds_iadsfileshare, adsi.iadsfileshare, iads/IADsFileShare
 ms.prod: windows
 ms.technology: windows-sdk

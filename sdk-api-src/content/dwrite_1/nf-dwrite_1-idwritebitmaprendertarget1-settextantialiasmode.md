@@ -7,7 +7,7 @@ old-location: directwrite\idwritebitmaprendertarget1_settextantialiasmode.htm
 tech.root: DirectWrite
 ms.assetid: 813C984D-81BC-4CAA-8C0A-166612E8028F
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: IDWriteBitmapRenderTarget1 interface [Direct Write],SetTextAntialiasMode method, IDWriteBitmapRenderTarget1.SetTextAntialiasMode, IDWriteBitmapRenderTarget1::SetTextAntialiasMode, SetTextAntialiasMode, SetTextAntialiasMode method [Direct Write], SetTextAntialiasMode method [Direct Write],IDWriteBitmapRenderTarget1 interface, directwrite.idwritebitmaprendertarget1_settextantialiasmode, dwrite_1/IDWriteBitmapRenderTarget1::SetTextAntialiasMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

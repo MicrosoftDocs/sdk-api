@@ -4,10 +4,10 @@ title: "_SERVICE_TYPE"
 author: windows-sdk-content
 description: The values of the SERVICE_TYPE enumeration type specify the type of service administered from the SDO API.
 old-location: nps\SDO_service_type.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: 2ac34e5c-a14c-4657-b570-2be5e13e728d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SERVICE_TYPE, SERVICE_TYPE enumeration [Network Policy Server], SERVICE_TYPE_IAS, SERVICE_TYPE_MAX, SERVICE_TYPE_RAMGMTSVC, SERVICE_TYPE_RAS, _SERVICE_TYPE, _sdo_service_type, nps.SDO_service_type, sdo.service_type, sdoias/SERVICE_TYPE, sdoias/SERVICE_TYPE_IAS, sdoias/SERVICE_TYPE_MAX, sdoias/SERVICE_TYPE_RAMGMTSVC, sdoias/SERVICE_TYPE_RAS
 ms.prod: windows
 ms.technology: windows-sdk

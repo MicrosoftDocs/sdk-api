@@ -7,7 +7,7 @@ old-location: dshow\iksnodecontrol.htm
 tech.root: DirectShow
 ms.assetid: c38ce847-726a-4c1a-9276-810385af6c9f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], IKsNodeControl interface [DirectShow],described, IKsNodeControlInterface, dshow.iksnodecontrol, vidcap/IKsNodeControl
 ms.prod: windows
 ms.technology: windows-sdk

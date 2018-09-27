@@ -7,7 +7,7 @@ old-location: display\displayconfig_rational.htm
 tech.root: display
 ms.assetid: 1f2f25f7-5ea1-46f4-ad9f-c50c367bb600
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/14/2018
 ms.keywords: CCD_Structures_6b317b78-bbb5-4f49-9dee-2c9597c19957.xml, DISPLAYCONFIG_RATIONAL, DISPLAYCONFIG_RATIONAL structure [Display Devices], display.displayconfig_rational, wingdi/DISPLAYCONFIG_RATIONAL
 ms.prod: windows
 ms.technology: windows-sdk

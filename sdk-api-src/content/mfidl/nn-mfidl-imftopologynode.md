@@ -7,7 +7,7 @@ old-location: mf\imftopologynode.htm
 tech.root: medfound
 ms.assetid: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], IMFTopologyNode interface [Media Foundation],described, mf.imftopologynode, mfidl/IMFTopologyNode
 ms.prod: windows
 ms.technology: windows-sdk

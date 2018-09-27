@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_depth_write_mask.htm
 tech.root: direct3d11
 ms.assetid: 8f61d53d-5bfc-4966-84b8-7ddd46008f5e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 9c3d009a-7018-dfd4-2e89-34daef69b3b7, D3D11_DEPTH_WRITE_MASK, D3D11_DEPTH_WRITE_MASK enumeration [Direct3D 11], D3D11_DEPTH_WRITE_MASK_ALL, D3D11_DEPTH_WRITE_MASK_ZERO, d3d11/D3D11_DEPTH_WRITE_MASK, d3d11/D3D11_DEPTH_WRITE_MASK_ALL, d3d11/D3D11_DEPTH_WRITE_MASK_ZERO, direct3d11.d3d11_depth_write_mask
 ms.prod: windows
 ms.technology: windows-sdk

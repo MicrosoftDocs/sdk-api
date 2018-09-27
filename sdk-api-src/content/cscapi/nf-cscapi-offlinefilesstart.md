@@ -4,10 +4,10 @@ title: OfflineFilesStart function
 author: windows-sdk-content
 description: Starts the Offline Files service.
 old-location: of\offlinefilesstart.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 79060780-A2C1-45CE-BB9A-75DF433C3F3C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], cscapi/OfflineFilesStart, of.offlinefilesstart
 ms.prod: windows-hardware
 ms.technology: windows-devices

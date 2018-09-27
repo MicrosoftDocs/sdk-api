@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::_TuningSpacesForCLSID
 author: windows-sdk-content
 description: The _TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.
 old-location: mstv\ituningspacecontainer__tuningspacesforclsid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f31be8f8-3482-484a-b1a3-f27f3e0f7203
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],_TuningSpacesForCLSID method, ITuningSpaceContainer._TuningSpacesForCLSID, ITuningSpaceContainer::_TuningSpacesForCLSID, ITuningSpaceContainer_TuningSpacesForCLSID, _TuningSpacesForCLSID, _TuningSpacesForCLSID method [Microsoft TV Technologies], _TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer__tuningspacesforclsid, tuner/ITuningSpaceContainer::_TuningSpacesForCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

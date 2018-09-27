@@ -7,7 +7,7 @@ old-location: mf\mf_opm_acp_protection_level.htm
 tech.root: medfound
 ms.assetid: 82D289EE-7A81-4FBB-A259-6CF0CBD0D76A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: MF_OPM_ACP_FORCE_ULONG, MF_OPM_ACP_LEVEL_ONE, MF_OPM_ACP_LEVEL_THREE, MF_OPM_ACP_LEVEL_TWO, MF_OPM_ACP_OFF, MF_OPM_ACP_PROTECTION_LEVEL, MF_OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation], _MF_OPM_ACP_PROTECTION_LEVEL, mf.mf_opm_acp_protection_level, mfidl/MF_OPM_ACP_FORCE_ULONG, mfidl/MF_OPM_ACP_LEVEL_ONE, mfidl/MF_OPM_ACP_LEVEL_THREE, mfidl/MF_OPM_ACP_LEVEL_TWO, mfidl/MF_OPM_ACP_OFF, mfidl/MF_OPM_ACP_PROTECTION_LEVEL
 ms.prod: windows
 ms.technology: windows-sdk

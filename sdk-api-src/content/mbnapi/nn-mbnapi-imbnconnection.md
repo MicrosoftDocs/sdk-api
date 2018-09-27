@@ -7,7 +7,7 @@ old-location: mbn\imbnconnection.htm
 tech.root: mbn
 ms.assetid: dae6ce6f-2534-4799-8ed3-53cd1f2eca13
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnConnection, IMbnConnection interface [Microsoft Broadband Networks], IMbnConnection interface [Microsoft Broadband Networks],described, mbn.imbnconnection, mbnapi/IMbnConnection
 ms.prod: windows
 ms.technology: windows-sdk

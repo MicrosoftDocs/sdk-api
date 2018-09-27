@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamsourcerect.htm
 tech.root: medfound
 ms.assetid: 52AFE959-695B-4797-ABCF-B8264046E4BE
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamSourceRect method, ID3D11VideoContext.VideoProcessorGetStreamSourceRect, ID3D11VideoContext::VideoProcessorGetStreamSourceRect, VideoProcessorGetStreamSourceRect, VideoProcessorGetStreamSourceRect method [Media Foundation], VideoProcessorGetStreamSourceRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamSourceRect, mf.id3d11videocontext_videoprocessorgetstreamsourcerect
 ms.prod: windows-hardware
 ms.technology: windows-devices

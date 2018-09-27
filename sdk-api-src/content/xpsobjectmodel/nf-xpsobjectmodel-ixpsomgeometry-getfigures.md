@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometry_getfigures.htm
 tech.root: printdocs
 ms.assetid: c49566d6-8a37-4ad6-9b3a-52ef39b925be
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetFigures, GetFigures method [XPS Documents and Packaging], GetFigures method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetFigures method, IXpsOMGeometry.GetFigures, IXpsOMGeometry::GetFigures, xps.ixpsomgeometry_getfigures, xpsobjectmodel/IXpsOMGeometry::GetFigures
 ms.prod: windows-hardware
 ms.technology: windows-devices

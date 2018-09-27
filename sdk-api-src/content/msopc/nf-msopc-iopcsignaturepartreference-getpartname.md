@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturepartreference_getpartname.htm
 tech.root: OPC
 ms.assetid: bf34361f-da74-4785-8e5b-8b9caf809a41
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPartName, GetPartName method [Open Packaging Conventions], GetPartName method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetPartName method, IOpcSignaturePartReference.GetPartName, IOpcSignaturePartReference::GetPartName, msopc/IOpcSignaturePartReference::GetPartName, opc.iopcsignaturepartreference_getpartname
 ms.prod: windows-hardware
 ms.technology: windows-devices

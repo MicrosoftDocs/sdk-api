@@ -4,10 +4,10 @@ title: NtQueryMultipleValueKey function
 author: windows-sdk-content
 description: Retrieves values for the specified multiple-value key.
 old-location: winprog\ntquerymultiplevaluekey.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: fe78446c-b936-4ded-846a-f3ca26eff06e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows API], base.ntquerymultiplevaluekey, winprog.ntquerymultiplevaluekey, winternl/NtQueryMultipleValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

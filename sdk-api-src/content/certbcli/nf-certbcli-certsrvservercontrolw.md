@@ -7,7 +7,7 @@ old-location: security\certsrvservercontrol.htm
 tech.root: seccrypto
 ms.assetid: 6f32e7f4-60d5-4370-b240-46aa2475e279
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CSCONTROL_SHUTDOWN, CertSrvServerControl, CertSrvServerControl function [Security], CertSrvServerControlW, _certsrv_certsrvservercontrol, certbcli/CertSrvServerControl, certbcli/CertSrvServerControlW, security.certsrvservercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

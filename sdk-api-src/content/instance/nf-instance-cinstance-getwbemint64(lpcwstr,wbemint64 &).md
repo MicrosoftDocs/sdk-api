@@ -3,12 +3,12 @@ UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,WBEMINT64 &)
 title: CInstance::GetWBEMINT64(LPCWSTR,WBEMINT64 &)
 author: windows-sdk-content
 description: The GetWBEMINT64 method retrieves a 64-bit integer property.
-old-location: wmi\cinstance_getwbemint64_lpcwstr__longlong__.htm
+old-location: wmi\cinstance_getwbemint64_lpcwstr__wbemint64__.htm
 tech.root: WmiSdk
-ms.assetid: b585e740-eade-4f81-908c-98dd88540cb1
+ms.assetid: 8510c3c0-c627-47fa-944c-66b82596f859
 ms.author: windowssdkdev
-ms.date: 08/28/2018
-ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,WBEMINT64 &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,LONGLONG&), CInstance::GetWBEMINT64(LPCWSTR,WBEMINT64 &), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__longlong__
+ms.date: 08/30/2018
+ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,WBEMINT64 &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,WBEMINT64 &), CInstance::GetWBEMINT64(LPCWSTR,WBEMINT64&), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__wbemint64__
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

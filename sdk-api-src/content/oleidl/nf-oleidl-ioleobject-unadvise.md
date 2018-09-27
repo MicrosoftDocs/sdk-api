@@ -7,7 +7,7 @@ old-location: com\ioleobject_unadvise.htm
 tech.root: com
 ms.assetid: e3d63a75-30b0-4fe5-9a1d-c70820583765
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IOleObject interface [COM],Unadvise method, IOleObject.Unadvise, IOleObject::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleObject interface, _ole_ioleobject_unadvise, com.ioleobject_unadvise, oleidl/IOleObject::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

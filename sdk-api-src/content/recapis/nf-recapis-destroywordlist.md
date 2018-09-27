@@ -7,7 +7,7 @@ old-location: tablet\destroywordlist.htm
 tech.root: tablet
 ms.assetid: 380e81a0-1df1-48b8-a582-a52badfc9ca6
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: 380e81a0-1df1-48b8-a582-a52badfc9ca6, DestroyWordList, DestroyWordList function [Tablet PC], recapis/DestroyWordList, tablet.destroywordlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

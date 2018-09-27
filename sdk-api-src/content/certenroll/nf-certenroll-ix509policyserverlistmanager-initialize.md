@@ -4,10 +4,10 @@ title: IX509PolicyServerListManager::Initialize
 author: windows-sdk-content
 description: Initializes an IX509PolicyServerListManager object.
 old-location: security\ix509policyserverlistmanager_initialize.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 9b3d2913-a0a8-4ec0-b705-8525b54e5494
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerListManager interface [Security],Initialize method, IX509PolicyServerListManager.Initialize, IX509PolicyServerListManager::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerListManager interface, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerListManager::Initialize, security.ix509policyserverlistmanager_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

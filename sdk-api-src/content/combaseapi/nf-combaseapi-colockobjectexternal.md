@@ -7,7 +7,7 @@ old-location: com\colockobjectexternal.htm
 tech.root: com
 ms.assetid: 36eb55f1-06de-49ad-8a8d-91693ca92e99
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: CoLockObjectExternal, CoLockObjectExternal function [COM], _com_CoLockObjectExternal, com.colockobjectexternal, combaseapi/CoLockObjectExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

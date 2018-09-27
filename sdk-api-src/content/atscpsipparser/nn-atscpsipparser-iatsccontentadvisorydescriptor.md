@@ -4,10 +4,10 @@ title: IAtscContentAdvisoryDescriptor
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b7379d66-c57b-45e0-9c63-901bf3637f21
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IAtscContentAdvisoryDescriptor, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies], IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],described, IAtscContentAdvisoryDescriptorInterface, atscpsipparser/IAtscContentAdvisoryDescriptor, mstv.iatsccontentadvisorydescriptor
 ms.prod: windows
 ms.technology: windows-sdk

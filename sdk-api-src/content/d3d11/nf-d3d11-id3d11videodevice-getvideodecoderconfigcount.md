@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_getvideodecoderconfigcount.htm
 tech.root: medfound
 ms.assetid: C6650546-2F6D-4B91-888D-3A5A1AE86DCB
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: GetVideoDecoderConfigCount, GetVideoDecoderConfigCount method [Media Foundation], GetVideoDecoderConfigCount method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderConfigCount method, ID3D11VideoDevice.GetVideoDecoderConfigCount, ID3D11VideoDevice::GetVideoDecoderConfigCount, d3d11/ID3D11VideoDevice::GetVideoDecoderConfigCount, mf.id3d11videodevice_getvideodecoderconfigcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

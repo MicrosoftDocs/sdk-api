@@ -7,7 +7,7 @@ old-location: com\ispecifypropertypages.htm
 tech.root: com
 ms.assetid: fd986241-aabe-477e-a382-28a1ecfd5410
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], ISpecifyPropertyPages interface [COM],described, _ctrl_ispecifypropertypages, com.ispecifypropertypages, ocidl/ISpecifyPropertyPages
 ms.prod: windows
 ms.technology: windows-sdk

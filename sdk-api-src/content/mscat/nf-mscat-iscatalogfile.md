@@ -7,7 +7,7 @@ old-location: security\iscatalogfile.htm
 tech.root: seccrypto
 ms.assetid: eeba34d4-08aa-456a-8fdc-16795cbce36a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: IsCatalogFile, IsCatalogFile function [Security], mscat/IsCatalogFile, security.iscatalogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

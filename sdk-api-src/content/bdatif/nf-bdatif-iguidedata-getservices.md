@@ -4,10 +4,10 @@ title: IGuideData::GetServices
 author: windows-sdk-content
 description: The GetServices method retrieves a collection of tune requests representing all the services available in the tuning space.
 old-location: mstv\iguidedata_getservices.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a3c08812-ed56-440e-a88d-80e20a681695
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetServices method, IGuideData.GetServices, IGuideData::GetServices, IGuideDataGetServices, bdatif/IGuideData::GetServices, mstv.iguidedata_getservices
 ms.prod: windows-hardware
 ms.technology: windows-devices

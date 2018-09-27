@@ -4,10 +4,10 @@ title: IDirect3DDevice9Ex::GetDisplayModeEx
 author: windows-sdk-content
 description: Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
 old-location: direct3d9\idirect3ddevice9ex_getdisplaymodeex.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_getdisplaymodeex.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 3de20b27-6ffa-11bb-e9a5-d1af96f798ac, GetDisplayModeEx, GetDisplayModeEx method [Direct3D 9], GetDisplayModeEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],GetDisplayModeEx method, IDirect3DDevice9Ex.GetDisplayModeEx, IDirect3DDevice9Ex::GetDisplayModeEx, d3d9/IDirect3DDevice9Ex::GetDisplayModeEx, direct3d9.idirect3ddevice9ex_getdisplaymodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices

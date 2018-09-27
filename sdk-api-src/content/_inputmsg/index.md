@@ -2,12 +2,11 @@
 UID: TP:inputmsg
 ms.assetid: 815352f7-9437-3a64-b091-0fb601b3368d
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Pointer Input Messages and Notifications
@@ -19,5 +18,5 @@ Overview of the Pointer Input Messages and Notifications technology.
 The Pointer Input Messages and Notifications technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Pointer Input Messages and Notifications](/previous-versions/windows/desktop/inputmsg)
+* [Pointer Input Messages and Notifications](/windows/desktop/inputmsg)
 

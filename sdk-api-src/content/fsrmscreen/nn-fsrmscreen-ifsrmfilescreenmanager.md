@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreenmanager.htm
 tech.root: fsrm
 ms.assetid: a0cea95d-5839-41a2-91b9-da8e13030682
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], IFsrmFileScreenManager interface [File Server Resource Manager],described, fs.ifsrmfilescreenmanager, fsrm.ifsrmfilescreenmanager, fsrmscreen/IFsrmFileScreenManager
 ms.prod: windows
 ms.technology: windows-sdk

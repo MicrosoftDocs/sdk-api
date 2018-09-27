@@ -4,10 +4,10 @@ title: IDvbServiceDescriptor::GetServiceProviderName
 author: windows-sdk-content
 description: Gets the service provider name from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getserviceprovidername.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ea5d358f-7da3-47c4-9172-7e5c60a61f84
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetServiceProviderName, GetServiceProviderName method [Microsoft TV Technologies], GetServiceProviderName method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceProviderName method, IDvbServiceDescriptor.GetServiceProviderName, IDvbServiceDescriptor::GetServiceProviderName, dvbsiparser/IDvbServiceDescriptor::GetServiceProviderName, mstv.idvbservicedescriptor_getserviceprovidername
 ms.prod: windows-hardware
 ms.technology: windows-devices

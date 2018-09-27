@@ -7,7 +7,7 @@ old-location: cloudapi\cf_file_range.htm
 tech.root: cfApi
 ms.assetid: DAE43446-725E-490B-AE1B-EA6CB31F4358
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CF_FILE_RANGE, CF_FILE_RANGE structure, cfapi/CF_FILE_RANGE, cloudApi.cf_file_range
 ms.prod: windows
 ms.technology: windows-sdk

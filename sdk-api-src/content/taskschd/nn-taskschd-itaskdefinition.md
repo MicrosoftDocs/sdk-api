@@ -4,10 +4,10 @@ title: ITaskDefinition
 author: windows-sdk-content
 description: Defines all the components of a task, such as the task settings, triggers, actions, and registration information.
 old-location: taskschd\itaskdefinition.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 3787ed9b-9fd0-473b-9034-ade97dc330d9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ITaskDefinition, ITaskDefinition interface [Task Scheduler], ITaskDefinition interface [Task Scheduler],described, taskschd.itaskdefinition, taskschd/ITaskDefinition
 ms.prod: windows
 ms.technology: windows-sdk

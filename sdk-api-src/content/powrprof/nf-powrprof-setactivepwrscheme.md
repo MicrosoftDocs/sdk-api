@@ -7,7 +7,7 @@ old-location: base\setactivepwrscheme.htm
 tech.root: power
 ms.assetid: f449ff0d-5c22-4c6d-8c88-dc18258a8c6d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/14/2018
 ms.keywords: SetActivePwrScheme, SetActivePwrScheme function, _win32_setactivepwrscheme, base.setactivepwrscheme, powrprof/SetActivePwrScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

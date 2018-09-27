@@ -7,7 +7,7 @@ old-location: perf\pdhclosequery.htm
 tech.root: perfctrs
 ms.assetid: af0fb9f4-3999-48fa-88d7-aa59b5caed75
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/21/2018
 ms.keywords: PdhCloseQuery, PdhCloseQuery function [Perf], _win32_pdhclosequery, base.pdhclosequery, pdh/PdhCloseQuery, perf.pdhclosequery
 ms.prod: windows-hardware
 ms.technology: windows-devices

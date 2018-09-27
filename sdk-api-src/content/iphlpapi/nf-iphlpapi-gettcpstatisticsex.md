@@ -4,10 +4,10 @@ title: GetTcpStatisticsEx function
 author: windows-sdk-content
 description: The GetTcpStatisticsEx function retrieves the Transmission Control Protocol (TCP) statistics for the current computer.
 old-location: iphlp\gettcpstatisticsex.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 78cfc69d-eae8-49c1-a460-6527a61f773d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: AF_INET, AF_INET6, GetTcpStatisticsEx, GetTcpStatisticsEx function [IP Helper], _iphlp_gettcpstatisticsex, iphlp.gettcpstatisticsex, iphlpapi/GetTcpStatisticsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList_CommitList.htm
 tech.root: shell
 ms.assetid: 5f9aa598-9a94-4210-84cd-f4b39e47b260
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: CommitList, CommitList method [Windows Shell], CommitList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],CommitList method, ICustomDestinationList.CommitList, ICustomDestinationList::CommitList, _shell_ICustomDestinationList_CommitList, shell.ICustomDestinationList_CommitList, shobjidl_core/ICustomDestinationList::CommitList
 ms.prod: windows-hardware
 ms.technology: windows-devices

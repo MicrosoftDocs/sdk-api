@@ -7,7 +7,7 @@ old-location: netbios\ncb.htm
 tech.root: NetBIOS
 ms.assetid: e3fcca1c-8057-41c4-80a5-d1e67920d88c
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*PNCB, NCB, NCB structure [NetBIOS], PNCB, PNCB structure pointer [NetBIOS], _NCB, nb30/NCB, nb30/PNCB, netbios.ncb"
 ms.prod: windows
 ms.technology: windows-sdk

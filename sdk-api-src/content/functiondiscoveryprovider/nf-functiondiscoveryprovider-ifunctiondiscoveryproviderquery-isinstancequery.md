@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryproviderquery_isinstancequery.htm
 tech.root: fundisc
 ms.assetid: 5cd4288f-8cb8-451b-b982-4b9dcf31f66a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsInstanceQuery method, IFunctionDiscoveryProviderQuery.IsInstanceQuery, IFunctionDiscoveryProviderQuery::IsInstanceQuery, IsInstanceQuery, IsInstanceQuery method, IsInstanceQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsInstanceQuery, ncd.ifunctiondiscoveryproviderquery_isinstancequery
 ms.prod: windows-hardware
 ms.technology: windows-devices

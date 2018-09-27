@@ -7,7 +7,7 @@ old-location: tapi3\itacdgroup_enumeratequeues.htm
 tech.root: tapi
 ms.assetid: 1d9e0dcf-ce43-494f-8adc-845d2856bdd1
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: EnumerateQueues, EnumerateQueues method [TAPI 2.2], EnumerateQueues method [TAPI 2.2],ITACDGroup interface, ITACDGroup interface [TAPI 2.2],EnumerateQueues method, ITACDGroup.EnumerateQueues, ITACDGroup::EnumerateQueues, _tapi3_itacdgroup_enumeratequeues, tapi3.itacdgroup_enumeratequeues, tapi3cc/ITACDGroup::EnumerateQueues
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\joyconfigchanged.htm
 tech.root: Multimedia
 ms.assetid: 3cdc7888-2d66-4fb9-abad-86e891f4ebe4
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: "_win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged"
 ms.prod: windows-hardware
 ms.technology: windows-devices

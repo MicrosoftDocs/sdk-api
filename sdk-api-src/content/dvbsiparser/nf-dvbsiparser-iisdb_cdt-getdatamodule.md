@@ -4,10 +4,10 @@ title: IISDB_CDT::GetDataModule
 author: windows-sdk-content
 description: Receives the data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getdatamodule.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b7ff7e8a-17bd-46aa-bf9b-74f3e33a7ce2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetDataModule, GetDataModule method [Microsoft TV Technologies], GetDataModule method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetDataModule method, IISDB_CDT.GetDataModule, IISDB_CDT::GetDataModule, dvbsiparser/IISDB_CDT::GetDataModule, mstv.iisdb_cdt_getdatamodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

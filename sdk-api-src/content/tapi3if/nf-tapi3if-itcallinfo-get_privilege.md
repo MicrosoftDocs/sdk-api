@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfo_get_privilege.htm
 tech.root: tapi
 ms.assetid: 64a80fb6-b5bc-45c5-9f1d-a89ac95b9c53
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_Privilege method, ITCallInfo.get_Privilege, ITCallInfo::get_Privilege, _tapi3_itcallinfo_get_privilege, get_Privilege, get_Privilege method [TAPI 2.2], get_Privilege method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_privilege, tapi3if/ITCallInfo::get_Privilege
 ms.prod: windows-hardware
 ms.technology: windows-devices

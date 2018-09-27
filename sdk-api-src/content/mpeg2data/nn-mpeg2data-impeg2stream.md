@@ -4,10 +4,10 @@ title: IMpeg2Stream
 author: windows-sdk-content
 description: The IMpeg2Stream interface represents a stream of MPEG-2 data. The IMpeg2Data::GetStreamOfSections method returns a pointer to this interface.
 old-location: mstv\impeg2stream.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 189c921a-ec49-48dc-8c60-3d3ec2a648ca
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMpeg2Stream, IMpeg2Stream interface [Microsoft TV Technologies], IMpeg2Stream interface [Microsoft TV Technologies],described, IMpeg2StreamInterface, mpeg2data/IMpeg2Stream, mstv.impeg2stream
 ms.prod: windows
 ms.technology: windows-sdk

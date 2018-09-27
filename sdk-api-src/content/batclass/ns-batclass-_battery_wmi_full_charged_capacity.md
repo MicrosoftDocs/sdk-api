@@ -7,7 +7,7 @@ old-location: battery\battery_wmi_full_charged_capacity.htm
 tech.root: battery
 ms.assetid: BE01DF36-71A8-464A-977B-499325DDB37E
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PBATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY structure [Battery Devices], PBATTERY_WMI_FULL_CHARGED_CAPACITY, PBATTERY_WMI_FULL_CHARGED_CAPACITY structure pointer [Battery Devices], _BATTERY_WMI_FULL_CHARGED_CAPACITY, batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY, batclass/PBATTERY_WMI_FULL_CHARGED_CAPACITY, battery.battery_wmi_full_charged_capacity"
 ms.prod: windows
 ms.technology: windows-sdk

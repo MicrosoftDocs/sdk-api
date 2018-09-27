@@ -4,10 +4,10 @@ title: ITextStrings::Add
 author: windows-sdk-content
 description: Adds a string to the end of the collection.
 old-location: controls\itextstrings_add.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 59630068-e3c7-4c3b-bd89-f1127759f979
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Add method, ITextStrings.Add, ITextStrings::Add, controls.itextstrings_add, tom/ITextStrings::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadsmembers.htm
 tech.root: ADSI
 ms.assetid: 889e8fc1-61a6-4a3a-82ac-85d41f664149
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsMembers, IADsMembers interface [ADSI], IADsMembers interface [ADSI],described, _ds_iadsmembers, adsi.iadsmembers, iads/IADsMembers
 ms.prod: windows
 ms.technology: windows-sdk

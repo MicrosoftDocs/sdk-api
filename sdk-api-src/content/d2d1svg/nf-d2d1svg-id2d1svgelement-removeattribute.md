@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_removeattribute.htm
 tech.root: direct2d
 ms.assetid: 608BB970-CC78-4CF3-BD8C-02DCBBFA287E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],RemoveAttribute method, ID2D1SvgElement.RemoveAttribute, ID2D1SvgElement::RemoveAttribute, RemoveAttribute, RemoveAttribute method [Direct2D], RemoveAttribute method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::RemoveAttribute, direct2d.id2d1svgelement_removeattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

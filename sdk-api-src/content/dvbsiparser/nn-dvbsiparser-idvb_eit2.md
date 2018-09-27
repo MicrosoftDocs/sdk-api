@@ -4,10 +4,10 @@ title: IDVB_EIT2
 author: windows-sdk-content
 description: The IDVB_EIT2 interface enables an application to get information from a Digital Video Broadcasting (DVB) event information table (EIT). The IDvbSiParser2::GetEIT2 method returns a pointer to this interface. This interface extends the IDVB_EIT interface.
 old-location: mstv\idvb_eit2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9d93130c-12fb-4c76-98c1-cdfae113cf2c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVB_EIT2, IDVB_EIT2 interface [Microsoft TV Technologies], IDVB_EIT2 interface [Microsoft TV Technologies],described, dvbsiparser/IDVB_EIT2, mstv.idvb_eit2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo3_getcodecprop.htm
 tech.root: wmformat
 ms.assetid: 444f5789-c5e5-4eeb-a2b4-11f959641206
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetCodecProp, GetCodecProp method [windows Media Format], GetCodecProp method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecProp method, IWMCodecInfo3.GetCodecProp, IWMCodecInfo3::GetCodecProp, IWMCodecInfo3GetCodecProp, wmformat.iwmcodecinfo3_getcodecprop, wmsdkidl/IWMCodecInfo3::GetCodecProp
 ms.prod: windows-hardware
 ms.technology: windows-devices

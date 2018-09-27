@@ -7,7 +7,7 @@ old-location: imapi\ifsifileitem_get_data.htm
 tech.root: imapi
 ms.assetid: 90ed4c81-7113-4329-ae1e-9114740b7e09
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IFsiFileItem interface [IMAPI],get_Data method, IFsiFileItem.get_Data, IFsiFileItem::get_Data, get_Data, get_Data method [IMAPI], get_Data method [IMAPI],IFsiFileItem interface, imapi.ifsifileitem_get_data, imapi2fs/IFsiFileItem::get_Data
 ms.prod: windows-hardware
 ms.technology: windows-devices

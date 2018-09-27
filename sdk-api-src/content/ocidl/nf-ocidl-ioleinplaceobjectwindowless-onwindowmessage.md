@@ -7,7 +7,7 @@ old-location: com\ioleinplaceobjectwindowless_onwindowmessage.htm
 tech.root: com
 ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iserversecurity.htm
 tech.root: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity interface [COM],described, _com_iserversecurity, com.iserversecurity, objidlbase/IServerSecurity
 ms.prod: windows
 ms.technology: windows-sdk

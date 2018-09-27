@@ -4,10 +4,10 @@ title: NPGetConnectionPerformance function
 author: windows-sdk-content
 description: Returns information about the expected performance of a connection used to access a network resource. The request can only be for a network resource that is currently connected.
 old-location: security\npgetconnectionperformance.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 8ab9fa3b-50f4-492d-a352-8e215b2d62c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: NPGetConnectionPerformance, NPGetConnectionPerformance function [Security], _mnp_npgetconnectionperformance, npapi/NPGetConnectionPerformance, security.npgetconnectionperformance
 ms.prod: windows-hardware
 ms.technology: windows-devices

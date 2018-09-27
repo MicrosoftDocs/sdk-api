@@ -4,10 +4,10 @@ title: NhpAllocateAndGetInterfaceInfoFromStack function
 author: windows-sdk-content
 description: The NhpAllocateAndGetInterfaceInfoFromStack function obtains adapter information about the local computer.
 old-location: iphlp\nhpallocateandgetinterfaceinfofromstack.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: a5ba8b28-4c15-4646-91d0-b6ef9e0f1e89
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: NhpAllocateAndGetInterfaceInfoFromStack, NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper], iphlp.nhpallocateandgetinterfaceinfofromstack, iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
 ms.prod: windows-hardware
 ms.technology: windows-devices

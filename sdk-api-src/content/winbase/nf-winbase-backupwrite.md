@@ -4,10 +4,10 @@ title: BackupWrite function
 author: windows-sdk-content
 description: Restore a file or directory that was backed up using BackupRead.
 old-location: backup\backupwrite.htm
-tech.root: backup
+tech.root: Backup
 ms.assetid: 92befb48-68eb-4af3-b58a-c5e17bf14098
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BackupWrite, BackupWrite function [Backup], _win32_backupwrite, backup.backupwrite, base.backupwrite, winbase/BackupWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

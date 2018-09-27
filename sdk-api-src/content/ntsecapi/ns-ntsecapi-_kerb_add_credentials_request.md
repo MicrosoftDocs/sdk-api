@@ -4,10 +4,10 @@ title: "_KERB_ADD_CREDENTIALS_REQUEST"
 author: windows-sdk-content
 description: Specifies a message to add, remove, or replace an extra server credential for a logon session.
 old-location: security\kerb_add_credentials_request.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: a9a8810b-c9cf-4e19-8a33-7ad0c7ef8694
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: "*PKERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST structure [Security], KERB_REQUEST_ADD_CREDENTIAL, KERB_REQUEST_REMOVE_CREDENTIAL, KERB_REQUEST_REPLACE_CREDENTIAL, PKERB_ADD_CREDENTIALS_REQUEST, PKERB_ADD_CREDENTIALS_REQUEST structure pointer [Security], _KERB_ADD_CREDENTIALS_REQUEST, ntsecapi/KERB_ADD_CREDENTIALS_REQUEST, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST, security.kerb_add_credentials_request"
 ms.prod: windows
 ms.technology: windows-sdk

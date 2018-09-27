@@ -4,10 +4,10 @@ title: DeleteIpNetEntry2 function
 author: windows-sdk-content
 description: Deletes a neighbor IP address entry on the local computer.
 old-location: iphlp\deleteipnetentry2.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 85bace04-6c95-4cf2-a212-764de292aed6
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteIpNetEntry2, DeleteIpNetEntry2 function [IP Helper], iphlp.deleteipnetentry2, netioapi/DeleteIpNetEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11functionreflection.htm
 tech.root: direct3d11
 ms.assetid: 91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11FunctionReflection, ID3D11FunctionReflection interface [Direct3D 11], ID3D11FunctionReflection interface [Direct3D 11],described, d3d11shader/ID3D11FunctionReflection, direct3d11.id3d11functionreflection
 ms.prod: windows
 ms.technology: windows-sdk

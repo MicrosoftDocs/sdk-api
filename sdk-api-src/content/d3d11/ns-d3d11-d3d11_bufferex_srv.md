@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_bufferex_srv.htm
 tech.root: direct3d11
 ms.assetid: 55714c3b-ef21-43c1-94a1-60b63f3fedac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 6e2b4acb-42c7-1258-4812-425166fea83e, D3D11_BUFFEREX_SRV, D3D11_BUFFEREX_SRV structure [Direct3D 11], d3d11/D3D11_BUFFEREX_SRV, direct3d11.d3d11_bufferex_srv
 ms.prod: windows
 ms.technology: windows-sdk

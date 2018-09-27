@@ -7,7 +7,7 @@ old-location: indexsrv\dblike.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_84rp.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/30/2018
 ms.keywords: DBLIKE, DBLIKE structure [Indexing Service], _idxs_DBLIKE, cmdtree/DBLIKE, indexsrv.dblike, tagDBLIKE
 ms.prod: windows
 ms.technology: windows-sdk

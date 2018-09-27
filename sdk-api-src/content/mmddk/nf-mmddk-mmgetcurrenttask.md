@@ -7,7 +7,7 @@ old-location: multimedia\mmgetcurrenttask.htm
 tech.root: Multimedia
 ms.assetid: a581fe3f-466c-4ea0-b9d5-e911b4ad282f
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: mmGetCurrentTask, mmGetCurrentTask function [Windows Multimedia], mmddk/mmGetCurrentTask, multimedia.mmgetcurrenttask
 ms.prod: windows-hardware
 ms.technology: windows-devices

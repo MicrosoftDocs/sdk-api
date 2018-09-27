@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_route_callbackroutines_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_6ctu.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: "*PFAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES structure [Fax Service], PFAX_ROUTE_CALLBACKROUTINES, PFAX_ROUTE_CALLBACKROUTINES structure pointer [Fax Service], _FAX_ROUTE_CALLBACKROUTINES, _mfax_fax_route_callbackroutines_str, fax._mfax_fax_route_callbackroutines_str, faxroute/FAX_ROUTE_CALLBACKROUTINES, faxroute/PFAX_ROUTE_CALLBACKROUTINES"
 ms.prod: windows
 ms.technology: windows-sdk

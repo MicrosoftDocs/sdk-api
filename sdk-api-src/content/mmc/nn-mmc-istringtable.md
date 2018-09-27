@@ -7,7 +7,7 @@ old-location: mmc\istringtable.htm
 tech.root: mmc
 ms.assetid: 3b4cfc92-4f50-4b62-bb2c-77c8e0e003da
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IStringTable, IStringTable interface [MMC], IStringTable interface [MMC],described, _slate_istringtable, mmc.istringtable, mmc/IStringTable
 ms.prod: windows
 ms.technology: windows-sdk

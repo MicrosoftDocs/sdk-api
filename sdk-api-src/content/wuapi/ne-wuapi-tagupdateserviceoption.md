@@ -7,7 +7,7 @@ old-location: wua\updateserviceoption.htm
 tech.root: wua_sdk
 ms.assetid: c03ee4e7-b8d4-46bb-bc57-20b35d779e07
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: UpdateServiceOption, UpdateServiceOption enumeration [Windows Update Agent], tagUpdateServiceOption, usoNonVolatileService, wua.updateserviceoption, wuapi/UpdateServiceOption, wuapi/usoNonVolatileService
 ms.prod: windows
 ms.technology: windows-sdk

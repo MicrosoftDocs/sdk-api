@@ -4,10 +4,10 @@ title: "_RPC_BINDING_HANDLE_OPTIONS_V1"
 author: windows-sdk-content
 description: Contains additional options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_options_v1.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: e2bd03cf-4d45-449f-9434-ec8ef405737b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_OPTIONS_V1, RPC_BHO_DONTLINGER, RPC_BHO_NONCAUSAL, RPC_BINDING_HANDLE_OPTIONS, RPC_BINDING_HANDLE_OPTIONS structure [RPC], RPC_BINDING_HANDLE_OPTIONS_V1, RPC_BINDING_HANDLE_OPTIONS_V1 structure [RPC], _RPC_BINDING_HANDLE_OPTIONS_V1, rpc.rpc_binding_handle_options_v1, rpcdce/RPC_BINDING_HANDLE_OPTIONS, rpcdce/RPC_BINDING_HANDLE_OPTIONS_V1"
 ms.prod: windows
 ms.technology: windows-sdk

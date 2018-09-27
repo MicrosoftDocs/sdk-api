@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_clearunorderedaccessviewuint.htm
 tech.root: direct3d11
 ms.assetid: 73e70330-63cb-4ba6-b6e5-fc9707fb9f31
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 6de62b79-ec47-d4cc-7834-5acc4c87fa8d, ClearUnorderedAccessViewUint, ClearUnorderedAccessViewUint method [Direct3D 11], ClearUnorderedAccessViewUint method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearUnorderedAccessViewUint method, ID3D11DeviceContext.ClearUnorderedAccessViewUint, ID3D11DeviceContext::ClearUnorderedAccessViewUint, d3d11/ID3D11DeviceContext::ClearUnorderedAccessViewUint, direct3d11.id3d11devicecontext_clearunorderedaccessviewuint
 ms.prod: windows-hardware
 ms.technology: windows-devices

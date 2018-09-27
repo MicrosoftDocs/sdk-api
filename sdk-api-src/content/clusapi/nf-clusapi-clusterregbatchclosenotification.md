@@ -7,7 +7,7 @@ old-location: mscs\clusterregbatchclosenotification.htm
 tech.root: mscs
 ms.assetid: d7a127ba-6e97-46ac-8510-2da355359c50
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ClusterRegBatchCloseNotification, ClusterRegBatchCloseNotification function [Failover Cluster], PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION, clusapi/ClusterRegBatchCloseNotification, mscs.clusterregbatchclosenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

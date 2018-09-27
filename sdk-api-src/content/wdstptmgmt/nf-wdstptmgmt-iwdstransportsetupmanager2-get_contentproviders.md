@@ -4,10 +4,10 @@ title: IWdsTransportSetupManager2::get_ContentProviders
 author: windows-sdk-content
 description: Receives a pointer to an instance of the IWdsTransportCollection interface. The collection contains objects of the IWdsTransportContentProvider interface for the content providers registered on the server.
 old-location: wds\iwdstransportsetupmanager2_contentproviders.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: DF78B8D0-C5DF-46D2-AC6E-739266511253
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ContentProviders property [Windows Deployment Services], ContentProviders property [Windows Deployment Services],IWdsTransportSetupManager2 interface, IWdsTransportSetupManager2 interface [Windows Deployment Services],ContentProviders property, IWdsTransportSetupManager2.ContentProviders, IWdsTransportSetupManager2.get_ContentProviders, IWdsTransportSetupManager2::ContentProviders, IWdsTransportSetupManager2::get_ContentProviders, get_ContentProviders, wds.iwdstransportsetupmanager2_contentproviders, wdstptmgmt/IWdsTransportSetupManager2::ContentProviders, wdstptmgmt/IWdsTransportSetupManager2::get_ContentProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

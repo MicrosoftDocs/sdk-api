@@ -4,10 +4,10 @@ title: "_DNS_WIRE_QUESTION"
 author: windows-sdk-content
 description: The DNS_WIRE_QUESTION structure contains information about a DNS question transmitted across the network as specified in section 4.1.2 of RFC 1035..
 old-location: dns\dns_wire_question.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 50498f20-0896-4471-8355-edd997aa4bcd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDNS_WIRE_QUESTION, *PDNS_WIRE_QUESTION structure [DNS], DNS_WIRE_QUESTION, DNS_WIRE_QUESTION structure [DNS], _DNS_WIRE_QUESTION, dns.dns_wire_question, windns/*PDNS_WIRE_QUESTION, windns/DNS_WIRE_QUESTION"
 ms.prod: windows
 ms.technology: windows-sdk

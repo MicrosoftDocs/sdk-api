@@ -4,10 +4,10 @@ title: WinHttpWebSocketQueryCloseStatus function
 author: windows-sdk-content
 description: Retrieves the close status sent by a server.
 old-location: http\winhttpwebsocketqueryclosestatus.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: 9b439be5-9f3f-43c7-8800-224b6750a6c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpWebSocketQueryCloseStatus, WinHttpWebSocketQueryCloseStatus function [WinHTTP], http.winhttpwebsocketqueryclosestatus, winhttp/WinHttpWebSocketQueryCloseStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

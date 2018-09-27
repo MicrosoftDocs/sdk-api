@@ -4,10 +4,10 @@ title: IBackgroundCopyJob2::RemoveCredentials
 author: windows-sdk-content
 description: Removes credentials from use. The credentials must match an existing target and scheme pair that you specified using the IBackgroundCopyJob2::SetCredentials method. There is no method to retrieve the credentials you have set.
 old-location: bits\ibackgroundcopyjob2_removecredentials.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: dbc6a05d-9e1f-4cc9-b28b-0874aafdfd7c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],RemoveCredentials method, IBackgroundCopyJob2.RemoveCredentials, IBackgroundCopyJob2::RemoveCredentials, RemoveCredentials, RemoveCredentials method [BITS], RemoveCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_removecredentials, bits.ibackgroundcopyjob2_removecredentials, bits1_5/IBackgroundCopyJob2::RemoveCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

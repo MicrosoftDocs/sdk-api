@@ -7,7 +7,7 @@ old-location: base\changer_exchange_medium_str.htm
 tech.root: devio
 ms.assetid: a35c9da8-7632-4aa1-a1a7-030ffce727b7
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: "*PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM structure, PCHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM structure pointer, _CHANGER_EXCHANGE_MEDIUM, _win32_changer_exchange_medium_str, base.changer_exchange_medium_str, winioctl/CHANGER_EXCHANGE_MEDIUM, winioctl/PCHANGER_EXCHANGE_MEDIUM"
 ms.prod: windows
 ms.technology: windows-sdk

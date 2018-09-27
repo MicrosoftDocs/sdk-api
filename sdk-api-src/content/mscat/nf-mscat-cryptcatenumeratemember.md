@@ -7,7 +7,7 @@ old-location: security\cryptcatenumeratemember.htm
 tech.root: seccrypto
 ms.assetid: 6bbfef11-a150-4255-8620-27c1b1587b48
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CryptCATEnumerateMember, CryptCATEnumerateMember function [Security], mscat/CryptCATEnumerateMember, security.cryptcatenumeratemember
 ms.prod: windows-hardware
 ms.technology: windows-devices

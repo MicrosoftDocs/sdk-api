@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxcompletejobparams.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9b8z.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: FaxCompleteJobParams, FaxCompleteJobParams function [Fax Service], FaxCompleteJobParamsA, FaxCompleteJobParamsW, _mfax_faxcompletejobparams, fax._mfax_faxcompletejobparams, winfax/FaxCompleteJobParams, winfax/FaxCompleteJobParamsA, winfax/FaxCompleteJobParamsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

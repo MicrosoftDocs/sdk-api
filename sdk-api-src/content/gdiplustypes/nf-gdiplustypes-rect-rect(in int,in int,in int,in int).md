@@ -2,13 +2,13 @@
 UID: NF:gdiplustypes.Rect.Rect(IN INT,IN INT,IN INT,IN INT)
 title: Rect::Rect(IN INT,IN INT,IN INT,IN INT)
 author: windows-sdk-content
-description: Creates a Rect object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_.htm
+description: Creates a Rect object by using four integers to initialize the X, Y, Width, and Height data members.
+old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_x_y_width_height_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_36.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_73x_y_width_height.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(), Rect.Rect(IN INT,IN INT,IN INT,IN INT), Rect::Rect, Rect::Rect(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Rect_Rect_, gdiplus._gdiplus_CLASS_Rect_Rect_
+ms.date: 09/12/2018
+ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(IN INT,IN INT,IN INT,IN INT), Rect.Rect(INT,INT,INT,INT), Rect::Rect, Rect::Rect(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Rect_Rect_x_y_width_height_, gdiplus._gdiplus_CLASS_Rect_Rect_x_y_width_height_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,11 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor. 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object by using four integers to initialize the 
+			<b>X</b>, 
+			<b>Y</b>, 
+			<b>Width</b>, and 
+			<b>Height</b> data members.
 
 
 ## -parameters
@@ -59,26 +63,32 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).as
 
 
 
-### -param x
+### -param x [in]
 
-TBD
+Type: <b>INT</b>
 
-
-### -param y
-
-TBD
+Integer used to initialize the x-coordinate of the upper-left corner of the rectangle. 
 
 
-### -param width
+### -param y [in]
 
-TBD
+Type: <b>INT</b>
 
-
-### -param height
-
-TBD
+Integer used to initialize the y-coordinate of the upper-left corner of the rectangle. 
 
 
+### -param width [in]
+
+Type: <b>INT</b>
+
+Integer used to initialize the width of this rectangle. 
+
+
+### -param height [in]
+
+Type: <b>INT</b>
+
+Integer used to initialize the height of this rectangle. 
 
 
 ## -see-also

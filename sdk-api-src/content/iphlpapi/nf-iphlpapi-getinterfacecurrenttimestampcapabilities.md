@@ -4,10 +4,10 @@ title: GetInterfaceCurrentTimestampCapabilities function
 author: windows-sdk-content
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\getinterfacecurrenttimestampcapabilities.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 5E43CF7E-70EF-4E26-A029-C33905A1C5C4
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetInterfaceCurrentTimestampCapabilities, GetInterfaceCurrentTimestampCapabilities function [IP Helper], iphlp.getinterfacecurrenttimestampcapabilities, iphlpapi/GetInterfaceCurrentTimestampCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

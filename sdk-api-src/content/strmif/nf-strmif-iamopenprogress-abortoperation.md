@@ -7,7 +7,7 @@ old-location: dshow\iamopenprogress_abortoperation.htm
 tech.root: DirectShow
 ms.assetid: 5c20b57c-c491-4465-9626-13335191b5bb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: AbortOperation, AbortOperation method [DirectShow], AbortOperation method [DirectShow],IAMOpenProgress interface, IAMOpenProgress interface [DirectShow],AbortOperation method, IAMOpenProgress.AbortOperation, IAMOpenProgress::AbortOperation, IAMOpenProgressAbortOperation, dshow.iamopenprogress_abortoperation, strmif/IAMOpenProgress::AbortOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

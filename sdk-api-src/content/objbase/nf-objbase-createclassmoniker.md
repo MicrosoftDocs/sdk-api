@@ -7,7 +7,7 @@ old-location: com\createclassmoniker.htm
 tech.root: com
 ms.assetid: 9361b2c1-ef26-4225-92ff-e0bef0285bc4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: CreateClassMoniker, CreateClassMoniker function [COM], _com_CreateClassMoniker, com.createclassmoniker, objbase/CreateClassMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices

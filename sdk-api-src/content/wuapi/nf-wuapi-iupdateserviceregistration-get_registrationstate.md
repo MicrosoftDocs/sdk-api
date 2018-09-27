@@ -7,7 +7,7 @@ old-location: wua\iupdateserviceregistration_registrationstate.htm
 tech.root: wua_sdk
 ms.assetid: 4998546e-ec2c-4147-8c6f-5e232e4ec1a6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],RegistrationState property, IUpdateServiceRegistration.RegistrationState, IUpdateServiceRegistration.get_RegistrationState, IUpdateServiceRegistration::RegistrationState, IUpdateServiceRegistration::get_RegistrationState, RegistrationState property [Windows Update Agent], RegistrationState property [Windows Update Agent],IUpdateServiceRegistration interface, get_RegistrationState, wua.iupdateserviceregistration_registrationstate, wuapi/IUpdateServiceRegistration::RegistrationState, wuapi/IUpdateServiceRegistration::get_RegistrationState
 ms.prod: windows-hardware
 ms.technology: windows-devices

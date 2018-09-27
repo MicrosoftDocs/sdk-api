@@ -4,10 +4,10 @@ title: ICertificatePolicies::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icertificatepolicies__newenum_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 99ce5d45-c2ff-45be-8eb4-e1a57bbfa2fc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertificatePolicies interface [Security],_NewEnum property, ICertificatePolicies._NewEnum, ICertificatePolicies.get__NewEnum, ICertificatePolicies::_NewEnum, ICertificatePolicies::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::_NewEnum, certenroll/ICertificatePolicies::get__NewEnum, get__NewEnum, security.icertificatepolicies__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWdsTransportContentProvider
 author: windows-sdk-content
 description: Used to describe a content provider.
 old-location: wds\iwdstransportcontentprovider.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: DF94E03F-0A9A-4467-B932-28227B6BB3C4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportContentProvider, IWdsTransportContentProvider interface [Windows Deployment Services], IWdsTransportContentProvider interface [Windows Deployment Services],described, wds.iwdstransportcontentprovider, wdstptmgmt/IWdsTransportContentProvider
 ms.prod: windows
 ms.technology: windows-sdk

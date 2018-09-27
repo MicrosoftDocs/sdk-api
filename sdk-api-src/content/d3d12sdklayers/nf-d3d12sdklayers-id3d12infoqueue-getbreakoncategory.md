@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getbreakoncategory.htm
 tech.root: direct3d12
 ms.assetid: 3B966BB5-4AA6-4475-890F-4477A5C7E55E
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: GetBreakOnCategory, GetBreakOnCategory method, GetBreakOnCategory method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnCategory method, ID3D12InfoQueue.GetBreakOnCategory, ID3D12InfoQueue::GetBreakOnCategory, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnCategory, direct3d12.id3d12infoqueue_getbreakoncategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

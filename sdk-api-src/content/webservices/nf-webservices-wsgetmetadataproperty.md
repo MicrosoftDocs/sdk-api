@@ -7,7 +7,7 @@ old-location: wsw\wsgetmetadataproperty.htm
 tech.root: wsw
 ms.assetid: 21d8dbca-e8a5-4b2f-a1f7-951532922024
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WsGetMetadataProperty, WsGetMetadataProperty function [Web Services for Windows], webservices/WsGetMetadataProperty, wsw.wsgetmetadataproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

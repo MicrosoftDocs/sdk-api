@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetW(XMVECTOR,float)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMVectorSetW, XMVectorSetW, XMVectorSetW method [DirectX Math Support APIs], dxmath.xmvectorsetw
 ms.prod: windows-hardware
 ms.technology: windows-devices

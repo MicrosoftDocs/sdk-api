@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationnavigationevents_beforenavigate.htm
 tech.root: debug_wwahost
 ms.assetid: 1088bfa3-0a20-4156-90ff-50129e903052
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/29/2018
 ms.keywords: BeforeNavigate, BeforeNavigate method [Debugging Windows Store apps], BeforeNavigate method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],BeforeNavigate method, IWebApplicationNavigationEvents.BeforeNavigate, IWebApplicationNavigationEvents::BeforeNavigate, debug.iwebapplicationnavigationevents_beforenavigate, webapplication/IWebApplicationNavigationEvents::BeforeNavigate
 ms.prod: windows-hardware
 ms.technology: windows-devices

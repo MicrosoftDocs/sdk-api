@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12fence1_getcreationflags.htm
 tech.root: direct3d12
 ms.assetid: 59FF0D7D-CE1F-49AD-8AFE-8C0E7DE05F36
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: GetCreationFlags, GetCreationFlags method, GetCreationFlags method,ID3D12fence1 interface, ID3D12Fence1.GetCreationFlags, ID3D12Fence1::GetCreationFlags, ID3D12fence1 interface,GetCreationFlags method, ID3D12fence1::GetCreationFlags, d3d12/ID3D12fence1::GetCreationFlags, direct3d12.id3d12fence1_getcreationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

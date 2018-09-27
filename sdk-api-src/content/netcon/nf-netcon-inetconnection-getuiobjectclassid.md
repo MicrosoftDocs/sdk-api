@@ -7,7 +7,7 @@ old-location: ics\inetconnection_getuiobjectclassid.htm
 tech.root: ics
 ms.assetid: 33d69dff-8137-4901-9529-31130803b19f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: GetUiObjectClassId, GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetUiObjectClassId method, INetConnection.GetUiObjectClassId, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
 ms.prod: windows-hardware
 ms.technology: windows-devices

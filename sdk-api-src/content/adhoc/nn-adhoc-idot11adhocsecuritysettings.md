@@ -4,10 +4,10 @@ title: IDot11AdHocSecuritySettings
 author: windows-sdk-content
 description: Specifies the security settings for a wireless ad hoc network.
 old-location: nwifi\idot11adhocsecuritysettings.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 55b78a98-ad25-4646-b325-73d770d602b3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDot11AdHocSecuritySettings, IDot11AdHocSecuritySettings interface [NativeWIFI], IDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IDot11AdHocSecuritySettings, nwifi.idot11adhocsecuritysettings
 ms.prod: windows
 ms.technology: windows-sdk

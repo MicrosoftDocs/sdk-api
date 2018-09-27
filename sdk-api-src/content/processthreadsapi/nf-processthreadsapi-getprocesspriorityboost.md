@@ -7,7 +7,7 @@ old-location: base\getprocesspriorityboost.htm
 tech.root: procthread
 ms.assetid: b47944f2-b724-4eec-9dcf-2d14a7b77456
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: GetProcessPriorityBoost, GetProcessPriorityBoost function, _win32_getprocesspriorityboost, base.getprocesspriorityboost, processthreadsapi/GetProcessPriorityBoost
 ms.prod: windows-hardware
 ms.technology: windows-devices

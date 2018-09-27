@@ -4,10 +4,10 @@ title: RpcEpUnregister function
 author: windows-sdk-content
 description: The RpcEpUnregister function removes server-address information from the local endpoint-map database.
 old-location: rpc\rpcepunregister.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: bb0485fc-0b25-4fc0-9a18-921a9de428ce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: RpcEpUnregister, RpcEpUnregister function [RPC], _rpc_rpcepunregister, rpc.rpcepunregister, rpcdce/RpcEpUnregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

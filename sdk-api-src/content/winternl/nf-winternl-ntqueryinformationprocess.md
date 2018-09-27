@@ -7,7 +7,7 @@ old-location: base\ntqueryinformationprocess.htm
 tech.root: procthread
 ms.assetid: 0eae7899-c40b-4a5f-9e9c-adae021885e7
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: NtQueryInformationProcess, NtQueryInformationProcess function, PROCESS_BASIC_INFORMATION, PROCESS_BASIC_INFORMATION structure, ProcessBasicInformation, ProcessBreakOnTermination, ProcessDebugPort, ProcessImageFileName, ProcessSubsystemInformation, ProcessWow64Information, base.ntqueryinformationprocess, winternl/NtQueryInformationProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

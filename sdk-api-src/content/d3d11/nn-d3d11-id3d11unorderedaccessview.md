@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11unorderedaccessview.htm
 tech.root: direct3d11
 ms.assetid: 9def4a7d-f145-4073-8d7d-bf3c7ac7a060
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 0d091716-fdf1-7aff-5a05-68258dd1f745, ID3D11UnorderedAccessView, ID3D11UnorderedAccessView interface [Direct3D 11], ID3D11UnorderedAccessView interface [Direct3D 11],described, d3d11/ID3D11UnorderedAccessView, direct3d11.id3d11unorderedaccessview
 ms.prod: windows
 ms.technology: windows-sdk

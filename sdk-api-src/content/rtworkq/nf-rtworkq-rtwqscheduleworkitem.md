@@ -7,7 +7,7 @@ old-location: base\rtwqscheduleworkitem.htm
 tech.root: procthread
 ms.assetid: cfc22cfb-44fc-441b-826c-61f72cb0bd68
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: RtwqScheduleWorkItem, RtwqScheduleWorkItem function, base.rtwqscheduleworkitem, rtworkq/RtwqScheduleWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

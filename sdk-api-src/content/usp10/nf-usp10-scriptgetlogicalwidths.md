@@ -7,7 +7,7 @@ old-location: intl\scriptgetlogicalwidths.htm
 tech.root: Intl
 ms.assetid: ecedd0a1-aad8-4527-be46-6f7dd26a9e9b
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/25/2018
 ms.keywords: ScriptGetLogicalWidths, ScriptGetLogicalWidths function [Internationalization for Windows Applications], _win32_ScriptGetLogicalWidths, intl.scriptgetlogicalwidths, usp10/ScriptGetLogicalWidths
 ms.prod: windows-hardware
 ms.technology: windows-devices

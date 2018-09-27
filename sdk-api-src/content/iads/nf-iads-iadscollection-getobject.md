@@ -7,7 +7,7 @@ old-location: adsi\iadscollection_getobject.htm
 tech.root: ADSI
 ms.assetid: 04b33451-505e-43de-8db4-3e37f9909ea6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],GetObject method, IADsCollection.GetObject, IADsCollection::GetObject, _ds_iadscollection_getobject, adsi.iadscollection__getobject, adsi.iadscollection_getobject, iads/IADsCollection::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

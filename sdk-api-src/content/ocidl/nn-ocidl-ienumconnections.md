@@ -7,7 +7,7 @@ old-location: com\ienumconnections.htm
 tech.root: com
 ms.assetid: 464966c1-e4e9-4b58-9e41-48de408f572f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: IEnumConnections, IEnumConnections interface [COM], IEnumConnections interface [COM],described, _com_ienumconnections, com.ienumconnections, ocidl/IEnumConnections
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\device_write_aggregation_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 124f05bc-6c3f-4778-9cc0-5a55891cb141
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Files], PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Files], _DEVICE_WRITE_AGGREGATION_DESCRIPTOR, fs.device_write_aggregation_descriptor, winioctl/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, winioctl/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\log_tail_advance_callback.htm
 tech.root: Clfs
 ms.assetid: dfa64e5e-55ef-4102-90d5-104b1a624267
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: LOG_TAIL_ADVANCE_CALLBACK, LOG_TAIL_ADVANCE_CALLBACK callback function [Files], PLOG_TAIL_ADVANCE_CALLBACK, PLOG_TAIL_ADVANCE_CALLBACK callback, clfsmgmtw32/LOG_TAIL_ADVANCE_CALLBACK, fs.log_tail_advance_callback
 ms.prod: windows
 ms.technology: windows-sdk

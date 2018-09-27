@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicfastmetadataencoder_commit.htm
 tech.root: wic
 ms.assetid: 24f3b0f8-8991-4f55-aeb6-a2bbf09a29c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICFastMetadataEncoder interface, IWICFastMetadataEncoder interface [Windows Imaging Component],Commit method, IWICFastMetadataEncoder.Commit, IWICFastMetadataEncoder::Commit, _wic_codec_iwicfastmetadataencoder_commit, wic._wic_codec_iwicfastmetadataencoder_commit, wincodec/IWICFastMetadataEncoder::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

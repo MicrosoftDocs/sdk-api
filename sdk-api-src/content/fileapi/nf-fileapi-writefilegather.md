@@ -4,10 +4,10 @@ title: WriteFileGather function
 author: windows-sdk-content
 description: Retrieves data from an array of buffers and writes the data to a file.
 old-location: fs\writefilegather.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
 ms.prod: windows-hardware
 ms.technology: windows-devices

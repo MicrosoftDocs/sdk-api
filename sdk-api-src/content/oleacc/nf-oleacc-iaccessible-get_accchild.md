@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accchild.htm
 tech.root: WinAuto
 ms.assetid: 64b0c24d-778a-4f13-8c70-6be3436a98cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChild method, IAccessible.get_accChild, IAccessible::get_accChild, _msaa_IAccessible_get_accChild, get_accChild, get_accChild method [Windows Accessibility], get_accChild method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchild, oleacc/IAccessible::get_accChild, winauto.iaccessible_iaccessible__get_accchild
 ms.prod: windows-hardware
 ms.technology: windows-devices

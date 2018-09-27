@@ -7,7 +7,7 @@ old-location: mf\imfcapturesource_getcapturedevicesource.htm
 tech.root: medfound
 ms.assetid: 98bce6e3-02f2-449e-aba4-4bfc9de6d1db
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: GetCaptureDeviceSource, GetCaptureDeviceSource method [Media Foundation], GetCaptureDeviceSource method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCaptureDeviceSource method, IMFCaptureSource.GetCaptureDeviceSource, IMFCaptureSource::GetCaptureDeviceSource, mf.imfcapturesource_getcapturedevicesource, mfcaptureengine/IMFCaptureSource::GetCaptureDeviceSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

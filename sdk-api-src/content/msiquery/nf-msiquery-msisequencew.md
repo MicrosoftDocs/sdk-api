@@ -7,7 +7,7 @@ old-location: setup\msisequence.htm
 tech.root: msi
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: MsiSequence, MsiSequence function, MsiSequenceA, MsiSequenceW, _msi_msisequence, msiquery/MsiSequence, msiquery/MsiSequenceA, msiquery/MsiSequenceW, setup.msisequence
 ms.prod: windows-hardware
 ms.technology: windows-devices

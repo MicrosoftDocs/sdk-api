@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__statuschange.htm
 tech.root: WMP
 ms.assetid: 0397ae20-bc8b-4b7e-8d5d-2b1fb427355a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],StatusChange method, IWMPEvents.StatusChange, IWMPEvents::StatusChange, IWMPEventsStatusChange, StatusChange, StatusChange method [Windows Media Player], StatusChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__statuschange, wmp/IWMPEvents::StatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

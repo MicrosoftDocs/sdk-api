@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3clamplength.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3ClampLength(XMVECTOR,float,float)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMVector3ClampLength, XMVector3ClampLength, XMVector3ClampLength method [DirectX Math Support APIs], dxmath.xmvector3clamplength
 ms.prod: windows-hardware
 ms.technology: windows-devices

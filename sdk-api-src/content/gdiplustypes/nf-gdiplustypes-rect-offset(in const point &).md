@@ -2,21 +2,21 @@
 UID: NF:gdiplustypes.Rect.Offset(IN const Point &)
 title: Rect::Offset(IN const Point &)
 author: windows-sdk-content
-description: This topic lists the Offset methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
-old-location: gdiplus\_gdiplus_CLASS_Rect_Offset_Methods.htm
+description: The Rect::Offset method moves this rectangle horizontally a distance of point.X and vertically a distance of point.Y.
+old-location: gdiplus\_gdiplus_CLASS_Rect_Offset_point_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectoffsetmethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectoffsetmethods\offset_55point.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Offset, Offset methods [GDI+], Rect.Offset, Rect.Offset(IN const Point &), Rect::Offset, Rect::Offset(IN const Point &), _gdiplus_CLASS_Rect_Offset_Methods, gdiplus._gdiplus_CLASS_Rect_Offset_Methods, gdiplustypes/Offset
+ms.date: 09/12/2018
+ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],Rect class, Rect class [GDI+],Offset method, Rect.Offset, Rect.Offset(IN const Point &), Rect.Offset(const Point&), Rect::Offset, Rect::Offset(IN const Point &), _gdiplus_CLASS_Rect_Offset_point_, gdiplus._gdiplus_CLASS_Rect_Offset_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplustypes.h
+ - Gdiplus.dll
 api_name:
  - Rect.Offset
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Rect::Offset(IN const Point &)
@@ -50,34 +51,61 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Offset methods of the 
-			<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/fe6960fa-db73-4806-a2c2-675782eed41d">Rect Methods</a>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b10ddcf9-c76b-4f95-9295-3fffc80c2fb0">Offset(Point&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b10ddcf9-c76b-4f95-9295-3fffc80c2fb0">Rect::Offset</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b>.
+The <b>Rect::Offset</b> method moves this rectangle horizontally a distance of 
+			 <i>point</i>.<b>X</b> and vertically a distance of 
+			<i>point</i>.<b>Y</b>.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e660ded5-05e9-4786-8c82-922b5f118e49">Offset(INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e660ded5-05e9-4786-8c82-922b5f118e49">Rect::Offset</a><i>dx</i><i>dy</i> vertically.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param point [in]
+
+Type: <b>const Point&amp;</b>
+
+Reference to a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object whose 
+					<b>X</b> data member specifies the distance to move the rectangle horizontally and whose 
+					<b>Y</b> data member specifies the distance to move the rectangle vertically. 
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/edfc3c1a-4627-4acd-926b-1373893dbce2">Offset Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+ 
+
+ 
 

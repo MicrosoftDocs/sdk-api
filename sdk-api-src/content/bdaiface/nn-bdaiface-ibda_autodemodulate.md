@@ -4,10 +4,10 @@ title: IBDA_AutoDemodulate
 author: windows-sdk-content
 description: If a BDA device filter, specifically a demodulator, exposes this interface, it indicates that the filter can automatically detect signal characteristics.
 old-location: mstv\ibda_autodemodulate.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 91588290-bae9-4c6d-9ec7-5d3777208e2a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_AutoDemodulate, IBDA_AutoDemodulate interface [Microsoft TV Technologies], IBDA_AutoDemodulate interface [Microsoft TV Technologies],described, IBDA_AutoDemodulateInterface, bdaiface/IBDA_AutoDemodulate, mstv.ibda_autodemodulate
 ms.prod: windows
 ms.technology: windows-sdk

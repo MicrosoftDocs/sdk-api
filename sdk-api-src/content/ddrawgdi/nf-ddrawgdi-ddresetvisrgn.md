@@ -4,10 +4,10 @@ title: DdResetVisrgn function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdResetVisrgn function and enables timely user-mode information on the clipping region for windows on the desktop.
 old-location: winprog\_dxgkernel_ddresetvisrgn.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddresetvisrgn.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: DdResetVisrgn, DdResetVisrgn function [Windows API], GdiEntry6, _dxgkernel_ddresetvisrgn, ddrawgdi/DdResetVisrgn, ddrawgdi/GdiEntry6, winprog._dxgkernel_ddresetvisrgn, winui._dxgkernel_ddresetvisrgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

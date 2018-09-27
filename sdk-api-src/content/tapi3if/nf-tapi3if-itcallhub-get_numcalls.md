@@ -7,7 +7,7 @@ old-location: tapi3\itcallhub_get_numcalls.htm
 tech.root: tapi
 ms.assetid: 52313969-ce8e-43da-8844-b4d0834dd446
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_NumCalls method, ITCallHub.get_NumCalls, ITCallHub::get_NumCalls, _tapi3_itcallhub_get_numcalls, get_NumCalls, get_NumCalls method [TAPI 2.2], get_NumCalls method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_numcalls, tapi3if/ITCallHub::get_NumCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices

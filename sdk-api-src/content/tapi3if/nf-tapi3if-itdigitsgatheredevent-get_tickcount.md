@@ -7,7 +7,7 @@ old-location: tapi3\itdigitsgatheredevent_get_tickcount.htm
 tech.root: tapi
 ms.assetid: 6e5fbed0-f132-418f-aa71-36d0e673affa
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_TickCount method, ITDigitsGatheredEvent.get_TickCount, ITDigitsGatheredEvent::get_TickCount, _tapi3_itdigitsgatheredevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_tickcount, tapi3if/ITDigitsGatheredEvent::get_TickCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

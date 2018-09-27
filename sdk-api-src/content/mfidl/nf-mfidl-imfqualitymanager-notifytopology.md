@@ -7,7 +7,7 @@ old-location: mf\imfqualitymanager_notifytopology.htm
 tech.root: medfound
 ms.assetid: 5ff6d923-4a83-401a-a0de-0b1a732c31a5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: 5ff6d923-4a83-401a-a0de-0b1a732c31a5, IMFQualityManager interface [Media Foundation],NotifyTopology method, IMFQualityManager.NotifyTopology, IMFQualityManager::NotifyTopology, NotifyTopology, NotifyTopology method [Media Foundation], NotifyTopology method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifytopology, mfidl/IMFQualityManager::NotifyTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

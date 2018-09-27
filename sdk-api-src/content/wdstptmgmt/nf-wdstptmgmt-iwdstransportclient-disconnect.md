@@ -4,10 +4,10 @@ title: IWdsTransportClient::Disconnect
 author: windows-sdk-content
 description: Disconnects the WDS client from the session and specifies what action the client should take upon disconnection.
 old-location: wds\iwdstransportclient_disconnect.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: faf3ab18-2629-402f-96ad-41337c165fba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: Disconnect, Disconnect method [Windows Deployment Services], Disconnect method [Windows Deployment Services],IWdsTransportClient interface, IWdsTransportClient interface [Windows Deployment Services],Disconnect method, IWdsTransportClient.Disconnect, IWdsTransportClient::Disconnect, wds.iwdstransportclient_disconnect, wdstptmgmt/IWdsTransportClient::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

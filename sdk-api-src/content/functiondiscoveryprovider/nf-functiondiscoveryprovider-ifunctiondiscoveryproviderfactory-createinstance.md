@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryproviderfactory_createinstance.htm
 tech.root: fundisc
 ms.assetid: 143a4f62-7093-4127-b89e-e7d0985a92bb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateInstance method, IFunctionDiscoveryProviderFactory.CreateInstance, IFunctionDiscoveryProviderFactory::CreateInstance, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateInstance, ncd.ifunctiondiscoveryproviderfactory_createinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

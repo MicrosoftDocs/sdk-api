@@ -7,7 +7,7 @@ old-location: com\mshctx.htm
 tech.root: com
 ms.assetid: d7d09ab2-96e7-48da-9292-0e4ca6cebe64
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: MSHCTX, MSHCTX enumeration [COM], MSHCTX_CROSSCTX, MSHCTX_DIFFERENTMACHINE, MSHCTX_INPROC, MSHCTX_LOCAL, MSHCTX_NOSHAREDMEM, _com_MSHCTX, com.mshctx, tagMSHCTX, wtypesbase/MSHCTX, wtypesbase/MSHCTX_CROSSCTX, wtypesbase/MSHCTX_DIFFERENTMACHINE, wtypesbase/MSHCTX_INPROC, wtypesbase/MSHCTX_LOCAL, wtypesbase/MSHCTX_NOSHAREDMEM
 ms.prod: windows
 ms.technology: windows-sdk

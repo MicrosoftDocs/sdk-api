@@ -4,10 +4,10 @@ title: "_WRDS_SETTINGS_1"
 author: windows-sdk-content
 description: Contains policy-related settings for a remote session.
 old-location: termserv\wrds_settings_1.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 47100A84-49F4-4FF1-8CCB-731638F27C4F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWRDS_SETTINGS_1, PWRDS_SETTINGS_1, PWRDS_SETTINGS_1 structure pointer [Remote Desktop Services], WRDS_SETTINGS_1, WRDS_SETTINGS_1 structure [Remote Desktop Services], _WRDS_SETTINGS_1, termserv.wrds_settings_1, wtsdefs/PWRDS_SETTINGS_1, wtsdefs/WRDS_SETTINGS_1"
 ms.prod: windows
 ms.technology: windows-sdk

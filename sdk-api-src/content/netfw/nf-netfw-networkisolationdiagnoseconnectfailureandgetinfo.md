@@ -7,7 +7,7 @@ old-location: ics\networkisolationdiagnoseconnectfailureandgetinfo.htm
 tech.root: ics
 ms.assetid: fb59b2bb-03c1-472d-bb97-6fd9d5f7169d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: NetworkIsolationDiagnoseConnectFailureAndGetInfo, NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF], ics.networkisolationdiagnoseconnectfailureandgetinfo, networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IKEEXT_COOKIE_PAIR0_
 author: windows-sdk-content
 description: Used to store a pair of IKE/Authip cookies.
 old-location: fwp\ikeext_cookie_pair0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: c752545b-1880-40ac-871e-e36d4b81668f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IKEEXT_COOKIE_PAIR0, IKEEXT_COOKIE_PAIR0 structure [Filtering], IKEEXT_COOKIE_PAIR0_, fwp.ikeext_cookie_pair0, iketypes/IKEEXT_COOKIE_PAIR0
 ms.prod: windows
 ms.technology: windows-sdk

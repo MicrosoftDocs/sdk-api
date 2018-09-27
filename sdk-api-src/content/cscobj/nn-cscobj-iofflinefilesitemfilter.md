@@ -4,10 +4,10 @@ title: IOfflineFilesItemFilter
 author: windows-sdk-content
 description: Represents an instance of a filter to be applied to an enumeration.
 old-location: of\iofflinefilesitemfilter.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: e77b4f90-7a08-47f8-b297-8c1360167e1f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesItemFilter, IOfflineFilesItemFilter interface [Offline Files], IOfflineFilesItemFilter interface [Offline Files],described, cscobj/IOfflineFilesItemFilter, of.iofflinefilesitemfilter
 ms.prod: windows
 ms.technology: windows-sdk

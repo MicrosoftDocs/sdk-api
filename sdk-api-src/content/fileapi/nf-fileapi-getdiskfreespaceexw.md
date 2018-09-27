@@ -4,10 +4,10 @@ title: GetDiskFreeSpaceExW function
 author: windows-sdk-content
 description: Retrieves information about the amount of space that is available on a disk volume, which is the total amount of space, the total amount of free space, and the total amount of free space available to the user that is associated with the calling thread.
 old-location: fs\getdiskfreespaceex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetDiskFreeSpaceEx, GetDiskFreeSpaceEx function [Files], GetDiskFreeSpaceExA, GetDiskFreeSpaceExW, _win32_getdiskfreespaceex, base.getdiskfreespaceex, fileapi/GetDiskFreeSpaceEx, fileapi/GetDiskFreeSpaceExA, fileapi/GetDiskFreeSpaceExW, fs.getdiskfreespaceex, winbase/GetDiskFreeSpaceEx, winbase/GetDiskFreeSpaceExA, winbase/GetDiskFreeSpaceExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

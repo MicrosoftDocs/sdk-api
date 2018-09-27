@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_contrast_prop.htm
 tech.root: direct2d
 ms.assetid: 04215468-F6AA-4AA4-8F03-4858CE57FC14
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_CONTRAST_PROP, D2D1_CONTRAST_PROP enumeration [Direct2D], D2D1_CONTRAST_PROP_CLAMP_INPUT, D2D1_CONTRAST_PROP_CONTRAST, d2d1effects_2/D2D1_CONTRAST_PROP, d2d1effects_2/D2D1_CONTRAST_PROP_CLAMP_INPUT, d2d1effects_2/D2D1_CONTRAST_PROP_CONTRAST, direct2d.d2d1_contrast_prop
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_BEZIER_SEGMENT.htm
 tech.root: direct2d
 ms.assetid: cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_BEZIER_SEGMENT, D2D1_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_BEZIER_SEGMENT, direct2d.D2D1_BEZIER_SEGMENT
 ms.prod: windows
 ms.technology: windows-sdk

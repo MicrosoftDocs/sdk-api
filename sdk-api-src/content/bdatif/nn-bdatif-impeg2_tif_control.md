@@ -4,10 +4,10 @@ title: IMPEG2_TIF_CONTROL
 author: windows-sdk-content
 description: IMPEG2_TIF_CONTROL is no longer available for use.
 old-location: mstv\impeg2_tif_control.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9583365d-b318-49e2-a32f-f6cc9d3f289d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],described, IMPEG2_TIF_CONTROLInterface, bdatif/IMPEG2_TIF_CONTROL, mstv.impeg2_tif_control
 ms.prod: windows
 ms.technology: windows-sdk

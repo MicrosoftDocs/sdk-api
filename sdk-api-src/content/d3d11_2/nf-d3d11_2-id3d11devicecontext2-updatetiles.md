@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2_updatetiles.htm
 tech.root: direct3d11
 ms.assetid: EB0F9CBD-29B2-484D-8923-6686C73487F7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],UpdateTiles method, ID3D11DeviceContext2.UpdateTiles, ID3D11DeviceContext2::UpdateTiles, UpdateTiles, UpdateTiles method [Direct3D 11], UpdateTiles method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::UpdateTiles, direct3d11.id3d11devicecontext2_updatetiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

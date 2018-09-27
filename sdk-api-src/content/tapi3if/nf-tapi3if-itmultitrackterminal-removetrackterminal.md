@@ -7,7 +7,7 @@ old-location: tapi3\itmultitrackterminal_removetrackterminal.htm
 tech.root: tapi
 ms.assetid: 59f257ef-9e52-40fb-a72c-732105262016
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],RemoveTrackTerminal method, ITMultiTrackTerminal.RemoveTrackTerminal, ITMultiTrackTerminal::RemoveTrackTerminal, RemoveTrackTerminal, RemoveTrackTerminal method [TAPI 2.2], RemoveTrackTerminal method [TAPI 2.2],ITMultiTrackTerminal interface, _tapi3_itmultitrackterminal_removetrackterminal, tapi3.itmultitrackterminal_removetrackterminal, tapi3if/ITMultiTrackTerminal::RemoveTrackTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices

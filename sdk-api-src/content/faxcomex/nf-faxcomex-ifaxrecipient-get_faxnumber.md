@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipient_cpp_mfax_faxrecipient_faxnumber_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_284y.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],IFaxRecipient interface, IFaxRecipient interface [Fax Service],FaxNumber property, IFaxRecipient.FaxNumber, IFaxRecipient.get_FaxNumber, IFaxRecipient.put_FaxNumber, IFaxRecipient::FaxNumber, IFaxRecipient::get_FaxNumber, IFaxRecipient::put_FaxNumber, _mfax_faxrecipient.faxnumber, fax._mfax_faxrecipient_cpp_mfax_faxrecipient_faxnumber_cpp, fax._mfax_faxrecipient_faxnumber, faxcomex/IFaxRecipient::FaxNumber, faxcomex/IFaxRecipient::get_FaxNumber, faxcomex/IFaxRecipient::put_FaxNumber, get_FaxNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

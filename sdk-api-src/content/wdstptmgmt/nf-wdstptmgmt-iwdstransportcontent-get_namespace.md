@@ -4,10 +4,10 @@ title: IWdsTransportContent::get_Namespace
 author: windows-sdk-content
 description: Receives a pointer to an object of an IWdsTransportNamespace interface that represents the namespace associated with this content.
 old-location: wds\iwdstransportcontent_namespace.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 8b116f8d-bcbc-4313-9527-07f871e00842
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Namespace property, IWdsTransportContent.Namespace, IWdsTransportContent.get_Namespace, IWdsTransportContent::Namespace, IWdsTransportContent::get_Namespace, Namespace property [Windows Deployment Services], Namespace property [Windows Deployment Services],IWdsTransportContent interface, get_Namespace, wds.iwdstransportcontent_namespace, wdstptmgmt/IWdsTransportContent::Namespace, wdstptmgmt/IWdsTransportContent::get_Namespace
 ms.prod: windows-hardware
 ms.technology: windows-devices

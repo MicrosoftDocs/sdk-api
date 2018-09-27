@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_enableinternetfirewall.htm
 tech.root: ics
 ms.assetid: 9805f6bf-ee06-469f-9b2f-e48caa582d1a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: EnableInternetFirewall, EnableInternetFirewall method [ICS/ICF], EnableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableInternetFirewall method, INetSharingConfiguration.EnableInternetFirewall, INetSharingConfiguration::EnableInternetFirewall, _ics_inetsharingconfiguration_enableinternetfirewall, ics.inetsharingconfiguration_enableinternetfirewall, netcon/INetSharingConfiguration::EnableInternetFirewall
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\installationimpact.htm
 tech.root: wua_sdk
 ms.assetid: 156c5aa2-125f-4ffd-b3eb-4dfed280255b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: InstallationImpact, InstallationImpact enumeration [Windows Update Agent], iiMinor, iiNormal, iiRequiresExclusiveHandling, tagInstallationImpact, wua.installationimpact, wuapi/InstallationImpact, wuapi/iiMinor, wuapi/iiNormal, wuapi/iiRequiresExclusiveHandling
 ms.prod: windows
 ms.technology: windows-sdk

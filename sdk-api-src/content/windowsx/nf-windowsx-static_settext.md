@@ -4,10 +4,10 @@ title: Static_SetText macro
 author: windows-sdk-content
 description: Sets the text of a static control.
 old-location: controls\Static_SetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_settext.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Static_SetText, Static_SetText macro [Windows Controls], _win32_Static_SetText, _win32_Static_SetText_cpp, controls.Static_SetText, controls._win32_Static_SetText, windowsx/Static_SetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

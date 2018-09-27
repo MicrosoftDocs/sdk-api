@@ -4,10 +4,10 @@ title: "_IMAGEHLP_LINEW64"
 author: windows-sdk-content
 description: Represents a source file line.
 old-location: base\imagehlp_line64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 62124983-8381-4eb4-94f6-220b844aca45
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIMAGEHLP_LINEW64, IMAGEHLP_LINE, IMAGEHLP_LINE structure, IMAGEHLP_LINE64, IMAGEHLP_LINE64 structure, IMAGEHLP_LINEW64, PIMAGEHLP_LINE64, PIMAGEHLP_LINE64 structure pointer, _IMAGEHLP_LINE64, _IMAGEHLP_LINEW64, _win32_imagehlp_line64_str, base.imagehlp_line64_str, dbghelp/IMAGEHLP_LINE64, dbghelp/IMAGEHLP_LINEW64, dbghelp/PIMAGEHLP_LINE64"
 ms.prod: windows
 ms.technology: windows-sdk

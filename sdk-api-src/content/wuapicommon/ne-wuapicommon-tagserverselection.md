@@ -7,7 +7,7 @@ old-location: wua\serverselection.htm
 tech.root: wua_sdk
 ms.assetid: 51caac5e-98a6-49e4-a175-6319349a6d68
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: ServerSelection, ServerSelection enumeration [Windows Update Agent], ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, tagServerSelection, wua.serverselection, wuapicommon/ServerSelection, wuapicommon/ssDefault, wuapicommon/ssManagedServer, wuapicommon/ssOthers, wuapicommon/ssWindowsUpdate
 ms.prod: windows
 ms.technology: windows-sdk

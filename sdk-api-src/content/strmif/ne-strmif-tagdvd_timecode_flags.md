@@ -7,7 +7,7 @@ old-location: dshow\dvd_timecode_flags.htm
 tech.root: DirectShow
 ms.assetid: 2dc5ce97-12a4-43a0-b897-14fea32d8efc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: DVD_TC_FLAG_25fps, DVD_TC_FLAG_30fps, DVD_TC_FLAG_DropFrame, DVD_TC_FLAG_Interpolated, DVD_TIMECODE_FLAGS, DVD_TIMECODE_FLAGS , DVD_TIMECODE_FLAGS enumeration [DirectShow], DVD_TIMECODE_FLAGSEnumeration, dshow.dvd_timecode_flags, strmif/DVD_TC_FLAG_25fps, strmif/DVD_TC_FLAG_30fps, strmif/DVD_TC_FLAG_DropFrame, strmif/DVD_TC_FLAG_Interpolated, strmif/DVD_TIMECODE_FLAGS, tagDVD_TIMECODE_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

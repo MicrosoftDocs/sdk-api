@@ -7,7 +7,7 @@ old-location: ics\networkisolationfreeappcontainers.htm
 tech.root: ics
 ms.assetid: d850eef3-382e-4b3e-9059-35f3171a07c7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: NetworkIsolationFreeAppContainers, NetworkIsolationFreeAppContainers function [ICS/ICF], ics.networkisolationfreeappcontainers, networkisolation/NetworkIsolationFreeAppContainers
 ms.prod: windows-hardware
 ms.technology: windows-devices

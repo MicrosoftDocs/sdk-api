@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::get_MaxCount
 author: windows-sdk-content
 description: The get_MaxCount method retrieves the maximum number of tuning spaces allowed on the system.
 old-location: mstv\ituningspacecontainer_get_maxcount.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 72692bc6-a210-4e60-9c04-14a7ea531cb4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_MaxCount method, ITuningSpaceContainer.get_MaxCount, ITuningSpaceContainer::get_MaxCount, ITuningSpaceContainerget_MaxCount, get_MaxCount, get_MaxCount method [Microsoft TV Technologies], get_MaxCount method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_maxcount, tuner/ITuningSpaceContainer::get_MaxCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

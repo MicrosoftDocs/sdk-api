@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_numberofacdcalls.htm
 tech.root: tapi
 ms.assetid: bef36468-8ee9-4ce2-bf8d-e2bd8c986ae3
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfACDCalls method, ITAgent.get_NumberOfACDCalls, ITAgent::get_NumberOfACDCalls, _tapi3_itagent_get_numberofacdcalls, get_NumberOfACDCalls, get_NumberOfACDCalls method [TAPI 2.2], get_NumberOfACDCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofacdcalls, tapi3cc/ITAgent::get_NumberOfACDCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices

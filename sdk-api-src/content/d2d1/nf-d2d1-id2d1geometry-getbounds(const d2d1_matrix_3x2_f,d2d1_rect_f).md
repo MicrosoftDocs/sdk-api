@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry_GetBounds_ptr_D2D_MATRIX_3X2_F_ptr_D2D_RECT
 tech.root: direct2d
 ms.assetid: 5dc79a72-60d5-4a6d-94e6-d8a476d01c19
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: GetBounds, GetBounds method [Direct2D], GetBounds method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],GetBounds method, ID2D1Geometry.GetBounds, ID2D1Geometry.GetBounds(const D2D1_MATRIX_3X2_F,D2D1_RECT_F), ID2D1Geometry::GetBounds, ID2D1Geometry::GetBounds(const D2D1_MATRIX_3X2_F,D2D1_RECT_F), d2d1/ID2D1Geometry::GetBounds, direct2d.ID2D1Geometry_GetBounds_ptr_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F
 ms.prod: windows-hardware
 ms.technology: windows-devices

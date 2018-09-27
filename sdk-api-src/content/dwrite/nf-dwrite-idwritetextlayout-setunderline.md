@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetUnderline.htm
 tech.root: DirectWrite
 ms.assetid: 677bb4e2-4ae9-4e79-96a3-d4961e317886
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetUnderline method, IDWriteTextLayout.SetUnderline, IDWriteTextLayout::SetUnderline, SetUnderline, SetUnderline method [Direct Write], SetUnderline method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetUnderline, dwrite/IDWriteTextLayout::SetUnderline
 ms.prod: windows-hardware
 ms.technology: windows-devices

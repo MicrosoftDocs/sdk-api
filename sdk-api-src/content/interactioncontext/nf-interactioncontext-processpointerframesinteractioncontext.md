@@ -7,7 +7,7 @@ old-location: input_intcontext\processpointerframesinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 87e70ebf-ff54-4a90-8b28-1cfe6dc33e94
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/29/2018
 ms.keywords: ProcessPointerFramesInteractionContext, ProcessPointerFramesInteractionContext function, input_intcontext.processpointerframesinteractioncontext, interactioncontext.processpointerframesinteractioncontext, interactioncontext/ProcessPointerFramesInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

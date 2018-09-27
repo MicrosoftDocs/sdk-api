@@ -4,10 +4,10 @@ title: WlanRenameProfile function
 author: windows-sdk-content
 description: Renames the specified profile.
 old-location: nwifi\wlanrenameprofile.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 488e9f87-8b98-48c6-81d5-d7237cdf5bd5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WlanRenameProfile, WlanRenameProfile function [NativeWIFI], nwifi.wlanrenameprofile, wlanapi/WlanRenameProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

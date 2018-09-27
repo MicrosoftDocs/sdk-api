@@ -7,7 +7,7 @@ old-location: fs\getnextlogarchiveextent.htm
 tech.root: Clfs
 ms.assetid: 4aaf10bd-e9df-435b-a756-5ae5c1eb2903
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: GetNextLogArchiveExtent, GetNextLogArchiveExtent function [Files], clfsw32/GetNextLogArchiveExtent, fs.getnextlogarchiveextent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcontexts_reset.htm
 tech.root: TSF
 ms.assetid: bfe1d8a3-5a5f-4397-b972-ee42358aeb66
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Reset method, IEnumTfContexts.Reset, IEnumTfContexts::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_reset_ref, msctf/IEnumTfContexts::Reset, tsf.ienumtfcontexts_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

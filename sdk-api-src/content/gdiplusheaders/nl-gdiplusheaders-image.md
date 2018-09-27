@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\image.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Image, Image class [GDI+], Image class [GDI+],described, _gdiplus_CLASS_Image_Class, gdiplus._gdiplus_CLASS_Image_Class, gdiplusheaders/Image
 ms.prod: windows
 ms.technology: windows-sdk

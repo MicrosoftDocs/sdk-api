@@ -4,10 +4,10 @@ title: RpcMgmtInqStats function
 author: windows-sdk-content
 description: The RpcMgmtInqStats function returns RPC run-time statistics.
 old-location: rpc\rpcmgmtinqstats.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 478b9f33-db01-4a1d-9b5b-dc2662ee8d7b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: RpcMgmtInqStats, RpcMgmtInqStats function [RPC], _rpc_rpcmgmtinqstats, rpc.rpcmgmtinqstats, rpcdce/RpcMgmtInqStats
 ms.prod: windows-hardware
 ms.technology: windows-devices

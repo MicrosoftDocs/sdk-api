@@ -7,7 +7,7 @@ old-location: pla\itracedatacollector_realtimebufferslost.htm
 tech.root: PLA
 ms.assetid: d18169fd-4196-4844-b110-3747244b148c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ITraceDataCollector interface [PLA],RealTimeBuffersLost property, ITraceDataCollector.RealTimeBuffersLost, ITraceDataCollector.get_RealTimeBuffersLost, ITraceDataCollector::RealTimeBuffersLost, ITraceDataCollector::get_RealTimeBuffersLost, RealTimeBuffersLost property [PLA], RealTimeBuffersLost property [PLA],ITraceDataCollector interface, base.itracedatacollector_realtimebufferslost, get_RealTimeBuffersLost, pla.itracedatacollector_realtimebufferslost, pla/ITraceDataCollector::RealTimeBuffersLost, pla/ITraceDataCollector::get_RealTimeBuffersLost
 ms.prod: windows-hardware
 ms.technology: windows-devices

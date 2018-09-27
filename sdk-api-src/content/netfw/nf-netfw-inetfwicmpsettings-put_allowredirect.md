@@ -7,7 +7,7 @@ old-location: ics\inetfwicmpsettings_allowredirect.htm
 tech.root: ics
 ms.assetid: 2d4d5e8c-8903-46f6-ba41-a7a00ac50312
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: AllowRedirect property [ICS/ICF], AllowRedirect property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowRedirect property, INetFwIcmpSettings.AllowRedirect, INetFwIcmpSettings.put_AllowRedirect, INetFwIcmpSettings::AllowRedirect, INetFwIcmpSettings::get_AllowRedirect, INetFwIcmpSettings::put_AllowRedirect, ics.inetfwicmpsettings_allowredirect, netfw/INetFwIcmpSettings::AllowRedirect, netfw/INetFwIcmpSettings::get_AllowRedirect, netfw/INetFwIcmpSettings::put_AllowRedirect, put_AllowRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ldap_search_abandon_page function
 author: windows-sdk-content
 description: The ldap_search_abandon_page function terminates a paged-results search.
 old-location: ldap\ldap_search_abandon_page.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 0c434611-b4d0-46e4-8e81-fc221e63de9f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "_ldap_ldap_search_abandon_page, ldap.ldap__search__abandon__page, ldap.ldap_search_abandon_page, ldap_search_abandon_page, ldap_search_abandon_page function [LDAP], winldap/ldap_search_abandon_page"
 ms.prod: windows-hardware
 ms.technology: windows-devices

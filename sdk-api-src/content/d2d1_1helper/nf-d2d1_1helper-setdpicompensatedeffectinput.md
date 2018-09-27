@@ -7,7 +7,7 @@ old-location: direct2d\setdpicompensatedeffectinput.htm
 tech.root: direct2d
 ms.assetid: B9E2C5F7-2E05-441D-A902-6473E0235659
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: SetDpiCompensatedEffectInput, SetDpiCompensatedEffectInput function [Direct2D], d2d1_1helper/SetDpiCompensatedEffectInput, direct2d.setdpicompensatedeffectinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

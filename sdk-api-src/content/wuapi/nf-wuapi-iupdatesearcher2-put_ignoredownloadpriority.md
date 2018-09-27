@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcher2_ignoredownloadpriority.htm
 tech.root: wua_sdk
 ms.assetid: 7c33a9c0-d77b-4ba1-9df4-152f47508d48
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateSearcher2 interface [Windows Update Agent],IgnoreDownloadPriority property, IUpdateSearcher2.IgnoreDownloadPriority, IUpdateSearcher2.put_IgnoreDownloadPriority, IUpdateSearcher2::IgnoreDownloadPriority, IUpdateSearcher2::get_IgnoreDownloadPriority, IUpdateSearcher2::put_IgnoreDownloadPriority, IgnoreDownloadPriority property [Windows Update Agent], IgnoreDownloadPriority property [Windows Update Agent],IUpdateSearcher2 interface, put_IgnoreDownloadPriority, wua.iupdatesearcher2_ignoredownloadpriority, wuapi/IUpdateSearcher2::IgnoreDownloadPriority, wuapi/IUpdateSearcher2::get_IgnoreDownloadPriority, wuapi/IUpdateSearcher2::put_IgnoreDownloadPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetThemeBackgroundRegion function
 author: windows-sdk-content
 description: Computes the region for a regular or partially transparent background that is bounded by a specified rectangle.
 old-location: controls\GetThemeBackgroundRegion.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundregion.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetThemeBackgroundRegion, GetThemeBackgroundRegion function [Windows Controls], controls.GetThemeBackgroundRegion, controls.inet_GetThemeBackgroundRegion, inet_GetThemeBackgroundRegion, inet_GetThemeBackgroundRegion_cpp, uxtheme/GetThemeBackgroundRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DRMSetUsagePolicy function
 author: windows-sdk-content
 description: Sets a usage policy that requires or denies access to content based on application name, version, or other environment characteristics.
 old-location: rm\drmsetusagepolicy.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 8c270824-ff2a-4b04-b8b0-7cc4a82d042d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMSetUsagePolicy, DRMSetUsagePolicy function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetUsagePolicy, rm.drmsetusagepolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

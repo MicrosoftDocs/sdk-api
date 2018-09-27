@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromString.htm
 tech.root: properties
 ms.assetid: eeb1002c-d06b-4f7f-b850-4c33f6e0d7aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: InitPropVariantFromString, InitPropVariantFromString function [Windows Properties], properties.InitPropVariantFromString, propvarutil/InitPropVariantFromString, shell.InitPropVariantFromString, shell_InitPropVariantFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices

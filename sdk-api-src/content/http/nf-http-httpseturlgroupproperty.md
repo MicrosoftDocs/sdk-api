@@ -4,10 +4,10 @@ title: HttpSetUrlGroupProperty function
 author: windows-sdk-content
 description: Sets a new property or modifies an existing property on the specified URL Group.
 old-location: http\httpseturlgroupproperty.htm
-tech.root: http
+tech.root: Http
 ms.assetid: e0826a25-1c50-4757-9355-69eb4946e8dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

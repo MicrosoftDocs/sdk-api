@@ -7,7 +7,7 @@ old-location: tapi2\linegetaddressid.htm
 tech.root: tapi
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: "_tapi2_linegetaddressid, lineGetAddressID, lineGetAddressID function [TAPI 2.2], lineGetAddressIDA, lineGetAddressIDW, tapi/lineGetAddressID, tapi/lineGetAddressIDA, tapi/lineGetAddressIDW, tapi2.linegetaddressid"
 ms.prod: windows-hardware
 ms.technology: windows-devices

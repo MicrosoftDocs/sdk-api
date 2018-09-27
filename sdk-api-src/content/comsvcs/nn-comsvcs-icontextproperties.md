@@ -7,7 +7,7 @@ old-location: cos\icontextproperties.htm
 tech.root: cossdk
 ms.assetid: 95a5cfda-7587-496e-ba16-0dd2e8a4db32
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IContextProperties, IContextProperties interface [COM+], IContextProperties interface [COM+],described, _cos_IContextProperties, comsvcs/IContextProperties, cos.icontextproperties
 ms.prod: windows
 ms.technology: windows-sdk

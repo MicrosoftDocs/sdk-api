@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler_TranslateAccelerator.htm
 tech.root: shell
 ms.assetid: 5e7e71f2-c728-44cb-820b-9a0b28b7266c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],TranslateAccelerator method, IPreviewHandler.TranslateAccelerator, IPreviewHandler::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_TranslateAccelerator, shell.IPreviewHandler_TranslateAccelerator, shobjidl_core/IPreviewHandler::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

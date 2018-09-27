@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_gamma.htm
 tech.root: DirectShow
 ms.assetid: f4efe538-75c5-4c52-9ad2-dc6badee74f2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Gamma method, IVideoProcAmp.put_Gamma, IVideoProcAmp::put_Gamma, IVideoProcAmpput_Gamma, dshow.ivideoprocamp_put_gamma, put_Gamma, put_Gamma method [DirectShow], put_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Gamma
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo.htm
 tech.root: wmformat
 ms.assetid: 649f9a73-c70a-4524-b577-366ade969f2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], IWMHeaderInfo interface [windows Media Format],described, IWMHeaderInfoInterface, wmformat.iwmheaderinfo, wmsdkidl/IWMHeaderInfo
 ms.prod: windows
 ms.technology: windows-sdk

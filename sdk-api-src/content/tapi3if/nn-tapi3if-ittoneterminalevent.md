@@ -7,7 +7,7 @@ old-location: tapi3\ittoneterminalevent.htm
 tech.root: tapi
 ms.assetid: 6a5d03e9-e6d1-452a-a189-ca693a72c610
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITToneTerminalEvent, ITToneTerminalEvent interface [TAPI 2.2], ITToneTerminalEvent interface [TAPI 2.2],described, _tapi3_ittoneterminalevent, tapi3.ittoneterminalevent, tapi3if/ITToneTerminalEvent
 ms.prod: windows
 ms.technology: windows-sdk

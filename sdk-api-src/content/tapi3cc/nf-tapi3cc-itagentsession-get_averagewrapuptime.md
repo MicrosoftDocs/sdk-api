@@ -7,7 +7,7 @@ old-location: tapi3\itagentsession_get_averagewrapuptime.htm
 tech.root: tapi
 ms.assetid: 365d98ab-9127-45bb-8232-3e3903bd9ab3
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageWrapUpTime method, ITAgentSession.get_AverageWrapUpTime, ITAgentSession::get_AverageWrapUpTime, _tapi3_itagentsession_get_averagewrapuptime, get_AverageWrapUpTime, get_AverageWrapUpTime method [TAPI 2.2], get_AverageWrapUpTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagewrapuptime, tapi3cc/ITAgentSession::get_AverageWrapUpTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

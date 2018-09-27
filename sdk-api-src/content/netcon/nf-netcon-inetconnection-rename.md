@@ -7,7 +7,7 @@ old-location: ics\inetconnection_rename.htm
 tech.root: ics
 ms.assetid: 741261cd-f86f-4889-aa3a-df3598938883
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetConnection interface [ICS/ICF],Rename method, INetConnection.Rename, INetConnection::Rename, Rename, Rename method [ICS/ICF], Rename method [ICS/ICF],INetConnection interface, _ics_inetconnection_rename, ics.inetconnection_rename, netcon/INetConnection::Rename
 ms.prod: windows-hardware
 ms.technology: windows-devices

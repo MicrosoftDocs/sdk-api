@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_GetString.htm
 tech.root: shell
 ms.assetid: 912b3653-340b-4186-b652-53d958534c1d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: GetString, GetString method [Windows Shell], GetString method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetString method, IShellItem2.GetString, IShellItem2::GetString, _shell_IShellItem2_GetString, shell.IShellItem2_GetString, shobjidl_core/IShellItem2::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices

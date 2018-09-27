@@ -7,7 +7,7 @@ old-location: mf\mfcreatewavemediasink.htm
 tech.root: medfound
 ms.assetid: AF2FAE46-E7A0-4294-8EE1-499AE11CD1E3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: MFCreateWAVEMediaSink, MFCreateWAVEMediaSink function [Media Foundation], mf.mfcreatewavemediasink, mfidl/MFCreateWAVEMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\ienumvariant_reset.htm
 tech.root: automat
 ms.assetid: 0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumVARIANT interface [Automation],Reset method, IEnumVARIANT.Reset, IEnumVARIANT::Reset, Reset, Reset method [Automation], Reset method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Reset, automat.ienumvariant_reset, oaidl/IEnumVARIANT::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

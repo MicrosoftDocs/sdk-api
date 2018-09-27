@@ -7,7 +7,7 @@ old-location: ics\inetfwservices.htm
 tech.root: ics
 ms.assetid: b99464c5-dabc-405a-ad3e-da06a6faef47
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], INetFwServices interface [ICS/ICF],described, ics.inetfwservices, netfw/INetFwServices
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: pla\itracedatacollector.htm
 tech.root: PLA
 ms.assetid: 1f57aa92-81f0-445f-baa3-274714e8291e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], ITraceDataCollector interface [PLA],described, base.itracedatacollector, pla.itracedatacollector, pla/ITraceDataCollector
 ms.prod: windows
 ms.technology: windows-sdk

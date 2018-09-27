@@ -7,7 +7,7 @@ old-location: base\getpriorityclass.htm
 tech.root: procthread
 ms.assetid: 2a16b18f-8efa-43f0-9f7d-d38cc8a153d3
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: GetPriorityClass, GetPriorityClass function, _win32_getpriorityclass, base.getpriorityclass, processthreadsapi/GetPriorityClass, winbase/GetPriorityClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

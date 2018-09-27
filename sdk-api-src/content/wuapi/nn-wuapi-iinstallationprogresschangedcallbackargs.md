@@ -7,7 +7,7 @@ old-location: wua\iinstallationprogresschangedcallbackargs.htm
 tech.root: wua_sdk
 ms.assetid: 9175bcaf-8015-466d-ae0c-7ba685bdf192
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IInstallationProgressChangedCallbackArgs, IInstallationProgressChangedCallbackArgs interface [Windows Update Agent], IInstallationProgressChangedCallbackArgs interface [Windows Update Agent],described, wua.iinstallationprogresschangedcallbackargs, wuapi/IInstallationProgressChangedCallbackArgs
 ms.prod: windows
 ms.technology: windows-sdk

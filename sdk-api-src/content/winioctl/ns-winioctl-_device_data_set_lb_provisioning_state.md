@@ -7,7 +7,7 @@ old-location: base\device_data_set_lb_provisioning_state.htm
 tech.root: devio
 ms.assetid: 757ffd97-2a00-4508-817c-0bfb2f2e3a84
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DSM_ALLOCATION_OUTPUT, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure, DEVICE_DSM_ALLOCATION_OUTPUT, PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer, _DEVICE_DATA_SET_LB_PROVISIONING_STATE, base.device_data_set_lb_provisioning_state, winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE, winioctl/PDEVICE_DATA_SET_LB_PROVISIONING_STATE"
 ms.prod: windows
 ms.technology: windows-sdk

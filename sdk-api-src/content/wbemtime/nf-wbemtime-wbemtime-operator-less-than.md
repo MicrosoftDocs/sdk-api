@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_comparison_operators_lessthan.htm
 tech.root: WmiSdk
 ms.assetid: 9541f141-b1ec-4e99-b3a1-5806a14be7b6
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator< method, WBEMTime.operator-less-than, WBEMTime.operator<, WBEMTime::operator-less-than, WBEMTime::operator<, operator<, operator< method [Windows Management Instrumentation], operator< method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator<, wmi.wbemtime_comparison_operators_lessthan
 ms.prod: windows-hardware
 ms.technology: windows-devices

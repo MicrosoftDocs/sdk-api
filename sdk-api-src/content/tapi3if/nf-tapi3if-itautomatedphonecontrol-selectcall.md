@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_selectcall.htm
 tech.root: tapi
 ms.assetid: b9e721cb-8f62-420d-bfc1-f8e634f0f2d4
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],SelectCall method, ITAutomatedPhoneControl.SelectCall, ITAutomatedPhoneControl::SelectCall, SelectCall, SelectCall method [TAPI 2.2], SelectCall method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_selectcall, tapi3.itautomatedphonecontrol_selectcall, tapi3if/ITAutomatedPhoneControl::SelectCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

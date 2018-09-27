@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10::get_RawDataToBeSigned
 author: windows-sdk-content
 description: Retrieves the unsigned certificate request created by the Encode method.
 old-location: security\ix509certificaterequestpkcs10_rawdatatobesigned_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 43e7e3e2-d94d-46b4-b76b-cd54f9d618ec
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],RawDataToBeSigned property, IX509CertificateRequestPkcs10.RawDataToBeSigned, IX509CertificateRequestPkcs10.get_RawDataToBeSigned, IX509CertificateRequestPkcs10::RawDataToBeSigned, IX509CertificateRequestPkcs10::get_RawDataToBeSigned, RawDataToBeSigned property [Security], RawDataToBeSigned property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::RawDataToBeSigned, certenroll/IX509CertificateRequestPkcs10::get_RawDataToBeSigned, get_RawDataToBeSigned, security.ix509certificaterequestpkcs10_rawdatatobesigned_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

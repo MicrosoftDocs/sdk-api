@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1EllipseGeometry.htm
 tech.root: direct2d
 ms.assetid: 4ab6452c-6df8-46c0-9e0d-0cebc19d84ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1EllipseGeometry, ID2D1EllipseGeometry interface [Direct2D], ID2D1EllipseGeometry interface [Direct2D],described, d2d1/ID2D1EllipseGeometry, direct2d.ID2D1EllipseGeometry
 ms.prod: windows
 ms.technology: windows-sdk

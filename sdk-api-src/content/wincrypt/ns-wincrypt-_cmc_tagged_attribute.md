@@ -7,7 +7,7 @@ old-location: security\cmc_tagged_attribute.htm
 tech.root: seccrypto
 ms.assetid: 4c350cda-2318-49b2-86dc-452423ceb9e3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCMC_TAGGED_ATTRIBUTE, CMC_TAGGED_ATTRIBUTE, CMC_TAGGED_ATTRIBUTE structure [Security], PCMC_TAGGED_ATTRIBUTE, PCMC_TAGGED_ATTRIBUTE structure pointer [Security], _CMC_TAGGED_ATTRIBUTE, _crypto2_cmc_tagged_attribute, security.cmc_tagged_attribute, wincrypt/CMC_TAGGED_ATTRIBUTE, wincrypt/PCMC_TAGGED_ATTRIBUTE"
 ms.prod: windows
 ms.technology: windows-sdk

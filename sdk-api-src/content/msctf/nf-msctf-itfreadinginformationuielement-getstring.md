@@ -7,7 +7,7 @@ old-location: tsf\itfreadinginformationuielement_getstring.htm
 tech.root: TSF
 ms.assetid: d8e7dae5-ea73-4fad-a731-3ca1eaa60b03
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetString method, ITfReadingInformationUIElement.GetString, ITfReadingInformationUIElement::GetString, msctf/ITfReadingInformationUIElement::GetString, tsf.iitfreadinginformationuielement_getstring, tsf.itfreadinginformationuielement_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

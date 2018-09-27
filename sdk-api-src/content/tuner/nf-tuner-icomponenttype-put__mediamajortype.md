@@ -4,10 +4,10 @@ title: IComponentType::put__MediaMajorType
 author: windows-sdk-content
 description: The put__MediaMajorType method sets the DirectShow media major type.
 old-location: mstv\icomponenttype_put__mediamajortype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3886f7fe-1520-4fee-a88b-26ee1cdf32fe
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaMajorType method, IComponentType.put__MediaMajorType, IComponentType::put__MediaMajorType, IComponentTypeput__MediaMajorType, mstv.icomponenttype_put__mediamajortype, put__MediaMajorType, put__MediaMajorType method [Microsoft TV Technologies], put__MediaMajorType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaMajorType
 ms.prod: windows-hardware
 ms.technology: windows-devices

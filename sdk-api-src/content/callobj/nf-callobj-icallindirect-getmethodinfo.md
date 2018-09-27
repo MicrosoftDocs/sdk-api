@@ -7,7 +7,7 @@ old-location: com\icallindirect_getmethodinfo.htm
 tech.root: com
 ms.assetid: 1bfbbb24-0cdb-467b-abce-0291dfe8f641
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: GetMethodInfo, GetMethodInfo method [COM], GetMethodInfo method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetMethodInfo method, ICallIndirect.GetMethodInfo, ICallIndirect::GetMethodInfo, _com_icallindirect_getmethodinfo, callobj/ICallIndirect::GetMethodInfo, com.icallindirect_getmethodinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

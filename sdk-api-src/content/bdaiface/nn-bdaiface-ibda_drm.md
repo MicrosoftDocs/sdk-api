@@ -4,10 +4,10 @@ title: IBDA_DRM
 author: windows-sdk-content
 description: The IBDA_DRM interface is used to request a tuner to perform a DRM handshake with the user's computer.
 old-location: mstv\ibda_drm.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d0bde207-d550-4e98-85c7-b0d47b0cd637
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_DRM, IBDA_DRM interface [Microsoft TV Technologies], IBDA_DRM interface [Microsoft TV Technologies],described, IBDA_DRMInterface, bdaiface/IBDA_DRM, mstv.ibda_drm
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfasyncresult_getstatenoaddref.htm
 tech.root: medfound
 ms.assetid: 37ba820c-5253-48de-a960-c546e50e8672
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: 37ba820c-5253-48de-a960-c546e50e8672, GetStateNoAddRef, GetStateNoAddRef method [Media Foundation], GetStateNoAddRef method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetStateNoAddRef method, IMFAsyncResult.GetStateNoAddRef, IMFAsyncResult::GetStateNoAddRef, mf.imfasyncresult_getstatenoaddref, mfobjects/IMFAsyncResult::GetStateNoAddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itrendezvous.htm
 tech.root: tapi
 ms.assetid: ea8b0a66-b968-4a24-95db-e702d49a2870
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], ITRendezvous interface [TAPI 2.2],described, _tapi3_itrendezvous, rend/ITRendezvous, tapi3.itrendezvous
 ms.prod: windows
 ms.technology: windows-sdk

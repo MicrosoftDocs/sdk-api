@@ -7,7 +7,7 @@ old-location: setup\msiopenproduct.htm
 tech.root: msi
 ms.assetid: fdc5a2f5-c44a-4cb3-b206-a598bd60024b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: MsiOpenProduct, MsiOpenProduct function, MsiOpenProductA, MsiOpenProductW, _msi_msiopenproduct, msi/MsiOpenProduct, msi/MsiOpenProductA, msi/MsiOpenProductW, setup.msiopenproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices

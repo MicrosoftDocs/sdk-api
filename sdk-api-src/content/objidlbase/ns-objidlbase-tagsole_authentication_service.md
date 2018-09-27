@@ -7,7 +7,7 @@ old-location: com\sole_authentication_service.htm
 tech.root: com
 ms.assetid: 77fd15d7-54d4-4812-93d3-13a671e7afff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: "*PSOLE_AUTHENTICATION_SERVICE, PSOLE_AUTHENTICATION_SERVICE, PSOLE_AUTHENTICATION_SERVICE structure pointer [COM], SOLE_AUTHENTICATION_SERVICE, SOLE_AUTHENTICATION_SERVICE structure [COM], _com_SOLE_AUTHENTICATION_SERVICE, com.sole_authentication_service, objidlbase/PSOLE_AUTHENTICATION_SERVICE, objidlbase/SOLE_AUTHENTICATION_SERVICE, tagSOLE_AUTHENTICATION_SERVICE"
 ms.prod: windows
 ms.technology: windows-sdk

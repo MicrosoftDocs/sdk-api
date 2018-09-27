@@ -7,7 +7,7 @@ old-location: shell\IShellWindows.htm
 tech.root: shell
 ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/21/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindows interface [Windows Shell],described, _win32_IShellWindows, exdisp/IShellWindows, shell.IShellWindows
 ms.prod: windows
 ms.technology: windows-sdk

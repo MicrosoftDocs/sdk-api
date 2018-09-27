@@ -7,7 +7,7 @@ old-location: mmc\iconsole_selectscopeitem.htm
 tech.root: mmc
 ms.assetid: ADE56DDF-C437-4BF3-A2EC-1E35EE7567F3
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IConsole interface [MMC],SelectScopeItem method, IConsole.SelectScopeItem, IConsole::SelectScopeItem, SelectScopeItem, SelectScopeItem method [MMC], SelectScopeItem method [MMC],IConsole interface, mmc.iconsole_selectscopeitem, mmc/IConsole::SelectScopeItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

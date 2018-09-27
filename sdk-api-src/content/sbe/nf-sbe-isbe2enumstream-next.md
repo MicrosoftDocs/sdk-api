@@ -4,10 +4,10 @@ title: ISBE2EnumStream::Next
 author: windows-sdk-content
 description: Retrieves the next n streams in the collection.
 old-location: mstv\isbe2enumstream_next.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c6445927-d7a7-4f45-a7ff-14484161b731
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Next method, ISBE2EnumStream.Next, ISBE2EnumStream::Next, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_next, sbe/ISBE2EnumStream::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

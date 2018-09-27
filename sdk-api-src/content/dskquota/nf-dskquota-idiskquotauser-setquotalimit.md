@@ -4,10 +4,10 @@ title: IDiskQuotaUser::SetQuotaLimit
 author: windows-sdk-content
 description: Sets the user's quota limit value on the volume.
 old-location: fs\idiskquotauser_setquotalimit.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f7c99415-685b-4a21-ac7b-68f4816aafb0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDiskQuotaUser interface [Files],SetQuotaLimit method, IDiskQuotaUser.SetQuotaLimit, IDiskQuotaUser::SetQuotaLimit, SetQuotaLimit, SetQuotaLimit method [Files], SetQuotaLimit method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_setquotalimit, base.idiskquotauser_setquotalimit, dskquota/IDiskQuotaUser::SetQuotaLimit, fs.idiskquotauser_setquotalimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

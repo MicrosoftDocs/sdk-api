@@ -7,7 +7,7 @@ old-location: p2p\peercollabstartup.htm
 tech.root: p2psdk
 ms.assetid: b3f4ac2a-c722-4609-b893-c4b9667ae559
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabStartup, PeerCollabStartup function [Peer Networking], p2p.peercollabstartup, p2p/PeerCollabStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

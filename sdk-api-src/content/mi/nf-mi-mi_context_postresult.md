@@ -4,10 +4,10 @@ title: MI_Context_PostResult function
 author: windows-sdk-content
 description: Posts the final terminating result code back to the client (through the server) in response to a request.
 old-location: wmi_v2\mi_context_postresult.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: e890ebab-f243-40eb-8a56-a771475929bb
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Context_PostResult, MI_Context_PostResult function [Windows Management Infrastructure (MI)], mi/MI_Context_PostResult, wmi.mi_postresult, wmi_v2.mi_context_postresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

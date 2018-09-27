@@ -2,13 +2,12 @@
 UID: NA:winsync
 ms.assetid: b0d60bdc-2a59-3623-a2d3-95bc90c02b81
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winsync
-archived: true
 ---
 
 # Winsync.h header

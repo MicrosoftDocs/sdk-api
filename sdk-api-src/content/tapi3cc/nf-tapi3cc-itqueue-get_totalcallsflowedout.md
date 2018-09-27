@@ -7,7 +7,7 @@ old-location: tapi3\itqueue_get_totalcallsflowedout.htm
 tech.root: tapi
 ms.assetid: e12cc43b-54d9-4e65-82e8-a2e819ea219e
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsFlowedOut method, ITQueue.get_TotalCallsFlowedOut, ITQueue::get_TotalCallsFlowedOut, _tapi3_itqueue_get_totalcallsflowedout, get_TotalCallsFlowedOut, get_TotalCallsFlowedOut method [TAPI 2.2], get_TotalCallsFlowedOut method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsflowedout, tapi3cc/ITQueue::get_TotalCallsFlowedOut
 ms.prod: windows-hardware
 ms.technology: windows-devices

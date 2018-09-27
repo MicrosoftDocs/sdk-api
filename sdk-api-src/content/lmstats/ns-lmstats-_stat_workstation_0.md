@@ -4,10 +4,10 @@ title: "_STAT_WORKSTATION_0"
 author: windows-sdk-content
 description: Contains statistical information about the specified workstation.
 old-location: fs\stat_workstation_0_str.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: 7a29fe54-fd15-499d-b255-f49025421861
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSTAT_WORKSTATION_0, *PSTAT_WORKSTATION_0, LPSTAT_WORKSTATION_0, LPSTAT_WORKSTATION_0 structure pointer [Files], PSTAT_WORKSTATION_0, PSTAT_WORKSTATION_0 structure pointer [Files], STAT_WORKSTATION_0, STAT_WORKSTATION_0 structure [Files], _STAT_WORKSTATION_0, _win32_stat_workstation_0_str, fs.stat_workstation_0_str, lmstats/LPSTAT_WORKSTATION_0, lmstats/PSTAT_WORKSTATION_0, lmstats/STAT_WORKSTATION_0, netmgmt.stat_workstation_0_str"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_getwindowhandle.htm
 tech.root: DirectShow
 ms.assetid: f2d4cc53-ab0a-4c15-9818-3f312a13d4e1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: GetWindowHandle, GetWindowHandle method [DirectShow], GetWindowHandle method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetWindowHandle method, IOverlay.GetWindowHandle, IOverlay::GetWindowHandle, IOverlayGetWindowHandle, dshow.ioverlay_getwindowhandle, strmif/IOverlay::GetWindowHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

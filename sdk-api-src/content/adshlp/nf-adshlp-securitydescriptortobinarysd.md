@@ -7,7 +7,7 @@ old-location: adsi\securitydescriptortobinarysd.htm
 tech.root: ADSI
 ms.assetid: b1c814fd-df0f-406b-adfc-c356ce37d524
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: SecurityDescriptorToBinarySD, SecurityDescriptorToBinarySD function [ADSI], adshlp/SecurityDescriptorToBinarySD, adsi.securitydescriptortobinarysd
 ms.prod: windows-hardware
 ms.technology: windows-devices

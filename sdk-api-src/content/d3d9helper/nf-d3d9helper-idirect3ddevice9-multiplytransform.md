@@ -4,10 +4,10 @@ title: IDirect3DDevice9::MultiplyTransform
 author: windows-sdk-content
 description: Multiplies a device's world, view, or projection matrices by a specified matrix.
 old-location: direct3d9\idirect3ddevice9__multiplytransform.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__multiplytransform.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],MultiplyTransform method, IDirect3DDevice9.MultiplyTransform, IDirect3DDevice9::MultiplyTransform, MultiplyTransform, MultiplyTransform method [Direct3D 9], MultiplyTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::MultiplyTransform, direct3d9.idirect3ddevice9__multiplytransform, fe383422-a888-e230-bf89-3ae4af8e8e7d
 ms.prod: windows-hardware
 ms.technology: windows-devices

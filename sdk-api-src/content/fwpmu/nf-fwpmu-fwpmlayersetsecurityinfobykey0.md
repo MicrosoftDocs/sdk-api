@@ -4,10 +4,10 @@ title: FwpmLayerSetSecurityInfoByKey0 function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a layer object.
 old-location: fwp\fwpmlayersetsecurityinfobykey0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: a6f1e50b-bce1-42db-bb6f-dc0c93859015
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmLayerSetSecurityInfoByKey0, FwpmLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmlayersetsecurityinfobykey0_func, fwpmu/FwpmLayerSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

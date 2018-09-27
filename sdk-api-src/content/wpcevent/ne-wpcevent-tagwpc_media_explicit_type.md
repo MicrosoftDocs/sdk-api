@@ -7,7 +7,7 @@ old-location: parcon\wpc_media_explicit.htm
 tech.root: parcon
 ms.assetid: 01039f7c-5ac3-4a56-b93b-317656efeb3f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WPC_MEDIA_EXPLICIT, WPC_MEDIA_EXPLICIT enumeration, WPC_MEDIA_EXPLICIT_FALSE, WPC_MEDIA_EXPLICIT_TRUE, WPC_MEDIA_EXPLICIT_TYPE, WPC_MEDIA_EXPLICIT_UNKNOWN, parcon.wpc_media_explicit, tagWPC_MEDIA_EXPLICIT_TYPE, wpcevent/WPC_MEDIA_EXPLICIT, wpcevent/WPC_MEDIA_EXPLICIT_FALSE, wpcevent/WPC_MEDIA_EXPLICIT_TRUE, wpcevent/WPC_MEDIA_EXPLICIT_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

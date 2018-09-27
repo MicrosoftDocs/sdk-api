@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_swap_chain_fullscreen_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: 0EE5683E-0623-4FD7-A77F-B64F90A25C6A
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: DXGI_SWAP_CHAIN_FULLSCREEN_DESC, DXGI_SWAP_CHAIN_FULLSCREEN_DESC structure [DXGI], direct3ddxgi.dxgi_swap_chain_fullscreen_desc, dxgi1_2/DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpV4QueryPolicyEnforcement function
 author: windows-sdk-content
 description: Retrieves the policy enforcement state on the server or the specified IPv4 subnet from the DHCP Server.
 old-location: dhcp\dhcpv4querypolicyenforcement.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: a622d83c-bb18-4482-be8d-fdd96382a5e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpV4QueryPolicyEnforcement, DhcpV4QueryPolicyEnforcement function [DHCP], dhcp.dhcpv4querypolicyenforcement, dhcpsapi/DhcpV4QueryPolicyEnforcement
 ms.prod: windows-hardware
 ms.technology: windows-devices

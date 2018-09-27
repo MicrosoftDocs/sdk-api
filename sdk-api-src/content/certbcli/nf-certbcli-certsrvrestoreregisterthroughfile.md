@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregisterthroughfile.htm
 tech.root: seccrypto
 ms.assetid: 6b929983-9905-48c1-96f3-01d8b39878be
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: CertSrvRestoreRegisterThroughFile, CertSrvRestoreRegisterThroughFile function [Security], certbcli/CertSrvRestoreRegisterThroughFile, security.certsrvrestoreregisterthroughfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

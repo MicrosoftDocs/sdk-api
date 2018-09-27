@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard.htm
 tech.root: mscs
 ms.assetid: 6407163e-a8ca-4601-88a0-ecf87e29b9ab
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IWEExtendWizard, IWEExtendWizard interface [Failover Cluster], IWEExtendWizard interface [Failover Cluster],described, _wolf_iweextendwizard, cluadmex/IWEExtendWizard, mscs.iweextendwizard
 ms.prod: windows
 ms.technology: windows-sdk

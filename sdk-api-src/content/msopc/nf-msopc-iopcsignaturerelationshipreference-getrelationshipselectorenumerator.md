@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreference_getrelationshipselectorenum
 tech.root: OPC
 ms.assetid: a9e1e9e8-d318-4e72-ba52-d020e58f85ff
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRelationshipSelectorEnumerator, GetRelationshipSelectorEnumerator method [Open Packaging Conventions], GetRelationshipSelectorEnumerator method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetRelationshipSelectorEnumerator method, IOpcSignatureRelationshipReference.GetRelationshipSelectorEnumerator, IOpcSignatureRelationshipReference::GetRelationshipSelectorEnumerator, msopc/IOpcSignatureRelationshipReference::GetRelationshipSelectorEnumerator, opc.iopcsignaturerelationshipreference_getrelationshipselectorenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdateservice.htm
 tech.root: wua_sdk
 ms.assetid: 2f237cd3-668b-4b1b-b98b-4cfc40f5889e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateService, IUpdateService interface [Windows Update Agent], IUpdateService interface [Windows Update Agent],described, wua.iupdateservice, wuapi/IUpdateService
 ms.prod: windows
 ms.technology: windows-sdk

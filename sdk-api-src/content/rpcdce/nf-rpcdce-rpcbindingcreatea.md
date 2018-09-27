@@ -4,10 +4,10 @@ title: RpcBindingCreateA function
 author: windows-sdk-content
 description: The RpcBindingCreate function creates a new fast RPC binding handle based on a supplied template.
 old-location: rpc\rpcbindingcreate.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 0188512e-bff6-414b-a6eb-19bfe8e0b3a9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: RpcBindingCreate, RpcBindingCreate function [RPC], RpcBindingCreateA, RpcBindingCreateW, rpc.rpcbindingcreate, rpcdce/RpcBindingCreate, rpcdce/RpcBindingCreateA, rpcdce/RpcBindingCreateW
 ms.prod: windows-hardware
 ms.technology: windows-devices

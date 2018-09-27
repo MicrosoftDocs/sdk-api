@@ -7,7 +7,7 @@ old-location: base\queryprocessaffinityupdatemode.htm
 tech.root: procthread
 ms.assetid: e1c9fab2-45a0-4ea7-bafb-91fc0f22e658
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/14/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, QueryProcessAffinityUpdateMode, QueryProcessAffinityUpdateMode function, base.queryprocessaffinityupdatemode, processthreadsapi/QueryProcessAffinityUpdateMode, winbase/QueryProcessAffinityUpdateMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

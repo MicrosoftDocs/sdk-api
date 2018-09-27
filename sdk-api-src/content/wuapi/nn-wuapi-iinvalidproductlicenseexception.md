@@ -7,7 +7,7 @@ old-location: wua\iinvalidproductlicenseexception.htm
 tech.root: wua_sdk
 ms.assetid: 7855fcf7-e82e-4d74-a29a-99ef86b59637
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IInvalidProductLicenseException, IInvalidProductLicenseException interface [Windows Update Agent], IInvalidProductLicenseException interface [Windows Update Agent],described, wua.iinvalidproductlicenseexception, wuapi/IInvalidProductLicenseException
 ms.prod: windows
 ms.technology: windows-sdk

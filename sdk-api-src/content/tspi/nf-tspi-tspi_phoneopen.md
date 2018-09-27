@@ -7,7 +7,7 @@ old-location: tspi\tspi_phoneopen.htm
 tech.root: tapi
 ms.assetid: e2a4372f-62ff-488c-94a7-ed44388b8092
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: TSPI_phoneOpen, TSPI_phoneOpen function [TAPI 2.2], _tspi_tspi_phoneopen, tspi.tspi_phoneopen, tspi/TSPI_phoneOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IIdleSettings::get_RestartOnIdle
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once.
 old-location: taskschd\iidlesettings_restartonidle.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 42779c7d-4739-47c5-bf35-5d6c612c59c0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],RestartOnIdle property, IIdleSettings.RestartOnIdle, IIdleSettings.get_RestartOnIdle, IIdleSettings::RestartOnIdle, IIdleSettings::get_RestartOnIdle, IIdleSettings::put_RestartOnIdle, RestartOnIdle property [Task Scheduler], RestartOnIdle property [Task Scheduler],IIdleSettings interface, get_RestartOnIdle, taskschd.iidlesettings_restartonidle, taskschd/IIdleSettings::RestartOnIdle, taskschd/IIdleSettings::get_RestartOnIdle, taskschd/IIdleSettings::put_RestartOnIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices

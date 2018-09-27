@@ -7,7 +7,7 @@ old-location: tsf\tfanchor.htm
 tech.root: TSF
 ms.assetid: d670666f-2915-4a23-b825-b534a015e37f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TF_ANCHOR_END, TF_ANCHOR_START, TfAnchor, TfAnchor enumeration [Text Services Framework], __MIDL___MIDL_itf_msctf_0000_0000_0001, _tsf_tfanchor_ref, msctf/TF_ANCHOR_END, msctf/TF_ANCHOR_START, msctf/TfAnchor, tsf.tfanchor
 ms.prod: windows
 ms.technology: windows-sdk

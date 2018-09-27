@@ -7,7 +7,7 @@ old-location: display\drvdescribepixelformat.htm
 tech.root: display
 ms.assetid: 7c630694-e076-4ab2-a2c9-262c7c5da988
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/14/2018
 ms.keywords: DrvDescribePixelFormat, DrvDescribePixelFormat function [Display Devices], ddifncs_ad08e90b-a4e1-43e3-bbd7-8476d1c5568b.xml, display.drvdescribepixelformat, winddi/DrvDescribePixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

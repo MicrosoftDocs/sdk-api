@@ -2,7 +2,7 @@
 UID: NA:resourceindexer
 ms.assetid: be80ad7f-a3cc-3bd5-8d3b-9e14d1fc9fc5
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

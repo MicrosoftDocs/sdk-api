@@ -7,7 +7,7 @@ old-location: tapi3\itagentsession.htm
 tech.root: tapi
 ms.assetid: b0db0834-7b9b-4a72-9cc6-6cba31ed1275
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], ITAgentSession interface [TAPI 2.2],described, _tapi3_itagentsession, tapi3.itagentsession, tapi3cc/ITAgentSession
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetXStateFeaturesMask function
 author: windows-sdk-content
 description: Returns the mask of XState features set within a CONTEXT structure.
 old-location: base\getxstatefeaturesmask.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxstatefeaturesmask, winbase/GetXStateFeaturesMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

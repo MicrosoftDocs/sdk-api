@@ -7,7 +7,7 @@ old-location: tapi3\agent_state.htm
 tech.root: tapi
 ms.assetid: 6d63030e-cd47-48db-ab0d-a3c4f3aac733
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/21/2018
 ms.keywords: AGENT_STATE, AGENT_STATE enumeration [TAPI 2.2], AS_BUSY_ACD, AS_BUSY_INCOMING, AS_BUSY_OUTGOING, AS_NOT_READY, AS_READY, AS_UNKNOWN, _tapi3_agent_state, tapi3.agent_state, tapi3cc/AGENT_STATE, tapi3cc/AS_BUSY_ACD, tapi3cc/AS_BUSY_INCOMING, tapi3cc/AS_BUSY_OUTGOING, tapi3cc/AS_NOT_READY, tapi3cc/AS_READY, tapi3cc/AS_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

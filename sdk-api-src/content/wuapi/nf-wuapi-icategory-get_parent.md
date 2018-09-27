@@ -7,7 +7,7 @@ old-location: wua\icategory_parent.htm
 tech.root: wua_sdk
 ms.assetid: 29d93cd6-3ecf-44f8-8481-267c3e88be50
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: ICategory interface [Windows Update Agent],Parent property, ICategory.Parent, ICategory.get_Parent, ICategory::Parent, ICategory::get_Parent, Parent property [Windows Update Agent], Parent property [Windows Update Agent],ICategory interface, get_Parent, wua.icategory_parent, wuapi/ICategory::Parent, wuapi/ICategory::get_Parent
 ms.prod: windows-hardware
 ms.technology: windows-devices

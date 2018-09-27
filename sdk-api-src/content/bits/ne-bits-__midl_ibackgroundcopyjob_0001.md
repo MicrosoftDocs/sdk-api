@@ -4,10 +4,10 @@ title: "__MIDL_IBackgroundCopyJob_0001"
 author: windows-sdk-content
 description: The BG_JOB_PRIORITY enumeration defines the constant values that specify the priority level of a job.
 old-location: bits\bg_job_priority.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BG_JOB_PRIORITY, BG_JOB_PRIORITY enumeration [BITS], BG_JOB_PRIORITY_FOREGROUND, BG_JOB_PRIORITY_HIGH, BG_JOB_PRIORITY_LOW, BG_JOB_PRIORITY_NORMAL, __MIDL_IBackgroundCopyJob_0001, _drz_bg_job_priority, bits.bg_job_priority, bits/BG_JOB_PRIORITY, bits/BG_JOB_PRIORITY_FOREGROUND, bits/BG_JOB_PRIORITY_HIGH, bits/BG_JOB_PRIORITY_LOW, bits/BG_JOB_PRIORITY_NORMAL
 ms.prod: windows
 ms.technology: windows-sdk

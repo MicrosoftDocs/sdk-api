@@ -7,7 +7,7 @@ old-location: display\enumrects.htm
 tech.root: display
 ms.assetid: f7b8787f-f383-4cae-970e-8f4eb34b00da
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/14/2018
 ms.keywords: ENUMRECTS, ENUMRECTS structure [Display Devices], _ENUMRECTS, display.enumrects, grstrcts_8ea2422f-1b57-4a7a-be86-adca8b830a36.xml, winddi/ENUMRECTS
 ms.prod: windows
 ms.technology: windows-sdk

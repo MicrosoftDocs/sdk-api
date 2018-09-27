@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_setstablepowerstate.htm
 tech.root: direct3d12
 ms.assetid: 6078DAEF-DD8B-4F1F-86C8-96CE7BD691E4
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: ID3D12Device interface,SetStablePowerState method, ID3D12Device.SetStablePowerState, ID3D12Device::SetStablePowerState, SetStablePowerState, SetStablePowerState method, SetStablePowerState method,ID3D12Device interface, d3d12/ID3D12Device::SetStablePowerState, direct3d12.id3d12device_setstablepowerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

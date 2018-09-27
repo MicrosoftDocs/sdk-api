@@ -4,10 +4,10 @@ title: RpcNsMgmtBindingUnexportW function
 author: windows-sdk-content
 description: The RpcNsMgmtBindingUnexport function removes multiple binding handles and objects from an entry in the name-service database.
 old-location: rpc\rpcnsmgmtbindingunexport.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: e15b9e45-ac9f-4f90-9323-8b16066290d2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: RPC_C_VERS_ALL, RPC_C_VERS_EXACT, RPC_C_VERS_IF_ID, RPC_C_VERS_MAJOR_ONLY, RPC_C_VERS_UPTO, RpcNsMgmtBindingUnexport, RpcNsMgmtBindingUnexport function [RPC], RpcNsMgmtBindingUnexportA, RpcNsMgmtBindingUnexportW, _rpc_rpcnsmgmtbindingunexport, rpc.rpcnsmgmtbindingunexport, rpcnsi/RpcNsMgmtBindingUnexport, rpcnsi/RpcNsMgmtBindingUnexportA, rpcnsi/RpcNsMgmtBindingUnexportW
 ms.prod: windows-hardware
 ms.technology: windows-devices

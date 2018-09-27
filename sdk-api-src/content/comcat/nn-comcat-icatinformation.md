@@ -7,7 +7,7 @@ old-location: com\icatinformation.htm
 tech.root: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
 ms.prod: windows
 ms.technology: windows-sdk

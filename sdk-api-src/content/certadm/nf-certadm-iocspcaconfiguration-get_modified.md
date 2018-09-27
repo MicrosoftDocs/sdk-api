@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_modified_method.htm
 tech.root: seccrypto
 ms.assetid: 29307049-2165-4871-9ae3-72858752a6a3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/21/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Modified property, IOCSPCAConfiguration.Modified, IOCSPCAConfiguration.get_Modified, IOCSPCAConfiguration::Modified, IOCSPCAConfiguration::get_Modified, Modified property [Security], Modified property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Modified, certadm/IOCSPCAConfiguration::get_Modified, get_Modified, security.iocspcaconfiguration_modified_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

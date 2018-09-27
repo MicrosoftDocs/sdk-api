@@ -7,7 +7,7 @@ old-location: mscs\close.htm
 tech.root: mscs
 ms.assetid: c7c74440-c98a-4440-8bf4-10ebd1a68608
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Close, PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, PCLOSE_ROUTINE callback function [Failover Cluster], _wolf_close, mscs.close, resapi/PCLOSE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

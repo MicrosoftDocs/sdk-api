@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_getvideosize.htm
 tech.root: DirectShow
 ms.assetid: fbabba8b-b86b-451b-ad06-4454174ee352
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: GetVideoSize, GetVideoSize method [DirectShow], GetVideoSize method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoSize method, IBasicVideo.GetVideoSize, IBasicVideo::GetVideoSize, IBasicVideoGetVideoSize, control/IBasicVideo::GetVideoSize, dshow.ibasicvideo_getvideosize
 ms.prod: windows-hardware
 ms.technology: windows-devices

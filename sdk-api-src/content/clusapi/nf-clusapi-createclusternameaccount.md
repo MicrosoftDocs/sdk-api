@@ -7,7 +7,7 @@ old-location: mscs\createclusternameaccount.htm
 tech.root: mscs
 ms.assetid: 82BBEE9D-C787-4935-BB5F-09438676B37A
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CreateClusterNameAccount, CreateClusterNameAccount function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT function [Failover Cluster], clusapi/CreateClusterNameAccount, clusapi/PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, mscs.createclusternameaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

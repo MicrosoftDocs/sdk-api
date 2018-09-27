@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplatemanager_enumtemplates.htm
 tech.root: fsrm
 ms.assetid: e5f5b94a-6b17-4379-9141-07ec70a830e9
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: EnumTemplates, EnumTemplates method [File Server Resource Manager], EnumTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, EnumTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],EnumTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],EnumTemplates method, IFsrmQuotaTemplateManager.EnumTemplates, IFsrmQuotaTemplateManager::EnumTemplates, fs.ifsrmquotatemplatemanager_enumtemplates, fsrm.ifsrmquotatemplatemanager_enumtemplates, fsrmquota/IFsrmQuotaTemplateManager::EnumTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices

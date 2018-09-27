@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_21_str.htm
 tech.root: netmgmt
 ms.assetid: 227e97c5-972e-4d4a-9609-53e60e76d43e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*LPUSER_INFO_21, *PUSER_INFO_21, LPUSER_INFO_21, LPUSER_INFO_21 structure pointer [Network Management], PUSER_INFO_21, PUSER_INFO_21 structure pointer [Network Management], USER_INFO_21, USER_INFO_21 structure [Network Management], _USER_INFO_21, _win32_user_info_21_str, lmaccess/LPUSER_INFO_21, lmaccess/PUSER_INFO_21, lmaccess/USER_INFO_21, netmgmt.user_info_21_str"
 ms.prod: windows
 ms.technology: windows-sdk

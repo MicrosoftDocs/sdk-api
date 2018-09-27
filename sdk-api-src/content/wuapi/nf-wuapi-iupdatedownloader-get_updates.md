@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloader_updates.htm
 tech.root: wua_sdk
 ms.assetid: 7c0444be-a9eb-461a-858e-1dea670afd06
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],Updates property, IUpdateDownloader.Updates, IUpdateDownloader.get_Updates, IUpdateDownloader::Updates, IUpdateDownloader::get_Updates, IUpdateDownloader::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IUpdateDownloader interface, get_Updates, wua.iupdatedownloader_updates, wuapi/IUpdateDownloader::Updates, wuapi/IUpdateDownloader::get_Updates, wuapi/IUpdateDownloader::put_Updates
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetThemeSysBool function
 author: windows-sdk-content
 description: Retrieves the Boolean value of a system metric.
 old-location: controls\GetThemeSysBool.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysbool.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetThemeSysBool, GetThemeSysBool function [Windows Controls], TMT_FLATMENUS, controls.GetThemeSysBool, controls.inet_GetThemeSysBool, inet_GetThemeSysBool, inet_GetThemeSysBool_cpp, uxtheme/GetThemeSysBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

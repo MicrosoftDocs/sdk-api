@@ -7,7 +7,7 @@ old-location: gpmc\igpmsomcollection.htm
 tech.root: GPMC
 ms.assetid: 079f2fd9-7b1e-4bb1-b342-8ed8fb2c773d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMSOMCollection, IGPMSOMCollection, IGPMSOMCollection interface [GPMC], IGPMSOMCollection interface [GPMC],described, _win32_igpmsomcollection, gpmc.igpmsomcollection, gpmgmt/IGPMSOMCollection
 ms.prod: windows
 ms.technology: windows-sdk

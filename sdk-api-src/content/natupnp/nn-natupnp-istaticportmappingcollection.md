@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection.htm
 tech.root: ics
 ms.assetid: 4858c474-b57e-4baa-8e82-10bc41e026cd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: IStaticPortMappingCollection, IStaticPortMappingCollection interface [ICS/ICF], IStaticPortMappingCollection interface [ICS/ICF],described, _ics_istaticportmappingcollection, ics.istaticportmappingcollection, natupnp/IStaticPortMappingCollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IX509Enrollment::get_Response
 author: windows-sdk-content
 description: Retrieves the certificate response returned from a certification authority.
 old-location: security\ix509enrollment_response_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 4580d376-0dbb-4418-a542-b0a9710862c4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509Enrollment interface [Security],Response property, IX509Enrollment.Response, IX509Enrollment.get_Response, IX509Enrollment::Response, IX509Enrollment::get_Response, Response property [Security], Response property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Response, certenroll/IX509Enrollment::get_Response, get_Response, security.ix509enrollment_response_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

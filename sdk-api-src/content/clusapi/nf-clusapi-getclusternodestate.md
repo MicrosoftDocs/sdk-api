@@ -7,7 +7,7 @@ old-location: mscs\getclusternodestate.htm
 tech.root: mscs
 ms.assetid: 94c83582-3d99-4a20-ad58-1af4e8190781
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetClusterNodeState, GetClusterNodeState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_STATE, PCLUSAPI_GET_CLUSTER_NODE_STATE function [Failover Cluster], _wolf_getclusternodestate, clusapi/GetClusterNodeState, clusapi/PCLUSAPI_GET_CLUSTER_NODE_STATE, mscs.getclusternodestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

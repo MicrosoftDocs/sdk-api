@@ -4,10 +4,10 @@ title: RpcErrorGetNumberOfRecords function
 author: windows-sdk-content
 description: The RpcErrorGetNumberOfRecords function returns the number of records in the extended error information.
 old-location: rpc\rpcerrorgetnumberofrecords.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 1b498cc8-9ee5-47bd-a484-33bf1c89413c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: RpcErrorGetNumberOfRecords, RpcErrorGetNumberOfRecords function [RPC], _rpc_rpcerrorgetnumberofrecords, rpc.rpcerrorgetnumberofrecords, rpcasync/RpcErrorGetNumberOfRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

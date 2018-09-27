@@ -7,7 +7,7 @@ old-location: ad\ds_repl_value_meta_data.htm
 tech.root: ad
 ms.assetid: 294a466e-8a83-4b33-a8a8-ac7b51d081d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: DS_REPL_VALUE_META_DATA, DS_REPL_VALUE_META_DATA structure [Active Directory], _DS_REPL_VALUE_META_DATA, ad.ds_repl_value_meta_data, ntdsapi/DS_REPL_VALUE_META_DATA
 ms.prod: windows
 ms.technology: windows-sdk

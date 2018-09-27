@@ -7,7 +7,7 @@ old-location: gdi\ttgetembeddedfontinfo.htm
 tech.root: gdi
 ms.assetid: 0ce9ade0-df5b-4a2a-adf6-ca641e27d2bd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTGetEmbeddedFontInfo, TTGetEmbeddedFontInfo function [Windows GDI], TTLOAD_FONT_SUBSETTED, _win32_TTGetEmbeddedFontInfo, gdi.ttgetembeddedfontinfo, t2embapi/TTGetEmbeddedFontInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig.htm
 tech.root: cossdk
 ms.assetid: 026abfcf-56b5-4821-a9d4-37beeb3a052b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], IServicePoolConfig interface [COM+],described, _cos_IServicePoolConfig, comsvcs/IServicePoolConfig, cos.iservicepoolconfig
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_function_desc.htm
 tech.root: direct3d12
 ms.assetid: 6FF99C49-B5B1-4969-86E2-828D584D1EA9
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_FUNCTION_DESC, D3D12_FUNCTION_DESC structure, _D3D12_FUNCTION_DESC, d3d12shader/D3D12_FUNCTION_DESC, direct3d12.d3d12_function_desc
 ms.prod: windows
 ms.technology: windows-sdk

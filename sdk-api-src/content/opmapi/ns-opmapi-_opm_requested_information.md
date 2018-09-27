@@ -7,7 +7,7 @@ old-location: mf\opm_requested_information.htm
 tech.root: medfound
 ms.assetid: 84ffa808-1bdb-47c8-a18c-6dfa6fcf90de
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: OPM_REQUESTED_INFORMATION, OPM_REQUESTED_INFORMATION structure [Media Foundation], _OPM_REQUESTED_INFORMATION, ksopmapi/OPM_REQUESTED_INFORMATION, mf.opm_requested_information
 ms.prod: windows
 ms.technology: windows-sdk

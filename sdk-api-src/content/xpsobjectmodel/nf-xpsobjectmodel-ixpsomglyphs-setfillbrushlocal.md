@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_setfillbrushlocal.htm
 tech.root: printdocs
 ms.assetid: 73d1b0c2-81f9-4b1e-85fa-22e1e1c221f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFillBrushLocal method, IXpsOMGlyphs.SetFillBrushLocal, IXpsOMGlyphs::SetFillBrushLocal, SetFillBrushLocal, SetFillBrushLocal method [XPS Documents and Packaging], SetFillBrushLocal method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfillbrushlocal, xpsobjectmodel/IXpsOMGlyphs::SetFillBrushLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

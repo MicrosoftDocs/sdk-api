@@ -4,10 +4,10 @@ title: NtClose function
 author: windows-sdk-content
 description: Deprecated. Closes the specified handle. NtClose is superseded by CloseHandle.
 old-location: winprog\ntclose.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntclose.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: NtClose, NtClose function [Windows API], winprog.ntclose, winternl/NtClose, winui.ntclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

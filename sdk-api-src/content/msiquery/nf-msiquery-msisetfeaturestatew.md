@@ -7,7 +7,7 @@ old-location: setup\msisetfeaturestate.htm
 tech.root: msi
 ms.assetid: c7b22484-5a89-44f2-b0ff-6061a7fc5703
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetFeatureState, MsiSetFeatureState function, MsiSetFeatureStateA, MsiSetFeatureStateW, _msi_msisetfeaturestate, msiquery/MsiSetFeatureState, msiquery/MsiSetFeatureStateA, msiquery/MsiSetFeatureStateW, setup.msisetfeaturestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

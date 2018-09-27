@@ -7,7 +7,7 @@ old-location: ics\inetfwremoteadminsettings.htm
 tech.root: ics
 ms.assetid: 35f34a53-e73b-48be-ac79-9b7ab825c6ad
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF],described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
 ms.prod: windows
 ms.technology: windows-sdk

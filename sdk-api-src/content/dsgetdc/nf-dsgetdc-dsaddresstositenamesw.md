@@ -7,7 +7,7 @@ old-location: ad\dsaddresstositenames.htm
 tech.root: ad
 ms.assetid: 4d70dbee-be33-4d2a-a200-3696443fa853
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/21/2018
 ms.keywords: DsAddressToSiteNames, DsAddressToSiteNames function [Active Directory], DsAddressToSiteNamesA, DsAddressToSiteNamesW, _glines_dsaddresstositenames, ad.dsaddresstositenames, dsgetdc/DsAddressToSiteNames, dsgetdc/DsAddressToSiteNamesA, dsgetdc/DsAddressToSiteNamesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\comarshalinterthreadinterfaceinstream.htm
 tech.root: com
 ms.assetid: c9ab8713-8604-4f0b-a11b-bdfb7d595d95
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: CoMarshalInterThreadInterfaceInStream, CoMarshalInterThreadInterfaceInStream function [COM], _com_CoMarshalInterThreadInterfaceInStream, com.comarshalinterthreadinterfaceinstream, combaseapi/CoMarshalInterThreadInterfaceInStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

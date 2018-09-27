@@ -4,10 +4,10 @@ title: WlanGetProfileList function
 author: windows-sdk-content
 description: Retrieves the list of profiles.
 old-location: nwifi\wlangetprofilelist.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: f4336113-538f-4161-a71f-64a432e31f1c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WlanGetProfileList, WlanGetProfileList function [NativeWIFI], nwifi.wlangetprofilelist, wlanapi/WlanGetProfileList
 ms.prod: windows-hardware
 ms.technology: windows-devices

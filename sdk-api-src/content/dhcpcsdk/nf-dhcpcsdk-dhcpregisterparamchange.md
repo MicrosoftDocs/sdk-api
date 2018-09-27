@@ -4,10 +4,10 @@ title: DhcpRegisterParamChange function
 author: windows-sdk-content
 description: The DhcpRegisterParamChange function enables clients to register for notification of changes in DHCP configuration parameters.
 old-location: dhcp\dhcpregisterparamchange.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: e0099827-2f88-4309-a5e7-3bc1395de5a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpRegisterParamChange, DhcpRegisterParamChange function [DHCP], _dhcp_dhcpregisterparamchange, dhcp.dhcpregisterparamchange, dhcpcsdk/DhcpRegisterParamChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowpreroll_get_preroll.htm
 tech.root: DirectShow
 ms.assetid: c868a997-9d22-452b-9d57-6bd34b054d35
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/25/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],get_Preroll method, IAMNetShowPreroll.get_Preroll, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::get_Preroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

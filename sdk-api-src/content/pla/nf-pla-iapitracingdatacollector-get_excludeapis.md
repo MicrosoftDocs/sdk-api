@@ -7,7 +7,7 @@ old-location: pla\iapitracingdatacollector_excludeapis.htm
 tech.root: PLA
 ms.assetid: 1028fcc0-49b8-40cb-98fc-1dcb2fa2b6b0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ExcludeApis property [PLA], ExcludeApis property [PLA],IApiTracingDataCollector interface, IApiTracingDataCollector interface [PLA],ExcludeApis property, IApiTracingDataCollector.ExcludeApis, IApiTracingDataCollector.get_ExcludeApis, IApiTracingDataCollector::ExcludeApis, IApiTracingDataCollector::get_ExcludeApis, IApiTracingDataCollector::put_ExcludeApis, base.iapitracingdatacollector_excludeapis, get_ExcludeApis, pla.iapitracingdatacollector_excludeapis, pla/IApiTracingDataCollector::ExcludeApis, pla/IApiTracingDataCollector::get_ExcludeApis, pla/IApiTracingDataCollector::put_ExcludeApis
 ms.prod: windows-hardware
 ms.technology: windows-devices

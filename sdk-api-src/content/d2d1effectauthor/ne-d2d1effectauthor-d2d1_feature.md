@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_feature.htm
 tech.root: direct2d
 ms.assetid: 1C64F1BE-DB38-440A-A1BA-65A40E5A9997
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_FEATURE, D2D1_FEATURE enumeration [Direct2D], D2D1_FEATURE_D3D10_X_HARDWARE_OPTIONS, D2D1_FEATURE_DOUBLES, d2d1effectauthor/D2D1_FEATURE, d2d1effectauthor/D2D1_FEATURE_D3D10_X_HARDWARE_OPTIONS, d2d1effectauthor/D2D1_FEATURE_DOUBLES, direct2d.d2d1_feature
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\inktransform_em11.htm
 tech.root: tablet
 ms.assetid: 8827b2b2-f2fb-4732-912c-226db8ac9aef
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/14/2018
 ms.keywords: 8827b2b2-f2fb-4732-912c-226db8ac9aef, IInkTransform interface [Tablet PC],eM11 property, IInkTransform.eM11, IInkTransform.get_eM11, IInkTransform::eM11, IInkTransform::get_eM11, IInkTransform::put_eM11, InkTransform.get_eM11, InkTransform.put_eM11, eM11 property [Tablet PC], eM11 property [Tablet PC],IInkTransform interface, get_eM11, msinkaut/IInkTransform::eM11, msinkaut/IInkTransform::get_eM11, msinkaut/IInkTransform::put_eM11, put_eM11, tablet.inktransform_em11
 ms.prod: windows-hardware
 ms.technology: windows-devices

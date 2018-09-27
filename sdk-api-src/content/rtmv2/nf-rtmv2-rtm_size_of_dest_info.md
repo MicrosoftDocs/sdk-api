@@ -4,10 +4,10 @@ title: RTM_SIZE_OF_DEST_INFO macro
 author: windows-sdk-content
 description: The RTM_SIZE_OF_DEST_INFO macro returns the size of the destination information structure (RTM_DEST_INFO).
 old-location: rras\rtm_size_of_dest_info.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: faad2b79-dcd0-47e7-95ab-05f6bad36650
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: RTM_SIZE_OF_DEST_INFO, RTM_SIZE_OF_DEST_INFO macro [RAS], _rtmv2ref_rtm_size_of_dest_info, rras.rtm_size_of_dest_info, rtmv2/RTM_SIZE_OF_DEST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

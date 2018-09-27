@@ -7,7 +7,7 @@ old-location: cloudapi\cf_sync_root_info_class.htm
 tech.root: cfApi
 ms.assetid: 4415E075-048E-4B9F-B293-5F7A63CAE3A4
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CF_SYNC_ROOT_INFO_BASIC, CF_SYNC_ROOT_INFO_CLASS, CF_SYNC_ROOT_INFO_CLASS enumeration, CF_SYNC_ROOT_INFO_PROVIDER, CF_SYNC_ROOT_INFO_STANDARD, cfapi/CF_SYNC_ROOT_INFO_BASIC, cfapi/CF_SYNC_ROOT_INFO_CLASS, cfapi/CF_SYNC_ROOT_INFO_PROVIDER, cfapi/CF_SYNC_ROOT_INFO_STANDARD, cloudApi.cf_sync_root_info_class
 ms.prod: windows
 ms.technology: windows-sdk

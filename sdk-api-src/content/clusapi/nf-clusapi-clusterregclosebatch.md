@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosebatch.htm
 tech.root: mscs
 ms.assetid: d43644cf-370b-499f-b321-24e43f145a98
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ClusterRegCloseBatch, ClusterRegCloseBatch function [Failover Cluster], PCLUSTER_REG_CLOSE_BATCH, PCLUSTER_REG_CLOSE_BATCH function [Failover Cluster], clusapi/ClusterRegCloseBatch, clusapi/PCLUSTER_REG_CLOSE_BATCH, mscs.clusterregclosebatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwservicerestriction_restrictservice.htm
 tech.root: ics
 ms.assetid: 5695bcb7-a83a-4581-8f46-00e85273b160
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],RestrictService method, INetFwServiceRestriction.RestrictService, INetFwServiceRestriction::RestrictService, RestrictService, RestrictService method [ICS/ICF], RestrictService method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_restrictservice, netfw/INetFwServiceRestriction::RestrictService
 ms.prod: windows-hardware
 ms.technology: windows-devices

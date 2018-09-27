@@ -7,7 +7,7 @@ old-location: wsw\ws_async_state.htm
 tech.root: wsw
 ms.assetid: ca7f14a9-bee8-46ed-a082-7e64a41f7493
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: WS_ASYNC_STATE, WS_ASYNC_STATE structure [Web Services for Windows], _WS_ASYNC_STATE, webservices/WS_ASYNC_STATE, wsw.ws_async_state
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directdraw\directdrawcreateclipper.htm
 tech.root: directdraw
 ms.assetid: 12d499d2-dd4a-4831-9290-c225aec1a160
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DirectDrawCreateClipper, DirectDrawCreateClipper function [DirectDraw], ddraw/DirectDrawCreateClipper, directdraw.directdrawcreateclipper
 ms.prod: windows-hardware
 ms.technology: windows-devices

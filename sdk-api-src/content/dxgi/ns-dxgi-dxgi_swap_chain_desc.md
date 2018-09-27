@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_swap_chain_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_chain_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: 04b5d6e7-f014-9f92-ee14-6dd943b40ce5, DXGI_SWAP_CHAIN_DESC, DXGI_SWAP_CHAIN_DESC structure [DXGI], direct3ddxgi.dxgi_swap_chain_desc, dxgi/DXGI_SWAP_CHAIN_DESC
 ms.prod: windows
 ms.technology: windows-sdk

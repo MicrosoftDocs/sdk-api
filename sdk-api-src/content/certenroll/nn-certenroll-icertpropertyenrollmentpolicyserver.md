@@ -4,10 +4,10 @@ title: ICertPropertyEnrollmentPolicyServer
 author: windows-sdk-content
 description: Represents an external certificate property that contains information about a certificate enrollment policy (CEP) server and a certificate enrollment server (CES).
 old-location: security\icertpropertyenrollmentpolicyserver.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 1af7b178-3226-43c3-bfbe-08738f9ef851
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security],described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver
 ms.prod: windows
 ms.technology: windows-sdk

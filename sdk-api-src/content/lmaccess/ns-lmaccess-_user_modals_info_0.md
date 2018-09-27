@@ -7,7 +7,7 @@ old-location: netmgmt\user_modals_info_0_str.htm
 tech.root: netmgmt
 ms.assetid: cf3dd091-106e-4a0d-b4db-62bd11fd65cf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*LPUSER_MODALS_INFO_0, *PUSER_MODALS_INFO_0, LPUSER_MODALS_INFO_0, LPUSER_MODALS_INFO_0 structure pointer [Network Management], PUSER_MODALS_INFO_0, PUSER_MODALS_INFO_0 structure pointer [Network Management], USER_MODALS_INFO_0, USER_MODALS_INFO_0 structure [Network Management], _USER_MODALS_INFO_0, _win32_user_modals_info_0_str, lmaccess/LPUSER_MODALS_INFO_0, lmaccess/PUSER_MODALS_INFO_0, lmaccess/USER_MODALS_INFO_0, netmgmt.user_modals_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk

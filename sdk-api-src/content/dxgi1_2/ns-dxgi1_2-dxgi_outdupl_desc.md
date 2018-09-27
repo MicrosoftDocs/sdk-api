@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_outdupl_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: 003014E3-4322-4253-8D69-AE315CDFDA75
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: DXGI_OUTDUPL_DESC, DXGI_OUTDUPL_DESC structure [DXGI], direct3ddxgi.dxgi_outdupl_desc, dxgi1_2/DXGI_OUTDUPL_DESC
 ms.prod: windows
 ms.technology: windows-sdk

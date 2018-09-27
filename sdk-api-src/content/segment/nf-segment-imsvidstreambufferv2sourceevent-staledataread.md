@@ -4,10 +4,10 @@ title: IMSVidStreamBufferV2SourceEvent::StaleDataRead
 author: windows-sdk-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_DATA_READ event, which indicates an MSVidStreamBufferSource object has read from a temporary recording file that is marked for deletion.
 old-location: mstv\imsvidstreambufferv2sourceevent_staledataread.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8eb53b77-94a3-4216-a32f-22338d84f5ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],StaleDataRead method, IMSVidStreamBufferV2SourceEvent.StaleDataRead, IMSVidStreamBufferV2SourceEvent::StaleDataRead, StaleDataRead, StaleDataRead method [Microsoft TV Technologies], StaleDataRead method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_staledataread, segment/IMSVidStreamBufferV2SourceEvent::StaleDataRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

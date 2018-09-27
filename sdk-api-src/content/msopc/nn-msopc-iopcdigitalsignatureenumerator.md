@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignatureenumerator.htm
 tech.root: OPC
 ms.assetid: 73fd0e47-7503-470d-b649-e4b2ba492bf1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IOpcDigitalSignatureEnumerator, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions], IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureEnumerator, opc.iopcdigitalsignatureenumerator
 ms.prod: windows
 ms.technology: windows-sdk

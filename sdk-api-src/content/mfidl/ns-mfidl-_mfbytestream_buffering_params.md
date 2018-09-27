@@ -7,7 +7,7 @@ old-location: mf\mfbytestream_buffering_params.htm
 tech.root: medfound
 ms.assetid: 6667d32c-36a8-414e-a546-02d00a447b70
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/14/2018
 ms.keywords: 6667d32c-36a8-414e-a546-02d00a447b70, MFBYTESTREAM_BUFFERING_PARAMS, MFBYTESTREAM_BUFFERING_PARAMS structure [Media Foundation], _MFBYTESTREAM_BUFFERING_PARAMS, mf.mfbytestream_buffering_params, mfidl/MFBYTESTREAM_BUFFERING_PARAMS
 ms.prod: windows
 ms.technology: windows-sdk
