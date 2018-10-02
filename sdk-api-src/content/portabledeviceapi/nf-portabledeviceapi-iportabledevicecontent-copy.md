@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_copy.htm
 tech.root: wpd_sdk
 ms.assetid: 46d6abad-457c-47d7-a83a-b5ba2b84b064
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Copy, Copy method [Windows Portable Devices SDK], Copy method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Copy method, IPortableDeviceContent.Copy, IPortableDeviceContent::Copy, IPortableDeviceContentCopy, portabledeviceapi/IPortableDeviceContent::Copy, wpdsdk.iportabledevicecontent_copy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\drawmenubar.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\drawmenubar.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DrawMenuBar, DrawMenuBar function [Menus and Other Resources], _win32_DrawMenuBar, _win32_drawmenubar_cpp, menurc.drawmenubar, winui._win32_drawmenubar, winuser/DrawMenuBar
 ms.prod: windows-hardware
 ms.technology: windows-devices

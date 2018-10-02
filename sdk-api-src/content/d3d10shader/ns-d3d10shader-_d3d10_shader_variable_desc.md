@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_variable_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_variable_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 93d99a1e-6d9e-3991-2e0b-086cd3eee8c0, D3D10_SHADER_VARIABLE_DESC, D3D10_SHADER_VARIABLE_DESC structure [Direct3D 10], _D3D10_SHADER_VARIABLE_DESC, d3d10shader/D3D10_SHADER_VARIABLE_DESC, direct3d10.d3d10_shader_variable_desc
 ms.prod: windows
 ms.technology: windows-sdk

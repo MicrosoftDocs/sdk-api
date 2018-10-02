@@ -4,10 +4,10 @@ title: CreateClusterGroupEx function
 author: windows-sdk-content
 description: Creates a new cluster group with the options specified in the CLUSTER_CREATE_GROUP_INFO structure in a single operation.
 old-location: mscs\createclustergroupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: D24A2622-758D-4344-8872-F0D8E4EE80CC
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CreateClusterGroupEx, CreateClusterGroupEx function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUPEX, PCLUSAPI_CREATE_CLUSTER_GROUPEX function [Failover Cluster], clusapi/CreateClusterGroupEx, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUPEX, mscs.createclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices

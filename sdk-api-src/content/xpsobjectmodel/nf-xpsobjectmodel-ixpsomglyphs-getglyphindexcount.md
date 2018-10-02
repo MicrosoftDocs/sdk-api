@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getglyphindexcount.htm
 tech.root: printdocs
 ms.assetid: ae37e602-4a47-4234-a8d7-c757f3498308
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphs.GetGlyphIndexCount, IXpsOMGlyphs::GetGlyphIndexCount, xps.ixpsomglyphs_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndexCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

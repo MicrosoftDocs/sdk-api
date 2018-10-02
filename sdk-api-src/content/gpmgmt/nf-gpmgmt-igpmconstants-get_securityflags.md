@@ -7,7 +7,7 @@ old-location: gpmc\igpmconstants_get_securityflags.htm
 tech.root: GPMC
 ms.assetid: f9f950e1-b106-4907-a84a-ad20abfd02b1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMConstants object [GPMC],SecurityFlags property, IGPMConstants interface [GPMC],SecurityFlags property, IGPMConstants.SecurityFlags, IGPMConstants.get_SecurityFlags, IGPMConstants::SecurityFlags, IGPMConstants::get_SecurityFlags, SecurityFlags property [GPMC], SecurityFlags property [GPMC],GPMConstants object, SecurityFlags property [GPMC],IGPMConstants interface, get_SecurityFlags, gpmc.igpmconstants_get_securityflags, gpmgmt/IGPMConstants::SecurityFlags, gpmgmt/IGPMConstants::get_SecurityFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

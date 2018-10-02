@@ -4,10 +4,10 @@ title: IMFByteStream::EndWrite
 author: windows-sdk-content
 description: Completes an asynchronous write operation.
 old-location: mf\imfbytestream_endwrite.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d3e10e89-ef5d-41c5-b549-4bd632d9370d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: EndWrite, EndWrite method [Media Foundation], EndWrite method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndWrite method, IMFByteStream.EndWrite, IMFByteStream::EndWrite, d3e10e89-ef5d-41c5-b549-4bd632d9370d, mf.imfbytestream_endwrite, mfobjects/IMFByteStream::EndWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

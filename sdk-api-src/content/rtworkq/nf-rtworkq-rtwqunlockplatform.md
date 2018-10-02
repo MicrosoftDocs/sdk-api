@@ -4,10 +4,10 @@ title: RtwqUnlockPlatform function
 author: windows-sdk-content
 description: Unlocks the platform after it was locked by a call to the RtwqLockPlatform function.
 old-location: base\rtwqunlockplatform.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 8f1e00fb-863a-49e6-a0e3-a3491637b47b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RtwqUnlockPlatform, RtwqUnlockPlatform function, base.rtwqunlockplatform, rtworkq/RtwqUnlockPlatform
 ms.prod: windows-hardware
 ms.technology: windows-devices

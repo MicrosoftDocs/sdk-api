@@ -4,10 +4,10 @@ title: FreeLibrary function
 author: windows-sdk-content
 description: Frees the loaded dynamic-link library (DLL) module and, if necessary, decrements its reference count.
 old-location: base\freelibrary.htm
-tech.root: dlls
+tech.root: Dlls
 ms.assetid: 823d3147-4ba8-4fe5-ade4-e5604f47eb0a
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: FreeLibrary, FreeLibrary function, _win32_freelibrary, base.freelibrary, libloaderapi/FreeLibrary, winbase/FreeLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

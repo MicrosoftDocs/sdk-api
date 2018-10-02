@@ -4,10 +4,10 @@ title: IFolderView2::InvokeVerbOnSelection
 author: windows-sdk-content
 description: Invokes the given verb on the current selection.
 old-location: shell\IFolderView2_InvokeVerbOnSelection.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 085a08f9-c6a2-417c-973a-d0df84d8c821
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderView2 interface [Windows Shell],InvokeVerbOnSelection method, IFolderView2.InvokeVerbOnSelection, IFolderView2::InvokeVerbOnSelection, InvokeVerbOnSelection, InvokeVerbOnSelection method [Windows Shell], InvokeVerbOnSelection method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_InvokeVerbOnSelection, shell.IFolderView2_InvokeVerbOnSelection, shobjidl_core/IFolderView2::InvokeVerbOnSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

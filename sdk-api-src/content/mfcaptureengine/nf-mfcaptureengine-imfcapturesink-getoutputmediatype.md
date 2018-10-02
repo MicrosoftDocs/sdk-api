@@ -4,10 +4,10 @@ title: IMFCaptureSink::GetOutputMediaType
 author: windows-sdk-content
 description: Gets the output format for a stream on this capture sink.
 old-location: mf\imfcapturesink_getoutputmediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3F050964-9E71-45FC-9553-A2E7A397217E
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetOutputMediaType, GetOutputMediaType method [Media Foundation], GetOutputMediaType method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],GetOutputMediaType method, IMFCaptureSink.GetOutputMediaType, IMFCaptureSink::GetOutputMediaType, mf.imfcapturesink_getoutputmediatype, mfcaptureengine/IMFCaptureSink::GetOutputMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

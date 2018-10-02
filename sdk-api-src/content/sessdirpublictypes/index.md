@@ -2,7 +2,7 @@
 UID: NA:sessdirpublictypes
 ms.assetid: 5f270033-e013-3a22-892b-c87e56f63488
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

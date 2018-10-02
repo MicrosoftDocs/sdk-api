@@ -4,10 +4,10 @@ title: ITravelLog::GetToolTipText
 author: windows-sdk-content
 description: Deprecated. Gets tooltip text for a travel entry, which is used as a Unicode display string in the UI.
 old-location: shell\ITravelLog_GetToolTipText.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a085fe2e-9658-448c-b659-4ef08896ec77
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetToolTipText, GetToolTipText method [Windows Shell], GetToolTipText method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetToolTipText method, ITravelLog.GetToolTipText, ITravelLog::GetToolTipText, shdeprecated/ITravelLog::GetToolTipText, shell.ITravelLog_GetToolTipText, zone_ITravelLog_GetToolTipText
 ms.prod: windows-hardware
 ms.technology: windows-devices

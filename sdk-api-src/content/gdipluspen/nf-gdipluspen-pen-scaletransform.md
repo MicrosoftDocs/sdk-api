@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_ScaleTransform_sx_sy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\scaletransform_26sx_sy_order.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Pen class [GDI+],ScaleTransform method, Pen.ScaleTransform, Pen::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_Pen_ScaleTransform_sx_sy_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices

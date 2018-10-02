@@ -2,7 +2,7 @@
 UID: NA:uianimation
 ms.assetid: cce0348a-2b23-397d-8923-833fc1b60c0f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

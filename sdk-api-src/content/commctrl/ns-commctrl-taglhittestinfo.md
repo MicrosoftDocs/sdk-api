@@ -4,10 +4,10 @@ title: tagLHITTESTINFO
 author: windows-sdk-content
 description: Used to get information about the link corresponding to a given location.
 old-location: controls\LHITTESTINFO.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\lhittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*PLHITTESTINFO, LHITTESTINFO, LHITTESTINFO structure [Windows Controls], PLHITTESTINFO, PLHITTESTINFO structure pointer [Windows Controls], commctrl/LHITTESTINFO, commctrl/PLHITTESTINFO, controls.LHITTESTINFO, controls.inet_LHITTESTINFO, inet_LHITTESTINFO, inet_LHITTESTINFO_cpp, tagLHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk

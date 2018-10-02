@@ -7,7 +7,7 @@ old-location: wab\_wab_IMAPITable.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imapitable\imapitable.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMAPITable, IMAPITable interface [Windows Address Book], IMAPITable interface [Windows Address Book],described, _wab_IMAPITable, wab._wab_IMAPITable, wabdefs/IMAPITable
 ms.prod: windows
 ms.technology: windows-sdk

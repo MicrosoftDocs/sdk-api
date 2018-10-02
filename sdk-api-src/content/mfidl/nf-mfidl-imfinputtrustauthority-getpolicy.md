@@ -4,10 +4,10 @@ title: IMFInputTrustAuthority::GetPolicy
 author: windows-sdk-content
 description: Retrieves the policy that defines which output protection systems are allowed for this stream, and the configuration data for each protection system.
 old-location: mf\imfinputtrustauthority_getpolicy.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1, GetPolicy, GetPolicy method [Media Foundation], GetPolicy method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetPolicy method, IMFInputTrustAuthority.GetPolicy, IMFInputTrustAuthority::GetPolicy, mf.imfinputtrustauthority_getpolicy, mfidl/IMFInputTrustAuthority::GetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

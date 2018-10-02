@@ -4,10 +4,10 @@ title: IShellFolderViewDual::get_Script
 author: windows-sdk-content
 description: Gets the scripting object for the view.
 old-location: shell\IShellFolderViewDual_get_Script.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9d683cda-0fe0-4984-b556-a6dd1223ca4c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Script method, IShellFolderViewDual.get_Script, IShellFolderViewDual::get_Script, _shell_IShellFolderViewDual_get_Script, get_Script, get_Script method [Windows Shell], get_Script method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Script, shldisp/IShellFolderViewDual::get_Script
 ms.prod: windows-hardware
 ms.technology: windows-devices

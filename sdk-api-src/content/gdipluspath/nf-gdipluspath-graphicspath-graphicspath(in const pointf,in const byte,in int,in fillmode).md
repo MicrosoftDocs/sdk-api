@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathconstructors.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GraphicsPath, GraphicsPath constructors [GDI+], GraphicsPath.GraphicsPath, GraphicsPath.GraphicsPath(IN const PointF,IN const BYTE,IN INT,IN FillMode), GraphicsPath::GraphicsPath, GraphicsPath::GraphicsPath(IN const PointF,IN const BYTE,IN INT,IN FillMode), _gdiplus_CLASS_GraphicsPath_Constructors, gdiplus._gdiplus_CLASS_GraphicsPath_Constructors, gdipluspath/GraphicsPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IExecuteCommand::SetPosition
 author: windows-sdk-content
 description: Sets the coordinates of a point used for display.
 old-location: shell\IExecuteCommand_SetPosition.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ead12c05-ce94-494d-9f31-9b0f341363b5
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetPosition method, IExecuteCommand.SetPosition, IExecuteCommand::SetPosition, SetPosition, SetPosition method [Windows Shell], SetPosition method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetPosition, shell.IExecuteCommand_SetPosition, shobjidl_core/IExecuteCommand::SetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

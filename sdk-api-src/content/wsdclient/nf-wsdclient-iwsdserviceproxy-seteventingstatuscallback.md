@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxy_seteventingstatuscallback.htm
 tech.root: WsdApi
 ms.assetid: 0a924df4-93a7-4443-a384-0a89d5d90509
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWSDServiceProxy interface,SetEventingStatusCallback method, IWSDServiceProxy.SetEventingStatusCallback, IWSDServiceProxy::SetEventingStatusCallback, SetEventingStatusCallback, SetEventingStatusCallback method, SetEventingStatusCallback method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_seteventingstatuscallback, wsdclient/IWSDServiceProxy::SetEventingStatusCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

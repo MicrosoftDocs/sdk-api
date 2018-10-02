@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPie_RectF_rect_REAL_startAn
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpiemethods\addpie_72rectfamprect_realstartangle_realsweepa.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: AddPie, AddPie method [GDI+], AddPie method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPie method, GraphicsPath.AddPie, GraphicsPath.AddPie(IN const RectF &,IN REAL,IN REAL), GraphicsPath.AddPie(const RectF&,REAL,REAL), GraphicsPath::AddPie, GraphicsPath::AddPie(IN const RectF &,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddPie_RectF_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_RectF_rect_REAL_startAngle_REAL_sweepAngle_
 ms.prod: windows-hardware
 ms.technology: windows-devices

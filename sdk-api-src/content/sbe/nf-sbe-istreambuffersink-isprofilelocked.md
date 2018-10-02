@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink_isprofilelocked.htm
 tech.root: MSTV
 ms.assetid: 941c1702-2ef2-4afe-933c-78ed9ee8690b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],IsProfileLocked method, IStreamBufferSink.IsProfileLocked, IStreamBufferSink::IsProfileLocked, IStreamBufferSinkIsProfileLocked, IsProfileLocked, IsProfileLocked method [Microsoft TV Technologies], IsProfileLocked method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_isprofilelocked, sbe/IStreamBufferSink::IsProfileLocked
 ms.prod: windows-hardware
 ms.technology: windows-devices

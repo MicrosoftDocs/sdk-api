@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewuint.
 tech.root: direct3d12
 ms.assetid: A048BF0C-9141-4DDF-91F9-B53464033A44
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: ClearUnorderedAccessViewUint, ClearUnorderedAccessViewUint method, ClearUnorderedAccessViewUint method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewUint method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint, ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewuint
 ms.prod: windows-hardware
 ms.technology: windows-devices

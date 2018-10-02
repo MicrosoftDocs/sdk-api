@@ -4,10 +4,10 @@ title: MFRegisterLocalByteStreamHandler function
 author: windows-sdk-content
 description: Registers a byte-stream handler in the caller's process.
 old-location: mf\mfregisterlocalbytestreamhandler.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: B41FAA50-9CF7-4DD0-8571-1817C7C49276
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFRegisterLocalByteStreamHandler, MFRegisterLocalByteStreamHandler function [Media Foundation], mf.mfregisterlocalbytestreamhandler, mfapi/MFRegisterLocalByteStreamHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

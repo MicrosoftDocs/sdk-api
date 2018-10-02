@@ -7,7 +7,7 @@ old-location: adsi\iadscomputeroperations.htm
 tech.root: ADSI
 ms.assetid: 9b0155ce-f313-43fa-8605-650aa8f38587
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsComputerOperations, IADsComputerOperations interface [ADSI], IADsComputerOperations interface [ADSI],described, _ds_iadscomputeroperations, adsi.iadscomputeroperations, iads/IADsComputerOperations
 ms.prod: windows
 ms.technology: windows-sdk

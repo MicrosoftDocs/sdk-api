@@ -4,10 +4,10 @@ title: "_DXVAHD_FILTER_RANGE_DATA"
 author: windows-sdk-content
 description: Defines the range of supported values for an image filter.
 old-location: mf\dxvahd_filter_range_data.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: cd349ac5-9825-4dc8-8735-5d846abb353b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: DXVAHD_FILTER_RANGE_DATA, DXVAHD_FILTER_RANGE_DATA structure [Media Foundation], _DXVAHD_FILTER_RANGE_DATA, dxvahd/DXVAHD_FILTER_RANGE_DATA, mf.dxvahd_filter_range_data
 ms.prod: windows
 ms.technology: windows-sdk

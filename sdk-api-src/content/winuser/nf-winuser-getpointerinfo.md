@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerinfo.htm
 tech.root: InputMsg
 ms.assetid: 75faea24-91cd-448b-b67a-19fe530f1800
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPointerInfo, GetPointerInfo function [Input Messages and Notifications], inputmsg.getpointerinfo, winuser/GetPointerInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itsgpolicyengine.htm
 tech.root: TermServ
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], ITSGPolicyEngine interface [Remote Desktop Services],described, termserv.itsgpolicyengine, tsgpolicyengine/ITSGPolicyEngine
 ms.prod: windows
 ms.technology: windows-sdk

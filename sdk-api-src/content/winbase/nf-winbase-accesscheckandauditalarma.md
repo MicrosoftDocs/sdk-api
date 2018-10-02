@@ -4,10 +4,10 @@ title: AccessCheckAndAuditAlarmA function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
 old-location: security\accesscheckandauditalarm.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c2d144f4-9eeb-4723-9d28-97cfd1a07274
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AccessCheckAndAuditAlarm, AccessCheckAndAuditAlarm function [Security], AccessCheckAndAuditAlarmA, AccessCheckAndAuditAlarmW, _win32_accesscheckandauditalarm, security.accesscheckandauditalarm, winbase/AccessCheckAndAuditAlarm, winbase/AccessCheckAndAuditAlarmA, winbase/AccessCheckAndAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices

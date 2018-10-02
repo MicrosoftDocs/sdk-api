@@ -4,10 +4,10 @@ title: SHGetImageList function
 author: windows-sdk-content
 description: Retrieves an image list.
 old-location: shell\SHGetImageList.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6ae80c1f-f2b7-4da9-b588-30391c8aef0e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetImageList, SHGetImageList function [Windows Shell], SHIL_EXTRALARGE, SHIL_JUMBO, SHIL_LARGE, SHIL_LAST, SHIL_SMALL, SHIL_SYSSMALL, _shell_SHGetImageList, shell.SHGetImageList, shellapi/SHGetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

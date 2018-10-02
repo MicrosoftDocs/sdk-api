@@ -7,7 +7,7 @@ old-location: wec\ecinsertobjectarrayelement.htm
 tech.root: WEC
 ms.assetid: 65b0db2f-f929-4d7e-8804-c93b9e127323
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EcInsertObjectArrayElement, EcInsertObjectArrayElement function, evcoll/EcInsertObjectArrayElement, wec.ecinsertobjectarrayelement, wes.ecinsertobjectarrayelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

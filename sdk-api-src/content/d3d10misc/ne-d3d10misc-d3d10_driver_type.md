@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_driver_type.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_driver_type.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 9306ea32-4e52-b274-5c1d-a1782db6ba9e, D3D10_DRIVER_TYPE, D3D10_DRIVER_TYPE enumeration [Direct3D 10], D3D10_DRIVER_TYPE_HARDWARE, D3D10_DRIVER_TYPE_NULL, D3D10_DRIVER_TYPE_REFERENCE, D3D10_DRIVER_TYPE_SOFTWARE, D3D10_DRIVER_TYPE_WARP, d3d10misc/D3D10_DRIVER_TYPE, d3d10misc/D3D10_DRIVER_TYPE_HARDWARE, d3d10misc/D3D10_DRIVER_TYPE_NULL, d3d10misc/D3D10_DRIVER_TYPE_REFERENCE, d3d10misc/D3D10_DRIVER_TYPE_SOFTWARE, d3d10misc/D3D10_DRIVER_TYPE_WARP, direct3d10.d3d10_driver_type
 ms.prod: windows
 ms.technology: windows-sdk

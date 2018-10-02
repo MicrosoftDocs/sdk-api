@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setredyintercept.htm
 tech.root: directcomp
 ms.assetid: 142286DA-6A07-404C-97B8-C356DE6C63A9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedYIntercept method, IDCompositionLinearTransferEffect.SetRedYIntercept, IDCompositionLinearTransferEffect.SetRedYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetRedYIntercept, IDCompositionLinearTransferEffect::SetRedYIntercept(IDCompositionAnimation), SetRedYIntercept, SetRedYIntercept method [DirectComposition], SetRedYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept
 ms.prod: windows-hardware
 ms.technology: windows-devices

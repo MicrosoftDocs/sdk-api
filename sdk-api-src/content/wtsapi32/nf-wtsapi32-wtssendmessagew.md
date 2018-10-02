@@ -7,7 +7,7 @@ old-location: termserv\wtssendmessage.htm
 tech.root: TermServ
 ms.assetid: 4c70bc93-00b1-46ed-947d-b3cf61a5aca4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDABORT, IDASYNC, IDCANCEL, IDCONTINUE, IDIGNORE, IDNO, IDOK, IDRETRY, IDTIMEOUT, IDTRYAGAIN, IDYES, WTSSendMessage, WTSSendMessage function [Remote Desktop Services], WTSSendMessageA, WTSSendMessageW, _win32_wtssendmessage, termserv.wtssendmessage, wtsapi32/WTSSendMessage, wtsapi32/WTSSendMessageA, wtsapi32/WTSSendMessageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

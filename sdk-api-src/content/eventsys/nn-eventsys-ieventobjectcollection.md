@@ -7,7 +7,7 @@ old-location: cos\ieventobjectcollection.htm
 tech.root: cossdk
 ms.assetid: 7bb00b80-a48f-49c8-983d-9ff0ea424e4d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IEventObjectCollection, IEventObjectCollection interface [COM+], IEventObjectCollection interface [COM+],described, _cos_IEventObjectCollection, cos.ieventobjectcollection, eventsys/IEventObjectCollection
 ms.prod: windows
 ms.technology: windows-sdk

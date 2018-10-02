@@ -4,10 +4,10 @@ title: IWMResizerProps::SetFullCropRegion
 author: windows-sdk-content
 description: Sets the source and destination rectangles.
 old-location: mf\iwmresizerpropssetfullcropregion.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5578b90d-3b18-47a2-b4ae-75a4749f9001
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetFullCropRegion method, IWMResizerProps.SetFullCropRegion, IWMResizerProps::SetFullCropRegion, SetFullCropRegion, SetFullCropRegion method [Media Foundation], SetFullCropRegion method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetfullcropregion, mf.iwmresizerpropssetfullcropregion, wmcodecdsp/IWMResizerProps::SetFullCropRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10::InitializeFromPublicKey
 author: windows-sdk-content
 description: Initializes a null-signed certificate request by using an IX509PublicKey object and, optionally, a template.
 old-location: security\ix509certificaterequestpkcs10_initializefrompublickey_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7b7e00dc-649b-4bcb-a9b6-5745b33ea48b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromPublicKey method, IX509CertificateRequestPkcs10.InitializeFromPublicKey, IX509CertificateRequestPkcs10::InitializeFromPublicKey, InitializeFromPublicKey, InitializeFromPublicKey method [Security], InitializeFromPublicKey method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromPublicKey, security.ix509certificaterequestpkcs10_initializefrompublickey_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

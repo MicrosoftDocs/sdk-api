@@ -7,7 +7,7 @@ old-location: xps\ixpsommatrixtransform.htm
 tech.root: printdocs
 ms.assetid: d21457bc-9445-4ca2-ab9f-1e3f55e2e635
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documents and Packaging], IXpsOMMatrixTransform interface [XPS Documents and Packaging],described, xps.ixpsommatrixtransform, xpsobjectmodel/IXpsOMMatrixTransform
 ms.prod: windows
 ms.technology: windows-sdk

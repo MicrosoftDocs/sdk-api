@@ -4,10 +4,10 @@ title: CreateSymbolicLinkW function
 author: windows-sdk-content
 description: Creates a symbolic link.
 old-location: fs\createsymboliclink.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink function [Files], CreateSymbolicLinkA, CreateSymbolicLinkW, SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclink, winbase/CreateSymbolicLink, winbase/CreateSymbolicLinkA, winbase/CreateSymbolicLinkW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,7 +135,7 @@ The link target is a directory.
 </dl>
 </td>
 <td width="60%">
-Specify this flag to allow creation of symbolic links when the process is not elevated.
+Specify this flag to allow creation of symbolic links when the process is not elevated. <a href="https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development">Developer Mode</a> must first be enabled on the machine before  this option will function.
 
 </td>
 </tr>

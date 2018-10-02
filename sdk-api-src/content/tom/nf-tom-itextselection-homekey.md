@@ -4,10 +4,10 @@ title: ITextSelection::HomeKey
 author: windows-sdk-content
 description: Generalizes the functionality of the Home key.
 old-location: controls\ITextSelection_HomeKey.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],HomeKey method, ITextSelection.HomeKey, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

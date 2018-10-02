@@ -7,7 +7,7 @@ old-location: bits\bg_job_times.htm
 tech.root: Bits
 ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BG_JOB_TIMES, BG_JOB_TIMES structure [BITS], _BG_JOB_TIMES, _drz_bg_job_times, bits.bg_job_times, bits/BG_JOB_TIMES
 ms.prod: windows
 ms.technology: windows-sdk

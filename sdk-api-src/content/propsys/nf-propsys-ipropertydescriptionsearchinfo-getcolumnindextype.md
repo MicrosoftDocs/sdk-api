@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionSearchInfo_GetColumnIndexType.htm
 tech.root: properties
 ms.assetid: a519cfe5-e9ae-48ef-9538-a03ddc538efd
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetColumnIndexType, GetColumnIndexType method [Windows Properties], GetColumnIndexType method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetColumnIndexType method, IPropertyDescriptionSearchInfo.GetColumnIndexType, IPropertyDescriptionSearchInfo::GetColumnIndexType, _shell_IPropertyDescriptionSearchInfo_GetColumnIndexType, properties.IPropertyDescriptionSearchInfo_GetColumnIndexType, propsys/IPropertyDescriptionSearchInfo::GetColumnIndexType, shell.IPropertyDescriptionSearchInfo_GetColumnIndexType
 ms.prod: windows-hardware
 ms.technology: windows-devices

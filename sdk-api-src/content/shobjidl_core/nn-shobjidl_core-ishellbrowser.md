@@ -4,10 +4,10 @@ title: IShellBrowser
 author: windows-sdk-content
 description: Implemented by hosts of Shell views (objects that implement IShellView). Exposes methods that provide services for the view it is hosting and other objects that run in the context of the Explorer window.
 old-location: shell\IShellBrowser.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 138d90e3-a1f0-4faf-88ca-16c7a46df0ca
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellBrowser, IShellBrowser interface [Windows Shell], IShellBrowser interface [Windows Shell],described, _win32_IShellBrowser, shell.IShellBrowser, shobjidl_core/IShellBrowser
 ms.prod: windows
 ms.technology: windows-sdk

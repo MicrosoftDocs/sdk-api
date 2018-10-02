@@ -7,7 +7,7 @@ old-location: termserv\iworkspacescriptable3_startworkspaceex2.htm
 tech.root: TermServ
 ms.assetid: 819eb47e-f697-4b34-a91f-44aa95cf116a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWorkspaceScriptable3 interface [Remote Desktop Services],StartWorkspaceEx2 method, IWorkspaceScriptable3.StartWorkspaceEx2, IWorkspaceScriptable3::StartWorkspaceEx2, StartWorkspaceEx2, StartWorkspaceEx2 method [Remote Desktop Services], StartWorkspaceEx2 method [Remote Desktop Services],IWorkspaceScriptable3 interface, StartWorkspaceEx2 method [Remote Desktop Services],Workspace object, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services],StartWorkspaceEx2 method, termserv.iworkspacescriptable3_startworkspaceex2, workspaceruntime/IWorkspaceScriptable3::StartWorkspaceEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices

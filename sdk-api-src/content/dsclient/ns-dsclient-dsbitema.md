@@ -4,10 +4,10 @@ title: DSBITEMA
 author: windows-sdk-content
 description: Contains data about an item in the Active Directory container browser dialog box.
 old-location: ad\dsbitem.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 580b8aea-8411-41de-a2d9-1c3e3b35dd5a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDSBITEMA, DSBF_DISPLAYNAME, DSBF_ICONLOCATION, DSBF_STATE, DSBITEM, DSBITEM structure [Active Directory], DSBITEMA, DSBITEMW, DSBS_CHECKED, DSBS_HIDDEN, DSBS_ROOT, PDSBITEM, PDSBITEM structure pointer [Active Directory], _glines_dsbitem, ad.dsbitem, dsclient/DSBITEM, dsclient/DSBITEMA, dsclient/DSBITEMW, dsclient/PDSBITEM"
 ms.prod: windows
 ms.technology: windows-sdk

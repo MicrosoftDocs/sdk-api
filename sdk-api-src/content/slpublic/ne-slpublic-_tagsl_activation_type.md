@@ -7,7 +7,7 @@ old-location: security\sl_activation_type.htm
 tech.root: SecSLApi
 ms.assetid: e16a4e43-f7ef-43a3-a268-5f644340274c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SL_ACTIVATION_TYPE, SL_ACTIVATION_TYPE enumeration [Security], SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY, SL_ACTIVATION_TYPE_DEFAULT, _tagSL_ACTIVATION_TYPE, security.sl_activation_type, slpublic/SL_ACTIVATION_TYPE, slpublic/SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY, slpublic/SL_ACTIVATION_TYPE_DEFAULT
 ms.prod: windows
 ms.technology: windows-sdk

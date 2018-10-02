@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetLocation_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getlocation_82point.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetLocation, GetLocation method [GDI+], GetLocation method [GDI+],RectF class, RectF class [GDI+],GetLocation method, RectF.GetLocation, RectF::GetLocation, _gdiplus_CLASS_RectF_GetLocation_point_, gdiplus._gdiplus_CLASS_RectF_GetLocation_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices

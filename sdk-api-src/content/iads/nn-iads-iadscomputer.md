@@ -7,7 +7,7 @@ old-location: adsi\iadscomputer.htm
 tech.root: ADSI
 ms.assetid: e2b90a98-5777-42c2-95dd-4623e738c4da
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsComputer, IADsComputer interface [ADSI], IADsComputer interface [ADSI],described, _ds_iadscomputer, adsi.iadscomputer, iads/IADsComputer
 ms.prod: windows
 ms.technology: windows-sdk

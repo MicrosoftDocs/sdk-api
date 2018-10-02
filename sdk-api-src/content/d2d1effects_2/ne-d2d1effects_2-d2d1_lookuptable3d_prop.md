@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_lookuptable3d_prop.htm
 tech.root: direct2d
 ms.assetid: A0F866CD-78FE-441E-810E-763347F84323
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1_LOOKUPTABLE3D_PROP, D2D1_LOOKUPTABLE3D_PROP enumeration [Direct2D], D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE, D2D1_LOOKUPTABLE3D_PROP_LUT, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP_LUT, direct2d.d2d1_lookuptable3d_prop
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader.htm
 tech.root: DirectShow
 ms.assetid: 54a18567-e9d4-4b12-b486-cdd70d719184
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], IAsyncReader interface [DirectShow],described, IAsyncReaderInterface, dshow.iasyncreader, strmif/IAsyncReader
 ms.prod: windows
 ms.technology: windows-sdk

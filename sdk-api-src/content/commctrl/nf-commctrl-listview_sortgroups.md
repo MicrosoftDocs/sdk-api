@@ -4,10 +4,10 @@ title: ListView_SortGroups macro
 author: windows-sdk-content
 description: Uses an application-defined comparison function to sort groups by ID within a list-view control. You can use this macro or send the LVM_SORTGROUPS message explicitly.
 old-location: controls\ListView_SortGroups.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortgroups.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_SortGroups, ListView_SortGroups macro [Windows Controls], _win32_ListView_SortGroups, _win32_ListView_SortGroups_cpp, commctrl/ListView_SortGroups, controls.ListView_SortGroups, controls._win32_ListView_SortGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

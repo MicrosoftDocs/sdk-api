@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodattributes.htm
 tech.root: wpd_sdk
 ms.assetid: 4cd125ea-545f-461b-90e1-88d3e3a6c032
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMethodAttributes, GetMethodAttributes method [Windows Portable Devices SDK], GetMethodAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetMethodAttributes method, IPortableDeviceServiceCapabilities.GetMethodAttributes, IPortableDeviceServiceCapabilities::GetMethodAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodAttributes, wpdsdk.iportabledeviceservicecapabilities_getmethodattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

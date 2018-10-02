@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_96jp_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxIncomingArchive, IFaxIncomingArchive interface [Fax Service], IFaxIncomingArchive interface [Fax Service],described, _mfax_faxincomingarchive_cpp, fax._mfax_faxincomingarchive_cpp, faxcomex/IFaxIncomingArchive
 ms.prod: windows
 ms.technology: windows-sdk

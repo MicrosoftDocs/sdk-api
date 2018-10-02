@@ -7,7 +7,7 @@ old-location: iphlp\tcp_boolean_optional.htm
 tech.root: IpHlp
 ms.assetid: 68f8f797-06fb-4286-88bc-220c54977575
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL enumeration [IP Helper], TcpBoolOptDisabled, TcpBoolOptEnabled, TcpBoolOptUnchanged, _TCP_BOOLEAN_OPTIONAL, iphlp.tcp_boolean_optional, tcpestats/TCP_BOOLEAN_OPTIONAL, tcpestats/TcpBoolOptDisabled, tcpestats/TcpBoolOptEnabled, tcpestats/TcpBoolOptUnchanged"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_texcube_array_srv.htm
 tech.root: direct3d12
 ms.assetid: 58DDCEB5-A0B7-4E8D-ABE2-3B5B02C92D8D
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_TEXCUBE_ARRAY_SRV, D3D12_TEXCUBE_ARRAY_SRV structure, d3d12/D3D12_TEXCUBE_ARRAY_SRV, direct3d12.d3d12_texcube_array_srv
 ms.prod: windows
 ms.technology: windows-sdk

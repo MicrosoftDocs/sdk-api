@@ -7,7 +7,7 @@ old-location: security\certgetenhancedkeyusage.htm
 tech.root: seccrypto
 ms.assetid: eda6d875-df62-4f40-8734-a91666dba289
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG, CERT_FIND_PROP_ONLY_ENHKEY_USAGE_FLAG, CertGetEnhancedKeyUsage, CertGetEnhancedKeyUsage function [Security], _crypto2_certgetenhancedkeyusage, security.certgetenhancedkeyusage, wincrypt/CertGetEnhancedKeyUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices

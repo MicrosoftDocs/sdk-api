@@ -4,10 +4,10 @@ title: SymSetExtendedOption function
 author: windows-sdk-content
 description: Turns the specified extended symbol option on or off.
 old-location: base\symsetextendedoption.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExtendedOption function, base.symsetextendedoption, dbghelp/SymSetExtendedOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

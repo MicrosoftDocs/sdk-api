@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_Type
 author: windows-sdk-content
 description: Retrieves the algorithm type.
 old-location: security\icspalgorithm_type_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 28bffe60-10f2-462e-8067-943b12285982
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICspAlgorithm interface [Security],Type property, ICspAlgorithm.Type, ICspAlgorithm.get_Type, ICspAlgorithm::Type, ICspAlgorithm::get_Type, Type property [Security], Type property [Security],ICspAlgorithm interface, XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, XCN_BCRYPT_CIPHER_INTERFACE, XCN_BCRYPT_HASH_INTERFACE, XCN_BCRYPT_RNG_INTERFACE, XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE, XCN_BCRYPT_SIGNATURE_INTERFACE, XCN_BCRYPT_UNKNOWN_INTERFACE, certenroll/ICspAlgorithm::Type, certenroll/ICspAlgorithm::get_Type, get_Type, security.icspalgorithm_type_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

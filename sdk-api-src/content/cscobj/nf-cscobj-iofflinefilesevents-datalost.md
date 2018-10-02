@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_datalost.htm
 tech.root: OfflineFiles
 ms.assetid: da0414dd-2acb-48d9-ac84-66bb1f7ccbef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DataLost, DataLost method [Offline Files], DataLost method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],DataLost method, IOfflineFilesEvents.DataLost, IOfflineFilesEvents::DataLost, cscobj/IOfflineFilesEvents::DataLost, of.iofflinefilesevents_datalost
 ms.prod: windows-hardware
 ms.technology: windows-devices

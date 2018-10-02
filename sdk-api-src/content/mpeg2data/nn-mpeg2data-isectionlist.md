@@ -7,7 +7,7 @@ old-location: mstv\isectionlist.htm
 tech.root: MSTV
 ms.assetid: eb6d31b4-ee4a-468f-9e58-115159095858
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], ISectionList interface [Microsoft TV Technologies],described, ISectionListInterface, mpeg2data/ISectionList, mstv.isectionlist
 ms.prod: windows
 ms.technology: windows-sdk

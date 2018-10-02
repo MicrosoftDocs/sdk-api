@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol.htm
 tech.root: DirectShow
 ms.assetid: bce64088-3751-420c-b9de-b9b5f3119198
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], IMediaControl interface [DirectShow],described, IMediaControlInterface, control/IMediaControl, dshow.imediacontrol
 ms.prod: windows
 ms.technology: windows-sdk

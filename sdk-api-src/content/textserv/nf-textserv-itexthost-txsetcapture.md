@@ -4,10 +4,10 @@ title: ITextHost::TxSetCapture
 author: windows-sdk-content
 description: Sets the mouse capture in the text host's window.
 old-location: controls\ITextHost_TxSetCapture.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxsetcapture.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetCapture method, ITextHost.TxSetCapture, ITextHost::TxSetCapture, TxSetCapture, TxSetCapture method [Windows Controls], TxSetCapture method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetCapture, _win32_ITextHost_TxSetCapture_cpp, controls.ITextHost_TxSetCapture, controls._win32_ITextHost_TxSetCapture, textserv/ITextHost::TxSetCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices

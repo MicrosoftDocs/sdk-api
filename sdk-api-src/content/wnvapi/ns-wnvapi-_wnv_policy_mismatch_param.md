@@ -7,7 +7,7 @@ old-location: wnv\wnv_policy_mismatch_param.htm
 tech.root: wnv
 ms.assetid: 2781B0D6-950E-49AD-9B30-31DE4A27ED4A
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM structure pointer [Windows Network Virtualization], WNV_POLICY_MISMATCH_PARAM, WNV_POLICY_MISMATCH_PARAM structure [Windows Network Virtualization], _WNV_POLICY_MISMATCH_PARAM, wnv.wnv_policy_mismatch_param, wnvapi/PWNV_POLICY_MISMATCH_PARAM, wnvapi/WNV_POLICY_MISMATCH_PARAM"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opengl\wglusefontoutlines.htm
 tech.root: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "_ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

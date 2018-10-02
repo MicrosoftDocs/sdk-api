@@ -7,7 +7,7 @@ old-location: winprog\ndrcomplexarraymarshall.htm
 tech.root: devnotes
 ms.assetid: 01109e96-7d5b-4f16-a0fc-e7cf49020c3e
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: NdrComplexArrayMarshall, NdrComplexArrayMarshall function [Windows API], rpcndr/NdrComplexArrayMarshall, winprog.ndrcomplexarraymarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

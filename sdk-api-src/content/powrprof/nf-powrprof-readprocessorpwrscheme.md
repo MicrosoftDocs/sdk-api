@@ -4,10 +4,10 @@ title: ReadProcessorPwrScheme function
 author: windows-sdk-content
 description: Retrieves the processor power policy settings for the specified power scheme.
 old-location: base\readprocessorpwrscheme.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 740095a7-9def-48a3-9cbb-1da91b052321
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ReadProcessorPwrScheme, ReadProcessorPwrScheme function, _win32_readprocessorpwrscheme, base.readprocessorpwrscheme, powrprof/ReadProcessorPwrScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

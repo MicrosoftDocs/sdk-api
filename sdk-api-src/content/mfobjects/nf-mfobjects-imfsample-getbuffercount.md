@@ -4,10 +4,10 @@ title: IMFSample::GetBufferCount
 author: windows-sdk-content
 description: Retrieves the number of buffers in the sample.
 old-location: mf\imfsample_getbuffercount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: fe05e870-298b-44bf-90b7-70be40d045ab
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetBufferCount, GetBufferCount method [Media Foundation], GetBufferCount method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferCount method, IMFSample.GetBufferCount, IMFSample::GetBufferCount, fe05e870-298b-44bf-90b7-70be40d045ab, mf.imfsample_getbuffercount, mfobjects/IMFSample::GetBufferCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssfilesharesnapshotprovider_setsnapshotproperty.htm
 tech.root: VSS
 ms.assetid: 62a3a189-b14c-434d-98b9-ea4c247e2439
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetSnapshotProperty method, IVssFileShareSnapshotProvider.SetSnapshotProperty, IVssFileShareSnapshotProvider::SetSnapshotProperty, SetSnapshotProperty, SetSnapshotProperty method [VSS], SetSnapshotProperty method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setsnapshotproperty, vsprov/IVssFileShareSnapshotProvider::SetSnapshotProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

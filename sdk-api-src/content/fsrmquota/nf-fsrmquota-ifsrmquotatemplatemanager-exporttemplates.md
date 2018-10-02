@@ -4,10 +4,10 @@ title: IFsrmQuotaTemplateManager::ExportTemplates
 author: windows-sdk-content
 description: Exports the quota templates as an XML string.
 old-location: fsrm\ifsrmquotatemplatemanager_exporttemplates.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 36ba071b-4db2-42fb-90a8-838c45dfdd16
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, ExportTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager.ExportTemplates, IFsrmQuotaTemplateManager::ExportTemplates, fs.ifsrmquotatemplatemanager_exporttemplates, fsrm.ifsrmquotatemplatemanager_exporttemplates, fsrmquota/IFsrmQuotaTemplateManager::ExportTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices

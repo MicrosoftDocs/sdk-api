@@ -4,10 +4,10 @@ title: LongLongToUInt8 function
 author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type UINT8.
 old-location: shell\LongLongToUInt8.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b8dd8478-7c15-4183-9531-dd06ea2ccb03
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongLongToUInt8, LongLongToUInt8 function [Windows Shell], intsafe/LongLongToUInt8, shell.LongLongToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

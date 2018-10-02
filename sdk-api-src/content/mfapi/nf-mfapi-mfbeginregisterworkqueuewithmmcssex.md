@@ -4,10 +4,10 @@ title: MFBeginRegisterWorkQueueWithMMCSSEx function
 author: windows-sdk-content
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: D27E2B51-857D-48E5-8D25-A26917FCF959
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFBeginRegisterWorkQueueWithMMCSSEx, MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcssex, mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

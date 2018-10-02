@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs7::put_SignerCertificate
 author: windows-sdk-content
 description: Specifies or retrieves a certificate used to sign the certificate request.
 old-location: security\ix509certificaterequestpkcs7_signercertificate_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 5d93aad0-6b93-4508-9bf0-82f673585ead
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],SignerCertificate property, IX509CertificateRequestPkcs7.SignerCertificate, IX509CertificateRequestPkcs7.put_SignerCertificate, IX509CertificateRequestPkcs7::SignerCertificate, IX509CertificateRequestPkcs7::get_SignerCertificate, IX509CertificateRequestPkcs7::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::SignerCertificate, certenroll/IX509CertificateRequestPkcs7::get_SignerCertificate, certenroll/IX509CertificateRequestPkcs7::put_SignerCertificate, put_SignerCertificate, security.ix509certificaterequestpkcs7_signercertificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

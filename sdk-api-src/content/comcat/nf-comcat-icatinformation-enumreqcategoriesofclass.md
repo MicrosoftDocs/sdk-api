@@ -7,7 +7,7 @@ old-location: com\icatinformation_enumreqcategoriesofclass.htm
 tech.root: com
 ms.assetid: 1bde9359-6d0e-4d8f-9c9b-ceabaf2da61f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: EnumReqCategoriesOfClass, EnumReqCategoriesOfClass method [COM], EnumReqCategoriesOfClass method [COM],ICatInformation interface, ICatInformation interface [COM],EnumReqCategoriesOfClass method, ICatInformation.EnumReqCategoriesOfClass, ICatInformation::EnumReqCategoriesOfClass, _com_icatinformation_enumreqcategoriesofclass, com.icatinformation_enumreqcategoriesofclass, comcat/ICatInformation::EnumReqCategoriesOfClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

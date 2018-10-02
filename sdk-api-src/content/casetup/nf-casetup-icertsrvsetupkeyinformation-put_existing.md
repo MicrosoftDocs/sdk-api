@@ -7,7 +7,7 @@ old-location: security\icertsrvsetupkeyinformation_existing.htm
 tech.root: seccrypto
 ms.assetid: 2205499f-3ae6-426b-a8e0-a15bc39076ab
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: Existing property [Security], Existing property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],Existing property, ICertSrvSetupKeyInformation.Existing, ICertSrvSetupKeyInformation.put_Existing, ICertSrvSetupKeyInformation::Existing, ICertSrvSetupKeyInformation::get_Existing, ICertSrvSetupKeyInformation::put_Existing, casetup/ICertSrvSetupKeyInformation::Existing, casetup/ICertSrvSetupKeyInformation::get_Existing, casetup/ICertSrvSetupKeyInformation::put_Existing, put_Existing, security.icertsrvsetupkeyinformation_existing
 ms.prod: windows-hardware
 ms.technology: windows-devices

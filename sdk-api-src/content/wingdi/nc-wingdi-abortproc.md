@@ -7,7 +7,7 @@ old-location: gdi\abortproc.htm
 tech.root: printdocs
 ms.assetid: 3728a491-28ff-49ec-9131-ed6238b2be3d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: AbortProc, AbortProc callback, AbortProc callback function [Windows GDI], _win32_AbortProc, gdi.abortproc, wingdi/AbortProc
 ms.prod: windows
 ms.technology: windows-sdk

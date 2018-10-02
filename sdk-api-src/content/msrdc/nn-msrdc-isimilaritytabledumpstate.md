@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytabledumpstate.htm
 tech.root: Rdc
 ms.assetid: a56433b5-191f-49fe-83fb-7057e4c30bbd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression],described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
 ms.prod: windows
 ms.technology: windows-sdk

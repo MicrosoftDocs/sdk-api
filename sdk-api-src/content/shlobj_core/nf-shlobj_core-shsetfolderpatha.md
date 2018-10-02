@@ -4,10 +4,10 @@ title: SHSetFolderPathA function
 author: windows-sdk-content
 description: Deprecated. Assigns a new path to a system folder identified by its CSIDL.
 old-location: shell\SHSetFolderPath.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9da142fa-4765-4889-bd4c-d8167a16f86b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHSetFolderPath, SHSetFolderPath function [Windows Shell], SHSetFolderPathA, SHSetFolderPathW, _win32_SHSetFolderPath, shell.SHSetFolderPath, shlobj_core/SHSetFolderPath, shlobj_core/SHSetFolderPathA, shlobj_core/SHSetFolderPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\wsaprovidercompleteasynccall.htm
 tech.root: WinSock
 ms.assetid: 2bbc20ae-ad6d-47f6-8ca9-dd5559236fbe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSAProviderCompleteAsyncCall, WSAProviderCompleteAsyncCall function [Winsock], winsock.wsaprovidercompleteasynccall, ws2spi/WSAProviderCompleteAsyncCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

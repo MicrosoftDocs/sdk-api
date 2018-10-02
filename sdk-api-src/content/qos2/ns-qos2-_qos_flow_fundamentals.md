@@ -7,7 +7,7 @@ old-location: qos\qos_flow_fundamentals.htm
 tech.root: QOS
 ms.assetid: 3e6cbd5b-8bd3-4f08-9192-35604db5dc3a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS structure pointer [QOS], QOS_FLOW_FUNDAMENTALS, QOS_FLOW_FUNDAMENTALS structure [QOS], _QOS_FLOW_FUNDAMENTALS, qos.qos_flow_fundamentals, qos2/PQOS_FLOW_FUNDAMENTALS, qos2/QOS_FLOW_FUNDAMENTALS"
 ms.prod: windows
 ms.technology: windows-sdk

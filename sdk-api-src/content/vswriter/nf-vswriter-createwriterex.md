@@ -7,7 +7,7 @@ old-location: base\createwriterex.htm
 tech.root: VSS
 ms.assetid: 044dde5c-599f-495b-8d5c-7a37833bcb41
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateWriterEx, CreateWriterEx function, base.createwriterex, vswriter/CreateWriterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

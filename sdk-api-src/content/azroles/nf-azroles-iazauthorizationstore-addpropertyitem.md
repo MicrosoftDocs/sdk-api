@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified principal to the specified list of principals.
 old-location: security\azauthorizationstore_addpropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 88ac498c-2871-4260-8011-0aea9e6c346d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzAuthorizationStore object, AddPropertyItem method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPropertyItem method, IAzAuthorizationStore interface [Security],AddPropertyItem method, IAzAuthorizationStore.AddPropertyItem, IAzAuthorizationStore::AddPropertyItem, azroles/IAzAuthorizationStore::AddPropertyItem, security.azauthorizationstore_addpropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

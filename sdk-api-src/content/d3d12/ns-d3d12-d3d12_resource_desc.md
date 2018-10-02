@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_desc.htm
 tech.root: direct3d12
 ms.assetid: 908BCB65-A7C6-473D-81AB-CCCA029AB6F9
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_RESOURCE_DESC, D3D12_RESOURCE_DESC structure, d3d12/D3D12_RESOURCE_DESC, direct3d12.d3d12_resource_desc
 ms.prod: windows
 ms.technology: windows-sdk

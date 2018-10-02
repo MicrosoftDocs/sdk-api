@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationdefercontactservice_cancelco
 tech.root: directmanipulation
 ms.assetid: 5C5029E5-CA4B-4853-B9D3-B99E869A44C3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CancelContact, CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelContact method, IDirectManipulationDeferContactService.CancelContact, IDirectManipulationDeferContactService::CancelContact, directmanipulation.idirectmanipulationdefercontactservice_cancelcontact, directmanipulation/IDirectManipulationDeferContactService::CancelContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

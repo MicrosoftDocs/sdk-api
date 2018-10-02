@@ -7,7 +7,7 @@ old-location: winsock\nspstartup_2.htm
 tech.root: WinSock
 ms.assetid: ed9e4ff3-736a-4037-bf85-5572f0cd279d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NSPStartup, NSPStartup function [Winsock], _win32_nspstartup_2, winsock.nspstartup_2, ws2spi/NSPStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

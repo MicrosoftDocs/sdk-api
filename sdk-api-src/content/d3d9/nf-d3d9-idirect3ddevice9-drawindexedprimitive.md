@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__drawindexedprimitive.htm
 tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawindexedprimitive.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: DrawIndexedPrimitive, DrawIndexedPrimitive method [Direct3D 9], DrawIndexedPrimitive method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawIndexedPrimitive method, IDirect3DDevice9.DrawIndexedPrimitive, IDirect3DDevice9::DrawIndexedPrimitive, a022738b-ecda-9413-683b-50134f542560, d3d9helper/IDirect3DDevice9::DrawIndexedPrimitive, direct3d9.idirect3ddevice9__drawindexedprimitive
 ms.prod: windows-hardware
 ms.technology: windows-devices

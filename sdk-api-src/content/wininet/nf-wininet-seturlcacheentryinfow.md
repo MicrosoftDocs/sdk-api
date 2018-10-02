@@ -7,7 +7,7 @@ old-location: wininet\seturlcacheentryinfo.htm
 tech.root: WinInet
 ms.assetid: 71f6e1a3-09ce-4576-9480-1270f343db39
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetUrlCacheEntryInfo, SetUrlCacheEntryInfo function [WinINet], SetUrlCacheEntryInfoA, SetUrlCacheEntryInfoW, _inet_seturlcacheentryinfo_function, wininet.seturlcacheentryinfo, wininet/SetUrlCacheEntryInfo, wininet/SetUrlCacheEntryInfoA, wininet/SetUrlCacheEntryInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

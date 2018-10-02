@@ -7,7 +7,7 @@ old-location: wsw\wsacceptchannel.htm
 tech.root: wsw
 ms.assetid: e18e0005-89bd-435e-9a12-6602c3c638b7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsAcceptChannel, WsAcceptChannel function [Web Services for Windows], webservices/WsAcceptChannel, wsw.wsacceptchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\captureinterfacehardwarecrosstimestamp.htm
 tech.root: IpHlp
 ms.assetid: FB3C27CD-7D56-40F3-9DF9-A1115772D1C6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CaptureInterfaceHardwareCrossTimestamp, CaptureInterfaceHardwareCrossTimestamp function [IP Helper], iphlp.captureinterfacehardwarecrosstimestamp, iphlpapi/CaptureInterfaceHardwareCrossTimestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

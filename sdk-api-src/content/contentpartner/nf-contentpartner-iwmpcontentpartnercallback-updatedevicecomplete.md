@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_updatedevicecomplete.htm
 tech.root: WMP
 ms.assetid: 0d21d9a0-1a7c-4f4e-9c9d-36a0d30ea63f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],UpdateDeviceComplete method, IWMPContentPartnerCallback.UpdateDeviceComplete, IWMPContentPartnerCallback::UpdateDeviceComplete, IWMPContentPartnerCallbackUpdateDeviceComplete, UpdateDeviceComplete, UpdateDeviceComplete method [Windows Media Player], UpdateDeviceComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::UpdateDeviceComplete, wmp.iwmpcontentpartnercallback_updatedevicecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PathUnmakeSystemFolderA function
 author: windows-sdk-content
 description: Removes the attributes from a folder that make it a system folder. This folder must actually exist in the file system.
 old-location: shell\PathUnmakeSystemFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9c748ed6-3ee6-4889-8fdd-b33ed9d711d0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathUnmakeSystemFolder, PathUnmakeSystemFolder function [Windows Shell], PathUnmakeSystemFolderA, PathUnmakeSystemFolderW, _win32_PathUnmakeSystemFolder, shell.PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolderA, shlwapi/PathUnmakeSystemFolderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

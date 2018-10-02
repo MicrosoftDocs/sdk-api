@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetsyncrootinfobyhandle.htm
 tech.root: cfApi
 ms.assetid: EC96CB4E-6BCE-49D9-9CDA-A24A9303B5CF
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CfGetSyncRootInfoByHandle, CfGetSyncRootInfoByHandle function, cfapi/CfGetSyncRootInfoByHandle, cloudApi.cfgetsyncrootinfobyhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

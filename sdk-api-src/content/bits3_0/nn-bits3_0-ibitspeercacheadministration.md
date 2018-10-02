@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration.htm
 tech.root: Bits
 ms.assetid: 5fa30b4e-f13c-4341-af65-a2e3d2703b96
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], IBitsPeerCacheAdministration interface [BITS],described, bits.ibitspeercacheadministration, bits3_0/IBitsPeerCacheAdministration
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IScheduledWorkItem::Run
 author: windows-sdk-content
 description: Sends a request to the Task Scheduler service to run the work item.
 old-location: taskschd\ischeduledworkitem_run.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: f533fcf6-8ece-442f-b6d5-3702321db9e9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Run method, IScheduledWorkItem.Run, IScheduledWorkItem::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_run, mstask/IScheduledWorkItem::Run, taskschd.ischeduledworkitem_run
 ms.prod: windows-hardware
 ms.technology: windows-devices

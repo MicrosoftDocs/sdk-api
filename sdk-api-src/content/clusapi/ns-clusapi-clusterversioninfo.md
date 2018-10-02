@@ -4,10 +4,10 @@ title: CLUSTERVERSIONINFO
 author: windows-sdk-content
 description: Describes information about the version of the Cluster service installed locally on a node.
 old-location: mscs\clusterversioninfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e1cecdbc-f0e4-4ee8-9a97-14859ceba5fd
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPCLUSTERVERSIONINFO, *PCLUSTERVERSIONINFO, CLUSTERVERSIONINFO, CLUSTERVERSIONINFO structure [Failover Cluster], LPCLUSTERVERSIONINFO, LPCLUSTERVERSIONINFO structure pointer [Failover Cluster], PCLUSTERVERSIONINFO, PCLUSTERVERSIONINFO structure pointer [Failover Cluster], _wolf_clusterversioninfo, clusapi/CLUSTERVERSIONINFO, clusapi/LPCLUSTERVERSIONINFO, clusapi/PCLUSTERVERSIONINFO, mscs.clusterversioninfo"
 ms.prod: windows
 ms.technology: windows-sdk

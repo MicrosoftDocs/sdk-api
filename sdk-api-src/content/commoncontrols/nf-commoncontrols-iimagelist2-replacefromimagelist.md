@@ -4,10 +4,10 @@ title: IImageList2::ReplaceFromImageList
 author: windows-sdk-content
 description: Replaces an image in one image list with an image from another image list.
 old-location: controls\IImageList2_ReplaceFromImageList.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replacefromimagelist.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: IImageList2 interface [Windows Controls],ReplaceFromImageList method, IImageList2.ReplaceFromImageList, IImageList2::ReplaceFromImageList, ReplaceFromImageList, ReplaceFromImageList method [Windows Controls], ReplaceFromImageList method [Windows Controls],IImageList2 interface, _shell_IImageList2_ReplaceFromImageList, _shell_IImageList2_ReplaceFromImageList_cpp, commoncontrols/IImageList2::ReplaceFromImageList, controls.IImageList2_ReplaceFromImageList, controls._shell_IImageList2_ReplaceFromImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

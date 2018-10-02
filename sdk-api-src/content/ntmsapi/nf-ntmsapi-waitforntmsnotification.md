@@ -7,7 +7,7 @@ old-location: fs\waitforntmsnotification.htm
 tech.root: Rsm
 ms.assetid: ecb39bac-f062-4835-bbae-f9f643ffde9b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WaitForNtmsNotification, WaitForNtmsNotification function [Files], _zaw_waitforntmsnotification, base.waitforntmsnotification, fs.waitforntmsnotification, ntmsapi/WaitForNtmsNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

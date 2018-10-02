@@ -4,10 +4,10 @@ title: tagNMTVASYNCDRAW
 author: windows-sdk-content
 description: Contains an explanation of why the draw of an icon or overlay tree item failed.
 old-location: controls\NMTVASYNCDRAW.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvasyncdraw.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ADRF_DRAWIMAGE, ADRF_DRAWNOTHING, ADRF_DRAWSYNC, NMTVASYNCDRAW, NMTVASYNCDRAW structure [Windows Controls], _shell_NMTVASYNCDRAW, _shell_NMTVASYNCDRAW_cpp, commctrl/NMTVASYNCDRAW, controls.NMTVASYNCDRAW, controls._shell_NMTVASYNCDRAW, tagNMTVASYNCDRAW
 ms.prod: windows
 ms.technology: windows-sdk

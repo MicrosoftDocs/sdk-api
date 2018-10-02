@@ -7,7 +7,7 @@ old-location: rm\drmcreateright.htm
 tech.root: AdRms_Sdk
 ms.assetid: 05074fbd-9268-41b4-a916-a932dc7a7858
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMCreateRight, DRMCreateRight function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateRight, rm.drmcreateright
 ms.prod: windows-hardware
 ms.technology: windows-devices

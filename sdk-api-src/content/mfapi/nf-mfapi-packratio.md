@@ -4,10 +4,10 @@ title: PackRatio function
 author: windows-sdk-content
 description: Packs two UINT32 values, which represent a ratio, into a UINT64 value.
 old-location: mf\packratio.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2E175E21-D5A3-43B1-8AB9-A427E0F9350E
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: PackRatio, PackRatio function [Media Foundation], mf.packratio, mfapi/PackRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

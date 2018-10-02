@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccessex_createdialogrequestnumber.htm
 tech.root: MSTV
 ms.assetid: cabe06c8-ead5-4e1d-83c3-e7b96b05fc4a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CreateDialogRequestNumber, CreateDialogRequestNumber method [Microsoft TV Technologies], CreateDialogRequestNumber method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CreateDialogRequestNumber method, IBDA_ConditionalAccessEx.CreateDialogRequestNumber, IBDA_ConditionalAccessEx::CreateDialogRequestNumber, bdaiface/IBDA_ConditionalAccessEx::CreateDialogRequestNumber, mstv.ibda_conditionalaccessex_createdialogrequestnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

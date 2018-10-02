@@ -4,10 +4,10 @@ title: IShellImageStore::Open
 author: windows-sdk-content
 description: Opens the store and returns a lock.
 old-location: shell\IShellImageStore_Open.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2aebf791-7681-42b3-8ffe-46e103e7c036
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellImageStore interface [Windows Shell],Open method, IShellImageStore.Open, IShellImageStore::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IShellImageStore interface, _win32_IShellImageStore_Open, shell.IShellImageStore_Open, shlobj/IShellImageStore::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

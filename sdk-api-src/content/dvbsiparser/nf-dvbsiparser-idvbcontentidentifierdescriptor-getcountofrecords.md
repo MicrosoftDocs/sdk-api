@@ -7,7 +7,7 @@ old-location: mstv\idvbcontentidentifierdescriptor_getcountofrecords.htm
 tech.root: MSTV
 ms.assetid: cd96a052-52e6-4de7-aa44-66c2caa4d5f5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbContentIdentifierDescriptor interface, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbContentIdentifierDescriptor.GetCountOfRecords, IDvbContentIdentifierDescriptor::GetCountOfRecords, dvbsiparser/IDvbContentIdentifierDescriptor::GetCountOfRecords, mstv.idvbcontentidentifierdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

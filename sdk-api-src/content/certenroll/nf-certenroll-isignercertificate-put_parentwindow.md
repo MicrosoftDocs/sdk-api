@@ -4,10 +4,10 @@ title: ISignerCertificate::put_ParentWindow
 author: windows-sdk-content
 description: Specifies or retrieves the ID of the window used to display signing certificate information.
 old-location: security\isignercertificate_parentwindow_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: a1749c92-11e4-4726-a355-ccdd245b4df8
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ISignerCertificate interface [Security],ParentWindow property, ISignerCertificate.ParentWindow, ISignerCertificate.put_ParentWindow, ISignerCertificate::ParentWindow, ISignerCertificate::get_ParentWindow, ISignerCertificate::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::ParentWindow, certenroll/ISignerCertificate::get_ParentWindow, certenroll/ISignerCertificate::put_ParentWindow, put_ParentWindow, security.isignercertificate_parentwindow_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

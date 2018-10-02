@@ -4,10 +4,10 @@ title: "_CLUSTER_HEALTH_FAULT_ARRAY"
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_health_fault_array.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7d741fca-3ded-4f24-81e0-e2c4e230ead2
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLUSTER_HEALTH_FAULT_ARRAY, CLUSTER_HEALTH_FAULT_ARRAY, CLUSTER_HEALTH_FAULT_ARRAY structure [Failover Cluster], PCLUSTER_HEALTH_FAULT_ARRAY, PCLUSTER_HEALTH_FAULT_ARRAY structure pointer [Failover Cluster], _CLUSTER_HEALTH_FAULT_ARRAY, mscs.cluster_health_fault_array, resapi/CLUSTER_HEALTH_FAULT_ARRAY, resapi/PCLUSTER_HEALTH_FAULT_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

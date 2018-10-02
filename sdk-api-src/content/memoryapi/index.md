@@ -2,7 +2,7 @@
 UID: NA:memoryapi
 ms.assetid: 86f5abb6-18c4-39c0-afc0-83b5f158f308
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

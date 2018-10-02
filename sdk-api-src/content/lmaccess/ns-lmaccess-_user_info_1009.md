@@ -4,10 +4,10 @@ title: "_USER_INFO_1009"
 author: windows-sdk-content
 description: The USER_INFO_1009 structure contains the path for a user's logon script file. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1009_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: baaabbf9-9571-49db-bf38-a3fc2d0a200a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPUSER_INFO_1009, *PUSER_INFO_1009, LPUSER_INFO_1009, LPUSER_INFO_1009 structure pointer [Network Management], PUSER_INFO_1009, PUSER_INFO_1009 structure pointer [Network Management], USER_INFO_1009, USER_INFO_1009 structure [Network Management], _USER_INFO_1009, _win32_user_info_1009_str, lmaccess/LPUSER_INFO_1009, lmaccess/PUSER_INFO_1009, lmaccess/USER_INFO_1009, netmgmt.user_info_1009_str"
 ms.prod: windows
 ms.technology: windows-sdk

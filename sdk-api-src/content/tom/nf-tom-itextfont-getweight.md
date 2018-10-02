@@ -4,10 +4,10 @@ title: ITextFont::GetWeight
 author: windows-sdk-content
 description: Gets the font weight for the characters in a range.
 old-location: controls\ITextFont_GetWeight.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getweight.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetWeight, GetWeight method [Windows Controls], GetWeight method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetWeight method, ITextFont.GetWeight, ITextFont::GetWeight, _win32_ITextFont_GetWeight, _win32_ITextFont_GetWeight_cpp, controls.ITextFont_GetWeight, controls._win32_ITextFont_GetWeight, tom/ITextFont::GetWeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

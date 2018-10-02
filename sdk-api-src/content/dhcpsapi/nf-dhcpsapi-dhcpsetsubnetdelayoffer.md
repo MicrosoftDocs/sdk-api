@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetsubnetdelayoffer.htm
 tech.root: DHCP
 ms.assetid: f58ba3da-a6c2-48a5-b744-edd9581610f1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpSetSubnetDelayOffer, DhcpSetSubnetDelayOffer function [DHCP], dhcp.dhcpsetsubnetdelayoffer, dhcpsapi/DhcpSetSubnetDelayOffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITextRange2::SetFormattedText2
 author: windows-sdk-content
 description: Sets the text of this range to the formatted text of the specified range.
 old-location: controls\itextrange2_setformattedtext2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 151be9ee-da5d-4e50-a12e-0473cf1c7d91
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetFormattedText2 method, ITextRange2.SetFormattedText2, ITextRange2::SetFormattedText2, SetFormattedText2, SetFormattedText2 method [Windows Controls], SetFormattedText2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setformattedtext2, tom/ITextRange2::SetFormattedText2
 ms.prod: windows-hardware
 ms.technology: windows-devices

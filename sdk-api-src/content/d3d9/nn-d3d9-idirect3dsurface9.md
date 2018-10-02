@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dsurface9.htm
 tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 7eb0f571-de02-55a6-f6eb-fc92e63fbb48, IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], IDirect3DSurface9 interface [Direct3D 9],described, d3d9helper/IDirect3DSurface9, direct3d9.idirect3dsurface9
 ms.prod: windows
 ms.technology: windows-sdk

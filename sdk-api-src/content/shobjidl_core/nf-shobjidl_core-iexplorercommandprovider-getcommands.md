@@ -4,10 +4,10 @@ title: IExplorerCommandProvider::GetCommands
 author: windows-sdk-content
 description: Gets a specified Explorer command enumerator instance.
 old-location: shell\IExplorerCommandProvider_GetCommands.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: df300219-e717-4f79-8996-62726092c3c7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetCommands, GetCommands method [Windows Shell], GetCommands method [Windows Shell],IExplorerCommandProvider interface, IExplorerCommandProvider interface [Windows Shell],GetCommands method, IExplorerCommandProvider.GetCommands, IExplorerCommandProvider::GetCommands, _shell_IExplorerCommandProvider_GetCommands, shell.IExplorerCommandProvider_GetCommands, shobjidl_core/IExplorerCommandProvider::GetCommands
 ms.prod: windows-hardware
 ms.technology: windows-devices

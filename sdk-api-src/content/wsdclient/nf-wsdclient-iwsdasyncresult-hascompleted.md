@@ -7,7 +7,7 @@ old-location: ncd\iwsdasyncresult_hascompleted_method.htm
 tech.root: WsdApi
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HasCompleted, HasCompleted method, HasCompleted method,IWSDAsyncResult interface, IWSDAsyncResult interface,HasCompleted method, IWSDAsyncResult.HasCompleted, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

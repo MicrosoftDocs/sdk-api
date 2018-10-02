@@ -7,7 +7,7 @@ old-location: winsock\setipv4sourcefilter.htm
 tech.root: WinSock
 ms.assetid: C296D050-9195-42B5-8EBE-C6004F2DA855
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: setipv4sourcefilter, setipv4sourcefilter function [Winsock], winsock.setipv4sourcefilter, ws2tcpip/setipv4sourcefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

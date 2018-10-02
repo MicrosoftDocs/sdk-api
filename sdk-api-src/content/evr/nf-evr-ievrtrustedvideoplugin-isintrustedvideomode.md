@@ -4,10 +4,10 @@ title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode
 author: windows-sdk-content
 description: Queries whether the plug-in has any transient vulnerabilities at this time.
 old-location: mf\ievrtrustedvideoplugin_isintrustedvideomode.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 43242898-4812-4faa-8e0a-6e60455c9f3b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 43242898-4812-4faa-8e0a-6e60455c9f3b, IEVRTrustedVideoPlugin interface [Media Foundation],IsInTrustedVideoMode method, IEVRTrustedVideoPlugin.IsInTrustedVideoMode, IEVRTrustedVideoPlugin::IsInTrustedVideoMode, IsInTrustedVideoMode, IsInTrustedVideoMode method [Media Foundation], IsInTrustedVideoMode method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode, mf.ievrtrustedvideoplugin_isintrustedvideomode
 ms.prod: windows-hardware
 ms.technology: windows-devices

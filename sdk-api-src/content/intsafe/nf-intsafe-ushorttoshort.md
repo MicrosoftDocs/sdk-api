@@ -4,10 +4,10 @@ title: UShortToShort function
 author: windows-sdk-content
 description: Converts a value of type USHORT to a value of type SHORT.
 old-location: shell\UShortToShort.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 77fd8f32-0b24-4d03-8a6e-d7512c8c6482
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UShortToShort, UShortToShort function [Windows Shell], WordToShort, _shell_UShortToShort, intsafe/UShortToShort, shell.UShortToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

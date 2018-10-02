@@ -7,7 +7,7 @@ old-location: pla\fileformat.htm
 tech.root: PLA
 ms.assetid: 8ec50a96-0c8c-401a-8849-e3753fe15952
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FileFormat, FileFormat enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0002, base.fileformat, pla.fileformat, pla/FileFormat, pla/plaBinary, pla/plaCommaSeparated, pla/plaSql, pla/plaTabSeparated, plaBinary, plaCommaSeparated, plaSql, plaTabSeparated
 ms.prod: windows
 ms.technology: windows-sdk

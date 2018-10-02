@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter_supportseeking.htm
 tech.root: DirectShow
 ms.assetid: 7cb15898-8a22-4621-a6e5-bb5d17640749
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],SupportSeeking method, IMediaStreamFilter.SupportSeeking, IMediaStreamFilter::SupportSeeking, IMediaStreamFilterSupportSeeking, SupportSeeking, SupportSeeking method [DirectShow], SupportSeeking method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::SupportSeeking, dshow.imediastreamfilter_supportseeking
 ms.prod: windows-hardware
 ms.technology: windows-devices

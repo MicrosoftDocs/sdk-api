@@ -7,7 +7,7 @@ old-location: mstv\iisdbdatacontentdescriptor_getrecordcomponentref.htm
 tech.root: MSTV
 ms.assetid: 3668c323-6808-4bc4-b372-37647ef3fdd8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordComponentRef, GetRecordComponentRef method [Microsoft TV Technologies], GetRecordComponentRef method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetRecordComponentRef method, IIsdbDataContentDescriptor.GetRecordComponentRef, IIsdbDataContentDescriptor::GetRecordComponentRef, dvbsiparser/IIsdbDataContentDescriptor::GetRecordComponentRef, mstv.iisdbdatacontentdescriptor_getrecordcomponentref
 ms.prod: windows-hardware
 ms.technology: windows-devices

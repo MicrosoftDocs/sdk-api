@@ -4,10 +4,10 @@ title: IMFCaptureSource::SetCurrentDeviceMediaType
 author: windows-sdk-content
 description: Sets the output format for a capture stream.
 old-location: mf\imfcapturesource_setcurrentdevicemediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2B88BBAE-E837-4F4A-B697-64772F25C89D
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFCaptureSource interface [Media Foundation],SetCurrentDeviceMediaType method, IMFCaptureSource.SetCurrentDeviceMediaType, IMFCaptureSource::SetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, SetCurrentDeviceMediaType, SetCurrentDeviceMediaType method [Media Foundation], SetCurrentDeviceMediaType method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_setcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::SetCurrentDeviceMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

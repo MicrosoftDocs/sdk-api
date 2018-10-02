@@ -4,10 +4,10 @@ title: GetSecurityDescriptorSacl function
 author: windows-sdk-content
 description: Retrieves a pointer to the system access control list (SACL) in a specified security descriptor.
 old-location: security\getsecuritydescriptorsacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6bf59735-aaa3-4751-8c98-00cc197df4e5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetSecurityDescriptorSacl, GetSecurityDescriptorSacl function [Security], _win32_getsecuritydescriptorsacl, security.getsecuritydescriptorsacl, securitybaseapi/GetSecurityDescriptorSacl
 ms.prod: windows-hardware
 ms.technology: windows-devices

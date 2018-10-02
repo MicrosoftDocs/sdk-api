@@ -7,7 +7,7 @@ old-location: gpmc\igpm_initializereporting.htm
 tech.root: GPMC
 ms.assetid: 6e9f6ac5-d6d7-4360-b722-0b22e2391d20
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPM object [GPMC],InitializeReporting method, IGPM interface [GPMC],InitializeReporting method, IGPM.InitializeReporting, IGPM::InitializeReporting, InitializeReporting, InitializeReporting method [GPMC], InitializeReporting method [GPMC],GPM object, InitializeReporting method [GPMC],IGPM interface, gpmc.igpm_initializereporting, gpmgmt/IGPM::InitializeReporting
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: NMPGCALCSIZE
 author: windows-sdk-content
 description: Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the PGN_CALCSIZE notification.
 old-location: controls\NMPGCALCSIZE.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpgcalcsize.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPNMPGCALCSIZE, LPNMPGCALCSIZE, LPNMPGCALCSIZE structure pointer [Windows Controls], NMPGCALCSIZE, NMPGCALCSIZE structure [Windows Controls], PGF_CALCHEIGHT, PGF_CALCWIDTH, _win32_NMPGCALCSIZE, _win32_NMPGCALCSIZE_cpp, commctrl/LPNMPGCALCSIZE, commctrl/NMPGCALCSIZE, controls.NMPGCALCSIZE, controls._win32_NMPGCALCSIZE"
 ms.prod: windows
 ms.technology: windows-sdk

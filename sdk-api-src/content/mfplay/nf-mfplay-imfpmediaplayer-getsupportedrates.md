@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::GetSupportedRates
 author: windows-sdk-content
 description: Gets the range of supported playback rates.
 old-location: mf\imfpmediaplayer_getsupportedrates.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e0e738e4-b8e4-41da-8b74-74ce06f17274
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetSupportedRates, GetSupportedRates method [Media Foundation], GetSupportedRates method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetSupportedRates method, IMFPMediaPlayer.GetSupportedRates, IMFPMediaPlayer::GetSupportedRates, mf.imfpmediaplayer_getsupportedrates, mfplay/IMFPMediaPlayer::GetSupportedRates
 ms.prod: windows-hardware
 ms.technology: windows-devices

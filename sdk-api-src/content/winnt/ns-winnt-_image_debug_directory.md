@@ -4,10 +4,10 @@ title: "_IMAGE_DEBUG_DIRECTORY"
 author: windows-sdk-content
 description: Represents the debug directory format.
 old-location: base\image_debug_directory_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f89a3c9b-4d73-4ff5-8f45-2e58500d5084
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PIMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY structure, IMAGE_DEBUG_TYPE_BORLAND, IMAGE_DEBUG_TYPE_CODEVIEW, IMAGE_DEBUG_TYPE_COFF, IMAGE_DEBUG_TYPE_EXCEPTION, IMAGE_DEBUG_TYPE_FIXUP, IMAGE_DEBUG_TYPE_FPO, IMAGE_DEBUG_TYPE_MISC, IMAGE_DEBUG_TYPE_UNKNOWN, PIMAGE_DEBUG_DIRECTORY, PIMAGE_DEBUG_DIRECTORY structure pointer, _IMAGE_DEBUG_DIRECTORY, _win32_image_debug_directory_str, base.image_debug_directory_str, winnt/IMAGE_DEBUG_DIRECTORY, winnt/PIMAGE_DEBUG_DIRECTORY"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAzRole
 author: windows-sdk-content
 description: Defines the set of operations that can be performed by a set of users within a scope.
 old-location: security\iazrole.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2934d783-b379-486c-80e7-e7650b89dc1a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IAzRole, IAzRole interface [Security], IAzRole interface [Security],described, azroles/IAzRole, security.iazrole
 ms.prod: windows
 ms.technology: windows-sdk

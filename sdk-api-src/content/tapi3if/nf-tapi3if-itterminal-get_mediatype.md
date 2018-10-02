@@ -4,10 +4,10 @@ title: ITTerminal::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method determines the media that this terminal supports.
 old-location: tapi3\itterminal_get_mediatype.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 8c2006ad-d2f9-4e21-b0ae-583ec3ff82f4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_MediaType method, ITTerminal.get_MediaType, ITTerminal::get_MediaType, _tapi3_itterminal_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_mediatype, tapi3if/ITTerminal::get_MediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

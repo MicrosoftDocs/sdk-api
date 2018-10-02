@@ -7,7 +7,7 @@ old-location: nla\inetwork_getnetworkid.htm
 tech.root: NLA
 ms.assetid: f2012295-d443-434f-8fe8-b6e38e7cac74
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNetworkId, GetNetworkId method [Network Awareness], GetNetworkId method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetNetworkId method, INetwork.GetNetworkId, INetwork::GetNetworkId, netlistmgr/INetwork::GetNetworkId, nla.inetwork_getnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices

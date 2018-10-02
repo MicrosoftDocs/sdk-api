@@ -4,10 +4,10 @@ title: "_STORAGE_PROTOCOL_DATA_DESCRIPTOR"
 author: windows-sdk-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return protocol-specific data from a storage device or adapter.
 old-location: fs\storage_protocol_data_descriptor.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: BCA56343-9FB4-4079-9DB1-5DD55529B586
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Files], STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Files], _STORAGE_PROTOCOL_DATA_DESCRIPTOR, fs.storage_protocol_data_descriptor, winioctl/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, winioctl/STORAGE_PROTOCOL_DATA_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

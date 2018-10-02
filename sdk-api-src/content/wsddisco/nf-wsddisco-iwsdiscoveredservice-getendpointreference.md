@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getendpointreference.htm
 tech.root: WsdApi
 ms.assetid: 656ff77d-765e-4c30-8e5d-560d121dc368
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetEndpointReference, GetEndpointReference method, GetEndpointReference method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetEndpointReference method, IWSDiscoveredService.GetEndpointReference, IWSDiscoveredService::GetEndpointReference, ncd.iwsdiscoveredservice_getendpointreference, wsddisco/IWSDiscoveredService::GetEndpointReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

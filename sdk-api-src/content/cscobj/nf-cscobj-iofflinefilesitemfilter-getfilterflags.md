@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitemfilter_getfilterflags.htm
 tech.root: OfflineFiles
 ms.assetid: 75466fc7-d14c-4ce7-82e9-9622287a50d1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFilterFlags, GetFilterFlags method [Offline Files], GetFilterFlags method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetFilterFlags method, IOfflineFilesItemFilter.GetFilterFlags, IOfflineFilesItemFilter::GetFilterFlags, cscobj/IOfflineFilesItemFilter::GetFilterFlags, of.iofflinefilesitemfilter_getfilterflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

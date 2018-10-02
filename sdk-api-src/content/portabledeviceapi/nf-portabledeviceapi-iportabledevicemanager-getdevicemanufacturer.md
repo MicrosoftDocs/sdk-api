@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicemanager_getdevicemanufacturer.htm
 tech.root: wpd_sdk
 ms.assetid: 2bd64da1-819d-430c-ab66-ab3b8e6c48f6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Portable Devices SDK], GetDeviceManufacturer method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceManufacturer method, IPortableDeviceManager.GetDeviceManufacturer, IPortableDeviceManager::GetDeviceManufacturer, IPortableDeviceManagerGetDeviceManufacturer, portabledeviceapi/IPortableDeviceManager::GetDeviceManufacturer, wpdsdk.iportabledevicemanager_getdevicemanufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices

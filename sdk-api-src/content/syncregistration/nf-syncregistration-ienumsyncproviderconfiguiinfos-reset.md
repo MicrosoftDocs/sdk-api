@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncproviderconfiguiinfos_reset.htm
 tech.root: winsync
 ms.assetid: ae976a03-c0e3-4a47-8153-8ba947ac8ea0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Reset method, IEnumSyncProviderConfigUIInfos.Reset, IEnumSyncProviderConfigUIInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Reset, winsync.ienumsyncproviderconfiguiinfos_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

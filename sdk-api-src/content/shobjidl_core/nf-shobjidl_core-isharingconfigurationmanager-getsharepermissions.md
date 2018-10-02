@@ -4,10 +4,10 @@ title: ISharingConfigurationManager::GetSharePermissions
 author: windows-sdk-content
 description: Gets the access permissions currently associated with the User or Public folder for the Everyone access control entry (ACE).
 old-location: shell\ISharingConfigurationManager_GetSharePermissions.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d9ca5acf-2dd1-4fbe-a67f-91578d68b955
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetSharePermissions, GetSharePermissions method [Windows Shell], GetSharePermissions method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],GetSharePermissions method, ISharingConfigurationManager.GetSharePermissions, ISharingConfigurationManager::GetSharePermissions, _shell_ISharingConfigurationManager_GetSharePermissions, shell.ISharingConfigurationManager_GetSharePermissions, shobjidl_core/ISharingConfigurationManager::GetSharePermissions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10::IsSmartCard
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether any of the cryptographic providers associated with the request object is a smart card provider.
 old-location: security\ix509certificaterequestpkcs10_issmartcard_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 663ca7dd-f108-46bf-9564-cd2d7ec2bb1f
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],IsSmartCard method, IX509CertificateRequestPkcs10.IsSmartCard, IX509CertificateRequestPkcs10::IsSmartCard, IsSmartCard, IsSmartCard method [Security], IsSmartCard method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::IsSmartCard, security.ix509certificaterequestpkcs10_issmartcard_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

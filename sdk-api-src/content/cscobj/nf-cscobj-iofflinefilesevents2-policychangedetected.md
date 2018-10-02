@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents2_policychangedetected.htm
 tech.root: OfflineFiles
 ms.assetid: 1009c67a-09f4-40ea-8aa9-fb42f1ab54ff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],PolicyChangeDetected method, IOfflineFilesEvents2.PolicyChangeDetected, IOfflineFilesEvents2::PolicyChangeDetected, PolicyChangeDetected, PolicyChangeDetected method [Offline Files], PolicyChangeDetected method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::PolicyChangeDetected, of.iofflinefilesevents2_policychangedetected
 ms.prod: windows-hardware
 ms.technology: windows-devices

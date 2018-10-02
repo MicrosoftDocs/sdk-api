@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_creatematrixtransform.htm
 tech.root: printdocs
 ms.assetid: 10377a1f-67b4-4fae-81f7-e6bf50e1c2b2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [XPS Documents and Packaging], CreateMatrixTransform method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateMatrixTransform method, IXpsOMObjectFactory.CreateMatrixTransform, IXpsOMObjectFactory::CreateMatrixTransform, xps.ixpsomobjectfactory_creatematrixtransform, xpsobjectmodel/IXpsOMObjectFactory::CreateMatrixTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

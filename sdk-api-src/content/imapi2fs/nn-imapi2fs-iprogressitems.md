@@ -7,7 +7,7 @@ old-location: imapi\iprogressitems.htm
 tech.root: imapi
 ms.assetid: 40c28e67-8ff3-4330-90a1-7ebccb0023ad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IProgressItems, IProgressItems interface [IMAPI], IProgressItems interface [IMAPI],described, imapi.iprogressitems, imapi2fs/IProgressItems
 ms.prod: windows
 ms.technology: windows-sdk

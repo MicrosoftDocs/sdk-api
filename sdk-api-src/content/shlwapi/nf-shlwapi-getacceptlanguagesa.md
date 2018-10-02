@@ -4,10 +4,10 @@ title: GetAcceptLanguagesA function
 author: windows-sdk-content
 description: Retrieves a string used with websites when specifying language preferences.
 old-location: shell\GetAcceptLanguages.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a680a7fd-f980-485d-b52a-eb4d482ebc17
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetAcceptLanguages, GetAcceptLanguages function [Windows Shell], GetAcceptLanguagesA, GetAcceptLanguagesW, _shell_GetAcceptLanguages, shell.GetAcceptLanguages, shlwapi/GetAcceptLanguages, shlwapi/GetAcceptLanguagesA, shlwapi/GetAcceptLanguagesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\winusb_getcurrentalternatesetting.htm
 tech.root: UsbRef
 ms.assetid: a644eb68-2192-4927-ac67-77384f8cf2b6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: WinUsb_GetCurrentAlternateSetting, WinUsb_GetCurrentAlternateSetting function [Buses], buses.winusb_getcurrentalternatesetting, winusb/WinUsb_GetCurrentAlternateSetting, winusbfunc_26a4514e-edde-432d-aac7-c4d2466c70c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

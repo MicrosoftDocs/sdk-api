@@ -4,10 +4,10 @@ title: "_PEERDIST_CLIENT_BASIC_INFO"
 author: windows-sdk-content
 description: The PEERDIST_CLIENT_BASIC_INFO structure indicates whether or not there are many clients simultaneously downloading the same content.
 old-location: p2p\peerdist_client_basic_info.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: abd98a28-b208-4f31-a28b-ff6ff6677af9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPEERDIST_CLIENT_BASIC_INFO, PEERDIST_CLIENT_BASIC_INFO, PEERDIST_CLIENT_BASIC_INFO structure [Peer Networking], PPEERDIST_CLIENT_BASIC_INFO, PPEERDIST_CLIENT_BASIC_INFO structure pointer [Peer Networking], _PEERDIST_CLIENT_BASIC_INFO, p2p.peerdist_client_basic_info, peerdist/PEERDIST_CLIENT_BASIC_INFO, peerdist/PPEERDIST_CLIENT_BASIC_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

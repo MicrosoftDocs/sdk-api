@@ -7,7 +7,7 @@ old-location: base\ntquerysystemtime.htm
 tech.root: SysInfo
 ms.assetid: 5b083c4f-ec2b-4118-b49e-1ca3e0af342e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NtQuerySystemTime, NtQuerySystemTime function, base.ntquerysystemtime, winternl/NtQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

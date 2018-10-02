@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetCAs
 author: windows-sdk-content
 description: Retrieves a collection of certification enrollment servers included in the policy.
 old-location: security\ix509enrollmentpolicyserver_getcas.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 37836fd1-e95a-4025-b268-f78a9113e568
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetCAs, GetCAs method [Security], GetCAs method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCAs method, IX509EnrollmentPolicyServer.GetCAs, IX509EnrollmentPolicyServer::GetCAs, certenroll/IX509EnrollmentPolicyServer::GetCAs, security.ix509enrollmentpolicyserver_getcas
 ms.prod: windows-hardware
 ms.technology: windows-devices

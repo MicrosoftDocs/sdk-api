@@ -7,7 +7,7 @@ old-location: tsf\ienumtfuielements_clone.htm
 tech.root: TSF
 ms.assetid: 3949ea4d-9360-4524-9495-31a884cac309
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfUIElements interface, IEnumTfUIElements interface [Text Services Framework],Clone method, IEnumTfUIElements.Clone, IEnumTfUIElements::Clone, msctf/IEnumTfUIElements::Clone, tsf.ienumtfuielements_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

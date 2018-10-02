@@ -4,10 +4,10 @@ title: IMFTopology::GetNodeCount
 author: windows-sdk-content
 description: Gets the number of nodes in the topology.
 old-location: mf\imftopology_getnodecount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 87378088-1d7a-4ad7-942f-69b6cfc4e573
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 87378088-1d7a-4ad7-942f-69b6cfc4e573, GetNodeCount, GetNodeCount method [Media Foundation], GetNodeCount method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeCount method, IMFTopology.GetNodeCount, IMFTopology::GetNodeCount, mf.imftopology_getnodecount, mfidl/IMFTopology::GetNodeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

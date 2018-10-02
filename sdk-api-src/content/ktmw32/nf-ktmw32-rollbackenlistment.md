@@ -7,7 +7,7 @@ old-location: fs\rollbackenlistment.htm
 tech.root: Ktm
 ms.assetid: e62c0c81-6802-4a76-94bb-617933490e83
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RollbackEnlistment, RollbackEnlistment function [Files], fs.rollbackenlistment, ktmw32/RollbackEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

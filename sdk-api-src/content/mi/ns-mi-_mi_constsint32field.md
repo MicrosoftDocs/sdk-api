@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constsint32field.htm
 tech.root: WMI_v2
 ms.assetid: 374b74f2-2366-4be8-8a8a-e6fcaf094400
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ConstSint32Field, MI_ConstSint32Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstSint32Field, mi/MI_ConstSint32Field, wmi._mi_constsint32field, wmi_v2.mi_constsint32field
 ms.prod: windows
 ms.technology: windows-sdk

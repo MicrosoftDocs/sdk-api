@@ -4,10 +4,10 @@ title: IObjectWithSelection
 author: windows-sdk-content
 description: Exposes methods that get or set selected items represented by a Shell item array.
 old-location: shell\IObjectWithSelection.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8fb248eb-73e7-4db0-8585-4accafe332d0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IObjectWithSelection, IObjectWithSelection interface [Windows Shell], IObjectWithSelection interface [Windows Shell],described, _shell_IObjectWithSelection, shell.IObjectWithSelection, shobjidl_core/IObjectWithSelection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devlic\removedeveloperlicense.htm
 tech.root: devlic
 ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\mixerlinecontrols.htm
 tech.root: Multimedia
 ms.assetid: a028785b-2d58-41da-825b-32e98fb44405
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPMIXERLINECONTROLS, *PMIXERLINECONTROLS, MIXERLINECONTROLS, MIXERLINECONTROLS structure [Windows Multimedia], _win32_MIXERLINECONTROLS_str, mmeapi/MIXERLINECONTROLS, multimedia.mixerlinecontrols, tMIXERLINECONTROLS, tagMIXERLINECONTROLSA, tagMIXERLINECONTROLSW"
 ms.prod: windows
 ms.technology: windows-sdk

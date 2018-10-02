@@ -7,7 +7,7 @@ old-location: mstv\ibda_frequencyfilter.htm
 tech.root: MSTV
 ms.assetid: ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], IBDA_FrequencyFilter interface [Microsoft TV Technologies],described, IBDA_FrequencyFilterInterface, bdaiface/IBDA_FrequencyFilter, mstv.ibda_frequencyfilter
 ms.prod: windows
 ms.technology: windows-sdk

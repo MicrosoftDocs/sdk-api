@@ -4,10 +4,10 @@ title: GetClusterNotifyV2 function
 author: windows-sdk-content
 description: Retrieves information about the next notification event for a notification port.
 old-location: mscs\getclusternotifyv2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0AF127E1-D517-4F4B-B797-40822B3B236F
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetClusterNotifyV2, GetClusterNotifyV2 function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NOTIFY_V2, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 function [Failover Cluster], clusapi/GetClusterNotifyV2, clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY_V2, mscs.getclusternotifyv2
 ms.prod: windows-hardware
 ms.technology: windows-devices

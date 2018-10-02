@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newdestinationoptions.htm
 tech.root: WMI_v2
 ms.assetid: efaa1244-7fe4-4484-b9ac-e7309e2012b6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Application_NewDestinationOptions, MI_Application_NewDestinationOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewDestinationOptions, wmi_v2.mi_application_newdestinationoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

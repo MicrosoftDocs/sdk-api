@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect.htm
 tech.root: MSTV
 ms.assetid: 0b3cf31b-e0cc-4208-a128-b77460fc0f1b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], IMSVidRect interface [Microsoft TV Technologies],described, IMSVidRectInterface, mstv.imsvidrect, segment/IMSVidRect
 ms.prod: windows
 ms.technology: windows-sdk

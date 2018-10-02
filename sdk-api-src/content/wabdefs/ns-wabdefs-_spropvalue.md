@@ -7,7 +7,7 @@ old-location: wab\_wab_SPropValue.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _SPropValue, _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
 ms.prod: windows
 ms.technology: windows-sdk

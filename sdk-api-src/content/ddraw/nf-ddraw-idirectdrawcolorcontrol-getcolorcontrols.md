@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawcolorcontrol_getcolorcontrols.htm
 tech.root: directdraw
 ms.assetid: 16ac7bef-e88c-47da-8db9-9e6258a381a0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetColorControls, GetColorControls method [DirectDraw], GetColorControls method [DirectDraw],IDirectDrawColorControl interface, IDirectDrawColorControl interface [DirectDraw],GetColorControls method, IDirectDrawColorControl.GetColorControls, IDirectDrawColorControl::GetColorControls, ddraw/IDirectDrawColorControl::GetColorControls, directdraw.idirectdrawcolorcontrol_getcolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices

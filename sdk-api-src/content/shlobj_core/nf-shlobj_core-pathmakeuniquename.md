@@ -4,10 +4,10 @@ title: PathMakeUniqueName function
 author: windows-sdk-content
 description: Creates a unique path name from a template.
 old-location: shell\PathMakeUniqueName.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8456ae0c-e83c-43d0-a86a-1861a373d237
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _win32_PathMakeUniqueName, shell.PathMakeUniqueName, shlobj_core/PathMakeUniqueName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: TUISPI_lineConfigDialogEdit function
 author: windows-sdk-content
 description: The TUISPI_lineConfigDialogEdit function causes the provider of the specified line device to display a modal dialog box as a child window of hwndOwner to allow the user to configure parameters related to the line device.
 old-location: tspi\tuispi_lineconfigdialogedit.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 05169974-31f3-445b-b55f-5931bace6505
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: TUISPI_lineConfigDialogEdit, TUISPI_lineConfigDialogEdit function [TAPI 2.2], _tspi_tuispi_lineconfigdialogedit, tspi.tuispi_lineconfigdialogedit, tspi/TUISPI_lineConfigDialogEdit
 ms.prod: windows-hardware
 ms.technology: windows-devices

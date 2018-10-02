@@ -4,10 +4,10 @@ title: RtlInstallFunctionTableCallback function
 author: windows-sdk-content
 description: Adds a dynamic function table to the dynamic function table list.
 old-location: base\rtlinstallfunctiontablecallback.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 63b35b17-0b0e-46ed-9dbf-98290ab08bd1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: RtlInstallFunctionTableCallback, RtlInstallFunctionTableCallback function, base.rtlinstallfunctiontablecallback, winnt/RtlInstallFunctionTableCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\regcreatekey.htm
 tech.root: SysInfo
 ms.assetid: cb4d30f4-e288-41e8-86e0-807c313db53d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RegCreateKey, RegCreateKey function, RegCreateKeyA, RegCreateKeyW, _win32_regcreatekey, base.regcreatekey, winreg/RegCreateKey, winreg/RegCreateKeyA, winreg/RegCreateKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

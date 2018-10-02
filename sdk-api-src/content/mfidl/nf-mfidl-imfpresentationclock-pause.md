@@ -4,10 +4,10 @@ title: IMFPresentationClock::Pause
 author: windows-sdk-content
 description: Pauses the presentation clock. While the clock is paused, the clock time does not advance, and the clock's IMFPresentationClock::GetTime returns the time at which the clock was paused.
 old-location: mf\imfpresentationclock_pause.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0, IMFPresentationClock interface [Media Foundation],Pause method, IMFPresentationClock.Pause, IMFPresentationClock::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_pause, mfidl/IMFPresentationClock::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

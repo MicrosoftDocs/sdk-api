@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmaplock_getdatapointer.htm
 tech.root: wic
 ms.assetid: 1fae52ae-b410-48f3-be46-624792f96874
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetDataPointer, GetDataPointer method [Windows Imaging Component], GetDataPointer method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetDataPointer method, IWICBitmapLock.GetDataPointer, IWICBitmapLock::GetDataPointer, _wic_codec_iwicbitmaplock_getdatapointer, wic._wic_codec_iwicbitmaplock_getdatapointer, wincodec/IWICBitmapLock::GetDataPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

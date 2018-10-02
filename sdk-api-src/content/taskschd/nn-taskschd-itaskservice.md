@@ -4,10 +4,10 @@ title: ITaskService
 author: windows-sdk-content
 description: Provides access to the Task Scheduler service for managing registered tasks.
 old-location: taskschd\itaskservice.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ITaskService, ITaskService interface [Task Scheduler], ITaskService interface [Task Scheduler],described, taskschd.itaskservice, taskschd/ITaskService
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\startpage.htm
 tech.root: printdocs
 ms.assetid: b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: StartPage, StartPage function [Windows GDI], _win32_StartPage, gdi.startpage, wingdi/StartPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

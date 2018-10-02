@@ -4,10 +4,10 @@ title: ID3D11VideoContext
 author: windows-sdk-content
 description: Provides the video functionality of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videocontext.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6EF09C31-56C7-46B5-87AE-B1FE43EC66FC
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], ID3D11VideoContext interface [Media Foundation],described, d3d11/ID3D11VideoContext, mf.id3d11videocontext
 ms.prod: windows
 ms.technology: windows-sdk

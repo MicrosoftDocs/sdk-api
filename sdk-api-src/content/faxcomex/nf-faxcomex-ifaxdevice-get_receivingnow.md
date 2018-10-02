@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_receivingnow_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_64on.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxDevice interface [Fax Service],ReceivingNow property, IFaxDevice.ReceivingNow, IFaxDevice.get_ReceivingNow, IFaxDevice.put_ReceivingNow, IFaxDevice::ReceivingNow, IFaxDevice::get_ReceivingNow, IFaxDevice::put_ReceivingNow, ReceivingNow property [Fax Service], ReceivingNow property [Fax Service],IFaxDevice interface, _mfax_faxdevice.receivingnow, fax._mfax_faxdevice_cpp_mfax_faxdevice_receivingnow_cpp, fax._mfax_faxdevice_receivingnow, faxcomex/IFaxDevice::ReceivingNow, faxcomex/IFaxDevice::get_ReceivingNow, faxcomex/IFaxDevice::put_ReceivingNow, get_ReceivingNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

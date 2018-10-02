@@ -7,7 +7,7 @@ old-location: iscsidisc\reportisnsserverlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 4fa773ac-0d3e-4860-8603-cb36e9278e93
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ReportISNSServerListA, ReportIsnsServerList, ReportIsnsServerList function [iSCSI Discovery Library API], ReportIsnsServerListA, ReportIsnsServerListW, iscsidisc.reportisnsserverlist, iscsidsc/ReportIsnsServerList, iscsidsc/ReportIsnsServerListA, iscsidsc/ReportIsnsServerListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

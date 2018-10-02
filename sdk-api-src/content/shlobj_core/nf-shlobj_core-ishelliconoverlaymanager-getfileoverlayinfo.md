@@ -4,10 +4,10 @@ title: IShellIconOverlayManager::GetFileOverlayInfo
 author: windows-sdk-content
 description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes.
 old-location: shell\IShellIconOverlayManager_GetFileOverlayInfo.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0dd918a4-64c7-4d7a-846c-0751e23c05a2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetFileOverlayInfo, GetFileOverlayInfo method [Windows Shell], GetFileOverlayInfo method [Windows Shell],IShellIconOverlayManager interface, IShellIconOverlayManager interface [Windows Shell],GetFileOverlayInfo method, IShellIconOverlayManager.GetFileOverlayInfo, IShellIconOverlayManager::GetFileOverlayInfo, _win32_IShellIconOverlayManager_GetFileOverlayInfo, shell.IShellIconOverlayManager_GetFileOverlayInfo, shlobj_core/IShellIconOverlayManager::GetFileOverlayInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

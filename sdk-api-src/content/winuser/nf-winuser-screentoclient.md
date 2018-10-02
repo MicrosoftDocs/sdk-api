@@ -7,7 +7,7 @@ old-location: gdi\screentoclient.htm
 tech.root: gdi
 ms.assetid: 5d3e65d1-e0c8-4063-b2e8-dd9f482d3378
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ScreenToClient, ScreenToClient function [Windows GDI], _win32_ScreenToClient, gdi.screentoclient, winuser/ScreenToClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

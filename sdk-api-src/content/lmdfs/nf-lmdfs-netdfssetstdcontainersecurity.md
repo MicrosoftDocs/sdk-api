@@ -7,7 +7,7 @@ old-location: dfs\netdfssetstdcontainersecurity.htm
 tech.root: Dfs
 ms.assetid: bc408a12-5106-45a0-bbed-0468d51708bc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NetDfsSetStdContainerSecurity, NetDfsSetStdContainerSecurity function [Distributed File System], dfs.netdfssetstdcontainersecurity, fs.netdfssetstdcontainersecurity, lmdfs/NetDfsSetStdContainerSecurity, netmgmt.netdfssetstdcontainersecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

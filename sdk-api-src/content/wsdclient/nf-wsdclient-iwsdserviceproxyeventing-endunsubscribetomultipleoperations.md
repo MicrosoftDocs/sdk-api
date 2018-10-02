@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing_endunsubscribetomultipleoperations.ht
 tech.root: WsdApi
 ms.assetid: 62f42441-11b0-46ce-9a4e-03b34d8b4c9b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EndUnsubscribeToMultipleOperations, EndUnsubscribeToMultipleOperations method, EndUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

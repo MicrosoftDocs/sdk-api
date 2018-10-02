@@ -7,7 +7,7 @@ old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getcountofrecords.ht
 tech.root: MSTV
 ms.assetid: d13cadd3-561f-4d4e-8260-7a1d56dfa578
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords, IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, mstv.iisdbterrestrialdeliverysystemdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

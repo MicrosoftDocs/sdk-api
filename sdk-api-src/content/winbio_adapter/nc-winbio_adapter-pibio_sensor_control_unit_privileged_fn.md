@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradaptercontrolunitprivileged.htm
 tech.root: SecBioMet
 ms.assetid: 373233e6-b3d0-40ce-8698-77841963d5f3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback, SensorAdapterControlUnitPrivileged, SensorAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunitprivileged, winbio_adapter/SensorAdapterControlUnitPrivileged
 ms.prod: windows
 ms.technology: windows-sdk

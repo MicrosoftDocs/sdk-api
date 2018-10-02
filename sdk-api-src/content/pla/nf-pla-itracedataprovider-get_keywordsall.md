@@ -7,7 +7,7 @@ old-location: pla\itracedataprovider_keywordsall.htm
 tech.root: PLA
 ms.assetid: 9ff48234-927b-4b87-a9b8-2a1047b5e3de
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITraceDataProvider interface [PLA],KeywordsAll property, ITraceDataProvider.KeywordsAll, ITraceDataProvider.get_KeywordsAll, ITraceDataProvider::KeywordsAll, ITraceDataProvider::get_KeywordsAll, KeywordsAll property [PLA], KeywordsAll property [PLA],ITraceDataProvider interface, get_KeywordsAll, pla.itracedataprovider_keywordsall, pla/ITraceDataProvider::KeywordsAll, pla/ITraceDataProvider::get_KeywordsAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

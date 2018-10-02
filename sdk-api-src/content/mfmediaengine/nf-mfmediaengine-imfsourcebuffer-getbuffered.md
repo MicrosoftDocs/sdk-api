@@ -4,10 +4,10 @@ title: IMFSourceBuffer::GetBuffered
 author: windows-sdk-content
 description: Gets the buffered time range.
 old-location: mf\imfsourcebuffer_getbuffered.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: cbed0e90-8950-46f6-acaa-5e6daf814dd0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetBuffered method, IMFSourceBuffer.GetBuffered, IMFSourceBuffer::GetBuffered, mf.imfsourcebuffer_getbuffered, mfmediaengine/IMFSourceBuffer::GetBuffered
 ms.prod: windows-hardware
 ms.technology: windows-devices

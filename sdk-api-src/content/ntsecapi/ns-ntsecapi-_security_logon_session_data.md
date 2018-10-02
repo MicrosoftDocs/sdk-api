@@ -7,7 +7,7 @@ old-location: security\security_logon_session_data.htm
 tech.root: secauthn
 ms.assetid: 284ddb9a-fd08-4f38-b1d0-242596c114a8
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: "*PSECURITY_LOGON_SESSION_DATA, LOGON_NOT_OPTIMIZED, LOGON_OPTIMIZED, LOGON_PKINIT, LOGON_WINLOGON, PSECURITY_LOGON_SESSION_DATA, PSECURITY_LOGON_SESSION_DATA structure pointer [Security], SECURITY_LOGON_SESSION_DATA, SECURITY_LOGON_SESSION_DATA structure [Security], _SECURITY_LOGON_SESSION_DATA, _lsa_security_logon_session_data, ntsecapi/PSECURITY_LOGON_SESSION_DATA, ntsecapi/SECURITY_LOGON_SESSION_DATA, security.security_logon_session_data"
 ms.prod: windows
 ms.technology: windows-sdk

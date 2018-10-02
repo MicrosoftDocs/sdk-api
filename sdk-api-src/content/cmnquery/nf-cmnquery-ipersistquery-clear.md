@@ -4,10 +4,10 @@ title: IPersistQuery::Clear
 author: windows-sdk-content
 description: Empties the contents of the query store.
 old-location: ad\ipersistquery_clear.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 1ce97afa-6d59-446c-9af2-595ec18db2b7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: Clear, Clear method [Active Directory], Clear method [Active Directory],IPersistQuery interface, IPersistQuery interface [Active Directory],Clear method, IPersistQuery.Clear, IPersistQuery::Clear, _glines_ipersistquery_clear, ad.ipersistquery__clear, ad.ipersistquery_clear, cmnquery/IPersistQuery::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

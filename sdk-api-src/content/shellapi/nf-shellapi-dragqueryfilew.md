@@ -4,10 +4,10 @@ title: DragQueryFileW function
 author: windows-sdk-content
 description: Retrieves the names of dropped files that result from a successful drag-and-drop operation.
 old-location: shell\DragQueryFile.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 93fab381-9035-46c4-ba9d-efb2d0801d84
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: DragQueryFile, DragQueryFile function [Windows Shell], DragQueryFileA, DragQueryFileW, _win32_DragQueryFile, shell.DragQueryFile, shellapi/DragQueryFile, shellapi/DragQueryFileA, shellapi/DragQueryFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

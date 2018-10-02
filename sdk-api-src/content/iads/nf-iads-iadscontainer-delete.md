@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer_delete.htm
 tech.root: ADSI
 ms.assetid: 2f3873e0-376e-4212-a28d-bd9bc112f6cf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Delete, Delete method [ADSI], Delete method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Delete method, IADsContainer.Delete, IADsContainer::Delete, _ds_iadscontainer_delete, adsi.iadscontainer__delete, adsi.iadscontainer_delete, iads/IADsContainer::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

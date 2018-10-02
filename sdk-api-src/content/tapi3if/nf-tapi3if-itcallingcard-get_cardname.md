@@ -4,10 +4,10 @@ title: ITCallingCard::get_CardName
 author: windows-sdk-content
 description: The get_CardName method gets the friendly name for the calling card.
 old-location: tapi3\itcallingcard_get_cardname.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: d971d5ef-30d0-42a4-9a23-5b1388a0cb26
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_CardName method, ITCallingCard.get_CardName, ITCallingCard::get_CardName, _tapi3_itcallingcard_get_cardname, get_CardName, get_CardName method [TAPI 2.2], get_CardName method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_cardname, tapi3if/ITCallingCard::get_CardName
 ms.prod: windows-hardware
 ms.technology: windows-devices

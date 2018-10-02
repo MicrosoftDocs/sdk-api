@@ -4,10 +4,10 @@ title: SHQueryUserNotificationState function
 author: windows-sdk-content
 description: Checks the state of the computer for the current user to determine whether sending a notification is appropriate.
 old-location: shell\SHQueryUserNotificationState.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: da6b3915-f4fe-4bab-9bae-9bff0b97b5a0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHQueryUserNotificationState, SHQueryUserNotificationState function [Windows Shell], _shell_SHQueryUserNotificationState, shell.SHQueryUserNotificationState, shellapi/SHQueryUserNotificationState
 ms.prod: windows-hardware
 ms.technology: windows-devices

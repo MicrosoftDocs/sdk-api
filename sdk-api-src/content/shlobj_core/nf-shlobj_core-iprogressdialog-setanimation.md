@@ -4,10 +4,10 @@ title: IProgressDialog::SetAnimation
 author: windows-sdk-content
 description: Specifies an Audio-Video Interleaved (AVI) clip that runs in the dialog box.
 old-location: shell\IProgressDialog_SetAnimation.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: cc974be9-e9a4-42f9-9995-0d6eb0b12422
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetAnimation method, IProgressDialog.SetAnimation, IProgressDialog::SetAnimation, SetAnimation, SetAnimation method [Windows Shell], SetAnimation method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetAnimation, shell.IProgressDialog_SetAnimation, shlobj_core/IProgressDialog::SetAnimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

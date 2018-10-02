@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_PointF_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsisvisiblemethods\isvisible_44pointfamppoint.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Graphics class [GDI+],IsVisible method, Graphics.IsVisible, Graphics.IsVisible(IN const PointF &), Graphics.IsVisible(const PointF&), Graphics::IsVisible, Graphics::IsVisible(IN const PointF &), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsVisible_PointF_point_, gdiplus._gdiplus_CLASS_Graphics_IsVisible_PointF_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices

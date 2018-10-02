@@ -4,10 +4,10 @@ title: SHDeleteValueW function
 author: windows-sdk-content
 description: Deletes a named value from the specified registry key.
 old-location: shell\SHDeleteValue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 54f3459b-486c-4907-84b1-39b1f8abb12d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHDeleteValue, SHDeleteValue function [Windows Shell], SHDeleteValueA, SHDeleteValueW, _win32_SHDeleteValue, shell.SHDeleteValue, shlwapi/SHDeleteValue, shlwapi/SHDeleteValueA, shlwapi/SHDeleteValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

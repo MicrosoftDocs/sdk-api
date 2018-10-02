@@ -7,7 +7,7 @@ old-location: adsi\iadssyntax.htm
 tech.root: ADSI
 ms.assetid: 1ff8703f-b89d-435d-81af-e5c9a2dc01e2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsSyntax, IADsSyntax interface [ADSI], IADsSyntax interface [ADSI],described, _ds_iadssyntax, adsi.iadssyntax, iads/IADsSyntax
 ms.prod: windows
 ms.technology: windows-sdk

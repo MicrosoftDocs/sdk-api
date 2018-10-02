@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageUnit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpageunit.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetPageUnit, GetPageUnit method [GDI+], GetPageUnit method [GDI+],Graphics class, Graphics class [GDI+],GetPageUnit method, Graphics.GetPageUnit, Graphics::GetPageUnit, _gdiplus_CLASS_Graphics_GetPageUnit_, gdiplus._gdiplus_CLASS_Graphics_GetPageUnit_
 ms.prod: windows-hardware
 ms.technology: windows-devices

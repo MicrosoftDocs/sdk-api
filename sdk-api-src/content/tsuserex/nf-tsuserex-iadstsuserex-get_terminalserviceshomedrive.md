@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_terminalserviceshomedrive.htm
 tech.root: TermServ
 ms.assetid: e5cfa526-eff8-4a89-9b13-c4a06a416fe5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesHomeDrive property, IADsTSUserEx.TerminalServicesHomeDrive, IADsTSUserEx.get_TerminalServicesHomeDrive, IADsTSUserEx::TerminalServicesHomeDrive, IADsTSUserEx::get_TerminalServicesHomeDrive, IADsTSUserEx::put_TerminalServicesHomeDrive, TerminalServicesHomeDrive property [Remote Desktop Services], TerminalServicesHomeDrive property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesHomeDrive, termserv.iadstsuserex_terminalserviceshomedrive, tsuserex/IADsTSUserEx::TerminalServicesHomeDrive, tsuserex/IADsTSUserEx::get_TerminalServicesHomeDrive, tsuserex/IADsTSUserEx::put_TerminalServicesHomeDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices

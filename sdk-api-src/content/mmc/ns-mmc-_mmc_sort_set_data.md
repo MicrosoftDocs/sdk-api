@@ -4,10 +4,10 @@ title: "_MMC_SORT_SET_DATA"
 author: windows-sdk-content
 description: Used with setting and retrieving list view column sets whose sort data is stored persistently.
 old-location: mmc\mmc_sort_set_data.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: bb16061d-a6bb-4816-b52d-c63097638f58
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: 0, 1, MMC_SORT_SET_DATA, MMC_SORT_SET_DATA structure [MMC], _MMC_SORT_SET_DATA, _slate_mmc_sort_set_data, mmc.mmc_sort_set_data, mmc/MMC_SORT_SET_DATA
 ms.prod: windows
 ms.technology: windows-sdk

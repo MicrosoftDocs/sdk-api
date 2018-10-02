@@ -7,7 +7,7 @@ old-location: gpmc\igpm_getconstants.htm
 tech.root: GPMC
 ms.assetid: ba271dbb-320f-409c-aff4-b7dde57f9062
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPM object [GPMC],GetConstants method, GetConstants, GetConstants method [GPMC], GetConstants method [GPMC],GPM object, GetConstants method [GPMC],IGPM interface, IGPM interface [GPMC],GetConstants method, IGPM.GetConstants, IGPM::GetConstants, _win32_igpm_getconstants, gpmc.igpm_getconstants, gpmgmt/IGPM::GetConstants
 ms.prod: windows-hardware
 ms.technology: windows-devices

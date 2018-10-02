@@ -4,10 +4,10 @@ title: ITriggerCollection::Clear
 author: windows-sdk-content
 description: Clears all triggers from the collection.
 old-location: taskschd\itriggercollection_clear.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 9a15ed27-a381-4b5c-9725-3a55ce86d666
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Clear method, ITriggerCollection.Clear, ITriggerCollection::Clear, taskschd.itriggercollection_clear, taskschd/ITriggerCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

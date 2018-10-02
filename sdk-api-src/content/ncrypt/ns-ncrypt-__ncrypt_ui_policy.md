@@ -7,7 +7,7 @@ old-location: security\ncrypt_ui_policy.htm
 tech.root: SecCNG
 ms.assetid: 49443042-40bd-4876-8547-e5eb4de503f6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG, NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, NCRYPT_UI_POLICY, NCRYPT_UI_POLICY structure [Security], NCRYPT_UI_PROTECT_KEY_FLAG, __NCRYPT_UI_POLICY, ncrypt/NCRYPT_UI_POLICY, security.ncrypt_ui_policy
 ms.prod: windows
 ms.technology: windows-sdk

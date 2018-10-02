@@ -7,7 +7,7 @@ old-location: tsf\itfreadonlyproperty.htm
 tech.root: TSF
 ms.assetid: f4021a3d-6b86-469f-8943-770e7ef0cf99
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], ITfReadOnlyProperty interface [Text Services Framework],described, _tsf_itfreadonlyproperty_ref, msctf/ITfReadOnlyProperty, tsf.itfreadonlyproperty
 ms.prod: windows
 ms.technology: windows-sdk

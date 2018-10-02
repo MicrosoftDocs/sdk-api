@@ -7,7 +7,7 @@ old-location: mstv\ibda_easmessage.htm
 tech.root: MSTV
 ms.assetid: dfacaa47-c844-434f-951a-9ee38fa8af4a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_EasMessage, IBDA_EasMessage interface [Microsoft TV Technologies], IBDA_EasMessage interface [Microsoft TV Technologies],described, IBDA_EasMessageInterface, bdaiface/IBDA_EasMessage, mstv.ibda_easmessage
 ms.prod: windows
 ms.technology: windows-sdk

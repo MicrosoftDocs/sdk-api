@@ -4,10 +4,10 @@ title: ICertPropertyAutoEnroll::Initialize
 author: windows-sdk-content
 description: Initializes the object by specifying the name of the template to be used for autoenrollment.
 old-location: security\icertpropertyautoenroll_initialize_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f9a949c8-acd9-45b2-882e-84daf0acfad4
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICertPropertyAutoEnroll interface [Security],Initialize method, ICertPropertyAutoEnroll.Initialize, ICertPropertyAutoEnroll::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyAutoEnroll interface, certenroll/ICertPropertyAutoEnroll::Initialize, security.icertpropertyautoenroll_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

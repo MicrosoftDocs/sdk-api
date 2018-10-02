@@ -7,7 +7,7 @@ old-location: mstv\imsvidclosedcaptioning2_get_service.htm
 tech.root: MSTV
 ms.assetid: 165e5c75-3ce1-4b37-b577-5aea4af65019
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],get_Service method, IMSVidClosedCaptioning2.get_Service, IMSVidClosedCaptioning2::get_Service, IMSVidClosedCaptioning2get_Service, get_Service, get_Service method [Microsoft TV Technologies], get_Service method [Microsoft TV Technologies],IMSVidClosedCaptioning2 interface, mstv.imsvidclosedcaptioning2_get_service, segment/IMSVidClosedCaptioning2::get_Service
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: BluetoothRegisterForAuthenticationEx function
 author: windows-sdk-content
 description: The BluetoothRegisterForAuthenticationEx function registers an application for a pin request, numeric comparison and callback function.
 old-location: bluetooth\bluetoothregisterforauthenticationex.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: c9838f27-3450-4d51-be58-ce515d06d5cb
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothRegisterForAuthenticationEx, BluetoothRegisterForAuthenticationEx function [Bluetooth], bluetooth.bluetoothregisterforauthenticationex, bluetoothapis/BluetoothRegisterForAuthenticationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

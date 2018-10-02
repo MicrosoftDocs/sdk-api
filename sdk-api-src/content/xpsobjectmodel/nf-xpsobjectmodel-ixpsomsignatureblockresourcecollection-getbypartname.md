@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresourcecollection_getbypartname.htm
 tech.root: printdocs
 ms.assetid: 38e6d6d9-0f31-45e9-8a19-1aae02dfafd3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMSignatureBlockResourceCollection.GetByPartName, IXpsOMSignatureBlockResourceCollection::GetByPartName, xps.ixpsomsignatureblockresourcecollection_getbypartname, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetByPartName
 ms.prod: windows-hardware
 ms.technology: windows-devices

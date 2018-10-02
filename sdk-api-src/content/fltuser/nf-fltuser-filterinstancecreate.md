@@ -7,7 +7,7 @@ old-location: ifsk\filterinstancecreate.htm
 tech.root: ifsk
 ms.assetid: eb29fefc-285a-4a77-b1f6-1d42d029b7b7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FilterInstanceCreate, FilterInstanceCreate function [Installable File System Drivers], FltWin32ApiRef_eccac8f5-bc38-49ba-b2d8-cf505bec3641.xml, fltuser/FilterInstanceCreate, ifsk.filterinstancecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nla\ienumnetworkconnections_get__newenum.htm
 tech.root: NLA
 ms.assetid: 38b3a58e-6ed1-488e-b5b8-50043adae8cc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],get__NewEnum method, IEnumNetworkConnections.get__NewEnum, IEnumNetworkConnections::get__NewEnum, get__NewEnum, get__NewEnum method [Network Awareness], get__NewEnum method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::get__NewEnum, nla.ienumnetworkconnections_get__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

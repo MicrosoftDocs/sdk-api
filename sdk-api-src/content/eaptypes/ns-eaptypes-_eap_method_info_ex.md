@@ -7,7 +7,7 @@ old-location: eaphost\eap_method_info_ex.htm
 tech.root: EAPHost
 ms.assetid: 2d25f418-2130-4f9c-b3f4-f639dfba020a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EAP_METHOD_INFO_EX, EAP_METHOD_INFO_EX structure [EAPHost], _EAP_METHOD_INFO_EX, eaphost.eap_method_info_ex, eaptypes/EAP_METHOD_INFO_EX
 ms.prod: windows
 ms.technology: windows-sdk

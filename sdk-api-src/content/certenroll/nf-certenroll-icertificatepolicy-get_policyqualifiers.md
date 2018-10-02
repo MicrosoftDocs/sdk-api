@@ -4,10 +4,10 @@ title: ICertificatePolicy::get_PolicyQualifiers
 author: windows-sdk-content
 description: Retrieves a collection of optional policy qualifiers that can be applied to a certificate policy.
 old-location: security\icertificatepolicy_policyqualifiers_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7955dfa1-70b2-4b6e-975f-c489a6284c5c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICertificatePolicy interface [Security],PolicyQualifiers property, ICertificatePolicy.PolicyQualifiers, ICertificatePolicy.get_PolicyQualifiers, ICertificatePolicy::PolicyQualifiers, ICertificatePolicy::get_PolicyQualifiers, PolicyQualifiers property [Security], PolicyQualifiers property [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::PolicyQualifiers, certenroll/ICertificatePolicy::get_PolicyQualifiers, get_PolicyQualifiers, security.icertificatepolicy_policyqualifiers_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects2_renderwindowed.htm
 tech.root: WMP
 ms.assetid: 95a0b71e-6485-4b14-81cf-b853a664b3cc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],RenderWindowed method, IWMPEffects2.RenderWindowed, IWMPEffects2::RenderWindowed, IWMPEffectsRenderWindowed, RenderWindowed, RenderWindowed method [Windows Media Player], RenderWindowed method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::RenderWindowed, wmp.iwmpeffects2_renderwindowed
 ms.prod: windows-hardware
 ms.technology: windows-devices

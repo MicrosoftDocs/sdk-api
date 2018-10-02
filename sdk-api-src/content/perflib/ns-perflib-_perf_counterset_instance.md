@@ -4,10 +4,10 @@ title: "_PERF_COUNTERSET_INSTANCE"
 author: windows-sdk-content
 description: Defines an instance of a counter set.
 old-location: perf\perf_counterset_instance.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: 709d5339-cedd-4b03-9d8e-c125eb3bcac0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE structure [Perf], PERF_COUNTERSET_INSTANCE,*PPERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE,*PPERF_COUNTERSET_INSTANCE structure [Perf], _PERF_COUNTERSET_INSTANCE, base.perf_counterset_instance, perf.perf_counterset_instance, perflib/PERF_COUNTERSET_INSTANCE"
 ms.prod: windows
 ms.technology: windows-sdk

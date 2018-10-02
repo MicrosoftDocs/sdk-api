@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisoutlinevisiblemethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GraphicsPath.IsOutlineVisible, GraphicsPath.IsOutlineVisible(IN REAL,IN REAL,IN const Pen,IN const Graphics), GraphicsPath::IsOutlineVisible, GraphicsPath::IsOutlineVisible(IN REAL,IN REAL,IN const Pen,IN const Graphics), IsOutlineVisible, IsOutlineVisible methods [GDI+], _gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods, gdipluspath/IsOutlineVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

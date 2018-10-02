@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setwbemint64_lpcwstr__const_wbemint64__.htm
 tech.root: WmiSdk
 ms.assetid: 0015f024-19bd-4069-b946-706e9492fbe8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetWBEMINT64 method, CInstance.SetWBEMINT64, CInstance.SetWBEMINT64(LPCWSTR,const WBEMINT64 &), CInstance::SetWBEMINT64, CInstance::SetWBEMINT64(LPCWSTR,const WBEMINT64 &), CInstance::SetWBEMINT64(LPCWSTR,const WBEMINT64&), SetWBEMINT64, SetWBEMINT64 method [Windows Management Instrumentation], SetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetWBEMINT64, wmi.cinstance_setwbemint64_lpcwstr__const_wbemint64__
 ms.prod: windows-hardware
 ms.technology: windows-devices

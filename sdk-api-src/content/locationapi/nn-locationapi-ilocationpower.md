@@ -7,7 +7,7 @@ old-location: winlocation\ilocationpower.htm
 tech.root: LocationAPI
 ms.assetid: bf0a0c13-a50f-4ed8-bc29-7d70561da306
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ILocationPower, ILocationPower interface [WinLocation], ILocationPower interface [WinLocation],described, locationapi/ILocationPower, winlocation.ilocationpower
 ms.prod: windows
 ms.technology: windows-sdk

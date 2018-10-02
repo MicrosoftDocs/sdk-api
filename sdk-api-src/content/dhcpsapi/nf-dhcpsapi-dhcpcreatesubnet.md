@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreatesubnet.htm
 tech.root: DHCP
 ms.assetid: acae01cf-cbd9-4461-a1cc-5fcb745b9c8f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpCreateSubnet, DhcpCreateSubnet function [DHCP], dhcp.dhcpcreatesubnet, dhcpsapi/DhcpCreateSubnet
 ms.prod: windows-hardware
 ms.technology: windows-devices

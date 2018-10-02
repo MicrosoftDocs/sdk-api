@@ -4,10 +4,10 @@ title: IExplorerBrowserEvents::OnViewCreated
 author: windows-sdk-content
 description: Notifies clients that the view of the Explorer browser has been created and can be modified.
 old-location: shell\IExplorerBrowserEvents_OnViewCreated.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 801d59f5-6e92-4e3c-938a-e94b43b7c6f1
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnViewCreated method, IExplorerBrowserEvents.OnViewCreated, IExplorerBrowserEvents::OnViewCreated, OnViewCreated, OnViewCreated method [Windows Shell], OnViewCreated method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnViewCreated, shell.IExplorerBrowserEvents_OnViewCreated, shobjidl_core/IExplorerBrowserEvents::OnViewCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices

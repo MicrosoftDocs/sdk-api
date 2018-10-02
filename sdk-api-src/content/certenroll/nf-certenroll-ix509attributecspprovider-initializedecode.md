@@ -4,10 +4,10 @@ title: IX509AttributeCspProvider::InitializeDecode
 author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains information about the provider.
 old-location: security\ix509attributecspprovider_initializedecode_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7098ee8d-39e9-4463-97fe-309265c6baa7
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],InitializeDecode method, IX509AttributeCspProvider.InitializeDecode, IX509AttributeCspProvider::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::InitializeDecode, security.ix509attributecspprovider_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

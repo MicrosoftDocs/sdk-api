@@ -7,7 +7,7 @@ old-location: direct2d\id2d1properties_getvaluebyname.htm
 tech.root: direct2d
 ms.assetid: 2dc60fad-9ce2-4951-85ea-647a828420a1
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,T,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR,BYTE*,UINT32), ID2D1Properties::GetValueByName(PCWSTR,T,), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

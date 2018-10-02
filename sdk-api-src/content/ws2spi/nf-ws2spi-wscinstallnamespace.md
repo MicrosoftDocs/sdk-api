@@ -7,7 +7,7 @@ old-location: winsock\wscinstallnamespace_2.htm
 tech.root: WinSock
 ms.assetid: f17f6174-879e-45e7-a250-975d1ee24fe0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSCInstallNameSpace, WSCInstallNameSpace function [Winsock], _win32_wscinstallnamespace_2, winsock.wscinstallnamespace_2, ws2spi/WSCInstallNameSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

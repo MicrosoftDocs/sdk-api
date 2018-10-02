@@ -7,7 +7,7 @@ old-location: etw\tdhdeletepayloadfilter.htm
 tech.root: ETW
 ms.assetid: 50EB6A11-54AE-4D90-ABA4-13D8EADA1955
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TdhDeletePayloadFilter, TdhDeletePayloadFilter function [ETW], etw.tdhdeletepayloadfilter, tdh/TdhDeletePayloadFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

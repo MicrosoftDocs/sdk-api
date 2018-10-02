@@ -7,7 +7,7 @@ old-location: fwp\fwpmfilteradd0_func.htm
 tech.root: FWP
 ms.assetid: ca11187e-3a91-438f-9a7f-606da7c88f6d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmFilterAdd0, FwpmFilterAdd0 function [Filtering], fwp.fwpmfilteradd0_func, fwpmu/FwpmFilterAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices

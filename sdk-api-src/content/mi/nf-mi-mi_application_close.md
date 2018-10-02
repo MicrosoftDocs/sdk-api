@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_close.htm
 tech.root: WMI_v2
 ms.assetid: e5ad3ed3-8ef6-4bb5-999a-7d2ee91f51d5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Application_Close, MI_Application_Close function [Windows Management Infrastructure (MI)], mi/MI_Application_Close, wmi_v2.mi_application_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

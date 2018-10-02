@@ -4,10 +4,10 @@ title: ShortMult function
 author: windows-sdk-content
 description: Multiplies two values of type SHORT.
 old-location: shell\ShortMult.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, shell.ShortMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

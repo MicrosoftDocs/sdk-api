@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods\exclude_59rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Exclude, Exclude method [GDI+], Exclude method [GDI+],Region class, Region class [GDI+],Exclude method, Region.Exclude, Region.Exclude(IN const RectF &), Region.Exclude(const RectF&), Region::Exclude, Region::Exclude(IN const RectF &), _gdiplus_CLASS_Region_Exclude_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Exclude_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

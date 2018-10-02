@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_stateless_scope_stats.htm
 tech.root: DHCP
 ms.assetid: edb099a6-18eb-49b1-8f97-7f0b32a2430a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCPV6_STATELESS_SCOPE_STATS, *PDHCPV6_STATELESS_SCOPE_STATS, DHCPV6_STATELESS_SCOPE_STATS, DHCPV6_STATELESS_SCOPE_STATS structure [DHCP], LPDHCPV6_STATELESS_SCOPE_STATS, LPDHCPV6_STATELESS_SCOPE_STATS structure pointer [DHCP], PDHCPV6_STATELESS_SCOPE_STATS, PDHCPV6_STATELESS_SCOPE_STATS structure pointer [DHCP], dhcp.dhcpv6_stateless_scope_stats, dhcpsapi/DHCPV6_STATELESS_SCOPE_STATS, dhcpsapi/LPDHCPV6_STATELESS_SCOPE_STATS, dhcpsapi/PDHCPV6_STATELESS_SCOPE_STATS"
 ms.prod: windows
 ms.technology: windows-sdk

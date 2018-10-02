@@ -4,10 +4,10 @@ title: BFFCALLBACK
 author: windows-sdk-content
 description: Receives event notifications from the Active Directory Domain Services container browser dialog box.
 old-location: ad\bffcallback.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 91cfef29-3e0a-4dd0-be1a-215827c23143
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: BFFCALLBACK, BFFCALLBACK callback function [Active Directory], BFFCallBack, BFFCallBack callback, BFFCallBack callback function [Active Directory], BFFM_ENABLEOK, BFFM_INITIALIZED, BFFM_SELCHANGED, BFFM_SETSELECTION, DSBM_CHANGEIMAGESTATE, DSBM_CONTEXTMENU, DSBM_HELP, DSBM_QUERYINSERT, _glines_bffcallback, ad.bffcallback, shlobj_core/BFFCallBack
 ms.prod: windows
 ms.technology: windows-sdk

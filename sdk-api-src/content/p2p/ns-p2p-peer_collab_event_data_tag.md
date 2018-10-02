@@ -4,10 +4,10 @@ title: peer_collab_event_data_tag
 author: windows-sdk-content
 description: Contains variant data for each possible peer collaboration network event raised on a peer.
 old-location: p2p\peer_collab_event_data.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 4ddf200d-0b7a-4e99-b7db-19b4e0412711
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPEER_COLLAB_EVENT_DATA, PEER_COLLAB_EVENT_DATA, PEER_COLLAB_EVENT_DATA structure [Peer Networking], PPEER_COLLAB_EVENT_DATA, PPEER_COLLAB_EVENT_DATA structure pointer [Peer Networking], p2p.peer_collab_event_data, p2p/PEER_COLLAB_EVENT_DATA, p2p/PPEER_COLLAB_EVENT_DATA, peer_collab_event_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

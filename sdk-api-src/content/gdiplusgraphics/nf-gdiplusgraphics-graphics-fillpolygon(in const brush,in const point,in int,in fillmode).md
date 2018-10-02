@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: FillPolygon, FillPolygon methods [GDI+], Graphics.FillPolygon, Graphics.FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode), Graphics::FillPolygon, Graphics::FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode), _gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplusgraphics/FillPolygon
 ms.prod: windows-hardware
 ms.technology: windows-devices

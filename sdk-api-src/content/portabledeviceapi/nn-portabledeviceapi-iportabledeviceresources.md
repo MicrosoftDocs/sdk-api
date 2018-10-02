@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceresources.htm
 tech.root: wpd_sdk
 ms.assetid: fce2d6db-13f0-4c1d-ba55-16139c6acbb7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPortableDeviceResources, IPortableDeviceResources interface [Windows Portable Devices SDK], IPortableDeviceResources interface [Windows Portable Devices SDK],described, IPortableDeviceResourcesInterface, portabledeviceapi/IPortableDeviceResources, wpdsdk.iportabledeviceresources
 ms.prod: windows
 ms.technology: windows-sdk

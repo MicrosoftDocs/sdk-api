@@ -4,10 +4,10 @@ title: IDsAdminNewObjPrimarySite
 author: windows-sdk-content
 description: The IDsAdminNewObjPrimarySite interface is implemented by the system and is used by a primary object creation extension to create a new temporary object in Active Directory Domain Services and then commit the object to persistent memory.
 old-location: ad\idsadminnewobjprimarysite.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Active Directory], IDsAdminNewObjPrimarySite interface [Active Directory],described, _glines_idsadminnewobjprimarysite, ad.idsadminnewobjprimarysite, dsadmin/IDsAdminNewObjPrimarySite
 ms.prod: windows
 ms.technology: windows-sdk

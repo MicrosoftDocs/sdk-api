@@ -4,10 +4,10 @@ title: PathRelativePathToW function
 author: windows-sdk-content
 description: Creates a relative path from one file or folder to another.
 old-location: shell\PathRelativePathTo.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7ed8d50a-2ad4-4ddf-941d-aea593341592
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathRelativePathTo, PathRelativePathTo function [Windows Shell], PathRelativePathToA, PathRelativePathToW, _win32_PathRelativePathTo, shell.PathRelativePathTo, shlwapi/PathRelativePathTo, shlwapi/PathRelativePathToA, shlwapi/PathRelativePathToW
 ms.prod: windows-hardware
 ms.technology: windows-devices

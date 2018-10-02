@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device1_getfeaturelevel.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1_getfeaturelevel.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetFeatureLevel, GetFeatureLevel method [Direct3D 10], GetFeatureLevel method [Direct3D 10],ID3D10Device1 interface, ID3D10Device1 interface [Direct3D 10],GetFeatureLevel method, ID3D10Device1.GetFeatureLevel, ID3D10Device1::GetFeatureLevel, b022958c-4dfb-b20b-1514-f13fbfb0fd46, d3d10_1/ID3D10Device1::GetFeatureLevel, direct3d10.id3d10device1_getfeaturelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

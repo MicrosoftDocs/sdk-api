@@ -7,7 +7,7 @@ old-location: intl\getuilanguageinfo.htm
 tech.root: Intl
 ms.assetid: 7eb17073-f79a-4a87-a85b-94007e77888a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GetUILanguageInfo, GetUILanguageInfo function [Internationalization for Windows Applications], MUI_FULL_LANGUAGE, MUI_LANGUAGE_ID, MUI_LANGUAGE_INSTALLED, MUI_LANGUAGE_LICENSED, MUI_LANGUAGE_NAME, MUI_LIP_LANGUAGE, MUI_PARTIAL_LANGUAGE, _win32_GetUILanguageInfo, intl.getuilanguageinfo, winnls/GetUILanguageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

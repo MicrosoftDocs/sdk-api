@@ -4,10 +4,10 @@ title: OpenClusterResource function
 author: windows-sdk-content
 description: Opens a resource and returns a handle to it.
 old-location: mscs\openclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c699cb00-b999-45b8-b9db-570150e1a65e
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: OpenClusterResource, OpenClusterResource function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE, PCLUSAPI_OPEN_CLUSTER_RESOURCE function [Failover Cluster], _wolf_openclusterresource, clusapi/OpenClusterResource, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE, mscs.openclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

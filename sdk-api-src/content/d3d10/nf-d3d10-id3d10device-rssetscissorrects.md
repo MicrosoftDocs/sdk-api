@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_rssetscissorrects.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rssetscissorrects.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],RSSetScissorRects method, ID3D10Device.RSSetScissorRects, ID3D10Device::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method [Direct3D 10], RSSetScissorRects method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSSetScissorRects, direct3d10.id3d10device_rssetscissorrects, ff11533a-fe9e-059e-c169-7e6f3c873b2d
 ms.prod: windows-hardware
 ms.technology: windows-devices

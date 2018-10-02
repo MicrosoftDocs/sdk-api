@@ -7,7 +7,7 @@ old-location: dshow\eavencmpvlevel.htm
 tech.root: DirectShow
 ms.assetid: 517fb48c-7358-444f-81da-52d5c7ece1bd
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: codecapi/eAVEncMPVLevel, codecapi/eAVEncMPVLevel_High, codecapi/eAVEncMPVLevel_High1440, codecapi/eAVEncMPVLevel_Low, codecapi/eAVEncMPVLevel_Main, dshow.eavencmpvlevel, eAVEncMPVLevel, eAVEncMPVLevel enumeration [DirectShow], eAVEncMPVLevelEnumeration, eAVEncMPVLevel_High, eAVEncMPVLevel_High1440, eAVEncMPVLevel_Low, eAVEncMPVLevel_Main
 ms.prod: windows
 ms.technology: windows-sdk

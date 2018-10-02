@@ -7,7 +7,7 @@ old-location: hidpi\_dpi_hosting_behavior.htm
 tech.root: hidpi
 ms.assetid: 4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DPI_HOSTING_BEHAVIOR, DPI_HOSTING_BEHAVIOR_DEFAULT, DPI_HOSTING_BEHAVIOR_INVALID, DPI_HOSTING_BEHAVIOR_MIXED, _DPI_HOSTING_BEHAVIOR, _DPI_HOSTING_BEHAVIOR enumeration [High DPI], hidpi._dpi_hosting_behavior, windef/DPI_HOSTING_BEHAVIOR_DEFAULT, windef/DPI_HOSTING_BEHAVIOR_INVALID, windef/DPI_HOSTING_BEHAVIOR_MIXED, windef/_DPI_HOSTING_BEHAVIOR
 ms.prod: windows
 ms.technology: windows-sdk

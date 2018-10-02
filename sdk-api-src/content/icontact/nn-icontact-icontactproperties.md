@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties.htm
 tech.root: wincontacts
 ms.assetid: c9c0d73d-4c39-4f7c-9bc6-46d764f157bd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IContactProperties, IContactProperties interface [Windows Contacts], IContactProperties interface [Windows Contacts],described, _wincontacts_IContactProperties, icontact/IContactProperties, wincontacts._wincontacts_IContactProperties
 ms.prod: windows
 ms.technology: windows-sdk

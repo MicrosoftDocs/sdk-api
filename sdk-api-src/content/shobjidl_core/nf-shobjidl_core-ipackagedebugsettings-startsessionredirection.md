@@ -4,10 +4,10 @@ title: IPackageDebugSettings::StartSessionRedirection
 author: windows-sdk-content
 description: Causes background tasks for the specified package to activate in the specified user session.
 old-location: shell\IPackageDebugSettings_StartSessionRedirection.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a9f40c32-afbe-4f1f-9693-72a757d93a05
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StartSessionRedirection method, IPackageDebugSettings.StartSessionRedirection, IPackageDebugSettings::StartSessionRedirection, StartSessionRedirection, StartSessionRedirection method [Windows Shell], StartSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartSessionRedirection, shobjidl_core/IPackageDebugSettings::StartSessionRedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices

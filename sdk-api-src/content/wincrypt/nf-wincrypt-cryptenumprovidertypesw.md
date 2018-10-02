@@ -7,7 +7,7 @@ old-location: security\cryptenumprovidertypes.htm
 tech.root: seccrypto
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

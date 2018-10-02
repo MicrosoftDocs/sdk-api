@@ -7,7 +7,7 @@ old-location: adsi\adsgetobject.htm
 tech.root: ADSI
 ms.assetid: 595b2c7f-584c-4343-a75c-327d8ed4ceb1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADsGetObject, ADsGetObject function [ADSI], _ds_adsgetobject, adshlp/ADsGetObject, adsi.adsgetobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

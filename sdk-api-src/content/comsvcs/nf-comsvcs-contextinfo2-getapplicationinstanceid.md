@@ -7,7 +7,7 @@ old-location: cos\contextinfo2_getapplicationinstanceid.htm
 tech.root: cossdk
 ms.assetid: 77149329-db3a-4ff4-a522-c290c2d0a915
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ContextInfo2 interface [COM+],GetApplicationInstanceId method, ContextInfo2.GetApplicationInstanceId, ContextInfo2::GetApplicationInstanceId, GetApplicationInstanceId, GetApplicationInstanceId method [COM+], GetApplicationInstanceId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetApplicationInstanceId, comsvcs/ContextInfo2::GetApplicationInstanceId, cos.contextinfo2_getapplicationinstanceid
 ms.prod: windows-hardware
 ms.technology: windows-devices

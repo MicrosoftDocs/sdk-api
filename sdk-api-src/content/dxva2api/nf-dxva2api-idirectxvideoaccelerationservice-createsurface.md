@@ -4,10 +4,10 @@ title: IDirectXVideoAccelerationService::CreateSurface
 author: windows-sdk-content
 description: Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
 old-location: mf\idirectxvideoaccelerationservice_createsurface.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 34ed2029-7c79-45ce-962d-df4970babb23
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 34ed2029-7c79-45ce-962d-df4970babb23, CreateSurface, CreateSurface method [Media Foundation], CreateSurface method [Media Foundation],IDirectXVideoAccelerationService interface, DXVA2_VideoDecoderRenderTarget, DXVA2_VideoProcessorRenderTarget, DXVA2_VideoSoftwareRenderTarget, IDirectXVideoAccelerationService interface [Media Foundation],CreateSurface method, IDirectXVideoAccelerationService.CreateSurface, IDirectXVideoAccelerationService::CreateSurface, dxva2api/IDirectXVideoAccelerationService::CreateSurface, mf.idirectxvideoaccelerationservice_createsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

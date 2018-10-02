@@ -7,7 +7,7 @@ old-location: cloudapi\cfreportproviderprogress.htm
 tech.root: cfApi
 ms.assetid: 33AB46FD-200E-40FF-B061-5842C6433069
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CfReportProviderProgress, CfReportProviderProgress function, cfapi/CfReportProviderProgress, cloudApi.cfreportproviderprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices

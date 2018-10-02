@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_syncconflictrecupdated.htm
 tech.root: OfflineFiles
 ms.assetid: adf13e95-bcb0-4f84-bbb9-9648f90f3be8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecUpdated method, IOfflineFilesEvents.SyncConflictRecUpdated, IOfflineFilesEvents::SyncConflictRecUpdated, SyncConflictRecUpdated, SyncConflictRecUpdated method [Offline Files], SyncConflictRecUpdated method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecUpdated, of.iofflinefilesevents_syncconflictrecupdated
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: LIBRARYOPTIONFLAGS
 author: windows-sdk-content
 description: Specifies the library options.
 old-location: shell\LIBRARYOPTIONFLAGS.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 205c40ff-a4dc-4a57-b51a-1e230fc170dd
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LIBRARYOPTIONFLAGS, LIBRARYOPTIONFLAGS enumeration [Windows Shell], LOF_DEFAULT, LOF_MASK_ALL, LOF_PINNEDTONAVPANE, _shell_LIBRARYOPTIONFLAGS, shell.LIBRARYOPTIONFLAGS, shobjidl_core/LIBRARYOPTIONFLAGS, shobjidl_core/LOF_DEFAULT, shobjidl_core/LOF_MASK_ALL, shobjidl_core/LOF_PINNEDTONAVPANE
 ms.prod: windows
 ms.technology: windows-sdk

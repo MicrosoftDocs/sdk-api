@@ -4,10 +4,10 @@ title: ICertProperty::put_PropertyId
 author: windows-sdk-content
 description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property.
 old-location: security\icertproperty_propertyid_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 2829dab5-253d-4ade-bba5-d399afe87a28
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICertProperty interface [Security],PropertyId property, ICertProperty.PropertyId, ICertProperty.put_PropertyId, ICertProperty::PropertyId, ICertProperty::get_PropertyId, ICertProperty::put_PropertyId, PropertyId property [Security], PropertyId property [Security],ICertProperty interface, certenroll/ICertProperty::PropertyId, certenroll/ICertProperty::get_PropertyId, certenroll/ICertProperty::put_PropertyId, put_PropertyId, security.icertproperty_propertyid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

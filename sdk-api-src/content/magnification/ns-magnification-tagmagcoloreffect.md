@@ -7,7 +7,7 @@ old-location: magapi\magapi_magcoloreffect.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magcoloreffectstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMAGCOLOREFFECT, MAGCOLOREFFECT, MAGCOLOREFFECT structure [Magnification API], PMAGCOLOREFFECT, PMAGCOLOREFFECT structure pointer [Magnification API], magapi.magapi_magcoloreffect, magapi_magcoloreffect, magnification/MAGCOLOREFFECT, magnification/PMAGCOLOREFFECT, tagMAGCOLOREFFECT"
 ms.prod: windows
 ms.technology: windows-sdk

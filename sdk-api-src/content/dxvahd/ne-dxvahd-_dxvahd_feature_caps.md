@@ -4,10 +4,10 @@ title: "_DXVAHD_FEATURE_CAPS"
 author: windows-sdk-content
 description: Defines features that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device can support.
 old-location: mf\dxvahd_feature_caps.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6014780b-3b8a-48d6-ae30-b48127a2c274
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: DXVAHD_FEATURE_CAPS, DXVAHD_FEATURE_CAPS enumeration [Media Foundation], DXVAHD_FEATURE_CAPS_ALPHA_FILL, DXVAHD_FEATURE_CAPS_ALPHA_PALETTE, DXVAHD_FEATURE_CAPS_CONSTRICTION, DXVAHD_FEATURE_CAPS_LUMA_KEY, _DXVAHD_FEATURE_CAPS, dxvahd/DXVAHD_FEATURE_CAPS, dxvahd/DXVAHD_FEATURE_CAPS_ALPHA_FILL, dxvahd/DXVAHD_FEATURE_CAPS_ALPHA_PALETTE, dxvahd/DXVAHD_FEATURE_CAPS_CONSTRICTION, dxvahd/DXVAHD_FEATURE_CAPS_LUMA_KEY, mf.dxvahd_feature_caps
 ms.prod: windows
 ms.technology: windows-sdk

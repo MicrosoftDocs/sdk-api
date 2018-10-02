@@ -7,7 +7,7 @@ old-location: intl\isvalidlanguagegroup.htm
 tech.root: Intl
 ms.assetid: 68cf09f8-fe97-4035-94b6-886ca26bbf3e
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IsValidLanguageGroup, IsValidLanguageGroup function [Internationalization for Windows Applications], LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_IsValidLanguageGroup, intl.isvalidlanguagegroup, winnls/IsValidLanguageGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

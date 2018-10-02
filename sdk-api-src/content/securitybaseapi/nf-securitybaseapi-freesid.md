@@ -4,10 +4,10 @@ title: FreeSid function
 author: windows-sdk-content
 description: Frees a security identifier (SID) previously allocated by using the AllocateAndInitializeSid function.
 old-location: security\freesid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1e2098d8-4d1f-4353-97c1-549021a5b3fd
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: FreeSid, FreeSid function [Security], _win32_freesid, security.freesid, securitybaseapi/FreeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

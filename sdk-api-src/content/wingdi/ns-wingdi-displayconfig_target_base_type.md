@@ -4,10 +4,10 @@ title: DISPLAYCONFIG_TARGET_BASE_TYPE
 author: windows-sdk-content
 description: Specifies base output technology info for a given target ID.
 old-location: display\displayconfig_target_base_type.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 7916E714-9A3C-4682-AC08-9B6EE222D8B7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DISPLAYCONFIG_TARGET_BASE_TYPE, DISPLAYCONFIG_TARGET_BASE_TYPE structure [Display Devices], display.displayconfig_target_base_type, wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

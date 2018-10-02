@@ -7,7 +7,7 @@ old-location: fwp\fwpmfiltergetbyid0_func.htm
 tech.root: FWP
 ms.assetid: 87372308-4ff8-460c-ba90-7126275c0e3c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmFilterGetById0, FwpmFilterGetById0 function [Filtering], fwp.fwpmfiltergetbyid0_func, fwpmu/FwpmFilterGetById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

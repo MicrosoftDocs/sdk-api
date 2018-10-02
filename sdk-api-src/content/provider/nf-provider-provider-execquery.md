@@ -7,7 +7,7 @@ old-location: wmi\provider_execquery.htm
 tech.root: WmiSdk
 ms.assetid: 94d5c8ee-2d61-42af-9a22-cc0df423b245
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecQuery method, Provider.ExecQuery, Provider::ExecQuery, _hmm_provider_execquery, provider/Provider::ExecQuery, wmi.provider_execquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

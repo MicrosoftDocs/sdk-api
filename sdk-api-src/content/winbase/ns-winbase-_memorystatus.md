@@ -7,7 +7,7 @@ old-location: base\memorystatus_str.htm
 tech.root: Memory
 ms.assetid: 7815ec8f-cacf-4c1b-b5f7-5bb3ef8d759c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPMEMORYSTATUS, LPMEMORYSTATUS, LPMEMORYSTATUS structure pointer, MEMORYSTATUS, MEMORYSTATUS structure, _MEMORYSTATUS, _win32_memorystatus_str, base.memorystatus_str, winbase/LPMEMORYSTATUS, winbase/_MEMORYSTATUS"
 ms.prod: windows
 ms.technology: windows-sdk

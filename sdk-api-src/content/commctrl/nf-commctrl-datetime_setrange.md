@@ -4,10 +4,10 @@ title: DateTime_SetRange macro
 author: windows-sdk-content
 description: Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the DTM_SETRANGE message explicitly.
 old-location: controls\DateTime_SetRange.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setrange.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: DateTime_SetRange, DateTime_SetRange macro [Windows Controls], GDTR_MAX, GDTR_MIN, _win32_DateTime_SetRange, _win32_DateTime_SetRange_cpp, commctrl/DateTime_SetRange, controls.DateTime_SetRange, controls._win32_DateTime_SetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

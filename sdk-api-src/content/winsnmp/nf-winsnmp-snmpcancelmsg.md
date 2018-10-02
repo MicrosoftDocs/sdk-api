@@ -7,7 +7,7 @@ old-location: snmp\snmpcancelmsg.htm
 tech.root: SNMP
 ms.assetid: 018ad1b6-6f59-4c5d-813b-734ec8ced28a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SnmpCancelMsg, SnmpCancelMsg function [SNMP], _snmp_snmpcancelmsg, snmp.snmpcancelmsg, winsnmp/SnmpCancelMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

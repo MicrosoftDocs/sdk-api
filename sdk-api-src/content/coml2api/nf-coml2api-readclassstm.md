@@ -7,7 +7,7 @@ old-location: stg\readclassstm.htm
 tech.root: Stg
 ms.assetid: bcf11c5b-e164-4a0f-b30f-ee9e76c4356d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ReadClassStm, ReadClassStm function [Structured Storage], _stg_readclassstm, coml2api/ReadClassStm, stg.readclassstm
 ms.prod: windows-hardware
 ms.technology: windows-devices

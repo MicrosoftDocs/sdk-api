@@ -4,10 +4,10 @@ title: StrTrimW function
 author: windows-sdk-content
 description: Removes specified leading and trailing characters from a string.
 old-location: shell\StrTrim.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: aea422b9-326e-4b12-b2a9-7c220677a467
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: StrTrim, StrTrim function [Windows Shell], StrTrimA, StrTrimW, _win32_StrTrim, shell.StrTrim, shlwapi/StrTrim, shlwapi/StrTrimA, shlwapi/StrTrimW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_DRIVE_LAYOUT
 author: windows-sdk-content
 description: Retrieves information for each entry in the partition tables for a disk.
 old-location: fs\ioctl_disk_get_drive_layout.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 6c1bc445-3cd1-4f86-a36b-f74ad8f4d2e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT, IOCTL_DISK_GET_DRIVE_LAYOUT control, IOCTL_DISK_GET_DRIVE_LAYOUT control code [Files], _win32_ioctl_disk_get_drive_layout, base.ioctl_disk_get_drive_layout, fs.ioctl_disk_get_drive_layout, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
 ms.prod: windows
 ms.technology: windows-sdk

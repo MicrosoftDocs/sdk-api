@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent_programchanged.htm
 tech.root: MSTV
 ms.assetid: 06fcf24b-5d35-4689-9c88-240fe18a46de
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ProgramChanged method, IGuideDataEvent.ProgramChanged, IGuideDataEvent::ProgramChanged, IGuideDataEventProgramChanged, ProgramChanged, ProgramChanged method [Microsoft TV Technologies], ProgramChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ProgramChanged, mstv.iguidedataevent_programchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

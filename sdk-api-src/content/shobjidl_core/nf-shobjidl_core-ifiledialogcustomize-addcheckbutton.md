@@ -4,10 +4,10 @@ title: IFileDialogCustomize::AddCheckButton
 author: windows-sdk-content
 description: Adds a check button (check box) to the dialog.
 old-location: shell\IFileDialogCustomize_AddCheckButton.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 273ec875-43c1-454f-a4fc-01a513554e68
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: AddCheckButton, AddCheckButton method [Windows Shell], AddCheckButton method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddCheckButton method, IFileDialogCustomize.AddCheckButton, IFileDialogCustomize::AddCheckButton, shell.IFileDialogCustomize_AddCheckButton, shell_IFileDialogCustomize_AddCheckButton, shobjidl_core/IFileDialogCustomize::AddCheckButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetloggingcategories.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_30vn.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FaxSetLoggingCategories, FaxSetLoggingCategories function [Fax Service], FaxSetLoggingCategoriesA, FaxSetLoggingCategoriesW, _mfax_faxsetloggingcategories, fax._mfax_faxsetloggingcategories, winfax/FaxSetLoggingCategories, winfax/FaxSetLoggingCategoriesA, winfax/FaxSetLoggingCategoriesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

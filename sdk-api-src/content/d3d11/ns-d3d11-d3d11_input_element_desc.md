@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_input_element_desc.htm
 tech.root: direct3d11
 ms.assetid: 45545d24-1513-4efd-9344-20673c5b98d5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_INPUT_ELEMENT_DESC, D3D11_INPUT_ELEMENT_DESC structure [Direct3D 11], d3d11/D3D11_INPUT_ELEMENT_DESC, ddd8b2ab-b2d6-b462-f2ed-127b85cb7e53, direct3d11.d3d11_input_element_desc
 ms.prod: windows
 ms.technology: windows-sdk

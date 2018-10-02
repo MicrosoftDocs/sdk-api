@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addtextedittextchang
 tech.root: WinAuto
 ms.assetid: D26780A1-AF5E-42E9-BBDA-4685AA184BD1
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: AddTextEditTextChangedEventHandler, AddTextEditTextChangedEventHandler method [Windows Accessibility], AddTextEditTextChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddTextEditTextChangedEventHandler method, IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler, IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addtextedittextchangedeventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, next major update [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
 req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 

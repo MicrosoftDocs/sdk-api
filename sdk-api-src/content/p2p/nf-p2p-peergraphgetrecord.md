@@ -4,10 +4,10 @@ title: PeerGraphGetRecord function
 author: windows-sdk-content
 description: The PeerGraphGetRecord function retrieves a specific record based on the specified record ID. The returned record should be freed by calling PeerGraphFreeData.
 old-location: p2p\peergraphgetrecord.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

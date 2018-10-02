@@ -7,7 +7,7 @@ old-location: dhcp\dhcppktdrophook.htm
 tech.root: DHCP
 ms.assetid: 29fa3266-a0a7-4e17-bf15-35a454f78b12
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpPktDropHook, DhcpPktSendHook, LPDHCP_DROP_SEND, LPDHCP_DROP_SEND callback, LPDHCP_DROP_SEND callback function [DHCP], _dhcp_dhcppktdrophook, dhcp.dhcppktdrophook, dhcpssdk/LPDHCP_DROP_SEND
 ms.prod: windows
 ms.technology: windows-sdk

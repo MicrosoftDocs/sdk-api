@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6_ConnectionRecoveryBehavior.htm
 tech.root: WinAuto
 ms.assetid: 09184E02-1007-4F49-8B03-97430CD6327E
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ConnectionRecoveryBehavior property [Windows Accessibility], ConnectionRecoveryBehavior property [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],ConnectionRecoveryBehavior property, IUIAutomation6.ConnectionRecoveryBehavior, IUIAutomation6.get_ConnectionRecoveryBehavior, IUIAutomation6::ConnectionRecoveryBehavior, IUIAutomation6::get_ConnectionRecoveryBehavior, IUIAutomation6::put_ConnectionRecoveryBehavior, get_ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::get_ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::put_ConnectionRecoveryBehavior, winauto.uiauto_IUIAutomation6_ConnectionRecoveryBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, next major update [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
 req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 

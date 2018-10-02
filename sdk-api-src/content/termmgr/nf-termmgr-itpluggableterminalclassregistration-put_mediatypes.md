@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassRegistration::put_MediaTypes
 author: windows-sdk-content
 description: The put_MediaTypes method sets the media types supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_put_mediatypes.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: f5a5fb8b-5b71-4f57-8125-46c482897c21
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_MediaTypes method, ITPluggableTerminalClassRegistration.put_MediaTypes, ITPluggableTerminalClassRegistration::put_MediaTypes, _tapi3_itpluggableterminalclassregistration_put_mediatypes, put_MediaTypes, put_MediaTypes method [TAPI 2.2], put_MediaTypes method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_mediatypes, termmgr/ITPluggableTerminalClassRegistration::put_MediaTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

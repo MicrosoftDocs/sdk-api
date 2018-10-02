@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicdecodeoptions.htm
 tech.root: wic
 ms.assetid: 27b9d6e1-e171-4c7f-8f96-fa5a93923e35
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: WICDecodeMetadataCacheOnDemand, WICDecodeMetadataCacheOnLoad, WICDecodeOptions, WICDecodeOptions enumeration [Windows Imaging Component], _wic_codec_wicdecodeoptions, wic._wic_codec_wicdecodeoptions, wincodec/WICDecodeMetadataCacheOnDemand, wincodec/WICDecodeMetadataCacheOnLoad, wincodec/WICDecodeOptions
 ms.prod: windows
 ms.technology: windows-sdk

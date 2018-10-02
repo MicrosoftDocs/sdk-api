@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_focusrelative.htm
 tech.root: DirectShow
 ms.assetid: c5038a59-bdc4-4034-afd1-256003687187
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_FocusRelative method, ICameraControl.getRange_FocusRelative, ICameraControl::getRange_FocusRelative, ICameraControlgetRange_FocusRelative, dshow.icameracontrol_getrange_focusrelative, getRange_FocusRelative, getRange_FocusRelative method [DirectShow], getRange_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_FocusRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

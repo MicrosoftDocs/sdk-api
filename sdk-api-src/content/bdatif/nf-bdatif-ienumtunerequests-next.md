@@ -7,7 +7,7 @@ old-location: mstv\ienumtunerequests_next.htm
 tech.root: MSTV
 ms.assetid: fb846bdb-f0ce-44f7-8d15-608c21e095c1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Next method, IEnumTuneRequests.Next, IEnumTuneRequests::Next, IEnumTuneRequestsNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Next, mstv.ienumtunerequests_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

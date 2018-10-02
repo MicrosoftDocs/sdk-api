@@ -4,10 +4,10 @@ title: IEnumPhone::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumphone_clone.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: b55bb1f5-ecde-4565-97b6-29e79823b9cb
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPhone interface, IEnumPhone interface [TAPI 2.2],Clone method, IEnumPhone.Clone, IEnumPhone::Clone, _tapi3_ienumphone_clone, tapi3.ienumphone_clone, tapi3if/IEnumPhone::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

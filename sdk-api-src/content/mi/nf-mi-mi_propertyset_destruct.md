@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_destruct.htm
 tech.root: WMI_v2
 ms.assetid: b00eba60-5fff-4e31-acee-c9b148e9ab7c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_PropertySet_Destruct, MI_PropertySet_Destruct function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Destruct, wmi_v2.mi_propertyset_destruct
 ms.prod: windows-hardware
 ms.technology: windows-devices

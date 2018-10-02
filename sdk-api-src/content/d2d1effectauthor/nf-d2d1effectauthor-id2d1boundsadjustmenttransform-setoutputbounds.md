@@ -7,7 +7,7 @@ old-location: direct2d\id2d1boundsadjustmenttransform_setoutputbounds.htm
 tech.root: direct2d
 ms.assetid: AC0E392A-0410-44BC-8B52-FAD97D45970F
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1BoundsAdjustmentTransform interface [Direct2D],SetOutputBounds method, ID2D1BoundsAdjustmentTransform.SetOutputBounds, ID2D1BoundsAdjustmentTransform::SetOutputBounds, SetOutputBounds, SetOutputBounds method [Direct2D], SetOutputBounds method [Direct2D],ID2D1BoundsAdjustmentTransform interface, d2d1effectauthor/ID2D1BoundsAdjustmentTransform::SetOutputBounds, direct2d.id2d1boundsadjustmenttransform_setoutputbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

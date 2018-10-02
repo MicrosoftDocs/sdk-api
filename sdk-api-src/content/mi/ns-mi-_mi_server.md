@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_server.htm
 tech.root: WMI_v2
 ms.assetid: bbe367c4-1964-4f6d-9345-fa19c090e018
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Server, MI_Server structure [Windows Management Infrastructure (MI)], _MI_Server, mi/MI_Server, wmi._mi_server, wmi_v2.mi_server
 ms.prod: windows
 ms.technology: windows-sdk

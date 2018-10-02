@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_getpage.htm
 tech.root: printdocs
 ms.assetid: 0004217f-f379-4175-bbce-eea93d96f37f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetPage, GetPage method [XPS Documents and Packaging], GetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetPage method, IXpsOMPageReference.GetPage, IXpsOMPageReference::GetPage, xps.ixpsompagereference_getpage, xpsobjectmodel/IXpsOMPageReference::GetPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

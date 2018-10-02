@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_providerft.htm
 tech.root: WMI_v2
 ms.assetid: 494eb3cb-6476-4fe3-8da4-dc7112c6f62f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ProviderFT, MI_ProviderFT structure [Windows Management Infrastructure (MI)], _MI_ProviderFT, mi/MI_ProviderFT, wmi_v2.mi_providerft
 ms.prod: windows
 ms.technology: windows-sdk

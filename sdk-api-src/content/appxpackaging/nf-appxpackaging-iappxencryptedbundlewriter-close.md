@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedbundlewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 0ED396CC-3CDA-440A-9FA7-3F3A85522778
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxEncryptedBundleWriter interface, IAppxEncryptedBundleWriter interface [App packaging and management],Close method, IAppxEncryptedBundleWriter.Close, IAppxEncryptedBundleWriter::Close, appxpackaging/IAppxEncryptedBundleWriter::Close, appxpkg.iappxencryptedbundlewriter_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Writes the bundle manifest and blockmap footprint files to the bundle.
 

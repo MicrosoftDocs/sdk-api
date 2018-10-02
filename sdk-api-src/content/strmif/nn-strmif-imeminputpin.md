@@ -7,7 +7,7 @@ old-location: dshow\imeminputpin.htm
 tech.root: DirectShow
 ms.assetid: a4407c6f-6bb5-4274-920b-8bf7d76268bc
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], IMemInputPin interface [DirectShow],described, IMemInputPinInterface, dshow.imeminputpin, strmif/IMemInputPin
 ms.prod: windows
 ms.technology: windows-sdk

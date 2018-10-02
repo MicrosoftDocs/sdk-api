@@ -4,10 +4,10 @@ title: IShellFolderBand::SetBandInfoSFB
 author: windows-sdk-content
 description: Uses the information in a BANDINFOSFB structure to set the band information for a IShellFolderBand object.
 old-location: shell\IShellFolderBand_SetBandInfoSFB.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6b1a219f-60a3-4073-8293-2e9e1c6459d9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],SetBandInfoSFB method, IShellFolderBand.SetBandInfoSFB, IShellFolderBand::SetBandInfoSFB, SetBandInfoSFB, SetBandInfoSFB method [Windows Shell], SetBandInfoSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_SetBandInfoSFB, shell.IShellFolderBand_SetBandInfoSFB, shlobj/IShellFolderBand::SetBandInfoSFB
 ms.prod: windows-hardware
 ms.technology: windows-devices

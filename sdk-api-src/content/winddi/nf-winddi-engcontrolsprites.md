@@ -4,10 +4,10 @@ title: EngControlSprites function
 author: windows-sdk-content
 description: The EngControlSprites function tears down or redraws sprites on the specified WNDOBJ area.
 old-location: display\engcontrolsprites.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 8de02019-6f58-4adc-9589-fdfbf4a062aa
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngControlSprites, EngControlSprites function [Display Devices], display.engcontrolsprites, gdifncs_b7312326-43ba-4c8b-bb23-db2ecf2d6f6e.xml, winddi/EngControlSprites
 ms.prod: windows-hardware
 ms.technology: windows-devices

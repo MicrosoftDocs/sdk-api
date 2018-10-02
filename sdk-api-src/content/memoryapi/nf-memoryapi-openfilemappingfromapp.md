@@ -7,7 +7,7 @@ old-location: base\openfilemappingfromapp.htm
 tech.root: Memory
 ms.assetid: 66BAB9A6-F983-49D8-8F87-69A3CCBBB1BC
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OpenFileMappingFromApp, OpenFileMappingFromApp function, base.openfilemappingfromapp, memoryapi/OpenFileMappingFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

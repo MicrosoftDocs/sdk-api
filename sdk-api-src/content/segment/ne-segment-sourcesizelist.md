@@ -7,7 +7,7 @@ old-location: mstv\sourcesizelist.htm
 tech.root: MSTV
 ms.assetid: 579c4993-6238-47c7-b61c-398568c1fb94
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: MSVidCtlSourceSizeListEnumeration, SourceSizeList, SourceSizeList enumeration [Microsoft TV Technologies], enumeration [Microsoft TV Technologies], mstv.sourcesizelist, segment/SourceSizeList, segment/sslClipByClipRect, segment/sslClipByOverScan, segment/sslFullSize, sslClipByClipRect, sslClipByOverScan, sslFullSize
 ms.prod: windows
 ms.technology: windows-sdk

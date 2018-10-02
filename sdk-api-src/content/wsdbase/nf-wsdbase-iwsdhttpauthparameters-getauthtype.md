@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpauthparameters_getauthtype.htm
 tech.root: WsdApi
 ms.assetid: F5D218DD-474B-4562-8877-D159394AF365
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetAuthType, GetAuthType method, GetAuthType method,IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,GetAuthType method, IWSDHttpAuthParameters.GetAuthType, IWSDHttpAuthParameters::GetAuthType, WSD_SECURITY_HTTP_AUTH_SCHEME_NEGOTIATE, WSD_SECURITY_HTTP_AUTH_SCHEME_NTLM, ncd.iwsdhttpauthparameters_getauthtype, wsdbase/IWSDHttpAuthParameters::GetAuthType
 ms.prod: windows-hardware
 ms.technology: windows-devices

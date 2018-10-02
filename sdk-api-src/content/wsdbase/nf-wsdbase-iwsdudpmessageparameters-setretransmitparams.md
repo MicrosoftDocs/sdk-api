@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpmessageparameters_setretransmitparams.htm
 tech.root: WsdApi
 ms.assetid: 8fef8dc9-7621-4928-94a6-491a095b11fa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWSDUdpMessageParameters interface,SetRetransmitParams method, IWSDUdpMessageParameters.SetRetransmitParams, IWSDUdpMessageParameters::SetRetransmitParams, SetRetransmitParams, SetRetransmitParams method, SetRetransmitParams method,IWSDUdpMessageParameters interface, ncd.iwsdudpmessageparameters_setretransmitparams, wsdbase/IWSDUdpMessageParameters::SetRetransmitParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

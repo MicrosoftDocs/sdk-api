@@ -7,7 +7,7 @@ old-location: pla\iperformancecounterdatacollector_performancecounters.htm
 tech.root: PLA
 ms.assetid: 9c75f560-a161-4659-9fd9-9f73c964fa5b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],PerformanceCounters property, IPerformanceCounterDataCollector.PerformanceCounters, IPerformanceCounterDataCollector.put_PerformanceCounters, IPerformanceCounterDataCollector::PerformanceCounters, IPerformanceCounterDataCollector::get_PerformanceCounters, IPerformanceCounterDataCollector::put_PerformanceCounters, PerformanceCounters property [PLA], PerformanceCounters property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_performancecounters, pla.iperformancecounterdatacollector_performancecounters, pla/IPerformanceCounterDataCollector::PerformanceCounters, pla/IPerformanceCounterDataCollector::get_PerformanceCounters, pla/IPerformanceCounterDataCollector::put_PerformanceCounters, put_PerformanceCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices

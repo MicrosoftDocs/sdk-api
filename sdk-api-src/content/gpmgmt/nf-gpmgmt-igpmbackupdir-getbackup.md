@@ -7,7 +7,7 @@ old-location: gpmc\igpmbackupdir_getbackup.htm
 tech.root: GPMC
 ms.assetid: 45f286dc-fa60-4cfd-bdf0-bfeaf2a5a396
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMBackupDir object [GPMC],GetBackup method, GetBackup, GetBackup method [GPMC], GetBackup method [GPMC],GPMBackupDir object, GetBackup method [GPMC],IGPMBackupDir interface, IGPMBackupDir interface [GPMC],GetBackup method, IGPMBackupDir.GetBackup, IGPMBackupDir::GetBackup, _win32_igpmbackupdir_getbackup, gpmc.igpmbackupdir_getbackup, gpmgmt/IGPMBackupDir::GetBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

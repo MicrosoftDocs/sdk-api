@@ -7,7 +7,7 @@ old-location: intl\immgetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

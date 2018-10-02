@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadataex.htm
 tech.root: VSS
 ms.assetid: 363c987c-7d6c-4efe-988a-1b288f9b4d3c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], IVssExamineWriterMetadataEx interface [VSS],described, base.ivssexaminewritermetadataex, vsbackup/IVssExamineWriterMetadataEx
 ms.prod: windows
 ms.technology: windows-sdk

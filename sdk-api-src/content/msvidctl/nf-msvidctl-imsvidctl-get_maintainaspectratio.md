@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_maintainaspectratio.htm
 tech.root: MSTV
 ms.assetid: eebb75d2-d5ee-49d6-b1bf-03b0040564b7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_MaintainAspectRatio method, IMSVidCtl.get_MaintainAspectRatio, IMSVidCtl::get_MaintainAspectRatio, IMSVidCtlget_MaintainAspectRatio, get_MaintainAspectRatio, get_MaintainAspectRatio method [Microsoft TV Technologies], get_MaintainAspectRatio method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_maintainaspectratio, msvidctl/IMSVidCtl::get_MaintainAspectRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

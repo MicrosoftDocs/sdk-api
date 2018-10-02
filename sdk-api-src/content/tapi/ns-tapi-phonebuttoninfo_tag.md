@@ -4,10 +4,10 @@ title: phonebuttoninfo_tag
 author: windows-sdk-content
 description: The PHONEBUTTONINFO structure contains information about a button on a phone device. This structure is used by multiple TAPI and TSPI functions.
 old-location: tapi2\phonebuttoninfo_str.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: f8316587-f279-419a-a35d-194df3fc8383
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPPHONEBUTTONINFO, LPPHONEBUTTONINFO, LPPHONEBUTTONINFO structure pointer [TAPI 2.2], PHONEBUTTONINFO, PHONEBUTTONINFO structure [TAPI 2.2], _tapi2_phonebuttoninfo_str, phonebuttoninfo_tag, tapi/LPPHONEBUTTONINFO, tapi/PHONEBUTTONINFO, tapi2.phonebuttoninfo_str"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: htmlhelp\istemmerconfig.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfiginterface.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IStemmerConfig, IStemmerConfig interface [HTML Help Workshop], IStemmerConfig interface [HTML Help Workshop],described, htmlhelp.istemmerconfig, infotech/IStemmerConfig, refIStemmerConfigInterface
 ms.prod: windows
 ms.technology: windows-sdk

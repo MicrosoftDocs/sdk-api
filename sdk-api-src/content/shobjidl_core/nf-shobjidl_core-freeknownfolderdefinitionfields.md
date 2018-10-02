@@ -4,10 +4,10 @@ title: FreeKnownFolderDefinitionFields function
 author: windows-sdk-content
 description: Frees the allocated fields in the result from IKnownFolder::GetFolderDefinition.
 old-location: shell\FreeKnownFolderDefinitionFields.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0ad17dd3-e612-403a-b8c3-e93d5f259c1f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: FreeKnownFolderDefinitionFields, FreeKnownFolderDefinitionFields function [Windows Shell], _shell_FreeKnownFolderDefinitionFields, shell.FreeKnownFolderDefinitionFields, shobjidl_core/FreeKnownFolderDefinitionFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\net_luid.htm
 tech.root: IpHlp
 ms.assetid: c4956c5a-3c6c-4f1c-b9d7-2e377b66f197
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIF_LUID, *PNET_LUID, *PNET_LUID_LH, IF_LUID, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, NET_LUID, NET_LUID union [IP Helper], NET_LUID_LH, PNET_LUID, PNET_LUID union pointer [IP Helper], _NET_LUID_LH, ifdef/NET_LUID, ifdef/PNET_LUID, iphlp.net_luid"
 ms.prod: windows
 ms.technology: windows-sdk

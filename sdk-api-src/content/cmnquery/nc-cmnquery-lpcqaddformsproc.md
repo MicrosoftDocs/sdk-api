@@ -4,10 +4,10 @@ title: LPCQADDFORMSPROC
 author: windows-sdk-content
 description: Called by a query form extension to add a form to the query dialog box.
 old-location: ad\cqaddformsproc.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
 ms.prod: windows
 ms.technology: windows-sdk

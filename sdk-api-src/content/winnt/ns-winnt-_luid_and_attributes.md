@@ -4,10 +4,10 @@ title: "_LUID_AND_ATTRIBUTES"
 author: windows-sdk-content
 description: Represents a locally unique identifier (LUID) and its attributes.
 old-location: security\luid_and_attributes.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f337b561-4b67-42a0-b8de-06f546bafb26
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PLUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES structure [Security], PLUID_AND_ATTRIBUTES, PLUID_AND_ATTRIBUTES structure pointer [Security], _LUID_AND_ATTRIBUTES, _win32_luid_and_attributes_str, security.luid_and_attributes, winnt/LUID_AND_ATTRIBUTES, winnt/PLUID_AND_ATTRIBUTES"
 ms.prod: windows
 ms.technology: windows-sdk

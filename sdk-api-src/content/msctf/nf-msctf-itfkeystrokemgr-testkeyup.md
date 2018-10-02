@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_testkeyup.htm
 tech.root: TSF
 ms.assetid: 34a2b34b-3c3d-4609-a9e1-9b01ab349ae7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],TestKeyUp method, ITfKeystrokeMgr.TestKeyUp, ITfKeystrokeMgr::TestKeyUp, TestKeyUp, TestKeyUp method [Text Services Framework], TestKeyUp method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_testkeyup_ref, msctf/ITfKeystrokeMgr::TestKeyUp, tsf.itfkeystrokemgr_testkeyup
 ms.prod: windows-hardware
 ms.technology: windows-devices

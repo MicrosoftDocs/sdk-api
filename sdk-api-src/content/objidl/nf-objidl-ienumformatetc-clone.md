@@ -7,7 +7,7 @@ old-location: com\ienumformatetc_clone.htm
 tech.root: com
 ms.assetid: 637c3299-816f-4f3c-9758-b3200b5cf153
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumFORMATETC interface, IEnumFORMATETC interface [COM],Clone method, IEnumFORMATETC.Clone, IEnumFORMATETC::Clone, _ole_ienumformatetc_clone, com.ienumformatetc_clone, objidl/IEnumFORMATETC::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

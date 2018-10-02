@@ -4,10 +4,10 @@ title: BluetoothFindDeviceClose function
 author: windows-sdk-content
 description: The BluetoothFindDeviceClose function closes an enumeration handle associated with a device query.
 old-location: bluetooth\bluetoothfinddeviceclose.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 8b482d7f-56a3-47ef-be49-5272423c10f6
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothFindDeviceClose, BluetoothFindDeviceClose function [Bluetooth], bluetooth.bluetoothfinddeviceclose, bluetoothapis/BluetoothFindDeviceClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

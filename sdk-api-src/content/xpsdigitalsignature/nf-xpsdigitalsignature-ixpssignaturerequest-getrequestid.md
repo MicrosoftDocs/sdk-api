@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_getrequestid.htm
 tech.root: printdocs
 ms.assetid: abca5fdf-258b-4ce8-8b29-eae9a6d17cd7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetRequestId, GetRequestId method [XPS Documents and Packaging], GetRequestId method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestId method, IXpsSignatureRequest.GetRequestId, IXpsSignatureRequest::GetRequestId, xps.ixpssignaturerequest_getrequestid, xpsdigitalsignature/IXpsSignatureRequest::GetRequestId
 ms.prod: windows-hardware
 ms.technology: windows-devices

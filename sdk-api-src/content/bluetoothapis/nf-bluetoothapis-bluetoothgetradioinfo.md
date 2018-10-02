@@ -4,10 +4,10 @@ title: BluetoothGetRadioInfo function
 author: windows-sdk-content
 description: Obtains information about a Bluetooth radio.
 old-location: bluetooth\bluetoothgetradioinfo.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 0c596f49-70f9-4a58-842c-e01dcf69bd01
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothGetRadioInfo, BluetoothGetRadioInfo function [Bluetooth], bluetooth.bluetoothgetradioinfo, bluetoothapis/BluetoothGetRadioInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iesopenmmievent.htm
 tech.root: MSTV
 ms.assetid: f54532e2-d1d1-4c6b-ae3d-9f50e0e61366
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], IESOpenMmiEvent interface [Microsoft TV Technologies],described, mstv.iesopenmmievent, tuner/IESOpenMmiEvent
 ms.prod: windows
 ms.technology: windows-sdk

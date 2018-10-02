@@ -4,10 +4,10 @@ title: MFGetAttributesAsBlobSize function
 author: windows-sdk-content
 description: Retrieves the size of the buffer needed for the MFGetAttributesAsBlob function.
 old-location: mf\mfgetattributesasblobsize.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 52abfe30-a18d-45f7-93db-13f87b0647b7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 52abfe30-a18d-45f7-93db-13f87b0647b7, MFGetAttributesAsBlobSize, MFGetAttributesAsBlobSize function [Media Foundation], mf.mfgetattributesasblobsize, mfapi/MFGetAttributesAsBlobSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

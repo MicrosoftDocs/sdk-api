@@ -4,10 +4,10 @@ title: GetThemeStream function
 author: windows-sdk-content
 description: Retrieves a data stream corresponding to a specified theme, starting from a specified part, state, and property.
 old-location: controls\GetThemeStream.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestream.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetThemeStream, GetThemeStream function [Windows Controls], controls.GetThemeStream, controls.inet_GetThemeStream, inet_GetThemeStream, inet_GetThemeStream_cpp, uxtheme/GetThemeStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

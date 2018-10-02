@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setcertcncheck.htm
 tech.root: WMI_v2
 ms.assetid: 19b8bcf5-192a-4e14-9efe-3124b8051e04
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_DestinationOptions_SetCertCNCheck, MI_DestinationOptions_SetCertCNCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetCertCNCheck, wmi_v2.mi_destinationoptions_setcertcncheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

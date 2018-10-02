@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorinsert.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorInsert(XMVECTOR,XMVECTOR,uint32_t,uint32_t,uint32_t,uint32_t,uint32_t)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVectorInsert, XMVectorInsert, XMVectorInsert method [DirectX Math Support APIs], dxmath.xmvectorinsert
 ms.prod: windows-hardware
 ms.technology: windows-devices

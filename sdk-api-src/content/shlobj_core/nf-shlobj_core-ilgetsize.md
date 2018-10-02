@@ -4,10 +4,10 @@ title: ILGetSize function
 author: windows-sdk-content
 description: Returns the size, in bytes, of an ITEMIDLIST structure.
 old-location: shell\ILGetSize.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 099d4139-b0ea-42b7-991b-ee04e40994c6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ILGetSize, ILGetSize function [Windows Shell], _win32_ILGetSize, shell.ILGetSize, shlobj_core/ILGetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

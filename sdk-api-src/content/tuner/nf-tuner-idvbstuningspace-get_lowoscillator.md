@@ -7,7 +7,7 @@ old-location: mstv\idvbstuningspace_get_lowoscillator.htm
 tech.root: MSTV
 ms.assetid: 7f48902d-9242-4791-b0f1-fc4ab5bd85c0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LowOscillator method, IDVBSTuningSpace.get_LowOscillator, IDVBSTuningSpace::get_LowOscillator, IDVBSTuningSpaceget_LowOscillator, get_LowOscillator, get_LowOscillator method [Microsoft TV Technologies], get_LowOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lowoscillator, tuner/IDVBSTuningSpace::get_LowOscillator
 ms.prod: windows-hardware
 ms.technology: windows-devices

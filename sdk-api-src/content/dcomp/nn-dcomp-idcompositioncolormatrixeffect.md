@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioncolormatrixeffect.htm
 tech.root: directcomp
 ms.assetid: 75528E11-D041-4192-833A-31679316DF76
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionColorMatrixEffect, IDCompositionColorMatrixEffect interface [DirectComposition], IDCompositionColorMatrixEffect interface [DirectComposition],described, dcomp/IDCompositionColorMatrixEffect, directcomp.idcompositioncolormatrixeffect
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\chstring_right.htm
 tech.root: WmiSdk
 ms.assetid: eccf928f-75ac-4442-90f9-0e0578c5798f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "?Right@CHString@@QBE?AV1@H@Z, ?Right@CHString@@QEBA?AV1@H@Z, CHString interface [Windows Management Instrumentation],Right method, CHString.Right, CHString::Right, Right, Right method [Windows Management Instrumentation], Right method [Windows Management Instrumentation],CHString interface, _hmm_chstring_right, chstring/CHString::Right, wmi.chstring_right"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IUpdateSession::get_ReadOnly
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the session object is read-only.
 old-location: wua\iupdatesession_readonly.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ba1e5092-33b1-4a03-b4f5-08b435706f49
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IUpdateSession interface [Windows Update Agent],ReadOnly property, IUpdateSession.ReadOnly, IUpdateSession.get_ReadOnly, IUpdateSession::ReadOnly, IUpdateSession::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IUpdateSession interface, get_ReadOnly, wua.iupdatesession_readonly, wuapi/IUpdateSession::ReadOnly, wuapi/IUpdateSession::get_ReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

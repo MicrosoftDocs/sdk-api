@@ -7,7 +7,7 @@ old-location: automat\varcyadd.htm
 tech.root: automat
 ms.assetid: ef0402aa-7263-4a4b-9204-a35d8da154c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VarCyAdd, VarCyAdd function [Automation], _oa96_VarCyAdd, automat.varcyadd, oleauto/VarCyAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

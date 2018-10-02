@@ -4,10 +4,10 @@ title: SHCreateThread function
 author: windows-sdk-content
 description: Creates a thread.
 old-location: shell\SHCreateThread.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2140e396-29cd-4665-b684-337170570b73
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHCreateThread, shell.SHCreateThread, shlwapi/SHCreateThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dns\dnsqueryex.htm
 tech.root: DNS
 ms.assetid: 22664B9A-5010-42E7-880B-8D5B16A9F2DC
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DnsQueryEx, DnsQueryEx function [DNS], dns.dnsqueryex, windns/DnsQueryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

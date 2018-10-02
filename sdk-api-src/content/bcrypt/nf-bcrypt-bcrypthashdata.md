@@ -7,7 +7,7 @@ old-location: security\bcrypthashdata_func.htm
 tech.root: SecCNG
 ms.assetid: dab89dff-dc84-4f69-8b6b-de65704b0265
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCryptHashData, BCryptHashData function [Security], bcrypt/BCryptHashData, security.bcrypthashdata_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

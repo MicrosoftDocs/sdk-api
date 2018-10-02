@@ -4,10 +4,10 @@ title: IEventTrigger::get_Subscription
 author: windows-sdk-content
 description: Gets or sets a query string that identifies the event that fires the trigger.
 old-location: taskschd\ieventtrigger_subscription.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 884b98cd-f782-44af-9534-067198a7f48d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IEventTrigger interface [Task Scheduler],Subscription property, IEventTrigger.Subscription, IEventTrigger.get_Subscription, IEventTrigger::Subscription, IEventTrigger::get_Subscription, IEventTrigger::put_Subscription, Subscription property [Task Scheduler], Subscription property [Task Scheduler],IEventTrigger interface, get_Subscription, taskschd.ieventtrigger_subscription, taskschd/IEventTrigger::Subscription, taskschd/IEventTrigger::get_Subscription, taskschd/IEventTrigger::put_Subscription
 ms.prod: windows-hardware
 ms.technology: windows-devices

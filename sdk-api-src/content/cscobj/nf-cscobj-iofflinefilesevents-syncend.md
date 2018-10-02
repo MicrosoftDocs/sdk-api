@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_syncend.htm
 tech.root: OfflineFiles
 ms.assetid: 2b4b32b9-7268-4f79-8eac-640a6c62b0c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncEnd method, IOfflineFilesEvents.SyncEnd, IOfflineFilesEvents::SyncEnd, SyncEnd, SyncEnd method [Offline Files], SyncEnd method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncEnd, of.iofflinefilesevents_syncend
 ms.prod: windows-hardware
 ms.technology: windows-devices

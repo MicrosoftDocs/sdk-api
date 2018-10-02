@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresource_getowner.htm
 tech.root: printdocs
 ms.assetid: b94e5b76-ae45-483c-b9ea-3987d7b4837a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMSignatureBlockResource.GetOwner, IXpsOMSignatureBlockResource::GetOwner, xps.ixpsomsignatureblockresource_getowner, xpsobjectmodel/IXpsOMSignatureBlockResource::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

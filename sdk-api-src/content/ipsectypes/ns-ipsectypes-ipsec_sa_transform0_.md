@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_transform0_struct.htm
 tech.root: FWP
 ms.assetid: 1cf64805-e79d-4599-addf-0ad24d7d900e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_SA_TRANSFORM0, IPSEC_SA_TRANSFORM0 structure [Filtering], IPSEC_SA_TRANSFORM0_, fwp.ipsec_sa_transform0_struct, ipsectypes/IPSEC_SA_TRANSFORM0
 ms.prod: windows
 ms.technology: windows-sdk

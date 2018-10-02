@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo_getcodecinfocount.htm
 tech.root: wmformat
 ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetCodecInfoCount, GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecInfoCount method, IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

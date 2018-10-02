@@ -4,10 +4,10 @@ title: MsiRecordReadStream function
 author: windows-sdk-content
 description: The MsiRecordReadStream function reads bytes from a record stream field into a buffer.
 old-location: setup\msirecordreadstream.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: a7ff84f0-15d2-4fb2-98c7-8fb8d2f14004
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: MsiRecordReadStream, MsiRecordReadStream function, _msi_msirecordreadstream, msiquery/MsiRecordReadStream, setup.msirecordreadstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgdocument_createpathdata.htm
 tech.root: direct2d
 ms.assetid: 3BF28252-AC33-4B16-9A72-2838006C4A21
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: CreatePathData, CreatePathData method [Direct2D], CreatePathData method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePathData method, ID2D1SvgDocument.CreatePathData, ID2D1SvgDocument::CreatePathData, d2d1svg/ID2D1SvgDocument::CreatePathData, direct2d.id2d1svgdocument_createpathdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

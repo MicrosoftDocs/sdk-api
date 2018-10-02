@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper.htm
 tech.root: directdraw
 ms.assetid: 2e93583a-59a8-4a0f-9299-ed57fdcebf33
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw],described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
 ms.prod: windows
 ms.technology: windows-sdk

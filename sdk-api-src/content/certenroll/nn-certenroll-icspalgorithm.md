@@ -4,10 +4,10 @@ title: ICspAlgorithm
 author: windows-sdk-content
 description: Represents an algorithm implemented by a cryptographic provider.
 old-location: security\icspalgorithm.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 08eba616-2e96-40cd-9fda-8549de98c138
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], ICspAlgorithm interface [Security],described, certenroll/ICspAlgorithm, security.icspalgorithm
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectset.htm
 tech.root: OPC
 ms.assetid: eb2a561d-2723-45dc-98a6-ecf11101016b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectSet, opc.iopcsignaturecustomobjectset
 ms.prod: windows
 ms.technology: windows-sdk

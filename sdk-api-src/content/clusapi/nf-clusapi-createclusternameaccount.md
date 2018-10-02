@@ -4,10 +4,10 @@ title: CreateClusterNameAccount function
 author: windows-sdk-content
 description: Creates a cluster name resource and then uses it add a cluster to a domain, even if the machines that host the cluster aren't members of the domain.
 old-location: mscs\createclusternameaccount.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 82BBEE9D-C787-4935-BB5F-09438676B37A
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CreateClusterNameAccount, CreateClusterNameAccount function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT function [Failover Cluster], clusapi/CreateClusterNameAccount, clusapi/PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, mscs.createclusternameaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

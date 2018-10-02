@@ -7,7 +7,7 @@ old-location: base\vds_disk_prop.htm
 tech.root: VDS
 ms.assetid: c7c09f95-9489-46fd-8b03-cabdee4521cf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PVDS_DISK_PROP, PVDS_DISK_PROP, PVDS_DISK_PROP structure pointer [VDS], VDS_DISK_PROP, VDS_DISK_PROP structure [VDS], VDS_H_FAILED, VDS_H_FAILING, VDS_H_HEALTHY, VDS_H_UNKNOWN, _VDS_DISK_PROP, base.vds_disk_prop, vds/PVDS_DISK_PROP, vds/_VDS_DISK_PROP"
 ms.prod: windows
 ms.technology: windows-sdk

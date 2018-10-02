@@ -4,10 +4,10 @@ title: IScheduledWorkItem
 author: windows-sdk-content
 description: Provides the methods for managing specific work items.
 old-location: taskschd\ischeduledworkitem.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: e668833a-094d-4504-90a0-87912a6a53c2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], IScheduledWorkItem interface [Task Scheduler],described, _msb_ischeduledworkitem, mstask/IScheduledWorkItem, taskschd.ischeduledworkitem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\setdcpencolor.htm
 tech.root: gdi
 ms.assetid: 057608eb-7209-4714-bf02-660a13d59016
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetDCPenColor, SetDCPenColor function [Windows GDI], _win32_SetDCPenColor, gdi.setdcpencolor, wingdi/SetDCPenColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

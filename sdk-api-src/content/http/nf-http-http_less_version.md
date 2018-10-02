@@ -7,7 +7,7 @@ old-location: http\http_less_version.htm
 tech.root: Http
 ms.assetid: 3a6486ad-04cb-416f-be5e-bd8f401b0836
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HTTP_LESS_VERSION, HTTP_LESS_VERSION macro [HTTP], _http_http_less_version, http.http_less_version, http/HTTP_LESS_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

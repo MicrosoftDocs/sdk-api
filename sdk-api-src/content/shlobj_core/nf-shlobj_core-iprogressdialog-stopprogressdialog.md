@@ -4,10 +4,10 @@ title: IProgressDialog::StopProgressDialog
 author: windows-sdk-content
 description: Stops the progress dialog box and removes it from the screen.
 old-location: shell\IProgressDialog_StopProgressDialog.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6a46ca72-b19d-4fd3-b783-2d182326deb4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IProgressDialog interface [Windows Shell],StopProgressDialog method, IProgressDialog.StopProgressDialog, IProgressDialog::StopProgressDialog, StopProgressDialog, StopProgressDialog method [Windows Shell], StopProgressDialog method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_StopProgressDialog, shell.IProgressDialog_StopProgressDialog, shlobj_core/IProgressDialog::StopProgressDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

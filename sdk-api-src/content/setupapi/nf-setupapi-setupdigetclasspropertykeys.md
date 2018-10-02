@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclasspropertykeys.htm
 tech.root: devinst
 ms.assetid: 9b595fc5-f517-41f9-b7a8-a7811f658d57
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiGetClassPropertyKeys, SetupDiGetClassPropertyKeys function [Device and Driver Installation], devinst.setupdigetclasspropertykeys, di-rtns_7f87ef8b-8752-4cd4-9aca-811a83c99ccf.xml, setupapi/SetupDiGetClassPropertyKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_contextft.htm
 tech.root: WMI_v2
 ms.assetid: a5a3003f-9343-415d-b30f-32b479232db8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ContextFT, MI_ContextFT structure [Windows Management Infrastructure (MI)], _MI_ContextFT, mi/MI_ContextFT, wmi_v2.mi_contextft
 ms.prod: windows
 ms.technology: windows-sdk

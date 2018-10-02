@@ -4,10 +4,10 @@ title: MFASF_SPLITTERFLAGS
 author: windows-sdk-content
 description: Defines the ASF splitter options.
 old-location: mf\mfasf_splitterflags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8eaad139-b487-4348-ae19-4251a2aeed14
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 8eaad139-b487-4348-ae19-4251a2aeed14, MFASF_SPLITTERFLAGS, MFASF_SPLITTERFLAGS enumeration [Media Foundation], MFASF_SPLITTER_REVERSE, MFASF_SPLITTER_WMDRM, enumeration [Media Foundation], mf.mfasf_splitterflags, wmcontainer/MFASF_SPLITTERFLAGS, wmcontainer/MFASF_SPLITTER_REVERSE, wmcontainer/MFASF_SPLITTER_WMDRM
 ms.prod: windows
 ms.technology: windows-sdk

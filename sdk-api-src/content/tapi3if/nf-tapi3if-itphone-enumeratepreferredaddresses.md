@@ -4,10 +4,10 @@ title: ITPhone::EnumeratePreferredAddresses
 author: windows-sdk-content
 description: The EnumeratePreferredAddresses method enumerates the preferred addresses for the phone object. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumeratepreferredaddresses.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 7bb15dc1-c1f0-4da5-8217-baedb45b70f7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: EnumeratePreferredAddresses, EnumeratePreferredAddresses method [TAPI 2.2], EnumeratePreferredAddresses method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumeratePreferredAddresses method, ITPhone.EnumeratePreferredAddresses, ITPhone::EnumeratePreferredAddresses, _tapi3_itphone_enumeratepreferredaddresses, tapi3.itphone_enumeratepreferredaddresses, tapi3if/ITPhone::EnumeratePreferredAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices

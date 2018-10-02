@@ -7,7 +7,7 @@ old-location: winrt\pdf_render_params.htm
 tech.root: WinRT
 ms.assetid: 1B2F12FB-E053-4B79-B71D-E66D7A6E5054
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], windows/PDF_RENDER_PARAMS, winrt.pdf_render_params
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ADsPropGetInitInfo function
 author: windows-sdk-content
 description: Used to obtain directory object data that an Active Directory Domain Services property sheet extension applies to.
 old-location: ad\adspropgetinitinfo.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: dcc4ea8f-6924-4e26-a675-ce326f35933c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: ADsPropGetInitInfo, ADsPropGetInitInfo function [Active Directory], ad.adspropgetinitinfo, adsprop/ADsPropGetInitInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

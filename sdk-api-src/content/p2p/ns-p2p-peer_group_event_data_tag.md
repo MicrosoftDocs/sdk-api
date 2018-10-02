@@ -4,10 +4,10 @@ title: peer_group_event_data_tag
 author: windows-sdk-content
 description: The PEER_GROUP_EVENT_DATA structure contains information about a specific peer group event that has occurred.
 old-location: p2p\peer_group_event_data.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 5cdae832-e6a7-481c-9784-1c1c07d689dd
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPEER_GROUP_EVENT_DATA, PEER_E_NOT_AUTHORIZED, PEER_E_NO_MEMBERS_FOUND, PEER_E_NO_MEMBER_CONNECTIONS, PEER_E_UNABLE_TO_LISTEN, PEER_GROUP_EVENT_DATA, PEER_GROUP_EVENT_DATA structure [Peer Networking], PPEER_GROUP_EVENT_DATA, PPEER_GROUP_EVENT_DATA structure pointer [Peer Networking], p2p.peer_group_event_data, p2p/PPEER_GROUP_EVENT_DATA, p2p/peer_group_event_data_tag, peer_group_event_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

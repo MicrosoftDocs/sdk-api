@@ -4,10 +4,10 @@ title: ResUtilPropertyListFromParameterBlock function
 author: windows-sdk-content
 description: Constructs a property list from a property table and a parameter block.
 old-location: mscs\resutilpropertylistfromparameterblock.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6993e279-07c7-4444-b1b9-0d25360e43e3
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK function [Failover Cluster], ResUtilPropertyListFromParameterBlock, ResUtilPropertyListFromParameterBlock function [Failover Cluster], _wolf_resutilpropertylistfromparameterblock, mscs.resutilpropertylistfromparameterblock, resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, resapi/ResUtilPropertyListFromParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

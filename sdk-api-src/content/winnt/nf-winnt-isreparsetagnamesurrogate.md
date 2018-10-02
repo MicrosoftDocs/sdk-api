@@ -4,10 +4,10 @@ title: IsReparseTagNameSurrogate macro
 author: windows-sdk-content
 description: Determines whether a tag's associated reparse point is a surrogate for another named entity (for example, a mounted folder).
 old-location: fs\isreparsetagnamesurrogate.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 6d79527a-0c78-42d2-b079-3eb487de295f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate macro [Files], _win32_isreparsetagnamesurrogate, base.isreparsetagnamesurrogate, fs.isreparsetagnamesurrogate, winnt/IsReparseTagNameSurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices

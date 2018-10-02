@@ -4,10 +4,10 @@ title: IShellLinkW::SetDescription
 author: windows-sdk-content
 description: Sets the description for a Shell link object. The description can be any application-defined string.
 old-location: shell\IShellLink_SetDescription.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4bec482e-04e6-4cde-ab8e-23c5a1463bdf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellLink interface [Windows Shell],SetDescription method, IShellLink::SetDescription, IShellLinkA interface [Windows Shell],SetDescription method, IShellLinkA::SetDescription, IShellLinkW interface [Windows Shell],SetDescription method, IShellLinkW.SetDescription, IShellLinkW::SetDescription, SetDescription, SetDescription method [Windows Shell], SetDescription method [Windows Shell],IShellLink interface, SetDescription method [Windows Shell],IShellLinkA interface, SetDescription method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetDescription, shell.IShellLink_SetDescription, shobjidl_core/IShellLink::SetDescription, shobjidl_core/IShellLinkA::SetDescription, shobjidl_core/IShellLinkW::SetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

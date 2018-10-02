@@ -4,10 +4,10 @@ title: SHRegOpenUSKeyA function
 author: windows-sdk-content
 description: Opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegOpenUSKey.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 756430a9-a495-412e-95c3-a93222bc467a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHRegOpenUSKey, SHRegOpenUSKey function [Windows Shell], SHRegOpenUSKeyA, SHRegOpenUSKeyW, _win32_SHRegOpenUSKey, shell.SHRegOpenUSKey, shlwapi/SHRegOpenUSKey, shlwapi/SHRegOpenUSKeyA, shlwapi/SHRegOpenUSKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

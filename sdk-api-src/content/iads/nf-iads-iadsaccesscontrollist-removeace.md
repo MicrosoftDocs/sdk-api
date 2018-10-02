@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist_removeace.htm
 tech.root: ADSI
 ms.assetid: 29c1ffcc-5a66-4ee3-889a-747953c604a4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsAccessControlList interface [ADSI],RemoveAce method, IADsAccessControlList.RemoveAce, IADsAccessControlList::RemoveAce, RemoveAce, RemoveAce method [ADSI], RemoveAce method [ADSI],IADsAccessControlList interface, _ds_iadsaccesscontrollist_removeace, adsi.iadsaccesscontrollist__removeace, adsi.iadsaccesscontrollist_removeace, iads/IADsAccessControlList::RemoveAce
 ms.prod: windows-hardware
 ms.technology: windows-devices

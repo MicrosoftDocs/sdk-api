@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6requestprefix.htm
 tech.root: DHCP
 ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

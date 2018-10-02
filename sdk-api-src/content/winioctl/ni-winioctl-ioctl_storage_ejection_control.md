@@ -7,7 +7,7 @@ old-location: base\ioctl_storage_ejection_control.htm
 tech.root: devio
 ms.assetid: d31aae7b-df93-419d-9a53-80a601a3c437
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_STORAGE_EJECTION_CONTROL, IOCTL_STORAGE_EJECTION_CONTROL control, IOCTL_STORAGE_EJECTION_CONTROL control code, _win32_ioctl_storage_ejection_control, base.ioctl_storage_ejection_control, winioctl/IOCTL_STORAGE_EJECTION_CONTROL
 ms.prod: windows
 ms.technology: windows-sdk

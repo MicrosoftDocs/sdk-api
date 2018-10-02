@@ -7,7 +7,7 @@ old-location: xps\ixpsdocumentpackagetarget3d_getxpsomfactory.htm
 tech.root: printdocs
 ms.assetid: A96555FB-9312-46E3-A347-A726A2C39BFC
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetXpsOMFactory, GetXpsOMFactory method [XPS Documents and Packaging], GetXpsOMFactory method [XPS Documents and Packaging],IXpsDocumentPackageTarget3D interface, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],GetXpsOMFactory method, IXpsDocumentPackageTarget3D.GetXpsOMFactory, IXpsDocumentPackageTarget3D::GetXpsOMFactory, xps.ixpsdocumentpackagetarget3d_getxpsomfactory, xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

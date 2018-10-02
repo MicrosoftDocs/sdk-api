@@ -4,10 +4,10 @@ title: IMFMediaSharingEngine::GetDevice
 author: windows-sdk-content
 description: Gets information about the media sharing device.
 old-location: mf\imfmediasharingengine_getdevice.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 29E536F3-E886-4DB6-8863-B4C0144FB693
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetDevice, GetDevice method [Media Foundation], GetDevice method [Media Foundation],IMFMediaSharingEngine interface, IMFMediaSharingEngine interface [Media Foundation],GetDevice method, IMFMediaSharingEngine.GetDevice, IMFMediaSharingEngine::GetDevice, mf.imfmediasharingengine_getdevice, mfsharingengine/IMFMediaSharingEngine::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

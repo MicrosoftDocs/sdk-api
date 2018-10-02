@@ -4,10 +4,10 @@ title: IX509CertificateRequestCertificate2
 author: windows-sdk-content
 description: The IX509CertificateRequestCertificate2 interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority.
 old-location: security\ix509certificaterequestcertificate2.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 4f4b5c95-3213-4ccb-9bdd-05cb221f54bd
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], IX509CertificateRequestCertificate2 interface [Security],described, certenroll/IX509CertificateRequestCertificate2, security.ix509certificaterequestcertificate2
 ms.prod: windows
 ms.technology: windows-sdk

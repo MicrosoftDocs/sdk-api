@@ -7,7 +7,7 @@ old-location: wsw\ws_ssl_transport_security_binding_policy_description.htm
 tech.root: wsw
 ms.assetid: 0cb55a36-a4c9-4bf3-9925-73f3f5cca139
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_ssl_transport_security_binding_policy_description
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ListView_Update macro
 author: windows-sdk-content
 description: Updates a list-view item. If the list-view control has the LVS_AUTOARRANGE style, this macro causes the list-view control to be arranged. You can use this macro or send the LVM_UPDATE message explicitly.
 old-location: controls\ListView_Update.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_update.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_Update, ListView_Update macro [Windows Controls], _win32_ListView_Update, _win32_ListView_Update_cpp, commctrl/ListView_Update, controls.ListView_Update, controls._win32_ListView_Update
 ms.prod: windows-hardware
 ms.technology: windows-devices

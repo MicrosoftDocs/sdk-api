@@ -7,7 +7,7 @@ old-location: fwp\fwpmipsectunneladd0.htm
 tech.root: FWP
 ms.assetid: 6de989e0-c5e1-4147-b5da-23448a4af2c9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_TUNNEL_FLAG_POINT_TO_POINT, FwpmIPsecTunnelAdd0, FwpmIpsecTunnelAdd0, FwpmIpsecTunnelAdd0 function [Filtering], fwp.fwpmipsectunneladd0, fwpmu/FwpmIpsecTunnelAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices

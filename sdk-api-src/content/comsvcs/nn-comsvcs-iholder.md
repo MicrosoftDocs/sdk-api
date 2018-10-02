@@ -7,7 +7,7 @@ old-location: cos\iholder.htm
 tech.root: cossdk
 ms.assetid: 3c852e72-2fdc-4fd0-b523-f5601154da2a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IHolder, IHolder interface [COM+], IHolder interface [COM+],described, _dtc_IHolder_Interface, comsvcs/IHolder, cos.iholder
 ms.prod: windows
 ms.technology: windows-sdk

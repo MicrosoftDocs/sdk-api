@@ -4,10 +4,10 @@ title: LoadModule function
 author: windows-sdk-content
 description: Loads and executes an application or creates a new instance of an existing application.
 old-location: base\loadmodule.htm
-tech.root: dlls
+tech.root: Dlls
 ms.assetid: 80571b80-851a-4272-bfa6-d26e217e714a
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: LOADPARMS32, LoadModule, LoadModule function, _win32_loadmodule, base.loadmodule, winbase/LoadModule
 ms.prod: windows-hardware
 ms.technology: windows-devices

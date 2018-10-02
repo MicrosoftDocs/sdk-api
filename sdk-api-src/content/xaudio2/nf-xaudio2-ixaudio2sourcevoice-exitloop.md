@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2sourcevoice_interface_exitloop.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.ExitLoop(UINT32)
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ExitLoop, ExitLoop method [XAudio2 Audio Mixing APIs], ExitLoop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],ExitLoop method, IXAudio2SourceVoice.ExitLoop, IXAudio2SourceVoice::ExitLoop, xaudio2.ixaudio2sourcevoice_interface_exitloop, xaudio2/IXAudio2SourceVoice::ExitLoop
 ms.prod: windows-hardware
 ms.technology: windows-devices

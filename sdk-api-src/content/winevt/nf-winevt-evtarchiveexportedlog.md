@@ -7,7 +7,7 @@ old-location: wes\evtarchiveexportedlog.htm
 tech.root: WES
 ms.assetid: 0a8f9958-03af-4310-9f9e-b79e84a30a04
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EvtArchiveExportedLog, EvtArchiveExportedLog function [EventLog], wes.evtarchiveexportedlog, winevt/EvtArchiveExportedLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

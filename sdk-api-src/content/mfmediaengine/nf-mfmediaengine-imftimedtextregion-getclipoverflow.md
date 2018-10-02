@@ -4,10 +4,10 @@ title: IMFTimedTextRegion::GetClipOverflow
 author: windows-sdk-content
 description: Determines whether a clip of text overflowed the region.
 old-location: mf\imftimedtextregion_getclipoverflow.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: F48D4F1C-E00C-40BE-B292-B92C5B214F56
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetClipOverflow, GetClipOverflow method [Media Foundation], GetClipOverflow method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetClipOverflow method, IMFTimedTextRegion.GetClipOverflow, IMFTimedTextRegion::GetClipOverflow, mf.imftimedtextregion_getclipoverflow, mfmediaengine/IMFTimedTextRegion::GetClipOverflow
 ms.prod: windows-hardware
 ms.technology: windows-devices

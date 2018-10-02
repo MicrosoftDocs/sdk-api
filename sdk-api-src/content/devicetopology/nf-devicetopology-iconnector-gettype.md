@@ -7,7 +7,7 @@ old-location: coreaudio\iconnector_gettype.htm
 tech.root: CoreAudio
 ms.assetid: 0e50d371-0a2e-4004-9225-4a9da7c3f139
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetType method, IConnector.GetType, IConnector::GetType, IConnectorGetType, coreaudio.iconnector_gettype, devicetopology/IConnector::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

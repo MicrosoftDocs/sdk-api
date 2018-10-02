@@ -7,7 +7,7 @@ old-location: winsock\ntohll.htm
 tech.root: WinSock
 ms.assetid: 90C582C4-01C4-4D8B-8AD6-F65F96DABA7E
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ntohll, ntohll function [Winsock], winsock.ntohll, winsock2/ntohll
 ms.prod: windows-hardware
 ms.technology: windows-devices

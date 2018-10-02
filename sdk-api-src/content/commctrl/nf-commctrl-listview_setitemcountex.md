@@ -4,10 +4,10 @@ title: ListView_SetItemCountEx macro
 author: windows-sdk-content
 description: Sets the virtual number of items in a virtual list view. You can use this macro or send the LVM_SETITEMCOUNT message explicitly.
 old-location: controls\ListView_SetItemCountEx.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemcountex.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: LVSICF_NOINVALIDATEALL, LVSICF_NOSCROLL, ListView_SetItemCountEx, ListView_SetItemCountEx macro [Windows Controls], _win32_ListView_SetItemCountEx, _win32_ListView_SetItemCountEx_cpp, commctrl/ListView_SetItemCountEx, controls.ListView_SetItemCountEx, controls._win32_ListView_SetItemCountEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IConsoleNameSpace::SetItem
 author: windows-sdk-content
 description: Enables the snap-in to set the attributes of a single scope-view item.
 old-location: mmc\iconsolenamespace_setitem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 04111116-CE7C-4FEA-AC61-E30393583B9A
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IConsoleNameSpace interface [MMC],SetItem method, IConsoleNameSpace.SetItem, IConsoleNameSpace::SetItem, SetItem, SetItem method [MMC], SetItem method [MMC],IConsoleNameSpace interface, mmc.iconsolenamespace_setitem, mmc/IConsoleNameSpace::SetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_104.htm
 tech.root: Dfs
 ms.assetid: 95b2cd36-4933-440d-889d-ebf36d7b9cc7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDFS_INFO_104, *PDFS_INFO_104, DFS_INFO_104, DFS_INFO_104 structure [Distributed File System], LPDFS_INFO_104, LPDFS_INFO_104 structure pointer [Distributed File System], PDFS_INFO_104, PDFS_INFO_104 structure pointer [Distributed File System], _DFS_INFO_104, dfs.dfs_info_104, fs.dfs_info_104, lmdfs/DFS_INFO_104, lmdfs/LPDFS_INFO_104, lmdfs/PDFS_INFO_104, netmgmt.dfs_info_104"
 ms.prod: windows
 ms.technology: windows-sdk

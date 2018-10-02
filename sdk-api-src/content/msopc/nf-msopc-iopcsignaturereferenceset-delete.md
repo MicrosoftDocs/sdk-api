@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereferenceset_delete.htm
 tech.root: OPC
 ms.assetid: 62e47da4-9486-41f4-9e56-23288c0c406b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureReferenceSet interface, IOpcSignatureReferenceSet interface [Open Packaging Conventions],Delete method, IOpcSignatureReferenceSet.Delete, IOpcSignatureReferenceSet::Delete, msopc/IOpcSignatureReferenceSet::Delete, opc.iopcsignaturereferenceset_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

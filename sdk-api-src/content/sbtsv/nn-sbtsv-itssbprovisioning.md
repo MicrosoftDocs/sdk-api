@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioning.htm
 tech.root: TermServ
 ms.assetid: 136c1538-be4f-4b1c-b74f-8914a51f774a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], ITsSbProvisioning interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioning, termserv.itssbprovisioning
 ms.prod: windows
 ms.technology: windows-sdk

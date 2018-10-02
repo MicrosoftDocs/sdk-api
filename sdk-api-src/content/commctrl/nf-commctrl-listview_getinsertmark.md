@@ -4,10 +4,10 @@ title: ListView_GetInsertMark macro
 author: windows-sdk-content
 description: Gets the position of the insertion point. You can use this macro or send the LVM_GETINSERTMARK message explicitly.
 old-location: controls\ListView_GetInsertMark.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_GetInsertMark, ListView_GetInsertMark macro [Windows Controls], _win32_ListView_GetInsertMark, _win32_ListView_GetInsertMark_cpp, commctrl/ListView_GetInsertMark, controls.ListView_GetInsertMark, controls._win32_ListView_GetInsertMark
 ms.prod: windows-hardware
 ms.technology: windows-devices

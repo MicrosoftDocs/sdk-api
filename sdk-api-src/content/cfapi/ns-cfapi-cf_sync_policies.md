@@ -7,7 +7,7 @@ old-location: cloudapi\cf_sync_policies.htm
 tech.root: cfApi
 ms.assetid: 5BCD0958-1FED-4F97-A4B4-2EB354E85BF6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CF_SYNC_POLICIES, CF_SYNC_POLICIES structure, cfapi/CF_SYNC_POLICIES, cloudApi.cf_sync_policies
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_connectnotify.htm
 tech.root: TermServ
 ms.assetid: 057a093b-9b2d-4a2e-9593-fe0251427be0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWRdsProtocolConnection.ConnectNotify, IWRdsProtocolConnection::ConnectNotify, termserv.iwrdsprotocolconnection_connectnotify, wtsprotocol/IWRdsProtocolConnection::ConnectNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

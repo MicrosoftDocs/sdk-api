@@ -4,10 +4,10 @@ title: ITravelLog::AddEntry
 author: windows-sdk-content
 description: Deprecated. Adds a new entry for a pending navigation to the travel log.
 old-location: shell\ITravelLog_AddEntry.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f83c1cb1-3cc5-413c-826b-ff4971cd4598
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: AddEntry, AddEntry method [Windows Shell], AddEntry method [Windows Shell],ITravelLog interface, FALSE, ITravelLog interface [Windows Shell],AddEntry method, ITravelLog.AddEntry, ITravelLog::AddEntry, TRUE, shdeprecated/ITravelLog::AddEntry, shell.ITravelLog_AddEntry, zone_ITravelLog_AddEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFASFStreamPrioritization::GetStreamCount
 author: windows-sdk-content
 description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the number of entries in the stream priority list.
 old-location: mf\imfasfstreamprioritization_getstreamcount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8c9dacbb-a952-411e-82df-0c8768d0b3fe
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 8c9dacbb-a952-411e-82df-0c8768d0b3fe, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],GetStreamCount method, IMFASFStreamPrioritization.GetStreamCount, IMFASFStreamPrioritization::GetStreamCount, mf.imfasfstreamprioritization_getstreamcount, wmcontainer/IMFASFStreamPrioritization::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

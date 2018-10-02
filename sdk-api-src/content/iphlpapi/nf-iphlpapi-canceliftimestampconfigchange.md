@@ -7,7 +7,7 @@ old-location: iphlp\canceliftimestampconfigchange.htm
 tech.root: IpHlp
 ms.assetid: F9F917D4-44E1-437C-A40F-4CA8FFB5702C
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CancelIfTimestampConfigChange, CancelIfTimestampConfigChange function [IP Helper], iphlp.canceliftimestampconfigchange, iphlpapi/CancelIfTimestampConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

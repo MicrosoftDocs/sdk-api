@@ -4,10 +4,10 @@ title: ICspAlgorithm::GetAlgorithmOid
 author: windows-sdk-content
 description: Retrieves the algorithm object identifier (OID). This method is web enabled.
 old-location: security\icspalgorithm_getalgorithmoid_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: b922154d-0d57-4473-b331-c0082d9e5db5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetAlgorithmOid, GetAlgorithmOid method [Security], GetAlgorithmOid method [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],GetAlgorithmOid method, ICspAlgorithm.GetAlgorithmOid, ICspAlgorithm::GetAlgorithmOid, certenroll/ICspAlgorithm::GetAlgorithmOid, security.icspalgorithm_getalgorithmoid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

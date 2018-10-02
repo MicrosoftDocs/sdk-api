@@ -4,10 +4,10 @@ title: ICryptAttributes
 author: windows-sdk-content
 description: The ICryptAttributes interface contains methods and properties that enable you to manage a collection of ICryptAttribute objects.
 old-location: security\icryptattributes.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: beedb57c-1c89-4d16-8514-046e3071fd1e
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ICryptAttributes interface [Security],described, certenroll/ICryptAttributes, security.icryptattributes
 ms.prod: windows
 ms.technology: windows-sdk

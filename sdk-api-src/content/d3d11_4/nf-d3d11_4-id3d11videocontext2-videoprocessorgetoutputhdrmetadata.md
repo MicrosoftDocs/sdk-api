@@ -4,10 +4,10 @@ title: ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData
 author: windows-sdk-content
 description: Gets the HDR metadata describing the display on which the content will be presented.
 old-location: mf\id3d11videocontext2_videoprocessorgetoutputhdrmetadata.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5739668F-DCF8-448C-8690-E254315B92AF
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorGetOutputHDRMetaData method, ID3D11VideoContext2.VideoProcessorGetOutputHDRMetaData, ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData, VideoProcessorGetOutputHDRMetaData, VideoProcessorGetOutputHDRMetaData method [Media Foundation], VideoProcessorGetOutputHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData, mf.id3d11videocontext2_videoprocessorgetoutputhdrmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

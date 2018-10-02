@@ -4,10 +4,10 @@ title: BluetoothEnumerateInstalledServices function
 author: windows-sdk-content
 description: The BluetoothEnumerateInstalledServices function enumerates the services GUIDs (Globally Unique Identifiers) enabled on a Bluetooth device.
 old-location: bluetooth\bluetoothenumerateinstalledservices.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 6f32c776-3c4d-4b0f-ab81-1e880d979d3b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothEnumerateInstalledServices, BluetoothEnumerateInstalledServices function [Bluetooth], bluetooth.bluetoothenumerateinstalledservices, bluetoothapis/BluetoothEnumerateInstalledServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetPolicyServerId
 author: windows-sdk-content
 description: Retrieves a string value that uniquely identifies the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getpolicyserverid.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: daff74e8-a124-4194-95f6-5837598c352f
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerId method, IX509EnrollmentPolicyServer.GetPolicyServerId, IX509EnrollmentPolicyServer::GetPolicyServerId, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerId, security.ix509enrollmentpolicyserver_getpolicyserverid
 ms.prod: windows-hardware
 ms.technology: windows-devices

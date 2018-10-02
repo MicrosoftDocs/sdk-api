@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer.htm
 tech.root: MSTV
 ms.assetid: 8f053c53-2a2b-4d98-a510-c516faa21611
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], ITuningSpaceContainer interface [Microsoft TV Technologies],described, ITuningSpaceContainerInterface, mstv.ituningspacecontainer, tuner/ITuningSpaceContainer
 ms.prod: windows
 ms.technology: windows-sdk

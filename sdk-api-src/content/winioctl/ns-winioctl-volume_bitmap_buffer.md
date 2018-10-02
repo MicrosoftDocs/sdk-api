@@ -4,10 +4,10 @@ title: VOLUME_BITMAP_BUFFER
 author: windows-sdk-content
 description: Represents the occupied and available clusters on a disk.
 old-location: fs\volume_bitmap_buffer_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 7273f469-bc5e-46b7-b908-59ddb7389c27
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: "*PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER structure pointer [Files], VOLUME_BITMAP_BUFFER, VOLUME_BITMAP_BUFFER structure [Files], _win32_volume_bitmap_buffer_str, base.volume_bitmap_buffer_str, fs.volume_bitmap_buffer_str, winioctl/PVOLUME_BITMAP_BUFFER, winioctl/VOLUME_BITMAP_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

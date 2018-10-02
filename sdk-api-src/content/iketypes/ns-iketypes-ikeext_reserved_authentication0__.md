@@ -7,7 +7,7 @@ old-location: fwp\ikeext_reserved_authentication0.htm
 tech.root: FWP
 ms.assetid: afae9b31-363a-47d9-9fc9-18efd8332fce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IKEEXT_RESERVED_AUTHENTICATION0, IKEEXT_RESERVED_AUTHENTICATION0 structure [Filtering], IKEEXT_RESERVED_AUTHENTICATION0__, IKEEXT_RESERVED_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, fwp.ikeext_reserved_authentication0, iketypes/IKEEXT_RESERVED_AUTHENTICATION0
 ms.prod: windows
 ms.technology: windows-sdk

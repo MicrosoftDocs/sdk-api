@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromBooleanVector.htm
 tech.root: properties
 ms.assetid: d2e34efb-d5d9-4adf-b582-d3f82d04597f
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: InitPropVariantFromBooleanVector, InitPropVariantFromBooleanVector function [Windows Properties], _shell_InitPropVariantFromBooleanVector, properties.InitPropVariantFromBooleanVector, propvarutil/InitPropVariantFromBooleanVector, shell.InitPropVariantFromBooleanVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\propvariantinit.htm
 tech.root: Stg
 ms.assetid: 8c1bf6ac-2b15-4a05-8cb9-a07d1437017c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PropVariantInit, PropVariantInit function [Structured Storage], _stg_propvariantinit, propidl/PropVariantInit, stg.propvariantinit
 ms.prod: windows-hardware
 ms.technology: windows-devices

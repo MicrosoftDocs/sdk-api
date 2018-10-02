@@ -4,10 +4,10 @@ title: SHRegDuplicateHKey function
 author: windows-sdk-content
 description: Duplicates a registry key's HKEY handle.
 old-location: shell\SHRegDuplicateHKey.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 73182aa9-0c4d-4723-ba3c-8bab6b51181b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHRegDuplicateHKey, SHRegDuplicateHKey function [Windows Shell], _win32_SHRegDuplicateHKey, shell.SHRegDuplicateHKey, shlwapi/SHRegDuplicateHKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

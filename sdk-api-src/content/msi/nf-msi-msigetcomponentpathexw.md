@@ -4,10 +4,10 @@ title: MsiGetComponentPathExW function
 author: windows-sdk-content
 description: Returns the full path to an installed component.
 old-location: setup\msigetcomponentpathex.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: 7501df09-170d-4f23-9404-d86e861ac7da
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetComponentPathEx, MsiGetComponentPathEx function [Setup API], MsiGetComponentPathExA, MsiGetComponentPathExW, NULL, User SID, msi/MsiGetComponentPathEx, msi/MsiGetComponentPathExA, msi/MsiGetComponentPathExW, s-1-1-0, setup.msigetcomponentpathex
 ms.prod: windows-hardware
 ms.technology: windows-devices

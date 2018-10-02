@@ -7,7 +7,7 @@ old-location: wcs\getmvalue.htm
 tech.root: WCS
 ms.assetid: d24816de-a3c7-4d9f-b6a0-652330cd3ccd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMValue, GetMValue macro [Windows Color System], _color_GetMValue, wcs.getmvalue, wingdi/GetMValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

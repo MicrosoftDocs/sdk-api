@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection__newenum.htm
 tech.root: cossdk
 ms.assetid: 82ba706c-4f66-448e-b6fa-33be496c56b2
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICatalogCollection interface [COM+],_NewEnum property, ICatalogCollection._NewEnum, ICatalogCollection.get__NewEnum, ICatalogCollection::_NewEnum, ICatalogCollection::get__NewEnum, _NewEnum property [COM+], _NewEnum property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get__NewEnum, comadmin/ICatalogCollection::_NewEnum, comadmin/ICatalogCollection::get__NewEnum, cos.icatalogcollection__newenum, get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

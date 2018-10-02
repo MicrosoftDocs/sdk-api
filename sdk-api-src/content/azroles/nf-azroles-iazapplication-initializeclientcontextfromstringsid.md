@@ -4,10 +4,10 @@ title: IAzApplication::InitializeClientContextFromStringSid
 author: windows-sdk-content
 description: Gets an IAzClientContext object pointer from the specified security identifier (SID) in text form.
 old-location: security\iazapplication_initializeclientcontextfromstringsid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b718b0bf-bb11-4485-a4d8-0a90aab62165
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromStringSid method, IAzApplication interface [Security],InitializeClientContextFromStringSid method, IAzApplication.InitializeClientContextFromStringSid, IAzApplication::InitializeClientContextFromStringSid, InitializeClientContextFromStringSid, InitializeClientContextFromStringSid method [Security], InitializeClientContextFromStringSid method [Security],AzApplication object, InitializeClientContextFromStringSid method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromStringSid, security.iazapplication_initializeclientcontextfromstringsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\creationproperties.htm
 tech.root: direct2d
 ms.assetid: 81D88AFE-77B9-4871-9832-7323CAAB39CF
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: CreationProperties, CreationProperties function [Direct2D], d2d1_1helper/CreationProperties, direct2d.creationproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

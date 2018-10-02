@@ -4,10 +4,10 @@ title: SetThreadContext function
 author: windows-sdk-content
 description: Sets the context for the specified thread.
 old-location: base\setthreadcontext.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: be134953-b569-48ea-80ac-ab14dee24500
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SetThreadContext, SetThreadContext function, _win32_setthreadcontext, base.setthreadcontext, processthreadsapi/SetThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

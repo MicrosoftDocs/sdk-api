@@ -7,7 +7,7 @@ old-location: input_sourceid\input_message_source.htm
 tech.root: Input_SourceId
 ms.assetid: 75437c0a-925a-44d9-9254-43095b281c21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: INPUT_MESSAGE_SOURCE, INPUT_MESSAGE_SOURCE structure, input_sourceid.input_message_source, inputsourceid.input_message_source, tagINPUT_MESSAGE_SOURCE, winuser/INPUT_MESSAGE_SOURCE
 ms.prod: windows
 ms.technology: windows-sdk

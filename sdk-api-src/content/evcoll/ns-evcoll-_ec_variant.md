@@ -7,7 +7,7 @@ old-location: wec\ec_variant.htm
 tech.root: WEC
 ms.assetid: f1f20e33-46b0-458e-ac6c-f890be20c455
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PEC_VARIANT, EC_VARIANT, EC_VARIANT structure, _EC_VARIANT, evcoll/EC_VARIANT, wec.ec_variant, wes.ec_variant"
 ms.prod: windows
 ms.technology: windows-sdk

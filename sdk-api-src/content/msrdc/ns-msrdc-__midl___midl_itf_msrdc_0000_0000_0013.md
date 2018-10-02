@@ -7,7 +7,7 @@ old-location: rdc\findsimilarfileindexresults.htm
 tech.root: Rdc
 ms.assetid: 2e0d39ab-d491-496e-8753-e7223a5c5029
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FindSimilarFileIndexResults, FindSimilarFileIndexResults structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0013, fs.findsimilarfileindexresults, msrdc/FindSimilarFileIndexResults, rdc.findsimilarfileindexresults
 ms.prod: windows
 ms.technology: windows-sdk

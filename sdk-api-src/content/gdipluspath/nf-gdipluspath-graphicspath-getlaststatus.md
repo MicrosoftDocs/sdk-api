@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getlaststatus_91.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetLastStatus method, GraphicsPath.GetLastStatus, GraphicsPath::GetLastStatus, _gdiplus_CLASS_GraphicsPath_GetLastStatus_, gdiplus._gdiplus_CLASS_GraphicsPath_GetLastStatus_
 ms.prod: windows-hardware
 ms.technology: windows-devices

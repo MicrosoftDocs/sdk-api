@@ -7,7 +7,7 @@ old-location: gdi\createdibpatternbrushpt.htm
 tech.root: gdi
 ms.assetid: 0e34d108-fd35-4512-9eb3-c7710af36e95
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CreateDIBPatternBrushPt, CreateDIBPatternBrushPt function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBPatternBrushPt, gdi.createdibpatternbrushpt, wingdi/CreateDIBPatternBrushPt
 ms.prod: windows-hardware
 ms.technology: windows-devices

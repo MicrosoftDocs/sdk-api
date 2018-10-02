@@ -4,10 +4,10 @@ title: SYNCMGR_EVENT_LEVEL
 author: windows-sdk-content
 description: Specifies the type of event being reported to Sync Center.
 old-location: shell\SYNCMGR_EVENT_LEVEL.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9a961cd2-c05f-47cf-a50a-40af18eac0cd
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SYNCMGR_EL_ERROR, SYNCMGR_EL_INFORMATION, SYNCMGR_EL_MAX, SYNCMGR_EL_WARNING, SYNCMGR_EVENT_LEVEL, SYNCMGR_EVENT_LEVEL enumeration [Windows Shell], shell.SYNCMGR_EVENT_LEVEL, shell_SYNCMGR_EVENT_LEVEL, syncmgr/SYNCMGR_EL_ERROR, syncmgr/SYNCMGR_EL_INFORMATION, syncmgr/SYNCMGR_EL_MAX, syncmgr/SYNCMGR_EL_WARNING, syncmgr/SYNCMGR_EVENT_LEVEL
 ms.prod: windows
 ms.technology: windows-sdk

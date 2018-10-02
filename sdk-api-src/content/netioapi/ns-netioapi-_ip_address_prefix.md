@@ -7,7 +7,7 @@ old-location: iphlp\ip_address_prefix.htm
 tech.root: IpHlp
 ms.assetid: 3a6598d8-77e4-46f7-9397-124157508207
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP_ADDRESS_PREFIX, IP_ADDRESS_PREFIX, IP_ADDRESS_PREFIX structure [IP Helper], PIP_ADDRESS_PREFIX, PIP_ADDRESS_PREFIX structure pointer [IP Helper], _IP_ADDRESS_PREFIX, iphlp.ip_address_prefix, netioapi/IP_ADDRESS_PREFIX, netioapi/PIP_ADDRESS_PREFIX"
 ms.prod: windows
 ms.technology: windows-sdk

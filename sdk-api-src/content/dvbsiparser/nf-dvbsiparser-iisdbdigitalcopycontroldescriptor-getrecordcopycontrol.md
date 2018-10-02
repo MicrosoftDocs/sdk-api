@@ -7,7 +7,7 @@ old-location: mstv\iisdbdigitalcopycontroldescriptor_getrecordcopycontrol.htm
 tech.root: MSTV
 ms.assetid: 800e2263-b04a-4030-9aba-c0b38033b82d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordCopyControl, GetRecordCopyControl method [Microsoft TV Technologies], GetRecordCopyControl method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetRecordCopyControl method, IIsdbDigitalCopyControlDescriptor.GetRecordCopyControl, IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, mstv.iisdbdigitalcopycontroldescriptor_getrecordcopycontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

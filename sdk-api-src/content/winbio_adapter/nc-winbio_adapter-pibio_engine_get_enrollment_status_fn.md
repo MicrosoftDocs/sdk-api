@@ -7,7 +7,7 @@ old-location: secbiomet\engineadaptergetenrollmentstatus.htm
 tech.root: SecBioMet
 ms.assetid: cd029d7e-e103-4bbb-aaf9-36f3043b941c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EngineAdapterGetEnrollmentStatus, EngineAdapterGetEnrollmentStatus callback function [Windows Biometric Framework API], PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN, PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback, secbiomet.engineadaptergetenrollmentstatus, winbio_adapter/EngineAdapterGetEnrollmentStatus
 ms.prod: windows
 ms.technology: windows-sdk

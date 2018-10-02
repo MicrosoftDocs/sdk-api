@@ -4,10 +4,10 @@ title: INodeProperties::GetProperty
 author: windows-sdk-content
 description: The GetProperty method retrieves text-only property values for a node. Your implementation of the INodeProperties::GetProperty method is called when an application based on the MMC 2.0 Automation Object Model retrieves the Node.Property property.
 old-location: mmc\inodeproperties_getproperty.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: e891428a-c0a1-4451-aa69-c0a4a3d09078
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: GetProperty, GetProperty method [MMC], GetProperty method [MMC],INodeProperties interface, INodeProperties interface [MMC],GetProperty method, INodeProperties.GetProperty, INodeProperties::GetProperty, _slate_inodeproperties_getproperty, mmc.inodeproperties_getproperty, mmc/INodeProperties::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

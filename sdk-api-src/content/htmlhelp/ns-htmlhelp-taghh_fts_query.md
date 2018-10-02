@@ -7,7 +7,7 @@ old-location: htmlhelp\hh_fts_query_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhftsquery.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: HH_FTS_QUERY, HH_FTS_QUERY structure [HTML Help Workshop], htmlhelp.hh_fts_query_structure, htmlhelp/HH_FTS_QUERY, tagHH_FTS_QUERY, vsconStrhhftsquery
 ms.prod: windows
 ms.technology: windows-sdk

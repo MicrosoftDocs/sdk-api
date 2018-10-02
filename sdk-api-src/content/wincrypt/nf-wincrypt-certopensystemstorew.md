@@ -7,7 +7,7 @@ old-location: security\certopensystemstore.htm
 tech.root: seccrypto
 ms.assetid: 23699439-1a6c-4907-93fa-651024856be7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CA, CertOpenSystemStore, CertOpenSystemStore function [Security], CertOpenSystemStoreA, CertOpenSystemStoreW, MY, ROOT, SPC, _crypto2_certopensystemstore, security.certopensystemstore, wincrypt/CertOpenSystemStore, wincrypt/CertOpenSystemStoreA, wincrypt/CertOpenSystemStoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices

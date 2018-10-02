@@ -7,7 +7,7 @@ old-location: mstv\ibda_networkprovider_getsignalsource.htm
 tech.root: MSTV
 ms.assetid: 943b3c1f-4aea-4c16-b730-74b63397ad9f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetSignalSource method, IBDA_NetworkProvider.GetSignalSource, IBDA_NetworkProvider::GetSignalSource, IBDA_NetworkProviderGetSignalSource, bdaiface/IBDA_NetworkProvider::GetSignalSource, mstv.ibda_networkprovider_getsignalsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

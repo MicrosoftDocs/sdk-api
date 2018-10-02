@@ -7,7 +7,7 @@ old-location: base\wakebyaddressall.htm
 tech.root: Sync
 ms.assetid: 2d538cea-06cb-4973-8677-27ebcde0aa6f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WakeByAddressAll, WakeByAddressAll function, base.wakebyaddressall, synchapi/WakeByAddressAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

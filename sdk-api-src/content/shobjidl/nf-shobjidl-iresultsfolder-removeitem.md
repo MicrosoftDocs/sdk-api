@@ -4,10 +4,10 @@ title: IResultsFolder::RemoveItem
 author: windows-sdk-content
 description: Removes an item from a results folder.
 old-location: shell\IResultsFolder_RemoveItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 17be32ed-50d7-4c16-9a06-97c4a0f8dc8d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveItem method, IResultsFolder.RemoveItem, IResultsFolder::RemoveItem, RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveItem, shell.IResultsFolder_RemoveItem, shobjidl/IResultsFolder::RemoveItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

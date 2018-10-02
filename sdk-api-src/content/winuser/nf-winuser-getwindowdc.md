@@ -7,7 +7,7 @@ old-location: gdi\getwindowdc.htm
 tech.root: gdi
 ms.assetid: 9e6a135e-e337-4129-a3ad-faf9a8ac9b2d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetWindowDC, GetWindowDC function [Windows GDI], _win32_GetWindowDC, gdi.getwindowdc, winuser/GetWindowDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

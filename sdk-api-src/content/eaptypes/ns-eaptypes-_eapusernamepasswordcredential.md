@@ -7,7 +7,7 @@ old-location: eaphost\eapusernamepasswordcredential.htm
 tech.root: EAPHost
 ms.assetid: 61484095-4354-4103-9E21-683002750B26
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapUsernamePasswordCredential, EapUsernamePasswordCredential structure [EAPHost], _EapUsernamePasswordCredential, eaphost.eapusernamepasswordcredential, eaptypes/EapUsernamePasswordCredential
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWdsTransportManager
 author: windows-sdk-content
 description: Manages a WDS transport server. This is the top-level interface into the Windows Deployment Services (WDS) Transport Management API and the only interface that can be created using the CoCreateInstance function.
 old-location: wds\iwdstransportmanager.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: 23f36ec7-5f6f-486c-bb09-e2f5b6f57efa
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportManager, IWdsTransportManager interface [Windows Deployment Services], IWdsTransportManager interface [Windows Deployment Services],described, wds.iwdstransportmanager, wdstptmgmt/IWdsTransportManager
 ms.prod: windows
 ms.technology: windows-sdk

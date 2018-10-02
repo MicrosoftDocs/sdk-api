@@ -7,7 +7,7 @@ old-location: wmformat\iamwmbufferpass.htm
 tech.root: wmformat
 ms.assetid: aa7513d4-9341-4ddf-ac82-54eb0c6eb5f4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [windows Media Format], IAMWMBufferPass interface [windows Media Format],described, IAMWMBufferPassInterface, dshowasf/IAMWMBufferPass, wmformat.iamwmbufferpass
 ms.prod: windows
 ms.technology: windows-sdk

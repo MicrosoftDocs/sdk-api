@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader2.htm
 tech.root: appxpkg
 ms.assetid: B10A1ACB-12F4-4338-A6D6-6D2B829F9D62
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: IAppxManifestReader2, IAppxManifestReader2 interface [App packaging and management], IAppxManifestReader2 interface [App packaging and management],described, appxpackaging/IAppxManifestReader2, appxpkg.iappxmanifestreader2
 ms.prod: windows
 ms.technology: windows-sdk

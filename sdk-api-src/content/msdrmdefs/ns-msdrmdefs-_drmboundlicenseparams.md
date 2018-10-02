@@ -7,7 +7,7 @@ old-location: rm\drmboundlicenseparams.htm
 tech.root: AdRms_Sdk
 ms.assetid: 25820f49-ffa8-40c4-87fc-ce4909ec20ed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMBINDINGFLAGS_IGNORE_VALIDITY_INTERVALS, DRMBOUNDLICENSEPARAMS, DRMBOUNDLICENSEPARAMS structure [Active Directory Rights Management Services SDK 1.0], _DRMBOUNDLICENSEPARAMS, msdrmdefs/DRMBOUNDLICENSEPARAMS, rm.drmboundlicenseparams
 ms.prod: windows
 ms.technology: windows-sdk

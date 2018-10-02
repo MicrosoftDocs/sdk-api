@@ -4,10 +4,10 @@ title: THUMBBUTTONMASK
 author: windows-sdk-content
 description: Used by the THUMBBUTTON structure to specify which members of that structure contain valid data.
 old-location: shell\THUMBBUTTONMASK.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 12c6a535-6a23-4b41-b4fd-4ed4e192d629
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: THB_BITMAP, THB_FLAGS, THB_ICON, THB_TOOLTIP, THUMBBUTTONMASK, THUMBBUTTONMASK enumeration [Windows Shell], _shell_THUMBBUTTONMASK, shell.THUMBBUTTONMASK, shobjidl_core/THB_BITMAP, shobjidl_core/THB_FLAGS, shobjidl_core/THB_ICON, shobjidl_core/THB_TOOLTIP, shobjidl_core/THUMBBUTTONMASK
 ms.prod: windows
 ms.technology: windows-sdk

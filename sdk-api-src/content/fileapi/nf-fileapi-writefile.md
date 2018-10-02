@@ -4,10 +4,10 @@ title: WriteFile function
 author: windows-sdk-content
 description: Writes data to the specified file or input/output (I/O) device.
 old-location: fs\writefile.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 9d6fa723-fe3e-4052-b0b3-2686eee076a7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: lineProxyMessage function
 author: windows-sdk-content
 description: The lineProxyMessage function is used by a registered proxy request handler to generate TAPI messages related to its role.
 old-location: tapi2\lineproxymessage.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 624a13f4-4be7-441b-abc0-e1fad8f01bdf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "_tapi2_lineproxymessage, lineProxyMessage, lineProxyMessage function [TAPI 2.2], tapi/lineProxyMessage, tapi2.lineproxymessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices

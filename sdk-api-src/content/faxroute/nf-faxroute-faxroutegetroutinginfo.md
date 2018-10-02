@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxroutegetroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3t2n.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FaxRouteGetRoutingInfo, FaxRouteGetRoutingInfo function [Fax Service], _mfax_faxroutegetroutinginfo, fax._mfax_faxroutegetroutinginfo, faxroute/FaxRouteGetRoutingInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

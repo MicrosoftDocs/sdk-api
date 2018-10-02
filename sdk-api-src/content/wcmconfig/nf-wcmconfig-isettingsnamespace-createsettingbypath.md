@@ -7,7 +7,7 @@ old-location: smi\isettingsnamespace_createsettingbypath.htm
 tech.root: SMI
 ms.assetid: 804cab32-eb0a-4e6e-8f58-042c1f5dde77
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],CreateSettingByPath method, ISettingsNamespace.CreateSettingByPath, ISettingsNamespace::CreateSettingByPath, smi.isettingsnamespace_createsettingbypath, wcmconfig/ISettingsNamespace::CreateSettingByPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

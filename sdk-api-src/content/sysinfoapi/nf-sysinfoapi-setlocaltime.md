@@ -7,7 +7,7 @@ old-location: base\setlocaltime.htm
 tech.root: SysInfo
 ms.assetid: c2d2bac7-4171-4b8b-81e8-0e8a1b2794e6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetLocalTime, SetLocalTime function, _win32_setlocaltime, base.setlocaltime, sysinfoapi/SetLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DrvDisablePDEV function
 author: windows-sdk-content
 description: The DrvDisablePDEV function is used by GDI to notify a driver that the specified PDEV is no longer needed.
 old-location: display\drvdisablepdev.htm
-tech.root: display
+tech.root: Display
 ms.assetid: dff04000-e307-4a1c-80fe-d6666929df76
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DrvDisablePDEV, DrvDisablePDEV function [Display Devices], ddifncs_ff781393-2fad-482c-a91e-1cf0b722441d.xml, display.drvdisablepdev, winddi/DrvDisablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices

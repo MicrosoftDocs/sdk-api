@@ -4,10 +4,10 @@ title: ICertificationAuthorities::Add
 author: windows-sdk-content
 description: Adds an ICertificationAuthority object to the collection.
 old-location: security\icertificationauthorities_add.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Add method, ICertificationAuthorities.Add, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add
 ms.prod: windows-hardware
 ms.technology: windows-devices

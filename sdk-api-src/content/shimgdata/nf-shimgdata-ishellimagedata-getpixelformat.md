@@ -4,10 +4,10 @@ title: IShellImageData::GetPixelFormat
 author: windows-sdk-content
 description: Gets the pixel format of the image.
 old-location: shell\IShellImageData_GetPixelFormat.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 43520cdd-66f1-4c75-bcec-7631de4f96c3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Shell], GetPixelFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPixelFormat method, IShellImageData.GetPixelFormat, IShellImageData::GetPixelFormat, _shell_IShellImageData_GetPixelFormat, shell.IShellImageData_GetPixelFormat, shimgdata/IShellImageData::GetPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

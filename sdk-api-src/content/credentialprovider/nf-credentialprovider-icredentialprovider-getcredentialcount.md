@@ -4,10 +4,10 @@ title: ICredentialProvider::GetCredentialCount
 author: windows-sdk-content
 description: Gets the number of available credentials under this credential provider.
 old-location: shell\ICredentialProvider_GetCredentialCount.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7d940d46-d4c2-4ab5-8559-416d78d3579e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetCredentialCount, GetCredentialCount method [Windows Shell], GetCredentialCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialCount method, ICredentialProvider.GetCredentialCount, ICredentialProvider::GetCredentialCount, credentialprovider/ICredentialProvider::GetCredentialCount, shell.ICredentialProvider_GetCredentialCount, shell_ICredentialProvider_GetCredentialCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

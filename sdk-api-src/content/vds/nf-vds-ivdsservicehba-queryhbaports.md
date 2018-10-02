@@ -7,7 +7,7 @@ old-location: base\ivdsservicehba_queryhbaports.htm
 tech.root: VDS
 ms.assetid: 2f81e5e9-5563-4435-8ecb-82f2c385c3dc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsServiceHba interface [VDS],QueryHbaPorts method, IVdsServiceHba.QueryHbaPorts, IVdsServiceHba::QueryHbaPorts, QueryHbaPorts, QueryHbaPorts method [VDS], QueryHbaPorts method [VDS],IVdsServiceHba interface, base.ivdsservicehba_queryhbaports, vds/IVdsServiceHba::QueryHbaPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices

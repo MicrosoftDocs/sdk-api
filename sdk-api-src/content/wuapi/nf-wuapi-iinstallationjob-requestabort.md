@@ -4,10 +4,10 @@ title: IInstallationJob::RequestAbort
 author: windows-sdk-content
 description: Makes a request to cancel the installation or uninstallation.
 old-location: wua\iinstallationjob_requestabort.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: efe0c51c-1193-4a25-88ae-ad74550f42ba
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],RequestAbort method, IInstallationJob.RequestAbort, IInstallationJob::RequestAbort, RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent],IInstallationJob interface, wua.iinstallationjob_requestabort, wuapi/IInstallationJob::RequestAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

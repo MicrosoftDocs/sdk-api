@@ -7,7 +7,7 @@ old-location: magapi\magapi_magtransform.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magtransformstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMAGTRANSFORM, MAGTRANSFORM, MAGTRANSFORM structure [Magnification API], PMAGTRANSFORM, PMAGTRANSFORM structure pointer [Magnification API], magapi.magapi_magtransform, magapi_magtransform, magnification/MAGTRANSFORM, magnification/PMAGTRANSFORM, tagMAGTRANSFORM"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks_get__newenum.htm
 tech.root: cossdk
 ms.assetid: bbebfa75-7ca1-46fb-b246-7f3c312987fa
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],get__NewEnum method, ICrmMonitorClerks.get__NewEnum, ICrmMonitorClerks::get__NewEnum, _dtc_ICrmMonitorClerks__NewEnum, comsvcs/ICrmMonitorClerks::get__NewEnum, cos.icrmmonitorclerks_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ICrmMonitorClerks interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

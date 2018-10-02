@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11samplerstate_getdesc.htm
 tech.root: direct3d11
 ms.assetid: cca7f0f1-44b7-4f49-9149-acb12d745890
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 3558faeb-2890-903a-fe84-4afdeb705f2b, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11SamplerState interface, ID3D11SamplerState interface [Direct3D 11],GetDesc method, ID3D11SamplerState.GetDesc, ID3D11SamplerState::GetDesc, d3d11/ID3D11SamplerState::GetDesc, direct3d11.id3d11samplerstate_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

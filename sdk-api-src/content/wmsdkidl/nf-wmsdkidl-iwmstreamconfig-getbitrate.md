@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig_getbitrate.htm
 tech.root: wmformat
 ms.assetid: d34bea45-758e-4c4a-928f-229ce6b4241c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetBitrate, GetBitrate method [windows Media Format], GetBitrate method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBitrate method, IWMStreamConfig.GetBitrate, IWMStreamConfig::GetBitrate, IWMStreamConfigGetBitrate, wmformat.iwmstreamconfig_getbitrate, wmsdkidl/IWMStreamConfig::GetBitrate
 ms.prod: windows-hardware
 ms.technology: windows-devices

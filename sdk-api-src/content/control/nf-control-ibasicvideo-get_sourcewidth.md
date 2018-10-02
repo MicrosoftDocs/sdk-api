@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_sourcewidth.htm
 tech.root: DirectShow
 ms.assetid: 6c6f7e01-5f93-4277-b664-c5be0ea42004
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceWidth method, IBasicVideo.get_SourceWidth, IBasicVideo::get_SourceWidth, IBasicVideoget_SourceWidth, control/IBasicVideo::get_SourceWidth, dshow.ibasicvideo_get_sourcewidth, get_SourceWidth, get_SourceWidth method [DirectShow], get_SourceWidth method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

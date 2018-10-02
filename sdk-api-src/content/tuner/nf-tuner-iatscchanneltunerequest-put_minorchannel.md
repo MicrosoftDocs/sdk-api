@@ -7,7 +7,7 @@ old-location: mstv\iatscchanneltunerequest_put_minorchannel.htm
 tech.root: MSTV
 ms.assetid: 1288d249-58de-410e-852b-233133f56da5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],put_MinorChannel method, IATSCChannelTuneRequest.put_MinorChannel, IATSCChannelTuneRequest::put_MinorChannel, IATSCChannelTuneRequestput_MinorChannel, mstv.iatscchanneltunerequest_put_minorchannel, put_MinorChannel, put_MinorChannel method [Microsoft TV Technologies], put_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, tuner/IATSCChannelTuneRequest::put_MinorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

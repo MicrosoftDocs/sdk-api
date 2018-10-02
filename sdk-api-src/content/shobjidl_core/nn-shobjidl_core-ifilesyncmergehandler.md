@@ -4,10 +4,10 @@ title: IFileSyncMergeHandler
 author: windows-sdk-content
 description: "."
 old-location: shell\IFileSyncMergeHandler.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 467BF7B9-184E-409F-B5B7-F95E9891C2CD
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileSyncMergeHandler, IFileSyncMergeHandler interface [Windows Shell], IFileSyncMergeHandler interface [Windows Shell],described, shell.IFileSyncMergeHandler, shobjidl_core/IFileSyncMergeHandler
 ms.prod: windows
 ms.technology: windows-sdk

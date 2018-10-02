@@ -4,10 +4,10 @@ title: IImageList2::Initialize
 author: windows-sdk-content
 description: Initializes an image list.
 old-location: controls\IImageList2_Initialize.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\initialize.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: IImageList2 interface [Windows Controls],Initialize method, IImageList2.Initialize, IImageList2::Initialize, Initialize, Initialize method [Windows Controls], Initialize method [Windows Controls],IImageList2 interface, _shell_IImageList2_Initialize, _shell_IImageList2_Initialize_cpp, commoncontrols/IImageList2::Initialize, controls.IImageList2_Initialize, controls._shell_IImageList2_Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

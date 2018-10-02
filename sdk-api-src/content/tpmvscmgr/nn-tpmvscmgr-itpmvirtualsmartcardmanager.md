@@ -7,7 +7,7 @@ old-location: security\itpmvirtualsmartcardmanager.htm
 tech.root: secauthn
 ms.assetid: 46CC703B-14A2-4588-BA13-837C76B70F07
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security],described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager
 ms.prod: windows
 ms.technology: windows-sdk

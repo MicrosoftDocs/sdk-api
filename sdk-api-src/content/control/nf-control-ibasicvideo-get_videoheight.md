@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_videoheight.htm
 tech.root: DirectShow
 ms.assetid: 872d26e5-b765-4c1f-b494-45df39f06a41
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_VideoHeight method, IBasicVideo.get_VideoHeight, IBasicVideo::get_VideoHeight, IBasicVideoget_VideoHeight, control/IBasicVideo::get_VideoHeight, dshow.ibasicvideo_get_videoheight, get_VideoHeight, get_VideoHeight method [DirectShow], get_VideoHeight method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ResUtilGetMultiSzValue function
 author: windows-sdk-content
 description: Returns a multiple string value from the cluster database.
 old-location: mscs\resutilgetmultiszvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 09547806-16f4-40ce-8713-591a7691a588
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ResUtilGetMultiSzValue, ResUtilGetMultiSzValue function [Failover Cluster], _wolf_resutilgetmultiszvalue, mscs.resutilgetmultiszvalue, resapi/ResUtilGetMultiSzValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

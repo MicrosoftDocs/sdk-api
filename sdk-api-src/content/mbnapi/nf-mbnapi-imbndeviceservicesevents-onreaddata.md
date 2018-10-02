@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onreaddata.htm
 tech.root: mbn
 ms.assetid: 14D2A2A3-E3E0-4C8B-B4FE-F85CA1316877
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnReadData method, IMbnDeviceServicesEvents.OnReadData, IMbnDeviceServicesEvents::OnReadData, OnReadData, OnReadData method [Microsoft Broadband Networks], OnReadData method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onreaddata, mbnapi/IMbnDeviceServicesEvents::OnReadData
 ms.prod: windows-hardware
 ms.technology: windows-devices

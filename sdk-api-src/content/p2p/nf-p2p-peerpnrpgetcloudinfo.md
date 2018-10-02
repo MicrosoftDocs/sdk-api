@@ -4,10 +4,10 @@ title: PeerPnrpGetCloudInfo function
 author: windows-sdk-content
 description: Retrieves information on the Peer Name Resolution Protocol (PNRP) clouds in which the calling peer is participating.
 old-location: p2p\peerpnrpgetcloudinfo.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: e6067973-68e3-4b0e-8a7a-ffba2ab2a971
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerPnrpGetCloudInfo, PeerPnrpGetCloudInfo function [Peer Networking], p2p.peerpnrpgetcloudinfo, p2p/PeerPnrpGetCloudInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

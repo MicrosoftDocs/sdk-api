@@ -4,10 +4,10 @@ title: ITPluggableTerminalEventSink
 author: windows-sdk-content
 description: The ITPluggableTerminalEventSink interface provides a method that fires a message to notify client applications about a change in a pluggable terminal.
 old-location: tapi3\itpluggableterminaleventsink.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: bcf64c78-aad2-4b53-b938-cc1fd373c8b4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITPluggableTerminalEventSink, ITPluggableTerminalEventSink interface [TAPI 2.2], ITPluggableTerminalEventSink interface [TAPI 2.2],described, _tapi3_itpluggableterminaleventsink, msp/ITPluggableTerminalEventSink, tapi3.itpluggableterminaleventsink
 ms.prod: windows
 ms.technology: windows-sdk

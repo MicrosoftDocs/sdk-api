@@ -4,10 +4,10 @@ title: MFCreateDXGISurfaceBuffer function
 author: windows-sdk-content
 description: Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
 old-location: mf\mfcreatedxgisurfacebuffer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5D859F36-A82B-488B-A2F6-C697A1AA86BC
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateDXGISurfaceBuffer, MFCreateDXGISurfaceBuffer function [Media Foundation], mf.mfcreatedxgisurfacebuffer, mfapi/MFCreateDXGISurfaceBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

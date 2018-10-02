@@ -7,7 +7,7 @@ old-location: winsat\iprovidewinsatresultsinfo_assessmentdatetime.htm
 tech.root: WinSAT
 ms.assetid: c5fcf832-7290-45dc-9c36-7b469dc54a4c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AssessmentDateTime property [WinSAT], AssessmentDateTime property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentDateTime property, IProvideWinSATResultsInfo.AssessmentDateTime, IProvideWinSATResultsInfo.get_AssessmentDateTime, IProvideWinSATResultsInfo::AssessmentDateTime, IProvideWinSATResultsInfo::get_AssessmentDateTime, get_AssessmentDateTime, winsat.iprovidewinsatresultsinfo_assessmentdatetime, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentDateTime, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentDateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

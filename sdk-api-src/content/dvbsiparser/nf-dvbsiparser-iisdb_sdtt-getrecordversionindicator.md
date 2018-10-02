@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordversionindicator.htm
 tech.root: MSTV
 ms.assetid: 3b4b4b4b-84b3-4181-bc84-389e72b66053
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordVersionIndicator, GetRecordVersionIndicator method [Microsoft TV Technologies], GetRecordVersionIndicator method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordVersionIndicator method, IISDB_SDTT.GetRecordVersionIndicator, IISDB_SDTT::GetRecordVersionIndicator, dvbsiparser/IISDB_SDTT::GetRecordVersionIndicator, mstv.iisdb_sdtt_getrecordversionindicator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\sspidecryptauthidentityex.htm
 tech.root: secauthn
 ms.assetid: 86598BAA-0E87-46A9-AA1A-BF04BF0CDAFA
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: SspiDecryptAuthIdentityEx, SspiDecryptAuthIdentityEx function [Security], security.sspidecryptauthidentityex, sspi/SspiDecryptAuthIdentityEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

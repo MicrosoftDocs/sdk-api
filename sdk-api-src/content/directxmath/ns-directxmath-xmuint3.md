@@ -7,7 +7,7 @@ old-location: dxmath\xmuint3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT3
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: XMUINT3, XMUINT3 structure [DirectX Math Support APIs], directxmath/XMUINT3, dxmath.xmuint3
 ms.prod: windows
 ms.technology: windows-sdk

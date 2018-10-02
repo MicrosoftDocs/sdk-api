@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_new_in_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatornew.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GdiplusBase class [GDI+],operator new method, GdiplusBase.operator new, GdiplusBase::operator new, _gdiplus_CLASS_GdiplusBase_operator_new_in_size_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_in_size_, operator new, operator new method [GDI+], operator new method [GDI+],GdiplusBase class
 ms.prod: windows-hardware
 ms.technology: windows-devices

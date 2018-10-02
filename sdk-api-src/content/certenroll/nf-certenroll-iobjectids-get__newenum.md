@@ -4,10 +4,10 @@ title: IObjectIds::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\iobjectids__newenum_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 1c70e20e-4ed9-4b03-99b0-ae47148c6bac
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IObjectIds interface [Security],_NewEnum property, IObjectIds._NewEnum, IObjectIds.get__NewEnum, IObjectIds::_NewEnum, IObjectIds::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IObjectIds interface, certenroll/IObjectIds::_NewEnum, certenroll/IObjectIds::get__NewEnum, get__NewEnum, security.iobjectids__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

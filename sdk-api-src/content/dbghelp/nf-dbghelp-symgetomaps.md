@@ -4,10 +4,10 @@ title: SymGetOmaps function
 author: windows-sdk-content
 description: Retrieves the omap tables within a loaded module.
 old-location: base\symgetomaps.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: d89947fa-65fd-4929-9f7e-a4923792049e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymGetOmaps, SymGetOmaps function, base.symgetomaps, dbghelp/SymGetOmaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

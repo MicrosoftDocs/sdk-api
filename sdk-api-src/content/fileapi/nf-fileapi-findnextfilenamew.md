@@ -4,10 +4,10 @@ title: FindNextFileNameW function
 author: windows-sdk-content
 description: Continues enumerating the hard links to a file using the handle returned by a successful call to the FindFirstFileNameW function.
 old-location: fs\findnextfilenamew.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 1d2f8041-2744-4f37-afde-ddce49a8bdc5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: FindNextFileNameW, FindNextFileNameW function [Files], fileapi/FindNextFileNameW, fs.findnextfilenamew
 ms.prod: windows-hardware
 ms.technology: windows-devices

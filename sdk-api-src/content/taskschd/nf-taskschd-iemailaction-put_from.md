@@ -4,10 +4,10 @@ title: IEmailAction::put_From
 author: windows-sdk-content
 description: Gets or sets the email address that you want to send the email from.
 old-location: taskschd\iemailaction_from.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: a0e85063-73eb-425a-a306-63ac65ab7ec8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: From property [Task Scheduler], From property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],From property, IEmailAction.From, IEmailAction.put_From, IEmailAction::From, IEmailAction::get_From, IEmailAction::put_From, put_From, taskschd.iemailaction_from, taskschd/IEmailAction::From, taskschd/IEmailAction::get_From, taskschd/IEmailAction::put_From
 ms.prod: windows-hardware
 ms.technology: windows-devices

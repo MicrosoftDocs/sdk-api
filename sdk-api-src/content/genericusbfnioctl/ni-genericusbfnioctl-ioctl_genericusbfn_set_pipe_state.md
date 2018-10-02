@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_set_pipe_state.htm
 tech.root: UsbRef
 ms.assetid: C9276A60-382C-40FE-B5B9-49E95C71CDE9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IOCTL_GENERICUSBFN_SET_PIPE_STATE, IOCTL_GENERICUSBFN_SET_PIPE_STATE control, IOCTL_GENERICUSBFN_SET_PIPE_STATE control code [Buses], buses.ioctl_genericusbfn_set_pipe_state, genericusbfnioctl/IOCTL_GENERICUSBFN_SET_PIPE_STATE
 ms.prod: windows
 ms.technology: windows-sdk

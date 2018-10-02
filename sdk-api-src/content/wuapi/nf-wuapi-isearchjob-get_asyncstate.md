@@ -4,10 +4,10 @@ title: ISearchJob::get_AsyncState
 author: windows-sdk-content
 description: Gets the caller-specific state object that is passed to the IUpdateSearch.BeginSearch method.
 old-location: wua\isearchjob_asyncstate.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 68d861a3-420d-4a89-ac32-900db6d51036
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],AsyncState property, ISearchJob.AsyncState, ISearchJob.get_AsyncState, ISearchJob::AsyncState, ISearchJob::get_AsyncState, get_AsyncState, wua.isearchjob_asyncstate, wuapi/ISearchJob::AsyncState, wuapi/ISearchJob::get_AsyncState
 ms.prod: windows-hardware
 ms.technology: windows-devices

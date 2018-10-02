@@ -2,7 +2,7 @@
 UID: NA:xapofx
 ms.assetid: 2a4ab207-98fd-3586-b51f-03e5c1523aee
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA
 author: windows-sdk-content
 description: Represents key exchange input data for hardware content protection.
 old-location: mf\d3d11_key_exchange_hw_protection_input_data.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: B3F587BC-0DA8-496B-A3F5-ADFD16ABABB9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA, D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA structure [Media Foundation], d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA, mf.d3d11_key_exchange_hw_protection_input_data
 ms.prod: windows
 ms.technology: windows-sdk

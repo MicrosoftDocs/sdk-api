@@ -4,10 +4,10 @@ title: IExecuteCommandHost
 author: windows-sdk-content
 description: Provides a method that enables an IExplorerCommand-based Shell verb handler to query the UI mode of the host component from which the application was invoked.
 old-location: shell\IExecuteCommandHost.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ab75d502-c488-4511-9aa1-3af863b8e425
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IExecuteCommandHost, IExecuteCommandHost interface [Windows Shell], IExecuteCommandHost interface [Windows Shell],described, shell.IExecuteCommandHost, shobjidl_core/IExecuteCommandHost
 ms.prod: windows
 ms.technology: windows-sdk

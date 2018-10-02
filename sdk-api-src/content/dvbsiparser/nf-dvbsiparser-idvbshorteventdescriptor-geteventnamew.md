@@ -7,7 +7,7 @@ old-location: mstv\idvbshorteventdescriptor_geteventnamew.htm
 tech.root: MSTV
 ms.assetid: fbd14bf6-ba41-4f03-9f4f-74b6f16577c6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetEventNameW, GetEventNameW method [Microsoft TV Technologies], GetEventNameW method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetEventNameW method, IDvbShortEventDescriptor.GetEventNameW, IDvbShortEventDescriptor::GetEventNameW, dvbsiparser/IDvbShortEventDescriptor::GetEventNameW, mstv.idvbshorteventdescriptor_geteventnamew
 ms.prod: windows-hardware
 ms.technology: windows-devices

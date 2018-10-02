@@ -4,10 +4,10 @@ title: SHGetSettings function
 author: windows-sdk-content
 description: Retrieves the current Shell option settings.
 old-location: shell\SHGetSettings.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 728a4004-f35d-4592-baf1-456a613a3344
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetSettings, SHGetSettings function [Windows Shell], SSF_DESKTOPHTML, SSF_DONTPRETTYPATH, SSF_DOUBLECLICKINWEBVIEW, SSF_HIDEICONS, SSF_MAPNETDRVBUTTON, SSF_NOCONFIRMRECYCLE, SSF_SHOWALLOBJECTS, SSF_SHOWATTRIBCOL, SSF_SHOWCOMPCOLOR, SSF_SHOWEXTENSIONS, SSF_SHOWINFOTIP, SSF_SHOWSYSFILES, SSF_WIN95CLASSIC, _win32_SHGetSettings, shell.SHGetSettings, shlobj_core/SHGetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

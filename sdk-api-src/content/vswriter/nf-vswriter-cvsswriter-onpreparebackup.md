@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onpreparebackup.htm
 tech.root: VSS
 ms.assetid: 4e88d92b-48f3-42f9-bf66-61337a745902
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriter interface [VSS],OnPrepareBackup method, CVssWriter.OnPrepareBackup, CVssWriter::OnPrepareBackup, OnPrepareBackup, OnPrepareBackup method [VSS], OnPrepareBackup method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparebackup, base.cvsswriter_onpreparebackup, vswriter/CVssWriter::OnPrepareBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

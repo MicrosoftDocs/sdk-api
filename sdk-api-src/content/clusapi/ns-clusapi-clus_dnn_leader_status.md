@@ -4,10 +4,10 @@ title: CLUS_DNN_LEADER_STATUS
 author: windows-sdk-content
 description: Represents the status of a Distributed Network Name (DNN) resource for a Scale-Out File Server.
 old-location: mscs\clus_dnn_leader_status.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 141629A8-95B3-409C-8165-D3AF055C41EB
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS structure [Failover Cluster], PCLUS_DNN_LEADER_STATUS, PCLUS_DNN_LEADER_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_LEADER_STATUS, clusapi/PCLUS_DNN_LEADER_STATUS, mscs.clus_dnn_leader_status"
 ms.prod: windows
 ms.technology: windows-sdk

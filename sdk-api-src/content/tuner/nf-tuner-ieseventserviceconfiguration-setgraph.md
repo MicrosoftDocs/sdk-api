@@ -7,7 +7,7 @@ old-location: mstv\ieseventserviceconfiguration_setgraph.htm
 tech.root: MSTV
 ms.assetid: 0aee92b4-740a-4c5a-a64e-9de08d1c35c2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetGraph method, IESEventServiceConfiguration.SetGraph, IESEventServiceConfiguration::SetGraph, SetGraph, SetGraph method [Microsoft TV Technologies], SetGraph method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setgraph, tuner/IESEventServiceConfiguration::SetGraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

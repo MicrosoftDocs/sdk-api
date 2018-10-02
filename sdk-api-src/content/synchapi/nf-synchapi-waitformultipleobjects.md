@@ -7,7 +7,7 @@ old-location: base\waitformultipleobjects.htm
 tech.root: Sync
 ms.assetid: 51afb13c-ea7a-407a-9f21-345d84f3b96b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WaitForMultipleObjects, WaitForMultipleObjects function, _win32_waitformultipleobjects, base.waitformultipleobjects, synchapi/WaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PDX_LOCK
 author: windows-sdk-content
 description: The DxLock callback function is called when a client of the video miniport driver wants access to the frame buffer.
 old-location: display\dxlock.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 1eeeb68b-9098-4030-924a-634e79c3e682
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DxLock, DxLock callback function [Display Devices], PDX_LOCK, PDX_LOCK callback, VideoMiniPort_DxApiFunctions_35d3fff6-f764-4dd7-a239-74dde81cdebb.xml, display.dxlock, dxmini/DxLock
 ms.prod: windows
 ms.technology: windows-sdk

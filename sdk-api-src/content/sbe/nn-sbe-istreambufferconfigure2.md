@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure2.htm
 tech.root: MSTV
 ms.assetid: df71783c-1ff3-46b0-bae2-61d12f4d70d0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], IStreamBufferConfigure2 interface [Microsoft TV Technologies],described, IStreamBufferConfigure2Interface, mstv.istreambufferconfigure2, sbe/IStreamBufferConfigure2
 ms.prod: windows
 ms.technology: windows-sdk

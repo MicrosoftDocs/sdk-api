@@ -7,7 +7,7 @@ old-location: setup\queryactctxsettingsw.htm
 tech.root: SbsCs
 ms.assetid: 80e419a5-7b57-488a-90bc-1d38d063b1ee
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QueryActCtxSettingsW, QueryActCtxSettingsW function [Side-by-side Assemblies], setup.queryactctxsettingsw, winbase/QueryActCtxSettingsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

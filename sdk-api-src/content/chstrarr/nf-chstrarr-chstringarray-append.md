@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_append.htm
 tech.root: WmiSdk
 ms.assetid: c37df3d4-9b0b-4ed3-ab51-407f26203578
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: Append, Append method [Windows Management Instrumentation], Append method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Append method, CHStringArray.Append, CHStringArray::Append, _hmm_chstringarray_append, chstrarr/CHStringArray::Append, wmi.chstringarray_append
 ms.prod: windows-hardware
 ms.technology: windows-devices

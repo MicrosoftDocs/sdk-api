@@ -2,7 +2,7 @@
 UID: NA:rdpencomapi
 ms.assetid: 319da130-d8d3-329d-a985-0c9eccf7efad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

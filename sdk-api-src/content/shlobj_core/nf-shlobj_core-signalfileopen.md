@@ -4,10 +4,10 @@ title: SignalFileOpen function
 author: windows-sdk-content
 description: SignalFileOpen may be altered or unavailable.
 old-location: shell\SignalFileOpen.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b46bb06f-a183-4a39-89bd-457fa4fe728f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SignalFileOpen, SignalFileOpen function [Windows Shell], _win32_SignalFileOpen, shell.SignalFileOpen, shlobj_core/SignalFileOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

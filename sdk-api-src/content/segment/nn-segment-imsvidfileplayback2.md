@@ -7,7 +7,7 @@ old-location: mstv\imsvidfileplayback2.htm
 tech.root: MSTV
 ms.assetid: 5779d5f8-74b1-4318-9fda-1dae3bf4a3f5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidFilePlayback2, IMSVidFilePlayback2 interface [Microsoft TV Technologies], IMSVidFilePlayback2 interface [Microsoft TV Technologies],described, IMSVidFilePlayback2Interface, mstv.imsvidfileplayback2, segment/IMSVidFilePlayback2
 ms.prod: windows
 ms.technology: windows-sdk

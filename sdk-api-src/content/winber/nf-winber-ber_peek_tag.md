@@ -7,7 +7,7 @@ old-location: ldap\ber_peek_tag.htm
 tech.root: LDAP
 ms.assetid: 0c6f24fa-47df-401c-afe8-84bf2987dd36
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ber_peek_tag, ber_peek_tag, ber_peek_tag function [LDAP], ldap.ber__peek__tag, ldap.ber_peek_tag, winber/ber_peek_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

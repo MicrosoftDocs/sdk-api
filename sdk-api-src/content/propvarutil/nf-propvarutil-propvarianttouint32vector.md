@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt32Vector.htm
 tech.root: properties
 ms.assetid: 721a2f67-dfd1-4d95-8290-4457b8954a02
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PropVariantToUInt32Vector, PropVariantToUInt32Vector function [Windows Properties], _shell_PropVariantToUInt32Vector, properties.PropVariantToUInt32Vector, propvarutil/PropVariantToUInt32Vector, shell.PropVariantToUInt32Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices

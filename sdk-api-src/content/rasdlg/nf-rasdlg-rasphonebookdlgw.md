@@ -4,10 +4,10 @@ title: RasPhonebookDlgW function
 author: windows-sdk-content
 description: The RasPhonebookDlg function displays the main Dial-Up Networking dialog box.
 old-location: rras\rasphonebookdlg.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, RasPhonebookDlgW, _ras_rasphonebookdlg, rasdlg/RasPhonebookDlg, rasdlg/RasPhonebookDlgA, rasdlg/RasPhonebookDlgW, rras.rasphonebookdlg
 ms.prod: windows-hardware
 ms.technology: windows-devices

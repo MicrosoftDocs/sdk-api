@@ -7,7 +7,7 @@ old-location: iphlp\notifyiftimestampconfigchange.htm
 tech.root: IpHlp
 ms.assetid: ABBEEEB6-4D9C-47E3-A030-8F85B5197B09
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NotifyIfTimestampConfigChange, NotifyIfTimestampConfigChange function [IP Helper], iphlp.notifyiftimestampconfigchange, iphlpapi/NotifyIfTimestampConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

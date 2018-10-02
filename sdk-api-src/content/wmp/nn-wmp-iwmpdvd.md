@@ -7,7 +7,7 @@ old-location: wmp\iwmpdvd.htm
 tech.root: WMP
 ms.assetid: d133f1e1-cbeb-403d-b247-9f495cb6f0f7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], IWMPDVD interface [Windows Media Player],described, IWMPDVDInterface, wmp.iwmpdvd, wmp/IWMPDVD
 ms.prod: windows
 ms.technology: windows-sdk

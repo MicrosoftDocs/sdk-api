@@ -7,7 +7,7 @@ old-location: gdi\enhmetaheader.htm
 tech.root: gdi
 ms.assetid: 8e5f9a51-a995-48be-b936-1766fccb603a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, tagENHMETAHEADER, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER"
 ms.prod: windows
 ms.technology: windows-sdk

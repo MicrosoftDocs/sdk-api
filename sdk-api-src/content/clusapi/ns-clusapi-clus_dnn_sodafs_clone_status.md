@@ -4,10 +4,10 @@ title: CLUS_DNN_SODAFS_CLONE_STATUS
 author: windows-sdk-content
 description: Represents the status of a Scale-Out File Server clone.
 old-location: mscs\clus_dnn_sodafs_clone_status.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3FD9AC64-3A7D-44C8-8066-AC1E7FB415DB
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS structure [Failover Cluster], PCLUS_DNN_SODAFS_CLONE_STATUS, PCLUS_DNN_SODAFS_CLONE_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_SODAFS_CLONE_STATUS, clusapi/PCLUS_DNN_SODAFS_CLONE_STATUS, mscs.clus_dnn_sodafs_clone_status"
 ms.prod: windows
 ms.technology: windows-sdk

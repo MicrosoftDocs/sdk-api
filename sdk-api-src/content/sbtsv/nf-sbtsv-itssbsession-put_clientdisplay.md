@@ -7,7 +7,7 @@ old-location: termserv\itssbsession_clientdisplay.htm
 tech.root: TermServ
 ms.assetid: cde688e4-b477-4e55-aa99-14d3f03de204
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ClientDisplay property [Remote Desktop Services], ClientDisplay property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],ClientDisplay property, ITsSbSession.ClientDisplay, ITsSbSession.put_ClientDisplay, ITsSbSession::ClientDisplay, ITsSbSession::get_ClientDisplay, ITsSbSession::put_ClientDisplay, put_ClientDisplay, sbtsv/ITsSbSession::ClientDisplay, sbtsv/ITsSbSession::get_ClientDisplay, sbtsv/ITsSbSession::put_ClientDisplay, termserv.itssbsession_clientdisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

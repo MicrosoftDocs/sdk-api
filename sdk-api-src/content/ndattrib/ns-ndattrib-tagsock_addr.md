@@ -7,7 +7,7 @@ old-location: ndf\diag_sockaddr.htm
 tech.root: NDF
 ms.assetid: 31da9541-e7d0-4cbc-9d9d-3bcf71acb975
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDIAG_SOCK_ADDR, DIAG_SOCKADDR, DIAG_SOCKADDR structure [NDF], PDIAG_SOCKADDR, PDIAG_SOCKADDR structure pointer [NDF], ndattrib/DIAG_SOCKADDR, ndattrib/PDIAG_SOCKADDR, ndf.diag_sockaddr, tagSOCK_ADDR"
 ms.prod: windows
 ms.technology: windows-sdk

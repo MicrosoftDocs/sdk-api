@@ -7,7 +7,7 @@ old-location: adsi\iadsemail.htm
 tech.root: ADSI
 ms.assetid: ce788365-9e43-4bce-89c3-07506cb308fa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Email, IADsEmail, IADsEmail interface [ADSI], IADsEmail interface [ADSI],described, _ds_iadsemail, adsi.iadsemail, iads/IADsEmail
 ms.prod: windows
 ms.technology: windows-sdk

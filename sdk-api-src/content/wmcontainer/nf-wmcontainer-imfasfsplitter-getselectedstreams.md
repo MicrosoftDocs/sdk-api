@@ -4,10 +4,10 @@ title: IMFASFSplitter::GetSelectedStreams
 author: windows-sdk-content
 description: Gets a list of currently selected streams.
 old-location: mf\imfasfsplitter_getselectedstreams.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

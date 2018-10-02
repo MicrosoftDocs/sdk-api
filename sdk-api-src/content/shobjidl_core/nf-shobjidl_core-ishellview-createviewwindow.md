@@ -4,10 +4,10 @@ title: IShellView::CreateViewWindow
 author: windows-sdk-content
 description: Creates a view window. This can be either the right pane of Windows Explorer or the client window of a folder window.
 old-location: shell\IShellView_CreateViewWindow.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 62d71bca-d2cb-4668-b0bf-2e53756f2cd9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],CreateViewWindow method, IShellView.CreateViewWindow, IShellView::CreateViewWindow, _win32_IShellView_CreateViewWindow, shell.IShellView_CreateViewWindow, shobjidl_core/IShellView::CreateViewWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

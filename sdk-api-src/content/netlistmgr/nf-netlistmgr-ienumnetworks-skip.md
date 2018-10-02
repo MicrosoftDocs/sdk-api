@@ -7,7 +7,7 @@ old-location: nla\ienumnetworks_skip.htm
 tech.root: NLA
 ms.assetid: 9f39e65e-6ff4-4fc5-a7fe-5f83a0b3f5e7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Skip method, IEnumNetworks.Skip, IEnumNetworks::Skip, Skip, Skip method [Network Awareness], Skip method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Skip, nla.ienumnetworks_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

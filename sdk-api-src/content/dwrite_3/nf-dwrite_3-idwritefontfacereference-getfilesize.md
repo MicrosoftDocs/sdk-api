@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfacereference_getfilesize.htm
 tech.root: DirectWrite
 ms.assetid: 7988e724-2ccb-b182-8262-dacee1aa1f96
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileSize method, IDWriteFontFaceReference.GetFileSize, IDWriteFontFaceReference::GetFileSize, directwrite.idwritefontfacereference_getfilesize, dwrite_3/IDWriteFontFaceReference::GetFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

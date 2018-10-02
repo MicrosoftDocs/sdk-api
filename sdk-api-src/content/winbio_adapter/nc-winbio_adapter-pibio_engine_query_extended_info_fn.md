@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterqueryextendedinfo.htm
 tech.root: SecBioMet
 ms.assetid: 795547BF-FADE-4AFE-B5DF-1A295F759037
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EngineAdapterQueryExtendedInfo, EngineAdapterQueryExtendedInfo callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_EXTENDED_INFO_FN, PIBIO_ENGINE_QUERY_EXTENDED_INFO_FN callback, secbiomet.engineadapterqueryextendedinfo, winbio_adapter/EngineAdapterQueryExtendedInfo
 ms.prod: windows
 ms.technology: windows-sdk

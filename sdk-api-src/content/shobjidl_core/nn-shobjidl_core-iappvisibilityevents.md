@@ -4,10 +4,10 @@ title: IAppVisibilityEvents
 author: windows-sdk-content
 description: Enables applications to receive notifications of state changes in a display and of changes in Start screen visibility.
 old-location: shell\IAppVisibilityEvents.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: F6BABF7D-FA05-4A68-878F-A27A6990EC3F
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IAppVisibilityEvents, IAppVisibilityEvents interface [Windows Shell], IAppVisibilityEvents interface [Windows Shell],described, shell.IAppVisibilityEvents, shobjidl_core/IAppVisibilityEvents
 ms.prod: windows
 ms.technology: windows-sdk

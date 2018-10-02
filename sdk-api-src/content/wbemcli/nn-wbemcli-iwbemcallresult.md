@@ -7,7 +7,7 @@ old-location: wmi\iwbemcallresult.htm
 tech.root: WmiSdk
 ms.assetid: f0aa0233-3b9b-4757-bfdc-26d9fd556ce9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], IWbemCallResult interface [Windows Management Instrumentation],described, _hmm_iwbemcallresult, wbemcli/IWbemCallResult, wmi.iwbemcallresult
 ms.prod: windows
 ms.technology: windows-sdk

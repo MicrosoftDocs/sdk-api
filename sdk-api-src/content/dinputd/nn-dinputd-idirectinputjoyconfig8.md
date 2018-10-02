@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8.htm
 tech.root: hid
 ms.assetid: baae99bf-a826-45d0-bab2-76a5736bd378
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IDirectInputJoyConfig8, IDirectInputJoyConfig8 interface [Human Input Devices], IDirectInputJoyConfig8 interface [Human Input Devices],described, di_ref_75413607-c6c1-4341-892a-7f313a0ed9d5.xml, dinputd/IDirectInputJoyConfig8, hid.idirectinputjoyconfig8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,15 +161,6 @@ The <b>IDirectInputJoyConfig8::GetUserValues </b>method obtains information abou
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputJoyConfig8::OpenAppStatusKey </b>method opens the root key of the application status registry keys, and obtains a handle to the key as a return parameter. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3e902e1-bc5d-419e-b728-2f9199dacb94">IDirectInputJoyConfig8::OpenConfigKey</a>
-</td>
-<td align="left" width="63%">
-The <b>IDirectInputJoyConfig8::OpenConfigKey </b>method opens the registry key associated with a joystick configuration. Control panel applications can use this key to store per-joystick persistent information, such as button mappings. Such private information should be kept in a subkey named <b>OEM</b>; do not store private information in the main configuration key. The application should use <b>RegCloseKey</b> to close the registry key. 
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_creationdate.htm
 tech.root: DirectShow
 ms.assetid: 0a9cbaed-c8aa-445a-9f8e-d84a7b50166e
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CreationDate method, IAMNetShowExProps.get_CreationDate, IAMNetShowExProps::get_CreationDate, IAMNetShowExPropsget_CreationDate, dshow.iamnetshowexprops_get_creationdate, get_CreationDate, get_CreationDate method [DirectShow], get_CreationDate method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CreationDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

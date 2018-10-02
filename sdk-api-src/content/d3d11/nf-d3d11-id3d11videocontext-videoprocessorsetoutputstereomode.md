@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorSetOutputStereoMode
 author: windows-sdk-content
 description: Specifies whether the video processor produces stereo video frames.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputstereomode.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 86449010-6F46-460B-9972-4186FD84B407
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputStereoMode method, ID3D11VideoContext.VideoProcessorSetOutputStereoMode, ID3D11VideoContext::VideoProcessorSetOutputStereoMode, VideoProcessorSetOutputStereoMode, VideoProcessorSetOutputStereoMode method [Media Foundation], VideoProcessorSetOutputStereoMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputStereoMode, mf.id3d11videocontext_videoprocessorsetoutputstereomode
 ms.prod: windows-hardware
 ms.technology: windows-devices

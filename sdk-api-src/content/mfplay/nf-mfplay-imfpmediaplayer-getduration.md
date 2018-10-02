@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::GetDuration
 author: windows-sdk-content
 description: Gets the playback duration of the current media item.
 old-location: mf\imfpmediaplayer_getduration.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7d201035-6946-4a46-bc66-b9e78006a04a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetDuration method, IMFPMediaPlayer.GetDuration, IMFPMediaPlayer::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getduration, mfplay/IMFPMediaPlayer::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

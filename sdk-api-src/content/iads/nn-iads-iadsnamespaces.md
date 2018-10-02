@@ -7,7 +7,7 @@ old-location: adsi\iadsnamespaces.htm
 tech.root: ADSI
 ms.assetid: edac671e-9ab1-4211-9fd7-1a0b965196b4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces interface [ADSI],described, _ds_iadsnamespaces, adsi.iadsnamespaces, iads/IADsNamespaces
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DS_REPL_CURSOR_BLOB"
 author: windows-sdk-content
 description: The DS_REPL_CURSOR_BLOB structure contains inbound replication state data with respect to all replicas of a given naming context.
 old-location: ad\ds_repl_cursor_blob.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: c41e4737-5ef8-40ce-9af1-0afff7e11dc1
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPL_CURSOR_BLOB, DS_REPL_CURSOR_BLOB structure [Active Directory], _DS_REPL_CURSOR_BLOB, ad.ds_repl_cursor_blob, ntdsapi/DS_REPL_CURSOR_BLOB
 ms.prod: windows
 ms.technology: windows-sdk

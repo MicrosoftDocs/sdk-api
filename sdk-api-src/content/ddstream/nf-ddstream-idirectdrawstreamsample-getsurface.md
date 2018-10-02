@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawstreamsample_getsurface.htm
 tech.root: DirectShow
 ms.assetid: c6802940-53e5-4458-a1eb-deddd807a18a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IDirectDrawStreamSample interface, IDirectDrawStreamSample interface [DirectShow],GetSurface method, IDirectDrawStreamSample.GetSurface, IDirectDrawStreamSample::GetSurface, IDirectDrawStreamSampleGetSurface, ddstream/IDirectDrawStreamSample::GetSurface, dshow.idirectdrawstreamsample_getsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

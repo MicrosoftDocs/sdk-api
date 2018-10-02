@@ -4,10 +4,10 @@ title: EngFntCacheLookUp function
 author: windows-sdk-content
 description: The EngFntCacheLookUp function retrieves the address of cached font file data.
 old-location: display\engfntcachelookup.htm
-tech.root: display
+tech.root: Display
 ms.assetid: daf93826-fdcb-4c9d-ade6-ad4f0ef40ff5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngFntCacheLookUp, EngFntCacheLookUp function [Display Devices], display.engfntcachelookup, gdifncs_2fee1e8e-2cb5-4088-b0aa-f697689fe56f.xml, winddi/EngFntCacheLookUp
 ms.prod: windows-hardware
 ms.technology: windows-devices

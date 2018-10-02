@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getrecordduration.htm
 tech.root: MSTV
 ms.assetid: 898e211c-3228-441d-a099-907676da4bbe
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordDuration, GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordDuration method, IPBDA_EIT.GetRecordDuration, IPBDA_EIT::GetRecordDuration, dvbsiparser/IPBDA_EIT::GetRecordDuration, mstv.ipbda_eit_getrecordduration
 ms.prod: windows-hardware
 ms.technology: windows-devices

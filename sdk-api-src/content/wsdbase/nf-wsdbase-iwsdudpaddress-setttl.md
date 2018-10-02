@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpaddress_setttl.htm
 tech.root: WsdApi
 ms.assetid: 3fcd8dd1-a00c-4085-a608-cb680285d869
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWSDUdpAddress interface,SetTTL method, IWSDUdpAddress.SetTTL, IWSDUdpAddress::SetTTL, SetTTL, SetTTL method, SetTTL method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setttl, wsdbase/IWSDUdpAddress::SetTTL
 ms.prod: windows-hardware
 ms.technology: windows-devices

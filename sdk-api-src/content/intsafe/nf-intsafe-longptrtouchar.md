@@ -4,10 +4,10 @@ title: LongPtrToUChar function
 author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type UCHAR.
 old-location: shell\LongPtrToUChar.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f509120e-3cb4-4696-b68b-4304155eff3b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongPtrToUChar, LongPtrToUChar function [Windows Shell], intsafe/LongPtrToUChar, shell.LongPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

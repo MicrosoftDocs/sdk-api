@@ -4,10 +4,10 @@ title: "_FD_GLYPHATTR"
 author: windows-sdk-content
 description: The FD_GLYPHATTR structure is used to specify the return value for the FONTOBJ_pQueryGlyphAttrs and DrvQueryGlyphAttrs functions.
 old-location: display\fd_glyphattr.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 25a5c390-244c-4cff-a6a5-cc61fc5aa40b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PFD_GLYPHATTR, FD_GLYPHATTR, FD_GLYPHATTR structure [Display Devices], PFD_GLYPHATTR, PFD_GLYPHATTR structure pointer [Display Devices], _FD_GLYPHATTR, display.fd_glyphattr, grstrcts_5edf5620-9123-4fdd-b402-d7e06bdeee2a.xml, winddi/FD_GLYPHATTR, winddi/PFD_GLYPHATTR"
 ms.prod: windows
 ms.technology: windows-sdk

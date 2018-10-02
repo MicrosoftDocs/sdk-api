@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_save.htm
 tech.root: tablet
 ms.assetid: 31da19a7-207f-4f11-9b0f-7402e9727f59
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 31da19a7-207f-4f11-9b0f-7402e9727f59, Base64Gif, Base64InkSerializedFormat, Gif, IInkDisp interface [Tablet PC],Save method, IInkDisp.Save, IInkDisp::Save, IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkSerializedFormat, Save, Save method [Tablet PC], Save method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Save, tablet.inkdisp_save
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_top.htm
 tech.root: DirectShow
 ms.assetid: 00baab45-d740-4f74-bd53-eb2ff21c5dcc
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Top method, IVideoWindow.get_Top, IVideoWindow::get_Top, IVideoWindowget_Top, control/IVideoWindow::get_Top, dshow.ivideowindow_get_top, get_Top, get_Top method [DirectShow], get_Top method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

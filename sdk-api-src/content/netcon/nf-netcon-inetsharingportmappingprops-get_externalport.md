@@ -4,10 +4,10 @@ title: INetSharingPortMappingProps::get_ExternalPort
 author: windows-sdk-content
 description: The get_ExternalPort method retrieves the external port associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_externalport.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: d1cf6a3f-c6d2-4514-89e6-af58be22dabb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_ExternalPort method, INetSharingPortMappingProps.get_ExternalPort, INetSharingPortMappingProps::get_ExternalPort, _ics_inetsharingportmappingprops_get_port, get_ExternalPort, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_externalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_ExternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_syncbegin.htm
 tech.root: OfflineFiles
 ms.assetid: ba09be0a-52bc-4715-9756-383954277a31
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncBegin method, IOfflineFilesEvents.SyncBegin, IOfflineFilesEvents::SyncBegin, SyncBegin, SyncBegin method [Offline Files], SyncBegin method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncBegin, of.iofflinefilesevents_syncbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

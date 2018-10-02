@@ -4,10 +4,10 @@ title: "_PERF_COUNTERSET_REG_INFO"
 author: windows-sdk-content
 description: Contains information about the PERF_COUNTERSET_REG_INFO block that contains the structure.
 old-location: perf\perf_counterset_reg_info.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: D220426F-7849-47DF-A411-5381FC39CA80
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPERF_COUNTERSET_REG_INFO, PERF_COUNTERSET_INSTANCE_AGGREGATE, PERF_COUNTERSET_MULTI_AGGREGATE, PERF_COUNTERSET_MULTI_INSTANCES, PERF_COUNTERSET_REG_INFO, PERF_COUNTERSET_REG_INFO structure [Perf], PERF_COUNTERSET_SINGLE_AGGREGATE, PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY, PERF_COUNTERSET_SINGLE_INSTANCE, PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, PPERF_COUNTERSET_REG_INFO, PPERF_COUNTERSET_REG_INFO structure pointer [Perf], _PERF_COUNTERSET_REG_INFO, perf.perf_counterset_reg_info, perflib/PERF_COUNTERSET_REG_INFO, perflib/PPERF_COUNTERSET_REG_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

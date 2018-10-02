@@ -7,7 +7,7 @@ old-location: setup\setupqueuecopysection.htm
 tech.root: SetupApi
 ms.assetid: f61fd00e-e60f-4722-9da7-1ed4d8491004
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetupQueueCopySection, SetupQueueCopySection function [Setup API], SetupQueueCopySectionA, SetupQueueCopySectionW, _setupapi_setupqueuecopysection, setup.setupqueuecopysection, setupapi/SetupQueueCopySection, setupapi/SetupQueueCopySectionA, setupapi/SetupQueueCopySectionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

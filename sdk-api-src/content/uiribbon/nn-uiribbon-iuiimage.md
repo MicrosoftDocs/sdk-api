@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiimage.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimage\iuiimage.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUIImage, IUIImage interface [Windows Ribbon], IUIImage interface [Windows Ribbon],described, scenicintent_IUIImage, uiribbon/IUIImage, windowsribbon.windowsribbon_iuiimage
 ms.prod: windows
 ms.technology: windows-sdk

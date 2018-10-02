@@ -7,7 +7,7 @@ old-location: nla\ienumnetworks.htm
 tech.root: NLA
 ms.assetid: ce2b65e5-89fe-48c9-aa00-373406891d02
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumNetworks, IEnumNetworks interface [Network Awareness], IEnumNetworks interface [Network Awareness],described, netlistmgr/IEnumNetworks, nla.ienumnetworks
 ms.prod: windows
 ms.technology: windows-sdk

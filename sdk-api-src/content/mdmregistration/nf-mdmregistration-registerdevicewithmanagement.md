@@ -7,7 +7,7 @@ old-location: mdmreg\registerdevicewithmanagement.htm
 tech.root: MDMReg
 ms.assetid: 3a927d98-decf-464a-82db-561e9abcfe29
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RegisterDeviceWithManagement, RegisterDeviceWithManagement function [MDM Registration], mdmreg.registerdevicewithmanagement, mdmregistration/RegisterDeviceWithManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices

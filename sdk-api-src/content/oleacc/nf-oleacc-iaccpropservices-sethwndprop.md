@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__sethwndprop.htm
 tech.root: WinAuto
 ms.assetid: 00387897-5385-467d-9da4-4d71fce742b6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndProp method, IAccPropServices.SetHwndProp, IAccPropServices::SetHwndProp, SetHwndProp, SetHwndProp method [Windows Accessibility], SetHwndProp method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetHwndProp, msaa.iaccpropservices_iaccpropservices__sethwndprop, oleacc/IAccPropServices::SetHwndProp, winauto.iaccpropservices_iaccpropservices__sethwndprop
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IConsole2
 author: windows-sdk-content
 description: The IConsole2 interface is introduced in MMC 1.1.
 old-location: mmc\iconsole2.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 9a20d09d-219c-4bcb-95b3-67a44e41629e
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IConsole2, IConsole2 interface [MMC], IConsole2 interface [MMC],described, _slate_iconsole2, mmc.iconsole2, mmc/IConsole2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WdsTransportClientReleaseBuffer function
 author: windows-sdk-content
 description: Decrements the reference count on a buffer owned by the multicast client.
 old-location: wds\wdstransportclientreleasebuffer.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: bf0dcb89-0bc2-4e93-94ce-5c50039ef22b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WdsTransportClientReleaseBuffer, WdsTransportClientReleaseBuffer function [Windows Deployment Services], wds.wdstransportclientreleasebuffer, wdstci/WdsTransportClientReleaseBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

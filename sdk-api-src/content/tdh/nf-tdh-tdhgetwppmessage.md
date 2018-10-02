@@ -7,7 +7,7 @@ old-location: etw\tdhgetwppmessage.htm
 tech.root: ETW
 ms.assetid: e4daf7fb-4512-41bd-b7b9-3f9f1cd15037
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TdhGetWppMessage, TdhGetWppMessage function [ETW], etw.tdhgetwppmessage, tdh/TdhGetWppMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

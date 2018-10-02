@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getkeywords.htm
 tech.root: printdocs
 ms.assetid: f0bac4c7-5bb6-4a9d-8f16-db97e7efee5a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetKeywords, GetKeywords method [XPS Documents and Packaging], GetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetKeywords method, IXpsOMCoreProperties.GetKeywords, IXpsOMCoreProperties::GetKeywords, xps.ixpsomcoreproperties_getkeywords, xpsobjectmodel/IXpsOMCoreProperties::GetKeywords
 ms.prod: windows-hardware
 ms.technology: windows-devices

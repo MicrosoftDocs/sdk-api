@@ -4,10 +4,10 @@ title: MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS
 author: windows-sdk-content
 description: Specifies the content protection requirements for a video frame.
 old-location: mf\mf_media_engine_frame_protection_flags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6864ED4B-BB75-4176-992B-ABC95B81001A
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS, MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS enumeration [Media Foundation], MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_PROTECTED, MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_ANTI_SCREEN_SCRAPE_PROTECTION, MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_SURFACE_PROTECTION, mf.mf_media_engine_frame_protection_flags, mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS, mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_PROTECTED, mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_ANTI_SCREEN_SCRAPE_PROTECTION, mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_SURFACE_PROTECTION
 ms.prod: windows
 ms.technology: windows-sdk

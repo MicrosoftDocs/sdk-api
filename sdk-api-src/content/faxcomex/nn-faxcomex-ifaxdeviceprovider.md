@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceprovider_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1ub6_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxDeviceProvider, IFaxDeviceProvider interface [Fax Service], IFaxDeviceProvider interface [Fax Service],described, _mfax_faxdeviceprovider_cpp, fax._mfax_faxdeviceprovider_cpp, faxcomex/IFaxDeviceProvider
 ms.prod: windows
 ms.technology: windows-sdk

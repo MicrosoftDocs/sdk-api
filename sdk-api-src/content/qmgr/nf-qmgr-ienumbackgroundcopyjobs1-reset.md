@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs1_reset.htm
 tech.root: Bits
 ms.assetid: 44f29932-8bcd-4c46-b0b5-c949f3061015
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumBackgroundCopyJobs1 interface [BITS],Reset method, IEnumBackgroundCopyJobs1.Reset, IEnumBackgroundCopyJobs1::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyJobs1 interface, bits.ienumbackgroundcopyjobs1_reset, qmgr/IEnumBackgroundCopyJobs1::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

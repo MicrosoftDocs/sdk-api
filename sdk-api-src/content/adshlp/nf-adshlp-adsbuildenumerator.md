@@ -7,7 +7,7 @@ old-location: adsi\adsbuildenumerator.htm
 tech.root: ADSI
 ms.assetid: e4fdec19-bccf-49ec-8a95-29e096c4c9c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADsBuildEnumerator, ADsBuildEnumerator function [ADSI], _ds_adsbuildenumerator, adshlp/ADsBuildEnumerator, adsi.adsbuildenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

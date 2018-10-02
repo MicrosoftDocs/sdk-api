@@ -4,10 +4,10 @@ title: MFAddPeriodicCallback function
 author: windows-sdk-content
 description: Sets a callback function to be called at a fixed interval.
 old-location: mf\mfaddperiodiccallback.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e5898fc8-72e9-45cc-8e85-4410ed7cc512
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFAddPeriodicCallback, MFAddPeriodicCallback function [Media Foundation], e5898fc8-72e9-45cc-8e85-4410ed7cc512, mf.mfaddperiodiccallback, mfapi/MFAddPeriodicCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

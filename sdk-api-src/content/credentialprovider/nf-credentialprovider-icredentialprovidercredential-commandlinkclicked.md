@@ -4,10 +4,10 @@ title: ICredentialProviderCredential::CommandLinkClicked
 author: windows-sdk-content
 description: Enables the Logon UI and Credential UI to indicate that a link was clicked.
 old-location: shell\ICredentialProviderCredential_CommandLinkClicked.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 04e371cb-f968-4a15-9285-e676dff59899
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CommandLinkClicked, CommandLinkClicked method [Windows Shell], CommandLinkClicked method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],CommandLinkClicked method, ICredentialProviderCredential.CommandLinkClicked, ICredentialProviderCredential::CommandLinkClicked, _shell_ICredentialProviderCredential_CommandLinkClicked, credentialprovider/ICredentialProviderCredential::CommandLinkClicked, shell.ICredentialProviderCredential_CommandLinkClicked
 ms.prod: windows-hardware
 ms.technology: windows-devices

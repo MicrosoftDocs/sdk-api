@@ -7,7 +7,7 @@ old-location: opc\iopcparturi_isrelationshipsparturi.htm
 tech.root: OPC
 ms.assetid: 11d271ab-247c-4060-b769-45e462b66255
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcPartUri interface [Open Packaging Conventions],IsRelationshipsPartUri method, IOpcPartUri.IsRelationshipsPartUri, IOpcPartUri::IsRelationshipsPartUri, IsRelationshipsPartUri, IsRelationshipsPartUri method [Open Packaging Conventions], IsRelationshipsPartUri method [Open Packaging Conventions],IOpcPartUri interface, msopc/IOpcPartUri::IsRelationshipsPartUri, opc.iopcparturi_isrelationshipsparturi
 ms.prod: windows-hardware
 ms.technology: windows-devices

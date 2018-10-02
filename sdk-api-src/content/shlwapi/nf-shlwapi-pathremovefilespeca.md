@@ -4,10 +4,10 @@ title: PathRemoveFileSpecA function
 author: windows-sdk-content
 description: Removes the trailing file name and backslash from a path, if they are present.
 old-location: shell\PathRemoveFileSpec.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c47bcf8a-c59d-4d6a-81a9-a3960ae39867
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathRemoveFileSpec, PathRemoveFileSpec function [Windows Shell], PathRemoveFileSpecA, PathRemoveFileSpecW, _win32_PathRemoveFileSpec, shell.PathRemoveFileSpec, shlwapi/PathRemoveFileSpec, shlwapi/PathRemoveFileSpecA, shlwapi/PathRemoveFileSpecW
 ms.prod: windows-hardware
 ms.technology: windows-devices

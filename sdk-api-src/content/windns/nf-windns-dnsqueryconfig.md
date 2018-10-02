@@ -7,7 +7,7 @@ old-location: dns\dnsqueryconfig.htm
 tech.root: DNS
 ms.assetid: 83de7df8-7e89-42fe-b609-1dc173afc9df
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DnsQueryConfig, DnsQueryConfig function [DNS], _dns_dnsqueryconfig, dns.dnsqueryconfig, windns/DnsQueryConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

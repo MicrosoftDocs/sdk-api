@@ -7,7 +7,7 @@ old-location: etw\processtrace.htm
 tech.root: ETW
 ms.assetid: aea25a95-f435-4068-9b15-7473f31ebf16
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ProcessTrace, ProcessTrace function [ETW], _evt_processtrace, base.processtrace, etw.processtrace, evntrace/ProcessTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

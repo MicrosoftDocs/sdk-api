@@ -7,7 +7,7 @@ old-location: tsf\ts_attrval.htm
 tech.root: TSF
 ms.assetid: 9209ef60-6a1d-4aad-9f9f-775534116f37
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts_attrval_ref, textstor/TS_ATTRVAL, tsf.ts_attrval
 ms.prod: windows
 ms.technology: windows-sdk

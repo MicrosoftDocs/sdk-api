@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrouteaddfile.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_5k6d.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FaxRouteAddFile, FaxRouteAddFile callback function [Fax Service], PFAXROUTEADDFILE, PFAXROUTEADDFILE callback, _mfax_faxrouteaddfile, fax._mfax_faxrouteaddfile, faxroute/FaxRouteAddFile
 ms.prod: windows
 ms.technology: windows-sdk

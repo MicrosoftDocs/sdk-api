@@ -7,7 +7,7 @@ old-location: dns\dns_minfo_data.htm
 tech.root: DNS
 ms.assetid: cd392b48-734f-462b-b893-855f07c30575
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDNS_MINFO_DATA, *PDNS_MINFO_DATAA, DNS_MINFO_DATA, DNS_MINFO_DATA structure [DNS], DNS_MINFO_DATAA, PDNS_MINFO_DATA, PDNS_MINFO_DATA structure pointer [DNS], _dns_dns_minfo_data, dns.dns_minfo_data, windns/DNS_MINFO_DATA, windns/PDNS_MINFO_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

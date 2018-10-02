@@ -7,7 +7,7 @@ old-location: http\http_service_config_urlacl_param.htm
 tech.root: Http
 ms.assetid: 5fd50d77-cd2b-47d7-baa3-ed1d7fc934a7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_URLACL_PARAM, HTTP_SERVICE_CONFIG_URLACL_PARAM, HTTP_SERVICE_CONFIG_URLACL_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_PARAM, PHTTP_SERVICE_CONFIG_URLACL_PARAM structure pointer [HTTP], _HTTP_SERVICE_CONFIG_URLACL_PARAM, _http_http_service_config_urlacl_param, http.http_service_config_urlacl_param, http/HTTP_SERVICE_CONFIG_URLACL_PARAM, http/PHTTP_SERVICE_CONFIG_URLACL_PARAM"
 ms.prod: windows
 ms.technology: windows-sdk

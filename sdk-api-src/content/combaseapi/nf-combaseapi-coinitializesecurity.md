@@ -7,7 +7,7 @@ old-location: com\coinitializesecurity.htm
 tech.root: com
 ms.assetid: e0933741-6b75-4ce1-aa63-6240e4a7130f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: CoInitializeSecurity, CoInitializeSecurity function [COM], _com_CoInitializeSecurity, com.coinitializesecurity, combaseapi/CoInitializeSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

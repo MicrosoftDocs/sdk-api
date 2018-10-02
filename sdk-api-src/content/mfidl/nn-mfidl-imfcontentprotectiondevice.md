@@ -4,10 +4,10 @@ title: IMFContentProtectionDevice
 author: windows-sdk-content
 description: Allows a decryptor to communicate with the security processor that implements the hardware decryption for a protection system.
 old-location: mf\imfcontentprotectiondevice.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: A95F6526-60D2-4922-897E-6369EBB0DC79
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], IMFContentProtectionDevice interface [Media Foundation],described, mf.imfcontentprotectiondevice, mfidl/IMFContentProtectionDevice
 ms.prod: windows
 ms.technology: windows-sdk

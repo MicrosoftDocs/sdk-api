@@ -4,10 +4,10 @@ title: IX509EnrollmentStatus
 author: windows-sdk-content
 description: The IX509EnrollmentStatus interface can be used to specify or retrieve detailed error information about a certificate enrollment transaction.
 old-location: security\ix509enrollmentstatus.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: fa5e3a10-7f00-46b6-b740-b72d78745bf7
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509EnrollmentStatus, IX509EnrollmentStatus interface [Security], IX509EnrollmentStatus interface [Security],described, certenroll/IX509EnrollmentStatus, security.ix509enrollmentstatus
 ms.prod: windows
 ms.technology: windows-sdk

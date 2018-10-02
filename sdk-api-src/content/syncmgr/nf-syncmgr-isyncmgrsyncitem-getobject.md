@@ -4,10 +4,10 @@ title: ISyncMgrSyncItem::GetObject
 author: windows-sdk-content
 description: Creates a specific type of object related to the item.
 old-location: shell\ISyncMgrSyncItem_GetObject.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 54336c43-348b-4767-94e4-fe7dc47c0876
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetObject method, ISyncMgrSyncItem.GetObject, ISyncMgrSyncItem::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeDelete, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, _shell_ISyncMgrSyncItem_GetObject, shell.ISyncMgrSyncItem_GetObject, syncmgr/ISyncMgrSyncItem::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

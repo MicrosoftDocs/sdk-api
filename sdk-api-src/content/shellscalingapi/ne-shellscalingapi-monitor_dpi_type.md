@@ -7,7 +7,7 @@ old-location: hidpi\monitor_dpi_type_enumeration.htm
 tech.root: hidpi
 ms.assetid: 9022A1E1-CB99-4278-A3BD-171E26708DBD
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MDT_ANGULAR_DPI, MDT_DEFAULT, MDT_EFFECTIVE_DPI, MDT_RAW_DPI, MONITOR_DPI_TYPE, MONITOR_DPI_TYPE enumeration, MONITOR_DPI_TYPE enumeration enumeration [High DPI], hidpi.monitor_dpi_type_enumeration, shellscalingapi/MDT_ANGULAR_DPI, shellscalingapi/MDT_DEFAULT, shellscalingapi/MDT_EFFECTIVE_DPI, shellscalingapi/MDT_RAW_DPI, shellscalingapi/MONITOR_DPI_TYPE enumeration
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 author: windows-sdk-content
 description: For stereo 3D video, specifies whether the data in frame 0 or frame 1 is flipped, either horizontally or vertically.
 old-location: mf\d3d11_video_processor_stereo_flip_mode.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2BCC3190-BD27-465D-B9D6-346FAD5E01AF
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE, D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_STEREO_FLIP_NONE, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_NONE, mf.d3d11_video_processor_stereo_flip_mode
 ms.prod: windows
 ms.technology: windows-sdk

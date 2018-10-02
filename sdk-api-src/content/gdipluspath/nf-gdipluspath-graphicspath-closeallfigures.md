@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_CloseAllFigures_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\closeallfigures.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: CloseAllFigures, CloseAllFigures method [GDI+], CloseAllFigures method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],CloseAllFigures method, GraphicsPath.CloseAllFigures, GraphicsPath::CloseAllFigures, _gdiplus_CLASS_GraphicsPath_CloseAllFigures_, gdiplus._gdiplus_CLASS_GraphicsPath_CloseAllFigures_
 ms.prod: windows-hardware
 ms.technology: windows-devices

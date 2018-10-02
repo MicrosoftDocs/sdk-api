@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getstatus.htm
 tech.root: xblidp
 ms.assetid: 3596B41E-C360-4B29-BE78-AD08D0290DA9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetStatus method, IXblIdpAuthTokenResult.GetStatus, IXblIdpAuthTokenResult::GetStatus, xblidp.ixblidpauthtokenresult_getstatus, xblidpauthmanager/IXblIdpAuthTokenResult::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

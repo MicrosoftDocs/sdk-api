@@ -4,10 +4,10 @@ title: IFolderViewHost
 author: windows-sdk-content
 description: Exposes a method that hosts an IFolderView object in a window.
 old-location: shell\IFolderViewHost.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1e3d4a9a-6336-4667-92dd-9dc9678606e9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderViewHost, IFolderViewHost interface [Windows Shell], IFolderViewHost interface [Windows Shell],described, _shell_IFolderViewHost, shell.IFolderViewHost, shobjidl/IFolderViewHost
 ms.prod: windows
 ms.technology: windows-sdk

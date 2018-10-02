@@ -4,10 +4,10 @@ title: IX509CertificateRequest::get_RenewalCertificate
 author: windows-sdk-content
 description: Specifies or retrieves a byte array that contains the Distinguished Encoding Rules (DER) encoded certificate that is being renewed.
 old-location: security\ix509certificaterequest_renewalcertificate_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: ab046b65-a059-4b48-a6cd-7e2f0b18bc65
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequest interface [Security],RenewalCertificate property, IX509CertificateRequest.RenewalCertificate, IX509CertificateRequest.get_RenewalCertificate, IX509CertificateRequest::RenewalCertificate, IX509CertificateRequest::get_RenewalCertificate, IX509CertificateRequest::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::RenewalCertificate, certenroll/IX509CertificateRequest::get_RenewalCertificate, certenroll/IX509CertificateRequest::put_RenewalCertificate, get_RenewalCertificate, security.ix509certificaterequest_renewalcertificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

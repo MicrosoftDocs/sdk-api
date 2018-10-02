@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorupdateinnermethodparams.htm
 tech.root: EAPHost
 ms.assetid: 13ca6504-63c6-4dd6-a3bf-0f3929bc527f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapMethodAuthenticatorUpdateInnerMethodParams, EapMethodAuthenticatorUpdateInnerMethodParams function [EAPHost], eaphost.eapmethodauthenticatorupdateinnermethodparams, eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

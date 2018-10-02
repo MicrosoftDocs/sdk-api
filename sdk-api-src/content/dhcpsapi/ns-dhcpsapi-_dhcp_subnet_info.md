@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_subnet_info.htm
 tech.root: DHCP
 ms.assetid: 030b4743-7558-493c-931c-1ad28a6b435a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_SUBNET_INFO, DHCP_SUBNET_INFO, DHCP_SUBNET_INFO structure [DHCP], LPDHCP_SUBNET_INFO, LPDHCP_SUBNET_INFO structure pointer [DHCP], _DHCP_SUBNET_INFO, dhcp.dhcp_subnet_info, dhcpsapi/LPDHCP_SUBNET_INFO, dhcpsapi/_DHCP_SUBNET_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

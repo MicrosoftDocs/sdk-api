@@ -4,10 +4,10 @@ title: IShellFolderViewDual3::FilterView
 author: windows-sdk-content
 description: Sets the filter on the contents of the current view.
 old-location: shell\IShellFolderViewDual3_FilterView.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 60808015-317e-469f-aa28-a2c2bfdb16a8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: FilterView, FilterView method [Windows Shell], FilterView method [Windows Shell],IShellFolderViewDual3 interface, IShellFolderViewDual3 interface [Windows Shell],FilterView method, IShellFolderViewDual3.FilterView, IShellFolderViewDual3::FilterView, _shell_IShellFolderViewDual3_FilterView, shell.IShellFolderViewDual3_FilterView, shldisp/IShellFolderViewDual3::FilterView
 ms.prod: windows-hardware
 ms.technology: windows-devices

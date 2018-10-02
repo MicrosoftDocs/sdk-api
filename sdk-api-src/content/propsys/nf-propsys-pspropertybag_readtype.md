@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadType.htm
 tech.root: properties
 ms.assetid: 826038F7-FD93-474e-BCA7-910E214F3E01
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PSPropertyBag_ReadType, PSPropertyBag_ReadType function [Windows Properties], properties.PSPropertyBag_ReadType, propsys/PSPropertyBag_ReadType, shell.PSPropertyBag_ReadType, shell_PSPropertyBag_ReadType
 ms.prod: windows-hardware
 ms.technology: windows-devices

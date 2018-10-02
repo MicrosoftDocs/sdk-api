@@ -7,8 +7,8 @@ old-location: wcs\createdevicelinkprofile.htm
 tech.root: WCS
 ms.assetid: 6b47e190-ff8a-411e-9c6e-9a421a0f25ef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
-ms.keywords: CreateColorTransformA, CreateColorTransformW, CreateDeviceLinkProfile, CreateDeviceLinkProfile function [Windows Color System], _color_CreateDeviceLinkProfile, icm/CreateColorTransformA, icm/CreateColorTransformW, icm/CreateDeviceLinkProfile, wcs.createdevicelinkprofile
+ms.date: 09/26/2018
+ms.keywords: CreateDeviceLinkProfile, CreateDeviceLinkProfile function [Windows Color System], _color_CreateDeviceLinkProfile, icm/CreateDeviceLinkProfile, wcs.createdevicelinkprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: CreateColorTransformW (Unicode) and CreateColorTransformA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -38,8 +38,6 @@ api_location:
  - Mscms.dll
 api_name:
  - CreateDeviceLinkProfile
- - CreateColorTransformA
- - CreateColorTransformW
 product: Windows
 targetos: Windows
 req.typenames: 

@@ -4,10 +4,10 @@ title: ICspAlgorithms::Add
 author: windows-sdk-content
 description: Adds an ICspAlgorithm object to the collection.
 old-location: security\icspalgorithms_add_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 53cd408e-752c-4256-839c-e09055487c39
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspAlgorithms interface, ICspAlgorithms interface [Security],Add method, ICspAlgorithms.Add, ICspAlgorithms::Add, certenroll/ICspAlgorithms::Add, security.icspalgorithms_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

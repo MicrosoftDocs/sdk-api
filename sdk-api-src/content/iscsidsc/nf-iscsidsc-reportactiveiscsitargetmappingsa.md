@@ -7,7 +7,7 @@ old-location: iscsidisc\reportactiveiscsitargetmappings.htm
 tech.root: iSCSIDisc
 ms.assetid: 24de0e43-ba16-4598-92c5-ea17da17e030
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ReportActiveIScsiTargetMappingsA, ReportActiveIscsiTargetMappings, ReportActiveIscsiTargetMappings function [iSCSI Discovery Library API], ReportActiveIscsiTargetMappingsA, ReportActiveIscsiTargetMappingsW, iscsidisc.reportactiveiscsitargetmappings, iscsidsc/ReportActiveIscsiTargetMappings, iscsidsc/ReportActiveIscsiTargetMappingsA, iscsidsc/ReportActiveIscsiTargetMappingsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

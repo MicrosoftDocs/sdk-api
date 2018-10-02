@@ -7,7 +7,7 @@ old-location: input_intcontext\getinteractionconfigurationinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 30996835-420a-4141-838f-10b62b562992
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetInteractionConfigurationInteractionContext, GetInteractionConfigurationInteractionContext function, input_intcontext.getinteractionconfigurationinteractioncontext, interactioncontext.getinteractionconfigurationinteractioncontext, interactioncontext/GetInteractionConfigurationInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

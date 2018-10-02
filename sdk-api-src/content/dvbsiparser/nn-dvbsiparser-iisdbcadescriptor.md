@@ -7,7 +7,7 @@ old-location: mstv\iisdbcadescriptor.htm
 tech.root: MSTV
 ms.assetid: 6683f3db-636b-42bb-a46d-c175a4324023
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IIsdbCADescriptor, IIsdbCADescriptor interface [Microsoft TV Technologies], IIsdbCADescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCADescriptor, mstv.iisdbcadescriptor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_getlocalpolicy.htm
 tech.root: devnotes
 ms.assetid: 380B77C3-CA93-48D6-9915-FB788CF24C99
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: FhConfigMgr class [Windows API],GetLocalPolicy method, GetLocalPolicy, GetLocalPolicy method [Windows API], GetLocalPolicy method [Windows API],FhConfigMgr class, GetLocalPolicy method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetLocalPolicy method, IFhConfigMgr.GetLocalPolicy, IFhConfigMgr::GetLocalPolicy, fhcfg/IFhConfigMgr::GetLocalPolicy, winprog.ifhconfigmgr_getlocalpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

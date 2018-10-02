@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_deletetarget.htm
 tech.root: TermServ
 ms.assetid: d8114126-f518-4a43-8f6e-900fe84052e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteTarget, DeleteTarget method [Remote Desktop Services], DeleteTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, DeleteTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],DeleteTarget method, ITsSbResourcePluginStore.DeleteTarget, ITsSbResourcePluginStore::DeleteTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],DeleteTarget method, ITsSbResourcePluginStoreEx::DeleteTarget, sbtsv/ITsSbResourcePluginStore::DeleteTarget, sbtsv/ITsSbResourcePluginStoreEx::DeleteTarget, termserv.itssbresourcepluginstore_deletetarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

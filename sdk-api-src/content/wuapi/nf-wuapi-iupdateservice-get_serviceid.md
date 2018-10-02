@@ -4,10 +4,10 @@ title: IUpdateService::get_ServiceID
 author: windows-sdk-content
 description: Retrieves or sets the identifier for a service.
 old-location: wua\iupdateservice_serviceid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 55cea655-09ac-410e-b802-f54b797ac609
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],ServiceID property, IUpdateService.ServiceID, IUpdateService.get_ServiceID, IUpdateService::ServiceID, IUpdateService::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateService interface, get_ServiceID, wua.iupdateservice_serviceid, wuapi/IUpdateService::ServiceID, wuapi/IUpdateService::get_ServiceID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: vhd\getvirtualdiskinformation.htm
 tech.root: VStor
 ms.assetid: c3832be0-e9b8-4f6a-a663-06349c7fd639
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetVirtualDiskInformation, GetVirtualDiskInformation function [VHD], vdssys/GetVirtualDiskInformation, vhd.getvirtualdiskinformation, virtdisk/GetVirtualDiskInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFQualityAdvise::GetQualityLevel
 author: windows-sdk-content
 description: Retrieves the current quality level.
 old-location: mf\imfqualityadvise_getqualitylevel.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 9a2b501e-543d-4ba0-86a1-a55e7d136685
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 9a2b501e-543d-4ba0-86a1-a55e7d136685, GetQualityLevel, GetQualityLevel method [Media Foundation], GetQualityLevel method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],GetQualityLevel method, IMFQualityAdvise.GetQualityLevel, IMFQualityAdvise::GetQualityLevel, mf.imfqualityadvise_getqualitylevel, mfidl/IMFQualityAdvise::GetQualityLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

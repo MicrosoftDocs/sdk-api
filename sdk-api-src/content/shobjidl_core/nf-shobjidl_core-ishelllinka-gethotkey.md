@@ -4,10 +4,10 @@ title: IShellLinkA::GetHotkey
 author: windows-sdk-content
 description: Gets the keyboard shortcut (hot key) for a Shell link object.
 old-location: shell\IShellLink_GetHotkey.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4e3572bf-8d68-4485-99e8-bf47192be821
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetHotkey, GetHotkey method [Windows Shell], GetHotkey method [Windows Shell],IShellLink interface, GetHotkey method [Windows Shell],IShellLinkA interface, GetHotkey method [Windows Shell],IShellLinkW interface, HOTKEYF_ALT, HOTKEYF_CONTROL, HOTKEYF_EXT, HOTKEYF_SHIFT, IShellLink interface [Windows Shell],GetHotkey method, IShellLink::GetHotkey, IShellLinkA interface [Windows Shell],GetHotkey method, IShellLinkA.GetHotkey, IShellLinkA::GetHotkey, IShellLinkW interface [Windows Shell],GetHotkey method, IShellLinkW::GetHotkey, _win32_IShellLink_GetHotkey, shell.IShellLink_GetHotkey, shobjidl_core/IShellLink::GetHotkey, shobjidl_core/IShellLinkA::GetHotkey, shobjidl_core/IShellLinkW::GetHotkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

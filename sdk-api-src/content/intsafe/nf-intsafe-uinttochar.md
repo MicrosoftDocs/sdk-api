@@ -4,10 +4,10 @@ title: UIntToChar function
 author: windows-sdk-content
 description: Converts a value of type UINT to a value of type CHAR.
 old-location: shell\UIntToChar.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 161c3056-3d17-4273-899f-9dc4adb85fb0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UIntToChar, UIntToChar function [Windows Shell], _shell_UIntToChar, intsafe/UIntToChar, shell.UIntToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

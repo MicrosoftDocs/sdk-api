@@ -4,10 +4,10 @@ title: IMFTimedTextCue
 author: windows-sdk-content
 description: Represents the timed-text-cue object.
 old-location: mf\imftimedtextcue.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 831FA230-D0C4-4115-8447-D882686D80EE
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation],described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue
 ms.prod: windows
 ms.technology: windows-sdk

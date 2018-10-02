@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_idle_timeout0.htm
 tech.root: FWP
 ms.assetid: 99113c80-1e2a-4878-9b18-502cfb1e43cc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_SA_IDLE_TIMEOUT0, IPSEC_SA_IDLE_TIMEOUT0 structure [Filtering], IPSEC_SA_IDLE_TIMEOUT0_, fwp.ipsec_sa_idle_timeout0, ipsectypes/IPSEC_SA_IDLE_TIMEOUT0
 ms.prod: windows
 ms.technology: windows-sdk

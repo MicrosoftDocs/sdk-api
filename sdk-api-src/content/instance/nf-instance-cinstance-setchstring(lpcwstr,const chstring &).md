@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setchstring_lpcwstr__const_chstring__.htm
 tech.root: WmiSdk
 ms.assetid: 590df94c-3992-49eb-a043-c5d8e1e72455
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z, ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z, CInstance interface [Windows Management Instrumentation],SetCHString method, CInstance.SetCHString, CInstance.SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString, CInstance::SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString(LPCWSTR,const CHString&), SetCHString, SetCHString method [Windows Management Instrumentation], SetCHString method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCHString, wmi.cinstance_setchstring_lpcwstr__const_chstring__"
 ms.prod: windows-hardware
 ms.technology: windows-devices

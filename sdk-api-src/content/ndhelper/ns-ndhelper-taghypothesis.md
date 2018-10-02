@@ -7,7 +7,7 @@ old-location: ndf\hypothesis.htm
 tech.root: NDF
 ms.assetid: 8f137633-8501-404c-9540-d558be9beeca
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS, tagHYPOTHESIS"
 ms.prod: windows
 ms.technology: windows-sdk

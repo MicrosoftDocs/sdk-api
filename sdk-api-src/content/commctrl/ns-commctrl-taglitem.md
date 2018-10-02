@@ -4,10 +4,10 @@ title: tagLITEM
 author: windows-sdk-content
 description: Used to set and retrieve information about a link item.
 old-location: controls\LITEM.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp, tagLITEM"
 ms.prod: windows
 ms.technology: windows-sdk

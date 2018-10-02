@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createconstanttransition
 tech.root: UIAnimation
 ms.assetid: d9ad2c2d-8bcd-4730-86da-9b9432ac5b93
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateConstantTransition, CreateConstantTransition method [Windows Animation], CreateConstantTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateConstantTransition method, IUIAnimationTransitionLibrary.CreateConstantTransition, IUIAnimationTransitionLibrary::CreateConstantTransition, uianimation.iuianimationtransitionlibrary_createconstanttransition, uianimation/IUIAnimationTransitionLibrary::CreateConstantTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PFINDFILEINPATHCALLBACKW
 author: windows-sdk-content
 description: An application-defined callback function used with the SymFindFileInPath function.
 old-location: base\symfindfileinpathproc.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e579158e-053d-4c81-a2c3-ac3af3d3a201
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: PFINDFILEINPATHCALLBACK, PFINDFILEINPATHCALLBACKW, SymFindFileInPathProc, SymFindFileInPathProc callback, SymFindFileInPathProc callback function, _win32_symfindfileinpathproc, base.symfindfileinpathproc, dbghelp/SymFindFileInPathProc
 ms.prod: windows
 ms.technology: windows-sdk

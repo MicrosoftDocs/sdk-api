@@ -7,7 +7,7 @@ old-location: wmi\iwbemlocator.htm
 tech.root: WmiSdk
 ms.assetid: 3e630987-82e3-4eb0-aec0-30562bc7c843
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemLocator, IWbemLocator interface [Windows Management Instrumentation], IWbemLocator interface [Windows Management Instrumentation],described, _hmm_iwbemlocator, wbemcli/IWbemLocator, wmi.iwbemlocator
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorinvokeconfigui.htm
 tech.root: EAPHost
 ms.assetid: 6d3083a6-1bd2-4dbf-9f8d-1a6e465188af
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapMethodAuthenticatorInvokeConfigUI, EapMethodAuthenticatorInvokeConfigUI function [EAPHost], eaphost.eapmethodauthenticatorinvokeconfigui, eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

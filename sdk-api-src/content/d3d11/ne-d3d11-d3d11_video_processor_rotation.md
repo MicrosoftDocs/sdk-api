@@ -4,10 +4,10 @@ title: D3D11_VIDEO_PROCESSOR_ROTATION
 author: windows-sdk-content
 description: Specifies the video rotation states.
 old-location: mf\d3d11_video_processor_rotation.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4E4B613D-4307-4A03-8F27-8F0B1553BFEE
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_ROTATION, D3D11_VIDEO_PROCESSOR_ROTATION enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_ROTATION_180, D3D11_VIDEO_PROCESSOR_ROTATION_270, D3D11_VIDEO_PROCESSOR_ROTATION_90, D3D11_VIDEO_PROCESSOR_ROTATION_IDENTITY, d3d11/D3D11_VIDEO_PROCESSOR_ROTATION, d3d11/D3D11_VIDEO_PROCESSOR_ROTATION_180, d3d11/D3D11_VIDEO_PROCESSOR_ROTATION_270, d3d11/D3D11_VIDEO_PROCESSOR_ROTATION_90, d3d11/D3D11_VIDEO_PROCESSOR_ROTATION_IDENTITY, mf.d3d11_video_processor_rotation
 ms.prod: windows
 ms.technology: windows-sdk

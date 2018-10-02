@@ -7,7 +7,7 @@ old-location: qos\lpm_initialize.htm
 tech.root: QOS
 ms.assetid: 00f4ab59-8808-4bcb-8258-5aad113ad2b5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LPM_Initialize, LPM_Initialize callback, LPM_Initialize callback function [QOS], _gqos_lpm_initialize, lpmapi/LPM_Initialize, qos.lpm_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

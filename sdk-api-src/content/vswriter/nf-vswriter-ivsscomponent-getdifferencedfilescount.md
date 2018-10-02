@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getdifferencedfilescount.htm
 tech.root: VSS
 ms.assetid: 46faeb2b-7d83-4618-ba36-bdacc5ca055d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetDifferencedFilesCount, GetDifferencedFilesCount method [VSS], GetDifferencedFilesCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDifferencedFilesCount method, IVssComponent.GetDifferencedFilesCount, IVssComponent::GetDifferencedFilesCount, _win32_ivsscomponent_getdifferencedfilescount, base.ivsscomponent_getdifferencedfilescount, vswriter/IVssComponent::GetDifferencedFilesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

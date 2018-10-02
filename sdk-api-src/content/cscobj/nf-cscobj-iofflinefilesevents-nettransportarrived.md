@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_nettransportarrived.htm
 tech.root: OfflineFiles
 ms.assetid: ac44010b-b14f-41d7-89f7-6f7822ed2a5d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NetTransportArrived method, IOfflineFilesEvents.NetTransportArrived, IOfflineFilesEvents::NetTransportArrived, NetTransportArrived, NetTransportArrived method [Offline Files], NetTransportArrived method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NetTransportArrived, of.iofflinefilesevents_nettransportarrived
 ms.prod: windows-hardware
 ms.technology: windows-devices

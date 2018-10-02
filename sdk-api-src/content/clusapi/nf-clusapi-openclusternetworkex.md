@@ -4,10 +4,10 @@ title: OpenClusterNetworkEx function
 author: windows-sdk-content
 description: Opens a connection to a network and returns a handle to it.
 old-location: mscs\openclusternetworkex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e21dcfd6-adb6-40a7-9518-5b49988e2901
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: OpenClusterNetworkEx, OpenClusterNetworkEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, PCLUSAPI_OPEN_CLUSTER_NETWORK_EX function [Failover Cluster], clusapi/OpenClusterNetworkEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, mscs.openclusternetworkex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\icdecompress.htm
 tech.root: Multimedia
 ms.assetid: 779b63db-6b1d-4eb5-9df5-bb847b35863d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ICDecompress, ICDecompress function [Windows Multimedia], _win32_ICDecompress, multimedia.icdecompress, vfw/ICDecompress
 ms.prod: windows-hardware
 ms.technology: windows-devices

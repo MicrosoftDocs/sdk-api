@@ -7,7 +7,7 @@ old-location: base\callnamedpipe.htm
 tech.root: ipc
 ms.assetid: 9cfcb608-a539-4eb6-866c-81dafdabbcdb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CallNamedPipe, CallNamedPipe function, CallNamedPipeA, CallNamedPipeW, NMPWAIT_NOWAIT, NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, _win32_callnamedpipe, base.callnamedpipe, winbase/CallNamedPipe, winbase/CallNamedPipeA, winbase/CallNamedPipeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

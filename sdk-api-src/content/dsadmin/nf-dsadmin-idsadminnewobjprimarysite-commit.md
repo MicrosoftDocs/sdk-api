@@ -4,10 +4,10 @@ title: IDsAdminNewObjPrimarySite::Commit
 author: windows-sdk-content
 description: The IDsAdminNewObjPrimarySite::Commit method causes a single-page primary object creation extension's IDsAdminNewObjExt::WriteData method to be called and writes the temporary object to persistent memory.
 old-location: ad\idsadminnewobjprimarysite_commit.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: a7e56a9b-bd3c-4229-9735-32ec9549856d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: Commit, Commit method [Active Directory], Commit method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],Commit method, IDsAdminNewObjPrimarySite.Commit, IDsAdminNewObjPrimarySite::Commit, _glines_idsadminnewobjprimarysite_commit, ad.idsadminnewobjprimarysite__commit, ad.idsadminnewobjprimarysite_commit, dsadmin/IDsAdminNewObjPrimarySite::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

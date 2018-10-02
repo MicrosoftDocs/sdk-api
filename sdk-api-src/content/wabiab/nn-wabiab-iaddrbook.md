@@ -7,7 +7,7 @@ old-location: wab\_wab_IAddrBook.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iaddrbook\iaddrbook.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAddrBook, IAddrBook interface [Windows Address Book], IAddrBook interface [Windows Address Book],described, _wab_IAddrBook, wab._wab_IAddrBook, wabiab/IAddrBook
 ms.prod: windows
 ms.technology: windows-sdk

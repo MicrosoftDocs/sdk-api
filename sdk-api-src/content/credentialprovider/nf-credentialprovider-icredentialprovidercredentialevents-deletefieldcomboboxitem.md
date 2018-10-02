@@ -4,10 +4,10 @@ title: ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that an item should be deleted from a combo box and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1d871480-4424-4a5b-8650-0211bad8b09a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: DeleteFieldComboBoxItem, DeleteFieldComboBoxItem method [Windows Shell], DeleteFieldComboBoxItem method [Windows Shell],ICredentialProviderCredentialEvents interface, ICredentialProviderCredentialEvents interface [Windows Shell],DeleteFieldComboBoxItem method, ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem, ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

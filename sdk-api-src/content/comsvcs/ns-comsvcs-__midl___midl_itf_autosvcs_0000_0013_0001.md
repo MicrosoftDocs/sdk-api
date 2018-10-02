@@ -7,7 +7,7 @@ old-location: cos\comsvcseventinfo.htm
 tech.root: cossdk
 ms.assetid: f4aa0892-4c93-42ea-adc6-1b304b917389
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: COMSVCSEVENTINFO, COMSVCSEVENTINFO structure [COM+], __MIDL___MIDL_itf_autosvcs_0000_0013_0001, _dtc_Event_Structure, comsvcs/COMSVCSEVENTINFO, cos.comsvcseventinfo
 ms.prod: windows
 ms.technology: windows-sdk

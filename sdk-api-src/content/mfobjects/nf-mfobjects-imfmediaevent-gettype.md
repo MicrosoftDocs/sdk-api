@@ -4,10 +4,10 @@ title: IMFMediaEvent::GetType
 author: windows-sdk-content
 description: Retrieves the event type. The event type indicates what happened to trigger the event. It also defines the meaning of the event value.
 old-location: mf\imfmediaevent_gettype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: b62e0d9f-dada-4b75-a8d3-568ee2955888
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetType method, IMFMediaEvent.GetType, IMFMediaEvent::GetType, b62e0d9f-dada-4b75-a8d3-568ee2955888, mf.imfmediaevent_gettype, mfobjects/IMFMediaEvent::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

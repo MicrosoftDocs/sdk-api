@@ -7,7 +7,7 @@ old-location: mstv\iscanningtuner_autoprogram.htm
 tech.root: MSTV
 ms.assetid: 98d1b484-13e7-4eeb-9e0c-a1215712bdc8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: AutoProgram, AutoProgram method [Microsoft TV Technologies], AutoProgram method [Microsoft TV Technologies],IScanningTuner interface, IScanningTuner interface [Microsoft TV Technologies],AutoProgram method, IScanningTuner.AutoProgram, IScanningTuner::AutoProgram, IScanningTunerAutoProgram, mstv.iscanningtuner_autoprogram, tuner/IScanningTuner::AutoProgram
 ms.prod: windows-hardware
 ms.technology: windows-devices

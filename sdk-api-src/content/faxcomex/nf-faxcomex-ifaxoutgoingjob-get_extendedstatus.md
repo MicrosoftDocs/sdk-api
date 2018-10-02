@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatus_cp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_36er.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ExtendedStatus property [Fax Service], ExtendedStatus property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],ExtendedStatus property, IFaxOutgoingJob.ExtendedStatus, IFaxOutgoingJob.get_ExtendedStatus, IFaxOutgoingJob::ExtendedStatus, IFaxOutgoingJob::get_ExtendedStatus, _mfax_faxoutgoingjob.extendedstatus, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatus_cpp, fax._mfax_faxoutgoingjob_extendedstatus, faxcomex/IFaxOutgoingJob::ExtendedStatus, faxcomex/IFaxOutgoingJob::get_ExtendedStatus, get_ExtendedStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

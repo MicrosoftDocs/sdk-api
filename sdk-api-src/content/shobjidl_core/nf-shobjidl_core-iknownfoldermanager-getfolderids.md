@@ -4,10 +4,10 @@ title: IKnownFolderManager::GetFolderIds
 author: windows-sdk-content
 description: Gets an array of all registered known folder IDs. This can be used in enumerating all known folders.
 old-location: shell\IKnownFolderManager_GetFolderIds.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3ac09fc4-15c4-4346-94ad-2a4617c463d1
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetFolderIds, GetFolderIds method [Windows Shell], GetFolderIds method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolderIds method, IKnownFolderManager.GetFolderIds, IKnownFolderManager::GetFolderIds, _shell_IKnownFolderManager_GetFolderIds, shell.IKnownFolderManager_GetFolderIds, shobjidl_core/IKnownFolderManager::GetFolderIds
 ms.prod: windows-hardware
 ms.technology: windows-devices

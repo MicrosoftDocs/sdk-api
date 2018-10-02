@@ -4,10 +4,10 @@ title: InstallResponseRestrictionFlags
 author: windows-sdk-content
 description: Contains flags that identify the restrictions placed on the local installation of a certificate chain.
 old-location: security\installresponserestrictionflags_enum.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 070cadd8-08cf-44ce-a8b7-39a4fb11e724
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, InstallResponseRestrictionFlags, InstallResponseRestrictionFlags enumeration [Security], certenroll/AllowNoOutstandingRequest, certenroll/AllowNone, certenroll/AllowUntrustedCertificate, certenroll/AllowUntrustedRoot, certenroll/InstallResponseRestrictionFlags, security.installresponserestrictionflags_enum
 ms.prod: windows
 ms.technology: windows-sdk

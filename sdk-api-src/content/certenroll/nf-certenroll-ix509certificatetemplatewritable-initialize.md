@@ -4,10 +4,10 @@ title: IX509CertificateTemplateWritable::Initialize
 author: windows-sdk-content
 description: Initializes an IX509CertificateTemplateWritable object from a template.
 old-location: security\ix509certificatetemplatewritable_initialize.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: d70cfb65-403f-4a58-8882-393029111552
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Initialize method, IX509CertificateTemplateWritable.Initialize, IX509CertificateTemplateWritable::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Initialize, security.ix509certificatetemplatewritable_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

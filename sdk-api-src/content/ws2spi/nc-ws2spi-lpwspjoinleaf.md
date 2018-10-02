@@ -7,7 +7,7 @@ old-location: winsock\wspjoinleaf_2.htm
 tech.root: WinSock
 ms.assetid: 3b0451e2-0e4c-4da7-b16c-37c242632bdd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LPWSPJOINLEAF, WSPJoinLeaf, WSPJoinLeaf function [Winsock], _win32_wspjoinleaf_2, winsock.wspjoinleaf_2, ws2spi/WSPJoinLeaf
 ms.prod: windows
 ms.technology: windows-sdk

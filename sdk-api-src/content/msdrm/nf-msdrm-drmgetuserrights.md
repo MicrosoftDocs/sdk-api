@@ -7,7 +7,7 @@ old-location: rm\drmgetuserrights.htm
 tech.root: AdRms_Sdk
 ms.assetid: 46191a8e-66e1-44a5-8052-a21fda88625a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMGetUserRights, DRMGetUserRights function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUserRights, rm.drmgetuserrights
 ms.prod: windows-hardware
 ms.technology: windows-devices

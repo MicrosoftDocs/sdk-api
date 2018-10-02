@@ -4,10 +4,10 @@ title: MFConvertToFP16Array function
 author: windows-sdk-content
 description: Converts an array of 32-bit floating-point numbers into an array of 16-bit floating-point numbers.
 old-location: mf\mfconverttofp16array.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: b2149336-f1b2-4244-bf50-4e79638786e0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFConvertToFP16Array, MFConvertToFP16Array function [Media Foundation], b2149336-f1b2-4244-bf50-4e79638786e0, mf.mfconverttofp16array, mfapi/MFConvertToFP16Array
 ms.prod: windows-hardware
 ms.technology: windows-devices

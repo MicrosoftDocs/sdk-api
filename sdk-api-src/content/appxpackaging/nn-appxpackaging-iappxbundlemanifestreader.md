@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestreader.htm
 tech.root: appxpkg
 ms.assetid: 2ABC7B5A-6489-4B52-B1C4-22D432EC9947
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: IAppxBundleManifestReader, IAppxBundleManifestReader interface [App packaging and management], IAppxBundleManifestReader interface [App packaging and management],described, appxpackaging/IAppxBundleManifestReader, appxpkg.iappxbundlemanifestreader
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer1_justifyglyphadvances.htm
 tech.root: DirectWrite
 ms.assetid: BFBFEA4A-A0D4-4114-B0AB-4338A832ECD4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDWriteTextAnalyzer1 interface [Direct Write],JustifyGlyphAdvances method, IDWriteTextAnalyzer1.JustifyGlyphAdvances, IDWriteTextAnalyzer1::JustifyGlyphAdvances, JustifyGlyphAdvances, JustifyGlyphAdvances method [Direct Write], JustifyGlyphAdvances method [Direct Write],IDWriteTextAnalyzer1 interface, directwrite.idwritetextanalyzer1_justifyglyphadvances, dwrite_1/IDWriteTextAnalyzer1::JustifyGlyphAdvances
 ms.prod: windows-hardware
 ms.technology: windows-devices

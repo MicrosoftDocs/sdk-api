@@ -4,10 +4,10 @@ title: IEnumIDList::Reset
 author: windows-sdk-content
 description: Returns to the beginning of the enumeration sequence.
 old-location: shell\IEnumIDList_Reset.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a2ce1947-ca8b-4f0c-a94a-d1aba42b105d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Reset method, IEnumIDList.Reset, IEnumIDList::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Reset, shell.IEnumIDList_Reset, shobjidl_core/IEnumIDList::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

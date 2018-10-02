@@ -7,7 +7,7 @@ old-location: mstv\idvb_tot_getcountoftabledescriptors.htm
 tech.root: MSTV
 ms.assetid: 1c043aa8-683b-4770-81cb-3d3e9c35342f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IDVB_TOT interface, IDVB_TOT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IDVB_TOT.GetCountOfTableDescriptors, IDVB_TOT::GetCountOfTableDescriptors, IDVB_TOTGetCountOfTableDescriptors, dvbsiparser/IDVB_TOT::GetCountOfTableDescriptors, mstv.idvb_tot_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

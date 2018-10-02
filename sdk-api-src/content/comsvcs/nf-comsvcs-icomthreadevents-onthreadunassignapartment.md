@@ -7,7 +7,7 @@ old-location: cos\icomthreadevents_onthreadunassignapartment.htm
 tech.root: cossdk
 ms.assetid: c57b2427-9c39-4068-b531-9f18264746a1
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadUnassignApartment method, IComThreadEvents.OnThreadUnassignApartment, IComThreadEvents::OnThreadUnassignApartment, OnThreadUnassignApartment, OnThreadUnassignApartment method [COM+], OnThreadUnassignApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadUnassignApartment, comsvcs/IComThreadEvents::OnThreadUnassignApartment, cos.icomthreadevents_onthreadunassignapartment
 ms.prod: windows-hardware
 ms.technology: windows-devices

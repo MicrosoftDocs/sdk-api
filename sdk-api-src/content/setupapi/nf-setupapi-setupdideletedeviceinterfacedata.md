@@ -7,7 +7,7 @@ old-location: devinst\setupdideletedeviceinterfacedata.htm
 tech.root: devinst
 ms.assetid: 20c9fe5b-ed88-4e2c-bca5-eba62f919fe6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiDeleteDeviceInterfaceData, SetupDiDeleteDeviceInterfaceData function [Device and Driver Installation], devinst.setupdideletedeviceinterfacedata, di-rtns_6694af3a-5716-4ee6-b10e-2603dc341781.xml, setupapi/SetupDiDeleteDeviceInterfaceData
 ms.prod: windows-hardware
 ms.technology: windows-devices

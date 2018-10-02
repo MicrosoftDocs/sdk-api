@@ -7,7 +7,7 @@ old-location: cos\contextinfo2.htm
 tech.root: cossdk
 ms.assetid: 06954cc5-19a7-4bae-ac30-94dcdc35d15d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ContextInfo2, ContextInfo2 interface [COM+], ContextInfo2 interface [COM+],described, _cos_ContextInfo2, comsvcs/ContextInfo2, cos.contextinfo2
 ms.prod: windows
 ms.technology: windows-sdk

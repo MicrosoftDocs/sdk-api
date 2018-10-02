@@ -4,10 +4,10 @@ title: DXVA2FloatToFixed function
 author: windows-sdk-content
 description: Converts a floating-point number to a DXVA2_Fixed32 value.
 old-location: mf\dxva2floattofixed.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2537e691-2137-4e4b-90a0-6749a6ceb144
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 2537e691-2137-4e4b-90a0-6749a6ceb144, DXVA2FloatToFixed, DXVA2FloatToFixed function [Media Foundation], dxva2api/DXVA2FloatToFixed, mf.dxva2floattofixed
 ms.prod: windows-hardware
 ms.technology: windows-devices

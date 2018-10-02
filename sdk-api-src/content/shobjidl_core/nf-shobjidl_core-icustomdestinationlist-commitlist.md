@@ -4,10 +4,10 @@ title: ICustomDestinationList::CommitList
 author: windows-sdk-content
 description: Declares that the Jump List initiated by a call to ICustomDestinationList::BeginList is complete and ready for display.
 old-location: shell\ICustomDestinationList_CommitList.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5f9aa598-9a94-4210-84cd-f4b39e47b260
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CommitList, CommitList method [Windows Shell], CommitList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],CommitList method, ICustomDestinationList.CommitList, ICustomDestinationList::CommitList, _shell_ICustomDestinationList_CommitList, shell.ICustomDestinationList_CommitList, shobjidl_core/ICustomDestinationList::CommitList
 ms.prod: windows-hardware
 ms.technology: windows-devices

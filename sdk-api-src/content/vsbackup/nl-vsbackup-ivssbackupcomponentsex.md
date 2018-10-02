@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex.htm
 tech.root: VSS
 ms.assetid: d3a265ab-39cc-4861-9191-9ecf094d8826
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssBackupComponentsEx, IVssBackupComponentsEx interface [VSS], IVssBackupComponentsEx interface [VSS],described, base.ivssbackupcomponentsex, vsbackup/IVssBackupComponentsEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\iopcfactory_readpackagefromstream.htm
 tech.root: OPC
 ms.assetid: 227a2724-c2b3-4f12-8d30-1ff1eca59c83
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcFactory interface [Open Packaging Conventions],ReadPackageFromStream method, IOpcFactory.ReadPackageFromStream, IOpcFactory::ReadPackageFromStream, ReadPackageFromStream, ReadPackageFromStream method [Open Packaging Conventions], ReadPackageFromStream method [Open Packaging Conventions],IOpcFactory interface, msopc/IOpcFactory::ReadPackageFromStream, opc.iopcfactory_readpackagefromstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

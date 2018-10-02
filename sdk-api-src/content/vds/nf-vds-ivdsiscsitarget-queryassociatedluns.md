@@ -7,7 +7,7 @@ old-location: base\ivdsiscsitarget_queryassociatedluns.htm
 tech.root: VDS
 ms.assetid: 3f375c0b-7400-4660-8cb1-5291fd0dd52c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryAssociatedLuns method, IVdsIscsiTarget.QueryAssociatedLuns, IVdsIscsiTarget::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryassociatedluns, vds/IVdsIscsiTarget::QueryAssociatedLuns, vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices

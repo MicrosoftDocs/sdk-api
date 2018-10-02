@@ -4,10 +4,10 @@ title: PowerReadACValueIndex function
 author: windows-sdk-content
 description: Retrieves the AC index of the specified power setting.
 old-location: base\powerreadacvalueindex.htm
-tech.root: power
+tech.root: Power
 ms.assetid: e8760e78-78cd-4652-94b1-f42a72df5db2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadACValueIndex, PowerReadACValueIndex function, base.powerreadacvalueindex, powrprof/PowerReadACValueIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

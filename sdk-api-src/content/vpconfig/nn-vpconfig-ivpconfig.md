@@ -7,7 +7,7 @@ old-location: dshow\ivpconfig.htm
 tech.root: DirectShow
 ms.assetid: 2c0eb294-7e57-4d8d-98b1-57c3834279a0
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IVPConfig, IVPConfig interface [DirectShow], IVPConfig interface [DirectShow],described, IVPConfigInterface, dshow.ivpconfig, vpconfig/IVPConfig
 ms.prod: windows
 ms.technology: windows-sdk

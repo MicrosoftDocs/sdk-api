@@ -7,7 +7,7 @@ old-location: nwifi\wlanrenameprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 488e9f87-8b98-48c6-81d5-d7237cdf5bd5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WlanRenameProfile, WlanRenameProfile function [NativeWIFI], nwifi.wlanrenameprofile, wlanapi/WlanRenameProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

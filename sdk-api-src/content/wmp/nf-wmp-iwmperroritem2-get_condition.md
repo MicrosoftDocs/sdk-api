@@ -7,7 +7,7 @@ old-location: wmp\iwmperroritem2_get_condition.htm
 tech.root: WMP
 ms.assetid: fe72bb1c-78ac-4a10-9abf-81722139d842
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPErrorItem2 interface [Windows Media Player],get_condition method, IWMPErrorItem2.get_condition, IWMPErrorItem2::get_condition, IWMPErrorItem2get_condition, get_condition, get_condition method [Windows Media Player], get_condition method [Windows Media Player],IWMPErrorItem2 interface, wmp.iwmperroritem2_get_condition, wmp/IWMPErrorItem2::get_condition
 ms.prod: windows-hardware
 ms.technology: windows-devices

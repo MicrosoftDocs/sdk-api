@@ -4,10 +4,10 @@ title: PathMatchSpecExA function
 author: windows-sdk-content
 description: Matches a file name from a path against one or more file name patterns.
 old-location: shell\PathMatchSpecEx.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx, PathMatchSpecEx function [Windows Shell], PathMatchSpecExA, PathMatchSpecExW, _win32_PathMatchSpecEx, shell.PathMatchSpecEx, shlwapi/PathMatchSpecEx, shlwapi/PathMatchSpecExA, shlwapi/PathMatchSpecExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\imultiinterfacepublisherfilter_preparetofire.htm
 tech.root: cossdk
 ms.assetid: a9257017-a9e7-4a0a-9dee-55493a659bda
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],PrepareToFire method, IMultiInterfacePublisherFilter.PrepareToFire, IMultiInterfacePublisherFilter::PrepareToFire, PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+],IMultiInterfacePublisherFilter interface, _cos_MultiInterfacePublisherFilter_PrepareToFire, cos.imultiinterfacepublisherfilter_preparetofire, eventsys/IMultiInterfacePublisherFilter::PrepareToFire
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setgraphicspath.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: PathGradientBrush class [GDI+],SetGraphicsPath method, PathGradientBrush.SetGraphicsPath, PathGradientBrush::SetGraphicsPath, SetGraphicsPath, SetGraphicsPath method [GDI+], SetGraphicsPath method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices

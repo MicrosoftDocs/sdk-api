@@ -4,10 +4,10 @@ title: FindFirstFileNameW function
 author: windows-sdk-content
 description: Creates an enumeration of all the hard links to the specified file. The FindFirstFileNameW function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.
 old-location: fs\findfirstfilenamew.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 9f64aa3e-4c73-47a8-8304-6134f1b4d153
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/FindFirstFileNameW, fs.findfirstfilenamew
 ms.prod: windows-hardware
 ms.technology: windows-devices

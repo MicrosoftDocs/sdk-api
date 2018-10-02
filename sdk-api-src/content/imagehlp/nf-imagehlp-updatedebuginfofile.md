@@ -4,10 +4,10 @@ title: UpdateDebugInfoFile function
 author: windows-sdk-content
 description: Uses the specified information to update the corresponding fields in the symbol file.
 old-location: base\updatedebuginfofile.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: b29026e2-3063-447c-9449-7105deb3d744
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: UpdateDebugInfoFile, UpdateDebugInfoFile function, _win32_updatedebuginfofile, base.updatedebuginfofile, imagehlp/UpdateDebugInfoFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSourceReaderCallback2
 author: windows-sdk-content
 description: Extends the IMFSourceReaderCallback interface.
 old-location: mf\imfsourcereadercallback2.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: D0EC7FE9-74C3-4A7C-A5F3-798A3D6EF2CC
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], IMFSourceReaderCallback2 interface [Media Foundation],described, mf.imfsourcereadercallback2, mfreadwrite/IMFSourceReaderCallback2
 ms.prod: windows
 ms.technology: windows-sdk

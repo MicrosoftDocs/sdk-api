@@ -4,10 +4,10 @@ title: INetFwIcmpSettings::put_AllowOutboundSourceQuench
 author: windows-sdk-content
 description: Indicates whether outbound source quench is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundsourcequench.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: a70cdff7-5e93-4120-9000-424a91d522ea
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: AllowOutboundSourceQuench property [ICS/ICF], AllowOutboundSourceQuench property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundSourceQuench property, INetFwIcmpSettings.AllowOutboundSourceQuench, INetFwIcmpSettings.put_AllowOutboundSourceQuench, INetFwIcmpSettings::AllowOutboundSourceQuench, INetFwIcmpSettings::get_AllowOutboundSourceQuench, INetFwIcmpSettings::put_AllowOutboundSourceQuench, ics.inetfwicmpsettings_allowoutboundsourcequench, netfw/INetFwIcmpSettings::AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::get_AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::put_AllowOutboundSourceQuench, put_AllowOutboundSourceQuench
 ms.prod: windows-hardware
 ms.technology: windows-devices

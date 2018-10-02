@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_read.htm
 tech.root: WMDM
 ms.assetid: 4b102666-b54b-4b60-b2e9-68def384268e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Read method, IWMDMStorageControl.Read, IWMDMStorageControl::Read, IWMDMStorageControlRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Read, wmdm.iwmdmstoragecontrol_read
 ms.prod: windows-hardware
 ms.technology: windows-devices

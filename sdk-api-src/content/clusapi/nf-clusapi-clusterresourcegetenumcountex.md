@@ -4,10 +4,10 @@ title: ClusterResourceGetEnumCountEx function
 author: windows-sdk-content
 description: Returns the number of cluster objects that are associated with a resource enumeration handle.
 old-location: mscs\clusterresourcegetenumcountex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 97C22642-F968-4E41-90BC-28DF8DF5886C
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ClusterResourceGetEnumCountEx, ClusterResourceGetEnumCountEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX function [Failover Cluster], clusapi/ClusterResourceGetEnumCountEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX, mscs.clusterresourcegetenumcountex
 ms.prod: windows-hardware
 ms.technology: windows-devices

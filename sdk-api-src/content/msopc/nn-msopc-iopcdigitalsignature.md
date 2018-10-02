@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature.htm
 tech.root: OPC
 ms.assetid: cfa38ef6-9d96-4577-a3bf-518784d19ad8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], IOpcDigitalSignature interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignature, opc.iopcdigitalsignature
 ms.prod: windows
 ms.technology: windows-sdk

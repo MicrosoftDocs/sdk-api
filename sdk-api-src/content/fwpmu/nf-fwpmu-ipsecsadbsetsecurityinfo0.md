@@ -7,7 +7,7 @@ old-location: fwp\ipsecsadbsetsecurityinfo0.htm
 tech.root: FWP
 ms.assetid: 6e51c04f-c829-4452-9e40-2c97551ad0f0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPsecSaDbSetSecurityInfo0, IPsecSaDbSetSecurityInfo0 function [Filtering], fwp.ipsecsadbsetsecurityinfo0, fwpmu/IPsecSaDbSetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

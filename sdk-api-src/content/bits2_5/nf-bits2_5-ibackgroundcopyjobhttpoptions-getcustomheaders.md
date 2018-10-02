@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjobhttpoptions_getcustomheaders.htm
 tech.root: Bits
 ms.assetid: 8be6e9ec-7c74-44ff-94d7-a1a1d7fb18e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCustomHeaders, GetCustomHeaders method [BITS], GetCustomHeaders method [BITS],IBackgroundCopyJobHttpOptions interface, IBackgroundCopyJobHttpOptions interface [BITS],GetCustomHeaders method, IBackgroundCopyJobHttpOptions.GetCustomHeaders, IBackgroundCopyJobHttpOptions::GetCustomHeaders, bits.ibackgroundcopyjobhttpoptions_getcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::GetCustomHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetClusterNodeId function
 author: windows-sdk-content
 description: Returns the unique identifier of a cluster node.
 old-location: mscs\getclusternodeid.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 976ca079-10f7-4e12-9033-07ea83e8c92a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetClusterNodeId, GetClusterNodeId function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_ID, PCLUSAPI_GET_CLUSTER_NODE_ID function [Failover Cluster], _wolf_getclusternodeid, clusapi/GetClusterNodeId, clusapi/PCLUSAPI_GET_CLUSTER_NODE_ID, mscs.getclusternodeid
 ms.prod: windows-hardware
 ms.technology: windows-devices

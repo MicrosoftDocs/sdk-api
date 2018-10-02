@@ -7,7 +7,7 @@ old-location: termserv\wtsunregistersessionnotificationex.htm
 tech.root: TermServ
 ms.assetid: 774df4a2-5d66-42fd-94b5-a51d5ba99c94
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WTSUnRegisterSessionNotificationEx, WTSUnRegisterSessionNotificationEx function [Remote Desktop Services], termserv.wtsunregistersessionnotificationex, wtsapi32/WTSUnRegisterSessionNotificationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

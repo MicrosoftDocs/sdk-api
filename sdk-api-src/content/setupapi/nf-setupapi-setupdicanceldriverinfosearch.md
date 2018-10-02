@@ -7,7 +7,7 @@ old-location: devinst\setupdicanceldriverinfosearch.htm
 tech.root: devinst
 ms.assetid: 847f1f5e-5634-44ea-b530-6136629f0471
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiCancelDriverInfoSearch, SetupDiCancelDriverInfoSearch function [Device and Driver Installation], devinst.setupdicanceldriverinfosearch, di-rtns_6cdb6cd3-5d8d-4af6-b747-b585d9c25df4.xml, setupapi/SetupDiCancelDriverInfoSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

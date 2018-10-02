@@ -7,7 +7,7 @@ old-location: policy\leavecriticalpolicysection.htm
 tech.root: Policy
 ms.assetid: 9e6a938f-c9cb-4baf-b7d0-4316e45f874c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LeaveCriticalPolicySection, LeaveCriticalPolicySection function [Group Policy], _win32_leavecriticalpolicysection, policy.leavecriticalpolicysection, userenv/LeaveCriticalPolicySection
 ms.prod: windows-hardware
 ms.technology: windows-devices

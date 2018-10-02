@@ -4,10 +4,10 @@ title: IBrowserService2::ForwardViewMsg
 author: windows-sdk-content
 description: Deprecated. Calls the SendMessage function with a message received by the view, using the _hwndView member of the BASEBROWSERDATA structure as the SendMessage hWnd parameter.
 old-location: shell\IBrowserService2_ForwardViewMsg.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8db9fbf9-9132-47a4-a788-93c303598ba0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ForwardViewMsg, ForwardViewMsg method [Windows Shell], ForwardViewMsg method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],ForwardViewMsg method, IBrowserService2.ForwardViewMsg, IBrowserService2::ForwardViewMsg, shdeprecated/IBrowserService2::ForwardViewMsg, shell.IBrowserService2_ForwardViewMsg, zone_IBrowserService2_ForwardViewMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

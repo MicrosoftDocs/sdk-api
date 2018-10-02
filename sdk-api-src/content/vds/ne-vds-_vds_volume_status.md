@@ -7,7 +7,7 @@ old-location: base\vds_volume_status.htm
 tech.root: VDS
 ms.assetid: 16159d33-08e0-47a4-a4b6-06e5f2916ea8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VDS_VOLUME_STATUS, VDS_VOLUME_STATUS enumeration [VDS], VDS_VS_FAILED, VDS_VS_NO_MEDIA, VDS_VS_OFFLINE, VDS_VS_ONLINE, VDS_VS_UNKNOWN, _VDS_VOLUME_STATUS, base.vds_volume_status, vds/VDS_VOLUME_STATUS, vds/VDS_VS_FAILED, vds/VDS_VS_NO_MEDIA, vds/VDS_VS_OFFLINE, vds/VDS_VS_ONLINE, vds/VDS_VS_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

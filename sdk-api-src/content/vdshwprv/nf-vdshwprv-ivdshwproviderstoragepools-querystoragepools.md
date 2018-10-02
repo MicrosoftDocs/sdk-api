@@ -7,7 +7,7 @@ old-location: base\ivdshwproviderstoragepools_querystoragepools.htm
 tech.root: VDS
 ms.assetid: 308c9821-927d-4b90-854d-b050f3730c22
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsHwProviderStoragePools interface,QueryStoragePools method, IVdsHwProviderStoragePools.QueryStoragePools, IVdsHwProviderStoragePools::QueryStoragePools, QueryStoragePools, QueryStoragePools method, QueryStoragePools method,IVdsHwProviderStoragePools interface, base.ivdshwproviderstoragepools_querystoragepools, vds/IVdsHwProviderStoragePools::QueryStoragePools, vdshwprv/IVdsHwProviderStoragePools::QueryStoragePools
 ms.prod: windows-hardware
 ms.technology: windows-devices

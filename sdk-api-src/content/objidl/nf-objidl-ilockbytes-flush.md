@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_flush.htm
 tech.root: Stg
 ms.assetid: 9396c44f-ad76-49f4-9796-d29570466a27
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Flush, Flush method [Structured Storage], Flush method [Structured Storage],ILockBytes interface, ILockBytes interface [Structured Storage],Flush method, ILockBytes.Flush, ILockBytes::Flush, _stg_ilockbytes_flush, objidl/ILockBytes::Flush, stg.ilockbytes_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ikeextsadbgetsecurityinfo0.htm
 tech.root: FWP
 ms.assetid: e84fef94-3e75-4812-8427-b20a023588fa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IkeextSaDbGetSecurityInfo0, IkeextSaDbGetSecurityInfo0 function [Filtering], fwp.ikeextsadbgetsecurityinfo0, fwpmu/IkeextSaDbGetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

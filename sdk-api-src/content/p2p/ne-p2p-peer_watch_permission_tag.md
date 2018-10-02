@@ -4,10 +4,10 @@ title: peer_watch_permission_tag
 author: windows-sdk-content
 description: Defines whether a peer contact can receive presence updates from a contact.
 old-location: p2p\peer_watch_permission.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: e3f4a1e6-6ac8-48f8-8480-0cf60c9b4ce9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PEER_WATCH_ALLOWED, PEER_WATCH_BLOCKED, PEER_WATCH_PERMISSION, PEER_WATCH_PERMISSION enumeration [Peer Networking], p2p.peer_watch_permission, p2p/PEER_WATCH_ALLOWED, p2p/PEER_WATCH_BLOCKED, p2p/PEER_WATCH_PERMISSION, peer_watch_permission_tag
 ms.prod: windows
 ms.technology: windows-sdk

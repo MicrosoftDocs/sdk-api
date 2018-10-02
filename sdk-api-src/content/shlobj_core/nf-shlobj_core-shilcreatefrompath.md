@@ -4,10 +4,10 @@ title: SHILCreateFromPath function
 author: windows-sdk-content
 description: SHILCreateFromPath may be altered or unavailable.
 old-location: shell\SHILCreateFromPath.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 08700af7-9dbd-4162-8578-bfa47e3db6bf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHILCreateFromPath, SHILCreateFromPath function [Windows Shell], _win32_SHILCreateFromPath, shell.SHILCreateFromPath, shlobj_core/SHILCreateFromPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

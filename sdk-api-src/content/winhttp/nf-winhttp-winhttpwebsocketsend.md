@@ -4,10 +4,10 @@ title: WinHttpWebSocketSend function
 author: windows-sdk-content
 description: Sends data over a WebSocket connection.
 old-location: http\winhttpwebsocketsend.htm
-tech.root: winhttp
+tech.root: WinHttp
 ms.assetid: 24b45561-2a6e-4513-b597-15dbc10f0664
 ms.author: windowssdkdev
-ms.date: 09/11/2018
+ms.date: 09/26/2018
 ms.keywords: WinHttpWebSocketSend, WinHttpWebSocketSend function [WinHTTP], http.winhttpwebsocketsend, winhttp/WinHttpWebSocketSend
 ms.prod: windows-hardware
 ms.technology: windows-devices

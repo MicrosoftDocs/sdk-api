@@ -4,10 +4,10 @@ title: IMonthlyDOWTrigger::get_RandomDelay
 author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\imonthlydowtrigger_randomdelay.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 1edae183-b0b9-40b6-ba32-227bc0435ee2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],RandomDelay property, IMonthlyDOWTrigger.RandomDelay, IMonthlyDOWTrigger.get_RandomDelay, IMonthlyDOWTrigger::RandomDelay, IMonthlyDOWTrigger::get_RandomDelay, IMonthlyDOWTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IMonthlyDOWTrigger interface, get_RandomDelay, taskschd.imonthlydowtrigger_randomdelay, taskschd/IMonthlyDOWTrigger::RandomDelay, taskschd/IMonthlyDOWTrigger::get_RandomDelay, taskschd/IMonthlyDOWTrigger::put_RandomDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

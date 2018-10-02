@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetDataSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdatasize.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetDataSize, GetDataSize method [GDI+], GetDataSize method [GDI+],Region class, Region class [GDI+],GetDataSize method, Region.GetDataSize, Region::GetDataSize, _gdiplus_CLASS_Region_GetDataSize_, gdiplus._gdiplus_CLASS_Region_GetDataSize_
 ms.prod: windows-hardware
 ms.technology: windows-devices

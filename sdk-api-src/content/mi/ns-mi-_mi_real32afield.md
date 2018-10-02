@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_real32afield.htm
 tech.root: WMI_v2
 ms.assetid: 83dca209-d7dd-403a-a5d1-df5a0378d6e6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Real32AField, MI_Real32AField structure [Windows Management Infrastructure (MI)], _MI_Real32AField, mi/MI_Real32AField, wmi._mi_real32afield, wmi_v2.mi_real32afield
 ms.prod: windows
 ms.technology: windows-sdk

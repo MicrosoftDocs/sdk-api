@@ -4,10 +4,10 @@ title: "_RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W"
 author: windows-sdk-content
 description: The RPC_HTTP_TRANSPORT_CREDENTIALS_V2 structure defines additional credentials to authenticate to an RPC proxy server or HTTP proxy server when using RPC/HTTP.RPC_HTTP_TRANSPORT_CREDENTIALS_V2 extends RPC_HTTP_TRANSPORT_CREDENTIALS by allowing authentication against an HTTP proxy server.
 old-location: rpc\rpc_http_transport_credentials_v2.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 6f7c9ffe-2b21-48c0-98d5-16feacd50a20
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PRPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, PRPC_HTTP_TRANSPORT_CREDENTIALS_V2, PRPC_HTTP_TRANSPORT_CREDENTIALS_V2 structure pointer [RPC], RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS_V2, RPC_HTTP_TRANSPORT_CREDENTIALS_V2 structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, _RPC_HTTP_TRANSPORT_CREDENTIALS_V2_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, rpc.rpc_http_transport_credentials_v2, rpcdce/PRPC_HTTP_TRANSPORT_CREDENTIALS_V2, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V2"
 ms.prod: windows
 ms.technology: windows-sdk

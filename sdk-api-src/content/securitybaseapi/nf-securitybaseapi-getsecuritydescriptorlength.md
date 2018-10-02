@@ -4,10 +4,10 @@ title: GetSecurityDescriptorLength function
 author: windows-sdk-content
 description: Returns the length, in bytes, of a structurally valid security descriptor. The length includes the length of all associated structures.
 old-location: security\getsecuritydescriptorlength.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: eb331839-ff3e-4f4b-b93b-18da2ea72697
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetSecurityDescriptorLength, GetSecurityDescriptorLength function [Security], _win32_getsecuritydescriptorlength, security.getsecuritydescriptorlength, securitybaseapi/GetSecurityDescriptorLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

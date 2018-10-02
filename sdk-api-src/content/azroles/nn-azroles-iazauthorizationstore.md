@@ -4,10 +4,10 @@ title: IAzAuthorizationStore
 author: windows-sdk-content
 description: Defines the container that is the root of the authorization policy store.
 old-location: security\azauthorizationstore.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f848cca6-3838-46bc-b1f4-d6eab5096046
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security],described, azroles/IAzAuthorizationStore, security.azauthorizationstore
 ms.prod: windows
 ms.technology: windows-sdk

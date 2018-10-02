@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constreferencefield.htm
 tech.root: WMI_v2
 ms.assetid: 4d93aea8-6d66-4c69-b6f4-22837a692efd
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ConstReferenceField, MI_ConstReferenceField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstReferenceField, mi/MI_ConstReferenceField, wmi._mi_constreferencefield, wmi_v2.mi_constreferencefield
 ms.prod: windows
 ms.technology: windows-sdk

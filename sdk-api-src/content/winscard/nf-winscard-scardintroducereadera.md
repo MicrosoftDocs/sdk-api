@@ -7,7 +7,7 @@ old-location: security\scardintroducereader.htm
 tech.root: secauthn
 ms.assetid: 1f8b9d75-5bba-40c3-99a0-6910855fcd4d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: SCardIntroduceReader, SCardIntroduceReader function [Security], SCardIntroduceReaderA, SCardIntroduceReaderW, _smart_scardintroducereader, security.scardintroducereader, winscard/SCardIntroduceReader, winscard/SCardIntroduceReaderA, winscard/SCardIntroduceReaderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

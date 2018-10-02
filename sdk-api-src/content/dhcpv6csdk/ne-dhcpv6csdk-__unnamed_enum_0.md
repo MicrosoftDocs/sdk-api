@@ -7,7 +7,7 @@ old-location: dhcp\statuscode.htm
 tech.root: DHCP
 ms.assetid: c3d1df82-9f36-4d58-88f0-8a16011f3132
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_UNSPECIFIED_FAILURE, StatusCode, StatusCode enumeration [DHCP], dhcp.statuscode, dhcpv6csdk/STATUS_NOPREFIX_AVAIL, dhcpv6csdk/STATUS_NO_BINDING, dhcpv6csdk/STATUS_NO_ERROR, dhcpv6csdk/STATUS_UNSPECIFIED_FAILURE, dhcpv6csdk/StatusCode
 ms.prod: windows
 ms.technology: windows-sdk

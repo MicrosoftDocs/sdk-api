@@ -4,10 +4,10 @@ title: ICredentialProviderFilter
 author: windows-sdk-content
 description: Used to dynamically filter credential providers based on information available at runtime.
 old-location: shell\ICredentialProviderFilter.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a12a0648-ea60-4537-9d5c-8d21fd53cc80
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICredentialProviderFilter, ICredentialProviderFilter interface [Windows Shell], ICredentialProviderFilter interface [Windows Shell],described, _shell_ICredentialProviderFilter, credentialprovider/ICredentialProviderFilter, shell.ICredentialProviderFilter
 ms.prod: windows
 ms.technology: windows-sdk

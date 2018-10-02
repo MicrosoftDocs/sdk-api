@@ -4,10 +4,10 @@ title: MFGetLocalId function
 author: windows-sdk-content
 description: Gets the local system ID.
 old-location: mf\mfgetlocalid.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 24EA8907-9EBF-42FF-8823-05D48E27F9EA
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFGetLocalId, MFGetLocalId function [Media Foundation], mf.mfgetlocalid, mfidl/MFGetLocalId
 ms.prod: windows-hardware
 ms.technology: windows-devices

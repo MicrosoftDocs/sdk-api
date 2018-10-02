@@ -4,10 +4,10 @@ title: COPYFILE2_MESSAGE
 author: windows-sdk-content
 description: Passed to the CopyFile2ProgressRoutine callback function with information about a pending copy operation.
 old-location: fs\copyfile2_message.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: ab841bee-90a0-4beb-99d3-764e608c3872
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: COPYFILE2_CALLBACK_CHUNK_FINISHED, COPYFILE2_CALLBACK_CHUNK_STARTED, COPYFILE2_CALLBACK_ERROR, COPYFILE2_CALLBACK_POLL_CONTINUE, COPYFILE2_CALLBACK_STREAM_FINISHED, COPYFILE2_CALLBACK_STREAM_STARTED, COPYFILE2_MESSAGE, COPYFILE2_MESSAGE structure [Files], fs.copyfile2_message, winbase/COPYFILE2_MESSAGE
 ms.prod: windows
 ms.technology: windows-sdk

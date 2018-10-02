@@ -4,10 +4,10 @@ title: IMFVideoSampleAllocatorCallback::GetFreeSampleCount
 author: windows-sdk-content
 description: Gets the number of video samples that are currently available for use.
 old-location: mf\imfvideosampleallocatorcallback_getfreesamplecount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0025067b-1c8f-4f1a-91f2-edf6a274523b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetFreeSampleCount, GetFreeSampleCount method [Media Foundation], GetFreeSampleCount method [Media Foundation],IMFVideoSampleAllocatorCallback interface, IMFVideoSampleAllocatorCallback interface [Media Foundation],GetFreeSampleCount method, IMFVideoSampleAllocatorCallback.GetFreeSampleCount, IMFVideoSampleAllocatorCallback::GetFreeSampleCount, mf.imfvideosampleallocatorcallback_getfreesamplecount, mfidl/IMFVideoSampleAllocatorCallback::GetFreeSampleCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

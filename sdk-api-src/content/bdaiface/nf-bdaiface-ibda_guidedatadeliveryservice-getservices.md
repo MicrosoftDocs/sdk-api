@@ -7,7 +7,7 @@ old-location: mstv\ibda_guidedatadeliveryservice_getservices.htm
 tech.root: MSTV
 ms.assetid: 82133fc5-0f42-4b24-abf6-bc46e72650ac
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServices method, IBDA_GuideDataDeliveryService.GetServices, IBDA_GuideDataDeliveryService::GetServices, bdaiface/IBDA_GuideDataDeliveryService::GetServices, mstv.ibda_guidedatadeliveryservice_getservices
 ms.prod: windows-hardware
 ms.technology: windows-devices

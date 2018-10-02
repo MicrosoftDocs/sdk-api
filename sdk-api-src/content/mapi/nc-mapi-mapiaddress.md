@@ -7,7 +7,7 @@ old-location: mapi\mapiaddress.htm
 tech.root: WindowsMAPI
 ms.assetid: 4f01763d-22a2-4ee4-a559-f875cb06ea6b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MAPIAddress, MAPIAddress callback, MAPIAddress callback function, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiaddress, mapi/MAPIAddress
 ms.prod: windows
 ms.technology: windows-sdk

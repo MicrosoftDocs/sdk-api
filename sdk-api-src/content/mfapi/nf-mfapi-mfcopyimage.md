@@ -4,10 +4,10 @@ title: MFCopyImage function
 author: windows-sdk-content
 description: Copies an image or image plane from one buffer to another.
 old-location: mf\mfcopyimage.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e6bc2777-d33c-4d44-84c6-e7b35d308d33
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCopyImage, MFCopyImage function [Media Foundation], e6bc2777-d33c-4d44-84c6-e7b35d308d33, mf.mfcopyimage, mfapi/MFCopyImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

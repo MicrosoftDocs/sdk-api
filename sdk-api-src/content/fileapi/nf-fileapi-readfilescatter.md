@@ -4,10 +4,10 @@ title: ReadFileScatter function
 author: windows-sdk-content
 description: Reads data from a file and stores it in an array of buffers.
 old-location: fs\readfilescatter.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 4ed7c47b-d40b-4016-8550-0af17ee9e86d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: ReadFileScatter, ReadFileScatter function [Files], _win32_readfilescatter, base.readfilescatter, fileapi/ReadFileScatter, fs.readfilescatter, winbase/ReadFileScatter
 ms.prod: windows-hardware
 ms.technology: windows-devices

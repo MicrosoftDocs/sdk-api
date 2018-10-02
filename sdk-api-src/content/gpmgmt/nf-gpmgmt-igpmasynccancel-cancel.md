@@ -7,7 +7,7 @@ old-location: gpmc\igpmasynccancel_cancel.htm
 tech.root: GPMC
 ms.assetid: c2055e7d-daed-4c9c-a374-6cb378d04962
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Cancel, Cancel method [GPMC], Cancel method [GPMC],IGPMAsyncCancel interface, IGPMAsyncCancel interface [GPMC],Cancel method, IGPMAsyncCancel.Cancel, IGPMAsyncCancel::Cancel, _win32_igpmasynccancel_cancel, gpmc.igpmasynccancel_cancel, gpmgmt/IGPMAsyncCancel::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

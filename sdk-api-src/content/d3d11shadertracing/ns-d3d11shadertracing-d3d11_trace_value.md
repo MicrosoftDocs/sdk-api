@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_trace_value.htm
 tech.root: direct3d11
 ms.assetid: 15AFA648-DCAC-42A1-9606-6E292E92C217
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_TRACE_VALUE, D3D11_TRACE_VALUE structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_VALUE, direct3d11.d3d11_trace_value
 ms.prod: windows
 ms.technology: windows-sdk

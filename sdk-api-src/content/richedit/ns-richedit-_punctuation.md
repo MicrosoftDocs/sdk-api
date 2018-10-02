@@ -4,10 +4,10 @@ title: "_punctuation"
 author: windows-sdk-content
 description: Contains information about the punctuation used in a rich edit control.
 old-location: controls\PUNCTUATION.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\punctuation.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: PUNCTUATION, PUNCTUATION structure [Windows Controls], _punctuation, _win32_PUNCTUATION_str, _win32_PUNCTUATION_str_cpp, controls.PUNCTUATION, controls._win32_PUNCTUATION_str, richedit/PUNCTUATION
 ms.prod: windows
 ms.technology: windows-sdk

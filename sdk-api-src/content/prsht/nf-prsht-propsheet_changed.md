@@ -4,10 +4,10 @@ title: PropSheet_Changed macro
 author: windows-sdk-content
 description: Informs a property sheet that information in a page has changed. You can use this macro or send the PSM_CHANGED message explicitly.
 old-location: controls\PropSheet_Changed.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_changed.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: PropSheet_Changed, PropSheet_Changed macro [Windows Controls], _win32_PropSheet_Changed, _win32_PropSheet_Changed_cpp, controls.PropSheet_Changed, controls._win32_PropSheet_Changed, prsht/PropSheet_Changed
 ms.prod: windows-hardware
 ms.technology: windows-devices

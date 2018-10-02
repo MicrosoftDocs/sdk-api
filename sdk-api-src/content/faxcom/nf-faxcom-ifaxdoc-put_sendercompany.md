@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendercompany_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7wjd.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderCompany property, IFaxDoc.SenderCompany, IFaxDoc.put_SenderCompany, IFaxDoc::SenderCompany, IFaxDoc::get_SenderCompany, IFaxDoc::put_SenderCompany, SenderCompany property [Fax Service], SenderCompany property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_sendercompany, fax._mfax_ifaxdoc_get_sendercompany, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendercompany_cpp, faxcom/IFaxDoc::SenderCompany, faxcom/IFaxDoc::get_SenderCompany, faxcom/IFaxDoc::put_SenderCompany, put_SenderCompany
 ms.prod: windows-hardware
 ms.technology: windows-devices

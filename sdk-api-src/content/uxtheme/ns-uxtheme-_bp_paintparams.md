@@ -4,10 +4,10 @@ title: "_BP_PAINTPARAMS"
 author: windows-sdk-content
 description: Defines paint operation parameters for BeginBufferedPaint.
 old-location: controls\BP_PAINTPARAMS.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_paintparams.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*PBP_PAINTPARAMS, BPPF_ERASE, BPPF_NOCLIP, BPPF_NONCLIENT, BP_PAINTPARAMS, BP_PAINTPARAMS structure [Windows Controls], PBP_PAINTPARAMS, PBP_PAINTPARAMS structure pointer [Windows Controls], _BP_PAINTPARAMS, _shell_BP_PAINTPARAMS, _shell_BP_PAINTPARAMS_cpp, controls.BP_PAINTPARAMS, controls._shell_BP_PAINTPARAMS, uxtheme/BP_PAINTPARAMS, uxtheme/PBP_PAINTPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fwp\fwp_token_information.htm
 tech.root: FWP
 ms.assetid: 30bc6d4b-e3a8-4adf-82d5-adaf30f042ff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWP_TOKEN_INFORMATION, FWP_TOKEN_INFORMATION structure [Filtering], FWP_TOKEN_INFORMATION_, fwp.fwp_token_information, fwptypes/FWP_TOKEN_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: machinelearning\winml_runtime_type.htm
 tech.root: MachineLearning
 ms.assetid: 5F522511-6186-4C1F-9315-3E382E87F62C
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MachineLearning.winml_runtime_type, WINML_RUNTIME_CNTK, WINML_RUNTIME_TYPE, WINML_RUNTIME_TYPE enumeration, winml/WINML_RUNTIME_CNTK, winml/WINML_RUNTIME_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

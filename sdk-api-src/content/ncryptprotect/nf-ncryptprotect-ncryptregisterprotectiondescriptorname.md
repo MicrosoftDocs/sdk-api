@@ -7,7 +7,7 @@ old-location: security\ncryptregisterprotectiondescriptorname.htm
 tech.root: SecCNG
 ms.assetid: DAB03CB2-630F-4BB3-93BD-06BE9126B1C4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NCryptRegisterProtectionDescriptorName, NCryptRegisterProtectionDescriptorName function [Security], ncryptprotect/NCryptRegisterProtectionDescriptorName, security.ncryptregisterprotectiondescriptorname
 ms.prod: windows-hardware
 ms.technology: windows-devices

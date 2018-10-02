@@ -4,10 +4,10 @@ title: IAzTask::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iaztask_addpropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 50d8c1f2-11c3-41d8-b935-a8f296d2c18f
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzTask object, AddPropertyItem method [Security],IAzTask interface, AzTask object [Security],AddPropertyItem method, IAzTask interface [Security],AddPropertyItem method, IAzTask.AddPropertyItem, IAzTask::AddPropertyItem, azroles/IAzTask::AddPropertyItem, security.iaztask_addpropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\http_version.htm
 tech.root: Http
 ms.assetid: 8f97410c-27b5-4225-849e-ee55e4c5f762
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHTTP_VERSION, HTTP_VERSION, HTTP_VERSION structure [HTTP], PHTTP_VERSION, PHTTP_VERSION structure pointer [HTTP], _HTTP_VERSION, _http_http_version, http.http_version, http/HTTP_VERSION, http/PHTTP_VERSION"
 ms.prod: windows
 ms.technology: windows-sdk

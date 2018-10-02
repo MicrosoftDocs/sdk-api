@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_removecontent.htm
 tech.root: directmanipulation
 ms.assetid: 5f7b709c-77ac-46fe-8fb5-dc4943824ab0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveContent method, IDirectManipulationViewport.RemoveContent, IDirectManipulationViewport::RemoveContent, RemoveContent, RemoveContent method [Direct Manipulation], RemoveContent method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removecontent, directmanipulation/IDirectManipulationViewport::RemoveContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

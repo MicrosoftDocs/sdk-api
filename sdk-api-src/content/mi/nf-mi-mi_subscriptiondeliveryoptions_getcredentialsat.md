@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialsat.htm
 tech.root: WMI_v2
 ms.assetid: 3af2ec8f-27fa-4adf-9946-07a1dcb0d0e8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetCredentialsAt, MI_SubscriptionDeliveryOptions_GetCredentialsAt function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetCredentialsAt, wmi_v2.mi_subscriptiondeliveryoptions_getcredentialsat
 ms.prod: windows-hardware
 ms.technology: windows-devices

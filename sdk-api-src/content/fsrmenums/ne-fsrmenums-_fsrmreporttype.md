@@ -4,10 +4,10 @@ title: "_FsrmReportType"
 author: windows-sdk-content
 description: Defines the types of reports that you can generate.
 old-location: fsrm\fsrmreporttype.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 6fb5cb02-371b-4d07-9f13-d0409d5835d4
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmReportType, FsrmReportType enumeration [File Server Resource Manager], FsrmReportType_AutomaticClassification, FsrmReportType_DuplicateFiles, FsrmReportType_Expiration, FsrmReportType_ExportReport, FsrmReportType_FileScreenAudit, FsrmReportType_FilesByOwner, FsrmReportType_FilesByProperty, FsrmReportType_FilesByType, FsrmReportType_FoldersByProperty, FsrmReportType_LargeFiles, FsrmReportType_LeastRecentlyAccessed, FsrmReportType_MostRecentlyAccessed, FsrmReportType_QuotaUsage, FsrmReportType_Unknown, _FsrmReportType, fs.fsrmreporttype, fsrm.fsrmreporttype, fsrmenums/FsrmReportType, fsrmenums/FsrmReportType_AutomaticClassification, fsrmenums/FsrmReportType_DuplicateFiles, fsrmenums/FsrmReportType_Expiration, fsrmenums/FsrmReportType_ExportReport, fsrmenums/FsrmReportType_FileScreenAudit, fsrmenums/FsrmReportType_FilesByOwner, fsrmenums/FsrmReportType_FilesByProperty, fsrmenums/FsrmReportType_FilesByType, fsrmenums/FsrmReportType_FoldersByProperty, fsrmenums/FsrmReportType_LargeFiles, fsrmenums/FsrmReportType_LeastRecentlyAccessed, fsrmenums/FsrmReportType_MostRecentlyAccessed, fsrmenums/FsrmReportType_QuotaUsage, fsrmenums/FsrmReportType_Unknown
 ms.prod: windows
 ms.technology: windows-sdk

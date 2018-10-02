@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletunerequest_get_majorchannel.htm
 tech.root: MSTV
 ms.assetid: f8c59c66-1c86-4cfd-b295-ac1d1a75af17
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],get_MajorChannel method, IDigitalCableTuneRequest.get_MajorChannel, IDigitalCableTuneRequest::get_MajorChannel, IDigitalCableTuneRequestget_MajorChannel, get_MajorChannel, get_MajorChannel method [Microsoft TV Technologies], get_MajorChannel method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, mstv.idigitalcabletunerequest_get_majorchannel, tuner/IDigitalCableTuneRequest::get_MajorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

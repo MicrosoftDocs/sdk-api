@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omgetblendstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetblendstate.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OMGetBlendState method, ID3D10Device.OMGetBlendState, ID3D10Device::OMGetBlendState, OMGetBlendState, OMGetBlendState method [Direct3D 10], OMGetBlendState method [Direct3D 10],ID3D10Device interface, b8350c99-7325-98c2-8067-e749ec016907, d3d10/ID3D10Device::OMGetBlendState, direct3d10.id3d10device_omgetblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

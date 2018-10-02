@@ -4,10 +4,10 @@ title: "_SDP_STRING_TYPE_DATA"
 author: windows-sdk-content
 description: The SDP_STRING_TYPE_DATA structure stores information about SDP string types.
 old-location: bluetooth\sdp_string_type_data.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 16ff7951-08a7-49c5-93a5-0782cca50dab
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA structure [Bluetooth], SDP_STRING_TYPE_DATA, SDP_STRING_TYPE_DATA structure [Bluetooth], _SDP_STRING_TYPE_DATA, bluetooth.sdp_string_type_data, bluetoothapis/*PSDP_STRING_TYPE_DATA, bluetoothapis/SDP_STRING_TYPE_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

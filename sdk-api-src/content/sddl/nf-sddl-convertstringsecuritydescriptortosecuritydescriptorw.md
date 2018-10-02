@@ -4,10 +4,10 @@ title: ConvertStringSecurityDescriptorToSecurityDescriptorW function
 author: windows-sdk-content
 description: Converts a string-format security descriptor into a valid, functional security descriptor.
 old-location: security\convertstringsecuritydescriptortosecuritydescriptor.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c5654148-fb4c-436d-9378-a1168fc82607
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ConvertStringSecurityDescriptorToSecurityDescriptor, ConvertStringSecurityDescriptorToSecurityDescriptor function [Security], ConvertStringSecurityDescriptorToSecurityDescriptorA, ConvertStringSecurityDescriptorToSecurityDescriptorW, _win32_convertstringsecuritydescriptortosecuritydescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorW, security.convertstringsecuritydescriptortosecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

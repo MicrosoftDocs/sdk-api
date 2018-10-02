@@ -7,7 +7,7 @@ old-location: base\vds_recover_action.htm
 tech.root: VDS
 ms.assetid: 478c133b-36f3-426c-a1b3-5691e312ce5a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VDS_RECOVER_ACTION, VDS_RECOVER_ACTION enumeration, _VDS_RECOVER_ACTION, base.vds_recover_action, vds/VDS_RECOVER_ACTION, vdshwprv/VDS_RECOVER_ACTION
 ms.prod: windows
 ms.technology: windows-sdk

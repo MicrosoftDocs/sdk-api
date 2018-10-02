@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidersubscribechanges0_func.htm
 tech.root: FWP
 ms.assetid: 73d04bcb-b888-4e40-90e6-a0d777f926ef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmProviderSubscribeChanges0, FwpmProviderSubscribeChanges0 function [Filtering], fwp.fwpmprovidersubscribechanges0_func, fwpmu/FwpmProviderSubscribeChanges0
 ms.prod: windows-hardware
 ms.technology: windows-devices

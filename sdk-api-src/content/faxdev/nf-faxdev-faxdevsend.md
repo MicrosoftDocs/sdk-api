@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevsend.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7rz8.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FaxDevSend, FaxDevSend function [Fax Service], _mfax_faxdevsend, fax._mfax_faxdevsend, faxdev/FaxDevSend
 ms.prod: windows-hardware
 ms.technology: windows-devices

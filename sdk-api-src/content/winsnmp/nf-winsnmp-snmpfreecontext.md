@@ -7,7 +7,7 @@ old-location: snmp\snmpfreecontext.htm
 tech.root: SNMP
 ms.assetid: 15ab137e-86ea-43fc-ac8c-cd6a76feaa04
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SnmpFreeContext, SnmpFreeContext function [SNMP], _snmp_snmpfreecontext, snmp.snmpfreecontext, winsnmp/SnmpFreeContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

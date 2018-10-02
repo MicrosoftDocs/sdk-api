@@ -4,10 +4,10 @@ title: MprConfigFilterGetInfo function
 author: windows-sdk-content
 description: Returns static filtering information for a specified transport protocol type.
 old-location: rras\mprconfigfiltergetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: d3c35418-57f4-4000-93c2-c04b5b0140ff
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: MprConfigFilterGetInfo, MprConfigFilterGetInfo function [RAS], mprapi/MprConfigFilterGetInfo, rras.mprconfigfiltergetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadsdeleteops_deleteobject.htm
 tech.root: ADSI
 ms.assetid: 53685f60-9adf-40f0-b6d3-e59a0435f744
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteObject, DeleteObject method [ADSI], DeleteObject method [ADSI],IADsDeleteOps interface, IADsDeleteOps interface [ADSI],DeleteObject method, IADsDeleteOps.DeleteObject, IADsDeleteOps::DeleteObject, _ds_iadsdeleteops_deleteobject, adsi.iadsdeleteops__deleteobject, adsi.iadsdeleteops_deleteobject, iads/IADsDeleteOps::DeleteObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

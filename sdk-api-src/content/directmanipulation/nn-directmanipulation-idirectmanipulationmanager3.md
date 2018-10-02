@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager3.htm
 tech.root: directmanipulation
 ms.assetid: 566d4a36-5623-4896-b23b-3824551850b0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationManager3, IDirectManipulationManager3 interface [Direct Manipulation], IDirectManipulationManager3 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager3, directmanipulation/IDirectManipulationManager3
 ms.prod: windows
 ms.technology: windows-sdk

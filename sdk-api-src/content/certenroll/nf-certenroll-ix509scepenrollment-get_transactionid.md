@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::get_TransactionId
 author: windows-sdk-content
 description: Gets or sets the transaction id for the request.
 old-location: security\ix509scepenrollment_transactionid.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f0688ce9-9c20-4726-ae15-69285c3b30f3
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],TransactionId property, IX509SCEPEnrollment.TransactionId, IX509SCEPEnrollment.get_TransactionId, IX509SCEPEnrollment::TransactionId, IX509SCEPEnrollment::get_TransactionId, IX509SCEPEnrollment::put_TransactionId, TransactionId property [Security], TransactionId property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::TransactionId, certenroll/IX509SCEPEnrollment::get_TransactionId, certenroll/IX509SCEPEnrollment::put_TransactionId, get_TransactionId, security.ix509scepenrollment_transactionid
 ms.prod: windows-hardware
 ms.technology: windows-devices

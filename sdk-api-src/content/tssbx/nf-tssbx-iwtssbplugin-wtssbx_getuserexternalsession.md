@@ -7,7 +7,7 @@ old-location: termserv\iwtssbplugin_wtssbx_getuserexternalsession.htm
 tech.root: TermServ
 ms.assetid: 989cd7bc-932f-4a33-91c8-e66fac7195ad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_GetUserExternalSession method, IWTSSBPlugin.WTSSBX_GetUserExternalSession, IWTSSBPlugin::WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession method [Remote Desktop Services], WTSSBX_GetUserExternalSession method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_getuserexternalsession, tssbx/IWTSSBPlugin::WTSSBX_GetUserExternalSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

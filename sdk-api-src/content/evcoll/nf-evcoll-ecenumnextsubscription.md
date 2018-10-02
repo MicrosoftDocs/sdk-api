@@ -7,7 +7,7 @@ old-location: wec\ecenumnextsubscription.htm
 tech.root: WEC
 ms.assetid: 4228c9ca-6143-4301-8ff3-0ee296a53239
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EcEnumNextSubscription, EcEnumNextSubscription function, evcoll/EcEnumNextSubscription, wec.ecenumnextsubscription, wes.ecenumnextsubscription
 ms.prod: windows-hardware
 ms.technology: windows-devices

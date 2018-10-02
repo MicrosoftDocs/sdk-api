@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addautomationeventha
 tech.root: WinAuto
 ms.assetid: EEBEDC7B-48B5-4074-8B85-1DC8B47A90AD
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: AddAutomationEventHandler, AddAutomationEventHandler method [Windows Accessibility], AddAutomationEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddAutomationEventHandler method, IUIAutomationEventHandlerGroup.AddAutomationEventHandler, IUIAutomationEventHandlerGroup::AddAutomationEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddAutomationEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addautomationeventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, next major update [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
 req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 

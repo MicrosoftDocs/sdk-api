@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_CoordinateSpace.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coordinatespace.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: CoordinateSpace, CoordinateSpace enumeration [GDI+], CoordinateSpaceDevice, CoordinateSpacePage, CoordinateSpaceWorld, _gdiplus_ENUM_CoordinateSpace, gdiplus._gdiplus_ENUM_CoordinateSpace, gdiplusenums/CoordinateSpace, gdiplusenums/CoordinateSpaceDevice, gdiplusenums/CoordinateSpacePage, gdiplusenums/CoordinateSpaceWorld
 ms.prod: windows
 ms.technology: windows-sdk

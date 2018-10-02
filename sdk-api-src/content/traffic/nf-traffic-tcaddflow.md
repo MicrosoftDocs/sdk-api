@@ -7,7 +7,7 @@ old-location: qos\tcaddflow.htm
 tech.root: QOS
 ms.assetid: 20b4f34b-a84e-4211-8d41-0efa0dbc6cd4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TcAddFlow, TcAddFlow function [QOS], _gqos_tcaddflow, qos.tcaddflow, traffic/TcAddFlow
 ms.prod: windows-hardware
 ms.technology: windows-devices

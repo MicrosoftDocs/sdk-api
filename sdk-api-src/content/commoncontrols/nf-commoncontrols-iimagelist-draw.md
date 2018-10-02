@@ -4,10 +4,10 @@ title: IImageList::Draw
 author: windows-sdk-content
 description: Draws an image list item in the specified device context.
 old-location: controls\IImageList_Draw.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\draw.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Draw, Draw method [Windows Controls], Draw method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Draw method, IImageList.Draw, IImageList::Draw, comctl_IImageList_Draw, comctl_IImageList_Draw_cpp, commoncontrols/IImageList::Draw, controls.IImageList_Draw, controls.comctl_IImageList_Draw
 ms.prod: windows-hardware
 ms.technology: windows-devices

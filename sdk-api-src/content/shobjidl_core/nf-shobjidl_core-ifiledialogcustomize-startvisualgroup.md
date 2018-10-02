@@ -4,10 +4,10 @@ title: IFileDialogCustomize::StartVisualGroup
 author: windows-sdk-content
 description: Declares a visual group in the dialog. Subsequent calls to any &#0034;add&#0034; method add those elements to this group.
 old-location: shell\IFileDialogCustomize_StartVisualGroup.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2626c820-3731-474d-9ddb-d2a8966c3d35
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],StartVisualGroup method, IFileDialogCustomize.StartVisualGroup, IFileDialogCustomize::StartVisualGroup, StartVisualGroup, StartVisualGroup method [Windows Shell], StartVisualGroup method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_StartVisualGroup, shell_IFileDialogCustomize_StartVisualGroup, shobjidl_core/IFileDialogCustomize::StartVisualGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

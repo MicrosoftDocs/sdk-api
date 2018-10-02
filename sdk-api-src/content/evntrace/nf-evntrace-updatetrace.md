@@ -7,7 +7,7 @@ old-location: etw\updatetrace.htm
 tech.root: ETW
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW, _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace, evntrace/UpdateTraceA, evntrace/UpdateTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

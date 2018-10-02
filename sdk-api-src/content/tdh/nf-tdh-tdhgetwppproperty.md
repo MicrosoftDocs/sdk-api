@@ -7,7 +7,7 @@ old-location: etw\tdhgetwppproperty.htm
 tech.root: ETW
 ms.assetid: a9c5ed0f-af6f-4500-9ef7-bc60b8911ea0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TdhGetWppProperty, TdhGetWppProperty function [ETW], etw.tdhgetwppproperty, tdh/TdhGetWppProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

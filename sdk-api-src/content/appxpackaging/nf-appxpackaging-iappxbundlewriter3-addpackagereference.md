@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlewriter3_addpackagereference.htm
 tech.root: appxpkg
 ms.assetid: 99969971-9153-47C9-AF9C-7BF1D56EC54D
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: AddPackageReference, AddPackageReference method [App packaging and management], AddPackageReference method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],AddPackageReference method, IAppxBundleWriter3.AddPackageReference, IAppxBundleWriter3::AddPackageReference, appxpackaging/IAppxBundleWriter3::AddPackageReference, appxpkg.iappxbundlewriter3_addpackagereference
 ms.prod: windows-hardware
 ms.technology: windows-devices

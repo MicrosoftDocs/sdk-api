@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeercacherecords.htm
 tech.root: Bits
 ms.assetid: 680c1468-d780-44a3-9048-c7c3928234f9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS],described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
 ms.prod: windows
 ms.technology: windows-sdk

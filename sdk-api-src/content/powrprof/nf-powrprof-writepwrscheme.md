@@ -4,10 +4,10 @@ title: WritePwrScheme function
 author: windows-sdk-content
 description: Writes policy settings that are unique to the specified power scheme.
 old-location: base\writepwrscheme.htm
-tech.root: power
+tech.root: Power
 ms.assetid: b9233601-6848-41c4-bb58-27decad60ba5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WritePwrScheme, WritePwrScheme function, _win32_writepwrscheme, base.writepwrscheme, powrprof/WritePwrScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

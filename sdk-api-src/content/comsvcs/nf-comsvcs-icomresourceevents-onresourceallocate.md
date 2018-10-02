@@ -7,7 +7,7 @@ old-location: cos\icomresourceevents_onresourceallocate.htm
 tech.root: cossdk
 ms.assetid: f063230d-a0b8-46c5-845c-f94aefb706a7
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceAllocate method, IComResourceEvents.OnResourceAllocate, IComResourceEvents::OnResourceAllocate, OnResourceAllocate, OnResourceAllocate method [COM+], OnResourceAllocate method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceAllocate, comsvcs/IComResourceEvents::OnResourceAllocate, cos.icomresourceevents_onresourceallocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

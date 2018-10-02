@@ -4,10 +4,10 @@ title: MFCreateASFProfileFromPresentationDescriptor function
 author: windows-sdk-content
 description: Creates an ASF profile object from a presentation descriptor.
 old-location: mf\mfcreateasfprofilefrompresentationdescriptor.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1163d958-fbea-48f3-9ac3-1595c0cc2d32
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 1163d958-fbea-48f3-9ac3-1595c0cc2d32, MFCreateASFProfileFromPresentationDescriptor, MFCreateASFProfileFromPresentationDescriptor function [Media Foundation], mf.mfcreateasfprofilefrompresentationdescriptor, wmcontainer/MFCreateASFProfileFromPresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

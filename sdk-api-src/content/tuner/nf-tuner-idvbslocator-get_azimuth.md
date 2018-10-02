@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator_get_azimuth.htm
 tech.root: MSTV
 ms.assetid: 2c1314f4-6291-4440-8010-247f8fa82d0c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_Azimuth method, IDVBSLocator.get_Azimuth, IDVBSLocator::get_Azimuth, IDVBSLocatorget_Azimuth, get_Azimuth, get_Azimuth method [Microsoft TV Technologies], get_Azimuth method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_azimuth, tuner/IDVBSLocator::get_Azimuth
 ms.prod: windows-hardware
 ms.technology: windows-devices

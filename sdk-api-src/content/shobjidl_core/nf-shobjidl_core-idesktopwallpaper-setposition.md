@@ -4,10 +4,10 @@ title: IDesktopWallpaper::SetPosition
 author: windows-sdk-content
 description: Sets the display option for the desktop wallpaper image, determining whether the image should be centered, tiled, or stretched.
 old-location: shell\IDesktopWallpaper_SetPosition.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: A4993DB8-9132-43c1-B900-02BA5384B7A8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetPosition method, IDesktopWallpaper.SetPosition, IDesktopWallpaper::SetPosition, SetPosition, SetPosition method [Windows Shell], SetPosition method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetPosition, shobjidl_core/IDesktopWallpaper::SetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

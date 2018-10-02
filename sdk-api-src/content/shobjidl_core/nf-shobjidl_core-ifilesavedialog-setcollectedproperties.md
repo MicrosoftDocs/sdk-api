@@ -4,10 +4,10 @@ title: IFileSaveDialog::SetCollectedProperties
 author: windows-sdk-content
 description: Specifies which properties will be collected in the save dialog.
 old-location: shell\IFileSaveDialog_SetCollectedProperties.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: cff40aba-6a87-4c20-957d-6729e0d995ae
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetCollectedProperties method, IFileSaveDialog.SetCollectedProperties, IFileSaveDialog::SetCollectedProperties, SetCollectedProperties, SetCollectedProperties method [Windows Shell], SetCollectedProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetCollectedProperties, shell_IFileSaveDialog_SetCollectedProperties, shobjidl_core/IFileSaveDialog::SetCollectedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

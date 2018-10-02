@@ -4,10 +4,10 @@ title: IExplorerCommand::GetIcon
 author: windows-sdk-content
 description: Gets an icon resource string of the icon associated with the specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetIcon.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e71b6748-84fc-4944-90b8-a5b0bf97079d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetIcon method, IExplorerCommand.GetIcon, IExplorerCommand::GetIcon, _shell_IExplorerCommand_GetIcon, shell.IExplorerCommand_GetIcon, shobjidl_core/IExplorerCommand::GetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

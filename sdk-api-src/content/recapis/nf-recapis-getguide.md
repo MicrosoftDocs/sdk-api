@@ -7,7 +7,7 @@ old-location: tablet\getguide.htm
 tech.root: tablet
 ms.assetid: b86d6266-cce3-4f84-80b6-7d136172b3ca
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetGuide, GetGuide function [Tablet PC], b86d6266-cce3-4f84-80b6-7d136172b3ca, recapis/GetGuide, tablet.getguide
 ms.prod: windows-hardware
 ms.technology: windows-devices

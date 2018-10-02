@@ -4,10 +4,10 @@ title: SHARDAPPIDINFOLINK
 author: windows-sdk-content
 description: Contains data used by SHAddToRecentDocs to identify both an item, in this case through an IShellLink, and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFOLINK.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 01613dc9-4516-4995-bd31-feee2eb650b2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHARDAPPIDINFOLINK, SHARDAPPIDINFOLINK structure [Windows Shell], _shell_SHARDAPPIDINFOLINK, shell.SHARDAPPIDINFOLINK, shlobj_core/SHARDAPPIDINFOLINK
 ms.prod: windows
 ms.technology: windows-sdk

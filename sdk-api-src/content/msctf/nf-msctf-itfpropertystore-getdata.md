@@ -7,7 +7,7 @@ old-location: tsf\itfpropertystore_getdata.htm
 tech.root: TSF
 ms.assetid: 190506ea-4f15-4976-a337-bfd873e58aff
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetData, GetData method [Text Services Framework], GetData method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetData method, ITfPropertyStore.GetData, ITfPropertyStore::GetData, _tsf_itfpropertystore_getdata_ref, msctf/ITfPropertyStore::GetData, tsf.itfpropertystore_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

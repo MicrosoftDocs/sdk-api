@@ -4,10 +4,10 @@ title: IMFAttributes::UnlockStore
 author: windows-sdk-content
 description: Unlocks the attribute store after a call to the IMFAttributes::LockStore method. While the object is unlocked, multiple threads can access the object's attributes.
 old-location: mf\imfattributes_unlockstore.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 65e35864-868a-4ae9-86ed-772a2b2daeb6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 65e35864-868a-4ae9-86ed-772a2b2daeb6, IMFAttributes interface [Media Foundation],UnlockStore method, IMFAttributes.UnlockStore, IMFAttributes::UnlockStore, UnlockStore, UnlockStore method [Media Foundation], UnlockStore method [Media Foundation],IMFAttributes interface, mf.imfattributes_unlockstore, mfobjects/IMFAttributes::UnlockStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

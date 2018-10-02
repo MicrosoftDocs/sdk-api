@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmrevoked.htm
 tech.root: WMDM
 ms.assetid: b627f243-3652-4db9-8a5e-6a2146b73424
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMRevoked, IWMDMRevoked interface [windows Media Device Manager], IWMDMRevoked interface [windows Media Device Manager],described, IWMDMRevokedInterface, mswmdm/IWMDMRevoked, wmdm.iwmdmrevoked
 ms.prod: windows
 ms.technology: windows-sdk

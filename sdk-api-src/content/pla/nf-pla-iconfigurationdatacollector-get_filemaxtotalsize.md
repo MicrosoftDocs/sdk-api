@@ -7,7 +7,7 @@ old-location: pla\iconfigurationdatacollector_filemaxtotalsize.htm
 tech.root: PLA
 ms.assetid: bcfe2b95-770d-4543-8f79-c5f1b55c5dec
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FileMaxTotalSize property [PLA], FileMaxTotalSize property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxTotalSize property, IConfigurationDataCollector.FileMaxTotalSize, IConfigurationDataCollector.get_FileMaxTotalSize, IConfigurationDataCollector::FileMaxTotalSize, IConfigurationDataCollector::get_FileMaxTotalSize, IConfigurationDataCollector::put_FileMaxTotalSize, base.iconfigurationdatacollector_filemaxtotalsize, get_FileMaxTotalSize, pla.iconfigurationdatacollector_filemaxtotalsize, pla/IConfigurationDataCollector::FileMaxTotalSize, pla/IConfigurationDataCollector::get_FileMaxTotalSize, pla/IConfigurationDataCollector::put_FileMaxTotalSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

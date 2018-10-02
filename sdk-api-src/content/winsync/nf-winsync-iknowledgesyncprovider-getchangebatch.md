@@ -7,7 +7,7 @@ old-location: winsync\iknowledgesyncprovider_getchangebatch.htm
 tech.root: winsync
 ms.assetid: 165eb8eb-092c-4084-a296-abc2421596d5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetChangeBatch, GetChangeBatch method [Windows Sync], GetChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetChangeBatch method, IKnowledgeSyncProvider.GetChangeBatch, IKnowledgeSyncProvider::GetChangeBatch, winsync.iknowledgesyncprovider_getchangebatch, winsync/IKnowledgeSyncProvider::GetChangeBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

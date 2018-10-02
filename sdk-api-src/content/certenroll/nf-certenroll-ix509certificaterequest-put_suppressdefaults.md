@@ -4,10 +4,10 @@ title: IX509CertificateRequest::put_SuppressDefaults
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether the default extensions and attributes are included in the request.
 old-location: security\ix509certificaterequest_suppressdefaults_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 3a7847b6-52b4-4058-8113-cbc3b9101a5b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequest interface [Security],SuppressDefaults property, IX509CertificateRequest.SuppressDefaults, IX509CertificateRequest.put_SuppressDefaults, IX509CertificateRequest::SuppressDefaults, IX509CertificateRequest::get_SuppressDefaults, IX509CertificateRequest::put_SuppressDefaults, SuppressDefaults property [Security], SuppressDefaults property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::SuppressDefaults, certenroll/IX509CertificateRequest::get_SuppressDefaults, certenroll/IX509CertificateRequest::put_SuppressDefaults, put_SuppressDefaults, security.ix509certificaterequest_suppressdefaults_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

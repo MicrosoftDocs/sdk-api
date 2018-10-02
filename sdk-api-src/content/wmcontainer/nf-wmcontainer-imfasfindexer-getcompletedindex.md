@@ -4,10 +4,10 @@ title: IMFASFIndexer::GetCompletedIndex
 author: windows-sdk-content
 description: Retrieves the completed index from the ASF indexer object.
 old-location: mf\imfasfindexer_getcompletedindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: aca721e8-e610-4022-a3da-8ff5a5943e3e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetCompletedIndex, GetCompletedIndex method [Media Foundation], GetCompletedIndex method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetCompletedIndex method, IMFASFIndexer.GetCompletedIndex, IMFASFIndexer::GetCompletedIndex, aca721e8-e610-4022-a3da-8ff5a5943e3e, mf.imfasfindexer_getcompletedindex, wmcontainer/IMFASFIndexer::GetCompletedIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

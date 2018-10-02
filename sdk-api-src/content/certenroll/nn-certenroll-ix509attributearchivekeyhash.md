@@ -4,10 +4,10 @@ title: IX509AttributeArchiveKeyHash
 author: windows-sdk-content
 description: Represents an attribute that contains a SHA-1 hash of the encrypted private key to be archived by a certification authority.
 old-location: security\ix509attributearchivekeyhash.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 52c92629-4c9e-4996-80a2-30e2212b3009
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509AttributeArchiveKeyHash, IX509AttributeArchiveKeyHash interface [Security], IX509AttributeArchiveKeyHash interface [Security],described, certenroll/IX509AttributeArchiveKeyHash, security.ix509attributearchivekeyhash
 ms.prod: windows
 ms.technology: windows-sdk

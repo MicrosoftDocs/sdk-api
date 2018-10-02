@@ -4,10 +4,10 @@ title: IHeaderCtrl::DeleteColumn
 author: windows-sdk-content
 description: Removes a column from the header of the result view.
 old-location: mmc\iheaderctrl_deletecolumn.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 85A4D929-E98B-4C84-9E5C-EA5E41BD0D07
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteColumn, DeleteColumn method [MMC], DeleteColumn method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],DeleteColumn method, IHeaderCtrl.DeleteColumn, IHeaderCtrl::DeleteColumn, mmc.iheaderctrl_deletecolumn, mmc/IHeaderCtrl::DeleteColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices

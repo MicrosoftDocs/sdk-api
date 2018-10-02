@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dbasetexture9__getlevelcount.htm
 tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__getlevelcount.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetLevelCount, GetLevelCount method [Direct3D 9], GetLevelCount method [Direct3D 9],IDirect3DBaseTexture9 interface, IDirect3DBaseTexture9 interface [Direct3D 9],GetLevelCount method, IDirect3DBaseTexture9.GetLevelCount, IDirect3DBaseTexture9::GetLevelCount, d1e2b647-f3f4-ac84-e24e-feeb8e0c6bf8, d3d9helper/IDirect3DBaseTexture9::GetLevelCount, direct3d9.idirect3dbasetexture9__getlevelcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

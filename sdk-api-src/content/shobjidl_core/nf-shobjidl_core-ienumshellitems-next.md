@@ -4,10 +4,10 @@ title: IEnumShellItems::Next
 author: windows-sdk-content
 description: Gets an array of one or more IShellItem interfaces from the enumeration.
 old-location: shell\IEnumShellItems_Next.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8074ecea-30b9-4d1e-9184-457d3dd70bb8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Next method, IEnumShellItems.Next, IEnumShellItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Next, shell.IEnumShellItems_Next, shobjidl_core/IEnumShellItems::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

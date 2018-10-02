@@ -4,10 +4,10 @@ title: "_BLUETOOTH_AUTHENTICATE_RESPONSE"
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATE_RESPONSE structure contains information passed in response to a BTH_REMOTE_AUTHENTICATE_REQUEST event.
 old-location: bluetooth\bluetooth_authenticate_response.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: fc7eda84-3e7b-49e9-a1a6-e1759c894e1a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PBLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth], PBLUETOOTH_AUTHENTICATE_RESPONSE, PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth], _BLUETOOTH_AUTHENTICATE_RESPONSE, bluetooth.bluetooth_authenticate_response, bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE, bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE"
 ms.prod: windows
 ms.technology: windows-sdk

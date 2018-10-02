@@ -7,7 +7,7 @@ old-location: direct2d\gradientstop.htm
 tech.root: direct2d
 ms.assetid: 37f413e8-36ee-462d-8419-908690094c49
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GradientStop, GradientStop function [Direct2D], d2d1helper/GradientStop, direct2d.gradientstop
 ms.prod: windows-hardware
 ms.technology: windows-devices

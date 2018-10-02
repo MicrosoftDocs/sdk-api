@@ -7,7 +7,7 @@ old-location: netvista\l2_notification_data.htm
 tech.root: NetVista
 ms.assetid: 4b67b6c0-2b73-4816-8e85-d6b00227a33c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_56767c07-0bb6-4050-9c44-ed5fd4055ec2.xml, PL2_NOTIFICATION_DATA, PL2_NOTIFICATION_DATA structure pointer [Network Drivers Starting with Windows Vista], _L2_NOTIFICATION_DATA, l2cmn/L2_NOTIFICATION_DATA, l2cmn/PL2_NOTIFICATION_DATA, netvista.l2_notification_data"
 ms.prod: windows
 ms.technology: windows-sdk

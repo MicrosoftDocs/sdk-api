@@ -4,10 +4,10 @@ title: ISyncMgrHandlerInfo::GetTypeLabel
 author: windows-sdk-content
 description: Gets a label for the handler type. This typically provides the model of the device or an equivalent handler-specific identity string.
 old-location: shell\ISyncMgrHandlerInfo_GetTypeLabel.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b1a30aad-bd8e-4375-a914-3010b86d83d9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrHandlerInfo.GetTypeLabel, ISyncMgrHandlerInfo::GetTypeLabel, _shell_ISyncMgrHandlerInfo_GetTypeLabel, shell.ISyncMgrHandlerInfo_GetTypeLabel, syncmgr/ISyncMgrHandlerInfo::GetTypeLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices

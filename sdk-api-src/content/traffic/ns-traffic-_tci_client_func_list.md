@@ -7,7 +7,7 @@ old-location: qos\tci_client_func_list.htm
 tech.root: QOS
 ms.assetid: 45eccc44-d170-49cc-b51d-bb502c2fc1c7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST structure pointer [QOS], TCI_CLIENT_FUNC_LIST, TCI_CLIENT_FUNC_LIST structure [QOS], _TCI_CLIENT_FUNC_LIST, _gqos_tci_client_func_list, qos.tci_client_func_list, traffic/PTCI_CLIENT_FUNC_LIST, traffic/TCI_CLIENT_FUNC_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

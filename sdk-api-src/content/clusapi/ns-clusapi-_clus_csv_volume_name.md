@@ -4,10 +4,10 @@ title: "_CLUS_CSV_VOLUME_NAME"
 author: windows-sdk-content
 description: Represents the name of a cluster shared volume (CSV).
 old-location: mscs\clus_csv_volume_name.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 18E17AA6-1244-41EA-918E-7BDBB90A0D70
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLUS_CSV_VOLUME_NAME, CLUS_CSV_VOLUME_NAME, CLUS_CSV_VOLUME_NAME structure [Failover Cluster], PCLUS_CSV_VOLUME_NAME, PCLUS_CSV_VOLUME_NAME structure pointer [Failover Cluster], _CLUS_CSV_VOLUME_NAME, clusapi/CLUS_CSV_VOLUME_NAME, clusapi/PCLUS_CSV_VOLUME_NAME, mscs.clus_csv_volume_name"
 ms.prod: windows
 ms.technology: windows-sdk

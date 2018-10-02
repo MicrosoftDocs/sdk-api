@@ -7,7 +7,7 @@ old-location: cloudapi\cfreleaseprotectedhandle.htm
 tech.root: cfApi
 ms.assetid: BB63C5EE-92D7-4051-8198-09F50BBC75C5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CfReleaseProtectedHandle, CfReleaseProtectedHandle function, cfapi/CfReleaseProtectedHandle, cloudApi.cfreleaseprotectedhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

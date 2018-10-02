@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetclientinfov6.htm
 tech.root: DHCP
 ms.assetid: 35d976a9-4b5a-4a1f-b7d9-2f7b396baf01
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpSetClientInfoV6, DhcpSetClientInfoV6 function [DHCP], dhcp.dhcpsetclientinfov6, dhcpsapi/DhcpSetClientInfoV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

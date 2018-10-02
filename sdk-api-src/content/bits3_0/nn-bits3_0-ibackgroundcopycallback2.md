@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback2.htm
 tech.root: Bits
 ms.assetid: 9bbc323c-0caf-46a9-ba25-e72a2c6ae363
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyCallback2, IBackgroundCopyCallback2 interface [BITS], IBackgroundCopyCallback2 interface [BITS],described, bits.ibackgroundcopycallback2, bits3_0/IBackgroundCopyCallback2
 ms.prod: windows
 ms.technology: windows-sdk

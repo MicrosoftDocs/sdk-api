@@ -7,7 +7,7 @@ old-location: winmsg\getancestor.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getancestor.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GA_PARENT, GA_ROOT, GA_ROOTOWNER, GetAncestor, GetAncestor function [Windows and Messages], _win32_GetAncestor, _win32_getancestor_cpp, winmsg.getancestor, winui._win32_getancestor, winuser/GetAncestor
 ms.prod: windows-hardware
 ms.technology: windows-devices

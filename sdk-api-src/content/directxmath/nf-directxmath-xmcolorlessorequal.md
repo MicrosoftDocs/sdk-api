@@ -7,7 +7,7 @@ old-location: dxmath\xmcolorlessorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorLessOrEqual(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMColorLessOrEqual, XMColorLessOrEqual, XMColorLessOrEqual method [DirectX Math Support APIs], dxmath.xmcolorlessorequal
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: eaphost\eap_authenticator_method_routines.htm
 tech.root: EAPHost
 ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost], _EAP_AUTHENTICATOR_METHOD_ROUTINES, eaphost.eap_authenticator_method_routines, eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES"
 ms.prod: windows
 ms.technology: windows-sdk

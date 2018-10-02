@@ -4,10 +4,10 @@ title: IMFByteStream::GetCurrentPosition
 author: windows-sdk-content
 description: Retrieves the current read or write position in the stream.
 old-location: mf\imfbytestream_getcurrentposition.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: de36742a-a8a5-4f40-9fea-af89d9a6bf2e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetCurrentPosition, GetCurrentPosition method [Media Foundation], GetCurrentPosition method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetCurrentPosition method, IMFByteStream.GetCurrentPosition, IMFByteStream::GetCurrentPosition, de36742a-a8a5-4f40-9fea-af89d9a6bf2e, mf.imfbytestream_getcurrentposition, mfobjects/IMFByteStream::GetCurrentPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

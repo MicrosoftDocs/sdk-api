@@ -7,7 +7,7 @@ old-location: opc\iopcparturi.htm
 tech.root: OPC
 ms.assetid: 81123212-7a32-4833-b81f-8454a544327d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], IOpcPartUri interface [Open Packaging Conventions],described, msopc/IOpcPartUri, opc.iopcparturi
 ms.prod: windows
 ms.technology: windows-sdk

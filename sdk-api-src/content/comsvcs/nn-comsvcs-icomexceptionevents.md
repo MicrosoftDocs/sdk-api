@@ -7,7 +7,7 @@ old-location: cos\icomexceptionevents.htm
 tech.root: cossdk
 ms.assetid: e484cad0-3b7e-4822-bbde-c953cb0301ca
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IComExceptionEvents, IComExceptionEvents interface [COM+], IComExceptionEvents interface [COM+],described, _dtc_IComExceptionEvents, comsvcs/IComExceptionEvents, cos.icomexceptionevents
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MsiReinstallProductW function
 author: windows-sdk-content
 description: Reinstalls products.
 old-location: setup\msireinstallproduct.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: MsiReinstallProduct, MsiReinstallProduct function, MsiReinstallProductA, MsiReinstallProductW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallproduct, msi/MsiReinstallProduct, msi/MsiReinstallProductA, msi/MsiReinstallProductW, setup.msireinstallproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices

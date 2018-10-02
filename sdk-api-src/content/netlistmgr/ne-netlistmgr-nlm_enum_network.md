@@ -7,7 +7,7 @@ old-location: nla\nlm_enum_network.htm
 tech.root: NLA
 ms.assetid: 37eb1e2e-d769-4e58-b93d-582312bd500a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NLM_ENUM_NETWORK, NLM_ENUM_NETWORK enumeration [Network Awareness], NLM_ENUM_NETWORK_ALL, NLM_ENUM_NETWORK_CONNECTED, NLM_ENUM_NETWORK_DISCONNECTED, netlistmgr/NLM_ENUM_NETWORK, netlistmgr/NLM_ENUM_NETWORK_ALL, netlistmgr/NLM_ENUM_NETWORK_CONNECTED, netlistmgr/NLM_ENUM_NETWORK_DISCONNECTED, nla.nlm_enum_network
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getlistkeyinformation.htm
 tech.root: SMI
 ms.assetid: 34ee8457-34d1-4eff-813b-f59c35c4aa95
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetListKeyInformation, GetListKeyInformation method [SMI], GetListKeyInformation method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetListKeyInformation method, ISettingsItem.GetListKeyInformation, ISettingsItem::GetListKeyInformation, smi.isettingsitem_getlistkeyinformation, wcmconfig/ISettingsItem::GetListKeyInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

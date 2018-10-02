@@ -4,10 +4,10 @@ title: "_OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION query.
 old-location: mf\opm_connected_hdcp_device_information.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1fb59959-782b-44e8-81b1-eca3c32a0783
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: OPM_CONNECTED_HDCP_DEVICE_INFORMATION, OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Media Foundation], OPM_HDCP_FLAG_NONE, OPM_HDCP_FLAG_REPEATER, _OPM_CONNECTED_HDCP_DEVICE_INFORMATION, mf.opm_connected_hdcp_device_information, opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

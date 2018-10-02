@@ -7,7 +7,7 @@ old-location: devinst\mem_des.htm
 tech.root: devinst
 ms.assetid: 1a9ee8f2-fabe-4351-b11e-93f46e190d66
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMEM_DES, MEM_DES, MEM_DES structure [Device and Driver Installation], Mem_Des_s, PMEM_DES, PMEM_DES structure pointer [Device and Driver Installation], cfgmgr32/MEM_DES, cfgmgr32/PMEM_DES, cfgmgrst_cdbb69b5-e18f-4721-bb66-c6160d959f10.xml, devinst.mem_des"
 ms.prod: windows
 ms.technology: windows-sdk

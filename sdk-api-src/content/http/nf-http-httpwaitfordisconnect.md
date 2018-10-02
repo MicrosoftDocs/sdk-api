@@ -7,7 +7,7 @@ old-location: http\httpwaitfordisconnect.htm
 tech.root: Http
 ms.assetid: 1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HttpWaitForDisconnect, HttpWaitForDisconnect function [HTTP], _http_httpwaitfordisconnect, http.httpwaitfordisconnect, http/HttpWaitForDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

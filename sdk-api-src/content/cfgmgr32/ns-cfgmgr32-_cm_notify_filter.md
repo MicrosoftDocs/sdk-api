@@ -7,7 +7,7 @@ old-location: devinst\cm_notify_filter.htm
 tech.root: devinst
 ms.assetid: 8B6CC440-7B41-4382-9917-6833031D5E1B
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCM_NOTIFY_FILTER, CM_NOTIFY_FILTER, CM_NOTIFY_FILTER structure [Device and Driver Installation], PCM_NOTIFY_FILTER, PCM_NOTIFY_FILTER structure pointer [Device and Driver Installation], _CM_NOTIFY_FILTER, cfgmgr32/CM_NOTIFY_FILTER, cfgmgr32/PCM_NOTIFY_FILTER, devinst.cm_notify_filter"
 ms.prod: windows
 ms.technology: windows-sdk

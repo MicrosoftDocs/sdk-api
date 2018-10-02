@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_getpreviouslocator.htm
 tech.root: MSTV
 ms.assetid: 72512da5-28d4-40b8-93df-039014f432c0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetPreviousLocator, GetPreviousLocator method [Microsoft TV Technologies], GetPreviousLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousLocator method, ITuneRequestInfo.GetPreviousLocator, ITuneRequestInfo::GetPreviousLocator, ITuneRequestInfoGetPreviousLocator, bdatif/ITuneRequestInfo::GetPreviousLocator, mstv.itunerequestinfo_getpreviouslocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

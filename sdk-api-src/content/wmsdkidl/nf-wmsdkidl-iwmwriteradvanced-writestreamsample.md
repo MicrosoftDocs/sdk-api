@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_writestreamsample.htm
 tech.root: wmformat
 ms.assetid: 498bfb73-bfa5-429d-ae8a-3a691fc25fc2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],WriteStreamSample method, IWMWriterAdvanced.WriteStreamSample, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

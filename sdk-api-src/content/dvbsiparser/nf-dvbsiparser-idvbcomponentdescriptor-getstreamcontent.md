@@ -7,7 +7,7 @@ old-location: mstv\idvbcomponentdescriptor_getstreamcontent.htm
 tech.root: MSTV
 ms.assetid: 3bfa86c4-2b94-43cd-842e-33cc03b713a5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetStreamContent, GetStreamContent method [Microsoft TV Technologies], GetStreamContent method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetStreamContent method, IDvbComponentDescriptor.GetStreamContent, IDvbComponentDescriptor::GetStreamContent, dvbsiparser/IDvbComponentDescriptor::GetStreamContent, mstv.idvbcomponentdescriptor_getstreamcontent
 ms.prod: windows-hardware
 ms.technology: windows-devices

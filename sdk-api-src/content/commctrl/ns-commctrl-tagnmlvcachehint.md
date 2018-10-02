@@ -4,10 +4,10 @@ title: tagNMLVCACHEHINT
 author: windows-sdk-content
 description: Contains information used to update the cached item information for use with a virtual list view.
 old-location: controls\NMLVCACHEHINT.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvcachehint.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPNMLVCACHEHINT, NMLVCACHEHINT, NMLVCACHEHINT structure [Windows Controls], PNMLVCACHEHINT, PNMLVCACHEHINT structure pointer [Windows Controls], _win32_NMLVCACHEHINT, _win32_NMLVCACHEHINT_cpp, commctrl/NMLVCACHEHINT, commctrl/PNMLVCACHEHINT, controls.NMLVCACHEHINT, controls._win32_NMLVCACHEHINT, tagNMLVCACHEHINT"
 ms.prod: windows
 ms.technology: windows-sdk

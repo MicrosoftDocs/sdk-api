@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT
 author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_PROTECTION command.
 old-location: mf\d3d11_authenticated_channel_configure_protection_input.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 35BAED8D-B5AD-4ECA-B3ED-41871A2969FC
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT, mf.d3d11_authenticated_channel_configure_protection_input
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\setupgetstringfield.htm
 tech.root: SetupApi
 ms.assetid: fc735827-37ae-4d77-a0d4-4d31f0225d69
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetupGetStringField, SetupGetStringField function [Setup API], SetupGetStringFieldA, SetupGetStringFieldW, _setupapi_setupgetstringfield, setup.setupgetstringfield, setupapi/SetupGetStringField, setupapi/SetupGetStringFieldA, setupapi/SetupGetStringFieldW
 ms.prod: windows-hardware
 ms.technology: windows-devices

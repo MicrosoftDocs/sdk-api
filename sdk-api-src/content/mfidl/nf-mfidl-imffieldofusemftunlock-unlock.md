@@ -4,10 +4,10 @@ title: IMFFieldOfUseMFTUnlock::Unlock
 author: windows-sdk-content
 description: Unlocks a Media Foundation transform (MFT) so that the application can use it.
 old-location: mf\imffieldofusemftunlock_unlock.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 54b15e72-6551-4162-90ca-a9bed68ca62f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFFieldOfUseMFTUnlock interface [Media Foundation],Unlock method, IMFFieldOfUseMFTUnlock.Unlock, IMFFieldOfUseMFTUnlock::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFFieldOfUseMFTUnlock interface, mf.imffieldofusemftunlock_unlock, mfidl/IMFFieldOfUseMFTUnlock::Unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

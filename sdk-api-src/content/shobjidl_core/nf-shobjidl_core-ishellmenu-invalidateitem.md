@@ -4,10 +4,10 @@ title: IShellMenu::InvalidateItem
 author: windows-sdk-content
 description: Redraws an item in a menu band.
 old-location: shell\IShellMenu_InvalidateItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 694722f2-2030-4c85-bcc4-70f8a8b70161
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellMenu interface [Windows Shell],InvalidateItem method, IShellMenu.InvalidateItem, IShellMenu::InvalidateItem, InvalidateItem, InvalidateItem method [Windows Shell], InvalidateItem method [Windows Shell],IShellMenu interface, _shell_IShellMenu_InvalidateItem, shell.IShellMenu_InvalidateItem, shobjidl_core/IShellMenu::InvalidateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\insnetsourcecreator_initialize.htm
 tech.root: wmformat
 ms.assetid: 53c1a15e-3ced-44e5-b512-b381ae11aa65
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: INSNetSourceCreator interface [windows Media Format],Initialize method, INSNetSourceCreator.Initialize, INSNetSourceCreator::Initialize, INSNetSourceCreatorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],INSNetSourceCreator interface, wmformat.insnetsourcecreator_initialize, wmnetsourcecreator/INSNetSourceCreator::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

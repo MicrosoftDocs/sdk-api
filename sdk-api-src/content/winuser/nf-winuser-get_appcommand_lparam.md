@@ -7,7 +7,7 @@ old-location: inputdev\get_appcommand_lparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_appcommand_lparam.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GET_APPCOMMAND_LPARAM, GET_APPCOMMAND_LPARAM macro [Keyboard and Mouse Input], _win32_GET_APPCOMMAND_LPARAM, _win32_get_appcommand_lparam_cpp, inputdev.get_appcommand_lparam, winui._win32_get_appcommand_lparam, winuser/GET_APPCOMMAND_LPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iisdblogotransmissiondescriptor.htm
 tech.root: MSTV
 ms.assetid: 9c0930f6-6c05-48c9-91e4-2abdd3355a32
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbLogoTransmissionDescriptor, mstv.iisdblogotransmissiondescriptor
 ms.prod: windows
 ms.technology: windows-sdk

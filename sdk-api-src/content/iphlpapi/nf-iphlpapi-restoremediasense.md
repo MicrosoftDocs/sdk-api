@@ -7,7 +7,7 @@ old-location: iphlp\restoremediasense.htm
 tech.root: IpHlp
 ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
 ms.prod: windows-hardware
 ms.technology: windows-devices

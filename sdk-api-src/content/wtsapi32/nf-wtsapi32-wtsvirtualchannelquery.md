@@ -7,7 +7,7 @@ old-location: termserv\wtsvirtualchannelquery.htm
 tech.root: TermServ
 ms.assetid: 68ae8174-d72b-4b1c-b8e9-ae5fed51d385
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WTSVirtualChannelQuery, WTSVirtualChannelQuery function [Remote Desktop Services], _win32_wtsvirtualchannelquery, termserv.wtsvirtualchannelquery, wtsapi32/WTSVirtualChannelQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

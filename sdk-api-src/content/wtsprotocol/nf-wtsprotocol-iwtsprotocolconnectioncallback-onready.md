@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnectioncallback_onready.htm
 tech.root: TermServ
 ms.assetid: a1289aca-bcf6-4fd2-a288-d401bece005d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],OnReady method, IWTSProtocolConnectionCallback.OnReady, IWTSProtocolConnectionCallback::OnReady, OnReady, OnReady method [Remote Desktop Services], OnReady method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_onready, wtsprotocol/IWTSProtocolConnectionCallback::OnReady
 ms.prod: windows-hardware
 ms.technology: windows-devices

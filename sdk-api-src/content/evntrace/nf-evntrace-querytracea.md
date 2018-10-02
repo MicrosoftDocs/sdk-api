@@ -7,7 +7,7 @@ old-location: etw\querytrace.htm
 tech.root: ETW
 ms.assetid: 8ad0f4f6-902c-490e-b26e-7499dd99fc95
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QueryTrace, QueryTrace function [ETW], QueryTraceA, QueryTraceW, _evt_querytrace, base.querytrace, etw.querytrace, evntrace/QueryTrace, evntrace/QueryTraceA, evntrace/QueryTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITextFont2::SetDuplicate2
 author: windows-sdk-content
 description: Sets the properties of this object by copying the properties of another text font object.
 old-location: controls\itextfont2_setduplicate2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: aaaafed9-be20-40a2-beed-09703970452f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetDuplicate2 method, ITextFont2.SetDuplicate2, ITextFont2::SetDuplicate2, SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_setduplicate2, tom/ITextFont2::SetDuplicate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

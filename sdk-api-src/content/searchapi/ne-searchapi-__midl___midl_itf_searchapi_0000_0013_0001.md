@@ -7,7 +7,7 @@ old-location: search\_search_CLUSION_REASON.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\clusion_reason.htm
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: CLUSIONREASON_DEFAULT, CLUSIONREASON_GROUPPOLICY, CLUSIONREASON_UNKNOWNSCOPE, CLUSIONREASON_USER, CLUSION_REASON, CLUSION_REASON enumeration [search], __MIDL___MIDL_itf_searchapi_0000_0013_0001, _search_CLUSION_REASON, search._search_CLUSION_REASON, searchapi/CLUSIONREASON_DEFAULT, searchapi/CLUSIONREASON_GROUPPOLICY, searchapi/CLUSIONREASON_UNKNOWNSCOPE, searchapi/CLUSIONREASON_USER, searchapi/CLUSION_REASON
 ms.prod: windows
 ms.technology: windows-sdk

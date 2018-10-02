@@ -4,10 +4,10 @@ title: IDirectXVideoDecoder::BeginFrame
 author: windows-sdk-content
 description: Starts the decoding operation.
 old-location: mf\idirectxvideodecoder_beginframe.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb, BeginFrame, BeginFrame method [Media Foundation], BeginFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],BeginFrame method, IDirectXVideoDecoder.BeginFrame, IDirectXVideoDecoder::BeginFrame, dxva2api/IDirectXVideoDecoder::BeginFrame, mf.idirectxvideodecoder_beginframe
 ms.prod: windows-hardware
 ms.technology: windows-devices

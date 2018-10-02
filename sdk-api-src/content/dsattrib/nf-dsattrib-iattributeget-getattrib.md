@@ -7,7 +7,7 @@ old-location: mstv\iattributeget_getattrib.htm
 tech.root: MSTV
 ms.assetid: df1aad0c-7e71-4110-8e05-0af33dd04859
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetAttrib, GetAttrib method [Microsoft TV Technologies], GetAttrib method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetAttrib method, IAttributeGet.GetAttrib, IAttributeGet::GetAttrib, IAttributeGetGetAttrib, dsattrib/IAttributeGet::GetAttrib, mstv.iattributeget_getattrib
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdscontroller_invalidatecache.htm
 tech.root: VDS
 ms.assetid: 91f77390-02eb-4c5f-a5de-382df608f0df
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsController interface [VDS],InvalidateCache method, IVdsController.InvalidateCache, IVdsController::InvalidateCache, InvalidateCache, InvalidateCache method [VDS], InvalidateCache method [VDS],IVdsController interface, base.ivdscontroller_invalidatecache, vds/IVdsController::InvalidateCache, vdshwprv/IVdsController::InvalidateCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

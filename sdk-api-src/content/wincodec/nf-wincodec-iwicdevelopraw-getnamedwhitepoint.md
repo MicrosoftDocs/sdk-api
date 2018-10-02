@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getnamedwhitepoint.htm
 tech.root: wic
 ms.assetid: 2fa5f0c8-fee2-4338-992a-5c927883a731
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetNamedWhitePoint, GetNamedWhitePoint method [Windows Imaging Component], GetNamedWhitePoint method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetNamedWhitePoint method, IWICDevelopRaw.GetNamedWhitePoint, IWICDevelopRaw::GetNamedWhitePoint, _wic_codec_iwicdevelopraw_getnamedwhitepoint, wic._wic_codec_iwicdevelopraw_getnamedwhitepoint, wincodec/IWICDevelopRaw::GetNamedWhitePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

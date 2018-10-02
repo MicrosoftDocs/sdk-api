@@ -7,7 +7,7 @@ old-location: appxpkg\appx_encrypted_exemptions.htm
 tech.root: appxpkg
 ms.assetid: EEA57363-3070-4D3E-9F37-4FE0ADF35FED
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: APPX_ENCRYPTED_EXEMPTIONS, APPX_ENCRYPTED_EXEMPTIONS structure [App packaging and management], PAPPX_ENCRYPTED_EXEMPTIONS, PAPPX_ENCRYPTED_EXEMPTIONS structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_EXEMPTIONS, appxpackaging/PAPPX_ENCRYPTED_EXEMPTIONS, appxpkg.appx_encrypted_exemptions
 ms.prod: windows
 ms.technology: windows-sdk

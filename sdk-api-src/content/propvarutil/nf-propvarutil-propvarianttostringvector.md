@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringVector.htm
 tech.root: properties
 ms.assetid: 6618ee02-1939-4c9c-8690-a8cd5d668cdb
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Windows Properties], _shell_PropVariantToStringVector, properties.PropVariantToStringVector, propvarutil/PropVariantToStringVector, shell.PropVariantToStringVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

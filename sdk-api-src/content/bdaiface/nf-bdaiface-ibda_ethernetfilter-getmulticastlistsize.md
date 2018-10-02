@@ -7,7 +7,7 @@ old-location: mstv\ibda_ethernetfilter_getmulticastlistsize.htm
 tech.root: MSTV
 ms.assetid: bc2452ca-53ad-4286-951a-c211f3f82cf3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_EthernetFilter.GetMulticastListSize, IBDA_EthernetFilter::GetMulticastListSize, IBDA_EthernetFilterGetMulticastListSize, bdaiface/IBDA_EthernetFilter::GetMulticastListSize, mstv.ibda_ethernetfilter_getmulticastlistsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IConsole::MessageBox
 author: windows-sdk-content
 description: Displays a message box.
 old-location: mmc\iconsole_messagebox.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 37F5BF57-A2F6-41BB-822D-298BBCF28B45
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IConsole interface [MMC],MessageBox method, IConsole.MessageBox, IConsole::MessageBox, MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_HELP, MB_ICONEXCLAMATION,MB_ICONWARNING, MB_ICONINFORMATION,MB_ICONASTERISK, MB_ICONQUESTION, MB_ICONSTOP,MB_ICONERROR,MB_ICONHAND, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_RIGHT, MB_RTLREADING, MB_SERVICE_NOTIFICATION, MB_SERVICE_NOTIFICATION_NT3x, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_TOPMOST, MB_YESNO, MB_YESNOCANCEL, MessageBox, MessageBox method [MMC], MessageBox method [MMC],IConsole interface, mmc.iconsole_messagebox, mmc/IConsole::MessageBox
 ms.prod: windows-hardware
 ms.technology: windows-devices

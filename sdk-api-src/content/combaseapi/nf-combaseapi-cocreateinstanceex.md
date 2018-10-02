@@ -7,7 +7,7 @@ old-location: com\cocreateinstanceex.htm
 tech.root: com
 ms.assetid: 3b414b95-e8d2-42e8-b4f2-5cc5189a3d08
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: CoCreateInstanceEx, CoCreateInstanceEx function [COM], _com_CoCreateInstanceEx, com.cocreateinstanceex, combaseapi/CoCreateInstanceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

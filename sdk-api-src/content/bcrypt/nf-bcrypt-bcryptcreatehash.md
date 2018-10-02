@@ -7,7 +7,7 @@ old-location: security\bcryptcreatehash_func.htm
 tech.root: SecCNG
 ms.assetid: deb02f67-f3d3-4542-8245-fd4982c3190b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateHash, BCryptCreateHash function [Security], bcrypt/BCryptCreateHash, security.bcryptcreatehash_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

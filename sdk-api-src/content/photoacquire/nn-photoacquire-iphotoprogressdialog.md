@@ -7,7 +7,7 @@ old-location: picacq\iphotoprogressdialog.htm
 tech.root: acquisition
 ms.assetid: a3928874-5a15-43d9-9d9c-8b66478b0597
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], IPhotoProgressDialog interface [Picture Acquisition],described, IPhotoProgressDialogInterface, photoacquire/IPhotoProgressDialog, picacq.iphotoprogressdialog
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MF_CAPTURE_ENGINE_SINK_TYPE
 author: windows-sdk-content
 description: Specifies a type of capture sink.
 old-location: mf\mf_capture_engine_sink_type.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 186F99D3-4C33-4749-88DB-86A356808CCC
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MF_CAPTURE_ENGINE_SINK_TYPE, MF_CAPTURE_ENGINE_SINK_TYPE enumeration [Media Foundation], MF_CAPTURE_ENGINE_SINK_TYPE_PHOTO, MF_CAPTURE_ENGINE_SINK_TYPE_PREVIEW, MF_CAPTURE_ENGINE_SINK_TYPE_RECORD, mf.mf_capture_engine_sink_type, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_PHOTO, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_PREVIEW, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_RECORD
 ms.prod: windows
 ms.technology: windows-sdk

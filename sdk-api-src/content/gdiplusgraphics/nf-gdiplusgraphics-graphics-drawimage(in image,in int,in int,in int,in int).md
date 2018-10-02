@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: DrawImage, DrawImage methods [GDI+], Graphics.DrawImage, Graphics.DrawImage(IN Image,IN INT,IN INT,IN INT,IN INT), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawImage_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Methods, gdiplusgraphics/DrawImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

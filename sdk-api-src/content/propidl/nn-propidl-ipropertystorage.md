@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage.htm
 tech.root: Stg
 ms.assetid: c021f695-db54-4861-9f30-35a81d2dccd5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage],described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
 ms.prod: windows
 ms.technology: windows-sdk

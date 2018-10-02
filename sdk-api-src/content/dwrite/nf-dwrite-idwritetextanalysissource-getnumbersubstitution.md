@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissource_getnumbersubstitution.htm
 tech.root: DirectWrite
 ms.assetid: 23e1539c-a58e-4123-82da-2f9d94309b05
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetNumberSubstitution, GetNumberSubstitution method [Direct Write], GetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetNumberSubstitution method, IDWriteTextAnalysisSource.GetNumberSubstitution, IDWriteTextAnalysisSource::GetNumberSubstitution, directwrite.idwritetextanalysissource_getnumbersubstitution, dwrite/IDWriteTextAnalysisSource::GetNumberSubstitution
 ms.prod: windows-hardware
 ms.technology: windows-devices

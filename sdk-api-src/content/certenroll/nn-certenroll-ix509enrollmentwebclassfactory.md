@@ -4,10 +4,10 @@ title: IX509EnrollmentWebClassFactory
 author: windows-sdk-content
 description: Can be used to create any of the following objects on a webpage.
 old-location: security\ix509enrollmentwebclassfactory.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f779c197-8467-481a-abf5-d3fd3ac90ba7
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509EnrollmentWebClassFactory, IX509EnrollmentWebClassFactory interface [Security], IX509EnrollmentWebClassFactory interface [Security],described, certenroll/IX509EnrollmentWebClassFactory, security.ix509enrollmentwebclassfactory
 ms.prod: windows
 ms.technology: windows-sdk

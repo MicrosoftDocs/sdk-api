@@ -7,7 +7,7 @@ old-location: com\stgmedium.htm
 tech.root: com
 ms.assetid: 5d05819a-10db-4d8e-91e4-8a7c05885cde
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPSTGMEDIUM, ASYNC_STGMEDIUM, LPSTGMEDIUM, LPSTGMEDIUM structure pointer [COM], STGMEDIUM, STGMEDIUM structure [COM], _ole_STGMEDIUM, com.stgmedium, objidl/LPSTGMEDIUM, objidl/STGMEDIUM, tagSTGMEDIUM, uSTGMEDIUM"
 ms.prod: windows
 ms.technology: windows-sdk

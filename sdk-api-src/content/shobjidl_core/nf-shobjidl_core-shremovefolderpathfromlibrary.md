@@ -4,10 +4,10 @@ title: SHRemoveFolderPathFromLibrary function
 author: windows-sdk-content
 description: Removes a folder from a library.
 old-location: shell\SHRemoveFolderPathFromLibrary.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 34de407c-54f0-4be9-a383-4bf1baa63eef
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHRemoveFolderPathFromLibrary, SHRemoveFolderPathFromLibrary function [Windows Shell], _shell_SHRemoveFolderPathFromLibrary, shell.SHRemoveFolderPathFromLibrary, shobjidl_core/SHRemoveFolderPathFromLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

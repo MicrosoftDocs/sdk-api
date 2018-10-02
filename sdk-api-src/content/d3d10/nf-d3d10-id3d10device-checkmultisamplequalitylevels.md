@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_checkmultisamplequalitylevels.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkmultisamplequalitylevels.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 5555dfc7-c61e-e6e9-a6a5-956255410a73, CheckMultisampleQualityLevels, CheckMultisampleQualityLevels method [Direct3D 10], CheckMultisampleQualityLevels method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckMultisampleQualityLevels method, ID3D10Device.CheckMultisampleQualityLevels, ID3D10Device::CheckMultisampleQualityLevels, d3d10/ID3D10Device::CheckMultisampleQualityLevels, direct3d10.id3d10device_checkmultisamplequalitylevels
 ms.prod: windows-hardware
 ms.technology: windows-devices

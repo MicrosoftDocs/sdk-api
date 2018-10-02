@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_calibrate.htm
 tech.root: DirectShow
 ms.assetid: 0c760669-c494-45bb-994e-5b4599db7de4
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: Calibrate, Calibrate method [DirectShow], Calibrate method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],Calibrate method, IAMExtDevice.Calibrate, IAMExtDevice::Calibrate, IAMExtDeviceCalibrate, dshow.iamextdevice_calibrate, strmif/IAMExtDevice::Calibrate
 ms.prod: windows-hardware
 ms.technology: windows-devices

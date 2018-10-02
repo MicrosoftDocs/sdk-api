@@ -4,10 +4,10 @@ title: IHandlerInfo::GetApplicationDisplayName
 author: windows-sdk-content
 description: Retrieves the display name of the application that implemented the handler.
 old-location: shell\IHandlerInfo_GetApplicationDisplayName.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 19b3b042-7c2d-4402-913e-daa5c8bba595
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetApplicationDisplayName, GetApplicationDisplayName method [Windows Shell], GetApplicationDisplayName method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationDisplayName method, IHandlerInfo.GetApplicationDisplayName, IHandlerInfo::GetApplicationDisplayName, shell.IHandlerInfo_GetApplicationDisplayName, shobjidl_core/IHandlerInfo::GetApplicationDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

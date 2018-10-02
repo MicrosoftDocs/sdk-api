@@ -7,7 +7,7 @@ old-location: dxmath\xmquaterniontoaxisangle.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionToAxisAngle(XMVECTOR@,float@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMQuaternionToAxisAngle, XMQuaternionToAxisAngle, XMQuaternionToAxisAngle method [DirectX Math Support APIs], dxmath.xmquaterniontoaxisangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\ienumtflanguageprofiles.htm
 tech.root: TSF
 ms.assetid: 8ac41bff-8537-4558-a92c-6e7dae6a6bdf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumTfLanguageProfiles, IEnumTfLanguageProfiles interface [Text Services Framework], IEnumTfLanguageProfiles interface [Text Services Framework],described, _tsf_ienumtflanguageprofiles_ref, msctf/IEnumTfLanguageProfiles, tsf.ienumtflanguageprofiles
 ms.prod: windows
 ms.technology: windows-sdk

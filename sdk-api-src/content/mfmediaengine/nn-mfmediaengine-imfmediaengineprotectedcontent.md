@@ -4,10 +4,10 @@ title: IMFMediaEngineProtectedContent
 author: windows-sdk-content
 description: Enables the Media Engine to play protected video content.
 old-location: mf\imfmediaengineprotectedcontent.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 85B37711-DB46-4BC7-A051-79E9507791FA
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], IMFMediaEngineProtectedContent interface [Media Foundation],described, mf.imfmediaengineprotectedcontent, mfmediaengine/IMFMediaEngineProtectedContent
 ms.prod: windows
 ms.technology: windows-sdk

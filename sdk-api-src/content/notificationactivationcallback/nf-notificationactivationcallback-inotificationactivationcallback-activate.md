@@ -7,7 +7,7 @@ old-location: win32_tile_badge_notif\inotificationactivationcallback_activate.ht
 tech.root: win32_tile_badge_notif
 ms.assetid: C366FE9F-D962-485F-B029-A96AA3358942
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Activate, Activate method, Activate method,INotificationActivationCallback interface, INotificationActivationCallback interface,Activate method, INotificationActivationCallback.Activate, INotificationActivationCallback::Activate, notificationactivationcallback/INotificationActivationCallback::Activate, win32_tile_badge_notif.inotificationactivationcallback_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices

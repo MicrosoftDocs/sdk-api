@@ -4,10 +4,10 @@ title: IMFVideoProcessor::GetProcAmpValues
 author: windows-sdk-content
 description: Retrieves the current settings for one or more color adjustment (ProcAmp) settings.
 old-location: mf\imfvideoprocessor_getprocampvalues.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d1d6f6a4-fe3b-4acf-a004-d02ece41a302
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetProcAmpValues, GetProcAmpValues method [Media Foundation], GetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpValues method, IMFVideoProcessor.GetProcAmpValues, IMFVideoProcessor::GetProcAmpValues, d1d6f6a4-fe3b-4acf-a004-d02ece41a302, evr9/IMFVideoProcessor::GetProcAmpValues, mf.imfvideoprocessor_getprocampvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\getnativesysteminfo.htm
 tech.root: SysInfo
 ms.assetid: a4a1123b-83d7-4ee2-aa38-68fff5373618
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNativeSystemInfo, GetNativeSystemInfo function, _win32_getnativesysteminfo, base.getnativesysteminfo, sysinfoapi/GetNativeSystemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

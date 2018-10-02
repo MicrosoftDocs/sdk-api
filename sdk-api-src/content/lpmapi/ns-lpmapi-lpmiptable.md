@@ -7,7 +7,7 @@ old-location: qos\lpmiptable.htm
 tech.root: QOS
 ms.assetid: cbd67aa2-8b87-4e24-8a8e-a6c60cebf31f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LPMIPTABLE, LPMIPTABLE structure [QOS], _gqos_lpmiptable, lpmapi/LPMIPTABLE, lpmiptable, qos.lpmiptable
 ms.prod: windows
 ms.technology: windows-sdk

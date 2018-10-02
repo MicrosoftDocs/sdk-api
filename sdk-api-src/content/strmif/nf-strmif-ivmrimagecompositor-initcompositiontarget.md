@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor_initcompositiontarget.htm
 tech.root: DirectShow
 ms.assetid: 16d54090-a0fa-480f-ba94-a15aa08d4576
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],InitCompositionTarget method, IVMRImageCompositor.InitCompositionTarget, IVMRImageCompositor::InitCompositionTarget, IVMRImageCompositorInitCompositionTarget, InitCompositionTarget, InitCompositionTarget method [DirectShow], InitCompositionTarget method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_initcompositiontarget, strmif/IVMRImageCompositor::InitCompositionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

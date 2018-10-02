@@ -4,10 +4,10 @@ title: SymFromNameW function
 author: windows-sdk-content
 description: Retrieves symbol information for the specified name.
 old-location: base\symfromname.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 26b9eba7-2038-4640-aeb2-3052889b14ea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymFromName, SymFromName function, SymFromNameW, _win32_symfromname, base.symfromname, dbghelp/SymFromName, dbghelp/SymFromNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_pushretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 8027801C-ACDD-457D-A7A5-200B818D40A7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushRetrievalFilter method, IDXGIInfoQueue.PushRetrievalFilter, IDXGIInfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method [DXGI], PushRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushretrievalfilter, dxgidebug/IDXGIInfoQueue::PushRetrievalFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

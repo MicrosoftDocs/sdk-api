@@ -7,7 +7,7 @@ old-location: mstv\icaptionservicedescriptor_getwideaspectratio.htm
 tech.root: MSTV
 ms.assetid: 921d919a-5e23-4c09-abff-3ed1e7dbec01
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetWideAspectRatio, GetWideAspectRatio method [Microsoft TV Technologies], GetWideAspectRatio method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetWideAspectRatio method, ICaptionServiceDescriptor.GetWideAspectRatio, ICaptionServiceDescriptor::GetWideAspectRatio, ICaptionServiceDescriptorGetWideAspectRatio, atscpsipparser/ICaptionServiceDescriptor::GetWideAspectRatio, mstv.icaptionservicedescriptor_getwideaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices

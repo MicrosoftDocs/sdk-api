@@ -7,7 +7,7 @@ old-location: automat\ienumvariant_next.htm
 tech.root: automat
 ms.assetid: 691c1624-8d01-41e0-890e-a4782eba1f59
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumVARIANT interface [Automation],Next method, IEnumVARIANT.Next, IEnumVARIANT::Next, Next, Next method [Automation], Next method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Next, automat.ienumvariant_next, oaidl/IEnumVARIANT::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

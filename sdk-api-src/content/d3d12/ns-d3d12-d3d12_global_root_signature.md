@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_global_root_signature.htm
 tech.root: direct3d12
 ms.assetid: 971433E7-9221-4988-BAD9-2DD1D14A5039
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_GLOBAL_ROOT_SIGNATURE, D3D12_GLOBAL_ROOT_SIGNATURE structure, PD3D12_GLOBAL_ROOT_SIGNATURE, PD3D12_GLOBAL_ROOT_SIGNATURE structure pointer, d3d12/D3D12_GLOBAL_ROOT_SIGNATURE, d3d12/PD3D12_GLOBAL_ROOT_SIGNATURE, direct3d12.d3d12_global_root_signature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The presence of this subobject in a state object is optional.  The combination o
 
 If any given function in a call graph is associated with a particular global root signature, any other functions in the graph must either be associated with the same global root signature or none, and the shader entry (the root of the call graph) must be associated with the global root signature.
 
-Different shaders can use different global root signatures (or none) within a state object, however any shaders referenced during a particular <a href="direct3d12.id3d12graphicscommandlist4_dispatchrays">DispatchRays</a> operation from a command list must have specified the same global root signature as what has been set on the command list as the compute root signature.  So it is valid to define a single large state object with multiple global root signatures associated with different subsets of the shaders. Apps are not forced to split their state object just because some shaders use different global root signatures.
+Different shaders can use different global root signatures (or none) within a state object, however any shaders referenced during a particular <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays">DispatchRays</a> operation from a command list must have specified the same global root signature as what has been set on the command list as the compute root signature.  So it is valid to define a single large state object with multiple global root signatures associated with different subsets of the shaders. Apps are not forced to split their state object just because some shaders use different global root signatures.
 
 
 

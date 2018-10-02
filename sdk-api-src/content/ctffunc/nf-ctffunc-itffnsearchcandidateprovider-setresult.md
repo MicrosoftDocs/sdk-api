@@ -7,7 +7,7 @@ old-location: tsf\itffnsearchcandidateprovider_setresult.htm
 tech.root: TSF
 ms.assetid: 5C4DA0D3-58FD-4955-9658-29ECD8FECEC1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfFnSearchCandidateProvider interface [Text Services Framework],SetResult method, ITfFnSearchCandidateProvider.SetResult, ITfFnSearchCandidateProvider::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfFnSearchCandidateProvider interface, ctffunc/ITfFnSearchCandidateProvider::SetResult, tsf.itffnsearchcandidateprovider_setresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: htmlhelp\iitresultset_add4.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetadddword.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,DWORD,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,DWORD,PRIORITY), htmlhelp.iitresultset_add4, infotech/IITResultSet::Add, refIITResultSetAddDWord
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SHGetStockIconInfo function
 author: windows-sdk-content
 description: Retrieves information about system-defined Shell icons.
 old-location: shell\SHGetStockIconInfo.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c08b1a53-e67c-4ed0-a9c6-d000c448e182
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHGSI_ICON, SHGSI_ICONLOCATION, SHGSI_LARGEICON, SHGSI_LINKOVERLAY, SHGSI_SELECTED, SHGSI_SHELLICONSIZE, SHGSI_SMALLICON, SHGSI_SYSICONINDEX, SHGetStockIconInfo, SHGetStockIconInfo function [Windows Shell], _shell_SHGetStockIconInfo, shell.SHGetStockIconInfo, shellapi/SHGetStockIconInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

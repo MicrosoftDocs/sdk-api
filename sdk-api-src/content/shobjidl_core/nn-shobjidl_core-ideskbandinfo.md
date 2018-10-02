@@ -4,10 +4,10 @@ title: IDeskBandInfo
 author: windows-sdk-content
 description: Exposes a method for getting the default Desk Band bandwidth.
 old-location: shell\IDeskBandInfo.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1fff31d0-e732-4c93-8238-a8b4a5a62d37
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IDeskBandInfo, IDeskBandInfo interface [Windows Shell], IDeskBandInfo interface [Windows Shell],described, _shell_IDeskBandInfo, shell.IDeskBandInfo, shobjidl_core/IDeskBandInfo
 ms.prod: windows
 ms.technology: windows-sdk

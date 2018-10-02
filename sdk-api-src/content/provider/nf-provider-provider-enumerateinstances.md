@@ -7,7 +7,7 @@ old-location: wmi\provider_enumerateinstances.htm
 tech.root: WmiSdk
 ms.assetid: 9566acb0-d7bf-4d3d-b7da-5cfbce150a2c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z, EnumerateInstances, EnumerateInstances method [Windows Management Instrumentation], EnumerateInstances method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],EnumerateInstances method, Provider.EnumerateInstances, Provider::EnumerateInstances, _hmm_provider_enumerateinstances, provider/Provider::EnumerateInstances, wmi.provider_enumerateinstances"
 ms.prod: windows-hardware
 ms.technology: windows-devices

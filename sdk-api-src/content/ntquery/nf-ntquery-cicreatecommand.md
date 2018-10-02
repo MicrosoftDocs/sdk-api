@@ -7,7 +7,7 @@ old-location: indexsrv\cicreatecommand.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_3sys.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CICreateCommand, CICreateCommand function [Indexing Service], _idxs_CICreateCommand, indexsrv.cicreatecommand, ntquery/CICreateCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

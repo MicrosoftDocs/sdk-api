@@ -4,10 +4,10 @@ title: ITextPara::SetListType
 author: windows-sdk-content
 description: Sets the type of list to be used for paragraphs.
 old-location: controls\ITextPara_SetListType.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttype.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListType method, ITextPara.SetListType, ITextPara::SetListType, SetListType, SetListType method [Windows Controls], SetListType method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListType, _win32_ITextPara_SetListType_cpp, controls.ITextPara_SetListType, controls._win32_ITextPara_SetListType, tom/ITextPara::SetListType
 ms.prod: windows-hardware
 ms.technology: windows-devices

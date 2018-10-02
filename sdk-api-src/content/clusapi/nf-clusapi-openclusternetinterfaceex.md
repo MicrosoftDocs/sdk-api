@@ -4,10 +4,10 @@ title: OpenClusterNetInterfaceEx function
 author: windows-sdk-content
 description: Opens a handle to a network interface.
 old-location: mscs\openclusternetinterfaceex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 207d6888-35ff-44d4-aac0-915815b9730d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: OpenClusterNetInterfaceEx, OpenClusterNetInterfaceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX function [Failover Cluster], clusapi/OpenClusterNetInterfaceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, mscs.openclusternetinterfaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices

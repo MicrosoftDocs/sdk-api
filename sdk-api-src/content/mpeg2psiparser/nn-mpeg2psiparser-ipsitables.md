@@ -7,7 +7,7 @@ old-location: mstv\ipsitables.htm
 tech.root: MSTV
 ms.assetid: 6f07b4d2-7a52-448c-9e9f-729bd5261757
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSITables interface [Microsoft TV Technologies],described, mpeg2psiparser/IPSITables, mstv.ipsitables
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: EngGetForm function
 author: windows-sdk-content
 description: The EngGetForm function gets the FORM_INFO_1 details for the specified form.
 old-location: display\enggetform.htm
-tech.root: display
+tech.root: Display
 ms.assetid: b5cc37b1-3e5e-4d3b-b23f-1f737c8dcd28
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngGetForm, EngGetForm function [Display Devices], display.enggetform, gdifncs_178cf402-6353-453e-99c8-0164b0552231.xml, winddi/EngGetForm
 ms.prod: windows-hardware
 ms.technology: windows-devices

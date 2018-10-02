@@ -7,7 +7,7 @@ old-location: gpmc\igpmstatusmessage.htm
 tech.root: GPMC
 ms.assetid: 8570d40c-25c2-405c-b52a-dae6c0eb50e0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], IGPMStatusMessage interface [GPMC],described, _win32_igpmstatusmessage, gpmc.igpmstatusmessage, gpmgmt/IGPMStatusMessage
 ms.prod: windows
 ms.technology: windows-sdk

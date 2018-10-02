@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11texture3d.htm
 tech.root: direct3d11
 ms.assetid: 178d4ac4-c71f-40cb-bcaf-45ca96b36350
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 28ce947f-3bc9-9f8f-f8e7-667b8d30bf8e, ID3D11Texture3D, ID3D11Texture3D interface [Direct3D 11], ID3D11Texture3D interface [Direct3D 11],described, d3d11/ID3D11Texture3D, direct3d11.id3d11texture3d
 ms.prod: windows
 ms.technology: windows-sdk

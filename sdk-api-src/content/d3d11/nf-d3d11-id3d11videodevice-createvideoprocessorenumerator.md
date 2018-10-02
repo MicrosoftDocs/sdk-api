@@ -4,10 +4,10 @@ title: ID3D11VideoDevice::CreateVideoProcessorEnumerator
 author: windows-sdk-content
 description: Enumerates the video processor capabilities of the driver.
 old-location: mf\id3d11videodevice_createvideoprocessorenumerator.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 992C699D-A499-494E-AEDF-A6688CB14D70
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: CreateVideoProcessorEnumerator, CreateVideoProcessorEnumerator method [Media Foundation], CreateVideoProcessorEnumerator method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorEnumerator method, ID3D11VideoDevice.CreateVideoProcessorEnumerator, ID3D11VideoDevice::CreateVideoProcessorEnumerator, d3d11/ID3D11VideoDevice::CreateVideoProcessorEnumerator, mf.id3d11videodevice_createvideoprocessorenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_TXFS_LIST_TRANSACTION_LOCKED_FILES"
 author: windows-sdk-content
 description: Contains a list of files locked by a transacted writer.
 old-location: fs\txfs_list_transaction_locked_files.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 55ef34c5-8d99-457d-b670-8c9efaa2eae2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: "*PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES, TXFS_LIST_TRANSACTION_LOCKED_FILES structure [Files], _TXFS_LIST_TRANSACTION_LOCKED_FILES, fs.txfs_list_transaction_locked_files, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"
 ms.prod: windows
 ms.technology: windows-sdk

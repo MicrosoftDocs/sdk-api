@@ -7,7 +7,7 @@ old-location: com\ienumformatetc_next.htm
 tech.root: com
 ms.assetid: 041c3f20-bd8c-482d-9716-99f49a6bc902
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IEnumFORMATETC interface [COM],Next method, IEnumFORMATETC.Next, IEnumFORMATETC::Next, Next, Next method [COM], Next method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_next, com.ienumformatetc_next, objidl/IEnumFORMATETC::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

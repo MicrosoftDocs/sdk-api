@@ -7,7 +7,7 @@ old-location: base\writeprivateprofilestring.htm
 tech.root: SysInfo
 ms.assetid: f0799092-c6c1-4800-a17a-fcf744b1228f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

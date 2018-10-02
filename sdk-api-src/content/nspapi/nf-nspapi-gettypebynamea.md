@@ -7,7 +7,7 @@ old-location: winsock\gettypebyname_2.htm
 tech.root: WinSock
 ms.assetid: 177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTypeByName, GetTypeByName function [Winsock], GetTypeByNameA, GetTypeByNameW, _win32_gettypebyname_2, nspapi/GetTypeByName, nspapi/GetTypeByNameA, nspapi/GetTypeByNameW, winsock.gettypebyname_2
 ms.prod: windows-hardware
 ms.technology: windows-devices

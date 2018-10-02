@@ -4,10 +4,10 @@ title: ITAgentHandler
 author: windows-sdk-content
 description: The ITAgentHandler interface provides methods to create Agent objects and enumerate Automatic Call Distribution (ACD) groups. The IEnumAgentHandler::Next and ITTapiCallCenter::get_AgentHandlers methods create the ITAgentHandler interface.
 old-location: tapi3\itagenthandler.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 11861d77-39ad-4d85-bf68-ba0f4321ba7c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], ITAgentHandler interface [TAPI 2.2],described, _tapi3_itagenthandler, tapi3.itagenthandler, tapi3cc/ITAgentHandler
 ms.prod: windows
 ms.technology: windows-sdk

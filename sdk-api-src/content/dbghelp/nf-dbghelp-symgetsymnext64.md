@@ -4,10 +4,10 @@ title: SymGetSymNext64 function
 author: windows-sdk-content
 description: Retrieves the symbol information for the next symbol.
 old-location: base\symgetsymnext64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e58f21b9-c2fc-48f6-af45-3c9ec42809c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymGetSymNext, SymGetSymNext function, SymGetSymNext64, SymGetSymNext64 function, _win32_symgetsymnext64, base.symgetsymnext64, dbghelp/SymGetSymNext, dbghelp/SymGetSymNext64
 ms.prod: windows-hardware
 ms.technology: windows-devices

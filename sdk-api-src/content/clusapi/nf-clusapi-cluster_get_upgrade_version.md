@@ -4,10 +4,10 @@ title: CLUSTER_GET_UPGRADE_VERSION macro
 author: windows-sdk-content
 description: Extracts the upgrade version portion of a Cluster service version number.
 old-location: mscs\cluster_get_upgrade_version.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 28C51A05-7BCC-4394-B4D7-505750C045E2
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CLUSTER_GET_UPGRADE_VERSION, CLUSTER_GET_UPGRADE_VERSION macro [Failover Cluster], clusapi/CLUSTER_GET_UPGRADE_VERSION, mscs.cluster_get_upgrade_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

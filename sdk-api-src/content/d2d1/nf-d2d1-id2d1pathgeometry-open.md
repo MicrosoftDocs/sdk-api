@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1PathGeometry_Open.htm
 tech.root: direct2d
 ms.assetid: 08ff9ffb-1f1e-440c-a22c-dc58865b678a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1PathGeometry interface [Direct2D],Open method, ID2D1PathGeometry.Open, ID2D1PathGeometry::Open, Open, Open method [Direct2D], Open method [Direct2D],ID2D1PathGeometry interface, d2d1/ID2D1PathGeometry::Open, direct2d.ID2D1PathGeometry_Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

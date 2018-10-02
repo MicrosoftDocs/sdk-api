@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_getrequestattribute.htm
 tech.root: seccrypto
 ms.assetid: 344cb710-4824-455c-9599-3036a2b36905
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerPolicy object, GetRequestAttribute method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestAttribute method, ICertServerPolicy.GetRequestAttribute, ICertServerPolicy::GetRequestAttribute, _certsrv_icertserverpolicy_getrequestattribute, certif/ICertServerPolicy::GetRequestAttribute, security.icertserverpolicy_getrequestattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

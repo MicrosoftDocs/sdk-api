@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_input_bind_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_input_bind_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 99c7399c-8b7c-2db1-c625-397e1a74f486, D3D10_SHADER_INPUT_BIND_DESC, D3D10_SHADER_INPUT_BIND_DESC structure [Direct3D 10], _D3D10_SHADER_INPUT_BIND_DESC, d3d10shader/D3D10_SHADER_INPUT_BIND_DESC, direct3d10.d3d10_shader_input_bind_desc
 ms.prod: windows
 ms.technology: windows-sdk

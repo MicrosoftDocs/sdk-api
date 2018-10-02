@@ -7,7 +7,7 @@ old-location: mstv\ituner_get_tuningspace.htm
 tech.root: MSTV
 ms.assetid: 01b6a280-d489-4b4f-ae87-17c9b9bb2838
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuningSpace method, ITuner.get_TuningSpace, ITuner::get_TuningSpace, ITunerget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tuningspace, tuner/ITuner::get_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

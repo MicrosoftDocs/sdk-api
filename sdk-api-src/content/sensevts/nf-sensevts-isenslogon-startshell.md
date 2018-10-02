@@ -7,7 +7,7 @@ old-location: sens\isenslogon_startshell.htm
 tech.root: Sens
 ms.assetid: 0bde3bda-c0ed-4303-b6c1-dd667e9b7504
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISensLogon interface [SENS],StartShell method, ISensLogon.StartShell, ISensLogon::StartShell, StartShell, StartShell method [SENS], StartShell method [SENS],ISensLogon interface, _zaw_isenslogon_startshell, sens.isenslogon_startshell, sensevts/ISensLogon::StartShell, syncmgr.isenslogon_startshell
 ms.prod: windows-hardware
 ms.technology: windows-devices

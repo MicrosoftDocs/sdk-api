@@ -7,7 +7,7 @@ old-location: monitor\getmonitortechnologytype.htm
 tech.root: Monitor
 ms.assetid: da3a5f64-2638-464b-973b-33cbe4cc64e7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMonitorTechnologyType, GetMonitorTechnologyType function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorTechnologyType, monitor.getmonitortechnologytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

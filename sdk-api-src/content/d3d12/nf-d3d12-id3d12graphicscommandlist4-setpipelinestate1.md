@@ -1,0 +1,97 @@
+---
+UID: NF:d3d12.ID3D12GraphicsCommandList4.SetPipelineState1
+title: ID3D12GraphicsCommandList4::SetPipelineState1
+author: windows-sdk-content
+description: Sets a state object on the command list.
+old-location: direct3d12\id3d12graphicscommandlist4_setpipelinestate1.htm
+tech.root: direct3d12
+ms.assetid: CD408074-2B2A-461C-9CA8-DC967BC61067
+ms.author: windowssdkdev
+ms.date: 10/01/2018
+ms.keywords: ID3D12GraphicsCommandList4 interface,SetPipelineState1 method, ID3D12GraphicsCommandList4.SetPipelineState1, ID3D12GraphicsCommandList4::SetPipelineState1, SetPipelineState1, SetPipelineState1 method, SetPipelineState1 method,ID3D12GraphicsCommandList4 interface, d3d12/ID3D12GraphicsCommandList4::SetPipelineState1, direct3d12.id3d12graphicscommandlist4_setpipelinestate1
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12GraphicsCommandList4.SetPipelineState1
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# ID3D12GraphicsCommandList4::SetPipelineState1
+
+
+## -description
+
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+Sets a state object on the command list. 
+
+
+## -parameters
+
+
+
+
+### -param pStateObject
+
+The state object to set on the command list. In the current release, this can only be of type <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_state_object_type">D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE</a>.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+This method can be called from graphics or compute command lists and bundles.
+
+This method is an alternative to <a href="https://msdn.microsoft.com/751E09A4-D8FE-4DEA-86D9-1C84265F2F21">ID3D12GraphicsCommandList::SetPipelineState</a>, which is only defined for graphics and compute shaders.  There is only one pipeline state active on a command list at a time, so either call sets the current pipeline state.  The distinction between the calls is that each sets particular types of pipeline state only.  In the current release, <b>SetPipelineState1</b> is only used for setting raytracing pipeline state.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="direct3d12.id3d12graphicscommandlist4">ID3D12GraphicsCommandList4</a>
+ 
+
+ 
+

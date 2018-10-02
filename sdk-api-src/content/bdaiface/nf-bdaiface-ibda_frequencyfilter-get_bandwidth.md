@@ -7,7 +7,7 @@ old-location: mstv\ibda_frequencyfilter_get_bandwidth.htm
 tech.root: MSTV
 ms.assetid: 3cea7bbe-488b-4c5c-84a8-28f0dc77e3c1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Bandwidth method, IBDA_FrequencyFilter.get_Bandwidth, IBDA_FrequencyFilter::get_Bandwidth, IBDA_FrequencyFilterget_Bandwidth, bdaiface/IBDA_FrequencyFilter::get_Bandwidth, get_Bandwidth, get_Bandwidth method [Microsoft TV Technologies], get_Bandwidth method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_bandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

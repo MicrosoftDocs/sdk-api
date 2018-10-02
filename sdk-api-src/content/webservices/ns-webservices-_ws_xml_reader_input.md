@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_input.htm
 tech.root: wsw
 ms.assetid: 1e7a708d-5dcf-44ec-b781-a34946cb2844
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_XML_READER_INPUT, WS_XML_READER_INPUT structure [Web Services for Windows], _WS_XML_READER_INPUT, webservices/WS_XML_READER_INPUT, wsw.ws_xml_reader_input
 ms.prod: windows
 ms.technology: windows-sdk

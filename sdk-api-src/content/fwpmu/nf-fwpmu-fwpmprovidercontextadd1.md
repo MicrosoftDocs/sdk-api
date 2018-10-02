@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextadd1_func.htm
 tech.root: FWP
 ms.assetid: 2a840f23-96e4-4b3d-b92e-53b3d10ab2bb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmProviderContextAdd1, FwpmProviderContextAdd1 function [Filtering], fwp.fwpmprovidercontextadd1_func, fwpmu/FwpmProviderContextAdd1
 ms.prod: windows-hardware
 ms.technology: windows-devices

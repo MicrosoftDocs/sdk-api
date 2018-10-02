@@ -4,10 +4,10 @@ title: LongToUInt function
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type UINT.
 old-location: shell\LongToUInt.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8a40e74e-9173-46a9-93ad-62eafb23c4d7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongToUInt, LongToUInt function [Windows Shell], _shell_LongToUInt, intsafe/LongToUInt, shell.LongToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

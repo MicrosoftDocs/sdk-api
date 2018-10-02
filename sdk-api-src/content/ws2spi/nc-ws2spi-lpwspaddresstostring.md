@@ -7,7 +7,7 @@ old-location: winsock\wspaddresstostring_2.htm
 tech.root: WinSock
 ms.assetid: 7a6d8f77-7235-4cd1-90e1-9b5260137246
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LPWSPADDRESSTOSTRING, WSPAddressToString, WSPAddressToString function [Winsock], _win32_wspaddresstostring_2, winsock.wspaddresstostring_2, ws2spi/WSPAddressToString
 ms.prod: windows
 ms.technology: windows-sdk

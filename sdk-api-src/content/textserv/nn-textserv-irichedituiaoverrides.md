@@ -4,10 +4,10 @@ title: IRicheditUiaOverrides
 author: windows-sdk-content
 description: Enables the host container of a windowless rich edit control to override the control's Microsoft UI Automation accessibility properties.
 old-location: controls\irichedituiaoverrides.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 2590002F-A6B0-4AA7-A54C-A5AB5304D9FA
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Controls], IRicheditUiaOverrides interface [Windows Controls],described, controls.irichedituiaoverrides, textserv/IRicheditUiaOverrides
 ms.prod: windows
 ms.technology: windows-sdk

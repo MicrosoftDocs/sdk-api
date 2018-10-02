@@ -7,7 +7,7 @@ old-location: adsi\iadspathname_getnumelements.htm
 tech.root: ADSI
 ms.assetid: ad6518c8-d379-4062-888f-cbf84995fc39
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNumElements, GetNumElements method [ADSI], GetNumElements method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetNumElements method, IADsPathname.GetNumElements, IADsPathname::GetNumElements, _ds_iadspathname_getnumelements, adsi.iadspathname__getnumelements, adsi.iadspathname_getnumelements, iads/IADsPathname::GetNumElements
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:winprog
 ms.assetid: 83e6e3dc-b151-3e86-ac66-a7eabe59b7b6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

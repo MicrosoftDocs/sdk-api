@@ -4,10 +4,10 @@ title: "_DXVA2_VideoDesc"
 author: windows-sdk-content
 description: Describes a video stream for a DXVA decoder device or video processor device.
 old-location: mf\dxva2_videodesc.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0e500a08-a3b5-475c-8bbc-e4b30cce247d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], _DXVA2_VideoDesc, dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
 ms.prod: windows
 ms.technology: windows-sdk

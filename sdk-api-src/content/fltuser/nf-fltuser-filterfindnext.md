@@ -7,7 +7,7 @@ old-location: ifsk\filterfindnext.htm
 tech.root: ifsk
 ms.assetid: ce56037b-d303-4efa-956f-6bbe5127efb7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FilterFindNext, FilterFindNext function [Installable File System Drivers], FltWin32ApiRef_8f2234d4-aef1-47d3-9b9f-a43fbb309bef.xml, fltuser/FilterFindNext, ifsk.filterfindnext
 ms.prod: windows-hardware
 ms.technology: windows-devices

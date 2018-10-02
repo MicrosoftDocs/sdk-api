@@ -7,7 +7,7 @@ old-location: etw\gettraceenableflags.htm
 tech.root: ETW
 ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTraceEnableFlags, GetTraceEnableFlags function [ETW], _evt_gettraceenableflags, base.gettraceenableflags, etw.gettraceenableflags, evntrace/GetTraceEnableFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel.h
 tech.root: VSS
 ms.assetid: 3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,SetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel, SetVolumeProtectLevel, SetVolumeProtectLevel method, SetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\icomponents_clone.htm
 tech.root: MSTV
 ms.assetid: 5a98e265-8bef-4978-a257-1519006e9124
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],Clone method, IComponents.Clone, IComponents::Clone, IComponentsClone, mstv.icomponents_clone, tuner/IComponents::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

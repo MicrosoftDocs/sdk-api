@@ -4,10 +4,10 @@ title: IPreviewHandler::QueryFocus
 author: windows-sdk-content
 description: Directs the preview handler to return the HWND from calling the GetFocus Function.
 old-location: shell\IPreviewHandler_QueryFocus.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8d21655b-ff0c-4396-a353-f968c28c4883
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],QueryFocus method, IPreviewHandler.QueryFocus, IPreviewHandler::QueryFocus, QueryFocus, QueryFocus method [Windows Shell], QueryFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_QueryFocus, shell.IPreviewHandler_QueryFocus, shobjidl_core/IPreviewHandler::QueryFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\sp_troubleshooter_params.htm
 tech.root: devinst
 ms.assetid: f92e9aa4-ee29-4e69-be05-9c3c916197eb
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSP_TROUBLESHOOTER_PARAMS_W, PSP_TROUBLESHOOTER_PARAMS, PSP_TROUBLESHOOTER_PARAMS structure pointer [Device and Driver Installation], SP_TROUBLESHOOTER_PARAMS, SP_TROUBLESHOOTER_PARAMS structure [Device and Driver Installation], SP_TROUBLESHOOTER_PARAMS_W, _SP_TROUBLESHOOTER_PARAMS_W, devinst.sp_troubleshooter_params, di-struct_7bddca54-bae0-4d79-82d3-3663f8066f09.xml, setupapi/PSP_TROUBLESHOOTER_PARAMS, setupapi/SP_TROUBLESHOOTER_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

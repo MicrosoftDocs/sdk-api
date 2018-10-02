@@ -7,7 +7,7 @@ old-location: setup\actctx_section_keyed_data_str.htm
 tech.root: SbsCs
 ms.assetid: c73160e7-fff5-4ba5-8b3a-895ac944c76d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA structure [Side-by-side Assemblies], PACTCTX_SECTION_KEYED_DATA, PACTCTX_SECTION_KEYED_DATA structure pointer [Side-by-side Assemblies], _win32_actctx_section_keyed_data_str, setup.actctx_section_keyed_data_str, tagACTCTX_SECTION_KEYED_DATA, winbase/ACTCTX_SECTION_KEYED_DATA, winbase/PACTCTX_SECTION_KEYED_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

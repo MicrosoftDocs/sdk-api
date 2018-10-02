@@ -7,7 +7,7 @@ old-location: rm\drmgetboundlicenseobject.htm
 tech.root: AdRms_Sdk
 ms.assetid: d1be0668-fb5a-4541-92dc-34255ba3fdad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMGetBoundLicenseObject, DRMGetBoundLicenseObject function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseObject, rm.drmgetboundlicenseobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

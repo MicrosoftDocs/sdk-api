@@ -7,7 +7,7 @@ old-location: security\crypt_context_function_providers.htm
 tech.root: SecCNG
 ms.assetid: 5e175ac2-38eb-44c4-a01a-fb436e833546
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS structure [Security], PCRYPT_CONTEXT_FUNCTION_PROVIDERS, PCRYPT_CONTEXT_FUNCTION_PROVIDERS structure pointer [Security], _CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/PCRYPT_CONTEXT_FUNCTION_PROVIDERS, security.crypt_context_function_providers"
 ms.prod: windows
 ms.technology: windows-sdk

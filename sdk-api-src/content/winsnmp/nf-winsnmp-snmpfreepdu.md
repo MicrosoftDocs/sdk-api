@@ -7,7 +7,7 @@ old-location: snmp\snmpfreepdu.htm
 tech.root: SNMP
 ms.assetid: 243e52aa-2b05-4c41-9f89-cf9c66517da6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SnmpFreePdu, SnmpFreePdu function [SNMP], _snmp_snmpfreepdu, snmp.snmpfreepdu, winsnmp/SnmpFreePdu
 ms.prod: windows-hardware
 ms.technology: windows-devices

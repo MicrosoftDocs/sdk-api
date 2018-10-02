@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererevent2_avaudiochannelconfig.htm
 tech.root: MSTV
 ms.assetid: 6e7ee8a5-fd3f-418c-905a-85e7579d3ffc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: AVAudioChannelConfig, AVAudioChannelConfig method [Microsoft TV Technologies], AVAudioChannelConfig method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioChannelConfig method, IMSVidAudioRendererEvent2.AVAudioChannelConfig, IMSVidAudioRendererEvent2::AVAudioChannelConfig, mstv.imsvidaudiorendererevent2_avaudiochannelconfig, segment/IMSVidAudioRendererEvent2::AVAudioChannelConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

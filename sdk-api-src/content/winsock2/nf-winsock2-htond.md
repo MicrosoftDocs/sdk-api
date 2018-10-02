@@ -7,7 +7,7 @@ old-location: winsock\htond.htm
 tech.root: WinSock
 ms.assetid: DEC42B75-F637-4CD5-B42F-4F59D1516BB9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: htond, htond function [Winsock], winsock.htond, winsock2/htond
 ms.prod: windows-hardware
 ms.technology: windows-devices

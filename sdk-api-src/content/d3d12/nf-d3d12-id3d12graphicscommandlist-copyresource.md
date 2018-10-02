@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_copyresource.htm
 tech.root: direct3d12
 ms.assetid: EFC305CF-FBA9-4192-999B-6C6BFCDFF51F
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: CopyResource, CopyResource method, CopyResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyResource method, ID3D12GraphicsCommandList.CopyResource, ID3D12GraphicsCommandList::CopyResource, d3d12/ID3D12GraphicsCommandList::CopyResource, direct3d12.id3d12graphicscommandlist_copyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITAddressDeviceSpecificEvent::get_lParam3
 author: windows-sdk-content
 description: The get_lParam3 method retrieves the third of three buffers specific to a given address device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itaddressdevicespecificevent_get_lparam3.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 8e0a513d-2bf4-4bdf-926f-2e88a8465073
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam3 method, ITAddressDeviceSpecificEvent.get_lParam3, ITAddressDeviceSpecificEvent::get_lParam3, _tapi3_itaddressdevicespecificevent_get_lparam3, get_lParam3, get_lParam3 method [TAPI 2.2], get_lParam3 method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_lparam3, tapi3if/ITAddressDeviceSpecificEvent::get_lParam3
 ms.prod: windows-hardware
 ms.technology: windows-devices

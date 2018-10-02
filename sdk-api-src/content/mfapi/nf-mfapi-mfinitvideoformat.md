@@ -4,10 +4,10 @@ title: MFInitVideoFormat function
 author: windows-sdk-content
 description: Initializes an MFVIDEOFORMAT structure for a standard video format such as DVD, analog television, or ATSC digital television.
 old-location: mf\mfinitvideoformat.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1cb47f95-cdb6-4998-9980-2f22e282df11
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVideoFormat function [Media Foundation], mf.mfinitvideoformat, mfapi/MFInitVideoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

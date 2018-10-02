@@ -7,7 +7,7 @@ old-location: pla\ialertdatacollector_alertthresholds.htm
 tech.root: PLA
 ms.assetid: e0d504ea-58d4-48fd-9baf-851505d6d3ac
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AlertThresholds property [PLA], AlertThresholds property [PLA],IAlertDataCollector interface, IAlertDataCollector interface [PLA],AlertThresholds property, IAlertDataCollector.AlertThresholds, IAlertDataCollector.get_AlertThresholds, IAlertDataCollector::AlertThresholds, IAlertDataCollector::get_AlertThresholds, IAlertDataCollector::put_AlertThresholds, base.ialertdatacollector_alertthresholds, get_AlertThresholds, pla.ialertdatacollector_alertthresholds, pla/IAlertDataCollector::AlertThresholds, pla/IAlertDataCollector::get_AlertThresholds, pla/IAlertDataCollector::put_AlertThresholds
 ms.prod: windows-hardware
 ms.technology: windows-devices

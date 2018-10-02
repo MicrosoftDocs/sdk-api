@@ -7,7 +7,7 @@ old-location: winstation\setprocesswindowstation.htm
 tech.root: winstation
 ms.assetid: d64814a7-945c-4e73-a977-5f696d60610e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetProcessWindowStation, SetProcessWindowStation function [Windows Stations and Desktops], _win32_setprocesswindowstation, base.setprocesswindowstation, winstation.setprocesswindowstation, winuser/SetProcessWindowStation
 ms.prod: windows-hardware
 ms.technology: windows-devices

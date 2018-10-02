@@ -7,7 +7,7 @@ old-location: base\getcomputernameex.htm
 tech.root: SysInfo
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, GetComputerNameEx, GetComputerNameEx function, GetComputerNameExA, GetComputerNameExW, _win32_getcomputernameex, base.getcomputernameex, sysinfoapi/GetComputerNameEx, sysinfoapi/GetComputerNameExA, sysinfoapi/GetComputerNameExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

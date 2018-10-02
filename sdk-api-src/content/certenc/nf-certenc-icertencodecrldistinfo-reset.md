@@ -7,7 +7,7 @@ old-location: security\icertencodecrldistinfo_reset.htm
 tech.root: seccrypto
 ms.assetid: 899de888-918f-4202-a324-0e603eba2324
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Reset method, ICertEncodeCRLDistInfo interface [Security],Reset method, ICertEncodeCRLDistInfo.Reset, ICertEncodeCRLDistInfo::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeCRLDistInfo object, Reset method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_reset, certenc/ICertEncodeCRLDistInfo::Reset, security.icertencodecrldistinfo_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

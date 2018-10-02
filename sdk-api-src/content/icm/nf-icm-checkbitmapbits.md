@@ -7,7 +7,7 @@ old-location: wcs\checkbitmapbits.htm
 tech.root: WCS
 ms.assetid: c5e13ed4-71c8-4c9c-9206-406732a7669e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CheckBitmapBits, CheckBitmapBits function [Windows Color System], _color_CheckBitmapBits, icm/CheckBitmapBits, wcs.checkbitmapbits
 ms.prod: windows-hardware
 ms.technology: windows-devices

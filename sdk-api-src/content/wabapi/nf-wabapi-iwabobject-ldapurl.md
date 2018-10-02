@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_LDAPUrl.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\ldapurl.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWABObject interface [Windows Address Book],LDAPUrl method, IWABObject.LDAPUrl, IWABObject::LDAPUrl, LDAPUrl, LDAPUrl method [Windows Address Book], LDAPUrl method [Windows Address Book],IWABObject interface, LDAP_AUTH_NEGOTIATE, MAPI_UNICODE, WABOBJECT_LDAPURL_RETURN_MAILUSER, _wab_IWABObject_LDAPUrl, wab._wab_IWABObject_LDAPUrl, wabapi/IWABObject::LDAPUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

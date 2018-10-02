@@ -7,7 +7,7 @@ old-location: base\enumsystemfirmwaretables.htm
 tech.root: SysInfo
 ms.assetid: 42aaefc0-dc05-460d-931a-b702fa855bed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EnumSystemFirmwareTables, EnumSystemFirmwareTables function, base.enumsystemfirmwaretables, sysinfoapi/EnumSystemFirmwareTables
 ms.prod: windows-hardware
 ms.technology: windows-devices

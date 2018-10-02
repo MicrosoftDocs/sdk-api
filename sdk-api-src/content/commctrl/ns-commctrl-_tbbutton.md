@@ -4,10 +4,10 @@ title: "_TBBUTTON"
 author: windows-sdk-content
 description: Contains information about a button in a toolbar.
 old-location: controls\TBBUTTON.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbutton.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPTBBUTTON, *PTBBUTTON, LPTBBUTTON, LPTBBUTTON structure pointer [Windows Controls], PTBBUTTON, PTBBUTTON structure pointer [Windows Controls], TBBUTTON, TBBUTTON structure [Windows Controls], _TBBUTTON, _win32_TBBUTTON, _win32_TBBUTTON_cpp, commctrl/LPTBBUTTON, commctrl/PTBBUTTON, commctrl/TBBUTTON, controls.TBBUTTON, controls._win32_TBBUTTON"
 ms.prod: windows
 ms.technology: windows-sdk

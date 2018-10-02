@@ -4,10 +4,10 @@ title: TBINSERTMARK
 author: windows-sdk-content
 description: Contains information on the insertion mark in a toolbar control.
 old-location: controls\TBINSERTMARK.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPTBINSERTMARK, 0, LPTBINSERTMARK, LPTBINSERTMARK structure pointer [Windows Controls], TBIMHT_AFTER, TBIMHT_BACKGROUND, TBINSERTMARK, TBINSERTMARK structure [Windows Controls], _win32_TBINSERTMARK, _win32_TBINSERTMARK_cpp, commctrl/LPTBINSERTMARK, commctrl/TBINSERTMARK, controls.TBINSERTMARK, controls._win32_TBINSERTMARK"
 ms.prod: windows
 ms.technology: windows-sdk

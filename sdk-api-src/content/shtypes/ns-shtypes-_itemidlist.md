@@ -4,10 +4,10 @@ title: "_ITEMIDLIST"
 author: windows-sdk-content
 description: Contains a list of item identifiers.
 old-location: shell\ITEMIDLIST.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 60daf071-4e93-4e1c-bc38-894f706db04f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPITEMIDLIST, *PIDLIST_ABSOLUTE, *PIDLIST_RELATIVE, *PITEMID_CHILD, *PUIDLIST_RELATIVE, *PUITEMID_CHILD, ITEMIDLIST, ITEMIDLIST structure [Windows Shell], ITEMIDLIST_ABSOLUTE, ITEMIDLIST_RELATIVE, ITEMID_CHILD, _ITEMIDLIST, _win32_ITEMIDLIST, shell.ITEMIDLIST, shtypes/ITEMIDLIST"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\vds_drive_letter_notification.htm
 tech.root: VDS
 ms.assetid: d64d1ba6-88a2-4418-b32c-36a84e973a06
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VDS_DRIVE_LETTER_NOTIFICATION, VDS_DRIVE_LETTER_NOTIFICATION structure [VDS], VDS_NF_DRIVE_LETTER_ASSIGN, VDS_NF_DRIVE_LETTER_FREE, _VDS_DRIVE_LETTER_NOTIFICATION, base.vds_drive_letter_notification, vds/_VDS_DRIVE_LETTER_NOTIFICATION, vdshwprv/_VDS_DRIVE_LETTER_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

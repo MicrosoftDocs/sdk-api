@@ -7,7 +7,7 @@ old-location: base\getprofilesection.htm
 tech.root: SysInfo
 ms.assetid: cc90811b-5e7b-4c75-987b-57f36a9408c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetProfileSection, GetProfileSection function, GetProfileSectionA, GetProfileSectionW, _win32_getprofilesection, base.getprofilesection, winbase/GetProfileSection, winbase/GetProfileSectionA, winbase/GetProfileSectionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

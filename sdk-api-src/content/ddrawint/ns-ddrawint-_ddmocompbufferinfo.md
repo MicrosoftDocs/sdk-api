@@ -4,10 +4,10 @@ title: "_DDMOCOMPBUFFERINFO"
 author: windows-sdk-content
 description: The DDMOCOMPBUFFERINFO structure contains the macro block information required to render a frame and passes this information to the DD_RENDERMOCOMPDATA structure.
 old-location: display\ddmocompbufferinfo.htm
-tech.root: display
+tech.root: Display
 ms.assetid: e039f85e-868f-4673-bbaa-9165bd760e9d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDDMOCOMPBUFFERINFO, DDMOCOMPBUFFERINFO, DDMOCOMPBUFFERINFO structure [Display Devices], LPDDMOCOMPBUFFERINFO, LPDDMOCOMPBUFFERINFO structure pointer [Display Devices], _DDMOCOMPBUFFERINFO, ddrawint/DDMOCOMPBUFFERINFO, ddrawint/LPDDMOCOMPBUFFERINFO, ddstrcts_8716da01-eda5-4102-b881-c2e368f0792a.xml, display.ddmocompbufferinfo"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DsDeregisterDnsHostRecordsW function
 author: windows-sdk-content
 description: The DsDeregisterDnsHostRecords function deletes DNS entries, except for type A records registered by a domain controller. Only an administrator, account operator, or server operator may call this function.
 old-location: ad\dsderegisterdnshostrecords.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 18ab6455-dab2-42d9-b68e-a8f0ad2d8091
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsDeregisterDnsHostRecords, DsDeregisterDnsHostRecords function [Active Directory], DsDeregisterDnsHostRecordsA, DsDeregisterDnsHostRecordsW, _glines_dsderegisterdnshostrecords, ad.dsderegisterdnshostrecords, dsgetdc/DsDeregisterDnsHostRecords, dsgetdc/DsDeregisterDnsHostRecordsA, dsgetdc/DsDeregisterDnsHostRecordsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFMediaKeys
 author: windows-sdk-content
 description: Represents a media keys used for decrypting media data using a Digital Rights Management (DRM) key system.
 old-location: mf\imfmediakeys.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0689d938-e0be-46d7-bfed-add431331a90
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaKeys, IMFMediaKeys interface [Media Foundation], IMFMediaKeys interface [Media Foundation],described, mf.imfmediakeys, mfmediaengine/IMFMediaKeys
 ms.prod: windows
 ms.technology: windows-sdk

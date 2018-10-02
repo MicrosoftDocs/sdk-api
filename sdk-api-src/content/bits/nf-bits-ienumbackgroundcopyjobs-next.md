@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs_next.htm
 tech.root: Bits
 ms.assetid: a248e14a-ab17-4e8e-9e27-2ba31a4a999d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Next method, IEnumBackgroundCopyJobs.Next, IEnumBackgroundCopyJobs::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyJobs interface, _drz_ienumbackgroundcopyjobs_next, bits.ienumbackgroundcopyjobs_next, bits/IEnumBackgroundCopyJobs::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

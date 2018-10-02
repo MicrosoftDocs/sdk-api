@@ -7,7 +7,7 @@ old-location: fs\deallocatentmsmedia.htm
 tech.root: Rsm
 ms.assetid: e053c725-2da6-4eeb-b471-644847dd8db5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeallocateNtmsMedia, DeallocateNtmsMedia function [Files], _zaw_deallocatentmsmedia, base.deallocatentmsmedia, fs.deallocatentmsmedia, ntmsapi/DeallocateNtmsMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

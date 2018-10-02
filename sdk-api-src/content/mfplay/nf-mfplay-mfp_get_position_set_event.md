@@ -4,10 +4,10 @@ title: MFP_GET_POSITION_SET_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_POSITION_SET_EVENT pointer.
 old-location: mf\mfp_get_position_set_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e9b692e6-7b7c-45ac-bbaa-7060578f9403
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_GET_POSITION_SET_EVENT, MFP_GET_POSITION_SET_EVENT macro [Media Foundation], mf.mfp_get_position_set_event, mfplay/MFP_GET_POSITION_SET_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

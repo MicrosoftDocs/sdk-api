@@ -4,10 +4,10 @@ title: "_MFCLOCK_RELATIONAL_FLAGS"
 author: windows-sdk-content
 description: Defines properties of a clock.
 old-location: mf\mfclock_relational_flags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d70b432c-6ebd-405c-993f-12c4540736d7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCLOCK_RELATIONAL_FLAGS, MFCLOCK_RELATIONAL_FLAGS enumeration [Media Foundation], MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD, _MFCLOCK_RELATIONAL_FLAGS, d70b432c-6ebd-405c-993f-12c4540736d7, mf.mfclock_relational_flags, mfidl/MFCLOCK_RELATIONAL_FLAGS, mfidl/MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD
 ms.prod: windows
 ms.technology: windows-sdk

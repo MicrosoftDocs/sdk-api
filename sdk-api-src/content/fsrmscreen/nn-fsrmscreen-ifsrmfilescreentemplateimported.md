@@ -4,10 +4,10 @@ title: IFsrmFileScreenTemplateImported
 author: windows-sdk-content
 description: Used to save imported file screen templates.
 old-location: fsrm\ifsrmfilescreentemplateimported.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 9e3c3d05-298d-4373-abd2-21de9770e85c
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmFileScreenTemplateImported, IFsrmFileScreenTemplateImported interface [File Server Resource Manager], IFsrmFileScreenTemplateImported interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplateimported, fsrm.ifsrmfilescreentemplateimported, fsrm/IFsrmFileScreenTemplateImported
 ms.prod: windows
 ms.technology: windows-sdk

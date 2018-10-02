@@ -4,10 +4,10 @@ title: ICredentialProviderCredentialEvents::SetFieldState
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that a field state has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldState.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d3498bca-cc31-4a80-9f31-e1e6d020d777
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldState method, ICredentialProviderCredentialEvents.SetFieldState, ICredentialProviderCredentialEvents::SetFieldState, SetFieldState, SetFieldState method [Windows Shell], SetFieldState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldState, shell.ICredentialProviderCredentialEvents_SetFieldState
 ms.prod: windows-hardware
 ms.technology: windows-devices

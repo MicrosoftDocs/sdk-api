@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_RotateTransform_angle_o
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\rotatetransform_86angle_order.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: LinearGradientBrush class [GDI+],RotateTransform method, LinearGradientBrush.RotateTransform, LinearGradientBrush::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_LinearGradientBrush_RotateTransform_angle_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices

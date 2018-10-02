@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getstoragefilterstacksize.htm
 tech.root: direct3ddxgi
 ms.assetid: FE4D1749-7587-48BA-9701-B09DDFF1CE84
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetStorageFilterStackSize, GetStorageFilterStackSize method [DXGI], GetStorageFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetStorageFilterStackSize method, IDXGIInfoQueue.GetStorageFilterStackSize, IDXGIInfoQueue::GetStorageFilterStackSize, direct3ddxgi.idxgiinfoqueue_getstoragefilterstacksize, dxgidebug/IDXGIInfoQueue::GetStorageFilterStackSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

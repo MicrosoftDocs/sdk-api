@@ -4,10 +4,10 @@ title: MFCreateSequencerSegmentOffset function
 author: windows-sdk-content
 description: Creates a PROPVARIANT that can be used to seek within a sequencer source presentation.
 old-location: mf\mfcreatesequencersegmentoffset.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5999af23-03a6-4fd9-8a56-23179164ff32
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 5999af23-03a6-4fd9-8a56-23179164ff32, MFCreateSequencerSegmentOffset, MFCreateSequencerSegmentOffset function [Media Foundation], mf.mfcreatesequencersegmentoffset, mfidl/MFCreateSequencerSegmentOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\icreateerrorinfo_setdescription.htm
 tech.root: automat
 ms.assetid: 32d10343-4be4-4ebc-b2fd-43a292c006b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetDescription method, ICreateErrorInfo.SetDescription, ICreateErrorInfo::SetDescription, SetDescription, SetDescription method [Automation], SetDescription method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetDescription, automat.icreateerrorinfo_setdescription, oaidl/ICreateErrorInfo::SetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getpixelformat.htm
 tech.root: directdraw
 ms.assetid: 2c33c46b-6cd7-4ee7-976c-a81f9d92b379
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [DirectDraw], GetPixelFormat method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPixelFormat method, IDirectDrawSurface7.GetPixelFormat, IDirectDrawSurface7::GetPixelFormat, ddraw/IDirectDrawSurface7::GetPixelFormat, directdraw.idirectdrawsurface7_getpixelformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

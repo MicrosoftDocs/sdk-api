@@ -4,10 +4,10 @@ title: "_AT_ENUM"
 author: windows-sdk-content
 description: The AT_ENUM structure contains information about a submitted job. The NetScheduleJobEnum function uses this structure to enumerate and return information about an entire queue of submitted jobs.
 old-location: netmgmt\at_enum_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ed7c5171-b8aa-4a9a-8f31-4d914bcad0b1
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPAT_ENUM, *PAT_ENUM, AT_ENUM, AT_ENUM structure [Network Management], JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_ENUM, LPAT_ENUM structure pointer [Network Management], PAT_ENUM, PAT_ENUM structure pointer [Network Management], _AT_ENUM, _win32_at_enum_str, lmat/AT_ENUM, lmat/LPAT_ENUM, lmat/PAT_ENUM, netmgmt.at_enum_str"
 ms.prod: windows
 ms.technology: windows-sdk

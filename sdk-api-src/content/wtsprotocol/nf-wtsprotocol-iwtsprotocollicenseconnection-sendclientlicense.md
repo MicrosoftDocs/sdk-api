@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollicenseconnection_sendclientlicense.htm
 tech.root: TermServ
 ms.assetid: cafd23ed-2085-4d58-a9b1-1918995fa09c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],SendClientLicense method, IWTSProtocolLicenseConnection.SendClientLicense, IWTSProtocolLicenseConnection::SendClientLicense, SendClientLicense, SendClientLicense method [Remote Desktop Services], SendClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_sendclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::SendClientLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

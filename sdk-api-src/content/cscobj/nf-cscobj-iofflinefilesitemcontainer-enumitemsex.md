@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitemcontainer_enumitemsex.htm
 tech.root: OfflineFiles
 ms.assetid: 001d384f-013d-41c0-a636-40206a33508d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EnumItemsEx, EnumItemsEx method [Offline Files], EnumItemsEx method [Offline Files],IOfflineFilesItemContainer interface, IOfflineFilesItemContainer interface [Offline Files],EnumItemsEx method, IOfflineFilesItemContainer.EnumItemsEx, IOfflineFilesItemContainer::EnumItemsEx, OFFLINEFILES_ENUM_FLAT, OFFLINEFILES_ENUM_FLAT_FILESONLY, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesItemContainer::EnumItemsEx, of.iofflinefilesitemcontainer_enumitemsex
 ms.prod: windows-hardware
 ms.technology: windows-devices

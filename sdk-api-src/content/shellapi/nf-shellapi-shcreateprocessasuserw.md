@@ -4,10 +4,10 @@ title: SHCreateProcessAsUserW function
 author: windows-sdk-content
 description: Creates a new user-mode process and its primary thread to run a specified executable file.
 old-location: shell\SHCreateProcessAsUserW.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 78548eaf-6907-41e3-9c22-848d0d159085
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateProcessAsUserW, SHCreateProcessAsUserW function [Windows Shell], _win32_SHCreateProcessAsUserW, _win32_SHCreateProcessAsUserW_cpp, shell.SHCreateProcessAsUserW, shellapi/SHCreateProcessAsUserW
 ms.prod: windows-hardware
 ms.technology: windows-devices

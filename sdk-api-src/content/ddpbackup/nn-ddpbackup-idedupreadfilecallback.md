@@ -7,7 +7,7 @@ old-location: dedup\idedupreadfilecallback.htm
 tech.root: dedup
 ms.assetid: 0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], IDedupReadFileCallback interface [Data Deduplication API],described, ddpbackup/IDedupReadFileCallback, dedup.idedupreadfilecallback
 ms.prod: windows
 ms.technology: windows-sdk

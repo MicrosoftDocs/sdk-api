@@ -4,10 +4,10 @@ title: NetRequestOfflineDomainJoin function
 author: windows-sdk-content
 description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
 old-location: netmgmt\netrequestofflinedomainjoin.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestOfflineDomainJoin, NetRequestOfflineDomainJoin function [Network Management], lmjoin/NetRequestOfflineDomainJoin, netmgmt.netrequestofflinedomainjoin
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\getstringtypew.htm
 tech.root: Intl
 ms.assetid: 092541ea-e568-4aa3-b99e-ce0bac9c120b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: CT_CTYPE1, CT_CTYPE2, CT_CTYPE3, GetStringTypeW, GetStringTypeW function [Internationalization for Windows Applications], _win32_GetStringTypeW, _win32_GetStringTypeW_cpp, intl.getstringtypew, stringapiset/GetStringTypeW, winui._win32_GetStringTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

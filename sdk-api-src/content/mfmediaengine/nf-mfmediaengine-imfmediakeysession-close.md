@@ -4,10 +4,10 @@ title: IMFMediaKeySession::Close
 author: windows-sdk-content
 description: Closes the media key session and must be called before the key session is released.
 old-location: mf\imfmediakeysession_close.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 97c6b4bd-a973-4475-a325-0373af9b54b1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaKeySession interface, IMFMediaKeySession interface [Media Foundation],Close method, IMFMediaKeySession.Close, IMFMediaKeySession::Close, mf.imfmediakeysession_close, mfmediaengine/IMFMediaKeySession::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

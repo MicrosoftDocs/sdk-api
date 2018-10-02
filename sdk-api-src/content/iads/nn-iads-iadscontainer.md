@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer.htm
 tech.root: ADSI
 ms.assetid: 6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interface [ADSI],described, _ds_iadscontainer, adsi.iadscontainer, iads/IADsContainer
 ms.prod: windows
 ms.technology: windows-sdk

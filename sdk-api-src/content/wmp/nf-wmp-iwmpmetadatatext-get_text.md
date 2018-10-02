@@ -7,7 +7,7 @@ old-location: wmp\iwmpmetadatatext_get_text.htm
 tech.root: WMP
 ms.assetid: 88aeb4bb-87e1-413d-888b-608fa349ebf5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPMetadataText interface [Windows Media Player],get_text method, IWMPMetadataText.get_text, IWMPMetadataText::get_text, IWMPMetadataTextget_text, get_text, get_text method [Windows Media Player], get_text method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_text, wmp/IWMPMetadataText::get_text
 ms.prod: windows-hardware
 ms.technology: windows-devices

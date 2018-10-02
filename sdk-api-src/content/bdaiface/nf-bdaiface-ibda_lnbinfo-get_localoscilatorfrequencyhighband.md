@@ -7,7 +7,7 @@ old-location: mstv\ibda_lnbinfo_get_localoscilatorfrequencyhighband.htm
 tech.root: MSTV
 ms.assetid: 21960718-818c-4efb-a2c2-577c3b938da4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],get_LocalOscilatorFrequencyHighBand method, IBDA_LNBInfo.get_LocalOscilatorFrequencyHighBand, IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand, IBDA_LNBInfoget_LocalOscilatorFrequencyHighBand, bdaiface/IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand, get_LocalOscilatorFrequencyHighBand, get_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies], get_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies],IBDA_LNBInfo interface, mstv.ibda_lnbinfo_get_localoscilatorfrequencyhighband
 ms.prod: windows-hardware
 ms.technology: windows-devices

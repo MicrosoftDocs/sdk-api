@@ -4,10 +4,10 @@ title: IFolderView2::SetText
 author: windows-sdk-content
 description: Sets the default text to be used when there are no items in the view.
 old-location: shell\IFolderView2_SetText.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 72528831-ec5d-417e-94dd-7345b5fd7de6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: FVST_EMPTYTEXT, IFolderView2 interface [Windows Shell],SetText method, IFolderView2.SetText, IFolderView2::SetText, SetText, SetText method [Windows Shell], SetText method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetText, shell.IFolderView2_SetText, shobjidl_core/IFolderView2::SetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

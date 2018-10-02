@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_submissio
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5nz8.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],SubmissionId property, IFaxOutgoingMessage.SubmissionId, IFaxOutgoingMessage.get_SubmissionId, IFaxOutgoingMessage::SubmissionId, IFaxOutgoingMessage::get_SubmissionId, SubmissionId property [Fax Service], SubmissionId property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.submissionid, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_submissionid_cpp, fax._mfax_faxoutgoingmessage_submissionid, faxcomex/IFaxOutgoingMessage::SubmissionId, faxcomex/IFaxOutgoingMessage::get_SubmissionId, get_SubmissionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

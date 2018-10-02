@@ -7,7 +7,7 @@ old-location: dxmath\xmstorebyten4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreByteN4(XMBYTEN4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: DirectX::PackedVector.XMStoreByteN4, XMStoreByteN4, XMStoreByteN4 method [DirectX Math Support APIs], dxmath.xmstorebyten4
 ms.prod: windows-hardware
 ms.technology: windows-devices

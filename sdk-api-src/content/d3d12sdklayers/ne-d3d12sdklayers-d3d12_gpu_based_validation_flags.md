@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_gpu_based_validation_flags.htm
 tech.root: direct3d12
 ms.assetid: D9FA7F77-8DE8-4630-A9C7-E95B9E997E23
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_GPU_BASED_VALIDATION_FLAGS, D3D12_GPU_BASED_VALIDATION_FLAGS enumeration, D3D12_GPU_BASED_VALIDATION_FLAGS_DISABLE_STATE_TRACKING, D3D12_GPU_BASED_VALIDATION_FLAGS_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS_DISABLE_STATE_TRACKING, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS_NONE, direct3d12.d3d12_gpu_based_validation_flags
 ms.prod: windows
 ms.technology: windows-sdk

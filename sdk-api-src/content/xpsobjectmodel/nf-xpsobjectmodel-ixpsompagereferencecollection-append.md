@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereferencecollection_append.htm
 tech.root: printdocs
 ms.assetid: 89fce79b-9211-4e47-884c-11c98718570e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],Append method, IXpsOMPageReferenceCollection.Append, IXpsOMPageReferenceCollection::Append, xps.ixpsompagereferencecollection_append, xpsobjectmodel/IXpsOMPageReferenceCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices

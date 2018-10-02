@@ -7,7 +7,7 @@ old-location: wsw\wsstartwritercanonicalization.htm
 tech.root: wsw
 ms.assetid: e9ea26d6-a136-4103-ac67-42e943ea67b5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsStartWriterCanonicalization, WsStartWriterCanonicalization function [Web Services for Windows], webservices/WsStartWriterCanonicalization, wsw.wsstartwritercanonicalization
 ms.prod: windows-hardware
 ms.technology: windows-devices

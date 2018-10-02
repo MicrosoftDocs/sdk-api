@@ -7,7 +7,7 @@ old-location: winprog\isapisetimplemented.htm
 tech.root: devnotes
 ms.assetid: DF177716-9F33-4E39-BD63-D1B8E39CD67C
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IsApiSetImplemented, IsApiSetImplemented function [Windows API], apiquery2/IsApiSetImplemented, winprog.isapisetimplemented
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>IsApiSetImplemented</b> function tests if a specified API set is present on the computer.
 

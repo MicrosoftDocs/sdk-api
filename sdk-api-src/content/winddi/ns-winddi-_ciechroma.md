@@ -4,10 +4,10 @@ title: "_CIECHROMA"
 author: windows-sdk-content
 description: The CIECHROMA structure is used to describe the chromaticity coordinates, x and y, and the luminance, Y in CIE color space.
 old-location: display\ciechroma.htm
-tech.root: display
+tech.root: Display
 ms.assetid: b8d1fd9b-c735-49f6-8d3b-12b5b1d92543
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: CIECHROMA, CIECHROMA structure [Display Devices], _CIECHROMA, display.ciechroma, grstrcts_b0ffd3e4-c5c0-40f8-9272-1decae47108d.xml, winddi/CIECHROMA
 ms.prod: windows
 ms.technology: windows-sdk

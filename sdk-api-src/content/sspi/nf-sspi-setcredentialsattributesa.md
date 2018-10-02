@@ -7,7 +7,7 @@ old-location: security\setcredentialsattributes.htm
 tech.root: secauthn
 ms.assetid: 419fb4f0-3dd1-4473-aeb2-8024355e0c1c
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: QueryCredentialsAttributesA, QueryCredentialsAttributesW, SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW, sspi/SetCredentialsAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

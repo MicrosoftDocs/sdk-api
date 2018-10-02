@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_displayname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4s6d.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],DisplayName property, IFaxDoc.DisplayName, IFaxDoc.put_DisplayName, IFaxDoc::DisplayName, IFaxDoc::get_DisplayName, IFaxDoc::put_DisplayName, _mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_displayname_cpp, faxcom/IFaxDoc::DisplayName, faxcom/IFaxDoc::get_DisplayName, faxcom/IFaxDoc::put_DisplayName, put_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

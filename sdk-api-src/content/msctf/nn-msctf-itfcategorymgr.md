@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr.htm
 tech.root: TSF
 ms.assetid: 26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], ITfCategoryMgr interface [Text Services Framework],described, _tsf_itfcategorymgr_ref, msctf/ITfCategoryMgr, tsf.itfcategorymgr
 ms.prod: windows
 ms.technology: windows-sdk

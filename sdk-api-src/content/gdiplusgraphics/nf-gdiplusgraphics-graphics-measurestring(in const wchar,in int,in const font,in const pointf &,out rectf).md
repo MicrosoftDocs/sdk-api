@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureString_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsmeasurestringmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Graphics.MeasureString, Graphics.MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF), Graphics::MeasureString, Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF), MeasureString, MeasureString methods [GDI+], _gdiplus_CLASS_Graphics_MeasureString_Methods, gdiplus._gdiplus_CLASS_Graphics_MeasureString_Methods, gdiplusgraphics/MeasureString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT
 author: windows-sdk-content
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_CURRENT_ENCRYPTION_WHEN_ACCESSIBLE query.
 old-location: mf\d3d11_authenticated_query_current_accessibility_encryption_output.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8025B6C7-9A4A-431D-98B8-5C43DCF994ED
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT, D3D11_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT, mf.d3d11_authenticated_query_current_accessibility_encryption_output
 ms.prod: windows
 ms.technology: windows-sdk

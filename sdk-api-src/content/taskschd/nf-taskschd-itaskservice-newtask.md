@@ -4,10 +4,10 @@ title: ITaskService::NewTask
 author: windows-sdk-content
 description: Returns an empty task definition object to be filled in with settings and properties and then registered using the ITaskFolder::RegisterTaskDefinition method.
 old-location: taskschd\itaskservice_newtask.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ITaskService interface [Task Scheduler],NewTask method, ITaskService.NewTask, ITaskService::NewTask, NewTask, NewTask method [Task Scheduler], NewTask method [Task Scheduler],ITaskService interface, taskschd.itaskservice_newtask, taskschd/ITaskService::NewTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509CertificateRequest::put_ParentWindow
 author: windows-sdk-content
 description: Specifies and retrieves the ID of the window used by key-related user interface dialogs.
 old-location: security\ix509certificaterequest_parentwindow_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 86e82a6c-7689-4bf3-8f64-e512040abd6a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequest interface [Security],ParentWindow property, IX509CertificateRequest.ParentWindow, IX509CertificateRequest.put_ParentWindow, IX509CertificateRequest::ParentWindow, IX509CertificateRequest::get_ParentWindow, IX509CertificateRequest::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::ParentWindow, certenroll/IX509CertificateRequest::get_ParentWindow, certenroll/IX509CertificateRequest::put_ParentWindow, put_ParentWindow, security.ix509certificaterequest_parentwindow_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

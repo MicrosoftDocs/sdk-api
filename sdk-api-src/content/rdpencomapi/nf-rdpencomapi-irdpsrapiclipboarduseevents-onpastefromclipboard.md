@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm
 tech.root: Rdp
 ms.assetid: aa5fccb9-ca7b-4779-a454-f16be8bca72c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents interface [RDP],OnPasteFromClipboard method, IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard, IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard, OnPasteFromClipboard, OnPasteFromClipboard method [RDP], OnPasteFromClipboard method [RDP],IRDPSRAPIClipboardUseEvents interface, rdp.irdpsrapiclipboarduseevents_onpastefromclipboard, rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

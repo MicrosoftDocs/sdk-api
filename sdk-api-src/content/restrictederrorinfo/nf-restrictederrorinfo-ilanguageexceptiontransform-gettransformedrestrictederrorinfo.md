@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptiontransform_gettransformedrestrictederrorinf
 tech.root: WinRT
 ms.assetid: F64449FE-9562-4210-8C00-9935DE71DA07
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTransformedRestrictedErrorInfo, GetTransformedRestrictedErrorInfo method [Windows Runtime], GetTransformedRestrictedErrorInfo method [Windows Runtime],ILanguageExceptionTransform interface, ILanguageExceptionTransform interface [Windows Runtime],GetTransformedRestrictedErrorInfo method, ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo, ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, restrictederrorinfo/ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, winrt.ilanguageexceptiontransform_gettransformedrestrictederrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iisdbcacontractinformationdescriptor_getfeenamew.htm
 tech.root: MSTV
 ms.assetid: c2fcdcc1-acca-417e-bcf5-baad4ea07cef
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetFeeNameW, GetFeeNameW method [Microsoft TV Technologies], GetFeeNameW method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetFeeNameW method, IIsdbCAContractInformationDescriptor.GetFeeNameW, IIsdbCAContractInformationDescriptor::GetFeeNameW, dvbsiparser/IIsdbCAContractInformationDescriptor::GetFeeNameW, mstv.iisdbcacontractinformationdescriptor_getfeenamew
 ms.prod: windows-hardware
 ms.technology: windows-devices

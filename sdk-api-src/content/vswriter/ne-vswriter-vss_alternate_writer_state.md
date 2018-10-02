@@ -7,7 +7,7 @@ old-location: base\vss_alternate_writer_state.htm
 tech.root: VSS
 ms.assetid: 8d41fd9d-6448-4bec-a669-4aa50f37cada
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VSS_ALTERNATE_WRITER_STATE, VSS_ALTERNATE_WRITER_STATE enumeration [VSS], VSS_AWS_ALTERNATE_WRITER_EXISTS, VSS_AWS_NO_ALTERNATE_WRITER, VSS_AWS_THIS_IS_ALTERNATE_WRITER, VSS_AWS_UNDEFINED, _win32_vss_alternate_writer_state, base.vss_alternate_writer_state, enumeration [VSS], vswriter/VSS_ALTERNATE_WRITER_STATE, vswriter/VSS_AWS_ALTERNATE_WRITER_EXISTS, vswriter/VSS_AWS_NO_ALTERNATE_WRITER, vswriter/VSS_AWS_THIS_IS_ALTERNATE_WRITER, vswriter/VSS_AWS_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk

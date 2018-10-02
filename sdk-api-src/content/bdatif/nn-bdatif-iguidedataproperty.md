@@ -7,7 +7,7 @@ old-location: mstv\iguidedataproperty.htm
 tech.root: MSTV
 ms.assetid: 1c614f2a-69e0-4100-b83e-740478654c17
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], IGuideDataProperty interface [Microsoft TV Technologies],described, IGuideDataPropertyInterface, bdatif/IGuideDataProperty, mstv.iguidedataproperty
 ms.prod: windows
 ms.technology: windows-sdk

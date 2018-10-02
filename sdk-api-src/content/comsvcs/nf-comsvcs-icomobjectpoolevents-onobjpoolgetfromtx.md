@@ -7,7 +7,7 @@ old-location: cos\icomobjectpoolevents_onobjpoolgetfromtx.htm
 tech.root: cossdk
 ms.assetid: 977ab640-a9d5-47f5-ad47-ad2e1648fd6b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolGetFromTx method, IComObjectPoolEvents.OnObjPoolGetFromTx, IComObjectPoolEvents::OnObjPoolGetFromTx, OnObjPoolGetFromTx, OnObjPoolGetFromTx method [COM+], OnObjPoolGetFromTx method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolGetFromTx, comsvcs/IComObjectPoolEvents::OnObjPoolGetFromTx, cos.icomobjectpoolevents_onobjpoolgetfromtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DrtCreateNullSecurityProvider function
 author: windows-sdk-content
 description: DrtCreateNullSecurityProvider function creates a null security provider. This security provider does not require nodes to authenticate keys.
 old-location: p2p\drtcreatenullsecurityprovider.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: ba6e766f-784b-4609-8ad5-c1bfb0575f34
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: DrtCreateNullSecurityProvider, DrtCreateNullSecurityProvider function [Distributed Routing Tables], drt/DrtCreateNullSecurityProvider, p2p.drtcreatenullsecurityprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

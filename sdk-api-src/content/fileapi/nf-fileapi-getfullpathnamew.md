@@ -4,10 +4,10 @@ title: GetFullPathNameW function
 author: windows-sdk-content
 description: Retrieves the full path and file name of the specified file.
 old-location: fs\getfullpathname.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetFullPathName, GetFullPathName function [Files], GetFullPathNameA, GetFullPathNameW, _win32_getfullpathname, base.getfullpathname, fileapi/GetFullPathName, fileapi/GetFullPathNameA, fileapi/GetFullPathNameW, fs.getfullpathname, winbase/GetFullPathName, winbase/GetFullPathNameA, winbase/GetFullPathNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

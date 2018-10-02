@@ -4,10 +4,10 @@ title: IX509ExtensionMSApplicationPolicies::get_Policies
 author: windows-sdk-content
 description: Retrieves a collection of application policies.
 old-location: security\ix509extensionmsapplicationpolicies_policies_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: e20c7e75-ec08-4336-b932-f0bb0a5dfee8
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],Policies property, IX509ExtensionMSApplicationPolicies.Policies, IX509ExtensionMSApplicationPolicies.get_Policies, IX509ExtensionMSApplicationPolicies::Policies, IX509ExtensionMSApplicationPolicies::get_Policies, Policies property [Security], Policies property [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::Policies, certenroll/IX509ExtensionMSApplicationPolicies::get_Policies, get_Policies, security.ix509extensionmsapplicationpolicies_policies_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

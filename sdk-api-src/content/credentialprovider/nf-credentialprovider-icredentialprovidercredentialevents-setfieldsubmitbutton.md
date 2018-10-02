@@ -4,10 +4,10 @@ title: ICredentialProviderCredentialEvents::SetFieldSubmitButton
 author: windows-sdk-content
 description: Enables credentials to set the field that the submit button appears adjacent to.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldSubmitButton.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a39d67d7-b34d-482b-bfe1-db1f9cdc8d30
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldSubmitButton method, ICredentialProviderCredentialEvents.SetFieldSubmitButton, ICredentialProviderCredentialEvents::SetFieldSubmitButton, SetFieldSubmitButton, SetFieldSubmitButton method [Windows Shell], SetFieldSubmitButton method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldSubmitButton, credentialprovider/ICredentialProviderCredentialEvents::SetFieldSubmitButton, shell.ICredentialProviderCredentialEvents_SetFieldSubmitButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

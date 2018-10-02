@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenrolldiscard.htm
 tech.root: SecBioMet
 ms.assetid: 0b029ace-1f5d-4cb2-9f09-51e5a11d2e5a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WinBioEnrollDiscard, WinBioEnrollDiscard function [Windows Biometric Framework API], secbiomet.winbioenrolldiscard, winbio/WinBioEnrollDiscard
 ms.prod: windows-hardware
 ms.technology: windows-devices

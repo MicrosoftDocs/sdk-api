@@ -4,10 +4,10 @@ title: "_TASK_STATE"
 author: windows-sdk-content
 description: Defines the different states that a registered task can be in.
 old-location: taskschd\task_state.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 89fd8b0b-1cdf-4222-99cc-d8c55a3e68d6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: TASK_STATE, TASK_STATE enumeration [Task Scheduler], TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, _TASK_STATE, taskschd.task_state, taskschd/TASK_STATE, taskschd/TASK_STATE_DISABLED, taskschd/TASK_STATE_QUEUED, taskschd/TASK_STATE_READY, taskschd/TASK_STATE_RUNNING, taskschd/TASK_STATE_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

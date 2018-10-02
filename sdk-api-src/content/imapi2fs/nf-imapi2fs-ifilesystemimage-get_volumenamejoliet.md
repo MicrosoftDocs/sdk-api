@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_volumenamejoliet.htm
 tech.root: imapi
 ms.assetid: 5300763d-9f2f-4562-bb5e-61fcf485b086
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameJoliet method, IFileSystemImage.get_VolumeNameJoliet, IFileSystemImage::get_VolumeNameJoliet, get_VolumeNameJoliet, get_VolumeNameJoliet method [IMAPI], get_VolumeNameJoliet method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenamejoliet, imapi2fs/IFileSystemImage::get_VolumeNameJoliet
 ms.prod: windows-hardware
 ms.technology: windows-devices

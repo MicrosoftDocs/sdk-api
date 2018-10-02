@@ -7,7 +7,7 @@ old-location: security\ienroll4_acceptfileresponsewstr.htm
 tech.root: seccrypto
 ms.assetid: b9c92f20-5f23-4dda-9e80-df9bf400ac08
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: IEnroll4 interface [Security],acceptFileResponseWStr method, IEnroll4.acceptFileResponseWStr, IEnroll4::acceptFileResponseWStr, acceptFileResponseWStr, acceptFileResponseWStr method [Security], acceptFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_acceptfileresponsewstr, xenroll/IEnroll4::acceptFileResponseWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\ptmergeandvalidateprintticket.htm
 tech.root: printdocs
 ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices

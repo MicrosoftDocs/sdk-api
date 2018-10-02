@@ -7,7 +7,7 @@ old-location: wmp\iwmpskinmanager.htm
 tech.root: WMP
 ms.assetid: c1f27a79-837f-4833-af62-2181406ed725
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPSkinManager, IWMPSkinManager interface [Windows Media Player], IWMPSkinManager interface [Windows Media Player],described, IWMPSkinManagerInterface, wmp.iwmpskinmanager, wmp/IWMPSkinManager
 ms.prod: windows
 ms.technology: windows-sdk

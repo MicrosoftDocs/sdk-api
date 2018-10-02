@@ -7,7 +7,7 @@ old-location: of\iofflinefileseventsfilter_getexcludedevents.htm
 tech.root: OfflineFiles
 ms.assetid: 40e388b2-b051-4b0a-b96e-7a73b521758e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetExcludedEvents, GetExcludedEvents method [Offline Files], GetExcludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetExcludedEvents method, IOfflineFilesEventsFilter.GetExcludedEvents, IOfflineFilesEventsFilter::GetExcludedEvents, cscobj/IOfflineFilesEventsFilter::GetExcludedEvents, of.iofflinefileseventsfilter_getexcludedevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

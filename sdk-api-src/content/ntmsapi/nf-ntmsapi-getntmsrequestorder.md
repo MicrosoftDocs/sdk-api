@@ -7,7 +7,7 @@ old-location: fs\getntmsrequestorder.htm
 tech.root: Rsm
 ms.assetid: 68617846-63c7-4a47-887a-ee49705753ce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_getntmsrequestorder, base.getntmsrequestorder, fs.getntmsrequestorder, ntmsapi/GetNtmsRequestOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices

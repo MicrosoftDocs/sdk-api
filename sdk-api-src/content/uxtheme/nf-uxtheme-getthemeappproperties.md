@@ -4,10 +4,10 @@ title: GetThemeAppProperties function
 author: windows-sdk-content
 description: Retrieves the property flags that control how visual styles are applied in the current application.
 old-location: controls\GetThemeAppProperties.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

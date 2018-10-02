@@ -4,10 +4,10 @@ title: SHGetLocalizedName function
 author: windows-sdk-content
 description: Retrieves the localized name of a file in a Shell folder.
 old-location: shell\SHGetLocalizedName.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2929b77f-4467-44a8-9885-96f0c3e35584
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetLocalizedName, SHGetLocalizedName function [Windows Shell], _shell_SHGetLocalizedName, shell.SHGetLocalizedName, shellapi/SHGetLocalizedName
 ms.prod: windows-hardware
 ms.technology: windows-devices

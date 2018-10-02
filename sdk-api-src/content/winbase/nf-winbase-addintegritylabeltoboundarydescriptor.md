@@ -7,7 +7,7 @@ old-location: base\addintegritylabeltoboundarydescriptor.htm
 tech.root: Sync
 ms.assetid: 6b56e664-7795-4e30-8bca-1e4df2764606
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddIntegrityLabelToBoundaryDescriptor, AddIntegrityLabelToBoundaryDescriptor function, base.addintegritylabeltoboundarydescriptor, winbase/AddIntegrityLabelToBoundaryDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

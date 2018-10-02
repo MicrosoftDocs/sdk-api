@@ -4,10 +4,10 @@ title: IEVRFilterConfig::SetNumberOfStreams
 author: windows-sdk-content
 description: Sets the number of input pins on the EVR filter.
 old-location: mf\ievrfilterconfig_setnumberofstreams.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 72777c3d-b098-43b9-80ea-ef180b7f1a4a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 72777c3d-b098-43b9-80ea-ef180b7f1a4a, IEVRFilterConfig interface [Media Foundation],SetNumberOfStreams method, IEVRFilterConfig.SetNumberOfStreams, IEVRFilterConfig::SetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [Media Foundation], SetNumberOfStreams method [Media Foundation],IEVRFilterConfig interface, evr/IEVRFilterConfig::SetNumberOfStreams, mf.ievrfilterconfig_setnumberofstreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_utilitiesft.htm
 tech.root: WMI_v2
 ms.assetid: 4f82b7b3-833c-42e8-a80c-2d057fc34fe4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_UtilitiesFT, MI_UtilitiesFT structure [Windows Management Infrastructure (MI)], _MI_UtilitiesFT, mi/MI_UtilitiesFT, wmi_v2.mi_utilitiesft
 ms.prod: windows
 ms.technology: windows-sdk

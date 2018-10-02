@@ -4,10 +4,10 @@ title: tagMULTIKEYHELPW
 author: windows-sdk-content
 description: Specifies a keyword to search for and the keyword table to be searched by Windows Help.
 old-location: shell\MULTIKEYHELP_str.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5fe0cd44-196c-4d9a-b9f8-2a97a92f2545
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPMULTIKEYHELPW, *PMULTIKEYHELPW, MULTIKEYHELP, MULTIKEYHELP structure [Windows Shell], MULTIKEYHELPW, _win32_MULTIKEYHELP_str, shell.MULTIKEYHELP_str, tagMULTIKEYHELPA, tagMULTIKEYHELPW, winuser/MULTIKEYHELP"
 ms.prod: windows
 ms.technology: windows-sdk

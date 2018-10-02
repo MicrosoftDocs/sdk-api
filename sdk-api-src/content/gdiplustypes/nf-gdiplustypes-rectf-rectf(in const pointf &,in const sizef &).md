@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_location_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_18location_size.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(IN const PointF &,IN const SizeF &), RectF.RectF(const PointF&,const SizeF&), RectF::RectF, RectF::RectF(IN const PointF &,IN const SizeF &), _gdiplus_CLASS_RectF_RectF_location_size_, gdiplus._gdiplus_CLASS_RectF_RectF_location_size_
 ms.prod: windows-hardware
 ms.technology: windows-devices

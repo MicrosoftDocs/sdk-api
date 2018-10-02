@@ -7,7 +7,7 @@ old-location: rm\callback_prototype.htm
 tech.root: AdRms_Sdk
 ms.assetid: 41c200df-afbc-43a5-8046-d131fec3261a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMCallback, rm.callback_prototype
 ms.prod: windows
 ms.technology: windows-sdk

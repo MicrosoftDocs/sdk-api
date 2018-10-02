@@ -7,7 +7,7 @@ old-location: automat\itypecomp.htm
 tech.root: automat
 ms.assetid: 4d35370f-506f-45cd-9d75-e48c640d8f4d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITypeComp, ITypeComp interface [Automation], ITypeComp interface [Automation],described, _oa96_ITypeComp_Interface, automat.itypecomp, oaidl/ITypeComp
 ms.prod: windows
 ms.technology: windows-sdk

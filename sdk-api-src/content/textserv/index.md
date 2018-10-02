@@ -2,7 +2,7 @@
 UID: NA:textserv
 ms.assetid: f2785495-36a5-348b-9714-670f80cb85b0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

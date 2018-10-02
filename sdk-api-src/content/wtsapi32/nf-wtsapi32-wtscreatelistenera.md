@@ -7,7 +7,7 @@ old-location: termserv\wtscreatelistener.htm
 tech.root: TermServ
 ms.assetid: 057facde-43b6-44c4-944a-7ad7854ec1e6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WTSCreateListener, WTSCreateListener function [Remote Desktop Services], WTSCreateListenerA, WTSCreateListenerW, WTS_LISTENER_CREATE, WTS_LISTENER_UPDATE, termserv.wtscreatelistener, wtsapi32/WTSCreateListener, wtsapi32/WTSCreateListenerA, wtsapi32/WTSCreateListenerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

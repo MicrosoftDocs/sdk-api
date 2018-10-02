@@ -7,7 +7,7 @@ old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getareacode.htm
 tech.root: MSTV
 ms.assetid: 14ba763d-c21c-48c1-b5d9-d29cc1108a58
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetAreaCode, GetAreaCode method [Microsoft TV Technologies], GetAreaCode method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetAreaCode method, IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode, IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode, mstv.iisdbterrestrialdeliverysystemdescriptor_getareacode
 ms.prod: windows-hardware
 ms.technology: windows-devices

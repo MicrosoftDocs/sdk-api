@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_preroll.htm
 tech.root: wmformat
 ms.assetid: c216adf1-390c-45cc-acae-645fe29f55de
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],Preroll method, IWMReaderAdvanced2.Preroll, IWMReaderAdvanced2::Preroll, IWMReaderAdvanced2Preroll, Preroll, Preroll method [windows Media Format], Preroll method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_preroll, wmsdkidl/IWMReaderAdvanced2::Preroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

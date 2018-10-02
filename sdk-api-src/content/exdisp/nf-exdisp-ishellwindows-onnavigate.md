@@ -4,10 +4,10 @@ title: IShellWindows::OnNavigate
 author: windows-sdk-content
 description: Occurs when a Shell window is navigated to a new location.
 old-location: shell\IShellWindows_OnNavigate.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b65bc979-db32-48b3-b71f-fd389957b265
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnNavigate method, IShellWindows.OnNavigate, IShellWindows::OnNavigate, OnNavigate, OnNavigate method [Windows Shell], OnNavigate method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnNavigate, exdisp/IShellWindows::OnNavigate, shell.IShellWindows_OnNavigate
 ms.prod: windows-hardware
 ms.technology: windows-devices

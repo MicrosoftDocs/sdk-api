@@ -4,10 +4,10 @@ title: IRichEditOleCallback::QueryAcceptData
 author: windows-sdk-content
 description: During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
 old-location: controls\IRichEditOleCallback_QueryAcceptData.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryacceptdata.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryAcceptData method, IRichEditOleCallback.QueryAcceptData, IRichEditOleCallback::QueryAcceptData, QueryAcceptData, QueryAcceptData method [Windows Controls], QueryAcceptData method [Windows Controls],IRichEditOleCallback interface, RECO_DROP, RECO_PASTE, _win32_IRichEditOleCallback_QueryAcceptData, _win32_IRichEditOleCallback_QueryAcceptData_cpp, controls.IRichEditOleCallback_QueryAcceptData, controls._win32_IRichEditOleCallback_QueryAcceptData, richole/IRichEditOleCallback::QueryAcceptData
 ms.prod: windows-hardware
 ms.technology: windows-devices

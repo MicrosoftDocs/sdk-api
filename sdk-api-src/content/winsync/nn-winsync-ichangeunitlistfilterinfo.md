@@ -7,7 +7,7 @@ old-location: winsync\ichangeunitlistfilterinfo.htm
 tech.root: winsync
 ms.assetid: fd379fc6-22e5-4165-b4e6-480bc65cccb3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IChangeUnitListFilterInfo, IChangeUnitListFilterInfo interface [Windows Sync], IChangeUnitListFilterInfo interface [Windows Sync],described, winsync.ichangeunitlistfilterinfo, winsync/IChangeUnitListFilterInfo
 ms.prod: windows
 ms.technology: windows-sdk

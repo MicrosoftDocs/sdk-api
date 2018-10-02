@@ -7,7 +7,7 @@ old-location: pla\iapitracingdatacollector_includeapis.htm
 tech.root: PLA
 ms.assetid: eca2b220-5316-4f8b-a1f2-808a8d10b43e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],IncludeApis property, IApiTracingDataCollector.IncludeApis, IApiTracingDataCollector.get_IncludeApis, IApiTracingDataCollector::IncludeApis, IApiTracingDataCollector::get_IncludeApis, IApiTracingDataCollector::put_IncludeApis, IncludeApis property [PLA], IncludeApis property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_includeapis, get_IncludeApis, pla.iapitracingdatacollector_includeapis, pla/IApiTracingDataCollector::IncludeApis, pla/IApiTracingDataCollector::get_IncludeApis, pla/IApiTracingDataCollector::put_IncludeApis
 ms.prod: windows-hardware
 ms.technology: windows-devices

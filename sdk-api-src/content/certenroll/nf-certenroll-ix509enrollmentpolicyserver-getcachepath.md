@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetCachePath
 author: windows-sdk-content
 description: Retrieves the path of the policy cache file on the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getcachepath.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c71c9f97-a312-4260-995b-454de6a38cce
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetCachePath, GetCachePath method [Security], GetCachePath method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCachePath method, IX509EnrollmentPolicyServer.GetCachePath, IX509EnrollmentPolicyServer::GetCachePath, certenroll/IX509EnrollmentPolicyServer::GetCachePath, security.ix509enrollmentpolicyserver_getcachepath
 ms.prod: windows-hardware
 ms.technology: windows-devices

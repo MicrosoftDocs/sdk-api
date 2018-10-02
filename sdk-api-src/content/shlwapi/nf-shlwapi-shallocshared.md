@@ -4,10 +4,10 @@ title: SHAllocShared function
 author: windows-sdk-content
 description: SHAllocShared may be altered or unavailable.
 old-location: shell\SHAllocShared.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0388b6a0-24d9-48eb-bef2-3a1658d8bb3c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHAllocShared, SHAllocShared function [Windows Shell], _win32_SHAllocShared, shell.SHAllocShared, shlwapi/SHAllocShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

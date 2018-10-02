@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gettextfiltersize.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gettextfiltersize.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 17c84de7-9714-f15b-6e79-288beb4a3193, GetTextFilterSize, GetTextFilterSize method [Direct3D 10], GetTextFilterSize method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetTextFilterSize method, ID3D10Device.GetTextFilterSize, ID3D10Device::GetTextFilterSize, d3d10/ID3D10Device::GetTextFilterSize, direct3d10.id3d10device_gettextfiltersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

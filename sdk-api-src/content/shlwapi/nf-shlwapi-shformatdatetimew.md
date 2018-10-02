@@ -4,10 +4,10 @@ title: SHFormatDateTimeW function
 author: windows-sdk-content
 description: SHFormatDateTime may be altered or unavailable.
 old-location: shell\SHFormatDateTime.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2208ed29-6029-4051-bdcc-885c42fe5c1b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: FDTF_DEFAULT, FDTF_LONGDATE, FDTF_LONGTIME, FDTF_LTRDATE, FDTF_NOAUTOREADINGORDER, FDTF_RELATIVE, FDTF_RTLDATE, FDTF_SHORTDATE, FDTF_SHORTTIME, SHFormatDateTime, SHFormatDateTime function [Windows Shell], SHFormatDateTimeA, SHFormatDateTimeW, _win32_SHFormatDateTime, shell.SHFormatDateTime, shlwapi/SHFormatDateTime, shlwapi/SHFormatDateTimeA, shlwapi/SHFormatDateTimeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

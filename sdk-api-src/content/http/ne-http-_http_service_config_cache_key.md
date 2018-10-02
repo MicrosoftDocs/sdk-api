@@ -7,7 +7,7 @@ old-location: http\http_service_config_cache_key.htm
 tech.root: Http
 ms.assetid: 796b93ab-742b-4e18-a522-6938fbf78786
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_CACHE_KEY, CacheRangeChunkSize, HTTP_SERVICE_CONFIG_CACHE_KEY, HTTP_SERVICE_CONFIG_CACHE_KEY enumeration [HTTP], MaxCacheResponseSize, _HTTP_SERVICE_CONFIG_CACHE_KEY, http.http_service_config_cache_key, http/CacheRangeChunkSize, http/HTTP_SERVICE_CONFIG_CACHE_KEY, http/MaxCacheResponseSize"
 ms.prod: windows
 ms.technology: windows-sdk

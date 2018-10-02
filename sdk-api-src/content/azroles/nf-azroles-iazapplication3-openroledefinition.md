@@ -4,10 +4,10 @@ title: IAzApplication3::OpenRoleDefinition
 author: windows-sdk-content
 description: Opens an IAzRoleDefinition object with the specified name.
 old-location: security\iazapplication3_openroledefinition.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 460b917c-a07b-4f50-b80f-0f6d986b65ff
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IAzApplication3 interface [Security],OpenRoleDefinition method, IAzApplication3.OpenRoleDefinition, IAzApplication3::OpenRoleDefinition, OpenRoleDefinition, OpenRoleDefinition method [Security], OpenRoleDefinition method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenRoleDefinition, security.iazapplication3_openroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices

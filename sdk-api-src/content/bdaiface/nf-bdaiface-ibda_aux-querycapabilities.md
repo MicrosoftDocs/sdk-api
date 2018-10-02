@@ -7,7 +7,7 @@ old-location: mstv\ibda_aux_querycapabilities.htm
 tech.root: MSTV
 ms.assetid: 7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_AUX interface [Microsoft TV Technologies],QueryCapabilities method, IBDA_AUX.QueryCapabilities, IBDA_AUX::QueryCapabilities, QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies],IBDA_AUX interface, bdaiface/IBDA_AUX::QueryCapabilities, mstv.ibda_aux_querycapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

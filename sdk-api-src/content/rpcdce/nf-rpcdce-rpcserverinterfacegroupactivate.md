@@ -4,10 +4,10 @@ title: RpcServerInterfaceGroupActivate function
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupActivate function tells the RPC server runtime to register the interface group’s interfaces and endpoints and begin listening for calls.
 old-location: rpc\rpcserverinterfacegroupactivate.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: A467DDEC-BEB1-4050-B540-4A1E819E7373
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RpcServerInterfaceGroupActivate, RpcServerInterfaceGroupActivate function [RPC], rpc.rpcserverinterfacegroupactivate, rpcdce/RpcServerInterfaceGroupActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

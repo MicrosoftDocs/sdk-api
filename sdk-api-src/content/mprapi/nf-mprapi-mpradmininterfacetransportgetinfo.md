@@ -4,10 +4,10 @@ title: MprAdminInterfaceTransportGetInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceTransportGetInfo function retrieves information about a transport running on a specified interface.
 old-location: rras\mpradmininterfacetransportgetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 4e8d7fdf-668e-496a-977a-7a0306173495
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: MprAdminInterfaceTransportGetInfo, MprAdminInterfaceTransportGetInfo function [RAS], _mpr_mpradmininterfacetransportgetinfo, mprapi/MprAdminInterfaceTransportGetInfo, rras.mpradmininterfacetransportgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

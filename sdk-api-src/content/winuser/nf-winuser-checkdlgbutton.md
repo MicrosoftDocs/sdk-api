@@ -4,10 +4,10 @@ title: CheckDlgButton function
 author: windows-sdk-content
 description: Changes the check state of a button control.
 old-location: controls\CheckDlgButton.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkdlgbutton.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, CheckDlgButton, CheckDlgButton function [Windows Controls], _win32_CheckDlgButton, _win32_CheckDlgButton_cpp, controls.CheckDlgButton, controls._win32_CheckDlgButton, winuser/CheckDlgButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

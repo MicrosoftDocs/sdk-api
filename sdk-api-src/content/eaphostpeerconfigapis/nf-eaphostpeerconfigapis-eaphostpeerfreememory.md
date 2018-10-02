@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerfreememory.htm
 tech.root: EAPHost
 ms.assetid: 162c796c-b9dc-465a-a1bc-f11d740f3fa0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapHostPeerFreeMemory, EapHostPeerFreeMemory function [EAPHost], eaphost.eaphostpeerfreememory, eaphostpeerconfigapis/EapHostPeerFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

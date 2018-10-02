@@ -7,7 +7,7 @@ old-location: psapi\getwschangesex.htm
 tech.root: psapi
 ms.assetid: 8572db5c-2ffc-424f-8cec-b6a6902fed62
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetWsChangesEx, GetWsChangesEx function [PSAPI], K32GetWsChangesEx, base.getwschangesex, psapi.getwschangesex, psapi/GetWsChangesEx, psapi/K32GetWsChangesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWizardExtension::GetFirstPage
 author: windows-sdk-content
 description: Gets a handle to the first page of the wizard extension.
 old-location: shell\IWizardExtension_GetFirstPage.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1276b63d-6d5e-4e60-b936-b307cd922b4b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetFirstPage, GetFirstPage method [Windows Shell], GetFirstPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetFirstPage method, IWizardExtension.GetFirstPage, IWizardExtension::GetFirstPage, _shell_IWizardExtension_GetFirstPage, shell.IWizardExtension_GetFirstPage, shobjidl/IWizardExtension::GetFirstPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

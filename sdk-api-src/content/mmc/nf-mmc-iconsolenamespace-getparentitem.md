@@ -4,10 +4,10 @@ title: IConsoleNameSpace::GetParentItem
 author: windows-sdk-content
 description: Enables the snap-in to retrieve the handle to a parent item in the scope view.
 old-location: mmc\iconsolenamespace_getparentitem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 6F053540-D14D-4E5A-891C-00B140A5DFBC
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: GetParentItem, GetParentItem method [MMC], GetParentItem method [MMC],IConsoleNameSpace interface, IConsoleNameSpace interface [MMC],GetParentItem method, IConsoleNameSpace.GetParentItem, IConsoleNameSpace::GetParentItem, mmc.iconsolenamespace_getparentitem, mmc/IConsoleNameSpace::GetParentItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

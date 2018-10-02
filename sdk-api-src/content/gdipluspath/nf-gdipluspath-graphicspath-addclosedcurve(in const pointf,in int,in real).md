@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddclosedcurvemethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: AddClosedCurve, AddClosedCurve methods [GDI+], GraphicsPath.AddClosedCurve, GraphicsPath.AddClosedCurve(IN const PointF,IN INT,IN REAL), GraphicsPath::AddClosedCurve, GraphicsPath::AddClosedCurve(IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods, gdipluspath/AddClosedCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectioncreateenumhandle0.htm
 tech.root: FWP
 ms.assetid: b33878d5-437d-4625-b488-28fbe95eb69f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmConnectionCreateEnumHandle0, FwpmConnectionCreateEnumHandle0 function [Filtering], fwp.fwpmconnectioncreateenumhandle0, fwpmu/FwpmConnectionCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

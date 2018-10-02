@@ -7,7 +7,7 @@ old-location: cos\ieventobjectchange.htm
 tech.root: cossdk
 ms.assetid: 2e916601-e03d-4c5f-a8fb-38317cfb66ad
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IEventObjectChange, IEventObjectChange interface [COM+], IEventObjectChange interface [COM+],described, _cos_IEventObjectChange, cos.ieventobjectchange, eventsys/IEventObjectChange
 ms.prod: windows
 ms.technology: windows-sdk

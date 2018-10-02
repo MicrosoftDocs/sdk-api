@@ -7,7 +7,7 @@ old-location: security\changeaccountpassword.htm
 tech.root: secauthn
 ms.assetid: a1d1e315-d1a2-499a-b552-83180508271f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: ChangeAccountPassword, ChangeAccountPassword function [Security], ChangeAccountPasswordA, ChangeAccountPasswordW, security.changeaccountpassword, sspi/ChangeAccountPassword, sspi/ChangeAccountPasswordA, sspi/ChangeAccountPasswordW
 ms.prod: windows-hardware
 ms.technology: windows-devices

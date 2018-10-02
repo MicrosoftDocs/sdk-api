@@ -7,7 +7,7 @@ old-location: fs\netsessionenum.htm
 tech.root: NetShare
 ms.assetid: 5923a8cc-bf7a-4ffa-b089-fd7f26ee42d2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: 0, 1, 10, 2, 502, NetSessionEnum, NetSessionEnum function [Files], _win32_netsessionenum, fs.netsessionenum, lmshare/NetSessionEnum, netmgmt.netsessionenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

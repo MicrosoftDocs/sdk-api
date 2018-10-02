@@ -4,10 +4,10 @@ title: IFrameworkInputPaneHandler::Showing
 author: windows-sdk-content
 description: Called before the input pane is shown, to allow the app window to make any necessary adjustments to its UI in response to the reduced screen space available to it.
 old-location: shell\IFrameworkInputPaneHandler_Showing.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: E7CE2808-0146-4704-B1DA-1DDE691E946E
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFrameworkInputPaneHandler interface [Windows Shell],Showing method, IFrameworkInputPaneHandler.Showing, IFrameworkInputPaneHandler::Showing, Showing, Showing method [Windows Shell], Showing method [Windows Shell],IFrameworkInputPaneHandler interface, shell.IFrameworkInputPaneHandler_Showing, shobjidl_core/IFrameworkInputPaneHandler::Showing
 ms.prod: windows-hardware
 ms.technology: windows-devices

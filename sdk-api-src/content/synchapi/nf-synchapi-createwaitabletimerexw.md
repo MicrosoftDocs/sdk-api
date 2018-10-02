@@ -7,7 +7,7 @@ old-location: base\createwaitabletimerex.htm
 tech.root: Sync
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, synchapi/CreateWaitableTimerEx, synchapi/CreateWaitableTimerExA, synchapi/CreateWaitableTimerExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

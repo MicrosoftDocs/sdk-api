@@ -7,7 +7,7 @@ old-location: ndf\ndfdiagnoseincident.htm
 tech.root: NDF
 ms.assetid: 69ae5624-7c3b-44a2-8468-d587739fc666
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnoseIncident, NdfDiagnoseIncident function [NDF], ndf.ndfdiagnoseincident, ndfapi/NdfDiagnoseIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

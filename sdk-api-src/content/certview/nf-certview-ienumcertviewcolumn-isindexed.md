@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_isindexed.htm
 tech.root: seccrypto
 ms.assetid: 7373c0c3-3a1d-4a32-90e6-0f0575a0b61b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCERTVIEWCOLUMN.IsIndexed, IEnumCERTVIEWCOLUMN::IsIndexed, IsIndexed, IsIndexed method [Security], IsIndexed method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_isindexed, certview/IEnumCERTVIEWCOLUMN::IsIndexed, security.ienumcertviewcolumn_isindexed
 ms.prod: windows-hardware
 ms.technology: windows-devices

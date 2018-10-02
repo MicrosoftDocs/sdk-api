@@ -4,10 +4,10 @@ title: Int8Mult function
 author: windows-sdk-content
 description: Multiplies two values of type INT8.
 old-location: shell\Int8Mult.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0dbdd21a-b38b-4130-bc60-eef78a063ea8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Int8Mult, Int8Mult function [Windows Shell], intsafe/Int8Mult, shell.Int8Mult
 ms.prod: windows-hardware
 ms.technology: windows-devices

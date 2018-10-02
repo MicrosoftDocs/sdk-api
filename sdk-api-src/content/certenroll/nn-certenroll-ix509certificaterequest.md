@@ -4,10 +4,10 @@ title: IX509CertificateRequest
 author: windows-sdk-content
 description: The IX509CertificateRequest interface represents an abstract base certificate request that identifies methods and properties common to and inherited by each of the request objects implemented by the Certificate Enrollment API.
 old-location: security\ix509certificaterequest.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 5425c9ab-565d-449d-87e1-e5765868acfb
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequest, IX509CertificateRequest interface [Security], IX509CertificateRequest interface [Security],described, certenroll/IX509CertificateRequest, security.ix509certificaterequest
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutdeletebykey0_func.htm
 tech.root: FWP
 ms.assetid: b80b7d24-e126-4a8e-bb6d-d74b3f4ad07b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmCalloutDeleteByKey0, FwpmCalloutDeleteByKey0 function [Filtering], fwp.fwpmcalloutdeletebykey0_func, fwpmu/FwpmCalloutDeleteByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

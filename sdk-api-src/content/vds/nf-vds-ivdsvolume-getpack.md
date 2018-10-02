@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_getpack.htm
 tech.root: VDS
 ms.assetid: 8719c4a4-a7d6-4329-a601-5c88de18f53d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],GetPack method, IVdsVolume.GetPack, IVdsVolume::GetPack, base.ivdsvolume_getpack, vds/IVdsVolume::GetPack
 ms.prod: windows-hardware
 ms.technology: windows-devices

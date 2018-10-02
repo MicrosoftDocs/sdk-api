@@ -7,7 +7,7 @@ old-location: htmlhelp\iitwordwheel_close.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelclose.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Close method, IITWordWheel.Close, IITWordWheel::Close, htmlhelp.iitwordwheel_close, infotech/IITWordWheel::Close, refIITWordWheelClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

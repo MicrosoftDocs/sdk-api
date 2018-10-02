@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetmethodproperties.htm
 tech.root: EAPHost
 ms.assetid: b553c022-c9a2-4cf7-8c09-e629b49cd929
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapHostPeerGetMethodProperties, EapHostPeerGetMethodProperties function [EAPHost], eaphost.eaphostpeergetmethodproperties, eaphostpeerconfigapis/EapHostPeerGetMethodProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

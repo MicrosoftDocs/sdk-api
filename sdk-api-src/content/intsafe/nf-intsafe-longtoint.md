@@ -4,10 +4,10 @@ title: LongToInt function
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type INT.
 old-location: shell\LongToInt.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: fb7ee73a-78f1-43cd-aa00-b11f1ee25c49
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongToInt, LongToInt function [Windows Shell], _shell_LongToInt, intsafe/LongToInt, shell.LongToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

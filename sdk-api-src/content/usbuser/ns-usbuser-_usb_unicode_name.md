@@ -7,7 +7,7 @@ old-location: buses\usb_unicode_name.htm
 tech.root: UsbRef
 ms.assetid: d388332c-2f7c-410f-88f4-d0e56fed7a99
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "*PUSB_UNICODE_NAME, PUSB_UNICODE_NAME, PUSB_UNICODE_NAME structure pointer [Buses], USB_UNICODE_NAME, USB_UNICODE_NAME structure [Buses], _USB_UNICODE_NAME, buses.usb_unicode_name, usbstrct_6c02ad3d-6b23-469c-86ea-90edf02c1ad8.xml, usbuser/PUSB_UNICODE_NAME, usbuser/USB_UNICODE_NAME"
 ms.prod: windows
 ms.technology: windows-sdk

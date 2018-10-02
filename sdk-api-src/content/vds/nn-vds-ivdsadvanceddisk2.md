@@ -7,7 +7,7 @@ old-location: base\ivdsadvanceddisk2.htm
 tech.root: VDS
 ms.assetid: 3a6e7bac-3e94-48bd-8aeb-34278a34b0a1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsAdvancedDisk2, IVdsAdvancedDisk2 interface, IVdsAdvancedDisk2 interface,described, base.ivdsadvanceddisk2, vds/IVdsAdvancedDisk2
 ms.prod: windows
 ms.technology: windows-sdk

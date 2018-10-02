@@ -7,7 +7,7 @@ old-location: winmsg\getforegroundwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getforegroundwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetForegroundWindow, GetForegroundWindow function [Windows and Messages], _win32_GetForegroundWindow, _win32_getforegroundwindow_cpp, winmsg.getforegroundwindow, winui._win32_getforegroundwindow, winuser/GetForegroundWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

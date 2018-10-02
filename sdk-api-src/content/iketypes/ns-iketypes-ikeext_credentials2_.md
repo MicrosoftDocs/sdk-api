@@ -7,7 +7,7 @@ old-location: fwp\ikeext_credentials2.htm
 tech.root: FWP
 ms.assetid: 4099b6e7-0b3b-40ea-821c-3ff28a6f788f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IKEEXT_CREDENTIALS2, IKEEXT_CREDENTIALS2 structure [Filtering], IKEEXT_CREDENTIALS2_, fwp.ikeext_credentials2, iketypes/IKEEXT_CREDENTIALS2
 ms.prod: windows
 ms.technology: windows-sdk

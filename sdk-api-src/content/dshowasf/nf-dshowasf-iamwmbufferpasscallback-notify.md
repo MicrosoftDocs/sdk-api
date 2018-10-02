@@ -7,7 +7,7 @@ old-location: wmformat\iamwmbufferpasscallback_notify.htm
 tech.root: wmformat
 ms.assetid: 3f252754-c784-4ffd-bcfc-fab73fa02b9a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IAMWMBufferPassCallback interface [windows Media Format],Notify method, IAMWMBufferPassCallback.Notify, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IAMWMBufferPassCallback interface, dshowasf/IAMWMBufferPassCallback::Notify, wmformat.iamwmbufferpasscallback_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

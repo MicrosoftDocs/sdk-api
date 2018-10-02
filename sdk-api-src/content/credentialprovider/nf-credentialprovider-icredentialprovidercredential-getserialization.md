@@ -4,10 +4,10 @@ title: ICredentialProviderCredential::GetSerialization
 author: windows-sdk-content
 description: Called in response to an attempt to submit this credential to the underlying authentication engine.
 old-location: shell\ICredentialProviderCredential_GetSerialization.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c5f7ba25-c38a-431a-b4ad-0e2409f763a3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetSerialization, GetSerialization method [Windows Shell], GetSerialization method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetSerialization method, ICredentialProviderCredential.GetSerialization, ICredentialProviderCredential::GetSerialization, credentialprovider/ICredentialProviderCredential::GetSerialization, shell.ICredentialProviderCredential_GetSerialization, shell_ICredentialProviderCredential_GetSerialization
 ms.prod: windows-hardware
 ms.technology: windows-devices

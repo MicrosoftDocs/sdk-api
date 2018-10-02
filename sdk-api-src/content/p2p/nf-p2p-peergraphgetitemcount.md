@@ -4,10 +4,10 @@ title: PeerGraphGetItemCount function
 author: windows-sdk-content
 description: The PeerGraphGetItemCount function retrieves the number of items in an enumeration.
 old-location: p2p\peergraphgetitemcount.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: db97b7e0-6f85-4b61-843f-efb4bc93149b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphGetItemCount, PeerGraphGetItemCount function [Peer Networking], p2p.peergraphgetitemcount, p2p/PeerGraphGetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

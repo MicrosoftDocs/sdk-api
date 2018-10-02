@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicpnggamaproperties.htm
 tech.root: wic
 ms.assetid: c70a3507-d598-4e33-872b-353389b19351
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: WICPngGamaGamma, WICPngGamaProperties, WICPngGamaProperties enumeration [Windows Imaging Component], _wic_codec_wicpnggamaproperties, wic._wic_codec_wicpnggamaproperties, wincodec/WICPngGamaGamma, wincodec/WICPngGamaProperties
 ms.prod: windows
 ms.technology: windows-sdk

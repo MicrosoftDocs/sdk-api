@@ -4,10 +4,10 @@ title: STROBJ_bEnumPositionsOnly function
 author: windows-sdk-content
 description: The STROBJ_bEnumPositionsOnly function enumerates glyph identities and positions for a specified text string, but does not create cached glyph bitmaps.
 old-location: display\strobj_benumpositionsonly.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d5ffe766-843d-4e42-8cc8-bc405e78a2fd
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: STROBJ_bEnumPositionsOnly, STROBJ_bEnumPositionsOnly function [Display Devices], display.strobj_benumpositionsonly, gdifncs_acadb73a-d6b2-4af7-9727-3e5424d30549.xml, winddi/STROBJ_bEnumPositionsOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

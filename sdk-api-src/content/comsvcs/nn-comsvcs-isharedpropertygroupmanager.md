@@ -7,7 +7,7 @@ old-location: cos\isharedpropertygroupmanager.htm
 tech.root: cossdk
 ms.assetid: 71c0a1de-5ea5-4496-b0e9-56d0cc8129a9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], ISharedPropertyGroupManager interface [COM+],described, _cos_ISharedPropertyGroupManager, comsvcs/ISharedPropertyGroupManager, cos.isharedpropertygroupmanager
 ms.prod: windows
 ms.technology: windows-sdk

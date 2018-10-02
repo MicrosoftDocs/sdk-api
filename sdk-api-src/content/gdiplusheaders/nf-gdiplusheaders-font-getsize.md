@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getsize.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Font class [GDI+],GetSize method, Font.GetSize, Font::GetSize, GetSize, GetSize method [GDI+], GetSize method [GDI+],Font class, _gdiplus_CLASS_Font_GetSize_, gdiplus._gdiplus_CLASS_Font_GetSize_
 ms.prod: windows-hardware
 ms.technology: windows-devices

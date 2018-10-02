@@ -4,10 +4,10 @@ title: "_TT_HITTESTINFOA"
 author: windows-sdk-content
 description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.
 old-location: controls\TTHITTESTINFO.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tthittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPTTHITTESTINFOA, LPHITTESTINFO, LPHITTESTINFO structure pointer [Windows Controls], TTHITTESTINFO, TTHITTESTINFO structure [Windows Controls], TTHITTESTINFOA, TTHITTESTINFOW, _TT_HITTESTINFOA, _win32_TTHITTESTINFO, _win32_TTHITTESTINFO_cpp, commctrl/LPHITTESTINFO, commctrl/TTHITTESTINFO, commctrl/TTHITTESTINFOA, commctrl/TTHITTESTINFOW, controls.TTHITTESTINFO, controls._win32_TTHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk

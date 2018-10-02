@@ -4,10 +4,10 @@ title: IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids
 author: windows-sdk-content
 description: Gets an array of GUIDs which identify the video processors supported by the graphics hardware.
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessordeviceguids.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 26b52407-7c75-4731-aff3-41376aa9ac3a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 26b52407-7c75-4731-aff3-41376aa9ac3a, GetVideoProcessorDeviceGuids, GetVideoProcessorDeviceGuids method [Media Foundation], GetVideoProcessorDeviceGuids method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorDeviceGuids method, IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids, IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids
 ms.prod: windows-hardware
 ms.technology: windows-devices

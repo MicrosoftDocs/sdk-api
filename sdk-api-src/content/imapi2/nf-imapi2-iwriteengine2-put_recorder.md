@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2_put_recorder.htm
 tech.root: imapi
 ms.assetid: 3ab46d99-7940-4ad0-9772-634de8c0d0ef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_Recorder method, IWriteEngine2.put_Recorder, IWriteEngine2::put_Recorder, imapi.iwriteengine2_put_recorder, imapi2/IWriteEngine2::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IWriteEngine2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

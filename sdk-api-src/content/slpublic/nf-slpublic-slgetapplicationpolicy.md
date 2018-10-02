@@ -7,7 +7,7 @@ old-location: security\slgetapplicationpolicy.htm
 tech.root: SecSLApi
 ms.assetid: 4d4b30bb-8548-4656-9fd9-553e8f8fb248
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SLGetApplicationPolicy, SLGetApplicationPolicy function [Security], security.slgetapplicationpolicy, slpublic/SLGetApplicationPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

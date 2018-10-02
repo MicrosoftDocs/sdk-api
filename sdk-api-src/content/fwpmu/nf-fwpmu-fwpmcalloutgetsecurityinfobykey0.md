@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutgetsecurityinfobykey0_func.htm
 tech.root: FWP
 ms.assetid: 7b437ba0-c5c8-49a0-95be-051acf956bda
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmCalloutGetSecurityInfoByKey0, FwpmCalloutGetSecurityInfoByKey0 function [Filtering], fwp.fwpmcalloutgetsecurityinfobykey0_func, fwpmu/FwpmCalloutGetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

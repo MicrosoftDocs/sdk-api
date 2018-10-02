@@ -7,7 +7,7 @@ old-location: base\interlockedadd.htm
 tech.root: Sync
 ms.assetid: c3ff4c2f-ac84-4046-ac4e-600569b874be
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InterlockedAdd, InterlockedAdd function, base.interlockedadd, winnt/InterlockedAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

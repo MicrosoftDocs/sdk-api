@@ -7,7 +7,7 @@ old-location: hidpi\getwindowdpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: BCBC6EC7-9792-43C0-BE0E-D94F00A7CAFD
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetWindowDpiAwarenessContext, GetWindowDpiAwarenessContext function [High DPI], hidpi.getwindowdpiawarenesscontext, winuser/GetWindowDpiAwarenessContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

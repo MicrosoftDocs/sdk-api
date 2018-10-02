@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgglyphstyle_setfill.htm
 tech.root: direct2d
 ms.assetid: 7F8D423C-6A3A-4240-87E9-515F5FE29C1D
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1SvgGlyphStyle interface [Direct2D],SetFill method, ID2D1SvgGlyphStyle.SetFill, ID2D1SvgGlyphStyle::SetFill, SetFill, SetFill method [Direct2D], SetFill method [Direct2D],ID2D1SvgGlyphStyle interface, d2d1_3/ID2D1SvgGlyphStyle::SetFill, direct2d.id2d1svgglyphstyle_setfill
 ms.prod: windows-hardware
 ms.technology: windows-devices

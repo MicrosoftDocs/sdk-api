@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetBounds_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiongetboundsmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetBounds, GetBounds methods [GDI+], Region.GetBounds, Region.GetBounds(OUT Rect,IN const Graphics), Region::GetBounds, Region::GetBounds(OUT Rect,IN const Graphics), _gdiplus_CLASS_Region_GetBounds_Methods, gdiplus._gdiplus_CLASS_Region_GetBounds_Methods, gdiplusheaders/GetBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

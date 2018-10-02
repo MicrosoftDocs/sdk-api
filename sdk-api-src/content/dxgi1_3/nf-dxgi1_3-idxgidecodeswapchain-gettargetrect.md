@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_gettargetrect.htm
 tech.root: direct3ddxgi
 ms.assetid: 1B42CE33-7130-433F-940F-B45D3152BB33
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTargetRect, GetTargetRect method [DXGI], GetTargetRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetTargetRect method, IDXGIDecodeSwapChain.GetTargetRect, IDXGIDecodeSwapChain::GetTargetRect, direct3ddxgi.idxgidecodeswapchain_gettargetrect, dxgi1_3/IDXGIDecodeSwapChain::GetTargetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

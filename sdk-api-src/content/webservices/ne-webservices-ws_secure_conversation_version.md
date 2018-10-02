@@ -7,7 +7,7 @@ old-location: wsw\ws_secure_conversation_version.htm
 tech.root: wsw
 ms.assetid: 17c21a3a-1cb5-4174-8300-a5c3d87e3e0f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_SECURE_CONVERSATION_VERSION, WS_SECURE_CONVERSATION_VERSION enumeration [Web Services for Windows], WS_SECURE_CONVERSATION_VERSION_1_3, WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, webservices/WS_SECURE_CONVERSATION_VERSION, webservices/WS_SECURE_CONVERSATION_VERSION_1_3, webservices/WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, wsw.ws_secure_conversation_version
 ms.prod: windows
 ms.technology: windows-sdk

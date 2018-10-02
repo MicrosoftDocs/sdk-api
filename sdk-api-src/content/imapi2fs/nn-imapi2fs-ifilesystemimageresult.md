@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimageresult.htm
 tech.root: imapi
 ms.assetid: 30ec514c-97b8-41fc-b814-11f50cacaa25
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IFileSystemImageResult, IFileSystemImageResult interface [IMAPI], IFileSystemImageResult interface [IMAPI],described, imapi.ifilesystemimageresult, imapi2fs/IFileSystemImageResult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: pla\iconfigurationdatacollector.htm
 tech.root: PLA
 ms.assetid: 7266c02d-0f56-4754-8a67-68394a5f0158
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], IConfigurationDataCollector interface [PLA],described, base.iconfigurationdatacollector, pla.iconfigurationdatacollector, pla/IConfigurationDataCollector
 ms.prod: windows
 ms.technology: windows-sdk

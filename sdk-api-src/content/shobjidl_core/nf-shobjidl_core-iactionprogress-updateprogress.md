@@ -4,10 +4,10 @@ title: IActionProgress::UpdateProgress
 author: windows-sdk-content
 description: Updates the progress of an action to the UI.
 old-location: shell\IActionProgress_UpdateProgress.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d9c6fd82-96a2-4021-a6c4-ab61e20eb0d0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateProgress method, IActionProgress.UpdateProgress, IActionProgress::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateProgress, shell_IActionProgress_UpdateProgress, shobjidl_core/IActionProgress::UpdateProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

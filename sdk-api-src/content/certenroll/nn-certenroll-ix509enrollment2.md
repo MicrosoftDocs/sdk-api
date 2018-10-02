@@ -4,10 +4,10 @@ title: IX509Enrollment2
 author: windows-sdk-content
 description: The IX509Enrollment2 interface enables you to enroll in a certificate hierarchy and install a certificate response.
 old-location: security\ix509enrollment2.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 8e262b4b-de6a-417e-9ade-0b451bd4c09a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509Enrollment2, IX509Enrollment2 interface [Security], IX509Enrollment2 interface [Security],described, certenroll/IX509Enrollment2, security.ix509enrollment2
 ms.prod: windows
 ms.technology: windows-sdk

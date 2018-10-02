@@ -4,10 +4,10 @@ title: tagREBARBANDINFOW
 author: windows-sdk-content
 description: Contains information that defines a band in a rebar control.
 old-location: controls\REBARBANDINFO.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarbandinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPREBARBANDINFOW, LPREBARBANDINFO, LPREBARBANDINFO structure pointer [Windows Controls], RBBIM_BACKGROUND, RBBIM_CHEVRONLOCATION, RBBIM_CHEVRONSTATE, RBBIM_CHILD, RBBIM_CHILDSIZE, RBBIM_COLORS, RBBIM_HEADERSIZE, RBBIM_ID, RBBIM_IDEALSIZE, RBBIM_IMAGE, RBBIM_LPARAM, RBBIM_SIZE, RBBIM_STYLE, RBBIM_TEXT, RBBS_BREAK, RBBS_CHILDEDGE, RBBS_FIXEDBMP, RBBS_FIXEDSIZE, RBBS_GRIPPERALWAYS, RBBS_HIDDEN, RBBS_HIDETITLE, RBBS_NOGRIPPER, RBBS_NOVERT, RBBS_TOPALIGN, RBBS_USECHEVRON, RBBS_VARIABLEHEIGHT, REBARBANDINFO, REBARBANDINFO structure [Windows Controls], REBARBANDINFOA, REBARBANDINFOW, _win32_REBARBANDINFO, _win32_REBARBANDINFO_cpp, commctrl/LPREBARBANDINFO, commctrl/REBARBANDINFO, commctrl/REBARBANDINFOA, commctrl/REBARBANDINFOW, controls.REBARBANDINFO, controls._win32_REBARBANDINFO, tagREBARBANDINFOW"
 ms.prod: windows
 ms.technology: windows-sdk

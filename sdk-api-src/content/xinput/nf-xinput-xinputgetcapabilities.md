@@ -7,7 +7,7 @@ old-location: xinput\xinputgetcapabilities.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetCapabilities(DWORD,DWORD,XINPUT_CAPABILITIES*@)
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: XInputGetCapabilities, XInputGetCapabilities function [XInput Game Controller APIs], xinput.xinputgetcapabilities, xinput/XInputGetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

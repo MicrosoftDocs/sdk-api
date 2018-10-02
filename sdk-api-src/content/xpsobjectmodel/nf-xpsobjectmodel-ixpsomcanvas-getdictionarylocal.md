@@ -7,7 +7,7 @@ old-location: xps\ixpsomcanvas_getdictionarylocal.htm
 tech.root: printdocs
 ms.assetid: 5578ae0f-4da7-4d9f-9133-fbe501ff66a1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMCanvas.GetDictionaryLocal, IXpsOMCanvas::GetDictionaryLocal, xps.ixpsomcanvas_getdictionarylocal, xpsobjectmodel/IXpsOMCanvas::GetDictionaryLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

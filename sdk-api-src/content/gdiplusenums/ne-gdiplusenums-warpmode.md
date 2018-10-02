@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_WarpMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\warpmode.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: WarpMode, WarpMode enumeration [GDI+], WarpModeBilinear, WarpModePerspective, _gdiplus_ENUM_WarpMode, gdiplus._gdiplus_ENUM_WarpMode, gdiplusenums/WarpMode, gdiplusenums/WarpModeBilinear, gdiplusenums/WarpModePerspective
 ms.prod: windows
 ms.technology: windows-sdk

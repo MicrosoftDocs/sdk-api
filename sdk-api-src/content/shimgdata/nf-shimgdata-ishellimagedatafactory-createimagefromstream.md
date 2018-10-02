@@ -4,10 +4,10 @@ title: IShellImageDataFactory::CreateImageFromStream
 author: windows-sdk-content
 description: Creates an instance of the IShellImageData interface based on a given file stream.
 old-location: shell\IShellImageDataFactory_CreateImageFromStream.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 009c4b46-0f2c-43ee-84be-017bf12b28e5
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CreateImageFromStream, CreateImageFromStream method [Windows Shell], CreateImageFromStream method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromStream method, IShellImageDataFactory.CreateImageFromStream, IShellImageDataFactory::CreateImageFromStream, _shell_IShellImageDataFactory_CreateImageFromStream, shell.IShellImageDataFactory_CreateImageFromStream, shimgdata/IShellImageDataFactory::CreateImageFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

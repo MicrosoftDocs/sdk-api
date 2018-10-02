@@ -4,10 +4,10 @@ title: ITrayDeskBand::DeskBandRegistrationChanged
 author: windows-sdk-content
 description: Refreshes the deskband registration cache.
 old-location: shell\ITrayDeskBand_DeskBandRegistrationChanged.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 912ae157-984e-4255-ac1e-e1e7b0b92c15
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: DeskBandRegistrationChanged, DeskBandRegistrationChanged method [Windows Shell], DeskBandRegistrationChanged method [Windows Shell],ITrayDeskBand interface, ITrayDeskBand interface [Windows Shell],DeskBandRegistrationChanged method, ITrayDeskBand.DeskBandRegistrationChanged, ITrayDeskBand::DeskBandRegistrationChanged, _shell_ITrayDeskBand_DeskBandRegistrationChanged, shell.ITrayDeskBand_DeskBandRegistrationChanged, shobjidl/ITrayDeskBand::DeskBandRegistrationChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

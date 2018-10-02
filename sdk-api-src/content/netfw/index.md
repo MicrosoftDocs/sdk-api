@@ -2,7 +2,7 @@
 UID: NA:netfw
 ms.assetid: 93a8b9f0-44a4-3194-b24f-bb1328222e71
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

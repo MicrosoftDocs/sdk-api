@@ -4,10 +4,10 @@ title: IBrowserService2::_GetToolbarItem
 author: windows-sdk-content
 description: Deprecated. Gets a specific item from a toolbar.
 old-location: shell\IBrowserService2__GetToolbarItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9bce71ca-189e-4072-9acf-10c8b3a34c5c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarItem method, IBrowserService2._GetToolbarItem, IBrowserService2::_GetToolbarItem, _GetToolbarItem, _GetToolbarItem method [Windows Shell], _GetToolbarItem method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarItem, shell.IBrowserService2__GetToolbarItem, zone_IBrowserService2__GetToolbarItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

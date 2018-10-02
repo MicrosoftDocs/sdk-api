@@ -7,7 +7,7 @@ old-location: winprog\_initializecache.htm
 tech.root: devnotes
 ms.assetid: 756235f6-293b-4535-9b0e-4294fafe9e5a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: InitializeCache, InitializeCache function [Windows API], filehc/InitializeCache, winprog._initializecache
 ms.prod: windows-hardware
 ms.technology: windows-devices

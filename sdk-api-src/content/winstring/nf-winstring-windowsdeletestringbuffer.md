@@ -7,7 +7,7 @@ old-location: winrt\windowsdeletestringbuffer.htm
 tech.root: WinRT
 ms.assetid: c543b2ff-56be-48b5-8b44-3d7549c75df2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WindowsDeleteStringBuffer, WindowsDeleteStringBuffer function [Windows Runtime], winrt.windowsdeletestringbuffer, winstring/WindowsDeleteStringBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

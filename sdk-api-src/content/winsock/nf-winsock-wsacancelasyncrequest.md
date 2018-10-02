@@ -7,7 +7,7 @@ old-location: winsock\wsacancelasyncrequest_2.htm
 tech.root: WinSock
 ms.assetid: 0e53eccf-ef85-43ec-a02c-12896471a7a9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSACancelAsyncRequest, WSACancelAsyncRequest function [Winsock], _win32_wsacancelasyncrequest_2, winsock.wsacancelasyncrequest_2, winsock/WSACancelAsyncRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

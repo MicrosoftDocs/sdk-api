@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_initialize.htm
 tech.root: wic
 ms.assetid: 60a7e0b8-202c-4fed-b105-f8c4fa9817a9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],Initialize method, IWICBitmapDecoder.Initialize, IWICBitmapDecoder::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapDecoder interface, _wic_codec_iwicbitmapdecoder_initialize, wic._wic_codec_iwicbitmapdecoder_initialize, wincodec/IWICBitmapDecoder::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

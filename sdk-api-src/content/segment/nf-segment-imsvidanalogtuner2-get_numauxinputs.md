@@ -7,7 +7,7 @@ old-location: mstv\imsvidanalogtuner2_get_numauxinputs.htm
 tech.root: MSTV
 ms.assetid: 72e3c0eb-4c65-4782-b799-80bf968e736a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_NumAuxInputs method, IMSVidAnalogTuner2.get_NumAuxInputs, IMSVidAnalogTuner2::get_NumAuxInputs, IMSVidAnalogTuner2getNumAuxInputs, get_NumAuxInputs, get_NumAuxInputs method [Microsoft TV Technologies], get_NumAuxInputs method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_numauxinputs, segment/IMSVidAnalogTuner2::get_NumAuxInputs
 ms.prod: windows-hardware
 ms.technology: windows-devices

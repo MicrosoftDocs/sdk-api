@@ -7,7 +7,7 @@ old-location: base\getmailslotinfo.htm
 tech.root: ipc
 ms.assetid: 873b4dbe-f808-4731-9314-a595ef7ef3c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMailslotInfo, GetMailslotInfo function, MAILSLOT_NO_MESSAGE, _win32_getmailslotinfo, base.getmailslotinfo, winbase/GetMailslotInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

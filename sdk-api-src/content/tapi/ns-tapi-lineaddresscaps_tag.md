@@ -4,10 +4,10 @@ title: lineaddresscaps_tag
 author: windows-sdk-content
 description: The LINEADDRESSCAPS structure describes the capabilities of a specified address. The lineGetAddressCaps function and the TSPI_lineGetAddressCaps function return the LINEADDRESSCAPS structure.
 old-location: tapi2\lineaddresscaps_str.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: c1fe1aaf-2f50-4423-bacf-6a3cf218a809
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPLINEADDRESSCAPS, LINEADDRESSCAPS, LINEADDRESSCAPS structure [TAPI 2.2], LPLINEADDRESSCAPS, LPLINEADDRESSCAPS structure pointer [TAPI 2.2], _tapi2_lineaddresscaps_str, lineaddresscaps_tag, tapi/LINEADDRESSCAPS, tapi/LPLINEADDRESSCAPS, tapi2.lineaddresscaps_str"
 ms.prod: windows
 ms.technology: windows-sdk

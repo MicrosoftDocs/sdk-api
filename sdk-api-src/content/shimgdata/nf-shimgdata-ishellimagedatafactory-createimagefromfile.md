@@ -4,10 +4,10 @@ title: IShellImageDataFactory::CreateImageFromFile
 author: windows-sdk-content
 description: Creates an instance of the IShellImageData interface based on a given file.
 old-location: shell\IShellImageDataFactory_CreateImageFromFile.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9d33f9ad-30ce-431c-aec3-c27a33cec008
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CreateImageFromFile, CreateImageFromFile method [Windows Shell], CreateImageFromFile method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromFile method, IShellImageDataFactory.CreateImageFromFile, IShellImageDataFactory::CreateImageFromFile, _shell_IShellImageDataFactory_CreateImageFromFile, shell.IShellImageDataFactory_CreateImageFromFile, shimgdata/IShellImageDataFactory::CreateImageFromFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

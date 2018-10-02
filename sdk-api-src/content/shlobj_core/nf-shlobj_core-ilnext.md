@@ -4,10 +4,10 @@ title: ILNext function
 author: windows-sdk-content
 description: Retrieves the next SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILNext_PCUIDLIST_RELATIVE.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9f9650b3-1f0c-413c-bc32-29dd81556ce0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ILNext, ILNext function [Windows Shell], ILNext(PCUIDLIST_RELATIVE), _shell_ILNext_PCUIDLIST_RELATIVE, shell.ILNext_PCUIDLIST_RELATIVE, shlobj_core/ILNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

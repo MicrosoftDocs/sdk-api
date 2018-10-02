@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt_initialize.htm
 tech.root: MSTV
 ms.assetid: dbb77a8d-aac7-454a-98e5-fd5f9316121c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IATSC_MGT interface [Microsoft TV Technologies],Initialize method, IATSC_MGT.Initialize, IATSC_MGT::Initialize, IATSC_MGTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_MGT interface, atscpsipparser/IATSC_MGT::Initialize, mstv.iatsc_mgt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

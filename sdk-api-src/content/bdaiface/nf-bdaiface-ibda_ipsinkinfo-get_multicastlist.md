@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipsinkinfo_get_multicastlist.htm
 tech.root: MSTV
 ms.assetid: 29375c69-5e45-4fc5-98d2-1cc1c750b809
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_MulticastList method, IBDA_IPSinkInfo.get_MulticastList, IBDA_IPSinkInfo::get_MulticastList, IBDA_IPSinkInfoget_MulticastList, bdaiface/IBDA_IPSinkInfo::get_MulticastList, get_MulticastList, get_MulticastList method [Microsoft TV Technologies], get_MulticastList method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_multicastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ISyncMgrHandlerCollection
 author: windows-sdk-content
 description: Exposes methods that provide an enumerator of sync handler IDs and instantiate those sync handlers.
 old-location: shell\ISyncMgrHandlerCollection.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 24514602-42c0-41ef-be33-fce03e7f091a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Windows Shell], ISyncMgrHandlerCollection interface [Windows Shell],described, _shell_ISyncMgrHandlerCollection, shell.ISyncMgrHandlerCollection, syncmgr/ISyncMgrHandlerCollection
 ms.prod: windows
 ms.technology: windows-sdk

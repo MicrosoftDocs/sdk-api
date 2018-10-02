@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory_createpackagereader.htm
 tech.root: appxpkg
 ms.assetid: 60C9781F-A1EE-4EAA-9CD5-32692F3E063D
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CreatePackageReader, CreatePackageReader method [App packaging and management], CreatePackageReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageReader method, IAppxFactory.CreatePackageReader, IAppxFactory::CreatePackageReader, appxpackaging/IAppxFactory::CreatePackageReader, appxpkg.iappxfactory_createpackagereader
 ms.prod: windows-hardware
 ms.technology: windows-devices

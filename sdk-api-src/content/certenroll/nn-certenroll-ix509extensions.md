@@ -4,10 +4,10 @@ title: IX509Extensions
 author: windows-sdk-content
 description: The IX509Extensions interface defines the following methods and properties to manage a collection of IX509Extension objects.
 old-location: security\ix509extensions.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: d6bdbcff-1d6b-4813-8269-b75061a42de8
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509Extensions, IX509Extensions interface [Security], IX509Extensions interface [Security],described, certenroll/IX509Extensions, security.ix509extensions
 ms.prod: windows
 ms.technology: windows-sdk

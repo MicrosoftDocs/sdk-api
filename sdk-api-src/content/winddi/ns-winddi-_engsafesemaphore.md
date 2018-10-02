@@ -4,10 +4,10 @@ title: "_ENGSAFESEMAPHORE"
 author: windows-sdk-content
 description: The ENGSAFESEMAPHORE structure provides the driver with a thread-safe semaphore.
 old-location: display\engsafesemaphore.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 225ca482-6a45-4726-b51b-57fa76b8c5b0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ENGSAFESEMAPHORE, ENGSAFESEMAPHORE structure [Display Devices], _ENGSAFESEMAPHORE, display.engsafesemaphore, grstrcts_63b165c2-5032-4dcb-9039-562a38f24cc4.xml, winddi/ENGSAFESEMAPHORE
 ms.prod: windows
 ms.technology: windows-sdk

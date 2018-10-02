@@ -7,7 +7,7 @@ old-location: direct3d11\id3d10blob_getbuffersize.htm
 tech.root: direct3d11
 ms.assetid: E98833B1-07F7-4015-86C6-B9335529FC29
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetBufferSize, GetBufferSize method [Direct3D 11], GetBufferSize method [Direct3D 11],ID3D10Blob interface, ID3D10Blob interface [Direct3D 11],GetBufferSize method, ID3D10Blob.GetBufferSize, ID3D10Blob::GetBufferSize, d3dcommon/ID3D10Blob::GetBufferSize, direct3d11.id3d10blob_getbuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

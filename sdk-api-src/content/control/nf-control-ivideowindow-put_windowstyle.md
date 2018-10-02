@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_windowstyle.htm
 tech.root: DirectShow
 ms.assetid: cd1422d1-16a3-4aae-aadb-772a06173ba3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyle method, IVideoWindow.put_WindowStyle, IVideoWindow::put_WindowStyle, IVideoWindowput_WindowStyle, control/IVideoWindow::put_WindowStyle, dshow.ivideowindow_put_windowstyle, put_WindowStyle, put_WindowStyle method [DirectShow], put_WindowStyle method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

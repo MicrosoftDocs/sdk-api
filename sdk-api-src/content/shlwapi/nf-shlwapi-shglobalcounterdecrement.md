@@ -4,10 +4,10 @@ title: SHGlobalCounterDecrement function
 author: windows-sdk-content
 description: Decrements a global counter.
 old-location: shell\SHGlobalCounterDecrement.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 67b45cb9-9d8d-48ef-a7bc-9cd8824bdf2b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Windows Shell], _shell_SHGlobalCounterDecrement, shell.SHGlobalCounterDecrement, shlwapi/SHGlobalCounterDecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices

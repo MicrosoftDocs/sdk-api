@@ -4,10 +4,10 @@ title: IWebProxy
 author: windows-sdk-content
 description: Contains the HTTP proxy settings.
 old-location: wua\iwebproxy.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: acc09635-7370-475f-9c3a-a5faaa8d576a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], IWebProxy interface [Windows Update Agent],described, wua.iwebproxy, wuapi/IWebProxy
 ms.prod: windows
 ms.technology: windows-sdk

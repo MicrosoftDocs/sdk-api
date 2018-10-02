@@ -7,7 +7,7 @@ old-location: winrt\ireferencetracker_pegfromtrackersource.htm
 tech.root: WinRT
 ms.assetid: ca35bcf5-add0-47a8-b989-f6d69674ca30
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IReferenceTracker interface [Windows Runtime],PegFromTrackerSource method, IReferenceTracker.PegFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::PegFromTrackerSource, IReferenceTracker::xaml, PegFromTrackerSource, PegFromTrackerSource method [Windows Runtime], PegFromTrackerSource method [Windows Runtime],IReferenceTracker interface, windows/IReferenceTracker::PegFromTrackerSource, winrt.ireferencetracker_pegfromtrackersource
 ms.prod: windows-hardware
 ms.technology: windows-devices

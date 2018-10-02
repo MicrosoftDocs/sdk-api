@@ -4,10 +4,10 @@ title: ClusterCloseEnumEx function
 author: windows-sdk-content
 description: Closes a handle to an enumeration that was opened by the ClusterOpenEnumEx function.
 old-location: mscs\clustercloseenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B62F1259-C4FF-45FC-9EA1-24CABFE1C0F3
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ClusterCloseEnumEx, ClusterCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM_EX, mscs.clustercloseenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices

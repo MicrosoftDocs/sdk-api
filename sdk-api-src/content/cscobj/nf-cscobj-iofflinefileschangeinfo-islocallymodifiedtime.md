@@ -7,7 +7,7 @@ old-location: of\iofflinefileschangeinfo_islocallymodifiedtime.htm
 tech.root: OfflineFiles
 ms.assetid: 7b88bf6d-f5a7-48e3-8c0a-41a8f6fba91f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedTime method, IOfflineFilesChangeInfo.IsLocallyModifiedTime, IOfflineFilesChangeInfo::IsLocallyModifiedTime, IsLocallyModifiedTime, IsLocallyModifiedTime method [Offline Files], IsLocallyModifiedTime method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedTime, of.iofflinefileschangeinfo_islocallymodifiedtime
 ms.prod: windows-hardware
 ms.technology: windows-devices

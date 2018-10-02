@@ -4,10 +4,10 @@ title: IShellFolder2
 author: windows-sdk-content
 description: Extends the capabilities of IShellFolder. Its methods provide a variety of information about the contents of a Shell folder.
 old-location: shell\IShellFolder2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9b008034-3576-429e-b67c-e2222592ca46
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolder2, IShellFolder2 interface [Windows Shell], IShellFolder2 interface [Windows Shell],described, _win32_IShellFolder2, shell.IShellFolder2, shobjidl_core/IShellFolder2
 ms.prod: windows
 ms.technology: windows-sdk

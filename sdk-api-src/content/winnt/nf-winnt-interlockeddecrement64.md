@@ -7,7 +7,7 @@ old-location: base\interlockeddecrement64.htm
 tech.root: Sync
 ms.assetid: 073b42ba-90dd-48a1-9661-9b1686c09561
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InterlockedDecrement64, InterlockedDecrement64 function, base.interlockeddecrement64, winnt/InterlockedDecrement64
 ms.prod: windows-hardware
 ms.technology: windows-devices

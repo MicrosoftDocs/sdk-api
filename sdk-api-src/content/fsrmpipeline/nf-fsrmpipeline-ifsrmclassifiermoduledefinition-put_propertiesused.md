@@ -4,10 +4,10 @@ title: IFsrmClassifierModuleDefinition::put_PropertiesUsed
 author: windows-sdk-content
 description: The list of property names that the classifier inspects.
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesused.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 89bf8836-8d6d-41a1-a47c-ec92d2fd4a36
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],PropertiesUsed property, IFsrmClassifierModuleDefinition.PropertiesUsed, IFsrmClassifierModuleDefinition.put_PropertiesUsed, IFsrmClassifierModuleDefinition::PropertiesUsed, IFsrmClassifierModuleDefinition::get_PropertiesUsed, IFsrmClassifierModuleDefinition::put_PropertiesUsed, PropertiesUsed property [File Server Resource Manager], PropertiesUsed property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_propertiesused, fsrm.ifsrmclassifiermoduledefinition_propertiesused, fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesUsed, fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesUsed, fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesUsed, put_PropertiesUsed
 ms.prod: windows-hardware
 ms.technology: windows-devices

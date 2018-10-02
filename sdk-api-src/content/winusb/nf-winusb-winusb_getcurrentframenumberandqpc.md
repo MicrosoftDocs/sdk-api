@@ -7,7 +7,7 @@ old-location: buses\winusb_getcurrentframenumberandqpc.htm
 tech.root: UsbRef
 ms.assetid: 9D94408F-C1EE-4940-8D33-8C32F5DE7DC4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: WinUsb_GetCurrentFrameNumberAndQpc, WinUsb_GetCurrentFrameNumberAndQpc function [Buses], buses.winusb_getcurrentframenumberandqpc, winusb/WinUsb_GetCurrentFrameNumberAndQpc
 ms.prod: windows-hardware
 ms.technology: windows-devices

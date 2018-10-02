@@ -4,10 +4,10 @@ title: "_SHFILEINFOW"
 author: windows-sdk-content
 description: Contains information about a file object.
 old-location: shell\SHFILEINFO.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOW, _SHFILEINFOW, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wswritenode.htm
 tech.root: wsw
 ms.assetid: ea2e511c-f3a6-415a-8a2d-a49e321b69d7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsWriteNode, WsWriteNode function [Web Services for Windows], webservices/WsWriteNode, wsw.wswritenode
 ms.prod: windows-hardware
 ms.technology: windows-devices

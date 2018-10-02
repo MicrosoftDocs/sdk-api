@@ -4,10 +4,10 @@ title: "_MFT_REGISTRATION_INFO"
 author: windows-sdk-content
 description: Contains parameters for the IMFLocalMFTRegistration::RegisterMFTs method.
 old-location: mf\mft_registration_info.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7d610edf-89e3-4ff3-9ad8-b92ee50df522
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFT_REGISTRATION_INFO, MFT_REGISTRATION_INFO structure [Media Foundation], _MFT_REGISTRATION_INFO, mf.mft_registration_info, mfidl/MFT_REGISTRATION_INFO
 ms.prod: windows
 ms.technology: windows-sdk

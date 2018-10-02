@@ -7,7 +7,7 @@ old-location: winsock\recvfrom_2.htm
 tech.root: WinSock
 ms.assetid: 3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_recvfrom_2, recvfrom, recvfrom function [Winsock], winsock.recvfrom_2, winsock/recvfrom"
 ms.prod: windows-hardware
 ms.technology: windows-devices

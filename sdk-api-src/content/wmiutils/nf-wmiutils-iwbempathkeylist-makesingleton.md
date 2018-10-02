@@ -7,7 +7,7 @@ old-location: wmi\iwbempathkeylist_makesingleton.htm
 tech.root: WmiSdk
 ms.assetid: 6dd7fd31-126c-4702-8e43-3e6b08912b30
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],MakeSingleton method, IWbemPathKeyList.MakeSingleton, IWbemPathKeyList::MakeSingleton, MakeSingleton, MakeSingleton method [Windows Management Instrumentation], MakeSingleton method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_makesingleton, wmi.iwbempathkeylist_makesingleton, wmiutils/IWbemPathKeyList::MakeSingleton
 ms.prod: windows-hardware
 ms.technology: windows-devices

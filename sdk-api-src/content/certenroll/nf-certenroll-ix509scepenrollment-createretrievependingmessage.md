@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::CreateRetrievePendingMessage
 author: windows-sdk-content
 description: Create a message for certificate polling (manual enrollment).
 old-location: security\ix509scepenrollment_createretrievependingmessage.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 86d031b0-2009-460b-8bed-fe7a0489f22b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CreateRetrievePendingMessage, CreateRetrievePendingMessage method [Security], CreateRetrievePendingMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRetrievePendingMessage method, IX509SCEPEnrollment.CreateRetrievePendingMessage, IX509SCEPEnrollment::CreateRetrievePendingMessage, certenroll/IX509SCEPEnrollment::CreateRetrievePendingMessage, security.ix509scepenrollment_createretrievependingmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

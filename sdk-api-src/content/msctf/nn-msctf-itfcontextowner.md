@@ -7,7 +7,7 @@ old-location: tsf\itfcontextowner.htm
 tech.root: TSF
 ms.assetid: 630646df-dd47-4dbf-9787-f9d697ad8d7a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfContextOwner, ITfContextOwner interface [Text Services Framework], ITfContextOwner interface [Text Services Framework],described, _tsf_itfcontextowner_ref, msctf/ITfContextOwner, tsf.itfcontextowner
 ms.prod: windows
 ms.technology: windows-sdk

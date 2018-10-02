@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_invoke.htm
 tech.root: WMI_v2
 ms.assetid: 46bce0cc-9795-47af-8318-4250dc3d5c6e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Session_Invoke, MI_Session_Invoke function [Windows Management Infrastructure (MI)], mi/MI_Session_Invoke, wmi_v2.mi_session_invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

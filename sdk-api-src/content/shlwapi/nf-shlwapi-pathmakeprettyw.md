@@ -4,10 +4,10 @@ title: PathMakePrettyW function
 author: windows-sdk-content
 description: Converts an all-uppercase path to all lowercase characters to give the path a consistent appearance.
 old-location: shell\PathMakePretty.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: fb871054-4c63-42de-b85b-edefa4b09ea0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathMakePretty, PathMakePretty function [Windows Shell], PathMakePrettyA, PathMakePrettyW, _win32_PathMakePretty, shell.PathMakePretty, shlwapi/PathMakePretty, shlwapi/PathMakePrettyA, shlwapi/PathMakePrettyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

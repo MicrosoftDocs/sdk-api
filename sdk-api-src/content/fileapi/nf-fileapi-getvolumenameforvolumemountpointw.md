@@ -4,10 +4,10 @@ title: GetVolumeNameForVolumeMountPointW function
 author: windows-sdk-content
 description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder).
 old-location: fs\getvolumenameforvolumemountpoint.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 3f749042-bdc9-4087-bb8a-d833713472eb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetVolumeNameForVolumeMountPoint, GetVolumeNameForVolumeMountPoint function [Files], GetVolumeNameForVolumeMountPointA, GetVolumeNameForVolumeMountPointW, _win32_getvolumenameforvolumemountpoint, base.getvolumenameforvolumemountpoint, fileapi/GetVolumeNameForVolumeMountPoint, fileapi/GetVolumeNameForVolumeMountPointA, fileapi/GetVolumeNameForVolumeMountPointW, fs.getvolumenameforvolumemountpoint, winbase/GetVolumeNameForVolumeMountPoint, winbase/GetVolumeNameForVolumeMountPointA, winbase/GetVolumeNameForVolumeMountPointW
 ms.prod: windows-hardware
 ms.technology: windows-devices

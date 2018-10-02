@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiapplication_windows.htm
 tech.root: Rdp
 ms.assetid: 6e6cf29d-e19a-43bd-a4e7-993c10bac92b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Windows property, IRDPSRAPIApplication.Windows, IRDPSRAPIApplication.get_Windows, IRDPSRAPIApplication::Windows, IRDPSRAPIApplication::get_Windows, RDPSRAPIApplication object [RDP],Windows property, Windows property [RDP], Windows property [RDP],IRDPSRAPIApplication interface, Windows property [RDP],RDPSRAPIApplication object, get_Windows, rdp.irdpsrapiapplication_windows, rdpencomapi/IRDPSRAPIApplication::Windows, rdpencomapi/IRDPSRAPIApplication::get_Windows
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DISK_EXTENT"
 author: windows-sdk-content
 description: Represents a disk extent.
 old-location: fs\disk_extent_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 1b8dc6fa-e60b-4490-b439-44c93b6f4ce5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: "*PDISK_EXTENT, DISK_EXTENT, DISK_EXTENT structure [Files], PDISK_EXTENT, PDISK_EXTENT structure pointer [Files], _DISK_EXTENT, _win32_disk_extent_str, base.disk_extent_str, fs.disk_extent_str, winioctl/DISK_EXTENT, winioctl/PDISK_EXTENT"
 ms.prod: windows
 ms.technology: windows-sdk

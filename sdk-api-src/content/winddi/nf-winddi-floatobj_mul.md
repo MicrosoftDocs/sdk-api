@@ -4,10 +4,10 @@ title: FLOATOBJ_Mul function
 author: windows-sdk-content
 description: The FLOATOBJ_Mul function multiplies the two FLOATOBJs, and returns with the result in the first parameter.
 old-location: display\floatobj_mul.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 95b4c3eb-5e62-4209-9c05-eae9ab48f7ab
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: FLOATOBJ_Mul, FLOATOBJ_Mul function [Display Devices], display.floatobj_mul, gdifncs_1647a791-7781-4e67-a7b1-06b283c32b0b.xml, winddi/FLOATOBJ_Mul
 ms.prod: windows-hardware
 ms.technology: windows-devices

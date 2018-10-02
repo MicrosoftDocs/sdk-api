@@ -4,10 +4,10 @@ title: IDirectXVideoDecoderService
 author: windows-sdk-content
 description: Provides access to DirectX Video Acceleration (DXVA) decoder services.
 old-location: mf\idirectxvideodecoderservice.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: eeb62178-b54d-45d3-a584-75865f0662fa
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], IDirectXVideoDecoderService interface [Media Foundation],described, dxva2api/IDirectXVideoDecoderService, eeb62178-b54d-45d3-a584-75865f0662fa, mf.idirectxvideodecoderservice
 ms.prod: windows
 ms.technology: windows-sdk

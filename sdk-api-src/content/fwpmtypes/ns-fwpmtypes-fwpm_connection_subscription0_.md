@@ -7,7 +7,7 @@ old-location: fwp\fwpm_connection_subscription0.htm
 tech.root: FWP
 ms.assetid: 020490f1-ccbe-41aa-b6ad-022be9c9bef4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_CONNECTION_SUBSCRIPTION0, FWPM_CONNECTION_SUBSCRIPTION0 structure [Filtering], FWPM_CONNECTION_SUBSCRIPTION0_, fwp.fwpm_connection_subscription0, fwpmtypes/FWPM_CONNECTION_SUBSCRIPTION0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: eaphost\eap_ui_data_format.htm
 tech.root: EAPHost
 ms.assetid: e4b49cbd-b50d-474c-b6b5-8ff858eca424
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EAP_UI_DATA_FORMAT, EAP_UI_DATA_FORMAT union [EAPHost], eaphost.eap_ui_data_format, eaptypes/EAP_UI_DATA_FORMAT
 ms.prod: windows
 ms.technology: windows-sdk

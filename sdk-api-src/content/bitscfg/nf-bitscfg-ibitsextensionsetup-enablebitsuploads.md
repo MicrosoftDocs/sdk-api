@@ -7,7 +7,7 @@ old-location: bits\ibitsextensionsetup_enablebitsuploads.htm
 tech.root: Bits
 ms.assetid: 5b68dea2-f9a7-4a99-93d3-62c4f24b769f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EnableBITSUploads, EnableBITSUploads method [BITS], EnableBITSUploads method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],EnableBITSUploads method, IBITSExtensionSetup.EnableBITSUploads, IBITSExtensionSetup::EnableBITSUploads, _drz_ibitsextensionsetup_enablebitsuploads, bits.ibitsextensionsetup_enablebitsuploads, bitscfg/IBITSExtensionSetup::EnableBITSUploads
 ms.prod: windows-hardware
 ms.technology: windows-devices

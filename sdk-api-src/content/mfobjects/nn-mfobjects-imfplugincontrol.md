@@ -4,10 +4,10 @@ title: IMFPluginControl
 author: windows-sdk-content
 description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
 old-location: mf\imfplugincontrol.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: cdc6fd4f-c544-43bb-ba99-5468ef49949d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], IMFPluginControl interface [Media Foundation],described, mf.imfplugincontrol, mfobjects/IMFPluginControl
 ms.prod: windows
 ms.technology: windows-sdk

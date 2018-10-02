@@ -4,10 +4,10 @@ title: IMFAttributes::GetString
 author: windows-sdk-content
 description: Retrieves a wide-character string associated with a key.
 old-location: mf\imfattributes_getstring.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 756d8fba-d372-46f9-8035-f657d7ff133f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 756d8fba-d372-46f9-8035-f657d7ff133f, GetString, GetString method [Media Foundation], GetString method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetString method, IMFAttributes.GetString, IMFAttributes::GetString, mf.imfattributes_getstring, mfobjects/IMFAttributes::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices

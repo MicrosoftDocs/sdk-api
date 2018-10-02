@@ -7,7 +7,7 @@ old-location: security\crypt_provui_funcs.htm
 tech.root: seccrypto
 ms.assetid: 7cdc32ea-b28a-400f-ad8a-984f86bb95fd
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS structure [Security], PCRYPT_PROVUI_FUNCS, PCRYPT_PROVUI_FUNCS structure pointer [Security], _CRYPT_PROVUI_FUNCS, security.crypt_provui_funcs, wintrust/CRYPT_PROVUI_FUNCS, wintrust/PCRYPT_PROVUI_FUNCS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicefinder_createasyncfind.htm
 tech.root: UPnP
 ms.assetid: 4461b53f-b630-4b4a-bc68-0cc48ef70594
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateAsyncFind, CreateAsyncFind method [UPnP APIs], CreateAsyncFind method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],CreateAsyncFind method, IUPnPDeviceFinder.CreateAsyncFind, IUPnPDeviceFinder::CreateAsyncFind, _upnp_iupnpdevicefinder_createasyncfind, upnp.iupnpdevicefinder_createasyncfind, upnp/IUPnPDeviceFinder::CreateAsyncFind
 ms.prod: windows-hardware
 ms.technology: windows-devices

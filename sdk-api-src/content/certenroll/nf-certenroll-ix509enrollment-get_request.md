@@ -4,10 +4,10 @@ title: IX509Enrollment::get_Request
 author: windows-sdk-content
 description: Retrieves the certificate request associated with the enrollment object.
 old-location: security\ix509enrollment_request_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: dc754240-9c52-459e-9612-caf19eeb351c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509Enrollment interface [Security],Request property, IX509Enrollment.Request, IX509Enrollment.get_Request, IX509Enrollment::Request, IX509Enrollment::get_Request, Request property [Security], Request property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Request, certenroll/IX509Enrollment::get_Request, get_Request, security.ix509enrollment_request_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

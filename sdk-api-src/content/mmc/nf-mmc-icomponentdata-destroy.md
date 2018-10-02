@@ -4,10 +4,10 @@ title: IComponentData::Destroy
 author: windows-sdk-content
 description: The IComponentData::Destroy method releases all references to the console.
 old-location: mmc\icomponentdata_destroy.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: adf7238d-b452-499b-8924-2ea1bfecd69f
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: Destroy, Destroy method [MMC], Destroy method [MMC],IComponentData interface, IComponentData interface [MMC],Destroy method, IComponentData.Destroy, IComponentData::Destroy, _slate_icomponentdata_destroy, mmc.icomponentdata_destroy, mmc/IComponentData::Destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: pla\ischedule_startdate.htm
 tech.root: PLA
 ms.assetid: 1bb90c84-0249-4714-9371-d2aed2922d9b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISchedule interface [PLA],StartDate property, ISchedule.StartDate, ISchedule.put_StartDate, ISchedule::StartDate, ISchedule::get_StartDate, ISchedule::put_StartDate, StartDate property [PLA], StartDate property [PLA],ISchedule interface, base.ischedule_startdate, pla.ischedule_startdate, pla/ISchedule::StartDate, pla/ISchedule::get_StartDate, pla/ISchedule::put_StartDate, put_StartDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IOCTL_DISK_REASSIGN_BLOCKS_EX
 author: windows-sdk-content
 description: Directs the disk device to map one or more blocks to its spare-block pool.
 old-location: fs\ioctl_disk_reassign_blocks_ex.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 126ffefa-165b-4ca1-a905-1aebc8e790c7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Files], base.ioctl_disk_reassign_blocks_ex, fs.ioctl_disk_reassign_blocks_ex, winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
 ms.prod: windows
 ms.technology: windows-sdk

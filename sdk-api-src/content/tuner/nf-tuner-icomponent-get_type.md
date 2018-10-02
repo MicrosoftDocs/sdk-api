@@ -7,7 +7,7 @@ old-location: mstv\icomponent_get_type.htm
 tech.root: MSTV
 ms.assetid: 19eb345f-24a2-4522-87cc-fc4953faf343
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_Type method, IComponent.get_Type, IComponent::get_Type, IComponentget_Type, get_Type, get_Type method [Microsoft TV Technologies], get_Type method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_type, tuner/IComponent::get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IIOCancelInformation::SetCancelInformation
 author: windows-sdk-content
 description: Sets information that is posted when a user selects Cancel from the progress UI.
 old-location: shell\IIOCancelInformation_SetCancelInformation.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ed7a2a43-8944-4e17-af0a-d64f0cb493e6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IIOCancelInformation interface [Windows Shell],SetCancelInformation method, IIOCancelInformation.SetCancelInformation, IIOCancelInformation::SetCancelInformation, SetCancelInformation, SetCancelInformation method [Windows Shell], SetCancelInformation method [Windows Shell],IIOCancelInformation interface, _shell_IIOCancelInformation_SetCancelInformation, shell.IIOCancelInformation_SetCancelInformation, shobjidl_core/IIOCancelInformation::SetCancelInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

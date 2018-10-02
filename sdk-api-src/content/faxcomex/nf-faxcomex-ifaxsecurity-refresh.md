@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity_cpp_mfax_faxsecurity_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9xrc.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxSecurity interface [Fax Service],Refresh method, IFaxSecurity.Refresh, IFaxSecurity::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.refresh, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_refresh_cpp, fax._mfax_faxsecurity_refresh, faxcomex/IFaxSecurity::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

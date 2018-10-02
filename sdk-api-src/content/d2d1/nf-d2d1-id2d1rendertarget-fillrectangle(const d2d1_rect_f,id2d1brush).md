@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_fillrectangle.htm
 tech.root: direct2d
 ms.assetid: 08e498f9-b564-4da6-ba9b-bff08964ce08
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: FillRectangle, FillRectangle methods [Direct2D], ID2D1RenderTarget.FillRectangle, ID2D1RenderTarget.FillRectangle(const D2D1_RECT_F,ID2D1Brush), ID2D1RenderTarget::FillRectangle, ID2D1RenderTarget::FillRectangle(const D2D1_RECT_F,ID2D1Brush), d2d1_1/FillRectangle, direct2d.id2d1rendertarget_fillrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

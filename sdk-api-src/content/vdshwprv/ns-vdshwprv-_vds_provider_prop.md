@@ -7,7 +7,7 @@ old-location: base\vds_provider_prop.htm
 tech.root: VDS
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], _VDS_PROVIDER_PROP, base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ldap\ldap_search_s.htm
 tech.root: LDAP
 ms.assetid: ed0a2c43-c38f-4991-b652-a1df4f739478
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_s, ldap.ldap__search__s, ldap.ldap_search_s, ldap_search_s, ldap_search_s function [LDAP], ldap_search_sA, ldap_search_sW, winldap/ldap_search_s, winldap/ldap_search_sA, winldap/ldap_search_sW
 ms.prod: windows-hardware
 ms.technology: windows-devices

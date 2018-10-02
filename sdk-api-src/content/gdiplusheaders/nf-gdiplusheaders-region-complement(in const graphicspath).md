@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Complement_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regioncomplementmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Complement, Complement methods [GDI+], Region.Complement, Region.Complement(IN const GraphicsPath), Region::Complement, Region::Complement(IN const GraphicsPath), _gdiplus_CLASS_Region_Complement_Methods, gdiplus._gdiplus_CLASS_Region_Complement_Methods, gdiplusheaders/Complement
 ms.prod: windows-hardware
 ms.technology: windows-devices

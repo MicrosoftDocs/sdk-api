@@ -7,7 +7,7 @@ old-location: dshow\am_media_type.htm
 tech.root: DirectShow
 ms.assetid: 973697d0-2897-48b5-88ca-a88a9650eb02
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: AM_MEDIA_TYPE, AM_MEDIA_TYPE structure [DirectShow], AM_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, GUID_NULL, _AMMediaType, dshow.am_media_type, strmif/AM_MEDIA_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

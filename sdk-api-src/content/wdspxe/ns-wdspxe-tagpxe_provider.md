@@ -4,10 +4,10 @@ title: tagPXE_PROVIDER
 author: windows-sdk-content
 description: Describes a provider.
 old-location: wds\pxe_provider.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: a07afefd-7a97-42bb-8d70-2bc7c51ddef3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPXE_PROVIDER, PPXE_PROVIDER, PPXE_PROVIDER structure pointer [Windows Deployment Services], PXE_PROVIDER, PXE_PROVIDER structure [Windows Deployment Services], tagPXE_PROVIDER, wds.pxe_provider, wdspxe/PPXE_PROVIDER, wdspxe/PXE_PROVIDER"
 ms.prod: windows
 ms.technology: windows-sdk

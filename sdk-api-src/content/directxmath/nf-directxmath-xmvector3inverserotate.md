@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3inverserotate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3InverseRotate(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVector3InverseRotate, XMVector3InverseRotate, XMVector3InverseRotate method [DirectX Math Support APIs], dxmath.xmvector3inverserotate
 ms.prod: windows-hardware
 ms.technology: windows-devices

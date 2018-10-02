@@ -7,7 +7,7 @@ old-location: base\ivdslunplex_getproperties.htm
 tech.root: VDS
 ms.assetid: ded24edd-fa6a-48f3-a448-690078f034bb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetProperties method, IVdsLunPlex.GetProperties, IVdsLunPlex::GetProperties, base.ivdslunplex_getproperties, vds/IVdsLunPlex::GetProperties, vdshwprv/IVdsLunPlex::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

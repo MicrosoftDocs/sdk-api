@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_operator_minus.htm
 tech.root: WmiSdk
 ms.assetid: 643e3353-c770-46e6-aa59-b6df43097988
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator- method, WBEMTimeSpan.operator-, WBEMTimeSpan.operator-sub, WBEMTimeSpan::operator-, WBEMTimeSpan::operator-sub, _hmm_wbemtimespan_operator_minus, operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator-, wmi.wbemtimespan_operator_minus
 ms.prod: windows-hardware
 ms.technology: windows-devices

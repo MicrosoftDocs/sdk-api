@@ -4,10 +4,10 @@ title: IShellItem::Compare
 author: windows-sdk-content
 description: Compares two IShellItem objects.
 old-location: shell\IShellItem_Compare.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 737a93e0-2e27-466b-889c-04a25e52e883
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Compare, Compare method [Windows Shell], Compare method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],Compare method, IShellItem.Compare, IShellItem::Compare, _win32_IShellItem_Compare, shell.IShellItem_Compare, shobjidl_core/IShellItem::Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices

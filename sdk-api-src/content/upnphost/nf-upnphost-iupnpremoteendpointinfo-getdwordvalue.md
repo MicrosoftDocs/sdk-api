@@ -7,7 +7,7 @@ old-location: upnp\iupnpremoteendpointinfo_getdwordvalue.htm
 tech.root: UPnP
 ms.assetid: efbb0671-cb32-41e1-8405-1d145c247673
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AF_INET, AF_INET6, GetDwordValue, GetDwordValue method [UPnP APIs], GetDwordValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetDwordValue method, IUPnPRemoteEndpointInfo.GetDwordValue, IUPnPRemoteEndpointInfo::GetDwordValue, upnp.iupnpremoteendpointinfo_getdwordvalue, upnphost/IUPnPRemoteEndpointInfo::GetDwordValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

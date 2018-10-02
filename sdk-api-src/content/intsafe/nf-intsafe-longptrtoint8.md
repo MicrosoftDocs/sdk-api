@@ -4,10 +4,10 @@ title: LongPtrToInt8 function
 author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type INT8.
 old-location: shell\LongPtrToInt8.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 38ef67b9-362f-4776-9b4c-6ca40e1efe0b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongPtrToInt8, LongPtrToInt8 function [Windows Shell], intsafe/LongPtrToInt8, shell.LongPtrToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

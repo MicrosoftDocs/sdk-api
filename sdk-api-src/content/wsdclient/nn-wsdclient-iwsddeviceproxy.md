@@ -7,7 +7,7 @@ old-location: ncd\iwsddeviceproxy.htm
 tech.root: WsdApi
 ms.assetid: a1a54ba0-241a-4c3d-8113-89c0f8171c40
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWSDDeviceProxy, IWSDDeviceProxy interface, IWSDDeviceProxy interface,described, ncd.iwsddeviceproxy, wsdclient/IWSDDeviceProxy
 ms.prod: windows
 ms.technology: windows-sdk

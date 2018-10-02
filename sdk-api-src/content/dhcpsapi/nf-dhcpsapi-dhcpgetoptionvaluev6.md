@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetoptionvaluev6.htm
 tech.root: DHCP
 ms.assetid: 62ad5e0f-d5e2-42d2-9e09-a7f2736ee7ab
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionValueV6, DhcpGetOptionValueV6 function [DHCP], dhcp.dhcpgetoptionvaluev6, dhcpsapi/DhcpGetOptionValueV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

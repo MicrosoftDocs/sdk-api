@@ -7,7 +7,7 @@ old-location: fwp\fwpm_classify_options0.htm
 tech.root: FWP
 ms.assetid: 5d1f7807-4188-4a57-83fc-99683254e3a5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_CLASSIFY_OPTIONS0, FWPM_CLASSIFY_OPTIONS0 structure [Filtering], FWPM_CLASSIFY_OPTIONS0_, fwp.fwpm_classify_options0, fwpmtypes/FWPM_CLASSIFY_OPTIONS0
 ms.prod: windows
 ms.technology: windows-sdk

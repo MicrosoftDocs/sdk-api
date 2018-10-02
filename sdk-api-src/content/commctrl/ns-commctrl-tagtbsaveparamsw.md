@@ -4,10 +4,10 @@ title: tagTBSAVEPARAMSW
 author: windows-sdk-content
 description: Specifies the location in the registry where the TB_SAVERESTORE message stores and retrieves information about the state of a toolbar.
 old-location: controls\TBSAVEPARAMS.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbsaveparams.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPTBSAVEPARAMW, TBSAVEPARAMS, TBSAVEPARAMS structure [Windows Controls], TBSAVEPARAMSA, TBSAVEPARAMSW, _win32_TBSAVEPARAMS, _win32_TBSAVEPARAMS_cpp, commctrl/TBSAVEPARAMS, commctrl/TBSAVEPARAMSA, commctrl/TBSAVEPARAMSW, controls.TBSAVEPARAMS, controls._win32_TBSAVEPARAMS, tagTBSAVEPARAMSW"
 ms.prod: windows
 ms.technology: windows-sdk

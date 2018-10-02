@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawClosedCurve_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawclosedcurvemethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: DrawClosedCurve, DrawClosedCurve methods [GDI+], Graphics.DrawClosedCurve, Graphics.DrawClosedCurve(IN const Pen,IN const Point,IN INT), Graphics::DrawClosedCurve, Graphics::DrawClosedCurve(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawClosedCurve_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawClosedCurve_Methods, gdiplusgraphics/DrawClosedCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

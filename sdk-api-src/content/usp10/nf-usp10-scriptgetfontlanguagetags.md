@@ -7,7 +7,7 @@ old-location: intl\scriptgetfontlanguagetags.htm
 tech.root: Intl
 ms.assetid: 554915f0-4bfc-4777-98cd-c2bee6ac4ef4
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ScriptGetFontLanguageTags, ScriptGetFontLanguageTags function [Internationalization for Windows Applications], _win32_ScriptGetFontLanguageTags, intl.scriptgetfontlanguagetags, usp10/ScriptGetFontLanguageTags
 ms.prod: windows-hardware
 ms.technology: windows-devices

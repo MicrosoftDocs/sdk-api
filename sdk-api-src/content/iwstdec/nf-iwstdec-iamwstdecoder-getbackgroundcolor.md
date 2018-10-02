@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getbackgroundcolor.htm
 tech.root: DirectShow
 ms.assetid: 1661f2cd-8e6c-4e55-b5fd-995ef2962cb7
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [DirectShow], GetBackgroundColor method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetBackgroundColor method, IAMWstDecoder.GetBackgroundColor, IAMWstDecoder::GetBackgroundColor, IAMWstDecoderGetBackgroundColor, dshow.iamwstdecoder_getbackgroundcolor, iwstdec/IAMWstDecoder::GetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

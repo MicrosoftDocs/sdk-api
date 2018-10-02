@@ -7,7 +7,7 @@ old-location: dshow\ddcolorkey.htm
 tech.root: DirectShow
 ms.assetid: bd360860-94e3-4f91-a455-5fdb227368b3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectShow], DDCOLORKEYStructure, dshow.ddcolorkey, strmif/DDCOLORKEY"
 ms.prod: windows
 ms.technology: windows-sdk

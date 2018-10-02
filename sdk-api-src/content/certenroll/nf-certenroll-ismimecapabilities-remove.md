@@ -4,10 +4,10 @@ title: ISmimeCapabilities::Remove
 author: windows-sdk-content
 description: Removes an object from the collection by index value.
 old-location: security\ismimecapabilities_remove_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 516726cc-f7b9-4813-999f-036694322fe5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ISmimeCapabilities interface [Security],Remove method, ISmimeCapabilities.Remove, ISmimeCapabilities::Remove, Remove, Remove method [Security], Remove method [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::Remove, security.ismimecapabilities_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

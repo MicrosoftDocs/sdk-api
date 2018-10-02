@@ -7,7 +7,7 @@ old-location: ldap\ldap_msgfree.htm
 tech.root: LDAP
 ms.assetid: a4292638-0686-4c2d-8c51-1d5d079d5782
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ldap_msgfree, ldap.ldap__msgfree, ldap.ldap_msgfree, ldap_msgfree, ldap_msgfree function [LDAP], winldap/ldap_msgfree"
 ms.prod: windows-hardware
 ms.technology: windows-devices

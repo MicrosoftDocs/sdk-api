@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer3.htm
 tech.root: wmformat
 ms.assetid: 3ebf80d0-b5b0-4024-805d-e0a3855574bf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: INSSBuffer3, INSSBuffer3 interface [windows Media Format], INSSBuffer3 interface [windows Media Format],described, INSSBuffer3Interface, wmformat.inssbuffer3, wmsbuffer/INSSBuffer3
 ms.prod: windows
 ms.technology: windows-sdk

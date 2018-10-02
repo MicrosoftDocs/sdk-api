@@ -4,10 +4,10 @@ title: IMFMediaEngineClassFactory2::CreateMediaKeys2
 author: windows-sdk-content
 description: Creates a media keys object based on the specified key system.
 old-location: mf\imfmediaengineclassfactory2_createmediakeys2.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 857F4573-41B3-488C-88A9-4744EBE5D38B
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: CreateMediaKeys2, CreateMediaKeys2 method [Media Foundation], CreateMediaKeys2 method [Media Foundation],IMFMediaEngineClassFactory2 interface, IMFMediaEngineClassFactory2 interface [Media Foundation],CreateMediaKeys2 method, IMFMediaEngineClassFactory2.CreateMediaKeys2, IMFMediaEngineClassFactory2::CreateMediaKeys2, mf.imfmediaengineclassfactory2_createmediakeys2, mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2
 ms.prod: windows-hardware
 ms.technology: windows-devices

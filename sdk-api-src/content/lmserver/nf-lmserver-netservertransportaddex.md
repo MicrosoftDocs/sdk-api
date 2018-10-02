@@ -4,10 +4,10 @@ title: NetServerTransportAddEx function
 author: windows-sdk-content
 description: The NetServerTransportAddEx function binds the specified server to the transport protocol.
 old-location: netmgmt\netservertransportaddex.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: d1edc75d-8313-422c-a6fb-8b51a309a252
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: 0, 1, 2, 3, NetServerTransportAddEx, NetServerTransportAddEx function [Network Management], _win32_netservertransportaddex, lmserver/NetServerTransportAddEx, netmgmt.netservertransportaddex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getprogramproperties.htm
 tech.root: MSTV
 ms.assetid: 57eb55bf-49d9-471e-b59c-0d87aa3c3e3c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetProgramProperties, GetProgramProperties method [Microsoft TV Technologies], GetProgramProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetProgramProperties method, IGuideData.GetProgramProperties, IGuideData::GetProgramProperties, IGuideDataGetProgramProperties, bdatif/IGuideData::GetProgramProperties, mstv.iguidedata_getprogramproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

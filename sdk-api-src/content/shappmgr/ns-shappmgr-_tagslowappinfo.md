@@ -4,10 +4,10 @@ title: "_tagSlowAppInfo"
 author: windows-sdk-content
 description: Provides specialized application information to Add/Remove Programs in Control Panel. This structure is not applicable to published applications.
 old-location: shell\SLOWAPPINFO.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e9af8c70-0f03-4f16-bbfb-5e54f7c6c9df
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*PSLOWAPPINFO, SLOWAPPINFO, SLOWAPPINFO structure [Windows Shell], _tagSlowAppInfo, inet_SLOWAPPINFO, shappmgr/SLOWAPPINFO, shell.SLOWAPPINFO"
 ms.prod: windows
 ms.technology: windows-sdk

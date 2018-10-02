@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getguideprogramids.htm
 tech.root: MSTV
 ms.assetid: d182057a-096b-4286-8174-a3ce25c1c86f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetGuideProgramIDs, GetGuideProgramIDs method [Microsoft TV Technologies], GetGuideProgramIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetGuideProgramIDs method, IGuideData.GetGuideProgramIDs, IGuideData::GetGuideProgramIDs, IGuideDataGetGuideProgramIDs, bdatif/IGuideData::GetGuideProgramIDs, mstv.iguidedata_getguideprogramids
 ms.prod: windows-hardware
 ms.technology: windows-devices

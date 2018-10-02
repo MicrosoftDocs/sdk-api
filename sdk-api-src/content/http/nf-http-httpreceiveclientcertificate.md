@@ -7,7 +7,7 @@ old-location: http\httpreceiveclientcertificate.htm
 tech.root: Http
 ms.assetid: f0cf7b77-2868-4142-a663-32d6ea7df9e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HTTP_RECEIVE_SECURE_CHANNEL_TOKEN, HttpReceiveClientCertificate, HttpReceiveClientCertificate function [HTTP], _http_httpreceiveclientcertificate, http.httpreceiveclientcertificate, http/HttpReceiveClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

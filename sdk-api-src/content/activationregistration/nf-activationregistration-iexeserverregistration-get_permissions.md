@@ -7,7 +7,7 @@ old-location: winrt\iexeserverregistration_permissions.htm
 tech.root: WinRT
 ms.assetid: 06267C33-11B4-4B55-8D2C-A20926EE89DF
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Permissions method, IExeServerRegistration.get_Permissions, IExeServerRegistration::get_Permissions, activationregistration/IExeServerRegistration::get_Permissions, get_Permissions, get_Permissions method [Windows Runtime], get_Permissions method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_permissions
 ms.prod: windows-hardware
 ms.technology: windows-devices

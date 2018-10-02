@@ -4,10 +4,10 @@ title: PowerReadDCDefaultIndex function
 author: windows-sdk-content
 description: Retrieves the default DC index of the specified power setting.
 old-location: base\powerreaddcdefaultindex.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 32eeb0c2-ce37-4f1d-88e9-ced934740edd
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadDCDefaultIndex, PowerReadDCDefaultIndex function, base.powerreaddcdefaultindex, powrprof/PowerReadDCDefaultIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

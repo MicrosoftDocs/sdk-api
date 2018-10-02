@@ -7,7 +7,7 @@ old-location: cos\objectcontrol_canbepooled.htm
 tech.root: cossdk
 ms.assetid: 1bca2892-4b9a-4135-b009-37181a028130
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CanBePooled, CanBePooled method [COM+], CanBePooled method [COM+],ObjectControl interface, ObjectControl interface [COM+],CanBePooled method, ObjectControl.CanBePooled, ObjectControl::CanBePooled, _cos_ObjectControl_CanBePooled, comsvcs/ObjectControl::CanBePooled, cos.objectcontrol_canbepooled
 ms.prod: windows-hardware
 ms.technology: windows-devices

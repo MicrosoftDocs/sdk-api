@@ -4,10 +4,10 @@ title: D3D11_VIDEO_FRAME_FORMAT
 author: windows-sdk-content
 description: Describes how a video stream is interlaced.
 old-location: mf\d3d11_video_frame_format.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: D0C0C58C-8BBC-4C2C-BD0B-4244211E7E06
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_VIDEO_FRAME_FORMAT, D3D11_VIDEO_FRAME_FORMAT enumeration [Media Foundation], D3D11_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, D3D11_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, D3D11_VIDEO_FRAME_FORMAT_PROGRESSIVE, d3d11/D3D11_VIDEO_FRAME_FORMAT, d3d11/D3D11_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, d3d11/D3D11_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, d3d11/D3D11_VIDEO_FRAME_FORMAT_PROGRESSIVE, mf.d3d11_video_frame_format
 ms.prod: windows
 ms.technology: windows-sdk

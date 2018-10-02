@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_getinfo.htm
 tech.root: DirectShow
 ms.assetid: d8ba2ba2-510a-4fb8-844e-48059ec4ef0d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMVideoCompression interface, IAMVideoCompression interface [DirectShow],GetInfo method, IAMVideoCompression.GetInfo, IAMVideoCompression::GetInfo, IAMVideoCompressionGetInfo, dshow.iamvideocompression_getinfo, strmif/IAMVideoCompression::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

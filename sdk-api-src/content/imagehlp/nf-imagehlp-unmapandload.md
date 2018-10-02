@@ -4,10 +4,10 @@ title: UnMapAndLoad function
 author: windows-sdk-content
 description: Deallocate all resources that are allocated by a previous call to the MapAndLoad function.
 old-location: base\unmapandload.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 63a39d2b-a3a1-4c91-be93-f9a681756293
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: UnMapAndLoad, UnMapAndLoad function, _win32_unmapandload, base.unmapandload, imagehlp/UnMapAndLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices

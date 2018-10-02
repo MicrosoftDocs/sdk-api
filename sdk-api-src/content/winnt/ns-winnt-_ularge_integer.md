@@ -7,7 +7,7 @@ old-location: winprog\ularge_integer_str.htm
 tech.root: WinProg
 ms.assetid: 83a10c12-2cd1-449a-af3f-b2138fc50ee0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PULARGE_INTEGER, PULARGE_INTEGER, PULARGE_INTEGER union pointer [Windows API], ULARGE_INTEGER, ULARGE_INTEGER union [Windows API], _ULARGE_INTEGER, _win32_ularge_integer_str, winnt/PULARGE_INTEGER, winnt/ULARGE_INTEGER, winprog.ularge_integer_str"
 ms.prod: windows
 ms.technology: windows-sdk

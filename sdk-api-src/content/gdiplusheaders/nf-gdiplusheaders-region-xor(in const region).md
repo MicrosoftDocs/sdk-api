@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Xor_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Region.Xor, Region.Xor(IN const Region), Region::Xor, Region::Xor(IN const Region), Xor, Xor methods [GDI+], _gdiplus_CLASS_Region_Xor_Methods, gdiplus._gdiplus_CLASS_Region_Xor_Methods, gdiplusheaders/Xor
 ms.prod: windows-hardware
 ms.technology: windows-devices

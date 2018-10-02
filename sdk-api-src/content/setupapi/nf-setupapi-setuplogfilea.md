@@ -7,7 +7,7 @@ old-location: setup\setuplogfile.htm
 tech.root: SetupApi
 ms.assetid: bc738212-ff81-4b52-b2ef-50aabf6658ab
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetupLogFile, SetupLogFile function [Setup API], SetupLogFileA, SetupLogFileW, _setupapi_setuplogfile, setup.setuplogfile, setupapi/SetupLogFile, setupapi/SetupLogFileA, setupapi/SetupLogFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

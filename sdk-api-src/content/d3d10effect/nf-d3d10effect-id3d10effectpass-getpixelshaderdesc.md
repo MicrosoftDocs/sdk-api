@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpass_getpixelshaderdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getpixelshaderdesc.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetPixelShaderDesc, GetPixelShaderDesc method [Direct3D 10], GetPixelShaderDesc method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetPixelShaderDesc method, ID3D10EffectPass.GetPixelShaderDesc, ID3D10EffectPass::GetPixelShaderDesc, d3d10effect/ID3D10EffectPass::GetPixelShaderDesc, direct3d10.id3d10effectpass_getpixelshaderdesc, e9a087a4-34ef-3b9b-ee16-34ff7080b051
 ms.prod: windows-hardware
 ms.technology: windows-devices

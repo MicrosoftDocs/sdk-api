@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_if_table.htm
 tech.root: MIB
 ms.assetid: 6ea374e3-cb09-44e5-b80a-b68447589191
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_IPMCAST_IF_TABLE, MIB_IPMCAST_IF_TABLE, MIB_IPMCAST_IF_TABLE structure [MIB], PMIB_IPMCAST_IF_TABLE, PMIB_IPMCAST_IF_TABLE structure pointer [MIB], _MIB_IPMCAST_IF_TABLE, _mpr_mib_ipmcast_if_table, ipmib/MIB_IPMCAST_IF_TABLE, ipmib/PMIB_IPMCAST_IF_TABLE, iprtrmib/MIB_IPMCAST_IF_TABLE, iprtrmib/PMIB_IPMCAST_IF_TABLE, mib.mib_ipmcast_if_table, rras.mib_ipmcast_if_table"
 ms.prod: windows
 ms.technology: windows-sdk

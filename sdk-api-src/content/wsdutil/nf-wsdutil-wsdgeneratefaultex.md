@@ -7,7 +7,7 @@ old-location: ncd\wsdgeneratefaultex.htm
 tech.root: WsdApi
 ms.assetid: 11cdd975-cc06-4fdc-8d84-c419e2a2b5ff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFaultEx, WSDGenerateFaultEx function, ncd.wsdgeneratefaultex, wsdutil/WSDGenerateFaultEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DLLGETVERSIONPROC
 author: windows-sdk-content
 description: Implemented by many of the Windows Shell DLLs to allow applications to obtain DLL-specific version information.
 old-location: shell\DllGetVersion.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d7ec0f7d-ba2f-4aa4-b867-a2615244a580
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: DLLGETVERSIONPROC, DLLGETVERSIONPROC callback, DllGetVersion, DllGetVersion callback function [Windows Shell], _win32_DllGetVersion, _win32_DllGetVersion_cpp, shell.DllGetVersion, shlwapi/DllGetVersion
 ms.prod: windows
 ms.technology: windows-sdk

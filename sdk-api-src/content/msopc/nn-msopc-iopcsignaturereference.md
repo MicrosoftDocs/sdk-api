@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereference.htm
 tech.root: OPC
 ms.assetid: 2ce40bc7-754a-4f69-9348-75603e2257a4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], IOpcSignatureReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureReference, opc.iopcsignaturereference
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\ivsswmfiledesc_getalternatelocation.htm
 tech.root: VSS
 ms.assetid: 3bb787eb-ac15-40d0-9901-b869442399c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetAlternateLocation, GetAlternateLocation method [VSS], GetAlternateLocation method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetAlternateLocation method, IVssWMFiledesc.GetAlternateLocation, IVssWMFiledesc::GetAlternateLocation, _win32_ivsswmfiledesc_getalternatelocation, base.ivsswmfiledesc_getalternatelocation, vswriter/IVssWMFiledesc::GetAlternateLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_PNRPCLOUDINFO"
 author: windows-sdk-content
 description: The PNRPCLOUDINFO structure is pointed to by the lpBlob member of the WSAQUERYSET structure.
 old-location: p2p\pnrpcloudinfo.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 82af5a4f-1b29-405a-a200-1d723ea7693b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPNRPCLOUDINFO, PNRPCLOUDINFO, PNRPCLOUDINFO structure [Peer Networking], PPNRPCLOUDINFO, PPNRPCLOUDINFO structure pointer [Peer Networking], _PNRPCLOUDINFO, p2p.pnrpcloudinfo, pnrpns/PNRPCLOUDINFO, pnrpns/PPNRPCLOUDINFO"
 ms.prod: windows
 ms.technology: windows-sdk

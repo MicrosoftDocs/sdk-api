@@ -7,7 +7,7 @@ old-location: direct2d\point2f.htm
 tech.root: direct2d
 ms.assetid: 62eb7517-0c38-4f63-b9f9-85211fcb36a4
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: Point2F, Point2F function [Direct2D], d2d1helper/Point2F, direct2d.point2f
 ms.prod: windows-hardware
 ms.technology: windows-devices

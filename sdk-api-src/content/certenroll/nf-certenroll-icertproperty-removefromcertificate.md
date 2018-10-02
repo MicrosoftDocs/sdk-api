@@ -4,10 +4,10 @@ title: ICertProperty::RemoveFromCertificate
 author: windows-sdk-content
 description: Disassociates a property from a certificate.
 old-location: security\icertproperty_removefromcertificate_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 9f3e21ec-f537-40ba-84a3-b71c7aa50e84
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICertProperty interface [Security],RemoveFromCertificate method, ICertProperty.RemoveFromCertificate, ICertProperty::RemoveFromCertificate, RemoveFromCertificate, RemoveFromCertificate method [Security], RemoveFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::RemoveFromCertificate, security.icertproperty_removefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITextFont::SetSubscript
 author: windows-sdk-content
 description: Sets whether characters are displayed as subscript.
 old-location: controls\ITextFont_SetSubscript.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsubscript.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSubscript method, ITextFont.SetSubscript, ITextFont::SetSubscript, SetSubscript, SetSubscript method [Windows Controls], SetSubscript method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSubscript, _win32_ITextFont_SetSubscript_cpp, controls.ITextFont_SetSubscript, controls._win32_ITextFont_SetSubscript, tom/ITextFont::SetSubscript
 ms.prod: windows-hardware
 ms.technology: windows-devices

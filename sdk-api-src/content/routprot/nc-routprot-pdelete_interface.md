@@ -4,10 +4,10 @@ title: PDELETE_INTERFACE
 author: windows-sdk-content
 description: The DeleteInterface function removes an interface from the set managed by the routing protocol.
 old-location: rras\deleteinterface.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 0b4c24d4-2588-412e-b3ec-dd73cbdac921
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteInterface, DeleteInterface callback function [RAS], PDELETE_INTERFACE, PDELETE_INTERFACE callback, _mpr_deleteinterface, routprot/DeleteInterface, rras.deleteinterface
 ms.prod: windows
 ms.technology: windows-sdk

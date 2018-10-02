@@ -7,7 +7,7 @@ old-location: rm\drmattesttype.htm
 tech.root: AdRms_Sdk
 ms.assetid: adbf8718-e707-4ab9-a961-f8b4b4e1fe6a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMATTESTTYPE, DRMATTESTTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMATTESTTYPE_FULLENVIRONMENT, DRMATTESTTYPE_HASHONLY, _DRMATTESTTYPE, msdrmdefs/DRMATTESTTYPE, msdrmdefs/DRMATTESTTYPE_FULLENVIRONMENT, msdrmdefs/DRMATTESTTYPE_HASHONLY, rm.drmattesttype
 ms.prod: windows
 ms.technology: windows-sdk

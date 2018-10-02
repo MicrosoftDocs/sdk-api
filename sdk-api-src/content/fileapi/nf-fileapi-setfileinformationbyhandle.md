@@ -4,10 +4,10 @@ title: SetFileInformationByHandle function
 author: windows-sdk-content
 description: Sets the file information for the specified file.
 old-location: fs\setfileinformationbyhandle.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

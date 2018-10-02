@@ -4,10 +4,10 @@ title: "_IFIMETRICS"
 author: windows-sdk-content
 description: The IFIMETRICS structure defines information for a given typeface that GDI can use.
 old-location: display\ifimetrics.htm
-tech.root: display
+tech.root: Display
 ms.assetid: fd2606ed-ec61-430a-aaad-38a4c3a207b6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIFIMETRICS, IFIMETRICS, IFIMETRICS structure [Display Devices], PIFIMETRICS, PIFIMETRICS structure pointer [Display Devices], _IFIMETRICS, display.ifimetrics, grstrcts_85d0a649-0d14-4b17-ab47-c35d61ce507e.xml, winddi/IFIMETRICS, winddi/PIFIMETRICS"
 ms.prod: windows
 ms.technology: windows-sdk

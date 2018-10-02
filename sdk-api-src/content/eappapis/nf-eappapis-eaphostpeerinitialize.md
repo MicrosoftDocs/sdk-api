@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerinitialize.htm
 tech.root: EAPHost
 ms.assetid: 4af7103e-85c8-472e-96fe-407f07a1f447
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapHostPeerInitialize, EapHostPeerInitialize function [EAPHost], eaphost.eaphostpeerinitialize, eappapis/EapHostPeerInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

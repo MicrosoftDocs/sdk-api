@@ -4,10 +4,10 @@ title: PathCchCanonicalize function
 author: windows-sdk-content
 description: Converts a path string into a canonical form.This function differs from PathCchCanonicalizeEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAllocCanonicalize in that the caller must declare the size of the returned string, which is stored on the stack.This function differs from PathCanonicalize in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchCanonicalize.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 25ff08b2-5978-4d44-9877-ba4230ef7d12
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathCchCanonicalize, PathCchCanonicalize function [Windows Shell], pathcch/PathCchCanonicalize, shell.PathCchCanonicalize
 ms.prod: windows-hardware
 ms.technology: windows-devices

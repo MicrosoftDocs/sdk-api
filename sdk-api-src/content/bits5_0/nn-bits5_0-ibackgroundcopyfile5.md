@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile5.htm
 tech.root: Bits
 ms.assetid: 548b507a-4874-4ccf-829e-13e1ca6cc958
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyFile5, IBackgroundCopyFile5 interface [BITS], IBackgroundCopyFile5 interface [BITS],described, bits.ibackgroundcopyfile5, bits5_0/IBackgroundCopyFile5
 ms.prod: windows
 ms.technology: windows-sdk

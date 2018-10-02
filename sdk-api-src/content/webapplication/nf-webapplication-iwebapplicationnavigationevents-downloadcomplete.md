@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationnavigationevents_downloadcomplete.htm
 tech.root: debug_wwahost
 ms.assetid: a787ae3b-060a-4a7e-b980-e33d3d6b2a01
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DownloadComplete, DownloadComplete method [Debugging Windows Store apps], DownloadComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DownloadComplete method, IWebApplicationNavigationEvents.DownloadComplete, IWebApplicationNavigationEvents::DownloadComplete, debug.iwebapplicationnavigationevents_downloadcomplete, webapplication/IWebApplicationNavigationEvents::DownloadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

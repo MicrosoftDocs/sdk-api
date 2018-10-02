@@ -4,10 +4,10 @@ title: ISyncMgrHandler::GetHandlerInfo
 author: windows-sdk-content
 description: Gets properties that describe the handler.
 old-location: shell\ISyncMgrHandler_GetHandlerInfo.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 078f7cee-fb75-4b8b-8c90-720c26d1f361
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetHandlerInfo, GetHandlerInfo method [Windows Shell], GetHandlerInfo method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetHandlerInfo method, ISyncMgrHandler.GetHandlerInfo, ISyncMgrHandler::GetHandlerInfo, _shell_ISyncMgrHandler_GetHandlerInfo, shell.ISyncMgrHandler_GetHandlerInfo, syncmgr/ISyncMgrHandler::GetHandlerInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

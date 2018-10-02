@@ -4,10 +4,10 @@ title: IMFASFProfile::CreateStreamPrioritization
 author: windows-sdk-content
 description: IMFASFProfile::CreateStreamPrioritization method
 old-location: mf\imfasfprofile_createstreamprioritization.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1c3a5470-eba9-4233-8744-8630002d3fa0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 1c3a5470-eba9-4233-8744-8630002d3fa0, CreateStreamPrioritization, CreateStreamPrioritization method [Media Foundation], CreateStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateStreamPrioritization method, IMFASFProfile.CreateStreamPrioritization, IMFASFProfile::CreateStreamPrioritization, mf.imfasfprofile_createstreamprioritization, wmcontainer/IMFASFProfile::CreateStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices

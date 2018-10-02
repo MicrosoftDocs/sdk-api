@@ -7,7 +7,7 @@ old-location: base\ivdsvdprovider_querysurfaceddisks.htm
 tech.root: VDS
 ms.assetid: eab65da4-eb26-46f5-9978-972fd8dffb41
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsVdProvider interface,QueryVDisks method, IVdsVdProvider.QueryVDisks, IVdsVdProvider::QueryVDisks, QueryVDisks, QueryVDisks method, QueryVDisks method,IVdsVdProvider interface, base.ivdsvdprovider_querysurfaceddisks, vds/IVdsVdProvider::QueryVDisks
 ms.prod: windows-hardware
 ms.technology: windows-devices

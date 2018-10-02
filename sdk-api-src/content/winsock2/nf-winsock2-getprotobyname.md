@@ -7,7 +7,7 @@ old-location: winsock\getprotobyname_2.htm
 tech.root: WinSock
 ms.assetid: 00669525-d477-4607-beaa-61ef5a8dbd4f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_getprotobyname_2, getprotobyname, getprotobyname function [Winsock], winsock.getprotobyname_2, winsock/getprotobyname"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontdownloadlistener.htm
 tech.root: DirectWrite
 ms.assetid: 92678d34-9a14-8d58-129c-be31a0963942
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDWriteFontDownloadListener, IDWriteFontDownloadListener interface [Direct Write], IDWriteFontDownloadListener interface [Direct Write],described, directwrite.idwritefontdownloadlistener, dwrite_3/IDWriteFontDownloadListener
 ms.prod: windows
 ms.technology: windows-sdk

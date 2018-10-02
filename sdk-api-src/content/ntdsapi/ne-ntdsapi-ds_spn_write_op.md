@@ -4,10 +4,10 @@ title: DS_SPN_WRITE_OP
 author: windows-sdk-content
 description: The DS_SPN_WRITE_OP enumeration identifies the type of write operation that should be performed by the DsWriteAccountSpn function.
 old-location: ad\ds_spn_write_op.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 8367bdaf-3d8d-46b3-9d03-b9753e8e5a1a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DS_SPN_ADD_SPN_OP, DS_SPN_DELETE_SPN_OP, DS_SPN_REPLACE_SPN_OP, DS_SPN_WRITE_OP, DS_SPN_WRITE_OP enumeration [Active Directory], _glines_ds_spn_write_op, ad.ds__spn__write__op, ad.ds_spn_write_op, ntdsapi/DS_SPN_ADD_SPN_OP, ntdsapi/DS_SPN_DELETE_SPN_OP, ntdsapi/DS_SPN_REPLACE_SPN_OP, ntdsapi/DS_SPN_WRITE_OP
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionnotification.htm
 tech.root: CoreAudio
 ms.assetid: 69222168-87d7-4f5a-93b1-6d91263a54bd
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], IAudioSessionNotification interface [Core Audio],described, audiopolicy/IAudioSessionNotification, coreaudio.iaudiosessionnotification
 ms.prod: windows
 ms.technology: windows-sdk

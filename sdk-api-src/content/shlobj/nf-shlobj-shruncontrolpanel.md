@@ -4,10 +4,10 @@ title: SHRunControlPanel function
 author: windows-sdk-content
 description: Opens a Control Panel item.
 old-location: shell\SHRunControlPanel.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 393a1f63-071e-4655-b6fb-7b0abca7818c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHRunControlPanel, SHRunControlPanel function [Windows Shell], _shell_SHRunControlPanel, shell.SHRunControlPanel, shlobj/SHRunControlPanel
 ms.prod: windows-hardware
 ms.technology: windows-devices

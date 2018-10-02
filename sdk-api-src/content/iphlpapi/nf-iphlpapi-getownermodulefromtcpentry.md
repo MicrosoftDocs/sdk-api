@@ -7,7 +7,7 @@ old-location: iphlp\getownermodulefromtcpentry.htm
 tech.root: IpHlp
 ms.assetid: 12162f0a-56c1-4f81-a1f5-3cd5ad975d0d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetOwnerModuleFromTcpEntry, GetOwnerModuleFromTcpEntry function [IP Helper], iphlp.getownermodulefromtcpentry, iphlpapi/GetOwnerModuleFromTcpEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

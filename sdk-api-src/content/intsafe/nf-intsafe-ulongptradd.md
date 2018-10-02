@@ -4,10 +4,10 @@ title: ULongPtrAdd function
 author: windows-sdk-content
 description: Adds two values of type ULONG_PTR.
 old-location: shell\ULongPtrAdd.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 83f89ca7-0625-4705-9645-b2b739a9d664
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ULongPtrAdd, ULongPtrAdd function [Windows Shell], _shell_ULongPtrAdd, intsafe/ULongPtrAdd, shell.ULongPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

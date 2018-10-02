@@ -4,10 +4,10 @@ title: UrlCanonicalizeA function
 author: windows-sdk-content
 description: Converts a URL string into canonical form.
 old-location: shell\UrlCanonicalize.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 70802745-0611-4d37-800e-b50d5ea23426
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCanonicalize, UrlCanonicalize function [Windows Shell], UrlCanonicalizeA, UrlCanonicalizeW, _win32_UrlCanonicalize, shell.UrlCanonicalize, shlwapi/UrlCanonicalize, shlwapi/UrlCanonicalizeA, shlwapi/UrlCanonicalizeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

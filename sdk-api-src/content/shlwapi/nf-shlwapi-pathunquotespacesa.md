@@ -4,10 +4,10 @@ title: PathUnquoteSpacesA function
 author: windows-sdk-content
 description: Removes quotes from the beginning and end of a path.
 old-location: shell\PathUnquoteSpaces.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 00474c95-ec59-489a-bee3-191b98a47567
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathUnquoteSpaces, PathUnquoteSpaces function [Windows Shell], PathUnquoteSpacesA, PathUnquoteSpacesW, _win32_PathUnquoteSpaces, shell.PathUnquoteSpaces, shlwapi/PathUnquoteSpaces, shlwapi/PathUnquoteSpacesA, shlwapi/PathUnquoteSpacesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

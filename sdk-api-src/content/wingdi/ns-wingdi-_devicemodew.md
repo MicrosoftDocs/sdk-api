@@ -4,10 +4,10 @@ title: "_devicemodeW"
 author: windows-sdk-content
 description: The DEVMODEW structure is used for specifying characteristics of display and print devices in the Unicode (wide) character set.
 old-location: display\devmodew.htm
-tech.root: display
+tech.root: Display
 ms.assetid: b2369876-9a79-40c8-8d27-c8b9d8e68e6b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDEVMODEW, *NPDEVMODEW, *PDEVMODEW, DEVMODE, DEVMODEW, DEVMODEW structure [Display Devices], LPDEVMODEW, LPDEVMODEW structure pointer [Display Devices], NPDEVMODEW, NPDEVMODEW structure pointer [Display Devices], PDEVMODEW, PDEVMODEW structure pointer [Display Devices], _devicemodeW, display.devmodew, grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml, wingdi/DEVMODEW, wingdi/LPDEVMODEW, wingdi/NPDEVMODEW, wingdi/PDEVMODEW"
 ms.prod: windows
 ms.technology: windows-sdk

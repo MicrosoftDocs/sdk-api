@@ -4,10 +4,10 @@ title: MFP_STOP_EVENT
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_STOP event.
 old-location: mf\mfp_stop_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 67459c57-7912-4c51-9d76-3dc98f0e65ba
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_STOP_EVENT, MFP_STOP_EVENT structure [Media Foundation], mf.mfp_stop_event, mfplay/MFP_STOP_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

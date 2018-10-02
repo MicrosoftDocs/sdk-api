@@ -7,7 +7,7 @@ old-location: tsf\itfintegratablecandidatelistuielement_showcandidatenumbers.htm
 tech.root: TSF
 ms.assetid: 91F40471-69D0-457B-9614-1B5A690A82B7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],ShowCandidateNumbers method, ITfIntegratableCandidateListUIElement.ShowCandidateNumbers, ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, ShowCandidateNumbers, ShowCandidateNumbers method [Text Services Framework], ShowCandidateNumbers method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, tsf.itfintegratablecandidatelistuielement_showcandidatenumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices

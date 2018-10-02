@@ -7,7 +7,7 @@ old-location: base\getnamedpipeserverprocessid.htm
 tech.root: ipc
 ms.assetid: 1ee33a66-a71c-4c34-b907-aab7860294c4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNamedPipeServerProcessId, GetNamedPipeServerProcessId function, base.getnamedpipeserverprocessid, winbase/GetNamedPipeServerProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices

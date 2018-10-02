@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::get_ClassificationLastError
 author: windows-sdk-content
 description: The error message from the last time that classification was run.
 old-location: fsrm\ifsrmclassificationmanager_classificationlasterror.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 02c62b7d-a128-432a-a15a-51de092b5bab
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: ClassificationLastError property [File Server Resource Manager], ClassificationLastError property [File Server Resource Manager],FsrmClassificationManager class, ClassificationLastError property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationLastError property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationLastError property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationLastError property, IFsrmClassificationManager.ClassificationLastError, IFsrmClassificationManager.get_ClassificationLastError, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationLastError property, IFsrmClassificationManager2.ClassificationLastError, IFsrmClassificationManager2::get_ClassificationLastError, IFsrmClassificationManager::ClassificationLastError, IFsrmClassificationManager::get_ClassificationLastError, fs.ifsrmclassificationmanager_classificationlasterror, fsrm.ifsrmclassificationmanager_classificationlasterror, fsrmpipeline/IFsrmClassificationManager2::ClassificationLastError, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationLastError, fsrmpipeline/IFsrmClassificationManager::ClassificationLastError, fsrmpipeline/IFsrmClassificationManager::get_ClassificationLastError, get_ClassificationLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices

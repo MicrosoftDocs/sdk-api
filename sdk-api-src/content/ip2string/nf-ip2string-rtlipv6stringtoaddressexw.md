@@ -7,7 +7,7 @@ old-location: iphlp\rtlipv6stringtoaddressex.htm
 tech.root: IpHlp
 ms.assetid: 3a95c405-3f2c-4bd5-805e-3e879c4c20e2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RtlIpv6StringToAddressEx, RtlIpv6StringToAddressEx function [IP Helper], RtlIpv6StringToAddressExW, ip2string/RtlIpv6StringToAddressEx, ip2string/RtlIpv6StringToAddressExW, iphlp.rtlipv6stringtoaddressex
 ms.prod: windows-hardware
 ms.technology: windows-devices

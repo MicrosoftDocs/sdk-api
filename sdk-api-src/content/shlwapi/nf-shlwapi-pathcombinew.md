@@ -4,10 +4,10 @@ title: PathCombineW function
 author: windows-sdk-content
 description: Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
 old-location: shell\PathCombine.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, PathCombineW, _win32_PathCombine, shell.PathCombine, shlwapi/PathCombine, shlwapi/PathCombineA, shlwapi/PathCombineW
 ms.prod: windows-hardware
 ms.technology: windows-devices

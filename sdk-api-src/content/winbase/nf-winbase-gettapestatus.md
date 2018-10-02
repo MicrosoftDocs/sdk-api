@@ -7,7 +7,7 @@ old-location: backup\gettapestatus.htm
 tech.root: Backup
 ms.assetid: 37422a27-2d46-43db-9318-4a3547b7f933
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTapeStatus, GetTapeStatus function [Backup], _win32_gettapestatus, backup.gettapestatus, base.gettapestatus, winbase/GetTapeStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

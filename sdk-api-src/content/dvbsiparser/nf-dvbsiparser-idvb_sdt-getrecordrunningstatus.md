@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_getrecordrunningstatus.htm
 tech.root: MSTV
 ms.assetid: a6e799b3-f90e-415f-a380-e90d69184fe2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_SDT.GetRecordRunningStatus, IDVB_SDT::GetRecordRunningStatus, IDVB_SDTGetRecordRunningStatus, dvbsiparser/IDVB_SDT::GetRecordRunningStatus, mstv.idvb_sdt_getrecordrunningstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

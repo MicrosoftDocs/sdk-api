@@ -4,10 +4,10 @@ title: MFCreateSensorStream function
 author: windows-sdk-content
 description: Creates an instance of the IMFSensorStream interface.
 old-location: mf\mfcreatesensorstream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3C260634-E722-4F1D-800C-FB32308CF605
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateSensorStream, MFCreateSensorStream function [Media Foundation], mf.mfcreatesensorstream, mfidl/MFCreateSensorStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

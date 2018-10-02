@@ -4,10 +4,10 @@ title: IMFSimpleAudioVolume
 author: windows-sdk-content
 description: Controls the master volume level of the audio session associated with the streaming audio renderer (SAR) and the audio capture source.
 old-location: mf\imfsimpleaudiovolume.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 002d85a7-8bc3-422e-8ced-1907ac121d7b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 002d85a7-8bc3-422e-8ced-1907ac121d7b, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], IMFSimpleAudioVolume interface [Media Foundation],described, mf.imfsimpleaudiovolume, mfidl/IMFSimpleAudioVolume
 ms.prod: windows
 ms.technology: windows-sdk

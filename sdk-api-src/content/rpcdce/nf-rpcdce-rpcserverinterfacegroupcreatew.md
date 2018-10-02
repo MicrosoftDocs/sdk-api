@@ -4,10 +4,10 @@ title: RpcServerInterfaceGroupCreateW function
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupCreate function creates an RPC server interface group for the server application.
 old-location: rpc\rpcserverinterfacegroupcreate.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 7B648221-8256-42C9-B200-0EFD3B0DBA91
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RpcServerInterfaceGroupCreate, RpcServerInterfaceGroupCreate function [RPC], RpcServerInterfaceGroupCreateA, RpcServerInterfaceGroupCreateW, rpc.rpcserverinterfacegroupcreate, rpcdce/RpcServerInterfaceGroupCreate, rpcdce/RpcServerInterfaceGroupCreateA, rpcdce/RpcServerInterfaceGroupCreateW
 ms.prod: windows-hardware
 ms.technology: windows-devices

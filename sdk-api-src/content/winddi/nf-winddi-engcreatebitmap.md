@@ -4,10 +4,10 @@ title: EngCreateBitmap function
 author: windows-sdk-content
 description: The EngCreateBitmap function requests that GDI create and manage a bitmap.
 old-location: display\engcreatebitmap.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngCreateBitmap, EngCreateBitmap function [Display Devices], display.engcreatebitmap, gdifncs_fde5f304-b931-449c-bba5-3a9f3d814687.xml, winddi/EngCreateBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

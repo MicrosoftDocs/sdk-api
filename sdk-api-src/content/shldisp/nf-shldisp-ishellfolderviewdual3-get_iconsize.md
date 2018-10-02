@@ -4,10 +4,10 @@ title: IShellFolderViewDual3::get_IconSize
 author: windows-sdk-content
 description: Gets the icon size setting for the current folder.
 old-location: shell\IShellFolderViewDual3_get_IconSize.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 005c440f-2340-4965-b717-5aa0f4e5142f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_IconSize method, IShellFolderViewDual3.get_IconSize, IShellFolderViewDual3::get_IconSize, _shell_IShellFolderViewDual3_get_IconSize, get_IconSize, get_IconSize method [Windows Shell], get_IconSize method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_IconSize, shldisp/IShellFolderViewDual3::get_IconSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

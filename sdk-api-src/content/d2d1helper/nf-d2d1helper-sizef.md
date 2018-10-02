@@ -7,7 +7,7 @@ old-location: direct2d\sizef.htm
 tech.root: direct2d
 ms.assetid: dbb75605-a0ec-464c-bb10-4455a90c4ae9
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: SizeF, SizeF function [Direct2D], d2d1helper/SizeF, direct2d.sizef
 ms.prod: windows-hardware
 ms.technology: windows-devices

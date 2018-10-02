@@ -4,10 +4,10 @@ title: IMFMediaEngineSupportsSourceTransfer
 author: windows-sdk-content
 description: Enables the media source to be transferred between the media engine and the sharing engine for Play To.
 old-location: mf\imfmediaenginesupportssourcetransfer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer
 ms.prod: windows
 ms.technology: windows-sdk

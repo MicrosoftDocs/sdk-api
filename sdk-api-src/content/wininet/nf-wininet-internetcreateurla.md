@@ -7,7 +7,7 @@ old-location: wininet\internetcreateurl.htm
 tech.root: WinInet
 ms.assetid: b01bb684-0b2f-4c17-ab32-9f83fdd89e69
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InternetCreateUrl, InternetCreateUrl function [WinINet], InternetCreateUrlA, InternetCreateUrlW, _inet_internetcreateurl_function, wininet.internetcreateurl, wininet/InternetCreateUrl, wininet/InternetCreateUrlA, wininet/InternetCreateUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices

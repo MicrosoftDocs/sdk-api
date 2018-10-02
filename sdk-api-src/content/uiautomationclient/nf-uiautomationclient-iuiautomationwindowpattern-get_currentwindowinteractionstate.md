@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentWindowInteraction
 tech.root: WinAuto
 ms.assetid: f4646bbf-db37-4cc4-89d6-44eb08e0031a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CurrentWindowInteractionState property [Windows Accessibility], CurrentWindowInteractionState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentWindowInteractionState property, IUIAutomationWindowPattern.CurrentWindowInteractionState, IUIAutomationWindowPattern.get_CurrentWindowInteractionState, IUIAutomationWindowPattern::CurrentWindowInteractionState, IUIAutomationWindowPattern::get_CurrentWindowInteractionState, get_CurrentWindowInteractionState, uiauto.uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState, uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::CurrentWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::get_CurrentWindowInteractionState, winauto.uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState
 ms.prod: windows-hardware
 ms.technology: windows-devices

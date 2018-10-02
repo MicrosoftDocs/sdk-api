@@ -7,7 +7,7 @@ old-location: base\ivdsadvisesink_onnotify.htm
 tech.root: VDS
 ms.assetid: 0cf7bf55-922e-4092-bb2f-6423d9addb0c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsAdviseSink interface [VDS],OnNotify method, IVdsAdviseSink.OnNotify, IVdsAdviseSink::OnNotify, OnNotify, OnNotify method [VDS], OnNotify method [VDS],IVdsAdviseSink interface, base.ivdsadvisesink_onnotify, vds/IVdsAdviseSink::OnNotify, vdshwprv/IVdsAdviseSink::OnNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFMediaEngineWebSupport
 author: windows-sdk-content
 description: Enables playback of web audio.
 old-location: mf\imfmediaenginewebsupport.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8EAA54AF-359A-48C4-9A23-BE7997DBAA89
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineWebSupport, IMFMediaEngineWebSupport interface [Media Foundation], IMFMediaEngineWebSupport interface [Media Foundation],described, mf.imfmediaenginewebsupport, mfmediaengine/IMFMediaEngineWebSupport
 ms.prod: windows
 ms.technology: windows-sdk

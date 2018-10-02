@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateIntegerLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createintegerleaf.htm
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: CreateIntegerLeaf, CreateIntegerLeaf method [search], CreateIntegerLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateIntegerLeaf method, IConditionFactory2.CreateIntegerLeaf, IConditionFactory2::CreateIntegerLeaf, _search_IConditionFactory2_CreateIntegerLeaf, search._search_IConditionFactory2_CreateIntegerLeaf, structuredquery/IConditionFactory2::CreateIntegerLeaf
 ms.prod: windows-hardware
 ms.technology: windows-devices

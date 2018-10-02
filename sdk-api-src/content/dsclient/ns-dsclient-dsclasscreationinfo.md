@@ -4,10 +4,10 @@ title: DSCLASSCREATIONINFO
 author: windows-sdk-content
 description: Used with the IDsDisplaySpecifier::GetClassCreationInfo method to hold data about the class creation wizard objects for an object class.
 old-location: ad\dsclasscreationinfo.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 5c1551f7-f651-4b87-829a-ec9a07fb0ec2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDSCLASSCREATIONINFO, DSCCIF_HASWIZARDDIALOG, DSCCIF_HASWIZARDPRIMARYPAGE, DSCLASSCREATIONINFO, DSCLASSCREATIONINFO structure [Active Directory], LPDSCLASSCREATIONINFO, LPDSCLASSCREATIONINFO structure pointer [Active Directory], _glines_dsclasscreationinfo, ad.dsclasscreationinfo, dsclient/DSCLASSCREATIONINFO, dsclient/LPDSCLASSCREATIONINFO"
 ms.prod: windows
 ms.technology: windows-sdk

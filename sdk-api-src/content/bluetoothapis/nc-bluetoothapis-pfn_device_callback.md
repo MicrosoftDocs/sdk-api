@@ -4,10 +4,10 @@ title: PFN_DEVICE_CALLBACK
 author: windows-sdk-content
 description: A callback prototype used in association with selecting Bluetooth devices.
 old-location: bluetooth\pfn_device_callback.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 8a2bf4dc-43c3-49c0-8ce0-d14ab9f4ae97
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PFN_DEVICE_CALLBACK, PFN_DEVICE_CALLBACK callback, PFN_DEVICE_CALLBACK callback function [Bluetooth], bluetooth.pfn_device_callback, bluetoothapis/PFN_DEVICE_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

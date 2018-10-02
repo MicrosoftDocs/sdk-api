@@ -7,7 +7,7 @@ old-location: base\shutdownblockreasoncreate.htm
 tech.root: Shutdown
 ms.assetid: 4c6f9159-fac2-431e-bbdf-c35c4cdb25ac
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ShutdownBlockReasonCreate, ShutdownBlockReasonCreate function, base.shutdownblockreasoncreate, winuser/ShutdownBlockReasonCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

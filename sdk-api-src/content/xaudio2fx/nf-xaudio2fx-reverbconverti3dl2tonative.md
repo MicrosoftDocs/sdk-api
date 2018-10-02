@@ -7,7 +7,7 @@ old-location: xaudio2\reverbconverti3dl2tonative.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.ReverbConvertI3DL2ToNative(const XAUDIO2FX_REVERB_I3DL2_PARAMETERS,XAUDIO2FX_REVERB_PARAMETERS@)
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ReverbConvertI3DL2ToNative, ReverbConvertI3DL2ToNative function [XAudio2 Audio Mixing APIs], xaudio2.reverbconverti3dl2tonative, xaudio2fx/ReverbConvertI3DL2ToNative
 ms.prod: windows-hardware
 ms.technology: windows-devices

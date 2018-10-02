@@ -7,7 +7,7 @@ old-location: dshow\ipin_enummediatypes.htm
 tech.root: DirectShow
 ms.assetid: 288be4db-5236-40e5-bd92-d95b1bfb86fa
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: EnumMediaTypes, EnumMediaTypes method [DirectShow], EnumMediaTypes method [DirectShow],IPin interface, IPin interface [DirectShow],EnumMediaTypes method, IPin.EnumMediaTypes, IPin::EnumMediaTypes, IPinEnumMediaTypes, dshow.ipin_enummediatypes, strmif/IPin::EnumMediaTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

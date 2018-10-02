@@ -4,10 +4,10 @@ title: tagDisplayModes
 author: windows-sdk-content
 description: The DisplayModes structure contains a list of display modes.
 old-location: display\displaymodes.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 0add7a43-571f-4854-b019-d3601f915d48
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DisplayModes, DisplayModes structure [Display Devices], TMM_Ref_e94cf92c-8b36-4643-a34d-8e90faef7e72.xml, cloneviewhelper/DisplayModes, display.displaymodes, tagDisplayModes
 ms.prod: windows
 ms.technology: windows-sdk

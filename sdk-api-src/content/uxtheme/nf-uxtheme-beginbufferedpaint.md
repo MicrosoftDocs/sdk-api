@@ -4,10 +4,10 @@ title: BeginBufferedPaint function
 author: windows-sdk-content
 description: Begins a buffered paint operation.
 old-location: controls\BeginBufferedPaint.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedpaint.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: BeginBufferedPaint, BeginBufferedPaint function [Windows Controls], _shell_BeginBufferedPaint, _shell_BeginBufferedPaint_cpp, controls.BeginBufferedPaint, controls._shell_BeginBufferedPaint, uxtheme/BeginBufferedPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createuint64array.htm
 tech.root: WinRT
 ms.assetid: 9b159f49-ce0e-4e68-ab13-f6d84af63ebf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateUInt64Array, CreateUInt64Array method [Windows Runtime], CreateUInt64Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt64Array method, IPropertyValueStatics.CreateUInt64Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt64Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt64Array, winrt.ipropertyvaluefactory_createuint64array, winrt.ipropertyvaluestatics_createuint64array
 ms.prod: windows-hardware
 ms.technology: windows-devices

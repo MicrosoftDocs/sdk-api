@@ -4,10 +4,10 @@ title: IMFTimedTextCue::GetRegion
 author: windows-sdk-content
 description: Gets info about the display region of the timed-text cue.
 old-location: mf\imftimedtextcue_getregion.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8F5CE96E-9714-4F1A-8CB5-87FA24735B9D
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetRegion, GetRegion method [Media Foundation], GetRegion method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetRegion method, IMFTimedTextCue.GetRegion, IMFTimedTextCue::GetRegion, mf.imftimedtextcue_getregion, mfmediaengine/IMFTimedTextCue::GetRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

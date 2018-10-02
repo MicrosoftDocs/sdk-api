@@ -4,10 +4,10 @@ title: DsReplicaUpdateRefsW function
 author: windows-sdk-content
 description: Adds or removes a replication reference for a destination from a source naming context.
 old-location: ad\dsreplicaupdaterefs.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 158c7e73-0e6c-4b71-a87f-2f60f3db91cb
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPUPD_ADD_REFERENCE, DS_REPUPD_ASYNCHRONOUS_OPERATION, DS_REPUPD_DELETE_REFERENCE, DS_REPUPD_WRITEABLE, DsReplicaUpdateRefs, DsReplicaUpdateRefs function [Active Directory], DsReplicaUpdateRefsA, DsReplicaUpdateRefsW, _glines_dsreplicaupdaterefs, ad.dsreplicaupdaterefs, ntdsapi/DsReplicaUpdateRefs, ntdsapi/DsReplicaUpdateRefsA, ntdsapi/DsReplicaUpdateRefsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

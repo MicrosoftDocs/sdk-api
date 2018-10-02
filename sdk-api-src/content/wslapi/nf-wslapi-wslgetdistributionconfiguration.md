@@ -7,7 +7,7 @@ old-location: wsl\wslgetdistributionconfiguration.htm
 tech.root: wsl
 ms.assetid: 7D680D81-921E-461F-8845-AADAF53EAEEE
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WslGetDistributionConfiguration, WslGetDistributionConfiguration function, wsl.wslgetdistributionconfiguration, wslapi/WslGetDistributionConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

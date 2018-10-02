@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectfactory_createeffect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createeffect.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateEffect, CreateEffect method [WPF Bitmap Effects], CreateEffect method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateEffect method, IMILBitmapEffectFactory.CreateEffect, IMILBitmapEffectFactory::CreateEffect, _wibe_imilbitmapeffectfactory_createeffect, mileffects/IMILBitmapEffectFactory::CreateEffect, wibe._wibe_imilbitmapeffectfactory_createeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

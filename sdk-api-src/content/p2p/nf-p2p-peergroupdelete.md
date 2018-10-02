@@ -4,10 +4,10 @@ title: PeerGroupDelete function
 author: windows-sdk-content
 description: The PeerGroupDelete function deletes the local data and certificate associated with a peer group.
 old-location: p2p\peergroupdelete.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: e98df845-71d9-41f9-bf05-b46014e861df
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGroupDelete, PeerGroupDelete function [Peer Networking], p2p.peergroupdelete, p2p/PeerGroupDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

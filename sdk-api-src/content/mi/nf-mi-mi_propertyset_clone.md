@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_clone.htm
 tech.root: WMI_v2
 ms.assetid: 77e7fc5c-3fb9-4037-94b9-c93155c06416
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_PropertySet_Clone, MI_PropertySet_Clone function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Clone, wmi_v2.mi_propertyset_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

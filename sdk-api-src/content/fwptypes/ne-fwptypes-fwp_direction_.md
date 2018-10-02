@@ -7,7 +7,7 @@ old-location: fwp\fwp_direction_enum.htm
 tech.root: FWP
 ms.assetid: ae0eeb36-1a41-426a-9878-77558464a91b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWP_DIRECTION, FWP_DIRECTION enumeration [Filtering], FWP_DIRECTION_, FWP_DIRECTION_INBOUND, FWP_DIRECTION_MAX, FWP_DIRECTION_OUTBOUND, fwp.fwp_direction_enum, fwptypes/FWP_DIRECTION, fwptypes/FWP_DIRECTION_INBOUND, fwptypes/FWP_DIRECTION_MAX, fwptypes/FWP_DIRECTION_OUTBOUND
 ms.prod: windows
 ms.technology: windows-sdk

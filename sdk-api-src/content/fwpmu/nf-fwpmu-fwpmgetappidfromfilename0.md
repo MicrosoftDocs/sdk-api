@@ -7,7 +7,7 @@ old-location: fwp\fwpmgetappidfromfilename0.htm
 tech.root: FWP
 ms.assetid: 9bf3a101-7782-4075-bc77-a003184d0cbe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmGetAppIdFromFileName0, FwpmGetAppIdFromFileName0 function [Filtering], fwp.fwpmgetappidfromfilename0, fwpmu/FwpmGetAppIdFromFileName0
 ms.prod: windows-hardware
 ms.technology: windows-devices

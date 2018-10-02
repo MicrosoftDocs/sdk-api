@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_setsecuritydescriptor.htm
 tech.root: GPMC
 ms.assetid: 087cbe19-25d9-4134-8893-1b2906915220
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GPMGPO class [GPMC],SetSecurityDescriptor method, GROUP_SECURITY_INFORMATION, IGPMGPO interface [GPMC],SetSecurityDescriptor method, IGPMGPO.SetSecurityDescriptor, IGPMGPO::SetSecurityDescriptor, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetSecurityDescriptor, SetSecurityDescriptor method [GPMC], SetSecurityDescriptor method [GPMC],GPMGPO class, SetSecurityDescriptor method [GPMC],IGPMGPO interface, _win32_igpmgpo_setsecuritydescriptor, gpmc.igpmgpo_setsecuritydescriptor, gpmgmt/IGPMGPO::SetSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ICspInformation::get_Name
 author: windows-sdk-content
 description: Retrieves the name.
 old-location: security\icspinformation_name_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 86f6993d-c96e-4753-9670-fdcc30e8c019
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICspInformation interface [Security],Name property, ICspInformation.Name, ICspInformation.get_Name, ICspInformation::Name, ICspInformation::get_Name, Name property [Security], Name property [Security],ICspInformation interface, certenroll/ICspInformation::Name, certenroll/ICspInformation::get_Name, get_Name, security.icspinformation_name_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

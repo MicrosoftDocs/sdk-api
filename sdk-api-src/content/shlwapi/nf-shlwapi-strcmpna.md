@@ -4,10 +4,10 @@ title: StrCmpNA function
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is case-sensitive. The StrNCmp macro differs from this function in name only.
 old-location: shell\StrCmpN.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e2d97502-1819-463e-a56a-2d22b33502b7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: StrCmpN, StrCmpN function [Windows Shell], StrCmpNA, StrCmpNW, _win32_StrCmpN, shell.StrCmpN, shlwapi/StrCmpN, shlwapi/StrCmpNA, shlwapi/StrCmpNW
 ms.prod: windows-hardware
 ms.technology: windows-devices

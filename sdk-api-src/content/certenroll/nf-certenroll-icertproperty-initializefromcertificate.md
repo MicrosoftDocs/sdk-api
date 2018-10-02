@@ -4,10 +4,10 @@ title: ICertProperty::InitializeFromCertificate
 author: windows-sdk-content
 description: Initializes the object by using a property value associated with an existing certificate.
 old-location: security\icertproperty_initializefromcertificate_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 5d23bacc-bbe5-42fa-b4c5-57a6767f79ba
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICertProperty interface [Security],InitializeFromCertificate method, ICertProperty.InitializeFromCertificate, ICertProperty::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeFromCertificate, security.icertproperty_initializefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

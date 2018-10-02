@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt32VectorAlloc.htm
 tech.root: properties
 ms.assetid: db46f266-9ce0-468a-be35-4a7254e9a769
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PropVariantToInt32VectorAlloc, PropVariantToInt32VectorAlloc function [Windows Properties], _shell_PropVariantToInt32VectorAlloc, properties.PropVariantToInt32VectorAlloc, propvarutil/PropVariantToInt32VectorAlloc, shell.PropVariantToInt32VectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

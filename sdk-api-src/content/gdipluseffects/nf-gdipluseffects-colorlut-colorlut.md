@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorLUT_ColorLUT_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutconstructors\colorlut.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: ColorLUT, ColorLUT class [GDI+],ColorLUT constructor, ColorLUT constructor [GDI+], ColorLUT constructor [GDI+],ColorLUT class, ColorLUT.ColorLUT, ColorLUT::ColorLUT, _gdiplus_CLASS_ColorLUT_ColorLUT_, gdiplus._gdiplus_CLASS_ColorLUT_ColorLUT_
 ms.prod: windows-hardware
 ms.technology: windows-devices

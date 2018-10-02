@@ -4,10 +4,10 @@ title: IMFContentEnabler::GetEnableType
 author: windows-sdk-content
 description: Retrieves the type of operation that this content enabler performs.
 old-location: mf\imfcontentenabler_getenabletype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 9fe597d8-788c-48c4-a21a-0b91a890710f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 9fe597d8-788c-48c4-a21a-0b91a890710f, GetEnableType, GetEnableType method [Media Foundation], GetEnableType method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableType method, IMFContentEnabler.GetEnableType, IMFContentEnabler::GetEnableType, mf.imfcontentenabler_getenabletype, mfidl/IMFContentEnabler::GetEnableType
 ms.prod: windows-hardware
 ms.technology: windows-devices

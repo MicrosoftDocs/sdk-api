@@ -4,10 +4,10 @@ title: "_APPCATEGORYINFOLIST"
 author: windows-sdk-content
 description: Provides a list of supported application categories from an application publisher to Add/Remove Programs in Control Panel.
 old-location: shell\APPCATEGORYINFOLIST.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c590d9ab-ab41-4192-a6c2-c6c2c931e873
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Windows Shell], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, inet_APPCATEGORYINFOLIST, shell.APPCATEGORYINFOLIST
 ms.prod: windows
 ms.technology: windows-sdk

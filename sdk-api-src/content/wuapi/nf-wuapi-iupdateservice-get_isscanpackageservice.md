@@ -4,10 +4,10 @@ title: IUpdateService::get_IsScanPackageService
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a service is based on a scan package.
 old-location: wua\iupdateservice_isscanpackageservice.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 1fbd0bb7-23f9-4030-a61e-a85ddc177744
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsScanPackageService property, IUpdateService.IsScanPackageService, IUpdateService.get_IsScanPackageService, IUpdateService::IsScanPackageService, IUpdateService::get_IsScanPackageService, IsScanPackageService property [Windows Update Agent], IsScanPackageService property [Windows Update Agent],IUpdateService interface, get_IsScanPackageService, wua.iupdateservice_isscanpackageservice, wuapi/IUpdateService::IsScanPackageService, wuapi/IUpdateService::get_IsScanPackageService
 ms.prod: windows-hardware
 ms.technology: windows-devices

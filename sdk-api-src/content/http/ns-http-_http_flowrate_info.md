@@ -7,7 +7,7 @@ old-location: http\http_flowrate_info.htm
 tech.root: Http
 ms.assetid: 5b52ef5b-dc82-4a87-9204-d32134074c31
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO structure [HTTP], PHTTP_FLOWRATE_INFO, PHTTP_FLOWRATE_INFO structure pointer [HTTP], _HTTP_FLOWRATE_INFO, http.http_flowrate_info, http/HTTP_FLOWRATE_INFO, http/PHTTP_FLOWRATE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

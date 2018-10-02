@@ -7,7 +7,7 @@ old-location: automat\oleloadpicturefile.htm
 tech.root: automat
 ms.assetid: ecfbf297-88fa-42bf-afa7-f7884be17b15
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OleLoadPictureFile, OleLoadPictureFile function [Automation], _oa96_OleLoadPictureFile, automat.oleloadpicturefile, olectl/OleLoadPictureFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

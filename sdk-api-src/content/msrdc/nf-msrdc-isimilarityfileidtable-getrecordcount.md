@@ -7,7 +7,7 @@ old-location: rdc\isimilarityfileidtable_getrecordcount.htm
 tech.root: Rdc
 ms.assetid: 2d95140e-c422-4aa5-aea2-ee777f977c17
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordCount, GetRecordCount method [Remote Differential Compression], GetRecordCount method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],GetRecordCount method, ISimilarityFileIdTable.GetRecordCount, ISimilarityFileIdTable::GetRecordCount, fs.isimilarityfileidtable_getrecordcount, msrdc/ISimilarityFileIdTable::GetRecordCount, rdc.isimilarityfileidtable_getrecordcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

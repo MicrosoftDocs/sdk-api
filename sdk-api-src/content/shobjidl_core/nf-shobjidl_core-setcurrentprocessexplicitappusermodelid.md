@@ -4,10 +4,10 @@ title: SetCurrentProcessExplicitAppUserModelID function
 author: windows-sdk-content
 description: Specifies a unique application-defined Application User Model ID (AppUserModelID) that identifies the current process to the taskbar. This identifier allows an application to group its associated processes and windows under a single taskbar button.
 old-location: shell\SetCurrentProcessExplicitAppUserModelID.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2b8baf6d-9c9a-4727-9deb-3d335bd0dc7c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SetCurrentProcessExplicitAppUserModelID, SetCurrentProcessExplicitAppUserModelID function [Windows Shell], _shell_SetCurrentProcessExplicitAppUserModelID, shell.SetCurrentProcessExplicitAppUserModelID, shobjidl_core/SetCurrentProcessExplicitAppUserModelID
 ms.prod: windows-hardware
 ms.technology: windows-devices

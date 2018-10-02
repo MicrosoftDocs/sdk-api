@@ -7,7 +7,7 @@ old-location: com\cogetcallertid.htm
 tech.root: com
 ms.assetid: 3a34001b-6286-4103-ae9f-700ea101dc17
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID, com.cogetcallertid, combaseapi/CoGetCallerTID
 ms.prod: windows-hardware
 ms.technology: windows-devices

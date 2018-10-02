@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromDouble.htm
 tech.root: properties
 ms.assetid: a0a13843-e943-4fca-b4d4-5af1d2ff02e9
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: InitVariantFromDouble, InitVariantFromDouble function [Windows Properties], _shell_InitVariantFromDouble, properties.InitVariantFromDouble, propvarutil/InitVariantFromDouble, shell.InitVariantFromDouble
 ms.prod: windows-hardware
 ms.technology: windows-devices

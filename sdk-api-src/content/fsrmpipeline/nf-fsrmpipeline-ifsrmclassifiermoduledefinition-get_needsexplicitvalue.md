@@ -4,10 +4,10 @@ title: IFsrmClassifierModuleDefinition::get_NeedsExplicitValue
 author: windows-sdk-content
 description: Determines whether a rule that uses the classifier needs to provide the value for the classification property.
 old-location: fsrm\ifsrmclassifiermoduledefinition_needsexplicitvalue.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 580542ef-c766-4a39-9dbd-aed2f4a11780
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],NeedsExplicitValue property, IFsrmClassifierModuleDefinition.NeedsExplicitValue, IFsrmClassifierModuleDefinition.get_NeedsExplicitValue, IFsrmClassifierModuleDefinition::NeedsExplicitValue, IFsrmClassifierModuleDefinition::get_NeedsExplicitValue, IFsrmClassifierModuleDefinition::put_NeedsExplicitValue, NeedsExplicitValue property [File Server Resource Manager], NeedsExplicitValue property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_needsexplicitvalue, fsrm.ifsrmclassifiermoduledefinition_needsexplicitvalue, fsrmpipeline/IFsrmClassifierModuleDefinition::NeedsExplicitValue, fsrmpipeline/IFsrmClassifierModuleDefinition::get_NeedsExplicitValue, fsrmpipeline/IFsrmClassifierModuleDefinition::put_NeedsExplicitValue, get_NeedsExplicitValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

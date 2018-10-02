@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_deleterecord.htm
 tech.root: Bits
 ms.assetid: c86199c3-9fe7-4d8f-8b33-b12b65b94e54
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteRecord, DeleteRecord method [BITS], DeleteRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteRecord method, IBitsPeerCacheAdministration.DeleteRecord, IBitsPeerCacheAdministration::DeleteRecord, bits.ibitspeercacheadministration_deleterecord, bits3_0/IBitsPeerCacheAdministration::DeleteRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

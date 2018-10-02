@@ -7,7 +7,7 @@ old-location: http\httpflushresponsecache.htm
 tech.root: Http
 ms.assetid: 5b7377cf-b4a9-45c7-8456-72a52c3778a0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HttpFlushResponseCache, HttpFlushResponseCache function [HTTP], _http_httpflushresponsecache, http.httpflushresponsecache, http/HttpFlushResponseCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

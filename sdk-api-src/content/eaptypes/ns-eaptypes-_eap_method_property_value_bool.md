@@ -7,7 +7,7 @@ old-location: eaphost\eap_method_property_value_bool.htm
 tech.root: EAPHost
 ms.assetid: ff482df6-a9c9-41b3-bedf-880fee71b968
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_BOOL, EAP_METHOD_PROPERTY_VALUE_BOOL structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_BOOL, PEAP_METHOD_PROPERTY_VALUE_BOOL structure pointer [EAPHost], _EAP_METHOD_PROPERTY_VALUE_BOOL, eaphost.eap_method_property_value_bool, eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL, eaptypes/PEAP_METHOD_PROPERTY_VALUE_BOOL
 ms.prod: windows
 ms.technology: windows-sdk

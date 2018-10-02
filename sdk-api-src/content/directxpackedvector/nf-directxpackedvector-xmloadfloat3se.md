@@ -7,7 +7,7 @@ old-location: dxmath\xmloadfloat3se.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3SE(const XMFLOAT3SE)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: DirectX::PackedVector.XMLoadFloat3SE, XMLoadFloat3SE, XMLoadFloat3SE method [DirectX Math Support APIs], dxmath.xmloadfloat3se
 ms.prod: windows-hardware
 ms.technology: windows-devices

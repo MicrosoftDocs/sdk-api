@@ -7,7 +7,7 @@ old-location: nla\inetworkconnection_getdomaintype.htm
 tech.root: NLA
 ms.assetid: e243c1a3-8166-4e08-80f5-32811bcada69
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Awareness], GetDomainType method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetDomainType method, INetworkConnection.GetDomainType, INetworkConnection::GetDomainType, netlistmgr/INetworkConnection::GetDomainType, nla.inetworkconnection_getdomaintype
 ms.prod: windows-hardware
 ms.technology: windows-devices

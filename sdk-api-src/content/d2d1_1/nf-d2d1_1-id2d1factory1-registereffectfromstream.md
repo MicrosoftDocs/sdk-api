@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory1_registereffectfromstream.htm
 tech.root: direct2d
 ms.assetid: E22F04F3-A67E-4F93-B936-5AE5CDFF75EF
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1Factory1 interface [Direct2D],RegisterEffectFromStream method, ID2D1Factory1.RegisterEffectFromStream, ID2D1Factory1::RegisterEffectFromStream, RegisterEffectFromStream, RegisterEffectFromStream method [Direct2D], RegisterEffectFromStream method [Direct2D],ID2D1Factory1 interface, d2d1_1/ID2D1Factory1::RegisterEffectFromStream, direct2d.id2d1factory1_registereffectfromstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

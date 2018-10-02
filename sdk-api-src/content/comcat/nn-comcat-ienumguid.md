@@ -7,7 +7,7 @@ old-location: com\ienumguid.htm
 tech.root: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
 ms.prod: windows
 ms.technology: windows-sdk

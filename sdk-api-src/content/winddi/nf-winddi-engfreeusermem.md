@@ -4,10 +4,10 @@ title: EngFreeUserMem macro
 author: windows-sdk-content
 description: The EngFreeUserMem function deallocates a block of user memory.
 old-location: display\engfreeusermem.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 3d409288-697e-4fa7-8ca9-ae80335f48a2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngFreeUserMem, EngFreeUserMem function [Display Devices], display.engfreeusermem, gdifncs_954f4161-3780-41ac-9a53-fa60051cc637.xml, winddi/EngFreeUserMem
 ms.prod: windows-hardware
 ms.technology: windows-devices

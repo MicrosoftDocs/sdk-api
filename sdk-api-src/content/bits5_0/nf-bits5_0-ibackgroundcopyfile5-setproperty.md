@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile5_setproperty.htm
 tech.root: Bits
 ms.assetid: 7a5809ef-e84f-4566-a5fa-fd63b1dfd15c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyFile5 interface [BITS],SetProperty method, IBackgroundCopyFile5.SetProperty, IBackgroundCopyFile5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyFile5 interface, bits.ibackgroundcopyfile5_setproperty, bits5_0/IBackgroundCopyFile5::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

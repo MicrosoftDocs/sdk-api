@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributemgr.htm
 tech.root: TSF
 ms.assetid: 4a1f9a13-54a1-4294-9635-80eef8bcd8d5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfDisplayAttributeMgr, ITfDisplayAttributeMgr interface [Text Services Framework], ITfDisplayAttributeMgr interface [Text Services Framework],described, _tsf_itfdisplayattributemgr_ref, msctf/ITfDisplayAttributeMgr, tsf.itfdisplayattributemgr
 ms.prod: windows
 ms.technology: windows-sdk

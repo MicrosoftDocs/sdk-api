@@ -4,10 +4,10 @@ title: ISyncMgrSyncItem::Enable
 author: windows-sdk-content
 description: Enables or disables the sync item.
 old-location: shell\ISyncMgrSyncItem_Enable.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7d73508e-4381-47fe-98ba-ab3ef665cd3e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],Enable method, ISyncMgrSyncItem.Enable, ISyncMgrSyncItem::Enable, _shell_ISyncMgrSyncItem_Enable, shell.ISyncMgrSyncItem_Enable, syncmgr/ISyncMgrSyncItem::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices

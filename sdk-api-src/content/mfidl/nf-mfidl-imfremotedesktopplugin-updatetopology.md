@@ -4,10 +4,10 @@ title: IMFRemoteDesktopPlugin::UpdateTopology
 author: windows-sdk-content
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin_updatetopology.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 799ba0b4-b015-4899-9496-d8c23d033b24
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 799ba0b4-b015-4899-9496-d8c23d033b24, IMFRemoteDesktopPlugin interface [Media Foundation],UpdateTopology method, IMFRemoteDesktopPlugin.UpdateTopology, IMFRemoteDesktopPlugin::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFRemoteDesktopPlugin interface, mf.imfremotedesktopplugin_updatetopology, mfidl/IMFRemoteDesktopPlugin::UpdateTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

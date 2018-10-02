@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress2_end2.htm
 tech.root: WMDM
 ms.assetid: 85265eb7-0702-4890-b6cb-b247296fe392
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: End2, End2 method [windows Media Device Manager], End2 method [windows Media Device Manager],IWMDMProgress2 interface, IWMDMProgress2 interface [windows Media Device Manager],End2 method, IWMDMProgress2.End2, IWMDMProgress2::End2, IWMDMProgress2End2, mswmdm/IWMDMProgress2::End2, wmdm.iwmdmprogress2_end2
 ms.prod: windows-hardware
 ms.technology: windows-devices

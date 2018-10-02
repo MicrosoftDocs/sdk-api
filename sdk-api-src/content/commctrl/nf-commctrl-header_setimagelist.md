@@ -4,10 +4,10 @@ title: Header_SetImageList macro
 author: windows-sdk-content
 description: Assigns an image list to an existing header control. You can use this macro or send the HDM_SETIMAGELIST message explicitly.
 old-location: controls\Header_SetImageList.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setimagelist.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Header_SetImageList, Header_SetImageList macro [Windows Controls], _win32_Header_SetImageList, _win32_Header_SetImageList_cpp, commctrl/Header_SetImageList, controls.Header_SetImageList, controls._win32_Header_SetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

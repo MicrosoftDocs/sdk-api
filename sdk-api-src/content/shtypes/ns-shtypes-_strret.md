@@ -4,10 +4,10 @@ title: "_STRRET"
 author: windows-sdk-content
 description: Contains strings returned from the IShellFolder interface methods.
 old-location: shell\STRRET.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7868ef9b-07db-455b-b0be-ef0db7891447
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPSTRRET, LPSTRRET, LPSTRRET structure pointer [Windows Shell], STRRET, STRRET structure [Windows Shell], STRRET_CSTR, STRRET_OFFSET, STRRET_WSTR, _STRRET, _win32_STRRET, shell.STRRET, shtypes/LPSTRRET, shtypes/STRRET"
 ms.prod: windows
 ms.technology: windows-sdk

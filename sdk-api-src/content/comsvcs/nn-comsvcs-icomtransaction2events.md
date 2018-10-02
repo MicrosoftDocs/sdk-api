@@ -7,7 +7,7 @@ old-location: cos\icomtransaction2events.htm
 tech.root: cossdk
 ms.assetid: 103776c8-1cdc-46a5-a2ce-54163726e602
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IComTransaction2Events, IComTransaction2Events interface [COM+], IComTransaction2Events interface [COM+],described, _dtc_icomtransaction2events, comsvcs/IComTransaction2Events, cos.icomtransaction2events
 ms.prod: windows
 ms.technology: windows-sdk

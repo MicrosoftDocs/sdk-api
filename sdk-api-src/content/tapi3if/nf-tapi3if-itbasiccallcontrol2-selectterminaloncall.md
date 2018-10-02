@@ -4,10 +4,10 @@ title: ITBasicCallControl2::SelectTerminalOnCall
 author: windows-sdk-content
 description: The SelectTerminalOnCall method selects the terminal onto the call.
 old-location: tapi3\itbasiccallcontrol2_selectterminaloncall.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 87117ec1-0d61-4edb-8ed6-0d029a77e1a5
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],SelectTerminalOnCall method, ITBasicCallControl2.SelectTerminalOnCall, ITBasicCallControl2::SelectTerminalOnCall, SelectTerminalOnCall, SelectTerminalOnCall method [TAPI 2.2], SelectTerminalOnCall method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_selectterminaloncall, tapi3.itbasiccallcontrol2_selectterminaloncall, tapi3if/ITBasicCallControl2::SelectTerminalOnCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

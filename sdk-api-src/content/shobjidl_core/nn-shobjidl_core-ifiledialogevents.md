@@ -4,10 +4,10 @@ title: IFileDialogEvents
 author: windows-sdk-content
 description: Exposes methods that allow notification of events within a common file dialog.
 old-location: shell\IFileDialogEvents.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c55107a3-ae0a-4b46-80a3-8a731b47976c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialogEvents, IFileDialogEvents interface [Windows Shell], IFileDialogEvents interface [Windows Shell],described, shell.IFileDialogEvents, shell_IFileDialogEvents, shobjidl_core/IFileDialogEvents
 ms.prod: windows
 ms.technology: windows-sdk

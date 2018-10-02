@@ -7,7 +7,7 @@ old-location: wsw\wsreadtostartelement.htm
 tech.root: wsw
 ms.assetid: 919a3836-6a26-4d47-b123-24856b20566d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsReadToStartElement, WsReadToStartElement function [Web Services for Windows], webservices/WsReadToStartElement, wsw.wsreadtostartelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

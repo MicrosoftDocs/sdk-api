@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_IsExtendedPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isextendedpixelformat.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: IsExtendedPixelFormat, IsExtendedPixelFormat function [GDI+], _gdiplus_FUNC_IsExtendedPixelFormat_, gdiplus._gdiplus_FUNC_IsExtendedPixelFormat_, gdipluspixelformats/IsExtendedPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

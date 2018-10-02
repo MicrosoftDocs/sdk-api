@@ -7,7 +7,7 @@ old-location: automat\varcycmp.htm
 tech.root: automat
 ms.assetid: 18146c52-c4ca-48b6-b0be-d93a849cee96
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VarCyCmp, VarCyCmp function [Automation], _oa96_VarCyCmp, automat.varcycmp, oleauto/VarCyCmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

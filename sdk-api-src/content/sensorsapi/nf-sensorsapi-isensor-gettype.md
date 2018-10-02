@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_gettype.htm
 tech.root: SensorsAPI
 ms.assetid: b01434ec-163a-4d91-a457-3d2a2c2a710a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetType, GetType method, GetType method,ISensor interface, ISensor interface,GetType method, ISensor.GetType, ISensor::GetType, sensorsapi/ISensor::GetType, winsensors_com_ref.isensor_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices

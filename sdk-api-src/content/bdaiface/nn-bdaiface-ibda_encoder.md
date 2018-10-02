@@ -7,7 +7,7 @@ old-location: mstv\ibda_encoder.htm
 tech.root: MSTV
 ms.assetid: 43ed9d91-c769-4fb3-bcd9-e5239ec5d9c7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], IBDA_Encoder interface [Microsoft TV Technologies],described, bdaiface/IBDA_Encoder, mstv.ibda_encoder
 ms.prod: windows
 ms.technology: windows-sdk

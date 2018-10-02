@@ -7,7 +7,7 @@ old-location: mstv\iattributeget_getcount.htm
 tech.root: MSTV
 ms.assetid: 340a0a0d-26e9-4c63-8552-15f7c841c759
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetCount, GetCount method [Microsoft TV Technologies], GetCount method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetCount method, IAttributeGet.GetCount, IAttributeGet::GetCount, IAttributeGetGetCount, dsattrib/IAttributeGet::GetCount, mstv.iattributeget_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

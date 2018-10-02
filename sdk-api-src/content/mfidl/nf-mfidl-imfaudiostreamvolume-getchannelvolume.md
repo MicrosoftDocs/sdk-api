@@ -4,10 +4,10 @@ title: IMFAudioStreamVolume::GetChannelVolume
 author: windows-sdk-content
 description: Retrieves the volume level for a specified channel in the audio stream.
 old-location: mf\imfaudiostreamvolume_getchannelvolume.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2, GetChannelVolume, GetChannelVolume method [Media Foundation], GetChannelVolume method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetChannelVolume method, IMFAudioStreamVolume.GetChannelVolume, IMFAudioStreamVolume::GetChannelVolume, mf.imfaudiostreamvolume_getchannelvolume, mfidl/IMFAudioStreamVolume::GetChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

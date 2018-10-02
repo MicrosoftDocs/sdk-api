@@ -7,7 +7,7 @@ old-location: setup\activation_context_query_index.htm
 tech.root: SbsCs
 ms.assetid: eb15895c-07c9-4b68-83ef-2f2b8e3b271c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_QUERY_INDEX, PACTIVATION_CONTEXT_QUERY_INDEX structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_QUERY_INDEX, _win32_activation_context_query_index, setup.activation_context_query_index, winnt/ACTIVATION_CONTEXT_QUERY_INDEX, winnt/PACTIVATION_CONTEXT_QUERY_INDEX"
 ms.prod: windows
 ms.technology: windows-sdk

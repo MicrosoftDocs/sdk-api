@@ -4,10 +4,10 @@ title: IMFTrustedOutput
 author: windows-sdk-content
 description: Implemented by components that provide output trust authorities (OTAs).
 old-location: mf\imftrustedoutput.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 14342d8b-3c76-4c13-8cbe-a60bb66084c8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 14342d8b-3c76-4c13-8cbe-a60bb66084c8, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IMFTrustedOutput interface [Media Foundation],described, mf.imftrustedoutput, mfidl/IMFTrustedOutput
 ms.prod: windows
 ms.technology: windows-sdk

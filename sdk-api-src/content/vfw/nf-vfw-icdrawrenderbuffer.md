@@ -7,7 +7,7 @@ old-location: multimedia\icdrawrenderbuffer.htm
 tech.root: Multimedia
 ms.assetid: dc87dd00-1a48-4434-894c-fb49d4e92d20
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: ICDrawRenderBuffer, ICDrawRenderBuffer macro [Windows Multimedia], _win32_ICDrawRenderBuffer, multimedia.icdrawrenderbuffer, vfw/ICDrawRenderBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

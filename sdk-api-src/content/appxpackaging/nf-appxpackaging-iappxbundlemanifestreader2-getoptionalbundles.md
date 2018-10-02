@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestreader2_getoptionalbundles.htm
 tech.root: appxpkg
 ms.assetid: 26246BB1-7FE7-462F-9731-D8AD32373184
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetOptionalBundles, GetOptionalBundles method [App packaging and management], GetOptionalBundles method [App packaging and management],IAppxBundleManifestReader2 interface, IAppxBundleManifestReader2 interface [App packaging and management],GetOptionalBundles method, IAppxBundleManifestReader2.GetOptionalBundles, IAppxBundleManifestReader2::GetOptionalBundles, appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles, appxpkg.iappxbundlemanifestreader2_getoptionalbundles
 ms.prod: windows-hardware
 ms.technology: windows-devices

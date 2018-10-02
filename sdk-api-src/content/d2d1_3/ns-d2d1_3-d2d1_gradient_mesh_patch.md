@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_GRADIENT_MESH_PATCH.htm
 tech.root: direct2d
 ms.assetid: 16d1ef03-f0c9-7414-d54d-9513199272aa
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1_GRADIENT_MESH_PATCH, D2D1_GRADIENT_MESH_PATCH structure [Direct2D], d2d1_3/D2D1_GRADIENT_MESH_PATCH, direct2d.D2D1_GRADIENT_MESH_PATCH
 ms.prod: windows
 ms.technology: windows-sdk

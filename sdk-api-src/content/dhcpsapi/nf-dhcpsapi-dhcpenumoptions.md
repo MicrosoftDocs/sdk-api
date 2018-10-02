@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptions.htm
 tech.root: DHCP
 ms.assetid: b7a3afb2-cc5b-4181-997c-0cf3a049d091
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpEnumOptions, DhcpEnumOptions function [DHCP], dhcp.dhcpenumoptions, dhcpsapi/DhcpEnumOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

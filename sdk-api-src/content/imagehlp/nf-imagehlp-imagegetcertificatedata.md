@@ -4,10 +4,10 @@ title: ImageGetCertificateData function
 author: windows-sdk-content
 description: Retrieves a complete certificate from a file.
 old-location: base\imagegetcertificatedata.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: ca4cf3a3-9324-4784-a6d8-44692f4840eb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: ImageGetCertificateData, ImageGetCertificateData function, _win32_imagegetcertificatedata, base.imagegetcertificatedata, imagehlp/ImageGetCertificateData
 ms.prod: windows-hardware
 ms.technology: windows-devices

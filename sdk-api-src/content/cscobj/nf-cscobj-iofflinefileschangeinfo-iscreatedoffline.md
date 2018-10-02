@@ -7,7 +7,7 @@ old-location: of\iofflinefileschangeinfo_iscreatedoffline.htm
 tech.root: OfflineFiles
 ms.assetid: 2074df23-a2dd-45ea-9ef4-5619cebebe31
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsCreatedOffline method, IOfflineFilesChangeInfo.IsCreatedOffline, IOfflineFilesChangeInfo::IsCreatedOffline, IsCreatedOffline, IsCreatedOffline method [Offline Files], IsCreatedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsCreatedOffline, of.iofflinefileschangeinfo_iscreatedoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices

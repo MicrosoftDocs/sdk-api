@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_routing_rule_code_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_10rx.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FAX_ROUTING_RULE_CODE_ENUM, FAX_ROUTING_RULE_CODE_ENUM enumeration [Fax Service], _mfax_fax_routing_rule_code_enum, fax._mfax_fax_routing_rule_code_enum, faxcomex/FAX_ROUTING_RULE_CODE_ENUM, faxcomex/frrcANY_CODE, frrcANY_CODE
 ms.prod: windows
 ms.technology: windows-sdk

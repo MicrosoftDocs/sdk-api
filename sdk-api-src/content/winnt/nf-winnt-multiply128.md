@@ -7,7 +7,7 @@ old-location: winprog\multiply128.htm
 tech.root: WinProg
 ms.assetid: EB398E5B-1EE8-4BFA-889A-A46094F82B9F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Multiply128, Multiply128 function [Windows API], winnt/Multiply128, winprog.multiply128
 ms.prod: windows-hardware
 ms.technology: windows-devices

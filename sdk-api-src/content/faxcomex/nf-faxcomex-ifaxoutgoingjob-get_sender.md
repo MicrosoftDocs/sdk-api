@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_sender_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qsy_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Sender property, IFaxOutgoingJob.Sender, IFaxOutgoingJob.get_Sender, IFaxOutgoingJob::Sender, IFaxOutgoingJob::get_Sender, Sender property [Fax Service], Sender property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.sender_cpp, fax._mfax_faxoutgoingjob_sender_cpp, faxcomex/IFaxOutgoingJob::Sender, faxcomex/IFaxOutgoingJob::get_Sender, get_Sender
 ms.prod: windows-hardware
 ms.technology: windows-devices

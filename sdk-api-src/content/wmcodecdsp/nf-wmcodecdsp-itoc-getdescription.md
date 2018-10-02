@@ -4,10 +4,10 @@ title: IToc::GetDescription
 author: windows-sdk-content
 description: The GetDescription method retrieves the description, set by a previous call to SetDescription, of the table of contents.
 old-location: mf\itoc_getdescription.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 660d4da9-ddbc-466c-ab1a-7e60ecf61473
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescription method, IToc.GetDescription, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\opencommport.htm
 tech.root: devio
 ms.assetid: D96D3F6D-2158-4E6A-84A8-DC3BAE9624FA
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: FILE_FLAG_OVERLAPPED, OpenCommPort, OpenCommPort function, base.opencommport, winbase/OpenCommPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

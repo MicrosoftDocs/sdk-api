@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_d3d12_options5.htm
 tech.root: direct3d12
 ms.assetid: 7B786C22-56C1-44A0-BE67-DE04EB367FD2
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS5, D3D12_FEATURE_DATA_D3D12_OPTIONS5 structure, PD3D12_FEATURE_DATA_D3D12_OPTIONS5, PD3D12_FEATURE_DATA_D3D12_OPTIONS5 structure pointer, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS5, d3d12/PD3D12_FEATURE_DATA_D3D12_OPTIONS5, direct3d12.d3d12_feature_data_d3d12_options5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - d3d12.h
 api_name:
  - D3D12_FEATURE_DATA_D3D12_OPTIONS5
 product: Windows
@@ -66,7 +67,13 @@ A boolean value indicating whether the options require shader-resource view tier
 
 ### -field RenderPassesTier
 
- 
+The extent to which a UMD/HW efficiently supports render passes.
+
+
+
+#### RaytracingTier
+
+Specifies the level of raytracing support on the graphics device.
 
 
 ### -field RaytracingTier
@@ -74,15 +81,4 @@ A boolean value indicating whether the options require shader-resource view tier
  
 
 
-
-
-####### - ...
-
-TBD
-
-
-
-########## ...
-
-Specifies the level of raytracing support on the graphics device.
 

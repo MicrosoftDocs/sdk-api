@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment
 author: windows-sdk-content
 description: X.509 Simple Computer Enrollment Protocol Interface
 old-location: security\ix509scepenrollment.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: fcbac911-9e37-4994-bbb6-544b19a92749
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], IX509SCEPEnrollment interface [Security],described, certenroll/IX509SCEPEnrollment, security.ix509scepenrollment
 ms.prod: windows
 ms.technology: windows-sdk

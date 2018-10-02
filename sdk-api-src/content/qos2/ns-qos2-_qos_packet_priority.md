@@ -7,7 +7,7 @@ old-location: qos\qos_packet_priority.htm
 tech.root: QOS
 ms.assetid: 1a10c5f0-0b7f-401f-82ff-0d7a93114715
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY structure pointer [QOS], QOS_PACKET_PRIORITY, QOS_PACKET_PRIORITY structure [QOS], _QOS_PACKET_PRIORITY, qos.qos_packet_priority, qos2/PQOS_PACKET_PRIORITY, qos2/QOS_PACKET_PRIORITY"
 ms.prod: windows
 ms.technology: windows-sdk

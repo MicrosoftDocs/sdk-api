@@ -4,10 +4,10 @@ title: "_SURFACEALIGNMENT"
 author: windows-sdk-content
 description: The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by HeapVidMemAllocAligned.
 old-location: display\surfacealignment.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 200f4e08-b5d3-484e-b87a-b3069dc3c99f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPSURFACEALIGNMENT, SURFACEALIGNMENT, SURFACEALIGNMENT structure [Display Devices], _SURFACEALIGNMENT, display.surfacealignment, dmemmgr/SURFACEALIGNMENT, grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml"
 ms.prod: windows
 ms.technology: windows-sdk

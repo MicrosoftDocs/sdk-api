@@ -4,10 +4,10 @@ title: IThumbnailStreamCache
 author: windows-sdk-content
 description: Gets or sets the thumbnail stream. This interface is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], IThumbnailStreamCache interface [Windows Shell],described, shell.ithumbnailstreamcache, thumbnailstreamcache/IThumbnailStreamCache
 ms.prod: windows
 ms.technology: windows-sdk

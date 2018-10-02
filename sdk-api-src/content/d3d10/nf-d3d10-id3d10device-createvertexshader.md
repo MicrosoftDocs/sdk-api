@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createvertexshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createvertexshader.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 85865e55-ec77-0246-1f72-283d1333b4e7, CreateVertexShader, CreateVertexShader method [Direct3D 10], CreateVertexShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateVertexShader method, ID3D10Device.CreateVertexShader, ID3D10Device::CreateVertexShader, d3d10/ID3D10Device::CreateVertexShader, direct3d10.id3d10device_createvertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

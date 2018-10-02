@@ -7,7 +7,7 @@ old-location: secbiomet\winbiologonidentifieduser.htm
 tech.root: SecBioMet
 ms.assetid: 0df6da19-e23b-445f-82d9-bd51cda3ae15
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WinBioLogonIdentifiedUser, WinBioLogonIdentifiedUser function [Windows Biometric Framework API], secbiomet.winbiologonidentifieduser, winbio/WinBioLogonIdentifiedUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

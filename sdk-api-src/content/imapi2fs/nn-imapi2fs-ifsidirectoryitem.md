@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem.htm
 tech.root: imapi
 ms.assetid: 1c9a2e36-0e79-4bad-b880-ddfbf473308b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], IFsiDirectoryItem interface [IMAPI],described, imapi.ifsidirectoryitem, imapi2fs/IFsiDirectoryItem
 ms.prod: windows
 ms.technology: windows-sdk

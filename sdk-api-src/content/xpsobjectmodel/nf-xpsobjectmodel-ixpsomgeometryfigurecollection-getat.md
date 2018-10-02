@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigurecollection_getat.htm
 tech.root: printdocs
 ms.assetid: adf36d84-7bfd-4a8c-b6e7-5a8622245ae5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMGeometryFigureCollection.GetAt, IXpsOMGeometryFigureCollection::GetAt, xps.ixpsomgeometryfigurecollection_getat, xpsobjectmodel/IXpsOMGeometryFigureCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

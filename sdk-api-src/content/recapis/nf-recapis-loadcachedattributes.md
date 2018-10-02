@@ -7,7 +7,7 @@ old-location: tablet\loadcachedattributes.htm
 tech.root: tablet
 ms.assetid: 19DC01B8-FB2C-4724-907A-E68A9DD37FF3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: LoadCachedAttributes, LoadCachedAttributes function [Tablet PC], recapis/LoadCachedAttributes, tablet.loadcachedattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

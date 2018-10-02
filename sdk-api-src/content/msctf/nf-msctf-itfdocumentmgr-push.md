@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr_push.htm
 tech.root: TSF
 ms.assetid: afd5452b-4121-428d-801f-1638c2767c67
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
 ms.prod: windows-hardware
 ms.technology: windows-devices

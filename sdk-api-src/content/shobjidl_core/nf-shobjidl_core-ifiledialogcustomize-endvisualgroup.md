@@ -4,10 +4,10 @@ title: IFileDialogCustomize::EndVisualGroup
 author: windows-sdk-content
 description: Stops the addition of elements to a visual group in the dialog.
 old-location: shell\IFileDialogCustomize_EndVisualGroup.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 84aef9e1-2b70-4e8b-b261-cc49f8e65ead
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: EndVisualGroup, EndVisualGroup method [Windows Shell], EndVisualGroup method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EndVisualGroup method, IFileDialogCustomize.EndVisualGroup, IFileDialogCustomize::EndVisualGroup, shell.IFileDialogCustomize_EndVisualGroup, shell_IFileDialogCustomize_EndVisualGroup, shobjidl_core/IFileDialogCustomize::EndVisualGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

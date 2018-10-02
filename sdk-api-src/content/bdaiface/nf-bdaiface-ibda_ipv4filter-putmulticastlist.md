@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipv4filter_putmulticastlist.htm
 tech.root: MSTV
 ms.assetid: 06b93c7d-662e-408b-94e3-137287160898
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastList method, IBDA_IPV4Filter.PutMulticastList, IBDA_IPV4Filter::PutMulticastList, IBDA_IPV4FilterPutMulticastList, PutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastList, mstv.ibda_ipv4filter_putmulticastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

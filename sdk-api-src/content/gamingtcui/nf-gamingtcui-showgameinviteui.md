@@ -7,7 +7,7 @@ old-location: tcui\showgameinviteui.htm
 tech.root: tcui
 ms.assetid: DE4705C2-4590-4140-8CF8-B8552D6CA843
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ShowGameInviteUI, ShowGameInviteUI function, gamingtcui/ShowGameInviteUI, tcui.showgameinviteui
 ms.prod: windows-hardware
 ms.technology: windows-devices

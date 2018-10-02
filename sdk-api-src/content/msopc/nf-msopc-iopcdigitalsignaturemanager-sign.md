@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignaturemanager_sign.htm
 tech.root: OPC
 ms.assetid: 5d40cae4-67d5-40a6-bd63-cf6243a703eb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Sign method, IOpcDigitalSignatureManager.Sign, IOpcDigitalSignatureManager::Sign, Sign, Sign method [Open Packaging Conventions], Sign method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Sign, opc.iopcdigitalsignaturemanager_sign
 ms.prod: windows-hardware
 ms.technology: windows-devices

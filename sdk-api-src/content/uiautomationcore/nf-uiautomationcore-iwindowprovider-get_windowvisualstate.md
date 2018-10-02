@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider_WindowVisualState.htm
 tech.root: WinAuto
 ms.assetid: c65e8687-51b7-45ea-8183-6d9674f77012
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WindowVisualState property, IWindowProvider.WindowVisualState, IWindowProvider.get_WindowVisualState, IWindowProvider::WindowVisualState, IWindowProvider::get_WindowVisualState, WindowVisualState property [Windows Accessibility], WindowVisualState property [Windows Accessibility],IWindowProvider interface, get_WindowVisualState, uiauto.uiauto_IWindowProvider_WindowVisualState, uiauto_IWindowProvider_WindowVisualState, uiautomationcore/IWindowProvider::WindowVisualState, uiautomationcore/IWindowProvider::get_WindowVisualState, winauto.uiauto_IWindowProvider_WindowVisualState
 ms.prod: windows-hardware
 ms.technology: windows-devices

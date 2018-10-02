@@ -7,7 +7,7 @@ old-location: etw\settracecallback.htm
 tech.root: ETW
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetTraceCallback, SetTraceCallback function [ETW], _evt_settracecallback, base.settracecallback, etw.settracecallback, evntrace/SetTraceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

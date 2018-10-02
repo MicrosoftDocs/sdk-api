@@ -4,10 +4,10 @@ title: MFCreatePresentationClock function
 author: windows-sdk-content
 description: Creates the presentation clock.
 old-location: mf\mfcreatepresentationclock.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: b0ed3482-d127-45d3-a4de-271b1c0a199b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreatePresentationClock, MFCreatePresentationClock function [Media Foundation], b0ed3482-d127-45d3-a4de-271b1c0a199b, mf.mfcreatepresentationclock, mfidl/MFCreatePresentationClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

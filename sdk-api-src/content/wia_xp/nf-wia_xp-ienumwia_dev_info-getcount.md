@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_INFO_GetCount.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_info\getcount.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWIA_DEV_INFO interface, IEnumWIA_DEV_INFO interface [WIA],GetCount method, IEnumWIA_DEV_INFO.GetCount, IEnumWIA_DEV_INFO::GetCount, _wia_IEnumWIA_DEV_INFO_GetCount, wia._wia_IEnumWIA_DEV_INFO_GetCount, wia_xp/IEnumWIA_DEV_INFO::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITTerminalManager
 author: windows-sdk-content
 description: The ITTerminalManager interface is used by the MSP to create dynamic terminals.
 old-location: tapi3\itterminalmanager.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 7e5bd83d-42c5-463c-8ce0-c6f466f60588
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITTerminalManager, ITTerminalManager interface [TAPI 2.2], ITTerminalManager interface [TAPI 2.2],described, _tapi3_itterminalmanager, tapi3.itterminalmanager, termmgr/ITTerminalManager
 ms.prod: windows
 ms.technology: windows-sdk

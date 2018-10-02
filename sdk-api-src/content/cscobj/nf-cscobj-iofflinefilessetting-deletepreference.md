@@ -7,7 +7,7 @@ old-location: of\iofflinefilessetting_deletepreference.htm
 tech.root: OfflineFiles
 ms.assetid: 815791e8-3e41-4511-9789-9b9258e5fcf4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeletePreference, DeletePreference method [Offline Files], DeletePreference method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],DeletePreference method, IOfflineFilesSetting.DeletePreference, IOfflineFilesSetting::DeletePreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::DeletePreference, of.iofflinefilessetting_deletepreference
 ms.prod: windows-hardware
 ms.technology: windows-devices

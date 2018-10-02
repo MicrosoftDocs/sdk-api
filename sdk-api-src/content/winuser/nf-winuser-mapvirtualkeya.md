@@ -7,7 +7,7 @@ old-location: inputdev\mapvirtualkey.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\mapvirtualkey.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MAPVK_VK_TO_CHAR, MAPVK_VK_TO_VSC, MAPVK_VSC_TO_VK, MAPVK_VSC_TO_VK_EX, MapVirtualKey, MapVirtualKey function [Keyboard and Mouse Input], MapVirtualKeyA, MapVirtualKeyW, _win32_MapVirtualKey, _win32_mapvirtualkey_cpp, inputdev.mapvirtualkey, winui._win32_mapvirtualkey, winuser/MapVirtualKey, winuser/MapVirtualKeyA, winuser/MapVirtualKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

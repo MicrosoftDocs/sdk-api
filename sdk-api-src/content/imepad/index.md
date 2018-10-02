@@ -2,7 +2,7 @@
 UID: NA:imepad
 ms.assetid: e693bacb-64d8-316d-8dee-5eda5da5144c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

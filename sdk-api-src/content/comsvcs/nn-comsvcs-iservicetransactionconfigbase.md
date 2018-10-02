@@ -7,7 +7,7 @@ old-location: cos\iservicetransactionconfigbase.htm
 tech.root: cossdk
 ms.assetid: e4740bf4-51b1-474f-9637-7c5d78f0def5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IServiceTransactionConfigBase, IServiceTransactionConfigBase interface [COM+], IServiceTransactionConfigBase interface [COM+],described, _cos_IServiceTransactionConfigBase, comsvcs/IServiceTransactionConfigBase, cos.iservicetransactionconfigbase
 ms.prod: windows
 ms.technology: windows-sdk

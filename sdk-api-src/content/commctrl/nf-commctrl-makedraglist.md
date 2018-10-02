@@ -4,10 +4,10 @@ title: MakeDragList function
 author: windows-sdk-content
 description: Changes the specified single-selection list box to a drag list box.
 old-location: controls\MakeDragList.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\makedraglist.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: MakeDragList, MakeDragList function [Windows Controls], _win32_MakeDragList, _win32_MakeDragList_cpp, commctrl/MakeDragList, controls.MakeDragList, controls._win32_MakeDragList
 ms.prod: windows-hardware
 ms.technology: windows-devices

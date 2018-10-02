@@ -4,10 +4,10 @@ title: SetThreadIdealProcessor function
 author: windows-sdk-content
 description: Sets a preferred processor for a thread. The system schedules threads on their preferred processors whenever possible.
 old-location: base\setthreadidealprocessor.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: b174f74b-4b61-4170-a8a6-2ddc4cc5e375
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: SetThreadIdealProcessor, SetThreadIdealProcessor function, _win32_setthreadidealprocessor, base.setthreadidealprocessor, processthreadsapi/SetThreadIdealProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices

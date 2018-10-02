@@ -4,10 +4,10 @@ title: IMFByteStream::Seek
 author: windows-sdk-content
 description: Moves the current position in the stream by a specified offset.
 old-location: mf\imfbytestream_seek.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 512c67a5-e87d-4a81-8577-e64dac868c40
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 512c67a5-e87d-4a81-8577-e64dac868c40, IMFByteStream interface [Media Foundation],Seek method, IMFByteStream.Seek, IMFByteStream::Seek, MFBYTESTREAM_SEEK_FLAG_CANCEL_PENDING_IO, Seek, Seek method [Media Foundation], Seek method [Media Foundation],IMFByteStream interface, mf.imfbytestream_seek, mfobjects/IMFByteStream::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices

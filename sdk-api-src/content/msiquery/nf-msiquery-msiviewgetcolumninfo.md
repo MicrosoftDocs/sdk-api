@@ -4,10 +4,10 @@ title: MsiViewGetColumnInfo function
 author: windows-sdk-content
 description: The MsiViewGetColumnInfo function returns a record containing column names or definitions. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msiviewgetcolumninfo.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: f1b8e24c-ac90-4a25-a1d1-c005c403dffc
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: MSICOLINFO_NAMES, MSICOLINFO_TYPES, MsiViewGetColumnInfo, MsiViewGetColumnInfo function, _msi_msiviewgetcolumninfo, msiquery/MsiViewGetColumnInfo, setup.msiviewgetcolumninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

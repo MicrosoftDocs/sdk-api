@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex_resumecurrentscan.htm
 tech.root: MSTV
 ms.assetid: 9d855ae4-a49c-43d6-9ba0-9f6158f4034f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],ResumeCurrentScan method, IScanningTunerEx.ResumeCurrentScan, IScanningTunerEx::ResumeCurrentScan, IScanningTunerExResumeCurrentScan, ResumeCurrentScan, ResumeCurrentScan method [Microsoft TV Technologies], ResumeCurrentScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_resumecurrentscan, tuner/IScanningTunerEx::ResumeCurrentScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

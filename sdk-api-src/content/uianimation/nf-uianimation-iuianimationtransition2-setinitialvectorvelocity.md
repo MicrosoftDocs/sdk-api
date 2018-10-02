@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransition2_setinitialvectorvelocity.htm
 tech.root: UIAnimation
 ms.assetid: 29EFBBE0-E877-4521-B4A7-E1828E0493B9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVectorVelocity method, IUIAnimationTransition2.SetInitialVectorVelocity, IUIAnimationTransition2::SetInitialVectorVelocity, SetInitialVectorVelocity, SetInitialVectorVelocity method [Windows Animation], SetInitialVectorVelocity method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvectorvelocity, uianimation/IUIAnimationTransition2::SetInitialVectorVelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices

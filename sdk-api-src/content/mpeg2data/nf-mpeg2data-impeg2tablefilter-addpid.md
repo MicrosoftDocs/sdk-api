@@ -7,7 +7,7 @@ old-location: mstv\impeg2tablefilter_addpid.htm
 tech.root: MSTV
 ms.assetid: 7a811d1f-cb1b-4f45-8dee-ba83efd20709
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: AddPID, AddPID method [Microsoft TV Technologies], AddPID method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddPID method, IMpeg2TableFilter.AddPID, IMpeg2TableFilter::AddPID, IMpeg2TableFilterAddPID, mpeg2data/IMpeg2TableFilter::AddPID, mstv.impeg2tablefilter_addpid
 ms.prod: windows-hardware
 ms.technology: windows-devices

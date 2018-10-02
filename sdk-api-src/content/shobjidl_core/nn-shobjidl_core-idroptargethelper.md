@@ -4,10 +4,10 @@ title: IDropTargetHelper
 author: windows-sdk-content
 description: Exposes methods that allow drop targets to display a drag image while the image is over the target window.
 old-location: shell\IDropTargetHelper.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b1ddbf7e-edf3-48fb-8983-ae39cb7bb4b0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IDropTargetHelper, IDropTargetHelper interface [Windows Shell], IDropTargetHelper interface [Windows Shell],described, _win32_IDropTargetHelper, shell.IDropTargetHelper, shobjidl_core/IDropTargetHelper
 ms.prod: windows
 ms.technology: windows-sdk

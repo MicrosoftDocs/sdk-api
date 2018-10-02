@@ -4,10 +4,10 @@ title: DrvSendPage function
 author: windows-sdk-content
 description: A printer graphics DLL's DrvSendPage function is called by GDI when it has finished drawing a physical page, so the driver can send the page to the printer.
 old-location: display\drvsendpage.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d9c452e3-3850-4ca2-8114-b3866fbdeba6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DrvSendPage, DrvSendPage function [Display Devices], ddifncs_4211c283-c7c9-493d-b673-0fdc0d8ad04f.xml, display.drvsendpage, winddi/DrvSendPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

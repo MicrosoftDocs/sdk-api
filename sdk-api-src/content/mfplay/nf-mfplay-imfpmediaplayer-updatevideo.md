@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::UpdateVideo
 author: windows-sdk-content
 description: Updates the video frame.
 old-location: mf\imfpmediaplayer_updatevideo.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices

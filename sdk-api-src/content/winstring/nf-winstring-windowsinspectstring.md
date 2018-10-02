@@ -7,7 +7,7 @@ old-location: winrt\windowsinspectstring.htm
 tech.root: WinRT
 ms.assetid: DB1A35D3-D7DF-439F-B4C2-9510FC1977E9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WindowsInspectString, WindowsInspectString function [Windows Runtime], winrt.windowsinspectstring, winstring/WindowsInspectString
 ms.prod: windows-hardware
 ms.technology: windows-devices

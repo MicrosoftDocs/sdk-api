@@ -7,7 +7,7 @@ old-location: mstv\ibda_frequencyfilter_get_polarity.htm
 tech.root: MSTV
 ms.assetid: c1f787f6-5d52-44a0-90d7-c905b7e8b8b1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Polarity method, IBDA_FrequencyFilter.get_Polarity, IBDA_FrequencyFilter::get_Polarity, IBDA_FrequencyFilterget_Polarity, bdaiface/IBDA_FrequencyFilter::get_Polarity, get_Polarity, get_Polarity method [Microsoft TV Technologies], get_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_polarity
 ms.prod: windows-hardware
 ms.technology: windows-devices

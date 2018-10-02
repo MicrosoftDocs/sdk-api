@@ -4,10 +4,10 @@ title: MFGetStrideForBitmapInfoHeader function
 author: windows-sdk-content
 description: Calculates the minimum surface stride for a video format.
 old-location: mf\mfgetstrideforbitmapinfoheader.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 09612b83-8b14-4286-9562-9e3d00fe2c2b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 09612b83-8b14-4286-9562-9e3d00fe2c2b, MFGetStrideForBitmapInfoHeader, MFGetStrideForBitmapInfoHeader function [Media Foundation], mf.mfgetstrideforbitmapinfoheader, mfapi/MFGetStrideForBitmapInfoHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

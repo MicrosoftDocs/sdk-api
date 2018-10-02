@@ -7,7 +7,7 @@ old-location: of\iofflinefilesconnectioninfo_getconnectstate.htm
 tech.root: OfflineFiles
 ms.assetid: 83b082b4-5845-44b7-9456-f00b357e345a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetConnectState, GetConnectState method [Offline Files], GetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, IOfflineFilesConnectionInfo interface [Offline Files],GetConnectState method, IOfflineFilesConnectionInfo.GetConnectState, IOfflineFilesConnectionInfo::GetConnectState, cscobj/IOfflineFilesConnectionInfo::GetConnectState, of.iofflinefilesconnectioninfo_getconnectstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

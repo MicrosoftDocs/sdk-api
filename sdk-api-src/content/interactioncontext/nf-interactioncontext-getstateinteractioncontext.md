@@ -7,7 +7,7 @@ old-location: input_intcontext\getstateinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 35d581a9-b1be-4f9b-8783-ccea3469921a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetStateInteractionContext, GetStateInteractionContext function, input_intcontext.getstateinteractioncontext, interactioncontext.getstateinteractioncontext, interactioncontext/GetStateInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

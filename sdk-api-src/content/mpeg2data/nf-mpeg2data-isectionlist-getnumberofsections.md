@@ -7,7 +7,7 @@ old-location: mstv\isectionlist_getnumberofsections.htm
 tech.root: MSTV
 ms.assetid: 4b9e3383-7b84-4c4e-87cf-8e3a37d3b81b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetNumberOfSections, GetNumberOfSections method [Microsoft TV Technologies], GetNumberOfSections method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetNumberOfSections method, ISectionList.GetNumberOfSections, ISectionList::GetNumberOfSections, ISectionListGetNumberOfSections, mpeg2data/ISectionList::GetNumberOfSections, mstv.isectionlist_getnumberofsections
 ms.prod: windows-hardware
 ms.technology: windows-devices

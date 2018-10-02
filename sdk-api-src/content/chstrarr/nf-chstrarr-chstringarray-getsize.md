@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_getsize.htm
 tech.root: WmiSdk
 ms.assetid: 5db50c38-a9c7-4711-925e-291cebf2b6f1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetSize method, CHStringArray.GetSize, CHStringArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize"
 ms.prod: windows-hardware
 ms.technology: windows-devices

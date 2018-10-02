@@ -4,10 +4,10 @@ title: ITextPara::SetStyle
 author: windows-sdk-content
 description: Sets the paragraph style for the paragraphs in a range.
 old-location: controls\ITextPara_SetStyle.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetstyle.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextPara interface [Windows Controls],SetStyle method, ITextPara.SetStyle, ITextPara::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextPara interface, _win32_ITextPara_SetStyle, _win32_ITextPara_SetStyle_cpp, controls.ITextPara_SetStyle, controls._win32_ITextPara_SetStyle, tom/ITextPara::SetStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

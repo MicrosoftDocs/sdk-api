@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2.htm
 tech.root: imapi
 ms.assetid: 34f858b8-74eb-4725-8815-7954cb98cff0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDiscRecorder2, IDiscRecorder2 interface [IMAPI], IDiscRecorder2 interface [IMAPI],described, imapi.idiscrecorder2, imapi2/IDiscRecorder2
 ms.prod: windows
 ms.technology: windows-sdk

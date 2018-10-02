@@ -7,7 +7,7 @@ old-location: multimedia\capdriverdisconnect.htm
 tech.root: Multimedia
 ms.assetid: c009adb4-bc73-4d0d-9ab1-801e92e8851f
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_capDriverDisconnect, capDriverDisconnect, capDriverDisconnect macro [Windows Multimedia], multimedia.capdriverdisconnect, vfw/capDriverDisconnect"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509NameValuePair
 author: windows-sdk-content
 description: Represents a generic name-value pair.
 old-location: security\ix509namevaluepair.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: EngComputeGlyphSet function
 author: windows-sdk-content
 description: The EngComputeGlyphSet function computes the glyph set supported on a device.
 old-location: display\engcomputeglyphset.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 74722493-04cf-4401-a6d6-7afe8d4881d9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngComputeGlyphSet, EngComputeGlyphSet function [Display Devices], display.engcomputeglyphset, gdifncs_ba8356d5-4114-436c-9268-774b8e0918df.xml, winddi/EngComputeGlyphSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: pla\itracedatacollector_maximumbuffers.htm
 tech.root: PLA
 ms.assetid: 545c56e3-b915-4f2a-8563-81368ca9b19e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITraceDataCollector interface [PLA],MaximumBuffers property, ITraceDataCollector.MaximumBuffers, ITraceDataCollector.put_MaximumBuffers, ITraceDataCollector::MaximumBuffers, ITraceDataCollector::get_MaximumBuffers, ITraceDataCollector::put_MaximumBuffers, MaximumBuffers property [PLA], MaximumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_maximumbuffers, pla.itracedatacollector_maximumbuffers, pla/ITraceDataCollector::MaximumBuffers, pla/ITraceDataCollector::get_MaximumBuffers, pla/ITraceDataCollector::put_MaximumBuffers, put_MaximumBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

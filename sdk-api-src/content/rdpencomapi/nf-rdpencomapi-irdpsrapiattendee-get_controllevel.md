@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiattendee_controllevel.htm
 tech.root: Rdp
 ms.assetid: b154580d-f541-4668-9255-607ab2de46a9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ControlLevel property [RDP], ControlLevel property [RDP],IRDPSRAPIAttendee interface, ControlLevel property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],ControlLevel property, IRDPSRAPIAttendee.ControlLevel, IRDPSRAPIAttendee.get_ControlLevel, IRDPSRAPIAttendee::ControlLevel, IRDPSRAPIAttendee::get_ControlLevel, IRDPSRAPIAttendee::put_ControlLevel, RDPSRAPIAttendee object [RDP],ControlLevel property, get_ControlLevel, rdp.irdpsrapiattendee_controllevel, rdpencomapi/IRDPSRAPIAttendee::ControlLevel, rdpencomapi/IRDPSRAPIAttendee::get_ControlLevel, rdpencomapi/IRDPSRAPIAttendee::put_ControlLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

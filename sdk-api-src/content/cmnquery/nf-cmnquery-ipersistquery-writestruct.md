@@ -4,10 +4,10 @@ title: IPersistQuery::WriteStruct
 author: windows-sdk-content
 description: Writes a structure to the query store.
 old-location: ad\ipersistquery_writestruct.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: c0acd6c7-96ee-4650-9cfc-3bad4fdffdcc
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteStruct method, IPersistQuery.WriteStruct, IPersistQuery::WriteStruct, WriteStruct, WriteStruct method [Active Directory], WriteStruct method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writestruct, ad.ipersistquery__writestruct, ad.ipersistquery_writestruct, cmnquery/IPersistQuery::WriteStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices

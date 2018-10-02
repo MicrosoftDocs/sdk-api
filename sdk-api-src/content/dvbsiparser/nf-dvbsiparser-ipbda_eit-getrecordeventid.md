@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getrecordeventid.htm
 tech.root: MSTV
 ms.assetid: c34ad3ee-f4f9-4088-88ae-1340ea503cf5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordEventId method, IPBDA_EIT.GetRecordEventId, IPBDA_EIT::GetRecordEventId, dvbsiparser/IPBDA_EIT::GetRecordEventId, mstv.ipbda_eit_getrecordeventid
 ms.prod: windows-hardware
 ms.technology: windows-devices

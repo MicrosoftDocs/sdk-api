@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext1_createstrokedgeometryrealization.htm
 tech.root: direct2d
 ms.assetid: 455EE223-4CEA-4FBA-8885-B0BA6B465C05
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: CreateStrokedGeometryRealization, CreateStrokedGeometryRealization method [Direct2D], CreateStrokedGeometryRealization method [Direct2D],ID2D1DeviceContext1 interface, ID2D1DeviceContext1 interface [Direct2D],CreateStrokedGeometryRealization method, ID2D1DeviceContext1.CreateStrokedGeometryRealization, ID2D1DeviceContext1::CreateStrokedGeometryRealization, d2d1_2/ID2D1DeviceContext1::CreateStrokedGeometryRealization, direct2d.id2d1devicecontext1_createstrokedgeometryrealization
 ms.prod: windows-hardware
 ms.technology: windows-devices

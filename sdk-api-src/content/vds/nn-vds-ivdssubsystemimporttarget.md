@@ -7,7 +7,7 @@ old-location: base\ivdssubsystemimporttarget.htm
 tech.root: VDS
 ms.assetid: c9e2f353-d5d4-47a2-8398-5cbd9d499fb7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], IVdsSubSystemImportTarget interface [VDS],described, base.ivdssubsystemimporttarget, vds/IVdsSubSystemImportTarget
 ms.prod: windows
 ms.technology: windows-sdk

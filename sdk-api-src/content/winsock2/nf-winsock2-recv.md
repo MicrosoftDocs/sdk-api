@@ -7,7 +7,7 @@ old-location: winsock\recv_2.htm
 tech.root: WinSock
 ms.assetid: 8c247cd3-479f-45d0-a038-a24e80cc7c73
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_recv_2, recv, recv function [Winsock], winsock.recv_2, winsock/recv"
 ms.prod: windows-hardware
 ms.technology: windows-devices

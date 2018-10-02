@@ -4,10 +4,10 @@ title: MFCreateAggregateSource function
 author: windows-sdk-content
 description: Creates a media source that aggregates a collection of media sources.
 old-location: mf\mfcreateaggregatesource.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: eap\ieapproviderconfig_initialize.htm
 tech.root: EAP
 ms.assetid: 6d347387-7f8f-478b-a115-f6960e6f856e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEAPProviderConfig interface [EAP],Initialize method, IEAPProviderConfig.Initialize, IEAPProviderConfig::Initialize, Initialize, Initialize method [EAP], Initialize method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_initialize, eap.ieapproviderconfig_initialize, rrascfg/IEAPProviderConfig::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

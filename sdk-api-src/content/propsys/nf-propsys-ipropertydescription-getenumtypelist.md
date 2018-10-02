@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetEnumTypeList.htm
 tech.root: properties
 ms.assetid: ab6c41c2-d85c-4ff9-9061-043303eb1a83
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetEnumTypeList, GetEnumTypeList method [Windows Properties], GetEnumTypeList method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEnumTypeList method, IPropertyDescription.GetEnumTypeList, IPropertyDescription::GetEnumTypeList, properties.IPropertyDescription_GetEnumTypeList, propsys/IPropertyDescription::GetEnumTypeList, shell.IPropertyDescription_GetEnumTypeList, shell_IPropertyDescription_GetEnumTypeList
 ms.prod: windows-hardware
 ms.technology: windows-devices

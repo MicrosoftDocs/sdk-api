@@ -7,7 +7,7 @@ old-location: security\bcryptgetproperty_func.htm
 tech.root: SecCNG
 ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

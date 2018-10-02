@@ -4,10 +4,10 @@ title: SHStripMneumonicW function
 author: windows-sdk-content
 description: Removes the mnemonic marker from a string.
 old-location: shell\SHStripMneumonic.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 25479814-825a-4af2-8751-b35cf39bbb80
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHStripMneumonic, SHStripMneumonic function [Windows Shell], SHStripMneumonicA, SHStripMneumonicW, _win32_SHStripMneumonic, shell.SHStripMneumonic, shlwapi/SHStripMneumonic, shlwapi/SHStripMneumonicA, shlwapi/SHStripMneumonicW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\setcaretblinktime.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\setcaretblinktime.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetCaretBlinkTime, SetCaretBlinkTime function [Menus and Other Resources], _win32_SetCaretBlinkTime, _win32_setcaretblinktime_cpp, menurc.setcaretblinktime, winui._win32_setcaretblinktime, winuser/SetCaretBlinkTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

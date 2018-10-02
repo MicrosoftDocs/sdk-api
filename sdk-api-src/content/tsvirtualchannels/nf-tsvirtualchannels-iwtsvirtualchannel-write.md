@@ -7,7 +7,7 @@ old-location: termserv\iwtsvirtualchannel_write.htm
 tech.root: TermServ
 ms.assetid: fef7067c-6d81-42b7-8534-191bc98906d4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSVirtualChannel interface [Remote Desktop Services],Write method, IWTSVirtualChannel.Write, IWTSVirtualChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWTSVirtualChannel interface, termserv.iwtsvirtualchannel_write, tsvirtualchannels/IWTSVirtualChannel::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

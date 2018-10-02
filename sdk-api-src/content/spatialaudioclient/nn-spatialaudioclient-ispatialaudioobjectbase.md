@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectbase.htm
 tech.root: CoreAudio
 ms.assetid: 54721875-D93A-4C7E-A07E-C286E1A409D3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: ISpatialAudioObjectBase, ISpatialAudioObjectBase interface [Core Audio], ISpatialAudioObjectBase interface [Core Audio],described, coreaudio.ispatialaudioobjectbase, spatialaudioclient/ISpatialAudioObjectBase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Base interface that represents an object that provides audio data to  be  rendered from a position in 3D space, relative to the user. Spatial audio objects can be static or dynamic, which you specify with the <i>type</i> parameter to the  <a href="https://msdn.microsoft.com/1B99E7FB-0796-4902-9B00-470FD08F8AFA">ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject</a> method. Dynamic audio objects can be placed in an arbitrary position in space and can be moved over time. Static audio objects are assigned to one or more channels, defined in the <a href="https://msdn.microsoft.com/DFFE770F-41C0-4048-A38F-FB96353E9216">AudioObjectType</a> enumeration, that each correlate to a fixed speaker location that may be a physical or a virtualized speaker.
 

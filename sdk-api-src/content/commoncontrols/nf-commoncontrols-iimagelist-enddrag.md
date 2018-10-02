@@ -4,10 +4,10 @@ title: IImageList::EndDrag
 author: windows-sdk-content
 description: Ends a drag operation.
 old-location: controls\IImageList_EndDrag.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\enddrag.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: EndDrag, EndDrag method [Windows Controls], EndDrag method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],EndDrag method, IImageList.EndDrag, IImageList::EndDrag, comctl_IImageList_EndDrag, comctl_IImageList_EndDrag_cpp, commoncontrols/IImageList::EndDrag, controls.IImageList_EndDrag, controls.comctl_IImageList_EndDrag
 ms.prod: windows-hardware
 ms.technology: windows-devices

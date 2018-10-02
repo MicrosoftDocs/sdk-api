@@ -7,7 +7,7 @@ old-location: base\deleteservice.htm
 tech.root: Services
 ms.assetid: 5b0fc714-60e0-4ae3-8fa8-ace36dab2fb0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteService, DeleteService function, _win32_deleteservice, base.deleteservice, winsvc/DeleteService
 ms.prod: windows-hardware
 ms.technology: windows-devices

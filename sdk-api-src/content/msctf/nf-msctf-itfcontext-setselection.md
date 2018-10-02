@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_setselection.htm
 tech.root: TSF
 ms.assetid: 1cf50b5e-6ec2-4649-9acc-743a2e3d8096
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfContext interface [Text Services Framework],SetSelection method, ITfContext.SetSelection, ITfContext::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfContext interface, _tsf_itfcontext_setselection_ref, msctf/ITfContext::SetSelection, tsf.itfcontext_setselection
 ms.prod: windows-hardware
 ms.technology: windows-devices

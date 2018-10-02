@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLines_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinesmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: AddLines, AddLines methods [GDI+], GraphicsPath.AddLines, GraphicsPath.AddLines(IN const Point,IN INT), GraphicsPath::AddLines, GraphicsPath::AddLines(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddLines_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddLines_Methods, gdipluspath/AddLines
 ms.prod: windows-hardware
 ms.technology: windows-devices

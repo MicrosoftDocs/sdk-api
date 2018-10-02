@@ -4,10 +4,10 @@ title: IShellLinkDataList::AddDataBlock
 author: windows-sdk-content
 description: Adds a data block to a link.
 old-location: shell\IShellLinkDataList_AddDataBlock.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6580736f-e217-4e3e-9b6e-1c1c004916f4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: AddDataBlock, AddDataBlock method [Windows Shell], AddDataBlock method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],AddDataBlock method, IShellLinkDataList.AddDataBlock, IShellLinkDataList::AddDataBlock, _win32_IShellLinkDataList_AddDataBlock, shell.IShellLinkDataList_AddDataBlock, shobjidl_core/IShellLinkDataList::AddDataBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssbplugin.htm
 tech.root: TermServ
 ms.assetid: db3d3ee7-9e53-4bac-9711-4e85f1016db9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbPlugin, ITsSbPlugin interface [Remote Desktop Services], ITsSbPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbPlugin, termserv.itssbplugin
 ms.prod: windows
 ms.technology: windows-sdk

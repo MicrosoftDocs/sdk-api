@@ -7,7 +7,7 @@ old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getlength.htm
 tech.root: MSTV
 ms.assetid: 4c01c512-03b4-45f1-99e0-853aa42b79a8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbTerrestrialDeliverySystemDescriptor.GetLength, IIsdbTerrestrialDeliverySystemDescriptor::GetLength, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetLength, mstv.iisdbterrestrialdeliverysystemdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

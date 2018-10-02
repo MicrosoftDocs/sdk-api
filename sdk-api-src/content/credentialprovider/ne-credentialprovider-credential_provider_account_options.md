@@ -4,10 +4,10 @@ title: CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
 author: windows-sdk-content
 description: Indicates the type of credential that a credential provider should return to associate with the &#0034;Other user&#0034; tile. Used by ICredentialProviderUserArray_GetAccountOptions.
 old-location: shell\CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9251928C-AB98-47be-8C41-7B89194EB8F9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CPAO_EMPTY_CONNECTED, CPAO_EMPTY_LOCAL, CPAO_NONE, CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS, CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS enumeration [Windows Shell], credentialprovider/CPAO_EMPTY_CONNECTED, credentialprovider/CPAO_EMPTY_LOCAL, credentialprovider/CPAO_NONE, credentialprovider/CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS, shell.CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
 ms.prod: windows
 ms.technology: windows-sdk

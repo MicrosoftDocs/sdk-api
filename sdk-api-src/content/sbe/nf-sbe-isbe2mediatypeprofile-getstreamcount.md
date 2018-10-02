@@ -7,7 +7,7 @@ old-location: mstv\isbe2mediatypeprofile_getstreamcount.htm
 tech.root: MSTV
 ms.assetid: 9f129ed8-3b61-4291-8400-a5f0905c8b49
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Microsoft TV Technologies], GetStreamCount method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],GetStreamCount method, ISBE2MediaTypeProfile.GetStreamCount, ISBE2MediaTypeProfile::GetStreamCount, mstv.isbe2mediatypeprofile_getstreamcount, sbe/ISBE2MediaTypeProfile::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

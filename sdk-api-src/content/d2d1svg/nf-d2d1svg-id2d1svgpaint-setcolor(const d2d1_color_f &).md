@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpaint_setcolor.htm
 tech.root: direct2d
 ms.assetid: A7C3CEDD-7C02-4E24-924A-AD2EA5188730
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1SvgPaint interface [Direct2D],SetColor method, ID2D1SvgPaint.SetColor, ID2D1SvgPaint.SetColor(const D2D1_COLOR_F &), ID2D1SvgPaint::SetColor, ID2D1SvgPaint::SetColor(const D2D1_COLOR_F &), SetColor, SetColor method [Direct2D], SetColor method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetColor, direct2d.id2d1svgpaint_setcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

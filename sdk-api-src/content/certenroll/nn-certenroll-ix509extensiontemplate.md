@@ -4,10 +4,10 @@ title: IX509ExtensionTemplate
 author: windows-sdk-content
 description: Defines methods and properties that can be used to initialize or retrieve a CertificateTemplate extension.
 old-location: security\ix509extensiontemplate.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 2ac24ee9-f31f-4501-a4f0-321580ec2fa9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509ExtensionTemplate, IX509ExtensionTemplate interface [Security], IX509ExtensionTemplate interface [Security],described, certenroll/IX509ExtensionTemplate, security.ix509extensiontemplate
 ms.prod: windows
 ms.technology: windows-sdk

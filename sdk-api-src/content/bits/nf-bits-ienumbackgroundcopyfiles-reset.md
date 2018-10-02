@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyfiles_reset.htm
 tech.root: Bits
 ms.assetid: 471e1417-8d22-4368-93f4-151aa8a662ba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Reset method, IEnumBackgroundCopyFiles.Reset, IEnumBackgroundCopyFiles::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_reset, bits.ienumbackgroundcopyfiles_reset, bits/IEnumBackgroundCopyFiles::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFGetWorkQueueMMCSSPriority function
 author: windows-sdk-content
 description: Gets the relative thread priority of a work queue.
 old-location: mf\mfgetworkqueuemmcsspriority.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8ADF4751-3BC5-4353-9927-C7E0079D0B83
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFGetWorkQueueMMCSSPriority, MFGetWorkQueueMMCSSPriority function [Media Foundation], mf.mfgetworkqueuemmcsspriority, mfapi/MFGetWorkQueueMMCSSPriority, mfplat/MFGetWorkQueueMMCSSPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

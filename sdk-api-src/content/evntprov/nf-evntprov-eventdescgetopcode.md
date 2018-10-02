@@ -7,7 +7,7 @@ old-location: etw\eventdescgetopcode_func.htm
 tech.root: ETW
 ms.assetid: cdca1dd8-da75-408c-9b57-0ac2bfe387b4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EventDescGetOpcode, EventDescGetOpcode function [ETW], base.eventdescgetopcode_func, etw.eventdescgetopcode_func, evntprov/EventDescGetOpcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

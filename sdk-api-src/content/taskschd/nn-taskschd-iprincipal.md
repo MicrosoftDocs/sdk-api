@@ -4,10 +4,10 @@ title: IPrincipal
 author: windows-sdk-content
 description: Provides the security credentials for a principal.
 old-location: taskschd\iprincipal.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 7aa22af2-7f0a-41c1-89c6-d813780e89bf
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], IPrincipal interface [Task Scheduler],described, taskschd.iprincipal, taskschd/IPrincipal
 ms.prod: windows
 ms.technology: windows-sdk

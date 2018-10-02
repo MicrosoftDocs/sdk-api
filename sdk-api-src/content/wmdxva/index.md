@@ -2,7 +2,7 @@
 UID: NA:wmdxva
 ms.assetid: 1c6817b8-67a7-3af0-a00a-34a7c68ccef2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile.htm
 tech.root: Bits
 ms.assetid: fae9cf56-c211-445b-b962-9a9d7d67c59c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyFile, IBackgroundCopyFile interface [BITS], IBackgroundCopyFile interface [BITS],described, _drz_ibackgroundcopyfile, bits.ibackgroundcopyfile, bits/IBackgroundCopyFile
 ms.prod: windows
 ms.technology: windows-sdk

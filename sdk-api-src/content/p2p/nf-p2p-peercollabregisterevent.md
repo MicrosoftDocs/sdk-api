@@ -4,10 +4,10 @@ title: PeerCollabRegisterEvent function
 author: windows-sdk-content
 description: Registers an application with the peer collaboration infrastructure to receive callbacks for specific peer collaboration events.
 old-location: p2p\peercollabregisterevent.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: db7daf08-8d79-493f-8df5-172dae498df0
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabRegisterEvent, PeerCollabRegisterEvent function [Peer Networking], p2p.peercollabregisterevent, p2p/PeerCollabRegisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\vardatefromr8.htm
 tech.root: automat
 ms.assetid: 9ab5538f-5f28-489f-b02a-fde058b16485
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VarDateFromR8, VarDateFromR8 function [Automation], _oa96_VarDateFromR8, automat.vardatefromr8, oleauto/VarDateFromR8
 ms.prod: windows-hardware
 ms.technology: windows-devices

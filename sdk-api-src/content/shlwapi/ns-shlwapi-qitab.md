@@ -4,10 +4,10 @@ title: QITAB
 author: windows-sdk-content
 description: Used by the QISearch function to describe a single interface.
 old-location: shell\QITAB.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3a055773-6e53-45e1-8936-011a8b2b8b16
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPQITAB, LPQITAB, LPQITAB structure pointer [Windows Shell], QITAB, QITAB structure [Windows Shell], _win32_QITAB, shell.QITAB, shlwapi/LPQITAB, shlwapi/QITAB"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFsrmActionEventLog::put_EventType
 author: windows-sdk-content
 description: Retrieves or sets the type of event that the action logs when it runs.
 old-location: fsrm\ifsrmactioneventlog_eventtype.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: eb76fa86-2d82-46a5-ae76-c2f00f812e48
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: EventType property [File Server Resource Manager], EventType property [File Server Resource Manager],IFsrmActionEventLog interface, IFsrmActionEventLog interface [File Server Resource Manager],EventType property, IFsrmActionEventLog.EventType, IFsrmActionEventLog.put_EventType, IFsrmActionEventLog::EventType, IFsrmActionEventLog::get_EventType, IFsrmActionEventLog::put_EventType, fs.ifsrmactioneventlog_eventtype, fsrm.ifsrmactioneventlog_eventtype, fsrm/IFsrmActionEventLog::EventType, fsrm/IFsrmActionEventLog::get_EventType, fsrm/IFsrmActionEventLog::put_EventType, put_EventType
 ms.prod: windows-hardware
 ms.technology: windows-devices

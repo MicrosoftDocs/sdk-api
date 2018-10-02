@@ -7,7 +7,7 @@ old-location: bits\bits5_functions.htm
 tech.root: Bits
 ms.assetid: 97481F9D-1F7B-473A-B288-A52E527478A0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], IBackgroundCopyJob5 interface [BITS],described, bits.bits5_functions, bits.ibackgroundcopyjob5, bits5_0/IBackgroundCopyJob5
 ms.prod: windows
 ms.technology: windows-sdk

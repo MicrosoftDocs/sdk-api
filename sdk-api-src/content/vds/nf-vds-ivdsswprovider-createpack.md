@@ -7,7 +7,7 @@ old-location: base\ivdsswprovider_createpack.htm
 tech.root: VDS
 ms.assetid: 2d711ed8-9101-4e68-b085-b5df01515b5d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreatePack, CreatePack method [VDS], CreatePack method [VDS],IVdsSwProvider interface, IVdsSwProvider interface [VDS],CreatePack method, IVdsSwProvider.CreatePack, IVdsSwProvider::CreatePack, base.ivdsswprovider_createpack, vds/IVdsSwProvider::CreatePack
 ms.prod: windows-hardware
 ms.technology: windows-devices

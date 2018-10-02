@@ -7,7 +7,7 @@ old-location: dxmath\xmloadfloat3a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3A(const XMFLOAT3A)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMLoadFloat3A, XMLoadFloat3A, XMLoadFloat3A method [DirectX Math Support APIs], dxmath.xmloadfloat3a
 ms.prod: windows-hardware
 ms.technology: windows-devices

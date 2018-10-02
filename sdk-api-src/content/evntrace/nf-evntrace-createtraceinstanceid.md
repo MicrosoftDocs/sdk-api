@@ -7,7 +7,7 @@ old-location: etw\createtraceinstanceid.htm
 tech.root: ETW
 ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateTraceInstanceId, CreateTraceInstanceId function [ETW], _evt_createtraceinstanceid, base.createtraceinstanceid, etw.createtraceinstanceid, evntrace/CreateTraceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

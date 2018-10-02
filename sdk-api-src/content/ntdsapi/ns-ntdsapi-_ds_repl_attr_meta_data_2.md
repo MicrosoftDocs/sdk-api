@@ -4,10 +4,10 @@ title: "_DS_REPL_ATTR_META_DATA_2"
 author: windows-sdk-content
 description: The DS_REPL_ATTR_META_DATA_2 structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to contain replication state data for an object attribute.
 old-location: ad\ds_repl_attr_meta_data_2.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 392457b7-df69-44d0-82b2-8381d5877354
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPL_ATTR_META_DATA_2, DS_REPL_ATTR_META_DATA_2 structure [Active Directory], _DS_REPL_ATTR_META_DATA_2, ad.ds_repl_attr_meta_data_2, ntdsapi/DS_REPL_ATTR_META_DATA_2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: http\httpseturlgroupproperty.htm
 tech.root: Http
 ms.assetid: e0826a25-1c50-4757-9355-69eb4946e8dd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

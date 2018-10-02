@@ -7,7 +7,7 @@ old-location: base\initializesrwlock.htm
 tech.root: Sync
 ms.assetid: a94443e1-009c-49ba-a51c-6daa63b07cda
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InitializeSRWLock, InitializeSRWLock function, base.initializesrwlock, synchapi/InitializeSRWLock, winbase/InitializeSRWLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

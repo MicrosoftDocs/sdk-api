@@ -4,10 +4,10 @@ title: IToc::AddEntryList
 author: windows-sdk-content
 description: The AddEntryList method adds an entry list to the table of contents and assigns an index to the entry list.
 old-location: mf\itoc_addentrylist.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8d04d6b8-d110-45a3-b3bb-5a7b680ddabe
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: AddEntryList, AddEntryList method [Media Foundation], AddEntryList method [Media Foundation],IToc interface, IToc interface [Media Foundation],AddEntryList method, IToc.AddEntryList, IToc::AddEntryList, codecapi.itoc_addentrylist, mf.itoc_addentrylist, wmcodecdsp/IToc::AddEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices

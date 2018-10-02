@@ -7,7 +7,7 @@ old-location: intl\iuserdictionariesregistrar_registeruserdictionary.htm
 tech.root: Intl
 ms.assetid: 5dd64e20-af2d-4d84-9e66-01ac19f34212
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],RegisterUserDictionary method, IUserDictionariesRegistrar.RegisterUserDictionary, IUserDictionariesRegistrar::RegisterUserDictionary, RegisterUserDictionary, RegisterUserDictionary method [Internationalization for Windows Applications], RegisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_registeruserdictionary, spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\nsp_routine.htm
 tech.root: WinSock
 ms.assetid: 8f7736d5-ea77-472a-a94f-e422398fae3f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPNSP_ROUTINE, NSP_ROUTINE, NSP_ROUTINE structure [Winsock], NSP_ROUTINE,FAR * LPNSP_ROUTINE, NSP_ROUTINE,FAR * LPNSP_ROUTINE structure [Winsock], _NSP_ROUTINE, winsock.nsp_routine, ws2spi/NSP_ROUTINE"
 ms.prod: windows
 ms.technology: windows-sdk

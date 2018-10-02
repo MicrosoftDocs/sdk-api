@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectionvariable.htm
 tech.root: direct3d11
 ms.assetid: 4422a51f-b190-4df0-a1bb-a8ee2cc66da2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D11ShaderReflectionVariable, ID3D11ShaderReflectionVariable interface [Direct3D 11], ID3D11ShaderReflectionVariable interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionVariable, direct3d11.id3d11shaderreflectionvariable, f2ebf92b-2932-5cc0-239f-7e9b48dec05f
 ms.prod: windows
 ms.technology: windows-sdk

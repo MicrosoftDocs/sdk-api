@@ -4,10 +4,10 @@ title: CopyFile2 function
 author: windows-sdk-content
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
 old-location: fs\copyfile2.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: aa2df686-4b61-4d90-ba0b-c78c5a0d2d59
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CopyFile2, CopyFile2 function [Files], fs.copyfile2, winbase/CopyFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices

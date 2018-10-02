@@ -4,10 +4,10 @@ title: LongLongSub function
 author: windows-sdk-content
 description: Subtracts one value of type LONGLONG from another.
 old-location: shell\LongLongSub.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8c6c65c7-0f93-4823-a6f3-cc59c4b5b207
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongLongSub, LongLongSub function [Windows Shell], intsafe/LongLongSub, shell.LongLongSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

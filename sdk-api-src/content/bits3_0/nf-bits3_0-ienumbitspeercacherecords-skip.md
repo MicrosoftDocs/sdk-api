@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeercacherecords_skip.htm
 tech.root: Bits
 ms.assetid: f1204e4b-985e-4d3e-8a1f-d13d46e8f1ce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Skip method, IEnumBitsPeerCacheRecords.Skip, IEnumBitsPeerCacheRecords::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_skip, bits3_0/IEnumBitsPeerCacheRecords::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

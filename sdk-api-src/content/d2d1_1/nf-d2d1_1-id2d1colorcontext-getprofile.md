@@ -7,7 +7,7 @@ old-location: direct2d\id2d1colorcontext_getprofile.htm
 tech.root: direct2d
 ms.assetid: f6beae12-e02d-432b-b9d8-5e1206e3c482
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GetProfile, GetProfile method [Direct2D], GetProfile method [Direct2D],ID2D1ColorContext interface, ID2D1ColorContext interface [Direct2D],GetProfile method, ID2D1ColorContext.GetProfile, ID2D1ColorContext::GetProfile, d2d1_1/ID2D1ColorContext::GetProfile, direct2d.id2d1colorcontext_getprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

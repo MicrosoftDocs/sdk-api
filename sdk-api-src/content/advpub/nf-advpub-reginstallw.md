@@ -7,7 +7,7 @@ old-location: winprog\reginstallw.htm
 tech.root: devnotes
 ms.assetid: 3E3A48B6-FAF8-4C21-8438-41FA94937A39
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: RegInstallW, RegInstallW function [Windows API], advpub/RegInstallW, winprog.reginstallw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Updates the string registry values in the provided table.
 

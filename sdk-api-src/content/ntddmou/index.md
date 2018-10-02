@@ -2,7 +2,7 @@
 UID: NA:ntddmou
 ms.assetid: 3d739718-a93c-3c79-98ae-f230261063b5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_put_guard.htm
 tech.root: MSTV
 ms.assetid: af0accaf-ef33-4074-ac04-2bd09f3ad879
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Guard method, IDVBTLocator.put_Guard, IDVBTLocator::put_Guard, IDVBTLocatorput_Guard, mstv.idvbtlocator_put_guard, put_Guard, put_Guard method [Microsoft TV Technologies], put_Guard method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Guard
 ms.prod: windows-hardware
 ms.technology: windows-devices

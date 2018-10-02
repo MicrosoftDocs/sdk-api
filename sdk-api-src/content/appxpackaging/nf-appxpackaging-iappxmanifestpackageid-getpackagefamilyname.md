@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid_getpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: A4505020-61CB-4893-AB3B-6EF0E55FD225
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetPackageFamilyName method, IAppxManifestPackageId.GetPackageFamilyName, IAppxManifestPackageId::GetPackageFamilyName, appxpackaging/IAppxManifestPackageId::GetPackageFamilyName, appxpkg.iappxmanifestpackageid_getpackagefamilyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

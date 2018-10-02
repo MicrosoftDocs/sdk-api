@@ -7,7 +7,7 @@ old-location: com\ienumunknown.htm
 tech.root: com
 ms.assetid: 5aaed96f-39c1-4201-80d0-a2a8a177b65e
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], IEnumUnknown interface [COM],described, _com_ienumunknown, com.ienumunknown, objidlbase/IEnumUnknown
 ms.prod: windows
 ms.technology: windows-sdk

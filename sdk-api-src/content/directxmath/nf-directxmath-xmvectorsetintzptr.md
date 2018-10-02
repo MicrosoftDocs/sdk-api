@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetintzptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntZPtr(XMVECTOR,const uint32_t)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVectorSetIntZPtr, XMVectorSetIntZPtr, XMVectorSetIntZPtr method [DirectX Math Support APIs], dxmath.xmvectorsetintzptr
 ms.prod: windows-hardware
 ms.technology: windows-devices

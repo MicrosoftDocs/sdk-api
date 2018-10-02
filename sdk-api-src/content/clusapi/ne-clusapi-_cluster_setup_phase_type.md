@@ -4,10 +4,10 @@ title: "_CLUSTER_SETUP_PHASE_TYPE"
 author: windows-sdk-content
 description: Describes the progress of the cluster setup process.
 old-location: mscs\cluster_setup_phase_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 515fe36d-84a0-41f1-80fa-a8c12718bdf5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CLUSTER_SETUP_PHASE_TYPE, CLUSTER_SETUP_PHASE_TYPE enumeration [Failover Cluster], ClusterSetupPhaseContinue, ClusterSetupPhaseEnd, ClusterSetupPhaseStart, _CLUSTER_SETUP_PHASE_TYPE, clusapi/CLUSTER_SETUP_PHASE_TYPE, clusapi/ClusterSetupPhaseContinue, clusapi/ClusterSetupPhaseEnd, clusapi/ClusterSetupPhaseStart, mscs.cluster_setup_phase_type
 ms.prod: windows
 ms.technology: windows-sdk

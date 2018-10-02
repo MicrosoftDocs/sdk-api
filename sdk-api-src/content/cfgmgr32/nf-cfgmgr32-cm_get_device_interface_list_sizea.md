@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_interface_list_size.htm
 tech.root: devinst
 ms.assetid: f3e1ceb7-9812-4339-889f-dade2efb3998
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES, CM_GET_DEVICE_INTERFACE_LIST_PRESENT, CM_Get_Device_Interface_List_Size, CM_Get_Device_Interface_List_Size function [Device and Driver Installation], CM_Get_Device_Interface_List_SizeA, CM_Get_Device_Interface_List_SizeW, cfgmgr32/CM_Get_Device_Interface_List_Size, cfgmgr32/CM_Get_Device_Interface_List_SizeA, cfgmgr32/CM_Get_Device_Interface_List_SizeW, cfgmgrfn_91624b8d-408b-4b08-b23c-aecc2c4581d0.xml, devinst.cm_get_device_interface_list_size
 ms.prod: windows-hardware
 ms.technology: windows-devices

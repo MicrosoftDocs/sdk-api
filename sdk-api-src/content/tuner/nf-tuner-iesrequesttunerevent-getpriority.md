@@ -7,7 +7,7 @@ old-location: mstv\iesrequesttunerevent_getpriority.htm
 tech.root: MSTV
 ms.assetid: a0edc656-0628-4020-bf8e-a5cd0bedd7c3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetPriority, GetPriority method [Microsoft TV Technologies], GetPriority method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetPriority method, IESRequestTunerEvent.GetPriority, IESRequestTunerEvent::GetPriority, mstv.iesrequesttunerevent_getpriority, tuner/IESRequestTunerEvent::GetPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

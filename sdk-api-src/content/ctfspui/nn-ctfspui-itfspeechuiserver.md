@@ -7,7 +7,7 @@ old-location: tsf\itfspeechuiserver.htm
 tech.root: TSF
 ms.assetid: 40961001-b659-4ddb-ae7d-5342957770be
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Framework], ITfSpeechUIServer interface [Text Services Framework],described, ctfspui/ITfSpeechUIServer, tsf.itfspeechuiserver
 ms.prod: windows
 ms.technology: windows-sdk

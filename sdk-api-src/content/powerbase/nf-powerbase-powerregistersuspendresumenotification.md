@@ -4,10 +4,10 @@ title: PowerRegisterSuspendResumeNotification function
 author: windows-sdk-content
 description: Registers to receive notification when the system is suspended or resumed.
 old-location: base\powerregistersuspendresumenotification.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 3b39ec3a-417c-4ce4-a581-ed967f1baec9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: PowerRegisterSuspendResumeNotification, PowerRegisterSuspendResumeNotification function, base.powerregistersuspendresumenotification, powerbase/PowerRegisterSuspendResumeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

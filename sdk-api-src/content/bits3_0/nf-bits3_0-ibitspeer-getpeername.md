@@ -7,7 +7,7 @@ old-location: bits\ibitspeer_getpeername.htm
 tech.root: Bits
 ms.assetid: 71cfc0a5-1f60-4e61-a706-bb9f9c5a6c76
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPeerName, GetPeerName method [BITS], GetPeerName method [BITS],IBitsPeer interface, IBitsPeer interface [BITS],GetPeerName method, IBitsPeer.GetPeerName, IBitsPeer::GetPeerName, bits.ibitspeer_getpeername, bits3_0/IBitsPeer::GetPeerName
 ms.prod: windows-hardware
 ms.technology: windows-devices

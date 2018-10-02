@@ -4,10 +4,10 @@ title: "_MF_CONNECT_METHOD"
 author: windows-sdk-content
 description: Specifies how the topology loader connects a topology node.
 old-location: mf\mf_connect_method.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 881045bf-ea3b-46e2-aae0-b26e35882da1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 881045bf-ea3b-46e2-aae0-b26e35882da1, MF_CONNECT_ALLOW_CONVERTER, MF_CONNECT_ALLOW_DECODER, MF_CONNECT_AS_OPTIONAL, MF_CONNECT_AS_OPTIONAL_BRANCH, MF_CONNECT_DIRECT, MF_CONNECT_METHOD, MF_CONNECT_METHOD enumeration [Media Foundation], MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES, _MF_CONNECT_METHOD, mf.mf_connect_method, mfidl/MF_CONNECT_ALLOW_CONVERTER, mfidl/MF_CONNECT_ALLOW_DECODER, mfidl/MF_CONNECT_AS_OPTIONAL, mfidl/MF_CONNECT_AS_OPTIONAL_BRANCH, mfidl/MF_CONNECT_DIRECT, mfidl/MF_CONNECT_METHOD, mfidl/MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES
 ms.prod: windows
 ms.technology: windows-sdk

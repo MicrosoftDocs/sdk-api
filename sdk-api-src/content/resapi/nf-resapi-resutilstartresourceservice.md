@@ -4,10 +4,10 @@ title: ResUtilStartResourceService function
 author: windows-sdk-content
 description: Starts a service. The PRESUTIL_START_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstartresourceservice.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0c8a80d7-0291-4ed5-af44-67c0c251dc84
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PRESUTIL_START_RESOURCE_SERVICE, PRESUTIL_START_RESOURCE_SERVICE function [Failover Cluster], ResUtilStartResourceService, ResUtilStartResourceService function [Failover Cluster], _wolf_resutilstartresourceservice, mscs.resutilstartresourceservice, resapi/PRESUTIL_START_RESOURCE_SERVICE, resapi/ResUtilStartResourceService
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nps\SDO_iasdomaintype.htm
 tech.root: Nps
 ms.assetid: d6c36f76-d265-446b-986e-b23d9550ba3b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIASDOMAINTYPE, DOMAIN_TYPE_MIXED, DOMAIN_TYPE_NONE, DOMAIN_TYPE_NT4, DOMAIN_TYPE_NT5, IASDOMAINTYPE, IASDOMAINTYPE enumeration [Network Policy Server], PIASDOMAINTYPE, PIASDOMAINTYPE enumeration pointer [Network Policy Server], _DOMAINTYPE, _sdo_iasdomaintype, nps.SDO_iasdomaintype, sdo.iasdomaintype, sdoias/DOMAIN_TYPE_MIXED, sdoias/DOMAIN_TYPE_NONE, sdoias/DOMAIN_TYPE_NT4, sdoias/DOMAIN_TYPE_NT5, sdoias/IASDOMAINTYPE, sdoias/PIASDOMAINTYPE"
 ms.prod: windows
 ms.technology: windows-sdk

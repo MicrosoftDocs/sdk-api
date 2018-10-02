@@ -4,10 +4,10 @@ title: SymGetLineFromInlineContext function
 author: windows-sdk-content
 description: Locates the source line for the specified inline context.
 old-location: base\symgetlinefrominlinecontext.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 0c362bd9-7496-436b-9e01-2054dc3dfc57
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices

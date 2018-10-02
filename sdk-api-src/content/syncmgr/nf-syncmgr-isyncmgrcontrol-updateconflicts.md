@@ -4,10 +4,10 @@ title: ISyncMgrControl::UpdateConflicts
 author: windows-sdk-content
 description: Informs Sync Center that conflicts have been added for a specific handler or item.
 old-location: shell\ISyncMgrControl_UpdateConflicts.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 606df5fb-0c4b-49c7-82ed-28f22927953a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateConflicts method, ISyncMgrControl.UpdateConflicts, ISyncMgrControl::UpdateConflicts, UpdateConflicts, UpdateConflicts method [Windows Shell], UpdateConflicts method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateConflicts, shell.ISyncMgrControl_UpdateConflicts, syncmgr/ISyncMgrControl::UpdateConflicts
 ms.prod: windows-hardware
 ms.technology: windows-devices

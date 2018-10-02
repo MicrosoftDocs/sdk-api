@@ -4,10 +4,10 @@ title: ISecurityObjectTypeInfo
 author: windows-sdk-content
 description: Provides a means of determining the source of inherited access control entries (ACEs) in discretionary access control lists (DACLs) and system access control lists (SACLs).
 old-location: security\isecurityobjecttypeinfo.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 345c66b9-fa8a-4adc-a929-39bddca6aeec
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ISecurityObjectTypeInfo, ISecurityObjectTypeInfo interface [Security], ISecurityObjectTypeInfo interface [Security],described, aclui/ISecurityObjectTypeInfo, security.isecurityobjecttypeinfo
 ms.prod: windows
 ms.technology: windows-sdk

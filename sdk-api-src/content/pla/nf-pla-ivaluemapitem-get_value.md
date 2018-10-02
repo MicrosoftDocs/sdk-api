@@ -7,7 +7,7 @@ old-location: pla\ivaluemapitem_value.htm
 tech.root: PLA
 ms.assetid: 3f7549aa-2ad6-40f4-ae09-c5130a9c3451
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IValueMapItem interface [PLA],Value property, IValueMapItem.Value, IValueMapItem.get_Value, IValueMapItem::Value, IValueMapItem::get_Value, IValueMapItem::put_Value, Value property [PLA], Value property [PLA],IValueMapItem interface, base.ivaluemapitem_value, get_Value, pla.ivaluemapitem_value, pla/IValueMapItem::Value, pla/IValueMapItem::get_Value, pla/IValueMapItem::put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices

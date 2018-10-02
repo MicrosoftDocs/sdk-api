@@ -4,10 +4,10 @@ title: UrlIsNoHistoryW function
 author: windows-sdk-content
 description: Returns whether a URL is a URL that browsers typically do not include in navigation history.
 old-location: shell\UrlIsNoHistory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7602d2ef-1f21-4b2f-8ac9-195bb21d6ae7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UrlIsNoHistory, UrlIsNoHistory function [Windows Shell], UrlIsNoHistoryA, UrlIsNoHistoryW, _win32_UrlIsNoHistory, shell.UrlIsNoHistory, shlwapi/UrlIsNoHistory, shlwapi/UrlIsNoHistoryA, shlwapi/UrlIsNoHistoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

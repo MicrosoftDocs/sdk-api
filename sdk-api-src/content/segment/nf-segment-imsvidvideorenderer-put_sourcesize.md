@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_put_sourcesize.htm
 tech.root: MSTV
 ms.assetid: c792f064-a137-4872-8c79-6e924b6023f0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_SourceSize method, IMSVidVideoRenderer.put_SourceSize, IMSVidVideoRenderer::put_SourceSize, IMSVidVideoRendererput_SourceSize, mstv.imsvidvideorenderer_put_sourcesize, put_SourceSize, put_SourceSize method [Microsoft TV Technologies], put_SourceSize method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_SourceSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

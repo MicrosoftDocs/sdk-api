@@ -4,10 +4,10 @@ title: "_REASSIGN_BLOCKS"
 author: windows-sdk-content
 description: Contains disk block reassignment data.
 old-location: fs\reassign_blocks_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 43d908fc-0e43-49ab-a96f-b6b0f491c99d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: "*PREASSIGN_BLOCKS, REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Files], _REASSIGN_BLOCKS, _win32_reassign_blocks_str, base.reassign_blocks_str, fs.reassign_blocks_str, winioctl/REASSIGN_BLOCKS"
 ms.prod: windows
 ms.technology: windows-sdk

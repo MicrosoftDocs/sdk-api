@@ -7,7 +7,7 @@ old-location: dshow\reset_masks.htm
 tech.root: DirectShow
 ms.assetid: 039a43c1-c795-4374-ada8-2ea611c6409a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: RESET_MASKS, RESET_MASKS macro [DirectShow], amvideo/RESET_MASKS, dshow.reset_masks
 ms.prod: windows-hardware
 ms.technology: windows-devices

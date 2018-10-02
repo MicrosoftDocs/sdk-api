@@ -4,10 +4,10 @@ title: IMFSampleProtection
 author: windows-sdk-content
 description: Provides encryption for media data inside the protected media path (PMP).
 old-location: mf\imfsampleprotection.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: bebe24cd-657b-4c6c-9fe9-5d6dd58827a3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSampleProtection, IMFSampleProtection interface [Media Foundation], IMFSampleProtection interface [Media Foundation],described, bebe24cd-657b-4c6c-9fe9-5d6dd58827a3, mf.imfsampleprotection, mfidl/IMFSampleProtection
 ms.prod: windows
 ms.technology: windows-sdk

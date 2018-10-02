@@ -4,10 +4,10 @@ title: MFCreateTempFile function
 author: windows-sdk-content
 description: Creates a byte stream that is backed by a temporary local file.
 old-location: mf\mfcreatetempfile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678, MFCreateTempFile, MFCreateTempFile function [Media Foundation], mf.mfcreatetempfile, mfapi/MFCreateTempFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

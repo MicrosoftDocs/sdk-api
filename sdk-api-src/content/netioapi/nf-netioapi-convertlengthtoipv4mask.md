@@ -7,7 +7,7 @@ old-location: iphlp\convertlengthtoipv4mask.htm
 tech.root: IpHlp
 ms.assetid: 5d986301-368e-4984-9f90-e2af1f87cbea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ConvertLengthToIpv4Mask, ConvertLengthToIpv4Mask function [IP Helper], iphlp.convertlengthtoipv4mask, netioapi/ConvertLengthToIpv4Mask
 ms.prod: windows-hardware
 ms.technology: windows-devices

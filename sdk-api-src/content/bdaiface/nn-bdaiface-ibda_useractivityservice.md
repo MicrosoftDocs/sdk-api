@@ -7,7 +7,7 @@ old-location: mstv\ibda_useractivityservice.htm
 tech.root: MSTV
 ms.assetid: d2c8f14e-11d7-4385-a6c8-31b086ec1286
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_UserActivityService, IBDA_UserActivityService interface [Microsoft TV Technologies], IBDA_UserActivityService interface [Microsoft TV Technologies],described, bdaiface/IBDA_UserActivityService, mstv.ibda_useractivityservice
 ms.prod: windows
 ms.technology: windows-sdk

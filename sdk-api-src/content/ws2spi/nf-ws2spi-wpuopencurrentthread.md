@@ -7,7 +7,7 @@ old-location: winsock\wpuopencurrentthread_2.htm
 tech.root: WinSock
 ms.assetid: 92d21f29-240f-407e-89a7-bbbb8f9bf0eb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win32_wpuopencurrentthread_2, winsock.wpuopencurrentthread_2, ws2spi/WPUOpenCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

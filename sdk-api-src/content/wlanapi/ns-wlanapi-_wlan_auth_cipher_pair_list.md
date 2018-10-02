@@ -7,7 +7,7 @@ old-location: nwifi\wlan_auth_cipher_pair_list.htm
 tech.root: NativeWiFi
 ms.assetid: 747ee8e6-aafa-42ec-9183-a5a4a2603fc0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST structure pointer [NativeWIFI], WLAN_AUTH_CIPHER_PAIR_LIST, WLAN_AUTH_CIPHER_PAIR_LIST structure [NativeWIFI], _WLAN_AUTH_CIPHER_PAIR_LIST, nwifi.wlan_auth_cipher_pair_list, wlanapi/PWLAN_AUTH_CIPHER_PAIR_LIST, wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

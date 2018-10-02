@@ -4,10 +4,10 @@ title: IImageList::ImageListSetIcon
 author: windows-sdk-content
 description: The IImageList::ImageListSetIcon method enables a user to set an icon in the image list or to create an icon if it is not there.
 old-location: mmc\iimagelist_imagelistseticon.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 3bdb166e-e78a-41a8-9bb7-904d0462f976
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IImageList interface [MMC],ImageListSetIcon method, IImageList.ImageListSetIcon, IImageList::ImageListSetIcon, ImageListSetIcon, ImageListSetIcon method [MMC], ImageListSetIcon method [MMC],IImageList interface, _slate_iimagelist_imagelistseticon, mmc.iimagelist_imagelistseticon, mmc/IImageList::ImageListSetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

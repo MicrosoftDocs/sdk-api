@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getstreamsourcefreq.htm
 tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getstreamsourcefreq.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 5a7d1b69-c1ef-f38d-2536-b01c718bd9b6, GetStreamSourceFreq, GetStreamSourceFreq method [Direct3D 9], GetStreamSourceFreq method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetStreamSourceFreq method, IDirect3DDevice9.GetStreamSourceFreq, IDirect3DDevice9::GetStreamSourceFreq, d3d9helper/IDirect3DDevice9::GetStreamSourceFreq, direct3d9.idirect3ddevice9__getstreamsourcefreq
 ms.prod: windows-hardware
 ms.technology: windows-devices

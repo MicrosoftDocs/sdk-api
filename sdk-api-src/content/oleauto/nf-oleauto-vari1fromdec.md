@@ -7,7 +7,7 @@ old-location: automat\vari1fromdec.htm
 tech.root: automat
 ms.assetid: 3a28520c-3825-4b7b-9b2c-c4514cdfcec0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VarI1FromDec, VarI1FromDec function [Automation], _oa96_VarI1FromDec, automat.vari1fromdec, oleauto/VarI1FromDec
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\crypt_provider_sigstate.htm
 tech.root: seccrypto
 ms.assetid: B362A161-6B92-41B0-AE81-337EB42502D8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE structure [Security], PCRYPT_PROVIDER_SIGSTATE, PCRYPT_PROVIDER_SIGSTATE structure pointer [Security], _CRYPT_PROVIDER_SIGSTATE, security.crypt_provider_sigstate, wintrust/CRYPT_PROVIDER_SIGSTATE, wintrust/PCRYPT_PROVIDER_SIGSTATE"
 ms.prod: windows
 ms.technology: windows-sdk

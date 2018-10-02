@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiinvitation_connectionstring.htm
 tech.root: Rdp
 ms.assetid: 46f44927-c29e-401c-b81e-d009c1ad3c97
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ConnectionString property [RDP], ConnectionString property [RDP],IRDPSRAPIInvitation interface, ConnectionString property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],ConnectionString property, IRDPSRAPIInvitation.ConnectionString, IRDPSRAPIInvitation.get_ConnectionString, IRDPSRAPIInvitation::ConnectionString, IRDPSRAPIInvitation::get_ConnectionString, RDPSRAPIInvitation object [RDP],ConnectionString property, get_ConnectionString, rdp.irdpsrapiinvitation_connectionstring, rdpencomapi/IRDPSRAPIInvitation::ConnectionString, rdpencomapi/IRDPSRAPIInvitation::get_ConnectionString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: policy\entercriticalpolicysection.htm
 tech.root: Policy
 ms.assetid: d17578b3-3a71-456b-97ca-961b81572528
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EnterCriticalPolicySection, EnterCriticalPolicySection function [Group Policy], _win32_entercriticalpolicysection, policy.entercriticalpolicysection, userenv/EnterCriticalPolicySection
 ms.prod: windows-hardware
 ms.technology: windows-devices

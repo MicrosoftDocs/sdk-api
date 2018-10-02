@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_get_polarity.htm
 tech.root: devio
 ms.assetid: 834C7CBA-179E-4C1E-9664-A70EB38D74BE
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
 Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a <a href="https://msdn.microsoft.com/432C10EF-AC08-4781-9BCA-A31E0DF12704">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="https://msdn.microsoft.com/D818E512-5E50-4CF2-AF22-1A4AB07679A6">PWM_POLARITY</a> enumeration. 

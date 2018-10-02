@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromStrRet.htm
 tech.root: properties
 ms.assetid: 5c02e2ee-14c2-4966-83e7-16dfbf81b879
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: InitPropVariantFromStrRet, InitPropVariantFromStrRet function [Windows Properties], properties.InitPropVariantFromStrRet, propvarutil/InitPropVariantFromStrRet, shell.InitPropVariantFromStrRet, shell_InitPropVariantFromStrRet
 ms.prod: windows-hardware
 ms.technology: windows-devices

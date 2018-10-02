@@ -7,7 +7,7 @@ old-location: security\bcryptgetfipsalgorithmmode.htm
 tech.root: SecCNG
 ms.assetid: eb7b758d-3466-49fe-8729-a8a059fadcde
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Security], bcrypt/BCryptGetFipsAlgorithmMode, security.bcryptgetfipsalgorithmmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

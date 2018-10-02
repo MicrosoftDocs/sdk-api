@@ -7,7 +7,7 @@ old-location: base\cvsswriter_getcurrentsnapshotsetid.htm
 tech.root: VSS
 ms.assetid: c9327bfc-02e5-402c-b445-15eed4433176
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentSnapshotSetId method, CVssWriter.GetCurrentSnapshotSetId, CVssWriter::GetCurrentSnapshotSetId, GetCurrentSnapshotSetId, GetCurrentSnapshotSetId method [VSS], GetCurrentSnapshotSetId method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentsnapshotsetid, base.cvsswriter_getcurrentsnapshotsetid, vswriter/CVssWriter::GetCurrentSnapshotSetId
 ms.prod: windows-hardware
 ms.technology: windows-devices

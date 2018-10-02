@@ -7,7 +7,7 @@ old-location: nla\inetwork_setname.htm
 tech.root: NLA
 ms.assetid: 7495e26f-b7cf-4abd-ab7d-82b0d4bd4d87
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: INetwork interface [Network Awareness],SetName method, INetwork.SetName, INetwork::SetName, SetName, SetName method [Network Awareness], SetName method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetName, nla.inetwork_setname
 ms.prod: windows-hardware
 ms.technology: windows-devices

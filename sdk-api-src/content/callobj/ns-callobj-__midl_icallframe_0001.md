@@ -7,7 +7,7 @@ old-location: com\callframeinfo.htm
 tech.root: com
 ms.assetid: 3d490c8b-d254-458b-b355-39c3942ddc5e
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: CALLFRAMEINFO, CALLFRAMEINFO structure [COM], __MIDL_ICallFrame_0001, callobj/CALLFRAMEINFO, com.callframeinfo
 ms.prod: windows
 ms.technology: windows-sdk

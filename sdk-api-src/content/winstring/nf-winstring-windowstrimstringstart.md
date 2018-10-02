@@ -7,7 +7,7 @@ old-location: winrt\windowstrimstringstart.htm
 tech.root: WinRT
 ms.assetid: 88B9034D-D010-4C38-8F03-A5AF2FEC448B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WindowsTrimStringStart, WindowsTrimStringStart function [Windows Runtime], winrt.windowstrimstringstart, winstring/WindowsTrimStringStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

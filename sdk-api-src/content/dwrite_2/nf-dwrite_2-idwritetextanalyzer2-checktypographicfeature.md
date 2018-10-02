@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer2_checktypographicfeature.htm
 tech.root: DirectWrite
 ms.assetid: D929E654-1DF1-49AB-A311-010DB2D79E06
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CheckTypographicFeature, CheckTypographicFeature method [Direct Write], CheckTypographicFeature method [Direct Write],IDWriteTextAnalyzer2 interface, IDWriteTextAnalyzer2 interface [Direct Write],CheckTypographicFeature method, IDWriteTextAnalyzer2.CheckTypographicFeature, IDWriteTextAnalyzer2::CheckTypographicFeature, directwrite.idwritetextanalyzer2_checktypographicfeature, dwrite_2/IDWriteTextAnalyzer2::CheckTypographicFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices

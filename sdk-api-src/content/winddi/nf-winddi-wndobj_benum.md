@@ -4,10 +4,10 @@ title: WNDOBJ_bEnum function
 author: windows-sdk-content
 description: The WNDOBJ_bEnum function obtains a batch of rectangles from the visible region of a window.
 old-location: display\wndobj_benum.htm
-tech.root: display
+tech.root: Display
 ms.assetid: ad883ab5-6374-499e-9144-e5b85feaa471
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WNDOBJ_bEnum, WNDOBJ_bEnum function [Display Devices], display.wndobj_benum, gdifncs_73e625c4-af7b-4e0e-aace-b930ca192444.xml, winddi/WNDOBJ_bEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

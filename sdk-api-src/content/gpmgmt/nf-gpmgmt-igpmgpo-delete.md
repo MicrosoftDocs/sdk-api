@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_delete.htm
 tech.root: GPMC
 ms.assetid: 63a29bf5-bac5-43af-87ec-01c3c2a5b3af
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMGPO class, Delete method [GPMC],IGPMGPO interface, GPMGPO class [GPMC],Delete method, IGPMGPO interface [GPMC],Delete method, IGPMGPO.Delete, IGPMGPO::Delete, _win32_igpmgpo_delete, gpmc.igpmgpo_delete, gpmgmt/IGPMGPO::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

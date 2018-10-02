@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 author: windows-sdk-content
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION query.
 old-location: mf\d3d11_authenticated_query_crypto_session_output.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8C52920A-25CC-4AD6-85E0-22D6A498D65A
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, mf.d3d11_authenticated_query_crypto_session_output
 ms.prod: windows
 ms.technology: windows-sdk

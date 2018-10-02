@@ -7,7 +7,7 @@ old-location: wes\evt_channel_type.htm
 tech.root: WES
 ms.assetid: 5650dd28-b0ef-4d74-abc6-85ed2bd56b38
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EVT_CHANNEL_TYPE, EVT_CHANNEL_TYPE enumeration [EventLog], EvtChannelTypeAdmin, EvtChannelTypeAnalytic, EvtChannelTypeDebug, EvtChannelTypeOperational, _EVT_CHANNEL_TYPE, wes.evt_channel_type, winevt/EVT_CHANNEL_TYPE, winevt/EvtChannelTypeAdmin, winevt/EvtChannelTypeAnalytic, winevt/EvtChannelTypeDebug, winevt/EvtChannelTypeOperational
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WinHttpSetTimeouts function
 author: windows-sdk-content
 description: Sets time-outs involved with HTTP transactions.
 old-location: http\winhttpsettimeouts.htm
-tech.root: winhttp
+tech.root: WinHttp
 ms.assetid: e31fee78-44bd-41cd-a181-bb3c0418b469
 ms.author: windowssdkdev
-ms.date: 09/11/2018
+ms.date: 09/26/2018
 ms.keywords: WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts
 ms.prod: windows-hardware
 ms.technology: windows-devices

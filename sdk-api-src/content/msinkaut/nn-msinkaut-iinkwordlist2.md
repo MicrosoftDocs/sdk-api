@@ -7,7 +7,7 @@ old-location: tablet\iinkwordlist2.htm
 tech.root: tablet
 ms.assetid: 16be0c11-7525-4e6e-9556-e7308c1919cf
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 16be0c11-7525-4e6e-9556-e7308c1919cf, IInkWordList2, IInkWordList2 interface [Tablet PC], IInkWordList2 interface [Tablet PC],described, msinkaut/IInkWordList2, tablet.iinkwordlist2
 ms.prod: windows
 ms.technology: windows-sdk

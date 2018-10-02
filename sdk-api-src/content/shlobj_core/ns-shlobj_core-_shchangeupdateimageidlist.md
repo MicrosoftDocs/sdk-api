@@ -4,10 +4,10 @@ title: "_SHChangeUpdateImageIDList"
 author: windows-sdk-content
 description: SHChangeUpdateImageIDList may be altered or unavailable.
 old-location: shell\SHChangeUpdateImageIDList.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0aa99a6b-39c2-41f3-bd9d-30b86aa4da2f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPSHChangeUpdateImageIDList, GIL_NOTFILENAME, GIL_SIMULATEDOC, LPSHChangeUpdateImageIDList, LPSHChangeUpdateImageIDList structure pointer [Windows Shell], SHChangeUpdateImageIDList, SHChangeUpdateImageIDList structure [Windows Shell], _SHChangeUpdateImageIDList, _shell_SHChangeUpdateImageIDList, shell.SHChangeUpdateImageIDList, shlobj_core/LPSHChangeUpdateImageIDList, shlobj_core/SHChangeUpdateImageIDList"
 ms.prod: windows
 ms.technology: windows-sdk

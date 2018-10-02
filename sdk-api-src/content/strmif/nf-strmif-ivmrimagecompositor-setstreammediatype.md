@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor_setstreammediatype.htm
 tech.root: DirectShow
 ms.assetid: ea3ed291-d837-4d11-bc82-0a060b093b21
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],SetStreamMediaType method, IVMRImageCompositor.SetStreamMediaType, IVMRImageCompositor::SetStreamMediaType, IVMRImageCompositorSetStreamMediaType, SetStreamMediaType, SetStreamMediaType method [DirectShow], SetStreamMediaType method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_setstreammediatype, strmif/IVMRImageCompositor::SetStreamMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\isynchronizecontainer.htm
 tech.root: com
 ms.assetid: 6a5be504-b5fa-491c-ba65-74c5de39e263
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM],described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
 ms.prod: windows
 ms.technology: windows-sdk

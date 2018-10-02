@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11query1.htm
 tech.root: direct3d11
 ms.assetid: 6DF4364F-A20D-466E-8F26-17C6DD32E84B
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D11Query1, ID3D11Query1 interface [Direct3D 11], ID3D11Query1 interface [Direct3D 11],described, d3d11_3/ID3D11Query1, direct3d11.id3d11query1
 ms.prod: windows
 ms.technology: windows-sdk

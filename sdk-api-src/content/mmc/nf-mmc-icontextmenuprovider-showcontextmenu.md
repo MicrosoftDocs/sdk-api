@@ -4,10 +4,10 @@ title: IContextMenuProvider::ShowContextMenu
 author: windows-sdk-content
 description: The IContextMenuProvider::ShowContextMenu method displays a context menu.
 old-location: mmc\icontextmenuprovider_showcontextmenu.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 8fe9f474-c47b-4b53-8cbc-d658c82d7591
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IContextMenuProvider interface [MMC],ShowContextMenu method, IContextMenuProvider.ShowContextMenu, IContextMenuProvider::ShowContextMenu, ShowContextMenu, ShowContextMenu method [MMC], ShowContextMenu method [MMC],IContextMenuProvider interface, _slate_icontextmenuprovider_showcontextmenu, mmc.icontextmenuprovider_showcontextmenu, mmc/IContextMenuProvider::ShowContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

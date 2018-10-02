@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributemgr_onupdateinfo.htm
 tech.root: TSF
 ms.assetid: 0f906a19-16b8-47c1-adca-10d6da0cc7dd
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfDisplayAttributeMgr interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeMgr.OnUpdateInfo, ITfDisplayAttributeMgr::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, _tsf_itfdisplayattributemgr_onupdateinfo_ref, msctf/ITfDisplayAttributeMgr::OnUpdateInfo, tsf.itfdisplayattributemgr_onupdateinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

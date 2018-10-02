@@ -4,10 +4,10 @@ title: KF_CATEGORY
 author: windows-sdk-content
 description: Value that represent a category by which a folder registered with the Known Folder system can be classified.
 old-location: shell\KF_CATEGORY.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2ca0d3e2-bb4c-4a28-90d6-fe2852373b88
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: KF_CATEGORY, KF_CATEGORY enumeration [Windows Shell], KF_CATEGORY_COMMON, KF_CATEGORY_FIXED, KF_CATEGORY_PERUSER, KF_CATEGORY_VIRTUAL, _shell_KF_CATEGORY, shell.KF_CATEGORY, shobjidl_core/KF_CATEGORY, shobjidl_core/KF_CATEGORY_COMMON, shobjidl_core/KF_CATEGORY_FIXED, shobjidl_core/KF_CATEGORY_PERUSER, shobjidl_core/KF_CATEGORY_VIRTUAL
 ms.prod: windows
 ms.technology: windows-sdk

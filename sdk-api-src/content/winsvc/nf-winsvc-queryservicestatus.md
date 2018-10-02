@@ -7,7 +7,7 @@ old-location: base\queryservicestatus.htm
 tech.root: Services
 ms.assetid: dcd2d8a1-10ef-4229-b873-b4fc3ec9293f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QueryServiceStatus, QueryServiceStatus function, _win32_queryservicestatus, base.queryservicestatus, winsvc/QueryServiceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

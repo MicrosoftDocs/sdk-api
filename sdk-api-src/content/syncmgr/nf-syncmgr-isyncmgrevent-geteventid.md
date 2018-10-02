@@ -4,10 +4,10 @@ title: ISyncMgrEvent::GetEventID
 author: windows-sdk-content
 description: Gets the event ID.
 old-location: shell\ISyncMgrEvent_GetEventID.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2951a015-b365-468b-a143-1b807885a99a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetEventID, GetEventID method [Windows Shell], GetEventID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetEventID method, ISyncMgrEvent.GetEventID, ISyncMgrEvent::GetEventID, _shell_ISyncMgrEvent_GetEventID, shell.ISyncMgrEvent_GetEventID, syncmgr/ISyncMgrEvent::GetEventID
 ms.prod: windows-hardware
 ms.technology: windows-devices

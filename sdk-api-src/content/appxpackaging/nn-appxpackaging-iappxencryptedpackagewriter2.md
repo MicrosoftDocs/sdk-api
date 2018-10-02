@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedpackagewriter2.htm
 tech.root: appxpkg
 ms.assetid: C45364CE-9943-4677-856D-8761CF21EB36
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: IAppxEncryptedPackageWriter2, IAppxEncryptedPackageWriter2 interface [App packaging and management], IAppxEncryptedPackageWriter2 interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter2, appxpkg.iappxencryptedpackagewriter2
 ms.prod: windows
 ms.technology: windows-sdk

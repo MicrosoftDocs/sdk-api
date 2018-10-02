@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilatlongreport_getaltitude.htm
 tech.root: LocationAPI
 ms.assetid: 7ab8e3fb-03da-4529-aaf0-3a178474e4a5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetAltitude, GetAltitude method [WinLocation], GetAltitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitude method, ILatLongReport.GetAltitude, ILatLongReport::GetAltitude, WinLocation_COM_Ref.ilatlongreport_getaltitude, locationapi/ILatLongReport::GetAltitude
 ms.prod: windows-hardware
 ms.technology: windows-devices

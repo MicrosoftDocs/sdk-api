@@ -4,10 +4,10 @@ title: ReadGlobalPwrPolicy function
 author: windows-sdk-content
 description: Retrieves the current global power policy settings.
 old-location: base\readglobalpwrpolicy.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 65da3d9f-b688-4d41-9da0-05159297d169
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ReadGlobalPwrPolicy, ReadGlobalPwrPolicy function, _win32_readglobalpwrpolicy, base.readglobalpwrpolicy, powrprof/ReadGlobalPwrPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

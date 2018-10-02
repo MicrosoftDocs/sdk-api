@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_getsignaturemethod.htm
 tech.root: printdocs
 ms.assetid: ab01420f-c401-463a-a695-4594c1f579d3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetSignatureMethod, GetSignatureMethod method [XPS Documents and Packaging], GetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignatureMethod method, IXpsSigningOptions.GetSignatureMethod, IXpsSigningOptions::GetSignatureMethod, xps.ixpssigningoptions_getsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::GetSignatureMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

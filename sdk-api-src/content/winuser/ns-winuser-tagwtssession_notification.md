@@ -7,7 +7,7 @@ old-location: termserv\wtssession_notification_str.htm
 tech.root: TermServ
 ms.assetid: 863bd689-796b-4875-81bf-f853354b08b5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWTSSESSION_NOTIFICATION, PWTSSESSION_NOTIFICATION, PWTSSESSION_NOTIFICATION structure pointer [Remote Desktop Services], WTSSESSION_NOTIFICATION, WTSSESSION_NOTIFICATION structure [Remote Desktop Services], _win32_wtssession_notification_str, tagWTSSESSION_NOTIFICATION, termserv.wtssession_notification_str, winuser/PWTSSESSION_NOTIFICATION, winuser/WTSSESSION_NOTIFICATION"
 ms.prod: windows
 ms.technology: windows-sdk

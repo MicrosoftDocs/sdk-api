@@ -7,7 +7,7 @@ old-location: input_ink\iinkpresenterdesktop_onhighcontrastchanged.htm
 tech.root: input_ink
 ms.assetid: f231fbb7-685b-49db-80c5-dee367ff7f5b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IInkPresenterDesktop interface,OnHighContrastChanged method, IInkPresenterDesktop.OnHighContrastChanged, IInkPresenterDesktop::OnHighContrastChanged, InkPresenterDesktop.iinkpresenterdesktop_onhighcontrastchanged, OnHighContrastChanged, OnHighContrastChanged method, OnHighContrastChanged method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::OnHighContrastChanged, input_ink.iinkpresenterdesktop_onhighcontrastchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

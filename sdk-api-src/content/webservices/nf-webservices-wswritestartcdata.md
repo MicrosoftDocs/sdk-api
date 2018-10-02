@@ -7,7 +7,7 @@ old-location: wsw\wswritestartcdata.htm
 tech.root: wsw
 ms.assetid: c233244c-24b6-4baa-ba36-697283ff33f3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsWriteStartCData, WsWriteStartCData function [Web Services for Windows], webservices/WsWriteStartCData, wsw.wswritestartcdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wcs\getstandardcolorspaceprofile.htm
 tech.root: WCS
 ms.assetid: b00f5c5c-f536-4d88-b61f-d2bdd0b180a0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetStandardColorSpaceProfile, GetStandardColorSpaceProfile function [Windows Color System], GetStandardColorSpaceProfileA, GetStandardColorSpaceProfileW, _color_GetStandardColorSpaceProfile, icm/GetStandardColorSpaceProfile, icm/GetStandardColorSpaceProfileA, icm/GetStandardColorSpaceProfileW, wcs.getstandardcolorspaceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

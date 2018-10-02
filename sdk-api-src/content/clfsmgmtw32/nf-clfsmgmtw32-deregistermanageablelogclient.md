@@ -7,7 +7,7 @@ old-location: fs\deregistermanageablelogclient.htm
 tech.root: Clfs
 ms.assetid: 293a4856-62d4-49a3-9177-4d09a0897200
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeregisterManageableLogClient, DeregisterManageableLogClient function [Files], clfsmgmtw32/DeregisterManageableLogClient, fs.deregistermanageablelogclient
 ms.prod: windows-hardware
 ms.technology: windows-devices

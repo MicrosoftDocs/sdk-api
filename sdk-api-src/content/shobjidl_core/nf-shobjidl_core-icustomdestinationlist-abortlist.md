@@ -4,10 +4,10 @@ title: ICustomDestinationList::AbortList
 author: windows-sdk-content
 description: Discontinues a Jump List building session initiated by ICustomDestinationList::BeginList without committing any changes.
 old-location: shell\ICustomDestinationList_AbortList.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 922eb957-8031-4b4c-9b13-78a86f199bfa
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: AbortList, AbortList method [Windows Shell], AbortList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AbortList method, ICustomDestinationList.AbortList, ICustomDestinationList::AbortList, _shell_ICustomDestinationList_AbortList, shell.ICustomDestinationList_AbortList, shobjidl_core/ICustomDestinationList::AbortList
 ms.prod: windows-hardware
 ms.technology: windows-devices

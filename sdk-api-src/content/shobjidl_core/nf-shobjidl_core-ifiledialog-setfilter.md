@@ -4,10 +4,10 @@ title: IFileDialog::SetFilter
 author: windows-sdk-content
 description: SetFilter is no longer available for use as of Windows 7.
 old-location: shell\IFileDialog_SetFilter.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6f650ae2-77c4-496c-8b8b-279c69eaaf65
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFilter method, IFileDialog.SetFilter, IFileDialog::SetFilter, SetFilter, SetFilter method [Windows Shell], SetFilter method [Windows Shell],IFileDialog interface, _shell_IFileDialog_SetFilter, shell.IFileDialog_SetFilter, shobjidl_core/IFileDialog::SetFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

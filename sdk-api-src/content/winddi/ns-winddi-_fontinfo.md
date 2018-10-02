@@ -4,10 +4,10 @@ title: "_FONTINFO"
 author: windows-sdk-content
 description: The FONTINFO structure contains information regarding a specific font.
 old-location: display\fontinfo.htm
-tech.root: display
+tech.root: Display
 ms.assetid: fdb1539a-f8cb-41fd-bad2-d84c6663b1bb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PFONTINFO, FONTINFO, FONTINFO structure [Display Devices], PFONTINFO, PFONTINFO structure pointer [Display Devices], _FONTINFO, display.fontinfo, grstrcts_95e2167e-53ae-44d9-a889-be2139bcac99.xml, winddi/FONTINFO, winddi/PFONTINFO"
 ms.prod: windows
 ms.technology: windows-sdk

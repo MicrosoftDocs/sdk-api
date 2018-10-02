@@ -7,7 +7,7 @@ old-location: wsw\ws_guid_description.htm
 tech.root: wsw
 ms.assetid: e0a98163-66c3-4b6d-a91c-f143b3aad864
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_GUID_DESCRIPTION, WS_GUID_DESCRIPTION structure [Web Services for Windows], _WS_GUID_DESCRIPTION, webservices/WS_GUID_DESCRIPTION, wsw.ws_guid_description
 ms.prod: windows
 ms.technology: windows-sdk

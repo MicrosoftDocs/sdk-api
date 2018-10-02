@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gsgetsamplers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetsamplers.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GSGetSamplers, GSGetSamplers method [Direct3D 10], GSGetSamplers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetSamplers method, ID3D10Device.GSGetSamplers, ID3D10Device::GSGetSamplers, d3d10/ID3D10Device::GSGetSamplers, d4899d8d-c796-58f0-bf8b-42bb650492dc, direct3d10.id3d10device_gsgetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices

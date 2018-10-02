@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevvirtualdevicecreation.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_48by.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FaxDevVirtualDeviceCreation, FaxDevVirtualDeviceCreation function [Fax Service], _mfax_faxdevvirtualdevicecreation, fax._mfax_faxdevvirtualdevicecreation, faxdev/FaxDevVirtualDeviceCreation
 ms.prod: windows-hardware
 ms.technology: windows-devices

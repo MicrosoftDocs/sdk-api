@@ -7,7 +7,7 @@ old-location: wcs\closecolorprofile.htm
 tech.root: WCS
 ms.assetid: 49656afa-64fc-4421-8948-34a65c9f829e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CloseColorProfile, CloseColorProfile function [Windows Color System], _color_CloseColorProfile, icm/CloseColorProfile, wcs.closecolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

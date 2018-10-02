@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_buffer_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_buffer_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 1eca8f2f-7776-2027-7a51-209cc4fd7200, CD3D10_BUFFER_DESC, D3D10_BUFFER_DESC, D3D10_BUFFER_DESC structure [Direct3D 10], d3d10/D3D10_BUFFER_DESC, direct3d10.d3d10_buffer_desc
 ms.prod: windows
 ms.technology: windows-sdk

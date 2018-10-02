@@ -7,7 +7,7 @@ old-location: base\ivdssubsystemiscsi_queryportals.htm
 tech.root: VDS
 ms.assetid: 277cc256-ac9d-4a4c-b154-ba611c08db9f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryPortals method, IVdsSubSystemIscsi.QueryPortals, IVdsSubSystemIscsi::QueryPortals, QueryPortals, QueryPortals method [VDS], QueryPortals method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_queryportals, vds/IVdsSubSystemIscsi::QueryPortals, vdshwprv/IVdsSubSystemIscsi::QueryPortals
 ms.prod: windows-hardware
 ms.technology: windows-devices

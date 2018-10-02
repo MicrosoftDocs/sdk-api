@@ -7,7 +7,7 @@ old-location: netmon\addproperty.htm
 tech.root: NetMon2
 ms.assetid: 7aa9af0a-2434-4331-a244-a743dd430dcf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddProperty, AddProperty function [Network Monitor], _netmon_addproperty, netmon.addproperty, sql_1/AddProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

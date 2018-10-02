@@ -7,7 +7,7 @@ old-location: wec\ec_subscription_content_format.htm
 tech.root: WEC
 ms.assetid: 72db596e-ef94-4167-bf1a-176095e17f8d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EC_SUBSCRIPTION_CONTENT_FORMAT, EC_SUBSCRIPTION_CONTENT_FORMAT enumeration, EcContentFormatEvents, EcContentFormatRenderedText, _EC_SUBSCRIPTION_CONTENT_FORMAT, evcoll/EC_SUBSCRIPTION_CONTENT_FORMAT, evcoll/EcContentFormatEvents, evcoll/EcContentFormatRenderedText, wec.ec_subscription_content_format, wes.ec_subscription_content_format
 ms.prod: windows
 ms.technology: windows-sdk

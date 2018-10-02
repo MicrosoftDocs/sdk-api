@@ -7,7 +7,7 @@ old-location: com\iexternalconnection.htm
 tech.root: com
 ms.assetid: 28afc305-d5b0-4ac9-9412-5876e575c2c2
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternalConnection interface [COM],described, _com_iexternalconnection, com.iexternalconnection, objidlbase/IExternalConnection
 ms.prod: windows
 ms.technology: windows-sdk

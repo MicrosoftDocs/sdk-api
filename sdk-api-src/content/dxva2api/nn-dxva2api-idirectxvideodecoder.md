@@ -4,10 +4,10 @@ title: IDirectXVideoDecoder
 author: windows-sdk-content
 description: Represents a DirectX Video Acceleration (DXVA) video decoder device.
 old-location: mf\idirectxvideodecoder.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 116c19a3-39be-4f96-969f-f3d62ed33a70
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 116c19a3-39be-4f96-969f-f3d62ed33a70, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], IDirectXVideoDecoder interface [Media Foundation],described, dxva2api/IDirectXVideoDecoder, mf.idirectxvideodecoder
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\iksjackdescription_getjackcount.htm
 tech.root: CoreAudio
 ms.assetid: d99ad923-2846-4d3e-bc5b-b5b737219f13
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: GetJackCount, GetJackCount method [Core Audio], GetJackCount method [Core Audio],IKsJackDescription interface, IKsJackDescription interface [Core Audio],GetJackCount method, IKsJackDescription.GetJackCount, IKsJackDescription::GetJackCount, IKsJackDescriptionGetJackCount, coreaudio.iksjackdescription_getjackcount, devicetopology/IKsJackDescription::GetJackCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

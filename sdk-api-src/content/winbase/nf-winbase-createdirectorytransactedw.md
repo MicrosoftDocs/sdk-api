@@ -4,10 +4,10 @@ title: CreateDirectoryTransactedW function
 author: windows-sdk-content
 description: Creates a new directory as a transacted operation, with the attributes of a specified template directory.
 old-location: fs\createdirectorytransacted.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CreateDirectoryTransacted, CreateDirectoryTransacted function [Files], CreateDirectoryTransactedA, CreateDirectoryTransactedW, fs.createdirectorytransacted, winbase/CreateDirectoryTransacted, winbase/CreateDirectoryTransactedA, winbase/CreateDirectoryTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

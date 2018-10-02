@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__relea
 tech.root: printdocs
 ms.assetid: f4960aa1-237f-491e-b69c-0aa107d9ddad
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IPrintAsyncNotifyDataObject interface [Windows GDI],ReleaseData method, IPrintAsyncNotifyDataObject.ReleaseData, IPrintAsyncNotifyDataObject::ReleaseData, ReleaseData, ReleaseData method [Windows GDI], ReleaseData method [Windows GDI],IPrintAsyncNotifyDataObject interface, _win32_IPrintAsyncNotifyDataObject_ReleaseData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata, prnasnot/IPrintAsyncNotifyDataObject::ReleaseData
 ms.prod: windows-hardware
 ms.technology: windows-devices

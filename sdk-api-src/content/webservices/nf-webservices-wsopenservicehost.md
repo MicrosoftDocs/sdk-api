@@ -7,7 +7,7 @@ old-location: wsw\wsopenservicehost.htm
 tech.root: wsw
 ms.assetid: 4e6ef553-7f0e-4ed7-bbdd-e85d4e0a095c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsOpenServiceHost, WsOpenServiceHost function [Web Services for Windows], webservices/WsOpenServiceHost, wsw.wsopenservicehost
 ms.prod: windows-hardware
 ms.technology: windows-devices

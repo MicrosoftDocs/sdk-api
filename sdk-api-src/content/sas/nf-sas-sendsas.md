@@ -7,7 +7,7 @@ old-location: security\sendsas.htm
 tech.root: secauthn
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPolicyQualifier
 author: windows-sdk-content
 description: Represents a qualifier that can be associated with a certificate policy.
 old-location: security\ipolicyqualifier.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 3804e372-17bb-458d-8da5-85d760fe5e60
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IPolicyQualifier, IPolicyQualifier interface [Security], IPolicyQualifier interface [Security],described, certenroll/IPolicyQualifier, security.ipolicyqualifier
 ms.prod: windows
 ms.technology: windows-sdk

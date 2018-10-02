@@ -7,7 +7,7 @@ old-location: security\icertadmin2_deleterow.htm
 tech.root: seccrypto
 ms.assetid: ee64740a-850b-4af5-a7cd-75eaa1687f8d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CCertAdmin object [Security],DeleteRow method, CDR_EXPIRED, CDR_REQUEST_LAST_CHANGED, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, DeleteRow, DeleteRow method [Security], DeleteRow method [Security],CCertAdmin object, DeleteRow method [Security],ICertAdmin interface, DeleteRow method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],DeleteRow method, ICertAdmin2 interface [Security],DeleteRow method, ICertAdmin2.DeleteRow, ICertAdmin2::DeleteRow, ICertAdmin::DeleteRow, certadm/ICertAdmin2::DeleteRow, certadm/ICertAdmin::DeleteRow, security.icertadmin2_deleterow
 ms.prod: windows-hardware
 ms.technology: windows-devices

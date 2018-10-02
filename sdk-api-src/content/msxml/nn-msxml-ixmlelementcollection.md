@@ -7,7 +7,7 @@ old-location: winprog\ixmlelementcollection.htm
 tech.root: devnotes
 ms.assetid: 1d27e5fc-0491-44ee-9134-40f9f909b1cb
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IXMLElementCollection, IXMLElementCollection interface [Windows API], IXMLElementCollection interface [Windows API],described, msxml/IXMLElementCollection, winprog.ixmlelementcollection
 ms.prod: windows
 ms.technology: windows-sdk

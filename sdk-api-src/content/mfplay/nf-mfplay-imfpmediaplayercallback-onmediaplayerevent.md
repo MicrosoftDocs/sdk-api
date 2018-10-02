@@ -4,10 +4,10 @@ title: IMFPMediaPlayerCallback::OnMediaPlayerEvent
 author: windows-sdk-content
 description: Called by the MFPlay player object to notify the application of a playback event.
 old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFPMediaPlayerCallback interface [Media Foundation],OnMediaPlayerEvent method, IMFPMediaPlayerCallback.OnMediaPlayerEvent, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation],IMFPMediaPlayerCallback interface, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

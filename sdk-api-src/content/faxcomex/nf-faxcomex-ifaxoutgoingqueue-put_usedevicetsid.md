@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_usedevicetsid
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_72uc.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],UseDeviceTSID property, IFaxOutgoingQueue.UseDeviceTSID, IFaxOutgoingQueue.get_UseDeviceTSID, IFaxOutgoingQueue.put_UseDeviceTSID, IFaxOutgoingQueue::UseDeviceTSID, IFaxOutgoingQueue::get_UseDeviceTSID, IFaxOutgoingQueue::put_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.usedevicetsid, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_usedevicetsid_cpp, fax._mfax_faxoutgoingqueue_usedevicetsid, faxcomex/IFaxOutgoingQueue::UseDeviceTSID, faxcomex/IFaxOutgoingQueue::get_UseDeviceTSID, faxcomex/IFaxOutgoingQueue::put_UseDeviceTSID, put_UseDeviceTSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

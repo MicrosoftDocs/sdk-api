@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_getlocaloffsetfordate_const_filetime__.htm
 tech.root: WmiSdk
 ms.assetid: fd40907d-c4df-4eb0-8516-45def3d5d01f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetLocalOffsetForDate method, WBEMTime.GetLocalOffsetForDate, WBEMTime.GetLocalOffsetForDate(const SYSTEMTIME), WBEMTime::GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate(const FILETIME*), WBEMTime::GetLocalOffsetForDate(const SYSTEMTIME), wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_filetime__
 ms.prod: windows-hardware
 ms.technology: windows-devices

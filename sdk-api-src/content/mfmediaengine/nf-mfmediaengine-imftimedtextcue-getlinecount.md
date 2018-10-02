@@ -4,10 +4,10 @@ title: IMFTimedTextCue::GetLineCount
 author: windows-sdk-content
 description: Gets the number of lines of text in the timed-text cue.
 old-location: mf\imftimedtextcue_getlinecount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5930C8BB-5F00-4263-B3F6-B61EF6DBD0DA
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetLineCount, GetLineCount method [Media Foundation], GetLineCount method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetLineCount method, IMFTimedTextCue.GetLineCount, IMFTimedTextCue::GetLineCount, mf.imftimedtextcue_getlinecount, mfmediaengine/IMFTimedTextCue::GetLineCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

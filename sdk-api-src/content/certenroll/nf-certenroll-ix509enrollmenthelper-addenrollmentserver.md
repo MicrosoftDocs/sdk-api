@@ -4,10 +4,10 @@ title: IX509EnrollmentHelper::AddEnrollmentServer
 author: windows-sdk-content
 description: Saves certificate enrollment server (CES) access credentials in the credential cache.
 old-location: security\ix509enrollmenthelper_addenrollmentserver.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: a354fc02-299d-472c-9821-1509e299ccb9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AddEnrollmentServer, AddEnrollmentServer method [Security], AddEnrollmentServer method [Security],IX509EnrollmentHelper interface, IX509EnrollmentHelper interface [Security],AddEnrollmentServer method, IX509EnrollmentHelper.AddEnrollmentServer, IX509EnrollmentHelper::AddEnrollmentServer, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentHelper::AddEnrollmentServer, security.ix509enrollmenthelper_addenrollmentserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

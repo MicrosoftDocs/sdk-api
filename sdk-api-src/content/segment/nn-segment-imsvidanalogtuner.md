@@ -7,7 +7,7 @@ old-location: mstv\imsvidanalogtuner.htm
 tech.root: MSTV
 ms.assetid: 640143d3-6712-4e92-a1d9-0689637b3d90
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], IMSVidAnalogTuner interface [Microsoft TV Technologies],described, IMSVidAnalogTunerInterface, mstv.imsvidanalogtuner, segment/IMSVidAnalogTuner
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winmsg\updatelayeredwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\updatelayeredwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ULW_ALPHA, ULW_COLORKEY, ULW_OPAQUE, UpdateLayeredWindow, UpdateLayeredWindow function [Windows and Messages], _win32_UpdateLayeredWindow, _win32_updatelayeredwindow_cpp, winmsg.updatelayeredwindow, winui._win32_updatelayeredwindow, winuser/UpdateLayeredWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\getpeername_2.htm
 tech.root: WinSock
 ms.assetid: df2679a5-cdd9-468b-823a-f98044189f65
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_getpeername_2, getpeername, getpeername function [Winsock], winsock.getpeername_2, winsock/getpeername"
 ms.prod: windows-hardware
 ms.technology: windows-devices

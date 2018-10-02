@@ -4,10 +4,10 @@ title: IShellImageData::SelectPage
 author: windows-sdk-content
 description: Selects a specified page in a multipage image.
 old-location: shell\IShellImageData_SelectPage.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bc852087-59f7-4c84-861a-e270a6ecf840
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellImageData interface [Windows Shell],SelectPage method, IShellImageData.SelectPage, IShellImageData::SelectPage, SelectPage, SelectPage method [Windows Shell], SelectPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_SelectPage, shell.IShellImageData_SelectPage, shimgdata/IShellImageData::SelectPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

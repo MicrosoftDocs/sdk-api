@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createrectangleclip.htm
 tech.root: directcomp
 ms.assetid: b937fbf0-b920-413a-a184-ebe08ee893e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateRectangleClip, CreateRectangleClip method [DirectComposition], CreateRectangleClip method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRectangleClip method, IDCompositionDevice.CreateRectangleClip, IDCompositionDevice::CreateRectangleClip, dcomp/IDCompositionDevice::CreateRectangleClip, directcomp.idcompositiondevice_createrectangleclip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEmailAction
 author: windows-sdk-content
 description: Represents an action that sends an email message.
 old-location: taskschd\iemailaction.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 2f08fd42-233a-40ee-96d0-f0ac8b25b847
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IEmailAction, IEmailAction interface [Task Scheduler], IEmailAction interface [Task Scheduler],described, taskschd.iemailaction, taskschd/IEmailAction
 ms.prod: windows
 ms.technology: windows-sdk

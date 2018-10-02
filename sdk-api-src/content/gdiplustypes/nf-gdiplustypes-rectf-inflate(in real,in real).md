@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods\inflate_74dx_dy.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],RectF class, RectF class [GDI+],Inflate method, RectF.Inflate, RectF.Inflate(IN REAL,IN REAL), RectF.Inflate(REAL,REAL), RectF::Inflate, RectF::Inflate(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Inflate_dx_dy_, gdiplus._gdiplus_CLASS_RectF_Inflate_dx_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices

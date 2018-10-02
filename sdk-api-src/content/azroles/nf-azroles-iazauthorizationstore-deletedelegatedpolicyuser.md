@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::DeleteDelegatedPolicyUser
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyuser.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cb00abca-7116-4a71-aed0-87ed9caff0fb
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzAuthorizationStore object, DeleteDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteDelegatedPolicyUser method, IAzAuthorizationStore.DeleteDelegatedPolicyUser, IAzAuthorizationStore::DeleteDelegatedPolicyUser, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUser, security.azauthorizationstore_deletedelegatedpolicyuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

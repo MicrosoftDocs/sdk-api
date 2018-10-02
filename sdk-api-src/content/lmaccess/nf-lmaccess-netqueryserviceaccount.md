@@ -7,7 +7,7 @@ old-location: security\netqueryserviceaccount.htm
 tech.root: SecMgmt
 ms.assetid: ee253cab-bd53-426e-809a-12a1ccdc010b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

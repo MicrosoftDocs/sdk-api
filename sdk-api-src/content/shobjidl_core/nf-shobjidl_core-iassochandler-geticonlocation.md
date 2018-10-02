@@ -4,10 +4,10 @@ title: IAssocHandler::GetIconLocation
 author: windows-sdk-content
 description: Retrieves the location of the icon associated with the application.
 old-location: shell\IAssocHandler_GetIconLocation.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4b883c2c-6845-4e53-b41b-83c09091ee53
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetIconLocation method, IAssocHandler.GetIconLocation, IAssocHandler::GetIconLocation, _shell_IAssocHandler_GetIconLocation, shell.IAssocHandler_GetIconLocation, shobjidl_core/IAssocHandler::GetIconLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

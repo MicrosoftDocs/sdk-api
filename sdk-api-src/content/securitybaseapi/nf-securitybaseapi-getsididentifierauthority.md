@@ -4,10 +4,10 @@ title: GetSidIdentifierAuthority function
 author: windows-sdk-content
 description: Returns a pointer to the SID_IDENTIFIER_AUTHORITY structure in a specified security identifier (SID).
 old-location: security\getsididentifierauthority.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 67a06e7b-775f-424c-ab36-0fc9b93b801a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetSidIdentifierAuthority, GetSidIdentifierAuthority function [Security], _win32_getsididentifierauthority, security.getsididentifierauthority, securitybaseapi/GetSidIdentifierAuthority
 ms.prod: windows-hardware
 ms.technology: windows-devices

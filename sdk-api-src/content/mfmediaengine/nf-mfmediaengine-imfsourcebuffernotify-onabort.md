@@ -4,10 +4,10 @@ title: IMFSourceBufferNotify::OnAbort
 author: windows-sdk-content
 description: Used to indicate that the source buffer has been aborted.
 old-location: mf\imfsourcebuffernotify_onabort.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 65d8bbb3-e683-4a9d-acb2-023932d3e44d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnAbort method, IMFSourceBufferNotify.OnAbort, IMFSourceBufferNotify::OnAbort, OnAbort, OnAbort method [Media Foundation], OnAbort method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onabort, mfmediaengine/IMFSourceBufferNotify::OnAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

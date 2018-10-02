@@ -4,10 +4,10 @@ title: MFCreateVideoMediaType function
 author: windows-sdk-content
 description: Creates a video media type from an MFVIDEOFORMAT structure.
 old-location: mf\mfcreatevideomediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 143aedec-d1ce-434a-8a1c-62a2c9d55e88
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 143aedec-d1ce-434a-8a1c-62a2c9d55e88, MFCreateVideoMediaType, MFCreateVideoMediaType function [Media Foundation], mf.mfcreatevideomediatype, mfapi/MFCreateVideoMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

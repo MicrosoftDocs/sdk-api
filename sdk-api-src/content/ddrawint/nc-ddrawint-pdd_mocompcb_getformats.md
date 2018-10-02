@@ -4,10 +4,10 @@ title: PDD_MOCOMPCB_GETFORMATS
 author: windows-sdk-content
 description: The DdMoCompGetFormats callback function indicates the uncompressed formats to which the hardware can decode the data.
 old-location: display\ddmocompgetformats.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 9df6473f-32a1-49bd-9ddb-2f2adec3cb45
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DdMoCompGetFormats, DdMoCompGetFormats callback function [Display Devices], PDD_MOCOMPCB_GETFORMATS, PDD_MOCOMPCB_GETFORMATS callback, ddfncs_bc9cd90d-e40c-4ddd-9415-3d02c4620618.xml, ddrawint/DdMoCompGetFormats, display.ddmocompgetformats
 ms.prod: windows
 ms.technology: windows-sdk

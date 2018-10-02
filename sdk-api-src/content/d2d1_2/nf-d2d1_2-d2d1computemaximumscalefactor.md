@@ -7,7 +7,7 @@ old-location: direct2d\d2d1computemaximumscalefactor.htm
 tech.root: direct2d
 ms.assetid: 5BC10305-436F-4528-9647-E70713130505
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1ComputeMaximumScaleFactor, D2D1ComputeMaximumScaleFactor function [Direct2D], d2d1_2/D2D1ComputeMaximumScaleFactor, direct2d.d2d1computemaximumscalefactor
 ms.prod: windows-hardware
 ms.technology: windows-devices

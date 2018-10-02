@@ -4,10 +4,10 @@ title: QueryOptionalDelayLoadedAPI function
 author: windows-sdk-content
 description: Determines whether the specified function in a delay-loaded DLL is available on the system.
 old-location: base\queryoptionaldelayloadedapi.htm
-tech.root: dlls
+tech.root: Dlls
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
 ms.prod: windows-hardware
 ms.technology: windows-devices

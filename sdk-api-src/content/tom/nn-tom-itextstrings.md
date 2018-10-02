@@ -4,10 +4,10 @@ title: ITextStrings
 author: windows-sdk-content
 description: The ITextStrings interface represents a collection of rich-text strings that are useful for manipulating rich text.
 old-location: controls\itextstrings.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: c878d0db-ac13-4ac9-8601-d1c1ba76cd85
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextStrings, ITextStrings interface [Windows Controls], ITextStrings interface [Windows Controls],described, controls.itextstrings, tom/ITextStrings
 ms.prod: windows
 ms.technology: windows-sdk

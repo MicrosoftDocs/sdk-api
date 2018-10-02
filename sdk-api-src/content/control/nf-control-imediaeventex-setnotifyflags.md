@@ -7,7 +7,7 @@ old-location: dshow\imediaeventex_setnotifyflags.htm
 tech.root: DirectShow
 ms.assetid: 6a41b6eb-3fe9-4b2e-bcbb-a407e0e6ab5e
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyFlags method, IMediaEventEx.SetNotifyFlags, IMediaEventEx::SetNotifyFlags, IMediaEventExSetNotifyFlags, SetNotifyFlags, SetNotifyFlags method [DirectShow], SetNotifyFlags method [DirectShow],IMediaEventEx interface, control/IMediaEventEx::SetNotifyFlags, dshow.imediaeventex_setnotifyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IColumnManager
 author: windows-sdk-content
 description: Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a PROPERTYKEY structure, which names a property.
 old-location: shell\IColumnManager.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d01cacd8-1867-4f44-bbc3-876bd727c0fe
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IColumnManager, IColumnManager interface [Windows Shell], IColumnManager interface [Windows Shell],described, shell.IColumnManager, shell_IColumnManager, shobjidl_core/IColumnManager
 ms.prod: windows
 ms.technology: windows-sdk

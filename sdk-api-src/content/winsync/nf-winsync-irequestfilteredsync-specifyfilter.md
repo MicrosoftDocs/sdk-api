@@ -7,7 +7,7 @@ old-location: winsync\irequestfilteredsync_specifyfilter.htm
 tech.root: winsync
 ms.assetid: 653e953f-3f08-4d65-85d5-3c5466361ea5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRequestFilteredSync interface [Windows Sync],SpecifyFilter method, IRequestFilteredSync.SpecifyFilter, IRequestFilteredSync::SpecifyFilter, SpecifyFilter, SpecifyFilter method [Windows Sync], SpecifyFilter method [Windows Sync],IRequestFilteredSync interface, winsync.irequestfilteredsync_specifyfilter, winsync/IRequestFilteredSync::SpecifyFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

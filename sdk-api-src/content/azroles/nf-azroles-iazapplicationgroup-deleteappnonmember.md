@@ -4,10 +4,10 @@ title: IAzApplicationGroup::DeleteAppNonMember
 author: windows-sdk-content
 description: Removes the specified IAzApplicationGroup object from the list of application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_deleteappnonmember.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d78f3cd9-4ccb-47b7-98bd-5e69ebbb178c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteAppNonMember method, DeleteAppNonMember, DeleteAppNonMember method [Security], DeleteAppNonMember method [Security],AzApplicationGroup object, DeleteAppNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppNonMember method, IAzApplicationGroup.DeleteAppNonMember, IAzApplicationGroup::DeleteAppNonMember, azroles/IAzApplicationGroup::DeleteAppNonMember, security.iazapplicationgroup_deleteappnonmember
 ms.prod: windows-hardware
 ms.technology: windows-devices

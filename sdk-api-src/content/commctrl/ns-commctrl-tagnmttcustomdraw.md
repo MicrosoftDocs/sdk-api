@@ -4,10 +4,10 @@ title: tagNMTTCUSTOMDRAW
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW notification code sent by a tooltip control.
 old-location: controls\NMTTCUSTOMDRAW.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\nmttcustomdraw.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW structure pointer [Windows Controls], NMTTCUSTOMDRAW, NMTTCUSTOMDRAW structure [Windows Controls], _win32_NMTTCUSTOMDRAW, _win32_NMTTCUSTOMDRAW_cpp, commctrl/LPNMTTCUSTOMDRAW, commctrl/NMTTCUSTOMDRAW, controls.NMTTCUSTOMDRAW, controls._win32_NMTTCUSTOMDRAW, tagNMTTCUSTOMDRAW"
 ms.prod: windows
 ms.technology: windows-sdk

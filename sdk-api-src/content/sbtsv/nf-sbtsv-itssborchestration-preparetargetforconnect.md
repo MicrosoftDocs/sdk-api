@@ -7,7 +7,7 @@ old-location: termserv\itssborchestration_preparetargetforconnect.htm
 tech.root: TermServ
 ms.assetid: 46ffad8a-bafc-426f-9963-9a6f6f60329b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbOrchestration interface [Remote Desktop Services],PrepareTargetForConnect method, ITsSbOrchestration.PrepareTargetForConnect, ITsSbOrchestration::PrepareTargetForConnect, PrepareTargetForConnect, PrepareTargetForConnect method [Remote Desktop Services], PrepareTargetForConnect method [Remote Desktop Services],ITsSbOrchestration interface, sbtsv/ITsSbOrchestration::PrepareTargetForConnect, termserv.itssborchestration_preparetargetforconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

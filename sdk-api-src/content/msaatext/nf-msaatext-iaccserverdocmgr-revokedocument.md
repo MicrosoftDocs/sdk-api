@@ -7,7 +7,7 @@ old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__revokedocument.htm
 tech.root: WinAuto
 ms.assetid: 8691a641-fc06-451c-9988-234e01dc02df
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],RevokeDocument method, IAccServerDocMgr.RevokeDocument, IAccServerDocMgr::RevokeDocument, RevokeDocument, RevokeDocument method [Windows Accessibility], RevokeDocument method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_RevokeDocument, msaa.iaccserverdocmgr_iaccserverdocmgr__revokedocument, msaatext/IAccServerDocMgr::RevokeDocument, winauto.iaccserverdocmgr_iaccserverdocmgr__revokedocument
 ms.prod: windows-hardware
 ms.technology: windows-devices

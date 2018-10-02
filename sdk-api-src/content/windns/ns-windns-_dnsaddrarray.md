@@ -7,7 +7,7 @@ old-location: dns\dns_addr_array.htm
 tech.root: DNS
 ms.assetid: 5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDNS_ADDR_ARRAY, AF_INET, AF_INET6, DNS_ADDR_ARRAY, DNS_ADDR_ARRAY structure [DNS], PDNS_ADDR_ARRAY, PDNS_ADDR_ARRAY structure pointer [DNS], _DnsAddrArray, dns.dns_addr_array, windns/DNS_ADDR_ARRAY, windns/PDNS_ADDR_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

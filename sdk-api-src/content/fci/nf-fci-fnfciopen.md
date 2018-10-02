@@ -7,7 +7,7 @@ old-location: winprog\fnfciopen.htm
 tech.root: devnotes
 ms.assetid: 72cf50cb-c895-4953-9c4d-f8ddaa294f2a
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
 ms.prod: windows-hardware
 ms.technology: windows-devices

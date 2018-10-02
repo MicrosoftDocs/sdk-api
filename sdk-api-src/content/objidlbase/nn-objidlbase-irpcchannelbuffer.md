@@ -7,7 +7,7 @@ old-location: com\irpcchannelbuffer.htm
 tech.root: com
 ms.assetid: 1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBuffer interface [COM],described, _com_irpcchannelbuffer, com.irpcchannelbuffer, objidlbase/IRpcChannelBuffer
 ms.prod: windows
 ms.technology: windows-sdk

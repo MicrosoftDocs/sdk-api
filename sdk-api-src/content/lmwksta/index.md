@@ -2,7 +2,7 @@
 UID: NA:lmwksta
 ms.assetid: 8b6b0683-a5f5-3571-b91b-ba9310fb8d66
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

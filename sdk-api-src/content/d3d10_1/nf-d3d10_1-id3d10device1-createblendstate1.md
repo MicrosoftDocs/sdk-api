@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device1_createblendstate1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1_createblendstate1.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CreateBlendState1, CreateBlendState1 method [Direct3D 10], CreateBlendState1 method [Direct3D 10],ID3D10Device1 interface, ID3D10Device1 interface [Direct3D 10],CreateBlendState1 method, ID3D10Device1.CreateBlendState1, ID3D10Device1::CreateBlendState1, b8ad390b-12a5-cfce-2558-a74e808c9358, d3d10_1/ID3D10Device1::CreateBlendState1, direct3d10.id3d10device1_createblendstate1
 ms.prod: windows-hardware
 ms.technology: windows-devices

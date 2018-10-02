@@ -7,7 +7,7 @@ old-location: htmlhelp\iitdatabase_createobject.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasecreateobject.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CreateObject, CreateObject method [HTML Help Workshop], CreateObject method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],CreateObject method, IITDatabase.CreateObject, IITDatabase::CreateObject, htmlhelp.iitdatabase_createobject, infotech/IITDatabase::CreateObject, refIITDatabaseCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

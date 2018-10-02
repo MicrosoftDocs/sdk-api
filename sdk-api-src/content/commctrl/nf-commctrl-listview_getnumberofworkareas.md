@@ -4,10 +4,10 @@ title: ListView_GetNumberOfWorkAreas macro
 author: windows-sdk-content
 description: Gets the number of working areas in a list-view control. You can use this macro or send the LVM_GETNUMBEROFWORKAREAS message explicitly.
 old-location: controls\ListView_GetNumberOfWorkAreas.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnumberofworkareas.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_GetNumberOfWorkAreas, ListView_GetNumberOfWorkAreas macro [Windows Controls], _win32_ListView_GetNumberOfWorkAreas, _win32_ListView_GetNumberOfWorkAreas_cpp, commctrl/ListView_GetNumberOfWorkAreas, controls.ListView_GetNumberOfWorkAreas, controls._win32_ListView_GetNumberOfWorkAreas
 ms.prod: windows-hardware
 ms.technology: windows-devices

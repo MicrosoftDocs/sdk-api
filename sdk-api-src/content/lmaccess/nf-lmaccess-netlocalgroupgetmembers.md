@@ -4,10 +4,10 @@ title: NetLocalGroupGetMembers function
 author: windows-sdk-content
 description: The NetLocalGroupGetMembers function retrieves a list of the members of a particular local group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netlocalgroupgetmembers.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 35770b32-dae9-46f5-84e3-1c31ca22f708
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: 0, 1, 2, 3, NetLocalGroupGetMembers, NetLocalGroupGetMembers function [Network Management], _win32_netlocalgroupgetmembers, lmaccess/NetLocalGroupGetMembers, netmgmt.netlocalgroupgetmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWdsTransportNamespace
 author: windows-sdk-content
 description: Represents a namespace on a WDS transport server.
 old-location: wds\iwdstransportnamespace.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: eadb7b1b-aaef-4a4e-a2de-c641a4e10173
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportNamespace, IWdsTransportNamespace interface [Windows Deployment Services], IWdsTransportNamespace interface [Windows Deployment Services],described, wds.iwdstransportnamespace, wdstptmgmt/IWdsTransportNamespace
 ms.prod: windows
 ms.technology: windows-sdk

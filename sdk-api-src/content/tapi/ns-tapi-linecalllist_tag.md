@@ -4,10 +4,10 @@ title: linecalllist_tag
 author: windows-sdk-content
 description: The LINECALLLIST structure describes a list of call handles. A structure of this type is returned by the lineGetNewCalls and lineGetConfRelatedCalls functions.
 old-location: tapi2\linecalllist_str.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: b715dd07-74bd-4267-91fe-cfc0cd1e6aa4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPLINECALLLIST, LINECALLLIST, LINECALLLIST structure [TAPI 2.2], LPLINECALLLIST, LPLINECALLLIST structure pointer [TAPI 2.2], _tapi2_linecalllist_str, linecalllist_tag, tapi/LINECALLLIST, tapi/LPLINECALLLIST, tapi2.linecalllist_str"
 ms.prod: windows
 ms.technology: windows-sdk

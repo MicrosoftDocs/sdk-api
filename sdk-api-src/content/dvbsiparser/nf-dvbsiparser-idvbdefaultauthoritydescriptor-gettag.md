@@ -7,7 +7,7 @@ old-location: mstv\idvbdefaultauthoritydescriptor_gettag.htm
 tech.root: MSTV
 ms.assetid: d98d1a45-1d72-4142-8bb4-15ac4f738813
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbDefaultAuthorityDescriptor interface, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbDefaultAuthorityDescriptor.GetTag, IDvbDefaultAuthorityDescriptor::GetTag, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetTag, mstv.idvbdefaultauthoritydescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmint4_ctor.htm
 tech.root: dxmath
 ms.assetid: Overload:Microsoft.directx_sdk.reference.XMINT4.#ctor
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: XMINT4, XMINT4 Constructors, XMINT4 Constructors constructors [DirectX Math Support APIs], directxmath/XMINT4 Constructors, dxmath.xmint4_ctor
 ms.prod: windows-hardware
 ms.technology: windows-devices

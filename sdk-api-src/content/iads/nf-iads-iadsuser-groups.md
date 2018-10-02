@@ -7,7 +7,7 @@ old-location: adsi\iadsuser_groups.htm
 tech.root: ADSI
 ms.assetid: 0d250815-a7d8-4e61-b125-a66f1c2fde43
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Groups, Groups method [ADSI], Groups method [ADSI],IADsUser interface, IADsUser interface [ADSI],Groups method, IADsUser.Groups, IADsUser::Groups, _ds_iadsuser_groups, adsi.iadsuser__groups, adsi.iadsuser_groups, iads/IADsUser::Groups
 ms.prod: windows-hardware
 ms.technology: windows-devices

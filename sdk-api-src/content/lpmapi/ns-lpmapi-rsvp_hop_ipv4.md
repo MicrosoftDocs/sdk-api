@@ -7,7 +7,7 @@ old-location: qos\rsvp_hop_ipv4.htm
 tech.root: QOS
 ms.assetid: 1a3f3e65-70f8-490c-8724-9e93c7fba457
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Rsvp_Hop_IPv4, Rsvp_Hop_IPv4 structure [QOS], lpmapi/Rsvp_Hop_IPv4, qos.rsvp_hop_ipv4
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt.htm
 tech.root: MSTV
 ms.assetid: f6ed35bc-4470-4000-8f0d-19d454453720
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], IISDB_SDTT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDTT, mstv.iisdb_sdtt
 ms.prod: windows
 ms.technology: windows-sdk

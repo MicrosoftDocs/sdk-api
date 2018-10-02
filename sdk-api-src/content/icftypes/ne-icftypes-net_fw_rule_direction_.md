@@ -4,10 +4,10 @@ title: NET_FW_RULE_DIRECTION_
 author: windows-sdk-content
 description: Specifies the direction of traffic to which a rule applies.
 old-location: ics\net_fw_rule_direction.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: ee60cb00-c7cb-468d-9295-002d1f87d382
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: NET_FW_RULE_DIRECTION, NET_FW_RULE_DIRECTION enumeration [ICS/ICF], NET_FW_RULE_DIRECTION_, NET_FW_RULE_DIR_IN, NET_FW_RULE_DIR_MAX, NET_FW_RULE_DIR_OUT, icftypes/NET_FW_RULE_DIRECTION, icftypes/NET_FW_RULE_DIR_IN, icftypes/NET_FW_RULE_DIR_MAX, icftypes/NET_FW_RULE_DIR_OUT, ics.net_fw_rule_direction
 ms.prod: windows
 ms.technology: windows-sdk

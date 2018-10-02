@@ -7,7 +7,7 @@ old-location: mstv\isectionlist_getsectiondata.htm
 tech.root: MSTV
 ms.assetid: b03d1727-9ebd-4e78-b7d0-c6d0959aab8a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetSectionData, GetSectionData method [Microsoft TV Technologies], GetSectionData method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetSectionData method, ISectionList.GetSectionData, ISectionList::GetSectionData, ISectionListGetSectionData, mpeg2data/ISectionList::GetSectionData, mstv.isectionlist_getsectiondata
 ms.prod: windows-hardware
 ms.technology: windows-devices

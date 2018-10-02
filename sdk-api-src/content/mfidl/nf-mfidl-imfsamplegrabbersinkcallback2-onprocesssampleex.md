@@ -4,10 +4,10 @@ title: IMFSampleGrabberSinkCallback2::OnProcessSampleEx
 author: windows-sdk-content
 description: Called when the sample-grabber sink receives a new media sample.
 old-location: mf\imfsamplegrabbersinkcallback2_onprocesssampleex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: dc880967-ac97-4835-bbc9-1bd664e42739
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSampleGrabberSinkCallback2 interface [Media Foundation],OnProcessSampleEx method, IMFSampleGrabberSinkCallback2.OnProcessSampleEx, IMFSampleGrabberSinkCallback2::OnProcessSampleEx, OnProcessSampleEx, OnProcessSampleEx method [Media Foundation], OnProcessSampleEx method [Media Foundation],IMFSampleGrabberSinkCallback2 interface, mf.imfsamplegrabbersinkcallback2_onprocesssampleex, mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

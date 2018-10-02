@@ -4,10 +4,10 @@ title: ITextHost::TxGetScrollBars
 author: windows-sdk-content
 description: Requests information about the scroll bars supported by the text host.
 old-location: controls\ITextHost_TxGetScrollBars.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetscrollbars.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ES_AUTOHSCROLL, ES_AUTOVSCROLL, ES_DISABLENOSCROLL, ITextHost interface [Windows Controls],TxGetScrollBars method, ITextHost.TxGetScrollBars, ITextHost::TxGetScrollBars, TxGetScrollBars, TxGetScrollBars method [Windows Controls], TxGetScrollBars method [Windows Controls],ITextHost interface, WS_HSCROLL, WS_VSCROLL, _win32_ITextHost_TxGetScrollBars, _win32_ITextHost_TxGetScrollBars_cpp, controls.ITextHost_TxGetScrollBars, controls._win32_ITextHost_TxGetScrollBars, textserv/ITextHost::TxGetScrollBars
 ms.prod: windows-hardware
 ms.technology: windows-devices

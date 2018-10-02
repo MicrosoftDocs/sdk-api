@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_getfriendlyname.htm
 tech.root: SensorsAPI
 ms.assetid: 380a1a93-01f7-4d5b-9916-156728fd94ed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method, GetFriendlyName method,ISensor interface, ISensor interface,GetFriendlyName method, ISensor.GetFriendlyName, ISensor::GetFriendlyName, sensorsapi/ISensor::GetFriendlyName, winsensors_com_ref.isensor_getfriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

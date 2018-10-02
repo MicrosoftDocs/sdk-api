@@ -7,7 +7,7 @@ old-location: wmp\iwmpremotemediaservices.htm
 tech.root: WMP
 ms.assetid: 594a614a-8da1-4ef0-a6af-01284fb48ef7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], IWMPRemoteMediaServices interface [Windows Media Player],described, IWMPRemoteMediaServicesInterface, wmp.iwmpremotemediaservices, wmp/IWMPRemoteMediaServices
 ms.prod: windows
 ms.technology: windows-sdk

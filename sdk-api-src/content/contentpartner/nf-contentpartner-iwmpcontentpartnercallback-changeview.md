@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_changeview.htm
 tech.root: WMP
 ms.assetid: eb796ef2-6d08-4746-952b-24ac51ae7733
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ChangeView, ChangeView method [Windows Media Player], ChangeView method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],ChangeView method, IWMPContentPartnerCallback.ChangeView, IWMPContentPartnerCallback::ChangeView, IWMPContentPartnerCallbackChangeView, contentpartner/IWMPContentPartnerCallback::ChangeView, wmp.iwmpcontentpartnercallback_changeview
 ms.prod: windows-hardware
 ms.technology: windows-devices

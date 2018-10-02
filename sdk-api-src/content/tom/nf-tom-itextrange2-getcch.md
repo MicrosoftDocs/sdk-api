@@ -4,10 +4,10 @@ title: ITextRange2::GetCch
 author: windows-sdk-content
 description: Gets the count of characters in a range.
 old-location: controls\itextrange2_getcch.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: a6f06062-3c8f-40c0-9b5d-6c22a647bfbc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCch method, ITextRange2.GetCch, ITextRange2::GetCch, controls.itextrange2_getcch, tom/ITextRange2::GetCch
 ms.prod: windows-hardware
 ms.technology: windows-devices

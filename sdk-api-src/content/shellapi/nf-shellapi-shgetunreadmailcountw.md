@@ -4,10 +4,10 @@ title: SHGetUnreadMailCountW function
 author: windows-sdk-content
 description: Retrieves a specified user's unread message count for any or all email accounts.
 old-location: shell\SHGetUnreadMailCount.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d2a57fa0-13fe-4e12-89cc-8a6dbdb44f08
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetUnreadMailCount, SHGetUnreadMailCount function [Windows Shell], SHGetUnreadMailCountW, _shell_SHGetUnreadMailCount, shell.SHGetUnreadMailCount, shellapi/SHGetUnreadMailCount, shellapi/SHGetUnreadMailCountW
 ms.prod: windows-hardware
 ms.technology: windows-devices

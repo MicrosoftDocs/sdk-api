@@ -4,10 +4,10 @@ title: IVirtualDesktopManager::GetWindowDesktopId
 author: windows-sdk-content
 description: Gets the identifier for the virtual desktop hosting the provided top-level window.
 old-location: shell\ivirtualdesktopmanager_getwindowdesktopid.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1A53C70F-6034-449D-832E-A563886F20E4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetWindowDesktopId, GetWindowDesktopId method [Windows Shell], GetWindowDesktopId method [Windows Shell],IVirtualDesktopManager interface, IVirtualDesktopManager interface [Windows Shell],GetWindowDesktopId method, IVirtualDesktopManager.GetWindowDesktopId, IVirtualDesktopManager::GetWindowDesktopId, shell.ivirtualdesktopmanager_getwindowdesktopid, shobjidl_core/IVirtualDesktopManager::GetWindowDesktopId
 ms.prod: windows-hardware
 ms.technology: windows-devices

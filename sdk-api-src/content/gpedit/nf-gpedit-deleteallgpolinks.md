@@ -7,7 +7,7 @@ old-location: policy\deleteallgpolinks.htm
 tech.root: Policy
 ms.assetid: 164b1d10-9ec0-43c8-80fe-be1ad8ec991f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteAllGPOLinks, DeleteAllGPOLinks function [Group Policy], _win32_deleteallgpolinks, gpedit/DeleteAllGPOLinks, policy.deleteallgpolinks
 ms.prod: windows-hardware
 ms.technology: windows-devices

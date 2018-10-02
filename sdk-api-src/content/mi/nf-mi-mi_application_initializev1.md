@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_initialize.htm
 tech.root: WMI_v2
 ms.assetid: 32696A33-820D-4D01-AF71-DDA1F34EFBE0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Application_Initialize, MI_Application_Initialize function [Windows Management Infrastructure (MI)], MI_Application_InitializeV1, MI_Application_InitializeV1 function [Windows Management Infrastructure (MI)], mi/MI_Application_Initialize, mi/MI_Application_InitializeV1, wmi_v2.mi_application_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

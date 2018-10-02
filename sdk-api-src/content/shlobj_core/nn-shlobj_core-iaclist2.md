@@ -4,10 +4,10 @@ title: IACList2
 author: windows-sdk-content
 description: Extends the IACList interface to enable clients of an autocomplete object to retrieve and set option flags.
 old-location: shell\IACList2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b765c9dd-20e9-428f-877a-aff4fac44664
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IACList2, IACList2 interface [Windows Shell], IACList2 interface [Windows Shell],described, _win32_IACList2, shell.IACList2, shlobj_core/IACList2
 ms.prod: windows
 ms.technology: windows-sdk

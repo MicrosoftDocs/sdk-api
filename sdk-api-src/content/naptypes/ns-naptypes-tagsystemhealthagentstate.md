@@ -7,7 +7,7 @@ old-location: nap\systemhealthagentstate_struct.htm
 tech.root: NAP
 ms.assetid: c5a5bc72-363d-4c2d-8b91-fda64fac281e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SystemHealthAgentState, SystemHealthAgentState structure [NAP], nap.systemhealthagentstate_struct, naptypes/SystemHealthAgentState, tagSystemHealthAgentState
 ms.prod: windows
 ms.technology: windows-sdk

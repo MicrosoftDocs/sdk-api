@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordnumberofkeys.htm
 tech.root: MSTV
 ms.assetid: 0ce49e6c-8a85-4620-a2ca-379c3bb30d64
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordNumberOfKeys, GetRecordNumberOfKeys method [Microsoft TV Technologies], GetRecordNumberOfKeys method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordNumberOfKeys method, IISDB_NBIT.GetRecordNumberOfKeys, IISDB_NBIT::GetRecordNumberOfKeys, dvbsiparser/IISDB_NBIT::GetRecordNumberOfKeys, mstv.iisdb_nbit_getrecordnumberofkeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

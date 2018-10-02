@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10getinputandoutputsignatureblob.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getinputandoutputsignatureblob.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D10GetInputAndOutputSignatureBlob, D3D10GetInputAndOutputSignatureBlob function [Direct3D 10], d3d10shader/D3D10GetInputAndOutputSignatureBlob, direct3d10.d3d10getinputandoutputsignatureblob, f10e041a-6f66-0e2b-400e-a60c10b92deb
 ms.prod: windows-hardware
 ms.technology: windows-devices

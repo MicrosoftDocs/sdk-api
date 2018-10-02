@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constbooleanafield.htm
 tech.root: WMI_v2
 ms.assetid: e5014642-b5a2-4959-9b30-cfd2e1fb63c8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ConstBooleanAField, MI_ConstBooleanAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstBooleanAField, mi/MI_ConstBooleanAField, wmi._mi_constbooleanafield, wmi_v2.mi_constbooleanafield
 ms.prod: windows
 ms.technology: windows-sdk

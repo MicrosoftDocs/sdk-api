@@ -7,7 +7,7 @@ old-location: mstv\imsvidclosedcaptioning3.htm
 tech.root: MSTV
 ms.assetid: 0b440d5a-05f0-4499-8398-2a8563f0f935
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidClosedCaptioning3, IMSVidClosedCaptioning3 interface [Microsoft TV Technologies], IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],described, IMSVidClosedCaptioning3Interface, mstv.imsvidclosedcaptioning3, segment/IMSVidClosedCaptioning3
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITTerminalSupport2::EnumeratePluggableTerminalClasses
 author: windows-sdk-content
 description: The EnumeratePluggableTerminalClasses method enumerates the pluggable terminal classes registered under a given superclass.
 old-location: tapi3\itterminalsupport2_enumeratepluggableterminalclasses.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: e8a10b1b-b08e-49b2-bfc6-9f8f4dbc1248
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: EnumeratePluggableTerminalClasses, EnumeratePluggableTerminalClasses method [TAPI 2.2], EnumeratePluggableTerminalClasses method [TAPI 2.2],ITTerminalSupport2 interface, ITTerminalSupport2 interface [TAPI 2.2],EnumeratePluggableTerminalClasses method, ITTerminalSupport2.EnumeratePluggableTerminalClasses, ITTerminalSupport2::EnumeratePluggableTerminalClasses, _tapi3_itterminalsupport2_enumeratepluggableterminalclasses, tapi3.itterminalsupport2_enumeratepluggableterminalclasses, tapi3if/ITTerminalSupport2::EnumeratePluggableTerminalClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

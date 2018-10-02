@@ -4,10 +4,10 @@ title: ICryptAttribute::get_Values
 author: windows-sdk-content
 description: Retrieves an IX509Attributes object that contains a collection of attributes.
 old-location: security\icryptattribute_values_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: ae439c12-65f4-4e2b-b141-6e6bf6738a68
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICryptAttribute interface [Security],Values property, ICryptAttribute.Values, ICryptAttribute.get_Values, ICryptAttribute::Values, ICryptAttribute::get_Values, Values property [Security], Values property [Security],ICryptAttribute interface, certenroll/ICryptAttribute::Values, certenroll/ICryptAttribute::get_Values, get_Values, security.icryptattribute_values_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ieseventserviceconfiguration_setparent.htm
 tech.root: MSTV
 ms.assetid: cfb931e9-f20f-4812-9d6b-cf8b651b7e7a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetParent method, IESEventServiceConfiguration.SetParent, IESEventServiceConfiguration::SetParent, SetParent, SetParent method [Microsoft TV Technologies], SetParent method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setparent, tuner/IESEventServiceConfiguration::SetParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

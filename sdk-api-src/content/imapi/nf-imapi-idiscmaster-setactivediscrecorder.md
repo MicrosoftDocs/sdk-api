@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster_setactivediscrecorder.htm
 tech.root: imapi
 ms.assetid: 5f2e9135-d251-4702-b5d1-51d9b445a4f5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDiscMaster interface [IMAPI],SetActiveDiscRecorder method, IDiscMaster.SetActiveDiscRecorder, IDiscMaster::SetActiveDiscRecorder, SetActiveDiscRecorder, SetActiveDiscRecorder method [IMAPI], SetActiveDiscRecorder method [IMAPI],IDiscMaster interface, _win32_idiscmaster_setactivediscrecorder, base.idiscmaster_setactivediscrecorder, imapi.idiscmaster_setactivediscrecorder, imapi/IDiscMaster::SetActiveDiscRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

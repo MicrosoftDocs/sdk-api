@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextsetspi0.htm
 tech.root: FWP
 ms.assetid: 32812702-e27e-4671-a248-60cc73ce8497
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPsecSaContextSetSpi0, IPsecSaContextSetSpi0 function [Filtering], fwp.ipsecsacontextsetspi0, fwpmu/IPsecSaContextSetSpi0
 ms.prod: windows-hardware
 ms.technology: windows-devices

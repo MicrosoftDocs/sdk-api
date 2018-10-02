@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferv2sourceevent_timehole.htm
 tech.root: MSTV
 ms.assetid: 2eceda3b-b3d6-4714-85c5-ec8bb0986b6f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],TimeHole method, IMSVidStreamBufferV2SourceEvent.TimeHole, IMSVidStreamBufferV2SourceEvent::TimeHole, TimeHole, TimeHole method [Microsoft TV Technologies], TimeHole method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_timehole, segment/IMSVidStreamBufferV2SourceEvent::TimeHole
 ms.prod: windows-hardware
 ms.technology: windows-devices

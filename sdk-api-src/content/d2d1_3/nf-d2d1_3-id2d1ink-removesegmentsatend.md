@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_removesegmentsatend.htm
 tech.root: direct2d
 ms.assetid: 8EA09675-971E-4399-B718-E7433D894867
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1Ink interface [Direct2D],RemoveSegmentsAtEnd method, ID2D1Ink.RemoveSegmentsAtEnd, ID2D1Ink::RemoveSegmentsAtEnd, RemoveSegmentsAtEnd, RemoveSegmentsAtEnd method [Direct2D], RemoveSegmentsAtEnd method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::RemoveSegmentsAtEnd, direct2d.id2d1ink_removesegmentsatend
 ms.prod: windows-hardware
 ms.technology: windows-devices

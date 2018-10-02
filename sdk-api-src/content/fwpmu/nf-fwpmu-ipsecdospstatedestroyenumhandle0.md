@@ -7,7 +7,7 @@ old-location: fwp\ipsecdospstatedestroyenumhandle0.htm
 tech.root: FWP
 ms.assetid: d7e1710d-8142-4583-a7b6-960fbdb2fcbb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPsecDospStateDestroyEnumHandle0, IPsecDospStateDestroyEnumHandle0 function [Filtering], fwp.ipsecdospstatedestroyenumhandle0, fwpmu/IPsecDospStateDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

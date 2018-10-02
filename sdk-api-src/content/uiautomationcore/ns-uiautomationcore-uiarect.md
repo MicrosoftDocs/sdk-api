@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRectStruct.htm
 tech.root: WinAuto
 ms.assetid: 99cf7e3e-6b36-41ca-ac27-a7b332e7c91e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UiaRect, UiaRect structure [Windows Accessibility], uiauto.uiauto_UiaRectStruct, uiauto_UiaRectStruct, uiautomationcore/UiaRect, winauto.uiauto_UiaRectStruct
 ms.prod: windows
 ms.technology: windows-sdk

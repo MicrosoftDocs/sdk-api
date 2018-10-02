@@ -4,10 +4,10 @@ title: "_STORAGE_MINIPORT_DESCRIPTOR"
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\storage_miniport_descriptor.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: b962666d-60ae-4e0b-813e-7b22e1670644
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: "*PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Files], STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Files], StoragePortCodeSetReserved, StoragePortCodeSetSCSIport, StoragePortCodeSetStorport, _STORAGE_MINIPORT_DESCRIPTOR, fs.storage_miniport_descriptor, winioctl/PSTORAGE_MINIPORT_DESCRIPTOR, winioctl/STORAGE_MINIPORT_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\objectcontrol.htm
 tech.root: cossdk
 ms.assetid: 3ca939de-31ce-4ce6-84cd-4b4191a0753c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ObjectControl, ObjectControl interface [COM+], ObjectControl interface [COM+],described, _cos_ObjectControl, comsvcs/ObjectControl, cos.objectcontrol
 ms.prod: windows
 ms.technology: windows-sdk

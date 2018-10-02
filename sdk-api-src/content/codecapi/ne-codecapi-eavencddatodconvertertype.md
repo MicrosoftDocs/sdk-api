@@ -7,7 +7,7 @@ old-location: dshow\eavencddatodconvertertype.htm
 tech.root: DirectShow
 ms.assetid: 74f7a54a-dae8-46d0-bc99-c42fa548f4f1
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: codecapi/eAVEncDDAtoDConverterType, codecapi/eAVEncDDAtoDConverterType_HDCD, codecapi/eAVEncDDAtoDConverterType_Standard, dshow.eavencddatodconvertertype, eAVEncDDAtoDConverterType, eAVEncDDAtoDConverterType enumeration [DirectShow], eAVEncDDAtoDConverterType_HDCD, eAVEncDDAtoDConverterType_Standard
 ms.prod: windows
 ms.technology: windows-sdk

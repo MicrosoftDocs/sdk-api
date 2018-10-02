@@ -4,10 +4,10 @@ title: IApplicationDesignModeSettings2
 author: windows-sdk-content
 description: Enables development tool applications to dynamically control system and user states, such as native display resolution, device scale factor, and application view layout, reported to Windows Store apps for the purpose of testing Windows Store apps running in design mode for a wide range of form factors without the need for the actual hardware. Also enables testing of changes in normally user-controlled state to test Windows Store apps under a variety of scenarios.
 old-location: shell\IApplicationDesignModeSettings2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1F630AFF-3C73-461C-AE41-D597F6FF42D8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IApplicationDesignModeSettings2, IApplicationDesignModeSettings2 interface [Windows Shell], IApplicationDesignModeSettings2 interface [Windows Shell],described, shell.IApplicationDesignModeSettings2, shobjidl_core/IApplicationDesignModeSettings2
 ms.prod: windows
 ms.technology: windows-sdk

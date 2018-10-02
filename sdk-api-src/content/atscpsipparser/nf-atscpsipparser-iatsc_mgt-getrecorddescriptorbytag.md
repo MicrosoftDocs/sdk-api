@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt_getrecorddescriptorbytag.htm
 tech.root: MSTV
 ms.assetid: fcc309ca-05bb-45cf-8930-f4413f84a55c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IATSC_MGT.GetRecordDescriptorByTag, IATSC_MGT::GetRecordDescriptorByTag, IATSC_MGTGetRecordDescriptorByTag, atscpsipparser/IATSC_MGT::GetRecordDescriptorByTag, mstv.iatsc_mgt_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

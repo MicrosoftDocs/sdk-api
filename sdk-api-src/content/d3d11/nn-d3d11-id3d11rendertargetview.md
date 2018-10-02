@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11rendertargetview.htm
 tech.root: direct3d11
 ms.assetid: 3ae7c255-2403-493a-9fb9-fc9795f6d920
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D11RenderTargetView, ID3D11RenderTargetView interface [Direct3D 11], ID3D11RenderTargetView interface [Direct3D 11],described, d3d11/ID3D11RenderTargetView, direct3d11.id3d11rendertargetview, ffd3acf9-f2dc-0823-23c9-1188e5ede6f2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getsandbox.htm
 tech.root: xblidp
 ms.assetid: BDE93755-27E8-4D5A-A777-527954BA5E4C
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSandbox method, IXblIdpAuthTokenResult.GetSandbox, IXblIdpAuthTokenResult::GetSandbox, xblidp.ixblidpauthtokenresult_getsandbox, xblidpauthmanager/IXblIdpAuthTokenResult::GetSandbox
 ms.prod: windows-hardware
 ms.technology: windows-devices

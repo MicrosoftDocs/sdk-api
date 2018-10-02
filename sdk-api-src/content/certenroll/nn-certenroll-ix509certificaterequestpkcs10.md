@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10
 author: windows-sdk-content
 description: The IX509CertificateRequestPkcs10 interface represents a PKCS #10 certificate request. The public key cryptography standard (PKCS) #10 defines the format of messages sent to a certification or registration authority to request a public-key certificate.
 old-location: security\ix509certificaterequestpkcs10.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 5b3764dc-fc63-45cc-8c35-65539c461e81
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], IX509CertificateRequestPkcs10 interface [Security],described, certenroll/IX509CertificateRequestPkcs10, security.ix509certificaterequestpkcs10
 ms.prod: windows
 ms.technology: windows-sdk

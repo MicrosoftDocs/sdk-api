@@ -4,10 +4,10 @@ title: SymLoadModuleExW function
 author: windows-sdk-content
 description: Loads the symbol table for the specified module.
 old-location: base\symloadmoduleex.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 4a880090-f063-4d03-8fd5-a57ccba262c8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SLMFLAG_NO_SYMBOLS, SLMFLAG_VIRTUAL, SymLoadModuleEx, SymLoadModuleEx function, SymLoadModuleExW, _win32_symloadmoduleex, base.symloadmoduleex, dbghelp/SymLoadModuleEx, dbghelp/SymLoadModuleExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEmailAction::get_Attachments
 author: windows-sdk-content
 description: Gets or sets the pointer to an array of attachments that is sent with the email message.
 old-location: taskschd\iemailaction_attachments.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 06a3cf8f-d7fd-4ed6-9fd6-ea45face034a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Attachments property [Task Scheduler], Attachments property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Attachments property, IEmailAction.Attachments, IEmailAction.get_Attachments, IEmailAction::Attachments, IEmailAction::get_Attachments, IEmailAction::put_Attachments, get_Attachments, taskschd.iemailaction_attachments, taskschd/IEmailAction::Attachments, taskschd/IEmailAction::get_Attachments, taskschd/IEmailAction::put_Attachments
 ms.prod: windows-hardware
 ms.technology: windows-devices

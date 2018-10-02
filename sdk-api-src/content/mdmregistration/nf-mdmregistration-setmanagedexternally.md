@@ -7,7 +7,7 @@ old-location: mdmreg\setmanagedexternally.htm
 tech.root: MDMReg
 ms.assetid: 6aac0ffb-3502-42a5-b7a3-e11c401543ce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetManagedExternally, SetManagedExternally function [MDM Registration], mdmreg.setmanagedexternally, mdmregistration/SetManagedExternally
 ms.prod: windows-hardware
 ms.technology: windows-devices

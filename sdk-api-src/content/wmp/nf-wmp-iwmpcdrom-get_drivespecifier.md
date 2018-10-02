@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdrom_get_drivespecifier.htm
 tech.root: WMP
 ms.assetid: 0bc7766b-1e5d-4ed4-8016-aa1e8e0a7cc1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPCdrom interface [Windows Media Player],get_driveSpecifier method, IWMPCdrom.get_driveSpecifier, IWMPCdrom::get_driveSpecifier, IWMPCdromget_driveSpecifier, get_driveSpecifier, get_driveSpecifier method [Windows Media Player], get_driveSpecifier method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_get_drivespecifier, wmp/IWMPCdrom::get_driveSpecifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

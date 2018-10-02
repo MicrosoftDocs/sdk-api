@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_importcomponent.htm
 tech.root: cossdk
 ms.assetid: 0e29025d-60bc-4f95-a6f9-aa178769855c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],ImportComponent method, ICOMAdminCatalog.ImportComponent, ICOMAdminCatalog::ImportComponent, ImportComponent, ImportComponent method [COM+], ImportComponent method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ImportComponent, comadmin/ICOMAdminCatalog::ImportComponent, cos.icomadmincatalog_importcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

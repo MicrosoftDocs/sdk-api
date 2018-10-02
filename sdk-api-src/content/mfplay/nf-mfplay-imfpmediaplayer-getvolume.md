@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::GetVolume
 author: windows-sdk-content
 description: Gets the current audio volume.
 old-location: mf\imfpmediaplayer_getvolume.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 08bf0bb3-4ee2-4229-9f41-64924c6122c9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVolume method, IMFPMediaPlayer.GetVolume, IMFPMediaPlayer::GetVolume, mf.imfpmediaplayer_getvolume, mfplay/IMFPMediaPlayer::GetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

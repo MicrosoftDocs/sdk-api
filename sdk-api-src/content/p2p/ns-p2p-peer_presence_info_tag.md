@@ -4,10 +4,10 @@ title: peer_presence_info_tag
 author: windows-sdk-content
 description: The PEER_PRESENCE_INFO structure contains specific peer presence information.
 old-location: p2p\peer_presence_info.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: e8f83ba8-81a3-4083-bc15-e00b2bec1cd4
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPEER_PRESENCE_INFO, PCPEER_PRESENCE_INFO, PCPEER_PRESENCE_INFO structure pointer [Peer Networking], PEER_PRESENCE_INFO, PEER_PRESENCE_INFO structure [Peer Networking], PPEER_PRESENCE_INFO, PPEER_PRESENCE_INFO structure pointer [Peer Networking], p2p.peer_presence_info, p2p/PCPEER_PRESENCE_INFO, p2p/PEER_PRESENCE_INFO, p2p/PPEER_PRESENCE_INFO, peer_presence_info_tag"
 ms.prod: windows
 ms.technology: windows-sdk

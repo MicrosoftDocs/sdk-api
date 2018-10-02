@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererevent2_overlayunavailable.htm
 tech.root: MSTV
 ms.assetid: 52571daa-c955-4bd3-bb97-afc480984cdf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],OverlayUnavailable method, IMSVidVideoRendererEvent2.OverlayUnavailable, IMSVidVideoRendererEvent2::OverlayUnavailable, OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies],IMSVidVideoRendererEvent2 interface, mstv.imsvidvideorendererevent2_overlayunavailable, segment/IMSVidVideoRendererEvent2::OverlayUnavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

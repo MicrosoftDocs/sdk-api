@@ -7,7 +7,7 @@ old-location: automat\variant_usermarshal64.htm
 tech.root: automat
 ms.assetid: af9f85fa-b123-49da-99c7-552cd03197c0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VARIANT_UserMarshal64, VARIANT_UserMarshal64 function [Automation], automat.variant_usermarshal64, oaidl/VARIANT_UserMarshal64
 ms.prod: windows-hardware
 ms.technology: windows-devices

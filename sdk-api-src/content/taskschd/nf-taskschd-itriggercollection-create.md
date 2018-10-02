@@ -4,10 +4,10 @@ title: ITriggerCollection::Create
 author: windows-sdk-content
 description: Creates a new trigger for the task.
 old-location: taskschd\itriggercollection_create.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 70780fca-ba97-42b8-bc00-867c2761953c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Create method, ITriggerCollection.Create, ITriggerCollection::Create, TASK_TRIGGER_BOOT, TASK_TRIGGER_DAILY, TASK_TRIGGER_EVENT, TASK_TRIGGER_IDLE, TASK_TRIGGER_LOGON, TASK_TRIGGER_MONTHLY, TASK_TRIGGER_MONTHLYDOW, TASK_TRIGGER_REGISTRATION, TASK_TRIGGER_SESSION_STATE_CHANGE, TASK_TRIGGER_TIME, TASK_TRIGGER_WEEKLY, taskschd.itriggercollection_create, taskschd/ITriggerCollection::Create, triggers [Task Scheduler],creating
 ms.prod: windows-hardware
 ms.technology: windows-devices

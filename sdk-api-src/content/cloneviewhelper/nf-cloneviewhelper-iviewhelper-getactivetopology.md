@@ -4,10 +4,10 @@ title: IViewHelper::GetActiveTopology
 author: windows-sdk-content
 description: The GetActiveTopology method retrieves, for a given adapter, an array of identifiers for targets that are active on a given source.
 old-location: display\iviewhelper_getactivetopology.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 9862cbf4-26d7-440c-a1eb-bd8decd257c0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: GetActiveTopology, GetActiveTopology method [Display Devices], GetActiveTopology method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetActiveTopology method, IViewHelper.GetActiveTopology, IViewHelper::GetActiveTopology, TMM_Ref_584d74ec-d61d-4119-87c6-94de6b568a6f.xml, cloneviewhelper/IViewHelper::GetActiveTopology, display.iviewhelper_getactivetopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

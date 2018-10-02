@@ -7,7 +7,7 @@ old-location: security\icertmanagemodule_getproperty.htm
 tech.root: seccrypto
 ms.assetid: f01bfcec-7031-4283-a847-0d59929e4ee5
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CCertManageModule object [Security],GetProperty method, Copyright, Description, File Version, GetProperty, GetProperty method [Security], GetProperty method [Security],CCertManageModule object, GetProperty method [Security],ICertManageModule interface, ICertManageModule interface [Security],GetProperty method, ICertManageModule.GetProperty, ICertManageModule::GetProperty, Name, Product Version, _certsrv_icertmanagemodule_getproperty, certmod/ICertManageModule::GetProperty, security.icertmanagemodule_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

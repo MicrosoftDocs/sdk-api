@@ -4,10 +4,10 @@ title: UIntPtrSub function
 author: windows-sdk-content
 description: Subtracts one value of type UINT_PTR from another.
 old-location: shell\UIntPtrSub.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 629bc700-ca64-4849-bdad-59e67857ff8d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UIntPtrSub, UIntPtrSub function [Windows Shell], _shell_UIntPtrSub, intsafe/UIntPtrSub, shell.UIntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

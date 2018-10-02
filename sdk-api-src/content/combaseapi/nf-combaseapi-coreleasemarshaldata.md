@@ -7,7 +7,7 @@ old-location: com\coreleasemarshaldata.htm
 tech.root: com
 ms.assetid: a642a20f-3a3c-46bc-b833-e424dab3a16d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: CoReleaseMarshalData, CoReleaseMarshalData function [COM], _com_CoReleaseMarshalData, com.coreleasemarshaldata, combaseapi/CoReleaseMarshalData
 ms.prod: windows-hardware
 ms.technology: windows-devices

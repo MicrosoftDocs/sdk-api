@@ -7,7 +7,7 @@ old-location: recovery\unregisterapplicationrestart.htm
 tech.root: Recovery
 ms.assetid: 7491812d-6469-4ac3-8d51-68b9c4b13b29
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: UnregisterApplicationRestart, UnregisterApplicationRestart function [Recovery], recovery.unregisterapplicationrestart, winbase/UnregisterApplicationRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices

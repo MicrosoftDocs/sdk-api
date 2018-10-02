@@ -7,7 +7,7 @@ old-location: security\ncryptkeyname_struct.htm
 tech.root: SecCNG
 ms.assetid: 9d9ebbb7-c491-49b0-9686-e37085929271
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCryptKeyName, NCryptKeyName structure [Security], ncrypt/NCryptKeyName, security.ncryptkeyname_struct
 ms.prod: windows
 ms.technology: windows-sdk

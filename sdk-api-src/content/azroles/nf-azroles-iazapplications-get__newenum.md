@@ -4,10 +4,10 @@ title: IAzApplications::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iazapplications_newenum.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8c01c1b4-d3e0-40c2-b0b7-524423c38c45
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AzApplications object [Security],_NewEnum property, IAzApplications interface [Security],_NewEnum property, IAzApplications._NewEnum, IAzApplications.get__NewEnum, IAzApplications::_NewEnum, IAzApplications::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzApplications object, _NewEnum property [Security],IAzApplications interface, azroles/IAzApplications::_NewEnum, azroles/IAzApplications::get__NewEnum, get__NewEnum, security.iazapplications_newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

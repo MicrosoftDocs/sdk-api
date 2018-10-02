@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectshadervariable_getgeometryshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getgeometryshader.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 3ec86a63-120a-f1df-c229-bbdd165c6650, GetGeometryShader, GetGeometryShader method [Direct3D 10], GetGeometryShader method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetGeometryShader method, ID3D10EffectShaderVariable.GetGeometryShader, ID3D10EffectShaderVariable::GetGeometryShader, d3d10effect/ID3D10EffectShaderVariable::GetGeometryShader, direct3d10.id3d10effectshadervariable_getgeometryshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

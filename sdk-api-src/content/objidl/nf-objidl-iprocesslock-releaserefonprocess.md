@@ -7,7 +7,7 @@ old-location: com\iprocesslock_releaserefonprocess.htm
 tech.root: com
 ms.assetid: a0943afc-b20f-4082-b561-552370a630a1
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IProcessLock interface [COM],ReleaseRefOnProcess method, IProcessLock.ReleaseRefOnProcess, IProcessLock::ReleaseRefOnProcess, ReleaseRefOnProcess, ReleaseRefOnProcess method [COM], ReleaseRefOnProcess method [COM],IProcessLock interface, _com_iprocesslock_releaserefonprocess, com.iprocesslock_releaserefonprocess, objidl/IProcessLock::ReleaseRefOnProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: BluetoothUpdateDeviceRecord function
 author: windows-sdk-content
 description: Updates the local computer cache about a Bluetooth device.
 old-location: bluetooth\bluetoothupdatedevicerecord.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: afcf6708-1c2a-43ac-8e5e-1bd0ce7456fc
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothUpdateDeviceRecord, BluetoothUpdateDeviceRecord function [Bluetooth], bluetooth.bluetoothupdatedevicerecord, bluetoothapis/BluetoothUpdateDeviceRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDiskQuotaUser::SetQuotaThreshold
 author: windows-sdk-content
 description: Sets the user's warning threshold value on the volume.
 old-location: fs\idiskquotauser_setquotathreshold.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 7c641a1c-fb04-4039-92bd-d3a1c7045355
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: IDiskQuotaUser interface [Files],SetQuotaThreshold method, IDiskQuotaUser.SetQuotaThreshold, IDiskQuotaUser::SetQuotaThreshold, SetQuotaThreshold, SetQuotaThreshold method [Files], SetQuotaThreshold method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_setquotathreshold, base.idiskquotauser_setquotathreshold, dskquota/IDiskQuotaUser::SetQuotaThreshold, fs.idiskquotauser_setquotathreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices

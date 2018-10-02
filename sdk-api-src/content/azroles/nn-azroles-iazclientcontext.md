@@ -4,10 +4,10 @@ title: IAzClientContext
 author: windows-sdk-content
 description: Maintains the state that describes a particular client.
 old-location: security\iazclientcontext.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e24184d2-a77b-4a8b-b2f3-78f1e0b902f9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IAzClientContext, IAzClientContext interface [Security], IAzClientContext interface [Security],described, azroles/IAzClientContext, security.iazclientcontext
 ms.prod: windows
 ms.technology: windows-sdk

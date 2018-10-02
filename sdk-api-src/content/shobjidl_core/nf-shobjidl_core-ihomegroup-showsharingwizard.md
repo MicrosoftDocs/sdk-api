@@ -4,10 +4,10 @@ title: IHomeGroup::ShowSharingWizard
 author: windows-sdk-content
 description: Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
 old-location: shell\IHomeGroup_ShowSharingWizard.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: D73A97EE-B427-4c53-B023-3662D864E801
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: HGSC_DOCUMENTSLIBRARY, HGSC_MUSICLIBRARY, HGSC_NONE, HGSC_PICTURESLIBRARY, HGSC_PRINTERS, HGSC_VIDEOSLIBRARY, IHomeGroup interface [Windows Shell],ShowSharingWizard method, IHomeGroup.ShowSharingWizard, IHomeGroup::ShowSharingWizard, ShowSharingWizard, ShowSharingWizard method [Windows Shell], ShowSharingWizard method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_ShowSharingWizard, shell.IHomeGroup_ShowSharingWizard, shobjidl_core/IHomeGroup::ShowSharingWizard
 ms.prod: windows-hardware
 ms.technology: windows-devices

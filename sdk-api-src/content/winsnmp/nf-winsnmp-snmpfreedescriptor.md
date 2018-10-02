@@ -7,7 +7,7 @@ old-location: snmp\snmpfreedescriptor.htm
 tech.root: SNMP
 ms.assetid: 535f728d-6964-47b6-9913-7cd38356053d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SnmpFreeDescriptor, SnmpFreeDescriptor function [SNMP], _snmp_snmpfreedescriptor, snmp.snmpfreedescriptor, winsnmp/SnmpFreeDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

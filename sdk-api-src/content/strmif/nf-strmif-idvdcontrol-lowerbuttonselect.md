@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_lowerbuttonselect.htm
 tech.root: DirectShow
 ms.assetid: eba476a5-c949-4ce1-b296-314e36afc912
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IDvdControl interface [DirectShow],LowerButtonSelect method, IDvdControl.LowerButtonSelect, IDvdControl::LowerButtonSelect, IDvdControlLowerButtonSelect, LowerButtonSelect, LowerButtonSelect method [DirectShow], LowerButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_lowerbuttonselect, strmif/IDvdControl::LowerButtonSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices

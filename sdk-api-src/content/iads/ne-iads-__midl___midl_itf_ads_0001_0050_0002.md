@@ -7,7 +7,7 @@ old-location: adsi\ads_name_inittype_enum.htm
 tech.root: ADSI
 ms.assetid: cd7e4786-b20c-4dad-bae6-4e703e60f330
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADS_NAME_INITTYPE_DOMAIN, ADS_NAME_INITTYPE_ENUM, ADS_NAME_INITTYPE_ENUM enumeration [ADSI], ADS_NAME_INITTYPE_GC, ADS_NAME_INITTYPE_SERVER, __MIDL___MIDL_itf_ads_0001_0050_0002, _ds_ads_name_inittype_enum, adsi.ads__name__inittype__enum, adsi.ads_name_inittype_enum, iads/ADS_NAME_INITTYPE_DOMAIN, iads/ADS_NAME_INITTYPE_ENUM, iads/ADS_NAME_INITTYPE_GC, iads/ADS_NAME_INITTYPE_SERVER
 ms.prod: windows
 ms.technology: windows-sdk

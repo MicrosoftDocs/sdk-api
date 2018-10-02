@@ -4,10 +4,10 @@ title: IPrincipal2
 author: windows-sdk-content
 description: Provides the extended settings applied to security credentials for a principal.
 old-location: taskschd\iprincipal2.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 480f8038-0f67-4a69-b6f6-d7ba881d9d57
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IPrincipal2, IPrincipal2 interface [Task Scheduler], IPrincipal2 interface [Task Scheduler],described, taskschd.iprincipal2, taskschd/IPrincipal2
 ms.prod: windows
 ms.technology: windows-sdk

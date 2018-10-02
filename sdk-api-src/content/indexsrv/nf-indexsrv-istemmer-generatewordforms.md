@@ -7,7 +7,7 @@ old-location: search\_search_IStemmer_GenerateWordForms.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\generatewordforms.htm
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GenerateWordForms, GenerateWordForms method [search], GenerateWordForms method [search],IStemmer interface, IStemmer interface [search],GenerateWordForms method, IStemmer.GenerateWordForms, IStemmer::GenerateWordForms, _search_IStemmer_GenerateWordForms, indexsrv/IStemmer::GenerateWordForms, search._search_IStemmer_GenerateWordForms
 ms.prod: windows-hardware
 ms.technology: windows-devices

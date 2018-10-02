@@ -7,7 +7,7 @@ old-location: pla\ischedule.htm
 tech.root: PLA
 ms.assetid: b02043c6-5010-45a1-a4a4-ce30cbf0dba0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISchedule, ISchedule interface [PLA], ISchedule interface [PLA],described, base.ischedule, pla.ischedule, pla/ISchedule
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_getapplication.htm
 tech.root: WMI_v2
 ms.assetid: f368a88e-c610-42f4-8324-1bc297edf564
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Session_GetApplication, MI_Session_GetApplication function [Windows Management Infrastructure (MI)], mi/MI_Session_GetApplication, wmi_v2.mi_session_getapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFsrmReportScheduler::VerifyNamespaces
 author: windows-sdk-content
 description: Verifies that the specified local directory paths that are used as the source for the reports are valid.
 old-location: fsrm\ifsrmreportscheduler_verifynamespaces.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: bb5139c8-e01f-48cf-a8a9-d3a3e5b86238
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmReportScheduler class [File Server Resource Manager],VerifyNamespaces method, IFsrmReportScheduler interface [File Server Resource Manager],VerifyNamespaces method, IFsrmReportScheduler.VerifyNamespaces, IFsrmReportScheduler::VerifyNamespaces, VerifyNamespaces, VerifyNamespaces method [File Server Resource Manager], VerifyNamespaces method [File Server Resource Manager],FsrmReportScheduler class, VerifyNamespaces method [File Server Resource Manager],IFsrmReportScheduler interface, fs.ifsrmreportscheduler_verifynamespaces, fsrm.ifsrmreportscheduler_verifynamespaces, fsrmreports/IFsrmReportScheduler::VerifyNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

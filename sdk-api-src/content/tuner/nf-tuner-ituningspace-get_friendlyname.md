@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_get_friendlyname.htm
 tech.root: MSTV
 ms.assetid: d1427aae-49e9-45ce-abd9-902a895e6e44
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_FriendlyName method, ITuningSpace.get_FriendlyName, ITuningSpace::get_FriendlyName, ITuningSpaceget_FriendlyName, get_FriendlyName, get_FriendlyName method [Microsoft TV Technologies], get_FriendlyName method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_friendlyname, tuner/ITuningSpace::get_FriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

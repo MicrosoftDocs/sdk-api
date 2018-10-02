@@ -4,10 +4,10 @@ title: ICommDlgBrowser
 author: windows-sdk-content
 description: Exposed by the common file dialog boxes to be used when they host a Shell browser.
 old-location: shell\ICommDlgBrowser.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bf89ac6e-6c2e-4944-885c-9ab62f58fe71
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICommDlgBrowser, ICommDlgBrowser interface [Windows Shell], ICommDlgBrowser interface [Windows Shell],described, _win32_ICommDlgBrowser, shell.ICommDlgBrowser, shobjidl_core/ICommDlgBrowser
 ms.prod: windows
 ms.technology: windows-sdk

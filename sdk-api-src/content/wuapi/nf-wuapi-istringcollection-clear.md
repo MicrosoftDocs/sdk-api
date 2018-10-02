@@ -4,10 +4,10 @@ title: IStringCollection::Clear
 author: windows-sdk-content
 description: Removes all the elements from the collection.
 old-location: wua\istringcollection_clear.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 480b8a8a-ecf1-4f1c-b53d-98a0151c57b5
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Clear method, IStringCollection.Clear, IStringCollection::Clear, wua.istringcollection_clear, wuapi/IStringCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dwm\dwmenableblurbehindwindow.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenableblurbehindwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DwmEnableBlurBehindWindow, DwmEnableBlurBehindWindow function [Desktop Window Manager], _udwm_dwmenableblurbehindwindow, _udwm_dwmenableblurbehindwindow_cpp, dwm.dwmenableblurbehindwindow, dwmapi/DwmEnableBlurBehindWindow, winui._udwm_dwmenableblurbehindwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

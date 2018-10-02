@@ -7,7 +7,7 @@ old-location: fs\getntmsmediapoolname.htm
 tech.root: Rsm
 ms.assetid: 72b9028b-d97e-4441-8677-1a4a0b03dee2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNtmsMediaPoolName, GetNtmsMediaPoolName function [Files], GetNtmsMediaPoolNameA, GetNtmsMediaPoolNameW, _zaw_getntmsmediapoolname, base.getntmsmediapoolname, fs.getntmsmediapoolname, ntmsapi/GetNtmsMediaPoolName, ntmsapi/GetNtmsMediaPoolNameA, ntmsapi/GetNtmsMediaPoolNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

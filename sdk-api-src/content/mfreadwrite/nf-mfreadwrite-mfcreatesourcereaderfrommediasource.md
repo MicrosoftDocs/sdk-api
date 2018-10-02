@@ -4,10 +4,10 @@ title: MFCreateSourceReaderFromMediaSource function
 author: windows-sdk-content
 description: Creates the source reader from a media source.
 old-location: mf\mfcreatesourcereaderfrommediasource.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 924e1813-b025-435b-9770-52503a9eb619
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaSource function [Media Foundation], mf.mfcreatesourcereaderfrommediasource, mfreadwrite/MFCreateSourceReaderFromMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

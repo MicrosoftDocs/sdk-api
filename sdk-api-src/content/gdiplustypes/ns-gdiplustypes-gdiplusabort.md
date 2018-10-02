@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_GdiplusAbort.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusabort.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GdiplusAbort, GdiplusAbort structure [GDI+], _gdiplus_STRUC_GdiplusAbort, gdiplus._gdiplus_STRUC_GdiplusAbort, gdiplustypes/GdiplusAbort
 ms.prod: windows
 ms.technology: windows-sdk

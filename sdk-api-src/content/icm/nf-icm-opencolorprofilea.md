@@ -7,7 +7,7 @@ old-location: wcs\opencolorprofile.htm
 tech.root: WCS
 ms.assetid: 5f738012-690f-4ff9-bc40-4ccbd47169c6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, OpenColorProfile, OpenColorProfile function [Windows Color System], OpenColorProfileA, OpenColorProfileW, PROFILE_READ, PROFILE_READWRITE, TRUNCATE_EXISTING, _color_OpenColorProfile, icm/OpenColorProfile, icm/OpenColorProfileA, icm/OpenColorProfileW, wcs.opencolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

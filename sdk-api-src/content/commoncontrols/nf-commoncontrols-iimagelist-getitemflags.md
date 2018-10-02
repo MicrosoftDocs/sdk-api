@@ -4,10 +4,10 @@ title: IImageList::GetItemFlags
 author: windows-sdk-content
 description: Gets the flags of an image.
 old-location: controls\IImageList_GetItemFlags.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getitemflags.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetItemFlags, GetItemFlags method [Windows Controls], GetItemFlags method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetItemFlags method, IImageList.GetItemFlags, IImageList::GetItemFlags, ILIF_ALPHA, ILIF_LOWQUALITY, comctl_IImageList_GetItemFlags, comctl_IImageList_GetItemFlags_cpp, commoncontrols/IImageList::GetItemFlags, controls.IImageList_GetItemFlags, controls.comctl_IImageList_GetItemFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

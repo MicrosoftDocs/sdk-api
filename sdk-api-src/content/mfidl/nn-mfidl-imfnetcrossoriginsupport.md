@@ -4,10 +4,10 @@ title: IMFNetCrossOriginSupport
 author: windows-sdk-content
 description: Implemented by clients that want to enforce a cross origin policy for HTML5 media downloads.
 old-location: mf\imfnetcrossoriginsupport.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 239E5731-4425-46D4-AFEC-F3E59258B1DF
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFNetCrossOriginSupport, IMFNetCrossOriginSupport interface [Media Foundation], IMFNetCrossOriginSupport interface [Media Foundation],described, mf.imfnetcrossoriginsupport, mfidl/IMFNetCrossOriginSupport
 ms.prod: windows
 ms.technology: windows-sdk

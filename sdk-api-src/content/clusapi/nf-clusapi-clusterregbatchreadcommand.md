@@ -4,10 +4,10 @@ title: ClusterRegBatchReadCommand function
 author: windows-sdk-content
 description: Reads a command from a batch notification.
 old-location: mscs\clusterregbatchreadcommand.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a1a7abc5-f306-4664-bb53-e54c6ee1051e
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ClusterRegBatchReadCommand, ClusterRegBatchReadCommand function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, clusapi/ClusterRegBatchReadCommand, mscs.clusterregbatchreadcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

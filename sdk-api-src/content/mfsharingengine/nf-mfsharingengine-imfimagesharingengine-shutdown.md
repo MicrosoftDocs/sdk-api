@@ -4,10 +4,10 @@ title: IMFImageSharingEngine::Shutdown
 author: windows-sdk-content
 description: Shuts down the image sharing engine.
 old-location: mf\imfimagesharingengine_shutdown.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: F394A740-8F86-4113-B6B8-57CC4127E9D0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFImageSharingEngine interface [Media Foundation],Shutdown method, IMFImageSharingEngine.Shutdown, IMFImageSharingEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_shutdown, mfsharingengine/IMFImageSharingEngine::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

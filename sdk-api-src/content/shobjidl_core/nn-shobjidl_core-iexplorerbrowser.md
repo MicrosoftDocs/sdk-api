@@ -4,10 +4,10 @@ title: IExplorerBrowser
 author: windows-sdk-content
 description: IExplorerBrowser is a browser object that can be either navigated or that can host a view of a data object. As a full-featured browser object, it also supports an automatic travel log.
 old-location: shell\IExplorerBrowser.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: da2cf5d4-5a68-4d18-807b-b9d4e2712c10
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IExplorerBrowser, IExplorerBrowser interface [Windows Shell], IExplorerBrowser interface [Windows Shell],described, _shell_IExplorerBrowser, shell.IExplorerBrowser, shobjidl_core/IExplorerBrowser
 ms.prod: windows
 ms.technology: windows-sdk

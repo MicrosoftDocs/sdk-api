@@ -7,7 +7,7 @@ old-location: security\crypt_image_reg.htm
 tech.root: SecCNG
 ms.assetid: d7dc3bd8-3957-4a4c-9959-dc22505e129a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCRYPT_IMAGE_REG, CRYPT_IMAGE_REG, CRYPT_IMAGE_REG structure [Security], PCRYPT_IMAGE_REG, PCRYPT_IMAGE_REG structure pointer [Security], _CRYPT_IMAGE_REG, bcrypt/CRYPT_IMAGE_REG, bcrypt/PCRYPT_IMAGE_REG, security.crypt_image_reg"
 ms.prod: windows
 ms.technology: windows-sdk

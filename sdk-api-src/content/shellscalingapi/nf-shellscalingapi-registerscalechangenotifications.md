@@ -4,10 +4,10 @@ title: RegisterScaleChangeNotifications function
 author: windows-sdk-content
 description: Registers a window to receive callbacks when scaling information changes.
 old-location: shell\RegisterScaleChangeNotifications.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 79FB0A54-EBF0-4aab-B631-B4D3EA54D20B
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications function [Windows Shell], shell.RegisterScaleChangeNotifications, shellscalingapi/RegisterScaleChangeNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices

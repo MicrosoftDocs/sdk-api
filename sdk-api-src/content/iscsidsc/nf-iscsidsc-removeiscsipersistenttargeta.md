@@ -7,7 +7,7 @@ old-location: iscsidisc\removeiscsipersistenttarget.htm
 tech.root: iSCSIDisc
 ms.assetid: 2522f906-2a91-4d5b-8d6b-86e22c707046
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RemoveIScsiPersistentTargetA, RemoveIscsiPersistentTarget, RemoveIscsiPersistentTarget function [iSCSI Discovery Library API], RemoveIscsiPersistentTargetA, RemoveIscsiPersistentTargetW, iscsidisc.removeiscsipersistenttarget, iscsidsc/RemoveIscsiPersistentTarget, iscsidsc/RemoveIscsiPersistentTargetA, iscsidsc/RemoveIscsiPersistentTargetW
 ms.prod: windows-hardware
 ms.technology: windows-devices

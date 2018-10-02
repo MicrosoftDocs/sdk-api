@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol2_insert2.htm
 tech.root: WMDM
 ms.assetid: bc6cc03c-e13a-45d8-afcb-1fadd5f4dd8e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMStorageControl2 interface [windows Media Device Manager],Insert2 method, IWMDMStorageControl2.Insert2, IWMDMStorageControl2::Insert2, IWMDMStorageControl2Insert2, Insert2, Insert2 method [windows Media Device Manager], Insert2 method [windows Media Device Manager],IWMDMStorageControl2 interface, mswmdm/IWMDMStorageControl2::Insert2, wmdm.iwmdmstoragecontrol2_insert2
 ms.prod: windows-hardware
 ms.technology: windows-devices

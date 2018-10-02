@@ -7,7 +7,7 @@ old-location: security\crypt_provider_reg.htm
 tech.root: SecCNG
 ms.assetid: ca0ac386-9435-49f0-95fe-503aa7183517
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCRYPT_PROVIDER_REG, CRYPT_PROVIDER_REG, CRYPT_PROVIDER_REG structure [Security], PCRYPT_PROVIDER_REG, PCRYPT_PROVIDER_REG structure pointer [Security], _CRYPT_PROVIDER_REG, bcrypt/CRYPT_PROVIDER_REG, bcrypt/PCRYPT_PROVIDER_REG, security.crypt_provider_reg"
 ms.prod: windows
 ms.technology: windows-sdk

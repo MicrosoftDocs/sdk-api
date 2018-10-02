@@ -4,10 +4,10 @@ title: WofFileEnumFiles function
 author: windows-sdk-content
 description: Enumerates all of the files which are compressed with a specified compression algorithm on a specified volume.
 old-location: fs\woffileenumfiles.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 0B3CD8A2-AF4C-4438-B284-03AAA81DE436
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: WofFileEnumFiles, WofFileEnumFiles function [Files], fs.woffileenumfiles, wofapi/WofFileEnumFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

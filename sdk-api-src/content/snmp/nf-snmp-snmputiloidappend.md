@@ -7,7 +7,7 @@ old-location: snmp\snmputiloidappend.htm
 tech.root: SNMP
 ms.assetid: 8ffa5638-13ef-4cec-80f0-303611a52dac
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SnmpUtilOidAppend, SnmpUtilOidAppend function [SNMP], _snmp_snmputiloidappend, snmp.snmputiloidappend, snmp/SnmpUtilOidAppend
 ms.prod: windows-hardware
 ms.technology: windows-devices

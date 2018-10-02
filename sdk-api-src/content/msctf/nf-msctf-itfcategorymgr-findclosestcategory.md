@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_findclosestcategory.htm
 tech.root: TSF
 ms.assetid: 16a78457-b89c-43ef-8604-fd6c2f93f928
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: FindClosestCategory, FindClosestCategory method [Text Services Framework], FindClosestCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],FindClosestCategory method, ITfCategoryMgr.FindClosestCategory, ITfCategoryMgr::FindClosestCategory, _tsf_itfcategorymgr_findclosestcategory_ref, msctf/ITfCategoryMgr::FindClosestCategory, tsf.itfcategorymgr_findclosestcategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearThreshold_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearthreshold.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: ClearThreshold, ClearThreshold method [GDI+], ClearThreshold method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearThreshold method, ImageAttributes.ClearThreshold, ImageAttributes::ClearThreshold, _gdiplus_CLASS_ImageAttributes_ClearThreshold_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearThreshold_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices

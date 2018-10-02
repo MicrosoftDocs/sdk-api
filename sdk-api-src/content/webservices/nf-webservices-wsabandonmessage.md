@@ -7,7 +7,7 @@ old-location: wsw\wsabandonmessage.htm
 tech.root: wsw
 ms.assetid: b8f5da50-d296-4550-8810-114d1f0e810b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsAbandonMessage, WsAbandonMessage function [Web Services for Windows], webservices/WsAbandonMessage, wsw.wsabandonmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\cm_is_version_available.htm
 tech.root: devinst
 ms.assetid: a7a1e8d0-7645-423a-8123-a58ed7ae9827
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CM_Is_Version_Available, CM_Is_Version_Available function [Device and Driver Installation], cfgmgr32/CM_Is_Version_Available, cfgmgrfn_dfae29e5-44ab-4bbc-b104-5ccd4914eea0.xml, devinst.cm_is_version_available
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSourceBuffer::SetTimeStampOffset
 author: windows-sdk-content
 description: Sets the timestamp offset for media segments appended to the IMFSourceBuffer.
 old-location: mf\imfsourcebuffer_settimestampoffset.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: db905149-f6f2-445e-87bb-6705a1a078eb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetTimeStampOffset method, IMFSourceBuffer.SetTimeStampOffset, IMFSourceBuffer::SetTimeStampOffset, SetTimeStampOffset, SetTimeStampOffset method [Media Foundation], SetTimeStampOffset method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_settimestampoffset, mfmediaengine/IMFSourceBuffer::SetTimeStampOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

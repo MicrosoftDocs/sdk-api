@@ -4,10 +4,10 @@ title: INetFwAuthorizedApplications
 author: windows-sdk-content
 description: The INetFwAuthorizedApplications interface provides access to a collection of applications authorized open ports in the firewall.
 old-location: ics\inetfwauthorizedapplications.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 70ea2cd1-5422-4db1-ab84-9924dab5623d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], INetFwAuthorizedApplications interface [ICS/ICF],described, ics.inetfwauthorizedapplications, netfw/INetFwAuthorizedApplications
 ms.prod: windows
 ms.technology: windows-sdk

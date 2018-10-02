@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalstatistics_put_signalquality.htm
 tech.root: MSTV
 ms.assetid: e7d73965-4f7e-4330-89f4-2ccbe679ae2a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SignalQuality method, IBDA_SignalStatistics.put_SignalQuality, IBDA_SignalStatistics::put_SignalQuality, IBDA_SignalStatisticsput_SignalQuality, bdaiface/IBDA_SignalStatistics::put_SignalQuality, mstv.ibda_signalstatistics_put_signalquality, put_SignalQuality, put_SignalQuality method [Microsoft TV Technologies], put_SignalQuality method [Microsoft TV Technologies],IBDA_SignalStatistics interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

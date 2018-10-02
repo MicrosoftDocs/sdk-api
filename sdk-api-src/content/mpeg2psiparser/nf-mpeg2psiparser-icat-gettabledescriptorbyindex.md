@@ -7,7 +7,7 @@ old-location: mstv\icat_gettabledescriptorbyindex.htm
 tech.root: MSTV
 ms.assetid: 7ff5a4dd-e332-4995-84a3-abfbbda087f9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ICAT.GetTableDescriptorByIndex, ICAT::GetTableDescriptorByIndex, ICATGetTableDescriptorByIndex, mpeg2psiparser/ICAT::GetTableDescriptorByIndex, mstv.icat_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

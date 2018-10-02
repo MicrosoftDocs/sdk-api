@@ -7,7 +7,7 @@ old-location: ncd\wsd_app_sequence_struct.htm
 tech.root: WsdApi
 ms.assetid: e9aa8e2f-0162-4f2e-ad70-54b6352105f9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSD_APP_SEQUENCE, WSD_APP_SEQUENCE structure, _WSD_APP_SEQUENCE, ncd.wsd_app_sequence_struct, wsdtypes/WSD_APP_SEQUENCE
 ms.prod: windows
 ms.technology: windows-sdk

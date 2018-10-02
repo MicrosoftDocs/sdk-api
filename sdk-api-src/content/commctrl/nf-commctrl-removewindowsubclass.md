@@ -4,10 +4,10 @@ title: RemoveWindowSubclass function
 author: windows-sdk-content
 description: Removes a subclass callback from a window.
 old-location: shell\RemoveWindowSubclass.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell], commctrl/RemoveWindowSubclass, inet_RemoveWindowSubclass, shell.RemoveWindowSubclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

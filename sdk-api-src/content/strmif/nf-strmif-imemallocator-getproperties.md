@@ -7,7 +7,7 @@ old-location: dshow\imemallocator_getproperties.htm
 tech.root: DirectShow
 ms.assetid: d7b7153c-24c4-4508-925b-b5cfbc26badc
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetProperties method, IMemAllocator.GetProperties, IMemAllocator::GetProperties, IMemAllocatorGetProperties, dshow.imemallocator_getproperties, strmif/IMemAllocator::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

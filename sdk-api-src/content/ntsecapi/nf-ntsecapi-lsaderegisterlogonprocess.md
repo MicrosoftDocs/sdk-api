@@ -7,7 +7,7 @@ old-location: security\lsaderegisterlogonprocess.htm
 tech.root: secauthn
 ms.assetid: 8a956469-9538-4d71-8158-af22aa26f840
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: LsaDeregisterLogonProcess, LsaDeregisterLogonProcess function [Security], _lsa_lsaderegisterlogonprocess, ntsecapi/LsaDeregisterLogonProcess, security.lsaderegisterlogonprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices

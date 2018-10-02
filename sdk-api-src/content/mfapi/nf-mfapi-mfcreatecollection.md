@@ -4,10 +4,10 @@ title: MFCreateCollection function
 author: windows-sdk-content
 description: Creates an empty collection object.
 old-location: mf\mfcreatecollection.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6a7bf7b6-62f1-4eac-9849-39021ee50f42
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 6a7bf7b6-62f1-4eac-9849-39021ee50f42, MFCreateCollection, MFCreateCollection function [Media Foundation], mf.mfcreatecollection, mfapi/MFCreateCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

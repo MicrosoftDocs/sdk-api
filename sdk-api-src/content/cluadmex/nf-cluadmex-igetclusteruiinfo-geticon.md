@@ -4,10 +4,10 @@ title: IGetClusterUIInfo::GetIcon
 author: windows-sdk-content
 description: Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
 old-location: mscs\igetclusteruiinfo_geticon.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetIcon method, IGetClusterUIInfo.GetIcon, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist_get__newenum.htm
 tech.root: ADSI
 ms.assetid: 569f3bfa-3933-43b3-9d16-c3d4382cfa9f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsAccessControlList interface [ADSI],get__NewEnum method, IADsAccessControlList.get__NewEnum, IADsAccessControlList::get__NewEnum, _ds_iadsaccesscontrollist_get__newenum, adsi.iadsaccesscontrollist__get____newenum, adsi.iadsaccesscontrollist_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsAccessControlList interface, iads/IADsAccessControlList::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

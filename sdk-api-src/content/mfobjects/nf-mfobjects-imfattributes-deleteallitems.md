@@ -4,10 +4,10 @@ title: IMFAttributes::DeleteAllItems
 author: windows-sdk-content
 description: Removes all key/value pairs from the object's attribute list.
 old-location: mf\imfattributes_deleteallitems.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8, DeleteAllItems, DeleteAllItems method [Media Foundation], DeleteAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],DeleteAllItems method, IMFAttributes.DeleteAllItems, IMFAttributes::DeleteAllItems, mf.imfattributes_deleteallitems, mfobjects/IMFAttributes::DeleteAllItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

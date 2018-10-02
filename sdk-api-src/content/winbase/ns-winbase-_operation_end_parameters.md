@@ -7,7 +7,7 @@ old-location: oprec\operation_end_parameters.htm
 tech.root: oprec
 ms.assetid: 45ABFE6A-7B70-418F-8C3C-6388079D1306
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*POPERATION_END_PARAMETERS, OPERATION_API_VERSION, OPERATION_END_DISCARD, OPERATION_END_PARAMETERS, OPERATION_END_PARAMETERS structure [Operation Recorder], POPERATION_END_PARAMETERS, POPERATION_END_PARAMETERS structure pointer [Operation Recorder], _OPERATION_END_PARAMETERS, oprec.operation_end_parameters, winbase/OPERATION_END_PARAMETERS, winbase/POPERATION_END_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

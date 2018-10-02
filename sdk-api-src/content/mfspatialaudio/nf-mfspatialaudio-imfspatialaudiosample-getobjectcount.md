@@ -4,10 +4,10 @@ title: IMFSpatialAudioSample::GetObjectCount
 author: windows-sdk-content
 description: Gets the count of spatial audio objects, represented by IMFSpatialAudioObjectBuffer objects, in the sample.
 old-location: mf\imfspatialaudiosample_getobjectcount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: D386E482-4C5A-4F8A-801F-EA1AD4C9157C
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Media Foundation], GetObjectCount method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetObjectCount method, IMFSpatialAudioSample.GetObjectCount, IMFSpatialAudioSample::GetObjectCount, mf.imfspatialaudiosample_getobjectcount, mfspatialaudio/IMFSpatialAudioSample::GetObjectCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

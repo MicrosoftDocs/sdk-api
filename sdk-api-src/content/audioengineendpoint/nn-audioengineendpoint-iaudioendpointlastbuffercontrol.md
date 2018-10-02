@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointlastbuffercontrol.htm
 tech.root: CoreAudio
 ms.assetid: 79f4b370-fd04-41a9-ad74-54f7edd084c2
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IAudioEndpointLastBufferControl, IAudioEndpointLastBufferControl interface [Core Audio], IAudioEndpointLastBufferControl interface [Core Audio],described, audioengineendpoint/IAudioEndpointLastBufferControl, coreaudio.iaudioendpointlastbuffercontrol
 ms.prod: windows
 ms.technology: windows-sdk

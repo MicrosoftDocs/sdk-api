@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constreal64afield.htm
 tech.root: WMI_v2
 ms.assetid: 7e70a27c-4c25-4511-8bda-90ab06bcebb5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ConstReal64AField, MI_ConstReal64AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstReal64AField, mi/MI_ConstReal64AField, wmi._mi_constreal64afield, wmi_v2.mi_constreal64afield
 ms.prod: windows
 ms.technology: windows-sdk

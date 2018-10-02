@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountoutgoingqueue_cpp_mfax_faxaccountoutgoingqueue
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingqueue\getjobs.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetJobs, GetJobs method [Fax Service], GetJobs method [Fax Service],IFaxAccountOutgoingQueue interface, IFaxAccountOutgoingQueue interface [Fax Service],GetJobs method, IFaxAccountOutgoingQueue.GetJobs, IFaxAccountOutgoingQueue::GetJobs, _mfax_faxaccountoutgoingqueue.getjobs, fax._mfax_faxaccountoutgoingqueue_cpp_mfax_faxaccountoutgoingqueue_getjobs_cpp, fax._mfax_faxaccountoutgoingqueue_getjobs, faxcomex/IFaxAccountOutgoingQueue::GetJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices

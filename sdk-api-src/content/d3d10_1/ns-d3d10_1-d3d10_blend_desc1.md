@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_blend_desc1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_blend_desc1.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 4a90d15b-26ee-a91b-b9c6-dc1b5ff0e612, D3D10_BLEND_DESC1, D3D10_BLEND_DESC1 structure [Direct3D 10], d3d10_1/D3D10_BLEND_DESC1, direct3d10.d3d10_blend_desc1
 ms.prod: windows
 ms.technology: windows-sdk

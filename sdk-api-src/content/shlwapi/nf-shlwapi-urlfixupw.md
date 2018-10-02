@@ -4,10 +4,10 @@ title: UrlFixupW function
 author: windows-sdk-content
 description: UrlFixupW may be altered or unavailable.
 old-location: shell\UrlFixupW.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3750d027-847f-4f33-851d-a10be7562bcb
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UrlFixupW, UrlFixupW function [Windows Shell], _win32_UrlFixupW, shell.UrlFixupW, shlwapi/UrlFixupW
 ms.prod: windows-hardware
 ms.technology: windows-devices

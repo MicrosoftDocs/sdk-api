@@ -4,10 +4,10 @@ title: IWizardSite::GetPreviousPage
 author: windows-sdk-content
 description: Called when the user navigates backward out of the wizard extension. Gets the handle of the PROPSHEETPAGE that represents the wizard page that is before the wizard extension page.
 old-location: shell\IWizardSite_GetPreviousPage.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 998eabc5-a0d4-450f-92bf-cf81f74c48d2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetPreviousPage, GetPreviousPage method [Windows Shell], GetPreviousPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetPreviousPage method, IWizardSite.GetPreviousPage, IWizardSite::GetPreviousPage, _shell_IWizardSite_GetPreviousPage, shell.IWizardSite_GetPreviousPage, shobjidl/IWizardSite::GetPreviousPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

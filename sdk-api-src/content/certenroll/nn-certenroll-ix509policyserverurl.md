@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl
 author: windows-sdk-content
 description: The IX509PolicyServerUrl interface can be used to set or retrieve property values associated with the certificate enrollment policy (CEP) server and to update associated registry values.
 old-location: security\ix509policyserverurl.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: ad9d61ec-f607-4f71-ad8a-28d821e29c27
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], IX509PolicyServerUrl interface [Security],described, certenroll/IX509PolicyServerUrl, security.ix509policyserverurl
 ms.prod: windows
 ms.technology: windows-sdk

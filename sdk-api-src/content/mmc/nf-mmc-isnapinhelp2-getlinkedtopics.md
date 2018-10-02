@@ -4,10 +4,10 @@ title: ISnapinHelp2::GetLinkedTopics
 author: windows-sdk-content
 description: Enables a snap-in to specify the names and locations of any HTML Help files that are linked to the snap-in's Help file (specified in the GetHelpTopic method).
 old-location: mmc\isnapinhelp2_getlinkedtopics.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: ceed0d9f-e1bf-4692-aadf-e924095cdfc8
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: GetLinkedTopics, GetLinkedTopics method [MMC], GetLinkedTopics method [MMC],ISnapinHelp2 interface, ISnapinHelp2 interface [MMC],GetLinkedTopics method, ISnapinHelp2.GetLinkedTopics, ISnapinHelp2::GetLinkedTopics, _slate_isnapinhelp2_getlinkedtopics, mmc.isnapinhelp2_getlinkedtopics, mmc/ISnapinHelp2::GetLinkedTopics
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nwifi\wfdcancelopensession.htm
 tech.root: NativeWiFi
 ms.assetid: 0BE3DAED-C9B1-492B-BDFC-CB32BE23E700
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WFDCancelOpenSession, WFDCancelOpenSession function [NativeWIFI], nwifi.wfdcancelopensession, wlanapi/WFDCancelOpenSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

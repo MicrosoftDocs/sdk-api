@@ -7,7 +7,7 @@ old-location: automat\varui8fromstr.htm
 tech.root: automat
 ms.assetid: f5378977-41e2-4b25-b7ba-7a5f66fbed15
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarUI8FromStr, VarUI8FromStr function [Automation], _oa96_VarUI8FromStr, automat.varui8fromstr, oleauto/VarUI8FromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

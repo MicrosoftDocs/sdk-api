@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getmodified.htm
 tech.root: printdocs
 ms.assetid: 364beb9d-01e7-477c-92b2-f2fdb19a87f9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetModified, GetModified method [XPS Documents and Packaging], GetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetModified method, IXpsOMCoreProperties.GetModified, IXpsOMCoreProperties::GetModified, xps.ixpsomcoreproperties_getmodified, xpsobjectmodel/IXpsOMCoreProperties::GetModified
 ms.prod: windows-hardware
 ms.technology: windows-devices

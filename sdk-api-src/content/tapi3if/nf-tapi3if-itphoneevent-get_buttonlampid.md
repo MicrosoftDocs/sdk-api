@@ -4,10 +4,10 @@ title: ITPhoneEvent::get_ButtonLampId
 author: windows-sdk-content
 description: The get_ButtonLampId method returns a long value indicating which button or lamp triggered the event. This information is available only when ITPhoneEvent::get_Event returns PE_LAMPMODE or PE_BUTTON.
 old-location: tapi3\itphoneevent_get_buttonlampid.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 43b87d10-8cb9-4795-8778-70c8f8ae6300
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_ButtonLampId method, ITPhoneEvent.get_ButtonLampId, ITPhoneEvent::get_ButtonLampId, _tapi3_itphoneevent_get_buttonlampid, get_ButtonLampId, get_ButtonLampId method [TAPI 2.2], get_ButtonLampId method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_buttonlampid, tapi3if/ITPhoneEvent::get_ButtonLampId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_FsrmEnumOptions"
 author: windows-sdk-content
 description: Defines the options for enumerating collections of objects.
 old-location: fsrm\fsrmenumoptions.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 9c613d0c-c49a-4010-b66f-a63c57d693f7
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmEnumOptions, FsrmEnumOptions enumeration [File Server Resource Manager], FsrmEnumOptions_Asynchronous, FsrmEnumOptions_CheckRecycleBin, FsrmEnumOptions_IncludeClusterNodes, FsrmEnumOptions_IncludeDeprecatedObjects, FsrmEnumOptions_None, _FsrmEnumOptions, fs.fsrmenumoptions, fsrm.fsrmenumoptions, fsrmenums/FsrmEnumOptions, fsrmenums/FsrmEnumOptions_Asynchronous, fsrmenums/FsrmEnumOptions_CheckRecycleBin, fsrmenums/FsrmEnumOptions_IncludeClusterNodes, fsrmenums/FsrmEnumOptions_IncludeDeprecatedObjects, fsrmenums/FsrmEnumOptions_None
 ms.prod: windows
 ms.technology: windows-sdk

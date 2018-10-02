@@ -7,7 +7,7 @@ old-location: mstv\iatsctuningspace_get_minminorchannel.htm
 tech.root: MSTV
 ms.assetid: 93068602-0efa-45f2-9883-d8b681cd3a0f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MinMinorChannel method, IATSCTuningSpace.get_MinMinorChannel, IATSCTuningSpace::get_MinMinorChannel, IATSCTuningSpaceget_MinMinorChannel, get_MinMinorChannel, get_MinMinorChannel method [Microsoft TV Technologies], get_MinMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_minminorchannel, tuner/IATSCTuningSpace::get_MinMinorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

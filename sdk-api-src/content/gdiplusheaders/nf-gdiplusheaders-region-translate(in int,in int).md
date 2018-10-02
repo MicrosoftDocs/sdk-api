@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiontranslatemethods\translate_28intdx_intdy.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Region class [GDI+],Translate method, Region.Translate, Region.Translate(IN INT,IN INT), Region.Translate(INT,INT), Region::Translate, Region::Translate(IN INT,IN INT), Translate, Translate method [GDI+], Translate method [GDI+],Region class, _gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_, gdiplus._gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices

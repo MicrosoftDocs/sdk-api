@@ -7,7 +7,7 @@ old-location: of\iofflinefilessuspend_suspendroot.htm
 tech.root: OfflineFiles
 ms.assetid: 5307bc8c-e6e9-4ae7-b2da-036fc9c5c08d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesSuspend interface [Offline Files],SuspendRoot method, IOfflineFilesSuspend.SuspendRoot, IOfflineFilesSuspend::SuspendRoot, SuspendRoot, SuspendRoot method [Offline Files], SuspendRoot method [Offline Files],IOfflineFilesSuspend interface, cscobj/IOfflineFilesSuspend::SuspendRoot, of.iofflinefilessuspend_suspendroot
 ms.prod: windows-hardware
 ms.technology: windows-devices

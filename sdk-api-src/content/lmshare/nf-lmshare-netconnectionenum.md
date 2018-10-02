@@ -7,7 +7,7 @@ old-location: fs\netconnectionenum.htm
 tech.root: NetShare
 ms.assetid: 935ac6e9-78e0-42ae-a454-0a14b03ddc21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: 0, 1, NetConnectionEnum, NetConnectionEnum function [Files], _win32_netconnectionenum, fs.netconnectionenum, lmshare/NetConnectionEnum, netmgmt.netconnectionenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

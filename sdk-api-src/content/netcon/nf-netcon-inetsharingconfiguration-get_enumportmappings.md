@@ -4,10 +4,10 @@ title: INetSharingConfiguration::get_EnumPortMappings
 author: windows-sdk-content
 description: The get_EnumPortMappings method retrieves an IEnumNetSharingPortMapping interface. Use this interface to enumerate the port mappings for this connection.
 old-location: ics\inetsharingconfiguration_enumportmappings.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: f5465acc-2b36-47d1-b48f-b36df3a8efb3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_EnumPortMappings method, INetSharingConfiguration.get_EnumPortMappings, INetSharingConfiguration::get_EnumPortMappings, _ics_inetsharingconfiguration_enumportmappings, get_EnumPortMappings, get_EnumPortMappings method [ICS/ICF], get_EnumPortMappings method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_enumportmappings, netcon/INetSharingConfiguration::get_EnumPortMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: EngSort function
 author: windows-sdk-content
 description: The EngSort function performs a quick-sort on the specified list.
 old-location: display\engsort.htm
-tech.root: display
+tech.root: Display
 ms.assetid: e3d1864e-97da-4085-89fa-86135a687f60
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort
 ms.prod: windows-hardware
 ms.technology: windows-devices

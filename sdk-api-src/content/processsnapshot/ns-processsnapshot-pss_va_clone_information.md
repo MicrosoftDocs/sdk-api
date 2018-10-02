@@ -7,7 +7,7 @@ old-location: proc_snap\pss_va_clone_information.htm
 tech.root: proc_snap
 ms.assetid: F93D61B0-EDB2-4560-A69F-CF839EC98B53
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PSS_VA_CLONE_INFORMATION, PSS_VA_CLONE_INFORMATION structure, proc_snap.pss_va_clone_information, processsnapshot/PSS_VA_CLONE_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

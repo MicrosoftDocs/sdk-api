@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache2_renameitemex.htm
 tech.root: OfflineFiles
 ms.assetid: 766ABFE7-4417-47BA-ADF2-AA876C3A868A
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesCache2 interface [Offline Files],RenameItemEx method, IOfflineFilesCache2.RenameItemEx, IOfflineFilesCache2::RenameItemEx, RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files],IOfflineFilesCache2 interface, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PeerPnrpGetEndpoint function
 author: windows-sdk-content
 description: Retrieves a peer endpoint address resolved during an asynchronous peer name resolution operation.
 old-location: p2p\peerpnrpgetendpoint.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: d81b0aab-90b5-4583-b554-efe38c220e59
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerPnrpGetEndpoint, PeerPnrpGetEndpoint function [Peer Networking], p2p.peerpnrpgetendpoint, p2p/PeerPnrpGetEndpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

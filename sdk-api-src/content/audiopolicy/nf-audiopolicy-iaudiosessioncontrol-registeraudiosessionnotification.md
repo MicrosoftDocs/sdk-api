@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_registeraudiosessionnotification.ht
 tech.root: CoreAudio
 ms.assetid: f0004eb6-1b3c-4f78-9ab4-17b30dec0d94
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],RegisterAudioSessionNotification method, IAudioSessionControl.RegisterAudioSessionNotification, IAudioSessionControl::RegisterAudioSessionNotification, IAudioSessionControlRegisterAudioSessionNotification, RegisterAudioSessionNotification, RegisterAudioSessionNotification method [Core Audio], RegisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::RegisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_registeraudiosessionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

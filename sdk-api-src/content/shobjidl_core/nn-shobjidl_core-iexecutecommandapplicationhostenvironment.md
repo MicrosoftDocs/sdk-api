@@ -4,10 +4,10 @@ title: IExecuteCommandApplicationHostEnvironment
 author: windows-sdk-content
 description: Provides a single method that enables an application to determine whether its host is in desktop or immersive mode.
 old-location: shell\IExecuteCommandApplicationHostEnvironment.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c890d306-66df-4c29-88db-d54362ac018a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IExecuteCommandApplicationHostEnvironment, IExecuteCommandApplicationHostEnvironment interface [Windows Shell], IExecuteCommandApplicationHostEnvironment interface [Windows Shell],described, shell.IExecuteCommandApplicationHostEnvironment, shobjidl_core/IExecuteCommandApplicationHostEnvironment
 ms.prod: windows
 ms.technology: windows-sdk

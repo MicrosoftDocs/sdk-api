@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicfastmetadataencoder_getmetadataquerywriter.htm
 tech.root: wic
 ms.assetid: 1d8a0993-101a-4aa5-9e2f-c3f95b9d3d3f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICFastMetadataEncoder interface, IWICFastMetadataEncoder interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICFastMetadataEncoder.GetMetadataQueryWriter, IWICFastMetadataEncoder::GetMetadataQueryWriter, _wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wic._wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wincodec/IWICFastMetadataEncoder::GetMetadataQueryWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

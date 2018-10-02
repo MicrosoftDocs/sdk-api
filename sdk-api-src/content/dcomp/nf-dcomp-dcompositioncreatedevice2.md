@@ -7,7 +7,7 @@ old-location: directcomp\dcompositioncreatedevice2.htm
 tech.root: directcomp
 ms.assetid: C40694CB-7110-4ED0-B2E5-F73ADEA7BEA4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DCompositionCreateDevice2, DCompositionCreateDevice2 function [DirectComposition], dcomp/DCompositionCreateDevice2, directcomp.dcompositioncreatedevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices

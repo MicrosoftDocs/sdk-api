@@ -7,7 +7,7 @@ old-location: mstv\istreambufferrecordingattribute_setattribute.htm
 tech.root: MSTV
 ms.assetid: cc441a00-e98f-4ea7-b902-d74846fc93cc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],SetAttribute method, IStreamBufferRecordingAttribute.SetAttribute, IStreamBufferRecordingAttribute::SetAttribute, IStreamBufferRecordingAttributeSetAttribute, SetAttribute, SetAttribute method [Microsoft TV Technologies], SetAttribute method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, mstv.istreambufferrecordingattribute_setattribute, sbe/IStreamBufferRecordingAttribute::SetAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

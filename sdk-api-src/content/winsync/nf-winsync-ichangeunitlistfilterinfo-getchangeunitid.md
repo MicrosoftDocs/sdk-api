@@ -7,7 +7,7 @@ old-location: winsync\ichangeunitlistfilterinfo_getchangeunitid.htm
 tech.root: winsync
 ms.assetid: 67420b58-b3c9-4500-8395-4d176133c142
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitId method, IChangeUnitListFilterInfo.GetChangeUnitId, IChangeUnitListFilterInfo::GetChangeUnitId, winsync.ichangeunitlistfilterinfo_getchangeunitid, winsync/IChangeUnitListFilterInfo::GetChangeUnitId
 ms.prod: windows-hardware
 ms.technology: windows-devices

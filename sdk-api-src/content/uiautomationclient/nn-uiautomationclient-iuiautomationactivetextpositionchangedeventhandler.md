@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationActiveTextPositionChangedEventHandler.
 tech.root: WinAuto
 ms.assetid: 038AD911-2FDB-42E5-86E0-76C58F765114
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IUIAutomationActiveTextPositionChangedEventHandler, IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility], IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationActiveTextPositionChangedEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,7 +15,7 @@ ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, next major update [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
 req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -7,7 +7,7 @@ old-location: winrt\rogetparameterizedtypeinstanceiid.htm
 tech.root: WinRT
 ms.assetid: DE908C82-5D7C-415C-B08B-31786589979B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RoGetParameterizedTypeInstanceIID, RoGetParameterizedTypeInstanceIID function [Windows Runtime], roparameterizediid/RoGetParameterizedTypeInstanceIID, winrt.rogetparameterizedtypeinstanceiid
 ms.prod: windows-hardware
 ms.technology: windows-devices

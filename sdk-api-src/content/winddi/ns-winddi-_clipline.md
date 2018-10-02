@@ -4,10 +4,10 @@ title: "_CLIPLINE"
 author: windows-sdk-content
 description: The CLIPLINE structure gives the driver access to a portion of a line between two clip regions used for drawing.
 old-location: display\clipline.htm
-tech.root: display
+tech.root: Display
 ms.assetid: ec938519-3c0c-4664-9e9a-b7fb338920f5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLIPLINE, CLIPLINE, CLIPLINE structure [Display Devices], PCLIPLINE, PCLIPLINE structure pointer [Display Devices], _CLIPLINE, display.clipline, grstrcts_01e6e35a-79ca-4dba-866e-24306b83cb51.xml, winddi/CLIPLINE, winddi/PCLIPLINE"
 ms.prod: windows
 ms.technology: windows-sdk

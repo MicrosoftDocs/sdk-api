@@ -4,10 +4,10 @@ title: DPA_Merge function
 author: windows-sdk-content
 description: Combines the contents of two dynamic pointer arrays (DPAs).
 old-location: controls\DPA_Merge.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_merge.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: DPAM_INTERSECT, DPAM_NORMAL, DPAM_SORTED, DPAM_UNION, DPA_Merge, DPA_Merge function [Windows Controls], _shell_DPA_Merge, _shell_DPA_Merge_cpp, controls.DPA_Merge, controls._shell_DPA_Merge, dpa_dsa/DPA_Merge
 ms.prod: windows-hardware
 ms.technology: windows-devices

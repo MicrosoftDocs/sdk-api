@@ -4,10 +4,10 @@ title: SHQueryRecycleBinW function
 author: windows-sdk-content
 description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive.
 old-location: shell\SHQueryRecycleBin.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a9a80486-2c99-4916-af25-10b00573456b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHQueryRecycleBin, SHQueryRecycleBin function [Windows Shell], SHQueryRecycleBinA, SHQueryRecycleBinW, _win32_SHQueryRecycleBin, shell.SHQueryRecycleBin, shellapi/SHQueryRecycleBin, shellapi/SHQueryRecycleBinA, shellapi/SHQueryRecycleBinW
 ms.prod: windows-hardware
 ms.technology: windows-devices

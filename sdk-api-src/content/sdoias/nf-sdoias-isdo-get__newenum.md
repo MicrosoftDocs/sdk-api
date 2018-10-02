@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_get__newenum.htm
 tech.root: Nps
 ms.assetid: 23033dc3-824c-429c-836d-65782ca3df92
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISdo interface [Network Policy Server],get__NewEnum method, ISdo.get__NewEnum, ISdo::get__NewEnum, _sdo_isdo_get__newenum, get__NewEnum, get__NewEnum method [Network Policy Server], get__NewEnum method [Network Policy Server],ISdo interface, nps.SDO_isdo_get__newenum, sdo.isdo_get__newenum, sdoias/ISdo::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IAzTask::get_Operations
 author: windows-sdk-content
 description: Retrieves the operations associated with the task.
 old-location: security\iaztask_operations.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b05fd157-6526-49d6-9bb1-fcf8c59cc74e
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AzTask object [Security],Operations property, IAzTask interface [Security],Operations property, IAzTask.Operations, IAzTask.get_Operations, IAzTask::Operations, IAzTask::get_Operations, Operations property [Security], Operations property [Security],AzTask object, Operations property [Security],IAzTask interface, azroles/IAzTask::Operations, azroles/IAzTask::get_Operations, get_Operations, security.iaztask_operations
 ms.prod: windows-hardware
 ms.technology: windows-devices

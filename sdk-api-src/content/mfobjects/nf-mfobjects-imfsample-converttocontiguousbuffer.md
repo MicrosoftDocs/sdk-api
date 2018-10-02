@@ -4,10 +4,10 @@ title: IMFSample::ConvertToContiguousBuffer
 author: windows-sdk-content
 description: Converts a sample with multiple buffers into a sample with a single buffer.
 old-location: mf\imfsample_converttocontiguousbuffer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66, ConvertToContiguousBuffer, ConvertToContiguousBuffer method [Media Foundation], ConvertToContiguousBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],ConvertToContiguousBuffer method, IMFSample.ConvertToContiguousBuffer, IMFSample::ConvertToContiguousBuffer, mf.imfsample_converttocontiguousbuffer, mfobjects/IMFSample::ConvertToContiguousBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

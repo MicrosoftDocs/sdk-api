@@ -4,10 +4,10 @@ title: ShellMessageBoxW function
 author: windows-sdk-content
 description: ShellMessageBox may be altered or unavailable.
 old-location: shell\ShellMessageBox.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7cbaeae3-3473-4568-90ab-63efef049af3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ShellMessageBox, ShellMessageBox function [Windows Shell], ShellMessageBoxA, ShellMessageBoxW, _win32_ShellMessageBox, shell.ShellMessageBox, shellapi/ShellMessageBox, shellapi/ShellMessageBoxA, shellapi/ShellMessageBoxW
 ms.prod: windows-hardware
 ms.technology: windows-devices

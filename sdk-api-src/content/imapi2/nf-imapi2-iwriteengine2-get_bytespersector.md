@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2_get_bytespersector.htm
 tech.root: imapi
 ms.assetid: ee48368c-e9bc-4ac7-97cf-a2bdc2a05d22
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_BytesPerSector method, IWriteEngine2.get_BytesPerSector, IWriteEngine2::get_BytesPerSector, get_BytesPerSector, get_BytesPerSector method [IMAPI], get_BytesPerSector method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_bytespersector, imapi2/IWriteEngine2::get_BytesPerSector
 ms.prod: windows-hardware
 ms.technology: windows-devices

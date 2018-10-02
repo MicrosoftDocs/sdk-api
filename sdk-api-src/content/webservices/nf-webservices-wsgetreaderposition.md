@@ -7,7 +7,7 @@ old-location: wsw\wsgetreaderposition.htm
 tech.root: wsw
 ms.assetid: 91e543f3-7325-4a90-9b99-c98918478853
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsGetReaderPosition, WsGetReaderPosition function [Web Services for Windows], webservices/WsGetReaderPosition, wsw.wsgetreaderposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

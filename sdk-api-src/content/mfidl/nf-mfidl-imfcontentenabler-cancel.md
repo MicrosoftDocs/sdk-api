@@ -4,10 +4,10 @@ title: IMFContentEnabler::Cancel
 author: windows-sdk-content
 description: Cancels a pending content enabling action.
 old-location: mf\imfcontentenabler_cancel.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e273b702-1f42-4aeb-9259-778d3f206682
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: Cancel, Cancel method [Media Foundation], Cancel method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],Cancel method, IMFContentEnabler.Cancel, IMFContentEnabler::Cancel, e273b702-1f42-4aeb-9259-778d3f206682, mf.imfcontentenabler_cancel, mfidl/IMFContentEnabler::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

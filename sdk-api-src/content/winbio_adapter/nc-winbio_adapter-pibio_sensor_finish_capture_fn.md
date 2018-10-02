@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradapterfinishcapture.htm
 tech.root: SecBioMet
 ms.assetid: f9ede590-5208-40ed-ac62-604a2d13a5a6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, PIBIO_SENSOR_FINISH_CAPTURE_FN callback, SensorAdapterFinishCapture, SensorAdapterFinishCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterfinishcapture, winbio_adapter/SensorAdapterFinishCapture
 ms.prod: windows
 ms.technology: windows-sdk

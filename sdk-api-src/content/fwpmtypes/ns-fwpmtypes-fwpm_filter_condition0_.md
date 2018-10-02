@@ -7,7 +7,7 @@ old-location: fwp\fwpm_filter_condition0_struct.htm
 tech.root: FWP
 ms.assetid: 4dfed9d7-e51b-425c-9f27-014229c140be
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_FILTER_CONDITION0, FWPM_FILTER_CONDITION0 structure [Filtering], FWPM_FILTER_CONDITION0_, fwp.fwpm_filter_condition0_struct, fwpmtypes/FWPM_FILTER_CONDITION0
 ms.prod: windows
 ms.technology: windows-sdk

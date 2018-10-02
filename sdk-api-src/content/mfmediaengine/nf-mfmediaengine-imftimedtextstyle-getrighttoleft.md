@@ -4,10 +4,10 @@ title: IMFTimedTextStyle::GetRightToLeft
 author: windows-sdk-content
 description: Determines whether the right to left writing mode of the timed-text style is enabled.
 old-location: mf\imftimedtextstyle_getrighttoleft.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6BE5C8A0-F577-4E1D-8DB7-3FFBEF059C18
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetRightToLeft, GetRightToLeft method [Media Foundation], GetRightToLeft method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetRightToLeft method, IMFTimedTextStyle.GetRightToLeft, IMFTimedTextStyle::GetRightToLeft, mf.imftimedtextstyle_getrighttoleft, mfmediaengine/IMFTimedTextStyle::GetRightToLeft
 ms.prod: windows-hardware
 ms.technology: windows-devices

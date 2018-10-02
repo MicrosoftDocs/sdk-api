@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetValue_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getvalue.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Color class [GDI+],GetValue method, Color.GetValue, Color::GetValue, GetValue, GetValue method [GDI+], GetValue method [GDI+],Color class, _gdiplus_CLASS_Color_GetValue_, gdiplus._gdiplus_CLASS_Color_GetValue_
 ms.prod: windows-hardware
 ms.technology: windows-devices

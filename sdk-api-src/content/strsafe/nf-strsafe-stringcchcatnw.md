@@ -7,7 +7,7 @@ old-location: menurc\stringcchcatn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatn.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: StringCchCatN, StringCchCatN function [Menus and Other Resources], StringCchCatNA, StringCchCatNW, _shell_StringCchCatN, _shell_stringcchcatn_cpp, menurc.stringcchcatn, strsafe/StringCchCatN, strsafe/StringCchCatNA, strsafe/StringCchCatNW, winui._shell_stringcchcatn
 ms.prod: windows-hardware
 ms.technology: windows-devices

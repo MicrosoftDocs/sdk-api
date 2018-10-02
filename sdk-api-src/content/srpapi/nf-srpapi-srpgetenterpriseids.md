@@ -7,7 +7,7 @@ old-location: edp\srpgetenterpriseids.htm
 tech.root: EDP
 ms.assetid: 850FA83D-A90F-40CA-99BE-F6DD890F4E6F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EDP.srpgetenterpriseids, SrpGetEnterpriseIds, SrpGetEnterpriseIds function, srpapi/SrpGetEnterpriseIds
 ms.prod: windows-hardware
 ms.technology: windows-devices

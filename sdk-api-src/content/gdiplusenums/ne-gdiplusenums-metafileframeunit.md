@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_MetafileFrameUnit.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\metafileframeunit.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: MetafileFrameUnit, MetafileFrameUnit enumeration [GDI+], MetafileFrameUnitDocument, MetafileFrameUnitGdi, MetafileFrameUnitInch, MetafileFrameUnitMillimeter, MetafileFrameUnitPixel, MetafileFrameUnitPoint, _gdiplus_ENUM_MetafileFrameUnit, gdiplus._gdiplus_ENUM_MetafileFrameUnit, gdiplusenums/MetafileFrameUnit, gdiplusenums/MetafileFrameUnitDocument, gdiplusenums/MetafileFrameUnitGdi, gdiplusenums/MetafileFrameUnitInch, gdiplusenums/MetafileFrameUnitMillimeter, gdiplusenums/MetafileFrameUnitPixel, gdiplusenums/MetafileFrameUnitPoint
 ms.prod: windows
 ms.technology: windows-sdk

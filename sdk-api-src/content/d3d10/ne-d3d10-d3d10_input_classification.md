@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_input_classification.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_input_classification.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 324be834-c39b-26f0-18f5-c78924801214, D3D10_INPUT_CLASSIFICATION, D3D10_INPUT_CLASSIFICATION enumeration [Direct3D 10], D3D10_INPUT_PER_INSTANCE_DATA, D3D10_INPUT_PER_VERTEX_DATA, d3d10/D3D10_INPUT_CLASSIFICATION, d3d10/D3D10_INPUT_PER_INSTANCE_DATA, d3d10/D3D10_INPUT_PER_VERTEX_DATA, direct3d10.d3d10_input_classification
 ms.prod: windows
 ms.technology: windows-sdk

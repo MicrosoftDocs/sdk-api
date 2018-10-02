@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorBlt
 author: windows-sdk-content
 description: Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
 old-location: mf\id3d11videocontext_videoprocessorblt.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorBlt method, ID3D11VideoContext.VideoProcessorBlt, ID3D11VideoContext::VideoProcessorBlt, VideoProcessorBlt, VideoProcessorBlt method [Media Foundation], VideoProcessorBlt method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorBlt, mf.id3d11videocontext_videoprocessorblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

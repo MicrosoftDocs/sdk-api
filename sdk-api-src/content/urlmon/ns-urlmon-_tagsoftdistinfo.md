@@ -4,10 +4,10 @@ title: "_tagSOFTDISTINFO"
 author: windows-sdk-content
 description: Contains information about a software update.
 old-location: shell\SOFTDISTINFO.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e113967a-e52c-41d7-961a-2c305790543e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPSOFTDISTINFO, LPSOFTDISTINFO, LPSOFTDISTINFO structure pointer [Windows Shell], SOFTDISTINFO, SOFTDISTINFO structure [Windows Shell], SOFTDIST_ADSTATE_AVAILABLE (0x00000001), SOFTDIST_ADSTATE_DOWNLOADED (0x00000002), SOFTDIST_ADSTATE_INSTALLED (0x00000003), SOFTDIST_ADSTATE_NONE (0x00000000), SOFTDIST_FLAG_DELETE_SUBSCRIPTION, SOFTDIST_FLAG_USAGE_AUTOINSTALL, SOFTDIST_FLAG_USAGE_EMAIL, SOFTDIST_FLAG_USAGE_PRECACHE, _tagSOFTDISTINFO, _win32_SOFTDISTINFO, shell.SOFTDISTINFO, urlmon/LPSOFTDISTINFO, urlmon/SOFTDISTINFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_settag.htm
 tech.root: UIAnimation
 ms.assetid: 9BEB2BF7-55F7-43F7-822C-CB4AC6F29E32
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetTag method, IUIAnimationStoryboard2.SetTag, IUIAnimationStoryboard2::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_settag, uianimation/IUIAnimationStoryboard2::SetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

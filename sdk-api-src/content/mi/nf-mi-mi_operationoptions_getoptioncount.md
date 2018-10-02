@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getoptioncount.htm
 tech.root: WMI_v2
 ms.assetid: 0c015ec7-d663-4207-b6d0-149da41cbf0e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_OperationOptions_GetOptionCount, MI_OperationOptions_GetOptionCount function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetOptionCount, wmi_v2.mi_operationoptions_getoptioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

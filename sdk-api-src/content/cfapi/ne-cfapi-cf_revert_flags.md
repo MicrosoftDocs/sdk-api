@@ -7,7 +7,7 @@ old-location: cloudapi\cf_revert_flags.htm
 tech.root: cfApi
 ms.assetid: 71FDE7FA-99FC-4773-A857-8E1BF89ED7E4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CF_REVERT_FLAGS, CF_REVERT_FLAGS enumeration, CF_REVERT_FLAG_NONE, cfapi/CF_REVERT_FLAGS, cfapi/CF_REVERT_FLAG_NONE, cloudApi.cf_revert_flags
 ms.prod: windows
 ms.technology: windows-sdk

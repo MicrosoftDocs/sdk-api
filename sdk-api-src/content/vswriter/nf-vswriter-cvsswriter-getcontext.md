@@ -7,7 +7,7 @@ old-location: base\cvsswriter_getcontext.htm
 tech.root: VSS
 ms.assetid: efe2f43b-fbcf-4b30-a6d4-31d563d321c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriter interface [VSS],GetContext method, CVssWriter.GetContext, CVssWriter::GetContext, GetContext, GetContext method [VSS], GetContext method [VSS],CVssWriter interface, _win32_cvsswriter_getcontext, base.cvsswriter_getcontext, vswriter/CVssWriter::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

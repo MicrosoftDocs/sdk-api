@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: fc9e414e-be53-46e7-b329-23f17fc23725
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetColorKey method, IOverlay.GetColorKey, IOverlay::GetColorKey, IOverlayGetColorKey, dshow.ioverlay_getcolorkey, strmif/IOverlay::GetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

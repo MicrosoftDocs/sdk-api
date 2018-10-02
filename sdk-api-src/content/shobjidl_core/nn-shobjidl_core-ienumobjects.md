@@ -4,10 +4,10 @@ title: IEnumObjects
 author: windows-sdk-content
 description: Exposes methods to enumerate unknown objects.
 old-location: shell\IEnumObjects.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 914f2a4d-a67a-45d9-96ee-d8cae7d08e3c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumObjects, IEnumObjects interface [Windows Shell], IEnumObjects interface [Windows Shell],described, _shell_IEnumObjects, shell.IEnumObjects, shobjidl_core/IEnumObjects
 ms.prod: windows
 ms.technology: windows-sdk

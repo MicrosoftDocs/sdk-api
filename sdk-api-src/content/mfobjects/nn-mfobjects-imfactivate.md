@@ -4,10 +4,10 @@ title: IMFActivate
 author: windows-sdk-content
 description: Enables the application to defer the creation of an object.
 old-location: mf\imfactivate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c0936e3c-3cd1-4c1e-a336-2dee7d943963
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate interface [Media Foundation],described, c0936e3c-3cd1-4c1e-a336-2dee7d943963, mf.imfactivate, mfobjects/IMFActivate
 ms.prod: windows
 ms.technology: windows-sdk

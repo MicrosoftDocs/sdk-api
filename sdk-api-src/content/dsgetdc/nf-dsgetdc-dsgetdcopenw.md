@@ -4,10 +4,10 @@ title: DsGetDcOpenW function
 author: windows-sdk-content
 description: Opens a new domain controller enumeration operation.
 old-location: ad\dsgetdcopen.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 2811cc30-f367-4f1a-8f0c-ed0a77dad24c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_KDC_REQUIRED, DS_NOTIFY_AFTER_SITE_RECORDS, DS_ONLY_DO_SITE_NAME, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DsGetDcOpen, DsGetDcOpen function [Active Directory], DsGetDcOpenA, DsGetDcOpenW, ad.dsgetdcopen, dsgetdc/DsGetDcOpen, dsgetdc/DsGetDcOpenA, dsgetdc/DsGetDcOpenW
 ms.prod: windows-hardware
 ms.technology: windows-devices

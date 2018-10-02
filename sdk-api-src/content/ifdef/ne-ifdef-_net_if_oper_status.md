@@ -7,7 +7,7 @@ old-location: netvista\net_if_oper_status.htm
 tech.root: NetVista
 ms.assetid: 19bd5b9b-94db-430e-b264-1744dfe83d54
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "*PNET_IF_OPER_STATUS, NET_IF_OPER_STATUS, NET_IF_OPER_STATUS enumeration [Network Drivers Starting with Windows Vista], NET_IF_OPER_STATUS_DORMANT, NET_IF_OPER_STATUS_DOWN, NET_IF_OPER_STATUS_LOWER_LAYER_DOWN, NET_IF_OPER_STATUS_NOT_PRESENT, NET_IF_OPER_STATUS_TESTING, NET_IF_OPER_STATUS_UNKNOWN, NET_IF_OPER_STATUS_UP, PNET_IF_OPER_STATUS, PNET_IF_OPER_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_OPER_STATUS, ifdef/NET_IF_OPER_STATUS, ifdef/NET_IF_OPER_STATUS_DORMANT, ifdef/NET_IF_OPER_STATUS_DOWN, ifdef/NET_IF_OPER_STATUS_LOWER_LAYER_DOWN, ifdef/NET_IF_OPER_STATUS_NOT_PRESENT, ifdef/NET_IF_OPER_STATUS_TESTING, ifdef/NET_IF_OPER_STATUS_UNKNOWN, ifdef/NET_IF_OPER_STATUS_UP, ifdef/PNET_IF_OPER_STATUS, net_if_enums_ref_c9b9e5f0-12cc-4499-8d9a-e40b088470b8.xml, netvista.net_if_oper_status"
 ms.prod: windows
 ms.technology: windows-sdk

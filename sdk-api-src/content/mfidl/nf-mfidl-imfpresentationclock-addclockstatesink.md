@@ -4,10 +4,10 @@ title: IMFPresentationClock::AddClockStateSink
 author: windows-sdk-content
 description: Registers an object to be notified whenever the clock starts, stops, or pauses, or changes rate.
 old-location: mf\imfpresentationclock_addclockstatesink.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c90c3d26-51fa-4cd6-a154-6f72c21219d2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: AddClockStateSink, AddClockStateSink method [Media Foundation], AddClockStateSink method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],AddClockStateSink method, IMFPresentationClock.AddClockStateSink, IMFPresentationClock::AddClockStateSink, c90c3d26-51fa-4cd6-a154-6f72c21219d2, mf.imfpresentationclock_addclockstatesink, mfidl/IMFPresentationClock::AddClockStateSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

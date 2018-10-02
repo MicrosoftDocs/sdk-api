@@ -4,10 +4,10 @@ title: PxeDhcpv6AppendOptionRaw function
 author: windows-sdk-content
 description: Appends a DHCPv6 option to the reply packet.
 old-location: wds\pxedhcpv6appendoptionraw.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: DABE18C2-50C3-4923-A2C9-8382DF762D3F
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: PxeDhcpv6AppendOptionRaw, PxeDhcpv6AppendOptionRaw function [Windows Deployment Services], wds.pxedhcpv6appendoptionraw, wdspxe/PxeDhcpv6AppendOptionRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices

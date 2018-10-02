@@ -7,7 +7,7 @@ old-location: base\ivdshwprovider_querysubsystems.htm
 tech.root: VDS
 ms.assetid: ae327655-3db9-44b0-934a-458ee90b1d07
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsHwProvider interface [VDS],QuerySubSystems method, IVdsHwProvider.QuerySubSystems, IVdsHwProvider::QuerySubSystems, QuerySubSystems, QuerySubSystems method [VDS], QuerySubSystems method [VDS],IVdsHwProvider interface, base.ivdshwprovider_querysubsystems, vds/IVdsHwProvider::QuerySubSystems, vdshwprv/IVdsHwProvider::QuerySubSystems
 ms.prod: windows-hardware
 ms.technology: windows-devices

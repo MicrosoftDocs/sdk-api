@@ -7,7 +7,7 @@ old-location: toolhelp\toolhelp32readprocessmemory.htm
 tech.root: ToolHelp
 ms.assetid: e579b813-32ef-481d-8dc6-f959ec9b6bad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Toolhelp32ReadProcessMemory, Toolhelp32ReadProcessMemory function [ToolHelp], _win32_toolhelp32readprocessmemory, base.toolhelp32readprocessmemory, tlhelp32/Toolhelp32ReadProcessMemory, toolhelp.toolhelp32readprocessmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

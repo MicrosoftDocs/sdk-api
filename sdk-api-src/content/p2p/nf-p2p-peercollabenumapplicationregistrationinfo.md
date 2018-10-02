@@ -4,10 +4,10 @@ title: PeerCollabEnumApplicationRegistrationInfo function
 author: windows-sdk-content
 description: Obtains the enumeration handle used to retrieve peer application information.
 old-location: p2p\peercollabenumapplicationregistrationinfo.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 635af767-a4b5-4c48-9966-35c1a629db5d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabEnumApplicationRegistrationInfo, PeerCollabEnumApplicationRegistrationInfo function [Peer Networking], p2p.peercollabenumapplicationregistrationinfo, p2p/PeerCollabEnumApplicationRegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

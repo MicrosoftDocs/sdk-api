@@ -7,7 +7,7 @@ old-location: fwp\fwp_byte_blob_struct.htm
 tech.root: FWP
 ms.assetid: 85f360bf-5ee4-4980-b4ce-15ff310d8fbe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWP_BYTE_BLOB, FWP_BYTE_BLOB structure [Filtering], FWP_BYTE_BLOB_, fwp.fwp_byte_blob_struct, fwptypes/FWP_BYTE_BLOB
 ms.prod: windows
 ms.technology: windows-sdk

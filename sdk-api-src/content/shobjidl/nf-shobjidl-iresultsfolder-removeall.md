@@ -4,10 +4,10 @@ title: IResultsFolder::RemoveAll
 author: windows-sdk-content
 description: Removes all items from a results folder.
 old-location: shell\IResultsFolder_RemoveAll.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2aac1b5a-298a-4682-9874-7cf114ce1f63
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveAll method, IResultsFolder.RemoveAll, IResultsFolder::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveAll, shell.IResultsFolder_RemoveAll, shobjidl/IResultsFolder::RemoveAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

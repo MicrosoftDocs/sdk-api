@@ -4,10 +4,10 @@ title: ILaunchTargetViewSizePreference::GetTargetViewSizePreference
 author: windows-sdk-content
 description: Retrieves the preferred view size of the application being launched.
 old-location: shell\ILaunchTargetViewSizePreference_GetTargetViewSizePreference.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2C852FD1-09FD-45B6-A493-07DEE72BEA4C
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetTargetViewSizePreference, GetTargetViewSizePreference method [Windows Shell], GetTargetViewSizePreference method [Windows Shell],ILaunchTargetViewSizePreference interface, ILaunchTargetViewSizePreference interface [Windows Shell],GetTargetViewSizePreference method, ILaunchTargetViewSizePreference.GetTargetViewSizePreference, ILaunchTargetViewSizePreference::GetTargetViewSizePreference, shell.ILaunchTargetViewSizePreference_GetTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference::GetTargetViewSizePreference
 ms.prod: windows-hardware
 ms.technology: windows-devices

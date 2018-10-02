@@ -7,7 +7,7 @@ old-location: wmp\wmpaccounttype.htm
 tech.root: WMP
 ms.assetid: daab6937-0906-4b69-8d00-c68e43b8214f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: WMPAccountType, WMPAccountType enumeration [Windows Media Player], contentpartner/WMPAccountType, contentpartner/wmpatBuyOnly, contentpartner/wmpatJanus, contentpartner/wmpatSubscription, enumeration [Windows Media Player], wmp.wmpaccounttype, wmpatBuyOnly, wmpatJanus, wmpatSubscription
 ms.prod: windows
 ms.technology: windows-sdk

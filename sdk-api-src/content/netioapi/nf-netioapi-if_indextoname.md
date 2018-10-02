@@ -7,7 +7,7 @@ old-location: iphlp\if_indextoname.htm
 tech.root: IpHlp
 ms.assetid: 0da31819-3ee7-4474-9e68-f5a18d4a135a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: if_indextoname, if_indextoname function [IP Helper], iphlp.if_indextoname, netioapi/if_indextoname
 ms.prod: windows-hardware
 ms.technology: windows-devices

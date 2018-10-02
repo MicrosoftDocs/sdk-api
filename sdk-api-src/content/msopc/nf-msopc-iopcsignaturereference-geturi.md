@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereference_geturi.htm
 tech.root: OPC
 ms.assetid: 4dd02f48-9b49-4e74-b0cf-c51c0a594437
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetUri, GetUri method [Open Packaging Conventions], GetUri method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetUri method, IOpcSignatureReference.GetUri, IOpcSignatureReference::GetUri, msopc/IOpcSignatureReference::GetUri, opc.iopcsignaturereference_geturi
 ms.prod: windows-hardware
 ms.technology: windows-devices

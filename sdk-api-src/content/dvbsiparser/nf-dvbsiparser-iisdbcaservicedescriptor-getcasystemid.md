@@ -7,7 +7,7 @@ old-location: mstv\iisdbcaservicedescriptor_getcasystemid.htm
 tech.root: MSTV
 ms.assetid: 48148c5c-30e1-4028-8baf-692141d79fad
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAServiceDescriptor.GetCASystemId, IIsdbCAServiceDescriptor::GetCASystemId, dvbsiparser/IIsdbCAServiceDescriptor::GetCASystemId, mstv.iisdbcaservicedescriptor_getcasystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices

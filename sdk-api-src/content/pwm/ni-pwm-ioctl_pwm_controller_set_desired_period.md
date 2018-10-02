@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_controller_set_desired_period.htm
 tech.root: devio
 ms.assetid: 7E25B3C8-8C73-4808-B460-DFC408A2482F
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code, base.ioctl_pwm_controller_set_desired_period, pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
 Sets the output signal period of a Pulse Width Modulation (PWM) controller to a suggested value. 

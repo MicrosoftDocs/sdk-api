@@ -4,10 +4,10 @@ title: SHParseDisplayName function
 author: windows-sdk-content
 description: Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL).
 old-location: shell\SHParseDisplayName.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7bdfeed5-dcd0-40f6-a9d0-08ce816ee055
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHParseDisplayName, SHParseDisplayName function [Windows Shell], _shell_SHParseDisplayName, shell.SHParseDisplayName, shlobj_core/SHParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

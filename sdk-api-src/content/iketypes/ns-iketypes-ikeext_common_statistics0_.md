@@ -7,7 +7,7 @@ old-location: fwp\ikeext_common_statistics0.htm
 tech.root: FWP
 ms.assetid: a53ef735-3223-4ff5-9b2a-d40ab0f53570
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IKEEXT_COMMON_STATISTICS0, IKEEXT_COMMON_STATISTICS0 structure [Filtering], IKEEXT_COMMON_STATISTICS0_, fwp.ikeext_common_statistics0, iketypes/IKEEXT_COMMON_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\imixerocx.htm
 tech.root: DirectShow
 ms.assetid: b80d720d-921d-4d24-a168-49944cfcc411
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [DirectShow],described, IMixerOCXInterface, dshow.imixerocx, mixerocx/IMixerOCX
 ms.prod: windows
 ms.technology: windows-sdk

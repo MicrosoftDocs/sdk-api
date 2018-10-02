@@ -4,10 +4,10 @@ title: StrSpnW function
 author: windows-sdk-content
 description: Obtains the length of a substring within a string that consists entirely of characters contained in a specified buffer.
 old-location: shell\StrSpn.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1a57da7f-76e7-49f2-aa31-50c224376e95
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: StrSpn, StrSpn function [Windows Shell], StrSpnA, StrSpnW, _win32_StrSpn, shell.StrSpn, shlwapi/StrSpn, shlwapi/StrSpnA, shlwapi/StrSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices

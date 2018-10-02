@@ -7,7 +7,7 @@ old-location: base\ivdsvolumeplex_getproperties.htm
 tech.root: VDS
 ms.assetid: b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetProperties method, IVdsVolumePlex.GetProperties, IVdsVolumePlex::GetProperties, base.ivdsvolumeplex_getproperties, vds/IVdsVolumePlex::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFMediaEngine::GetPlayed
 author: windows-sdk-content
 description: Gets the time ranges that have been rendered.
 old-location: mf\imfmediaengine_getplayed.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: E74D1785-E8BA-4B3A-9FF8-63FBDED5FA9E
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetPlayed, GetPlayed method [Media Foundation], GetPlayed method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlayed method, IMFMediaEngine.GetPlayed, IMFMediaEngine::GetPlayed, mf.imfmediaengine_getplayed, mfmediaengine/IMFMediaEngine::GetPlayed
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSinkWriter::Finalize
 author: windows-sdk-content
 description: Completes all writing operations on the sink writer.
 old-location: mf\imfsinkwriter_finalize.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 352e6679-0710-429a-a659-47044ab60773
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: Finalize, Finalize method [Media Foundation], Finalize method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Finalize method, IMFSinkWriter.Finalize, IMFSinkWriter::Finalize, mf.imfsinkwriter_finalize, mfreadwrite/IMFSinkWriter::Finalize
 ms.prod: windows-hardware
 ms.technology: windows-devices

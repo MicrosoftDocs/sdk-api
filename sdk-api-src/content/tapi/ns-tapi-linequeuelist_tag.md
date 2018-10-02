@@ -4,10 +4,10 @@ title: linequeuelist_tag
 author: windows-sdk-content
 description: The LINEQUEUELIST structure describes a list of queues. This structure can contain an array of LINEQUEUEENTRY structures. The lineGetQueueList function returns the LINEQUEUELIST structure. LINEQUEUELIST requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeuelist.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 86645d7c-f683-48e7-8342-3e9d5961913a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPLINEQUEUELIST, LINEQUEUELIST, LINEQUEUELIST structure [TAPI 2.2], LPLINEQUEUELIST, LPLINEQUEUELIST structure pointer [TAPI 2.2], _tapi2_linequeuelist, linequeuelist_tag, tapi/LINEQUEUELIST, tapi/LPLINEQUEUELIST, tapi2.linequeuelist"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\ivdscontrollercontrollerport_querycontrollerports.htm
 tech.root: VDS
 ms.assetid: 676d0ae9-7d9e-4dc3-93c2-56c96a05ac0a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsControllerControllerPort interface [VDS],QueryControllerPorts method, IVdsControllerControllerPort.QueryControllerPorts, IVdsControllerControllerPort::QueryControllerPorts, QueryControllerPorts, QueryControllerPorts method [VDS], QueryControllerPorts method [VDS],IVdsControllerControllerPort interface, base.ivdscontrollercontrollerport_querycontrollerports, vds/IVdsControllerControllerPort::QueryControllerPorts, vdshwprv/IVdsControllerControllerPort::QueryControllerPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices

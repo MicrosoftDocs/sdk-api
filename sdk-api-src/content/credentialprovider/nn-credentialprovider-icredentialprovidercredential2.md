@@ -4,10 +4,10 @@ title: ICredentialProviderCredential2
 author: windows-sdk-content
 description: Extends the ICredentialProviderCredential interface by adding a method that retrieves the security identifier (SID) of a user. The credential is associated with that user and can be grouped under the user's tile.
 old-location: shell\ICredentialProviderCredential2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: C1C4BF88-3151-4a8b-A1EE-9616DCB6EA58
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICredentialProviderCredential2, ICredentialProviderCredential2 interface [Windows Shell], ICredentialProviderCredential2 interface [Windows Shell],described, credentialprovider/ICredentialProviderCredential2, shell.ICredentialProviderCredential2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IX509EndorsementKey::Close
 author: windows-sdk-content
 description: Closes the endorsement key. You can only call the Close method after the Open method has been successfully called.
 old-location: security\ix509endorsementkey_close.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 71855c96-a828-4bb6-849a-53be8269277d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Close, Close method [Security], Close method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],Close method, IX509EndorsementKey.Close, IX509EndorsementKey::Close, certenroll/IX509EndorsementKey::Close, security.ix509endorsementkey_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

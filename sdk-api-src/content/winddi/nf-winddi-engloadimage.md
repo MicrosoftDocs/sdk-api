@@ -4,10 +4,10 @@ title: EngLoadImage macro
 author: windows-sdk-content
 description: The EngLoadImage function loads the specified executable image into kernel-mode memory.
 old-location: display\engloadimage.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 03b1835a-5c4e-4f38-93b1-e557a2975be7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngLoadImage, EngLoadImage function [Display Devices], display.engloadimage, gdifncs_8fb20a2d-c7ae-4d15-af65-219b44289130.xml, winddi/EngLoadImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

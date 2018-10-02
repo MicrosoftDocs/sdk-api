@@ -4,10 +4,10 @@ title: INamedPropertyBag::RemovePropertyNPB
 author: windows-sdk-content
 description: Removes a property from a named property bag.
 old-location: shell\INamedPropertyBag_RemovePropertyNPB.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 632bab32-c546-4f8f-b064-877e853c215c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],RemovePropertyNPB method, INamedPropertyBag.RemovePropertyNPB, INamedPropertyBag::RemovePropertyNPB, RemovePropertyNPB, RemovePropertyNPB method [Windows Shell], RemovePropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_RemovePropertyNPB, shell.INamedPropertyBag_RemovePropertyNPB, shlobj_core/INamedPropertyBag::RemovePropertyNPB
 ms.prod: windows-hardware
 ms.technology: windows-devices

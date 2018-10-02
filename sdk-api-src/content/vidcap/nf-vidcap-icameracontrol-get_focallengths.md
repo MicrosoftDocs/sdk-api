@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_focallengths.htm
 tech.root: DirectShow
 ms.assetid: de566705-1f4b-4ffa-932d-a52521e6963b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: ICameraControl interface [DirectShow],get_FocalLengths method, ICameraControl.get_FocalLengths, ICameraControl::get_FocalLengths, ICameraControlget_FocalLengths, dshow.icameracontrol_get_focallengths, get_FocalLengths, get_FocalLengths method [DirectShow], get_FocalLengths method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocalLengths
 ms.prod: windows-hardware
 ms.technology: windows-devices

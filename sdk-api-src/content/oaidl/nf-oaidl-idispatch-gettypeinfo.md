@@ -7,7 +7,7 @@ old-location: automat\idispatch_gettypeinfo.htm
 tech.root: automat
 ms.assetid: cc1ec9aa-6c40-4e70-819c-a7c6dd6b8c99
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IDispatch interface, GetTypeInfo method [Automation],IWebBrowser2 interface, IDispatch interface [Automation],GetTypeInfo method, IDispatch.GetTypeInfo, IDispatch::GetTypeInfo, IWebBrowser2 interface [Automation],GetTypeInfo method, IWebBrowser2::GetTypeInfo, _oa96_IDispatch::GetTypeInfo, automat.idispatch_gettypeinfo, oaidl/IDispatch::GetTypeInfo, oaidl/IWebBrowser2::GetTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

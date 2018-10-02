@@ -4,10 +4,10 @@ title: ICspInformations::AddAvailableCsps
 author: windows-sdk-content
 description: Adds the providers installed on the computer to the collection.
 old-location: security\icspinformations_addavailablecsps_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f44af323-41fb-46d6-88ed-15d465fc8815
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AddAvailableCsps, AddAvailableCsps method [Security], AddAvailableCsps method [Security],ICspInformations interface, ICspInformations interface [Security],AddAvailableCsps method, ICspInformations.AddAvailableCsps, ICspInformations::AddAvailableCsps, certenroll/ICspInformations::AddAvailableCsps, security.icspinformations_addavailablecsps_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

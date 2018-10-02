@@ -4,10 +4,10 @@ title: OnlineClusterResource function
 author: windows-sdk-content
 description: Brings an offline or failed resource online.
 old-location: mscs\onlineclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8ea8d741-f6f7-48eb-9678-bbb53f76a9ec
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: OnlineClusterResource, OnlineClusterResource function [Failover Cluster], PCLUSAPI_ONLINE_CLUSTER_RESOURCE, PCLUSAPI_ONLINE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_onlineclusterresource, clusapi/OnlineClusterResource, clusapi/PCLUSAPI_ONLINE_CLUSTER_RESOURCE, mscs.onlineclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

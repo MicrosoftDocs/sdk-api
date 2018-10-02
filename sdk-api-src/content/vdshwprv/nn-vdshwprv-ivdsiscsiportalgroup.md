@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportalgroup.htm
 tech.root: VDS
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIscsiPortalGroup interface [VDS],described, base.ivdsiscsiportalgroup, vds/IVdsIscsiPortalGroup, vdshwprv/IVdsIscsiPortalGroup
 ms.prod: windows
 ms.technology: windows-sdk

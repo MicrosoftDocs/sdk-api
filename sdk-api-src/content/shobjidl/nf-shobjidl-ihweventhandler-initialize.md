@@ -4,10 +4,10 @@ title: IHWEventHandler::Initialize
 author: windows-sdk-content
 description: Initializes an object that contains an implementation of the IHWEventHandler interface.
 old-location: shell\IHWEventHandler_Initialize.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 96eb582a-4f32-4e13-ad01-8b5ffabab582
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IHWEventHandler interface [Windows Shell],Initialize method, IHWEventHandler.Initialize, IHWEventHandler::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IHWEventHandler interface, inet_IHWEventHandler_Initialize, shell.IHWEventHandler_Initialize, shobjidl/IHWEventHandler::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

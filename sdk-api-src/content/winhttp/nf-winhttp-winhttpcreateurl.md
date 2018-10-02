@@ -4,10 +4,10 @@ title: WinHttpCreateUrl function
 author: windows-sdk-content
 description: Creates a URL from component parts such as the host name and path.
 old-location: http\winhttpcreateurl.htm
-tech.root: winhttp
+tech.root: WinHttp
 ms.assetid: 3f0403ea-479a-4764-ae65-d9bbd9233a50
 ms.author: windowssdkdev
-ms.date: 09/11/2018
+ms.date: 09/26/2018
 ms.keywords: ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCreateUrl, WinHttpCreateUrl function [WinHTTP], http.winhttpcreateurl, winhttp.winhttpcreateurl_function, winhttp/WinHttpCreateUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

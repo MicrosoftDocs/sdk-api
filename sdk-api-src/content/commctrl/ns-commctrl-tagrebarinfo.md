@@ -4,10 +4,10 @@ title: tagREBARINFO
 author: windows-sdk-content
 description: Contains information that describes rebar control characteristics.
 old-location: controls\REBARINFO.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPREBARINFO, LPREBARINFO, LPREBARINFO structure pointer [Windows Controls], RBIM_IMAGELIST, REBARINFO, REBARINFO structure [Windows Controls], _win32_REBARINFO, _win32_REBARINFO_cpp, commctrl/LPREBARINFO, commctrl/REBARINFO, controls.REBARINFO, controls._win32_REBARINFO, tagREBARINFO"
 ms.prod: windows
 ms.technology: windows-sdk

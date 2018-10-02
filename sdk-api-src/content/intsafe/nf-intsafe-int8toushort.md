@@ -4,10 +4,10 @@ title: Int8ToUShort function
 author: windows-sdk-content
 description: Converts a value of type INT8 to a value of type USHORT.
 old-location: shell\Int8ToUShort.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 541363e2-a112-4070-af6d-3f5de60a3cd1
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Int8ToUShort, Int8ToUShort function [Windows Shell], intsafe/Int8ToUShort, shell.Int8ToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

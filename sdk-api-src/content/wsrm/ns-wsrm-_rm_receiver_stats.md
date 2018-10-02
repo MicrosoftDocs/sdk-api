@@ -7,7 +7,7 @@ old-location: winsock\rm_receiver_stats.htm
 tech.root: WinSock
 ms.assetid: 972cf340-1e0e-4add-b218-054d6998023c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RM_RECEIVER_STATS, RM_RECEIVER_STATS structure [Winsock], _RM_RECEIVER_STATS, winsock.rm_receiver_stats, wsrm/RM_RECEIVER_STATS
 ms.prod: windows
 ms.technology: windows-sdk

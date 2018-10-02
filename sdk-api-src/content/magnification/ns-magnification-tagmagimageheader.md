@@ -7,7 +7,7 @@ old-location: magapi\magapi_magimageheader.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magimageheaderstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMAGIMAGEHEADER, MAGIMAGEHEADER, MAGIMAGEHEADER structure [Magnification API], PMAGIMAGEHEADER, PMAGIMAGEHEADER structure pointer [Magnification API], magapi.magapi_magimageheader, magapi_magimageheader, magnification/MAGIMAGEHEADER, magnification/PMAGIMAGEHEADER, tagMAGIMAGEHEADER"
 ms.prod: windows
 ms.technology: windows-sdk

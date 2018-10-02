@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparameterdescriptor_gettag.htm
 tech.root: MSTV
 ms.assetid: 9d38b158-39b0-4960-b392-086595680133
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbSIParameterDescriptor.GetTag, IIsdbSIParameterDescriptor::GetTag, dvbsiparser/IIsdbSIParameterDescriptor::GetTag, mstv.iisdbsiparameterdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

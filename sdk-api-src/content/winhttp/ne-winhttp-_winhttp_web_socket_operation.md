@@ -4,10 +4,10 @@ title: "_WINHTTP_WEB_SOCKET_OPERATION"
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_OPERATION enumeration includes the WebSocket operation type.
 old-location: http\winhttp_web_socket_operation.htm
-tech.root: winhttp
+tech.root: WinHttp
 ms.assetid: 0db68b44-dbf4-4aa2-9bb7-3a5502ef39e7
 ms.author: windowssdkdev
-ms.date: 09/11/2018
+ms.date: 09/26/2018
 ms.keywords: WINHTTP_WEB_SOCKET_CLOSE_OPERATION, WINHTTP_WEB_SOCKET_OPERATION, WINHTTP_WEB_SOCKET_OPERATION enumeration [HTTP], WINHTTP_WEB_SOCKET_RECEIVE_OPERATION, WINHTTP_WEB_SOCKET_SEND_OPERATION, WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION, _WINHTTP_WEB_SOCKET_OPERATION, http.winhttp_web_socket_operation, winhttp/WINHTTP_WEB_SOCKET_CLOSE_OPERATION, winhttp/WINHTTP_WEB_SOCKET_OPERATION, winhttp/WINHTTP_WEB_SOCKET_RECEIVE_OPERATION, winhttp/WINHTTP_WEB_SOCKET_SEND_OPERATION, winhttp/WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION
 ms.prod: windows
 ms.technology: windows-sdk

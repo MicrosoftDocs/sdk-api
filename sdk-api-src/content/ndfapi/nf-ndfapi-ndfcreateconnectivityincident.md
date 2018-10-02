@@ -7,7 +7,7 @@ old-location: ndf\ndfcreateconnectivityincident.htm
 tech.root: NDF
 ms.assetid: 7cc4f85a-04ea-44c0-9516-6b43a4dd51c0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NdfCreateConnectivityIncident, NdfCreateConnectivityIncident function [NDF], ndf.ndfcreateconnectivityincident, ndfapi/NdfCreateConnectivityIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSaveJob::GetProgress
 author: windows-sdk-content
 description: Retrieves the percentage of content saved to the provided byte stream.
 old-location: mf\imfsavejob_getprogress.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8782333c-796c-4401-9575-c78e95887015
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 8782333c-796c-4401-9575-c78e95887015, GetProgress, GetProgress method [Media Foundation], GetProgress method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],GetProgress method, IMFSaveJob.GetProgress, IMFSaveJob::GetProgress, mf.imfsavejob_getprogress, mfidl/IMFSaveJob::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetClusterQuorumResource function
 author: windows-sdk-content
 description: Returns the name of a cluster's quorum resource.
 old-location: mscs\getclusterquorumresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0f841070-9dc0-49e0-9112-8d46185470b5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetClusterQuorumResource, GetClusterQuorumResource function [Failover Cluster], PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster], _wolf_getclusterquorumresource, clusapi/GetClusterQuorumResource, clusapi/PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, mscs.getclusterquorumresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

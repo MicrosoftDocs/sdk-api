@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_translateaccelerator.htm
 tech.root: WMP
 ms.assetid: 0accc3d7-a194-4f89-a90c-ee3ce10d0e27
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],TranslateAccelerator method, IWMPPluginUI.TranslateAccelerator, IWMPPluginUI::TranslateAccelerator, IWMPPluginUITranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Media Player], TranslateAccelerator method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_translateaccelerator, wmpplug/IWMPPluginUI::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

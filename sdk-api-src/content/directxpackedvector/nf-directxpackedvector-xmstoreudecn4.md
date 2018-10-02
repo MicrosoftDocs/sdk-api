@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreudecn4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUDecN4(XMUDECN4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: DirectX::PackedVector.XMStoreUDecN4, XMStoreUDecN4, XMStoreUDecN4 method [DirectX Math Support APIs], dxmath.xmstoreudecn4
 ms.prod: windows-hardware
 ms.technology: windows-devices

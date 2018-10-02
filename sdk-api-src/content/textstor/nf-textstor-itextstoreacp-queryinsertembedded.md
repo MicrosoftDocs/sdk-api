@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: b1cf6162-da57-4b8a-beca-fb1ec390c577
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreACP.QueryInsertEmbedded, ITextStoreACP::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_queryinsertembedded_ref, textstor/ITextStoreACP::QueryInsertEmbedded, tsf.itextstoreacp_queryinsertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices

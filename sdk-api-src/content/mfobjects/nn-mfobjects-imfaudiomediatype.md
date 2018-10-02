@@ -4,10 +4,10 @@ title: IMFAudioMediaType
 author: windows-sdk-content
 description: IMFAudioMediaType is no longer available for use as of Windows 7.
 old-location: mf\imfaudiomediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 425a4a37-6fd3-4724-9d18-c39cc2862ef7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMediaType interface [Media Foundation], IMFAudioMediaType interface [Media Foundation],described, mf.imfaudiomediatype, mfobjects/IMFAudioMediaType
 ms.prod: windows
 ms.technology: windows-sdk

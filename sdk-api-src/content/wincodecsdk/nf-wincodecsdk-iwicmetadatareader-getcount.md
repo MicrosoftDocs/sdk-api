@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareader_getcount.htm
 tech.root: wic
 ms.assetid: ce9b0267-112a-4aa9-8786-272ee4da4d8b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetCount method, IWICMetadataReader.GetCount, IWICMetadataReader::GetCount, _wic_codec_iwicmetadatareader_getcount, wic._wic_codec_iwicmetadatareader_getcount, wincodecsdk/IWICMetadataReader::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

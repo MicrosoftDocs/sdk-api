@@ -4,10 +4,10 @@ title: ICredentialProviderUser::GetProviderID
 author: windows-sdk-content
 description: Retrieves the ID of the account provider for this user.
 old-location: shell\ICredentialProviderUser_GetProviderID.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7BD6C532-0266-4579-96FA-91D0AF7E6C4C
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetProviderID, GetProviderID method [Windows Shell], GetProviderID method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetProviderID method, ICredentialProviderUser.GetProviderID, ICredentialProviderUser::GetProviderID, credentialprovider/ICredentialProviderUser::GetProviderID, shell.ICredentialProviderUser_GetProviderID
 ms.prod: windows-hardware
 ms.technology: windows-devices

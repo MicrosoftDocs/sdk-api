@@ -4,10 +4,10 @@ title: "_DXVA2_SampleFormat"
 author: windows-sdk-content
 description: Describes the content of a video sample. These flags are used in the DXVA2_ExtendedFormat structure.
 old-location: mf\dxva2_sampleformat.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7d2d38c0-249d-47c3-acda-ba1bec721a5c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 7d2d38c0-249d-47c3-acda-ba1bec721a5c, DXVA2_SampleFieldInterleavedEvenFirst, DXVA2_SampleFieldInterleavedOddFirst, DXVA2_SampleFieldSingleEven, DXVA2_SampleFieldSingleOdd, DXVA2_SampleFormat, DXVA2_SampleFormat enumeration [Media Foundation], DXVA2_SampleFormatMask, DXVA2_SampleProgressiveFrame, DXVA2_SampleSubStream, DXVA2_SampleUnknown, _DXVA2_SampleFormat, dxva2api/DXVA2_SampleFieldInterleavedEvenFirst, dxva2api/DXVA2_SampleFieldInterleavedOddFirst, dxva2api/DXVA2_SampleFieldSingleEven, dxva2api/DXVA2_SampleFieldSingleOdd, dxva2api/DXVA2_SampleFormat, dxva2api/DXVA2_SampleFormatMask, dxva2api/DXVA2_SampleProgressiveFrame, dxva2api/DXVA2_SampleSubStream, dxva2api/DXVA2_SampleUnknown, mf.dxva2_sampleformat
 ms.prod: windows
 ms.technology: windows-sdk

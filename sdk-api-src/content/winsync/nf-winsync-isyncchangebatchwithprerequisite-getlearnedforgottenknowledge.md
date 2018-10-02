@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchwithprerequisite_getlearnedforgottenknowle
 tech.root: winsync
 ms.assetid: 4e7a9f72-7d5e-4ef8-824a-d7623b71cfb5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetLearnedForgottenKnowledge, GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, ISyncChangeBatchWithPrerequisite interface [Windows Sync],GetLearnedForgottenKnowledge method, ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge, ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge, winsync.isyncchangebatchwithprerequisite_getlearnedforgottenknowledge, winsync/ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices

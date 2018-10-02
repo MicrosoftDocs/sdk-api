@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpixelformatinfo.htm
 tech.root: wic
 ms.assetid: d5853b27-4329-40d8-bfd0-b4b0f39ba6d5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], IWICPixelFormatInfo interface [Windows Imaging Component],described, _wic_codec_iwicpixelformatinfo, wic._wic_codec_iwicpixelformatinfo, wincodec/IWICPixelFormatInfo
 ms.prod: windows
 ms.technology: windows-sdk

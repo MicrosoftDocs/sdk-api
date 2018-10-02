@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradapteracceptcalibrationdata.htm
 tech.root: SecBioMet
 ms.assetid: EE3B7066-BE91-4F63-8E0A-70F5CAB46496
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN, PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN callback, SensorAdapterAcceptCalibrationData, SensorAdapterAcceptCalibrationData callback function [Windows Biometric Framework API], secbiomet.sensoradapteracceptcalibrationdata, winbio_adapter/SensorAdapterAcceptCalibrationData
 ms.prod: windows
 ms.technology: windows-sdk

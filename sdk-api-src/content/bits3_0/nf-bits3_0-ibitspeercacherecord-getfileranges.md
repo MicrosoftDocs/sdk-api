@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacherecord_getfileranges.htm
 tech.root: Bits
 ms.assetid: 63f9821c-f5b6-4646-96e0-4ec61ce16e9b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFileRanges, GetFileRanges method [BITS], GetFileRanges method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileRanges method, IBitsPeerCacheRecord.GetFileRanges, IBitsPeerCacheRecord::GetFileRanges, bits.ibitspeercacherecord_getfileranges, bits3_0/IBitsPeerCacheRecord::GetFileRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

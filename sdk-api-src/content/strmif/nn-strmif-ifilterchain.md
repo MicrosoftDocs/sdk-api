@@ -7,7 +7,7 @@ old-location: dshow\ifilterchain.htm
 tech.root: DirectShow
 ms.assetid: 04fa1e89-19cd-488e-9df2-8a5fd2c3f445
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/28/2018
 ms.keywords: IFilterChain, IFilterChain interface [DirectShow], IFilterChain interface [DirectShow],described, IFilterChainInterface, dshow.ifilterchain, strmif/IFilterChain
 ms.prod: windows
 ms.technology: windows-sdk

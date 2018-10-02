@@ -2,7 +2,7 @@
 UID: NA:termmgr
 ms.assetid: 3f5e68b1-7d44-32ea-8037-4fa994377417
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

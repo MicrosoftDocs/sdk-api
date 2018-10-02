@@ -7,7 +7,7 @@ old-location: gdi\createprintasyncnotifychannel.htm
 tech.root: printdocs
 ms.assetid: 52cc586a-a565-46c6-b1b7-8613ad111ed3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel function [Windows GDI], _win32_CreatePrintAsyncNotifyChannel, gdi.createprintasyncnotifychannel, prnasnot/CreatePrintAsyncNotifyChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

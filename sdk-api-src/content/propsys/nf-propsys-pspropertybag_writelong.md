@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteLONG.htm
 tech.root: properties
 ms.assetid: A623D097-FEF8-4864-A80A-C6EF824EC245
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PSPropertyBag_WriteLONG, PSPropertyBag_WriteLONG function [Windows Properties], properties.PSPropertyBag_WriteLONG, propsys/PSPropertyBag_WriteLONG, shell.PSPropertyBag_WriteLONG, shell_PSPropertyBag_WriteLONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
