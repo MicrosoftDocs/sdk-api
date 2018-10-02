@@ -60,16 +60,16 @@ The <b>BLUETOOTH_AUTHENTICATE_RESPONSE</b> structure contains information passed
 
 ### -field bthAddressRemote
 
-A <a href="https://msdn.microsoft.com/2262a91b-c8b0-415a-9c23-7504998cc2a4">BLUETOOTH_ADDRESS</a> structure that contains the address of the device requesting the authentication response.  
+A <a href="https://msdn.microsoft.com/en-us/library/Aa362897(v=VS.85).aspx">BLUETOOTH_ADDRESS</a> structure that contains the address of the device requesting the authentication response.  
 
-<div class="alert"><b>Note</b>  This information can be found in the <a href="https://msdn.microsoft.com/e9c703c1-7981-4c34-a96e-0123d3655e55">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
+<div class="alert"><b>Note</b>  This information can be found in the <a href="https://msdn.microsoft.com/en-us/library/Dd469469(v=VS.85).aspx">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
 
 ### -field authMethod
 
-A <a href="https://msdn.microsoft.com/2374df2c-2f50-4a06-aaad-384d81b067c5">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
 
-<div class="alert"><b>Note</b>  This information can be found in the <a href="https://msdn.microsoft.com/e9c703c1-7981-4c34-a96e-0123d3655e55">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
+<div class="alert"><b>Note</b>  This information can be found in the <a href="https://msdn.microsoft.com/en-us/library/Dd469469(v=VS.85).aspx">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
 
 ### -field pinInfo
@@ -131,7 +131,7 @@ Contains information for passkey authentication.
 
 
 
-<a href="https://msdn.microsoft.com/2374df2c-2f50-4a06-aaad-384d81b067c5">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

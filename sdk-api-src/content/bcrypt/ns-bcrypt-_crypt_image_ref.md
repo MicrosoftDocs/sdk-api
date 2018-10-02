@@ -101,11 +101,11 @@ This flag is not used.
 
 
 
-<a href="https://msdn.microsoft.com/cf30f635-4918-4911-9db0-df90d26a2f1a">BCryptResolveProviders</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375495(v=VS.85).aspx">BCryptResolveProviders</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bd4a07c-8b80-4bbc-9922-88ea007f6ccd">CRYPT_PROVIDER_REF</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376231(v=VS.85).aspx">CRYPT_PROVIDER_REF</a>
  
 
  

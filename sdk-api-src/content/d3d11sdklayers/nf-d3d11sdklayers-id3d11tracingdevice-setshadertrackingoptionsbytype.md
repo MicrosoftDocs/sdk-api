@@ -61,19 +61,19 @@ Sets the reference rasterizer's default race-condition tracking options for the 
 
 ### -param ResourceTypeFlags [in]
 
-A <a href="https://msdn.microsoft.com/148303AC-E373-4D41-BDF5-0E17B2A3D366">D3D11_SHADER_TRACKING_RESOURCE_TYPE</a>-typed value that specifies the type of resource to track. 
+A <a href="https://msdn.microsoft.com/en-us/library/Hh404503(v=VS.85).aspx">D3D11_SHADER_TRACKING_RESOURCE_TYPE</a>-typed value that specifies the type of resource to track. 
 
 
 ### -param Options [in]
 
-A combination of <a href="https://msdn.microsoft.com/20C152CD-B155-4B46-8F41-EDDEC60494DF">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on," otherwise the tracking option is set to "off."
+A combination of <a href="https://msdn.microsoft.com/en-us/library/Hh404501(v=VS.85).aspx">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on," otherwise the tracking option is set to "off."
 
 
 ## -returns
 
 
 
-This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 return codes</a>.
 
 
 
@@ -92,7 +92,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/AE42E2A8-9FEE-4991-B1A0-4C6C04958DE4">ID3D11TracingDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446868(v=VS.85).aspx">ID3D11TracingDevice</a>
  
 
  

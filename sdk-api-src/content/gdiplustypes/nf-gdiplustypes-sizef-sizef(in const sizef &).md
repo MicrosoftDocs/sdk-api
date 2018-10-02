@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a> object and initializes its members by copying the members of another <b>SizeF</b> object.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object and initializes its members by copying the members of another <b>SizeF</b> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f105
 
 ### -param size [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a> object that is used to initialize this <b>SizeF</b> object. 
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object that is used to initialize this <b>SizeF</b> object. 
 
 
 ## -see-also
@@ -71,11 +71,11 @@ Reference to a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec0
 
 
 
-<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
 
 
 
-<a href="https://msdn.microsoft.com/4aeaaead-0abb-48c3-a152-54b589d59646">SizeF Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534738(v=VS.85).aspx">SizeF Constructors</a>
  
 
  

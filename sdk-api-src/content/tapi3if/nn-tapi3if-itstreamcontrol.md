@@ -53,7 +53,7 @@ req.redist:
 The 
 <b>ITStreamControl</b> interface represents the media streaming features of a call and exposes methods that allow an application to enumerate, create, or remove streams.
 
-If this interface exists, a TAPI application acquires a pointer to this interface by performing a <a href="_com_iunknown_queryinterface">QueryInterface</a> on any call interface, such as 
+If this interface exists, a TAPI application acquires a pointer to this interface by performing a <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> on any call interface, such as 
 <a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a>. This interface is not available if an MSP is not involved in the current call session.
 
 Internal to the TAPI DLL, this interface is implemented by the MSP's call object, which is created in the 

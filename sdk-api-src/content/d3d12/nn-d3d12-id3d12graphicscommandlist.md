@@ -51,11 +51,11 @@ req.redist:
 
 
 Encapsulates a list of graphics commands for rendering. Includes APIs for instrumenting the command list execution, and for setting and clearing the pipeline state.
-<div class="alert"><b>Note</b>  The latest version of this interface is <a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a> introduced in the Windows 10 Creators Update. Applications targetting Windows 10 Creators Update should use the <b>ID3D12GraphicsCommandList1</b> interface instead of <b>ID3D12GraphicsCommandList</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  The latest version of this interface is <a href="https://msdn.microsoft.com/en-us/library/Mt492655(v=VS.85).aspx">ID3D12GraphicsCommandList1</a> introduced in the Windows 10 Creators Update. Applications targetting Windows 10 Creators Update should use the <b>ID3D12GraphicsCommandList1</b> interface instead of <b>ID3D12GraphicsCommandList</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList</b> interface inherits from <a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>. <b>ID3D12GraphicsCommandList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn770465(v=VS.85).aspx">ID3D12CommandList</a>. <b>ID3D12GraphicsCommandList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -213,7 +213,7 @@ Draws indexed, instanced primitives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BB10C732-1F42-417D-ADDE-55E870AD5FE9">DrawInstanced</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903877(v=VS.85).aspx">DrawInstanced</a>
 </td>
 <td align="left" width="63%">
 Draws non-indexed, instanced primitives.
@@ -223,7 +223,7 @@ Draws non-indexed, instanced primitives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24C40BE8-1080-4478-AB7C-D1FFCF6F5E3F">EndEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903879(v=VS.85).aspx">EndEvent</a>
 </td>
 <td align="left" width="63%">
 Not intended to be called directly.  Use the
@@ -233,7 +233,7 @@ Not intended to be called directly.  Use the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903881(v=VS.85).aspx">EndQuery</a>
 </td>
 <td align="left" width="63%">
 Ends a running query.
@@ -243,7 +243,7 @@ Ends a running query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B8AE4448-041D-47F6-9F0F-AE74FFEF6E41">ExecuteBundle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903882(v=VS.85).aspx">ExecuteBundle</a>
 </td>
 <td align="left" width="63%">
 Executes a bundle.
@@ -253,17 +253,17 @@ Executes a bundle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99FB088D-F3EB-4BAD-A945-51A1ED6F9288">ExecuteIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903884(v=VS.85).aspx">ExecuteIndirect</a>
 </td>
 <td align="left" width="63%">
-Apps perform indirect draws/dispatches using the <a href="https://msdn.microsoft.com/99FB088D-F3EB-4BAD-A945-51A1ED6F9288">ExecuteIndirect</a> method.
+Apps perform indirect draws/dispatches using the <a href="https://msdn.microsoft.com/en-us/library/Dn903884(v=VS.85).aspx">ExecuteIndirect</a> method.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB">IASetIndexBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986882(v=VS.85).aspx">IASetIndexBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets the view for the index buffer.
@@ -273,7 +273,7 @@ Sets the view for the index buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/743C48DF-C67E-48A0-B027-B2776E65968F">IASetPrimitiveTopology</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903885(v=VS.85).aspx">IASetPrimitiveTopology</a>
 </td>
 <td align="left" width="63%">
 Bind information about the primitive type, and data order that describes input data for the input assembler stage.
@@ -282,7 +282,7 @@ Bind information about the primitive type, and data order that describes input d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AADD6CEF-376D-43AB-86E6-37B5D7DD0B25">IASetVertexBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986883(v=VS.85).aspx">IASetVertexBuffers</a>
 </td>
 <td align="left" width="63%">
 Sets a CPU descriptor handle for the vertex buffers.
@@ -291,7 +291,7 @@ Sets a CPU descriptor handle for the vertex buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/344FD8B5-7225-4BEC-9D1F-C9CEDFE8C60F">OMSetBlendFactor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903886(v=VS.85).aspx">OMSetBlendFactor</a>
 </td>
 <td align="left" width="63%">
 Sets the blend factor that modulate values for a pixel shader, render target, or both.
@@ -300,7 +300,7 @@ Sets the blend factor that modulate values for a pixel shader, render target, or
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FE565AA2-FA34-4824-870E-9C4C7C19C93C">OMSetRenderTargets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986884(v=VS.85).aspx">OMSetRenderTargets</a>
 </td>
 <td align="left" width="63%">
 Sets CPU descriptor handles for the render targets and depth stencil.
@@ -310,7 +310,7 @@ Sets CPU descriptor handles for the render targets and depth stencil.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96C5C209-71A2-4096-A86C-D376AC1AB46C">OMSetStencilRef</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903887(v=VS.85).aspx">OMSetStencilRef</a>
 </td>
 <td align="left" width="63%">
 Sets the reference value for depth stencil tests.
@@ -319,7 +319,7 @@ Sets the reference value for depth stencil tests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36726FB6-09DE-4723-A60E-75FCE55F2E35">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903895(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a command list back to its initial state as if a new command list was just created.
@@ -329,11 +329,11 @@ Resets a command list back to its initial state as if a new command list was jus
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E3154DB7-DDA9-4480-A918-19C3A62944F2">ResolveQueryData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903896(v=VS.85).aspx">ResolveQueryData</a>
 </td>
 <td align="left" width="63%">
 
-Extracts data from a query. <a href="https://msdn.microsoft.com/E3154DB7-DDA9-4480-A918-19C3A62944F2">ResolveQueryData</a> works with all heap types (default, upload, and readback). 
+Extracts data from a query. <a href="https://msdn.microsoft.com/en-us/library/Dn903896(v=VS.85).aspx">ResolveQueryData</a> works with all heap types (default, upload, and readback). 
             
 
 
@@ -341,7 +341,7 @@ Extracts data from a query. <a href="https://msdn.microsoft.com/E3154DB7-DDA9-44
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F1D4BAD1-B08E-47D0-9D2B-41873D6B4456">ResolveSubresource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903897(v=VS.85).aspx">ResolveSubresource</a>
 </td>
 <td align="left" width="63%">
 Copy a multi-sampled resource into a non-multi-sampled resource.
@@ -350,7 +350,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AA788F94-122B-4132-BED5-162EAC683676">ResourceBarrier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903898(v=VS.85).aspx">ResourceBarrier</a>
 </td>
 <td align="left" width="63%">
 Notifies the driver that it needs to synchronize multiple accesses to resources.
@@ -360,7 +360,7 @@ Notifies the driver that it needs to synchronize multiple accesses to resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5A636CCB-34EB-4642-B588-4107D79F46F5">RSSetScissorRects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903899(v=VS.85).aspx">RSSetScissorRects</a>
 </td>
 <td align="left" width="63%">
 Binds an array of scissor rectangles to the rasterizer stage.
@@ -370,7 +370,7 @@ Binds an array of scissor rectangles to the rasterizer stage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ACFD260-1CE5-484C-83DD-021E8D895EBB">RSSetViewports</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903900(v=VS.85).aspx">RSSetViewports</a>
 </td>
 <td align="left" width="63%">
 Bind an array of viewports to the rasterizer stage of the pipeline.
@@ -380,7 +380,7 @@ Bind an array of viewports to the rasterizer stage of the pipeline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A250052F-A24A-4234-8A39-0995A00B6E01">SetComputeRoot32BitConstant</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903901(v=VS.85).aspx">SetComputeRoot32BitConstant</a>
 </td>
 <td align="left" width="63%">
 Sets a constant in the compute root signature.
@@ -390,7 +390,7 @@ Sets a constant in the compute root signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A4623522-4748-4999-80EC-E6AC8934136A">SetComputeRoot32BitConstants</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903902(v=VS.85).aspx">SetComputeRoot32BitConstants</a>
 </td>
 <td align="left" width="63%">
 Sets a group of constants in the compute root signature.
@@ -400,7 +400,7 @@ Sets a group of constants in the compute root signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AEAB392F-365F-4EDB-AC57-FFAC40C800C0">SetComputeRootConstantBufferView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903903(v=VS.85).aspx">SetComputeRootConstantBufferView</a>
 </td>
 <td align="left" width="63%">
 Sets a CPU descriptor handle for the constant buffer in the compute root signature.
@@ -410,7 +410,7 @@ Sets a CPU descriptor handle for the constant buffer in the compute root signatu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC05D64A-39D0-4EF2-A9FE-956B499386F2">SetComputeRootDescriptorTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903904(v=VS.85).aspx">SetComputeRootDescriptorTable</a>
 </td>
 <td align="left" width="63%">
 Sets a descriptor table into the compute root signature.
@@ -419,7 +419,7 @@ Sets a descriptor table into the compute root signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31BA8D5B-FAC3-4A4A-B2F2-76EC6399EFED">SetComputeRootShaderResourceView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903905(v=VS.85).aspx">SetComputeRootShaderResourceView</a>
 </td>
 <td align="left" width="63%">
 Sets a CPU descriptor handle for the shader resource in the compute root signature.
@@ -429,7 +429,7 @@ Sets a CPU descriptor handle for the shader resource in the compute root signatu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5DF04D51-DC09-4B02-8A82-ED68E049D392">SetComputeRootSignature</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903906(v=VS.85).aspx">SetComputeRootSignature</a>
 </td>
 <td align="left" width="63%">
 Sets the layout of the compute root signature.
@@ -439,7 +439,7 @@ Sets the layout of the compute root signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7C91B305-ABB2-4355-AA4B-3E1641ACF9E0">SetComputeRootUnorderedAccessView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903907(v=VS.85).aspx">SetComputeRootUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
 Sets a CPU descriptor handle for the unordered-access-view resource in the compute root signature.
@@ -449,7 +449,7 @@ Sets a CPU descriptor handle for the unordered-access-view resource in the compu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EE475B68-1DCA-44D4-994E-717D40F47DFA">SetDescriptorHeaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903908(v=VS.85).aspx">SetDescriptorHeaps</a>
 </td>
 <td align="left" width="63%">
 Changes the currently bound descriptor heaps that are associated with a command list.
@@ -459,7 +459,7 @@ Changes the currently bound descriptor heaps that are associated with a command 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F53090CC-05E9-4892-B6BF-0A849A5D98EF">SetGraphicsRoot32BitConstant</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903909(v=VS.85).aspx">SetGraphicsRoot32BitConstant</a>
 </td>
 <td align="left" width="63%">
 Sets a constant in the graphics root signature.
@@ -469,7 +469,7 @@ Sets a constant in the graphics root signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/509B8AA0-8128-4216-A9E2-67C027488E4A">SetGraphicsRoot32BitConstants</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903910(v=VS.85).aspx">SetGraphicsRoot32BitConstants</a>
 </td>
 <td align="left" width="63%">
 Sets a group of constants in the graphics root signature.
@@ -479,7 +479,7 @@ Sets a group of constants in the graphics root signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59F6E33A-9BD8-4ED3-8CA7-235E2A0C2686">SetGraphicsRootConstantBufferView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903911(v=VS.85).aspx">SetGraphicsRootConstantBufferView</a>
 </td>
 <td align="left" width="63%">
 Sets a CPU descriptor handle for the constant buffer in the graphics root signature.
@@ -489,7 +489,7 @@ Sets a CPU descriptor handle for the constant buffer in the graphics root signat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AF182E9D-6A85-42B2-ADE4-490756AEDCE7">SetGraphicsRootDescriptorTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903912(v=VS.85).aspx">SetGraphicsRootDescriptorTable</a>
 </td>
 <td align="left" width="63%">
 Sets a descriptor table into the graphics root signature.
@@ -499,7 +499,7 @@ Sets a descriptor table into the graphics root signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F16C8511-FF42-4DB3-81F7-9735FB1AADD7">SetGraphicsRootShaderResourceView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903913(v=VS.85).aspx">SetGraphicsRootShaderResourceView</a>
 </td>
 <td align="left" width="63%">
 Sets a CPU descriptor handle for the shader resource in the graphics root signature.
@@ -509,7 +509,7 @@ Sets a CPU descriptor handle for the shader resource in the graphics root signat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D2ACB026-A9E0-41BC-A3C2-6D0F55506519">SetGraphicsRootSignature</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903914(v=VS.85).aspx">SetGraphicsRootSignature</a>
 </td>
 <td align="left" width="63%">
 Sets the layout of the graphics root signature.
@@ -519,7 +519,7 @@ Sets the layout of the graphics root signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7EF90634-0A33-42F5-880D-8E22910FAB47">SetGraphicsRootUnorderedAccessView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903915(v=VS.85).aspx">SetGraphicsRootUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
 Sets a CPU descriptor handle for the unordered-access-view resource in the graphics root signature.
@@ -529,7 +529,7 @@ Sets a CPU descriptor handle for the unordered-access-view resource in the graph
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/521844B8-0EF8-4F09-ABCE-E8C96129F548">SetMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986885(v=VS.85).aspx">SetMarker</a>
 </td>
 <td align="left" width="63%">
 Not intended to be called directly.  Use the
@@ -539,7 +539,7 @@ Not intended to be called directly.  Use the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/751E09A4-D8FE-4DEA-86D9-1C84265F2F21">SetPipelineState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903918(v=VS.85).aspx">SetPipelineState</a>
 </td>
 <td align="left" width="63%">
 Sets all shaders and programs most of the fixed-function state of the GPU pipeline.
@@ -549,7 +549,7 @@ Sets all shaders and programs most of the fixed-function state of the GPU pipeli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21526012-A675-40E8-A11C-4CBA5C12B9CF">SetPredication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903919(v=VS.85).aspx">SetPredication</a>
 </td>
 <td align="left" width="63%">
 Sets a rendering predicate.
@@ -559,7 +559,7 @@ Sets a rendering predicate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40683FD6-5B9F-411C-AC0A-6641E0A3D688">SOSetTargets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986886(v=VS.85).aspx">SOSetTargets</a>
 </td>
 <td align="left" width="63%">
 Sets the stream output buffer views.
@@ -574,13 +574,13 @@ Sets the stream output buffer views.
 
 
 
-This interface is new to D3D12, encapsulating much of the functionality of the <a href="https://msdn.microsoft.com/432f1d21-bf13-4569-9c8f-04f5d2845150">ID3D11CommandList</a> interface, and including the new functionality described in <a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>.
+This interface is new to D3D12, encapsulating much of the functionality of the <a href="https://msdn.microsoft.com/en-us/library/Ff476361(v=VS.85).aspx">ID3D11CommandList</a> interface, and including the new functionality described in <a href="https://msdn.microsoft.com/en-us/library/Dn903943(v=VS.85).aspx">Rendering</a>.
         
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12GraphicsCommandList</b> as follows:
+The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12nBodyGravity</a> sample uses <b>ID3D12GraphicsCommandList</b> as follows:
 
 Declare the pipeline objects.
 
@@ -683,7 +683,7 @@ void D3D12nBodyGravity::PopulateCommandList()
 </td>
 </tr>
 </table></span></div>
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -694,15 +694,15 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770457(v=VS.85).aspx">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770465(v=VS.85).aspx">ID3D12CommandList</a>
 
 
 
-<a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt492655(v=VS.85).aspx">ID3D12GraphicsCommandList1</a>
  
 
  

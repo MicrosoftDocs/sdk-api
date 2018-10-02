@@ -97,7 +97,7 @@ If you change the blink time, subsequently activated applications will use the m
 
 
 
-<a href="https://msdn.microsoft.com/34ff3420-a1d2-46cc-9378-4b3340bec8c8">Carets</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
 
 
 
@@ -105,7 +105,7 @@ If you change the blink time, subsequently activated applications will use the m
 
 
 
-<a href="https://msdn.microsoft.com/036ba54d-8493-4d89-8315-c69f2fac96cb">GetCaretBlinkTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648401(v=VS.85).aspx">GetCaretBlinkTime</a>
 
 
 

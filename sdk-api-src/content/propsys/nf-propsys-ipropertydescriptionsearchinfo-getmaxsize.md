@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the maximum size value from the property schema's <a href="shell.propdesc_schema_searchInfo">searchInfo</a> element.
+Gets the maximum size value from the property schema's <a href="https://msdn.microsoft.com/en-us/library/Bb773885(v=VS.85).aspx">searchInfo</a> element.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Gets the maximum size value from the property schema's <a href="shell.propdesc_s
 
 Type: <b>UINT*</b>
 
-Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="shell.propdesc_schema_searchInfo">searchInfo</a> element. The default is:
+Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773885(v=VS.85).aspx">searchInfo</a> element. The default is:
 
                     
 

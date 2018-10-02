@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Rect::Union</b> method determines the union of two rectangles and stores the result in a 
-			<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object. 
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>Rect::Union</b> method determines the union of two rectangles and stores 
 Type: <b>Rect&amp;</b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object that receives the union of the two rectangles. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object that receives the union of the two rectangles. 
 
 
 ### -param a [in]
@@ -148,23 +148,23 @@ The following example creates three rectangles. The code forms the union of the 
 
 
 
-<a href="https://msdn.microsoft.com/b391c256-5165-4c5c-a45a-dee74e32d391">Intersect Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534975(v=VS.85).aspx">Intersect Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

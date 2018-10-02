@@ -87,7 +87,7 @@ To mark the end of an instrumentation region at the current location within a D3
 
 
 
-<a href="https://msdn.microsoft.com/88A4E8BA-02B9-48A1-8E46-2D2560544539">ID3D12CommandQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788627(v=VS.85).aspx">ID3D12CommandQueue</a>
  
 
  

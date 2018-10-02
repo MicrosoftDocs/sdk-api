@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/db0e8f31-746a-4a16-b689-68da696e3657">LVM_GETBKIMAGE</a> message explicitly. 
+Gets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774907(v=VS.85).aspx">LVM_GETBKIMAGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the background image in a list-view control. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/d8b35356-d112-43e5-b1ad-7fb945c84e33">LVBKIMAGE</a> structure that will receive the background image information. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that will receive the background image information. 
 
 
 ## -see-also
@@ -77,7 +77,7 @@ A pointer to a <a href="https://msdn.microsoft.com/d8b35356-d112-43e5-b1ad-7fb94
 
 
 
-<a href="https://msdn.microsoft.com/8ee481c7-e114-45bd-9082-16d756152e54">ListView_SetBkImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775065(v=VS.85).aspx">ListView_SetBkImage</a>
  
 
  

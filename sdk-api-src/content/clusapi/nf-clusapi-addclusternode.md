@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-Adds a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> to an existing cluster. The <b>PCLUSAPI_ADD_CLUSTER_NODE</b> type defines a pointer to this function.
+Adds a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> to an existing cluster. The <b>PCLUSAPI_ADD_CLUSTER_NODE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Name of the computer to add to the cluster.
 ### -param pfnProgressCallback [in, optional]
 
 Optional address to a 
-       <a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
+       <a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
        callback function.
 
 
@@ -116,11 +116,11 @@ After the <a href="https://msdn.microsoft.com/672a1573-63e5-4321-a049-25bdafc1b5
 
 
 
-<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
  
 
  

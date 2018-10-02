@@ -92,7 +92,7 @@ Creates a VT_CLSID propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -121,7 +121,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762325(v=VS.85).aspx">InitVariantFromGUIDAsBuffer</a>
 
 
 
@@ -129,7 +129,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.PropVariantToCLSID">PropVariantToCLSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776537(v=VS.85).aspx">PropVariantToCLSID</a>
  
 
  

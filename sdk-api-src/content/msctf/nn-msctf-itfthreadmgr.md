@@ -174,7 +174,7 @@ Sets the input focus to the specified document manager.
 
 
 
-An application obtains a pointer to this interface by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with CLSID_TF_ThreadMgr as demonstrated below.
+An application obtains a pointer to this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with CLSID_TF_ThreadMgr as demonstrated below.
 
 A text service receives a pointer to this interface in its <a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">ITfTextInputProcessor::Activate</a> method.
 
@@ -208,7 +208,7 @@ hr = CoCreateInstance(  CLSID_TF_ThreadMgr,
 
 
 
-<a href="_com_cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 
@@ -217,7 +217,7 @@ hr = CoCreateInstance(  CLSID_TF_ThreadMgr,
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

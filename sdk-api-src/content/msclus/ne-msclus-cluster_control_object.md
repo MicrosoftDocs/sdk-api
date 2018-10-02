@@ -109,7 +109,7 @@ Object code part of
 ### -field CLUS_OBJECT_CLUSTER
 
 Object code part of <a href="https://msdn.microsoft.com/cabd9d59-7ace-4081-9de1-7645c882a64d">cluster control codes</a> that 
-       identifies a <a href="c_gly.htm">cluster</a> as the target.
+       identifies a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> as the target.
 
 
 ### -field CLUS_OBJECT_GROUPSET

@@ -62,7 +62,7 @@ Sets the paragraph alignment.
 
 Type: <b>long</b>
 
-New paragraph alignment. For a list of possible values, see the <a href="https://msdn.microsoft.com/d97c5efb-3007-40f5-b4f5-30a3505e01aa">ITextPara::GetAlignment</a> method. 
+New paragraph alignment. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Bb773927(v=VS.85).aspx">ITextPara::GetAlignment</a> method. 
 
 
 ## -returns
@@ -148,11 +148,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/d97c5efb-3007-40f5-b4f5-30a3505e01aa">GetAlignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773927(v=VS.85).aspx">GetAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -160,7 +160,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

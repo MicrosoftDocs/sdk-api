@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>RectF::Intersect</b> method determines the intersection of two rectangles and stores the result in a 
-			<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>RectF::Intersect</b> method determines the intersection of two rectangles
 Type: <b>RectF&amp;</b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object that receives the intersection of the two rectangles. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object that receives the intersection of the two rectangles. 
 
 
 ### -param a [in]
@@ -111,7 +111,7 @@ If the intersection of the two rectangles is not empty, this method returns <b>T
 
 
 
-<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 

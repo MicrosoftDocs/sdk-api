@@ -53,10 +53,10 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
     development.]
 
 The <b>Add</b> method adds a new element to the end of an 
@@ -87,7 +87,7 @@ If the <b>Add</b> method is successful, it returns the
 
 
 
-If <a href="https://msdn.microsoft.com/9320b6b6-5253-419e-a293-3b9d030f5963">SetSize</a> has been used with an nGrowBy value 
+If <a href="https://msdn.microsoft.com/en-us/library/Aa385416(v=VS.85).aspx">SetSize</a> has been used with an nGrowBy value 
     greater than 1, then extra memory can be allocated. However, the upper bound increases by only one.
 
 
@@ -118,15 +118,15 @@ The following code example shows the use of
 
 
 
-<a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/c37df3d4-9b0b-4ed3-ab51-407f26203578">CHStringArray::Append</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385337(v=VS.85).aspx">CHStringArray::Append</a>
 
 
 
-<a href="https://msdn.microsoft.com/9598340f-c315-4c93-bc8a-2b7c1eaf5a35">CHStringArray::Copy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385350(v=VS.85).aspx">CHStringArray::Copy</a>
  
 
  

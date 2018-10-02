@@ -64,8 +64,8 @@ Retrieves the results of an overlapped operation on the specified file, named pi
 ### -param hFile [in]
 
 A handle to the file, named pipe, or communications device. This is the same handle that was specified when the overlapped operation was started by a call to the 
-<a href="base.readfile">ReadFile</a>, 
-<a href="base.writefile">WriteFile</a>, 
+<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>, 
+<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>, 
 <a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a>, 
 <a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>, 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, or 
@@ -155,7 +155,7 @@ If the <b>hEvent</b> member of the
 
 
 
-<a href="base.cancelio">CancelIo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363791(v=VS.85).aspx">CancelIo</a>
 
 
 
@@ -187,7 +187,7 @@ If the <b>hEvent</b> member of the
 
 
 
-<a href="base.readfile">ReadFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 
@@ -203,7 +203,7 @@ If the <b>hEvent</b> member of the
 
 
 
-<a href="base.writefile">WriteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
  
 
  

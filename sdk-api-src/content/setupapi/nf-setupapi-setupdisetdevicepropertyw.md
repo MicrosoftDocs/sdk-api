@@ -61,7 +61,7 @@ The <b>SetupDiSetDeviceProperty</b> function sets a device instance property.
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="devinst.device_information_sets">device information set</a>. This device information set contains a device information element that represents the device instance for which to set a device instance property. 
+A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a>. This device information set contains a device information element that represents the device instance for which to set a device instance property. 
 
 
 ### -param DeviceInfoData [in]
@@ -239,7 +239,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiSetDeviceProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
+<b>SetupDiSetDeviceProperty</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>. 
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetDeviceProperty</b>. 
 
