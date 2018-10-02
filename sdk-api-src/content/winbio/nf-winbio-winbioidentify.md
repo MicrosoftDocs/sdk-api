@@ -7,7 +7,7 @@ old-location: secbiomet\winbioidentify.htm
 tech.root: SecBioMet
 ms.assetid: aaa9b4cd-81d4-4fee-a40a-5563997c42e8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WinBioIdentify, WinBioIdentify function [Windows Biometric Framework API], secbiomet.winbioidentify, winbio/WinBioIdentify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -215,9 +215,13 @@ biometric sub-factors enrolled for a template, and it calls <b>WinBioIdentify</b
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT EnumEnrollments( )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumEnrollments( )
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -238,7 +242,7 @@ HRESULT EnumEnrollments( )
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -250,10 +254,10 @@ HRESULT EnumEnrollments( )
     wprintf_s(L"\n Calling WinBioIdentify - Swipe finger on sensor...\n");
     hr = WinBioIdentify( 
             sessionHandle,              // Session handle
-            &unitId,                    // Biometric unit ID
-            &identity,                  // User SID
-            &subFactor,                 // Finger sub factor
-            &rejectDetail               // Rejection information
+            &amp;unitId,                    // Biometric unit ID
+            &amp;identity,                  // User SID
+            &amp;subFactor,                 // Finger sub factor
+            &amp;rejectDetail               // Rejection information
             );
     wprintf_s(L"\n Swipe processed - Unit ID: %d\n", unitId);
     if (FAILED(hr))
@@ -277,9 +281,9 @@ HRESULT EnumEnrollments( )
     hr = WinBioEnumEnrollments( 
             sessionHandle,              // Session handle
             unitId,                     // Biometric unit ID
-            &identity,                  // Template ID
-            &subFactorArray,            // Subfactors
-            &subFactorCount             // Count of subfactors
+            &amp;identity,                  // Template ID
+            &amp;subFactorArray,            // Subfactors
+            &amp;subFactorCount             // Count of subfactors
             );
     if (FAILED(hr))
     {
@@ -289,7 +293,7 @@ HRESULT EnumEnrollments( )
 
     // Print the sub-factor(s) to the console.
     wprintf_s(L"\n Enrollments for this user on Unit ID %d:", unitId);
-    for (SIZE_T index = 0; index < subFactorCount; ++index)
+    for (SIZE_T index = 0; index &lt; subFactorCount; ++index)
     {
         SubFactor = subFactorArray[index];
         switch (SubFactor)
@@ -350,10 +354,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

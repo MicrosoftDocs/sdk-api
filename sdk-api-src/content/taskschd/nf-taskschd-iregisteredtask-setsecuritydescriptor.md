@@ -4,10 +4,10 @@ title: IRegisteredTask::SetSecurityDescriptor
 author: windows-sdk-content
 description: Sets the security descriptor that is used as credentials for the registered task.
 old-location: taskschd\iregisteredtask_setsecuritydescriptor.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 9c8ebfdb-3c23-4fec-9023-7a944d99a409
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],SetSecurityDescriptor method, IRegisteredTask.SetSecurityDescriptor, IRegisteredTask::SetSecurityDescriptor, SetSecurityDescriptor, SetSecurityDescriptor method [Task Scheduler], SetSecurityDescriptor method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_setsecuritydescriptor, taskschd/IRegisteredTask::SetSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

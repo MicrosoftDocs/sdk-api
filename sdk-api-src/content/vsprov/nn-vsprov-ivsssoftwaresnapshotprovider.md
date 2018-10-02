@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider.htm
 tech.root: VSS
 ms.assetid: 5c95f2fb-c132-489c-af48-2ffafad0b41f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,described, base.ivsssoftwaresnapshotprovider, vsprov/IVssSoftwareSnapshotProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,7 +167,7 @@ Sets a property for a shadow copy.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

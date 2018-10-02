@@ -4,10 +4,10 @@ title: "_XLATEOBJ"
 author: windows-sdk-content
 description: The XLATEOBJ structure is used to translate color indexes from one palette to another.
 old-location: display\xlateobj.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 08bdead0-290a-4b23-8118-5f1f941e439f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: XLATEOBJ, XLATEOBJ structure [Display Devices], _XLATEOBJ, display.xlateobj, grstrcts_36b2a277-ceee-4ee5-9dd6-55088df73d85.xml, winddi/XLATEOBJ
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_MFFOLDDOWN_MATRIX"
 author: windows-sdk-content
 description: Contains coefficients used to transform multichannel audio into a smaller number of audio channels. This process is called fold-down.
 old-location: mf\mffolddown_matrix.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 59bf275d-583e-47aa-96ff-ce032c618081
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 59bf275d-583e-47aa-96ff-ce032c618081, MFFOLDDOWN_MATRIX, MFFOLDDOWN_MATRIX structure [Media Foundation], _MFFOLDDOWN_MATRIX, mf.mffolddown_matrix, mfapi/MFFOLDDOWN_MATRIX
 ms.prod: windows
 ms.technology: windows-sdk

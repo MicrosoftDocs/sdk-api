@@ -4,10 +4,10 @@ title: DsMergeForestTrustInformationW function
 author: windows-sdk-content
 description: Merges the changes from a new forest trust data structure with an old forest trust data structure.
 old-location: ad\dsmergeforesttrustinformationw.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: f42e16d0-62b2-49c4-b182-d1e744afe58c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW function [Active Directory], ad.dsmergeforesttrustinformationw, dsgetdc/DsMergeForestTrustInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

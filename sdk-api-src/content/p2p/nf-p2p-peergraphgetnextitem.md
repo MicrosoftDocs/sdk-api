@@ -4,10 +4,10 @@ title: PeerGraphGetNextItem function
 author: windows-sdk-content
 description: Obtains the next item or items in an enumeration created by a call to the following functions.
 old-location: p2p\peergraphgetnextitem.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: f595e66d-570f-4642-bef8-ff5cf070649c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphGetNextItem, PeerGraphGetNextItem function [Peer Networking], p2p.peergraphgetnextitem, p2p/PeerGraphGetNextItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,16 +153,20 @@ The application can request a range of items to obtain.   The function  returns 
 
 The following code snippet shows you how to  use  <b>PeerGraphGetNextItem</b> to enumerate objects, and end an enumeration after you finish processing the enumeration.
 
-
-```cpp
-//PeerGraphGetNextItem snippet
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//PeerGraphGetNextItem snippet
     // hPeerEnum is a handle to the enumeration obtained from a successful call to PeerGraphEnumConnections,
     // PeerGraphEnumNodes, PeerGraphEnumRecords, or PeerGraphSearchRecords.
     // Set count equal to the maximum number of items you want returned. To obtain a count of all the items
     // in the enumeration, call PeerGraphGetItemCount.
     // ppRecord is an array of pointers to PEER_RECORD objects.  PEER_CONNECTION_INFO and PEER_NODE_INFO structures
     // are also supported.
-    HRESULT hr = PeerGraphGetNextItem(hPeerEnum, &count, (PVOID *)&ppRecord);
+    HRESULT hr = PeerGraphGetNextItem(hPeerEnum, &amp;count, (PVOID *)&amp;ppRecord);
     if (FAILED(hr))
     {
         // Insert your code to handle the error here.
@@ -175,10 +179,10 @@ The following code snippet shows you how to  use  <b>PeerGraphGetNextItem</b> to
 
     // If you are done with the enumeration, free the handle to the enumeration.
     PeerGraphEndEnumeration(hPeerEnum);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

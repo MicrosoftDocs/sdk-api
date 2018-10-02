@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Reset.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\reset.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Reset method, IEnumWIA_FORMAT_INFO.Reset, IEnumWIA_FORMAT_INFO::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Reset, wia._wia_IEnumWIA_FORMAT_INFO_Reset, wia_xp/IEnumWIA_FORMAT_INFO::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structure.
+The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="https://msdn.microsoft.com/1dcc138b-b8c0-4d3a-bd9d-f4f5522d91ea">WIA_FORMAT_INFO</a> structure.
 
 
 ## -parameters

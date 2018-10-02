@@ -4,10 +4,10 @@ title: CreatePropertyStore function
 author: windows-sdk-content
 description: Creates an empty property store object.
 old-location: mf\createpropertystore.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: bb0d32ef-ec16-4341-8b66-d57ebec785f9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore function [Media Foundation], bb0d32ef-ec16-4341-8b66-d57ebec785f9, mf.createpropertystore, mfidl/CreatePropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

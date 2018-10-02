@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_SetTextAlignment.htm
 tech.root: DirectWrite
 ms.assetid: 2e7554e3-4e0c-45b1-a874-a3054b0e91dc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetTextAlignment method, IDWriteTextFormat.SetTextAlignment, IDWriteTextFormat::SetTextAlignment, SetTextAlignment, SetTextAlignment method [Direct Write], SetTextAlignment method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetTextAlignment, dwrite/IDWriteTextFormat::SetTextAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

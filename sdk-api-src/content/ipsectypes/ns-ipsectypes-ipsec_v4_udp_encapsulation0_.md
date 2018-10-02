@@ -7,7 +7,7 @@ old-location: fwp\ipsec_v4_udp_encapsulation0_struct.htm
 tech.root: FWP
 ms.assetid: 69cddec0-7311-4833-8b24-293ad714054e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_V4_UDP_ENCAPSULATION0, IPSEC_V4_UDP_ENCAPSULATION0 structure [Filtering], IPSEC_V4_UDP_ENCAPSULATION0_, fwp.ipsec_v4_udp_encapsulation0_struct, ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0
 ms.prod: windows
 ms.technology: windows-sdk

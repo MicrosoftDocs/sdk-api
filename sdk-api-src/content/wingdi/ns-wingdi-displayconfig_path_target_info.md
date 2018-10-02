@@ -4,10 +4,10 @@ title: DISPLAYCONFIG_PATH_TARGET_INFO
 author: windows-sdk-content
 description: The DISPLAYCONFIG_PATH_TARGET_INFO structure contains target information for a single path.
 old-location: display\displayconfig_path_target_info.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: CCD_Structures_b33adc91-e83f-42dc-a56a-536bf99cdb7f.xml, DISPLAYCONFIG_PATH_TARGET_INFO, DISPLAYCONFIG_PATH_TARGET_INFO structure [Display Devices], display.displayconfig_path_target_info, wingdi/DISPLAYCONFIG_PATH_TARGET_INFO
 ms.prod: windows
 ms.technology: windows-sdk

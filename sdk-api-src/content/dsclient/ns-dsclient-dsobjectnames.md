@@ -4,10 +4,10 @@ title: DSOBJECTNAMES
 author: windows-sdk-content
 description: The DSOBJECTNAMES structure is used to contain directory object data for use by an Active Directory property sheet or context menu extension.
 old-location: ad\dsobjectnames.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: dfc1e88f-40ff-4ec1-9718-4801f678fa3f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDSOBJECTNAMES, DSOBJECTNAMES, DSOBJECTNAMES structure [Active Directory], LPDSOBJECTNAMES, LPDSOBJECTNAMES structure pointer [Active Directory], _glines_dsobjectnames, ad.dsobjectnames, dsclient/DSOBJECTNAMES, dsclient/LPDSOBJECTNAMES"
 ms.prod: windows
 ms.technology: windows-sdk

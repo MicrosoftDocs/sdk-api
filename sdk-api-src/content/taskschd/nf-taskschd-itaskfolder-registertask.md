@@ -4,10 +4,10 @@ title: ITaskFolder::RegisterTask
 author: windows-sdk-content
 description: Registers (creates) a new task in the folder using XML to define the task.
 old-location: taskschd\itaskfolder_registertask.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],RegisterTask method, ITaskFolder.RegisterTask, ITaskFolder::RegisterTask, RegisterTask, RegisterTask method [Task Scheduler], RegisterTask method [Task Scheduler],ITaskFolder interface, TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_DISABLE, TASK_DONT_ADD_PRINCIPAL_ACE, TASK_IGNORE_REGISTRATION_TRIGGERS, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, TASK_UPDATE, TASK_VALIDATE_ONLY, taskschd.itaskfolder_registertask, taskschd/ITaskFolder::RegisterTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

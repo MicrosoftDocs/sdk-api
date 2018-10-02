@@ -7,7 +7,7 @@ old-location: winprog\getserverforpmp.htm
 tech.root: devnotes
 ms.assetid: 0E343396-A294-45E3-88E5-9B63EB8B10B9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: GetServerForPMP, GetServerForPMP function [Windows API], comppkgsup/GetServerForPMP, winprog.getserverforpmp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Gets a  COM server that has been registered  for Protected Media Process (PMP) usage with previous call to <a href="https://msdn.microsoft.com/F18A5596-F21E-427B-8281-544DD7CA9E0B">RegisterServerForPMP</a>.
 

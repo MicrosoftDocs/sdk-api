@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceunitsstream.htm
 tech.root: wpd_sdk
 ms.assetid: 4E9B2ECC-91D0-4D4F-980D-54AC88F3175D
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPortableDeviceUnitsStream, IPortableDeviceUnitsStream interface [Windows Portable Devices SDK], IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceUnitsStream, wpdsdk.iportabledeviceunitsstream
 ms.prod: windows
 ms.technology: windows-sdk

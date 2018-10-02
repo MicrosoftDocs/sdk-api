@@ -7,7 +7,7 @@ old-location: com\oleuiaddverbmenu.htm
 tech.root: com
 ms.assetid: 6efb49e7-b3c1-4035-892d-4572db47b951
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: OleUIAddVerbMenu, OleUIAddVerbMenu function [COM], OleUIAddVerbMenuA, OleUIAddVerbMenuW, _ole_OleUIAddVerbMenu, com.oleuiaddverbmenu, oledlg/OleUIAddVerbMenu, oledlg/OleUIAddVerbMenuA, oledlg/OleUIAddVerbMenuW
 ms.prod: windows-hardware
 ms.technology: windows-devices

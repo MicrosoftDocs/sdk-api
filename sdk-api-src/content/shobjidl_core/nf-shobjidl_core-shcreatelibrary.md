@@ -4,10 +4,10 @@ title: SHCreateLibrary function
 author: windows-sdk-content
 description: Creates an IShellLibrary object.
 old-location: shell\SHCreateLibrary.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7e682a2e-5140-49ad-88de-ac681025aca4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateLibrary, SHCreateLibrary function [Windows Shell], _shell_SHCreateLibrary, shell.SHCreateLibrary, shobjidl_core/SHCreateLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,19 +92,23 @@ The <b>IID_PPV_ARGS</b> macro is generally used to generate the <i>riid</i> and 
             
                 
 
-
-```
-#include "shobjidl.h"
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include "shobjidl.h"
 #include "objbase.h" // Defines the IID_PPV_ARGS macro.        
 
 ...
 
 IShellLibrary *pIShellLib;
-SHCreateLibrary(IID_PPV_ARGS(&pIShellLib));
-
-```
-
-
+SHCreateLibrary(IID_PPV_ARGS(&amp;pIShellLib));
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

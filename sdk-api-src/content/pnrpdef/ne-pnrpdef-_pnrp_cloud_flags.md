@@ -4,10 +4,10 @@ title: "_PNRP_CLOUD_FLAGS"
 author: windows-sdk-content
 description: The PNRP_CLOUD_FLAGS enumeration specifies the validity of a cloud name.
 old-location: p2p\pnrp_cloud_flags.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 7c3750a0-95aa-460b-bdf3-6796751d7c9b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PNRP_CLOUD_FLAGS, PNRP_CLOUD_FLAGS enumeration [Peer Networking], PNRP_CLOUD_FULL_PARTICIPANT, PNRP_CLOUD_NAME_LOCAL, PNRP_CLOUD_NO_FLAGS, PNRP_CLOUD_RESOLVE_ONLY, _PNRP_CLOUD_FLAGS, p2p.pnrp_cloud_flags, pnrpdef/PNRP_CLOUD_FLAGS, pnrpdef/PNRP_CLOUD_FULL_PARTICIPANT, pnrpdef/PNRP_CLOUD_NAME_LOCAL, pnrpdef/PNRP_CLOUD_NO_FLAGS, pnrpdef/PNRP_CLOUD_RESOLVE_ONLY
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: INetFwAuthorizedApplications
 author: windows-sdk-content
 description: The INetFwAuthorizedApplications interface provides access to a collection of applications authorized open ports in the firewall.
 old-location: ics\inetfwauthorizedapplications.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 70ea2cd1-5422-4db1-ab84-9924dab5623d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], INetFwAuthorizedApplications interface [ICS/ICF],described, ics.inetfwauthorizedapplications, netfw/INetFwAuthorizedApplications
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ firewall.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwAuthorizedApplications</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwAuthorizedApplications</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwAuthorizedApplications</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwAuthorizedApplications</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -170,7 +170,7 @@ configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
@@ -182,7 +182,7 @@ configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

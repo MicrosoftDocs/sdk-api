@@ -7,7 +7,7 @@ old-location: properties\PSFormatPropertyValue.htm
 tech.root: properties
 ms.assetid: 35c2b424-05bd-4d7d-8365-5900e165e2e2
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PSFormatPropertyValue, PSFormatPropertyValue function [Windows Properties], _shell_PSFormatPropertyValue, properties.PSFormatPropertyValue, propsys/PSFormatPropertyValue, shell.PSFormatPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,23 +60,23 @@ Gets a formatted, Unicode string representation of a property value stored in a 
 
 ### -param pps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>*</b>
+Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>, which represents the property store from which the property value is taken.
+Pointer to an <a href="shell.IPropertyStore">IPropertyStore</a>, which represents the property store from which the property value is taken.
 
 
 ### -param ppd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>*</b>
+Type: <b><a href="shell.IPropertyDescription">IPropertyDescription</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, which represents the property whose value is being retrieved.
+Pointer to an <a href="shell.IPropertyDescription">IPropertyDescription</a>, which represents the property whose value is being retrieved.
 
 
 ### -param pdff [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a></b>
+Type: <b><a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a></b>
 
-One or more <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a> that specify the format to apply to the property string. See <b>PROPDESC_FORMAT_FLAGS</b> for possible values.
+One or more <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> that specify the format to apply to the property string. See <b>PROPDESC_FORMAT_FLAGS</b> for possible values.
 
 
 ### -param ppszDisplay [out]
@@ -101,34 +101,34 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function uses the <i>ppd</i> parameter to call <a href="https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx">IPropertyDescription::FormatForDisplay</a>. That call provides a Unicode string representation of a property value, with additional formatting based on one or more <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a>.
+This function uses the <i>ppd</i> parameter to call <a href="shell.IPropertyDescription_FormatForDisplay">IPropertyDescription::FormatForDisplay</a>. That call provides a Unicode string representation of a property value, with additional formatting based on one or more <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>.
 
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://msdn.microsoft.com/en-us/library/Bb776498(v=VS.85).aspx">PSFormatPropertyValue</a>.
+You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="shell.PSFormatPropertyValue">PSFormatPropertyValue</a>.
 
 The function allocates memory and returns a pointer to that memory in <i>ppszDisplay</i>. The calling application must use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the string specified by <i>ppszDisplay</i> when it is no longer needed.
 
-The purpose of this function is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information on how the property description schema influences the formatting of the value, see the following topics:
+The purpose of this function is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information on how the property description schema influences the formatting of the value, see the following topics:
                 
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a>
+<a href="shell.propdesc_schema_displayInfo">displayInfo</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">stringFormat</a>
+<a href="shell.propdesc_schema_stringFormat">stringFormat</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb773862(v=VS.85).aspx">booleanFormat</a>
+<a href="shell.propdesc_schema_booleanFormat">booleanFormat</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb773877(v=VS.85).aspx">numberFormat</a>
+<a href="shell.propdesc_schema_numberFormat">numberFormat</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb761731(v=VS.85).aspx">NMDATETIMEFORMAT</a>
+<a href="https://msdn.microsoft.com/3ed64cf2-d6f3-4ad0-9194-838e82df7472">NMDATETIMEFORMAT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb773871(v=VS.85).aspx">enumeratedList</a>
+<a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>
 </li>
 </ul>
  
@@ -138,7 +138,7 @@ The purpose of this function is to convert data into a string suitable for displ
 
 The output string can contain Unicode directional characters. These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left-to-right (LTR) language is drawn on a right-to-left (RTL) window, or an RTL is drawn on a LTR window. These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
 
-The following properties use special formats and are unaffected by the <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a>. Note that examples cited are for strings with a current locale set to English; typically, output is localized except where noted.
+The following properties use special formats and are unaffected by the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>. Note that examples cited are for strings with a current locale set to English; typically, output is localized except where noted.
 
                 
 
@@ -244,7 +244,7 @@ If the property key does not correspond to a property description in any of the 
 </tr>
 <tr>
 <td>VT_FILETIME</td>
-<td>Date/time string as specified by <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
+<td>Date/time string as specified by <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
 </tr>
 <tr>
 <td>Numeric VARTYPE</td>
@@ -264,32 +264,36 @@ If the property key does not correspond to a property description in any of the 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776498(v=VS.85).aspx">PSFormatPropertyValue</a> to format a rating value.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSFormatPropertyValue">PSFormatPropertyValue</a> to format a rating value.
 
-
-```cpp
-// IPropertyStore *pStore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *pStore;
 // Assume the variable pps is initialized and valid.
 IPropertyDescription *pPropDesc;
 
-HRESULT hr = PSGetPropertyDescription(PKEY_Rating, IID_PPV_ARGS(&pPropDesc));
+HRESULT hr = PSGetPropertyDescription(PKEY_Rating, IID_PPV_ARGS(&amp;pPropDesc));
 
 if (SUCCEEDED(hr))
 {
     PWSTR pszValue;
 
-    hr = PSFormatPropertyValue(pStore, pPropDesc, PDFF_DEFAULT, &pszValue);
+    hr = PSFormatPropertyValue(pStore, pPropDesc, PDFF_DEFAULT, &amp;pszValue);
 
     if (SUCCEEDED(hr))
     {
         // pszValue contains a formatted string similar to "3 stars".
         CoTaskMemFree(pszValue);
     }
-    pPropDesc->Release();
-}
-```
-
-
+    pPropDesc-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -298,11 +302,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776496(v=VS.85).aspx">PSFormatForDisplay</a>
+<a href="shell.PSFormatForDisplay">PSFormatForDisplay</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776497(v=VS.85).aspx">PSFormatForDisplayAlloc</a>
+<a href="shell.PSFormatForDisplayAlloc">PSFormatForDisplayAlloc</a>
 
 
 

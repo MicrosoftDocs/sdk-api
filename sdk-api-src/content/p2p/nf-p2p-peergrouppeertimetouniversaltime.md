@@ -4,10 +4,10 @@ title: PeerGroupPeerTimeToUniversalTime function
 author: windows-sdk-content
 description: The PeerGroupPeerTimeToUniversalTime function converts the peer group-maintained reference time value to a localized time value appropriate for display on a peer computer.
 old-location: p2p\peergrouppeertimetouniversaltime.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 27164da8-b5c7-41c1-bfe1-1c5797aa7ae1
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGroupPeerTimeToUniversalTime, PeerGroupPeerTimeToUniversalTime function [Peer Networking], p2p.peergrouppeertimetouniversaltime, p2p/PeerGroupPeerTimeToUniversalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

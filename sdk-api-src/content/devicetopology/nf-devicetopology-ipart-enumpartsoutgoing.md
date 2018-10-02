@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_enumpartsoutgoing.htm
 tech.root: CoreAudio
 ms.assetid: f1892e6d-a2d8-45c7-8a36-6040f4538c1e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: EnumPartsOutgoing, EnumPartsOutgoing method [Core Audio], EnumPartsOutgoing method [Core Audio],IPart interface, IPart interface [Core Audio],EnumPartsOutgoing method, IPart.EnumPartsOutgoing, IPart::EnumPartsOutgoing, IPartEnumPartsOutgoing, coreaudio.ipart_enumpartsoutgoing, devicetopology/IPart::EnumPartsOutgoing
 ms.prod: windows-hardware
 ms.technology: windows-devices

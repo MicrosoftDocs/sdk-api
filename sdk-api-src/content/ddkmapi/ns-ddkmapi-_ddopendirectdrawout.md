@@ -4,10 +4,10 @@ title: "_DDOPENDIRECTDRAWOUT"
 author: windows-sdk-content
 description: The DDOPENDIRECTDRAWOUT structure contains a new Microsoft DirectDraw handle for the DD_DXAPI_OPENDIRECTDRAW function identifier of the DxApi function if the ddRVal member of DDOPENDIRECTDRAWOUT is set to DD_OK.
 old-location: display\ddopendirectdrawout.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 49fa1354-2b66-4e97-a8e6-aa7c995d6628
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDDOPENDIRECTDRAWOUT, DDOPENDIRECTDRAWOUT, DDOPENDIRECTDRAWOUT structure [Display Devices], LPDDOPENDIRECTDRAWOUT, LPDDOPENDIRECTDRAWOUT structure pointer [Display Devices], _DDOPENDIRECTDRAWOUT, ddkmapi/DDOPENDIRECTDRAWOUT, ddkmapi/LPDDOPENDIRECTDRAWOUT, ddstrcts_26b6b5d6-563a-4d01-b2f5-dc984b8d382e.xml, display.ddopendirectdrawout"
 ms.prod: windows
 ms.technology: windows-sdk

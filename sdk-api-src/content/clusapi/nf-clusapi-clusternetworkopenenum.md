@@ -4,10 +4,10 @@ title: ClusterNetworkOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through objects on a network.
 old-location: mscs\clusternetworkopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 59f6fd26-1d96-4b04-858d-bfd3e4d25d01
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CLUSTER_NETWORK_ENUM_NETINTERFACES, ClusterNetworkOpenEnum, ClusterNetworkOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM function [Failover Cluster], _wolf_clusternetworkopenenum, clusapi/ClusterNetworkOpenEnum, clusapi/PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, mscs.clusternetworkopenenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-Opens an enumerator for iterating through <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">objects</a> on a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>. The <b>PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM</b> type defines a pointer to this function.
+Opens an enumerator for iterating through <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">objects</a> on a 
+    <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>. The <b>PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ A handle to a network.
 ### -param dwType [in]
 
 A bitmask that describes the type of objects to be enumerated. One or more of the following values 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309153(v=VS.85).aspx">CLUSTER_NETWORK_ENUM</a> enumeration are valid.
+       <a href="https://msdn.microsoft.com/f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095">CLUSTER_NETWORK_ENUM</a> enumeration are valid.
 
 
 
@@ -108,7 +108,7 @@ Applications call the <b>ClusterNetworkOpenEnum</b>
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -119,7 +119,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371731(v=VS.85).aspx">Cluster Network Management Functions</a>
+<a href="https://msdn.microsoft.com/7908db54-f432-4aee-aaf4-91f763ffa3a0">Cluster Network Management Functions</a>
 
 
 

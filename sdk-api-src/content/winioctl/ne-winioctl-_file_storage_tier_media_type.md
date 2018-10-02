@@ -7,7 +7,7 @@ old-location: fs\file_storage_tier_media_type.htm
 tech.root: fileio
 ms.assetid: 6D580AC6-5E3C-4F0B-A922-E81E6B8D8658
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PFILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE enumeration [Files], FileStorageTierMediaTypeDisk, FileStorageTierMediaTypeSsd, FileStorageTierMediaTypeUnspecified, _FILE_STORAGE_TIER_MEDIA_TYPE, fs.file_storage_tier_media_type, winioctl/FILE_STORAGE_TIER_MEDIA_TYPE, winioctl/FileStorageTierMediaTypeDisk, winioctl/FileStorageTierMediaTypeSsd, winioctl/FileStorageTierMediaTypeUnspecified"
 ms.prod: windows
 ms.technology: windows-sdk

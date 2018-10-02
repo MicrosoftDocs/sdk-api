@@ -7,7 +7,7 @@ old-location: mstv\ibda_drm_performdrmpairing.htm
 tech.root: MSTV
 ms.assetid: a3cd9e0c-cfb1-445f-bafc-c1a4f24550f8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_DRM interface [Microsoft TV Technologies],PerformDRMPairing method, IBDA_DRM.PerformDRMPairing, IBDA_DRM::PerformDRMPairing, IBDA_DRMPerformDRMPairing, PerformDRMPairing, PerformDRMPairing method [Microsoft TV Technologies], PerformDRMPairing method [Microsoft TV Technologies],IBDA_DRM interface, bdaiface/IBDA_DRM::PerformDRMPairing, mstv.ibda_drm_performdrmpairing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you can poll the status of the operation by calling <a href="https://msdn.microsoft.com/en-us/library/Dd693319(v=VS.85).aspx">IBDA_DRM::GetDRMPairingStatus</a>. While the operation is in progress, <b>GetDRMPairingStatus</b> returns S_FALSE.
+If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you can poll the status of the operation by calling <a href="https://msdn.microsoft.com/dff38609-9e90-491c-b8c4-33fd07471895">IBDA_DRM::GetDRMPairingStatus</a>. While the operation is in progress, <b>GetDRMPairingStatus</b> returns S_FALSE.
 
 
 
@@ -86,7 +86,7 @@ If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693315(v=VS.85).aspx">IBDA_DRM Interface</a>
+<a href="https://msdn.microsoft.com/d0bde207-d550-4e98-85c7-b0d47b0cd637">IBDA_DRM Interface</a>
  
 
  

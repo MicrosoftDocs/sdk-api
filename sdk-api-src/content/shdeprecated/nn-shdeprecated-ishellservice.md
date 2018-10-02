@@ -4,10 +4,10 @@ title: IShellService
 author: windows-sdk-content
 description: Deprecated. IShellService Exposes one method that declares ownership when a service component implementing a certain interface is shared among multiple clients, such as Windows Internet Explorer and Windows Explorer.
 old-location: shell\IShellService.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0b845907-a879-4f87-a6f5-8cc86dfe03ff
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellService, IShellService interface [Windows Shell], IShellService interface [Windows Shell],described, shdeprecated/IShellService, shell.IShellService, zone_IShellService
 ms.prod: windows
 ms.technology: windows-sdk

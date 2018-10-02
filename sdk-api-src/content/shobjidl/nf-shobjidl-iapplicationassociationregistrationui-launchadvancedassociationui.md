@@ -4,10 +4,10 @@ title: IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 author: windows-sdk-content
 description: Launches an advanced association dialog box through which the user can customize the associations for the application specified in pszAppRegName.
 old-location: shell\IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: db2fc087-2f22-40df-8ec9-f673c0fe81ff
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IApplicationAssociationRegistrationUI interface [Windows Shell],LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell],IApplicationAssociationRegistrationUI interface, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFDXGIDeviceManagerSource::GetManager
 author: windows-sdk-content
 description: Gets the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
 old-location: mf\imfdxgidevicemanagersource_getmanager.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 809e89e4-3ed5-4dba-82dc-4ec217b8ef38
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetManager, GetManager method [Media Foundation], GetManager method [Media Foundation],IMFDXGIDeviceManagerSource interface, IMFDXGIDeviceManagerSource interface [Media Foundation],GetManager method, IMFDXGIDeviceManagerSource.GetManager, IMFDXGIDeviceManagerSource::GetManager, mf.imfdxgidevicemanagersource_getmanager, mfidl/IMFDXGIDeviceManagerSource::GetManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: Int8Add function
 author: windows-sdk-content
 description: Adds two values of type INT8.
 old-location: shell\Int8Add.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2b9e9c0b-ddf4-4a95-a743-004a7575bbfa
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Int8Add, Int8Add function [Windows Shell], intsafe/Int8Add, shell.Int8Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

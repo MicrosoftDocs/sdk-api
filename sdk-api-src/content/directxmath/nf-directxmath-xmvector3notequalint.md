@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3notequalint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3NotEqualInt(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVector3NotEqualInt, XMVector3NotEqualInt, XMVector3NotEqualInt method [DirectX Math Support APIs], dxmath.xmvector3notequalint
 ms.prod: windows-hardware
 ms.technology: windows-devices

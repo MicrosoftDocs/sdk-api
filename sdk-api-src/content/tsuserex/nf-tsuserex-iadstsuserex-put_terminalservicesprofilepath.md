@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_terminalservicesprofilepath.htm
 tech.root: TermServ
 ms.assetid: 282c20ab-378d-4205-90d3-6d28b0770adc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesProfilePath property, IADsTSUserEx.TerminalServicesProfilePath, IADsTSUserEx.put_TerminalServicesProfilePath, IADsTSUserEx::TerminalServicesProfilePath, IADsTSUserEx::get_TerminalServicesProfilePath, IADsTSUserEx::put_TerminalServicesProfilePath, TerminalServicesProfilePath property [Remote Desktop Services], TerminalServicesProfilePath property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesProfilePath, termserv.iadstsuserex_terminalservicesprofilepath, tsuserex/IADsTSUserEx::TerminalServicesProfilePath, tsuserex/IADsTSUserEx::get_TerminalServicesProfilePath, tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,9 +76,13 @@ The profile path is
 
 The following example shows a program that binds to the Active Directory database without credentials.
 
-
-```cpp
- IADsContainer *pContainer = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> IADsContainer *pContainer = NULL;
  IDispatch *pNewObject = NULL;
  IADsTSUserEx *pTSUser = NULL;
  IADsUser *pUser = NULL;
@@ -91,7 +95,7 @@ The following example shows a program that binds to the Active Directory databas
  hr = ADsGetObject(
     L"LDAP://DOMAIN/CN=Users,DC=Server1,DC=Domain,DC=com",
     IID_IADsContainer,
-    (void**)&pContainer);
+    (void**)&amp;pContainer);
 
  if( !SUCCEEDED(hr)) {
   wprintf(L"ADsGetObject ret failed with 0x%x\n", hr);
@@ -100,10 +104,10 @@ The following example shows a program that binds to the Active Directory databas
  //
  // Create the new Active Directory Service Interfaces User object.
  //
- hr = pContainer->Create(L"user",
+ hr = pContainer-&gt;Create(L"user",
                          L"cn=test3",
-                         &pNewObject);
- pContainer->Release();
+                         &amp;pNewObject);
+ pContainer-&gt;Release();
 
  if( !SUCCEEDED(hr)) {
   wprintf(L"Create ret failed with 0x%x\n", hr);
@@ -112,7 +116,7 @@ The following example shows a program that binds to the Active Directory databas
  //
  // Get the IADsTSUser interface from the user object.
  //
- hr = pNewObject->QueryInterface(IID_IADsTSUserEx, (void**)&pTSUser);
+ hr = pNewObject-&gt;QueryInterface(IID_IADsTSUserEx, (void**)&amp;pTSUser);
 
  if( !SUCCEEDED(hr)) { 
   wprintf(L"QueryInterface for IADsTSUserEx failed with ret 0x%x\n",
@@ -122,30 +126,30 @@ The following example shows a program that binds to the Active Directory databas
  //
  // Get the IADsTSUser interface from the user object.
  //
- hr = pNewObject->QueryInterface(IID_IADsUser, (void**)&pUser);
+ hr = pNewObject-&gt;QueryInterface(IID_IADsUser, (void**)&amp;pUser);
 
  if( !SUCCEEDED(hr)) {
   wprintf(L"QueryInterface for IAsUser failed with 0x%x\n", hr);
   return FALSE;
  }
- pNewObject->Release();
+ pNewObject-&gt;Release();
 
  //
  // Set TerminalServicesProfilePath
  //
- pTSUser->put_TerminalServicesProfilePath(L"c:\\windows");
- pTSUser->Release();
+ pTSUser-&gt;put_TerminalServicesProfilePath(L"c:\\windows");
+ pTSUser-&gt;Release();
 
  //
  // Commit the object data to the directory.
  //
- pUser->SetInfo();
- pUser->Release();
+ pUser-&gt;SetInfo();
+ pUser-&gt;Release();
  CoUninitialize();
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 You can use the following script examples to bind to a provider's namespace. Two examples bind with supplied 
      credentials; two bind without credentials.
 
@@ -155,9 +159,13 @@ The first example shows a script that binds to the Security Accounts Manager (SA
 The second example shows a script that binds to the Active Directory database with the supplied 
      credentials.
 
-
-```vb
-Set DSO = GetObject("WinNT:")
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set DSO = GetObject("WinNT:")
 Set usr = DSO.OpenDSObject(
     "WinNT://Server1/Test,user",
     Domain\User,
@@ -167,11 +175,16 @@ Wscript.echo usr.TerminalServicesProfilePath
 usr.TerminalServicesProfilePath = "profile path"
 usr.SetInfo
 WScript.echo usr.TerminalServicesProfilePath
-
-```
-
-```vb
-Set DSO = GetObject("LDAP:")
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set DSO = GetObject("LDAP:")
 Set usr = DSO.OpenDSObject(
     "LDAP://DOMAIN/CN=Test,CN=Users,DC=Server1,DC=Domain,DC=com",
     Domain\User,
@@ -181,10 +194,10 @@ Wscript.echo usr.TerminalServicesProfilePath
 usr.TerminalServicesProfilePath = "profile path"
 usr.SetInfo
 WScript.echo usr.TerminalServicesProfilePath
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

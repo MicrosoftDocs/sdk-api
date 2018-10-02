@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_usage.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_usage.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D10_USAGE, D3D10_USAGE enumeration [Direct3D 10], D3D10_USAGE_DEFAULT, D3D10_USAGE_DYNAMIC, D3D10_USAGE_IMMUTABLE, D3D10_USAGE_STAGING, ce388aa8-48f6-b43d-c978-e00f781ef68c, d3d10/D3D10_USAGE, d3d10/D3D10_USAGE_DEFAULT, d3d10/D3D10_USAGE_DYNAMIC, d3d10/D3D10_USAGE_IMMUTABLE, d3d10/D3D10_USAGE_STAGING, direct3d10.d3d10_usage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A resource that can only be read by the GPU. It cannot be written by the GPU, an
 
 ### -field D3D10_USAGE_DYNAMIC
 
-A resource that is accessible by both the GPU and the CPU (write only). A dynamic resource is a good choice for a resource that will be updated by the CPU at least once per frame. To write to a dynamic resource on the CPU, use a <b>Map</b> method. You can write to a dynamic resource on the GPU using <a href="https://msdn.microsoft.com/en-us/library/Bb173541(v=VS.85).aspx">CopyResource</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb173542(v=VS.85).aspx">CopySubresourceRegion</a>.
+A resource that is accessible by both the GPU and the CPU (write only). A dynamic resource is a good choice for a resource that will be updated by the CPU at least once per frame. To write to a dynamic resource on the CPU, use a <b>Map</b> method. You can write to a dynamic resource on the GPU using <a href="https://msdn.microsoft.com/3f3f8089-8343-4f83-9208-fd21617b8d19">CopyResource</a> or <a href="https://msdn.microsoft.com/78803e46-9945-45d4-a7cc-41f527831251">CopySubresourceRegion</a>.
 
 
 ### -field D3D10_USAGE_STAGING
@@ -82,7 +82,7 @@ A resource that supports data transfer (copy) from the GPU to the CPU.
 
 
 
-An application identifies the way a resource is intended to be used (its usage) in a resource description. There are several structures for creating resources including: <a href="https://msdn.microsoft.com/en-us/library/Bb172479(v=VS.85).aspx">D3D10_TEXTURE1D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172480(v=VS.85).aspx">D3D10_TEXTURE2D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb172696(v=VS.85).aspx">D3DX10_IMAGE_LOAD_INFO</a>.
+An application identifies the way a resource is intended to be used (its usage) in a resource description. There are several structures for creating resources including: <a href="https://msdn.microsoft.com/f4230e66-5b38-4c69-8406-974fb7708c16">D3D10_TEXTURE1D_DESC</a>, <a href="https://msdn.microsoft.com/2535da35-7985-4e50-b840-6a636f871697">D3D10_TEXTURE2D_DESC</a>, <a href="https://msdn.microsoft.com/b2447872-cbef-4cf2-ab7c-2739343ceb64">D3D10_TEXTURE3D_DESC</a>, <a href="https://msdn.microsoft.com/3f98c741-ff4c-4080-bd57-ef35cd6622d6">D3D10_BUFFER_DESC</a>, and <a href="https://msdn.microsoft.com/8325d50e-a8a9-4ee2-87e2-e60fb3699af6">D3DX10_IMAGE_LOAD_INFO</a>.
 
 <table>
 <tr>
@@ -102,9 +102,9 @@ In Direct3D 10, an application no longer specifies what type of memory (the pool
 Each usage dictates a tradeoff between functionality and performance. In general, resource accessing is accomplished with the following APIs.
 
 <ul>
-<li>CPU access is done with <a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173865(v=VS.85).aspx">ID3D10Texture1D::Map</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173869(v=VS.85).aspx">ID3D10Texture2D::Map</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>
+<li>CPU access is done with <a href="https://msdn.microsoft.com/c863ef55-757d-4c0b-ba59-28d30499cf79">ID3D10Buffer::Map</a>, <a href="https://msdn.microsoft.com/ff11d7a7-2e9a-4220-9aa2-c9a96355cc0d">ID3D10Texture1D::Map</a>, <a href="https://msdn.microsoft.com/40d0d246-bed9-48a2-9c00-68a5c58f49a5">ID3D10Texture2D::Map</a>, or <a href="https://msdn.microsoft.com/5cd7a5f0-4a74-4760-a709-d7941025699d">ID3D10Texture3D::Map</a>
 </li>
-<li>GPU access is done with <a href="https://msdn.microsoft.com/en-us/library/Bb173542(v=VS.85).aspx">CopySubresourceRegion</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173541(v=VS.85).aspx">CopyResource</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb173621(v=VS.85).aspx">UpdateSubresource</a>.</li>
+<li>GPU access is done with <a href="https://msdn.microsoft.com/78803e46-9945-45d4-a7cc-41f527831251">CopySubresourceRegion</a>, <a href="https://msdn.microsoft.com/3f3f8089-8343-4f83-9208-fd21617b8d19">CopyResource</a>, or <a href="https://msdn.microsoft.com/eeab4057-4827-4c4b-ae8d-1cbf1f1c9e44">UpdateSubresource</a>.</li>
 </ul>
 Use the following table to choose the usage that best describes how the resource will need to be accessed by the CPU and/or the GPU. Of course, there will be performance tradeoffs.
 
@@ -148,7 +148,7 @@ Use the following table to choose the usage that best describes how the resource
  
 
 <ul>
-<li>1 - This is restricted to <a href="https://msdn.microsoft.com/en-us/library/Bb173542(v=VS.85).aspx">CopySubresourceRegion</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173541(v=VS.85).aspx">CopyResource</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173621(v=VS.85).aspx">UpdateSubresource</a>.</li>
+<li>1 - This is restricted to <a href="https://msdn.microsoft.com/78803e46-9945-45d4-a7cc-41f527831251">CopySubresourceRegion</a>, <a href="https://msdn.microsoft.com/3f3f8089-8343-4f83-9208-fd21617b8d19">CopyResource</a>, and <a href="https://msdn.microsoft.com/eeab4057-4827-4c4b-ae8d-1cbf1f1c9e44">UpdateSubresource</a>.</li>
 <li>2 - Cannot be a depth-stencil buffer or a multisampled render target.</li>
 </ul>
 <h3><a id="Bind"></a><a id="bind"></a><a id="BIND"></a>Resource Bind Options</h3>
@@ -180,8 +180,8 @@ To maximize performance, not all resource usage options can be used as input or 
  
 
 <ul>
-<li>3 - If bound as an input and an output using different views, each view must use different <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresources</a>.</li>
-<li>4 - The resource can only be created with a single <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a>. The resource cannot be a texture array. The resource cannot be a mipmap chain.</li>
+<li>3 - If bound as an input and an output using different views, each view must use different <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresources</a>.</li>
+<li>4 - The resource can only be created with a single <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a>. The resource cannot be a texture array. The resource cannot be a mipmap chain.</li>
 </ul>
 
 
@@ -191,7 +191,7 @@ To maximize performance, not all resource usage options can be used as input or 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/c986b22c-2960-4571-98bc-028c9f41ec65">Resource Enumerations</a>
  
 
  

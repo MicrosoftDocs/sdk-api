@@ -4,10 +4,10 @@ title: NetServerSetInfo function
 author: windows-sdk-content
 description: The NetServerSetInfo function sets a server's operating parameters; it can set them individually or collectively. The information is stored in a way that allows it to remain in effect after the system has been reinitialized.
 old-location: netmgmt\netserversetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 1a04a43d-34f9-4a08-ac66-750120792af0
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: 101, 102, 402, 403, NetServerSetInfo, NetServerSetInfo function [Network Management], _win32_netserversetinfo, lmserver/NetServerSetInfo, netmgmt.netserversetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -403,16 +403,20 @@ The following code sample demonstrates how to call the
 <b>NetServerSetInfo</b> function. The sample calls 
 <b>NetServerSetInfo</b>, specifying the <i>level</i> parameter as 1005 (required) to set the <b>sv1005_comment</b> member of the <a href="https://msdn.microsoft.com/a8ce88ee-2b44-4b12-ba7a-f84249a3621b">SERVER_INFO_1005</a> structure.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -435,7 +439,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetServerSetInfo(argv[1],
                               dwLevel,
-                              (LPBYTE)&si,
+                              (LPBYTE)&amp;si,
                               NULL);
    //
    // Display the result of the call.
@@ -446,10 +450,10 @@ int wmain(int argc, wchar_t *argv[])
       fprintf(stderr, "A system error has occurred: %d\n", nStatus);
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

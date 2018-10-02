@@ -4,10 +4,10 @@ title: PHONE_BUTTON_STATE
 author: windows-sdk-content
 description: The PHONE_BUTTON_STATE enum describes the state of a phone button.
 old-location: tapi3\phone_button_state.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: a9f7b527-9c74-45ac-9394-6f736aae1ccf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PBS_DOWN, PBS_UNAVAIL, PBS_UNKNOWN, PBS_UP, PHONE_BUTTON_STATE, PHONE_BUTTON_STATE enumeration [TAPI 2.2], _tapi3_phone_button_state, tapi3.phone_button_state, tapi3if/PBS_DOWN, tapi3if/PBS_UNAVAIL, tapi3if/PBS_UNKNOWN, tapi3if/PBS_UP, tapi3if/PHONE_BUTTON_STATE
 ms.prod: windows
 ms.technology: windows-sdk

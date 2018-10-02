@@ -4,10 +4,10 @@ title: "_AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE"
 author: windows-sdk-content
 description: Specifies an octet string value for a security attribute.
 old-location: security\authz_security_attribute_octet_string_value.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: aebe20d5-280f-45d3-a11d-279a08a1a165
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure [Security], PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure pointer [Security], _AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, authz/PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, security.authz_security_attribute_octet_string_value"
 ms.prod: windows
 ms.technology: windows-sdk

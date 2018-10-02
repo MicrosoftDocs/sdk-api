@@ -4,10 +4,10 @@ title: IShellFolderView::GetDropPoint
 author: windows-sdk-content
 description: Gets the point at which the current drag-and-drop operation was terminated.
 old-location: shell\IShellFolderView_GetDropPoint.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2ea09e0f-adf0-4d33-a7c7-c8a4aa6b30ea
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetDropPoint, GetDropPoint method [Windows Shell], GetDropPoint method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetDropPoint method, IShellFolderView.GetDropPoint, IShellFolderView::GetDropPoint, _shell_IShellFolderView_GetDropPoint, shell.IShellFolderView_GetDropPoint, shlobj_core/IShellFolderView::GetDropPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

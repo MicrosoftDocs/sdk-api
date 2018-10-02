@@ -7,7 +7,7 @@ old-location: input_intcontext\setcrossslideparametersinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: b4d9459a-7b07-4316-bf5c-628de08de7dc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetCrossSlideParametersInteractionContext, SetCrossSlideParametersInteractionContext function, input_intcontext.setcrossslideparametersinteractioncontext, interactioncontext.setcrossslideparametersinteractioncontext, interactioncontext/SetCrossSlideParametersInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,9 +95,13 @@ Otherwise, it returns an HRESULT error code.
 
 This example demonstrates how to set custom cross-slide thresholds.
 
-
-```cpp
-//  SetCrossSlideParametersInteractionContext
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  SetCrossSlideParametersInteractionContext
 
 CROSS_SLIDE_PARAMETER crossSlideParameters[4];
 crossSlideParameters[0].threshold = CROSS_SLIDE_THRESHOLD_SELECT_START;
@@ -115,10 +119,10 @@ SetCrossSlideParametersInteractionContext(
     m_interactionContext,
     4,
     crossSlideParameters);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

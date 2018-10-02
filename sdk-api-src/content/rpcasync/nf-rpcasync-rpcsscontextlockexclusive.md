@@ -4,10 +4,10 @@ title: RpcSsContextLockExclusive function
 author: windows-sdk-content
 description: The RpcSsContextLockExclusive function enables an application to begin using a context handle in exclusive mode.
 old-location: rpc\rpcsscontextlockexclusive.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 7ef2376b-da25-4e4b-8a25-0913d680945f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RpcSsContextLockExclusive, RpcSsContextLockExclusive function [RPC], _rpc_rpcsscontextlockexclusive, rpc.rpcsscontextlockexclusive, rpcasync/RpcSsContextLockExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,9 +99,13 @@ For the <i>UserContext</i> parameter, if the manager routine receives a pointer 
 <b>RpcSsContextLockExclusive</b> function the same pointer it received from RPC. If the manager routine receives the context handle itself, which is typical for [in] only context handles, it must pass the context handle itself to the 
 <b>RpcSsContextLockExclusive</b> function. The following code example demonstrates this:
 
-
-```cpp
-void _UseShared(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void _UseShared(
     /* [in] */ handle_t Binding,
     //...
     /* [in] */ TestContextHandleShared *Ctx,
@@ -112,10 +116,10 @@ void _UseShared(
     RpcStatus = RpcSsContextLockExclusive(Binding, Ctx);
     //...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If a manager routine takes multiple [in, out] context handles as an argument, RPC gives the manager routine a pointer to the context handle, not the context handle itself. The pointer is guaranteed to be unique, and therefore passing it to the 
 <b>RpcSsContextLockExclusive</b> function is unambiguous. However, if a function takes multiple [in] only context handles, RPC gives the manager routine the context handle itself. Therefore, the context handle may not be unique. In this case, RPC executes this function on the first context handle with the given value.
 

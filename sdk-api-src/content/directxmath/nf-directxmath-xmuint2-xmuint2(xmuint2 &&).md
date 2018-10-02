@@ -7,7 +7,7 @@ old-location: dxmath\xmuint2_ctor.htm
 tech.root: dxmath
 ms.assetid: Overload:Microsoft.directx_sdk.reference.XMUINT2.#ctor
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: XMUINT2, XMUINT2 Constructors, XMUINT2 Constructors constructors [DirectX Math Support APIs], directxmath/XMUINT2 Constructors, dxmath.xmuint2_ctor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetMostRecentRunTime
 author: windows-sdk-content
 description: Retrieves the most recent time the work item began running.
 old-location: taskschd\ischeduledworkitem_getmostrecentruntime.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 38872c60-7d2b-4bfc-b771-98950ab8f40c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: GetMostRecentRunTime, GetMostRecentRunTime method [Task Scheduler], GetMostRecentRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetMostRecentRunTime method, IScheduledWorkItem.GetMostRecentRunTime, IScheduledWorkItem::GetMostRecentRunTime, _msb_ischeduledworkitem_getmostrecentruntime, mstask/IScheduledWorkItem::GetMostRecentRunTime, taskschd.ischeduledworkitem_getmostrecentruntime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the most recent time the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a> began running.
+Retrieves the most recent time the <a href="w.htm">work item</a> began running.
 
 
 ## -parameters

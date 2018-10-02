@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattregisterevent.htm
 tech.root: bltooth
 ms.assetid: 8C1477F8-8342-4405-8FE1-8109E6147EE9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothGATTRegisterEvent, BluetoothGATTRegisterEvent function [Bluetooth Devices], bltooth.bluetoothgattregisterevent, bluetoothleapis/BluetoothGATTRegisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,12 +66,12 @@ Handle to the service.
 
 ### -param EventType [in]
 
-A value from <a href="https://msdn.microsoft.com/en-us/library/Hh450849(v=VS.85).aspx">BTH_LE_GATT_EVENT_TYPE</a>. Currently, only <b>CharacteristicValueChangedEvent</b> is supported.
+A value from <a href="https://msdn.microsoft.com/6AF30DEA-2018-4AA2-B13A-BD31BD641F9F">BTH_LE_GATT_EVENT_TYPE</a>. Currently, only <b>CharacteristicValueChangedEvent</b> is supported.
 
 
 ### -param EventParameterIn [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn385750(v=VS.85).aspx">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a> structure to pass when the event is triggered.
+Pointer to a <a href="https://msdn.microsoft.com/97EB32A7-87BF-4DBA-9480-4BB7DFCBFB23">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a> structure to pass when the event is triggered.
 
 
 ### -param Callback [in]
@@ -86,7 +86,7 @@ Context to pass to <i>Callback</i>.
 
 ### -param pEventHandle [out]
 
-Pointer to buffer to receive a handle for the registration.  Profile drivers must pass this handle when calling <a href="https://msdn.microsoft.com/en-us/library/Hh450809(v=VS.85).aspx">BluetoothGATTUnregisterEvent</a>.
+Pointer to buffer to receive a handle for the registration.  Profile drivers must pass this handle when calling <a href="https://msdn.microsoft.com/4E0E8D6C-DC12-4F15-9D29-B38AE680894B">BluetoothGATTUnregisterEvent</a>.
 
 
 ### -param Flags [in]
@@ -167,19 +167,19 @@ A parameter was invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn385750(v=VS.85).aspx">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a>
+<a href="https://msdn.microsoft.com/97EB32A7-87BF-4DBA-9480-4BB7DFCBFB23">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450849(v=VS.85).aspx">BTH_LE_GATT_EVENT_TYPE</a>
+<a href="https://msdn.microsoft.com/6AF30DEA-2018-4AA2-B13A-BD31BD641F9F">BTH_LE_GATT_EVENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450822(v=VS.85).aspx">Bluetooth GATT Event Callback Function</a>
+<a href="https://msdn.microsoft.com/96AC4E49-76D7-47B5-93B9-64D574A28E0A">Bluetooth GATT Event Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450809(v=VS.85).aspx">BluetoothGATTUnregisterEvent</a>
+<a href="https://msdn.microsoft.com/4E0E8D6C-DC12-4F15-9D29-B38AE680894B">BluetoothGATTUnregisterEvent</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_processoutput.htm
 tech.root: stream
 ms.assetid: A99242D6-5225-493C-A5A8-CFDBB49D01A0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessOutput method, IMFDeviceTransform.ProcessOutput, IMFDeviceTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Streaming Media Devices], ProcessOutput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessOutput, stream.imfdevicetransform_processoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

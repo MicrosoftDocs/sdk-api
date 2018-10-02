@@ -7,7 +7,7 @@ old-location: fs\ioctl_storage_query_property.htm
 tech.root: fileio
 ms.assetid: 6755dcd4-e4a0-423f-9dcc-b9719c8e5c88
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Files], fs.ioctl_storage_query_property, winioctl/IOCTL_STORAGE_QUERY_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,13 @@ Windows applications can use this control code to return the properties of a sto
     <b>IOCTL_STORAGE_QUERY_PROPERTY</b> can also be used 
     to determine whether the port driver supports a particular property or which fields in the property descriptor can 
     be modified with a subsequent change-property request.
-
-```cpp
-BOOL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
 WINAPI 
 DeviceIoControl(
      _In_        (HANDLE)       hDevice,               // handle to a partition
@@ -67,10 +71,10 @@ DeviceIoControl(
      _Out_opt_   (LPVOID)       lpOutBuffer,           // output buffer - see Remarks
      _In_        (DWORD)        nOutBufferSize,        // size of output buffer
      _Out_opt_   (LPDWORD)      lpBytesReturned,       // number of bytes returned
-     _Inout_opt_ (LPOVERLAPPED) lpOverlapped );        // OVERLAPPED structure
-```
-
-
+     _Inout_opt_ (LPOVERLAPPED) lpOverlapped );        // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

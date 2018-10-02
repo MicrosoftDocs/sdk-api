@@ -7,7 +7,7 @@ old-location: menurc\getcaretblinktime.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\getcaretblinktime.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCaretBlinkTime, GetCaretBlinkTime function [Menus and Other Resources], _win32_GetCaretBlinkTime, _win32_getcaretblinktime_cpp, menurc.getcaretblinktime, winui._win32_getcaretblinktime, winuser/GetCaretBlinkTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ A return value is zero indicates that the function has failed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://msdn.microsoft.com/34ff3420-a1d2-46cc-9378-4b3340bec8c8">Carets</a>
 
 
 
@@ -98,7 +98,7 @@ A return value is zero indicates that the function has failed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648404(v=VS.85).aspx">SetCaretBlinkTime</a>
+<a href="https://msdn.microsoft.com/f3109f0f-f6b8-4ea6-9159-cc31489eaf88">SetCaretBlinkTime</a>
  
 
  

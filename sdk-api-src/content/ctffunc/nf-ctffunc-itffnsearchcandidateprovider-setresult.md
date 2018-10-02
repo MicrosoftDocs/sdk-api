@@ -7,7 +7,7 @@ old-location: tsf\itffnsearchcandidateprovider_setresult.htm
 tech.root: TSF
 ms.assetid: 5C4DA0D3-58FD-4955-9658-29ECD8FECEC1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfFnSearchCandidateProvider interface [Text Services Framework],SetResult method, ITfFnSearchCandidateProvider.SetResult, ITfFnSearchCandidateProvider::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfFnSearchCandidateProvider interface, ctffunc/ITfFnSearchCandidateProvider::SetResult, tsf.itffnsearchcandidateprovider_setresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ App-specified string that enables a text service or IME to optionally provide di
 
 ### -param bstrResult [in]
 
-A string that represents the candidate string chosen by the user.  It should be one of the candidate string values returned by the <a href="https://msdn.microsoft.com/en-us/library/Hh920952(v=VS.85).aspx">GetSearchCandidates</a> method.
+A string that represents the candidate string chosen by the user.  It should be one of the candidate string values returned by the <a href="https://msdn.microsoft.com/7D7E8171-229F-4D9C-B086-D68E064A8A4C">GetSearchCandidates</a> method.
 
 
 ## -returns
@@ -105,9 +105,9 @@ The method was successful.
 
 
 
-Implementing and calling the <a href="https://msdn.microsoft.com/en-us/library/ms538496(v=VS.85).aspx">SetResult</a> method is optional.
+Implementing and calling the <a href="https://msdn.microsoft.com/dcc172f9-4fc3-46f4-a1db-0e75fceafb28">SetResult</a> method is optional.
 
-A text service or IME can return <b>E_PENDING</b> if no corresponding call to <a href="https://msdn.microsoft.com/en-us/library/Hh920952(v=VS.85).aspx">GetSearchCandidates</a> has been made yet for the value of <i>bstrQuery</i>.
+A text service or IME can return <b>E_PENDING</b> if no corresponding call to <a href="https://msdn.microsoft.com/7D7E8171-229F-4D9C-B086-D68E064A8A4C">GetSearchCandidates</a> has been made yet for the value of <i>bstrQuery</i>.
 
 
 
@@ -117,11 +117,11 @@ A text service or IME can return <b>E_PENDING</b> if no corresponding call to <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920952(v=VS.85).aspx">GetSearchCandidates</a>
+<a href="https://msdn.microsoft.com/7D7E8171-229F-4D9C-B086-D68E064A8A4C">GetSearchCandidates</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920951(v=VS.85).aspx">ITfFnSearchCandidateProvider</a>
+<a href="https://msdn.microsoft.com/5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF">ITfFnSearchCandidateProvider</a>
  
 
  

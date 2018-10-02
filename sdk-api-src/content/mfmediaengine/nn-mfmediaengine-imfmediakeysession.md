@@ -4,10 +4,10 @@ title: IMFMediaKeySession
 author: windows-sdk-content
 description: Represents a session with the Digital Rights Management (DRM) key system.
 old-location: mf\imfmediakeysession.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 07f97bc9-9da2-4655-9ab9-5e17abc57d6d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaKeySession, IMFMediaKeySession interface [Media Foundation], IMFMediaKeySession interface [Media Foundation],described, mf.imfmediakeysession, mfmediaengine/IMFMediaKeySession
 ms.prod: windows
 ms.technology: windows-sdk

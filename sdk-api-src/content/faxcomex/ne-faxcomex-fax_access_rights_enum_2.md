@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_access_rights_enum_2.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\e\faxinto_z_fax_access_rights_enum_2.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FAX_ACCESS_RIGHTS_ENUM_2, FAX_ACCESS_RIGHTS_ENUM_2 enumeration [Fax Service], _mfax_fax_access_rights_enum_2, far2MANAGE_ARCHIVES, far2MANAGE_CONFIG, far2MANAGE_OUT_JOBS, far2MANAGE_RECEIVE_FOLDER, far2QUERY_ARCHIVES, far2QUERY_CONFIG, far2QUERY_OUT_JOBS, far2SUBMIT_HIGH, far2SUBMIT_LOW, far2SUBMIT_NORMAL, fax._mfax_fax_access_rights_enum_2, faxcomex/FAX_ACCESS_RIGHTS_ENUM_2, faxcomex/far2MANAGE_ARCHIVES, faxcomex/far2MANAGE_CONFIG, faxcomex/far2MANAGE_OUT_JOBS, faxcomex/far2MANAGE_RECEIVE_FOLDER, faxcomex/far2QUERY_ARCHIVES, faxcomex/far2QUERY_CONFIG, faxcomex/far2QUERY_OUT_JOBS, faxcomex/far2SUBMIT_HIGH, faxcomex/far2SUBMIT_LOW, faxcomex/far2SUBMIT_NORMAL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ The user can manage archived messages belonging to all accounts, including other
 
 ### -field far2MANAGE_RECEIVE_FOLDER
 
-The user can manage all the messages in the server's receive folder. This includes the right to <a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">reassign</a> and delete messages.
+The user can manage all the messages in the server's receive folder. This includes the right to <a href="https://msdn.microsoft.com/ede1c31f-e53a-4ddc-ba25-6fcadadd513a">reassign</a> and delete messages.
 
 
 ## -see-also
@@ -113,7 +113,7 @@ The user can manage all the messages in the server's receive folder. This includ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358980(v=VS.85).aspx">IFaxSecurity2::GrantedRights</a>
+<a href="https://msdn.microsoft.com/c7a839d9-d7d5-4942-8886-b1ca494c5842">IFaxSecurity2::GrantedRights</a>
  
 
  

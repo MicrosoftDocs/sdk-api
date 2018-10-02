@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onlayoutchange.htm
 tech.root: TSF
 ms.assetid: 22629ca6-5701-4f6f-b797-bb71c8d31da6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLayoutChange method, ITextStoreAnchorSink.OnLayoutChange, ITextStoreAnchorSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onlayoutchange_ref, textstor/ITextStoreAnchorSink::OnLayoutChange, tsf.itextstoreanchorsink_onlayoutchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: Header_GetStateImageList macro
 author: windows-sdk-content
 description: Gets the handle to the image list that has been set for an existing header control state.
 old-location: controls\Header_GetStateImageList.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getstateimagelist.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Header_GetStateImageList, Header_GetStateImageList macro [Windows Controls], _win32_Header_GetStateImageList, _win32_Header_GetStateImageList_cpp, commctrl/Header_GetStateImageList, controls.Header_GetStateImageList, controls._win32_Header_GetStateImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Gets the handle to the image list that has been set for an existing header contr
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 

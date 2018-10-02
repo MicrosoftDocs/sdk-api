@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundrouting_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0zc7_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxInboundRouting, IFaxInboundRouting interface [Fax Service], IFaxInboundRouting interface [Fax Service],described, _mfax_faxinboundrouting_cpp, fax._mfax_faxinboundrouting_cpp, faxcomex/IFaxInboundRouting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-The <b>IFaxInboundRouting</b> interface defines a configuration object used by a fax client application to access the inbound routing extensions registered with the fax service, represented by <a href="https://msdn.microsoft.com/en-us/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> objects, and the routing methods the extensions expose, represented by <a href="https://msdn.microsoft.com/en-us/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a> objects.
+The <b>IFaxInboundRouting</b> interface defines a configuration object used by a fax client application to access the inbound routing extensions registered with the fax service, represented by <a href="https://msdn.microsoft.com/8989c149-bbf4-46c1-b969-949d44efcf90">FaxInboundRoutingExtensions</a> objects, and the routing methods the extensions expose, represented by <a href="https://msdn.microsoft.com/5a00a56f-f82b-4e4b-b78f-d9f7417090c8">FaxInboundRoutingMethods</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRouting</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRouting</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRouting</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxInboundRouting</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,19 +70,19 @@ The <b>IFaxInboundRouting</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687092(v=VS.85).aspx">GetExtensions</a>
+<a href="https://msdn.microsoft.com/8e82da40-5830-4997-96e6-3551101bdd54">GetExtensions</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687088(v=VS.85).aspx">GetExtensions</a> method retrieves the collection of inbound routing extensions registered with the fax service.
+The <a href="https://msdn.microsoft.com/ecd9a5bb-1624-4cfe-a2d9-b9a5ed722fc4">GetExtensions</a> method retrieves the collection of inbound routing extensions registered with the fax service.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms685127(v=VS.85).aspx">GetMethods</a>
+<a href="https://msdn.microsoft.com/532f54a0-a3c7-4f99-9add-89474aa2fe86">GetMethods</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685127(v=VS.85).aspx">IFaxInboundRouting::GetMethods</a> method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
+The <a href="https://msdn.microsoft.com/532f54a0-a3c7-4f99-9add-89474aa2fe86">IFaxInboundRouting::GetMethods</a> method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms685127(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxInboundRouting</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a> object.
+A default implementation of <b>IFaxInboundRouting</b> is provided as the <a href="https://msdn.microsoft.com/4cf71225-fcd8-4d2f-b8b3-acbb32708f3b">FaxInboundRouting</a> object.
 
 
 

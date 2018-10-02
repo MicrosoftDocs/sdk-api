@@ -7,7 +7,7 @@ old-location: tsf\tkblayouttype.htm
 tech.root: TSF
 ms.assetid: 65C46775-9D4D-4C80-A5F0-6713C805053D
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: TKBLT_CLASSIC, TKBLT_OPTIMIZED, TKBLT_UNDEFINED, TKBLayoutType, TKBLayoutType enumeration [Text Services Framework], __MIDL_ITfFnGetPreferredTouchKeyboardLayout_0001, ctffunc/TKBLT_CLASSIC, ctffunc/TKBLT_OPTIMIZED, ctffunc/TKBLT_UNDEFINED, ctffunc/TKBLayoutType, tsf.tkblayouttype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Elements of the <b>TKBLayoutType</b> enumeration are passed by an IME in a call to <a href="https://msdn.microsoft.com/en-us/library/Hh802865(v=VS.85).aspx">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a> to specify the type of layout.
+Elements of the <b>TKBLayoutType</b> enumeration are passed by an IME in a call to <a href="https://msdn.microsoft.com/03C14744-A4A3-4C62-8E7F-CDCC638BBCA1">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a> to specify the type of layout.
 
 
 
@@ -80,7 +80,7 @@ The touch keyboard is to use a touch-optimized layout.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802865(v=VS.85).aspx">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a>
+<a href="https://msdn.microsoft.com/03C14744-A4A3-4C62-8E7F-CDCC638BBCA1">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a>
  
 
  

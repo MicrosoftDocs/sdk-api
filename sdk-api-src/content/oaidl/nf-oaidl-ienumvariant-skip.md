@@ -7,7 +7,7 @@ old-location: automat\ienumvariant_skip.htm
 tech.root: automat
 ms.assetid: 5fe6951f-1e21-4a3d-8694-96efb15e6d11
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumVARIANT interface [Automation],Skip method, IEnumVARIANT.Skip, IEnumVARIANT::Skip, Skip, Skip method [Automation], Skip method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Skip, automat.ienumvariant_skip, oaidl/IEnumVARIANT::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DD_PALETTECALLBACKS
 author: windows-sdk-content
 description: The DD_PALETTECALLBACKS structure contains entry pointers to the DirectDraw palette callback functions that a device driver supports.
 old-location: display\dd_palettecallbacks.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 742b03b0-f729-489c-a87f-b8eb404b6290
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_PALETTECALLBACKS, DD_PALETTECALLBACKS, DD_PALETTECALLBACKS structure [Display Devices], PDD_PALETTECALLBACKS, PDD_PALETTECALLBACKS structure pointer [Display Devices], ddrawint/DD_PALETTECALLBACKS, ddrawint/PDD_PALETTECALLBACKS, ddstrcts_def94357-6d48-46e6-848a-ef85f13de99e.xml, display.dd_palettecallbacks"
 ms.prod: windows
 ms.technology: windows-sdk

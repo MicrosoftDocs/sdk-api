@@ -4,10 +4,10 @@ title: IExecuteCommand::SetDirectory
 author: windows-sdk-content
 description: Sets a new working directory.
 old-location: shell\IExecuteCommand_SetDirectory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8416b2ef-8e62-4679-adc1-ec953875db34
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetDirectory method, IExecuteCommand.SetDirectory, IExecuteCommand::SetDirectory, SetDirectory, SetDirectory method [Windows Shell], SetDirectory method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetDirectory, shell.IExecuteCommand_SetDirectory, shobjidl_core/IExecuteCommand::SetDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

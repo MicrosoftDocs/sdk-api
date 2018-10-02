@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getrate.htm
 tech.root: DirectShow
 ms.assetid: 419b223d-95b9-4df6-8b65-56846faa6afe
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetRate, GetRate method [DirectShow], GetRate method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetRate method, IMediaSeeking.GetRate, IMediaSeeking::GetRate, IMediaSeekingGetRate, dshow.imediaseeking_getrate, strmif/IMediaSeeking::GetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

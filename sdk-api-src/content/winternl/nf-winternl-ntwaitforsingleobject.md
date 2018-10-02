@@ -7,7 +7,7 @@ old-location: winprog\ntwaitforsingleobject.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntwaitforsingleobject.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "'NtWaitForSingleObject, FALSE, NtWaitForSingleObject, NtWaitForSingleObject function [Windows API], TRUE, winprog.ntwaitforsingleobject, winternl/NtWaitForSingleObject, winui.ntwaitforsingleobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -145,7 +145,7 @@ The
 </dl>
 </td>
 <td width="60%">
-The wait was aborted to deliver a user <a href="https://msdn.microsoft.com/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Call (APC)</a> to the current thread.
+The wait was aborted to deliver a user <a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Call (APC)</a> to the current thread.
 
 </td>
 </tr>

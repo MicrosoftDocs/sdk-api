@@ -4,10 +4,10 @@ title: RpcSsSetClientAllocFree function
 author: windows-sdk-content
 description: The RpcSsSetClientAllocFree function enables the memory allocation and release mechanisms used by the client stubs.
 old-location: rpc\rpcsssetclientallocfree.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: a63dab9e-0644-4a24-9762-8cc8a4f6ea05
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RpcSsSetClientAllocFree, RpcSsSetClientAllocFree function [RPC], _rpc_rpcsssetclientallocfree, rpc.rpcsssetclientallocfree, rpcndr/RpcSsSetClientAllocFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

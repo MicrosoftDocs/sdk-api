@@ -4,10 +4,10 @@ title: IDirect3DDevice9Video::CreateAuthenticatedChannel
 author: windows-sdk-content
 description: Creates a channel to communicate with the Direct3D device or the graphics driver.
 old-location: mf\idirect3ddevice9video_createauthenticatedchannel.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e0dcfc3f-ede3-4917-8806-6bd343154cf8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel method [Media Foundation], CreateAuthenticatedChannel method [Media Foundation],IDirect3DDevice9Video interface, IDirect3DDevice9Video interface [Media Foundation],CreateAuthenticatedChannel method, IDirect3DDevice9Video.CreateAuthenticatedChannel, IDirect3DDevice9Video::CreateAuthenticatedChannel, d3d9/IDirect3DDevice9Video::CreateAuthenticatedChannel, mf.idirect3ddevice9video_createauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_activate_usb_bus.htm
 tech.root: UsbRef
 ms.assetid: A8CE2698-B2EF-409A-8251-7419F76D47BC
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS, IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control, IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control code [Buses], buses.ioctl_genericusbfn_activate_usb_bus, genericusbfnioctl/IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS
 ms.prod: windows
 ms.technology: windows-sdk

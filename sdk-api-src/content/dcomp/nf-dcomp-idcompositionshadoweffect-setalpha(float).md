@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionshadoweffect_setalpha.htm
 tech.root: directcomp
 ms.assetid: 78DAA4BF-3054-4F01-95CA-2575F0A83931
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetAlpha method, IDCompositionShadowEffect.SetAlpha, IDCompositionShadowEffect.SetAlpha(float), IDCompositionShadowEffect::SetAlpha, IDCompositionShadowEffect::SetAlpha(float), SetAlpha, SetAlpha method [DirectComposition], SetAlpha method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetAlpha, directcomp.idcompositionshadoweffect_setalpha
 ms.prod: windows-hardware
 ms.technology: windows-devices

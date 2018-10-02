@@ -7,7 +7,7 @@ old-location: menurc\stringcchgetsex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgetsex.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchGetsEx, StringCchGetsEx function [Menus and Other Resources], StringCchGetsExA, StringCchGetsExW, _shell_StringCchGetsEx, _shell_stringcchgetsex_cpp, menurc.stringcchgetsex, strsafe/StringCchGetsEx, strsafe/StringCchGetsExA, strsafe/StringCchGetsExW, winui._shell_stringcchgetsex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 
 
 Gets one line of text from stdin, up to and including the newline character ('\n'). The line of text is copied to the destination buffer, and the newline character  is replaced with a null character. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
-<div class="alert"><b>Note</b>  This function can only be used inline.</div><div> </div><b>StringCchGetsEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/en-us/library/ms647536(v=VS.85).aspx">StringCchGets</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
+<div class="alert"><b>Note</b>  This function can only be used inline.</div><div> </div><b>StringCchGetsEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/eec6e646-83a1-403a-8b40-fd6ab2e6fdb6">StringCchGets</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCchGetsEx</b> is a replacement for the following functions:
 <ul>
@@ -123,7 +123,7 @@ If the function succeeds, the low byte of <i>dwFlags</i> (0) is used to fill the
 </dl>
 </td>
 <td width="60%">
-Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://msdn.microsoft.com/en-us/library/ms647490(v=VS.85).aspx">lstrcpy</a>.
+Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://msdn.microsoft.com/3960fe0e-954d-4463-bc81-e1682e468278">lstrcpy</a>.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ Characters were read from stdin, were copied to the buffer at <i>pszDest</i>, an
 </dl>
 </td>
 <td width="60%">
-Indicates an error or end-of-file condition. Use <a href="https://msdn.microsoft.com/library/xssktc6e(v=VS.100).aspx">feof</a> or <a href="https://msdn.microsoft.com/library/y2wc3w90(v=VS.100).aspx">ferror</a> to determine which one has occurred.
+Indicates an error or end-of-file condition. Use <a href="09081eee-7c4b-4189-861f-2fad95d3ec6d">feof</a> or <a href="528a34bc-f2aa-4c3f-b89a-5b148e6864f7">ferror</a> to determine which one has occurred.
 
 </td>
 </tr>
@@ -275,11 +275,11 @@ The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNO
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647507(v=VS.85).aspx">StringCbGetsEx</a>
+<a href="https://msdn.microsoft.com/d0ab97e1-763f-4479-afb4-c9a865f11f76">StringCbGetsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647536(v=VS.85).aspx">StringCchGets</a>
+<a href="https://msdn.microsoft.com/eec6e646-83a1-403a-8b40-fd6ab2e6fdb6">StringCchGets</a>
  
 
  

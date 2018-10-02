@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks.htm
 tech.root: cossdk
 ms.assetid: 90403516-f677-4396-8991-ae621c159567
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ICrmMonitorClerks interface [COM+],described, _dtc_ICrmMonitorClerks_Interface, comsvcs/ICrmMonitorClerks, cos.icrmmonitorclerks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ Retrieves information about the state of clerks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitorClerks</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICrmMonitorClerks</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitorClerks</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICrmMonitorClerks</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ICrmMonitorClerks</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679206(v=VS.85).aspx">ActivityId</a>
+<a href="https://msdn.microsoft.com/19a242a6-ce21-4ce5-984e-cc2220476e2b">ActivityId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the activity ID of the CRM Worker for the specified index.
@@ -79,7 +79,7 @@ Retrieves the activity ID of the CRM Worker for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679835(v=VS.85).aspx">Description</a>
+<a href="https://msdn.microsoft.com/3603d898-1601-419b-b3f8-3ad49f2070a0">Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of the CRM Compensator for the specified index.
@@ -88,7 +88,7 @@ Retrieves the description of the CRM Compensator for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686087(v=VS.85).aspx">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/bbebfa75-7ca1-46fb-b246-7f3c312987fa">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the instance CLSIDs of the CRM clerks.
@@ -97,7 +97,7 @@ Retrieves an enumerator for the instance CLSIDs of the CRM clerks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681812(v=VS.85).aspx">get_Count</a>
+<a href="https://msdn.microsoft.com/677f39e5-6f77-46a5-9429-682c0d2933df">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of CRM clerks in the collection.
@@ -106,7 +106,7 @@ Retrieves the count of CRM clerks in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms685206(v=VS.85).aspx">Item</a>
+<a href="https://msdn.microsoft.com/af25d159-95e6-4695-9350-9a3c1bc034e9">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the instance CLSID of the CRM clerk for the specified index.
@@ -115,7 +115,7 @@ Retrieves the instance CLSID of the CRM clerk for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686113(v=VS.85).aspx">ProgIdCompensator</a>
+<a href="https://msdn.microsoft.com/c174908b-293e-4481-b35d-455ee4f52eea">ProgIdCompensator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ProgId of the CRM Compensator for the specified index.
@@ -124,7 +124,7 @@ Retrieves the ProgId of the CRM Compensator for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684336(v=VS.85).aspx">TransactionUOW</a>
+<a href="https://msdn.microsoft.com/9907ae75-7cb6-4fde-837c-616b106b4d7d">TransactionUOW</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unit of work (UOW) of the transaction for the specified index.
@@ -139,7 +139,7 @@ Retrieves the unit of work (UOW) of the transaction for the specified index.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680326(v=VS.85).aspx">COM+ Compensating Resource Manager</a>
+<a href="https://msdn.microsoft.com/3d490da6-1577-4a77-9f7d-6188f96f2914">COM+ Compensating Resource Manager</a>
  
 
  

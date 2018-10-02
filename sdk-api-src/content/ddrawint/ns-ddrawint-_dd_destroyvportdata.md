@@ -4,10 +4,10 @@ title: "_DD_DESTROYVPORTDATA"
 author: windows-sdk-content
 description: The DD_DESTROYVPORTDATA structure contains the information necessary for the driver to clean up.
 old-location: display\dd_destroyvportdata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: b9e29c23-bb1a-47e8-a605-2863c4cda2af
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA structure [Display Devices], _DD_DESTROYVPORTDATA, ddrawint/DD_DESTROYVPORTDATA, ddstrcts_bb54464c-6b2f-4c90-99a9-439938562898.xml, display.dd_destroyvportdata"
 ms.prod: windows
 ms.technology: windows-sdk

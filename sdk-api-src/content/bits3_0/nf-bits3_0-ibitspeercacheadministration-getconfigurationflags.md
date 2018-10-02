@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_getconfigurationflags.htm
 tech.root: Bits
 ms.assetid: caa54ee0-c771-47e7-95d1-26a812f0f95f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, GetConfigurationFlags, GetConfigurationFlags method [BITS], GetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetConfigurationFlags method, IBitsPeerCacheAdministration.GetConfigurationFlags, IBitsPeerCacheAdministration::GetConfigurationFlags, bits.ibitspeercacheadministration_getconfigurationflags, bits3_0/IBitsPeerCacheAdministration::GetConfigurationFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,9 +126,9 @@ Success
 
 
 
-BITS can download from peers only if peercaching is enabled both at the computer level and at the job level; this API affects only the computer level. For details, see <a href="https://msdn.microsoft.com/en-us/library/Aa964288(v=VS.85).aspx">IBitsPeerCacheAdministration::SetConfigurationFlags</a>.
+BITS can download from peers only if peercaching is enabled both at the computer level and at the job level; this API affects only the computer level. For details, see <a href="https://msdn.microsoft.com/1ede7c58-bc6d-4930-bca6-e4f26f97c648">IBitsPeerCacheAdministration::SetConfigurationFlags</a>.
 
-Peer caching could have been enabled by Group Policy or by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa964288(v=VS.85).aspx">IBitsPeerCacheAdministration::SetConfigurationFlags</a> method.
+Peer caching could have been enabled by Group Policy or by calling the <a href="https://msdn.microsoft.com/1ede7c58-bc6d-4930-bca6-e4f26f97c648">IBitsPeerCacheAdministration::SetConfigurationFlags</a> method.
 
 
 
@@ -138,11 +138,11 @@ Peer caching could have been enabled by Group Policy or by calling the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964288(v=VS.85).aspx">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
+<a href="https://msdn.microsoft.com/1ede7c58-bc6d-4930-bca6-e4f26f97c648">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
  
 
  

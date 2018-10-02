@@ -7,7 +7,7 @@ old-location: winprog\fnfciclose.htm
 tech.root: devnotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,9 +82,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCICLOSE(fnFileClose)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCICLOSE(fnFileClose)
 {
     INT iResult = 0; 
 
@@ -98,10 +102,10 @@ FNFCICLOSE(fnFileClose)
 
     return iResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

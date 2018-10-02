@@ -4,10 +4,10 @@ title: "_tagSTACKFRAME64"
 author: windows-sdk-content
 description: Represents a stack frame.
 old-location: base\stackframe64_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 2809e3f1-c64a-4753-9fca-f78e89a878b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPSTACKFRAME64, LPSTACKFRAME64, LPSTACKFRAME64 structure pointer, STACKFRAME, STACKFRAME structure, STACKFRAME64, STACKFRAME64 structure, _tagSTACKFRAME64, _win32_stackframe64_str, base.stackframe64_str, dbghelp/LPSTACKFRAME64, dbghelp/STACKFRAME64"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,9 +156,13 @@ A
 This structure supersedes the <b>STACKFRAME</b> structure. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>STACKFRAME</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define STACKFRAME STACKFRAME64
 #define LPSTACKFRAME LPSTACKFRAME64
 #else
@@ -175,10 +179,10 @@ typedef struct _tagSTACKFRAME {
     KDHELP      KdHelp;
     ADDRESS     AddrBStore; 
 } STACKFRAME, *LPSTACKFRAME;
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

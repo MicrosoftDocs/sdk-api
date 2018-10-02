@@ -7,7 +7,7 @@ old-location: mstv\impeg2_tif_control_getpidcount.htm
 tech.root: MSTV
 ms.assetid: 2d77c3d8-b91c-43de-b4c1-bd41636eb4ad
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetPIDCount, GetPIDCount method [Microsoft TV Technologies], GetPIDCount method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],GetPIDCount method, IMPEG2_TIF_CONTROL.GetPIDCount, IMPEG2_TIF_CONTROL::GetPIDCount, IMPEG2_TIF_CONTROLGetPIDCount, bdatif/IMPEG2_TIF_CONTROL::GetPIDCount, mstv.impeg2_tif_control_getpidcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>GetPIDCount</b> method retrieves the number of MPEG-2 Packet IDs being filtered by the <a href="https://msdn.microsoft.com/en-us/library/Dd390715(v=VS.85).aspx">MPEG-2 Demultiplexer</a> into the TIF's input data.
+The <b>GetPIDCount</b> method retrieves the number of MPEG-2 Packet IDs being filtered by the <a href="https://msdn.microsoft.com/99bfc55d-6519-4e85-98ce-cad27bd71ffb">MPEG-2 Demultiplexer</a> into the TIF's input data.
 
 
 
@@ -108,15 +108,15 @@ A custom TIF extension might or might not need this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694413(v=VS.85).aspx">IMPEG2_TIF_CONTROL Interface</a>
+<a href="https://msdn.microsoft.com/9583365d-b318-49e2-a32f-f6cc9d3f289d">IMPEG2_TIF_CONTROL Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694417(v=VS.85).aspx">IMPEG2_TIF_CONTROL::GetPIDs</a>
+<a href="https://msdn.microsoft.com/c7ca141b-e471-47ce-96b5-b2c0cad89daf">IMPEG2_TIF_CONTROL::GetPIDs</a>
  
 
  

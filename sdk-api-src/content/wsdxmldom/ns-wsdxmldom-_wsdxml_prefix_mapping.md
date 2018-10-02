@@ -7,7 +7,7 @@ old-location: ncd\wsdxml_prefix_mapping_struct.htm
 tech.root: WsdApi
 ms.assetid: d49a155a-a71b-4038-86a8-eb398db64e72
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSDXML_PREFIX_MAPPING, WSDXML_PREFIX_MAPPING structure, _WSDXML_PREFIX_MAPPING, ncd.wsdxml_prefix_mapping_struct, wsdxmldom/WSDXML_PREFIX_MAPPING
 ms.prod: windows
 ms.technology: windows-sdk

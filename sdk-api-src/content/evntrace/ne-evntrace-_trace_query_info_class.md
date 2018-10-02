@@ -7,7 +7,7 @@ old-location: etw\trace_info_class.htm
 tech.root: ETW
 ms.assetid: b163e120-454a-48ba-93a9-71351fc3f2c2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MaxTraceSetInfoClass, TRACE_INFO_CLASS, TRACE_INFO_CLASS enumeration [ETW], TRACE_INFO_CLASS,TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS,TRACE_QUERY_INFO_CLASS enumeration [ETW], TRACE_QUERY_INFO_CLASS, TraceDisallowListQuery, TraceGroupQueryInfo, TraceGroupQueryList, TraceGuidQueryInfo, TraceGuidQueryList, TraceGuidQueryProcess, TraceMaxLoggersQuery, TracePeriodicCaptureStateInfo, TracePeriodicCaptureStateListInfo, TracePmcCounterListInfo, TracePmcEventListInfo, TraceProfileSourceConfigInfo, TraceProfileSourceListInfo, TraceProviderBinaryTracking, TraceSampledProfileIntervalInfo, TraceSetDisallowList, TraceStackTracingInfo, TraceSystemTraceEnableFlagsInfo, TraceVersionInfo, _TRACE_QUERY_INFO_CLASS, etw.trace_info_class, evntrace/MaxTraceSetInfoClass, evntrace/TRACE_INFO_CLASS, evntrace/TraceDisallowListQuery, evntrace/TraceGroupQueryInfo, evntrace/TraceGroupQueryList, evntrace/TraceGuidQueryInfo, evntrace/TraceGuidQueryList, evntrace/TraceGuidQueryProcess, evntrace/TraceMaxLoggersQuery, evntrace/TracePeriodicCaptureStateInfo, evntrace/TracePeriodicCaptureStateListInfo, evntrace/TracePmcCounterListInfo, evntrace/TracePmcEventListInfo, evntrace/TraceProfileSourceConfigInfo, evntrace/TraceProfileSourceListInfo, evntrace/TraceProviderBinaryTracking, evntrace/TraceSampledProfileIntervalInfo, evntrace/TraceSetDisallowList, evntrace/TraceStackTracingInfo, evntrace/TraceSystemTraceEnableFlagsInfo, evntrace/TraceVersionInfo
 ms.prod: windows
 ms.technology: windows-sdk

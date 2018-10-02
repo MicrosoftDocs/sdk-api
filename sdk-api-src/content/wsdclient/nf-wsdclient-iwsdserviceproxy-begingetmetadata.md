@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxy_begingetmetadata.htm
 tech.root: WsdApi
 ms.assetid: bcc0bcaf-76fb-4dca-b946-2826809a53a1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,BeginGetMetadata method, IWSDServiceProxy.BeginGetMetadata, IWSDServiceProxy::BeginGetMetadata, ncd.iwsdserviceproxy_begingetmetadata, wsdclient/IWSDServiceProxy::BeginGetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

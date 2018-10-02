@@ -4,10 +4,10 @@ title: IMFASFIndexer::GetSeekPositionForValue
 author: windows-sdk-content
 description: Given a desired seek time, gets the offset from which the client should start reading data.
 old-location: mf\imfasfindexer_getseekpositionforvalue.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c8e9982e-b056-48dc-ac5f-20bf65b475ec
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetSeekPositionForValue, GetSeekPositionForValue method [Media Foundation], GetSeekPositionForValue method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetSeekPositionForValue method, IMFASFIndexer.GetSeekPositionForValue, IMFASFIndexer::GetSeekPositionForValue, c8e9982e-b056-48dc-ac5f-20bf65b475ec, mf.imfasfindexer_getseekpositionforvalue, wmcontainer/IMFASFIndexer::GetSeekPositionForValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

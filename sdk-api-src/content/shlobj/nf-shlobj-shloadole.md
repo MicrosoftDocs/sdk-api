@@ -4,10 +4,10 @@ title: SHLoadOLE function
 author: windows-sdk-content
 description: Deprecated. Provided for backward compatibility.
 old-location: shell\SHLoadOLE.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1c1306bc-443c-4486-b2bc-9bd869b833c3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, shell.SHLoadOLE, shlobj/SHLoadOLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

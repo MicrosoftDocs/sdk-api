@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjobhttpoptions_getsecurityflags.htm
 tech.root: Bits
 ms.assetid: 75104dca-086e-45f6-ad9e-a96730b37433
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT, BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT, BG_HTTP_REDIRECT_POLICY_DISALLOW, BG_HTTP_REDIRECT_POLICY_MASK, BG_SSL_ENABLE_CRL_CHECK, BG_SSL_IGNORE_CERT_CN_INVALID, BG_SSL_IGNORE_CERT_DATE_INVALID, BG_SSL_IGNORE_CERT_WRONG_USAGE, BG_SSL_IGNORE_UNKNOWN_CA, GetSecurityFlags, GetSecurityFlags method [BITS], GetSecurityFlags method [BITS],IBackgroundCopyJobHttpOptions interface, IBackgroundCopyJobHttpOptions interface [BITS],GetSecurityFlags method, IBackgroundCopyJobHttpOptions.GetSecurityFlags, IBackgroundCopyJobHttpOptions::GetSecurityFlags, bits.ibackgroundcopyjobhttpoptions_getsecurityflags, bits2_5/IBackgroundCopyJobHttpOptions::GetSecurityFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -202,11 +202,11 @@ Returns S_OK when successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964250(v=VS.85).aspx">IBackgroundCopyJobHttpOptions</a>
+<a href="https://msdn.microsoft.com/d8ccf65d-a4f1-44d9-9903-43e5529f1f29">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964260(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a>
+<a href="https://msdn.microsoft.com/afac84cb-28ab-4c80-ab39-eefe450ae3e5">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_filter_evaluate.htm
 tech.root: WMI_v2
 ms.assetid: b826f02d-3764-4f61-996f-42bf01ea44e2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Filter_Evaluate, MI_Filter_Evaluate function [Windows Management Infrastructure (MI)], mi/MI_Filter_Evaluate, wmi_v2.mi_filter_evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices

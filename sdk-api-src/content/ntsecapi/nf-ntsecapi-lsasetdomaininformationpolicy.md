@@ -7,7 +7,7 @@ old-location: security\lsasetdomaininformationpolicy.htm
 tech.root: secauthn
 ms.assetid: 77af6fdc-a52e-476c-9de2-36ee48133a87
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: LsaSetDomainInformationPolicy, LsaSetDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaSetDomainInformationPolicy, security.lsasetdomaininformationpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

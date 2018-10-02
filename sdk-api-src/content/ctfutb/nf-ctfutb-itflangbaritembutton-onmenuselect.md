@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembutton_onmenuselect.htm
 tech.root: TSF
 ms.assetid: 104cc686-4cb1-4f8e-909b-4c9dfb0b72cc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnMenuSelect method, ITfLangBarItemButton.OnMenuSelect, ITfLangBarItemButton::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onmenuselect_ref, ctfutb/ITfLangBarItemButton::OnMenuSelect, tsf.itflangbaritembutton_onmenuselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_ME
 
 ### -param wID [in]
 
-Specifies the identifier of the menu item selected. This is the value passed for the <i>uId</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms628781(v=VS.85).aspx">ITfMenu::AddMenuItem</a>.
+Specifies the identifier of the menu item selected. This is the value passed for the <i>uId</i> parameter in <a href="https://msdn.microsoft.com/c00048d1-d7c1-4ea3-a132-5f5aa570148f">ITfMenu::AddMenuItem</a>.
 
 
 ## -returns
@@ -107,7 +107,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628717(v=VS.85).aspx">ITfLangBarItemButton</a>
+<a href="https://msdn.microsoft.com/098a8cdc-ff34-4729-9b34-279c499d40a8">ITfLangBarItemButton</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig.htm
 tech.root: wmformat
 ms.assetid: 0957ece7-93fe-411b-b69e-fd03933b09d1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], IWMReaderNetworkConfig interface [windows Media Format],described, IWMReaderNetworkConfigInterface, wmformat.iwmreadernetworkconfig, wmsdkidl/IWMReaderNetworkConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,7 +132,7 @@ Ascertains whether TCP is enabled.
 <a href="https://msdn.microsoft.com/81c6536c-303c-4eac-a75a-54e9df29e299">GetEnableUDP</a>
 </td>
 <td align="left" width="63%">
-Ascertains whether <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> is enabled.
+Ascertains whether <a href="wmformat_glossary.htm">UDP</a> is enabled.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: intl\mappingcallbackproc.htm
 tech.root: Intl
 ms.assetid: 7a324708-4f1b-467c-af1a-da36d1f7eba0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: MappingCallbackProc, MappingCallbackProc callback function [Internationalization for Windows Applications], PFN_MAPPINGCALLBACKPROC, PFN_MAPPINGCALLBACKPROC callback, elscore/MappingCallbackProc, intl.mappingcallbackproc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetProcessReference function
 author: windows-sdk-content
 description: Retrieves the process-specific object supplied by SetProcessReference, incrementing the reference count to keep the process alive.
 old-location: shell\GetProcessReference.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: C46468A6-684D-494c-8261-87F16485B97B
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetProcessReference, GetProcessReference function [Windows Shell], shell.GetProcessReference, shlwapi/GetProcessReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

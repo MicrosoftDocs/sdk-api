@@ -4,10 +4,10 @@ title: ICommDlgBrowser2
 author: windows-sdk-content
 description: Extends the capabilities of ICommDlgBrowser. This interface is exposed by the common file dialog boxes when they host a Shell browser. A pointer to ICommDlgBrowser2 can be obtained by calling QueryInterface on the IShellBrowser object.
 old-location: shell\ICommDlgBrowser2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 07a416a2-340d-4308-a6f3-cf6f19f3c906
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICommDlgBrowser2, ICommDlgBrowser2 interface [Windows Shell], ICommDlgBrowser2 interface [Windows Shell],described, _win32_ICommDlgBrowser2, shell.ICommDlgBrowser2, shobjidl_core/ICommDlgBrowser2
 ms.prod: windows
 ms.technology: windows-sdk

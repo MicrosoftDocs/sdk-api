@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress_begin.htm
 tech.root: WMDM
 ms.assetid: 207b7cb5-4471-4be9-8252-9d467d67d7a2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Begin, Begin method [windows Media Device Manager], Begin method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],Begin method, IWMDMProgress.Begin, IWMDMProgress::Begin, IWMDMProgressBegin, mswmdm/IWMDMProgress::Begin, wmdm.iwmdmprogress_begin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,19 +119,23 @@ The <a href="https://msdn.microsoft.com/8c794aff-9800-405e-853a-56dd5bd84665">IW
 
 The following C++ code is an implementation of the <b>Begin</b> method.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Begin(DWORD  dwEstimatedTicks)
 {
     // TODO: Display the message: "IWMDMProgress::Begin called.: "
     // followed by the dwEstimatedTicks value.
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\ioverlay.htm
 tech.root: DirectShow
 ms.assetid: 2d49888a-7046-4779-9634-d181fa582584
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IOverlay, IOverlay interface [DirectShow], IOverlay interface [DirectShow],described, IOverlayInterface, dshow.ioverlay, strmif/IOverlay
 ms.prod: windows
 ms.technology: windows-sdk

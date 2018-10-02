@@ -4,10 +4,10 @@ title: IX509Extensions::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an IX509Extension object from the collection by index number.
 old-location: security\ix509extensions_itembyindex_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: bdcd2fa0-2431-4e7e-8bf2-91ba1f6d12da
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509Extensions interface [Security],ItemByIndex property, IX509Extensions.ItemByIndex, IX509Extensions.get_ItemByIndex, IX509Extensions::ItemByIndex, IX509Extensions::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509Extensions interface, certenroll/IX509Extensions::ItemByIndex, certenroll/IX509Extensions::get_ItemByIndex, get_ItemByIndex, security.ix509extensions_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> object from the collection by index number.  This property is web enabled.
+The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> object from the collection by index number.  This property is web enabled.
 
 This property is read-only.
 
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
+<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a>
+<a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a>
  
 
  

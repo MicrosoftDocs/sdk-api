@@ -7,7 +7,7 @@ old-location: eaphost\eappeersetresponseattributes.htm
 tech.root: EAPHost
 ms.assetid: 340f5284-53cb-4e1d-9df5-2b9c75774c0d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapPeerSetResponseAttributes, EapPeerSetResponseAttributes function [EAPHost], eaphost.eappeersetresponseattributes, eapmethodpeerapis/EapPeerSetResponseAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

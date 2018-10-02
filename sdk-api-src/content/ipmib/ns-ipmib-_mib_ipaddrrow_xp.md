@@ -7,7 +7,7 @@ old-location: mib\mib_ipaddrrow.htm
 tech.root: MIB
 ms.assetid: ed1777bd-4c02-43e0-9bbb-6bb02702e1a4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_IPADDRROW, *PMIB_IPADDRROW_XP, MIB_IPADDRROW, MIB_IPADDRROW structure [MIB], MIB_IPADDRROW_XP, MIB_IPADDR_DELETED, MIB_IPADDR_DISCONNECTED, MIB_IPADDR_DYNAMIC, MIB_IPADDR_PRIMARY, MIB_IPADDR_TRANSIENT, PMIB_IPADDRROW, PMIB_IPADDRROW structure pointer [MIB], _MIB_IPADDRROW_XP, _mpr_mib_ipaddrrow, ipmib/MIB_IPADDRROW, ipmib/PMIB_IPADDRROW, iprtrmib/MIB_IPADDRROW, iprtrmib/PMIB_IPADDRROW, mib.mib_ipaddrrow, rras.mib_ipaddrrow"
 ms.prod: windows
 ms.technology: windows-sdk

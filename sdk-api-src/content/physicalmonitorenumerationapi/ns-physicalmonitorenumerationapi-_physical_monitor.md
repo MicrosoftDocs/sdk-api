@@ -7,7 +7,7 @@ old-location: monitor\physical_monitor.htm
 tech.root: Monitor
 ms.assetid: 58eb4999-37d9-472d-aa26-38b19a2287b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR structure pointer [Monitor Configuration], PHYSICAL_MONITOR, PHYSICAL_MONITOR structure [Monitor Configuration], _PHYSICAL_MONITOR, monitor.physical_monitor, physicalmonitorenumerationapi/LPPHYSICAL_MONITOR, physicalmonitorenumerationapi/PHYSICAL_MONITOR"
 ms.prod: windows
 ms.technology: windows-sdk

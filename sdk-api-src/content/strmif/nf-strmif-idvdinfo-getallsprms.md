@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getallsprms.htm
 tech.root: DirectShow
 ms.assetid: c96e0e7c-eee3-47ca-9350-94db895f1c6c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAllSPRMs method, IDvdInfo.GetAllSPRMs, IDvdInfo::GetAllSPRMs, IDvdInfoGetAllSPRMs, dshow.idvdinfo_getallsprms, strmif/IDvdInfo::GetAllSPRMs
 ms.prod: windows-hardware
 ms.technology: windows-devices

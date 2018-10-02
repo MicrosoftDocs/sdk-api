@@ -7,7 +7,7 @@ old-location: wininet\createurlcachecontainer.htm
 tech.root: WinInet
 ms.assetid: 19b518cc-2f02-49c3-bedc-f5d633cc635d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet], CreateUrlCacheContainerA, CreateUrlCacheContainerW, wininet.createurlcachecontainer, winineti/CreateUrlCacheContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

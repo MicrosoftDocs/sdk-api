@@ -7,7 +7,7 @@ old-location: wmi\chstring_find_lpcwstr_.htm
 tech.root: WmiSdk
 ms.assetid: d2a8998c-e0e3-47d0-9539-9ae1d1fba5c8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "?Find@CHString@@QBEHPBG@Z, ?Find@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],Find method, CHString.Find, CHString.Find(LPCWSTR), CHString::Find, CHString::Find(LPCWSTR), Find, Find method [Windows Management Instrumentation], Find method [Windows Management Instrumentation],CHString interface, _hmm_chstring_find, chstring/CHString::Find, wmi.chstring_find_lpcwstr_"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,14 +92,18 @@ The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Fi
 
 The following code example shows the use of <b>CHString::Find</b>.
 
-
-```cpp
-CHString s( L"abcdef" );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s( L"abcdef" );
 assert( s.Find( 'c' ) == 2 );
-assert( s.Find( L"de" ) == 3 );
-```
-
-
+assert( s.Find( L"de" ) == 3 );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

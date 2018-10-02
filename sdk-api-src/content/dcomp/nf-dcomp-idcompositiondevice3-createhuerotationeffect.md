@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice3_createhuerotationeffect.htm
 tech.root: directcomp
 ms.assetid: 4DA99723-CC21-454B-A24A-3988A15861D2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateHueRotationEffect, CreateHueRotationEffect method [DirectComposition], CreateHueRotationEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateHueRotationEffect method, IDCompositionDevice3.CreateHueRotationEffect, IDCompositionDevice3::CreateHueRotationEffect, dcomp/IDCompositionDevice3::CreateHueRotationEffect, directcomp.idcompositiondevice3_createhuerotationeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

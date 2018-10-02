@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_scaletorectangle.htm
 tech.root: tablet
 ms.assetid: 8bc22004-3781-4018-9a92-88958039248c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 8bc22004-3781-4018-9a92-88958039248c, IInkStrokeDisp interface [Tablet PC],ScaleToRectangle method, IInkStrokeDisp.ScaleToRectangle, IInkStrokeDisp::ScaleToRectangle, ScaleToRectangle, ScaleToRectangle method [Tablet PC], ScaleToRectangle method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::ScaleToRectangle, tablet.iinkstrokedisp_scaletorectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

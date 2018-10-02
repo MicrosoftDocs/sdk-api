@@ -7,7 +7,7 @@ old-location: multimedia\mciwndopendialog.htm
 tech.root: Multimedia
 ms.assetid: 28110649-24a8-45c5-bf1a-b05a6476d9a5
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: MCIWndOpenDialog, MCIWndOpenDialog macro [Windows Multimedia], _win32_MCIWndOpenDialog, multimedia.mciwndopendialog, vfw/MCIWndOpenDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

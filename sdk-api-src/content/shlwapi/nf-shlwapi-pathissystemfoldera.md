@@ -4,10 +4,10 @@ title: PathIsSystemFolderA function
 author: windows-sdk-content
 description: Determines if an existing folder contains the attributes that make it a system folder. Alternately, this function indicates if certain attributes qualify a folder to be a system folder.
 old-location: shell\PathIsSystemFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 796901a8-1bc1-4fd1-b5b8-acd8f930ff14
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathIsSystemFolder, PathIsSystemFolder function [Windows Shell], PathIsSystemFolderA, PathIsSystemFolderW, _win32_PathIsSystemFolder, shell.PathIsSystemFolder, shlwapi/PathIsSystemFolder, shlwapi/PathIsSystemFolderA, shlwapi/PathIsSystemFolderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

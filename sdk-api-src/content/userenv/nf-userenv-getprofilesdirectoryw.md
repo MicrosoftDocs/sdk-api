@@ -4,10 +4,10 @@ title: GetProfilesDirectoryW function
 author: windows-sdk-content
 description: Retrieves the path to the root directory where user profiles are stored.
 old-location: shell\GetProfilesDirectory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e21411fa-f7e1-4944-93ce-7d9314d79fbf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetProfilesDirectory, GetProfilesDirectory function [Windows Shell], GetProfilesDirectoryA, GetProfilesDirectoryW, _shell_GetProfilesDirectory, shell.GetProfilesDirectory, userenv/GetProfilesDirectory, userenv/GetProfilesDirectoryA, userenv/GetProfilesDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

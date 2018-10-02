@@ -7,7 +7,7 @@ old-location: smi\iitemenumerator_movenext.htm
 tech.root: SMI
 ms.assetid: bdec3ee4-e66a-4e93-9109-c5721d06eb63
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IItemEnumerator interface [SMI],MoveNext method, IItemEnumerator.MoveNext, IItemEnumerator::MoveNext, MoveNext, MoveNext method [SMI], MoveNext method [SMI],IItemEnumerator interface, smi.iitemenumerator_movenext, wcmconfig/IItemEnumerator::MoveNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\getcompressedfilesize.htm
 tech.root: fileio
 ms.assetid: cca91080-2270-4996-8693-933c585ff168
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetCompressedFileSize, GetCompressedFileSize function [Files], GetCompressedFileSizeA, GetCompressedFileSizeW, _win32_getcompressedfilesize, base.getcompressedfilesize, fileapi/GetCompressedFileSize, fileapi/GetCompressedFileSizeA, fileapi/GetCompressedFileSizeW, fs.getcompressedfilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

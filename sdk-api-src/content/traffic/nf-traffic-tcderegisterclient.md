@@ -7,7 +7,7 @@ old-location: qos\tcderegisterclient.htm
 tech.root: QOS
 ms.assetid: ea52b8a6-a54e-46ee-9275-734f328759ba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TcDeregisterClient, TcDeregisterClient function [QOS], _gqos_tcderegisterclient, qos.tcderegisterclient, traffic/TcDeregisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

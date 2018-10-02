@@ -4,10 +4,10 @@ title: PONLINE_V2_ROUTINE
 author: windows-sdk-content
 description: Marks a resource as available for use.
 old-location: mscs\onlinev2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0462CDFD-6499-4FF8-8B5C-4DC15AC30169
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CLUS_RESDLL_ONLINE_IGNORE_NETWORK_CONNECTIVITY, CLUS_RESDLL_ONLINE_IGNORE_RESOURCE_STATUS, CLUS_RESDLL_ONLINE_RECOVER_MONITOR_STATE, CLUS_RESDLL_ONLINE_RESTORE_ONLINE_STATE, CLUS_RESDLL_ONLINE_RETURN_TO_SOURCE_NODE_ON_ERROR, OnlineV2, OnlineV2 callback, OnlineV2 callback function [Failover Cluster], PONLINE_V2_ROUTINE, PONLINE_V2_ROUTINE callback function [Failover Cluster], mscs.onlinev2, resapi/OnlineV2, resapi/PONLINE_V2_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

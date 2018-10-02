@@ -7,7 +7,7 @@ old-location: etw\ievent_getusercontext.htm
 tech.root: ETW
 ms.assetid: 9d4d8abd-b48a-487b-bb73-a6fa48c512c7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetUserContext, GetUserContext method [ETW], GetUserContext method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],GetUserContext method, ITraceEvent.GetUserContext, ITraceEvent::GetUserContext, etw.ievent_getusercontext, relogger/ITraceEvent::GetUserContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: secbiomet\wbioquerysensorinterface.htm
 tech.root: SecBioMet
 ms.assetid: 83ca38e1-3258-4676-bcdd-4876ec8f3ae1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WbioQuerySensorInterface, WbioQuerySensorInterface function [Windows Biometric Framework API], secbiomet.wbioquerysensorinterface, winbio_adapter/WbioQuerySensorInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,22 +106,26 @@ To be visible to the Windows Biometric Framework, the <a href="https://msdn.micr
 
 The following pseudocode shows one possible implementation of this function.
 
-
-```cpp
-HRESULT
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
 WINAPI
 WbioQuerySensorInterface(
     __out PWINBIO_SENSOR_INTERFACE *SensorInterface
     )
 {
     // g_SensorInterface is a global variable.
-    *SensorInterface = &g_SensorInterface;
+    *SensorInterface = &amp;g_SensorInterface;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: wer\werunregistermemoryblock.htm
 tech.root: wer
 ms.assetid: 016800e8-4a03-40f6-9dba-54cd9082eb48
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Windows Error Reporting], base.werunregistermemoryblock, wer.werunregistermemoryblock, werapi/WerUnregisterMemoryBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

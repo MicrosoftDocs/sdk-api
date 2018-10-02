@@ -7,7 +7,7 @@ old-location: com\counmarshalinterface.htm
 tech.root: com
 ms.assetid: d0eac0da-2f41-40c4-b756-31bc22752c17
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CoUnmarshalInterface, CoUnmarshalInterface function [COM], _com_CoUnmarshalInterface, com.counmarshalinterface, combaseapi/CoUnmarshalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ req.redist:
 ## -description
 
 
-Initializes a newly created proxy using data written into the stream by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a> function, and returns an interface pointer to that proxy.
+Initializes a newly created proxy using data written into the stream by a previous call to the <a href="https://msdn.microsoft.com/04ca1217-eac1-43e2-b736-8d7522ce8592">CoMarshalInterface</a> function, and returns an interface pointer to that proxy.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ The address of pointer variable that receives the interface pointer requested in
 
 
 
-This function can return the standard return value E_FAIL, errors returned by <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>, and the following values.
+This function can return the standard return value E_FAIL, errors returned by <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>, and the following values.
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ The interface pointer was unmarshaled successfully.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a> or <a href="https://msdn.microsoft.com/en-us/library/ms690134(v=VS.85).aspx">OleInitialize</a> function was not called on the current thread before this function was called.
+The <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> function was not called on the current thread before this function was called.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">Co
 </dl>
 </td>
 <td width="60%">
-The object application has been disconnected from the remoting system (for example, as a result of a call to the <a href="https://msdn.microsoft.com/en-us/library/ms680756(v=VS.85).aspx">CoDisconnectObject</a> function).
+The object application has been disconnected from the remoting system (for example, as a result of a call to the <a href="https://msdn.microsoft.com/4293316a-bafe-4fca-ad6a-68d8e99c8fba">CoDisconnectObject</a> function).
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ An error occurred reading the registration database.
 </dl>
 </td>
 <td width="60%">
-The final <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> of this function for the requested interface returned E_NOINTERFACE.
+The final <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> of this function for the requested interface returned E_NOINTERFACE.
 
 </td>
 </tr>
@@ -174,8 +174,8 @@ The <b>CoUnmarshalInterface</b> function performs the following tasks:
 <ol>
 <li>Reads from the stream the CLSID to be used to create an instance of the proxy.
 </li>
-<li>Gets an <a href="https://msdn.microsoft.com/en-us/library/Dd542707(v=VS.85).aspx">IMarshal</a> pointer to the proxy that is to do the unmarshaling. If the object uses COM's default marshaling implementation, the pointer thus obtained is to an instance of the generic proxy object. If the marshaling is occurring between two threads in the same process, the pointer is to an instance of the in-process free threaded marshaler. If the object provides its own marshaling code, <b>CoUnmarshalInterface</b> calls the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function, passing the CLSID it read from the marshaling stream. <b>CoCreateInstance</b> creates an instance of the object's proxy and returns an <b>IMarshal</b> interface pointer to the proxy.</li>
-<li>Using whichever IMarshal interface pointer it has acquired, the function then calls <a href="https://msdn.microsoft.com/en-us/library/ms683769(v=VS.85).aspx">IMarshal::UnmarshalInterface</a> and, if appropriate, <a href="https://msdn.microsoft.com/en-us/library/ms692773(v=VS.85).aspx">IMarshal::ReleaseMarshalData</a>. 
+<li>Gets an <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> pointer to the proxy that is to do the unmarshaling. If the object uses COM's default marshaling implementation, the pointer thus obtained is to an instance of the generic proxy object. If the marshaling is occurring between two threads in the same process, the pointer is to an instance of the in-process free threaded marshaler. If the object provides its own marshaling code, <b>CoUnmarshalInterface</b> calls the <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> function, passing the CLSID it read from the marshaling stream. <b>CoCreateInstance</b> creates an instance of the object's proxy and returns an <b>IMarshal</b> interface pointer to the proxy.</li>
+<li>Using whichever IMarshal interface pointer it has acquired, the function then calls <a href="https://msdn.microsoft.com/5b496028-57db-447e-8c5c-76b7ea0fa4ee">IMarshal::UnmarshalInterface</a> and, if appropriate, <a href="https://msdn.microsoft.com/c58c7768-9200-4370-930c-89a6c6d2b430">IMarshal::ReleaseMarshalData</a>. 
 </li>
 </ol>
 The primary caller of this function is COM itself, from within interface proxies or stubs that unmarshal an interface pointer. There are, however, some situations in which you might call <b>CoUnmarshalInterface</b>. For example, if you are implementing a stub, your implementation would call <b>CoUnmarshalInterface</b> when the stub receives an interface pointer as a parameter in a method call.
@@ -189,11 +189,11 @@ The primary caller of this function is COM itself, from within interface proxies
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>
+<a href="https://msdn.microsoft.com/04ca1217-eac1-43e2-b736-8d7522ce8592">CoMarshalInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683769(v=VS.85).aspx">IMarshal::UnmarshalInterface</a>
+<a href="https://msdn.microsoft.com/5b496028-57db-447e-8c5c-76b7ea0fa4ee">IMarshal::UnmarshalInterface</a>
  
 
  

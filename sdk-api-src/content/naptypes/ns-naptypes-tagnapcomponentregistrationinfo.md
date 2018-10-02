@@ -7,7 +7,7 @@ old-location: nap\napcomponentregistrationinfo_struct.htm
 tech.root: NAP
 ms.assetid: adcc7238-d1c1-4d8c-b496-d2925bed0123
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NapComponentRegistrationInfo, NapComponentRegistrationInfo structure [NAP], nap.napcomponentregistrationinfo_struct, naptypes/NapComponentRegistrationInfo, tagNapComponentRegistrationInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DeletePwrScheme function
 author: windows-sdk-content
 description: Deletes the specified power scheme.
 old-location: base\deletepwrscheme.htm
-tech.root: power
+tech.root: Power
 ms.assetid: c9513835-00c4-4260-a8b6-d947539c9dd1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DeletePwrScheme, DeletePwrScheme function, _win32_deletepwrscheme, base.deletepwrscheme, powrprof/DeletePwrScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

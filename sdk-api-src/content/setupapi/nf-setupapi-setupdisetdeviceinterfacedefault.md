@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceinterfacedefault.htm
 tech.root: devinst
 ms.assetid: 1be4dd1e-6bef-4ef6-9db3-6725c27ec16d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiSetDeviceInterfaceDefault, SetupDiSetDeviceInterfaceDefault function [Device and Driver Installation], devinst.setupdisetdeviceinterfacedefault, di-rtns_3c21b60f-d837-4c08-8e1c-816bd88e9ba7.xml, setupapi/SetupDiSetDeviceInterfaceDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>SetupDiSetDeviceInterfaceDefault</b> function sets a device interface as 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interface to set as the default for a device interface class. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device interface to set as the default for a device interface class. 
 
 
 ### -param DeviceInterfaceData [in, out]

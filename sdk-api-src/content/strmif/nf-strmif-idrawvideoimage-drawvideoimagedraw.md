@@ -7,7 +7,7 @@ old-location: dshow\idrawvideoimage_drawvideoimagedraw.htm
 tech.root: DirectShow
 ms.assetid: cecc3ae4-f1fa-437e-b967-c54fca10b27c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: DrawVideoImageDraw, DrawVideoImageDraw method [DirectShow], DrawVideoImageDraw method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageDraw method, IDrawVideoImage.DrawVideoImageDraw, IDrawVideoImage::DrawVideoImageDraw, IDrawVideoImageDrawVideoImageDraw, dshow.idrawvideoimage_drawvideoimagedraw, strmif/IDrawVideoImage::DrawVideoImageDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

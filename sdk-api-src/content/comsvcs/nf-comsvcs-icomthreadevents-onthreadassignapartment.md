@@ -7,7 +7,7 @@ old-location: cos\icomthreadevents_onthreadassignapartment.htm
 tech.root: cossdk
 ms.assetid: 2711b4b9-f27c-42c4-8f78-f31ffba2cfcf
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadAssignApartment method, IComThreadEvents.OnThreadAssignApartment, IComThreadEvents::OnThreadAssignApartment, OnThreadAssignApartment, OnThreadAssignApartment method [COM+], OnThreadAssignApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadAssignApartment, comsvcs/IComThreadEvents::OnThreadAssignApartment, cos.icomthreadevents_onthreadassignapartment
 ms.prod: windows-hardware
 ms.technology: windows-devices

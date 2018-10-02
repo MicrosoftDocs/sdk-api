@@ -7,7 +7,7 @@ old-location: dshow\ifilterchain_pausechain.htm
 tech.root: DirectShow
 ms.assetid: a153ebf6-1d0a-45d0-ad2a-eb1eda62da2c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IFilterChain interface [DirectShow],PauseChain method, IFilterChain.PauseChain, IFilterChain::PauseChain, IFilterChainPauseChain, PauseChain, PauseChain method [DirectShow], PauseChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_pausechain, strmif/IFilterChain::PauseChain
 ms.prod: windows-hardware
 ms.technology: windows-devices

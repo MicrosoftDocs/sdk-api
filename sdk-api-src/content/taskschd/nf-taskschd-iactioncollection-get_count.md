@@ -4,10 +4,10 @@ title: IActionCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of actions in the collection.
 old-location: taskschd\iactioncollection_count.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: c9d11aa9-c182-4633-9fc6-d9cf53adc25a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Count property, IActionCollection.Count, IActionCollection.get_Count, IActionCollection::Count, IActionCollection::get_Count, get_Count, taskschd.iactioncollection_count, taskschd/IActionCollection::Count, taskschd/IActionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_cancelgroup.htm
 tech.root: Bits
 ms.assetid: 4ef86db1-3dff-4345-a09a-efea8b6c8c8e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CancelGroup, CancelGroup method [BITS], CancelGroup method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],CancelGroup method, IBackgroundCopyGroup.CancelGroup, IBackgroundCopyGroup::CancelGroup, bits.ibackgroundcopygroup_cancelgroup, qmgr/IBackgroundCopyGroup::CancelGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

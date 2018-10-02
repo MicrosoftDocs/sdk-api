@@ -7,7 +7,7 @@ old-location: wmformat\insnetsourcecreator.htm
 tech.root: wmformat
 ms.assetid: 39e692a6-fb68-447f-bd28-8d216776157a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], INSNetSourceCreator interface [windows Media Format],described, INSNetSourceCreatorInterface, wmformat.insnetsourcecreator, wmnetsourcecreator/INSNetSourceCreator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ req.redist:
 
 
 
-The <b>INSNetSourceCreator</b> interface creates an administrative network source <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">plug-in</a>. You can use an administrative network source plug-in to cache passwords and to locate the appropriate proxy server to use for Internet operations.
+The <b>INSNetSourceCreator</b> interface creates an administrative network source <a href="wmformat_glossary.htm">plug-in</a>. You can use an administrative network source plug-in to cache passwords and to locate the appropriate proxy server to use for Internet operations.
 
 To get a pointer to the <b>INSNetSourceCreator</b> interface, call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> with <b>CLSID_ClientNetManager</b> as the <i>REFCLSID</i> parameter.
 

@@ -7,7 +7,7 @@ old-location: http\http_response_headers.htm
 tech.root: Http
 ms.assetid: e783c27e-d215-4f6d-a080-92d915a7fc33
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHTTP_RESPONSE_HEADERS, HTTP_RESPONSE_HEADERS, HTTP_RESPONSE_HEADERS structure [HTTP], PHTTP_RESPONSE_HEADERS, PHTTP_RESPONSE_HEADERS structure pointer [HTTP], _HTTP_RESPONSE_HEADERS, _http_http_response_headers, http.http_response_headers, http/HTTP_RESPONSE_HEADERS, http/PHTTP_RESPONSE_HEADERS"
 ms.prod: windows
 ms.technology: windows-sdk

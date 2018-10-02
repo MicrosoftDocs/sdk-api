@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_logoiconurl.htm
 tech.root: DirectShow
 ms.assetid: 249f06ad-1571-4259-aaae-d0bc8208b9e5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_LogoIconURL method, IAMMediaContent.get_LogoIconURL, IAMMediaContent::get_LogoIconURL, IAMMediaContentget_LogoIconURL, dshow.iammediacontent_get_logoiconurl, get_LogoIconURL, get_LogoIconURL method [DirectShow], get_LogoIconURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_LogoIconURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: secbiomet\engineadaptercontrolunitprivileged.htm
 tech.root: SecBioMet
 ms.assetid: 1d1fda45-3822-40c0-ac84-0fcdef1a6498
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EngineAdapterControlUnitPrivileged, EngineAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN callback, secbiomet.engineadaptercontrolunitprivileged, winbio_adapter/EngineAdapterControlUnitPrivileged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -197,9 +197,13 @@ This function must check the value of the <i>ReceiveBufferSize</i> parameter to 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-///////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>///////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterControlUnitPrivileged
 //
@@ -253,11 +257,11 @@ EngineAdapterControlUnitPrivileged(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT engineContext = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     // Verify the state of the pipeline.
     if (engineContext == NULL ||
-        engineContext->FileHandle == INVALID_HANDLE_VALUE)
+        engineContext-&gt;FileHandle == INVALID_HANDLE_VALUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -270,7 +274,7 @@ EngineAdapterControlUnitPrivileged(
             CTRL_CODE_P1_SEND_BUFFER *sendBuffer = (CTRL_CODE_P1_SEND_BUFFER*)SendBuffer;
 
             // Verify the size of the send buffer.
-            if (SendBufferSize < sizeof(CTRL_CODE_P1_SEND_BUFFER))
+            if (SendBufferSize &lt; sizeof(CTRL_CODE_P1_SEND_BUFFER))
             {
                 hr = E_INVALIDARG;
                 break;
@@ -278,14 +282,14 @@ EngineAdapterControlUnitPrivileged(
 
             // Perform any other checks that may be required on the buffer 
             // contents. Return E_INVALIDARG if any of the checks fail.
-            if (sendBuffer->SomeField != SomeSpecialValue ||
-                sendBuffer->SomeOtherField != SomeOtherSpecialValue)
+            if (sendBuffer-&gt;SomeField != SomeSpecialValue ||
+                sendBuffer-&gt;SomeOtherField != SomeOtherSpecialValue)
             {
                 hr = E_INVALIDARG;
                 break;
             }
 
-            if (ReceiveBufferSize < sizeof(CTRL_CODE_P1_RECEIVE_BUFFER))
+            if (ReceiveBufferSize &lt; sizeof(CTRL_CODE_P1_RECEIVE_BUFFER))
             {
                 hr = E_NOT_SUFFICIENT_BUFFER;
                 break;
@@ -304,7 +308,7 @@ EngineAdapterControlUnitPrivileged(
             CTRL_CODE_P2_SEND_BUFFER *sendBuffer = (CTRL_CODE_P2_SEND_BUFFER*)SendBuffer;
 
             // Verify the size of the send buffer.
-            if (SendBufferSize < sizeof(CTRL_CODE_P2_SEND_BUFFER))
+            if (SendBufferSize &lt; sizeof(CTRL_CODE_P2_SEND_BUFFER))
             {
                 hr = E_INVALIDARG;
                 break;
@@ -312,14 +316,14 @@ EngineAdapterControlUnitPrivileged(
 
             // Perform any other checks that may be required on the buffer 
             // contents. Return E_INVALIDARG if any of the checks fail.
-            if (sendBuffer->SomeField != SomeSpecialValue ||
-                sendBuffer->SomeOtherField != SomeOtherSpecialValue)
+            if (sendBuffer-&gt;SomeField != SomeSpecialValue ||
+                sendBuffer-&gt;SomeOtherField != SomeOtherSpecialValue)
             {
                 hr = E_INVALIDARG;
                 break;
             }
 
-            if (ReceiveBufferSize < sizeof(CTRL_CODE_P2_RECEIVE_BUFFER))
+            if (ReceiveBufferSize &lt; sizeof(CTRL_CODE_P2_RECEIVE_BUFFER))
             {
                 hr = E_NOT_SUFFICIENT_BUFFER;
                 break;
@@ -343,22 +347,22 @@ EngineAdapterControlUnitPrivileged(
         goto cleanup;
     }
     result = DeviceIoControl(
-                Pipeline->EngineHandle,
+                Pipeline-&gt;EngineHandle,
                 ControlCode,
                 SendBuffer,
                 (DWORD)SendBufferSize,
                 ReceiveBuffer,
                 (DWORD)ReceiveBufferSize,
                 (LPDWORD)ReceiveDataSize,
-                &Pipeline->EngineContext->Overlapped
+                &amp;Pipeline-&gt;EngineContext-&gt;Overlapped
                 );
-    if (result == FALSE && GetLastError() == ERROR_IO_PENDING)
+    if (result == FALSE &amp;&amp; GetLastError() == ERROR_IO_PENDING)
     {
         SetLastError(ERROR_SUCCESS);
 
         result = GetOverlappedResult(
-                    Pipeline->EngineHandle,
-                    &Pipeline->EngineContext->Overlapped,
+                    Pipeline-&gt;EngineHandle,
+                    &amp;Pipeline-&gt;EngineContext-&gt;Overlapped,
                     (LPDWORD)ReceiveDataSize,
                     TRUE
                     );
@@ -374,10 +378,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

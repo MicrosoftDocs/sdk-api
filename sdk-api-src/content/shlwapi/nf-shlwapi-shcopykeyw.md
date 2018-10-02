@@ -4,10 +4,10 @@ title: SHCopyKeyW function
 author: windows-sdk-content
 description: Recursively copies the subkeys and values of the source subkey to the destination key. SHCopyKey does not copy the security attributes of the keys.
 old-location: shell\SHCopyKey.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 52521ef4-fe59-4766-8828-acb557b0e968
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHCopyKey, SHCopyKey function [Windows Shell], SHCopyKeyA, SHCopyKeyW, _win32_SHCopyKey, shell.SHCopyKey, shlwapi/SHCopyKey, shlwapi/SHCopyKeyA, shlwapi/SHCopyKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RasGetEntryPropertiesW function
 author: windows-sdk-content
 description: The RasGetEntryProperties function retrieves the properties of a phone-book entry.
 old-location: rras\rasgetentryproperties.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: eef9c197-04b3-4f3c-a7bd-8c62f9fac560
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: RasGetEntryProperties, RasGetEntryProperties function [RAS], RasGetEntryPropertiesA, RasGetEntryPropertiesW, _ras_rasgetentryproperties, ras/RasGetEntryProperties, ras/RasGetEntryPropertiesA, ras/RasGetEntryPropertiesW, rras.rasgetentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ Microsoft Layer for Unicode does not support <b>dwAlternateOffset</b> in
 This parameter is no longer used. The calling function should set this parameter to <b>NULL</b>.
 
 <b>Windows Me/98/95:  </b>Pointer to a buffer that receives device-specific configuration information. Do not directly manipulate this opaque TAPI device information. For more information about TAPI device configuration, see the 
-<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in the TAPI Programmer's Reference in the Platform SDK. 
+<a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in the TAPI Programmer's Reference in the Platform SDK. 
 
 
 This parameter can be <b>NULL</b>.

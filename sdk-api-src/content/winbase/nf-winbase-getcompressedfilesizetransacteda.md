@@ -7,7 +7,7 @@ old-location: fs\getcompressedfilesizetransacted.htm
 tech.root: fileio
 ms.assetid: df062eb4-70e1-4ee7-b489-624938af7834
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetCompressedFileSizeTransacted, GetCompressedFileSizeTransacted function [Files], GetCompressedFileSizeTransactedA, GetCompressedFileSizeTransactedW, fs.getcompressedfilesizetransacted, winbase/GetCompressedFileSizeTransacted, winbase/GetCompressedFileSizeTransactedA, winbase/GetCompressedFileSizeTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

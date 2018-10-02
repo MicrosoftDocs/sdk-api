@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol.htm
 tech.root: DirectShow
 ms.assetid: bce64088-3751-420c-b9de-b9b5f3119198
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], IMediaControl interface [DirectShow],described, IMediaControlInterface, control/IMediaControl, dshow.imediacontrol
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,16 +52,16 @@ req.redist:
 
 
 
-The <code>IMediaControl</code> interface provides methods for controlling the flow of data through the filter graph. It includes methods for running, pausing, and stopping the graph. The Filter Graph Manager implements this interface. For more information on filter graph states, see <a href="https://msdn.microsoft.com/en-us/library/Dd388376(v=VS.85).aspx">Data Flow in the Filter Graph</a>.
+The <code>IMediaControl</code> interface provides methods for controlling the flow of data through the filter graph. It includes methods for running, pausing, and stopping the graph. The Filter Graph Manager implements this interface. For more information on filter graph states, see <a href="https://msdn.microsoft.com/3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3">Data Flow in the Filter Graph</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMediaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMediaControl</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>IMediaControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390171(v=VS.85).aspx">AddSourceFilter</a>
+<a href="https://msdn.microsoft.com/b0d59a47-23a7-4e59-adfa-e01945a5d014">AddSourceFilter</a>
 </td>
 <td align="left" width="63%">
 Intended for Visual Basic 6.0; not documented here.
@@ -83,7 +83,7 @@ Intended for Visual Basic 6.0; not documented here.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390173(v=VS.85).aspx">get_FilterCollection</a>
+<a href="https://msdn.microsoft.com/9a14e971-365e-4061-8d07-01216e793864">get_FilterCollection</a>
 </td>
 <td align="left" width="63%">
 Intended for Visual Basic 6.0; not documented here.
@@ -92,7 +92,7 @@ Intended for Visual Basic 6.0; not documented here.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390174(v=VS.85).aspx">get_RegFilterCollection</a>
+<a href="https://msdn.microsoft.com/55257cef-2777-4a88-8805-e474e3b13c75">get_RegFilterCollection</a>
 </td>
 <td align="left" width="63%">
 Intended for Visual Basic 6.0; not documented here.
@@ -101,7 +101,7 @@ Intended for Visual Basic 6.0; not documented here.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390172(v=VS.85).aspx">GetState</a>
+<a href="https://msdn.microsoft.com/653a94ff-6929-41b1-9b94-dccaff0f7ec7">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the filter graph.
@@ -110,7 +110,7 @@ Retrieves the state of the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390175(v=VS.85).aspx">Pause</a>
+<a href="https://msdn.microsoft.com/cfb875b7-cc4e-4ae2-8379-964d0e3ceb04">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses all filters in the filter graph.
@@ -119,7 +119,7 @@ Pauses all filters in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390176(v=VS.85).aspx">RenderFile</a>
+<a href="https://msdn.microsoft.com/5dfff776-da3f-40a3-86d4-76a5099d6e6f">RenderFile</a>
 </td>
 <td align="left" width="63%">
 Intended for Visual Basic 6.0; not documented here.
@@ -128,7 +128,7 @@ Intended for Visual Basic 6.0; not documented here.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390177(v=VS.85).aspx">Run</a>
+<a href="https://msdn.microsoft.com/b52a5fa7-96f8-4949-9cf0-2d526f23bee1">Run</a>
 </td>
 <td align="left" width="63%">
 Runs all the filters in the filter graph.
@@ -137,7 +137,7 @@ Runs all the filters in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390178(v=VS.85).aspx">Stop</a>
+<a href="https://msdn.microsoft.com/89e48d43-a31f-4912-98ff-36ba2069812d">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops all the filters in the filter graph.
@@ -146,7 +146,7 @@ Stops all the filters in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390179(v=VS.85).aspx">StopWhenReady</a>
+<a href="https://msdn.microsoft.com/55dd55b1-51f0-4b47-8432-99741eaee8bb">StopWhenReady</a>
 </td>
 <td align="left" width="63%">
 Pauses the filter graph, allowing filters to queue data, and then stops the filter graph.
@@ -161,7 +161,7 @@ Pauses the filter graph, allowing filters to queue data, and then stops the filt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getbuttonatposition.htm
 tech.root: DirectShow
 ms.assetid: f9c506b3-c9d9-4dc2-b318-f987ab8636dc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetButtonAtPosition, GetButtonAtPosition method [DirectShow], GetButtonAtPosition method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonAtPosition method, IDvdInfo2.GetButtonAtPosition, IDvdInfo2::GetButtonAtPosition, IDvdInfo2GetButtonAtPosition, dshow.idvdinfo2_getbuttonatposition, strmif/IDvdInfo2::GetButtonAtPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

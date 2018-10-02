@@ -4,10 +4,10 @@ title: IX509NameValuePair::get_Name
 author: windows-sdk-content
 description: Retrieves the name portion of the name-value pair.
 old-location: security\ix509namevaluepair_name_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 2a124fe7-7f28-4911-b5fe-2c98b4187723
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509NameValuePair interface [Security],Name property, IX509NameValuePair.Name, IX509NameValuePair.get_Name, IX509NameValuePair::Name, IX509NameValuePair::get_Name, Name property [Security], Name property [Security],IX509NameValuePair interface, certenroll/IX509NameValuePair::Name, certenroll/IX509NameValuePair::get_Name, get_Name, security.ix509namevaluepair_name_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa378879(v=VS.85).aspx">Initialize</a> method before calling this property.
+You must call the <a href="https://msdn.microsoft.com/3e935718-a59a-443e-bff2-a010a41e7756">Initialize</a> method before calling this property.
 
 
 
@@ -73,7 +73,7 @@ You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa378879(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">IX509NameValuePair</a>
+<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a>
  
 
  

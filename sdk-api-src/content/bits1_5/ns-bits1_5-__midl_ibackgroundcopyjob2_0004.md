@@ -7,7 +7,7 @@ old-location: bits\bg_auth_credentials_union.htm
 tech.root: Bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], __MIDL_IBackgroundCopyJob2_0004, _drz_bg_auth_credentials_union, bits.bg_auth_credentials_union, bits1_5/BG_AUTH_CREDENTIALS_UNION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist: BITS 1.5 on  Windows XP
 
 The 
 <b>BG_AUTH_CREDENTIALS_UNION</b> union identifies the credentials to use for the authentication scheme specified in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362785(v=VS.85).aspx">BG_AUTH_CREDENTIALS</a> structure.
+<a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a> structure.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The
 ### -field Basic
 
 Identifies the user name and password of the user to authenticate. For details, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362793(v=VS.85).aspx">BG_BASIC_CREDENTIALS</a> structure.
+<a href="https://msdn.microsoft.com/e078e464-37b7-45ce-add8-6472a4607ff3">BG_BASIC_CREDENTIALS</a> structure.
 
 
 ## -see-also
@@ -71,15 +71,15 @@ Identifies the user name and password of the user to authenticate. For details, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362785(v=VS.85).aspx">BG_AUTH_CREDENTIALS</a>
+<a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362789(v=VS.85).aspx">BG_AUTH_SCHEME</a>
+<a href="https://msdn.microsoft.com/e5a97cee-0012-4e30-850a-9adc258a36d3">BG_AUTH_SCHEME</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362793(v=VS.85).aspx">BG_BASIC_CREDENTIALS</a>
+<a href="https://msdn.microsoft.com/e078e464-37b7-45ce-add8-6472a4607ff3">BG_BASIC_CREDENTIALS</a>
  
 
  

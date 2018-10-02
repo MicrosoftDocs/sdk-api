@@ -4,10 +4,10 @@ title: "_FsrmPropertyValueType"
 author: windows-sdk-content
 description: Enumerates the type of the value being assigned to an FSRM property in a property condition.
 old-location: fsrm\fsrmpropertyvaluetype.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 557183b3-aaeb-42d3-b7e0-72fc17f1205b
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmPropertyValueType, FsrmPropertyValueType enumeration [File Server Resource Manager], FsrmPropertyValueType_DateOffset, FsrmPropertyValueType_Literal, FsrmPropertyValueType_Undefined, _FsrmPropertyValueType, fs.fsrmpropertyvaluetype, fsrm.fsrmpropertyvaluetype, fsrmenums/FsrmPropertyValueType, fsrmenums/FsrmPropertyValueType_DateOffset, fsrmenums/FsrmPropertyValueType_Literal, fsrmenums/FsrmPropertyValueType_Undefined
 ms.prod: windows
 ms.technology: windows-sdk

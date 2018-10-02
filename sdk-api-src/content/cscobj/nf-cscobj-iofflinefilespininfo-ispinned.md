@@ -7,7 +7,7 @@ old-location: of\iofflinefilespininfo_ispinned.htm
 tech.root: OfflineFiles
 ms.assetid: 143cf346-dbe0-42cf-871e-a0cb54722403
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinned method, IOfflineFilesPinInfo.IsPinned, IOfflineFilesPinInfo::IsPinned, IsPinned, IsPinned method [Offline Files], IsPinned method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinned, of.iofflinefilespininfo_ispinned
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,11 +87,11 @@ When an item is pinned in the Offline Files cache, it is protected from automati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530498(v=VS.85).aspx">IOfflineFilesCache::Pin</a>
+<a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">IOfflineFilesCache::Pin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530590(v=VS.85).aspx">IOfflineFilesPinInfo</a>
+<a href="https://msdn.microsoft.com/529a529a-fbeb-4414-b4c9-46bfcca4aa7a">IOfflineFilesPinInfo</a>
  
 
  

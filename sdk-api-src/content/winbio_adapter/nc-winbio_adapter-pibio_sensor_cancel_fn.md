@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradaptercancel.htm
 tech.root: SecBioMet
 ms.assetid: 11a0728e-1833-43b3-8ae2-0393743bb19b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_SENSOR_CANCEL_FN, PIBIO_SENSOR_CANCEL_FN callback, SensorAdapterCancel, SensorAdapterCancel callback function [Windows Biometric Framework API], secbiomet.sensoradaptercancel, winbio_adapter/SensorAdapterCancel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,9 +116,13 @@ If the sensor has no pending operations when this function is called, your imple
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterCancel
 //
@@ -145,23 +149,23 @@ SensorAdapterCancel(
     }
 
     // Validate the current sensor state.
-    if (Pipeline->SensorHandle == INVALID_HANDLE_VALUE)
+    if (Pipeline-&gt;SensorHandle == INVALID_HANDLE_VALUE)
     {
         return WINBIO_E_INVALID_DEVICE_STATE;
     }
 
     // Cancel all I/O to the sensor handle.
-    if (!CancelIoEx(Pipeline->SensorHandle, NULL))
+    if (!CancelIoEx(Pipeline-&gt;SensorHandle, NULL))
     {
         hr = _SensorAdapterGetHresultFromWin32(GetLastError());
     }
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

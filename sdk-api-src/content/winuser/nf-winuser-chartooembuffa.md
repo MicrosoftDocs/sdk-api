@@ -7,7 +7,7 @@ old-location: menurc\chartooembuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooembuff.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CharToOemBuff, CharToOemBuff function [Menus and Other Resources], CharToOemBuffA, CharToOemBuffW, _win32_CharToOemBuff, _win32_chartooembuff_cpp, menurc.chartooembuff, winui._win32_chartooembuff, winuser/CharToOemBuff, winuser/CharToOemBuffA, winuser/CharToOemBuffW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ The return value is always nonzero except when you pass the same address to <i>l
 
 
 
-Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).aspx">CharToOem</a> function, the <b>CharToOemBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by <i>lpszSrc</i>. The <b>CharToOemBuff</b> function converts all <i>cchDstLength</i> characters.
+Unlike the <a href="https://msdn.microsoft.com/66588b51-1673-4cb0-828f-9e00de4a622e">CharToOem</a> function, the <b>CharToOemBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by <i>lpszSrc</i>. The <b>CharToOemBuff</b> function converts all <i>cchDstLength</i> characters.
 
 
 
@@ -107,7 +107,7 @@ Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).aspx">CharToOem</a>
+<a href="https://msdn.microsoft.com/66588b51-1673-4cb0-828f-9e00de4a622e">CharToOem</a>
 
 
 
@@ -115,11 +115,11 @@ Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).aspx">OemToChar</a>
+<a href="https://msdn.microsoft.com/2336b758-7b57-44d2-b3ce-34054128a26d">OemToChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647494(v=VS.85).aspx">OemToCharBuff</a>
+<a href="https://msdn.microsoft.com/17b01f13-6c09-43e2-984c-3b085f6b353f">OemToCharBuff</a>
 
 
 
@@ -127,7 +127,7 @@ Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

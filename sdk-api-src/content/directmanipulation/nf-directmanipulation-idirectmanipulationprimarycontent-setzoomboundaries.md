@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_setzoombounda
 tech.root: directmanipulation
 ms.assetid: 77e4054b-637f-4cff-bfab-0e2a0e992c59
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetZoomBoundaries method, IDirectManipulationPrimaryContent.SetZoomBoundaries, IDirectManipulationPrimaryContent::SetZoomBoundaries, SetZoomBoundaries, SetZoomBoundaries method [Direct Manipulation], SetZoomBoundaries method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setzoomboundaries, directmanipulation/IDirectManipulationPrimaryContent::SetZoomBoundaries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The minimum zoom level allowed. Must be greater than or equal to 0.1f, which cor
 
 ### -param zoomMaximum [in]
 
-The maximum zoom allowed. Must be greater than <i>zoomMinimum</i> and less than <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>.
+The maximum zoom allowed. Must be greater than <i>zoomMinimum</i> and less than <a href="_pluslang_Floating_Limits">FLT_MAX</a>.
 
 
 ## -returns

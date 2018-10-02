@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist_copyaccesslist.htm
 tech.root: ADSI
 ms.assetid: 3f4c89ec-1144-4886-981a-75353d2dfe8b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CopyAccessList, CopyAccessList method [ADSI], CopyAccessList method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],CopyAccessList method, IADsAccessControlList.CopyAccessList, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>IADsAccessControlList::CopyAccessList</b> method copies every access cont
 
 ### -param ppAccessControlList [out]
 
-Address of an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to an ACL as the copy of the original access list. If this parameter is <b>NULL</b> on return, no copies of the ACL could be made.
+Address of an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer to an ACL as the copy of the original access list. If this parameter is <b>NULL</b> on return, no copies of the ACL could be made.
 
 
 ## -returns
@@ -78,16 +78,20 @@ For more information about  other return values, see  <a href="https://msdn.micr
 
 
 
-The caller must call <b>Release</b> on the copy of ACEs through their <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> pointers.
+The caller must call <b>Release</b> on the copy of ACEs through their <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> pointers.
 
 
 #### Examples
 
 The following code example shows how to copy an ACL from one ADSI object to another.
 
-
-```vb
-Dim x As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As IADs
 Dim sd As IADsSecurityDescriptor
 Dim Dacl As IADsAccessControlList
 Dim CopyDacl As IADsAccessControlList
@@ -106,22 +110,26 @@ x.Put "ntSecurityDescriptor", Array(sd)
 x.SetInfo
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set x = Nothing
     Set sd = Nothing
     Set Dacl = Nothing
     Set CopyDacl = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example copies the ACL from the source object to the target object.
 
-
-```cpp
-HRESULT CopyACL(IADs *pSource, IADs *pTarget)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CopyACL(IADs *pSource, IADs *pTarget)
 {
     IADsSecurityDescriptor *pSourceSD = NULL;
     IADsSecurityDescriptor *pTargetSD = NULL;    
@@ -130,75 +138,75 @@ HRESULT CopyACL(IADs *pSource, IADs *pTarget)
     HRESULT hr = S_OK;
     VARIANT varSource, varTarget;
     
-    VariantInit(&varSource);
-    VariantInit(&varTarget);
+    VariantInit(&amp;varSource);
+    VariantInit(&amp;varTarget);
 
     if((pSource==NULL) || (pTarget==NULL))
     {
         return E_FAIL;
     }
     
-    hr = pSource->Get(CComBSTR("ntSecurityDescriptor"), &varSource);
+    hr = pSource-&gt;Get(CComBSTR("ntSecurityDescriptor"), &amp;varSource);
     if(FAILED(hr))
     {
         goto Cleanup;
     }
     
-    hr = pTarget->Get(CComBSTR("ntSecurityDescriptor"), &varTarget);
+    hr = pTarget-&gt;Get(CComBSTR("ntSecurityDescriptor"), &amp;varTarget);
     if(FAILED(hr))
     {
         goto Cleanup;
     }
     
-    hr = V_DISPATCH(&varSource)->QueryInterface(IID_IADsSecurityDescriptor,
-                    (void**)&pSourceSD);
+    hr = V_DISPATCH(&amp;varSource)-&gt;QueryInterface(IID_IADsSecurityDescriptor,
+                    (void**)&amp;pSourceSD);
     if(FAILED(hr))
     {
         goto Cleanup;
     }    
 
-    hr = V_DISPATCH(&varTarget)->QueryInterface(IID_IADsSecurityDescriptor,
-                    (void**)&pTargetSD);
+    hr = V_DISPATCH(&amp;varTarget)-&gt;QueryInterface(IID_IADsSecurityDescriptor,
+                    (void**)&amp;pTargetSD);
     if(FAILED(hr))
     {
         goto Cleanup;
     }    
     
-    hr = pSourceSD->get_DiscretionaryAcl(&pDisp);
+    hr = pSourceSD-&gt;get_DiscretionaryAcl(&amp;pDisp);
     if(FAILED(hr))
     {
         goto Cleanup;
     }    
 
-    hr = pTargetSD->put_DiscretionaryAcl(pDisp);
+    hr = pTargetSD-&gt;put_DiscretionaryAcl(pDisp);
     if(FAILED(hr))
     {
         goto Cleanup;
     }    
     
-    hr = pTarget->SetInfo();
+    hr = pTarget-&gt;SetInfo();
         
 Cleanup:
-    VariantClear(&varSource);
-    VariantClear(&varTarget);
+    VariantClear(&amp;varSource);
+    VariantClear(&amp;varTarget);
     if(pSourceSD) 
     {
-        pSourceSD->Release();
+        pSourceSD-&gt;Release();
     }
     if(pTargetSD) 
     {
-        pTargetSD->Release();
+        pTargetSD-&gt;Release();
     }
     if(pDisp) 
     {
-        pDisp->Release();
+        pDisp-&gt;Release();
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IEmailAction::get_Cc
 author: windows-sdk-content
 description: Gets or sets the email address or addresses that you want to Cc in the email message.
 old-location: taskschd\iemailaction_cc.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 23493ac7-0906-4ea3-9445-3dd56c30bb13
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Cc property [Task Scheduler], Cc property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Cc property, IEmailAction.Cc, IEmailAction.get_Cc, IEmailAction::Cc, IEmailAction::get_Cc, IEmailAction::put_Cc, get_Cc, taskschd.iemailaction_cc, taskschd/IEmailAction::Cc, taskschd/IEmailAction::get_Cc, taskschd/IEmailAction::put_Cc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="796227F5-C9FF-402D-8A04-CDE9E0C180EE">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the email address or addresses that you want to Cc in the email message.
 

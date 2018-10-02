@@ -4,10 +4,10 @@ title: "_MFWaveFormatExConvertFlags"
 author: windows-sdk-content
 description: Contains flags that specify how to convert an audio media type.
 old-location: mf\mfwaveformatexconvertflags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: cd4a54f3-58e5-4e39-8615-e5037972c9c4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFWaveFormatExConvertFlag_ForceExtensible, MFWaveFormatExConvertFlag_Normal, MFWaveFormatExConvertFlags, MFWaveFormatExConvertFlags enumeration [Media Foundation], _MFWaveFormatExConvertFlags, cd4a54f3-58e5-4e39-8615-e5037972c9c4, mf.mfwaveformatexconvertflags, mfapi/MFWaveFormatExConvertFlag_ForceExtensible, mfapi/MFWaveFormatExConvertFlag_Normal, mfapi/MFWaveFormatExConvertFlags
 ms.prod: windows
 ms.technology: windows-sdk

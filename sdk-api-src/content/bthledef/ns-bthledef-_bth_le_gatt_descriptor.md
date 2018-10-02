@@ -7,7 +7,7 @@ old-location: bltooth\bth_le_gatt_descriptor.htm
 tech.root: bltooth
 ms.assetid: DE738ADA-AE8E-4679-887C-A6194E88386E
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR, BTH_LE_GATT_DESCRIPTOR, BTH_LE_GATT_DESCRIPTOR structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR, PBTH_LE_GATT_DESCRIPTOR structure pointer [Bluetooth Devices], _BTH_LE_GATT_DESCRIPTOR, bltooth.bth_le_gatt_descriptor, bthledef/BTH_LE_GATT_DESCRIPTOR, bthledef/PBTH_LE_GATT_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,23 +88,23 @@ The handle to the Bluetooth LE GATT profile attributes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450845(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
+<a href="https://msdn.microsoft.com/323D649D-B381-4293-BE7C-64651862B9DB">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450852(v=VS.85).aspx">BTH_LE_UUID</a>
+<a href="https://msdn.microsoft.com/FA82A099-7924-44A1-A14C-7633B8656FB7">BTH_LE_UUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450798(v=VS.85).aspx">BluetoothGATTGetDescriptorValue</a>
+<a href="https://msdn.microsoft.com/06820384-7098-415A-A350-3A755162FAA3">BluetoothGATTGetDescriptorValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450797(v=VS.85).aspx">BluetoothGATTGetDescriptors</a>
+<a href="https://msdn.microsoft.com/C4D51362-5D4E-45CC-8E29-10B201B5673C">BluetoothGATTGetDescriptors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450807(v=VS.85).aspx">BluetoothGATTSetDescriptorValue</a>
+<a href="https://msdn.microsoft.com/B4EDDC32-732D-422B-85A0-FD935DBFE4EB">BluetoothGATTSetDescriptorValue</a>
  
 
  

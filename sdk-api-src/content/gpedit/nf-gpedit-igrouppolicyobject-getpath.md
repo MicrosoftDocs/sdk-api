@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_getpath.htm
 tech.root: Policy
 ms.assetid: ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPath, GetPath method [Group Policy], GetPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetPath method, IGroupPolicyObject.GetPath, IGroupPolicyObject::GetPath, _win32_igrouppolicyobject_getpath, gpedit/IGroupPolicyObject::GetPath, policy.igrouppolicyobject_getpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

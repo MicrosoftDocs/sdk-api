@@ -7,7 +7,7 @@ old-location: winprog\iwebbrowser2.htm
 tech.root: devnotes
 ms.assetid: AFED694C-8D7B-4539-9A1A-B2DA546F3A07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 interface [Windows API],described, exdisp/IWebBrowser2, winprog.iwebbrowser2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation). For the Microsoft .NET Framework version of this control, see WebBrowser Control (Windows Forms). 
 <div class="alert"><b>Important</b>  <p class="note">The documentation in this section is a partial listing of IWebBrowswer2 interface members. The complete <a href="https://msdn.microsoft.com/en-us/library/aa752127%28v=vs.85%29.aspx">IWebBrowser2 interface</a> is documented in the <a href="https://msdn.microsoft.com/en-us/library/hh801968(v=vs.85).aspx">MSHTML Reference</a> content. 

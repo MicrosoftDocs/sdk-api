@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2semitonestofrequencyratio.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2SemitonesToFrequencyRatio(float)
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: XAudio2SemitonesToFrequencyRatio, XAudio2SemitonesToFrequencyRatio function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2semitonestofrequencyratio, xaudio2/XAudio2SemitonesToFrequencyRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ Returns a floating point value that represents the frequency ratio.
 
 
 
-<b>XAudio2SemitonesToFrequencyRatio</b> can be used to calculate the Ratio parameter value passed to the function <a href="https://msdn.microsoft.com/en-us/library/Ee418469(v=VS.85).aspx">IXAudio2SourceVoice::SetFrequencyRatio</a>.
+<b>XAudio2SemitonesToFrequencyRatio</b> can be used to calculate the Ratio parameter value passed to the function <a href="https://msdn.microsoft.com/58D458C3-528B-4696-8A24-2D66B93695C3">IXAudio2SourceVoice::SetFrequencyRatio</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: termserv\wrds_connection_settings.htm
 tech.root: TermServ
 ms.assetid: 9219AE45-5F11-484E-BD78-F8E1AB41D648
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS structure pointer [Remote Desktop Services], WRDS_CONNECTION_SETTINGS, WRDS_CONNECTION_SETTINGS structure [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, _WRDS_CONNECTION_SETTINGS, termserv.wrds_connection_settings, wtsdefs/PWRDS_CONNECTION_SETTINGS, wtsdefs/WRDS_CONNECTION_SETTINGS"
 ms.prod: windows
 ms.technology: windows-sdk

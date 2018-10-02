@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetHorizontalResolution_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\gethorizontalresolution.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetHorizontalResolution, GetHorizontalResolution method [GDI+], GetHorizontalResolution method [GDI+],Image class, Image class [GDI+],GetHorizontalResolution method, Image.GetHorizontalResolution, Image::GetHorizontalResolution, _gdiplus_CLASS_Image_GetHorizontalResolution_, gdiplus._gdiplus_CLASS_Image_GetHorizontalResolution_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,31 +78,31 @@ This method returns the horizontal resolution, in dots per inch, of this image.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535380(v=VS.85).aspx">Image::GetHeight</a>
+<a href="https://msdn.microsoft.com/a39deeae-e610-4468-ba93-1da5abaa00b8">Image::GetHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535396(v=VS.85).aspx">Image::GetVerticalResolution</a>
+<a href="https://msdn.microsoft.com/8aa90120-479e-4fa7-b9d8-609fdf1912e7">Image::GetVerticalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535397(v=VS.85).aspx">Image::GetWidth</a>
+<a href="https://msdn.microsoft.com/e55bc22d-e5c6-43c8-87f8-345d348e5707">Image::GetWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/ddde257c-41a6-4f6e-8d81-10d66c60085c">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/57e3bf33-5490-4f4a-addf-356ef8f1aeed">Using Images, Bitmaps, and Metafiles</a>
  
 
  

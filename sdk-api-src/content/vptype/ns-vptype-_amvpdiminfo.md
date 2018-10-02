@@ -7,7 +7,7 @@ old-location: dshow\amvpdiminfo.htm
 tech.root: DirectShow
 ms.assetid: e39cbb85-33f0-4810-aa32-cc96676da123
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*LPAMVPDIMINFO, AMVPDIMINFO, AMVPDIMINFO structure [DirectShow], AMVPDIMINFOStructure, LPAMVPDIMINFO, LPAMVPDIMINFO structure pointer [DirectShow], _AMVPDIMINFO, dshow.amvpdiminfo, vptype/AMVPDIMINFO, vptype/LPAMVPDIMINFO"
 ms.prod: windows
 ms.technology: windows-sdk

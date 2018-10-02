@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode_setcolorcontexts.htm
 tech.root: wic
 ms.assetid: c955dede-297f-44c1-aa03-31a07a6d69d2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetColorContexts method, IWICBitmapFrameEncode.SetColorContexts, IWICBitmapFrameEncode::SetColorContexts, SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setcolorcontexts, wic._wic_codec_iwicbitmapframeencode_setcolorcontexts, wincodec/IWICBitmapFrameEncode::SetColorContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,12 +92,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <li><b>BMP</b>Setting color contexts is unsupported. This function will return <b>WINCODEC_ERR_UNSUPPORTEDOPERATION</b>.
 
 </li>
-<li><b>PNG</b>Setting at most one color context is supported, and additional color contexts will be ignored. This context must be a <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a>, and is used to encode the iCCP, gAMA, and cHRM chunks in the PNG file.
+<li><b>PNG</b>Setting at most one color context is supported, and additional color contexts will be ignored. This context must be a <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextProfile</a>, and is used to encode the iCCP, gAMA, and cHRM chunks in the PNG file.
 
 </li>
-<li><b>JPEG, TIFF, JPEG-XR</b>Setting up to one <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a> and one  <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextExifColorSpace</a> is supported. Users must not provide more than one of each type of color context, as all but the last context of each type will be ignored. In JPEG, the <b>WICColorContextProfile</b> is encoded to JPEG APP2 ICC metadata block.
+<li><b>JPEG, TIFF, JPEG-XR</b>Setting up to one <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextProfile</a> and one  <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextExifColorSpace</a> is supported. Users must not provide more than one of each type of color context, as all but the last context of each type will be ignored. In JPEG, the <b>WICColorContextProfile</b> is encoded to JPEG APP2 ICC metadata block.
 
-In TIFF and JPEG-XR, the  <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a> is encoded to the IFD ICC profile metadata block (IFD tag 0x8773). In all three formats, the <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextExifColorSpace</a> is encoded to EXIF colorspace metadata block (EXIF tag 0xA001).
+In TIFF and JPEG-XR, the  <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextProfile</a> is encoded to the IFD ICC profile metadata block (IFD tag 0x8773). In all three formats, the <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextExifColorSpace</a> is encoded to EXIF colorspace metadata block (EXIF tag 0xA001).
 
 
 </li>

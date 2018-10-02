@@ -7,7 +7,7 @@ old-location: backup\tape_get_position_str.htm
 tech.root: Backup
 ms.assetid: e5615648-3a70-4f34-b49e-f651a2e0b9c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTAPE_GET_POSITION, PTAPE_GET_POSITION, PTAPE_GET_POSITION structure pointer [Backup], TAPE_ABSOLUTE_POSITION, TAPE_GET_POSITION, TAPE_GET_POSITION structure [Backup], TAPE_LOGICAL_POSITION, _TAPE_GET_POSITION, _win32_tape_get_position_str, backup.tape_get_position_str, base.tape_get_position_str, winnt/PTAPE_GET_POSITION, winnt/TAPE_GET_POSITION"
 ms.prod: windows
 ms.technology: windows-sdk

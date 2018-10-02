@@ -7,7 +7,7 @@ old-location: http\http_binding_info.htm
 tech.root: Http
 ms.assetid: 551a928a-84c6-479b-a500-de69dc8857cd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BINDING_INFO, HTTP_BINDING_INFO structure [HTTP], _HTTP_BINDING_INFO, http.http_binding_info, http/*PHTTP_BINDING_INFO, http/HTTP_BINDING_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\overlapped_entry.htm
 tech.root: fileio
 ms.assetid: 3e244e6c-0731-477a-b1d3-2601c29449ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY structure pointer [Files], OVERLAPPED_ENTRY, OVERLAPPED_ENTRY structure [Files], _OVERLAPPED_ENTRY, fs.overlapped_entry, minwinbase/LPOVERLAPPED_ENTRY, minwinbase/OVERLAPPED_ENTRY, winbase/LPOVERLAPPED_ENTRY, winbase/OVERLAPPED_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

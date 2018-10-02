@@ -4,10 +4,10 @@ title: IConsoleNameSpace::DeleteItem
 author: windows-sdk-content
 description: Enables the snap-in to delete a single item from the scope pane.
 old-location: mmc\iconsolenamespace_deleteitem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 30455269-7E96-47D8-A4F7-E3F9AA6B251A
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IConsoleNameSpace interface, IConsoleNameSpace interface [MMC],DeleteItem method, IConsoleNameSpace.DeleteItem, IConsoleNameSpace::DeleteItem, mmc.iconsolenamespace_deleteitem, mmc/IConsoleNameSpace::DeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

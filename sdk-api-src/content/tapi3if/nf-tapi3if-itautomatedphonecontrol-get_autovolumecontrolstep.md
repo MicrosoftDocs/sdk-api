@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::get_AutoVolumeControlStep
 author: windows-sdk-content
 description: The get_AutoVolumeControlStep method retrieves the current value of the AutoVolumeControlStep property. The property determines the amount that the phone volume is adjusted when the volume button is pressed.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolstep.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 6cf6beba-36ca-417b-91b4-9c008a14efef
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControlStep method, ITAutomatedPhoneControl.get_AutoVolumeControlStep, ITAutomatedPhoneControl::get_AutoVolumeControlStep, _tapi3_itautomatedphonecontrol_get_autovolumecontrolstep, get_AutoVolumeControlStep, get_AutoVolumeControlStep method [TAPI 2.2], get_AutoVolumeControlStep method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrolstep, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControlStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

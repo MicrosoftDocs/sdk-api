@@ -4,10 +4,10 @@ title: IObjectCollection
 author: windows-sdk-content
 description: Extends the IObjectArray interface by providing methods that enable clients to add and remove objects that support IUnknown in a collection.
 old-location: shell\IObjectCollection.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d7665b26-5839-4b08-a099-ef25a68c65db
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IObjectCollection interface [Windows Shell],described, _shell_IObjectCollection, objectarray/IObjectCollection, shell.IObjectCollection
 ms.prod: windows
 ms.technology: windows-sdk

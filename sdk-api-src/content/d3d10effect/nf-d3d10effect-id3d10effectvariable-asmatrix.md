@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asmatrix.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asmatrix.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: AsMatrix, AsMatrix method [Direct3D 10], AsMatrix method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsMatrix method, ID3D10EffectVariable.AsMatrix, ID3D10EffectVariable::AsMatrix, d3d10effect/ID3D10EffectVariable::AsMatrix, dc6784cd-b78e-6390-1d7a-db0d3c27410b, direct3d10.id3d10effectvariable_asmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,9 +64,9 @@ Get a matrix variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173647(v=VS.85).aspx">ID3D10EffectMatrixVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/82ffcc6e-9a92-4d72-a397-0a66600ad508">ID3D10EffectMatrixVariable</a>*</b>
 
-A pointer to a matrix variable. See <a href="https://msdn.microsoft.com/en-us/library/Bb173647(v=VS.85).aspx">ID3D10EffectMatrixVariable</a>.
+A pointer to a matrix variable. See <a href="https://msdn.microsoft.com/82ffcc6e-9a92-4d72-a397-0a66600ad508">ID3D10EffectMatrixVariable</a>.
 
 
 
@@ -77,7 +77,7 @@ A pointer to a matrix variable. See <a href="https://msdn.microsoft.com/en-us/li
 
 AsMatrix returns a version of the effect variable that has been specialized to a matrix variable. Similar to a cast, this specialization will return an invalid object if the effect variable does not contain matrix data.
 
-Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>.
+Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">IsValid</a>.
 
 
 
@@ -87,7 +87,7 @@ Applications can test the returned object for validity by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

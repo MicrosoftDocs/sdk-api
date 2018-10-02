@@ -7,7 +7,7 @@ old-location: gdi\dibsection.htm
 tech.root: gdi
 ms.assetid: 76e84c90-6553-46c6-9ab9-afa022e0b2e5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDIBSECTION, *PDIBSECTION, DIBSECTION, DIBSECTION structure [Windows GDI], PDIBSECTION, PDIBSECTION structure pointer [Windows GDI], _win32_DIBSECTION_str, gdi.dibsection, tagDIBSECTION, wingdi/DIBSECTION, wingdi/PDIBSECTION"
 ms.prod: windows
 ms.technology: windows-sdk

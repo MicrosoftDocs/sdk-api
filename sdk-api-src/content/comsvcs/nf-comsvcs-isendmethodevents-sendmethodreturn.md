@@ -7,7 +7,7 @@ old-location: cos\isendmethodevents_sendmethodreturn.htm
 tech.root: cossdk
 ms.assetid: f9c8a680-644a-4617-866f-36e721bbc7aa
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ISendMethodEvents interface [COM+],SendMethodReturn method, ISendMethodEvents.SendMethodReturn, ISendMethodEvents::SendMethodReturn, SendMethodReturn, SendMethodReturn method [COM+], SendMethodReturn method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodReturn, comsvcs/ISendMethodEvents::SendMethodReturn, cos.isendmethodevents_sendmethodreturn
 ms.prod: windows-hardware
 ms.technology: windows-devices

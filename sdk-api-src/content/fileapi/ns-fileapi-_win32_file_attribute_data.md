@@ -7,7 +7,7 @@ old-location: fs\win32_file_attribute_data_str.htm
 tech.root: fileio
 ms.assetid: e1a7fb5c-2d69-40e3-b9d8-b583a03d828a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA structure pointer [Files], WIN32_FILE_ATTRIBUTE_DATA, WIN32_FILE_ATTRIBUTE_DATA structure [Files], _WIN32_FILE_ATTRIBUTE_DATA, _win32_win32_file_attribute_data_str, base.win32_file_attribute_data_str, fileapi/LPWIN32_FILE_ATTRIBUTE_DATA, fileapi/WIN32_FILE_ATTRIBUTE_DATA, fs.win32_file_attribute_data_str"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DD_GETSCANLINEDATA"
 author: windows-sdk-content
 description: The DD_GETSCANLINEDATA structure contains the members required to query and return the number of the current scan line.
 old-location: display\dd_getscanlinedata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 92433daa-43da-40d3-a319-e0d70abd3cb0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA, DD_GETSCANLINEDATA structure [Display Devices], _DD_GETSCANLINEDATA, ddrawint/DD_GETSCANLINEDATA, ddstrcts_f7654548-917a-4c6d-a15a-0f09bca64b5d.xml, display.dd_getscanlinedata"
 ms.prod: windows
 ms.technology: windows-sdk

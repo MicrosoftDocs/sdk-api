@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_getmode.htm
 tech.root: WMP
 ms.assetid: 5275cb99-8007-4af2-9137-694de18c5434
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],getMode method, IWMPSettings.getMode, IWMPSettings::getMode, IWMPSettingsgetMode, getMode, getMode method [Windows Media Player], getMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_getmode, wmp/IWMPSettings::getMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

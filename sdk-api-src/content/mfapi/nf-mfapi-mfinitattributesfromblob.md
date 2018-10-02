@@ -4,10 +4,10 @@ title: MFInitAttributesFromBlob function
 author: windows-sdk-content
 description: Initializes the contents of an attribute store from a byte array.
 old-location: mf\mfinitattributesfromblob.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: da0f01a3-ed47-42a1-b4af-5f3cbc9271a3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFInitAttributesFromBlob, MFInitAttributesFromBlob function [Media Foundation], da0f01a3-ed47-42a1-b4af-5f3cbc9271a3, mf.mfinitattributesfromblob, mfapi/MFInitAttributesFromBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_add.htm
 tech.root: cossdk
 ms.assetid: 0826a2f0-d4a5-40e2-b951-291d67f0d201
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Add, Add method [COM+], Add method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],Add method, ICatalogCollection.Add, ICatalogCollection::Add, _cos_ICatalogCollection_Add, comadmin/ICatalogCollection::Add, cos.icatalogcollection_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Adds an item to the collection, giving it the high index value.
 
 ### -param ppCatalogObject [out, retval]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms688526(v=VS.85).aspx">ICatalogObject</a> interface pointer for the new object.
+A pointer to the <a href="https://msdn.microsoft.com/fe3f7452-57b2-4f9e-9b48-5dedfe519ac1">ICatalogObject</a> interface pointer for the new object.
 
 
 ## -returns
@@ -76,11 +76,11 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms682213(v=VS.85).aspx">AddEnabled</a> property indicates whether the collection supports this method.
+The <a href="https://msdn.microsoft.com/6a8b0773-5ea7-4ad2-a520-ec9ea74a8755">AddEnabled</a> property indicates whether the collection supports this method.
 
-When an object is added, the <a href="https://msdn.microsoft.com/en-us/library/ms686117(v=VS.85).aspx">Count</a> property is incremented to reflect the change.
+When an object is added, the <a href="https://msdn.microsoft.com/c1e02dd6-c0bc-45b0-ae1b-c30056a8e697">Count</a> property is incremented to reflect the change.
 
-This change is not reflected in the persisted COM+ catalog data store until you use <a href="https://msdn.microsoft.com/en-us/library/ms685204(v=VS.85).aspx">SaveChanges</a>.
+This change is not reflected in the persisted COM+ catalog data store until you use <a href="https://msdn.microsoft.com/ae984eee-4a8d-48e5-839c-fa115fd4aeea">SaveChanges</a>.
 
 
 
@@ -90,7 +90,7 @@ This change is not reflected in the persisted COM+ catalog data store until you 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

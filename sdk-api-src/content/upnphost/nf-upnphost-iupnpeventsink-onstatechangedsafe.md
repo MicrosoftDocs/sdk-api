@@ -7,7 +7,7 @@ old-location: upnp\iupnpeventsink_onstatechangedsafe.htm
 tech.root: UPnP
 ms.assetid: 95792229-287c-43f1-b03a-45aa63a9682f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUPnPEventSink interface [UPnP APIs],OnStateChangedSafe method, IUPnPEventSink.OnStateChangedSafe, IUPnPEventSink::OnStateChangedSafe, OnStateChangedSafe, OnStateChangedSafe method [UPnP APIs], OnStateChangedSafe method [UPnP APIs],IUPnPEventSink interface, _upnp_iupnpeventsink_onstatechangedsafe, upnp.iupnpeventsink_onstatechangedsafe, upnphost/IUPnPEventSink::OnStateChangedSafe
 ms.prod: windows-hardware
 ms.technology: windows-devices

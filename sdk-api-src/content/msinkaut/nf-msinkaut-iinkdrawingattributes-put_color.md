@@ -7,7 +7,7 @@ old-location: tablet\inkdrawingattributes_color.htm
 tech.root: tablet
 ms.assetid: 885ace6d-952e-4870-b92c-92e47daadfcf
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 885ace6d-952e-4870-b92c-92e47daadfcf, Color property [Tablet PC], Color property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],Color property, IInkDrawingAttributes.Color, IInkDrawingAttributes.put_Color, IInkDrawingAttributes::Color, IInkDrawingAttributes::get_Color, IInkDrawingAttributes::put_Color, InkDrawingAttributes.get_Color, InkDrawingAttributes.put_Color, get_Color, msinkaut/IInkDrawingAttributes::Color, msinkaut/IInkDrawingAttributes::get_Color, msinkaut/IInkDrawingAttributes::put_Color, put_Color, tablet.inkdrawingattributes_color
 ms.prod: windows-hardware
 ms.technology: windows-devices

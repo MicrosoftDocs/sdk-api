@@ -4,10 +4,10 @@ title: "_TASK_PROCESSTOKENSID"
 author: windows-sdk-content
 description: Defines the types of process security identifier (SID) that can be used by tasks.
 old-location: taskschd\task_processtokensid_type.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 3a9243b9-f764-430b-8184-1fd97e74a5f1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: TASK_PROCESSTOKENSID_DEFAULT, TASK_PROCESSTOKENSID_NONE, TASK_PROCESSTOKENSID_TYPE, TASK_PROCESSTOKENSID_TYPE enumeration [Task Scheduler], TASK_PROCESSTOKENSID_UNRESTRICTED, _TASK_PROCESSTOKENSID, taskschd.task_processtokensid_type, taskschd/TASK_PROCESSTOKENSID_DEFAULT, taskschd/TASK_PROCESSTOKENSID_NONE, taskschd/TASK_PROCESSTOKENSID_TYPE, taskschd/TASK_PROCESSTOKENSID_UNRESTRICTED
 ms.prod: windows
 ms.technology: windows-sdk

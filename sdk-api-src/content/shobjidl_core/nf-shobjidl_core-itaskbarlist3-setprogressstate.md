@@ -4,10 +4,10 @@ title: ITaskbarList3::SetProgressState
 author: windows-sdk-content
 description: Sets the type and state of the progress indicator displayed on a taskbar button.
 old-location: shell\ITaskbarList3_SetProgressState.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ffa5566c-a6ad-4e96-a009-1e2006359f87
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetProgressState method, ITaskbarList3.SetProgressState, ITaskbarList3::SetProgressState, SetProgressState, SetProgressState method [Windows Shell], SetProgressState method [Windows Shell],ITaskbarList3 interface, TBPF_ERROR, TBPF_INDETERMINATE, TBPF_NOPROGRESS, TBPF_NORMAL, TBPF_PAUSED, _shell_ITaskbarList3_SetProgressState, shell.ITaskbarList3_SetProgressState, shobjidl_core/ITaskbarList3::SetProgressState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,9 +119,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Progress bar information is not shown in high contrast color schemes to guarantee that no accessibility needs are compromised.
 
-Developers accustomed to the existing <a href="https://msdn.microsoft.com/en-us/library/Bb760818(v=VS.85).aspx">progress bar</a> control should find the taskbar button progress indicator to be a similar experience both in concept and visuals. Here, the taskbar button itself becomes a progress bar. A taskbar button's progress indicator should be a reflection of a more detailed progress bar in the associated window. This allows the user to see specifics, such as the percentage number and the amount of time remaining, that cannot be shown in a taskbar button. Also, because a taskbar button can show the progress of only a single window in a group, it allows the user to check the progress of individual windows. It also provides progress information to the user when the taskbar button cannot, such as in a high-contrast color scheme.
+Developers accustomed to the existing <a href="_win32_Progress_Bar_Control_Reference">progress bar</a> control should find the taskbar button progress indicator to be a similar experience both in concept and visuals. Here, the taskbar button itself becomes a progress bar. A taskbar button's progress indicator should be a reflection of a more detailed progress bar in the associated window. This allows the user to see specifics, such as the percentage number and the amount of time remaining, that cannot be shown in a taskbar button. Also, because a taskbar button can show the progress of only a single window in a group, it allows the user to check the progress of individual windows. It also provides progress information to the user when the taskbar button cannot, such as in a high-contrast color scheme.
 
-Note that a taskbar button progress bar is not intended for use with normally peripheral actions such as the loading of a webpage or the printing of a document. That type of progress should continue to be shown in a window's <a href="https://msdn.microsoft.com/en-us/library/Bb760726(v=VS.85).aspx">status bar</a>.
+Note that a taskbar button progress bar is not intended for use with normally peripheral actions such as the loading of a webpage or the printing of a document. That type of progress should continue to be shown in a window's <a href="_win32_Status_Bar_Reference">status bar</a>.
 
 The progress indicator is displayed between the taskbar button's icon or text and the background. If progress is shown for both the active taskbar button and an inactive button, shading in the respective progress bars is such that the active button is still obvious to the user. Also, button functionality such as the display of thumbnails continues to work normally when the button is being used to display progress.
 

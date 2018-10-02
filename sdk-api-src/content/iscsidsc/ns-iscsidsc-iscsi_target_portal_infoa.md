@@ -7,7 +7,7 @@ old-location: iscsidisc\iscsi_target_portal_info.htm
 tech.root: iSCSIDisc
 ms.assetid: 3592b289-9c0d-43dc-918f-23c8ff079186
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PISCSI_TARGET_PORTAL_INFOA, ISCSI_TARGET_PORTAL_INFO, ISCSI_TARGET_PORTAL_INFO structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_INFOA, ISCSI_TARGET_PORTAL_INFOW, PISCSI_TARGET_PORTAL_INFO, PISCSI_TARGET_PORTAL_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_info, iscsidsc/ISCSI_TARGET_PORTAL_INFO, iscsidsc/ISCSI_TARGET_PORTAL_INFOA, iscsidsc/ISCSI_TARGET_PORTAL_INFOW, iscsidsc/PISCSI_TARGET_PORTAL_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_writebufferimmediate_parameter.htm
 tech.root: direct3d12
 ms.assetid: 7CF8A888-BB3A-4557-8DA5-7AFAFC6747CF
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_WRITEBUFFERIMMEDIATE_PARAMETER, D3D12_WRITEBUFFERIMMEDIATE_PARAMETER structure, d3d12/D3D12_WRITEBUFFERIMMEDIATE_PARAMETER, direct3d12.d3d12_writebufferimmediate_parameter
 ms.prod: windows
 ms.technology: windows-sdk

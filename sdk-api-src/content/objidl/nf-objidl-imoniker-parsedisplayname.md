@@ -7,7 +7,7 @@ old-location: com\imoniker_parsedisplayname.htm
 tech.root: com
 ms.assetid: 6a5a1f14-f14f-404b-90d8-0afceafc087c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IMoniker interface [COM],ParseDisplayName method, IMoniker.ParseDisplayName, IMoniker::ParseDisplayName, ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM],IMoniker interface, _com_imoniker_parsedisplayname, com.imoniker_parsedisplayname, objidl/IMoniker::ParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

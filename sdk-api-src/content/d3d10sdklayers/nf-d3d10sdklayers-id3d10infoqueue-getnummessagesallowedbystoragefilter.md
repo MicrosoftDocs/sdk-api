@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getnummessagesallowedbystoragefilter.ht
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getnummessagesallowedbystoragefilter.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 6838097c-89e3-6883-6083-5d0d9ada7647, GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method [Direct3D 10], GetNumMessagesAllowedByStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumMessagesAllowedByStorageFilter method, ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter, d3d10sdklayers/ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d10.id3d10infoqueue_getnummessagesallowedbystoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ Number of messages allowed by a storage filter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

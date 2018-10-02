@@ -4,10 +4,10 @@ title: "_paraformat"
 author: windows-sdk-content
 description: Contains information about paragraph formatting attributes in a rich edit control.
 old-location: controls\PARAFORMAT.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\paraformat.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: 0, 1, 2, 3, 4, 5, PARAFORMAT, PARAFORMAT structure [Windows Controls], PFA_CENTER, PFA_LEFT, PFA_RIGHT, PFE_RLTPARA, PFM_ALIGNMENT, PFM_NUMBERING, PFM_OFFSET, PFM_OFFSETINDENT, PFM_RIGHTINDENT, PFM_RTLPARA, PFM_STARTINDENT, PFM_TABSTOPS, _paraformat, _win32_PARAFORMAT_str, _win32_PARAFORMAT_str_cpp, controls.PARAFORMAT, controls._win32_PARAFORMAT_str, richedit/PARAFORMAT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,10 +50,10 @@ req.redist:
 ## -description
 
 
-Contains information about paragraph formatting attributes in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774182(v=VS.85).aspx">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774276(v=VS.85).aspx">EM_SETPARAFORMAT</a> messages.
+Contains information about paragraph formatting attributes in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages.
         
 
-In Microsoft Rich Edit 2.0, the <a href="https://msdn.microsoft.com/en-us/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>PARAFORMAT</b> structure. Microsoft Rich Edit 2.0 allows you to use either structure with <a href="https://msdn.microsoft.com/en-us/library/Bb774182(v=VS.85).aspx">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774276(v=VS.85).aspx">EM_SETPARAFORMAT</a>. 
+In Microsoft Rich Edit 2.0, the <a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>PARAFORMAT</b> structure. Microsoft Rich Edit 2.0 allows you to use either structure with <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>. 
 
 
 ## -struct-fields
@@ -443,15 +443,15 @@ Double line leader
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774182(v=VS.85).aspx">EM_GETPARAFORMAT</a>
+<a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774276(v=VS.85).aspx">EM_SETPARAFORMAT</a>
+<a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a>
+<a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a>
 
 
 

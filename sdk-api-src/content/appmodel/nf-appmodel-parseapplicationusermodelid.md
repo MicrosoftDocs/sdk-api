@@ -7,7 +7,7 @@ old-location: appxpkg\parseapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: 03B29E82-611F-47D1-8CB6-047B9BEB4D9E
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: ParseApplicationUserModelId, ParseApplicationUserModelId function [App packaging and management], appmodel/ParseApplicationUserModelId, appxpkg.parseapplicationusermodelid
 ms.prod: windows-hardware
 ms.technology: windows-devices

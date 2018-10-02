@@ -7,7 +7,7 @@ old-location: cos\icrmformatlogrecords.htm
 tech.root: cossdk
 ms.assetid: aa801bd0-5253-4f9f-8859-b808d4dc081b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], ICrmFormatLogRecords interface [COM+],described, _dtc_ICrmFormatLogRecords_Interface, comsvcs/ICrmFormatLogRecords, cos.icrmformatlogrecords
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ Converts the log records to viewable format so that they can be presented using 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmFormatLogRecords</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICrmFormatLogRecords</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmFormatLogRecords</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICrmFormatLogRecords</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ICrmFormatLogRecords</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681297(v=VS.85).aspx">GetColumn</a>
+<a href="https://msdn.microsoft.com/5234f582-88e2-4a9a-8650-d0d2d4b39f31">GetColumn</a>
 </td>
 <td align="left" width="63%">
 Formats one unstructured log record into an array of viewable fields.
@@ -79,7 +79,7 @@ Formats one unstructured log record into an array of viewable fields.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686549(v=VS.85).aspx">GetColumnCount</a>
+<a href="https://msdn.microsoft.com/d1b1bc24-6e9d-4f48-ac11-f3892a3be2b1">GetColumnCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of fields (columns) in a log record of the type used by this CRM Compensator.
@@ -88,7 +88,7 @@ Retrieves the number of fields (columns) in a log record of the type used by thi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686067(v=VS.85).aspx">GetColumnHeaders</a>
+<a href="https://msdn.microsoft.com/b7ca50f9-7e42-4cde-9985-0501ae34f040">GetColumnHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves the names of the fields (columns).
@@ -97,7 +97,7 @@ Retrieves the names of the fields (columns).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms688148(v=VS.85).aspx">GetColumnVariants</a>
+<a href="https://msdn.microsoft.com/f2681fe3-744b-4172-8908-1d823d2e2371">GetColumnVariants</a>
 </td>
 <td align="left" width="63%">
 Formats one structured log record into an array of viewable fields.
@@ -112,7 +112,7 @@ Formats one structured log record into an array of viewable fields.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680326(v=VS.85).aspx">COM+ Compensating Resource Manager</a>
+<a href="https://msdn.microsoft.com/3d490da6-1577-4a77-9f7d-6188f96f2914">COM+ Compensating Resource Manager</a>
  
 
  

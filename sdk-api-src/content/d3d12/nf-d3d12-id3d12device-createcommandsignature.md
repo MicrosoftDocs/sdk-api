@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandsignature.htm
 tech.root: direct3d12
 ms.assetid: 5A44F907-C6E0-4548-A227-84F0CF2EE837
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CreateCommandSignature, CreateCommandSignature method, CreateCommandSignature method,ID3D12Device interface, ID3D12Device interface,CreateCommandSignature method, ID3D12Device.CreateCommandSignature, ID3D12Device::CreateCommandSignature, d3d12/ID3D12Device::CreateCommandSignature, direct3d12.id3d12device_createcommandsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ Specifies a pointer, that on successful completion of the method will point to t
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

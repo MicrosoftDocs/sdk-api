@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_hssetsamplers.htm
 tech.root: direct3d11
 ms.assetid: f573f65b-abd4-4ddd-9471-032c2c5552d7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: HSSetSamplers, HSSetSamplers method [Direct3D 11], HSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSSetSamplers method, ID3D11DeviceContext.HSSetSamplers, ID3D11DeviceContext::HSSetSamplers, d3d11/ID3D11DeviceContext::HSSetSamplers, dc00dc72-4c31-569c-34d1-1720b5e61cfe, direct3d11.id3d11devicecontext_hssetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,9 +95,13 @@ This method does not return a value.
 
 Any sampler may be set to <b>NULL</b>; this invokes the default state, which is defined to be the following.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 //Default sampler state:
 D3D11_SAMPLER_DESC SamplerDesc;
 SamplerDesc.Filter = D3D11_FILTER_MIN_MAG_MIP_LINEAR;
@@ -113,10 +117,10 @@ SamplerDesc.BorderColor[2] = 1.0f;
 SamplerDesc.BorderColor[3] = 1.0f;
 SamplerDesc.MinLOD = -FLT_MAX;
 SamplerDesc.MaxLOD = FLT_MAX;
-		
-```
-
-
+		</pre>
+</td>
+</tr>
+</table></span></div>
 The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 

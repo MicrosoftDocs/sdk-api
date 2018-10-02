@@ -7,7 +7,7 @@ old-location: mstv\ibda_topology_setmedium.htm
 tech.root: MSTV
 ms.assetid: e2997929-d0a9-4732-8a8f-8f94c413fae5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_Topology interface [Microsoft TV Technologies],SetMedium method, IBDA_Topology.SetMedium, IBDA_Topology::SetMedium, IBDA_TopologySetMedium, SetMedium, SetMedium method [Microsoft TV Technologies], SetMedium method [Microsoft TV Technologies],IBDA_Topology interface, bdaiface/IBDA_Topology::SetMedium, mstv.ibda_topology_setmedium
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,11 +94,11 @@ A medium is a structure that identifies a hardware data path between two devices
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693447(v=VS.85).aspx">IBDA_Topology Interface</a>
+<a href="https://msdn.microsoft.com/35dfe39e-05b4-4c7b-9358-081429b064f2">IBDA_Topology Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\ws_protection_level.htm
 tech.root: wsw
 ms.assetid: 2b673728-1050-4005-bbb6-64b81ec19174
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_PROTECTION_LEVEL, WS_PROTECTION_LEVEL enumeration [Web Services for Windows], WS_PROTECTION_LEVEL_NONE, WS_PROTECTION_LEVEL_SIGN, WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT, webservices/WS_PROTECTION_LEVEL, webservices/WS_PROTECTION_LEVEL_NONE, webservices/WS_PROTECTION_LEVEL_SIGN, webservices/WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT, wsw.ws_protection_level
 ms.prod: windows
 ms.technology: windows-sdk

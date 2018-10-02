@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanager_setsimulatedprofileinfo.htm
 tech.root: NLA
 ms.assetid: 168501A6-F8B2-4635-97BB-538994074D2C
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: INetworkListManager interface [Network Awareness],SetSimulatedProfileInfo method, INetworkListManager.SetSimulatedProfileInfo, INetworkListManager::SetSimulatedProfileInfo, SetSimulatedProfileInfo, SetSimulatedProfileInfo method [Network Awareness], SetSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::SetSimulatedProfileInfo, nla.inetworklistmanager_setsimulatedprofileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

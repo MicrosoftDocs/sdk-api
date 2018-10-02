@@ -4,10 +4,10 @@ title: IShellBrowser::QueryActiveShellView
 author: windows-sdk-content
 description: Retrieves the currently active (displayed) Shell view object.
 old-location: shell\IShellBrowser_QueryActiveShellView.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d03e41dc-72dc-4f34-ae5b-b5ef8b2f146d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellBrowser interface [Windows Shell],QueryActiveShellView method, IShellBrowser.QueryActiveShellView, IShellBrowser::QueryActiveShellView, QueryActiveShellView, QueryActiveShellView method [Windows Shell], QueryActiveShellView method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_QueryActiveShellView, shell.IShellBrowser_QueryActiveShellView, shobjidl_core/IShellBrowser::QueryActiveShellView
 ms.prod: windows-hardware
 ms.technology: windows-devices

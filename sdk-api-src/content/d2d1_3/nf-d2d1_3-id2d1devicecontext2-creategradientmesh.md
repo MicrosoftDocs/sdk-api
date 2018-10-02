@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext2_creategradientmesh.htm
 tech.root: direct2d
 ms.assetid: 7c471ba3-fb0f-b735-d10b-9d0a56b32863
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: CreateGradientMesh, CreateGradientMesh method [Direct2D], CreateGradientMesh method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateGradientMesh method, ID2D1DeviceContext2.CreateGradientMesh, ID2D1DeviceContext2::CreateGradientMesh, d2d1_3/ID2D1DeviceContext2::CreateGradientMesh, direct2d.id2d1devicecontext2_creategradientmesh
 ms.prod: windows-hardware
 ms.technology: windows-devices

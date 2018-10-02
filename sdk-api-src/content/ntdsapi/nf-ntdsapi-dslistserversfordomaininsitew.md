@@ -4,10 +4,10 @@ title: DsListServersForDomainInSiteW function
 author: windows-sdk-content
 description: Lists all the servers in a domain in a site.
 old-location: ad\dslistserversfordomaininsite.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 1e346532-bbbe-4b3b-a1cb-6a72319cb3e2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsListServersForDomainInSite, DsListServersForDomainInSite function [Active Directory], DsListServersForDomainInSiteA, DsListServersForDomainInSiteW, _glines_dslistserversfordomaininsite, ad.dslistserversfordomaininsite, ntdsapi/DsListServersForDomainInSite, ntdsapi/DsListServersForDomainInSiteA, ntdsapi/DsListServersForDomainInSiteW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWdsTransportSetupManager
 author: windows-sdk-content
 description: Manages setup tasks on a WDS transport server.
 old-location: wds\iwdstransportsetupmanager.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: b7b0dc9f-081e-472f-98f7-fe555a411ea3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportSetupManager, IWdsTransportSetupManager interface [Windows Deployment Services], IWdsTransportSetupManager interface [Windows Deployment Services],described, wds.iwdstransportsetupmanager, wdstptmgmt/IWdsTransportSetupManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Manages setup tasks on a WDS transport server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportSetupManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWdsTransportSetupManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportSetupManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWdsTransportSetupManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

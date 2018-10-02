@@ -4,10 +4,10 @@ title: IInputObjectSite
 author: windows-sdk-content
 description: Exposes a method that is used to communicate focus changes for a user input object contained in the Shell.
 old-location: shell\IInputObjectSite.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: fda52080-4117-47d6-8248-ffedd35e7625
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IInputObjectSite, IInputObjectSite interface [Windows Shell], IInputObjectSite interface [Windows Shell],described, _win32_IInputObjectSite, shell.IInputObjectSite, shobjidl_core/IInputObjectSite
 ms.prod: windows
 ms.technology: windows-sdk

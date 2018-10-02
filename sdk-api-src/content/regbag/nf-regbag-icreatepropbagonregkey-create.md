@@ -7,7 +7,7 @@ old-location: mstv\icreatepropbagonregkey_create.htm
 tech.root: MSTV
 ms.assetid: d6410ead-7364-4db4-a4c9-cafe5fbf2e84
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: Create, Create method [Microsoft TV Technologies], Create method [Microsoft TV Technologies],ICreatePropBagOnRegKey interface, ICreatePropBagOnRegKey interface [Microsoft TV Technologies],Create method, ICreatePropBagOnRegKey.Create, ICreatePropBagOnRegKey::Create, ICreatePropBagOnRegKeyCreate, mstv.icreatepropbagonregkey_create, regbag/ICreatePropBagOnRegKey::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -195,37 +195,41 @@ If you write a value of VT_EMPTY or VT_NULL the property is removed from the bag
 
 The following example code shows how to create a read back a default tune request in the registry:
 
-
-```cpp
-
-CComPtr <ICreatePropBagOnRegKey> pCreateRegBag; 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr &lt;ICreatePropBagOnRegKey&gt; pCreateRegBag; 
 HRESULT hr = pCreateRegBag.CoCreateInstance(CLSID_CreatePropBagOnRegKey); 
-CComPtr <IPropertyBag> pRegBag; 
-hr = pCreateRegBag->Create(HKEY_CURRENT_USER, 
+CComPtr &lt;IPropertyBag&gt; pRegBag; 
+hr = pCreateRegBag-&gt;Create(HKEY_CURRENT_USER, 
     OLESTR("SOFTWARE\\Microsoft\\MSVidCtl\\DefaultTuneRequest"), 
-    0, KEY_READ | KEY_WRITE, IID_IPropertyBag, (void**)&pRegBag); 
+    0, KEY_READ | KEY_WRITE, IID_IPropertyBag, (void**)&amp;pRegBag); 
 if(FAILED(hr)) 
 { 
   ATLASSERT(FALSE); 
   return E_FAIL; 
 } 
-CComPtr <IAnalogTVTuningSpace> pTuneSpace; 
+CComPtr &lt;IAnalogTVTuningSpace&gt; pTuneSpace; 
 hr = pTuneSpace.CoCreateInstance(CLSID_AnalogTVTuningSpace); 
 if(FAILED(hr)) 
 { 
   ATLASSERT(FALSE); 
   return E_FAIL; 
 } 
-CComPtr<ITuneRequest> pTuneRequest; 
-hr = pTuneSpace->CreateTuneRequest(&pTuneRequest); 
+CComPtr&lt;ITuneRequest&gt; pTuneRequest; 
+hr = pTuneSpace-&gt;CreateTuneRequest(&amp;pTuneRequest); 
 if(FAILED(hr)) 
 { 
   ATLASSERT(FALSE); 
   return E_FAIL; 
 } 
-CComQIPtr <IPersistPropertyBag> pPersist(pTuneRequest); 
+CComQIPtr &lt;IPersistPropertyBag&gt; pPersist(pTuneRequest); 
 CComVariant v((IUnknown*)(pTuneRequest)); 
-hr = pRegBag->Write(L"tr", &v); 
+hr = pRegBag-&gt;Write(L"tr", &amp;v); 
 if(FAILED(hr)) 
 { 
   ATLASSERT(FALSE); 
@@ -233,17 +237,17 @@ if(FAILED(hr))
 } 
 
 //restore 
-CComPtr <IPropertyBag> pRegBag2; 
-hr = pCreateRegBag->Create(HKEY_CURRENT_USER, 
+CComPtr &lt;IPropertyBag&gt; pRegBag2; 
+hr = pCreateRegBag-&gt;Create(HKEY_CURRENT_USER, 
 OLESTR("SOFTWARE\\Microsoft\\MSVidCtl\\DefaultTuneRequest"),0, KEY_READ, 
-IID_IPropertyBag, reinterpret_cast<void**>(&pRegBag2)); 
+IID_IPropertyBag, reinterpret_cast&lt;void**&gt;(&amp;pRegBag2)); 
 if(FAILED(hr)) 
 { 
   ATLASSERT(FALSE); 
   return E_FAIL; 
 } 
 CComVariant var; 
-hr = pRegBag2->Read(OLESTR("tr"), &var, NULL); 
+hr = pRegBag2-&gt;Read(OLESTR("tr"), &amp;var, NULL); 
 if(FAILED(hr)) 
 { 
   ATLASSERT(FALSE); 
@@ -251,7 +255,7 @@ if(FAILED(hr))
 } 
 
 // Make sure we have a tune request object. 
-CComQIPtr<ITuneRequest> pTune; 
+CComQIPtr&lt;ITuneRequest&gt; pTune; 
 switch (var.vt) 
 { 
   case VT_UNKNOWN: 
@@ -261,38 +265,42 @@ switch (var.vt)
     pTune = var.pdispVal; 
     break; 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example loads the default tune request and returns an <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface pointer:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT LoadDefaultTuneReq(ITuneRequest **ppTuneReq)
 {
     HRESULT hr;
     *ppTuneReq = NULL;
-    CComPtr<ICreatePropBagOnRegKey> pCreateRegBag;
+    CComPtr&lt;ICreatePropBagOnRegKey&gt; pCreateRegBag;
     hr = pCreateRegBag.CoCreateInstance(CLSID_CreatePropBagOnRegKey, 
         NULL, CLSCTX_INPROC_SERVER);
     if (FAILED(hr)) return hr;
 
     //Create the property bag.
-    CComPtr<IPropertyBag> pRegBag;
-    hr = pCreateRegBag->Create(HKEY_CURRENT_USER,
+    CComPtr&lt;IPropertyBag&gt; pRegBag;
+    hr = pCreateRegBag-&gt;Create(HKEY_CURRENT_USER,
         OLESTR("SOFTWARE\\Microsoft\\MSVidCtl"), 0, KEY_READ,
-        IID_IPropertyBag, reinterpret_cast<void**>(&pRegBag));
+        IID_IPropertyBag, reinterpret_cast&lt;void**&gt;(&amp;pRegBag));
     if (FAILED(hr)) return hr;
 
     // Read the default tune request from the property bag.
     CComVariant var;
-    hr = pRegBag->Read(OLESTR("DefaultTuneRequest"), &var, NULL);
+    hr = pRegBag-&gt;Read(OLESTR("DefaultTuneRequest"), &amp;var, NULL);
     if (FAILED(hr)) return hr;
     
     // Make sure we got a tune request object.
-    CComQIPtr<ITuneRequest> pTune;
+    CComQIPtr&lt;ITuneRequest&gt; pTune;
     switch (var.vt)
     {
     case VT_UNKNOWN:
@@ -309,10 +317,10 @@ HRESULT LoadDefaultTuneReq(ITuneRequest **ppTuneReq)
     }
     return E_FAIL; 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: cos\icontextstate_setmytransactionvote.htm
 tech.root: cossdk
 ms.assetid: ec88f99a-cb24-42a9-8f2a-add7ddbec719
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContextState.SetMyTransactionVote, IContextState::SetMyTransactionVote, SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+],IContextState interface, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote
 ms.prod: windows-hardware
 ms.technology: windows-devices

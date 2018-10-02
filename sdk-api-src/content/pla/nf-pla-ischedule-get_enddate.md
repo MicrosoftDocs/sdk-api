@@ -7,7 +7,7 @@ old-location: pla\ischedule_enddate.htm
 tech.root: PLA
 ms.assetid: 80a5c1a9-2d0a-4700-824b-1333b5c7c374
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EndDate property [PLA], EndDate property [PLA],ISchedule interface, ISchedule interface [PLA],EndDate property, ISchedule.EndDate, ISchedule.get_EndDate, ISchedule::EndDate, ISchedule::get_EndDate, ISchedule::put_EndDate, base.ischedule_enddate, get_EndDate, pla.ischedule_enddate, pla/ISchedule::EndDate, pla/ISchedule::get_EndDate, pla/ISchedule::put_EndDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

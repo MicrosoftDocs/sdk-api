@@ -4,10 +4,10 @@ title: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
 author: windows-sdk-content
 description: A callback function prototype that is called once for each attribute found in the pSDPStream parameter passed to the BluetoothSdpEnumAttributes function call.
 old-location: bluetooth\pfn_bluetooth_enum_attributes_callback.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 4d728467-1866-428f-9e66-a45b597a226a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK, PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback, PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback function [Bluetooth], bluetooth.pfn_bluetooth_enum_attributes_callback, bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <i>PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</i> is a callback function prototype that is called once for each attribute found in the <b>pSDPStream</b> parameter passed to the <a href="https://msdn.microsoft.com/en-us/library/Aa362885(v=VS.85).aspx">BluetoothSdpEnumAttributes</a> function call.
+The <i>PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</i> is a callback function prototype that is called once for each attribute found in the <b>pSDPStream</b> parameter passed to the <a href="https://msdn.microsoft.com/3113db03-a32f-47ad-a442-3769f41ee8e7">BluetoothSdpEnumAttributes</a> function call.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The current attribute identifier in the SDP stream.
 
 ### -param pValueStream
 
-The raw SDP stream for the attribute value associated with <b>uAttribId</b>. Use the <a href="https://msdn.microsoft.com/en-us/library/Aa362889(v=VS.85).aspx">BluetoothSdpGetElementData</a> function to parse the raw results into computer-readable data.
+The raw SDP stream for the attribute value associated with <b>uAttribId</b>. Use the <a href="https://msdn.microsoft.com/65de8f2f-1781-44fa-87a9-21aa461eb8ee">BluetoothSdpGetElementData</a> function to parse the raw results into computer-readable data.
 
 
 ### -param cbStreamSize
@@ -75,7 +75,7 @@ The size, in bytes, of <b>pValueStream</b>.
 
 ### -param pvParam
 
-The context passed in from a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Aa362885(v=VS.85).aspx">BluetoothSdpEnumAttributes</a> function.
+The context passed in from a previous call to the <a href="https://msdn.microsoft.com/3113db03-a32f-47ad-a442-3769f41ee8e7">BluetoothSdpEnumAttributes</a> function.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Should return <b>TRUE</b> when the enumeration continues to the next attribute i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362889(v=VS.85).aspx">BluetoothSdpGetElementData</a>
+<a href="https://msdn.microsoft.com/65de8f2f-1781-44fa-87a9-21aa461eb8ee">BluetoothSdpGetElementData</a>
  
 
  

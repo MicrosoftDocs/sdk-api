@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor9.htm
 tech.root: DirectShow
 ms.assetid: 19fda7f2-000f-47d0-a7c7-d8421de418a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IVMRImageCompositor9, IVMRImageCompositor9 interface [DirectShow], IVMRImageCompositor9 interface [DirectShow],described, IVMRImageCompositor9Interface, dshow.ivmrimagecompositor9, vmr9/IVMRImageCompositor9
 ms.prod: windows
 ms.technology: windows-sdk

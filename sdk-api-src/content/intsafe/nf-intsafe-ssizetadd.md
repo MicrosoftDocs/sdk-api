@@ -4,10 +4,10 @@ title: SSIZETAdd function
 author: windows-sdk-content
 description: Adds two SSIZE_T values together.
 old-location: shell\SSIZETAdd.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a9a2eb36-f70b-45fb-a84a-391a0bb77954
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SSIZETAdd, SSIZETAdd function [Windows Shell], intsafe/SSIZETAdd, shell.SSIZETAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

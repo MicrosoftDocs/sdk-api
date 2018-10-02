@@ -4,10 +4,10 @@ title: MakeSureDirectoryPathExists function
 author: windows-sdk-content
 description: Creates all the directories in the specified path, beginning with the root.
 old-location: base\makesuredirectorypathexists.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 2be9a53a-306a-4b89-a813-0491e8a6e794
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: MakeSureDirectoryPathExists, MakeSureDirectoryPathExists function, _win32_makesuredirectorypathexists, base.makesuredirectorypathexists, dbghelp/MakeSureDirectoryPathExists
 ms.prod: windows-hardware
 ms.technology: windows-devices

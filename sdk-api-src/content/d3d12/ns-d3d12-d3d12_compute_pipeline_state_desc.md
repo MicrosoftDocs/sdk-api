@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_compute_pipeline_state_desc.htm
 tech.root: direct3d12
 ms.assetid: 46C785C6-8294-410F-A8D5-7E5F85FA5C75
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_COMPUTE_PIPELINE_STATE_DESC, D3D12_COMPUTE_PIPELINE_STATE_DESC structure, d3d12/D3D12_COMPUTE_PIPELINE_STATE_DESC, direct3d12.d3d12_compute_pipeline_state_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ A <a href="https://msdn.microsoft.com/DAE5C06B-ED1F-4B35-812E-31E26B51704C">D3D1
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/en-us/library/Dn788658(v=VS.85).aspx">CreateComputePipelineState</a>.
+This structure is used by <a href="https://msdn.microsoft.com/FFA361B2-D8FA-4F5A-8D0C-022C2AA76B57">CreateComputePipelineState</a>.
       
 
 
@@ -104,7 +104,7 @@ This structure is used by <a href="https://msdn.microsoft.com/en-us/library/Dn78
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

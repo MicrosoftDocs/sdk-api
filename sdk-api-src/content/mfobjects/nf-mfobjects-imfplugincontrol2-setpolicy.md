@@ -4,10 +4,10 @@ title: IMFPluginControl2::SetPolicy
 author: windows-sdk-content
 description: Sets the policy for which media sources and transforms are enumerated.
 old-location: mf\imfplugincontrol2_setpolicy.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1B078EB2-D87E-46A4-B2E1-A850C4E543A8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFPluginControl2 interface [Media Foundation],SetPolicy method, IMFPluginControl2.SetPolicy, IMFPluginControl2::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFPluginControl2 interface, mf.imfplugincontrol2_setpolicy, mfobjects/IMFPluginControl2::SetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

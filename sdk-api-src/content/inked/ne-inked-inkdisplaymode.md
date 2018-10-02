@@ -7,7 +7,7 @@ old-location: tablet\inkdisplaymode.htm
 tech.root: tablet
 ms.assetid: 043ee1c2-0012-4e64-8565-db8400a05439
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 043ee1c2-0012-4e64-8565-db8400a05439, IDM_Ink, IDM_Text, InkDisplayMode, InkDisplayMode enumeration [Tablet PC], inked/IDM_Ink, inked/IDM_Text, inked/InkDisplayMode, tablet.inkdisplaymode
 ms.prod: windows
 ms.technology: windows-sdk

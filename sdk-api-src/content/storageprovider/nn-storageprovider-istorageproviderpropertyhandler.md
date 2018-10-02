@@ -4,10 +4,10 @@ title: IStorageProviderPropertyHandler
 author: windows-sdk-content
 description: Provides a collection of properties associated with a file or folder.
 old-location: shell\istorageproviderpropertyhandler.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8CB56726-DABA-44A4-ADAE-DAD8ECB047E6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], IStorageProviderPropertyHandler interface [Windows Shell],described, shell.istorageproviderpropertyhandler, storageprovider/IStorageProviderPropertyHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Gets the properties managed by the sync engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt149092(v=VS.85).aspx">SaveProperties</a>
+<a href="https://msdn.microsoft.com/983751BA-BF36-4018-A95A-4BEA1E9BA3BF">SaveProperties</a>
 </td>
 <td align="left" width="63%">
 Saves properties associated with a file or folder.

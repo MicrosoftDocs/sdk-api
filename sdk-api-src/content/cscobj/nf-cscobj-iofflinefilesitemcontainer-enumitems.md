@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitemcontainer_enumitems.htm
 tech.root: OfflineFiles
 ms.assetid: 9960e8f8-4d15-4a53-aa77-d0105b6a59d1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EnumItems, EnumItems method [Offline Files], EnumItems method [Offline Files],IOfflineFilesItemContainer interface, IOfflineFilesItemContainer interface [Offline Files],EnumItems method, IOfflineFilesItemContainer.EnumItems, IOfflineFilesItemContainer::EnumItems, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesItemContainer::EnumItems, of.iofflinefilesitemcontainer_enumitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 
 Returns an enumerator of child items for the cache item implementing this method. Server, share, and directory entries in the Offline Files cache implement this method to expose the enumeration of their immediate children.
-<div class="alert"><b>Note</b>  A call to <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> to query a file item for <b>IID_IOfflineFilesItemContainer</b> fails with <b>E_NOINTERFACE</b>, because file items have no children.</div><div> </div>
+<div class="alert"><b>Note</b>  A call to <a href="_com_iunknown_queryinterface">QueryInterface</a> to query a file item for <b>IID_IOfflineFilesItemContainer</b> fails with <b>E_NOINTERFACE</b>, because file items have no children.</div><div> </div>
 
 ## -parameters
 
@@ -96,7 +96,7 @@ Allows administrators to find items cached by any user. If this flag is set and 
 
 ### -param ppenum [out]
 
-Enumerator of <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a> interface pointers.
+Enumerator of <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> interface pointers.
 
 
 ## -returns
@@ -115,19 +115,23 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 To begin a top-down enumeration of the entire cache, perform the following steps:
 
 <ol>
-<li>Create an instance of <b>CLSID_OfflineFilesCache</b> and obtain its <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a> interface.</li>
+<li>Create an instance of <b>CLSID_OfflineFilesCache</b> and obtain its <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> interface.</li>
 <li>Call the <b>EnumItems</b> method to obtain an enumerator for the server entries.</li>
-<li>For each entry returned, call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> for  <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a>.</li>
-<li>If <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> succeeds, the item supports children.  If so, enumerate each child, calling <b>QueryInterface</b> for <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a> on each.  This pattern may be recursively applied to enumerate the entire cache.</li>
+<li>For each entry returned, call <a href="_com_iunknown_queryinterface">QueryInterface</a> for  <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a>.</li>
+<li>If <a href="_com_iunknown_queryinterface">QueryInterface</a> succeeds, the item supports children.  If so, enumerate each child, calling <b>QueryInterface</b> for <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> on each.  This pattern may be recursively applied to enumerate the entire cache.</li>
 </ol>
 
 #### Examples
 
 This example illustrates how to perform a top-down traversal of the Offline Files cache using a simple recursive implementation.
 
-
-```cpp
-HRESULT EnumItems(IOfflineFilesItemContainer *pContainer);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumItems(IOfflineFilesItemContainer *pContainer);
 
 //
 // Emits the item's path string to the console.
@@ -137,12 +141,12 @@ HRESULT ReportItem(
     )
 {
     LPWSTR pszPath;
-    HRESULT hr = pItem->GetPath(&pszPath);
+    HRESULT hr = pItem-&gt;GetPath(&amp;pszPath);
     if (SUCCEEDED(hr))
     {
         LPCWSTR pszType = L"";
         OFFLINEFILES_ITEM_TYPE ItemType;
-        hr = pItem->GetItemType(&ItemType);
+        hr = pItem-&gt;GetItemType(&amp;ItemType);
         if (SUCCEEDED(hr))
         {
             switch(ItemType)
@@ -181,12 +185,12 @@ HRESULT ProcessItem(
     if (SUCCEEDED(hr))
     {
         IOfflineFilesItemContainer *pContainer;
-        hr = pItem->QueryInterface(IID_IOfflineFilesItemContainer,
-                                   (void **)&pContainer);
+        hr = pItem-&gt;QueryInterface(IID_IOfflineFilesItemContainer,
+                                   (void **)&amp;pContainer);
         if (SUCCEEDED(hr))
         {
             EnumItems(pContainer);
-            pContainer->Release();
+            pContainer-&gt;Release();
         }
     }
     return hr;
@@ -200,17 +204,17 @@ HRESULT EnumItems(
     )
 {
     IEnumOfflineFilesItems *pEnum;
-    HRESULT hr = pContainer->EnumItems(0, &pEnum);
+    HRESULT hr = pContainer-&gt;EnumItems(0, &amp;pEnum);
     if (SUCCEEDED(hr))
     {
         IOfflineFilesItem *pItem;
         ULONG celt;
-        while(S_OK == (hr = pEnum->Next(1, &pItem, &celt)))
+        while(S_OK == (hr = pEnum-&gt;Next(1, &amp;pItem, &amp;celt)))
         {
             ProcessItem(pItem);
-            pItem->Release();
+            pItem-&gt;Release();
         }
-        pEnum->Release();
+        pEnum-&gt;Release();
     }
     return hr;
 }
@@ -223,8 +227,8 @@ HRESULT EnumItemsInCache(
     // The "cache" object is a container of "server" items.
     //
     IOfflineFilesItemContainer *pContainer;
-    HRESULT hr = pCache->QueryInterface(IID_IOfflineFilesItemContainer,
-                                        (void **)&pContainer);
+    HRESULT hr = pCache-&gt;QueryInterface(IID_IOfflineFilesItemContainer,
+                                        (void **)&amp;pContainer);
     if (SUCCEEDED(hr))
     {
         hr = EnumItems(pContainer);
@@ -246,20 +250,20 @@ int wmain(int argc, __in_ecount(argc) WCHAR* argv[])
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IOfflineFilesCache,
-                              (void **)&pCache);
+                              (void **)&amp;pCache);
         if (SUCCEEDED(hr))
         {
             hr = EnumItemsInCache(pCache);
-            pCache->Release();
+            pCache-&gt;Release();
         }
         CoUninitialize();
     }
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -268,11 +272,11 @@ int wmain(int argc, __in_ecount(argc) WCHAR* argv[])
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a>
+<a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a>
  
 
  

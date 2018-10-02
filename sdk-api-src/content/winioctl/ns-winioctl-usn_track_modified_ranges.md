@@ -7,7 +7,7 @@ old-location: fs\usn_track_modified_ranges.htm
 tech.root: fileio
 ms.assetid: 00254BBD-8F38-46AB-8B0A-3094020A48C5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES structure pointer [Files], USN_TRACK_MODIFIED_RANGES, USN_TRACK_MODIFIED_RANGES structure [Files], fs.usn_track_modified_ranges, winioctl/PUSN_TRACK_MODIFIED_RANGES, winioctl/USN_TRACK_MODIFIED_RANGES"
 ms.prod: windows
 ms.technology: windows-sdk

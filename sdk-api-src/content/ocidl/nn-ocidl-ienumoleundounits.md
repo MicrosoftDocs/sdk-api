@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits.htm
 tech.root: com
 ms.assetid: f43cbd9d-d91b-4230-816f-693dec7056a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], IEnumOleUndoUnits interface [COM],described, _ole_ienumoleundounits, com.ienumoleundounits, ocidl/IEnumOleUndoUnits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enumerates the undo units on the undo or redo stack.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOleUndoUnits</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumOleUndoUnits</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOleUndoUnits</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumOleUndoUnits</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

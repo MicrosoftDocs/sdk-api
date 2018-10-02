@@ -4,10 +4,10 @@ title: "_TRUSTEE_W"
 author: windows-sdk-content
 description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies.
 old-location: security\trustee.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 120e93eb-680f-4f86-879d-bc2de10d4641
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTRUSTEEW, *PTRUSTEE_W, PTRUSTEE, PTRUSTEE structure pointer [Security], TRUSTEE, TRUSTEE structure [Security], TRUSTEEW, TRUSTEE_, TRUSTEE_A, TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, TRUSTEE_W, _TRUSTEE_W, _win32_trustee_str, accctrl/PTRUSTEE, accctrl/TRUSTEE, accctrl/TRUSTEE_A, accctrl/TRUSTEE_W, security.trustee"
 ms.prod: windows
 ms.technology: windows-sdk

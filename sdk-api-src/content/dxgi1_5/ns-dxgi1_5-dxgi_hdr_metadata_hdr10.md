@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_hdr_metadata_hdr10.htm
 tech.root: direct3ddxgi
 ms.assetid: 67A53A43-121F-4D83-AACC-D25D58123BE1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DXGI_HDR_METADATA_HDR10, DXGI_HDR_METADATA_HDR10 structure [DXGI], direct3ddxgi.dxgi_hdr_metadata_hdr10, dxgi1_5/DXGI_HDR_METADATA_HDR10
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,9 +106,13 @@ This structure represents the definition of HDR10 metadata used with HEVC, not H
 
 Example: Mastering display with DCI-P3 color primaries and D65 white point, maximum luminance of 1000 nits and minimum luminance of 0.001 nits; content has maximum luminance of 2000 nits and maximum frame average light level (MaxFALL) of 500 nits.
 
-
-```cpp
-RedPrimary[0] = 0.680 * 50000;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RedPrimary[0] = 0.680 * 50000;
 RedPrimary[1] = 0.320 * 50000;
 GreenPrimary[0] = 0.265 * 50000;
 GreenPrimary[1] = 0.690 * 50000;
@@ -119,10 +123,10 @@ WhitePoint[1] = 0.3290 * 50000;
 MaxMasteringLuminance = 1000 * 10000;
 MinMasteringLuminance = 0.001 * 10000;
 MaxContentLightLevel = 2000;
-MaxFrameAverageLightLevel = 500;
-```
-
-
+MaxFrameAverageLightLevel = 500;</pre>
+</td>
+</tr>
+</table></span></div>
 This structure is used in conjunction with the <a href="https://msdn.microsoft.com/03EBBB29-EAC3-4FE7-9CA7-D9F62CFDA8FB">SetHDRMetaData</a> method.
 
 

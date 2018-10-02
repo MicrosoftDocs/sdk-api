@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12stateobjectproperties.htm
 tech.root: direct3d12
 ms.assetid: 3971089A-2779-42FA-8FF9-6C7C8E39C7F9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: ID3D12StateObjectProperties, ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,described, d3d12/ID3D12StateObjectProperties, direct3d12.id3d12stateobjectproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,6 +72,15 @@ The <b>ID3D12StateObjectProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="direct3d12.id3d12stateobjectproperties_getpipelinestacksize">GetPipelineStackSize</a>
+</td>
+<td align="left" width="63%">
+Gets the current pipeline stack size.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="direct3d12.id3d12stateobjectproperties_getshaderidentifier">GetShaderIdentifier</a>
 </td>
 <td align="left" width="63%">
@@ -85,6 +94,15 @@ Retrieves the unique identifier for a shader that can be used in a shader record
 </td>
 <td align="left" width="63%">
 Gets the amount of stack memory required to invoke a raytracing shader in HLSL.  
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="direct3d12.id3d12stateobjectproperties_setpipelinestacksize">SetPipelineStackSize</a>
+</td>
+<td align="left" width="63%">
+Set the current pipeline stack size.  
 
 </td>
 </tr>

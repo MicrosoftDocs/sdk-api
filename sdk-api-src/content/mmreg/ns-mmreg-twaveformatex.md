@@ -7,7 +7,7 @@ old-location: audio\waveformatex.htm
 tech.root: audio
 ms.assetid: f2f050d6-afe2-4647-932b-1287f4538702
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/28/2018
 ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Audio Devices], aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml, audio.waveformatex, mmreg/WAVEFORMATEX, tWAVEFORMATEX"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IConsolePower::SetExecutionState
 author: windows-sdk-content
 description: The SetExecutionState method sets the execution state for the current thread.
 old-location: mmc\iconsolepower_setexecutionstate.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 1fbdc155-ea95-43b6-8aea-f47ff0c89859
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [MMC],SetExecutionState method, IConsolePower.SetExecutionState, IConsolePower::SetExecutionState, SetExecutionState, SetExecutionState method [MMC], SetExecutionState method [MMC],IConsolePower interface, _slate_iconsolepower_setexecutionstate, mmc.iconsolepower_setexecutionstate, mmc/IConsolePower::SetExecutionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,14 +108,18 @@ A snap-in defines its power requirements and sends them to MMC by calling
 
 #### Examples
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 
 // Specify that the display and system are required.
 // pConsolePower was created previously by
 // the CoCreateInstance method.
-hr = pConsolePower->SetExecutionState(ES_DISPLAY_REQUIRED | ES_SYSTEM_REQUIRED,0);
+hr = pConsolePower-&gt;SetExecutionState(ES_DISPLAY_REQUIRED | ES_SYSTEM_REQUIRED,0);
 switch (hr)
 {
     case S_OK:
@@ -131,10 +135,10 @@ switch (hr)
         // Unexpected error occurred.
         OutputDebugString(_T("SetExecutionState: Failure\n"));
         break;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

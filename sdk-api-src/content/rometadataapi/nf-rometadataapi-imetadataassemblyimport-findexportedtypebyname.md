@@ -7,7 +7,7 @@ old-location: winrt\imetadataassemblyimport_findexportedtypebyname.htm
 tech.root: WinRT
 ms.assetid: 2b19b41c-fd1b-4284-8455-2b0d69907c99
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FindExportedTypeByName, FindExportedTypeByName method [Windows Runtime], FindExportedTypeByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindExportedTypeByName method, IMetaDataAssemblyImport.FindExportedTypeByName, IMetaDataAssemblyImport::FindExportedTypeByName, rometadataapi/IMetaDataAssemblyImport::FindExportedTypeByName, winrt.imetadataassemblyimport_findexportedtypebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

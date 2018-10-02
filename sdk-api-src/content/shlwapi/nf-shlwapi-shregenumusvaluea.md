@@ -4,10 +4,10 @@ title: SHRegEnumUSValueA function
 author: windows-sdk-content
 description: Enumerates the values of the specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegEnumUSValue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 78ba5df4-8ee3-473f-b3ef-0bca65bb0a2a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHRegEnumUSValue, SHRegEnumUSValue function [Windows Shell], SHRegEnumUSValueA, SHRegEnumUSValueW, _win32_SHRegEnumUSValue, shell.SHRegEnumUSValue, shlwapi/SHRegEnumUSValue, shlwapi/SHRegEnumUSValueA, shlwapi/SHRegEnumUSValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

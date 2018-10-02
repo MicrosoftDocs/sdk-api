@@ -4,10 +4,10 @@ title: IMFMediaError
 author: windows-sdk-content
 description: Provides the current error status for the Media Engine.
 old-location: mf\imfmediaerror.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 08F161FE-C0E5-44EE-923E-646ADA534C42
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaError, IMFMediaError interface [Media Foundation], IMFMediaError interface [Media Foundation],described, mf.imfmediaerror, mfmediaengine/IMFMediaError
 ms.prod: windows
 ms.technology: windows-sdk

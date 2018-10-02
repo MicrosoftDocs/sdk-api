@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapterqueryextendedinfo.htm
 tech.root: SecBioMet
 ms.assetid: BCA55006-73F4-4845-84B3-34A6255D673F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN, PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN callback, StorageAdapterQueryExtendedInfo, StorageAdapterQueryExtendedInfo callback function [Windows Biometric Framework API], secbiomet.storageadapterqueryextendedinfo, winbio_adapter/StorageAdapterQueryExtendedInfo
 ms.prod: windows
 ms.technology: windows-sdk

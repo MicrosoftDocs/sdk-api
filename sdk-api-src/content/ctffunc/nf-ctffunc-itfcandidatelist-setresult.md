@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelist_setresult.htm
 tech.root: TSF
 ms.assetid: dcc172f9-4fc3-46f4-a1db-0e75fceafb28
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult method, ITfCandidateList.SetResult, ITfCandidateList::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfCandidateList interface, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ Specifies the zero-based index of the candidate string to set the result for. Th
 
 ### -param imcr [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629048(v=VS.85).aspx">TfCandidateResult</a> values that specifies the result of the reconversion operation.
+Contains one of the <a href="https://msdn.microsoft.com/8b2b4762-f28d-40e0-b162-5e35e8835c8e">TfCandidateResult</a> values that specifies the result of the reconversion operation.
 
 
 ## -returns
@@ -127,7 +127,7 @@ A typical reconversion operation would include the following operations.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538492(v=VS.85).aspx">ITfCandidateList</a>
+<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a>
 
 
 

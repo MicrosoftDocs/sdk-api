@@ -4,10 +4,10 @@ title: "_DXVAHD_STREAM_DATA"
 author: windows-sdk-content
 description: Contains per-stream data for the IDXVAHD_VideoProcessor::VideoProcessBltHD method.
 old-location: mf\dxvahd_stream_data.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 95d74c87-5884-4004-926f-108e9bbb012d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: DXVAHD_STREAM_DATA, DXVAHD_STREAM_DATA structure [Media Foundation], _DXVAHD_STREAM_DATA, dxvahd/DXVAHD_STREAM_DATA, mf.dxvahd_stream_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,17 +86,17 @@ The number of future reference frames. This value must be less than or equal to 
 
 ### -field ppPastSurfaces
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> pointers, allocated by the caller. This array contains the past reference frames for the video processing operation. The number of elements in the array is equal to the value of the <b>PastFrames</b> member. 
+A pointer to an array of <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> pointers, allocated by the caller. This array contains the past reference frames for the video processing operation. The number of elements in the array is equal to the value of the <b>PastFrames</b> member. 
 
 
 ### -field pInputSurface
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of a Microsoft Direct3D surface that contains the current input frame.
+A pointer to the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface of a Microsoft Direct3D surface that contains the current input frame.
 
 
 ### -field ppFutureSurfaces
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> pointers, allocated by the caller. This array contains the future reference frames for the video processing operation. The number of elements in the array is equal to the value of the <b>FutureFrames</b> member. 
+A pointer to an array of <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> pointers, allocated by the caller. This array contains the future reference frames for the video processing operation. The number of elements in the array is equal to the value of the <b>FutureFrames</b> member. 
 
 
 ## -remarks

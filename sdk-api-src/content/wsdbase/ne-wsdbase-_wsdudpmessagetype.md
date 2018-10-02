@@ -7,7 +7,7 @@ old-location: ncd\wsdudpmessagetype.htm
 tech.root: WsdApi
 ms.assetid: 0af4fd37-b1a9-4916-986c-e071c060d020
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration, _WSDUdpMessageType, ncd.wsdudpmessagetype, wsdbase/ONE_WAY, wsdbase/TWO_WAY, wsdbase/WSDUdpMessageType
 ms.prod: windows
 ms.technology: windows-sdk

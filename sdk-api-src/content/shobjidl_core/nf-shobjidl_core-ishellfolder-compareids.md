@@ -4,10 +4,10 @@ title: IShellFolder::CompareIDs
 author: windows-sdk-content
 description: Determines the relative order of two file objects or folders, given their item identifier lists.
 old-location: shell\IShellFolder_CompareIDs.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 54d805cc-5396-4892-9347-cafc2d90779f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CompareIDs, CompareIDs method [Windows Shell], CompareIDs method [Windows Shell],IShellFolder interface, CompareIDs method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],CompareIDs method, IShellFolder.CompareIDs, IShellFolder2 interface [Windows Shell],CompareIDs method, IShellFolder2::CompareIDs, IShellFolder::CompareIDs, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _win32_IShellFolder_CompareIDs, shell.IShellFolder_CompareIDs, shobjidl_core/IShellFolder2::CompareIDs, shobjidl_core/IShellFolder::CompareIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,19 +165,23 @@ Use the <a href="https://msdn.microsoft.com/20f3b51d-38b6-4989-b9c2-5b08012a7352
 		
     			
 
-
-```cpp
-HRESULT hres = psf->CompareIDs(lParam, pidl1, pidl2);
-if ((short)HRESULT_CODE(hres) < 0)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hres = psf-&gt;CompareIDs(lParam, pidl1, pidl2);
+if ((short)HRESULT_CODE(hres) &lt; 0)
    { /* pidl1 comes first */ }
-else if ((short)HRESULT_CODE(hres) > 0) 
+else if ((short)HRESULT_CODE(hres) &gt; 0) 
    { /* pidl2 comes first */ }
 else 
    { /* the two pidls are equal */ }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Note_to_Implementers"></a><a id="note_to_implementers"></a><a id="NOTE_TO_IMPLEMENTERS"></a>Note to Implementers</h3>
 To extract the sorting rule, use a bitwise AND operator (&amp;) to combine <i>lParam</i> with SHCIDS_COLUMNMASK (0X0000FFFF). This operation masks off the upper sixteen bits of <i>lParam</i>, including the <b>SHCIDS_ALLFIELDS</b> value.
 
@@ -186,9 +190,13 @@ The <a href="https://msdn.microsoft.com/f9624cbd-35a4-4e44-a796-cf463366299a">MA
 			
     			
 
-
-```cpp
-HRESULT CompareIDs(LPARAM lParam, PCUIDLIST_RELATIVE pidl1, PCUIDLIST_RELATIVE pidl2)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CompareIDs(LPARAM lParam, PCUIDLIST_RELATIVE pidl1, PCUIDLIST_RELATIVE pidl2)
 {
     short sResult;
     unsigned uSeverity = 0x000000000;
@@ -196,8 +204,8 @@ HRESULT CompareIDs(LPARAM lParam, PCUIDLIST_RELATIVE pidl1, PCUIDLIST_RELATIVE p
     // Code that determines the relative order of pidl1 and pidl2 according to
     // any sortring rules specified by lParam goes here.
     //
-    // Set sResult = -1 if pidl1 precedes pidl2 (pidl1 < pidl2).
-    // Set sResult =  1 if pidl1 follows pidl2. (pidl1 > pidl2).
+    // Set sResult = -1 if pidl1 precedes pidl2 (pidl1 &lt; pidl2).
+    // Set sResult =  1 if pidl1 follows pidl2. (pidl1 &gt; pidl2).
     // Set sResult =  0 if pidl1 and pidl2 are equivalent in terms of ordering. (pidl1 = pidl2).
     //
     // Leave uSeverity = 0 if the order is successfully determined.
@@ -205,10 +213,10 @@ HRESULT CompareIDs(LPARAM lParam, PCUIDLIST_RELATIVE pidl1, PCUIDLIST_RELATIVE p
 
     return MAKE_HRESULT(uSeverity, 0, (unsigned short)sResult);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

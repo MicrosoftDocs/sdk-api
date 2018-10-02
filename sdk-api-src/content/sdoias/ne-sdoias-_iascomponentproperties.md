@@ -7,7 +7,7 @@ old-location: nps\SDO_iascomponentproperties.htm
 tech.root: Nps
 ms.assetid: 5b2ab351-88b8-4a9d-9954-883d9e251b4c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IASCOMPONENTPROPERTIES, IASCOMPONENTPROPERTIES enumeration [Network Policy Server], PROPERTY_COMPONENT_ID, PROPERTY_COMPONENT_PROG_ID, PROPERTY_COMPONENT_START, _IASCOMPONENTPROPERTIES, _sdo_iascomponentproperties, nps.SDO_iascomponentproperties, sdo.iascomponentproperties, sdoias/IASCOMPONENTPROPERTIES, sdoias/PROPERTY_COMPONENT_ID, sdoias/PROPERTY_COMPONENT_PROG_ID, sdoias/PROPERTY_COMPONENT_START
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,15 +81,19 @@ The start value for RADIUS Protocol properties, defined for convenience.
 The following code snippet demonstrates obtaining the component ID of an SDO object. The variable pSdo points to an 
 <a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a> interface.
 
-
-```cpp
-HRESULT    hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT    hr;
 _variant_t    vtProperty;
-hr = pSdo->GetProperty(PROPERTY_COMPONENT_ID, &vtProperty);
-
-```
-
-
+hr = pSdo-&gt;GetProperty(PROPERTY_COMPONENT_ID, &amp;vtProperty);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

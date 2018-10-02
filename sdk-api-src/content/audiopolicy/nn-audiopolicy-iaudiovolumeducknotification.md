@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiovolumeducknotification.htm
 tech.root: CoreAudio
 ms.assetid: 08e90a50-a6ac-4405-ba90-a862b78efaf8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IAudioVolumeDuckNotification, IAudioVolumeDuckNotification interface [Core Audio], IAudioVolumeDuckNotification interface [Core Audio],described, audiopolicy/ IAudioVolumeDuckNotification, coreaudio.iaudiovolumeducknotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,9 +114,13 @@ For more information, see <a href="https://msdn.microsoft.com/1b92574e-7cde-49c0
 
 The following example code shows a sample implementation of the <b>IAudioVolumeDuckNotification</b> interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 
 class CDuckNotification : public IAudioVolumeDuckNotification
 {
@@ -153,12 +157,12 @@ public:
         *ReturnValue = NULL;
         if (iid == IID_IUnknown)
         {
-            *ReturnValue = static_cast<IUnknown *>(static_cast<IAudioVolumeDuckNotification *>(this));
+            *ReturnValue = static_cast&lt;IUnknown *&gt;(static_cast&lt;IAudioVolumeDuckNotification *&gt;(this));
             AddRef();
         }
         else if (iid == __uuidof(IAudioVolumeDuckNotification))
         {
-            *ReturnValue = static_cast<IAudioVolumeDuckNotification *>(this);
+            *ReturnValue = static_cast&lt;IAudioVolumeDuckNotification *&gt;(this);
             AddRef();
         }
         else
@@ -169,12 +173,12 @@ public:
     }
     ULONG AddRef()
     {
-        return InterlockedIncrement(&_Cref);
+        return InterlockedIncrement(&amp;_Cref);
     }
 
     ULONG Release()
     {
-        LONG ref = InterlockedDecrement(&_Cref);
+        LONG ref = InterlockedDecrement(&amp;_Cref);
         if (ref == 0)
         {
             delete this;
@@ -182,10 +186,10 @@ public:
         return 0;
     }
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

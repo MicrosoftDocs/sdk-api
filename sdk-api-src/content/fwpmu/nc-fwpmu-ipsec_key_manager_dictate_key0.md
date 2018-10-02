@@ -7,7 +7,7 @@ old-location: fwp\ipsec_key_manager_dictate_key0.htm
 tech.root: FWP
 ms.assetid: A69E44FF-A58D-426B-BD59-8EB4B5A63B66
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_KEY_MANAGER_DICTATE_KEY0, IPSEC_KEY_MANAGER_DICTATE_KEY0 function, IPSEC_KEY_MANAGER_DICTATE_KEY0 function pointer [Filtering], fwp.ipsec_key_dictate_key0, fwp.ipsec_key_manager_dictate_key0, fwpmu/IPSEC_KEY_MANAGER_DICTATE_KEY0
 ms.prod: windows
 ms.technology: windows-sdk

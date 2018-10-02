@@ -7,7 +7,7 @@ old-location: coreaudio\ksjack_sink_connectiontype.htm
 tech.root: CoreAudio
 ms.assetid: a1a9b0cf-b1bf-49df-a976-62f44fcf70ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: KSJACK_SINK_CONNECTIONTYPE, KSJACK_SINK_CONNECTIONTYPE enumeration [Core Audio], KSJACK_SINK_CONNECTIONTYPE_DISPLAYPORT, KSJACK_SINK_CONNECTIONTYPE_HDMI, __MIDL___MIDL_itf_devicetopology_0000_0000_0010, coreaudio.ksjack_sink_connectiontype, devicetopology/KSJACK_SINK_CONNECTIONTYPE, devicetopology/KSJACK_SINK_CONNECTIONTYPE_DISPLAYPORT, devicetopology/KSJACK_SINK_CONNECTIONTYPE_HDMI
 ms.prod: windows
 ms.technology: windows-sdk

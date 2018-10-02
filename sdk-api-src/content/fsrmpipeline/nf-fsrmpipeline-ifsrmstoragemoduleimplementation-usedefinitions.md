@@ -4,10 +4,10 @@ title: IFsrmStorageModuleImplementation::UseDefinitions
 author: windows-sdk-content
 description: Specifies the property definitions FSRM recognizes.
 old-location: fsrm\ifsrmstoragemoduleimplementation_usedefinitions.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: d5683668-18c2-405b-aa56-8e7a9a1d5a9e
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],UseDefinitions method, IFsrmStorageModuleImplementation.UseDefinitions, IFsrmStorageModuleImplementation::UseDefinitions, UseDefinitions, UseDefinitions method [File Server Resource Manager], UseDefinitions method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_usedefinitions, fsrm.ifsrmstoragemoduleimplementation_usedefinitions, fsrmpipeline/IFsrmStorageModuleImplementation::UseDefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices

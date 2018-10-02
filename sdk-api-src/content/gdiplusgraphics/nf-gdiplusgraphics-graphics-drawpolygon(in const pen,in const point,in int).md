@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPolygon_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpolygonmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: DrawPolygon, DrawPolygon methods [GDI+], Graphics.DrawPolygon, Graphics.DrawPolygon(IN const Pen,IN const Point,IN INT), Graphics::DrawPolygon, Graphics::DrawPolygon(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawPolygon_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawPolygon_Methods, gdiplusgraphics/DrawPolygon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 DrawPolygon methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -64,19 +64,19 @@ DrawPolygon methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536008(v=VS.85).aspx">DrawPolygon(Pen*,Point*,INT*)</a>
+<a href="https://msdn.microsoft.com/eede6059-5349-4582-92b7-234dbf0c9eaf">DrawPolygon(Pen*,Point*,INT*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536008(v=VS.85).aspx">Graphics::DrawPolygon</a> method draws a polygon.
+The <a href="https://msdn.microsoft.com/eede6059-5349-4582-92b7-234dbf0c9eaf">Graphics::DrawPolygon</a> method draws a polygon.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536009(v=VS.85).aspx">DrawPolygon(Pen*,PointF*,INT*)</a>
+<a href="https://msdn.microsoft.com/b9ae10d3-96a9-47eb-9a66-f8a118c4e2ef">DrawPolygon(Pen*,PointF*,INT*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536009(v=VS.85).aspx">Graphics::DrawPolygon</a> method draws a polygon.
+The <a href="https://msdn.microsoft.com/b9ae10d3-96a9-47eb-9a66-f8a118c4e2ef">Graphics::DrawPolygon</a> method draws a polygon.
 
 </td>
 </tr>

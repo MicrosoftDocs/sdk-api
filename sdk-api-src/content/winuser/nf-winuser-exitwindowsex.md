@@ -7,7 +7,7 @@ old-location: base\exitwindowsex.htm
 tech.root: Shutdown
 ms.assetid: f44ccb66-10bd-4ee6-93e1-16948cf10e50
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_HYBRID_SHUTDOWN, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_RESTARTAPPS, EWX_SHUTDOWN, ExitWindowsEx, ExitWindowsEx function, _win32_exitwindowsex, base.exitwindowsex, winuser/ExitWindowsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -244,7 +244,7 @@ During a shutdown or log-off operation, running applications are allowed a speci
 If the EWX_FORCEIFHUNG value is specified, the system forces hung applications to close and does not display the dialog box.
 
 Console processes receive a separate notification message, CTRL_SHUTDOWN_EVENT or CTRL_LOGOFF_EVENT, as the situation warrants. A console process routes these messages to its 
-<a href="https://msdn.microsoft.com/library/ms683242(v=VS.85).aspx">HandlerRoutine</a> function. 
+<a href="base.handlerroutine">HandlerRoutine</a> function. 
 <b>ExitWindowsEx</b> sends these notification messages asynchronously; thus, an application cannot assume that the console notification messages have been handled when a call to 
 <b>ExitWindowsEx</b> returns.
 
@@ -271,7 +271,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/ms683242(v=VS.85).aspx">HandlerRoutine</a>
+<a href="base.handlerroutine">HandlerRoutine</a>
 
 
 

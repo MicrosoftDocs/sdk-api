@@ -7,7 +7,7 @@ old-location: webdav\davgethttpfromuncpath.htm
 tech.root: WebDAV
 ms.assetid: caa83e54-a029-45aa-9681-26b2be54fea3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DavGetHTTPFromUNCPath, DavGetHTTPFromUNCPath function [WebDAV], davclnt/DavGetHTTPFromUNCPath, webdav.davgethttpfromuncpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

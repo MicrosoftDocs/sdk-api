@@ -7,7 +7,7 @@ old-location: pla\ivaluemap_createvaluemapitem.htm
 tech.root: PLA
 ms.assetid: 619b54a0-7015-4453-a09e-ac199eb1c581
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateValueMapItem, CreateValueMapItem method [PLA], CreateValueMapItem method [PLA],IValueMap interface, IValueMap interface [PLA],CreateValueMapItem method, IValueMap.CreateValueMapItem, IValueMap::CreateValueMapItem, pla.ivaluemap_createvaluemapitem, pla/IValueMap::CreateValueMapItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

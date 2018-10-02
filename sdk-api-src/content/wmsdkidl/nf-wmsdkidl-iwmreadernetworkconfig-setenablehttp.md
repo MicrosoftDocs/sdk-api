@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setenablehttp.htm
 tech.root: wmformat
 ms.assetid: 20667a28-e6e0-4ec0-905b-6735291063db
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableHTTP method, IWMReaderNetworkConfig.SetEnableHTTP, IWMReaderNetworkConfig::SetEnableHTTP, IWMReaderNetworkConfigSetEnableHTTP, SetEnableHTTP, SetEnableHTTP method [windows Media Format], SetEnableHTTP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenablehttp, wmsdkidl/IWMReaderNetworkConfig::SetEnableHTTP
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\crl_dist_point.htm
 tech.root: seccrypto
 ms.assetid: ec7ccc54-0aaa-4c32-8aa1-dcbaf59f9991
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCRL_DIST_POINT, CRL_DIST_POINT, CRL_DIST_POINT structure [Security], PCRL_DIST_POINT, PCRL_DIST_POINT structure pointer [Security], _CRL_DIST_POINT, _crypto2_crl_dist_point, security.crl_dist_point, wincrypt/CRL_DIST_POINT, wincrypt/PCRL_DIST_POINT"
 ms.prod: windows
 ms.technology: windows-sdk

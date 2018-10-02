@@ -7,7 +7,7 @@ old-location: security\cryptregisteroidfunction.htm
 tech.root: seccrypto
 ms.assetid: b625597d-28fd-4a40-afbe-a09201d36512
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CryptRegisterOIDFunction, CryptRegisterOIDFunction function [Security], _crypto2_cryptregisteroidfunction, security.cryptregisteroidfunction, wincrypt/CryptRegisterOIDFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ When you have finished using an OID function, unregister it by calling the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: stg\istorage_revert.htm
 tech.root: Stg
 ms.assetid: d1b7626e-bad1-47b5-8bcd-3da3b05c53c4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IStorage interface [Structured Storage],Revert method, IStorage.Revert, IStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStorage interface, _stg_istorage_revert, objidl/IStorage::Revert, stg.istorage_revert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ This method can return one of these values.
 
 For storage objects opened in transacted mode, the <b>IStorage::Revert</b> method discards any uncommitted changes to this storage object or changes that have been committed to this storage object from nested elements.
 
-After this method returns, any existing elements (substorages or streams) that were opened from the reverted storage object are invalid and can no longer be used. Specifying these reverted elements in any call except <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> returns the error STG_E_REVERTED
+After this method returns, any existing elements (substorages or streams) that were opened from the reverted storage object are invalid and can no longer be used. Specifying these reverted elements in any call except <a href="_com_iunknown_release">IUnknown::Release</a> returns the error STG_E_REVERTED
 
 This method has no effect on storage objects opened in direct mode.
 

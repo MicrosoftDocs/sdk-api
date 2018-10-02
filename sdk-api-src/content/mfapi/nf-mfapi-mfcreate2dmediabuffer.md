@@ -4,10 +4,10 @@ title: MFCreate2DMediaBuffer function
 author: windows-sdk-content
 description: Creates a system-memory buffer object to hold 2D image data.
 old-location: mf\mfcreate2dmediabuffer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7D999070-87BD-46AF-A4F0-C0A23DC1C876
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreate2DMediaBuffer, MFCreate2DMediaBuffer function [Media Foundation], mf.mfcreate2dmediabuffer, mfapi/MFCreate2DMediaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ Height of the image, in pixels.
 
 ### -param dwFourCC [in]
 
-A <b>FOURCC</b> code or <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> value that specifies the video format. If you have a video subtype GUID, you can use the first <b>DWORD</b> of the subtype.
+A <b>FOURCC</b> code or <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a> value that specifies the video format. If you have a video subtype GUID, you can use the first <b>DWORD</b> of the subtype.
 
 
 

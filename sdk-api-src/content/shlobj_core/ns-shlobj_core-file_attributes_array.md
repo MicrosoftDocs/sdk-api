@@ -4,10 +4,10 @@ title: FILE_ATTRIBUTES_ARRAY
 author: windows-sdk-content
 description: Contains the clipboard format definition for CFSTR_FILE_ATTRIBUTES_ARRAY.
 old-location: shell\FILE_ATTRIBUTES_ARRAY.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 222a1e97-df2f-49ad-be07-3172f49ecd06
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: FILE_ATTRIBUTES_ARRAY, FILE_ATTRIBUTES_ARRAY structure [Windows Shell], _shell_FILE_ATTRIBUTES_ARRAY, shell.FILE_ATTRIBUTES_ARRAY, shlobj_core/FILE_ATTRIBUTES_ARRAY
 ms.prod: windows
 ms.technology: windows-sdk

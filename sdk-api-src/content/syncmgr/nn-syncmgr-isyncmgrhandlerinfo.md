@@ -4,10 +4,10 @@ title: ISyncMgrHandlerInfo
 author: windows-sdk-content
 description: Exposes methods that allow a handler to provide property and state information to Sync Center.
 old-location: shell\ISyncMgrHandlerInfo.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 29cded59-d0f3-4678-9601-4931687b48e4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrHandlerInfo, ISyncMgrHandlerInfo interface [Windows Shell], ISyncMgrHandlerInfo interface [Windows Shell],described, _shell_ISyncMgrHandlerInfo, shell.ISyncMgrHandlerInfo, syncmgr/ISyncMgrHandlerInfo
 ms.prod: windows
 ms.technology: windows-sdk

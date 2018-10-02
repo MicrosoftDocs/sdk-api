@@ -7,7 +7,7 @@ old-location: dns\dnsnamecompare.htm
 tech.root: DNS
 ms.assetid: 4a1512b3-8273-4632-9426-daa36456bce3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DnsNameCompare, DnsNameCompare function [DNS], DnsNameCompare_A, DnsNameCompare_UTF8, DnsNameCompare_W, _dns_dnsnamecompare, dns.dnsnamecompare, windns/DnsNameCompare, windns/DnsNameCompare_A, windns/DnsNameCompare_UTF8, windns/DnsNameCompare_W
 ms.prod: windows-hardware
 ms.technology: windows-devices

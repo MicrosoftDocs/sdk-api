@@ -7,7 +7,7 @@ old-location: mstv\istreambufferinitialize_sethkey.htm
 tech.root: MSTV
 ms.assetid: f8d85180-2575-4525-9b8a-bec354e2cd4c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetHKEY method, IStreamBufferInitialize.SetHKEY, IStreamBufferInitialize::SetHKEY, IStreamBufferInitializeSetHKEY, SetHKEY, SetHKEY method [Microsoft TV Technologies], SetHKEY method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_sethkey, sbe/IStreamBufferInitialize::SetHKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,43 +129,47 @@ The caller may release the registry key handle after calling this method.
 
 The following code shows how to configure the backing file directory. Error checking is omitted for brevity.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Create the StreamBufferConfig object.
-CComPtr<IStreamBufferConfigure> pConfig;
+CComPtr&lt;IStreamBufferConfigure&gt; pConfig;
 hr = pConfig.CoCreateInstance(CLSID_StreamBufferConfig);
 
 // Create a new registry key to hold our settings.
 HKEY hkey = 0;
 long lRes = RegCreateKey(HKEY_LOCAL_MACHINE,
-    TEXT("SOFTWARE\\MyStreamBufferKey"), &hkey);
+    TEXT("SOFTWARE\\MyStreamBufferKey"), &amp;hkey);
 
 // Set the registry key.
-CComPtr<IStreamBufferInitialize> pInit;
-hr = pConfig.QueryInterface(&pInit);
-hr = pInit->SetHKEY(hkey);
+CComPtr&lt;IStreamBufferInitialize&gt; pInit;
+hr = pConfig.QueryInterface(&amp;pInit);
+hr = pInit-&gt;SetHKEY(hkey);
 pInit.Release();
 
 // Set the backing file directory.
-hr = pConfig->SetDirectory(L"C:\\MyDirectory");
+hr = pConfig-&gt;SetDirectory(L"C:\\MyDirectory");
 
 // Create the Stream Buffer Sink filter and set the registry key.
-CComPtr<IStreamBufferSink> pSink;
+CComPtr&lt;IStreamBufferSink&gt; pSink;
 hr = pSink.CoCreateInstance(CLSID_StreamBufferSink);
-hr = pSink.QueryInterface(&pInit);
-hr = pInit->SetHKEY(hkey);
+hr = pSink.QueryInterface(&amp;pInit);
+hr = pInit-&gt;SetHKEY(hkey);
 pInit.Release();
 
 // Create the Stream Buffer Source filter and set the registry key.
-CComPtr<IStreamBufferSource> pSource;
+CComPtr&lt;IStreamBufferSource&gt; pSource;
 hr = pSource.CoCreateInstance(CLSID_StreamBufferSource);
-hr = pSource.QueryInterface(&pInit);
-hr = pInit->SetHKEY(hkey);
-
-```
-
-
+hr = pSource.QueryInterface(&amp;pInit);
+hr = pInit-&gt;SetHKEY(hkey);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

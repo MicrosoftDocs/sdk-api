@@ -7,7 +7,7 @@ old-location: winsync\isyncsessionextendederrorinfo_getsyncproviderwitherror.htm
 tech.root: winsync
 ms.assetid: b0115f1a-41e7-4126-9b77-03960227d4fe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSyncProviderWithError, GetSyncProviderWithError method [Windows Sync], GetSyncProviderWithError method [Windows Sync],ISyncSessionExtendedErrorInfo interface, ISyncSessionExtendedErrorInfo interface [Windows Sync],GetSyncProviderWithError method, ISyncSessionExtendedErrorInfo.GetSyncProviderWithError, ISyncSessionExtendedErrorInfo::GetSyncProviderWithError, winsync.isyncsessionextendederrorinfo_getsyncproviderwitherror, winsync/ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
 ms.prod: windows-hardware
 ms.technology: windows-devices

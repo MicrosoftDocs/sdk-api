@@ -7,7 +7,7 @@ old-location: wininet\autoproxyhelperfunctions.htm
 tech.root: WinInet
 ms.assetid: 00574c2a-d72f-4744-82b7-3a980af59427
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AutoProxyHelperFunctions, AutoProxyHelperFunctions structure [WinINet], wininet.autoproxyhelperfunctions, wininet/AutoProxyHelperFunctions
 ms.prod: windows
 ms.technology: windows-sdk

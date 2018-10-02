@@ -7,7 +7,7 @@ old-location: dwm\dwmgetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetwindowattribute.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DwmGetWindowAttribute, DwmGetWindowAttribute function [Desktop Window Manager], _udwm_dwmgetwindowattribute, _udwm_dwmgetwindowattribute_cpp, dwm.dwmgetwindowattribute, dwmapi/DwmGetWindowAttribute, winui._udwm_dwmgetwindowattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The handle to the window from which the attribute data is retrieved.
 
 ### -param dwAttribute
 
-The attribute to retrieve, specified as a <a href="https://msdn.microsoft.com/en-us/library/Aa969530(v=VS.85).aspx">DWMWINDOWATTRIBUTE</a> value.
+The attribute to retrieve, specified as a <a href="https://msdn.microsoft.com/f7ed01d1-b5c6-4071-906b-1647ffa2157c">DWMWINDOWATTRIBUTE</a> value.
 
 
 ### -param pvAttribute [out]
@@ -75,7 +75,7 @@ A pointer to a value that, when this function returns successfully, receives the
 
 ### -param cbAttribute
 
-The size of the <a href="https://msdn.microsoft.com/en-us/library/Aa969530(v=VS.85).aspx">DWMWINDOWATTRIBUTE</a> value being retrieved. The size is dependent on the type of the <i>pvAttribute</i> parameter.
+The size of the <a href="https://msdn.microsoft.com/f7ed01d1-b5c6-4071-906b-1647ffa2157c">DWMWINDOWATTRIBUTE</a> value being retrieved. The size is dependent on the type of the <i>pvAttribute</i> parameter.
 
 
 ## -returns
@@ -92,11 +92,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a>
+<a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969538(v=VS.85).aspx">Enable and Control DWM Composition</a>
+<a href="https://msdn.microsoft.com/b728db22-db83-4607-8b09-6967697ef1b0">Enable and Control DWM Composition</a>
  
 
  

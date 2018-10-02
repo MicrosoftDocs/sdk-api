@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextcreateenumhandle0.htm
 tech.root: FWP
 ms.assetid: ce4340df-e4e0-48ca-b827-2216803a8a94
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPsecSaContextCreateEnumHandle0, IPsecSaContextCreateEnumHandle0 function [Filtering], fwp.ipsecsacontextcreateenumhandle0, fwpmu/IPsecSaContextCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

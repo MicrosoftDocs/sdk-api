@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectset_create.htm
 tech.root: OPC
 ms.assetid: 93bf4509-900c-42bc-9834-c8a33cfe7e65
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Create method, IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,9 +64,9 @@ A buffer that contains the XML markup for the <b>Object</b> element to be repres
 
 This XML markup must include the opening <b>Object</b> and closing <b>/Object</b> tags.
 
-The encoding of the markup contained in <i>xmlMarkup</i> will be inferred. Inclusion of a <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a> at the beginning of the buffer passed in <i>xmlMarkup</i> is optional.
+The encoding of the markup contained in <i>xmlMarkup</i> will be inferred. Inclusion of a <a href="_win32_Byte_Order_Mark">byte order mark</a> at the beginning of the buffer passed in <i>xmlMarkup</i> is optional.
 
-The following encodings and <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a> values are supported:<table>
+The following encodings and <a href="_win32_Byte_Order_Mark">byte order mark</a> values are supported:<table>
 <tr>
 <th>Encoding</th>
 <th>Description</th>

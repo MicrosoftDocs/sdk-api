@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4removeoptionvalue.htm
 tech.root: DHCP
 ms.assetid: 9f22e44e-0eb8-48a9-8a82-dccf41535ef6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4RemoveOptionValue, DhcpV4RemoveOptionValue function [DHCP], dhcp.dhcpv4removeoptionvalue, dhcpsapi/DhcpV4RemoveOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

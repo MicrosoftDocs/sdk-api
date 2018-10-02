@@ -7,7 +7,7 @@ old-location: fwp\ipsec_statistics0_struct.htm
 tech.root: FWP
 ms.assetid: 05873d6d-9e0c-4d3e-9b4d-7831e29e2942
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_STATISTICS0, IPSEC_STATISTICS0 structure [Filtering], IPSEC_STATISTICS0_, fwp.ipsec_statistics0_struct, ipsectypes/IPSEC_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

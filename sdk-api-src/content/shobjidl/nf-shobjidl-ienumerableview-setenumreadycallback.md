@@ -4,10 +4,10 @@ title: IEnumerableView::SetEnumReadyCallback
 author: windows-sdk-content
 description: Sets a callback on the view that is notified when the initial view enumeration is complete.
 old-location: shell\IEnumerableView_SetEnumReadyCallback.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: af824c16-5bbf-4c75-88d0-b76519152360
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumerableView interface [Windows Shell],SetEnumReadyCallback method, IEnumerableView.SetEnumReadyCallback, IEnumerableView::SetEnumReadyCallback, SetEnumReadyCallback, SetEnumReadyCallback method [Windows Shell], SetEnumReadyCallback method [Windows Shell],IEnumerableView interface, _shell_IEnumerableView_SetEnumReadyCallback, shell.IEnumerableView_SetEnumReadyCallback, shobjidl/IEnumerableView::SetEnumReadyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

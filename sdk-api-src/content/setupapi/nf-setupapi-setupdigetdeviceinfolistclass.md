@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinfolistclass.htm
 tech.root: devinst
 ms.assetid: 332945dc-9edc-4fbf-a4fa-533a00352553
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiGetDeviceInfoListClass, SetupDiGetDeviceInfoListClass function [Device and Driver Installation], devinst.setupdigetdeviceinfolistclass, di-rtns_219b6225-e6f3-40b4-8127-709c425a0cad.xml, setupapi/SetupDiGetDeviceInfoListClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>SetupDiGetDeviceInfoListClass</b> function retrieves the GUID for the <a 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> to query.
+A handle to the <a href="devinst.device_information_sets">device information set</a> to query.
 
 
 ### -param ClassGuid [out]

@@ -7,7 +7,7 @@ old-location: xps\ixpssignatureblock_getdocumentname.htm
 tech.root: printdocs
 ms.assetid: f93e94ff-c56f-4b3c-8af8-983253bd5657
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetDocumentName, GetDocumentName method [XPS Documents and Packaging], GetDocumentName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentName method, IXpsSignatureBlock.GetDocumentName, IXpsSignatureBlock::GetDocumentName, xps.ixpssignatureblock_getdocumentname, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName
 ms.prod: windows-hardware
 ms.technology: windows-devices

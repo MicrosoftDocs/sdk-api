@@ -7,7 +7,7 @@ old-location: opc\opc_compression_options.htm
 tech.root: OPC
 ms.assetid: bc821e84-fd18-449c-89d0-a261f43f8971
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OPC_COMPRESSION_FAST, OPC_COMPRESSION_MAXIMUM, OPC_COMPRESSION_NONE, OPC_COMPRESSION_NORMAL, OPC_COMPRESSION_OPTIONS, OPC_COMPRESSION_OPTIONS enumeration [Open Packaging Conventions], OPC_COMPRESSION_SUPERFAST, __MIDL___MIDL_itf_msopc_0000_0002_0002, msopc/OPC_COMPRESSION_FAST, msopc/OPC_COMPRESSION_MAXIMUM, msopc/OPC_COMPRESSION_NONE, msopc/OPC_COMPRESSION_NORMAL, msopc/OPC_COMPRESSION_OPTIONS, msopc/OPC_COMPRESSION_SUPERFAST, opc.opc_compression_options
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wsgetsecuritytokenproperty.htm
 tech.root: wsw
 ms.assetid: ce41062f-5125-4a4b-acc1-5df15b26276b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsGetSecurityTokenProperty, WsGetSecurityTokenProperty function [Web Services for Windows], webservices/WsGetSecurityTokenProperty, wsw.wsgetsecuritytokenproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cryptverifycertificatesignatureex.htm
 tech.root: seccrypto
 ms.assetid: 8a84af66-b174-4a3e-b1d7-6f218a52d877
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CRYPT_VERIFY_CERT_SIGN_DISABLE_MD2_MD4_FLAG, CRYPT_VERIFY_CERT_SIGN_ISSUER_CERT, CRYPT_VERIFY_CERT_SIGN_ISSUER_CHAIN, CRYPT_VERIFY_CERT_SIGN_ISSUER_NULL, CRYPT_VERIFY_CERT_SIGN_ISSUER_PUBKEY, CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SET_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SUBJECT_BLOB, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CERT, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CRL, CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE, CryptVerifyCertificateSignatureEx, CryptVerifyCertificateSignatureEx function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignatureex, security.cryptverifycertificatesignatureex, wincrypt/CryptVerifyCertificateSignatureEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

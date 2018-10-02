@@ -4,10 +4,10 @@ title: ICategoryCollection::get_Item
 author: windows-sdk-content
 description: Gets an ICategory interface from the collection.
 old-location: wua\icategorycollection_item.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: dbdf48a6-6a5b-4581-ba6c-a26acd004ecf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICategoryCollection interface [Windows Update Agent],Item property, ICategoryCollection.Item, ICategoryCollection.get_Item, ICategoryCollection::Item, ICategoryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],ICategoryCollection interface, get_Item, wua.icategorycollection_item, wuapi/ICategoryCollection::Item, wuapi/ICategoryCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

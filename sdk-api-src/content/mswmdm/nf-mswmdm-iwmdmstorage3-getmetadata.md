@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage3_getmetadata.htm
 tech.root: WMDM
 ms.assetid: 7e436742-fb19-4e8e-98a2-d961c9f0ecbf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMetadata, GetMetadata method [windows Media Device Manager], GetMetadata method [windows Media Device Manager],IWMDMStorage3 interface, IWMDMStorage3 interface [windows Media Device Manager],GetMetadata method, IWMDMStorage3.GetMetadata, IWMDMStorage3::GetMetadata, IWMDMStorage3GetMetadata, mswmdm/IWMDMStorage3::GetMetadata, wmdm.iwmdmstorage3_getmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,13 @@ When retrieving data from a Windows Portable Devices (WPD) device, the data is r
 
 The following C++ function retrieves all the metadata associated with a storage.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Function to print out all the metadata associated with a storage.
 HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
 {
@@ -109,12 +113,12 @@ HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
    // The custom BREAK_HR macro checks for failed HRESULT values and does this.
    do
    {
-      CComPtr<IWMDMStorage3> pStorage3;
-      CComPtr<IWMDMMetaData> pMetadata;
-      hr = pStorage->QueryInterface(__uuidof(IWMDMStorage3), (void**)&pStorage3);
+      CComPtr&lt;IWMDMStorage3&gt; pStorage3;
+      CComPtr&lt;IWMDMMetaData&gt; pMetadata;
+      hr = pStorage-&gt;QueryInterface(__uuidof(IWMDMStorage3), (void**)&amp;pStorage3);
       BREAK_HR(hr, "Got an IWMDMStorage3 interface in GetMetadata.", "Couldn't get an IWMDMStorage3 interface in GetMetadata.");
 
-      hr = pStorage3->GetMetadata(&pMetadata);
+      hr = pStorage3-&gt;GetMetadata(&amp;pMetadata);
       BREAK_HR(hr, "Got an IWMDMMetaData interface in GetMetadata.", "Couldn't get an IWMDMMetaData interface in GetMetadata.");
 
       //
@@ -126,14 +130,14 @@ HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
       UINT count = 0;
       WCHAR* name;
       // Get the number of metadata items.
-      hr = pMetadata->GetItemCount(&count);
+      hr = pMetadata-&gt;GetItemCount(&amp;count);
 
       BREAK_HR(hr, "Got a metadata count in GetMetadata.", "Couldn't get a metadata count in GetMetadata.");
-      for(;count > 0; count--)
+      for(;count &gt; 0; count--)
       {
          // Get the metadata property by index.
          WCHAR* name;
-         hr = pMetadata->QueryByIndex(count-1, &name, &type, &value, &len);
+         hr = pMetadata-&gt;QueryByIndex(count-1, &amp;name, &amp;type, &amp;value, &amp;len);
          if (SUCCEEDED(hr))
          {
             // TODO: Display the property name.
@@ -168,7 +172,7 @@ HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
             case WMDM_TYPE_GUID:
                {
                   WCHAR strGuid[64];
-                  StringFromGUID2(reinterpret_cast<GUID&>(value),(LPOLESTR)strGuid, 64);
+                  StringFromGUID2(reinterpret_cast&lt;GUID&amp;&gt;(value),(LPOLESTR)strGuid, 64);
                   // TODO: Display the GUID value.
                }
                break;
@@ -184,7 +188,7 @@ HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
 
       // Now get a specific property by name.
       // If this property isn't supported, the method returns E_INVALIDARG.
-      hr = pMetadata->QueryByName(g_wszWMDMFileName, &type, &value, &len);
+      hr = pMetadata-&gt;QueryByName(g_wszWMDMFileName, &amp;type, &amp;value, &amp;len);
       if (hr == S_OK) 
       {
          wstring wstr((wchar_t*)value, len / 2); // Create a string from the name.
@@ -193,7 +197,7 @@ HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
       }
 
       // See if file is DRM-protected.
-      hr = pMetadata->QueryByName(g_wszWMDMIsProtected, &type, &value, &len);
+      hr = pMetadata-&gt;QueryByName(g_wszWMDMIsProtected, &amp;type, &amp;value, &amp;len);
       if (hr == S_OK)
       {
          // TODO: Display a message that the object is DRM protected.
@@ -205,10 +209,10 @@ HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
    // Clean up and return.
    return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

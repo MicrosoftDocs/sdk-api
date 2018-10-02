@@ -4,10 +4,10 @@ title: IAzRoleDefinitions
 author: windows-sdk-content
 description: Represents a collection of IAzRoleDefinition objects.
 old-location: security\iazroledefinitions.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9d17647c-3ff9-4881-a02f-d7bcb508e102
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IAzRoleDefinitions, IAzRoleDefinitions interface [Security], IAzRoleDefinitions interface [Security],described, azroles/IAzRoleDefinitions, security.iazroledefinitions
 ms.prod: windows
 ms.technology: windows-sdk

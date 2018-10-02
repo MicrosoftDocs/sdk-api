@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice2_getcanonicalname.htm
 tech.root: WMDM
 ms.assetid: 16e18a9e-315f-41a2-b895-e3e478720864
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [windows Media Device Manager], GetCanonicalName method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetCanonicalName method, IWMDMDevice2.GetCanonicalName, IWMDMDevice2::GetCanonicalName, IWMDMDevice2GetPnPName, mswmdm/IWMDMDevice2::GetCanonicalName, wmdm.iwmdmdevice2_getcanonicalname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,18 +148,22 @@ The format of canonical name is subject to change in future releases of Windows 
 
 The following C++ code retrieves a device canonical name.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Obtain an IWMDMDevice2 interface and call
 // some methods.
 const UINT MAX_CHARS = 100;
-CComQIPtr<IWMDMDevice2> pIWMDMDevice2(pIWMDMDevice);
+CComQIPtr&lt;IWMDMDevice2&gt; pIWMDMDevice2(pIWMDMDevice);
 if (pIWMDMDevice2 != NULL)
 {
     // Get the canonical name.
     WCHAR canonicalName[MAX_CHARS];
-    hr = pIWMDMDevice2->GetCanonicalName(canonicalName, MAX_CHARS);
+    hr = pIWMDMDevice2-&gt;GetCanonicalName(canonicalName, MAX_CHARS);
     if (hr == S_OK)
     {
         // TODO: Retrieve the canonical name.
@@ -168,10 +172,10 @@ if (pIWMDMDevice2 != NULL)
     // Find out the driver.
     myGetDriverName(pIWMDMDevice2);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

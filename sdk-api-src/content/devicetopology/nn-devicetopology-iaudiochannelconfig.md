@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiochannelconfig.htm
 tech.root: CoreAudio
 ms.assetid: b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IAudioChannelConfig, IAudioChannelConfig interface [Core Audio], IAudioChannelConfig interface [Core Audio],described, coreaudio.iaudiochannelconfig, devicetopology/IAudioChannelConfig
 ms.prod: windows
 ms.technology: windows-sdk

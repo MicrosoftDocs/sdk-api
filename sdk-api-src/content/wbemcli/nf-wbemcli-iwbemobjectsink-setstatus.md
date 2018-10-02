@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsink_setstatus.htm
 tech.root: WmiSdk
 ms.assetid: e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],SetStatus method, IWbemObjectSink.SetStatus, IWbemObjectSink::SetStatus, IWbemObjectSinkEx interface [Windows Management Instrumentation],SetStatus method, IWbemObjectSinkEx::SetStatus, SetStatus, SetStatus method [Windows Management Instrumentation], SetStatus method [Windows Management Instrumentation],IWbemObjectSink interface, SetStatus method [Windows Management Instrumentation],IWbemObjectSinkEx interface, WBEM_STATUS_COMPLETE, WBEM_STATUS_PROGRESS, WBEM_STATUS_REQUIREMENTS, _hmm_iwbemobjectsink_setstatus, wbemcli/IWbemObjectSink::SetStatus, wbemcli/IWbemObjectSinkEx::SetStatus, wmi.iwbemobjectsink_setstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Typically, a client implements the
 <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> methods that return their results using the 
 <b>IWbemObjectSink</b> interface. During this operation, WMI calls 
 <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a> as many times as required, followed by a final call to 
-<b>SetStatus</b>, and in many cases, <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a>.
+<b>SetStatus</b>, and in many cases, <a href="_com_iunknown_release">Release</a>.
 
 
 ## -parameters
@@ -107,7 +107,7 @@ Receives a pointer to a read-only <b>BSTR</b>, if the original asynchronous oper
 ### -param pObjParam [in]
 
 In cases where a complex error or status object is returned, this contains a pointer to the error object. If the object is required after 
-<b>SetStatus</b> returns, the called object must use the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the pointer before the called object returns.
+<b>SetStatus</b> returns, the called object must use the <a href="_com_iunknown_addref">AddRef</a> method on the pointer before the called object returns.
 
 
 ## -returns

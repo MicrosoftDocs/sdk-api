@@ -4,10 +4,10 @@ title: NetAccessEnum function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessenum.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 34ffea84-ff41-43c3-864c-957178e9d22a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: 0, 1, NetAccessEnum, NetAccessEnum function [Network Management], _win32_netaccessenum, lmaccess/NetAccessEnum, netmgmt.netaccessenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

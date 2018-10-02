@@ -7,7 +7,7 @@ old-location: gdi\bitmapcoreheader.htm
 tech.root: gdi
 ms.assetid: 0182adcd-dbba-43de-b41b-ab2f0fd8f7bf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPBITMAPCOREHEADER, *PBITMAPCOREHEADER, BITMAPCOREHEADER, BITMAPCOREHEADER structure [Windows GDI], PBITMAPCOREHEADER, PBITMAPCOREHEADER structure pointer [Windows GDI], _win32_BITMAPCOREHEADER_str, gdi.bitmapcoreheader, tagBITMAPCOREHEADER, wingdi/BITMAPCOREHEADER, wingdi/PBITMAPCOREHEADER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,15 +94,19 @@ The <a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BI
 
 An application should use the information stored in the <b>bcSize</b> member to locate the color table in a <a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BITMAPCOREINFO</a> structure, using a method such as the following:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 pColor = ((LPBYTE) pBitmapCoreInfo + 
-        (WORD) (pBitmapCoreInfo -> bcSize)) 
-
-```
-
-
+        (WORD) (pBitmapCoreInfo -&gt; bcSize)) 
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: bltooth\bth_le_gatt_event_type.htm
 tech.root: bltooth
 ms.assetid: 6AF30DEA-2018-4AA2-B13A-BD31BD641F9F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BTH_LE_GATT_EVENT_TYPE, BTH_LE_GATT_EVENT_TYPE enumeration [Bluetooth Devices], CharacteristicValueChangedEvent, _BTH_LE_GATT_EVENT_TYPE, bltooth.bth_le_gatt_event_type, bthledef/BTH_LE_GATT_EVENT_TYPE, bthledef/CharacteristicValueChangedEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,11 @@ The characteristic value has changed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450822(v=VS.85).aspx">Bluetooth GATT Event Callback Function</a>
+<a href="https://msdn.microsoft.com/96AC4E49-76D7-47B5-93B9-64D574A28E0A">Bluetooth GATT Event Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450804(v=VS.85).aspx">BluetoothGATTRegisterEvent</a>
+<a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>
  
 
  

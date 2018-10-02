@@ -7,7 +7,7 @@ old-location: mstv\idvbnetworknamedescriptor.htm
 tech.root: MSTV
 ms.assetid: 1b80892d-05e6-4776-932a-a9e2bf985984
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbNetworkNameDescriptor, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies], IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/ IDvbNetworkNameDescriptor, mstv.idvbnetworknamedescriptor
 ms.prod: windows
 ms.technology: windows-sdk

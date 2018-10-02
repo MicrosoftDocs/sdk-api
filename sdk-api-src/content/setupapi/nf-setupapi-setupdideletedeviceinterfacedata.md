@@ -7,7 +7,7 @@ old-location: devinst\setupdideletedeviceinterfacedata.htm
 tech.root: devinst
 ms.assetid: 20c9fe5b-ed88-4e2c-bca5-eba62f919fe6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiDeleteDeviceInterfaceData, SetupDiDeleteDeviceInterfaceData function [Device and Driver Installation], devinst.setupdideletedeviceinterfacedata, di-rtns_6694af3a-5716-4ee6-b10e-2603dc341781.xml, setupapi/SetupDiDeleteDeviceInterfaceData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>SetupDiDeleteDeviceInterfaceData</b> function deletes a device interface 
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the interface to delete. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
+A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the interface to delete. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
 
 
 ### -param DeviceInterfaceData [in]

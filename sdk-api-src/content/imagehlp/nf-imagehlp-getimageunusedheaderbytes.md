@@ -4,10 +4,10 @@ title: GetImageUnusedHeaderBytes function
 author: windows-sdk-content
 description: Retrieves the offset and size of the part of the PE header that is currently unused.
 old-location: base\getimageunusedheaderbytes.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 4ad9c833-693b-4c19-b397-f97f166efadc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: GetImageUnusedHeaderBytes, GetImageUnusedHeaderBytes function, _win32_getimageunusedheaderbytes, base.getimageunusedheaderbytes, imagehlp/GetImageUnusedHeaderBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

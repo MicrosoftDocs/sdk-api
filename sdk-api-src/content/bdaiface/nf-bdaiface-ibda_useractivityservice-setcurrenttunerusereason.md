@@ -7,7 +7,7 @@ old-location: mstv\ibda_useractivityservice_setcurrenttunerusereason.htm
 tech.root: MSTV
 ms.assetid: 248a0b01-02be-49b3-88ff-3b830d77e08d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_UserActivityService interface [Microsoft TV Technologies],SetCurrentTunerUseReason method, IBDA_UserActivityService.SetCurrentTunerUseReason, IBDA_UserActivityService::SetCurrentTunerUseReason, SetCurrentTunerUseReason, SetCurrentTunerUseReason method [Microsoft TV Technologies], SetCurrentTunerUseReason method [Microsoft TV Technologies],IBDA_UserActivityService interface, bdaiface/IBDA_UserActivityService::SetCurrentTunerUseReason, mstv.ibda_useractivityservice_setcurrenttunerusereason
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,7 +142,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797933(v=VS.85).aspx">IBDA_UserActivityService</a>
+<a href="https://msdn.microsoft.com/d2c8f14e-11d7-4385-a6c8-31b086ec1286">IBDA_UserActivityService</a>
  
 
  

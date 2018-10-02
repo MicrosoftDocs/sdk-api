@@ -7,7 +7,7 @@ old-location: termserv\wtsvirtualchannelwrite.htm
 tech.root: TermServ
 ms.assetid: cb999de8-74a1-4491-bffb-dc4d74a1fea3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WTSVirtualChannelWrite, WTSVirtualChannelWrite function [Remote Desktop Services], _win32_wtsvirtualchannelwrite, termserv.wtsvirtualchannelwrite, wtsapi32/WTSVirtualChannelWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

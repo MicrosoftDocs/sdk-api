@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontext_setoutputdpi.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setoutputdpi.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetOutputDPI method, IMILBitmapEffectRenderContext.SetOutputDPI, IMILBitmapEffectRenderContext::SetOutputDPI, SetOutputDPI, SetOutputDPI method [WPF Bitmap Effects], SetOutputDPI method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setoutputdpi, mileffects/IMILBitmapEffectRenderContext::SetOutputDPI, wibe._wibe_imilbitmapeffectrendercontext_setoutputdpi
 ms.prod: windows-hardware
 ms.technology: windows-devices

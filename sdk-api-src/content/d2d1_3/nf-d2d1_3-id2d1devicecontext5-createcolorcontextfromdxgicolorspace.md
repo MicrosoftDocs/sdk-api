@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext5_createcolorcontextfromdxgicolorspace.
 tech.root: direct2d
 ms.assetid: A8C785A1-0C16-4C16-9217-C54F1B911095
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: CreateColorContextFromDxgiColorSpace, CreateColorContextFromDxgiColorSpace method [Direct2D], CreateColorContextFromDxgiColorSpace method [Direct2D],ID2D1DeviceContext5 interface, ID2D1DeviceContext5 interface [Direct2D],CreateColorContextFromDxgiColorSpace method, ID2D1DeviceContext5.CreateColorContextFromDxgiColorSpace, ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace, d2d1_3/ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace, direct2d.id2d1devicecontext5_createcolorcontextfromdxgicolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

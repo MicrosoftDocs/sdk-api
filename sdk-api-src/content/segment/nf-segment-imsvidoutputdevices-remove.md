@@ -7,7 +7,7 @@ old-location: mstv\imsvidoutputdevices_remove.htm
 tech.root: MSTV
 ms.assetid: 40c4bc6b-091b-44b5-a313-5db20842adcf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],Remove method, IMSVidOutputDevices.Remove, IMSVidOutputDevices::Remove, IMSVidOutputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_remove, segment/IMSVidOutputDevices::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

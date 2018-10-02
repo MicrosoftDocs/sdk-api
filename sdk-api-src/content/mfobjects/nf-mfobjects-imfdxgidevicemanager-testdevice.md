@@ -4,10 +4,10 @@ title: IMFDXGIDeviceManager::TestDevice
 author: windows-sdk-content
 description: Tests whether a Microsoft Direct3D device handle is valid.
 old-location: mf\imfdxgidevicemanager_testdevice.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: DBBECFE0-110D-4A77-88D4-7D6AB8B2A67C
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],TestDevice method, IMFDXGIDeviceManager.TestDevice, IMFDXGIDeviceManager::TestDevice, TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_testdevice, mfobjects/IMFDXGIDeviceManager::TestDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ipin_queryinternalconnections.htm
 tech.root: DirectShow
 ms.assetid: c0289b89-9220-402c-858c-09076e2ab6b6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IPin interface [DirectShow],QueryInternalConnections method, IPin.QueryInternalConnections, IPin::QueryInternalConnections, IPinQueryInternalConnections, QueryInternalConnections, QueryInternalConnections method [DirectShow], QueryInternalConnections method [DirectShow],IPin interface, dshow.ipin_queryinternalconnections, strmif/IPin::QueryInternalConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: inputdev\get_xbutton_wparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_xbutton_wparam.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GET_XBUTTON_WPARAM, GET_XBUTTON_WPARAM macro [Keyboard and Mouse Input], _win32_GET_XBUTTON_WPARAM, _win32_get_xbutton_wparam_cpp, inputdev.get_xbutton_wparam, winui._win32_get_xbutton_wparam, winuser/GET_XBUTTON_WPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input Overview</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input Overview</a>
  
 
  

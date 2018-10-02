@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_is_started.htm
 tech.root: devio
 ms.assetid: 3C03AF3B-B40D-4909-89B1-BDF783154C28
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
 Retrieves the state of signal generation for a pin or channel. Each pin has a state of started or stopped as a  <a href="https://msdn.microsoft.com/07D76F8D-C5B5-4500-BFA2-452989868027">PWM_PIN_IS_STARTED_OUTPUT</a> structure.

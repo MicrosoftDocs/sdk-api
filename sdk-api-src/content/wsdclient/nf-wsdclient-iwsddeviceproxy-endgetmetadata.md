@@ -7,7 +7,7 @@ old-location: ncd\iwsddeviceproxy_endgetmetadata.htm
 tech.root: WsdApi
 ms.assetid: c59ee37f-9189-4c32-8404-23cc94d76ad9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,EndGetMetadata method, IWSDDeviceProxy.EndGetMetadata, IWSDDeviceProxy::EndGetMetadata, ncd.iwsddeviceproxy_endgetmetadata, wsdclient/IWSDDeviceProxy::EndGetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

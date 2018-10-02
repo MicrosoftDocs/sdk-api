@@ -7,7 +7,7 @@ old-location: adsi\iads_setinfo.htm
 tech.root: ADSI
 ms.assetid: e7ff6acd-b7c4-463d-a34f-fd793067c63a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, SetInfo, SetInfo method [ADSI], SetInfo method [ADSI],IADs interface, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,30 +81,38 @@ This guideline pertains only to the relationship of <b>IADs::SetInfo</b> with th
 
 The following code example illustrates the recommended  relation between <a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">IADs::Put</a> and <b>IADs::SetInfo</b>.
 
-
-```vb
-Dim obj as IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim obj as IADs
  
 obj.Put(prop1,val1)
 obj.Put(prop2.val2)
 obj.Put(prop3.val3)
-obj.SetInfo
-```
-
-
+obj.SetInfo</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example illustrates what is not recommended between <a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">IADs::Put</a> and <b>IADs::SetInfo</b>.
 
-
-```vb
-obj.Put(prop1,val1)
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>obj.Put(prop1,val1)
 obj.SetInfo
 obj.Put(prop2.val2)
 obj.SetInfo
 obj.Put(prop3.val3)
-obj.SetInfo
-```
-
-
+obj.SetInfo</pre>
+</td>
+</tr>
+</table></span></div>
 When used with  <a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7">IADs::PutEx</a>, <b>IADs::SetInfo</b> passes the operational requests specified by control codes, such as ADS_PROPERTY_UPDATE or ADS_PROPERTY_CLEAR, to the underlying directory store.
 
 
@@ -112,9 +120,13 @@ When used with  <a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2f
 
 The following Visual Basic code example uses the <b>IADs::SetInfo</b> method to save the property value of a user to the underlying directory.
 
-
-```vb
-Dim x as IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x as IADs
 On Error GoTo Cleanup
 
 Set x = GetObject("LDAP://CN=Administrator,CN=Users,DC=Fabrikam,DC=com")
@@ -131,19 +143,23 @@ x.Put "st", "Washington"
 x.SetInfo
 
 Cleanup:
-   If (Err.Number<>0) Then
-      MsgBox("An error has occurred. " & Err.Number)
+   If (Err.Number&lt;&gt;0) Then
+      MsgBox("An error has occurred. " &amp; Err.Number)
    End If
    Set x = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example updates property values in the property cache and commits the change to the directory store using <b>IADs::SetInfo</b>. For brevity, error checking is omitted.
 
-
-```cpp
-IADs *pAds NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADs *pAds NULL;
 VARIANT var;
 HRESULT hr = S_OK;
 LPWSTR path=L"LDAP://CN=Administrator,CN=Users,DC=Fabrikam,DC=com";
@@ -151,41 +167,41 @@ hr = ADsGetObject( path, IID_IADs, (void**) pADs);
 
 if(!(hr==S_OK)) {return hr;}
 
-VariantInit(&var);
+VariantInit(&amp;var);
 // Update values in the cache.
-V_BSTR(&var) = SysAllocString(L"Smith");
-V_VT(&var) = VT_BSTR;
-hr = pADs->Put(CComBSTR("sn"), var );
-VariantClear(&var);
+V_BSTR(&amp;var) = SysAllocString(L"Smith");
+V_VT(&amp;var) = VT_BSTR;
+hr = pADs-&gt;Put(CComBSTR("sn"), var );
+VariantClear(&amp;var);
  
-V_BSTR(&var) = SysAllocString(L"Jeff");
-V_VT(&var) = VT_BSTR;
-hr = pADs->Put(CComBSTR("givenName"), var );
-VariantClear(&var);
+V_BSTR(&amp;var) = SysAllocString(L"Jeff");
+V_VT(&amp;var) = VT_BSTR;
+hr = pADs-&gt;Put(CComBSTR("givenName"), var );
+VariantClear(&amp;var);
  
-V_BSTR(&var) = SysAllocString(L"1 Tanka Place");
-V_VT(&var) = VT_BSTR;
-hr = pADs->Put(CComBSTR("street"), var );
-VariantClear(&var);
+V_BSTR(&amp;var) = SysAllocString(L"1 Tanka Place");
+V_VT(&amp;var) = VT_BSTR;
+hr = pADs-&gt;Put(CComBSTR("street"), var );
+VariantClear(&amp;var);
  
-V_BSTR(&var) = SysAllocString(L"Sammamish");
-V_VT(&var) = VT_BSTR;
-hr = pADs->Put(CComBSTR("l"), var );
-VariantClear(&var);
+V_BSTR(&amp;var) = SysAllocString(L"Sammamish");
+V_VT(&amp;var) = VT_BSTR;
+hr = pADs-&gt;Put(CComBSTR("l"), var );
+VariantClear(&amp;var);
  
-V_BSTR(&var) = SysAllocString(L"Washington");
-V_VT(&var) = VT_BSTR;
-hr = pADs->Put(CComBSTR("st"), var );
-VariantClear(&var);
+V_BSTR(&amp;var) = SysAllocString(L"Washington");
+V_VT(&amp;var) = VT_BSTR;
+hr = pADs-&gt;Put(CComBSTR("st"), var );
+VariantClear(&amp;var);
  
 // Commit changes to the directory store.
-hr = pADs->SetInfo();
+hr = pADs-&gt;SetInfo();
 
 if(pADs)
-   pADs->Release();
-```
-
-
+   pADs-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

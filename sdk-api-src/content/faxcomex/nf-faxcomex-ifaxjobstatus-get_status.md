@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_status_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_50dv.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],Status property, IFaxJobStatus.Status, IFaxJobStatus.get_Status, IFaxJobStatus::Status, IFaxJobStatus::get_Status, Status property [Fax Service], Status property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.status, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_status_cpp, fax._mfax_faxjobstatus_status, faxcomex/IFaxJobStatus::Status, faxcomex/IFaxJobStatus::get_Status, get_Status
 ms.prod: windows-hardware
 ms.technology: windows-devices

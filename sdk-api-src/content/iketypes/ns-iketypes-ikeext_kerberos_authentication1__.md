@@ -7,7 +7,7 @@ old-location: fwp\ikeext_kerberos_authentication1.htm
 tech.root: FWP
 ms.assetid: c9ea72e1-3d98-49f1-9061-d19e16f50660
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IKEEXT_KERBEROS_AUTHENTICATION1, IKEEXT_KERBEROS_AUTHENTICATION1 structure [Filtering], IKEEXT_KERBEROS_AUTHENTICATION1__, IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, IKEEXT_KERB_AUTH_FORCE_PROXY_ON_INITIATOR, fwp.ikeext_kerberos_authentication1, iketypes/IKEEXT_KERBEROS_AUTHENTICATION1
 ms.prod: windows
 ms.technology: windows-sdk

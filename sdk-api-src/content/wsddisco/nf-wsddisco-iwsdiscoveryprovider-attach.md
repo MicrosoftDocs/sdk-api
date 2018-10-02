@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveryprovider_attach_method.htm
 tech.root: WsdApi
 ms.assetid: 3bb2aead-b082-4a2b-b4bf-97a1feb1e11e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach
 ms.prod: windows-hardware
 ms.technology: windows-devices

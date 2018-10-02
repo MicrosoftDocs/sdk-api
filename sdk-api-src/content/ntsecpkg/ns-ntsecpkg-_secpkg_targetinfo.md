@@ -7,7 +7,7 @@ old-location: security\secpkg_targetinfo.htm
 tech.root: secauthn
 ms.assetid: c8d4ac70-743b-42b1-940c-d3d37a6174bc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*PSECPKG_TARGETINFO, PSECPKG_TARGETINFO, PSECPKG_TARGETINFO structure pointer [Security], SECPKG_TARGETINFO, SECPKG_TARGETINFO structure [Security], _SECPKG_TARGETINFO, ntsecpkg/PSECPKG_TARGETINFO, ntsecpkg/SECPKG_TARGETINFO, security.secpkg_targetinfo"
 ms.prod: windows
 ms.technology: windows-sdk

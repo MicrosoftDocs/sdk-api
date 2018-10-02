@@ -7,7 +7,7 @@ old-location: fs\setntmsrequestorder.htm
 tech.root: Rsm
 ms.assetid: d7171ce9-14d9-4fbc-b95f-19c502adedd0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetNtmsRequestOrder, SetNtmsRequestOrder function [Files], _zaw_setntmsrequestorder, base.setntmsrequestorder, fs.setntmsrequestorder, ntmsapi/SetNtmsRequestOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -185,7 +185,7 @@ To process a request immediately, an application can set the order number to 1. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_getobjecttotalsize.htm
 tech.root: WMDM
 ms.assetid: 50ab01f9-0f38-485e-b7d9-98bc95948427
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetObjectTotalSize, GetObjectTotalSize method [windows Media Device Manager], GetObjectTotalSize method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectTotalSize method, IWMDMOperation.GetObjectTotalSize, IWMDMOperation::GetObjectTotalSize, IWMDMOperationGetObjectTotalSize, mswmdm/IWMDMOperation::GetObjectTotalSize, wmdm.iwmdmoperation_getobjecttotalsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,26 +133,30 @@ This method is called after the <a href="https://msdn.microsoft.com/4e1f4300-057
 
 The following C++ code implements GetObjectTotalSize. It uses the Win32 function GetFileInformationByHandle to retrieve the file size of the file about to be written to the device (m_File), and returns the values.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // About to start writing to the device.
 HRESULT GetObjectTotalSize(DWORD*  pdwSize,    DWORD*  pdwSizeHigh)
 {
     BY_HANDLE_FILE_INFORMATION fileInfo;
     GetFileInformationByHandle(
         m_File,
-        &fileInfo);
+        &amp;fileInfo);
 
     *pdwSize = fileInfo.nFileSizeLow;
     *pdwSizeHigh = fileInfo.nFileSizeHigh;
     // TODO: Display the message: "IWMDMOperation event--GetObjectTotalSize."
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

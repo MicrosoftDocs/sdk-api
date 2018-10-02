@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentAriaRole.htm
 tech.root: WinAuto
 ms.assetid: 469c0d3d-3063-4000-b18c-82b2c81482fa
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CurrentAriaRole property [Windows Accessibility], CurrentAriaRole property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAriaRole property, IUIAutomationElement.CurrentAriaRole, IUIAutomationElement.get_CurrentAriaRole, IUIAutomationElement::CurrentAriaRole, IUIAutomationElement::get_CurrentAriaRole, get_CurrentAriaRole, uiauto.uiauto_IUIAutomationElement_CurrentAriaRole, uiauto_IUIAutomationElement_CurrentAriaRole, uiautomationclient/IUIAutomationElement::CurrentAriaRole, uiautomationclient/IUIAutomationElement::get_CurrentAriaRole, winauto.uiauto_IUIAutomationElement_CurrentAriaRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

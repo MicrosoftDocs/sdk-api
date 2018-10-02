@@ -7,7 +7,7 @@ old-location: adsi\iadspropertylist_purgepropertylist.htm
 tech.root: ADSI
 ms.assetid: 872c8af7-60c4-4dfc-aa37-0cbb2229a93f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsPropertyList interface [ADSI],PurgePropertyList method, IADsPropertyList.PurgePropertyList, IADsPropertyList::PurgePropertyList, PurgePropertyList, PurgePropertyList method [ADSI], PurgePropertyList method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_purgepropertylist, adsi.iadspropertylist__purgepropertylist, adsi.iadspropertylist_purgepropertylist, iads/IADsPropertyList::PurgePropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,9 +80,13 @@ When the <b>PurgePropertyList</b> method is called, all the items are removed fr
 
 The following code example shows how to implement <b>IADsPropertyList::PurgePropertyList</b>.
 
-
-```vb
-Dim propList As IADsPropertyList
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim propList As IADsPropertyList
  
 On Error GoTo Cleanup
 
@@ -96,20 +100,24 @@ propList.PurgePropertyList
 Set propEntry = propList.GetPropertyItem("adminDescription", ADSTYPE_CASE_IGNORE_STRING)
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
 
     Set propList = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows the effect produced by a call to <b>IADsPropertyList::PurgePropertyList</b>.  For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>.
 
-
-```cpp
-IADsPropertyList *GetPropertyCache(LPWSTR);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPropertyList *GetPropertyCache(LPWSTR);
  
 void TestPurgePropertyList()
 {
@@ -120,18 +128,18 @@ void TestPurgePropertyList()
 
     if(pList)
     {
-        pList->get_PropertyCount(&count);
+        pList-&gt;get_PropertyCount(&amp;count);
         printf("Number of properties before purging: %d\n",count);
  
         count = -1;
-        pList->PurgePropertyList();
-        pList->get_PropertyCount(&count);
+        pList-&gt;PurgePropertyList();
+        pList-&gt;get_PropertyCount(&amp;count);
         printf("Number of properties after purging: %d\n",count);
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

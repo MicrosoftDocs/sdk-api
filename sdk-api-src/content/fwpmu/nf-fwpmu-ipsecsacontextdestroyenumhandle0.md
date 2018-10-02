@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextdestroyenumhandle0.htm
 tech.root: FWP
 ms.assetid: 2d8cb6e2-3923-473f-85d0-26638781651b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPsecSaContextDestroyEnumHandle0, IPsecSaContextDestroyEnumHandle0 function [Filtering], fwp.ipsecsacontextdestroyenumhandle0, fwpmu/IPsecSaContextDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

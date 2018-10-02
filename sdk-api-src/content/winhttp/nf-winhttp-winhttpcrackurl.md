@@ -4,10 +4,10 @@ title: WinHttpCrackUrl function
 author: windows-sdk-content
 description: The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.
 old-location: http\winhttpcrackurl.htm
-tech.root: winhttp
+tech.root: WinHttp
 ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
 ms.author: windowssdkdev
-ms.date: 09/11/2018
+ms.date: 09/26/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCrackUrl, WinHttpCrackUrl function [WinHTTP], http.winhttpcrackurl, winhttp.winhttpcrackurl_function, winhttp/WinHttpCrackUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -206,13 +206,13 @@ If the pointer contains the address of the user-supplied buffer, the length memb
 For 
 <b>WinHttpCrackUrl</b> to work properly, the size of the 
 <a href="https://msdn.microsoft.com/4d2c6f82-6b61-4a7b-a5d7-560152e25302">URL_COMPONENTS</a> structure must be stored in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384078(v=VS.85).aspx">dwStructSize</a> member of that structure.
+<a href="url_components.htm">dwStructSize</a> member of that structure.
 
 If the Internet protocol of the URL passed in for 
 <i>pwszUrl</i> is not HTTP or HTTPS, then 
 <b>WinHttpCrackUrl</b>  returns  <b>FALSE</b> and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>  indicates  
-<a href="https://msdn.microsoft.com/en-us/library/Aa383770(v=VS.85).aspx">ERROR_WINHTTP_UNRECOGNIZED_SCHEME</a>.
+<a href="error_messages.htm">ERROR_WINHTTP_UNRECOGNIZED_SCHEME</a>.
 
 <b>WinHttpCrackUrl</b> does not check the validity or format of a URL before attempting to crack it. As a result, if a string such as ""http://server?Bad=URL"" is passed in, the function returns incorrect results.
 
@@ -223,15 +223,19 @@ If the Internet protocol of the URL passed in for
 
 This example shows how to break a URL into its components, update a component, then reconstruct the URL.
 
-
-```cpp
-    URL_COMPONENTS urlComp;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    URL_COMPONENTS urlComp;
     LPCWSTR pwszUrl1 = 
-      L"http://search.msn.com/results.asp?RS=CHECKED&FORM=MSNH&v=1&q=wininet";
+      L"http://search.msn.com/results.asp?RS=CHECKED&amp;FORM=MSNH&amp;v=1&amp;q=wininet";
     DWORD dwUrlLen = 0;
 
     // Initialize the URL_COMPONENTS structure.
-    ZeroMemory(&urlComp, sizeof(urlComp));
+    ZeroMemory(&amp;urlComp, sizeof(urlComp));
     urlComp.dwStructSize = sizeof(urlComp);
 
     // Set required component lengths to non-zero 
@@ -242,7 +246,7 @@ This example shows how to break a URL into its components, update a component, t
     urlComp.dwExtraInfoLength = (DWORD)-1;
 
     // Crack the URL.
-    if (!WinHttpCrackUrl( pwszUrl1, (DWORD)wcslen(pwszUrl1), 0, &urlComp))
+    if (!WinHttpCrackUrl( pwszUrl1, (DWORD)wcslen(pwszUrl1), 0, &amp;urlComp))
     {
         printf("Error %u in WinHttpCrackUrl.\n", GetLastError());
     }
@@ -250,14 +254,14 @@ This example shows how to break a URL into its components, update a component, t
     {
         // Change the search information.  
         // New info is the same length.
-        urlComp.lpszExtraInfo = L"?RS=CHECKED&FORM=MSNH&v=1&q=winhttp";
+        urlComp.lpszExtraInfo = L"?RS=CHECKED&amp;FORM=MSNH&amp;v=1&amp;q=winhttp";
 
         // Obtain the size of the new URL and allocate memory.
-        WinHttpCreateUrl( &urlComp, 0, NULL, &dwUrlLen);
+        WinHttpCreateUrl( &amp;urlComp, 0, NULL, &amp;dwUrlLen);
         LPWSTR pwszUrl2 = new WCHAR[dwUrlLen];
 
         // Create a new URL.
-        if(!WinHttpCreateUrl( &urlComp, 0, pwszUrl2, &dwUrlLen))
+        if(!WinHttpCreateUrl( &amp;urlComp, 0, pwszUrl2, &amp;dwUrlLen))
         {
             printf("Error %u in WinHttpCreateUrl.\n", GetLastError());
         }
@@ -270,10 +274,10 @@ This example shows how to break a URL into its components, update a component, t
         // Free allocated memory.
         delete [] pwszUrl2;
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

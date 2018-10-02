@@ -4,10 +4,10 @@ title: IMFASFMutualExclusion::GetStreamsForRecord
 author: windows-sdk-content
 description: Retrieves the stream numbers contained in a record in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_getstreamsforrecord.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ce410ae9-d0d0-4617-8178-829ef3c77ce0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetStreamsForRecord, GetStreamsForRecord method [Media Foundation], GetStreamsForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetStreamsForRecord method, IMFASFMutualExclusion.GetStreamsForRecord, IMFASFMutualExclusion::GetStreamsForRecord, ce410ae9-d0d0-4617-8178-829ef3c77ce0, mf.imfasfmutualexclusion_getstreamsforrecord, wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

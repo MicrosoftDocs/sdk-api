@@ -4,10 +4,10 @@ title: SetContractDelegateWindow function
 author: windows-sdk-content
 description: Associates an app window other than the primary foreground window with an app's contracts. Use this function if you are a developer writing a Windows Store app in native C++.
 old-location: shell\SetContractDelegateWindow.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 681B2BEC-87C7-40F8-8795-B7965C3FBCCE
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SetContractDelegateWindow, SetContractDelegateWindow function [Windows Shell], shell.SetContractDelegateWindow, shobjidl_core/SetContractDelegateWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

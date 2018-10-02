@@ -7,7 +7,7 @@ old-location: ncd\wsd_soap_message_struct.htm
 tech.root: WsdApi
 ms.assetid: e5352a78-3ece-45d3-bf95-2d922065e3d5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSD_SOAP_MESSAGE, WSD_SOAP_MESSAGE structure, _WSD_SOAP_MESSAGE, ncd.wsd_soap_message_struct, wsdtypes/WSD_SOAP_MESSAGE
 ms.prod: windows
 ms.technology: windows-sdk

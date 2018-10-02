@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer_tuningspacesforname.htm
 tech.root: MSTV
 ms.assetid: de16a50e-7f5d-41e5-a17f-bb6d97179e4e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForName method, ITuningSpaceContainer.TuningSpacesForName, ITuningSpaceContainer::TuningSpacesForName, ITuningSpaceContainerTuningSpacesForName, TuningSpacesForName, TuningSpacesForName method [Microsoft TV Technologies], TuningSpacesForName method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforname, tuner/ITuningSpaceContainer::TuningSpacesForName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,36 +96,40 @@ The returned collection might be empty, if no tuning spaces match the name.
 
 #### Examples
 
-
-```cpp
-
-CComPtr <ITuningSpaceContainer>  pTuningSpaceContainer;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr &lt;ITuningSpaceContainer&gt;  pTuningSpaceContainer;
 // Create the SystemTuningSpaces object (not shown).
 
 // Try to match any tuning spaces named "Local (something) Cable".
-CComPtr<ITuningSpaces> pTunes;
+CComPtr&lt;ITuningSpaces&gt; pTunes;
 CComBSTR bstrName("Local.*Cable");
-hr = pITuningSpaceContainer->TuningSpacesForName(bstrName, &pTunes);
+hr = pITuningSpaceContainer-&gt;TuningSpacesForName(bstrName, &amp;pTunes);
 if (SUCCEEDED(hr))
 {
     // Find the size of the returned collection.
     long cCount = 0;
-    hr = pTunes->get_Count(&cCount);
-    if (SUCCEEDED(hr) && (cCount > 0))
+    hr = pTunes-&gt;get_Count(&amp;cCount);
+    if (SUCCEEDED(hr) &amp;&amp; (cCount &gt; 0))
     {
         // Enumerate the collection.
-        CComPtr<IEnumTuningSpaces> pTuneEnum;
-        hr = pTunes->get_EnumTuningSpaces(&pTuneEnum);
+        CComPtr&lt;IEnumTuningSpaces&gt; pTuneEnum;
+        hr = pTunes-&gt;get_EnumTuningSpaces(&amp;pTuneEnum);
         if (SUCCEEDED(hr))
         {
             // Use IEnumTuningSpaces to iterate through the collection.
         }
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

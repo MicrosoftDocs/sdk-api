@@ -7,7 +7,7 @@ old-location: intl\ispellingerror_correctiveaction.htm
 tech.root: Intl
 ms.assetid: 9b28d194-01a3-4ea2-8428-d2e91e6abad8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: CorrectiveAction property [Internationalization for Windows Applications], CorrectiveAction property [Internationalization for Windows Applications],ISpellingError interface, ISpellingError interface [Internationalization for Windows Applications],CorrectiveAction property, ISpellingError.CorrectiveAction, ISpellingError.get_CorrectiveAction, ISpellingError::CorrectiveAction, ISpellingError::get_CorrectiveAction, get_CorrectiveAction, intl.ispellingerror_correctiveaction, spellcheck/ISpellingError::CorrectiveAction, spellcheck/ISpellingError::get_CorrectiveAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

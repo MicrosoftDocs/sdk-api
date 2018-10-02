@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_csid_cpp.
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8vc4.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],CSID property, IFaxOutgoingMessage.CSID, IFaxOutgoingMessage.get_CSID, IFaxOutgoingMessage::CSID, IFaxOutgoingMessage::get_CSID, _mfax_faxoutgoingmessage.csid, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_csid_cpp, fax._mfax_faxoutgoingmessage_csid, faxcomex/IFaxOutgoingMessage::CSID, faxcomex/IFaxOutgoingMessage::get_CSID, get_CSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

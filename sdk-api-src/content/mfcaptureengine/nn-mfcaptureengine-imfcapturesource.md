@@ -4,10 +4,10 @@ title: IMFCaptureSource
 author: windows-sdk-content
 description: Controls the capture source object. The capture source manages the audio and video capture devices.
 old-location: mf\imfcapturesource.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 864B6B5D-EB7E-4C49-A326-9B6704A27635
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], IMFCaptureSource interface [Media Foundation],described, mf.imfcapturesource, mfcaptureengine/IMFCaptureSource
 ms.prod: windows
 ms.technology: windows-sdk

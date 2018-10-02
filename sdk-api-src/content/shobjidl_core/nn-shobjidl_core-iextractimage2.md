@@ -4,10 +4,10 @@ title: IExtractImage2
 author: windows-sdk-content
 description: Extends the capabilities of IExtractImage.
 old-location: shell\IExtractImage2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4fa28126-e65c-49d9-ab76-fb4a0dd0747c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IExtractImage2, IExtractImage2 interface [Windows Shell], IExtractImage2 interface [Windows Shell],described, _win32_IExtractImage2, shell.IExtractImage2, shobjidl_core/IExtractImage2
 ms.prod: windows
 ms.technology: windows-sdk

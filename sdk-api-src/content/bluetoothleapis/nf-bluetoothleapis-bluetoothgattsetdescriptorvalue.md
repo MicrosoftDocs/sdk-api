@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattsetdescriptorvalue.htm
 tech.root: bltooth
 ms.assetid: B4EDDC32-732D-422B-85A0-FD935DBFE4EB
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -410,12 +410,16 @@ The parent descriptor must be returned from a previous call to BluetoothGATTGetD
 
 <b>Example</b>
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BTH_LE_GATT_DESCRIPTOR_VALUE newValue;
 
-RtlZeroMemory(&newValue, sizeof(newValue));
+RtlZeroMemory(&amp;newValue, sizeof(newValue));
 
 newValue.DescriptorType = ClientCharacteristicConfiguration;
 newValue.ClientCharacteristicConfiguration.IsSubscribeToNotification = TRUE;
@@ -423,12 +427,12 @@ newValue.ClientCharacteristicConfiguration.IsSubscribeToNotification = TRUE;
 // Subscribe to an event.
 hr = BluetoothGATTSetDescriptorValue(hDevice, 
                                 parentDescriptor, 
-                                &newValue,
+                                &amp;newValue,
                                 BLUETOOTH_GATT_FLAG_NONE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -437,11 +441,11 @@ hr = BluetoothGATTSetDescriptorValue(hDevice,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450843(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450847(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
+<a href="https://msdn.microsoft.com/81D05AA7-B16C-4705-919F-8563FFA4A58E">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: fs\file_allocation_info.htm
 tech.root: fileio
 ms.assetid: 909f1747-0099-407e-89a7-bec6331887da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PFILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO structure [Files], PFILE_ALLOCATION_INFO, PFILE_ALLOCATION_INFO structure pointer [Files], _FILE_ALLOCATION_INFO, fileextd/FILE_ALLOCATION_INFO, fileextd/PFILE_ALLOCATION_INFO, fs.file_allocation_info, winbase/FILE_ALLOCATION_INFO, winbase/PFILE_ALLOCATION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

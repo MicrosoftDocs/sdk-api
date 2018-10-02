@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagebrush_setsourcerectangle.htm
 tech.root: direct2d
 ms.assetid: be445505-585f-448b-a7eb-386e18a416b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetSourceRectangle method, ID2D1ImageBrush.SetSourceRectangle, ID2D1ImageBrush::SetSourceRectangle, SetSourceRectangle, SetSourceRectangle method [Direct2D], SetSourceRectangle method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetSourceRectangle, direct2d.id2d1imagebrush_setsourcerectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

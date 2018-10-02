@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveryprovidernotify_add.htm
 tech.root: WsdApi
 ms.assetid: 4e36157f-444d-4e59-bc30-c6def9c51cea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Add, Add method, Add method,IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,Add method, IWSDiscoveryProviderNotify.Add, IWSDiscoveryProviderNotify::Add, ncd.iwsdiscoveryprovidernotify_add, wsddisco/IWSDiscoveryProviderNotify::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSinkWriter::WriteSample
 author: windows-sdk-content
 description: Delivers a sample to the sink writer.
 old-location: mf\imfsinkwriter_writesample.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1c65a5d0-cc1b-456e-9d88-a24da57ee30a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],WriteSample method, IMFSinkWriter.WriteSample, IMFSinkWriter::WriteSample, WriteSample, WriteSample method [Media Foundation], WriteSample method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_writesample, mfreadwrite/IMFSinkWriter::WriteSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

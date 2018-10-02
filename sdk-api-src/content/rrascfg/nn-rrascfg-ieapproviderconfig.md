@@ -7,7 +7,7 @@ old-location: eap\ieapproviderconfig.htm
 tech.root: EAP
 ms.assetid: 1e0283b7-ceb3-4c8a-99d9-1a1f1eb5eeb0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEAPProviderConfig, IEAPProviderConfig interface [EAP], IEAPProviderConfig interface [EAP],described, _eap_ieapproviderconfig, eap.ieapproviderconfig, rrascfg/IEAPProviderConfig
 ms.prod: windows
 ms.technology: windows-sdk

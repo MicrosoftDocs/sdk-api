@@ -7,7 +7,7 @@ old-location: tsf\tfshiftdir.htm
 tech.root: TSF
 ms.assetid: f6a9f9a2-9691-49c7-a481-47ad2cd67a4d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: TF_SD_BACKWARD, TF_SD_FORWARD, TfShiftDir, TfShiftDir enumeration [Text Services Framework], __MIDL_ITfRange_0002, _tsf_tfshiftdir_ref, msctf/TF_SD_BACKWARD, msctf/TF_SD_FORWARD, msctf/TfShiftDir, tsf.tfshiftdir
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: snmp\smioid_str.htm
 tech.root: SNMP
 ms.assetid: 0bdf900e-6e67-4461-97bc-4c9650d888bf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*smiLPOID, _snmp_smioid_str, smiLPOID, smiLPOID structure pointer [SNMP], smiOID, smiOID structure [SNMP], snmp.smioid_str, winsnmp/smiLPOID, winsnmp/smiOID"
 ms.prod: windows
 ms.technology: windows-sdk

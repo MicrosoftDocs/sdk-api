@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_setmaximumcachesize.htm
 tech.root: Bits
 ms.assetid: 064376cf-8865-45a1-a63a-1096bc0d58ce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBitsPeerCacheAdministration interface [BITS],SetMaximumCacheSize method, IBitsPeerCacheAdministration.SetMaximumCacheSize, IBitsPeerCacheAdministration::SetMaximumCacheSize, SetMaximumCacheSize, SetMaximumCacheSize method [BITS], SetMaximumCacheSize method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setmaximumcachesize, bits3_0/IBitsPeerCacheAdministration::SetMaximumCacheSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ The configuration preference has been saved successfully, but the preference wil
 
 This value is used only if the MaxCacheSize group policy is not set.
 
-If the maximum cache size is reached, BITS removes the least recently accessed files until the necessary disk space is freed. If you specify a value that is less than the current cache size, BITS removes files from the cache until the requested size is met. BITS removes the files based on <a href="https://msdn.microsoft.com/en-us/library/Aa964290(v=VS.85).aspx">age</a>. Files that are larger than the cache size are not cached.
+If the maximum cache size is reached, BITS removes the least recently accessed files until the necessary disk space is freed. If you specify a value that is less than the current cache size, BITS removes files from the cache until the requested size is met. BITS removes the files based on <a href="https://msdn.microsoft.com/815d9e48-f1f0-4c40-a277-d78db9d6ace1">age</a>. Files that are larger than the cache size are not cached.
 
 By default, the maximum cache size is 1% of the disk size.    BITS does not use the limit to reserve disk space for the cache. BITS will use up to the specified limit for the cache, if the disk space is available. The maximum value you can specify is 80% of the disk size.
 
@@ -123,15 +123,15 @@ If the request is to reduce the size of the cache and BITS is currently download
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964282(v=VS.85).aspx">IBitsPeerCacheAdministration::GetMaximumCacheSize</a>
+<a href="https://msdn.microsoft.com/6ea0e6f7-c674-4088-9085-5f6246681009">IBitsPeerCacheAdministration::GetMaximumCacheSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964290(v=VS.85).aspx">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
+<a href="https://msdn.microsoft.com/815d9e48-f1f0-4c40-a277-d78db9d6ace1">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
  
 
  

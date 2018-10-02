@@ -4,10 +4,10 @@ title: D3D11_VIDEO_DECODER_DESC
 author: windows-sdk-content
 description: Describes a video stream for a Microsoft Direct3D 11 video decoder or video processor.
 old-location: mf\d3d11_video_decoder_desc.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 668D994C-B875-4666-B940-1052A6DE6AA1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_VIDEO_DECODER_DESC, D3D11_VIDEO_DECODER_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_DESC, mf.d3d11_video_decoder_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Describes a video stream for a Microsoft Direct3D 11 video decoder or video pro
 
 ### -field Guid
 
-The decoding profile. To get the list of profiles supported by the device, call the <a href="https://msdn.microsoft.com/en-us/library/Hh447795(v=VS.85).aspx">ID3D11VideoDevice::GetVideoDecoderProfile</a> method.
+The decoding profile. To get the list of profiles supported by the device, call the <a href="https://msdn.microsoft.com/8D958469-7FC3-4B4F-82BF-271662CF0088">ID3D11VideoDevice::GetVideoDecoderProfile</a> method.
 
 
 ### -field SampleWidth
@@ -81,7 +81,7 @@ The height of the video frame, in pixels.
 
 ### -field OutputFormat
 
-The output surface format, specified as a <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value.
+The output surface format, specified as a <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> value.
 
 
 ## -see-also
@@ -89,7 +89,7 @@ The output surface format, specified as a <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

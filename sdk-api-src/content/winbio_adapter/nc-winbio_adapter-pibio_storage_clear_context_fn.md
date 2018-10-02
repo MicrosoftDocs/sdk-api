@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapterclearcontext.htm
 tech.root: SecBioMet
 ms.assetid: d7022363-01e9-4675-9bd0-e9369d237c3c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_CLEAR_CONTEXT_FN, PIBIO_STORAGE_CLEAR_CONTEXT_FN callback, StorageAdapterClearContext, StorageAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.storageadapterclearcontext, winbio_adapter/StorageAdapterClearContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,9 +117,13 @@ The following storage adapter context items should be cleared:
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-/////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterClearContext
 //
@@ -148,7 +152,7 @@ StorageAdapterClearContext(
 
     // Retrieve the context from the pipeline.
     PWINBIO_STORAGE_CONTEXT storageContext = 
-           (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
+           (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
 
     // Verify the pipeline state.
     if (storageContext == NULL)
@@ -160,22 +164,22 @@ StorageAdapterClearContext(
     // Release data structures attached to the context. The following
     // example code shows how to release structures that will likely 
     // be associated with your adapter context.
-    _ResultSetClearContents(&storageContext->ResultSet);
-    if (storageContext->RawRecordData != NULL)
+    _ResultSetClearContents(&amp;storageContext-&gt;ResultSet);
+    if (storageContext-&gt;RawRecordData != NULL)
     {
-        _AdapterRelease(storageContext->RawRecordData);
-        storageContext->RawRecordData = NULL;
-        storageContext->PayloadBlob = NULL;
+        _AdapterRelease(storageContext-&gt;RawRecordData);
+        storageContext-&gt;RawRecordData = NULL;
+        storageContext-&gt;PayloadBlob = NULL;
     }
-    if (storageContext->DecryptedTemplate != NULL)
+    if (storageContext-&gt;DecryptedTemplate != NULL)
     {
         SecureZeroMemory(
-            storageContext->DecryptedTemplate, 
-            storageContext->DecryptedTemplateSize
+            storageContext-&gt;DecryptedTemplate, 
+            storageContext-&gt;DecryptedTemplateSize
             );
-        _AdapterRelease(storageContext->DecryptedTemplate);
-        storageContext->DecryptedTemplate = NULL;
-        storageContext->DecryptedTemplateSize = 0;
+        _AdapterRelease(storageContext-&gt;DecryptedTemplate);
+        storageContext-&gt;DecryptedTemplate = NULL;
+        storageContext-&gt;DecryptedTemplateSize = 0;
     }
 
     // TODO: Release any other allocated data structures attached
@@ -185,10 +189,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

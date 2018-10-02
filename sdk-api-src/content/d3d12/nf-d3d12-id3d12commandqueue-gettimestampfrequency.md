@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_gettimestampfrequency.htm
 tech.root: direct3d12
 ms.assetid: 90D79775-2898-453E-87FB-CD6850829E47
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: GetTimestampFrequency, GetTimestampFrequency method, GetTimestampFrequency method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetTimestampFrequency method, ID3D12CommandQueue.GetTimestampFrequency, ID3D12CommandQueue::GetTimestampFrequency, d3d12/ID3D12CommandQueue::GetTimestampFrequency, direct3d12.id3d12commandqueue_gettimestampfrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The GPU timestamp counter frequency (in ticks/second).
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
 

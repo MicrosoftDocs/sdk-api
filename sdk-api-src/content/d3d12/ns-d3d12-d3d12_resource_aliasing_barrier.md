@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_aliasing_barrier.htm
 tech.root: direct3d12
 ms.assetid: 9855D609-E863-4334-B6BA-B6777FDAB82B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_RESOURCE_ALIASING_BARRIER, D3D12_RESOURCE_ALIASING_BARRIER structure, d3d12/D3D12_RESOURCE_ALIASING_BARRIER, direct3d12.d3d12_resource_aliasing_barrier
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: qos\qosclosehandle.htm
 tech.root: QOS
 ms.assetid: e9e8e467-616c-419e-952d-2c9e93044a2f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QOSCloseHandle, QOSCloseHandle function [QOS], qos.qosclosehandle, qos2/QOSCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,9 +110,13 @@ See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetD
 
 The Winsock2.h header file must be included to use Winsock defined identifiers or functions.
 
-
-```cpp
-int CleanUpQos( HANDLE qosHandle, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int CleanUpQos( HANDLE qosHandle, 
            SOCKET connSocket, 
            QOS_FLOWID qosFlowId, 
            DWORD qosFlags // qosFlags must be 0 
@@ -147,10 +151,10 @@ int CleanUpQos( HANDLE qosHandle,
 
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

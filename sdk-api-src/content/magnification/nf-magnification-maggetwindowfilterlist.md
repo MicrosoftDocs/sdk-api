@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagGetWindowFilterList.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowfilterlist.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MagGetWindowFilterList, MagGetWindowFilterList function [Magnification API], magapi.magapi_MagGetWindowFilterList, magapi_MagGetWindowFilterList, magnification/MagGetWindowFilterList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The magnification window.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
 
-The filter mode, as set by <a href="https://msdn.microsoft.com/en-us/library/ms692396(v=VS.85).aspx">MagSetWindowFilterList</a>.
+The filter mode, as set by <a href="https://msdn.microsoft.com/7f640959-6d50-4742-aace-1b4f13ca472f">MagSetWindowFilterList</a>.
 
 
 ### -param count [in]
@@ -114,7 +114,7 @@ This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692396(v=VS.85).aspx">MagSetWindowFilterList</a>
+<a href="https://msdn.microsoft.com/7f640959-6d50-4742-aace-1b4f13ca472f">MagSetWindowFilterList</a>
  
 
  

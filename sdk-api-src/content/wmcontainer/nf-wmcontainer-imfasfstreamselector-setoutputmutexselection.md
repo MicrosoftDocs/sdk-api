@@ -4,10 +4,10 @@ title: IMFASFStreamSelector::SetOutputMutexSelection
 author: windows-sdk-content
 description: Selects a mutual exclusion record to use for a mutual exclusion object associated with an output.
 old-location: mf\imfasfstreamselector_setoutputmutexselection.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputMutexSelection method, IMFASFStreamSelector.SetOutputMutexSelection, IMFASFStreamSelector::SetOutputMutexSelection, SetOutputMutexSelection, SetOutputMutexSelection method [Media Foundation], SetOutputMutexSelection method [Media Foundation],IMFASFStreamSelector interface, eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd, mf.imfasfstreamselector_setoutputmutexselection, wmcontainer/IMFASFStreamSelector::SetOutputMutexSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

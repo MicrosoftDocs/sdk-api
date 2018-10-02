@@ -4,10 +4,10 @@ title: PADD_INTERFACE
 author: windows-sdk-content
 description: The AddInterface function adds an interface to be managed by the routing protocol.
 old-location: rras\addinterface.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: d2a90d20-7a1f-4301-adab-76224a4f8310
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AddInterface, AddInterface callback function [RAS], DEMAND_DIAL, LOCAL_WORKSTATION_DIAL, PADD_INTERFACE, PADD_INTERFACE callback, PERMANENT, REMOTE_WORKSTATION_DIAL, _mpr_addinterface, routprot/AddInterface, rras.addinterface
 ms.prod: windows
 ms.technology: windows-sdk

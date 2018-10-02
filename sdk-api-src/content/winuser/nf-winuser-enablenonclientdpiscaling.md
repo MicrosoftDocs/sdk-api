@@ -7,7 +7,7 @@ old-location: hidpi\enablenonclientdpiscaling.htm
 tech.root: hidpi
 ms.assetid: 3459B040-B73F-4581-BA29-0B2F0241801E
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EnableNonClientDpiScaling, EnableNonClientDpiScaling function [High DPI], hidpi.enablenonclientdpiscaling, winuser/EnableNonClientDpiScaling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,9 +91,6 @@ Non-client scaling for top-level windows is not enabled by default. You must cal
 
 Calling this function enables non-client scaling for top-level windows only. Child windows are unaffected.
 
-This function must be called from WM_NCCREATE during the initialization of a new window. An example call might look like this:
-
-<div class="code"><span codelanguage=""><table>
 This function must be called from WM_NCCREATE during the initialization of a new window. An example call might look like this:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -108,8 +105,6 @@ This function must be called from WM_NCCREATE during the initialization of a new
 </td>
 </tr>
 </table></span></div>
-
-
 
 
 

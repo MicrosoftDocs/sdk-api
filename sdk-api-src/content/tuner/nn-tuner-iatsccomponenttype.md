@@ -7,7 +7,7 @@ old-location: mstv\iatsccomponenttype.htm
 tech.root: MSTV
 ms.assetid: c7e05f63-b2cf-4a99-8e0f-bc7ec00463cf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IATSCComponentType, IATSCComponentType interface [Microsoft TV Technologies], IATSCComponentType interface [Microsoft TV Technologies],described, IATSCComponentTypeInterface, mstv.iatsccomponenttype, tuner/IATSCComponentType
 ms.prod: windows
 ms.technology: windows-sdk

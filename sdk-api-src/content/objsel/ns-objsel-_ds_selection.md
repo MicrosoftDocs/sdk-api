@@ -4,10 +4,10 @@ title: "_DS_SELECTION"
 author: windows-sdk-content
 description: The DS_SELECTION structure contains data about an object the user selected from an object picker dialog box. The DS_SELECTION_LIST structure contains an array of DS_SELECTION structures.
 old-location: ad\ds_selection.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 7a587997-0423-450f-a845-bddf12b69fae
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDS_SELECTION, DS_SELECTION, DS_SELECTION structure [Active Directory], PDS_SELECTION, PDS_SELECTION structure pointer [Active Directory], _DS_SELECTION, _glines_ds_selection, ad.ds__selection, ad.ds_selection, objsel/DS_SELECTION, objsel/PDS_SELECTION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,11 +83,11 @@ Pointer to a null-terminated Unicode string that contains the object's userPrinc
 ### -field pvarFetchedAttributes
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structures. Each <b>VARIANT</b> contains the value of an attribute of the selected object. The attributes retrieved are determined by the attribute names specified in the <b>apwzAttributeNames</b> member of the 
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structures. Each <b>VARIANT</b> contains the value of an attribute of the selected object. The attributes retrieved are determined by the attribute names specified in the <b>apwzAttributeNames</b> member of the 
 <a href="https://msdn.microsoft.com/6d070185-e0b6-4c24-9941-95bca2f33192">DSOP_INIT_INFO</a> structure passed to the 
 <a href="https://msdn.microsoft.com/bcf4d283-6709-4425-a122-8f0808502b58">IDsObjectPicker::Initialize</a> method. The order of attributes in the <b>pvarFetchedAttributes</b> array corresponds to the order of attribute names specified in the <b>apwzAttributeNames</b> array.
 
-The object picker dialog box may not be able to retrieve the requested attributes. If the attribute cannot be retrieved, the <b>vt</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure contains <b>VT_EMPTY</b>.
+The object picker dialog box may not be able to retrieve the requested attributes. If the attribute cannot be retrieved, the <b>vt</b> member of the <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure contains <b>VT_EMPTY</b>.
 
 
 ### -field flScopeType
@@ -121,7 +121,7 @@ Contains one, or more, of the <b>DSOP_SCOPE_TYPE_*</b> that indicate the type of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: pla\idatacollector_logcircular.htm
 tech.root: PLA
 ms.assetid: d1b35b02-cfda-42a4-bd1d-d837a91861d6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDataCollector interface [PLA],LogCircular property, IDataCollector.LogCircular, IDataCollector.get_LogCircular, IDataCollector::LogCircular, IDataCollector::get_LogCircular, IDataCollector::put_LogCircular, LogCircular property [PLA], LogCircular property [PLA],IDataCollector interface, base.idatacollector_logcircular, get_LogCircular, pla.idatacollector_logcircular, pla/IDataCollector::LogCircular, pla/IDataCollector::get_LogCircular, pla/IDataCollector::put_LogCircular
 ms.prod: windows-hardware
 ms.technology: windows-devices

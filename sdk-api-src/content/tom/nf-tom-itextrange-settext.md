@@ -4,10 +4,10 @@ title: ITextRange::SetText
 author: windows-sdk-content
 description: Sets the text in this range.
 old-location: controls\ITextRange_SetText.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\settext.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextRange interface [Windows Controls],SetText method, ITextRange.SetText, ITextRange::SetText, SetText, SetText method [Windows Controls], SetText method [Windows Controls],ITextRange interface, _win32_ITextRange_SetText, _win32_ITextRange_SetText_cpp, controls.ITextRange_SetText, controls._win32_ITextRange_SetText, tom/ITextRange::SetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,9 +121,9 @@ Out of memory.
 
 
 
-<b>ITextRange::SetText</b> replaces the text in the range with the new text. In contrast, <a href="https://msdn.microsoft.com/en-us/library/Bb787836(v=VS.85).aspx">TypeText</a> replaces the selection with the text <i>bstr</i> and leaves the selection as an insertion point just following the inserted text, just as if you had typed the text in. For UI selection behavior, see <b>TypeText</b>.
+<b>ITextRange::SetText</b> replaces the text in the range with the new text. In contrast, <a href="https://msdn.microsoft.com/6022717e-6890-46d2-9fbd-bb4ed54dc130">TypeText</a> replaces the selection with the text <i>bstr</i> and leaves the selection as an insertion point just following the inserted text, just as if you had typed the text in. For UI selection behavior, see <b>TypeText</b>.
 
-If, after you call <b>ITextRange::SetText</b>, you call <a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">ITextRange::GetText</a>, you get back the same text that you set with the <b>ITextRange::SetText</b> method (unless some other range has changed that text in between the calls). 
+If, after you call <b>ITextRange::SetText</b>, you call <a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">ITextRange::GetText</a>, you get back the same text that you set with the <b>ITextRange::SetText</b> method (unless some other range has changed that text in between the calls). 
 
 
 
@@ -137,11 +137,11 @@ If, after you call <b>ITextRange::SetText</b>, you call <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">GetText</a>
+<a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">GetText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -149,11 +149,11 @@ If, after you call <b>ITextRange::SetText</b>, you call <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787836(v=VS.85).aspx">TypeText</a>
+<a href="https://msdn.microsoft.com/6022717e-6890-46d2-9fbd-bb4ed54dc130">TypeText</a>
  
 
  

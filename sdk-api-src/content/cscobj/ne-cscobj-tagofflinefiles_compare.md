@@ -7,7 +7,7 @@ old-location: of\offlinefiles_compare.htm
 tech.root: OfflineFiles
 ms.assetid: 17972c96-4ce1-43c0-bb6d-730787f0f93a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OFFLINEFILES_COMPARE, OFFLINEFILES_COMPARE enumeration [Offline Files], OFFLINEFILES_COMPARE_EQ, OFFLINEFILES_COMPARE_GT, OFFLINEFILES_COMPARE_GTE, OFFLINEFILES_COMPARE_LT, OFFLINEFILES_COMPARE_LTE, OFFLINEFILES_COMPARE_NEQ, cscobj/OFFLINEFILES_COMPARE, cscobj/OFFLINEFILES_COMPARE_EQ, cscobj/OFFLINEFILES_COMPARE_GT, cscobj/OFFLINEFILES_COMPARE_GTE, cscobj/OFFLINEFILES_COMPARE_LT, cscobj/OFFLINEFILES_COMPARE_LTE, cscobj/OFFLINEFILES_COMPARE_NEQ, of.offlinefiles_compare, tagOFFLINEFILES_COMPARE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the type of comparison to perform in the <a href="https://msdn.microsoft.com/en-us/library/Bb530579(v=VS.85).aspx">IOfflineFilesItemFilter::GetTimeFilter</a> method.
+Specifies the type of comparison to perform in the <a href="https://msdn.microsoft.com/397611e7-60e5-46d6-b90b-5aed7fff6a43">IOfflineFilesItemFilter::GetTimeFilter</a> method.
 
 
 ## -enum-fields
@@ -93,7 +93,7 @@ Check whether the item value is greater than or equal to the filter value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530579(v=VS.85).aspx">IOfflineFilesItemFilter::GetTimeFilter</a>
+<a href="https://msdn.microsoft.com/397611e7-60e5-46d6-b90b-5aed7fff6a43">IOfflineFilesItemFilter::GetTimeFilter</a>
  
 
  

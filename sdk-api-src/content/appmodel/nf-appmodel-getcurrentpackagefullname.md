@@ -7,7 +7,7 @@ old-location: appxpkg\getcurrentpackagefullname.htm
 tech.root: appxpkg
 ms.assetid: D5B00C53-1FBF-4245-92D1-FA39713A9EE7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetCurrentPackageFullName, GetCurrentPackageFullName function [App packaging and management], appmodel/GetCurrentPackageFullName, appxpkg.getcurrentpackagefullname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,20 +127,24 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-
-```cpp
-#define _UNICODE 1
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define _UNICODE 1
 #define UNICODE 1
 
-#include <Windows.h>
-#include <appmodel.h>
-#include <malloc.h>
-#include <stdio.h>
+#include &lt;Windows.h&gt;
+#include &lt;appmodel.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;stdio.h&gt;
 
 int __cdecl wmain()
 {
     UINT32 length = 0;
-    LONG rc = GetCurrentPackageFullName(&length, NULL);
+    LONG rc = GetCurrentPackageFullName(&amp;length, NULL);
     if (rc != ERROR_INSUFFICIENT_BUFFER)
     {
         if (rc == APPMODEL_ERROR_NO_PACKAGE)
@@ -157,7 +161,7 @@ int __cdecl wmain()
         return 2;
     }
 
-    rc = GetCurrentPackageFullName(&length, fullName);
+    rc = GetCurrentPackageFullName(&amp;length, fullName);
     if (rc != ERROR_SUCCESS)
     {
         wprintf(L"Error %d retrieving PackageFullName\n", rc);
@@ -169,10 +173,10 @@ int __cdecl wmain()
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

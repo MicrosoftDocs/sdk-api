@@ -7,7 +7,7 @@ old-location: security\cert_template_ext.htm
 tech.root: seccrypto
 ms.assetid: 23cec38e-0d70-47bb-a2a4-6bbd3f4b018e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCERT_TEMPLATE_EXT, CERT_TEMPLATE_EXT, CERT_TEMPLATE_EXT structure [Security], PCERT_TEMPLATE_EXT, PCERT_TEMPLATE_EXT structure pointer [Security], _CERT_TEMPLATE_EXT, _crypto2_cert_template_ext, security.cert_template_ext, wincrypt/CERT_TEMPLATE_EXT, wincrypt/PCERT_TEMPLATE_EXT"
 ms.prod: windows
 ms.technology: windows-sdk

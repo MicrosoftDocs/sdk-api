@@ -7,7 +7,7 @@ old-location: wintouch\getgestureconfig.htm
 tech.root: wintouch
 ms.assetid: 8b7a594c-e9e4-4215-8946-da170c957a2b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetGestureConfig, GetGestureConfig function [Windows Touch], wintouch.getgestureconfig, winuser/GetGestureConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,23 +139,27 @@ The following table lists the gesture configuration values:
 
 #### Examples
 
-
-```cpp
-    GESTURECONFIG gc[3];    
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    GESTURECONFIG gc[3];    
     UINT uiGcs = 3;
 
-    ZeroMemory(&gc, sizeof(gc));
+    ZeroMemory(&amp;gc, sizeof(gc));
     gc[0].dwID  = GID_ZOOM;
     gc[1].dwID  = GID_ROTATE;
     gc[2].dwID  = GID_PAN;
-    BOOL bResult = GetGestureConfig(hWnd, 0, 0, &uiGcs, gc, sizeof(GESTURECONFIG));        
+    BOOL bResult = GetGestureConfig(hWnd, 0, 0, &amp;uiGcs, gc, sizeof(GESTURECONFIG));        
     if (!bResult){                
         DWORD err = GetLastError();                                       
     }    
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

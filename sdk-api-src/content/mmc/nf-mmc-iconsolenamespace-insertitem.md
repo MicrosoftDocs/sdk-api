@@ -4,10 +4,10 @@ title: IConsoleNameSpace::InsertItem
 author: windows-sdk-content
 description: Enables the snap-in to insert a single item into the scope view.
 old-location: mmc\iconsolenamespace_insertitem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: E496C159-0FCE-490B-995B-2841517BEACB
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IConsoleNameSpace interface [MMC],InsertItem method, IConsoleNameSpace.InsertItem, IConsoleNameSpace::InsertItem, InsertItem, InsertItem method [MMC], InsertItem method [MMC],IConsoleNameSpace interface, mmc.iconsolenamespace_insertitem, mmc/IConsoleNameSpace::InsertItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

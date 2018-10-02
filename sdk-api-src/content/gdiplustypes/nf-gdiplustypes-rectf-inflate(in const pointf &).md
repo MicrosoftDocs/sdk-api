@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods\inflate_61point.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],RectF class, RectF class [GDI+],Inflate method, RectF.Inflate, RectF.Inflate(IN const PointF &), RectF.Inflate(const PointF&), RectF::Inflate, RectF::Inflate(IN const PointF &), _gdiplus_CLASS_RectF_Inflate_point_, gdiplus._gdiplus_CLASS_RectF_Inflate_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 

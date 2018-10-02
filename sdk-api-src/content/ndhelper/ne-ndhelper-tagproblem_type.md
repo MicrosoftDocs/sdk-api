@@ -7,7 +7,7 @@ old-location: ndf\problem_type.htm
 tech.root: NDF
 ms.assetid: cf5a4205-b79f-4de6-b153-0955c6ff4e11
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PROBLEM_TYPE, PROBLEM_TYPE enumeration [NDF], PT_DOWN_STREAM_HEALTH, PT_HIGHER_UTILIZATION, PT_HIGH_UTILIZATION, PT_LOWER_HEALTH, PT_LOW_HEALTH, PT_UP_STREAM_UTILIZATION, ndf.problem_type, ndhelper/PROBLEM_TYPE, ndhelper/PT_DOWN_STREAM_HEALTH, ndhelper/PT_HIGHER_UTILIZATION, ndhelper/PT_HIGH_UTILIZATION, ndhelper/PT_LOWER_HEALTH, ndhelper/PT_LOW_HEALTH, ndhelper/PT_UP_STREAM_UTILIZATION, tagPROBLEM_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

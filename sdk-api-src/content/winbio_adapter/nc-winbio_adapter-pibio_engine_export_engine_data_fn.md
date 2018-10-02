@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterexportenginedata.htm
 tech.root: SecBioMet
 ms.assetid: 9ac11720-7dbf-4479-b2c5-78cd53494e21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EngineAdapterExportEngineData, EngineAdapterExportEngineData callback function [Windows Biometric Framework API], PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN, PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN callback, WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.engineadapterexportenginedata, winbio_adapter/EngineAdapterExportEngineData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -186,9 +186,13 @@ You must allocate the buffer to be returned in the <i>SampleBuffer</i> parameter
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterExportEngineData
 //
@@ -227,11 +231,11 @@ EngineAdapterExportEngineData(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     // At least one processing level flag must be set. Your adapter can also
     // place additional restrictions on supported export formats.
-    if (Flags & (WINBIO_DATA_FLAG_RAW | 
+    if (Flags &amp; (WINBIO_DATA_FLAG_RAW | 
                  WINBIO_DATA_FLAG_INTERMEDIATE | 
                  WINBIO_DATA_FLAG_PROCESSED) == 0)
     {
@@ -244,7 +248,7 @@ EngineAdapterExportEngineData(
     // function passes ownership of the new biometric information record (BIR)
     // to the EngineAdapterExportEngineData routine which then passes the BIR
     // to the caller.
-    hr = _CreateBirFromAdapterData( context, Flags, &birAddress, &birSize);
+    hr = _CreateBirFromAdapterData( context, Flags, &amp;birAddress, &amp;birSize);
     if (SUCCEEDED(hr))
     {
         *SampleBuffer = birAddress;
@@ -255,10 +259,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

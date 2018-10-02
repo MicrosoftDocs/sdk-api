@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_d3d11_options3.htm
 tech.root: direct3d11
 ms.assetid: A8F9AAF5-F1C6-476D-AF14-5BCDEEDAF810
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS3, D3D11_FEATURE_DATA_D3D11_OPTIONS3 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS3, direct3d11.d3d11_feature_data_d3d11_options3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,19 +69,19 @@ Whether to use the VP and RT array index from any shader feeding the rasterizer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404457(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D11_OPTIONS</a>
+<a href="https://msdn.microsoft.com/02A3B423-75AB-4F44-BEBE-B8039EF384DC">D3D11_FEATURE_DATA_D3D11_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280377(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a>
+<a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn879499(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a>
+<a href="https://msdn.microsoft.com/D0CD9245-D8BC-48E5-A69B-0DB9B87E56A4">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a>
  
 
  

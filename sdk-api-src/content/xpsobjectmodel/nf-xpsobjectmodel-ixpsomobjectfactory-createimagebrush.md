@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createimagebrush.htm
 tech.root: printdocs
 ms.assetid: f271e152-8120-49c4-804d-069e224c6597
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CreateImageBrush, CreateImageBrush method [XPS Documents and Packaging], CreateImageBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageBrush method, IXpsOMObjectFactory.CreateImageBrush, IXpsOMObjectFactory::CreateImageBrush, xps.ixpsomobjectfactory_createimagebrush, xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,9 +161,13 @@ The next  illustration shows how an image brush is used to fill an output area. 
 <img alt="A figure that shows how a tile brush fills a geometry" src="../images/tile_cherry.png"/>
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMImageBrush            *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -179,33 +183,33 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateImageBrush (
+    hr = xpsFactory-&gt;CreateImageBrush (
         image,
-        &viewBox,
-        &viewPort,
-        &newInterface);
+        &amp;viewBox,
+        &amp;viewPort,
+        &amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

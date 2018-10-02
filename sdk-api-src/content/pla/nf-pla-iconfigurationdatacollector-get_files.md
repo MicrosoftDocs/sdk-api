@@ -7,7 +7,7 @@ old-location: pla\iconfigurationdatacollector_files.htm
 tech.root: PLA
 ms.assetid: ca495768-8f84-489b-8590-3ab7d031f0be
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Files property [PLA], Files property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],Files property, IConfigurationDataCollector.Files, IConfigurationDataCollector.get_Files, IConfigurationDataCollector::Files, IConfigurationDataCollector::get_Files, IConfigurationDataCollector::put_Files, base.iconfigurationdatacollector_files, get_Files, pla.iconfigurationdatacollector_files, pla/IConfigurationDataCollector::Files, pla/IConfigurationDataCollector::get_Files, pla/IConfigurationDataCollector::put_Files
 ms.prod: windows-hardware
 ms.technology: windows-devices

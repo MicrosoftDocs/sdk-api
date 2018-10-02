@@ -7,7 +7,7 @@ old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gethierarchyinformati
 tech.root: MSTV
 ms.assetid: 8ad35924-b6e0-47b1-9873-14bf48574669
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetHierarchyInformation, GetHierarchyInformation method [Microsoft TV Technologies], GetHierarchyInformation method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetHierarchyInformation method, IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation, IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation, IDvbTerrestrialDeliverySystemDescriptorGetHierarchyInformation, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation, mstv.idvbterrestrialdeliverysystemdescriptor_gethierarchyinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

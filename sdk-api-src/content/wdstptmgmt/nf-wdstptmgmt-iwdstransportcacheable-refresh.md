@@ -4,10 +4,10 @@ title: IWdsTransportCacheable::Refresh
 author: windows-sdk-content
 description: Refreshes the object data members by rereading their values from the underlying data store. This is allowed only if the object's IWdsTransportCacheable::Dirty property has been set.
 old-location: wds\iwdstransportcacheable_refresh.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: 2fd838b5-5623-4133-9ad8-ec051b2b698d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportCacheable interface [Windows Deployment Services],Refresh method, IWdsTransportCacheable.Refresh, IWdsTransportCacheable::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportCacheable interface, wds.iwdstransportcacheable_refresh, wdstptmgmt/IWdsTransportCacheable::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

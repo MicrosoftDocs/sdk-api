@@ -7,7 +7,7 @@ old-location: tsf\ienumtfuielements_reset.htm
 tech.root: TSF
 ms.assetid: a87b067f-251c-47d1-b57a-32e6524adc57
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumTfUIElements interface [Text Services Framework],Reset method, IEnumTfUIElements.Reset, IEnumTfUIElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Reset, tsf.ienumtfuielements_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\getudpstatisticsex2.htm
 tech.root: IpHlp
 ms.assetid: 8DE392C5-90EF-490D-B53A-58D75A854138
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx2, GetUdpStatisticsEx2 function [IP Helper], iphlp.getudpstatisticsex2, iphlpapi/GetUdpStatisticsEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The
 ### -param Statistics [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Mt804346(v=VS.85).aspx">MIB_UDPSTATS2</a> structure that receives the UDP statistics for the local computer.
+<a href="https://msdn.microsoft.com/A225E0E7-54FB-4655-9A45-F3EF6DA1FF4E">MIB_UDPSTATS2</a> structure that receives the UDP statistics for the local computer.
 
 
 ### -param Family [in]

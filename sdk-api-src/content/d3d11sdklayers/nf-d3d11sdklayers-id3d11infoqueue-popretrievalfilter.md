@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_popretrievalfilter.htm
 tech.root: direct3d11
 ms.assetid: 42a46071-8b2c-4e4f-9db1-2f14468346e1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 6a0c889e-c044-ddd7-c47a-3b574db74cca, ID3D11InfoQueue interface [Direct3D 11],PopRetrievalFilter method, ID3D11InfoQueue.PopRetrievalFilter, ID3D11InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [Direct3D 11], PopRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PopRetrievalFilter, direct3d11.id3d11infoqueue_popretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>
  
 
  

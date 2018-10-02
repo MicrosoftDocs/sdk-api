@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager_getupdatemanager.htm
 tech.root: directmanipulation
 ms.assetid: f3080fcb-3bbe-492b-a94e-322f93781cf5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetUpdateManager, GetUpdateManager method [Direct Manipulation], GetUpdateManager method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],GetUpdateManager method, IDirectManipulationManager.GetUpdateManager, IDirectManipulationManager::GetUpdateManager, directmanipulation.idirectmanipulationmanager_getupdatemanager, directmanipulation/IDirectManipulationManager::GetUpdateManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

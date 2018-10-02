@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocmanager_createnetwork.htm
 tech.root: NativeWiFi
 ms.assetid: 1d9930b3-7bc4-4015-b096-a21fe01f54f5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateNetwork, CreateNetwork method [NativeWIFI], CreateNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],CreateNetwork method, IDot11AdHocManager.CreateNetwork, IDot11AdHocManager::CreateNetwork, adhoc/IDot11AdHocManager::CreateNetwork, nwifi.idot11adhocmanager_createnetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices

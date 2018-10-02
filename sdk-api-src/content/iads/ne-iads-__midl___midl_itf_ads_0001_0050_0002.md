@@ -7,7 +7,7 @@ old-location: adsi\ads_name_inittype_enum.htm
 tech.root: ADSI
 ms.assetid: cd7e4786-b20c-4dad-bae6-4e703e60f330
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADS_NAME_INITTYPE_DOMAIN, ADS_NAME_INITTYPE_ENUM, ADS_NAME_INITTYPE_ENUM enumeration [ADSI], ADS_NAME_INITTYPE_GC, ADS_NAME_INITTYPE_SERVER, __MIDL___MIDL_itf_ads_0001_0050_0002, _ds_ads_name_inittype_enum, adsi.ads__name__inittype__enum, adsi.ads_name_inittype_enum, iads/ADS_NAME_INITTYPE_DOMAIN, iads/ADS_NAME_INITTYPE_ENUM, iads/ADS_NAME_INITTYPE_GC, iads/ADS_NAME_INITTYPE_SERVER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,9 +86,13 @@ The <a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">IA
 
 The following C/C++ code example uses <a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
 
-
-```cpp
-IADsNameTranslate *pNto = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsNameTranslate *pNto = NULL;
 HRESULT hr = S_OK;
 CComBSTR sbstr;
 
@@ -96,55 +100,63 @@ hr = CoCreateInstance(CLSID_NameTranslate,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsNameTranslate,
-                      (void**)&pNto);
+                      (void**)&amp;pNto);
 if(FAILED(hr)) { exit 1;}
  
-hr = pNto->Init(ADS_NAME_INITTYPE_GC, CComBSTR(""));
+hr = pNto-&gt;Init(ADS_NAME_INITTYPE_GC, CComBSTR(""));
 if (FAILED(hr))
 { 
    goto cleanup;
 }
  
-hr =pNto->Set(ADS_NAME_TYPE_1779,
+hr =pNto-&gt;Set(ADS_NAME_TYPE_1779,
              CComBSTR(L"cn=jeffsmith,cn=users,dc=Fabrikam,dc=com"));
 if(FAILED(hr))
 {
    goto cleanup;
 }
  
-hr = pNto->Get(ADS_NAME_TYPE_NT4, &sbstr);
+hr = pNto-&gt;Get(ADS_NAME_TYPE_NT4, &amp;sbstr);
 printf("Name in the translated format: %S\n", sbstr);
 
 cleanup: 
 if(pNto)
 {
-    pNto->Release();
-}
-```
-
-
+    pNto-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following Visual Basic code example  uses the <a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
 
-
-```vb
-Dim nto as New NameTranslate
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim nto as New NameTranslate
 dso="CN=jeffsmith, CN=users, DC=Fabrikam dc=COM"
  
 nto.Init  ADS_NAME_INITTYPE_GC, ""
 nto.Set ADS_NAME_TYPE_1779, dso
 trans = nto.Get(ADS_NAME_TYPE_NT4)   
-MsgBox "Translated name = " & trans
-```
-
-
+MsgBox "Translated name = " &amp; trans</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBScript/ASP code example uses <a href="https://msdn.microsoft.com/dad31301-b18b-44ec-b32f-93d0bb5b6189">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
 
-
-```vb
-<%@ Language=VBScript %>
-<html>
-<body>
-<%
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;%@ Language=VBScript %&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;%
   Dim nto
   const ADS_NAME_INITTYPE_GC = 3  ' VBScript cannot read. 
   const ADS_NAME_TYPE_1779 = 1    ' Enumeration definition.
@@ -157,14 +169,14 @@ The following VBScript/ASP code example uses <a href="https://msdn.microsoft.com
   nto.Set ADS_NAME_TYPE_1779, dn
   result = nto.Get(ADS_NAME_TYPE_NT4)
  
-  Response.Write "<p>Name in the translated format: " & result
+  Response.Write "&lt;p&gt;Name in the translated format: " &amp; result
  
-%>
-</body>
-</html>
-```
-
-
+%&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

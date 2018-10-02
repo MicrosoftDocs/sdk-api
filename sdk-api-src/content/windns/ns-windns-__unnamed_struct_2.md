@@ -7,7 +7,7 @@ old-location: dns\dns_a_data.htm
 tech.root: DNS
 ms.assetid: 0fd21930-1319-4ae7-b46f-2b744f4faae9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDNS_A_DATA, DNS_A_DATA, DNS_A_DATA structure [DNS], PDNS_A_DATA, PDNS_A_DATA structure pointer [DNS], _dns_dns_a_data, dns.dns_a_data, windns/DNS_A_DATA, windns/PDNS_A_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

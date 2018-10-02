@@ -4,10 +4,10 @@ title: IMFTopologyNode::GetInput
 author: windows-sdk-content
 description: Retrieves the node that is connected to a specified input stream on this node.
 old-location: mf\imftopologynode_getinput.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 49969e6d-c893-4f6f-8c1d-87d32405a65d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 49969e6d-c893-4f6f-8c1d-87d32405a65d, GetInput, GetInput method [Media Foundation], GetInput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInput method, IMFTopologyNode.GetInput, IMFTopologyNode::GetInput, mf.imftopologynode_getinput, mfidl/IMFTopologyNode::GetInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

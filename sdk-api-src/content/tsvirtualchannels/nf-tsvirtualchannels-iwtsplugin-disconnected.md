@@ -7,7 +7,7 @@ old-location: termserv\iwtsplugin_disconnected.htm
 tech.root: TermServ
 ms.assetid: cbc753b4-531f-476e-8743-b8fbf2481c91
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Disconnected, Disconnected method [Remote Desktop Services], Disconnected method [Remote Desktop Services],IWTSPlugin interface, IWTSPlugin interface [Remote Desktop Services],Disconnected method, IWTSPlugin.Disconnected, IWTSPlugin::Disconnected, termserv.iwtsplugin_disconnected, tsvirtualchannels/IWTSPlugin::Disconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

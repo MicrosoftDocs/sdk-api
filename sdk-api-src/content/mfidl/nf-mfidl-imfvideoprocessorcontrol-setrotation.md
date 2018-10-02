@@ -4,10 +4,10 @@ title: IMFVideoProcessorControl::SetRotation
 author: windows-sdk-content
 description: Specifies whether to rotate the video to the correct orientation.
 old-location: mf\imfvideoprocessorcontrol_setrotation.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 452FE057-EC1A-430E-A5C8-C9B84A4B1B17
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetRotation method, IMFVideoProcessorControl.SetRotation, IMFVideoProcessorControl::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setrotation, mfidl/IMFVideoProcessorControl::SetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices

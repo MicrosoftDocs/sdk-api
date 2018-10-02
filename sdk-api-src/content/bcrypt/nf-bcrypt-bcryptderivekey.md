@@ -7,7 +7,7 @@ old-location: security\bcryptderivekey.htm
 tech.root: SecCNG
 ms.assetid: 33c3cbf7-6c08-42ed-ac3f-feb71f3a9cbf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, BCryptDeriveKey, BCryptDeriveKey function [Security], KDF_USE_SECRET_AS_HMAC_KEY_FLAG, bcrypt/BCryptDeriveKey, security.bcryptderivekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -557,9 +557,13 @@ One or more parameters are not valid.
 
 The <a href="https://msdn.microsoft.com/7416d417-4b47-4830-aa20-a674d5270428">BCryptBufferDesc</a> structure in the <i>pParameterList</i> parameter can contain more than one of the <b>KDF_SECRET_PREPEND</b> and <b>KDF_SECRET_APPEND</b> parameters. If more than one of these parameters is specified, the parameter values are concatenated in the order in which they are contained in the array before the KDF is called. For example, assume the following parameter values are specified.
 
-
-```cpp
-BYTE pbValue0[1] = {0x01};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BYTE pbValue0[1] = {0x01};
 BYTE pbValue1[2] = {0x04, 0x05};
 BYTE pbValue2[3] = {0x10, 0x11, 0x12};
 BYTE pbValue3[4] = {0x20, 0x21, 0x22, 0x23};
@@ -576,10 +580,10 @@ Parameter[2].length = sizeof (pbValue2);
 Parameter[3].type = KDF_SECRET_PREPEND
 Parameter[3].value = pbValue3;
 Parameter[3].length = sizeof (pbValue3);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If the above parameter values are specified, the concatenated values to the actual KDF are as follows.
 
 <pre class="syntax" xml:space="preserve"><code>Type: KDF_SECRET_PREPEND

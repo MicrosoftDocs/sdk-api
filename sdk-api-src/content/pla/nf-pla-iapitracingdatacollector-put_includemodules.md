@@ -7,7 +7,7 @@ old-location: pla\iapitracingdatacollector_includemodules.htm
 tech.root: PLA
 ms.assetid: ec97533c-88a7-4360-bc2d-8e6465256032
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],IncludeModules property, IApiTracingDataCollector.IncludeModules, IApiTracingDataCollector.put_IncludeModules, IApiTracingDataCollector::IncludeModules, IApiTracingDataCollector::get_IncludeModules, IApiTracingDataCollector::put_IncludeModules, IncludeModules property [PLA], IncludeModules property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_includemodules, pla.iapitracingdatacollector_includemodules, pla/IApiTracingDataCollector::IncludeModules, pla/IApiTracingDataCollector::get_IncludeModules, pla/IApiTracingDataCollector::put_IncludeModules, put_IncludeModules
 ms.prod: windows-hardware
 ms.technology: windows-devices

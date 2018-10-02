@@ -4,10 +4,10 @@ title: IMFAttributes::GetBlob
 author: windows-sdk-content
 description: Retrieves a byte array associated with a key. This method copies the array into a caller-allocated buffer.
 old-location: mf\imfattributes_getblob.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 68528db7-90df-4abe-a957-ffb8c3f12cef
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 68528db7-90df-4abe-a957-ffb8c3f12cef, GetBlob, GetBlob method [Media Foundation], GetBlob method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetBlob method, IMFAttributes.GetBlob, IMFAttributes::GetBlob, mf.imfattributes_getblob, mfobjects/IMFAttributes::GetBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -160,15 +160,19 @@ This interface is available on the following platforms if the Windows Media Form
 
 The following code example shows how to get an attribute whose value is a byte array.
 
-
-```
-HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
 {
     HRESULT hr = S_OK;
     UINT32 cbBlob = 0;
     BYTE *pBlob = NULL;
 
-    hr = pAttributes->GetBlobSize(MY_ATTRIBUTE, &cbBlob);
+    hr = pAttributes-&gt;GetBlobSize(MY_ATTRIBUTE, &amp;cbBlob);
     
     if (SUCCEEDED(hr))
     {
@@ -181,7 +185,7 @@ HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
 
     if (SUCCEEDED(hr))
     {
-        hr = pAttributes->GetBlob(MY_ATTRIBUTE, pBlob, cbBlob, &cbBlob);
+        hr = pAttributes-&gt;GetBlob(MY_ATTRIBUTE, pBlob, cbBlob, &amp;cbBlob);
     }
 
     if (pBlob)
@@ -189,10 +193,10 @@ HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
         delete [] pBlob;
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

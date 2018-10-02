@@ -7,7 +7,7 @@ old-location: http\httpcancelhttprequest.htm
 tech.root: Http
 ms.assetid: 9ece13ab-7b13-49b7-8d29-bbbb2755db52
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HttpCancelHttpRequest, HttpCancelHttpRequest function [HTTP], http.httpcancelhttprequest, http/HttpCancelHttpRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

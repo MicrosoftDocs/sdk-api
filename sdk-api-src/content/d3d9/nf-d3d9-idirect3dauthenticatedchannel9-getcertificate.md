@@ -4,10 +4,10 @@ title: IDirect3DAuthenticatedChannel9::GetCertificate
 author: windows-sdk-content
 description: Gets the driver's certificate chain.
 old-location: mf\idirect3dauthenticatedchannel9_getcertificate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0663d3a0-256b-4c96-aca7-06c4d1853554
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],GetCertificate method, IDirect3DAuthenticatedChannel9.GetCertificate, IDirect3DAuthenticatedChannel9::GetCertificate, d3d9/IDirect3DAuthenticatedChannel9::GetCertificate, mf.idirect3dauthenticatedchannel9_getcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: BeginPanningFeedback function
 author: windows-sdk-content
 description: Notifies the system to send feedback about a target window affected by panning gestures.
 old-location: controls\BeginPanningFeedback.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginpanningfeedback.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: BeginPanningFeedback, BeginPanningFeedback function [Windows Controls], _controls_BeginPanningFeedback, _controls_BeginPanningFeedback_cpp, controls.BeginPanningFeedback, controls._controls_BeginPanningFeedback, uxtheme/BeginPanningFeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ TRUE, if successful.
 
 
 
-This function must be called before either the <a href="https://msdn.microsoft.com/en-us/library/Dd373385(v=VS.85).aspx">UpdatePanningFeedback</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd373384(v=VS.85).aspx">EndPanningFeedback</a> functions can be called.
+This function must be called before either the <a href="https://msdn.microsoft.com/227631b3-33e8-4ade-a7ff-51b70aed9ec6">UpdatePanningFeedback</a> or <a href="https://msdn.microsoft.com/38e72b4e-5614-44f5-bc68-b25c96396494">EndPanningFeedback</a> functions can be called.
 
 
 

@@ -4,10 +4,10 @@ title: IExecuteCommandHost
 author: windows-sdk-content
 description: Provides a method that enables an IExplorerCommand-based Shell verb handler to query the UI mode of the host component from which the application was invoked.
 old-location: shell\IExecuteCommandHost.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ab75d502-c488-4511-9aa1-3af863b8e425
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IExecuteCommandHost, IExecuteCommandHost interface [Windows Shell], IExecuteCommandHost interface [Windows Shell],described, shell.IExecuteCommandHost, shobjidl_core/IExecuteCommandHost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ The <b>IExecuteCommandHost</b> interface has these methods.
 
 
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
-A software component (either an OS component or an application) taat can launch a dual-mode application such as a browser should implement this interface. The interface should be implemented on an object that can be reached through the site chain provided to <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> or the context menu and retrieved through the <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">IServiceProvider::QueryService</a> method.
+A software component (either an OS component or an application) taat can launch a dual-mode application such as a browser should implement this interface. The interface should be implemented on an object that can be reached through the site chain provided to <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> or the context menu and retrieved through the <a href="_inet_iserviceprovider_queryservice_method">IServiceProvider::QueryService</a> method.
 
 <h3><a id="When_to_use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to use</h3>
 Typically, an application that is capable of launching as both a desktop application and a Windows Store app app will use this interface to query which mode the host is currently in. The application can then launch in the UI mode that is compatible with the host.

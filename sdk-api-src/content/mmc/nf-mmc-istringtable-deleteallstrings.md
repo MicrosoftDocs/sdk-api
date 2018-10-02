@@ -4,10 +4,10 @@ title: IStringTable::DeleteAllStrings
 author: windows-sdk-content
 description: The IStringTable::DeleteAllStrings method enables a snap-in to delete all strings from the snap-in's string table.
 old-location: mmc\istringtable_deleteallstrings.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 9a0b02f6-3c15-4687-a1b8-2beba40dd1dc
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteAllStrings, DeleteAllStrings method [MMC], DeleteAllStrings method [MMC],IStringTable interface, IStringTable interface [MMC],DeleteAllStrings method, IStringTable.DeleteAllStrings, IStringTable::DeleteAllStrings, _slate_istringtable_deleteallstrings, mmc.istringtable_deleteallstrings, mmc/IStringTable::DeleteAllStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices

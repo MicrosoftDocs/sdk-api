@@ -4,10 +4,10 @@ title: IKnownFolderManager::Redirect
 author: windows-sdk-content
 description: Redirects folder requests for common and per-user folders.
 old-location: shell\IKnownFolderManager_Redirect.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0f4fc609-597b-4c72-b875-4b3f051dd056
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],Redirect method, IKnownFolderManager.Redirect, IKnownFolderManager::Redirect, Redirect, Redirect method [Windows Shell], Redirect method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_Redirect, shell.IKnownFolderManager_Redirect, shobjidl_core/IKnownFolderManager::Redirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

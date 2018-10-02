@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_scheme.htm
 tech.root: wsw
 ms.assetid: c96e10ee-29d1-4c66-9f4d-64e663b25fd0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SCHEME, WS_HTTP_HEADER_AUTH_SCHEME enumeration [Web Services for Windows], WS_HTTP_HEADER_AUTH_SCHEME_BASIC, WS_HTTP_HEADER_AUTH_SCHEME_DIGEST, WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE, WS_HTTP_HEADER_AUTH_SCHEME_NONE, WS_HTTP_HEADER_AUTH_SCHEME_NTLM, WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT, __unnamed_enum_6, webservices/WS_HTTP_HEADER_AUTH_SCHEME, webservices/WS_HTTP_HEADER_AUTH_SCHEME_BASIC, webservices/WS_HTTP_HEADER_AUTH_SCHEME_DIGEST, webservices/WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE, webservices/WS_HTTP_HEADER_AUTH_SCHEME_NONE, webservices/WS_HTTP_HEADER_AUTH_SCHEME_NTLM, webservices/WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT, wsw.ws_http_header_auth_scheme
 ms.prod: windows
 ms.technology: windows-sdk

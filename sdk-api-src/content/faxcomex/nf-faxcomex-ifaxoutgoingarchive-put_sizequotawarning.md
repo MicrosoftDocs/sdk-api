@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizequota
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6wkn.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],SizeQuotaWarning property, IFaxOutgoingArchive.SizeQuotaWarning, IFaxOutgoingArchive.get_SizeQuotaWarning, IFaxOutgoingArchive.put_SizeQuotaWarning, IFaxOutgoingArchive::SizeQuotaWarning, IFaxOutgoingArchive::get_SizeQuotaWarning, IFaxOutgoingArchive::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.sizequotawarning, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizequotawarning_cpp, fax._mfax_faxoutgoingarchive_sizequotawarning, faxcomex/IFaxOutgoingArchive::SizeQuotaWarning, faxcomex/IFaxOutgoingArchive::get_SizeQuotaWarning, faxcomex/IFaxOutgoingArchive::put_SizeQuotaWarning, put_SizeQuotaWarning
 ms.prod: windows-hardware
 ms.technology: windows-devices

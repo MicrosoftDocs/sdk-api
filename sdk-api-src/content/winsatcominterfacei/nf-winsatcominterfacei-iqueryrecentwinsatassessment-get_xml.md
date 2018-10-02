@@ -7,7 +7,7 @@ old-location: winsat\iqueryrecentwinsatassessment_xml.htm
 tech.root: WinSAT
 ms.assetid: f8a1c664-bea3-4505-bcf0-2b8715dbe7dd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],XML property, IQueryRecentWinSATAssessment.XML, IQueryRecentWinSATAssessment.get_XML, IQueryRecentWinSATAssessment::XML, IQueryRecentWinSATAssessment::get_XML, XML property [WinSAT], XML property [WinSAT],IQueryRecentWinSATAssessment interface, get_XML, winsat.iqueryrecentwinsatassessment_xml, winsatcominterfacei/IQueryRecentWinSATAssessment::XML, winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,11 +78,15 @@ To retrieve summary information about the assessment, call the <a href="https://
 
 The following example shows how to use an XPath query to get data from the most recent formal assessment.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <winsatcominterfacei.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;winsatcominterfacei.h&gt;
 
 #pragma comment(lib, "ole32.lib")
 #pragma comment(lib, "oleaut32.lib")
@@ -104,7 +108,7 @@ void main(void)
         NULL,
         CLSCTX_INPROC_SERVER,
         __uuidof(IQueryRecentWinSATAssessment),
-        (void**)&pAssessment);
+        (void**)&amp;pAssessment);
 
     if (FAILED(hr))
     {
@@ -113,23 +117,23 @@ void main(void)
     }
 
     // Query the assessment for the nodes that match the XPath expression.
-    hr = pAssessment->get_XML(bstrXPath, NULL, &pNodes);
+    hr = pAssessment-&gt;get_XML(bstrXPath, NULL, &amp;pNodes);
     if (FAILED(hr))
     {
-        wprintf(L"pAssessment->get_XML failed with 0x%x.\n", hr);
+        wprintf(L"pAssessment-&gt;get_XML failed with 0x%x.\n", hr);
         goto cleanup;
     }
 
-    hr = pNodes->get_length(&NodeCount);
+    hr = pNodes-&gt;get_length(&amp;NodeCount);
     wprintf(L"There were %d results found for the XPath query.\n\n", NodeCount);
 
     // Loop through the results.
-    for (long i = 0; i < NodeCount; i++)
+    for (long i = 0; i &lt; NodeCount; i++)
     {
-        hr = pNodes->nextNode(&pNode);
+        hr = pNodes-&gt;nextNode(&amp;pNode);
         if (pNode)
         {
-            hr = pNode->get_text(&bstrTime);
+            hr = pNode-&gt;get_text(&amp;bstrTime);
             if (S_OK == hr)
             {
                 wprintf(L"Total runtime of the assessment: %s\n", bstrTime);
@@ -137,16 +141,16 @@ void main(void)
             }
             else
             {
-                wprintf(L"pNode->get_text failed with 0x%x.\n", hr);
+                wprintf(L"pNode-&gt;get_text failed with 0x%x.\n", hr);
                 goto cleanup;
             }
 
-            pNode->Release();
+            pNode-&gt;Release();
             pNode = NULL;
         }
         else
         {
-            wprintf(L"pNodes->nextNode failed with 0x%x.\n", hr);
+            wprintf(L"pNodes-&gt;nextNode failed with 0x%x.\n", hr);
             goto cleanup;
         }
     }
@@ -154,20 +158,20 @@ void main(void)
 cleanup:
 
     if (pAssessment)
-        pAssessment->Release();
+        pAssessment-&gt;Release();
 
     if (pNodes)
-        pNodes->Release();
+        pNodes-&gt;Release();
 
     if (bstrXPath)
         SysFreeString(bstrXPath);
 
     CoUninitialize();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

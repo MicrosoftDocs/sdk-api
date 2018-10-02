@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_getexcludefile.htm
 tech.root: VSS
 ms.assetid: 886d526f-c477-4c1c-80b0-65e3ea227142
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetExcludeFile, GetExcludeFile method [VSS], GetExcludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetExcludeFile method, IVssExamineWriterMetadata.GetExcludeFile, IVssExamineWriterMetadata::GetExcludeFile, _win32_ivssexaminewritermetadata_getexcludefile, base.ivssexaminewritermetadata_getexcludefile, vsbackup/IVssExamineWriterMetadata::GetExcludeFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,9 +166,9 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 For more information on excluding files, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384996(v=VS.85).aspx">Exclude File List Specification</a>.
+<a href="writer_metadata_document_contents.htm">Exclude File List Specification</a>.
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources of the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

@@ -4,10 +4,10 @@ title: IFsrmReportManager::GetReportSizeLimit
 author: windows-sdk-content
 description: Retrieves the current value of the specified report size limit.
 old-location: fsrm\ifsrmreportmanager_getreportsizelimit.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 1fe2546c-d70c-466a-8640-77cc2403a91d
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetReportSizeLimit method, GetReportSizeLimit, GetReportSizeLimit method [File Server Resource Manager], GetReportSizeLimit method [File Server Resource Manager],FsrmReportManager class, GetReportSizeLimit method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetReportSizeLimit method, IFsrmReportManager.GetReportSizeLimit, IFsrmReportManager::GetReportSizeLimit, fs.ifsrmreportmanager_getreportsizelimit, fsrm.ifsrmreportmanager_getreportsizelimit, fsrmreports/IFsrmReportManager::GetReportSizeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

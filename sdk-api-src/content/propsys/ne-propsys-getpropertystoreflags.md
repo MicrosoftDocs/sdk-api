@@ -7,7 +7,7 @@ old-location: properties\GETPROPERTYSTOREFLAGS.htm
 tech.root: properties
 ms.assetid: d3fde1b9-b19f-431d-9cea-bffc289ee683
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: GETPROPERTYSTOREFLAGS, GETPROPERTYSTOREFLAGS enumeration [Windows Properties], GPS_BESTEFFORT, GPS_DEFAULT, GPS_DELAYCREATION, GPS_EXTRINSICPROPERTIES, GPS_EXTRINSICPROPERTIESONLY, GPS_FASTPROPERTIESONLY, GPS_HANDLERPROPERTIESONLY, GPS_MASK_VALID, GPS_NO_OPLOCK, GPS_OPENSLOWITEM, GPS_PREFERQUERYPROPERTIES, GPS_READWRITE, GPS_TEMPORARY, _shell_GETPROPERTYSTOREFLAGS, properties.GETPROPERTYSTOREFLAGS, propsys/GETPROPERTYSTOREFLAGS, propsys/GPS_BESTEFFORT, propsys/GPS_DEFAULT, propsys/GPS_DELAYCREATION, propsys/GPS_EXTRINSICPROPERTIES, propsys/GPS_EXTRINSICPROPERTIESONLY, propsys/GPS_FASTPROPERTIESONLY, propsys/GPS_HANDLERPROPERTIESONLY, propsys/GPS_MASK_VALID, propsys/GPS_NO_OPLOCK, propsys/GPS_OPENSLOWITEM, propsys/GPS_PREFERQUERYPROPERTIES, propsys/GPS_READWRITE, propsys/GPS_TEMPORARY, shell.GETPROPERTYSTOREFLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Indicates flags that modify the property store object retrieved by methods that create a property store, such as <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> or <a href="https://msdn.microsoft.com/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
+Indicates flags that modify the property store object retrieved by methods that create a property store, such as <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> or <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
 
 
 ## -enum-fields
@@ -138,7 +138,7 @@ Meaning to a calling process: Delay memory-intensive operations, such as file ac
 			    
                 
 
-Meaning to a file folder: Do not create the handler until needed; for example, either <a href="https://msdn.microsoft.com/en-us/library/ms535454(v=VS.85).aspx">GetCount</a>/<a href="https://msdn.microsoft.com/en-us/library/Dd372028(v=VS.85).aspx">GetAt</a> or <a href="https://msdn.microsoft.com/en-us/library/ms536253(v=VS.85).aspx">GetValue</a>, where the innate store does not satisfy the request. Note: <b>GetValue</b> might fail due to file access problems.
+Meaning to a file folder: Do not create the handler until needed; for example, either <a href="shell.IPropertyStore_GetCount">GetCount</a>/<a href="shell.IPropertyStore_GetAt">GetAt</a> or <a href="shell.IPropertyStore_GetValue">GetValue</a>, where the innate store does not satisfy the request. Note: <b>GetValue</b> might fail due to file access problems.
 
 Meaning to other folders: If the folder has memory-intensive properties, such as delegating to a file folder or network access, it can optimize performance by supporting <a href="https://msdn.microsoft.com/855c9f10-9f40-4c60-a669-551fa51133f5">IDelayedPropertyStoreFactory</a> and splitting up its properties into a fast and a slow store. It can then use delayed MUX to recombine them.
 
@@ -188,7 +188,7 @@ Include only properties from the file's secondary stream.
 
 ### -field GPS_MASK_VALID
 
-Mask for valid <a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values.
+Mask for valid <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values.
 
 
 ## -remarks

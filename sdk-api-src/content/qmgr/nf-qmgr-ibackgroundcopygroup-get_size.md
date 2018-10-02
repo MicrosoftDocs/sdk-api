@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_get_size.htm
 tech.root: Bits
 ms.assetid: 69190b6a-6920-4f84-9109-12079f00a6ae
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],get_Size method, IBackgroundCopyGroup.get_Size, IBackgroundCopyGroup::get_Size, bits.ibackgroundcopygroup_get_size, get_Size, get_Size method [BITS], get_Size method [BITS],IBackgroundCopyGroup interface, qmgr/IBackgroundCopyGroup::get_Size
 ms.prod: windows-hardware
 ms.technology: windows-devices

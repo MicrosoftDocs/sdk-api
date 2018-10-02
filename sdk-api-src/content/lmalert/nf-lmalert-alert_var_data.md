@@ -4,10 +4,10 @@ title: ALERT_VAR_DATA macro
 author: windows-sdk-content
 description: The ALERT_VAR_DATA macro returns a pointer to the variable-length portion of an alert message. Variable-length data can follow an ADMIN_OTHER_INFO, a PRINT_OTHER_INFO, or a USER_OTHER_INFO structure.
 old-location: netmgmt\alert_var_data.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ff71fb3d-8c01-47ac-93f2-108b1f49e2da
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ALERT_VAR_DATA, ALERT_VAR_DATA macro [Network Management], _win32_alert_var_data, lmalert/ALERT_VAR_DATA, netmgmt.alert_var_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,16 +79,20 @@ Pointer to an
 The 
 <b>ALERT_VAR_DATA</b> macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define ALERT_VAR_DATA(p)      ((LPBYTE)(p) + sizeof(*p))
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 See 
 <a href="https://msdn.microsoft.com/11367a72-c21d-4044-98cf-a7a30cc43a8b">NetAlertRaise</a> and 
 <a href="https://msdn.microsoft.com/9762f0d6-0022-4e05-b2d8-6223d7bbb2c8">NetAlertRaiseEx</a> for code samples that use the 

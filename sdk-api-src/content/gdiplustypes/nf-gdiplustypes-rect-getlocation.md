@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_GetLocation_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getlocation.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetLocation, GetLocation method [GDI+], GetLocation method [GDI+],Rect class, Rect class [GDI+],GetLocation method, Rect.GetLocation, Rect::GetLocation, _gdiplus_CLASS_Rect_GetLocation_point_, gdiplus._gdiplus_CLASS_Rect_GetLocation_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ The <b>Rect::GetLocation</b> method gets the coordinates of the upper-left corne
 
 Type: <b>Point*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object that receives the coordinates of the upper-left corner. 
+Pointer to a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object that receives the coordinates of the upper-left corner. 
 
 
 ## -returns
@@ -80,39 +80,39 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534964(v=VS.85).aspx">Rect::GetBottom</a>
+<a href="https://msdn.microsoft.com/dbd3dd3e-e735-4dd0-888d-ab3f3ee185f1">Rect::GetBottom</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534966(v=VS.85).aspx">Rect::GetLeft</a>
+<a href="https://msdn.microsoft.com/3b03a86b-370b-4da6-b287-5031fe7ff285">Rect::GetLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534968(v=VS.85).aspx">Rect::GetRight</a>
+<a href="https://msdn.microsoft.com/7f0bc568-67a0-48ab-a4a3-5582d925b47b">Rect::GetRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534970(v=VS.85).aspx">Rect::GetTop</a>
+<a href="https://msdn.microsoft.com/6c23c2ab-edbe-45c4-99bb-6fb3e39ebaba">Rect::GetTop</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

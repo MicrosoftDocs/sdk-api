@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11scan_setscandirection.htm
 tech.root: direct3d11
 ms.assetid: f26b0e71-0803-4c57-b1bc-cefad5c449b7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3DX11Scan interface [Direct3D 11],SetScanDirection method, ID3DX11Scan.SetScanDirection, ID3DX11Scan::SetScanDirection, SetScanDirection, SetScanDirection method [Direct3D 11], SetScanDirection method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::SetScanDirection, direct3d11.id3dx11scan_setscandirection, f86c1216-b196-31a2-2a44-3b56262de095
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Direction to perform scans in.  See <a href="https://msdn.microsoft.com/bb2660c8
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the return codes described in the topic <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

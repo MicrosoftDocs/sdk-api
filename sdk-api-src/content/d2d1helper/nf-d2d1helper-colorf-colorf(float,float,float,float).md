@@ -7,7 +7,7 @@ old-location: direct2d\colorf_colorf_float__float__float__float_.htm
 tech.root: direct2d
 ms.assetid: 0c6118e6-0d97-4f66-951a-01e6d5264c59
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ColorF, ColorF interface [Direct2D],ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor, ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor [Direct2D], ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor [Direct2D],ColorF interface, ColorF.ColorF, ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT), ColorF::ColorF, ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT)(FLOAT,FLOAT,FLOAT,FLOAT), D2D1.ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT), D2D1::ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), d2d1helper/ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), direct2d.colorf_colorf_float__float__float__float_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ The alpha value of the color to be constructed. An alpha channel value ranges fr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorfreememory.htm
 tech.root: EAPHost
 ms.assetid: 9ec9f468-4589-4832-9f17-ddc0b64b88f1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapMethodAuthenticatorFreeMemory, EapMethodAuthenticatorFreeMemory function [EAPHost], eaphost.eapmethodauthenticatorfreememory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: Int8ToULong function
 author: windows-sdk-content
 description: Converts a value of type INT8 to a value of type ULONG.
 old-location: shell\Int8ToULong.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ce862097-24e5-403f-adef-6ec2816ee3db
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Int8ToULong, Int8ToULong function [Windows Shell], intsafe/Int8ToULong, shell.Int8ToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_sethorizontal
 tech.root: directmanipulation
 ms.assetid: 94716ec8-325e-4e9e-9a30-1d9999bdb9c3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetHorizontalAlignment method, IDirectManipulationPrimaryContent.SetHorizontalAlignment, IDirectManipulationPrimaryContent::SetHorizontalAlignment, SetHorizontalAlignment, SetHorizontalAlignment method [Direct Manipulation], SetHorizontalAlignment method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_sethorizontalalignment, directmanipulation/IDirectManipulationPrimaryContent::SetHorizontalAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,13 +85,17 @@ If you have activated a configuration consisting only of zoom or zoom inertia, s
 
 The following example shows one way to  this method.
 
-
-```
-HRESULT hr = pViewport->SetHorizontalAlignment(
-    DIRECTMANIPULATION_HORIZONTALALIGNMENT_CENTER | DIRECTMANIPULATION_HORIZONTALALIGNMENT_UNLOCKCENTER);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pViewport-&gt;SetHorizontalAlignment(
+    DIRECTMANIPULATION_HORIZONTALALIGNMENT_CENTER | DIRECTMANIPULATION_HORIZONTALALIGNMENT_UNLOCKCENTER);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IFolderView
 author: windows-sdk-content
 description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.
 old-location: shell\IFolderView.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3bc2615e-f07c-4959-b89e-bbbd2bf45a94
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderView, IFolderView interface [Windows Shell], IFolderView interface [Windows Shell],described, _shell_IFolderView, shell.IFolderView, shobjidl_core/IFolderView
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: secbiomet\engineadaptercreateenrollment.htm
 tech.root: SecBioMet
 ms.assetid: 5eec81ec-490c-485f-bbaf-4d972d7c8fde
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EngineAdapterCreateEnrollment, EngineAdapterCreateEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_CREATE_ENROLLMENT_FN, PIBIO_ENGINE_CREATE_ENROLLMENT_FN callback, secbiomet.engineadaptercreateenrollment, winbio_adapter/EngineAdapterCreateEnrollment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,9 +114,13 @@ The <a href="https://msdn.microsoft.com/f8eb3dd9-b993-4b45-b7f4-e1925c233a80">En
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterCreateEnrollment
 //
@@ -144,11 +148,11 @@ EngineAdapterCreateEnrollment(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     // Return if an enrollment is already in progress. This example assumes that 
     // your engine adapter context contains an enrollment object.
-    if (context->Enrollment.InProgress == TRUE)
+    if (context-&gt;Enrollment.InProgress == TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -158,7 +162,7 @@ EngineAdapterCreateEnrollment(
     // new enrollment template and attach it to the engine adapter context.
     hr = _AdapterCreateEnrollmentTemplate( 
             context, 
-            &context->Enrollment
+            &amp;context-&gt;Enrollment
             );
     if (FAILED(hr))
     {
@@ -170,17 +174,17 @@ EngineAdapterCreateEnrollment(
     // your enrollment object contains at a minimum a field that specifies 
     // the number of biometric samples and another that specifies whether a
     // new enrollment is in progress.
-    context->Enrollment.SampleCount = 0;
-    context->Enrollment.InProgress = TRUE;
+    context-&gt;Enrollment.SampleCount = 0;
+    context-&gt;Enrollment.InProgress = TRUE;
 
 cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

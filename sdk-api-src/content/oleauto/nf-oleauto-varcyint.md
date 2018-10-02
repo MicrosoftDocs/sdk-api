@@ -7,7 +7,7 @@ old-location: automat\varcyint.htm
 tech.root: automat
 ms.assetid: 234c8407-93c9-49bd-aae7-d526d5f5e34c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VarCyInt, VarCyInt function [Automation], _oa96_VarCyInt, automat.varcyint, oleauto/VarCyInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

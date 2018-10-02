@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getlistcontents.htm
 tech.root: WMP
 ms.assetid: a48935ea-8275-4b68-a1ab-006a23c455ad
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetListContents, GetListContents method [Windows Media Player], GetListContents method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetListContents method, IWMPContentPartner.GetListContents, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ Parameters, meaningful only to the online store, associated with the retrieved l
 
 ### -param dwListCookie [in]
 
-A cookie used to identify the list retrieval operation. (The plug-in passes this cookie to <a href="https://msdn.microsoft.com/en-us/library/Dd563143(v=VS.85).aspx">IWMPContentPartnerCallback::AddListContents</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd563149(v=VS.85).aspx">IWMPContentPartnerCallback::ListContentsComplete</a>.)
+A cookie used to identify the list retrieval operation. (The plug-in passes this cookie to <a href="https://msdn.microsoft.com/22d28495-310e-4f3d-a0e3-8f6679c78c40">IWMPContentPartnerCallback::AddListContents</a> and <a href="https://msdn.microsoft.com/e46a3378-a8e3-40c1-9cca-b6444286b3b5">IWMPContentPartnerCallback::ListContentsComplete</a>.)
 
 
 ## -returns
@@ -120,7 +120,7 @@ The method succeeded.
 
 
 
-Retrieving list contents is an asynchronous operation. This method should initiate the retrieval and return immediately. Then the plug-in must make one or more calls to <a href="https://msdn.microsoft.com/en-us/library/Dd563143(v=VS.85).aspx">IWMPContentPartnerCallback::AddListContents</a> to supply Windows Media Player with the requested list contents. When the plug-in has supplied all the data, it must call <a href="https://msdn.microsoft.com/en-us/library/Dd563149(v=VS.85).aspx">IWMPContentPartnerCallback::ListContentsComplete</a> to signal the end of the operation. In each case, the plug-in passes the cookie provided in <i>dwListCookie</i> to identify the correct list retrieval session.
+Retrieving list contents is an asynchronous operation. This method should initiate the retrieval and return immediately. Then the plug-in must make one or more calls to <a href="https://msdn.microsoft.com/22d28495-310e-4f3d-a0e3-8f6679c78c40">IWMPContentPartnerCallback::AddListContents</a> to supply Windows Media Player with the requested list contents. When the plug-in has supplied all the data, it must call <a href="https://msdn.microsoft.com/e46a3378-a8e3-40c1-9cca-b6444286b3b5">IWMPContentPartnerCallback::ListContentsComplete</a> to signal the end of the operation. In each case, the plug-in passes the cookie provided in <i>dwListCookie</i> to identify the correct list retrieval session.
 
 
 
@@ -130,7 +130,7 @@ Retrieving list contents is an asynchronous operation. This method should initia
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

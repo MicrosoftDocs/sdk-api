@@ -7,7 +7,7 @@ old-location: automat\sysstringlen.htm
 tech.root: automat
 ms.assetid: 65e792af-f8a8-4cdc-a279-494bba59394a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SysStringLen, SysStringLen function [Automation], _oa96_SysStringLen, automat.sysstringlen, oleauto/SysStringLen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ The number of characters in <i>bstr</i>, not including the terminating null char
 
 
 
-The returned value may be different from <b>strlen</b>(bstr) if the BSTR contains embedded Null characters. This function always returns the number of characters specified in the cch parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms221639(v=VS.85).aspx">SysAllocStringLen</a> function used to allocate the BSTR.
+The returned value may be different from <b>strlen</b>(bstr) if the BSTR contains embedded Null characters. This function always returns the number of characters specified in the cch parameter of the <a href="F98BFF39-BC5F-4A81-85D7-D5228E20FBC8">SysAllocStringLen</a> function used to allocate the BSTR.
 
 
 

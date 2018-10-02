@@ -4,10 +4,10 @@ title: IMFSimpleAudioVolume::SetMasterVolume
 author: windows-sdk-content
 description: Sets the master volume level.
 old-location: mf\imfsimpleaudiovolume_setmastervolume.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 42b51817-3c2a-463a-a533-19c327c57354
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 42b51817-3c2a-463a-a533-19c327c57354, IMFSimpleAudioVolume interface [Media Foundation],SetMasterVolume method, IMFSimpleAudioVolume.SetMasterVolume, IMFSimpleAudioVolume::SetMasterVolume, SetMasterVolume, SetMasterVolume method [Media Foundation], SetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, mf.imfsimpleaudiovolume_setmastervolume, mfidl/IMFSimpleAudioVolume::SetMasterVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

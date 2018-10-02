@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_initializepredefined.htm
 tech.root: wic
 ms.assetid: 507888ad-4e3f-4e31-83c4-63a473eb7681
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializePredefined method, IWICPalette.InitializePredefined, IWICPalette::InitializePredefined, InitializePredefined, InitializePredefined method [Windows Imaging Component], InitializePredefined method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializepredefined, wic._wic_codec_iwicpalette_initializepredefined, wincodec/IWICPalette::InitializePredefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If a transparent color is added to a palette, the palette is no longer predefined and is returned as <a href="https://msdn.microsoft.com/en-us/library/Ee719812(v=VS.85).aspx">WICBitmapPaletteTypeCustom</a>. For palettes with less than 256 entries, the transparent entry is added to the end of the palette (that is, a 16-color palette becomes a 17-color palette). For palettes with 256 colors, the transparent palette entry will replace the last entry in the pre-defined palette.
+If a transparent color is added to a palette, the palette is no longer predefined and is returned as <a href="_wic_codec_wicbitmappalettetype.htm">WICBitmapPaletteTypeCustom</a>. For palettes with less than 256 entries, the transparent entry is added to the end of the palette (that is, a 16-color palette becomes a 17-color palette). For palettes with 256 colors, the transparent palette entry will replace the last entry in the pre-defined palette.
 
 
 

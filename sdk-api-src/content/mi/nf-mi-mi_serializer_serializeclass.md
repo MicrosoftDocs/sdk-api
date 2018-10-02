@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_serializer_serializeclass.htm
 tech.root: WMI_v2
 ms.assetid: 3417731d-8727-4dcb-8ce4-2b07b6addd19
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Serializer_SerializeClass, MI_Serializer_SerializeClass function [Windows Management Infrastructure (MI)], mi/MI_Serializer_SerializeClass, wmi_v2.mi_serializer_serializeclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

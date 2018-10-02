@@ -4,10 +4,10 @@ title: NetServiceControl function
 author: windows-sdk-content
 description: The NetServiceControl function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netservicecontrol.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4ea0e624-7b6e-459d-879e-f6c5998765cf
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: NetServiceControl, NetServiceControl function [Network Management], _win32_netservicecontrol, lmsvc/NetServiceControl, netmgmt.netservicecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

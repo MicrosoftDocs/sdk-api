@@ -7,7 +7,7 @@ old-location: mstv\imsvidoutputdevices_get_item.htm
 tech.root: MSTV
 ms.assetid: 373dd785-3671-4afa-92ac-e61a39a68228
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get_Item method, IMSVidOutputDevices.get_Item, IMSVidOutputDevices::get_Item, IMSVidOutputDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get_item, segment/IMSVidOutputDevices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

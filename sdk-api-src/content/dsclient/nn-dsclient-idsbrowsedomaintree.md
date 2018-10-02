@@ -4,10 +4,10 @@ title: IDsBrowseDomainTree
 author: windows-sdk-content
 description: The IDsBrowseDomainTree interface is used by an application to display a domain browser dialog box and/or obtain a list of trust domains related to a given computer.
 old-location: ad\idsbrowsedomaintree.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: f50caa34-d29e-4ad1-98b0-ef5c1f5550bf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: IDsBrowseDomainTree, IDsBrowseDomainTree interface [Active Directory], IDsBrowseDomainTree interface [Active Directory],described, _glines_idsbrowsedomaintree, ad.idsbrowsedomaintree, dsclient/IDsBrowseDomainTree
 ms.prod: windows
 ms.technology: windows-sdk

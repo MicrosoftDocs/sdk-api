@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex2d_uav.htm
 tech.root: direct3d11
 ms.assetid: 2b090290-5250-4c92-9e1d-5e8a33dc2c4d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 65641581-384e-db89-9ea9-db917e580788, D3D11_TEX2D_UAV, D3D11_TEX2D_UAV structure [Direct3D 11], d3d11/D3D11_TEX2D_UAV, direct3d11.d3d11_tex2d_uav
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Describes a unordered-access 2D texture resource.
 
 ### -field MipSlice
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The mipmap slice index.
 
@@ -69,7 +69,7 @@ The mipmap slice index.
 
 
 
-This structure is used by a <a href="https://msdn.microsoft.com/en-us/library/Ff476258(v=VS.85).aspx">D3D11_UNORDERED_ACCESS_VIEW_DESC</a>.
+This structure is used by a <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a>.
 
 
 
@@ -79,7 +79,7 @@ This structure is used by a <a href="https://msdn.microsoft.com/en-us/library/Ff
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

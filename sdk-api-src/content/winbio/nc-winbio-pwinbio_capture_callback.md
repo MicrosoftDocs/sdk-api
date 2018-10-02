@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_capture_callback.htm
 tech.root: SecBioMet
 ms.assetid: 7B517246-410C-49B6-9DEE-30E066D8F5C6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PWINBIO_CAPTURE_CALLBACK, PWINBIO_CAPTURE_CALLBACK function, PWINBIO_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_capture_callback, winbio/PWINBIO_CAPTURE_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,9 +137,13 @@ The following code example captures a sample asynchronously by calling <a href="
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT CaptureSampleWithCallback(BOOL bCancel)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CaptureSampleWithCallback(BOOL bCancel)
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -152,7 +156,7 @@ HRESULT CaptureSampleWithCallback(BOOL bCancel)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             WINBIO_DB_DEFAULT,          // Default database
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -258,10 +262,10 @@ e_Exit:
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_arithmeticcomposite_prop.htm
 tech.root: direct2d
 ms.assetid: C3B1E6D9-2A8B-40C7-BE0C-C570F69C7DFB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1_ARITHMETICCOMPOSITE_PROP, D2D1_ARITHMETICCOMPOSITE_PROP enumeration [Direct2D], D2D1_ARITHMETICCOMPOSITE_PROP_CLAMP_OUTPUT, D2D1_ARITHMETICCOMPOSITE_PROP_COEFFICIENTS, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP_COEFFICIENTS, direct2d.d2d1_arithmeticcomposite_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for the properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706311(v=VS.85).aspx">Arithmetic composite effect</a>.
+Identifiers for the properties of the <a href="https://msdn.microsoft.com/6EC8CD61-5B51-4A8E-8A61-B291ABB5C5E0">Arithmetic composite effect</a>.
         
 
 

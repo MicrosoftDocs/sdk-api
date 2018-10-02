@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotfile.htm
 tech.root: VSS
 ms.assetid: 3df57749-9a26-4187-b1fc-aeb68a4d1d06
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetExcludeFromSnapshotFile, GetExcludeFromSnapshotFile method, GetExcludeFromSnapshotFile method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotFile method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile, base.ivssexaminewritermetadataex2_getexcludefromsnapshotfile, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Obtains information about <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> that have been explicitly excluded from a given shadow copy.
+Obtains information about <a href="vssgloss_f.htm">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Obtains information about <a href="https://msdn.microsoft.com/en-us/library/Aa38
 
 ### -param iFile [in]
 
-An index for an excluded <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file set</a>. The value of this parameter is an integer from 0 
+An index for an excluded <a href="vssgloss_f.htm">file set</a>. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of <i>file sets</i> explicitly excluded from a given shadow copy. The value of <i>n</i> is returned by 
 the <b>IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</b> method.
 
@@ -141,10 +141,10 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller is responsible for calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to release the resources of the returned 
+The caller is responsible for calling the <a href="_com_iunknown_release">IUnknown::Release</a> method to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
-The <b>GetExcludeFromSnapshotFile</b> method is intended to report information about <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> excluded from a shadow copy. Requesters should not exclude files from backup based on the information returned by this method.
+The <b>GetExcludeFromSnapshotFile</b> method is intended to report information about <a href="vssgloss_f.htm">file sets</a> excluded from a shadow copy. Requesters should not exclude files from backup based on the information returned by this method.
 
 
 

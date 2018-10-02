@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_gettimes.htm
 tech.root: Bits
 ms.assetid: acc29cc2-b437-4799-9cdb-388a60f117e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTimes, GetTimes method [BITS], GetTimes method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetTimes method, IBackgroundCopyJob.GetTimes, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ TBD
 #### - pTimes [out]
 
 Contains job-related time stamps. For available time stamps, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362810(v=VS.85).aspx">BG_JOB_TIMES</a> structure.
+<a href="https://msdn.microsoft.com/d7ee63f7-e2d1-451d-b200-cccb86816f21">BG_JOB_TIMES</a> structure.
 
 
 ## -returns
@@ -115,7 +115,7 @@ The <i>pTimes</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362810(v=VS.85).aspx">BG_JOB_TIMES</a>
+<a href="https://msdn.microsoft.com/d7ee63f7-e2d1-451d-b200-cccb86816f21">BG_JOB_TIMES</a>
  
 
  

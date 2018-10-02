@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol.htm
 tech.root: tablet
 ms.assetid: 3d6a6289-7be5-4cf0-8cb7-9095c4ee7149
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], IMathInputControl interface [Tablet PC],described, micaut/IMathInputControl, tablet.imathinputcontrol
 ms.prod: windows
 ms.technology: windows-sdk

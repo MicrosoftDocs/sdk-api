@@ -4,10 +4,10 @@ title: IMFSensorProfileCollection::FindProfile
 author: windows-sdk-content
 description: Finds a profile based on the specified profile ID.
 old-location: mf\imfsensorprofilecollection_findprofile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3EC77F69-717F-404F-9C8C-F420F360CB83
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: FindProfile, FindProfile method [Media Foundation], FindProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],FindProfile method, IMFSensorProfileCollection.FindProfile, IMFSensorProfileCollection::FindProfile, mf.imfsensorprofilecollection_findprofile, mfidl/IMFSensorProfileCollection::FindProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a>
+<a href="mf.imfsensorprofilecollection">IMFSensorProfileCollection</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: ncd\iwsdaddress_deserialize.htm
 tech.root: WsdApi
 ms.assetid: a23ac1cd-d2af-4562-a623-64ca1deb1830
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Deserialize, Deserialize method, Deserialize method,IWSDAddress interface, IWSDAddress interface,Deserialize method, IWSDAddress.Deserialize, IWSDAddress::Deserialize, ncd.iwsdaddress_deserialize, wsdbase/IWSDAddress::Deserialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_getwritermetadata.htm
 tech.root: VSS
 ms.assetid: a577d06a-4c9d-4ebe-b4d4-685f96ec9c83
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetWriterMetadata, GetWriterMetadata method [VSS], GetWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadata method, IVssBackupComponents.GetWriterMetadata, IVssBackupComponents::GetWriterMetadata, _win32_ivssbackupcomponents_getwritermetadata, base.ivssbackupcomponents_getwritermetadata, vsbackup/IVssBackupComponents::GetWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -202,7 +202,7 @@ This is in contrast to the information returned by
 <a href="https://msdn.microsoft.com/b99e7e41-1c88-462c-b6d8-734f7a6e24d4">GetWriterComponents</a> (during restore operations), which was stored in the Backup Components Document by calls to 
 <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">AddComponent</a>.
 
-When the caller of this method is finished accessing the metadata, it must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a>.
+When the caller of this method is finished accessing the metadata, it must call <a href="_com_iunknown_release">IUnknown::Release</a>.
 
 
 

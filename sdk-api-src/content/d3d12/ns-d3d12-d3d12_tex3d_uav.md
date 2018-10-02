@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex3d_uav.htm
 tech.root: direct3d12
 ms.assetid: 9BD20982-0BED-4F1D-9348-B45414C03EA5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_TEX3D_UAV, D3D12_TEX3D_UAV structure, d3d12/D3D12_TEX3D_UAV, direct3d12.d3d12_tex3d_uav
 ms.prod: windows
 ms.technology: windows-sdk

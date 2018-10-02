@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodattributes.htm
 tech.root: wpd_sdk
 ms.assetid: 4cd125ea-545f-461b-90e1-88d3e3a6c032
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMethodAttributes, GetMethodAttributes method [Windows Portable Devices SDK], GetMethodAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetMethodAttributes method, IPortableDeviceServiceCapabilities.GetMethodAttributes, IPortableDeviceServiceCapabilities::GetMethodAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodAttributes, wpdsdk.iportabledeviceservicecapabilities_getmethodattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-Possible attributes include the <a href="https://msdn.microsoft.com/en-us/library/Dd389006(v=VS.85).aspx">WPD_METHOD_ATTRIBUTE_NAME</a>, <b>WPD_METHOD_ATTRIBUTE_ASSOCIATED_FORMAT</b>, <b>WPD_METHOD_ATTRIBUTE_ACCESS</b>, and <a href="https://msdn.microsoft.com/en-us/library/Dd389067(v=VS.85).aspx">WPD_METHOD_ATTRIBUTE_PARAMETERS</a> properties.
+Possible attributes include the <a href="wpd_attributes.htm">WPD_METHOD_ATTRIBUTE_NAME</a>, <b>WPD_METHOD_ATTRIBUTE_ASSOCIATED_FORMAT</b>, <b>WPD_METHOD_ATTRIBUTE_ACCESS</b>, and <a href="wpd_method_attributes.htm">WPD_METHOD_ATTRIBUTE_PARAMETERS</a> properties.
       
 
 

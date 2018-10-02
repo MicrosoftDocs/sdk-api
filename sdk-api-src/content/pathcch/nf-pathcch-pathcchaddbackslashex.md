@@ -4,10 +4,10 @@ title: PathCchAddBackslashEx function
 author: windows-sdk-content
 description: Adds a backslash to the end of a string to create the correct syntax for a path.
 old-location: shell\PathCchAddBackslashEx.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 89adf45f-f16d-49d1-9e76-b57b73b4d4c3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathCchAddBackslashEx, PathCchAddBackslashEx function [Windows Shell], pathcch/PathCchAddBackslashEx, shell.PathCchAddBackslashEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: opc\iopcfactory_createstreamonfile.htm
 tech.root: OPC
 ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateStreamOnFile method, IOpcFactory.CreateStreamOnFile, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

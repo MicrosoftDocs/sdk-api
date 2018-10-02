@@ -4,10 +4,10 @@ title: IHeaderCtrl2::SetColumnFilter
 author: windows-sdk-content
 description: The IHeaderCtrl2::SetColumnFilter sets the filter value and its maximum character length for a specified column in a filtered list.
 old-location: mmc\iheaderctrl2_setcolumnfilter.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: df1257ee-66c4-4b63-a9c5-1bd0b94b4a85
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IHeaderCtrl2 interface [MMC],SetColumnFilter method, IHeaderCtrl2.SetColumnFilter, IHeaderCtrl2::SetColumnFilter, SetColumnFilter, SetColumnFilter method [MMC], SetColumnFilter method [MMC],IHeaderCtrl2 interface, _slate_iheaderctrl2_setcolumnfilter, mmc.iheaderctrl2_setcolumnfilter, mmc/IHeaderCtrl2::SetColumnFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

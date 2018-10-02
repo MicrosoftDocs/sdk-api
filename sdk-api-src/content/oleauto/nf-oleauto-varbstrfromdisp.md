@@ -7,7 +7,7 @@ old-location: automat\varbstrfromdisp.htm
 tech.root: automat
 ms.assetid: 6a59e80b-96d2-47ff-9d23-fab9d67886b4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VarBstrFromDisp, VarBstrFromDisp function [Automation], _oa96_VarBstrFromDisp, automat.varbstrfromdisp, oleauto/VarBstrFromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\imoniker_getdisplayname.htm
 tech.root: com
 ms.assetid: 424036c9-c097-4507-b562-4a01f9199b1f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: GetDisplayName, GetDisplayName method [COM], GetDisplayName method [COM],IMoniker interface, IMoniker interface [COM],GetDisplayName method, IMoniker.GetDisplayName, IMoniker::GetDisplayName, _com_imoniker_getdisplayname, com.imoniker_getdisplayname, objidl/IMoniker::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,7 +173,7 @@ A moniker that is intended to be part of a generic composite moniker should incl
 </tr>
 <tr>
 <td>URL moniker</td>
-<td>The URL moniker attempts to return its full URL string. If the moniker was created with a partial URL string (see <a href="https://msdn.microsoft.com/library/ms775103(v=VS.85).aspx">CreateURLMonikerEx</a>), it will first attempt to find an URL moniker in the bind context under SZ_URLCONTEXT and will next look to the moniker to its left for contextual information. If it cannot return its full URL string, it will return its partial URL string.</td>
+<td>The URL moniker attempts to return its full URL string. If the moniker was created with a partial URL string (see <a href="inet_CreateURLMonikerEx_cpp">CreateURLMonikerEx</a>), it will first attempt to find an URL moniker in the bind context under SZ_URLCONTEXT and will next look to the moniker to its left for contextual information. If it cannot return its full URL string, it will return its partial URL string.</td>
 </tr>
 </table>
  

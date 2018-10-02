@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_addresses.htm
 tech.root: IpHlp
 ms.assetid: a2df3749-6c75-40c0-8952-1656bbe639a6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP_ADAPTER_ADDRESSES, *PIP_ADAPTER_ADDRESSES_XP, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_ADAPTER_ADDRESSES, IP_ADAPTER_ADDRESSES structure [IP Helper], IP_ADAPTER_ADDRESSES_LH, IP_ADAPTER_ADDRESSES_XP, IP_ADAPTER_DDNS_ENABLED, IP_ADAPTER_DHCP_ENABLED, IP_ADAPTER_IPV4_ENABLED, IP_ADAPTER_IPV6_ENABLED, IP_ADAPTER_IPV6_MANAGE_ADDRESS_CONFIG, IP_ADAPTER_IPV6_OTHER_STATEFUL_CONFIG, IP_ADAPTER_NETBIOS_OVER_TCPIP_ENABLED, IP_ADAPTER_NO_MULTICAST, IP_ADAPTER_RECEIVE_ONLY, IP_ADAPTER_REGISTER_ADAPTER_SUFFIX, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, PIP_ADAPTER_ADDRESSES, PIP_ADAPTER_ADDRESSES structure pointer [IP Helper], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_IPHTTPS, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _IP_ADAPTER_ADDRESSES_XP, _iphlp_ip_adapter_addresses, iphlp.ip_adapter_addresses, iptypes/IP_ADAPTER_ADDRESSES, iptypes/PIP_ADAPTER_ADDRESSES"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -1054,11 +1054,15 @@ The <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SO
 
 This example retrieves the <b>IP_ADAPTER_ADDRESSES</b> structure for the adapters associated with the system and prints some members  for each adapter interface.
 
-
-```cpp
-#include <winsock2.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 #pragma comment(lib, "IPHLPAPI.lib")
 
 #define MALLOC(x) HeapAlloc(GetProcessHeap(), 0, (x))
@@ -1112,7 +1116,7 @@ int __cdecl main(int argc, char **argv)
 
     // Make an initial call to GetAdaptersAddresses to get the 
     // size needed into the outBufLen variable
-    if (GetAdaptersAddresses(family, flags, NULL, pAddresses, &outBufLen)
+    if (GetAdaptersAddresses(family, flags, NULL, pAddresses, &amp;outBufLen)
         == ERROR_BUFFER_OVERFLOW) {
         FREE(pAddresses);
         pAddresses = (IP_ADAPTER_ADDRESSES *) MALLOC(outBufLen);
@@ -1134,87 +1138,87 @@ int __cdecl main(int argc, char **argv)
         printf("AF_UNSPEC\n\n");
 
     dwRetVal =
-        GetAdaptersAddresses(family, flags, NULL, pAddresses, &outBufLen);
+        GetAdaptersAddresses(family, flags, NULL, pAddresses, &amp;outBufLen);
 
     if (dwRetVal == NO_ERROR) {
         // If successful, output some information from the data we received
         pCurrAddresses = pAddresses;
         while (pCurrAddresses) {
             printf("\tLength of the IP_ADAPTER_ADDRESS struct: %ld\n",
-                   pCurrAddresses->Length);
-            printf("\tIfIndex (IPv4 interface): %u\n", pCurrAddresses->IfIndex);
-            printf("\tAdapter name: %s\n", pCurrAddresses->AdapterName);
+                   pCurrAddresses-&gt;Length);
+            printf("\tIfIndex (IPv4 interface): %u\n", pCurrAddresses-&gt;IfIndex);
+            printf("\tAdapter name: %s\n", pCurrAddresses-&gt;AdapterName);
 
-            pUnicast = pCurrAddresses->FirstUnicastAddress;
+            pUnicast = pCurrAddresses-&gt;FirstUnicastAddress;
             if (pUnicast != NULL) {
                 for (i = 0; pUnicast != NULL; i++)
-                    pUnicast = pUnicast->Next;
+                    pUnicast = pUnicast-&gt;Next;
                 printf("\tNumber of Unicast Addresses: %d\n", i);
             } else
                 printf("\tNo Unicast Addresses\n");
 
-            pAnycast = pCurrAddresses->FirstAnycastAddress;
+            pAnycast = pCurrAddresses-&gt;FirstAnycastAddress;
             if (pAnycast) {
                 for (i = 0; pAnycast != NULL; i++)
-                    pAnycast = pAnycast->Next;
+                    pAnycast = pAnycast-&gt;Next;
                 printf("\tNumber of Anycast Addresses: %d\n", i);
             } else
                 printf("\tNo Anycast Addresses\n");
 
-            pMulticast = pCurrAddresses->FirstMulticastAddress;
+            pMulticast = pCurrAddresses-&gt;FirstMulticastAddress;
             if (pMulticast) {
                 for (i = 0; pMulticast != NULL; i++)
-                    pMulticast = pMulticast->Next;
+                    pMulticast = pMulticast-&gt;Next;
                 printf("\tNumber of Multicast Addresses: %d\n", i);
             } else
                 printf("\tNo Multicast Addresses\n");
 
-            pDnServer = pCurrAddresses->FirstDnsServerAddress;
+            pDnServer = pCurrAddresses-&gt;FirstDnsServerAddress;
             if (pDnServer) {
                 for (i = 0; pDnServer != NULL; i++)
-                    pDnServer = pDnServer->Next;
+                    pDnServer = pDnServer-&gt;Next;
                 printf("\tNumber of DNS Server Addresses: %d\n", i);
             } else
                 printf("\tNo DNS Server Addresses\n");
 
-            printf("\tDNS Suffix: %wS\n", pCurrAddresses->DnsSuffix);
-            printf("\tDescription: %wS\n", pCurrAddresses->Description);
-            printf("\tFriendly name: %wS\n", pCurrAddresses->FriendlyName);
+            printf("\tDNS Suffix: %wS\n", pCurrAddresses-&gt;DnsSuffix);
+            printf("\tDescription: %wS\n", pCurrAddresses-&gt;Description);
+            printf("\tFriendly name: %wS\n", pCurrAddresses-&gt;FriendlyName);
 
-            if (pCurrAddresses->PhysicalAddressLength != 0) {
+            if (pCurrAddresses-&gt;PhysicalAddressLength != 0) {
                 printf("\tPhysical address: ");
-                for (i = 0; i < pCurrAddresses->PhysicalAddressLength;
+                for (i = 0; i &lt; pCurrAddresses-&gt;PhysicalAddressLength;
                      i++) {
-                    if (i == (pCurrAddresses->PhysicalAddressLength - 1))
+                    if (i == (pCurrAddresses-&gt;PhysicalAddressLength - 1))
                         printf("%.2X\n",
-                               (int) pCurrAddresses->PhysicalAddress[i]);
+                               (int) pCurrAddresses-&gt;PhysicalAddress[i]);
                     else
                         printf("%.2X-",
-                               (int) pCurrAddresses->PhysicalAddress[i]);
+                               (int) pCurrAddresses-&gt;PhysicalAddress[i]);
                 }
             }
-            printf("\tFlags: %ld\n", pCurrAddresses->Flags);
-            printf("\tMtu: %lu\n", pCurrAddresses->Mtu);
-            printf("\tIfType: %ld\n", pCurrAddresses->IfType);
-            printf("\tOperStatus: %ld\n", pCurrAddresses->OperStatus);
+            printf("\tFlags: %ld\n", pCurrAddresses-&gt;Flags);
+            printf("\tMtu: %lu\n", pCurrAddresses-&gt;Mtu);
+            printf("\tIfType: %ld\n", pCurrAddresses-&gt;IfType);
+            printf("\tOperStatus: %ld\n", pCurrAddresses-&gt;OperStatus);
             printf("\tIpv6IfIndex (IPv6 interface): %u\n",
-                   pCurrAddresses->Ipv6IfIndex);
+                   pCurrAddresses-&gt;Ipv6IfIndex);
             printf("\tZoneIndices (hex): ");
-            for (i = 0; i < 16; i++)
-                printf("%lx ", pCurrAddresses->ZoneIndices[i]);
+            for (i = 0; i &lt; 16; i++)
+                printf("%lx ", pCurrAddresses-&gt;ZoneIndices[i]);
             printf("\n");
 
-            pPrefix = pCurrAddresses->FirstPrefix;
+            pPrefix = pCurrAddresses-&gt;FirstPrefix;
             if (pPrefix) {
                 for (i = 0; pPrefix != NULL; i++)
-                    pPrefix = pPrefix->Next;
+                    pPrefix = pPrefix-&gt;Next;
                 printf("\tNumber of IP Adapter Prefix entries: %d\n", i);
             } else
                 printf("\tNo IP Adapter Prefix entries\n");
 
             printf("\n");
 
-            pCurrAddresses = pCurrAddresses->Next;
+            pCurrAddresses = pCurrAddresses-&gt;Next;
         }
     } else {
         printf("Call to GetAdaptersAddresses failed with error: %d\n",
@@ -1224,7 +1228,7 @@ int __cdecl main(int argc, char **argv)
         else {
 
             if (FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, NULL, dwRetVal, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),   // Default language
-                              (LPTSTR) & lpMsgBuf, 0, NULL)) {
+                              (LPTSTR) &amp; lpMsgBuf, 0, NULL)) {
                 printf("\tError: %s", lpMsgBuf);
                 LocalFree(lpMsgBuf);
                 FREE(pAddresses);
@@ -1235,10 +1239,10 @@ int __cdecl main(int argc, char **argv)
     FREE(pAddresses);
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

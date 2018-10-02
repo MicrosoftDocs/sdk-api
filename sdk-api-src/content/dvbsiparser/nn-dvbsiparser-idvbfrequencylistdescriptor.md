@@ -7,7 +7,7 @@ old-location: mstv\idvbfrequencylistdescriptor.htm
 tech.root: MSTV
 ms.assetid: fadf7114-b9e4-4f61-816b-10725b83169a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],described, IDvbFrequencyListDescriptorInterface, dvbsiparser/IDvbFrequencyListDescriptor, mstv.idvbfrequencylistdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

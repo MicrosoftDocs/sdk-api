@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_getrestoremethod.htm
 tech.root: VSS
 ms.assetid: c93f841f-057c-4aee-b8f2-263395e84c7b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRestoreMethod, GetRestoreMethod method [VSS], GetRestoreMethod method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetRestoreMethod method, IVssExamineWriterMetadata.GetRestoreMethod, IVssExamineWriterMetadata::GetRestoreMethod, _win32_ivssexaminewritermetadata_getrestoremethod, base.ivssexaminewritermetadata_getrestoremethod, vsbackup/IVssExamineWriterMetadata::GetRestoreMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -195,7 +195,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 A file should always be restored to its alternate location mapping if either of the following is true:
 

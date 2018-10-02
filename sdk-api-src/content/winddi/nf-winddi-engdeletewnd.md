@@ -4,10 +4,10 @@ title: EngDeleteWnd function
 author: windows-sdk-content
 description: The EngDeleteWnd function deletes a WNDOBJ structure.
 old-location: display\engdeletewnd.htm
-tech.root: display
+tech.root: Display
 ms.assetid: bc6b3a61-18f6-4c7a-b6cb-a3f2dc4f6a36
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngDeleteWnd, EngDeleteWnd function [Display Devices], display.engdeletewnd, gdifncs_7a608897-cca5-45c9-94ea-afa7d3f6ed6a.xml, winddi/EngDeleteWnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

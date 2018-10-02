@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingoptiongroup.htm
 tech.root: tracelogging
 ms.assetid: 5D794C46-95B2-4111-AFB8-CE488B4D1A42
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TraceLoggingOptionGroup, TraceLoggingOptionGroup macro, tracelogging.traceloggingoptiongroup, traceloggingprovider/TraceLoggingOptionGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

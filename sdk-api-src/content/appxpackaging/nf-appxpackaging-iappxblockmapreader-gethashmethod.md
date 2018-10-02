@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapreader_gethashmethod.htm
 tech.root: appxpkg
 ms.assetid: 661E4F12-E426-4811-81FA-4F065C6E488A
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetHashMethod, GetHashMethod method [App packaging and management], GetHashMethod method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetHashMethod method, IAppxBlockMapReader.GetHashMethod, IAppxBlockMapReader::GetHashMethod, appxpackaging/IAppxBlockMapReader::GetHashMethod, appxpkg.iappxblockmapreader_gethashmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange
 author: windows-sdk-content
 description: Gets the range of values for an image filter.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorfilterrange.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: F43A01D7-A0FE-4509-B3B2-094B09A7F04A
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetVideoProcessorFilterRange, GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorFilterRange method, ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange, ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange, mf.id3d11videoprocessorenumerator_getvideoprocessorfilterrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

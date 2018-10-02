@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_getdit.htm
 tech.root: MSTV
 ms.assetid: ff6d5a04-173d-4577-a6e8-2ae5b2f99358
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetDIT, GetDIT method [Microsoft TV Technologies], GetDIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetDIT method, IDvbSiParser.GetDIT, IDvbSiParser::GetDIT, IDvbSiParserGetDIT, dvbsiparser/IDvbSiParser::GetDIT, mstv.idvbsiparser_getdit
 ms.prod: windows-hardware
 ms.technology: windows-devices

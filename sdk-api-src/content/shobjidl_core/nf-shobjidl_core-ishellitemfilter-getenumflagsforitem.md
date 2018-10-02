@@ -4,10 +4,10 @@ title: IShellItemFilter::GetEnumFlagsForItem
 author: windows-sdk-content
 description: Allows a client to specify which classes of objects in a Shell item should be enumerated for inclusion in the view.
 old-location: shell\IShellItemFilter_GetEnumFlagsForItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a84868ab-25c4-4cb7-84a1-aba0eff09b4a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetEnumFlagsForItem, GetEnumFlagsForItem method [Windows Shell], GetEnumFlagsForItem method [Windows Shell],IShellItemFilter interface, IShellItemFilter interface [Windows Shell],GetEnumFlagsForItem method, IShellItemFilter.GetEnumFlagsForItem, IShellItemFilter::GetEnumFlagsForItem, _shell_IShellItemFilter_GetEnumFlagsForItem, shell.IShellItemFilter_GetEnumFlagsForItem, shobjidl_core/IShellItemFilter::GetEnumFlagsForItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

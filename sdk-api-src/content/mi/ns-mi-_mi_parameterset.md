@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_parameterset.htm
 tech.root: WMI_v2
 ms.assetid: 14b5773c-4741-453b-824a-226aab9b8a10
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ParameterSet, MI_ParameterSet structure [Windows Management Infrastructure (MI)], _MI_ParameterSet, mi/MI_ParameterSet, wmi_v2.mi_parameterset
 ms.prod: windows
 ms.technology: windows-sdk

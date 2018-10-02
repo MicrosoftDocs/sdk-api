@@ -4,10 +4,10 @@ title: INameSpaceTreeControl::SetTheme
 author: windows-sdk-content
 description: Sets the desktop theme for the current window only.
 old-location: shell\INameSpaceTreeControl_SetTheme.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1b518d58-716b-4ae1-8633-e43117363541
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetTheme method, INameSpaceTreeControl.SetTheme, INameSpaceTreeControl::SetTheme, SetTheme, SetTheme method [Windows Shell], SetTheme method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetTheme, shell.INameSpaceTreeControl_SetTheme, shobjidl_core/INameSpaceTreeControl::SetTheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

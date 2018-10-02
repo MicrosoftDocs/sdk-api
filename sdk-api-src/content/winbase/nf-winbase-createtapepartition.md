@@ -7,7 +7,7 @@ old-location: backup\createtapepartition.htm
 tech.root: Backup
 ms.assetid: 9add07a2-1f70-4c9a-b278-4bc8b6c9d043
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateTapePartition, CreateTapePartition function [Backup], TAPE_FIXED_PARTITIONS, TAPE_INITIATOR_PARTITIONS, TAPE_SELECT_PARTITIONS, _win32_createtapepartition, backup.createtapepartition, base.createtapepartition, winbase/CreateTapePartition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device where the new partition is to be created. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwPartitionMethod [in]
@@ -337,7 +337,7 @@ Creating partitions reformats the tape. All previous information recorded on the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

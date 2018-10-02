@@ -7,7 +7,7 @@ old-location: winsock\tcp_initial_rto_parameters.htm
 tech.root: WinSock
 ms.assetid: D8445188-A7D5-4A2C-827A-CB559C3B0748
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS structure pointer [Winsock], TCP_INITIAL_RTO_PARAMETERS, TCP_INITIAL_RTO_PARAMETERS structure [Winsock], _TCP_INITIAL_RTO_PARAMETERS, mstcpip/PTCP_INITIAL_RTO_PARAMETERS, mstcpip/TCP_INITIAL_RTO_PARAMETERS, winsock.tcp_initial_rto_parameters"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MFCreateASFProfile function
 author: windows-sdk-content
 description: Creates the ASF profile object.
 old-location: mf\mfcreateasfprofile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: fa57fac7-a191-4d5b-89be-319af7b3e09c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateASFProfile, MFCreateASFProfile function [Media Foundation], fa57fac7-a191-4d5b-89be-319af7b3e09c, mf.mfcreateasfprofile, wmcontainer/MFCreateASFProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITextRow
 author: windows-sdk-content
 description: The ITextRow interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call ITextRow::Insert for each different row configuration.
 old-location: controls\itextrow.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 49f5ffc1-d615-4d07-9f41-1c5f0dd9045b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], ITextRow interface [Windows Controls],described, controls.itextrow, tom/ITextRow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-The <b>ITextRow</b> interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call <a href="https://msdn.microsoft.com/en-us/library/Hh768694(v=VS.85).aspx">ITextRow::Insert</a> for each different row configuration. 
+The <b>ITextRow</b> interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call <a href="itextrow_insert.htm">ITextRow::Insert</a> for each different row configuration. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRow</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITextRow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRow</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITextRow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -489,14 +489,14 @@ Sets whether this row has right-to-left orientation.
 
 
 
-To select a table, a row, or a cell, use <a href="https://msdn.microsoft.com/en-us/library/Bb787781(v=VS.85).aspx">ITextRange::Expand</a>, with the <i>Unit</i> parameter set to <b>tomTable</b>, <b>tomRow</b>, or <b>tomCell</b>, respectively. These units can also be used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">ITextRange::Move</a> methods to navigate and select multiple rows or cells.
+To select a table, a row, or a cell, use <a href="https://msdn.microsoft.com/67319d45-4ed3-4413-a725-8acb8666b7f3">ITextRange::Expand</a>, with the <i>Unit</i> parameter set to <b>tomTable</b>, <b>tomRow</b>, or <b>tomCell</b>, respectively. These units can also be used with the <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">ITextRange::Move</a> methods to navigate and select multiple rows or cells.
 
-Some of the <b>ITextRow</b> properties apply to the whole row, such as the row alignment. In addition, there are a number of properties, such as cell alignment, that apply to a cell with the index set via the <a href="https://msdn.microsoft.com/en-us/library/Hh768705(v=VS.85).aspx">ITextRow::SetCellIndex</a> method. This cell is referred to as the active cell.
+Some of the <b>ITextRow</b> properties apply to the whole row, such as the row alignment. In addition, there are a number of properties, such as cell alignment, that apply to a cell with the index set via the <a href="itextrow_setcellindex.htm">ITextRow::SetCellIndex</a> method. This cell is referred to as the active cell.
 
 
-<b>ITextRow</b> works similarly to <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>, but doesn't modify the document until either the <a href="https://msdn.microsoft.com/en-us/library/Hh768671(v=VS.85).aspx">ITextRow::Apply</a> or <a href="https://msdn.microsoft.com/en-us/library/Hh768694(v=VS.85).aspx">ITextRow::Insert</a> methods are called. In addition, the row and cell parameters are always active, that is, they cannot have the value <b>tomDefault</b>.
+<b>ITextRow</b> works similarly to <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>, but doesn't modify the document until either the <a href="itextrow_apply.htm">ITextRow::Apply</a> or <a href="itextrow_insert.htm">ITextRow::Insert</a> methods are called. In addition, the row and cell parameters are always active, that is, they cannot have the value <b>tomDefault</b>.
 
-On initialization, the <b>ITextRow</b> object acquires the table row properties, if any, at the active end of the associated <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>. The <a href="https://msdn.microsoft.com/en-us/library/Hh768696(v=VS.85).aspx">ITextRow::Reset</a> method can be used to update these properties to the current values for <b>ITextRange2</b> object.
+On initialization, the <b>ITextRow</b> object acquires the table row properties, if any, at the active end of the associated <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>. The <a href="itextrow_reset.htm">ITextRow::Reset</a> method can be used to update these properties to the current values for <b>ITextRange2</b> object.
 
 
 A rich edit control table consists of a sequence of table rows, which, in turn, consist of sequences of paragraphs. A table row starts with the special two-character delimiter paragraph U+FFF9 U+000D and ends with the two-character delimiter paragraph U+FFFB U+000D. Each cell is terminated by the cell mark U+0007, which is treated as a hard end-of-paragraph mark just as U+000D (CR) is. The table row and cell parameters are treated as special paragraph formatting of the table-row delimiters. The cell parameters are stored in an expanded version of the tabs array. This format allows tables to be nested within other tables and is allowed to go fifteen levels deep.
@@ -504,7 +504,7 @@ A rich edit control table consists of a sequence of table rows, which, in turn, 
 The architecture is quite flexible in that each table row can have any valid table-row parameters, regardless of the parameters for other rows (except for vertical merge flags). For example, the number of cells and the start indents of table rows can differ, unlike in HTML which has n×m rectangular format with all rows starting at the same indent. 
 
 On the other hand, no formal table description is stored anywhere. Information such as the number of rows must be figured out by navigating through the table.
-For example, the count of rows in a table can be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Bb787835(v=VS.85).aspx">ITextRange::StartOf</a> (<b>tomTable</b>, <b>tomFalse</b>, <b>NULL</b>) to move to the start of the current table and then calling <a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">ITextRange::Move</a> (<b>tomRow</b>, <b>tomForward</b>, <i>&amp;dcRow</i>). The quantity <i>&amp;dcRow</i> + 1 then contains the count of rows in the table, because moving by <b>tomRow</b> increments doesn't move beyond the last table row.
+For example, the count of rows in a table can be obtained by calling <a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">ITextRange::StartOf</a> (<b>tomTable</b>, <b>tomFalse</b>, <b>NULL</b>) to move to the start of the current table and then calling <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">ITextRange::Move</a> (<b>tomRow</b>, <b>tomForward</b>, <i>&amp;dcRow</i>). The quantity <i>&amp;dcRow</i> + 1 then contains the count of rows in the table, because moving by <b>tomRow</b> increments doesn't move beyond the last table row.
 
 
 For additional information about the rich edit control's support for tables, see <a href="http://go.microsoft.com/fwlink/p/?linkid=239678">RichEdit's Nested Table Facility</a>. 

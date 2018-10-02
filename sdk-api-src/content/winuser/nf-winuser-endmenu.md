@@ -7,7 +7,7 @@ old-location: menurc\endmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\endmenu.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EndMenu, EndMenu function [Menus and Other Resources], _win32_EndMenu, _win32_endmenu_cpp, menurc.endmenu, winui._win32_endmenu, winuser/EndMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If a platform does not support <b>EndMenu</b>, send the owner of the active menu a <a href="https://msdn.microsoft.com/en-us/library/ms632615(v=VS.85).aspx">WM_CANCELMODE</a> message.
+If a platform does not support <b>EndMenu</b>, send the owner of the active menu a <a href="https://msdn.microsoft.com/c801233a-c4d8-4fd9-aaf0-3d4503bbce26">WM_CANCELMODE</a> message.
 
 
 
@@ -95,7 +95,7 @@ If a platform does not support <b>EndMenu</b>, send the owner of the active menu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -103,7 +103,7 @@ If a platform does not support <b>EndMenu</b>, send the owner of the active menu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632615(v=VS.85).aspx">WM_CANCELMODE</a>
+<a href="https://msdn.microsoft.com/c801233a-c4d8-4fd9-aaf0-3d4503bbce26">WM_CANCELMODE</a>
  
 
  

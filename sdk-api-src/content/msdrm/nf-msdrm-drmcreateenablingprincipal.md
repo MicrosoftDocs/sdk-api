@@ -7,7 +7,7 @@ old-location: rm\drmcreateenablingprincipal.htm
 tech.root: AdRms_Sdk
 ms.assetid: 92858a46-cef5-4d25-9f3c-cbb343743565
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMCreateEnablingPrincipal, DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingPrincipal, rm.drmcreateenablingprincipal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ A pointer to a <a href="https://msdn.microsoft.com/8b7f22e0-586e-4950-94fe-868b3
 
 ### -param wszCredentials [in]
 
-A pointer to a null-terminated Unicode string that contains the <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> of the current user.
+A pointer to a null-terminated Unicode string that contains the <a href="r_gly.htm">rights account certificate</a> of the current user.
 
 
 ### -param phEnablingPrincipal [out]

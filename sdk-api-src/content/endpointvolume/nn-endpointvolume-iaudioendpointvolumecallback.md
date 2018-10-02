@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolumecallback.htm
 tech.root: CoreAudio
 ms.assetid: 0b631d1b-f89c-4789-a09c-875b24a48a89
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IAudioEndpointVolumeCallback, IAudioEndpointVolumeCallback interface [Core Audio], IAudioEndpointVolumeCallback interface [Core Audio],described, coreaudio.iaudioendpointvolumecallback, endpointvolume/IAudioEndpointVolumeCallback
 ms.prod: windows
 ms.technology: windows-sdk

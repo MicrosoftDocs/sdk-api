@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink_get_sinkname.htm
 tech.root: MSTV
 ms.assetid: a1fda0a0-7b18-4eb8-9555-19fb92fc32f2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SinkName method, IMSVidStreamBufferSink.get_SinkName, IMSVidStreamBufferSink::get_SinkName, IMSVidStreamBufferSinkget_SinkName, get_SinkName, get_SinkName method [Microsoft TV Technologies], get_SinkName method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sinkname, segment/IMSVidStreamBufferSink::get_SinkName
 ms.prod: windows-hardware
 ms.technology: windows-devices

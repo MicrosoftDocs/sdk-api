@@ -4,10 +4,10 @@ title: "_KF_DEFINITION_FLAGS"
 author: windows-sdk-content
 description: Flags that specify certain known folder behaviors. Used with the KNOWNFOLDER_DEFINITION structure.
 old-location: shell\KF_DEFINITION_FLAGS.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c5267aea-19b7-4e4a-a443-24674a6ae608
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: KFDF_LOCAL_REDIRECT_ONLY, KFDF_NO_REDIRECT_UI, KFDF_PRECREATE, KFDF_PUBLISHEXPANDEDPATH, KFDF_ROAMABLE, KFDF_STREAM, KF_DEFINITION_FLAGS, KF_DEFINITION_FLAGS enumeration [Windows Shell], _KF_DEFINITION_FLAGS, _shell_KF_DEFINITION_FLAGS, shell.KF_DEFINITION_FLAGS, shobjidl_core/KFDF_LOCAL_REDIRECT_ONLY, shobjidl_core/KFDF_NO_REDIRECT_UI, shobjidl_core/KFDF_PRECREATE, shobjidl_core/KFDF_PUBLISHEXPANDEDPATH, shobjidl_core/KFDF_ROAMABLE, shobjidl_core/KFDF_STREAM, shobjidl_core/KF_DEFINITION_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,12 +96,16 @@ Create the folder when the user first logs on. Normally a known folder is not cr
 
 The <b>KF_DEFINITION_FLAGS</b> type is defined in Shobjidl.h as shown here.
 
-
-```
-typedef DWORD KF_DEFINITION_FLAGS;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD KF_DEFINITION_FLAGS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

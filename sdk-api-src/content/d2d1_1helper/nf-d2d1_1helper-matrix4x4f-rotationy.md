@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_rotationy.htm
 tech.root: direct2d
 ms.assetid: F761CAB1-77F8-4C98-9085-3FBF4452AA51
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationY method, Matrix4x4F.RotationY, Matrix4x4F::RotationY, RotationY, RotationY method [Direct2D], RotationY method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationY, direct2d.matrix4x4f_rotationy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The amount of rotation.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
 
 The result matrix.
 
@@ -81,7 +81,7 @@ The result matrix.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

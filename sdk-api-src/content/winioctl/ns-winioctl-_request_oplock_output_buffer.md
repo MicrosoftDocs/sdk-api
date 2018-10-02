@@ -7,7 +7,7 @@ old-location: fs\request_oplock_output_buffer.htm
 tech.root: fileio
 ms.assetid: 5912e0db-a102-4e1c-a1c0-c6a900fe0bbe
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_OUTPUT_BUFFER, REQUEST_OPLOCK_OUTPUT_BUFFER structure [Files], REQUEST_OPLOCK_OUTPUT_FLAG_ACK_REQUIRED, REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED, _REQUEST_OPLOCK_OUTPUT_BUFFER, fs.request_oplock_output_buffer, winioctl/PREQUEST_OPLOCK_OUTPUT_BUFFER, winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff551007(v=VS.85).aspx">Oplock Semantics</a>
+<a href="ifsk.oplock_semantics">Oplock Semantics</a>
 
 
 

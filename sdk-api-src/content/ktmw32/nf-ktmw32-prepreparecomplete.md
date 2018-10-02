@@ -7,7 +7,7 @@ old-location: fs\prepreparecomplete.htm
 tech.root: Ktm
 ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

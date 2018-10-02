@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_referencea.htm
 tech.root: WMI_v2
 ms.assetid: a0fde623-a9f0-4b7d-8c7d-2a88745fc8b2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ReferenceA, MI_ReferenceA structure [Windows Management Infrastructure (MI)], _MI_ReferenceA, mi/MI_ReferenceA, wmi._mi_referencea, wmi_v2.mi_referencea
 ms.prod: windows
 ms.technology: windows-sdk

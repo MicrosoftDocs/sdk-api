@@ -7,7 +7,7 @@ old-location: tsf\itfrange_getembedded.htm
 tech.root: TSF
 ms.assetid: ff8c4f60-76d5-422d-9d23-584e8eb5f1a1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: Caller-defined, GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetEmbedded method, ITfRange.GetEmbedded, ITfRange::GetEmbedded, _tsf_itfrange_getembedded_ref, msctf/ITfRange::GetEmbedded, tsf.itfrange_getembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ Identifier that specifies how the embedded content is obtained.
 </dl>
 </td>
 <td width="60%">
-Output should be an <a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible object</a>.
+Output should be an <a href="_msaa_accessible_objects">Accessible object</a>.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Caller requires a direct pointer to the object that supports the interface speci
 </dl>
 </td>
 <td width="60%">
-Content should be obtained as an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> data transfer object, with <i>riid</i> being IID_IDataObject. Clients should specify this option when a copy of the content is required.
+Content should be obtained as an <a href="_ole_idataobject">IDataObject</a> data transfer object, with <i>riid</i> being IID_IDataObject. Clients should specify this option when a copy of the content is required.
 
 </td>
 </tr>
@@ -234,11 +234,11 @@ While the obtained object might not support certain interfaces, it is likely tha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible Objects</a>
+<a href="_msaa_accessible_objects">Accessible Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

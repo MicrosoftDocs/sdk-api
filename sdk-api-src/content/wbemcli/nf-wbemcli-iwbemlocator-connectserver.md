@@ -7,7 +7,7 @@ old-location: wmi\iwbemlocator_connectserver.htm
 tech.root: WmiSdk
 ms.assetid: 92222e08-8622-46c3-9465-cd12260a2ca0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ConnectServer, ConnectServer method [Windows Management Instrumentation], ConnectServer method [Windows Management Instrumentation],IWbemLocator interface, ConnectServer method [Windows Management Instrumentation],WbemAdministrativeLocator object, ConnectServer method [Windows Management Instrumentation],WbemAuthenticatedLocator object, ConnectServer method [Windows Management Instrumentation],WbemLocator object, ConnectServer method [Windows Management Instrumentation],WbemUnauthenticatedLocator object, IWbemLocator interface [Windows Management Instrumentation],ConnectServer method, IWbemLocator.ConnectServer, IWbemLocator::ConnectServer, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, WbemAdministrativeLocator object [Windows Management Instrumentation],ConnectServer method, WbemAuthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, WbemLocator object [Windows Management Instrumentation],ConnectServer method, WbemUnauthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, _hmm_iwbemlocator_connectserver, wbemcli/IWbemLocator::ConnectServer, wmi.iwbemlocator_connectserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,7 +153,7 @@ Typically, this is <b>NULL</b>. Otherwise, this is a pointer to an
 ### -param ppNamespace [out]
 
 Receives a pointer to an 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> object bound to the specified namespace. This pointer has a positive reference count. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IWbemServices::Release</a> on the pointer when it is no longer required. This pointer is set to point to <b>NULL</b> when there is an error.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> object bound to the specified namespace. This pointer has a positive reference count. The caller must call <a href="_com_iunknown_release">IWbemServices::Release</a> on the pointer when it is no longer required. This pointer is set to point to <b>NULL</b> when there is an error.
 
 
 ## -returns
@@ -186,26 +186,30 @@ For an example of using smi2smir.xml in a C++ code sample to connect to a WMI na
 
 The following C++ code sample describes how to use smi2smir.xml to connect to a specified namespace. For the complete code sample, including necessary #include files, see the <a href="https://Code.MSDN.Microsoft.Com/CppEnableNetBiosOverTCPIP-ed32d818">Enable NetBIOS over TCP/IP</a> sample in the MSDN Code gallery.
 
-
-```cpp
-int _tmain(int argc, _TCHAR* argv[]) 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int _tmain(int argc, _TCHAR* argv[]) 
 { 
     // Initialize COM. ------------------------------------------ 
     HRESULT hres = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED); 
     if (FAILED(hres)) 
     { 
-        wcout << "CoInitializeEx() failure:" << hex << (unsigned long)hres; 
+        wcout &lt;&lt; "CoInitializeEx() failure:" &lt;&lt; hex &lt;&lt; (unsigned long)hres; 
         return 0; 
     } 
  
     // Obtain the initial locator to Windows Management 
     // on a particular host computer. 
     IWbemLocator *pLoc = NULL; 
-    hres = CoCreateInstance(CLSID_WbemLocator, 0, CLSCTX_INPROC_SERVER,IID_IWbemLocator, (LPVOID *)&pLoc); 
+    hres = CoCreateInstance(CLSID_WbemLocator, 0, CLSCTX_INPROC_SERVER,IID_IWbemLocator, (LPVOID *)&amp;pLoc); 
     if (FAILED(hres)) 
     { 
         CoUninitialize(); 
-        wcout << "CreateInstance failure:" << hex << (unsigned long)hres; 
+        wcout &lt;&lt; "CreateInstance failure:" &lt;&lt; hex &lt;&lt; (unsigned long)hres; 
         return 0; 
     } 
  
@@ -213,20 +217,20 @@ int _tmain(int argc, _TCHAR* argv[])
     // Connect to the local ROOT\CIMV2 namespace 
     // and obtain pointer pSvc to make IWbemServices calls. 
     IWbemServices *pSvc = NULL; 
-    hres = pLoc->ConnectServer(L"ROOT\\CimV2", NULL,NULL, 0, NULL, 0,  0,  &pSvc); 
+    hres = pLoc-&gt;ConnectServer(L"ROOT\\CimV2", NULL,NULL, 0, NULL, 0,  0,  &amp;pSvc); 
  
     if (FAILED(hres)) 
     { 
-        pLoc->Release(); 
+        pLoc-&gt;Release(); 
         CoUninitialize(); 
-        wcout << "ConnectServer() failure:" << hex << (unsigned long)hres; 
+        wcout &lt;&lt; "ConnectServer() failure:" &lt;&lt; hex &lt;&lt; (unsigned long)hres; 
         return 0; 
     } 
     ...
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

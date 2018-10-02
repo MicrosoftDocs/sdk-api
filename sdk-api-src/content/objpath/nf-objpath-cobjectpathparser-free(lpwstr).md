@@ -7,7 +7,7 @@ old-location: wmi\cobjectpathparser_free_lpwstr_.htm
 tech.root: WmiSdk
 ms.assetid: 3a18a29a-269a-490c-8ede-6ec6b77f99f7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],Free method, CObjectPathParser.Free, CObjectPathParser.Free(LPWSTR), CObjectPathParser::Free, CObjectPathParser::Free(LPWSTR), Free, Free method [Windows Management Instrumentation], Free method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Free, wmi.cobjectpathparser_free_lpwstr_
 ms.prod: windows-hardware
 ms.technology: windows-devices

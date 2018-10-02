@@ -7,7 +7,7 @@ old-location: mstv\istreambufferrecordingattribute_getattributebyname.htm
 tech.root: MSTV
 ms.assetid: f1191074-4ded-4e64-9c30-8e4d01390732
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [Microsoft TV Technologies], GetAttributeByName method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeByName method, IStreamBufferRecordingAttribute.GetAttributeByName, IStreamBufferRecordingAttribute::GetAttributeByName, IStreamBufferRecordingAttributeGetAttributeByName, mstv.istreambufferrecordingattribute_getattributebyname, sbe/IStreamBufferRecordingAttribute::GetAttributeByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

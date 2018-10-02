@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__getadaptermonitor.htm
 tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptermonitor.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 1cf647c6-38ba-6d39-fbf9-c82f611d7078, GetAdapterMonitor, GetAdapterMonitor method [Direct3D 9], GetAdapterMonitor method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterMonitor method, IDirect3D9.GetAdapterMonitor, IDirect3D9::GetAdapterMonitor, d3d9helper/IDirect3D9::GetAdapterMonitor, direct3d9.idirect3d9__getadaptermonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,24 +81,28 @@ Handle of the monitor associated with the Direct3D object.
 
 
 
-As shown in the following code fragment, which illustrates how to obtain a handle to the monitor associated with a given device, use <a href="https://msdn.microsoft.com/en-us/library/Bb174386(v=VS.85).aspx">GetDirect3D</a> to return the Direct3D enumerator from the device and use <a href="https://msdn.microsoft.com/en-us/library/Bb174382(v=VS.85).aspx">GetCreationParameters</a> to retrieve the value for Adapter.
+As shown in the following code fragment, which illustrates how to obtain a handle to the monitor associated with a given device, use <a href="https://msdn.microsoft.com/42666561-fb2b-47b4-b2c4-49926ea67964">GetDirect3D</a> to return the Direct3D enumerator from the device and use <a href="https://msdn.microsoft.com/18889d40-a64f-41da-92dd-7b197749e685">GetCreationParameters</a> to retrieve the value for Adapter.
 
-
-```
-
-    if( FAILED( pDevice->GetCreationParameters(  &Parameters ) ) )
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+    if( FAILED( pDevice-&gt;GetCreationParameters(  &amp;Parameters ) ) )
         return D3DERR_INVALIDCALL;
     
-    if( FAILED( pDevice->GetDirect3D(&pD3D) ) )
+    if( FAILED( pDevice-&gt;GetDirect3D(&amp;pD3D) ) )
         return D3DERR_INVALIDCALL;
     
-    hMonitor = pD3D->GetAdapterMonitor(Parameters.AdapterOrdinal);
+    hMonitor = pD3D-&gt;GetAdapterMonitor(Parameters.AdapterOrdinal);
     
-    pD3D->Release();
-
-```
-
-
+    pD3D-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -107,15 +111,15 @@ As shown in the following code fragment, which illustrates how to obtain a handl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174382(v=VS.85).aspx">GetCreationParameters</a>
+<a href="https://msdn.microsoft.com/18889d40-a64f-41da-92dd-7b197749e685">GetCreationParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174386(v=VS.85).aspx">GetDirect3D</a>
+<a href="https://msdn.microsoft.com/42666561-fb2b-47b4-b2c4-49926ea67964">GetDirect3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
  
 
  

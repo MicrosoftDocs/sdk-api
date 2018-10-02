@@ -4,10 +4,10 @@ title: "_MMC_LISTPAD_INFO"
 author: windows-sdk-content
 description: The MMC_LISTPAD_INFO structure is introduced in MMC 1.1.
 old-location: mmc\mmc_listpad_info.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 53e3cd8f-9d78-4edc-a0bb-3b409857561f
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: MMC_LISTPAD_INFO, MMC_LISTPAD_INFO structure [MMC], _MMC_LISTPAD_INFO, _slate_mmc_listpad_info, mmc.mmc_listpad_info, mmc/MMC_LISTPAD_INFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfeditsession.htm
 tech.root: TSF
 ms.assetid: b9d4718a-42a6-4be5-9f57-1a392cd98469
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfEditSession, ITfEditSession interface [Text Services Framework], ITfEditSession interface [Text Services Framework],described, _tsf_itfeditsession_ref, msctf/ITfEditSession, tsf.itfeditsession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ If the context is destroyed before the application grants a lock, or if the call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

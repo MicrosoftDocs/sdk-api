@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_destinationwidth.htm
 tech.root: DirectShow
 ms.assetid: 6e27bb57-ca88-4478-86b8-250a69f5fc78
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationWidth method, IBasicVideo.get_DestinationWidth, IBasicVideo::get_DestinationWidth, IBasicVideoget_DestinationWidth, control/IBasicVideo::get_DestinationWidth, dshow.ibasicvideo_get_destinationwidth, get_DestinationWidth, get_DestinationWidth method [DirectShow], get_DestinationWidth method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,11 +81,11 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

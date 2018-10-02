@@ -7,7 +7,7 @@ old-location: ldap\ldaputf8tounicode.htm
 tech.root: LDAP
 ms.assetid: 4c36ce90-8cc6-4dee-b990-5d283613ba11
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LdapUTF8ToUnicode, LdapUTF8ToUnicode function [LDAP], _ldap_ldaputf8tounicode, ldap.ldaputf8tounicode, winldap/LdapUTF8ToUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices

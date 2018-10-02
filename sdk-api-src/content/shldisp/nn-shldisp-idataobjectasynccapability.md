@@ -4,10 +4,10 @@ title: IDataObjectAsyncCapability
 author: windows-sdk-content
 description: Enables interfaces that are usually synchronous to function asynchronously.
 old-location: shell\IDataObjectAsyncCapability.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2E23A137-0C5B-4ce9-8100-758C7E17753B
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], IDataObjectAsyncCapability interface [Windows Shell],described, shell.IDataObjectAsyncCapability, shldisp/IDataObjectAsyncCapability
 ms.prod: windows
 ms.technology: windows-sdk

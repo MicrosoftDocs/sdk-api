@@ -7,7 +7,7 @@ old-location: mstv\ibda_networkprovider_getsignalsource.htm
 tech.root: MSTV
 ms.assetid: 943b3c1f-4aea-4c16-b730-74b63397ad9f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetSignalSource method, IBDA_NetworkProvider.GetSignalSource, IBDA_NetworkProvider::GetSignalSource, IBDA_NetworkProviderGetSignalSource, bdaiface/IBDA_NetworkProvider::GetSignalSource, mstv.ibda_networkprovider_getsignalsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,15 +80,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693410(v=VS.85).aspx">IBDA_NetworkProvider Interface</a>
+<a href="https://msdn.microsoft.com/84b6cd51-4cb5-4a43-9ac2-88ca8049b950">IBDA_NetworkProvider Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693414(v=VS.85).aspx">PutSignalSource</a>
+<a href="https://msdn.microsoft.com/e461ff83-c3fc-43f2-934b-3f4c3afd0061">PutSignalSource</a>
  
 
  

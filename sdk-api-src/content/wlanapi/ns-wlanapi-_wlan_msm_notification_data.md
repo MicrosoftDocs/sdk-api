@@ -7,7 +7,7 @@ old-location: nwifi\wlan_msm_notification_data.htm
 tech.root: NativeWiFi
 ms.assetid: 76693a8e-7df8-45f0-a3c1-7960de27250c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_MSM_NOTIFICATION_DATA, WLAN_MSM_NOTIFICATION_DATA structure [NativeWIFI], _WLAN_MSM_NOTIFICATION_DATA, nwifi.wlan_msm_notification_data, wlanapi/PWLAN_MSM_NOTIFICATION_DATA, wlanapi/WLAN_MSM_NOTIFICATION_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

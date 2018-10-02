@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a group's resources and/or the nodes that are included in its list of preferred owners.
 old-location: mscs\clustergroupopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d8f9eff0-1784-4b55-8603-c262d5c23f6c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CLUSTER_GROUP_ENUM_ALL, CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM callback, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM callback function [Failover Cluster], _wolf_clustergroupopenenum, clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, mscs.clustergroupopenenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,8 @@ req.redist:
 
 
 Opens an enumerator for iterating through a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group's</a> <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resources</a> 
-    and/or the <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a> that are included in its list of preferred 
+    <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group's</a> <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> 
+    and/or the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> that are included in its list of preferred 
     owners. The <b>PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM</b> type defines a pointer to this function.
 
 
@@ -63,14 +63,14 @@ Opens an enumerator for iterating through a
 
 ### -param hGroup [in]
 
-A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> to be enumerated.
+A handle to the <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to be enumerated.
 
 
 ### -param dwType [in]
 
-A bitmask that describes the <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a> to be 
+A bitmask that describes the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> to be 
        enumerated. The following are valid values of the 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309149(v=VS.85).aspx">CLUSTER_GROUP_ENUM</a> enumeration.
+       <a href="https://msdn.microsoft.com/c70bc230-850b-4290-8275-f60ffc8d66bd">CLUSTER_GROUP_ENUM</a> enumeration.
 
 
 
@@ -114,12 +114,12 @@ Do not call <i>ClusterGroupOpenEnum</i> from any
      resource DLL entry point function. 
      <i>ClusterGroupOpenEnum</i> can safely be called from a 
      worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -138,7 +138,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
 
 
 

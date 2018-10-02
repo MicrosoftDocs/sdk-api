@@ -7,7 +7,7 @@ old-location: adsi\iadsprintjoboperations_resume.htm
 tech.root: ADSI
 ms.assetid: aed5f1be-36b6-413a-a1c0-c61823a31571
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsPrintJobOperations interface [ADSI],Resume method, IADsPrintJobOperations.Resume, IADsPrintJobOperations::Resume, Resume, Resume method [ADSI], Resume method [ADSI],IADsPrintJobOperations interface, _ds_iadsprintjoboperations_resume, adsi.iadsprintjoboperations__resume, adsi.iadsprintjoboperations_resume, iads/IADsPrintJobOperations::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices

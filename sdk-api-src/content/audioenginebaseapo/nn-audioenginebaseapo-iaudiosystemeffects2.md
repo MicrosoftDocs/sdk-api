@@ -7,7 +7,7 @@ old-location: audio\iaudiosystemeffects2.htm
 tech.root: audio
 ms.assetid: 5989BAFB-6B2D-4186-9A8D-96C8974E0D18
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/28/2018
 ms.keywords: IAudioSystemEffects2, IAudioSystemEffects2 interface [Audio Devices], IAudioSystemEffects2 interface [Audio Devices],described, audio.iaudiosystemeffects2, audioenginebaseapo/IAudioSystemEffects2
 ms.prod: windows
 ms.technology: windows-sdk

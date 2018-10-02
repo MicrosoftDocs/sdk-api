@@ -7,7 +7,7 @@ old-location: fs\file_attribute_tag_info.htm
 tech.root: fileio
 ms.assetid: 4a2467a2-c22a-4ee6-a40e-5603ea381adc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PFILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO structure [Files], PFILE_ATTRIBUTE_TAG_INFO, PFILE_ATTRIBUTE_TAG_INFO structure pointer [Files], _FILE_ATTRIBUTE_TAG_INFO, fileextd/FILE_ATTRIBUTE_TAG_INFO, fileextd/PFILE_ATTRIBUTE_TAG_INFO, fs.file_attribute_tag_info, winbase/FILE_ATTRIBUTE_TAG_INFO, winbase/PFILE_ATTRIBUTE_TAG_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

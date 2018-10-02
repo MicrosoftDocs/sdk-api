@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_delete.htm
 tech.root: WmiSdk
 ms.assetid: 01ccfad7-8529-4eb5-ae3a-cc1657022999
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: Delete, Delete method [Windows Management Instrumentation], Delete method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Delete method, IWbemClassObject.Delete, IWbemClassObject::Delete, _hmm_iwbemclassobject_delete, wbemcli/IWbemClassObject::Delete, wmi.iwbemclassobject_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

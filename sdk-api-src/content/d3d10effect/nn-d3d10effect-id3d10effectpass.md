@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpass.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 5cb1e1c5-e0ab-9620-8166-f4d77be0bd73, ID3D10EffectPass, ID3D10EffectPass interface [Direct3D 10], ID3D10EffectPass interface [Direct3D 10],described, d3d10effect/ID3D10EffectPass, direct3d10.id3d10effectpass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.redist:
 
 A pass interface encapsulates state assignments within a technique.
 
-The lifetime of an <b>ID3D10EffectPass</b> object is equal to the lifetime of its parent <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect</a> object.
+The lifetime of an <b>ID3D10EffectPass</b> object is equal to the lifetime of its parent <a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect</a> object.
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectPass</b> interface has these methods.
@@ -64,7 +64,7 @@ The lifetime of an <b>ID3D10EffectPass</b> object is equal to the lifetime of it
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173657(v=VS.85).aspx">Apply</a>
+<a href="https://msdn.microsoft.com/00876091-0893-4370-816e-a8c367f430a7">Apply</a>
 </td>
 <td align="left" width="63%">
 Set the state contained in a pass to the device.
@@ -73,7 +73,7 @@ Set the state contained in a pass to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173658(v=VS.85).aspx">ComputeStateBlockMask</a>
+<a href="https://msdn.microsoft.com/ab4ad7b6-ad6a-44b5-bb07-42b7b92b3f1b">ComputeStateBlockMask</a>
 </td>
 <td align="left" width="63%">
 Generate a mask for allowing/preventing state changes.
@@ -82,7 +82,7 @@ Generate a mask for allowing/preventing state changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173659(v=VS.85).aspx">GetAnnotationByIndex</a>
+<a href="https://msdn.microsoft.com/c3476787-502a-4b02-be92-c541324cbb86">GetAnnotationByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by index.
@@ -91,7 +91,7 @@ Get an annotation by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173660(v=VS.85).aspx">GetAnnotationByName</a>
+<a href="https://msdn.microsoft.com/5669175c-c199-45b1-81fd-5adf6760565b">GetAnnotationByName</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by name.
@@ -100,7 +100,7 @@ Get an annotation by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173661(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/40744216-0199-4667-a4ad-69a56811b52c">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a pass description.
@@ -109,7 +109,7 @@ Get a pass description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173662(v=VS.85).aspx">GetGeometryShaderDesc</a>
+<a href="https://msdn.microsoft.com/e52466f8-d38a-4306-b2c5-a0446b596970">GetGeometryShaderDesc</a>
 </td>
 <td align="left" width="63%">
 Get a geometry-shader description.
@@ -118,7 +118,7 @@ Get a geometry-shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173663(v=VS.85).aspx">GetPixelShaderDesc</a>
+<a href="https://msdn.microsoft.com/6706a4bc-080c-4a5a-8517-70cca6358298">GetPixelShaderDesc</a>
 </td>
 <td align="left" width="63%">
 Get a pixel-shader description.
@@ -127,7 +127,7 @@ Get a pixel-shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173664(v=VS.85).aspx">GetVertexShaderDesc</a>
+<a href="https://msdn.microsoft.com/7a213647-66b8-4beb-8f08-cc45bc361116">GetVertexShaderDesc</a>
 </td>
 <td align="left" width="63%">
 Get a vertex-shader description.
@@ -136,7 +136,7 @@ Get a vertex-shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173665(v=VS.85).aspx">IsValid</a>
+<a href="https://msdn.microsoft.com/b0dce5c6-c8f7-4745-8e89-993bb7e5ff8e">IsValid</a>
 </td>
 <td align="left" width="63%">
 Test a pass to see if it contains valid syntax.
@@ -156,7 +156,7 @@ The <b>ID3D10EffectPass</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173657(v=VS.85).aspx">Apply</a>
+<a href="https://msdn.microsoft.com/00876091-0893-4370-816e-a8c367f430a7">Apply</a>
 </td>
 <td align="left" width="63%">
 Set the state contained in a pass to the device.
@@ -165,7 +165,7 @@ Set the state contained in a pass to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173658(v=VS.85).aspx">ComputeStateBlockMask</a>
+<a href="https://msdn.microsoft.com/ab4ad7b6-ad6a-44b5-bb07-42b7b92b3f1b">ComputeStateBlockMask</a>
 </td>
 <td align="left" width="63%">
 Generate a mask for allowing/preventing state changes.
@@ -174,7 +174,7 @@ Generate a mask for allowing/preventing state changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173659(v=VS.85).aspx">GetAnnotationByIndex</a>
+<a href="https://msdn.microsoft.com/c3476787-502a-4b02-be92-c541324cbb86">GetAnnotationByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by index.
@@ -183,7 +183,7 @@ Get an annotation by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173660(v=VS.85).aspx">GetAnnotationByName</a>
+<a href="https://msdn.microsoft.com/5669175c-c199-45b1-81fd-5adf6760565b">GetAnnotationByName</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by name.
@@ -192,7 +192,7 @@ Get an annotation by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173661(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/40744216-0199-4667-a4ad-69a56811b52c">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a pass description.
@@ -201,7 +201,7 @@ Get a pass description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173662(v=VS.85).aspx">GetGeometryShaderDesc</a>
+<a href="https://msdn.microsoft.com/e52466f8-d38a-4306-b2c5-a0446b596970">GetGeometryShaderDesc</a>
 </td>
 <td align="left" width="63%">
 Get a geometry-shader description.
@@ -210,7 +210,7 @@ Get a geometry-shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173663(v=VS.85).aspx">GetPixelShaderDesc</a>
+<a href="https://msdn.microsoft.com/6706a4bc-080c-4a5a-8517-70cca6358298">GetPixelShaderDesc</a>
 </td>
 <td align="left" width="63%">
 Get a pixel-shader description.
@@ -219,7 +219,7 @@ Get a pixel-shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173664(v=VS.85).aspx">GetVertexShaderDesc</a>
+<a href="https://msdn.microsoft.com/7a213647-66b8-4beb-8f08-cc45bc361116">GetVertexShaderDesc</a>
 </td>
 <td align="left" width="63%">
 Get a vertex-shader description.
@@ -228,7 +228,7 @@ Get a vertex-shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173665(v=VS.85).aspx">IsValid</a>
+<a href="https://msdn.microsoft.com/b0dce5c6-c8f7-4745-8e89-993bb7e5ff8e">IsValid</a>
 </td>
 <td align="left" width="63%">
 Test a pass to see if it contains valid syntax.
@@ -260,9 +260,9 @@ Test a pass to see if it contains valid syntax.
 
 
 
-A pass is a block of code that sets render-state objects and shaders. A pass is declared within a technique; the syntax for a technique is shown in <a href="https://msdn.microsoft.com/en-us/library/Bb205053(v=VS.85).aspx">Effect Technique Syntax (Direct3D 10)</a>.
+A pass is a block of code that sets render-state objects and shaders. A pass is declared within a technique; the syntax for a technique is shown in <a href="https://msdn.microsoft.com/84f9b74d-8397-4cd5-91a0-7f910ba7b19e">Effect Technique Syntax (Direct3D 10)</a>.
 
-To get an effect-pass interface, call a method like <a href="https://msdn.microsoft.com/en-us/library/Bb173714(v=VS.85).aspx">ID3D10EffectTechnique::GetPassByName</a>.
+To get an effect-pass interface, call a method like <a href="https://msdn.microsoft.com/9da96781-1233-47a0-a8b7-85acdb53ac49">ID3D10EffectTechnique::GetPassByName</a>.
 
 
 
@@ -272,7 +272,7 @@ To get an effect-pass interface, call a method like <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
  
 
  

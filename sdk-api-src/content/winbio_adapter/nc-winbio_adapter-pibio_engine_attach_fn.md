@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterattach.htm
 tech.root: SecBioMet
 ms.assetid: e797952b-c7dd-41ad-9536-97d7ce1a7a5d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EngineAdapterAttach, EngineAdapterAttach callback function [Windows Biometric Framework API], PIBIO_ENGINE_ATTACH_FN, PIBIO_ENGINE_ATTACH_FN callback, secbiomet.engineadapterattach, winbio_adapter/EngineAdapterAttach
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,9 +132,13 @@ Similarly, if the <b>EngineHandle</b> field does not contain <b>INVALID_HANDLE_V
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterAttach
 //
@@ -176,10 +180,10 @@ EngineAdapterAttach(
     ZeroMemory(newContext, sizeof(WINBIO_ENGINE_CONTEXT));
 
     // Initialize any required context fields.
-    newContext->SomeField = SomeSpecialValue;
+    newContext-&gt;SomeField = SomeSpecialValue;
 
-    newContext->SomePointerField = _AdapterAlloc(sizeof(SOME_STRUCTURE));
-    if (newContext->SomePointerField == NULL)
+    newContext-&gt;SomePointerField = _AdapterAlloc(sizeof(SOME_STRUCTURE));
+    if (newContext-&gt;SomePointerField == NULL)
     {
         E_OUTOFMEMORY;
         goto cleanup;
@@ -197,7 +201,7 @@ EngineAdapterAttach(
 
     // If initialization completes successfully, attach the engine context to the 
     // processing pipeline of the biometric unit.
-    Pipeline->EngineContext = newContext;
+    Pipeline-&gt;EngineContext = newContext;
     newContext = NULL;
 
 cleanup:
@@ -214,9 +218,9 @@ cleanup:
             _AdapterCleanupCrypto(newContext);
 
             // Release any other object pointed to by the context.
-            if (newContext->SomePointerField != NULL)
+            if (newContext-&gt;SomePointerField != NULL)
             {
-                _AdapterRelease(newContext->SomePointerField);
+                _AdapterRelease(newContext-&gt;SomePointerField);
             }
 
             // Release the context
@@ -226,10 +230,10 @@ cleanup:
     return hr;
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

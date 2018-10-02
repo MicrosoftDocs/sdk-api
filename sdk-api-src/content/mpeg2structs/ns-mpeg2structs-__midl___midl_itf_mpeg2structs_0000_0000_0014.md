@@ -7,7 +7,7 @@ old-location: mstv\mpeg_rqst_packet.htm
 tech.root: MSTV
 ms.assetid: b7777633-66c3-44c2-9cdb-14c540555a43
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMPEG_RQST_PACKET, MPEG_RQST_PACKET, MPEG_RQST_PACKET structure [Microsoft TV Technologies], PMPEG_RQST_PACKET, PMPEG_RQST_PACKET structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0014, mpeg2structs/MPEG_RQST_PACKET, mpeg2structs/PMPEG_RQST_PACKET, mstv.mpeg_rqst_packet"
 ms.prod: windows
 ms.technology: windows-sdk

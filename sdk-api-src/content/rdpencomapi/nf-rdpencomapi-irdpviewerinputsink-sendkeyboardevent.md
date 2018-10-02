@@ -7,7 +7,7 @@ old-location: rdp\irdpviewerinputsink_sendkeyboardevent.htm
 tech.root: Rdp
 ms.assetid: 28EDA0AD-9669-4232-BD41-4ADEC90CA3A7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendKeyboardEvent method, IRDPViewerInputSink.SendKeyboardEvent, IRDPViewerInputSink::SendKeyboardEvent, SendKeyboardEvent, SendKeyboardEvent method [RDP], SendKeyboardEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendkeyboardevent, rdpencomapi/IRDPViewerInputSink::SendKeyboardEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

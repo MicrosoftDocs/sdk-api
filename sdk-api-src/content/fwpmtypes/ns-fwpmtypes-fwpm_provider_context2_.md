@@ -7,7 +7,7 @@ old-location: fwp\fwpm_provider_context2.htm
 tech.root: FWP
 ms.assetid: aa397a4e-07cc-4eee-8d0f-798901a5bb29
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT2, FWPM_PROVIDER_CONTEXT2 structure [Filtering], FWPM_PROVIDER_CONTEXT2_, FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context2, fwpmtypes/FWPM_PROVIDER_CONTEXT2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAlternativeName::get_Type
 author: windows-sdk-content
 description: Retrieves the alternative name type.
 old-location: security\ialternativename_type_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: fdb1a7db-20f6-4732-bb59-fc078387375d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IAlternativeName interface [Security],Type property, IAlternativeName.Type, IAlternativeName.get_Type, IAlternativeName::Type, IAlternativeName::get_Type, Type property [Security], Type property [Security],IAlternativeName interface, certenroll/IAlternativeName::Type, certenroll/IAlternativeName::get_Type, get_Type, security.ialternativename_type_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The following values from the <a href="https://msdn.microsoft.com/en-us/library/Aa374830(v=VS.85).aspx">AlternativeNameType</a> enumeration can be returned. The  <b>XCN_CERT_ALT_NAME_UNKNOWN</b> value is never returned.
+The following values from the <a href="https://msdn.microsoft.com/79b675cc-c979-46ab-aee1-0031af2efd40">AlternativeNameType</a> enumeration can be returned. The  <b>XCN_CERT_ALT_NAME_UNKNOWN</b> value is never returned.
 
 <table>
 <tr>
@@ -72,7 +72,7 @@ The following values from the <a href="https://msdn.microsoft.com/en-us/library/
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_OTHER_NAME</b></td>
-<td>The name consists of an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) and a byte array.</td>
+<td>The name consists of an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a byte array.</td>
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_RFC822_NAME</b></td>
@@ -84,7 +84,7 @@ The following values from the <a href="https://msdn.microsoft.com/en-us/library/
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_DIRECTORY_NAME</b></td>
-<td>The name is an <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.500</a> directory name.</td>
+<td>The name is an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.500</a> directory name.</td>
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_URL</b></td>
@@ -104,7 +104,7 @@ The following values from the <a href="https://msdn.microsoft.com/en-us/library/
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME</b></td>
-<td>The name is a <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">user principal name</a> (UPN).</td>
+<td>The name is a <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN).</td>
 </tr>
 </table>
  
@@ -117,7 +117,7 @@ The following values from the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374981(v=VS.85).aspx">IAlternativeName</a>
+<a href="https://msdn.microsoft.com/2a6cfda8-b3cb-4a0f-bb65-b182c16207be">IAlternativeName</a>
  
 
  

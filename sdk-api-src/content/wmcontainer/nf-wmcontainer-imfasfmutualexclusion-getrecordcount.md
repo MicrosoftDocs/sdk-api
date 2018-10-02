@@ -4,10 +4,10 @@ title: IMFASFMutualExclusion::GetRecordCount
 author: windows-sdk-content
 description: Retrieves the number of records in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_getrecordcount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8dbd883e-4ae3-422d-bb2e-087a9e311558
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 8dbd883e-4ae3-422d-bb2e-087a9e311558, GetRecordCount, GetRecordCount method [Media Foundation], GetRecordCount method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetRecordCount method, IMFASFMutualExclusion.GetRecordCount, IMFASFMutualExclusion::GetRecordCount, mf.imfasfmutualexclusion_getrecordcount, wmcontainer/IMFASFMutualExclusion::GetRecordCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

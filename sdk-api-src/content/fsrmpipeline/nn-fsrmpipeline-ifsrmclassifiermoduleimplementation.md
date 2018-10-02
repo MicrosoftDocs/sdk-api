@@ -4,10 +4,10 @@ title: IFsrmClassifierModuleImplementation
 author: windows-sdk-content
 description: Classifier modules implement this interface. FSRM calls the module's implementation when it runs classification.
 old-location: fsrm\ifsrmclassifiermoduleimplementation.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: f238c446-b268-4600-b6e3-ec772a5f7575
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], IFsrmClassifierModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmclassifiermoduleimplementation, fsrm.ifsrmclassifiermoduleimplementation, fsrm/IFsrmClassifierModuleImplementation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ Specifies the collection of rules and relevant property definitions the classifi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd878724(v=VS.85).aspx">LastModified</a>
+<a href="https://msdn.microsoft.com/edda630a-947d-4c81-b4d5-c02b3ba02f10">LastModified</a>
 
 
 </td>

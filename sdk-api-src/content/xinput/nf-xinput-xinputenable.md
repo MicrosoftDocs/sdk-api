@@ -7,7 +7,7 @@ old-location: xinput\xinputenable.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputEnable(BOOL)
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: XInputEnable, XInputEnable function [XInput Game Controller APIs], xinput.xinputenable, xinput/XInputEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Sets the reporting state of XInput.
 
 ### -param enable [in]
 
-If enable is <b>FALSE</b>, XInput will only send neutral data in response to <a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a> (all buttons up, axes centered, and triggers at 0). <a href="https://msdn.microsoft.com/en-us/library/Ee419268(v=VS.85).aspx">XInputSetState</a> calls will be registered but not sent to the device. Sending any value other than <b>FALSE </b>will restore reading and writing functionality to normal.
+If enable is <b>FALSE</b>, XInput will only send neutral data in response to <a href="https://msdn.microsoft.com/D261219D-0175-4690-8F1F-BDAACE2E7424">XInputGetState</a> (all buttons up, axes centered, and triggers at 0). <a href="https://msdn.microsoft.com/FA494AEB-9FB9-4AF4-95AB-01048A60D924">XInputSetState</a> calls will be registered but not sent to the device. Sending any value other than <b>FALSE </b>will restore reading and writing functionality to normal.
 
 
 ## -returns
@@ -78,14 +78,14 @@ This function does not return a value.
 
 
 
-This function is meant to be called when an application gains or loses focus (such as via <a href="https://msdn.microsoft.com/en-us/library/ms632614(v=VS.85).aspx">WM_ACTIVATEAPP</a>). Using this function, you will not have to change the XInput query loop in your application as neutral data will always be reported if XInput is disabled.
+This function is meant to be called when an application gains or loses focus (such as via <a href="https://msdn.microsoft.com/fc3626ac-8f19-4aa6-8fe9-5020d00c09db">WM_ACTIVATEAPP</a>). Using this function, you will not have to change the XInput query loop in your application as neutral data will always be reported if XInput is disabled.
 
 
 In a controller that supports vibration effects:
 
 <ul>
-<li>Passing <b>FALSE</b> will stop any vibration effects currently playing. In this state, calls to <a href="https://msdn.microsoft.com/en-us/library/Ee419268(v=VS.85).aspx">XInputSetState</a> will be registered, but not passed to the device.</li>
-<li>Passing <b>TRUE</b> will pass the last vibration request (even if it is 0) sent to <a href="https://msdn.microsoft.com/en-us/library/Ee419268(v=VS.85).aspx">XInputSetState</a> to the device.</li>
+<li>Passing <b>FALSE</b> will stop any vibration effects currently playing. In this state, calls to <a href="https://msdn.microsoft.com/FA494AEB-9FB9-4AF4-95AB-01048A60D924">XInputSetState</a> will be registered, but not passed to the device.</li>
+<li>Passing <b>TRUE</b> will pass the last vibration request (even if it is 0) sent to <a href="https://msdn.microsoft.com/FA494AEB-9FB9-4AF4-95AB-01048A60D924">XInputSetState</a> to the device.</li>
 </ul>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
@@ -98,11 +98,11 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a>
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419272(v=VS.85).aspx">XINPUT_STATE</a>
+<a href="https://msdn.microsoft.com/1EBFB5FF-3DAA-43D8-AADA-5FFEED56F79D">XINPUT_STATE</a>
 
 
 
@@ -110,11 +110,11 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://msdn.microsoft.com/D261219D-0175-4690-8F1F-BDAACE2E7424">XInputGetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419268(v=VS.85).aspx">XInputSetState</a>
+<a href="https://msdn.microsoft.com/FA494AEB-9FB9-4AF4-95AB-01048A60D924">XInputSetState</a>
  
 
  

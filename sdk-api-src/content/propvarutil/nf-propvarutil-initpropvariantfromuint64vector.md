@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromUInt64Vector.htm
 tech.root: properties
 ms.assetid: 17c52a7d-c3d3-4132-8f44-7d0b250aa7ad
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: InitPropVariantFromUInt64Vector, InitPropVariantFromUInt64Vector function [Windows Properties], properties.InitPropVariantFromUInt64Vector, propvarutil/InitPropVariantFromUInt64Vector, shell.InitPropVariantFromUInt64Vector, shell_InitPropVariantFromUInt64Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,23 +99,27 @@ Creates a VT_VECTOR | VT_UI8 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762314(v=VS.85).aspx">InitPropVariantFromUInt64Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>.
 
-
-```cpp
-ULONGLONG rgLongs[] = {4, 7};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ULONGLONG rgLongs[] = {4, 7};
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromUInt32Vector(rgLongs, ARRAYSIZE(rgLongs), &propvar);
+HRESULT hr = InitPropVariantFromUInt32Vector(rgLongs, ARRAYSIZE(rgLongs), &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_UI8.
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -124,15 +128,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762313(v=VS.85).aspx">InitPropVariantFromUInt64</a>
+<a href="shell.InitPropVariantFromUInt64">InitPropVariantFromUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762343(v=VS.85).aspx">InitVariantFromUInt64Array</a>
+<a href="shell.InitVariantFromUInt64Array">InitVariantFromUInt64Array</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776574(v=VS.85).aspx">PropVariantToUInt64Vector</a>
+<a href="shell.PropVariantToUInt64Vector">PropVariantToUInt64Vector</a>
  
 
  

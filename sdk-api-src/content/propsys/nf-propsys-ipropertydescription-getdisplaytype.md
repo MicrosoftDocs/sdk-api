@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetDisplayType.htm
 tech.root: properties
 ms.assetid: e3147b06-0849-4b49-8153-e120e2220651
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetDisplayType, GetDisplayType method [Windows Properties], GetDisplayType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayType method, IPropertyDescription.GetDisplayType, IPropertyDescription::GetDisplayType, PDDT_BOOLEAN (0x00000002), PDDT_DATETIME (0x00000003), PDDT_ENUMERATED (0x00000004), PDDT_NUMBER (0x00000001), PDDT_STRING (0x00000000), properties.IPropertyDescription_GetDisplayType, propsys/IPropertyDescription::GetDisplayType, shell.IPropertyDescription_GetDisplayType, shell_IPropertyDescription_GetDisplayType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,7 +100,7 @@ The value is displayed as date and time.
 #### PDDT_ENUMERATED (0x00000004) (4)
 
 The value is displayed as an enumerated type-list.
-                    Use <a href="https://msdn.microsoft.com/library/Bb761539(v=VS.85).aspx">IPropertyDescription::GetEnumTypeList</a> to handle this type.
+                    Use <a href="shell.IPropertyDescription_GetEnumTypeList">IPropertyDescription::GetEnumTypeList</a> to handle this type.
                     
 
 
@@ -119,7 +119,7 @@ Always returns <b>S_OK</b>.
 
 
 
-The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a> element in the property's .propdesc file.
+The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propdesc file.
 
 
 
@@ -129,7 +129,7 @@ The value retrieved by this method is originally set through the <i>displayType<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

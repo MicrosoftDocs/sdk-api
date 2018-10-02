@@ -7,7 +7,7 @@ old-location: fs\storage_temperature_threshold.htm
 tech.root: fileio
 ms.assetid: 02E01EAE-FF0F-4013-A237-651B1428DF52
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Files], STORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Files], _STORAGE_TEMPERATURE_THRESHOLD, fs.storage_temperature_threshold, winioctl/PSTORAGE_TEMPERATURE_THRESHOLD, winioctl/STORAGE_TEMPERATURE_THRESHOLD"
 ms.prod: windows
 ms.technology: windows-sdk

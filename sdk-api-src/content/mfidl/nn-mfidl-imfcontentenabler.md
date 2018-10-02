@@ -4,10 +4,10 @@ title: IMFContentEnabler
 author: windows-sdk-content
 description: Implements one step that must be performed for the user to access media content.
 old-location: mf\imfcontentenabler.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 45d02bd0-1104-47ec-8559-8cc51590fc62
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 45d02bd0-1104-47ec-8559-8cc51590fc62, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], IMFContentEnabler interface [Media Foundation],described, mf.imfcontentenabler, mfidl/IMFContentEnabler
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatareader_open.htm
 tech.root: CoreAudio
 ms.assetid: 50007A27-D885-47F6-9D3A-1F5B6D47BCDD
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],Open method, ISpatialAudioMetadataReader.Open, ISpatialAudioMetadataReader::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_open, spatialaudiometadata/ISpatialAudioMetadataReader::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

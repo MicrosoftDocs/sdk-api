@@ -7,7 +7,7 @@ old-location: xaudio2\x3daudioinitialize.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioInitialize(UINT32,FLOAT32,X3DAUDIO_HANDLE@)
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: X3DAudioInitialize, X3DAudioInitialize function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioInitialize, xaudio2.x3daudioinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ Speed of sound, in user-defined world units per second. Use this value only for 
 
 ### -param Instance [out]
 
-3D audio instance handle. Use this handle when you call <a href="https://msdn.microsoft.com/en-us/library/Ee419052(v=VS.85).aspx">X3DAudioCalculate</a>.
+3D audio instance handle. Use this handle when you call <a href="https://msdn.microsoft.com/d6b05917-9253-4c05-a318-ff13d9a329eb">X3DAudioCalculate</a>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: iphlp\notifyaddrchange.htm
 tech.root: IpHlp
 ms.assetid: 22ac3b5b-452c-454b-8fbd-47a873675c6c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NotifyAddrChange, NotifyAddrChange function [IP Helper], _iphlp_notifyaddrchange, iphlp.notifyaddrchange, iphlpapi/NotifyAddrChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -181,12 +181,16 @@ On Windows Vista and later, the
 
 The following example waits for a change to occur in the table that maps IP addresses to interfaces.
 
-
-```cpp
-#include <winsock2.h>
-#include <iphlpapi.h>
-#include <stdio.h>
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -199,7 +203,7 @@ void main()
   HANDLE hand = NULL;
   overlap.hEvent = WSACreateEvent();
 
-  ret = NotifyAddrChange(&hand, &overlap);
+  ret = NotifyAddrChange(&amp;hand, &amp;overlap);
 
   if (ret != NO_ERROR)
   {
@@ -213,10 +217,10 @@ void main()
   if ( WaitForSingleObject(overlap.hEvent, INFINITE) == WAIT_OBJECT_0 )
     printf("IP Address table changed..\n");
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

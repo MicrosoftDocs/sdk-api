@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_getrecordtransportstreamid.htm
 tech.root: MSTV
 ms.assetid: ed2b9fcc-fd7d-4477-9ff5-cbb7912eac26
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_NIT.GetRecordTransportStreamId, IDVB_NIT::GetRecordTransportStreamId, IDVB_NITGetRecordTransportStreamId, dvbsiparser/IDVB_NIT::GetRecordTransportStreamId, mstv.idvb_nit_getrecordtransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices

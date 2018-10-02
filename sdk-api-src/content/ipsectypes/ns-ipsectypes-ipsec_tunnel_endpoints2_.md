@@ -7,7 +7,7 @@ old-location: fwp\ipsec_tunnel_endpoints2.htm
 tech.root: FWP
 ms.assetid: 091daec1-2c35-4d24-89be-fcdb0354b674
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_TUNNEL_ENDPOINTS2, IPSEC_TUNNEL_ENDPOINTS2 structure [Filtering], IPSEC_TUNNEL_ENDPOINTS2_, fwp.ipsec_tunnel_endpoints2, ipsectypes/IPSEC_TUNNEL_ENDPOINTS2
 ms.prod: windows
 ms.technology: windows-sdk

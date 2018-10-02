@@ -4,10 +4,10 @@ title: ICredentialProviderCredential::GetCheckboxValue
 author: windows-sdk-content
 description: Retrieves the checkbox value.
 old-location: shell\ICredentialProviderCredential_GetCheckboxValue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f7fcf44c-bc5e-4d15-bbd8-7f7e9df9240b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetCheckboxValue, GetCheckboxValue method [Windows Shell], GetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetCheckboxValue method, ICredentialProviderCredential.GetCheckboxValue, ICredentialProviderCredential::GetCheckboxValue, _shell_ICredentialProviderCredential_GetCheckboxValue, credentialprovider/ICredentialProviderCredential::GetCheckboxValue, shell.ICredentialProviderCredential_GetCheckboxValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

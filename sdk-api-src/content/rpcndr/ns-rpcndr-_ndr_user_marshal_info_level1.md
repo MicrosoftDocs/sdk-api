@@ -4,10 +4,10 @@ title: "_NDR_USER_MARSHAL_INFO_LEVEL1"
 author: windows-sdk-content
 description: The NDR_USER_MARSHAL_INFO_LEVEL1 structure holds information about the state of an RPC call that can be passed to wire_marshal and user_marshal helper functions.
 old-location: rpc\ndr_user_marshal_info_level1.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: fe664968-ce70-4bc4-9caa-3e4d241d253c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: NDR_USER_MARSHAL_INFO_LEVEL1, NDR_USER_MARSHAL_INFO_LEVEL1 structure [RPC], _NDR_USER_MARSHAL_INFO_LEVEL1, _rpc_ndr_user_marshal_info_level1, rpc.ndr_user_marshal_info_level1, rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1
 ms.prod: windows
 ms.technology: windows-sdk

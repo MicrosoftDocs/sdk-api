@@ -7,7 +7,7 @@ old-location: mstv\idvbtunerequest_get_onid.htm
 tech.root: MSTV
 ms.assetid: 24cfc4bb-7df0-4380-9322-4bec6e8a2385
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],get_ONID method, IDVBTuneRequest.get_ONID, IDVBTuneRequest::get_ONID, IDVBTuneRequestget_ONID, get_ONID, get_ONID method [Microsoft TV Technologies], get_ONID method [Microsoft TV Technologies],IDVBTuneRequest interface, mstv.idvbtunerequest_get_onid, tuner/IDVBTuneRequest::get_ONID
 ms.prod: windows-hardware
 ms.technology: windows-devices

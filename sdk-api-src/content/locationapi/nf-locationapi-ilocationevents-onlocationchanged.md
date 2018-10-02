@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocationevents_onlocationchanged.htm
 tech.root: LocationAPI
 ms.assetid: 14353c8e-15f5-493b-9b49-139924f2397e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ILocationEvents interface [WinLocation],OnLocationChanged method, ILocationEvents.OnLocationChanged, ILocationEvents::OnLocationChanged, OnLocationChanged, OnLocationChanged method [WinLocation], OnLocationChanged method [WinLocation],ILocationEvents interface, WinLocation_COM_Ref.ilocationevents_onlocationchanged, locationapi/ILocationEvents::OnLocationChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,18 +96,22 @@ If the application calls <b>OnLocationChanged</b> as a result of its first use o
 
 The following sample implementation of <b>OnLocationChanged</b> handles the location change event for a latitude/longitude report. This implementation prints the following information about a latitude/longitude location change event: the timestamp, the sensor ID, the latitude,  the longitude, the error radius, the altitude, and the altitude error.
 
-
-```cpp
-// This is called when there is a new location report
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// This is called when there is a new location report
 STDMETHODIMP CLocationEvents::OnLocationChanged(REFIID reportType, ILocationReport* pLocationReport)
 {
     // If the report type is a Latitude/Longitude report (as opposed to IID_ICivicAddressReport or another type)
     if (IID_ILatLongReport == reportType)
     {
-        CComPtr<ILatLongReport> spLatLongReport;
+        CComPtr&lt;ILatLongReport&gt; spLatLongReport;
 
         // Get the ILatLongReport interface from ILocationReport
-        if ((SUCCEEDED(pLocationReport->QueryInterface(IID_PPV_ARGS(&spLatLongReport)))) && (NULL != spLatLongReport.p))
+        if ((SUCCEEDED(pLocationReport-&gt;QueryInterface(IID_PPV_ARGS(&amp;spLatLongReport)))) &amp;&amp; (NULL != spLatLongReport.p))
         {
             // Print the Report Type GUID
             wchar_t szGUID[64];
@@ -115,13 +119,13 @@ STDMETHODIMP CLocationEvents::OnLocationChanged(REFIID reportType, ILocationRepo
 
             // Print the Timestamp and the time since the last report
             SYSTEMTIME systemTime;
-            if (SUCCEEDED(spLatLongReport->GetTimestamp(&systemTime)))
+            if (SUCCEEDED(spLatLongReport-&gt;GetTimestamp(&amp;systemTime)))
             {
                 // Compute the number of 100ns units that difference between the current report's time and the previous report's time.
                 ULONGLONG currentTime = 0, diffTime = 0;
-                if (TRUE == SystemTimeToFileTime(&systemTime, (FILETIME*)&currentTime))
+                if (TRUE == SystemTimeToFileTime(&amp;systemTime, (FILETIME*)&amp;currentTime))
                 {
-                    diffTime = (currentTime > m_previousTime) ? (currentTime - m_previousTime) : 0;
+                    diffTime = (currentTime &gt; m_previousTime) ? (currentTime - m_previousTime) : 0;
                 }
 
                 wprintf(L"\nTimestamp: YY:%d, MM:%d, DD:%d, HH:%d, MM:%d, SS:%d, MS:%d [%I64d]\n",
@@ -139,7 +143,7 @@ STDMETHODIMP CLocationEvents::OnLocationChanged(REFIID reportType, ILocationRepo
 
             // Print the Sensor ID GUID
             GUID sensorID = {0};
-            if (SUCCEEDED(spLatLongReport->GetSensorID(&sensorID)))
+            if (SUCCEEDED(spLatLongReport-&gt;GetSensorID(&amp;sensorID)))
             {
                 wchar_t szGUID[64];
                 wprintf(L"SensorID: %s\n", GUIDToString(sensorID, szGUID, ARRAYSIZE(szGUID)));
@@ -148,19 +152,19 @@ STDMETHODIMP CLocationEvents::OnLocationChanged(REFIID reportType, ILocationRepo
             DOUBLE latitude = 0, longitude = 0, altitude = 0, errorRadius = 0, altitudeError = 0;
 
             // Print the Latitude
-            if (SUCCEEDED(spLatLongReport->GetLatitude(&latitude)))
+            if (SUCCEEDED(spLatLongReport-&gt;GetLatitude(&amp;latitude)))
             {
                 wprintf(L"Latitude: %f\n", latitude);
             }
 
             // Print the Longitude
-            if (SUCCEEDED(spLatLongReport->GetLongitude(&longitude)))
+            if (SUCCEEDED(spLatLongReport-&gt;GetLongitude(&amp;longitude)))
             {
                 wprintf(L"Longitude: %f\n", longitude);
             }
 
             // Print the Altitude
-            if (SUCCEEDED(spLatLongReport->GetAltitude(&altitude)))
+            if (SUCCEEDED(spLatLongReport-&gt;GetAltitude(&amp;altitude)))
             {
                 wprintf(L"Altitude: %f\n", altitude);
             }
@@ -171,13 +175,13 @@ STDMETHODIMP CLocationEvents::OnLocationChanged(REFIID reportType, ILocationRepo
             }
 
             // Print the Error Radius
-            if (SUCCEEDED(spLatLongReport->GetErrorRadius(&errorRadius)))
+            if (SUCCEEDED(spLatLongReport-&gt;GetErrorRadius(&amp;errorRadius)))
             {
                 wprintf(L"Error Radius: %f\n", errorRadius);
             }
 
             // Print the Altitude Error
-            if (SUCCEEDED(spLatLongReport->GetAltitudeError(&altitudeError)))
+            if (SUCCEEDED(spLatLongReport-&gt;GetAltitudeError(&amp;altitudeError)))
             {
                 wprintf(L"Altitude Error: %f\n", altitudeError);
             }
@@ -191,9 +195,9 @@ STDMETHODIMP CLocationEvents::OnLocationChanged(REFIID reportType, ILocationRepo
 
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

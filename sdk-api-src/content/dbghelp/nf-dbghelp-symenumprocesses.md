@@ -4,10 +4,10 @@ title: SymEnumProcesses function
 author: windows-sdk-content
 description: Enumerates each process that has called the SymInitialize function.
 old-location: base\symenumprocesses.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 281b83ff-8375-4edb-8a10-97af5dbdc87b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymEnumProcesses, SymEnumProcesses function, base.symenumprocesses, dbghelp/SymEnumProcesses
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3unprojectstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3UnprojectStream(XMFLOAT3@,size_t,const XMFLOAT3,size_t,size_t,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVector3UnprojectStream, XMVector3UnprojectStream, XMVector3UnprojectStream method [DirectX Math Support APIs], dxmath.xmvector3unprojectstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

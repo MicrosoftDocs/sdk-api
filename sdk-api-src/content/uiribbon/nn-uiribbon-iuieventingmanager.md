@@ -7,7 +7,7 @@ old-location: windowsribbon\iuieventingmanager.htm
 tech.root: windowsribbon
 ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ Sets the event logger for ribbon events.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371356(v=VS.85).aspx">Interfaces</a>
+<a href="https://msdn.microsoft.com/d5fd6e4f-ca10-4010-aab4-d2728b0ac53c">Interfaces</a>
  
 
  

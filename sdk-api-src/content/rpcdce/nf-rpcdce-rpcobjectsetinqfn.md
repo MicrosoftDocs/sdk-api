@@ -4,10 +4,10 @@ title: RpcObjectSetInqFn function
 author: windows-sdk-content
 description: The RpcObjectSetInqFn function registers an object-inquiry function. A null value turns off a previously registered object-inquiry function.
 old-location: rpc\rpcobjectsetinqfn.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 358d3ab3-df16-486b-aeac-56a0ffc78272
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RpcObjectSetInqFn, RpcObjectSetInqFn function [RPC], _rpc_rpcobjectsetinqfn, rpc.rpcobjectsetinqfn, rpcdce/RpcObjectSetInqFn
 ms.prod: windows-hardware
 ms.technology: windows-devices

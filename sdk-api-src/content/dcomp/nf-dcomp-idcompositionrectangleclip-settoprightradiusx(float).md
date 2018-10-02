@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_settoprightradiusx_float.htm
 tech.root: directcomp
 ms.assetid: 7287E5A4-4294-4ECC-B1B7-98D7EA42E392
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTopRightRadiusX method, IDCompositionRectangleClip.SetTopRightRadiusX, IDCompositionRectangleClip.SetTopRightRadiusX(float), IDCompositionRectangleClip::SetTopRightRadiusX, IDCompositionRectangleClip::SetTopRightRadiusX(float), SetTopRightRadiusX, SetTopRightRadiusX method [DirectComposition], SetTopRightRadiusX method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTopRightRadiusX, directcomp.idcompositionrectangleclip_settoprightradiusx_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

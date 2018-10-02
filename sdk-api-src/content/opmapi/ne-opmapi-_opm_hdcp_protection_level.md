@@ -4,10 +4,10 @@ title: "_OPM_HDCP_PROTECTION_LEVEL"
 author: windows-sdk-content
 description: Specifies the protection level for High-Bandwidth Digital Content Protection (HDCP).
 old-location: mf\opm_hdcp_protection_level.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 698050e4-9726-49fa-85ed-9ae057e8c308
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: OPM_HDCP_FORCE_ULONG, OPM_HDCP_OFF, OPM_HDCP_ON, OPM_HDCP_PROTECTION_LEVEL, OPM_HDCP_PROTECTION_LEVEL enumeration [Media Foundation], _OPM_HDCP_PROTECTION_LEVEL, mf.opm_hdcp_protection_level, opmapi/OPM_HDCP_FORCE_ULONG, opmapi/OPM_HDCP_OFF, opmapi/OPM_HDCP_ON, opmapi/OPM_HDCP_PROTECTION_LEVEL
 ms.prod: windows
 ms.technology: windows-sdk

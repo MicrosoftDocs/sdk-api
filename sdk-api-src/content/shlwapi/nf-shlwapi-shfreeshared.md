@@ -4,10 +4,10 @@ title: SHFreeShared function
 author: windows-sdk-content
 description: SHFreeShared may be altered or unavailable.
 old-location: shell\SHFreeShared.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5a86ae5d-8caa-4126-a22e-bc3cc7df2381
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHFreeShared, SHFreeShared function [Windows Shell], _win32_SHFreeShared, shell.SHFreeShared, shlwapi/SHFreeShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawcolorcontrol.htm
 tech.root: directdraw
 ms.assetid: e9bd0dc6-2d8a-452b-894d-72a3d7a20100
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectDrawColorControl, IDirectDrawColorControl interface [DirectDraw], IDirectDrawColorControl interface [DirectDraw],described, ddraw/IDirectDrawColorControl, directdraw.idirectdrawcolorcontrol
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,13 +97,17 @@ You can use the LPDIRECTDRAWCOLORCONTROL data type to declare a variable that co
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirectDrawColorControl    FAR *LPDIRECTDRAWCOLORCONTROL;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

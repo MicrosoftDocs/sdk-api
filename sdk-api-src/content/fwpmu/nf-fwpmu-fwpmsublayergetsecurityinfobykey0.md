@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayergetsecurityinfobykey0_func.htm
 tech.root: FWP
 ms.assetid: 9e086127-d789-4b10-9405-9376230e184d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmSubLayerGetSecurityInfoByKey0, FwpmSubLayerGetSecurityInfoByKey0 function [Filtering], fwp.fwpmsublayergetsecurityinfobykey0_func, fwpmu/FwpmSubLayerGetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

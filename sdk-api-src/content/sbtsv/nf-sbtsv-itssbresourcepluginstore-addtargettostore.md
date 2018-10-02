@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_addtargettostore.htm
 tech.root: TermServ
 ms.assetid: 207761eb-b87a-44e5-9101-84d77f95fc23
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddTargetToStore, AddTargetToStore method [Remote Desktop Services], AddTargetToStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, AddTargetToStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AddTargetToStore method, ITsSbResourcePluginStore.AddTargetToStore, ITsSbResourcePluginStore::AddTargetToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],AddTargetToStore method, ITsSbResourcePluginStoreEx::AddTargetToStore, sbtsv/ITsSbResourcePluginStore::AddTargetToStore, sbtsv/ITsSbResourcePluginStoreEx::AddTargetToStore, termserv.itssbresourcepluginstore_addtargettostore
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: webdav\davgetextendederror.htm
 tech.root: WebDAV
 ms.assetid: 939b6163-b7ae-4ab7-9bcc-a02cbf34ca63
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DavGetExtendedError, DavGetExtendedError function [WebDAV], davclnt/DavGetExtendedError, webdav.davgetextendederror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,7 +137,7 @@ If you call  this function for a file handle whose previous I/O  operation was s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

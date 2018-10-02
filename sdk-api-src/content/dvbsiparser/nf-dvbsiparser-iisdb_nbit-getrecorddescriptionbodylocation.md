@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecorddescriptionbodylocation.htm
 tech.root: MSTV
 ms.assetid: bb022e1f-6f46-4cdc-8f43-4c4475acf621
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordDescriptionBodyLocation, GetRecordDescriptionBodyLocation method [Microsoft TV Technologies], GetRecordDescriptionBodyLocation method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptionBodyLocation method, IISDB_NBIT.GetRecordDescriptionBodyLocation, IISDB_NBIT::GetRecordDescriptionBodyLocation, dvbsiparser/IISDB_NBIT::GetRecordDescriptionBodyLocation, mstv.iisdb_nbit_getrecorddescriptionbodylocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar.htm
 tech.root: MSTV
 ms.assetid: 299816e7-2dad-44a5-a44d-9c3efe405d9b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], ISBE2Crossbar interface [Microsoft TV Technologies],described, mstv.isbe2crossbar, sbe/ISBE2Crossbar
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentcontainer_getid.htm
 tech.root: WMP
 ms.assetid: b2b4a5f8-ba53-4914-b8ef-ba9b7b87c52f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetID, GetID method [Windows Media Player], GetID method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetID method, IWMPContentContainer.GetID, IWMPContentContainer::GetID, IWMPContentContainerGetID, contentpartner/IWMPContentContainer::GetID, wmp.iwmpcontentcontainer_getid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ If the container does not represent an album or list, this method retrieves -1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563130(v=VS.85).aspx">IWMPContentContainer Interface</a>
+<a href="https://msdn.microsoft.com/32a68af3-9270-4ac1-b133-a2770220dfcb">IWMPContentContainer Interface</a>
  
 
  

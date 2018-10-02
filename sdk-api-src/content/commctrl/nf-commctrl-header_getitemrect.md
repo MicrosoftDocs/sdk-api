@@ -4,10 +4,10 @@ title: Header_GetItemRect macro
 author: windows-sdk-content
 description: Gets the bounding rectangle for a given item in a header control. You can use this macro or send the HDM_GETITEMRECT message explicitly.
 old-location: controls\Header_GetItemRect.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemrect.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Header_GetItemRect, Header_GetItemRect macro [Windows Controls], _win32_Header_GetItemRect, _win32_Header_GetItemRect_cpp, commctrl/Header_GetItemRect, controls.Header_GetItemRect, controls._win32_Header_GetItemRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the bounding rectangle for a given item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775341(v=VS.85).aspx">HDM_GETITEMRECT</a> message explicitly. 
+Gets the bounding rectangle for a given item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/b483ef97-3700-425b-8160-81c673850f68">HDM_GETITEMRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the bounding rectangle for a given item in a header control. You can use th
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 

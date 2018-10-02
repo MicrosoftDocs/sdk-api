@@ -7,7 +7,7 @@ old-location: fs\prepareenlistment.htm
 tech.root: Ktm
 ms.assetid: 5f1b1eb2-e2f5-4daf-b549-7f0c195414f0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PrepareEnlistment, PrepareEnlistment function [Files], fs.prepareenlistment, ktmw32/PrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

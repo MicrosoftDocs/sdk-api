@@ -4,10 +4,10 @@ title: MFCreateAlignedMemoryBuffer function
 author: windows-sdk-content
 description: Allocates system memory with a specified byte alignment and creates a media buffer to manage the memory.
 old-location: mf\mfcreatealignedmemorybuffer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: cccc0dea-3f1e-41e4-97f4-de7760ceccb0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateAlignedMemoryBuffer, MFCreateAlignedMemoryBuffer function [Media Foundation], MF_128_BYTE_ALIGNMENT, MF_16_BYTE_ALIGNMENT, MF_1_BYTE_ALIGNMENT, MF_256_BYTE_ALIGNMENT, MF_2_BYTE_ALIGNMENT, MF_32_BYTE_ALIGNMENT, MF_4_BYTE_ALIGNMENT, MF_512_BYTE_ALIGNMENT, MF_64_BYTE_ALIGNMENT, MF_8_BYTE_ALIGNMENT, cccc0dea-3f1e-41e4-97f4-de7760ceccb0, mf.mfcreatealignedmemorybuffer, mfapi/MFCreateAlignedMemoryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

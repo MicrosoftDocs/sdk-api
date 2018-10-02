@@ -7,7 +7,7 @@ old-location: fs\idiskquotauserbatch.htm
 tech.root: fileio
 ms.assetid: 6cb3da5d-8e4c-45de-b9cf-0f6abf3f1932
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IDiskQuotaUserBatch, IDiskQuotaUserBatch interface [Files], IDiskQuotaUserBatch interface [Files],described, _win32_idiskquotauserbatch, base.idiskquotauserbatch, dskquota/IDiskQuotaUserBatch, fs.idiskquotauserbatch
 ms.prod: windows
 ms.technology: windows-sdk

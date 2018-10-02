@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_setmutedebugoutput.htm
 tech.root: direct3d11
 ms.assetid: 0b155d2c-f7b0-4879-8086-8cccbca16a25
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 845ced1c-0b30-f73c-38de-69cd6425f139, ID3D11InfoQueue interface [Direct3D 11],SetMuteDebugOutput method, ID3D11InfoQueue.SetMuteDebugOutput, ID3D11InfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method [Direct3D 11], SetMuteDebugOutput method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetMuteDebugOutput, direct3d11.id3d11infoqueue_setmutedebugoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Set a boolean that turns the debug output on or off.
 
 ### -param bMute [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Disable/Enable the debug output (<b>TRUE</b> to disable or mute the output, <b>FALSE</b> to enable the output).
 
@@ -89,7 +89,7 @@ This will stop messages that pass the storage filter from being printed out in t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>
  
 
  

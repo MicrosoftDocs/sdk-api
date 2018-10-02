@@ -7,7 +7,7 @@ old-location: mstv\section.htm
 tech.root: MSTV
 ms.assetid: 6ee07b84-ae97-413f-a3b4-0078ad740194
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Technologies], SECTION, SECTION structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0006, mpeg2structs/PSECTION, mpeg2structs/SECTION, mstv.section"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,20 +98,24 @@ This structure represents an MPEG-2 short header. The section might contain a lo
 </ul>
 The following code shows how to access the bit fields within the <b>Header</b> member:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 SECTION *pSection; // Points to the section data.
 
 // Coerce the Header field to an MPEG_HEADER_BITS type.
-MPEG_HEADER_BITS *pHeader = (MPEG_HEADER_BITS*)&pSection->Header.W;
+MPEG_HEADER_BITS *pHeader = (MPEG_HEADER_BITS*)&amp;pSection-&gt;Header.W;
 
 // Now use the pHeader pointer to access the bit fields.
-WORD SectionLength = pHeader->SectionLength;
-
-```
-
-
+WORD SectionLength = pHeader-&gt;SectionLength;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

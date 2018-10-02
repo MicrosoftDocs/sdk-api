@@ -7,7 +7,7 @@ old-location: dshow\iseekingpassthru_init.htm
 tech.root: DirectShow
 ms.assetid: bb32c20c-bbae-403a-885b-f07c6dcf46f4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ISeekingPassThru interface [DirectShow],Init method, ISeekingPassThru.Init, ISeekingPassThru::Init, ISeekingPassThruInit, Init, Init method [DirectShow], Init method [DirectShow],ISeekingPassThru interface, dshow.iseekingpassthru_init, strmif/ISeekingPassThru::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

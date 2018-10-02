@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_sendopaquecommand.htm
 tech.root: WMDM
 ms.assetid: 4554318b-497f-488f-a52f-a392b8fee992
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMDevice interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMDevice.SendOpaqueCommand, IWMDMDevice::SendOpaqueCommand, IWMDMDeviceSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMDevice interface, mswmdm/IWMDMDevice::SendOpaqueCommand, wmdm.iwmdmdevice_sendopaquecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,9 +94,13 @@ This method is intended for device commands that do not affect the operation of 
 
 The following code performs a simplified extended authentication procedure with a device. This procedure is specific to a device.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Call opaque command to exchange extended authentication information.
     //
     {
@@ -108,7 +112,7 @@ The following code performs a simplified extended authentication procedure with 
         DWORD          cbData_Send  = sizeof(CERTINFOEX) + cbData_App;
 
         // Fill out opaque command structure.
-        memcpy(&(Command.guidCommand), &guidCertInfoEx, sizeof(GUID));
+        memcpy(&amp;(Command.guidCommand), &amp;guidCertInfoEx, sizeof(GUID));
 
         Command.pData = (BYTE *)CoTaskMemAlloc(cbData_Send);
         if (!Command.pData)
@@ -121,35 +125,35 @@ The following code performs a simplified extended authentication procedure with 
         // fill in the certificate info to send.
         pCertInfoEx = (CERTINFOEX *)Command.pData;
 
-        pCertInfoEx->hr     = S_OK;
-        pCertInfoEx->cbCert = cbData_App;
-        memcpy(pCertInfoEx->pbCert, bCertInfoEx_App, cbData_App);
+        pCertInfoEx-&gt;hr     = S_OK;
+        pCertInfoEx-&gt;cbCert = cbData_App;
+        memcpy(pCertInfoEx-&gt;pbCert, bCertInfoEx_App, cbData_App);
 
         // Compute the MAC to send.
-        g_cWmdm.m_pSAC->MACInit(&hMAC);
-        g_cWmdm.m_pSAC->MACUpdate(hMAC, (BYTE*)(&(Command.guidCommand)), sizeof(GUID));
-        g_cWmdm.m_pSAC->MACUpdate(hMAC, (BYTE*)(&(Command.dwDataLen)), sizeof(Command.dwDataLen));
+        g_cWmdm.m_pSAC-&gt;MACInit(&amp;hMAC);
+        g_cWmdm.m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(&amp;(Command.guidCommand)), sizeof(GUID));
+        g_cWmdm.m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(&amp;(Command.dwDataLen)), sizeof(Command.dwDataLen));
         if (Command.pData)
         {
-            g_cWmdm.m_pSAC->MACUpdate(hMAC, Command.pData, Command.dwDataLen);
+            g_cWmdm.m_pSAC-&gt;MACUpdate(hMAC, Command.pData, Command.dwDataLen);
         }
-        g_cWmdm.m_pSAC->MACFinal(hMAC, Command.abMAC);
+        g_cWmdm.m_pSAC-&gt;MACFinal(hMAC, Command.abMAC);
 
         // Send the command.
-        hr = pDevice->SendOpaqueCommand(&Command);
+        hr = pDevice-&gt;SendOpaqueCommand(&amp;Command);
         if (SUCCEEDED(hr))
         {
             BYTE abMACVerify2[ WMDM_MAC_LENGTH ];
 
             // Compute retrieved MAC for verification.
-            g_cWmdm.m_pSAC->MACInit(&hMAC);
-            g_cWmdm.m_pSAC->MACUpdate(hMAC, (BYTE*)(&(Command.guidCommand)), sizeof(GUID));
-            g_cWmdm.m_pSAC->MACUpdate(hMAC, (BYTE*)(&(Command.dwDataLen)), sizeof(Command.dwDataLen));
+            g_cWmdm.m_pSAC-&gt;MACInit(&amp;hMAC);
+            g_cWmdm.m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(&amp;(Command.guidCommand)), sizeof(GUID));
+            g_cWmdm.m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(&amp;(Command.dwDataLen)), sizeof(Command.dwDataLen));
             if (Command.pData)
             {
-                g_cWmdm.m_pSAC->MACUpdate(hMAC, Command.pData, Command.dwDataLen);
+                g_cWmdm.m_pSAC-&gt;MACUpdate(hMAC, Command.pData, Command.dwDataLen);
             }
-            g_cWmdm.m_pSAC->MACFinal(hMAC, abMACVerify2);
+            g_cWmdm.m_pSAC-&gt;MACFinal(hMAC, abMACVerify2);
 
             // Verify the MAC matches.
             //
@@ -162,8 +166,8 @@ The following code performs a simplified extended authentication procedure with 
                 // In this simple extended authentication scheme, the callee must
                 // provide the exact certificate info.
                 //
-                if ((pCertInfoEx->cbCert != cbData_SP) ||
-                    (memcmp(pCertInfoEx->pbCert, bCertInfoEx_SP, cbData_SP) == 0))
+                if ((pCertInfoEx-&gt;cbCert != cbData_SP) ||
+                    (memcmp(pCertInfoEx-&gt;pbCert, bCertInfoEx_SP, cbData_SP) == 0))
                 {
                     m_fExtraCertified = TRUE;
                 }
@@ -175,10 +179,10 @@ The following code performs a simplified extended authentication procedure with 
             CoTaskMemFree(Command.pData);
         }
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

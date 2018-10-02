@@ -7,7 +7,7 @@ old-location: fs\disk_partition_info_str.htm
 tech.root: fileio
 ms.assetid: 34a086fc-72ea-46ed-adb3-c084abcb3c74
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PDISK_PARTITION_INFO, DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Files], PDISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Files], _DISK_PARTITION_INFO, _win32_disk_partition_info_str, base.disk_partition_info_str, fs.disk_partition_info_str, winioctl/DISK_PARTITION_INFO, winioctl/PDISK_PARTITION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

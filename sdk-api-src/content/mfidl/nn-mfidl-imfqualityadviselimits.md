@@ -4,10 +4,10 @@ title: IMFQualityAdviseLimits
 author: windows-sdk-content
 description: Queries an object for the number of quality modes it supports.
 old-location: mf\imfqualityadviselimits.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8ef7088c-2f49-4be9-b719-481616e1737d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation],described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_gettype.htm
 tech.root: Bits
 ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetType, GetType method [BITS], GetType method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetType method, IBackgroundCopyJob.GetType, IBackgroundCopyJob::GetType, _drz_ibackgroundcopyjob_gettype, bits.ibackgroundcopyjob_gettype, bits/IBackgroundCopyJob::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ TBD
 #### - pJobType [out]
 
 Type of transfer being performed. For a list of transfer types, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362811(v=VS.85).aspx">BG_JOB_TYPE</a> enumeration.
+<a href="https://msdn.microsoft.com/b341a63f-3a1d-4518-8f05-17d28af603b4">BG_JOB_TYPE</a> enumeration.
 
 
 ## -returns
@@ -115,7 +115,7 @@ The <i>pJobType</i> parameter cannot be <b>NULL</b>.
 
 
 Specify the type of transfer when you 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">create the job</a>.
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">create the job</a>.
 
 
 
@@ -125,11 +125,11 @@ Specify the type of transfer when you
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362811(v=VS.85).aspx">BG_JOB_TYPE</a>
+<a href="https://msdn.microsoft.com/b341a63f-3a1d-4518-8f05-17d28af603b4">BG_JOB_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a>
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a>
  
 
  

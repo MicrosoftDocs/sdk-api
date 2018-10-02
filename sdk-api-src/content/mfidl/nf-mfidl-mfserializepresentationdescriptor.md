@@ -4,10 +4,10 @@ title: MFSerializePresentationDescriptor function
 author: windows-sdk-content
 description: Serializes a presentation descriptor to a byte array.
 old-location: mf\mfserializepresentationdescriptor.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f39a0dc8-438e-4723-94e4-a194a0a460e3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFSerializePresentationDescriptor, MFSerializePresentationDescriptor function [Media Foundation], f39a0dc8-438e-4723-94e4-a194a0a460e3, mf.mfserializepresentationdescriptor, mfidl/MFSerializePresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

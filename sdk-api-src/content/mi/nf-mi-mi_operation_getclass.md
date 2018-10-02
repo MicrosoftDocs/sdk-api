@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operation_getclass.htm
 tech.root: WMI_v2
 ms.assetid: f29f5a03-2b0b-4d36-97cb-f3b38f6037b3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Operation_GetClass, MI_Operation_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetClass, wmi_v2.mi_operation_getclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

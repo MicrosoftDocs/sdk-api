@@ -7,7 +7,7 @@ old-location: fs\deletentmsrequests.htm
 tech.root: Rsm
 ms.assetid: 5368184a-419c-4cb7-b27f-b55fc26b4e81
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteNtmsRequests, DeleteNtmsRequests function [Files], NTMS_LIBREQUEST, NTMS_OPREQUEST, _zaw_deletentmsrequests, base.deletentmsrequests, fs.deletentmsrequests, ntmsapi/DeleteNtmsRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -222,7 +222,7 @@ An error is not returned if a request or list of requests is not found.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

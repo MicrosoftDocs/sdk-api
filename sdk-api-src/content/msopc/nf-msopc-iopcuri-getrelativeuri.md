@@ -7,7 +7,7 @@ old-location: opc\iopcuri_getrelativeuri.htm
 tech.root: OPC
 ms.assetid: ce98b0a6-f4b3-4f49-897a-f144af7dfc49
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions], GetRelativeUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelativeUri method, IOpcUri.GetRelativeUri, IOpcUri::GetRelativeUri, msopc/IOpcUri::GetRelativeUri, opc.iopcuri_getrelativeuri
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a> function. 
+An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function. 
 
 </td>
 </tr>

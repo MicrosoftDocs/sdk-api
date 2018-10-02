@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_createswapchainforimmersivewindow.htm
 tech.root: direct3ddxgi
 ms.assetid: B3AC3AEB-3449-4444-9FD3-866A3795C41F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateSwapChainForCoreWindow, CreateSwapChainForCoreWindow method [DXGI], CreateSwapChainForCoreWindow method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForCoreWindow method, IDXGIFactory2.CreateSwapChainForCoreWindow, IDXGIFactory2::CreateSwapChainForCoreWindow, direct3ddxgi.idxgifactory2_createswapchainforimmersivewindow, dxgi1_2/IDXGIFactory2::CreateSwapChainForCoreWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A pointer to a  <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D
 
 ### -param pRestrictToOutput [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a> interface that the swap chain is restricted to. If the swap chain is moved to a different output, the content is black. You can optionally set this parameter to an output target that uses <a href="https://msdn.microsoft.com/en-us/library/Bb509554(v=VS.85).aspx">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict the content on this output. If you do not set this parameter to restrict content on an output target, you can set it to <b>NULL</b>. 
+A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface that the swap chain is restricted to. If the swap chain is moved to a different output, the content is black. You can optionally set this parameter to an output target that uses <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict the content on this output. If you do not set this parameter to restrict content on an output target, you can set it to <b>NULL</b>. 
 
 
 ### -param ppSwapChain [out]
@@ -93,8 +93,8 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 <li>S_OK if it successfully created a swap chain.</li>
 <li>E_OUTOFMEMORY if memory is unavailable to complete the operation.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>  if the calling application provided invalid data, for example, if <i>pDesc</i> or <i>ppSwapChain</i> is <b>NULL</b>.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic that are defined by the type of device that you pass to <i>pDevice</i>.</li>
+<a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>  if the calling application provided invalid data, for example, if <i>pDesc</i> or <i>ppSwapChain</i> is <b>NULL</b>.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic that are defined by the type of device that you pass to <i>pDevice</i>.</li>
 </ul>
 
 
@@ -126,13 +126,17 @@ The foreground swap chain will use multiplane overlays if supported by the hardw
 
 The following example creates a foreground swap chain for a CoreWindow:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 DXGI_SWAP_CHAIN_DESC1 swapChainDesc = { 0 };
 
-swapChainDesc.Width = static_cast<UINT>(m_d3dRenderTargetSize.Width);
-swapChainDesc.Height = static_cast<UINT>(m_d3dRenderTargetSize.Height);
+swapChainDesc.Width = static_cast&lt;UINT&gt;(m_d3dRenderTargetSize.Width);
+swapChainDesc.Height = static_cast&lt;UINT&gt;(m_d3dRenderTargetSize.Height);
 swapChainDesc.Format = DXGI_FORMAT_B8G8R8A8_UNORM;
 swapChainDesc.Stereo = false;
 swapChainDesc.SampleDesc.Count = 1; // Don't use multi-sampling.
@@ -144,33 +148,37 @@ swapChainDesc.Flags = DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER;
 swapChainDesc.AlphaMode = DXGI_ALPHA_MODE_PREMULTIPLIED;
 swapChainDesc.Scaling = DXGI_SCALING_NONE;
 
-ComPtr<IDXGISwapChain1> swapChain;
-HRESULT hr = dxgiFactory->CreateSwapChainForCoreWindow(
+ComPtr&lt;IDXGISwapChain1&gt; swapChain;
+HRESULT hr = dxgiFactory-&gt;CreateSwapChainForCoreWindow(
     m_d3dDevice.Get(),
-    reinterpret_cast<IUnknown*>(m_window.Get()),
-    &swapChainDesc,
+    reinterpret_cast&lt;IUnknown*&gt;(m_window.Get()),
+    &amp;swapChainDesc,
     nullptr,
-    &swapChain
-    );
-```
-
-
+    &amp;swapChain
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 Present both swap chains together after rendering is complete.
 
 The following example presents both swap chains:
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+HRESULT hr = m_swapChain-&gt;Present(1, 0);
 
-```cpp
-
-HRESULT hr = m_swapChain->Present(1, 0);
-
-if (SUCCEEDED(hr) && m_foregroundSwapChain)
+if (SUCCEEDED(hr) &amp;&amp; m_foregroundSwapChain)
 {
-    m_foregroundSwapChain->Present(1, 0);
-}
-```
-
-
+    m_foregroundSwapChain-&gt;Present(1, 0);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

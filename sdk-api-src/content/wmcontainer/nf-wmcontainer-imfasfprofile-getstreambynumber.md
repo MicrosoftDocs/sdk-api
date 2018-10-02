@@ -4,10 +4,10 @@ title: IMFASFProfile::GetStreamByNumber
 author: windows-sdk-content
 description: Retrieves an Advanced Systems Format (ASF) stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
 old-location: mf\imfasfprofile_getstreambynumber.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1e3fadf0-1549-4d51-b263-727b15c55023
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 1e3fadf0-1549-4d51-b263-727b15c55023, GetStreamByNumber, GetStreamByNumber method [Media Foundation], GetStreamByNumber method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamByNumber method, IMFASFProfile.GetStreamByNumber, IMFASFProfile::GetStreamByNumber, mf.imfasfprofile_getstreambynumber, wmcontainer/IMFASFProfile::GetStreamByNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

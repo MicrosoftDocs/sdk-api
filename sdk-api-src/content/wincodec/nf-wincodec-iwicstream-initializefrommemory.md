@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicstream_initializefrommemory.htm
 tech.root: wic
 ms.assetid: 7e226759-61aa-4f06-b20f-d5853faf4e4b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromMemory method, IWICStream.InitializeFromMemory, IWICStream::InitializeFromMemory, InitializeFromMemory, InitializeFromMemory method [Windows Imaging Component], InitializeFromMemory method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefrommemory, wic._wic_codec_iwicstream_initializefrommemory, wincodec/IWICStream::InitializeFromMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

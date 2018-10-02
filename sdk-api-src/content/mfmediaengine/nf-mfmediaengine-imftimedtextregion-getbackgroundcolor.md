@@ -4,10 +4,10 @@ title: IMFTimedTextRegion::GetBackgroundColor
 author: windows-sdk-content
 description: Gets the background color of the region.
 old-location: mf\imftimedtextregion_getbackgroundcolor.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: E92FFB7E-C364-43C8-82CF-C3B4116C4187
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetBackgroundColor method, IMFTimedTextRegion.GetBackgroundColor, IMFTimedTextRegion::GetBackgroundColor, mf.imftimedtextregion_getbackgroundcolor, mfmediaengine/IMFTimedTextRegion::GetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

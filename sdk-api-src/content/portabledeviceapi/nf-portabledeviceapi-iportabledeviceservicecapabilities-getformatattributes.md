@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_getformatattributes.htm
 tech.root: wpd_sdk
 ms.assetid: 9fecc9e8-cc5c-4a5f-b5b4-71c63631948d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFormatAttributes, GetFormatAttributes method [Windows Portable Devices SDK], GetFormatAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatAttributes method, IPortableDeviceServiceCapabilities.GetFormatAttributes, IPortableDeviceServiceCapabilities::GetFormatAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatAttributes, wpdsdk.iportabledeviceservicecapabilities_getformatattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389056(v=VS.85).aspx">WPD_FORMAT_ATTRIBUTE_NAME</a> is an example of a commonly retrieved attribute.
+<a href="wpd_format_attributes.htm">WPD_FORMAT_ATTRIBUTE_NAME</a> is an example of a commonly retrieved attribute.
       
 
 

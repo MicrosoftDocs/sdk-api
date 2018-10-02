@@ -7,7 +7,7 @@ old-location: ldap\ldap_add_ext.htm
 tech.root: LDAP
 ms.assetid: 13ad97e7-6d3c-43a6-b806-ec775abe303c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ldap_add_ext, ldap.ldap__add__ext, ldap.ldap_add_ext, ldap_add_ext, ldap_add_ext function [LDAP], ldap_add_extA, ldap_add_extW, winldap/ldap_add_ext, winldap/ldap_add_extA, winldap/ldap_add_extW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ The message ID for the request.
 
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
-If the function fails, an error code is returned. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa366112(v=VS.85).aspx">Error Handling</a>.
+If the function fails, an error code is returned. For more information, see <a href="functions.htm">Error Handling</a>.
 
 
 
@@ -134,7 +134,7 @@ Multithreaded: Calls to <b>ldap_add_ext</b> are thread-safe.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366112(v=VS.85).aspx">Error Handling</a>
+<a href="functions.htm">Error Handling</a>
 
 
 

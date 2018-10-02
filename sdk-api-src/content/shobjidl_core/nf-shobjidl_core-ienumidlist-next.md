@@ -4,10 +4,10 @@ title: IEnumIDList::Next
 author: windows-sdk-content
 description: Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.
 old-location: shell\IEnumIDList_Next.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4b2cd7a3-687c-4a51-b9af-a01576463f0b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Next method, IEnumIDList.Next, IEnumIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Next, shell.IEnumIDList_Next, shobjidl_core/IEnumIDList::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

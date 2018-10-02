@@ -7,7 +7,7 @@ old-location: netshell\cmd_entry.htm
 tech.root: NetShell
 ms.assetid: 299962c8-8f93-4b22-a232-8230eb64cc12
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCMD_ENTRY, CMD_ENTRY, CMD_ENTRY structure [NetShell], PCMD_ENTRY, PCMD_ENTRY structure pointer [NetShell], _CMD_ENTRY, _netsh_cmd_entry, netsh/CMD_ENTRY, netsh/PCMD_ENTRY, netshell.cmd_entry"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,9 +108,13 @@ If these macros are used, the following constants must be defined in the helper 
 
 The following are example uses of these macros:
 
-
-```cpp
-#define HLP_SAMPLE_ADD_BAR        1001
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define HLP_SAMPLE_ADD_BAR        1001
 #define HLP_SAMPLE_ADD_BAR_EX     1002
 #define HLP_SAMPLE_DELETE_BAR     1003
 #define HLP_SAMPLE_DELETE_BAR_EX  1004
@@ -156,10 +160,10 @@ CMD_ENTRY  g_SampleShowCmdTable[] =
     CREATE_CMD_ENTRY_EX(SAMPLE_SHOW_BAR, HandleSampleShowBar, (CMD_FLAG_PRIVATE | CMD_FLAG_ONLINE) ),
     CREATE_CMD_ENTRY_EX_VER(SAMPLE_SHOW_FILTER, HandleSampleShowFilter, (CMD_FLAG_PRIVATE | CMD_FLAG_ONLINE), CheckRunningOnWindowsXP),
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

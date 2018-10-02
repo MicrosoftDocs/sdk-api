@@ -4,10 +4,10 @@ title: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
 author: windows-sdk-content
 description: Provides information about the input streams passed into the ID3DVideoContext1::VideoProcessorGetBehaviorHints method.
 old-location: mf\d3d11_video_processor_stream_behavior_hint.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0B90AB2C-3F62-49FF-A1DB-FCB07A33F482
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT structure [Media Foundation], d3d11_1/D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, mf.d3d11_video_processor_stream_behavior_hint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides information about the input streams passed into the <a href="https://msdn.microsoft.com/en-us/library/Dn894132(v=VS.85).aspx">ID3DVideoContext1::VideoProcessorGetBehaviorHints</a> method.
+Provides information about the input streams passed into the <a href="https://msdn.microsoft.com/DDA8B3DE-A9D2-48A5-ABEE-E3F7A0EEB965">ID3DVideoContext1::VideoProcessorGetBehaviorHints</a> method.
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ The format of the input stream.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

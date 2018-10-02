@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceluidtoguid.htm
 tech.root: IpHlp
 ms.assetid: 9d5bd1e9-0bf1-405a-8726-8e2c9ba4e022
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ConvertInterfaceLuidToGuid, ConvertInterfaceLuidToGuid function [IP Helper], iphlp.convertinterfaceluidtoguid, netioapi/ConvertInterfaceLuidToGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

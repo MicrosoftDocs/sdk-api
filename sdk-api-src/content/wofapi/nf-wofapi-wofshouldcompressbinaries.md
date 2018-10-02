@@ -7,7 +7,7 @@ old-location: fs\wofshouldcompressbinaries.htm
 tech.root: fileio
 ms.assetid: C7A1D76A-2535-46BB-A55B-D1E15A079FF4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [Files], fs.wofshouldcompressbinaries, wofapi/WofShouldCompressBinaries
 ms.prod: windows-hardware
 ms.technology: windows-devices

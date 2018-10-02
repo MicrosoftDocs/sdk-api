@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7.htm
 tech.root: directdraw
 ms.assetid: be686d56-c242-4228-ac8e-8f764ad29756
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], IDirectDrawSurface7 interface [DirectDraw],described, ddraw/IDirectDrawSurface7, directdraw.idirectdrawsurface7
 ms.prod: windows
 ms.technology: windows-sdk
@@ -647,17 +647,21 @@ Use the LPDIRECTDRAWSURFACE, LPDIRECTDRAWSURFACE2, LPDIRECTDRAWSURFACE3, LPDIREC
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirectDrawSurface     FAR *LPDIRECTDRAWSURFACE;
 typedef struct IDirectDrawSurface2    FAR *LPDIRECTDRAWSURFACE2;
 typedef struct IDirectDrawSurface3    FAR *LPDIRECTDRAWSURFACE3;
 typedef struct IDirectDrawSurface4    FAR *LPDIRECTDRAWSURFACE4;
 typedef struct IDirectDrawSurface7    FAR *LPDIRECTDRAWSURFACE7;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

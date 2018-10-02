@@ -4,10 +4,10 @@ title: Edit_SetReadOnly macro
 author: windows-sdk-content
 description: Sets or removes the read-only style (ES_READONLY) of an edit or rich edit control. You can use this macro or send the EM_SETREADONLY message explicitly.
 old-location: controls\Edit_SetReadOnly.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setreadonly.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Edit_SetReadOnly, Edit_SetReadOnly macro [Windows Controls], _win32_Edit_SetReadOnly, _win32_Edit_SetReadOnly_cpp, controls.Edit_SetReadOnly, controls._win32_Edit_SetReadOnly, windowsx/Edit_SetReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets or removes the read-only style (ES_READONLY) of an edit or rich edit control.  You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761655(v=VS.85).aspx">EM_SETREADONLY</a> message explicitly.
+Sets or removes the read-only style (ES_READONLY) of an edit or rich edit control.  You can use this macro or send the <a href="https://msdn.microsoft.com/a10b3f57-0e67-4a0f-89f3-9c8ebd1514f8">EM_SETREADONLY</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761655(v=VS.85).aspx">EM_SETREADONLY</a>.
+For more information, see <a href="https://msdn.microsoft.com/a10b3f57-0e67-4a0f-89f3-9c8ebd1514f8">EM_SETREADONLY</a>.
 
 
 

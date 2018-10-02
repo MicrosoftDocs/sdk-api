@@ -7,7 +7,7 @@ old-location: stg\isequentialstream.htm
 tech.root: Stg
 ms.assetid: c1d33800-d2f1-4942-92fa-e115f524c23c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISequentialStream, ISequentialStream interface [Structured Storage], ISequentialStream interface [Structured Storage],described, _stg_isequentialstream, objidl/ISequentialStream, stg.isequentialstream
 ms.prod: windows
 ms.technology: windows-sdk

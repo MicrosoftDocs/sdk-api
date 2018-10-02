@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_sourcelink.htm
 tech.root: DirectShow
 ms.assetid: a5d79169-ae1b-4532-b367-ec2d24fae0b1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceLink method, IAMNetShowExProps.get_SourceLink, IAMNetShowExProps::get_SourceLink, IAMNetShowExPropsget_SourceLink, dshow.iamnetshowexprops_get_sourcelink, get_SourceLink, get_SourceLink method [DirectShow], get_SourceLink method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_SourceLink
 ms.prod: windows-hardware
 ms.technology: windows-devices

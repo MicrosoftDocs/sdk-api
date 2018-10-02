@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_psgetshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_psgetshader.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 22e11c1b-a242-803e-3d24-a515820d6e7a, ID3D10Device interface [Direct3D 10],PSGetShader method, ID3D10Device.PSGetShader, ID3D10Device::PSGetShader, PSGetShader, PSGetShader method [Direct3D 10], PSGetShader method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetShader, direct3d10.id3d10device_psgetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Get the pixel shader currently set on the device.
 
 ### -param ppPixelShader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173821(v=VS.85).aspx">ID3D10PixelShader</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/c2b255ca-cffb-4e24-9395-a4cb727bf421">ID3D10PixelShader</a>**</b>
 
-Address of a pointer to a pixel shader (see <a href="https://msdn.microsoft.com/en-us/library/Bb173821(v=VS.85).aspx">ID3D10PixelShader</a>) to be returned by the method.
+Address of a pointer to a pixel shader (see <a href="https://msdn.microsoft.com/c2b255ca-cffb-4e24-9395-a4cb727bf421">ID3D10PixelShader</a>) to be returned by the method.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 
@@ -89,7 +89,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

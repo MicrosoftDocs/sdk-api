@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_show.htm
 tech.root: tablet
 ms.assetid: d45d1e73-eace-4611-a4a4-28706a19766c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMathInputControl interface [Tablet PC],Show method, IMathInputControl.Show, IMathInputControl::Show, Show, Show method [Tablet PC], Show method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::Show, tablet.imathinputcontrol_show
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,17 +81,21 @@ The control's width and height will be at their minimum.
 
 #### Examples
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
     HRESULT hr = CoInitialize(NULL);
     hr = g_spMIC.CoCreateInstance(CLSID_MathInputControl);
-    hr = g_spMIC->EnableExtendedButtons(VARIANT_TRUE);
-    hr = g_spMIC->Show();  
-    
-```
-
-
+    hr = g_spMIC-&gt;EnableExtendedButtons(VARIANT_TRUE);
+    hr = g_spMIC-&gt;Show();  
+    </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

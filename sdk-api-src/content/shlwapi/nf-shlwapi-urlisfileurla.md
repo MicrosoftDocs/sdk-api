@@ -4,10 +4,10 @@ title: UrlIsFileUrlA macro
 author: windows-sdk-content
 description: Tests a URL to determine if it is a file URL.
 old-location: shell\UrlIsFileUrl.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b122d3e4-47cc-47c0-a30c-6f9d1aa9d174
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UrlIsFileUrl, UrlIsFileUrl function [Windows Shell], UrlIsFileUrlA, UrlIsFileUrlW, _win32_UrlIsFileUrl, shell.UrlIsFileUrl, shlwapi/UrlIsFileUrl, shlwapi/UrlIsFileUrlA, shlwapi/UrlIsFileUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,15 +75,19 @@ A file URL has the form "File://
 				<i>xxx</i>". <b>UrlIsFileUrl</b> is actually one of the following macros, depending on whether ANSI or Unicode is selected.
 				
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 #define  UrlIsFileUrlA(pszURL) UrlIsA(pszURL, URLIS_FILEURL)
 #define  UrlIsFileUrlW(pszURL) UrlIsW(pszURL, URLIS_FILEURL)
-				
-```
-
-
+				</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

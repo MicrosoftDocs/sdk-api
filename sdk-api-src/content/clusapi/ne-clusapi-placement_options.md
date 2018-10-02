@@ -4,10 +4,10 @@ title: PLACEMENT_OPTIONS
 author: windows-sdk-content
 description: Defines options for placing the cluster.
 old-location: mscs\placement_options.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 21b968c7-3132-4dda-9b27-404026cd525c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PLACEMENT_OPTIONS, PLACEMENT_OPTIONS enumeration [Failover Cluster], PLACEMENT_OPTIONS_ALL, PLACEMENT_OPTIONS_CONSIDER_OFFLINE_VMS, PLACEMENT_OPTIONS_DEFAULT_PLACEMENT_OPTIONS, PLACEMENT_OPTIONS_DISABLE_CSV_VM_DEPENDENCY, PLACEMENT_OPTIONS_DONT_USE_CPU, PLACEMENT_OPTIONS_DONT_USE_MEMORY, PLACEMENT_OPTIONS_MIN_VALUE, clusapi/PLACEMENT_OPTIONS, clusapi/PLACEMENT_OPTIONS_ALL, clusapi/PLACEMENT_OPTIONS_CONSIDER_OFFLINE_VMS, clusapi/PLACEMENT_OPTIONS_DEFAULT_PLACEMENT_OPTIONS, clusapi/PLACEMENT_OPTIONS_DISABLE_CSV_VM_DEPENDENCY, clusapi/PLACEMENT_OPTIONS_DONT_USE_CPU, clusapi/PLACEMENT_OPTIONS_DONT_USE_MEMORY, clusapi/PLACEMENT_OPTIONS_MIN_VALUE, mscs.placement_options
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 
 Defines options for placing the cluster.
 
-This enumeration contains the values for the <a href="https://msdn.microsoft.com/en-us/library/Mt705450(v=VS.85).aspx">PlacementOptions</a> property.
+This enumeration contains the values for the <a href="https://msdn.microsoft.com/704DD1EB-5763-46B0-9B53-5B37A2AE2299">PlacementOptions</a> property.
 
 
 ## -enum-fields
@@ -118,7 +118,7 @@ Maximum value
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

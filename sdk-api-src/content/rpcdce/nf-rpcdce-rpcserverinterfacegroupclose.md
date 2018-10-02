@@ -4,10 +4,10 @@ title: RpcServerInterfaceGroupClose function
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupClose function is used to free an interface group.
 old-location: rpc\rpcserverinterfacegroupclose.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: DD7F12FC-EDB3-48C3-A87D-9ABAB4EFA009
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RpcServerInterfaceGroupClose, RpcServerInterfaceGroupClose function [RPC], rpc.rpcserverinterfacegroupclose, rpcdce/RpcServerInterfaceGroupClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

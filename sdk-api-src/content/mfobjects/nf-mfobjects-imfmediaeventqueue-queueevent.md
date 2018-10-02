@@ -4,10 +4,10 @@ title: IMFMediaEventQueue::QueueEvent
 author: windows-sdk-content
 description: Puts an event in the queue.
 old-location: mf\imfmediaeventqueue_queueevent.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: eb04ce9f-fb64-438f-ad4d-ba1fb849d59c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEvent method, IMFMediaEventQueue.QueueEvent, IMFMediaEventQueue::QueueEvent, QueueEvent, QueueEvent method [Media Foundation], QueueEvent method [Media Foundation],IMFMediaEventQueue interface, eb04ce9f-fb64-438f-ad4d-ba1fb849d59c, mf.imfmediaeventqueue_queueevent, mfobjects/IMFMediaEventQueue::QueueEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

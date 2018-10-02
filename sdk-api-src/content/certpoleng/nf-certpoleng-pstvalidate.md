@@ -7,7 +7,7 @@ old-location: security\pstvalidate.htm
 tech.root: secauthn
 ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,22 +70,22 @@ The name of the server. If the caller is not the client, this parameter is <b>NU
 
 ### -param pRequestedIssuancePolicy [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377593(v=VS.85).aspx">CERT_USAGE_MATCH</a> structure that specifies identifiers that the certificate must match to be validated.
+A pointer to a <a href="https://msdn.microsoft.com/6154f1f7-4293-4b8e-91ab-9f57bb6f5743">CERT_USAGE_MATCH</a> structure that specifies identifiers that the certificate must match to be validated.
 
 
 ### -param phAdditionalCertStore [in, optional]
 
-A handle to a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate store</a> that contains additional certificates used for the authentication.
+A handle to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that contains additional certificates used for the authentication.
 
 
 ### -param pCert [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that specifies the certificate to validate.
+A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that specifies the certificate to validate.
 
 
 ### -param pProvGUID [out, optional]
 
-A pointer to  a <b>GUID</b> structure that receives the <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">security support provider</a> (SSP) used for the authentication.
+A pointer to  a <b>GUID</b> structure that receives the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP) used for the authentication.
 
 
 ## -returns

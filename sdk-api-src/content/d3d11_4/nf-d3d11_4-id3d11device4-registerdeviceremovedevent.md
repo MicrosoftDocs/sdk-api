@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device4_registerdeviceremovedevent.htm
 tech.root: direct3d11
 ms.assetid: 6C564C67-9166-4F65-B099-3DDDECCEDC40
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D11Device4 interface [Direct3D 11],RegisterDeviceRemovedEvent method, ID3D11Device4.RegisterDeviceRemovedEvent, ID3D11Device4::RegisterDeviceRemovedEvent, RegisterDeviceRemovedEvent, RegisterDeviceRemovedEvent method [Direct3D 11], RegisterDeviceRemovedEvent method [Direct3D 11],ID3D11Device4 interface, d3d11_4/ID3D11Device4::RegisterDeviceRemovedEvent, direct3d11.id3d11device4_registerdeviceremovedevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ A pointer to information about the "device removed" event, which can be used in 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
@@ -91,7 +91,7 @@ See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Di
 
 
 
-Indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism, rather than as an HRESULT from <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>. The reason for device removal can be retrieved using <a href="https://msdn.microsoft.com/9e09c954-5c61-49fd-b25a-87dc0051a84d">ID3D11Device::GetDeviceRemovedReason</a> after being notified of the occurrence.
+Indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism, rather than as an HRESULT from <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">Present</a>. The reason for device removal can be retrieved using <a href="https://msdn.microsoft.com/9e09c954-5c61-49fd-b25a-87dc0051a84d">ID3D11Device::GetDeviceRemovedReason</a> after being notified of the occurrence.
 
 Applications register and un-register a Win32 event handle with a particular device.
           That event handle will be signaled when the device becomes removed.

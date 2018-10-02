@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroups_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8l9p_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],get_Item method, IFaxOutboundRoutingGroups.get_Item, IFaxOutboundRoutingGroups::get_Item, _mfax_faxoutboundroutinggroups.item_cpp, fax._mfax_faxoutboundroutinggroups_item_cpp, faxcomex/IFaxOutboundRoutingGroups::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutboundRoutingGroups interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To return the group consisting of all of the devices, set <i>vIndex</i> equal to the constant <a href="https://msdn.microsoft.com/en-us/library/ms690064(v=VS.85).aspx">bstrGROUPNAME_ALLDEVICES</a>. 
+To return the group consisting of all of the devices, set <i>vIndex</i> equal to the constant <a href="https://msdn.microsoft.com/a8a89fcb-2cd6-4923-b26e-7191328c405f">bstrGROUPNAME_ALLDEVICES</a>. 
 		
 
 
@@ -105,11 +105,11 @@ To return the group consisting of all of the devices, set <i>vIndex</i> equal to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
  
 
  

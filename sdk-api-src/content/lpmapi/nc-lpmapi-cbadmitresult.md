@@ -7,7 +7,7 @@ old-location: qos\cbadmitresult.htm
 tech.root: QOS
 ms.assetid: 9040155b-6c6d-4deb-a63a-74e5fc8123ba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CBADMITRESULT, CBADMITRESULT callback function [QOS], DUP_RESULTS, INV_LPM_HANDLE, INV_REQ_HANDLE, INV_RESULTS, LPM_TIME_OUT, cbAdmitResult, cbAdmitResult callback, cbAdmitResult callback function [QOS], lpmapi/cbAdmitResult, qos.cbadmitresult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_fontunderline.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontunderline.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: UI_FONTUNDERLINE, UI_FONTUNDERLINE enumeration [Windows Ribbon], UI_FONTUNDERLINE_NOTAVAILABLE, UI_FONTUNDERLINE_NOTSET, UI_FONTUNDERLINE_SET, scenicintent_UI_FONTUNDERLINE, uiribbon/UI_FONTUNDERLINE, uiribbon/UI_FONTUNDERLINE_NOTAVAILABLE, uiribbon/UI_FONTUNDERLINE_NOTSET, uiribbon/UI_FONTUNDERLINE_SET, windowsribbon.windowsribbon_ui_fontunderline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies values that identify the underline state of a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a>.
+Specifies values that identify the underline state of a <a href="https://msdn.microsoft.com/98eddab5-28cb-4b9d-a788-ee28dd6055b1">FontControl</a>.
 
 
 ## -enum-fields
@@ -77,14 +77,14 @@ Underlining is on.
 
 
 
-<b>UI_FONTUNDERLINE</b> is associated with the <b>Underline</b> toggle button of the <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a> as shown in the following screen shot.
+<b>UI_FONTUNDERLINE</b> is associated with the <b>Underline</b> toggle button of the <a href="https://msdn.microsoft.com/98eddab5-28cb-4b9d-a788-ee28dd6055b1">FontControl</a> as shown in the following screen shot.
 
-<img alt="Screen shot of the FontControl element with the RichFont attribute set to true." src="./images/FontControl_Underline.png"/>
-The <b>Underline</b> toggle button is displayed by default in a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a> but can be hidden, depending on the value of the <i>FontType</i> attribute.
+<img alt="Screen shot of the FontControl element with the RichFont attribute set to true." src="images/Markup/FontControl_Underline.png"/>
+The <b>Underline</b> toggle button is displayed by default in a <a href="https://msdn.microsoft.com/98eddab5-28cb-4b9d-a788-ee28dd6055b1">FontControl</a> but can be hidden, depending on the value of the <i>FontType</i> attribute.
 
-The <b>Underline</b> button is toggled based on the <b>UI_FONTUNDERLINE</b> value in <a href="https://msdn.microsoft.com/en-us/library/Dd371236(v=VS.85).aspx">UI_PKEY_FontProperties_Underline</a>.
+The <b>Underline</b> button is toggled based on the <b>UI_FONTUNDERLINE</b> value in <a href="https://msdn.microsoft.com/88492558-ab19-4606-8fe0-5f100677b88a">UI_PKEY_FontProperties_Underline</a>.
 
-A solid single line is the only underline style supported by the <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a>.
+A solid single line is the only underline style supported by the <a href="https://msdn.microsoft.com/98eddab5-28cb-4b9d-a788-ee28dd6055b1">FontControl</a>.
 
 
 
@@ -94,11 +94,11 @@ A solid single line is the only underline style supported by the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371236(v=VS.85).aspx">UI_PKEY_FontProperties_Underline</a>
+<a href="https://msdn.microsoft.com/88492558-ab19-4606-8fe0-5f100677b88a">UI_PKEY_FontProperties_Underline</a>
  
 
  

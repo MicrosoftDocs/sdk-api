@@ -7,7 +7,7 @@ old-location: fs\lsngreater.htm
 tech.root: Clfs
 ms.assetid: 15657fc4-40f6-4f89-89b4-ff51d72d5e74
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ClfsLsnGreater, LsnGreater, LsnGreater function [Files], clfs/LsnGreater, fs.lsngreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ LSNs from different streams are not comparable. Do not use this function to comp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540399(v=VS.85).aspx">LsnNull</a>
+<a href="https://msdn.microsoft.com/effa7924-fcde-4aaf-964b-a6916cb6d1f5">LsnNull</a>
  
 
  

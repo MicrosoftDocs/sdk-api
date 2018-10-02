@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcapicleanup.htm
 tech.root: DHCP
 ms.assetid: c1da731c-2e06-40ae-b104-25f144d50c36
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpCApiCleanup, DhcpCApiCleanup function [DHCP], _dhcp_dhcpcapicleanup, dhcp.dhcpcapicleanup, dhcpcsdk/DhcpCApiCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices

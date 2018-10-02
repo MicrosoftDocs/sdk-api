@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmmetadata_getitemcount.htm
 tech.root: WMDM
 ms.assetid: 9f7f9661-d632-4502-940b-6d83fc32cdad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetItemCount, GetItemCount method [windows Media Device Manager], GetItemCount method [windows Media Device Manager],IWMDMMetaData interface, IWMDMMetaData interface [windows Media Device Manager],GetItemCount method, IWMDMMetaData.GetItemCount, IWMDMMetaData::GetItemCount, IWMDMMetaDataGetItemCount, mswmdm/IWMDMMetaData::GetItemCount, wmdm.iwmdmmetadata_getitemcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,9 +94,13 @@ This method could be used along with <a href="https://msdn.microsoft.com/5d27e1e
 
 The following code retrieves the count of properties in an <b>IWMDMMetaData</b> interface (pMetadata) and tries to retrieve them all by index and print them. It uses a custom error handling macro BREAK_HR.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
         //
         // Loop through all metadata properties, and print out the value of each.
         //
@@ -106,14 +110,14 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
         UINT count = 0;
         WCHAR* name;
         // Get the number of metadata items.
-        hr = pMetadata->GetItemCount(&count);
+        hr = pMetadata-&gt;GetItemCount(&amp;count);
 
         BREAK_HR(hr, "Got a metadata count in GetMetadata.", "Couldn't get a metadata count in GetMetadata.");
-        for(;count > 0; count--)
+        for(;count &gt; 0; count--)
         {
             // Get the metadata property by index.
             WCHAR* name;
-            hr = pMetadata->QueryByIndex(count-1, &name, &type, &value, &len);
+            hr = pMetadata-&gt;QueryByIndex(count-1, &amp;name, &amp;type, &amp;value, &amp;len);
             if (SUCCEEDED(hr))
             {
                 // TODO: Display the property name.
@@ -148,7 +152,7 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
                 case WMDM_TYPE_GUID:
                     {
                         WCHAR strGuid[64];
-                        StringFromGUID2(reinterpret_cast<GUID&>(value),(LPOLESTR)strGuid, 64);
+                        StringFromGUID2(reinterpret_cast&lt;GUID&amp;&gt;(value),(LPOLESTR)strGuid, 64);
                         / /TODO: Display the GUID.
                     }
                     break;
@@ -164,10 +168,10 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
         if (value)
             CoTaskMemFree(value);
         }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

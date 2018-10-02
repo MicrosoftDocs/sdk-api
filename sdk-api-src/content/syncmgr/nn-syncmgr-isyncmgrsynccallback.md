@@ -4,10 +4,10 @@ title: ISyncMgrSyncCallback
 author: windows-sdk-content
 description: Exposes methods that allow a synchronization process to report progress and events to Sync Center, or to query whether the process has been canceled.
 old-location: shell\ISyncMgrSyncCallback.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4f2b6dc3-3b81-4c0a-b0a2-b48f13fba397
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ISyncMgrSyncCallback interface [Windows Shell],described, _shell_ISyncMgrSyncCallback, shell.ISyncMgrSyncCallback, syncmgr/ISyncMgrSyncCallback
 ms.prod: windows
 ms.technology: windows-sdk

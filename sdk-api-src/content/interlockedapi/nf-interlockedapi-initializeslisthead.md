@@ -7,7 +7,7 @@ old-location: base\initializeslisthead.htm
 tech.root: Sync
 ms.assetid: 4e34f947-1687-4ea9-aaa1-8d8dc11dad70
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InitializeSListHead, InitializeSListHead function, _win32_initializeslisthead, base.initializeslisthead, interlockedapi/InitializeSListHead, winbase/InitializeSListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices

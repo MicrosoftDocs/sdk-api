@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder.htm
 tech.root: DirectShow
 ms.assetid: 59fd96ef-2f9a-4a8e-bd08-2695de52b1c6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], IMpegAudioDecoder interface [DirectShow],described, IMpegAudioDecoderInterface, dshow.impegaudiodecoder, mpegtype/IMpegAudioDecoder
 ms.prod: windows
 ms.technology: windows-sdk

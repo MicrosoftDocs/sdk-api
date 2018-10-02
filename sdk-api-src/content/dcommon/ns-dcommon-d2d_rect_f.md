@@ -7,7 +7,7 @@ old-location: direct2d\D2D_RECT_F.htm
 tech.root: direct2d
 ms.assetid: 84bd7ab0-f273-46f8-b261-86cd1d7f3868
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1_RECT_F, D2D_RECT_F, D2D_RECT_F structure [Direct2D], dcommon/D2D_RECT_F, direct2d.D2D_RECT_F
 ms.prod: windows
 ms.technology: windows-sdk

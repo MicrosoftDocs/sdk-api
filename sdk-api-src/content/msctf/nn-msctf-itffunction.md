@@ -7,7 +7,7 @@ old-location: tsf\itffunction.htm
 tech.root: TSF
 ms.assetid: 140b1ed8-8876-4f06-8ed2-7b0dccdc0a69
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfFunction, ITfFunction interface [Text Services Framework], ITfFunction interface [Text Services Framework],described, _tsf_itffunction_ref, msctf/ITfFunction, tsf.itffunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Obtains the function display name.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

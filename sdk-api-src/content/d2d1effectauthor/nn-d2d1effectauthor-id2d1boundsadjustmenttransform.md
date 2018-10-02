@@ -7,7 +7,7 @@ old-location: direct2d\id2d1boundadjustmenttransform.htm
 tech.root: direct2d
 ms.assetid: 40482670-2989-47B2-9558-FF017C8A2FBB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1BoundsAdjustmentTransform, ID2D1BoundsAdjustmentTransform interface [Direct2D], ID2D1BoundsAdjustmentTransform interface [Direct2D],described, d2d1effectauthor/ID2D1BoundsAdjustmentTransform, direct2d.id2d1boundadjustmenttransform
 ms.prod: windows
 ms.technology: windows-sdk

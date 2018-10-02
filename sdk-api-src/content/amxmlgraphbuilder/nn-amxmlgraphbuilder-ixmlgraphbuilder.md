@@ -7,7 +7,7 @@ old-location: dshow\ixmlgraphbuilder.htm
 tech.root: DirectShow
 ms.assetid: c30a8b33-7783-4987-aa65-ccba476ea937
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IXMLGraphBuilder, IXMLGraphBuilder interface [DirectShow], IXMLGraphBuilder interface [DirectShow],described, IXMLGraphBuilderInterface, amxmlgraphbuilder/IXMLGraphBuilder, dshow.ixmlgraphbuilder
 ms.prod: windows
 ms.technology: windows-sdk

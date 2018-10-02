@@ -4,10 +4,10 @@ title: IMFSensorActivityMonitor::Start
 author: windows-sdk-content
 description: Starts the sensor activity monitor.
 old-location: mf\imfsensoractivitymonitor_start.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 49300C9F-CA0B-4515-81C7-02F067B2BBD3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Start method, IMFSensorActivityMonitor.Start, IMFSensorActivityMonitor::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_start, mfidl/IMFSensorActivityMonitor::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

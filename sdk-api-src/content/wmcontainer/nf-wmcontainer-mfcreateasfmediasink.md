@@ -4,10 +4,10 @@ title: MFCreateASFMediaSink function
 author: windows-sdk-content
 description: Creates the ASF media sink.
 old-location: mf\mfcreateasfmediasink.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d800ac91-f6cc-4f57-9080-4bbafb42d7ed
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateASFMediaSink, MFCreateASFMediaSink function [Media Foundation], d800ac91-f6cc-4f57-9080-4bbafb42d7ed, mf.mfcreateasfmediasink, wmcontainer/MFCreateASFMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

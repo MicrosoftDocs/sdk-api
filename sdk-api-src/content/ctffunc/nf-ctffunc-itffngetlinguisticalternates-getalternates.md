@@ -7,7 +7,7 @@ old-location: tsf\itffngetlinguisticalternates_getalternates.htm
 tech.root: TSF
 ms.assetid: 17BB0DF8-3F97-423C-A2FD-CDC7590EE49B
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetAlternates, GetAlternates method [Text Services Framework], GetAlternates method [Text Services Framework],ITfFnGetLinguisticAlternates interface, ITfFnGetLinguisticAlternates interface [Text Services Framework],GetAlternates method, ITfFnGetLinguisticAlternates.GetAlternates, ITfFnGetLinguisticAlternates::GetAlternates, ctffunc/ITfFnGetLinguisticAlternates::GetAlternates, tsf.itffngetlinguisticalternates_getalternates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ Returns a list of alternate strings for a given text range.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that covers the text to return alternates for.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that covers the text to return alternates for.
 
 
 ### -param ppCandidateList [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538492(v=VS.85).aspx">ITfCandidateList</a> pointer that receives the list object containing alternate strings.
+Pointer to an <a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a> pointer that receives the list object containing alternate strings.
 
 
 ## -returns
@@ -134,7 +134,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn495079(v=VS.85).aspx">ITfFnGetLinguisticAlternates</a>
+<a href="https://msdn.microsoft.com/854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA">ITfFnGetLinguisticAlternates</a>
  
 
  

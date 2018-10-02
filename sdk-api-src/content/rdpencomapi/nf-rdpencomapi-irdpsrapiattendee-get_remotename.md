@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiattendee_remotename.htm
 tech.root: Rdp
 ms.assetid: 69861a6d-3dc5-4871-8e99-0d46d2896dcc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],RemoteName property, IRDPSRAPIAttendee.RemoteName, IRDPSRAPIAttendee.get_RemoteName, IRDPSRAPIAttendee::RemoteName, IRDPSRAPIAttendee::get_RemoteName, RDPSRAPIAttendee object [RDP],RemoteName property, RemoteName property [RDP], RemoteName property [RDP],IRDPSRAPIAttendee interface, RemoteName property [RDP],RDPSRAPIAttendee object, get_RemoteName, rdp.irdpsrapiattendee_remotename, rdpencomapi/IRDPSRAPIAttendee::RemoteName, rdpencomapi/IRDPSRAPIAttendee::get_RemoteName
 ms.prod: windows-hardware
 ms.technology: windows-devices

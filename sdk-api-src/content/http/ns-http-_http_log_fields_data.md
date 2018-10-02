@@ -7,7 +7,7 @@ old-location: http\http_log_fields_data.htm
 tech.root: Http
 ms.assetid: 5d1b86fe-161d-4182-b3fe-9a03a843e62e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHTTP_LOG_FIELDS_DATA, *PHTTP_LOG_FIELDS_DATA structure [HTTP], HTTP_LOG_FIELDS_DATA, HTTP_LOG_FIELDS_DATA structure [HTTP], _HTTP_LOG_FIELDS_DATA, http.http_log_fields_data, http/*PHTTP_LOG_FIELDS_DATA, http/HTTP_LOG_FIELDS_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

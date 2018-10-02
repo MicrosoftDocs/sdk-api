@@ -4,10 +4,10 @@ title: IFolderView::GetSelectionMarkedItem
 author: windows-sdk-content
 description: Gets the index of an item in the folder's view which has been marked by using the SVSI_SELECTIONMARK in IFolderView::SelectItem.
 old-location: shell\IFolderView_GetSelectionMarkedItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 86416704-c2e3-4782-a566-b49cbd0e7696
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetSelectionMarkedItem, GetSelectionMarkedItem method [Windows Shell], GetSelectionMarkedItem method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetSelectionMarkedItem method, IFolderView.GetSelectionMarkedItem, IFolderView::GetSelectionMarkedItem, _shell_IFolderView_GetSelectionMarkedItem, shell.IFolderView_GetSelectionMarkedItem, shobjidl_core/IFolderView::GetSelectionMarkedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

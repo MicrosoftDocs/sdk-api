@@ -7,7 +7,7 @@ old-location: security\slgetlicensefileid.htm
 tech.root: SecSLApi
 ms.assetid: b8474a25-2aef-43b6-85be-71dc287fd712
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SLGetLicenseFileId, SLGetLicenseFileId function [Security], security.slgetlicensefileid, slpublic/SLGetLicenseFileId
 ms.prod: windows-hardware
 ms.technology: windows-devices

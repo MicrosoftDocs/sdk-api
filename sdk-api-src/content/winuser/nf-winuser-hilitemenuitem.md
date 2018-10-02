@@ -7,7 +7,7 @@ old-location: menurc\hilitemenuitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\hilitemenuitem.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HiliteMenuItem, HiliteMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_HILITE, MF_UNHILITE, _win32_HiliteMenuItem, _win32_hilitemenuitem_cpp, menurc.hilitemenuitem, winui._win32_hilitemenuitem, winuser/HiliteMenuItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,7 +155,7 @@ If the menu item is not set to the specified highlight state, the return value i
 
 
 
-The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="https://msdn.microsoft.com/en-us/library/ms647993(v=VS.85).aspx">ModifyMenu</a> function. 
+The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a> function. 
 
 
 
@@ -169,11 +169,11 @@ The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>H
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647993(v=VS.85).aspx">ModifyMenu</a>
+<a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a>
 
 
 

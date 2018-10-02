@@ -7,7 +7,7 @@ old-location: winprog\_strentryw.htm
 tech.root: devnotes
 ms.assetid: 0EA85285-B5CC-4DC2-ADB7-4888316634C3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPSTRENTRYW, LPSTRENTRYW, LPSTRENTRYW structure pointer [Windows API], STRENTRY, STRENTRYW, STRENTRYW structure [Windows API], _StrEntryW, _StrEntryW structure [Windows API], advpub/LPSTRENTRYW, advpub/_StrEntryW, winprog._strentryw"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Represents a registry string replacement.
 

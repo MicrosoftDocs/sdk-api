@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11texture1d_getdesc.htm
 tech.root: direct3d11
 ms.assetid: f806052d-ebdd-47c6-a92c-21d57831d2a9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11Texture1D interface, ID3D11Texture1D interface [Direct3D 11],GetDesc method, ID3D11Texture1D.GetDesc, ID3D11Texture1D::GetDesc, d3d11/ID3D11Texture1D::GetDesc, direct3d11.id3d11texture1d_getdesc, e0e47814-e2c9-74c0-6594-ce84a46d7e06
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Get the properties of the texture resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476252(v=VS.85).aspx">D3D11_TEXTURE1D_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/8523d7b1-856e-4ec8-9286-4f1f2730a428">D3D11_TEXTURE1D_DESC</a>*</b>
 
-Pointer to a resource description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476252(v=VS.85).aspx">D3D11_TEXTURE1D_DESC</a>).
+Pointer to a resource description (see <a href="https://msdn.microsoft.com/8523d7b1-856e-4ec8-9286-4f1f2730a428">D3D11_TEXTURE1D_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476633(v=VS.85).aspx">ID3D11Texture1D</a>
+<a href="https://msdn.microsoft.com/8f375031-014e-4eca-84d5-ebe40058f121">ID3D11Texture1D</a>
  
 
  

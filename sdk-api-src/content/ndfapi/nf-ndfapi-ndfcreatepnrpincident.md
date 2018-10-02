@@ -7,7 +7,7 @@ old-location: ndf\ndfcreatepnrpincident.htm
 tech.root: NDF
 ms.assetid: e9ee6433-89b9-4b95-b02c-2778e009220c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NdfCreatePnrpIncident, NdfCreatePnrpIncident function [NDF], ndf.ndfcreatepnrpincident, ndfapi/NdfCreatePnrpIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

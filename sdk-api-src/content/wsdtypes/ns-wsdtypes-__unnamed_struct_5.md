@@ -7,7 +7,7 @@ old-location: ncd\requestbody_getstatus.htm
 tech.root: WsdApi
 ms.assetid: 5b2282b2-297a-4151-a809-b85495d5d741
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: REQUESTBODY_GetStatus, REQUESTBODY_GetStatus structure, ncd.requestbody_getstatus, wsdtypes/REQUESTBODY_GetStatus
 ms.prod: windows
 ms.technology: windows-sdk

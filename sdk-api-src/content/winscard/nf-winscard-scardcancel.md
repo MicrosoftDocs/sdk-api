@@ -7,7 +7,7 @@ old-location: security\scardcancel.htm
 tech.root: secauthn
 ms.assetid: abf3b4ff-4775-40e9-b68d-97dcf6a892ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: SCardCancel, SCardCancel function [Security], _smart_scardcancel, security.scardcancel, winscard/SCardCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -120,16 +120,20 @@ The <b>SCardCancel</b> function is a smart card tracking function. For a descrip
 
 The following example cancels all outstanding actions in the specified context.  The example assumes that lReturn is an existing variable of type <b>LONG</b> and that hContext is a valid handle received from a previous call to <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>. 
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 lReturn = SCardCancel( hContext );
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardCancel\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterqueryhashalgorithms.htm
 tech.root: SecBioMet
 ms.assetid: 66766c80-44b5-4bec-b8cc-32adf1ddae8a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EngineAdapterQueryHashAlgorithms, EngineAdapterQueryHashAlgorithms callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN, PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN callback, secbiomet.engineadapterqueryhashalgorithms, winbio_adapter/EngineAdapterQueryHashAlgorithms
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,17 +126,21 @@ Only the SHA1 hash algorithm is used by the Windows Biometric Framework. Therefo
 
 The following example shows how to create an OID buffer. The SHA1 algorithm ("1.3.14.3.2.26") is included first although the order of inclusion is not important. Another algorithm, szOID_OIWSEC_shaRSA with a value of "1.3.14.3.2.15" is also included. Note that a single <b>NULL</b> value identifies the end of each OID string and that an additional <b>NULL</b> value after the end of the last string identifies the end of the buffer. 
 
-
-```cpp
-char OidBuffer[] = 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>char OidBuffer[] = 
 {
     '1','.','3','.','1','4','.','3','.','2','.','2','6','\0',
     '1','.','3','.','1','4','.','3','.','2','.','1','5','\0','\0'
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If this function succeeds, return the address of the start of this buffer in the <i>AlgorithmBuffer</i> argument. The engine adapter owns the buffer. Because the Windows Biometric Framework reads the buffer, the address must remain valid as long as the engine adapter is attached to the biometric unit.
 
 Typically, you compile the table of OID strings into the engine adapter as a static data block.
@@ -146,9 +150,13 @@ Typically, you compile the table of OID strings into the engine adapter as a sta
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterQueryHashAlgorithms
 // 
@@ -217,10 +225,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

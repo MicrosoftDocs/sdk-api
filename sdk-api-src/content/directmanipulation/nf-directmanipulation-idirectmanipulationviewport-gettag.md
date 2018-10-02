@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_gettag.htm
 tech.root: directmanipulation
 ms.assetid: 7523a99b-de43-4efe-ae22-6632167c039a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetTag method, IDirectManipulationViewport.GetTag, IDirectManipulationViewport::GetTag, directmanipulation.idirectmanipulationviewport_gettag, directmanipulation/IDirectManipulationViewport::GetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,17 +96,21 @@ The out parameters are optional, so the method can return an ID, the viewport ob
 
 The following example show how to use this method.
 
-
-```
-IUnknown* pUnk;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IUnknown* pUnk;
 UINT32 id;
 
-HRESULT hr = pRegion->GetTag(IID_PPV_ARGS(&pUnk), &id); 
+HRESULT hr = pRegion-&gt;GetTag(IID_PPV_ARGS(&amp;pUnk), &amp;id); 
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

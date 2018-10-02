@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrier.htm
 tech.root: mbn
 ms.assetid: E40517CE-3169-4F20-A572-EDBC8FEC2862
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IMbnMultiCarrier, IMbnMultiCarrier interface [Microsoft Broadband Networks], IMbnMultiCarrier interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrier, mbnapi/IMbnMultiCarrier
 ms.prod: windows
 ms.technology: windows-sdk

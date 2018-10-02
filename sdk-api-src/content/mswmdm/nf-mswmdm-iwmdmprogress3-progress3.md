@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress3_progress3.htm
 tech.root: WMDM
 ms.assetid: 33f1de9c-f2eb-4b83-89a1-404a8c50ee08
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMProgress3 interface [windows Media Device Manager],Progress3 method, IWMDMProgress3.Progress3, IWMDMProgress3::Progress3, IWMDMProgress3Progress3, Progress3, Progress3 method [windows Media Device Manager], Progress3 method [windows Media Device Manager],IWMDMProgress3 interface, mswmdm/IWMDMProgress3::Progress3, wmdm.iwmdmprogress3_progress3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -168,14 +168,18 @@ The application returns S_OK to the calling method to indicate that the operatio
 
 The following C++ code shows an example implementation of <b>Progress3</b>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Progress3(GUID  EventId, DWORD  dwTranspiredTicks, OPAQUECOMMAND*  pContext)
 {
     WCHAR strGuid[64];
     ZeroMemory(strGuid, 64);
-    StringFromGUID2(reinterpret_cast<GUID&>(EventId),(LPOLESTR)strGuid, 64);
+    StringFromGUID2(reinterpret_cast&lt;GUID&amp;&gt;(EventId),(LPOLESTR)strGuid, 64);
     // TODO: Display the message: "Progress3 called. GUID value: " 
     // followed by the strGUID value.
     // TODO: Display the message: "Progress3 dwTranspiredTicks: " 
@@ -183,10 +187,10 @@ HRESULT Progress3(GUID  EventId, DWORD  dwTranspiredTicks, OPAQUECOMMAND*  pCont
 
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_DATA_CALLBACK_HEADER.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_callback_header.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER structure pointer [WIA], WIA_DATA_CALLBACK_HEADER, WIA_DATA_CALLBACK_HEADER structure [WIA], _WIA_DATA_CALLBACK_HEADER, _wia_WIA_DATA_CALLBACK_HEADER, wia._wia_WIA_DATA_CALLBACK_HEADER, wia_xp/PWIA_DATA_CALLBACK_HEADER, wia_xp/WIA_DATA_CALLBACK_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>WIA_DATA_CALLBACK_HEADER</b> is transmitted to an application during a series of calls by the Windows Image Acquisition (WIA) run-time system to the <a href="https://msdn.microsoft.com/en-us/library/ms630156(v=VS.85).aspx">IWiaDataCallback::BandedDataCallback</a> method.
+The <b>WIA_DATA_CALLBACK_HEADER</b> is transmitted to an application during a series of calls by the Windows Image Acquisition (WIA) run-time system to the <a href="https://msdn.microsoft.com/3f7fc88e-187e-41b1-a958-1f06ed81cb8f">IWiaDataCallback::BandedDataCallback</a> method.
 
 
 ## -struct-fields
@@ -69,19 +69,19 @@ Must contain the size of this structure in bytes. Should be initialized to <b>si
 
 Type: <b>GUID</b>
 
-Indicates the image clipboard format. For a list of clipboard formats, see <a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a> Function. This parameter is queried during a callback to the <a href="https://msdn.microsoft.com/en-us/library/ms630156(v=VS.85).aspx">IWiaDataCallback::BandedDataCallback</a> method with the <i>lMessage</i> parameter set to IT_MSG_DATA_HEADER.
+Indicates the image clipboard format. For a list of clipboard formats, see <a href="winui._win32_SetClipboardData">SetClipboardData</a> Function. This parameter is queried during a callback to the <a href="https://msdn.microsoft.com/3f7fc88e-187e-41b1-a958-1f06ed81cb8f">IWiaDataCallback::BandedDataCallback</a> method with the <i>lMessage</i> parameter set to IT_MSG_DATA_HEADER.
 
 
 ### -field lBufferSize
 
 Type: <b>LONG</b>
 
-Specifies the size in bytes of the buffer needed for a complete data transfer. This value can be zero, which indicates that the total image size is unknown. (when using compressed data formats, for example). In this case, the application should dynamically increase the size of its buffer. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms630194(v=VS.85).aspx">Common WIA Item Property Constants</a> in WIA_IPA_ITEM_SIZE.
+Specifies the size in bytes of the buffer needed for a complete data transfer. This value can be zero, which indicates that the total image size is unknown. (when using compressed data formats, for example). In this case, the application should dynamically increase the size of its buffer. For more information, see <a href="https://msdn.microsoft.com/ef48313e-4df4-4ccd-a085-f714100885a7">Common WIA Item Property Constants</a> in WIA_IPA_ITEM_SIZE.
 
 
 ### -field lPageCount
 
 Type: <b>LONG</b>
 
-Specifies the page count. Indicates the number of callbacks to the <a href="https://msdn.microsoft.com/en-us/library/ms630156(v=VS.85).aspx">IWiaDataCallback::BandedDataCallback</a> method with the <i>lMessage</i>  parameter set to IT_MSG_NEW_PAGE.
+Specifies the page count. Indicates the number of callbacks to the <a href="https://msdn.microsoft.com/3f7fc88e-187e-41b1-a958-1f06ed81cb8f">IWiaDataCallback::BandedDataCallback</a> method with the <i>lMessage</i>  parameter set to IT_MSG_NEW_PAGE.
 

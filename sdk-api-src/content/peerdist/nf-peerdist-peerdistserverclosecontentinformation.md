@@ -4,10 +4,10 @@ title: PeerDistServerCloseContentInformation function
 author: windows-sdk-content
 description: PeerDistServerCloseContentInformation function closes the handle opened by PeerDistServerOpenContentInformation.
 old-location: p2p\peerdistserverclosecontentinformation.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 066f1856-0617-40c7-a444-9765c01b4563
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerDistServerCloseContentInformation, PeerDistServerCloseContentInformation function [Peer Networking], p2p.peerdistserverclosecontentinformation, peerdist/PeerDistServerCloseContentInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

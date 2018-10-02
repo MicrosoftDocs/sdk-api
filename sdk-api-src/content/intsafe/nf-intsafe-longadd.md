@@ -4,10 +4,10 @@ title: LongAdd function
 author: windows-sdk-content
 description: Adds two values of type LONG.
 old-location: shell\LongAdd.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3cc13a46-3168-44fd-b759-06250eb1117f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongAdd, LongAdd function [Windows Shell], intsafe/LongAdd, shell.LongAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

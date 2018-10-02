@@ -7,7 +7,7 @@ old-location: base\pwm_controller_set_desired_period_input.htm
 tech.root: devio
 ms.assetid: BD003CAE-3DB9-4C7B-9CAD-735866C17004
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT, PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT structure, _PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT, base.pwm_controller_set_desired_period_input, pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Contains an input value for a suggested signal period for the Pulse Width Modulation (PWM) controller. 
 
 
@@ -70,15 +68,15 @@ The desired output signal period, in picoseconds, for the controller. This value
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt826475(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
+<a href="base.ioctl_ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt826476(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_INFO</a>
+<a href="base.ioctl_ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt826478(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
+<a href="base.ioctl_ioctl_pwm_controller_set_desired_period">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
  
 
  

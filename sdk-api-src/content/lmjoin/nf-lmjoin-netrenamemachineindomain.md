@@ -4,10 +4,10 @@ title: NetRenameMachineInDomain function
 author: windows-sdk-content
 description: The NetRenameMachineInDomain function changes the name of a computer in a domain.
 old-location: netmgmt\netrenamemachineindomain.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: NetRenameMachineInDomain, NetRenameMachineInDomain function [Network Management], _win32_netrenamemachineindomain, lmjoin/NetRenameMachineInDomain, netmgmt.netrenamemachineindomain
 ms.prod: windows-hardware
 ms.technology: windows-devices

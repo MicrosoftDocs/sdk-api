@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportal_setipsecsecurity.htm
 tech.root: VDS
 ms.assetid: 73209e3c-f1c9-411e-b272-4d4a2b168824
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetIpsecSecurity method, IVdsIscsiPortal.SetIpsecSecurity, IVdsIscsiPortal::SetIpsecSecurity, SetIpsecSecurity, SetIpsecSecurity method [VDS], SetIpsecSecurity method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setipsecsecurity, vds/IVdsIscsiPortal::SetIpsecSecurity, vdshwprv/IVdsIscsiPortal::SetIpsecSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

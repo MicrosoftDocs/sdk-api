@@ -7,7 +7,7 @@ old-location: winsock\socket_security_query_info.htm
 tech.root: WinSock
 ms.assetid: 90439ff6-e6a8-4124-b280-a65b9ca12787
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SOCKET_INFO_CONNECTION_ENCRYPTED, SOCKET_INFO_CONNECTION_SECURED, SOCKET_SECURITY_QUERY_INFO, SOCKET_SECURITY_QUERY_INFO structure [Winsock], _SOCKET_SECURITY_QUERY_INFO, mstcpip/SOCKET_SECURITY_QUERY_INFO, winsock.socket_security_query_info
 ms.prod: windows
 ms.technology: windows-sdk

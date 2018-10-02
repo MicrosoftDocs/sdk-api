@@ -4,10 +4,10 @@ title: IMFVideoPositionMapper
 author: windows-sdk-content
 description: Maps a position on an input video stream to the corresponding position on an output video stream.
 old-location: mf\imfvideopositionmapper.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 282fa124-909f-49dc-9a86-3d962193e903
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 282fa124-909f-49dc-9a86-3d962193e903, IMFVideoPositionMapper, IMFVideoPositionMapper interface [Media Foundation], IMFVideoPositionMapper interface [Media Foundation],described, evr/IMFVideoPositionMapper, mf.imfvideopositionmapper
 ms.prod: windows
 ms.technology: windows-sdk

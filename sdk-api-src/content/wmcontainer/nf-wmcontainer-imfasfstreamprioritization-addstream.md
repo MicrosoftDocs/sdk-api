@@ -4,10 +4,10 @@ title: IMFASFStreamPrioritization::AddStream
 author: windows-sdk-content
 description: Note  This interface is not implemented in this version of Media Foundation. Adds a stream to the stream priority list.
 old-location: mf\imfasfstreamprioritization_addstream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 440d2838-0314-45f7-b73b-653fe5535c88
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 440d2838-0314-45f7-b73b-653fe5535c88, AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],AddStream method, IMFASFStreamPrioritization.AddStream, IMFASFStreamPrioritization::AddStream, mf.imfasfstreamprioritization_addstream, wmcontainer/IMFASFStreamPrioritization::AddStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

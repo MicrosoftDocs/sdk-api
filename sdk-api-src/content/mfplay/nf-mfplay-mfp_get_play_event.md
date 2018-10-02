@@ -4,10 +4,10 @@ title: MFP_GET_PLAY_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PLAY_EVENT pointer.
 old-location: mf\mfp_get_play_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2a67965f-3429-4ce7-ae62-8952cacb00eb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_GET_PLAY_EVENT, MFP_GET_PLAY_EVENT macro [Media Foundation], mf.mfp_get_play_event, mfplay/MFP_GET_PLAY_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setclientinfo.htm
 tech.root: wmformat
 ms.assetid: dec93690-8285-4672-bf70-63f3c10294bf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetClientInfo method, IWMReaderAdvanced.SetClientInfo, IWMReaderAdvanced::SetClientInfo, IWMReaderAdvancedSetClientInfo, SetClientInfo, SetClientInfo method [windows Media Format], SetClientInfo method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setclientinfo, wmsdkidl/IWMReaderAdvanced::SetClientInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,20 +114,24 @@ Invalid argument. The <b>cbSize</b> member must be set, and the string values mu
 
 Initialize the <b>WM_READER_CLIENTINFO</b> structure before calling this method. Always set the <b>cbSize</b> member equal to the size of the structure, and set any unused fields to zero.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 WM_READER_CLIENTINFO info;
-ZeroMemory(&info, sizeof(WM_READER_CLIENTINFO));
+ZeroMemory(&amp;info, sizeof(WM_READER_CLIENTINFO));
 info.cbSize = sizeof(WM_READER_CLIENTINFO);
 
 // Set other fields (not shown).
 
-hr = pReaderAdvanced->SetClientInfo( &info );
-
-```
-
-
+hr = pReaderAdvanced-&gt;SetClientInfo( &amp;info );
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

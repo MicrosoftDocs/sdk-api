@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacherecord_getoriginurl.htm
 tech.root: Bits
 ms.assetid: 9d74df3a-89e0-4a3a-82f3-c2e79c609b21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetOriginUrl, GetOriginUrl method [BITS], GetOriginUrl method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetOriginUrl method, IBitsPeerCacheRecord.GetOriginUrl, IBitsPeerCacheRecord::GetOriginUrl, bits.ibitspeercacherecord_getoriginurl, bits3_0/IBitsPeerCacheRecord::GetOriginUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ TBD
 #### - ppOriginUrl [in]
 
 Null-terminated string that contains the origin URL of the cached file. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppOriginUrl</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppOriginUrl</i> when done.
 
 
 ## -returns
@@ -104,7 +104,7 @@ Success
 
 
 
-This URL may be different than the URL originally specified in the BITS job if <a href="https://msdn.microsoft.com/en-us/library/Aa964260(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a> is set to BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT or BG_HTTP_REDIRECT_POLICY_DISALLOW.
+This URL may be different than the URL originally specified in the BITS job if <a href="https://msdn.microsoft.com/afac84cb-28ab-4c80-ab39-eefe450ae3e5">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a> is set to BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT or BG_HTTP_REDIRECT_POLICY_DISALLOW.
 
 
 
@@ -114,7 +114,7 @@ This URL may be different than the URL originally specified in the BITS job if <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964291(v=VS.85).aspx">IBitsPeerCacheRecord</a>
+<a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a>
  
 
  

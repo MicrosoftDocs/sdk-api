@@ -7,7 +7,7 @@ old-location: mstv\ibda_namevalueservice_getvaluenamebyindex.htm
 tech.root: MSTV
 ms.assetid: 4a860535-db03-4db7-912c-16b7e920151a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetValueNameByIndex, GetValueNameByIndex method [Microsoft TV Technologies], GetValueNameByIndex method [Microsoft TV Technologies],IBDA_NameValueService interface, IBDA_NameValueService interface [Microsoft TV Technologies],GetValueNameByIndex method, IBDA_NameValueService.GetValueNameByIndex, IBDA_NameValueService::GetValueNameByIndex, bdaiface/IBDA_NameValueService::GetValueNameByIndex, mstv.ibda_namevalueservice_getvaluenamebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ The <i>ulIndex</i> parameter is out of bounds.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693406(v=VS.85).aspx">IBDA_NameValueService</a>
+<a href="https://msdn.microsoft.com/7b6a12d2-24e4-42d8-9138-86c2fe558d86">IBDA_NameValueService</a>
  
 
  

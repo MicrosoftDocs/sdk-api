@@ -7,7 +7,7 @@ old-location: gamemode\releaseexclusivecpusets.htm
 tech.root: gamemode
 ms.assetid: C30D28CF-1A35-4849-AEC4-74F971C5F9DF
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expandedresources/ReleaseExclusiveCpuSets, gamemode.releaseexclusivecpusets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,21 +81,25 @@ As with <a href="https://msdn.microsoft.com/library/windows/desktop/mt186427.asp
 
 This is a Win32 API that's only supported in UWP desktop and Xbox apps. It also requires the <b>expandedResources</b> restricted capability, which you can select by opening <b>Package.appxmanifest</b> in Visual Studio and navigating to the <b>Capabilities</b> tab. Alternatively, you can edit the file's code directly:
 
-
-```xml
-
-<Package
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>
+&lt;Package
 xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-IgnorableNamespaces=" rescap">
+IgnorableNamespaces=" rescap"&gt;
 	...
-	<Capabilities>
-		<rescap:Capability Name="expandedResources" />
-	</Capabilities>
+	&lt;Capabilities&gt;
+		&lt;rescap:Capability Name="expandedResources" /&gt;
+	&lt;/Capabilities&gt;
 	...
-</Package>
-```
-
-
+&lt;/Package&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 This capability is granted on a per-title basis; contact your account manager for more information. You can publish a UWP app with this capability to the Store if it targets desktop, but if it targets Xbox it will be rejected in certification.
 
 The app must be in the foreground and have focus before exclusive resources are granted.

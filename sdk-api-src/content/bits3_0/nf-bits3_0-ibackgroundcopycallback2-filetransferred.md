@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback2_filetransferred.htm
 tech.root: Bits
 ms.assetid: c7e22911-9c14-48ef-8283-f0787b089432
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FileTransferred, FileTransferred method [BITS], FileTransferred method [BITS],IBackgroundCopyCallback2 interface, IBackgroundCopyCallback2 interface [BITS],FileTransferred method, IBackgroundCopyCallback2.FileTransferred, IBackgroundCopyCallback2::FileTransferred, bits.ibackgroundcopycallback2_filetransferred, bits3_0/IBackgroundCopyCallback2::FileTransferred
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ This method should return <b>S_OK</b>; otherwise,  if negative, BITS continues t
 
 Typically, you would not use this callback unless you want to validate the contents of the file that was downloaded. Validating the file may be important to you if you are downloading content that could be served to peers. 
 
-To get the name of the temporary file that contains the downloaded content, call the <a href="https://msdn.microsoft.com/en-us/library/Aa362953(v=VS.85).aspx">IBackgroundCopyFile3::GetTemporaryName</a> method. After verifying the content, call the <a href="https://msdn.microsoft.com/en-us/library/Aa362955(v=VS.85).aspx">IBackgroundCopyFile3::SetValidationState</a> method to indicate to BITS if the contents of the file is valid. If you set the validation state to <b>FALSE</b> and the content is from the origin server, the job moves to the error state. 
+To get the name of the temporary file that contains the downloaded content, call the <a href="https://msdn.microsoft.com/3fa4cc3b-b134-4e11-8bb6-1c9855d8dd37">IBackgroundCopyFile3::GetTemporaryName</a> method. After verifying the content, call the <a href="https://msdn.microsoft.com/c032ce32-07a4-4ab2-ae57-f9d526d1371a">IBackgroundCopyFile3::SetValidationState</a> method to indicate to BITS if the contents of the file is valid. If you set the validation state to <b>FALSE</b> and the content is from the origin server, the job moves to the error state. 
 
 If the content is from a peer, BITS downloads the file from the origin server. The callback is called again after the file transfer from the origin server completes.
 
@@ -94,7 +94,7 @@ If the content is from a peer, BITS downloads the file from the origin server. T
 
 For a job, <b>FileTransferred</b> callbacks are serialized. BITS will not dispatch a callback for the next file in the job until the current callback returns successfully.
 
-<b>FileTransferred</b> callbacks are dispatched before <a href="https://msdn.microsoft.com/en-us/library/Aa362874(v=VS.85).aspx">JobTransferred</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa362872(v=VS.85).aspx">JobError</a> callbacks.
+<b>FileTransferred</b> callbacks are dispatched before <a href="https://msdn.microsoft.com/04ff96c4-5b22-4935-bce8-5b9d3196cbe5">JobTransferred</a> and <a href="https://msdn.microsoft.com/3e206195-1a8c-435e-9b8f-6517b8e3c4ca">JobError</a> callbacks.
 
 The <b>FileTransferred</b> callback is for download jobs or the reply portion of an upload-reply job. 
 
@@ -106,11 +106,11 @@ The <b>FileTransferred</b> callback is for download jobs or the reply portion of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a>
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362870(v=VS.85).aspx">IBackgroundCopyCallback2</a>
+<a href="https://msdn.microsoft.com/9bbc323c-0caf-46a9-ba25-e72a2c6ae363">IBackgroundCopyCallback2</a>
  
 
  

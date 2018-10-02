@@ -4,10 +4,10 @@ title: IMFMetadata::GetAllLanguages
 author: windows-sdk-content
 description: Gets a list of the languages in which metadata is available.
 old-location: mf\imfmetadata_getalllanguages.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 69296ec5-5811-4f0f-ae9c-cabca3e66158
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 69296ec5-5811-4f0f-ae9c-cabca3e66158, GetAllLanguages, GetAllLanguages method [Media Foundation], GetAllLanguages method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetAllLanguages method, IMFMetadata.GetAllLanguages, IMFMetadata::GetAllLanguages, mf.imfmetadata_getalllanguages, mfidl/IMFMetadata::GetAllLanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,18 +91,22 @@ To set the current language, call <a href="https://msdn.microsoft.com/da615053-d
 
 The following example shows how to get the list of language tags and enumerate the list.
 
-
-```cpp
-HRESULT DisplayLanguageList(IMFMetadata *pMetadata)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DisplayLanguageList(IMFMetadata *pMetadata)
 {
     PROPVARIANT varLangs;
 
-    HRESULT hr = pMetadata->GetAllLanguages(&varLangs);
+    HRESULT hr = pMetadata-&gt;GetAllLanguages(&amp;varLangs);
     if (SUCCEEDED(hr))
     {
         if (varLangs.vt == (VT_VECTOR | VT_LPWSTR))
         {
-            for (ULONG i = 0; i < varLangs.calpwstr.cElems; i++)
+            for (ULONG i = 0; i &lt; varLangs.calpwstr.cElems; i++)
             {
                 wprintf(L"%s\n", varLangs.calpwstr.pElems[i]);
             }
@@ -111,14 +115,14 @@ HRESULT DisplayLanguageList(IMFMetadata *pMetadata)
         {
             hr = E_UNEXPECTED;
         }
-        PropVariantClear(&varLangs);
+        PropVariantClear(&amp;varLangs);
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

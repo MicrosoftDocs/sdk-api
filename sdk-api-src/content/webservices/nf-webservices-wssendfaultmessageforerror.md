@@ -7,7 +7,7 @@ old-location: wsw\wssendfaultmessageforerror.htm
 tech.root: wsw
 ms.assetid: 1bb2af58-21c1-45e1-a685-91d200e9b452
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsSendFaultMessageForError, WsSendFaultMessageForError function [Web Services for Windows], webservices/WsSendFaultMessageForError, wsw.wssendfaultmessageforerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

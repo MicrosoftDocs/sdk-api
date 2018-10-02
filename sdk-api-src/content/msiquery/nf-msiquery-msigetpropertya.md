@@ -4,10 +4,10 @@ title: MsiGetPropertyA function
 author: windows-sdk-content
 description: The MsiGetProperty function gets the value for an installer property.
 old-location: setup\msigetproperty.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPropertyW, _msi_msigetproperty, msiquery/MsiGetProperty, msiquery/MsiGetPropertyA, msiquery/MsiGetPropertyW, setup.msigetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,13 +101,17 @@ If ERROR_MORE_DATA is returned, the parameter which is a pointer gives the size 
 
 The following example shows how a DLL custom action could access the value of a property by dynamically determining the size of the value buffer.
 
-
-```cpp
-UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
 {
     TCHAR* szValueBuf = NULL;
     DWORD cchValueBuf = 0;
-    UINT uiStat =  MsiGetProperty(hInstall, TEXT("MyProperty"), TEXT(""), &cchValueBuf);
+    UINT uiStat =  MsiGetProperty(hInstall, TEXT("MyProperty"), TEXT(""), &amp;cchValueBuf);
     //cchValueBuf now contains the size of the property's string, without null termination
     if (ERROR_MORE_DATA == uiStat)
     {
@@ -115,7 +119,7 @@ UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
         szValueBuf = new TCHAR[cchValueBuf];
         if (szValueBuf)
         {
-            uiStat = MsiGetProperty(hInstall, TEXT("MyProperty"), szValueBuf, &cchValueBuf);
+            uiStat = MsiGetProperty(hInstall, TEXT("MyProperty"), szValueBuf, &amp;cchValueBuf);
         }
     }
     if (ERROR_SUCCESS != uiStat)
@@ -132,10 +136,10 @@ UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
 
     return ERROR_SUCCESS;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -144,7 +148,7 @@ UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
 
 
 

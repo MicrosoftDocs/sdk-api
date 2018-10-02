@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframedecode.htm
 tech.root: wic
 ms.assetid: 1498b800-6449-440f-bed7-85891637e559
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWICBitmapFrameDecode, IWICBitmapFrameDecode interface [Windows Imaging Component], IWICBitmapFrameDecode interface [Windows Imaging Component],described, _wic_codec_iwicbitmapframedecode, wic._wic_codec_iwicbitmapframedecode, wincodec/IWICBitmapFrameDecode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ Retrieves a small preview of the frame, if supported by the codec.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms771770(v=VS.85).aspx">AITCodec Sample CODEC</a>
+<a href="f6a44610-0d30-420e-aaf9-c7f436f3c195">AITCodec Sample CODEC</a>
 
 
 

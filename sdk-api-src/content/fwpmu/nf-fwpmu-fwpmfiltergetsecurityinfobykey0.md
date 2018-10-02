@@ -7,7 +7,7 @@ old-location: fwp\fwpmfiltergetsecurityinfobykey0_func.htm
 tech.root: FWP
 ms.assetid: 9d35f4ca-b268-45de-b252-527b3a6fbd93
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmFilterGetSecurityInfoByKey0, FwpmFilterGetSecurityInfoByKey0 function [Filtering], fwp.fwpmfiltergetsecurityinfobykey0_func, fwpmu/FwpmFilterGetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

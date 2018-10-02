@@ -7,7 +7,7 @@ old-location: etw\ievent_setprocessid.htm
 tech.root: ETW
 ms.assetid: c2e5e6bf-cdff-42fa-9352-2f234f39849d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITraceEvent interface [ETW],SetProcessId method, ITraceEvent.SetProcessId, ITraceEvent::SetProcessId, SetProcessId, SetProcessId method [ETW], SetProcessId method [ETW],ITraceEvent interface, etw.ievent_setprocessid, relogger/ITraceEvent::SetProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices

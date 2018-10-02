@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getthreadgroupsize.htm
 tech.root: direct3d12
 ms.assetid: C34A76B7-2410-4F0D-B2EC-8C62CD70DFE0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: GetThreadGroupSize, GetThreadGroupSize method, GetThreadGroupSize method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetThreadGroupSize method, ID3D12ShaderReflection.GetThreadGroupSize, ID3D12ShaderReflection::GetThreadGroupSize, d3d12shader/ID3D12ShaderReflection::GetThreadGroupSize, direct3d12.id3d12shaderreflection_getthreadgroupsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

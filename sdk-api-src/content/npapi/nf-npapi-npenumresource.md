@@ -7,7 +7,7 @@ old-location: security\npenumresource.htm
 tech.root: secauthn
 ms.assetid: 286a6865-478a-41e5-a48f-42f9fc117f14
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: NPEnumResource, NPEnumResource function [Security], _mnp_npenumresource, npapi/NPEnumResource, security.npenumresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

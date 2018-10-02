@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage4_getparent.htm
 tech.root: WMDM
 ms.assetid: e3281501-ec4b-4437-b462-d5b0fd1ac4e0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetParent, GetParent method [windows Media Device Manager], GetParent method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetParent method, IWMDMStorage4.GetParent, IWMDMStorage4::GetParent, IWMDMStorage4GetParent, mswmdm/IWMDMStorage4::GetParent, wmdm.iwmdmstorage4_getparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,21 +94,25 @@ The application can navigate up the storage hierarchy by calling <b>GetParent</b
 
 The following C++ function traverses up to the root parent of a storage.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT BubbleUp(IWMDMStorage *pIStorage)
 {
     HRESULT hr = S_OK;
-    CComPtr<IWMDMStorage4> pStorage4;
+    CComPtr&lt;IWMDMStorage4&gt; pStorage4;
 
-    hr = pIStorage->QueryInterface (__uuidof(IWMDMStorage4), reinterpret_cast<void**>(&pStorage4));
+    hr = pIStorage-&gt;QueryInterface (__uuidof(IWMDMStorage4), reinterpret_cast&lt;void**&gt;(&amp;pStorage4));
     if (SUCCEEDED(hr))
     {
         while ((pStorage4 != NULL))
         {
-            CComPtr<IWMDMStorage> pParent;
-            hr = pStorage4->GetParent(&pParent);
+            CComPtr&lt;IWMDMStorage&gt; pParent;
+            hr = pStorage4-&gt;GetParent(&amp;pParent);
             if (FAILED(hr))
             {
                 break;
@@ -120,7 +124,7 @@ HRESULT BubbleUp(IWMDMStorage *pIStorage)
             
             if (S_FALSE != hr)
             {
-                hr = pParent->QueryInterface (__uuidof(IMDSPStorage4), reinterpret_cast<void**>(&pStorage4));
+                hr = pParent-&gt;QueryInterface (__uuidof(IMDSPStorage4), reinterpret_cast&lt;void**&gt;(&amp;pStorage4));
                 if (FAILED(hr))
                 {
                     break;
@@ -131,10 +135,10 @@ HRESULT BubbleUp(IWMDMStorage *pIStorage)
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

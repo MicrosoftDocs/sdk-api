@@ -7,7 +7,7 @@ old-location: adsi\ads_class_def.htm
 tech.root: ADSI
 ms.assetid: 8151977a-bd98-439f-91ae-6052970ea47c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PADS_CLASS_DEF, ADS_CLASS_DEF, ADS_CLASS_DEF structure [ADSI], PADS_CLASS_DEF, PADS_CLASS_DEF structure pointer [ADSI], _ads_class_def, _ds_ads_class_def, adsi.ads__class__def, adsi.ads_class_def, iads/ADS_CLASS_DEF, iads/PADS_CLASS_DEF"
 ms.prod: windows
 ms.technology: windows-sdk

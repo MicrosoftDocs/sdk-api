@@ -4,10 +4,10 @@ title: PowerDeleteScheme function
 author: windows-sdk-content
 description: Deletes the specified power scheme from the database.
 old-location: base\powerdeletescheme.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 5f9969a1-e598-4ca8-a5b8-f8bb3410223d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: PowerDeleteScheme, PowerDeleteScheme function, base.powerdeletescheme, powrprof/PowerDeleteScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

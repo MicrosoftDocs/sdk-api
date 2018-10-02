@@ -7,7 +7,7 @@ old-location: ncd\iwsdxmlcontext_settypes_method.htm
 tech.root: WsdApi
 ms.assetid: c3bf56e1-42c6-4ecf-971f-2a6253fba0bc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWSDXMLContext interface,SetTypes method, IWSDXMLContext.SetTypes, IWSDXMLContext::SetTypes, SetTypes, SetTypes method, SetTypes method,IWSDXMLContext interface, ncd.iwsdxmlcontext_settypes_method, wsdxml/IWSDXMLContext::SetTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

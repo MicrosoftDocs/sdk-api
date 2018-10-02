@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature_getsigningtime.htm
 tech.root: OPC
 ms.assetid: 8054eba8-ca53-42e4-9105-ef7cf20637c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSigningTime, GetSigningTime method [Open Packaging Conventions], GetSigningTime method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSigningTime method, IOpcDigitalSignature.GetSigningTime, IOpcDigitalSignature::GetSigningTime, msopc/IOpcDigitalSignature::GetSigningTime, opc.iopcdigitalsignature_getsigningtime
 ms.prod: windows-hardware
 ms.technology: windows-devices

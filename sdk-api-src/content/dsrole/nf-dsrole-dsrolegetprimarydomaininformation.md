@@ -4,10 +4,10 @@ title: DsRoleGetPrimaryDomainInformation function
 author: windows-sdk-content
 description: Retrieves state data for the computer.
 old-location: ad\dsrolegetprimarydomaininformation.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: d54876e3-a622-4b44-a597-db0f710f7758
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsRoleGetPrimaryDomainInformation, DsRoleGetPrimaryDomainInformation function [Active Directory], _glines_dsrolegetprimarydomaininformation, ad.dsrolegetprimarydomaininformation, dsrole/DsRoleGetPrimaryDomainInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

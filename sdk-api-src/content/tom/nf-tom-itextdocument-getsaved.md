@@ -4,10 +4,10 @@ title: ITextDocument::GetSaved
 author: windows-sdk-content
 description: Gets a value that indicates whether changes have been made since the file was last saved.
 old-location: controls\ITextDocument_GetSaved.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsaved.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetSaved, GetSaved method [Windows Controls], GetSaved method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetSaved method, ITextDocument.GetSaved, ITextDocument::GetSaved, _win32_ITextDocument_GetSaved, _win32_ITextDocument_GetSaved_cpp, controls.ITextDocument_GetSaved, controls._win32_ITextDocument_GetSaved, tom/ITextDocument::GetSaved
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ Invalid argument.
 
 
 
-To set the saved property, call the <a href="https://msdn.microsoft.com/en-us/library/Bb787809(v=VS.85).aspx">ITextDocument::SetSaved</a> method.
+To set the saved property, call the <a href="https://msdn.microsoft.com/5a0a7196-de8d-4550-b945-d1b0ebb644ef">ITextDocument::SetSaved</a> method.
 
 
 
@@ -120,7 +120,7 @@ To set the saved property, call the <a href="https://msdn.microsoft.com/en-us/li
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
 
 
 
@@ -128,11 +128,11 @@ To set the saved property, call the <a href="https://msdn.microsoft.com/en-us/li
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787809(v=VS.85).aspx">SetSaved</a>
+<a href="https://msdn.microsoft.com/5a0a7196-de8d-4550-b945-d1b0ebb644ef">SetSaved</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: eap\raseapgetinfo.htm
 tech.root: EAP
 ms.assetid: e75964b9-f5d6-494e-8620-07f0e97bcd09
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RasEapGetInfo, RasEapGetInfo callback, RasEapGetInfo callback function [EAP], _eap_raseapgetinfo, eap.raseapgetinfo, raseapif/RasEapGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

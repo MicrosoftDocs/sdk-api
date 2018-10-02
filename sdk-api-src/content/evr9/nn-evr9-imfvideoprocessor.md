@@ -4,10 +4,10 @@ title: IMFVideoProcessor
 author: windows-sdk-content
 description: Controls video processing in the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideoprocessor.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], IMFVideoProcessor interface [Media Foundation],described, evr9/IMFVideoProcessor, mf.imfvideoprocessor
 ms.prod: windows
 ms.technology: windows-sdk

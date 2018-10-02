@@ -4,10 +4,10 @@ title: SHRegSetPathW function
 author: windows-sdk-content
 description: Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry.
 old-location: shell\SHRegSetPath.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3ee6ec69-5d16-4bdd-a591-651af05bf944
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHRegSetPath, SHRegSetPath function [Windows Shell], SHRegSetPathA, SHRegSetPathW, _win32_SHRegSetPath, shell.SHRegSetPath, shlwapi/SHRegSetPath, shlwapi/SHRegSetPathA, shlwapi/SHRegSetPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SymNextW function
 author: windows-sdk-content
 description: Retrieves symbol information for the next symbol.
 old-location: base\symnext.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: ffd2d416-7149-4a4c-a1d5-7a7f3bdf5dc4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext, dbghelp/SymNextW
 ms.prod: windows-hardware
 ms.technology: windows-devices

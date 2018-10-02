@@ -7,7 +7,7 @@ old-location: netshell\ns_reqs.htm
 tech.root: NetShell
 ms.assetid: f8510cef-9b7d-4827-8b09-7584bf32b220
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NS_REQS, NS_REQS enumeration [NetShell], _NS_REQS, netsh/NS_REQS, netshell.ns_reqs
 ms.prod: windows
 ms.technology: windows-sdk

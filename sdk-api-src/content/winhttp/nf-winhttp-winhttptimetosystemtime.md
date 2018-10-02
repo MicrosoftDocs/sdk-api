@@ -4,10 +4,10 @@ title: WinHttpTimeToSystemTime function
 author: windows-sdk-content
 description: The WinHttpTimeToSystemTime function takes an HTTP time/date string and converts it to a SYSTEMTIME structure.
 old-location: http\winhttptimetosystemtime.htm
-tech.root: winhttp
+tech.root: WinHttp
 ms.assetid: 4a587832-e1ce-42d4-97bb-a728f895906b
 ms.author: windowssdkdev
-ms.date: 09/11/2018
+ms.date: 09/26/2018
 ms.keywords: WinHttpTimeToSystemTime, WinHttpTimeToSystemTime function [WinHTTP], http.winhttptimetosystemtime, winhttp.winhttptimetosystemtime_function, winhttp/WinHttpTimeToSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,13 +114,17 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 This example shows how to convert an HTTP formatted date to a 
 <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure.
 
-
-```cpp
-    SYSTEMTIME  sTime;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    SYSTEMTIME  sTime;
     LPCWSTR     pwszTimeStr = L"Tue, 21 Nov 2000 01:06:53 GMT";
 
     // Convert the HTTP string to a SYSTEMTIME structure.
-    if (!WinHttpTimeToSystemTime( pwszTimeStr, &sTime))
+    if (!WinHttpTimeToSystemTime( pwszTimeStr, &amp;sTime))
     {
         printf( "Error %u in WinHttpTimeToSystemTime.\n", GetLastError());
     }
@@ -130,10 +134,10 @@ This example shows how to convert an HTTP formatted date to a
         printf( "The U.S. formatted date is (%u/%u/%u)\n", 
                 sTime.wMonth, sTime.wDay, sTime.wYear);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

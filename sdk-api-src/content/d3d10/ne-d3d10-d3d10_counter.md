@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_counter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_counter.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 2adb613c-1c3a-59ec-1bc9-5a9d3d5c9a28, D3D10_COUNTER, D3D10_COUNTER enumeration [Direct3D 10], D3D10_COUNTER_DEVICE_DEPENDENT_0, D3D10_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION, D3D10_COUNTER_GEOMETRY_PROCESSING, D3D10_COUNTER_GPU_IDLE, D3D10_COUNTER_GS_COMPUTATION_LIMITED, D3D10_COUNTER_GS_MEMORY_LIMITED, D3D10_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, D3D10_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION, D3D10_COUNTER_OTHER_GPU_PROCESSING, D3D10_COUNTER_PIXEL_PROCESSING, D3D10_COUNTER_POST_TRANSFORM_CACHE_HIT_RATE, D3D10_COUNTER_PS_COMPUTATION_LIMITED, D3D10_COUNTER_PS_MEMORY_LIMITED, D3D10_COUNTER_TEXTURE_CACHE_HIT_RATE, D3D10_COUNTER_TRIANGLE_SETUP_THROUGHPUT_UTILIZATION, D3D10_COUNTER_VERTEX_PROCESSING, D3D10_COUNTER_VERTEX_THROUGHPUT_UTILIZATION, D3D10_COUNTER_VS_COMPUTATION_LIMITED, D3D10_COUNTER_VS_MEMORY_LIMITED, d3d10/D3D10_COUNTER, d3d10/D3D10_COUNTER_DEVICE_DEPENDENT_0, d3d10/D3D10_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION, d3d10/D3D10_COUNTER_GEOMETRY_PROCESSING, d3d10/D3D10_COUNTER_GPU_IDLE, d3d10/D3D10_COUNTER_GS_COMPUTATION_LIMITED, d3d10/D3D10_COUNTER_GS_MEMORY_LIMITED, d3d10/D3D10_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, d3d10/D3D10_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION, d3d10/D3D10_COUNTER_OTHER_GPU_PROCESSING, d3d10/D3D10_COUNTER_PIXEL_PROCESSING, d3d10/D3D10_COUNTER_POST_TRANSFORM_CACHE_HIT_RATE, d3d10/D3D10_COUNTER_PS_COMPUTATION_LIMITED, d3d10/D3D10_COUNTER_PS_MEMORY_LIMITED, d3d10/D3D10_COUNTER_TEXTURE_CACHE_HIT_RATE, d3d10/D3D10_COUNTER_TRIANGLE_SETUP_THROUGHPUT_UTILIZATION, d3d10/D3D10_COUNTER_VERTEX_PROCESSING, d3d10/D3D10_COUNTER_VERTEX_THROUGHPUT_UTILIZATION, d3d10/D3D10_COUNTER_VS_COMPUTATION_LIMITED, d3d10/D3D10_COUNTER_VS_MEMORY_LIMITED, direct3d10.d3d10_counter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,27 +85,27 @@ Percentage of the time that the GPU does other processing (not vertex, geometry,
 
 ### -field D3D10_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION
 
-Percentage of bandwidth used on a host adapter. Value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter.
+Percentage of bandwidth used on a host adapter. Value returned by <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter.
 
 
 ### -field D3D10_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION
 
-Percentage of bandwidth used by the local video memory. Value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
+Percentage of bandwidth used by the local video memory. Value returned by <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
 
 
 ### -field D3D10_COUNTER_VERTEX_THROUGHPUT_UTILIZATION
 
-Percentage of throughput used for vertices. Value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
+Percentage of throughput used for vertices. Value returned by <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
 
 
 ### -field D3D10_COUNTER_TRIANGLE_SETUP_THROUGHPUT_UTILIZATION
 
-Percentage of throughput used for triangle setup. Value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
+Percentage of throughput used for triangle setup. Value returned by <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
 
 
 ### -field D3D10_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION
 
-Percentage of throughput used for the fillrate. Value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter.
+Percentage of throughput used for the fillrate. Value returned by <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter.
 
 
 ### -field D3D10_COUNTER_VS_MEMORY_LIMITED
@@ -169,7 +169,7 @@ A device can support one or more of these performance counters, but it is not re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

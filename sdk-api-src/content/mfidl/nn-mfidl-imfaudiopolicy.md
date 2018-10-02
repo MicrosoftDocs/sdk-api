@@ -4,10 +4,10 @@ title: IMFAudioPolicy
 author: windows-sdk-content
 description: Configures the audio session that is associated with the streaming audio renderer (SAR).
 old-location: mf\imfaudiopolicy.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFAudioPolicy, IMFAudioPolicy interface [Media Foundation], IMFAudioPolicy interface [Media Foundation],described, fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a, mf.imfaudiopolicy, mfidl/IMFAudioPolicy
 ms.prod: windows
 ms.technology: windows-sdk

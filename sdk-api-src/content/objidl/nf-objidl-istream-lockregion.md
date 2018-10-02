@@ -7,7 +7,7 @@ old-location: stg\istream_lockregion.htm
 tech.root: Stg
 ms.assetid: f2606833-05ed-4bd0-a762-7b8172fb14c8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IStream interface [Structured Storage],LockRegion method, IStream.LockRegion, IStream::LockRegion, LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage],IStream interface, _stg_istream_lockregion, objidl/IStream::LockRegion, stg.istream_lockregion
 ms.prod: windows-hardware
 ms.technology: windows-devices

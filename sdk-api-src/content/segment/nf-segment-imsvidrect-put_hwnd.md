@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_put_hwnd.htm
 tech.root: MSTV
 ms.assetid: bbc7a6d0-2829-4fdb-89da-5ebb7fc803eb
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_HWnd method, IMSVidRect.put_HWnd, IMSVidRect::put_HWnd, IMSVidRectput_HWnd, mstv.imsvidrect_put_hwnd, put_HWnd, put_HWnd method [Microsoft TV Technologies], put_HWnd method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_HWnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

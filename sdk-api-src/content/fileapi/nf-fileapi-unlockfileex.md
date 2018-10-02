@@ -7,7 +7,7 @@ old-location: fs\unlockfileex.htm
 tech.root: fileio
 ms.assetid: 78e2a75e-ff67-4039-b609-fb5004718c45
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

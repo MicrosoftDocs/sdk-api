@@ -4,10 +4,10 @@ title: RtlUnwind2 function
 author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwind2.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 8015d070-51b9-49d4-b760-c9faaeba2cd0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: RtlUnwind2, RtlUnwind2 function, base.rtlunwind2, winnt/RtlUnwind2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,15 +104,19 @@ This function does not return a value.
 
 The <b>FRAME_POINTERS</b> structure is defined as follows:
 
-
-```cpp
-typedef struct _FRAME_POINTERS {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _FRAME_POINTERS {
     ULONGLONG MemoryStackFp;
     ULONGLONG BackingStoreFp;
-} FRAME_POINTERS, *PFRAME_POINTERS;
-```
-
-
+} FRAME_POINTERS, *PFRAME_POINTERS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: fwp\fwpm_sublayer0_struct.htm
 tech.root: FWP
 ms.assetid: ce689b1d-1f5c-4dde-96cd-9001de3827aa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_SUBLAYER0, FWPM_SUBLAYER0 structure [Filtering], FWPM_SUBLAYER0_, FWPM_SUBLAYER_FLAG_PERSISTENT, fwp.fwpm_sublayer0_struct, fwpmtypes/FWPM_SUBLAYER0
 ms.prod: windows
 ms.technology: windows-sdk

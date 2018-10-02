@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_renderfile.htm
 tech.root: DirectShow
 ms.assetid: 5dfff776-da3f-40a3-86d4-76a5099d6e6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IMediaControl interface [DirectShow],RenderFile method, IMediaControl.RenderFile, IMediaControl::RenderFile, IMediaControlRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IMediaControl interface, control/IMediaControl::RenderFile, dshow.imediacontrol_renderfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ The <code>RenderFile</code> method builds a filter graph that renders the specif
 
 
 
-This method is intended for use by Visual Basic 6.0 applications. It was documented for Visual Basic 6.0 as the <b>FilgraphManager.RenderFile</b> method. C++ applications should use the <a href="https://msdn.microsoft.com/en-us/library/Dd390090(v=VS.85).aspx">IGraphBuilder::RenderFile</a> method instead.
+This method is intended for use by Visual Basic 6.0 applications. It was documented for Visual Basic 6.0 as the <b>FilgraphManager.RenderFile</b> method. C++ applications should use the <a href="https://msdn.microsoft.com/449aec08-c03e-41d6-8c04-0e871e532d11">IGraphBuilder::RenderFile</a> method instead.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390170(v=VS.85).aspx">IMediaControl Interface</a>
+<a href="https://msdn.microsoft.com/bce64088-3751-420c-b9de-b9b5f3119198">IMediaControl Interface</a>
  
 
  

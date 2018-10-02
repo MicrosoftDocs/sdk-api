@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontset_getpropertyvalues_1.htm
 tech.root: DirectWrite
 ms.assetid: 4523d5a6-9d5f-61ac-a47f-810fef1522a9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetPropertyValues, GetPropertyValues method [Direct Write], GetPropertyValues method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetPropertyValues method, IDWriteFontSet.GetPropertyValues, IDWriteFontSet.GetPropertyValues(DWRITE_FONT_PROPERTY_ID,WCHAR const,IDWriteStringList), IDWriteFontSet::GetPropertyValues, IDWriteFontSet::GetPropertyValues(DWRITE_FONT_PROPERTY_ID,WCHAR const,IDWriteStringList), directwrite.idwritefontset_getpropertyvalues_1, dwrite_3/IDWriteFontSet::GetPropertyValues
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\bg_job_times.htm
 tech.root: Bits
 ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BG_JOB_TIMES, BG_JOB_TIMES structure [BITS], _BG_JOB_TIMES, _drz_bg_job_times, bits.bg_job_times, bits/BG_JOB_TIMES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,11 @@ Time the job was created. The time is specified as
 ### -field ModificationTime
 
 Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob*</a> interfaces changes this value. In addition, changes to the state of the job and calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363048(v=VS.85).aspx">Suspend</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">Resume</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363020(v=VS.85).aspx">Cancel</a>, and 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363021(v=VS.85).aspx">Complete</a> methods change this value. The time is specified as 
+<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob*</a> interfaces changes this value. In addition, changes to the state of the job and calling the 
+<a href="https://msdn.microsoft.com/88429730-b8e5-4969-934c-f0945fdd46a6">Suspend</a>, 
+<a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">Resume</a>, 
+<a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">Cancel</a>, and 
+<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a> methods change this value. The time is specified as 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
 
 
@@ -87,7 +87,7 @@ Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363037(v=VS.85).aspx">IBackgroundCopyJob::GetTimes</a>
+<a href="https://msdn.microsoft.com/acc29cc2-b437-4799-9cdb-388a60f117e9">IBackgroundCopyJob::GetTimes</a>
  
 
  

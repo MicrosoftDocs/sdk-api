@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextdestroyenumhandle0_func.htm
 tech.root: FWP
 ms.assetid: 85ec36f8-c6e0-4dcf-aad2-15d61aa6bd64
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmProviderContextDestroyEnumHandle0, FwpmProviderContextDestroyEnumHandle0 function [Filtering], fwp.fwpmprovidercontextdestroyenumhandle0_func, fwpmu/FwpmProviderContextDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

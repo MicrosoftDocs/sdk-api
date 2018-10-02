@@ -4,10 +4,10 @@ title: IMFPresentationClock::Start
 author: windows-sdk-content
 description: Starts the presentation clock.
 old-location: mf\imfpresentationclock_start.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ba5986d1-9c94-4747-a221-43d0583f1fed
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFPresentationClock interface [Media Foundation],Start method, IMFPresentationClock.Start, IMFPresentationClock::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFPresentationClock interface, ba5986d1-9c94-4747-a221-43d0583f1fed, mf.imfpresentationclock_start, mfidl/IMFPresentationClock::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

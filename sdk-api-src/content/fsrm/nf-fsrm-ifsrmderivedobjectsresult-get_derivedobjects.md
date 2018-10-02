@@ -4,10 +4,10 @@ title: IFsrmDerivedObjectsResult::get_DerivedObjects
 author: windows-sdk-content
 description: Retrieves the collection of derived objects that were updated.
 old-location: fsrm\ifsrmderivedobjectsresult_derivedobjects.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 9859a7e1-ebfe-4b6c-bd89-93757e1b4684
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: DerivedObjects property [File Server Resource Manager], DerivedObjects property [File Server Resource Manager],IFsrmDerivedObjectsResult interface, IFsrmDerivedObjectsResult interface [File Server Resource Manager],DerivedObjects property, IFsrmDerivedObjectsResult.DerivedObjects, IFsrmDerivedObjectsResult.get_DerivedObjects, IFsrmDerivedObjectsResult::DerivedObjects, IFsrmDerivedObjectsResult::get_DerivedObjects, fs.ifsrmderivedobjectsresult_derivedobjects, fsrm.ifsrmderivedobjectsresult_derivedobjects, fsrm/IFsrmDerivedObjectsResult::DerivedObjects, fsrm/IFsrmDerivedObjectsResult::get_DerivedObjects, get_DerivedObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

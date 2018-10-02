@@ -7,7 +7,7 @@ old-location: nap\sohattribute_struct.htm
 tech.root: NAP
 ms.assetid: cd954277-27e0-47f4-b4c3-f5335925b8fd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SoHAttribute, SoHAttribute structure [NAP], nap.sohattribute_struct, naptypes/SoHAttribute, tagSoHAttribute
 ms.prod: windows
 ms.technology: windows-sdk

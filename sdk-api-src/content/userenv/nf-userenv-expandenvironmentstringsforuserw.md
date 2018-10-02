@@ -4,10 +4,10 @@ title: ExpandEnvironmentStringsForUserW function
 author: windows-sdk-content
 description: Expands the source string by using the environment block established for the specified user.
 old-location: shell\ExpandEnvironmentStringsForUser.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d32fa6c8-035a-4c84-b210-5366f21b6c17
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ExpandEnvironmentStringsForUser, ExpandEnvironmentStringsForUser function [Windows Shell], ExpandEnvironmentStringsForUserA, ExpandEnvironmentStringsForUserW, _shell_ExpandEnvironmentStringsForUser, shell.ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUserA, userenv/ExpandEnvironmentStringsForUserW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,20 +109,28 @@ Type: <b>BOOL</b>
 
 The following is an example source string:
 
-
-```
-%USERPROFILE%\ntuser.dat
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>%USERPROFILE%\ntuser.dat</pre>
+</td>
+</tr>
+</table></span></div>
 When <b>ExpandEnvironmentStringsForUser</b> returns, the destination string expands as follows:
 
-
-```
-C:\Documents and Settings\UserName\ntuser.dat
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>C:\Documents and Settings\UserName\ntuser.dat</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

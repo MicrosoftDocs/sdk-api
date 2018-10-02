@@ -7,7 +7,7 @@ old-location: remoteassist\remoteassist_RENDEZVOUS_SESSION_FLAGS.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\enums\rendezvous_session_flags.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RENDEZVOUS_SESSION_FLAGS, RENDEZVOUS_SESSION_FLAGS enumeration [Remote Assistance], RSF_INVITEE, RSF_INVITER, RSF_NONE, RSF_ORIGINAL_INVITER, RSF_REMOTE_LEGACYSESSION, __MIDL___MIDL_itf_rendezvoussession_0000_0000_0002, remoteassist.remoteassist_RENDEZVOUS_SESSION_FLAGS, remoteassist_RENDEZVOUS_SESSION_FLAGS, rendezvoussession/RENDEZVOUS_SESSION_FLAGS, rendezvoussession/RSF_INVITEE, rendezvoussession/RSF_INVITER, rendezvoussession/RSF_NONE, rendezvoussession/RSF_ORIGINAL_INVITER, rendezvoussession/RSF_REMOTE_LEGACYSESSION
 ms.prod: windows
 ms.technology: windows-sdk

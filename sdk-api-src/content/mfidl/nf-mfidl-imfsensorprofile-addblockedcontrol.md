@@ -4,10 +4,10 @@ title: IMFSensorProfile::AddBlockedControl
 author: windows-sdk-content
 description: Adds the specified blocked control .
 old-location: mf\imfsensorprofile_addblockedcontrol.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1D1EAD84-5053-47B2-9366-EEBE8681970F
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: AddBlockedControl, AddBlockedControl method [Media Foundation], AddBlockedControl method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddBlockedControl method, IMFSensorProfile.AddBlockedControl, IMFSensorProfile::AddBlockedControl, mf.imfsensorprofile_addblockedcontrol, mfidl/IMFSensorProfile::AddBlockedControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a>
+<a href="mf.imfsensorprofile">IMFSensorProfile</a>
  
 
  

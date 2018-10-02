@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_enabletcp.htm
 tech.root: DirectShow
 ms.assetid: 8e875901-7ccb-4aa5-b283-f75b791e85f1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableTCP method, IAMNetShowConfig.put_EnableTCP, IAMNetShowConfig::put_EnableTCP, IAMNetShowConfigput_EnableTCP, dshow.iamnetshowconfig_put_enabletcp, put_EnableTCP, put_EnableTCP method [DirectShow], put_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableTCP
 ms.prod: windows-hardware
 ms.technology: windows-devices

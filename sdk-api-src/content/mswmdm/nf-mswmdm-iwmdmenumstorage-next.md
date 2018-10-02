@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmenumstorage_next.htm
 tech.root: WMDM
 ms.assetid: aec244c3-93e4-4093-b49c-9c74ec93ce0f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Next method, IWMDMEnumStorage.Next, IWMDMEnumStorage::Next, IWMDMEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Next, wmdm.iwmdmenumstorage_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,17 +106,21 @@ The storage enumerator may not reflect the effect of media insertion and removal
 
 The following two C++ functions recursively explore a device. The first one is a kickoff function that obtains the <a href="https://msdn.microsoft.com/6ea80ab2-718b-464e-a805-9910460931bb">IWMDMEnumStorage</a> interface of the root device storage. It passes this to the recursive function which examines all the nested functions.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Kickoff function to explore a device.
 void ExploreDevice(IWMDMDevice* pDevice)
 {
     HRESULT hr = S_OK;
 
     // Get a root enumerator.
-    CComPtr<IWMDMEnumStorage> pEnumStorage;
-    hr = pDevice->EnumStorage(&pEnumStorage);
+    CComPtr&lt;IWMDMEnumStorage&gt; pEnumStorage;
+    hr = pDevice-&gt;EnumStorage(&amp;pEnumStorage);
     RecursiveExploreStorage(pEnumStorage);
 
     HANDLE_HR(hr, "Got a root storage in ExploreDevice.","Couldn't get a root storage in ExploreDevice.");
@@ -128,18 +132,18 @@ e_Exit:
 void RecursiveExploreStorage(IWMDMEnumStorage* pEnumStorage)
 {
     HRESULT hr = S_OK;
-    CComPtr<IWMDMStorage> pStorage;
+    CComPtr&lt;IWMDMStorage&gt; pStorage;
     ULONG numRetrieved = 0;
     // Loop through all storages in the current storage.
     // We don't need to allocate an array to retrieve one 
     // interface at a time.
-    while(pEnumStorage->Next(1, &pStorage, &numRetrieved) == S_OK && numRetrieved == 1)
+    while(pEnumStorage-&gt;Next(1, &amp;pStorage, &amp;numRetrieved) == S_OK &amp;&amp; numRetrieved == 1)
     {
         // Get the name of the object. The first time this is called on a 
         // device, it will retrieve '\' as the root folder name.
         const UINT MAX_LEN = 255;
         WCHAR name[MAX_LEN];
-        hr = pStorage->GetName((LPWSTR)&name, MAX_LEN);
+        hr = pStorage-&gt;GetName((LPWSTR)&amp;name, MAX_LEN);
         // TODO: Display the storage name.
 
     
@@ -150,17 +154,17 @@ void RecursiveExploreStorage(IWMDMEnumStorage* pEnumStorage)
         // Find out something about the item.
         DWORD attributes = 0;
         _WAVEFORMATEX audioFormat;
-        hr = pStorage->GetAttributes(&attributes, &audioFormat);
+        hr = pStorage-&gt;GetAttributes(&amp;attributes, &amp;audioFormat);
         HANDLE_HR(hr, "Got storage attributes in RecursivelyExploreStorage.","Couldn't get storage attributes in RecursivelyExploreStorage.");
 
         // If this is a folder, recurse into it.
-        if (attributes & WMDM_FILE_ATTR_FILE)
+        if (attributes &amp; WMDM_FILE_ATTR_FILE)
             // TODO: Display a message indicating that this is a file.
-        if (attributes & WMDM_FILE_ATTR_FOLDER)
+        if (attributes &amp; WMDM_FILE_ATTR_FOLDER)
         {
             // TODO: Display a message indicating that this is a folder.
-            CComPtr<IWMDMEnumStorage> pEnumSubStorage;
-            hr = pStorage->EnumStorage(&pEnumSubStorage);
+            CComPtr&lt;IWMDMEnumStorage&gt; pEnumSubStorage;
+            hr = pStorage-&gt;EnumStorage(&amp;pEnumSubStorage);
             RecursiveExploreStorage(pEnumSubStorage);
         }
 
@@ -174,10 +178,10 @@ void RecursiveExploreStorage(IWMDMEnumStorage* pEnumStorage)
 e_Exit:
     return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

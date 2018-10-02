@@ -4,10 +4,10 @@ title: LookupAccountSidLocalW function
 author: windows-sdk-content
 description: Retrieves the name of the account for the specified SID on the local machine.
 old-location: security\lookupaccountsidlocal.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,7 +132,7 @@ This function is similar to <a href="https://msdn.microsoft.com/b8a44ffc-86e1-4f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

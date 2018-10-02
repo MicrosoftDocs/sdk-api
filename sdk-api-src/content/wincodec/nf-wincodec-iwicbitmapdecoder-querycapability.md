@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_querycapability.htm
 tech.root: wic
 ms.assetid: eeff3d5d-ed7f-41f7-b529-aeeeb8503a50
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],QueryCapability method, IWICBitmapDecoder.QueryCapability, IWICBitmapDecoder::QueryCapability, QueryCapability, QueryCapability method [Windows Imaging Component], QueryCapability method [Windows Imaging Component],IWICBitmapDecoder interface, _wic_codec_iwicbitmapdecoder_querycapability, wic._wic_codec_iwicbitmapdecoder_querycapability, wincodec/IWICBitmapDecoder::QueryCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

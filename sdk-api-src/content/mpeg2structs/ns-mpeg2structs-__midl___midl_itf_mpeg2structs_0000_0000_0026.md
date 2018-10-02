@@ -7,7 +7,7 @@ old-location: mstv\mpeg_date_and_time.htm
 tech.root: MSTV
 ms.assetid: 586269c5-3415-4a5c-8c8f-b405a7bc3f56
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: MPEG_DATE_AND_TIME, MPEG_DATE_AND_TIME structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0026, mpeg2structs/MPEG_DATE_AND_TIME, mstv.mpeg_date_and_time
 ms.prod: windows
 ms.technology: windows-sdk

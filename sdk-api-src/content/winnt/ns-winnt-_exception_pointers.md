@@ -4,10 +4,10 @@ title: "_EXCEPTION_POINTERS"
 author: windows-sdk-content
 description: Contains an exception record with a machine-independent description of an exception and a context record with a machine-dependent description of the processor context at the time of the exception.
 old-location: base\exception_pointers_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 57e8cb3a-1b11-45b9-9676-3b6dc600d225
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PEXCEPTION_POINTERS, EXCEPTION_POINTERS, EXCEPTION_POINTERS structure, PEXCEPTION_POINTERS, PEXCEPTION_POINTERS structure pointer, _EXCEPTION_POINTERS, _win32_exception_pointers_str, base.exception_pointers_str, winnt/EXCEPTION_POINTERS, winnt/PEXCEPTION_POINTERS"
 ms.prod: windows
 ms.technology: windows-sdk

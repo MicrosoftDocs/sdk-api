@@ -7,7 +7,7 @@ old-location: of\iofflinefilesdirtyinfo.htm
 tech.root: OfflineFiles
 ms.assetid: 10414443-9e7f-4520-80dd-d2ad098c1d44
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], IOfflineFilesDirtyInfo interface [Offline Files],described, cscobj/IOfflineFilesDirtyInfo, of.iofflinefilesdirtyinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Represents information about an unsynchronized ("dirty") file in the Offline Fil
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesDirtyInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOfflineFilesDirtyInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesDirtyInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesDirtyInfo</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IOfflineFilesDirtyInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736328(v=VS.85).aspx">LocalDirtyByteCount</a>
+<a href="https://msdn.microsoft.com/c261d5ac-5834-42c7-b644-4244db9d653e">LocalDirtyByteCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of unsynchronized data for a file in the local Offline Files cache.
@@ -80,7 +80,7 @@ Retrieves the amount of unsynchronized data for a file in the local Offline File
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736329(v=VS.85).aspx">RemoteDirtyByteCount</a>
+<a href="https://msdn.microsoft.com/3913dc9d-f640-407d-b3b9-77b33f26e726">RemoteDirtyByteCount</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -95,11 +95,11 @@ This method is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530565(v=VS.85).aspx">IOfflineFilesFileItem</a>
+<a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

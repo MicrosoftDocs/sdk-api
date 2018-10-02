@@ -4,10 +4,10 @@ title: ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1
 author: windows-sdk-content
 description: Gets the color space information for the video processor output surface.
 old-location: mf\id3d11videocontext1_videoprocessorgetoutputcolorspace1.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1B2BC801-CC5C-460C-A10E-CCDEE35A8E27
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetOutputColorSpace1 method, ID3D11VideoContext1.VideoProcessorGetOutputColorSpace1, ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1, VideoProcessorGetOutputColorSpace1, VideoProcessorGetOutputColorSpace1 method [Media Foundation], VideoProcessorGetOutputColorSpace1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1, mf.id3d11videocontext1_videoprocessorgetoutputcolorspace1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,14 @@ Gets the color space information for the video processor output surface.
 
 Type: <b>ID3D11VideoProcessor*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447799(v=VS.85).aspx">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface.
 
 
 ### -param pColorSpace [out]
 
 Type: <b>DXGI_COLOR_SPACE_TYPE*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn903661(v=VS.85).aspx">DXGI_COLOR_SPACE_TYPE</a> value that indicates the colorspace for the video processor output surface.
+A pointer to a <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> value that indicates the colorspace for the video processor output surface.
 
 
 ## -returns
@@ -86,7 +86,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894126(v=VS.85).aspx">ID3D11VideoContext1</a>
+<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
  
 
  

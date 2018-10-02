@@ -7,7 +7,7 @@ old-location: wsw\ws_metadata_endpoints.htm
 tech.root: wsw
 ms.assetid: 96d4b938-80df-412a-9d0e-153d42ec73cb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_METADATA_ENDPOINTS, WS_METADATA_ENDPOINTS structure [Web Services for Windows], _WS_METADATA_ENDPOINTS, webservices/WS_METADATA_ENDPOINTS, wsw.ws_metadata_endpoints
 ms.prod: windows
 ms.technology: windows-sdk

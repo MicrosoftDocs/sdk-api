@@ -4,10 +4,10 @@ title: IEnumSyncMgrSyncItems
 author: windows-sdk-content
 description: Exposes methods that enumerate the sync item objects managed by the handler.
 old-location: shell\IEnumSyncMgrSyncItems.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0d1695e2-6936-4f53-9594-e0e2bc69afd4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows Shell], IEnumSyncMgrSyncItems interface [Windows Shell],described, _shell_IEnumSyncMgrSyncItems, shell.IEnumSyncMgrSyncItems, syncmgr/IEnumSyncMgrSyncItems
 ms.prod: windows
 ms.technology: windows-sdk

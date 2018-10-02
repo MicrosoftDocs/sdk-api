@@ -7,7 +7,7 @@ old-location: security\slgetinstalledproductkeyids.htm
 tech.root: SecSLApi
 ms.assetid: 6d678ffa-ef67-41e6-bafa-bdca418c5f9f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SLGetInstalledProductKeyIds, SLGetInstalledProductKeyIds function [Security], security.slgetinstalledproductkeyids, slpublic/SLGetInstalledProductKeyIds
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509EndorsementKey::Close
 author: windows-sdk-content
 description: Closes the endorsement key. You can only call the Close method after the Open method has been successfully called.
 old-location: security\ix509endorsementkey_close.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 71855c96-a828-4bb6-849a-53be8269277d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Close, Close method [Security], Close method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],Close method, IX509EndorsementKey.Close, IX509EndorsementKey::Close, certenroll/IX509EndorsementKey::Close, security.ix509endorsementkey_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Closes the endorsement key. You can only call the <b>Close</b> method after the <a href="https://msdn.microsoft.com/en-us/library/Dn379364(v=VS.85).aspx">Open</a> method has been successfully called.
+Closes the endorsement key. You can only call the <b>Close</b> method after the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method has been successfully called.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 The <b>Close</b> method releases any resources held
-    by the object except for the <a href="https://msdn.microsoft.com/en-us/library/Dn379367(v=VS.85).aspx">ProviderName</a>.
+    by the object except for the <a href="https://msdn.microsoft.com/5031d14d-8a10-4821-aed4-b49e12027d91">ProviderName</a>.
     The <b>ProviderName</b> is released when it is re-assigned
     or when this object is destroyed.
 
@@ -87,7 +87,7 @@ The <b>Close</b> method releases any resources held
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379356(v=VS.85).aspx">IX509EndorsementKey</a>
+<a href="https://msdn.microsoft.com/24f063a7-02e3-47cf-89ca-ebc63bf3e2dc">IX509EndorsementKey</a>
  
 
  

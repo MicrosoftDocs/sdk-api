@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager_getsimpleaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 2f3c5a40-308f-48b4-b35c-aebd0cc6b849
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: GetSimpleAudioVolume, GetSimpleAudioVolume method [Core Audio], GetSimpleAudioVolume method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetSimpleAudioVolume method, IAudioSessionManager.GetSimpleAudioVolume, IAudioSessionManager::GetSimpleAudioVolume, IAudioSessionManagerGetSimpleAudioVolume, audiopolicy/IAudioSessionManager::GetSimpleAudioVolume, coreaudio.iaudiosessionmanager_getsimpleaudiovolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mib\mib_unicastipaddress_table.htm
 tech.root: MIB
 ms.assetid: b064494c-d0d5-4570-b255-4cc95412fd3a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE structure [MIB], PMIB_UNICASTIPADDRESS_TABLE, PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_UNICASTIPADDRESS_TABL, _MIB_UNICASTIPADDRESS_TABLE, mib.mib_unicastipaddress_table, netioapi/MIB_UNICASTIPADDRESS_TABLE, netioapi/PMIB_UNICASTIPADDRESS_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,9 +89,13 @@ The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure may contain padding for alignmen
 
 The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> structures.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #ifndef UNICODE
 #define UNICODE
 #endif
@@ -100,13 +104,13 @@ The following example retrieves a unicast IP address table and prints some value
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include <Windows.h.>
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <ws2ipdef.h>
-#include <iphlpapi.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;Windows.h.&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;ws2ipdef.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 // Need to link with Iphlpapi.lib and Ws2_32.lib
 #pragma comment (lib, "iphlpapi.lib")
@@ -126,41 +130,41 @@ int __cdecl wmain()
 
     PMIB_UNICASTIPADDRESS_TABLE pipTable = NULL;
 
-    Result = GetUnicastIpAddressTable(AF_UNSPEC, &pipTable);
+    Result = GetUnicastIpAddressTable(AF_UNSPEC, &amp;pipTable);
     if (Result != NO_ERROR) {
         wprintf(L"GetUnicastIpAddressTable returned error: %ld\n", Result);
         exit(1);
     }
     // Print some variables from the rows in the table
-    wprintf(L"Number of table entries: %d\n\n", pipTable->NumEntries);
+    wprintf(L"Number of table entries: %d\n\n", pipTable-&gt;NumEntries);
 
-    for (i = 0; i < pipTable->NumEntries; i++) {
+    for (i = 0; i &lt; pipTable-&gt;NumEntries; i++) {
         wprintf(L"AddressFamily[%d]:\t\t ", i);
 
-        switch (pipTable->Table[i].Address.si_family) {
+        switch (pipTable-&gt;Table[i].Address.si_family) {
         case AF_INET:
             wprintf(L"IPv4\n");
             if (InetNtopW
-                (AF_INET, &pipTable->Table[i].Address.Ipv4.sin_addr, Ipv4String,
+                (AF_INET, &amp;pipTable-&gt;Table[i].Address.Ipv4.sin_addr, Ipv4String,
                  16) != NULL)
                 wprintf(L"IPv4 Address:\t\t\t %ws\n", Ipv4String);
             break;
         case AF_INET6:
             wprintf(L"IPv6\n");
             if (InetNtopW
-                (AF_INET6, &pipTable->Table[i].Address.Ipv6.sin6_addr,
+                (AF_INET6, &amp;pipTable-&gt;Table[i].Address.Ipv6.sin6_addr,
                  Ipv6String, 46) != NULL)
                 wprintf(L"IPv6 Address:\t\t\t %ws\n", Ipv6String);
             break;
         default:
-            wprintf(L"Other: %d\n", pipTable->Table[i].Address.si_family);
+            wprintf(L"Other: %d\n", pipTable-&gt;Table[i].Address.si_family);
             break;
         }
 
         wprintf(L"Interface LUID NetLuidIndex[%d]:  %lu\n",
-               i, pipTable->Table[i].InterfaceLuid.Info.NetLuidIndex);
+               i, pipTable-&gt;Table[i].InterfaceLuid.Info.NetLuidIndex);
         wprintf(L"Interface LUID IfType[%d]:\t ", i);
-        switch (pipTable->Table[i].InterfaceLuid.Info.IfType) {
+        switch (pipTable-&gt;Table[i].InterfaceLuid.Info.IfType) {
         case IF_TYPE_OTHER:
             wprintf(L"Other\n");
             break;
@@ -190,15 +194,15 @@ int __cdecl wmain()
             break;
         default:
             wprintf(L"Unknown: %d\n",
-                   pipTable->Table[i].InterfaceLuid.Info.IfType);
+                   pipTable-&gt;Table[i].InterfaceLuid.Info.IfType);
             break;
         }
 
         wprintf(L"Interface Index[%d]:\t\t %lu\n",
-               i, pipTable->Table[i].InterfaceIndex);
+               i, pipTable-&gt;Table[i].InterfaceIndex);
 
         wprintf(L"Prefix Origin[%d]:\t\t ", i);
-        switch (pipTable->Table[i].PrefixOrigin) {
+        switch (pipTable-&gt;Table[i].PrefixOrigin) {
         case IpPrefixOriginOther:
             wprintf(L"IpPrefixOriginOther\n");
             break;
@@ -218,12 +222,12 @@ int __cdecl wmain()
             wprintf(L"IpPrefixOriginUnchanged\n");
             break;
         default:
-            wprintf(L"Unknown: %d\n", pipTable->Table[i].PrefixOrigin);
+            wprintf(L"Unknown: %d\n", pipTable-&gt;Table[i].PrefixOrigin);
             break;
         }
 
         wprintf(L"Suffix Origin[%d]:\t\t ", i);
-        switch (pipTable->Table[i].SuffixOrigin) {
+        switch (pipTable-&gt;Table[i].SuffixOrigin) {
         case IpSuffixOriginOther:
             wprintf(L"IpSuffixOriginOther\n");
             break;
@@ -246,29 +250,29 @@ int __cdecl wmain()
             wprintf(L"IpSuffixOriginUnchanged\n");
             break;
         default:
-            wprintf(L"Unknown: %d\n", pipTable->Table[i].SuffixOrigin);
+            wprintf(L"Unknown: %d\n", pipTable-&gt;Table[i].SuffixOrigin);
             break;
         }
 
         wprintf(L"Valid Lifetime[%d]:\t\t 0x%x (%u)\n", i,
-               pipTable->Table[i].ValidLifetime,
-               pipTable->Table[i].ValidLifetime);
+               pipTable-&gt;Table[i].ValidLifetime,
+               pipTable-&gt;Table[i].ValidLifetime);
 
         wprintf(L"Preferred Lifetime[%d]:\t\t 0x%x (%u)\n", i,
-               pipTable->Table[i].PreferredLifetime,
-               pipTable->Table[i].PreferredLifetime);
+               pipTable-&gt;Table[i].PreferredLifetime,
+               pipTable-&gt;Table[i].PreferredLifetime);
 
         wprintf(L"OnLink PrefixLength[%d]:\t\t %lu\n", i,
-               pipTable->Table[i].OnLinkPrefixLength);
+               pipTable-&gt;Table[i].OnLinkPrefixLength);
 
         wprintf(L"Skip As Source[%d]:\t\t ", i);
-        if (pipTable->Table[i].SkipAsSource)
+        if (pipTable-&gt;Table[i].SkipAsSource)
             wprintf(L"Yes\n");
         else
             wprintf(L"No\n");
 
         wprintf(L"Dad State[%d]:\t\t\t ", i);
-        switch (pipTable->Table[i].DadState) {
+        switch (pipTable-&gt;Table[i].DadState) {
         case IpDadStateInvalid:
             wprintf(L"IpDadStateInvalid\n");
             break;
@@ -285,7 +289,7 @@ int __cdecl wmain()
             wprintf(L"IpDadStatePreferred\n");
             break;
         default:
-            wprintf(L"Unknown: %d\n", pipTable->Table[i].DadState);
+            wprintf(L"Unknown: %d\n", pipTable-&gt;Table[i].DadState);
             break;
         }
 
@@ -300,10 +304,10 @@ int __cdecl wmain()
     exit(0);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

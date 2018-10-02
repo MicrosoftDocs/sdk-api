@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_put_positionmode.htm
 tech.root: MSTV
 ms.assetid: b2ff0b7e-c35d-4ea9-92de-a31654781687
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_PositionMode method, IMSVidPlayback.put_PositionMode, IMSVidPlayback::put_PositionMode, IMSVidPlaybackput_PositionMode, mstv.imsvidplayback_put_positionmode, put_PositionMode, put_PositionMode method [Microsoft TV Technologies], put_PositionMode method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_PositionMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,14 +166,18 @@ Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed541
 
 #### Examples
 
-
-```cpp
-
-hr = m_pPlayback->put_PositionMode(TenthsSecondsMode);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+hr = m_pPlayback-&gt;put_PositionMode(TenthsSecondsMode);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

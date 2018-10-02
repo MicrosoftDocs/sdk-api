@@ -7,7 +7,7 @@ old-location: setup\releaseactctx.htm
 tech.root: SbsCs
 ms.assetid: aaf58969-06b7-4981-83af-651252339186
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ReleaseActCtx, ReleaseActCtx function [Side-by-side Assemblies], _win32_releaseactctx, setup.releaseactctx, winbase/ReleaseActCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

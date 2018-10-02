@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\imilbitmapeffectconnector.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMILBitmapEffectConnector, IMILBitmapEffectConnector interface [WPF Bitmap Effects], IMILBitmapEffectConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnector, mileffects/IMILBitmapEffectConnector, wibe._wibe_imilbitmapeffectconnector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,16 +70,16 @@ The <b>IMILBitmapEffectConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735304(v=VS.85).aspx">GetBitmapEffect</a>
+<a href="https://msdn.microsoft.com/00abf251-81a1-41de-bf0e-9ea77f0ac5f0">GetBitmapEffect</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> associated with the connector.
+Gets the <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> associated with the connector.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735306(v=VS.85).aspx">IsConnected</a>
+<a href="https://msdn.microsoft.com/42ecc47d-cfea-41b8-bc0c-f346a9e18611">IsConnected</a>
 </td>
 <td align="left" width="63%">
 Determines whether the connector is connected to an effect.

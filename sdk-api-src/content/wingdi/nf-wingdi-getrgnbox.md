@@ -7,7 +7,7 @@ old-location: gdi\getrgnbox.htm
 tech.root: gdi
 ms.assetid: 42d06f7f-1bf3-418f-a3b9-c009cf2de10b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRgnBox, GetRgnBox function [Windows GDI], _win32_GetRgnBox, gdi.getrgnbox, wingdi/GetRgnBox
 ms.prod: windows-hardware
 ms.technology: windows-devices

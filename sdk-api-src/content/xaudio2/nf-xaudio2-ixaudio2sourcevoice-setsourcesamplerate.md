@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2sourcevoice_interface_setsourcesamplerate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetSourceSampleRate(UINT32)
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SetSourceSampleRate method, IXAudio2SourceVoice.SetSourceSampleRate, IXAudio2SourceVoice::SetSourceSampleRate, SetSourceSampleRate, SetSourceSampleRate method [XAudio2 Audio Mixing APIs], SetSourceSampleRate method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_setsourcesamplerate, xaudio2/IXAudio2SourceVoice::SetSourceSampleRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
+<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
  
 
  

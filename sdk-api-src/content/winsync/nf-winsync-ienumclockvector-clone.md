@@ -7,7 +7,7 @@ old-location: winsync\ienumclockvector_clone.htm
 tech.root: winsync
 ms.assetid: 17e8704f-15fe-4d08-9e83-fd7b9a064569
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumClockVector interface, IEnumClockVector interface [Windows Sync],Clone method, IEnumClockVector.Clone, IEnumClockVector::Clone, winsync.ienumclockvector_clone, winsync/IEnumClockVector::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

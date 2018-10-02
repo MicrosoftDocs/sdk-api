@@ -7,7 +7,7 @@ old-location: base\createwaitabletimerex.htm
 tech.root: Sync
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, synchapi/CreateWaitableTimerEx, synchapi/CreateWaitableTimerExA, synchapi/CreateWaitableTimerExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,7 +156,7 @@ Multiple processes can have handles to the same timer object, enabling use of th
 </ul>
 Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The timer object is destroyed when its last handle has been closed.
 
-To associate a timer with a window, use the <a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a> function.
+To associate a timer with a window, use the <a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a> function.
 
 
 

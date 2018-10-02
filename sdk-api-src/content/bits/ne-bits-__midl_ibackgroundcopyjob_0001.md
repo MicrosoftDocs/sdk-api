@@ -7,7 +7,7 @@ old-location: bits\bg_job_priority.htm
 tech.root: Bits
 ms.assetid: bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BG_JOB_PRIORITY, BG_JOB_PRIORITY enumeration [BITS], BG_JOB_PRIORITY_FOREGROUND, BG_JOB_PRIORITY_HIGH, BG_JOB_PRIORITY_LOW, BG_JOB_PRIORITY_NORMAL, __MIDL_IBackgroundCopyJob_0001, _drz_bg_job_priority, bits.bg_job_priority, bits/BG_JOB_PRIORITY, bits/BG_JOB_PRIORITY_FOREGROUND, bits/BG_JOB_PRIORITY_HIGH, bits/BG_JOB_PRIORITY_LOW, bits/BG_JOB_PRIORITY_NORMAL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ Multiple foreground transfers can take place simultaneously. However, multiple f
 
 <b>BITS 1.5 and earlier:  </b>BITS processes one job at a time. Foreground jobs have the highest priority and run before background jobs.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa362783(v=VS.85).aspx">Best Practices When Using BITS</a>.
+For more information, see <a href="https://msdn.microsoft.com/f4a09a80-2a85-4b59-b0fd-c23c128973f7">Best Practices When Using BITS</a>.
 
 
 
@@ -99,11 +99,11 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa36
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363033(v=VS.85).aspx">IBackgroundCopyJob::GetPriority</a>
+<a href="https://msdn.microsoft.com/8602ed59-a372-4cb3-bbda-cf1c7afc3669">IBackgroundCopyJob::GetPriority</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363046(v=VS.85).aspx">IBackgroundCopyJob::SetPriority</a>
+<a href="https://msdn.microsoft.com/8b59128d-7e63-45dc-af0f-54ea844dac98">IBackgroundCopyJob::SetPriority</a>
  
 
  

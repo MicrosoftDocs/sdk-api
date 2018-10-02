@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetExitCode
 author: windows-sdk-content
 description: Retrieves the last exit code returned by the executable associated with the work item on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
 old-location: taskschd\ischeduledworkitem_getexitcode.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 857d8b84-2ccf-4888-8aea-869ba70d3f64
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetExitCode method, IScheduledWorkItem.GetExitCode, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the last exit code returned by the executable associated with the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a> on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
+Retrieves the last exit code returned by the executable associated with the <a href="w.htm">work item</a> on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: fs\dismountntmsdrive.htm
 tech.root: Rsm
 ms.assetid: dbec501c-a7bc-4679-afe1-df833dcb932d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DismountNtmsDrive, DismountNtmsDrive function [Files], _zaw_dismountntmsdrive, base.dismountntmsdrive, fs.dismountntmsdrive, ntmsapi/DismountNtmsDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -230,7 +230,7 @@ Dismount requests to stand alone drives place the drive in the dismountable stat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

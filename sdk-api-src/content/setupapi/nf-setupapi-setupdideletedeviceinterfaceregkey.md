@@ -7,7 +7,7 @@ old-location: devinst\setupdideletedeviceinterfaceregkey.htm
 tech.root: devinst
 ms.assetid: 470c96d4-b04f-4c9f-9ce3-9ba3d9ae49c1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiDeleteDeviceInterfaceRegKey, SetupDiDeleteDeviceInterfaceRegKey function [Device and Driver Installation], devinst.setupdideletedeviceinterfaceregkey, di-rtns_73c5871c-1386-4362-be95-e4e49a052cf5.xml, setupapi/SetupDiDeleteDeviceInterfaceRegKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>SetupDiDeleteDeviceInterfaceRegKey</b> function deletes the registry subk
 
 ### -param DeviceInfoSet [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the interface for which to delete interface-specific information in the registry. The device information set must not contain remote elements.
+A pointer to a <a href="devinst.device_information_sets">device information set</a> that contains the interface for which to delete interface-specific information in the registry. The device information set must not contain remote elements.
 
 
 ### -param DeviceInterfaceData [in]

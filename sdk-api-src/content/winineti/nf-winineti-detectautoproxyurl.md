@@ -7,7 +7,7 @@ old-location: wininet\detectautoproxyurl.htm
 tech.root: WinInet
 ms.assetid: 4e94ab0c-0f39-4e6e-a272-6beff61e97c6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DetectAutoProxyUrl, DetectAutoProxyUrl function [WinINet], PROXY_AUTO_DETECT_TYPE_DHCP, PROXY_AUTO_DETECT_TYPE_DNS_A, _inet_detectautoproxyurl_function, wininet.detectautoproxyurl, winineti/DetectAutoProxyUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

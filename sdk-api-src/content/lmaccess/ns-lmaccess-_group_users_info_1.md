@@ -4,10 +4,10 @@ title: "_GROUP_USERS_INFO_1"
 author: windows-sdk-content
 description: The GROUP_USERS_INFO_1 structure contains global group member information.
 old-location: netmgmt\group_users_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: d92e7c18-f2c7-4ea5-8bb6-fec023272dbb
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPGROUP_USERS_INFO_1, *PGROUP_USERS_INFO_1, GROUP_USERS_INFO_1, GROUP_USERS_INFO_1 structure [Network Management], SE_GROUP_ENABLED, SE_GROUP_ENABLED_BY_DEFAULT, SE_GROUP_INTEGRITY, SE_GROUP_INTEGRITY_ENABLED, SE_GROUP_LOGON_ID, SE_GROUP_MANDATORY, SE_GROUP_OWNER, SE_GROUP_RESOURCE, SE_GROUP_USE_FOR_DENY_ONLY, _GROUP_USERS_INFO_1, _win32_group_users_info_1_str, lmaccess/GROUP_USERS_INFO_1, netmgmt.group_users_info_1_str"
 ms.prod: windows
 ms.technology: windows-sdk

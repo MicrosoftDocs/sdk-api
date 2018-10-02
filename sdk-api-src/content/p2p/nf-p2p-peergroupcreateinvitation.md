@@ -4,10 +4,10 @@ title: PeerGroupCreateInvitation function
 author: windows-sdk-content
 description: The PeerGroupCreateInvitation function returns an XML string that can be used by the specified peer to join a group.
 old-location: p2p\peergroupcreateinvitation.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 1ae5c288-6e9b-452a-8994-7878d713cd6d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PeerGroupCreateInvitation, PeerGroupCreateInvitation function [Peer Networking], p2p.peergroupcreateinvitation, p2p/PeerGroupCreateInvitation
 ms.prod: windows-hardware
 ms.technology: windows-devices

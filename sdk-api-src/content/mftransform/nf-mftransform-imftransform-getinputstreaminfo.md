@@ -4,10 +4,10 @@ title: IMFTransform::GetInputStreamInfo
 author: windows-sdk-content
 description: Gets the buffer requirements and other information for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputstreaminfo.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d57ffac7-1a92-4c6b-bd59-0acd7239c0a6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [Media Foundation], GetInputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamInfo method, IMFTransform.GetInputStreamInfo, IMFTransform::GetInputStreamInfo, d57ffac7-1a92-4c6b-bd59-0acd7239c0a6, mf.imftransform_getinputstreaminfo, mftransform/IMFTransform::GetInputStreamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,7 +120,7 @@ Invalid stream identifier.
 
 It is valid to call this method before setting the media types. Note that the results of this call can change dynamically after the media type changes and after <a href="https://msdn.microsoft.com/c94d406b-7cd9-42d4-ae9e-3d21dbb47209">ProcessInput</a> is called, so you may need to call this method again after either of these occur.
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetInputStreamInfo</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetInputStreamInfo</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

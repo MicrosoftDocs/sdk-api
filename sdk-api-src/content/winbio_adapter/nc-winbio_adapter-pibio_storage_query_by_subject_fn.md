@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapterquerybysubject.htm
 tech.root: SecBioMet
 ms.assetid: b2c93122-fae1-44ad-97d4-f90115194a31
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_QUERY_BY_SUBJECT_FN, PIBIO_STORAGE_QUERY_BY_SUBJECT_FN callback, StorageAdapterQueryBySubject, StorageAdapterQueryBySubject callback function [Windows Biometric Framework API], secbiomet.storageadapterquerybysubject, winbio_adapter/StorageAdapterQueryBySubject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -181,9 +181,13 @@ After a successful call to this function, the result set cursor should be  posit
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-/////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterQueryBySubject
 //
@@ -218,26 +222,26 @@ StorageAdapterQueryBySubject(
     }
 
     // Retrieve the context from the pipeline.
-    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
+    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
 
     // Verify the pipeline state.
-    if (storageContext == NULL || storageContext->FileHandle == INVALID_HANDLE_VALUE)
+    if (storageContext == NULL || storageContext-&gt;FileHandle == INVALID_HANDLE_VALUE)
     {
         hr =  WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
     }
 
     // Verify the Identity argument.
-    if (Identity->Type != WINBIO_ID_TYPE_GUID &&
-        Identity->Type != WINBIO_ID_TYPE_SID &&
-        Identity->Type != WINBIO_ID_TYPE_WILDCARD)
+    if (Identity-&gt;Type != WINBIO_ID_TYPE_GUID &amp;&amp;
+        Identity-&gt;Type != WINBIO_ID_TYPE_SID &amp;&amp;
+        Identity-&gt;Type != WINBIO_ID_TYPE_WILDCARD)
     {
         hr = E_INVALIDARG;
         goto cleanup;
     }
 
-    if (Identity->Type == WINBIO_ID_TYPE_WILDCARD &&
-        Identity->Value.Wildcard != WINBIO_IDENTITY_WILDCARD)
+    if (Identity-&gt;Type == WINBIO_ID_TYPE_WILDCARD &amp;&amp;
+        Identity-&gt;Value.Wildcard != WINBIO_IDENTITY_WILDCARD)
     {
         hr = E_INVALIDARG;
         goto cleanup;
@@ -259,7 +263,7 @@ StorageAdapterQueryBySubject(
             Pipeline,
             Identity,
             SubFactor,
-            &recordCount
+            &amp;recordCount
             );
     if (FAILED(hr))
     {
@@ -275,10 +279,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IResultOwnerData::FindItem
 author: windows-sdk-content
 description: Finds the next item in a virtual list matching a specified string.
 old-location: mmc\iresultownerdata_finditem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 839e6038-3f47-4192-b717-d81e4d9f202d
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],FindItem method, IResultOwnerData.FindItem, IResultOwnerData::FindItem, _slate_iresultownerdata_finditem, mmc.iresultownerdata_finditem, mmc/IResultOwnerData::FindItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

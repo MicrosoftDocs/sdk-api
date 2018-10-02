@@ -4,10 +4,10 @@ title: IMFASFIndexer::GetCompletedIndex
 author: windows-sdk-content
 description: Retrieves the completed index from the ASF indexer object.
 old-location: mf\imfasfindexer_getcompletedindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: aca721e8-e610-4022-a3da-8ff5a5943e3e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetCompletedIndex, GetCompletedIndex method [Media Foundation], GetCompletedIndex method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetCompletedIndex method, IMFASFIndexer.GetCompletedIndex, IMFASFIndexer::GetCompletedIndex, aca721e8-e610-4022-a3da-8ff5a5943e3e, mf.imfasfindexer_getcompletedindex, wmcontainer/IMFASFIndexer::GetCompletedIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,9 +130,13 @@ You cannot use this method in an index reading scenario.  You can only use this 
 
 The following example shows how to write the complete ASF index to a byte stream.
 
-
-```cpp
-HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
 {
     const DWORD cbChunkSize = 4096;
 
@@ -141,39 +145,39 @@ HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
     QWORD cbIndex = 0;
     DWORD cbIndexWritten = 0;
 
-    HRESULT hr = pIndex->GetIndexWriteSpace(&cbIndex);
+    HRESULT hr = pIndex-&gt;GetIndexWriteSpace(&amp;cbIndex);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = MFCreateMemoryBuffer(cbChunkSize, &pBuffer);
+    hr = MFCreateMemoryBuffer(cbChunkSize, &amp;pBuffer);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    while (cbIndexWritten < cbIndex)
+    while (cbIndexWritten &lt; cbIndex)
     {
         BYTE *pData = NULL;
         DWORD cbData = 0;
         DWORD cbWritten = 0;
 
-        hr = pIndex->GetCompletedIndex(pBuffer, cbIndexWritten);
+        hr = pIndex-&gt;GetCompletedIndex(pBuffer, cbIndexWritten);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pBuffer->Lock(&pData, NULL, &cbData);
+        hr = pBuffer-&gt;Lock(&amp;pData, NULL, &amp;cbData);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pStream->Write(pData, cbData, &cbWritten);
+        hr = pStream-&gt;Write(pData, cbData, &amp;cbWritten);
 
-        (void)pBuffer->Unlock();
+        (void)pBuffer-&gt;Unlock();
 
         if (FAILED(hr))
         {
@@ -184,13 +188,13 @@ HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
     }
 
 done:
-    SafeRelease(&pBuffer);
+    SafeRelease(&amp;pBuffer);
     return hr;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

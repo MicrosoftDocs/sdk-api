@@ -7,7 +7,7 @@ old-location: search\_search_HITRANGE.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\structures\hitrange.htm
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: HITRANGE, HITRANGE structure [search], _search_HITRANGE, search._search_HITRANGE, structuredquery/HITRANGE, tagHITRANGE
 ms.prod: windows
 ms.technology: windows-sdk

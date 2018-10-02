@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetFileTimeElem.htm
 tech.root: properties
 ms.assetid: e38b16ed-84cb-4444-bfbd-1165595bc9b5
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PropVariantGetFileTimeElem, PropVariantGetFileTimeElem function [Windows Properties], _shell_PropVariantGetFileTimeElem, properties.PropVariantGetFileTimeElem, propvarutil/PropVariantGetFileTimeElem, shell.PropVariantGetFileTimeElem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,39 +94,43 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_FILETIME, <i>iElem</i> must be 0; otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="https://msdn.microsoft.com/en-us/library/Bb776522(v=VS.85).aspx">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_FILETIME, <i>iElem</i> must be 0; otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="shell.PropVariantGetElementCount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
 
 
 #### Examples
 
-The following code example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776523(v=VS.85).aspx">PropVariantGetFileTimeElem</a> in an iteration statement to access the values in <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following code example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantGetFileTimeElem">PropVariantGetFileTimeElem</a> in an iteration statement to access the values in <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
       
                 
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume propvar is initialized and valid;
 
-if ((propvar.vt & VT_TYPEMASK) == VT_FILETIME)
+if ((propvar.vt &amp; VT_TYPEMASK) == VT_FILETIME)
 {
     UINT cElem = PropVariantGetElementCount(propvar);
-    HRESULT hr = <mark type="const">S_OK</mark>;
+    HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
 
-    for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
+    for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
     {
         FILETIME ftValue;
-        hr = PropVariantGetFileTimeElem(propvar, iElem, &ftValue);
+        hr = PropVariantGetFileTimeElem(propvar, iElem, &amp;ftValue);
 
         if (SUCCEEDED(hr))
         {
             // ftValue is valid now
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -135,7 +139,7 @@ if ((propvar.vt & VT_TYPEMASK) == VT_FILETIME)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a>
+<a href="shell.PropVariantGetElem">PropVariantGetElem</a>
  
 
  

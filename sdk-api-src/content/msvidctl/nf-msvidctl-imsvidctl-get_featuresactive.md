@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_featuresactive.htm
 tech.root: MSTV
 ms.assetid: 33832fe2-e8ef-4e37-9af9-90f566feb559
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesActive method, IMSVidCtl.get_FeaturesActive, IMSVidCtl::get_FeaturesActive, IMSVidCtlget_FeaturesActive, get_FeaturesActive, get_FeaturesActive method [Microsoft TV Technologies], get_FeaturesActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresactive, msvidctl/IMSVidCtl::get_FeaturesActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,21 +88,25 @@ If no features are active, the method might return <b>NULL</b> in the <i>pVal</i
 
 #### Examples
 
-
-```cpp
-
-CComPtr<IMSVidFeatures> pFeatures;
-hr = m_pVideoControl->get_FeaturesActive(&pFeatures);
-if (SUCCEEDED(hr) && pFeatures)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr&lt;IMSVidFeatures&gt; pFeatures;
+hr = m_pVideoControl-&gt;get_FeaturesActive(&amp;pFeatures);
+if (SUCCEEDED(hr) &amp;&amp; pFeatures)
 {
     long c;
-    pFs->get_Count(&c);
+    pFs-&gt;get_Count(&amp;c);
     /* Enumerate the features */
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_read.htm
 tech.root: Multimedia
 ms.assetid: 95835ba2-5085-467f-ae2c-27dd4d2ea68c
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Read method, IAVIStream.Read, IAVIStream::Read, Read, Read method [Windows Multimedia], Read method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Read, multimedia.iavistream_read, vfw/IAVIStream::Read
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,17 +112,21 @@ Returns AVIERR_OK if successful or AVIERR_BUFFERTOOSMALL if the buffer is not la
 
 For handlers written in C++, <b>Read</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Read(LONG lStart, LONG lSamples, 
     LPVOID lpBuffer, LONG cbBuffer, 
     LONG *plBytes, LONG *plSamples); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

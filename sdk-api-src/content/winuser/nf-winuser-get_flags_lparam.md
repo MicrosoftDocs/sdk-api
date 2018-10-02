@@ -7,7 +7,7 @@ old-location: inputdev\get_flags_lparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_flags_lparam.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GET_FLAGS_LPARAM, GET_FLAGS_LPARAM macro [Keyboard and Mouse Input], _win32_GET_FLAGS_LPARAM, _win32_get_flags_lparam_cpp, inputdev.get_flags_lparam, winui._win32_get_flags_lparam, winuser/GET_FLAGS_LPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The value to be converted.
 
 
 
-This macro is identical to the <a href="https://msdn.microsoft.com/en-us/library/ms646250(v=VS.85).aspx">GET_KEYSTATE_LPARAM</a> macro.
+This macro is identical to the <a href="https://msdn.microsoft.com/1af5cf12-0b20-4042-8e01-65e3c5886560">GET_KEYSTATE_LPARAM</a> macro.
 
 
 
@@ -82,11 +82,11 @@ This macro is identical to the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646250(v=VS.85).aspx">GET_KEYSTATE_LPARAM</a>
+<a href="https://msdn.microsoft.com/1af5cf12-0b20-4042-8e01-65e3c5886560">GET_KEYSTATE_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 

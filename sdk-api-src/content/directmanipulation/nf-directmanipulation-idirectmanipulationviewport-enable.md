@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_enable.htm
 tech.root: directmanipulation
 ms.assetid: 47ebb502-26c6-4bff-8baf-bd825fc06755
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Enable, Enable method [Direct Manipulation], Enable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Enable method, IDirectManipulationViewport.Enable, IDirectManipulationViewport::Enable, directmanipulation.idirectmanipulationviewport_enable, directmanipulation/IDirectManipulationViewport::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,12 +82,16 @@ Call this method if the <b>AUTODISABLE</b> option is set.
 
 The following example shows how to use this method.
 
-
-```
-HRESULT hr = pViewport->Enable();
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pViewport-&gt;Enable();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

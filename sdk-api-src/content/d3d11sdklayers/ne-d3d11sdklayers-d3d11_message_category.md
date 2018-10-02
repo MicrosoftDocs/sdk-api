@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_message_category.htm
 tech.root: direct3d11
 ms.assetid: e4af5bf6-cbbe-488a-ad8e-3a4409f2591d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 2ba52fac-75ec-4d76-4f85-c3a01fddd778, D3D11_MESSAGE_CATEGORY, D3D11_MESSAGE_CATEGORY enumeration [Direct3D 11], D3D11_MESSAGE_CATEGORY_APPLICATION_DEFINED, D3D11_MESSAGE_CATEGORY_CLEANUP, D3D11_MESSAGE_CATEGORY_COMPILATION, D3D11_MESSAGE_CATEGORY_EXECUTION, D3D11_MESSAGE_CATEGORY_INITIALIZATION, D3D11_MESSAGE_CATEGORY_MISCELLANEOUS, D3D11_MESSAGE_CATEGORY_RESOURCE_MANIPULATION, D3D11_MESSAGE_CATEGORY_SHADER, D3D11_MESSAGE_CATEGORY_STATE_CREATION, D3D11_MESSAGE_CATEGORY_STATE_GETTING, D3D11_MESSAGE_CATEGORY_STATE_SETTING, d3d11sdklayers/D3D11_MESSAGE_CATEGORY, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_APPLICATION_DEFINED, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_CLEANUP, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_COMPILATION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_EXECUTION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_INITIALIZATION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_MISCELLANEOUS, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_RESOURCE_MANIPULATION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_SHADER, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_STATE_CREATION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_STATE_GETTING, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_STATE_SETTING, direct3d11.d3d11_message_category
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://msdn.microsoft.com/en-us/library/Ff476549(v=VS.85).aspx">ID3D11InfoQueue::GetMessage</a> and when adding a message with <a href="https://msdn.microsoft.com/en-us/library/Ff476540(v=VS.85).aspx">ID3D11InfoQueue::AddMessage</a>. When creating an <a href="https://msdn.microsoft.com/en-us/library/Ff476177(v=VS.85).aspx">info queue filter</a>, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
+Categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://msdn.microsoft.com/685cddc5-cedd-410f-a693-665d2d69402e">ID3D11InfoQueue::GetMessage</a> and when adding a message with <a href="https://msdn.microsoft.com/7265a273-327a-482b-9d47-6931e031cff8">ID3D11InfoQueue::AddMessage</a>. When creating an <a href="https://msdn.microsoft.com/6ff12751-86dd-4ae0-b532-661a70dad21f">info queue filter</a>, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
 
 
 ## -enum-fields
@@ -60,7 +60,7 @@ Categories of debug messages. This will identify the category of a message when 
 
 ### -field D3D11_MESSAGE_CATEGORY_APPLICATION_DEFINED
 
-User defined message. See <a href="https://msdn.microsoft.com/en-us/library/Ff476540(v=VS.85).aspx">ID3D11InfoQueue::AddMessage</a>.
+User defined message. See <a href="https://msdn.microsoft.com/7265a273-327a-482b-9d47-6931e031cff8">ID3D11InfoQueue::AddMessage</a>.
 
 
 ### -field D3D11_MESSAGE_CATEGORY_MISCELLANEOUS
@@ -99,7 +99,7 @@ User defined message. See <a href="https://msdn.microsoft.com/en-us/library/Ff47
 
 
 
-This is part of the Information Queue feature. See <a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>.
+This is part of the Information Queue feature. See <a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>.
 
 
 
@@ -109,7 +109,7 @@ This is part of the Information Queue feature. See <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476157(v=VS.85).aspx">Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Layer Enumerations</a>
  
 
  

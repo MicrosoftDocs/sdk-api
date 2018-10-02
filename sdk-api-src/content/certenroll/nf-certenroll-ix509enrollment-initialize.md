@@ -4,10 +4,10 @@ title: IX509Enrollment::Initialize
 author: windows-sdk-content
 description: Initializes the enrollment object and creates a default PKCS #10 request.
 old-location: security\ix509enrollment_initialize_method.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 3bf4ce4a-6556-403c-8334-a6bf01f074a3
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509Enrollment interface [Security],Initialize method, IX509Enrollment.Initialize, IX509Enrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Initialize, security.ix509enrollment_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>Initialize</b> method initializes the enrollment object and creates a def
 
 ### -param Context [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested enrollment is for a user, a computer, or an administrator acting on behalf of a computer.
+An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested enrollment is for a user, a computer, or an administrator acting on behalf of a computer.
 
 
 ## -returns
@@ -69,7 +69,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X50
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ The <b>Initialize</b> method creates a new key pair and initializes empty collec
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
  
 
  

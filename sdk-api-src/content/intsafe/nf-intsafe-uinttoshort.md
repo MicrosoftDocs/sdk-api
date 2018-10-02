@@ -4,10 +4,10 @@ title: UIntToShort function
 author: windows-sdk-content
 description: Converts a value of type UINT to a value of type SHORT.
 old-location: shell\UIntToShort.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: abad8095-ac1b-4604-b423-5b244fa60127
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UIntToShort, UIntToShort function [Windows Shell], _shell_UIntToShort, intsafe/UIntToShort, shell.UIntToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

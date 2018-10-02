@@ -7,7 +7,7 @@ old-location: fs\setntmsobjectattribute.htm
 tech.root: Rsm
 ms.assetid: ce572b2a-f4c3-4cf3-8bb3-074ba3d1ec30
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetNtmsObjectAttribute, SetNtmsObjectAttribute function [Files], SetNtmsObjectAttributeA, SetNtmsObjectAttributeW, _zaw_setntmsobjectattribute, base.setntmsobjectattribute, fs.setntmsobjectattribute, ntmsapi/SetNtmsObjectAttribute, ntmsapi/SetNtmsObjectAttributeA, ntmsapi/SetNtmsObjectAttributeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -322,7 +322,7 @@ The following is the list of objects that require special access rights.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
  
 
  

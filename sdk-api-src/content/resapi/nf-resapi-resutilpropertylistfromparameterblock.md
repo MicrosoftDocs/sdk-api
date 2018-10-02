@@ -4,10 +4,10 @@ title: ResUtilPropertyListFromParameterBlock function
 author: windows-sdk-content
 description: Constructs a property list from a property table and a parameter block.
 old-location: mscs\resutilpropertylistfromparameterblock.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6993e279-07c7-4444-b1b9-0d25360e43e3
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK function [Failover Cluster], ResUtilPropertyListFromParameterBlock, ResUtilPropertyListFromParameterBlock function [Failover Cluster], _wolf_resutilpropertylistfromparameterblock, mscs.resutilpropertylistfromparameterblock, resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, resapi/ResUtilPropertyListFromParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,9 +121,13 @@ The following example defines three properties (Protocol, PortNumber, and Connec
      example uses the <a href="https://msdn.microsoft.com/fc2032d2-40a5-45bd-8661-1e778789bad6">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////
 
 //  Be sure to create the following file before you compile.
 //  For a code listing, see "ClusDocEx.h".
@@ -213,10 +217,10 @@ The following example defines three properties (Protocol, PortNumber, and Connec
         nResult = ResUtilPropertyListFromParameterBlock(
                       pPropTable,
                       pPropList,
-                      &cbBufSize,
-                      (LPBYTE) &NewParams,
-                      &cbReturned,
-                      &cbRequired );
+                      &amp;cbBufSize,
+                      (LPBYTE) &amp;NewParams,
+                      &amp;cbReturned,
+                      &amp;cbRequired );
 
         if( nResult == ERROR_MORE_DATA )
         {
@@ -229,10 +233,10 @@ The following example defines three properties (Protocol, PortNumber, and Connec
             nResult = ResUtilPropertyListFromParameterBlock(
                           pPropTable,
                           pPropList,
-                          &cbBufSize,
-                          (PBYTE) &NewParams,
-                          &cbReturned,
-                          &cbRequired );
+                          &amp;cbBufSize,
+                          (PBYTE) &amp;NewParams,
+                          &amp;cbReturned,
+                          &amp;cbRequired );
         }
 
         ClusDocEx_DebugPrint( L"Results:", nResult );
@@ -244,10 +248,10 @@ The following example defines three properties (Protocol, PortNumber, and Connec
     
         return (int)( nResult != ERROR_SUCCESS );    
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

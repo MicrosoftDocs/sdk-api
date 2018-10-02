@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ixamldiagnostics_hittest.htm
 tech.root: xaml_diagnostics
 ms.assetid: B7722F49-F477-4D24-9183-BC09A4A12730
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HitTest, HitTest method, HitTest method,IXamlDiagnostics interface, IXamlDiagnostics interface,HitTest method, IXamlDiagnostics.HitTest, IXamlDiagnostics::HitTest, xaml_diagnostics.ixamldiagnostics_hittest, xamlom/IXamlDiagnostics::HitTest
 ms.prod: windows-hardware
 ms.technology: windows-devices

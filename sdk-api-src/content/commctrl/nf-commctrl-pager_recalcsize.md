@@ -4,10 +4,10 @@ title: Pager_RecalcSize macro
 author: windows-sdk-content
 description: Forces the pager control to recalculate the size of the contained window. Using this macro will result in a PGN_CALCSIZE notification being sent. You can use this macro or send the PGM_RECALCSIZE message explicitly.
 old-location: controls\Pager_RecalcSize.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_recalcsize.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Pager_RecalcSize, Pager_RecalcSize macro [Windows Controls], _win32_Pager_RecalcSize, _win32_Pager_RecalcSize_cpp, commctrl/Pager_RecalcSize, controls.Pager_RecalcSize, controls._win32_Pager_RecalcSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Forces the pager control to recalculate the size of the contained window. Using this macro will result in a <a href="https://msdn.microsoft.com/en-us/library/Bb760864(v=VS.85).aspx">PGN_CALCSIZE</a> notification being sent. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760876(v=VS.85).aspx">PGM_RECALCSIZE</a> message explicitly. 
+Forces the pager control to recalculate the size of the contained window. Using this macro will result in a <a href="https://msdn.microsoft.com/a15f4191-2f26-4139-bdaf-bab219449b78">PGN_CALCSIZE</a> notification being sent. You can use this macro or send the <a href="https://msdn.microsoft.com/51b75ce8-2b41-4f1a-830e-b25e7d77dccb">PGM_RECALCSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Forces the pager control to recalculate the size of the contained window. Using 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the pager control. 
 

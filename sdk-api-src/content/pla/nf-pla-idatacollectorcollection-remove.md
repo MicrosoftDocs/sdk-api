@@ -7,7 +7,7 @@ old-location: pla\idatacollectorcollection_remove.htm
 tech.root: PLA
 ms.assetid: 7f5a6d20-d65a-477b-8886-8536315bc36e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDataCollectorCollection interface [PLA],Remove method, IDataCollectorCollection.Remove, IDataCollectorCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IDataCollectorCollection interface, base.idatacollectorcollection_remove, pla.idatacollectorcollection_remove, pla/IDataCollectorCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

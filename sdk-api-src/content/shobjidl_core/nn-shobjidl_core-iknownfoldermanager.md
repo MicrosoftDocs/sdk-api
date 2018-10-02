@@ -4,10 +4,10 @@ title: IKnownFolderManager
 author: windows-sdk-content
 description: Exposes methods that create, enumerate or manage existing known folders.
 old-location: shell\IKnownFolderManager.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ba7dbef7-2732-49e8-b573-a3b731bdc633
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IKnownFolderManager, IKnownFolderManager interface [Windows Shell], IKnownFolderManager interface [Windows Shell],described, _shell_IKnownFolderManager, shell.IKnownFolderManager, shobjidl_core/IKnownFolderManager
 ms.prod: windows
 ms.technology: windows-sdk

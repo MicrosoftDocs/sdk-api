@@ -7,7 +7,7 @@ old-location: com\actrl_property_entry.htm
 tech.root: com
 ms.assetid: 90b13dd1-0ca6-4674-b9fa-a61aed4637d7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*PACTRL_PROPERTY_ENTRYW, ACTRL_ACCESS_PROTECTED, ACTRL_PROPERTY_ENTRY, ACTRL_PROPERTY_ENTRY structure [COM], ACTRL_PROPERTY_ENTRYA, ACTRL_PROPERTY_ENTRYW, PACTRL_PROPERTY_ENTRY, PACTRL_PROPERTY_ENTRY structure pointer [COM], _ACTRL_PROPERTY_ENTRYA, _ACTRL_PROPERTY_ENTRYW, accctrl/ACTRL_PROPERTY_ENTRY, accctrl/ACTRL_PROPERTY_ENTRYA, accctrl/ACTRL_PROPERTY_ENTRYW, accctrl/PACTRL_PROPERTY_ENTRY, com.actrl_property_entry"
 ms.prod: windows
 ms.technology: windows-sdk

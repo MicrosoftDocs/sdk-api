@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Image, Image constructors [GDI+], Image.Image, Image.Image(IN const WCHAR,IN BOOL), Image::Image, Image::Image(IN const WCHAR,IN BOOL), _gdiplus_CLASS_Image_Constructors, gdiplus._gdiplus_CLASS_Image_Constructors, gdiplusheaders/Image
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> class. For a complete class listing, see <b>Image Class</b>. 
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> class. For a complete class listing, see <b>Image Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -59,19 +59,19 @@ req.redist:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535411(v=VS.85).aspx">Image(WCHAR*,BOOL)</a>
+<a href="https://msdn.microsoft.com/35c4b98b-6fbb-4506-9437-756d0d90ce8a">Image(WCHAR*,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/ms535411(v=VS.85).aspx">Image::Image</a> object based on a file.
+Creates an <a href="https://msdn.microsoft.com/35c4b98b-6fbb-4506-9437-756d0d90ce8a">Image::Image</a> object based on a file.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535410(v=VS.85).aspx">Image(IStream*,BOOL)</a>
+<a href="https://msdn.microsoft.com/0b29d016-0283-42b4-b06e-29f89079827b">Image(IStream*,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/ms535410(v=VS.85).aspx">Image::Image</a> object based on a stream.
+Creates an <a href="https://msdn.microsoft.com/0b29d016-0283-42b4-b06e-29f89079827b">Image::Image</a> object based on a stream.
 
 </td>
 </tr>

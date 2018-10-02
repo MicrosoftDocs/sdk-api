@@ -7,7 +7,7 @@ old-location: rm\drmgetsignedissuancelicenseex.htm
 tech.root: AdRms_Sdk
 ms.assetid: 9d37f69e-e582-4efc-9f17-866f195e439a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMGetSignedIssuanceLicenseEx, DRMGetSignedIssuanceLicenseEx function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, msdrm/DRMGetSignedIssuanceLicenseEx, rm.drmgetsignedissuancelicenseex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ Contains various options for acquiring the signed issuance license. This paramet
 
 #### DRM_SIGN_OFFLINE
 
-Specifies an offline issuance license signing request. When signing offline, the issuance license is signed by using the <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificate</a> (CLC) obtained during a previous call to <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a>. To get this certificate from the store, use <a href="https://msdn.microsoft.com/7a7797f2-d219-4a17-ac3d-96134cd14a55">DRMEnumerateLicense</a>. Each CLC is tied to the server that issued it; be sure that you are using the correct client licensor certificate for the issuance license you are publishing.
+Specifies an offline issuance license signing request. When signing offline, the issuance license is signed by using the <a href="c_gly.htm">client licensor certificate</a> (CLC) obtained during a previous call to <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a>. To get this certificate from the store, use <a href="https://msdn.microsoft.com/7a7797f2-d219-4a17-ac3d-96134cd14a55">DRMEnumerateLicense</a>. Each CLC is tied to the server that issued it; be sure that you are using the correct client licensor certificate for the issuance license you are publishing.
 
 This flag cannot be combined with the <b>DRM_SIGN_ONLINE</b> or <b>DRM_SERVER_ISSUANCELICENSE</b> flags.
 

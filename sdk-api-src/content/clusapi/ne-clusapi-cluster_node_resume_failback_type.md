@@ -4,10 +4,10 @@ title: CLUSTER_NODE_RESUME_FAILBACK_TYPE
 author: windows-sdk-content
 description: Specifies the failback type to use when a cluster node in a paused state is resumed by the ResumeClusterNodeEx function.
 old-location: mscs\cluster_node_resume_failback_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 26A002F6-A933-450B-84FF-F2BC8B301B6B
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CLUSTER_NODE_RESUME_FAILBACK_TYPE, CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration [Failover Cluster], ClusterNodeResumeFailbackTypeCount, DoNotFailbackGroups, FailbackGroupsImmediately, FailbackGroupsPerPolicy, clusapi/CLUSTER_NODE_RESUME_FAILBACK_TYPE, clusapi/ClusterNodeResumeFailbackTypeCount, clusapi/DoNotFailbackGroups, clusapi/FailbackGroupsImmediately, clusapi/FailbackGroupsPerPolicy, mscs.cluster_node_resume_failback_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Defines the maximum number of failback types.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 

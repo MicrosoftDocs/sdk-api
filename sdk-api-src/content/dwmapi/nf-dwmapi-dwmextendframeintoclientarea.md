@@ -7,7 +7,7 @@ old-location: dwm\dwmextendframeintoclientarea.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmextendframeintoclientarea.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DwmExtendFrameIntoClientArea, DwmExtendFrameIntoClientArea function [Desktop Window Manager], _udwm_dwmextendframeintoclientarea, _udwm_dwmextendframeintoclientarea_cpp, dwm.dwmextendframeintoclientarea, dwmapi/DwmExtendFrameIntoClientArea, winui._udwm_dwmextendframeintoclientarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ The handle to the window in which the frame will be extended into the client are
 
 ### -param pMarInset [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773244(v=VS.85).aspx">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
+A pointer to a <a href="inet_MARGINS">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
 
 
 ## -returns
@@ -82,7 +82,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function must be called whenever Desktop Window Manager (DWM) composition is toggled. Handle the <a href="https://msdn.microsoft.com/en-us/library/Dd388199(v=VS.85).aspx">WM_DWMCOMPOSITIONCHANGED</a> message for composition change notification. 
+This function must be called whenever Desktop Window Manager (DWM) composition is toggled. Handle the <a href="https://msdn.microsoft.com/ae412d35-8901-4521-a954-239864bca219">WM_DWMCOMPOSITIONCHANGED</a> message for composition change notification. 
 
 Use negative margin values to create the "sheet of glass" effect where the client area is rendered as a solid surface with no window border.
 
@@ -91,9 +91,13 @@ Use negative margin values to create the "sheet of glass" effect where the clien
 
 The following sample demonstrates how to extend the bottom margin, creating a large bottom frame.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT ExtendIntoClientBottom(HWND hwnd)
 {
    // Set margins, extending the bottom margin
@@ -101,21 +105,25 @@ HRESULT ExtendIntoClientBottom(HWND hwnd)
    HRESULT hr = S_OK;
 
    // Extend frame on the bottom of client area
-   hr = DwmExtendFrameIntoClientArea(hwnd,&margins);
+   hr = DwmExtendFrameIntoClientArea(hwnd,&amp;margins);
    if (SUCCEEDED(hr))
    {
       // ...
    }
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following sample demonstrates the "sheet of glass" effect where the client area is rendered without a window border.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT ExtendIntoClientAll(HWND hwnd)
 {
    // Negative margins have special meaning to DwmExtendFrameIntoClientArea.
@@ -125,16 +133,16 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
    HRESULT hr = S_OK;
 
    // Extend the frame across the entire window.
-   hr = DwmExtendFrameIntoClientArea(hwnd,&margins);
+   hr = DwmExtendFrameIntoClientArea(hwnd,&amp;margins);
    if (SUCCEEDED(hr))
    {
       // ...
    }
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -143,7 +151,7 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969537(v=VS.85).aspx">DWM Blur Behind Overview</a>
+<a href="https://msdn.microsoft.com/bdf0f8bd-e399-4244-ae39-460f09a16f3c">DWM Blur Behind Overview</a>
  
 
  

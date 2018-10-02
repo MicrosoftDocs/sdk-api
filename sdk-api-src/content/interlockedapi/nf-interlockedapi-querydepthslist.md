@@ -7,7 +7,7 @@ old-location: base\querydepthslist.htm
 tech.root: Sync
 ms.assetid: 3f9b4481-647f-457f-bdfb-62e6ae4198e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QueryDepthSList, QueryDepthSList function, base.querydepthslist, interlockedapi/QueryDepthSList, winbase/QueryDepthSList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DD_FLIPTOGDISURFACEDATA"
 author: windows-sdk-content
 description: The DD_FLIPTOGDISURFACEDATA structure contains the GDI surface notification information.
 old-location: display\dd_fliptogdisurfacedata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: ac0fdaf7-0cb2-4474-b3dd-a039161513a4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA structure [Display Devices], _DD_FLIPTOGDISURFACEDATA, ddrawint/DD_FLIPTOGDISURFACEDATA, ddstrcts_7e93a017-4f74-43c9-9aaa-6e64da35870d.xml, display.dd_fliptogdisurfacedata"
 ms.prod: windows
 ms.technology: windows-sdk

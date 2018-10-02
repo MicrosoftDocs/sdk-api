@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_packed_mip_info.htm
 tech.root: direct3d12
 ms.assetid: B9231C70-A6FF-4660-90B8-04207D2FF762
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_PACKED_MIP_INFO, D3D12_PACKED_MIP_INFO structure, d3d12/D3D12_PACKED_MIP_INFO, direct3d12.d3d12_packed_mip_info
 ms.prod: windows
 ms.technology: windows-sdk

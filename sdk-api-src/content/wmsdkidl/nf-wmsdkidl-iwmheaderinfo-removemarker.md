@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo_removemarker.htm
 tech.root: wmformat
 ms.assetid: b95aa113-b218-44ef-9516-20894e02ee6c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],RemoveMarker method, IWMHeaderInfo.RemoveMarker, IWMHeaderInfo2 interface [windows Media Format],RemoveMarker method, IWMHeaderInfo2::RemoveMarker, IWMHeaderInfo3 interface [windows Media Format],RemoveMarker method, IWMHeaderInfo3::RemoveMarker, IWMHeaderInfo::RemoveMarker, IWMHeaderInfoRemoveMarker, RemoveMarker, RemoveMarker method [windows Media Format], RemoveMarker method [windows Media Format],IWMHeaderInfo interface, RemoveMarker method [windows Media Format],IWMHeaderInfo2 interface, RemoveMarker method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo_removemarker, wmsdkidl/IWMHeaderInfo2::RemoveMarker, wmsdkidl/IWMHeaderInfo3::RemoveMarker, wmsdkidl/IWMHeaderInfo::RemoveMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ req.redist:
 
 
 
-The <b>RemoveMarker</b> method removes a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a> from the header section of the ASF file.
+The <b>RemoveMarker</b> method removes a <a href="wmformat_glossary.htm">marker</a> from the header section of the ASF file.
 
 
 

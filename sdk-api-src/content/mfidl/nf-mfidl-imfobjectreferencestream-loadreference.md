@@ -4,10 +4,10 @@ title: IMFObjectReferenceStream::LoadReference
 author: windows-sdk-content
 description: Marshals an interface from data stored in the stream.
 old-location: mf\imfobjectreferencestream_loadreference.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: fabf7de2-8433-43ba-9ded-001569614054
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFObjectReferenceStream interface [Media Foundation],LoadReference method, IMFObjectReferenceStream.LoadReference, IMFObjectReferenceStream::LoadReference, LoadReference, LoadReference method [Media Foundation], LoadReference method [Media Foundation],IMFObjectReferenceStream interface, fabf7de2-8433-43ba-9ded-001569614054, mf.imfobjectreferencestream_loadreference, mfidl/IMFObjectReferenceStream::LoadReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

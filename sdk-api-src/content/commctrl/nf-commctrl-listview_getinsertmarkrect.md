@@ -4,10 +4,10 @@ title: ListView_GetInsertMarkRect macro
 author: windows-sdk-content
 description: Gets the rectangle that bounds the insertion point. You can use this macro or send the LVM_GETINSERTMARKRECT message explicitly.
 old-location: controls\ListView_GetInsertMarkRect.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkrect.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_GetInsertMarkRect, ListView_GetInsertMarkRect macro [Windows Controls], _win32_ListView_GetInsertMarkRect, _win32_ListView_GetInsertMarkRect_cpp, commctrl/ListView_GetInsertMarkRect, controls.ListView_GetInsertMarkRect, controls._win32_ListView_GetInsertMarkRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the rectangle that bounds the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774949(v=VS.85).aspx">LVM_GETINSERTMARKRECT</a> message explicitly. 
+Gets the rectangle that bounds the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/7b10229c-73ab-426c-8a8a-71258a33e248">LVM_GETINSERTMARKRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the rectangle that bounds the insertion point. You can use this macro or se
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -75,7 +75,7 @@ Type: <b>LPRECT</b>
 
 
 
-To use <b>ListView_GetInsertMarkRect</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetInsertMarkRect</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

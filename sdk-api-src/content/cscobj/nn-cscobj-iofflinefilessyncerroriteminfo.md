@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerroriteminfo.htm
 tech.root: OfflineFiles
 ms.assetid: 0af039a6-f0dd-4117-a174-38d32cfc0220
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesSyncErrorItemInfo, IOfflineFilesSyncErrorItemInfo interface [Offline Files], IOfflineFilesSyncErrorItemInfo interface [Offline Files],described, cscobj/IOfflineFilesSyncErrorItemInfo, of.iofflinefilessyncerroriteminfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Provides file attributes, time information, and file size for an item associated
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSyncErrorItemInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOfflineFilesSyncErrorItemInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSyncErrorItemInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesSyncErrorItemInfo</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IOfflineFilesSyncErrorItemInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530634(v=VS.85).aspx">GetFileAttributes</a>
+<a href="https://msdn.microsoft.com/4e14d571-230b-4757-8e81-2fb8dc6b9c3f">GetFileAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Win32 file attributes for the item.
@@ -80,7 +80,7 @@ Retrieves the Win32 file attributes for the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530635(v=VS.85).aspx">GetFileSize</a>
+<a href="https://msdn.microsoft.com/a1873a10-0e60-46c3-a3a3-12d974cc0ee9">GetFileSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the item in bytes.
@@ -89,7 +89,7 @@ Retrieves the size of the item in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530636(v=VS.85).aspx">GetFileTimes</a>
+<a href="https://msdn.microsoft.com/dec0ce0c-ef24-482f-9890-19864d9ff652">GetFileTimes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last-write and change times for the item.
@@ -104,7 +104,7 @@ Retrieves the last-write and change times for the item.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

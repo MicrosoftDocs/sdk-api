@@ -7,7 +7,7 @@ old-location: mstv\iisdbemergencyinformationdescriptor_getareacode.htm
 tech.root: MSTV
 ms.assetid: 7bf09adf-6a04-4c3a-8c66-aea4e96c6936
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetAreaCode, GetAreaCode method [Microsoft TV Technologies], GetAreaCode method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetAreaCode method, IIsdbEmergencyInformationDescriptor.GetAreaCode, IIsdbEmergencyInformationDescriptor::GetAreaCode, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetAreaCode, mstv.iisdbemergencyinformationdescriptor_getareacode
 ms.prod: windows-hardware
 ms.technology: windows-devices

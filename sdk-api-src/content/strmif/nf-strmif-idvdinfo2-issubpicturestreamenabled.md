@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_issubpicturestreamenabled.htm
 tech.root: DirectShow
 ms.assetid: 19facb38-8bc4-4605-9b2b-2a123b67aeb6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IDvdInfo2 interface [DirectShow],IsSubpictureStreamEnabled method, IDvdInfo2.IsSubpictureStreamEnabled, IDvdInfo2::IsSubpictureStreamEnabled, IDvdInfo2IsSubpictureStreamEnabled, IsSubpictureStreamEnabled, IsSubpictureStreamEnabled method [DirectShow], IsSubpictureStreamEnabled method [DirectShow],IDvdInfo2 interface, dshow.idvdinfo2_issubpicturestreamenabled, strmif/IDvdInfo2::IsSubpictureStreamEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

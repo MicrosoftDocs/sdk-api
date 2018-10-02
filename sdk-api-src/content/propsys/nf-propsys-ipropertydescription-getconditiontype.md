@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetConditionType.htm
 tech.root: properties
 ms.assetid: d71bfed8-22e4-4dde-ba88-4bedfe07af62
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetConditionType, GetConditionType method [Windows Properties], GetConditionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetConditionType method, IPropertyDescription.GetConditionType, IPropertyDescription::GetConditionType, properties.IPropertyDescription_GetConditionType, propsys/IPropertyDescription::GetConditionType, shell.IPropertyDescription_GetConditionType, shell_IPropertyDescription_GetConditionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,14 @@ Gets the condition type and default condition operation to use when displaying t
 
 ### -param pcontype [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762523(v=VS.85).aspx">PROPDESC_CONDITION_TYPE</a>*</b>
+Type: <b><a href="shell.PROPDESC_CONDITION_TYPE">PROPDESC_CONDITION_TYPE</a>*</b>
 
 A pointer to a value that indicates the condition type.
 
 
 ### -param popDefault [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>*</b>
 
 When this method returns, contains a pointer to a value that indicates the default condition operation.
 
@@ -87,7 +87,7 @@ Always returns <b>S_OK</b>.
 
 
 
-For more information, see the <i>conditionType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
+For more information, see the <i>conditionType</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -97,7 +97,7 @@ For more information, see the <i>conditionType</i> attribute of the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

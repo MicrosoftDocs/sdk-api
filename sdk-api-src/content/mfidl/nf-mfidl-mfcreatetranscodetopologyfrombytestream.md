@@ -4,10 +4,10 @@ title: MFCreateTranscodeTopologyFromByteStream function
 author: windows-sdk-content
 description: Creates a topology for transcoding to a byte stream.
 old-location: mf\mfcreatetranscodetopologyfrombytestream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: FBA9E0A1-7763-4566-8245-D626C82D0355
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateTranscodeTopologyFromByteStream, MFCreateTranscodeTopologyFromByteStream function [Media Foundation], mf.mfcreatetranscodetopologyfrombytestream, mfidl/MFCreateTranscodeTopologyFromByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

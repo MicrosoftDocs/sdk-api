@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCache_GetState.htm
 tech.root: properties
 ms.assetid: bee9275d-9529-4285-8dee-8e4683def46d
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetState, GetState method [Windows Properties], GetState method [Windows Properties],IPropertyStoreCache interface, IPropertyStoreCache interface [Windows Properties],GetState method, IPropertyStoreCache.GetState, IPropertyStoreCache::GetState, _shell_IPropertyStoreCache_GetState, properties.IPropertyStoreCache_GetState, propsys/IPropertyStoreCache::GetState, shell.IPropertyStoreCache_GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,14 @@ Gets the state of a specified property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure.
 
 
 ### -param pstate [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a>*</b>
+Type: <b><a href="shell.PSC_STATE">PSC_STATE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a> enumeration value.
+A pointer to a <a href="shell.PSC_STATE">PSC_STATE</a> enumeration value.
 
 
 ## -returns

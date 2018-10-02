@@ -7,7 +7,7 @@ old-location: base\changeserviceconfig2.htm
 tech.root: Services
 ms.assetid: 6e5b79ed-52e1-460e-b076-01afbd08775c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ChangeServiceConfig2, ChangeServiceConfig2 function, ChangeServiceConfig2A, ChangeServiceConfig2W, SERVICE_CONFIG_DELAYED_AUTO_START_INFO, SERVICE_CONFIG_DESCRIPTION, SERVICE_CONFIG_FAILURE_ACTIONS, SERVICE_CONFIG_FAILURE_ACTIONS_FLAG, SERVICE_CONFIG_LAUNCH_PROTECTED, SERVICE_CONFIG_PREFERRED_NODE, SERVICE_CONFIG_PRESHUTDOWN_INFO, SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO, SERVICE_CONFIG_SERVICE_SID_INFO, SERVICE_CONFIG_TRIGGER_INFO, _win32_changeserviceconfig2, base.changeserviceconfig2, winsvc/ChangeServiceConfig2, winsvc/ChangeServiceConfig2A, winsvc/ChangeServiceConfig2W
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -258,9 +258,13 @@ The <b>SERVICE_CONFIG_LAUNCH_PROTECTED</b> value can be used to launch the servi
 
 SERVICE_CONFIG_LAUNCH_PROTECTED example:
 
-
-```cpp
-SERVICE_LAUNCH_PROTECTED_INFO Info;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SERVICE_LAUNCH_PROTECTED_INFO Info;
 SC_HANDLE hService;
 
 Info.dwLaunchProtected = SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT;
@@ -269,14 +273,14 @@ hService = CreateService (...);
 
 if (ChangeServiceConfig2(hService, 
                         SERVICE_CONFIG_LAUNCH_PROTECTED,
-                        &Info) == FALSE)
+                        &amp;Info) == FALSE)
 {
     Result = GetLastError();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 

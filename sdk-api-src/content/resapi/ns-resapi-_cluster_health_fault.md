@@ -4,10 +4,10 @@ title: "_CLUSTER_HEALTH_FAULT"
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_health_fault.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 45042bb8-6904-4e5e-bb35-3e8d3b313746
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT structure [Failover Cluster], PCLUSTER_HEALTH_FAULT, PCLUSTER_HEALTH_FAULT structure pointer [Failover Cluster], _CLUSTER_HEALTH_FAULT, mscs.cluster_health_fault, resapi/CLUSTER_HEALTH_FAULT, resapi/PCLUSTER_HEALTH_FAULT"
 ms.prod: windows
 ms.technology: windows-sdk

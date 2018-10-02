@@ -4,10 +4,10 @@ title: IBrowserService2::_ResizeView
 author: windows-sdk-content
 description: Deprecated. Calls IBrowserService2::_UpdateViewRectSize, then updates the browser view by using IOleInPlaceActiveObject::ResizeBorder.
 old-location: shell\IBrowserService2__ResizeView.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 12b38906-f22a-490d-9b2f-192eb43a8305
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeView method, IBrowserService2._ResizeView, IBrowserService2::_ResizeView, _ResizeView, _ResizeView method [Windows Shell], _ResizeView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeView, shell.IBrowserService2__ResizeView, zone_IBrowserService2__ResizeView
 ms.prod: windows-hardware
 ms.technology: windows-devices

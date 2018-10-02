@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getrecordtitletext.htm
 tech.root: MSTV
 ms.assetid: 10084fd6-2a14-4abc-8163-ec1b66987343
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordTitleText, GetRecordTitleText method [Microsoft TV Technologies], GetRecordTitleText method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordTitleText method, IATSC_EIT.GetRecordTitleText, IATSC_EIT::GetRecordTitleText, IATSC_EITGetRecordTitleText, atscpsipparser/IATSC_EIT::GetRecordTitleText, mstv.iatsc_eit_getrecordtitletext
 ms.prod: windows-hardware
 ms.technology: windows-devices

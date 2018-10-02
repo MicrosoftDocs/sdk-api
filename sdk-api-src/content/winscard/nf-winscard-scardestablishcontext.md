@@ -7,7 +7,7 @@ old-location: security\scardestablishcontext.htm
 tech.root: secauthn
 ms.assetid: 1cf9b005-b76c-4fc9-b4bd-a1ad8552535f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: SCARD_SCOPE_SYSTEM, SCARD_SCOPE_USER, SCardEstablishContext, SCardEstablishContext function [Security], _smart_scardestablishcontext, security.scardestablishcontext, winscard/SCardEstablishContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,7 +114,7 @@ A handle to the established <a href="https://msdn.microsoft.com/ce589e18-02ac-42
 
 If the function succeeds, the function returns SCARD_S_SUCCESS. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>. 
+If the function fails, it returns an error code. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>. 
 
 
 
@@ -137,15 +137,19 @@ If the client attempts a smart card operation in a remote session, such as a cli
 
 The following example establishes a resource manager context.
 
-
-```cpp
-SCARDCONTEXT    hSC;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SCARDCONTEXT    hSC;
 LONG            lReturn;
 // Establish the context.
 lReturn = SCardEstablishContext(SCARD_SCOPE_USER,
                                 NULL,
                                 NULL,
-                                &hSC);
+                                &amp;hSC);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardEstablishContext\n");
 else
@@ -154,10 +158,10 @@ else
     // free the context by calling SCardReleaseContext.
     // ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

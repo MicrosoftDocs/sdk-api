@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_setstartpoint.htm
 tech.root: direct2d
 ms.assetid: AA9EDF9A-A6E4-4E79-8300-558151067A32
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetStartPoint method, ID2D1Ink.SetStartPoint, ID2D1Ink.SetStartPoint(const D2D1_INK_POINT), ID2D1Ink::SetStartPoint, ID2D1Ink::SetStartPoint(const D2D1_INK_POINT), SetStartPoint, SetStartPoint method [Direct2D], SetStartPoint method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetStartPoint, direct2d.id2d1ink_setstartpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

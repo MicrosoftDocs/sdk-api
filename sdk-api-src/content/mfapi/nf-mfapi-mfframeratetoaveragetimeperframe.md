@@ -4,10 +4,10 @@ title: MFFrameRateToAverageTimePerFrame function
 author: windows-sdk-content
 description: Converts a video frame rate into a frame duration.
 old-location: mf\mfframeratetoaveragetimeperframe.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 750f6920-3386-4d50-9d59-73e876b406da, MFFrameRateToAverageTimePerFrame, MFFrameRateToAverageTimePerFrame function [Media Foundation], mf.mfframeratetoaveragetimeperframe, mfapi/MFFrameRateToAverageTimePerFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

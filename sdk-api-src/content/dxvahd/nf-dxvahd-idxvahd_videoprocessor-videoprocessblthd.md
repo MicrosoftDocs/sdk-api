@@ -4,10 +4,10 @@ title: IDXVAHD_VideoProcessor::VideoProcessBltHD
 author: windows-sdk-content
 description: Performs a video processing blit on one or more input samples and writes the result to a Microsoft Direct3D surface.
 old-location: mf\idxvahd_videoprocessor_videoprocessblthd.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 59c4deee-4ef2-4aba-8188-989904055e70
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],VideoProcessBltHD method, IDXVAHD_VideoProcessor.VideoProcessBltHD, IDXVAHD_VideoProcessor::VideoProcessBltHD, VideoProcessBltHD, VideoProcessBltHD method [Media Foundation], VideoProcessBltHD method [Media Foundation],IDXVAHD_VideoProcessor interface, dxvahd/IDXVAHD_VideoProcessor::VideoProcessBltHD, mf.idxvahd_videoprocessor_videoprocessblthd
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IRegistrationInfo::get_Documentation
 author: windows-sdk-content
 description: Gets or sets any additional documentation for the task.
 old-location: taskschd\iregistrationinfo_documentation.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: ec12b0aa-def4-4ff3-b067-62f989c890d5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Documentation property [Task Scheduler], Documentation property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Documentation property, IRegistrationInfo.Documentation, IRegistrationInfo.get_Documentation, IRegistrationInfo::Documentation, IRegistrationInfo::get_Documentation, IRegistrationInfo::put_Documentation, get_Documentation, taskschd.iregistrationinfo_documentation, taskschd/IRegistrationInfo::Documentation, taskschd/IRegistrationInfo::get_Documentation, taskschd/IRegistrationInfo::put_Documentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

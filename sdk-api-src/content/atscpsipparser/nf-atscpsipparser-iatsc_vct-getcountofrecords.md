@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getcountofrecords.htm
 tech.root: MSTV
 ms.assetid: a6a9f998-f8a8-4459-91f8-aa4a5206d190
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetCountOfRecords method, IATSC_VCT.GetCountOfRecords, IATSC_VCT::GetCountOfRecords, IATSC_VCTGetCountOfRecords, atscpsipparser/IATSC_VCT::GetCountOfRecords, mstv.iatsc_vct_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

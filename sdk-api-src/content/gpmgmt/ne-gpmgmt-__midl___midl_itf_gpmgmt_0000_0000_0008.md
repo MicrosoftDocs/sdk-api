@@ -7,7 +7,7 @@ old-location: gpmc\gpmreportingoptions.htm
 tech.root: GPMC
 ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0000_0008, gpmc.gpmreportingoptions, gpmgmt/GPMReportingOptions, gpmgmt/opReportComments, gpmgmt/opReportLegacy, opReportComments, opReportLegacy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,15 +53,19 @@ req.redist:
 <b>GPMReportingOptions</b> defines options for Group Policy Management Console  reports.
 
 <b>GPMReportingOptions</b> defines options for Group Policy Management Console reports.
-
-```cpp
-typedef enum {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum {
         opReportLegacy = 0,
         opReportComments = 1,
-        } GPMReportingOptions;
-```
-
-
+        } GPMReportingOptions;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -enum-fields
 

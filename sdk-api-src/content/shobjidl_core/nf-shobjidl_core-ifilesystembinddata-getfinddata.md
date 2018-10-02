@@ -4,10 +4,10 @@ title: IFileSystemBindData::GetFindData
 author: windows-sdk-content
 description: Gets the file system information stored in the WIN32_FIND_DATA structure.
 old-location: shell\IFileSystemBindData_GetFindData.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 75161b45-42b9-4d64-ae13-583d07920a0b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetFindData, GetFindData method [Windows Shell], GetFindData method [Windows Shell],IFileSystemBindData interface, IFileSystemBindData interface [Windows Shell],GetFindData method, IFileSystemBindData.GetFindData, IFileSystemBindData::GetFindData, _shell_ifilesystembinddata_getfinddata, shell.IFileSystemBindData_GetFindData, shobjidl_core/IFileSystemBindData::GetFindData
 ms.prod: windows-hardware
 ms.technology: windows-devices

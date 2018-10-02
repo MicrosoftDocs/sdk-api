@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextgetsecurityinfobykey0_func.htm
 tech.root: FWP
 ms.assetid: da2740e5-352b-4f00-bfeb-2eeaab3f470a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmProviderContextGetSecurityInfoByKey0, FwpmProviderContextGetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidercontextgetsecurityinfobykey0_func, fwpmu/FwpmProviderContextGetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

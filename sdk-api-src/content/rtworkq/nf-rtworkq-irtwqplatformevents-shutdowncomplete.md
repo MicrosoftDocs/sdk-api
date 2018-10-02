@@ -4,10 +4,10 @@ title: IRtwqPlatformEvents::ShutdownComplete
 author: windows-sdk-content
 description: Called after the platform has shutdown.
 old-location: base\irtwqplatformevents_shutdowncomplete.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 03F4F1D8-8A90-4DDE-B0BC-8F10EBA9691E
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownComplete method, IRtwqPlatformEvents.ShutdownComplete, IRtwqPlatformEvents::ShutdownComplete, ShutdownComplete, ShutdownComplete method, ShutdownComplete method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdowncomplete, rtworkq/IRtwqPlatformEvents::ShutdownComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

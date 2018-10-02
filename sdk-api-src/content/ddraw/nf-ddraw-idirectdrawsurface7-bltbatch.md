@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_bltbatch.htm
 tech.root: directdraw
 ms.assetid: 50c071a6-2963-474e-994e-c789b1924d92
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BltBatch, BltBatch method [DirectDraw], BltBatch method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],BltBatch method, IDirectDrawSurface7.BltBatch, IDirectDrawSurface7::BltBatch, ddraw/IDirectDrawSurface7::BltBatch, directdraw.idirectdrawsurface7_bltbatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

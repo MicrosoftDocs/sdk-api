@@ -4,10 +4,10 @@ title: INetFwRule::get_Direction
 author: windows-sdk-content
 description: Specifies the direction of traffic for which the rule applies.
 old-location: ics\inetfwrule_direction.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 4462c39a-27b8-497b-8393-ed63c7e4cc9b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Direction property [ICS/ICF], Direction property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Direction property, INetFwRule.Direction, INetFwRule.get_Direction, INetFwRule::Direction, INetFwRule::get_Direction, INetFwRule::put_Direction, get_Direction, ics.inetfwrule_direction, netfw/INetFwRule::Direction, netfw/INetFwRule::get_Direction, netfw/INetFwRule::put_Direction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\isbe2mediatypeprofile.htm
 tech.root: MSTV
 ms.assetid: b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], ISBE2MediaTypeProfile interface [Microsoft TV Technologies],described, mstv.isbe2mediatypeprofile, sbe/ISBE2MediaTypeProfile
 ms.prod: windows
 ms.technology: windows-sdk

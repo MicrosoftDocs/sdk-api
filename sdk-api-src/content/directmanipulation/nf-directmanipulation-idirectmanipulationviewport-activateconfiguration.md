@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_activateconfigurati
 tech.root: directmanipulation
 ms.assetid: 16c5902d-dddd-4c40-b1f9-cb432940aa3d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ActivateConfiguration, ActivateConfiguration method [Direct Manipulation], ActivateConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],ActivateConfiguration method, IDirectManipulationViewport.ActivateConfiguration, IDirectManipulationViewport::ActivateConfiguration, directmanipulation.idirectmanipulationviewport_activateconfiguration, directmanipulation/IDirectManipulationViewport::ActivateConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,14 +95,18 @@ A <a href="https://msdn.microsoft.com/6747D082-4B7B-4C7E-A230-2E8C8412FABD">drag
 
 The following example shows how to configure a viewport for horizontal panning.
 
-
-```
-HRESULT hr = pViewport>ActivateConfiguration(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pViewport&gt;ActivateConfiguration(
     DIRECTMANIPULATION_CONFIGURATION_INTERACTION | 
-    DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_X);
-```
-
-
+    DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_X);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

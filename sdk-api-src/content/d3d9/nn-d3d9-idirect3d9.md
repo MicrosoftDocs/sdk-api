@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9.htm
 tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3d9.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDirect3D9, IDirect3D9 interface [Direct3D 9], IDirect3D9 interface [Direct3D 9],described, d3d9helper/IDirect3D9, dc75d960-747a-5bea-1745-0255278bfcd1, direct3d9.idirect3d9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IDirect3D9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174308(v=VS.85).aspx">CheckDepthStencilMatch</a>
+<a href="https://msdn.microsoft.com/f6c68511-7c5a-4b1b-b0b7-4102474f7dcd">CheckDepthStencilMatch</a>
 </td>
 <td align="left" width="63%">
 Determines whether a depth-stencil format is compatible with a render-target format in a particular display mode.
@@ -80,7 +80,7 @@ Determines whether a depth-stencil format is compatible with a render-target for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174309(v=VS.85).aspx">CheckDeviceFormat</a>
+<a href="https://msdn.microsoft.com/39115099-de14-424c-95a8-c5699f5c4c65">CheckDeviceFormat</a>
 </td>
 <td align="left" width="63%">
 Determines whether a surface format is available as a specified resource type and can be used as a texture, depth-stencil buffer, or render target, or any combination of the three, on a device representing this adapter.
@@ -89,7 +89,7 @@ Determines whether a surface format is available as a specified resource type an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174310(v=VS.85).aspx">CheckDeviceFormatConversion</a>
+<a href="https://msdn.microsoft.com/c15bbd53-9d2d-4ea9-9a8e-bf4f10f7d7e9">CheckDeviceFormatConversion</a>
 </td>
 <td align="left" width="63%">
 Tests the device to see if it supports conversion from one display format to another.
@@ -98,7 +98,7 @@ Tests the device to see if it supports conversion from one display format to ano
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174311(v=VS.85).aspx">CheckDeviceMultiSampleType</a>
+<a href="https://msdn.microsoft.com/82f1f1f6-0d9b-497b-b532-0d2aabbd0314">CheckDeviceMultiSampleType</a>
 </td>
 <td align="left" width="63%">
 Determines if a multisampling technique is available on this device.
@@ -107,7 +107,7 @@ Determines if a multisampling technique is available on this device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174312(v=VS.85).aspx">CheckDeviceType</a>
+<a href="https://msdn.microsoft.com/bd19079c-d0ee-4e2f-8a02-9f26c8abcb31">CheckDeviceType</a>
 </td>
 <td align="left" width="63%">
 Verifies whether a hardware accelerated device type can be used on this adapter.
@@ -116,7 +116,7 @@ Verifies whether a hardware accelerated device type can be used on this adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174313(v=VS.85).aspx">CreateDevice</a>
+<a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591-8311-daf6cf9924bb">CreateDevice</a>
 </td>
 <td align="left" width="63%">
 Creates a device to represent the display adapter.
@@ -125,7 +125,7 @@ Creates a device to represent the display adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174314(v=VS.85).aspx">EnumAdapterModes</a>
+<a href="https://msdn.microsoft.com/2e86d5bf-c7ac-47a8-af6c-0cd953d4cfa0">EnumAdapterModes</a>
 </td>
 <td align="left" width="63%">
 Queries the device to determine whether the specified adapter supports the requested format and display mode. This method could be used in a loop to enumerate all the available adapter modes.
@@ -134,7 +134,7 @@ Queries the device to determine whether the specified adapter supports the reque
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174315(v=VS.85).aspx">GetAdapterCount</a>
+<a href="https://msdn.microsoft.com/dd6c7189-c316-4114-960d-7e4de5955ea3">GetAdapterCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of adapters on the system.
@@ -143,7 +143,7 @@ Returns the number of adapters on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174316(v=VS.85).aspx">GetAdapterDisplayMode</a>
+<a href="https://msdn.microsoft.com/382c327c-dfaa-4ae8-933a-8221a654b7a7">GetAdapterDisplayMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current display mode of the adapter.
@@ -152,7 +152,7 @@ Retrieves the current display mode of the adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174317(v=VS.85).aspx">GetAdapterIdentifier</a>
+<a href="https://msdn.microsoft.com/aa12e943-9a2c-4c47-be28-7a46f8cb03a9">GetAdapterIdentifier</a>
 </td>
 <td align="left" width="63%">
 Describes the physical display adapters present in the system when the <b>IDirect3D9</b> interface was instantiated.
@@ -161,7 +161,7 @@ Describes the physical display adapters present in the system when the <b>IDirec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174318(v=VS.85).aspx">GetAdapterModeCount</a>
+<a href="https://msdn.microsoft.com/7a6318be-eb68-45b0-b4bf-0ef4cac6a50b">GetAdapterModeCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of display modes available on this adapter.
@@ -170,7 +170,7 @@ Returns the number of display modes available on this adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174319(v=VS.85).aspx">GetAdapterMonitor</a>
+<a href="https://msdn.microsoft.com/12d5f12e-0005-4859-9125-68d827c97f28">GetAdapterMonitor</a>
 </td>
 <td align="left" width="63%">
 Returns the handle of the monitor associated with the Direct3D object.
@@ -179,7 +179,7 @@ Returns the handle of the monitor associated with the Direct3D object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174320(v=VS.85).aspx">GetDeviceCaps</a>
+<a href="https://msdn.microsoft.com/9ac080df-963b-4e29-b200-f74ff3bb6db8">GetDeviceCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves device-specific information about a device. 
@@ -188,7 +188,7 @@ Retrieves device-specific information about a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174321(v=VS.85).aspx">RegisterSoftwareDevice</a>
+<a href="https://msdn.microsoft.com/6bed91d9-0304-4a66-8508-5e28ee34635b">RegisterSoftwareDevice</a>
 </td>
 <td align="left" width="63%">
 Registers a pluggable software device. Software devices provide software rasterization enabling applications to access a variety of software rasterizers.
@@ -202,18 +202,22 @@ Registers a pluggable software device. Software devices provide software rasteri
 
 
 
-The <b>IDirect3D9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb219685(v=VS.85).aspx">Direct3DCreate9</a> function.
+The <b>IDirect3D9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/33573d84-8bae-4cac-80d1-fe7387d9d7eb">Direct3DCreate9</a> function.
 
 The LPDIRECT3D9 and PDIRECT3D9 types are defined as pointers to the <b>IDirect3D9</b> interface.
     
             
 
-
-```
-typedef struct IDirect3D9 *LPDIRECT3D9, *PDIRECT3D9;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct IDirect3D9 *LPDIRECT3D9, *PDIRECT3D9;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

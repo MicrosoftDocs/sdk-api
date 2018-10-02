@@ -7,7 +7,7 @@ old-location: opc\iopccertificateset_add.htm
 tech.root: OPC
 ms.assetid: d14e9a1e-dda3-4b57-9882-0fd473a19e8c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Add, Add method [Open Packaging Conventions], Add method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],Add method, IOpcCertificateSet.Add, IOpcCertificateSet::Add, msopc/IOpcCertificateSet::Add, opc.iopccertificateset_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,7 +132,7 @@ For more information, see the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376489(v=VS.85).aspx">Certificates</a>
+<a href="f15bc83f-43b0-4b09-9bb5-c668e901b864">Certificates</a>
 
 
 

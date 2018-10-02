@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm
 tech.root: Bits
 ms.assetid: 422a331d-5b6b-48ec-b040-43a88be43ac3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],SetCustomHeaders method, IBackgroundCopyJobHttpOptions.SetCustomHeaders, IBackgroundCopyJobHttpOptions::SetCustomHeaders, SetCustomHeaders, SetCustomHeaders method [BITS], SetCustomHeaders method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,16 +126,20 @@ Only the job owner can specify custom headers. If the job changes ownership, BIT
 
 Note that if multiple HTTP requests are sent, the headers are sent with each request.
 
-An ISAPI that processes the custom header can return an HTTP error if the header is not valid. For details on how BITS handles the error, see <a href="https://msdn.microsoft.com/en-us/library/Bb525047(v=VS.85).aspx">Handling Server Application Errors</a>.
+An ISAPI that processes the custom header can return an HTTP error if the header is not valid. For details on how BITS handles the error, see <a href="https://msdn.microsoft.com/fd0b10f1-52b4-4564-9683-620f3b965680">Handling Server Application Errors</a>.
 
 
 #### Examples
 
 The following example shows how to specify custom headers for a job. The example assumes that pJob points to a valid job.
 
-
-```cpp
-// Custom headers to include in job.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Custom headers to include in job.
 #define HEADERS L"MyHeader_1: Header One Value\n" \
     L"MyHeader_2: Header Two Value\n" \
     L"MyHeader_3: Header Three Value\n"
@@ -145,18 +149,18 @@ The following example shows how to specify custom headers for a job. The example
   IBackgroundCopyJob* pJob = NULL;
   IBackgroundCopyJobHttpOptions* pHttpOptions = NULL;
 
-  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&pHttpOptions);
-  pJob->Release();
+  hr = pJob-&gt;QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&amp;pHttpOptions);
+  pJob-&gt;Release();
   if (FAILED(hr))
   {
-    wprintf(L"pJob->QueryInterface failed with 0x%x.\n", hr);
+    wprintf(L"pJob-&gt;QueryInterface failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
-  hr = pHttpOptions->SetCustomHeaders(HEADERS);
+  hr = pHttpOptions-&gt;SetCustomHeaders(HEADERS);
   if (FAILED(hr))
   {
-    wprintf(L"pHttpOptions->SetCustomHeaders failed with 0x%x.\n", hr);
+    wprintf(L"pHttpOptions-&gt;SetCustomHeaders failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -165,12 +169,12 @@ cleanup:
 
   if (pHttpOptions) 
   {
-    hr = pHttpOptions->Release();
+    hr = pHttpOptions-&gt;Release();
   }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -179,11 +183,11 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964250(v=VS.85).aspx">IBackgroundCopyJobHttpOptions</a>
+<a href="https://msdn.microsoft.com/d8ccf65d-a4f1-44d9-9903-43e5529f1f29">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964252(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::GetCustomHeaders</a>
+<a href="https://msdn.microsoft.com/8be6e9ec-7c74-44ff-94d7-a1a1d7fb18e9">IBackgroundCopyJobHttpOptions::GetCustomHeaders</a>
  
 
  

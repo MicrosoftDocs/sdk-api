@@ -7,7 +7,7 @@ old-location: proc_snap\pssquerysnapshot.htm
 tech.root: proc_snap
 ms.assetid: D9580147-28ED-4FF5-B7DB-844ACB19769F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnapshot, processsnapshot/PssQuerySnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices

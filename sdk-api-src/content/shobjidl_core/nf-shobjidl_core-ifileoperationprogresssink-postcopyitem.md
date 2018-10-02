@@ -4,10 +4,10 @@ title: IFileOperationProgressSink::PostCopyItem
 author: windows-sdk-content
 description: Performs caller-implemented actions after the copy process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostCopyItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2e5568a8-e689-48ca-82a1-36292d91a65b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostCopyItem method, IFileOperationProgressSink.PostCopyItem, IFileOperationProgressSink::PostCopyItem, PostCopyItem, PostCopyItem method [Windows Shell], PostCopyItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostCopyItem, shell.IFileOperationProgressSink_PostCopyItem, shobjidl_core/IFileOperationProgressSink::PostCopyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

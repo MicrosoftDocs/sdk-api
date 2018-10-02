@@ -4,10 +4,10 @@ title: OpenClusterGroupEx function
 author: windows-sdk-content
 description: Opens a failover cluster group and returns a handle to it.
 old-location: mscs\openclustergroupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 240defbb-b9e9-4455-b863-c9b2192f12b7
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: OpenClusterGroupEx, OpenClusterGroupEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP_EX, PCLUSAPI_OPEN_CLUSTER_GROUP_EX function [Failover Cluster], clusapi/OpenClusterGroupEx, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_EX, mscs.openclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Opens a failover cluster <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> and returns a handle to 
+Opens a failover cluster <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> and returns a handle to 
     it.
 
 
@@ -105,7 +105,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
 
 
 

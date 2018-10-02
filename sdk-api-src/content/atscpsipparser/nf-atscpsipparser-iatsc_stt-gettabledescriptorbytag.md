@@ -7,7 +7,7 @@ old-location: mstv\iatsc_stt_gettabledescriptorbytag.htm
 tech.root: MSTV
 ms.assetid: e520dd8d-95f7-4b29-817c-14e3c663fdfc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IATSC_STT.GetTableDescriptorByTag, IATSC_STT::GetTableDescriptorByTag, IATSC_STTGetTableDescriptorByTag, atscpsipparser/IATSC_STT::GetTableDescriptorByTag, mstv.iatsc_stt_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteGdiInterop_ConvertFontFaceToLOGFONT.htm
 tech.root: DirectWrite
 ms.assetid: 1f863d1b-fdf5-4c2b-97ff-682b22c61a81
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ConvertFontFaceToLOGFONT, ConvertFontFaceToLOGFONT method [Direct Write], ConvertFontFaceToLOGFONT method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],ConvertFontFaceToLOGFONT method, IDWriteGdiInterop.ConvertFontFaceToLOGFONT, IDWriteGdiInterop::ConvertFontFaceToLOGFONT, directwrite.IDWriteGdiInterop_ConvertFontFaceToLOGFONT, dwrite/IDWriteGdiInterop::ConvertFontFaceToLOGFONT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IBrowserService2::InitializeDownloadManager
 author: windows-sdk-content
 description: Deprecated. Enables the download manager in the base class.
 old-location: shell\IBrowserService2_InitializeDownloadManager.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b217d5cd-c9db-4d35-96de-25e1ec22670a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeDownloadManager method, IBrowserService2.InitializeDownloadManager, IBrowserService2::InitializeDownloadManager, InitializeDownloadManager, InitializeDownloadManager method [Windows Shell], InitializeDownloadManager method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeDownloadManager, shell.IBrowserService2_InitializeDownloadManager, zone_IBrowserService2_InitializeDownloadManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

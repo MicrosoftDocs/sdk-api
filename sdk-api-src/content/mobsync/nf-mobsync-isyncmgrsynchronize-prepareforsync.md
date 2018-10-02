@@ -4,10 +4,10 @@ title: ISyncMgrSynchronize::PrepareForSync
 author: windows-sdk-content
 description: Allows a registered application to display any user interface, and perform any necessary initialization before the ISyncMgrSynchronize::Synchronize method is called.
 old-location: shell\syncmgr_isyncmgrsynchronize_prepareforsync.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 82e70e75-a5d4-41b2-87c4-2a032628954d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],PrepareForSync method, ISyncMgrSynchronize.PrepareForSync, ISyncMgrSynchronize::PrepareForSync, PrepareForSync, PrepareForSync method [Windows Shell], PrepareForSync method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::PrepareForSync, shell.syncmgr_isyncmgrsynchronize_prepareforsync, syncmgr.isyncmgrsynchronize_prepareforsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

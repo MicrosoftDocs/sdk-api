@@ -4,10 +4,10 @@ title: IMFVideoPositionMapper::MapOutputCoordinateToInputStream
 author: windows-sdk-content
 description: Maps output image coordinates to input image coordinates.
 old-location: mf\imfvideopositionmapper_mapoutputcoordinatetoinputstream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d57aed5f-90cb-47e7-af80-f3573a3b8256
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFVideoPositionMapper interface [Media Foundation],MapOutputCoordinateToInputStream method, IMFVideoPositionMapper.MapOutputCoordinateToInputStream, IMFVideoPositionMapper::MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream method [Media Foundation], MapOutputCoordinateToInputStream method [Media Foundation],IMFVideoPositionMapper interface, d57aed5f-90cb-47e7-af80-f3573a3b8256, evr/IMFVideoPositionMapper::MapOutputCoordinateToInputStream, mf.imfvideopositionmapper_mapoutputcoordinatetoinputstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,7 @@ The video renderer has been shut down.
 
 In the following diagram, R(dest) is the destination rectangle for the video. You can obtain this rectangle by calling <a href="https://msdn.microsoft.com/59c2e914-cc15-4534-976c-a760ff97f6ae">IMFVideoDisplayControl::GetVideoPosition</a>. The rectangle R1 is a substream within the video. The point P has pixel coordinates (x,y) relative to R(dest).
 
-<img alt="Illustration showing a rectangle labeled R dest surrounding one labeled R1, which contains a point P located at (x,y)" border="" src="./images/imfvideopositionmapper.gif"/>
+<img alt="Illustration showing a rectangle labeled R dest surrounding one labeled R1, which contains a point P located at (x,y)" border="" src="images/imfvideopositionmapper.gif"/>
 
 The position of P relative to R(dest) in <i>normalized</i> coordinates is calculated as follows:
 

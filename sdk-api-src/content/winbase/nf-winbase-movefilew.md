@@ -7,7 +7,7 @@ old-location: fs\movefile.htm
 tech.root: fileio
 ms.assetid: baa3cc02-0a61-4463-b2f1-0d7aaefa126b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: MoveFile, MoveFile function [Files], MoveFileA, MoveFileW, _win32_movefile, base.movefile, fs.movefile, rename file [Files], winbase/MoveFile, winbase/MoveFileA, winbase/MoveFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

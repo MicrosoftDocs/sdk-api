@@ -4,10 +4,10 @@ title: MFCreateTranscodeTopology function
 author: windows-sdk-content
 description: Creates a partial transcode topology.
 old-location: mf\mfcreatetranscodetopology.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ef3f19bf-1db9-459d-9617-d6cca9d6aba7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateTranscodeTopology, MFCreateTranscodeTopology function [Media Foundation], mf.mfcreatetranscodetopology, mfidl/MFCreateTranscodeTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsomcolorprofileresource.htm
 tech.root: printdocs
 ms.assetid: 8a344300-c3fc-4225-bfa5-d5d33798a094
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMColorProfileResource, IXpsOMColorProfileResource interface [XPS Documents and Packaging], IXpsOMColorProfileResource interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresource, xpsobjectmodel/IXpsOMColorProfileResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,9 +95,13 @@ Sets the read-only stream to be associated with this resource.
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMColorProfileResource    *newInterface;
 IOpcPartUri                   *partUri;
 
@@ -109,40 +113,40 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
     // The partUriString and acquiredStream variables 
     //   are defined outside of this example.
-    hr = xpsFactory->CreatePartUri(
+    hr = xpsFactory-&gt;CreatePartUri(
         partUriString, 
-        &partUri);
+        &amp;partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory->CreateColorProfileResource (
+        hr = xpsFactory-&gt;CreateColorProfileResource (
             acquiredStream, 
             partUri,
-            &newInterface);
+            &amp;newInterface);
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface->Release();
+            newInterface-&gt;Release();
         }
-        partUri->Release();
+        partUri-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

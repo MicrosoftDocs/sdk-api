@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getencodeportinspn.htm
 tech.root: WMI_v2
 ms.assetid: aab137a0-0443-4ac0-b5b2-be6734771b73
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_DestinationOptions_GetEncodePortInSPN, MI_DestinationOptions_GetEncodePortInSPN function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetEncodePortInSPN, wmi_v2.mi_destinationoptions_getencodeportinspn
 ms.prod: windows-hardware
 ms.technology: windows-devices

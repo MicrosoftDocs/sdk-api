@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_waitforcompletion.htm
 tech.root: DirectShow
 ms.assetid: 760a90fe-7cbc-4f09-ba64-afe0ab0b4c74
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IMediaEvent interface [DirectShow],WaitForCompletion method, IMediaEvent.WaitForCompletion, IMediaEvent::WaitForCompletion, IMediaEventWaitForCompletion, WaitForCompletion, WaitForCompletion method [DirectShow], WaitForCompletion method [DirectShow],IMediaEvent interface, control/IMediaEvent::WaitForCompletion, dshow.imediaevent_waitforcompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,13 +130,13 @@ This method blocks until the time-out expires, or one of the following events oc
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx">EC_COMPLETE</a>
+<a href="https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5">EC_COMPLETE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd319538(v=VS.85).aspx">EC_ERRORABORT</a>
+<a href="https://msdn.microsoft.com/b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5">EC_ERRORABORT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd319623(v=VS.85).aspx">EC_USERABORT</a>
+<a href="https://msdn.microsoft.com/974a9c3e-cfc9-4608-9f98-732aeaa0a752">EC_USERABORT</a>
 </li>
 </ul>
 During the wait, the method discards all other event notifications.
@@ -151,11 +151,11 @@ If the return value is S_OK, the <i>pEvCode</i> parameter receives the event cod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
+<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent Interface</a>
  
 
  

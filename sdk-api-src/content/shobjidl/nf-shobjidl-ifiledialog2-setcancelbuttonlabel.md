@@ -4,10 +4,10 @@ title: IFileDialog2::SetCancelButtonLabel
 author: windows-sdk-content
 description: Replaces the default text &#0034;Cancel&#0034; on the common file dialog's Cancel button.
 old-location: shell\IFileDialog2_SetCancelButtonLabel.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a0d7b516-1941-4245-8ca6-f470b8c426aa
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialog2 interface [Windows Shell],SetCancelButtonLabel method, IFileDialog2.SetCancelButtonLabel, IFileDialog2::SetCancelButtonLabel, SetCancelButtonLabel, SetCancelButtonLabel method [Windows Shell], SetCancelButtonLabel method [Windows Shell],IFileDialog2 interface, _shell_IFileDialog2_SetCancelButtonLabel, shell.IFileDialog2_SetCancelButtonLabel, shobjidl/IFileDialog2::SetCancelButtonLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices

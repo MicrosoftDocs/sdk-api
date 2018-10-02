@@ -4,10 +4,10 @@ title: ShellWindowTypeConstants
 author: windows-sdk-content
 description: Specifies types of Shell windows.
 old-location: shell\ShellWindowTypeConstants.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 79d4fcf3-5256-4e21-ab9a-94605e1d742f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SWC_3RDPARTY, SWC_BROWSER, SWC_CALLBACK, SWC_DESKTOP, SWC_EXPLORER, ShellWindowTypeConstants, ShellWindowTypeConstants enumeration [Windows Shell], _win32_ShellWindowTypeConstants, exdisp/SWC_3RDPARTY, exdisp/SWC_BROWSER, exdisp/SWC_CALLBACK, exdisp/SWC_DESKTOP, exdisp/SWC_EXPLORER, exdisp/ShellWindowTypeConstants, shell.ShellWindowTypeConstants
 ms.prod: windows
 ms.technology: windows-sdk

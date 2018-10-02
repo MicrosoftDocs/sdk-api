@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getbidilevel.htm
 tech.root: printdocs
 ms.assetid: 17110bb7-1ae9-41ef-aed1-8f1c00569825
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetBidiLevel method, IXpsOMGlyphs.GetBidiLevel, IXpsOMGlyphs::GetBidiLevel, xps.ixpsomglyphs_getbidilevel, xpsobjectmodel/IXpsOMGlyphs::GetBidiLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

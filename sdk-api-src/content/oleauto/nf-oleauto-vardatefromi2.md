@@ -7,7 +7,7 @@ old-location: automat\vardatefromi2.htm
 tech.root: automat
 ms.assetid: 91ce59a5-2ab4-41be-a95c-ce12e9a52e4f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VarDateFromI2, VarDateFromI2 function [Automation], _oa96_VarDateFromI2, automat.vardatefromi2, oleauto/VarDateFromI2
 ms.prod: windows-hardware
 ms.technology: windows-devices

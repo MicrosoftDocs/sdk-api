@@ -4,10 +4,10 @@ title: MprInfoBlockAdd function
 author: windows-sdk-content
 description: The MprInfoBlockAdd function creates a new header that is identical to an existing header with the addition of a new block.
 old-location: rras\mprinfoblockadd.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 94d8fc3b-1ed6-4555-85c0-40e32d197a72
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: MprInfoBlockAdd, MprInfoBlockAdd function [RAS], _mpr_mprinfoblockadd, mprapi/MprInfoBlockAdd, rras.mprinfoblockadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ The <i>lpHeader</i>, <i>lplpNewHeader</i>, or <i>lpItemData</i> parameter is <b>
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ After adding an information block, obtain the new size of the information header
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

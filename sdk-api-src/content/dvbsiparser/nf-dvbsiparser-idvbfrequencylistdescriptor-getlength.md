@@ -7,7 +7,7 @@ old-location: mstv\idvbfrequencylistdescriptor_getlength.htm
 tech.root: MSTV
 ms.assetid: e00542ff-2d28-44cb-8dd5-944f12f2805d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbFrequencyListDescriptor.GetLength, IDvbFrequencyListDescriptor::GetLength, IDvbFrequencyListDescriptorGetLength, dvbsiparser/IDvbFrequencyListDescriptor::GetLength, mstv.idvbfrequencylistdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

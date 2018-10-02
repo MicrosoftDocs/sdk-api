@@ -4,10 +4,10 @@ title: IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
 author: windows-sdk-content
 description: Sets whether the application window will be adjacent to the edge of the emulated display.
 old-location: shell\IApplicationDesignModeSettings2_SetAdjacentDisplayEdges.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: FD8B2436-1ADD-4371-AEB4-27EBDEC5BA04
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ADE_LEFT, ADE_NONE, ADE_RIGHT, IApplicationDesignModeSettings2 interface [Windows Shell],SetAdjacentDisplayEdges method, IApplicationDesignModeSettings2.SetAdjacentDisplayEdges, IApplicationDesignModeSettings2::SetAdjacentDisplayEdges, SetAdjacentDisplayEdges, SetAdjacentDisplayEdges method [Windows Shell], SetAdjacentDisplayEdges method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetAdjacentDisplayEdges, shobjidl_core/IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
 ms.prod: windows-hardware
 ms.technology: windows-devices

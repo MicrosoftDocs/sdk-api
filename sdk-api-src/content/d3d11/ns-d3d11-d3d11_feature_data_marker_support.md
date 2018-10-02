@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_marker_support.htm
 tech.root: direct3d11
 ms.assetid: 950381BB-E8F6-416D-8F36-CC3591E71703
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_FEATURE_DATA_MARKER_SUPPORT, D3D11_FEATURE_DATA_MARKER_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_MARKER_SUPPORT, direct3d11.d3d11_feature_data_marker_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ If the Direct3D API is the Direct3D 11.2 runtime and can support 11.2 features, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>
+<a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>
  
 
  

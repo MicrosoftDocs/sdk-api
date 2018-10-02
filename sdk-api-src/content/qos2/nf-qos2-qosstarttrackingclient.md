@@ -7,7 +7,7 @@ old-location: qos\qosstarttrackingclient.htm
 tech.root: QOS
 ms.assetid: 36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QOSStartTrackingClient, QOSStartTrackingClient function [QOS], qos.qosstarttrackingclient, qos2/QOSStartTrackingClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -210,9 +210,13 @@ Link Layer Topology Discovery (LLTD) must be implemented on the sink PC or devic
 
 The following code illustrates function use, handling a common exception, and required parameter initializations. Actual parameter values can vary depending on QoS version. The Winsock2.h header file must be included to use Winsock defined identifiers or functions.
 
-
-```cpp
-QOS_VERSION    Version;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>QOS_VERSION    Version;
 HANDLE         QoSHandle = NULL;
 BOOL        QoSResult = FALSE;
 
@@ -221,32 +225,32 @@ Version.MinorVersion = 0;
 
 // Get a handle to the QoS subsystem (required for tracking).
 QoSResult = QOSCreateHandle(
-    &Version, 
-    &QoSHandle );
+    &amp;Version, 
+    &amp;QoSHandle );
 
-if(!QOSStartTrackingClient(QoSHandle, (sockaddr*)ptr->ai_addr, 0))
+if(!QOSStartTrackingClient(QoSHandle, (sockaddr*)ptr-&gt;ai_addr, 0))
 {
-    std::cerr << std::endl;
-    std::cerr << __FILE__ <<" Line: " << __LINE__ ;
-    std::cerr << " - QOSStartTrackingClient failed. Exception code: "; 
-    std::cerr << GetLastError();
+    std::cerr &lt;&lt; std::endl;
+    std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
+    std::cerr &lt;&lt; " - QOSStartTrackingClient failed. Exception code: "; 
+    std::cerr &lt;&lt; GetLastError();
 
     if (GetLastError() == ERROR_NOT_SUPPORTED)
     {
-        std::cerr << std::endl;
-        std::cerr << " ERROR_NOT_SUPPORTED" << std::endl;
-        std::cerr << "This operation requires information";
-        std::cerr << "that the QoS subsystem does not have. " << std::endl;
+        std::cerr &lt;&lt; std::endl;
+        std::cerr &lt;&lt; " ERROR_NOT_SUPPORTED" &lt;&lt; std::endl;
+        std::cerr &lt;&lt; "This operation requires information";
+        std::cerr &lt;&lt; "that the QoS subsystem does not have. " &lt;&lt; std::endl;
     }
 }
 else
-    std::cout << "QoS client tracking started." << std::endl;
+    std::cout &lt;&lt; "QoS client tracking started." &lt;&lt; std::endl;
 
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

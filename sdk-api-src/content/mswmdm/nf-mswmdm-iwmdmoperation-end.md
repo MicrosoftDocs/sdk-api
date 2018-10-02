@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_end.htm
 tech.root: WMDM
 ms.assetid: f1a3f0b7-033d-4e93-aaca-43db88a9b705
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],End method, IWMDMOperation.End, IWMDMOperation::End, IWMDMOperationEnd, mswmdm/IWMDMOperation::End, wmdm.iwmdmoperation_end
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,9 +99,13 @@ The <b>End</b> method is called whether or not the transfer was successful, and 
 
 The following C++ code closes a global file handle after a read or write action, and outputs a message.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT End(HRESULT* phCompletionCode, IUnknown* pNewObject)
 {
     // TODO: Display the message: "IWMDMOperation event--End."
@@ -115,10 +119,10 @@ HRESULT End(HRESULT* phCompletionCode, IUnknown* pNewObject)
     m_OperationStatus = OPERATION_UNINITIALIZED;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

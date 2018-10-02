@@ -7,7 +7,7 @@ old-location: winsock\wsapoll.htm
 tech.root: WinSock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ Returns one of the following values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +151,7 @@ An exception occurred while reading user input parameters.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -163,7 +163,7 @@ An invalid parameter was passed. This error is returned if the <i>fdarray</i> pa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -217,7 +217,7 @@ A combination of the following flags can be set in the <b>events</b> member of t
 
 The <b>POLLIN</b> flag is defined as the combination of the <b>POLLRDNORM</b>  and <b>POLLRDBAND</b> flag values. The <b>POLLOUT</b> flag is defined as the same as the <b>POLLWRNORM</b>  flag value.
 
-The <b>events</b> member of the <a href="https://msdn.microsoft.com/88f122ce-e2ca-44ce-bd53-d73d0962e7ef">WSAPOLLFD</a> structure must only contain a combination of the above flags that are supported by the Winsock provider. Any other values are considered errors and  <b>WSAPoll</b> will return <b>SOCKET_ERROR</b>. A subsequent call to  the <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function will retrieve the extended error code of <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a>. If the <b>POLLPRI</b> flag is set on a socket for the Microsoft Winsock provider, the <b>WSAPoll</b> function will fail.  
+The <b>events</b> member of the <a href="https://msdn.microsoft.com/88f122ce-e2ca-44ce-bd53-d73d0962e7ef">WSAPOLLFD</a> structure must only contain a combination of the above flags that are supported by the Winsock provider. Any other values are considered errors and  <b>WSAPoll</b> will return <b>SOCKET_ERROR</b>. A subsequent call to  the <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function will retrieve the extended error code of <a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a>. If the <b>POLLPRI</b> flag is set on a socket for the Microsoft Winsock provider, the <b>WSAPoll</b> function will fail.  
 
 When the <b>WSAPoll</b> function returns a positive value, a combination of the following flags are returned in the <b>revents</b> member of the <a href="https://msdn.microsoft.com/88f122ce-e2ca-44ce-bd53-d73d0962e7ef">WSAPOLLFD</a> structures pointed to by the <i>fdarray</i> parameter to indicate socket  status:<table>
 <tr>

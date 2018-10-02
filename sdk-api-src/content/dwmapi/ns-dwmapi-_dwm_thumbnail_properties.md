@@ -7,7 +7,7 @@ old-location: dwm\dwm_thumbnail_properties.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_thumbnail_properties.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES structure [Desktop Window Manager], PDWM_THUMBNAIL_PROPERTIES, PDWM_THUMBNAIL_PROPERTIES structure pointer [Desktop Window Manager], _DWM_THUMBNAIL_PROPERTIES, _udwm_dwm_thumbnail_properties, _udwm_dwm_thumbnail_properties_cpp, dwm.dwm_thumbnail_properties, dwmapi/DWM_THUMBNAIL_PROPERTIES, dwmapi/PDWM_THUMBNAIL_PROPERTIES, winui._udwm_dwm_thumbnail_properties"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969526(v=VS.85).aspx">DwmUpdateThumbnailProperties</a> function.
+Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href="https://msdn.microsoft.com/02c40cda-b87c-44c5-bcc5-3d0e83b7b14b">DwmUpdateThumbnailProperties</a> function.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href
 
 ### -field dwFlags
 
-A bitwise combination of <a href="https://msdn.microsoft.com/en-us/library/Aa969535(v=VS.85).aspx">DWM thumbnail constant</a> values that indicates which members of this structure are set.
+A bitwise combination of <a href="https://msdn.microsoft.com/8eee1baf-e24e-40af-92ab-a7acae267ecc">DWM thumbnail constant</a> values that indicates which members of this structure are set.
 
 
 ### -field rcDestination

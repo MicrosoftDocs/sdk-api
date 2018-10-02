@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthmanager_getenvironment.htm
 tech.root: xblidp
 ms.assetid: 9AEFE6CB-9C15-4945-ACAC-6AE0C04331CC
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetEnvironment method, IXblIdpAuthManager.GetEnvironment, IXblIdpAuthManager::GetEnvironment, xblidp.ixblidpauthmanager_getenvironment, xblidpauthmanager/IXblIdpAuthManager::GetEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

@@ -4,10 +4,10 @@ title: IMFMediaKeySession::get_SessionId
 author: windows-sdk-content
 description: Gets a unique session id created for this session.
 old-location: mf\imfmediakeysession_get_sessionid.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 779ebea9-69ff-469a-8ee0-06d570ede6cb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],get_SessionId method, IMFMediaKeySession.get_SessionId, IMFMediaKeySession::get_SessionId, get_SessionId, get_SessionId method [Media Foundation], get_SessionId method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_get_sessionid, mfmediaengine/IMFMediaKeySession::get_SessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

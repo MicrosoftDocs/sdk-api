@@ -4,10 +4,10 @@ title: ITextDocument2::GetMainStory
 author: windows-sdk-content
 description: Gets the main story.
 old-location: controls\itextdocument2_getmainstory.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 732165f2-e6cd-4f39-85c6-06faebfa65e2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetMainStory, GetMainStory method [Windows Controls], GetMainStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetMainStory method, ITextDocument2.GetMainStory, ITextDocument2::GetMainStory, controls.itextdocument2_getmainstory, tom/ITextDocument2::GetMainStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

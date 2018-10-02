@@ -7,7 +7,7 @@ old-location: inputdev\setfocus.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setfocus.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetFocus, SetFocus function [Keyboard and Mouse Input], _win32_SetFocus, _win32_setfocus_cpp, inputdev.setfocus, winui._win32_setfocus, winuser/SetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,9 +92,9 @@ If the function succeeds, the return value is the handle to the window that prev
 
 
 
-The <b>SetFocus</b> function sends a <a href="https://msdn.microsoft.com/en-us/library/ms646282(v=VS.85).aspx">WM_KILLFOCUS</a> message to the window that loses the keyboard focus and a <a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a> message to the window that receives the keyboard focus. It also activates either the window that receives the focus or the parent of the window that receives the focus.
+The <b>SetFocus</b> function sends a <a href="https://msdn.microsoft.com/6d32a09b-a856-4f94-9544-3345b3a700f4">WM_KILLFOCUS</a> message to the window that loses the keyboard focus and a <a href="https://msdn.microsoft.com/77180e4c-95a6-41a4-93d9-033381ae7543">WM_SETFOCUS</a> message to the window that receives the keyboard focus. It also activates either the window that receives the focus or the parent of the window that receives the focus.
 
-If a window is active but does not have the focus, any key pressed will produce the <a href="https://msdn.microsoft.com/en-us/library/ms646357(v=VS.85).aspx">WM_SYSCHAR</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646286(v=VS.85).aspx">WM_SYSKEYDOWN</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms646287(v=VS.85).aspx">WM_SYSKEYUP</a> message. If the <b>VK_MENU</b> key is also pressed, the
+If a window is active but does not have the focus, any key pressed will produce the <a href="https://msdn.microsoft.com/55987105-3c53-42e5-8fab-a3c9f2ca7273">WM_SYSCHAR</a>, <a href="https://msdn.microsoft.com/a3c03dbf-1be7-49ff-b931-1981786b74ce">WM_SYSKEYDOWN</a>, or <a href="https://msdn.microsoft.com/a4f62575-fb84-4390-a1d1-1a62629de55f">WM_SYSKEYUP</a> message. If the <b>VK_MENU</b> key is also pressed, the
 
     <i>lParam</i> parameter of the message will have bit 30 set. Otherwise, the messages produced do not have this bit set.
 
@@ -104,7 +104,7 @@ By using the
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Initializing a Dialog Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Initializing a Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -123,11 +123,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus</a>
+<a href="https://msdn.microsoft.com/3929771f-0402-4554-8e39-f945cd77b16d">GetFocus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
@@ -139,23 +139,23 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646282(v=VS.85).aspx">WM_KILLFOCUS</a>
+<a href="https://msdn.microsoft.com/6d32a09b-a856-4f94-9544-3345b3a700f4">WM_KILLFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a>
+<a href="https://msdn.microsoft.com/77180e4c-95a6-41a4-93d9-033381ae7543">WM_SETFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646357(v=VS.85).aspx">WM_SYSCHAR</a>
+<a href="https://msdn.microsoft.com/55987105-3c53-42e5-8fab-a3c9f2ca7273">WM_SYSCHAR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646286(v=VS.85).aspx">WM_SYSKEYDOWN</a>
+<a href="https://msdn.microsoft.com/a3c03dbf-1be7-49ff-b931-1981786b74ce">WM_SYSKEYDOWN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646287(v=VS.85).aspx">WM_SYSKEYUP</a>
+<a href="https://msdn.microsoft.com/a4f62575-fb84-4390-a1d1-1a62629de55f">WM_SYSKEYUP</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutdestroyenumhandle0_func.htm
 tech.root: FWP
 ms.assetid: 6aa41eed-b53c-4b35-a45c-88f89086cacc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmCalloutDestroyEnumHandle0, FwpmCalloutDestroyEnumHandle0 function [Filtering], fwp.fwpmcalloutdestroyenumhandle0_func, fwpmu/FwpmCalloutDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

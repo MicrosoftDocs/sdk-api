@@ -4,10 +4,10 @@ title: ITextRange2::GetInlineObject
 author: windows-sdk-content
 description: Gets the properties of the inline object at the range active end.
 old-location: controls\itextrange2_getinlineobject.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetInlineObject, GetInlineObject method [Windows Controls], GetInlineObject method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetInlineObject method, ITextRange2.GetInlineObject, ITextRange2::GetInlineObject, controls.itextrange2_getinlineobject, tom/ITextRange2::GetInlineObject, tomAccent, tomBox, tomBoxedFormula, tomBrackets, tomBracketsWithSeps, tomEquationArray, tomFraction, tomFunctionApply, tomHorzVert, tomLeftSubSup, tomLowerLimit, tomMatrix, tomNary, tomOpChar, tomOverbar, tomPhantom, tomRadical, tomRuby, tomSimpleText, tomSlashedFraction, tomStack, tomStretchStack, tomStyleDefault, tomStyleDisplay, tomStyleDisplayCramped, tomStyleScript, tomStyleScriptCramped, tomStyleScriptScript, tomStyleScriptScriptCramped, tomStyleText, tomStyleTextCramped, tomSubSup, tomSubscript, tomSuperscript, tomUnderbar, tomUpperLimit, tomWarichu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -273,134 +273,134 @@ The inline object alignment, which can be one of these meanings depending on the
 <th>Meaning of Align Parameter</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomRuby</a></td>
+<td><a href="objecttype.htm">tomRuby</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomRubyBelow</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomRubyAlignCenter</a> (default)</dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomRubyAlign010</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomRubyAlign121</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomRubyAlignLeft</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomRubyAlignRight</a></dt>
+<dt><a href="tomconstants.htm">tomRubyBelow</a></dt>
+<dt><a href="tomconstants.htm">tomRubyAlignCenter</a> (default)</dt>
+<dt><a href="tomconstants.htm">tomRubyAlign010</a></dt>
+<dt><a href="tomconstants.htm">tomRubyAlign121</a></dt>
+<dt><a href="tomconstants.htm">tomRubyAlignLeft</a></dt>
+<dt><a href="tomconstants.htm">tomRubyAlignRight</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBox</a></td>
+<td><a href="objecttype.htm">tomBox</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxAlignCenter</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSpaceMask</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSpaceDefault</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSpaceUnary</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSpaceBinary</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSpaceRelational</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSpaceSkip</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSpaceOrd</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSpaceDifferential</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSizeText</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSizeScript</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSizeScriptScript</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomNoBreak</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomTransparentForPositioning</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomTransparentForSpacing</a></dt>
+<dt><a href="tomconstants.htm">tomBoxAlignCenter</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceMask</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceDefault</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceUnary</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceBinary</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceRelational</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceSkip</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceOrd</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceDifferential</a></dt>
+<dt><a href="tomconstants.htm">tomSizeText</a></dt>
+<dt><a href="tomconstants.htm">tomSizeScript</a></dt>
+<dt><a href="tomconstants.htm">tomSizeScriptScript</a></dt>
+<dt><a href="tomconstants.htm">tomNoBreak</a></dt>
+<dt><a href="tomconstants.htm">tomTransparentForPositioning</a></dt>
+<dt><a href="tomconstants.htm">tomTransparentForSpacing</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBoxedFormula</a></td>
+<td><a href="objecttype.htm">tomBoxedFormula</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxHideTop</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxHideBottom</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxHideLeft</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxHideRight</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxStrikeH</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxStrikeV</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxStrikeTLBR</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBoxStrikeBLTR</a></dt>
+<dt><a href="tomconstants.htm">tomBoxHideTop</a></dt>
+<dt><a href="tomconstants.htm">tomBoxHideBottom</a></dt>
+<dt><a href="tomconstants.htm">tomBoxHideLeft</a></dt>
+<dt><a href="tomconstants.htm">tomBoxHideRight</a></dt>
+<dt><a href="tomconstants.htm">tomBoxStrikeH</a></dt>
+<dt><a href="tomconstants.htm">tomBoxStrikeV</a></dt>
+<dt><a href="tomconstants.htm">tomBoxStrikeTLBR</a></dt>
+<dt><a href="tomconstants.htm">tomBoxStrikeBLTR</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBrackets</a></td>
+<td><a href="objecttype.htm">tomBrackets</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignDefault</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignCenter</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignMatchAscentDescent</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathVariant</a></dt>
+<dt><a href="tomconstants.htm">tomAlignDefault</a></dt>
+<dt><a href="tomconstants.htm">tomAlignCenter</a></dt>
+<dt><a href="tomconstants.htm">tomAlignMatchAscentDescent</a></dt>
+<dt><a href="tomconstants.htm">tomMathVariant</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomEquationArray</a></td>
+<td><a href="objecttype.htm">tomEquationArray</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomEqArrayLayoutWidth</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomEqArrayAlignMask</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomEqArrayAlignCenter</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomEqArrayAlignTopRow</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomEqArrayAlignBottomRow</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayLayoutWidth</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayAlignMask</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayAlignCenter</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayAlignTopRow</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayAlignBottomRow</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomMatrix</a></td>
+<td><a href="objecttype.htm">tomMatrix</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMatrixAlignMask</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMatrixAlignCenter</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMatrixAlignTopRow</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMatrixAlignBottomRow</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomShowMatPlaceHldr</a></dt>
+<dt><a href="tomconstants.htm">tomMatrixAlignMask</a></dt>
+<dt><a href="tomconstants.htm">tomMatrixAlignCenter</a></dt>
+<dt><a href="tomconstants.htm">tomMatrixAlignTopRow</a></dt>
+<dt><a href="tomconstants.htm">tomMatrixAlignBottomRow</a></dt>
+<dt><a href="tomconstants.htm">tomShowMatPlaceHldr</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomNary</a></td>
+<td><a href="objecttype.htm">tomNary</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomLimitsDefault</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomLimitsUnderOver</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomLimitsSubSup</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUpperLimitAsSuperScript</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomLimitsOpposite</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomShowLLimPlaceHldr</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomShowULimPlaceHldr</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDontGrowWithContent</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomGrowWithContent</a></dt>
+<dt><a href="tomconstants.htm">tomLimitsDefault</a></dt>
+<dt><a href="tomconstants.htm">tomLimitsUnderOver</a></dt>
+<dt><a href="tomconstants.htm">tomLimitsSubSup</a></dt>
+<dt><a href="tomconstants.htm">tomUpperLimitAsSuperScript</a></dt>
+<dt><a href="tomconstants.htm">tomLimitsOpposite</a></dt>
+<dt><a href="tomconstants.htm">tomShowLLimPlaceHldr</a></dt>
+<dt><a href="tomconstants.htm">tomShowULimPlaceHldr</a></dt>
+<dt><a href="tomconstants.htm">tomDontGrowWithContent</a></dt>
+<dt><a href="tomconstants.htm">tomGrowWithContent</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomPhantom</a></td>
+<td><a href="objecttype.htm">tomPhantom</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomPhantomShow</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomPhantomZeroWidth</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomPhantomZeroAscent</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomPhantomZeroDescent</a></dt>
+<dt><a href="tomconstants.htm">tomPhantomShow</a></dt>
+<dt><a href="tomconstants.htm">tomPhantomZeroWidth</a></dt>
+<dt><a href="tomconstants.htm">tomPhantomZeroAscent</a></dt>
+<dt><a href="tomconstants.htm">tomPhantomZeroDescent</a></dt>
 <dt><a href="tomconstants.htm">tomPhantomTransparent
 </a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomRadical</a></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomShowDegPlaceHldr</a></td>
+<td><a href="objecttype.htm">tomRadical</a></td>
+<td><a href="tomconstants.htm">tomShowDegPlaceHldr</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSubSup</a></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSubSupAlign</a></td>
+<td><a href="objecttype.htm">tomSubSup</a></td>
+<td><a href="tomconstants.htm">tomSubSupAlign</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomStretchStack</a></td>
+<td><a href="objecttype.htm">tomStretchStack</a></td>
 <td>
 <dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStretchCharBelow</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStretchCharAbove</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStretchBaseBelow</a></dt>
+<dt><a href="tomconstants.htm">tomStretchCharBelow</a></dt>
+<dt><a href="tomconstants.htm">tomStretchCharAbove</a></dt>
+<dt><a href="tomconstants.htm">tomStretchBaseBelow</a></dt>
 <dt><a href="tomconstants.htm">tomStretchBaseAbove
 </a></dt>
 </dl>
@@ -424,43 +424,43 @@ The value for each object type is shown in the following table..  <table>
 <th>Meaning of align parameter</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomAccent</a></td>
+<td><a href="objecttype.htm">tomAccent</a></td>
 <td>Accent (U+0300—U+36F, U+20D0—U+20EF)</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBoxedFormula</a></td>
+<td><a href="objecttype.htm">tomBoxedFormula</a></td>
 <td>U+25AD for rectangle enclosure</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBrackets</a></td>
+<td><a href="objecttype.htm">tomBrackets</a></td>
 <td>Opening bracket. Default: U+0028.  </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBracketsWithSeps</a></td>
+<td><a href="objecttype.htm">tomBracketsWithSeps</a></td>
 <td>Opening bracket with separators. Default: U+0028</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomEquationArray</a></td>
+<td><a href="objecttype.htm">tomEquationArray</a></td>
 <td>U+2588</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomFraction</a></td>
+<td><a href="objecttype.htm">tomFraction</a></td>
 <td>Normal built-up fraction: U+002F; small numeric fraction: U+2298</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomFunctionApply</a></td>
+<td><a href="objecttype.htm">tomFunctionApply</a></td>
 <td>U+2061</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomLeftSubSup</a></td>
+<td><a href="objecttype.htm">tomLeftSubSup</a></td>
 <td>U+005E</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomLowerLimit</a></td>
+<td><a href="objecttype.htm">tomLowerLimit</a></td>
 <td>U+252C</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomMatrix</a></td>
+<td><a href="objecttype.htm">tomMatrix</a></td>
 <td>
 <dl>
 <dt>U+25A0: no enclosing brackets
@@ -475,19 +475,19 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomNary</a></td>
+<td><a href="objecttype.htm">tomNary</a></td>
 <td>n-ary symbol</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomOpChar</a></td>
+<td><a href="objecttype.htm">tomOpChar</a></td>
 <td>Internal use for no-build operators</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomOverbar</a></td>
+<td><a href="objecttype.htm">tomOverbar</a></td>
 <td>U+00AF</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomPhantom</a></td>
+<td><a href="objecttype.htm">tomPhantom</a></td>
 <td>
 <dl>
 <dt>U+27E1: full or custom phantom
@@ -508,7 +508,7 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomRadical</a></td>
+<td><a href="objecttype.htm">tomRadical</a></td>
 <td>
 <dl>
 <dt>U+221A: square or nth root
@@ -521,7 +521,7 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSlashedFraction</a></td>
+<td><a href="objecttype.htm">tomSlashedFraction</a></td>
 <td>
 <dl>
 <dt>U+2044: skewed fraction</dt>
@@ -531,17 +531,17 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomStack</a></td>
+<td><a href="objecttype.htm">tomStack</a></td>
 <td>U+00A6
 
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomStretchStack</a></td>
+<td><a href="objecttype.htm">tomStretchStack</a></td>
 <td>Horizontal stretch character (see <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> Appendix B for a list)</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSubscript</a></td>
+<td><a href="objecttype.htm">tomSubscript</a></td>
 <td>U+005E
 
 
@@ -550,19 +550,19 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSubSup</a></td>
+<td><a href="objecttype.htm">tomSubSup</a></td>
 <td>U+005E</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSuperscript</a></td>
+<td><a href="objecttype.htm">tomSuperscript</a></td>
 <td>U+005F</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomUnderbar</a></td>
+<td><a href="objecttype.htm">tomUnderbar</a></td>
 <td>U+2581</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomUpperLimit</a></td>
+<td><a href="objecttype.htm">tomUpperLimit</a></td>
 <td>U+2534</td>
 </tr>
 </table>

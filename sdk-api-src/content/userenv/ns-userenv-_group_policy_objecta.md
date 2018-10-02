@@ -7,7 +7,7 @@ old-location: policy\group_policy_object_str.htm
 tech.root: Policy
 ms.assetid: 7275a3cd-6b19-4eb9-9481-b73bd5af5753
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PGROUP_POLICY_OBJECTA, GPLinkDomain, GPLinkMachine, GPLinkOrganizationalUnit, GPLinkSite, GPLinkUnknown, GPO_FLAG_DISABLE, GPO_FLAG_FORCE, GROUP_POLICY_OBJECT, GROUP_POLICY_OBJECT structure [Group Policy], GROUP_POLICY_OBJECTA, GROUP_POLICY_OBJECTW, PGROUP_POLICY_OBJECT, PGROUP_POLICY_OBJECT structure pointer [Group Policy], _GROUP_POLICY_OBJECTA, _win32_group_policy_object_str, policy.group_policy_object_str, userenv/GROUP_POLICY_OBJECT, userenv/GROUP_POLICY_OBJECTA, userenv/GROUP_POLICY_OBJECTW, userenv/PGROUP_POLICY_OBJECT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,13 +174,17 @@ Path to the Active Directory site, domain, or organization unit to which this GP
 
 Each GPO could contain data that must be processed by multiple snap-in extensions. Therefore, the data in the <b>lpExtensions</b> member is organized as a series of <b>GUID</b>s that identify the extensions and snap-in extensions. The data format is as follows:
 
-
-```cpp
-[ext_guid1, snap_in_guid1, snap_in_guid2, ...] 
-[ext_guid2, snap_in_guid3, snap_in_guid4, ...] 
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[ext_guid1, snap_in_guid1, snap_in_guid2, ...] 
+[ext_guid2, snap_in_guid3, snap_in_guid4, ...] </pre>
+</td>
+</tr>
+</table></span></div>
 First, there is an opening bracket, "[", followed by the <b>GUID</b> of the extension. Next, you'll find one or more <b>GUID</b>s identifying the snap-in extensions that have stored data in the GPO. After the last snap-in <b>GUID</b> for an extension, there is a closing bracket, "]". This pattern is repeated for the next extension.
 
 

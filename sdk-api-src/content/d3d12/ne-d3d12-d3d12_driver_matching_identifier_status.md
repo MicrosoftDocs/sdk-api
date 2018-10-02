@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_driver_matching_identifier_status.htm
 tech.root: direct3d12
 ms.assetid: 57FC8ECA-DA50-485F-8B1F-6AFE2D1BAA29
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_DRIVER_MATCHING_IDENTIFIER_COMPATIBLE_WITH_DEVICE, D3D12_DRIVER_MATCHING_IDENTIFIER_INCOMPATIBLE_TYPE, D3D12_DRIVER_MATCHING_IDENTIFIER_INCOMPATIBLE_VERSION, D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS, D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS enumeration, D3D12_DRIVER_MATCHING_IDENTIFIER_UNRECOGNIZED, D3D12_DRIVER_MATCHING_IDENTIFIER_UNSUPPORTED_TYPE, d3d12/D3D12_DRIVER_MATCHING_IDENTIFIER_COMPATIBLE_WITH_DEVICE, d3d12/D3D12_DRIVER_MATCHING_IDENTIFIER_INCOMPATIBLE_TYPE, d3d12/D3D12_DRIVER_MATCHING_IDENTIFIER_INCOMPATIBLE_VERSION, d3d12/D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS, d3d12/D3D12_DRIVER_MATCHING_IDENTIFIER_UNRECOGNIZED, d3d12/D3D12_DRIVER_MATCHING_IDENTIFIER_UNSUPPORTED_TYPE, direct3d12.d3d12_driver_matching_identifier_status
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Specifies the result of a call to <a href="direct3d12.id3d12device5_checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a> which queries whether serialized data is compatible with the current device and driver version.
+Specifies the result of a call to <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a> which queries whether serialized data is compatible with the current device and driver version.
 
 
 ## -enum-fields
@@ -67,12 +67,12 @@ Serialized data is compatible with the current device/driver.
 
 ### -field D3D12_DRIVER_MATCHING_IDENTIFIER_UNSUPPORTED_TYPE
 
-The specified <a href="direct3d12.d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a> specified is unknown or unsupported.
+The specified <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a> specified is unknown or unsupported.
 
 
 ### -field D3D12_DRIVER_MATCHING_IDENTIFIER_UNRECOGNIZED
 
-Format of the data in <a href="direct3d12.d3d12_serialized_data_driver_matching_identifier">D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER</a> is unrecognized.  This could indicate either corrupt data or the identifier was produced by a different hardware vendor.
+Format of the data in <a href="http://docs.microsoft.com/windows/desktop/d3d12/ns-d3d12-d3d12_serialized_data_driver_matching_identifier">D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER</a> is unrecognized.  This could indicate either corrupt data or the identifier was produced by a different hardware vendor.
 
 
 ### -field D3D12_DRIVER_MATCHING_IDENTIFIER_INCOMPATIBLE_VERSION
@@ -82,6 +82,5 @@ Serialized data is recognized, but its version is not compatible with the curren
 
 ### -field D3D12_DRIVER_MATCHING_IDENTIFIER_INCOMPATIBLE_TYPE
 
-
-<a href="direct3d12.d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a> specifies a data type that is not compatible with the type of serialized data.  As long as there is only a single defined serialized data type this error cannot not be produced.
+<a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a> specifies a data type that is not compatible with the type of serialized data.  As long as there is only a single defined serialized data type this error cannot not be produced.
 

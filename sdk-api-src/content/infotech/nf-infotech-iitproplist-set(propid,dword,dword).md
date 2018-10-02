@@ -7,7 +7,7 @@ old-location: htmlhelp\iitproplist_set1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistset.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.Set, IITPropList.Set(PROPID,DWORD,DWORD), IITPropList::Set, IITPropList::Set(PROPID,DWORD,DWORD), PROP_ADD, PROP_DELETE, PROP_UPDATE, Set, Set method [HTML Help Workshop], Set method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_set1, infotech/IITPropList::Set, refIITPropListSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -213,7 +213,7 @@ Use this method to set properties with numerical values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/09200749-bd1d-4266-895e-29e21525bac2">IITPropList</a>
  
 
  

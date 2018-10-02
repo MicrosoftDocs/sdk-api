@@ -4,10 +4,10 @@ title: ILCloneChild function
 author: windows-sdk-content
 description: Clones a child ITEMIDLIST structure.
 old-location: shell\ILCloneChild.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e82f0b34-3d7d-4da2-9eec-05842ede8300
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ILCloneChild, ILCloneChild function [Windows Shell], _shell_ILCloneChild, shell.ILCloneChild, shlobj_core/ILCloneChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

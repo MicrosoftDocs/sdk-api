@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents3_prefetchfileend.htm
 tech.root: OfflineFiles
 ms.assetid: d5370d39-dd66-49c1-8774-cf335aa88e96
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileEnd method, IOfflineFilesEvents3.PrefetchFileEnd, IOfflineFilesEvents3::PrefetchFileEnd, PrefetchFileEnd, PrefetchFileEnd method [Offline Files], PrefetchFileEnd method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileEnd, of.iofflinefilesevents3_prefetchfileend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd442645(v=VS.85).aspx">IOfflineFilesEvents3</a>
+<a href="https://msdn.microsoft.com/f68c2c0c-e4f7-4048-99c9-761f98928157">IOfflineFilesEvents3</a>
  
 
  

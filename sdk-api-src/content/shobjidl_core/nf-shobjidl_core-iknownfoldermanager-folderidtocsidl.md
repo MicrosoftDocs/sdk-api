@@ -4,10 +4,10 @@ title: IKnownFolderManager::FolderIdToCsidl
 author: windows-sdk-content
 description: Gets the legacy CSIDL value that is the equivalent of a given KNOWNFOLDERID.
 old-location: shell\IKnownFolderManager_FolderIdToCsidl.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 27bd8c79-34ff-44ee-ad99-aa079af7da89
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: FolderIdToCsidl, FolderIdToCsidl method [Windows Shell], FolderIdToCsidl method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FolderIdToCsidl method, IKnownFolderManager.FolderIdToCsidl, IKnownFolderManager::FolderIdToCsidl, _shell_IKnownFolderManager_FolderIdToCsidl, shell.IKnownFolderManager_FolderIdToCsidl, shobjidl_core/IKnownFolderManager::FolderIdToCsidl
 ms.prod: windows-hardware
 ms.technology: windows-devices

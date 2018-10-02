@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextensions_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1v1v_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxInboundRoutingExtensions, IFaxInboundRoutingExtensions interface [Fax Service], IFaxInboundRoutingExtensions interface [Fax Service],described, _mfax_faxinboundroutingextensions_cpp, fax._mfax_faxinboundroutingextensions_cpp, faxcomex/IFaxInboundRoutingExtensions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-The <b>IFaxInboundRoutingExtensions</b> interface defines a configuration collection used by a fax client application to manage the inbound fax routing extensions registered with the fax service. Each extension is represented by a <a href="https://msdn.microsoft.com/en-us/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a> object.
+The <b>IFaxInboundRoutingExtensions</b> interface defines a configuration collection used by a fax client application to manage the inbound fax routing extensions registered with the fax service. Each extension is represented by a <a href="https://msdn.microsoft.com/cb875610-d6c9-473d-b9c2-0035e67a8949">FaxInboundRoutingExtension</a> object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingExtensions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingExtensions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingExtensions</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxInboundRoutingExtensions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,19 +71,19 @@ The <b>IFaxInboundRoutingExtensions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687481(v=VS.85).aspx">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/fe42a4e2-699d-4a34-b636-479d2a85f34b">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687481(v=VS.85).aspx">IFaxInboundRoutingExtensions::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <b>IFaxInboundRoutingExtensions</b> collection.
+The <a href="https://msdn.microsoft.com/fe42a4e2-699d-4a34-b636-479d2a85f34b">IFaxInboundRoutingExtensions::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <b>IFaxInboundRoutingExtensions</b> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687505(v=VS.85).aspx">Item</a>
+<a href="https://msdn.microsoft.com/b647f803-5979-44af-828f-f853b716ecf5">Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687505(v=VS.85).aspx">IFaxInboundRoutingExtensions::get_Item</a> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms684581(v=VS.85).aspx">IFaxInboundRoutingExtension</a> interface from the <b>IFaxInboundRoutingExtensions</b> collection.
+The <a href="https://msdn.microsoft.com/b647f803-5979-44af-828f-f853b716ecf5">IFaxInboundRoutingExtensions::get_Item</a> method returns a <a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a> interface from the <b>IFaxInboundRoutingExtensions</b> collection.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687505(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685078(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/12ab8005-c1e3-41fb-a02b-36b84d1726bb">Count</a>
 
 
 </td>
@@ -107,7 +107,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685078(v=VS.85).aspx">IFaxInboundRoutingExtensions::get_Count</a> property represents the number of objects in the <b>IFaxInboundRoutingExtensions</b> collection. This is the total number of inbound routing extensions associated with the fax server.
+The <a href="https://msdn.microsoft.com/12ab8005-c1e3-41fb-a02b-36b84d1726bb">IFaxInboundRoutingExtensions::get_Count</a> property represents the number of objects in the <b>IFaxInboundRoutingExtensions</b> collection. This is the total number of inbound routing extensions associated with the fax server.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms685078(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxInboundRoutingExtensions</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> object.
+A default implementation of <b>IFaxInboundRoutingExtensions</b> is provided as the <a href="https://msdn.microsoft.com/8989c149-bbf4-46c1-b969-949d44efcf90">FaxInboundRoutingExtensions</a> object.
 
 
 

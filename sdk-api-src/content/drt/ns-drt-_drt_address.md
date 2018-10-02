@@ -4,10 +4,10 @@ title: "_DRT_ADDRESS"
 author: windows-sdk-content
 description: DRT_ADDRESS structure contains endpoint information about a DRT node that participated in a search. This information is intended for use in debugging connectivity problems.
 old-location: p2p\drt_address.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: d6b00d5e-14f1-4e56-b8c8-f3936f6ae9fb
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDRT_ADDRESS, DRT_ADDRESS, DRT_ADDRESS structure [Peer Networking], PDRT_ADDRESS, PDRT_ADDRESS structure pointer [Peer Networking], _DRT_ADDRESS, drt/DRT_ADDRESS, drt/PDRT_ADDRESS, p2p.drt_address"
 ms.prod: windows
 ms.technology: windows-sdk

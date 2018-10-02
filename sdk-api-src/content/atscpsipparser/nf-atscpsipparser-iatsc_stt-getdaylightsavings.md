@@ -7,7 +7,7 @@ old-location: mstv\iatsc_stt_getdaylightsavings.htm
 tech.root: MSTV
 ms.assetid: 5c605ef2-a928-4c78-a2e4-c70142db66ac
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetDaylightSavings, GetDaylightSavings method [Microsoft TV Technologies], GetDaylightSavings method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetDaylightSavings method, IATSC_STT.GetDaylightSavings, IATSC_STT::GetDaylightSavings, IATSC_STTGetDaylightSavings, atscpsipparser/IATSC_STT::GetDaylightSavings, mstv.iatsc_stt_getdaylightsavings
 ms.prod: windows-hardware
 ms.technology: windows-devices

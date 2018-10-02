@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_filter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_filter.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 31eff5fe-8fd7-55df-9fc7-0567ce55ecd5, D3D10_FILTER, D3D10_FILTER enumeration [Direct3D 10], D3D10_FILTER_ANISOTROPIC, D3D10_FILTER_COMPARISON_ANISOTROPIC, D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT, D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT, D3D10_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR, D3D10_FILTER_COMPARISON_MIN_MAG_MIP_POINT, D3D10_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR, D3D10_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT, D3D10_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR, D3D10_FILTER_MIN_LINEAR_MAG_MIP_POINT, D3D10_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_FILTER_MIN_MAG_LINEAR_MIP_POINT, D3D10_FILTER_MIN_MAG_MIP_LINEAR, D3D10_FILTER_MIN_MAG_MIP_POINT, D3D10_FILTER_MIN_MAG_POINT_MIP_LINEAR, D3D10_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, D3D10_FILTER_MIN_POINT_MAG_MIP_LINEAR, D3D10_FILTER_TEXT_1BIT, d3d10/D3D10_FILTER, d3d10/D3D10_FILTER_ANISOTROPIC, d3d10/D3D10_FILTER_COMPARISON_ANISOTROPIC, d3d10/D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT, d3d10/D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10/D3D10_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT, d3d10/D3D10_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR, d3d10/D3D10_FILTER_COMPARISON_MIN_MAG_MIP_POINT, d3d10/D3D10_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR, d3d10/D3D10_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10/D3D10_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR, d3d10/D3D10_FILTER_MIN_LINEAR_MAG_MIP_POINT, d3d10/D3D10_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10/D3D10_FILTER_MIN_MAG_LINEAR_MIP_POINT, d3d10/D3D10_FILTER_MIN_MAG_MIP_LINEAR, d3d10/D3D10_FILTER_MIN_MAG_MIP_POINT, d3d10/D3D10_FILTER_MIN_MAG_POINT_MIP_LINEAR, d3d10/D3D10_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10/D3D10_FILTER_MIN_POINT_MAG_MIP_LINEAR, d3d10/D3D10_FILTER_TEXT_1BIT, direct3d10.d3d10_filter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -170,16 +170,16 @@ You can use HLSL intrinsic texture-sampling functions that implement texture fil
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509695(v=VS.85).aspx">sample</a>
+<a href="https://msdn.microsoft.com/788ba4b4-8013-411f-9a19-fb9983386fa0">sample</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">samplecmp</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">samplecmplevelzero</a>
+<a href="https://msdn.microsoft.com/e21894c4-e8c5-4c3d-92c1-727964f8fd94">samplecmp</a> or <a href="https://msdn.microsoft.com/cecfc5e8-d293-4e0e-a3f4-b23f84843b7d">samplecmplevelzero</a>
 </td>
 </tr>
 </table>
  
 
-Comparison filters only work with textures that have the following <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">formats</a>: R32_FLOAT_X8X24_TYPELESS, R32_FLOAT, R24_UNORM_X8_TYPELESS, R16_UNORM.
+Comparison filters only work with textures that have the following <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">formats</a>: R32_FLOAT_X8X24_TYPELESS, R32_FLOAT, R24_UNORM_X8_TYPELESS, R16_UNORM.
 
 
 
@@ -189,7 +189,7 @@ Comparison filters only work with textures that have the following <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

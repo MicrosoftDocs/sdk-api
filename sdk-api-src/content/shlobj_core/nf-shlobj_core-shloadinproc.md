@@ -4,10 +4,10 @@ title: SHLoadInProc function
 author: windows-sdk-content
 description: Creates an instance of the specified object class from within the context of the Shell's process. Windows Vista and later:\_This function has been disabled and returns E_NOTIMPL.
 old-location: shell\SHLoadInProc.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 307b99d9-2d0a-47c5-8a10-dfdc0a408942
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHLoadInProc, SHLoadInProc function [Windows Shell], _win32_SHLoadInProc, shell.SHLoadInProc, shlobj_core/SHLoadInProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

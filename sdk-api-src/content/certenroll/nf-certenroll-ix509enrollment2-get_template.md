@@ -4,10 +4,10 @@ title: IX509Enrollment2::get_Template
 author: windows-sdk-content
 description: Retrieves the certificate request template used during initialization.
 old-location: security\ix509enrollment2_template.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 14b6fab5-36d1-490b-9416-ff77f6bb7e01
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509Enrollment2 interface [Security],Template property, IX509Enrollment2.Template, IX509Enrollment2.get_Template, IX509Enrollment2::Template, IX509Enrollment2::get_Template, Template property [Security], Template property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::Template, certenroll/IX509Enrollment2::get_Template, get_Template, security.ix509enrollment2_template
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351681(v=VS.85).aspx">IX509Enrollment2</a>
+<a href="https://msdn.microsoft.com/8e262b4b-de6a-417e-9ade-0b451bd4c09a">IX509Enrollment2</a>
  
 
  

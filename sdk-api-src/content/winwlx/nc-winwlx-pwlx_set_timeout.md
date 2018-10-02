@@ -7,7 +7,7 @@ old-location: security\wlxsettimeout.htm
 tech.root: secauthn
 ms.assetid: e5f1a184-195a-4a0e-849a-ed629a6c9049
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: PWLX_SET_TIMEOUT, PWLX_SET_TIMEOUT callback, WlxSetTimeout, WlxSetTimeout callback function [Security], _gina_wlxsettimeout, security.wlxsettimeout, winwlx/WlxSetTimeout
 ms.prod: windows
 ms.technology: windows-sdk

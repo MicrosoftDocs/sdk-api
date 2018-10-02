@@ -7,7 +7,7 @@ old-location: termserv\wtsqueryuserconfig.htm
 tech.root: TermServ
 ms.assetid: aabbcc03-3241-49ab-ab11-ccd3e6893e78
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WTSQueryUserConfig, WTSQueryUserConfig function [Remote Desktop Services], WTSQueryUserConfigA, WTSQueryUserConfigW, _win32_wtsqueryuserconfig, termserv.wtsqueryuserconfig, wtsapi32/WTSQueryUserConfig, wtsapi32/WTSQueryUserConfigA, wtsapi32/WTSQueryUserConfigW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\iloadfilter_loadifilterfromstorage.htm
 tech.root: search
 ms.assetid: b4eff132-9022-4091-a2a3-1d8e11a35b39
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStorage method, ILoadFilter.LoadIFilterFromStorage, ILoadFilter::LoadIFilterFromStorage, LoadIFilterFromStorage, LoadIFilterFromStorage method [search], LoadIFilterFromStorage method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStorage, search.iloadfilter_loadifilterfromstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

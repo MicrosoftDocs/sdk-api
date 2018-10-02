@@ -4,10 +4,10 @@ title: IFileSystemBindData2::GetFileID
 author: windows-sdk-content
 description: Gets the unique file identifier for the current file.
 old-location: shell\IFileSystemBindData2_GetFileID.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 77052ae5-d663-4bf8-967a-29bd5dc85706
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetFileID, GetFileID method [Windows Shell], GetFileID method [Windows Shell],IFileSystemBindData2 interface, IFileSystemBindData2 interface [Windows Shell],GetFileID method, IFileSystemBindData2.GetFileID, IFileSystemBindData2::GetFileID, _shell_IFileSystemBindData2_GetFileID, shell.IFileSystemBindData2_GetFileID, shobjidl_core/IFileSystemBindData2::GetFileID
 ms.prod: windows-hardware
 ms.technology: windows-devices

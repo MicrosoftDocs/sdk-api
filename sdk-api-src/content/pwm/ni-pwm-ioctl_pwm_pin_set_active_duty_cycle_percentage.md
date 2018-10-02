@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_set_active_duty_cycle_percentage.htm
 tech.root: devio
 ms.assetid: A6B29913-5F91-46BD-8B96-DB00B7B1D3FF
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE, IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control, IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code, base.ioctl_pwm_pin_set_active_duty_cycle_percentage, pwm/IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
 Set a desired duty cycle percentage value for the controller pin or channel. The control code specifies the percentage as a <a href="https://msdn.microsoft.com/CA699703-2D9B-4841-99AD-9C27FF428394">PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT</a> structure. 

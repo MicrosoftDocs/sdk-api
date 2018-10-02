@@ -4,10 +4,10 @@ title: ILFindChild function
 author: windows-sdk-content
 description: Determines whether a specified ITEMIDLIST structure is the child of another ITEMIDLIST structure.
 old-location: shell\ILFindChild.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4f07e989-ae74-4cf4-b3d9-0f59f2653095
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ILFindChild, ILFindChild function [Windows Shell], _win32_ILFindChild, shell.ILFindChild, shlobj_core/ILFindChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

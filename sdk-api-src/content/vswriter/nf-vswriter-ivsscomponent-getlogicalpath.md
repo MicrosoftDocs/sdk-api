@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getlogicalpath.htm
 tech.root: VSS
 ms.assetid: 16c85322-5127-40aa-8393-df7684cd1c92
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetLogicalPath method, IVssComponent.GetLogicalPath, IVssComponent::GetLogicalPath, _win32_ivsscomponent_getlogicalpath, base.ivsscomponent_getlogicalpath, vswriter/IVssComponent::GetLogicalPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller should free the memory held by the <i>pbstrPath</i> parameter by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrPath</i> parameter by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 Logical paths are not required of components. A component without a logical path will return S_FALSE.
 

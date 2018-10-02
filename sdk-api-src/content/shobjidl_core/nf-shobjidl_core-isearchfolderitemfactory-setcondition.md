@@ -4,10 +4,10 @@ title: ISearchFolderItemFactory::SetCondition
 author: windows-sdk-content
 description: Sets the ICondition of the search. When this method is not called, the resulting search will have no filters applied.
 old-location: shell\ISearchFolderItemFactory_SetCondition.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6ac5acc3-e522-4b6f-a31c-c0850445e00c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetCondition method, ISearchFolderItemFactory.SetCondition, ISearchFolderItemFactory::SetCondition, SetCondition, SetCondition method [Windows Shell], SetCondition method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetCondition, shell.ISearchFolderItemFactory_SetCondition, shobjidl_core/ISearchFolderItemFactory::SetCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the  <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
+Sets the  <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Sets the  <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).as
 
 ### -param pCondition [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> interface.
+A pointer to an <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> interface.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231388(v=VS.85).aspx">ICondition::Clone</a>
+<a href="_search_ICondition_Clone">ICondition::Clone</a>
 
 
 

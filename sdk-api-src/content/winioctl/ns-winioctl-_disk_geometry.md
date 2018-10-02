@@ -7,7 +7,7 @@ old-location: fs\disk_geometry_str.htm
 tech.root: fileio
 ms.assetid: 5e5955b4-1319-42c9-9df8-9910c05dec69
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Files], _DISK_GEOMETRY, _win32_disk_geometry_str, base.disk_geometry_str, fs.disk_geometry_str, winioctl/DISK_GEOMETRY"
 ms.prod: windows
 ms.technology: windows-sdk

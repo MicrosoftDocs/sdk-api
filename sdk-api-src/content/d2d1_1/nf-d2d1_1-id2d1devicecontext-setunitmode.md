@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_setunitmode.htm
 tech.root: direct2d
 ms.assetid: a5774b9a-4458-47e7-821a-4ac4b70468e3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],SetUnitMode method, ID2D1DeviceContext.SetUnitMode, ID2D1DeviceContext::SetUnitMode, SetUnitMode, SetUnitMode method [Direct2D], SetUnitMode method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::SetUnitMode, direct2d.id2d1devicecontext_setunitmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

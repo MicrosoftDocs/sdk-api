@@ -7,7 +7,7 @@ old-location: winsock\ioctlsocket_2.htm
 tech.root: WinSock
 ms.assetid: 048fcb8d-acd3-4917-a997-dd133db399f8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_ioctlsocket_2, ioctlsocket, ioctlsocket function [Winsock], winsock.ioctlsocket_2, winsock/ioctlsocket"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ Upon successful completion, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +102,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +113,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -124,7 +124,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +135,7 @@ The descriptor <i>s</i> is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -167,11 +167,15 @@ The <b>WSAIoctl</b>
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>ioctlsocket</b> function.
 
-
-```cpp
-
-#include <winsock2.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;winsock2.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Ws2_32.lib")
 
@@ -183,7 +187,7 @@ WSADATA wsaData;
 int iResult;
 u_long iMode = 0;
 
-iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
+iResult = WSAStartup(MAKEWORD(2,2), &amp;wsaData);
 if (iResult != NO_ERROR)
   printf("Error at WSAStartup()\n");
 
@@ -204,16 +208,16 @@ if (m_socket == INVALID_SOCKET) {
 // If iMode = 0, blocking is enabled; 
 // If iMode != 0, non-blocking mode is enabled.
 
-iResult = ioctlsocket(m_socket, FIONBIO, &iMode);
+iResult = ioctlsocket(m_socket, FIONBIO, &amp;iMode);
 if (iResult != NO_ERROR)
   printf("ioctlsocket failed with error: %ld\n", iResult);
   
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Compatibility"></a><a id="compatibility"></a><a id="COMPATIBILITY"></a>Compatibility</h3>
 This 
 <b>ioctlsocket</b> function performs only a subset of functions on a socket when compared to the <b>ioctl</b> function found in Berkeley sockets. The 

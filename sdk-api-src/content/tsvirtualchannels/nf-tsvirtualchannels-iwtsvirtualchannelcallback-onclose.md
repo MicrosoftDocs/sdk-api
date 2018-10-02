@@ -7,7 +7,7 @@ old-location: termserv\iwtsvirtualchannelcallback_onclose.htm
 tech.root: TermServ
 ms.assetid: 5038f2f9-980b-4383-a718-eb4e07e9cfe9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnClose method, IWTSVirtualChannelCallback.OnClose, IWTSVirtualChannelCallback::OnClose, OnClose, OnClose method [Remote Desktop Services], OnClose method [Remote Desktop Services],IWTSVirtualChannelCallback interface, termserv.iwtsvirtualchannelcallback_onclose, tsvirtualchannels/IWTSVirtualChannelCallback::OnClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

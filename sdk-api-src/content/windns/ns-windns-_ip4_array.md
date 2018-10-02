@@ -7,7 +7,7 @@ old-location: dns\ip4_array.htm
 tech.root: DNS
 ms.assetid: 4273a739-129c-4951-b6df-aef4332ce0cb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP4_ARRAY, *PIP4_ARRAY structure [DNS], IP4_ARRAY, IP4_ARRAY structure [DNS], _IP4_ARRAY, dns.ip4_array, windns/*PIP4_ARRAY, windns/IP4_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

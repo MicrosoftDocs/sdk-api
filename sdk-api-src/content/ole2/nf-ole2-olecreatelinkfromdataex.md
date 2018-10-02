@@ -7,7 +7,7 @@ old-location: com\olecreatelinkfromdataex.htm
 tech.root: com
 ms.assetid: f486dc73-3cb9-4839-931a-91cc3a5837d3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: OleCreateLinkFromDataEx, OleCreateLinkFromDataEx function [COM], _ole_OleCreateLinkFromDataEx, com.olecreatelinkfromdataex, ole2/OleCreateLinkFromDataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

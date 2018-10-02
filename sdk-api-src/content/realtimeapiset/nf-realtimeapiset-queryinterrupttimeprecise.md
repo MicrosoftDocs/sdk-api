@@ -7,7 +7,7 @@ old-location: base\queryinterrupttimeprecise.htm
 tech.root: SysInfo
 ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base.queryinterrupttimeprecise, realtimeapiset/QueryInterruptTimePrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices

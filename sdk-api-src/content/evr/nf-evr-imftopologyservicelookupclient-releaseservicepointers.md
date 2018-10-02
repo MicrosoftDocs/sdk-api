@@ -4,10 +4,10 @@ title: IMFTopologyServiceLookupClient::ReleaseServicePointers
 author: windows-sdk-content
 description: Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).
 old-location: mf\imftopologyservicelookupclient_releaseservicepointers.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 03ed29b4-89c1-4702-a23f-d013eeef5d44
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 03ed29b4-89c1-4702-a23f-d013eeef5d44, IMFTopologyServiceLookupClient interface [Media Foundation],ReleaseServicePointers method, IMFTopologyServiceLookupClient.ReleaseServicePointers, IMFTopologyServiceLookupClient::ReleaseServicePointers, ReleaseServicePointers, ReleaseServicePointers method [Media Foundation], ReleaseServicePointers method [Media Foundation],IMFTopologyServiceLookupClient interface, evr/IMFTopologyServiceLookupClient::ReleaseServicePointers, mf.imftopologyservicelookupclient_releaseservicepointers
 ms.prod: windows-hardware
 ms.technology: windows-devices

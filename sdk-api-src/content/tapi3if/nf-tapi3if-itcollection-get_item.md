@@ -4,10 +4,10 @@ title: ITCollection::get_Item
 author: windows-sdk-content
 description: The get_Item method, given an index, returns an item in the collection.
 old-location: tapi3\itcollection_get_item.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: f4e6de7e-99c4-415f-b3b4-7e8bf1f082fc
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get_Item method, ITCollection.get_Item, ITCollection::get_Item, _tapi3_itcollection_get_item, get_Item, get_Item method [TAPI 2.2], get_Item method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get_item, tapi3if/ITCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

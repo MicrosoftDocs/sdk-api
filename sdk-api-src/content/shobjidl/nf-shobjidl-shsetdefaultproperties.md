@@ -4,10 +4,10 @@ title: SHSetDefaultProperties function
 author: windows-sdk-content
 description: Applies the default set of properties on a Shell item.
 old-location: shell\SHSetDefaultProperties.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c3ab80a3-c1f3-4223-9fe3-f7fe48c36460
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHSetDefaultProperties, SHSetDefaultProperties function [Windows Shell], _shell_SHSetDefaultProperties, shell.SHSetDefaultProperties, shobjidl/SHSetDefaultProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

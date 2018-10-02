@@ -7,7 +7,7 @@ old-location: base\ivsswmfiledesc_getpath.htm
 tech.root: VSS
 ms.assetid: e646bf76-8779-4095-a022-2d69d5c3bead
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPath, GetPath method [VSS], GetPath method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetPath method, IVssWMFiledesc.GetPath, IVssWMFiledesc::GetPath, _win32_ivsswmfiledesc_getpath, base.ivsswmfiledesc_getpath, vswriter/IVssWMFiledesc::GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ The address of a caller-allocated variable that receives a <b>NULL</b>-terminate
 
 
 The path can be a long or short file name and can use the prefix "\\?\". For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa365247(v=VS.85).aspx">Naming a File</a>.
+<a href="base.naming_a_file">Naming a File</a>.
 
 Users of this method need to check to determine whether this path ends with a backslash ("\").
 
@@ -159,7 +159,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
-The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrPath</i> parameter.
+The caller must call <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory held by the <i>pbstrPath</i> parameter.
 
 
 

@@ -4,10 +4,10 @@ title: IDisplayHelp
 author: windows-sdk-content
 description: The IDisplayHelp interface is introduced in MMC version 1.1.
 old-location: mmc\idisplayhelp.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 5f5b9a3b-d520-4e19-8cd7-efbb08bcfba2
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IDisplayHelp, IDisplayHelp interface [MMC], IDisplayHelp interface [MMC],described, _slate_idisplayhelp, mmc.idisplayhelp, mmc/IDisplayHelp
 ms.prod: windows
 ms.technology: windows-sdk

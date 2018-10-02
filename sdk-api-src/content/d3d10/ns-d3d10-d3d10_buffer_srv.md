@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_buffer_srv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_buffer_srv.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 2f5305b7-1dcd-3d82-23b3-875654ce7066, D3D10_BUFFER_SRV, D3D10_BUFFER_SRV structure [Direct3D 10], d3d10/D3D10_BUFFER_SRV, direct3d10.d3d10_buffer_srv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the elements in a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer</a> resource to use in a shader-resource view.
+Specifies the elements in a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffer</a> resource to use in a shader-resource view.
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ The width of each element (in bytes). This can be determined from the format sto
 
 
 
-The <b>D3D10_BUFFER_SRV</b> structure is a member of the  <a href="https://msdn.microsoft.com/en-us/library/Bb172437(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC</a> structure, which represents a shader-resource view description. You can create a shader-resource view by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb173558(v=VS.85).aspx">ID3D10Device::CreateShaderResourceView</a> method.
+The <b>D3D10_BUFFER_SRV</b> structure is a member of the  <a href="https://msdn.microsoft.com/41abc41f-2b51-4901-9e1a-22631ed271cc">D3D10_SHADER_RESOURCE_VIEW_DESC</a> structure, which represents a shader-resource view description. You can create a shader-resource view by calling the <a href="https://msdn.microsoft.com/32e5d4d0-6686-4bcc-8ddb-fe519544051b">ID3D10Device::CreateShaderResourceView</a> method.
 
 
 
@@ -100,7 +100,7 @@ The <b>D3D10_BUFFER_SRV</b> structure is a member of the  <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

@@ -4,10 +4,10 @@ title: EngLpkInstalled function
 author: windows-sdk-content
 description: The EngLpkInstalled function determines whether the language pack is installed on the system.
 old-location: display\englpkinstalled.htm
-tech.root: display
+tech.root: Display
 ms.assetid: be604527-0c9b-4065-9362-08b71e5a86be
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngLpkInstalled, EngLpkInstalled function [Display Devices], display.englpkinstalled, gdifncs_75e34695-7344-475a-95c3-eeec27db1d34.xml, winddi/EngLpkInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices

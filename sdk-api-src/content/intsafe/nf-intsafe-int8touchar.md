@@ -4,10 +4,10 @@ title: Int8ToUChar function
 author: windows-sdk-content
 description: Converts a value of type INT8 to a value of type UCHAR.
 old-location: shell\Int8ToUChar.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f8e87f71-f1a2-433a-8b57-6a7bd59b1e06
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Int8ToUChar, Int8ToUChar function [Windows Shell], intsafe/Int8ToUChar, shell.Int8ToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

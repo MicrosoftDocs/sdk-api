@@ -4,10 +4,10 @@ title: INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction
 author: windows-sdk-content
 description: Invokes the default accessibility action on a Shell item.
 old-location: shell\INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a6aa6588-6e3c-4229-8540-0aa5d85c0381
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnDoDefaultAccessibilityAction method, INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction, INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction method [Windows Shell], OnDoDefaultAccessibilityAction method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shell.INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shobjidl/INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RpcUserFree function
 author: windows-sdk-content
 description: RpcUserFree may be altered or unavailable.
 old-location: rpc\rpcuserfree.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: A10E3C20-DB43-4F76-BF4B-87F4126BAF1A
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RpcUserFree, RpcUserFree function [RPC], rpc.rpcuserfree, rpcndr/RpcUserFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

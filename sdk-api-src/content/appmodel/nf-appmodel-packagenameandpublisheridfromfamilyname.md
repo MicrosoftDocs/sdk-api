@@ -7,7 +7,7 @@ old-location: appxpkg\packagenameandpublisheridfromfamilyname.htm
 tech.root: appxpkg
 ms.assetid: 4AA5BD75-F865-40D6-9C10-E54C197D47C4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: PackageNameAndPublisherIdFromFamilyName, PackageNameAndPublisherIdFromFamilyName function [App packaging and management], appmodel/PackageNameAndPublisherIdFromFamilyName, appxpkg.packagenameandpublisheridfromfamilyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,31 +137,35 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-
-```cpp
-#define _UNICODE 1
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define _UNICODE 1
 #define UNICODE 1
 
-#include <Windows.h>
-#include <appmodel.h>
-#include <malloc.h>
-#include <stdio.h>
+#include &lt;Windows.h&gt;
+#include &lt;appmodel.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;stdio.h&gt;
 
 int ShowUsage();
 void FamilyNameToNameAndPublisherId(__in PCWSTR familyName);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: PackageNameAndPublisherIdFromFamilyName <familyname> [<familyname>...]\n");
+    wprintf(L"Usage: PackageNameAndPublisherIdFromFamilyName &lt;familyname&gt; [&lt;familyname&gt;...]\n");
     return 1;
 }
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc <= 1)
+    if (argc &lt;= 1)
         return ShowUsage();
 
-    for (int i=1; i<argc; ++i)
+    for (int i=1; i&lt;argc; ++i)
         FamilyNameToNameAndPublisherId(argv[i]);
 
     return 0;
@@ -172,7 +176,7 @@ void FamilyNameToNameAndPublisherId(__in PCWSTR familyName)
     wprintf(L"FamilyName: %s\n", familyName);
     UINT32 nameLength = 0;
     UINT32 publisherIdLength = 0;
-    LONG rc = PackageNameAndPublisherIdFromFamilyName(familyName, &nameLength, NULL, &publisherIdLength, NULL);
+    LONG rc = PackageNameAndPublisherIdFromFamilyName(familyName, &amp;nameLength, NULL, &amp;publisherIdLength, NULL);
     if (rc == ERROR_SUCCESS)
     {
         wprintf(L"PackageNameAndPublisherIdFromFamilyName unexpectedly succeeded\n");
@@ -199,7 +203,7 @@ void FamilyNameToNameAndPublisherId(__in PCWSTR familyName)
         return;
     }
 
-    rc = PackageNameAndPublisherIdFromFamilyName(familyName, &nameLength, name, &publisherIdLength, publisherId);
+    rc = PackageNameAndPublisherIdFromFamilyName(familyName, &amp;nameLength, name, &amp;publisherIdLength, publisherId);
     if (rc != ERROR_SUCCESS)
         wprintf(L"Error %d converting PackageFamilyName to Name and PublisherId\n", rc);
     else
@@ -211,10 +215,10 @@ void FamilyNameToNameAndPublisherId(__in PCWSTR familyName)
     free(name);
     free(publisherId);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

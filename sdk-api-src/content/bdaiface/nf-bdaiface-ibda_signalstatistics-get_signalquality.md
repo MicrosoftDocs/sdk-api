@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalstatistics_get_signalquality.htm
 tech.root: MSTV
 ms.assetid: 2472a539-e8ee-4501-b7ab-e7e1fce7cea0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalQuality method, IBDA_SignalStatistics.get_SignalQuality, IBDA_SignalStatistics::get_SignalQuality, IBDA_SignalStatisticsget_SignalQuality, bdaiface/IBDA_SignalStatistics::get_SignalQuality, get_SignalQuality, get_SignalQuality method [Microsoft TV Technologies], get_SignalQuality method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalquality
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,15 +80,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693432(v=VS.85).aspx">IBDA_SignalStatistics Interface</a>
+<a href="https://msdn.microsoft.com/ee8b25d5-d39b-42ac-9f6a-0825e396241c">IBDA_SignalStatistics Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693441(v=VS.85).aspx">IBDA_SignalStatistics::put_SignalQuality</a>
+<a href="https://msdn.microsoft.com/e7d73965-4f7e-4330-89f4-2ccbe679ae2a">IBDA_SignalStatistics::put_SignalQuality</a>
  
 
  

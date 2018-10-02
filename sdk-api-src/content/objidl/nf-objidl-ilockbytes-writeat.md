@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_writeat.htm
 tech.root: Stg
 ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ILockBytes interface [Structured Storage],WriteAt method, ILockBytes.WriteAt, ILockBytes::WriteAt, WriteAt, WriteAt method [Structured Storage], WriteAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_writeat, objidl/ILockBytes::WriteAt, stg.ilockbytes_writeat
 ms.prod: windows-hardware
 ms.technology: windows-devices

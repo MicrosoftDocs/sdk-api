@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_next.htm
 tech.root: seccrypto
 ms.assetid: 4c77d1c7-af3a-4a7d-bf42-69be887c881e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Next method, IEnumCERTVIEWCOLUMN.Next, IEnumCERTVIEWCOLUMN::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_next, certview/IEnumCERTVIEWCOLUMN::Next, security.ienumcertviewcolumn_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ A pointer to a variable that  contains the index value of the next column refere
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and the next column in the column-enumeration sequence is now being referenced. If there are no more columns to enumerate, the method returns S_FALSE, and the <i>pIndex</i> parameter is set to a value of –1.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the index value of the column that is now referenced by the column-enumeration sequence. If there are no more columns to enumerate, the return value is –1.
@@ -87,22 +87,26 @@ Upon successful completion of this method, the information in the column can be 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386186(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetName</a>: Retrieves the nonlocalized name of the column.</li>
+<a href="https://msdn.microsoft.com/be76cec1-9ac0-4cc0-bddb-992b2d3590d7">IEnumCERTVIEWCOLUMN::GetName</a>: Retrieves the nonlocalized name of the column.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386182(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetDisplayName</a>: Retrieves the localized name of the column.</li>
+<a href="https://msdn.microsoft.com/e7fd06f7-7b42-47ed-be03-867d0d03594a">IEnumCERTVIEWCOLUMN::GetDisplayName</a>: Retrieves the localized name of the column.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386192(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetValue</a>: Retrieves the data in the column.</li>
+<a href="https://msdn.microsoft.com/5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1">IEnumCERTVIEWCOLUMN::GetValue</a>: Retrieves the data in the column.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386189(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetType</a>: Retrieves the type of data in the column.</li>
+<a href="https://msdn.microsoft.com/53297e9e-6583-4edf-85f4-e2b2e4ba28b3">IEnumCERTVIEWCOLUMN::GetType</a>: Retrieves the type of data in the column.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386184(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetMaxLength</a>: Retrieves the maximum length, in bytes, of the column.</li>
+<a href="https://msdn.microsoft.com/20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad">IEnumCERTVIEWCOLUMN::GetMaxLength</a>: Retrieves the maximum length, in bytes, of the column.</li>
 </ul>
 
 #### Examples
 
-
-```cpp
-LONG       nLength;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LONG       nLength;
 LONG       nType;
 LONG       bIsindexed;
 LONG       Index;
@@ -113,10 +117,10 @@ BSTR       bstrColName = NULL;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 // examine each column
-while (S_OK == pEnumCol->Next(&Index))
+while (S_OK == pEnumCol-&gt;Next(&amp;Index))
 {
     // determine database length
-    hr = pEnumCol->GetMaxLength(&nLength);
+    hr = pEnumCol-&gt;GetMaxLength(&amp;nLength);
     if (FAILED(hr))
     {
         printf("Failed GetMaxLength %x\n", hr);
@@ -124,7 +128,7 @@ while (S_OK == pEnumCol->Next(&Index))
     }
 
     // determine data type
-    hr = pEnumCol->GetType(&nType);
+    hr = pEnumCol-&gt;GetType(&amp;nType);
     if (FAILED(hr))
     {
         printf("Failed GetType %x\n", hr);
@@ -132,7 +136,7 @@ while (S_OK == pEnumCol->Next(&Index))
     }
 
     // determine whether column is indexed
-    hr = pEnumCol->IsIndexed(&bIsindexed);
+    hr = pEnumCol-&gt;IsIndexed(&amp;bIsindexed);
     if (FAILED(hr))
     {
         printf("Failed IsIndexed %x\n", hr);
@@ -140,7 +144,7 @@ while (S_OK == pEnumCol->Next(&Index))
     }
 
     // retrieve column name
-    hr = pEnumCol->GetName(&bstrColName);
+    hr = pEnumCol-&gt;GetName(&amp;bstrColName);
     if (FAILED(hr))
     {
         printf("Failed GetName %x\n", hr);
@@ -184,10 +188,10 @@ error:
 
 // done processing, clear resources
 if (NULL != bstrColName)
-    SysFreeString(bstrColName);
-```
-
-
+    SysFreeString(bstrColName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -196,27 +200,27 @@ if (NULL != bstrColName)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a>
+<a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386182(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetDisplayName</a>
+<a href="https://msdn.microsoft.com/e7fd06f7-7b42-47ed-be03-867d0d03594a">IEnumCERTVIEWCOLUMN::GetDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386184(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetMaxLength</a>
+<a href="https://msdn.microsoft.com/20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad">IEnumCERTVIEWCOLUMN::GetMaxLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386186(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetName</a>
+<a href="https://msdn.microsoft.com/be76cec1-9ac0-4cc0-bddb-992b2d3590d7">IEnumCERTVIEWCOLUMN::GetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386189(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetType</a>
+<a href="https://msdn.microsoft.com/53297e9e-6583-4edf-85f4-e2b2e4ba28b3">IEnumCERTVIEWCOLUMN::GetType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386192(v=VS.85).aspx">IEnumCERTVIEWCOLUMN::GetValue</a>
+<a href="https://msdn.microsoft.com/5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1">IEnumCERTVIEWCOLUMN::GetValue</a>
  
 
  

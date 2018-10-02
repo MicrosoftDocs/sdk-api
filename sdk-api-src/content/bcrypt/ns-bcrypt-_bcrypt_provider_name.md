@@ -7,7 +7,7 @@ old-location: security\bcrypt_provider_name_struct.htm
 tech.root: SecCNG
 ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], _BCRYPT_PROVIDER_NAME, bcrypt/BCRYPT_PROVIDER_NAME, security.bcrypt_provider_name_struct
 ms.prod: windows
 ms.technology: windows-sdk

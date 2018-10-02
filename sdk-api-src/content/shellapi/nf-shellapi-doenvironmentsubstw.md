@@ -4,10 +4,10 @@ title: DoEnvironmentSubstW function
 author: windows-sdk-content
 description: Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
 old-location: shell\DoEnvironmentSubst.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: cdf8bf2d-f446-4e0d-8664-bff2c45f74ec
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: DoEnvironmentSubst, DoEnvironmentSubst function [Windows Shell], DoEnvironmentSubstA, DoEnvironmentSubstW, _win32_DoEnvironmentSubst, shell.DoEnvironmentSubst, shellapi/DoEnvironmentSubst, shellapi/DoEnvironmentSubstA, shellapi/DoEnvironmentSubstW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,9 +149,13 @@ The environment variables that correspond to file system folders can be mapped t
 
 The following console application demonstrates the use of <b>DoEnvironmentSubstW</b>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #include "stdafx.h"
 #include "windows.h"
 #include "windef.h"
@@ -167,9 +171,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	WORD string_length = LOWORD(result);
 
 	return 0;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: base\isnativevhdboot.htm
 tech.root: SysInfo
 ms.assetid: 8198D4AF-553D-42B3-AF22-EC2C63C0E9AE
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IsNativeVhdBoot, IsNativeVhdBoot , IsNativeVhdBoot function, base.isnativevhdboot, base.isnativevhdboot_, winbase/IsNativeVhdBoot
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchItemsChangedSink_OnItemsChanged.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\onitemschanged.htm
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: ISearchItemsChangedSink interface [search],OnItemsChanged method, ISearchItemsChangedSink.OnItemsChanged, ISearchItemsChangedSink::OnItemsChanged, OnItemsChanged, OnItemsChanged method [search], OnItemsChanged method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_OnItemsChanged, search._search_ISearchItemsChangedSink_OnItemsChanged, searchapi/ISearchItemsChangedSink::OnItemsChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,9 @@ The number of items that have changed.
 
 ### -param rgDataChangeEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a>[]</b>
+Type: <b><a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a>[]</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a> structures, describing the type of changes to and the paths or URLs of each item.
+An array of <a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a> structures, describing the type of changes to and the paths or URLs of each item.
                 
 
 
@@ -107,7 +107,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When there are multiple change notifications, the <b>priority</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a> structure indicates the priority of processing.
+When there are multiple change notifications, the <b>priority</b> member of the <a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a> structure indicates the priority of processing.
             
 
 
@@ -118,11 +118,11 @@ When there are multiple change notifications, the <b>priority</b> member of the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231461(v=VS.85).aspx">ISearchItemsChangedSink</a>
+<a href="https://msdn.microsoft.com/7ad55cf5-5024-4a30-a465-536fb1429b19">ISearchItemsChangedSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/817550e2-a256-48d5-9fa6-1ea04f8b8589">Notifying the Index of Changes</a>
  
 
  

@@ -4,10 +4,10 @@ title: IMFMediaSession
 author: windows-sdk-content
 description: Provides playback controls for protected and unprotected content.
 old-location: mf\imfmediasession.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: feebf891-73fa-4fe6-94ca-3594986fc92d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaSession, IMFMediaSession interface [Media Foundation], IMFMediaSession interface [Media Foundation],described, feebf891-73fa-4fe6-94ca-3594986fc92d, mf.imfmediasession, mfidl/IMFMediaSession
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\getfilemuipath.htm
 tech.root: Intl
 ms.assetid: a95ef85a-4a3a-49c6-b700-03763950c64f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetFileMUIPath, GetFileMUIPath function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_LANG_NEUTRAL_PE_FILE, MUI_NON_LANG_NEUTRAL_FILE, MUI_USER_PREFERRED_UI_LANGUAGES, MUI_USE_INSTALLED_LANGUAGES, MUI_USE_SEARCH_ALL_LANGUAGES, _win32_GetFileMUIPath, intl.getfilemuipath, winnls/GetFileMUIPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -288,9 +288,13 @@ The first call to the function determines that there are no resources for "ca-ES
 If the target file and its associated resource files are actually <a href="https://msdn.microsoft.com/2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0">Side-by-side enabled assemblies</a>, GetFileMUIPath cannot be used to retrieve the path to the resource file. Please refer to <a href="https://msdn.microsoft.com/fcadd7e8-cab8-43cb-9c67-af8ebe0e3a5b">Using Assemblies with a Multilanguage User Interface</a> for details on how to use Side-by-side assemblies with MUI support.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean GetFileMUIPath(
             System.UInt32 dwFlags,
             System.String pcwszFilePath,
@@ -300,10 +304,10 @@ If the target file and its associated resource files are actually <a href="https
             ref System.UInt32 pcchFileMUIPath,
             ref System.UInt64 pululEnumerator
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

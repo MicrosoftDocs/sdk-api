@@ -7,7 +7,7 @@ old-location: menurc\stringcbgets.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgets.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: StringCbGets, StringCbGets function [Menus and Other Resources], StringCbGetsA, StringCbGetsW, _shell_StringCbGets, _shell_stringcbgets_cpp, menurc.stringcbgets, strsafe/StringCbGets, strsafe/StringCbGetsA, strsafe/StringCbGetsW, winui._shell_stringcbgets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ Data was read from stdin, was copied to the buffer at <i>pszDest</i>, and the bu
 </dl>
 </td>
 <td width="60%">
-Indicates an error or end-of-file condition. Use <a href="https://msdn.microsoft.com/library/xssktc6e(v=VS.100).aspx">feof</a> or <a href="https://msdn.microsoft.com/library/y2wc3w90(v=VS.100).aspx">ferror</a> to determine which one has occurred.
+Indicates an error or end-of-file condition. Use <a href="09081eee-7c4b-4189-861f-2fad95d3ec6d">feof</a> or <a href="528a34bc-f2aa-4c3f-b89a-5b148e6864f7">ferror</a> to determine which one has occurred.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 <b>StringCbGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGets</b>always null-terminates a nonzero-length destination buffer.
 
-The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647507(v=VS.85).aspx">StringCbGetsEx</a> if you require the handling of null string pointer values.
+The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/d0ab97e1-763f-4479-afb4-c9a865f11f76">StringCbGetsEx</a> if you require the handling of null string pointer values.
 
 <b>StringCbGets</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -189,11 +189,11 @@ The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647507(v=VS.85).aspx">StringCbGetsEx</a>
+<a href="https://msdn.microsoft.com/d0ab97e1-763f-4479-afb4-c9a865f11f76">StringCbGetsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647536(v=VS.85).aspx">StringCchGets</a>
+<a href="https://msdn.microsoft.com/eec6e646-83a1-403a-8b40-fd6ab2e6fdb6">StringCchGets</a>
  
 
  

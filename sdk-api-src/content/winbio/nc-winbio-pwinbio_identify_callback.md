@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_identify_callback.htm
 tech.root: SecBioMet
 ms.assetid: 3AFB7F70-08F3-4861-B341-9D503FE59244
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PWINBIO_IDENTIFY_CALLBACK, PWINBIO_IDENTIFY_CALLBACK callback, PWINBIO_IDENTIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_identify_callback, winbio/PWINBIO_IDENTIFY_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,9 +141,13 @@ subsystem is then sent to a custom callback function named IdentifyCallback. Lin
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT IdentifyWithCallback(BOOL bCancel)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT IdentifyWithCallback(BOOL bCancel)
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -157,7 +161,7 @@ HRESULT IdentifyWithCallback(BOOL bCancel)
             NULL,                       // Array of biometric unit IDs 
             0,                          // Count of biometric unit IDs 
             WINBIO_DB_DEFAULT,          // Database ID 
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -309,9 +313,9 @@ VOID CALLBACK IdentifyCallback(
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

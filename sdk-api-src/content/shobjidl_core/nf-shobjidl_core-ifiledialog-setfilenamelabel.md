@@ -4,10 +4,10 @@ title: IFileDialog::SetFileNameLabel
 author: windows-sdk-content
 description: Sets the text of the label next to the file name edit box.
 old-location: shell\IFileDialog_SetFileNameLabel.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4dc456c4-e06a-4bbf-b7c3-a6f93b46a044
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileNameLabel method, IFileDialog.SetFileNameLabel, IFileDialog::SetFileNameLabel, SetFileNameLabel, SetFileNameLabel method [Windows Shell], SetFileNameLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileNameLabel, shell_IFileDialog_SetFileNameLabel, shobjidl_core/IFileDialog::SetFileNameLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PerfDeleteCounters function
 author: windows-sdk-content
 description: Removes the specified performance counter specifications from the specified query.
 old-location: perf\perfdeletecounters.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: 330CA041-41CA-4C48-B88B-C48A0143505E
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices

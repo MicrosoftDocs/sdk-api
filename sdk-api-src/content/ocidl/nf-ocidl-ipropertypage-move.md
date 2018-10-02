@@ -7,7 +7,7 @@ old-location: com\ipropertypage_move.htm
 tech.root: com
 ms.assetid: 305857c2-cb3a-4a56-9db3-b986b278bd02
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IPropertyPage interface [COM],Move method, IPropertyPage.Move, IPropertyPage::Move, Move, Move method [COM], Move method [COM],IPropertyPage interface, _ctrl_ipropertypage_move, com.ipropertypage_move, ocidl/IPropertyPage::Move
 ms.prod: windows-hardware
 ms.technology: windows-devices

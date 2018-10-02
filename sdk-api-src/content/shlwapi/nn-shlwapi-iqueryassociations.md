@@ -4,10 +4,10 @@ title: IQueryAssociations
 author: windows-sdk-content
 description: Exposes methods that simplify the process of retrieving information stored in the registry in association with defining a file type or protocol and associating it with an application.
 old-location: shell\IQueryAssociations.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8edb99d3-5860-4d78-a750-1df34cdfc313
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IQueryAssociations, IQueryAssociations interface [Windows Shell], IQueryAssociations interface [Windows Shell],described, _win32_IQueryAssociations, shell.IQueryAssociations, shlwapi/IQueryAssociations
 ms.prod: windows
 ms.technology: windows-sdk

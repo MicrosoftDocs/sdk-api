@@ -7,7 +7,7 @@ old-location: proc_snap\pss_handle_information.htm
 tech.root: proc_snap
 ms.assetid: 77192849-D919-4947-9BFF-343C166C5A51
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PSS_HANDLE_INFORMATION, PSS_HANDLE_INFORMATION structure, proc_snap.pss_handle_information, processsnapshot/PSS_HANDLE_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

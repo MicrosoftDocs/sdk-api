@@ -4,10 +4,10 @@ title: IUpdateServiceCollection
 author: windows-sdk-content
 description: Represents a list of IUpdateService interfaces.
 old-location: wua\iupdateservicecollection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ae742fe2-c9f3-4116-b98a-3cf3906cfda2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IUpdateServiceCollection, IUpdateServiceCollection interface [Windows Update Agent], IUpdateServiceCollection interface [Windows Update Agent],described, wua.iupdateservicecollection, wuapi/IUpdateServiceCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Represents a list of <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

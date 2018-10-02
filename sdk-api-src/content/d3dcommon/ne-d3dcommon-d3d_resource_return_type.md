@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_resource_return_type.htm
 tech.root: direct3d11
 ms.assetid: 272f39ae-dc6a-4214-a22f-544764f5b470
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 59063810-740f-d058-3bed-3f66c58da731, D3D11_RESOURCE_RETURN_TYPE, D3D11_RESOURCE_RETURN_TYPE enumeration [Direct3D 11], D3D11_RETURN_TYPE_CONTINUED, D3D11_RETURN_TYPE_DOUBLE, D3D11_RETURN_TYPE_FLOAT, D3D11_RETURN_TYPE_MIXED, D3D11_RETURN_TYPE_SINT, D3D11_RETURN_TYPE_SNORM, D3D11_RETURN_TYPE_UINT, D3D11_RETURN_TYPE_UNORM, D3D_RESOURCE_RETURN_TYPE, d3d11shader/D3D11_RESOURCE_RETURN_TYPE, d3d11shader/D3D11_RETURN_TYPE_CONTINUED, d3d11shader/D3D11_RETURN_TYPE_DOUBLE, d3d11shader/D3D11_RETURN_TYPE_FLOAT, d3d11shader/D3D11_RETURN_TYPE_MIXED, d3d11shader/D3D11_RETURN_TYPE_SINT, d3d11shader/D3D11_RETURN_TYPE_SNORM, d3d11shader/D3D11_RETURN_TYPE_UINT, d3d11shader/D3D11_RETURN_TYPE_UNORM, d3dcommon/D3D11_RESOURCE_RETURN_TYPE, d3dcommon/D3D11_RETURN_TYPE_CONTINUED, d3dcommon/D3D11_RETURN_TYPE_DOUBLE, d3dcommon/D3D11_RETURN_TYPE_FLOAT, d3dcommon/D3D11_RETURN_TYPE_MIXED, d3dcommon/D3D11_RETURN_TYPE_SINT, d3dcommon/D3D11_RETURN_TYPE_SNORM, d3dcommon/D3D11_RETURN_TYPE_UINT, d3dcommon/D3D11_RETURN_TYPE_UNORM, direct3d11.d3d11_resource_return_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,13 +147,17 @@ Return type is a multiple-dword type, such as a double or uint64, and the compon
 
 The    <b>D3D11_RESOURCE_RETURN_TYPE</b> enumeration is type defined in the  D3D11shader.h header file as a <a href="https://msdn.microsoft.com/3da3f315-9f92-4557-93b8-94aff42a91fe">D3D_RESOURCE_RETURN_TYPE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
-
-```
-
-typedef D3D_RESOURCE_RETURN_TYPE D3D11_RESOURCE_RETURN_TYPE;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+typedef D3D_RESOURCE_RETURN_TYPE D3D11_RESOURCE_RETURN_TYPE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

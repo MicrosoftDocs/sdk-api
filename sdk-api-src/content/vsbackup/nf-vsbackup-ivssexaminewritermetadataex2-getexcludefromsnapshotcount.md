@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotcount.htm
 tech.root: VSS
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetExcludeFromSnapshotCount, GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Obtains the number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> that have been explicitly excluded from a given shadow copy.
+Obtains the number of <a href="vssgloss_f.htm">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Obtains the number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656
 
 ### -param pcExcludedFromSnapshot [out]
 
-A pointer to the number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> explicitly excluded from the shadow copy.
+A pointer to the number of <a href="vssgloss_f.htm">file sets</a> explicitly excluded from the shadow copy.
 
 
 ## -returns
@@ -82,7 +82,7 @@ The following are the valid return codes for this method.
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> was successfully returned.
+The number of <a href="vssgloss_f.htm">file sets</a> was successfully returned.
 
 </td>
 </tr>

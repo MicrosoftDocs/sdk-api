@@ -7,7 +7,7 @@ old-location: fs\deletentmsmediatype.htm
 tech.root: Rsm
 ms.assetid: c2a2bc8a-4230-44c4-b6bc-4b4e2a9fece1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteNtmsMediaType, DeleteNtmsMediaType function [Files], _zaw_deletentmsmediatype, base.deletentmsmediatype, fs.deletentmsmediatype, ntmsapi/DeleteNtmsMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,7 +203,7 @@ If there are no physical media objects of the specified media type in the RSM sy
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

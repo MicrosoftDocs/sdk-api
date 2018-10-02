@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetidentity.htm
 tech.root: EAPHost
 ms.assetid: 25d1b360-694d-4ab8-9be4-a79354367068
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapHostPeerGetIdentity, EapHostPeerGetIdentity function [EAPHost], eaphost.eaphostpeergetidentity, eappapis/EapHostPeerGetIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

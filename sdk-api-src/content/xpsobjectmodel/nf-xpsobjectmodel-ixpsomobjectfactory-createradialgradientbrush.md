@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createradialgradientbrush.htm
 tech.root: printdocs
 ms.assetid: b91c9490-1995-48cb-a313-ef83f00b9c50
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush method [XPS Documents and Packaging], CreateRadialGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRadialGradientBrush method, IXpsOMObjectFactory.CreateRadialGradientBrush, IXpsOMObjectFactory::CreateRadialGradientBrush, xps.ixpsomobjectfactory_createradialgradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateRadialGradientBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -193,9 +193,13 @@ For radial-gradient brushes, the gradient stop that is set by the <i>gradStop1</
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMRadialGradientBrush    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -211,35 +215,35 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateRadialGradientBrush (
+    hr = xpsFactory-&gt;CreateRadialGradientBrush (
         gradStop1,
         gradStop2,
-        &centerPoint,
-        &gradientOrigin,
-        &radiiSizes,
-        &newInterface);
+        &amp;centerPoint,
+        &amp;gradientOrigin,
+        &amp;radiiSizes,
+        &amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getaudiolanguage.htm
 tech.root: DirectShow
 ms.assetid: 7bb75657-d22e-47db-9389-99b51b16ca80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetAudioLanguage, GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAudioLanguage method, IDvdInfo.GetAudioLanguage, IDvdInfo::GetAudioLanguage, IDvdInfoGetAudioLanguage, dshow.idvdinfo_getaudiolanguage, strmif/IDvdInfo::GetAudioLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,14 +147,18 @@ This method returns an error unless the domain is DVD_DOMAIN_Title. For more inf
 
 This method does not return languages for menus. This method sets the value pointed to by <i>pLanguage</i> to zero if the stream does not include language. Call the Win32 <b>GetLocaleInfo</b> function as follows to create a human-readable string name from <i>pLanguage</i>. LOCALE_SENGLANGUAGE is the locale information type, pszString is a pointer to a buffer to receive the requested data, and cbSize specifies the size of pszString.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 GetLocaleInfo(*pLanguage, LOCALE_SENGLANGUAGE, pszString, cbSize);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

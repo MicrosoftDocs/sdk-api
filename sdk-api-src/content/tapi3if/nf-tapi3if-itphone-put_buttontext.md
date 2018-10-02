@@ -4,10 +4,10 @@ title: ITPhone::put_ButtonText
 author: windows-sdk-content
 description: The put_ButtonText method sets the button text.
 old-location: tapi3\itphone_put_buttontext.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: b50427e9-94cd-47bb-910f-2f879df9bcf8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_ButtonText method, ITPhone.put_ButtonText, ITPhone::put_ButtonText, _tapi3_itphone_put_buttontext, put_ButtonText, put_ButtonText method [TAPI 2.2], put_ButtonText method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_buttontext, tapi3if/ITPhone::put_ButtonText
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: NetUserChangePassword function
 author: windows-sdk-content
 description: The NetUserChangePassword function changes a user's password for a specified network server or domain.
 old-location: netmgmt\netuserchangepassword.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: e3791756-3bd4-490b-983a-9687373d846b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: NetUserChangePassword, NetUserChangePassword function [Network Management], _win32_netuserchangepassword, lmaccess/NetUserChangePassword, netmgmt.netuserchangepassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -210,16 +210,20 @@ The
 
 The following code sample demonstrates how to change a user's password with a call to the <b>NetUserChangePassword</b> function. All parameters to the function are required.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -250,10 +254,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: fwp\fwpm_display_data0_struct.htm
 tech.root: FWP
 ms.assetid: b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_DISPLAY_DATA0, FWPM_DISPLAY_DATA0 structure [Filtering], FWPM_DISPLAY_DATA0_, fwp.fwpm_display_data0_struct, fwptypes/FWPM_DISPLAY_DATA0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Optional description.
 
 In order to
 support MUI, both strings may contain indirect strings. See
-<a href="https://msdn.microsoft.com/en-us/library/Bb759919(v=VS.85).aspx">SHLoadIndirectString</a> for details.
+<a href="_shell_SHLoadIndirectString">SHLoadIndirectString</a> for details.
 
 <b>FWPM_DISPLAY_DATA0</b> is a specific implementation of FWPM_DISPLAY_DATA. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
@@ -86,7 +86,7 @@ support MUI, both strings may contain indirect strings. See
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759919(v=VS.85).aspx">SHLoadIndirectString</a>
+<a href="_shell_SHLoadIndirectString">SHLoadIndirectString</a>
 
 
 

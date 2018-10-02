@@ -7,7 +7,7 @@ old-location: security\msv1_0_interactive_profile.htm
 tech.root: secauthn
 ms.assetid: 70592c29-0810-4d3b-bc5a-73165582a94b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*PMSV1_0_INTERACTIVE_PROFILE, LOGON_EXTRA_SIDS, MSV1_0_INTERACTIVE_PROFILE, MSV1_0_INTERACTIVE_PROFILE structure [Security], PMSV1_0_INTERACTIVE_PROFILE, PMSV1_0_INTERACTIVE_PROFILE structure pointer [Security], _MSV1_0_INTERACTIVE_PROFILE, _lsa_msv1_0_interactive_profile, ntsecapi/MSV1_0_INTERACTIVE_PROFILE, ntsecapi/PMSV1_0_INTERACTIVE_PROFILE, security.msv1_0_interactive_profile"
 ms.prod: windows
 ms.technology: windows-sdk

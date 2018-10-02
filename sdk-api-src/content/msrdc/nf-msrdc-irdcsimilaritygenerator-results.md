@@ -7,7 +7,7 @@ old-location: rdc\irdcsimilaritygenerator_results.htm
 tech.root: Rdc
 ms.assetid: 572c38e2-0bd4-427e-9ba3-f69539410d4d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRdcSimilarityGenerator interface [Remote Differential Compression],Results method, IRdcSimilarityGenerator.Results, IRdcSimilarityGenerator::Results, Results, Results method [Remote Differential Compression], Results method [Remote Differential Compression],IRdcSimilarityGenerator interface, fs.irdcsimilaritygenerator_results, msrdc/IRdcSimilarityGenerator::Results, rdc.irdcsimilaritygenerator_results
 ms.prod: windows-hardware
 ms.technology: windows-devices

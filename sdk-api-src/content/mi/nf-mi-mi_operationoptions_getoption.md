@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getoption.htm
 tech.root: WMI_v2
 ms.assetid: bff6d5ee-9f13-4b54-8f33-4f73ce553c25
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_OperationOptions_GetOption, MI_OperationOptions_GetOption function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetOption, wmi_v2.mi_operationoptions_getoption
 ms.prod: windows-hardware
 ms.technology: windows-devices

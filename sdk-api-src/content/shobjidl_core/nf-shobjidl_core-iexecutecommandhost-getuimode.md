@@ -4,10 +4,10 @@ title: IExecuteCommandHost::GetUIMode
 author: windows-sdk-content
 description: "."
 old-location: shell\IExecuteCommandHost_GetUIMode.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 12132ffd-64a5-4104-8590-8eabfbc8268f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ECHUIM_DESKTOP, ECHUIM_IMMERSIVE, ECHUIM_SYSTEM_LAUNCHER, GetUIMode, GetUIMode method [Windows Shell], GetUIMode method [Windows Shell],IExecuteCommandHost interface, IExecuteCommandHost interface [Windows Shell],GetUIMode method, IExecuteCommandHost.GetUIMode, IExecuteCommandHost::GetUIMode, shell.IExecuteCommandHost_GetUIMode, shobjidl_core/IExecuteCommandHost::GetUIMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

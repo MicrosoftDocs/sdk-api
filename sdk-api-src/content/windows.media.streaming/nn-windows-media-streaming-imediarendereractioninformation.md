@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarendereractioninformation.htm
 tech.root: mediastreaming
 ms.assetid: 854C7024-D582-405D-8A5F-C152DE8BE0BE
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IMediaRendererActionInformation, IMediaRendererActionInformation interface [Media Streaming API], IMediaRendererActionInformation interface [Media Streaming API],described, mediastreaming.imediarendereractioninformation, windows/IMediaRendererActionInformation
 ms.prod: windows
 ms.technology: windows-sdk

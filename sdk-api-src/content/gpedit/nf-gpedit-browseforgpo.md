@@ -7,7 +7,7 @@ old-location: policy\browseforgpo.htm
 tech.root: Policy
 ms.assetid: ff144ae4-fc8c-499e-9086-75625b86693c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BrowseForGPO, BrowseForGPO function [Group Policy], _win32_browseforgpo, gpedit/BrowseForGPO, policy.browseforgpo
 ms.prod: windows-hardware
 ms.technology: windows-devices

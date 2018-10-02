@@ -7,7 +7,7 @@ old-location: fwp\ipsec_traffic_statistics0_struct.htm
 tech.root: FWP
 ms.assetid: 70f67966-0ced-49a7-9d27-6976ee0bd89c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_TRAFFIC_STATISTICS0, IPSEC_TRAFFIC_STATISTICS0 structure [Filtering], IPSEC_TRAFFIC_STATISTICS0_, fwp.ipsec_traffic_statistics0_struct, ipsectypes/IPSEC_TRAFFIC_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

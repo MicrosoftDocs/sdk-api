@@ -4,10 +4,10 @@ title: ITextRow::SetAlignment
 author: windows-sdk-content
 description: Sets the horizontal alignment of a row.
 old-location: controls\itextrow_setalignment.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: bfcc900d-2bec-4314-a2c5-09f55e27a626
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextRow interface [Windows Controls],SetAlignment method, ITextRow.SetAlignment, ITextRow::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextRow interface, controls.itextrow_setalignment, tom/ITextRow::SetAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,11 +64,11 @@ Type: <b>long</b>
 
 The new horizontal alignment. It can be one of the following values.
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignLeft</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignLeft</a>
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignCenter</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignCenter</a>
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignRight</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignRight</a>
 
 
 ## -returns

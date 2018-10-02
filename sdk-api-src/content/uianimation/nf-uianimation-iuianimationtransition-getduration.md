@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransition_getduration.htm
 tech.root: UIAnimation
 ms.assetid: cc46ca31-3146-4d93-b859-79fe5e1fea08
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationTransition interface, IUIAnimationTransition interface [Windows Animation],GetDuration method, IUIAnimationTransition.GetDuration, IUIAnimationTransition::GetDuration, uianimation.iuianimationtransition_getduration, uianimation/IUIAnimationTransition::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,16 +113,20 @@ An application should typically call the <a href="https://msdn.microsoft.com/5cb
 
 The following shows how to get the duration of a transition.
 
-
-```cpp
-hr = pTransition->IsDurationKnown();
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>hr = pTransition-&gt;IsDurationKnown();
 if (SUCCEEDED(hr))
 {
     bool fDurationKnown = (hr == S_OK); 
     if (fDurationKnown)
     {
         UI_ANIMATION_SECONDS duration;
-        hr = pTransition->GetDuration(&duration);
+        hr = pTransition-&gt;GetDuration(&amp;duration);
         if (SUCCEEDED(hr))
         {        
             ...
@@ -132,10 +136,10 @@ if (SUCCEEDED(hr))
     {
         ...
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

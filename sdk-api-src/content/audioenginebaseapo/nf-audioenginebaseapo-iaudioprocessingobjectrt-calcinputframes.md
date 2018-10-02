@@ -7,7 +7,7 @@ old-location: audio\iaudioprocessingobjectrt_calcinputframes.htm
 tech.root: audio
 ms.assetid: cadebe77-5c2e-4702-9bc9-5ed0ea255722
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/28/2018
 ms.keywords: CalcInputFrames, CalcInputFrames method [Audio Devices], CalcInputFrames method [Audio Devices],IAudioProcessingObjectRT interface, IAudioProcessingObjectRT interface [Audio Devices],CalcInputFrames method, IAudioProcessingObjectRT.CalcInputFrames, IAudioProcessingObjectRT::CalcInputFrames, audio.iaudioprocessingobjectrt_calcinputframes, audio_syseffects_r_e44e803b-e1cf-40d1-b4d1-39e765a5a694.xml, audioenginebaseapo/IAudioProcessingObjectRT::CalcInputFrames
 ms.prod: windows-hardware
 ms.technology: windows-devices

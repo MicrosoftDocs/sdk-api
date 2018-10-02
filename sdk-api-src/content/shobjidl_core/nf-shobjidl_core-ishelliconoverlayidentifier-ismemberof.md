@@ -4,10 +4,10 @@ title: IShellIconOverlayIdentifier::IsMemberOf
 author: windows-sdk-content
 description: Specifies whether an icon overlay should be added to a Shell object's icon.
 old-location: shell\IShellIconOverlayIdentifier_IsMemberOf.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 02cbe6f3-2ee8-480b-b9c1-a2dbaf80fa26
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellIconOverlayIdentifier interface [Windows Shell],IsMemberOf method, IShellIconOverlayIdentifier.IsMemberOf, IShellIconOverlayIdentifier::IsMemberOf, IsMemberOf, IsMemberOf method [Windows Shell], IsMemberOf method [Windows Shell],IShellIconOverlayIdentifier interface, _win32_IShellIconOverlayIdentifier_IsMemberOf, shell.IShellIconOverlayIdentifier_IsMemberOf, shobjidl_core/IShellIconOverlayIdentifier::IsMemberOf
 ms.prod: windows-hardware
 ms.technology: windows-devices

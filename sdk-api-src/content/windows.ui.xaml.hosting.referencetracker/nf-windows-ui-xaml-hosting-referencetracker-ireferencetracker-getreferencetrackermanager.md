@@ -7,7 +7,7 @@ old-location: winrt\ireferencetracker_getreferencetrackermanager.htm
 tech.root: WinRT
 ms.assetid: c65f1220-24e6-4f63-9318-5b9e57d96e1b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetReferenceTrackerManager, GetReferenceTrackerManager method [Windows Runtime], GetReferenceTrackerManager method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],GetReferenceTrackerManager method, IReferenceTracker.GetReferenceTrackerManager, IReferenceTracker.xaml, IReferenceTracker::GetReferenceTrackerManager, IReferenceTracker::xaml, windows/IReferenceTracker::GetReferenceTrackerManager, winrt.ireferencetracker_getreferencetrackermanager
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFCreateWMVEncoderActivate function
 author: windows-sdk-content
 description: Creates an activation object that can be used to create a Windows Media Video (WMV) encoder.
 old-location: mf\mfcreatewmvencoderactivate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f818dba1-e28f-4fd4-813d-33f638d979d7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateWMVEncoderActivate, MFCreateWMVEncoderActivate function [Media Foundation], f818dba1-e28f-4fd4-813d-33f638d979d7, mf.mfcreatewmvencoderactivate, wmcontainer/MFCreateWMVEncoderActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

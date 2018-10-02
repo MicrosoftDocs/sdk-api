@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods\contains_59rect.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Contains, Contains method [GDI+], Contains method [GDI+],Rect class, Rect class [GDI+],Contains method, Rect.Contains, Rect.Contains(IN Rect &), Rect.Contains(Rect&), Rect::Contains, Rect::Contains(IN Rect &), _gdiplus_CLASS_Rect_Contains_rect_, gdiplus._gdiplus_CLASS_Rect_Contains_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ If the rectangle is inside this rectangle, this method returns <b>TRUE</b>; othe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 

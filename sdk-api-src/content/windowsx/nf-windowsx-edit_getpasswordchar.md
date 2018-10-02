@@ -4,10 +4,10 @@ title: Edit_GetPasswordChar macro
 author: windows-sdk-content
 description: Gets the password character for an edit or rich edit control. You can use this macro or send the EM_GETPASSWORDCHAR message explicitly.
 old-location: controls\Edit_GetPasswordChar.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getpasswordchar.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Edit_GetPasswordChar, Edit_GetPasswordChar macro [Windows Controls], _win32_Edit_GetPasswordChar, _win32_Edit_GetPasswordChar_cpp, controls.Edit_GetPasswordChar, controls._win32_Edit_GetPasswordChar, windowsx/Edit_GetPasswordChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the password character for an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761594(v=VS.85).aspx">EM_GETPASSWORDCHAR</a> message explicitly.
+Gets the password character for an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/874336f6-701b-466a-afa6-0cb3e787ba4c">EM_GETPASSWORDCHAR</a> message explicitly.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761594(v=VS.85).aspx">EM_GETPASSWORDCHAR</a>.
+For more information, see <a href="https://msdn.microsoft.com/874336f6-701b-466a-afa6-0cb3e787ba4c">EM_GETPASSWORDCHAR</a>.
 
 
 

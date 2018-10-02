@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_isvalid.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_isvalid.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D10Effect interface [Direct3D 10],IsValid method, ID3D10Effect.IsValid, ID3D10Effect::IsValid, IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::IsValid, d84d4878-14e4-0af4-cf30-82cba30bb91c, direct3d10.id3d10effect_isvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
  
 
  

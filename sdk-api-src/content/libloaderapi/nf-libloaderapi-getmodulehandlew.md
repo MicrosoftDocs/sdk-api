@@ -4,10 +4,10 @@ title: GetModuleHandleW function
 author: windows-sdk-content
 description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process.
 old-location: base\getmodulehandle.htm
-tech.root: dlls
+tech.root: Dlls
 ms.assetid: 29514410-89fe-4888-8b34-0c30d5af237f
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: GetModuleHandle, GetModuleHandle function, GetModuleHandleA, GetModuleHandleW, _win32_getmodulehandle, base.getmodulehandle, libloaderapi/GetModuleHandle, libloaderapi/GetModuleHandleA, libloaderapi/GetModuleHandleW, winbase/GetModuleHandle, winbase/GetModuleHandleA, winbase/GetModuleHandleW
 ms.prod: windows-hardware
 ms.technology: windows-devices

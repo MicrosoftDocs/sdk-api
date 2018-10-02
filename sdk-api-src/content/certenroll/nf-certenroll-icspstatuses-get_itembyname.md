@@ -4,10 +4,10 @@ title: ICspStatuses::get_ItemByName
 author: windows-sdk-content
 description: Retrieves an ICspStatus object from the collection by provider and algorithm name.
 old-location: security\icspstatuses_itembyname_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c8b37240-33e6-4982-94f5-c0b937bdce45
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICspStatuses interface [Security],ItemByName property, ICspStatuses.ItemByName, ICspStatuses.get_ItemByName, ICspStatuses::ItemByName, ICspStatuses::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByName, certenroll/ICspStatuses::get_ItemByName, get_ItemByName, security.icspstatuses_itembyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByName</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object from the collection by provider and algorithm name. This property is web enabled.
+The <b>ItemByName</b> property retrieves an <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object from the collection by provider and algorithm name. This property is web enabled.
 
 This property is read-only.
 
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a>
+<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a>
+<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
  
 
  

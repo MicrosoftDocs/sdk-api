@@ -4,10 +4,10 @@ title: WinHttpCreateUrl function
 author: windows-sdk-content
 description: Creates a URL from component parts such as the host name and path.
 old-location: http\winhttpcreateurl.htm
-tech.root: winhttp
+tech.root: WinHttp
 ms.assetid: 3f0403ea-479a-4764-ae65-d9bbd9233a50
 ms.author: windowssdkdev
-ms.date: 09/11/2018
+ms.date: 09/26/2018
 ms.keywords: ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCreateUrl, WinHttpCreateUrl function [WinHTTP], http.winhttpcreateurl, winhttp.winhttpcreateurl_function, winhttp/WinHttpCreateUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -167,16 +167,20 @@ Even when  WinHTTP is used in asynchronous mode, that is, when <b>WINHTTP_FLAG_A
 
 The following  example shows how to decompile, or crack, a URL into its subcomponents, update a component, then reconstruct the URL.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     URL_COMPONENTS urlComp;
     LPCWSTR pwszUrl1 = 
-       L"http://search.msn.com/results.asp?RS=CHECKED&FORM=MSNH&v=1&q=wininet";
+       L"http://search.msn.com/results.asp?RS=CHECKED&amp;FORM=MSNH&amp;v=1&amp;q=wininet";
     DWORD dwUrlLen = 0;
 
     // Initialize the URL_COMPONENTS structure.
-    ZeroMemory(&urlComp, sizeof(urlComp));
+    ZeroMemory(&amp;urlComp, sizeof(urlComp));
     urlComp.dwStructSize = sizeof(urlComp);
 
     // Set required component lengths to non-zero, 
@@ -187,21 +191,21 @@ The following  example shows how to decompile, or crack, a URL into its subcompo
     urlComp.dwExtraInfoLength = (DWORD)-1;
 
     // Crack the URL.
-    if (!WinHttpCrackUrl( pwszUrl1, (DWORD)wcslen(pwszUrl1), 0, &urlComp))
+    if (!WinHttpCrackUrl( pwszUrl1, (DWORD)wcslen(pwszUrl1), 0, &amp;urlComp))
     {
         printf("Error %u in WinHttpCrackUrl.\n", GetLastError());
     }
     else
     {
         // Change the search data. New data is the same length.
-        urlComp.lpszExtraInfo = L"?RS=CHECKED&FORM=MSNH&v=1&q=winhttp";
+        urlComp.lpszExtraInfo = L"?RS=CHECKED&amp;FORM=MSNH&amp;v=1&amp;q=winhttp";
 
         // Obtain the size of the new URL and allocate memory.
-        WinHttpCreateUrl( &urlComp, 0, NULL, &dwUrlLen);
+        WinHttpCreateUrl( &amp;urlComp, 0, NULL, &amp;dwUrlLen);
         LPWSTR pwszUrl2 = new WCHAR[dwUrlLen];
 
         // Create a new URL.
-        if(!WinHttpCreateUrl( &urlComp, 0, pwszUrl2, &dwUrlLen))
+        if(!WinHttpCreateUrl( &amp;urlComp, 0, pwszUrl2, &amp;dwUrlLen))
         {
             printf( "Error %u in WinHttpCreateUrl.\n", GetLastError());
         }
@@ -214,10 +218,10 @@ The following  example shows how to decompile, or crack, a URL into its subcompo
         // Free allocated memory.
         delete [] pwszUrl2;
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

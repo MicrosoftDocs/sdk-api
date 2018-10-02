@@ -7,7 +7,7 @@ old-location: base\cvsswriter_getrestoretype.htm
 tech.root: VSS
 ms.assetid: 438298ee-ab8b-4604-9d43-5acefd7cabd5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriter interface [VSS],GetRestoreType method, CVssWriter.GetRestoreType, CVssWriter::GetRestoreType, GetRestoreType, GetRestoreType method [VSS], GetRestoreType method [VSS],CVssWriter interface, _win32_cvsswriter_getrestoretype, base.cvsswriter_getrestoretype, vswriter/CVssWriter::GetRestoreType
 ms.prod: windows-hardware
 ms.technology: windows-devices

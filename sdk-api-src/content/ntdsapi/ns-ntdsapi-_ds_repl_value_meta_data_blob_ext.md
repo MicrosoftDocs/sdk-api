@@ -4,10 +4,10 @@ title: "_DS_REPL_VALUE_META_DATA_BLOB_EXT"
 author: windows-sdk-content
 description: Contains attribute value replication metadata.
 old-location: ad\ds_repl_value_meta_data_blob_ext.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 095180F4-9E3F-47EE-B39E-107D7D219DCB
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPL_VALUE_META_DATA_BLOB_EXT, DS_REPL_VALUE_META_DATA_BLOB_EXT structure [Active Directory], _DS_REPL_VALUE_META_DATA_BLOB_EXT, ad.ds_repl_value_meta_data_blob_ext, ntdsapi/DS_REPL_VALUE_META_DATA_BLOB_EXT
 ms.prod: windows
 ms.technology: windows-sdk

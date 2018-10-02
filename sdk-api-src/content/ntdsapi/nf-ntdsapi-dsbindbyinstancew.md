@@ -7,7 +7,7 @@ old-location: adam\dsbindbyinstance.htm
 tech.root: ADAM
 ms.assetid: 65302ddc-2bc0-4d80-b028-e268859be227
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DsBindByInstance, DsBindByInstance function [ADAM], DsBindByInstanceA, DsBindByInstanceW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FORCE_KERBEROS, adam.dsbindbyinstance, ntdsapi/DsBindByInstance, ntdsapi/DsBindByInstanceA, ntdsapi/DsBindByInstanceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,7 +128,7 @@ Causes the bind to use the delegate impersonation level. This enables operations
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+         <a href="_com_impersonation_levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 
@@ -159,7 +159,7 @@ Causes the bind to use the delegate impersonation level. This enables operations
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+         <a href="_com_impersonation_levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 

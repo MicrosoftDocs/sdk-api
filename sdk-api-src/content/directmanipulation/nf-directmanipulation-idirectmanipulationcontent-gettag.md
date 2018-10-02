@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcontent_gettag.htm
 tech.root: directmanipulation
 ms.assetid: 11acda14-3932-43e4-b45e-e129886c354f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetTag method, IDirectManipulationContent.GetTag, IDirectManipulationContent::GetTag, directmanipulation.idirectmanipulationcontent_gettag, directmanipulation/IDirectManipulationContent::GetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,16 +103,20 @@ The parameters are optional, so that the method can return both parts of the tag
 
 The following example shows the syntax for this method.
 
-
-```
-IUnknown* pObject;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IUnknown* pObject;
 UINT32 id;
 
-HRESULT hr = pContent->GetTag(IID_PPV_ARGS(&pObject), &id);
-
-```
-
-
+HRESULT hr = pContent-&gt;GetTag(IID_PPV_ARGS(&amp;pObject), &amp;id);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

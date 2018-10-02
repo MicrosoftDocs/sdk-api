@@ -7,7 +7,7 @@ old-location: snmp\snmplisten.htm
 tech.root: SNMP
 ms.assetid: e89c9315-efe4-4241-a7c4-f4475b107701
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpListen, SnmpListen function [SNMP], _snmp_snmplisten, snmp.snmplisten, winsnmp/SnmpListen
 ms.prod: windows-hardware
 ms.technology: windows-devices

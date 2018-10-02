@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer_get_item.htm
 tech.root: MSTV
 ms.assetid: 02e17867-dc72-481a-8693-68e9b0288bba
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,22 +96,26 @@ Tuning spaces are identified by ID number. The ID number is unique within the co
 
 #### Examples
 
-
-```cpp
-
-CComPtr <ITuningSpaceContainer>  pTuningSpaceContainer;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr &lt;ITuningSpaceContainer&gt;  pTuningSpaceContainer;
 // Create the SystemTuningSpaces object (not shown).
 
 long cCount = 0;
 long ID = 1; // zero is not a valid ID.
-hr = pTuningSpaceContainer->get_Count(&cCount);
+hr = pTuningSpaceContainer-&gt;get_Count(&amp;cCount);
 if (SUCCEEDED(hr))
 {
     while (cCount)
     {
-        CComPtr<ITuningSpace> pTuningSpace;
+        CComPtr&lt;ITuningSpace&gt; pTuningSpace;
         CComVariant varIndex(ID);
-        hr = pITuningSpaceContainer->get_Item(varIndex, &pTuningSpace);
+        hr = pITuningSpaceContainer-&gt;get_Item(varIndex, &amp;pTuningSpace);
         if (SUCCEEDED(hr))
         {
              // pTuningSpace now points to the tuning space with this ID.
@@ -121,10 +125,10 @@ if (SUCCEEDED(hr))
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

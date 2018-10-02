@@ -7,7 +7,7 @@ old-location: backup\gettapeposition.htm
 tech.root: Backup
 ms.assetid: f4ce1436-ee16-4e05-b7a0-30ea79688e79
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTapePosition, GetTapePosition function [Backup], TAPE_ABSOLUTE_POSITION, TAPE_LOGICAL_POSITION, _win32_gettapeposition, backup.gettapeposition, base.gettapeposition, winbase/GetTapePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device on which to get the tape position. This handle is created by using 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>.
+<a href="base.createfile">CreateFile</a>.
 
 
 ### -param dwPositionType [in]
@@ -333,7 +333,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getstreamingurl.htm
 tech.root: WMP
 ms.assetid: 7b9c25bc-35f7-429a-b465-45e166e2ed1a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetStreamingURL, GetStreamingURL method [Windows Media Player], GetStreamingURL method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetStreamingURL method, IWMPContentPartner.GetStreamingURL, IWMPContentPartner::GetStreamingURL, IWMPContentPartnerGetStreamingURL, contentpartner/IWMPContentPartner::GetStreamingURL, wmp.iwmpcontentpartner_getstreamingurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The <b>GetStreamingURL</b> method retrieves the streaming URL of a track.
 
 ### -param st [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564887(v=VS.85).aspx">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media item to be streamed.
+A member of the <a href="https://msdn.microsoft.com/3ac7e8cb-39c7-4437-a2da-6de5cb1efed9">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media item to be streamed.
 
 
 ### -param pStreamContext [in]
@@ -111,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

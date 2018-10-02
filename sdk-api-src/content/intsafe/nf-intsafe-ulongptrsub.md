@@ -4,10 +4,10 @@ title: ULongPtrSub function
 author: windows-sdk-content
 description: Subtracts one value of type ULONG_PTR from another.
 old-location: shell\ULongPtrSub.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 29cc4dec-e02d-4ce4-a615-9b62bd08befb
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ULongPtrSub, ULongPtrSub function [Windows Shell], _shell_ULongPtrSub, intsafe/ULongPtrSub, shell.ULongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

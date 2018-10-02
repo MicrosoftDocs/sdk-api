@@ -4,10 +4,10 @@ title: IMFMediaEngineSrcElementsEx
 author: windows-sdk-content
 description: Extends the IMFMediaEngineSrcElements interface to provide additional capabilities.
 old-location: mf\imfmediaenginesrcelementsex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f15cb527-0f46-4887-9e02-835f0115bc5b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineSrcElementsEx, IMFMediaEngineSrcElementsEx interface [Media Foundation], IMFMediaEngineSrcElementsEx interface [Media Foundation],described, mf.imfmediaenginesrcelementsex, mfmediaengine/IMFMediaEngineSrcElementsEx
 ms.prod: windows
 ms.technology: windows-sdk

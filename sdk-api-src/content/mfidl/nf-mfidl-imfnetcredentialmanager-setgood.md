@@ -4,10 +4,10 @@ title: IMFNetCredentialManager::SetGood
 author: windows-sdk-content
 description: Specifies whether the user's credentials succeeded in the authentication challenge. The network source calls this method to informs the application whether the user's credentials were authenticated.
 old-location: mf\imfnetcredentialmanager_setgood.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f58e30ba-3e9b-41b5-9c13-0f9dac541033
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFNetCredentialManager interface [Media Foundation],SetGood method, IMFNetCredentialManager.SetGood, IMFNetCredentialManager::SetGood, SetGood, SetGood method [Media Foundation], SetGood method [Media Foundation],IMFNetCredentialManager interface, f58e30ba-3e9b-41b5-9c13-0f9dac541033, mf.imfnetcredentialmanager_setgood, mfidl/IMFNetCredentialManager::SetGood
 ms.prod: windows-hardware
 ms.technology: windows-devices

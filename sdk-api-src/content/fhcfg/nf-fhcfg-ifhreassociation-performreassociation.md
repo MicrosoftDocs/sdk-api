@@ -7,7 +7,7 @@ old-location: winprog\ifhreassociation_performreassociation.htm
 tech.root: devnotes
 ms.assetid: 2E80F25E-2DB6-4522-8F3C-7E6359104CCA
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: FhReassociation class [Windows API],PerformReassociation method, IFhReassociation interface [Windows API],PerformReassociation method, IFhReassociation.PerformReassociation, IFhReassociation::PerformReassociation, PerformReassociation, PerformReassociation method [Windows API], PerformReassociation method [Windows API],FhReassociation class, PerformReassociation method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::PerformReassociation, winprog.ifhreassociation_performreassociation
 ms.prod: windows-hardware
 ms.technology: windows-devices

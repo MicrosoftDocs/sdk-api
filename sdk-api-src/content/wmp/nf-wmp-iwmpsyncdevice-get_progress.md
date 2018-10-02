@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_get_progress.htm
 tech.root: WMP
 ms.assetid: bc125107-0013-4c5b-aa44-9d48557d370d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_progress method, IWMPSyncDevice.get_progress, IWMPSyncDevice::get_progress, IWMPSyncDeviceget_progress, get_progress, get_progress method [Windows Media Player], get_progress method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_progress, wmp/IWMPSyncDevice::get_progress
 ms.prod: windows-hardware
 ms.technology: windows-devices

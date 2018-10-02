@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_pivotpointx.htm
 tech.root: wintouch
 ms.assetid: 52afdf21-8c5d-4da8-aab2-7a8273df5147
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotPointX property, IManipulationProcessor.PivotPointX, IManipulationProcessor.get_PivotPointX, IManipulationProcessor::PivotPointX, IManipulationProcessor::get_PivotPointX, IManipulationProcessor::put_PivotPointX, PivotPointX property [Windows Touch], PivotPointX property [Windows Touch],IManipulationProcessor interface, get_PivotPointX, manipulations/IManipulationProcessor::PivotPointX, manipulations/IManipulationProcessor::get_PivotPointX, manipulations/IManipulationProcessor::put_PivotPointX, wintouch.imanipulationprocessor_pivotpointx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ldap\ber_init.htm
 tech.root: LDAP
 ms.assetid: ad6557e9-1683-4ffd-a59e-8f37eb67d089
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ber_init, ber_init, ber_init function [LDAP], ldap.ber__init, ldap.ber_init, winber/ber_init"
 ms.prod: windows-hardware
 ms.technology: windows-devices

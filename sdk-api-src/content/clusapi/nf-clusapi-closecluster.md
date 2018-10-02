@@ -4,10 +4,10 @@ title: CloseCluster function
 author: windows-sdk-content
 description: Closes a cluster handle.
 old-location: mscs\closecluster.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cf055fd6-b1e1-4262-b205-c7d926522450
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: CloseCluster, CloseCluster function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER, PCLUSAPI_CLOSE_CLUSTER function [Failover Cluster], _wolf_closecluster, clusapi/CloseCluster, clusapi/PCLUSAPI_CLOSE_CLUSTER, mscs.closecluster
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ Do not close a cluster handle if there are any object handles still in use that 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa372959(v=VS.85).aspx">Using Object Handles</a>.
+See <a href="https://msdn.microsoft.com/709effda-5ff1-439e-805a-9169ca63c182">Using Object Handles</a>.
 
 <div class="code"></div>
 

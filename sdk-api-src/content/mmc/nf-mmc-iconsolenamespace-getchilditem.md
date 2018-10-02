@@ -4,10 +4,10 @@ title: IConsoleNameSpace::GetChildItem
 author: windows-sdk-content
 description: Enables the snap-in to get the handle to a child item in the scope pane.
 old-location: mmc\iconsolenamespace_getchilditem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 05929125-307C-48C5-A2EA-B1133C8EE66B
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: GetChildItem, GetChildItem method [MMC], GetChildItem method [MMC],IConsoleNameSpace interface, IConsoleNameSpace interface [MMC],GetChildItem method, IConsoleNameSpace.GetChildItem, IConsoleNameSpace::GetChildItem, mmc.iconsolenamespace_getchilditem, mmc/IConsoleNameSpace::GetChildItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

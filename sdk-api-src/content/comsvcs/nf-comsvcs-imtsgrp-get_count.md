@@ -7,7 +7,7 @@ old-location: cos\imtsgrp_get_count.htm
 tech.root: cossdk
 ms.assetid: 84d1d2e1-ea06-4e3f-81d9-bb2ed02cf021
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IMtsGrp interface [COM+],get_Count method, IMtsGrp.get_Count, IMtsGrp::get_Count, _dtc_IMtsGrp_get_Count, comsvcs/IMtsGrp::get_Count, cos.imtsgrp_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsGrp interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject_clone.htm
 tech.root: WmiSdk
 ms.assetid: a323c662-e005-44aa-a903-1eb7d6ddff9e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IEnumWbemClassObject interface, IEnumWbemClassObject interface [Windows Management Instrumentation],Clone method, IEnumWbemClassObject.Clone, IEnumWbemClassObject::Clone, _hmm_ienumwbemclassobject_clone, wbemcli/IEnumWbemClassObject::Clone, wmi.ienumwbemclassobject_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ The <b>IEnumWbemClassObject::Clone</b> method makes
 
 Receives a pointer to a new 
       <a href="https://msdn.microsoft.com/142ea48d-d47b-4b7b-ab84-049a54955488">IEnumWbemClassObject</a> object. The caller must call 
-      <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> when the interface pointer is no longer 
+      <a href="_com_iunknown_release">Release</a> when the interface pointer is no longer 
       required. On error, there will not be a return of a new object.
 
 
@@ -110,13 +110,17 @@ For more information about using methods semisynchronously, see
 
 The following code shows how to use the <b>IEnumWbemClassObject::Clone</b> method.
 
-
-```cpp
-BOOL CloneEnum(IEnumWbemClassObject *pSrc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL CloneEnum(IEnumWbemClassObject *pSrc)
 {
     IEnumWbemClassObject *pCopy = 0;
 
-    HRESULT hRes = pSrc->Clone(&pCopy);
+    HRESULT hRes = pSrc-&gt;Clone(&amp;pCopy);
 
     if (hRes != WBEM_S_NO_ERROR)       // Failed to clone it.
         return FALSE;
@@ -124,12 +128,12 @@ BOOL CloneEnum(IEnumWbemClassObject *pSrc)
     // Use the copy of the enumerator.
     // ...
 
-    pCopy->Release();
+    pCopy-&gt;Release();
 
     return TRUE;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

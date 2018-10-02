@@ -7,7 +7,7 @@ old-location: nps\IAS_radius_authentication_provider.htm
 tech.root: Nps
 ms.assetid: 017c31f1-1654-4312-a1f0-747ea82391e1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RADIUS_AUTHENTICATION_PROVIDER, RADIUS_AUTHENTICATION_PROVIDER enumeration [Network Policy Server], _RADIUS_AUTHENTICATION_PROVIDER, _ias_radius_authentication_provider, authif/RADIUS_AUTHENTICATION_PROVIDER, authif/rapMCIS, authif/rapNone, authif/rapODBC, authif/rapProxy, authif/rapUnknown, authif/rapUsersFile, authif/rapWindowsNT, ias.radius_authentication_provider, nps.IAS_radius_authentication_provider, rapMCIS, rapNone, rapODBC, rapProxy, rapUnknown, rapUsersFile, rapWindowsNT
 ms.prod: windows
 ms.technology: windows-sdk

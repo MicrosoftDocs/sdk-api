@@ -7,7 +7,7 @@ old-location: base\ivsscreateexpresswritermetadata_addcomponent.htm
 tech.root: VSS
 ms.assetid: e17ed040-7fe2-4605-b1b5-295abbf14289
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddComponent, AddComponent method, AddComponent method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponent method, IVssCreateExpressWriterMetadata.AddComponent, IVssCreateExpressWriterMetadata::AddComponent, base.ivsscreateexpresswritermetadata_addcomponent, vswriter/IVssCreateExpressWriterMetadata::AddComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ A Boolean value that indicates whether the component can be optionally backed up
 ### -param bSelectableForRestore [in]
 
 A Boolean value that determines whether a component can be individually restored when it has not been 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa384655(v=VS.85).aspx">explicitly included</a> in 
+      <a href="vssgloss_e.htm">explicitly included</a> in 
       the backup document. If the component was explicitly added to the backup document, it can always be 
       individually selected for restore; in this case, this flag has no meaning. 
       

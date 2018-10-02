@@ -4,10 +4,10 @@ title: IMFNetProxyLocator::Clone
 author: windows-sdk-content
 description: Creates a new instance of the default proxy locator.
 old-location: mf\imfnetproxylocator_clone.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 551372b3-b9aa-4057-8c14-19e582053e00
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 551372b3-b9aa-4057-8c14-19e582053e00, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],Clone method, IMFNetProxyLocator.Clone, IMFNetProxyLocator::Clone, mf.imfnetproxylocator_clone, mfidl/IMFNetProxyLocator::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

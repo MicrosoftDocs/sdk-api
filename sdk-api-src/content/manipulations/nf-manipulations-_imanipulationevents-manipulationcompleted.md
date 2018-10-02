@@ -7,7 +7,7 @@ old-location: wintouch\_imanipulationevents_manipulationcompleted.htm
 tech.root: wintouch
 ms.assetid: 1284df32-f4e8-43b3-b825-9172ad39f0e6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ManipulationCompleted, ManipulationCompleted method [Windows Touch], ManipulationCompleted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationCompleted method, _IManipulationEvents.ManipulationCompleted, _IManipulationEvents::ManipulationCompleted, manipulations/_IManipulationEvents::ManipulationCompleted, wintouch._imanipulationevents_manipulationcompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,9 +119,13 @@ Manipulation events are generated for both the <a href="https://msdn.microsoft.c
 
 The following code shows an implementation of the ManipulationCompleted method.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 
 
 HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted( 
@@ -148,10 +152,10 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
     return S_OK;
 }
     
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: GetImageConfigInformation function
 author: windows-sdk-content
 description: Locates and returns the load configuration data of an image.
 old-location: base\getimageconfiginformation.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 5d9b6705-7e65-4a60-912e-8ffcff9d7921
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: GetImageConfigInformation, GetImageConfigInformation function, _win32_getimageconfiginformation, base.getimageconfiginformation, imagehlp/GetImageConfigInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

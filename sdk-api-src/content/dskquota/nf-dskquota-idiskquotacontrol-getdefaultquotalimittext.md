@@ -7,7 +7,7 @@ old-location: fs\idiskquotacontrol_getdefaultquotalimittext.htm
 tech.root: fileio
 ms.assetid: a39d457c-9a6f-4d57-a91f-878fcb96916e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetDefaultQuotaLimitText, GetDefaultQuotaLimitText method [Files], GetDefaultQuotaLimitText method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaLimitText method, IDiskQuotaControl.GetDefaultQuotaLimitText, IDiskQuotaControl::GetDefaultQuotaLimitText, _win32_idiskquotacontrol_getdefaultquotalimittext, base.idiskquotacontrol_getdefaultquotalimittext, dskquota/IDiskQuotaControl::GetDefaultQuotaLimitText, fs.idiskquotacontrol_getdefaultquotalimittext
 ms.prod: windows-hardware
 ms.technology: windows-devices

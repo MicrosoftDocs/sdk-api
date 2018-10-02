@@ -4,10 +4,10 @@ title: IMFSensorDevice
 author: windows-sdk-content
 description: Represents a sensor device that can belong to a sensor group, which is represented by the IMFSensorGroup interface. The term &#0034;device&#0034; in this context could refer to a physical device, a custom media source, or a frame provider.
 old-location: mf\imfsensordevice.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 061EF002-178E-42CA-9D32-7E1282297BA4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSensorDevice, IMFSensorDevice interface [Media Foundation], IMFSensorDevice interface [Media Foundation],described, mf.imfsensordevice, mfidl/IMFSensorDevice
 ms.prod: windows
 ms.technology: windows-sdk

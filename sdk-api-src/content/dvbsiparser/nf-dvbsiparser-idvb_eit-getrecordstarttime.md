@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getrecordstarttime.htm
 tech.root: MSTV
 ms.assetid: 2c392620-750d-4219-86fc-4c47109e6a3f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordStartTime, GetRecordStartTime method [Microsoft TV Technologies], GetRecordStartTime method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordStartTime method, IDVB_EIT.GetRecordStartTime, IDVB_EIT::GetRecordStartTime, IDVB_EITGetRecordStartTime, dvbsiparser/IDVB_EIT::GetRecordStartTime, mstv.idvb_eit_getrecordstarttime
 ms.prod: windows-hardware
 ms.technology: windows-devices

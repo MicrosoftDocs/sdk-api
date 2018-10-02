@@ -4,10 +4,10 @@ title: GetMaximumProcessorGroupCount function
 author: windows-sdk-content
 description: Returns the maximum number of processor groups that the system can have.
 old-location: base\getmaximumprocessorgroupcount.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 7762ec89-5892-4af3-9032-bf084aef9075
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: GetMaximumProcessorGroupCount, GetMaximumProcessorGroupCount function, base.getmaximumprocessorgroupcount, winbase/GetMaximumProcessorGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

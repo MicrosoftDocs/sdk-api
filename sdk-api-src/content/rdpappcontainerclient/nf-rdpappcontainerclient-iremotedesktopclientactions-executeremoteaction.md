@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientactions_executeremoteaction.htm
 tech.root: TermServ
 ms.assetid: 944fbfe4-b033-471b-9a28-87349382d37a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ExecuteRemoteAction, ExecuteRemoteAction method [Remote Desktop Services], ExecuteRemoteAction method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],ExecuteRemoteAction method, IRemoteDesktopClientActions.ExecuteRemoteAction, IRemoteDesktopClientActions::ExecuteRemoteAction, rdpappcontainerclient/IRemoteDesktopClientActions::ExecuteRemoteAction, termserv.iremotedesktopclientactions_executeremoteaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

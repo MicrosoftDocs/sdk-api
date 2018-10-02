@@ -7,7 +7,7 @@ old-location: dns\dns_name_format.htm
 tech.root: DNS
 ms.assetid: f6f1cff3-4bff-4a07-bbc6-5255030b4164
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DNS_NAME_FORMAT, DNS_NAME_FORMAT enumeration [DNS], DnsNameDomain, DnsNameDomainLabel, DnsNameHostnameFull, DnsNameHostnameLabel, DnsNameSrvRecord, DnsNameValidateTld, DnsNameWildcard, _DNS_NAME_FORMAT, dns.dns_name_format, windns/DNS_NAME_FORMAT, windns/DnsNameDomain, windns/DnsNameDomainLabel, windns/DnsNameHostnameFull, windns/DnsNameHostnameLabel, windns/DnsNameSrvRecord, windns/DnsNameValidateTld, windns/DnsNameWildcard
 ms.prod: windows
 ms.technology: windows-sdk

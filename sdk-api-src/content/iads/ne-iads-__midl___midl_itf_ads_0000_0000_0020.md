@@ -7,7 +7,7 @@ old-location: adsi\ads_derefenum.htm
 tech.root: ADSI
 ms.assetid: 4cd080cc-59f9-48e8-93c1-1fccea0238ad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADS_DEREFENUM, ADS_DEREFENUM enumeration [ADSI], ADS_DEREF_ALWAYS, ADS_DEREF_FINDING, ADS_DEREF_NEVER, ADS_DEREF_SEARCHING, __MIDL___MIDL_itf_ads_0000_0000_0020, _ds_ads_derefenum, adsi.ads__derefenum, adsi.ads_derefenum, iads/ADS_DEREFENUM, iads/ADS_DEREF_ALWAYS, iads/ADS_DEREF_FINDING, iads/ADS_DEREF_NEVER, iads/ADS_DEREF_SEARCHING
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,18 +91,22 @@ The  <a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">I
 
 The following code example shows how to set the search preference for alias dereferencing. m_pSearch refers to a pointer to an object implementing the <a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a> interface.
 
-
-```cpp
-ADS_SEARCHPREF_INFO prefInfo[1];
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ADS_SEARCHPREF_INFO prefInfo[1];
 HRESULT hr;
  
 prefInfo[0].dwSearchPref   = ADS_SEARCHPREF_DEREF_ALIASES;
 prefInfo[0].vValue.dwType  = ADSTYPE_INTEGER;
 prefInfo[0].vValue.Integer = ADS_DEREF_ALWAYS;
-hr = m_pSearch->SetSearchPreference(prefInfo, 1);
-```
-
-
+hr = m_pSearch-&gt;SetSearchPreference(prefInfo, 1);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

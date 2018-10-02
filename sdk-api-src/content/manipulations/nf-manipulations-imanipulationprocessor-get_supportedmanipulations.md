@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_supportedmanipulations.htm
 tech.root: wintouch
 ms.assetid: 1909394f-83ec-4e13-81af-3e6c70210865
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],SupportedManipulations property, IManipulationProcessor.SupportedManipulations, IManipulationProcessor.get_SupportedManipulations, IManipulationProcessor::SupportedManipulations, IManipulationProcessor::get_SupportedManipulations, IManipulationProcessor::put_SupportedManipulations, SupportedManipulations property [Windows Touch], SupportedManipulations property [Windows Touch],IManipulationProcessor interface, get_SupportedManipulations, manipulations/IManipulationProcessor::SupportedManipulations, manipulations/IManipulationProcessor::get_SupportedManipulations, manipulations/IManipulationProcessor::put_SupportedManipulations, wintouch.imanipulationprocessor_supportedmanipulations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,19 +71,23 @@ With this property you can control which manipulations the supports and which it
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
         CoInitialize(0);
 
         hr = spIManipProc.CoCreateInstance(CLSID_ManipulationProcessor, NULL, CLSCTX_ALL);
 
         MANIPULATION_PROCESSOR_MANIPULATIONS mpm;
-        spIManipProc->get_SupportedManipulations(&mpm);    
-        
-```
-
-
+        spIManipProc-&gt;get_SupportedManipulations(&amp;mpm);    
+        </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

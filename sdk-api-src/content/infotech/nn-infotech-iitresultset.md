@@ -7,7 +7,7 @@ old-location: htmlhelp\iitresultset.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetinterface.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResultSet interface [HTML Help Workshop],described, htmlhelp.iitresultset, infotech/IITResultSet, refIITResultSetInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>IITResultSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670048(v=VS.85).aspx">Add(LPVOID)</a>
+<a href="https://msdn.microsoft.com/e5ca8bdf-4817-498b-833f-519bd734d30a">Add(LPVOID)</a>
 </td>
 <td align="left" width="63%">
 Adds columns to result set, given a header containing pairs of property ID followed by property type.
@@ -81,7 +81,7 @@ Adds columns to result set, given a header containing pairs of property ID follo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670050(v=VS.85).aspx">Add(PROPID,DWORD,PRIORITY)</a>
+<a href="https://msdn.microsoft.com/8320faf1-9cc7-4f17-81eb-721fae9ace5a">Add(PROPID,DWORD,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set. 
@@ -90,7 +90,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670051(v=VS.85).aspx">Add(PROPID,LPCWSTR,PRIORITY)</a>
+<a href="https://msdn.microsoft.com/ded673f5-72dc-4675-b820-497b8ffa2ad7">Add(PROPID,LPCWSTR,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set.
@@ -101,7 +101,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670049(v=VS.85).aspx">Add(PROPID,LPVOID,DWORD,PRIORITY)</a>
+<a href="https://msdn.microsoft.com/a5b85831-fc22-4f1e-bf0c-a103ed13d089">Add(PROPID,LPVOID,DWORD,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set.
@@ -112,7 +112,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670052(v=VS.85).aspx">Get</a>
+<a href="https://msdn.microsoft.com/621d45e8-0f28-4c9c-bfc5-878ad3d2de1d">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the property in the specified row and column and fills the given property object.
@@ -123,7 +123,7 @@ Gets the property in the specified row and column and fills the given property o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670053(v=VS.85).aspx">GetRowCount</a>
+<a href="https://msdn.microsoft.com/e76f2028-e1b9-4411-9542-60c54372d8a0">GetRowCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of rows in a result set.

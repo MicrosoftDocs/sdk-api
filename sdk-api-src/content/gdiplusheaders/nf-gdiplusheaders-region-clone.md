@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\clone_1.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Region class, Region class [GDI+],Clone method, Region.Clone, Region::Clone, _gdiplus_CLASS_Region_Clone_, gdiplus._gdiplus_CLASS_Region_Clone_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Region::Clone</b> method makes a copy of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object and returns the address of the new 
+			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object and returns the address of the new 
 			<b>Region</b>object.
 
 
@@ -67,11 +67,11 @@ The <b>Region::Clone</b> method makes a copy of this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object.
+						<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object.
 
 
 

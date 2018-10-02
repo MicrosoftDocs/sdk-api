@@ -4,10 +4,10 @@ title: ICspStatus::get_Ordinal
 author: windows-sdk-content
 description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.
 old-location: security\icspstatus_ordinal_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.get_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, get_Ordinal, security.icspstatus_ordinal_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>Ordinal</b> property specifies or retrieves the  position of the <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object in the <a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a> collection.
+The <b>Ordinal</b> property specifies or retrieves the  position of the <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object in the <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection.
 
 This property is read/write.
 
@@ -64,27 +64,27 @@ This property is read/write.
 
 
 
-To iterate through the <a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a> collection by ordinal, call the <a href="https://msdn.microsoft.com/en-us/library/Aa376767(v=VS.85).aspx">ItemByOrdinal</a> property. The ordinal order of the <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> objects in the collection can vary each time the collection is enumerated for a variety of reasons including, but not limited to, the following:<ul>
+To iterate through the <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection by ordinal, call the <a href="https://msdn.microsoft.com/94b5f741-eceb-4ef9-8010-5033ce042018">ItemByOrdinal</a> property. The ordinal order of the <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> objects in the collection can vary each time the collection is enumerated for a variety of reasons including, but not limited to, the following:<ul>
 <li>Certificate request template settings</li>
 <li>Property values for the cryptographic provider</li>
 <li>Private key property values</li>
 </ul>
 
 
-For example, assume that the version 2 template chosen to create a certificate request specifies that the certificate can only be used for signing (the <b>pKIDefaultKeySpec</b> template attribute is XCN_AT_SIGNATURE) and that the default provider is the Microsoft Enhanced RSA and AES Cryptographic Provider. Notice that the template restricts the certificate to signing even though the provider supports both encryption and signing algorithms. That is, the <a href="https://msdn.microsoft.com/en-us/library/Aa376751(v=VS.85).aspx">KeySpec</a> property on the provider is a bitwise combination of the XCN_AT_KEYEXCHANGE and XCN_AT_SIGNATURE constants, but the <b>pKIDefaultKeySpec</b> template attribute supports only XCN_AT_SIGNATURE.
+For example, assume that the version 2 template chosen to create a certificate request specifies that the certificate can only be used for signing (the <b>pKIDefaultKeySpec</b> template attribute is XCN_AT_SIGNATURE) and that the default provider is the Microsoft Enhanced RSA and AES Cryptographic Provider. Notice that the template restricts the certificate to signing even though the provider supports both encryption and signing algorithms. That is, the <a href="https://msdn.microsoft.com/f66f2f5c-7f50-4be6-973e-844d6cb76f61">KeySpec</a> property on the provider is a bitwise combination of the XCN_AT_KEYEXCHANGE and XCN_AT_SIGNATURE constants, but the <b>pKIDefaultKeySpec</b> template attribute supports only XCN_AT_SIGNATURE.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> objects in the collection will be ordered in the following manner:<ul>
-<li>Of the <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> objects enumerated for this provider, those associated with signature algorithms (XCN_AT_SIGNATURE) are ordered first (lower ordinal value) and their <a href="https://msdn.microsoft.com/en-us/library/Aa377826(v=VS.85).aspx">Display</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa377841(v=VS.85).aspx">Selected</a> properties are enabled. <div class="alert"><b>Note</b>  If the  <b>pKIDefaultKeySpec</b> template attribute had been XCN_AT_KEYEXCHANGE, the encryption algorithms would be ordered first.</div>
+The <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> objects in the collection will be ordered in the following manner:<ul>
+<li>Of the <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> objects enumerated for this provider, those associated with signature algorithms (XCN_AT_SIGNATURE) are ordered first (lower ordinal value) and their <a href="https://msdn.microsoft.com/91ac74af-8e59-42fc-bca8-d7ef96a1fed0">Display</a> and <a href="https://msdn.microsoft.com/9050f394-ccad-4a6e-90bc-53af3a874f91">Selected</a> properties are enabled. <div class="alert"><b>Note</b>  If the  <b>pKIDefaultKeySpec</b> template attribute had been XCN_AT_KEYEXCHANGE, the encryption algorithms would be ordered first.</div>
 <div> </div>
 </li>
-<li>Of the <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> objects enumerated for this provider, those associated with encryption algorithms (XCN_AT_KEYEXCHANGE) are ordered later (higher ordinal values) and their <a href="https://msdn.microsoft.com/en-us/library/Aa377826(v=VS.85).aspx">Display</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa377841(v=VS.85).aspx">Selected</a> properties are not enabled.</li>
-<li>For all other installed CryptoAPI providers that support asymmetric signing algorithms (XCN_AT_SIGNATURE) but which are not associated with the specified provider, the <a href="https://msdn.microsoft.com/en-us/library/Aa377826(v=VS.85).aspx">Display</a> property is enabled and the <a href="https://msdn.microsoft.com/en-us/library/Aa377841(v=VS.85).aspx">Selected</a> property is not enabled.</li>
-<li>For all other installed CryptoAPI providers that support asymmetric encryption algorithms (XCN_AT_KEYEXCHANGE), the <a href="https://msdn.microsoft.com/en-us/library/Aa377826(v=VS.85).aspx">Display</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa377841(v=VS.85).aspx">Selected</a> properties are not enabled.</li>
-<li>For all installed Cryptography API: Next Generation (CNG) providers, the <a href="https://msdn.microsoft.com/en-us/library/Aa377826(v=VS.85).aspx">Display</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa377841(v=VS.85).aspx">Selected</a> properties are not enabled.</li>
+<li>Of the <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> objects enumerated for this provider, those associated with encryption algorithms (XCN_AT_KEYEXCHANGE) are ordered later (higher ordinal values) and their <a href="https://msdn.microsoft.com/91ac74af-8e59-42fc-bca8-d7ef96a1fed0">Display</a> and <a href="https://msdn.microsoft.com/9050f394-ccad-4a6e-90bc-53af3a874f91">Selected</a> properties are not enabled.</li>
+<li>For all other installed CryptoAPI providers that support asymmetric signing algorithms (XCN_AT_SIGNATURE) but which are not associated with the specified provider, the <a href="https://msdn.microsoft.com/91ac74af-8e59-42fc-bca8-d7ef96a1fed0">Display</a> property is enabled and the <a href="https://msdn.microsoft.com/9050f394-ccad-4a6e-90bc-53af3a874f91">Selected</a> property is not enabled.</li>
+<li>For all other installed CryptoAPI providers that support asymmetric encryption algorithms (XCN_AT_KEYEXCHANGE), the <a href="https://msdn.microsoft.com/91ac74af-8e59-42fc-bca8-d7ef96a1fed0">Display</a> and <a href="https://msdn.microsoft.com/9050f394-ccad-4a6e-90bc-53af3a874f91">Selected</a> properties are not enabled.</li>
+<li>For all installed Cryptography API: Next Generation (CNG) providers, the <a href="https://msdn.microsoft.com/91ac74af-8e59-42fc-bca8-d7ef96a1fed0">Display</a> and <a href="https://msdn.microsoft.com/9050f394-ccad-4a6e-90bc-53af3a874f91">Selected</a> properties are not enabled.</li>
 </ul>
 
 
-For another example, assume that a version 3 template specifies one specific CNG provider and  algorithm. That provider/algorithm pair (<a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object) is ordered first, enabled for display and selected. All other algorithms supported by that provider are ordered later, not enabled for display, and not selected. All other providers that support the specified algorithm will be ordered later still, enabled for display, but not selected. All remaining provider/algorithm pairs will not be enabled for display and not selected.<div class="alert"><b>Note</b>  CNG providers do not support the <a href="https://msdn.microsoft.com/en-us/library/Aa376751(v=VS.85).aspx">KeySpec</a> intended use concept. They return XCN_AT_NONE for this property value.</div>
+For another example, assume that a version 3 template specifies one specific CNG provider and  algorithm. That provider/algorithm pair (<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object) is ordered first, enabled for display and selected. All other algorithms supported by that provider are ordered later, not enabled for display, and not selected. All other providers that support the specified algorithm will be ordered later still, enabled for display, but not selected. All remaining provider/algorithm pairs will not be enabled for display and not selected.<div class="alert"><b>Note</b>  CNG providers do not support the <a href="https://msdn.microsoft.com/f66f2f5c-7f50-4be6-973e-844d6cb76f61">KeySpec</a> intended use concept. They return XCN_AT_NONE for this property value.</div>
 <div> </div>
 
 
@@ -96,11 +96,11 @@ For another example, assume that a version 3 template specifies one specific CNG
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a>
+<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a>
+<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
  
 
  

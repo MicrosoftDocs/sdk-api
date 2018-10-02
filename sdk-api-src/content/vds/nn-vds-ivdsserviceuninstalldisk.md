@@ -7,7 +7,7 @@ old-location: base\ivdsserviceuninstalldisk.htm
 tech.root: VDS
 ms.assetid: 2d111105-9970-40a3-bb8d-a92d38985fd9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsServiceUninstallDisk, IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,described, base.ivdsserviceuninstalldisk, vds/IVdsServiceUninstallDisk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ Uninstalls a set of disks.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383123(v=VS.85).aspx">Service Object</a>
+<a href="startup_and_service_objects.htm">Service Object</a>
 
 
 

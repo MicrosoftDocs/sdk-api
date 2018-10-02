@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_download.htm
 tech.root: WMP
 ms.assetid: 0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: Download, Download method [Windows Media Player], Download method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Download method, IWMPContentPartner.Download, IWMPContentPartner::Download, IWMPContentPartnerDownload, contentpartner/IWMPContentPartner::Download, wmp.iwmpcontentpartner_download
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The <b>Download</b> method initiates the download of a set of media items.
 
 ### -param pInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd563131(v=VS.85).aspx">IWMPContentContainerList</a> interface that describes the content to download.
+Pointer to an <a href="https://msdn.microsoft.com/a8fd239b-2a53-4db4-8a82-a7c510d215bc">IWMPContentContainerList</a> interface that describes the content to download.
 
 
 ### -param cookie [in]
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-This method initiates the process of inspecting the container list passed in <i>pInfo</i> and then returns immediately. As the plug-in inspects the container list, it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563146(v=VS.85).aspx">IWMPContentPartnerCallback::DownloadTrack</a> once for each track in the container list. For more information about the download procedure, see <a href="https://msdn.microsoft.com/en-us/library/Dd562756(v=VS.85).aspx">Downloading Media Content</a>.
+This method initiates the process of inspecting the container list passed in <i>pInfo</i> and then returns immediately. As the plug-in inspects the container list, it calls <a href="https://msdn.microsoft.com/fe8772fa-2eb4-4dfe-b677-e667b6021690">IWMPContentPartnerCallback::DownloadTrack</a> once for each track in the container list. For more information about the download procedure, see <a href="https://msdn.microsoft.com/0a057e13-6e0c-4a8f-9cab-051183e6b222">Downloading Media Content</a>.
 
 
 
@@ -115,15 +115,15 @@ This method initiates the process of inspecting the container list passed in <i>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563131(v=VS.85).aspx">IWMPContentContainerList Interface</a>
+<a href="https://msdn.microsoft.com/a8fd239b-2a53-4db4-8a82-a7c510d215bc">IWMPContentContainerList Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563161(v=VS.85).aspx">IWMPContentPartner::DownloadTrackComplete</a>
+<a href="https://msdn.microsoft.com/9614e266-259c-411f-93cf-9be87c930b16">IWMPContentPartner::DownloadTrackComplete</a>
  
 
  

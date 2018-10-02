@@ -7,7 +7,7 @@ old-location: automat\idispatch_gettypeinfocount.htm
 tech.root: automat
 ms.assetid: da876d53-cb8a-465c-a43e-c0eb272e2a12
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],IAccessible interface, GetTypeInfoCount method [Automation],IDispatch interface, IAccessible interface [Automation],GetTypeInfoCount method, IAccessible::GetTypeInfoCount, IDispatch interface [Automation],GetTypeInfoCount method, IDispatch.GetTypeInfoCount, IDispatch::GetTypeInfoCount, _oa96_IDispatch::GetTypeInfoCount, automat.idispatch_gettypeinfocount, oaidl/IAccessible::GetTypeInfoCount, oaidl/IDispatch::GetTypeInfoCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,9 +115,13 @@ The method may return zero, which indicates that the object does not provide any
 
 This code from the Lines sample file Lines.cpp implements the <b>GetTypeInfoCount</b> member function for the <b>CLines</b> class (ActiveX or OLE object).
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CLines::GetTypeInfoCount(UINT * pctinfo)
 {
    if (pctinfo == NULL) {
@@ -125,10 +129,10 @@ CLines::GetTypeInfoCount(UINT * pctinfo)
 }
    *pctinfo = 1;
    return NOERROR;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

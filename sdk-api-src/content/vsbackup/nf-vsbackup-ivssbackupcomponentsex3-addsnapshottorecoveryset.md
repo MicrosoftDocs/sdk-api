@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm
 tech.root: VSS
 ms.assetid: f489d353-7c8a-45d2-8917-82d29fbdf5f5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddSnapshotToRecoverySet, AddSnapshotToRecoverySet method, AddSnapshotToRecoverySet method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,AddSnapshotToRecoverySet method, IVssBackupComponentsEx3.AddSnapshotToRecoverySet, IVssBackupComponentsEx3::AddSnapshotToRecoverySet, base.ivssbackupcomponentsex3_addsnapshottorecoveryset, vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet
 ms.prod: windows-hardware
 ms.technology: windows-devices

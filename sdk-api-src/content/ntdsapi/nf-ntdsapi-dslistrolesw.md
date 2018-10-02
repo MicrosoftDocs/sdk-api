@@ -4,10 +4,10 @@ title: DsListRolesW function
 author: windows-sdk-content
 description: The DsListRoles function lists roles recognized by the server.
 old-location: ad\dslistroles.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 679a2dca-019b-4f6e-acd9-efb30e0d4b44
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DS_ROLE_DOMAIN_OWNER, DS_ROLE_INFRASTRUCTURE_OWNER, DS_ROLE_PDC_OWNER, DS_ROLE_RID_OWNER, DS_ROLE_SCHEMA_OWNER, DsListRoles, DsListRoles function [Active Directory], DsListRolesA, DsListRolesW, _glines_dslistroles, ad.dslistroles, ntdsapi/DsListRoles, ntdsapi/DsListRolesA, ntdsapi/DsListRolesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RTM_IPV4_MAKE_NET_ADDRESS macro
 author: windows-sdk-content
 description: The RTM_IPV4_MAKE_NET_ADDRESS macro converts an IPv4 address and a length to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_make_net_address.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 9a5d9ee0-8199-420b-9489-068d1171e647
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: RTM_IPV4_MAKE_NET_ADDRESS, RTM_IPV4_MAKE_NET_ADDRESS macro [RAS], _rtmv2ref_rtm_ipv4_make_net_address, rras.rtm_ipv4_make_net_address, rtmv2/RTM_IPV4_MAKE_NET_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,16 +83,20 @@ For example, if a client supplies the <i>Addr</i> 10.10.10.0 and the <i>Len</i> 
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_IPV4_MAKE_NET_ADDRESS(NetAddress, Addr, Len)    \
         RTM_IPV4_SET_ADDR_AND_LEN(NetAddress, Addr, Len)      
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

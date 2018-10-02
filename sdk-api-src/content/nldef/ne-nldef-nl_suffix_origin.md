@@ -7,7 +7,7 @@ old-location: iphlp\ip_suffix_origin.htm
 tech.root: IpHlp
 ms.assetid: 0ffeae3d-cfc4-472e-87f8-ae6d584fb869
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IP_SUFFIX_ORIGIN, IP_SUFFIX_ORIGIN enumeration [IP Helper], IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, NL_SUFFIX_ORIGIN, iphlp.ip_suffix_origin, iptypes/IP_SUFFIX_ORIGIN, iptypes/IpSuffixOriginDhcp, iptypes/IpSuffixOriginLinkLayerAddress, iptypes/IpSuffixOriginManual, iptypes/IpSuffixOriginOther, iptypes/IpSuffixOriginRandom, iptypes/IpSuffixOriginUnchanged, iptypes/IpSuffixOriginWellKnown, nldef/IP_SUFFIX_ORIGIN, nldef/IpSuffixOriginDhcp, nldef/IpSuffixOriginLinkLayerAddress, nldef/IpSuffixOriginManual, nldef/IpSuffixOriginOther, nldef/IpSuffixOriginRandom, nldef/IpSuffixOriginUnchanged, nldef/IpSuffixOriginWellKnown
 ms.prod: windows
 ms.technology: windows-sdk

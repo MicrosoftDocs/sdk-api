@@ -7,7 +7,7 @@ old-location: base\removesecurememorycachecallback.htm
 tech.root: Memory
 ms.assetid: 8be6ff04-34c7-4942-a38c-507584c8bbeb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RemoveSecureMemoryCacheCallback, RemoveSecureMemoryCacheCallback function, base.removesecurememorycachecallback, winbase/RemoveSecureMemoryCacheCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

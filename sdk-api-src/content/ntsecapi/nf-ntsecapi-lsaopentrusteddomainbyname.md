@@ -7,7 +7,7 @@ old-location: security\lsaopentrusteddomainbyname.htm
 tech.root: SecMgmt
 ms.assetid: 6c55f8b4-d8a2-48e3-8074-b3ca22ce487a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LsaOpenTrustedDomainByName, LsaOpenTrustedDomainByName function [Security], _lsa_lsaopentrusteddomainbyname, ntsecapi/LsaOpenTrustedDomainByName, security.lsaopentrusteddomainbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ When your application no longer needs this handle, it should call
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

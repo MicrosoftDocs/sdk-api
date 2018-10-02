@@ -4,10 +4,10 @@ title: ICurrentWorkingDirectory::GetDirectory
 author: windows-sdk-content
 description: Gets the current working directory.
 old-location: shell\ICurrentWorkingDirectory_GetDirectory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 763c042b-2780-4202-9c3e-073cc8adc93a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetDirectory, GetDirectory method [Windows Shell], GetDirectory method [Windows Shell],ICurrentWorkingDirectory interface, ICurrentWorkingDirectory interface [Windows Shell],GetDirectory method, ICurrentWorkingDirectory.GetDirectory, ICurrentWorkingDirectory::GetDirectory, _win32_ICurrentWorkingDirectory_GetDirectory, shell.ICurrentWorkingDirectory_GetDirectory, shlobj/ICurrentWorkingDirectory::GetDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

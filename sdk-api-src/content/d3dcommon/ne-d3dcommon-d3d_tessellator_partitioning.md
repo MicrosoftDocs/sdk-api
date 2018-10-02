@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tessellator_partitioning.htm
 tech.root: direct3d11
 ms.assetid: 434155e2-fb96-4de7-9840-bfa8b4f2a6ce
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 16a23b17-fc5e-3839-422e-8dec8dda3e55, D3D11_TESSELLATOR_PARTITIONING, D3D11_TESSELLATOR_PARTITIONING enumeration [Direct3D 11], D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_EVEN, D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_ODD, D3D11_TESSELLATOR_PARTITIONING_INTEGER, D3D11_TESSELLATOR_PARTITIONING_POW2, D3D11_TESSELLATOR_PARTITIONING_UNDEFINED, D3D_TESSELLATOR_PARTITIONING, d3d11shader/D3D11_TESSELLATOR_PARTITIONING, d3d11shader/D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_EVEN, d3d11shader/D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_ODD, d3d11shader/D3D11_TESSELLATOR_PARTITIONING_INTEGER, d3d11shader/D3D11_TESSELLATOR_PARTITIONING_POW2, d3d11shader/D3D11_TESSELLATOR_PARTITIONING_UNDEFINED, d3dcommon/D3D11_TESSELLATOR_PARTITIONING, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_EVEN, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_ODD, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_INTEGER, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_POW2, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_UNDEFINED, direct3d11.d3d11_tessellator_partitioning
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,13 +107,17 @@ During tessellation, the partition option helps to determine how the algorithm c
 
 The      <b>D3D11_TESSELLATOR_PARTITIONING</b> enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://msdn.microsoft.com/2a33c1c2-cdd6-48d0-8bd1-a3108c4b9449">D3D_TESSELLATOR_PARTITIONING</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
-
-```
-
-typedef D3D_TESSELLATOR_PARTITIONING D3D11_TESSELLATOR_PARTITIONING;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+typedef D3D_TESSELLATOR_PARTITIONING D3D11_TESSELLATOR_PARTITIONING;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: tagHELPWININFOA
 author: windows-sdk-content
 description: Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the WinHelp function with the HELP_SETWINPOS value.
 old-location: shell\HELPWININFO_str.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0de0bf84-66f3-44bc-b4de-c2de7ca90cb2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPHELPWININFOA, *PHELPWININFOA, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOA, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,13 +173,17 @@ The name of the window.
 
 Windows Help divides the display into 1024 units in both the X and Y directions. To create a secondary window that fills the upper-left quadrant of the display, for example, an application would specify zero for the <b>x</b> and <b>y</b> members and 512 for the <b>dx</b> and <b>dy</b> members.
 
-To calculate <b>wStructSize</b> properly, the actual size of the string to be stored at <b>rgchMember</b> must be known. Since <a href="https://msdn.microsoft.com/library/0w557fh7(v=VS.85).aspx">sizeof</a>(HELPWININFO) includes two <b>TCHARs</b> by definition, they must be taken into account in the final total. The following example shows the proper calculation of an instance of  <b>wStructSize</b>.
+To calculate <b>wStructSize</b> properly, the actual size of the string to be stored at <b>rgchMember</b> must be known. Since <a href="70826d03-3451-41e4-bebb-a820ae66d53f">sizeof</a>(HELPWININFO) includes two <b>TCHARs</b> by definition, they must be taken into account in the final total. The following example shows the proper calculation of an instance of  <b>wStructSize</b>.
 
                 
 
-
-```
-WORD wSize;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WORD wSize;
 TCHAR *szWndName = TEXT("wnd_menu"); 
 size_t NameLength;  
 HRESULT hr;
@@ -187,7 +191,7 @@ HELPWININFO hwi;
 
 // StringCbLength returns the length of the string without 
 // the terminating null character.
-hr = StringCbLength(szWndName, STRSAFE_MAX_CCH * sizeof(TCHAR), &NameLength);
+hr = StringCbLength(szWndName, STRSAFE_MAX_CCH * sizeof(TCHAR), &amp;NameLength);
     
 if (SUCCEEDED(hr))
 {
@@ -199,9 +203,9 @@ if (SUCCEEDED(hr))
     
     // Determine the total size of the final HELPWININFO structure.
     hwi.wStructSize = wSize + NameLength;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

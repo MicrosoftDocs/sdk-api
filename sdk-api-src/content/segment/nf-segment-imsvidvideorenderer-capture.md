@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_capture.htm
 tech.root: MSTV
 ms.assetid: 05287e53-a988-43cc-ac41-5024a217621a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: Capture, Capture method [Microsoft TV Technologies], Capture method [Microsoft TV Technologies],IMSVidVideoRenderer interface, IMSVidVideoRenderer interface [Microsoft TV Technologies],Capture method, IMSVidVideoRenderer.Capture, IMSVidVideoRenderer::Capture, IMSVidVideoRendererCapture, mstv.imsvidvideorenderer_capture, segment/IMSVidVideoRenderer::Capture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,26 +90,30 @@ For information about the <b>IPictureDisp</b> interface, see the Microsoft Platf
 
 #### Examples
 
-
-```cpp
-
-CComPtr<IMSVidCtl> m_pVideoControl; // Pointer to the Video Control.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr&lt;IMSVidCtl&gt; m_pVideoControl; // Pointer to the Video Control.
 
 /* Build and run the filter graph (not shown). */
 
 // Find the video renderer
-CComPtr<IMSVidVideoRenderer> pVideo;
-hr = m_pVideoControl->get_VideoRendererActive(&pVideo);
+CComPtr&lt;IMSVidVideoRenderer&gt; pVideo;
+hr = m_pVideoControl-&gt;get_VideoRendererActive(&amp;pVideo);
 if (SUCCEEDED(hr))
 {
     // Capture the image.
-    CComPtr<IPictureDisp> pPic;
-    hr = pVideo->Capture(&pPic);
+    CComPtr&lt;IPictureDisp&gt; pPic;
+    hr = pVideo-&gt;Capture(&amp;pPic);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

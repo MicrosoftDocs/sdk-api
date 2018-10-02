@@ -4,10 +4,10 @@ title: IIdleSettings::get_IdleDuration
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time that the computer must be in an idle state before the task is run.
 old-location: taskschd\iidlesettings_idleduration.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: c50a0fb5-053f-4941-ab10-67efefdcbe59
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],IdleDuration property, IIdleSettings.IdleDuration, IIdleSettings.get_IdleDuration, IIdleSettings::IdleDuration, IIdleSettings::get_IdleDuration, IIdleSettings::put_IdleDuration, IdleDuration property [Task Scheduler], IdleDuration property [Task Scheduler],IIdleSettings interface, get_IdleDuration, taskschd.iidlesettings_idleduration, taskschd/IIdleSettings::IdleDuration, taskschd/IIdleSettings::get_IdleDuration, taskschd/IIdleSettings::put_IdleDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: XLATEOBJ_cGetPalette function
 author: windows-sdk-content
 description: The XLATEOBJ_cGetPalette function retrieves RGB colors or the bitfields format from the specified palette.
 old-location: display\xlateobj_cgetpalette.htm
-tech.root: display
+tech.root: Display
 ms.assetid: eec6a5ec-398a-484f-b70f-e6baaedc6abd
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: XLATEOBJ_cGetPalette, XLATEOBJ_cGetPalette function [Display Devices], display.xlateobj_cgetpalette, gdifncs_739e9529-598b-4489-85ff-0057e244617e.xml, winddi/XLATEOBJ_cGetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

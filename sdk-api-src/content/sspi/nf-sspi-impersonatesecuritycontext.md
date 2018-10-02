@@ -7,7 +7,7 @@ old-location: security\impersonatesecuritycontext.htm
 tech.root: secauthn
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -167,7 +167,7 @@ All impersonate functions, including <b>ImpersonateSecurityContext</b> allow the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

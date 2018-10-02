@@ -7,7 +7,7 @@ old-location: adsi\iadsuser_setpassword.htm
 tech.root: ADSI
 ms.assetid: cad38632-9f0a-4707-9086-b1248d6f31a6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsUser interface [ADSI],SetPassword method, IADsUser.SetPassword, IADsUser::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsUser interface, _ds_iadsuser_setpassword, adsi.iadsuser__setpassword, adsi.iadsuser_setpassword, iads/IADsUser::SetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,9 +100,13 @@ In Active Directory, the caller must have the <a href="https://msdn.microsoft.co
 
 The following code example shows how to set the user password, if you have the permission to do so.
 
-
-```vb
-Dim usr As IADsUser
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim usr As IADsUser
 Dim szPassword As String
 On Error GoTo Cleanup
 
@@ -112,30 +116,34 @@ Set usr = GetObject("LDAP://MyLdapSvr/CN=JeffSmith,DC=Fabrikam")
 usr.SetPassword szPassword
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
-    Set usr = Nothing
-```
-
-
+    Set usr = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to set the user password, if you have the permission to do so.
 
-
-```cpp
-HRESULT SetPassword(IADsUser *pUser, BSTR password)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT SetPassword(IADsUser *pUser, BSTR password)
 {
     HRESULT hr=S_OK;
     if(!pUser) { return E_FAIL;}
-    hr = pUser->SetPassword(password);
+    hr = pUser-&gt;SetPassword(password);
     if (hr == S_OK) printf("User password has been set");
-    pUser->Release();
+    pUser-&gt;Release();
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

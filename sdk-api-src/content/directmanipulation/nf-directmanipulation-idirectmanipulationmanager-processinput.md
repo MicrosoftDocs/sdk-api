@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager_processinput.htm
 tech.root: directmanipulation
 ms.assetid: ed7fa19b-acfe-4d5d-bd71-a77e5016fe68
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],ProcessInput method, IDirectManipulationManager.ProcessInput, IDirectManipulationManager::ProcessInput, ProcessInput, ProcessInput method [Direct Manipulation], ProcessInput method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_processinput, directmanipulation/IDirectManipulationManager::ProcessInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,9 +88,13 @@ Call this method for mouse and keyboard input.
 
 The following example shows how to pass messages to the manipulation manager.
 
-
-```
-LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     BOOL handled = FALSE;
 
@@ -110,7 +114,7 @@ LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
         msg.lParam = lParam;
         msg.wParam = wParam;
 
-        if (FAILED(m_pManipulationManager->ProcessInput(&msg, &handled)))
+        if (FAILED(m_pManipulationManager-&gt;ProcessInput(&amp;msg, &amp;handled)))
         {
             handled = false;
         }
@@ -126,10 +130,10 @@ LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
         return 0;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

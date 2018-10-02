@@ -7,7 +7,7 @@ old-location: pla\idatacollectorset_delete.htm
 tech.root: PLA
 ms.assetid: 35e95d41-0d6c-428a-a167-6667275d4fb7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Delete, Delete method [PLA], Delete method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Delete method, IDataCollectorSet.Delete, IDataCollectorSet::Delete, base.idatacollectorset_delete, pla.idatacollectorset_delete, pla/IDataCollectorSet::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

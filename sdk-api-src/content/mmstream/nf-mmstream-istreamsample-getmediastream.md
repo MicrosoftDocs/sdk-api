@@ -7,7 +7,7 @@ old-location: dshow\istreamsample_getmediastream.htm
 tech.root: DirectShow
 ms.assetid: dfc38480-7b8d-42ad-937b-dd39384796c9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetMediaStream method, IStreamSample.GetMediaStream, IStreamSample::GetMediaStream, IStreamSampleGetMediaStream, dshow.istreamsample_getmediastream, mmstream/IStreamSample::GetMediaStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

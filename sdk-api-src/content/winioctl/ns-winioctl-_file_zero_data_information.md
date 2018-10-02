@@ -7,7 +7,7 @@ old-location: fs\file_zero_data_information_str.htm
 tech.root: fileio
 ms.assetid: ad2c4e2d-7f41-45e8-beff-2f6d735f152e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PFILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION structure [Files], PFILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION structure pointer [Files], _FILE_ZERO_DATA_INFORMATION, _win32_file_zero_data_information_str, base.file_zero_data_information_str, fs.file_zero_data_information_str, winioctl/FILE_ZERO_DATA_INFORMATION, winioctl/PFILE_ZERO_DATA_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

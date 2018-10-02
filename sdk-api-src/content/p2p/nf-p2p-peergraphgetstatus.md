@@ -4,10 +4,10 @@ title: PeerGraphGetStatus function
 author: windows-sdk-content
 description: The PeerGraphGetStatus function returns the current status of the peer graph.
 old-location: p2p\peergraphgetstatus.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: a7d23640-4f69-4ce0-996f-562807db7768
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphGetStatus, PeerGraphGetStatus function [Peer Networking], p2p.peergraphgetstatus, p2p/PeerGraphGetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

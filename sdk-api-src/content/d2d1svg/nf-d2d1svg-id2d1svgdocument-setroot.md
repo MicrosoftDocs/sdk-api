@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgdocument_setroot.htm
 tech.root: direct2d
 ms.assetid: 076DC8F7-E358-484D-A567-60E80F9D2FC3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1SvgDocument interface [Direct2D],SetRoot method, ID2D1SvgDocument.SetRoot, ID2D1SvgDocument::SetRoot, SetRoot, SetRoot method [Direct2D], SetRoot method [Direct2D],ID2D1SvgDocument interface, d2d1svg/ID2D1SvgDocument::SetRoot, direct2d.id2d1svgdocument_setroot
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ieseventserviceconfiguration_removegraph.htm
 tech.root: MSTV
 ms.assetid: ba3d9748-5d3b-49ec-ac69-287a253caa12
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveGraph method, IESEventServiceConfiguration.RemoveGraph, IESEventServiceConfiguration::RemoveGraph, RemoveGraph, RemoveGraph method [Microsoft TV Technologies], RemoveGraph method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removegraph, tuner/IESEventServiceConfiguration::RemoveGraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreu565.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreU565(XMU565@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: DirectX::PackedVector.XMStoreU565, XMStoreU565, XMStoreU565 method [DirectX Math Support APIs], dxmath.xmstoreu565
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/58c9ee71-d038-4664-9fac-5a074b60e9c3">XMU565</a>.
 
 
 ## -parameters
@@ -83,22 +83,26 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
   XMVECTOR N;
   static const XMVECTOR  Max = {31.f, 63.f, 31.f, 0.0f };
 
   N = XMVectorClamp(V, XMVectorZero, Max);
   N = XMVectorRound(N);
 
-  pDestination->x = (int8_t)N.v[0];
-  pDestination->y = (int8_t)N.v[1];
-  pDestination->z = (int8_t)N.v[2];
-
-```
-
-
+  pDestination-&gt;x = (int8_t)N.v[0];
+  pDestination-&gt;y = (int8_t)N.v[1];
+  pDestination-&gt;z = (int8_t)N.v[2];
+</pre>
+</td>
+</tr>
+</table></span></div>
 Note these are not normalized values. To convert to the RGB 5/6/5 format, 
     you must scale the input vector by <code>(31.f, 63.f, 31.f, 1.f)</code>. 
     Also, you will probably need to swizzle 

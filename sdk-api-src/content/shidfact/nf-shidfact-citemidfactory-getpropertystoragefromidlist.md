@@ -4,10 +4,10 @@ title: CItemIDFactory::GetPropertyStorageFromIDList
 author: windows-sdk-content
 description: Create an instance of the IPropertyStore based on the serialized property storage associated with the first ItemID.
 old-location: shell\citemidfactory_getpropertystoragefromidlist.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 50E8F4F9-1E7B-4314-9AFB-1CA0795776FE
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorageFromIDList method, CItemIDFactory.GetPropertyStorageFromIDList, CItemIDFactory::GetPropertyStorageFromIDList, GetPropertyStorageFromIDList, GetPropertyStorageFromIDList method [Windows Shell], GetPropertyStorageFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystoragefromidlist, shidfact/CItemIDFactory::GetPropertyStorageFromIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

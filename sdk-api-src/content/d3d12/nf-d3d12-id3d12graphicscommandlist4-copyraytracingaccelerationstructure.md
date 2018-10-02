@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4_copyraytracingaccelerationst
 tech.root: direct3d12
 ms.assetid: 13E0E477-9CD5-484B-9532-AB6D415CF6CB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CopyRaytracingAccelerationStructure, CopyRaytracingAccelerationStructure method, CopyRaytracingAccelerationStructure method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,CopyRaytracingAccelerationStructure method, ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure, ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure, d3d12/ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure, direct3d12.id3d12graphicscommandlist4_copyraytracingaccelerationstructure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, next major update [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -62,13 +62,13 @@ Copies a source acceleration structure to destination memory while applying the 
 
 ### -param DestAccelerationStructureData [in]
 
-The destination memory. The required size can be discovered by calling <a href="direct3d12.id3d12graphicscommandlist4_emitraytracingaccelerationstructurepostbuildinfo">EmitRaytracingAccelerationStructurePostbuildInfo</a> beforehand, if necessary for the specified <i>Mode</i>.  
+The destination memory. The required size can be discovered by calling <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-emitraytracingaccelerationstructurepostbuildinfo">EmitRaytracingAccelerationStructurePostbuildInfo</a> beforehand, if necessary for the specified <i>Mode</i>.  
 
 The destination start address must be aligned to 256 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT</a>, regardless of the specified <i>Mode</i>. 
 
 The destination memory range cannot overlap source. Otherwise, results are undefined.  
 
-The resource state that the memory pointed to must be in depends on the <i>Mode</i> parameter. For more information, see <a href="direct3d12.d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE</a>. 
+The resource state that the memory pointed to must be in depends on the <i>Mode</i> parameter. For more information, see <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE</a>. 
 
 
 ### -param SourceAccelerationStructureData [in]
@@ -77,12 +77,12 @@ The address of the acceleration structure or other type of data to copy/transfor
 
 The source memory must be aligned to 256 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT</a>, regardless of the specified <i>Mode</i>. 
 
-The resource state that the memory pointed to must be in depends on the <i>Mode</i> parameter. For more information, see <a href="direct3d12.d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE</a>. 
+The resource state that the memory pointed to must be in depends on the <i>Mode</i> parameter. For more information, see <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE</a>. 
 
 
 ### -param Mode [in]
 
-The type of copy operation to perform. For more information, see <a href="direct3d12.d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE</a>.
+The type of copy operation to perform. For more information, see <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE</a>.
 
 
 ## -returns

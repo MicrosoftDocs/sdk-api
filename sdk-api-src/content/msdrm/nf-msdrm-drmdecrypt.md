@@ -7,7 +7,7 @@ old-location: rm\drmdecrypt.htm
 tech.root: AdRms_Sdk
 ms.assetid: 8e0cb353-4670-4cf7-bcd8-81ebd0adfe32
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMDecrypt, DRMDecrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDecrypt, rm.drmdecrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,9 +114,13 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 Memory allocation and release of the decrypted content is the responsibility of the calling function. The following code sample, from <a href="https://msdn.microsoft.com/768767a0-b76c-4a9a-a4b1-22dd1923c667">Decrypting Content</a>, shows how to decrypt content in blocks. This particular example already knows the size of the content to decrypt and allocates memory beforehand. If you must determine the number of bytes to allocate, however,  the required buffer size is returned in the <i>pcNumOutBytes</i> parameter after the first call. Allocate memory and call the function again with  <i>pbOutData</i> set to point to the new memory.
 
-
-```cpp
-#include "DecryptingContent.h"
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include "DecryptingContent.h"
 
 /*===================================================================
 File:      Decryption_DecryptContent.cpp
@@ -162,7 +166,7 @@ HRESULT DecryptContent(
           L"EDIT",                  // Requested right
           NULL,                     // Reserved
           NULL,                     // Reserved
-          &hEBDecryptor);           // Decrypting object pointer
+          &amp;hEBDecryptor);           // Decrypting object pointer
   if (FAILED(hr)) goto e_Exit;
   wprintf(L"DRMCreateEnablingBitsDecryptor: hEBDecryptor = %i\r\n",
           hEBDecryptor);
@@ -173,9 +177,9 @@ HRESULT DecryptContent(
   hr = DRMGetInfo(
           hEBDecryptor,               // Decrypting object handle
           g_wszQUERY_BLOCKSIZE,       // Attribute to query for
-          &eType,                     // Type of encoding to apply
-          &uiBytes,                   // Size of uiBlock variable
-          (BYTE*)&uiBlock);           // Size of memory block
+          &amp;eType,                     // Type of encoding to apply
+          &amp;uiBytes,                   // Size of uiBlock variable
+          (BYTE*)&amp;uiBlock);           // Size of memory block
   if(FAILED(hr)) goto e_Exit;
   wprintf(L"DRMGetInfo: uiBlock = %u\r\n", uiBlock);
 
@@ -192,14 +196,14 @@ HRESULT DecryptContent(
   }
 
   // Decrypt the content.
-  for ( int j = 0; (UINT)j * uiBlock < uiEncrypted; j++ )
+  for ( int j = 0; (UINT)j * uiBlock &lt; uiEncrypted; j++ )
   {
     hr = DRMDecrypt( 
           hEBDecryptor,               // Decrypting object handle
           j * uiBlock,                // Position in the buffer
           uiBlock,                    // Number of bytes to decrypt
           pbEncrypted + (j*uiBlock),  // Bytes to decrypt
-          &uiDecrypted,               // Number of decrypted bytes
+          &amp;uiDecrypted,               // Number of decrypted bytes
           NULL);                      // Set to NULL on first call
     if(FAILED(hr)) goto e_Exit;
 
@@ -208,7 +212,7 @@ HRESULT DecryptContent(
           j * uiBlock,                // Position in the buffer 
           uiBlock,                    // Number of bytes to decrypt
           pbEncrypted + (j*uiBlock),  // Bytes to decrypt
-          &uiDecrypted,               // Number of decrypted bytes
+          &amp;uiDecrypted,               // Number of decrypted bytes
           *ppbDecrypted + uiOffset);  // Decrypted data
     if(FAILED(hr)) goto e_Exit;
 
@@ -225,10 +229,10 @@ e_Exit:
   
   wprintf(L"Leaving DecryptContent: hr = %x\r\n", hr);
   return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

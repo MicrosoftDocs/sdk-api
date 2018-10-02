@@ -4,10 +4,10 @@ title: lineproviderentry_tag
 author: windows-sdk-content
 description: The LINEPROVIDERENTRY structure provides the information for a single service provider entry. An array of these structures is returned as part of the LINEPROVIDERLIST structure returned by the function lineGetProviderList.
 old-location: tapi2\lineproviderentry_str.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: e54a8244-e773-441f-a387-b3b22c4a0a54
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPLINEPROVIDERENTRY, LINEPROVIDERENTRY, LINEPROVIDERENTRY structure [TAPI 2.2], LPLINEPROVIDERENTRY, LPLINEPROVIDERENTRY structure pointer [TAPI 2.2], _tapi2_lineproviderentry_str, lineproviderentry_tag, tapi/LINEPROVIDERENTRY, tapi/LPLINEPROVIDERENTRY, tapi2.lineproviderentry_str"
 ms.prod: windows
 ms.technology: windows-sdk

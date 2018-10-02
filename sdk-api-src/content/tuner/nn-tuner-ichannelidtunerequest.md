@@ -7,7 +7,7 @@ old-location: mstv\ichannelidtunerequest.htm
 tech.root: MSTV
 ms.assetid: 4ff0e945-b0a3-4b9f-9511-5891b69c72df
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IChannelIDTuneRequest, IChannelIDTuneRequest interface [Microsoft TV Technologies], IChannelIDTuneRequest interface [Microsoft TV Technologies],described, mstv.ichannelidtunerequest, tuner/IChannelIDTuneRequest
 ms.prod: windows
 ms.technology: windows-sdk

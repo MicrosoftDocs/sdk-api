@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs1_getcount.htm
 tech.root: Bits
 ms.assetid: 3deaf2fd-84a0-49f8-8a7d-91a39701683a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyJobs1 interface, IEnumBackgroundCopyJobs1 interface [BITS],GetCount method, IEnumBackgroundCopyJobs1.GetCount, IEnumBackgroundCopyJobs1::GetCount, bits.ienumbackgroundcopyjobs1_getcount, qmgr/IEnumBackgroundCopyJobs1::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IntlStrEqWorkerA function
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two localized strings.
 old-location: shell\IntlStrEqWorker.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bc8e823e-79b2-49fd-950d-96a6e7256377
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IntlStrEqWorker, IntlStrEqWorker function [Windows Shell], IntlStrEqWorkerA, IntlStrEqWorkerW, _win32_IntlStrEqWorker, shell.IntlStrEqWorker, shlwapi/IntlStrEqWorker, shlwapi/IntlStrEqWorkerA, shlwapi/IntlStrEqWorkerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

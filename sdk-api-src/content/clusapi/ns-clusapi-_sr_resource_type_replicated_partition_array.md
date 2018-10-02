@@ -4,10 +4,10 @@ title: "_SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY"
 author: windows-sdk-content
 description: Lists the all replicated partitions on a disk.
 old-location: mscs\sr_resource_type_replicated_partition_array.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3FD68FF6-3377-4EBF-95F4-94835ABB1274
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure [Failover Cluster], _SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, mscs.sr_resource_type_replicated_partition_array"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ A variable size array of all replicated partitions on the disk.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

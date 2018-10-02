@@ -7,7 +7,7 @@ old-location: secbiomet\storageadaptergetdataformat.htm
 tech.root: SecBioMet
 ms.assetid: e5bf31aa-59d7-410a-bb11-fe4af36fa409
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_GET_DATA_FORMAT_FN, PIBIO_STORAGE_GET_DATA_FORMAT_FN callback, StorageAdapterGetDataFormat, StorageAdapterGetDataFormat callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdataformat, winbio_adapter/StorageAdapterGetDataFormat
 ms.prod: windows
 ms.technology: windows-sdk

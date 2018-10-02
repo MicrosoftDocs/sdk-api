@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_deleteserviceforapplication.htm
 tech.root: cossdk
 ms.assetid: 8bc4a72e-79a1-4780-a143-1ba1ec66812b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteServiceForApplication, DeleteServiceForApplication method [COM+], DeleteServiceForApplication method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DeleteServiceForApplication method, ICOMAdminCatalog2.DeleteServiceForApplication, ICOMAdminCatalog2::DeleteServiceForApplication, _cos_icomadmincatalog2_DeleteServiceForApplication, comadmin/ICOMAdminCatalog2::DeleteServiceForApplication, cos.icomadmincatalog2_deleteserviceforapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

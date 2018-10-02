@@ -7,7 +7,7 @@ old-location: mstv\igenericdescriptor_getlength.htm
 tech.root: MSTV
 ms.assetid: fd36bb87-ef30-4064-a251-c89a878eeae9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetLength method, IGenericDescriptor.GetLength, IGenericDescriptor::GetLength, IGenericDescriptorGetLength, mpeg2psiparser/IGenericDescriptor::GetLength, mstv.igenericdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

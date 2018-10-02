@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_gettype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_gettype.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 675fd28c-3c3f-013f-f9c3-8c82054eae00, GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetType method, ID3D10EffectVariable.GetType, ID3D10EffectVariable::GetType, d3d10effect/ID3D10EffectVariable::GetType, direct3d10.id3d10effectvariable_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,9 +64,9 @@ Get type information.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/8b396c86-82de-4a0e-8b86-228e3716c09b">ID3D10EffectType</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/8b396c86-82de-4a0e-8b86-228e3716c09b">ID3D10EffectType Interface</a>.
 
 
 
@@ -76,7 +76,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

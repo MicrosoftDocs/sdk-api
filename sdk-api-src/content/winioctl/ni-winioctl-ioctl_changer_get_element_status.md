@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_get_element_status.htm
 tech.root: devio
 ms.assetid: b5266a22-1f7b-423d-b3c1-7e455d87dd2b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_CHANGER_GET_ELEMENT_STATUS, IOCTL_CHANGER_GET_ELEMENT_STATUS control, IOCTL_CHANGER_GET_ELEMENT_STATUS control code, _win32_ioctl_changer_get_element_status, base.ioctl_changer_get_element_status, winioctl/IOCTL_CHANGER_GET_ELEMENT_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,9 +54,13 @@ Retrieves the status of all elements or a specified number of elements of a part
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                 // handle to device
   IOCTL_CHANGER_GET_ELEMENT_STATUS, // dwIoControlCode(LPVOID) lpInBuffer,              // input buffer
   (DWORD) nInBufferSize,            // size of input buffer
@@ -64,10 +68,10 @@ BOOL DeviceIoControl(
   (DWORD) nOutBufferSize,           // size of output buffer
   (LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

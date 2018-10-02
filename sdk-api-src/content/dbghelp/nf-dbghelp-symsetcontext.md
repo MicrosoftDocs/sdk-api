@@ -4,10 +4,10 @@ title: SymSetContext function
 author: windows-sdk-content
 description: Sets context information used by the SymEnumSymbols function. This function only works with PDB symbols.
 old-location: base\symsetcontext.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 0a9c6bfe-5e60-48c4-af98-b910df3032d5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymSetContext, SymSetContext function, _win32_symsetcontext, base.symsetcontext, dbghelp/SymSetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

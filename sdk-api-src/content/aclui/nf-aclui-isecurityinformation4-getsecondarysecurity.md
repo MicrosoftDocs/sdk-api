@@ -4,10 +4,10 @@ title: ISecurityInformation4::GetSecondarySecurity
 author: windows-sdk-content
 description: Returns additional security contexts that may impact access to the resource.
 old-location: security\isecurityinformation4_getsecondarysecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 20BD7D3B-1097-45CF-8237-0FBAD6BD6E3E
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetSecondarySecurity, GetSecondarySecurity method [Security], GetSecondarySecurity method [Security],ISecurityInformation4 interface, ISecurityInformation4 interface [Security],GetSecondarySecurity method, ISecurityInformation4.GetSecondarySecurity, ISecurityInformation4::GetSecondarySecurity, aclui/ISecurityInformation4::GetSecondarySecurity, security.isecurityinformation4_getsecondarysecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

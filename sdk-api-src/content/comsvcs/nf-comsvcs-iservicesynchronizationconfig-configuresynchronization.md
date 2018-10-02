@@ -7,7 +7,7 @@ old-location: cos\iservicesynchronizationconfig_configuresynchronization.htm
 tech.root: cossdk
 ms.assetid: 83fe6958-6639-4468-a3f5-3322316ccbc4
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ConfigureSynchronization, ConfigureSynchronization method [COM+], ConfigureSynchronization method [COM+],IServiceSynchronizationConfig interface, IServiceSynchronizationConfig interface [COM+],ConfigureSynchronization method, IServiceSynchronizationConfig.ConfigureSynchronization, IServiceSynchronizationConfig::ConfigureSynchronization, _cos_IServiceSynchronizationConfig_ConfigureSynchronization, comsvcs/IServiceSynchronizationConfig::ConfigureSynchronization, cos.iservicesynchronizationconfig_configuresynchronization
 ms.prod: windows-hardware
 ms.technology: windows-devices

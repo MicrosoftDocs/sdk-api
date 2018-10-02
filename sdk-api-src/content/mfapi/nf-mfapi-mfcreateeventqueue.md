@@ -4,10 +4,10 @@ title: MFCreateEventQueue function
 author: windows-sdk-content
 description: Creates an event queue.
 old-location: mf\mfcreateeventqueue.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 214cea99-37cf-4571-aa00-7b3e220a6b84
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 214cea99-37cf-4571-aa00-7b3e220a6b84, MFCreateEventQueue, MFCreateEventQueue function [Media Foundation], mf.mfcreateeventqueue, mfapi/MFCreateEventQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

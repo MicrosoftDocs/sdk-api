@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getoriginalserviceid.htm
 tech.root: MSTV
 ms.assetid: 030c01e3-6149-4a61-aeb2-01143642213b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetOriginalServiceId, GetOriginalServiceId method [Microsoft TV Technologies], GetOriginalServiceId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetOriginalServiceId method, IISDB_LDT.GetOriginalServiceId, IISDB_LDT::GetOriginalServiceId, dvbsiparser/IISDB_LDT::GetOriginalServiceId, mstv.iisdb_ldt_getoriginalserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices

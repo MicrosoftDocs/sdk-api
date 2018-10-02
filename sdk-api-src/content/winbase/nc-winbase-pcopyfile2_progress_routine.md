@@ -7,7 +7,7 @@ old-location: fs\copyfile2progressroutine.htm
 tech.root: fileio
 ms.assetid: d14b5f5b-c353-49e8-82bb-a695a3ec76fd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: CopyFile2ProgressRoutine, CopyFile2ProgressRoutine callback function [Files], PCOPYFILE2_PROGRESS_ROUTINE, PCOPYFILE2_PROGRESS_ROUTINE callback, fs.copyfile2progressroutine, winbase/CopyFile2ProgressRoutine, winbase/PCOPYFILE2_PROGRESS_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

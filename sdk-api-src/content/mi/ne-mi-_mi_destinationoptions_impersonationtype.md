@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_impersonationtype.htm
 tech.root: WMI_v2
 ms.assetid: 3d78ca66-8807-45b2-8648-bc5b0dfb83c6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_DestinationOptions_ImpersonationType, MI_DestinationOptions_ImpersonationType enumeration [Windows Management Infrastructure (MI)], MI_DestinationOptions_ImpersonationType_Default, MI_DestinationOptions_ImpersonationType_Delegate, MI_DestinationOptions_ImpersonationType_Identify, MI_DestinationOptions_ImpersonationType_Impersonate, MI_DestinationOptions_ImpersonationType_None, _MI_DestinationOptions_ImpersonationType, mi/MI_DestinationOptions_ImpersonationType, mi/MI_DestinationOptions_ImpersonationType_Default, mi/MI_DestinationOptions_ImpersonationType_Delegate, mi/MI_DestinationOptions_ImpersonationType_Identify, mi/MI_DestinationOptions_ImpersonationType_Impersonate, mi/MI_DestinationOptions_ImpersonationType_None, wmi._mi_destinationoptions_impersonationtype, wmi_v2.mi_destinationoptions_impersonationtype
 ms.prod: windows
 ms.technology: windows-sdk

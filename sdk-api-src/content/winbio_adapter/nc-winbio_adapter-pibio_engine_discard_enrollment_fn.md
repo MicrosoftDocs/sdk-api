@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterdiscardenrollment.htm
 tech.root: SecBioMet
 ms.assetid: 305540bc-e0c6-460a-a00b-c295b3d6db93
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EngineAdapterDiscardEnrollment, EngineAdapterDiscardEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_DISCARD_ENROLLMENT_FN, PIBIO_ENGINE_DISCARD_ENROLLMENT_FN callback, secbiomet.engineadapterdiscardenrollment, winbio_adapter/EngineAdapterDiscardEnrollment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,9 +102,13 @@ Your implementation of this function should not save information in the biometri
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterDiscardEnrollment
 //
@@ -132,11 +136,11 @@ EngineAdapterDiscardEnrollment(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     // Return if an enrollment is not in progress. This example assumes that 
     // an enrollment object is part of your engine context structure.
-    if (context->Enrollment.InProgress != TRUE)
+    if (context-&gt;Enrollment.InProgress != TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -147,21 +151,21 @@ EngineAdapterDiscardEnrollment(
     // any objects attached to the enrollment object.
     _AdapterDestroyEnrollmentTemplate(
         context,
-        &context->Enrollment
+        &amp;context-&gt;Enrollment
         );
 
     // If the _AdapterDestroyEnrollmentTemplate function does not reset the
     // InProgress data member, reset it here.
-    context->Enrollment.InProgress = FALSE;
+    context-&gt;Enrollment.InProgress = FALSE;
 
 cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\kerb_add_binding_cache_entry_request.htm
 tech.root: secauthn
 ms.assetid: 2EFB8F01-0665-4031-B02A-8ECB5B9C7C21
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, KERB_ADD_BINDING_CACHE_ENTRY_REQUEST structure [Security], PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST structure pointer [Security], _KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, ntsecapi/PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, security.kerb_add_binding_cache_entry_request"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ndf\diagnosticsinfo.htm
 tech.root: NDF
 ms.assetid: c84cc4ef-ff47-447e-b216-b704cb02719a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDiagnosticsInfo, DiagnosticsInfo, DiagnosticsInfo structure [NDF], DiagnosticsInfo,*PDiagnosticsInfo, DiagnosticsInfo,*PDiagnosticsInfo structure [NDF], ndf.diagnosticsinfo, ndhelper/DiagnosticsInfo, tagDiagnosticsInfo"
 ms.prod: windows
 ms.technology: windows-sdk

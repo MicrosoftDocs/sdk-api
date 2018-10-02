@@ -4,10 +4,10 @@ title: "_DD_UPDATENONLOCALHEAPDATA"
 author: windows-sdk-content
 description: The DD_UPDATENONLOCALHEAPDATA structure contains the required heap information.
 old-location: display\dd_updatenonlocalheapdata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: ef16df6f-dbc6-40ee-9c86-be9c3d132b28
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA structure [Display Devices], _DD_UPDATENONLOCALHEAPDATA, ddrawint/DD_UPDATENONLOCALHEAPDATA, ddstrcts_e53429c7-6fc5-4528-ab0e-c9768fdf75ae.xml, display.dd_updatenonlocalheapdata"
 ms.prod: windows
 ms.technology: windows-sdk

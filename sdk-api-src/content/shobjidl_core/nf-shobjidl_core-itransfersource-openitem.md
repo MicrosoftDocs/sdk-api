@@ -4,10 +4,10 @@ title: ITransferSource::OpenItem
 author: windows-sdk-content
 description: Opens the item for copying. Returns an object that can be enumerated for resources (IShellItemResources).
 old-location: shell\ITransferSource_OpenItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8f051923-2798-43e9-8e8d-95eec5f618aa
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITransferSource interface [Windows Shell],OpenItem method, ITransferSource.OpenItem, ITransferSource::OpenItem, OpenItem, OpenItem method [Windows Shell], OpenItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_OpenItem, shell.ITransferSource_OpenItem, shobjidl_core/ITransferSource::OpenItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

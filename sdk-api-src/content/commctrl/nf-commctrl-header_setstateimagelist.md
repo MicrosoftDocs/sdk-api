@@ -4,10 +4,10 @@ title: Header_SetStateImageList macro
 author: windows-sdk-content
 description: Assigns an image list to an existing header control state.
 old-location: controls\Header_SetStateImageList.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setstateimagelist.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Header_SetStateImageList, Header_SetStateImageList macro [Windows Controls], _win32_Header_SetStateImageList, _win32_Header_SetStateImageList_cpp, commctrl/Header_SetStateImageList, controls.Header_SetStateImageList, controls._win32_Header_SetStateImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Assigns an image list to an existing header control state.
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 

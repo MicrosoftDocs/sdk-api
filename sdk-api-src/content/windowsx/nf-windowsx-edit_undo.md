@@ -4,10 +4,10 @@ title: Edit_Undo macro
 author: windows-sdk-content
 description: Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the EM_UNDO message explicitly.
 old-location: controls\Edit_Undo.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_undo.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Edit_Undo, Edit_Undo macro [Windows Controls], _win32_Edit_Undo, _win32_Edit_Undo_cpp, controls.Edit_Undo, controls._win32_Edit_Undo, windowsx/Edit_Undo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761670(v=VS.85).aspx">EM_UNDO</a> message explicitly.
+Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/c4bff128-0383-40c5-8f29-7738f7f26871">EM_UNDO</a> message explicitly.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761670(v=VS.85).aspx">EM_UNDO</a>.
+For more information, see <a href="https://msdn.microsoft.com/c4bff128-0383-40c5-8f29-7738f7f26871">EM_UNDO</a>.
 
 
 

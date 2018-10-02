@@ -7,7 +7,7 @@ old-location: base\cvsswriter_setwriterfailure.htm
 tech.root: VSS
 ms.assetid: 9fef9d77-dc0d-4ba0-a317-5c62355458f7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriter interface [VSS],SetWriterFailure method, CVssWriter.SetWriterFailure, CVssWriter::SetWriterFailure, SetWriterFailure, SetWriterFailure method [VSS], SetWriterFailure method [VSS],CVssWriter interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, _win32_cvsswriter_setwriterfailure, base.cvsswriter_setwriterfailure, vswriter/CVssWriter::SetWriterFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -145,7 +145,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method cannot be called from <a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriter::OnIdentify</a> or <a href="https://msdn.microsoft.com/4cb3b8f6-f702-4fba-a3cc-af84897cfd82">CVssWriterEx::OnIdentifyEx</a>.
 
 If a writer's event handler (such as <a href="https://msdn.microsoft.com/2aff5e87-4053-46a0-a7fb-7411e76166ba">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
+<a href="writers.htm">Writer Event Handling</a>.
 
 
 

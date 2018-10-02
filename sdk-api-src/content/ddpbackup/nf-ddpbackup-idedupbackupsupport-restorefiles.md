@@ -7,7 +7,7 @@ old-location: dedup\idedupbackupsupport_restorefiles.htm
 tech.root: dedup
 ms.assetid: CFBB0B59-2869-4A30-8F2F-A473372B1E68
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DDP_E_FILE_CORRUPT, DDP_E_FILE_SYSTEM_CORRUPT, DDP_E_INVALID_DATA, DDP_E_JOB_COMPLETED_PARTIAL_SUCCESS, DDP_E_NOT_FOUND, DDP_E_PATH_NOT_FOUND, DDP_E_UNEXPECTED, DDP_E_VOLUME_DEDUP_DISABLED, DDP_E_VOLUME_UNSUPPORTED, IDedupBackupSupport interface [Data Deduplication API],RestoreFiles method, IDedupBackupSupport.RestoreFiles, IDedupBackupSupport::RestoreFiles, RestoreFiles, RestoreFiles method [Data Deduplication API], RestoreFiles method [Data Deduplication API],IDedupBackupSupport interface, S_FALSE, S_OK, ddpbackup/IDedupBackupSupport::RestoreFiles, dedup.idedupbackupsupport_restorefile, dedup.idedupbackupsupport_restorefiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ Reconstructs a set of files from a backup store that contains the fully optimize
      (reparse points) and the Data Deduplication store.
 
 Applications that call the 
-    <a href="https://msdn.microsoft.com/library/Hh449224(v=VS.85).aspx">RestoreFiles</a> method must also implement 
+    <a href="dedup.idedupbackupsupport_restorefile">RestoreFiles</a> method must also implement 
     the <a href="https://msdn.microsoft.com/0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C">IDedupReadFileCallback</a> interface. Before 
     calling the <b>RestoreFiles</b> method, the 
     application must have previously restored the Data Deduplication reparse points for the files to the location 
@@ -189,10 +189,10 @@ The specified volume type is not supported. Deduplication is supported on fixed,
 This method can return standard <b>HRESULT</b> values, such as 
        <b>S_OK</b>. It can also return converted 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> using the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. You can test for success 
+       <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. You can test for success 
        or failure <b>HRESULT</b> values by using the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and 
-       <a href="https://msdn.microsoft.com/en-us/library/ms693474(v=VS.85).aspx">FAILED</a> macros defined in Winerror.h. Possible 
+       <a href="_com_succeeded">SUCCEEDED</a> and 
+       <a href="_com_failed">FAILED</a> macros defined in Winerror.h. Possible 
        return values include the following.
 
 If no file was restored successfully, the result is the first file error encountered. This will be one of the 

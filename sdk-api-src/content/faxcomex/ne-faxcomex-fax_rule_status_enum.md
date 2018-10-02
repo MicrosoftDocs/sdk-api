@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_rule_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5p2l.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FAX_RULE_STATUS_ENUM, FAX_RULE_STATUS_ENUM enumeration [Fax Service], _mfax_fax_rule_status_enum, fax._mfax_fax_rule_status_enum, faxcomex/FAX_RULE_STATUS_ENUM, faxcomex/frsALL_GROUP_DEV_NOT_VALID, faxcomex/frsBAD_DEVICE, faxcomex/frsEMPTY_GROUP, faxcomex/frsSOME_GROUP_DEV_NOT_VALID, faxcomex/frsVALID, frsALL_GROUP_DEV_NOT_VALID, frsBAD_DEVICE, frsEMPTY_GROUP, frsSOME_GROUP_DEV_NOT_VALID, frsVALID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ The routing rule cannot be applied because the rule uses a single device for its
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689593(v=VS.85).aspx">IFaxOutboundRoutingRule::get_Status</a>
+<a href="https://msdn.microsoft.com/5a880005-92a2-4809-b64c-b5af63382203">IFaxOutboundRoutingRule::get_Status</a>
  
 
  

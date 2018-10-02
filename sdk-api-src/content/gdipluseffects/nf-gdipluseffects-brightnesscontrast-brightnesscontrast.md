@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_BrightnessContrast_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastconstructors\brightnesscontrast.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+],BrightnessContrast constructor, BrightnessContrast constructor [GDI+], BrightnessContrast constructor [GDI+],BrightnessContrast class, BrightnessContrast.BrightnessContrast, BrightnessContrast::BrightnessContrast, _gdiplus_CLASS_BrightnessContrast_BrightnessContrast_, gdiplus._gdiplus_CLASS_BrightnessContrast_BrightnessContrast_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534423(v=VS.85).aspx">BrightnessContrast</a> object. 
+Creates a new <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object. 
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534423(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534423(v=VS.85).aspx">BrightnessContrast</a>
+<a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536278(v=VS.85).aspx">BrightnessContrast::SetParameters</a>
+<a href="https://msdn.microsoft.com/ca9e5978-75ff-4e06-9597-0e706db19259">BrightnessContrast::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a>
+<a href="https://msdn.microsoft.com/b5271911-7759-4e87-af25-7d9a9d9c653e">BrightnessContrastParams</a>
  
 
  

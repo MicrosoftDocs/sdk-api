@@ -7,7 +7,7 @@ old-location: dfs\netdfsadd.htm
 tech.root: Dfs
 ms.assetid: 2c8816b2-5489-486e-b749-605932ba9fe9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DFS_ADD_VOLUME, DFS_RESTORE_VOLUME, NetDfsAdd, NetDfsAdd function [Distributed File System], _win32_netdfsadd, dfs.netdfsadd, fs.netdfsadd, lmdfs/NetDfsAdd, netmgmt.netdfsadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,23 +152,27 @@ The following code sample demonstrates how to create a new DFS link using a call
     <b>NetDfsAdd</b> fails if the DFS link already exists. To add additional targets to an 
     existing DFS link, you can specify zero in the <i>Flags</i> parameter.
 
-
-```cpp
-#include <windows.h>
-#include <lm.h>
-#include <lmdfs.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
+#include &lt;lmdfs.h&gt;
+#include &lt;stdio.h&gt;
 #pragma comment(lib, "NetApi32.lib")
 
 void wmain(int argc, wchar_t *argv[ ])
 {
    DWORD res;
    LPTSTR lpszComment;
-   lpszComment = argc < 5 ? NULL : argv[4];
+   lpszComment = argc &lt; 5 ? NULL : argv[4];
    //
    // Check for required parameters.
    //
-   if (argc < 4)
+   if (argc &lt; 4)
       wprintf(L"Syntax: %s DfsEntryPath ServerName ShareName [\"Comment\"]\n", argv[0]);
    else
    {
@@ -190,10 +194,10 @@ void wmain(int argc, wchar_t *argv[ ])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

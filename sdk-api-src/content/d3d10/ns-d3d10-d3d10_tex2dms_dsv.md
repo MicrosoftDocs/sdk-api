@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex2dms_dsv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_dsv.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D10_TEX2DMS_DSV, D3D10_TEX2DMS_DSV structure [Direct3D 10], c5f5656b-8589-3a09-033c-cf23c7b8dea4, d3d10/D3D10_TEX2DMS_DSV, direct3d10.d3d10_tex2dms_dsv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> from a multisampled <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D texture</a> that is accessible to a depth-stencil view.
+Specifies the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> from a multisampled <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">2D texture</a> that is accessible to a depth-stencil view.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Since a multisampled 2D texture contains a single subtexture, there is nothing t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

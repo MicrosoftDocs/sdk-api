@@ -7,7 +7,7 @@ old-location: pla\idatamanager_rules.htm
 tech.root: PLA
 ms.assetid: 17403e57-2eea-4a2b-a75c-66f486622078
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDataManager interface [PLA],Rules property, IDataManager.Rules, IDataManager.get_Rules, IDataManager::Rules, IDataManager::get_Rules, IDataManager::put_Rules, Rules property [PLA], Rules property [PLA],IDataManager interface, base.idatamanager_rules, get_Rules, pla.idatamanager_rules, pla/IDataManager::Rules, pla/IDataManager::get_Rules, pla/IDataManager::put_Rules
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,76 +68,96 @@ The rules modify  the contents of the report after it is generated. To specify t
 
 The following schema defines the rules that you can specify. The <b>Rules</b> element is the root node. You can specify one or more <b>Group</b> elements, and each <b>Group</b> element can contain one or more <b>Rule</b> elements. The <b>Help</b> element is an optional user-defined element. The <b>Step</b> element defines a set of conditions and associated actions that are taken if the conditions are met.
 
-
-```xml
-<Rules>
-    <Include name="" fatal="true|false"/>
-    <Group name="" enabled="true|false">
-        <Rule name="" enabled="true|false">
-            <Help/>
-            <Step/>
-        </Rule>
-    </Group>
-</Rules>
-
-```
-
-
-
-```xml
-<Step select="" fatal="true|false" sortType="first|max|min" sortValue="" sortDataType="">
-    <UserInput/>
-    <Exists>
-        <When/>
-        <Otherwise/>
-    </Exists>
-    <Otherwise/>
-</Step>
-
-```
-
-
-
-```xml
-<UserInput name="" expression="">
-    <Description/>
-</UserInput>
-
-```
-
-
-
-```xml
-<When expression="" matchRE="">
-    <Action/>
-</When>
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;Rules&gt;
+    &lt;Include name="" fatal="true|false"/&gt;
+    &lt;Group name="" enabled="true|false"&gt;
+        &lt;Rule name="" enabled="true|false"&gt;
+            &lt;Help/&gt;
+            &lt;Step/&gt;
+        &lt;/Rule&gt;
+    &lt;/Group&gt;
+&lt;/Rules&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;Step select="" fatal="true|false" sortType="first|max|min" sortValue="" sortDataType=""&gt;
+    &lt;UserInput/&gt;
+    &lt;Exists&gt;
+        &lt;When/&gt;
+        &lt;Otherwise/&gt;
+    &lt;/Exists&gt;
+    &lt;Otherwise/&gt;
+&lt;/Step&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;UserInput name="" expression=""&gt;
+    &lt;Description/&gt;
+&lt;/UserInput&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;When expression="" matchRE=""&gt;
+    &lt;Action/&gt;
+&lt;/When&gt;
 ...
-<Otherwise>
-    <Action/>
-</Otherwise>
+&lt;Otherwise&gt;
+    &lt;Action/&gt;
+&lt;/Otherwise&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;Variable name="" expression=""&gt;
+&lt;/Variable&gt;
 
-```
+&lt;Warning name=""&gt;
+&lt;/Warning&gt;
 
+&lt;Notify type="" code="" severity="" title=""&gt;
+&lt;/Notify&gt;
 
-
-```xml
-<Variable name="" expression="">
-</Variable>
-
-<Warning name="">
-</Warning>
-
-<Notify type="" code="" severity="" title="">
-</Notify>
-
-<Insert select="">
-    <Attribute name="" value=""/>
-    <Node axis=""/>
-</Insert>
-
-```
-
-
+&lt;Insert select=""&gt;
+    &lt;Attribute name="" value=""/&gt;
+    &lt;Node axis=""/&gt;
+&lt;/Insert&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

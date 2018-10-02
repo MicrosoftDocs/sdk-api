@@ -4,10 +4,10 @@ title: IMFSecureChannel
 author: windows-sdk-content
 description: Establishes a one-way secure channel between two objects.
 old-location: mf\imfsecurechannel.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 063170b8-9483-4acd-9b42-a226e9c38f0e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 063170b8-9483-4acd-9b42-a226e9c38f0e, IMFSecureChannel, IMFSecureChannel interface [Media Foundation], IMFSecureChannel interface [Media Foundation],described, mf.imfsecurechannel, mfidl/IMFSecureChannel
 ms.prod: windows
 ms.technology: windows-sdk

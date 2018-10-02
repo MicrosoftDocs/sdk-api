@@ -4,10 +4,10 @@ title: INetConnection::Duplicate
 author: windows-sdk-content
 description: The Duplicate method creates a duplicate of this connection in the connections folder.
 old-location: ics\inetconnection_duplicate.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 1196e66d-95c1-4417-ac0d-b84583879d6a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Duplicate, Duplicate method [ICS/ICF], Duplicate method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Duplicate method, INetConnection.Duplicate, INetConnection::Duplicate, _ics_inetconnection_duplicate, ics.inetconnection_duplicate, netcon/INetConnection::Duplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

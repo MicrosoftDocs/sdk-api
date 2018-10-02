@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getxaddrs.htm
 tech.root: WsdApi
 ms.assetid: a861374e-fee4-486b-8e23-f4a4a8203b28
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetXAddrs, GetXAddrs method, GetXAddrs method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetXAddrs method, IWSDiscoveredService.GetXAddrs, IWSDiscoveredService::GetXAddrs, ncd.iwsdiscoveredservice_getxaddrs, wsddisco/IWSDiscoveredService::GetXAddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices

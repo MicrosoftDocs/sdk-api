@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getproxyhostname.htm
 tech.root: wmformat
 ms.assetid: a7411ed6-90ee-450c-bb06-408469036d22
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetProxyHostName, GetProxyHostName method [windows Media Format], GetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyHostName method, IWMReaderNetworkConfig.GetProxyHostName, IWMReaderNetworkConfig::GetProxyHostName, IWMReaderNetworkConfigGetProxyHostName, wmformat.iwmreadernetworkconfig_getproxyhostname, wmsdkidl/IWMReaderNetworkConfig::GetProxyHostName
 ms.prod: windows-hardware
 ms.technology: windows-devices

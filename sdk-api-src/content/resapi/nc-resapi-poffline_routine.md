@@ -4,10 +4,10 @@ title: POFFLINE_ROUTINE
 author: windows-sdk-content
 description: Marks a resource as unavailable for use after cleanup processing is complete.
 old-location: mscs\offline.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Offline, Offline callback, Offline callback function [Failover Cluster], POFFLINE_ROUTINE, POFFLINE_ROUTINE callback function [Failover Cluster], _wolf_offline, mscs.offline, resapi/Offline, resapi/POFFLINE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ For effective implementation strategies of the <i>Offline</i>
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

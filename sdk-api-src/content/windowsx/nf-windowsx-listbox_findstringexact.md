@@ -4,10 +4,10 @@ title: ListBox_FindStringExact macro
 author: windows-sdk-content
 description: Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the LB_FINDSTRINGEXACT message explicitly.
 old-location: controls\ListBox_FindStringExact.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_findstringexact.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListBox_FindStringExact, ListBox_FindStringExact macro [Windows Controls], _win32_ListBox_FindStringExact, _win32_ListBox_FindStringExact_cpp, controls.ListBox_FindStringExact, controls._win32_ListBox_FindStringExact, windowsx/ListBox_FindStringExact
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775189(v=VS.85).aspx">LB_FINDSTRINGEXACT</a> message explicitly.
+Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the <a href="https://msdn.microsoft.com/9bfe21af-626d-4416-aa20-65c425bd99af">LB_FINDSTRINGEXACT</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ The string to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775189(v=VS.85).aspx">LB_FINDSTRINGEXACT</a>.
+For more information, see <a href="https://msdn.microsoft.com/9bfe21af-626d-4416-aa20-65c425bd99af">LB_FINDSTRINGEXACT</a>.
 	
 
 
@@ -94,7 +94,7 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb77
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb856431(v=VS.85).aspx">ListBox_FindString</a>
+<a href="https://msdn.microsoft.com/09597c05-4d30-422c-a60d-3da3c1712cbb">ListBox_FindString</a>
  
 
  

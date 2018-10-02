@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getrestriction.htm
 tech.root: SMI
 ms.assetid: 14bc4956-e8ea-464b-949e-ddc7ae445c1a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRestriction, GetRestriction method [SMI], GetRestriction method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestriction method, ISettingsItem.GetRestriction, ISettingsItem::GetRestriction, smi.isettingsitem_getrestriction, wcmconfig/ISettingsItem::GetRestriction
 ms.prod: windows-hardware
 ms.technology: windows-devices

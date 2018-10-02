@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_getstatus.htm
 tech.root: directmanipulation
 ms.assetid: 1c02b2b2-8291-4151-b9c9-d80bf71f5ef5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetStatus method, IDirectManipulationViewport.GetStatus, IDirectManipulationViewport::GetStatus, directmanipulation.idirectmanipulationviewport_getstatus, directmanipulation/IDirectManipulationViewport::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,15 +85,19 @@ This method will fail if called after <a href="https://msdn.microsoft.com/83d0bc
 
 The following example shows how to use this method.
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DIRECTMANIPULATION_STATUS status;
 
-```
-DIRECTMANIPULATION_STATUS status;
-
-HRESULT hr = pViewport->GetStatus(&status);
-
-```
-
-
+HRESULT hr = pViewport-&gt;GetStatus(&amp;status);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

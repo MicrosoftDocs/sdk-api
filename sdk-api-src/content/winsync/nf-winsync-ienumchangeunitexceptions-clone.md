@@ -7,7 +7,7 @@ old-location: winsync\ienumchangeunitexceptions_clone.htm
 tech.root: winsync
 ms.assetid: 8039d175-f0d9-44af-9571-e4f97b6cd43f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumChangeUnitExceptions interface, IEnumChangeUnitExceptions interface [Windows Sync],Clone method, IEnumChangeUnitExceptions.Clone, IEnumChangeUnitExceptions::Clone, winsync.ienumchangeunitexceptions_clone, winsync/IEnumChangeUnitExceptions::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

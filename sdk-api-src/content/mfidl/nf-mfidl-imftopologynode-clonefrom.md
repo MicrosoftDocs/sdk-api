@@ -4,10 +4,10 @@ title: IMFTopologyNode::CloneFrom
 author: windows-sdk-content
 description: Copies the data from another topology node into this node.
 old-location: mf\imftopologynode_clonefrom.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 90322fbc-e3de-4801-b10b-63ce538fc83f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 90322fbc-e3de-4801-b10b-63ce538fc83f, CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],CloneFrom method, IMFTopologyNode.CloneFrom, IMFTopologyNode::CloneFrom, mf.imftopologynode_clonefrom, mfidl/IMFTopologyNode::CloneFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices

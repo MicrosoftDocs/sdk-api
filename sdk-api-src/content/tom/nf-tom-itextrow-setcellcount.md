@@ -4,10 +4,10 @@ title: ITextRow::SetCellCount
 author: windows-sdk-content
 description: Sets the count of cells in a row.
 old-location: controls\itextrow_setcellcount.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: a2e1436a-ef36-41cd-9ea1-fb7abfad7631
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellCount method, ITextRow.SetCellCount, ITextRow::SetCellCount, SetCellCount, SetCellCount method [Windows Controls], SetCellCount method [Windows Controls],ITextRow interface, controls.itextrow_setcellcount, tom/ITextRow::SetCellCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

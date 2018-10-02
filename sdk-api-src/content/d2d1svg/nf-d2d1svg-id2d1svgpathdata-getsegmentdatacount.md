@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpathdata_getsegmentdatacount.htm
 tech.root: direct2d
 ms.assetid: 93D41E54-8D09-46E9-A83F-87C84F26B9C4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetSegmentDataCount, GetSegmentDataCount method [Direct2D], GetSegmentDataCount method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetSegmentDataCount method, ID2D1SvgPathData.GetSegmentDataCount, ID2D1SvgPathData::GetSegmentDataCount, d2d1svg/ID2D1SvgPathData::GetSegmentDataCount, direct2d.id2d1svgpathdata_getsegmentdatacount
 ms.prod: windows-hardware
 ms.technology: windows-devices

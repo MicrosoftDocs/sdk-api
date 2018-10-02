@@ -7,7 +7,7 @@ old-location: vhd\getvirtualdiskphysicalpath.htm
 tech.root: VStor
 ms.assetid: e17d9b37-c0fc-4513-a224-a918e679707d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetVirtualDiskPhysicalPath, GetVirtualDiskPhysicalPath function [VHD], vdssys/GetVirtualDiskPhysicalPath, vhd.getvirtualdiskphysicalpath, virtdisk/GetVirtualDiskPhysicalPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

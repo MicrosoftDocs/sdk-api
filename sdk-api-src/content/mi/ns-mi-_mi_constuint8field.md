@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constuint8field.htm
 tech.root: WMI_v2
 ms.assetid: 85168c29-5f9a-448c-b74c-1c072c4b4108
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ConstUint8Field, MI_ConstUint8Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstUint8Field, mi/MI_ConstUint8Field, wmi._mi_constuint8field, wmi_v2.mi_constuint8field
 ms.prod: windows
 ms.technology: windows-sdk

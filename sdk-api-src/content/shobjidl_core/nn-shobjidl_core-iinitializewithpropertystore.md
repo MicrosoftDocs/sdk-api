@@ -4,10 +4,10 @@ title: IInitializeWithPropertyStore
 author: windows-sdk-content
 description: Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a property store.
 old-location: shell\IInitializeWithPropertyStore.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: da8592a9-7727-433f-ac92-abf22a735eb2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IInitializeWithPropertyStore, IInitializeWithPropertyStore interface [Windows Shell], IInitializeWithPropertyStore interface [Windows Shell],described, _shell_IInitializeWithPropertyStore, shell.IInitializeWithPropertyStore, shobjidl_core/IInitializeWithPropertyStore
 ms.prod: windows
 ms.technology: windows-sdk

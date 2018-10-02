@@ -4,10 +4,10 @@ title: IPV6_LOCAL_BINDING
 author: windows-sdk-content
 description: The IPV6_LOCAL_BINDING structure contains IPv6 address information for an adapter.
 old-location: rras\ipv6_local_binding.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: c698fa3b-04d5-4401-9ab3-a200211cff24
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING structure [RAS], PIPV6_LOCAL_BINDING, PIPV6_LOCAL_BINDING structure pointer [RAS], routprot/IPV6_LOCAL_BINDING, routprot/PIPV6_LOCAL_BINDING, rras.ipv6_local_binding"
 ms.prod: windows
 ms.technology: windows-sdk

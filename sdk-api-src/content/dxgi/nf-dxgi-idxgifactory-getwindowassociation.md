@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_getwindowassociation.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_getwindowassociation.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetWindowAssociation, GetWindowAssociation method [DXGI], GetWindowAssociation method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],GetWindowAssociation method, IDXGIFactory.GetWindowAssociation, IDXGIFactory::GetWindowAssociation, b199d248-a0a8-e257-1b89-68baeb809572, direct3ddxgi.idxgifactory_getwindowassociation, dxgi/IDXGIFactory::GetWindowAssociation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,9 @@ A pointer to a window handle.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns a code that indicates success or failure. <b>S_OK</b> indicates success, <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> indicates <i>pWindowHandle</i> was passed in as <b>NULL</b>.
+Returns a code that indicates success or failure. <b>S_OK</b> indicates success, <a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> indicates <i>pWindowHandle</i> was passed in as <b>NULL</b>.
 
 
 
@@ -81,7 +81,7 @@ Returns a code that indicates success or failure. <b>S_OK</b> indicates success,
 
 
 
-<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
+<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
 
 
@@ -95,7 +95,7 @@ Returns a code that indicates success or failure. <b>S_OK</b> indicates success,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>
+<a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>
  
 
  

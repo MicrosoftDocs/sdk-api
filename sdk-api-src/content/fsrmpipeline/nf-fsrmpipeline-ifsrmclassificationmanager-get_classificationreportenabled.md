@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::get_ClassificationReportEnabled
 author: windows-sdk-content
 description: Determines whether classification reporting is enabled or not.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportenabled.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: a19a82fd-f00c-4663-b305-2cdc3bc863bd
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: ClassificationReportEnabled property [File Server Resource Manager], ClassificationReportEnabled property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportEnabled property [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportEnabled property, IFsrmClassificationManager.ClassificationReportEnabled, IFsrmClassificationManager.get_ClassificationReportEnabled, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportEnabled property, IFsrmClassificationManager2.ClassificationReportEnabled, IFsrmClassificationManager2::get_ClassificationReportEnabled, IFsrmClassificationManager2::put_ClassificationReportEnabled, IFsrmClassificationManager::ClassificationReportEnabled, IFsrmClassificationManager::get_ClassificationReportEnabled, IFsrmClassificationManager::put_ClassificationReportEnabled, fs.ifsrmclassificationmanager_classificationreportenabled, fsrm.ifsrmclassificationmanager_classificationreportenabled, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportEnabled, get_ClassificationReportEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadsextension_operate.htm
 tech.root: ADSI
 ms.assetid: c3cab311-6717-4d95-ad46-9da6047f84b8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADS_EXT_INITCREDENTIALS, IADsExtension interface [ADSI],Operate method, IADsExtension.Operate, IADsExtension::Operate, Operate, Operate method [ADSI], Operate method [ADSI],IADsExtension interface, _ds_iadsextension_operate, adsi.iadsextension__operate, adsi.iadsextension_operate, iads/IADsExtension::Operate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,9 +106,13 @@ The aggregator will ignore the <b>E_FAIL</b> and <b>E_NOTIMPL</b> return values.
 
 The following C/C++ code example shows a generic implementation.
 
-
-```cpp
-STDMETHOD(Operate)(ULONG dwCode, VARIANT varData1, VARIANT varData2, VARIANT varData3)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHOD(Operate)(ULONG dwCode, VARIANT varData1, VARIANT varData2, VARIANT varData3)
 {
    HRESULT hr = S_OK;
    switch (dwCode) 
@@ -123,10 +127,10 @@ STDMETHOD(Operate)(ULONG dwCode, VARIANT varData1, VARIANT varData2, VARIANT var
       break;
     }        
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

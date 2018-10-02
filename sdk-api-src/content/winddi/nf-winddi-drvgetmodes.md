@@ -4,10 +4,10 @@ title: DrvGetModes function
 author: windows-sdk-content
 description: The DrvGetModes function lists the modes supported by a given device.
 old-location: display\drvgetmodes.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 55ca7733-184a-4bc0-8e91-b5899073bca7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DrvGetModes, DrvGetModes function [Display Devices], ddifncs_2dfdc736-13de-4235-8be3-946e0cb1ed44.xml, display.drvgetmodes, winddi/DrvGetModes
 ms.prod: windows-hardware
 ms.technology: windows-devices

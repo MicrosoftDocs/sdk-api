@@ -7,7 +7,7 @@ old-location: base\ivdslunmpio.htm
 tech.root: VDS
 ms.assetid: 0c7ab50a-306e-44f8-976d-0e65e36b0fea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VDS],described, base.ivdslunmpio, vds/IVdsLunMpio, vdshwprv/IVdsLunMpio
 ms.prod: windows
 ms.technology: windows-sdk

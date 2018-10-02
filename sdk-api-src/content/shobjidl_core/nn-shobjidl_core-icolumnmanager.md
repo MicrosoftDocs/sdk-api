@@ -4,10 +4,10 @@ title: IColumnManager
 author: windows-sdk-content
 description: Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a PROPERTYKEY structure, which names a property.
 old-location: shell\IColumnManager.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d01cacd8-1867-4f44-bbc3-876bd727c0fe
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IColumnManager, IColumnManager interface [Windows Shell], IColumnManager interface [Windows Shell],described, shell.IColumnManager, shell_IColumnManager, shobjidl_core/IColumnManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,7 +122,7 @@ Sets the collection of columns for the view to display.
 
 This interface can be accessed even when the Windows Explorer window is in a non-column view mode such as icons, thumbnails, or tiles. It affects those views, as well as views in which the column header control displays the set of columns to which <b>IColumnManager</b> provides access.
 
-The default implementation of the Windows Explorer view object, created by <a href="https://msdn.microsoft.com/7edd6786-7d74-4065-8cf1-cbb489007a46">SHCreateShellFolderViewEx</a>, supports this interface retrieved through <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>. Code that runs in the Windows Explorer (such as view callbacks, context menus or drop targets) can access the view object using <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">IServiceProvider::QueryService</a>, querying for <b>SID_SFolderView</b>.
+The default implementation of the Windows Explorer view object, created by <a href="https://msdn.microsoft.com/7edd6786-7d74-4065-8cf1-cbb489007a46">SHCreateShellFolderViewEx</a>, supports this interface retrieved through <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>. Code that runs in the Windows Explorer (such as view callbacks, context menus or drop targets) can access the view object using <a href="_inet_IServiceProvider_QueryService_Method">IServiceProvider::QueryService</a>, querying for <b>SID_SFolderView</b>.
 
 
 

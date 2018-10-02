@@ -7,7 +7,7 @@ old-location: opengl\wglusefontoutlines.htm
 tech.root: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "_ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -164,13 +164,17 @@ Each display list consists of either line segments or polygons, and has a unique
 
 The <b>wglUseFontOutlines</b> function approximates glyph outlines by subdividing the quadratic B-spline curves of the outline into line segments, until the distance between the outline and the interpolated midpoint is within the value specified by <i>deviation</i>. This is the final format used when <i>format</i> is WGL_FONT_LINES. When you specify WGL_FONT_OUTLINES, the display lists created don't contain any normals; thus lighting doesn't work properly. To get the correct lighting of lines use WGL_FONT_POLYGONS and set <b>glPolygonMode</b>( GL_FRONT, GL_LINE ). When you specify <i>format</i> as WGL_FONT_POLYGONS the outlines are further tessellated into separate triangles, triangle fans, triangle strips, or quadrilateral strips to create the surface of each glyph. With WGL_FONT_POLYGONS, the created display lists call <b>glFrontFace</b>( GL_CW ) or <b>glFrontFace</b>( GL_CCW ); thus the current front-face value might be altered. For the best appearance of text with WGL_FONT_POLYGONS, cull the back faces as follows:
 
-
-```cpp
-glCullFace(GL_BACK); 
-glEnable(GL_CULL_FACE);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>glCullFace(GL_BACK); 
+glEnable(GL_CULL_FACE);</pre>
+</td>
+</tr>
+</table></span></div>
 A <b>GLYPHMETRICSFLOAT</b> structure contains information about the placement and orientation of each glyph in a character cell. The <i>lpgmf</i> parameter is an array of <b>GLYPHMETRICSFLOAT</b> structures holding the entire set of glyphs for a font. Each display list ends with a translation specified with the <b>gmfCellIncX</b> and <b>gmfCellIncY</b> members of the corresponding <b>GLYPHMETRICSFLOAT</b> structure. The translation enables the drawing of successive characters in their natural direction with a single call to <a href="https://msdn.microsoft.com/7c0a00df-91ee-44ad-9e02-97c1b078e87f">glCallLists</a>.
 
 <div class="alert"><b>Note</b>  With OpenGL for Windows, you cannot make GDI calls to a device context when a pixel format is double-buffered. You can work around this limitation by using <b>wglUseFontOutlines</b> and <a href="https://msdn.microsoft.com/c671965c-9b9d-4206-b467-4884ffd351eb">wglUseFontBitmaps</a>, when using double-buffered device contexts.</div>
@@ -180,9 +184,13 @@ A <b>GLYPHMETRICSFLOAT</b> structure contains information about the placement an
 
 The following code example shows how to draw text using <b>wglUseFontOutlines</b>.
 
-
-```cpp
-HDC    hdc;  // A TrueType font has already been selected  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HDC    hdc;  // A TrueType font has already been selected  
 HGLRC  hglrc; 
 GLYPHMETRICSFLOAT agmf[256]; 
  
@@ -193,7 +201,7 @@ wglMakeCurrent(hdc, hglrc);
 // and default deviation. The display list numbering starts at 1000  
 // (it could be any number)  
 wglUseFontOutlines(hdc, 0, 255, 1000, 0.0f, 0.1f,  
-            WGL_FONT_POLYGONS, &agmf); 
+            WGL_FONT_POLYGONS, &amp;agmf); 
  
 // Set up transformation to draw the string  
 glLoadIdentity(); 
@@ -203,10 +211,10 @@ glScalef(2.0f, 2.0f, 2.0f);
 // Display a string  
 glListBase(1000); // Indicates the start of display lists for the glyphs  
 // Draw the characters in a string  
-glCallLists(24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World.");
-```
-
-
+glCallLists(24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World.");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

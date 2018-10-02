@@ -7,7 +7,7 @@ old-location: fs\storage_protocol_command.htm
 tech.root: fileio
 ms.assetid: A2F61F18-A5DE-41D5-95D6-E341009484FF
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Files], STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Files], _STORAGE_PROTOCOL_COMMAND, fs.storage_protocol_command, winioctl/PSTORAGE_PROTOCOL_COMMAND, winioctl/STORAGE_PROTOCOL_COMMAND"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_oif_stats.htm
 tech.root: MIB
 ms.assetid: 0d1a2396-883b-4ca5-b8a0-11a3d3575a61
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_IPMCAST_OIF_STATS, *PMIB_IPMCAST_OIF_STATS_LH, MIB_IPMCAST_OIF_STATS, MIB_IPMCAST_OIF_STATS structure [MIB], MIB_IPMCAST_OIF_STATS_LH, PMIB_IPMCAST_OIF_STATS, PMIB_IPMCAST_OIF_STATS structure pointer [MIB], _MIB_IPMCAST_OIF_STATS_LH, _mpr_mib_ipmcast_oif_stats, ipmib/MIB_IPMCAST_OIF_STATS, ipmib/PMIB_IPMCAST_OIF_STATS, iprtrmib/MIB_IPMCAST_OIF_STATS, iprtrmib/PMIB_IPMCAST_OIF_STATS, mib.mib_ipmcast_oif_stats, rras.mib_ipmcast_oif_stats"
 ms.prod: windows
 ms.technology: windows-sdk

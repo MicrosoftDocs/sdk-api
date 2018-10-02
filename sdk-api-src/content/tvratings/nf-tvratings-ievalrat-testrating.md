@@ -7,7 +7,7 @@ old-location: mstv\ievalrat_testrating.htm
 tech.root: MSTV
 ms.assetid: 26144496-200c-49b8-9f5e-23a39fea20bc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],TestRating method, IEvalRat.TestRating, IEvalRat::TestRating, IEvalRatTestRating, TestRating, TestRating method [Microsoft TV Technologies], TestRating method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_testrating, tvratings/IEvalRat::TestRating
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,11 +142,15 @@ Use a bitwise <b>AND</b> to test the bitmask. If neither test is true, return S_
 
 The following code shows a possible implementation. It assumes that the object stores the bitmasks in a two-dimensional array named Mask:
 
-
-```cpp
-
-if ((0 != Mask[system][level] & BfIsBlocked) || 
-    (0 != Mask[system][level] & attributes))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+if ((0 != Mask[system][level] &amp; BfIsBlocked) || 
+    (0 != Mask[system][level] &amp; attributes))
 {
     return S_FALSE; // Blocked.
 }
@@ -154,10 +158,10 @@ else
 {
     return S_OK; // Not blocked.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

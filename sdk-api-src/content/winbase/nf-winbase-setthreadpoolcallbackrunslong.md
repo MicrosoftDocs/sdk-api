@@ -4,10 +4,10 @@ title: SetThreadpoolCallbackRunsLong function
 author: windows-sdk-content
 description: Indicates that callbacks associated with this callback environment may not return quickly.
 old-location: base\setthreadpoolcallbackrunslong.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 19ca0501-02d8-4851-8015-65e53d6f8074
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: SetThreadpoolCallbackRunsLong, SetThreadpoolCallbackRunsLong function, base.setthreadpoolcallbackrunslong, winbase/SetThreadpoolCallbackRunsLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

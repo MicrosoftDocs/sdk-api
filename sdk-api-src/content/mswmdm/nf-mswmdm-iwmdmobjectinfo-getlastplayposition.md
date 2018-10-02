@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmobjectinfo_getlastplayposition.htm
 tech.root: WMDM
 ms.assetid: d5b5cf7c-6969-497e-bf2c-e91ddb85f701
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetLastPlayPosition, GetLastPlayPosition method [windows Media Device Manager], GetLastPlayPosition method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetLastPlayPosition method, IWMDMObjectInfo.GetLastPlayPosition, IWMDMObjectInfo::GetLastPlayPosition, IWMDMObjectInfoGetLastPlayPosition, mswmdm/IWMDMObjectInfo::GetLastPlayPosition, wmdm.iwmdmobjectinfo_getlastplayposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

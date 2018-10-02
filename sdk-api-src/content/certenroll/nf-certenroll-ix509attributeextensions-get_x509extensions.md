@@ -4,10 +4,10 @@ title: IX509AttributeExtensions::get_X509Extensions
 author: windows-sdk-content
 description: Retrieves the certificate extensions.
 old-location: security\ix509attributeextensions_x509extensions_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 719c4ac5-8d67-4026-9eb6-9682942ad367
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509AttributeExtensions interface [Security],X509Extensions property, IX509AttributeExtensions.X509Extensions, IX509AttributeExtensions.get_X509Extensions, IX509AttributeExtensions::X509Extensions, IX509AttributeExtensions::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::X509Extensions, certenroll/IX509AttributeExtensions::get_X509Extensions, get_X509Extensions, security.ix509attributeextensions_x509extensions_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377092(v=VS.85).aspx">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/en-us/library/Aa377091(v=VS.85).aspx">InitializeDecode</a> method to initialize the <b>X509Extensions</b> property.
+Call the <a href="https://msdn.microsoft.com/f5b6f0b9-ca49-42f2-842c-34c2445c3824">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/194f8556-9e26-4fae-ac2b-6c3f07cb22c8">InitializeDecode</a> method to initialize the <b>X509Extensions</b> property.
 
 
 
@@ -73,15 +73,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377092(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377090(v=VS.85).aspx">IX509AttributeExtensions</a>
+<a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

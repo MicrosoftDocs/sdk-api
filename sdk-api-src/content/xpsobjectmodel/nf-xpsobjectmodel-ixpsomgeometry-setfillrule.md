@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometry_setfillrule.htm
 tech.root: printdocs
 ms.assetid: e219a505-48e0-46b0-a739-d46fb898bc58
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetFillRule method, IXpsOMGeometry.SetFillRule, IXpsOMGeometry::SetFillRule, SetFillRule, SetFillRule method [XPS Documents and Packaging], SetFillRule method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_setfillrule, xpsobjectmodel/IXpsOMGeometry::SetFillRule
 ms.prod: windows-hardware
 ms.technology: windows-devices

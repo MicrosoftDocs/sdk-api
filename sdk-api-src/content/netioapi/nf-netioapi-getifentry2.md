@@ -7,7 +7,7 @@ old-location: iphlp\getifentry2.htm
 tech.root: IpHlp
 ms.assetid: da787dae-5e89-4bf2-a9b6-90e727995414
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetIfEntry2, GetIfEntry2 function [IP Helper], iphlp.getifentry2, netioapi/GetIfEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,9 +139,13 @@ Note that the <i>Netioapi.h</i> header file is automatically included in <i>Iphl
 
 The following example retrieves a interface entry specified on the command line and prints some values from the retrieved <a href="https://msdn.microsoft.com/e8bb79f9-e7e9-470b-8883-36d08061661b">MIB_IF_ROW2</a> structure.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
@@ -149,16 +153,16 @@ The following example retrieves a interface entry specified on the command line 
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include <Windows.h>
+#include &lt;Windows.h&gt;
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
 
-#include <objbase.h>
-#include <wtypes.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;objbase.h&gt;
+#include &lt;wtypes.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 // Need to link with Iphlpapi.lib
 #pragma comment(lib, "iphlpapi.lib")
@@ -179,13 +183,13 @@ int __cdecl wmain(int argc, WCHAR ** argv)
     MIB_IF_ROW2 ifRow;
 
     // Make sure the ifRow is zeroed out
-    SecureZeroMemory((PVOID) &ifRow, sizeof(MIB_IF_ROW2) );
+    SecureZeroMemory((PVOID) &amp;ifRow, sizeof(MIB_IF_ROW2) );
 
     // Zero out the MIB_IF_ROW2 struct
 
     // Validate the parameters
-    if (argc < 2) {
-        wprintf(L"usage: %s <InterfaceIndex>\n", argv[0]);
+    if (argc &lt; 2) {
+        wprintf(L"usage: %s &lt;InterfaceIndex&gt;\n", argv[0]);
         wprintf(L"   Gets the Interface Entry for an interface Index,\n");
         wprintf(L"Example to get the interface at interface index=6\n");
         wprintf(L"       %s 6\n", argv[0]);
@@ -196,7 +200,7 @@ int __cdecl wmain(int argc, WCHAR ** argv)
 
     ifRow.InterfaceIndex = ifIndex;
 
-    retVal = GetIfEntry2(&ifRow);
+    retVal = GetIfEntry2(&amp;ifRow);
 
     if (retVal != NO_ERROR) {
         wprintf(L"GetIfEntry returned error: %lu\n", retVal);
@@ -205,7 +209,7 @@ int __cdecl wmain(int argc, WCHAR ** argv)
     else
         wprintf(L"GetIfEntry2 function returned okay\n");
     
-    PrintIfEntry2(&ifRow);
+    PrintIfEntry2(&amp;ifRow);
 
     exit(0);
 }
@@ -219,43 +223,43 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
 
     unsigned int j;
 
-    wprintf(L"\tInterfaceIndex:\t %lu\n", pIfRow->InterfaceIndex);
+    wprintf(L"\tInterfaceIndex:\t %lu\n", pIfRow-&gt;InterfaceIndex);
 
-    iRet = StringFromGUID2(pIfRow->InterfaceGuid, (LPOLESTR) & GuidString, 39);
+    iRet = StringFromGUID2(pIfRow-&gt;InterfaceGuid, (LPOLESTR) &amp; GuidString, 39);
     // For c rather than C++ source code, the above line needs to be
-    // iRet = StringFromGUID2(&pIfRow->InterfaceGuid, (LPOLESTR) &GuidString, 39); 
+    // iRet = StringFromGUID2(&amp;pIfRow-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 39); 
     if (iRet == 0)
         wprintf(L"StringFromGUID2 failed\n");
     else {
         wprintf(L"\tInterfaceGUID:   %ws\n", GuidString);
     }
 
-    wprintf(L"\tAlias:\t\t %ws", pIfRow->Alias);
+    wprintf(L"\tAlias:\t\t %ws", pIfRow-&gt;Alias);
     wprintf(L"\n");
-    wprintf(L"\tDescription:\t %ws", pIfRow->Description);
+    wprintf(L"\tDescription:\t %ws", pIfRow-&gt;Description);
     wprintf(L"\n");
     wprintf(L"\tPhysical Address:\t    ");
-    if (pIfRow->PhysicalAddressLength == 0)
+    if (pIfRow-&gt;PhysicalAddressLength == 0)
         wprintf(L"\n");
-    for (j = 0; j < (int) pIfRow->PhysicalAddressLength; j++) {
-        if (j == (pIfRow->PhysicalAddressLength - 1))
-            wprintf(L"%.2X\n", (int) pIfRow->PhysicalAddress[j]);
+    for (j = 0; j &lt; (int) pIfRow-&gt;PhysicalAddressLength; j++) {
+        if (j == (pIfRow-&gt;PhysicalAddressLength - 1))
+            wprintf(L"%.2X\n", (int) pIfRow-&gt;PhysicalAddress[j]);
         else
-            wprintf(L"%.2X-", (int) pIfRow->PhysicalAddress[j]);
+            wprintf(L"%.2X-", (int) pIfRow-&gt;PhysicalAddress[j]);
     }
     wprintf(L"\tPermanent Physical Address: ");
-    if (pIfRow->PhysicalAddressLength == 0)
+    if (pIfRow-&gt;PhysicalAddressLength == 0)
         wprintf(L"\n");
-    for (j = 0; j < (int) pIfRow->PhysicalAddressLength; j++) {
-        if (j == (pIfRow->PhysicalAddressLength - 1))
-            wprintf(L"%.2X\n", (int) pIfRow->PermanentPhysicalAddress[j]);
+    for (j = 0; j &lt; (int) pIfRow-&gt;PhysicalAddressLength; j++) {
+        if (j == (pIfRow-&gt;PhysicalAddressLength - 1))
+            wprintf(L"%.2X\n", (int) pIfRow-&gt;PermanentPhysicalAddress[j]);
         else
-            wprintf(L"%.2X-", (int) pIfRow->PermanentPhysicalAddress[j]);
+            wprintf(L"%.2X-", (int) pIfRow-&gt;PermanentPhysicalAddress[j]);
     }
-    wprintf(L"\tMtu:\t\t %lu\n", pIfRow->Mtu);
+    wprintf(L"\tMtu:\t\t %lu\n", pIfRow-&gt;Mtu);
 
     wprintf(L"\tType:\t\t ");
-    switch (pIfRow->Type) {
+    switch (pIfRow-&gt;Type) {
     case IF_TYPE_OTHER:
         wprintf(L"Other\n");
         break;
@@ -284,12 +288,12 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
         wprintf(L"IEEE 1394 Firewire\n");
         break;
     default:
-        wprintf(L"Unknown type %ld\n", pIfRow->Type);
+        wprintf(L"Unknown type %ld\n", pIfRow-&gt;Type);
         break;
     }
 
     wprintf(L"\tTunnel Type:\t ");
-    switch (pIfRow->TunnelType) {
+    switch (pIfRow-&gt;TunnelType) {
     case TUNNEL_TYPE_NONE:
         wprintf(L"Not a tunnel\n");
         break;
@@ -311,12 +315,12 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
         wprintf(L"Teredo encapsulation\n");
         break;
     default:
-        wprintf(L"Unknown tunnel type %ld\n", pIfRow->TunnelType);
+        wprintf(L"Unknown tunnel type %ld\n", pIfRow-&gt;TunnelType);
         break;
     }
 
     wprintf(L"\tNDIS Media Type:\t ");
-    switch (pIfRow->MediaType) {
+    switch (pIfRow-&gt;MediaType) {
     case NdisMedium802_3:
         wprintf(L"Ethernet (802.3)\n");
         break;
@@ -372,12 +376,12 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
         wprintf(L"NDIS loopback \n");
         break;
     default:
-        wprintf(L"Unknown media type %ld\n", pIfRow->MediaType);
+        wprintf(L"Unknown media type %ld\n", pIfRow-&gt;MediaType);
         break;
     }
 
     printf("\tAdministrative Status:\t ");
-    switch (pIfRow->AdminStatus) {
+    switch (pIfRow-&gt;AdminStatus) {
     case NET_IF_ADMIN_STATUS_UP:
         wprintf(L"Interface up and enabled\n");
         break;
@@ -388,12 +392,12 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
         wprintf(L"Interafce in test mode\n");
         break;
     default:
-        wprintf(L"Unknown status %ld\n", pIfRow->AdminStatus);
+        wprintf(L"Unknown status %ld\n", pIfRow-&gt;AdminStatus);
         break;
     }
 
     printf("\tMedia connection state:\t ");
-    switch (pIfRow->MediaConnectState) {
+    switch (pIfRow-&gt;MediaConnectState) {
     case MediaConnectStateUnknown:
         wprintf(L"Interface state is unknown\n");
         break;
@@ -404,18 +408,18 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
         wprintf(L"Disconnected\n");
         break;
     default:
-        wprintf(L"Unknown state %ld\n", pIfRow->MediaConnectState);
+        wprintf(L"Unknown state %ld\n", pIfRow-&gt;MediaConnectState);
         break;
     }
 
-    wprintf(L"\tTransmit link speed:\t %I64u\n", pIfRow->TransmitLinkSpeed);
-    wprintf(L"\tReceive link speed:\t %I64u\n", pIfRow->ReceiveLinkSpeed);
+    wprintf(L"\tTransmit link speed:\t %I64u\n", pIfRow-&gt;TransmitLinkSpeed);
+    wprintf(L"\tReceive link speed:\t %I64u\n", pIfRow-&gt;ReceiveLinkSpeed);
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

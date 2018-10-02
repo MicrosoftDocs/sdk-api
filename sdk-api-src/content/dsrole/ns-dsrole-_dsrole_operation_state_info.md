@@ -4,10 +4,10 @@ title: "_DSROLE_OPERATION_STATE_INFO"
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain the operational state data for a computer.
 old-location: ad\dsrole_operation_state_info.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: c6c8e510-190a-47ad-805c-b8d3fbee836d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO structure [Active Directory], _DSROLE_OPERATION_STATE_INFO, ad.dsrole_operation_state_info, dsrole/DSROLE_OPERATION_STATE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

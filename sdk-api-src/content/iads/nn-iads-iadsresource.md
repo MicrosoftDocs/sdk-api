@@ -7,7 +7,7 @@ old-location: adsi\iadsresource.htm
 tech.root: ADSI
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IADsResource</b> interface is a dual interface that inherits from  <a hre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsResource</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsResource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsResource</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsResource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -314,9 +314,13 @@ When a remote user opens a folder or a subfolder on a public share point on the 
 
 The following code example shows how to obtain the collection of resource objects from a file service operations object.
 
-
-```vb
-Dim fso as IADsFileServiceOperations
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso as IADsFileServiceOperations
 Dim rs as IADsCollection
 On Error GoTo Cleanup
 
@@ -324,14 +328,14 @@ Set fso = GetObject("WinNT://myHost/LanmanServer")
 Set rs = fso.Resources
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set rso = Nothing
     Set rs = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

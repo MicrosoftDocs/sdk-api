@@ -7,7 +7,7 @@ old-location: etw\event_trace.htm
 tech.root: ETW
 ms.assetid: d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PEVENT_TRACE, EVENT_TRACE, EVENT_TRACE structure [ETW], PEVENT_TRACE, PEVENT_TRACE structure pointer [ETW], _EVENT_TRACE, _evt_event_trace, base.event_trace, etw.event_trace, evntrace/EVENT_TRACE, evntrace/PEVENT_TRACE"
 ms.prod: windows
 ms.technology: windows-sdk

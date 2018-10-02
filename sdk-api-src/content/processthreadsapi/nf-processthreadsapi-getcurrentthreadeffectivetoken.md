@@ -4,10 +4,10 @@ title: GetCurrentThreadEffectiveToken function
 author: windows-sdk-content
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the token that is currently in effect for the thread, which is the thread token if one exists and the process token otherwise.
 old-location: security\getcurrentthreadeffectivetoken.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 794E9086-17E7-4520-AB30-63DF00FF7AA4
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetCurrentThreadEffectiveToken, GetCurrentThreadEffectiveToken function [Security], processthreadsapi/GetCurrentThreadEffectiveToken, security.getcurrentthreadeffectivetoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

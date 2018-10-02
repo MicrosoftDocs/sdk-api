@@ -4,10 +4,10 @@ title: IDelegateFolder
 author: windows-sdk-content
 description: Exposes a method through which a delegate folder is given the IMalloc interface required to allocate and free item IDs.
 old-location: shell\IDelegateFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 16db01f3-4167-43f0-9ef7-34eec906e199
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IDelegateFolder, IDelegateFolder interface [Windows Shell], IDelegateFolder interface [Windows Shell],described, shell.IDelegateFolder, shell_IDelegateFolder, shobjidl_core/IDelegateFolder
 ms.prod: windows
 ms.technology: windows-sdk

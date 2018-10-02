@@ -4,10 +4,10 @@ title: SymGetSymNext function
 author: windows-sdk-content
 description: Retrieves the symbol information for the next symbol.
 old-location: base\symgetsymnext64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e58f21b9-c2fc-48f6-af45-3c9ec42809c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymGetSymNext, SymGetSymNext function, SymGetSymNext64, SymGetSymNext64 function, _win32_symgetsymnext64, base.symgetsymnext64, dbghelp/SymGetSymNext, dbghelp/SymGetSymNext64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,23 +98,31 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define <b>DBGHELP_TRANSLATE_TCHAR</b>. <b>SymGetSymNextW64</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-BOOL
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
 IMAGEAPI
 SymGetSymNextW64(
     __in HANDLE hProcess,
     __inout PIMAGEHLP_SYMBOLW64 Symbol
-    );
-```
-
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymGetSymNext</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetSymNext</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymGetSymNext SymGetSymNext64
 #define SymGetSymNextW SymGetSymNextW64
 #else
@@ -131,10 +139,10 @@ SymGetSymNextW(
     __in HANDLE hProcess,
     __inout PIMAGEHLP_SYMBOLW Symbol
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

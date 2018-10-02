@@ -7,7 +7,7 @@ old-location: mstv\iisdbdatacontentdescriptor_getselectorbytes.htm
 tech.root: MSTV
 ms.assetid: b02c315e-322d-478e-8be1-c833df49ed56
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetSelectorBytes, GetSelectorBytes method [Microsoft TV Technologies], GetSelectorBytes method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorBytes method, IIsdbDataContentDescriptor.GetSelectorBytes, IIsdbDataContentDescriptor::GetSelectorBytes, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorBytes, mstv.iisdbdatacontentdescriptor_getselectorbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getparentclassname.htm
 tech.root: WMI_v2
 ms.assetid: a7e183f1-1136-46e0-a53d-39d06767e380
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Class_GetParentClassName, MI_Class_GetParentClassName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetParentClassName, wmi_v2.mi_class_getparentclassname
 ms.prod: windows-hardware
 ms.technology: windows-devices

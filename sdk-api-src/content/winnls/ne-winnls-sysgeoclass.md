@@ -7,7 +7,7 @@ old-location: intl\sysgeoclass.htm
 tech.root: Intl
 ms.assetid: 27c2dec7-b5e7-47b7-8ce2-8dba3d0916bf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GEOCLASS_ALL, GEOCLASS_NATION, GEOCLASS_REGION, SYSGEOCLASS, SYSGEOCLASS enumeration [Internationalization for Windows Applications], _win32_SYSGEOCLASS, intl.sysgeoclass, winnls/GEOCLASS_ALL, winnls/GEOCLASS_NATION, winnls/GEOCLASS_REGION, winnls/SYSGEOCLASS
 ms.prod: windows
 ms.technology: windows-sdk

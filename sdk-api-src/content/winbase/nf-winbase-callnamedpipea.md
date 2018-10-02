@@ -7,7 +7,7 @@ old-location: base\callnamedpipe.htm
 tech.root: ipc
 ms.assetid: 9cfcb608-a539-4eb6-866c-81dafdabbcdb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CallNamedPipe, CallNamedPipe function, CallNamedPipeA, CallNamedPipeW, NMPWAIT_NOWAIT, NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, _win32_callnamedpipe, base.callnamedpipe, winbase/CallNamedPipe, winbase/CallNamedPipeA, winbase/CallNamedPipeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,7 +161,7 @@ If the message written to the pipe by the server process is longer than <i>nOutB
 
 
 
-Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> (or <a href="https://msdn.microsoft.com/cbb2300b-5d5f-4a7b-994b-63b747e9ccfc">WaitNamedPipe</a>, if <b>CreateFile</b> cannot open the pipe immediately), <a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>, and <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> functions. <b>CreateFile</b> is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of <b>FALSE</b>.
+Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="base.createfile">CreateFile</a> (or <a href="https://msdn.microsoft.com/cbb2300b-5d5f-4a7b-994b-63b747e9ccfc">WaitNamedPipe</a>, if <b>CreateFile</b> cannot open the pipe immediately), <a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>, and <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> functions. <b>CreateFile</b> is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of <b>FALSE</b>.
 
 <b>CallNamedPipe</b> fails if the pipe is a byte-type pipe.
 
@@ -186,7 +186,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

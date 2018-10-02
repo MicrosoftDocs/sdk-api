@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontlist1_getfont.htm
 tech.root: DirectWrite
 ms.assetid: 206A103C-5847-4388-83EC-BE038DB20A09
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetFont, GetFont method [Direct Write], GetFont method [Direct Write],IDWriteFontList1 interface, IDWriteFontList1 interface [Direct Write],GetFont method, IDWriteFontList1.GetFont, IDWriteFontList1::GetFont, directwrite.idwritefontlist1_getfont, dwrite_3/IDWriteFontList1::GetFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

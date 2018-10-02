@@ -4,10 +4,10 @@ title: D3D11_VIDEO_COLOR
 author: windows-sdk-content
 description: Defines a color value for Microsoft Direct3D 11 video.
 old-location: mf\d3d11_video_color.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: F8E070EE-F8F6-4AAF-9A8A-6D0AF6B857B5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_VIDEO_COLOR, D3D11_VIDEO_COLOR structure [Media Foundation], d3d11/D3D11_VIDEO_COLOR, mf.d3d11_video_color
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,14 @@ Defines a color value for Microsoft Direct3D 11 video.
 
 ### -field YCbCr
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh447639(v=VS.85).aspx">D3D11_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
+A <a href="https://msdn.microsoft.com/242D6032-62E5-4915-B074-6E595A12F912">D3D11_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
 
 
 
 
 ### -field RGBA
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh447638(v=VS.85).aspx">D3D11_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
+A <a href="https://msdn.microsoft.com/DDD587DC-BB17-407D-9E9E-47015950A504">D3D11_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
 
 
 
@@ -88,11 +88,11 @@ The anonymous union can represent both RGB and YCbCr colors. The interpretation 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530104(v=VS.85).aspx">About YUV Video</a>
+<a href="https://msdn.microsoft.com/089f42f2-1e5b-4d4b-98a4-9ef0ca2823c1">About YUV Video</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicprogressivelevelcontrol_setcurrentlevel.htm
 tech.root: wic
 ms.assetid: b4a2c279-385d-4177-bd8f-a49f545c692a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWICProgressiveLevelControl interface [Windows Imaging Component],SetCurrentLevel method, IWICProgressiveLevelControl.SetCurrentLevel, IWICProgressiveLevelControl::SetCurrentLevel, SetCurrentLevel, SetCurrentLevel method [Windows Imaging Component], SetCurrentLevel method [Windows Imaging Component],IWICProgressiveLevelControl interface, _wic_codec_iwicprogressivelevelcontrol_setcurrentlevel, wic._wic_codec_iwicprogressivelevelcontrol_setcurrentlevel, wincodec/IWICProgressiveLevelControl::SetCurrentLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,19 +93,23 @@ Users should use this method to iterate through the progressive levels of a prog
          Using <b>GetCurrentLevel</b> method will force the application to wait for all progressive levels to be downloaded before it can return. 
          Instead, applications should use the following code to iterate through the progressive levels of a progressive JPEG image.
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IWICProgressiveLevelControl *pProgressive = NULL;
 
-```
-IWICProgressiveLevelControl *pProgressive = NULL;
-
-HRESULT hr = (pBitmapFrame->QueryInterface(
+HRESULT hr = (pBitmapFrame-&gt;QueryInterface(
    IID_IWICProgressiveLevelControl, 
-   (void**) &pProgressive));
+   (void**) &amp;pProgressive));
                 
 if (SUCCEEDED(hr))
 {
    for (UINT uCurrentLevel = 0; SUCCEEDED(hr); uCurrentLevel++)
    {
-      hr = pProgressive->SetCurrentLevel(uCurrentLevel);
+      hr = pProgressive-&gt;SetCurrentLevel(uCurrentLevel);
       if (WINCODEC_ERR_INVALIDPROGRESSIVELEVEL == hr)
       {
          // No more levels
@@ -115,19 +119,19 @@ if (SUCCEEDED(hr))
       if (SUCCEEDED(hr))
       {
          // Output the current level
-         hr = pBitmapFrame->CopyPixels(...);
+         hr = pBitmapFrame-&gt;CopyPixels(...);
       }                      
    }
 }
 
 if (pProgressive)
 {
-   pProgressive->Release();
+   pProgressive-&gt;Release();
 }	
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

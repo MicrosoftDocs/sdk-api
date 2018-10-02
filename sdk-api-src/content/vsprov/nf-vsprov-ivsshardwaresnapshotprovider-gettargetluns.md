@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotprovider_gettargetluns.htm
 tech.root: VSS
 ms.assetid: 299020eb-0afd-41c8-9551-1275eff45fa1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTargetLuns, GetTargetLuns method [VSS], GetTargetLuns method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],GetTargetLuns method, IVssHardwareSnapshotProvider.GetTargetLuns, IVssHardwareSnapshotProvider::GetTargetLuns, base.ivsshardwaresnapshotprovider_gettargetluns, vsprov/IVssHardwareSnapshotProvider::GetTargetLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices

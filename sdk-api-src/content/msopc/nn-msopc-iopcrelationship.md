@@ -7,7 +7,7 @@ old-location: opc\iopcrelationship.htm
 tech.root: OPC
 ms.assetid: eb3619bb-470f-41bd-a231-d63df70592c2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], IOpcRelationship interface [Open Packaging Conventions],described, msopc/IOpcRelationship, opc.iopcrelationship
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,14 +124,18 @@ To create a relationship object to represent a relationship, call the <a href="h
 
 Example relationship markup for a relationship that targets a part:
 
-
-```xml
-<Relationship Id="rId1"
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;Relationship Id="rId1"
     Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument"
-    Target="word/document.xml" />
-```
-
-
+    Target="word/document.xml" /&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 Using the relationship type (<b>Type</b> attribute of the <b>Relationship</b> element)  is the definitive way  find a 
 part in a package. For more information about  why the relationship type is used, see the <a href="https://msdn.microsoft.com/95da581d-3d30-4cd7-bd20-f44bf505ac0a">Parts Overview</a>.  For an example of to use the relationship type to find a part, see <a href="https://msdn.microsoft.com/d485d085-b605-41d4-a094-bd1be37d6693">Finding the Core Properties Part</a>. 
 

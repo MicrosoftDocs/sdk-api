@@ -7,7 +7,7 @@ old-location: mstv\impeg2tunerequest_get_tsid.htm
 tech.root: MSTV
 ms.assetid: 971e2643-e68f-4b4c-86e0-2e20e2f8a88c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],get_TSID method, IMPEG2TuneRequest.get_TSID, IMPEG2TuneRequest::get_TSID, IMPEG2TuneRequestget_TSID, get_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies],IMPEG2TuneRequest interface, mstv.impeg2tunerequest_get_tsid, tuner/IMPEG2TuneRequest::get_TSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

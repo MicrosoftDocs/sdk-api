@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_put_strictfilesystemcompliance.htm
 tech.root: imapi
 ms.assetid: ccbeba5a-39d5-43fd-8693-fee7cbbf5c8a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_StrictFileSystemCompliance method, IFileSystemImage.put_StrictFileSystemCompliance, IFileSystemImage::put_StrictFileSystemCompliance, imapi.ifilesystemimage_put_strictfilesystemcompliance, imapi2fs/IFileSystemImage::put_StrictFileSystemCompliance, put_StrictFileSystemCompliance, put_StrictFileSystemCompliance method [IMAPI], put_StrictFileSystemCompliance method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

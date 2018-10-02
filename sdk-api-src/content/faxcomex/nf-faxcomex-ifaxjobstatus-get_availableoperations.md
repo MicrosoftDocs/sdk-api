@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_availableoperations_c
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xwz.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],AvailableOperations property, IFaxJobStatus.AvailableOperations, IFaxJobStatus.get_AvailableOperations, IFaxJobStatus::AvailableOperations, IFaxJobStatus::get_AvailableOperations, _mfax_faxjobstatus.availableoperations, fax._mfax_faxjobstatus_availableoperations, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_availableoperations_cpp, faxcomex/IFaxJobStatus::AvailableOperations, faxcomex/IFaxJobStatus::get_AvailableOperations, get_AvailableOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685964(v=VS.85).aspx">FaxJobStatus</a>
+<a href="https://msdn.microsoft.com/b4e2dc9e-6a32-4fc7-94fc-2132dedcec9e">FaxJobStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685966(v=VS.85).aspx">IFaxJobStatus</a>
+<a href="https://msdn.microsoft.com/38527d34-feab-4fae-90c6-45ff9bcfd15c">IFaxJobStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693013(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/3a9f42fa-383a-4072-92a6-b59f7940ab04">Visual Basic Example</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wab\_wab_SRowSet.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srowset.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPSRowSet, SRowSet, SRowSet structure [Windows Address Book], _SRowSet, _wab_SRowSet, wab._wab_SRowSet, wabdefs/SRowSet"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Do not use. Contains an array of <a href="https://msdn.microsoft.com/en-us/library/ms629452(v=VS.85).aspx">SRow</a> structures. Each <b>SRow</b> structure describes a row from a table.
+Do not use. Contains an array of <a href="https://msdn.microsoft.com/8dc7d96a-6171-402b-8069-7da479148d92">SRow</a> structures. Each <b>SRow</b> structure describes a row from a table.
 
 
 ## -struct-fields
@@ -63,12 +63,12 @@ Do not use. Contains an array of <a href="https://msdn.microsoft.com/en-us/libra
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifies the number of <a href="https://msdn.microsoft.com/en-us/library/ms629452(v=VS.85).aspx">SRow</a> structures in the <b>aRow</b> member.
+Variable of type <b>ULONG</b> that specifies the number of <a href="https://msdn.microsoft.com/8dc7d96a-6171-402b-8069-7da479148d92">SRow</a> structures in the <b>aRow</b> member.
 
 
 ### -field aRow
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629452(v=VS.85).aspx">SRow</a>[MAPI_DIM]</b>
+Type: <b><a href="https://msdn.microsoft.com/8dc7d96a-6171-402b-8069-7da479148d92">SRow</a>[MAPI_DIM]</b>
 
-Array of variables of type <a href="https://msdn.microsoft.com/en-us/library/ms629452(v=VS.85).aspx">SRow</a> that specifies the structures that represent the rows in the table. 
+Array of variables of type <a href="https://msdn.microsoft.com/8dc7d96a-6171-402b-8069-7da479148d92">SRow</a> that specifies the structures that represent the rows in the table. 
 

@@ -7,7 +7,7 @@ old-location: base\cvsswriter.htm
 tech.root: VSS
 ms.assetid: 5d54c966-86ad-41af-82be-8a182b3d203a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriter, CVssWriter class [VSS], CVssWriter class [VSS],described, _win32_cvsswriter, base.cvsswriter, vswriter/CVssWriter
 ms.prod: windows
 ms.technology: windows-sdk

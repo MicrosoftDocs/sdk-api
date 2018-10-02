@@ -7,7 +7,7 @@ old-location: mib\mib_udp6table.htm
 tech.root: MIB
 ms.assetid: 49da9a1f-f244-464e-96b2-944a286445d4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_UDP6TABLE, MIB_UDP6TABLE, MIB_UDP6TABLE structure [MIB], PMIB_UDP6TABLE, PMIB_UDP6TABLE structure pointer [MIB], _MIB_UDP6TABLE, mib.mib_udp6table, udpmib/MIB_UDP6TABLE, udpmib/PMIB_UDP6TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

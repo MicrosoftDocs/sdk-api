@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackagedependency2.htm
 tech.root: appxpkg
 ms.assetid: 9363C5BB-BDEF-4671-9545-5B8C0EF14FBE
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: IAppxManifestPackageDependency2, IAppxManifestPackageDependency2 interface [App packaging and management], IAppxManifestPackageDependency2 interface [App packaging and management],described, appxpackaging/IAppxManifestPackageDependency2, appxpkg.iappxmanifestpackagedependency2
 ms.prod: windows
 ms.technology: windows-sdk

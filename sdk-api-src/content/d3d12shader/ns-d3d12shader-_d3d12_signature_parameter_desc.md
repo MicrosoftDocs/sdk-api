@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_signature_parameter_desc.htm
 tech.root: direct3d12
 ms.assetid: FDD227A5-FFB9-46E3-B7F7-BECE785ECD7C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_SIGNATURE_PARAMETER_DESC, D3D12_SIGNATURE_PARAMETER_DESC structure, _D3D12_SIGNATURE_PARAMETER_DESC, d3d12shader/D3D12_SIGNATURE_PARAMETER_DESC, direct3d12.d3d12_signature_parameter_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Describes a shader signature.
 
 ### -field SemanticName
 
-A per-parameter string that identifies how the data will be used. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">Semantics</a>.
+A per-parameter string that identifies how the data will be used. For more info, see <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">Semantics</a>.
           
 
 
@@ -79,13 +79,13 @@ The register that will contain this variable's data.
 
 ### -field SystemValueType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff728724(v=VS.85).aspx">D3D_NAME</a>-typed value that identifies a predefined string that determines the functionality of certain pipeline stages.
+A <a href="https://msdn.microsoft.com/16675331-36cf-4086-a753-6d80ee934ace">D3D_NAME</a>-typed value that identifies a predefined string that determines the functionality of certain pipeline stages.
           
 
 
 ### -field ComponentType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff728727(v=VS.85).aspx">D3D_REGISTER_COMPONENT_TYPE</a>-typed value that identifies the per-component-data type that is stored in a register.  Each register can store up to four-components of data.
+A <a href="https://msdn.microsoft.com/71e3c707-745b-40b4-ba3c-6c501196e3d3">D3D_REGISTER_COMPONENT_TYPE</a>-typed value that identifies the per-component-data type that is stored in a register.  Each register can store up to four-components of data.
           
 
 
@@ -109,7 +109,7 @@ Indicates which stream the geometry shader is using for the signature parameter.
 
 ### -field MinPrecision
 
-A <a href="https://msdn.microsoft.com/en-us/library/JJ247572(v=VS.85).aspx">D3D_MIN_PRECISION</a>-typed value that indicates the minimum desired interpolation precision. For more info, see <a href="https://msdn.microsoft.com/422B0C45-5CEB-4235-AD05-62D36C36CFC6">Using HLSL minimum precision</a>.
+A <a href="https://msdn.microsoft.com/C97D04D7-EAE4-4E5B-80A2-EDB1CE68C2BC">D3D_MIN_PRECISION</a>-typed value that indicates the minimum desired interpolation precision. For more info, see <a href="https://msdn.microsoft.com/422B0C45-5CEB-4235-AD05-62D36C36CFC6">Using HLSL minimum precision</a>.
           
 
 

@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudioobjectrenderstreamformetadataactivationparam
 tech.root: CoreAudio
 ms.assetid: 5B92F521-537F-4296-B9A7-7EC6985530B3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: PSpatialAudioObjectRenderStreamForMetadataActivationParams, PSpatialAudioObjectRenderStreamForMetadataActivationParams structure pointer [Core Audio], SpatialAudioObjectRenderStreamForMetadataActivationParams, SpatialAudioObjectRenderStreamForMetadataActivationParams structure [Core Audio], coreaudio.spatialaudioobjectrenderstreamformetadataactivationparams, spatialaudiometadata/PSpatialAudioObjectRenderStreamForMetadataActivationParams, spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams
 ms.prod: windows
 ms.technology: windows-sdk

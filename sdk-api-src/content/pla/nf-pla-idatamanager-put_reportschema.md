@@ -7,7 +7,7 @@ old-location: pla\idatamanager_reportschema.htm
 tech.root: PLA
 ms.assetid: 32620e9d-9541-4c39-9312-937b0b4825ad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDataManager interface [PLA],ReportSchema property, IDataManager.ReportSchema, IDataManager.put_ReportSchema, IDataManager::ReportSchema, IDataManager::get_ReportSchema, IDataManager::put_ReportSchema, ReportSchema property [PLA], ReportSchema property [PLA],IDataManager interface, pla.idatamanager_reportschema, pla/IDataManager::ReportSchema, pla/IDataManager::get_ReportSchema, pla/IDataManager::put_ReportSchema, put_ReportSchema
 ms.prod: windows-hardware
 ms.technology: windows-devices

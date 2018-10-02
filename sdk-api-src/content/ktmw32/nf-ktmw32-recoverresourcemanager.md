@@ -7,7 +7,7 @@ old-location: fs\recoverresourcemanager.htm
 tech.root: Ktm
 ms.assetid: 616ff873-c0d0-464e-9b1b-74a426b99abd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RecoverResourceManager, RecoverResourceManager function [Files], fs.recoverresourcemanager, ktmw32/RecoverResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

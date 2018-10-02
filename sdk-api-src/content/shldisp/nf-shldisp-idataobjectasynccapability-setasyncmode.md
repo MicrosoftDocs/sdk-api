@@ -4,10 +4,10 @@ title: IDataObjectAsyncCapability::SetAsyncMode
 author: windows-sdk-content
 description: Called by a drop source to specify whether the data object supports asynchronous data extraction.
 old-location: shell\IDataObjectAsyncCapability_SetAsyncMode.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 97DCCA78-F25E-47de-8292-F0C6ED9DFD35
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],SetAsyncMode method, IDataObjectAsyncCapability.SetAsyncMode, IDataObjectAsyncCapability::SetAsyncMode, SetAsyncMode, SetAsyncMode method [Windows Shell], SetAsyncMode method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_SetAsyncMode, shldisp/IDataObjectAsyncCapability::SetAsyncMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

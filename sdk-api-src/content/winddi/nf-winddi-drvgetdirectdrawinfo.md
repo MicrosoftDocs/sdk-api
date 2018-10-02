@@ -4,10 +4,10 @@ title: DrvGetDirectDrawInfo function
 author: windows-sdk-content
 description: The DrvGetDirectDrawInfo function returns the capabilities of the graphics hardware.
 old-location: display\drvgetdirectdrawinfo.htm
-tech.root: display
+tech.root: Display
 ms.assetid: c6068572-bd73-4faa-b085-9608ebc450ea
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DrvGetDirectDrawInfo, DrvGetDirectDrawInfo function [Display Devices], ddfncs_bebc9a48-6664-4b23-908f-a4c586e79f63.xml, display.drvgetdirectdrawinfo, winddi/DrvGetDirectDrawInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

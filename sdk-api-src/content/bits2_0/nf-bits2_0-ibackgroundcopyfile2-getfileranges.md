@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile2_getfileranges.htm
 tech.root: Bits
 ms.assetid: 2e0ea08e-5f97-45c9-9280-ce6c4dce7a17
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFileRanges, GetFileRanges method [BITS], GetFileRanges method [BITS],IBackgroundCopyFile2 interface, IBackgroundCopyFile2 interface [BITS],GetFileRanges method, IBackgroundCopyFile2.GetFileRanges, IBackgroundCopyFile2::GetFileRanges, bits.ibackgroundcopyfile2_getfileranges, bits2_0/IBackgroundCopyFile2::GetFileRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Number of elements in <i>Ranges</i>.
 
 ### -param Ranges [out]
 
-Array of  <a href="https://msdn.microsoft.com/en-us/library/Aa362802(v=VS.85).aspx">BG_FILE_RANGE</a> structures that specify the ranges to download. When done, call the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>Ranges</i>.
+Array of  <a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a> structures that specify the ranges to download. When done, call the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>Ranges</i>.
 
 
 ## -returns
@@ -112,15 +112,15 @@ No ranges were specified or the job is an upload or upload-reply job. <i>RangeCo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362802(v=VS.85).aspx">BG_FILE_RANGE</a>
+<a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362944(v=VS.85).aspx">IBackgroundCopyFile2</a>
+<a href="https://msdn.microsoft.com/facff24d-56a3-4a1f-a726-3442c17fe869">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362991(v=VS.85).aspx">IBackgroundCopyJob3::AddFileWithRanges</a>
+<a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a>
  
 
  

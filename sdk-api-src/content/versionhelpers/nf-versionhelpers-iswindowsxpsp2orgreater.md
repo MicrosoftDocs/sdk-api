@@ -7,7 +7,7 @@ old-location: base\iswindowsxpsp2orgreater.htm
 tech.root: SysInfo
 ms.assetid: DA957BA8-AD28-4096-8BE5-B77CA55B9324
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IsWindowsXPSP2OrGreater, IsWindowsXPSP2OrGreater function, base.iswindowsxpsp2orgreater, versionhelpers/IsWindowsXPSP2OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,18 +85,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows XP with SP2 or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindowsXPSP2OrGreater())
     {
        MessageBox(NULL, "You need at least Windows XP with SP2", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IFileSystemBindData::SetFindData
 author: windows-sdk-content
 description: Stores file system information in a WIN32_FIND_DATA structure. This information is used by ParseDisplayName.
 old-location: shell\IFileSystemBindData_SetFindData.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8e2af85f-5eca-46e4-b193-bf25e2366fac
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileSystemBindData interface [Windows Shell],SetFindData method, IFileSystemBindData.SetFindData, IFileSystemBindData::SetFindData, SetFindData, SetFindData method [Windows Shell], SetFindData method [Windows Shell],IFileSystemBindData interface, _shell_ifilesystembinddata_setfinddata, shell.IFileSystemBindData_SetFindData, shobjidl_core/IFileSystemBindData::SetFindData
 ms.prod: windows-hardware
 ms.technology: windows-devices

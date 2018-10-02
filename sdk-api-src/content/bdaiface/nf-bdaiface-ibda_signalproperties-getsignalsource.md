@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalproperties_getsignalsource.htm
 tech.root: MSTV
 ms.assetid: 929ec042-3f43-468e-944a-919dda3893be
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetSignalSource method, IBDA_SignalProperties.GetSignalSource, IBDA_SignalProperties::GetSignalSource, IBDA_SignalPropertiesGetSignalSource, bdaiface/IBDA_SignalProperties::GetSignalSource, mstv.ibda_signalproperties_getsignalsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-This method returns whatever value was last set by calling <a href="https://msdn.microsoft.com/en-us/library/Dd693430(v=VS.85).aspx">IBDA_SignalProperties::PutSignalSource</a>.
+This method returns whatever value was last set by calling <a href="https://msdn.microsoft.com/81cd43b1-97a7-4663-984e-2c20a8315c7e">IBDA_SignalProperties::PutSignalSource</a>.
 
 <div class="alert"><b>Note</b>  The <i>pulSignalSource</i> parameter is marked in the IDL file as [in, out] but is used as an [out] parameter. To preserve binary compatibility with previous versions, it has not been changed.</div>
 <div> </div>
@@ -94,11 +94,11 @@ This method returns whatever value was last set by calling <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693425(v=VS.85).aspx">IBDA_SignalProperties Interface</a>
+<a href="https://msdn.microsoft.com/fe88b628-7959-4d2f-981f-7de9126146f6">IBDA_SignalProperties Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693430(v=VS.85).aspx">PutSignalSource</a>
+<a href="https://msdn.microsoft.com/81cd43b1-97a7-4663-984e-2c20a8315c7e">PutSignalSource</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: automat\varboolfromui4.htm
 tech.root: automat
 ms.assetid: 942aafda-3c7e-4130-ac64-ed32f1cd66f7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VarBoolFromUI4, VarBoolFromUI4 function [Automation], _oa96_VarBoolFromUI4, automat.varboolfromui4, oleauto/VarBoolFromUI4
 ms.prod: windows-hardware
 ms.technology: windows-devices

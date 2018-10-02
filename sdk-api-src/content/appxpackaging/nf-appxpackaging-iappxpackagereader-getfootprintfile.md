@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader_getfootprintfile.htm
 tech.root: appxpkg
 ms.assetid: 8CCF9135-308F-4BDC-A67F-1E3ED2ACF565
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetFootprintFile method, IAppxPackageReader.GetFootprintFile, IAppxPackageReader::GetFootprintFile, appxpackaging/IAppxPackageReader::GetFootprintFile, appxpkg.iappxpackagereader_getfootprintfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ The <i>type</i> parameter is not a member of the <a href="https://msdn.microsoft
 The package does not contain a footprint file of the specified type.
 
 
-<a href="https://msdn.microsoft.com/8CCF9135-308F-4BDC-A67F-1E3ED2ACF565">GetFootprintFile</a> can return this error for <a href="https://msdn.microsoft.com/en-us/library/Hh446587(v=VS.85).aspx">APPX_FOOTPRINT_FILE_TYPE_SIGNATURE</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh446587(v=VS.85).aspx">APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY</a> types.
+<a href="https://msdn.microsoft.com/8CCF9135-308F-4BDC-A67F-1E3ED2ACF565">GetFootprintFile</a> can return this error for <a href="appx_footprint_file_type.htm">APPX_FOOTPRINT_FILE_TYPE_SIGNATURE</a> and <a href="appx_footprint_file_type.htm">APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY</a> types.
 
 </td>
 </tr>

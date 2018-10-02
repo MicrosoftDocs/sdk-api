@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualcollection_insertat.htm
 tech.root: printdocs
 ms.assetid: b4becd2b-c5f4-4d4d-a142-9f4fe11fafd3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMVisualCollection.InsertAt, IXpsOMVisualCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_insertat, xpsobjectmodel/IXpsOMVisualCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

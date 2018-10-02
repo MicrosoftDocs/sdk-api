@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile3_getvalidationstate.htm
 tech.root: Bits
 ms.assetid: 705644e2-fd15-4225-b26a-e75c2dd2f6e3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetValidationState, GetValidationState method [BITS], GetValidationState method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetValidationState method, IBackgroundCopyFile3.GetValidationState, IBackgroundCopyFile3::GetValidationState, bits.ibackgroundcopyfile3_getvalidationstate, bits3_0/IBackgroundCopyFile3::GetValidationState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ Success
 
 
 
-Note that <b>FALSE</b> may not mean that the file is not valid, it may mean the <a href="https://msdn.microsoft.com/en-us/library/Aa362955(v=VS.85).aspx">IBackgroundCopyFile3::SetValidationState</a> has not been called.
+Note that <b>FALSE</b> may not mean that the file is not valid, it may mean the <a href="https://msdn.microsoft.com/c032ce32-07a4-4ab2-ae57-f9d526d1371a">IBackgroundCopyFile3::SetValidationState</a> has not been called.
 
 
 
@@ -106,15 +106,15 @@ Note that <b>FALSE</b> may not mean that the file is not valid, it may mean the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362952(v=VS.85).aspx">IBackgroundCopyFile3</a>
+<a href="https://msdn.microsoft.com/5304f93a-993a-4327-9fdb-fb2ef1dafecb">IBackgroundCopyFile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362955(v=VS.85).aspx">IBackgroundCopyFile3::SetValidationState</a>
+<a href="https://msdn.microsoft.com/c032ce32-07a4-4ab2-ae57-f9d526d1371a">IBackgroundCopyFile3::SetValidationState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964298(v=VS.85).aspx">IBitsPeerCacheRecord::IsFileValidated</a>
+<a href="https://msdn.microsoft.com/f492f009-bef7-412e-8626-ae84cd5ce03f">IBitsPeerCacheRecord::IsFileValidated</a>
  
 
  

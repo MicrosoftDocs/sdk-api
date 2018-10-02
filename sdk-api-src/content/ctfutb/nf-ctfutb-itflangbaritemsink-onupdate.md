@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemsink_onupdate.htm
 tech.root: TSF
 ms.assetid: f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfLangBarItemSink interface [Text Services Framework],OnUpdate method, ITfLangBarItemSink.OnUpdate, ITfLangBarItemSink::OnUpdate, OnUpdate, OnUpdate method [Text Services Framework], OnUpdate method [Text Services Framework],ITfLangBarItemSink interface, _tsf_itflangbaritemsink_onupdate_ref, ctfutb/ITfLangBarItemSink::OnUpdate, tsf.itflangbaritemsink_onupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param dwFlags [in]
 
-Contains a set of flags that indicate changes in the language bar item. This can be a combination of one or more of the <a href="https://msdn.microsoft.com/en-us/library/ms629079(v=VS.85).aspx">TF_LBI_*</a> values.
+Contains a set of flags that indicate changes in the language bar item. This can be a combination of one or more of the <a href="https://msdn.microsoft.com/ed84012f-19ba-43b3-bbb5-7373ed174c33">TF_LBI_*</a> values.
 
 
 ## -returns
@@ -115,11 +115,11 @@ A language bar item should call this method when the internal state of the item 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628736(v=VS.85).aspx">ITfLangBarItemSink</a>
+<a href="https://msdn.microsoft.com/1734a011-1ee8-4afd-ace8-334eeaf14518">ITfLangBarItemSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629079(v=VS.85).aspx">TF_LBI_* Constants</a>
+<a href="https://msdn.microsoft.com/ed84012f-19ba-43b3-bbb5-7373ed174c33">TF_LBI_* Constants</a>
  
 
  

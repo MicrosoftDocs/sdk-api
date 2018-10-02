@@ -4,10 +4,10 @@ title: ListView_GetView macro
 author: windows-sdk-content
 description: Gets the current view of a list-view control. You can use this macro or send the LVM_GETVIEW message explicitly.
 old-location: controls\ListView_GetView.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getview.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_GetView, ListView_GetView macro [Windows Controls], _win32_ListView_GetView, _win32_ListView_GetView_cpp, commctrl/ListView_GetView, controls.ListView_GetView, controls._win32_ListView_GetView
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the current view of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761091(v=VS.85).aspx">LVM_GETVIEW</a> message explicitly. 
+Gets the current view of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/dd63e726-3a7f-40e7-8d46-4680816c02a3">LVM_GETVIEW</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_GetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

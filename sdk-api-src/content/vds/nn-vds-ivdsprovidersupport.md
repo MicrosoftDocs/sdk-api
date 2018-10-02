@@ -7,7 +7,7 @@ old-location: base\ivdsprovidersupport.htm
 tech.root: VDS
 ms.assetid: 74e17a86-75ec-429b-9efb-80812ca4b431
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsProviderSupport, IVdsProviderSupport interface, IVdsProviderSupport interface,described, base.ivdsprovidersupport, vds/IVdsProviderSupport, vdshwprv/IVdsProviderSupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ Returns a bitmask of values enumerated by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

@@ -4,10 +4,10 @@ title: IMenuBand
 author: windows-sdk-content
 description: Exposes methods that allow a Component Object Model (COM) object to receive and translate appropriate messages.
 old-location: shell\IMenuBand.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 67e12738-9951-4118-b968-7959cd175cf2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IMenuBand, IMenuBand interface [Windows Shell], IMenuBand interface [Windows Shell],described, _shell_IMenuBand, shell.IMenuBand, shobjidl_core/IMenuBand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ Translates a message for a COM object.
 
 
 
- An application can call <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> with one of the following service IDs. If the <i>riid</i> parameter of <b>QueryService</b> is IAccessible or IDispatch, the call to <b>QueryService</b> creates a new accessibility object. Otherwise, the call to <b>QueryService</b> is equivalent to a call to <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> with the service ID, as follows:
+ An application can call <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> with one of the following service IDs. If the <i>riid</i> parameter of <b>QueryService</b> is IAccessible or IDispatch, the call to <b>QueryService</b> creates a new accessibility object. Otherwise, the call to <b>QueryService</b> is equivalent to a call to <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> with the service ID, as follows:
 
 
 

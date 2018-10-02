@@ -4,10 +4,10 @@ title: IWdsTransportSetupManager2::get_TftpCapabilities
 author: windows-sdk-content
 description: Receives a mask of WDSTRANSPORT_TFTP_CAPABILITY values that indicates which WDS TFTP features are supported by the WDS TFTP server.
 old-location: wds\iwdstransportsetupmanager2_tftpcapabilities.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: 8F8655E8-4842-411B-B408-00815B2998A5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportSetupManager2 interface [Windows Deployment Services],TftpCapabilities property, IWdsTransportSetupManager2.TftpCapabilities, IWdsTransportSetupManager2.get_TftpCapabilities, IWdsTransportSetupManager2::TftpCapabilities, IWdsTransportSetupManager2::get_TftpCapabilities, TftpCapabilities property [Windows Deployment Services], TftpCapabilities property [Windows Deployment Services],IWdsTransportSetupManager2 interface, get_TftpCapabilities, wds.iwdstransportsetupmanager2_tftpcapabilities, wdstptmgmt/IWdsTransportSetupManager2::TftpCapabilities, wdstptmgmt/IWdsTransportSetupManager2::get_TftpCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

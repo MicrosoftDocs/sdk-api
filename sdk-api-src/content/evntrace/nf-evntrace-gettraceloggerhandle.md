@@ -7,7 +7,7 @@ old-location: etw\gettraceloggerhandle.htm
 tech.root: ETW
 ms.assetid: 050d3a01-0087-40f1-af35-b9ceeaf47813
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTraceLoggerHandle, GetTraceLoggerHandle function [ETW], _evt_gettraceloggerhandle, base.gettraceloggerhandle, etw.gettraceloggerhandle, evntrace/GetTraceLoggerHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

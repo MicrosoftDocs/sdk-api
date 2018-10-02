@@ -4,10 +4,10 @@ title: IMFSourceReaderEx
 author: windows-sdk-content
 description: Extends the IMFSourceReader interface.
 old-location: mf\imfsourcereaderex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 59888F9B-C464-4045-AA77-03EE16E2B598
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceReaderEx, IMFSourceReaderEx interface [Media Foundation], IMFSourceReaderEx interface [Media Foundation],described, mf.imfsourcereaderex, mfreadwrite/IMFSourceReaderEx
 ms.prod: windows
 ms.technology: windows-sdk

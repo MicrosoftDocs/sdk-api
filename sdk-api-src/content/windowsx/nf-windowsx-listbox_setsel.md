@@ -4,10 +4,10 @@ title: ListBox_SetSel macro
 author: windows-sdk-content
 description: Selects or deselects an item in a multiple-selection list box. You can use this macro or send the LB_SETSEL message explicitly.
 old-location: controls\ListBox_SetSel.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setsel.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListBox_SetSel, ListBox_SetSel macro [Windows Controls], _win32_ListBox_SetSel, _win32_ListBox_SetSel_cpp, controls.ListBox_SetSel, controls._win32_ListBox_SetSel, windowsx/ListBox_SetSel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Selects or deselects an item in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761352(v=VS.85).aspx">LB_SETSEL</a> message explicitly.
+Selects or deselects an item in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/643783f2-0e00-4b79-b957-47938bb9f8da">LB_SETSEL</a> message explicitly.
 
 
 ## -parameters

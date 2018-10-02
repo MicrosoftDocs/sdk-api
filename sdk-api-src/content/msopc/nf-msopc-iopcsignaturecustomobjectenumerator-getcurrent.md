@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectenumerator_getcurrent.htm
 tech.root: OPC
 ms.assetid: a0197da5-e613-4aba-8098-901e192051ff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignatureCustomObjectEnumerator.GetCurrent, IOpcSignatureCustomObjectEnumerator::GetCurrent, msopc/IOpcSignatureCustomObjectEnumerator::GetCurrent, opc.iopcsignaturecustomobjectenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

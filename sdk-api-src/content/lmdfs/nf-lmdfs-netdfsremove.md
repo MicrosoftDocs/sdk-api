@@ -7,7 +7,7 @@ old-location: dfs\netdfsremove.htm
 tech.root: Dfs
 ms.assetid: c879ba56-cc42-4fa3-960f-ddc65a75dbe3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NetDfsRemove, NetDfsRemove function [Distributed File System], _win32_netdfsremove, dfs.netdfsremove, fs.netdfsremove, lmdfs/NetDfsRemove, netmgmt.netdfsremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,12 +128,16 @@ When you call <b>NetDfsRemove</b> to remove a target from a
 The following code sample demonstrates how to remove a target from a DFS link using a call to the 
      <b>NetDfsRemove</b> function.
 
-
-```cpp
-#include <windows.h>
-#include <lm.h>
-#include <lmdfs.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
+#include &lt;lmdfs.h&gt;
+#include &lt;stdio.h&gt;
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain(int argc, wchar_t *argv[])
@@ -142,7 +146,7 @@ void wmain(int argc, wchar_t *argv[])
    //
    // All parameters are required.
    //
-   if (argc < 4)
+   if (argc &lt; 4)
       wprintf(L"Syntax: %s DfsEntryPath ServerName ShareName\n", argv[0]);
    else
    {
@@ -161,10 +165,10 @@ void wmain(int argc, wchar_t *argv[])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: winstation\setthreaddesktop.htm
 tech.root: winstation
 ms.assetid: 619c591f-54b7-4b61-aa07-fc57e05ee37a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetThreadDesktop, SetThreadDesktop function [Windows Stations and Desktops], _win32_setthreaddesktop, base.setthreaddesktop, winstation.setthreaddesktop, winuser/SetThreadDesktop
 ms.prod: windows-hardware
 ms.technology: windows-devices

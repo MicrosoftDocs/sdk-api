@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmnotification_wmdmmessage.htm
 tech.root: WMDM
 ms.assetid: e178db6b-2493-442e-95d1-04609b7726fe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMNotification interface [windows Media Device Manager],WMDMMessage method, IWMDMNotification.WMDMMessage, IWMDMNotification::WMDMMessage, IWMDMNotificationWMDMMessage, WMDMMessage, WMDMMessage method [windows Media Device Manager], WMDMMessage method [windows Media Device Manager],IWMDMNotification interface, mswmdm/IWMDMNotification::WMDMMessage, wmdm.iwmdmnotification_wmdmmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,9 +120,13 @@ To learn how an application subscribes to receive notifications through this met
 
 The following C++ code implements the <b>WMDMMessage</b> method, and prints out a device or storage arrival or departure notification message.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT WMDMMessage(DWORD  dwMessageType, LPCWSTR  pwszCanonicalName)
 {
     switch(dwMessageType)
@@ -145,10 +149,10 @@ HRESULT WMDMMessage(DWORD  dwMessageType, LPCWSTR  pwszCanonicalName)
     }
     return S_OK; // Return value is ignored, and not returned to the application.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

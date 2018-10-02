@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate
 author: windows-sdk-content
 description: Initializes the certificate request from an inner request object and a template.
 old-location: security\ix509certificaterequestcmc2_initializefrominnerrequesttemplate.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 12490859-bb4a-49ff-9d92-24bf04ab3999
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],InitializeFromInnerRequestTemplate method, IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate, IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate method [Security], InitializeFromInnerRequestTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,17 +60,17 @@ The <b>InitializeFromInnerRequestTemplate</b> method initializes the certificate
 
 ### -param pInnerRequest [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa377123(v=VS.85).aspx">IX509CertificateRequest</a> interface that represents the inner request object. This can be a PKCS #10 or  a CMC request.
+Pointer to an <a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a> interface that represents the inner request object. This can be a PKCS #10 or  a CMC request.
 
 
 ### -param pPolicyServer [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
+Pointer to an <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
 
 
 ### -param pTemplate [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object that represents the template to use during initialization.
+Pointer to an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object that represents the template to use during initialization.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -134,16 +134,16 @@ The request object has already been initialized.
 By specifying a template, you can add information to the outer request object that may not be contained in the inner request. For example, if the inner request does not contain the necessary extensions, you can supply a template that does.
 
 The <b>InitializeFromInnerRequestTemplate</b> method:<ul>
-<li>Creates an empty <a href="https://msdn.microsoft.com/en-us/library/Aa375930(v=VS.85).aspx">ICryptAttributes</a> collection.</li>
-<li>Creates an empty <a href="https://msdn.microsoft.com/en-us/library/Aa378746(v=VS.85).aspx">IX509NameValuePairs</a> collection.</li>
-<li>Creates an empty <a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a> collection.</li>
-<li>Creates an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> collection for  critical extensions and adds the XCN_OID_KEY_USAGE and XCN_OID_BASIC_CONSTRAINTS2 object identifiers (OIDs).</li>
-<li>Creates an empty <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> collection of OIDs to be suppressed from the request object.</li>
-<li>Creates an empty <a href="https://msdn.microsoft.com/en-us/library/Aa376821(v=VS.85).aspx">ISignerCertificates</a> collection.</li>
+<li>Creates an empty <a href="https://msdn.microsoft.com/beedb57c-1c89-4d16-8514-046e3071fd1e">ICryptAttributes</a> collection.</li>
+<li>Creates an empty <a href="https://msdn.microsoft.com/c881dc9f-4187-4ba1-9f3a-e1564e4f37c7">IX509NameValuePairs</a> collection.</li>
+<li>Creates an empty <a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a> collection.</li>
+<li>Creates an <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> collection for  critical extensions and adds the XCN_OID_KEY_USAGE and XCN_OID_BASIC_CONSTRAINTS2 object identifiers (OIDs).</li>
+<li>Creates an empty <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> collection of OIDs to be suppressed from the request object.</li>
+<li>Creates an empty <a href="https://msdn.microsoft.com/420d6550-514a-4fea-987b-6deecbc9b717">ISignerCertificates</a> collection.</li>
 <li>Retrieves private key flags from the template.</li>
-<li>Sets the <a href="https://msdn.microsoft.com/en-us/library/Aa377134(v=VS.85).aspx">ArchivePrivateKey</a> property if required by the template flags or settings.</li>
-<li>Retrieves the encryption algorithm from the template if one is specified and sets the <a href="https://msdn.microsoft.com/en-us/library/Aa377244(v=VS.85).aspx">EncryptionAlgorithm</a> property.</li>
-<li>Sets the <a href="https://msdn.microsoft.com/en-us/library/Aa377250(v=VS.85).aspx">EncryptionStrength</a> property if possible.</li>
+<li>Sets the <a href="https://msdn.microsoft.com/6d17222e-3657-4911-a8e7-d90214284441">ArchivePrivateKey</a> property if required by the template flags or settings.</li>
+<li>Retrieves the encryption algorithm from the template if one is specified and sets the <a href="https://msdn.microsoft.com/c46b3373-6d9e-46d9-a36a-b73a718ddaf7">EncryptionAlgorithm</a> property.</li>
+<li>Sets the <a href="https://msdn.microsoft.com/9cade9f0-d614-4838-bf42-0a19b4ce53d5">EncryptionStrength</a> property if possible.</li>
 </ul>
 
 
@@ -155,7 +155,7 @@ The <b>InitializeFromInnerRequestTemplate</b> method:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351617(v=VS.85).aspx">IX509CertificateRequestCmc2</a>
+<a href="https://msdn.microsoft.com/27edf846-472e-4a22-bd3c-88044a1fbd99">IX509CertificateRequestCmc2</a>
  
 
  

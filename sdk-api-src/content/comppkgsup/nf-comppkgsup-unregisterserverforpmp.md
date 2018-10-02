@@ -7,7 +7,7 @@ old-location: winprog\unregisterserverforpmp.htm
 tech.root: devnotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Registers a COM Server CLSID and a class factory that were previously registered for Protected Media Process (PMP) usage.
 

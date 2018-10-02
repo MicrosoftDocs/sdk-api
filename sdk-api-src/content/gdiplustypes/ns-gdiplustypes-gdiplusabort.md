@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_GdiplusAbort.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusabort.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GdiplusAbort, GdiplusAbort structure [GDI+], _gdiplus_STRUC_GdiplusAbort, gdiplus._gdiplus_STRUC_GdiplusAbort, gdiplustypes/GdiplusAbort
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,9 +73,9 @@ Create a structure that descends from <b>GdiplusAbort</b>, and implement the fol
 
 </li>
 <li>Create data members to hold any data that will be needed by the <b>Abort</b> method.</li>
-<li>Pass the address of the <b>GdiplusAbort</b> descendant to the <a href="https://msdn.microsoft.com/en-us/library/ms535403(v=VS.85).aspx">Image::SetAbort</a> method.</li>
+<li>Pass the address of the <b>GdiplusAbort</b> descendant to the <a href="https://msdn.microsoft.com/2df54a2c-cb7b-4d65-a27d-7342e00ed71b">Image::SetAbort</a> method.</li>
 </ol>
-During certain time-consuming rendering operations (for example, a call to the <a href="https://msdn.microsoft.com/en-us/library/ms535746(v=VS.85).aspx">Graphics::DrawImage</a> method), GDI+ calls the <b>Abort</b> method periodically. For some operations the callback is every 250 milliseconds; for other operations the callback is not based on a timer. If the <b>Abort</b> method returns S_OK, GDI+ continues the rendering operation. If the <b>Abort</b> method returns E_ABORT, GDI+ aborts the rendering operation.
+During certain time-consuming rendering operations (for example, a call to the <a href="https://msdn.microsoft.com/c9577988-e52f-4f71-ab1b-51bb5368812e">Graphics::DrawImage</a> method), GDI+ calls the <b>Abort</b> method periodically. For some operations the callback is every 250 milliseconds; for other operations the callback is not based on a timer. If the <b>Abort</b> method returns S_OK, GDI+ continues the rendering operation. If the <b>Abort</b> method returns E_ABORT, GDI+ aborts the rendering operation.
 
 
 

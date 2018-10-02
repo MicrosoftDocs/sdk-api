@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_swap_chain_color_space_support_flag.htm
 tech.root: direct3ddxgi
 ms.assetid: D0479BB0-C433-49C3-9D63-5E99EC4565A9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG, DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG enumeration [DXGI], DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_OVERLAY_PRESENT, DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_PRESENT, direct3ddxgi.dxgi_swap_chain_color_space_support_flag, dxgi1_4/DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG, dxgi1_4/DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_OVERLAY_PRESENT, dxgi1_4/DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_PRESENT
 ms.prod: windows
 ms.technology: windows-sdk

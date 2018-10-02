@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinfolistdetail.htm
 tech.root: devinst
 ms.assetid: 3f624882-9ccc-4be1-92aa-8bba9f0022ea
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiGetDeviceInfoListDetail, SetupDiGetDeviceInfoListDetail function [Device and Driver Installation], SetupDiGetDeviceInfoListDetailA, SetupDiGetDeviceInfoListDetailW, devinst.setupdigetdeviceinfolistdetail, di-rtns_b25a6105-3c1f-4b79-ad07-37be79fa36ae.xml, setupapi/SetupDiGetDeviceInfoListDetail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>SetupDiGetDeviceInfoListDetail</b> function retrieves information associa
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to retrieve information.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to retrieve information.
 
 
 ### -param DeviceInfoSetDetailData [out]

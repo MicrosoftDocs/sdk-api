@@ -7,7 +7,7 @@ old-location: eaphost\eapcode.htm
 tech.root: EAPHost
 ms.assetid: 19d424a1-91d6-4ebd-acb8-912b4900a4cd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapCode, EapCode enumeration [EAPHost], EapCodeFailure, EapCodeMaximum, EapCodeMinimum, EapCodeRequest, EapCodeResponse, EapCodeSuccess, eaphost.eapcode, eapmethodtypes/EapCode, eapmethodtypes/EapCodeFailure, eapmethodtypes/EapCodeMaximum, eapmethodtypes/EapCodeMinimum, eapmethodtypes/EapCodeRequest, eapmethodtypes/EapCodeResponse, eapmethodtypes/EapCodeSuccess, tagEapCode
 ms.prod: windows
 ms.technology: windows-sdk

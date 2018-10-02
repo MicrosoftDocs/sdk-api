@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenrollcapturewithcallback.htm
 tech.root: SecBioMet
 ms.assetid: 809e7d2f-6b41-4afc-86c2-43b6611d6e48
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WinBioEnrollCaptureWithCallback, WinBioEnrollCaptureWithCallback function [Windows Biometric Framework API], secbiomet.winbioenrollcapturewithcallback, winbio/WinBioEnrollCaptureWithCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,23 +143,27 @@ The pointer specified by the <i>EnrollCallback</i> parameter cannot be <b>NULL</
 
 
 
-If the  <i>SessionHandle</i> parameter refers to the system sensor pool, the callback function will not be called until the application acquires window focus and the user has provided a biometric sample. The manner in which you acquire focus depends on the type of application you are writing. For example, if you are creating a GUI application you can implement a message handler that captures  a <a href="https://msdn.microsoft.com/en-us/library/ms646274(v=VS.85).aspx">WM_ACTIVATE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a>, or other appropriate message. If you are writing a CUI application, call <b>GetConsoleWindow</b> to retrieve a handle to the console window and pass that handle to the <b>SetForegroundWindow</b> function to force the console window into the foreground and assign it focus. If your application is running in a detached process and has no window or is a Windows service, use <a href="https://msdn.microsoft.com/ad8bdcc9-0317-4d35-a587-9a2f3a4144ae">WinBioAcquireFocus</a> and <a href="https://msdn.microsoft.com/260f24e9-4527-4bec-b18a-64781060714b">WinBioReleaseFocus</a> to manually control focus.
+If the  <i>SessionHandle</i> parameter refers to the system sensor pool, the callback function will not be called until the application acquires window focus and the user has provided a biometric sample. The manner in which you acquire focus depends on the type of application you are writing. For example, if you are creating a GUI application you can implement a message handler that captures  a <a href="https://msdn.microsoft.com/a62bb9f7-f286-4d0d-a1ca-370950c188b2">WM_ACTIVATE</a>, <a href="https://msdn.microsoft.com/77180e4c-95a6-41a4-93d9-033381ae7543">WM_SETFOCUS</a>, or other appropriate message. If you are writing a CUI application, call <b>GetConsoleWindow</b> to retrieve a handle to the console window and pass that handle to the <b>SetForegroundWindow</b> function to force the console window into the foreground and assign it focus. If your application is running in a detached process and has no window or is a Windows service, use <a href="https://msdn.microsoft.com/ad8bdcc9-0317-4d35-a587-9a2f3a4144ae">WinBioAcquireFocus</a> and <a href="https://msdn.microsoft.com/260f24e9-4527-4bec-b18a-64781060714b">WinBioReleaseFocus</a> to manually control focus.
 
 
 #### Examples
 
 The following code example enrolls a fingerprint asynchronously by calling <b>WinBioEnrollCaptureWithCallback</b> and passing a pointer to a custom callback function. The callback function, EnrollCaptureCallback, is also shown. Link to the Winbio.lib static library.
 
-
-```cpp
-//------------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//------------------------------------------------------------------------
 // EnrollSystemPoolWithCallback.cpp : console application entry point.
 //
 
-#include <windows.h>
-#include <stdio.h>
-#include <conio.h>
-#include <winbio.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+#include &lt;winbio.h&gt;
 
 
 //------------------------------------------------------------------------
@@ -220,7 +224,7 @@ HRESULT EnrollSysPoolWithCallback(
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -231,7 +235,7 @@ HRESULT EnrollSysPoolWithCallback(
 
     // Locate the sensor.
     wprintf_s(L"\n Swipe your finger to locate the sensor...\n");
-    hr = WinBioLocateSensor( sessionHandle, &unitId);
+    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -260,7 +264,7 @@ HRESULT EnrollSysPoolWithCallback(
     hr = WinBioEnrollCaptureWithCallback(
             sessionHandle,          // Handle to open biometric session
             EnrollCaptureCallback,  // Callback function
-            &callbackContext        // Pointer to the custom context
+            &amp;callbackContext        // Pointer to the custom context
             );
     if (FAILED(hr))
     {
@@ -311,8 +315,8 @@ HRESULT EnrollSysPoolWithCallback(
         wprintf_s(L"\n Committing enrollment...\n");
         hr = WinBioEnrollCommit( 
                 sessionHandle,      // Handle to open biometric session
-                &identity,          // WINBIO_IDENTITY object for the user
-                &isNewTemplate);    // Is this a new template
+                &amp;identity,          // WINBIO_IDENTITY object for the user
+                &amp;isNewTemplate);    // Is this a new template
 
         if (FAILED(hr))
         {
@@ -365,7 +369,7 @@ VOID CALLBACK EnrollCaptureCallback(
 
             // Try again.
             hr = WinBioEnrollCaptureWithCallback(
-                    callbackContext->SessionHandle, // Open session handle
+                    callbackContext-&gt;SessionHandle, // Open session handle
                     EnrollCaptureCallback,          // Callback function
                     EnrollCallbackContext           // Callback context
                     );
@@ -392,7 +396,7 @@ VOID CALLBACK EnrollCaptureCallback(
         wprintf_s(L"\n Swipe your finger on the sensor again.");
 
         hr = WinBioEnrollCaptureWithCallback(
-                callbackContext->SessionHandle,
+                callbackContext-&gt;SessionHandle,
                 EnrollCaptureCallback,
                 EnrollCallbackContext
                 );
@@ -411,10 +415,10 @@ e_Exit:
     return;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

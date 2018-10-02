@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetCustomOids
 author: windows-sdk-content
 description: Is not implemented.
 old-location: security\ix509enrollmentpolicyserver_getcustomoids.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 0db4e188-cef1-46af-b5c7-f18a8de5f1a7
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetCustomOids, GetCustomOids method [Security], GetCustomOids method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCustomOids method, IX509EnrollmentPolicyServer.GetCustomOids, IX509EnrollmentPolicyServer::GetCustomOids, certenroll/IX509EnrollmentPolicyServer::GetCustomOids, security.ix509enrollmentpolicyserver_getcustomoids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This function is not currently implemented and always returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

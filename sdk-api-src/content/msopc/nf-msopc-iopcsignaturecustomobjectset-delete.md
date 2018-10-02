@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectset_delete.htm
 tech.root: OPC
 ms.assetid: 7cfd8439-8f7e-4112-a2c0-3827922fb4b0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Delete method, IOpcSignatureCustomObjectSet.Delete, IOpcSignatureCustomObjectSet::Delete, msopc/IOpcSignatureCustomObjectSet::Delete, opc.iopcsignaturecustomobjectset_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

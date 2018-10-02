@@ -4,10 +4,10 @@ title: ITextSelection::GetFlags
 author: windows-sdk-content
 description: Gets the text selection flags.
 old-location: controls\ITextSelection_GetFlags.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getflags.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetFlags, GetFlags method [Windows Controls], GetFlags method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],GetFlags method, ITextSelection.GetFlags, ITextSelection::GetFlags, _win32_ITextSelection_GetFlags, _win32_ITextSelection_GetFlags_cpp, controls.ITextSelection_GetFlags, controls._win32_ITextSelection_GetFlags, tom/ITextSelection::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,11 +124,11 @@ The method returns an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a>
 
 
 
@@ -136,11 +136,11 @@ The method returns an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774143(v=VS.85).aspx">SetFlags</a>
+<a href="https://msdn.microsoft.com/e4b96d2a-2e75-4459-9a6e-5e0483926ce1">SetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjobs_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_28vn_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxIncomingJobs, IFaxIncomingJobs interface [Fax Service], IFaxIncomingJobs interface [Fax Service],described, _mfax_faxincomingjobs_cpp, fax._mfax_faxincomingjobs_cpp, faxcomex/IFaxIncomingJobs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-The <b>IFaxIncomingJobs</b> interface is used by a fax client application to manage the inbound fax jobs in a fax server's job queue. Each incoming job is represented by a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object.
+The <b>IFaxIncomingJobs</b> interface is used by a fax client application to manage the inbound fax jobs in a fax server's job queue. Each incoming job is represented by a <a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a> object.
 
-The <b>IFaxIncomingJobs</b> interface is accessed through the <a href="https://msdn.microsoft.com/en-us/library/ms686165(v=VS.85).aspx">IFaxIncomingQueue</a> interface.
+The <b>IFaxIncomingJobs</b> interface is accessed through the <a href="https://msdn.microsoft.com/291f8709-c10f-4041-864f-82431edd7fab">IFaxIncomingQueue</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingJobs</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxIncomingJobs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingJobs</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxIncomingJobs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,19 +73,19 @@ The <b>IFaxIncomingJobs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684933(v=VS.85).aspx">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/d7827f5b-68f9-4b2d-9a88-a0dcf933a041">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684933(v=VS.85).aspx">get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> collection.
+The <a href="https://msdn.microsoft.com/d7827f5b-68f9-4b2d-9a88-a0dcf933a041">get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686185(v=VS.85).aspx">get_Item</a>
+<a href="https://msdn.microsoft.com/e6d1dbb5-7019-4a84-8118-4aff00a87b1b">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> collection.
+Retrieves a <a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a> object from the <a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a> collection.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Retrieves a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686160(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/17d63c5f-2aa7-48fc-9a35-7c3ff36e0d69">Count</a>
 
 
 </td>
@@ -109,7 +109,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686160(v=VS.85).aspx">Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> collection. This is the total number of incoming jobs for the fax server.
+The <a href="https://msdn.microsoft.com/17d63c5f-2aa7-48fc-9a35-7c3ff36e0d69">Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a> collection. This is the total number of incoming jobs for the fax server.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686160(v=VS.85).aspx">Co
 
 
 
-To create a <b>FaxIncomingJobs</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms686761(v=VS.85).aspx">IFaxIncomingQueue::GetJobs</a> method.
+To create a <b>FaxIncomingJobs</b> object in C++, call the <a href="https://msdn.microsoft.com/c739a92b-4b3e-4ab5-8b17-4bc4db19ed0b">IFaxIncomingQueue::GetJobs</a> method.
 
 
 
@@ -130,15 +130,15 @@ To create a <b>FaxIncomingJobs</b> object in C++, call the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a>
+<a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686165(v=VS.85).aspx">IFaxIncomingQueue</a>
+<a href="https://msdn.microsoft.com/291f8709-c10f-4041-864f-82431edd7fab">IFaxIncomingQueue</a>
  
 
  

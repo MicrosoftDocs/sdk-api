@@ -4,10 +4,10 @@ title: IMFByteStreamProxyClassFactory
 author: windows-sdk-content
 description: Creates a proxy to a byte stream.
 old-location: mf\imfbytestreamproxyclassfactory.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: DF29B5FC-864F-4400-8EDB-3A2CD797E37A
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFByteStreamProxyClassFactory, IMFByteStreamProxyClassFactory interface [Media Foundation], IMFByteStreamProxyClassFactory interface [Media Foundation],described, mf.imfbytestreamproxyclassfactory, mfobjects/IMFByteStreamProxyClassFactory
 ms.prod: windows
 ms.technology: windows-sdk

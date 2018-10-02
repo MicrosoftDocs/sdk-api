@@ -7,7 +7,7 @@ old-location: windowssetupandmigration\oobe_completed_callback.htm
 tech.root: WNF
 ms.assetid: 9786D6C3-82B1-4546-9BE9-7705AD3B7DBD
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OOBE_COMPLETED_CALLBACK, OOBE_COMPLETED_CALLBACK callback, OOBE_COMPLETED_CALLBACK callback function, oobenotification/OOBE_COMPLETED_CALLBACK, windowssetupandmigration.oobe_completed_callback
 ms.prod: windows
 ms.technology: windows-sdk

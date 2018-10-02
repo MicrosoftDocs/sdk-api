@@ -4,10 +4,10 @@ title: IMF2DBuffer::Lock2D
 author: windows-sdk-content
 description: Gives the caller access to the memory in the buffer.
 old-location: mf\imf2dbuffer_lock2d.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 887a7394-9fe0-473a-825b-f095b01626c4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 887a7394-9fe0-473a-825b-f095b01626c4, IMF2DBuffer interface [Media Foundation],Lock2D method, IMF2DBuffer.Lock2D, IMF2DBuffer::Lock2D, Lock2D, Lock2D method [Media Foundation], Lock2D method [Media Foundation],IMF2DBuffer interface, mf.imf2dbuffer_lock2d, mfobjects/IMF2DBuffer::Lock2D
 ms.prod: windows-hardware
 ms.technology: windows-devices

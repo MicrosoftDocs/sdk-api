@@ -7,7 +7,7 @@ old-location: dshow\allocator_properties.htm
 tech.root: DirectShow
 ms.assetid: 813e4693-b549-4045-aff5-08f2dd754b6e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ALLOCATOR_PROPERTIES, ALLOCATOR_PROPERTIES structure [DirectShow], ALLOCATOR_PROPERTIESStructure, _AllocatorProperties, dshow.allocator_properties, strmif/ALLOCATOR_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

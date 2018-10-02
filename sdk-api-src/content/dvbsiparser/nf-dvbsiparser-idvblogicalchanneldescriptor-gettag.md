@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchanneldescriptor_gettag.htm
 tech.root: MSTV
 ms.assetid: fce4b74e-e7bb-419d-bd5a-849c2d050ee9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [DirectShow], GetTag method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetTag method, IDvbLogicalChannelDescriptor.GetTag, IDvbLogicalChannelDescriptor::GetTag, IDvbLogicalChannelDescriptorGetTag, dvbsiparser/IDvbLogicalChannelDescriptor::GetTag, mstv.idvblogicalchanneldescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

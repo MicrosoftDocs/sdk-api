@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_getprogress.htm
 tech.root: Bits
 ms.assetid: 30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ TBD
 #### - pProgress [out]
 
 Contains data that you can use to calculate the percentage of the job that is complete. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362806(v=VS.85).aspx">BG_JOB_PROGRESS</a>.
+<a href="https://msdn.microsoft.com/92c5d1d6-1e0b-4b92-9dc5-ec9a4e2c4649">BG_JOB_PROGRESS</a>.
 
 
 ## -returns
@@ -115,7 +115,7 @@ The <i>pProgress</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362806(v=VS.85).aspx">BG_JOB_PROGRESS</a>
+<a href="https://msdn.microsoft.com/92c5d1d6-1e0b-4b92-9dc5-ec9a4e2c4649">BG_JOB_PROGRESS</a>
  
 
  

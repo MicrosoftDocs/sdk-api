@@ -7,7 +7,7 @@ old-location: adsi\iadsadsysteminfo_refreshschemacache.htm
 tech.root: ADSI
 ms.assetid: 4531c041-a5a7-4de1-a3c4-c544cb4d6820
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsADSystemInfo interface [ADSI],RefreshSchemaCache method, IADsADSystemInfo.RefreshSchemaCache, IADsADSystemInfo::RefreshSchemaCache, RefreshSchemaCache, RefreshSchemaCache method [ADSI], RefreshSchemaCache method [ADSI],IADsADSystemInfo interface, _ds_iadsadsysteminfo_refreshschemacache, adsi.iadsadsysteminfo__refreshschemacache, adsi.iadsadsysteminfo_refreshschemacache, iads/IADsADSystemInfo::RefreshSchemaCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\read_file_usn_data.htm
 tech.root: fileio
 ms.assetid: 8c403eec-7504-4a69-9f05-7a3a164557a6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PREAD_FILE_USN_DATA, PREAD_FILE_USN_DATA, PREAD_FILE_USN_DATA structure pointer [Files], READ_FILE_USN_DATA, READ_FILE_USN_DATA structure [Files], fs.read_file_usn_data, winioctl/PREAD_FILE_USN_DATA, winioctl/READ_FILE_USN_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUnknown_GetSite function
 author: windows-sdk-content
 description: Calls the specified object's IObjectWithSite::GetSite method.
 old-location: shell\IUnknown_GetSite.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 95e83078-ab74-40d6-8e31-653e578770f2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IUnknown_GetSite, IUnknown_GetSite function [Windows Shell], _win32_IUnknown_GetSite, shell.IUnknown_GetSite, shlwapi/IUnknown_GetSite
 ms.prod: windows-hardware
 ms.technology: windows-devices

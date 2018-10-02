@@ -7,7 +7,7 @@ old-location: dshow\iselector_get_numsources.htm
 tech.root: DirectShow
 ms.assetid: ff04e32f-7902-417e-b0d4-125914928679
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ISelector interface [DirectShow],get_NumSources method, ISelector.get_NumSources, ISelector::get_NumSources, ISelectorget_NumSources, dshow.iselector_get_numsources, get_NumSources, get_NumSources method [DirectShow], get_NumSources method [DirectShow],ISelector interface, vidcap/ISelector::get_NumSources
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfactivelanguageprofilenotifysink.htm
 tech.root: TSF
 ms.assetid: c70141e8-c948-44f4-914e-454327aadf2b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfActiveLanguageProfileNotifySink, ITfActiveLanguageProfileNotifySink interface [Text Services Framework], ITfActiveLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itfactivelanguageprofilenotifysink_ref, msctf/ITfActiveLanguageProfileNotifySink, tsf.itfactivelanguageprofilenotifysink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ Called when the active language or text service changes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

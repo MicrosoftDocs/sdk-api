@@ -7,7 +7,7 @@ old-location: wintouch\closegestureinfohandle.htm
 tech.root: wintouch
 ms.assetid: f2bf98b2-a4f7-4b63-b9ae-b2534415cb4b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CloseGestureInfoHandle, CloseGestureInfoHandle function [Windows Touch], wintouch.closegestureinfohandle, winuser/CloseGestureInfoHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,17 +102,21 @@ If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=13
 
 The following code shows a handler that closes the <a href="https://msdn.microsoft.com/f5b8b530-ff1e-4d78-a12f-86990fe9ac88">GESTUREINFO</a> handle if the gesture has been handled.
 
-
-```cpp
-  LRESULT DecodeGesture(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>  LRESULT DecodeGesture(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
     // Create a structure to populate and retrieve the extra message info.
     GESTUREINFO gi;  
     
-    ZeroMemory(&gi, sizeof(GESTUREINFO));
+    ZeroMemory(&amp;gi, sizeof(GESTUREINFO));
     
     gi.cbSize = sizeof(GESTUREINFO);
 
-    BOOL bResult  = GetGestureInfo((HGESTUREINFO)lParam, &gi);
+    BOOL bResult  = GetGestureInfo((HGESTUREINFO)lParam, &amp;gi);
     BOOL bHandled = FALSE;
 
     if (bResult){
@@ -144,7 +148,7 @@ The following code shows a handler that closes the <a href="https://msdn.microso
         }
     }else{
         DWORD dwErr = GetLastError();
-        if (dwErr > 0){
+        if (dwErr &gt; 0){
             //MessageBoxW(hWnd, L"Error!", L"Could not retrieve a GESTUREINFO structure.", MB_OK);
         }
     }
@@ -154,10 +158,10 @@ The following code shows a handler that closes the <a href="https://msdn.microso
         return DefWindowProc(hWnd, message, wParam, lParam);
     }
   }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

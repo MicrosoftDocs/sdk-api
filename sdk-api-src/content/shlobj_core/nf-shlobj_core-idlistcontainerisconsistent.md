@@ -4,10 +4,10 @@ title: IDListContainerIsConsistent function
 author: windows-sdk-content
 description: Verifies that the container structure of an IDList is valid.
 old-location: shell\IDListContainerIsConsistent.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2B61EDB2-F967-450a-9294-4A6597859F2C
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IDListContainerIsConsistent, IDListContainerIsConsistent function [Windows Shell], shell.IDListContainerIsConsistent, shlobj_core/IDListContainerIsConsistent
 ms.prod: windows-hardware
 ms.technology: windows-devices

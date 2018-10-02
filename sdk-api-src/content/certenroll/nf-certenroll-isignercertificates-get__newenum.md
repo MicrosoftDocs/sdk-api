@@ -4,10 +4,10 @@ title: ISignerCertificates::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\isignercertificates__newenum_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 9f5325b5-aa8d-443d-ac82-793cd9bfd28b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ISignerCertificates interface [Security],_NewEnum property, ISignerCertificates._NewEnum, ISignerCertificates.get__NewEnum, ISignerCertificates::_NewEnum, ISignerCertificates::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ISignerCertificates interface, certenroll/ISignerCertificates::_NewEnum, certenroll/ISignerCertificates::get__NewEnum, get__NewEnum, security.isignercertificates__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a>
+<a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376821(v=VS.85).aspx">ISignerCertificates</a>
+<a href="https://msdn.microsoft.com/420d6550-514a-4fea-987b-6deecbc9b717">ISignerCertificates</a>
  
 
  

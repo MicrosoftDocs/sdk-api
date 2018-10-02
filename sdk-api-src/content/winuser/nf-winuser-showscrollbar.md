@@ -4,10 +4,10 @@ title: ShowScrollBar function
 author: windows-sdk-content
 description: The ShowScrollBar function shows or hides the specified scroll bar.
 old-location: controls\ShowScrollBar.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\showscrollbar.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: SB_BOTH, SB_CTL, SB_HORZ, SB_VERT, ShowScrollBar, ShowScrollBar function [Windows Controls], _win32_ShowScrollBar, _win32_ShowScrollBar_cpp, controls.ShowScrollBar, controls._win32_ShowScrollBar, winuser/ShowScrollBar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,7 +162,7 @@ You should not call this function to hide a scroll bar while processing a scroll
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787579(v=VS.85).aspx">EnableScrollBar</a>
+<a href="https://msdn.microsoft.com/f00224d5-5f37-4b18-91e2-63c66797b243">EnableScrollBar</a>
  
 
  

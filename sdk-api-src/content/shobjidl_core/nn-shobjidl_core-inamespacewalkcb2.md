@@ -4,10 +4,10 @@ title: INamespaceWalkCB2
 author: windows-sdk-content
 description: Extends INamespaceWalkCB with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.
 old-location: shell\INamespaceWalkCB2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a748083b-a99e-4015-93da-112d2950f623
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: INamespaceWalkCB2, INamespaceWalkCB2 interface [Windows Shell], INamespaceWalkCB2 interface [Windows Shell],described, _shell_INamespaceWalkCB2, shell.INamespaceWalkCB2, shobjidl_core/INamespaceWalkCB2
 ms.prod: windows
 ms.technology: windows-sdk

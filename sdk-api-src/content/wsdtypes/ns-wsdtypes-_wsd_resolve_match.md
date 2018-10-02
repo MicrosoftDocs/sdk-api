@@ -7,7 +7,7 @@ old-location: ncd\wsd_resolve_match_struct.htm
 tech.root: WsdApi
 ms.assetid: eabcc3af-282c-4299-8061-6cddf14eca6b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSD_RESOLVE_MATCH, WSD_RESOLVE_MATCH structure, _WSD_RESOLVE_MATCH, ncd.wsd_resolve_match_struct, wsdtypes/WSD_RESOLVE_MATCH
 ms.prod: windows
 ms.technology: windows-sdk

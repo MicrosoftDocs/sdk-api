@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertysetft.htm
 tech.root: WMI_v2
 ms.assetid: d71c0378-0b97-44ea-9f42-e533b93f195e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_PropertySetFT, MI_PropertySetFT structure [Windows Management Infrastructure (MI)], _MI_PropertySetFT, mi/MI_PropertySetFT, wmi_v2.mi_propertysetft
 ms.prod: windows
 ms.technology: windows-sdk

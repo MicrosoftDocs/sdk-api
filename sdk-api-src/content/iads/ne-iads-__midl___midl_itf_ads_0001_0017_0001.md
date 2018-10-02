@@ -7,7 +7,7 @@ old-location: adsi\ads_systemflag_enum.htm
 tech.root: ADSI
 ms.assetid: 7b77bcf0-8db9-4b27-96a4-953a4fa426f5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADS_SYSTEMFLAG_ATTR_IS_CONSTRUCTED, ADS_SYSTEMFLAG_ATTR_NOT_REPLICATED, ADS_SYSTEMFLAG_CONFIG_ALLOW_LIMITED_MOVE, ADS_SYSTEMFLAG_CONFIG_ALLOW_MOVE, ADS_SYSTEMFLAG_CONFIG_ALLOW_RENAME, ADS_SYSTEMFLAG_CR_NTDS_DOMAIN, ADS_SYSTEMFLAG_CR_NTDS_NC, ADS_SYSTEMFLAG_DISALLOW_DELETE, ADS_SYSTEMFLAG_DOMAIN_DISALLOW_MOVE, ADS_SYSTEMFLAG_DOMAIN_DISALLOW_RENAME, ADS_SYSTEMFLAG_ENUM, ADS_SYSTEMFLAG_ENUM enumeration [ADSI], __MIDL___MIDL_itf_ads_0001_0017_0001, _ds_ads_systemflag_enum, adsi.ads__systemflag__enum, adsi.ads_systemflag_enum, iads/ADS_SYSTEMFLAG_ATTR_IS_CONSTRUCTED, iads/ADS_SYSTEMFLAG_ATTR_NOT_REPLICATED, iads/ADS_SYSTEMFLAG_CONFIG_ALLOW_LIMITED_MOVE, iads/ADS_SYSTEMFLAG_CONFIG_ALLOW_MOVE, iads/ADS_SYSTEMFLAG_CONFIG_ALLOW_RENAME, iads/ADS_SYSTEMFLAG_CR_NTDS_DOMAIN, iads/ADS_SYSTEMFLAG_CR_NTDS_NC, iads/ADS_SYSTEMFLAG_DISALLOW_DELETE, iads/ADS_SYSTEMFLAG_DOMAIN_DISALLOW_MOVE, iads/ADS_SYSTEMFLAG_DOMAIN_DISALLOW_RENAME, iads/ADS_SYSTEMFLAG_ENUM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,11 +121,15 @@ For <b>classSchema</b> and <b>attributeSchema</b> objects, the 0x10 bit of the <
 
 The following code example shows how elements of the <b>ADS_SYSTEMFLAG_ENUM</b> enumeration, together with the  <a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a> interface, are used to search non-replicated properties.
 
-
-```cpp
-#include <wchar.h>
-#include <activeds.h>
-#include <atlbase.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;wchar.h&gt;
+#include &lt;activeds.h&gt;
+#include &lt;atlbase.h&gt;
  
 HRESULT hr = E_FAIL;
 LPWSTR szPrefix = L"LDAP://%s";
@@ -133,7 +137,7 @@ LPWSTR szPath = NULL;
 IDirectorySearch *pSchemaNC = NULL;
 IADs *pObject = NULL;
 size_t nLength = 0;
-LPWSTR pszSearchFilterTemplate = L"(&(objectCategory=attributeSchema)(systemFlags:1.2.840.113556.1.4.804:=%d))";
+LPWSTR pszSearchFilterTemplate = L"(&amp;(objectCategory=attributeSchema)(systemFlags:1.2.840.113556.1.4.804:=%d))";
 LPWSTR pszSearchFilter = NULL;
  
 CoInitialize(NULL);     // Initialize COM
@@ -145,11 +149,11 @@ hr = ADsOpenObject(L"LDAP://rootDSE",
                 NULL,
                 ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                 IID_IADs,
-                (void**)&pObject);
+                (void**)&amp;pObject);
 if (SUCCEEDED(hr))
 {
     CComVarinat svar;
-    hr = pObject->Get(CComBSTR("schemaNamingContext"), &svar);
+    hr = pObject-&gt;Get(CComBSTR("schemaNamingContext"), &amp;svar);
     if (SUCCEEDED(hr))
     {
         nLength = wcslen(szPrefix) + wcslen(svar.bstrVal) + 1;
@@ -161,7 +165,7 @@ if (SUCCEEDED(hr))
             NULL,
             ADS_SECURE_AUTHENTICATION, 
             IID_IDirectorySearch,
-            (void**)&pSchemaNC);
+            (void**)&amp;pSchemaNC);
 
         delete [] szPath;
 
@@ -193,7 +197,7 @@ if (SUCCEEDED(hr))
             IADs    * pIADs = NULL;
  
             // Set the search preference.
-            hr = pSchemaNC->SetSearchPreference( &SearchPrefs, dwNumPrefs);
+            hr = pSchemaNC-&gt;SetSearchPreference( &amp;SearchPrefs, dwNumPrefs);
             if (FAILED(hr)) 
             {
                 return hr;
@@ -204,26 +208,26 @@ if (SUCCEEDED(hr))
             pszAttribute[0] = L"cn";
 
             // Execute the search.
-            hr = pSchemaNC->ExecuteSearch(pszSearchFilter,
+            hr = pSchemaNC-&gt;ExecuteSearch(pszSearchFilter,
                                           pszAttribute,
                                           dwAttrNameSize,
-                                          &hSearch );
+                                          &amp;hSearch );
 
             delete [] pszSearchFilter;
             if ( SUCCEEDED(hr) ) 
             { 
                 // Call IDirectorySearch::GetNextRow() to retrieve 
                 // the next row of data.
-                while( pSchemaNC->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS) 
+                while( pSchemaNC-&gt;GetNextRow( hSearch) != S_ADS_NOMORE_ROWS) 
                 {
                     // Loop through the array of passed column names,
                     // print the data for each column.
-                    for (DWORD x = 0; x < dwAttrNameSize; x++) 
+                    for (DWORD x = 0; x &lt; dwAttrNameSize; x++) 
                     {
                         // Get the data for this column.
-                        hr = pSchemaNC->GetColumn( hSearch, 
+                        hr = pSchemaNC-&gt;GetColumn( hSearch, 
                                            pszAttribute[x], 
-                                           &col );
+                                           &amp;col );
                         if ( SUCCEEDED(hr) ) 
                         {
                             // Print the data for the column and 
@@ -232,32 +236,32 @@ if (SUCCEEDED(hr))
                             {
                                 wprintf(L"%s: %s\r\n", 
                                 pszAttribute[x], 
-                                col.pADsValues->CaseIgnoreString); 
+                                col.pADsValues-&gt;CaseIgnoreString); 
                             }
                             else
                             {
-                                wprintf(L"<%s property is not a string>", pszAttribute[x]);
+                                wprintf(L"&lt;%s property is not a string&gt;", pszAttribute[x]);
                             }
 
-                            pSchemaNC->FreeColumn( &col );
+                            pSchemaNC-&gt;FreeColumn( &amp;col );
                         }
                     }
                 }
 
                 // Close the search handle to clean up.
-                pSchemaNC->CloseSearchHandle(hSearch);
+                pSchemaNC-&gt;CloseSearchHandle(hSearch);
             } 
         }
     } 
 
-    pObject->Release();
+    pObject-&gt;Release();
 }
 
 CoUninitialize();    // uninitialize COM.
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

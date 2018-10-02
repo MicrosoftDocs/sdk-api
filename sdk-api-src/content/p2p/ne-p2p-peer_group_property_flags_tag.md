@@ -4,10 +4,10 @@ title: peer_group_property_flags_tag
 author: windows-sdk-content
 description: The PEER_GROUP_PROPERTY_FLAGS flags are used to specify various peer group membership settings.
 old-location: p2p\peer_group_property_flags.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: ce8a4245-391d-4433-8811-8d190d94815c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PEER_DEFER_EXPIRATION, PEER_DISABLE_PRESENCE, PEER_GROUP_PROPERTY_FLAGS, PEER_GROUP_PROPERTY_FLAGS enumeration [Peer Networking], PEER_MEMBER_DATA_OPTIONAL, p2p.peer_group_property_flags, p2p/PEER_DEFER_EXPIRATION, p2p/PEER_DISABLE_PRESENCE, p2p/PEER_GROUP_PROPERTY_FLAGS, p2p/PEER_MEMBER_DATA_OPTIONAL, peer_group_property_flags_tag
 ms.prod: windows
 ms.technology: windows-sdk

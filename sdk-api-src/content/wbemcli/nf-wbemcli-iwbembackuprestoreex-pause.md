@@ -7,7 +7,7 @@ old-location: wmi\iwbembackuprestoreex_pause.htm
 tech.root: WmiSdk
 ms.assetid: ce4f2637-cf30-4087-bd49-b26554f434ca
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Pause method, IWbemBackupRestoreEx.Pause, IWbemBackupRestoreEx::Pause, Pause, Pause method [Windows Management Instrumentation], Pause method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Pause, wmi.iwbembackuprestoreex_pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,13 +82,17 @@ When implementing the <b>Pause</b> method, the <a href="https://msdn.microsoft.c
 
 The following C++ example shows how to correctly call the <b>IWbemBackupRestoreEx::Pause</b> method.
 
-
-```cpp
-// The pInt variable is of type IWbemBackupRestoreEx*
-pInt->Pause();
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The pInt variable is of type IWbemBackupRestoreEx*
+pInt-&gt;Pause();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: ITaskFolder
 author: windows-sdk-content
 description: Provides the methods that are used to register (create) tasks in the folder, remove tasks from the folder, and create or remove subfolders from the folder.
 old-location: taskschd\itaskfolder.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: da0cc808-b284-4d10-be61-d96c5e07d0a8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], ITaskFolder interface [Task Scheduler],described, taskschd.itaskfolder, taskschd/ITaskFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -216,7 +216,7 @@ Gets the path to where the folder is stored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

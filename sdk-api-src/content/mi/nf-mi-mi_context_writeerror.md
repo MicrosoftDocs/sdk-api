@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_writeerror.htm
 tech.root: WMI_v2
 ms.assetid: 7626b488-58a3-4c9c-a80b-9b0a6dd7f533
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Context_WriteError, MI_Context_WriteError function [Windows Management Infrastructure (MI)], MI_RESULT_TYPE_HRESULT, MI_RESULT_TYPE_MI, MI_RESULT_TYPE_WIN32, mi/MI_Context_WriteError, wmi.mi_writeerror, wmi_v2.mi_context_writeerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattgetservices.htm
 tech.root: bltooth
 ms.assetid: 8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothGATTGetServices, BluetoothGATTGetServices function [Bluetooth Devices], bltooth.bluetoothgattgetservices, bluetoothleapis/BluetoothGATTGetServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The number of elements allocated for the <i>ServicesBuffer</i> parameter.
 
 ### -param ServicesBuffer [out, optional]
 
-Pointer to buffer containing a <a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a> structure into which to return services.
+Pointer to buffer containing a <a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a> structure into which to return services.
 
 
 ### -param ServicesBufferActual [out]
@@ -230,9 +230,13 @@ Do not modify the returned service structure,
 
 <b>Example</b>
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ////////////////////////////////////////////////////////////////////////////
 // Determine Services Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -241,7 +245,7 @@ Do not modify the returned service structure,
             hLEDevice,
             0,
             NULL,
-            &serviceBufferCount,
+            &amp;serviceBufferCount,
             BLUETOOTH_GATT_FLAG_NONE);
     
     if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -268,17 +272,17 @@ Do not modify the returned service structure,
             hLEDevice,
             serviceBufferCount,
             pServiceBuffer,
-            &numServices,
+            &amp;numServices,
             BLUETOOTH_GATT_FLAG_NONE);
     
     if (S_OK != hr) {
         PrintHr("BluetoothGATTGetServices - Actual Data", hr);
         goto Done;
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -287,7 +291,7 @@ Do not modify the returned service structure,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a>
+<a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpathdata_removecommandsatend.htm
 tech.root: direct2d
 ms.assetid: A1DB006D-9986-482A-A9F0-9D7C22ABC604
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],RemoveCommandsAtEnd method, ID2D1SvgPathData.RemoveCommandsAtEnd, ID2D1SvgPathData::RemoveCommandsAtEnd, RemoveCommandsAtEnd, RemoveCommandsAtEnd method [Direct2D], RemoveCommandsAtEnd method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::RemoveCommandsAtEnd, direct2d.id2d1svgpathdata_removecommandsatend
 ms.prod: windows-hardware
 ms.technology: windows-devices

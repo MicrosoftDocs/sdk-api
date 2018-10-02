@@ -7,7 +7,7 @@ old-location: mstv\ibda_devicecontrol_startchanges.htm
 tech.root: MSTV
 ms.assetid: 989cdd9b-ea5b-4a80-b157-9469a210b966
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_DeviceControl interface [Microsoft TV Technologies],StartChanges method, IBDA_DeviceControl.StartChanges, IBDA_DeviceControl::StartChanges, IBDA_DeviceControlStartChanges, StartChanges, StartChanges method [Microsoft TV Technologies], StartChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, bdaiface/IBDA_DeviceControl::StartChanges, mstv.ibda_devicecontrol_startchanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,11 +86,11 @@ The device filter validates and accumulates all changes requested after <b>Start
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693278(v=VS.85).aspx">IBDA_DeviceControl Interface</a>
+<a href="https://msdn.microsoft.com/41e167b0-100e-41d2-8759-0411a10931ae">IBDA_DeviceControl Interface</a>
  
 
  

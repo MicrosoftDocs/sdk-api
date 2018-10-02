@@ -7,7 +7,7 @@ old-location: proc_snap\psswalkmarkersetposition.htm
 tech.root: proc_snap
 ms.assetid: D89EA4DB-D8C6-43D1-B292-D24F1EAB2E43
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PssWalkMarkerSetPosition, PssWalkMarkerSetPosition function, proc_snap.psswalkmarkersetposition, processsnapshot/PssWalkMarkerSetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

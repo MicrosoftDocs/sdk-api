@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo_setattribute.htm
 tech.root: wmformat
 ms.assetid: 174969a2-4fe2-477b-9990-051d23bf8a29
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],SetAttribute method, IWMHeaderInfo.SetAttribute, IWMHeaderInfo2 interface [windows Media Format],SetAttribute method, IWMHeaderInfo2::SetAttribute, IWMHeaderInfo3 interface [windows Media Format],SetAttribute method, IWMHeaderInfo3::SetAttribute, IWMHeaderInfo::SetAttribute, IWMHeaderInfoSetAttribute, SetAttribute, SetAttribute method [windows Media Format], SetAttribute method [windows Media Format],IWMHeaderInfo interface, SetAttribute method [windows Media Format],IWMHeaderInfo2 interface, SetAttribute method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo_setattribute, wmsdkidl/IWMHeaderInfo2::SetAttribute, wmsdkidl/IWMHeaderInfo3::SetAttribute, wmsdkidl/IWMHeaderInfo::SetAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,7 +178,7 @@ This method does not support attributes with values larger than 64 kilobytes. To
 
 The writer object supports this method only before the <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a> method has been called. The reader and synchronous reader objects do not support this method.
 
-Before you can use this method through the <b>IWMHeaderInfo</b> interface of a writer object to set <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> attributes, you must set a profile for the writer to use.
+Before you can use this method through the <b>IWMHeaderInfo</b> interface of a writer object to set <a href="wmformat_glossary.htm">DRM</a> attributes, you must set a profile for the writer to use.
 
 The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
 

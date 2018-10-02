@@ -7,7 +7,7 @@ old-location: tsf\itfkeytraceeventsink.htm
 tech.root: TSF
 ms.assetid: 29785bae-59b8-4bbb-b899-44f6fc3e83bd
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfKeyTraceEventSink, ITfKeyTraceEventSink interface [Text Services Framework], ITfKeyTraceEventSink interface [Text Services Framework],described, _tsf_itfkeytraceeventsink_ref, msctf/ITfKeyTraceEventSink, tsf.itfkeytraceeventsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,40 +98,48 @@ The difference between <b>ITfKeyTraceEventSink</b> and <a href="https://msdn.mic
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pThreadMgr->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
+hr = pThreadMgr-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
 if(SUCCEEDED(hr))
 {
-    hr = pSource->AdviseSink(IID_ITfKeyTraceEventSink, pKeyTraceEventSink, &m_dwKeyTraveEventSinkCookie);
+    hr = pSource-&gt;AdviseSink(IID_ITfKeyTraceEventSink, pKeyTraceEventSink, &amp;m_dwKeyTraveEventSinkCookie);
     
-    pSource->Release();
+    pSource-&gt;Release();
 }
-
-```
-
-
-
-```cpp
-
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pThreadMgr->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
+hr = pThreadMgr-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
 if(SUCCEEDED(hr))
 {
-    hr = pSource->UnadviseSink(m_dwKeyTraveEventSinkCookie);
+    hr = pSource-&gt;UnadviseSink(m_dwKeyTraveEventSinkCookie);
     
-    pSource->Release();
+    pSource-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -150,7 +158,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

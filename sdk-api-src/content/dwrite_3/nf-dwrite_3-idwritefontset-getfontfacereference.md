@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontset_getfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 8cbc1275-29d5-917d-6938-8fb35e5054fb
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetFontFaceReference method, IDWriteFontSet.GetFontFaceReference, IDWriteFontSet::GetFontFaceReference, directwrite.idwritefontset_getfontfacereference, dwrite_3/IDWriteFontSet::GetFontFaceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

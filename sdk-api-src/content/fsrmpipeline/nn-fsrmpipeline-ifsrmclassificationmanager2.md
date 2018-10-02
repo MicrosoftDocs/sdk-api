@@ -4,10 +4,10 @@ title: IFsrmClassificationManager2
 author: windows-sdk-content
 description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting.
 old-location: fsrm\ifsrmclassificationmanager2.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 6ff821e3-f0bd-4c66-8ced-edbbfbc8503b
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmClassificationManager2, IFsrmClassificationManager2 interface [File Server Resource Manager], IFsrmClassificationManager2 interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager2, fsrm.ifsrmclassificationmanager2, fsrmpipeline/IFsrmClassificationManager2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Manages file classification. Use this interface to define properties to use in c
     reporting.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmClassificationManager</b> as the class identifier and 
     <code>__uuidof(IFsrmClassificationManager2)</code> as the interface 
     identifier or use the use the "Fsrm.FsrmClassificationManager" program identifier.

@@ -4,10 +4,10 @@ title: DPA_SaveStream function
 author: windows-sdk-content
 description: Saves the dynamic pointer array (DPA) to a stream by writing out a header, and then calling the specified callback function to write each element.
 old-location: controls\DPA_SaveStream.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_savestream.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: DPA_SaveStream, DPA_SaveStream function [Windows Controls], _win32_DPA_SaveStream, _win32_DPA_SaveStream_cpp, controls.DPA_SaveStream, controls._win32_DPA_SaveStream, dpa_dsa/DPA_SaveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,9 @@ Receives a handle to a DPA.
 
 ### -param pfn [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b5910ac3-9066-49d8-8cb3-796de22428d3">PFNDPASTREAM</a></b>
 
-The callback function. See <a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> for the callback function prototype. 
+The callback function. See <a href="https://msdn.microsoft.com/b5910ac3-9066-49d8-8cb3-796de22428d3">PFNDPASTREAM</a> for the callback function prototype. 
 
 
 ### -param pstream [in]

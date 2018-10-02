@@ -4,10 +4,10 @@ title: "_IMAGEHLP_SYMBOL"
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\imagehlp_symbol64_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 7b39281a-c34b-47ae-a3ff-5f0a7a66a588
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PIMAGEHLP_SYMBOL, IMAGEHLP_SYMBOL, IMAGEHLP_SYMBOL structure, IMAGEHLP_SYMBOL64, IMAGEHLP_SYMBOL64 structure, IMAGEHLP_SYMBOLW64, PIMAGEHLP_SYMBOL64, PIMAGEHLP_SYMBOL64 structure pointer, _IMAGEHLP_SYMBOL, _IMAGEHLP_SYMBOL64, _win32_imagehlp_symbol64_str, base.imagehlp_symbol64_str, dbghelp/IMAGEHLP_SYMBOL64, dbghelp/IMAGEHLP_SYMBOLW64, dbghelp/PIMAGEHLP_SYMBOL64"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,9 +98,13 @@ The decorated or undecorated symbol name. If the buffer is not large enough for 
 This structure supersedes the <b>IMAGEHLP_SYMBOL</b> structure. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>IMAGEHLP_SYMBOL</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
  #define IMAGEHLP_SYMBOL IMAGEHLP_SYMBOL64
  #define PIMAGEHLP_SYMBOL PIMAGEHLP_SYMBOL64
 #else
@@ -112,10 +116,10 @@ This structure supersedes the <b>IMAGEHLP_SYMBOL</b> structure. For more informa
      DWORD MaxNameLength; 
      CHAR  Name[1];  
  } IMAGEHLP_SYMBOL, *PIMAGEHLP_SYMBOL;
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

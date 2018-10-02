@@ -7,7 +7,7 @@ old-location: base\apcproc.htm
 tech.root: Sync
 ms.assetid: 8d52ad73-0172-4d1d-b625-39629e7f5823
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: APCProc, APCProc callback, APCProc callback function, PAPCFUNC, _win32_apcproc, base.apcproc, winnt/APCProc
 ms.prod: windows
 ms.technology: windows-sdk

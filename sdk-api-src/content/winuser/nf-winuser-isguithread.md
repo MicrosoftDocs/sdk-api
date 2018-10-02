@@ -7,7 +7,7 @@ old-location: winmsg\isguithread.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\isguithread.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IsGUIThread, IsGUIThread function [Windows and Messages], _win32_IsGUIThread, _win32_isguithread_cpp, winmsg.isguithread, winui._win32_isguithread, winuser/IsGUIThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ If <i>bConvert</i> is <b>TRUE</b> and the function cannot successfully convert t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows Overview</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows Overview</a>
  
 
  

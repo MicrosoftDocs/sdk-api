@@ -7,7 +7,7 @@ old-location: mediastreaming\transportinformation.htm
 tech.root: mediastreaming
 ms.assetid: c91f84f2-e19b-4bfa-862d-fc5e1dc756d4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: TransportInformation, TransportInformation structure [Media Streaming API], mediastreaming.transportinformation, windows/TransportInformation
 ms.prod: windows
 ms.technology: windows-sdk

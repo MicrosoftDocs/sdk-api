@@ -7,7 +7,7 @@ old-location: winsync\isyncfullenumerationchange.htm
 tech.root: winsync
 ms.assetid: 1e666737-c5dc-4394-9f41-6e77832dd9f6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISyncFullEnumerationChange, ISyncFullEnumerationChange interface [Windows Sync], ISyncFullEnumerationChange interface [Windows Sync],described, winsync.isyncfullenumerationchange, winsync/ISyncFullEnumerationChange
 ms.prod: windows
 ms.technology: windows-sdk

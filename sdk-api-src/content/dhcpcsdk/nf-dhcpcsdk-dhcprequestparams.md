@@ -7,7 +7,7 @@ old-location: dhcp\dhcprequestparams.htm
 tech.root: DHCP
 ms.assetid: 5fcbd1d9-8170-4c2b-ac98-6c04107c46e7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DHCPCAPI_REQUEST_PERSISTENT, DHCPCAPI_REQUEST_SYNCHRONOUS, DhcpRequestParams, DhcpRequestParams function [DHCP], _dhcp_dhcprequestparams, dhcp.dhcprequestparams, dhcpcsdk/DhcpRequestParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

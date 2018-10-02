@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor_getlanguagecode.htm
 tech.root: MSTV
 ms.assetid: f63b7fa9-969e-43d4-95f3-445d6265f445
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IDvbExtendedEventDescriptor.GetLanguageCode, IDvbExtendedEventDescriptor::GetLanguageCode, dvbsiparser/IDvbExtendedEventDescriptor::GetLanguageCode, mstv.idvbextendedeventdescriptor_getlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getserviceidx.htm
 tech.root: MSTV
 ms.assetid: 10e8def6-be78-4b0f-8b47-d0485a1b50f1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetServiceIdx, GetServiceIdx method [Microsoft TV Technologies], GetServiceIdx method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetServiceIdx method, IPBDA_EIT.GetServiceIdx, IPBDA_EIT::GetServiceIdx, dvbsiparser/IPBDA_EIT::GetServiceIdx, mstv.ipbda_eit_getserviceidx
 ms.prod: windows-hardware
 ms.technology: windows-devices

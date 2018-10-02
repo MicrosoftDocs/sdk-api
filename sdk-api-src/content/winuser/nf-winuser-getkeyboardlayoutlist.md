@@ -7,7 +7,7 @@ old-location: inputdev\getkeyboardlayoutlist.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardlayoutlist.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetKeyboardLayoutList, GetKeyboardLayoutList function [Keyboard and Mouse Input], _win32_GetKeyboardLayoutList, _win32_getkeyboardlayoutlist_cpp, inputdev.getkeyboardlayoutlist, winui._win32_getkeyboardlayoutlist, winuser/GetKeyboardLayoutList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,11 +114,11 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646296(v=VS.85).aspx">GetKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/121e5253-bce3-4f64-8b99-3f89006aa355">GetKeyboardLayout</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 

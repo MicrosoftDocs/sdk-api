@@ -7,7 +7,7 @@ old-location: fs\setvolumemountpoint.htm
 tech.root: fileio
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: SetVolumeMountPoint, SetVolumeMountPoint function [Files], SetVolumeMountPointA, SetVolumeMountPointW, _win32_setvolumemountpoint, base.setvolumemountpoint, fs.setvolumemountpoint, winbase/SetVolumeMountPoint, winbase/SetVolumeMountPointA, winbase/SetVolumeMountPointW
 ms.prod: windows-hardware
 ms.technology: windows-devices

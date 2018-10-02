@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_createtunerequest.htm
 tech.root: MSTV
 ms.assetid: 513d4d3e-47df-4a12-80ce-9fc1400af176
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CreateTuneRequest, CreateTuneRequest method [Microsoft TV Technologies], CreateTuneRequest method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],CreateTuneRequest method, ITuningSpace.CreateTuneRequest, ITuningSpace::CreateTuneRequest, ITuningSpaceCreateTuneRequest, mstv.ituningspace_createtunerequest, tuner/ITuningSpace::CreateTuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

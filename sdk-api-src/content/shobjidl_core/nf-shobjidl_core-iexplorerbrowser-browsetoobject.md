@@ -4,10 +4,10 @@ title: IExplorerBrowser::BrowseToObject
 author: windows-sdk-content
 description: Browses to an object.
 old-location: shell\IExplorerBrowser_BrowseToObject.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: cbfe2348-9fdc-4839-bf8b-b2a65caefa4c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: BrowseToObject, BrowseToObject method [Windows Shell], BrowseToObject method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],BrowseToObject method, IExplorerBrowser.BrowseToObject, IExplorerBrowser::BrowseToObject, SBSP_ABSOLUTE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_PARENT, SBSP_RELATIVE, _shell_IExplorerBrowser_BrowseToObject, shell.IExplorerBrowser_BrowseToObject, shobjidl_core/IExplorerBrowser::BrowseToObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

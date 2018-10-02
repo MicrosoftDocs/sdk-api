@@ -7,7 +7,7 @@ old-location: termserv\itssbtarget.htm
 tech.root: TermServ
 ms.assetid: bcb26b43-ec6e-4cc8-9d40-15a7a3a62582
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], ITsSbTarget interface [Remote Desktop Services],described, sbtsv/ITsSbTarget, termserv.itssbtarget
 ms.prod: windows
 ms.technology: windows-sdk

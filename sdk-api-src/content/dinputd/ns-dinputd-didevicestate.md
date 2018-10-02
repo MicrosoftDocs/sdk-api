@@ -7,7 +7,7 @@ old-location: hid\didevicestate.htm
 tech.root: hid
 ms.assetid: 86885ca6-0b1f-42cb-8d6e-d5140e579905
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPDIDEVICESTATE, DIDEVICESTATE, DIDEVICESTATE structure [Human Input Devices], di_ref_53204ab2-7d3d-4a59-8359-ef3fd114147d.xml, dinputd/DIDEVICESTATE, hid.didevicestate"
 ms.prod: windows
 ms.technology: windows-sdk

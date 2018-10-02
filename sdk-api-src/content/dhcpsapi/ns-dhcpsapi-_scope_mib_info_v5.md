@@ -7,7 +7,7 @@ old-location: dhcp\scope_mib_info_v5.htm
 tech.root: DHCP
 ms.assetid: 5144d83e-f21e-4f68-bf33-c7245b31da01
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5 structure pointer [DHCP], SCOPE_MIB_INFO_V5, SCOPE_MIB_INFO_V5 structure [DHCP], _SCOPE_MIB_INFO_V5, dhcp.scope_mib_info_v5, dhcpsapi/LPSCOPE_MIB_INFO_V5, dhcpsapi/SCOPE_MIB_INFO_V5"
 ms.prod: windows
 ms.technology: windows-sdk

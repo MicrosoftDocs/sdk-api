@@ -7,7 +7,7 @@ old-location: etw\trace_guid_registration.htm
 tech.root: ETW
 ms.assetid: fc7b61fb-ef1c-48ec-8523-5f3114b5407a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION structure [ETW], _TRACE_GUID_REGISTRATION, _evt_trace_guid_registration, base.trace_guid_registration, etw.trace_guid_registration, evntrace/TRACE_GUID_REGISTRATION"
 ms.prod: windows
 ms.technology: windows-sdk

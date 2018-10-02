@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_setcontext.htm
 tech.root: seccrypto
 ms.assetid: ba45cda8-49a5-4bd6-af68-90b4b56aff7d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CCertServerPolicy object [Security],SetContext method, ICertServerPolicy interface [Security],SetContext method, ICertServerPolicy.SetContext, ICertServerPolicy::SetContext, SetContext, SetContext method [Security], SetContext method [Security],CCertServerPolicy object, SetContext method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcontext, certif/ICertServerPolicy::SetContext, security.icertserverpolicy_setcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>SetContext</b> method specifies the request  to be used as the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">context</a> for subsequent calls to Certificate Services.
+The <b>SetContext</b> method specifies the request  to be used as the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> for subsequent calls to Certificate Services.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>SetContext</b> method specifies the request  to be used as the <a href="h
 ### -param Context [in]
 
 Specifies the request. This  parameter must be set to the identical value returned in the  <i>Context</i> parameter of the  
-<a href="https://msdn.microsoft.com/en-us/library/Aa385039(v=VS.85).aspx">ICertPolicy::VerifyRequest</a> method.
+<a href="https://msdn.microsoft.com/860f0eb0-5b23-44bd-8416-687a94962f1b">ICertPolicy::VerifyRequest</a> method.
 
 
 ## -returns
@@ -72,7 +72,7 @@ Specifies the request. This  parameter must be set to the identical value return
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -81,25 +81,29 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-The policy module must call the <b>SetContext</b> method first, before calls to any other <a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a> method,  so that the interface  references a valid request.
+The policy module must call the <b>SetContext</b> method first, before calls to any other <a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a> method,  so that the interface  references a valid request.
 
 
 #### Examples
 
-
-```cpp
-// Set the context. The value nContext (long) would be the same
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertPolicy::VerifyRequest.
 // hr is defined as an HRESULT.
-hr = pCertServerPolicy->SetContext( nContext );
+hr = pCertServerPolicy-&gt;SetContext( nContext );
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
     goto error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -108,11 +112,11 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385039(v=VS.85).aspx">ICertPolicy::VerifyRequest</a>
+<a href="https://msdn.microsoft.com/860f0eb0-5b23-44bd-8416-687a94962f1b">ICertPolicy::VerifyRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
  
 
  

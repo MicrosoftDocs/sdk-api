@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_windowstyle.htm
 tech.root: DirectShow
 ms.assetid: ae4ae516-743f-4a27-90d5-108ca26aadd4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyle method, IVideoWindow.get_WindowStyle, IVideoWindow::get_WindowStyle, IVideoWindowget_WindowStyle, control/IVideoWindow::get_WindowStyle, dshow.ivideowindow_get_windowstyle, get_WindowStyle, get_WindowStyle method [DirectShow], get_WindowStyle method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,19 +139,19 @@ This method calls the Windows <b>GetWindowLong</b> function with the value GWL_S
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377304(v=VS.85).aspx">IVideoWindow::get_WindowStyleEx</a>
+<a href="https://msdn.microsoft.com/cdffe918-5802-406e-86b1-d1e9ebb6dbf7">IVideoWindow::get_WindowStyleEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377329(v=VS.85).aspx">IVideoWindow::put_WindowStyle</a>
+<a href="https://msdn.microsoft.com/cd1422d1-16a3-4aae-aadb-772a06173ba3">IVideoWindow::put_WindowStyle</a>
  
 
  

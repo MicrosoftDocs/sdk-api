@@ -7,7 +7,7 @@ old-location: security\tokenbindinggeneratebinding.htm
 tech.root: SecCNG
 ms.assetid: 4289E3F0-17AC-485B-A326-2C8BECD5CABB
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TokenBindingGenerateBinding, TokenBindingGenerateBinding function [Security], security.tokenbindinggeneratebinding, tokenbinding/TokenBindingGenerateBinding
 ms.prod: windows-hardware
 ms.technology: windows-devices

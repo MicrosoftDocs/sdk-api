@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager_activate.htm
 tech.root: directmanipulation
 ms.assetid: 49a5eccd-16a9-4dca-af78-224fd5acb611
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Activate, Activate method [Direct Manipulation], Activate method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],Activate method, IDirectManipulationManager.Activate, IDirectManipulationManager::Activate, directmanipulation.idirectmanipulationmanager_activate, directmanipulation/IDirectManipulationManager::Activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,9 +86,13 @@ Calls to <b>Activate</b> and <a href="https://msdn.microsoft.com/7f80fe8a-e088-4
 
 The following example shows how to activate and deactivate input processing.
 
-
-```
-LRESULT WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam )
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>LRESULT WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam )
 {
     BOOL handled = FALSE;
     switch ( msg )
@@ -98,11 +102,11 @@ LRESULT WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam )
         {
         case SIZE_MINIMIZED:
         case SIZE_MAXHIDE:
-            pManipulationManager->Deactivate(hwnd);
+            pManipulationManager-&gt;Deactivate(hwnd);
             break;
 
         default:
-            pManipulationManager->Activate(hwnd);
+            pManipulationManager-&gt;Activate(hwnd);
             break;
         }
         break;
@@ -115,10 +119,10 @@ LRESULT WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam )
     {
         return 0;
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

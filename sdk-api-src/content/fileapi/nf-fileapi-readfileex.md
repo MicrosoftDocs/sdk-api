@@ -7,7 +7,7 @@ old-location: fs\readfileex.htm
 tech.root: fileio
 ms.assetid: 6c1a4de1-6cae-4c35-bfba-0bc252fadbd9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ReadFileEx, ReadFileEx function [Files], _win32_readfileex, base.readfileex, fileapi/ReadFileEx, fs.readfileex, winbase/ReadFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wintouch\imanpiulationprocessor_processmovewithtime.htm
 tech.root: wintouch
 ms.assetid: 0840ef85-9b18-4248-96fe-93653274a89a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMoveWithTime method, IManipulationProcessor.ProcessMoveWithTime, IManipulationProcessor::ProcessMoveWithTime, ProcessMoveWithTime, ProcessMoveWithTime method [Windows Touch], ProcessMoveWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMoveWithTime, wintouch.imanpiulationprocessor_processmovewithtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,21 +97,25 @@ It is possible to receive touch events out of the order they were produced.  To 
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 static void ProcessMove(TOUCHINPUT* pTouchInput, IManipulationProcessor* pManipulationProcessor){
-  pManipulationProcessor->ProcessMoveWithTime(
-    pTouchInput->dwID, 
-    static_cast<float>(pTouchInput->x), 
-    static_cast<float>(pTouchInput->y), 
-    pTouchInput->dwTime
+  pManipulationProcessor-&gt;ProcessMoveWithTime(
+    pTouchInput-&gt;dwID, 
+    static_cast&lt;float&gt;(pTouchInput-&gt;x), 
+    static_cast&lt;float&gt;(pTouchInput-&gt;y), 
+    pTouchInput-&gt;dwTime
   );
 }
-      
-```
-
-
+      </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

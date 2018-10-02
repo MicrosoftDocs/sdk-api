@@ -4,10 +4,10 @@ title: INameSpaceTreeControlEvents::OnEndLabelEdit
 author: windows-sdk-content
 description: Called after the IShellItem leaves edit mode.
 old-location: shell\INameSpaceTreeControlEvents_OnEndLabelEdit.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: deeb1cc7-e943-47bd-82f0-089fb3f4c3c6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnEndLabelEdit method, INameSpaceTreeControlEvents.OnEndLabelEdit, INameSpaceTreeControlEvents::OnEndLabelEdit, OnEndLabelEdit, OnEndLabelEdit method [Windows Shell], OnEndLabelEdit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnEndLabelEdit, shell.INameSpaceTreeControlEvents_OnEndLabelEdit, shobjidl/INameSpaceTreeControlEvents::OnEndLabelEdit
 ms.prod: windows-hardware
 ms.technology: windows-devices

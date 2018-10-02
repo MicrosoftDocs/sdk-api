@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getbroadcastviewpropriety.htm
 tech.root: MSTV
 ms.assetid: b0b38631-9b0c-4ebe-9cf5-6e5847261136
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetBroadcastViewPropriety, GetBroadcastViewPropriety method [Microsoft TV Technologies], GetBroadcastViewPropriety method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetBroadcastViewPropriety method, IISDB_BIT.GetBroadcastViewPropriety, IISDB_BIT::GetBroadcastViewPropriety, dvbsiparser/IISDB_BIT::GetBroadcastViewPropriety, mstv.iisdb_bit_getbroadcastviewpropriety
 ms.prod: windows-hardware
 ms.technology: windows-devices

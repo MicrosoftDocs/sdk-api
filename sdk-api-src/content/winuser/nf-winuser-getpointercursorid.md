@@ -7,7 +7,7 @@ old-location: inputmsg\getpointercursorid.htm
 tech.root: InputMsg
 ms.assetid: 43211600-ee82-416f-860f-423c581eda75
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPointerCursorId, GetPointerCursorId function [Input Messages and Notifications], inputmsg.getpointercursorid, winuser/GetPointerCursorId
 ms.prod: windows-hardware
 ms.technology: windows-devices

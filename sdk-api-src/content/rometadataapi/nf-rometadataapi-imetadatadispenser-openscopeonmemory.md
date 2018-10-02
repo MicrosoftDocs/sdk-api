@@ -7,7 +7,7 @@ old-location: winrt\imetadatadispenser_openscopeonmemory.htm
 tech.root: WinRT
 ms.assetid: 4558b229-0fe9-4ff7-a666-e69b47cb8170
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScopeOnMemory method, IMetaDataDispenser.OpenScopeOnMemory, IMetaDataDispenser::OpenScopeOnMemory, OpenScopeOnMemory, OpenScopeOnMemory method [Windows Runtime], OpenScopeOnMemory method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScopeOnMemory, winrt.imetadatadispenser_openscopeonmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

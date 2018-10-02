@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublisher_getxmlcontext.htm
 tech.root: WsdApi
 ms.assetid: 9b849b17-0597-4e78-88c6-8ee95bcb754c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,GetXMLContext method, IWSDiscoveryPublisher.GetXMLContext, IWSDiscoveryPublisher::GetXMLContext, ncd.iwsdiscoverypublisher_getxmlcontext, wsddisco/IWSDiscoveryPublisher::GetXMLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

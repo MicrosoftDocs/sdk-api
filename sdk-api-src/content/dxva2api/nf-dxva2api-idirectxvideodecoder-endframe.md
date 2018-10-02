@@ -4,10 +4,10 @@ title: IDirectXVideoDecoder::EndFrame
 author: windows-sdk-content
 description: Signals the end of the decoding operation.
 old-location: mf\idirectxvideodecoder_endframe.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4b8d391e-b679-4adb-8b01-2899996ede46
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 4b8d391e-b679-4adb-8b01-2899996ede46, EndFrame, EndFrame method [Media Foundation], EndFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],EndFrame method, IDirectXVideoDecoder.EndFrame, IDirectXVideoDecoder::EndFrame, dxva2api/IDirectXVideoDecoder::EndFrame, mf.idirectxvideodecoder_endframe
 ms.prod: windows-hardware
 ms.technology: windows-devices

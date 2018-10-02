@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 8b74d1e3-0a57-407c-bf05-f17aa84923e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcSignatureCustomObjectEnumerator.MoveNext, IOpcSignatureCustomObjectEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, msopc/IOpcSignatureCustomObjectEnumerator::MoveNext, opc.iopcsignaturecustomobjectenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices

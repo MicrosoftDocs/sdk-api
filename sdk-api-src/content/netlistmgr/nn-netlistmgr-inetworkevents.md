@@ -7,7 +7,7 @@ old-location: nla\inetworkevents.htm
 tech.root: NLA
 ms.assetid: 75cc6efb-dd1b-40b6-84fe-5ba7c244cd72
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], INetworkEvents interface [Network Awareness],described, netlistmgr/INetworkEvents, nla.inetworkevents
 ms.prod: windows
 ms.technology: windows-sdk

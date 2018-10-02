@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_reinterpretbasetype_const_d2d1_matrix_3x2_f__p
 tech.root: direct2d
 ms.assetid: 6bf93ed8-4ca7-4e6f-b2fb-68f896469667
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1.Matrix3x2F.ReinterpretBaseType, D2D1::Matrix3x2F::ReinterpretBaseType, Matrix3x2F interface [Direct2D],ReinterpretBaseType method, Matrix3x2F.ReinterpretBaseType, Matrix3x2F.ReinterpretBaseType(D2D1_MATRIX_3X2_F), Matrix3x2F::ReinterpretBaseType, Matrix3x2F::ReinterpretBaseType(D2D1_MATRIX_3X2_F), Matrix3x2F::ReinterpretBaseType(const D2D1_MATRIX_3X2_F*), ReinterpretBaseType, ReinterpretBaseType method [Direct2D], ReinterpretBaseType method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::ReinterpretBaseType, direct2d.matrix3x2f_reinterpretbasetype_const_d2d1_matrix_3x2_f__pmatrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Converts the specified <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a> matrix to a <a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a> without making a copy.
+Converts the specified <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a> matrix to a <a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a> without making a copy.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Converts the specified <a href="https://msdn.microsoft.com/en-us/library/Dd36813
 
 ### -param pMatrix
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The matrix to convert.
 

@@ -4,10 +4,10 @@ title: tagREBARBANDINFOA
 author: windows-sdk-content
 description: Contains information that defines a band in a rebar control.
 old-location: controls\REBARBANDINFO.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarbandinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPREBARBANDINFOA, LPREBARBANDINFO, LPREBARBANDINFO structure pointer [Windows Controls], RBBIM_BACKGROUND, RBBIM_CHEVRONLOCATION, RBBIM_CHEVRONSTATE, RBBIM_CHILD, RBBIM_CHILDSIZE, RBBIM_COLORS, RBBIM_HEADERSIZE, RBBIM_ID, RBBIM_IDEALSIZE, RBBIM_IMAGE, RBBIM_LPARAM, RBBIM_SIZE, RBBIM_STYLE, RBBIM_TEXT, RBBS_BREAK, RBBS_CHILDEDGE, RBBS_FIXEDBMP, RBBS_FIXEDSIZE, RBBS_GRIPPERALWAYS, RBBS_HIDDEN, RBBS_HIDETITLE, RBBS_NOGRIPPER, RBBS_NOVERT, RBBS_TOPALIGN, RBBS_USECHEVRON, RBBS_VARIABLEHEIGHT, REBARBANDINFO, REBARBANDINFO structure [Windows Controls], REBARBANDINFOA, REBARBANDINFOW, _win32_REBARBANDINFO, _win32_REBARBANDINFO_cpp, commctrl/LPREBARBANDINFO, commctrl/REBARBANDINFO, commctrl/REBARBANDINFOA, commctrl/REBARBANDINFOW, controls.REBARBANDINFO, controls._win32_REBARBANDINFO, tagREBARBANDINFOA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -377,7 +377,7 @@ Band foreground colors.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
-Band background colors. If <b>hbmBack</b> specifies a background bitmap, these members are ignored. By default, the band will use the background color of the rebar control set with the <a href="https://msdn.microsoft.com/en-us/library/Bb774515(v=VS.85).aspx">RB_SETBKCOLOR</a> message. If a background color is specified here, then this background color will be used instead. 
+Band background colors. If <b>hbmBack</b> specifies a background bitmap, these members are ignored. By default, the band will use the background color of the rebar control set with the <a href="https://msdn.microsoft.com/450a1e16-24f6-4f86-8e46-14009da05efc">RB_SETBKCOLOR</a> message. If a background color is specified here, then this background color will be used instead. 
 
 
 ### -field lpText
@@ -398,7 +398,7 @@ Size of the buffer at <b>lpText</b>, in bytes. If information is not being reque
 
 Type: <b>int</b>
 
-Zero-based index of any image that should be displayed in the band. The image list is set using the <a href="https://msdn.microsoft.com/en-us/library/Bb774513(v=VS.85).aspx">RB_SETBARINFO</a> message. 
+Zero-based index of any image that should be displayed in the band. The image list is set using the <a href="https://msdn.microsoft.com/e4413d46-574f-4ccd-b5fd-3ba6c1e3924b">RB_SETBARINFO</a> message. 
 
 
 ### -field hwndChild
@@ -472,7 +472,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71</a>. Ideal width of the band, in pixels. If the band is maximized to the ideal width (see <a href="https://msdn.microsoft.com/en-us/library/Bb774500(v=VS.85).aspx">RB_MAXIMIZEBAND</a>), the rebar control will attempt to make the band this width. 
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71</a>. Ideal width of the band, in pixels. If the band is maximized to the ideal width (see <a href="https://msdn.microsoft.com/79fff6d0-01f2-4308-b916-38dc06dad894">RB_MAXIMIZEBAND</a>), the rebar control will attempt to make the band this width. 
 
 
 ### -field lParam
@@ -511,7 +511,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-The <b>cxMinChild</b>, <b>cyMinChild</b>, and <b>cx</b> members provide information on dimensions relative to the orientation of the control. That is, for a horizontal rebar control, <b>cxMinChild</b> and <b>cx</b> are horizontal measurements and <b>cyMinChild</b> is a vertical measurement. However, if the control uses the <a href="https://msdn.microsoft.com/en-us/library/Bb775498(v=VS.85).aspx">CCS_VERT</a> style, <b>cxMinChild</b> and <b>cx</b> are vertical measurements and <b>cyMinChild</b> is a horizontal measurement. 
+The <b>cxMinChild</b>, <b>cyMinChild</b>, and <b>cx</b> members provide information on dimensions relative to the orientation of the control. That is, for a horizontal rebar control, <b>cxMinChild</b> and <b>cx</b> are horizontal measurements and <b>cyMinChild</b> is a vertical measurement. However, if the control uses the <a href="Common_Control_Styles.htm">CCS_VERT</a> style, <b>cxMinChild</b> and <b>cx</b> are vertical measurements and <b>cyMinChild</b> is a horizontal measurement. 
 
 
 

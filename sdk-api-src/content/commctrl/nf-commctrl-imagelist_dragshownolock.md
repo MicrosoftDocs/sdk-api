@@ -4,10 +4,10 @@ title: ImageList_DragShowNolock function
 author: windows-sdk-content
 description: Shows or hides the image being dragged.
 old-location: controls\ImageList_DragShowNolock.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragshownolock.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ImageList_DragShowNolock, ImageList_DragShowNolock function [Windows Controls], _win32_ImageList_DragShowNolock, _win32_ImageList_DragShowNolock_cpp, commctrl/ImageList_DragShowNolock, controls.ImageList_DragShowNolock, controls._win32_ImageList_DragShowNolock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Shows or hides the image being dragged.
 
 ### -param fShow
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 A value specifying whether to show or hide the image being dragged. Specify <b>TRUE</b> to show the image or <b>FALSE</b> to hide the image. 
 
@@ -69,7 +69,7 @@ A value specifying whether to show or hide the image being dragged. Specify <b>T
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 

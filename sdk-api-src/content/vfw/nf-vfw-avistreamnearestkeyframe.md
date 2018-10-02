@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnearestkeyframe.htm
 tech.root: Multimedia
 ms.assetid: 90d0e0a8-dc5b-4f7e-868e-03f40f037437
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: AVIStreamNearestKeyFrame, AVIStreamNearestKeyFrame macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrame, multimedia.avistreamnearestkeyframe, vfw/AVIStreamNearestKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,15 +77,19 @@ Starting position to search in the stream.
 
 The <b>AVIStreamNearestKeyFrame</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamNearestKeyFrame(pavi, lPos) \ 
     AVIStreamFindSample(pavi, lPos , FIND_PREV | FIND_KEY) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

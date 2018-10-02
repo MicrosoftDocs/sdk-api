@@ -7,7 +7,7 @@ old-location: wab\_wab_SPropTagArray.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\sproptagarray.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPSPropTagArray, SPropTagArray, SPropTagArray structure [Windows Address Book], _SPropTagArray, _wab_SPropTagArray, wab._wab_SPropTagArray, wabdefs/SPropTagArray"
 ms.prod: windows
 ms.technology: windows-sdk

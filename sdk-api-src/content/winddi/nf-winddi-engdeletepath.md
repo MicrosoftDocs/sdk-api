@@ -4,10 +4,10 @@ title: EngDeletePath function
 author: windows-sdk-content
 description: The EngDeletePath function deletes a path previously allocated by EngCreatePath.
 old-location: display\engdeletepath.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 65ecf4bc-5180-4b4b-a359-298f385b849e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngDeletePath, EngDeletePath function [Display Devices], display.engdeletepath, gdifncs_aa1e2ccc-cc76-4782-b2ff-9867576c82d1.xml, winddi/EngDeletePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

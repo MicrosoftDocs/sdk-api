@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureString_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsmeasurestringmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Graphics.MeasureString, Graphics.MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF), Graphics::MeasureString, Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF), MeasureString, MeasureString methods [GDI+], _gdiplus_CLASS_Graphics_MeasureString_Methods, gdiplus._gdiplus_CLASS_Graphics_MeasureString_Methods, gdiplusgraphics/MeasureString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 MeasureString methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -64,46 +64,46 @@ MeasureString methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535829(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,RectF&,RectF*)</a>
+<a href="https://msdn.microsoft.com/8d6dec6f-0bbb-4bac-b88e-45f2844cec1c">MeasureString(WCHAR*,INT,Font*,RectF&,RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535829(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font and layout rectangle.
+The <a href="https://msdn.microsoft.com/8d6dec6f-0bbb-4bac-b88e-45f2844cec1c">Graphics::MeasureString</a> method measures the extent of the string in the specified font and layout rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535833(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,PointF&,RectF*)</a>
+<a href="https://msdn.microsoft.com/17c5dbb6-32a4-4758-a192-8c414be86f50">MeasureString(WCHAR*,INT,Font*,PointF&,RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535833(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font and layout rectangle.
+The <a href="https://msdn.microsoft.com/17c5dbb6-32a4-4758-a192-8c414be86f50">Graphics::MeasureString</a> method measures the extent of the string in the specified font and layout rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535830(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,PointF&,StringFormat*,RectF*)</a>
+<a href="https://msdn.microsoft.com/16ec387f-5ed6-46e6-bed5-a1bdfef71e2f">MeasureString(WCHAR*,INT,Font*,PointF&,StringFormat*,RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535830(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
+The <a href="https://msdn.microsoft.com/16ec387f-5ed6-46e6-bed5-a1bdfef71e2f">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535831(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,RectF&,StringFormat*,RectF*,INT*,INT*)</a>
+<a href="https://msdn.microsoft.com/95fe1f97-1978-4356-8707-f539adad3853">MeasureString(WCHAR*,INT,Font*,RectF&,StringFormat*,RectF*,INT*,INT*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535831(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
+The <a href="https://msdn.microsoft.com/95fe1f97-1978-4356-8707-f539adad3853">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535832(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,SizeF&,StringFormat*,SizeF*,INT*,INT*)</a>
+<a href="https://msdn.microsoft.com/93b685a3-b79e-49ef-a764-2b54589e2e97">MeasureString(WCHAR*,INT,Font*,SizeF&,StringFormat*,SizeF*,INT*,INT*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535832(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
+The <a href="https://msdn.microsoft.com/93b685a3-b79e-49ef-a764-2b54589e2e97">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
 
 </td>
 </tr>

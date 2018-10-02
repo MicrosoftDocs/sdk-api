@@ -7,7 +7,7 @@ old-location: wmi\chstring_operator_lpcwstr.htm
 tech.root: WmiSdk
 ms.assetid: f7b7575e-e442-487f-9123-c82c471fecdf
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "??BCHString@@QBEPBGXZ, ??BCHString@@QEBAPEBGXZ, CHString interface [Windows Management Instrumentation],operator LPCWSTR method, CHString.operator LPCWSTR, CHString::operator LPCWSTR, chstring/CHString::operator LPCWSTR, operator LPCWSTR, operator LPCWSTR method [Windows Management Instrumentation], operator LPCWSTR method [Windows Management Instrumentation],CHString interface, wmi.chstring_operator_lpcwstr"
 ms.prod: windows-hardware
 ms.technology: windows-devices

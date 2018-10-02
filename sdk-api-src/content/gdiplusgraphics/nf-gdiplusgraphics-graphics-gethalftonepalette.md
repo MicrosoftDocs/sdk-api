@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetHalftonePalette_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gethalftonepalette.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetHalftonePalette, GetHalftonePalette method [GDI+], GetHalftonePalette method [GDI+],Graphics class, Graphics class [GDI+],GetHalftonePalette method, Graphics.GetHalftonePalette, Graphics::GetHalftonePalette, _gdiplus_CLASS_Graphics_GetHalftonePalette_, gdiplus._gdiplus_CLASS_Graphics_GetHalftonePalette_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,10 +85,10 @@ The purpose of the <b>Graphics::GetHalftonePalette</b> method is to enable GDI+ 
 <li>Realize the palette by calling the 
 						<a href="https://msdn.microsoft.com/1c744ad2-09bc-455f-bc3c-9a2583b57a30">RealizePalette</a> function. </li>
 <li>Construct a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object from a handle to the device context. </li>
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object from a handle to the device context. </li>
 <li>Call the
-<a href="https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx">Graphics::DrawImage</a> method of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. </li>
+<a href="https://msdn.microsoft.com/8eaa8e63-a46c-4453-88a6-838785a55b9f">Graphics::DrawImage</a> method of the 
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. </li>
 </ol>
 Be sure to delete the palette when you have finished using it. If you do not follow the preceding procedure, then on an 8-bits-per-pixel-display device, the default, 16-color process is used, which results in a lesser quality halftone.
 
@@ -99,27 +99,31 @@ Be sure to delete the palette when you have finished using it. If you do not fol
 
 The following example draws the same image twice. Before the image is drawn the second time, the code gets a halftone palette, selects the palette into a device context, and realizes the palette.
 
-
-```cpp
-VOID Example_GetHalftonePalette(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetHalftonePalette(HDC hdc)
 {
    Image image(L"Mosaic.png");
    
    Graphics* graphics1 = new Graphics(hdc);
-   graphics1->DrawImage(&image, 10, 10);
+   graphics1-&gt;DrawImage(&amp;image, 10, 10);
    delete graphics1;
    
    HPALETTE hPalette = Graphics::GetHalftonePalette();
    SelectPalette(hdc, hPalette, FALSE);
    RealizePalette(hdc);
    Graphics* graphics2 = new Graphics(hdc);
-   graphics2->DrawImage(&image, 300, 10);
+   graphics2-&gt;DrawImage(&amp;image, 300, 10);
    delete graphics2;
    DeleteObject(hPalette);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -128,11 +132,11 @@ VOID Example_GetHalftonePalette(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535384(v=VS.85).aspx">GetPalette</a>
+<a href="https://msdn.microsoft.com/ffe250ce-0ebc-4470-846f-f45a1de5165e">GetPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
@@ -140,7 +144,7 @@ VOID Example_GetHalftonePalette(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535404(v=VS.85).aspx"> SetPalette</a>
+<a href="https://msdn.microsoft.com/62f1c8c0-788b-41e6-91af-15019b65bc3d"> SetPalette</a>
  
 
  

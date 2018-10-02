@@ -7,7 +7,7 @@ old-location: eaphost\eapcertificatecredential.htm
 tech.root: EAPHost
 ms.assetid: 575967F4-E5CC-433D-919D-258B5849A5B1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapCertificateCredential, EapCertificateCredential structure [EAPHost], _EapCertificateCredential, eaphost.eapcertificatecredential, eaptypes/EapCertificateCredential
 ms.prod: windows
 ms.technology: windows-sdk

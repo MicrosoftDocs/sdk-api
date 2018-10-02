@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_failover_relationship_array.htm
 tech.root: DHCP
 ms.assetid: A4C951F9-D5C6-4210-B77D-DBBD6FF2766C
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_FAILOVER_RELATIONSHIP_ARRAY, DHCP_FAILOVER_RELATIONSHIP_ARRAY, DHCP_FAILOVER_RELATIONSHIP_ARRAY structure [DHCP], LPDHCP_FAILOVER_RELATIONSHIP_ARRAY, LPDHCP_FAILOVER_RELATIONSHIP_ARRAY structure pointer [DHCP], _DHCP_FAILOVER_RELATIONSHIP_ARRAY, dhcp.dhcp_failover_relationship_array, dhcpsapi/DHCP_FAILOVER_RELATIONSHIP_ARRAY, dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

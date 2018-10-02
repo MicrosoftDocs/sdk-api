@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiframebuffer_height.htm
 tech.root: Rdp
 ms.assetid: 56042b85-6f2c-44ec-82ac-81ee9425c863
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Height property [RDP], Height property [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],Height property, IRDPSRAPIFrameBuffer.Height, IRDPSRAPIFrameBuffer.get_Height, IRDPSRAPIFrameBuffer::Height, IRDPSRAPIFrameBuffer::get_Height, get_Height, rdp.irdpsrapiframebuffer_height, rdpencomapi/IRDPSRAPIFrameBuffer::Height, rdpencomapi/IRDPSRAPIFrameBuffer::get_Height
 ms.prod: windows-hardware
 ms.technology: windows-devices

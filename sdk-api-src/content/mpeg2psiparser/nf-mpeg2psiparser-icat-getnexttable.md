@@ -7,7 +7,7 @@ old-location: mstv\icat_getnexttable.htm
 tech.root: MSTV
 ms.assetid: 466643d5-02d1-4ac1-9143-867f503aad09
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetNextTable method, ICAT.GetNextTable, ICAT::GetNextTable, ICATGetNextTable, mpeg2psiparser/ICAT::GetNextTable, mstv.icat_getnexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

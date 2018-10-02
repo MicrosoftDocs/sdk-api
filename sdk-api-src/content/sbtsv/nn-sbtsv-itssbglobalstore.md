@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore.htm
 tech.root: TermServ
 ms.assetid: d25b6f73-ee5f-40e4-9c49-fd48dd3990d2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], ITsSbGlobalStore interface [Remote Desktop Services],described, sbtsv/ITsSbGlobalStore, termserv.itssbglobalstore
 ms.prod: windows
 ms.technology: windows-sdk

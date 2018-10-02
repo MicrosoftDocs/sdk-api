@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createsurfacefromhandle.htm
 tech.root: directcomp
 ms.assetid: 391E98B4-9FFB-4065-91A4-99306B2FEB8F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateSurfaceFromHandle, CreateSurfaceFromHandle method [DirectComposition], CreateSurfaceFromHandle method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSurfaceFromHandle method, IDCompositionDevice.CreateSurfaceFromHandle, IDCompositionDevice::CreateSurfaceFromHandle, dcomp/IDCompositionDevice::CreateSurfaceFromHandle, directcomp.idcompositiondevice_createsurfacefromhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xaudio2\fxmasteringlimiter_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXMASTERINGLIMITER_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FXMASTERINGLIMITER_PARAMETERS, FXMASTERINGLIMITER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXMASTERINGLIMITER_PARAMETERS, xaudio2.fxmasteringlimiter_parameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,13 @@ Parameters for use with the <a href="https://msdn.microsoft.com/762062de-4e19-5e
 
 ### -field Release
 
-Speed, in milliseconds, at which the limiter stops affecting audio after the audio drops below the limiter's threshold, which is specified by the <b>Loudness</b> member. This value must be between <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_MIN_RELEASE (1)</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_MAX_RELEASE (20)</a> and defaults to <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_DEFAULT_RELEASE (6)</a>.
+Speed, in milliseconds, at which the limiter stops affecting audio after the audio drops below the limiter's threshold, which is specified by the <b>Loudness</b> member. This value must be between <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_MIN_RELEASE (1)</a> and <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_MAX_RELEASE (20)</a> and defaults to <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_DEFAULT_RELEASE (6)</a>.
 
 
 
 ### -field Loudness
 
-Loudness metric threshold of the limiter. This value must be between <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_MIN_LOUDNESS (1)</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_MAX_LOUDNESS (1800)</a> and defaults to <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_DEFAULT_LOUDNESS (1000)</a>.
+Loudness metric threshold of the limiter. This value must be between <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_MIN_LOUDNESS (1)</a> and <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_MAX_LOUDNESS (1800)</a> and defaults to <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_DEFAULT_LOUDNESS (1000)</a>.
 
 
 

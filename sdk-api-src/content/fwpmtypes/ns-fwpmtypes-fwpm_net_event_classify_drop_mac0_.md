@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_classify_drop_mac0.htm
 tech.root: FWP
 ms.assetid: 750c2cfa-6799-492d-9e10-b4260541ada7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0, FWPM_NET_EVENT_CLASSIFY_DROP_MAC0 structure [Filtering], FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_, FWP_DIRECTION_FORWARD, FWP_DIRECTION_IN, FWP_DIRECTION_OUT, fwp.fwpm_net_event_classify_drop_mac0, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
 ms.prod: windows
 ms.technology: windows-sdk

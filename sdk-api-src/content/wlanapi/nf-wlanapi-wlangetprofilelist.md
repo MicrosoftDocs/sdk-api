@@ -7,7 +7,7 @@ old-location: nwifi\wlangetprofilelist.htm
 tech.root: NativeWiFi
 ms.assetid: f4336113-538f-4161-a71f-64a432e31f1c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WlanGetProfileList, WlanGetProfileList function [NativeWIFI], nwifi.wlangetprofilelist, wlanapi/WlanGetProfileList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -169,19 +169,23 @@ The following example enumerates the wireless LAN interfaces on the local comput
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <windows.h>
-#include <wlanapi.h>
-#include <objbase.h>
-#include <wtypes.h>
+#include &lt;windows.h&gt;
+#include &lt;wlanapi.h&gt;
+#include &lt;objbase.h&gt;
+#include &lt;wtypes.h&gt;
 
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 // Need to link with Wlanapi.lib and Ole32.lib
 #pragma comment(lib, "wlanapi.lib")
@@ -212,14 +216,14 @@ int wmain()
     PWLAN_PROFILE_INFO_LIST pProfileList = NULL;
     PWLAN_PROFILE_INFO pProfile = NULL;
 
-    dwResult = WlanOpenHandle(dwMaxClient, NULL, &dwCurVersion, &hClient);
+    dwResult = WlanOpenHandle(dwMaxClient, NULL, &amp;dwCurVersion, &amp;hClient);
     if (dwResult != ERROR_SUCCESS) {
         wprintf(L"WlanOpenHandle failed with error: %u\n", dwResult);
         return 1;
         // You can use FormatMessage here to find out why the function failed
     }
 
-    dwResult = WlanEnumInterfaces(hClient, NULL, &pIfList);
+    dwResult = WlanEnumInterfaces(hClient, NULL, &amp;pIfList);
     if (dwResult != ERROR_SUCCESS) {
         wprintf(L"WlanEnumInterfaces failed with error: %u\n", dwResult);
         return 1;
@@ -227,15 +231,15 @@ int wmain()
     } else {
         wprintf(L"WLAN_INTERFACE_INFO_LIST for this system\n");
 
-        wprintf(L"Num Entries: %lu\n", pIfList->dwNumberOfItems);
-        wprintf(L"Current Index: %lu\n", pIfList->dwIndex);
-        for (i = 0; i < (int) pIfList->dwNumberOfItems; i++) {
-            pIfInfo = (WLAN_INTERFACE_INFO *) &pIfList->InterfaceInfo[i];
+        wprintf(L"Num Entries: %lu\n", pIfList-&gt;dwNumberOfItems);
+        wprintf(L"Current Index: %lu\n", pIfList-&gt;dwIndex);
+        for (i = 0; i &lt; (int) pIfList-&gt;dwNumberOfItems; i++) {
+            pIfInfo = (WLAN_INTERFACE_INFO *) &amp;pIfList-&gt;InterfaceInfo[i];
             wprintf(L"  Interface Index[%u]:\t %lu\n", i, i);
-            iRet = StringFromGUID2(pIfInfo->InterfaceGuid, (LPOLESTR) &GuidString, 
+            iRet = StringFromGUID2(pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 
                 sizeof(GuidString)/sizeof(*GuidString)); 
             // For c rather than C++ source code, the above line needs to be
-            // iRet = StringFromGUID2(&pIfInfo->InterfaceGuid, (LPOLESTR) &GuidString, 
+            // iRet = StringFromGUID2(&amp;pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 
             //     sizeof(GuidString)/sizeof(*GuidString)); 
             if (iRet == 0)
                 wprintf(L"StringFromGUID2 failed\n");
@@ -243,10 +247,10 @@ int wmain()
                 wprintf(L"  Interface GUID[%d]: %ws\n",i, GuidString);
             }    
             wprintf(L"  Interface Description[%d]: %ws", i, 
-                pIfInfo->strInterfaceDescription);
+                pIfInfo-&gt;strInterfaceDescription);
             wprintf(L"\n");
             wprintf(L"  Interface State[%d]:\t ", i);
-            switch (pIfInfo->isState) {
+            switch (pIfInfo-&gt;isState) {
             case wlan_interface_state_not_ready:
                 wprintf(L"Not ready\n");
                 break;
@@ -272,15 +276,15 @@ int wmain()
                 wprintf(L"In process of authenticating\n");
                 break;
             default:
-                wprintf(L"Unknown state %ld\n", pIfInfo->isState);
+                wprintf(L"Unknown state %ld\n", pIfInfo-&gt;isState);
                 break;
             }
             wprintf(L"\n");
 
             dwResult = WlanGetProfileList(hClient,
-                                             &pIfInfo->InterfaceGuid,
+                                             &amp;pIfInfo-&gt;InterfaceGuid,
                                              NULL, 
-                                             &pProfileList);
+                                             &amp;pProfileList);
 
             if (dwResult != ERROR_SUCCESS) {
                 wprintf(L"WlanGetProfileList failed with error: %u\n",
@@ -290,18 +294,18 @@ int wmain()
             } else {
                 wprintf(L"WLAN_PROFILE_INFO_LIST for this interface\n");
 
-                wprintf(L"  Num Entries: %lu\n\n", pProfileList->dwNumberOfItems);
+                wprintf(L"  Num Entries: %lu\n\n", pProfileList-&gt;dwNumberOfItems);
 
-                for (j = 0; j < pProfileList->dwNumberOfItems; j++) {
+                for (j = 0; j &lt; pProfileList-&gt;dwNumberOfItems; j++) {
                     pProfile =
-                        (WLAN_PROFILE_INFO *) & pProfileList->ProfileInfo[j];
+                        (WLAN_PROFILE_INFO *) &amp; pProfileList-&gt;ProfileInfo[j];
 
-                    wprintf(L"  Profile Name[%u]:  %ws\n", j, pProfile->strProfileName);
+                    wprintf(L"  Profile Name[%u]:  %ws\n", j, pProfile-&gt;strProfileName);
                     
-                    wprintf(L"  Flags[%u]:\t    0x%x", j, pProfile->dwFlags);
-                    if (pProfile->dwFlags & WLAN_PROFILE_GROUP_POLICY)
+                    wprintf(L"  Flags[%u]:\t    0x%x", j, pProfile-&gt;dwFlags);
+                    if (pProfile-&gt;dwFlags &amp; WLAN_PROFILE_GROUP_POLICY)
                         wprintf(L"   Group Policy");
-                    if (pProfile->dwFlags & WLAN_PROFILE_USER)
+                    if (pProfile-&gt;dwFlags &amp; WLAN_PROFILE_USER)
                         wprintf(L"   Per User Profile");
                     wprintf(L"\n");    
 
@@ -323,10 +327,10 @@ int wmain()
 
     return dwRetVal;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

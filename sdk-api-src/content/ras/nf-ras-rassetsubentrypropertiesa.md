@@ -4,10 +4,10 @@ title: RasSetSubEntryPropertiesA function
 author: windows-sdk-content
 description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry.
 old-location: rras\rassetsubentryproperties.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6bbc826b-e296-42d0-89d0-a13d0ce94929
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: RasSetSubEntryProperties, RasSetSubEntryProperties function [RAS], RasSetSubEntryPropertiesA, RasSetSubEntryPropertiesW, _ras_rassetsubentryproperties, ras/RasSetSubEntryProperties, ras/RasSetSubEntryPropertiesA, ras/RasSetSubEntryPropertiesW, rras.rassetsubentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,7 +138,7 @@ The structure might be followed by an array of <b>null</b>-terminated alternate 
 #### - lpbDeviceConfig [in]
 
 Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
-<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
+<a href="_tapi2_linegetdevconfig">lineGetDevConfig</a>.
 
 
 #### - lpszEntry [in]

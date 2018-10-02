@@ -4,10 +4,10 @@ title: ITravelEntry::Invoke
 author: windows-sdk-content
 description: Deprecated. Invokes the travel entry, navigating to that page.
 old-location: shell\ITravelEntry_Invoke.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 21af8d98-f7b6-4204-b855-a4789492a882
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITravelEntry interface [Windows Shell],Invoke method, ITravelEntry.Invoke, ITravelEntry::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],ITravelEntry interface, shdeprecated/ITravelEntry::Invoke, shell.ITravelEntry_Invoke, zone_ITravelEntry_Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

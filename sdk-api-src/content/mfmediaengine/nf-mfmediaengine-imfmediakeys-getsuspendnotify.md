@@ -4,10 +4,10 @@ title: IMFMediaKeys::GetSuspendNotify
 author: windows-sdk-content
 description: Gets the suspend notify interface of the Content Decryption Module (CDM).
 old-location: mf\imfmediakeys_getsuspendnotify.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 35d76cbc-04c7-49e7-9451-6b032ccd2937
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetSuspendNotify, GetSuspendNotify method [Media Foundation], GetSuspendNotify method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],GetSuspendNotify method, IMFMediaKeys.GetSuspendNotify, IMFMediaKeys::GetSuspendNotify, mf.imfmediakeys_getsuspendnotify, mfmediaengine/IMFMediaKeys::GetSuspendNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

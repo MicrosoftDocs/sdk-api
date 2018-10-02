@@ -4,10 +4,10 @@ title: IUpdateCollection::RemoveAt
 author: windows-sdk-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\iupdatecollection_removeat.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b6d32db8-c935-41f8-a8f3-0730719cac7e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],RemoveAt method, IUpdateCollection.RemoveAt, IUpdateCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_removeat, wuapi/IUpdateCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocumentsequence_getdocuments.htm
 tech.root: printdocs
 ms.assetid: d924e610-1142-4623-b64b-219558fb07d6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetDocuments, GetDocuments method [XPS Documents and Packaging], GetDocuments method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetDocuments method, IXpsOMDocumentSequence.GetDocuments, IXpsOMDocumentSequence::GetDocuments, xps.ixpsomdocumentsequence_getdocuments, xpsobjectmodel/IXpsOMDocumentSequence::GetDocuments
 ms.prod: windows-hardware
 ms.technology: windows-devices

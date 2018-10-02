@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_getobjectattributes.htm
 tech.root: WMDM
 ms.assetid: 4e1f4300-057d-40df-8e5c-75765f9ce337
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [windows Media Device Manager], GetObjectAttributes method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectAttributes method, IWMDMOperation.GetObjectAttributes, IWMDMOperation::GetObjectAttributes, IWMDMOperationGetObjectAttributes, mswmdm/IWMDMOperation::GetObjectAttributes, wmdm.iwmdmoperation_getobjectattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,9 +133,13 @@ When transferring data to the device, you should provide object attributes for o
 
 The following C++ code implements the <b>GetObjectAttributes</b> method. It tries to determine if the file being read (m_File) is a file or folder, and set the returned attributes accordingly.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT GetObjectAttributes(DWORD* pdwAttributes, _WAVEFORMATEX* pFormat)
 {
     // TODO: Display the message: IWMDMOperation event--GetObjectAttributes.
@@ -144,23 +148,23 @@ HRESULT GetObjectAttributes(DWORD* pdwAttributes, _WAVEFORMATEX* pFormat)
         WMDM_FILE_ATTR_AUDIO;
 
     BY_HANDLE_FILE_INFORMATION fileInformation;
-    if (GetFileInformationByHandle(m_File, &fileInformation))
+    if (GetFileInformationByHandle(m_File, &amp;fileInformation))
     {
-        if (fileInformation.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY)
+        if (fileInformation.dwFileAttributes &amp; FILE_ATTRIBUTE_DIRECTORY)
             *pdwAttributes |= WMDM_FILE_ATTR_FOLDER;
         else
             *pdwAttributes |= WMDM_FILE_ATTR_FILE;
 
-        if (fileInformation.dwFileAttributes & FILE_ATTRIBUTE_READONLY)
+        if (fileInformation.dwFileAttributes &amp; FILE_ATTRIBUTE_READONLY)
             *pdwAttributes |= FILE_ATTRIBUTE_READONLY;
     }
 
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

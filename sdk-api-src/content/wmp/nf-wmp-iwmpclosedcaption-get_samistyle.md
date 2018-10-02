@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption_get_samistyle.htm
 tech.root: WMP
 ms.assetid: 27040145-af7a-4d09-9c80-e0907df08f01
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMIStyle method, IWMPClosedCaption.get_SAMIStyle, IWMPClosedCaption::get_SAMIStyle, IWMPClosedCaptionget_SAMIStyle, get_SAMIStyle, get_SAMIStyle method [Windows Media Player], get_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samistyle, wmp/IWMPClosedCaption::get_SAMIStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,17 +100,21 @@ The method succeeded.
 
 A SAMI file can contain several format style definitions. SAMI styles are defined between the &lt;STYLE&gt; and &lt;/STYLE&gt; tags in the SAMI file. A style is defined with a text string preceded by a # character. For example, the following code specifies text formatting to be used for a style.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 #Emphasis1 {Name: Big Bold Italic; font-size: 14pt; text-align: center;
             color: blue; font-family: sans-serif; font-weight: bold;
             font-style: italic;}
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If no SAMI style is specified, the first style defined in the SAMI file is used by default.
 
 <b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>BSTR</b> containing an empty string.

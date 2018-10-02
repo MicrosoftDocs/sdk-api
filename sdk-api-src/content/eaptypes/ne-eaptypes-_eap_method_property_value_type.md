@@ -7,7 +7,7 @@ old-location: eaphost\eap_method_property_value_type.htm
 tech.root: EAPHost
 ms.assetid: 17ef654a-d4a0-45ba-a49d-45add8e78b28
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_TYPE, EAP_METHOD_PROPERTY_VALUE_TYPE enumeration [EAPHost], _EAP_METHOD_PROPERTY_VALUE_TYPE, eaphost.eap_method_property_value_type, eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE, eaptypes/empvtBool, eaptypes/empvtDword, eaptypes/empvtString, empvtBool, empvtDword, empvtString
 ms.prod: windows
 ms.technology: windows-sdk

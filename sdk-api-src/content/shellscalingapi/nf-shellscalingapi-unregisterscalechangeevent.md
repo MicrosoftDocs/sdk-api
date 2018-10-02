@@ -4,10 +4,10 @@ title: UnregisterScaleChangeEvent function
 author: windows-sdk-content
 description: Unregisters for the scale change event registered through RegisterScaleChangeEvent. This function replaces RevokeScaleChangeNotifications.
 old-location: shell\UnregisterScaleChangeEvent.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4BF2F912-857A-4122-A9E1-6704F92240E6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UnregisterScaleChangeEvent, UnregisterScaleChangeEvent function [Windows Shell], shell.UnregisterScaleChangeEvent, shellscalingapi/UnregisterScaleChangeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

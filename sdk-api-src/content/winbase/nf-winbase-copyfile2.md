@@ -7,7 +7,7 @@ old-location: fs\copyfile2.htm
 tech.root: fileio
 ms.assetid: aa2df686-4b61-4d90-ba0b-c78c5a0d2d59
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: CopyFile2, CopyFile2 function [Files], fs.copyfile2, winbase/CopyFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices

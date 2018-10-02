@@ -4,10 +4,10 @@ title: IProviderPropertyConstraintCollection::Reset
 author: windows-sdk-content
 description: Resets the current index to the start of the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_reset.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 57357567-b03f-4261-a267-42f44d829d74
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Reset method, IProviderPropertyConstraintCollection.Reset, IProviderPropertyConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Reset, ncd.iproviderpropertyconstraintcollection_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

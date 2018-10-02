@@ -4,10 +4,10 @@ title: IShellItemResources::EnumResources
 author: windows-sdk-content
 description: Gets a resource enumerator object.
 old-location: shell\IShellItemResources_EnumResources.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 29ac8ac9-4bd1-470c-885a-56f860d50a70
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: EnumResources, EnumResources method [Windows Shell], EnumResources method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],EnumResources method, IShellItemResources.EnumResources, IShellItemResources::EnumResources, _shell_IShellItemResources_EnumResources, shell.IShellItemResources_EnumResources, shobjidl_core/IShellItemResources::EnumResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

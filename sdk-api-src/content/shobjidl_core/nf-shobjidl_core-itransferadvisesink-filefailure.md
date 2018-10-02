@@ -4,10 +4,10 @@ title: ITransferAdviseSink::FileFailure
 author: windows-sdk-content
 description: Called when there is a failure and user interaction is needed.
 old-location: shell\ITransferAdviseSink_FileFailure.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4adc4e9d-f1d1-438c-bae3-23d1259453a6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: FileFailure, FileFailure method [Windows Shell], FileFailure method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],FileFailure method, ITransferAdviseSink.FileFailure, ITransferAdviseSink::FileFailure, _shell_ITransferAdviseSink_FileFailure, shell.ITransferAdviseSink_FileFailure, shobjidl_core/ITransferAdviseSink::FileFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices

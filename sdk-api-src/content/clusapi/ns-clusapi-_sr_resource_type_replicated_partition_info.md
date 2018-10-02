@@ -4,10 +4,10 @@ title: "_SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO"
 author: windows-sdk-content
 description: Describes a replicated partition.
 old-location: mscs\sr_resource_type_replicated_partition_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: D8EAC986-280E-4092-AF1A-17AAB38248AF
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure [Failover Cluster], _SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, mscs.sr_resource_type_replicated_partition_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The capabilities of replicated partition
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

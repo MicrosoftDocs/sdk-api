@@ -4,10 +4,10 @@ title: PFN_DrvQueryGlyphAttrs
 author: windows-sdk-content
 description: The DrvQueryGlyphAttrs function returns information about a font's glyphs.
 old-location: display\drvqueryglyphattrs.htm
-tech.root: display
+tech.root: Display
 ms.assetid: cfc42384-581c-4358-84a9-91028c89bbd8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DrvQueryGlyphAttrs, DrvQueryGlyphAttrs callback, DrvQueryGlyphAttrs callback function [Display Devices], PFN_DrvQueryGlyphAttrs, ddifncs_9040dac6-091f-4400-99e2-ce91dd952494.xml, display.drvqueryglyphattrs, winddi/DrvQueryGlyphAttrs
 ms.prod: windows
 ms.technology: windows-sdk

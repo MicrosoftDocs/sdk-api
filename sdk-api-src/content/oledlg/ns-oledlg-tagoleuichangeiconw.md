@@ -7,7 +7,7 @@ old-location: com\oleuichangeicon_struct.htm
 tech.root: com
 ms.assetid: 2c4ba340-541a-405b-889c-bc51d1d20cc9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPOLEUICHANGEICONW, *POLEUICHANGEICONW, CIF_SELECTCURRENT, CIF_SELECTDEFAULT, CIF_SELECTFROMFILE, CIF_SHOWHELP, CIF_USEICONEXE, LPOLEUICHANGEICON, LPOLEUICHANGEICON structure pointer [COM], OLEUICHANGEICON, OLEUICHANGEICON structure [COM], OLEUICHANGEICONW, POLEUICHANGEICON, POLEUICHANGEICON structure pointer [COM], _ole_OLEUICHANGEICON_str, com.oleuichangeicon_struct, oledlg/LPOLEUICHANGEICON, oledlg/POLEUICHANGEICON, oledlg/tagOLEUICHANGEICON, oledlg/tagOLEUICHANGEICONA, oledlg/tagOLEUICHANGEICONW, tagOLEUICHANGEICON, tagOLEUICHANGEICON structure [COM], tagOLEUICHANGEICONA, tagOLEUICHANGEICONW"
 ms.prod: windows
 ms.technology: windows-sdk

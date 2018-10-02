@@ -4,10 +4,10 @@ title: EncodingType
 author: windows-sdk-content
 description: Specifies the type of encoding applied to a byte array for display purposes.
 old-location: security\encodingtype_enum.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: b42628ae-deed-497b-a20f-d175843b79c2
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: EncodingType, EncodingType enumeration [Security], XCN_CRYPT_STRING_ANY, XCN_CRYPT_STRING_BASE64, XCN_CRYPT_STRING_BASE64HEADER, XCN_CRYPT_STRING_BASE64REQUESTHEADER, XCN_CRYPT_STRING_BASE64X509CRLHEADER, XCN_CRYPT_STRING_BASE64_ANY, XCN_CRYPT_STRING_BINARY, XCN_CRYPT_STRING_HEX, XCN_CRYPT_STRING_HEXADDR, XCN_CRYPT_STRING_HEXASCII, XCN_CRYPT_STRING_HEXASCIIADDR, XCN_CRYPT_STRING_HEXRAW, XCN_CRYPT_STRING_HEX_ANY, XCN_CRYPT_STRING_NOCR, XCN_CRYPT_STRING_NOCRLF, certenroll/EncodingType, certenroll/XCN_CRYPT_STRING_ANY, certenroll/XCN_CRYPT_STRING_BASE64, certenroll/XCN_CRYPT_STRING_BASE64HEADER, certenroll/XCN_CRYPT_STRING_BASE64REQUESTHEADER, certenroll/XCN_CRYPT_STRING_BASE64X509CRLHEADER, certenroll/XCN_CRYPT_STRING_BASE64_ANY, certenroll/XCN_CRYPT_STRING_BINARY, certenroll/XCN_CRYPT_STRING_HEX, certenroll/XCN_CRYPT_STRING_HEXADDR, certenroll/XCN_CRYPT_STRING_HEXASCII, certenroll/XCN_CRYPT_STRING_HEXASCIIADDR, certenroll/XCN_CRYPT_STRING_HEXRAW, certenroll/XCN_CRYPT_STRING_HEX_ANY, certenroll/XCN_CRYPT_STRING_NOCR, certenroll/XCN_CRYPT_STRING_NOCRLF, security.encodingtype_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -159,7 +159,7 @@ Enumeration values are tried in the following order:
 
 ### -field XCN_CRYPT_STRING_BASE64X509CRLHEADER
 
-The string is base64 encoded with beginning and ending <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) headers. This is shown in the following example.
+The string is base64 encoded with beginning and ending <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) headers. This is shown in the following example.
 
 <pre class="syntax" xml:space="preserve"><code>-----BEGIN X509 CRL-----
 MIIDBjCCAm8CAQAwcTERMA8GA1UEAxMIcXV1eC5jb20xDzANBgNVBAsTBkJyYWlu
@@ -239,11 +239,11 @@ Removes the carriage return control character from the encoded string.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
  
 
  

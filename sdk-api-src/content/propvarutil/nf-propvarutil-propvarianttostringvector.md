@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringVector.htm
 tech.root: properties
 ms.assetid: 6618ee02-1939-4c9c-8690-a8cd5d668cdb
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Windows Properties], _shell_PropVariantToStringVector, properties.PropVariantToStringVector, propvarutil/PropVariantToStringVector, shell.PropVariantToStringVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,13 +161,17 @@ If a <b>BSTR</b> in the source <a href="https://msdn.microsoft.com/e86cc279-826d
 
 #### Examples
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 LPWSTR rgszStrings; // The application is expecting propvar to hold 4 strings in a vector
 ULONG cElems;
-HRESULT hr = PropVariantToStringVector(propvar, rgszStrings, ARRAYSIZE(rgszStrings), &cElems);
+HRESULT hr = PropVariantToStringVector(propvar, rgszStrings, ARRAYSIZE(rgszStrings), &amp;cElems);
 if (SUCCEEDED(hr))
 {
      if (cElems == ARRAYSIZE(rgszStrings))
@@ -180,14 +184,14 @@ if (SUCCEEDED(hr))
      }
  
     // Free the cElems strings that PropVariantToStringVector allocated
-    for (ULONG i = 0; i < cElems; i++)
+    for (ULONG i = 0; i &lt; cElems; i++)
     {
         CoTaskMemFree(rgszStrings[i]);
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -196,23 +200,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
+<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
+<a href="shell.PropVariantGetStringElem">PropVariantGetStringElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a>
+<a href="shell.PropVariantToStringVectorAlloc">PropVariantToStringVectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776619(v=VS.85).aspx">VariantToStringArray</a>
+<a href="shell.VariantToStringArray">VariantToStringArray</a>
  
 
  

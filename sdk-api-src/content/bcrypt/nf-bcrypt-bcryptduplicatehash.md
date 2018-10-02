@@ -7,7 +7,7 @@ old-location: security\bcryptduplicatehash_func.htm
 tech.root: SecCNG
 ms.assetid: 451ff5dc-b66a-4e8e-a327-28b4ee618b74
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCryptDuplicateHash, BCryptDuplicateHash function [Security], bcrypt/BCryptDuplicateHash, security.bcryptduplicatehash_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

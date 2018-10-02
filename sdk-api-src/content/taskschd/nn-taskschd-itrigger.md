@@ -4,10 +4,10 @@ title: ITrigger
 author: windows-sdk-content
 description: Provides the common properties that are inherited by all trigger objects.
 old-location: taskschd\itrigger.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 165297c1-704b-4ab3-a9e3-4aa3f10e07b1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ITrigger, ITrigger interface [Task Scheduler], ITrigger interface [Task Scheduler],described, taskschd.itrigger, taskschd/ITrigger, triggers [Task Scheduler],trigger interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

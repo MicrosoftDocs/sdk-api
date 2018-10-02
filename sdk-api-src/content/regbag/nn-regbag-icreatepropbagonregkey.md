@@ -7,7 +7,7 @@ old-location: mstv\icreatepropbagonregkey.htm
 tech.root: MSTV
 ms.assetid: f634a04f-911f-4d53-be70-d5dbf2395ce5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft TV Technologies], ICreatePropBagOnRegKey interface [Microsoft TV Technologies],described, ICreatePropBagOnRegKeyInterface, mstv.icreatepropbagonregkey, regbag/ICreatePropBagOnRegKey
 ms.prod: windows
 ms.technology: windows-sdk

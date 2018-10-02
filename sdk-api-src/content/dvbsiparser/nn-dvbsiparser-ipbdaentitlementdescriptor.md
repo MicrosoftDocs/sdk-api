@@ -7,7 +7,7 @@ old-location: mstv\ipbdaentitlementdescriptor.htm
 tech.root: MSTV
 ms.assetid: 2fe666fa-ebc4-4a47-87ce-085f357ce186
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IPBDAEntitlementDescriptor, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies], IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAEntitlementDescriptor, mstv.ipbdaentitlementdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

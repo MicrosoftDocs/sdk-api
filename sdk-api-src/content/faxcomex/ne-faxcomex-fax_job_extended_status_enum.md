@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_job_extended_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6l.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: FAX_JOB_EXTENDED_STATUS_ENUM, FAX_JOB_EXTENDED_STATUS_ENUM enumeration [Fax Service], _mfax_fax_job_extended_status_enum, fax._mfax_fax_job_extended_status_enum, faxcomex/FAX_JOB_EXTENDED_STATUS_ENUM, faxcomex/fjesANSWERED, faxcomex/fjesBAD_ADDRESS, faxcomex/fjesBUSY, faxcomex/fjesCALL_ABORTED, faxcomex/fjesCALL_BLACKLISTED, faxcomex/fjesCALL_COMPLETED, faxcomex/fjesCALL_DELAYED, faxcomex/fjesDIALING, faxcomex/fjesDISCONNECTED, faxcomex/fjesFATAL_ERROR, faxcomex/fjesHANDLED, faxcomex/fjesINITIALIZING, faxcomex/fjesLINE_UNAVAILABLE, faxcomex/fjesNONE, faxcomex/fjesNOT_FAX_CALL, faxcomex/fjesNO_ANSWER, faxcomex/fjesNO_DIAL_TONE, faxcomex/fjesPARTIALLY_RECEIVED, faxcomex/fjesPROPRIETARY, faxcomex/fjesRECEIVING, faxcomex/fjesTRANSMITTING, fjesANSWERED, fjesBAD_ADDRESS, fjesBUSY, fjesCALL_ABORTED, fjesCALL_BLACKLISTED, fjesCALL_COMPLETED, fjesCALL_DELAYED, fjesDIALING, fjesDISCONNECTED, fjesFATAL_ERROR, fjesHANDLED, fjesINITIALIZING, fjesLINE_UNAVAILABLE, fjesNONE, fjesNOT_FAX_CALL, fjesNO_ANSWER, fjesNO_DIAL_TONE, fjesPARTIALLY_RECEIVED, fjesPROPRIETARY, fjesRECEIVING, fjesTRANSMITTING
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,7 +160,7 @@ The call was aborted.
 
 ### -field fjesPROPRIETARY
 
-Obsolete. For information about proprietary extended status codes, see <a href="https://msdn.microsoft.com/en-us/library/ms687986(v=VS.85).aspx">IFaxOutgoingJob::get_ExtendedStatusCode</a>.
+Obsolete. For information about proprietary extended status codes, see <a href="https://msdn.microsoft.com/f2014b38-b5dd-48bd-a391-457de69bd7b4">IFaxOutgoingJob::get_ExtendedStatusCode</a>.
 
 
 ## -see-also
@@ -168,27 +168,27 @@ Obsolete. For information about proprietary extended status codes, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686029(v=VS.85).aspx">ExtendedStatusCode</a>
+<a href="https://msdn.microsoft.com/15333cd3-e71a-451c-ae93-9e217ea0895c">ExtendedStatusCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687052(v=VS.85).aspx">IFaxIncomingJob::get_ExtendedStatus</a>
+<a href="https://msdn.microsoft.com/4280eb52-c5fa-4e06-8395-b7039d27eccc">IFaxIncomingJob::get_ExtendedStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685069(v=VS.85).aspx">IFaxJobStatus::get_ExtendedStatus</a>
+<a href="https://msdn.microsoft.com/82eb0c39-c61d-4de8-a063-3afeeba5be2e">IFaxJobStatus::get_ExtendedStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686476(v=VS.85).aspx">IFaxJobStatus::get_ExtendedStatusCode</a>
+<a href="https://msdn.microsoft.com/1355f158-8e22-4f25-8ac5-fe81cc175d95">IFaxJobStatus::get_ExtendedStatusCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688590(v=VS.85).aspx">IFaxOutgoingJob::get_ExtendedStatus</a>
+<a href="https://msdn.microsoft.com/8b397aa9-aca0-4da2-9afa-cff0933d5f78">IFaxOutgoingJob::get_ExtendedStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687986(v=VS.85).aspx">IFaxOutgoingJob::get_ExtendedStatusCode</a>
+<a href="https://msdn.microsoft.com/f2014b38-b5dd-48bd-a391-457de69bd7b4">IFaxOutgoingJob::get_ExtendedStatusCode</a>
  
 
  

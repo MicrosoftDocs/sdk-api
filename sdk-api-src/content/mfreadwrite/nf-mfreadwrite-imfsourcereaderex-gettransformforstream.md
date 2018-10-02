@@ -4,10 +4,10 @@ title: IMFSourceReaderEx::GetTransformForStream
 author: windows-sdk-content
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsourcereaderex_gettransformforstream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 39F2D132-5D2B-4389-AB30-FE2942EC3965
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],GetTransformForStream method, IMFSourceReaderEx.GetTransformForStream, IMFSourceReaderEx::GetTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_gettransformforstream, mfreadwrite/IMFSourceReaderEx::GetTransformForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,7 +203,7 @@ You can use this method to configure an MFT after it is inserted into the proces
 </ul>
 If a decoder is present, it appears at index position zero.
 
-To avoid losing any data, you should drain the source reader before calling this method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd389281(v=VS.85).aspx">Draining the Data Pipeline</a>.
+To avoid losing any data, you should drain the source reader before calling this method. For more information, see <a href="processing_media_data_with_the_source_reader.htm">Draining the Data Pipeline</a>.
 
 
 

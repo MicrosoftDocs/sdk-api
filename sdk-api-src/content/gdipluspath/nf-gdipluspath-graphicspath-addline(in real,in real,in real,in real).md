@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods\addline_50realx1_realy1_realx2_realy2.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: AddLine, AddLine method [GDI+], AddLine method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLine method, GraphicsPath.AddLine, GraphicsPath.AddLine(IN REAL,IN REAL,IN REAL,IN REAL), GraphicsPath.AddLine(REAL,REAL,REAL,REAL), GraphicsPath::AddLine, GraphicsPath::AddLine(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayerunsubscribechanges0_func.htm
 tech.root: FWP
 ms.assetid: e4a2ea1b-6d84-44de-bf3a-d1f449a91fa5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmSubLayerUnsubscribeChanges0, FwpmSubLayerUnsubscribeChanges0 function [Filtering], fwp.fwpmsublayerunsubscribechanges0_func, fwpmu/FwpmSubLayerUnsubscribeChanges0
 ms.prod: windows-hardware
 ms.technology: windows-devices

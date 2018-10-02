@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_copydescriptors.htm
 tech.root: direct3d12
 ms.assetid: F995EF34-74FF-4FCA-A018-E2F48DF92450
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CopyDescriptors, CopyDescriptors method, CopyDescriptors method,ID3D12Device interface, ID3D12Device interface,CopyDescriptors method, ID3D12Device.CopyDescriptors, ID3D12Device::CopyDescriptors, d3d12/ID3D12Device::CopyDescriptors, direct3d12.id3d12device_copydescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,9 +109,9 @@ An array of source descriptor range sizes to copy from.
 
 ### -param DescriptorHeapsType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn859379(v=VS.85).aspx">D3D12_DESCRIPTOR_HEAP_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dn859379(v=VS.85).aspx">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to copy with.
+The <a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to copy with.
           
 
 
@@ -130,11 +130,11 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn859355(v=VS.85).aspx">Copying Descriptors</a>
+<a href="https://msdn.microsoft.com/65AE4D96-6221-46B5-BF55-F86479FCF97C">Copying Descriptors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
  
 
  

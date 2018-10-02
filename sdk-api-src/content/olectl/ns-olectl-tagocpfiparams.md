@@ -7,7 +7,7 @@ old-location: com\ocpfiparams.htm
 tech.root: com
 ms.assetid: d65d8239-495c-4eee-bd9c-8e803fd09a06
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPOCPFIPARAMS, LPOCPFIPARAMS, LPOCPFIPARAMS structure pointer [COM], OCPFIPARAMS, OCPFIPARAMS structure [COM], _ctrl_OCPFIPARAMS, com.ocpfiparams, olectl/LPOCPFIPARAMS, olectl/OCPFIPARAMS, tagOCPFIPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

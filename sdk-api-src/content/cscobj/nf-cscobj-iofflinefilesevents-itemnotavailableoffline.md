@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itemnotavailableoffline.htm
 tech.root: OfflineFiles
 ms.assetid: 868938fd-9da2-45fd-a00e-5dda85b4fd61
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotAvailableOffline method, IOfflineFilesEvents.ItemNotAvailableOffline, IOfflineFilesEvents::ItemNotAvailableOffline, ItemNotAvailableOffline, ItemNotAvailableOffline method [Offline Files], ItemNotAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotAvailableOffline, of.iofflinefilesevents_itemnotavailableoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ The item's UNC path string.
 
 ### -param ItemType [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530648(v=VS.85).aspx">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
+An <a href="https://msdn.microsoft.com/cf8bb079-d691-4b37-b408-d1af1746ed37">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
 
 
 ## -returns
@@ -82,7 +82,7 @@ The return value is ignored.
 
 
 
-Receipt of this event does not mean the file has been removed from the cache.  The event <a href="https://msdn.microsoft.com/en-us/library/Bb530547(v=VS.85).aspx">ItemDeletedFromCache</a> is sent when an item has been removed.
+Receipt of this event does not mean the file has been removed from the cache.  The event <a href="https://msdn.microsoft.com/358b358a-65cc-4f37-8beb-be492b83c222">ItemDeletedFromCache</a> is sent when an item has been removed.
 
 
 
@@ -92,7 +92,7 @@ Receipt of this event does not mean the file has been removed from the cache.  T
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

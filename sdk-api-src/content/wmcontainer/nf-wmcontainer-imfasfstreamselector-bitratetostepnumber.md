@@ -4,10 +4,10 @@ title: IMFASFStreamSelector::BitrateToStepNumber
 author: windows-sdk-content
 description: Retrieves the index of a bandwidth step that is appropriate for a specified bit rate. This method is used for multiple bit rate (MBR) content.
 old-location: mf\imfasfstreamselector_bitratetostepnumber.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e2debbce-f6ee-45d7-bf05-2b07aa7719c7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: BitrateToStepNumber, BitrateToStepNumber method [Media Foundation], BitrateToStepNumber method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],BitrateToStepNumber method, IMFASFStreamSelector.BitrateToStepNumber, IMFASFStreamSelector::BitrateToStepNumber, e2debbce-f6ee-45d7-bf05-2b07aa7719c7, mf.imfasfstreamselector_bitratetostepnumber, wmcontainer/IMFASFStreamSelector::BitrateToStepNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

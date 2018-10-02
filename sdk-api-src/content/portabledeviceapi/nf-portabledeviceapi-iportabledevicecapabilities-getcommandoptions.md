@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getcommandoptions.htm
 tech.root: wpd_sdk
 ms.assetid: d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetCommandOptions method, IPortableDeviceCapabilities.GetCommandOptions, IPortableDeviceCapabilities::GetCommandOptions, IPortableDeviceCapabilitiesGetCommandOptions, portabledeviceapi/IPortableDeviceCapabilities::GetCommandOptions, wpdsdk.iportabledevicecapabilities_getcommandoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,7 +122,7 @@ If this method is called for the WPD_COMMAND_STORAGE_FORMAT command and the <i>p
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
  
 
  

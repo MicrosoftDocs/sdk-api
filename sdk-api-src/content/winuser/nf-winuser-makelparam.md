@@ -7,7 +7,7 @@ old-location: winmsg\makelparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelparam.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MAKELPARAM, MAKELPARAM macro [Windows and Messages], _win32_MAKELPARAM, _win32_makelparam_cpp, winmsg.makelparam, winui._win32_makelparam, winuser/MAKELPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,15 +78,15 @@ The high-order word of the new value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx">MAKELONG</a>
+<a href="https://msdn.microsoft.com/161979a1-296c-47ed-bf41-74a561b5ba05">MAKELONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632662(v=VS.85).aspx">MAKELRESULT</a>
+<a href="https://msdn.microsoft.com/8a86594d-05cd-44e4-aceb-3541e4d3af16">MAKELRESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632664(v=VS.85).aspx">MAKEWPARAM</a>
+<a href="https://msdn.microsoft.com/029f334b-53f6-46cf-8fa7-613bf241d0e6">MAKEWPARAM</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevice_iconurl.htm
 tech.root: UPnP
 ms.assetid: 17b3d4f1-a51a-42f9-8fc0-4156d4975889
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],IconURL method, IUPnPDevice.IconURL, IUPnPDevice::IconURL, IconURL, IconURL method [UPnP APIs], IconURL method [UPnP APIs],IUPnPDevice interface, _upnp_iupnpdevice_iconurl, upnp.iupnpdevice_iconurl, upnp/IUPnPDevice::IconURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ Specifies the bit depth of the icon. Standard values are 8, 16, or 24.
 
 ### -param pbstrIconURL [out]
 
-Receives a reference to a string that contains the URL from which the icon is to be loaded. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Receives a reference to a string that contains the URL from which the icon is to be loaded. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ## -returns

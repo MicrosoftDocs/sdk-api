@@ -4,10 +4,10 @@ title: ISyncMgrHandlerInfo::IsConnected
 author: windows-sdk-content
 description: Gets a value that indicates whether the handler&#8212;typically some type of external device&#8212;is connected.
 old-location: shell\ISyncMgrHandlerInfo_IsConnected.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b51a32e7-962b-44f6-8508-26f819be483a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsConnected method, ISyncMgrHandlerInfo.IsConnected, ISyncMgrHandlerInfo::IsConnected, IsConnected, IsConnected method [Windows Shell], IsConnected method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsConnected, shell.ISyncMgrHandlerInfo_IsConnected, syncmgr/ISyncMgrHandlerInfo::IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,15 +88,19 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 The following example shows an implementation of this method that calls a private class function to retrieve the connected state.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::IsConnected()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::IsConnected()
 {
     return (_IsConnected() ? S_OK : S_FALSE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

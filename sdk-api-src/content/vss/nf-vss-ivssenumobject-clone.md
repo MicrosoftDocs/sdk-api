@@ -7,7 +7,7 @@ old-location: base\ivssenumobject_clone.htm
 tech.root: VSS
 ms.assetid: 71bf3789-247e-4e3f-8200-a4309a7c2d8c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumObject interface, IVssEnumObject interface [VSS],Clone method, IVssEnumObject.Clone, IVssEnumObject::Clone, _win32_ivssenumobject_clone, base.ivssenumobject_clone, vss/IVssEnumObject::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,7 +143,7 @@ One of the required pointer parameters is NULL.
 The cloned enumerator object will refer to the same list of 
     <a href="https://msdn.microsoft.com/90664042-e9a0-4959-a975-9289477d2394">VSS_OBJECT_PROP</a> structures.
 
-The caller must call the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> method of the 
+The caller must call the <a href="_com_iunknown_release">Release</a> method of the 
     returned interface pointer to deallocate the system resources held by the 
     <a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a> enumerator object pointed to by 
     the <i>ppEnum</i> parameter.

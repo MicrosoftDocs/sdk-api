@@ -4,10 +4,10 @@ title: IConsole::QueryConsoleVerb
 author: windows-sdk-content
 description: Queries for the IConsoleVerb interface.
 old-location: mmc\iconsole_queryconsoleverb.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 6C40014C-EBCC-455C-A575-4637B253439C
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IConsole interface [MMC],QueryConsoleVerb method, IConsole.QueryConsoleVerb, IConsole::QueryConsoleVerb, QueryConsoleVerb, QueryConsoleVerb method [MMC], QueryConsoleVerb method [MMC],IConsole interface, mmc.iconsole_queryconsoleverb, mmc/IConsole::QueryConsoleVerb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ This method can return one of these values.
 
 
 This method should be called from an 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a> interface pointer obtained through the 
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a> interface pointer obtained through the 
 <a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> interface.
 
 
@@ -90,7 +90,7 @@ This method should be called from an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mstv\imsvidgraphsegmentcontainer_get_graph.htm
 tech.root: MSTV
 ms.assetid: fecc2953-84d6-4d1b-bb3f-5b966debef1e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],get_Graph method, IMSVidGraphSegmentContainer.get_Graph, IMSVidGraphSegmentContainer::get_Graph, IMSVidGraphSegmentContainerget_Graph, get_Graph, get_Graph method [Microsoft TV Technologies], get_Graph method [Microsoft TV Technologies],IMSVidGraphSegmentContainer interface, mstv.imsvidgraphsegmentcontainer_get_graph, segment/IMSVidGraphSegmentContainer::get_Graph
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,23 +83,27 @@ The returned <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70d
 
 #### Examples
 
-
-```cpp
-
-CComQIPtr<IMSVidGraphSegmentContainer> pSeg(m_pVideoControl);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComQIPtr&lt;IMSVidGraphSegmentContainer&gt; pSeg(m_pVideoControl);
 if (pSeg)
 {
-    CComPtr<IGraphBuilder> pGraph;
-    hr = pSeg->get_Graph(&pGraph);
+    CComPtr&lt;IGraphBuilder&gt; pGraph;
+    hr = pSeg-&gt;get_Graph(&amp;pGraph);
     if (SUCCEEDED(hr))
     {
         // Use IGraphBuilder::EnumFilters to enumerate the filters.
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

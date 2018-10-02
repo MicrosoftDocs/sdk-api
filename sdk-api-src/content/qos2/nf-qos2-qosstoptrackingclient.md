@@ -7,7 +7,7 @@ old-location: qos\qosstoptrackingclient.htm
 tech.root: QOS
 ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,24 +180,28 @@ The Winsock2.h header file must be included to use Winsock defined identifiers o
 
 The following code shows this function called in an application setting.  See <a href="https://msdn.microsoft.com/36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3">QOSStartTrackingClient</a> for parameter information.
 
-
-```cpp
-if(!QOSStopTrackingClient(QoSHandle, (sockaddr*)ptr->ai_addr, 0))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if(!QOSStopTrackingClient(QoSHandle, (sockaddr*)ptr-&gt;ai_addr, 0))
 {
-    std::cerr << std::endl;
-    std::cerr << __FILE__ <<" Line: " << __LINE__ ;
-    std::cerr << " - QOSStartTrackingClient failed. Exception code: "; 
-    std::cerr << GetLastError() ;
+    std::cerr &lt;&lt; std::endl;
+    std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
+    std::cerr &lt;&lt; " - QOSStartTrackingClient failed. Exception code: "; 
+    std::cerr &lt;&lt; GetLastError() ;
 }
 else
 {
-    std::cout << "QoS client tracking stopped." << std::endl;
+    std::cout &lt;&lt; "QoS client tracking stopped." &lt;&lt; std::endl;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

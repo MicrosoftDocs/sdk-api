@@ -7,7 +7,7 @@ old-location: fs\deletefile.htm
 tech.root: fileio
 ms.assetid: 0b947a85-816b-4374-a8f8-c369e366a17d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: DeleteFile, DeleteFile function [Files], DeleteFileA, DeleteFileW, _win32_deletefile, base.deletefile, fileapi/DeleteFile, fileapi/DeleteFileA, fileapi/DeleteFileW, fs.deletefile, winbase/DeleteFile, winbase/DeleteFileA, winbase/DeleteFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

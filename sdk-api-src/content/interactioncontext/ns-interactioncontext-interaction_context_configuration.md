@@ -7,7 +7,7 @@ old-location: input_intcontext\interaction_context_configuration.htm
 tech.root: Input_IntContext
 ms.assetid: 0cbae801-d6d9-412b-ab8a-0b6c9d7c103e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: INTERACTION_CONTEXT_CONFIGURATION, INTERACTION_CONTEXT_CONFIGURATION structure, input_intcontext.interaction_context_configuration, interactioncontext.interaction_context_configuration, interactioncontext/INTERACTION_CONTEXT_CONFIGURATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,13 @@ The value of this property is a bitmask, which can be set to one or more of the 
 
 This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION</b>.
 
-
-```cpp
-#define INTERACTION_CONTEXT_CONFIGURATION_DEFAULT                         \
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define INTERACTION_CONTEXT_CONFIGURATION_DEFAULT                         \
 {                                                                         \
     {INTERACTION_ID_MANIPULATION,                                         \
         INTERACTION_CONFIGURATION_FLAG_MANIPULATION |                     \
@@ -94,10 +98,10 @@ This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION<
         INTERACTION_CONFIGURATION_FLAG_NONE},                             \
     {INTERACTION_ID_CROSS_SLIDE,                                          \
         INTERACTION_CONFIGURATION_FLAG_NONE}                              \
-}                                                                         \
-```
-
-
+}                                                                         \</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

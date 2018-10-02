@@ -7,7 +7,7 @@ old-location: iphlp\restoremediasense.htm
 tech.root: IpHlp
 ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -188,12 +188,16 @@ The sample first creates a separate thread that calls the <a href="https://msdn.
 
 For an example that shows how to call the <a href="https://msdn.microsoft.com/ec845db8-d544-4291-8221-0fde82c2de27">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions asynchronously, see the <b>DisableMediaSense</b> function reference.
 
-
-```cpp
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -209,7 +213,7 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
     if (*((DWORD *) lpParam)) {
         DWORD dwRetVal;
         dwRetVal = DisableMediaSense(NULL, NULL);
-        if (dwRetVal && dwRetVal != ERROR_IO_PENDING) {
+        if (dwRetVal &amp;&amp; dwRetVal != ERROR_IO_PENDING) {
             printf("DisableMediaSense failed with error %d\n", dwRetVal);
             return 0;
         } else {
@@ -245,7 +249,7 @@ int __cdecl main()
 
     // Create the thread to call Disable MediaSense synchronously
     Disable_THandle =
-        CreateThread(NULL, 0, ThreadProc, (LPVOID) & IsDisable, 0, &ThreadID);
+        CreateThread(NULL, 0, ThreadProc, (LPVOID) &amp; IsDisable, 0, &amp;ThreadID);
     if (!Disable_THandle) {
         printf("CreateTread Failed:%d", GetLastError());
         exit(1);
@@ -262,7 +266,7 @@ int __cdecl main()
     if (pIPAddrTable) {
         // Make an initial call to GetIpAddrTable to get the
         // necessary size into the dwSize variable
-        if (GetIpAddrTable(pIPAddrTable, &dwSize, 0) ==
+        if (GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0) ==
             ERROR_INSUFFICIENT_BUFFER) {
             FREE(pIPAddrTable);
             pIPAddrTable = (MIB_IPADDRTABLE *) MALLOC(dwSize);
@@ -275,50 +279,50 @@ int __cdecl main()
     }
     // Make a second call to GetIpAddrTable to get the
     // actual data we want
-    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &dwSize, 0)) != NO_ERROR) {
+    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0)) != NO_ERROR) {
         printf("GetIpAddrTable failed with error %d\n", dwRetVal);
         if (FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER |
                     FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, 
                     NULL, 
                     dwRetVal, 
                     MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-                    (LPTSTR) & lpMsgBuf, 0, NULL)) {
+                    (LPTSTR) &amp; lpMsgBuf, 0, NULL)) {
             printf("\tError: %s", lpMsgBuf);
             LocalFree(lpMsgBuf);
         }
         exit(1);
     }
 
-    printf("\tNum Entries: %ld\n", pIPAddrTable->dwNumEntries);
-    for (i = 0; i < (int) pIPAddrTable->dwNumEntries; i++) {
+    printf("\tNum Entries: %ld\n", pIPAddrTable-&gt;dwNumEntries);
+    for (i = 0; i &lt; (int) pIPAddrTable-&gt;dwNumEntries; i++) {
         printf("\n\tInterface Index[%d]:\t%ld\n", i,
-               pIPAddrTable->table[i].dwIndex);
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[i].dwAddr;
+               pIPAddrTable-&gt;table[i].dwIndex);
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[i].dwAddr;
         printf("\tIP Address[%d]:     \t%s\n", i, inet_ntoa(IPAddr));
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[i].dwMask;
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[i].dwMask;
         printf("\tSubnet Mask[%d]:    \t%s\n", i, inet_ntoa(IPAddr));
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[i].dwBCastAddr;
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[i].dwBCastAddr;
         printf("\tBroadCast[%d]:      \t%s (%ld%)\n", i, inet_ntoa(IPAddr),
-               pIPAddrTable->table[i].dwBCastAddr);
+               pIPAddrTable-&gt;table[i].dwBCastAddr);
         printf("\tReassembly size[%d]:\t%ld\n", i,
-               pIPAddrTable->table[i].dwReasmSize);
+               pIPAddrTable-&gt;table[i].dwReasmSize);
         printf("\tType and State[%d]:", i);
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_PRIMARY)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_PRIMARY)
             printf("\tPrimary IP Address");
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_DYNAMIC)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_DYNAMIC)
             printf("\tDynamic IP Address");
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_DISCONNECTED)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_DISCONNECTED)
             printf("\tAddress is on disconnected interface");
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_DELETED)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_DELETED)
             printf("\tAddress is being deleted");
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_TRANSIENT)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_TRANSIENT)
             printf("\tTransient address");
         printf("\n");
     }
 
     // Call RestoreMediaSense synchronously to enable mediasense
-    dwRetVal = RestoreMediaSense(NULL, &dwEnableCount);
-    if (dwRetVal && dwRetVal != ERROR_IO_PENDING) {
+    dwRetVal = RestoreMediaSense(NULL, &amp;dwEnableCount);
+    if (dwRetVal &amp;&amp; dwRetVal != ERROR_IO_PENDING) {
         printf("RestoreMediaSense failed with error %d\n", dwRetVal);
         exit(1);
     } else {
@@ -329,7 +333,7 @@ int __cdecl main()
     if (pIPAddrTable) {
         // Make an initial call to GetIpAddrTable to get the
         // necessary size into the dwSize variable
-        if (GetIpAddrTable(pIPAddrTable, &dwSize, 0) ==
+        if (GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0) ==
             ERROR_INSUFFICIENT_BUFFER) {
             FREE(pIPAddrTable);
             pIPAddrTable = (MIB_IPADDRTABLE *) MALLOC(dwSize);
@@ -342,43 +346,43 @@ int __cdecl main()
     }
     // Make a second call to GetIpAddrTable to get the
     // actual data we want
-    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &dwSize, 0)) != NO_ERROR) {
+    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0)) != NO_ERROR) {
         printf("GetIpAddrTable failed with error %d\n", dwRetVal);
         if (FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER |
                     FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, 
                     NULL, 
                     dwRetVal, 
                     MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-                    (LPTSTR) & lpMsgBuf, 0, NULL)) {
+                    (LPTSTR) &amp; lpMsgBuf, 0, NULL)) {
             printf("\tError: %s", lpMsgBuf);
             LocalFree(lpMsgBuf);
         }
         exit(1);
     }
 
-    printf("\tNum Entries: %ld\n", pIPAddrTable->dwNumEntries);
-    for (i = 0; i < (int) pIPAddrTable->dwNumEntries; i++) {
+    printf("\tNum Entries: %ld\n", pIPAddrTable-&gt;dwNumEntries);
+    for (i = 0; i &lt; (int) pIPAddrTable-&gt;dwNumEntries; i++) {
         printf("\n\tInterface Index[%d]:\t%ld\n", i,
-               pIPAddrTable->table[i].dwIndex);
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[i].dwAddr;
+               pIPAddrTable-&gt;table[i].dwIndex);
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[i].dwAddr;
         printf("\tIP Address[%d]:     \t%s\n", i, inet_ntoa(IPAddr));
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[i].dwMask;
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[i].dwMask;
         printf("\tSubnet Mask[%d]:    \t%s\n", i, inet_ntoa(IPAddr));
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[i].dwBCastAddr;
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[i].dwBCastAddr;
         printf("\tBroadCast[%d]:      \t%s (%ld%)\n", i, inet_ntoa(IPAddr),
-               pIPAddrTable->table[i].dwBCastAddr);
+               pIPAddrTable-&gt;table[i].dwBCastAddr);
         printf("\tReassembly size[%d]:\t%ld\n", i,
-               pIPAddrTable->table[i].dwReasmSize);
+               pIPAddrTable-&gt;table[i].dwReasmSize);
         printf("\tType and State[%d]:", i);
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_PRIMARY)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_PRIMARY)
             printf("\tPrimary IP Address");
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_DYNAMIC)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_DYNAMIC)
             printf("\tDynamic IP Address");
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_DISCONNECTED)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_DISCONNECTED)
             printf("\tAddress is on disconnected interface");
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_DELETED)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_DELETED)
             printf("\tAddress is being deleted");
-        if (pIPAddrTable->table[i].wType & MIB_IPADDR_TRANSIENT)
+        if (pIPAddrTable-&gt;table[i].wType &amp; MIB_IPADDR_TRANSIENT)
             printf("\tTransient address");
         printf("\n");
     }
@@ -391,10 +395,10 @@ int __cdecl main()
     exit(0);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

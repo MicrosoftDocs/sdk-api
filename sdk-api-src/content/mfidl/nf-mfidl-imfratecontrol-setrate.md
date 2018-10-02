@@ -4,10 +4,10 @@ title: IMFRateControl::SetRate
 author: windows-sdk-content
 description: Sets the playback rate.
 old-location: mf\imfratecontrol_setrate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 428d73fa-f284-4861-a41e-04ea7709db0f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 428d73fa-f284-4861-a41e-04ea7709db0f, IMFRateControl interface [Media Foundation],SetRate method, IMFRateControl.SetRate, IMFRateControl::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFRateControl interface, mf.imfratecontrol_setrate, mfidl/IMFRateControl::SetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

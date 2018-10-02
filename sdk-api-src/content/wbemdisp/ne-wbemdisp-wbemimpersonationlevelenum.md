@@ -7,7 +7,7 @@ old-location: wmi\wbemimpersonationlevelenum.htm
 tech.root: WmiSdk
 ms.assetid: 4a6d92a6-82d1-4426-8175-89cf9495c448
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: WbemImpersonationLevelEnum, WbemImpersonationLevelEnum enumeration [Windows Management Instrumentation], _hmm_wbemimpersonationlevelenum, wbemImpersonationLevelAnonymous, wbemImpersonationLevelDelegate, wbemImpersonationLevelIdentify, wbemImpersonationLevelImpersonate, wbemdisp/WbemImpersonationLevelEnum, wbemdisp/wbemImpersonationLevelAnonymous, wbemdisp/wbemImpersonationLevelDelegate, wbemdisp/wbemImpersonationLevelIdentify, wbemdisp/wbemImpersonationLevelImpersonate, wmi.wbemimpersonationlevelenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,36 +63,44 @@ The short name. For example, for <b>wbemImpersonationLevelImpersonate</b> use "I
 
 The following VBScript code example uses the short name.
 
-
-```vb
-Set objWMIService = GetObject("winmgmts:" _ 
-    & "{impersonationLevel=Impersonate}!\\" _
-    & strComputer & "\root\cimv2")
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set objWMIService = GetObject("winmgmts:" _ 
+    &amp; "{impersonationLevel=Impersonate}!\\" _
+    &amp; strComputer &amp; "\root\cimv2")</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 <li>
 Windows Script Host (WSH) XML file format in the script. For example, this means that the script can use the  <b>wbemImpersonationLevelImpersonate</b> constant directly.
 
 The following WSH script sets the impersonation level. To run the script, save the text in a file with a .wsf extension.
 
-
-```vb
-<?xml version="1.0" encoding="US-ASCII"?>
-<job>
-<reference object="WbemScripting.SWbemLocator"/>
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;?xml version="1.0" encoding="US-ASCII"?&gt;
+&lt;job&gt;
+&lt;reference object="WbemScripting.SWbemLocator"/&gt;
+&lt;script language="VBScript"&gt;
     set service = GetObject("winmgmts:")
     ' Following line uses a symbolic 
     ' constant from the WMI type library
     service.Security_.impersonationLevel = _
         wbemImpersonationLevelDelegate
-</script>
-</job>
-```
-
-
+&lt;/script&gt;
+&lt;/job&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 For more information, see 
 <a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.
 

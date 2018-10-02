@@ -7,7 +7,7 @@ old-location: ndf\hypothesisresult.htm
 tech.root: NDF
 ms.assetid: bbf3cc69-c81b-4a3d-8fd8-d4e37a57bed6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HypothesisResult, HypothesisResult structure [NDF], ndf.hypothesisresult, ndhelper/HypothesisResult, tagHypothesisResult
 ms.prod: windows
 ms.technology: windows-sdk

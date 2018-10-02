@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_setclass.htm
 tech.root: Stg
 ms.assetid: 88c916e5-b7f0-4f4d-b049-df2b0e1c2423
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPropertyStorage [Strctd Stg],SetClass, IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

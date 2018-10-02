@@ -4,10 +4,10 @@ title: ISyncMgrSynchronizeCallback
 author: windows-sdk-content
 description: Exposes methods that manage the synchronization process.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1c817a21-be91-43af-86c8-aa7909ae2fa2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], ISyncMgrSynchronizeCallback interface [Windows Shell],described, mobsync/ISyncMgrSynchronizeCallback, shell.syncmgr_isyncmgrsynchronizecallback, syncmgr.isyncmgrsynchronizecallback
 ms.prod: windows
 ms.technology: windows-sdk

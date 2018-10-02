@@ -4,10 +4,10 @@ title: INetSharingConfiguration::AddPortMapping
 author: windows-sdk-content
 description: Adds a service port mapping for this connection.
 old-location: ics\inetsharingconfiguration_addportmapping.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 0d9e1520-6018-425c-a2f9-c408fa3025cf
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: AddPortMapping, AddPortMapping method [ICS/ICF], AddPortMapping method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],AddPortMapping method, INetSharingConfiguration.AddPortMapping, INetSharingConfiguration::AddPortMapping, _ics_inetsharingconfiguration_addportmapping, ics.inetsharingconfiguration_addportmapping, netcon/INetSharingConfiguration::AddPortMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,13 +112,13 @@ Pointer to a pointer that, on successful return, points to an
 #### - pszwName [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that contains the name for this port mapping.
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that contains the name for this port mapping.
 
 
 #### - pszwTargetNameOrIPAddress [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that contains the name of the target computer for this port mapping. Specify either the target name or the target IP address, but not both.
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that contains the name of the target computer for this port mapping. Specify either the target name or the target IP address, but not both.
 
 
 ## -returns

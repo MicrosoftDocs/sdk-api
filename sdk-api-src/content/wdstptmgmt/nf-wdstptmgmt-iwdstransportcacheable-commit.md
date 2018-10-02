@@ -4,10 +4,10 @@ title: IWdsTransportCacheable::Commit
 author: windows-sdk-content
 description: Commits object data members to the underlying data store if the IWdsTransportCacheable::Dirty property has been set. Otherwise, the method returns with no action.
 old-location: wds\iwdstransportcacheable_commit.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: bd651e56-3945-48ca-a490-e20db88eb2fb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: Commit, Commit method [Windows Deployment Services], Commit method [Windows Deployment Services],IWdsTransportCacheable interface, IWdsTransportCacheable interface [Windows Deployment Services],Commit method, IWdsTransportCacheable.Commit, IWdsTransportCacheable::Commit, wds.iwdstransportcacheable_commit, wdstptmgmt/IWdsTransportCacheable::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

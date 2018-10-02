@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader_getpackagedependencies.htm
 tech.root: appxpkg
 ms.assetid: C40276CC-8F97-4DCF-A5C4-193453B8FA02
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetPackageDependencies, GetPackageDependencies method [App packaging and management], GetPackageDependencies method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPackageDependencies method, IAppxManifestReader.GetPackageDependencies, IAppxManifestReader::GetPackageDependencies, appxpackaging/IAppxManifestReader::GetPackageDependencies, appxpkg.iappxmanifestreader_getpackagedependencies
 ms.prod: windows-hardware
 ms.technology: windows-devices

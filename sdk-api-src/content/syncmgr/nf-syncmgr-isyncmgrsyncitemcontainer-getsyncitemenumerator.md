@@ -4,10 +4,10 @@ title: ISyncMgrSyncItemContainer::GetSyncItemEnumerator
 author: windows-sdk-content
 description: Gets an interface that enumerates the handler's sync items.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemEnumerator.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 761698b8-9531-440e-90f3-41b86f1cc674
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetSyncItemEnumerator, GetSyncItemEnumerator method [Windows Shell], GetSyncItemEnumerator method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItemEnumerator method, ISyncMgrSyncItemContainer.GetSyncItemEnumerator, ISyncMgrSyncItemContainer::GetSyncItemEnumerator, _shell_ISyncMgrSyncItemContainer_GetSyncItemEnumerator, shell.ISyncMgrSyncItemContainer_GetSyncItemEnumerator, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,9 +89,13 @@ The number of enumerated items can be obtained through the <a href="https://msdn
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::GetSyncItemEnumerator(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::GetSyncItemEnumerator(
     __out IEnumSyncMgrSyncItems **ppenum)
 {
     *ppenum = NULL;
@@ -107,9 +111,9 @@ STDMETHODIMP CMyDeviceHandler::GetSyncItemEnumerator(
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

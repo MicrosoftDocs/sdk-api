@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetvisibleclipboundsmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds methods [GDI+], Graphics.GetVisibleClipBounds, Graphics.GetVisibleClipBounds(OUT Rect), Graphics::GetVisibleClipBounds, Graphics::GetVisibleClipBounds(OUT Rect), _gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods, gdiplusgraphics/GetVisibleClipBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 GetVisibleClipBounds methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -64,21 +64,21 @@ GetVisibleClipBounds methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535946(v=VS.85).aspx">GetVisibleClipBounds(Rect*)</a>
+<a href="https://msdn.microsoft.com/af09b26b-6963-475f-91ce-4df219706d28">GetVisibleClipBounds(Rect*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535946(v=VS.85).aspx">Graphics::GetVisibleClipBounds</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a><b>Graphics</b> object and the clipping region of the window.
+The <a href="https://msdn.microsoft.com/af09b26b-6963-475f-91ce-4df219706d28">Graphics::GetVisibleClipBounds</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535947(v=VS.85).aspx">GetVisibleClipBounds(RectF*)</a>
+<a href="https://msdn.microsoft.com/dda12bab-2ffc-4fca-9280-3bc88798fac2">GetVisibleClipBounds(RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535947(v=VS.85).aspx">Graphics::GetVisibleClipBounds</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a><b>Graphics</b> object and the clipping region of the window.
+The <a href="https://msdn.microsoft.com/dda12bab-2ffc-4fca-9280-3bc88798fac2">Graphics::GetVisibleClipBounds</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>

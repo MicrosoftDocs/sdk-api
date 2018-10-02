@@ -7,7 +7,7 @@ old-location: tsf\itfsystemlangbaritem_seticon.htm
 tech.root: TSF
 ms.assetid: 6b83e2ec-ac2f-4fd6-8c7c-70b00baafdc1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetIcon method, ITfSystemLangBarItem.SetIcon, ITfSystemLangBarItem::SetIcon, SetIcon, SetIcon method [Text Services Framework], SetIcon method [Text Services Framework],ITfSystemLangBarItem interface, _tsf_itfsystemlangbaritem_seticon_ref, ctfutb/ITfSystemLangBarItem::SetIcon, tsf.itfsystemlangbaritem_seticon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ The system language bar menu does not allow its icon to be modified.
 
 
 
-In response to this method, the system language bar menu should call <a href="https://msdn.microsoft.com/en-us/library/ms628738(v=VS.85).aspx">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_ICON to force the language bar to obtain the new icon.
+In response to this method, the system language bar menu should call <a href="https://msdn.microsoft.com/f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_ICON to force the language bar to obtain the new icon.
 
 
 

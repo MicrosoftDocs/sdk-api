@@ -4,10 +4,10 @@ title: Button_SetImageList macro
 author: windows-sdk-content
 description: Assigns an image list to a button control. You can use this macro or send the BCM_SETIMAGELIST message explicitly.
 old-location: controls\Button_SetImageList.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setimagelist.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Button_SetImageList, Button_SetImageList macro [Windows Controls], _win32_Button_SetImageList, _win32_Button_SetImageList_cpp, commctrl/Button_SetImageList, controls.Button_SetImageList, controls._win32_Button_SetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Assigns an image list to a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775975(v=VS.85).aspx">BCM_SETIMAGELIST</a> message explicitly. 
+Assigns an image list to a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/805d2d9b-3e8f-4323-abaf-0dd5765cd740">BCM_SETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Assigns an image list to a button control. You can use this macro or send the <a
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the button control. 
 
@@ -69,14 +69,14 @@ A handle to the button control.
 
 Type: <b>PBUTTON_IMAGELIST</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a> structure that contains the image list information to set. 
+A pointer to a <a href="https://msdn.microsoft.com/c3a790ee-e247-47c1-9578-2b351cf725cd">BUTTON_IMAGELIST</a> structure that contains the image list information to set. 
 
 
 ## -remarks
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

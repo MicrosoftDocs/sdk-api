@@ -4,10 +4,10 @@ title: SHAddToRecentDocs function
 author: windows-sdk-content
 description: Notifies the system that an item has been accessed, for the purposes of tracking those items used most recently and most frequently. This function can also be used to clear all usage data.
 old-location: shell\SHAddToRecentDocs.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 84e065e6-b68d-4303-b98b-3f8507539468
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHAddToRecentDocs, SHAddToRecentDocs function [Windows Shell], _win32_SHAddToRecentDocs, shell.SHAddToRecentDocs, shlobj_core/SHAddToRecentDocs
 ms.prod: windows-hardware
 ms.technology: windows-devices

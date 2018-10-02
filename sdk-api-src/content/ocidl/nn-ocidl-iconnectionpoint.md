@@ -7,7 +7,7 @@ old-location: com\iconnectionpoint.htm
 tech.root: com
 ms.assetid: ef5a917c-b57f-4000-8daa-86fdbfb47579
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IConnectionPoint, IConnectionPoint interface [COM], IConnectionPoint interface [COM],described, _com_iconnectionpoint, com.iconnectionpoint, ocidl/IConnectionPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Supports connection points for connectable objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectionPoint</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IConnectionPoint</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectionPoint</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IConnectionPoint</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

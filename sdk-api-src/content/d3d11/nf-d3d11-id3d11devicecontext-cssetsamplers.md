@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_cssetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 8b7f5c6d-0d9d-4b8b-a812-1e2b3b7386e9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CSSetSamplers, CSSetSamplers method [Direct3D 11], CSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetSamplers method, ID3D11DeviceContext.CSSetSamplers, ID3D11DeviceContext::CSSetSamplers, aa74392c-a8c7-cf2c-b761-f00d5b5b4fb9, d3d11/ID3D11DeviceContext::CSSetSamplers, direct3d11.id3d11devicecontext_cssetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,9 +95,13 @@ This method does not return a value.
 
 Any sampler may be set to <b>NULL</b>; this invokes the default state, which is defined to be the following.
 
-
-```
-//Default sampler state:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//Default sampler state:
 D3D11_SAMPLER_DESC SamplerDesc;
 SamplerDesc.Filter = D3D11_FILTER_MIN_MAG_MIP_LINEAR;
 SamplerDesc.AddressU = D3D11_TEXTURE_ADDRESS_CLAMP;
@@ -112,10 +116,10 @@ SamplerDesc.BorderColor[2] = 1.0f;
 SamplerDesc.BorderColor[3] = 1.0f;
 SamplerDesc.MinLOD = -FLT_MAX;
 SamplerDesc.MaxLOD = FLT_MAX;
-		
-```
-
-
+		</pre>
+</td>
+</tr>
+</table></span></div>
 The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 

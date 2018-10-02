@@ -7,7 +7,7 @@ old-location: com\calpolestr.htm
 tech.root: com
 ms.assetid: 730d5e23-e84a-4629-9b59-492d8536122e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPCALPOLESTR, CALPOLESTR, CALPOLESTR structure [COM], LPCALPOLESTR, LPCALPOLESTR structure pointer [COM], _ctrl_CALPOLESTR, com.calpolestr, ocidl/CALPOLESTR, ocidl/LPCALPOLESTR, tagCALPOLESTR"
 ms.prod: windows
 ms.technology: windows-sdk

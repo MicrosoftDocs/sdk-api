@@ -7,7 +7,7 @@ old-location: fs\waitforntmsoperatorrequest.htm
 tech.root: Rsm
 ms.assetid: abc78047-a6d7-4e98-baec-5e4ba394c64f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WaitForNtmsOperatorRequest, WaitForNtmsOperatorRequest function [Files], _zaw_waitforntmsoperatorrequest, base.waitforntmsoperatorrequest, fs.waitforntmsoperatorrequest, ntmsapi/WaitForNtmsOperatorRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -199,7 +199,7 @@ Typically, applications use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Operator Request Functions</a>
+<a href="removable_storage_manager_functions.htm">Operator Request Functions</a>
 
 
 

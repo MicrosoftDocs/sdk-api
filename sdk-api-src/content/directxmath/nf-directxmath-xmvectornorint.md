@@ -7,7 +7,7 @@ old-location: dxmath\xmvectornorint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorNorInt(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVectorNorInt, XMVectorNorInt, XMVectorNorInt method [DirectX Math Support APIs], dxmath.xmvectornorint
 ms.prod: windows-hardware
 ms.technology: windows-devices

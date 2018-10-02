@@ -7,7 +7,7 @@ old-location: fwp\ikeext_credential0.htm
 tech.root: FWP
 ms.assetid: cb5aa4b6-71e7-43d4-a69c-4f209cd9755b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IKEEXT_CREDENTIAL0, IKEEXT_CREDENTIAL0 structure [Filtering], IKEEXT_CREDENTIAL0_, fwp.ikeext_credential0, iketypes/IKEEXT_CREDENTIALS0
 ms.prod: windows
 ms.technology: windows-sdk

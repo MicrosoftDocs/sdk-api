@@ -7,7 +7,7 @@ old-location: mstv\iisdbtsinformationdescriptor_getcountofrecords.htm
 tech.root: MSTV
 ms.assetid: 97e0d307-f41d-44e3-8f42-d00fecbcd61e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbTSInformationDescriptor.GetCountOfRecords, IIsdbTSInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbTSInformationDescriptor::GetCountOfRecords, mstv.iisdbtsinformationdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

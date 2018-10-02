@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_globalpartitionid.htm
 tech.root: cossdk
 ms.assetid: aa6bc5cd-ec6a-4b8d-ab85-0131e0031a4b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GlobalPartitionID property [COM+], GlobalPartitionID property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GlobalPartitionID property, ICOMAdminCatalog2.GlobalPartitionID, ICOMAdminCatalog2.get_GlobalPartitionID, ICOMAdminCatalog2::GlobalPartitionID, ICOMAdminCatalog2::get_GlobalPartitionID, _cos_IComAdminCatalog2_get_GlobalPartitionID, comadmin/ICOMAdminCatalog2::GlobalPartitionID, comadmin/ICOMAdminCatalog2::get_GlobalPartitionID, cos.icomadmincatalog2_globalpartitionid, get_GlobalPartitionID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

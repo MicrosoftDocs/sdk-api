@@ -4,10 +4,10 @@ title: "_OPM_ACTUAL_OUTPUT_FORMAT"
 author: windows-sdk-content
 description: Contains the result of an OPM_GET_ACTUAL_OUTPUT_FORMAT query in Output Protection Manager (OPM).
 old-location: mf\opm_actual_output_format.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0b20cdcd-3d03-4da3-b81c-b5025dcb04c3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: OPM_ACTUAL_OUTPUT_FORMAT, OPM_ACTUAL_OUTPUT_FORMAT structure [Media Foundation], _OPM_ACTUAL_OUTPUT_FORMAT, mf.opm_actual_output_format, opmapi/OPM_ACTUAL_OUTPUT_FORMAT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: vhd\take_snapshot_vhdset_flag.htm
 tech.root: VStor
 ms.assetid: 2A714FFB-E462-418E-B0AC-E7929619604B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD], TAKE_SNAPSHOT_VHDSET_FLAG, TAKE_SNAPSHOT_VHDSET_FLAG enumeration [VHD], TAKE_SNAPSHOT_VHDSET_FLAG_NONE, _TAKE_SNAPSHOT_VHDSET_FLAG, vdssys/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE, vdssys/PTAKE_SNAPSHOT_VHDSET_FLAG, vdssys/TAKE_SNAPSHOT_VHDSET_FLAG, vhd.take_snapshot_vhdset_flag, virtdisk/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE, virtdisk/PTAKE_SNAPSHOT_VHDSET_FLAG, virtdisk/TAKE_SNAPSHOT_VHDSET_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk

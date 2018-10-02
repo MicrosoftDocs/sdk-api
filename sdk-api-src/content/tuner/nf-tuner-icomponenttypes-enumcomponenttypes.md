@@ -7,7 +7,7 @@ old-location: mstv\icomponenttypes_enumcomponenttypes.htm
 tech.root: MSTV
 ms.assetid: c070998c-4350-4630-80c0-e3db46154845
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: EnumComponentTypes, EnumComponentTypes method [Microsoft TV Technologies], EnumComponentTypes method [Microsoft TV Technologies],IComponentTypes interface, IComponentTypes interface [Microsoft TV Technologies],EnumComponentTypes method, IComponentTypes.EnumComponentTypes, IComponentTypes::EnumComponentTypes, IComponentTypesEnumComponentTypes, mstv.icomponenttypes_enumcomponenttypes, tuner/IComponentTypes::EnumComponentTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

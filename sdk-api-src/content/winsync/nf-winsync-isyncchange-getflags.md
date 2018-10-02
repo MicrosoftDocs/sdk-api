@@ -7,7 +7,7 @@ old-location: winsync\isyncchange_getflags.htm
 tech.root: winsync
 ms.assetid: de0509a4-550b-49f2-a850-fc1bd57b60cd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetFlags method, ISyncChange.GetFlags, ISyncChange::GetFlags, winsync.isyncchange_getflags, winsync/ISyncChange::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

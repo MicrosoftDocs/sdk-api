@@ -4,10 +4,10 @@ title: ISyncMgrEventStore::GetEvent
 author: windows-sdk-content
 description: Gets a specified event object.
 old-location: shell\ISyncMgrEventStore_GetEvent.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6800ac62-1fd5-43a4-bd37-831449274a7b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEvent method, ISyncMgrEventStore.GetEvent, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

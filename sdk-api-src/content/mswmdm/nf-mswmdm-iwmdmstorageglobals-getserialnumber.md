@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorageglobals_getserialnumber.htm
 tech.root: WMDM
 ms.assetid: 13783d0e-82e6-4340-bb06-85b8d3d06b5c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetSerialNumber method, IWMDMStorageGlobals.GetSerialNumber, IWMDMStorageGlobals::GetSerialNumber, IWMDMStorageGlobalsGetSerialNumber, mswmdm/IWMDMStorageGlobals::GetSerialNumber, wmdm.iwmdmstorageglobals_getserialnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,25 +99,29 @@ Not all storage media support serial numbers, but a serial number is required to
 
 The following C++ code retrieves the serial number of the root storage object, and verifies the MAC.
 
-
-```cpp
-
-    hr = m_pStorageGlobals->GetSerialNumber(&m_SerialNumber, (BYTE*)abMAC);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+    hr = m_pStorageGlobals-&gt;GetSerialNumber(&amp;m_SerialNumber, (BYTE*)abMAC);
     if (SUCCEEDED(hr))
     {
         // Verify the MAC using the CSecureChannelClient member.
-        m_pSAC->MACInit(&hMAC);
-        m_pSAC->MACUpdate(hMAC, (BYTE*)(&m_SerialNumber), sizeof(m_SerialNumber));
-        m_pSAC->MACFinal(hMAC, (BYTE*)abMACVerify);
+        m_pSAC-&gt;MACInit(&amp;hMAC);
+        m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(&amp;m_SerialNumber), sizeof(m_SerialNumber));
+        m_pSAC-&gt;MACFinal(hMAC, (BYTE*)abMACVerify);
         if (memcmp(abMACVerify, abMAC, sizeof(abMAC)) != 0)
         {
             hr = E_FAIL;
         }
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

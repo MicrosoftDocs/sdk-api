@@ -7,7 +7,7 @@ old-location: mstv\ipbdasiparser_initialize.htm
 tech.root: MSTV
 ms.assetid: fb161e1a-ae10-4d5e-907a-91c7e80c11d8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IPBDASiParser interface [Microsoft TV Technologies],Initialize method, IPBDASiParser.Initialize, IPBDASiParser::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDASiParser interface, dshow.ipbdasiparser_initialize, dvbsiparser/IPBDASiParser::Initialize, mstv.ipbdasiparser_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Initializes a  program and system information protocol  (PSIP) parser for a Prot
 
 ### -param punk [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the new object. 
+Pointer to the <a href="iunknown">IUnknown</a> interface for the new object. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_buycomplete.htm
 tech.root: WMP
 ms.assetid: 4e9ab15f-3418-472d-afc4-0f9fae852da2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: BuyComplete, BuyComplete method [Windows Media Player], BuyComplete method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],BuyComplete method, IWMPContentPartnerCallback.BuyComplete, IWMPContentPartnerCallback::BuyComplete, IWMPContentPartnerCallbackBuyComplete, contentpartner/IWMPContentPartnerCallback::BuyComplete, wmp.iwmpcontentpartnercallback_buycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ The <b>BuyComplete</b> method notifies Windows Media Player that a purchase tran
 
 ### -param dwBuyCookie [in]
 
-The cookie that represents the purchase transaction. This value was provided when the Player called <a href="https://msdn.microsoft.com/en-us/library/Dd563157(v=VS.85).aspx">IWMPContentPartner::Buy</a>.
+The cookie that represents the purchase transaction. This value was provided when the Player called <a href="https://msdn.microsoft.com/a79c3d6e-b587-4bbc-b3bf-6489a54d71f9">IWMPContentPartner::Buy</a>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-You must call <b>BuyComplete</b> exactly once for each call to <a href="https://msdn.microsoft.com/en-us/library/Dd563157(v=VS.85).aspx">IWMPContentPartner::Buy</a>. Call <b>BuyComplete</b> when the transaction is finished, even if it failed for some reason.
+You must call <b>BuyComplete</b> exactly once for each call to <a href="https://msdn.microsoft.com/a79c3d6e-b587-4bbc-b3bf-6489a54d71f9">IWMPContentPartner::Buy</a>. Call <b>BuyComplete</b> when the transaction is finished, even if it failed for some reason.
 
 Return a success code only after all licenses related to the purchase have been delivered.
 
@@ -117,7 +117,7 @@ Return a success code only after all licenses related to the purchase have been 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
  
 
  

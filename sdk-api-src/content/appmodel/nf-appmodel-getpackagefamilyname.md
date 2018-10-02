@@ -7,7 +7,7 @@ old-location: appxpkg\getpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: AC239898-9924-4193-9072-7A7EEC2D03E9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName function [App packaging and management], appmodel/GetPackageFamilyName, appxpkg.getpackagefamilyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,35 +137,39 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-
-```cpp
-#define _UNICODE 1
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define _UNICODE 1
 #define UNICODE 1
 
-#include <Windows.h>
-#include <appmodel.h>
-#include <malloc.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include &lt;Windows.h&gt;
+#include &lt;appmodel.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;stdio.h&gt;
 
 int ShowUsage();
 void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE process);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: GetPackageFamilyName <pid> [<pid>...]\n");
+    wprintf(L"Usage: GetPackageFamilyName &lt;pid&gt; [&lt;pid&gt;...]\n");
     return 1;
 }
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc <= 1)
+    if (argc &lt;= 1)
         return ShowUsage();
 
-    for (int i=1; i<argc; ++i)
+    for (int i=1; i&lt;argc; ++i)
     {
         UINT32 pid = wcstoul(argv[i], NULL, 10);
-        if (pid > 0)
+        if (pid &gt; 0)
         {
             HANDLE process = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, FALSE, pid);
             if (process == NULL)
@@ -185,7 +189,7 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE process)
     wprintf(L"Process %u (handle=%p)\n", pid, process);
 
     UINT32 length = 0;
-    LONG rc = GetPackageFamilyName(process, &length, NULL);
+    LONG rc = GetPackageFamilyName(process, &amp;length, NULL);
     if (rc != ERROR_INSUFFICIENT_BUFFER)
     {
         if (rc == APPMODEL_ERROR_NO_PACKAGE)
@@ -202,7 +206,7 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE process)
         return;
     }
 
-    rc = GetPackageFamilyName(process, &length, familyName);
+    rc = GetPackageFamilyName(process, &amp;length, familyName);
     if (rc != ERROR_SUCCESS)
         wprintf(L"Error %d retrieving PackageFamilyName\n", rc);
     else
@@ -211,10 +215,10 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE process)
     free(familyName);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

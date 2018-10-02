@@ -4,10 +4,10 @@ title: IMFMuxStreamAttributesManager
 author: windows-sdk-content
 description: Provides access to the IMFAttributes of the substreams of a multiplexed media source.
 old-location: mf\imfmuxstreamattributesmanager.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3C3D4AC2-93A1-48E9-8FB0-75650BFFB4F6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMuxStreamAttributesManager, IMFMuxStreamAttributesManager interface [Media Foundation], IMFMuxStreamAttributesManager interface [Media Foundation],described, mf.imfmuxstreamattributesmanager, mfobjects/IMFMuxStreamAttributesManager
 ms.prod: windows
 ms.technology: windows-sdk

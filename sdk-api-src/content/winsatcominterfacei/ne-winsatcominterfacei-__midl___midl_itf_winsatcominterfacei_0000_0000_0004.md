@@ -7,7 +7,7 @@ old-location: winsat\winsat_bitmap_size.htm
 tech.root: WinSAT
 ms.assetid: 5cc91824-f3d4-4c33-85df-b98c8d6ac0a1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WINSAT_BITMAP_SIZE, WINSAT_BITMAP_SIZE enumeration [WinSAT], WINSAT_BITMAP_SIZE_NORMAL, WINSAT_BITMAP_SIZE_SMALL, __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004, winsat.winsat_bitmap_size, winsatcominterfacei/WINSAT_BITMAP_SIZE, winsatcominterfacei/WINSAT_BITMAP_SIZE_NORMAL, winsatcominterfacei/WINSAT_BITMAP_SIZE_SMALL
 ms.prod: windows
 ms.technology: windows-sdk

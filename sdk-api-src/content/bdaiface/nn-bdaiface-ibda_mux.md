@@ -7,7 +7,7 @@ old-location: mstv\ibda_mux.htm
 tech.root: MSTV
 ms.assetid: 5dde7b14-d5a4-4db5-b91f-d6bfd4be269d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_MUX, IBDA_MUX interface [Microsoft TV Technologies], IBDA_MUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_MUX, mstv.ibda_mux
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Provides access to a device's Mux Service. The Mux Service is used to specify wh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_MUX</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_MUX</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_MUX</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_MUX</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IBDA_MUX</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693404(v=VS.85).aspx">GetPidList</a>
+<a href="https://msdn.microsoft.com/92b13d40-4841-45ce-b232-5e29a93d71c5">GetPidList</a>
 </td>
 <td align="left" width="63%">
 Gets the list of packet PIDs that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.
@@ -80,7 +80,7 @@ Gets the list of packet PIDs that are enabled to go across the Protected Broadca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693405(v=VS.85).aspx">SetPidList</a>
+<a href="https://msdn.microsoft.com/2d77086c-2321-434d-bf24-b4eac395825b">SetPidList</a>
 </td>
 <td align="left" width="63%">
 Sets the list of PIDs that are enabled to go across the PBDA interface.

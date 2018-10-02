@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_clear_flag.htm
 tech.root: direct3d11
 ms.assetid: 6da515f3-d71d-4b59-b2ea-cacdf78fcb42
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 88ebcd50-b0dd-e04e-4b30-028ca4147553, D3D11_CLEAR_DEPTH, D3D11_CLEAR_FLAG, D3D11_CLEAR_FLAG enumeration [Direct3D 11], D3D11_CLEAR_STENCIL, d3d11/D3D11_CLEAR_DEPTH, d3d11/D3D11_CLEAR_FLAG, d3d11/D3D11_CLEAR_STENCIL, direct3d11.d3d11_clear_flag
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\getsystempreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 2948b495-c400-4227-94fb-7c4f5171ecae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetSystemPreferredUILanguages, GetSystemPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MACHINE_LANGUAGE_SETTINGS, _win32_GetSystemPreferredUILanguages, intl.getsystempreferreduilanguages, winnls/GetSystemPreferredUILanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -182,19 +182,23 @@ If the MUI_MACHINE_LANGUAGE_SETTINGS flag is not set, the retrieved language lis
 <li>The list contains one entry for each language, with no duplicate entries.</li>
 </ul>
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean GetSystemPreferredUILanguages(
             System.UInt32 dwFlags,
             ref System.UInt32 pulNumLanguages,
             System.IntPtr pwszLanguagesBuffer,
             ref System.UInt32 pcchLanguagesBuffer
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

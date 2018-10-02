@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_gettabletfromtabletcontextid.htm
 tech.root: tablet
 ms.assetid: be736eaf-8632-4e71-b1d8-c851a9d417e5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetTabletFromTabletContextId, GetTabletFromTabletContextId method [Tablet PC], GetTabletFromTabletContextId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTabletFromTabletContextId method, IRealTimeStylus.GetTabletFromTabletContextId, IRealTimeStylus::GetTabletFromTabletContextId, be736eaf-8632-4e71-b1d8-c851a9d417e5, rtscom/IRealTimeStylus::GetTabletFromTabletContextId, tablet.irealtimestylus_gettabletfromtabletcontextid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,26 +93,30 @@ This method can be called even if <a href="https://msdn.microsoft.com/e96e27d7-b
 
 The following C++ example code uses the tablet context identifier to get a pointer to the <a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a> object.
 
-
-```cpp
-TABLET_CONTEXT_ID* pTcids = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>TABLET_CONTEXT_ID* pTcids = NULL;
 TABLET_CONTEXT_ID tcid = 0;
 ULONG ulTcidCount = 0;
 IInkTablet* pInkTablet = NULL;
 
-if (SUCCEEDED(g_pRealTimeStylus->GetAllTabletContextIds(&ulTcidCount, &pTcids)))
+if (SUCCEEDED(g_pRealTimeStylus-&gt;GetAllTabletContextIds(&amp;ulTcidCount, &amp;pTcids)))
 {
     TRACE("Got the tablet context ID array.\n");
 
     // Loop through all the tablets on the system
-    for (ULONG i = 0; i < ulTcidCount; i++)
+    for (ULONG i = 0; i &lt; ulTcidCount; i++)
     {
         // Get the tablet from the context ID
-        if (SUCCEEDED(g_pRealTimeStylus->GetTabletFromTabletContextId(pTcids[i], &pInkTablet)))
+        if (SUCCEEDED(g_pRealTimeStylus-&gt;GetTabletFromTabletContextId(pTcids[i], &amp;pInkTablet)))
         {
             // Display the name of the tablet in debug output
             BSTR bstrName;
-            if (SUCCEEDED(pInkTablet->get_Name(&bstrName)))
+            if (SUCCEEDED(pInkTablet-&gt;get_Name(&amp;bstrName)))
             {
                 TRACE("The name of tablet %d is %s.\n", i, bstrName);
             }
@@ -120,15 +124,15 @@ if (SUCCEEDED(g_pRealTimeStylus->GetAllTabletContextIds(&ulTcidCount, &pTcids)))
     }
 
     // Get the context ID from the tablet
-    if (SUCCEEDED(g_pRealTimeStylus->GetTabletContextIdFromTablet(pInkTablet, &tcid)))
+    if (SUCCEEDED(g_pRealTimeStylus-&gt;GetTabletContextIdFromTablet(pInkTablet, &amp;tcid)))
     {
         TRACE("The context ID of the tablet is %d\n", tcid);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

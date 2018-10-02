@@ -7,7 +7,7 @@ old-location: winmsg\get_x_lparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\get_x_lparam.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GET_X_LPARAM, GET_X_LPARAM macro [Windows and Messages], _win32_GET_X_LPARAM, _win32_get_x_lparam_cpp, windowsx/GET_X_LPARAM, winmsg.get_x_lparam, winui._win32_get_x_lparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,11 +74,11 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632655(v=VS.85).aspx">GET_Y_LPARAM</a>
+<a href="https://msdn.microsoft.com/eaf1b26d-14e7-45e9-bdd1-79258c5f9701">GET_Y_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a>
+<a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a>
 
 
 

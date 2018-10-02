@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getconversioninstructioncount.ht
 tech.root: direct3d12
 ms.assetid: 4425F608-4AFD-4065-AC8C-2EE4618D334B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: GetConversionInstructionCount, GetConversionInstructionCount method, GetConversionInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetConversionInstructionCount method, ID3D12ShaderReflection.GetConversionInstructionCount, ID3D12ShaderReflection::GetConversionInstructionCount, d3d12shader/ID3D12ShaderReflection::GetConversionInstructionCount, direct3d12.id3d12shaderreflection_getconversioninstructioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

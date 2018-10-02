@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_check.htm
 tech.root: Intl
 ms.assetid: B8C62B56-FF72-4C94-AC77-A6BEFCFE2589
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: Check, Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],Check method, ISpellCheckProvider.Check, ISpellCheckProvider::Check, intl.ispellcheckprovider_check, spellcheckprovider/ISpellCheckProvider::Check
 ms.prod: windows-hardware
 ms.technology: windows-devices

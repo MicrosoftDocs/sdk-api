@@ -7,7 +7,7 @@ old-location: fs\file_info_2_str.htm
 tech.root: NetShare
 ms.assetid: c80090d5-7064-4809-9185-02116f7ac2ef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPFILE_INFO_2, *PFILE_INFO_2, FILE_INFO_2, FILE_INFO_2 structure [Files], LPFILE_INFO_2, LPFILE_INFO_2 structure pointer [Files], PFILE_INFO_2, PFILE_INFO_2 structure pointer [Files], _FILE_INFO_2, _win32_file_info_2_str, fs.file_info_2_str, lmshare/FILE_INFO_2, lmshare/LPFILE_INFO_2, lmshare/PFILE_INFO_2, netmgmt.file_info_2_str"
 ms.prod: windows
 ms.technology: windows-sdk

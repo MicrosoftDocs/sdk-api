@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getpreviousbackupstamp.htm
 tech.root: VSS
 ms.assetid: 91778854-52af-4e1e-943b-89c786963291
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPreviousBackupStamp, GetPreviousBackupStamp method [VSS], GetPreviousBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPreviousBackupStamp method, IVssComponent.GetPreviousBackupStamp, IVssComponent::GetPreviousBackupStamp, _win32_ivsscomponent_getpreviousbackupstamp, base.ivsscomponent_getpreviousbackupstamp, vswriter/IVssComponent::GetPreviousBackupStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,7 +146,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 For more information about backup stamps, see <a href="https://msdn.microsoft.com/3cf5dd1f-dc58-42bc-925f-fee7d34053c5">Writer Role in Backing Up Complex Stores</a> and <a href="https://msdn.microsoft.com/00391a49-8c81-4518-88a2-741ad5ee4ac3">Requester Role in Backing Up Complex Stores</a>.
 
-The caller should free the memory held by the <i>pbstrBackupStamp</i> parameter by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrBackupStamp</i> parameter by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 If there is no previous backup time stamp, 
 <b>GetPreviousBackupStamp</b> returns S_FALSE.

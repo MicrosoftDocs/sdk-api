@@ -7,7 +7,7 @@ old-location: dshow\dvd_mua_coeff.htm
 tech.root: DirectShow
 ms.assetid: 8b8402da-37c2-4983-ae09-967c269fc828
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: DVD_MUA_Coeff, DVD_MUA_Coeff structure [DirectShow], DVD_MUA_CoeffStructure, dshow.dvd_mua_coeff, strmif/DVD_MUA_Coeff, tagDVD_MUA_Coeff
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,15 +81,19 @@ The information contained in this structure reflects the mixing coefficients as 
 
 The alpha coefficient is used to mix to audio channel 0 and the beta coefficient is used to mix to audio channel 1. In general, the following formula calculates the mixing coefficients.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 Audio channel 0 = coeff[0].alpha * value[0] + coeff[1].alpha * value[1] + ... 
 Audio channel 1 = coeff[0].beta * value[0]  + coeff[1].beta * value[1] + ... 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: intl\script_charprop.htm
 tech.root: Intl
 ms.assetid: 2f3a4d8d-c7b1-4005-aebb-d3e9f2e3a37f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: SCRIPT_CHARPROP, SCRIPT_CHARPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_CHARPROP, intl.script_charprop, script_charprop, usp10/SCRIPT_CHARPROP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,14 +110,18 @@ An array of <b>SCRIPT_CHARPROP</b> structures contains one structure for each ch
 </ul>
 For the provided input string, the array of structures has the following values in the <b>fCanGlyphAlone</b> members:
 
-
-```cpp
-I like flying fish
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>I like flying fish
 111111100111110011
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

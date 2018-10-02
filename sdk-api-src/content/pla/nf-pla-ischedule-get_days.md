@@ -7,7 +7,7 @@ old-location: pla\ischedule_days.htm
 tech.root: PLA
 ms.assetid: 2986032f-647a-457a-ac7b-48439fd229a6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Days property [PLA], Days property [PLA],ISchedule interface, ISchedule interface [PLA],Days property, ISchedule.Days, ISchedule.get_Days, ISchedule::Days, ISchedule::get_Days, ISchedule::put_Days, base.ischedule_days, get_Days, pla.ischedule_days, pla/ISchedule::Days, pla/ISchedule::get_Days, pla/ISchedule::put_Days
 ms.prod: windows-hardware
 ms.technology: windows-devices

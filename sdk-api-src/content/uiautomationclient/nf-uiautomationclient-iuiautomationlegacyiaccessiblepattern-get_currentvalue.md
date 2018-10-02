@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue.
 tech.root: WinAuto
 ms.assetid: 48f960f1-113a-4ab8-809d-e83a7a66c28c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: CurrentValue property [Windows Accessibility], CurrentValue property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentValue property, IUIAutomationLegacyIAccessiblePattern.CurrentValue, IUIAutomationLegacyIAccessiblePattern.get_CurrentValue, IUIAutomationLegacyIAccessiblePattern::CurrentValue, IUIAutomationLegacyIAccessiblePattern::get_CurrentValue, get_CurrentValue, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentValue, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

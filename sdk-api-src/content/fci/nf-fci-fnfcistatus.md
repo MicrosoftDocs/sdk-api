@@ -7,7 +7,7 @@ old-location: winprog\fnfcistatus.htm
 tech.root: devnotes
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winprog.fnfcistatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

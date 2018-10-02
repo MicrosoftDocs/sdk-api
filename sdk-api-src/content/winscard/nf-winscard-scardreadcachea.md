@@ -7,7 +7,7 @@ old-location: security\scardreadcache.htm
 tech.root: secauthn
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: SCardReadCache, SCardReadCache function [Security], SCardReadCacheA, SCardReadCacheW, security.scardreadcache, winscard/SCardReadCache, winscard/SCardReadCacheA, winscard/SCardReadCacheW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ A pointer to the size, in bytes, of the <i>Data</i> buffer.
 
 If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>.
 
-If the function fails, it returns one of the following error codes. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+If the function fails, it returns one of the following error codes. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 <table>
 <tr>

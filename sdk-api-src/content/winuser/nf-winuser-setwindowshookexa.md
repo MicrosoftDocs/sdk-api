@@ -7,7 +7,7 @@ old-location: winmsg\setwindowshookex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\setwindowshookex.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetWindowsHookEx, SetWindowsHookEx function [Windows and Messages], SetWindowsHookExA, SetWindowsHookExW, WH_CALLWNDPROC, WH_CALLWNDPROCRET, WH_CBT, WH_DEBUG, WH_FOREGROUNDIDLE, WH_GETMESSAGE, WH_JOURNALPLAYBACK, WH_JOURNALRECORD, WH_KEYBOARD, WH_KEYBOARD_LL, WH_MOUSE, WH_MOUSE_LL, WH_MSGFILTER, WH_SHELL, WH_SYSMSGFILTER, _win32_SetWindowsHookEx, _win32_setwindowshookex_cpp, winmsg.setwindowshookex, winui._win32_setwindowshookex, winuser/SetWindowsHookEx, winuser/SetWindowsHookExA, winuser/SetWindowsHookExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ The type of hook procedure to be installed. This parameter can be one of the fol
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages before the system sends them to the destination window procedure. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644975(v=VS.85).aspx">CallWndProc</a> hook procedure.
+Installs a hook procedure that monitors messages before the system sends them to the destination window procedure. For more information, see the <a href="https://msdn.microsoft.com/25df5ac2-f007-4683-ba89-537dc7a3c15e">CallWndProc</a> hook procedure.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Installs a hook procedure that monitors messages before the system sends them to
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages after they have been processed by the destination window procedure. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644976(v=VS.85).aspx">CallWndRetProc</a> hook procedure.
+Installs a hook procedure that monitors messages after they have been processed by the destination window procedure. For more information, see the <a href="https://msdn.microsoft.com/4e666fae-add5-4ea5-a314-e034f894d493">CallWndRetProc</a> hook procedure.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Installs a hook procedure that monitors messages after they have been processed 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx">CBTProc</a> hook procedure.
+Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the <a href="https://msdn.microsoft.com/26c48395-f0b8-4c03-bf65-d76cdf0117d6">CBTProc</a> hook procedure.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Installs a hook procedure that receives notifications useful to a CBT applicatio
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure useful for debugging other hook procedures. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx">DebugProc</a> hook procedure.
+Installs a hook procedure useful for debugging other hook procedures. For more information, see the <a href="https://msdn.microsoft.com/d9d446a1-1337-4efa-bb33-9e5b762476f8">DebugProc</a> hook procedure.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Installs a hook procedure useful for debugging other hook procedures. For more i
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that will be called when the application's foreground thread is about to become idle. This hook is useful for performing low priority tasks during idle time. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644980(v=VS.85).aspx">ForegroundIdleProc</a> hook procedure. 
+Installs a hook procedure that will be called when the application's foreground thread is about to become idle. This hook is useful for performing low priority tasks during idle time. For more information, see the <a href="https://msdn.microsoft.com/de6f5c7b-df4f-4b63-ac46-236c332de2a3">ForegroundIdleProc</a> hook procedure. 
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Installs a hook procedure that will be called when the application's foreground 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages posted to a message queue. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644981(v=VS.85).aspx">GetMsgProc</a> hook procedure.
+Installs a hook procedure that monitors messages posted to a message queue. For more information, see the <a href="https://msdn.microsoft.com/3d6a61eb-6c1d-4222-a627-c129822312b9">GetMsgProc</a> hook procedure.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Installs a hook procedure that monitors messages posted to a message queue. For 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that posts messages previously recorded by a <a href="https://msdn.microsoft.com/en-us/library/ms644959(v=VS.85).aspx">WH_JOURNALRECORD</a> hook procedure. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644982(v=VS.85).aspx">JournalPlaybackProc</a> hook procedure.
+Installs a hook procedure that posts messages previously recorded by a <a href="about_hooks.htm">WH_JOURNALRECORD</a> hook procedure. For more information, see the <a href="https://msdn.microsoft.com/ee7cfc0e-c04e-4f1c-bf03-e6ad770d4659">JournalPlaybackProc</a> hook procedure.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ Installs a hook procedure that posts messages previously recorded by a <a href="
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644983(v=VS.85).aspx">JournalRecordProc</a> hook procedure.
+Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the <a href="https://msdn.microsoft.com/377cdb26-563b-4014-ac52-ef0c441e94b5">JournalRecordProc</a> hook procedure.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ Installs a hook procedure that records input messages posted to the system messa
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644984(v=VS.85).aspx">KeyboardProc</a> hook procedure.
+Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="https://msdn.microsoft.com/3fdcc0b4-013a-48e3-9a01-bf34953daddc">KeyboardProc</a> hook procedure.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Installs a hook procedure that monitors keystroke messages. For more information
 </dl>
 </td>
 <td width="60%">
- Installs a hook procedure that monitors low-level keyboard input events. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644985(v=VS.85).aspx">LowLevelKeyboardProc</a> hook procedure.
+ Installs a hook procedure that monitors low-level keyboard input events. For more information, see the <a href="https://msdn.microsoft.com/9d66accd-04cd-4839-b826-1c85dfb3b24e">LowLevelKeyboardProc</a> hook procedure.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ Installs a hook procedure that monitors keystroke messages. For more information
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors mouse messages. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a> hook procedure.
+Installs a hook procedure that monitors mouse messages. For more information, see the <a href="https://msdn.microsoft.com/4fc1d81d-ee12-4ee4-b29c-2450b92b83b5">MouseProc</a> hook procedure.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </dl>
 </td>
 <td width="60%">
- Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644986(v=VS.85).aspx">LowLevelMouseProc</a> hook procedure.
+ Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="https://msdn.microsoft.com/a0922155-22e5-410a-b64e-f87690de8a17">LowLevelMouseProc</a> hook procedure.
 
 </td>
 </tr>
@@ -217,7 +217,7 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644987(v=VS.85).aspx">MessageProc</a> hook procedure.
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the <a href="https://msdn.microsoft.com/20f8511d-8160-4565-99b3-d373501b1bd1">MessageProc</a> hook procedure.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ Installs a hook procedure that monitors messages generated as a result of an inp
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that receives notifications useful to shell applications. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644991(v=VS.85).aspx">ShellProc</a> hook procedure.
+Installs a hook procedure that receives notifications useful to shell applications. For more information, see the <a href="https://msdn.microsoft.com/4c21e0d8-2529-4b04-ad45-762ca7f1e5ef">ShellProc</a> hook procedure.
 
 </td>
 </tr>
@@ -239,7 +239,7 @@ Installs a hook procedure that receives notifications useful to shell applicatio
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms644992(v=VS.85).aspx">SysMsgProc</a> hook procedure.
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the <a href="https://msdn.microsoft.com/5ed3a4f0-8b7e-4896-b8d4-b5f071de895d">SysMsgProc</a> hook procedure.
 
 </td>
 </tr>
@@ -302,9 +302,9 @@ To hook all applications on the desktop of a 64-bit Windows installation, instal
 
 An error may occur if the <i>hMod</i> parameter is <b>NULL</b> and the <i>dwThreadId</i> parameter is zero or specifies the identifier of a thread created by another process. 
 
-Calling the <a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a> function to chain to the next hook procedure is optional, but it is highly recommended; otherwise, other applications that have installed hooks will not receive hook notifications and may behave incorrectly as a result. You should call <b>CallNextHookEx</b> unless you absolutely need to prevent the notification from being seen by other applications. 
+Calling the <a href="https://msdn.microsoft.com/2f734ea7-7724-46be-99a0-2bfa27b2ed99">CallNextHookEx</a> function to chain to the next hook procedure is optional, but it is highly recommended; otherwise, other applications that have installed hooks will not receive hook notifications and may behave incorrectly as a result. You should call <b>CallNextHookEx</b> unless you absolutely need to prevent the notification from being seen by other applications. 
 
-Before terminating, an application must call the <a href="https://msdn.microsoft.com/en-us/library/ms644993(v=VS.85).aspx">UnhookWindowsHookEx</a> function to free system resources associated with the hook. 
+Before terminating, an application must call the <a href="https://msdn.microsoft.com/0266fc5f-f62f-4bad-99b9-7cd16edb07de">UnhookWindowsHookEx</a> function to free system resources associated with the hook. 
 
 The scope of a hook depends on the hook type. Some hooks can be set only with global scope; others can also be set for only a specific thread, as shown in the following table. 
 
@@ -405,7 +405,7 @@ This behavior is similar to what happens when there is an architecture mismatch 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644960(v=VS.85).aspx">Installing and Releasing Hook Procedures</a>.
+For an example, see <a href="using_hooks.htm">Installing and Releasing Hook Procedures</a>.
 
 <div class="code"></div>
 
@@ -416,19 +416,19 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644960(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx">CBTProc</a>
+<a href="https://msdn.microsoft.com/26c48395-f0b8-4c03-bf65-d76cdf0117d6">CBTProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a>
+<a href="https://msdn.microsoft.com/2f734ea7-7724-46be-99a0-2bfa27b2ed99">CallNextHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644975(v=VS.85).aspx">CallWndProc</a>
+<a href="https://msdn.microsoft.com/25df5ac2-f007-4683-ba89-537dc7a3c15e">CallWndProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644976(v=VS.85).aspx">CallWndRetProc</a>
+<a href="https://msdn.microsoft.com/4e666fae-add5-4ea5-a314-e034f894d493">CallWndRetProc</a>
 
 
 
@@ -436,47 +436,47 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644960(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx">DebugProc</a>
+<a href="https://msdn.microsoft.com/d9d446a1-1337-4efa-bb33-9e5b762476f8">DebugProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644980(v=VS.85).aspx">ForegroundIdleProc</a>
+<a href="https://msdn.microsoft.com/de6f5c7b-df4f-4b63-ac46-236c332de2a3">ForegroundIdleProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644981(v=VS.85).aspx">GetMsgProc</a>
+<a href="https://msdn.microsoft.com/3d6a61eb-6c1d-4222-a627-c129822312b9">GetMsgProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644982(v=VS.85).aspx">JournalPlaybackProc</a>
+<a href="https://msdn.microsoft.com/ee7cfc0e-c04e-4f1c-bf03-e6ad770d4659">JournalPlaybackProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644983(v=VS.85).aspx">JournalRecordProc</a>
+<a href="https://msdn.microsoft.com/377cdb26-563b-4014-ac52-ef0c441e94b5">JournalRecordProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644984(v=VS.85).aspx">KeyboardProc</a>
+<a href="https://msdn.microsoft.com/3fdcc0b4-013a-48e3-9a01-bf34953daddc">KeyboardProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644985(v=VS.85).aspx">LowLevelKeyboardProc</a>
+<a href="https://msdn.microsoft.com/9d66accd-04cd-4839-b826-1c85dfb3b24e">LowLevelKeyboardProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644986(v=VS.85).aspx">LowLevelMouseProc</a>
+<a href="https://msdn.microsoft.com/a0922155-22e5-410a-b64e-f87690de8a17">LowLevelMouseProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644987(v=VS.85).aspx">MessageProc</a>
+<a href="https://msdn.microsoft.com/20f8511d-8160-4565-99b3-d373501b1bd1">MessageProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>
+<a href="https://msdn.microsoft.com/4fc1d81d-ee12-4ee4-b29c-2450b92b83b5">MouseProc</a>
 
 
 
@@ -484,15 +484,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644960(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644991(v=VS.85).aspx">ShellProc</a>
+<a href="https://msdn.microsoft.com/4c21e0d8-2529-4b04-ad45-762ca7f1e5ef">ShellProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644992(v=VS.85).aspx">SysMsgProc</a>
+<a href="https://msdn.microsoft.com/5ed3a4f0-8b7e-4896-b8d4-b5f071de895d">SysMsgProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644993(v=VS.85).aspx">UnhookWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/0266fc5f-f62f-4bad-99b9-7cd16edb07de">UnhookWindowsHookEx</a>
  
 
  

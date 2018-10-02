@@ -7,7 +7,7 @@ old-location: adsi\iadsreplicapointer.htm
 tech.root: ADSI
 ms.assetid: c34eab26-540e-4400-873e-7af09fda0bbf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsReplicaPointer, IADsReplicaPointer interface [ADSI], IADsReplicaPointer interface [ADSI],described, ReplicaPointer, _ds_iadsreplicapointer, adsi.iadsreplicapointer, iads/IADsReplicaPointer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

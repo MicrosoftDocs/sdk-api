@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfenum.htm
 tech.root: WmiSdk
 ms.assetid: 71ce1c89-446e-4137-9857-9d3c5921e0b7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], IWbemHiPerfEnum interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfenum, wbemcli/IWbemHiPerfEnum, wmi.iwbemhiperfenum
 ms.prod: windows
 ms.technology: windows-sdk

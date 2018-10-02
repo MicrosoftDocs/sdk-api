@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice_allowcdburn.htm
 tech.root: WMP
 ms.assetid: a17ab1c3-8208-481f-8566-164e2d817e05
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBurn method, IWMPSubscriptionService.allowCDBurn, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
 ms.prod: windows-hardware
 ms.technology: windows-devices

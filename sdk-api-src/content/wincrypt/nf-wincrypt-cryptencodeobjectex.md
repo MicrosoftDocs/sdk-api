@@ -7,7 +7,7 @@ old-location: security\cryptencodeobjectex.htm
 tech.root: seccrypto
 ms.assetid: 45134db8-059b-43d3-90c2-9b6cc970fca0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CRYPT_ENCODE_ALLOC_FLAG, CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG, CryptEncodeObjectEx, CryptEncodeObjectEx function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptencodeobjectex, security.cryptencodeobjectex, wincrypt/CryptEncodeObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -371,11 +371,15 @@ In all cases, the Punycode encoding of the host name is performed on a label-by-
 
 The following example shows initializing and encoding an X509_NAME structure using <b>CryptEncodeObjectEx</b>. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/78108cd5-531e-4d0c-96cf-6f6264b7716c">Example C Program: ASN.1 Encoding and Decoding</a>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
 #pragma comment(lib, "crypt32.lib")
 
 
@@ -409,7 +413,7 @@ CERT_RDN_ATTR rgNameAttr =
 CERT_RDN rgRDN[] = 
 {
    1,               // The number of elements in the array
-   &rgNameAttr      // Pointer to the array
+   &amp;rgNameAttr      // Pointer to the array
 };
 
 //--------------------------------------------------------------------
@@ -436,11 +440,11 @@ BYTE *pbEncoded;              // Variable to hold a pointer to the
 if( CryptEncodeObjectEx(
      MY_TYPE,        // The encoding/decoding type
      X509_NAME,    
-     &CertName,
+     &amp;CertName,
      0,                 
      NULL, 
      NULL,
-     &cbEncoded))    // Fill in the length needed for
+     &amp;cbEncoded))    // Fill in the length needed for
                      // the encoded buffer.
 {
      printf("The number of bytes needed is %d \n",cbEncoded);
@@ -464,11 +468,11 @@ else
 if(CryptEncodeObjectEx(
      MY_TYPE,
      X509_NAME,
-     &CertName,
+     &amp;CertName,
      0,
      NULL, 
      pbEncoded,
-     &cbEncoded))
+     &amp;cbEncoded))
 {
      printf("The structure has been encoded.\n");
 }
@@ -484,10 +488,10 @@ if(pbEncoded)
     free(pbEncoded);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -508,7 +512,7 @@ if(pbEncoded)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Object Encoding and Decoding Functions</a>
+<a href="cryptography_functions.htm">Object Encoding and Decoding Functions</a>
  
 
  

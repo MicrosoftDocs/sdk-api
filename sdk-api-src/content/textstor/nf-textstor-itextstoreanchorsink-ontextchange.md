@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_ontextchange.htm
 tech.root: TSF
 ms.assetid: 4bdf12bc-c15e-4bdb-8bc0-53172e9c943e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: 0, ITextStoreAnchorSink interface [Text Services Framework],OnTextChange method, ITextStoreAnchorSink.OnTextChange, ITextStoreAnchorSink::OnTextChange, OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework],ITextStoreAnchorSink interface, TS_TC_CORRECTION, _tsf_itextstoreanchorsink_ontextchange_ref, textstor/ITextStoreAnchorSink::OnTextChange, tsf.itextstoreanchorsink_ontextchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

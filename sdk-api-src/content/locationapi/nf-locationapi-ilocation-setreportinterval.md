@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocation_setreportinterval.htm
 tech.root: LocationAPI
 ms.assetid: 4b48f64d-47e8-41cc-a7a1-970654896e7e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ILocation interface [WinLocation],SetReportInterval method, ILocation.SetReportInterval, ILocation::SetReportInterval, SetReportInterval, SetReportInterval method [WinLocation], SetReportInterval method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_setreportinterval, locationapi/ILocation::SetReportInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,14 +136,18 @@ A report interval of zero means that no minimum interval is specified, and the a
 
 The following example demonstrates how to call <b>SetReportInterval</b>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Set the latitude/longitude report interval to 1000 milliseconds
-HRESULT hr = spLocation->SetReportInterval(IID_ILatLongReport, 1000);
-```
-
-
+HRESULT hr = spLocation-&gt;SetReportInterval(IID_ILatLongReport, 1000);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

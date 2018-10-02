@@ -7,7 +7,7 @@ old-location: wmi\chstring_getat.htm
 tech.root: WmiSdk
 ms.assetid: ed038b41-211c-4483-99cd-0bc43b241761
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetAt method, CHString.GetAt, CHString.GetAt(int), CHString::GetAt, CHString::GetAt(int), GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,13 +92,17 @@ The overloaded subscript (<a href="https://msdn.microsoft.com/9a0ba1f3-e862-4210
 
 The following code example shows the use of <b>CHString::GetAt</b>:
 
-
-```cpp
-CHString s( L"abcdef" );
-assert( s.GetAt(2) == 'c' );
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s( L"abcdef" );
+assert( s.GetAt(2) == 'c' );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

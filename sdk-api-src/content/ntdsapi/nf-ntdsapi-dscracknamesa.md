@@ -4,10 +4,10 @@ title: DsCrackNamesA function
 author: windows-sdk-content
 description: Converts an array of directory service object names from one format to another.
 old-location: ad\dscracknames.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: f812a001-5aab-4c62-87bd-54f95792e271
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsCrackNames, DsCrackNames function [Active Directory], DsCrackNamesA, DsCrackNamesW, _glines_dscracknames, ad.dscracknames, ntdsapi/DsCrackNames, ntdsapi/DsCrackNamesA, ntdsapi/DsCrackNamesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,14 +89,18 @@ The <b>DS_LIST_NCS</b> value can also be passed for this parameter. This causes 
 
 <div class="alert"><b>Note</b>  <b>DS_LIST_NCS</b> is not defined in a published header file. To use this value, define it in the exact format shown below.</div>
 <div> </div>
-
-```cpp
-#ifndef DS_LIST_NCS
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef DS_LIST_NCS
     #define DS_LIST_NCS 0xfffffff6
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param formatDesired [in]
 

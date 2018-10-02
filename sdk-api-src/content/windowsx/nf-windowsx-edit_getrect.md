@@ -4,10 +4,10 @@ title: Edit_GetRect macro
 author: windows-sdk-content
 description: Gets the formatting rectangle of an edit control. You can use this macro or send the EM_GETRECT message explicitly.
 old-location: controls\Edit_GetRect.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getrect.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: Edit_GetRect, Edit_GetRect macro [Windows Controls], _win32_Edit_GetRect, _win32_Edit_GetRect_cpp, controls.Edit_GetRect, controls._win32_Edit_GetRect, windowsx/Edit_GetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761596(v=VS.85).aspx">EM_GETRECT</a> message explicitly.
+Gets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/eef0150d-9b7a-4247-acbf-6fea2efd1dc3">EM_GETRECT</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf1
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761596(v=VS.85).aspx">EM_GETRECT</a>.
+For more information, see <a href="https://msdn.microsoft.com/eef0150d-9b7a-4247-acbf-6fea2efd1dc3">EM_GETRECT</a>.
 
 
 

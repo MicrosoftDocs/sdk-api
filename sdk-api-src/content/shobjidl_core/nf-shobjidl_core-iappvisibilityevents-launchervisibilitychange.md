@@ -4,10 +4,10 @@ title: IAppVisibilityEvents::LauncherVisibilityChange
 author: windows-sdk-content
 description: Notifies a client that visibility of the Start screen has changed.
 old-location: shell\IAppVisibilityEvents_LauncherVisibilityChange.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 26789ef4-015a-4dfd-8265-e27b50c565c4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IAppVisibilityEvents interface [Windows Shell],LauncherVisibilityChange method, IAppVisibilityEvents.LauncherVisibilityChange, IAppVisibilityEvents::LauncherVisibilityChange, LauncherVisibilityChange, LauncherVisibilityChange method [Windows Shell], LauncherVisibilityChange method [Windows Shell],IAppVisibilityEvents interface, shell.IAppVisibilityEvents_LauncherVisibilityChange, shobjidl_core/IAppVisibilityEvents::LauncherVisibilityChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

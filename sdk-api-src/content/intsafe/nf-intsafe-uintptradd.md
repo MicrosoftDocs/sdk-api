@@ -4,10 +4,10 @@ title: UIntPtrAdd function
 author: windows-sdk-content
 description: Adds two values of type UINT_PTR.
 old-location: shell\UIntPtrAdd.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 85658194-cb13-443f-8e6b-84034f7cd46b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: UIntPtrAdd, UIntPtrAdd function [Windows Shell], _shell_UIntPtrAdd, intsafe/UIntPtrAdd, shell.UIntPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

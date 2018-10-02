@@ -4,10 +4,10 @@ title: IX509PrivateKey::get_Opened
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the private key is open.
 old-location: security\ix509privatekey_opened_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7f02b3d7-ab3a-4413-81ac-c626bc79a88c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509PrivateKey interface [Security],Opened property, IX509PrivateKey.Opened, IX509PrivateKey.get_Opened, IX509PrivateKey::Opened, IX509PrivateKey::get_Opened, Opened property [Security], Opened property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Opened, certenroll/IX509PrivateKey::get_Opened, get_Opened, security.ix509privatekey_opened_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Opened</b> property retrieves a Boolean value that specifies whether the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> is open.
+The <b>Opened</b> property retrieves a Boolean value that specifies whether the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> is open.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-You can call the <a href="https://msdn.microsoft.com/en-us/library/Aa378957(v=VS.85).aspx">Create</a> method to create a private key, and call the <a href="https://msdn.microsoft.com/en-us/library/Aa379027(v=VS.85).aspx">Open</a> method to open one.
+You can call the <a href="https://msdn.microsoft.com/e8c6564a-6009-437e-9b83-3711e43a7374">Create</a> method to create a private key, and call the <a href="https://msdn.microsoft.com/965e3bf8-22b9-4015-8fb2-102c5f7b1cb5">Open</a> method to open one.
 
 
 
@@ -73,7 +73,7 @@ You can call the <a href="https://msdn.microsoft.com/en-us/library/Aa378957(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

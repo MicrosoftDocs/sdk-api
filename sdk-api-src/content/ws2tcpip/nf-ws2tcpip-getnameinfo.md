@@ -7,7 +7,7 @@ old-location: winsock\getnameinfo_2.htm
 tech.root: WinSock
 ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNameInfoA, _win32_getnameinfo_2, getnameinfo, getnameinfo function [Winsock], winsock.getnameinfo_2, ws2tcpip/getnameinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,32 +114,32 @@ Nonzero error codes returned by the
 </tr>
 <tr>
 <td>EAI_AGAIN</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></td>
 <td>A temporary failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_BADFLAGS</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></td>
 <td>One or more invalid parameters was passed to the <b>getnameinfo</b> function. This error is returned if a host name was requested but the <i>hostlen</i> parameter was zero or if a service name was requested, but the <i>servlen</i> parameter was zero. </td>
 </tr>
 <tr>
 <td>EAI_FAIL</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></td>
 <td>A nonrecoverable failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_FAMILY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></td>
 <td>The <b>sa_family</b> member of socket address structure pointed to by the <i>sa</i> parameter is not supported. </td>
 </tr>
 <tr>
 <td>EAI_MEMORY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>A memory allocation failure occurred.</td>
 </tr>
 <tr>
 <td>EAI_NONAME</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></td>
 <td>A service name was requested, but no port number was found in the structure pointed to by the <i>sa</i> parameter or no service name matching the port number was found. NI_NAMEREQD is set and the host name cannot be located, or both the <i>host</i> and <i>serv</i> parameters were <b>NULL</b>. </td>
 </tr>
 </table>
@@ -161,7 +161,7 @@ In addition, the following error codes can be returned.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -191,14 +191,18 @@ Macros in the Winsock header file define a mixed-case function name of <b>GetNam
 
 To simplify determining buffer requirements for the <i>host</i> and <i>serv</i> parameters, the following values for maximum host name length and maximum service name are defined in the <i>Ws2tcpip.h</i> header file.
 
-
-```cpp
-#define NI_MAXSERV    32
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define NI_MAXSERV    32
 #define NI_MAXHOST  1025
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 The <i>flags</i> parameter can be used to customize processing of the 
 <b>getnameinfo</b> function. The following flags are available:
@@ -240,11 +244,15 @@ Setting the <b>NI_DGRAM</b> flag indicates that the service is a datagram servic
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code example shows how to use the <b>getnameinfo</b> function.
 
-
-```cpp
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -272,7 +280,7 @@ int __cdecl main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -286,7 +294,7 @@ int __cdecl main(int argc, char **argv)
 
     //-----------------------------------------
     // Call getnameinfo
-    dwRetval = getnameinfo((struct sockaddr *) &saGNI,
+    dwRetval = getnameinfo((struct sockaddr *) &amp;saGNI,
                            sizeof (struct sockaddr),
                            hostname,
                            NI_MAXHOST, servInfo, NI_MAXSERV, NI_NUMERICSERV);
@@ -299,10 +307,10 @@ int __cdecl main(int argc, char **argv)
         return 0;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Support_for_getnameinfo_on_older_versions_of_Windows_"></a><a id="support_for_getnameinfo_on_older_versions_of_windows_"></a><a id="SUPPORT_FOR_GETNAMEINFO_ON_OLDER_VERSIONS_OF_WINDOWS_"></a>Support for getnameinfo on older versions of Windows
 </h3>
 The <b>getnameinfo</b> function was added to the <i>Ws2_32.dll</i> on Windows XP and later. If you want to execute an application using this function on earlier versions of Windows (Windows 2000, Windows NT, and Windows Me/98/95), then you need to include the <i>Ws2tcpip.h</i> file and also include the <i>Wspiapi.h</i> file. When the <i>Wspiapi.h</i> include file is added, the <b>getnameinfo</b> function is defined to the WspiapiGetNameInfo inline function in the <i>Wspiapi.h</i> file. At runtime, the WspiapiGetNameInfo function is implemented in such a way that if the <i>Ws2_32.dll</i> or the <i>Wship6.dll</i> (the file containing <b>getnameinfo</b> in the IPv6 Technology Preview for Windows 2000) does not include <b>getnameinfo</b>, then a version of  <b>getnameinfo</b> is implemented inline based on code in the <i>Wspiapi.h</i> header file. This inline code will be used on older Windows platforms that do not natively support the <b>getnameinfo</b> function. 

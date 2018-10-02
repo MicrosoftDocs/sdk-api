@@ -7,7 +7,7 @@ old-location: winsock\wsaioctl_2.htm
 tech.root: WinSock
 ms.assetid: 038aeca6-d7b7-4f74-ac69-4536c2e5118b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSAIoctl, WSAIoctl function [Winsock], _win32_wsaioctl_2, mstcpip/WSAIoctl, winsock.wsaioctl_2, winsock2/WSAIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,7 +121,7 @@ Upon successful completion, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_IO_PENDING</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ An overlapped operation was successfully initiated and completion will be indica
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -143,7 +143,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -154,7 +154,7 @@ The <i>lpvInBuffer</i>, <i>lpvOutBuffer</i>, <i>lpcbBytesReturned</i>, <i>lpOver
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -165,7 +165,7 @@ The <i>dwIoControlCode</i> parameter is not a valid command, or a specified inpu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -176,7 +176,7 @@ The function is invoked when a callback is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -187,7 +187,7 @@ The descriptor <i>s</i> is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -199,7 +199,7 @@ The specified IOCTL command cannot be realized. (For example, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -210,7 +210,7 @@ The socket is marked as non-blocking and the requested operation would block.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOPROTOOPT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOPROTOOPT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -263,17 +263,21 @@ Some protocol-specific IOCTLs may also be especially likely to block. Check the 
 
 The prototype for the completion routine pointed to by the <i>lpCompletionRoutine</i> parameter is as follows:
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -285,10 +289,10 @@ void CALLBACK CompletionRoutine (
   IN LPWSAOVERLAPPED lpOverlapped,
   IN DWORD dwFlags 
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The CompletionRoutine is a placeholder for an application-supplied function name. The <i>dwError</i> parameter specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i> parameter. The  <i>cbTransferred</i> parameter specifies the number of bytes received. The <i>dwFlags</i> parameter is not used  for this IOCTL. The completion routine does not return a value.
 
 It is possible to adopt an encoding scheme that preserves the currently defined 
@@ -354,7 +358,7 @@ The following Windows Sockets 2 commands are supported.
 
 If an overlapped operation completes immediately, 
 <b>WSAIoctl</b> returns a value of zero and the <i>lpcbBytesReturned</i> parameter is updated with the number of bytes in the output buffer. If the overlapped operation is successfully initiated and will complete later, this function returns SOCKET_ERROR and indicates error code 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a>. In this case, <i>lpcbBytesReturned</i> is not updated. When the overlapped operation completes the amount of data in the output buffer is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in 
+<a href="windows_sockets_error_codes_2.htm">WSA_IO_PENDING</a>. In this case, <i>lpcbBytesReturned</i> is not updated. When the overlapped operation completes the amount of data in the output buffer is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in 
 <a href="https://msdn.microsoft.com/3c43ccfd-0fe7-4ecc-9517-e0a1c448f7e4">WSAGetOverlappedResult</a>.
 
 When called with an overlapped socket, the <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. The <i>lpOverlapped</i> parameter contains the address of a 
@@ -372,19 +376,23 @@ If <i>lpCompletionRoutine</i> is not <b>NULL</b>, the <i>hEvent</i> parameter is
 
 The prototype of the completion routine is as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 void CALLBACK CompletionRoutine(
   IN DWORD dwError, 
   IN DWORD cbTransferred, 
   IN LPWSAOVERLAPPED lpOverlapped, 
   IN DWORD dwFlags 
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 This <b>CompletionRoutine</b> is a placeholder for an application-defined or library-defined function. The completion routine is invoked only if the thread is in an alertable state. To put a thread into an alertable state, use  the <a href="https://msdn.microsoft.com/7a978ade-6323-455b-b655-f372f4bcadc8">WSAWaitForMultipleEvents</a>, <a href="https://msdn.microsoft.com/530b5340-f8b2-4e00-a3ca-87a7c7372482">WaitForSingleObjectEx</a>, or <a href="https://msdn.microsoft.com/47a167fb-4714-4353-b924-a161f367673c">WaitForMultipleObjectsEx</a> function with the <i>fAlertable</i> or <i>bAlertable</i> parameter set to <b>TRUE</b>.
 
 The <i>dwError</i> parameter of <b>CompletionRoutine</b>     specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. The <i>cbTransferred</i> parameter specifies the number of bytes returned. Currently, no flag values are defined and <i>dwFlags</i> will be zero. The <b>CompletionRoutine</b> function does not return a value.

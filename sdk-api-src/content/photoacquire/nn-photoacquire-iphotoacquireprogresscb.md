@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb.htm
 tech.root: acquisition
 ms.assetid: c4fcc470-1b05-4d33-8581-80c6e7488e04
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], IPhotoAcquireProgressCB interface [Picture Acquisition],described, IPhotoAcquireProgressCBInterface, photoacquire/IPhotoAcquireProgressCB, picacq.iphotoacquireprogresscb
 ms.prod: windows
 ms.technology: windows-sdk

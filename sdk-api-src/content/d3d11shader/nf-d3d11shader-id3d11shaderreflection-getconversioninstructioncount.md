@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getconversioninstructioncount.ht
 tech.root: direct3d11
 ms.assetid: 4876bcc8-44b6-4e26-9f0e-cd915b39acb8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetConversionInstructionCount, GetConversionInstructionCount method [Direct3D 11], GetConversionInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetConversionInstructionCount method, ID3D11ShaderReflection.GetConversionInstructionCount, ID3D11ShaderReflection::GetConversionInstructionCount, d3d11shader/ID3D11ShaderReflection::GetConversionInstructionCount, db140140-cbc5-e74e-f018-bca611e3b03f, direct3d11.id3d11shaderreflection_getconversioninstructioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ Gets the number of conversion instructions.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Returns the number of conversion instructions.
 
@@ -85,7 +85,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476590(v=VS.85).aspx">ID3D11ShaderReflection Interface</a>
+<a href="https://msdn.microsoft.com/a28cca72-7f2d-416a-bfa9-4d1f71fc98d5">ID3D11ShaderReflection Interface</a>
  
 
  

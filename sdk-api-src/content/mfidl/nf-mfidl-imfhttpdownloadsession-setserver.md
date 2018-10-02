@@ -4,10 +4,10 @@ title: IMFHttpDownloadSession::SetServer
 author: windows-sdk-content
 description: Called by Microsoft Media Foundation to specify parameters common to all requests created by this instance of IMFHttpDownloadSession.
 old-location: mf\imfhttpdownloadsession_setserver.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 408D4863-D95F-4BBD-9F0B-9796ED08A256
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFHttpDownloadSession interface [Media Foundation],SetServer method, IMFHttpDownloadSession.SetServer, IMFHttpDownloadSession::SetServer, SetServer, SetServer method [Media Foundation], SetServer method [Media Foundation],IMFHttpDownloadSession interface, mf.imfhttpdownloadsession_setserver, mfidl/IMFHttpDownloadSession::SetServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

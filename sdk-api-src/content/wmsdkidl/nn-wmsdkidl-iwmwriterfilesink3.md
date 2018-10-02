@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink3.htm
 tech.root: wmformat
 ms.assetid: 67f418c8-184d-46f0-8939-69194c7e7a50
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], IWMWriterFileSink3 interface [windows Media Format],described, IWMWriterFileSink3Interface, wmformat.iwmwriterfilesink3, wmsdkidl/IWMWriterFileSink3
 ms.prod: windows
 ms.technology: windows-sdk

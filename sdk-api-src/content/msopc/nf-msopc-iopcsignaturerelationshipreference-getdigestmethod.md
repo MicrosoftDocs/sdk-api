@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreference_getdigestmethod.htm
 tech.root: OPC
 ms.assetid: 126e0b2c-8b58-4b42-b2b5-99f6fab40f27
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignatureRelationshipReference.GetDigestMethod, IOpcSignatureRelationshipReference::GetDigestMethod, msopc/IOpcSignatureRelationshipReference::GetDigestMethod, opc.iopcsignaturerelationshipreference_getdigestmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

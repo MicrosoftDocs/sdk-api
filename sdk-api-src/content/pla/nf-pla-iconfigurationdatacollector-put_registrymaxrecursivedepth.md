@@ -7,7 +7,7 @@ old-location: pla\iconfigurationdatacollector_registrymaxrecursivedepth.htm
 tech.root: PLA
 ms.assetid: f291a404-a952-42cd-a538-c7d326aa29d8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],RegistryMaxRecursiveDepth property, IConfigurationDataCollector.RegistryMaxRecursiveDepth, IConfigurationDataCollector.put_RegistryMaxRecursiveDepth, IConfigurationDataCollector::RegistryMaxRecursiveDepth, IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, RegistryMaxRecursiveDepth property [PLA], RegistryMaxRecursiveDepth property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrymaxrecursivedepth, pla.iconfigurationdatacollector_registrymaxrecursivedepth, pla/IConfigurationDataCollector::RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, put_RegistryMaxRecursiveDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices

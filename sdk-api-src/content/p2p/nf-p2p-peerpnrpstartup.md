@@ -4,10 +4,10 @@ title: PeerPnrpStartup function
 author: windows-sdk-content
 description: Starts the Peer Name Resolution Protocol (PNRP) service for the calling peer.
 old-location: p2p\peerpnrpstartup.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 27d8d6ab-679d-4b7b-bf90-7b0859e7e048
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerPnrpStartup, PeerPnrpStartup function [Peer Networking], p2p.peerpnrpstartup, p2p/PeerPnrpStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

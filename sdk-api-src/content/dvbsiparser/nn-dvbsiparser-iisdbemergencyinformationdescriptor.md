@@ -7,7 +7,7 @@ old-location: mstv\iisdbemergencyinformationdescriptor.htm
 tech.root: MSTV
 ms.assetid: 1d098415-1e64-4b49-aa48-654b0d0da5df
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEmergencyInformationDescriptor, mstv.iisdbemergencyinformationdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_getstartpoint.htm
 tech.root: direct2d
 ms.assetid: 95CD771D-1B7A-4E6F-B9B2-B0565221F8F4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetStartPoint, GetStartPoint method [Direct2D], GetStartPoint method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetStartPoint method, ID2D1Ink.GetStartPoint, ID2D1Ink::GetStartPoint, d2d1_3/ID2D1Ink::GetStartPoint, direct2d.id2d1ink_getstartpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

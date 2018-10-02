@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxloggingoptions_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_70c3_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxLoggingOptions, IFaxLoggingOptions interface [Fax Service], IFaxLoggingOptions interface [Fax Service],described, _mfax_faxloggingoptions_cpp, fax._mfax_faxloggingoptions_cpp, faxcomex/IFaxLoggingOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,14 +52,14 @@ req.redist:
 
 The <b>IFaxLoggingOptions</b> interface is used by a fax client application to access and configure the event logging categories and the activity logging options that the fax service is using.
 
-The <b>IFaxLoggingOptions</b> interface is accessed through an <a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a> interface. It provides access to the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> and <a href="https://msdn.microsoft.com/en-us/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> methods. 
+The <b>IFaxLoggingOptions</b> interface is accessed through an <a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a> interface. It provides access to the <a href="https://msdn.microsoft.com/225afdb8-7249-4aa5-bbde-638adf02eb41">FaxActivityLogging</a> and <a href="https://msdn.microsoft.com/c46f1b55-8211-4c9b-a622-356f2ea2db36">FaxEventLogging</a> methods. 
 
 
 ## -remarks
 
 
 
-To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms690044(v=VS.85).aspx">LoggingOptions</a> method.
+To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://msdn.microsoft.com/51abefd8-e8b2-42f8-a4dc-f2aa8ffc9ef6">LoggingOptions</a> method.
 
 
 
@@ -69,15 +69,15 @@ To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686863(v=VS.85).aspx">FaxLoggingOptions</a>
+<a href="https://msdn.microsoft.com/438e4e89-88c9-431d-b774-98e65cf57064">FaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
  
 
  

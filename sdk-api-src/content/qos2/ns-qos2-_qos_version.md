@@ -7,7 +7,7 @@ old-location: qos\qos_version.htm
 tech.root: QOS
 ms.assetid: cc8d6dc3-87e9-46c7-8192-78053b4932a3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PQOS_VERSION, PQOS_VERSION, PQOS_VERSION structure pointer [QOS], QOS_VERSION, QOS_VERSION structure [QOS], _QOS_VERSION, qos.qos_version, qos2/PQOS_VERSION, qos2/QOS_VERSION"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth8_getvoicestate.htm
 tech.root: audio
 ms.assetid: DA4D5330-78DD-4D6D-8B58-CDD977C3159F
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/28/2018
 ms.keywords: GetVoiceState, GetVoiceState method [Audio Devices], GetVoiceState method [Audio Devices],IDirectMusicSynth8 interface, IDirectMusicSynth8 interface [Audio Devices],GetVoiceState method, IDirectMusicSynth8.GetVoiceState, IDirectMusicSynth8::GetVoiceState, audio.idirectmusicsynth8_getvoicestate, dmusics/IDirectMusicSynth8::GetVoiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices

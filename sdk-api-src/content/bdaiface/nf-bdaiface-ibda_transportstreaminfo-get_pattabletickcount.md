@@ -7,7 +7,7 @@ old-location: mstv\ibda_transportstreaminfo_get_pattabletickcount.htm
 tech.root: MSTV
 ms.assetid: 8ad1a680-0037-40d5-9263-2a2f0862154c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_TransportStreamInfo interface [Microsoft TV Technologies],get_PatTableTickCount method, IBDA_TransportStreamInfo.get_PatTableTickCount, IBDA_TransportStreamInfo::get_PatTableTickCount, IBDA_TransportStreamInfoget_PatTableTickCount, bdaiface/IBDA_TransportStreamInfo::get_PatTableTickCount, get_PatTableTickCount, get_PatTableTickCount method [Microsoft TV Technologies], get_PatTableTickCount method [Microsoft TV Technologies],IBDA_TransportStreamInfo interface, mstv.ibda_transportstreaminfo_get_pattabletickcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693459(v=VS.85).aspx">IBDA_TransportStreamInfo Interface</a>
+<a href="https://msdn.microsoft.com/c5f37790-f276-41a5-b5bd-7d8c7a7f587f">IBDA_TransportStreamInfo Interface</a>
  
 
  

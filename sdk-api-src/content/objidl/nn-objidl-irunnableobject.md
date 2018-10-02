@@ -7,7 +7,7 @@ old-location: com\irunnableobject.htm
 tech.root: com
 ms.assetid: c682447b-5b12-41d5-a81d-fe94a117f740
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], IRunnableObject interface [COM],described, _com_irunnableobject, com.irunnableobject, objidl/IRunnableObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enables a container to control the running of its embedded objects. In the case 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRunnableObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IRunnableObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRunnableObject</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IRunnableObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

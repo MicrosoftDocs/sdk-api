@@ -7,7 +7,7 @@ old-location: winrt\istringable_tostring.htm
 tech.root: WinRT
 ms.assetid: A102D2DB-A1DF-489A-A025-99C5B9AAB893
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IStringable interface [Windows Runtime],ToString method, IStringable.IStringable, IStringable.ToString, IStringable::IStringable, IStringable::ToString, ToString, ToString method [Windows Runtime], ToString method [Windows Runtime],IStringable interface, windows/IStringable::ToString, winrt.istringable_tostring
 ms.prod: windows-hardware
 ms.technology: windows-devices

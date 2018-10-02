@@ -4,10 +4,10 @@ title: IntPtrToLong function
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type LONG.
 old-location: shell\IntPtrToLong.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 43ccfd9b-6bef-4870-ad7a-f207443cf5cf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IntPtrToLong, IntPtrToLong function [Windows Shell], _shell_IntPtrToLong, intsafe/IntPtrToLong, shell.IntPtrToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

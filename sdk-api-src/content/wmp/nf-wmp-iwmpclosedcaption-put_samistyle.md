@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption_put_samistyle.htm
 tech.root: WMP
 ms.assetid: 8f9a4f6e-4596-4c4a-ade7-5b7e1b82b229
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIStyle method, IWMPClosedCaption.put_SAMIStyle, IWMPClosedCaption::put_SAMIStyle, IWMPClosedCaptionput_SAMIStyle, put_SAMIStyle, put_SAMIStyle method [Windows Media Player], put_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samistyle, wmp/IWMPClosedCaption::put_SAMIStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,17 +100,21 @@ The method succeeded.
 
 A SAMI file can contain several format style definitions. SAMI styles are defined between the &lt;STYLE&gt; and &lt;/STYLE&gt; tags in the SAMI file. A style is defined with a text string preceded by a # character. For example, the following code specifies text formatting to be used for a style.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 #Emphasis1 {Name: Big Bold Italic; font-size: 14pt; text-align: center;
             color: blue; font-family: sans-serif; font-weight: bold;
             font-style: italic;}
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If no SAMI style is specified, the first style defined in the SAMI file is used by default.
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.

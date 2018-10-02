@@ -4,10 +4,10 @@ title: IBrowserService::RegisterWindow
 author: windows-sdk-content
 description: Deprecated. Registers the browser in the list of browser windows.
 old-location: shell\IBrowserService_RegisterWindow.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 39d4c31b-bbe4-4b45-b335-c4ae299b1ae3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: FALSE, IBrowserService interface [Windows Shell],RegisterWindow method, IBrowserService.RegisterWindow, IBrowserService::RegisterWindow, RegisterWindow, RegisterWindow method [Windows Shell], RegisterWindow method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::RegisterWindow, shell.IBrowserService_RegisterWindow, zone_IBrowserService_RegisterWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

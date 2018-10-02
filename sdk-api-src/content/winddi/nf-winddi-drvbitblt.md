@@ -4,10 +4,10 @@ title: DrvBitBlt function
 author: windows-sdk-content
 description: The DrvBitBlt function provides general bit-block transfer capabilities between device-managed surfaces, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 old-location: display\drvbitblt.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d7b4e25c-b9a1-4200-b449-b7c7ed059db4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DrvBitBlt, DrvBitBlt function [Display Devices], ddifncs_1314a0f2-0f0d-4b76-b060-207e332dafde.xml, display.drvbitblt, winddi/DrvBitBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices

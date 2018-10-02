@@ -7,7 +7,7 @@ old-location: qos\lpm_init_info.htm
 tech.root: QOS
 ms.assetid: 7eab2cf0-97e6-4298-99c3-09ce8c09fb87
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LPM_INIT_INFO, LPM_INIT_INFO structure [QOS], lpmapi/LPM_INIT_INFO, lpminitinfo, qos.lpm_init_info
 ms.prod: windows
 ms.technology: windows-sdk

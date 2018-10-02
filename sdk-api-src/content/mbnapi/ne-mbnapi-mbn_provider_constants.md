@@ -7,7 +7,7 @@ old-location: mbn\mbn_provider_constants.htm
 tech.root: mbn
 ms.assetid: 1cfe230c-16b5-490d-938f-604489a4a936
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: MBN_PROVIDERID_LEN, MBN_PROVIDERNAME_LEN, MBN_PROVIDER_CONSTANTS, MBN_PROVIDER_CONSTANTS enumeration [Microsoft Broadband Networks], mbn.mbn_provider_constants, mbnapi/MBN_PROVIDERID_LEN, mbnapi/MBN_PROVIDERNAME_LEN, mbnapi/MBN_PROVIDER_CONSTANTS
 ms.prod: windows
 ms.technology: windows-sdk

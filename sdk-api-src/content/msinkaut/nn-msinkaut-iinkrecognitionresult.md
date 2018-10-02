@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionresult.htm
 tech.root: tablet
 ms.assetid: fd7ee250-6f76-419b-8164-0d2717ea288c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IInkRecognitionResult, IInkRecognitionResult interface [Tablet PC], IInkRecognitionResult interface [Tablet PC],described, fd7ee250-6f76-419b-8164-0d2717ea288c, msinkaut/IInkRecognitionResult, tablet.iinkrecognitionresult
 ms.prod: windows
 ms.technology: windows-sdk

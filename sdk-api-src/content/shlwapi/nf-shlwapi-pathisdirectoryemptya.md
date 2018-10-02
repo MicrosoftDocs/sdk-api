@@ -4,10 +4,10 @@ title: PathIsDirectoryEmptyA function
 author: windows-sdk-content
 description: Determines whether a specified path is an empty directory.
 old-location: shell\PathIsDirectoryEmpty.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 833fe68e-8b21-4819-8370-d1b5391a3080
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: PathIsDirectoryEmpty, PathIsDirectoryEmpty function [Windows Shell], PathIsDirectoryEmptyA, PathIsDirectoryEmptyW, _win32_PathIsDirectoryEmpty, shell.PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmptyA, shlwapi/PathIsDirectoryEmptyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

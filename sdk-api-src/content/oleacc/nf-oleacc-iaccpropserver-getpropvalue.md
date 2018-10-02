@@ -7,7 +7,7 @@ old-location: winauto\iaccpropserver_iaccpropserver__getpropvalue.htm
 tech.root: WinAuto
 ms.assetid: 35cb2935-c41b-4588-9199-23789af23b72
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetPropValue, GetPropValue method [Windows Accessibility], GetPropValue method [Windows Accessibility],IAccPropServer interface, IAccPropServer interface [Windows Accessibility],GetPropValue method, IAccPropServer.GetPropValue, IAccPropServer::GetPropValue, _msaa_IAccPropServer_GetPropValue, msaa.iaccpropserver_iaccpropserver__getpropvalue, oleacc/IAccPropServer::GetPropValue, winauto.iaccpropserver_iaccpropserver__getpropvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

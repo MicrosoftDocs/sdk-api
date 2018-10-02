@@ -4,10 +4,10 @@ title: IExplorerBrowser::Destroy
 author: windows-sdk-content
 description: Destroys the browser.
 old-location: shell\IExplorerBrowser_Destroy.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b6fc4aa6-f689-4b3e-a922-f8361d33b6dd
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Destroy, Destroy method [Windows Shell], Destroy method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Destroy method, IExplorerBrowser.Destroy, IExplorerBrowser::Destroy, _shell_IExplorerBrowser_Destroy, shell.IExplorerBrowser_Destroy, shobjidl_core/IExplorerBrowser::Destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

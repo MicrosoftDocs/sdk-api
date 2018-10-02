@@ -4,10 +4,10 @@ title: ITextDocument2::GetActiveStory
 author: windows-sdk-content
 description: Gets the active story; that is, the story that receives keyboard and mouse input.
 old-location: controls\itextdocument2_getactivestory.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 9849d958-5bcf-44d9-827c-3d5619ba2357
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetActiveStory, GetActiveStory method [Windows Controls], GetActiveStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetActiveStory method, ITextDocument2.GetActiveStory, ITextDocument2::GetActiveStory, controls.itextdocument2_getactivestory, tom/ITextDocument2::GetActiveStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

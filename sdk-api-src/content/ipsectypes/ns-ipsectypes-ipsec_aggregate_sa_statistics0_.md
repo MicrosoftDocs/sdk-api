@@ -7,7 +7,7 @@ old-location: fwp\ipsec_aggregate_sa_statistics0_struct.htm
 tech.root: FWP
 ms.assetid: f0318061-40f9-4380-9681-34db70659c49
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_AGGREGATE_SA_STATISTICS0, IPSEC_AGGREGATE_SA_STATISTICS0 structure [Filtering], IPSEC_AGGREGATE_SA_STATISTICS0_, fwp.ipsec_aggregate_sa_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

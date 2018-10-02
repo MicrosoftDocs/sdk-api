@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_query_video_memory_info.htm
 tech.root: direct3ddxgi
 ms.assetid: E710F3A9-CB12-43B0-B56C-789350BCAE59
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DXGI_QUERY_VIDEO_MEMORY_INFO, DXGI_QUERY_VIDEO_MEMORY_INFO structure [DXGI], direct3ddxgi.dxgi_query_video_memory_info, dxgi1_4/DXGI_QUERY_VIDEO_MEMORY_INFO
 ms.prod: windows
 ms.technology: windows-sdk

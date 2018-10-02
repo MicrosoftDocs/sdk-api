@@ -7,7 +7,7 @@ old-location: gdi\ptconvertdevmodetoprintticket.htm
 tech.root: printdocs
 ms.assetid: 22ebb9e7-10c6-4512-b749-d61f74bc82ed
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: PTConvertDevModeToPrintTicket, PTConvertDevModeToPrintTicket function [Windows GDI], _win32_PTConvertDevModeToPrintTicket, gdi.ptconvertdevmodetoprintticket, prntvpt/PTConvertDevModeToPrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b
 
 If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_INVALIDARG.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 
 

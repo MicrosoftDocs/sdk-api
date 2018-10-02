@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem_get_item.htm
 tech.root: imapi
 ms.assetid: 8ea5219c-a12f-43a3-a67b-16cd0e6d2bac
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Item method, IFsiDirectoryItem.get_Item, IFsiDirectoryItem::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_item, imapi2fs/IFsiDirectoryItem::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

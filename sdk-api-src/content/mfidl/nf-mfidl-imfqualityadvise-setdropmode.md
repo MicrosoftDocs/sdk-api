@@ -4,10 +4,10 @@ title: IMFQualityAdvise::SetDropMode
 author: windows-sdk-content
 description: Sets the drop mode. In drop mode, a component drops samples, more or less aggressively depending on the level of the drop mode.
 old-location: mf\imfqualityadvise_setdropmode.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2, IMFQualityAdvise interface [Media Foundation],SetDropMode method, IMFQualityAdvise.SetDropMode, IMFQualityAdvise::SetDropMode, SetDropMode, SetDropMode method [Media Foundation], SetDropMode method [Media Foundation],IMFQualityAdvise interface, mf.imfqualityadvise_setdropmode, mfidl/IMFQualityAdvise::SetDropMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

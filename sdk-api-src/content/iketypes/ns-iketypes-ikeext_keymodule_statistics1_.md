@@ -7,7 +7,7 @@ old-location: fwp\ikeext_keymodule_statistics1.htm
 tech.root: FWP
 ms.assetid: 3b5fdf04-e3a6-4658-a53d-66928b5682f5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IKEEXT_KEYMODULE_STATISTICS1, IKEEXT_KEYMODULE_STATISTICS1 structure [Filtering], IKEEXT_KEYMODULE_STATISTICS1_, fwp.ikeext_keymodule_statistics1, iketypes/IKEEXT_KEYMODULE_STATISTICS1
 ms.prod: windows
 ms.technology: windows-sdk

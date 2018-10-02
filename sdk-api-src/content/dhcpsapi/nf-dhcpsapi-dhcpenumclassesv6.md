@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumclassesv6.htm
 tech.root: DHCP
 ms.assetid: 3b916df3-ae17-4e7d-9cbc-d70763a8b856
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpEnumClassesV6, DhcpEnumClassesV6 function [DHCP], dhcp.dhcpenumclassesv6, dhcpsapi/DhcpEnumClassesV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

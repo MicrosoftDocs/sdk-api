@@ -4,10 +4,10 @@ title: IShellFolder::GetUIObjectOf
 author: windows-sdk-content
 description: Gets an object that can be used to carry out actions on the specified file objects or folders.
 old-location: shell\IShellFolder_GetUIObjectOf.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ec863dbf-8ec9-4952-8912-575125e6dd09
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetUIObjectOf, GetUIObjectOf method [Windows Shell], GetUIObjectOf method [Windows Shell],IShellFolder interface, GetUIObjectOf method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],GetUIObjectOf method, IShellFolder.GetUIObjectOf, IShellFolder2 interface [Windows Shell],GetUIObjectOf method, IShellFolder2::GetUIObjectOf, IShellFolder::GetUIObjectOf, _win32_IShellFolder_GetUIObjectOf, shell.IShellFolder_GetUIObjectOf, shobjidl_core/IShellFolder2::GetUIObjectOf, shobjidl_core/IShellFolder::GetUIObjectOf
 ms.prod: windows-hardware
 ms.technology: windows-devices

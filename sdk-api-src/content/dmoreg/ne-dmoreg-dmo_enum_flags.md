@@ -7,7 +7,7 @@ old-location: dshow\dmo_enum_flags.htm
 tech.root: DirectShow
 ms.assetid: ef2be8d8-99d9-4200-8edb-284a5b216814
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: DMO_ENUMF_INCLUDE_KEYED, DMO_ENUM_FLAGS, DMO_ENUM_FLAGS enumeration [DirectShow], DMO_ENUM_FLAGSEnumeration, dmoreg/DMO_ENUMF_INCLUDE_KEYED, dmoreg/DMO_ENUM_FLAGS, dshow.dmo_enum_flags
 ms.prod: windows
 ms.technology: windows-sdk

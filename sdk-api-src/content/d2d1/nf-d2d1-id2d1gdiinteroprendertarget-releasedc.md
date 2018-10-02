@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GdiInteropRenderTarget_ReleaseDC.htm
 tech.root: direct2d
 ms.assetid: 802bd023-f223-4505-9911-95b43f3490e3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1GdiInteropRenderTarget interface [Direct2D],ReleaseDC method, ID2D1GdiInteropRenderTarget.ReleaseDC, ID2D1GdiInteropRenderTarget::ReleaseDC, ReleaseDC, ReleaseDC method [Direct2D], ReleaseDC method [Direct2D],ID2D1GdiInteropRenderTarget interface, d2d1/ID2D1GdiInteropRenderTarget::ReleaseDC, direct2d.ID2D1GdiInteropRenderTarget_ReleaseDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

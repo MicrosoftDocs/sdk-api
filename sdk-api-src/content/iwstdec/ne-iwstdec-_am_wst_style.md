@@ -7,7 +7,7 @@ old-location: dshow\am_wst_style.htm
 tech.root: DirectShow
 ms.assetid: a183d38a-ed79-4bfa-8983-52877c19c335
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PAM_WST_STYLE, AM_WST_STYLE, AM_WST_STYLE , AM_WST_STYLE enumeration [DirectShow], AM_WST_STYLEEnumeration, AM_WST_STYLE_Invers, AM_WST_STYLE_None, PAM_WST_STYLE, PAM_WST_STYLE enumeration pointer [DirectShow], _AM_WST_STYLE, dshow.am_wst_style, iwstdec/AM_WST_STYLE, iwstdec/AM_WST_STYLE_Invers, iwstdec/AM_WST_STYLE_None, iwstdec/PAM_WST_STYLE"
 ms.prod: windows
 ms.technology: windows-sdk

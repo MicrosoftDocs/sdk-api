@@ -4,10 +4,10 @@ title: ListBox_GetTopIndex macro
 author: windows-sdk-content
 description: Gets the index of the first visible item in a list box. You can use this macro or send the LB_GETTOPINDEX message explicitly.
 old-location: controls\ListBox_GetTopIndex.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettopindex.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ListBox_GetTopIndex, ListBox_GetTopIndex macro [Windows Controls], _win32_ListBox_GetTopIndex, _win32_ListBox_GetTopIndex_cpp, controls.ListBox_GetTopIndex, controls._win32_ListBox_GetTopIndex, windowsx/ListBox_GetTopIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the index of the first visible item in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761317(v=VS.85).aspx">LB_GETTOPINDEX</a> message explicitly.
+Gets the index of the first visible item in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/c051cb34-c358-4696-80b0-28c627a0a862">LB_GETTOPINDEX</a> message explicitly.
 
 
 ## -parameters

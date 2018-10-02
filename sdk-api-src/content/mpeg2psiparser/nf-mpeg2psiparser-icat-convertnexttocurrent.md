@@ -7,7 +7,7 @@ old-location: mstv\icat_convertnexttocurrent.htm
 tech.root: MSTV
 ms.assetid: bdd8f7a6-0c77-4058-bcca-9d712da781e0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ICAT.ConvertNextToCurrent, ICAT::ConvertNextToCurrent, ICATConvertNextToCurrent, mpeg2psiparser/ICAT::ConvertNextToCurrent, mstv.icat_convertnexttocurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

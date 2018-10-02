@@ -4,10 +4,10 @@ title: SHReplaceFromPropSheetExtArray function
 author: windows-sdk-content
 description: Requests each property sheet in a property sheet extension array to replace pages. Each page is allowed up to one replacement.
 old-location: shell\SHReplaceFromPropSheetExtArray.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a8bdde44-d668-46c4-9e58-7a45b775fe09
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHReplaceFromPropSheetExtArray, SHReplaceFromPropSheetExtArray function [Windows Shell], _win32_SHReplaceFromPropSheetExtArray, shell.SHReplaceFromPropSheetExtArray, shlobj_core/SHReplaceFromPropSheetExtArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ The ID of the page to replace.
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb760805(v=VS.85).aspx">AddPropSheetPageProc</a> function used by the property sheet extension to add a page to a property sheet.
+A pointer to an <a href="https://msdn.microsoft.com/37673813-89dc-4624-a58b-fe5f44df46c6">AddPropSheetPageProc</a> function used by the property sheet extension to add a page to a property sheet.
 
 
 ### -param lParam

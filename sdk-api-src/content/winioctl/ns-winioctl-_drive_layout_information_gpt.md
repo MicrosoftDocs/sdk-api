@@ -7,7 +7,7 @@ old-location: fs\drive_layout_information_gpt_str.htm
 tech.root: fileio
 ms.assetid: 763b0d64-6dcc-411c-aca1-3beea0890124
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT structure [Files], PDRIVE_LAYOUT_INFORMATION_GPT, PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Files], _DRIVE_LAYOUT_INFORMATION_GPT, _win32_drive_layout_information_gpt_str, base.drive_layout_information_gpt_str, fs.drive_layout_information_gpt_str, winioctl/DRIVE_LAYOUT_INFORMATION_GPT, winioctl/PDRIVE_LAYOUT_INFORMATION_GPT"
 ms.prod: windows
 ms.technology: windows-sdk

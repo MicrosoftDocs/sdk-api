@@ -4,10 +4,10 @@ title: IMFAsyncResult
 author: windows-sdk-content
 description: Provides information about the result of an asynchronous operation.
 old-location: mf\imfasyncresult.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8c95b1de-8974-445c-8070-41552ea83e53
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 8c95b1de-8974-445c-8070-41552ea83e53, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], IMFAsyncResult interface [Media Foundation],described, mf.imfasyncresult, mfobjects/IMFAsyncResult
 ms.prod: windows
 ms.technology: windows-sdk

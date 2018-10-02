@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_put_halpha.htm
 tech.root: MSTV
 ms.assetid: 2f444c28-972e-4e90-ad99-8bc4f4ee25b7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_HAlpha method, IDVBTLocator.put_HAlpha, IDVBTLocator::put_HAlpha, IDVBTLocatorput_HAlpha, mstv.idvbtlocator_put_halpha, put_HAlpha, put_HAlpha method [Microsoft TV Technologies], put_HAlpha method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_HAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices

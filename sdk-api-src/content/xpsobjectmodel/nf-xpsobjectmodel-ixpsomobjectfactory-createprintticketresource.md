@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 67d5ccfc-0f01-49d2-966e-09c7958921a5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CreatePrintTicketResource, CreatePrintTicketResource method [XPS Documents and Packaging], CreatePrintTicketResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePrintTicketResource method, IXpsOMObjectFactory.CreatePrintTicketResource, IXpsOMObjectFactory::CreatePrintTicketResource, xps.ixpsomobjectfactory_createprintticketresource, xpsobjectmodel/IXpsOMObjectFactory::CreatePrintTicketResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

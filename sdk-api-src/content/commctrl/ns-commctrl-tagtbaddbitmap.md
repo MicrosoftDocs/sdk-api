@@ -4,10 +4,10 @@ title: tagTBADDBITMAP
 author: windows-sdk-content
 description: Adds a bitmap that contains button images to a toolbar.
 old-location: controls\TBADDBITMAP.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbaddbitmap.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPTBADDBITMAP, IDB_HIST_DISABLED, IDB_HIST_HOT, IDB_HIST_NORMAL, IDB_HIST_PRESSED, IDB_STD_LARGE_COLOR, IDB_STD_SMALL_COLOR, IDB_VIEW_LARGE_COLOR, IDB_VIEW_SMALL_COLOR, LPTBADDBITMAP, LPTBADDBITMAP structure pointer [Windows Controls], TBADDBITMAP, TBADDBITMAP structure [Windows Controls], _win32_TBADDBITMAP, _win32_TBADDBITMAP_cpp, commctrl/LPTBADDBITMAP, commctrl/TBADDBITMAP, controls.TBADDBITMAP, controls._win32_TBADDBITMAP, tagTBADDBITMAP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,11 +168,11 @@ If
 
 
 If 
-				<b>nID</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="https://msdn.microsoft.com/en-us/library/Bb787391(v=VS.85).aspx">TB_REPLACEBITMAP</a>. Otherwise, the toolbar is destroyed.
+				<b>nID</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="https://msdn.microsoft.com/abad5c7a-ebdd-46b5-a465-fe64ff8eb127">TB_REPLACEBITMAP</a>. Otherwise, the toolbar is destroyed.
 
-Defined values can be used as indexes to the standard bitmaps. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb760433(v=VS.85).aspx">Toolbar Standard Button Image Index Values</a>.
+Defined values can be used as indexes to the standard bitmaps. For more information, see <a href="https://msdn.microsoft.com/58605c48-a306-4b89-9d70-c3248ada4cb0">Toolbar Standard Button Image Index Values</a>.
 
-The <b>TBADDBITMAP</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787289(v=VS.85).aspx">TB_ADDBITMAP</a> message.
+The <b>TBADDBITMAP</b> structure is used with the <a href="https://msdn.microsoft.com/9040ab84-a5f3-4e4b-bc90-590b2ceeaa5a">TB_ADDBITMAP</a> message.
 
 
 

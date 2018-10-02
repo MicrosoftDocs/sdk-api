@@ -7,7 +7,7 @@ old-location: security\ncryptsignhash_func.htm
 tech.root: SecCNG
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

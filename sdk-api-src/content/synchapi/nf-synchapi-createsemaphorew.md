@@ -7,7 +7,7 @@ old-location: base\createsemaphore.htm
 tech.root: Sync
 ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateSemaphore, CreateSemaphore function, CreateSemaphoreA, CreateSemaphoreW, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices

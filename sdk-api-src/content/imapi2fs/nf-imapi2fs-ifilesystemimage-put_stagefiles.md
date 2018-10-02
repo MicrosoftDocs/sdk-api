@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_put_stagefiles.htm
 tech.root: imapi
 ms.assetid: 1040831b-0bda-40b7-ab6d-c914515f4e69
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_StageFiles method, IFileSystemImage.put_StageFiles, IFileSystemImage::put_StageFiles, imapi.ifilesystemimage_put_stagefiles, imapi2fs/IFileSystemImage::put_StageFiles, put_StageFiles, put_StageFiles method [IMAPI], put_StageFiles method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

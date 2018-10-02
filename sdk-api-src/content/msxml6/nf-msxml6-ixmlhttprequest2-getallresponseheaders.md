@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2_getallresponseheaders.htm
 tech.root: ixhr2
 ms.assetid: 6452812B-0E0F-4140-8E3C-25592A9C6C48
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetAllResponseHeaders, GetAllResponseHeaders method [XMLHttpRequest2], GetAllResponseHeaders method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetAllResponseHeaders method, IXMLHTTPRequest2.GetAllResponseHeaders, IXMLHTTPRequest2::GetAllResponseHeaders, ixhr2.ixmlhttprequest2_getallresponseheaders, msxml6/IXMLHTTPRequest2::GetAllResponseHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,14 +83,18 @@ The returned response header information is only valid after the <a href="https:
 
 #### Examples
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 WCHAR *pwszHeaderValue = NULL;
 IXMLHTTPRequest2 *pIXMLHTTPRequest2 = NULL;
 
 // Create IXMLHTTPRequest2 object and initialize pIXMLHTTPRequest2.
-hr = pIXMLHTTPRequest2->GetAllResponseHeaders(&pwszHeaderValue);
+hr = pIXMLHTTPRequest2-&gt;GetAllResponseHeaders(&amp;pwszHeaderValue);
 if(SUCCEEDED(hr))
 {
   MessageBox(NULL, pwszHeaderValue, L"All Response Headers", MB_OK);
@@ -103,10 +107,10 @@ if (pwszHeaderValue != NULL)
 }
 
 // Release pIXMLHTTPRequest2 when finished with it.
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

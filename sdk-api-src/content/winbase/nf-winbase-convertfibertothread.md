@@ -4,10 +4,10 @@ title: ConvertFiberToThread function
 author: windows-sdk-content
 description: Converts the current fiber into a thread.
 old-location: base\convertfibertothread.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 194c5289-0d25-4ce1-9c32-9e87b12db825
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ConvertFiberToThread, ConvertFiberToThread function, _win32_convertfibertothread, base.convertfibertothread, winbase/ConvertFiberToThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

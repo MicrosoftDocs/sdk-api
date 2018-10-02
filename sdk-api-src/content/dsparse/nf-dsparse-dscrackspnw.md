@@ -4,10 +4,10 @@ title: DsCrackSpnW function
 author: windows-sdk-content
 description: Parses a service principal name (SPN) into its component strings.
 old-location: ad\dscrackspn.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 65c81c23-a259-480c-9c1e-03484d3e89c9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsCrackSpn, DsCrackSpn function [Active Directory], DsCrackSpnA, DsCrackSpnW, _glines_dscrackspn, ad.dscrackspn, dsparse/DsCrackSpn, dsparse/DsCrackSpnA, dsparse/DsCrackSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,12 +64,16 @@ The <b>DsCrackSpn</b> function parses a service principal name (SPN) into its co
 
 Pointer to a constant null-terminated string that contains the SPN to parse. The SPN has the following format, in which the &lt;service class&gt; and &lt;instance name&gt; components must be present and the &lt;port number&gt; and &lt;service name&gt; components are optional. The &lt;port number&gt; component must be a numeric string value.
 
-
-```cpp
-<service class>/<instance name>:<port number>/<service name>
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;service class&gt;/&lt;instance name&gt;:&lt;port number&gt;/&lt;service name&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param pcServiceClass [in, out, optional]
 

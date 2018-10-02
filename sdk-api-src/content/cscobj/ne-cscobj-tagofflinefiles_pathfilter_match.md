@@ -7,7 +7,7 @@ old-location: of\offlinefiles_pathfilter_match.htm
 tech.root: OfflineFiles
 ms.assetid: fae3d36d-b5f3-45ae-97f2-41fd6045d976
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OFFLINEFILES_PATHFILTER_CHILD, OFFLINEFILES_PATHFILTER_DESCENDENT, OFFLINEFILES_PATHFILTER_MATCH, OFFLINEFILES_PATHFILTER_MATCH enumeration [Offline Files], OFFLINEFILES_PATHFILTER_SELF, OFFLINEFILES_PATHFILTER_SELFORCHILD, OFFLINEFILES_PATHFILTER_SELFORDESCENDENT, cscobj/OFFLINEFILES_PATHFILTER_CHILD, cscobj/OFFLINEFILES_PATHFILTER_DESCENDENT, cscobj/OFFLINEFILES_PATHFILTER_MATCH, cscobj/OFFLINEFILES_PATHFILTER_SELF, cscobj/OFFLINEFILES_PATHFILTER_SELFORCHILD, cscobj/OFFLINEFILES_PATHFILTER_SELFORDESCENDENT, of.offlinefiles_pathfilter_match, tagOFFLINEFILES_PATHFILTER_MATCH
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ Event must be an exact match or any descendant of the fully qualified UNC path a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530536(v=VS.85).aspx">IOfflineFilesEventsFilter::GetPathFilter</a>
+<a href="https://msdn.microsoft.com/0b9d8339-3daa-4f0c-8a52-59e06b663163">IOfflineFilesEventsFilter::GetPathFilter</a>
  
 
  

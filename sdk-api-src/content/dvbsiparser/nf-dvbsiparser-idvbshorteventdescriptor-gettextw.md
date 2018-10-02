@@ -7,7 +7,7 @@ old-location: mstv\idvbshorteventdescriptor_gettextw.htm
 tech.root: MSTV
 ms.assetid: 0770d24f-b421-4b00-809c-04fa53ca038c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetTextW method, IDvbShortEventDescriptor.GetTextW, IDvbShortEventDescriptor::GetTextW, dvbsiparser/IDvbShortEventDescriptor::GetTextW, mstv.idvbshorteventdescriptor_gettextw
 ms.prod: windows-hardware
 ms.technology: windows-devices

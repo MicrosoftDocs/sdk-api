@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12fence_seteventoncompletion.htm
 tech.root: direct3d12
 ms.assetid: DBC5A1FD-F3D0-4C9B-965B-1967151093F7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: ID3D12Fence interface,SetEventOnCompletion method, ID3D12Fence.SetEventOnCompletion, ID3D12Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method, SetEventOnCompletion method,ID3D12Fence interface, d3d12/ID3D12Fence::SetEventOnCompletion, direct3d12.id3d12fence_seteventoncompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,24 +95,28 @@ To specify multiple fences before an event is triggered, refer to <a href="https
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12Fence::SetEventOnCompletion</b> as follows:
         
 
-
-```cpp
-// Wait for the command list to execute; we are reusing the same command 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Wait for the command list to execute; we are reusing the same command 
 // list in our main loop but for now, we just want to wait for setup to 
 // complete before continuing.
 
 // Signal and increment the fence value.
 const UINT64 fenceToWaitFor = m_fenceValue;
-ThrowIfFailed(m_commandQueue->Signal(m_fence.Get(), fenceToWaitFor));
+ThrowIfFailed(m_commandQueue-&gt;Signal(m_fence.Get(), fenceToWaitFor));
 m_fenceValue++;
 
 // Wait until the fence is completed.
-ThrowIfFailed(m_fence->SetEventOnCompletion(fenceToWaitFor, m_fenceEvent));
+ThrowIfFailed(m_fence-&gt;SetEventOnCompletion(fenceToWaitFor, m_fenceEvent));
 WaitForSingleObject(m_fenceEvent, INFINITE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

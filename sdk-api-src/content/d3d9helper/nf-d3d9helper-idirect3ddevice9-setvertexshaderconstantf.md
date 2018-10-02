@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setvertexshaderconstantf.htm
 tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexshaderconstantf.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetVertexShaderConstantF method, IDirect3DDevice9.SetVertexShaderConstantF, IDirect3DDevice9::SetVertexShaderConstantF, SetVertexShaderConstantF, SetVertexShaderConstantF method [Direct3D 9], SetVertexShaderConstantF method [Direct3D 9],IDirect3DDevice9 interface, c6cef8bb-7ab4-497c-1aa2-2ca745f6bf1b, d3d9helper/IDirect3DDevice9::SetVertexShaderConstantF, direct3d9.idirect3ddevice9__setvertexshaderconstantf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ Number of four float vectors in the array of constants.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -97,7 +97,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

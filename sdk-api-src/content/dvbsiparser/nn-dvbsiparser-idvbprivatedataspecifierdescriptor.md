@@ -7,7 +7,7 @@ old-location: mstv\idvbprivatedataspecifierdescriptor.htm
 tech.root: MSTV
 ms.assetid: 0d5a78a3-0d56-47e8-939f-006d5f4db5c4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbPrivateDataSpecifierDescriptor, mstv.idvbprivatedataspecifierdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

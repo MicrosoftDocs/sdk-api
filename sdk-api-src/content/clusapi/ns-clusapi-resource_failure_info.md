@@ -4,10 +4,10 @@ title: RESOURCE_FAILURE_INFO
 author: windows-sdk-content
 description: Represents information about the Failover attempts for a resource. This structure is used by the RESOURCE_FAILURE_INFO_BUFFER structure.
 old-location: mscs\resource_failure_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3FE0CC0E-B097-48FC-882F-F6B236BB0CCB
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO, RESOURCE_FAILURE_INFO structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO, clusapi/RESOURCE_FAILURE_INFO, msclus/PRESOURCE_FAILURE_INFO, msclus/RESOURCE_FAILURE_INFO, mscs.resource_failure_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Represents information about the <a href="https://msdn.microsoft.com/en-us/library/Aa369573(v=VS.85).aspx">Failover</a> attempts for a resource. This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn622953(v=VS.85).aspx">RESOURCE_FAILURE_INFO_BUFFER</a> structure.
+Represents information about the <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">Failover</a> attempts for a resource. This structure is used by the <a href="https://msdn.microsoft.com/131EEF4A-DB1E-4FF7-8329-4AA422AB83B0">RESOURCE_FAILURE_INFO_BUFFER</a> structure.
 
 
 ## -struct-fields
@@ -61,12 +61,12 @@ Represents information about the <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -field dwRestartAttemptsRemaining
 
-The number of remaining failover attempts that can be made on the resource during the current <a href="https://msdn.microsoft.com/en-us/library/Aa369665(v=VS.85).aspx">FailoverPeriod</a> time interval.
+The number of remaining failover attempts that can be made on the resource during the current <a href="https://msdn.microsoft.com/5277a4a7-2866-4c16-8ad0-ea3a33714583">FailoverPeriod</a> time interval.
 
 
 ### -field dwRestartPeriodRemaining
 
-The amount of time remaining for the <a href="https://msdn.microsoft.com/en-us/library/Aa369665(v=VS.85).aspx">FailoverPeriod</a>, in seconds.
+The amount of time remaining for the <a href="https://msdn.microsoft.com/5277a4a7-2866-4c16-8ad0-ea3a33714583">FailoverPeriod</a>, in seconds.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ The amount of time remaining for the <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622953(v=VS.85).aspx">RESOURCE_FAILURE_INFO_BUFFER</a>
+<a href="https://msdn.microsoft.com/131EEF4A-DB1E-4FF7-8329-4AA422AB83B0">RESOURCE_FAILURE_INFO_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

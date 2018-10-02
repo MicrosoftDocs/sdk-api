@@ -7,7 +7,7 @@ old-location: fwp\ikeextsacreateenumhandle0.htm
 tech.root: FWP
 ms.assetid: c72ec488-0721-406e-8ca0-6a34873e2683
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IkeextSaCreateEnumHandle0, IkeextSaCreateEnumHandle0 function [Filtering], fwp.ikeextsacreateenumhandle0, fwpmu/IkeextSaCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dfs\netdfsaddstdroot.htm
 tech.root: Dfs
 ms.assetid: e59236ac-06d7-4b2f-b318-ec13e6c662ac
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NetDfsAddStdRoot, NetDfsAddStdRoot function [Distributed File System], _win32_netdfsaddstdroot, dfs.netdfsaddstdroot, fs.netdfsaddstdroot, lmdfs/NetDfsAddStdRoot, netmgmt.netdfsaddstdroot
 ms.prod: windows-hardware
 ms.technology: windows-devices

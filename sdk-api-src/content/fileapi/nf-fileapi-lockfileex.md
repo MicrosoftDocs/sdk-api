@@ -7,7 +7,7 @@ old-location: fs\lockfileex.htm
 tech.root: fileio
 ms.assetid: 30931ed0-495c-4b50-964a-c507d4ebc2be
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: LOCKFILE_EXCLUSIVE_LOCK, LOCKFILE_FAIL_IMMEDIATELY, LockFileEx, LockFileEx function [Files], _win32_lockfileex, base.lockfileex, fileapi/LockFileEx, fs.lockfileex, winbase/LockFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

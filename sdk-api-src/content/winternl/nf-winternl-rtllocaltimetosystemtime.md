@@ -7,7 +7,7 @@ old-location: base\rtllocaltimetosystemtime.htm
 tech.root: SysInfo
 ms.assetid: ce6f0578-0ea1-4e31-98a7-0008795abd32
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RtlLocalTimeToSystemTime, RtlLocalTimeToSystemTime function, base.rtllocaltimetosystemtime, winternl/RtlLocalTimeToSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

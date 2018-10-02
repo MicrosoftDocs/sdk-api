@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress_end.htm
 tech.root: WMDM
 ms.assetid: 0edddd8c-8144-40dc-801c-eb8c899be249
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],End method, IWMDMProgress.End, IWMDMProgress::End, IWMDMProgressEnd, mswmdm/IWMDMProgress::End, wmdm.iwmdmprogress_end
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,18 +84,22 @@ This method is called by various interfaces to indicate that an operation is end
 
 The following C++ code is an implementation of the <b>End</b> method
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT End()
 {
     // TODO: Display the message: "IWMDMProgress::End called."
     return S_OK; // Unnecessary, since this is ignored.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: com\ipointerinactive.htm
 tech.root: com
 ms.assetid: dc08d512-6994-419a-a460-6274ce74e40f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM],described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ However, an object, such as a control, needs to be able to control the mouse poi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPointerInactive</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPointerInactive</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPointerInactive</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPointerInactive</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

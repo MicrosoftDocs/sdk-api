@@ -7,7 +7,7 @@ old-location: mstv\idvbmultilingualservicenamedescriptor.htm
 tech.root: MSTV
 ms.assetid: 1b384ecf-aa56-476d-b347-b5438ab069fe
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbMultilingualServiceNameDescriptor, mstv.idvbmultilingualservicenamedescriptor
 ms.prod: windows
 ms.technology: windows-sdk

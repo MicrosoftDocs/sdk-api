@@ -7,7 +7,7 @@ old-location: direct2d\id2d1computetransform.htm
 tech.root: direct2d
 ms.assetid: 2D7B82E1-6EB7-492A-B65C-CE5EFBFACC31
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1ComputeTransform, ID2D1ComputeTransform interface [Direct2D], ID2D1ComputeTransform interface [Direct2D],described, d2d1effectauthor/ID2D1ComputeTransform, direct2d.id2d1computetransform
 ms.prod: windows
 ms.technology: windows-sdk

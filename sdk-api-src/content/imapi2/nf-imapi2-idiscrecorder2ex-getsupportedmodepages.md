@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_getsupportedmodepages.htm
 tech.root: imapi
 ms.assetid: 343d976e-97f3-4231-a417-4ebe7967f99c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSupportedModePages, GetSupportedModePages method [IMAPI], GetSupportedModePages method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedModePages method, IDiscRecorder2Ex.GetSupportedModePages, IDiscRecorder2Ex::GetSupportedModePages, imapi.idiscrecorder2ex_getsupportedmodepages, imapi2/IDiscRecorder2Ex::GetSupportedModePages
 ms.prod: windows-hardware
 ms.technology: windows-devices

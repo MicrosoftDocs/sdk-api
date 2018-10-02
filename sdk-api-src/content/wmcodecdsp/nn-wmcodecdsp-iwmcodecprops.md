@@ -4,10 +4,10 @@ title: IWMCodecProps
 author: windows-sdk-content
 description: Provides methods that retrieve format-specific codec properties.
 old-location: mf\iwmcodecpropsinterface.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: b49e506b-8c87-44b9-be6c-b9a33f6c9ecb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IWMCodecProps, IWMCodecProps interface [Media Foundation], IWMCodecProps interface [Media Foundation],described, codecapi.iwmcodecpropsinterface, mf.iwmcodecprops, mf.iwmcodecpropsinterface, wmcodecdsp/IWMCodecProps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 
 Provides methods that retrieve format-specific codec properties.
 
-This interface is implemented by the video encoder objects. You can obtain a pointer to <a href="https://msdn.microsoft.com/en-us/library/Ff819243(v=VS.85).aspx">IWMCodecProps</a> by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>.
+This interface is implemented by the video encoder objects. You can obtain a pointer to <a href="mf.iwmcodecprops">IWMCodecProps</a> by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>.
 
 This interface enables you to receive information about a specific media type that is supported by a video encoder.
 

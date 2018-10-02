@@ -4,10 +4,10 @@ title: PeerDistServerOpenContentInformation function
 author: windows-sdk-content
 description: PeerDistServerOpenContentInformation function opens a PEERDIST_CONTENTINFO_HANDLE. The client uses the handle to retrieve content information.
 old-location: p2p\peerdistserveropencontentinformation.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 17b07141-2786-4192-ba7b-f3210c10aad4
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerDistServerOpenContentInformation, PeerDistServerOpenContentInformation function [Peer Networking], p2p.peerdistserveropencontentinformation, peerdist/PeerDistServerOpenContentInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

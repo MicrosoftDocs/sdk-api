@@ -4,10 +4,10 @@ title: IMFMediaSource::Start
 author: windows-sdk-content
 description: Starts, seeks, or restarts the media source by specifying where to start playback.
 old-location: mf\imfmediasource_start.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0a5abafe-1525-4bda-946c-05a6145e57ee
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 0a5abafe-1525-4bda-946c-05a6145e57ee, IMFMediaSource interface [Media Foundation],Start method, IMFMediaSource.Start, IMFMediaSource::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSource interface, mf.imfmediasource_start, mfidl/IMFMediaSource::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -227,18 +227,22 @@ For more information, see <a href="https://msdn.microsoft.com/82db6f32-ad94-4563
 The following example starts playback at 1 second into the presentation.
         
 
-
-```
-PROPVARIANT var;
-PropVariantInit(&var);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT var;
+PropVariantInit(&amp;var);
 var.vt = VT_I8;
 var.hVal.QuadPart = 10000000; // 10^7 = 1 second.
 
-hr = pSource->Start(pPresentationDescriptor, NULL, &var);
-
-```
-
-
+hr = pSource-&gt;Start(pPresentationDescriptor, NULL, &amp;var);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

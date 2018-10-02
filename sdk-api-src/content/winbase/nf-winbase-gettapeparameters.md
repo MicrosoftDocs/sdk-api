@@ -7,7 +7,7 @@ old-location: backup\gettapeparameters.htm
 tech.root: Backup
 ms.assetid: 87e59e29-e174-4462-b692-512c3380eb4d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GET_TAPE_DRIVE_INFORMATION, GET_TAPE_MEDIA_INFORMATION, GetTapeParameters, GetTapeParameters function [Backup], _win32_gettapeparameters, backup.gettapeparameters, base.gettapeparameters, winbase/GetTapeParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device about which information is sought. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwOperation [in]
@@ -337,7 +337,7 @@ The block size range values (maximum and minimum) returned by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

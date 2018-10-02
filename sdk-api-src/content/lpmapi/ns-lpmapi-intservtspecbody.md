@@ -7,7 +7,7 @@ old-location: qos\intservtspecbody.htm
 tech.root: QOS
 ms.assetid: c4244dba-237a-437b-94b7-fd814edb3506
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServTspecBody, qos.intservtspecbody
 ms.prod: windows
 ms.technology: windows-sdk

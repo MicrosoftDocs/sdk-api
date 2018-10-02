@@ -4,10 +4,10 @@ title: PeerGraphSearchRecords function
 author: windows-sdk-content
 description: The PeerGraphSearchRecords function searches the peer graph for specific records.
 old-location: p2p\peergraphsearchrecords.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 0f20c738-ae56-4352-a1fb-5aa469a58bc8
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphSearchRecords, PeerGraphSearchRecords function [Peer Networking], p2p.peergraphsearchrecords, p2p/PeerGraphSearchRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

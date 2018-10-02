@@ -4,10 +4,10 @@ title: "_DD_CANCREATESURFACEDATA"
 author: windows-sdk-content
 description: The DD_CANCREATESURFACEDATA structure contains information necessary to indicate whether a surface--in the case of CanCreateD3DBuffer, a buffer--can be created.
 old-location: display\dd_cancreatesurfacedata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 35ac7efd-1949-497c-8730-2c4414aed977
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA structure [Display Devices], _DD_CANCREATESURFACEDATA, ddrawint/DD_CANCREATESURFACEDATA, ddstrcts_53ef5031-d754-4aab-8729-520852df024a.xml, display.dd_cancreatesurfacedata"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,13 +89,17 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 
 The DirectDraw surface description pointed to by the <b>lpDDSurfaceDesc</b> member is actually a <a href="https://msdn.microsoft.com/5ded4232-fbf0-4e8e-87cf-30999057cbdd">DDSURFACEDESC2</a> structure (rather than a DDSURFACEDESC structure) for DirectDraw 6.0 and later runtimes. Therefore, if you need information at surface-creation time from those members that are in the DDSURFACEDESC2 structure but not in the DDSURFACEDESC structure, you can simply cast the pointer to a DDSURFACEDESC structure to a pointer to a DDSURFACEDESC2 structure prior to use. The following example shows how the value of <b>dwTextureStage</b> (a member of the DDSURFACEDESC2 structure, but not also of the DDSURFACEDESC structure) can be obtained from a pointer to a DDSURFACEDESC structure.
 
-
-```
-DDSURFACEDESC2* pddsd = (DDSURFACEDESC2*)pccsd->lpDDSurfaceDesc;
-DWORD dwStage = pddsd->dwTextureStage;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DDSURFACEDESC2* pddsd = (DDSURFACEDESC2*)pccsd-&gt;lpDDSurfaceDesc;
+DWORD dwStage = pddsd-&gt;dwTextureStage;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

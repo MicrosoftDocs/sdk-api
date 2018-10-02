@@ -4,10 +4,10 @@ title: NetUserEnum function
 author: windows-sdk-content
 description: The NetUserEnum function retrieves information about all user accounts on a server.
 old-location: netmgmt\netuserenum.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: b26ef3c0-934a-4840-8c06-4eaff5c9ff86
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 3, FILTER_INTERDOMAIN_TRUST_ACCOUNT, FILTER_NORMAL_ACCOUNT, FILTER_SERVER_TRUST_ACCOUNT, FILTER_TEMP_DUPLICATE_ACCOUNT, FILTER_WORKSTATION_TRUST_ACCOUNT, NetUserEnum, NetUserEnum function [Network Management], _win32_netuserenum, lmaccess/NetUserEnum, netmgmt.netuserenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -348,7 +348,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 <a href="https://msdn.microsoft.com/6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf">IADsUser</a> and 
 <a href="https://msdn.microsoft.com/e2b90a98-5777-42c2-95dd-4623e738c4da">IADsComputer</a>.
 
-If you call the <b>NetUserEnum</b> function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://msdn.microsoft.com/library/Aa375347(v=VS.85).aspx">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
+If you call the <b>NetUserEnum</b> function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="security.pre_windows_2000_compatible_access_group">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
 <a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
 <a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
 
@@ -375,17 +375,21 @@ The following code sample demonstrates how to retrieve information about the use
 <b>NetUserEnum</b> function. The sample calls 
 <b>NetUserEnum</b>, specifying information level 0 (<a href="https://msdn.microsoft.com/5d24a2dd-d1ee-4c97-8fbc-0b336313b60c">USER_INFO_0</a>) to enumerate only global user accounts. If the call succeeds, the code loops through the entries and prints the name of each user account. Finally, the code sample frees the memory allocated for the information buffer and prints a total of the users enumerated.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <assert.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;assert.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -401,7 +405,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPTSTR pszServerName = NULL;
 
-   if (argc > 2)
+   if (argc &gt; 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -420,11 +424,11 @@ int wmain(int argc, wchar_t *argv[])
       nStatus = NetUserEnum((LPCWSTR) pszServerName,
                             dwLevel,
                             FILTER_NORMAL_ACCOUNT, // global users
-                            (LPBYTE*)&pBuf,
+                            (LPBYTE*)&amp;pBuf,
                             dwPrefMaxLen,
-                            &dwEntriesRead,
-                            &dwTotalEntries,
-                            &dwResumeHandle);
+                            &amp;dwEntriesRead,
+                            &amp;dwTotalEntries,
+                            &amp;dwResumeHandle);
       //
       // If the call succeeds,
       //
@@ -435,7 +439,7 @@ int wmain(int argc, wchar_t *argv[])
             //
             // Loop through the entries.
             //
-            for (i = 0; (i < dwEntriesRead); i++)
+            for (i = 0; (i &lt; dwEntriesRead); i++)
             {
                assert(pTmpBuf != NULL);
 
@@ -447,7 +451,7 @@ int wmain(int argc, wchar_t *argv[])
                //
                //  Print the name of the user account.
                //
-               wprintf(L"\t-- %s\n", pTmpBuf->usri0_name);
+               wprintf(L"\t-- %s\n", pTmpBuf-&gt;usri0_name);
 
                pTmpBuf++;
                dwTotalCount++;
@@ -484,10 +488,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

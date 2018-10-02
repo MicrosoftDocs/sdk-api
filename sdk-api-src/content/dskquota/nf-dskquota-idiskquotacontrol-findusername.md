@@ -7,7 +7,7 @@ old-location: fs\idiskquotacontrol_findusername.htm
 tech.root: fileio
 ms.assetid: dae4e2d4-0293-4ee4-9687-9fed4b3a3600
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: FindUserName, FindUserName method [Files], FindUserName method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],FindUserName method, IDiskQuotaControl.FindUserName, IDiskQuotaControl::FindUserName, _win32_idiskquotacontrol_findusername, base.idiskquotacontrol_findusername, dskquota/IDiskQuotaControl::FindUserName, fs.idiskquotacontrol_findusername
 ms.prod: windows-hardware
 ms.technology: windows-devices

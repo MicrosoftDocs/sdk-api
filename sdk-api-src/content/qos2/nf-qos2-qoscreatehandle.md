@@ -7,7 +7,7 @@ old-location: qos\qoscreatehandle.htm
 tech.root: QOS
 ms.assetid: dcee0bed-dc6f-435d-b292-07e331f6cf5b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QOSCreateHandle, QOSCreateHandle function [QOS], qos.qoscreatehandle, qos2/QOSCreateHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,9 +173,13 @@ Winsock.h must be included to use the <a href="https://msdn.microsoft.com/39e41b
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
-
-```cpp
-QOS_VERSION Version;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>QOS_VERSION Version;
 HANDLE      QoSHandle = NULL;
 BOOL        QoSResult = FALSE;
 
@@ -185,20 +189,20 @@ Version.MinorVersion = 0;
 
 // Get a handle to the QoS subsystem.
 QoSResult = QOSCreateHandle(
-    &Version, 
-    &QoSHandle );
+    &amp;Version, 
+    &amp;QoSHandle );
 
 if (QoSResult != TRUE)
 {
-    std::cerr << "QOSCreateHandle failed. Error: "; 
-    std::cerr << WSAGetLastError() << std::endl;
+    std::cerr &lt;&lt; "QOSCreateHandle failed. Error: "; 
+    std::cerr &lt;&lt; WSAGetLastError() &lt;&lt; std::endl;
 }
 
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

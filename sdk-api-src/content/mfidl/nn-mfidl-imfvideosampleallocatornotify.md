@@ -4,10 +4,10 @@ title: IMFVideoSampleAllocatorNotify
 author: windows-sdk-content
 description: The callback for the IMFVideoSampleAllocatorCallback interface.
 old-location: mf\imfvideosampleallocatornotify.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 909c2a68-81dd-4816-b34f-71a67b620faf
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFVideoSampleAllocatorNotify, IMFVideoSampleAllocatorNotify interface [Media Foundation], IMFVideoSampleAllocatorNotify interface [Media Foundation],described, mf.imfvideosampleallocatornotify, mfidl/IMFVideoSampleAllocatorNotify
 ms.prod: windows
 ms.technology: windows-sdk

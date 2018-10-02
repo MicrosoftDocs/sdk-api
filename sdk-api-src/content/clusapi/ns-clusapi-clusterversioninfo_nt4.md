@@ -4,10 +4,10 @@ title: CLUSTERVERSIONINFO_NT4
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusterversioninfo_nt4.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1420C1B9-3361-4D7C-B968-34967C0818F4
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4 structure [Failover Cluster], PCLUSTERVERSIONINFO_NT4, PCLUSTERVERSIONINFO_NT4 structure pointer [Failover Cluster], clusapi/CLUSTERVERSIONINFO_NT4, clusapi/PCLUSTERVERSIONINFO_NT4, mscs.clusterversioninfo_nt4"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ Contains the latest service pack that is  installed on the node. If a Service Pa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

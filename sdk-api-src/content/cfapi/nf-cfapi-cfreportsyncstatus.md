@@ -7,7 +7,7 @@ old-location: cloudapi\cfreportsyncstatus.htm
 tech.root: cfApi
 ms.assetid: DC77D18A-CBF4-4172-815A-AB49A48D10B3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CfReportSyncStatus, CfReportSyncStatus function, cfapi/CfReportSyncStatus, cloudApi.cfreportsyncstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-When a non-null <a href="https://msdn.microsoft.com/en-us/library/Mt845792(v=VS.85).aspx">CF_SYNC_STATUS</a> is provided in the <i>SyncStatus</i> parameter, the information will be remembered on the sync root until it is cleared explicitly by the sync provider or when the machine reboots. The platform will query this information upon any failed operations on a cloud file placeholder, using the following process:
+When a non-null <a href="cloudapi.cf_sync_status">CF_SYNC_STATUS</a> is provided in the <i>SyncStatus</i> parameter, the information will be remembered on the sync root until it is cleared explicitly by the sync provider or when the machine reboots. The platform will query this information upon any failed operations on a cloud file placeholder, using the following process:
 
 1.  The platform will first search for sync status at the file level. 
 

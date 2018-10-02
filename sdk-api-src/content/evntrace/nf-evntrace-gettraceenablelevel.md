@@ -7,7 +7,7 @@ old-location: etw\gettraceenablelevel.htm
 tech.root: ETW
 ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTraceEnableLevel, GetTraceEnableLevel function [ETW], _evt_gettraceenablelevel, base.gettraceenablelevel, etw.gettraceenablelevel, evntrace/GetTraceEnableLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

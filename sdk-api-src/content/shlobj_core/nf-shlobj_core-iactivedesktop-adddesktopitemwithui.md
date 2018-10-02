@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_adddesktopitemwithui_method.htm
 tech.root: lwef
 ms.assetid: ac582bd7-9fd1-4134-a866-69319ef3d96e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: AddDesktopItemWithUI, AddDesktopItemWithUI method [Legacy Windows Environment Features], AddDesktopItemWithUI method [Legacy Windows Environment Features],IActiveDesktop interface, DTI_ADDUI_DEFAULT, DTI_ADDUI_DISPSUBWIZARD, DTI_ADDUI_POSITIONITEM, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItemWithUI method, IActiveDesktop.AddDesktopItemWithUI, IActiveDesktop::AddDesktopItemWithUI, _win32_IActiveDesktop_AddDesktopItemWithUI_Method, lwef.iactivedesktop_adddesktopitemwithui_method, shell.iactivedesktop_adddesktopitemwithui_method, shlobj_core/IActiveDesktop::AddDesktopItemWithUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

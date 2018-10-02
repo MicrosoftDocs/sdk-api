@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_signal.htm
 tech.root: direct3d12
 ms.assetid: 487E2DED-C741-4376-9EE2-3DDD2F4F76BB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: ID3D12CommandQueue interface,Signal method, ID3D12CommandQueue.Signal, ID3D12CommandQueue::Signal, Signal, Signal method, Signal method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::Signal, direct3d12.id3d12commandqueue_signal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ The value to set the fence to.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
@@ -96,30 +96,44 @@ Use this method to set a fence value from the GPU side. Use <a href="https://msd
 
 Adds a signal to the command queue, then waits for the compute shader to complete the simulation, finally signal and increment the fence value.
 
-
-```cpp
-// Wait for the compute shader to complete the simulation.
-UINT64 threadFenceValue = InterlockedIncrement(&m_threadFenceValues[threadIndex]);
-ThrowIfFailed(pCommandQueue->Signal(pFence, threadFenceValue));
-ThrowIfFailed(pFence->SetEventOnCompletion(threadFenceValue, m_threadFenceEvents[threadIndex]));
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Wait for the compute shader to complete the simulation.
+UINT64 threadFenceValue = InterlockedIncrement(&amp;m_threadFenceValues[threadIndex]);
+ThrowIfFailed(pCommandQueue-&gt;Signal(pFence, threadFenceValue));
+ThrowIfFailed(pFence-&gt;SetEventOnCompletion(threadFenceValue, m_threadFenceEvents[threadIndex]));
 WaitForSingleObject(m_threadFenceEvents[threadIndex], INFINITE);
-
-```
-
-```cpp
-// Add a signal command to the queue.
-ThrowIfFailed(m_commandQueue->Signal(m_renderContextFence.Get(), m_renderContextFenceValue));
-
-```
-
-```cpp
-// Signal and increment the fence value.
-ThrowIfFailed(m_commandQueue->Signal(m_renderContextFence.Get(), m_renderContextFenceValue));
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Add a signal command to the queue.
+ThrowIfFailed(m_commandQueue-&gt;Signal(m_renderContextFence.Get(), m_renderContextFenceValue));
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Signal and increment the fence value.
+ThrowIfFailed(m_commandQueue-&gt;Signal(m_renderContextFence.Get(), m_renderContextFenceValue));
 m_renderContextFenceValue++;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

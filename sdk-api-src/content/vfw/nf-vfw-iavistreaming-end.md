@@ -7,7 +7,7 @@ old-location: multimedia\iavistreaming_end.htm
 tech.root: Multimedia
 ms.assetid: 5db48b61-5926-41fb-9d0d-f39cba6deec9
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],End method, IAVIStreaming.End, IAVIStreaming::End, _win32_IAVIStreaming_End, multimedia.iavistreaming_end, vfw/IAVIStreaming::End
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,15 +84,19 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>End</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT End(VOID); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IConsoleNameSpace::GetItem
 author: windows-sdk-content
 description: Enables the snap-in to retrieve some or all of a single scope item's attributes.
 old-location: mmc\iconsolenamespace_getitem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 76E3188E-F046-489E-8A0E-CC8440E74D99
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IConsoleNameSpace interface, IConsoleNameSpace interface [MMC],GetItem method, IConsoleNameSpace.GetItem, IConsoleNameSpace::GetItem, mmc.iconsolenamespace_getitem, mmc/IConsoleNameSpace::GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_login.htm
 tech.root: WMP
 ms.assetid: 7e43b200-1922-42ad-b785-6643e0215c61
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Login method, IWMPContentPartner.Login, IWMPContentPartner::Login, IWMPContentPartnerLogin, Login, Login method [Windows Media Player], Login method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Login, wmp.iwmpcontentpartner_login
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,7 +117,7 @@ The method succeeded.
 
 Usually, this method is called in response to a specific request by the user to log in to the online store. Sometimes, the need to log in is implied by other user actions, such as burning a music file that requires an updated license.
 
-The plug-in must call <a href="https://msdn.microsoft.com/en-us/library/Dd563150(v=VS.85).aspx">IWMPContentPartnerCallback::Notify</a> to notify Windows Media Player when the log-in state changes.
+The plug-in must call <a href="https://msdn.microsoft.com/e8402662-7e14-4be7-bc2d-45338bf2a226">IWMPContentPartnerCallback::Notify</a> to notify Windows Media Player when the log-in state changes.
 
 To decrypt the user name and password, use the <b>CryptUnprotectData</b> function. <b>CryptUnprotectData</b> is documented in the Cryptography section of the Platform SDK. You must use the CRYPTPROTECT_UI_FORBIDDEN flag in the <i>dwFlags</i> parameter of <b>CryptUnprotectData</b>. Set the optional and reserved parameters to <b>NULL</b>.
 
@@ -129,11 +129,11 @@ To decrypt the user name and password, use the <b>CryptUnprotectData</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563171(v=VS.85).aspx">IWMPContentPartner::Logout</a>
+<a href="https://msdn.microsoft.com/8919dd66-1ec0-4551-8132-7067957bb545">IWMPContentPartner::Logout</a>
  
 
  

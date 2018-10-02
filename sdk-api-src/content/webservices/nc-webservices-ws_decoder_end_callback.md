@@ -7,7 +7,7 @@ old-location: wsw\ws_decoder_end_callback.htm
 tech.root: wsw
 ms.assetid: 7cf93467-84f6-4ffb-8329-bc1df119087a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_DECODER_END_CALLBACK, WS_DECODER_END_CALLBACK callback, WS_DECODER_END_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_END_CALLBACK, wsw.ws_decoder_end_callback
 ms.prod: windows
 ms.technology: windows-sdk

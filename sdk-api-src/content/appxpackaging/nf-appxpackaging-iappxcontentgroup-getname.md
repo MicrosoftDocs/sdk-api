@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroup_getname.htm
 tech.root: appxpkg
 ms.assetid: 169E5A94-F7F7-4BFC-8E19-9E830C920E1B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxContentGroup interface, IAppxContentGroup interface [App packaging and management],GetName method, IAppxContentGroup.GetName, IAppxContentGroup::GetName, appxpackaging/IAppxContentGroup::GetName, appxpkg.iappxcontentgroup_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices

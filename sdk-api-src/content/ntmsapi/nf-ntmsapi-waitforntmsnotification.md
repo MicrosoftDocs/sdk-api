@@ -7,7 +7,7 @@ old-location: fs\waitforntmsnotification.htm
 tech.root: Rsm
 ms.assetid: ecb39bac-f062-4835-bbae-f9f643ffde9b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WaitForNtmsNotification, WaitForNtmsNotification function [Files], _zaw_waitforntmsnotification, base.waitforntmsnotification, fs.waitforntmsnotification, ntmsapi/WaitForNtmsNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,7 +170,7 @@ The function was successfully executed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Database Notification Functions</a>
+<a href="removable_storage_manager_functions.htm">Database Notification Functions</a>
 
 
 

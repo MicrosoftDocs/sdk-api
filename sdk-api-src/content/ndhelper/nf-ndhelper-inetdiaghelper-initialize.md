@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_initialize.htm
 tech.root: NDF
 ms.assetid: 32003720-ca59-4203-a78c-9e40c626c9f8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: INetDiagHelper interface [NDF],Initialize method, INetDiagHelper.Initialize, INetDiagHelper::Initialize, Initialize, Initialize method [NDF], Initialize method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_initialize, ndhelper/INetDiagHelper::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

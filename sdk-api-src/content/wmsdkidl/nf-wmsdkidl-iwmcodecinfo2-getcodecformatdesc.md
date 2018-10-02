@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo2_getcodecformatdesc.htm
 tech.root: wmformat
 ms.assetid: 24ca091e-72f6-4c7b-b25a-8957d70fa450
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetCodecFormatDesc, GetCodecFormatDesc method [windows Media Format], GetCodecFormatDesc method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecFormatDesc method, IWMCodecInfo2.GetCodecFormatDesc, IWMCodecInfo2::GetCodecFormatDesc, IWMCodecInfo2GetCodecFormatDesc, wmformat.iwmcodecinfo2_getcodecformatdesc, wmsdkidl/IWMCodecInfo2::GetCodecFormatDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

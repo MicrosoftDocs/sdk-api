@@ -4,10 +4,10 @@ title: IWebProxy
 author: windows-sdk-content
 description: Contains the HTTP proxy settings.
 old-location: wua\iwebproxy.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: acc09635-7370-475f-9c3a-a5faaa8d576a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], IWebProxy interface [Windows Update Agent],described, wua.iwebproxy, wuapi/IWebProxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Contains the HTTP proxy settings.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebProxy</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWebProxy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebProxy</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWebProxy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

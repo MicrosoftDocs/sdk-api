@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerendsession.htm
 tech.root: EAPHost
 ms.assetid: 6571b50b-f613-4da6-8262-1df2cf97a735
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EapHostPeerEndSession, EapHostPeerEndSession function [EAPHost], eaphost.eaphostpeerendsession, eappapis/EapHostPeerEndSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

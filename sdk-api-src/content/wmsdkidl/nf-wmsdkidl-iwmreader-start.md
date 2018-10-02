@@ -7,7 +7,7 @@ old-location: wmformat\iwmreader_start.htm
 tech.root: wmformat
 ms.assetid: 485844c6-7a84-4a0d-827d-060d8caef6cc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMReader interface [windows Media Format],Start method, IWMReader.Start, IWMReader::Start, IWMReaderStart, Start, Start method [windows Media Format], Start method [windows Media Format],IWMReader interface, wmformat.iwmreader_start, wmsdkidl/IWMReader::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,7 +157,7 @@ Any call to <b>Start</b> while paused is treated as a <i>seek</i> through the fi
 
 If the application is providing the clock (by calling <a href="https://msdn.microsoft.com/1f29beea-1da4-41e0-a68d-93af3b1f55ed">IWMReaderAdvanced::SetUserProvidedClock</a>), it should usually set the <i>cnsDuration</i> parameter to zero. If the application specifies a non-zero value, then it must call the <a href="https://msdn.microsoft.com/5e47ef96-9971-47b0-a003-b38f4045da7a">IWMReaderAdvanced::DeliverTime</a> method exactly once, and the value passed to <b>DeliverTime</b> must be either the stop time or <code>(QWORD)-1</code>. The reader object will then deliver samples up to the specified duration.
 
-This method is very similar to the <a href="https://msdn.microsoft.com/444adb2f-4289-4950-8841-07353479ef43">IWMReaderAdvanced2::StartAtMarker</a> method, but that method uses a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a> instead of a start time.
+This method is very similar to the <a href="https://msdn.microsoft.com/444adb2f-4289-4950-8841-07353479ef43">IWMReaderAdvanced2::StartAtMarker</a> method, but that method uses a <a href="wmformat_glossary.htm">marker</a> instead of a start time.
 
 
 

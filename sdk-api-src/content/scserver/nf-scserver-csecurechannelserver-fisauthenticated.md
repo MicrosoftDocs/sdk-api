@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_fisauthenticated.htm
 tech.root: WMDM
 ms.assetid: 673d3bf6-27ba-4d91-b485-1171bc47a0d0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],fIsAuthenticated method, CSecureChannelServer.fIsAuthenticated, CSecureChannelServer::fIsAuthenticated, CSecureChannelServerfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::fIsAuthenticated, wmdm.csecurechannelserver_fisauthenticated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,9 +93,13 @@ Applications do not need to call the <b>fIsAuthenticated</b> method, but service
 
 The following code shows a service provider's implementation of <a href="https://msdn.microsoft.com/88c935ad-dbf0-41bb-8676-ddafe9d1fe0e">IMDSPDevice::GetVersion</a>. This method verifies that a secure authenticated channel has been established before returning the version.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT CMyDevice::GetVersion(DWORD * pdwVersion)
 {
     HRESULT hr
@@ -104,17 +108,17 @@ HRESULT CMyDevice::GetVersion(DWORD * pdwVersion)
     if(g_pAppSCServer == NULL)
         return E_FAIL;
 
-    if (!(g_pAppSCServer->fIsAuthenticated()))
+    if (!(g_pAppSCServer-&gt;fIsAuthenticated()))
     {
         return WMDM_E_NOTCERTIFIED;
     }
     *pdwVersion = 1;
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

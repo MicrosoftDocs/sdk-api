@@ -7,7 +7,7 @@ old-location: monitor\setvcpfeature.htm
 tech.root: Monitor
 ms.assetid: 145c393e-dce0-4d50-94c2-61ba580c3d83
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetVCPFeature, SetVCPFeature function [Monitor Configuration], lowlevelmonitorconfigurationapi/SetVCPFeature, monitor.setvcpfeature
 ms.prod: windows-hardware
 ms.technology: windows-devices

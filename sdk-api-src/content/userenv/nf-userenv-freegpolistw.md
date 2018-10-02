@@ -7,7 +7,7 @@ old-location: policy\freegpolist.htm
 tech.root: Policy
 ms.assetid: 96bd2b5b-c088-4eea-bbc2-31d83c13aa99
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FreeGPOList, FreeGPOList function [Group Policy], FreeGPOListA, FreeGPOListW, _win32_freegpolist, policy.freegpolist, userenv/FreeGPOList, userenv/FreeGPOListA, userenv/FreeGPOListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

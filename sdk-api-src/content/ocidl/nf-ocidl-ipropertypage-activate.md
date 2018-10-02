@@ -7,7 +7,7 @@ old-location: com\ipropertypage_activate.htm
 tech.root: com
 ms.assetid: 4756d06d-0ffc-4214-9c2b-d9cb169b4337
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: Activate, Activate method [COM], Activate method [COM],IPropertyPage interface, IPropertyPage interface [COM],Activate method, IPropertyPage.Activate, IPropertyPage::Activate, _ctrl_ipropertypage_activate, com.ipropertypage_activate, ocidl/IPropertyPage::Activate
 ms.prod: windows-hardware
 ms.technology: windows-devices

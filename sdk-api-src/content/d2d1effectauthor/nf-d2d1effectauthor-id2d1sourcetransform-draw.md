@@ -7,7 +7,7 @@ old-location: direct2d\id2d1sourcetransform_draw.htm
 tech.root: direct2d
 ms.assetid: 38EBBFB2-7A49-4386-80B3-86B44BF2FC39
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: Draw, Draw method [Direct2D], Draw method [Direct2D],ID2D1SourceTransform interface, ID2D1SourceTransform interface [Direct2D],Draw method, ID2D1SourceTransform.Draw, ID2D1SourceTransform::Draw, d2d1effectauthor/ID2D1SourceTransform::Draw, direct2d.id2d1sourcetransform_draw
 ms.prod: windows-hardware
 ms.technology: windows-devices

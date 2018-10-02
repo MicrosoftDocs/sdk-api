@@ -7,7 +7,7 @@ old-location: opc\opc_read_flags.htm
 tech.root: OPC
 ms.assetid: f7d21dac-c606-4a6a-9d6a-cf6f8ec4dbb5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OPC_CACHE_ON_ACCESS, OPC_READ_DEFAULT, OPC_READ_FLAGS, OPC_READ_FLAGS enumeration [Open Packaging Conventions], OPC_VALIDATE_ON_LOAD, __MIDL___MIDL_itf_msopc_0000_0002_0004, msopc/OPC_CACHE_ON_ACCESS, msopc/OPC_READ_DEFAULT, msopc/OPC_READ_FLAGS, msopc/OPC_VALIDATE_ON_LOAD, opc.opc_read_flags
 ms.prod: windows
 ms.technology: windows-sdk

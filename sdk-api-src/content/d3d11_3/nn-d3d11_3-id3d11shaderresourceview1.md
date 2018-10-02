@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderresourceview1.htm
 tech.root: direct3d11
 ms.assetid: 5AF5DCAC-2C3A-45A7-A165-3FBE3E0D5CAB
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D11ShaderResourceView1, ID3D11ShaderResourceView1 interface [Direct3D 11], ID3D11ShaderResourceView1 interface [Direct3D 11],described, d3d11_3/ID3D11ShaderResourceView1, direct3d11.id3d11shaderresourceview1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ A shader-resource-view interface represents the subresources a shader can access
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderResourceView1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476628(v=VS.85).aspx">ID3D11ShaderResourceView</a>. <b>ID3D11ShaderResourceView1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderResourceView1</b> interface inherits from <a href="https://msdn.microsoft.com/289555d8-2a6e-454f-86bc-48fb2c8ea345">ID3D11ShaderResourceView</a>. <b>ID3D11ShaderResourceView1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +97,7 @@ A shader-resource view is required when binding a resource to a shader stage; th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476628(v=VS.85).aspx">ID3D11ShaderResourceView</a>
+<a href="https://msdn.microsoft.com/289555d8-2a6e-454f-86bc-48fb2c8ea345">ID3D11ShaderResourceView</a>
 
 
 

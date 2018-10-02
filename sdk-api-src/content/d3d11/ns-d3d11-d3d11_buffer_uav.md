@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_buffer_uav.htm
 tech.root: direct3d11
 ms.assetid: 8dcd2281-1875-474e-8c86-a6920ab2b515
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_BUFFER_UAV, D3D11_BUFFER_UAV structure [Direct3D 11], c8071050-410d-09ba-35f3-6d7c40e44eb6, d3d11/D3D11_BUFFER_UAV, direct3d11.d3d11_buffer_uav
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,30 +60,30 @@ Describes the elements in a buffer to use in a unordered-access view.
 
 ### -field FirstElement
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The zero-based index of the first element to be accessed.
 
 
 ### -field NumElements
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of elements in the resource. For structured buffers, this is the number of structures in the buffer.
 
 
 ### -field Flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-View options for the resource (see <a href="https://msdn.microsoft.com/en-us/library/Ff476096(v=VS.85).aspx">D3D11_BUFFER_UAV_FLAG</a>).
+View options for the resource (see <a href="https://msdn.microsoft.com/13cf0083-c61a-478d-94bd-00dec4cf27b7">D3D11_BUFFER_UAV_FLAG</a>).
 
 
 ## -remarks
 
 
 
-This structure is used by a <a href="https://msdn.microsoft.com/en-us/library/Ff476258(v=VS.85).aspx">D3D11_UNORDERED_ACCESS_VIEW_DESC</a>.
+This structure is used by a <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a>.
 
 
 
@@ -93,7 +93,7 @@ This structure is used by a <a href="https://msdn.microsoft.com/en-us/library/Ff
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

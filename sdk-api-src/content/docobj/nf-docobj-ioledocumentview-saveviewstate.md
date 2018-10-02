@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_saveviewstate.htm
 tech.root: com
 ms.assetid: d270b441-d0d5-4dd5-995b-6ca5738747c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IOleDocumentView interface [COM],SaveViewState method, IOleDocumentView.SaveViewState, IOleDocumentView::SaveViewState, SaveViewState, SaveViewState method [COM], SaveViewState method [COM],IOleDocumentView interface, _ole_ioledocumentview_saveviewstate, com.ioledocumentview_saveviewstate, docobj/IOleDocumentView::SaveViewState
 ms.prod: windows-hardware
 ms.technology: windows-devices

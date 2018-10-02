@@ -7,7 +7,7 @@ old-location: winsensors\isensormanager.htm
 tech.root: SensorsAPI
 ms.assetid: 313742c9-58a7-4ddd-9582-a6ee276e97d0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISensorManager, ISensorManager interface [WinSensors], ISensorManager interface [WinSensors],described, sensorsapi/ISensorManager, winsensors.isensormanager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,22 +65,26 @@ You retrieve a pointer to this interface by calling the COM <b>CoCreateInstance<
 
 The following example code creates an instance of the sensor manager. 
 
-
-```cpp
-// Create the sensor manager.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create the sensor manager.
 hr = CoCreateInstance(CLSID_SensorManager, 
                         NULL, CLSCTX_INPROC_SERVER,
-                        IID_PPV_ARGS(&pSensorManager));
+                        IID_PPV_ARGS(&amp;pSensorManager));
 
 if(hr == HRESULT_FROM_WIN32(ERROR_ACCESS_DISABLED_BY_POLICY))
 {
     // Unable to retrieve sensor manager due to 
     // group policy settings. Alert the user.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

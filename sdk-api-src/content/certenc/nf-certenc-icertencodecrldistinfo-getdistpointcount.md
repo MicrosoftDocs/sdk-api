@@ -7,7 +7,7 @@ old-location: security\icertencodecrldistinfo_getdistpointcount.htm
 tech.root: seccrypto
 ms.assetid: 8c7d0d14-e755-4223-8cd5-0ebc784960cf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetDistPointCount method, GetDistPointCount, GetDistPointCount method [Security], GetDistPointCount method [Security],CCertEncodeCRLDistInfo object, GetDistPointCount method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetDistPointCount method, ICertEncodeCRLDistInfo.GetDistPointCount, ICertEncodeCRLDistInfo::GetDistPointCount, _certsrv_icertencodecrldistinfo_getdistpointcount, certenc/ICertEncodeCRLDistInfo::GetDistPointCount, security.icertencodecrldistinfo_getdistpointcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>GetDistPointCount</b> method returns the number of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) distribution points in a CRL distribution information array.
+The <b>GetDistPointCount</b> method returns the number of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution points in a CRL distribution information array.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A pointer to a <b>LONG</b> that will represent the number of CRL distribution po
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of CRL distribution points in the array. 
@@ -84,15 +84,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383911(v=VS.85).aspx">ICertEncodeCRLDistInfo</a>
+<a href="https://msdn.microsoft.com/e9c0053f-263f-4d7b-9356-bc33af989dbe">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383963(v=VS.85).aspx">ICertEncodeCRLDistInfo::GetNameCount</a>
+<a href="https://msdn.microsoft.com/64102b89-defe-4f26-b6b2-8c3903e08347">ICertEncodeCRLDistInfo::GetNameCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383969(v=VS.85).aspx">ICertEncodeCRLDistInfo::Reset</a>
+<a href="https://msdn.microsoft.com/899de888-918f-4202-a324-0e603eba2324">ICertEncodeCRLDistInfo::Reset</a>
  
 
  

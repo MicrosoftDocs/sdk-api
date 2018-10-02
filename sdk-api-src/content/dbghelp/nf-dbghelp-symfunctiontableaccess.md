@@ -4,10 +4,10 @@ title: SymFunctionTableAccess function
 author: windows-sdk-content
 description: Retrieves the function table entry for the specified address.
 old-location: base\symfunctiontableaccess64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f79e6af9-9931-4bd7-ae12-29d890267a89
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymFunctionTableAccess, SymFunctionTableAccess function, SymFunctionTableAccess64, SymFunctionTableAccess64 function, _win32_symfunctiontableaccess64, base.symfunctiontableaccess64, dbghelp/SymFunctionTableAccess, dbghelp/SymFunctionTableAccess64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,9 +98,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 This function supersedes the <b>SymFunctionTableAccess</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymFunctionTableAccess</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymFunctionTableAccess SymFunctionTableAccess64
 #else
 PVOID
@@ -109,10 +113,10 @@ SymFunctionTableAccess(
     __in HANDLE hProcess,
     __in DWORD AddrBase
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IURLSearchHook::Translate
 author: windows-sdk-content
 description: Called by the browser when the browser cannot determine the protocol of a URL address.
 old-location: shell\IURLSearchHook_Translate.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 02fa8ee7-f9cb-4872-895c-7b3078391cc4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IURLSearchHook interface [Windows Shell],Translate method, IURLSearchHook.Translate, IURLSearchHook::Translate, Translate, Translate method [Windows Shell], Translate method [Windows Shell],IURLSearchHook interface, _win32_IURLSearchHook_Translate, shell.IURLSearchHook_Translate, shlobj_core/IURLSearchHook::Translate
 ms.prod: windows-hardware
 ms.technology: windows-devices

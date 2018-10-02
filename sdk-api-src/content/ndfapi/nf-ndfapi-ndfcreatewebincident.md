@@ -7,7 +7,7 @@ old-location: ndf\ndfcreatewebincident.htm
 tech.root: NDF
 ms.assetid: 28ca2949-6867-4c9a-aebc-bf2a57627c04
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NdfCreateWebIncident, NdfCreateWebIncident function [NDF], ndf.ndfcreatewebincident, ndfapi/NdfCreateWebIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

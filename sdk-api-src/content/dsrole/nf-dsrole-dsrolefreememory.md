@@ -4,10 +4,10 @@ title: DsRoleFreeMemory function
 author: windows-sdk-content
 description: Frees memory allocated by the DsRoleGetPrimaryDomainInformation function.
 old-location: ad\dsrolefreememory.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 5560dfec-2134-4e02-9c87-26d246cd5841
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsRoleFreeMemory, DsRoleFreeMemory function [Active Directory], _glines_dsrolefreememory, ad.dsrolefreememory, dsrole/DsRoleFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

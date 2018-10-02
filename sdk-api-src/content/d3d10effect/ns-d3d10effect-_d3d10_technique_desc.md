@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_technique_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_technique_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 506d7648-e159-3365-396e-418be67bb2d9, D3D10_TECHNIQUE_DESC, D3D10_TECHNIQUE_DESC structure [Direct3D 10], _D3D10_TECHNIQUE_DESC, d3d10effect/D3D10_TECHNIQUE_DESC, direct3d10.d3d10_technique_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ The number of annotations.
 
 
 
-To get a technique, call <a href="https://msdn.microsoft.com/en-us/library/Bb173712(v=VS.85).aspx">ID3D10EffectTechnique::GetDesc</a>.
+To get a technique, call <a href="https://msdn.microsoft.com/18d53bb6-0055-479e-ac32-7f53498859c7">ID3D10EffectTechnique::GetDesc</a>.
 
 
 
@@ -93,7 +93,7 @@ To get a technique, call <a href="https://msdn.microsoft.com/en-us/library/Bb173
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/bbd69b4b-d2f4-471f-a607-328f5fc603b5">Effect Structures (Direct3D 10)</a>
  
 
  

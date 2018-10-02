@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instanceft.htm
 tech.root: WMI_v2
 ms.assetid: a8cd93b7-c9e0-415e-811a-33826e38417f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_InstanceFT, MI_InstanceFT structure [Windows Management Infrastructure (MI)], _MI_InstanceFT, mi/MI_InstanceFT, wmi_v2.mi_instanceft
 ms.prod: windows
 ms.technology: windows-sdk

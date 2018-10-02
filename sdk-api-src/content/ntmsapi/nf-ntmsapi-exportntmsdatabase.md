@@ -7,7 +7,7 @@ old-location: fs\exportntmsdatabase.htm
 tech.root: Rsm
 ms.assetid: 0c6df5d3-c771-4749-8fbd-de5c02ffa5d9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ExportNtmsDatabase, ExportNtmsDatabase function [Files], _zaw_exportntmsdatabase, base.exportntmsdatabase, fs.exportntmsdatabase, ntmsapi/ExportNtmsDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,7 +171,7 @@ This function creates a subdirectory called Export and places the consistent fil
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Database Backup and Recovery Functions</a>
+<a href="removable_storage_manager_functions.htm">Database Backup and Recovery Functions</a>
 
 
 

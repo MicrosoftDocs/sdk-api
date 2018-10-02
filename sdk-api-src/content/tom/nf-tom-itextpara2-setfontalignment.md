@@ -4,10 +4,10 @@ title: ITextPara2::SetFontAlignment
 author: windows-sdk-content
 description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.
 old-location: controls\itextpara2_setfontalignment.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 2ed1f7f2-9523-4dda-bac0-c1eb3d217102
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetFontAlignment method, ITextPara2.SetFontAlignment, ITextPara2::SetFontAlignment, SetFontAlignment, SetFontAlignment method [Windows Controls], SetFontAlignment method [Windows Controls],ITextPara2 interface, controls.itextpara2_setfontalignment, tom/ITextPara2::SetFontAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,19 +71,19 @@ The paragraph font alignment. It can be one of the following values.
 <th>Font Alignment States</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentAuto</a> (default)</td>
+<td><a href="tomconstants.htm">tomFontAlignmentAuto</a> (default)</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentTop</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentTop</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBaseline</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentBaseline</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBottom</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentBottom</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentCenter</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentCenter</a></td>
 </tr>
 </table>
  

@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_generatereport.htm
 tech.root: GPMC
 ms.assetid: 19b3b027-59f1-4c31-896b-5b5fd23b9be4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GenerateReport method, IGPMGPO.GenerateReport, IGPMGPO::GenerateReport, gpmc.igpmgpo_generatereport, gpmgmt/IGPMGPO::GenerateReport
 ms.prod: windows-hardware
 ms.technology: windows-devices

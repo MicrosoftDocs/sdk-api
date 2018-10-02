@@ -7,7 +7,7 @@ old-location: fs\createenlistment.htm
 tech.root: Ktm
 ms.assetid: 7bc06468-947f-48ec-8e58-20df58ed93bd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateEnlistment, CreateEnlistment function [Files], ENLISTMENT_SUPERIOR, fs.createenlistment, ktmw32/CreateEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

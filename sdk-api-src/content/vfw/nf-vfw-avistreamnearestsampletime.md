@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnearestsampletime.htm
 tech.root: Multimedia
 ms.assetid: 8f9bd7b8-24b4-4bc5-98f0-0339bbaa0caf
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: AVIStreamNearestSampleTime, AVIStreamNearestSampleTime macro [Windows Multimedia], _win32_AVIStreamNearestSampleTime, multimedia.avistreamnearestsampletime, vfw/AVIStreamNearestSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,16 +77,20 @@ Starting time, in milliseconds, to search in the stream.
 
 The <b>AVIStreamNearestSampleTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamNearestSampleTime(pavi, lTime) \ 
     AVIStreamSampleToTime(pavi, AVIStreamNearestSample(pavi, 
     AVIStreamTimeToSample(pavi, lTime))) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

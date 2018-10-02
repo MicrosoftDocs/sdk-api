@@ -4,10 +4,10 @@ title: "_DRVFN"
 author: windows-sdk-content
 description: The DRVFN structure is used by graphics drivers to provide GDI with pointers to the graphics DDI functions defined by the driver.
 old-location: display\drvfn.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 2ff20004-ec2e-4192-a5f1-e3e9d2bfad3c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDRVFN, DRVFN, DRVFN structure [Display Devices], PDRVFN, PDRVFN structure pointer [Display Devices], _DRVFN, display.drvfn, grstrcts_178b2ecc-75f9-4921-8912-661b33305d80.xml, winddi/DRVFN, winddi/PDRVFN"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,12 +67,16 @@ Is the function index that identifies a graphics DDI function implemented by the
 
 Specifies the address of the driver-defined graphics DDI function associated with the index supplied for <b>iFunc</b>. This function has the following prototype:
 
-
-```
-LONG_PTR  (APIENTRY * PFN) ();
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>LONG_PTR  (APIENTRY * PFN) ();</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -remarks
 

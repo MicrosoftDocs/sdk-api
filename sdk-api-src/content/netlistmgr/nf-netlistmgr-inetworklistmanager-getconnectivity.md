@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanager_getconnectivity.htm
 tech.root: NLA
 ms.assetid: 4695554a-2f8b-4d2e-b3ff-ec22c43387d6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetConnectivity method, INetworkListManager.GetConnectivity, INetworkListManager::GetConnectivity, netlistmgr/INetworkListManager::GetConnectivity, nla.inetworklistmanager_getconnectivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

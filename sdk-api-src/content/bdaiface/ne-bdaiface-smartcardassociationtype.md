@@ -7,7 +7,7 @@ old-location: mstv\smartcardassociationtype.htm
 tech.root: MSTV
 ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: Associated, AssociationUnknown, NotAssociated, SmartCardAssociationType, SmartCardAssociationType enumeration [Microsoft TV Technologies], bdaiface/Associated, bdaiface/AssociationUnknown, bdaiface/NotAssociated, bdaiface/SmartCardAssociationType, mstv.smartcardassociationtype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Association status is unknown.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693018(v=VS.85).aspx">BDA Enumeration Types</a>
+<a href="https://msdn.microsoft.com/13183e2a-6fbb-422c-b93c-53c12cb27423">BDA Enumeration Types</a>
  
 
  

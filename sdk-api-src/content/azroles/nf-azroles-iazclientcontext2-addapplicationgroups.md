@@ -4,10 +4,10 @@ title: IAzClientContext2::AddApplicationGroups
 author: windows-sdk-content
 description: Adds the specified array of existing IAzApplicationGroup objects to the client context object.
 old-location: security\iazclientcontext2_addapplicationgroups.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8ad7c7df-0bdd-4ea1-9a9e-98323b82c0b0
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: AddApplicationGroups, AddApplicationGroups method [Security], AddApplicationGroups method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddApplicationGroups method, IAzClientContext2.AddApplicationGroups, IAzClientContext2::AddApplicationGroups, azroles/IAzClientContext2::AddApplicationGroups, security.iazclientcontext2_addapplicationgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

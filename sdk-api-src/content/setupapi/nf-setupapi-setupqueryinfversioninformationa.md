@@ -7,7 +7,7 @@ old-location: setup\setupqueryinfversioninformation.htm
 tech.root: SetupApi
 ms.assetid: 58768b91-a0c7-4791-8667-2890b742798c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetupQueryInfVersionInformation, SetupQueryInfVersionInformation function [Setup API], SetupQueryInfVersionInformationA, SetupQueryInfVersionInformationW, _setupapi_setupqueryinfversioninformation, setup.setupqueryinfversioninformation, setupapi/SetupQueryInfVersionInformation, setupapi/SetupQueryInfVersionInformationA, setupapi/SetupQueryInfVersionInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

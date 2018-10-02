@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_querysupportedcommands.htm
 tech.root: mbn
 ms.assetid: E82AAD40-1E91-449D-8F1C-CE31B394B2DF
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],QuerySupportedCommands method, IMbnDeviceService.QuerySupportedCommands, IMbnDeviceService::QuerySupportedCommands, QuerySupportedCommands, QuerySupportedCommands method [Microsoft Broadband Networks], QuerySupportedCommands method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_querysupportedcommands, mbnapi/IMbnDeviceService::QuerySupportedCommands
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mib\mib_invertedifstack_table.htm
 tech.root: MIB
 ms.assetid: b3508bb5-4e36-4088-afcc-4a75a01d1fe6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE structure [MIB], PMIB_INVERTEDIFSTACK_TABLE, PMIB_INVERTEDIFSTACK_TABLE structure pointer [MIB], _MIB_INVERTEDIFSTACK_TABLE, mib.mib_invertedifstack_table, netioapi/MIB_INVERTEDIFSTACK_TABLE, netioapi/PMIB_INVERTEDIFSTACK_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

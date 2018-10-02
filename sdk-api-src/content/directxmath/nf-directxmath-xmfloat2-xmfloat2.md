@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat2_ctor.htm
 tech.root: dxmath
 ms.assetid: Overload:Microsoft.directx_sdk.reference.XMFLOAT2.#ctor
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 Constructors, XMFLOAT2 Constructors constructors [DirectX Math Support APIs], directxmath/XMFLOAT2 Constructors, dxmath.xmfloat2_ctor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ienroll4_freerequestinfoblob.htm
 tech.root: seccrypto
 ms.assetid: 7c89de98-51b6-44c2-acd2-879d1d4e7f29
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: IEnroll interface [Security],freeRequestInfoBlob method, IEnroll.freeRequestInfoBlob, IEnroll::freeRequestInfoBlob, freeRequestInfoBlob, freeRequestInfoBlob method [Security], freeRequestInfoBlob method [Security],IEnroll interface, security.ienroll4_freerequestinfoblob, xenroll/IEnroll::freeRequestInfoBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

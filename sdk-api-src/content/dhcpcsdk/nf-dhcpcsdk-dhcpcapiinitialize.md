@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcapiinitialize.htm
 tech.root: DHCP
 ms.assetid: b4bc8b02-63b4-4751-a963-25336e8ae426
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpCApiInitialize, DhcpCApiInitialize function [DHCP], _dhcp_dhcpcapiinitialize, dhcp.dhcpcapiinitialize, dhcpcsdk/DhcpCApiInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

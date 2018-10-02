@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_setmaximumcontentage.htm
 tech.root: Bits
 ms.assetid: 815d9e48-f1f0-4c40-a277-d78db9d6ace1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBitsPeerCacheAdministration interface [BITS],SetMaximumContentAge method, IBitsPeerCacheAdministration.SetMaximumContentAge, IBitsPeerCacheAdministration::SetMaximumContentAge, SetMaximumContentAge, SetMaximumContentAge method [BITS], SetMaximumContentAge method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setmaximumcontentage, bits3_0/IBitsPeerCacheAdministration::SetMaximumContentAge
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,15 +117,15 @@ This value is used only if the MaxContentAge group policy is not set.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964286(v=VS.85).aspx">IBitsPeerCacheAdministration::GetMaximumContentAge</a>
+<a href="https://msdn.microsoft.com/6b6b0c97-9906-464d-b267-5adde1919a45">IBitsPeerCacheAdministration::GetMaximumContentAge</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964289(v=VS.85).aspx">IBitsPeerCacheAdministration::SetMaximumCacheSize</a>
+<a href="https://msdn.microsoft.com/064376cf-8865-45a1-a63a-1096bc0d58ce">IBitsPeerCacheAdministration::SetMaximumCacheSize</a>
  
 
  

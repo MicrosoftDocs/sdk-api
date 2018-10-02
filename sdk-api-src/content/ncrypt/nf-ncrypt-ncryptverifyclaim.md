@@ -7,7 +7,7 @@ old-location: security\ncryptverifyclaim.htm
 tech.root: SecCNG
 ms.assetid: D3C837A5-49D7-4099-B8FE-37364A275A73
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NCryptVerifyClaim, NCryptVerifyClaim function [Security], ncrypt/NCryptVerifyClaim, security.ncryptverifyclaim
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator2_get_transmissionmode.htm
 tech.root: MSTV
 ms.assetid: b5722904-24a4-491f-8563-bfb2d5695d86
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_TransmissionMode method, IBDA_DigitalDemodulator2.get_TransmissionMode, IBDA_DigitalDemodulator2::get_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::get_TransmissionMode, get_TransmissionMode, get_TransmissionMode method [Microsoft TV Technologies], get_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_transmissionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693285(v=VS.85).aspx">IBDA_DigitalDemodulator2</a>
+<a href="https://msdn.microsoft.com/337fba05-80d5-4638-9936-2e02767a5b1b">IBDA_DigitalDemodulator2</a>
  
 
  

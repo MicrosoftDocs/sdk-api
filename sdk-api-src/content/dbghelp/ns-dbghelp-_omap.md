@@ -4,10 +4,10 @@ title: "_OMAP"
 author: windows-sdk-content
 description: Describes an entry in an address map.
 old-location: base\omap.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 47f1dc1d-9305-4514-83b8-6d32bd9914f2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*POMAP, OMAP, OMAP structure, POMAP, POMAP structure pointer, _OMAP, base.omap, dbghelp/OMAP, dbghelp/POMAP"
 ms.prod: windows
 ms.technology: windows-sdk

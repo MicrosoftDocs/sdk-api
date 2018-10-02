@@ -7,7 +7,7 @@ old-location: mstv\idvbstuningspace_put_highoscillator.htm
 tech.root: MSTV
 ms.assetid: 0f71008b-dbb6-485b-b196-7c2d215b3064
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_HighOscillator method, IDVBSTuningSpace.put_HighOscillator, IDVBSTuningSpace::put_HighOscillator, IDVBSTuningSpaceput_HighOscillator, mstv.idvbstuningspace_put_highoscillator, put_HighOscillator, put_HighOscillator method [Microsoft TV Technologies], put_HighOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_HighOscillator
 ms.prod: windows-hardware
 ms.technology: windows-devices

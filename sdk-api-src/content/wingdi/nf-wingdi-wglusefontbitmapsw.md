@@ -7,7 +7,7 @@ old-location: opengl\wglusefontbitmaps.htm
 tech.root: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: "_ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,9 +165,13 @@ The function determines the parameters of each call to <b>glBitmap</b> as follow
 
 The following code example shows how to use <b>wglUseFontBitmaps</b> to draw some text.
 
-
-```cpp
-HDC    hdc; 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HDC    hdc; 
 HGLRC  hglrc; 
  
 // create a rendering context  
@@ -190,10 +194,10 @@ wglUseFontBitmaps (hdc, 0, 255, 1000);
 // indicate start of glyph display lists  
 glListBase (1000); 
 // now draw the characters in a string  
-glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");
-```
-
-
+glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: DISPLAYCONFIG_SOURCE_DEVICE_NAME
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SOURCE_DEVICE_NAME structure contains the GDI device name for the source or view.
 old-location: display\displayconfig_source_device_name.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 92813ffc-1915-4f26-afb1-936bf76f7844
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: CCD_Structures_0a443841-294d-4b14-8f95-7825de89b8ac.xml, DISPLAYCONFIG_SOURCE_DEVICE_NAME, DISPLAYCONFIG_SOURCE_DEVICE_NAME structure [Display Devices], display.displayconfig_source_device_name, wingdi/DISPLAYCONFIG_SOURCE_DEVICE_NAME
 ms.prod: windows
 ms.technology: windows-sdk

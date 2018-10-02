@@ -7,7 +7,7 @@ old-location: com\pictureattributes.htm
 tech.root: com
 ms.assetid: 3162a305-d35c-402d-a8d8-f0f124257dd5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: PICTUREATTRIBUTES, PICTUREATTRIBUTES enumeration [COM], PICTURE_SCALABLE, PICTURE_TRANSPARENT, _ctrl_PICTURE, com.pictureattributes, ocidl/PICTUREATTRIBUTES, ocidl/PICTURE_SCALABLE, ocidl/PICTURE_TRANSPARENT, tagPictureAttributes
 ms.prod: windows
 ms.technology: windows-sdk

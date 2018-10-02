@@ -7,7 +7,7 @@ old-location: adsi\ads_statusenum.htm
 tech.root: ADSI
 ms.assetid: dfc080da-f849-4df3-9b14-1193b9303742
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PADS_STATUS, ADS_STATUS, ADS_STATUSENUM, ADS_STATUSENUM enumeration [ADSI], ADS_STATUS_INVALID_SEARCHPREF, ADS_STATUS_INVALID_SEARCHPREFVALUE, ADS_STATUS_S_OK, __MIDL___MIDL_itf_ads_0000_0000_0019, _ds_ads_statusenum, adsi.ads__statusenum, adsi.ads_statusenum, iads/ADS_STATUSENUM, iads/ADS_STATUS_INVALID_SEARCHPREF, iads/ADS_STATUS_INVALID_SEARCHPREFVALUE, iads/ADS_STATUS_S_OK"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,9 +88,13 @@ The <b>ADS_STATUS_INVALID_SEARCHPREF</b> status value may be set if you set a va
 
 The following code example shows how to use the <b>ADS_STATUSENUM</b> enumeration with the <a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a> method to determine the status of a search preference.
 
-
-```cpp
-/***************************************************************************
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/***************************************************************************
 
     SetAndCheckSearchTimeout()
 
@@ -113,7 +117,7 @@ HRESULT SetAndCheckSearchTimeout(IDirectorySearch *pSearch,
     SearchPref.vValue.Integer = dwTimeout;
     SearchPref.dwStatus = ADS_STATUS_S_OK;
 
-    hr = pSearch->SetSearchPreference(&SearchPref, 1);
+    hr = pSearch-&gt;SetSearchPreference(&amp;SearchPref, 1);
     if(S_OK != hr)
     {
         return hr;
@@ -122,10 +126,10 @@ HRESULT SetAndCheckSearchTimeout(IDirectorySearch *pSearch,
     *pStatus = SearchPref.dwStatus;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IPlayToSourceClassFactory
 author: windows-sdk-content
 description: Creates an instance of the PlayToSource object.
 old-location: mf\iplaytosourceclassfactory.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: F8F9FEC6-836C-429A-BADD-5CD1E550AED0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IPlayToSourceClassFactory, IPlayToSourceClassFactory interface [Media Foundation], IPlayToSourceClassFactory interface [Media Foundation],described, mf.iplaytocontrollerclassfactory, mf.iplaytosourceclassfactory, mfsharingengine/IPlayToSourceClassFactory
 ms.prod: windows
 ms.technology: windows-sdk

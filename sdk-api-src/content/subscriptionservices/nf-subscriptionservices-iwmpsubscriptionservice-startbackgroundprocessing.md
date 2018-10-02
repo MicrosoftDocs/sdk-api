@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice_startbackgroundprocessing.htm
 tech.root: WMP
 ms.assetid: a3bdb4b1-8479-484f-92db-2b73a0c40bfb
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],startBackgroundProcessing method, IWMPSubscriptionService.startBackgroundProcessing, IWMPSubscriptionService::startBackgroundProcessing, IWMPSubscriptionServicestartBackgroundProcessing, startBackgroundProcessing, startBackgroundProcessing method [Windows Media Player], startBackgroundProcessing method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::startBackgroundProcessing, wmp.iwmpsubscriptionservice_startbackgroundprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices

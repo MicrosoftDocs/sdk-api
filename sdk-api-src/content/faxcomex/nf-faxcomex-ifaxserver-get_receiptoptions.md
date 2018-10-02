@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_receiptoptions_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9gxf_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxServer interface [Fax Service],ReceiptOptions property, IFaxServer.ReceiptOptions, IFaxServer.get_ReceiptOptions, IFaxServer::ReceiptOptions, IFaxServer::get_ReceiptOptions, ReceiptOptions property [Fax Service], ReceiptOptions property [Fax Service],IFaxServer interface, _mfax_faxserver.receiptoptions_cpp, fax._mfax_faxserver_receiptoptions_cpp, faxcomex/IFaxServer::ReceiptOptions, faxcomex/IFaxServer::get_ReceiptOptions, get_ReceiptOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693387(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/4558e770-c6ae-4892-a2b3-40c59f6275fa">Visual Basic Example</a>
  
 
  

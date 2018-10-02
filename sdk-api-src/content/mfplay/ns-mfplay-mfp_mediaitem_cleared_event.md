@@ -4,10 +4,10 @@ title: MFP_MEDIAITEM_CLEARED_EVENT
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_CLEARED event.
 old-location: mf\mfp_mediaitem_cleared_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 74218ab7-75a7-49e6-bfaa-5f57b1788a19
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_MEDIAITEM_CLEARED_EVENT, MFP_MEDIAITEM_CLEARED_EVENT structure [Media Foundation], mf.mfp_mediaitem_cleared_event, mfplay/MFP_MEDIAITEM_CLEARED_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

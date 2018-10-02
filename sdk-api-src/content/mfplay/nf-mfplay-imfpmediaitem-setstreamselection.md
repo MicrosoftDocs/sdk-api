@@ -4,10 +4,10 @@ title: IMFPMediaItem::SetStreamSelection
 author: windows-sdk-content
 description: Selects or deselects a stream.
 old-location: mf\imfpmediaitem_setstreamselection.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 739190a5-60a7-4b50-9919-f68d2cd6da8d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],SetStreamSelection method, IMFPMediaItem.SetStreamSelection, IMFPMediaItem::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DsGetIcon function
 author: windows-sdk-content
 description: Obtains the icon for a given object class.
 old-location: ad\dsgeticon.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: eee18c78-aefa-4f09-9361-91893502efec
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISNORMAL, DSGIF_ISOPEN, DsGetIcon, DsGetIcon function [Active Directory], ad.dsgeticon, dsclient/DsGetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ Contains the desired height, in pixels, of the icon. This function retrieves the
 
 
 
-Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>.
+Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="_win32_destroyicon_cpp">DestroyIcon</a>.
 
 
 
@@ -122,7 +122,7 @@ Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="_win32_destroyicon_cpp">DestroyIcon</a>
 
 
 

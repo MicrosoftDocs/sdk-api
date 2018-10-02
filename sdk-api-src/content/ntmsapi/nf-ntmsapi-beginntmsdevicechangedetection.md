@@ -7,7 +7,7 @@ old-location: fs\beginntmsdevicechangedetection.htm
 tech.root: Rsm
 ms.assetid: d325a10a-5bf9-4431-8a6a-a50c4cf46728
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BeginNtmsDeviceChangeDetection, BeginNtmsDeviceChangeDetection function [Files], _zaw_beginntmsdevicechangedetection, base.beginntmsdevicechangedetection, fs.beginntmsdevicechangedetection, ntmsapi/BeginNtmsDeviceChangeDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,7 +128,7 @@ After calling
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
+<a href="removable_storage_manager_functions.htm">Change Detection Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: imapi\iisoimagemanager.htm
 tech.root: imapi
 ms.assetid: 47b059a9-a18a-4f32-9a02-6566175ca86b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageManager interface [IMAPI],described, imapi.iisoimagemanager, imapi2fs/IIsoImageManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Use this interface to verify if an existing .iso file contains a valid file syst
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsoImageManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IIsoImageManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsoImageManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IIsoImageManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

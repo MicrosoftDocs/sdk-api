@@ -7,7 +7,7 @@ old-location: com\callframe_walk.htm
 tech.root: com
 ms.assetid: 52327707-43b0-4041-8fa1-62a9a62dc6b7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CALLFRAME_WALK, CALLFRAME_WALK enumeration [COM], CALLFRAME_WALK_IN, CALLFRAME_WALK_INOUT, CALLFRAME_WALK_OUT, _com_CALLFRAME_WALK, callobj/CALLFRAME_WALK, callobj/CALLFRAME_WALK_IN, callobj/CALLFRAME_WALK_INOUT, callobj/CALLFRAME_WALK_OUT, com.callframe_walk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The [out] parameter values will be walked.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683962(v=VS.85).aspx">ICallFrame::WalkFrame</a>
+<a href="https://msdn.microsoft.com/64e4967b-6b54-4416-ae10-04987f13d39a">ICallFrame::WalkFrame</a>
  
 
  

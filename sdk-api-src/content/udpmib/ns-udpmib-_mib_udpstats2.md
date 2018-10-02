@@ -7,7 +7,7 @@ old-location: mib\mib_udpstats2.htm
 tech.root: MIB
 ms.assetid: A225E0E7-54FB-4655-9A45-F3EF6DA1FF4E
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_UDPSTATS2, MIB_UDPSTATS2, MIB_UDPSTATS2 structure [MIB], PMIB_UDPSTATS2, PMIB_UDPSTATS2 structure pointer [MIB], _MIB_UDPSTATS2, mib.mib_udpstats2, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ The number of entries in the UDP listener table.
 
 
 The 
-			<a href="https://msdn.microsoft.com/en-us/library/Mt804347(v=VS.85).aspx">GetUdpStatisticsEx2</a> function returns a pointer to a <b>MIB_UDPSTATS2</b> structure. 
+			<a href="_iphlp_getudpstatisticsEx2">GetUdpStatisticsEx2</a> function returns a pointer to a <b>MIB_UDPSTATS2</b> structure. 
 
 
 
@@ -101,11 +101,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt803265(v=VS.85).aspx">GetTcpStatisticsEx2</a>
+<a href="_iphlp_gettcpstatisticsEx2">GetTcpStatisticsEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt804347(v=VS.85).aspx">GetUdpStatisticsEx2</a>
+<a href="_iphlp_getudpstatisticsex2">GetUdpStatisticsEx2</a>
 
 
 

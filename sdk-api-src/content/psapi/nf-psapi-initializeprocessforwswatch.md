@@ -7,7 +7,7 @@ old-location: psapi\initializeprocessforwswatch.htm
 tech.root: psapi
 ms.assetid: c928656c-a59d-41b5-9434-911329b0278e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InitializeProcessForWsWatch, InitializeProcessForWsWatch function [PSAPI], K32InitializeProcessForWatch, K32InitializeProcessForWsWatch, _win32_initializeprocessforwswatch, base.initializeprocessforwswatch, psapi.initializeprocessforwswatch, psapi/InitializeProcessForWsWatch, psapi/K32InitializeProcessForWsWatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

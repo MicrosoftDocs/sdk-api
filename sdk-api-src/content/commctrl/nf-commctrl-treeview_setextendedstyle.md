@@ -4,10 +4,10 @@ title: TreeView_SetExtendedStyle macro
 author: windows-sdk-content
 description: Sets the extended style for a specified TreeView control. Use this macro or send the TVM_SETEXTENDEDSTYLE message explicitly.
 old-location: controls\TreeView_SetExtendedStyle.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setextendedstyle.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: TreeView_SetExtendedStyle, TreeView_SetExtendedStyle macro [Windows Controls], _shell_TreeView_SetExtendedStyle, _shell_TreeView_SetExtendedStyle_cpp, commctrl/TreeView_SetExtendedStyle, controls.TreeView_SetExtendedStyle, controls._shell_TreeView_SetExtendedStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the extended style for a specified TreeView control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773744(v=VS.85).aspx">TVM_SETEXTENDEDSTYLE</a> message explicitly.
+Sets the extended style for a specified TreeView control. Use this macro or send the <a href="https://msdn.microsoft.com/35cb6ac8-1c1e-4ecd-88b2-878d3f6ccaa5">TVM_SETEXTENDEDSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Handle to the TreeView control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Value that indicates the extended style. For more information on styles, see <a href="https://msdn.microsoft.com/en-us/library/Bb759981(v=VS.85).aspx">Tree-View Control Extended Styles</a>.
+Value that indicates the extended style. For more information on styles, see <a href="https://msdn.microsoft.com/b45e7b7c-2c7b-49fa-8679-57c478b2f796">Tree-View Control Extended Styles</a>.
 
 
 ### -param mask

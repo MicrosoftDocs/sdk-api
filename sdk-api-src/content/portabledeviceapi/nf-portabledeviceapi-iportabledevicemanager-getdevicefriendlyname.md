@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicemanager_getdevicefriendlyname.htm
 tech.root: wpd_sdk
 ms.assetid: 589995bb-fcce-412e-8828-a84e5809af2b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetDeviceFriendlyName, GetDeviceFriendlyName method [Windows Portable Devices SDK], GetDeviceFriendlyName method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceFriendlyName method, IPortableDeviceManager.GetDeviceFriendlyName, IPortableDeviceManager::GetDeviceFriendlyName, IPortableDeviceManagerGetDeviceFriendlyName, portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName, wpdsdk.iportabledevicemanager_getdevicefriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,7 +142,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-A device is not required to support this method. If this method fails to retrieve a name, try requesting the <a href="https://msdn.microsoft.com/en-us/library/Dd375704(v=VS.85).aspx">WPD_OBJECT_NAME</a> property of the device object (the object with the ID WPD_DEVICE_OBJECT_ID).
+A device is not required to support this method. If this method fails to retrieve a name, try requesting the <a href="object_properties.htm">WPD_OBJECT_NAME</a> property of the device object (the object with the ID WPD_DEVICE_OBJECT_ID).
 
 
 

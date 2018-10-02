@@ -7,7 +7,7 @@ old-location: fwp\ipsec_token_principal.htm
 tech.root: FWP
 ms.assetid: f61944aa-2545-4fdd-8bae-6271d4535acc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_TOKEN_PRINCIPAL, IPSEC_TOKEN_PRINCIPAL enumeration [Filtering], IPSEC_TOKEN_PRINCIPAL_, IPSEC_TOKEN_PRINCIPAL_LOCAL, IPSEC_TOKEN_PRINCIPAL_MAX, IPSEC_TOKEN_PRINCIPAL_PEER, fwp.ipsec_token_principal, ipsectypes/IPSEC_TOKEN_PRINCIPAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_LOCAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_MAX, ipsectypes/IPSEC_TOKEN_PRINCIPAL_PEER
 ms.prod: windows
 ms.technology: windows-sdk

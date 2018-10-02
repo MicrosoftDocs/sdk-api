@@ -4,10 +4,10 @@ title: "_CLUS_SHARED_VOLUME_BACKUP_MODE"
 author: windows-sdk-content
 description: Describes the backup mode for CSV.
 old-location: mscs\clus_shared_volume_backup_mode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e5ae8cc7-bff8-4293-920e-3a704d1bd7e5
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE structure [Failover Cluster], PCLUS_SHARED_VOLUME_BACKUP_MODE, PCLUS_SHARED_VOLUME_BACKUP_MODE structure pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, _CLUS_SHARED_VOLUME_BACKUP_MODE, clusapi/CLUS_SHARED_VOLUME_BACKUP_MODE, clusapi/PCLUS_SHARED_VOLUME_BACKUP_MODE, mscs.clus_shared_volume_backup_mode"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 Describes the backup mode for cluster shared volume (CSV). Used by the 
-    <a href="https://msdn.microsoft.com/en-us/library/Ee342498(v=VS.85).aspx">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a> <a href="https://msdn.microsoft.com/en-us/library/Aa367127(v=VS.85).aspx">control code</a>.
+    <a href="https://msdn.microsoft.com/2ee69873-e562-4bac-bfed-119d56082095">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a> <a href="https://msdn.microsoft.com/b8ab57bd-f83e-46c2-9c9c-02107c3881bf">control code</a>.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Describes the backup mode for cluster shared volume (CSV). Used by the
 
 
 Value from 
-       <a href="https://msdn.microsoft.com/en-us/library/Ee342508(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a> 
+       <a href="https://msdn.microsoft.com/f83a7dfe-ad48-41e2-983e-75dfd921c137">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a> 
        enumeration.
 
 
@@ -99,15 +99,15 @@ Null-terminated Unicode string containing the name of the shared volume. The nam
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee342498(v=VS.85).aspx">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
+<a href="https://msdn.microsoft.com/2ee69873-e562-4bac-bfed-119d56082095">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee342508(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a>
+<a href="https://msdn.microsoft.com/f83a7dfe-ad48-41e2-983e-75dfd921c137">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

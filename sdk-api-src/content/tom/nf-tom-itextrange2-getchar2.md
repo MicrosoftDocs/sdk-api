@@ -4,10 +4,10 @@ title: ITextRange2::GetChar2
 author: windows-sdk-content
 description: Gets the character at the specified offset from the end of this range.
 old-location: controls\itextrange2_getchar2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 8ece8ca0-fd05-481c-9ce2-b2b7a3df354e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetChar2, GetChar2 method [Windows Controls], GetChar2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetChar2 method, ITextRange2.GetChar2, ITextRange2::GetChar2, controls.itextrange2_getchar2, tom/ITextRange2::GetChar2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-This method differs from <a href="https://msdn.microsoft.com/en-us/library/Bb773937(v=VS.85).aspx">ITextRange::GetChar</a> in the following ways:<ul>
+This method differs from <a href="https://msdn.microsoft.com/e6de647e-c3db-4038-8d7e-4b36fdbf3577">ITextRange::GetChar</a> in the following ways:<ul>
 <li>It returns the UTF-32 character for the surrogate pair instead of the pair's lead code.</li>
 <li>It gets the character code, or codes, at the specified offset from the end of the range instead of the character at the start of the range. </li>
 </ul>

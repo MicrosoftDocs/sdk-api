@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_get_classid.htm
 tech.root: MSTV
 ms.assetid: 78910e3d-bd00-48c5-b1be-504dc92280a0
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_ClassID method, IMSVidDevice.get_ClassID, IMSVidDevice::get_ClassID, IMSVidDeviceget_ClassID, get_ClassID, get_ClassID method [Microsoft TV Technologies], get_ClassID method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_classid, segment/IMSVidDevice::get_ClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices

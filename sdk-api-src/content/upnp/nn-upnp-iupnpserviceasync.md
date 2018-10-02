@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync.htm
 tech.root: UPnP
 ms.assetid: B77025D6-26C7-46C9-84FE-69685C61735D
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], IUPnPServiceAsync interface [UPnP APIs],described, upnp.iupnpserviceasync, upnp/IUPnPServiceAsync
 ms.prod: windows
 ms.technology: windows-sdk

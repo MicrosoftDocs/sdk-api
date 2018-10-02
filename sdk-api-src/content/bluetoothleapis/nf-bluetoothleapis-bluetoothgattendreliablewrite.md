@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattendreliablewrite.htm
 tech.root: bltooth
 ms.assetid: 4A3CB135-55D7-41BA-8067-D4B865D05733
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothGATTEndReliableWrite, BluetoothGATTEndReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattendreliablewrite, bluetoothleapis/BluetoothGATTEndReliableWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ Handle to the service.
 
 ### -param ReliableWriteContext [in]
 
-The context describing the reliable write operation returned from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Hh450792(v=VS.85).aspx">BluetoothGATTBeginReliableWrite</a>.
+The context describing the reliable write operation returned from a previous call to <a href="https://msdn.microsoft.com/D053FD0C-3088-4C56-A4EA-F41079FAAF20">BluetoothGATTBeginReliableWrite</a>.
 
 
 ### -param Flags [in]

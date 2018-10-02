@@ -7,7 +7,7 @@ old-location: hidpi\getprocessdpiawareness.htm
 tech.root: hidpi
 ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI], hidpi.getprocessdpiawareness, shellscalingapi/GetProcessDpiAwareness, winmsg.GetProcessDpiAwareness
 ms.prod: windows-hardware
 ms.technology: windows-devices

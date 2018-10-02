@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist.htm
 tech.root: ADSI
 ms.assetid: de92d9cc-bc9d-4dc5-aa79-01f4d3050c35
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AccessControlList, IADsAccessControlList, IADsAccessControlList interface [ADSI], IADsAccessControlList interface [ADSI],described, _ds_iadsaccesscontrollist, adsi.iadsaccesscontrollist, iads/IADsAccessControlList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IADsAccessControlList</b> interface is a dual interface that manages indi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAccessControlList</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsAccessControlList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAccessControlList</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsAccessControlList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -181,9 +181,13 @@ For more information about DACLs, see <a href="https://msdn.microsoft.com/32b786
 
 The following code example shows  how to work with access control entries of a discretionary ACL.
 
-
-```vb
-Dim X As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim X As IADs
 Dim Namespace As IADsOpenDSObject
 Dim SecurityDescriptor As IADsSecurityDescriptor
 Dim Dacl As IADsAccessControlList
@@ -208,55 +212,59 @@ For Each Obj In Dacl
 Next
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set X = Nothing
     Set Namespace = Nothing
     Set SecurityDescriptor = Nothing
-    Set Dacl = Nothing
-```
-
-
+    Set Dacl = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example enumerates ACEs from a DACL.
 
-
-```cpp
-IADs *pADs = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADs *pADs = NULL;
 IDispatch *pDisp = NULL;
 IADsSecurityDescriptor *pSD = NULL;
 VARIANT var;
 HRESULT hr = S_OK;
  
-VariantInit(&var);
+VariantInit(&amp;var);
 
 hr = ADsOpenObject(L"LDAP://OU=Sales, DC=Fabrikam,DC=com",NULL,NULL,
-                   ADS_SECURE_AUTHENTICATION, IID_IADs,(void**)&pADs);
+                   ADS_SECURE_AUTHENTICATION, IID_IADs,(void**)&amp;pADs);
 if(FAILED(hr)) {goto Cleanup;}
 
-hr = pADs->Get(CComBSTR("ntSecurityDescriptor"), &var);
+hr = pADs-&gt;Get(CComBSTR("ntSecurityDescriptor"), &amp;var);
 if(FAILED(hr)) {goto Cleanup;}
 
-pDisp = V_DISPATCH(&var);
+pDisp = V_DISPATCH(&amp;var);
 
-hr = pDisp->QueryInterface(IID_IADsSecurityDescriptor,(void**)&pSD);
+hr = pDisp-&gt;QueryInterface(IID_IADsSecurityDescriptor,(void**)&amp;pSD);
 if(FAILED(hr)) {goto Cleanup;}
-pDisp->Release();
+pDisp-&gt;Release();
 
 
-pSD->get_DiscretionaryAcl(&pDisp);
+pSD-&gt;get_DiscretionaryAcl(&amp;pDisp);
 
-hr = pDisp->QueryInterface(IID_IADsAccessControlList,(void**)&pACL);
+hr = pDisp-&gt;QueryInterface(IID_IADsAccessControlList,(void**)&amp;pACL);
 if(FAILED(hr)) {goto Cleanup;}
 
 hr = DisplayAccessInfo(pSD);
 if(FAILED(hr)) {goto Cleanup;}
-VariantClear(&var);
+VariantClear(&amp;var);
 
 Cleanup:
-    if(pADs) pADs->Release();
-    if(pDisp) pDisp->Release();
-    if(pSD) pSD->Release();
+    if(pADs) pADs-&gt;Release();
+    if(pDisp) pDisp-&gt;Release();
+    if(pSD) pSD-&gt;Release();
     return hr;
 
 
@@ -277,37 +285,37 @@ HRESULT DisplayAccessInfo(IADsSecurityDescriptor *pSD)
     LPWSTR lpszMask = NULL;
     size_t nLength = 0;
     
-    VariantInit(&var);
+    VariantInit(&amp;var);
     
-    hr = pSD->get_DiscretionaryAcl(&pDisp);
+    hr = pSD-&gt;get_DiscretionaryAcl(&amp;pDisp);
     if(FAILED(hr)){goto Cleanup;}
-    hr = pDisp->QueryInterface(IID_IADsAccessControlList,(void**)&pACL);
-    if(FAILED(hr)){goto Cleanup;}
-    
-    hr = pACL->get__NewEnum(&pUnk);
+    hr = pDisp-&gt;QueryInterface(IID_IADsAccessControlList,(void**)&amp;pACL);
     if(FAILED(hr)){goto Cleanup;}
     
-    hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
+    hr = pACL-&gt;get__NewEnum(&amp;pUnk);
+    if(FAILED(hr)){goto Cleanup;}
+    
+    hr = pUnk-&gt;QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
     
     if(FAILED(hr)){goto Cleanup;}
-    hr = pEnum->Next(1,&var,&nFetch);
+    hr = pEnum-&gt;Next(1,&amp;var,&amp;nFetch);
     
     while(hr == S_OK)
     {
         if(nFetch==1)
         {
-            if(VT_DISPATCH != V_VT(&var))
+            if(VT_DISPATCH != V_VT(&amp;var))
             {
                 goto Cleanup;
             }
             
-            pDisp = V_DISPATCH(&var);
-            hr = pDisp->QueryInterface(IID_IADsAccessControlEntry,(void**)&pACE);
+            pDisp = V_DISPATCH(&amp;var);
+            hr = pDisp-&gt;QueryInterface(IID_IADsAccessControlEntry,(void**)&amp;pACE);
             
             if(SUCCEEDED(hr))
             {
                 lpszMask = L"Trustee: %s";
-                hr = pACE->get_Trustee(&bstrValue);
+                hr = pACE-&gt;get_Trustee(&amp;bstrValue);
                 nLength = wcslen(lpszMask) + wcslen(bstrValue) + 1;
                 lpszOutput = new WCHAR[nLength];
                 swprintf_s(lpszOutput,lpszMask,bstrValue);
@@ -315,29 +323,29 @@ HRESULT DisplayAccessInfo(IADsSecurityDescriptor *pSD)
                 delete [] lpszOutput;
                 SysFreeString(bstrValue);
                 
-                pACE->Release();
+                pACE-&gt;Release();
                 pACE = NULL;
-                pDisp->Release();
+                pDisp-&gt;Release();
                 pDisp = NULL;
             }       
             
-            VariantClear(&var);
+            VariantClear(&amp;var);
         }       
-        hr = pEnum->Next(1,&var,&nFetch);
+        hr = pEnum-&gt;Next(1,&amp;var,&amp;nFetch);
     }
     
 Cleanup:
-    if(pDisp) pDisp->Release();
-    if(pACL) pACL->Release();
-    if(pACE) pACE->Release();
-    if(pEnum) pEnum->Release();
-    if(pUnk) pUnk->Release();
+    if(pDisp) pDisp-&gt;Release();
+    if(pACL) pACL-&gt;Release();
+    if(pACE) pACE-&gt;Release();
+    if(pEnum) pEnum-&gt;Release();
+    if(pUnk) pUnk-&gt;Release();
     if(szValue) SysFreeString(szValue);
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -354,7 +362,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

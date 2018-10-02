@@ -4,10 +4,10 @@ title: IShellFolderView::RemoveObject
 author: windows-sdk-content
 description: RemoveObject may be altered or unavailable.
 old-location: shell\IShellFolderView_RemoveObject.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5e96040b-5b6a-4323-a5c4-f30e534ed15a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderView interface [Windows Shell],RemoveObject method, IShellFolderView.RemoveObject, IShellFolderView::RemoveObject, RemoveObject, RemoveObject method [Windows Shell], RemoveObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_RemoveObject, shell.IShellFolderView_RemoveObject, shlobj_core/IShellFolderView::RemoveObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

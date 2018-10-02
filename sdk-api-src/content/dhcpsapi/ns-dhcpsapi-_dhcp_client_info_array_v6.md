@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_client_info_array_v6.htm
 tech.root: DHCP
 ms.assetid: b4abeb39-18db-4a45-85ec-a7fe4042e75f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_V6, DHCP_CLIENT_INFO_ARRAY_V6, DHCP_CLIENT_INFO_ARRAY_V6 structure [DHCP], PDHCP_CLIENT_INFO_ARRAY_V6, PDHCP_CLIENT_INFO_ARRAY_V6 structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY_V6, dhcp.dhcp_client_info_array_v6, dhcpsapi/DHCP_CLIENT_INFO_ARRAY_V6, dhcpsapi/PDHCP_CLIENT_INFO_ARRAY_V6"
 ms.prod: windows
 ms.technology: windows-sdk

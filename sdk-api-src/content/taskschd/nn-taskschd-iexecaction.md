@@ -4,10 +4,10 @@ title: IExecAction
 author: windows-sdk-content
 description: Represents an action that executes a command-line operation.
 old-location: taskschd\iexecaction.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 46a4cd60-df23-4109-8a86-b7755a6922dd
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IExecAction, IExecAction interface [Task Scheduler], IExecAction interface [Task Scheduler],described, execute action [Task Scheduler],interface, taskschd.iexecaction, taskschd/IExecAction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

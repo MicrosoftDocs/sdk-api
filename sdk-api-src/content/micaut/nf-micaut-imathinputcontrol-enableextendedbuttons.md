@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_enableextendedbuttons.htm
 tech.root: tablet
 ms.assetid: e8cdae54-ff0b-4361-bd38-1b99137736ab
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: EnableExtendedButtons, EnableExtendedButtons method [Tablet PC], EnableExtendedButtons method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableExtendedButtons method, IMathInputControl.EnableExtendedButtons, IMathInputControl::EnableExtendedButtons, micaut/IMathInputControl::EnableExtendedButtons, tablet.imathinputcontrol_enableextendedbuttons
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,23 +84,27 @@ The following image shows the Math Input Control with extended buttons enabled.
 
 
 
-<img alt="Math input control with extended buttons enabled" src="./images/MIC.png"/>
+<img alt="Math input control with extended buttons enabled" src="images/MIC.png"/>
 The following image shows the Math Input Control with extended buttons disabled.
 
 
 
-<img alt="Math input control with extended buttons disabled" src="./images/MIC_no_extended.png"/>
+<img alt="Math input control with extended buttons disabled" src="images/MIC_no_extended.png"/>
 
 #### Examples
 
-
-```
-
-    hr = g_spMIC->EnableExtendedButtons(VARIANT_TRUE);
-  
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+    hr = g_spMIC-&gt;EnableExtendedButtons(VARIANT_TRUE);
+  </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

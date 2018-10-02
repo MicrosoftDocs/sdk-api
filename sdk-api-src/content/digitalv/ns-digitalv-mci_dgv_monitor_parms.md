@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_monitor_parms.htm
 tech.root: Multimedia
 ms.assetid: 606a86fc-fede-43ea-84b2-386f23ca45b1
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPMCI_DGV_MONITOR_PARMS, MCI_DGV_METHOD_DIRECT, MCI_DGV_METHOD_POST, MCI_DGV_METHOD_PRE, MCI_DGV_MONITOR_FILE, MCI_DGV_MONITOR_INPUT, MCI_DGV_MONITOR_PARMS, MCI_DGV_MONITOR_PARMS structure [Windows Multimedia], _win32_MCI_DGV_MONITOR_PARMS_str, digitalv/MCI_DGV_MONITOR_PARMS, multimedia.mci_dgv_monitor_parms"
 ms.prod: windows
 ms.technology: windows-sdk

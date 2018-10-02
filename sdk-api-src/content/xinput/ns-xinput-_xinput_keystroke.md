@@ -7,7 +7,7 @@ old-location: xinput\xinput_keystroke.htm
 tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_KEYSTROKE
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE structure pointer [XInput Game Controller APIs], XINPUT_KEYSTROKE, XINPUT_KEYSTROKE structure [XInput Game Controller APIs], _XINPUT_KEYSTROKE, xinput.xinput_keystroke, xinput/PXINPUT_KEYSTROKE, xinput/XINPUT_KEYSTROKE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies keystroke data returned by <a href="https://msdn.microsoft.com/en-us/library/Ee419266(v=VS.85).aspx">XInputGetKeystroke</a>.
+Specifies keystroke data returned by <a href="https://msdn.microsoft.com/689FE4E9-5726-43B2-B516-049DF2CD28DE">XInputGetKeystroke</a>.
 
 
 ## -struct-fields
@@ -271,7 +271,7 @@ The valid virtual-key (VK_xxx) codes are defined in XInput.h. In addition to cod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419266(v=VS.85).aspx">XInputGetKeystroke</a>
+<a href="https://msdn.microsoft.com/689FE4E9-5726-43B2-B516-049DF2CD28DE">XInputGetKeystroke</a>
  
 
  

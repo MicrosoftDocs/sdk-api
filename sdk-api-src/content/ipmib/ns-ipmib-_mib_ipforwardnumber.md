@@ -7,7 +7,7 @@ old-location: mib\mib_ipforwardnumber.htm
 tech.root: MIB
 ms.assetid: 71508d8e-3265-4c08-913c-248af2d8bbd6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER structure [MIB], PMIB_IPFORWARDNUMBER, PMIB_IPFORWARDNUMBER structure pointer [MIB], _MIB_IPFORWARDNUMBER, _mpr_mib_ipforwardnumber, ipmib/MIB_IPFORWARDNUMBER, ipmib/PMIB_IPFORWARDNUMBER, iprtrmib/MIB_IPFORWARDNUMBER, iprtrmib/PMIB_IPFORWARDNUMBER, mib.mib_ipforwardnumber, rras.mib_ipforwardnumber"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365953(v=VS.85).aspx">GetIpForwardTable</a>
+<a href="_iphlp_getipforwardtable">GetIpForwardTable</a>
 
 
 

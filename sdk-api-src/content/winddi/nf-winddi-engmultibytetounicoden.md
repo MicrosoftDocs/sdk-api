@@ -4,10 +4,10 @@ title: EngMultiByteToUnicodeN function
 author: windows-sdk-content
 description: The EngMultiByteToUnicodeN function converts the specified ANSI source string into a Unicode string using the current ANSI code page.
 old-location: display\engmultibytetounicoden.htm
-tech.root: display
+tech.root: Display
 ms.assetid: fa7a4e64-46be-49c8-9862-04348b9dc79e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngMultiByteToUnicodeN, EngMultiByteToUnicodeN function [Display Devices], display.engmultibytetounicoden, gdifncs_ad2cf58d-ac6c-438f-b9be-74e2617a857c.xml, winddi/EngMultiByteToUnicodeN
 ms.prod: windows-hardware
 ms.technology: windows-devices

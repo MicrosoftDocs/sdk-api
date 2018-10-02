@@ -7,7 +7,7 @@ old-location: security\certfreecertificatecontext.htm
 tech.root: seccrypto
 ms.assetid: 7d2f3237-3f8b-4234-b6db-3057384cd89b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CertFreeCertificateContext, CertFreeCertificateContext function [Security], _crypto2_certfreecertificatecontext, security.certfreecertificatecontext, wincrypt/CertFreeCertificateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ The function always returns nonzero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

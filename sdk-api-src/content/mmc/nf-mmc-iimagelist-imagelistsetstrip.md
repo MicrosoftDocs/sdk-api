@@ -4,10 +4,10 @@ title: IImageList::ImageListSetStrip
 author: windows-sdk-content
 description: The IImageList::ImageListSetStrip method enables a user to add a strip of icons to the image list using a pair of bitmaps (large and small icons), starting at a location identified by nStartLoc.
 old-location: mmc\iimagelist_imagelistsetstrip.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: b736a5ab-86a7-4c8d-82b7-bbe9f98bc402
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: IImageList interface [MMC],ImageListSetStrip method, IImageList.ImageListSetStrip, IImageList::ImageListSetStrip, ImageListSetStrip, ImageListSetStrip method [MMC], ImageListSetStrip method [MMC],IImageList interface, _slate_iimagelist_imagelistsetstrip, mmc.iimagelist_imagelistsetstrip, mmc/IImageList::ImageListSetStrip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_callerid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7p9g.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],CallerId property, IFaxJobStatus.CallerId, IFaxJobStatus.get_CallerId, IFaxJobStatus::CallerId, IFaxJobStatus::get_CallerId, _mfax_faxjobstatus.callerid, fax._mfax_faxjobstatus_callerid, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_callerid_cpp, faxcomex/IFaxJobStatus::CallerId, faxcomex/IFaxJobStatus::get_CallerId, get_CallerId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685964(v=VS.85).aspx">FaxJobStatus</a>
+<a href="https://msdn.microsoft.com/b4e2dc9e-6a32-4fc7-94fc-2132dedcec9e">FaxJobStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685966(v=VS.85).aspx">IFaxJobStatus</a>
+<a href="https://msdn.microsoft.com/38527d34-feab-4fae-90c6-45ff9bcfd15c">IFaxJobStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693013(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/3a9f42fa-383a-4072-92a6-b59f7940ab04">Visual Basic Example</a>
  
 
  

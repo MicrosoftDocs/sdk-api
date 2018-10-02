@@ -7,7 +7,7 @@ old-location: winsync\sync_statistics.htm
 tech.root: winsync
 ms.assetid: 8a978578-0169-4784-bdcf-ff41f0a09f7a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SYNC_STATISTICS, SYNC_STATISTICS enumeration [Windows Sync], SYNC_STATISTICS_RANGE_COUNT, __MIDL___MIDL_itf_winsync_0000_0000_0006, winsync.sync_statistics, winsync/SYNC_STATISTICS, winsync/SYNC_STATISTICS_RANGE_COUNT
 ms.prod: windows
 ms.technology: windows-sdk

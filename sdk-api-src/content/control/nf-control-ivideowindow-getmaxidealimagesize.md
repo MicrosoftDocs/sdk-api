@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_getmaxidealimagesize.htm
 tech.root: DirectShow
 ms.assetid: ee9f6803-c8b8-48e0-9be0-3d61a453014e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetMaxIdealImageSize, GetMaxIdealImageSize method [DirectShow], GetMaxIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMaxIdealImageSize method, IVideoWindow.GetMaxIdealImageSize, IVideoWindow::GetMaxIdealImageSize, IVideoWindowGetMaxIdealImageSize, control/IVideoWindow::GetMaxIdealImageSize, dshow.ivideowindow_getmaxidealimagesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,9 +144,9 @@ The maximum ideal size may differ from the native video size, because the video 
 This method returns S_FALSE under various circumstances:
 
 <ul>
-<li>The filter is using an <a href="https://msdn.microsoft.com/en-us/library/Dd390357(v=VS.85).aspx">IOverlay</a> transport.</li>
-<li>UseWhenFullScreen mode is on. (See <a href="https://msdn.microsoft.com/en-us/library/Dd406831(v=VS.85).aspx">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
-<li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://msdn.microsoft.com/en-us/library/Dd406819(v=VS.85).aspx">IDirectDrawVideo::GetCaps</a>.)</li>
+<li>The filter is using an <a href="https://msdn.microsoft.com/2d49888a-7046-4779-9634-d181fa582584">IOverlay</a> transport.</li>
+<li>UseWhenFullScreen mode is on. (See <a href="https://msdn.microsoft.com/e50f7f06-6534-4373-a2b8-fa315158729d">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
+<li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://msdn.microsoft.com/d63437e3-4e8a-49de-b555-db29d235569d">IDirectDrawVideo::GetCaps</a>.)</li>
 </ul>
 
 
@@ -156,15 +156,15 @@ This method returns S_FALSE under various circumstances:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377284(v=VS.85).aspx">IVideoWindow::GetMinIdealImageSize</a>
+<a href="https://msdn.microsoft.com/b2d1d267-008d-402a-864a-e801e7581fbd">IVideoWindow::GetMinIdealImageSize</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualbrush.htm
 tech.root: printdocs
 ms.assetid: 56c11e64-64a8-4c42-9547-4f1fcdc13a4b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and Packaging], IXpsOMVisualBrush interface [XPS Documents and Packaging],described, xps.ixpsomvisualbrush, xpsobjectmodel/IXpsOMVisualBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,9 +131,13 @@ Sets the lookup key name of the shared visual, which is stored in a resource dic
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMVisualBrush        *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -144,27 +148,27 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateVisualBrush (
-        &viewBox,
-        &viewPort,
-        &newInterface);
+    hr = xpsFactory-&gt;CreateVisualBrush (
+        &amp;viewBox,
+        &amp;viewPort,
+        &amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // assign visual using one of the following:
-        newInterface->SetVisualLocal (localVisual);
+        newInterface-&gt;SetVisualLocal (localVisual);
         // or
-        newInterface->SetVisualLookup (visualLookupKey);
+        newInterface-&gt;SetVisualLookup (visualLookupKey);
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
@@ -172,13 +176,13 @@ else
 }
 // use newInterface
 
-newInterface->Release();
-xpsFactory->Release();
+newInterface-&gt;Release();
+xpsFactory-&gt;Release();
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

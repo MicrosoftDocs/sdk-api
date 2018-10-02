@@ -4,10 +4,10 @@ title: ITPhone::get_ButtonState
 author: windows-sdk-content
 description: The get_ButtonState method retrieves the button state associated with a particular button.
 old-location: tapi3\itphone_get_buttonstate.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: f14e0593-0f03-4119-b80a-12d32b68aa99
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonState method, ITPhone.get_ButtonState, ITPhone::get_ButtonState, _tapi3_itphone_get_buttonstate, get_ButtonState, get_ButtonState method [TAPI 2.2], get_ButtonState method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonstate, tapi3if/ITPhone::get_ButtonState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFASFIndexer::SetIndexStatus
 author: windows-sdk-content
 description: Configures the index for a stream.
 old-location: mf\imfasfindexer_setindexstatus.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: bad10893-07af-4b46-bab1-2878553813b5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexStatus method, IMFASFIndexer.SetIndexStatus, IMFASFIndexer::SetIndexStatus, SetIndexStatus, SetIndexStatus method [Media Foundation], SetIndexStatus method [Media Foundation],IMFASFIndexer interface, bad10893-07af-4b46-bab1-2878553813b5, mf.imfasfindexer_setindexstatus, wmcontainer/IMFASFIndexer::SetIndexStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

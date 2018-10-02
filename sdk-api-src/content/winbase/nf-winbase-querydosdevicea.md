@@ -7,7 +7,7 @@ old-location: fs\querydosdevice.htm
 tech.root: fileio
 ms.assetid: ff25bc2b-dde6-40c3-a270-372daab2e5c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: QueryDosDevice, QueryDosDevice function [Files], QueryDosDeviceA, QueryDosDeviceW, _win32_querydosdevice, base.querydosdevice, fileapi/QueryDosDevice, fileapi/QueryDosDeviceA, fileapi/QueryDosDeviceW, fs.querydosdevice, winbase/QueryDosDevice, winbase/QueryDosDeviceA, winbase/QueryDosDeviceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

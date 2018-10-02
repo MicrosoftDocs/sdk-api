@@ -7,7 +7,7 @@ old-location: iphlp\icmp6createfile.htm
 tech.root: IpHlp
 ms.assetid: 2ddb23d8-a4e6-47c4-a552-2815ccaf055f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Icmp6CreateFile, Icmp6CreateFile function [IP Helper], icmpapi/Icmp6CreateFile, iphlp.icmp6createfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,12 +90,16 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 The following example opens a handle on which IPv6 ICMP echo requests can be issued. 
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <iphlpapi.h>
-#include <icmpapi.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;icmpapi.h&gt;
 #pragma comment(lib, "IPHLPAPI.lib")
 
 void main()
@@ -110,10 +114,10 @@ void main()
     else
       printf("\tHandle created.\n");
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

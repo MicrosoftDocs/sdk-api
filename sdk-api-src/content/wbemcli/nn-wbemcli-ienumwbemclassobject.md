@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject.htm
 tech.root: WmiSdk
 ms.assetid: 142ea48d-d47b-4b7b-ab84-049a54955488
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], IEnumWbemClassObject interface [Windows Management Instrumentation],described, _hmm_ienumwbemclassobject, wbemcli/IEnumWbemClassObject, wmi.ienumwbemclassobject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 The 
-<b>IEnumWbemClassObject</b> interface is used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa390793(v=VS.85).aspx">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
+<b>IEnumWbemClassObject</b> interface is used to enumerate <a href="gloss_c.htm">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
 
 An object of type 
 <b>IEnumWbemClassObject</b> is received from calls to the following methods:
@@ -150,9 +150,13 @@ Causes the enumeration to skip ahead so that future calls to the
 
 The following C++ code sample describes how to retrieve an <b>IEnumWbemClassObject</b>.
 
-
-```cpp
-void ExecQuerySync(IWbemServices *pSvc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void ExecQuerySync(IWbemServices *pSvc)
 {
     // Query for all users and groups.
 
@@ -163,12 +167,12 @@ void ExecQuerySync(IWbemServices *pSvc)
     IEnumWbemClassObject *pEnum = 0;
 
     // Issue the query.
-    HRESULT hRes = pSvc->ExecQuery(
+    HRESULT hRes = pSvc-&gt;ExecQuery(
         Language,
         Query,
         WBEM_FLAG_FORWARD_ONLY,         // Flags
         0,                              // Context
-        &pEnum
+        &amp;pEnum
         );
 
     SysFreeString(Query);
@@ -188,11 +192,11 @@ void ExecQuerySync(IWbemServices *pSvc)
         IWbemClassObject *pObj = 0;
         ULONG uReturned = 0;
 
-        hRes = pEnum->Next(
+        hRes = pEnum-&gt;Next(
             0,                  // Time out
             1,                  // One object
-            &pObj,
-            &uReturned
+            &amp;pObj,
+            &amp;uReturned
             );
 
         uTotal += uReturned;
@@ -207,16 +211,16 @@ void ExecQuerySync(IWbemServices *pSvc)
         // Release it.
         // ===========
         
-        pObj->Release();    // Release objects not owned.            
+        pObj-&gt;Release();    // Release objects not owned.            
     }
 
     // All done.
-    pEnum->Release();
+    pEnum-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

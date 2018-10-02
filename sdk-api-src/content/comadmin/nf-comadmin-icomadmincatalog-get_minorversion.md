@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_minorversion.htm
 tech.root: cossdk
 ms.assetid: 25053a37-f44a-4e30-97b2-081b840c4448
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MinorVersion property, ICOMAdminCatalog.MinorVersion, ICOMAdminCatalog.get_MinorVersion, ICOMAdminCatalog::MinorVersion, ICOMAdminCatalog::get_MinorVersion, MinorVersion property [COM+], MinorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MinorVersion, comadmin/ICOMAdminCatalog::MinorVersion, comadmin/ICOMAdminCatalog::get_MinorVersion, cos.icomadmincatalog_minorversion, get_MinorVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

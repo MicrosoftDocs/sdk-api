@@ -4,10 +4,10 @@ title: IInputObject2
 author: windows-sdk-content
 description: Exposes a method that extends IInputObject by handling global accelerators.
 old-location: shell\IInputObject2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 76d8672c-ea19-4d61-b6b5-e6c3951ec710
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IInputObject2, IInputObject2 interface [Windows Shell], IInputObject2 interface [Windows Shell],described, _shell_IInputObject2, shell.IInputObject2, shobjidl_core/IInputObject2
 ms.prod: windows
 ms.technology: windows-sdk

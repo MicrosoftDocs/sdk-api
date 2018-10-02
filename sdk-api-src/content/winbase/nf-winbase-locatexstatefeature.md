@@ -4,10 +4,10 @@ title: LocateXStateFeature function
 author: windows-sdk-content
 description: Retrieves a pointer to the processor state for an XState feature within a CONTEXT structure.
 old-location: base\locatexstatefeature.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 7AAEA13B-E4A4-4410-BFC7-09B81B92FF26
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices

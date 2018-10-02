@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_beginread.htm
 tech.root: WMDM
 ms.assetid: e72caaac-8992-4f11-8020-0455b3d730ad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BeginRead, BeginRead method [windows Media Device Manager], BeginRead method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginRead method, IWMDMOperation.BeginRead, IWMDMOperation::BeginRead, IWMDMOperationBeginRead, mswmdm/IWMDMOperation::BeginRead, wmdm.iwmdmoperation_beginread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,9 +125,13 @@ This method is called just before the Windows Media Device Manager calls <a href
 
 The following C++ code example implements the <b>BeginRead</b> method and outputs a message when a read-from-device action is beginning.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT BeginRead()
 {
     // TODO: Display the message: "IWMDMOperation event--BeginRead."
@@ -141,10 +145,10 @@ HRESULT BeginRead()
     m_OperationStatus = OPERATION_READ;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

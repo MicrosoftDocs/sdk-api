@@ -4,10 +4,10 @@ title: PDD_VPORTCB_CANCREATEVIDEOPORT
 author: windows-sdk-content
 description: The DdVideoPortCanCreate callback function determines whether the driver can support a DirectDraw VPE object of the specified description.
 old-location: display\ddvideoportcancreate.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 742c7af2-0611-4cca-b18c-e14b18068d7e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: DdVideoPortCanCreate, DdVideoPortCanCreate callback function [Display Devices], PDD_VPORTCB_CANCREATEVIDEOPORT, PDD_VPORTCB_CANCREATEVIDEOPORT callback, ddfncs_dfe3285f-627c-4f0d-b7e7-ffd87d88fe46.xml, ddrawint/DdVideoPortCanCreate, display.ddvideoportcancreate
 ms.prod: windows
 ms.technology: windows-sdk

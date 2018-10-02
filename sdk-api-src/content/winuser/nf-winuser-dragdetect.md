@@ -7,7 +7,7 @@ old-location: inputdev\dragdetect.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\dragdetect.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DragDetect, DragDetect function [Keyboard and Mouse Input], _win32_DragDetect, _win32_dragdetect_cpp, inputdev.dragdetect, winui._win32_dragdetect, winuser/DragDetect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ The system metrics for the drag rectangle are configurable, allowing for larger 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 

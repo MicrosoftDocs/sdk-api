@@ -4,10 +4,10 @@ title: IAzBizRuleParameters::GetParameterValue
 author: windows-sdk-content
 description: Gets the value type of the business rule (BizRule) parameter with the specified name.
 old-location: security\iazbizruleparameters_getparametervalue_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 210dc872-0879-4b4f-bdc3-cbb2208dafbe
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetParameterValue, GetParameterValue method [Security], GetParameterValue method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],GetParameterValue method, IAzBizRuleParameters.GetParameterValue, IAzBizRuleParameters::GetParameterValue, azroles/IAzBizRuleParameters::GetParameterValue, security.iazbizruleparameters_getparametervalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

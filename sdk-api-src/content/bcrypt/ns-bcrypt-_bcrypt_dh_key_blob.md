@@ -7,7 +7,7 @@ old-location: security\bcrypt_dh_key_blob.htm
 tech.root: SecCNG
 ms.assetid: 6004b2e5-7e06-4108-a0da-472b9b6d5fea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PBCRYPT_DH_KEY_BLOB, BCRYPT_DH_KEY_BLOB, BCRYPT_DH_KEY_BLOB structure [Security], BCRYPT_DH_PRIVATE_MAGIC, BCRYPT_DH_PUBLIC_MAGIC, PBCRYPT_DH_KEY_BLOB, PBCRYPT_DH_KEY_BLOB structure pointer [Security], _BCRYPT_DH_KEY_BLOB, bcrypt/BCRYPT_DH_KEY_BLOB, bcrypt/PBCRYPT_DH_KEY_BLOB, security.bcrypt_dh_key_blob"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>BCRYPT_DH_KEY_BLOB</b> structure is used as a header for a Diffie-Hellman <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> in memory.
+The <b>BCRYPT_DH_KEY_BLOB</b> structure is used as a header for a Diffie-Hellman <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> in memory.
 
 
 ## -struct-fields

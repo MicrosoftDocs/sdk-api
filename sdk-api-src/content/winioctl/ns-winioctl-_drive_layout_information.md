@@ -7,7 +7,7 @@ old-location: fs\drive_layout_information_str.htm
 tech.root: fileio
 ms.assetid: e67ccaa7-a735-4695-8385-28f57b41821c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION structure [Files], PDRIVE_LAYOUT_INFORMATION, PDRIVE_LAYOUT_INFORMATION structure pointer [Files], _DRIVE_LAYOUT_INFORMATION, _win32_drive_layout_information_str, base.drive_layout_information_str, fs.drive_layout_information_str, winioctl/DRIVE_LAYOUT_INFORMATION, winioctl/PDRIVE_LAYOUT_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

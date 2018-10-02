@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_query.htm
 tech.root: VSS
 ms.assetid: 3f79bf84-c7b9-4291-ae3b-7061fe3199e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssBackupComponents interface [VSS],Query method, IVssBackupComponents.Query, IVssBackupComponents::Query, Query, Query method [VSS], Query method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_query, base.ivssbackupcomponents_query, vsbackup/IVssBackupComponents::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices

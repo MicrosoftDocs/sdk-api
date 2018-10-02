@@ -7,7 +7,7 @@ old-location: fs\movetontmsmediapool.htm
 tech.root: Rsm
 ms.assetid: 6bc11877-6657-4e8b-8239-bb2720cfb256
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MoveToNtmsMediaPool, MoveToNtmsMediaPool function [Files], _zaw_movetontmsmediapool, base.movetontmsmediapool, fs.movetontmsmediapool, ntmsapi/MoveToNtmsMediaPool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -246,7 +246,7 @@ A medium having a partition in the Completed, Allocated, or Reserved state may n
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

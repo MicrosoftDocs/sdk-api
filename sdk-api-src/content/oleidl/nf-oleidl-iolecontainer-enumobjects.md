@@ -7,7 +7,7 @@ old-location: com\iolecontainer_enumobjects.htm
 tech.root: com
 ms.assetid: 7d825c71-506c-4fd3-ab48-6006f2858d05
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: EnumObjects, EnumObjects method [COM], EnumObjects method [COM],IOleContainer interface, IOleContainer interface [COM],EnumObjects method, IOleContainer.EnumObjects, IOleContainer::EnumObjects, _ole_iolecontainer_enumobjects, com.iolecontainer_enumobjects, oleidl/IOleContainer::EnumObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

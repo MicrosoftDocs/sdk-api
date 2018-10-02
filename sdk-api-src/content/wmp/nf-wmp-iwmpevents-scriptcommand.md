@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__scriptcommand.htm
 tech.root: WMP
 ms.assetid: 1010961f-6d06-455a-9c14-bc06702e9e89
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],ScriptCommand method, IWMPEvents.ScriptCommand, IWMPEvents::ScriptCommand, IWMPEventsScriptCommand, ScriptCommand, ScriptCommand method [Windows Media Player], ScriptCommand method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__scriptcommand, wmp/IWMPEvents::ScriptCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,16 +149,20 @@ The Windows Media Player control always processes incoming URL commands in the f
 </ol>
 When authoring a Windows Media file, you can specify which frame the new URL is displayed in by concatenating two ampersand (&amp;) characters and the name of the frame in the parameter field. The following example specifies that the URL http://myweb/mypage.html must be launched in the frame called myframe.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 scType = "URL"
-Param = http://myweb/mypage.html&&myframe
+Param = http://myweb/mypage.html&amp;&amp;myframe
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

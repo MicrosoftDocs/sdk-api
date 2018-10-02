@@ -7,7 +7,7 @@ old-location: iphlp\getownermodulefromudp6entry.htm
 tech.root: IpHlp
 ms.assetid: 01ed27b6-3ca6-4c9c-8910-a71a073c2ca2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetOwnerModuleFromUdp6Entry, GetOwnerModuleFromUdp6Entry function [IP Helper], iphlp.getownermodulefromudp6entry, iphlpapi/GetOwnerModuleFromUdp6Entry
 ms.prod: windows-hardware
 ms.technology: windows-devices

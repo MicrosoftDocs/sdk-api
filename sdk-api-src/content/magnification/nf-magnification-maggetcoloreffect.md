@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagGetColorEffect.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetcoloreffect.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MagGetColorEffect, MagGetColorEffect function [Magnification API], magapi.magapi_MagGetColorEffect, magapi_MagGetColorEffect, magnification/MagGetColorEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The magnification window.
 
 ### -param pEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692383(v=VS.85).aspx">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/eb7c283a-ea55-4e7c-8fd1-f106837ecc34">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or <b>NULL</b> if no color effect has been set.
 
@@ -96,9 +96,13 @@ This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
 The following example retrieves the color transformation matrix.
 
-
-```cpp
-// Description:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Description:
 //   Retrieves the color transformation matrix from a magnifier control.
 // Parameters:
 //   hwndMag - handle of the magnifier control.
@@ -107,7 +111,7 @@ BOOL GetMagnifierColorTransform(HWND hwndMag)
 {
     MAGCOLOREFFECT effect;
 
-    BOOL ret = MagGetColorEffect(hwndMag, &effect);
+    BOOL ret = MagGetColorEffect(hwndMag, &amp;effect);
 
     //
     // Do something with the color data.
@@ -115,10 +119,10 @@ BOOL GetMagnifierColorTransform(HWND hwndMag)
 
     return ret;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -127,7 +131,7 @@ BOOL GetMagnifierColorTransform(HWND hwndMag)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692394(v=VS.85).aspx">MagSetColorEffect</a>
+<a href="https://msdn.microsoft.com/53749109-5370-45e7-ba90-79ad1504c41e">MagSetColorEffect</a>
  
 
  

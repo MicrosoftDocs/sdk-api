@@ -4,10 +4,10 @@ title: INetFwPolicy2::put_BlockAllInboundTraffic
 author: windows-sdk-content
 description: Indicates whether the firewall should not allow inbound traffic.
 old-location: ics\inetfwpolicy2_exceptionsnotallowed.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: c40e58fd-b372-4d94-bcf1-bad1e84321f7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: BlockAllInboundTraffic property [ICS/ICF], BlockAllInboundTraffic property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],BlockAllInboundTraffic property, INetFwPolicy2.BlockAllInboundTraffic, INetFwPolicy2.put_BlockAllInboundTraffic, INetFwPolicy2::BlockAllInboundTraffic, INetFwPolicy2::get_BlockAllInboundTraffic, INetFwPolicy2::put_BlockAllInboundTraffic, ics.inetfwpolicy2_exceptionsnotallowed, netfw/INetFwPolicy2::BlockAllInboundTraffic, netfw/INetFwPolicy2::get_BlockAllInboundTraffic, netfw/INetFwPolicy2::put_BlockAllInboundTraffic, put_BlockAllInboundTraffic
 ms.prod: windows-hardware
 ms.technology: windows-devices

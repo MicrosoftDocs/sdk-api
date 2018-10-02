@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GenericTypographic_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\generictypographic.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GenericTypographic, GenericTypographic method [GDI+], GenericTypographic method [GDI+],StringFormat class, StringFormat class [GDI+],GenericTypographic method, StringFormat.GenericTypographic, StringFormat::GenericTypographic, _gdiplus_CLASS_StringFormat_GenericTypographic_, gdiplus._gdiplus_CLASS_StringFormat_GenericTypographic_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::GenericTypographic</b> method creates a generic, typographic 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+			<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object.
 
 
 ## -parameters
@@ -66,11 +66,11 @@ The <b>StringFormat::GenericTypographic</b> method creates a generic, typographi
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object.
 
 
 
@@ -80,7 +80,7 @@ This method returns a pointer to the new
 
 
 A generic, typographic 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object has the following characteristics: 
+				<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object has the following characteristics: 
 
 <ul>
 <li>String format flags StringFormatFlagsLineLimit, StringFormatFlagsNoClip, and StringFormatFlagsNoFitBlackBox are set. </li>
@@ -97,16 +97,20 @@ A generic, typographic
 
 
 The following example creates a generic, typographic 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object and then uses it to draw a formatted string. The code also draws the string's layout rectangle.
+						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object and then uses it to draw a formatted string. The code also draws the string's layout rectangle.
 
-
-```cpp
-VOID Example_GenericTypographic(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GenericTypographic(HDC hdc)
 {
    Graphics graphics(hdc);
    SolidBrush  solidBrush(Color(255, 255, 0, 0)); 
    FontFamily  fontFamily(L"Times New Roman");
-   Font        font(&fontFamily, 12, FontStyleRegular, UnitPoint);
+   Font        font(&amp;fontFamily, 12, FontStyleRegular, UnitPoint);
    
    // Create a generic typographic StringFormat object.
    const StringFormat* pStringFormat = StringFormat::GenericTypographic();
@@ -115,17 +119,17 @@ VOID Example_GenericTypographic(HDC hdc)
   graphics.DrawString(
       L"Formatted by a generic typographic StringFormat object", 
       54,  // string length
-      &font, 
+      &amp;font, 
       RectF(30, 30, 100, 120), 
       pStringFormat, 
-      &solidBrush);
+      &amp;solidBrush);
    // Draw the rectangle that encloses the text.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawRectangle(&pen, 30, 30, 100, 120);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;pen, 30, 30, 100, 120);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -134,11 +138,11 @@ VOID Example_GenericTypographic(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a>
+<a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a>
 
 
 
@@ -146,27 +150,27 @@ VOID Example_GenericTypographic(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534177(v=VS.85).aspx">StringAlignment</a>
+<a href="https://msdn.microsoft.com/d395f6b4-8d8a-41b1-9c49-6fc2f005ca5d">StringAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
+<a href="https://msdn.microsoft.com/b61e9a88-2b00-43f5-bc8d-1d6b4d6ecb19">StringDigitSubstitute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlags</a>
+<a href="https://msdn.microsoft.com/9bbddab0-46b1-49db-86c1-cf9086692958">StringFormatFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534403(v=VS.85).aspx">StringTrimming</a>
+<a href="https://msdn.microsoft.com/8ecaabac-dfc6-47ca-91e3-9f577be77b5f">StringTrimming</a>
  
 
  

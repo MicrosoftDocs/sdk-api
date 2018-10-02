@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_putinstanceasync.htm
 tech.root: WmiSdk
 ms.assetid: fef3eb72-74ba-49cd-b992-292405d29917
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutInstanceAsync method, IWbemServices.PutInstanceAsync, IWbemServices::PutInstanceAsync, PutInstanceAsync, PutInstanceAsync method [Windows Management Instrumentation], PutInstanceAsync method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putinstanceasync, wbemcli/IWbemServices::PutInstanceAsync, wmi.iwbemservices_putinstanceasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -264,9 +264,13 @@ Even in catastrophic cases, you must release the references for decoupled provid
 The following example describes how to structure 
      <b>PutInstanceAsync</b>.
 
-
-```cpp
-HRESULT CStdProvider::PutInstanceAsync( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CStdProvider::PutInstanceAsync( 
             /* [in] */ IWbemClassObject __RPC_FAR *pInst,
             /* [in] */ long lFlags,
             /* [in] */ IWbemContext __RPC_FAR *pCtx,
@@ -282,10 +286,10 @@ HRESULT CStdProvider::PutInstanceAsync(
    }
 
    return WBEM_E_PROVIDER_NOT_CAPABLE;   
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: TabCtrl_GetUnicodeFormat macro
 author: windows-sdk-content
 description: Retrieves the UNICODE character format flag for the control. You can use this macro or send the TCM_GETUNICODEFORMAT message explicitly.
 old-location: controls\TabCtrl_GetUnicodeFormat.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: TabCtrl_GetUnicodeFormat, TabCtrl_GetUnicodeFormat macro [Windows Controls], _win32_TabCtrl_GetUnicodeFormat, _win32_TabCtrl_GetUnicodeFormat_cpp, commctrl/TabCtrl_GetUnicodeFormat, controls.TabCtrl_GetUnicodeFormat, controls._win32_TabCtrl_GetUnicodeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the UNICODE character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760600(v=VS.85).aspx">TCM_GETUNICODEFORMAT</a> message explicitly. 
+Retrieves the UNICODE character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/720e0325-500b-436c-8713-38ed780735bf">TCM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760702(v=VS.85).aspx">TabCtrl_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/0ab36427-861d-491f-9933-636a4039ceaa">TabCtrl_SetUnicodeFormat</a>
  
 
  

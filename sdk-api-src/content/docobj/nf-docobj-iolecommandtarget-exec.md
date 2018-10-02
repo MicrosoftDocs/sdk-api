@@ -7,7 +7,7 @@ old-location: com\iolecommandtarget_exec.htm
 tech.root: com
 ms.assetid: a2071ca9-8675-4f53-b30e-8c7198c2acca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: Exec, Exec method [COM], Exec method [COM],IOleCommandTarget interface, IOleCommandTarget interface [COM],Exec method, IOleCommandTarget.Exec, IOleCommandTarget::Exec, _ole_iolecommandtarget_exec, com.iolecommandtarget_exec, docobj/IOleCommandTarget::Exec
 ms.prod: windows-hardware
 ms.technology: windows-devices

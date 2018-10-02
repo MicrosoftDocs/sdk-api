@@ -7,7 +7,7 @@ old-location: fs\readencryptedfileraw.htm
 tech.root: fileio
 ms.assetid: 15f6f617-969d-4a40-9038-b902a3c2518b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ReadEncryptedFileRaw, ReadEncryptedFileRaw function [Files], base.readencryptedfileraw, fs.readencryptedfileraw, winbase/ReadEncryptedFileRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\safergetlevelinformation.htm
 tech.root: SecMgmt
 ms.assetid: cbe73ebc-bf2c-4d39-a203-78ff1a407481
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SaferGetLevelInformation, SaferGetLevelInformation function [Security], SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, _mnp_safergetlevelinformation, security.safergetlevelinformation, winsafer/SaferGetLevelInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

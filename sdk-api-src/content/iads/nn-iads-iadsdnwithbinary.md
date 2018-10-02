@@ -7,7 +7,7 @@ old-location: adsi\iadsdnwithbinary.htm
 tech.root: ADSI
 ms.assetid: dd64f0bd-1211-4e6f-93b5-87c079999208
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DNWithBinary, IADsDNWithBinary, IADsDNWithBinary interface [ADSI], IADsDNWithBinary interface [ADSI],described, _ds_iadsdnwithbinary, adsi.iadsdnwithbinary, iads/IADsDNWithBinary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>IADsDNWithBinary</b> interface provides methods for an ADSI client to ass
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

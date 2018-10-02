@@ -4,10 +4,10 @@ title: IMFSourceBuffer::Remove
 author: windows-sdk-content
 description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
 old-location: mf\imfsourcebuffer_remove.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 86536d73-18c0-4acc-81ec-72f1dfe400c5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],Remove method, IMFSourceBuffer.Remove, IMFSourceBuffer::Remove, Remove, Remove method [Media Foundation], Remove method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_remove, mfmediaengine/IMFSourceBuffer::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

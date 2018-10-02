@@ -7,7 +7,7 @@ old-location: mstv\imsvidfeatures_get_item.htm
 tech.root: MSTV
 ms.assetid: f5656ba2-7ba6-44ba-bcab-3678fbd10b07
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get_Item method, IMSVidFeatures.get_Item, IMSVidFeatures::get_Item, IMSVidFeaturesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get_item, segment/IMSVidFeatures::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

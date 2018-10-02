@@ -4,10 +4,10 @@ title: PeerCollabSetObject function
 author: windows-sdk-content
 description: Creates or updates a peer data object used in a peer collaboration network.
 old-location: p2p\peercollabsetobject.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

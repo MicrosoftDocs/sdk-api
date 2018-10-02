@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfprovider_createrefresher.htm
 tech.root: WmiSdk
 ms.assetid: 5962f5f6-a121-4234-8dcd-24c0e2b53990
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CreateRefresher, CreateRefresher method [Windows Management Instrumentation], CreateRefresher method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefresher method, IWbemHiPerfProvider.CreateRefresher, IWbemHiPerfProvider::CreateRefresher, _hmm_iwbemhiperfprovider_createrefresher, wbemprov/IWbemHiPerfProvider::CreateRefresher, wmi.iwbemhiperfprovider_createrefresher
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
 
 
 ### -param lFlags [in]
@@ -103,9 +103,13 @@ When you release a refresher, the provider should clean up any refreshable objec
 The following code example describes how to implement 
 <b>CreateRefresher</b>.
 
-
-```cpp
-HRESULT CHiPerfProvider::CreateRefresher(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CHiPerfProvider::CreateRefresher(
   /* [in] */IWbemServices *pNamespace,
   /* [in] */ long lFlags,
   /* [out] */ IWbemRefresher** ppRefresher
@@ -117,18 +121,18 @@ HRESULT CHiPerfProvider::CreateRefresher(
 
     // Return the refresher to the ppRefresher
     // [out] parameter
-    /*return pMyRefresher->QueryInterface(
+    /*return pMyRefresher-&gt;QueryInterface(
      IID_IWbemRefresher, (void**) ppRefresher );*/
 }
 
 // Free memory resources.
 // For Example:
-//pNamespace->Release();
-//ppRefresher->Release();
-//delete[] pMyRefresher;
-```
-
-
+//pNamespace-&gt;Release();
+//ppRefresher-&gt;Release();
+//delete[] pMyRefresher;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

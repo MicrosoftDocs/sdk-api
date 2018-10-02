@@ -7,7 +7,7 @@ old-location: windowssetupandmigration\registerwaituntiloobecompleted.htm
 tech.root: WNF
 ms.assetid: D1581B09-06A7-483F-929D-1AF93832942D
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RegisterWaitUntilOOBECompleted, RegisterWaitUntilOOBECompleted function, oobenotification/RegisterWaitUntilOOBECompleted, windowssetupandmigration.registerwaituntiloobecompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

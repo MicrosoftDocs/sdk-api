@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createfastmetadataencoderfromfra
 tech.root: wic
 ms.assetid: 076cfd22-f744-4152-a1c0-1e0f17ac764d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CreateFastMetadataEncoderFromFrameDecode, CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component], CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateFastMetadataEncoderFromFrameDecode method, IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode, IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode, _wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode, wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode, wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,16 +94,20 @@ For a list of support metadata formats for fast metadata encoding, see <a href="
 
 The following code demonstrates how to use the <b>CreateFastMetadataEncoderFromFrameDecode</b> method for fast metadata encoding.
 
-
-```
-IWICFastMetadataEncoder *pFME = NULL;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IWICFastMetadataEncoder *pFME = NULL;
 IWICMetadataQueryWriter *pFMEQW = NULL;
 
-hr = pFactory->CreateFastMetadataEncoderFromFrameDecode(pFrameDecode, &pFME);
+hr = pFactory-&gt;CreateFastMetadataEncoderFromFrameDecode(pFrameDecode, &amp;pFME);
 
 if (SUCCEEDED(hr))
 {
-  hr = pFME->GetMetadataQueryWriter(&pFMEQW);
+  hr = pFME-&gt;GetMetadataQueryWriter(&amp;pFMEQW);
 }
 
 if (SUCCEEDED(hr))
@@ -111,22 +115,22 @@ if (SUCCEEDED(hr))
   // Add additional metadata
   PROPVARIANT value;
 
-  PropVariantInit(&value);
+  PropVariantInit(&amp;value);
 
   value.vt = VT_UI2;
   value.uiVal = 99;
-  hr = pFMEQW->SetMetadataByName(L"/app1/ifd/{ushort=18249}", &value);
+  hr = pFMEQW-&gt;SetMetadataByName(L"/app1/ifd/{ushort=18249}", &amp;value);
 
-  PropVariantClear(&value);
+  PropVariantClear(&amp;value);
 }
 
 if (SUCCEEDED(hr))
 {
-  hr = pFME->Commit();
-}
-```
-
-
+  hr = pFME-&gt;Commit();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -155,7 +159,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee719653(v=VS.85).aspx">Writing Metadata</a>
+<a href="_wic_about_metadata.htm">Writing Metadata</a>
  
 
  

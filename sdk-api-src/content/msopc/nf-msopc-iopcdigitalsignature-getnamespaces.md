@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature_getnamespaces.htm
 tech.root: OPC
 ms.assetid: c9360d23-1eac-4bb1-ae40-c157f1a79621
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNamespaces, GetNamespaces method [Open Packaging Conventions], GetNamespaces method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetNamespaces method, IOpcDigitalSignature.GetNamespaces, IOpcDigitalSignature::GetNamespaces, msopc/IOpcDigitalSignature::GetNamespaces, opc.iopcdigitalsignature_getnamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,20 +147,24 @@ This method allocates memory used by the buffers returned in <i>prefixes</i> and
 
 The following code shows how to use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to free the memory of the buffers and the strings they contain.
 
-
-```cpp
-// Prepare to call GetNamespaces
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Prepare to call GetNamespaces
 LPWSTR* prefixes = NULL;
 LPWSTR* namespaces = NULL;
 UINT32 count = 0;
 
 // Call to GetNamespaces succeeds
-if ( SUCCEEDED( signature->GetNamespaces(&prefixes, &namespaces, &count) ) )
+if ( SUCCEEDED( signature-&gt;GetNamespaces(&amp;prefixes, &amp;namespaces, &amp;count) ) )
 {
     // Process strings in prefixes and namespaces as needed for the application
 
     // Free memory for each string
-    for (UINT32 i = 0; i < count; i++)
+    for (UINT32 i = 0; i &lt; count; i++)
     {
         CoTaskMemFree(prefixes[i]);
         CoTaskMemFree(namespaces[i]);
@@ -168,10 +172,10 @@ if ( SUCCEEDED( signature->GetNamespaces(&prefixes, &namespaces, &count) ) )
     // Free memory for the buffers
     CoTaskMemFree(prefixes);
     CoTaskMemFree(namespaces);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

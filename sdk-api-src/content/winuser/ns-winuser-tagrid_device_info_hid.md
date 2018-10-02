@@ -7,7 +7,7 @@ old-location: inputdev\rid_device_info_hid.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rid_device_info_hid.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PRID_DEVICE_INFO_HID, PRID_DEVICE_INFO_HID, PRID_DEVICE_INFO_HID structure pointer [Keyboard and Mouse Input], RID_DEVICE_INFO_HID, RID_DEVICE_INFO_HID structure [Keyboard and Mouse Input], _win32_RID_DEVICE_INFO_HID_str, _win32_rid_device_info_hid_str_cpp, inputdev.rid_device_info_hid, tagRID_DEVICE_INFO_HID, winui._win32_rid_device_info_hid_str, winuser/PRID_DEVICE_INFO_HID, winuser/RID_DEVICE_INFO_HID"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,11 +102,11 @@ The top-level collection Usage for the device.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645581(v=VS.85).aspx">RID_DEVICE_INFO</a>
+<a href="https://msdn.microsoft.com/1d44f5b1-2dbb-4a49-b8c0-8f65bb3fa79a">RID_DEVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 

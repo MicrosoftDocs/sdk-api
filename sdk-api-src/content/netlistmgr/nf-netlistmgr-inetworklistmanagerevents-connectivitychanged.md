@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanagerevents_connectivitychanged.htm
 tech.root: NLA
 ms.assetid: 12e15b56-61cd-4fc8-bc0c-9942d40bb2da
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ConnectivityChanged, ConnectivityChanged method [Network Awareness], ConnectivityChanged method [Network Awareness],INetworkListManagerEvents interface, INetworkListManagerEvents interface [Network Awareness],ConnectivityChanged method, INetworkListManagerEvents.ConnectivityChanged, INetworkListManagerEvents::ConnectivityChanged, netlistmgr/INetworkListManagerEvents::ConnectivityChanged, nla.inetworklistmanagerevents_connectivitychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

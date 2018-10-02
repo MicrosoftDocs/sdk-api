@@ -4,10 +4,10 @@ title: "_MINIDUMP_MEMORY64_LIST"
 author: windows-sdk-content
 description: Contains a list of memory ranges.
 old-location: base\minidump_memory_list_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 83a38831-fb90-495c-9f5d-90971849a7a0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PMINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY_LIST, MINIDUMP_MEMORY_LIST structure, PMINIDUMP_MEMORY_LIST, PMINIDUMP_MEMORY_LIST structure pointer, _MINIDUMP_MEMORY64_LIST, _MINIDUMP_MEMORY_LIST, _win32_minidump_memory_list_str, base.minidump_memory_list_str, minidumpapiset/MINIDUMP_MEMORY_LIST, minidumpapiset/PMINIDUMP_MEMORY_LIST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,17 +80,21 @@ An array of
 
 The <b>MINIDUMP_MEMORY64_LIST</b> structure is defined as follows. It is used for full-memory minidumps.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct _MINIDUMP_MEMORY64_LIST {
     ULONG64 NumberOfMemoryRanges;
     RVA64 BaseRva;
     MINIDUMP_MEMORY_DESCRIPTOR64 MemoryRanges [0];
-} MINIDUMP_MEMORY64_LIST, *PMINIDUMP_MEMORY64_LIST;
-```
-
-
+} MINIDUMP_MEMORY64_LIST, *PMINIDUMP_MEMORY64_LIST;</pre>
+</td>
+</tr>
+</table></span></div>
 Note that <b>BaseRva</b> is the overall base RVA for the memory list. To locate the data for a particular descriptor, start at <b>BaseRva</b> and increment by the size of a descriptor until you reach the descriptor.
 
 

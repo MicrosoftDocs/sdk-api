@@ -7,7 +7,7 @@ old-location: fs\queryrecoveryagentsonencryptedfile.htm
 tech.root: fileio
 ms.assetid: 2f8d0673-3c87-46a4-b7d5-3888d20bd9b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: QueryRecoveryAgentsOnEncryptedFile, QueryRecoveryAgentsOnEncryptedFile function [Files], _win32_queryrecoveryagentsonencryptedfile, base.queryrecoveryagentsonencryptedfile, fs.queryrecoveryagentsonencryptedfile, winefs/QueryRecoveryAgentsOnEncryptedFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

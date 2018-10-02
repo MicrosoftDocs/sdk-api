@@ -7,7 +7,7 @@ old-location: fs\getfileinformationbyhandle.htm
 tech.root: fileio
 ms.assetid: d026ee3a-c165-42a2-a4e1-efccdafbefc5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetFileInformationByHandle, GetFileInformationByHandle function [Files], _win32_getfileinformationbyhandle, base.getfileinformationbyhandle, fileapi/GetFileInformationByHandle, fs.getfileinformationbyhandle, winbase/GetFileInformationByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

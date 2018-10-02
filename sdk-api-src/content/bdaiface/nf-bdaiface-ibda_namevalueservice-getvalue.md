@@ -7,7 +7,7 @@ old-location: mstv\ibda_namevalueservice_getvalue.htm
 tech.root: MSTV
 ms.assetid: d240f991-8f15-4d37-a292-91c7e3dff27d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetValue, GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies],IBDA_NameValueService interface, IBDA_NameValueService interface [Microsoft TV Technologies],GetValue method, IBDA_NameValueService.GetValue, IBDA_NameValueService::GetValue, bdaiface/IBDA_NameValueService::GetValue, mstv.ibda_namevalueservice_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693406(v=VS.85).aspx">IBDA_NameValueService</a>
+<a href="https://msdn.microsoft.com/7b6a12d2-24e4-42d8-9138-86c2fe558d86">IBDA_NameValueService</a>
  
 
  

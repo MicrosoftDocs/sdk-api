@@ -7,7 +7,7 @@ old-location: of\offlinefiles_op_response.htm
 tech.root: OfflineFiles
 ms.assetid: a4b16256-7f6a-4e26-8cf2-3ef7c59ac3af
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OFFLINEFILES_OP_ABORT, OFFLINEFILES_OP_CONTINUE, OFFLINEFILES_OP_RESPONSE, OFFLINEFILES_OP_RESPONSE enumeration [Offline Files], OFFLINEFILES_OP_RETRY, cscobj/OFFLINEFILES_OP_ABORT, cscobj/OFFLINEFILES_OP_CONTINUE, cscobj/OFFLINEFILES_OP_RESPONSE, cscobj/OFFLINEFILES_OP_RETRY, of.offlinefiles_op_response, tagOFFLINEFILES_OP_RESPONSE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,19 +78,19 @@ Stop processing now.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530617(v=VS.85).aspx">IOfflineFilesSimpleProgress::ItemBegin</a>
+<a href="https://msdn.microsoft.com/0e3496ee-e987-4c37-93ff-bc8409acabde">IOfflineFilesSimpleProgress::ItemBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530618(v=VS.85).aspx">IOfflineFilesSimpleProgress::ItemResult</a>
+<a href="https://msdn.microsoft.com/60ed3b12-b56e-4a58-8e37-a4a745ddb783">IOfflineFilesSimpleProgress::ItemResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530638(v=VS.85).aspx">IOfflineFilesSyncProgress::SyncItemBegin</a>
+<a href="https://msdn.microsoft.com/c1cdbc30-bcc9-4023-a3a2-070fb9958609">IOfflineFilesSyncProgress::SyncItemBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530639(v=VS.85).aspx">IOfflineFilesSyncProgress::SyncItemResult</a>
+<a href="https://msdn.microsoft.com/2a93d52e-6b91-4d91-9372-5f0718621841">IOfflineFilesSyncProgress::SyncItemResult</a>
  
 
  

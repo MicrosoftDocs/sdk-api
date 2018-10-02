@@ -4,10 +4,10 @@ title: NdrPointerUnmarshall function
 author: windows-sdk-content
 description: The NdrPointerUnmarshall function unmarshalls a top level pointer to anything. Pointers embedded in structures, arrays, or unions call NdrPointerUnmarshall directly.
 old-location: rpc\ndrpointerunmarshall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 6e4b0085-34bd-4f63-beea-a944ff0f853e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: NdrPointerUnmarshall, NdrPointerUnmarshall function [RPC], rpc.ndrpointerunmarshall, rpcndr/NdrPointerUnmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

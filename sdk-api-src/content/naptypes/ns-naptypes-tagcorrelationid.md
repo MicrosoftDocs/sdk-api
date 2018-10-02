@@ -7,7 +7,7 @@ old-location: nap\correlationid_struct.htm
 tech.root: NAP
 ms.assetid: 99e5bad8-47dd-447b-bd8d-e35ae765808b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CorrelationId, CorrelationId structure [NAP], nap.correlationid_struct, naptypes/CorrelationId, tagCorrelationId
 ms.prod: windows
 ms.technology: windows-sdk

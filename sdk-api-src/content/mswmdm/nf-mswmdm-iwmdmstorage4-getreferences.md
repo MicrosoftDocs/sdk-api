@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage4_getreferences.htm
 tech.root: WMDM
 ms.assetid: 8199de99-3660-4819-a8e0-ae8e3aa1680e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetReferences, GetReferences method [windows Media Device Manager], GetReferences method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetReferences method, IWMDMStorage4.GetReferences, IWMDMStorage4::GetReferences, IWMDMStorage4GetReferences, mswmdm/IWMDMStorage4::GetReferences, wmdm.iwmdmstorage4_getreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,33 +101,37 @@ There are two types of asynchronous deletions that can occur and cause errors in
 
 The following C++ code queries for the references of a storage (pStorage).
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get references.
-CComQIPtr<IWMDMStorage4> pStorage4(pStorage);
+CComQIPtr&lt;IWMDMStorage4&gt; pStorage4(pStorage);
 if (pStorage4 != NULL)
 {
     WCHAR name[100];
     DWORD numRefs = 0;
     IWMDMStorage** parrReferences;
-    hr = pStorage4->GetReferences(&numRefs, &parrReferences);
-    for(int i = 0; i < numRefs; i++)
+    hr = pStorage4-&gt;GetReferences(&amp;numRefs, &amp;parrReferences);
+    for(int i = 0; i &lt; numRefs; i++)
     {
         ZeroMemory(name, sizeof(name));
-        hr = parrReferences[i]->GetName(name, (sizeof(name) / sizeof(WCHAR)) - 1);
+        hr = parrReferences[i]-&gt;GetName(name, (sizeof(name) / sizeof(WCHAR)) - 1);
         if (hr == S_OK)
             // TODO: Display the name.
-        parrReferences[i]->Release();
+        parrReferences[i]-&gt;Release();
     }
     // Free the memory.
     if (parrReferences != NULL)
         CoTaskMemFree(parrReferences);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_title.htm
 tech.root: DirectShow
 ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaContent.get_Title, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title, get_Title method [DirectShow], get_Title method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices

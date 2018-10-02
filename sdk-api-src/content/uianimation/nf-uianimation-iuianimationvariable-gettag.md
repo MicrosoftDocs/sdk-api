@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_gettag.htm
 tech.root: UIAnimation
 ms.assetid: 2731d302-dc52-4a10-8012-a246856d132b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetTag method, IUIAnimationVariable.GetTag, IUIAnimationVariable::GetTag, uianimation.iuianimationvariable_gettag, uianimation/IUIAnimationVariable::GetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

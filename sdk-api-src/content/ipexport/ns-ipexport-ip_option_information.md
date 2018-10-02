@@ -7,7 +7,7 @@ old-location: iphlp\ip_option_information.htm
 tech.root: IpHlp
 ms.assetid: 4341d0a4-65d8-4677-b208-2cde5ff36f14
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP_OPTION_INFORMATION, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION, IP_OPTION_INFORMATION structure [IP Helper], PIP_OPTION_INFORMATION, PIP_OPTION_INFORMATION structure pointer [IP Helper], _iphlp_ip_option_information, ip_option_information, ipexport/IP_OPTION_INFORMATION, ipexport/PIP_OPTION_INFORMATION, iphlp.ip_option_information"
 ms.prod: windows
 ms.technology: windows-sdk

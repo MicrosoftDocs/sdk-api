@@ -7,7 +7,7 @@ old-location: winsock\getaddrinfow.htm
 tech.root: WinSock
 ms.assetid: 82436a88-5b37-4758-a5c9-b60dd1cbc36c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetAddrInfoW, GetAddrInfoW function [Winsock], winsock.getaddrinfow, ws2tcpip/GetAddrInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ A service name is a string alias for a port number. For example, “http” is a
 A pointer to an 
 <a href="https://msdn.microsoft.com/a4896eac-68ae-4a08-8647-36be65fe4478">addrinfoW</a> structure that provides hints about the type of socket the caller supports. 
 
-The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> members of the <a href="https://msdn.microsoft.com/a4896eac-68ae-4a08-8647-36be65fe4478">addrinfoW</a> structure pointed to by the <i>pHints</i> parameter must be zero or <b>NULL</b>. Otherwise the <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function will fail with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a>.
+The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> members of the <a href="https://msdn.microsoft.com/a4896eac-68ae-4a08-8647-36be65fe4478">addrinfoW</a> structure pointed to by the <i>pHints</i> parameter must be zero or <b>NULL</b>. Otherwise the <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function will fail with <a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a>.
 
 See the Remarks for more details.
 
@@ -106,42 +106,42 @@ Most nonzero error codes returned by the <b>GetAddrInfoW</b> function map to the
 </tr>
 <tr>
 <td>EAI_AGAIN</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></td>
 <td>A temporary failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_BADFLAGS</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></td>
 <td>An invalid value was provided for the <b>ai_flags</b> member of the <i>pHints</i> parameter.</td>
 </tr>
 <tr>
 <td>EAI_FAIL</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></td>
 <td>A nonrecoverable failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_FAMILY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></td>
 <td>The <b>ai_family</b> member  of the <i>pHints</i> parameter is not supported.</td>
 </tr>
 <tr>
 <td>EAI_MEMORY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>A memory allocation failure occurred.</td>
 </tr>
 <tr>
 <td>EAI_NONAME</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></td>
 <td>The name does not resolve for the supplied parameters or the <i>pNodeName</i> and <i>pServiceName</i> parameters were not provided.</td>
 </tr>
 <tr>
 <td>EAI_SERVICE</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATYPE_NOT_FOUND</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSATYPE_NOT_FOUND</a></td>
 <td>The <i>pServiceName</i> parameter is not supported for the specified <b>ai_socktype</b> member of the <i>pHints</i> parameter.</td>
 </tr>
 <tr>
 <td>EAI_SOCKTYPE</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAESOCKTNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAESOCKTNOSUPPORT</a></td>
 <td>The <b>ai_socktype</b> member  of the <i>pHints</i> parameter is not supported.</td>
 </tr>
 </table>
@@ -161,7 +161,7 @@ Use the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -172,7 +172,7 @@ There was insufficient memory to perform the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -184,7 +184,7 @@ An address incompatible with the requested protocol was used. This error is retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -196,7 +196,7 @@ An invalid argument was supplied.  This error is returned if an invalid value wa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAESOCKTNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAESOCKTNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -208,7 +208,7 @@ The support for the specified socket type does not exist in this address family.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -219,7 +219,7 @@ No such host is known. This error is returned if the name does not resolve for t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -230,7 +230,7 @@ The requested name is valid, but no data of the requested type was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -241,7 +241,7 @@ A nonrecoverable error occurred during a database lookup. This error is returned
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -253,7 +253,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -264,7 +264,7 @@ This is usually a temporary error during hostname resolution and means that the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATYPE_NOT_FOUND</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATYPE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -342,7 +342,7 @@ If the <i>pHints</i> parameter is a <b>NULL</b> pointer, the
 On Windows Vista and later when <b>GetAddrInfoW</b> is called from a service, if the operation is the result of a user process calling the service, then the service should impersonate the user.  This is to allow security to be properly enforced.
 
 The 
-<b>GetAddrInfoW</b> function can be used to convert a text string representation of an IP address to an <a href="https://msdn.microsoft.com/a4896eac-68ae-4a08-8647-36be65fe4478">addrinfoW</a>structure that contains a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure for the IP address and other information. To be used in this way, the string pointed to by the <i>pNodeName</i> parameter must contain a text representation of an IP address and the <b>addrinfoW</b>structure pointed to by the <i>pHints</i> parameter must have the <b>AI_NUMERICHOST</b> flag set in the <b>ai_flags</b> member. The string pointed to by the <i>pNodeName</i> parameter may contain a text representation of either an IPv4 or an IPv6 address. The text IP address is converted to an <b>addrinfoW</b>structure pointed to by the <i>ppResult</i> parameter. The returned <b>addrinfoW</b>structure contains a <b>sockaddr</b> structure for the IP address along with additional information about the IP address. For this method to work with an IPv6 address string on Windows Server 2003 and Windows XP, the IPv6 protocol must be installed on the local computer. Otherwise, the <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a> error is returned.
+<b>GetAddrInfoW</b> function can be used to convert a text string representation of an IP address to an <a href="https://msdn.microsoft.com/a4896eac-68ae-4a08-8647-36be65fe4478">addrinfoW</a>structure that contains a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure for the IP address and other information. To be used in this way, the string pointed to by the <i>pNodeName</i> parameter must contain a text representation of an IP address and the <b>addrinfoW</b>structure pointed to by the <i>pHints</i> parameter must have the <b>AI_NUMERICHOST</b> flag set in the <b>ai_flags</b> member. The string pointed to by the <i>pNodeName</i> parameter may contain a text representation of either an IPv4 or an IPv6 address. The text IP address is converted to an <b>addrinfoW</b>structure pointed to by the <i>ppResult</i> parameter. The returned <b>addrinfoW</b>structure contains a <b>sockaddr</b> structure for the IP address along with additional information about the IP address. For this method to work with an IPv6 address string on Windows Server 2003 and Windows XP, the IPv6 protocol must be installed on the local computer. Otherwise, the <a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a> error is returned.
 
 <h3><a id="Freeing_Address_Information_from_Dynamic_Allocation"></a><a id="freeing_address_information_from_dynamic_allocation"></a><a id="FREEING_ADDRESS_INFORMATION_FROM_DYNAMIC_ALLOCATION"></a>Freeing Address Information from Dynamic Allocation</h3>
 All information returned by the 
@@ -353,17 +353,21 @@ All information returned by the
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code example shows how to use the <b>GetAddrInfoW</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -395,7 +399,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
     // Validate the parameters
     if (argc != 3) {
-        wprintf(L"usage: %ws <hostname> <servicename>\n", argv[0]);
+        wprintf(L"usage: %ws &lt;hostname&gt; &lt;servicename&gt;\n", argv[0]);
         wprintf(L"getaddrinfow provides protocol-independent translation\n");
         wprintf(L"   from an Unicode host name to an IP address\n");
         wprintf(L"%ws example usage\n", argv[0]);
@@ -405,7 +409,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -414,7 +418,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
     //--------------------------------
     // Setup the hints address info structure
     // which is passed to the getaddrinfo() function
-    ZeroMemory( &hints, sizeof(hints) );
+    ZeroMemory( &amp;hints, sizeof(hints) );
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
@@ -429,7 +433,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
 // the result variable will hold a linked list
 // of addrinfow structures containing response
 // information
-    dwRetval = GetAddrInfoW(argv[1], argv[2], &hints, &result);
+    dwRetval = GetAddrInfoW(argv[1], argv[2], &amp;hints, &amp;result);
     if ( dwRetval != 0 ) {
         wprintf(L"GetAddrInfoW failed with error: %d\n", dwRetval);
         WSACleanup();
@@ -439,23 +443,23 @@ int __cdecl wmain(int argc, wchar_t **argv)
     wprintf(L"GetAddrInfoW returned success\n");
     
     // Retrieve each address and print out the hex bytes
-    for(ptr=result; ptr != NULL ;ptr=ptr->ai_next) {
+    for(ptr=result; ptr != NULL ;ptr=ptr-&gt;ai_next) {
 
         wprintf(L"GetAddrInfoW response %d\n", i++);
-        wprintf(L"\tFlags: 0x%x\n", ptr->ai_flags);
+        wprintf(L"\tFlags: 0x%x\n", ptr-&gt;ai_flags);
         wprintf(L"\tFamily: ");
-        switch (ptr->ai_family) {
+        switch (ptr-&gt;ai_family) {
             case AF_UNSPEC:
                 wprintf(L"Unspecified\n");
                 break;
             case AF_INET:
                 wprintf(L"AF_INET (IPv4)\n");
-                sockaddr_ip = (LPSOCKADDR) ptr->ai_addr;
+                sockaddr_ip = (LPSOCKADDR) ptr-&gt;ai_addr;
                 // The buffer length is changed by each call to WSAAddresstoString
                 // So we need to set it for each iteration through the loop for safety
                 ipbufferlength = 46;
-                iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr->ai_addrlen, NULL, 
-                    ipstringbuffer, &ipbufferlength );
+                iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr-&gt;ai_addrlen, NULL, 
+                    ipstringbuffer, &amp;ipbufferlength );
                 if (iRetval)
                     wprintf(L"WSAAddressToString failed with %u\n", WSAGetLastError() );
                 else    
@@ -464,28 +468,28 @@ int __cdecl wmain(int argc, wchar_t **argv)
             case AF_INET6:
                 wprintf(L"AF_INET6 (IPv6)\n");
                 // the InetNtop function is available on Windows Vista and later
-                // sockaddr_ipv6 = (struct sockaddr_in6 *) ptr->ai_addr;
+                // sockaddr_ipv6 = (struct sockaddr_in6 *) ptr-&gt;ai_addr;
                 // printf("\tIPv6 address %s\n",
-                //    InetNtop(AF_INET6, &sockaddr_ipv6->sin6_addr, ipstringbuffer, 46) );
+                //    InetNtop(AF_INET6, &amp;sockaddr_ipv6-&gt;sin6_addr, ipstringbuffer, 46) );
                 
                 // We use WSAAddressToString since it is supported on Windows XP and later
-                sockaddr_ip = (LPSOCKADDR) ptr->ai_addr;
+                sockaddr_ip = (LPSOCKADDR) ptr-&gt;ai_addr;
                 // The buffer length is changed by each call to WSAAddresstoString
                 // So we need to set it for each iteration through the loop for safety
                 ipbufferlength = 46;
-                iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr->ai_addrlen, NULL, 
-                    ipstringbuffer, &ipbufferlength );
+                iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr-&gt;ai_addrlen, NULL, 
+                    ipstringbuffer, &amp;ipbufferlength );
                 if (iRetval)
                     wprintf(L"WSAAddressToString failed with %u\n", WSAGetLastError() );
                 else    
                     wprintf(L"\tIPv6 address %ws\n", ipstringbuffer);
                 break;
             default:
-                wprintf(L"Other %ld\n", ptr->ai_family);
+                wprintf(L"Other %ld\n", ptr-&gt;ai_family);
                 break;
         }
         wprintf(L"\tSocket type: ");
-        switch (ptr->ai_socktype) {
+        switch (ptr-&gt;ai_socktype) {
             case 0:
                 wprintf(L"Unspecified\n");
                 break;
@@ -505,11 +509,11 @@ int __cdecl wmain(int argc, wchar_t **argv)
                 wprintf(L"SOCK_SEQPACKET (pseudo-stream packet)\n");
                 break;
             default:
-                wprintf(L"Other %ld\n", ptr->ai_socktype);
+                wprintf(L"Other %ld\n", ptr-&gt;ai_socktype);
                 break;
         }
         wprintf(L"\tProtocol: ");
-        switch (ptr->ai_protocol) {
+        switch (ptr-&gt;ai_protocol) {
             case 0:
                 wprintf(L"Unspecified\n");
                 break;
@@ -520,11 +524,11 @@ int __cdecl wmain(int argc, wchar_t **argv)
                 wprintf(L"IPPROTO_UDP (UDP) \n");
                 break;
             default:
-                wprintf(L"Other %ld\n", ptr->ai_protocol);
+                wprintf(L"Other %ld\n", ptr-&gt;ai_protocol);
                 break;
         }
-        wprintf(L"\tLength of this sockaddr: %d\n", ptr->ai_addrlen);
-        wprintf(L"\tCanonical name: %s\n", ptr->ai_canonname);
+        wprintf(L"\tLength of this sockaddr: %d\n", ptr-&gt;ai_addrlen);
+        wprintf(L"\tCanonical name: %s\n", ptr-&gt;ai_canonname);
     }
 
     FreeAddrInfoW(result);
@@ -532,10 +536,10 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 <div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <a href="https://msdn.microsoft.com/a4896eac-68ae-4a08-8647-36be65fe4478">addrinfoW</a> and <b>GetAddrInfoW</b>, respectively.</div>
 <div> </div>
@@ -568,7 +572,7 @@ Several functions on Windows Vista and later support conversion between Unicode
 
  
 
-The <a href="https://msdn.microsoft.com/e39aa5c2-3f76-40b2-9948-bbd795c6c525">IdnToAscii</a> function use Punycode to convert an IDN to the ASCII representation of the original Unicode string using the standard algorithm defined in <a href="http://go.microsoft.com/fwlink/p/?LinkID=390166">RFC 3490</a>. The <a href="https://msdn.microsoft.com/90707414-aef7-4265-bc2b-d48ac79db099">IdnToUnicode</a> function converts the ASCII form of an IDN to the normal Unicode UTF-16 encoding syntax. For more information and links to related draft standards, see <a href="https://msdn.microsoft.com/en-us/library/Dd318142(v=VS.85).aspx">Handling Internationalized Domain Names (IDNs)</a>.
+The <a href="https://msdn.microsoft.com/e39aa5c2-3f76-40b2-9948-bbd795c6c525">IdnToAscii</a> function use Punycode to convert an IDN to the ASCII representation of the original Unicode string using the standard algorithm defined in <a href="http://go.microsoft.com/fwlink/p/?LinkID=390166">RFC 3490</a>. The <a href="https://msdn.microsoft.com/90707414-aef7-4265-bc2b-d48ac79db099">IdnToUnicode</a> function converts the ASCII form of an IDN to the normal Unicode UTF-16 encoding syntax. For more information and links to related draft standards, see <a href="_win32_IDN">Handling Internationalized Domain Names (IDNs)</a>.
 
 
 
@@ -620,7 +624,7 @@ If neither <b>AI_CANONNAME</b> nor <b>AI_NUMERICHOST</b> is used, the
 <b>GetAddrInfoW</b> function attempts to resolve the name to an address or multiple addresses.
 
 When the <b>AI_CANONNAME</b> bit is set, the <i>pNodeName</i> parameter cannot be <b>NULL</b>. Otherwise the 
-<a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function will  fail with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a>.
+<a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function will  fail with <a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a>.
 
 When the <b>AI_CANONNAME</b> bit is set and the 
 <b>GetAddrInfoW</b> function returns success, the <b>ai_canonname</b> member in the <i>ppResult</i> parameter points to a <b>NULL</b>-terminated string that contains the canonical name of the specified node.
@@ -742,7 +746,7 @@ If the  <b>AI_FQDN</b> is set and a flat name (single label) is specified,  <b>G
 
 
 When the <b>AI_FQDN</b> bit is set, the <i>pNodeName</i> parameter cannot be <b>NULL</b>. Otherwise the 
-<a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function will  fail with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a>.
+<a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function will  fail with <a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a>.
 
 <b>Windows 7:  </b>The <b>AI_FQDN</b> flag is defined on the Windows SDK for  Windows 7 and later.    The <b>AI_FQDN</b> flag is supported on Windows 7 and later. 
 

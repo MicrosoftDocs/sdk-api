@@ -4,10 +4,10 @@ title: ICertProperty::get_RawData
 author: windows-sdk-content
 description: Retrieves the value of the certificate property.
 old-location: security\icertproperty_rawdata_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 1413f6da-0fcf-42ca-a79f-43f164368407
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ICertProperty interface [Security],RawData property, ICertProperty.RawData, ICertProperty.get_RawData, ICertProperty::RawData, ICertProperty::get_RawData, RawData property [Security], RawData property [Security],ICertProperty interface, certenroll/ICertProperty::RawData, certenroll/ICertProperty::get_RawData, get_RawData, security.icertproperty_rawdata_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call <a href="https://msdn.microsoft.com/en-us/library/Aa375830(v=VS.85).aspx">PropertyId</a> to identify the property to retrieve before calling the <b>RawData</b> property.
+Call <a href="https://msdn.microsoft.com/2829dab5-253d-4ade-bba5-d399afe87a28">PropertyId</a> to identify the property to retrieve before calling the <b>RawData</b> property.
 
 
 
@@ -73,7 +73,7 @@ Call <a href="https://msdn.microsoft.com/en-us/library/Aa375830(v=VS.85).aspx">P
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
  
 
  

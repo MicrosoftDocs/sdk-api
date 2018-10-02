@@ -7,7 +7,7 @@ old-location: mstv\iisdbemergencyinformationdescriptor_getserviceid.htm
 tech.root: MSTV
 ms.assetid: 298f0637-eea1-4247-a9ff-cbe1a82fb8f6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetServiceId method, IIsdbEmergencyInformationDescriptor.GetServiceId, IIsdbEmergencyInformationDescriptor::GetServiceId, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId, mstv.iisdbemergencyinformationdescriptor_getserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices

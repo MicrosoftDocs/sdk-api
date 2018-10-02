@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::GetRate
 author: windows-sdk-content
 description: Gets the current playback rate.
 old-location: mf\imfpmediaplayer_getrate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 51257361-0362-43c4-8aca-81fd49be8482
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetRate method, IMFPMediaPlayer.GetRate, IMFPMediaPlayer::GetRate, mf.imfpmediaplayer_getrate, mfplay/IMFPMediaPlayer::GetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

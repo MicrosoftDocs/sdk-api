@@ -7,7 +7,7 @@ old-location: winsat\iqueryallwinsatassessments_allxml.htm
 tech.root: WinSAT
 ms.assetid: a43aee18-642f-44d9-a116-ffc762cec80a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AllXML property [WinSAT], AllXML property [WinSAT],IQueryAllWinSATAssessments interface, IQueryAllWinSATAssessments interface [WinSAT],AllXML property, IQueryAllWinSATAssessments.AllXML, IQueryAllWinSATAssessments.get_AllXML, IQueryAllWinSATAssessments::AllXML, IQueryAllWinSATAssessments::get_AllXML, get_AllXML, winsat.iqueryallwinsatassessments_allxml, winsatcominterfacei/IQueryAllWinSATAssessments::AllXML, winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,12 +78,16 @@ The order in which the assessments are returned is arbitrary.
 
 The following example shows how to use an XPath query to get data from each of the formal assessments in the assessment store.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <comutil.h>
-#include <winsatcominterfacei.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;comutil.h&gt;
+#include &lt;winsatcominterfacei.h&gt;
 
 #pragma comment(lib, "comsupp.lib") // For _bstr_t
 
@@ -105,7 +109,7 @@ void main(void)
         NULL,
         CLSCTX_INPROC_SERVER,
         __uuidof(IQueryAllWinSATAssessments),
-        (void**)&pAssessment);
+        (void**)&amp;pAssessment);
 
     if (FAILED(hr))
     {
@@ -114,81 +118,81 @@ void main(void)
     }
 
     // Query the assessmenets for the memory nodes.
-    hr = pAssessment->get_AllXML(bstrXPath, NULL, &pNodes);
+    hr = pAssessment-&gt;get_AllXML(bstrXPath, NULL, &amp;pNodes);
     if (FAILED(hr))
     {
-        wprintf(L"pAssessment->get_XML failed with 0x%x.\n", hr);
+        wprintf(L"pAssessment-&gt;get_XML failed with 0x%x.\n", hr);
         goto cleanup;
     }
 
-    hr = pNodes->nextNode(&pMemory);
+    hr = pNodes-&gt;nextNode(&amp;pMemory);
 
     // Loop through the memory nodes and get available and total memory size
     // values and print them.
     while (pMemory)
     {
-        hr = pMemory->selectSingleNode(L"TotalPhysical/Size", &pNode);
+        hr = pMemory-&gt;selectSingleNode(L"TotalPhysical/Size", &amp;pNode);
         if (FAILED(hr))
         {
-            wprintf(L"pMemory->selectSingleNode(TotalPhysical/Size) failed with 0x%x.\n", hr);
+            wprintf(L"pMemory-&gt;selectSingleNode(TotalPhysical/Size) failed with 0x%x.\n", hr);
             goto cleanup;
         }
 
-        hr = pNode->get_text(bstrTotalRAM.GetAddress());
+        hr = pNode-&gt;get_text(bstrTotalRAM.GetAddress());
         if (FAILED(hr))
         {
-            wprintf(L"pNode->get_text(bstrTotalRAM) failed with 0x%x.\n", hr);
+            wprintf(L"pNode-&gt;get_text(bstrTotalRAM) failed with 0x%x.\n", hr);
             goto cleanup;
         }
 
-        pNode->Release();
+        pNode-&gt;Release();
         pNode = NULL;
 
-        hr = pMemory->selectSingleNode(L"AvailablePhysical/Size", &pNode);
+        hr = pMemory-&gt;selectSingleNode(L"AvailablePhysical/Size", &amp;pNode);
         if (FAILED(hr))
         {
-            wprintf(L"pMemory->selectSingleNode(AvailablePhysical/Size) failed with 0x%x.\n", hr);
+            wprintf(L"pMemory-&gt;selectSingleNode(AvailablePhysical/Size) failed with 0x%x.\n", hr);
             goto cleanup;
         }
 
-        hr = pNode->get_text(bstrAvailableRAM.GetAddress());
+        hr = pNode-&gt;get_text(bstrAvailableRAM.GetAddress());
         if (FAILED(hr))
         {
-            wprintf(L"pNode->get_text(bstrAvailableRAM) failed with 0x%x.\n", hr);
+            wprintf(L"pNode-&gt;get_text(bstrAvailableRAM) failed with 0x%x.\n", hr);
             goto cleanup;
         }
 
-        pNode->Release();
+        pNode-&gt;Release();
         pNode = NULL;
 
         wprintf(L"Available RAM: %s of %s\n", bstrAvailableRAM.GetBSTR(), bstrTotalRAM.GetBSTR());
 
-        pMemory->Release();
+        pMemory-&gt;Release();
         pMemory = NULL;
 
-        hr = pNodes->nextNode(&pMemory);
+        hr = pNodes-&gt;nextNode(&amp;pMemory);
     }
 
 cleanup:
 
     if (pAssessment)
-        pAssessment->Release();
+        pAssessment-&gt;Release();
 
     if (pNodes)
-        pNodes->Release();
+        pNodes-&gt;Release();
 
     if (pMemory)
-        pMemory->Release();
+        pMemory-&gt;Release();
 
     if (pNode)
-        pNode->Release();
+        pNode-&gt;Release();
 
     CoUninitialize();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

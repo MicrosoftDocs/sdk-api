@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_setexceptionmode.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_setexceptionmode.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 450093c6-975d-3a2a-6e09-2d2267d36bae, ID3D10Device interface [Direct3D 10],SetExceptionMode method, ID3D10Device.SetExceptionMode, ID3D10Device::SetExceptionMode, SetExceptionMode, SetExceptionMode method [Direct3D 10], SetExceptionMode method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetExceptionMode, direct3d10.id3d10device_setexceptionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,18 +61,18 @@ Get the exception-mode flags.
 
 ### -param RaiseFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A value that contains one or more exception flags; each flag specifies a condition which will cause an exception to be raised. The flags are listed in <a href="https://msdn.microsoft.com/en-us/library/Bb172407(v=VS.85).aspx">D3D10_RAISE_FLAG</a>. A default value of 0 means there are no flags.
+A value that contains one or more exception flags; each flag specifies a condition which will cause an exception to be raised. The flags are listed in <a href="https://msdn.microsoft.com/80918203-e310-44f4-bcf4-88f2a7067379">D3D10_RAISE_FLAG</a>. A default value of 0 means there are no flags.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -93,7 +93,7 @@ Whenever an error occurs, a Direct3D device enters the DEVICEREMOVED state and i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

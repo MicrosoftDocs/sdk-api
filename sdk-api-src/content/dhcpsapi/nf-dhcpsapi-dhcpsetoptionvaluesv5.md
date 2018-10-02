@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptionvaluesv5.htm
 tech.root: DHCP
 ms.assetid: 53549094-d642-4635-9dd6-5ce16d6be08a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpSetOptionValuesV5, DhcpSetOptionValuesV5 function [DHCP], dhcp.dhcpsetoptionvaluesv5, dhcpsapi/DhcpSetOptionValuesV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

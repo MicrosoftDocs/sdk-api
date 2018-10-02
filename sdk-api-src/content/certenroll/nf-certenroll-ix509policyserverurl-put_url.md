@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::put_Url
 author: windows-sdk-content
 description: Specifies or retrieves the URL for the certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_url.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: ea45a003-357b-469a-b932-66fa13ae80b1
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],Url property, IX509PolicyServerUrl.Url, IX509PolicyServerUrl.put_Url, IX509PolicyServerUrl::Url, IX509PolicyServerUrl::get_Url, IX509PolicyServerUrl::put_Url, Url property [Security], Url property [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Url, certenroll/IX509PolicyServerUrl::get_Url, certenroll/IX509PolicyServerUrl::put_Url, put_Url, security.ix509policyserverurl_url
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
  
 
  

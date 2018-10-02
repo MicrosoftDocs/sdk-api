@@ -7,7 +7,7 @@ old-location: iphlp\icmpcreatefile.htm
 tech.root: IpHlp
 ms.assetid: b435b38b-df86-4991-9772-c712c9ea606f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IcmpCreateFile, IcmpCreateFile function [IP Helper], _iphlp_icmpcreatefile, icmpapi/IcmpCreateFile, iphlp.icmpcreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,12 +88,16 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 The following example opens a handle on which ICMP echo requests can be issued. 
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <iphlpapi.h>
-#include <icmpapi.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;icmpapi.h&gt;
 
 // Need to link with Iplhlapi.lib
 #pragma comment(lib, "IPHLPAPI.lib")
@@ -113,10 +117,10 @@ void main()
       IcmpCloseHandle(hIcmpFile);
     }  
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: ICertPropertyBackedUp::get_BackedUpTime
 author: windows-sdk-content
 description: Retrieves the date and time at which the certificate was backed up.
 old-location: security\icertpropertybackedup_backeduptime_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 5515fbd5-a711-421d-b80d-3e77c83f7549
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: BackedUpTime property [Security], BackedUpTime property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpTime property, ICertPropertyBackedUp.BackedUpTime, ICertPropertyBackedUp.get_BackedUpTime, ICertPropertyBackedUp::BackedUpTime, ICertPropertyBackedUp::get_BackedUpTime, certenroll/ICertPropertyBackedUp::BackedUpTime, certenroll/ICertPropertyBackedUp::get_BackedUpTime, get_BackedUpTime, security.icertpropertybackedup_backeduptime_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375630(v=VS.85).aspx">Initialize</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa375364(v=VS.85).aspx">InitializeFromCurrentTime</a> method to set the <b>BackedUpTime</b> value.
+Call the <a href="https://msdn.microsoft.com/2ca941a6-898d-4955-b334-ffc15e10b330">Initialize</a> method or the <a href="https://msdn.microsoft.com/2033c947-661c-4a52-b24f-82fa71ba7868">InitializeFromCurrentTime</a> method to set the <b>BackedUpTime</b> value.
 
 The date is stored as an 8-byte real value, representing a date between January 1, 1900 and December 31, 9999, inclusive. The value 2.0 represents January 1, 1900; 3.0 represents January 2, 1900. Adding 1 to the value increments the date by a day. The fractional part of the value represents the time of day. Therefore, 2.5 represents 12:00 on January 1, 1900; 3.25 represents 06:00 on January 2, 1900.
 
@@ -77,11 +77,11 @@ For dates between 1950 and 2049 inclusive, the date and time is encoded UTC-time
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375353(v=VS.85).aspx">ICertPropertyBackedUp</a>
+<a href="https://msdn.microsoft.com/9c694991-6f2d-420e-9f9f-5a36b10c39aa">ICertPropertyBackedUp</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: devinst\setupdienumdeviceinterfaces.htm
 tech.root: devinst
 ms.assetid: 5095404d-2447-407e-99e2-dd3ef3c3b905
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiEnumDeviceInterfaces, SetupDiEnumDeviceInterfaces function [Device and Driver Installation], devinst.setupdienumdeviceinterfaces, di-rtns_1fd59eb7-0934-4747-9a0e-81dac96c23ef.xml, setupapi/SetupDiEnumDeviceInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ The <b>SetupDiEnumDeviceInterfaces</b> function enumerates the device interfaces
 
 ### -param DeviceInfoSet [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interfaces for which to return information. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
+A pointer to a <a href="devinst.device_information_sets">device information set</a> that contains the device interfaces for which to return information. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
 
 
 ### -param DeviceInfoData [in, optional]

@@ -4,10 +4,10 @@ title: ILCreateFromPath function
 author: windows-sdk-content
 description: Returns the ITEMIDLIST structure associated with a specified file path.
 old-location: shell\ILCreateFromPathW.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: dee5486c-8be9-46c1-b5a1-e917e7c1e528
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ILCreateFromPath, ILCreateFromPath function [Windows Shell], ILCreateFromPathA, ILCreateFromPathW, _win32_ILCreateFromPathW, shell.ILCreateFromPathW, shlobj_core/ILCreateFromPath, shlobj_core/ILCreateFromPathA, shlobj_core/ILCreateFromPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getrendermode.htm
 tech.root: wic
 ms.assetid: d8cf4508-6a2c-4d02-b98f-0455a3dc966c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetRenderMode, GetRenderMode method [Windows Imaging Component], GetRenderMode method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetRenderMode method, IWICDevelopRaw.GetRenderMode, IWICDevelopRaw::GetRenderMode, _wic_codec_iwicdevelopraw_getrendermode, wic._wic_codec_iwicdevelopraw_getrendermode, wincodec/IWICDevelopRaw::GetRenderMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

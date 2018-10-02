@@ -7,7 +7,7 @@ old-location: automat\loadregtypelib.htm
 tech.root: automat
 ms.assetid: 444b7768-2a4e-4de3-9f28-ef63ac23e8bc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LoadRegTypeLib, LoadRegTypeLib function [Automation], _oa96_LoadRegTypeLib, automat.loadregtypelib, oleauto/LoadRegTypeLib
 ms.prod: windows-hardware
 ms.technology: windows-devices

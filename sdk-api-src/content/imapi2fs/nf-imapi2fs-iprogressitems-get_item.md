@@ -7,7 +7,7 @@ old-location: imapi\iprogressitems_get_item.htm
 tech.root: imapi
 ms.assetid: 74d8e74d-0af6-457a-a16b-f959757b5a86
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IProgressItems interface [IMAPI],get_Item method, IProgressItems.get_Item, IProgressItems::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_item, imapi2fs/IProgressItems::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

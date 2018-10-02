@@ -4,10 +4,10 @@ title: SHChangeNotification_Unlock function
 author: windows-sdk-content
 description: Unlocks shared memory for a change notification.
 old-location: shell\SHChangeNotification_Unlock.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 967ede1f-ee9c-46ee-a371-dcfc3a57d824
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SHChangeNotification_Unlock, SHChangeNotification_Unlock function [Windows Shell], _win32_SHChangeNotification_Unlock, shell.SHChangeNotification_Unlock, shlobj_core/SHChangeNotification_Unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winmsg\changefilterstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\changefilterstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT structure [Windows and Messages], MSGFLTINFO_ALLOWED_HIGHER, MSGFLTINFO_ALREADYALLOWED_FORWND, MSGFLTINFO_ALREADYDISALLOWED_FORWND, MSGFLTINFO_NONE, PCHANGEFILTERSTRUCT, PCHANGEFILTERSTRUCT structure pointer [Windows and Messages], _win32_CHANGEFILTERSTRUCT_str, _win32_changefilterstruct_str_cpp, tagCHANGEFILTERSTRUCT, winmsg.changefilterstruct, winui._win32_changefilterstruct_str, winuser/CHANGEFILTERSTRUCT, winuser/PCHANGEFILTERSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 Contains extended result information obtained by calling
-			the <a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a> function.
+			the <a href="https://msdn.microsoft.com/0167c716-8c54-4ec6-b4aa-bec4e8efd515">ChangeWindowMessageFilterEx</a> function.
 		
 
 
@@ -144,7 +144,7 @@ Certain messages whose value is smaller than <b>WM_USER</b> are required to pass
 		block such messages.
 		
 
-An application may use the <a href="https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function to 
+An application may use the <a href="https://msdn.microsoft.com/a78357b4-5069-45f0-b082-66042c42a5fd">ChangeWindowMessageFilter</a> function to 
 		allow or block a message in a process-wide manner. 
 		If the message is allowed by either the process message filter 
 		or the window message filter, it will be delivered to the window.
@@ -242,7 +242,7 @@ The following table lists the possible values returned in <b>ExtStatus</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a>
+<a href="https://msdn.microsoft.com/0167c716-8c54-4ec6-b4aa-bec4e8efd515">ChangeWindowMessageFilterEx</a>
  
 
  

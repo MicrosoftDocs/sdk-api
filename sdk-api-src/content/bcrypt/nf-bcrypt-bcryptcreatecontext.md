@@ -7,7 +7,7 @@ old-location: security\bcryptcreatecontext.htm
 tech.root: SecCNG
 ms.assetid: 68f71010-0089-4433-bc89-f61f190e0bff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCryptCreateContext, BCryptCreateContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptCreateContext, security.bcryptcreatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

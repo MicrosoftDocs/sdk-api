@@ -7,7 +7,7 @@ old-location: cos\iobjectcontextinfo2.htm
 tech.root: cossdk
 ms.assetid: 21e078d2-ba93-4118-b1d1-3b4b6e0e28a4
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IObjectContextInfo2, IObjectContextInfo2 interface [COM+], IObjectContextInfo2 interface [COM+],described, _cos_IObjectContextInfo2, comsvcs/IObjectContextInfo2, cos.iobjectcontextinfo2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-Provides additional information about an object's context. This interface extends the <a href="https://msdn.microsoft.com/en-us/library/ms682798(v=VS.85).aspx">IObjectContextInfo</a> interface.
+Provides additional information about an object's context. This interface extends the <a href="https://msdn.microsoft.com/76dcc6f3-f840-4672-bba9-038c1249a306">IObjectContextInfo</a> interface.
 
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextInfo2</b> interface inherits from <b>IObjectContextInfo</b>. <b>IObjectContextInfo2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IObjectContextInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681164(v=VS.85).aspx">GetApplicationId</a>
+<a href="https://msdn.microsoft.com/45cf882a-7a46-4106-a03d-c87c0b52477e">GetApplicationId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the application of the current object context.
@@ -79,7 +79,7 @@ Retrieves the identifier of the application of the current object context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687117(v=VS.85).aspx">GetApplicationInstanceId</a>
+<a href="https://msdn.microsoft.com/e20e02c8-23ad-4234-9f20-4e8cae2e9279">GetApplicationInstanceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the application instance of the current object context.
@@ -88,7 +88,7 @@ Retrieves the identifier of the application instance of the current object conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678905(v=VS.85).aspx">GetPartitionId</a>
+<a href="https://msdn.microsoft.com/090afcec-d124-4b7c-822a-ecb56f9037a6">GetPartitionId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the partition of the current object context.
@@ -103,11 +103,11 @@ Retrieves the identifier of the partition of the current object context.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681289(v=VS.85).aspx">COM+ Contexts and Threading Models</a>
+<a href="https://msdn.microsoft.com/50ccf75e-2652-4254-a771-af83cc9248b3">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682798(v=VS.85).aspx">IObjectContextInfo</a>
+<a href="https://msdn.microsoft.com/76dcc6f3-f840-4672-bba9-038c1249a306">IObjectContextInfo</a>
  
 
  

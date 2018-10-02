@@ -7,7 +7,7 @@ old-location: mstv\ienumcomponents_skip.htm
 tech.root: MSTV
 ms.assetid: f63eca00-c47c-4b9f-8f7a-7080c23653ce
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Skip method, IEnumComponents.Skip, IEnumComponents::Skip, IEnumComponentsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_skip, tuner/IEnumComponents::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSinkWriterEncoderConfig::PlaceEncodingParameters
 author: windows-sdk-content
 description: Dynamically updates the encoder configuration with a collection of new encoder settings.
 old-location: mf\imfsinkwriterencoderconfig_placeencodingparameters.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ea09d806-c869-4a62-8f9d-c35db4e406ff
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],PlaceEncodingParameters method, IMFSinkWriterEncoderConfig.PlaceEncodingParameters, IMFSinkWriterEncoderConfig::PlaceEncodingParameters, PlaceEncodingParameters, PlaceEncodingParameters method [Media Foundation], PlaceEncodingParameters method [Media Foundation],IMFSinkWriterEncoderConfig interface, mf.imfsinkwriterencoderconfig_placeencodingparameters, mfreadwrite/IMFSinkWriterEncoderConfig::PlaceEncodingParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

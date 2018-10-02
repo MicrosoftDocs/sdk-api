@@ -4,10 +4,10 @@ title: PDX_IRQCALLBACK
 author: windows-sdk-content
 description: The IRQCallback function performs operations related to the IRQ that occurred.
 old-location: display\irqcallback.htm
-tech.root: display
+tech.root: Display
 ms.assetid: c4e47fb2-0d41-4efe-8f84-41e279ac8bbb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IRQCallback, IRQCallback callback function [Display Devices], PDX_IRQCALLBACK, PDX_IRQCALLBACK callback, ddfncs_761fa81e-0ee5-45f4-9e33-36ecfe5c00fb.xml, display.irqcallback, dxmini/IRQCallback
 ms.prod: windows
 ms.technology: windows-sdk

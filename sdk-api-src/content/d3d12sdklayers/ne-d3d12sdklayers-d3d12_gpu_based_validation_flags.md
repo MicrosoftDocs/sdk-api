@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_gpu_based_validation_flags.htm
 tech.root: direct3d12
 ms.assetid: D9FA7F77-8DE8-4630-A9C7-E95B9E997E23
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_GPU_BASED_VALIDATION_FLAGS, D3D12_GPU_BASED_VALIDATION_FLAGS enumeration, D3D12_GPU_BASED_VALIDATION_FLAGS_DISABLE_STATE_TRACKING, D3D12_GPU_BASED_VALIDATION_FLAGS_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS_DISABLE_STATE_TRACKING, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS_NONE, direct3d12.d3d12_gpu_based_validation_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ When set, GPU-based validation does not perform resource state validation which 
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/Mt492651(v=VS.85).aspx">ID3D12Debug2::SetGPUBasedValidationFlags</a> method to configure the amount of runtime validation that will occur.
+This enumeration is used with the <a href="https://msdn.microsoft.com/EA774CC4-7675-46AA-9CDF-56C8B9507702">ID3D12Debug2::SetGPUBasedValidationFlags</a> method to configure the amount of runtime validation that will occur.
 
 
 
@@ -82,7 +82,7 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
  
 
  

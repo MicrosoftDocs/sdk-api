@@ -4,10 +4,10 @@ title: IMFSample::AddBuffer
 author: windows-sdk-content
 description: Adds a buffer to the end of the list of buffers in the sample.
 old-location: mf\imfsample_addbuffer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 61c2a1dc-b9fe-4296-bf33-d54006cad32b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer, AddBuffer method [Media Foundation], AddBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],AddBuffer method, IMFSample.AddBuffer, IMFSample::AddBuffer, mf.imfsample_addbuffer, mfobjects/IMFSample::AddBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

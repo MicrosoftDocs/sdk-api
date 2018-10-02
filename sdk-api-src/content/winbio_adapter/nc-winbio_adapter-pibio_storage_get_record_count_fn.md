@@ -7,7 +7,7 @@ old-location: secbiomet\storageadaptergetrecordcount.htm
 tech.root: SecBioMet
 ms.assetid: dc7891c3-33f7-498c-acb1-4687909debb7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_GET_RECORD_COUNT_FN, PIBIO_STORAGE_GET_RECORD_COUNT_FN callback, StorageAdapterGetRecordCount, StorageAdapterGetRecordCount callback function [Windows Biometric Framework API], secbiomet.storageadaptergetrecordcount, winbio_adapter/StorageAdapterGetRecordCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,9 +130,13 @@ The number of records currently in the result set is determined by the most rece
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-/////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterGetRecordCount
 //
@@ -163,10 +167,10 @@ StorageAdapterGetRecordCount(
     }
 
     // Retrieve the context from the pipeline.
-    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
+    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
 
     // Verify the pipeline state.
-    if (storageContext == NULL || storageContext->FileHandle == INVALID_HANDLE_VALUE)
+    if (storageContext == NULL || storageContext-&gt;FileHandle == INVALID_HANDLE_VALUE)
     {
         hr =  WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -174,16 +178,16 @@ StorageAdapterGetRecordCount(
 
     // Call a custom function (_ResultSetGetCount) to retrieve the number of
     // records that the most recent query left in the result set.
-    hr = _ResultSetGetCount( &storageContext->ResultSet, RecordCount);
+    hr = _ResultSetGetCount( &amp;storageContext-&gt;ResultSet, RecordCount);
 
 cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

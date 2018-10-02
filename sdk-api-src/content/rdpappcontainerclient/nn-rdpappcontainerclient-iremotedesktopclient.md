@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclient.htm
 tech.root: TermServ
 ms.assetid: 4b4c1080-3ea1-4557-92d6-45a80a788071
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRemoteDesktopClient, IRemoteDesktopClient interface [Remote Desktop Services], IRemoteDesktopClient interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClient, termserv.iremotedesktopclient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Provides methods and properties used to configure and use the Remote Desktop Pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClient</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRemoteDesktopClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClient</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IRemoteDesktopClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

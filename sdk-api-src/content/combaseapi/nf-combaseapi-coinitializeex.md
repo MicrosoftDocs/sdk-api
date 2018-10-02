@@ -7,7 +7,7 @@ old-location: com\coinitializeex.htm
 tech.root: com
 ms.assetid: ffb79c0f-aeda-4ea1-aea8-afb79109837f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CoInitializeEx, CoInitializeEx function [COM], _com_CoInitializeEx, com.coinitializeex, combaseapi/CoInitializeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 ### -param dwCoInit [in]
 
-The concurrency model and initialization options for the thread. Values for this parameter are taken from the <a href="https://msdn.microsoft.com/en-us/library/ms678505(v=VS.85).aspx">COINIT</a> enumeration. Any combination of values from <b>COINIT</b> can be used, except that the COINIT_APARTMENTTHREADED and COINIT_MULTITHREADED flags cannot both be set. The default is COINIT_MULTITHREADED.
+The concurrency model and initialization options for the thread. Values for this parameter are taken from the <a href="https://msdn.microsoft.com/0ac4a809-05f8-46d7-8e79-9d4e88b487f4">COINIT</a> enumeration. Any combination of values from <b>COINIT</b> can be used, except that the COINIT_APARTMENTTHREADED and COINIT_MULTITHREADED flags cannot both be set. The default is COINIT_MULTITHREADED.
 
 
 ## -returns
@@ -115,7 +115,7 @@ The COM library is already initialized on this thread.
 </dl>
 </td>
 <td width="60%">
-A previous call to <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> specified the concurrency model for this thread as multithread apartment (MTA). This could also indicate that a change from neutral-threaded apartment to single-threaded apartment has occurred.
+A previous call to <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> specified the concurrency model for this thread as multithread apartment (MTA). This could also indicate that a change from neutral-threaded apartment to single-threaded apartment has occurred.
 
 </td>
 </tr>
@@ -129,27 +129,27 @@ A previous call to <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=
 
 
 
-<b>CoInitializeEx</b> must be called at least once, and is usually called only once, for each thread that uses the COM library. Multiple calls to <b>CoInitializeEx</b> by the same thread are allowed as long as they pass the same concurrency flag, but subsequent valid calls return S_FALSE. To close the COM library gracefully on a thread, each successful call to <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a> or <b>CoInitializeEx</b>, including any call that returns S_FALSE, must be balanced by a corresponding call to <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a>.
+<b>CoInitializeEx</b> must be called at least once, and is usually called only once, for each thread that uses the COM library. Multiple calls to <b>CoInitializeEx</b> by the same thread are allowed as long as they pass the same concurrency flag, but subsequent valid calls return S_FALSE. To close the COM library gracefully on a thread, each successful call to <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <b>CoInitializeEx</b>, including any call that returns S_FALSE, must be balanced by a corresponding call to <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a>.
 
-You need to initialize the COM library on a thread before you call any of the library functions except <a href="https://msdn.microsoft.com/en-us/library/ms693395(v=VS.85).aspx">CoGetMalloc</a>, to get a pointer to the standard allocator, and the memory allocation functions.
+You need to initialize the COM library on a thread before you call any of the library functions except <a href="https://msdn.microsoft.com/d1d09fbe-ca5c-4480-b807-3afcc043ccb9">CoGetMalloc</a>, to get a pointer to the standard allocator, and the memory allocation functions.
 
 Otherwise, the COM function will return CO_E_NOTINITIALIZED.
 
-After the concurrency model for a thread is set, it cannot be changed. A call to <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a> on an apartment that was previously initialized as multithreaded will fail and return RPC_E_CHANGED_MODE. 
+After the concurrency model for a thread is set, it cannot be changed. A call to <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> on an apartment that was previously initialized as multithreaded will fail and return RPC_E_CHANGED_MODE. 
 
 
 
-Objects created in a single-threaded apartment (STA) receive method calls only from their apartment's thread, so calls are serialized and arrive only at message-queue boundaries (when the <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a> function is called).
+Objects created in a single-threaded apartment (STA) receive method calls only from their apartment's thread, so calls are serialized and arrive only at message-queue boundaries (when the <a href="_win32_PeekMessage_cpp">PeekMessage</a> or <a href="_win32_SendMessage_cpp">SendMessage</a> function is called).
 
 Objects created on a COM thread in a multithread apartment (MTA) must be able to receive method calls from other threads at any time. You would typically implement some form of concurrency control in a multithreaded object's code using synchronization primitives such as critical sections, semaphores, or mutexes to help protect the object's data. 
 
 When an object that is configured to run in the neutral threaded apartment (NTA) is called by a thread that is in either an STA or the MTA, that thread transfers to the NTA. If this thread subsequently calls <b>CoInitializeEx</b>, the call fails and returns RPC_E_CHANGED_MODE.
 
-Because OLE technologies are not thread-safe, the <a href="https://msdn.microsoft.com/en-us/library/ms690134(v=VS.85).aspx">OleInitialize</a> function calls <b>CoInitializeEx</b> with the COINIT_APARTMENTTHREADED flag. As a result, an apartment that is initialized for multithreaded object concurrency cannot use the features enabled by <b>OleInitialize</b>.
+Because OLE technologies are not thread-safe, the <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> function calls <b>CoInitializeEx</b> with the COINIT_APARTMENTTHREADED flag. As a result, an apartment that is initialized for multithreaded object concurrency cannot use the features enabled by <b>OleInitialize</b>.
 
 
 
-Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a>, <b>CoInitializeEx</b>, or <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> from the <a href="https://msdn.microsoft.com/en-us/library/ms682583(v=VS.85).aspx">DllMain</a> function.
+Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>, <b>CoInitializeEx</b>, or <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> from the <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function.
 
 
 
@@ -159,7 +159,7 @@ Because there is no way to control the order in which in-process servers are loa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693344(v=VS.85).aspx">Processes, Threads, and Apartments</a>
+<a href="https://msdn.microsoft.com/cb62412a-d079-40f9-89dc-cce0bf3889af">Processes, Threads, and Apartments</a>
  
 
  

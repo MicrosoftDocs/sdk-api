@@ -7,7 +7,7 @@ old-location: mstv\ibda_mux_getpidlist.htm
 tech.root: MSTV
 ms.assetid: 92b13d40-4841-45ce-b232-5e29a93d71c5
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetPidList, GetPidList method [Microsoft TV Technologies], GetPidList method [Microsoft TV Technologies],IBDA_MUX interface, IBDA_MUX interface [Microsoft TV Technologies],GetPidList method, IBDA_MUX.GetPidList, IBDA_MUX::GetPidList, bdaiface/IBDA_MUX::GetPidList, mstv.ibda_mux_getpidlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ On input, specifies the size, in array elements, of the <i>pbPidListBuffer</i> a
 
 ### -param pbPidListBuffer [in, out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd693013(v=VS.85).aspx">BDA_MUX_PIDLISTITEM</a> structures. The method fills in the array with the list of PIDs.
+Pointer to an array of <a href="https://msdn.microsoft.com/50355317-7133-445c-9990-ab536801e555">BDA_MUX_PIDLISTITEM</a> structures. The method fills in the array with the list of PIDs.
 
 
 ## -returns
@@ -121,7 +121,7 @@ If the <i>pbPidListBuffer</i> array is too small, the method returns <b>E_NOT_SU
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693403(v=VS.85).aspx">IBDA_MUX</a>
+<a href="https://msdn.microsoft.com/5dde7b14-d5a4-4db5-b91f-d6bfd4be269d">IBDA_MUX</a>
  
 
  

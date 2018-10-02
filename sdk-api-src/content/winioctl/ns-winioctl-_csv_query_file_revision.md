@@ -7,7 +7,7 @@ old-location: fs\csv_query_file_revision.htm
 tech.root: fileio
 ms.assetid: 8CF62F9F-9429-435A-B79D-3A97249356A5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PCSV_QUERY_FILE_REVISION, CSV_QUERY_FILE_REVISION, CSV_QUERY_FILE_REVISION structure [Files], PCSV_QUERY_FILE_REVISION, PCSV_QUERY_FILE_REVISION structure pointer [Files], _CSV_QUERY_FILE_REVISION, fs.csv_query_file_revision, winioctl/CSV_QUERY_FILE_REVISION, winioctl/PCSV_QUERY_FILE_REVISION"
 ms.prod: windows
 ms.technology: windows-sdk

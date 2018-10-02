@@ -7,7 +7,7 @@ old-location: eaphost\eaphost_auth_info.htm
 tech.root: EAPHost
 ms.assetid: b05a1862-9709-4459-a445-5ea4e00cab88
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EAPHOST_AUTH_INFO, EAPHOST_AUTH_INFO structure [EAPHost], _EAPHOST_AUTH_INFO, eaphost.eaphost_auth_info, eaphostpeertypes/EAPHOST_AUTH_INFO
 ms.prod: windows
 ms.technology: windows-sdk

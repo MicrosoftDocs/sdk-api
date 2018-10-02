@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage_getsize.htm
 tech.root: WMDM
 ms.assetid: 1042b71b-1656-4f0b-be95-8a09ba4421ed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSize, GetSize method [windows Media Device Manager], GetSize method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetSize method, IWMDMStorage.GetSize, IWMDMStorage::GetSize, IWMDMStorageGetSize, mswmdm/IWMDMStorage::GetSize, wmdm.iwmdmstorage_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,18 +99,22 @@ For folders or abstract objects (such as abstract playlists), the size is zero.
 
 The following C++ code retrieves the size of a file, in kilobytes.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get size of file in kilobytes.
 DWORD lowSize = 0;
 DWORD highSize = 0;
-hr = pStorage->GetSize(&lowSize, &highSize);
+hr = pStorage-&gt;GetSize(&amp;lowSize, &amp;highSize);
 //TODO: Display the file size.
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

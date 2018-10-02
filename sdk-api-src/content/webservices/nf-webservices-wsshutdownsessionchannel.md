@@ -7,7 +7,7 @@ old-location: wsw\wsshutdownsessionchannel.htm
 tech.root: wsw
 ms.assetid: db12b0b7-698e-4c74-b547-6c95d0c5fdb7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsShutdownSessionChannel, WsShutdownSessionChannel function [Web Services for Windows], webservices/WsShutdownSessionChannel, wsw.wsshutdownsessionchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

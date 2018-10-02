@@ -4,10 +4,10 @@ title: INameSpaceTreeControl::SetItemCustomState
 author: windows-sdk-content
 description: Sets the state of the checkbox associated with the Shell item.
 old-location: shell\INameSpaceTreeControl_SetItemCustomState.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a27fa2a3-3e10-4053-b0b6-222c7b517b5a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetItemCustomState method, INameSpaceTreeControl.SetItemCustomState, INameSpaceTreeControl::SetItemCustomState, SetItemCustomState, SetItemCustomState method [Windows Shell], SetItemCustomState method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetItemCustomState, shell.INameSpaceTreeControl_SetItemCustomState, shobjidl_core/INameSpaceTreeControl::SetItemCustomState
 ms.prod: windows-hardware
 ms.technology: windows-devices

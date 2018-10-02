@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer.htm
 tech.root: MSTV
 ms.assetid: 27eb53f8-ece8-43eb-8f94-b3d2d91548ad
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], IMSVidVideoRenderer interface [Microsoft TV Technologies],described, IMSVidVideoRendererInterface, mstv.imsvidvideorenderer, segment/IMSVidVideoRenderer
 ms.prod: windows
 ms.technology: windows-sdk

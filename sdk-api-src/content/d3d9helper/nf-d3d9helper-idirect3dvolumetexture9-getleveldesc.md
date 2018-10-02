@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolumetexture9__getleveldesc.htm
 tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__getleveldesc.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: 6c5724cb-a5d1-ccdb-bcca-67000d91dacf, GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9],IDirect3DVolumeTexture9 interface, IDirect3DVolumeTexture9 interface [Direct3D 9],GetLevelDesc method, IDirect3DVolumeTexture9.GetLevelDesc, IDirect3DVolumeTexture9::GetLevelDesc, d3d9helper/IDirect3DVolumeTexture9::GetLevelDesc, direct3d9.idirect3dvolumetexture9__getleveldesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,16 +68,16 @@ Identifies a level of the volume texture resource. This method returns a volume 
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172633(v=VS.85).aspx">D3DVOLUME_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c0224f4e-3d32-4bdd-b56c-4e8aa291bb27">D3DVOLUME_DESC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172633(v=VS.85).aspx">D3DVOLUME_DESC</a> structure, describing the returned volume texture level. 
+Pointer to a <a href="https://msdn.microsoft.com/c0224f4e-3d32-4bdd-b56c-4e8aa291bb27">D3DVOLUME_DESC</a> structure, describing the returned volume texture level. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if one or more of the arguments are invalid.
 
@@ -89,7 +89,7 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205941(v=VS.85).aspx">IDirect3DVolumeTexture9</a>
+<a href="https://msdn.microsoft.com/c92cabb8-61d1-4dcf-acf1-fddd3e007d47">IDirect3DVolumeTexture9</a>
  
 
  

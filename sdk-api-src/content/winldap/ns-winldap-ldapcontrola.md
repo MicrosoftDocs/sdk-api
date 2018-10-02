@@ -7,7 +7,7 @@ old-location: ldap\ldapcontrol.htm
 tech.root: LDAP
 ms.assetid: c0b4d712-021d-46f3-8bda-aaf660ec1acc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PLDAPControlA, LDAPControl, LDAPControl structure [LDAP], LDAPControlA, LDAPControlW, PLDAPControl, PLDAPControl structure pointer [LDAP], _ldap_ldapcontrol, ldap.ldapcontrol, ldapcontrolA, winldap/LDAPControl, winldap/LDAPControlA, winldap/LDAPControlW, winldap/PLDAPControl"
 ms.prod: windows
 ms.technology: windows-sdk

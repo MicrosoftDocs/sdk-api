@@ -4,10 +4,10 @@ title: PropSheet_EnableWizButtons macro
 author: windows-sdk-content
 description: Enables or disables buttons in an Aero wizard. You can use this macro or send the PSM_ENABLEWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_EnableWizButtons.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_enablewizbuttons.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_EnableWizButtons, PropSheet_EnableWizButtons macro [Windows Controls], _win32_PropSheet_EnableWizButtons, _win32_PropSheet_EnableWizButtons_cpp, controls.PropSheet_EnableWizButtons, controls._win32_PropSheet_EnableWizButtons, prsht/PropSheet_EnableWizButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774577(v=VS.85).aspx">PSM_ENABLEWIZBUTTONS</a> message explicitly.
+Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/9e8ff2dc-c0e7-4754-8be2-2c7b65a524f4">PSM_ENABLEWIZBUTTONS</a> message explicitly.
 
 
 ## -parameters
@@ -133,13 +133,17 @@ One or more of the same values used in <i>dwState</i>, specifying which buttons 
 
 The following example code enables the <b>Back</b> button and disables the <b>Next</b> button.
 
-
-```
-PropSheet_EnableWizButtons(hwnd,
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PropSheet_EnableWizButtons(hwnd,
                          PSWIZB_NEXT,
-                         PSWIZB_BACK | PSWIZB_NEXT);
-```
-
-
+                         PSWIZB_BACK | PSWIZB_NEXT);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: gdi\cfp_freeproc.htm
 tech.root: gdi
 ms.assetid: cd99e704-b3a8-4d55-946f-76dd47b2a030
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CFP_FREEPROC, CFP_FREEPROC callback, CFP_FREEPROC callback function [Windows GDI], _win32_CFP_FREEPROC, fontsub/CFP_FREEPROC, gdi.cfp_freeproc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Deallocates a memory block (<i>memblock</i>) that was previously allocated by a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318652(v=VS.85).aspx">free</a> conforms to this type; the application can either use <b>free</b> or a more specialized function. Whatever function is chosen, there must also be appropriate functions to allocate and to reallocate this memory. 
+<a href="74ded9cf-1863-432e-9306-327a42080bb8">free</a> conforms to this type; the application can either use <b>free</b> or a more specialized function. Whatever function is chosen, there must also be appropriate functions to allocate and to reallocate this memory. 
       
 
 

@@ -4,10 +4,10 @@ title: ISyncMgrConflictStore
 author: windows-sdk-content
 description: Exposes methods that allow a handler to provide conflicts that appear in the Conflicts folder.
 old-location: shell\ISyncMgrConflictStore.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 25f47c73-eb9f-4beb-aa10-4f12b38d6507
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrConflictStore, ISyncMgrConflictStore interface [Windows Shell], ISyncMgrConflictStore interface [Windows Shell],described, _shell_ISyncMgrConflictStore, shell.ISyncMgrConflictStore, syncmgr/ISyncMgrConflictStore
 ms.prod: windows
 ms.technology: windows-sdk

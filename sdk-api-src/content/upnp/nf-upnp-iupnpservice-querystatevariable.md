@@ -7,7 +7,7 @@ old-location: upnp\iupnpservice_querystatevariable.htm
 tech.root: UPnP
 ms.assetid: d92785a2-e04c-4968-b515-019205180915
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUPnPService interface [UPnP APIs],QueryStateVariable method, IUPnPService.QueryStateVariable, IUPnPService::QueryStateVariable, QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ Receives a reference to the value of the variable specified by <i>bstrVariableNa
 
 
 
-To free this parameter, use <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
+To free this parameter, use <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
 						
 
 

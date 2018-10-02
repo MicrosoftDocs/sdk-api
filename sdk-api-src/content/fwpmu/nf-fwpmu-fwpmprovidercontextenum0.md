@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextenum0_func.htm
 tech.root: FWP
 ms.assetid: a086c9b3-5cec-4cea-9224-ba423302eba8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmProviderContextEnum0, FwpmProviderContextEnum0 function [Filtering], fwp.fwpmprovidercontextenum0_func, fwpmu/FwpmProviderContextEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEventTrigger::put_Subscription
 author: windows-sdk-content
 description: Gets or sets a query string that identifies the event that fires the trigger.
 old-location: taskschd\ieventtrigger_subscription.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 884b98cd-f782-44af-9534-067198a7f48d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IEventTrigger interface [Task Scheduler],Subscription property, IEventTrigger.Subscription, IEventTrigger.put_Subscription, IEventTrigger::Subscription, IEventTrigger::get_Subscription, IEventTrigger::put_Subscription, Subscription property [Task Scheduler], Subscription property [Task Scheduler],IEventTrigger interface, put_Subscription, taskschd.ieventtrigger_subscription, taskschd/IEventTrigger::Subscription, taskschd/IEventTrigger::get_Subscription, taskschd/IEventTrigger::put_Subscription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,16 +74,20 @@ For more information about writing a query string for certain events, see <a hre
 The following query string defines a subscription to all level 2 events in the System channel.
 
 
-
-```xml
-"<QueryList>
-    <Query Id='1'>
-        <Select Path='System'>*[System/Level=2]</Select>
-    </Query>
-</QueryList>"
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>"&lt;QueryList&gt;
+    &lt;Query Id='1'&gt;
+        &lt;Select Path='System'&gt;*[System/Level=2]&lt;/Select&gt;
+    &lt;/Query&gt;
+&lt;/QueryList&gt;"</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

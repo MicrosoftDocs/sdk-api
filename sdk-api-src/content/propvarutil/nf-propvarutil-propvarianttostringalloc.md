@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringAlloc.htm
 tech.root: properties
 ms.assetid: 5e47cc72-4179-4ebe-8700-87861146b3d7
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PropVariantToStringAlloc, PropVariantToStringAlloc function [Windows Properties], _shell_PropVariantToStringAlloc, properties.PropVariantToStringAlloc, propvarutil/PropVariantToStringAlloc, shell.PropVariantToStringAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,29 +89,33 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a string value.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_LPWSTR or VT_BSTR, this function extracts the string into a newly allocated buffer. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a string. If a conversion is not possible, <a href="https://msdn.microsoft.com/en-us/library/Bb776560(v=VS.85).aspx">PropVariantToStringAlloc</a> will return a failure code and set <i>ppszOut</i> to <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions. Of note, <b>VT_EMPTY</b> is successfully converted to an allocated buffer containing "".
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_LPWSTR or VT_BSTR, this function extracts the string into a newly allocated buffer. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a string. If a conversion is not possible, <a href="shell.PropVariantToStringAlloc">PropVariantToStringAlloc</a> will return a failure code and set <i>ppszOut</i> to <b>NULL</b>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, <b>VT_EMPTY</b> is successfully converted to an allocated buffer containing "".
 
 The calling application is responsible for using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the string pointed to by <i>ppszOut</i> when it is no longer needed.
 
-In addition to the conversions provided by <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>, the following special cases apply to <a href="https://msdn.microsoft.com/en-us/library/Bb776560(v=VS.85).aspx">PropVariantToStringAlloc</a>. 
+In addition to the conversions provided by <a href="shell.PropVariantChangeType">PropVariantChangeType</a>, the following special cases apply to <a href="shell.PropVariantToStringAlloc">PropVariantToStringAlloc</a>. 
                 
 
 <ul>
-<li>Vector-valued PROPVARIANTs are converted to strings by separating each element with using "; ". For example, <a href="https://msdn.microsoft.com/en-us/library/Bb776560(v=VS.85).aspx">PropVariantToStringAlloc</a> converts a vector of 3 integers, {3, 1, 4}, to the string "3; 1; 4". The semicolon is independent of the current locale.</li>
+<li>Vector-valued PROPVARIANTs are converted to strings by separating each element with using "; ". For example, <a href="shell.PropVariantToStringAlloc">PropVariantToStringAlloc</a> converts a vector of 3 integers, {3, 1, 4}, to the string "3; 1; 4". The semicolon is independent of the current locale.</li>
 <li>VT_BLOB, VT_STREAM, VT_STREAMED_OBJECT, and VT_UNKNOWN values are converted to strings using an unsupported encoding. It is not possible to decode strings created in this way and the format may change in the future.</li>
 </ul>
 
 #### Examples
 
-
-```cpp
-// IPropertyStore *ppropstore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *ppropstore;
 
 // Assume variable ppropstore is initialized and valid
 
 PROPVARIANT propvar = {0};
 
-HRESULT hr = ppropstore->GetValue(PKEY_Title, &propvar);
+HRESULT hr = ppropstore-&gt;GetValue(PKEY_Title, &amp;propvar);
 
 if (SUCCEEDED(hr))
 
@@ -123,7 +127,7 @@ if (SUCCEEDED(hr))
 
     LPWSTR pszTitle;
 
-    hr = PropVariantToString(propvar, &pszTitle);
+    hr = PropVariantToString(propvar, &amp;pszTitle);
 
     if (SUCCEEDED(hr))
 
@@ -141,12 +145,12 @@ if (SUCCEEDED(hr))
 
     }
 
-    PropVariantClear(&propvar);
+    PropVariantClear(&amp;propvar);
 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -155,23 +159,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
+<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
+<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776617(v=VS.85).aspx">VariantToString</a>
+<a href="shell.VariantToString">VariantToString</a>
  
 
  

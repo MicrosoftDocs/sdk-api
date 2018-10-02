@@ -7,7 +7,7 @@ old-location: iphlp\notifyroutechange2.htm
 tech.root: IpHlp
 ms.assetid: f104dc0c-b3e0-4f22-ac5f-5dbf967be31b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyRouteChange2, NotifyRouteChange2 function [IP Helper], iphlp.notifyroutechange2, netioapi/NotifyRouteChange2
 ms.prod: windows-hardware
 ms.technology: windows-devices

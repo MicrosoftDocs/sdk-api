@@ -7,7 +7,7 @@ old-location: secbiomet\winbiounlockunit.htm
 tech.root: SecBioMet
 ms.assetid: 689adf39-da62-4e83-94e9-e2daa7bd4753
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WinBioUnlockUnit, WinBioUnlockUnit function [Windows Biometric Framework API], secbiomet.winbiounlockunit, winbio/WinBioUnlockUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,9 +150,13 @@ unit before calling <a href="https://msdn.microsoft.com/aaa9b4cd-81d4-4fee-a40a-
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT LockUnlock( )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT LockUnlock( )
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -171,7 +175,7 @@ HRESULT LockUnlock( )
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -196,10 +200,10 @@ HRESULT LockUnlock( )
     wprintf_s(L"\n Calling WinBioIdentify - Swipe finger on sensor...\n");
     hr = WinBioIdentify( 
             sessionHandle, 
-            &unitId, 
-            &identity, 
-            &subFactor, 
-            &rejectDetail
+            &amp;unitId, 
+            &amp;identity, 
+            &amp;subFactor, 
+            &amp;rejectDetail
             );
     wprintf_s(L"\n Swipe processed - Unit ID: %d\n", unitId);
     if (FAILED(hr))
@@ -235,10 +239,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetRegionScansCount_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getregionscanscount.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: GetRegionScansCount, GetRegionScansCount method [GDI+], GetRegionScansCount method [GDI+],Region class, Region class [GDI+],GetRegionScansCount method, Region.GetRegionScansCount, Region::GetRegionScansCount, _gdiplus_CLASS_Region_GetRegionScansCount_matrix_, gdiplus._gdiplus_CLASS_Region_GetRegionScansCount_matrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>Region::GetRegionScansCount</b> method gets the number of rectangles that
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>*</b>
 
 Pointer to a matrix that is used to transform the region. 
 
@@ -82,7 +82,7 @@ This method returns an integer that indicates the number of rectangles that appr
 
 
 
-The <b>Region::GetRegionScansCount</b> method can be used before the <a href="https://msdn.microsoft.com/en-us/library/ms534778(v=VS.85).aspx">GetRegionScans</a> method to determine the number of rectangles. Then, you can allocate a buffer that is the correct size to store the rectangles that are obtained with the GetRegionScans method.
+The <b>Region::GetRegionScansCount</b> method can be used before the <a href="https://msdn.microsoft.com/8a9bfbef-9a9c-40f8-9262-62691ae4362d">GetRegionScans</a> method to determine the number of rectangles. Then, you can allocate a buffer that is the correct size to store the rectangles that are obtained with the GetRegionScans method.
 
 
 #### Examples
@@ -91,9 +91,13 @@ The <b>Region::GetRegionScansCount</b> method can be used before the <a href="ht
 
 The following example creates a region from a path and gets a set of rectangles that approximate the region. The code then draws each of the rectangles.
 
-
-```cpp
-VOID Example_GetRegionScansCount(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetRegionScansCount(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -106,24 +110,24 @@ VOID Example_GetRegionScansCount(HDC hdc)
 
    // Create a region from a path.
    path.AddEllipse(10, 10, 50, 300);
-   Region pathRegion(&path);    
-   graphics.FillRegion(&solidBrush, &pathRegion);
+   Region pathRegion(&amp;path);    
+   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
 
    // Get the rectangles.
-   graphics.GetTransform(&matrix);
-   count = pathRegion.GetRegionScansCount(&matrix);
+   graphics.GetTransform(&amp;matrix);
+   count = pathRegion.GetRegionScansCount(&amp;matrix);
    rects = (RectF*)malloc(count*sizeof(RectF));
-   pathRegion.GetRegionScans(&matrix, rects, &count);
+   pathRegion.GetRegionScans(&amp;matrix, rects, &amp;count);
     
    // Draw the rectangles.
-   for(INT j = 0; j < count; ++j)
-      graphics.DrawRectangle(&pen, rects[j]);
+   for(INT j = 0; j &lt; count; ++j)
+      graphics.DrawRectangle(&amp;pen, rects[j]);
 
    free(rects);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -132,19 +136,19 @@ VOID Example_GetRegionScansCount(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534778(v=VS.85).aspx">Region::GetRegionScans Methods</a>
+<a href="https://msdn.microsoft.com/8a9bfbef-9a9c-40f8-9262-62691ae4362d">Region::GetRegionScans Methods</a>
  
 
  

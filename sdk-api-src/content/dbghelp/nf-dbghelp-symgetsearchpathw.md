@@ -4,10 +4,10 @@ title: SymGetSearchPathW function
 author: windows-sdk-content
 description: Retrieves the symbol search path for the specified process.
 old-location: base\symgetsearchpath.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: aa8c8450-ee67-4614-98a1-5feebdd3a788
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymGetSearchPath, SymGetSearchPath function, SymGetSearchPathW, _win32_symgetsearchpath, base.symgetsearchpath, dbghelp/SymGetSearchPath, dbghelp/SymGetSearchPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

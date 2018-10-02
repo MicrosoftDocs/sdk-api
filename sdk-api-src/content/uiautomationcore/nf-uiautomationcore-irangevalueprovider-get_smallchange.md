@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRangeValueProvider_SmallChange.htm
 tech.root: WinAuto
 ms.assetid: 8230747d-d8c3-4708-a77a-7c76a62f39dd
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],SmallChange property, IRangeValueProvider.SmallChange, IRangeValueProvider.get_SmallChange, IRangeValueProvider::SmallChange, IRangeValueProvider::get_SmallChange, SmallChange property [Windows Accessibility], SmallChange property [Windows Accessibility],IRangeValueProvider interface, get_SmallChange, uiauto.uiauto_IRangeValueProvider_SmallChange, uiauto_IRangeValueProvider_SmallChange, uiautomationcore/IRangeValueProvider::SmallChange, uiautomationcore/IRangeValueProvider::get_SmallChange, winauto.uiauto_IRangeValueProvider_SmallChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,21 +69,29 @@ The SmallChange property can support Not a Number (NaN) value. When returning a 
 
             
 
-
-```
-ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
-    *pRetVal = *reinterpret_cast<double*>(&ulNaN);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
+    *pRetVal = *reinterpret_cast&lt;double*&gt;(&amp;ulNaN);</pre>
+</td>
+</tr>
+</table></span></div>
 Alternatively, you can use the following function from the standard C++ libraries:
 
-
-```
-numeric_limits<double>::quiet_NaN( )
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>numeric_limits&lt;double&gt;::quiet_NaN( )</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

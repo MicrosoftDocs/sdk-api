@@ -4,10 +4,10 @@ title: ITransferDestination::Advise
 author: windows-sdk-content
 description: Sets up an advisory connection for notifications on the status of file operations.
 old-location: shell\ITransferDestination_Advise.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e25040dd-bb51-45cc-99fb-9113e26d0baa
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],Advise method, ITransferDestination.Advise, ITransferDestination::Advise, _shell_ITransferDestination_Advise, shell.ITransferDestination_Advise, shobjidl_core/ITransferDestination::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

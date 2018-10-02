@@ -4,10 +4,10 @@ title: PRESUTIL_GET_EXPAND_SZ_VALUE
 author: windows-sdk-content
 description: Returns a expandable string value from the cluster database.
 old-location: mscs\resutilgetexpandszvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PRESUTIL_GET_EXPAND_SZ_VALUE, PRESUTIL_GET_EXPAND_SZ_VALUE callback, PRESUTIL_GET_EXPAND_SZ_VALUE callback function [Failover Cluster], _wolf_resutilgetexpandszvalue, mscs.resutilgetexpandszvalue, resapi/PRESUTIL_GET_EXPAND_SZ_VALUE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.redist:
     section. Support for this method was removed in Windows Server 2003. This function is not exported 
     from ResUtils.dll and programs or DLLs that statically link to it will not load.]
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa369570(v=VS.85).aspx">expandable string</a> value from the 
+Returns a <a href="e_gly.htm">expandable string</a> value from the 
     <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
 
 

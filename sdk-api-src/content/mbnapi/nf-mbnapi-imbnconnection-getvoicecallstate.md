@@ -7,7 +7,7 @@ old-location: mbn\imbnconnection_getvoicecallstate.htm
 tech.root: mbn
 ms.assetid: a715f7c8-a001-41a2-9c1f-ca133568133b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetVoiceCallState, GetVoiceCallState method [Microsoft Broadband Networks], GetVoiceCallState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetVoiceCallState method, IMbnConnection.GetVoiceCallState, IMbnConnection::GetVoiceCallState, mbn.imbnconnection_getvoicecallstate, mbnapi/IMbnConnection::GetVoiceCallState
 ms.prod: windows-hardware
 ms.technology: windows-devices

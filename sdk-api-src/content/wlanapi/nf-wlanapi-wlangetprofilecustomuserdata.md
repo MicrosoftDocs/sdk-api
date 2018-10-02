@@ -7,7 +7,7 @@ old-location: nwifi\wlangetprofilecustomuserdata.htm
 tech.root: NativeWiFi
 ms.assetid: 5973be2f-8267-496b-827b-778f705accdc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WlanGetProfileCustomUserData, WlanGetProfileCustomUserData function [NativeWIFI], nwifi.wlangetprofilecustomuserdata, wlanapi/WlanGetProfileCustomUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -192,19 +192,23 @@ The following example enumerates the wireless LAN interfaces on the local comput
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <windows.h>
-#include <wlanapi.h>
-#include <objbase.h>
-#include <wtypes.h>
+#include &lt;windows.h&gt;
+#include &lt;wlanapi.h&gt;
+#include &lt;objbase.h&gt;
+#include &lt;wtypes.h&gt;
 
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 // Need to link with Wlanapi.lib and Ole32.lib
 #pragma comment(lib, "wlanapi.lib")
@@ -238,8 +242,8 @@ int _cdecl wmain(int argc, WCHAR **argv)
     DWORD dwDataSize = 0;
    
         // Validate the parameters
-    if (argc < 2) {
-        wprintf(L"usage: %s <profile>\n", argv[0]);
+    if (argc &lt; 2) {
+        wprintf(L"usage: %s &lt;profile&gt;\n", argv[0]);
         wprintf(L"   Gets a wireless profile\n");
         wprintf(L"   Example\n");
         wprintf(L"       %s \"Default Wireless\"\n", argv[0]);
@@ -250,14 +254,14 @@ int _cdecl wmain(int argc, WCHAR **argv)
      
     wprintf(L"Custom user data information for profile: %ws\n\n", pProfileName);
     
-    dwResult = WlanOpenHandle(dwMaxClient, NULL, &dwCurVersion, &hClient);
+    dwResult = WlanOpenHandle(dwMaxClient, NULL, &amp;dwCurVersion, &amp;hClient);
     if (dwResult != ERROR_SUCCESS) {
         wprintf(L"WlanOpenHandle failed with error: %u\n", dwResult);
         return 1;
         // You can use FormatMessage here to find out why the function failed
     }
 
-    dwResult = WlanEnumInterfaces(hClient, NULL, &pIfList);
+    dwResult = WlanEnumInterfaces(hClient, NULL, &amp;pIfList);
     if (dwResult != ERROR_SUCCESS) {
         wprintf(L"WlanEnumInterfaces failed with error: %u\n", dwResult);
         return 1;
@@ -265,15 +269,15 @@ int _cdecl wmain(int argc, WCHAR **argv)
     } else {
         wprintf(L"WLAN_INTERFACE_INFO_LIST for this system\n");
 
-        wprintf(L"Num Entries: %lu\n", pIfList->dwNumberOfItems);
-        wprintf(L"Current Index: %lu\n", pIfList->dwIndex);
-        for (i = 0; i < (int) pIfList->dwNumberOfItems; i++) {
-            pIfInfo = (WLAN_INTERFACE_INFO *) &pIfList->InterfaceInfo[i];
+        wprintf(L"Num Entries: %lu\n", pIfList-&gt;dwNumberOfItems);
+        wprintf(L"Current Index: %lu\n", pIfList-&gt;dwIndex);
+        for (i = 0; i &lt; (int) pIfList-&gt;dwNumberOfItems; i++) {
+            pIfInfo = (WLAN_INTERFACE_INFO *) &amp;pIfList-&gt;InterfaceInfo[i];
             wprintf(L"  Interface Index[%u]:\t %lu\n", i, i);
-            iRet = StringFromGUID2(pIfInfo->InterfaceGuid, (LPOLESTR) &GuidString, 
+            iRet = StringFromGUID2(pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 
                 sizeof(GuidString)/sizeof(*GuidString)); 
             // For c rather than C++ source code, the above line needs to be
-            // iRet = StringFromGUID2(&pIfInfo->InterfaceGuid, (LPOLESTR) &GuidString, 
+            // iRet = StringFromGUID2(&amp;pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 
             //     sizeof(GuidString)/sizeof(*GuidString)); 
             if (iRet == 0)
                 wprintf(L"StringFromGUID2 failed\n");
@@ -281,10 +285,10 @@ int _cdecl wmain(int argc, WCHAR **argv)
                 wprintf(L"  InterfaceGUID[%d]: %ws\n",i, GuidString);
             }    
             wprintf(L"  Interface Description[%d]: %ws", i, 
-                pIfInfo->strInterfaceDescription);
+                pIfInfo-&gt;strInterfaceDescription);
             wprintf(L"\n");
             wprintf(L"  Interface State[%d]:\t ", i);
-            switch (pIfInfo->isState) {
+            switch (pIfInfo-&gt;isState) {
             case wlan_interface_state_not_ready:
                 wprintf(L"Not ready\n");
                 break;
@@ -310,17 +314,17 @@ int _cdecl wmain(int argc, WCHAR **argv)
                 wprintf(L"In process of authenticating\n");
                 break;
             default:
-                wprintf(L"Unknown state %ld\n", pIfInfo->isState);
+                wprintf(L"Unknown state %ld\n", pIfInfo-&gt;isState);
                 break;
             }
             wprintf(L"\n");
 
             dwResult = WlanGetProfileCustomUserData(hClient,
-                                             &pIfInfo->InterfaceGuid,
+                                             &amp;pIfInfo-&gt;InterfaceGuid,
                                              pProfileName,
                                              NULL,
-                                             &dwDataSize,
-                                             &pProfileData);
+                                             &amp;dwDataSize,
+                                             &amp;pProfileData);
 
             if (dwResult != ERROR_SUCCESS) {
                 wprintf(L"WlanGetProfileCustomData failed with error: %u\n",
@@ -352,10 +356,10 @@ int _cdecl wmain(int argc, WCHAR **argv)
 
     return dwRetVal;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

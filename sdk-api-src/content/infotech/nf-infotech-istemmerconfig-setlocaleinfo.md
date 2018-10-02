@@ -7,7 +7,7 @@ old-location: htmlhelp\istemmerconfig_setlocaleinfo.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfigsetlocaleinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IStemmerConfig interface [HTML Help Workshop],SetLocaleInfo method, IStemmerConfig.SetLocaleInfo, IStemmerConfig::SetLocaleInfo, SetLocaleInfo, SetLocaleInfo method [HTML Help Workshop], SetLocaleInfo method [HTML Help Workshop],IStemmerConfig interface, htmlhelp.istemmerconfig_setlocaleinfo, infotech/IStemmerConfig::SetLocaleInfo, refIStemmerConfigSetLocaleInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,7 +122,7 @@ Locale described by the parameters is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670063(v=VS.85).aspx">IStemmerConfig</a>
+<a href="https://msdn.microsoft.com/3cdb1f6c-157e-4b6c-8536-9af43e79b08a">IStemmerConfig</a>
  
 
  

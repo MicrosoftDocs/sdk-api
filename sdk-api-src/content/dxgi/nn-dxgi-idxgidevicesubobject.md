@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevicesubobject.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGIDeviceSubObject interface [DXGI],described, cafb6d61-7a76-585b-438f-57d6aaa898c1, direct3ddxgi.idxgidevicesubobject, dxgi/IDXGIDeviceSubObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Inherited from objects that are tied to the device so that they can retrieve a p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDeviceSubObject</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIDeviceSubObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDeviceSubObject</b> interface inherits from <a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>. <b>IDXGIDeviceSubObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDXGIDeviceSubObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174529(v=VS.85).aspx">GetDevice</a>
+<a href="https://msdn.microsoft.com/f15df6a1-287c-4cf2-b6a7-80e60b3cd0d6">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device.
@@ -101,7 +101,7 @@ Retrieves the device.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\certenumsystemstore.htm
 tech.root: seccrypto
 ms.assetid: fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CertEnumSystemStore, CertEnumSystemStore function [Security], _crypto2_certenumsystemstore, security.certenumsystemstore, wincrypt/CertEnumSystemStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,7 +163,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

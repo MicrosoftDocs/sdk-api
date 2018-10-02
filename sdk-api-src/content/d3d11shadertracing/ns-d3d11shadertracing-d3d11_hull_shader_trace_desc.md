@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_hull_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: E91FE826-C1BC-4583-83B0-FF2869AF86F2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_HULL_SHADER_TRACE_DESC, D3D11_HULL_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_HULL_SHADER_TRACE_DESC, direct3d11.d3d11_hull_shader_trace_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476176(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
  
 
  

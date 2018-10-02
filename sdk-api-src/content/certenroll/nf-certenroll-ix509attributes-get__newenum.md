@@ -4,10 +4,10 @@ title: IX509Attributes::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ix509attributes__newenum_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 12964b8d-d079-4c10-82a6-5e348ecfb252
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509Attributes interface [Security],_NewEnum property, IX509Attributes._NewEnum, IX509Attributes.get__NewEnum, IX509Attributes::_NewEnum, IX509Attributes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509Attributes interface, certenroll/IX509Attributes::_NewEnum, certenroll/IX509Attributes::get__NewEnum, get__NewEnum, security.ix509attributes__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377090(v=VS.85).aspx">IX509AttributeExtensions</a>
+<a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

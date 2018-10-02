@@ -4,10 +4,10 @@ title: IObjectId::get_FriendlyName
 author: windows-sdk-content
 description: Specifies and retrieves a display name for the object identifier.
 old-location: security\iobjectid_friendlyname_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 9360f652-afeb-4f30-a423-402f397b9255
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IObjectId interface, IObjectId interface [Security],FriendlyName property, IObjectId.FriendlyName, IObjectId.get_FriendlyName, IObjectId::FriendlyName, IObjectId::get_FriendlyName, IObjectId::put_FriendlyName, certenroll/IObjectId::FriendlyName, certenroll/IObjectId::get_FriendlyName, certenroll/IObjectId::put_FriendlyName, get_FriendlyName, security.iobjectid_friendlyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,23 +66,23 @@ This property is read/write.
 
 You must call any of the following methods before you can retrieve this property value:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376796(v=VS.85).aspx">InitializeFromAlgorithmName</a>
+<a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376797(v=VS.85).aspx">InitializeFromName</a>
+<a href="https://msdn.microsoft.com/dce84308-aecc-4841-88da-e948313b90b3">InitializeFromName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376798(v=VS.85).aspx">InitializeFromValue</a>
+<a href="https://msdn.microsoft.com/2bb2ee69-02c3-41b9-a67b-036c7154a44e">InitializeFromValue</a>
 </li>
 </ul>
 
 
 You can also retrieve the following property values:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376800(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/3d3842a9-73b6-4fb8-83cf-ac65c5a09acb">Name</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376802(v=VS.85).aspx">Value</a>
+<a href="https://msdn.microsoft.com/9ccb681a-f31b-4d31-ae56-25efd2af2b2c">Value</a>
 </li>
 </ul>
 
@@ -95,7 +95,7 @@ You can also retrieve the following property values:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
  
 
  

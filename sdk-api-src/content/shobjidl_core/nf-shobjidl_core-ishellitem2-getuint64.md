@@ -4,10 +4,10 @@ title: IShellItem2::GetUInt64
 author: windows-sdk-content
 description: Gets the UInt64 value of a specified property key.
 old-location: shell\IShellItem2_GetUInt64.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3c8a180f-336f-4887-b04b-dbe8f34d4302
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetUInt64, GetUInt64 method [Windows Shell], GetUInt64 method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetUInt64 method, IShellItem2.GetUInt64, IShellItem2::GetUInt64, _shell_IShellItem2_GetUInt64, shell.IShellItem2_GetUInt64, shobjidl_core/IShellItem2::GetUInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices

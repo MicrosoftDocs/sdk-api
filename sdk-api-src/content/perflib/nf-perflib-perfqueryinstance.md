@@ -4,10 +4,10 @@ title: PerfQueryInstance function
 author: windows-sdk-content
 description: Retrieves a pointer to the specified counter set instance. Providers use this function.
 old-location: perf\perfqueryinstance.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: 844f3f9e-8de2-4995-b13c-befe0da8a1ab
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfqueryinstance, perf.perfqueryinstance, perflib/PerfQueryInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The handle of the provider. Use the handle variable that the <a href="https://ms
 
 ### -param CounterSetGuid [in]
 
-GUID that uniquely identifies the counter set that you want to query. This is the same GUID specified in the <b>guid</b> attribute of the <a href="https://msdn.microsoft.com/library/Ee781342(v=VS.85).aspx">counterSet</a> element. Use the GUID variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <b>counterSet</b> element.
+GUID that uniquely identifies the counter set that you want to query. This is the same GUID specified in the <b>guid</b> attribute of the <a href="perf.counterset_element">counterSet</a> element. Use the GUID variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <b>counterSet</b> element.
 
 <b>Windows Vista:  </b>The GUID variable is not available.
 

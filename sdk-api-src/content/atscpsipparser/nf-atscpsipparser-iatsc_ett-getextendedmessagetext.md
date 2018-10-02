@@ -7,7 +7,7 @@ old-location: mstv\iatsc_ett_getextendedmessagetext.htm
 tech.root: MSTV
 ms.assetid: 4e1b5f65-4662-41aa-8a11-cce6a2debb9e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetExtendedMessageText, GetExtendedMessageText method [Microsoft TV Technologies], GetExtendedMessageText method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetExtendedMessageText method, IATSC_ETT.GetExtendedMessageText, IATSC_ETT::GetExtendedMessageText, IATSC_ETTGetExtendedMessageText, atscpsipparser/IATSC_ETT::GetExtendedMessageText, mstv.iatsc_ett_getextendedmessagetext
 ms.prod: windows-hardware
 ms.technology: windows-devices

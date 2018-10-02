@@ -4,10 +4,10 @@ title: IFsrmAccessDeniedRemediationClient
 author: windows-sdk-content
 description: Used to show the Access Denied Remediation (ADR) client user interface.
 old-location: fsrm\ifsrmaccessdeniedremediationclient.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 572d2985-a579-4bfa-a305-403b6be516ca
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmAccessDeniedRemediationClient, IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager], IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager],described, fs.ifsrmaccessdeniedremediationclient, fsrm.ifsrmaccessdeniedremediationclient, fsrm/IFsrmAccessDeniedRemediationClient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This interface was introduced for applications that are already using the FSRM i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAccessDeniedRemediationClient</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmAccessDeniedRemediationClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAccessDeniedRemediationClient</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmAccessDeniedRemediationClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

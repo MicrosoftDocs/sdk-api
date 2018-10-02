@@ -4,10 +4,10 @@ title: IMMCVersionInfo::GetMMCVersion
 author: windows-sdk-content
 description: The GetMMCVersion method retrieves version information for the MMC application.
 old-location: mmc\immcversioninfo_getmmcversion.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 64b8cdfe-e65e-48c6-bc7a-2349140867a4
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: GetMMCVersion, GetMMCVersion method [MMC], GetMMCVersion method [MMC],IMMCVersionInfo interface, IMMCVersionInfo interface [MMC],GetMMCVersion method, IMMCVersionInfo.GetMMCVersion, IMMCVersionInfo::GetMMCVersion, _slate_immcversioninfo_getmmcversion, mmc.immcversioninfo_getmmcversion, mmc/IMMCVersionInfo::GetMMCVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,9 +89,13 @@ The
 
 #### Examples
 
-
-```cpp
-IMMCVersionInfo * pVersionInfo = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IMMCVersionInfo * pVersionInfo = NULL;
 HRESULT   hr;
 
 // Create an object of the MMCVersionInfo class.
@@ -99,7 +103,7 @@ hr = CoCreateInstance(CLSID_MMCVersionInfo,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IMMCVersionInfo,
-                      (void**)&pVersionInfo);
+                      (void**)&amp;pVersionInfo);
 if (S_OK != hr)
 {
     // Error encountered.
@@ -115,8 +119,8 @@ else
 {
     // Call the GetMMCVersion method.
     long lMajor, lMinor;
-    hr = pVersionInfo->GetMMCVersion(&lMajor,
-                                     &lMinor);
+    hr = pVersionInfo-&gt;GetMMCVersion(&amp;lMajor,
+                                     &amp;lMinor);
     if (S_OK != hr)
         OutputDebugString(_T("Failed call to GetMMCVersion\n"));
     else
@@ -129,11 +133,11 @@ else
 // Free the interface pointer.
 if (NULL != pVersionInfo)
 {
-    pVersionInfo->Release();
+    pVersionInfo-&gt;Release();
     pVersionInfo = NULL;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -4,10 +4,10 @@ title: IsWow64Message function
 author: windows-sdk-content
 description: Determines whether the last message read from the current thread's queue originated from a WOW64 process.
 old-location: base\iswow64message.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: bc0ac424-3c5b-41bf-9dae-bcb405d5b548
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winuser/IsWow64Message
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,10 +82,14 @@ For compatibility with operating systems that do not support this function, call
 <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to detect whether 
 <b>IsWow64Message</b> is implemented in User32.dll. If <b>GetProcAddress</b> succeeds, it is safe to call this function. Otherwise, WOW64 is not present. Note that this technique is not a reliable way to detect whether the operating system is a 64-bit version of Windows because the User32.dll in current versions of 32-bit Windows also contains this function.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
 
 typedef BOOL (WINAPI *LPFN_ISWOW64MESSAGE) (void);
 
@@ -123,10 +127,10 @@ int main( void )
     }
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

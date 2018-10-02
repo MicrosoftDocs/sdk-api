@@ -7,7 +7,7 @@ old-location: cloudapi\cfclosehandle.htm
 tech.root: cfApi
 ms.assetid: ECBEF685-0769-4AEA-8A0F-D5FBB70CBB09
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/28/2018
 ms.keywords: CfCloseHandle, CfCloseHandle function, cfapi/CfCloseHandle, cloudApi.cfclosehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

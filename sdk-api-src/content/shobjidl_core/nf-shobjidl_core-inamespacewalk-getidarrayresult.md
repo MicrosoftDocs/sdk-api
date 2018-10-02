@@ -4,10 +4,10 @@ title: INamespaceWalk::GetIDArrayResult
 author: windows-sdk-content
 description: Gets a list of objects found during a namespace walk initiated by INamespaceWalk::Walk.
 old-location: shell\INamespaceWalk_GetIDArrayResult.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 51bce109-8f84-4852-bec5-e4f2937c31b3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetIDArrayResult, GetIDArrayResult method [Windows Shell], GetIDArrayResult method [Windows Shell],INamespaceWalk interface, INamespaceWalk interface [Windows Shell],GetIDArrayResult method, INamespaceWalk.GetIDArrayResult, INamespaceWalk::GetIDArrayResult, _win32_INamespaceWalk_GetIDArrayResult, shell.INamespaceWalk_GetIDArrayResult, shobjidl_core/INamespaceWalk::GetIDArrayResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,9 +105,13 @@ It is the responsibility of the calling application to free this array. Call <a 
 
 The following example creates the <a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a> instance, begins the walk at the desktop, walks only the desktop folder and its immediate children, retrieves the PIDLs retrived in the walk, and frees their array.
 
-
-```cpp
-void NamespaceWalk_Example()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void NamespaceWalk_Example()
 {
     // Note that error checking has been omitted for clarity.
     
@@ -115,23 +119,23 @@ void NamespaceWalk_Example()
     IShellFolder *psfDesktop = NULL;
 
     // Get a pointer to the desktop to use as our root node
-    hr = SHGetDesktopFolder(&psfDesktop);
+    hr = SHGetDesktopFolder(&amp;psfDesktop);
 
     // Create the INamespaceWalk instance
     hr = CoCreateInstance(CLSID_NamespaceWalker, 
                           NULL, 
                           CLSCTX_INPROC,
                           IID_INamespaceWalk,
-                          (void **)&pnsw);
+                          (void **)&amp;pnsw);
 
     // Walk the desktop folder and one level of subfolders    
-    hr = pnsw->Walk(psfDesktop, NSWF_NONE_IMPLIES_ALL, 1, NULL);
+    hr = pnsw-&gt;Walk(psfDesktop, NSWF_NONE_IMPLIES_ALL, 1, NULL);
 
     UINT cItems;
     PIDLIST_ABSOLUTE *ppidls;
     
     // Retrieve the array of PIDLs gathered in the walk
-    hr = pnsw->GetIDArrayResult(&cItems, &ppidls);
+    hr = pnsw-&gt;GetIDArrayResult(&amp;cItems, &amp;ppidls);
 
     // Perform some action using the PIDLs
 
@@ -144,7 +148,7 @@ void NamespaceWalk_Example()
 void FreeIDListArrayFull(PIDLIST_ABSOLUTE *ppidls, UINT cItems)
 { 
     // Free the array elements
-    for (UINT i = 0; i < cItems; i++) 
+    for (UINT i = 0; i &lt; cItems; i++) 
     { 
         CoTaskMemFree(ppidls[i]); 
     } 
@@ -153,9 +157,9 @@ void FreeIDListArrayFull(PIDLIST_ABSOLUTE *ppidls, UINT cItems)
     CoTaskMemFree(ppidls);
     
     return; 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

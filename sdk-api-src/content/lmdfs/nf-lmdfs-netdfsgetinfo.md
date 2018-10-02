@@ -7,7 +7,7 @@ old-location: dfs\netdfsgetinfo.htm
 tech.root: Dfs
 ms.assetid: bbb2f24d-1c49-4016-a16b-60fde4a78193
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: 1, 100, 150, 2, 3, 4, 5, 50, 6, 7, 8, 9, NetDfsGetInfo, NetDfsGetInfo function [Distributed File System], _win32_netdfsgetinfo, dfs.netdfsgetinfo, fs.netdfsgetinfo, lmdfs/NetDfsGetInfo, netmgmt.netdfsgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -256,12 +256,16 @@ The following code sample demonstrates how to retrieve information about a DFS l
      sample prints information about the DFS link, including the name and status of each target referenced by the 
      link. Finally, the code sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#include <windows.h>
-#include <lm.h>
-#include <lmdfs.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
+#include &lt;lmdfs.h&gt;
+#include &lt;stdio.h&gt;
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain(int argc, wchar_t *argv[ ])
@@ -273,32 +277,32 @@ void wmain(int argc, wchar_t *argv[ ])
    //
    // Check command line arguments.
    //
-   if (argc<2)
+   if (argc&lt;2)
       wprintf(L"Syntax: %s DfsEntryPath\n", argv[0]);
    else
    {
       //
       // Call the NetDfsGetInfo function, specifying level 3.
       //
-      res = NetDfsGetInfo(argv[1], NULL, NULL, 3, (LPBYTE *) &pData);
+      res = NetDfsGetInfo(argv[1], NULL, NULL, 3, (LPBYTE *) &amp;pData);
       //
       // If the call succeeds, print the data.
       //
       if(res==0)
       {
-         printf("%-30S Storages: %u\nComment: %S\n", pData->EntryPath, pData->NumberOfStorages, pData->Comment);
-         ps = pData->Storage;
+         printf("%-30S Storages: %u\nComment: %S\n", pData-&gt;EntryPath, pData-&gt;NumberOfStorages, pData-&gt;Comment);
+         ps = pData-&gt;Storage;
          //
          // Loop through each target.
          //
-         for(j = 1; j <= pData->NumberOfStorages;j++)
+         for(j = 1; j &lt;= pData-&gt;NumberOfStorages;j++)
          {
             //
             // Print the status (Offline/Online) and the name 
             // of each target referenced by the DFS link.
             //
-            printf("    %S  ", (ps->State == DFS_STORAGE_STATE_OFFLINE) ? TEXT("Offline"): TEXT("Online "));
-            printf("\\\\%S\\%S\n", ps->ServerName, ps->ShareName);
+            printf("    %S  ", (ps-&gt;State == DFS_STORAGE_STATE_OFFLINE) ? TEXT("Offline"): TEXT("Online "));
+            printf("\\\\%S\\%S\n", ps-&gt;ServerName, ps-&gt;ShareName);
             ps++;
          }
          //
@@ -311,10 +315,10 @@ void wmain(int argc, wchar_t *argv[ ])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

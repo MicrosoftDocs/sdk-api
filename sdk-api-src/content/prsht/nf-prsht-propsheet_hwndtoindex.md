@@ -4,10 +4,10 @@ title: PropSheet_HwndToIndex macro
 author: windows-sdk-content
 description: Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the PSM_HWNDTOINDEX message explicitly.
 old-location: controls\PropSheet_HwndToIndex.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_hwndtoindex.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: PropSheet_HwndToIndex, PropSheet_HwndToIndex macro [Windows Controls], _win32_PropSheet_HwndToIndex, _win32_PropSheet_HwndToIndex_cpp, controls.PropSheet_HwndToIndex, controls._win32_PropSheet_HwndToIndex, prsht/PropSheet_HwndToIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774581(v=VS.85).aspx">PSM_HWNDTOINDEX</a> message explicitly.
+Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/2eda4c95-95ed-4ebf-8245-c5b96aeb9075">PSM_HWNDTOINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Handle to the page's window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>
+<a href="https://msdn.microsoft.com/9e1991dd-e451-4f2a-ac9f-069acb8e89c2">GetParent</a>
 
 
 
@@ -85,7 +85,7 @@ Handle to the page's window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774645(v=VS.85).aspx">PropSheet_GetCurrentPageHwnd</a>
+<a href="https://msdn.microsoft.com/b201025b-c468-4bfb-825b-63d59d1a62c8">PropSheet_GetCurrentPageHwnd</a>
 
 
 

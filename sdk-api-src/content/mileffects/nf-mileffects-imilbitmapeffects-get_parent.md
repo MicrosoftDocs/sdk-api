@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffects_parent.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\parent.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],get_Parent method, IMILBitmapEffects.get_Parent, IMILBitmapEffects::get_Parent, _wibe_imilbitmapeffects_parent, get_Parent, get_Parent method [WPF Bitmap Effects], get_Parent method [WPF Bitmap Effects],IMILBitmapEffects interface, mileffects/IMILBitmapEffects::get_Parent, wibe._wibe_imilbitmapeffects_parent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves the parent effect group of enumeration.
 
 ### -param ppEffect [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/a8ca1b39-f1b9-40b5-bcec-bf2e3182b9aa">IMILBitmapEffectGroup</a>**</b>
 
 A pointer that receives a pointer to the parent group.
 

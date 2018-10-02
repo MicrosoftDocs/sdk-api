@@ -7,7 +7,7 @@ old-location: wintouch\_imanipulationevents_manipulationstarted.htm
 tech.root: wintouch
 ms.assetid: c3e63eb7-65e7-4394-89e4-d95d7e7877cf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ManipulationStarted, ManipulationStarted method [Windows Touch], ManipulationStarted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationStarted method, _IManipulationEvents.ManipulationStarted, _IManipulationEvents::ManipulationStarted, manipulations/_IManipulationEvents::ManipulationStarted, wintouch._imanipulationevents_manipulationstarted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,9 +90,13 @@ Manipulation events are generated for both the <a href="https://msdn.microsoft.c
 
 The following code shows an implementation of the ManipulationStarted method.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted( 
     /* [in] */ FLOAT x,
     /* [in] */ FLOAT y)
@@ -104,10 +108,10 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted(
     return S_OK;
 }
     
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

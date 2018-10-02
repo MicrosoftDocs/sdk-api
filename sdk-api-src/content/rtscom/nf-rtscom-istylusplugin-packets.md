@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_packets.htm
 tech.root: tablet
 ms.assetid: c6a3d563-4776-4ac6-bdc3-798192ba4546
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],Packets method, IStylusPlugin.Packets, IStylusPlugin::Packets, Packets, Packets method [Tablet PC], Packets method [Tablet PC],IStylusPlugin interface, c6a3d563-4776-4ac6-bdc3-798192ba4546, rtscom/IStylusPlugin::Packets, tablet.istylusplugin_packets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,9 +120,13 @@ Packets can be bundled in order to make the data transfer more efficient, such t
 
 The following C++ code example implements a <b>IStylusPlugin::Packets Method</b> method that modifies the X,Y data to restrain the packets to a rectangle. This is the same functionality that is implemented in C# in the <a href="https://msdn.microsoft.com/0ba753d1-d81a-4f7a-942c-2967c46febec">RealTimeStylus Plug-in Sample</a>.
 
-
-```cpp
-STDMETHODIMP CPacketModifier::Packets( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CPacketModifier::Packets( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const StylusInfo *pStylusInfo,
             /* [in] */ ULONG cPktCount,
@@ -142,7 +146,7 @@ STDMETHODIMP CPacketModifier::Packets(
 	// its X,Y values fall outside of the specified rectangle.  
 	// If so, replace them with the nearest point that still
 	// falls within the rectangle.
-	for (ULONG i = 0; i < cPktCount; i += cPropertyCount)
+	for (ULONG i = 0; i &lt; cPktCount; i += cPropertyCount)
 	{
 		// Packet data always has X followed by Y 
 		// followed by the rest
@@ -150,10 +154,10 @@ STDMETHODIMP CPacketModifier::Packets(
 		LONG y = pPackets[i+1];
 
 		// Constrain points to the input rectangle
-		x = (x < m_filterRect.left ? m_filterRect.left : x);
-		x = (x > m_filterRect.right ? m_filterRect.right : x);
-		y = (y < m_filterRect.top ? m_filterRect.top : y);
-		y = (y > m_filterRect.bottom ? m_filterRect.bottom : y);
+		x = (x &lt; m_filterRect.left ? m_filterRect.left : x);
+		x = (x &gt; m_filterRect.right ? m_filterRect.right : x);
+		y = (y &lt; m_filterRect.top ? m_filterRect.top : y);
+		y = (y &gt; m_filterRect.bottom ? m_filterRect.bottom : y);
 
 		// If necessary, modify the X,Y packet data
 		if ((x != pPackets[i]) || (y != pPackets[i+1]))
@@ -163,7 +167,7 @@ STDMETHODIMP CPacketModifier::Packets(
 			iOtherProps = i+2;
 		
 			// Copy the properties that we haven't modified
-			while (iOtherProps < (i + cPropertyCount))
+			while (iOtherProps &lt; (i + cPropertyCount))
 			{
 				pTempOutPkts[iOtherProps] = pPackets[iOtherProps++];
 			}
@@ -187,10 +191,10 @@ STDMETHODIMP CPacketModifier::Packets(
 
 	return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

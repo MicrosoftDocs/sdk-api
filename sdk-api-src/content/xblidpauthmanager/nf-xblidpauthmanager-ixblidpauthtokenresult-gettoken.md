@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_gettoken.htm
 tech.root: xblidp
 ms.assetid: 2E90B1FA-1381-45D7-A700-A3627C56E282
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetToken, GetToken method, GetToken method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetToken method, IXblIdpAuthTokenResult.GetToken, IXblIdpAuthTokenResult::GetToken, xblidp.ixblidpauthtokenresult_gettoken, xblidpauthmanager/IXblIdpAuthTokenResult::GetToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

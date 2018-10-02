@@ -7,7 +7,7 @@ old-location: base\globalrealloc.htm
 tech.root: Memory
 ms.assetid: 2439b16a-f27d-4e95-bc9e-6f1e563933c9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GMEM_MOVEABLE, GMEM_ZEROINIT, GlobalReAlloc, GlobalReAlloc function, _win32_globalrealloc, base.globalrealloc, winbase/GlobalReAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

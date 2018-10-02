@@ -7,7 +7,7 @@ old-location: pla\idatacollectorset_start.htm
 tech.root: PLA
 ms.assetid: 63f0c7b7-0dc6-4491-a2f5-eaae9d22da61
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDataCollectorSet interface [PLA],Start method, IDataCollectorSet.Start, IDataCollectorSet::Start, Start, Start method [PLA], Start method [PLA],IDataCollectorSet interface, base.idatacollectorset_start, pla.idatacollectorset_start, pla/IDataCollectorSet::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

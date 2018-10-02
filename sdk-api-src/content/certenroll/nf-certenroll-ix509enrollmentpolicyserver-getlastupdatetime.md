@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetLastUpdateTime
 author: windows-sdk-content
 description: Retrieves the date and time at which the policy was last downloaded.
 old-location: security\ix509enrollmentpolicyserver_getlastupdatetime.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 6f0ec30a-9a93-47f9-8046-8eba6eb3b1da
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: GetLastUpdateTime, GetLastUpdateTime method [Security], GetLastUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetLastUpdateTime method, IX509EnrollmentPolicyServer.GetLastUpdateTime, IX509EnrollmentPolicyServer::GetLastUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime, security.ix509enrollmentpolicyserver_getlastupdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ Pointer to a <b>DATE</b> value that identifies the time.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ The date is stored as an 8-byte real value that represents a Coordinated Univers
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

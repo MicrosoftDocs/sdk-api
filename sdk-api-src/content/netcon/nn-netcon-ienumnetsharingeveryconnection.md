@@ -4,10 +4,10 @@ title: IEnumNetSharingEveryConnection
 author: windows-sdk-content
 description: The IEnumNetSharingEveryConnection interface provides methods for enumerating all the connections in the Connections folder.
 old-location: ics\ienumnetsharingeveryconnection.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: d3be8047-e0d5-44b7-97d9-536bc4aa11c5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], IEnumNetSharingEveryConnection interface [ICS/ICF],described, _ics_ienumnetsharingeveryconnection, ics.ienumnetsharingeveryconnection, netcon/IEnumNetSharingEveryConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ Skips the specified number of private connections in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 

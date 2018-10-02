@@ -7,7 +7,7 @@ old-location: base\ivsswmfiledesc_getbackuptypemask.htm
 tech.root: VSS
 ms.assetid: 9d5f3a16-2053-42dd-867d-740c4a34bdb6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetBackupTypeMask, GetBackupTypeMask method [VSS], GetBackupTypeMask method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetBackupTypeMask method, IVssWMFiledesc.GetBackupTypeMask, IVssWMFiledesc::GetBackupTypeMask, base.ivsswmfiledesc_getbackuptypemask, vswriter/IVssWMFiledesc::GetBackupTypeMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

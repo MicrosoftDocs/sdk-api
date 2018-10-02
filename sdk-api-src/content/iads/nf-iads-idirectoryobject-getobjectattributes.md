@@ -7,7 +7,7 @@ old-location: adsi\idirectoryobject_getobjectattributes.htm
 tech.root: ADSI
 ms.assetid: 6e3d046f-eac0-4955-925b-71ab15df9ed3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [ADSI], GetObjectAttributes method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectAttributes method, IDirectoryObject.GetObjectAttributes, IDirectoryObject::GetObjectAttributes, _ds_idirectoryobject_getobjectattributes, adsi.idirectoryobject__getobjectattributes, adsi.idirectoryobject_getobjectattributes, iads/IDirectoryObject::GetObjectAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,14 +109,18 @@ The <b>IDirectoryObject::GetObjectAttributes</b> method attempts to read the sch
 
 The following code example shows how the <b>IDirectoryObject::GetObjectAttributes</b> method can be used.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 IDirectoryObject *pDirObject = NULL;
  
 hr = ADsGetObject(L"LDAP://CN=Jeff Smith,OU=Sales,DC=Fabrikam,DC=com",
                      IID_IDirectoryObject, 
-                     (void**) &pDirObject );
+                     (void**) &amp;pDirObject );
  
 if ( SUCCEEDED(hr) )
 {
@@ -130,25 +134,25 @@ if ( SUCCEEDED(hr) )
     // Be aware that the order is not necessarily the 
     // same as requested using pAttrNames.
     //////////////////////////////////////////////////////
-    hr = pDirObject->GetObjectAttributes( pAttrNames, 
+    hr = pDirObject-&gt;GetObjectAttributes( pAttrNames, 
                                         dwNumAttr, 
-                                        &pAttrInfo, 
-                                        &dwReturn );
+                                        &amp;pAttrInfo, 
+                                        &amp;dwReturn );
      
     if ( SUCCEEDED(hr) )
     {
-        for(DWORD idx = 0; idx < dwReturn; idx++ )
+        for(DWORD idx = 0; idx &lt; dwReturn; idx++ )
         {
             if ( _wcsicmp(pAttrInfo[idx].pszAttrName,L"givenName") == 0 )
             {
                 switch (pAttrInfo[idx].dwADsType)
                 {
                     case ADSTYPE_CASE_IGNORE_STRING:
-                        printf("First Name: %S\n", pAttrInfo[idx].pADsValues->CaseIgnoreString);
+                        printf("First Name: %S\n", pAttrInfo[idx].pADsValues-&gt;CaseIgnoreString);
                         break;
          
                     case ADSTYPE_PROV_SPECIFIC:
-                        printf("First Name: %S\n", pAttrInfo[idx].pADsValues->ProviderSpecific.lpValue);
+                        printf("First Name: %S\n", pAttrInfo[idx].pADsValues-&gt;ProviderSpecific.lpValue);
                         break;
          
                     default:
@@ -161,11 +165,11 @@ if ( SUCCEEDED(hr) )
                 switch (pAttrInfo[idx].dwADsType)
                 {
                     case ADSTYPE_CASE_IGNORE_STRING:
-                        printf("Last Name: %S\n", pAttrInfo[idx].pADsValues->CaseIgnoreString);
+                        printf("Last Name: %S\n", pAttrInfo[idx].pADsValues-&gt;CaseIgnoreString);
                         break;
          
                     case ADSTYPE_PROV_SPECIFIC:
-                        printf("Last Name: %S\n", pAttrInfo[idx].pADsValues->ProviderSpecific.lpValue);
+                        printf("Last Name: %S\n", pAttrInfo[idx].pADsValues-&gt;ProviderSpecific.lpValue);
                         break;
          
                     default:
@@ -179,19 +183,19 @@ if ( SUCCEEDED(hr) )
                 {
                     case ADSTYPE_CASE_IGNORE_STRING:
                         printf("Other Telephones:");
-                        for (DWORD val=0; val < pAttrInfo[idx].dwNumValues; val++) 
+                        for (DWORD val=0; val &lt; pAttrInfo[idx].dwNumValues; val++) 
                         printf("  %S\n", pAttrInfo[idx].pADsValues[val].CaseIgnoreString);
                         break;
          
                     case ADSTYPE_PROV_SPECIFIC:
                         printf("Other Telephones:");
-                        for (DWORD val=0; val < pAttrInfo[idx].dwNumValues; val++) 
+                        for (DWORD val=0; val &lt; pAttrInfo[idx].dwNumValues; val++) 
                         printf("  %S\n", pAttrInfo[idx].pADsValues[val].CaseIgnoreString);
                         break;
          
                     default:
                         printf("Other Telephones:");
-                        for (DWORD val=0; val < pAttrInfo[idx].dwNumValues; val++) 
+                        for (DWORD val=0; val &lt; pAttrInfo[idx].dwNumValues; val++) 
                         printf("  %S\n", pAttrInfo[idx].pADsValues[val].CaseIgnoreString);
                         break;
                 }
@@ -205,11 +209,11 @@ if ( SUCCEEDED(hr) )
     
     }
  
-    pDirObject->Release();
-}
-```
-
-
+    pDirObject-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

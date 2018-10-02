@@ -7,7 +7,7 @@ old-location: iphlp\icmpsendecho.htm
 tech.root: IpHlp
 ms.assetid: c3cdc535-2c13-48c6-9ab1-88cc5e5119b5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IcmpSendEcho, IcmpSendEcho function [IP Helper], _iphlp_icmpsendecho, icmpapi/IcmpSendEcho, iphlp.icmpsendecho
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -220,12 +220,16 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 The following example sends an ICMP echo request to the IP address specified on the command line and prints the information received from the first response.
 
-
-```cpp
-#include <winsock2.h>
-#include <iphlpapi.h>
-#include <icmpapi.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;icmpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -273,9 +277,9 @@ int __cdecl main(int argc, char **argv)  {
     if (dwRetVal != 0) {
         PICMP_ECHO_REPLY pEchoReply = (PICMP_ECHO_REPLY)ReplyBuffer;
         struct in_addr ReplyAddr;
-        ReplyAddr.S_un.S_addr = pEchoReply->Address;
+        ReplyAddr.S_un.S_addr = pEchoReply-&gt;Address;
         printf("\tSent icmp message to %s\n", argv[1]);
-        if (dwRetVal > 1) {
+        if (dwRetVal &gt; 1) {
             printf("\tReceived %ld icmp message responses\n", dwRetVal);
             printf("\tInformation from the first response:\n"); 
         }    
@@ -285,9 +289,9 @@ int __cdecl main(int argc, char **argv)  {
         }    
         printf("\t  Received from %s\n", inet_ntoa( ReplyAddr ) );
         printf("\t  Status = %ld\n", 
-            pEchoReply->Status);
+            pEchoReply-&gt;Status);
         printf("\t  Roundtrip time = %ld milliseconds\n", 
-            pEchoReply->RoundTripTime);
+            pEchoReply-&gt;RoundTripTime);
     }
     else {
         printf("\tCall to IcmpSendEcho failed.\n");
@@ -297,10 +301,10 @@ int __cdecl main(int argc, char **argv)  {
     return 0;
 }    
     
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

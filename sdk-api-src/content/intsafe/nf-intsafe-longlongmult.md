@@ -4,10 +4,10 @@ title: LongLongMult function
 author: windows-sdk-content
 description: Multiplies two values of type LONGLONG.
 old-location: shell\LongLongMult.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 71f9cef9-33a2-48f2-a14f-aad364116e93
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongLongMult, LongLongMult function [Windows Shell], intsafe/LongLongMult, shell.LongLongMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

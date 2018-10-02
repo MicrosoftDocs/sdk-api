@@ -7,7 +7,7 @@ old-location: ndf\octet_string.htm
 tech.root: NDF
 ms.assetid: 6133c69d-45ad-4080-b3e1-f42cbdc6cdf7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*POCTET_STRING, OCTET_STRING, OCTET_STRING structure [NDF], OCTET_STRING,*POCTET_STRING, OCTET_STRING,*POCTET_STRING structure [NDF], ndattrib/OCTET_STRING, ndf.octet_string, tagOCTET_STRING"
 ms.prod: windows
 ms.technology: windows-sdk

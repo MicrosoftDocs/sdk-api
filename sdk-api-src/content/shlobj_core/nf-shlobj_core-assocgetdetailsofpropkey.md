@@ -4,10 +4,10 @@ title: AssocGetDetailsOfPropKey function
 author: windows-sdk-content
 description: Retrieves the value for a given property key using the file association information provided by the Namespace Extensions.
 old-location: shell\AssocGetDetailsOfPropKey.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f13af5f4-1b6a-419c-a042-e05c9ec51d02
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: AssocGetDetailsOfPropKey, AssocGetDetailsOfPropKey function [Windows Shell], _shell_AssocGetDetailsOfPropKey, shell.AssocGetDetailsOfPropKey, shlobj_core/AssocGetDetailsOfPropKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

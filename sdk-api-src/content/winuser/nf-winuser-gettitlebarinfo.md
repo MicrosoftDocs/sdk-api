@@ -7,7 +7,7 @@ old-location: winmsg\gettitlebarinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\gettitlebarinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTitleBarInfo, GetTitleBarInfo function [Windows and Messages], _win32_GetTitleBarInfo, _win32_gettitlebarinfo_cpp, winmsg.gettitlebarinfo, winui._win32_gettitlebarinfo, winuser/GetTitleBarInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ A handle to the title bar whose information is to be retrieved.
 
 Type: <b>PTITLEBARINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(TITLEBARINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/85987d3a-6abb-4692-9e50-ce1f71d7be74">TITLEBARINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(TITLEBARINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -101,11 +101,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a>
+<a href="https://msdn.microsoft.com/85987d3a-6abb-4692-9e50-ce1f71d7be74">TITLEBARINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

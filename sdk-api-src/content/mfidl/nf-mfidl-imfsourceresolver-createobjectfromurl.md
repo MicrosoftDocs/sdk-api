@@ -4,10 +4,10 @@ title: IMFSourceResolver::CreateObjectFromURL
 author: windows-sdk-content
 description: Creates a media source or a byte stream from a URL. This method is synchronous.
 old-location: mf\imfsourceresolver_createobjectfromurl.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: b8f751b1-6456-4d67-839d-ecfa388e8d71
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: CreateObjectFromURL, CreateObjectFromURL method [Media Foundation], CreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CreateObjectFromURL method, IMFSourceResolver.CreateObjectFromURL, IMFSourceResolver::CreateObjectFromURL, b8f751b1-6456-4d67-839d-ecfa388e8d71, mf.imfsourceresolver_createobjectfromurl, mfidl/IMFSourceResolver::CreateObjectFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -158,9 +158,13 @@ For local files, you can pass the file name in the <i>pwszURL</i> parameter; the
 
 #### Examples
 
-
-```cpp
-//  Create a media source from a URL.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Create a media source from a URL.
 HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
 {
     MF_OBJECT_TYPE ObjectType = MF_OBJECT_INVALID;
@@ -169,7 +173,7 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     IUnknown* pSource = NULL;
 
     // Create the source resolver.
-    HRESULT hr = MFCreateSourceResolver(&pSourceResolver);
+    HRESULT hr = MFCreateSourceResolver(&amp;pSourceResolver);
     if (FAILED(hr))
     {
         goto done;
@@ -182,12 +186,12 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     // amount of time, especially for a network source. For a more responsive 
     // UI, use the asynchronous BeginCreateObjectFromURL method.
 
-    hr = pSourceResolver->CreateObjectFromURL(
+    hr = pSourceResolver-&gt;CreateObjectFromURL(
         sURL,                       // URL of the source.
         MF_RESOLUTION_MEDIASOURCE,  // Create a source object.
         NULL,                       // Optional property store.
-        &ObjectType,        // Receives the created object type. 
-        &pSource            // Receives a pointer to the media source.
+        &amp;ObjectType,        // Receives the created object type. 
+        &amp;pSource            // Receives a pointer to the media source.
         );
     if (FAILED(hr))
     {
@@ -195,17 +199,17 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     }
 
     // Get the IMFMediaSource interface from the media source.
-    hr = pSource->QueryInterface(IID_PPV_ARGS(ppSource));
+    hr = pSource-&gt;QueryInterface(IID_PPV_ARGS(ppSource));
 
 done:
-    SafeRelease(&pSourceResolver);
-    SafeRelease(&pSource);
+    SafeRelease(&amp;pSourceResolver);
+    SafeRelease(&amp;pSource);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

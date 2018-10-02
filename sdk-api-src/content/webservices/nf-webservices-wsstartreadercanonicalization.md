@@ -7,7 +7,7 @@ old-location: wsw\wsstartreadercanonicalization.htm
 tech.root: wsw
 ms.assetid: 5dad9485-db3c-4ae0-b053-e1e4f32ad64d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsStartReaderCanonicalization, WsStartReaderCanonicalization function [Web Services for Windows], webservices/WsStartReaderCanonicalization, wsw.wsstartreadercanonicalization
 ms.prod: windows-hardware
 ms.technology: windows-devices

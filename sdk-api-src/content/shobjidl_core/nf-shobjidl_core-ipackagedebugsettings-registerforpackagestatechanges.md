@@ -4,10 +4,10 @@ title: IPackageDebugSettings::RegisterForPackageStateChanges
 author: windows-sdk-content
 description: Register for package state-change notifications.
 old-location: shell\IPackageDebugSettings_RegisterForPackageStateChanges.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: D0E26154-DADB-499D-A434-8211196E2F5F
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],RegisterForPackageStateChanges method, IPackageDebugSettings.RegisterForPackageStateChanges, IPackageDebugSettings::RegisterForPackageStateChanges, RegisterForPackageStateChanges, RegisterForPackageStateChanges method [Windows Shell], RegisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_RegisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

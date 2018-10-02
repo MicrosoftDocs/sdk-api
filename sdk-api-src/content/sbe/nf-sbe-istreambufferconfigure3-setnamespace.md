@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure3_setnamespace.htm
 tech.root: MSTV
 ms.assetid: e009e078-99f5-4da1-88ce-c07e9588c5e8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IStreamBufferConfigure3 interface [Microsoft TV Technologies],SetNamespace method, IStreamBufferConfigure3.SetNamespace, IStreamBufferConfigure3::SetNamespace, IStreamBufferConfigure3SetNamespace, SetNamespace, SetNamespace method [Microsoft TV Technologies], SetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, mstv.istreambufferconfigure3_setnamespace, sbe/IStreamBufferConfigure3::SetNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices

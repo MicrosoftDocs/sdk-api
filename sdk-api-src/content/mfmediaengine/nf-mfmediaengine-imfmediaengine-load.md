@@ -4,10 +4,10 @@ title: IMFMediaEngine::Load
 author: windows-sdk-content
 description: Loads the current media source.
 old-location: mf\imfmediaengine_load.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5ACE8143-DC14-495C-A644-A2076FB1980F
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Load method, IMFMediaEngine.Load, IMFMediaEngine::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_load, mfmediaengine/IMFMediaEngine::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices

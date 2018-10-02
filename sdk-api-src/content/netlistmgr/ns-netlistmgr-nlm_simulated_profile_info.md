@@ -7,7 +7,7 @@ old-location: nla\nlm_simulated_profile_info.htm
 tech.root: NLA
 ms.assetid: 1DC80EB0-E63A-4352-8269-D795E1573851
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NLM_SIMULATED_PROFILE_INFO, NLM_SIMULATED_PROFILE_INFO structure [Network Awareness], PNLM_SIMULATED_PROFILE_INFO, PNLM_SIMULATED_PROFILE_INFO structure pointer [Network Awareness], netlistmgr/NLM_SIMULATED_PROFILE_INFO, netlistmgr/PNLM_SIMULATED_PROFILE_INFO, nla.nlm_simulated_profile_info
 ms.prod: windows
 ms.technology: windows-sdk

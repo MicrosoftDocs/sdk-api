@@ -4,10 +4,10 @@ title: ITextServices2::TxGetNaturalSize2
 author: windows-sdk-content
 description: Resizes a control so it fits its content appropriately. This method is similar to TxGetNaturalSize, but also retrieves the ascent of the top line of text.
 old-location: controls\itextservices2_txgetnaturalsize2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 9D9A3D06-5C1F-4D50-B7B7-E6CA2BFDB89C
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 10/01/2018
 ms.keywords: ITextServices2 interface [Windows Controls],TxGetNaturalSize2 method, ITextServices2.TxGetNaturalSize2, ITextServices2::TxGetNaturalSize2, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize2, TxGetNaturalSize2 method [Windows Controls], TxGetNaturalSize2 method [Windows Controls],ITextServices2 interface, controls.itextservices2_txgetnaturalsize2, textserv/ITextServices2::TxGetNaturalSize2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Resizes a control so it fits its content appropriately. This method is similar to <a href="https://msdn.microsoft.com/en-us/library/Bb787672(v=VS.85).aspx">TxGetNaturalSize</a>, but also retrieves the ascent of the top line of text.
+Resizes a control so it fits its content appropriately. This method is similar to <a href="https://msdn.microsoft.com/66798915-af6f-4a18-813b-872bf0298824">TxGetNaturalSize</a>, but also retrieves the ascent of the top line of text.
 
 
 ## -parameters
@@ -168,7 +168,7 @@ Resize the control so that it fits unindented  										content and trailing wh
 Resize the control to show an integral number of lines (no line is clipped). Format enough text to fill the width and height that is passed in, and then return a height that is rounded to the nearest line boundary.
 
 
-<div class="alert"><b>Note</b>  The passed and returned width and height correspond to the view rectangle. The host should adjust back to the client rectangle as needed. Because these values represent the extent of the text object, they are input and output in HIMETRIC coordinates (each HIMETRIC unit is 0.01 millimeter), and measuring does not include any zoom factor. For a discussion of the zoom factor, see <a href="https://msdn.microsoft.com/en-us/library/Bb787664(v=VS.85).aspx">TxGetExtent</a>.</div>
+<div class="alert"><b>Note</b>  The passed and returned width and height correspond to the view rectangle. The host should adjust back to the client rectangle as needed. Because these values represent the extent of the text object, they are input and output in HIMETRIC coordinates (each HIMETRIC unit is 0.01 millimeter), and measuring does not include any zoom factor. For a discussion of the zoom factor, see <a href="https://msdn.microsoft.com/03cf4acc-f70e-40a4-9050-6e6777867b2b">TxGetExtent</a>.</div>
 <div> </div>
 
 
@@ -264,7 +264,7 @@ Insufficient memory.
 
 
 
-The first four parameters are similar to equivalent parameters in <a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">ITextServices::TxDraw</a> and give the same information. In the case where the lines must be recalculated, <b>TxGetNaturalSize2</b>  uses these values in the same ways as in <b>ITextServices::TxDraw</b>.
+The first four parameters are similar to equivalent parameters in <a href="https://msdn.microsoft.com/5fb14a41-2e73-4760-ba77-f1bfd2a1184b">ITextServices::TxDraw</a> and give the same information. In the case where the lines must be recalculated, <b>TxGetNaturalSize2</b>  uses these values in the same ways as in <b>ITextServices::TxDraw</b>.
 
 The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host passes in the tentative width and height of the natural extent of the text object. The text services object compares these values against its current cached state, and if different, recalculates lines. Then, it computes and returns the natural size, as specified by <i>dwMode</i>. 
 
@@ -273,9 +273,13 @@ The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host 
 
 The following example shows how to initialize the <i>psizelExtent</i> parameter for to a zoom factor of 1:1. The ellipses indicate code that you need to provide.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LONG dxpi = GetDeviceCaps(hdc, LOGPIXELSX);
 LONG dypi = GetDeviceCaps(hdc, LOGPIXELSY);
 LONG dyAscent = 0;
@@ -288,12 +292,12 @@ ITextServices2 *pserv = ... ; // Interface for single-line control
 sizel.cx = MulDiv(dx, HIMETRIC_PER_INCH, dxpi); 
 sizel.cy = MulDiv(dy, HIMETRIC_PER_INCH, dypi);
 
-pserv->TxGetNaturalSize2(DVASPECT_DOCPRINT, hdc, hdcNil, pNil,
-    TXTNS_FITTOCONTENT, &sizel, &dx, &dy, &dyAscent))) 
-
-```
-
-
+pserv-&gt;TxGetNaturalSize2(DVASPECT_DOCPRINT, hdc, hdcNil, pNil,
+    TXTNS_FITTOCONTENT, &amp;sizel, &amp;dx, &amp;dy, &amp;dyAscent))) 
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

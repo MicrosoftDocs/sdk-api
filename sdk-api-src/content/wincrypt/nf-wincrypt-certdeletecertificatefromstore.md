@@ -7,7 +7,7 @@ old-location: security\certdeletecertificatefromstore.htm
 tech.root: seccrypto
 ms.assetid: 4390c8da-9c4d-47a4-9af4-d179829f77f3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 10/01/2018
 ms.keywords: CertDeleteCertificateFromStore, CertDeleteCertificateFromStore function [Security], _crypto2_certdeletecertificatefromstore, security.certdeletecertificatefromstore, wincrypt/CertDeleteCertificateFromStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,7 +127,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

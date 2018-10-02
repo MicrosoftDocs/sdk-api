@@ -4,10 +4,10 @@ title: "_COLORINFO"
 author: windows-sdk-content
 description: The COLORINFO structure defines a device's colors in CIE coordinate space.
 old-location: display\colorinfo.htm
-tech.root: display
+tech.root: Display
 ms.assetid: bbada28c-d855-4197-acf8-2a070423ddfe
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCOLORINFO, COLORINFO, COLORINFO structure [Display Devices], PCOLORINFO, PCOLORINFO structure pointer [Display Devices], _COLORINFO, display.colorinfo, grstrcts_1e247041-c753-4925-a86c-fbd246410a72.xml, winddi/COLORINFO, winddi/PCOLORINFO"
 ms.prod: windows
 ms.technology: windows-sdk

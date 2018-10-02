@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskplugin_initializetaskplugin.htm
 tech.root: TermServ
 ms.assetid: 9e8722c4-0070-448a-a97c-aeb1db59ac7b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbTaskPlugin interface [Remote Desktop Services],InitializeTaskPlugin method, ITsSbTaskPlugin.InitializeTaskPlugin, ITsSbTaskPlugin::InitializeTaskPlugin, InitializeTaskPlugin, InitializeTaskPlugin method [Remote Desktop Services], InitializeTaskPlugin method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbTaskPlugin::InitializeTaskPlugin, termserv.itssbtaskplugin_initializetaskplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

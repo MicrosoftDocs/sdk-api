@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_caret_metrics.htm
 tech.root: DirectWrite
 ms.assetid: CC7591F8-0671-436F-B0A7-C5D4C183D253
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: DWRITE_CARET_METRICS, DWRITE_CARET_METRICS structure [Direct Write], directwrite.dwrite_caret_metrics, dwrite_1/DWRITE_CARET_METRICS
 ms.prod: windows
 ms.technology: windows-sdk

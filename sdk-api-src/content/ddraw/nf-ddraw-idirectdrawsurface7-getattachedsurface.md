@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getattachedsurface.htm
 tech.root: directdraw
 ms.assetid: 0eae7e55-5ff7-41f6-ac6a-ce7fb6d809b9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetAttachedSurface, GetAttachedSurface method [DirectDraw], GetAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetAttachedSurface method, IDirectDrawSurface7.GetAttachedSurface, IDirectDrawSurface7::GetAttachedSurface, ddraw/IDirectDrawSurface7::GetAttachedSurface, directdraw.idirectdrawsurface7_getattachedsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

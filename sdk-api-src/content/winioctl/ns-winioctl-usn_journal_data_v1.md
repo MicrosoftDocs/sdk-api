@@ -7,7 +7,7 @@ old-location: fs\usn_journal_data_str.htm
 tech.root: fileio
 ms.assetid: 6b75eab2-aa10-4b48-8918-e4b03b5d8564
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PUSN_JOURNAL_DATA, *PUSN_JOURNAL_DATA_V1, PUSN_JOURNAL_DATA, PUSN_JOURNAL_DATA structure pointer [Files], PUSN_JOURNAL_DATA_V0, PUSN_JOURNAL_DATA_V0 structure pointer [Files], USN_JOURNAL_DATA, USN_JOURNAL_DATA structure [Files], USN_JOURNAL_DATA_V0, USN_JOURNAL_DATA_V0 structure [Files], USN_JOURNAL_DATA_V1, _win32_usn_journal_data_str, base.usn_journal_data_str, fs.usn_journal_data_str, winioctl/PUSN_JOURNAL_DATA, winioctl/PUSN_JOURNAL_DATA_V0, winioctl/USN_JOURNAL_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SymGetSymFromName function
 author: windows-sdk-content
 description: Locates a symbol for the specified name.
 old-location: base\symgetsymfromname64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 9c9a1a57-06c2-422a-b078-5b7725d54bd4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymGetSymFromName, SymGetSymFromName function, SymGetSymFromName64, SymGetSymFromName64 function, _win32_symgetsymfromname64, base.symgetsymfromname64, dbghelp/SymGetSymFromName, dbghelp/SymGetSymFromName64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,9 +107,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 This function supersedes the <b>SymGetSymFromName</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetSymFromName</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymGetSymFromName SymGetSymFromName64
 #else
 BOOL
@@ -119,10 +123,10 @@ SymGetSymFromName(
     __in PCSTR Name,
     __inout PIMAGEHLP_SYMBOL Symbol
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

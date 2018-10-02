@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_vertex_options.htm
 tech.root: direct2d
 ms.assetid: b308aaf4-edf0-49a8-8fbf-04bb38c00605
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1_VERTEX_OPTIONS, D2D1_VERTEX_OPTIONS enumeration [Direct2D], D2D1_VERTEX_OPTIONS_ASSUME_NO_OVERLAP, D2D1_VERTEX_OPTIONS_DO_NOT_CLEAR, D2D1_VERTEX_OPTIONS_NONE, D2D1_VERTEX_OPTIONS_USE_DEPTH_BUFFER, d2d1effectauthor/D2D1_VERTEX_OPTIONS, d2d1effectauthor/D2D1_VERTEX_OPTIONS_ASSUME_NO_OVERLAP, d2d1effectauthor/D2D1_VERTEX_OPTIONS_DO_NOT_CLEAR, d2d1effectauthor/D2D1_VERTEX_OPTIONS_NONE, d2d1effectauthor/D2D1_VERTEX_OPTIONS_USE_DEPTH_BUFFER, direct2d.d2d1_vertex_options
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ Indicates that custom vertices do not overlap each other.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404277(v=VS.85).aspx">D2D1_BLEND_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/5f4c7248-9303-4451-92f1-4b230efd627a">D2D1_BLEND_DESCRIPTION</a>
 
 
 

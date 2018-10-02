@@ -7,7 +7,7 @@ old-location: rm\drmsetapplicationspecificdata.htm
 tech.root: AdRms_Sdk
 ms.assetid: 659b2d73-1160-4e5a-8779-4bb272653c54
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMSetApplicationSpecificData, DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetApplicationSpecificData, rm.drmsetapplicationspecificdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

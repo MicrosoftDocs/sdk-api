@@ -7,7 +7,7 @@ old-location: pla\iconfigurationdatacollector.htm
 tech.root: PLA
 ms.assetid: 7266c02d-0f56-4754-8a67-68394a5f0158
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], IConfigurationDataCollector interface [PLA],described, base.iconfigurationdatacollector, pla.iconfigurationdatacollector, pla/IConfigurationDataCollector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,22 +61,26 @@ To create this data collector, call the <a href="https://msdn.microsoft.com/b6d9
 
 The following example shows the XML that you can use to initialize this object if you call <a href="https://msdn.microsoft.com/32a1aba6-24f4-416a-b2ba-9be264fce3fc">CreateDataCollectorFromXml</a> to create it. The <a href="https://msdn.microsoft.com/c362cd5f-2db3-40ad-8f5e-e75a40db204c">IDataCollector::Xml</a> property also returns this XML.
 
-
-```xml
-<ConfigurationDataCollector>
-    <FileMaxCount/>  
-    <FileMaxRecursiveDepth/>  
-    <FileMaxTotalSize/>  
-    <File/>  <!-- Specify this element for each file -->
-    <ManagementQuery/>  <!-- Specify this element for each WMI query -->
-    <QueryNetworkAdapters/>
-    <RegistryKey/>  <!-- Specify this element for each registry key -->
-    <RegistryMaxRecursiveDepth/>
-    <SystemStateFile/>  
-</ConfigurationDataCollector>
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;ConfigurationDataCollector&gt;
+    &lt;FileMaxCount/&gt;  
+    &lt;FileMaxRecursiveDepth/&gt;  
+    &lt;FileMaxTotalSize/&gt;  
+    &lt;File/&gt;  &lt;!-- Specify this element for each file --&gt;
+    &lt;ManagementQuery/&gt;  &lt;!-- Specify this element for each WMI query --&gt;
+    &lt;QueryNetworkAdapters/&gt;
+    &lt;RegistryKey/&gt;  &lt;!-- Specify this element for each registry key --&gt;
+    &lt;RegistryMaxRecursiveDepth/&gt;
+    &lt;SystemStateFile/&gt;  
+&lt;/ConfigurationDataCollector&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 Note that the example does not show the property elements inherited from <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> that you also need to specify.
 
 When you specify the XML to create the collector, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the collector, the XML provides all elements, including those from <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a>. 

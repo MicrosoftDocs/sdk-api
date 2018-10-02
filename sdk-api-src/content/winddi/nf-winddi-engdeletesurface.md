@@ -4,10 +4,10 @@ title: EngDeleteSurface function
 author: windows-sdk-content
 description: The EngDeleteSurface function deletes the specified surface.
 old-location: display\engdeletesurface.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 9cde6fa3-26b6-49fd-9374-cbf91215aa39
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngDeleteSurface, EngDeleteSurface function [Display Devices], display.engdeletesurface, gdifncs_7ffbac74-6789-4f81-a4eb-4f6f1c41a444.xml, winddi/EngDeleteSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

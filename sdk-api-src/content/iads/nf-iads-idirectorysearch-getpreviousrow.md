@@ -7,7 +7,7 @@ old-location: adsi\idirectorysearch_getpreviousrow.htm
 tech.root: ADSI
 ms.assetid: fccc9763-c64d-474b-a0c0-9bc9d4e34d65
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPreviousRow, GetPreviousRow method [ADSI], GetPreviousRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetPreviousRow method, IDirectorySearch.GetPreviousRow, IDirectorySearch::GetPreviousRow, _ds_idirectorysearch_getpreviousrow, adsi.idirectorysearch__getpreviousrow, adsi.idirectorysearch_getpreviousrow, iads/IDirectorySearch::GetPreviousRow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,26 +92,30 @@ When the <b>ADS_SEARCHPREF_CACHE_RESULTS</b> flag is not set, only forward scrol
 
 #### Examples
 
-
-```cpp
-hr = m_pSearch->ExecuteSearch(L"(&(objectCategory=user)(st=WA))", pszAttr, dwCount, &hSearch );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>hr = m_pSearch-&gt;ExecuteSearch(L"(&amp;(objectCategory=user)(st=WA))", pszAttr, dwCount, &amp;hSearch );
 if ( SUCCEEDED(hr) )
 {
-   while(  m_pSearch->GetNextRow(hSearch)  != S_ADS_NOMORE_ROWS )
+   while(  m_pSearch-&gt;GetNextRow(hSearch)  != S_ADS_NOMORE_ROWS )
    {
       /* Get the data */
    }
    // Print it backward
-   hr = m_pSearch->GetPreviousRow( hSearch );
-   while( hr != S_ADS_NOMORE_ROWS  &&  hr != E_NOTIMPL)
+   hr = m_pSearch-&gt;GetPreviousRow( hSearch );
+   while( hr != S_ADS_NOMORE_ROWS  &amp;&amp;  hr != E_NOTIMPL)
    {
       /* Get the data */
    }
-   m_pSearch->CloseSearchHandle(hSearch);
-}
-```
-
-
+   m_pSearch-&gt;CloseSearchHandle(hSearch);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

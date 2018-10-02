@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_ikeext_em_failure1.htm
 tech.root: FWP
 ms.assetid: 42348e1d-e3b3-4f8c-9fef-15e2e4ebf580
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1, FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 structure [Filtering], FWPM_NET_EVENT_IKEEXT_EM_FAILURE1_, FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_BENIGN, FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE, fwp.fwpm_net_event_ikeext_em_failure1, fwpmtypes/FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
 ms.prod: windows
 ms.technology: windows-sdk

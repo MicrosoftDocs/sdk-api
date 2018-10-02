@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_attachededitwindow.htm
 tech.root: tablet
 ms.assetid: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],AttachedEditWindow property, ITextInputPanel.AttachedEditWindow, ITextInputPanel.get_AttachedEditWindow, ITextInputPanel.put_AttachedEditWindow, ITextInputPanel::AttachedEditWindow, ITextInputPanel::get_AttachedEditWindow, ITextInputPanel::put_AttachedEditWindow, peninputpanel/ITextInputPanel::AttachedEditWindow, peninputpanel/ITextInputPanel::get_AttachedEditWindow, peninputpanel/ITextInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.itextinputpanel_attachededitwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,37 +82,41 @@ This C++ example creates an <a href="https://msdn.microsoft.com/1e719900-db58-43
 
 
 
-
-```cpp
-if (SUCCEEDED(CoInitialize(NULL)))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(CoInitialize(NULL)))
 {
-    if (SUCCEEDED(CoCreateInstance(CLSID_TextInputPanel, NULL, CLSCTX_INPROC, IID_ITextInputPanel, (VOID**)&g_pTip)))
+    if (SUCCEEDED(CoCreateInstance(CLSID_TextInputPanel, NULL, CLSCTX_INPROC, IID_ITextInputPanel, (VOID**)&amp;g_pTip)))
     {
-        if (SUCCEEDED(g_pTip->put_AttachedEditWindow(GetDlgItem(IDC_EDIT3)->m_hWnd)))
+        if (SUCCEEDED(g_pTip-&gt;put_AttachedEditWindow(GetDlgItem(IDC_EDIT3)-&gt;m_hWnd)))
         {
-            g_pTip->put_DefaultInPlaceState(InPlaceState_Expanded);
+            g_pTip-&gt;put_DefaultInPlaceState(InPlaceState_Expanded);
             InPlaceState ips;
-            g_pTip->get_DefaultInPlaceState(&ips);
+            g_pTip-&gt;get_DefaultInPlaceState(&amp;ips);
             TRACE("DefaultInplaceState: %d\n", ips);
             
-            g_pTip->put_DefaultInputArea(PanelInputArea_CharacterPad);
+            g_pTip-&gt;put_DefaultInputArea(PanelInputArea_CharacterPad);
             PanelInputArea pia;
-            g_pTip->get_DefaultInputArea(&pia);
+            g_pTip-&gt;get_DefaultInputArea(&amp;pia);
             TRACE("DefaultInputArea: %d\n", pia);
 
-            g_pTip->put_ExpandPostInsertionCorrection(FALSE);
+            g_pTip-&gt;put_ExpandPostInsertionCorrection(FALSE);
             BOOL epic;
-            g_pTip->get_ExpandPostInsertionCorrection(&epic);
+            g_pTip-&gt;get_ExpandPostInsertionCorrection(&amp;epic);
             TRACE("ExpandPostInsertionCorrection: %d\n", epic);
 
-            g_pTip->put_InPlaceVisibleOnFocus(TRUE);
+            g_pTip-&gt;put_InPlaceVisibleOnFocus(TRUE);
             BOOL ipvof;
-            g_pTip->get_InPlaceVisibleOnFocus(&ipvof);
+            g_pTip-&gt;get_InPlaceVisibleOnFocus(&amp;ipvof);
             TRACE("InPlaceVisibleOnFocus: %d\n", ipvof);
 
-            g_pTip->put_PreferredInPlaceDirection(InPlaceDirection_Top);
+            g_pTip-&gt;put_PreferredInPlaceDirection(InPlaceDirection_Top);
             InPlaceDirection direction;
-            g_pTip->get_PreferredInPlaceDirection(&direction);
+            g_pTip-&gt;get_PreferredInPlaceDirection(&amp;direction);
             TRACE("PreferredInPlaceDirection: %d\n", direction);
         }
     }
@@ -121,10 +125,10 @@ if (SUCCEEDED(CoInitialize(NULL)))
         TRACE("Failed to create ITextInputPanel object.\n");
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

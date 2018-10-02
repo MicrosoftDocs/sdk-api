@@ -4,10 +4,10 @@ title: IFileDialog2
 author: windows-sdk-content
 description: Extends the IFileDialog interface by providing methods that allow the caller to name a specific, restricted location that can be browsed in the common file dialog as well as to specify alternate text to display as a label on the Cancel button.
 old-location: shell\IFileDialog2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: be67a020-285d-4c1e-a8b5-8e1e90fae594
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialog2, IFileDialog2 interface [Windows Shell], IFileDialog2 interface [Windows Shell],described, _shell_IFileDialog2, shell.IFileDialog2, shobjidl/IFileDialog2
 ms.prod: windows
 ms.technology: windows-sdk

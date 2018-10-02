@@ -4,10 +4,10 @@ title: IConsoleNameSpace2::AddExtension
 author: windows-sdk-content
 description: The IConsoleNameSpace2::AddExtension method enables the snap-in to add an extension snap-in that dynamically extends the namespace of a selected item.
 old-location: mmc\iconsolenamespace2_addextension.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 6057b8dd-d794-43a3-998b-689aafa28b9d
 ms.author: windowssdkdev
-ms.date: 09/04/2018
+ms.date: 09/26/2018
 ms.keywords: AddExtension, AddExtension method [MMC], AddExtension method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],AddExtension method, IConsoleNameSpace2.AddExtension, IConsoleNameSpace2::AddExtension, _slate_iconsolenamespace2_addextension, mmc.iconsolenamespace2_addextension, mmc/IConsoleNameSpace2::AddExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,20 +107,24 @@ If an extension snap-in is intended to be used as a dynamic extension only, that
 
 The following code example adds the extension snap-in specified by <b>CLSID_Extension</b>:
 
-
-```cpp
-IConsoleNameSpace2* pExtensions = NULL;
-HRESULT hr = m_pConsole->QueryInterface(IID_IConsoleNameSpace2, reinterpret_cast<void**>(&pExtensions));
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IConsoleNameSpace2* pExtensions = NULL;
+HRESULT hr = m_pConsole-&gt;QueryInterface(IID_IConsoleNameSpace2, reinterpret_cast&lt;void**&gt;(&amp;pExtensions));
  
 if (SUCCEEDED(hr))
 {
-    hr = pExtensions->AddExtension(m_pStaticRoot, const_cast<CLSID*>(&CLSID_Extension));
+    hr = pExtensions-&gt;AddExtension(m_pStaticRoot, const_cast&lt;CLSID*&gt;(&amp;CLSID_Extension));
     ASSERT(hr == S_OK);
-    pExtensions->Release();
-}
-```
-
-
+    pExtensions-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

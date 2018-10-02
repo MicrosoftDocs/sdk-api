@@ -4,10 +4,10 @@ title: IDsAdminNewObjExt
 author: windows-sdk-content
 description: The IDsAdminNewObjExt interface is implemented by an object creation wizard extension.
 old-location: ad\idsadminnewobjext.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: a9b98647-b801-4a2a-98a4-d57679c07d55
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], IDsAdminNewObjExt interface [Active Directory],described, _glines_idsadminnewobjext, ad.idsadminnewobjext, dsadmin/IDsAdminNewObjExt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ Enables the object creation wizard extension to write its data into the object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa772147(v=VS.85).aspx">Admin Interfaces in Active Directory Domain Services</a>
+<a href="ad.admin_interfaes_in_active_directory_domain_services">Admin Interfaces in Active Directory Domain Services</a>
 
 
 

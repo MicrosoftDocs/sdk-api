@@ -7,7 +7,7 @@ old-location: fs\getfilebandwidthreservation_func.htm
 tech.root: fileio
 ms.assetid: 3caf38f6-e853-4057-a192-71cda4443dbd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetFileBandwidthReservation, GetFileBandwidthReservation function [Files], fs.getfilebandwidthreservation_func, winbase/GetFileBandwidthReservation
 ms.prod: windows-hardware
 ms.technology: windows-devices

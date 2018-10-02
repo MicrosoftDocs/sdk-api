@@ -7,7 +7,7 @@ old-location: mstv\idtfilter3_licensehasexpirationdate.htm
 tech.root: MSTV
 ms.assetid: 712be51a-27ed-4ede-bef6-9223c57f446f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],LicenseHasExpirationDate method, IDTFilter3.LicenseHasExpirationDate, IDTFilter3::LicenseHasExpirationDate, IDTFilter3LicenseHasExpirationDate, LicenseHasExpirationDate, LicenseHasExpirationDate method [Microsoft TV Technologies], LicenseHasExpirationDate method [Microsoft TV Technologies],IDTFilter3 interface, encdec/IDTFilter3::LicenseHasExpirationDate, mstv.idtfilter3_licensehasexpirationdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

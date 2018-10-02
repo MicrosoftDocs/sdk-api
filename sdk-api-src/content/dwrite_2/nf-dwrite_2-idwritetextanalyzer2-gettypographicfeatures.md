@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer2_gettypographicfeatures.htm
 tech.root: DirectWrite
 ms.assetid: 36CAC2F8-9065-4FD9-8EFD-529B97CE94D8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetTypographicFeatures, GetTypographicFeatures method [Direct Write], GetTypographicFeatures method [Direct Write],IDWriteTextAnalyzer2 interface, IDWriteTextAnalyzer2 interface [Direct Write],GetTypographicFeatures method, IDWriteTextAnalyzer2.GetTypographicFeatures, IDWriteTextAnalyzer2::GetTypographicFeatures, directwrite.idwritetextanalyzer2_gettypographicfeatures, dwrite_2/IDWriteTextAnalyzer2::GetTypographicFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

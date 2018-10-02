@@ -7,7 +7,7 @@ old-location: picacq\error_advise_message_type.htm
 tech.root: acquisition
 ms.assetid: 2fde8aa9-126a-4908-8faf-71ecad231f8d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ERROR_ADVISE_MESSAGE_TYPE, ERROR_ADVISE_MESSAGE_TYPE enumeration [Picture Acquisition], PHOTOACQUIRE_ERROR_OK, PHOTOACQUIRE_ERROR_RETRYCANCEL, PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL, PHOTOACQUIRE_ERROR_YESNO, enumeration [Picture Acquisition], photoacquire/ERROR_ADVISE_MESSAGE_TYPE, photoacquire/PHOTOACQUIRE_ERROR_OK, photoacquire/PHOTOACQUIRE_ERROR_RETRYCANCEL, photoacquire/PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL, photoacquire/PHOTOACQUIRE_ERROR_YESNO, picacq.error_advise_message_type, tagERROR_ADVISE_MESSAGE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\ischaralpha.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischaralpha.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IsCharAlpha, IsCharAlpha function [Menus and Other Resources], IsCharAlphaA, IsCharAlphaW, _win32_IsCharAlpha, _win32_ischaralpha_cpp, menurc.ischaralpha, winui._win32_ischaralpha, winuser/IsCharAlpha, winuser/IsCharAlphaA, winuser/IsCharAlphaW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ If the character is not alphabetical, the return value is zero. To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx">IsCharAlphaNumeric</a>
+<a href="https://msdn.microsoft.com/5c77d035-cef6-4d63-af53-3e5e32a58ed1">IsCharAlphaNumeric</a>
 
 
 
@@ -103,7 +103,7 @@ If the character is not alphabetical, the return value is zero. To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

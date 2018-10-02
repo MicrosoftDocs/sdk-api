@@ -4,10 +4,10 @@ title: IFsrmClassifierModuleImplementation::OnEndFile
 author: windows-sdk-content
 description: Instructs the classifier to perform any cleanup after processing a file.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_onendfile.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 52de3e11-89b3-4cf2-92f3-cc6dff686e0b
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnEndFile method, IFsrmClassifierModuleImplementation.OnEndFile, IFsrmClassifierModuleImplementation::OnEndFile, OnEndFile, OnEndFile method [File Server Resource Manager], OnEndFile method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_onendfile, fsrm.ifsrmclassifiermoduleimplementation_onendfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnEndFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

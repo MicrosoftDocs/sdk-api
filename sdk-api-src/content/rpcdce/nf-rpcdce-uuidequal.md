@@ -4,10 +4,10 @@ title: UuidEqual function
 author: windows-sdk-content
 description: An application calls the UuidEqual function to compare two UUIDs and determine whether they are equal.
 old-location: rpc\uuidequal.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: ff83c66c-1f1f-4582-a93b-d7bb5181deec
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: UuidEqual, UuidEqual function [RPC], _rpc_uuidequal, rpc.uuidequal, rpcdce/UuidEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
 author: windows-sdk-content
 description: Describes a sub sample mapping block.
 old-location: mf\d3d11_video_decoder_sub_sample_mapping_block.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 82EC2598-60FB-4800-A001-0CCC2D0D529E
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, mf.d3d11_video_decoder_sub_sample_mapping_block
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Values in the sub sample mapping blocks are relative to the start of the decode 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

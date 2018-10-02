@@ -7,7 +7,7 @@ old-location: devinst\cm_add_empty_log_conf.htm
 tech.root: devinst
 ms.assetid: 9de0b04d-96be-4c93-b7af-09200fdcf807
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: CM_Add_Empty_Log_Conf, CM_Add_Empty_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Add_Empty_Log_Conf, cfgmgrfn_91cca29b-dad4-43a7-882c-0cc465811429.xml, devinst.cm_add_empty_log_conf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -339,7 +339,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-Calling <b>CM_Add_Empty_Log_Conf</b> can cause the handles returned by <a href="https://msdn.microsoft.com/en-us/library/Ff538522(v=VS.85).aspx">CM_Get_First_Log_Conf</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff538591(v=VS.85).aspx">CM_Get_Next_Log_Conf</a> to become invalid. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf</b>, your code must call <b>CM_Get_First_Log_Conf</b> again and start at the first configuration.
+Calling <b>CM_Add_Empty_Log_Conf</b> can cause the handles returned by <a href="https://msdn.microsoft.com/7ef14797-ea67-40cb-ad8d-e8c846ae1fd4">CM_Get_First_Log_Conf</a> and <a href="https://msdn.microsoft.com/fa256bda-a7ee-4583-a91b-e7c2ef39b3f2">CM_Get_Next_Log_Conf</a> to become invalid. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf</b>, your code must call <b>CM_Get_First_Log_Conf</b> again and start at the first configuration.
 
 To remove a logical configuration created by <b>CM_Add_Empty_Log_Conf</b>, call <a href="https://msdn.microsoft.com/89d8e5ed-751c-4f85-8669-a33c6228fe22">CM_Free_Log_Conf</a>.
 
@@ -373,11 +373,11 @@ For information about using device instance handles that are bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538522(v=VS.85).aspx">CM_Get_First_Log_Conf</a>
+<a href="https://msdn.microsoft.com/7ef14797-ea67-40cb-ad8d-e8c846ae1fd4">CM_Get_First_Log_Conf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538591(v=VS.85).aspx">CM_Get_Next_Log_Conf</a>
+<a href="https://msdn.microsoft.com/fa256bda-a7ee-4583-a91b-e7c2ef39b3f2">CM_Get_Next_Log_Conf</a>
  
 
  

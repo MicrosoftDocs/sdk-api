@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_setsingletabletmode.htm
 tech.root: tablet
 ms.assetid: 7f3645fd-cb1e-4bd5-a995-d70197c61afc
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 7f3645fd-cb1e-4bd5-a995-d70197c61afc, IRealTimeStylus interface [Tablet PC],SetSingleTabletMode method, IRealTimeStylus.SetSingleTabletMode, IRealTimeStylus::SetSingleTabletMode, SetSingleTabletMode, SetSingleTabletMode method [Tablet PC], SetSingleTabletMode method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetSingleTabletMode, tablet.irealtimestylus_setsingletabletmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,31 +92,35 @@ If <a href="https://msdn.microsoft.com/cb8b2a17-68b9-482b-b212-ad129522ff2e">IRe
 
 The following C++ example code sets a <a href="https://msdn.microsoft.com/bfd13012-decf-423a-bc1a-39fb9b0eb64e">IRealTimeStylus</a> object, <code>g_pRealTimeStylus</code>, to single tablet mode so it can get the tablet and retrieve its plug-and-play identifier. Then it sets the <b>IRealTimeStylus</b> object back to all tablets mode.
 
-
-```cpp
-// Must be in single tablet mode for GetTablet to succeed. This call to
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Must be in single tablet mode for GetTablet to succeed. This call to
 // SetSingleTabletMode() would likely happen somewhere else in the app.
-if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
+if (SUCCEEDED(g_pRealTimeStylus-&gt;SetSingleTabletMode(pInkTablet)))
 {
     IInkTablet* pTablet = NULL;
 
-    if ((SUCCEEDED(g_pRealTimeStylus->GetTablet(&pTablet))) && (NULL != pTablet))
+    if ((SUCCEEDED(g_pRealTimeStylus-&gt;GetTablet(&amp;pTablet))) &amp;&amp; (NULL != pTablet))
     {
         BSTR bstrPnPID;
 
-        if (SUCCEEDED(pTablet->get_PlugAndPlayId(&bstrPnPID)))
+        if (SUCCEEDED(pTablet-&gt;get_PlugAndPlayId(&amp;bstrPnPID)))
         {
             TRACE("The tablet's Plug-n-Play ID is: %s\n", bstrPnPID);
         }
     }
 
     // Restore all tablets mode.
-    g_pRealTimeStylus->SetAllTabletsMode(TRUE);
+    g_pRealTimeStylus-&gt;SetAllTabletsMode(TRUE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

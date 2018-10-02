@@ -4,10 +4,10 @@ title: IntPtrAdd function
 author: windows-sdk-content
 description: Adds two values of type INT_PTR.
 old-location: shell\IntPtrAdd.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: eceb36c4-287c-48e6-ad7d-0abf3d0a3893
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IntPtrAdd, IntPtrAdd function [Windows Shell], intsafe/IntPtrAdd, shell.IntPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

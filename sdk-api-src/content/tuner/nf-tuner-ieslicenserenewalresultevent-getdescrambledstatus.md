@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent_getdescrambledstatus.htm
 tech.root: MSTV
 ms.assetid: ed09aea2-e000-40ce-bd94-a174e75a5001
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetDescrambledStatus, GetDescrambledStatus method [DirectShow], GetDescrambledStatus method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetDescrambledStatus method, IESLicenseRenewalResultEvent.GetDescrambledStatus, IESLicenseRenewalResultEvent::GetDescrambledStatus, mstv.ieslicenserenewalresultevent_getdescrambledstatus, tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

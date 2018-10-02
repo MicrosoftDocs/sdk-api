@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovergetaddressstatus.htm
 tech.root: DHCP
 ms.assetid: 4d8371f2-1dc5-487d-b4c0-c5a2071466b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpV4FailoverGetAddressStatus, DhcpV4FailoverGetAddressStatus function [DHCP], dhcp.dhcpv4failovergetaddressstatus, dhcpsapi/DhcpV4FailoverGetAddressStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

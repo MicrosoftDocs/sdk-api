@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__oneventno
 tech.root: printdocs
 ms.assetid: 2f398173-3cd6-46da-931d-057d1dccbe9b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify method, IPrintAsyncNotifyCallback.OnEventNotify, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI],IPrintAsyncNotifyCallback interface, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,13 +95,17 @@ The return values are COM error codes. Because this function might complete the 
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 The following code example shows how these macros can be used to evaluate the return value.
 
-
-```cpp
-if (SUCCEEDED(hr)){
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr)){
   // Call was successful 
 }
 
@@ -122,10 +126,10 @@ if (FAILED(hr)) {
 } else {
   // Call succeeded 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -147,7 +151,7 @@ To deliver a notification, the print spooler will call the <b>OnEventNotify</b> 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>
+<a href="_com_error_handling">Error Handling</a>
 
 
 

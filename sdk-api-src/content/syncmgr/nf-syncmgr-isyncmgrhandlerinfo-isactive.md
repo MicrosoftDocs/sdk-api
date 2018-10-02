@@ -4,10 +4,10 @@ title: ISyncMgrHandlerInfo::IsActive
 author: windows-sdk-content
 description: Gets a value that indicates whether the handler can be synchronized.
 old-location: shell\ISyncMgrHandlerInfo_IsActive.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0bcb06ba-a94a-4a18-a284-48be19ec4b44
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsActive method, ISyncMgrHandlerInfo.IsActive, ISyncMgrHandlerInfo::IsActive, IsActive, IsActive method [Windows Shell], IsActive method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsActive, shell.ISyncMgrHandlerInfo_IsActive, syncmgr/ISyncMgrHandlerInfo::IsActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,17 +94,21 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 The following example shows an implementation of this method that calls a private class function to retrieve the active state.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::IsActive()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::IsActive()
 {
     // Return a previously-calculated value.
     return (_fIsActive ? S_OK : S_FALSE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

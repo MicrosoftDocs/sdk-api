@@ -7,7 +7,7 @@ old-location: cos\iservicepartitionconfig.htm
 tech.root: cossdk
 ms.assetid: 63dcc64b-edd5-4188-a87b-46452c3b624f
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IServicePartitionConfig, IServicePartitionConfig interface [COM+], IServicePartitionConfig interface [COM+],described, _cos_IServicePartitionConfi, comsvcs/IServicePartitionConfig, cos.iservicepartitionconfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-Configures how partitions are used for the work that is done when calling either <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a> or <a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a>. 
+Configures how partitions are used for the work that is done when calling either <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> or <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>. 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServicePartitionConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IServicePartitionConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServicePartitionConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServicePartitionConfig</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IServicePartitionConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678943(v=VS.85).aspx">PartitionConfig</a>
+<a href="https://msdn.microsoft.com/0f8c5353-5740-4c7e-91be-f336424fb93a">PartitionConfig</a>
 </td>
 <td align="left" width="63%">
 Configures how partitions are used for the enclosed work.
@@ -81,7 +81,7 @@ Configures how partitions are used for the enclosed work.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms680598(v=VS.85).aspx">PartitionID</a>
+<a href="https://msdn.microsoft.com/40480925-dfb6-40ea-a8ea-72659e359b47">PartitionID</a>
 </td>
 <td align="left" width="63%">
 Sets the GUID for the partition that is used for the enclosed work.
@@ -97,7 +97,7 @@ Sets the GUID for the partition that is used for the enclosed work.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688501(v=VS.85).aspx">COM+ Partitions</a>
+<a href="https://msdn.microsoft.com/fd22a64c-f2d8-48af-86e1-985e21b0f8fa">COM+ Partitions</a>
 
 
 

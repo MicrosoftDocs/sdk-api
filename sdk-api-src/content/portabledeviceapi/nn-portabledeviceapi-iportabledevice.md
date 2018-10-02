@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice.htm
 tech.root: wpd_sdk
 ms.assetid: 98c48e56-56b8-4800-b52b-ac08f2abf27e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], IPortableDevice interface [Windows Portable Devices SDK],described, IPortableDeviceInterface, portabledeviceapi/IPortableDevice, wpdsdk.iportabledevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.redist:
 
 The <b>IPortableDevice</b> interface provides access to a portable device.
 
-To create and open this interface, first call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://msdn.microsoft.com/d505fc34-9b6d-417a-a53e-e74773dcc8a4">Open</a> to open a connection to the device.
+To create and open this interface, first call <a href="6f361b8b-490a-4ee9-88a9-129a0f0f91dd">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://msdn.microsoft.com/d505fc34-9b6d-417a-a53e-e74773dcc8a4">Open</a> to open a connection to the device.
 
 
 ## -inheritance

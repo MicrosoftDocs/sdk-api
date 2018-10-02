@@ -4,10 +4,10 @@ title: EngUnmapFontFileFD function
 author: windows-sdk-content
 description: The EngUnmapFontFileFD function unmaps the specified font file from system memory.
 old-location: display\engunmapfontfilefd.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 61c1acb6-c158-4ba4-ad5b-2f7b1a9bf106
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngUnmapFontFileFD, EngUnmapFontFileFD function [Display Devices], display.engunmapfontfilefd, gdifncs_40ba83d0-7822-402b-9463-f593ddaecaed.xml, winddi/EngUnmapFontFileFD
 ms.prod: windows-hardware
 ms.technology: windows-devices

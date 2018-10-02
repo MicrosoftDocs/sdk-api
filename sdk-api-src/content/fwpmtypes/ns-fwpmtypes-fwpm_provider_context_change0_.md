@@ -7,7 +7,7 @@ old-location: fwp\fwpm_provider_context_change0_struct.htm
 tech.root: FWP
 ms.assetid: 78786d91-1e2f-4846-9636-8d5d6acf5a7d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_CHANGE0, FWPM_PROVIDER_CONTEXT_CHANGE0 structure [Filtering], FWPM_PROVIDER_CONTEXT_CHANGE0_, fwp.fwpm_provider_context_change0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT_CHANGE0
 ms.prod: windows
 ms.technology: windows-sdk

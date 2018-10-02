@@ -7,7 +7,7 @@ old-location: rm\drmid.htm
 tech.root: AdRms_Sdk
 ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services SDK 1.0], _DRMID, msdrmdefs/DRMID, rm.drmid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,34 +88,46 @@ A pointer to a null-terminated Unicode string that contains the object ID. If yo
 
 In a C++ application, this structure will have a default constructor that initializes the members to the following values.
 
-
-```cpp
-uVersion = DRMIDVERSION
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>uVersion = DRMIDVERSION
 wszIDType = NULL
 wszID = NULL
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 An overloaded C++ constructor is also defined as follows.
 
-
-```cpp
-DRMID(PWSTR wszIDType, PWSTR wszID)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DRMID(PWSTR wszIDType, PWSTR wszID)</pre>
+</td>
+</tr>
+</table></span></div>
  This constructor will initialize the members to the following values.
 
-
-```cpp
-uVersion = DRMIDVERSION
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>uVersion = DRMIDVERSION
 wszIDType = wszTypein
 wszID = wszIDin
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

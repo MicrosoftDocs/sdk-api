@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_get_halpha.htm
 tech.root: MSTV
 ms.assetid: 523222c3-ae40-4eed-af22-6cba56df4959
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_HAlpha method, IDVBTLocator.get_HAlpha, IDVBTLocator::get_HAlpha, IDVBTLocatorget_HAlpha, get_HAlpha, get_HAlpha method [Microsoft TV Technologies], get_HAlpha method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_halpha, tuner/IDVBTLocator::get_HAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices

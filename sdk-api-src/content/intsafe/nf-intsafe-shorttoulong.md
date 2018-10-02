@@ -4,10 +4,10 @@ title: ShortToULong function
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type ULONG.
 old-location: shell\ShortToULong.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3a959f88-cca2-4fa6-802c-35411e7c5a4d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ShortToULong, ShortToULong function [Windows Shell], intsafe/ShortToULong, shell.ShortToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices

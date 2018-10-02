@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_setoptionvalue.htm
 tech.root: Intl
 ms.assetid: 635E6024-DD9F-403D-B05F-B719EFE78FC0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],SetOptionValue method, ISpellCheckProvider.SetOptionValue, ISpellCheckProvider::SetOptionValue, SetOptionValue, SetOptionValue method [Internationalization for Windows Applications], SetOptionValue method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_setoptionvalue, spellcheckprovider/ISpellCheckProvider::SetOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

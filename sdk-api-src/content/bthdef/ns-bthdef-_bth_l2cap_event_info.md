@@ -4,10 +4,10 @@ title: "_BTH_L2CAP_EVENT_INFO"
 author: windows-sdk-content
 description: Contains data about events associated with an L2CAP channel.
 old-location: bluetooth\bth_l2cap_event_info.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: fd16514c-7a7e-4da4-b506-71cb66ed1983
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*PBTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO structure [Bluetooth], BTH_L2CAP_EVENT_INFO, BTH_L2CAP_EVENT_INFO structure [Bluetooth], _BTH_L2CAP_EVENT_INFO, bluetooth.bth_l2cap_event_info, bthdef/*PBTH_L2CAP_EVENT_INFO, bthdef/BTH_L2CAP_EVENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The <b>BTH_L2CAP_EVENT_INFO</b> structure contains data about events associated 
 
 ### -field bthAddress
 
-Remote radio address with which the L2CAP event is associated, in the form of a <a href="https://msdn.microsoft.com/en-us/library/Aa362772(v=VS.85).aspx">BTH_ADDR</a> structure.
+Remote radio address with which the L2CAP event is associated, in the form of a <a href="https://msdn.microsoft.com/81dd4925-7f0a-468f-b706-244ce99e91df">BTH_ADDR</a> structure.
 
 
 ### -field psm
@@ -92,7 +92,7 @@ Notifications for a destroyed channel are only to be sent for channels that have
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362772(v=VS.85).aspx">BTH_ADDR</a>
+<a href="https://msdn.microsoft.com/81dd4925-7f0a-468f-b706-244ce99e91df">BTH_ADDR</a>
 
 
 

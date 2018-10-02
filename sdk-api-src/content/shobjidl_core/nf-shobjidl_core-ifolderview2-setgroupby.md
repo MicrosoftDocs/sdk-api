@@ -4,10 +4,10 @@ title: IFolderView2::SetGroupBy
 author: windows-sdk-content
 description: Groups the view by the given property key and direction.
 old-location: shell\IFolderView2_SetGroupBy.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2d0761cb-7c81-48f7-994d-6dd61062d848
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupBy method, IFolderView2.SetGroupBy, IFolderView2::SetGroupBy, SetGroupBy, SetGroupBy method [Windows Shell], SetGroupBy method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupBy, shell.IFolderView2_SetGroupBy, shobjidl_core/IFolderView2::SetGroupBy
 ms.prod: windows-hardware
 ms.technology: windows-devices

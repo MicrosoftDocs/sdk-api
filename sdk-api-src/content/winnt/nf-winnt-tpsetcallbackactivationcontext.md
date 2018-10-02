@@ -4,10 +4,10 @@ title: TpSetCallbackActivationContext function
 author: windows-sdk-content
 description: Assigns an activation context to the callback environment.
 old-location: base\tpsetcallbackactivationcontext.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

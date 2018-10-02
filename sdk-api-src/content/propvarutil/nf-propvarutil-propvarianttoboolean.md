@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBoolean.htm
 tech.root: properties
 ms.assetid: 74b9a388-8342-46e3-ac5e-b7c99e8f8f00
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/27/2018
 ms.keywords: PropVariantToBoolean, PropVariantToBoolean function [Windows Properties], properties.PropVariantToBoolean, propvarutil/PropVariantToBoolean, shell.PropVariantToBoolean, shell_PropVariantToBoolean
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,27 +89,31 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a Boolean value. For instance, an application obtaining values from a property store can use this to safely extract the Boolean value for Boolean properties.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_BOOL</b>, this helper function extracts the Boolean value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a Boolean. If a conversion is not possible, <a href="https://msdn.microsoft.com/en-us/library/Bb776531(v=VS.85).aspx">PropVariantToBoolean</a> will return a failure code and set <i>pfRet</i> to <b>FALSE</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions. Of note, <b>VT_EMPTY</b> is successfully converted to <b>FALSE</b>.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_BOOL</b>, this helper function extracts the Boolean value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a Boolean. If a conversion is not possible, <a href="shell.PropVariantToBoolean">PropVariantToBoolean</a> will return a failure code and set <i>pfRet</i> to <b>FALSE</b>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, <b>VT_EMPTY</b> is successfully converted to <b>FALSE</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776531(v=VS.85).aspx">PropVariantToBoolean</a> access a Boolean value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToBoolean">PropVariantToBoolean</a> access a Boolean value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// IPropertyStore *ppropstore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
 
-HRESULT hr = ppropstore->GetValue(PKEY_IsShared, &propvar);
+HRESULT hr = ppropstore-&gt;GetValue(PKEY_IsShared, &amp;propvar);
 if (SUCCEEDED(hr))
 {
      // PKEY_IsShared is expected to produce a VT_BOOL or VT_EMPTY value.
      // PropVariantToBoolean will convert VT_EMPTY to FALSE.
      BOOL fShared;
      
-     hr = PropVariantToBoolean(propvar, &fShared);
+     hr = PropVariantToBoolean(propvar, &amp;fShared);
      if (SUCCEEDED(hr))
      {
          // fShared is now valid
@@ -119,13 +123,13 @@ if (SUCCEEDED(hr))
          // fShared is always FALSE
      }
      
-     PropVariantClear(&propvar);
+     PropVariantClear(&amp;propvar);
 }
 
-                    
-```
-
-
+                    </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -134,19 +138,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762287(v=VS.85).aspx">InitPropVariantFromBoolean</a>
+<a href="shell.InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776519(v=VS.85).aspx">PropVariantGetBooleanElem</a>
+<a href="shell.PropVariantGetBooleanElem">PropVariantGetBooleanElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776534(v=VS.85).aspx">PropVariantToBooleanWithDefault</a>
+<a href="shell.PropVariantToBooleanWithDefault">PropVariantToBooleanWithDefault</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a>
+<a href="shell.VariantToBoolean">VariantToBoolean</a>
  
 
  

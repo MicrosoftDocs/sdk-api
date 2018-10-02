@@ -7,7 +7,7 @@ old-location: fwp\ikeext_authentication_impersonation_type.htm
 tech.root: FWP
 ms.assetid: 840c7429-5a1a-4e3f-823c-c46a412cbe71
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE, IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE enumeration [Filtering], IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE_, IKEEXT_IMPERSONATION_MAX, IKEEXT_IMPERSONATION_NONE, IKEEXT_IMPERSONATION_SOCKET_PRINCIPAL, fwp.ikeext_authentication_impersonation_type, iketypes/IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE, iketypes/IKEEXT_IMPERSONATION_MAX, iketypes/IKEEXT_IMPERSONATION_NONE, iketypes/IKEEXT_IMPERSONATION_SOCKET_PRINCIPAL
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\writefile.htm
 tech.root: fileio
 ms.assetid: 9d6fa723-fe3e-4052-b0b3-2686eee076a7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -444,13 +444,17 @@ The following C++ example shows how to align sectors for unbuffered file writes.
      the file. For additional rules regarding unbuffered file I/O, see 
      <a href="https://msdn.microsoft.com/ae1e5d0f-9b55-4aae-8402-b9c8e33d9363">File Buffering</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
-```cpp
-#include <windows.h>
+#define ROUND_UP_SIZE(Value,Pow2) ((SIZE_T) ((((ULONG)(Value)) + (Pow2) - 1) &amp; (~(((LONG)(Pow2)) - 1))))
 
-#define ROUND_UP_SIZE(Value,Pow2) ((SIZE_T) ((((ULONG)(Value)) + (Pow2) - 1) & (~(((LONG)(Pow2)) - 1))))
-
-#define ROUND_UP_PTR(Ptr,Pow2)  ((void *) ((((ULONG_PTR)(Ptr)) + (Pow2) - 1) & (~(((LONG_PTR)(Pow2)) - 1))))
+#define ROUND_UP_PTR(Ptr,Pow2)  ((void *) ((((ULONG_PTR)(Ptr)) + (Pow2) - 1) &amp; (~(((LONG_PTR)(Pow2)) - 1))))
 
 
 void main()
@@ -493,10 +497,10 @@ cleanup:
    }
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

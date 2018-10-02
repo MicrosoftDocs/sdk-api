@@ -7,7 +7,7 @@ old-location: winsock\ip_mreq.htm
 tech.root: WinSock
 ms.assetid: 0bcf4c17-679d-42fc-b77e-722ce955d01f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP_MREQ, IP_MREQ, IP_MREQ [Winsock], IP_MREQ structure [Winsock], PIP_MREQ, PIP_MREQ structure pointer [Winsock], ip_mreq, ip_mreq structure [Winsock], winsock.ip_mreq, ws2ipdef/PIP_MREQ, ws2ipdef/ip_mreq, ws2tcpip/PIP_MREQ, ws2tcpip/ip_mreq"
 ms.prod: windows
 ms.technology: windows-sdk

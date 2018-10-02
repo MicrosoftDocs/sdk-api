@@ -7,7 +7,7 @@ old-location: wmi\iwbemunboundobjectsink.htm
 tech.root: WmiSdk
 ms.assetid: a890aefe-e35e-4635-874d-953194f99a82
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemUnboundObjectSink, IWbemUnboundObjectSink interface [Windows Management Instrumentation], IWbemUnboundObjectSink interface [Windows Management Instrumentation],described, _hmm_iwbemunboundobjectsink, wbemprov/IWbemUnboundObjectSink, wmi.iwbemunboundobjectsink
 ms.prod: windows
 ms.technology: windows-sdk

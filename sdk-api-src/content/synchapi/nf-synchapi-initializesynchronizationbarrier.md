@@ -7,7 +7,7 @@ old-location: base\initializesynchronizationbarrier.htm
 tech.root: Sync
 ms.assetid: f69934a1-ee1f-4400-ae3e-cb9a19feff93
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InitializeSynchronizationBarrier, InitializeSynchronizationBarrier function, base.initializesynchronizationbarrier, synchapi/InitializeSynchronizationBarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\scardintroducecardtype.htm
 tech.root: secauthn
 ms.assetid: 1ac88466-1277-44d7-a471-b31d6bfce99e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: SCardIntroduceCardType, SCardIntroduceCardType function [Security], SCardIntroduceCardTypeA, SCardIntroduceCardTypeW, _smart_scardintroducecardtype, security.scardintroducecardtype, winscard/SCardIntroduceCardType, winscard/SCardIntroduceCardTypeA, winscard/SCardIntroduceCardTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,7 +132,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -159,9 +159,13 @@ To remove a smart card, use
 
 The following example shows how to introduce a card type. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function.
 
-
-```cpp
-GUID  MyGuid = { 0xABCDEF00,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>GUID  MyGuid = { 0xABCDEF00,
                  0xABCD,
                  0xABCD,
                  0xAA, 0xBB, 0xCC, 0xDD,
@@ -174,7 +178,7 @@ LONG            lReturn;
 
 lReturn = SCardIntroduceCardType(hContext, 
                                  L"MyCardName",
-                                 &MyGuid,
+                                 &amp;MyGuid,
                                  NULL,    // No interface array
                                  0,       // Interface count = 0
                                  MyATR,
@@ -182,10 +186,10 @@ lReturn = SCardIntroduceCardType(hContext,
                                  sizeof(MyATR));
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardIntroduceCardType\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

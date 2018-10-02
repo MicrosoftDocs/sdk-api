@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeercacherecords_getcount.htm
 tech.root: Bits
 ms.assetid: 40c4e7da-031f-4c3b-ab18-2476b54ae972
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],GetCount method, IEnumBitsPeerCacheRecords.GetCount, IEnumBitsPeerCacheRecords::GetCount, bits.ienumbitspeercacherecords_getcount, bits3_0/IEnumBitsPeerCacheRecords::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964302(v=VS.85).aspx">IEnumBitsPeerCacheRecords</a>
+<a href="https://msdn.microsoft.com/680c1468-d780-44a3-9048-c7c3928234f9">IEnumBitsPeerCacheRecords</a>
  
 
  

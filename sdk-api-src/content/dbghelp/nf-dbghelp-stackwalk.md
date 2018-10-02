@@ -4,10 +4,10 @@ title: StackWalk function
 author: windows-sdk-content
 description: Obtains a stack trace.
 old-location: base\stackwalk64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e2bdaa4c-5474-41a0-bcea-927570c8402c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, StackWalk, StackWalk function, StackWalk64, StackWalk64 function, _win32_stackwalk64, base.stackwalk64, dbghelp/StackWalk, dbghelp/StackWalk64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -226,9 +226,13 @@ This function supersedes the <b>StackWalk</b> function. For
    <b>StackWalk</b> is defined as follows in DbgHelp.h.
    
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define StackWalk StackWalk64
 #else
 BOOL
@@ -245,10 +249,10 @@ StackWalk(
     __in_opt PTRANSLATE_ADDRESS_ROUTINE TranslateAddress
     );
 
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

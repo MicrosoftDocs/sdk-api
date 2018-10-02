@@ -4,10 +4,10 @@ title: MFCreateAVIMediaSink function
 author: windows-sdk-content
 description: Creates an Audio-Video Interleaved (AVI) Sink.
 old-location: mf\mfcreateavimediasink.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: BAF47469-783B-4035-BD83-2921A88877E4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateAVIMediaSink, MFCreateAVIMediaSink function [Media Foundation], mf.mfcreateavimediasink, mfidl/MFCreateAVIMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

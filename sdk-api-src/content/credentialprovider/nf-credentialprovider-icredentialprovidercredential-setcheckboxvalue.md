@@ -4,10 +4,10 @@ title: ICredentialProviderCredential::SetCheckboxValue
 author: windows-sdk-content
 description: Enables a Logon UI and Credential UI to indicate that a checkbox value has changed.
 old-location: shell\ICredentialProviderCredential_SetCheckboxValue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7da8e80f-1cbe-4a10-96a0-7eb6e61b0f9b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetCheckboxValue method, ICredentialProviderCredential.SetCheckboxValue, ICredentialProviderCredential::SetCheckboxValue, SetCheckboxValue, SetCheckboxValue method [Windows Shell], SetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetCheckboxValue, credentialprovider/ICredentialProviderCredential::SetCheckboxValue, shell.ICredentialProviderCredential_SetCheckboxValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

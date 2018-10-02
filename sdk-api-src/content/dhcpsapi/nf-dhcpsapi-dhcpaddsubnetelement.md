@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddsubnetelement.htm
 tech.root: DHCP
 ms.assetid: 4f93d4e8-f41e-4df8-98cc-70a11be75eab
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpAddSubnetElement, DhcpAddSubnetElement function [DHCP], dhcp.dhcpaddsubnetelement, dhcpsapi/DhcpAddSubnetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509NameValuePairs::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an IX509NameValuePair object from the collection by index number.
 old-location: security\ix509namevaluepairs_itembyindex_property.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 76c00e96-e563-45e1-a579-9efafbc227b2
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509NameValuePairs interface [Security],ItemByIndex property, IX509NameValuePairs.ItemByIndex, IX509NameValuePairs.get_ItemByIndex, IX509NameValuePairs::ItemByIndex, IX509NameValuePairs::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::ItemByIndex, certenroll/IX509NameValuePairs::get_ItemByIndex, get_ItemByIndex, security.ix509namevaluepairs_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">IX509NameValuePair</a> object from the collection by index number.
+The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a> object from the collection by index number.
 
 This property is read-only.
 
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">IX509NameValuePair</a>
+<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378746(v=VS.85).aspx">IX509NameValuePairs</a>
+<a href="https://msdn.microsoft.com/c881dc9f-4187-4ba1-9f3a-e1564e4f37c7">IX509NameValuePairs</a>
  
 
  

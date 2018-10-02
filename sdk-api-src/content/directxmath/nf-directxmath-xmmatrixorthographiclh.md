@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixorthographiclh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixOrthographicLH(float,float,float,float)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMMatrixOrthographicLH, XMMatrixOrthographicLH, XMMatrixOrthographicLH method [DirectX Math Support APIs], dxmath.xmmatrixorthographiclh
 ms.prod: windows-hardware
 ms.technology: windows-devices

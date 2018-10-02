@@ -7,7 +7,7 @@ old-location: mbn\imbnpinmanager.htm
 tech.root: mbn
 ms.assetid: b5cfabc7-81f8-4ea0-b6f4-5de011320f0b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IMbnPinManager, IMbnPinManager interface [Microsoft Broadband Networks], IMbnPinManager interface [Microsoft Broadband Networks],described, mbn.imbnpinmanager, mbnapi/IMbnPinManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ Gets the current PIN state of the device.
 
 
 
-An application can acquire this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>.
+An application can acquire this interface by calling the <a href="_com_IUnknown_QueryInterface">QueryInterface</a> method of <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_signature_desc1.htm
 tech.root: direct3d12
 ms.assetid: F085D077-1DA8-41A1-9FA3-4423EA003345
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_ROOT_SIGNATURE_DESC1, D3D12_ROOT_SIGNATURE_DESC1 structure, d3d12/D3D12_ROOT_SIGNATURE_DESC1, direct3d12.d3d12_root_signature_desc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Specifies the <a href="https://msdn.microsoft.com/C3118E58-2006-459F-B2D6-4EC84F
 
 
 
-Use this structure with the <a href="https://msdn.microsoft.com/en-us/library/Mt709125(v=VS.85).aspx">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a> structure.
+Use this structure with the <a href="https://msdn.microsoft.com/46F692DD-55FF-4DFF-AF11-78CAD10922C1">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a> structure.
 
 
 
@@ -100,15 +100,15 @@ Use this structure with the <a href="https://msdn.microsoft.com/en-us/library/Mt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a>
+<a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt709473(v=VS.85).aspx">Root Signature Version 1.1</a>
+<a href="https://msdn.microsoft.com/8FE42C1C-7F1D-4E70-A7EE-D5EC67237327">Root Signature Version 1.1</a>
  
 
  

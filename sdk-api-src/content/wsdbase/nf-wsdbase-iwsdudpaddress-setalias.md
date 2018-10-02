@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpaddress_setalias.htm
 tech.root: WsdApi
 ms.assetid: 2156f271-cad4-4160-8d1f-bc44dc7b0e9f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWSDUdpAddress interface,SetAlias method, IWSDUdpAddress.SetAlias, IWSDUdpAddress::SetAlias, SetAlias, SetAlias method, SetAlias method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setalias, wsdbase/IWSDUdpAddress::SetAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices

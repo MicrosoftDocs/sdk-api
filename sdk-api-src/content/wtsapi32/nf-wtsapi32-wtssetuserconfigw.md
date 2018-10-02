@@ -7,7 +7,7 @@ old-location: termserv\wtssetuserconfig.htm
 tech.root: TermServ
 ms.assetid: 44d027c6-6ebb-4750-a0fa-17fdf31e45cd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WTSSetUserConfig, WTSSetUserConfig function [Remote Desktop Services], WTSSetUserConfigA, WTSSetUserConfigW, _win32_wtssetuserconfig, termserv.wtssetuserconfig, wtsapi32/WTSSetUserConfig, wtsapi32/WTSSetUserConfigA, wtsapi32/WTSSetUserConfigW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,16 +126,20 @@ If the value of the  <i>WTSConfigClass</i> parameter corresponds to an integer v
      in the call to <b>WTSSetUserConfig</b>, as in the 
      following example:
 
-
-```cpp
-WTSSetUserConfig( strServer.GetBuffer(0), 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WTSSetUserConfig( strServer.GetBuffer(0), 
                   m_strName.GetBuffer(0), 
                   WTSUserConfigfAllowLogonTerminalServer, 
-                  (LPWSTR) &dwEnable, 
-                  sizeof(DWORD));
-```
-
-
+                  (LPWSTR) &amp;dwEnable, 
+                  sizeof(DWORD));</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

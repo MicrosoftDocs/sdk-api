@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_transfer_in_append_zero_pkt.htm
 tech.root: UsbRef
 ms.assetid: 9EA139CD-2B00-4B03-AB0D-AE8FB66B687B
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT, IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT control, IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT control code [Buses], buses.ioctl_genericusbfn_transfer_in_append_zero_pkt, genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT
 ms.prod: windows
 ms.technology: windows-sdk

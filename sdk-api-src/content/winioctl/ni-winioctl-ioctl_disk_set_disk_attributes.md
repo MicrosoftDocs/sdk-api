@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_set_disk_attributes.htm
 tech.root: fileio
 ms.assetid: ba0e3666-8660-493c-b821-5997d577e7e2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: IOCTL_DISK_SET_DISK_ATTRIBUTES, IOCTL_DISK_SET_DISK_ATTRIBUTES control, IOCTL_DISK_SET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_set_disk_attributes, winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,19 +55,23 @@ Sets the attributes of the specified disk device.
 To perform this operation, call the 
     <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following 
     parameters.
-
-```cpp
-BOOL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to device 
                  IOCTL_DISK_SET_DISK_ATTRIBUTES, // dwIoControlCode(LPVOID)       lpInBuffer,      // input buffer:SET_DISK_ATTRIBUTES
                  (DWORD)        nInBufferSize,   // size of input buffer
                  (LPVOID)       NULL,            // lpOutBuffer 
                  (DWORD)        0,               // nOutBufferSize(LPDWORD)      lpBytesReturned, // number of bytes returned
-                 (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure
-```
-
-
+                 (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

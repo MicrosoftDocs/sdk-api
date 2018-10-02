@@ -4,10 +4,10 @@ title: IMsmError::get_Type
 author: windows-sdk-content
 description: The get_Type method retrieves the Type property of the Error object. This method returns a msmErrorType value indicating the type of error represented by this object.
 old-location: setup\imsmerror_get_type.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: 733a5390-419d-414a-b50e-8400d179bfb6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IMsmError interface,get_Type method, IMsmError.get_Type, IMsmError::get_Type, _msi_get_type_function_error_object_, get_Type, get_Type method, get_Type method,IMsmError interface, mergemod/IMsmError::get_Type, setup.imsmerror_get_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

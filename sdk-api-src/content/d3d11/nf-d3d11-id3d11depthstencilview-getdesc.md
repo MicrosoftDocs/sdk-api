@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11depthstencilview_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 00fd30de-ceae-4bcb-8602-36d43edd17b1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11DepthStencilView interface, ID3D11DepthStencilView interface [Direct3D 11],GetDesc method, ID3D11DepthStencilView.GetDesc, ID3D11DepthStencilView::GetDesc, a6b6e6e5-533d-8ea1-7645-eae1b36b5a5a, d3d11/ID3D11DepthStencilView::GetDesc, direct3d11.id3d11depthstencilview_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Get the depth-stencil view.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476112(v=VS.85).aspx">D3D11_DEPTH_STENCIL_VIEW_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f073a798-edd5-4e6a-a8a7-1592721ce35d">D3D11_DEPTH_STENCIL_VIEW_DESC</a>*</b>
 
-Pointer to a depth-stencil-view description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476112(v=VS.85).aspx">D3D11_DEPTH_STENCIL_VIEW_DESC</a>).
+Pointer to a depth-stencil-view description (see <a href="https://msdn.microsoft.com/f073a798-edd5-4e6a-a8a7-1592721ce35d">D3D11_DEPTH_STENCIL_VIEW_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476377(v=VS.85).aspx">ID3D11DepthStencilView</a>
+<a href="https://msdn.microsoft.com/10be1fd1-8700-4c0a-b447-d3c2569f8e81">ID3D11DepthStencilView</a>
  
 
  

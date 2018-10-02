@@ -7,7 +7,7 @@ old-location: wsw\wsgetpolicyproperty.htm
 tech.root: wsw
 ms.assetid: eebf1729-8492-47d3-90b2-6700d886de4a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsGetPolicyProperty, WsGetPolicyProperty function [Web Services for Windows], webservices/WsGetPolicyProperty, wsw.wsgetpolicyproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

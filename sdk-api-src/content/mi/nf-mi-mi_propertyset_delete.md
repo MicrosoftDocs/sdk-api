@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_delete.htm
 tech.root: WMI_v2
 ms.assetid: 8ab75a67-0b0e-443b-87b1-ca33f44dde9b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_PropertySet_Delete, MI_PropertySet_Delete function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Delete, wmi_v2.mi_propertyset_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

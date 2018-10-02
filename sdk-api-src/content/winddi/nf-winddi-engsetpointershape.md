@@ -4,10 +4,10 @@ title: EngSetPointerShape function
 author: windows-sdk-content
 description: The EngSetPointerShape function sets the pointer shape for the calling driver.
 old-location: display\engsetpointershape.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 9b3a1e44-f3c6-4160-8d5d-d114511ad201
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: EngSetPointerShape, EngSetPointerShape function [Display Devices], display.engsetpointershape, gdifncs_468e4611-6696-4535-af00-014999695d6e.xml, winddi/EngSetPointerShape
 ms.prod: windows-hardware
 ms.technology: windows-devices

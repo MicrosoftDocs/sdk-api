@@ -7,7 +7,7 @@ old-location: of\offlinefiles_connect_state.htm
 tech.root: OfflineFiles
 ms.assetid: 48c19b16-6ccb-4580-916d-0d23b69aafcf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OFFLINEFILES_CONNECT_STATE, OFFLINEFILES_CONNECT_STATE enumeration [Offline Files], OFFLINEFILES_CONNECT_STATE_OFFLINE, OFFLINEFILES_CONNECT_STATE_ONLINE, OFFLINEFILES_CONNECT_STATE_PARTLY_TRANSPARENTLY_CACHED, OFFLINEFILES_CONNECT_STATE_TRANSPARENTLY_CACHED, OFFLINEFILES_CONNECT_STATE_UNKNOWN, cscobj/OFFLINEFILES_CONNECT_STATE, cscobj/OFFLINEFILES_CONNECT_STATE_OFFLINE, cscobj/OFFLINEFILES_CONNECT_STATE_ONLINE, cscobj/OFFLINEFILES_CONNECT_STATE_PARTLY_TRANSPARENTLY_CACHED, cscobj/OFFLINEFILES_CONNECT_STATE_TRANSPARENTLY_CACHED, cscobj/OFFLINEFILES_CONNECT_STATE_UNKNOWN, of.offlinefiles_connect_state, tagOFFLINEFILES_CONNECT_STATE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,29 +60,29 @@ Describes the connection state of an item in the Offline Files cache.
 
 ### -field OFFLINEFILES_CONNECT_STATE_UNKNOWN
 
-Returned by <a href="https://msdn.microsoft.com/en-us/library/Bb530512(v=VS.85).aspx">IOfflineFilesConnectionInfo::GetConnectState</a> if the method fails.
+Returned by <a href="https://msdn.microsoft.com/83b082b4-5845-44b7-9456-f00b357e345a">IOfflineFilesConnectionInfo::GetConnectState</a> if the method fails.
 
 
 ### -field OFFLINEFILES_CONNECT_STATE_OFFLINE
 
-Returned by <a href="https://msdn.microsoft.com/en-us/library/Bb530512(v=VS.85).aspx">IOfflineFilesConnectionInfo::GetConnectState</a> if the item is offline. Pass this value to <a href="https://msdn.microsoft.com/en-us/library/Bb530513(v=VS.85).aspx">IOfflineFilesConnectionInfo::SetConnectState</a> to transition the item to offline.
+Returned by <a href="https://msdn.microsoft.com/83b082b4-5845-44b7-9456-f00b357e345a">IOfflineFilesConnectionInfo::GetConnectState</a> if the item is offline. Pass this value to <a href="https://msdn.microsoft.com/42412f42-7a70-4110-88ec-a38b3df7d2da">IOfflineFilesConnectionInfo::SetConnectState</a> to transition the item to offline.
 
 
 ### -field OFFLINEFILES_CONNECT_STATE_ONLINE
 
-Returned by <a href="https://msdn.microsoft.com/en-us/library/Bb530512(v=VS.85).aspx">IOfflineFilesConnectionInfo::GetConnectState</a> if the item is online. Pass this value to <a href="https://msdn.microsoft.com/en-us/library/Bb530513(v=VS.85).aspx">IOfflineFilesConnectionInfo::SetConnectState</a> to transition the item to online.
+Returned by <a href="https://msdn.microsoft.com/83b082b4-5845-44b7-9456-f00b357e345a">IOfflineFilesConnectionInfo::GetConnectState</a> if the item is online. Pass this value to <a href="https://msdn.microsoft.com/42412f42-7a70-4110-88ec-a38b3df7d2da">IOfflineFilesConnectionInfo::SetConnectState</a> to transition the item to online.
 
 
 ### -field OFFLINEFILES_CONNECT_STATE_TRANSPARENTLY_CACHED
 
-Returned by <a href="https://msdn.microsoft.com/en-us/library/Bb530512(v=VS.85).aspx">IOfflineFilesConnectionInfo::GetConnectState</a> if the item is transparently cached.
+Returned by <a href="https://msdn.microsoft.com/83b082b4-5845-44b7-9456-f00b357e345a">IOfflineFilesConnectionInfo::GetConnectState</a> if the item is transparently cached.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported before Windows Server 2008 R2 and Windows 7.
 
 
 ### -field OFFLINEFILES_CONNECT_STATE_PARTLY_TRANSPARENTLY_CACHED
 
-Returned by <a href="https://msdn.microsoft.com/en-us/library/Bb530512(v=VS.85).aspx">IOfflineFilesConnectionInfo::GetConnectState</a> if the item contains both transparently cached data and data that can be made available offline.
+Returned by <a href="https://msdn.microsoft.com/83b082b4-5845-44b7-9456-f00b357e345a">IOfflineFilesConnectionInfo::GetConnectState</a> if the item contains both transparently cached data and data that can be made available offline.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported before Windows Server 2008 R2 and Windows 7.
 
@@ -101,11 +101,11 @@ Transparently cached data is accessible only when the client is connected to the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530512(v=VS.85).aspx">IOfflineFilesConnectionInfo::GetConnectState</a>
+<a href="https://msdn.microsoft.com/83b082b4-5845-44b7-9456-f00b357e345a">IOfflineFilesConnectionInfo::GetConnectState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530513(v=VS.85).aspx">IOfflineFilesConnectionInfo::SetConnectState</a>
+<a href="https://msdn.microsoft.com/42412f42-7a70-4110-88ec-a38b3df7d2da">IOfflineFilesConnectionInfo::SetConnectState</a>
  
 
  

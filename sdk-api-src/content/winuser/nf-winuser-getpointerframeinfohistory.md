@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerframeinfohistory.htm
 tech.root: InputMsg
 ms.assetid: 1ae035d6-a375-4421-82a6-50be4a2341f6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPointerFrameInfoHistory, GetPointerFrameInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframeinfohistory, winuser/GetPointerFrameInfoHistory
 ms.prod: windows-hardware
 ms.technology: windows-devices

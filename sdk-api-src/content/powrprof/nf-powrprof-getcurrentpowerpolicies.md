@@ -4,10 +4,10 @@ title: GetCurrentPowerPolicies function
 author: windows-sdk-content
 description: Retrieves the current system power policy settings.
 old-location: base\getcurrentpowerpolicies.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 9a834fb6-35ae-4d36-885c-0d81cd39e9a6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: GetCurrentPowerPolicies, GetCurrentPowerPolicies function, _win32_getcurrentpowerpolicies, base.getcurrentpowerpolicies, powrprof/GetCurrentPowerPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

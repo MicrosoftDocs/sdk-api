@@ -7,7 +7,7 @@ old-location: mstv\ienumcomponenttypes_clone.htm
 tech.root: MSTV
 ms.assetid: 777c7302-5b5b-4263-ad9e-3d1bff5328fc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumComponentTypes interface, IEnumComponentTypes interface [Microsoft TV Technologies],Clone method, IEnumComponentTypes.Clone, IEnumComponentTypes::Clone, IEnumComponentTypesClone, mstv.ienumcomponenttypes_clone, tuner/IEnumComponentTypes::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPackageExecutionStateChangeNotification
 author: windows-sdk-content
 description: Enables receiving package state-change notifications during Windows Store app debugging.
 old-location: shell\IPackageExecutionStateChangeNotification.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6AD9A9CD-933B-432F-A124-48092588C5DF
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IPackageExecutionStateChangeNotification, IPackageExecutionStateChangeNotification interface [Windows Shell], IPackageExecutionStateChangeNotification interface [Windows Shell],described, shell.IPackageExecutionStateChangeNotification, shobjidl_core/IPackageExecutionStateChangeNotification
 ms.prod: windows
 ms.technology: windows-sdk

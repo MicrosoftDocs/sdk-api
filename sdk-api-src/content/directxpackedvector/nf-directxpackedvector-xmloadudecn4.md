@@ -7,7 +7,7 @@ old-location: dxmath\xmloadudecn4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUDecN4(const XMUDECN4)
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: DirectX::PackedVector.XMLoadUDecN4, XMLoadUDecN4, XMLoadUDecN4 method [DirectX Math Support APIs], dxmath.xmloadudecn4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a> structure to load. 
 
 
 ## -returns
@@ -78,24 +78,28 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVECTOR vectorOut;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR vectorOut;
 
 uint32_t Element;
 
-Element = pSource->v & 0x3FF;
+Element = pSource-&gt;v &amp; 0x3FF;
 vectorOut.x = (float)Element / 1023.f;
-Element = (pSource->v >> 10) & 0x3FF;
+Element = (pSource-&gt;v &gt;&gt; 10) &amp; 0x3FF;
 vectorOut.y = (float)Element / 1023.f;
-Element = (pSource->v >> 20) & 0x3FF;
+Element = (pSource-&gt;v &gt;&gt; 20) &amp; 0x3FF;
 vectorOut.z = (float)Element / 1023.f;
-vectorOut.w = (float)(pSource->v >> 30) / 3.f;
+vectorOut.w = (float)(pSource-&gt;v &gt;&gt; 30) / 3.f;
 
-return vectorOut;
-```
-
-
+return vectorOut;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

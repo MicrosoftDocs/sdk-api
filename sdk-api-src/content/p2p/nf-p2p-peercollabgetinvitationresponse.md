@@ -4,10 +4,10 @@ title: PeerCollabGetInvitationResponse function
 author: windows-sdk-content
 description: Obtains the response from a peer previously invited to join a peer collaboration activity.
 old-location: p2p\peercollabgetinvitationresponse.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: f9471e51-5eec-4927-bd12-7d362f5101ee
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabGetInvitationResponse, PeerCollabGetInvitationResponse function [Peer Networking], p2p.peercollabgetinvitationresponse, p2p/PeerCollabGetInvitationResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,7 +157,7 @@ A connection to the graph or group has failed, or a direct connection in a graph
 
 
 
-This function must be called after <a href="https://msdn.microsoft.com/2101e16e-ee05-417f-835b-c00cba7f6576">PeerCollabAsyncInviteContact</a> or <a href="https://msdn.microsoft.com/2606d2ef-26d3-4c52-b481-3ea38350295a">PeerCollabAsyncInviteEndpoint</a> is called and the event handle provided to <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a> is signaled on the peer that sent the invitation.
+This function must be called after <a href="https://msdn.microsoft.com/2101e16e-ee05-417f-835b-c00cba7f6576">PeerCollabAsyncInviteContact</a> or <a href="https://msdn.microsoft.com/2606d2ef-26d3-4c52-b481-3ea38350295a">PeerCollabAsyncInviteEndpoint</a> is called and the event handle provided to <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a> is signaled on the peer that sent the invitation.
 
 
 

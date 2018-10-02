@@ -4,10 +4,10 @@ title: IMFAsyncCallback
 author: windows-sdk-content
 description: Callback interface to notify the application when an asynchronous method completes.
 old-location: mf\imfasynccallback.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7edff985-da59-4cc0-96de-1a92e03a7d41
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 7edff985-da59-4cc0-96de-1a92e03a7d41, IMFAsyncCallback, IMFAsyncCallback interface [Media Foundation], IMFAsyncCallback interface [Media Foundation],described, mf.imfasynccallback, mfobjects/IMFAsyncCallback
 ms.prod: windows
 ms.technology: windows-sdk

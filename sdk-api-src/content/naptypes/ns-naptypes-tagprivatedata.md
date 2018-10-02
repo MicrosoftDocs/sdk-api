@@ -7,7 +7,7 @@ old-location: nap\privatedata_struct.htm
 tech.root: NAP
 ms.assetid: e2859983-3780-464d-b878-e63d974ba386
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PrivateData, PrivateData structure [NAP], nap.privatedata_struct, naptypes/PrivateData, tagPrivateData
 ms.prod: windows
 ms.technology: windows-sdk

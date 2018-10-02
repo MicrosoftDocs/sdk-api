@@ -4,10 +4,10 @@ title: SymDeleteSymbol function
 author: windows-sdk-content
 description: Deletes a virtual symbol from the specified module.
 old-location: base\symdeletesymbol.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 9fc5a19d-5984-4d0a-a3d6-3da474055f5e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymDeleteSymbol, SymDeleteSymbol function, SymDeleteSymbolW, _win32_symdeletesymbol, base.symdeletesymbol, dbghelp/SymDeleteSymbol, dbghelp/SymDeleteSymbolW
 ms.prod: windows-hardware
 ms.technology: windows-devices

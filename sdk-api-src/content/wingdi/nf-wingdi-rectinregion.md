@@ -7,7 +7,7 @@ old-location: gdi\rectinregion.htm
 tech.root: gdi
 ms.assetid: 198a02f1-120c-4f65-aa7c-a41f2e5e81a9
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: RectInRegion, RectInRegion function [Windows GDI], _win32_RectInRegion, gdi.rectinregion, wingdi/RectInRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

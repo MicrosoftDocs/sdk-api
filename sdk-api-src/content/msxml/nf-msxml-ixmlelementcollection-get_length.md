@@ -7,7 +7,7 @@ old-location: winprog\ixmlelementcollection_length.htm
 tech.root: devnotes
 ms.assetid: eb9236ad-378e-499e-8ab5-ed5bd327ef95
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IXMLElementCollection interface [Windows API],get_length method, IXMLElementCollection.get_length, IXMLElementCollection::get_length, get_length, get_length method [Windows API], get_length method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::get_length, winprog.ixmlelementcollection_length
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_message_severity.htm
 tech.root: direct3d12
 ms.assetid: 44D94C37-4BA8-49FC-BEEF-6666AD59B627
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_MESSAGE_SEVERITY, D3D12_MESSAGE_SEVERITY enumeration, D3D12_MESSAGE_SEVERITY_CORRUPTION, D3D12_MESSAGE_SEVERITY_ERROR, D3D12_MESSAGE_SEVERITY_INFO, D3D12_MESSAGE_SEVERITY_MESSAGE, D3D12_MESSAGE_SEVERITY_WARNING, d3d12sdklayers/D3D12_MESSAGE_SEVERITY, d3d12sdklayers/D3D12_MESSAGE_SEVERITY_CORRUPTION, d3d12sdklayers/D3D12_MESSAGE_SEVERITY_ERROR, d3d12sdklayers/D3D12_MESSAGE_SEVERITY_INFO, d3d12sdklayers/D3D12_MESSAGE_SEVERITY_MESSAGE, d3d12sdklayers/D3D12_MESSAGE_SEVERITY_WARNING, direct3d12.d3d12_message_severity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Indicates a message other than corruption, error, warning or information.
 
 
 
-Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/en-us/library/Dn950142(v=VS.85).aspx">D3D12_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/en-us/library/Dn950164(v=VS.85).aspx">AddApplicationMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn950165(v=VS.85).aspx">AddMessage</a>.
+Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/5CD64E71-8530-43FB-B441-25C61ED6F317">D3D12_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/C5979BF4-C44D-461F-8FAB-D0577691C5BF">AddApplicationMessage</a> and <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">AddMessage</a>.
 
 
         
@@ -105,7 +105,7 @@ Use these values to allow or deny message categories to pass through the storage
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950149(v=VS.85).aspx">Debug Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
  
 
  

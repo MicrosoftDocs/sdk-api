@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_type.htm
 tech.root: direct3d11
 ms.assetid: 4F7C8BF5-3C6E-470E-AFAA-34F4F78DAC15
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_COMPUTE_SHADER, D3D11_DOMAIN_SHADER, D3D11_GEOMETRY_SHADER, D3D11_HULL_SHADER, D3D11_PIXEL_SHADER, D3D11_SHADER_TYPE, D3D11_SHADER_TYPE enumeration [Direct3D 11], D3D11_VERTEX_SHADER, d3d11shadertracing/D3D11_COMPUTE_SHADER, d3d11shadertracing/D3D11_DOMAIN_SHADER, d3d11shadertracing/D3D11_GEOMETRY_SHADER, d3d11shadertracing/D3D11_HULL_SHADER, d3d11shadertracing/D3D11_PIXEL_SHADER, d3d11shadertracing/D3D11_SHADER_TYPE, d3d11shadertracing/D3D11_VERTEX_SHADER, direct3d11.d3d11_shader_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Identifies a compute shader.
 
 
 
-<b>D3D11_SHADER_TYPE</b> identifies the type of shader in a <a href="https://msdn.microsoft.com/en-us/library/Hh404498(v=VS.85).aspx">D3D11_SHADER_TRACE_DESC</a> structure.
+<b>D3D11_SHADER_TYPE</b> identifies the type of shader in a <a href="https://msdn.microsoft.com/0BF5D48F-EBC5-445B-B315-496C50411C72">D3D11_SHADER_TRACE_DESC</a> structure.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
@@ -104,7 +104,7 @@ Identifies a compute shader.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476175(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/068ce652-8596-4492-992c-658d1fcf8a2c">Shader Enumerations</a>
  
 
  

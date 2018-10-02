@@ -4,10 +4,10 @@ title: IMFSensorGroup
 author: windows-sdk-content
 description: Represents a group of sensor devices from which an IMFMediaSource can be created.
 old-location: mf\imfsensorgroup.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7CED3EF6-E844-4B3A-8181-CA44FC4675EC
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSensorGroup, IMFSensorGroup interface [Media Foundation], IMFSensorGroup interface [Media Foundation],described, mf.imfsensorgroup, mfidl/IMFSensorGroup
 ms.prod: windows
 ms.technology: windows-sdk

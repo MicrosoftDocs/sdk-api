@@ -7,7 +7,7 @@ old-location: winrt\iswapchainpanelnative.htm
 tech.root: WinRT
 ms.assetid: B36147C7-1304-4175-8AD3-CD5FCA17B4AE
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], ISwapChainPanelNative interface [Windows Runtime],described, windows/ISwapChainPanelNative, winrt.iswapchainpanelnative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,17 +86,21 @@ Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/e99a6d0f-d55
 
 This interface provides the native implementation of the <a href="https://msdn.microsoft.com/e99a6d0f-d556-4aaa-853a-366853614560">Windows::UI::XAML::Control::SwapChainPanel</a> Windows Runtime type. To obtain a pointer to <a href="https://msdn.microsoft.com/77F5EB53-0DF9-4BA7-810C-9B7B073E76A7">ISwapChainPanelNative</a>, you must cast a <a href="https://msdn.microsoft.com/2f47fd2c-a0ff-4981-a404-0934aed39f84">SwapChainPanel</a> instance to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> or <b>IUnknown</b>, and call <b>QueryInterface</b>.
 
-
-```cpp
-
-Microsoft::WRL::ComPtr<ISwapChainPanelNative>	m_swapChainNative;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+Microsoft::WRL::ComPtr&lt;ISwapChainPanelNative&gt;	m_swapChainNative;
 // ...
-IInspectable* panelInspectable = (IInspectable*) reinterpret_cast<IInspectable*>(swapChainPanel);
-panelInspectable->QueryInterface(__uuidof(ISwapChainPanelNative), (void **)&m_swapChainNative);
-	
-```
-
-
+IInspectable* panelInspectable = (IInspectable*) reinterpret_cast&lt;IInspectable*&gt;(swapChainPanel);
+panelInspectable-&gt;QueryInterface(__uuidof(ISwapChainPanelNative), (void **)&amp;m_swapChainNative);
+	</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: pla\idatacollectorset.htm
 tech.root: PLA
 ms.assetid: a4ae0874-4ee6-46a1-9811-8cd4be26859c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], IDataCollectorSet interface [PLA],described, base.idatacollectorset, pla.idatacollectorset, pla/IDataCollectorSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ To get this interface, call the <a href="https://msdn.microsoft.com/7295a55b-12c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorSet</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDataCollectorSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorSet</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IDataCollectorSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -592,62 +592,66 @@ The following example shows the XML elements for a data collector set. For detai
     property.
    
 
-
-```xml
-<DataCollectorSet>
-    <DataManager>
-        <Enabled/>              <!-- 0 (false), nonzero (true) -->
-        <CheckBeforeRunning/>   <!-- 0 (false), nonzero (true) -->
-        <MinFreeDisk/>
-        <MaxSize/>
-        <MaxFolderCount/>
-        <ResourcePolicy/>
-        <ReportFileName/>
-        <RuleTargetFileName/>
-        <EventsFileName/>
-        <FolderAction>          <!-- Include a <FolderAction> element for -->
-            <Actions/>          <!-- each action to take. -->
-            <Age/>
-            <SendCabTo/>
-            <Size/>
-        </FolderAction>
-    </DataManager>
-    <Description/>
-    <DescriptionUnresolved/>    <!-- Output only -->
-    <DisplayName/>
-    <DisplayNameUnresolved/>    <!-- Output only -->
-    <Duration/>  
-    <Keyword/>                  <!-- Specify for each keyword -->
-    <LatestOutputLocation/>     
-    <Name/>                     <!-- Output only -->
-    <OutputLocation/>           <!-- Output only -->
-    <RootPath/>
-    <Segment/>
-    <SegmentMaxDuration/> 
-    <SegmentMaxSize/> 
-    <SerialNumber/>
-    <Server/>                   <!-- Output only -->
-    <Status/>                   <!-- Output only -->
-    <Subdirectory/>
-    <SubdirectoryFormat/>
-    <SubdirectoryFormatPattern/>
-    <Task/>
-    <TaskArguments/>
-    <TaskRunAsSelf/>            <!-- 0 (false), -1 (true) -->
-    <TaskUserTextArguments/>
-    <Schedule>
-        <Days/>
-        <EndDate/>              <!-- mm/dd/yyyy -->
-        <StartDate/>            <!-- mm/dd/yyyy -->
-        <StartTime/>            <!-- hh:mm:ss (use 24-hour clock) -->
-    </Schedule>
-    <SchedulesEnabled/>         <!-- 0 (false), nonzero (true) -->
-    <Security/>                 <!-- Security Descriptor Definition Language -->
-    <StopOnCompletion/>         <!-- 0 (false), nonzero (true) -->
-    <UserAccount/>              <!-- Output only. Set using SetCredentials --></DataCollectorSet>
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;DataCollectorSet&gt;
+    &lt;DataManager&gt;
+        &lt;Enabled/&gt;              &lt;!-- 0 (false), nonzero (true) --&gt;
+        &lt;CheckBeforeRunning/&gt;   &lt;!-- 0 (false), nonzero (true) --&gt;
+        &lt;MinFreeDisk/&gt;
+        &lt;MaxSize/&gt;
+        &lt;MaxFolderCount/&gt;
+        &lt;ResourcePolicy/&gt;
+        &lt;ReportFileName/&gt;
+        &lt;RuleTargetFileName/&gt;
+        &lt;EventsFileName/&gt;
+        &lt;FolderAction&gt;          &lt;!-- Include a &lt;FolderAction&gt; element for --&gt;
+            &lt;Actions/&gt;          &lt;!-- each action to take. --&gt;
+            &lt;Age/&gt;
+            &lt;SendCabTo/&gt;
+            &lt;Size/&gt;
+        &lt;/FolderAction&gt;
+    &lt;/DataManager&gt;
+    &lt;Description/&gt;
+    &lt;DescriptionUnresolved/&gt;    &lt;!-- Output only --&gt;
+    &lt;DisplayName/&gt;
+    &lt;DisplayNameUnresolved/&gt;    &lt;!-- Output only --&gt;
+    &lt;Duration/&gt;  
+    &lt;Keyword/&gt;                  &lt;!-- Specify for each keyword --&gt;
+    &lt;LatestOutputLocation/&gt;     
+    &lt;Name/&gt;                     &lt;!-- Output only --&gt;
+    &lt;OutputLocation/&gt;           &lt;!-- Output only --&gt;
+    &lt;RootPath/&gt;
+    &lt;Segment/&gt;
+    &lt;SegmentMaxDuration/&gt; 
+    &lt;SegmentMaxSize/&gt; 
+    &lt;SerialNumber/&gt;
+    &lt;Server/&gt;                   &lt;!-- Output only --&gt;
+    &lt;Status/&gt;                   &lt;!-- Output only --&gt;
+    &lt;Subdirectory/&gt;
+    &lt;SubdirectoryFormat/&gt;
+    &lt;SubdirectoryFormatPattern/&gt;
+    &lt;Task/&gt;
+    &lt;TaskArguments/&gt;
+    &lt;TaskRunAsSelf/&gt;            &lt;!-- 0 (false), -1 (true) --&gt;
+    &lt;TaskUserTextArguments/&gt;
+    &lt;Schedule&gt;
+        &lt;Days/&gt;
+        &lt;EndDate/&gt;              &lt;!-- mm/dd/yyyy --&gt;
+        &lt;StartDate/&gt;            &lt;!-- mm/dd/yyyy --&gt;
+        &lt;StartTime/&gt;            &lt;!-- hh:mm:ss (use 24-hour clock) --&gt;
+    &lt;/Schedule&gt;
+    &lt;SchedulesEnabled/&gt;         &lt;!-- 0 (false), nonzero (true) --&gt;
+    &lt;Security/&gt;                 &lt;!-- Security Descriptor Definition Language --&gt;
+    &lt;StopOnCompletion/&gt;         &lt;!-- 0 (false), nonzero (true) --&gt;
+    &lt;UserAccount/&gt;              &lt;!-- Output only. Set using SetCredentials --&gt;&lt;/DataCollectorSet&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 If you call <a href="https://msdn.microsoft.com/4b07bf1c-58e8-430a-a68c-c16cab954140">IDataCollectorSet::Xml</a> to 
     retrieve the XML for a set and the set includes data collectors, the XML will also contain the XML elements for 
     each data collector in the set.
@@ -657,28 +661,32 @@ To use the data collector set elements to initialize the property values of a da
     overwrite the existing contents of the set. The following shows how to include the elements for the alert data 
     collector. 
 
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;DataCollectorSet&gt;
 
-```xml
-<DataCollectorSet>
+    &lt;!-- Data collector set elements go here. --&gt;
 
-    <!-- Data collector set elements go here. -->
+    &lt;AlertDataCollector&gt;
+        &lt;Alert/&gt;  &lt;!-- Specify an &lt;Alert&gt; element for each alert --&gt;
+        &lt;EventLog/&gt;
+        &lt;SampleInterval/&gt;
+        &lt;Task/&gt;
+        &lt;TaskArguments/&gt;
+        &lt;TaskRunAsSelf/&gt;            &lt;!-- 0 (false), nonzero (true) --&gt;
+        &lt;TaskUserTextArguments/&gt;
+        &lt;TriggerDataCollectorSet/&gt;
 
-    <AlertDataCollector>
-        <Alert/>  <!-- Specify an <Alert> element for each alert -->
-        <EventLog/>
-        <SampleInterval/>
-        <Task/>
-        <TaskArguments/>
-        <TaskRunAsSelf/>            <!-- 0 (false), nonzero (true) -->
-        <TaskUserTextArguments/>
-        <TriggerDataCollectorSet/>
-
-        <!-- Data collector elements go here. -->
-    </AlertDataCollector>
-</DataCollectorSet>
-```
-
-
+        &lt;!-- Data collector elements go here. --&gt;
+    &lt;/AlertDataCollector&gt;
+&lt;/DataCollectorSet&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 You can specify only the elements for the properties that you want to set. If you do not specify a property, 
     PLA provides a default value. When you retrieve the XML for the set, the XML includes all elements, including 
     those from the data collectors contained in the set (for details on data collector properties, see each data 

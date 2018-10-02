@@ -7,7 +7,7 @@ old-location: com\hresult_facility_macro.htm
 tech.root: com
 ms.assetid: 35beb1ed-9b63-4e44-a0ae-adaf561e6fd8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: HRESULT_FACILITY, HRESULT_FACILITY macro [COM], _com_HRESULT_FACILITY, com.hresult_facility, com.hresult_facility_macro, winerror/HRESULT_FACILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices

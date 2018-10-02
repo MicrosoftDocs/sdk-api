@@ -4,10 +4,10 @@ title: IMonthlyTrigger
 author: windows-sdk-content
 description: Represents a trigger that starts a job based on a monthly schedule.
 old-location: taskschd\imonthlytrigger.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 2ed206a6-22e0-4131-92ce-29536ad65c6c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], IMonthlyTrigger interface [Task Scheduler],described, monthly trigger [Task Scheduler],interface, taskschd.imonthlytrigger, taskschd/IMonthlyTrigger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ When reading or writing your own XML for a task, a monthly trigger is specified 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

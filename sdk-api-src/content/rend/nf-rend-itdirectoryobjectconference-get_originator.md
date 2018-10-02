@@ -4,10 +4,10 @@ title: ITDirectoryObjectConference::get_Originator
 author: windows-sdk-content
 description: The get_Originator method gets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_get_originator.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: b17be92c-eee6-43ec-bec0-75d4c30ad22f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Originator method, ITDirectoryObjectConference.get_Originator, ITDirectoryObjectConference::get_Originator, _tapi3_itdirectoryobjectconference_get_originator, get_Originator, get_Originator method [TAPI 2.2], get_Originator method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Originator, tapi3.itdirectoryobjectconference_get_originator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,7 @@ This method is not yet implemented.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppOriginator</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppOriginator</i> parameter.
 
 The originator's name, along with the machine name set in 
 <a href="https://msdn.microsoft.com/f4af55b1-e20b-4fe8-a15e-a1a68d22f1b9">put_MachineAddress</a>, are collectively the originator of the conference, and both are in the o= line of the SDP.

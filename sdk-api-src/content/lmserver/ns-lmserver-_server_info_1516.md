@@ -4,10 +4,10 @@ title: "_SERVER_INFO_1516"
 author: windows-sdk-content
 description: The SERVER_INFO_1516 structure specifies whether the server is a reliable time source.
 old-location: netmgmt\server_info_1516_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3d2baa83-61b6-4f7e-8cee-d584f87daf7d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPSERVER_INFO_1516, *PSERVER_INFO_1516, LPSERVER_INFO_1516, LPSERVER_INFO_1516 structure pointer [Network Management], PSERVER_INFO_1516, PSERVER_INFO_1516 structure pointer [Network Management], SERVER_INFO_1516, SERVER_INFO_1516 structure [Network Management], _SERVER_INFO_1516, _win32_server_info_1516_str, lmserver/LPSERVER_INFO_1516, lmserver/PSERVER_INFO_1516, lmserver/SERVER_INFO_1516, netmgmt.server_info_1516_str"
 ms.prod: windows
 ms.technology: windows-sdk

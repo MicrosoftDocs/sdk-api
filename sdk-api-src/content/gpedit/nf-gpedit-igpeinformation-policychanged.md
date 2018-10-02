@@ -7,7 +7,7 @@ old-location: policy\igpeinformation_policychanged.htm
 tech.root: Policy
 ms.assetid: 4c36fbcb-2adb-4c32-87d3-efcd55dbaf3e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IGPEInformation interface [Group Policy],PolicyChanged method, IGPEInformation.PolicyChanged, IGPEInformation::PolicyChanged, PolicyChanged, PolicyChanged method [Group Policy], PolicyChanged method [Group Policy],IGPEInformation interface, _win32_igpeinformation_policychanged, gpedit/IGPEInformation::PolicyChanged, policy.igpeinformation_policychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,12 +111,16 @@ An extension must call this method every time it makes a change to a group polic
 
 For example, you can obtain the interface by calling as follows.
 
-
-```cpp
-lpDataObject->QueryInterface(IID_IGPEInformation, (LPVOID lpDataObject->*)&m_pGPTInformation);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>lpDataObject-&gt;QueryInterface(IID_IGPEInformation, (LPVOID lpDataObject-&gt;*)&amp;m_pGPTInformation);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageit
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6e.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],IFaxOutgoingMessageIterator interface, IFaxOutgoingMessageIterator interface [Fax Service],AtEOF property, IFaxOutgoingMessageIterator.AtEOF, IFaxOutgoingMessageIterator.get_AtEOF, IFaxOutgoingMessageIterator::AtEOF, IFaxOutgoingMessageIterator::get_AtEOF, _mfax_faxoutgoingmessageiterator.ateof, fax._mfax_faxoutgoingmessageiterator_ateof, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_ateof_cpp, faxcomex/IFaxOutgoingMessageIterator::AtEOF, faxcomex/IFaxOutgoingMessageIterator::get_AtEOF, get_AtEOF
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,15 +73,15 @@ If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a>
+<a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690096(v=VS.85).aspx">IFaxOutgoingMessageIterator</a>
+<a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693402(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/072eb2cc-7fd9-4f8e-8583-44384357e708">Visual Basic Example</a>
  
 
  

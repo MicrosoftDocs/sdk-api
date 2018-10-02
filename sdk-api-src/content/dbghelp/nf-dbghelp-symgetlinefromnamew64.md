@@ -4,10 +4,10 @@ title: SymGetLineFromNameW64 function
 author: windows-sdk-content
 description: Locates a source line for the specified module, file name, and line number.
 old-location: base\symgetlinefromname64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: cb8870f6-1bae-40df-842e-ec3ca0167691
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymGetLineFromName, SymGetLineFromName function, SymGetLineFromName64, SymGetLineFromName64 function, SymGetLineFromNameW64, _win32_symgetlinefromname64, base.symgetlinefromname64, dbghelp/SymGetLineFromName, dbghelp/SymGetLineFromName64, dbghelp/SymGetLineFromNameW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,9 +124,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR. <b>SymGetLineFromNameW64</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL
 IMAGEAPI
 SymGetLineFromNameW64(
@@ -140,16 +144,20 @@ SymGetLineFromNameW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
 #define SymGetLineFromName64   SymGetLineFromNameW64
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymGetLineFromName</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetLineFromName</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymGetLineFromName SymGetLineFromName64
 #else
 BOOL
@@ -162,10 +170,10 @@ SymGetLineFromName(
     __out PLONG plDisplacement,
     __inout PIMAGEHLP_LINE Line
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 

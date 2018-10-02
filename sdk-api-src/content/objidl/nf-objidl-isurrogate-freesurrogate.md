@@ -7,7 +7,7 @@ old-location: com\isurrogate_freesurrogate.htm
 tech.root: com
 ms.assetid: d897b02a-2540-4274-a0e3-e5c9299104a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: FreeSurrogate, FreeSurrogate method [COM], FreeSurrogate method [COM],ISurrogate interface, ISurrogate interface [COM],FreeSurrogate method, ISurrogate.FreeSurrogate, ISurrogate::FreeSurrogate, _com_isurrogate_freesurrogate, com.isurrogate_freesurrogate, objidlbase/ISurrogate::FreeSurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SymFunctionTableAccess64AccessRoutines function
 author: windows-sdk-content
 description: Finds a function table entry or frame pointer omission (FPO) record for an address.
 old-location: base\symfunctiontableaccess64accessroutines.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 7AE8779A-F3F8-45FF-B11C-4D48CF76FDCA
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SymFunctionTableAccess64AccessRoutines, SymFunctionTableAccess64AccessRoutines function, base.symfunctiontableaccess64accessroutines, dbghelp/SymFunctionTableAccess64AccessRoutines
 ms.prod: windows-hardware
 ms.technology: windows-devices

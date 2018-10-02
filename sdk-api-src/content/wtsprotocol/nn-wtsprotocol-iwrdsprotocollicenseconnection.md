@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollicenseconnection.htm
 tech.root: TermServ
 ms.assetid: 498c31c5-1cb6-41d7-91fb-7409ea03dda0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWRdsProtocolLicenseConnection, IWRdsProtocolLicenseConnection interface [Remote Desktop Services], IWRdsProtocolLicenseConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocollicenseconnection, wtsprotocol/IWRdsProtocolLicenseConnection
 ms.prod: windows
 ms.technology: windows-sdk

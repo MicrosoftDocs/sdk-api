@@ -4,10 +4,10 @@ title: ByteToInt8 function
 author: windows-sdk-content
 description: Converts a value of type BYTE to a value of type INT8.
 old-location: shell\ByteToInt8.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b04e7258-12a4-4766-8bdd-d6a268f3e53b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ByteToInt8, ByteToInt8 function [Windows Shell], intsafe/ByteToInt8, shell.ByteToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

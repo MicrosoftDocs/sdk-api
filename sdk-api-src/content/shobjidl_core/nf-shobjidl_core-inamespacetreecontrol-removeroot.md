@@ -4,10 +4,10 @@ title: INameSpaceTreeControl::RemoveRoot
 author: windows-sdk-content
 description: Removes a root and its children from a tree.
 old-location: shell\INameSpaceTreeControl_RemoveRoot.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e27e4eca-60f3-47b7-95cd-c004cda78d77
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],RemoveRoot method, INameSpaceTreeControl.RemoveRoot, INameSpaceTreeControl::RemoveRoot, RemoveRoot, RemoveRoot method [Windows Shell], RemoveRoot method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_RemoveRoot, shell.INameSpaceTreeControl_RemoveRoot, shobjidl_core/INameSpaceTreeControl::RemoveRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices

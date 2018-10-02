@@ -4,10 +4,10 @@ title: "_DXVAHD_STREAM_STATE_LUMA_KEY_DATA"
 author: windows-sdk-content
 description: Specifies the luma key for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_luma_key_data.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d94b04d9-9d94-4392-a0bf-a33210aeef1f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: DXVAHD_STREAM_STATE_LUMA_KEY_DATA, DXVAHD_STREAM_STATE_LUMA_KEY_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_LUMA_KEY_DATA, dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY_DATA, mf.dxvahd_stream_state_luma_key_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,9 +100,13 @@ Note that the value is clamped to the range [0...1] before multiplying by 255.
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetLumaKey(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetLumaKey(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     BOOL bEnable,
@@ -112,19 +116,19 @@ HRESULT DXVAHD_SetLumaKey(
 {
     DXVAHD_STREAM_STATE_LUMA_KEY_DATA luma = { bEnable, fLower, fUpper };
 
-    HRESULT hr = pVP->SetVideoProcessStreamState(
+    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
         stream,
         DXVAHD_STREAM_STATE_LUMA_KEY,
         sizeof(luma),
-        &luma
+        &amp;luma
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

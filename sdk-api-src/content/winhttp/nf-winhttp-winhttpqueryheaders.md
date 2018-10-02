@@ -4,10 +4,10 @@ title: WinHttpQueryHeaders function
 author: windows-sdk-content
 description: The WinHttpQueryHeaders function retrieves header information associated with an HTTP request.
 old-location: http\winhttpqueryheaders.htm
-tech.root: winhttp
+tech.root: WinHttp
 ms.assetid: 9656ebad-78df-4d1c-94e9-6127d6bc4799
 ms.author: windowssdkdev
-ms.date: 09/11/2018
+ms.date: 09/26/2018
 ms.keywords: WinHttpQueryHeaders, WinHttpQueryHeaders function [WinHTTP], http.winhttpqueryheaders, winhttp.winhttpqueryheaders_function, winhttp/WinHttpQueryHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -223,9 +223,13 @@ By default
 The following example shows how to obtain an 
 <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle, open an HTTP session, create and send a request header, and examine the returned response header.
 
-
-```cpp
-    DWORD dwSize = 0;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    DWORD dwSize = 0;
     LPVOID lpOutBuffer = NULL;
     BOOL  bResults = FALSE;
     HINTERNET hSession = NULL,
@@ -266,7 +270,7 @@ The following example shows how to obtain an
     {
         WinHttpQueryHeaders( hRequest, WINHTTP_QUERY_RAW_HEADERS_CRLF,
                              WINHTTP_HEADER_NAME_BY_INDEX, NULL,
-                             &dwSize, WINHTTP_NO_HEADER_INDEX);
+                             &amp;dwSize, WINHTTP_NO_HEADER_INDEX);
 
         // Allocate memory for the buffer.
         if( GetLastError( ) == ERROR_INSUFFICIENT_BUFFER )
@@ -277,7 +281,7 @@ The following example shows how to obtain an
             bResults = WinHttpQueryHeaders( hRequest,
                                        WINHTTP_QUERY_RAW_HEADERS_CRLF,
                                        WINHTTP_HEADER_NAME_BY_INDEX,
-                                       lpOutBuffer, &dwSize,
+                                       lpOutBuffer, &amp;dwSize,
                                        WINHTTP_NO_HEADER_INDEX);
         }
     }
@@ -297,10 +301,10 @@ The following example shows how to obtain an
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

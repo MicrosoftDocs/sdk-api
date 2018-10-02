@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaVideo_CreateVideoByName.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobyname.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateVideoByName, CreateVideoByName method [WIA], CreateVideoByName method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByName method, IWiaVideo.CreateVideoByName, IWiaVideo::CreateVideoByName, _wia_IWiaVideo_CreateVideoByName, wia._wia_IWiaVideo_CreateVideoByName, wiavideo/IWiaVideo::CreateVideoByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ Specifies whether the video display is stretched to fit the parent window. Set t
 
 Type: <b>BOOL</b>
 
-Specifies whether the streaming video begins playback as soon as this method returns. Set this parameter to <b>TRUE</b> to cause immediate playback; set it to <b>FALSE</b> to require a call to <a href="https://msdn.microsoft.com/en-us/library/ms629900(v=VS.85).aspx">IWiaVideo::Play</a> before video playback begins.
+Specifies whether the streaming video begins playback as soon as this method returns. Set this parameter to <b>TRUE</b> to cause immediate playback; set it to <b>FALSE</b> to require a call to <a href="https://msdn.microsoft.com/b8917c5f-6569-496d-a2ed-bd5ed76dfbcf">IWiaVideo::Play</a> before video playback begins.
 
 
 ## -returns

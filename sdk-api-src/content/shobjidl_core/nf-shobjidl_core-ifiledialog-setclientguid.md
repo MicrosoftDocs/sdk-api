@@ -4,10 +4,10 @@ title: IFileDialog::SetClientGuid
 author: windows-sdk-content
 description: Enables a calling application to associate a GUID with a dialog's persisted state.
 old-location: shell\IFileDialog_SetClientGuid.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2ab7d8bb-068d-4c5b-b273-68c7fc4f9956
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetClientGuid method, IFileDialog.SetClientGuid, IFileDialog::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetClientGuid, shell_IFileDialog_SetClientGuid, shobjidl_core/IFileDialog::SetClientGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

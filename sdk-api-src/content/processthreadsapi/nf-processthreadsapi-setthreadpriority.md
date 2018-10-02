@@ -4,10 +4,10 @@ title: SetThreadPriority function
 author: windows-sdk-content
 description: Sets the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base priority level.
 old-location: base\setthreadpriority.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e3992e19-b546-4b0b-aa6a-dd9a7e330bf3
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: SetThreadPriority, SetThreadPriority function, THREAD_MODE_BACKGROUND_BEGIN, THREAD_MODE_BACKGROUND_END, THREAD_PRIORITY_ABOVE_NORMAL, THREAD_PRIORITY_BELOW_NORMAL, THREAD_PRIORITY_HIGHEST, THREAD_PRIORITY_IDLE, THREAD_PRIORITY_LOWEST, THREAD_PRIORITY_NORMAL, THREAD_PRIORITY_TIME_CRITICAL, _win32_setthreadpriority, base.setthreadpriority, processthreadsapi/SetThreadPriority, winbase/SetThreadPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -249,10 +249,14 @@ When a thread is in background processing mode, it should minimize sharing resou
 
 The following example demonstrates the use of thread background mode.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
 
 int main( void )
 {
@@ -288,10 +292,10 @@ Cleanup:
    ;
 return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

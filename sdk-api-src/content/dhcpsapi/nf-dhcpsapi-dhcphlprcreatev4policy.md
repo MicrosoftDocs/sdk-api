@@ -7,7 +7,7 @@ old-location: dhcp\dhcphlprcreatev4policy.htm
 tech.root: DHCP
 ms.assetid: 91f04578-9f15-44b4-8cf6-99be13d0395e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpHlprCreateV4Policy, DhcpHlprCreateV4Policy function [DHCP], dhcp.dhcphlprcreatev4policy, dhcpsapi/DhcpHlprCreateV4Policy
 ms.prod: windows-hardware
 ms.technology: windows-devices

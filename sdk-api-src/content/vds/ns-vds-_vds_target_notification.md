@@ -7,7 +7,7 @@ old-location: base\vds_target_notification.htm
 tech.root: VDS
 ms.assetid: 71453c9c-d6a7-4527-8988-c0388d7a9991
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VDS_NF_TARGET_ARRIVE, VDS_NF_TARGET_DEPART, VDS_NF_TARGET_MODIFY, VDS_TARGET_NOTIFICATION, VDS_TARGET_NOTIFICATION structure [VDS], _VDS_TARGET_NOTIFICATION, base.vds_target_notification, vds/_VDS_TARGET_NOTIFICATION, vdshwprv/_VDS_TARGET_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

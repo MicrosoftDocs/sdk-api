@@ -7,7 +7,7 @@ old-location: nla\inetworkcostmanagerevents_costchanged.htm
 tech.root: NLA
 ms.assetid: 39262F6A-9701-4917-BBDF-1BAC201585D4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CostChanged, CostChanged method [Network Awareness], CostChanged method [Network Awareness],INetworkCostManagerEvents interface, INetworkCostManagerEvents interface [Network Awareness],CostChanged method, INetworkCostManagerEvents.CostChanged, INetworkCostManagerEvents::CostChanged, netlistmgr/INetworkCostManagerEvents::CostChanged, nla.inetworkcostmanagerevents_costchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

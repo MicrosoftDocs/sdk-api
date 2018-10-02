@@ -7,7 +7,7 @@ old-location: wmformat\wmvideoinfoheader2.htm
 tech.root: wmformat
 ms.assetid: 8da9d625-5cda-45bd-a664-7211593fab92
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: WMVIDEOINFOHEADER2, WMVIDEOINFOHEADER2 structure [windows Media Format], tagWMVIDEOINFOHEADER2, wmformat.wmvideoinfoheader2, wmsdkidl/WMVIDEOINFOHEADER2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>WMVIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">interlace</a>, copy protection, and aspect ratio.
+The <b>WMVIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including <a href="wmformat_glossary.htm">interlace</a>, copy protection, and aspect ratio.
 
 
 

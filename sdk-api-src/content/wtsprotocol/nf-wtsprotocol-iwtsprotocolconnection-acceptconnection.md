@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_acceptconnection.htm
 tech.root: TermServ
 ms.assetid: 5be00911-f68a-410d-8d56-81458b5ff44e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AcceptConnection, AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AcceptConnection method, IWTSProtocolConnection.AcceptConnection, IWTSProtocolConnection::AcceptConnection, termserv.iwtsprotocolconnection_acceptconnection, wtsprotocol/IWTSProtocolConnection::AcceptConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

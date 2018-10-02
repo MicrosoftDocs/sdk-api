@@ -4,10 +4,10 @@ title: "_FONTSIM"
 author: windows-sdk-content
 description: The FONTSIM structure contains offsets to one or more FONTDIFF structures describing bold, italic, and bold italic font simulations.
 old-location: display\fontsim.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 46d4170e-13d6-406f-991f-2024fadd8ddc
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: FONTSIM, FONTSIM structure [Display Devices], _FONTSIM, display.fontsim, grstrcts_b6931468-edd5-4675-a8e2-a594741f7e6c.xml, winddi/FONTSIM
 ms.prod: windows
 ms.technology: windows-sdk

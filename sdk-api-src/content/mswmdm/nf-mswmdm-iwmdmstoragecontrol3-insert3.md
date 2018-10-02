@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol3_insert3.htm
 tech.root: WMDM
 ms.assetid: 044a6571-8ec0-48af-b105-07c60c25d68a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMStorageControl3 interface [windows Media Device Manager],Insert3 method, IWMDMStorageControl3.Insert3, IWMDMStorageControl3::Insert3, IWMDMStorageControl3Insert3, Insert3, Insert3 method [windows Media Device Manager], Insert3 method [windows Media Device Manager],IWMDMStorageControl3 interface, mswmdm/IWMDMStorageControl3::Insert3, wmdm.iwmdmstoragecontrol3_insert3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -252,9 +252,13 @@ When creating a playlist or other reference object, the object being "inserted" 
 
 The following C++ function sends a file to a device. As part of the transfer, it must add metadata to the storage to specify the new storage type.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation* pOperation)
 {
    HRESULT hr = S_OK;
@@ -273,7 +277,7 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
       // Make sure the destination is a folder.
       DWORD attributes = 0;
       _WAVEFORMATEX format;
-      hr = pStorage->GetAttributes(&attributes, &format);
+      hr = pStorage-&gt;GetAttributes(&amp;attributes, &amp;format);
       if (!(attributes | WMDM_FILE_ATTR_FOLDER))
       {
          BREAK_HR(E_FAIL, "", "Storage submitted to mySendFile is not a folder.");
@@ -286,35 +290,35 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
       //
       // Let's set some metadata in the storage.
       //
-      CComPtr<IWMDMStorage3> pStorage3;
-      hr = pStorage->QueryInterface(__uuidof(IWMDMStorage3), (void**)(&pStorage3));
+      CComPtr&lt;IWMDMStorage3&gt; pStorage3;
+      hr = pStorage-&gt;QueryInterface(__uuidof(IWMDMStorage3), (void**)(&amp;pStorage3));
       BREAK_HR(hr, "Got an IWMDMStorage3 interface in mySendFile.","Couldn't get an IWMDMStorage3 in mySendFile.");
 
       // First create the IWMDMMetaData interface.
       IWMDMMetaData* pMetadata;
-      hr = pStorage3->CreateEmptyMetadataObject(&pMetadata);
+      hr = pStorage3-&gt;CreateEmptyMetadataObject(&amp;pMetadata);
       BREAK_HR(hr,"Created an IWMDMMetaData interface in mySendFile.","Couldn't create an IWMDMMetaData interface in mySendFile.");
 
       //
       // Set the file format.
       //
       WMDM_FORMATCODE fileFormat = myGetWMDM_FORMATCODE(pwszFileName);
-      hr = pMetadata->AddItem(WMDM_TYPE_DWORD, g_wszWMDMFormatCode, (BYTE*)&fileFormat, sizeof(WMDM_TYPE_DWORD));
+      hr = pMetadata-&gt;AddItem(WMDM_TYPE_DWORD, g_wszWMDMFormatCode, (BYTE*)&amp;fileFormat, sizeof(WMDM_TYPE_DWORD));
 
 
       //
       // Get the proper interface and transfer the file.
       //
-      CComPtr<IWMDMStorageControl3> pStgCtl3;
-      CComPtr<IWMDMStorage> pNewStorage;
-      hr = pStorage->QueryInterface(__uuidof(IWMDMStorageControl3),(void**)(&pStgCtl3));
+      CComPtr&lt;IWMDMStorageControl3&gt; pStgCtl3;
+      CComPtr&lt;IWMDMStorage&gt; pNewStorage;
+      hr = pStorage-&gt;QueryInterface(__uuidof(IWMDMStorageControl3),(void**)(&amp;pStgCtl3));
 
       // Get the simple file name to use for the destination file.
       wstring destFile = pwszFileName;
       destFile = destFile.substr(destFile.find_last_of(L"\\") + 1);
 
       // Get a progress indicator.
-      CComQIPtr<IWMDMProgress> pProgress(this);
+      CComQIPtr&lt;IWMDMProgress&gt; pProgress(this);
 
       // Set the flags for the operation.
       UINT flags = WMDM_MODE_BLOCK | // Synchronous call. 
@@ -325,10 +329,10 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
          flags |= WMDM_CONTENT_OPERATIONINTERFACE;
 
       // Send the file and metadata.
-      hr = pStgCtl3->Insert3(
+      hr = pStgCtl3-&gt;Insert3(
          flags,
          WMDM_FILE_ATTR_FOLDER, // The current storage is a folder.
-         const_cast<WCHAR*>(pwszFileName), // Source file.
+         const_cast&lt;WCHAR*&gt;(pwszFileName), // Source file.
          NULL, // Destination file name.
          pOperation, // Null to allow Windows Media Device Manager to read 
                      // the file; non-null to present raw data bytes to 
@@ -336,19 +340,19 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
          pProgress, // Interface to send simple progress notifications.
          pMetadata, // IWMDMMetaData interface previously created and filled.
          NULL, 
-         &pNewStorage);
+         &amp;pNewStorage);
       if (FAILED(hr))
-         m_pLogger->LogDword(WMDM_LOG_SEV_ERROR, NULL, "Error calling Insert3 in mySendFile: %lX", hr);
+         m_pLogger-&gt;LogDword(WMDM_LOG_SEV_ERROR, NULL, "Error calling Insert3 in mySendFile: %lX", hr);
       BREAK_HR(hr, "Wrote a file to the device in mySendFile", "Couldn't write to the device in mySendFile.");
 
    } while (FALSE); // End of dummy loop
 
    return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

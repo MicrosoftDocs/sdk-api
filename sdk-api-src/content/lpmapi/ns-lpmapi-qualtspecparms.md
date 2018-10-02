@@ -7,7 +7,7 @@ old-location: qos\qualtspecparms.htm
 tech.root: QOS
 ms.assetid: f9afa6f9-1de7-469e-a317-2dea98c8291c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QualTspecParms, QualTspecParms structure [QOS], lpmapi/QualTspecParms, qos.qualtspecparms
 ms.prod: windows
 ms.technology: windows-sdk

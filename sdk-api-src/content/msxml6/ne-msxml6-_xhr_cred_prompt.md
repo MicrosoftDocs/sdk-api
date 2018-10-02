@@ -7,7 +7,7 @@ old-location: ixhr2\xhr_cred_prompt.htm
 tech.root: ixhr2
 ms.assetid: 01160bda-0d4c-46fc-92ba-82fe5808e665
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: XHR_CRED_PROMPT, XHR_CRED_PROMPT enumeration [XMLHttpRequest2], XHR_CRED_PROMPT_ALL, XHR_CRED_PROMPT_NONE, XHR_CRED_PROMPT_PROXY, _XHR_CRED_PROMPT, ixhr2.xhr_cred_prompt, msxml6/XHR_CRED_PROMPT, msxml6/XHR_CRED_PROMPT_ALL, msxml6/XHR_CRED_PROMPT_NONE, msxml6/XHR_CRED_PROMPT_PROXY
 ms.prod: windows
 ms.technology: windows-sdk

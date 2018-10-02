@@ -7,7 +7,7 @@ old-location: wsw\wsresetservicehost.htm
 tech.root: wsw
 ms.assetid: 99f57173-8d7e-41e6-bf1e-4e8177b740b7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WsResetServiceHost, WsResetServiceHost function [Web Services for Windows], webservices/WsResetServiceHost, wsw.wsresetservicehost
 ms.prod: windows-hardware
 ms.technology: windows-devices

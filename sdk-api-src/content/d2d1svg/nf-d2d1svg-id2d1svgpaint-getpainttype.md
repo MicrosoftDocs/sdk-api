@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpaint_getpainttype.htm
 tech.root: direct2d
 ms.assetid: 1EAF1119-BCBC-40B2-B1D6-60B72AEC79DF
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetPaintType, GetPaintType method [Direct2D], GetPaintType method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetPaintType method, ID2D1SvgPaint.GetPaintType, ID2D1SvgPaint::GetPaintType, d2d1svg/ID2D1SvgPaint::GetPaintType, direct2d.id2d1svgpaint_getpainttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IAttachmentExecute::SaveWithUI
 author: windows-sdk-content
 description: Presents the user with explanatory error UI if the save action fails.
 old-location: shell\IAttachmentExecute_SaveWithUI.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6d5b2d02-98ee-4e46-826f-fa073ecff5c4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SaveWithUI method, IAttachmentExecute.SaveWithUI, IAttachmentExecute::SaveWithUI, SaveWithUI, SaveWithUI method [Windows Shell], SaveWithUI method [Windows Shell],IAttachmentExecute interface, shell.IAttachmentExecute_SaveWithUI, shell_IAttachmentExecute_savewithui, shobjidl_core/IAttachmentExecute::SaveWithUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

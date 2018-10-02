@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_invalidate.htm
 tech.root: WinRT
 ms.assetid: BC3BC983-9A78-4B0F-927D-06B299031C80
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],Invalidate method, IVirtualSurfaceImageSourceNative.Invalidate, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::Invalidate, IVirtualSurfaceImageSourceNative::xaml, Invalidate, Invalidate method [Windows Runtime], Invalidate method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::Invalidate, winrt.ivirtualsurfaceimagesourcenative_invalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices

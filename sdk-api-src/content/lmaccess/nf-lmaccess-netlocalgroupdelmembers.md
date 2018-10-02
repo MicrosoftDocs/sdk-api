@@ -4,10 +4,10 @@ title: NetLocalGroupDelMembers function
 author: windows-sdk-content
 description: The NetLocalGroupDelMembers function removes one or more members from an existing local group. Local group members can be users or global groups.
 old-location: netmgmt\netlocalgroupdelmembers.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 85ae796b-c94a-46a8-9fa8-6c612db38671
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: 0, 3, NetLocalGroupDelMembers, NetLocalGroupDelMembers function [Network Management], _win32_netlocalgroupdelmembers, lmaccess/NetLocalGroupDelMembers, netmgmt.netlocalgroupdelmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies the 
-<a href="https://msdn.microsoft.com/library/Aa379571(v=VS.85).aspx">security identifier</a> (SID) of a local group member to remove. The <i>buf</i> parameter points to an array of 
+<a href="security.security_identifiers_sids_">security identifier</a> (SID) of a local group member to remove. The <i>buf</i> parameter points to an array of 
 <a href="https://msdn.microsoft.com/e559cd90-942c-442a-b57f-7d2024523455">LOCALGROUP_MEMBERS_INFO_0</a> structures.
 
 </td>

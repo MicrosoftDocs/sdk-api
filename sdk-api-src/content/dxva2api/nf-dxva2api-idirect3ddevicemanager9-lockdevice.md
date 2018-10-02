@@ -4,10 +4,10 @@ title: IDirect3DDeviceManager9::LockDevice
 author: windows-sdk-content
 description: Gives the caller exclusive access to the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_lockdevice.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 51631747-04af-448e-97cf-25a329d4fbb4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 51631747-04af-448e-97cf-25a329d4fbb4, IDirect3DDeviceManager9 interface [Media Foundation],LockDevice method, IDirect3DDeviceManager9.LockDevice, IDirect3DDeviceManager9::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::LockDevice, mf.idirect3ddevicemanager9_lockdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,9 +170,13 @@ If <i>fBlock</i> is <b>TRUE</b>, this method can potentially deadlock. For examp
 
 #### Examples
 
-
-```cpp
-HRESULT LockDevice(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT LockDevice(
     IDirect3DDeviceManager9 *pDeviceManager,
     BOOL fBlock,
     IDirect3DDevice9 **ppDevice, // Receives a pointer to the device.
@@ -184,27 +188,27 @@ HRESULT LockDevice(
 
     HANDLE hDevice = 0;
 
-    HRESULT hr = pDeviceManager->OpenDeviceHandle(&hDevice);
+    HRESULT hr = pDeviceManager-&gt;OpenDeviceHandle(&amp;hDevice);
 
     if (SUCCEEDED(hr))
     {
-        hr = pDeviceManager->LockDevice(hDevice, ppDevice, fBlock);
+        hr = pDeviceManager-&gt;LockDevice(hDevice, ppDevice, fBlock);
     }
 
     if (hr == DXVA2_E_NEW_VIDEO_DEVICE)
     {
         // Invalid device handle. Try to open a new device handle.
-        hr = pDeviceManager->CloseDeviceHandle(hDevice);
+        hr = pDeviceManager-&gt;CloseDeviceHandle(hDevice);
 
         if (SUCCEEDED(hr))
         {
-            hr = pDeviceManager->OpenDeviceHandle(&hDevice);
+            hr = pDeviceManager-&gt;OpenDeviceHandle(&amp;hDevice);
         }
 
         // Try to lock the device again.
         if (SUCCEEDED(hr))
         {
-            hr = pDeviceManager->LockDevice(hDevice, ppDevice, TRUE); 
+            hr = pDeviceManager-&gt;LockDevice(hDevice, ppDevice, TRUE); 
         }
     }
 
@@ -214,10 +218,10 @@ HRESULT LockDevice(
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

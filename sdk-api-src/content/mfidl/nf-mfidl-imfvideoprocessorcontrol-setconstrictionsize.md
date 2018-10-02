@@ -4,10 +4,10 @@ title: IMFVideoProcessorControl::SetConstrictionSize
 author: windows-sdk-content
 description: Specifies the amount of downsampling to perform on the output.
 old-location: mf\imfvideoprocessorcontrol_setconstrictionsize.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 876F8BA0-9F05-48C6-ADE9-D65E7682C545
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetConstrictionSize method, IMFVideoProcessorControl.SetConstrictionSize, IMFVideoProcessorControl::SetConstrictionSize, SetConstrictionSize, SetConstrictionSize method [Media Foundation], SetConstrictionSize method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setconstrictionsize, mfidl/IMFVideoProcessorControl::SetConstrictionSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

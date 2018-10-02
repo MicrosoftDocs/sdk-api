@@ -4,10 +4,10 @@ title: ICommDlgBrowser3
 author: windows-sdk-content
 description: Extends the capabilities of ICommDlgBrowser2, and used by the common file dialog boxes when they host a Shell browser.
 old-location: shell\ICommDlgBrowser3.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c9286061-8ac8-452b-9204-193bc6b571cb
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], ICommDlgBrowser3 interface [Windows Shell],described, _shell_ICommDlgBrowser3, shell.ICommDlgBrowser3, shobjidl/ICommDlgBrowser3
 ms.prod: windows
 ms.technology: windows-sdk

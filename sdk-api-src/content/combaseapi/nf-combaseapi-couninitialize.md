@@ -7,7 +7,7 @@ old-location: com\couninitialize.htm
 tech.root: com
 ms.assetid: 9411cbed-fa3b-46f7-b677-6ada53324edc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CoUninitialize, CoUninitialize function [COM], _com_CoUninitialize, com.couninitialize, combaseapi/CoUninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,11 +80,11 @@ This function does not return a value.
 
 
 
-A thread must call <b>CoUninitialize</b> once for each successful call it has made to the <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a> or <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> function, including any call that returns S_FALSE. Only the <b>CoUninitialize</b> call corresponding to the <b>CoInitialize</b> or <b>CoInitializeEx</b> call that initialized the library can close it.
+A thread must call <b>CoUninitialize</b> once for each successful call it has made to the <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> function, including any call that returns S_FALSE. Only the <b>CoUninitialize</b> call corresponding to the <b>CoInitialize</b> or <b>CoInitializeEx</b> call that initialized the library can close it.
 
 
 
-Calls to <a href="https://msdn.microsoft.com/en-us/library/ms690134(v=VS.85).aspx">OleInitialize</a> must be balanced by calls to <a href="https://msdn.microsoft.com/en-us/library/ms691326(v=VS.85).aspx">OleUninitialize</a>. The <b>OleUninitialize</b> function calls <b>CoUninitialize</b> internally, so applications that call <b>OleUninitialize</b> do not also need to call <b>CoUninitialize</b>.
+Calls to <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> must be balanced by calls to <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a>. The <b>OleUninitialize</b> function calls <b>CoUninitialize</b> internally, so applications that call <b>OleUninitialize</b> do not also need to call <b>CoUninitialize</b>.
 
 
 
@@ -92,7 +92,7 @@ Calls to <a href="https://msdn.microsoft.com/en-us/library/ms690134(v=VS.85).asp
 
 
 
-Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a>, <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a>, or <b>CoUninitialize</b> from the <a href="https://msdn.microsoft.com/en-us/library/ms682583(v=VS.85).aspx">DllMain</a> function.
+Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>, <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a>, or <b>CoUninitialize</b> from the <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function.
 
 
 
@@ -102,15 +102,15 @@ Because there is no way to control the order in which in-process servers are loa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a>
+<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a>
+<a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691326(v=VS.85).aspx">OleUninitialize</a>
+<a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a>
  
 
  

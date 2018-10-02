@@ -4,10 +4,10 @@ title: IMFSampleGrabberSinkCallback::OnSetPresentationClock
 author: windows-sdk-content
 description: Called when the presentation clock is set on the sample-grabber sink.
 old-location: mf\imfsamplegrabbersinkcallback_onsetpresentationclock.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: bd367a8f-e7a0-4032-8f62-7dd9896d24ef
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnSetPresentationClock method, IMFSampleGrabberSinkCallback.OnSetPresentationClock, IMFSampleGrabberSinkCallback::OnSetPresentationClock, OnSetPresentationClock, OnSetPresentationClock method [Media Foundation], OnSetPresentationClock method [Media Foundation],IMFSampleGrabberSinkCallback interface, bd367a8f-e7a0-4032-8f62-7dd9896d24ef, mf.imfsamplegrabbersinkcallback_onsetpresentationclock, mfidl/IMFSampleGrabberSinkCallback::OnSetPresentationClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

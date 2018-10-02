@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnativefactory_createfrommf2dbuffer2.htm
 tech.root: WinRT
 ms.assetid: F6B9E8B2-19CF-4921-9E9E-E387084E5F8B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateFromMF2DBuffer2, CreateFromMF2DBuffer2 method [Windows Runtime], CreateFromMF2DBuffer2 method [Windows Runtime],ISoftwareBitmapNativeFactory interface, ISoftwareBitmapNativeFactory interface [Windows Runtime],CreateFromMF2DBuffer2 method, ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory.imaging, ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory::imaging, windows/ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, winrt.isoftwarebitmapnativefactory_createfrommf2dbuffer2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,7 +120,7 @@ When this method returns successfully, contains the requested interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK on successful completion.
 

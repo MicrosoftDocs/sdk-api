@@ -7,7 +7,7 @@ old-location: search\_search_IWordBreaker.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\iwordbreaker.htm
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IWordBreaker, IWordBreaker interface [search], IWordBreaker interface [search],described, _search_IWordBreaker, indexsrv/IWordBreaker, search._search_IWordBreaker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>IWordBreaker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266429(v=VS.85).aspx">BreakText</a>
+<a href="https://msdn.microsoft.com/32e495c0-e173-4b35-be58-51f31cb38e3e">BreakText</a>
 </td>
 <td align="left" width="63%">
 Parses text to identify words and phrases and provides the results to the <a href="https://msdn.microsoft.com/220FCAE5-D22D-45ED-9689-E78C0D8E0BB3">IWordSink</a> and <a href="https://msdn.microsoft.com/9485202D-94D6-4E9E-9C42-502033E85670">IPhraseSink</a> objects.
@@ -79,7 +79,7 @@ Parses text to identify words and phrases and provides the results to the <a hre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266430(v=VS.85).aspx">ComposePhrase</a>
+<a href="https://msdn.microsoft.com/8d9f29b8-6a55-4992-94a2-ffffa88cb0bc">ComposePhrase</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -88,7 +88,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266431(v=VS.85).aspx">GetLicenseToUse</a>
+<a href="https://msdn.microsoft.com/9b1197bc-7c0d-4c78-8eed-4b6516140d0e">GetLicenseToUse</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the license information for this implementation of the <b>IWordBreaker</b> interface.
@@ -97,7 +97,7 @@ Gets a pointer to the license information for this implementation of the <b>IWor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266432(v=VS.85).aspx">Init</a>
+<a href="https://msdn.microsoft.com/7685d85b-de66-4a1e-af54-2a6a42d5de8c">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IWordBreaker</b> implementation and indicates the mode in which the component operates.

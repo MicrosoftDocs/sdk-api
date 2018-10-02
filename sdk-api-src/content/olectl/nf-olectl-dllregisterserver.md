@@ -7,7 +7,7 @@ old-location: com\dllregisterserver.htm
 tech.root: com
 ms.assetid: 4442206b-b2ad-47d7-8add-18002c44c5a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: DllRegisterServer, DllRegisterServer function [COM], _com_DllRegisterServer, com.dllregisterserver, olectl/DllRegisterServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

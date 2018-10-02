@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDataTransfer_idtGetExtendedTransferInfo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetextendedtransferinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetExtendedTransferInfo method, IWiaDataTransfer.idtGetExtendedTransferInfo, IWiaDataTransfer::idtGetExtendedTransferInfo, _wia_IWiaDataTransfer_idtGetExtendedTransferInfo, idtGetExtendedTransferInfo, idtGetExtendedTransferInfo method [WIA], idtGetExtendedTransferInfo method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo, wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ The <b>IWiaDataTransfer::idtGetExtendedTransferInfo</b> retrieves extended infor
 
 Type: <b>PWIA_EXTENDED_TRANSFER_INFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629876(v=VS.85).aspx">WIA_EXTENDED_TRANSFER_INFO</a> structure containing the extended information.
+Pointer to a <a href="https://msdn.microsoft.com/48b00b28-9e09-4493-80ba-38f41ba754e6">WIA_EXTENDED_TRANSFER_INFO</a> structure containing the extended information.
 
 
 ## -returns

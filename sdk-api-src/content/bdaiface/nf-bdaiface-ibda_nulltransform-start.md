@@ -7,7 +7,7 @@ old-location: mstv\ibda_nulltransform_start.htm
 tech.root: MSTV
 ms.assetid: c3f86317-66b6-449e-9db8-4ec09fac8adc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_NullTransform interface [Microsoft TV Technologies],Start method, IBDA_NullTransform.Start, IBDA_NullTransform::Start, IBDA_NullTransformStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IBDA_NullTransform interface, bdaiface/IBDA_NullTransform::Start, mstv.ibda_nulltransform_start
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,11 +77,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693418(v=VS.85).aspx">IBDA_NullTransform Interface</a>
+<a href="https://msdn.microsoft.com/f13350cb-5064-405d-aeb6-25f684d0bdbb">IBDA_NullTransform Interface</a>
  
 
  

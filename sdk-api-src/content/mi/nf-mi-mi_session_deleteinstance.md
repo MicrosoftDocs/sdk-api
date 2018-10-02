@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_deleteinstance.htm
 tech.root: WMI_v2
 ms.assetid: 10d49e33-adbc-4202-91f6-7df9b4cff133
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Session_DeleteInstance, MI_Session_DeleteInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_DeleteInstance, wmi_v2.mi_session_deleteinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\file_system_recognition_information.htm
 tech.root: fileio
 ms.assetid: 27d9fd2b-d4c6-4237-8c15-0fa97b63b991
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PFILE_SYSTEM_RECOGNITION_INFORMATION, FILE_SYSTEM_RECOGNITION_INFORMATION, FILE_SYSTEM_RECOGNITION_INFORMATION structure [Files], PFILE_SYSTEM_RECOGNITION_INFORMATION, PFILE_SYSTEM_RECOGNITION_INFORMATION structure pointer [Files], _FILE_SYSTEM_RECOGNITION_INFORMATION, fs.file_system_recognition_information, winioctl/FILE_SYSTEM_RECOGNITION_INFORMATION, winioctl/PFILE_SYSTEM_RECOGNITION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

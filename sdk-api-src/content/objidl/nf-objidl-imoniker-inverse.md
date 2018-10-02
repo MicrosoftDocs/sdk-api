@@ -7,7 +7,7 @@ old-location: com\imoniker_inverse.htm
 tech.root: com
 ms.assetid: 351d5da3-043b-426a-99e9-9f882f552239
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: IMoniker interface [COM],Inverse method, IMoniker.Inverse, IMoniker::Inverse, Inverse, Inverse method [COM], Inverse method [COM],IMoniker interface, _com_imoniker_inverse, com.imoniker_inverse, objidl/IMoniker::Inverse
 ms.prod: windows-hardware
 ms.technology: windows-devices

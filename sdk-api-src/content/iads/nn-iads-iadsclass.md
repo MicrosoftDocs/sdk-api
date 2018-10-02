@@ -7,7 +7,7 @@ old-location: adsi\iadsclass.htm
 tech.root: ADSI
 ms.assetid: 690b0c96-6319-42d8-8b0e-c43f46f91031
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsClass, IADsClass interface [ADSI], IADsClass interface [ADSI],described, _ds_iadsclass, adsi.iadsclass, iads/IADsClass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IADsClass</b> interface is designed for managing schema class objects tha
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsClass</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsClass</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsClass</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsClass</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -499,9 +499,13 @@ Schema objects are organized in the schema container of a given directory. To ac
 
 The following code example shows how to implement the <b>IADsClass</b> interface.
 
-
-```vb
-Dim obj As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim obj As IADs
 Dim cls As IADsClass
 
 On Error GoTo Cleanup
@@ -511,26 +515,30 @@ Set cls = GetObject(obj.Schema)
  
 ' Inspecting mandatory and optional properties.
 For Each p In cls.MandatoryProperties
-    MsgBox "Must-have: " & p
+    MsgBox "Must-have: " &amp; p
 Next
 For Each p In cls.OptionalProperties
-    MsgBox "May-have: " & p
+    MsgBox "May-have: " &amp; p
 Next
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set obj = Nothing
-    Set cls = Nothing
-```
-
-
+    Set cls = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to implement the <b>IADsClass</b> interface.
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 IADsClass *pCls = NULL;
 IADs *pADs;
 BSTR bstrSchema;
@@ -539,62 +547,66 @@ VARIANT var;
 hr = CoInitialize(NULL);
 hr = ADsGetObject(L"WinNT://myComputer,computer",
                   IID_IADs,
-                  (void**)&pADs);
+                  (void**)&amp;pADs);
 if (FAILED(hr)) { goto Cleanup;}
  
-hr = pADs->get_Schema(&bstrSchema);
-pADs->Release();
+hr = pADs-&gt;get_Schema(&amp;bstrSchema);
+pADs-&gt;Release();
 if(FAILED(hr)) { goto Cleanup; }
  
-hr = ADsGetObject(bstrSchema, IID_IADsClass, (void**)&pCls);
+hr = ADsGetObject(bstrSchema, IID_IADsClass, (void**)&amp;pCls);
 if(FAILED(hr)) { goto Cleanup; }
  
-VariantInit(&var);
-pCls->get_MandatoryProperties(&var);
+VariantInit(&amp;var);
+pCls-&gt;get_MandatoryProperties(&amp;var);
 hr = printVarArray(var);
  
-VariantClear(&var);
-pCls->get_OptionalProperties(&var);
+VariantClear(&amp;var);
+pCls-&gt;get_OptionalProperties(&amp;var);
 hr = printVarArray(var);
 
 Cleanup:
     if(pCls)
-        pCls->Release();
+        pCls-&gt;Release();
 
     if(pADs)
-        pADs->Release();
+        pADs-&gt;Release();
 
     SysFreeString(bstrSchema);
-    VariantClear(&var);
+    VariantClear(&amp;var);
     CoUninitialize();
-    return hr;
-```
-
-
+    return hr;</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to implement the <b>printVarArray</b> function.
 
-
-```cpp
-HRESULT printVarArray(VARIANT var)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT printVarArray(VARIANT var)
 {
     LONG lstart, lend;
     VARIANT varItem;
     HRESULT hr;
-    SAFEARRAY *sa = V_ARRAY( &var );
-    hr = SafeArrayGetLBound( sa, 1, &lstart );
-    hr = SafeArrayGetUBound( sa, 1, &lend );
-    VariantInit(&varItem);
-    for ( long idx=lstart; idx <= lend; idx++ ) {
-        hr = SafeArrayGetElement( sa, &idx, &varItem );
-        printf("   %S \n", V_BSTR(&varItem));
-        VariantClear(&varItem);
+    SAFEARRAY *sa = V_ARRAY( &amp;var );
+    hr = SafeArrayGetLBound( sa, 1, &amp;lstart );
+    hr = SafeArrayGetUBound( sa, 1, &amp;lend );
+    VariantInit(&amp;varItem);
+    for ( long idx=lstart; idx &lt;= lend; idx++ ) {
+        hr = SafeArrayGetElement( sa, &amp;idx, &amp;varItem );
+        printf("   %S \n", V_BSTR(&amp;varItem));
+        VariantClear(&amp;varItem);
     }
     printf("\n");
     return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -619,7 +631,7 @@ HRESULT printVarArray(VARIANT var)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

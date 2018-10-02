@@ -7,7 +7,7 @@ old-location: fs\file_full_dir_info.htm
 tech.root: fileio
 ms.assetid: 606726e7-fd6b-4419-bd37-7282283007f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: "*PFILE_FULL_DIR_INFO, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FULL_DIR_INFO, FILE_FULL_DIR_INFO structure [Files], PFILE_FULL_DIR_INFO, PFILE_FULL_DIR_INFO structure pointer [Files], _FILE_FULL_DIR_INFO, fs.file_full_dir_info, winbase/FILE_FULL_DIR_INFO, winbase/PFILE_FULL_DIR_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

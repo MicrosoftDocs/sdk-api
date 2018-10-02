@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getmessagecountlimit.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getmessagecountlimit.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetMessageCountLimit, GetMessageCountLimit method [Direct3D 10], GetMessageCountLimit method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetMessageCountLimit method, ID3D10InfoQueue.GetMessageCountLimit, ID3D10InfoQueue::GetMessageCountLimit, bf741d73-e29b-2506-211e-4de8244d540a, d3d10sdklayers/ID3D10InfoQueue::GetMessageCountLimit, direct3d10.id3d10infoqueue_getmessagecountlimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ When the number of messages in the message queue has reached the maximum limit, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

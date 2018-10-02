@@ -7,7 +7,7 @@ old-location: wsw\ws_free_listener_callback.htm
 tech.root: wsw
 ms.assetid: fd60ae42-5b3f-4482-b785-541f7379ab3e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_FREE_LISTENER_CALLBACK, WS_FREE_LISTENER_CALLBACK callback, WS_FREE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_LISTENER_CALLBACK, wsw.ws_free_listener_callback
 ms.prod: windows
 ms.technology: windows-sdk

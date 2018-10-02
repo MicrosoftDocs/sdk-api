@@ -4,10 +4,10 @@ title: IDirect3DDevice9Video
 author: windows-sdk-content
 description: Enables an application to use content protection and encryption services implemented by a graphics driver.To get a pointer to this interface, call QueryInterface on a D3D9Ex device.
 old-location: mf\idirect3ddevice9video.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e2c9cd73-6320-4ce3-a44f-5658c162aeb4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IDirect3DDevice9Video, IDirect3DDevice9Video interface [Media Foundation], IDirect3DDevice9Video interface [Media Foundation],described, d3d9/IDirect3DDevice9Video, mf.idirect3ddevice9video
 ms.prod: windows
 ms.technology: windows-sdk

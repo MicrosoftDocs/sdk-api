@@ -7,7 +7,7 @@ old-location: hid\ioctl_keyboard_set_typematic2.htm
 tech.root: hid
 ms.assetid: bcd2c72a-b1fd-4df4-8f65-0fe32eab00ef
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control, IOCTL_KEYBOARD_SET_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_set_typematic2, i8042ref_1df6c763-6fbd-4a76-810a-7b0e6f624e9f.xml, ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
 ms.prod: windows
 ms.technology: windows-sdk

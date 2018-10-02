@@ -4,10 +4,10 @@ title: "_DD_SETPALETTEDATA"
 author: windows-sdk-content
 description: The DD_SETPALETTEDATA structure contains information necessary to set a palette for a specific surface.
 old-location: display\dd_setpalettedata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 943af430-19b2-481a-9cac-cd4cb767d96a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_SETPALETTEDATA, DD_SETPALETTEDATA, DD_SETPALETTEDATA structure [Display Devices], _DD_SETPALETTEDATA, ddrawint/DD_SETPALETTEDATA, ddstrcts_254301f1-b163-4402-92b2-70a2632f5ebc.xml, display.dd_setpalettedata"
 ms.prod: windows
 ms.technology: windows-sdk

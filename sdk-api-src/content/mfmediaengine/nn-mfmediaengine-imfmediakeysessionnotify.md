@@ -4,10 +4,10 @@ title: IMFMediaKeySessionNotify
 author: windows-sdk-content
 description: Provides a mechanism for notifying the app about information regarding the media key session.
 old-location: mf\imfmediakeysessionnotify.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d28c16a8-4a74-40c3-be95-ff7e4b1cdc09
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaKeySessionNotify, IMFMediaKeySessionNotify interface [Media Foundation], IMFMediaKeySessionNotify interface [Media Foundation],described, mf.imfmediakeysessionnotify, mfmediaengine/IMFMediaKeySessionNotify
 ms.prod: windows
 ms.technology: windows-sdk

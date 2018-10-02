@@ -7,7 +7,7 @@ old-location: htmlhelp\hhn_notify_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhnnotify.htm
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: HHN_NOTIFY, HHN_NOTIFY structure [HTML Help Workshop], htmlhelp.hhn_notify_structure, htmlhelp/HHN_NOTIFY, tagHHN_NOTIFY, vsconStrhhnnotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ A multi-byte, zero-terminated string that specifies the topic navigated to, or t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About Structures</a>
+<a href="https://msdn.microsoft.com/E75CA82E-9759-47d8-AF84-5842EDAB019D">About Structures</a>
  
 
  

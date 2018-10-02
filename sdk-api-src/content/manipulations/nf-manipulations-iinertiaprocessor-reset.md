@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_reset.htm
 tech.root: wintouch
 ms.assetid: 69ce260d-0674-4ff0-8610-bc814976bd3d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],Reset method, IInertiaProcessor.Reset, IInertiaProcessor::Reset, Reset, Reset method [Windows Touch], Reset method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Reset, wintouch.iinertiaprocessor_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,25 +79,29 @@ If you have changed properties on an object currently being manipulated by inert
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     // set properties on the IInertiaProcessor interface
-    this->m_spIInertProc->put_DesiredRotation(spin);    
+    this-&gt;m_spIInertProc-&gt;put_DesiredRotation(spin);    
 	 
     // complete any unprocessed inertia
-    this->m_spIInertProc->Complete();
+    this-&gt;m_spIInertProc-&gt;Complete();
 	 
     // reset the processor
-    this->m_spIInertProc->Reset();		  
+    this-&gt;m_spIInertProc-&gt;Reset();		  
 	 
     // If you have implemented a timer that handles inertia processing,
     // this should be started as well and the processor will raise
     // Manipulation* events
-		  
-```
-
-
+		  </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

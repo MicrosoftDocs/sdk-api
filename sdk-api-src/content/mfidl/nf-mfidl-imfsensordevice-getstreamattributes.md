@@ -4,10 +4,10 @@ title: IMFSensorDevice::GetStreamAttributes
 author: windows-sdk-content
 description: Gets the stream attribute store with the specified index.
 old-location: mf\imfsensordevice_getstreamattributes.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: DDBEB335-E6E3-4185-B7EF-90FABA9CDCE5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributes method, IMFSensorDevice.GetStreamAttributes, IMFSensorDevice::GetStreamAttributes, mf.imfsensordevice_getstreamattributes, mfidl/IMFSensorDevice::GetStreamAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFASF_STREAMSELECTORFLAGS
 author: windows-sdk-content
 description: Defines the ASF stream selector options.
 old-location: mf\mfasf_streamselector_flags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2ececb4a-9516-4066-bf01-0924252f93ee
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 2ececb4a-9516-4066-bf01-0924252f93ee, MFASF_STREAMSELECTORFLAGS, MFASF_STREAMSELECTOR_DISABLE_THINNING, MFASF_STREAMSELECTOR_FLAGS, MFASF_STREAMSELECTOR_FLAGS enumeration [Media Foundation], MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE, enumeration [Media Foundation], mf.mfasf_streamselector_flags, wmcontainer/MFASF_STREAMSELECTOR_DISABLE_THINNING, wmcontainer/MFASF_STREAMSELECTOR_FLAGS, wmcontainer/MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE
 ms.prod: windows
 ms.technology: windows-sdk

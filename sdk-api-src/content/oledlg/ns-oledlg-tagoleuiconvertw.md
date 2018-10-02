@@ -7,7 +7,7 @@ old-location: com\oleuiconvert_struct.htm
 tech.root: com
 ms.assetid: 79206f06-b219-48c2-9fb2-74ebc2dbac65
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPOLEUICONVERTW, *POLEUICONVERTW, CF_CONVERTONLY, CF_DISABLEACTIVATEAS, CF_DISABLEDISPLAYASICON, CF_HIDECHANGEICON, CF_SELECTACTIVATEAS, CF_SELECTCONVERTTO, CF_SETACTIVATEDEFAULT, CF_SETCONVERTDEFAULT, CF_SHOWHELPBUTTON, LPOLEUICONVERT, LPOLEUICONVERT structure pointer [COM], OLEUICONVERT, OLEUICONVERT structure [COM], OLEUICONVERTA, OLEUICONVERTW, POLEUICONVERT, POLEUICONVERT structure pointer [COM], _ole_OLEUICONVERT_str, com.oleuiconvert_struct, oledlg/LPOLEUICONVERT, oledlg/OLEUICONVERT, oledlg/OLEUICONVERTA, oledlg/OLEUICONVERTW, oledlg/POLEUICONVERT, tagOLEUICONVERTW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -249,7 +249,7 @@ Data format of the object to be converted or activated.
 
 ### -field hMetaPict
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms649017(v=VS.85).aspx">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
+The <a href="_win32_METAFILEPICT_str">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
 
 
 

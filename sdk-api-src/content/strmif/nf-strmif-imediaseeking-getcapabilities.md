@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getcapabilities.htm
 tech.root: DirectShow
 ms.assetid: 84dd3c21-9c72-4433-bd03-29520dc138ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/28/2018
 ms.keywords: GetCapabilities, GetCapabilities method [DirectShow], GetCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetCapabilities method, IMediaSeeking.GetCapabilities, IMediaSeeking::GetCapabilities, IMediaSeekingGetCapabilities, dshow.imediaseeking_getcapabilities, strmif/IMediaSeeking::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,24 +112,28 @@ Success.
 
 This method returns information on all the seeking capabilities of the stream. Examine <i>pCapabilities</i> by performing a separate bitwise-AND operation on each AM_SEEKING_SEEKING_CAPABILITIES value you are interested in.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 DWORD dwCaps = 0;
-pMediaSeeking->GetCapabilities(&dwCaps);
+pMediaSeeking-&gt;GetCapabilities(&amp;dwCaps);
 
-if (dwCaps & AM_SEEKING_CanGetCurrentPos) 
+if (dwCaps &amp; AM_SEEKING_CanGetCurrentPos) 
 {
     // The stream can seek to the current position.
 }
-if (dwCaps & AM_SEEKING_CanPlayBackwards) 
+if (dwCaps &amp; AM_SEEKING_CanPlayBackwards) 
 {
     // The stream can play backward.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextRenderer_DrawUnderline.htm
 tech.root: DirectWrite
 ms.assetid: 23395b2a-f53c-4697-87f1-15c65224b1f3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: DrawUnderline, DrawUnderline method [Direct Write], DrawUnderline method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawUnderline method, IDWriteTextRenderer.DrawUnderline, IDWriteTextRenderer::DrawUnderline, directwrite.IDWriteTextRenderer_DrawUnderline, dwrite/IDWriteTextRenderer::DrawUnderline
 ms.prod: windows-hardware
 ms.technology: windows-devices

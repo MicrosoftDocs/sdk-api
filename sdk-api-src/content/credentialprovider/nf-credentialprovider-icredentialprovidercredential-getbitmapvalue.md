@@ -4,10 +4,10 @@ title: ICredentialProviderCredential::GetBitmapValue
 author: windows-sdk-content
 description: Enables retrieval of bitmap data from a credential with a bitmap field.
 old-location: shell\ICredentialProviderCredential_GetBitmapValue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5171b8f4-877b-43ab-be1d-4ccffdfc74ce
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: GetBitmapValue, GetBitmapValue method [Windows Shell], GetBitmapValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetBitmapValue method, ICredentialProviderCredential.GetBitmapValue, ICredentialProviderCredential::GetBitmapValue, credentialprovider/ICredentialProviderCredential::GetBitmapValue, shell.ICredentialProviderCredential_GetBitmapValue, shell_ICredentialProviderCredential_GetBitmapValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

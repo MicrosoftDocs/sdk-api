@@ -4,10 +4,10 @@ title: IMFDLNASinkInit::Initialize
 author: windows-sdk-content
 description: Initializes the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\imfdlnasinkinit_initialize.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 48c3842c-7d88-4232-b882-363d9310ffe8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: IMFDLNASinkInit interface [Media Foundation],Initialize method, IMFDLNASinkInit.Initialize, IMFDLNASinkInit::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFDLNASinkInit interface, mf.imfdlnasinkinit_initialize, mfmp2dlna/IMFDLNASinkInit::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

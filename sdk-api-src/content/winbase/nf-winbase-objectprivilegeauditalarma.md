@@ -4,10 +4,10 @@ title: ObjectPrivilegeAuditAlarmA function
 author: windows-sdk-content
 description: Generates an audit message in the security event log.
 old-location: security\objectprivilegeauditalarm.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 76714ffe-be7c-4928-b7c9-e72441ada4c7
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: ObjectPrivilegeAuditAlarm, ObjectPrivilegeAuditAlarm function [Security], ObjectPrivilegeAuditAlarmA, ObjectPrivilegeAuditAlarmW, _win32_objectprivilegeauditalarm, security.objectprivilegeauditalarm, winbase/ObjectPrivilegeAuditAlarm, winbase/ObjectPrivilegeAuditAlarmA, winbase/ObjectPrivilegeAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,7 +136,7 @@ The <b>ObjectPrivilegeAuditAlarm</b> function requires the calling <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

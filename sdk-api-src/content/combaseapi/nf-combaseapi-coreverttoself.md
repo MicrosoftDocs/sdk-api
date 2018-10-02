@@ -7,7 +7,7 @@ old-location: com\coreverttoself.htm
 tech.root: com
 ms.assetid: 8061ddbe-ed21-47f7-9ac4-b3ec910ff89d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CoRevertToSelf, CoRevertToSelf function [COM], _com_CoRevertToSelf, com.coreverttoself, combaseapi/CoRevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ This function supports the standard return values, including S_OK to indicate su
 
 
 
-<b>CoRevertToSelf</b>, which is a helper function that calls <a href="https://msdn.microsoft.com/en-us/library/ms680038(v=VS.85).aspx">IServerSecurity::RevertToSelf</a>, restores the authentication information on a thread to the authentication information on the thread before impersonation began.
+<b>CoRevertToSelf</b>, which is a helper function that calls <a href="https://msdn.microsoft.com/21952f54-439e-446f-a206-4b35759b1090">IServerSecurity::RevertToSelf</a>, restores the authentication information on a thread to the authentication information on the thread before impersonation began.
 
 <b>CoRevertToSelf</b> encapsulates the following common sequence of calls (error handling excluded):
 
@@ -94,15 +94,15 @@ This function supports the standard return values, including S_OK to indicate su
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691483(v=VS.85).aspx">CoGetCallContext</a>
+<a href="https://msdn.microsoft.com/b82e32c0-840d-402e-90d5-ff678c51faf1">CoGetCallContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680038(v=VS.85).aspx">IServerSecurity::RevertToSelf</a>
+<a href="https://msdn.microsoft.com/21952f54-439e-446f-a206-4b35759b1090">IServerSecurity::RevertToSelf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693319(v=VS.85).aspx">Security in COM</a>
+<a href="https://msdn.microsoft.com/c9f6d06c-da24-48ea-908a-2462c33f7ee3">Security in COM</a>
  
 
  

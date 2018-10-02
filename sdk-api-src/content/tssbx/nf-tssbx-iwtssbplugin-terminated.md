@@ -7,7 +7,7 @@ old-location: termserv\iwtssbplugin_terminated.htm
 tech.root: TermServ
 ms.assetid: 123455dd-6ef3-409f-b021-e641868b16f0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],Terminated method, IWTSSBPlugin.Terminated, IWTSSBPlugin::Terminated, Terminated, Terminated method [Remote Desktop Services], Terminated method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_terminated, tssbx/IWTSSBPlugin::Terminated
 ms.prod: windows-hardware
 ms.technology: windows-devices

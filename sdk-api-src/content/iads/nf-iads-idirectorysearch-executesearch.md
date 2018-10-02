@@ -7,7 +7,7 @@ old-location: adsi\idirectorysearch_executesearch.htm
 tech.root: ADSI
 ms.assetid: 7514b372-1a7a-4a42-a814-af70a727c477
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ExecuteSearch, ExecuteSearch method [ADSI], ExecuteSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],ExecuteSearch method, IDirectorySearch.ExecuteSearch, IDirectorySearch::ExecuteSearch, _ds_idirectorysearch_executesearch, adsi.idirectorysearch__executesearch, adsi.idirectorysearch_executesearch, iads/IDirectorySearch::ExecuteSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,17 +113,21 @@ When using the special value of 0xFFFFFFFF for <i>dwNumberAttributes</i>, LDAP r
 
 The following C++ code example shows how to invoke  <b>IDirectorySearch::ExecuteSearch</b>.
 
-
-```cpp
-LPWSTR pszAttr[] = { L"ADsPath", L"Name", L"samAccountName" };
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPWSTR pszAttr[] = { L"ADsPath", L"Name", L"samAccountName" };
 ADS_SEARCH_HANDLE hSearch;
 DWORD dwCount= sizeof(pszAttr)/sizeof(LPWSTR);
  
 // Search for users with a last name that begins with "h".
-hr = m_pSearch->ExecuteSearch(L"(&(objectClass=user)(sn=h*))", pszAttr, dwCount, &hSearch );
-```
-
-
+hr = m_pSearch-&gt;ExecuteSearch(L"(&amp;(objectClass=user)(sn=h*))", pszAttr, dwCount, &amp;hSearch );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

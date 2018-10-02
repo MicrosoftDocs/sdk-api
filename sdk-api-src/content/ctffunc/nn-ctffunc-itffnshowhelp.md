@@ -7,7 +7,7 @@ old-location: tsf\itffnshowhelp.htm
 tech.root: TSF
 ms.assetid: d5d60767-95f3-4ed0-b61e-58e06d1e1a98
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfFnShowHelp, ITfFnShowHelp interface [Text Services Framework], ITfFnShowHelp interface [Text Services Framework],described, _tsf_itffnshowhelp_ref, ctffunc/ITfFnShowHelp, tsf.itffnshowhelp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ The <b>ITfFnShowHelp</b> interface is implemented by a text service to enable th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnShowHelp</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfFnShowHelp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnShowHelp</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnShowHelp</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ITfFnShowHelp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538977(v=VS.85).aspx">Show</a>
+<a href="https://msdn.microsoft.com/e150dffe-4a02-4d16-9017-f86111970aea">Show</a>
 </td>
 <td align="left" width="63%">
 Called when the user selects a text service help menu item.
@@ -84,9 +84,9 @@ Called when the user selects a text service help menu item.
 
 
 
-The TSF manager obtains this interface from the text service by calling the text service <a href="https://msdn.microsoft.com/en-us/library/ms538981(v=VS.85).aspx">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnShowHelp.
+The TSF manager obtains this interface from the text service by calling the text service <a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnShowHelp.
 
-The TSF manager obtains the help menu text by calling the text service's <a href="https://msdn.microsoft.com/en-us/library/ms538983(v=VS.85).aspx">ITfFunction::GetDisplayName</a>.
+The TSF manager obtains the help menu text by calling the text service's <a href="https://msdn.microsoft.com/da52ca6d-9606-45c5-8db9-c876c827df14">ITfFunction::GetDisplayName</a>.
 
 
 
@@ -111,7 +111,7 @@ The TSF manager obtains the help menu text by calling the text service's <a href
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

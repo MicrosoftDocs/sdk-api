@@ -4,10 +4,10 @@ title: LongToInt8 function
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type INT8.
 old-location: shell\LongToInt8.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 611dd8dc-4aac-4efd-aa7d-9dd1867219cc
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: LongToInt8, LongToInt8 function [Windows Shell], intsafe/LongToInt8, shell.LongToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

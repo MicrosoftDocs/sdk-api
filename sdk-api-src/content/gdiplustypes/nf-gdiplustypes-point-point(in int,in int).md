@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Point_Point_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_85x_y.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(IN INT,IN INT), Point.Point(INT,INT), Point::Point, Point::Point(IN INT,IN INT), _gdiplus_CLASS_Point_Point_x_y_, gdiplus._gdiplus_CLASS_Point_Point_x_y_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object using two integers to initialize the 
+Creates a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object using two integers to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -65,14 +65,14 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).as
 
 Type: <b>INT</b>
 
-Integer that specifies the x-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object. 
+Integer that specifies the x-coordinate of the <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object. 
 
 
 ### -param y [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the y-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object. 
+Integer that specifies the y-coordinate of the <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object. 
 
 
 ## -see-also
@@ -80,15 +80,15 @@ Integer that specifies the y-coordinate of the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535005(v=VS.85).aspx">Point Constructors</a>
+<a href="https://msdn.microsoft.com/27952618-cf2d-4a85-b271-b3950c293ece">Point Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
  
 
  

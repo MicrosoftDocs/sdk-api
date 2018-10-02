@@ -7,7 +7,7 @@ old-location: tablet\reco_guide.htm
 tech.root: tablet
 ms.assetid: e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: RECO_GUIDE, RECO_GUIDE structure [Tablet PC], e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7, rectypes/RECO_GUIDE, tablet.reco_guide, tagRECO_GUIDE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -239,10 +239,10 @@ x
 
 The following illustration represents the recognition guide structure for five columns and three rows of boxes.
 
-<img alt="Illustrration of recognition guide structure" border="" src="./images/3551c7eb-7398-4724-9de7-191818f35443.gif"/>
+<img alt="Illustrration of recognition guide structure" border="" src="images/3551c7eb-7398-4724-9de7-191818f35443.gif"/>
 The following illustration represents a single box from the previous illustration.
 
-<img alt="Illustration of single recognition guide box" border="" src="./images/a7106d81-4314-44ec-905d-1bb3ba7711b7.gif"/>
+<img alt="Illustration of single recognition guide box" border="" src="images/a7106d81-4314-44ec-905d-1bb3ba7711b7.gif"/>
 
 
 

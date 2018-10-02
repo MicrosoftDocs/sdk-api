@@ -7,7 +7,7 @@ old-location: tablet\getlatticeptr.htm
 tech.root: tablet
 ms.assetid: 5c483500-c58f-4fd0-903a-a3011727bab8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: 5c483500-c58f-4fd0-903a-a3011727bab8, GetLatticePtr, GetLatticePtr function [Tablet PC], recapis/GetLatticePtr, tablet.getlatticeptr
 ms.prod: windows-hardware
 ms.technology: windows-devices

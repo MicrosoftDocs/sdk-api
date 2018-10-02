@@ -7,7 +7,7 @@ old-location: audio\apo_reg_properties.htm
 tech.root: audio
 ms.assetid: 466215E5-5345-4570-A29B-086562882F5D
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/28/2018
 ms.keywords: "*PAPO_REG_PROPERTIES, APO_REG_PROPERTIES, APO_REG_PROPERTIES structure [Audio Devices], PAPO_REG_PROPERTIES, PAPO_REG_PROPERTIES structure pointer [Audio Devices], audio.apo_reg_properties, audioenginebaseapo/APO_REG_PROPERTIES, audioenginebaseapo/PAPO_REG_PROPERTIES"
 ms.prod: windows
 ms.technology: windows-sdk

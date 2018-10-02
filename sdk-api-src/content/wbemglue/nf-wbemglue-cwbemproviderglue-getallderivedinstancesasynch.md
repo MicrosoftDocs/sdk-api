@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getallderivedinstancesasynch.htm
 tech.root: WmiSdk
 ms.assetid: d58f8aca-2176-443e-b82a-87ee8bae8cf8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllDerivedInstancesAsynch method, CWbemProviderGlue.GetAllDerivedInstancesAsynch, CWbemProviderGlue::GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch method [Windows Management Instrumentation], GetAllDerivedInstancesAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallderivedinstancesasynch, wbemglue/CWbemProviderGlue::GetAllDerivedInstancesAsynch, wmi.cwbemproviderglue_getallderivedinstancesasynch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,16 +79,20 @@ Pointer for the callback function pointed to by <i>pCallback</i>.
 
 Pointer to a <b>static</b> function with this prototype.
 
-
-```cpp
-  static HRESULT WINAPI Classname::FunctionName(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>  static HRESULT WINAPI Classname::FunctionName(
      Provider *pProvider,
      CInstance *pInstance,
      MethodContext *pMethodContext,
-     void *pUserData );
-```
-
-
+     void *pUserData );</pre>
+</td>
+</tr>
+</table></span></div>
 where Classname is the name of a class derived from class <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a>. It is an instance of this class that is the "this" pointer defined by <i>pRequester</i>. This function is called to return each instance supported by the provider specified by <i>pszClassName</i>.
 
 

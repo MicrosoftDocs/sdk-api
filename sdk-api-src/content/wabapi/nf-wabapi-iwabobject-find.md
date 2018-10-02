@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_Find.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\find.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Find, Find method [Windows Address Book], Find method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],Find method, IWABObject.Find, IWABObject::Find, _wab_IWABObject_Find, wab._wab_IWABObject_Find, wabapi/IWABObject::Find
 ms.prod: windows-hardware
 ms.technology: windows-devices

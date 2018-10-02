@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocationevents_onstatuschanged.htm
 tech.root: LocationAPI
 ms.assetid: d13d8b72-3188-479f-a70c-52b1a9435b80
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ILocationEvents interface [WinLocation],OnStatusChanged method, ILocationEvents.OnStatusChanged, ILocationEvents::OnStatusChanged, OnStatusChanged, OnStatusChanged method [WinLocation], OnStatusChanged method [WinLocation],ILocationEvents interface, WinLocation_COM_Ref.ilocationevents_onstatuschanged, locationapi/ILocationEvents::OnStatusChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,9 +91,13 @@ This event provides report status for new reports. The most recent reports remai
 
 The following is a sample implementation of <b>OnStatusChanged</b> that handles status changed events for latitude/longitude reports.
 
-
-```cpp
-// This is called when the status of a report type changes.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// This is called when the status of a report type changes.
 // The LOCATION_REPORT_STATUS enumeration is defined in LocApi.h in the SDK
 STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT_STATUS status)
 {
@@ -124,10 +128,10 @@ STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT
 
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

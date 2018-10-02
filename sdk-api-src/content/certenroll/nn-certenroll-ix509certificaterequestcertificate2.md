@@ -4,10 +4,10 @@ title: IX509CertificateRequestCertificate2
 author: windows-sdk-content
 description: The IX509CertificateRequestCertificate2 interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority.
 old-location: security\ix509certificaterequestcertificate2.htm
-tech.root: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 4f4b5c95-3213-4ccb-9bdd-05cb221f54bd
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], IX509CertificateRequestCertificate2 interface [Security],described, certenroll/IX509CertificateRequestCertificate2, security.ix509certificaterequestcertificate2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-The <b>IX509CertificateRequestCertificate2</b> interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority. It includes all of the methods defined by the <a href="https://msdn.microsoft.com/en-us/library/Aa377124(v=VS.85).aspx">IX509CertificateRequestCertificate</a> interface and adds methods that enable initialization from certificate request templates.
+The <b>IX509CertificateRequestCertificate2</b> interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority. It includes all of the methods defined by the <a href="https://msdn.microsoft.com/7197a225-b2dc-47bb-8843-d3fb4bf95811">IX509CertificateRequestCertificate</a> interface and adds methods that enable initialization from certificate request templates.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCertificate2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa377124(v=VS.85).aspx">IX509CertificateRequestCertificate</a>. <b>IX509CertificateRequestCertificate2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCertificate2</b> interface inherits from <a href="https://msdn.microsoft.com/7197a225-b2dc-47bb-8843-d3fb4bf95811">IX509CertificateRequestCertificate</a>. <b>IX509CertificateRequestCertificate2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,16 +71,16 @@ The <b>IX509CertificateRequestCertificate2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351613(v=VS.85).aspx">InitializeFromPrivateKeyTemplate</a>
+<a href="https://msdn.microsoft.com/334cc5f7-e74e-4f0b-b54b-6f1b121418da">InitializeFromPrivateKeyTemplate</a>
 </td>
 <td align="left" width="63%">
-Initializes the certificate request by using an <a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a> object and a certificate template.
+Initializes the certificate request by using an <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object and a certificate template.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351614(v=VS.85).aspx">InitializeFromTemplate</a>
+<a href="https://msdn.microsoft.com/bd38413f-9e3d-4d04-8de2-5eb0b637c41c">InitializeFromTemplate</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request by using a template.
@@ -98,7 +98,7 @@ Initializes the certificate request by using a template.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351615(v=VS.85).aspx">PolicyServer</a>
+<a href="https://msdn.microsoft.com/698f78a3-75aa-4499-a3df-00a3e1d0a607">PolicyServer</a>
 
 
 </td>
@@ -114,7 +114,7 @@ Retrieves the certificate enrollment policy (CEP) server that contains the templ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351616(v=VS.85).aspx">Template</a>
+<a href="https://msdn.microsoft.com/0332c4d5-84a9-4e1b-bd43-e1df1024b3c8">Template</a>
 
 
 </td>
@@ -135,11 +135,11 @@ Retrieves the certificate request template used during initialization.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377124(v=VS.85).aspx">IX509CertificateRequestCertificate</a>
+<a href="https://msdn.microsoft.com/7197a225-b2dc-47bb-8843-d3fb4bf95811">IX509CertificateRequestCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377505(v=VS.85).aspx">IX509CertificateRequestPkcs10</a>
+<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
  
 
  

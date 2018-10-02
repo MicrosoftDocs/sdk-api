@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setbottomrightradiusy.htm
 tech.root: directcomp
 ms.assetid: A2A3F43E-62C6-43B8-929F-AEDA11620DF1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionRectangleClip.SetBottomRightRadiusY, IDCompositionRectangleClip.SetBottomRightRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomRightRadiusY, IDCompositionRectangleClip::SetBottomRightRadiusY(IDCompositionAnimation), SetBottomRightRadiusY, SetBottomRightRadiusY methods [DirectComposition], dcomp/SetBottomRightRadiusY, directcomp.idcompositionrectangleclip_setbottomrightradiusy
 ms.prod: windows-hardware
 ms.technology: windows-devices

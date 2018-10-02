@@ -7,7 +7,7 @@ old-location: base\getcomputername.htm
 tech.root: SysInfo
 ms.assetid: 8ca3e611-e5fb-4909-adf6-98eb8552c9e1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetComputerName, GetComputerName function, GetComputerNameA, GetComputerNameW, _win32_getcomputername, base.getcomputername, winbase/GetComputerName, winbase/GetComputerNameA, winbase/GetComputerNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

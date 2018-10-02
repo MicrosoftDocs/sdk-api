@@ -4,10 +4,10 @@ title: ITask::SetApplicationName
 author: windows-sdk-content
 description: This method assigns a specific application to the current task.
 old-location: taskschd\itask_setapplicationname.htm
-tech.root: taskschd
+tech.root: TaskSchd
 ms.assetid: 0bec25a9-e653-48b5-be41-8f513169fc8c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: ITask interface [Task Scheduler],SetApplicationName method, ITask.SetApplicationName, ITask::SetApplicationName, SetApplicationName, SetApplicationName method [Task Scheduler], SetApplicationName method [Task Scheduler],ITask interface, _msb_itask_setapplicationname, mstask/ITask::SetApplicationName, taskschd.itask_setapplicationname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method assigns a specific application to the current <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method assigns a specific application to the current <a href="t.htm">task</a>.
 
 
 ## -parameters

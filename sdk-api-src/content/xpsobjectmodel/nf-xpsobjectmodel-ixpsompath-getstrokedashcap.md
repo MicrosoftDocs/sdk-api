@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getstrokedashcap.htm
 tech.root: printdocs
 ms.assetid: afd33b39-3aeb-41eb-8747-7d1cff0aaa38
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetStrokeDashCap, GetStrokeDashCap method [XPS Documents and Packaging], GetStrokeDashCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashCap method, IXpsOMPath.GetStrokeDashCap, IXpsOMPath::GetStrokeDashCap, xps.ixpsompath_getstrokedashcap, xpsobjectmodel/IXpsOMPath::GetStrokeDashCap
 ms.prod: windows-hardware
 ms.technology: windows-devices

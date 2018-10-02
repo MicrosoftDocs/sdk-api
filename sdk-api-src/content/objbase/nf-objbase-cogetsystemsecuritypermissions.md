@@ -7,7 +7,7 @@ old-location: com\cogetsystemsecuritypermissions.htm
 tech.root: com
 ms.assetid: 8210A6A0-B861-4E85-8E5A-1BF82A01C54E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/01/2018
 ms.keywords: CoGetSystemSecurityPermissions, CoGetSystemSecurityPermissions function [COM], com.cogetsystemsecuritypermissions, objbase/CoGetSystemSecurityPermissions
 ms.prod: windows-hardware
 ms.technology: windows-devices

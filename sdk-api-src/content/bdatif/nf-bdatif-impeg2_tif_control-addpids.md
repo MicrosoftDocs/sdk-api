@@ -7,7 +7,7 @@ old-location: mstv\impeg2_tif_control_addpids.htm
 tech.root: MSTV
 ms.assetid: 27add7cc-1d77-4ac5-b63f-757f63f4c9b8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: AddPIDs, AddPIDs method [Microsoft TV Technologies], AddPIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],AddPIDs method, IMPEG2_TIF_CONTROL.AddPIDs, IMPEG2_TIF_CONTROL::AddPIDs, IMPEG2_TIF_CONTROLAddPIDs, bdatif/IMPEG2_TIF_CONTROL::AddPIDs, mstv.impeg2_tif_control_addpids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,15 +113,15 @@ Only the TIF knows which table sections it requires. It uses this method to tell
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694413(v=VS.85).aspx">IMPEG2_TIF_CONTROL Interface</a>
+<a href="https://msdn.microsoft.com/9583365d-b318-49e2-a32f-f6cc9d3f289d">IMPEG2_TIF_CONTROL Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694417(v=VS.85).aspx">IMPEG2_TIF_CONTROL::GetPIDs</a>
+<a href="https://msdn.microsoft.com/c7ca141b-e471-47ce-96b5-b2c0cad89daf">IMPEG2_TIF_CONTROL::GetPIDs</a>
  
 
  

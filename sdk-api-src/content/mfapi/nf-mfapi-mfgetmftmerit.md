@@ -4,10 +4,10 @@ title: MFGetMFTMerit function
 author: windows-sdk-content
 description: Gets the merit value of a hardware codec.
 old-location: mf\mfgetmftmerit.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
 ms.prod: windows-hardware
 ms.technology: windows-devices

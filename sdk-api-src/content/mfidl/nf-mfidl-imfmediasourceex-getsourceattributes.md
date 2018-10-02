@@ -4,10 +4,10 @@ title: IMFMediaSourceEx::GetSourceAttributes
 author: windows-sdk-content
 description: Gets an attribute store for the media source.
 old-location: mf\imfmediasourceex_getsourceattributes.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: A58A2537-1ABD-4EC5-AC84-A5FFA7127CEB
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetSourceAttributes, GetSourceAttributes method [Media Foundation], GetSourceAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetSourceAttributes method, IMFMediaSourceEx.GetSourceAttributes, IMFMediaSourceEx::GetSourceAttributes, mf.imfmediasourceex_getsourceattributes, mfidl/IMFMediaSourceEx::GetSourceAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

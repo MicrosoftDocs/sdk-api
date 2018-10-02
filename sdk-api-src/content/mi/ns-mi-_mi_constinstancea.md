@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constinstancea.htm
 tech.root: WMI_v2
 ms.assetid: 0a9ee4b8-89d9-4db9-9b79-f84165e6132f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ConstInstanceA, MI_ConstInstanceA structure [Windows Management Infrastructure (MI)], _MI_ConstInstanceA, mi/MI_ConstInstanceA, wmi._mi_constinstancea, wmi_v2.mi_constinstancea
 ms.prod: windows
 ms.technology: windows-sdk

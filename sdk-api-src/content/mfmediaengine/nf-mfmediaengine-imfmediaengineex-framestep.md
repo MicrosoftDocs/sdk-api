@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::FrameStep
 author: windows-sdk-content
 description: Steps forward or backward one frame.
 old-location: mf\imfmediaengineex_framestep.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 090B5B6F-E4D1-43D7-AD09-BA3008B48104
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],FrameStep method, IMFMediaEngineEx.FrameStep, IMFMediaEngineEx::FrameStep, mf.imfmediaengineex_framestep, mfmediaengine/IMFMediaEngineEx::FrameStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

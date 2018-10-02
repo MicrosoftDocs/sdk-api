@@ -7,7 +7,7 @@ old-location: backup\backupread.htm
 tech.root: Backup
 ms.assetid: 47d13662-af70-4c76-9fb6-3835e329ae5f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BackupRead, BackupRead function [Backup], _win32_backupread, backup.backupread, base.backupread, winbase/BackupRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ req.redist:
 The <b>BackupRead</b> function can be used to back up 
     a file or directory, including the security information. The function reads data associated with a 
     specified file or directory into a buffer, which can then be written to the backup medium using the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
+    <a href="base.writefile">WriteFile</a> function.
 
 
 ## -parameters
@@ -72,12 +72,12 @@ The <b>BackupRead</b> function can be used to back up
 ### -param hFile [in]
 
 Handle to the file or directory to be backed up. To obtain the handle, call the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. The SACLs are not read unless the 
+      <a href="base.createfile">CreateFile</a> function. The SACLs are not read unless the 
       file handle was created with the <b>ACCESS_SYSTEM_SECURITY</b> access right. For more 
       information, see <a href="base.file_security_and_access_rights">File Security and Access 
       Rights</a>.
 
-The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
+The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="base.createfile">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
 
 The <b>BackupRead</b> function may fail if 
       <b>CreateFile</b> was called with the flag 

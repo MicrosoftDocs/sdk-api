@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_enabled.htm
 tech.root: OfflineFiles
 ms.assetid: 47db9318-2418-4e6c-aac0-75b0b498c7e6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Enabled, Enabled method [Offline Files], Enabled method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],Enabled method, IOfflineFilesEvents.Enabled, IOfflineFilesEvents::Enabled, cscobj/IOfflineFilesEvents::Enabled, of.iofflinefilesevents_enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

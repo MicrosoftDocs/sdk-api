@@ -4,10 +4,10 @@ title: IMFSample::GetSampleDuration
 author: windows-sdk-content
 description: Retrieves the duration of the sample.
 old-location: mf\imfsample_getsampleduration.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c3284edc-b9b5-489b-9166-3bb6da50bd2a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: GetSampleDuration, GetSampleDuration method [Media Foundation], GetSampleDuration method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleDuration method, IMFSample.GetSampleDuration, IMFSample::GetSampleDuration, c3284edc-b9b5-489b-9166-3bb6da50bd2a, mf.imfsample_getsampleduration, mfobjects/IMFSample::GetSampleDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

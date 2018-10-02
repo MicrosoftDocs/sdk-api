@@ -7,7 +7,7 @@ old-location: gdi\unregisterforprintasyncnotifications.htm
 tech.root: printdocs
 ms.assetid: 2b039018-71c0-4110-8c0b-702927f58df4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: UnRegisterForPrintAsyncNotifications, UnRegisterForPrintAsyncNotifications function [Windows GDI], _win32_UnRegisterForPrintAsyncNotifications, gdi.unregisterforprintasyncnotifications, prnasnot/UnRegisterForPrintAsyncNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,9 +100,13 @@ The return values are COM error codes. Because this function might complete the 
 
 The following code example shows how these macros can be used to evaluate the return value.
 
-
-```cpp
-if (SUCCEEDED(hr)) {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr)) {
   // Call succeeded, check HRESULT value returned
   switch (HRESULT_CODE(hr)){
     case S_OK:
@@ -130,11 +134,11 @@ if (SUCCEEDED(hr)) {
       break;
   }
 }
-
-```
-
-
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+</pre>
+</td>
+</tr>
+</table></span></div>
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 

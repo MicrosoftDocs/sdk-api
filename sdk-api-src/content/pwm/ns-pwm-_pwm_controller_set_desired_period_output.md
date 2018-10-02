@@ -7,7 +7,7 @@ old-location: base\pwm_controller_set_desired_period_output.htm
 tech.root: devio
 ms.assetid: 15B438F8-C265-4D95-8806-D7DDBFF62973
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT, PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure, _PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT, base.pwm_controller_set_desired_period_output, pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Contains the effective output signal period of the Pulse Width Modulation (PWM) controller.
 
 
@@ -70,7 +68,7 @@ The effective output signal period, in picoseconds, of the controller.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt826478(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
+<a href="base.ioctl_ioctl_pwm_controller_set_desired_period">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
  
 
  

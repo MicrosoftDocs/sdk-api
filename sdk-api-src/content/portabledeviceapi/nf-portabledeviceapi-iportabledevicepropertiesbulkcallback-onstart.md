@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicepropertiesbulkcallback_onstart.htm
 tech.root: wpd_sdk
 ms.assetid: bde04e04-d36e-4471-b598-ee38dba9f614
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnStart method, IPortableDevicePropertiesBulkCallback.OnStart, IPortableDevicePropertiesBulkCallback::OnStart, IPortableDevicePropertiesBulkCallbackOnStart, OnStart, OnStart method [Windows Portable Devices SDK], OnStart method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnStart, wpdsdk.iportabledevicepropertiesbulkcallback_onstart
 ms.prod: windows-hardware
 ms.technology: windows-devices

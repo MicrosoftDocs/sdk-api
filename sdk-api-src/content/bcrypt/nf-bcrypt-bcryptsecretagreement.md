@@ -7,7 +7,7 @@ old-location: security\bcryptsecretagreement.htm
 tech.root: SecCNG
 ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
 ms.prod: windows-hardware
 ms.technology: windows-devices

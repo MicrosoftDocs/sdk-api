@@ -4,10 +4,10 @@ title: StrDupA function
 author: windows-sdk-content
 description: Duplicates a string.
 old-location: shell\StrDup.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: fa77f0b3-8a9b-4221-87e3-9aebff4409fb
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: StrDup, StrDup function [Windows Shell], StrDupA, StrDupW, _win32_StrDup, shell.StrDup, shlwapi/StrDup, shlwapi/StrDupA, shlwapi/StrDupW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,11 +96,15 @@ This function uses <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8
 
 This simple console application illustrates the use of <b>StrDup</b>.
 
-
-```cpp
-#include <windows.h>
-#include <shlwapi.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;shlwapi.h&gt;
+#include &lt;stdio.h&gt;
 
 void main(void)
 {
@@ -121,9 +125,9 @@ void main(void)
 OUTPUT:
 - - - - - - 
 Original: This is the buffer text
-Copy:     This is the buffer text
-```
-
-
+Copy:     This is the buffer text</pre>
+</td>
+</tr>
+</table></span></div>
 
 

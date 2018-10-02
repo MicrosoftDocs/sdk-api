@@ -4,10 +4,10 @@ title: QISearch function
 author: windows-sdk-content
 description: A table-driven implementation of the IUnknown::QueryInterface method.
 old-location: shell\QISearch.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8429778b-bc9c-43f6-8d75-0fb78e36e790
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: QISearch, QISearch function [Windows Shell], _win32_QISearch, shell.QISearch, shlwapi/QISearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,9 +127,13 @@ This object supports two interfaces aside from IUnknown, so there are two non-<b
 
 <div class="alert"><b>Note</b>  Forgetting to include all base classes, including indirect ones, is a common error. Notice that there is an entry for the <a href="https://msdn.microsoft.com/932eb0e2-35a6-482e-9138-00cff30508a9">IPersist</a> interface. This interface is an indirect base class for CSample, inherited through <a href="https://msdn.microsoft.com/d37d4ca5-93a0-4090-b657-9b23d5df875c">IPersistFolder</a>. </div>
 <div> </div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 class CSample : public IPersistFolder
 {
   public:
@@ -158,10 +162,10 @@ HRESULT CSample::QueryInterface(REFIID riid, void **ppv)
         { 0 },
     };
 
-    return QISearch(this, rgqit, IID_PPV_ARGS(&ppv));
-}
-```
-
-
+    return QISearch(this, rgqit, IID_PPV_ARGS(&amp;ppv));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onquerycommandcomplete.htm
 tech.root: mbn
 ms.assetid: 6A04FA3F-D5E4-4E02-A334-218A168762AB
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnQueryCommandComplete method, IMbnDeviceServicesEvents.OnQueryCommandComplete, IMbnDeviceServicesEvents::OnQueryCommandComplete, OnQueryCommandComplete, OnQueryCommandComplete method [Microsoft Broadband Networks], OnQueryCommandComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onquerycommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnQueryCommandComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Notification method indicating that a device service <b>QUERY</b> request has co
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the operation was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the operation was requested.
 
 
 ### -param responseID [in]

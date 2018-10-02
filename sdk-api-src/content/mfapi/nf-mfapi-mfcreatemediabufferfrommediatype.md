@@ -4,10 +4,10 @@ title: MFCreateMediaBufferFromMediaType function
 author: windows-sdk-content
 description: Allocates a system-memory buffer that is optimal for a specified media type.
 old-location: mf\mfcreatemediabufferfrommediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1EBDB616-6FA9-4E4E-9BC6-CA1E382A08D9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateMediaBufferFromMediaType, MFCreateMediaBufferFromMediaType function [Media Foundation], mf.mfcreatemediabufferfrommediatype, mfapi/MFCreateMediaBufferFromMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

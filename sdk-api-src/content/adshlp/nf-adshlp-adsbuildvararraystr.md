@@ -7,7 +7,7 @@ old-location: adsi\adsbuildvararraystr.htm
 tech.root: ADSI
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,9 +103,13 @@ To support Automation, use the <b>ADsBuildVarArrayStr</b> function to convert Un
 
 The following code example shows how to use the <b>ADsBuildVarArrayStr</b> function to convert object class names from Unicode strings to a variant array of strings.
 
-
-```cpp
-HRESULT EnumObject(LPWSTR pszADsPath,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumObject(LPWSTR pszADsPath,
                    LPWSTR * lppClsNames,
                    DWORD dwClsNames)
 {
@@ -120,45 +124,45 @@ HRESULT EnumObject(LPWSTR pszADsPath,
  
     hr = ADsGetObject(pszADsPath,
                      IID_IADsContainer,
-                     (void**)&pADsContainer);
+                     (void**)&amp;pADsContainer);
     if (FAILED(hr)) goto cleanup;
  
     // Create a string array of class names as search filters.
-    VariantInit(&varFilter);
-    hr = ADsBuildVarArrayStr(lppClsNames, dwClsNames, &varFilter);
+    VariantInit(&amp;varFilter);
+    hr = ADsBuildVarArrayStr(lppClsNames, dwClsNames, &amp;varFilter);
     if (FAILED(hr)) goto cleanup;
  
     // Apply filters to objects in the container.
-    hr = pADsContainer->put_Filter(varFilter);
+    hr = pADsContainer-&gt;put_Filter(varFilter);
     if(FAILED(hr)) goto cleanup;
  
     // Create an enumerator.
-    hr = ADsBuildEnumerator(pADsContainer, &pEnumVar);
+    hr = ADsBuildEnumerator(pADsContainer, &amp;pEnumVar);
     if(FAILED(hr)) goto cleanup;
  
     // Enumerate the objects and print the names.
     while(fContinue) {
         IADs* pObject;
         hr = ADsEnumerateNext(pEnumVar, MAX_ADS_ENUM,
-                            varArray, &ulFetched);
+                            varArray, &amp;ulFetched);
         if(hr == S_FALSE) fContinue = FALSE;
         dwEEnumCount++;
  
-        for (i=0; i<ulFetched; i++) {
+        for (i=0; i&lt;ulFetched; i++) {
             IDispatch *pDispatch = NULL;
             pDispatch = varArray[I].pDispVal;
-            hr = pDispatch->QueryInterface(IID_IADs,
-                                        (void**) &pObject);
+            hr = pDispatch-&gt;QueryInterface(IID_IADs,
+                                        (void**) &amp;pObject);
             if (FAILED(hr)) goto cleanup;
  
-            hr = pObject->get_Name(&bstrName);
+            hr = pObject-&gt;get_Name(&amp;bstrName);
             if(FAILED(hr)) goto cleanup;
             printf(" Object name: %S\n",bstrName);
  
             // Release the ADSI object.
             SysFreeString(bstrname);
-            pObject->Release();
-            pDispatch->Release();
+            pObject-&gt;Release();
+            pDispatch-&gt;Release();
         }
         memset(varArray, 0, sizeof(VARIANT)*MAX_ADS_ENUM);
         dwObjects += ulFetched;
@@ -168,13 +172,13 @@ HRESULT EnumObject(LPWSTR pszADsPath,
 cleanup:
     if(bstrName) SysFreeString(bstrName);
     if(pEnumvar) ADsFreeEnumerator(pEnumVar);
-    if(pADsContainer) pADsContainer->Release();
+    if(pADsContainer) pADsContainer-&gt;Release();
  
     return (hr);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

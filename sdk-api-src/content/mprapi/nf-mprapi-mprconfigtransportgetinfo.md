@@ -4,10 +4,10 @@ title: MprConfigTransportGetInfo function
 author: windows-sdk-content
 description: The MprConfigTransportGetInfo function retrieves the configuration for the specified transport protocol from the router.
 old-location: rras\mprconfigtransportgetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 84054313-f923-47d6-8019-c68a042d2d73
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: MprConfigTransportGetInfo, MprConfigTransportGetInfo function [RAS], _mpr_mprconfigtransportgetinfo, mprapi/MprConfigTransportGetInfo, rras.mprconfigtransportgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -196,7 +196,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ If the <i>pGlobalInfo</i>, <i>pClientInterfaceInfo</i>, and <i>lpwsDLLPath</i> p
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

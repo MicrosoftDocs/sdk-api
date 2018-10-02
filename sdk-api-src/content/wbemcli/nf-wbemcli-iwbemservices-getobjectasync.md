@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_getobjectasync.htm
 tech.root: WmiSdk
 ms.assetid: 6868a14d-3776-43a0-b241-b40d42a97afc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: GetObjectAsync, GetObjectAsync method [Windows Management Instrumentation], GetObjectAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],GetObjectAsync method, IWbemServices.GetObjectAsync, IWbemServices::GetObjectAsync, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_getobjectasync, wbemcli/IWbemServices::GetObjectAsync, wmi.iwbemservices_getobjectasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,9 +170,13 @@ For more information about using methods semisynchronously, see <a href="https:/
 The following example describes how to implement 
 <b>GetObjectAsync</b> for an instance provider.
 
-
-```cpp
-SCODE CInstPro::GetObjectAsync (BSTR ObjectPath, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SCODE CInstPro::GetObjectAsync (BSTR ObjectPath, 
                                 long lFlags, IWbemContext *pCtx,
                                 IWbemObjectSink FAR* pHandler)
 {
@@ -198,11 +202,11 @@ SCODE CInstPro::GetObjectAsync (BSTR ObjectPath,
     // The IWbemPath interface can be used to parse
     // the object path, separating the namespace and class name.
 
-    sc = GetByPath (ObjectPath, &pObj, pCtx);
+    sc = GetByPath (ObjectPath, &amp;pObj, pCtx);
     if(sc == S_OK) 
     {
-        pHandler->Indicate (1, &pObj);
-        pObj->Release();
+        pHandler-&gt;Indicate (1, &amp;pObj);
+        pObj-&gt;Release();
         bOK = TRUE;
     }
 
@@ -210,26 +214,30 @@ SCODE CInstPro::GetObjectAsync (BSTR ObjectPath,
 
     // Set status.
 
-    pHandler->SetStatus(0,sc, NULL, NULL);
+    pHandler-&gt;SetStatus(0,sc, NULL, NULL);
 
     // Free memory resources.
 
     SysFreeString(ObjectPath);
-    m_pNamespace->Release();
-    pObj->Release();
+    m_pNamespace-&gt;Release();
+    pObj-&gt;Release();
 
     return sc;
   
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how a typical class provider  implements 
 <b>GetObjectAsync</b>.
 
-
-```cpp
-HRESULT CStdProvider::GetObjectAsync( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CStdProvider::GetObjectAsync( 
             /* [in] */ BSTR strObjectPath,
             /* [in] */ long lFlags,
             /* [in] */ IWbemContext __RPC_FAR *pCtx,
@@ -243,32 +251,32 @@ HRESULT CStdProvider::GetObjectAsync(
 // Retrieve an 'empty' object which is built up
 // into the class definition.
 
-    HRESULT hRes = m_pSvc->GetObject(NULL, 0, NULL, &pClass, 0);
+    HRESULT hRes = m_pSvc-&gt;GetObject(NULL, 0, NULL, &amp;pClass, 0);
     if (hRes)
         return hRes;
 
 // Parse the object path and determine which class is   
 // required. The path string is the required class name.
 // Fill in the properties required for the class definition
-// using pClass->Put(...), and so on.
+// using pClass-&gt;Put(...), and so on.
 
     
     // ...
 
     // Send the class definition back to WMI.
-    pResponseHandler->Indicate(1, &pClass);
+    pResponseHandler-&gt;Indicate(1, &amp;pClass);
 
 // Indicate that it is now finished.
 
-    pResponseHandler->SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
+    pResponseHandler-&gt;SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
     SysFreeString(strObjectPath);
-    m_pSvc->Relaase();
-    pClass->Release();  // This is no longer needed.
+    m_pSvc-&gt;Relaase();
+    pClass-&gt;Release();  // This is no longer needed.
     return WBEM_S_NO_ERROR;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

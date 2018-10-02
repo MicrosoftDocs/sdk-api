@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager_registerhittesttarge
 tech.root: directmanipulation
 ms.assetid: ba71a959-b9b9-4466-9239-f3c486f5e7b3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],RegisterHitTestTarget method, IDirectManipulationManager.RegisterHitTestTarget, IDirectManipulationManager::RegisterHitTestTarget, RegisterHitTestTarget, RegisterHitTestTarget method [Direct Manipulation], RegisterHitTestTarget method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_registerhittesttarget, directmanipulation/IDirectManipulationManager::RegisterHitTestTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfpreservedkeynotifysink_onupdated.htm
 tech.root: TSF
 ms.assetid: 50654da7-60ee-4038-a02a-1055445f1e5d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: ITfPreservedKeyNotifySink interface [Text Services Framework],OnUpdated method, ITfPreservedKeyNotifySink.OnUpdated, ITfPreservedKeyNotifySink::OnUpdated, OnUpdated, OnUpdated method [Text Services Framework], OnUpdated method [Text Services Framework],ITfPreservedKeyNotifySink interface, _tsf_itfpreservedkeynotifysink_onupdated_ref, msctf/ITfPreservedKeyNotifySink::OnUpdated, tsf.itfpreservedkeynotifysink_onupdated
 ms.prod: windows-hardware
 ms.technology: windows-devices

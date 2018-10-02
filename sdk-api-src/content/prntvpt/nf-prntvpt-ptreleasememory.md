@@ -7,7 +7,7 @@ old-location: gdi\ptreleasememory.htm
 tech.root: printdocs
 ms.assetid: d568b3a9-7f13-4e4e-8bbc-f4ab0009fe83
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/27/2018
 ms.keywords: PTReleaseMemory, PTReleaseMemory function [Windows GDI], _win32_PTReleaseMemory, gdi.ptreleasememory, prntvpt/PTReleaseMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ A pointer to a buffer allocated during a call to a print ticket API.
 
 If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b> contains an error code.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 
 

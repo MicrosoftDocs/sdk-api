@@ -4,10 +4,10 @@ title: IWdsTransportServer2
 author: windows-sdk-content
 description: This interface inherits from the IWdsTransportServer interface and extends it. It is available beginning with Windows Server 2012.
 old-location: wds\iwdstransportserver2.htm
-tech.root: wds
+tech.root: Wds
 ms.assetid: 27BB5319-74F0-480A-9600-8940491FB7E0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportServer2, IWdsTransportServer2 interface [Windows Deployment Services], IWdsTransportServer2 interface [Windows Deployment Services],described, wds.iwdstransportserver2, wdstptmgmt/IWdsTransportServer2
 ms.prod: windows
 ms.technology: windows-sdk

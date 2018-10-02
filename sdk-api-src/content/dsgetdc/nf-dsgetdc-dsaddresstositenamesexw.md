@@ -4,10 +4,10 @@ title: DsAddressToSiteNamesExW function
 author: windows-sdk-content
 description: Obtains the site and subnet names corresponding to the addresses specified.
 old-location: ad\dsaddresstositenamesex.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 60ac6195-6e43-46da-a1e6-74ec989cd0c4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsAddressToSiteNamesEx, DsAddressToSiteNamesEx function [Active Directory], DsAddressToSiteNamesExA, DsAddressToSiteNamesExW, ad.dsaddresstositenamesex, dsgetdc/DsAddressToSiteNamesEx, dsgetdc/DsAddressToSiteNamesExA, dsgetdc/DsAddressToSiteNamesExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

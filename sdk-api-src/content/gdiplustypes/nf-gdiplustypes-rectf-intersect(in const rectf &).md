@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Intersect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfintersectmethods\intersect_18rect.htm
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/26/2018
 ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],RectF class, RectF class [GDI+],Intersect method, RectF.Intersect, RectF.Intersect(IN const RectF &), RectF.Intersect(const RectF&), RectF::Intersect, RectF::Intersect(IN const RectF &), _gdiplus_CLASS_RectF_Intersect_rect_, gdiplus._gdiplus_CLASS_RectF_Intersect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

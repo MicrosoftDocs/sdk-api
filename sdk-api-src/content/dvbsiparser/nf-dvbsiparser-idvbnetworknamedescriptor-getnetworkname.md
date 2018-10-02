@@ -7,7 +7,7 @@ old-location: mstv\idvbnetworknamedescriptor_getnetworkname.htm
 tech.root: MSTV
 ms.assetid: 261a6c65-65a5-43ed-aaed-12968b996c5a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetNetworkName, GetNetworkName method [Microsoft TV Technologies], GetNetworkName method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetNetworkName method, IDvbNetworkNameDescriptor.GetNetworkName, IDvbNetworkNameDescriptor::GetNetworkName, dvbsiparser/IDvbNetworkNameDescriptor::GetNetworkName, mstv.idvbnetworknamedescriptor_getnetworkname
 ms.prod: windows-hardware
 ms.technology: windows-devices

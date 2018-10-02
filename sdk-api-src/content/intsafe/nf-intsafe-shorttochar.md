@@ -4,10 +4,10 @@ title: ShortToChar function
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of CHAR.
 old-location: shell\ShortToChar.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5037b473-d8d3-41f0-80f2-4633ae6a8321
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: ShortToChar, ShortToChar function [Windows Shell], _shell_ShortToChar, intsafe/ShortToChar, shell.ShortToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

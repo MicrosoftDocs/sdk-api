@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_setinputmode.htm
 tech.root: directmanipulation
 ms.assetid: 2be1c8a1-a729-4851-b103-b108b9a96e2d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetInputMode method, IDirectManipulationViewport.SetInputMode, IDirectManipulationViewport::SetInputMode, SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,12 +94,16 @@ Calling this method with <a href="https://msdn.microsoft.com/92839109-91d5-45fc-
 
 The following example shows how to use this method.
 
-
-```
-HRESULT hr = pViewport->SetInputMode(DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pViewport-&gt;SetInputMode(DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

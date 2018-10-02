@@ -7,7 +7,7 @@ old-location: fs\getntmsobjectinformation.htm
 tech.root: Rsm
 ms.assetid: e5c1b165-2c55-40c3-94d8-c996c5db4250
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -267,7 +267,7 @@ The following is the list of objects that require special access rights.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
 
 
 

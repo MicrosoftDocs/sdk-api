@@ -4,10 +4,10 @@ title: PeerGroupPasswordJoin function
 author: windows-sdk-content
 description: Prepares a peer with an invitation and the correct password to join a password-protected peer group prior to calling PeerGroupConnect or PeerGroupConnectByAddress.
 old-location: p2p\peergrouppasswordjoin.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: aff8a462-a4cf-462b-a641-b1573311037b
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGroupPasswordJoin, PeerGroupPasswordJoin function [Peer Networking], p2p.peergrouppasswordjoin, p2p/PeerGroupPasswordJoin
 ms.prod: windows-hardware
 ms.technology: windows-devices

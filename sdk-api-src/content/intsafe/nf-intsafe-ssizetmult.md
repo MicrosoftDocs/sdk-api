@@ -4,10 +4,10 @@ title: SSIZETMult function
 author: windows-sdk-content
 description: Multiplies one SSIZE_T value by another.
 old-location: shell\SSIZETMult.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9b698951-dd9d-427c-9f95-63392ef0f0d4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/27/2018
 ms.keywords: SSIZETMult, SSIZETMult function [Windows Shell], intsafe/SSIZETMult, shell.SSIZETMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

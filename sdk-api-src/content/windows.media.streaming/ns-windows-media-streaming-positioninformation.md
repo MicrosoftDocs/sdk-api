@@ -7,7 +7,7 @@ old-location: mediastreaming\positioninformation.htm
 tech.root: mediastreaming
 ms.assetid: 9601c1ae-3fd2-4761-8aa7-102b72ef4733
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: PositionInformation, PositionInformation structure [Media Streaming API], mediastreaming.positioninformation, windows/PositionInformation
 ms.prod: windows
 ms.technology: windows-sdk

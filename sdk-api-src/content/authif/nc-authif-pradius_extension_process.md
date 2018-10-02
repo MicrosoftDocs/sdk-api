@@ -7,7 +7,7 @@ old-location: nps\IAS_radiusextensionprocess.htm
 tech.root: Nps
 ms.assetid: 75af0d43-f866-4769-8221-45e47c588bb0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS, PRADIUS_EXTENSION_PROCESS callback, PRADIUS_EXTENSION_PROCESS callback function [Network Policy Server], RadiusExtensionProcess, _ias_radiusextensionprocess, authif/PRADIUS_EXTENSION_PROCESS, ias.radiusextensionprocess, nps.IAS_radiusextensionprocess
 ms.prod: windows
 ms.technology: windows-sdk

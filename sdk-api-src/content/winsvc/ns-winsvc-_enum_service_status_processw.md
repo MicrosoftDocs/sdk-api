@@ -7,7 +7,7 @@ old-location: base\enum_service_status_process_str.htm
 tech.root: Services
 ms.assetid: 6a683cc8-c2ac-4093-aed7-33e6bdd02d79
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPENUM_SERVICE_STATUS_PROCESSW, ENUM_SERVICE_STATUS_PROCESS, ENUM_SERVICE_STATUS_PROCESS structure, ENUM_SERVICE_STATUS_PROCESSA, ENUM_SERVICE_STATUS_PROCESSW, LPENUM_SERVICE_STATUS_PROCESS, LPENUM_SERVICE_STATUS_PROCESS structure pointer, _ENUM_SERVICE_STATUS_PROCESSW, _win32_enum_service_status_process_str, base.enum_service_status_process_str, winsvc/ENUM_SERVICE_STATUS_PROCESS, winsvc/ENUM_SERVICE_STATUS_PROCESSA, winsvc/ENUM_SERVICE_STATUS_PROCESSW, winsvc/LPENUM_SERVICE_STATUS_PROCESS"
 ms.prod: windows
 ms.technology: windows-sdk

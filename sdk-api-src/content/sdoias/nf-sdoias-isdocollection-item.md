@@ -7,7 +7,7 @@ old-location: nps\SDO_isdocollection_item.htm
 tech.root: Nps
 ms.assetid: 1c830e23-dc6f-49dd-83fe-8ddd39ac1bf6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Item method, ISdoCollection.Item, ISdoCollection::Item, Item, Item method [Network Policy Server], Item method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_item, nps.SDO_isdocollection_item, sdo.isdocollection_item, sdoias/ISdoCollection::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,14 @@ The
 ### -param Name [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>. Store the name of the object in a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> in this <b>VARIANT</b>.
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>. Store the name of the object in a 
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> in this <b>VARIANT</b>.
 
 
 ### -param pItem [out]
 
 Pointer to an interface pointer that receives the address of an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the object.
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface for the object.
 
 
 ## -returns
@@ -99,7 +99,7 @@ Neither of the parameters can be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
 
 
 
@@ -115,7 +115,7 @@ Neither of the parameters can be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>
  
 
  

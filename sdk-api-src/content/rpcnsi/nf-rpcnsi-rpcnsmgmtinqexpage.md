@@ -4,10 +4,10 @@ title: RpcNsMgmtInqExpAge function
 author: windows-sdk-content
 description: The RpcNsMgmtInqExpAge function returns the global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtinqexpage.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: b9e27fba-c4ee-4a0e-ab95-af4c975e9123
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: RpcNsMgmtInqExpAge, RpcNsMgmtInqExpAge function [RPC], _rpc_rpcnsmgmtinqexpage, rpc.rpcnsmgmtinqexpage, rpcnsi/RpcNsMgmtInqExpAge
 ms.prod: windows-hardware
 ms.technology: windows-devices

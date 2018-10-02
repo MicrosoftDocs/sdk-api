@@ -7,7 +7,7 @@ old-location: nps\SDO_iascommonproperties.htm
 tech.root: Nps
 ms.assetid: 9c7ee4d7-987f-45ae-810f-fc310955f36d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IASCOMMONPROPERTIES, IASCOMMONPROPERTIES enumeration [Network Policy Server], PROPERTY_SDO_CLASS, PROPERTY_SDO_DATASTORE_NAME, PROPERTY_SDO_DESCRIPTION, PROPERTY_SDO_ID, PROPERTY_SDO_NAME, PROPERTY_SDO_RESERVED, PROPERTY_SDO_START, _IASCOMMONPROPERTIES, _sdo_iascommonproperties, nps.SDO_iascommonproperties, sdo.iascommonproperties, sdoias/IASCOMMONPROPERTIES, sdoias/PROPERTY_SDO_CLASS, sdoias/PROPERTY_SDO_DATASTORE_NAME, sdoias/PROPERTY_SDO_DESCRIPTION, sdoias/PROPERTY_SDO_ID, sdoias/PROPERTY_SDO_NAME, sdoias/PROPERTY_SDO_RESERVED, sdoias/PROPERTY_SDO_START
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,15 +107,19 @@ Indicates the start of <a href="https://msdn.microsoft.com/ce16b0e4-3be1-42fc-a4
 The following code snippet retrieves the name of the SDO object, if it exists. The variable pSdo is a pointer to an 
 <a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a> interface.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 _variant_t vtItemName;
-hr = pSdo->GetProperty(PROPERTY_SDO_NAME, &vtItemName);
-
-```
-
-
+hr = pSdo-&gt;GetProperty(PROPERTY_SDO_NAME, &amp;vtItemName);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

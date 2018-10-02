@@ -7,7 +7,7 @@ old-location: directcomp\dcomposition_composite_mode.htm
 tech.root: directcomp
 ms.assetid: D89379F5-57F8-4838-8E8F-FF261D69DE59
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DCOMPOSITION_COMPOSITE_MODE, DCOMPOSITION_COMPOSITE_MODE enumeration [DirectComposition], DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT, DCOMPOSITION_COMPOSITE_MODE_INHERIT, DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND, DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER, dcomptypes/DCOMPOSITION_COMPOSITE_MODE, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_INHERIT, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER, directcomp.dcomposition_composite_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Bitmaps are blended according to the mode established by the parent visual.
 
 A single visual can have any combination of visual properties. However, if a 
 visual has the following combination of properties, the borders of the visual will default 
-to <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCOMPOSITION_BORDER_MODE_HARD</a>.
+to <a href="dcomposition_border_mode.htm">DCOMPOSITION_BORDER_MODE_HARD</a>.
 
 
 
@@ -97,7 +97,7 @@ to <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCO
 </code></li>
 <li><code>SetBitmapInterpolationMode(DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR)</code></li>
 </ul>
-If you want a visual to be drawn with antialiasing, use <a href="https://msdn.microsoft.com/en-us/library/Hh437364(v=VS.85).aspx">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</a> for the content of the visual, and <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCOMPOSITION_BORDER_MODE_SOFT</a> for the edges.
+If you want a visual to be drawn with antialiasing, use <a href="dcomposition_bitmap_interpolation_mode.htm">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</a> for the content of the visual, and <a href="dcomposition_border_mode.htm">DCOMPOSITION_BORDER_MODE_SOFT</a> for the edges.
 
 
 

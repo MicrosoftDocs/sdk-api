@@ -7,7 +7,7 @@ old-location: rm\drmclosepubhandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: a263a1a8-01b8-4ca6-aefb-f4374459c0c0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DRMClosePubHandle, DRMClosePubHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClosePubHandle, rm.drmclosepubhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

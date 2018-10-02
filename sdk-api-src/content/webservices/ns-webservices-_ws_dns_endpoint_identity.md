@@ -7,7 +7,7 @@ old-location: wsw\ws_dns_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 09dea451-68ae-4052-8563-30f15c1335d6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/26/2018
 ms.keywords: WS_DNS_ENDPOINT_IDENTITY, WS_DNS_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_DNS_ENDPOINT_IDENTITY, webservices/WS_DNS_ENDPOINT_IDENTITY, wsw.ws_dns_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk

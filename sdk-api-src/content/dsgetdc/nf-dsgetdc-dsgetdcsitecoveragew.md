@@ -4,10 +4,10 @@ title: DsGetDcSiteCoverageW function
 author: windows-sdk-content
 description: The DsGetDcSiteCoverage function returns the site names of all sites covered by a domain controller.
 old-location: ad\dsgetdcsitecoverage.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: e0f757d9-36b6-40f8-a1db-fb5b9862b46a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/26/2018
 ms.keywords: DsGetDcSiteCoverage, DsGetDcSiteCoverage function [Active Directory], DsGetDcSiteCoverageA, DsGetDcSiteCoverageW, _glines_dsgetdcsitecoverage, ad.dsgetdcsitecoverage, dsgetdc/DsGetDcSiteCoverage, dsgetdc/DsGetDcSiteCoverageA, dsgetdc/DsGetDcSiteCoverageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

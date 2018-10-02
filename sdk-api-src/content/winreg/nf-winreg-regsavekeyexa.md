@@ -7,7 +7,7 @@ old-location: base\regsavekeyex.htm
 tech.root: SysInfo
 ms.assetid: f93b4162-cac4-42f7-bfd4-9e23fff80a03
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: REG_LATEST_FORMAT, REG_NO_COMPRESSION, REG_STANDARD_FORMAT, RegSaveKeyEx, RegSaveKeyEx function, RegSaveKeyExA, RegSaveKeyExW, _win32_regsavekeyex, base.regsavekeyex, winreg/RegSaveKeyEx, winreg/RegSaveKeyExA, winreg/RegSaveKeyExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

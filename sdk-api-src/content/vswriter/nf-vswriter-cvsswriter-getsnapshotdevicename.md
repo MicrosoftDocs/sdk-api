@@ -7,7 +7,7 @@ old-location: base\cvsswriter_getsnapshotdevicename.htm
 tech.root: VSS
 ms.assetid: ac0beefe-0afd-45da-b1bb-1bd960b4b0f0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriter interface [VSS],GetSnapshotDeviceName method, CVssWriter.GetSnapshotDeviceName, CVssWriter::GetSnapshotDeviceName, GetSnapshotDeviceName, GetSnapshotDeviceName method [VSS], GetSnapshotDeviceName method [VSS],CVssWriter interface, _win32_cvsswriter_getsnapshotdevicename, base.cvsswriter_getsnapshotdevicename, vswriter/CVssWriter::GetSnapshotDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 
 The <b>GetSnapshotDeviceName</b> method 
    returns the name of the device that hosts the shadow copy of the specified volume or file share. This method allows writers to support 
-   <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> shadow copies, and 
+   <a href="vssgloss_a.htm">auto-recover</a> shadow copies, and 
    can only be called during the processing of the 
    <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">OnPostSnapshot</a> method.
 
@@ -124,7 +124,7 @@ One of the parameter values is not valid.
 </td>
 <td width="60%">
 The call was not made during the 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot event</a>.
+        <a href="vssgloss_p.htm">PostSnapshot event</a>.
 
 </td>
 </tr>

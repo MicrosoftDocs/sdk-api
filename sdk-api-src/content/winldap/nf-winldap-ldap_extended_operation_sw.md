@@ -7,7 +7,7 @@ old-location: ldap\ldap_extended_operation_s.htm
 tech.root: LDAP
 ms.assetid: a9e354f3-b6b3-4c41-93d7-497354c87237
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ldap.ldap_extended_operation_s, ldap_extended_operation_s, ldap_extended_operation_s function [LDAP], ldap_extended_operation_sA, ldap_extended_operation_sW, winldap/ldap_extended_operation_s, winldap/ldap_extended_operation_sA, winldap/ldap_extended_operation_sW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,15 +116,19 @@ The <b>ldap_extended_operation_s</b> function enables a client to send an extend
 As a synchronous function, <b>ldap_extended_operation_s</b> returns any response data in the <i>ReturnedOid</i> and <i>ReturnedData</i> fields. When no longer required, free the <i>ReturnedOid</i> string and the <i>ReturnedData</i> buffer by calling 
 <a href="https://msdn.microsoft.com/3256a202-4245-4bea-a66c-0f28bfe2ef7e">ldap_memfree</a>.  Because <i>ReturnedData</i> is not a <b>PCHAR</b> data type, it must be explicitly cast when used as an argument of <b>ldap_memfree</b>, such as:
 
-
-```cpp
-struct berval *pBV;
-ldap_extended_operation_s(......., &pBV);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>struct berval *pBV;
+ldap_extended_operation_s(......., &amp;pBV);
 ... 
-ldap_memfree( (PCHAR) pBV);
-```
-
-
+ldap_memfree( (PCHAR) pBV);</pre>
+</td>
+</tr>
+</table></span></div>
 Multithreading: The <b>ldap_extended_operation_s</b> function is thread-safe.
 
 

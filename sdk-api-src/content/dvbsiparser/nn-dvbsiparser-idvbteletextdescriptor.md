@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor.htm
 tech.root: MSTV
 ms.assetid: 5148a87b-e6b6-4bda-871c-10a2f398ebcc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], IDvbTeletextDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbTeletextDescriptor, mstv.idvbteletextdescriptor
 ms.prod: windows
 ms.technology: windows-sdk
