@@ -7,7 +7,7 @@ old-location: vhd\compact_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: e0efa6e3-e691-4854-a09e-9504a37621a2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: COMPACT_VIRTUAL_DISK_FLAG, COMPACT_VIRTUAL_DISK_FLAG enumeration [VHD], COMPACT_VIRTUAL_DISK_FLAG_NONE, _COMPACT_VIRTUAL_DISK_FLAG, vdssys/COMPACT_VIRTUAL_DISK_FLAG, vdssys/COMPACT_VIRTUAL_DISK_FLAG_NONE, vhd.compact_virtual_disk_flag, virtdisk/COMPACT_VIRTUAL_DISK_FLAG, virtdisk/COMPACT_VIRTUAL_DISK_FLAG_NONE
 ms.prod: windows
 ms.technology: windows-sdk

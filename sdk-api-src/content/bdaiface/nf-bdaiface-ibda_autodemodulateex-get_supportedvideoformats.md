@@ -4,10 +4,10 @@ title: IBDA_AutoDemodulateEx::get_SupportedVideoFormats
 author: windows-sdk-content
 description: The get_SupportedVideoFormats method retrieves the video formats that are supported by the demodulator.
 old-location: mstv\ibda_autodemodulateex_get_supportedvideoformats.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: bba4a57c-7e07-45ca-84d0-921caf39f345
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],get_SupportedVideoFormats method, IBDA_AutoDemodulateEx.get_SupportedVideoFormats, IBDA_AutoDemodulateEx::get_SupportedVideoFormats, IBDA_AutoDemodulateExget_SupportedVideoFormats, bdaiface/IBDA_AutoDemodulateEx::get_SupportedVideoFormats, get_SupportedVideoFormats, get_SupportedVideoFormats method [Microsoft TV Technologies], get_SupportedVideoFormats method [Microsoft TV Technologies],IBDA_AutoDemodulateEx interface, mstv.ibda_autodemodulateex_get_supportedvideoformats
 ms.prod: windows-hardware
 ms.technology: windows-devices

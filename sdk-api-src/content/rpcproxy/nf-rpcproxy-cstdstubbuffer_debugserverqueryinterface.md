@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_debugserverqueryinterface.htm
 tech.root: Rpc
 ms.assetid: 25c7f71a-7d47-4ea1-9bd0-001a1a01529d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CStdStubBuffer_DebugServerQueryInterface, CStdStubBuffer_DebugServerQueryInterface function [RPC], rpc.cstdstubbuffer_debugserverqueryinterface, rpcproxy/CStdStubBuffer_DebugServerQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

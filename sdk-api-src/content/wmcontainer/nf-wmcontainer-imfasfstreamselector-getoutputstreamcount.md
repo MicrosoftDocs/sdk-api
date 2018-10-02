@@ -4,10 +4,10 @@ title: IMFASFStreamSelector::GetOutputStreamCount
 author: windows-sdk-content
 description: Retrieves the number of streams associated with an output.
 old-location: mf\imfasfstreamselector_getoutputstreamcount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 928e958b-55dc-4939-8ac3-282389f0077a
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 928e958b-55dc-4939-8ac3-282389f0077a, GetOutputStreamCount, GetOutputStreamCount method [Media Foundation], GetOutputStreamCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputStreamCount method, IMFASFStreamSelector.GetOutputStreamCount, IMFASFStreamSelector::GetOutputStreamCount, mf.imfasfstreamselector_getoutputstreamcount, wmcontainer/IMFASFStreamSelector::GetOutputStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

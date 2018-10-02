@@ -4,10 +4,10 @@ title: MFP_GET_ERROR_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_ERROR_EVENT pointer.
 old-location: mf\mfp_get_error_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: a8a86e1d-f009-4352-a388-822c2577ebe3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_GET_ERROR_EVENT, MFP_GET_ERROR_EVENT macro [Media Foundation], mf.mfp_get_error_event, mfplay/MFP_GET_ERROR_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

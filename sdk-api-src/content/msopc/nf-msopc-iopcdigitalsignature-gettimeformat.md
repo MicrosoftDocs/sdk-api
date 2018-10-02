@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature_gettimeformat.htm
 tech.root: OPC
 ms.assetid: df142c4d-27dc-4db3-9a37-78c5703c8119
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetTimeFormat method, IOpcDigitalSignature.GetTimeFormat, IOpcDigitalSignature::GetTimeFormat, msopc/IOpcDigitalSignature::GetTimeFormat, opc.iopcdigitalsignature_gettimeformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

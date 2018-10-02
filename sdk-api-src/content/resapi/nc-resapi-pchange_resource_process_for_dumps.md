@@ -4,10 +4,10 @@ title: PCHANGE_RESOURCE_PROCESS_FOR_DUMPS
 author: windows-sdk-content
 description: The PCHANGE_RESOURCE_PROCESS_FOR_DUMPS type defines a pointer to this function.
 old-location: mscs\changeresourceprocessfordumps.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: A404752F-4758-4133-8AD3-3137A4CA77D5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ChangeResourceProcessForDumps, ChangeResourceProcessForDumps callback, ChangeResourceProcessForDumps callback function [Failover Cluster], PCHANGE_RESOURCE_PROCESS_FOR_DUMPS, PCHANGE_RESOURCE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changeresourceprocessfordumps, resapi/ChangeResourceProcessForDumps, resapi/PCHANGE_RESOURCE_PROCESS_FOR_DUMPS
 ms.prod: windows
 ms.technology: windows-sdk

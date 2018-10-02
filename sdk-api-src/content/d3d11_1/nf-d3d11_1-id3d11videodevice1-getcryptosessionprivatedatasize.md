@@ -4,10 +4,10 @@ title: ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize
 author: windows-sdk-content
 description: Retrieves optional sizes for private driver data.
 old-location: mf\id3d11videodevice1_getcryptosessionprivatedatasize.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3F973DA0-F722-4EC2-A578-F01B6999F16B
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetCryptoSessionPrivateDataSize, GetCryptoSessionPrivateDataSize method [Media Foundation], GetCryptoSessionPrivateDataSize method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],GetCryptoSessionPrivateDataSize method, ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize, ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize, d3d11_1/ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize, mf.id3d11videodevice1_getcryptosessionprivatedatasize
 ms.prod: windows-hardware
 ms.technology: windows-devices

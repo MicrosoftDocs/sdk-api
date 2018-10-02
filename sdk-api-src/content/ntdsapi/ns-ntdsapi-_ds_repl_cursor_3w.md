@@ -4,10 +4,10 @@ title: "_DS_REPL_CURSOR_3W"
 author: windows-sdk-content
 description: The DS_REPL_CURSOR_3 structure contains inbound replication state data with respect to all replicas of a given naming context, as returned by the DsReplicaGetInfo2 function.
 old-location: ad\ds_repl_cursor_3.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 0361a3e1-814c-4ef2-b574-2870a9289e52
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPL_CURSOR_3, DS_REPL_CURSOR_3 structure [Active Directory], DS_REPL_CURSOR_3W, _DS_REPL_CURSOR_3W, ad.ds_repl_cursor_3, ntdsapi/DS_REPL_CURSOR_3
 ms.prod: windows
 ms.technology: windows-sdk

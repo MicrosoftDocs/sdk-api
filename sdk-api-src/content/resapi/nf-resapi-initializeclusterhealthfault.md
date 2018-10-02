@@ -4,10 +4,10 @@ title: InitializeClusterHealthFault function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\initializeclusterhealthfault.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4631df2f-8fde-446c-9fbc-f7e88bc6d4e6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InitializeClusterHealthFault, InitializeClusterHealthFault function [Failover Cluster], mscs.initializeclusterhealthfault, resapi/InitializeClusterHealthFault
 ms.prod: windows-hardware
 ms.technology: windows-devices

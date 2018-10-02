@@ -4,10 +4,10 @@ title: "_TCPIP_OWNER_MODULE_BASIC_INFO"
 author: windows-sdk-content
 description: Contains pointers to the module name and module path values associated with a TCP connection. The TCPIP_OWNER_MODULE_BASIC_INFO structure is returned by the GetOwnerModuleFromTcpEntry and GetOwnerModuleFromTcp6Entry functions.
 old-location: iphlp\tcpip_owner_module_basic_info.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: cce3e0ff-31f2-454b-8aae-3b35f72f47ed
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO structure pointer [IP Helper], TCPIP_OWNER_MODULE_BASIC_INFO, TCPIP_OWNER_MODULE_BASIC_INFO structure [IP Helper], _TCPIP_OWNER_MODULE_BASIC_INFO, iphlp.tcpip_owner_module_basic_info, iphlpapi/PTCPIP_OWNER_MODULE_BASIC_INFO, iphlpapi/TCPIP_OWNER_MODULE_BASIC_INFO, iprtrmib/PTCPIP_OWNER_MODULE_BASIC_INFO, iprtrmib/TCPIP_OWNER_MODULE_BASIC_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

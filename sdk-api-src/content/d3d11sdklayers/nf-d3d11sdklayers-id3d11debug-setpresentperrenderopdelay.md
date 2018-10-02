@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11debug_setpresentperrenderopdelay.htm
 tech.root: direct3d11
 ms.assetid: 72489871-819a-4f75-a3ad-03f93f5c7761
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: 573cbcb7-dbec-80ce-3edb-e1d60b5c1261, ID3D11Debug interface [Direct3D 11],SetPresentPerRenderOpDelay method, ID3D11Debug.SetPresentPerRenderOpDelay, ID3D11Debug::SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay method [Direct3D 11], SetPresentPerRenderOpDelay method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetPresentPerRenderOpDelay, direct3d11.id3d11debug_setpresentperrenderopdelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

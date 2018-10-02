@@ -4,10 +4,10 @@ title: IMFMuxStreamAttributesManager::GetAttributes
 author: windows-sdk-content
 description: Gets the IMFAttributes for the substream with the specified index.
 old-location: mf\imfmuxstreamattributesmanager_getattributes.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1C00900F-BD8B-4AF7-82E0-37AC370A90E3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetAttributes method, IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

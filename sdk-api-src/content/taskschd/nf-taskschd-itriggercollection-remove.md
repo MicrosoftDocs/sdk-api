@@ -7,7 +7,7 @@ old-location: taskschd\itriggercollection_remove.htm
 tech.root: TaskSchd
 ms.assetid: af3e04e6-20ec-412b-a0d2-41d31137dfca
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],Remove method, ITriggerCollection.Remove, ITriggerCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITriggerCollection interface, taskschd.itriggercollection_remove, taskschd/ITriggerCollection::Remove, triggers [Task Scheduler],removing
 ms.prod: windows-hardware
 ms.technology: windows-devices

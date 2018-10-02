@@ -4,10 +4,10 @@ title: lineCreateAgentA function
 author: windows-sdk-content
 description: The lineCreateAgent function creates a new Agent object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENT.
 old-location: tapi2\linecreateagent.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 14b2e9c8-32ab-42c0-acfa-17a0f8a9b73f
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: "_tapi2_linecreateagent, lineCreateAgent, lineCreateAgent function [TAPI 2.2], lineCreateAgentA, lineCreateAgentW, tapi/lineCreateAgent, tapi/lineCreateAgentA, tapi/lineCreateAgentW, tapi2.linecreateagent"
 ms.prod: windows-hardware
 ms.technology: windows-devices

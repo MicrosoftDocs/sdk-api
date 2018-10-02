@@ -7,7 +7,7 @@ old-location: security\crypt_encrypted_private_key_info.htm
 tech.root: seccrypto
 ms.assetid: 5e80d6d1-2e38-4a2d-90df-e6e4000cd626
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure [Security], PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure pointer [Security], _CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, security.crypt_encrypted_private_key_info, wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, wincrypt/PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SetProcessInformation function
 author: windows-sdk-content
 description: Sets information for the specified process.
 old-location: base\setprocessinformation.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

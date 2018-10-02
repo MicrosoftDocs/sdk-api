@@ -7,7 +7,7 @@ old-location: fs\lsnrecordsequence.htm
 tech.root: Clfs
 ms.assetid: 90aa2df8-328d-404c-a145-ad500a6e611a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: LsnRecordSequence, LsnRecordSequence function [Files], clfsw32/LsnRecordSequence, fs.lsnrecordsequence
 ms.prod: windows-hardware
 ms.technology: windows-devices

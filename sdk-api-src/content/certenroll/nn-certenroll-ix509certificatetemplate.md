@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplate.htm
 tech.root: SecCertEnroll
 ms.assetid: 56122d92-7e38-4eaa-b2f5-713adc81e68e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Security], IX509CertificateTemplate interface [Security],described, certenroll/IX509CertificateTemplate, security.ix509certificatetemplate
 ms.prod: windows
 ms.technology: windows-sdk

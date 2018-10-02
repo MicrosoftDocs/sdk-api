@@ -4,10 +4,10 @@ title: EngPlgBlt function
 author: windows-sdk-content
 description: The EngPlgBlt function causes GDI to perform a rotate bit-block transfer.
 old-location: display\engplgblt.htm
-tech.root: display
+tech.root: Display
 ms.assetid: a25a0fcd-1a61-483a-ba22-1214a9806b70
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngPlgBlt, EngPlgBlt function [Display Devices], display.engplgblt, gdifncs_e7b5fc87-c1d3-4513-a101-742cd358ed85.xml, winddi/EngPlgBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices

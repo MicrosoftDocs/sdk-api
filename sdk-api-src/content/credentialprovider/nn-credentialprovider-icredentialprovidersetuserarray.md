@@ -4,10 +4,10 @@ title: ICredentialProviderSetUserArray
 author: windows-sdk-content
 description: Provides a method that enables a credential provider to receive the set of users that will be shown in the logon or credential UI.
 old-location: shell\ICredentialProviderSetUserArray.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 85422EF5-8A8E-4e14-BD32-953C31A9D401
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ICredentialProviderSetUserArray, ICredentialProviderSetUserArray interface [Windows Shell], ICredentialProviderSetUserArray interface [Windows Shell],described, credentialprovider/ICredentialProviderSetUserArray, shell.ICredentialProviderSetUserArray
 ms.prod: windows
 ms.technology: windows-sdk

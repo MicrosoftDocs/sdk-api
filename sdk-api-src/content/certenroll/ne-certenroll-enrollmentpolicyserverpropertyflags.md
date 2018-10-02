@@ -7,7 +7,7 @@ old-location: security\enrollmentpolicyserverpropertyflags.htm
 tech.root: SecCertEnroll
 ms.assetid: 531502ac-8e89-46ee-a426-86e22a9dbe8d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, EnrollmentPolicyServerPropertyFlags, EnrollmentPolicyServerPropertyFlags enumeration [Security], certenroll/DefaultNone, certenroll/DefaultPolicyServer, certenroll/EnrollmentPolicyServerPropertyFlags, security.enrollmentpolicyserverpropertyflags
 ms.prod: windows
 ms.technology: windows-sdk

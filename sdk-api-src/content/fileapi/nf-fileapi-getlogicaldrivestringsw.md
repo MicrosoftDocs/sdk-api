@@ -7,7 +7,7 @@ old-location: fs\getlogicaldrivestrings.htm
 tech.root: fileio
 ms.assetid: d3a83f8d-c37c-48b9-a24c-f81dfe5773e9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: GetLogicalDriveStrings, GetLogicalDriveStrings function [Files], GetLogicalDriveStringsA, GetLogicalDriveStringsW, _win32_getlogicaldrivestrings, base.getlogicaldrivestrings, fileapi/GetLogicalDriveStrings, fileapi/GetLogicalDriveStringsA, fileapi/GetLogicalDriveStringsW, fs.getlogicaldrivestrings, winbase/GetLogicalDriveStrings, winbase/GetLogicalDriveStringsA, winbase/GetLogicalDriveStringsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

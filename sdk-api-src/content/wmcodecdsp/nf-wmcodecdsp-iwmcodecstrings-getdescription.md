@@ -4,10 +4,10 @@ title: IWMCodecStrings::GetDescription
 author: windows-sdk-content
 description: Retrieves the description of an output format.
 old-location: mf\iwmcodecstringsgetdescription.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 79068e6c-bd16-45e4-a8af-6a03e0c5b528
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetDescription method, IWMCodecStrings.GetDescription, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/IWMCodecStrings::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

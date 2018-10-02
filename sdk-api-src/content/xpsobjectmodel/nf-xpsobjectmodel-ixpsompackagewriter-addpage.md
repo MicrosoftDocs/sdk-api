@@ -7,7 +7,7 @@ old-location: xps\ixpsompackagewriter_addpage.htm
 tech.root: printdocs
 ms.assetid: d7ea638d-f95c-4d72-8f55-cbb6a7d1ae8d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: AddPage, AddPage method [XPS Documents and Packaging], AddPage method [XPS Documents and Packaging],IXpsOMPackageWriter interface, AddPage method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],AddPage method, IXpsOMPackageWriter.AddPage, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddPage method, IXpsOMPackageWriter3D::AddPage, IXpsOMPackageWriter::AddPage, xps.ixpsompackagewriter_addpage, xpsobjectmodel/IXpsOMPackageWriter3D::AddPage, xpsobjectmodel/IXpsOMPackageWriter::AddPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

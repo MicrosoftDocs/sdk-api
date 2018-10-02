@@ -4,10 +4,10 @@ title: GetIpInterfaceEntry function
 author: windows-sdk-content
 description: Retrieves IP information for the specified interface on the local computer.
 old-location: iphlp\getipinterfaceentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 604e33fd-ab12-4861-a083-544045f46ef4
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: GetIpInterfaceEntry, GetIpInterfaceEntry function [IP Helper], iphlp.getipinterfaceentry, netioapi/GetIpInterfaceEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

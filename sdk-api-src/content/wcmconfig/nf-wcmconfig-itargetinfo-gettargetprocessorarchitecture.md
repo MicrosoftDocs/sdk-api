@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_gettargetprocessorarchitecture.htm
 tech.root: SMI
 ms.assetid: 7c66e131-97e6-4a8e-b4b0-927633d6d53a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTargetProcessorArchitecture, GetTargetProcessorArchitecture method [SMI], GetTargetProcessorArchitecture method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetProcessorArchitecture method, ITargetInfo.GetTargetProcessorArchitecture, ITargetInfo::GetTargetProcessorArchitecture, smi.itargetinfo_gettargetprocessorarchitecture, wcmconfig/ITargetInfo::GetTargetProcessorArchitecture
 ms.prod: windows-hardware
 ms.technology: windows-devices

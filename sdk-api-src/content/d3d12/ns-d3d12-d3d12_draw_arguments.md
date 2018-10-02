@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_draw_arguments.htm
 tech.root: direct3d12
 ms.assetid: 300F3628-C8E8-44BF-BCEC-579E6DA80347
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_DRAW_ARGUMENTS, D3D12_DRAW_ARGUMENTS structure, d3d12/D3D12_DRAW_ARGUMENTS, direct3d12.d3d12_draw_arguments
 ms.prod: windows
 ms.technology: windows-sdk

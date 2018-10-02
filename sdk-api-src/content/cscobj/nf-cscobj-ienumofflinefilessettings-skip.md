@@ -4,10 +4,10 @@ title: IEnumOfflineFilesSettings::Skip
 author: windows-sdk-content
 description: Skips over the next specified number of elements in the enumeration.
 old-location: of\ienumofflinefilessettings_skip.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 8b84fcef-f4e3-4e23-b254-dd21f145c1ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Skip method, IEnumOfflineFilesSettings.Skip, IEnumOfflineFilesSettings::Skip, Skip, Skip method [Offline Files], Skip method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Skip, of.ienumofflinefilessettings_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

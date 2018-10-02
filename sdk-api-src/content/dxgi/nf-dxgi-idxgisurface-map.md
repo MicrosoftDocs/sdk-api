@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgisurface_map.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_map.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 2353661a-8e73-6878-2899-79d0afdc2901, IDXGISurface interface [DXGI],Map method, IDXGISurface.Map, IDXGISurface::Map, Map, Map method [DXGI], Map method [DXGI],IDXGISurface interface, direct3ddxgi.idxgisurface_map, dxgi/IDXGISurface::Map
 ms.prod: windows-hardware
 ms.technology: windows-devices

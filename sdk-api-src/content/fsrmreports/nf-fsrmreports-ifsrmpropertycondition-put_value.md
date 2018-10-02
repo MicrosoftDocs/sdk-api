@@ -4,10 +4,10 @@ title: IFsrmPropertyCondition::put_Value
 author: windows-sdk-content
 description: The property condition's value.
 old-location: fsrm\ifsrmpropertycondition_value.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 51316f3b-ca69-4e0c-936c-8cafc0e2b1b7
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Value property, IFsrmPropertyCondition.Value, IFsrmPropertyCondition.put_Value, IFsrmPropertyCondition::Value, IFsrmPropertyCondition::get_Value, IFsrmPropertyCondition::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_value, fsrm.ifsrmpropertycondition_value, fsrmreports/IFsrmPropertyCondition::Value, fsrmreports/IFsrmPropertyCondition::get_Value, fsrmreports/IFsrmPropertyCondition::put_Value, put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PeerEnumGroups function
 author: windows-sdk-content
 description: The PeerEnumGroups function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.
 old-location: p2p\peerenumgroups.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: debb3c57-b5d2-440b-acf2-b6d8e712849b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerEnumGroups, PeerEnumGroups function [Peer Networking], p2p.peerenumgroups, p2p/PeerEnumGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

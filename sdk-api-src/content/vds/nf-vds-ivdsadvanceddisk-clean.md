@@ -7,7 +7,7 @@ old-location: base\ivdsadvanceddisk_clean.htm
 tech.root: VDS
 ms.assetid: 4052f294-d911-44c6-a57f-0a0a6f24df70
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Clean, Clean method [VDS], Clean method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],Clean method, IVdsAdvancedDisk.Clean, IVdsAdvancedDisk::Clean, base.ivdsadvanceddisk_clean, vds/IVdsAdvancedDisk::Clean
 ms.prod: windows-hardware
 ms.technology: windows-devices

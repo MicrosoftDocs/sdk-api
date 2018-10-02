@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_setfocus.htm
 tech.root: TSF
 ms.assetid: b437c646-2a15-4ad6-8e7e-3553e7106249
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: ITfThreadMgr interface [Text Services Framework],SetFocus method, ITfThreadMgr.SetFocus, ITfThreadMgr::SetFocus, SetFocus, SetFocus method [Text Services Framework], SetFocus method [Text Services Framework],ITfThreadMgr interface, _tsf_itfthreadmgr_setfocus_ref, msctf/ITfThreadMgr::SetFocus, tsf.itfthreadmgr_setfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IObjMgr::Append
 author: windows-sdk-content
 description: Appends an object to the collection of managed objects.
 old-location: shell\IObjMgr_Append.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a616f6d1-c1dc-4c1f-acf7-915cb0f722d6
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: Append, Append method [Windows Shell], Append method [Windows Shell],IObjMgr interface, IObjMgr interface [Windows Shell],Append method, IObjMgr.Append, IObjMgr::Append, _win32_IObjMgr_Append, shell.IObjMgr_Append, shlobj_core/IObjMgr::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices

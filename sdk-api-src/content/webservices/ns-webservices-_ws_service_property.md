@@ -7,7 +7,7 @@ old-location: wsw\ws_service_property.htm
 tech.root: wsw
 ms.assetid: d25cab25-2227-4afe-ae45-93a229d7f78b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_SERVICE_PROPERTY, WS_SERVICE_PROPERTY structure [Web Services for Windows], _WS_SERVICE_PROPERTY, webservices/WS_SERVICE_PROPERTY, wsw.ws_service_property
 ms.prod: windows
 ms.technology: windows-sdk

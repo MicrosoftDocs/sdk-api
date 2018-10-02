@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_uicontextmessage_property.htm
 tech.root: SecCertEnroll
 ms.assetid: a1a6a474-5ffa-4b68-b84f-b0c9bea30ee5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IX509PrivateKey interface [Security],UIContextMessage property, IX509PrivateKey.UIContextMessage, IX509PrivateKey.get_UIContextMessage, IX509PrivateKey::UIContextMessage, IX509PrivateKey::get_UIContextMessage, IX509PrivateKey::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::UIContextMessage, certenroll/IX509PrivateKey::get_UIContextMessage, certenroll/IX509PrivateKey::put_UIContextMessage, get_UIContextMessage, security.ix509privatekey_uicontextmessage_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

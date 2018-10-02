@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_recipient_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7bhw_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Recipient property, IFaxOutgoingJob.Recipient, IFaxOutgoingJob.get_Recipient, IFaxOutgoingJob::Recipient, IFaxOutgoingJob::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.recipient_cpp, fax._mfax_faxoutgoingjob_recipient_cpp, faxcomex/IFaxOutgoingJob::Recipient, faxcomex/IFaxOutgoingJob::get_Recipient, get_Recipient
 ms.prod: windows-hardware
 ms.technology: windows-devices

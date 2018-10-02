@@ -4,10 +4,10 @@ title: IDVBSLocator::get_SignalPolarisation
 author: windows-sdk-content
 description: The get_SignalPolarisation method retrieves the signal polarisation.
 old-location: mstv\idvbslocator_get_signalpolarisation.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: adb9d7b6-5876-4b3f-9d82-f5e740feb1eb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_SignalPolarisation method, IDVBSLocator.get_SignalPolarisation, IDVBSLocator::get_SignalPolarisation, IDVBSLocatorget_SignalPolarisation, get_SignalPolarisation, get_SignalPolarisation method [Microsoft TV Technologies], get_SignalPolarisation method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_signalpolarisation, tuner/IDVBSLocator::get_SignalPolarisation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wininet\findnexturlcacheentryex.htm
 tech.root: WinInet
 ms.assetid: 39484e35-cd25-4e48-ace0-16033d3e6954
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FindNextUrlCacheEntryEx, FindNextUrlCacheEntryEx function [WinINet], FindNextUrlCacheEntryExA, FindNextUrlCacheEntryExW, _inet_findnexturlcacheentryex_function, wininet.findnexturlcacheentryex, wininet/FindNextUrlCacheEntryEx, wininet/FindNextUrlCacheEntryExA, wininet/FindNextUrlCacheEntryExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

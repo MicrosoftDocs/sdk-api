@@ -7,7 +7,7 @@ old-location: search\_search_CONDITION_TYPE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_type.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: CONDITION_TYPE, CONDITION_TYPE enumeration [search], CT_AND_CONDITION, CT_LEAF_CONDITION, CT_NOT_CONDITION, CT_OR_CONDITION, _search_CONDITION_TYPE, search._search_CONDITION_TYPE, structuredquerycondition/CONDITION_TYPE, structuredquerycondition/CT_AND_CONDITION, structuredquerycondition/CT_LEAF_CONDITION, structuredquerycondition/CT_NOT_CONDITION, structuredquerycondition/CT_OR_CONDITION, tagCONDITION_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

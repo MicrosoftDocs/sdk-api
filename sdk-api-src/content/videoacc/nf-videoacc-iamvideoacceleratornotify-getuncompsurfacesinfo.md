@@ -7,7 +7,7 @@ old-location: dshow\iamvideoacceleratornotify_getuncompsurfacesinfo.htm
 tech.root: DirectShow
 ms.assetid: ee8cbe71-6ac3-4f41-a9af-f372f825485d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: GetUncompSurfacesInfo, GetUncompSurfacesInfo method [DirectShow], GetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.GetUncompSurfacesInfo, IAMVideoAcceleratorNotify::GetUncompSurfacesInfo, IAMVideoAcceleratorNotifyGetUncompSurfacesInfo, dshow.iamvideoacceleratornotify_getuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::GetUncompSurfacesInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_attachmode.htm
 tech.root: tablet
 ms.assetid: 638da0e4-10cc-47e7-91ad-807be3ff8c2d
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: 638da0e4-10cc-47e7-91ad-807be3ff8c2d, AttachMode property [Tablet PC], AttachMode property [Tablet PC],IInkOverlay interface, Behind, IInkOverlay interface [Tablet PC],AttachMode property, IInkOverlay.AttachMode, IInkOverlay.put_AttachMode, IInkOverlay::AttachMode, IInkOverlay::get_AttachMode, IInkOverlay::put_AttachMode, InFront, InkOverlay.get_AttachMode, InkOverlay.put_AttachMode, get_AttachMode, msinkaut/IInkOverlay::AttachMode, msinkaut/IInkOverlay::get_AttachMode, msinkaut/IInkOverlay::put_AttachMode, put_AttachMode, tablet.inkoverlay_attachmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

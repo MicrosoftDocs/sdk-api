@@ -4,10 +4,10 @@ title: IDvbContentIdentifierDescriptor
 author: windows-sdk-content
 description: Implements methods that get information from a Digital Video Broadcast (DVB) content identifier descriptor.
 old-location: mstv\idvbcontentidentifierdescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: bdd15b6f-2f1e-438a-a2fd-f3fa4df2a9fd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbContentIdentifierDescriptor, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies], IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentIdentifierDescriptor, mstv.idvbcontentidentifierdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

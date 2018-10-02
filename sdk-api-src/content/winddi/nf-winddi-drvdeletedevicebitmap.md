@@ -4,10 +4,10 @@ title: DrvDeleteDeviceBitmap function
 author: windows-sdk-content
 description: The DrvDeleteDeviceBitmap function deletes a device bitmap created by DrvCreateDeviceBitmap.
 old-location: display\drvdeletedevicebitmap.htm
-tech.root: display
+tech.root: Display
 ms.assetid: cb52b133-95c6-4a3d-b8b6-e1628a301542
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvDeleteDeviceBitmap, DrvDeleteDeviceBitmap function [Display Devices], ddifncs_3c8f9ccd-c145-481c-9d31-6a951557527d.xml, display.drvdeletedevicebitmap, winddi/DrvDeleteDeviceBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

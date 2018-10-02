@@ -7,7 +7,7 @@ old-location: adsi\iadsuser.htm
 tech.root: ADSI
 ms.assetid: 6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsUser, IADsUser interface [ADSI], IADsUser interface [ADSI],described, _ds_iadsuser, adsi.iadsuser, iads/IADsUser
 ms.prod: windows
 ms.technology: windows-sdk

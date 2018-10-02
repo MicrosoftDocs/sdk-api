@@ -4,10 +4,10 @@ title: "_MMC_VISIBLE_COLUMNS"
 author: windows-sdk-content
 description: Used by MMC with the MMCN_COLUMNS_CHANGED notification to inform the snap-in which columns in a column set are visible.
 old-location: mmc\mmc_visible_columns.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: b2f54c36-a446-4c16-8595-ab7e3411eb88
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: MMC_VISIBLE_COLUMNS, MMC_VISIBLE_COLUMNS structure [MMC], _MMC_VISIBLE_COLUMNS, _slate_mmc_visible_columns, mmc.mmc_visible_columns, mmc/MMC_VISIBLE_COLUMNS
 ms.prod: windows
 ms.technology: windows-sdk

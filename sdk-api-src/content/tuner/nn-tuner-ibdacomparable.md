@@ -4,10 +4,10 @@ title: IBDAComparable
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6f582ae2-d8c6-4d85-a01f-e98c6ee16021
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], IBDAComparable interface [Microsoft TV Technologies],described, IBDAComparableInterface, mstv.ibdacomparable, tuner/IBDAComparable
 ms.prod: windows
 ms.technology: windows-sdk

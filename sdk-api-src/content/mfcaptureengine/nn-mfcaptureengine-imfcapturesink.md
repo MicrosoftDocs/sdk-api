@@ -4,10 +4,10 @@ title: IMFCaptureSink
 author: windows-sdk-content
 description: Controls a capture sink, which is an object that receives one or more streams from a capture device.
 old-location: mf\imfcapturesink.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFCaptureSink, IMFCaptureSink interface [Media Foundation], IMFCaptureSink interface [Media Foundation],described, mf.imfcapturesink, mfcaptureengine/IMFCaptureSink
 ms.prod: windows
 ms.technology: windows-sdk

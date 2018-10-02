@@ -7,7 +7,7 @@ old-location: fs\file_end_of_file_info.htm
 tech.root: fileio
 ms.assetid: 77500ae7-654a-4b34-aaee-5c3844303271
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: "*PFILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO structure [Files], PFILE_END_OF_FILE_INFO, PFILE_END_OF_FILE_INFO structure pointer [Files], _FILE_END_OF_FILE_INFO, fileextd/FILE_END_OF_FILE_INFO, fileextd/PFILE_END_OF_FILE_INFO, fs.file_end_of_file_info, winbase/FILE_END_OF_FILE_INFO, winbase/PFILE_END_OF_FILE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

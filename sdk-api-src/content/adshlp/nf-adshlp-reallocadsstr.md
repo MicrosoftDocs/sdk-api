@@ -7,7 +7,7 @@ old-location: adsi\reallocadsstr.htm
 tech.root: ADSI
 ms.assetid: 805d45dc-8da4-4c15-a6d1-8967a4da9c24
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ReallocADsStr, ReallocADsStr function [ADSI], _ds_reallocadsstr, adshlp/ReallocADsStr, adsi.reallocadsstr
 ms.prod: windows-hardware
 ms.technology: windows-devices

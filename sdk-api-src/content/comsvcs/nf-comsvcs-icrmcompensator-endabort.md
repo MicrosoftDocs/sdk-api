@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_endabort.htm
 tech.root: cossdk
 ms.assetid: 009209fe-0910-4db1-b5c2-accd7239c3e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EndAbort, EndAbort method [COM+], EndAbort method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndAbort method, ICrmCompensator.EndAbort, ICrmCompensator::EndAbort, _dtc_ICrmCompensator_EndAbort, comsvcs/ICrmCompensator::EndAbort, cos.icrmcompensator_endabort
 ms.prod: windows-hardware
 ms.technology: windows-devices

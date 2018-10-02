@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceconnector_setproperty.htm
 tech.root: wpd_sdk
 ms.assetid: 045268e1-3e91-41a9-a14e-eb20b8a707e4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPortableDeviceConnector interface [Windows Portable Devices SDK],SetProperty method, IPortableDeviceConnector.SetProperty, IPortableDeviceConnector::SetProperty, SetProperty, SetProperty method [Windows Portable Devices SDK], SetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, devpkey/IPortableDeviceConnector::SetProperty, portabledeviceconnectapi/IPortableDeviceConnector::SetProperty, wpdsdk.iportabledeviceconnector_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ULongToUInt8 function
 author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type UINT8.
 old-location: shell\ULongToUInt8.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2d1db351-797f-4785-b67c-9ab6e661282a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DWordToByte, ULongToUInt8, ULongToUInt8 function [Windows Shell], intsafe/ULongToUInt8, shell.ULongToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

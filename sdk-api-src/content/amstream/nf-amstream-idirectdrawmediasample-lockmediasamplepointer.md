@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediasample_lockmediasamplepointer.htm
 tech.root: DirectShow
 ms.assetid: f711a82d-7560-43f8-8689-7f2fca77ae64
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IDirectDrawMediaSample interface [DirectShow],LockMediaSamplePointer method, IDirectDrawMediaSample.LockMediaSamplePointer, IDirectDrawMediaSample::LockMediaSamplePointer, IDirectDrawMediaSampleLockMediaSamplePointer, LockMediaSamplePointer, LockMediaSamplePointer method [DirectShow], LockMediaSamplePointer method [DirectShow],IDirectDrawMediaSample interface, amstream/IDirectDrawMediaSample::LockMediaSamplePointer, dshow.idirectdrawmediasample_lockmediasamplepointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

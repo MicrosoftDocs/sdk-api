@@ -4,10 +4,10 @@ title: PowerImportPowerScheme function
 author: windows-sdk-content
 description: Imports a power scheme from a file.
 old-location: base\powerimportpowerscheme.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 84ba8cb6-13ad-459b-b154-c495aaeb67f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PowerImportPowerScheme, PowerImportPowerScheme function, base.powerimportpowerscheme, powrprof/PowerImportPowerScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

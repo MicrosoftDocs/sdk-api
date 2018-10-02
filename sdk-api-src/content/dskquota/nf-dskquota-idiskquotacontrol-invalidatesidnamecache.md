@@ -7,7 +7,7 @@ old-location: fs\idiskquotacontrol_invalidatesidnamecache.htm
 tech.root: fileio
 ms.assetid: 9bca99e9-2dd7-4e79-ab6a-ad0e821dd9bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: IDiskQuotaControl interface [Files],InvalidateSidNameCache method, IDiskQuotaControl.InvalidateSidNameCache, IDiskQuotaControl::InvalidateSidNameCache, InvalidateSidNameCache, InvalidateSidNameCache method [Files], InvalidateSidNameCache method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_invalidatesidnamecache, base.idiskquotacontrol_invalidatesidnamecache, dskquota/IDiskQuotaControl::InvalidateSidNameCache, fs.idiskquotacontrol_invalidatesidnamecache
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DRMGetUnboundLicenseAttribute function
 author: windows-sdk-content
 description: Retrieves an unbound license attribute from the underlying XrML.
 old-location: rm\drmgetunboundlicenseattribute.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 4ddf2920-95ea-47be-a5dd-b68eee2de29e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMGetUnboundLicenseAttribute, DRMGetUnboundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseAttribute, rm.drmgetunboundlicenseattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

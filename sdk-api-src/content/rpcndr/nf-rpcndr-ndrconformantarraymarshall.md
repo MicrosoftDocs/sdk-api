@@ -4,10 +4,10 @@ title: NdrConformantArrayMarshall function
 author: windows-sdk-content
 description: The NdrConformantArrayMarshall function marshals the conformant array into a network buffer.
 old-location: winprog\ndrcomformantarraymarshall.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 28098531-a836-4a22-8c1a-fbf28d4a1bdd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: NdrComformantArrayMarshall, NdrConformantArrayMarshall, NdrConformantArrayMarshall function [Windows API], rpcndr/NdrConformantArrayMarshall, winprog.ndrcomformantarraymarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

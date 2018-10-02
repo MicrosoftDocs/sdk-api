@@ -4,10 +4,10 @@ title: ITocParser::RemoveTocByIndex
 author: windows-sdk-content
 description: The RemoveTocByIndex method removes a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_removetocbyindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7ec459bf-c631-4ad4-beb3-4cd1e89c1d35
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ITocParser interface [Media Foundation],RemoveTocByIndex method, ITocParser.RemoveTocByIndex, ITocParser::RemoveTocByIndex, RemoveTocByIndex, RemoveTocByIndex method [Media Foundation], RemoveTocByIndex method [Media Foundation],ITocParser interface, codecapi.itocparser_removetocbyindex, mf.itocparser_removetocbyindex, wmcodecdsp/ITocParser::RemoveTocByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

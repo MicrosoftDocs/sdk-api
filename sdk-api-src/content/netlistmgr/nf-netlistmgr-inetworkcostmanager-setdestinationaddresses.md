@@ -4,10 +4,10 @@ title: INetworkCostManager::SetDestinationAddresses
 author: windows-sdk-content
 description: SetDestinationAddresses method registers specified destination IPv4/IPv6 addresses to receive cost or data plan status change notifications.
 old-location: nla\inetworkcostmanager_setdestinationaddresses.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: D4CA45C5-0AF1-443A-9134-BB82268ABFD5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: INetworkCostManager interface [Network Awareness],SetDestinationAddresses method, INetworkCostManager.SetDestinationAddresses, INetworkCostManager::SetDestinationAddresses, SetDestinationAddresses, SetDestinationAddresses method [Network Awareness], SetDestinationAddresses method [Network Awareness],INetworkCostManager interface, netlistmgr/INetworkCostManager::SetDestinationAddresses, nla.inetworkcostmanager_setdestinationaddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices

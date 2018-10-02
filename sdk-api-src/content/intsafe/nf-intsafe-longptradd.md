@@ -4,10 +4,10 @@ title: LongPtrAdd function
 author: windows-sdk-content
 description: Adds two values of type LONG_PTR.
 old-location: shell\LongPtrAdd.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1c5f3112-12f1-409f-9a0f-74d4d35abb48
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: LongPtrAdd, LongPtrAdd function [Windows Shell], intsafe/LongPtrAdd, shell.LongPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

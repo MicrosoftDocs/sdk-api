@@ -7,7 +7,7 @@ old-location: dshow\iresourcemanager_registergroup.htm
 tech.root: DirectShow
 ms.assetid: f2d3deb2-8f22-42ac-846c-2f158f347ca7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IResourceManager interface [DirectShow],RegisterGroup method, IResourceManager.RegisterGroup, IResourceManager::RegisterGroup, IResourceManagerRegisterGroup, RegisterGroup, RegisterGroup method [DirectShow], RegisterGroup method [DirectShow],IResourceManager interface, dshow.iresourcemanager_registergroup, strmif/IResourceManager::RegisterGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

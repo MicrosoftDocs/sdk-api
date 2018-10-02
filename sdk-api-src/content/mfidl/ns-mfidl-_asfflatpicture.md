@@ -4,10 +4,10 @@ title: "_ASFFlatPicture"
 author: windows-sdk-content
 description: Contains an image that is stored as metadata for a media source. This structure is used as the data item for the WM/Picture metadata attribute.
 old-location: mf\asf_flat_picture.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2aa190bd-3431-4f37-bf2b-0801047793b3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 2aa190bd-3431-4f37-bf2b-0801047793b3, ASF_FLAT_PICTURE, ASF_FLAT_PICTURE structure [Media Foundation], _ASFFlatPicture, mf.asf_flat_picture, mfidl/ASF_FLAT_PICTURE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NetApiBufferFree function
 author: windows-sdk-content
 description: The NetApiBufferFree function frees the memory that the NetApiBufferAllocate function allocates. Applications should also call NetApiBufferFree to free the memory that other network management functions use internally to return information.
 old-location: netmgmt\netapibufferfree.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 0e99483c-8cd7-402a-8bf6-1e0118764dd3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NetApiBufferFree, NetApiBufferFree function [Network Management], _win32_netapibufferfree, lmapibuf/NetApiBufferFree, netmgmt.netapibufferfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

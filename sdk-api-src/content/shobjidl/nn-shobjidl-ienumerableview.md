@@ -4,10 +4,10 @@ title: IEnumerableView
 author: windows-sdk-content
 description: Exposes methods that enumerate the contents of a view and receive notification from callback upon enumeration completion. This interface enables clients of a view to attempt to share the view's list of folder contents.
 old-location: shell\IEnumerableView.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6e096f7b-b40b-45ea-a348-ddfedf5913f8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumerableView, IEnumerableView interface [Windows Shell], IEnumerableView interface [Windows Shell],described, _shell_IEnumerableView, shell.IEnumerableView, shobjidl/IEnumerableView
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatawriter.htm
 tech.root: CoreAudio
 ms.assetid: F8CD8B79-9442-46D0-ABF5-5F6734474B01
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 10/01/2018
 ms.keywords: ISpatialAudioMetadataWriter, ISpatialAudioMetadataWriter interface [Core Audio], ISpatialAudioMetadataWriter interface [Core Audio],described, coreaudio.ispatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataWriter
 ms.prod: windows
 ms.technology: windows-sdk

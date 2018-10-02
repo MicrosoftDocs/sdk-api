@@ -4,10 +4,10 @@ title: EngDeleteSafeSemaphore function
 author: windows-sdk-content
 description: The EngDeleteSafeSemaphore function removes a reference to the specified safe semaphore.
 old-location: display\engdeletesafesemaphore.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d4789803-2343-4d9a-a146-79206d88d59e
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngDeleteSafeSemaphore, EngDeleteSafeSemaphore function [Display Devices], display.engdeletesafesemaphore, gdifncs_ffbf0904-619e-48be-ada1-4269c8a92f55.xml, winddi/EngDeleteSafeSemaphore
 ms.prod: windows-hardware
 ms.technology: windows-devices

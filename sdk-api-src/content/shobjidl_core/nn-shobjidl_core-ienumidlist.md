@@ -4,10 +4,10 @@ title: IEnumIDList
 author: windows-sdk-content
 description: Exposes a standard set of methods used to enumerate the pointers to item identifier lists (PIDLs) of the items in a Shell folder.
 old-location: shell\IEnumIDList.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b6f139d3-c54c-4350-9d8b-cd534909a488
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumIDList, IEnumIDList interface [Windows Shell], IEnumIDList interface [Windows Shell],described, _win32_IEnumIDList, shell.IEnumIDList, shobjidl_core/IEnumIDList
 ms.prod: windows
 ms.technology: windows-sdk

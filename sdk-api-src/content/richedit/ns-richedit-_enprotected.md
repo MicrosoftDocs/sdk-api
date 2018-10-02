@@ -7,7 +7,7 @@ old-location: controls\ENPROTECTED.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enprotected.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ENPROTECTED, ENPROTECTED structure [Windows Controls], _enprotected, _win32_ENPROTECTED_str, _win32_ENPROTECTED_str_cpp, controls.ENPROTECTED, controls._win32_ENPROTECTED_str, richedit/ENPROTECTED
 ms.prod: windows
 ms.technology: windows-sdk

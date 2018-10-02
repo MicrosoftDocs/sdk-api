@@ -4,10 +4,10 @@ title: "_DFS_INFO_7"
 author: windows-sdk-content
 description: Contains information about a DFS namespace. This structure contains the version GUID for the metadata for the namespace.
 old-location: dfs\dfs_info_7.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: 03bcd93d-e3ec-49aa-be6c-399922f67c28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDFS_INFO_7, *PDFS_INFO_7, DFS_INFO_7, DFS_INFO_7 structure [Distributed File System], LPDFS_INFO_7, LPDFS_INFO_7 structure pointer [Distributed File System], PDFS_INFO_7, PDFS_INFO_7 structure pointer [Distributed File System], _DFS_INFO_7, dfs.dfs_info_7, fs.dfs_info_7, lmdfs/DFS_INFO_7, lmdfs/LPDFS_INFO_7, lmdfs/PDFS_INFO_7, netmgmt.dfs_info_7"
 ms.prod: windows
 ms.technology: windows-sdk

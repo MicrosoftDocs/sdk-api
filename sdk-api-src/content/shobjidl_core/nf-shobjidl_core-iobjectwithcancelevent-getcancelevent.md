@@ -4,10 +4,10 @@ title: IObjectWithCancelEvent::GetCancelEvent
 author: windows-sdk-content
 description: Retrieves an event that will be sent when an operation is canceled.
 old-location: shell\IObjectWithCancelEvent_GetCancelEvent.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6aef54b0-a7aa-4ff9-b50f-f84131614853
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetCancelEvent, GetCancelEvent method [Windows Shell], GetCancelEvent method [Windows Shell],IObjectWithCancelEvent interface, IObjectWithCancelEvent interface [Windows Shell],GetCancelEvent method, IObjectWithCancelEvent.GetCancelEvent, IObjectWithCancelEvent::GetCancelEvent, _shell_IObjectWithCancelEvent_GetCancelEvent, shell.IObjectWithCancelEvent_GetCancelEvent, shobjidl_core/IObjectWithCancelEvent::GetCancelEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

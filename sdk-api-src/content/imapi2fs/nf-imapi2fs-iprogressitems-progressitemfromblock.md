@@ -7,7 +7,7 @@ old-location: imapi\iprogressitems_progressitemfromblock.htm
 tech.root: imapi
 ms.assetid: 2b37cf63-24be-42ff-a439-157703db9604
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromBlock method, IProgressItems.ProgressItemFromBlock, IProgressItems::ProgressItemFromBlock, ProgressItemFromBlock, ProgressItemFromBlock method [IMAPI], ProgressItemFromBlock method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromblock, imapi2fs/IProgressItems::ProgressItemFromBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

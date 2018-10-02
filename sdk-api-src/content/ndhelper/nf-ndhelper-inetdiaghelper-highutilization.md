@@ -4,10 +4,10 @@ title: INetDiagHelper::HighUtilization
 author: windows-sdk-content
 description: Check whether the corresponding component is highly utilized.
 old-location: ndf\inetdiaghelpe_highutilization.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: 4a555683-f7fd-43a4-808a-60579723293c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: HighUtilization, HighUtilization method [NDF], HighUtilization method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],HighUtilization method, INetDiagHelper.HighUtilization, INetDiagHelper::HighUtilization, ndf.inetdiaghelpe_highutilization, ndhelper/INetDiagHelper::HighUtilization
 ms.prod: windows-hardware
 ms.technology: windows-devices

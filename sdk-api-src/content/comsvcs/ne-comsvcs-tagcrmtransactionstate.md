@@ -7,7 +7,7 @@ old-location: cos\crmtransactionstate.htm
 tech.root: cossdk
 ms.assetid: ae096ba2-3347-4d8c-89af-ee4517554a91
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CrmTransactionState, CrmTransactionState enumeration [COM+], TxState_Aborted, TxState_Active, TxState_Committed, TxState_Indoubt, _cos_CrmTransactionState, comsvcs/CrmTransactionState, comsvcs/TxState_Aborted, comsvcs/TxState_Active, comsvcs/TxState_Committed, comsvcs/TxState_Indoubt, cos.crmtransactionstate, tagCrmTransactionState
 ms.prod: windows
 ms.technology: windows-sdk

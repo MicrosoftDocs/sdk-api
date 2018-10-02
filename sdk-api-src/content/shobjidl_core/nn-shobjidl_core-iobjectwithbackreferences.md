@@ -4,10 +4,10 @@ title: IObjectWithBackReferences
 author: windows-sdk-content
 description: Provides a method for interacting with back references held by an object.
 old-location: shell\IObjectWithBackReferences.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9ce0edc6-c2b1-4222-a12b-daf94efcb233
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IObjectWithBackReferences, IObjectWithBackReferences interface [Windows Shell], IObjectWithBackReferences interface [Windows Shell],described, _shell_IObjectWithBackReferences, shell.IObjectWithBackReferences, shobjidl_core/IObjectWithBackReferences
 ms.prod: windows
 ms.technology: windows-sdk

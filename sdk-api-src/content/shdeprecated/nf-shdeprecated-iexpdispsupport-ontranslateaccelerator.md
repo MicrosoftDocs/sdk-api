@@ -4,10 +4,10 @@ title: IExpDispSupport::OnTranslateAccelerator
 author: windows-sdk-content
 description: Deprecated. Instructs the control site to process the keystroke described in pMsg and modified by the flags in grfModifiers.
 old-location: shell\IExpDispSupport_OnTranslateAccelerator.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 55f3b4dd-134d-49fe-a7f7-c6315971e902
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IExpDispSupport interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupport.OnTranslateAccelerator, IExpDispSupport::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnTranslateAccelerator, shell.IExpDispSupport_OnTranslateAccelerator, zone_IExpDispSupport_OnTranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

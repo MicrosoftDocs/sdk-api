@@ -4,10 +4,10 @@ title: WinUsb_GetCurrentAlternateSetting function
 author: windows-sdk-content
 description: The WinUsb_GetCurrentAlternateSetting function gets the current alternate interface setting for an interface. This is a synchronous operation.
 old-location: buses\winusb_getcurrentalternatesetting.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: a644eb68-2192-4927-ac67-77384f8cf2b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WinUsb_GetCurrentAlternateSetting, WinUsb_GetCurrentAlternateSetting function [Buses], buses.winusb_getcurrentalternatesetting, winusb/WinUsb_GetCurrentAlternateSetting, winusbfunc_26a4514e-edde-432d-aac7-c4d2466c70c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

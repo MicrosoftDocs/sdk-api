@@ -4,10 +4,10 @@ title: IMFSourceBuffer::SetAppendWindowEnd
 author: windows-sdk-content
 description: Sets the timestamp for the end of the append window.
 old-location: mf\imfsourcebuffer_setappendwindowend.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 80cae375-b3f4-4947-98dd-26338d4a0486
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowEnd method, IMFSourceBuffer.SetAppendWindowEnd, IMFSourceBuffer::SetAppendWindowEnd, SetAppendWindowEnd, SetAppendWindowEnd method [Media Foundation], SetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowend, mfmediaengine/IMFSourceBuffer::SetAppendWindowEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

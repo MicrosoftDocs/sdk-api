@@ -4,10 +4,10 @@ title: EngAllocUserMem macro
 author: windows-sdk-content
 description: The EngAllocUserMem function allocates a block of memory from the address space of the current process and inserts a caller-supplied tag before the allocation.
 old-location: display\engallocusermem.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 5864d8dc-e239-4ba8-bd22-4a4a8952c39e
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngAllocUserMem, EngAllocUserMem function [Display Devices], display.engallocusermem, gdifncs_fb95fed4-9948-4bc1-8917-8757ebe29442.xml, winddi/EngAllocUserMem
 ms.prod: windows-hardware
 ms.technology: windows-devices

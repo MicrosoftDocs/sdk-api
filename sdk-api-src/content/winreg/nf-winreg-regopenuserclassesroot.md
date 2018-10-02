@@ -7,7 +7,7 @@ old-location: base\regopenuserclassesroot.htm
 tech.root: SysInfo
 ms.assetid: bd068826-cf88-4fc7-a7d6-96cc03e923c7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RegOpenUserClassesRoot, RegOpenUserClassesRoot function, _win32_regopenuserclassesroot, base.regopenuserclassesroot, winreg/RegOpenUserClassesRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices

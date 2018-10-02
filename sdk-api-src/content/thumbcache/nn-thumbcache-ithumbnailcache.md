@@ -4,10 +4,10 @@ title: IThumbnailCache
 author: windows-sdk-content
 description: Exposes methods for a system thumbnail cache that is shared across applications.
 old-location: shell\IThumbnailCache.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b0ddfca0-49b8-4f53-8d22-9a561d09367a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IThumbnailCache, IThumbnailCache interface [Windows Shell], IThumbnailCache interface [Windows Shell],described, _shell_IThumbnailCache, shell.IThumbnailCache, thumbcache/IThumbnailCache
 ms.prod: windows
 ms.technology: windows-sdk

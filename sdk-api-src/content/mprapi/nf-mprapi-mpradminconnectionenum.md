@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectionenum.htm
 tech.root: RRAS
 ms.assetid: 27be536e-0437-4e30-aef7-ed92f50baeaa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprAdminConnectionEnum, MprAdminConnectionEnum function [RAS], _mpr_mpradminconnectionenum, mprapi/MprAdminConnectionEnum, rras.mpradminconnectionenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

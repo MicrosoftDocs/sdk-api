@@ -7,7 +7,7 @@ old-location: controls\ListView_GetItemPosition.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemposition.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_GetItemPosition, ListView_GetItemPosition macro [Windows Controls], _win32_ListView_GetItemPosition, _win32_ListView_GetItemPosition_cpp, commctrl/ListView_GetItemPosition, controls.ListView_GetItemPosition, controls._win32_ListView_GetItemPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

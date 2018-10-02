@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_get_syncstate.htm
 tech.root: WMP
 ms.assetid: c93263a1-7976-43db-b514-97d9a263a60c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_syncState method, IWMPSyncDevice.get_syncState, IWMPSyncDevice::get_syncState, IWMPSyncDeviceget_syncState, get_syncState, get_syncState method [Windows Media Player], get_syncState method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_syncstate, wmp/IWMPSyncDevice::get_syncState
 ms.prod: windows-hardware
 ms.technology: windows-devices

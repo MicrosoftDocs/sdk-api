@@ -4,10 +4,10 @@ title: IEnumTASK
 author: windows-sdk-content
 description: The IEnumTASK interface is introduced in MMC 1.1.
 old-location: mmc\ienumtask.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 7cf1ff4f-bd45-4ead-a005-e0f38aed9039
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumTASK, IEnumTASK interface [MMC], IEnumTASK interface [MMC],described, _slate_ienumtask, mmc.ienumtask, mmc/IEnumTASK
 ms.prod: windows
 ms.technology: windows-sdk

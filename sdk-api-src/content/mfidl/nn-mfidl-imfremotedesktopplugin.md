@@ -4,10 +4,10 @@ title: IMFRemoteDesktopPlugin
 author: windows-sdk-content
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 75bb9bf8-12a7-430f-9943-18623aff9903
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 75bb9bf8-12a7-430f-9943-18623aff9903, IMFRemoteDesktopPlugin, IMFRemoteDesktopPlugin interface [Media Foundation], IMFRemoteDesktopPlugin interface [Media Foundation],described, mf.imfremotedesktopplugin, mfidl/IMFRemoteDesktopPlugin
 ms.prod: windows
 ms.technology: windows-sdk

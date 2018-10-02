@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ImageType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagetype.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ImageType, ImageType enumeration [GDI+], ImageTypeBitmap, ImageTypeMetafile, ImageTypeUnknown, _gdiplus_ENUM_ImageType, gdiplus._gdiplus_ENUM_ImageType, gdiplusenums/ImageType, gdiplusenums/ImageTypeBitmap, gdiplusenums/ImageTypeMetafile, gdiplusenums/ImageTypeUnknown
 ms.prod: windows
 ms.technology: windows-sdk

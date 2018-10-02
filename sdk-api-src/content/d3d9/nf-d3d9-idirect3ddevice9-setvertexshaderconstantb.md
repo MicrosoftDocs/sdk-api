@@ -4,10 +4,10 @@ title: IDirect3DDevice9::SetVertexShaderConstantB
 author: windows-sdk-content
 description: Sets a Boolean vertex shader constant.
 old-location: direct3d9\idirect3ddevice9__setvertexshaderconstantb.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexshaderconstantb.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetVertexShaderConstantB method, IDirect3DDevice9.SetVertexShaderConstantB, IDirect3DDevice9::SetVertexShaderConstantB, SetVertexShaderConstantB, SetVertexShaderConstantB method [Direct3D 9], SetVertexShaderConstantB method [Direct3D 9],IDirect3DDevice9 interface, aa9539bc-215f-a118-f03d-530e7ea6514d, d3d9helper/IDirect3DDevice9::SetVertexShaderConstantB, direct3d9.idirect3ddevice9__setvertexshaderconstantb
 ms.prod: windows-hardware
 ms.technology: windows-devices

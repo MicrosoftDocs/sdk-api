@@ -4,10 +4,10 @@ title: IFsrmFileScreenTemplateManager
 author: windows-sdk-content
 description: Used to manage file screen templates.
 old-location: fsrm\ifsrmfilescreentemplatemanager.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 89577ab3-2648-4b37-9fc0-c64929223a13
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmFileScreenTemplateManager, IFsrmFileScreenTemplateManager interface [File Server Resource Manager], IFsrmFileScreenTemplateManager interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplatemanager, fsrm.ifsrmfilescreentemplatemanager, fsrmscreen/IFsrmFileScreenTemplateManager
 ms.prod: windows
 ms.technology: windows-sdk

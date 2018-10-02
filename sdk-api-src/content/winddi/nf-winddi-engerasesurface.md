@@ -4,10 +4,10 @@ title: EngEraseSurface function
 author: windows-sdk-content
 description: The EngEraseSurface function calls GDI to erase the surface; a given rectangle on the surface will be filled with the given color.
 old-location: display\engerasesurface.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 3dace2e1-2a6b-42e5-a556-a3952cf4786c
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngEraseSurface, EngEraseSurface function [Display Devices], display.engerasesurface, gdifncs_49673ad2-d8a0-4c8b-bf0f-c1fab9f3c519.xml, winddi/EngEraseSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

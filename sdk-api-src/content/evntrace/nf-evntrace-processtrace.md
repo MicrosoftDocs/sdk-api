@@ -4,10 +4,10 @@ title: ProcessTrace function
 author: windows-sdk-content
 description: The ProcessTrace function delivers events from one or more event tracing sessions to the consumer.
 old-location: etw\processtrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: aea25a95-f435-4068-9b15-7473f31ebf16
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: ProcessTrace, ProcessTrace function [ETW], _evt_processtrace, base.processtrace, etw.processtrace, evntrace/ProcessTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

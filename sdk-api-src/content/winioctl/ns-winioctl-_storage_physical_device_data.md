@@ -7,7 +7,7 @@ old-location: fs\storage_physical_device_data.htm
 tech.root: fileio
 ms.assetid: 4B484F79-DDC8-4671-90EA-D793EA0A05C7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Files], STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA structure [Files], _STORAGE_PHYSICAL_DEVICE_DATA, fs.storage_physical_device_data, winioctl/PSTORAGE_PHYSICAL_DEVICE_DATA, winioctl/_STORAGE_PHYSICAL_DEVICE_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

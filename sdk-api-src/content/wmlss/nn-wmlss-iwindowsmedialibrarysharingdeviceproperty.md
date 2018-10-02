@@ -7,7 +7,7 @@ old-location: wmlss\IWindowsMediaLibrarySharingDevicePropertyInterface.htm
 tech.root: WMLSS
 ms.assetid: 7b76cf66-0096-4b63-a30c-2df7d1a14527
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperty, IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicePropertyInterface, wmlss/IWindowsMediaLibrarySharingDeviceProperty
 ms.prod: windows
 ms.technology: windows-sdk

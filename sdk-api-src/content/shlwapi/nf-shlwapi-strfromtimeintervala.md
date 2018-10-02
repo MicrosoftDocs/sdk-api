@@ -4,10 +4,10 @@ title: StrFromTimeIntervalA function
 author: windows-sdk-content
 description: Converts a time interval, specified in milliseconds, to a string.
 old-location: shell\StrFromTimeInterval.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\istreampseudorandombased_get_extendedseed.htm
 tech.root: imapi
 ms.assetid: e15e47aa-e5c4-4944-a3c4-14e459a31bb5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],get_ExtendedSeed method, IStreamPseudoRandomBased.get_ExtendedSeed, IStreamPseudoRandomBased::get_ExtendedSeed, get_ExtendedSeed, get_ExtendedSeed method [IMAPI], get_ExtendedSeed method [IMAPI],IStreamPseudoRandomBased interface, imapi.istreampseudorandombased_get_extendedseed, imapi2/IStreamPseudoRandomBased::get_ExtendedSeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

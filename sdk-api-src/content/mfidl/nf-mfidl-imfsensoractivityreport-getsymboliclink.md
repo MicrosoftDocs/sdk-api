@@ -4,10 +4,10 @@ title: IMFSensorActivityReport::GetSymbolicLink
 author: windows-sdk-content
 description: Gets the symbolic link for the sensor associated with the report.
 old-location: mf\imfsensoractivityreport_getsymboliclink.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: BF0BDB21-DE87-4177-A94F-8BA8FD571B02
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetSymbolicLink method, IMFSensorActivityReport.GetSymbolicLink, IMFSensorActivityReport::GetSymbolicLink, mf.imfsensoractivityreport_getsymboliclink, mfidl/IMFSensorActivityReport::GetSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ISyncMgrSyncCallback::CanContinue
 author: windows-sdk-content
 description: Determines whether the synchronization has been canceled.
 old-location: shell\ISyncMgrSyncCallback_CanContinue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 02106b6f-4c1c-4bd6-b120-2948b1e6d25c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CanContinue, CanContinue method [Windows Shell], CanContinue method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CanContinue method, ISyncMgrSyncCallback.CanContinue, ISyncMgrSyncCallback::CanContinue, _shell_ISyncMgrSyncCallback_CanContinue, shell.ISyncMgrSyncCallback_CanContinue, syncmgr/ISyncMgrSyncCallback::CanContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices

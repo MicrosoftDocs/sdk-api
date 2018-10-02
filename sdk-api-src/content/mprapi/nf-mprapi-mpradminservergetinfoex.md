@@ -7,7 +7,7 @@ old-location: rras\mpradminservergetinfoex.htm
 tech.root: RRAS
 ms.assetid: 19fff58d-6e13-478f-a960-de5d0702661c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprAdminServerGetInfoEx, MprAdminServerGetInfoEx function [RAS], mprapi/MprAdminServerGetInfoEx, rras.mpradminservergetinfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

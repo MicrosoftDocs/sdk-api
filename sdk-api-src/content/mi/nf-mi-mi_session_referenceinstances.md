@@ -4,10 +4,10 @@ title: MI_Session_ReferenceInstances function
 author: windows-sdk-content
 description: Finds the association object that references the specified key instance.
 old-location: wmi_v2\mi_session_referenceinstances.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: b42ed359-9580-4948-b29e-c5621a81206f
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Session_ReferenceInstances, MI_Session_ReferenceInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_ReferenceInstances, wmi_v2.mi_session_referenceinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

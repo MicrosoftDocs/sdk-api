@@ -4,10 +4,10 @@ title: NS_OSVERSIONCHECK
 author: windows-sdk-content
 description: Is the operating system check function for helpers.
 old-location: netshell\ns_osversioncheck.htm
-tech.root: netshell
+tech.root: NetShell
 ms.assetid: d58258ac-a16a-4983-bf35-71153dcbe652
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NS_OSVERSIONCHECK, NS_OSVERSIONCHECK callback, NS_OSVERSIONCHECK callback function [NetShell], SampleOsVersionCheck, _netsh_ns_osversioncheck, netsh/NS_OSVERSIONCHECK, netshell.ns_osversioncheck
 ms.prod: windows
 ms.technology: windows-sdk

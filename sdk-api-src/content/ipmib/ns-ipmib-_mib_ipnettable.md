@@ -4,10 +4,10 @@ title: "_MIB_IPNETTABLE"
 author: windows-sdk-content
 description: Contains a table of Address Resolution Protocol (ARP) entries for IPv4 addresses.
 old-location: mib\mib_ipnettable.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: 1cac1c19-bc42-4aee-b9d0-d007b8798eeb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_IPNETTABLE, MIB_IPNETTABLE, MIB_IPNETTABLE structure [MIB], PMIB_IPNETTABLE, PMIB_IPNETTABLE structure pointer [MIB], _MIB_IPNETTABLE, _mpr_mib_ipnettable, ipmib/MIB_IPNETTABLE, ipmib/PMIB_IPNETTABLE, iprtrmib/MIB_IPNETTABLE, iprtrmib/PMIB_IPNETTABLE, mib.mib_ipnettable, rras.mib_ipnettable"
 ms.prod: windows
 ms.technology: windows-sdk

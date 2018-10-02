@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_stop.htm
 tech.root: directmanipulation
 ms.assetid: e0b88429-0d75-4c4a-8468-1a5637455324
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],Stop method, IDirectManipulationViewport.Stop, IDirectManipulationViewport::Stop, Stop, Stop method [Direct Manipulation], Stop method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_stop, directmanipulation/IDirectManipulationViewport::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

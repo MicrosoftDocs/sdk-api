@@ -7,7 +7,7 @@ old-location: dshow\eavencmuxoutput.htm
 tech.root: DirectShow
 ms.assetid: 2020192d-0db1-41e0-b03f-d5a7dbc85106
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: codecapi/eAVEncMuxOutput, codecapi/eAVEncMuxOutputAuto, codecapi/eAVEncMuxOutputPS, codecapi/eAVEncMuxOutputTS, dshow.eavencmuxoutput, eAVEncMuxOutput, eAVEncMuxOutput enumeration [DirectShow], eAVEncMuxOutputAuto, eAVEncMuxOutputPS, eAVEncMuxOutputTS
 ms.prod: windows
 ms.technology: windows-sdk

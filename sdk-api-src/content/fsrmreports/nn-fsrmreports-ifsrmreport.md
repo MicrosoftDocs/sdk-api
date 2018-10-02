@@ -4,10 +4,10 @@ title: IFsrmReport
 author: windows-sdk-content
 description: Used to configure the description and filters for a single report.
 old-location: fsrm\ifsrmreport.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 2172a543-b3b7-453e-887b-05c8ee74f197
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmReport, IFsrmReport interface [File Server Resource Manager], IFsrmReport interface [File Server Resource Manager],described, fs.ifsrmreport, fsrm.ifsrmreport, fsrm/IFsrmReport
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFSinkWriterCallback
 author: windows-sdk-content
 description: Callback interface for the Microsoft Media Foundation sink writer.
 old-location: mf\imfsinkwritercallback.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: fa0295e6-473d-4304-9a7b-24584cade0a0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], IMFSinkWriterCallback interface [Media Foundation],described, mf.imfsinkwritercallback, mfreadwrite/IMFSinkWriterCallback
 ms.prod: windows
 ms.technology: windows-sdk

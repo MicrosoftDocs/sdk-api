@@ -7,7 +7,7 @@ old-location: controls\DPA_FastGetPtr.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastgetptr.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: DPA_FastGetPtr, DPA_FastGetPtr macro [Windows Controls], _shell_DPA_FastGetPtr, _shell_DPA_FastGetPtr_cpp, controls.DPA_FastGetPtr, controls._shell_DPA_FastGetPtr, dpa_dsa/DPA_FastGetPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

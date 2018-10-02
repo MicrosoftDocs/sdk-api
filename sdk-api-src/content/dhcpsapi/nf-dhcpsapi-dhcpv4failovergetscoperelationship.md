@@ -4,10 +4,10 @@ title: DhcpV4FailoverGetScopeRelationship function
 author: windows-sdk-content
 description: Retrieves the failover relationship that is configured on a specified DHCPv4 scope.
 old-location: dhcp\dhcpv4failovergetscoperelationship.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 795eb9ff-cc44-4567-b496-1bff559290b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpV4FailoverGetScopeRelationship, DhcpV4FailoverGetScopeRelationship function [DHCP], dhcp.dhcpv4failovergetscoperelationship, dhcpsapi/DhcpV4FailoverGetScopeRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices

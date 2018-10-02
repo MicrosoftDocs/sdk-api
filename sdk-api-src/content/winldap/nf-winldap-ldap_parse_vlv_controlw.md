@@ -4,10 +4,10 @@ title: ldap_parse_vlv_controlW function
 author: windows-sdk-content
 description: Used to find and parse VLV search results.
 old-location: ldap\ldap_parse_vlv_control.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: a1a1e47f-c53b-48a3-9c40-0e1518c5c729
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ldap_parse_vlv_control, ldap.ldap__parse__vlv__control, ldap.ldap_parse_vlv_control, ldap_parse_vlv_control, ldap_parse_vlv_control function [LDAP], ldap_parse_vlv_controlA, ldap_parse_vlv_controlW, winldap/ldap_parse_vlv_control, winldap/ldap_parse_vlv_controlA, winldap/ldap_parse_vlv_controlW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

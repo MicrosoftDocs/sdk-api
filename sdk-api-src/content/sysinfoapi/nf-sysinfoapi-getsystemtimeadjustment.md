@@ -7,7 +7,7 @@ old-location: base\getsystemtimeadjustment.htm
 tech.root: SysInfo
 ms.assetid: 6c748726-c81d-4669-87a1-28aad0fccead
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSystemTimeAdjustment, GetSystemTimeAdjustment function, _win32_getsystemtimeadjustment, base.getsystemtimeadjustment, sysinfoapi/GetSystemTimeAdjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices

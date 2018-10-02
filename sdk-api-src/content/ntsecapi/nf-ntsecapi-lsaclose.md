@@ -7,7 +7,7 @@ old-location: security\lsaclose.htm
 tech.root: SecMgmt
 ms.assetid: 6283b1da-4ec3-48e1-91f6-321c6390befe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LsaClose, LsaClose function [Security], _lsa_lsaclose, ntsecapi/LsaClose, security.lsaclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

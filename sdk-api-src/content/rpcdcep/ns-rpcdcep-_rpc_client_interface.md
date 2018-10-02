@@ -7,7 +7,7 @@ old-location: rpc\rpc_client_interface.htm
 tech.root: Rpc
 ms.assetid: be995f3b-1d4f-4622-9a00-ddaaeab3788d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PRPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE structure [RPC], _RPC_CLIENT_INTERFACE, _rpc_rpc_client_interface, rpc.rpc_client_interface, rpcdcep/RPC_CLIENT_INTERFACE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_IStemmer_Init.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\init.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IStemmer interface [search],Init method, IStemmer.Init, IStemmer::Init, Init, Init method [search], Init method [search],IStemmer interface, _search_IStemmer_Init, indexsrv/IStemmer::Init, search._search_IStemmer_Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

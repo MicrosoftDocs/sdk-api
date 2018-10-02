@@ -4,10 +4,10 @@ title: ConvertInterfaceGuidToLuid function
 author: windows-sdk-content
 description: Converts a globally unique identifier (GUID) for a network interface to the locally unique identifier (LUID) for the interface.
 old-location: iphlp\convertinterfaceguidtoluid.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: cae669dc-899b-4485-b70a-5f58207a07df
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: ConvertInterfaceGuidToLuid, ConvertInterfaceGuidToLuid function [IP Helper], iphlp.convertinterfaceguidtoluid, netioapi/ConvertInterfaceGuidToLuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

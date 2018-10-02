@@ -4,10 +4,10 @@ title: "_MFVideoSurfaceInfo"
 author: windows-sdk-content
 description: Contains information about an uncompressed video format. This structure is used in the MFVIDEOFORMAT structure.
 old-location: mf\mfvideosurfaceinfo.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: b48099a2-8427-496c-9a60-ace5b89d81e9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFVideoSurfaceInfo, MFVideoSurfaceInfo structure [Media Foundation], _MFVideoSurfaceInfo, b48099a2-8427-496c-9a60-ace5b89d81e9, mf.mfvideosurfaceinfo, mfobjects/MFVideoSurfaceInfo
 ms.prod: windows
 ms.technology: windows-sdk

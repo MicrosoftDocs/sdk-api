@@ -7,7 +7,7 @@ old-location: cos\icomlbarguments_getmachinename.htm
 tech.root: cossdk
 ms.assetid: b1f6adc8-2e89-4f64-9694-2342c967a142
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMachineName, GetMachineName method [COM+], GetMachineName method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetMachineName method, ICOMLBArguments.GetMachineName, ICOMLBArguments::GetMachineName, _cos_ICOMLBArguments_GetMachineName, comsvcs/ICOMLBArguments::GetMachineName, cos.icomlbarguments_getmachinename
 ms.prod: windows-hardware
 ms.technology: windows-devices

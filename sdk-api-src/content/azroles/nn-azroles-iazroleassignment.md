@@ -7,7 +7,7 @@ old-location: security\iazroleassignment.htm
 tech.root: SecAuthZ
 ms.assetid: 3f0b926f-77f4-4477-b155-5f866822baba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAzRoleAssignment, IAzRoleAssignment interface [Security], IAzRoleAssignment interface [Security],described, azroles/IAzRoleAssignment, security.iazroleassignment
 ms.prod: windows
 ms.technology: windows-sdk

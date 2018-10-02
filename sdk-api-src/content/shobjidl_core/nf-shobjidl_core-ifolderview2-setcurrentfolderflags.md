@@ -4,10 +4,10 @@ title: IFolderView2::SetCurrentFolderFlags
 author: windows-sdk-content
 description: Sets and applies specified folder flags.
 old-location: shell\IFolderView2_SetCurrentFolderFlags.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 94999ac7-c9dd-439e-8f63-eeb226763200
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetCurrentFolderFlags method, IFolderView2.SetCurrentFolderFlags, IFolderView2::SetCurrentFolderFlags, SetCurrentFolderFlags, SetCurrentFolderFlags method [Windows Shell], SetCurrentFolderFlags method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetCurrentFolderFlags, shell.IFolderView2_SetCurrentFolderFlags, shobjidl_core/IFolderView2::SetCurrentFolderFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

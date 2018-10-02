@@ -7,7 +7,7 @@ old-location: wintouch\gestureconfig.htm
 tech.root: wintouch
 ms.assetid: 4ec5050e-7fef-4f52-89af-5237e8cdbdb8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PGESTURECONFIG, GESTURECONFIG, GESTURECONFIG structure [Windows Touch], PGESTURECONFIG, PGESTURECONFIG structure pointer [Windows Touch], tagGESTURECONFIG, wintouch.gestureconfig, winuser/GESTURECONFIG, winuser/PGESTURECONFIG"
 ms.prod: windows
 ms.technology: windows-sdk

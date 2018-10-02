@@ -4,10 +4,10 @@ title: "_RADIUSPROPERTIES"
 author: windows-sdk-content
 description: The values of the RADIUSPROPERTIES enumeration type enumerate properties of the Microsoft RADIUS protocol SDO.
 old-location: nps\SDO_radiusproperties.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: adf73b6d-963d-4a06-b958-8301e4fdf292
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PROPERTY_RADIUS_ACCOUNTING_PORT, PROPERTY_RADIUS_AUTHENTICATION_PORT, PROPERTY_RADIUS_CLIENTS_COLLECTION, PROPERTY_RADIUS_VENDORS_COLLECTION, RADIUSPROPERTIES, RADIUSPROPERTIES enumeration [Network Policy Server], _RADIUSPROPERTIES, _sdo_radiusproperties, nps.SDO_radiusproperties, sdo.radiusproperties, sdoias/PROPERTY_RADIUS_ACCOUNTING_PORT, sdoias/PROPERTY_RADIUS_AUTHENTICATION_PORT, sdoias/PROPERTY_RADIUS_CLIENTS_COLLECTION, sdoias/PROPERTY_RADIUS_VENDORS_COLLECTION, sdoias/RADIUSPROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

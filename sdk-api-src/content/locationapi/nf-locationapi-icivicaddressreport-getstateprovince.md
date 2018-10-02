@@ -4,10 +4,10 @@ title: ICivicAddressReport::GetStateProvince
 author: windows-sdk-content
 description: Retrieves the state or province name.
 old-location: winlocation_com_ref\icivicaddressreport_getstateprovince.htm
-tech.root: locationapi
+tech.root: LocationAPI
 ms.assetid: 7f47670c-5549-46af-8a16-0e9a43cf90aa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetStateProvince, GetStateProvince method [WinLocation], GetStateProvince method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetStateProvince method, ICivicAddressReport.GetStateProvince, ICivicAddressReport::GetStateProvince, WinLocation_COM_Ref.icivicaddressreport_getstateprovince, locationapi/ICivicAddressReport::GetStateProvince
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFP_PAUSE_EVENT
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_PAUSE event.
 old-location: mf\mfp_pause_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8475dca1-2ecd-49dc-97b6-bb2823286c04
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_PAUSE_EVENT, MFP_PAUSE_EVENT structure [Media Foundation], mf.mfp_pause_event, mfplay/MFP_PAUSE_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

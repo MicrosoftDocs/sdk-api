@@ -4,10 +4,10 @@ title: MI_Deserializer_ClassObjectNeeded
 author: windows-sdk-content
 description: Used to provide requested class object during deserialization.
 old-location: wmi_v2\mi_deserializer_classobjectneeded.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 0C813AAF-99B4-4DA7-9C2F-CD9FA146D7D2
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Deserializer_ClassObjectNeeded, MI_Deserializer_ClassObjectNeeded callback, MI_Deserializer_ClassObjectNeeded callback function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_ClassObjectNeeded, wmi_v2.mi_deserializer_classobjectneeded
 ms.prod: windows
 ms.technology: windows-sdk

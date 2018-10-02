@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_HEADER2_
 author: windows-sdk-content
 description: Contains information common to all events.
 old-location: fwp\fwpm_net_event_header2.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 1120d807-9188-4674-9acd-4b96e680f8af
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_NET_EVENT_FLAG_APP_ID_SET, FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET, FWPM_NET_EVENT_FLAG_IP_VERSION_SET, FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET, FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET, FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET, FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET, FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET, FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET, FWPM_NET_EVENT_FLAG_SCOPE_ID_SET, FWPM_NET_EVENT_FLAG_USER_ID_SET, FWPM_NET_EVENT_HEADER2, FWPM_NET_EVENT_HEADER2 structure [Filtering], FWPM_NET_EVENT_HEADER2_, fwp.fwpm_net_event_header2, fwpmtypes/FWPM_NET_EVENT_HEADER2
 ms.prod: windows
 ms.technology: windows-sdk

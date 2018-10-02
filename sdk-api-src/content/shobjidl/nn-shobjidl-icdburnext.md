@@ -4,10 +4,10 @@ title: ICDBurnExt
 author: windows-sdk-content
 description: ICDBurnExt may be altered or unavailable.
 old-location: shell\ICDBurnExt.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e87a635b-9614-49e1-8633-f7cbb5050b9a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ICDBurnExt, ICDBurnExt interface [Windows Shell], ICDBurnExt interface [Windows Shell],described, _shell_ICDBurnExt, shell.ICDBurnExt, shobjidl/ICDBurnExt
 ms.prod: windows
 ms.technology: windows-sdk

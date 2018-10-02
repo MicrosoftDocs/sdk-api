@@ -7,7 +7,7 @@ old-location: com\cofreealllibraries.htm
 tech.root: com
 ms.assetid: 20616c05-21c6-4895-a1b5-4bae1aa417c7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: CoFreeAllLibraries, CoFreeAllLibraries function [COM], _com_CoFreeAllLibraries, com.cofreealllibraries, objbase/CoFreeAllLibraries
 ms.prod: windows-hardware
 ms.technology: windows-devices

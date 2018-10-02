@@ -7,7 +7,7 @@ old-location: winsat\iinitiatewinsatassessment_initiateassessment.htm
 tech.root: WinSAT
 ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment method, IInitiateWinSATAssessment.InitiateAssessment, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
 ms.prod: windows-hardware
 ms.technology: windows-devices

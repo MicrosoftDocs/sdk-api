@@ -4,10 +4,10 @@ title: MFGetTopoNodeCurrentType function
 author: windows-sdk-content
 description: Gets the media type for a stream associated with a topology node.
 old-location: mf\mfgettoponodecurrenttype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2405c6f6-1a3c-42d1-8ec9-4728f522ce42
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFGetTopoNodeCurrentType, MFGetTopoNodeCurrentType function [Media Foundation], mf.mfgettoponodecurrenttype, mfidl/MFGetTopoNodeCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

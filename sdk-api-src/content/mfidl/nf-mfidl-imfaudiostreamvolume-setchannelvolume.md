@@ -4,10 +4,10 @@ title: IMFAudioStreamVolume::SetChannelVolume
 author: windows-sdk-content
 description: Sets the volume level for a specified channel in the audio stream.
 old-location: mf\imfaudiostreamvolume_setchannelvolume.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7786a6aa-c777-4b65-b38c-a75cd654a080
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 7786a6aa-c777-4b65-b38c-a75cd654a080, IMFAudioStreamVolume interface [Media Foundation],SetChannelVolume method, IMFAudioStreamVolume.SetChannelVolume, IMFAudioStreamVolume::SetChannelVolume, SetChannelVolume, SetChannelVolume method [Media Foundation], SetChannelVolume method [Media Foundation],IMFAudioStreamVolume interface, mf.imfaudiostreamvolume_setchannelvolume, mfidl/IMFAudioStreamVolume::SetChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

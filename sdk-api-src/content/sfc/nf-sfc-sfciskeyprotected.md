@@ -7,7 +7,7 @@ old-location: setup\sfciskeyprotected.htm
 tech.root: Wfp
 ms.assetid: 6e26a539-a22a-487a-b720-fa3660c1b485
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, SfcIsKeyProtected, SfcIsKeyProtected function [Setup API], setup.sfciskeyprotected, sfc/SfcIsKeyProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices

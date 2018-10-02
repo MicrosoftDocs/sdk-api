@@ -4,10 +4,10 @@ title: EngSetPointerTag function
 author: windows-sdk-content
 description: The EngSetPointerTag function is obsolete for Windows 2000 and later operating system versions.
 old-location: display\engsetpointertag.htm
-tech.root: display
+tech.root: Display
 ms.assetid: a1a2c74c-c568-4abe-bf84-7e0ace2c44b0
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngSetPointerTag, EngSetPointerTag function [Display Devices], display.engsetpointertag, gdifncs_bbe9c510-e5c9-40c3-9c62-460acd564e80.xml, winddi/EngSetPointerTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

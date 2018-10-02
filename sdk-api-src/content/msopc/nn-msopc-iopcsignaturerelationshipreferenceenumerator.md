@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: aa4c6e8b-1a1f-464b-885e-bee0976afafc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceEnumerator, opc.iopcsignaturerelationshipreferenceenumerator
 ms.prod: windows
 ms.technology: windows-sdk

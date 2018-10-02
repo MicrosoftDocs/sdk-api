@@ -7,7 +7,7 @@ old-location: fs\addntmsmediatype.htm
 tech.root: Rsm
 ms.assetid: fa8ad4af-eeb8-445e-ac6c-671badb651ec
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddNtmsMediaType, AddNtmsMediaType function [Files], _zaw_addntmsmediatype, base.addntmsmediatype, fs.addntmsmediatype, ntmsapi/AddNtmsMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES"
 author: windows-sdk-content
 description: Contains read-only information for the bandwidth estimates computed by the TCP/IP stack for a network connection.
 old-location: mib\mib_ip_network_connection_bandwidth_estimates.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: E3109F71-E103-4586-9274-B83C4DC22382
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure [MIB], PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure pointer [MIB], _MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, mib.mib_ip_network_connection_bandwidth_estimates, netioapi/MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, netioapi/PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES"
 ms.prod: windows
 ms.technology: windows-sdk

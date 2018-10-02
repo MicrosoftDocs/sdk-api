@@ -4,10 +4,10 @@ title: IMFMediaType::FreeRepresentation
 author: windows-sdk-content
 description: Frees memory that was allocated by the IMFMediaType::GetRepresentation method.
 old-location: mf\imfmediatype_freerepresentation.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d2007f16-543f-4f05-a44d-b4b4ae8019fb
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: FreeRepresentation, FreeRepresentation method [Media Foundation], FreeRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],FreeRepresentation method, IMFMediaType.FreeRepresentation, IMFMediaType::FreeRepresentation, d2007f16-543f-4f05-a44d-b4b4ae8019fb, mf.imfmediatype_freerepresentation, mfobjects/IMFMediaType::FreeRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

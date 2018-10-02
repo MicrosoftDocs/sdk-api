@@ -4,10 +4,10 @@ title: IIsdbCAServiceDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies a conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_gettag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 55f7b955-03f6-4c40-bd73-175bf3453ed0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbCAServiceDescriptor.GetTag, IIsdbCAServiceDescriptor::GetTag, dvbsiparser/IIsdbCAServiceDescriptor::GetTag, mstv.iisdbcaservicedescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

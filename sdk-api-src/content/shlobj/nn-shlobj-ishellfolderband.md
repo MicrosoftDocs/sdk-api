@@ -4,10 +4,10 @@ title: IShellFolderBand
 author: windows-sdk-content
 description: IShellFolderBand may be altered or unavailable.
 old-location: shell\IShellFolderBand.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 88ae35ea-6ff9-431c-848b-84fc61d3c690
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderBand, IShellFolderBand interface [Windows Shell], IShellFolderBand interface [Windows Shell],described, _win32_IShellFolderBand, shell.IShellFolderBand, shlobj/IShellFolderBand
 ms.prod: windows
 ms.technology: windows-sdk

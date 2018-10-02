@@ -4,10 +4,10 @@ title: "_USE_INFO_3"
 author: windows-sdk-content
 description: The USE_INFO_3 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, domain name, and specific flags that describe connection behavior.
 old-location: netmgmt\use_info_3_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3fb3ad35-f9e5-46ba-b930-fc2ccafd8ee9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPUSE_INFO_3, *PUSE_INFO_3, CREATE_BYPASS_CSC, CREATE_NO_CONNECT, LPUSE_INFO_0, LPUSE_INFO_0 structure pointer [Network Management], PUSE_INFO_3, PUSE_INFO_3 structure pointer [Network Management], USE_DEFAULT_CREDENTIALS, USE_INFO_3, USE_INFO_3 structure [Network Management], _USE_INFO_3, lmuse/LPUSE_INFO_0, lmuse/PUSE_INFO_3, lmuse/USE_INFO_3, netmgmt.use_info_3_str"
 ms.prod: windows
 ms.technology: windows-sdk

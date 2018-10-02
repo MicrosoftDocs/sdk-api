@@ -4,10 +4,10 @@ title: EngSetLastError function
 author: windows-sdk-content
 description: The EngSetLastError function causes GDI to report an error code, which can be retrieved by an application.
 old-location: display\engsetlasterror.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 8887eed8-c60d-4217-92bf-f770be071c49
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngSetLastError, EngSetLastError function [Display Devices], display.engsetlasterror, gdifncs_696ff78e-c48b-4727-b2dd-d1b2e06ea90f.xml, winddi/EngSetLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices

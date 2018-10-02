@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_exposure.htm
 tech.root: DirectShow
 ms.assetid: 2db9bdb3-c508-40b6-bd5e-75e418ba2f18
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Exposure method, ICameraControl.put_Exposure, ICameraControl::put_Exposure, ICameraControlput_Exposure, dshow.icameracontrol_put_exposure, put_Exposure, put_Exposure method [DirectShow], put_Exposure method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Exposure
 ms.prod: windows-hardware
 ms.technology: windows-devices

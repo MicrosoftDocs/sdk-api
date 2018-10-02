@@ -7,7 +7,7 @@ old-location: base\regdeletetree.htm
 tech.root: SysInfo
 ms.assetid: 984813a9-e191-498f-8288-b8a4c567112b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RegDeleteTree, RegDeleteTree function, RegDeleteTreeA, RegDeleteTreeW, base.regdeletetree, winreg/RegDeleteTree, winreg/RegDeleteTreeA, winreg/RegDeleteTreeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

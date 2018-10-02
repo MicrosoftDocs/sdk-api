@@ -4,10 +4,10 @@ title: IMSVidOutputDevices::get_Count
 author: windows-sdk-content
 description: The get_Count method retrieves the number of items in the collection.
 old-location: mstv\imsvidoutputdevices_get_count.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c4da44cb-84cb-46ae-9898-993802c9bfac
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get_Count method, IMSVidOutputDevices.get_Count, IMSVidOutputDevices::get_Count, IMSVidOutputDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get_count, segment/IMSVidOutputDevices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

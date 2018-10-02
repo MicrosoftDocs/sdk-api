@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery3.htm
 tech.root: WMDM
 ms.assetid: 3d600ae9-5d5b-48f6-a162-e52f78beb983
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISCPSecureQuery3, ISCPSecureQuery3 interface [windows Media Device Manager], ISCPSecureQuery3 interface [windows Media Device Manager],described, ISCPSecureQuery3Interface, mswmdm/ISCPSecureQuery3, wmdm.iscpsecurequery3
 ms.prod: windows
 ms.technology: windows-sdk

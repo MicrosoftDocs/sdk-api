@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetMaxEnvelopeSize function
 author: windows-sdk-content
 description: Gets the maximum size of the packet sent to a server or received by the client from the server.
 old-location: wmi_v2\mi_destinationoptions_getmaxenvelopesize.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 103f5c77-3824-464b-9a0b-36e23ee98028
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_DestinationOptions_GetMaxEnvelopeSize, MI_DestinationOptions_GetMaxEnvelopeSize function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetMaxEnvelopeSize, wmi_v2.mi_destinationoptions_getmaxenvelopesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

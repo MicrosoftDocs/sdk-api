@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_getrecorderguid.htm
 tech.root: imapi
 ms.assetid: 9d13d352-bc48-43c7-9800-12855d754435
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecorderGUID, GetRecorderGUID method [IMAPI], GetRecorderGUID method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderGUID method, IDiscRecorder.GetRecorderGUID, IDiscRecorder::GetRecorderGUID, _win32_idiscrecorder_getrecorderguid, base.idiscrecorder_getrecorderguid, imapi.idiscrecorder_getrecorderguid, imapi/IDiscRecorder::GetRecorderGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices

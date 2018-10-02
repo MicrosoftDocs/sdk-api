@@ -7,7 +7,7 @@ old-location: fs\gettempfilename.htm
 tech.root: fileio
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

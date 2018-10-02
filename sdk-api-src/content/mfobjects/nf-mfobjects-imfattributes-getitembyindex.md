@@ -4,10 +4,10 @@ title: IMFAttributes::GetItemByIndex
 author: windows-sdk-content
 description: Retrieves an attribute at the specified index.
 old-location: mf\imfattributes_getitembyindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1290bc45-fcac-4379-b26c-e67ef678f193
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 1290bc45-fcac-4379-b26c-e67ef678f193, GetItemByIndex, GetItemByIndex method [Media Foundation], GetItemByIndex method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItemByIndex method, IMFAttributes.GetItemByIndex, IMFAttributes::GetItemByIndex, mf.imfattributes_getitembyindex, mfobjects/IMFAttributes::GetItemByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

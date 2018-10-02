@@ -4,10 +4,10 @@ title: McastReleaseAddress function
 author: windows-sdk-content
 description: The McastReleaseAddress function releases leased multicast addresses from the MCAST server.
 old-location: madcap\mcastreleaseaddress.htm
-tech.root: madcap
+tech.root: Madcap
 ms.assetid: 6cb87e3b-0d2e-46f8-8ccf-6309c8fb888c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: McastReleaseAddress, McastReleaseAddress function [MADCAP], _mdhcp_mcastreleaseaddress, madcap.mcastreleaseaddress, madcapcl/McastReleaseAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

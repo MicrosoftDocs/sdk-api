@@ -4,10 +4,10 @@ title: IExplorerCommandState
 author: windows-sdk-content
 description: Exposes a single method that allows retrieval of the command state.
 old-location: shell\IExplorerCommandState.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 020a6f6f-1d45-44bd-a57f-ef8000976b5b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IExplorerCommandState, IExplorerCommandState interface [Windows Shell], IExplorerCommandState interface [Windows Shell],described, _shell_IExplorerCommandState, shell.IExplorerCommandState, shobjidl_core/IExplorerCommandState
 ms.prod: windows
 ms.technology: windows-sdk

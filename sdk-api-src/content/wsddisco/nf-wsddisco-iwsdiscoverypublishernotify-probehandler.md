@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublishernotify_probehandler_method.htm
 tech.root: WsdApi
 ms.assetid: d92ce49c-308b-49e2-9646-f1eec2151441
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ProbeHandler method, IWSDiscoveryPublisherNotify.ProbeHandler, IWSDiscoveryPublisherNotify::ProbeHandler, ProbeHandler, ProbeHandler method, ProbeHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_probehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ProbeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

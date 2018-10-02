@@ -4,10 +4,10 @@ title: MFInvokeCallback function
 author: windows-sdk-content
 description: Invokes a callback method to complete an asynchronous operation.
 old-location: mf\mfinvokecallback.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 28832d50-9b15-4eb0-96f9-2032d4edcaf4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 28832d50-9b15-4eb0-96f9-2032d4edcaf4, MFInvokeCallback, MFInvokeCallback function [Media Foundation], mf.mfinvokecallback, mfapi/MFInvokeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

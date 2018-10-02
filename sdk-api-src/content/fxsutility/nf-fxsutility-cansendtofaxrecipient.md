@@ -7,7 +7,7 @@ old-location: fax\_mfax_cansendtofaxrecipient.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_cansendtofaxrecipient.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: CanSendToFaxRecipient, CanSendToFaxRecipient function [Fax Service], _mfax_cansendtofaxrecipient, fax._mfax_cansendtofaxrecipient, fxsutility/CanSendToFaxRecipient
 ms.prod: windows-hardware
 ms.technology: windows-devices

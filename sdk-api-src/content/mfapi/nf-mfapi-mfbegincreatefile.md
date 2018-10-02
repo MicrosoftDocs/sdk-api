@@ -4,10 +4,10 @@ title: MFBeginCreateFile function
 author: windows-sdk-content
 description: Begins an asynchronous request to create a byte stream from a file.
 old-location: mf\mfbegincreatefile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFBeginCreateFile, MFBeginCreateFile function [Media Foundation], aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd, mf.mfbegincreatefile, mfapi/MFBeginCreateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

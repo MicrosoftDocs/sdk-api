@@ -7,7 +7,7 @@ old-location: controls\itextstory.htm
 tech.root: controls
 ms.assetid: 8b52c6e8-c250-4cfb-979e-770df9f94010
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory interface [Windows Controls],described, controls.itextstory, tom/ITextStory
 ms.prod: windows
 ms.technology: windows-sdk

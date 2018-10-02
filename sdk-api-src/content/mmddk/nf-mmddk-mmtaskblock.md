@@ -7,7 +7,7 @@ old-location: multimedia\mmtaskblock.htm
 tech.root: Multimedia
 ms.assetid: eaa3fcb3-85ee-4ae7-98c6-7873ef587241
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/26/2018
 ms.keywords: mmTaskBlock, mmTaskBlock function [Windows Multimedia], mmddk/mmTaskBlock, multimedia.mmtaskblock
 ms.prod: windows-hardware
 ms.technology: windows-devices

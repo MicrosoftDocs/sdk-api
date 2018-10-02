@@ -7,7 +7,7 @@ old-location: tsf\ienumtflatticeelements_next.htm
 tech.root: TSF
 ms.assetid: 066493c9-6597-43f4-9f65-51578af00a9b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Next method, IEnumTfLatticeElements.Next, IEnumTfLatticeElements::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_next_ref, ctffunc/IEnumTfLatticeElements::Next, tsf.ienumtflatticeelements_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

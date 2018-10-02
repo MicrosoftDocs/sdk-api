@@ -4,10 +4,10 @@ title: "_STREAM_MEDIUM"
 author: windows-sdk-content
 description: Not for application use.
 old-location: mf\stream_medium.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c3e3fd40-f6e6-4e43-927f-5dff4169a52c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: "*PSTREAM_MEDIUM, PSTREAM_MEDIUM, PSTREAM_MEDIUM structure pointer [Media Foundation], STREAM_MEDIUM, STREAM_MEDIUM structure [Media Foundation], _STREAM_MEDIUM, mf.stream_medium, mftransform/PSTREAM_MEDIUM, mftransform/STREAM_MEDIUM"
 ms.prod: windows
 ms.technology: windows-sdk

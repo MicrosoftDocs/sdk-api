@@ -7,7 +7,7 @@ old-location: indexsrv\loadifilter.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_5ar6.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LoadIFilter, LoadIFilter function [Indexing Service], _idxs_LoadIFilter, indexsrv.loadifilter, ntquery/LoadIFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

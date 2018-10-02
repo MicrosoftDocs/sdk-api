@@ -7,7 +7,7 @@ old-location: gpmc\igpm_createmigrationtable.htm
 tech.root: GPMC
 ms.assetid: ae9ea50f-d652-4d7a-aac5-5b9ef27b99e0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateMigrationTable, CreateMigrationTable method [GPMC], CreateMigrationTable method [GPMC],GPM class, CreateMigrationTable method [GPMC],IGPM interface, GPM class [GPMC],CreateMigrationTable method, IGPM interface [GPMC],CreateMigrationTable method, IGPM.CreateMigrationTable, IGPM::CreateMigrationTable, gpmc.igpm_createmigrationtable, gpmgmt/IGPM::CreateMigrationTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

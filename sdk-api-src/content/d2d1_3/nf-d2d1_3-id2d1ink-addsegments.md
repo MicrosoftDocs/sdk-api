@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_addsegments.htm
 tech.root: direct2d
 ms.assetid: 0AB546AC-F7AB-4C48-AA10-3DD2FF11B853
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: AddSegments, AddSegments method [Direct2D], AddSegments method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],AddSegments method, ID2D1Ink.AddSegments, ID2D1Ink::AddSegments, d2d1_3/ID2D1Ink::AddSegments, direct2d.id2d1ink_addsegments
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_enumundoable.htm
 tech.root: com
 ms.assetid: 7199910b-3ea3-4b4e-89df-c1188195941c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: EnumUndoable, EnumUndoable method [COM], EnumUndoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumUndoable method, IOleUndoManager.EnumUndoable, IOleUndoManager::EnumUndoable, _ole_ioleundomanager_enumundoable, com.ioleundomanager_enumundoable, ocidl/IOleUndoManager::EnumUndoable
 ms.prod: windows-hardware
 ms.technology: windows-devices

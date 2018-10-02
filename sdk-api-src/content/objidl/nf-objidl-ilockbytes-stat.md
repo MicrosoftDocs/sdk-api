@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_stat.htm
 tech.root: Stg
 ms.assetid: e7953f21-ac34-44e3-9b6f-b93ac89e2e32
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ILockBytes interface [Structured Storage],Stat method, ILockBytes.Stat, ILockBytes::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],ILockBytes interface, _stg_ilockbytes_stat, objidl/ILockBytes::Stat, stg.ilockbytes_stat
 ms.prod: windows-hardware
 ms.technology: windows-devices

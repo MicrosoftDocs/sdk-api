@@ -7,7 +7,7 @@ old-location: security\ncryptqueryprotectiondescriptorname.htm
 tech.root: SecCNG
 ms.assetid: 32953AEC-01EE-4ED1-80F3-29963F43004F
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NCryptQueryProtectionDescriptorName, NCryptQueryProtectionDescriptorName function [Security], ncryptprotect/NCryptQueryProtectionDescriptorName, security.ncryptqueryprotectiondescriptorname
 ms.prod: windows-hardware
 ms.technology: windows-devices

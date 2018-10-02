@@ -4,10 +4,10 @@ title: WlanSetProfileList function
 author: windows-sdk-content
 description: Sets the preference order of profiles.
 old-location: nwifi\wlansetprofilelist.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 980c7920-a25e-4e05-a742-77178a7f000a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi.wlansetprofilelist, wlanapi/WlanSetProfileList
 ms.prod: windows-hardware
 ms.technology: windows-devices

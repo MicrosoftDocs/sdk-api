@@ -4,10 +4,10 @@ title: IEnumReadyCallback
 author: windows-sdk-content
 description: Exposes methods that enable the view to notify the implementer when the enumeration has completed.
 old-location: shell\IEnumReadyCallback.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6c36e13d-9bd8-4ec1-980a-dc4ebd4dbcd9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumReadyCallback, IEnumReadyCallback interface [Windows Shell], IEnumReadyCallback interface [Windows Shell],described, _shell_IEnumReadyCallback, shell.IEnumReadyCallback, shobjidl/IEnumReadyCallback
 ms.prod: windows
 ms.technology: windows-sdk

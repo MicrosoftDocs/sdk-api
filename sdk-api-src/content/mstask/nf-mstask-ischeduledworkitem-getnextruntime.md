@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getnextruntime.htm
 tech.root: TaskSchd
 ms.assetid: a53700f7-0e2c-413f-b7b3-64aa2e970f11
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNextRunTime, GetNextRunTime method [Task Scheduler], GetNextRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetNextRunTime method, IScheduledWorkItem.GetNextRunTime, IScheduledWorkItem::GetNextRunTime, _msb_ischeduledworkitem_getnextruntime, mstask/IScheduledWorkItem::GetNextRunTime, taskschd.ischeduledworkitem_getnextruntime
 ms.prod: windows-hardware
 ms.technology: windows-devices

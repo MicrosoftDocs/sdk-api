@@ -4,10 +4,10 @@ title: tagSearchScope
 author: windows-sdk-content
 description: Defines the variety of updates that should be returned by the search:\_per-machine updates, per-user updates, or both.
 old-location: wua\searchscope.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a7b6a930-7b79-42dc-a4b0-da2eca0dff5c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: SearchScope, SearchScope , SearchScope enumeration [Windows Update Agent], searchScopeAllUsers, searchScopeCurrentUserOnly, searchScopeDefault, searchScopeMachineAndAllUsers, searchScopeMachineAndCurrentUser, searchScopeMachineOnly, tagSearchScope, wua.searchscope, wuapi/SearchScope, wuapi/searchScopeAllUsers, wuapi/searchScopeCurrentUserOnly, wuapi/searchScopeDefault, wuapi/searchScopeMachineAndAllUsers, wuapi/searchScopeMachineAndCurrentUser, wuapi/searchScopeMachineOnly
 ms.prod: windows
 ms.technology: windows-sdk

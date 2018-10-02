@@ -4,10 +4,10 @@ title: IMFMediaEngineSrcElements::GetType
 author: windows-sdk-content
 description: Gets the MIME type of an element in the list.
 old-location: mf\imfmediaenginesrcelements_gettype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7B788160-A342-48B4-A3F9-42F3BB83A24D
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetType method, IMFMediaEngineSrcElements.GetType, IMFMediaEngineSrcElements::GetType, mf.imfmediaenginesrcelements_gettype, mfmediaengine/IMFMediaEngineSrcElements::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

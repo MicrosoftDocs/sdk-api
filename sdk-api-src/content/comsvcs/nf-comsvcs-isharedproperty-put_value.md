@@ -7,7 +7,7 @@ old-location: cos\isharedproperty_put_value.htm
 tech.root: cossdk
 ms.assetid: d193990c-a804-41aa-81d7-75aced274f73
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISharedProperty interface [COM+],put_Value method, ISharedProperty.put_Value, ISharedProperty::put_Value, _cos_ISharedProperty_put_Value, comsvcs/ISharedProperty::put_Value, cos.isharedproperty_put_value, put_Value, put_Value method [COM+], put_Value method [COM+],ISharedProperty interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

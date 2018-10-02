@@ -4,10 +4,10 @@ title: IETFilterConfig
 author: windows-sdk-content
 description: The IETFilterConfig interface configures the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilterconfig.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6fa3da1b-863b-4ed7-b5ef-4ed1c05d2456
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IETFilterConfig, IETFilterConfig interface [Microsoft TV Technologies], IETFilterConfig interface [Microsoft TV Technologies],described, IETFilterConfigInterface, encdec/IETFilterConfig, mstv.ietfilterconfig
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rstmgr\rmcancelcurrenttask.htm
 tech.root: RstMgr
 ms.assetid: 58a9a734-667a-48b0-84e2-8cfd85e918bf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RmCancelCurrentTask, RmCancelCurrentTask function [Restart Mgr], restartmanager/RmCancelCurrentTask, rstmgr.rmcancelcurrenttask
 ms.prod: windows-hardware
 ms.technology: windows-devices

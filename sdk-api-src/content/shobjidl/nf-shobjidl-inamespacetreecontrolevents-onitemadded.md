@@ -4,10 +4,10 @@ title: INameSpaceTreeControlEvents::OnItemAdded
 author: windows-sdk-content
 description: Called after an IShellItem has been added.
 old-location: shell\INameSpaceTreeControlEvents_OnItemAdded.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7737e014-8e46-43da-b017-133bbf12b433
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemAdded method, INameSpaceTreeControlEvents.OnItemAdded, INameSpaceTreeControlEvents::OnItemAdded, OnItemAdded, OnItemAdded method [Windows Shell], OnItemAdded method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemAdded, shell.INameSpaceTreeControlEvents_OnItemAdded, shobjidl/INameSpaceTreeControlEvents::OnItemAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

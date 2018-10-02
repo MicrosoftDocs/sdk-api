@@ -4,10 +4,10 @@ title: FindExecutableW function
 author: windows-sdk-content
 description: Retrieves the name of and handle to the executable (.exe) file associated with a specific document file.
 old-location: shell\FindExecutable.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 969edbd9-164e-457f-ab0a-dc4d069bf16b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: FindExecutable, FindExecutable function [Windows Shell], FindExecutableA, FindExecutableW, _win32_FindExecutable, shell.FindExecutable, shellapi/FindExecutable, shellapi/FindExecutableA, shellapi/FindExecutableW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DFS_TARGET_PRIORITY"
 author: windows-sdk-content
 description: Contains the priority class and rank of a specific DFS target.
 old-location: dfs\dfs_target_priority.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: b8f645ab-e3b4-4e0f-809a-57e27ab1e641
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY structure [Distributed File System], LPDFS_TARGET_PRIORITY, LPDFS_TARGET_PRIORITY structure pointer [Distributed File System], PDFS_TARGET_PRIORITY, PDFS_TARGET_PRIORITY structure pointer [Distributed File System], _DFS_TARGET_PRIORITY, dfs.dfs_target_priority, fs.dfs_target_priority, lmdfs/DFS_TARGET_PRIORITY, lmdfs/LPDFS_TARGET_PRIORITY, lmdfs/PDFS_TARGET_PRIORITY, netmgmt.dfs_target_priority"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\cm_free_res_des_ex.htm
 tech.root: devinst
 ms.assetid: 2c6768c2-183b-480d-96cf-0f62f33d62d1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: CM_Free_Res_Des_Ex, CM_Free_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Free_Res_Des_Ex, cfgmgrfn_a851124e-1673-4025-8a33-478957f83152.xml, devinst.cm_free_res_des_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

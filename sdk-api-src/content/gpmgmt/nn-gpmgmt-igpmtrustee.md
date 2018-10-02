@@ -7,7 +7,7 @@ old-location: gpmc\igpmtrustee.htm
 tech.root: GPMC
 ms.assetid: f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMTrustee, IGPMTrustee, IGPMTrustee interface [GPMC], IGPMTrustee interface [GPMC],described, _win32_igpmtrustee, gpmc.igpmtrustee, gpmgmt/IGPMTrustee
 ms.prod: windows
 ms.technology: windows-sdk

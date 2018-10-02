@@ -4,10 +4,10 @@ title: MFRequireProtectedEnvironment function
 author: windows-sdk-content
 description: Queries whether a media presentation requires the Protected Media Path (PMP).
 old-location: mf\mfrequireprotectedenvironment.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5129d8c0-4049-4b90-ade8-b4cd32277664
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 5129d8c0-4049-4b90-ade8-b4cd32277664, MFRequireProtectedEnvironment, MFRequireProtectedEnvironment function [Media Foundation], mf.mfrequireprotectedenvironment, mfidl/MFRequireProtectedEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices

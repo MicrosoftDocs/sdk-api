@@ -7,7 +7,7 @@ old-location: security\gettokeninformation.htm
 tech.root: SecAuthZ
 ms.assetid: e94de19c-de12-40fb-a72c-060f7ad12f75
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTokenInformation, GetTokenInformation function [Security], _win32_gettokeninformation, security.gettokeninformation, securitybaseapi/GetTokenInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPSEC_SA_AUTH_INFORMATION0_
 author: windows-sdk-content
 description: Stores information about the authentication algorithm of an IPsec security association (SA).
 old-location: fwp\ipsec_sa_auth_information0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 54a03edd-94cb-478a-a647-473872408701
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_SA_AUTH_INFORMATION0, IPSEC_SA_AUTH_INFORMATION0 structure [Filtering], IPSEC_SA_AUTH_INFORMATION0_, fwp.ipsec_sa_auth_information0_struct, ipsectypes/IPSEC_SA_AUTH_INFORMATION0
 ms.prod: windows
 ms.technology: windows-sdk

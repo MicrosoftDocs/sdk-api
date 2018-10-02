@@ -7,7 +7,7 @@ old-location: fs\closeencryptedfileraw.htm
 tech.root: fileio
 ms.assetid: 54bf7114-0ebb-4d9c-bc67-2ac351dbe55d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: CloseEncryptedFileRaw, CloseEncryptedFileRaw function [Files], base.closeencryptedfileraw, fs.closeencryptedfileraw, winbase/CloseEncryptedFileRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices

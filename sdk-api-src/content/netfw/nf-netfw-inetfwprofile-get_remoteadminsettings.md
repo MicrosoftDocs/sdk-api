@@ -4,10 +4,10 @@ title: INetFwProfile::get_RemoteAdminSettings
 author: windows-sdk-content
 description: Specifies the settings governing remote administration.
 old-location: ics\inetfwprofile_remoteadminsettings.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 1e05e464-093d-4c25-850a-60e9fad64876
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],RemoteAdminSettings property, INetFwProfile.RemoteAdminSettings, INetFwProfile.get_RemoteAdminSettings, INetFwProfile::RemoteAdminSettings, INetFwProfile::get_RemoteAdminSettings, RemoteAdminSettings property [ICS/ICF], RemoteAdminSettings property [ICS/ICF],INetFwProfile interface, get_RemoteAdminSettings, ics.inetfwprofile_remoteadminpermission, ics.inetfwprofile_remoteadminsettings, netfw/INetFwProfile::RemoteAdminSettings, netfw/INetFwProfile::get_RemoteAdminSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

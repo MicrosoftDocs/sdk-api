@@ -7,7 +7,7 @@ old-location: base\ivdsstoragepool_getprovider.htm
 tech.root: VDS
 ms.assetid: 46265fca-eabd-4d42-b1fd-6a09c566cde9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetProvider, GetProvider method, GetProvider method,IVdsStoragePool interface, IVdsStoragePool interface,GetProvider method, IVdsStoragePool.GetProvider, IVdsStoragePool::GetProvider, base.ivdsstoragepool_getprovider, vds/IVdsStoragePool::GetProvider, vdshwprv/IVdsStoragePool::GetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

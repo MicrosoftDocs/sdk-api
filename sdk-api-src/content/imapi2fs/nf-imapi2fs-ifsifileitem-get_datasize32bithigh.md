@@ -7,7 +7,7 @@ old-location: imapi\ifsifileitem_get_datasize32bithigh.htm
 tech.root: imapi
 ms.assetid: 2f4f06e7-10a6-4aa0-b7b1-bf8799fcd41e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFsiFileItem interface [IMAPI],get_DataSize32BitHigh method, IFsiFileItem.get_DataSize32BitHigh, IFsiFileItem::get_DataSize32BitHigh, get_DataSize32BitHigh, get_DataSize32BitHigh method [IMAPI], get_DataSize32BitHigh method [IMAPI],IFsiFileItem interface, imapi.ifsifileitem_get_datasize32bithigh, imapi2fs/IFsiFileItem::get_DataSize32BitHigh
 ms.prod: windows-hardware
 ms.technology: windows-devices

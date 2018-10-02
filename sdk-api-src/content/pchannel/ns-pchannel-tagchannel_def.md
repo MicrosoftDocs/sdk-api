@@ -4,10 +4,10 @@ title: tagCHANNEL_DEF
 author: windows-sdk-content
 description: Contains the name and options of a Remote Desktop Services virtual channel.
 old-location: termserv\channel_def_str.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 05fb703f-b43c-420f-aab5-b2d6533a6cab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: CHANNEL_DEF, CHANNEL_DEF structure [Remote Desktop Services], CHANNEL_OPTION_COMPRESS, CHANNEL_OPTION_COMPRESS_RDP, CHANNEL_OPTION_ENCRYPT_CS, CHANNEL_OPTION_ENCRYPT_RDP, CHANNEL_OPTION_ENCRYPT_SC, CHANNEL_OPTION_INITIALIZED, CHANNEL_OPTION_PRI_HIGH, CHANNEL_OPTION_PRI_LOW, CHANNEL_OPTION_PRI_MED, CHANNEL_OPTION_REMOTE_CONTROL_PERSISTENT, CHANNEL_OPTION_SHOW_PROTOCOL, PAL_PACKED_STRUCT, PCHANNEL_DEF, PCHANNEL_DEF structure pointer [Remote Desktop Services], PPCHANNEL_DEF, PPCHANNEL_DEF structure pointer [Remote Desktop Services], _win32_channel_def_str, pchannel/CHANNEL_DEF, pchannel/PCHANNEL_DEF, pchannel/PPCHANNEL_DEF, tagCHANNEL_DEF, termserv.channel_def_str
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MFAllocateSerialWorkQueue function
 author: windows-sdk-content
 description: Creates a work queue that is guaranteed to serialize work items.
 old-location: mf\mfallocateserialworkqueue.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 45198662-C861-49A5-8962-DC256A671350
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFAllocateSerialWorkQueue, MFAllocateSerialWorkQueue function [Media Foundation], mf.mfallocateserialworkqueue, mfapi/MFAllocateSerialWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

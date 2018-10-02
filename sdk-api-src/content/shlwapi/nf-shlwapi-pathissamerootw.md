@@ -4,10 +4,10 @@ title: PathIsSameRootW function
 author: windows-sdk-content
 description: Compares two paths to determine if they have a common root component.
 old-location: shell\PathIsSameRoot.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3409a8f1-e22c-4c13-961e-211a2d10fe10
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: PathIsSameRoot, PathIsSameRoot function [Windows Shell], PathIsSameRootA, PathIsSameRootW, _win32_PathIsSameRoot, shell.PathIsSameRoot, shlwapi/PathIsSameRoot, shlwapi/PathIsSameRootA, shlwapi/PathIsSameRootW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_WLAN_RAW_DATA_LIST"
 author: windows-sdk-content
 description: Contains raw data in the form of an array of data blobs that are used by some Native Wifi functions.
 old-location: nwifi\dot11_psd_ie_data_list.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: e0e59abf-1a78-4c7f-b044-2d4c75328329
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI], WLAN_RAW_DATA_LIST, WLAN_RAW_DATA_LIST structure [NativeWIFI], _WLAN_RAW_DATA_LIST, nwifi.dot11_psd_ie_data_list, wlanapi/PWLAN_RAW_DATA_LIST, wlanapi/WLAN_RAW_DATA_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

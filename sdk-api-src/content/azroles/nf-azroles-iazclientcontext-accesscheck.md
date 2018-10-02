@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_accesscheck.htm
 tech.root: SecAuthZ
 ms.assetid: 0bd16cdb-3dba-4656-b264-32e622732155
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AccessCheck, AccessCheck method [Security], AccessCheck method [Security],AzClientContext object, AccessCheck method [Security],IAzClientContext interface, AzClientContext object [Security],AccessCheck method, IAzClientContext interface [Security],AccessCheck method, IAzClientContext.AccessCheck, IAzClientContext::AccessCheck, azroles/IAzClientContext::AccessCheck, security.iazclientcontext_accesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

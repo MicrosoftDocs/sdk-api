@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrix
 tech.root: directcomp
 ms.assetid: C673951B-2347-4A71-9413-68670B6E11CB
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetTransformMatrixElement method, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,float), IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,float), SetTransformMatrixElement, SetTransformMatrixElement method [DirectComposition], SetTransformMatrixElement method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\ienumtflatticeelements.htm
 tech.root: TSF
 ms.assetid: 5e36f052-a539-4020-8899-fb14c792c666
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], IEnumTfLatticeElements interface [Text Services Framework],described, _tsf_ienumtflatticeelements_ref, ctffunc/IEnumTfLatticeElements, tsf.ienumtflatticeelements
 ms.prod: windows
 ms.technology: windows-sdk

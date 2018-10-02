@@ -7,7 +7,7 @@ old-location: mediatransport\isystemmediatransportcontrolsinterop_getforwindow.h
 tech.root: mediatransport
 ms.assetid: 7E878C3B-4CE9-4DED-8082-8E37266FE8AF
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 09/26/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,GetForWindow method, ISystemMediaTransportControlsInterop.GetForWindow, ISystemMediaTransportControlsInterop::GetForWindow, mediatransport.isystemmediatransportcontrolsinterop_getforwindow, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop::GetForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

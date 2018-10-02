@@ -7,7 +7,7 @@ old-location: base\ivssexpresswriter.htm
 tech.root: VSS
 ms.assetid: debb0731-6e24-4320-8236-220e07ec37c3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter interface,described, base.ivssexpresswriter, vswriter/IVssExpressWriter
 ms.prod: windows
 ms.technology: windows-sdk

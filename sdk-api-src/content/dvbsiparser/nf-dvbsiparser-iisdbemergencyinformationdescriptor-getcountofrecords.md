@@ -4,10 +4,10 @@ title: IIsdbEmergencyInformationDescriptor::GetCountOfRecords
 author: windows-sdk-content
 description: Gets the number of records in an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getcountofrecords.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d23f1cc0-c6b0-4054-80be-36d7675fdec7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbEmergencyInformationDescriptor.GetCountOfRecords, IIsdbEmergencyInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetCountOfRecords, mstv.iisdbemergencyinformationdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

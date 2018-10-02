@@ -4,10 +4,10 @@ title: PathAllocCombine function
 author: windows-sdk-content
 description: Concatenates two path fragments into a single path.
 old-location: shell\PathAllocCombine.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: dd619138-f867-4517-bc67-a52c598efad0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_ENSURE_TRAILING_SLASH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathAllocCombine, PathAllocCombine function [Windows Shell], pathcch/PathAllocCombine, shell.PathAllocCombine
 ms.prod: windows-hardware
 ms.technology: windows-devices

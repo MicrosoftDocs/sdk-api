@@ -4,10 +4,10 @@ title: IPersistQuery
 author: windows-sdk-content
 description: Used to store and retrieve query parameters to and from persistent storage.
 old-location: ad\ipersistquery.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 9d90f119-3d10-4f06-bed4-5ffab9ae14a4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IPersistQuery, IPersistQuery interface [Active Directory], IPersistQuery interface [Active Directory],described, _glines_ipersistquery, ad.ipersistquery, cmnquery/IPersistQuery
 ms.prod: windows
 ms.technology: windows-sdk

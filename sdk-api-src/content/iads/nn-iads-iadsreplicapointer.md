@@ -7,7 +7,7 @@ old-location: adsi\iadsreplicapointer.htm
 tech.root: ADSI
 ms.assetid: c34eab26-540e-4400-873e-7af09fda0bbf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsReplicaPointer, IADsReplicaPointer interface [ADSI], IADsReplicaPointer interface [ADSI],described, ReplicaPointer, _ds_iadsreplicapointer, adsi.iadsreplicapointer, iads/IADsReplicaPointer
 ms.prod: windows
 ms.technology: windows-sdk

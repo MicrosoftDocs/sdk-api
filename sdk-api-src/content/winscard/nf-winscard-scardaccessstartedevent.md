@@ -4,10 +4,10 @@ title: SCardAccessStartedEvent function
 author: windows-sdk-content
 description: Returns an event handle when an event signals that the smart card resource manager is started.
 old-location: security\scardaccessstartedevent.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: ddfab09d-5477-4c4e-883c-d3c19258c49d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SCardAccessStartedEvent, SCardAccessStartedEvent function [Security], _smart_scardaccessstartedevent, security.scardaccessstartedevent, winscard/SCardAccessStartedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

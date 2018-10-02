@@ -7,7 +7,7 @@ old-location: indexsrv\dbgroupinfo.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8s4v.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DBGROUPINFO, DBGROUPINFO structure [Indexing Service], _idxs_DBGROUPINFO, cmdtree/DBGROUPINFO, indexsrv.dbgroupinfo, tagDBGROUPINFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IIsdbCAContractInformationDescriptor::GetFeeNameW
 author: windows-sdk-content
 description: Gets, in Unicode-text format, the value of the fee_name field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field describes the fee for the ES group being described.
 old-location: mstv\iisdbcacontractinformationdescriptor_getfeenamew.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c2fcdcc1-acca-417e-bcf5-baad4ea07cef
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFeeNameW, GetFeeNameW method [Microsoft TV Technologies], GetFeeNameW method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetFeeNameW method, IIsdbCAContractInformationDescriptor.GetFeeNameW, IIsdbCAContractInformationDescriptor::GetFeeNameW, dvbsiparser/IIsdbCAContractInformationDescriptor::GetFeeNameW, mstv.iisdbcacontractinformationdescriptor_getfeenamew
 ms.prod: windows-hardware
 ms.technology: windows-devices

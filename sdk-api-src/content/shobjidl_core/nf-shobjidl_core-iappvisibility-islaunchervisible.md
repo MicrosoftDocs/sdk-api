@@ -4,10 +4,10 @@ title: IAppVisibility::IsLauncherVisible
 author: windows-sdk-content
 description: Gets a value that indicates whether the Start screen is displayed.
 old-location: shell\IAppVisibility_IsLauncherVisible.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8D7BBAEC-A745-4707-861E-74CC331ED356
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IAppVisibility interface [Windows Shell],IsLauncherVisible method, IAppVisibility.IsLauncherVisible, IAppVisibility::IsLauncherVisible, IsLauncherVisible, IsLauncherVisible method [Windows Shell], IsLauncherVisible method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_IsLauncherVisible, shobjidl_core/IAppVisibility::IsLauncherVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

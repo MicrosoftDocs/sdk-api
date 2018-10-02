@@ -4,10 +4,10 @@ title: TdhGetManifestEventInformation function
 author: windows-sdk-content
 description: Retrieves metadata about an event in a manifest.
 old-location: etw\tdhgetmanifesteventinformation.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 71702F1F-1708-4CA2-9BFB-3D7332AB6129
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: TdhGetManifestEventInformation, TdhGetManifestEventInformation function [ETW], etw.tdhgetmanifesteventinformation, tdh/TdhGetManifestEventInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

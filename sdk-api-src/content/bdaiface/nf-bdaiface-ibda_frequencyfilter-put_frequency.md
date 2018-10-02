@@ -4,10 +4,10 @@ title: IBDA_FrequencyFilter::put_Frequency
 author: windows-sdk-content
 description: The put_Frequency method specifies the frequency.
 old-location: mstv\ibda_frequencyfilter_put_frequency.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 70d50a4b-b0f8-42a1-9fa2-1d09376903fe
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Frequency method, IBDA_FrequencyFilter.put_Frequency, IBDA_FrequencyFilter::put_Frequency, IBDA_FrequencyFilterput_Frequency, bdaiface/IBDA_FrequencyFilter::put_Frequency, mstv.ibda_frequencyfilter_put_frequency, put_Frequency, put_Frequency method [Microsoft TV Technologies], put_Frequency method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

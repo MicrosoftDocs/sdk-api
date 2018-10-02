@@ -4,10 +4,10 @@ title: "_IPNG_ADDRESS"
 author: windows-sdk-content
 description: The IPNG_ADDRESS union provides Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6) addresses.
 old-location: madcap\ipng_address.htm
-tech.root: madcap
+tech.root: Madcap
 ms.assetid: c3dc76aa-d903-49be-a4a2-1f66cafff40a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIPNG_ADDRESS, IPNG_ADDRESS, IPNG_ADDRESS union [MADCAP], PIPNG_ADDRESS, PIPNG_ADDRESS union pointer [MADCAP], _IPNG_ADDRESS, _mdhcp_ipng_address, madcap.ipng_address, madcapcl/IPNG_ADDRESS, madcapcl/PIPNG_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk

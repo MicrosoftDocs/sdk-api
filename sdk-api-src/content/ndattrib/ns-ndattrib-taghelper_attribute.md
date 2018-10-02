@@ -4,10 +4,10 @@ title: tagHELPER_ATTRIBUTE
 author: windows-sdk-content
 description: The HELPER_ATTRIBUTE structure contains all NDF supported data types.
 old-location: ndf\helper_attribute.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: bff9303e-7fab-49af-b213-aa0a9c83676e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHELPER_ATTRIBUTE, HELPER_ATTRIBUTE, HELPER_ATTRIBUTE structure [NDF], ndattrib/HELPER_ATTRIBUTE, ndf.helper_attribute, tagHELPER_ATTRIBUTE"
 ms.prod: windows
 ms.technology: windows-sdk

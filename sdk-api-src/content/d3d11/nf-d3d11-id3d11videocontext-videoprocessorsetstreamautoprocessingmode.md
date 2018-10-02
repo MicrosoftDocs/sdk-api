@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode
 author: windows-sdk-content
 description: Enables or disables automatic processing features on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamautoprocessingmode.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 92579A03-AA8A-4D9B-8150-F5FDDBAFC1C1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamAutoProcessingMode method, ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode, ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode, VideoProcessorSetStreamAutoProcessingMode, VideoProcessorSetStreamAutoProcessingMode method [Media Foundation], VideoProcessorSetStreamAutoProcessingMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode, mf.id3d11videocontext_videoprocessorsetstreamautoprocessingmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

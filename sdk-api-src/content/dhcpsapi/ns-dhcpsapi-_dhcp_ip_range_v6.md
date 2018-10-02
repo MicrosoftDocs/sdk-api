@@ -4,10 +4,10 @@ title: "_DHCP_IP_RANGE_V6"
 author: windows-sdk-content
 description: Specifies a range of IPv6 addresses for use with a DHCPv6 server.
 old-location: dhcp\dhcp_ip_range_v6.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 3a918a2b-beff-4562-9c7f-acee2cc8f2da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6 structure [DHCP], PDHCP_IP_RANGE_V6, PDHCP_IP_RANGE_V6 structure pointer [DHCP], _DHCP_IP_RANGE_V6, dhcp.dhcp_ip_range_v6, dhcpsapi/DHCP_IP_RANGE_V6, dhcpsapi/PDHCP_IP_RANGE_V6"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SHCreateStreamOnFileA function
 author: windows-sdk-content
 description: SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx.
 old-location: shell\SHCreateStreamOnFile.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9b1fd6c4-d7b0-40b9-bc9f-ea062a1079c1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateStreamOnFile, SHCreateStreamOnFile function [Windows Shell], SHCreateStreamOnFileA, SHCreateStreamOnFileW, _win32_SHCreateStreamOnFile, shell.SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFileA, shlwapi/SHCreateStreamOnFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\ienumworkitems_clone.htm
 tech.root: TaskSchd
 ms.assetid: c42550df-33ad-49cc-ab89-5f952cce2a83
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Clone, Clone method [Task Scheduler], Clone method [Task Scheduler],IEnumWorkItems interface, IEnumWorkItems interface [Task Scheduler],Clone method, IEnumWorkItems.Clone, IEnumWorkItems::Clone, _msb_ienumworkitems_clone, mstask/IEnumWorkItems::Clone, taskschd.ienumworkitems_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

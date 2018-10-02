@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSink::get_ContentRecorder
 author: windows-sdk-content
 description: The get_ContentRecorder method creates a new content recording object.
 old-location: mstv\imsvidstreambuffersink_get_contentrecorder.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9fecdf37-0ad2-499b-8604-5e60bb0aa6e2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ContentRecorder method, IMSVidStreamBufferSink.get_ContentRecorder, IMSVidStreamBufferSink::get_ContentRecorder, IMSVidStreamBufferSinkget_ContentRecorder, get_ContentRecorder, get_ContentRecorder method [Microsoft TV Technologies], get_ContentRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_contentrecorder, segment/IMSVidStreamBufferSink::get_ContentRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

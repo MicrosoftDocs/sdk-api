@@ -4,10 +4,10 @@ title: SHChangeNotifyRegister function
 author: windows-sdk-content
 description: Registers a window to receive notifications from the file system or Shell, if the file system supports notifications.
 old-location: shell\SHChangeNotifyRegister.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 73143865-ca2f-4578-a7a2-2ba4833eddd8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: NTSHChangeNotifyRegister, SHCNRF_InterruptLevel, SHCNRF_NewDelivery, SHCNRF_RecursiveInterrupt, SHCNRF_ShellLevel, SHChangeNotifyRegister, SHChangeNotifyRegister function [Windows Shell], _win32_SHChangeNotifyRegister, shell.SHChangeNotifyRegister, shlobj_core/NTSHChangeNotifyRegister, shlobj_core/SHChangeNotifyRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

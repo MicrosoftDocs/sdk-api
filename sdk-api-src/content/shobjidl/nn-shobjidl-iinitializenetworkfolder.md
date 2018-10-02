@@ -4,10 +4,10 @@ title: IInitializeNetworkFolder
 author: windows-sdk-content
 description: Exposes a method that initializes the network data source CLSID_NetworkPlaces as specified.
 old-location: shell\IInitializeNetworkFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 65072af3-7583-4b15-b282-e7aa50cae3a8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IInitializeNetworkFolder, IInitializeNetworkFolder interface [Windows Shell], IInitializeNetworkFolder interface [Windows Shell],described, _shell_IInitializeNetworkFolder, shell.IInitializeNetworkFolder, shobjidl/IInitializeNetworkFolder
 ms.prod: windows
 ms.technology: windows-sdk

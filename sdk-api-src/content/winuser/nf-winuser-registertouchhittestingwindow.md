@@ -7,7 +7,7 @@ old-location: input_touchhittest\registertouchhittestingwindow.htm
 tech.root: Input_TouchHitTest
 ms.assetid: 52e48cea-b5c7-405f-8df6-26052304b62c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: RegisterTouchHitTestingWindow, RegisterTouchHitTestingWindow function, input_touchhittest.registertouchhittestingwindow, touch_hittest.registertouchhittestingwindow, winuser/RegisterTouchHitTestingWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

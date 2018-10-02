@@ -4,10 +4,10 @@ title: IComponent
 author: windows-sdk-content
 description: The IComponent interface a base class for all derived interfaces such as IMPEG2Component and it describes the general characteristics of a component, which is an elementary stream within the program stream.
 old-location: mstv\icomponent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 516b30ba-4f55-49b7-8085-d436bf4a94e1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IComponent, IComponent interface [Microsoft TV Technologies], IComponent interface [Microsoft TV Technologies],described, IComponentInterface, mstv.icomponent, tuner/IComponent
 ms.prod: windows
 ms.technology: windows-sdk

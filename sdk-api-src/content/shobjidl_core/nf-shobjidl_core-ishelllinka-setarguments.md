@@ -1,0 +1,111 @@
+---
+UID: NF:shobjidl_core.IShellLinkA.SetArguments
+title: IShellLinkA::SetArguments
+author: windows-sdk-content
+description: Sets the command-line arguments for a Shell link object.
+old-location: shell\IShellLink_SetArguments.htm
+tech.root: Shell
+ms.assetid: 5ad5fabd-be12-40bc-a6b3-498bcde7223a
+ms.author: windowssdkdev
+ms.date: 09/27/2018
+ms.keywords: IShellLink interface [Windows Shell],SetArguments method, IShellLink::SetArguments, IShellLinkA interface [Windows Shell],SetArguments method, IShellLinkA.SetArguments, IShellLinkA::SetArguments, IShellLinkW interface [Windows Shell],SetArguments method, IShellLinkW::SetArguments, SetArguments, SetArguments method [Windows Shell], SetArguments method [Windows Shell],IShellLink interface, SetArguments method [Windows Shell],IShellLinkA interface, SetArguments method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetArguments, shell.IShellLink_SetArguments, shobjidl_core/IShellLink::SetArguments, shobjidl_core/IShellLinkA::SetArguments, shobjidl_core/IShellLinkW::SetArguments
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLink.SetArguments
+ - IShellLinkA.SetArguments
+ - IShellLinkW.SetArguments
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IShellLinkA::SetArguments
+
+
+## -description
+
+
+Sets the command-line arguments for a Shell link object.
+
+
+## -parameters
+
+
+
+
+### -param pszArgs [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a buffer that contains the new command-line arguments. In the case of a Unicode string, there is no limitation on maximum string length. In the case of an ANSI string, the maximum length of the returned string varies depending on the version of Windows—MAX_PATH prior to Windows 2000 and INFOTIPSIZE (defined in Commctrl.h) in Windows 2000 and later.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This method is useful when creating a link to an application that takes special flags as arguments, such as a compiler.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a>
+
+
+
+<a href="https://msdn.microsoft.com/bd807387-1998-4b38-996f-6dbacefffa48">IShellLink::GetArguments</a>
+
+
+
+<b>IShellLinkA</b>
+
+
+
+<b>IShellLinkW</b>
+ 
+
+ 
+

@@ -4,10 +4,10 @@ title: NetFileEnum function
 author: windows-sdk-content
 description: Returns information about some or all open files on a server, depending on the parameters specified.
 old-location: fs\netfileenum.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: 1375b337-efb0-4be1-94f7-473456a825b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: 2, 3, NetFileEnum, NetFileEnum function [Files], _win32_netfileenum, fs.netfileenum, lmshare/NetFileEnum, netmgmt.netfileenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

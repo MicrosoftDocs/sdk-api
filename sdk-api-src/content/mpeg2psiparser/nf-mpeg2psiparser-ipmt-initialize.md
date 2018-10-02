@@ -4,10 +4,10 @@ title: IPMT::Initialize
 author: windows-sdk-content
 description: The Initialize method initializes the object using captured table section data. This method is called internally by the IAtscPsipParser::GetPMT method, so applications typically should not call it.
 old-location: mstv\ipmt_initialize.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d9f5e6b0-4317-40cd-9664-e2cc6d1a8833
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],Initialize method, IPMT.Initialize, IPMT::Initialize, IPMTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::Initialize, mstv.ipmt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

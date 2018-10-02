@@ -4,10 +4,10 @@ title: IMFWorkQueueServicesEx::BeginRegisterPlatformWorkQueueWithMMCSSEx
 author: windows-sdk-content
 description: Registers a platform work queue with Multimedia Class Scheduler Service (MMCSS) using the specified class and task id.
 old-location: mf\imfworkqueueservicesex_beginregisterplatformworkqueuewithmmcssex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 761e0e51-06e9-4b26-b6ad-afeaa7150e64
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: BeginRegisterPlatformWorkQueueWithMMCSSEx, BeginRegisterPlatformWorkQueueWithMMCSSEx method [Media Foundation], BeginRegisterPlatformWorkQueueWithMMCSSEx method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],BeginRegisterPlatformWorkQueueWithMMCSSEx method, IMFWorkQueueServicesEx.BeginRegisterPlatformWorkQueueWithMMCSSEx, IMFWorkQueueServicesEx::BeginRegisterPlatformWorkQueueWithMMCSSEx, mf.imfworkqueueservicesex_beginregisterplatformworkqueuewithmmcssex, mfidl/IMFWorkQueueServicesEx::BeginRegisterPlatformWorkQueueWithMMCSSEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

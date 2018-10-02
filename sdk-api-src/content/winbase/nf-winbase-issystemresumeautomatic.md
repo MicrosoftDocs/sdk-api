@@ -4,10 +4,10 @@ title: IsSystemResumeAutomatic function
 author: windows-sdk-content
 description: Determines the current state of the computer.
 old-location: base\issystemresumeautomatic.htm
-tech.root: power
+tech.root: Power
 ms.assetid: fc9d69cf-26cf-4973-a154-1acb26773738
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IsSystemResumeAutomatic, IsSystemResumeAutomatic function, _win32_issystemresumeautomatic, base.issystemresumeautomatic, winbase/IsSystemResumeAutomatic
 ms.prod: windows-hardware
 ms.technology: windows-devices

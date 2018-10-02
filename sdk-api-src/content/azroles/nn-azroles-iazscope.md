@@ -7,7 +7,7 @@ old-location: security\iazscope.htm
 tech.root: SecAuthZ
 ms.assetid: f7abe7cb-8827-46f6-85fe-99282582a3d4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAzScope, IAzScope interface [Security], IAzScope interface [Security],described, azroles/IAzScope, security.iazscope
 ms.prod: windows
 ms.technology: windows-sdk

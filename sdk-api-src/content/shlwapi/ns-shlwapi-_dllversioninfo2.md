@@ -4,10 +4,10 @@ title: "_DLLVERSIONINFO2"
 author: windows-sdk-content
 description: Receives DLL-specific version information. It is used with the DllGetVersion function.
 old-location: shell\DLLVERSIONINFO2_0rjh.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1648924d-0727-4cee-80d3-f97550f235cd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DLLVERSIONINFO2, DLLVERSIONINFO2 structure [Windows Shell], _DLLVERSIONINFO2, _win32_DLLVERSIONINFO2_0rjh, shell.DLLVERSIONINFO2_0rjh, shlwapi/DLLVERSIONINFO2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMSVidDevice::get_Status
 author: windows-sdk-content
 description: The get_Status method retrieves status information about the device.
 old-location: mstv\imsviddevice_get_status.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b11df7f3-d227-4c74-89a3-90716b3b3a12
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Status method, IMSVidDevice.get_Status, IMSVidDevice::get_Status, IMSVidDeviceget_Status, get_Status, get_Status method [Microsoft TV Technologies], get_Status method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_status, segment/IMSVidDevice::get_Status
 ms.prod: windows-hardware
 ms.technology: windows-devices

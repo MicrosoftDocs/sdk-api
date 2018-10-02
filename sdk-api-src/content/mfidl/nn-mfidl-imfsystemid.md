@@ -4,10 +4,10 @@ title: IMFSystemId
 author: windows-sdk-content
 description: Provides a method that retireves system id data.
 old-location: mf\imfsystemid.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 45c80fc5-5ea7-4d4e-9c9c-5a38f62b2d28
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSystemId, IMFSystemId interface [Media Foundation], IMFSystemId interface [Media Foundation],described, mf.imfsystemid, mfidl/IMFSystemId
 ms.prod: windows
 ms.technology: windows-sdk

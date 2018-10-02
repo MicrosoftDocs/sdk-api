@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer2::put_SuppressEffects
 author: windows-sdk-content
 description: The put_SuppressEffects method sets preferences for power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_put_suppresseffects.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d362addb-626a-42f8-9b95-82189a338527
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVideoRenderer2.put_SuppressEffects, IMSVidVideoRenderer2::put_SuppressEffects, IMSVidVideoRenderer2put_SuppressEffects, mstv.imsvidvideorenderer2_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, segment/IMSVidVideoRenderer2::put_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

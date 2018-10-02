@@ -4,10 +4,10 @@ title: ISyncMgrSyncCallback::CommitItem
 author: windows-sdk-content
 description: Confirms a specified item as a member of the handler's sync set and confirms that it should be shown in the UI.
 old-location: shell\ISyncMgrSyncCallback_CommitItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e0964cd3-42ad-4af0-90b2-0f365f457448
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CommitItem, CommitItem method [Windows Shell], CommitItem method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CommitItem method, ISyncMgrSyncCallback.CommitItem, ISyncMgrSyncCallback::CommitItem, _shell_ISyncMgrSyncCallback_CommitItem, shell.ISyncMgrSyncCallback_CommitItem, syncmgr/ISyncMgrSyncCallback::CommitItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

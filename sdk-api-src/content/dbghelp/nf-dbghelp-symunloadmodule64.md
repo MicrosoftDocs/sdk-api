@@ -7,7 +7,7 @@ old-location: base\symunloadmodule64.htm
 tech.root: debug
 ms.assetid: f4801039-eba2-4ec3-8c23-706ab89bb442
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUnloadModule64 function, _win32_symunloadmodule64, base.symunloadmodule64, dbghelp/SymUnloadModule, dbghelp/SymUnloadModule64
 ms.prod: windows-hardware
 ms.technology: windows-devices

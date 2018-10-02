@@ -4,10 +4,10 @@ title: PeerGroupEnumMembers function
 author: windows-sdk-content
 description: The PeerGroupEnumMembers function creates an enumeration of available peer group members and the associated membership information.
 old-location: p2p\peergroupenummembers.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 1201ce0b-961a-4848-9b9c-ad6491e3ff4a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PEER_MEMBER_PRESENT, PeerGroupEnumMembers, PeerGroupEnumMembers function [Peer Networking], p2p.peergroupenummembers, p2p/PeerGroupEnumMembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

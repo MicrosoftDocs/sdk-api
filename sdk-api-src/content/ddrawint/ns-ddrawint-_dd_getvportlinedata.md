@@ -4,10 +4,10 @@ title: "_DD_GETVPORTLINEDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTLINEDATA structure contains the current line number of the hardware video port.
 old-location: display\dd_getvportlinedata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d8b2803c-38be-40ea-b46b-4bab1ce55534
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA structure [Display Devices], _DD_GETVPORTLINEDATA, ddrawint/DD_GETVPORTLINEDATA, ddstrcts_81a8dc13-0681-4135-a74a-f7aa22408156.xml, display.dd_getvportlinedata"
 ms.prod: windows
 ms.technology: windows-sdk

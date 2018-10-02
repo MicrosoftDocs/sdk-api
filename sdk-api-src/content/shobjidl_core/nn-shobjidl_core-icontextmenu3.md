@@ -4,10 +4,10 @@ title: IContextMenu3
 author: windows-sdk-content
 description: Exposes methods that either create or merge a shortcut menu associated with a Shell object. Allows client objects to handle messages associated with owner-drawn menu items and extends IContextMenu2 by accepting a return value from that message handling.
 old-location: shell\IContextMenu3.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IContextMenu3, IContextMenu3 interface [Windows Shell], IContextMenu3 interface [Windows Shell],described, _win32_IContextMenu3, shell.IContextMenu3, shobjidl_core/IContextMenu3
 ms.prod: windows
 ms.technology: windows-sdk

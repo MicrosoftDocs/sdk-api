@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getexitcode.htm
 tech.root: TaskSchd
 ms.assetid: 857d8b84-2ccf-4888-8aea-869ba70d3f64
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetExitCode method, IScheduledWorkItem.GetExitCode, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

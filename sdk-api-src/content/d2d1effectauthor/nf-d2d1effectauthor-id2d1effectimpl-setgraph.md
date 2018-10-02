@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effectimpl_setgraph.htm
 tech.root: direct2d
 ms.assetid: 3255CD0D-5B73-4020-965E-2CBBEF5BA35B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],SetGraph method, ID2D1EffectImpl.SetGraph, ID2D1EffectImpl::SetGraph, SetGraph, SetGraph method [Direct2D], SetGraph method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::SetGraph, direct2d.id2d1effectimpl_setgraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

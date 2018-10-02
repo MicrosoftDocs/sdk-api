@@ -4,10 +4,10 @@ title: SCardGetDeviceTypeIdW function
 author: windows-sdk-content
 description: Gets the device type identifier of the card reader for the given reader name. This function does not affect the state of the reader.
 old-location: security\scardgetdevicetypeid.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: E637B5D6-B605-4216-9581-7E4ADC75F75A
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SCardGetDeviceTypeId, SCardGetDeviceTypeId function [Security], SCardGetDeviceTypeIdA, SCardGetDeviceTypeIdW, security.scardgetdevicetypeid, winscard/SCardGetDeviceTypeId, winscard/SCardGetDeviceTypeIdA, winscard/SCardGetDeviceTypeIdW
 ms.prod: windows-hardware
 ms.technology: windows-devices

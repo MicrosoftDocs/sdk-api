@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfile.htm
 tech.root: appxpkg
 ms.assetid: 4C380E2F-8125-4147-97F5-BEDF5BEFB81D
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], IAppxBlockMapFile interface [App packaging and management],described, appxpackaging/IAppxBlockMapFile, appxpkg.iappxblockmapfile
 ms.prod: windows
 ms.technology: windows-sdk

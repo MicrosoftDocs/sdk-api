@@ -7,7 +7,7 @@ old-location: lwef\ireconcileinitiator_setprogressfeedback.htm
 tech.root: lwef
 ms.assetid: faa685f1-e203-4d8a-a1c3-d544b8e5271d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IReconcileInitiator interface [Legacy Windows Environment Features],SetProgressFeedback method, IReconcileInitiator.SetProgressFeedback, IReconcileInitiator::SetProgressFeedback, SetProgressFeedback, SetProgressFeedback method [Legacy Windows Environment Features], SetProgressFeedback method [Legacy Windows Environment Features],IReconcileInitiator interface, _win32_IReconcileInitiator_SetProgressFeedback, lwef.ireconcileinitiator_setprogressfeedback, reconcil/IReconcileInitiator::SetProgressFeedback, shell.ireconcileinitiator_setprogressfeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices

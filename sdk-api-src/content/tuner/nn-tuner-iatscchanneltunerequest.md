@@ -4,10 +4,10 @@ title: IATSCChannelTuneRequest
 author: windows-sdk-content
 description: The IATSCChannelTuneRequest interface provides methods for tuning to a channel in an ATSC network. The ATSCChannelTuneRequest object implements this interface.
 old-location: mstv\iatscchanneltunerequest.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9b55e181-ae03-473c-a85a-f169744d911d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IATSCChannelTuneRequest, IATSCChannelTuneRequest interface [Microsoft TV Technologies], IATSCChannelTuneRequest interface [Microsoft TV Technologies],described, IATSCChannelTuneRequestInterface, mstv.iatscchanneltunerequest, tuner/IATSCChannelTuneRequest
 ms.prod: windows
 ms.technology: windows-sdk

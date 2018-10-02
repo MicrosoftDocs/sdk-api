@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionvariable_getdesc.htm
 tech.root: direct3d12
 ms.assetid: 21CF98AF-5645-4059-992A-FFF778576C93
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetDesc method, ID3D12ShaderReflectionVariable.GetDesc, ID3D12ShaderReflectionVariable::GetDesc, d3d12shader/ID3D12ShaderReflectionVariable::GetDesc, direct3d12.id3d12shaderreflectionvariable_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

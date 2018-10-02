@@ -7,7 +7,7 @@ old-location: security\setsecuritydescriptorowner.htm
 tech.root: SecAuthZ
 ms.assetid: cb3ba617-322a-4b8c-a9d5-32910315fb56
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetSecurityDescriptorOwner, SetSecurityDescriptorOwner function [Security], _win32_setsecuritydescriptorowner, security.setsecuritydescriptorowner, securitybaseapi/SetSecurityDescriptorOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

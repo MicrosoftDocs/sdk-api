@@ -4,10 +4,10 @@ title: PowerUnregisterSuspendResumeNotification function
 author: windows-sdk-content
 description: Cancels a registration to receive notification when the system is suspended or resumed.
 old-location: base\powerunregistersuspendresumenotification.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 5680e6bd-1694-4d5f-94ea-41b24149c741
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PowerUnregisterSuspendResumeNotification, PowerUnregisterSuspendResumeNotification function, base.powerunregistersuspendresumenotification, powerbase/PowerUnregisterSuspendResumeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

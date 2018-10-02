@@ -4,10 +4,10 @@ title: IFolderView2::SetGroupSubsetCount
 author: windows-sdk-content
 description: Turns on group subsetting and sets the number of visible rows of items in each group.
 old-location: shell\IFolderView2_SetGroupSubsetCount.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5aacc63a-d129-4539-a43f-f4dd74ab4fea
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupSubsetCount method, IFolderView2.SetGroupSubsetCount, IFolderView2::SetGroupSubsetCount, SetGroupSubsetCount, SetGroupSubsetCount method [Windows Shell], SetGroupSubsetCount method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupSubsetCount, shell.IFolderView2_SetGroupSubsetCount, shobjidl_core/IFolderView2::SetGroupSubsetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

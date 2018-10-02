@@ -4,10 +4,10 @@ title: IDsDisplaySpecifier::SetLanguageID
 author: windows-sdk-content
 description: Changes the locale used by the IDsDisplaySpecifier object to a specified language.
 old-location: ad\idsdisplayspecifier_setlanguageid.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 306538a4-dccc-4f4f-89fa-491d08718d14
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IDsDisplaySpecifier interface [Active Directory],SetLanguageID method, IDsDisplaySpecifier.SetLanguageID, IDsDisplaySpecifier::SetLanguageID, SetLanguageID, SetLanguageID method [Active Directory], SetLanguageID method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_setlanguageid, ad.idsdisplayspecifier__setlanguageid, ad.idsdisplayspecifier_setlanguageid, dsclient/IDsDisplaySpecifier::SetLanguageID
 ms.prod: windows-hardware
 ms.technology: windows-devices

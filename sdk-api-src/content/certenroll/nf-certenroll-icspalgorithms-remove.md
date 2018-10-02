@@ -7,7 +7,7 @@ old-location: security\icspalgorithms_remove_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 9116ca78-3b99-4b9a-97af-d01077e201f7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICspAlgorithms interface [Security],Remove method, ICspAlgorithms.Remove, ICspAlgorithms::Remove, Remove, Remove method [Security], Remove method [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::Remove, security.icspalgorithms_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

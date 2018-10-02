@@ -4,10 +4,10 @@ title: IProgressDialog::SetTitle
 author: windows-sdk-content
 description: Sets the title of the progress dialog box.
 old-location: shell\IProgressDialog_SetTitle.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c5474ab2-bd13-45ba-9df5-977b909b0726
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetTitle method, IProgressDialog.SetTitle, IProgressDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetTitle, shell.IProgressDialog_SetTitle, shlobj_core/IProgressDialog::SetTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

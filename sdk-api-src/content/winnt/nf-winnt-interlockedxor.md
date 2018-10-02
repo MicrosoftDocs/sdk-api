@@ -7,7 +7,7 @@ old-location: base\interlockedxor.htm
 tech.root: Sync
 ms.assetid: c4815bf2-e06d-4dcf-a460-a88c4c9a3c27
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InterlockedXor, InterlockedXor function, base.interlockedxor, winnt/InterlockedXor
 ms.prod: windows-hardware
 ms.technology: windows-devices

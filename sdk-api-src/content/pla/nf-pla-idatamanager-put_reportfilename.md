@@ -7,7 +7,7 @@ old-location: pla\idatamanager_reportfilename.htm
 tech.root: PLA
 ms.assetid: 5b4c1d99-2f41-423a-b019-845dcd61d516
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: IDataManager interface [PLA],ReportFileName property, IDataManager.ReportFileName, IDataManager.put_ReportFileName, IDataManager::ReportFileName, IDataManager::get_ReportFileName, IDataManager::put_ReportFileName, ReportFileName property [PLA], ReportFileName property [PLA],IDataManager interface, base.idatamanager_reportfilename, pla.idatamanager_reportfilename, pla/IDataManager::ReportFileName, pla/IDataManager::get_ReportFileName, pla/IDataManager::put_ReportFileName, put_ReportFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CItemIDFactory::GetPropertyStorage
 author: windows-sdk-content
 description: Gets a read only pointer to the serialized property storage that is used for storing metadata.
 old-location: shell\citemidfactory_getpropertystorage.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3A3F0F28-C9E1-4F2E-9A02-C6A48BF3C204
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorage method, CItemIDFactory.GetPropertyStorage, CItemIDFactory::GetPropertyStorage, GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystorage, shidfact/CItemIDFactory::GetPropertyStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\makeselfrelativesd.htm
 tech.root: SecAuthZ
 ms.assetid: 497c7e2f-75b7-41b9-9693-37e041b7af58
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MakeSelfRelativeSD, MakeSelfRelativeSD function [Security], _win32_makeselfrelativesd, security.makeselfrelativesd, securitybaseapi/MakeSelfRelativeSD
 ms.prod: windows-hardware
 ms.technology: windows-devices

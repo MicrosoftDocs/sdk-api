@@ -7,7 +7,7 @@ old-location: toolhelp\thread32first.htm
 tech.root: ToolHelp
 ms.assetid: d4cb7a19-850e-43b5-bda5-91be48382d2a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Thread32First, Thread32First function [ToolHelp], _win32_thread32first, base.thread32first, tlhelp32/Thread32First, toolhelp.thread32first
 ms.prod: windows-hardware
 ms.technology: windows-devices

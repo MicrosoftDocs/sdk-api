@@ -4,10 +4,10 @@ title: IDVBSLocator::put_OrbitalPosition
 author: windows-sdk-content
 description: The put_OrbitalPosition method sets the setting for the satellite's orbital position.
 old-location: mstv\idvbslocator_put_orbitalposition.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2de4d67c-5d99-47c2-99bf-e4f40c6247a5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_OrbitalPosition method, IDVBSLocator.put_OrbitalPosition, IDVBSLocator::put_OrbitalPosition, IDVBSLocatorput_OrbitalPosition, mstv.idvbslocator_put_orbitalposition, put_OrbitalPosition, put_OrbitalPosition method [Microsoft TV Technologies], put_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_OrbitalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

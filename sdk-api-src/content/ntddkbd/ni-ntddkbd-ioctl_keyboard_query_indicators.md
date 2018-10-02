@@ -3,12 +3,12 @@ UID: NI:ntddkbd.IOCTL_KEYBOARD_QUERY_INDICATORS
 title: IOCTL_KEYBOARD_QUERY_INDICATORS
 author: windows-sdk-content
 description: The IOCTL_KEYBOARD_QUERY_INDICATORS request returns information about the keyboard indicators.
-old-location: hid\ioctl_keyboard_query_indicators.htm
+old-location: hid\ioctl_keyboard_query_indicators2.htm
 tech.root: hid
-ms.assetid: 3d70b34c-e201-40fc-99dd-cd05bdeec5f8
+ms.assetid: ca031026-a077-4270-addd-a0a8c22f46b6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
-ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATORS, IOCTL_KEYBOARD_QUERY_INDICATORS control, IOCTL_KEYBOARD_QUERY_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_query_indicators, kref_41aef51b-c9f1-4549-b67a-cb7a3a9424c4.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS
+ms.date: 10/01/2018
+ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATORS, IOCTL_KEYBOARD_QUERY_INDICATORS control, IOCTL_KEYBOARD_QUERY_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_query_indicators2, i8042ref_d34933a9-dfd8-464b-9653-7b344b5007e3.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: ioctl
@@ -51,10 +51,6 @@ req.redist:
 
 
 The IOCTL_KEYBOARD_QUERY_INDICATORS request returns information about the keyboard indicators.
-     
-    
-
-Kbdclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="https://msdn.microsoft.com/fb3d4534-9c6f-4956-b702-5752f9798600">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
 
 
 ## -ioctlparameters
@@ -64,21 +60,17 @@ Kbdclass copies the current stack location, sets the <b>MajorFunction</b> member
 
 ### -input-buffer
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to zero or a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/fd47b0ab-b66b-49a0-8302-2c45399d9963">KEYBOARD_UNIT_ID_PARAMETER</a>. A value of zero specifies a default unit ID of zero.
-
-The <b>AssociatedIrp.SystemBuffer </b>member points to a client-allocated buffer that is used to input and output information. On input, <b>AssociatedIrp.SystemBuffer</b> points to a KEYBOARD_UNIT_ID_PARAMETER structure. The client sets the <b>UnitId</b> member of the input structure.
-
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of the output buffer, which must be greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/fd47b0ab-b66b-49a0-8302-2c45399d9963">KEYBOARD_UNIT_ID_PARAMETER</a> structure.
+The size of a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
 
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that the lower-level drivers use to output a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that I8042prt uses to output a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
 
 
 ### -output-buffer-length
@@ -106,7 +98,7 @@ The size of  a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb6
 
 ### -status-block
 
-If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a KEYBOARD_INDICATOR_PARAMETERS structure.
+If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a KEYBOARD_INDICATOR_PARAMETERS structure. Otherwise, <b>Information</b> is set to zero.
 
 The <b>Status</b> member is set to one the following values:
 
@@ -115,12 +107,7 @@ The <b>Status</b> member is set to one the following values:
 
 #### -STATUS_BUFFER_TOO_SMALL
 
-The output buffer cannot hold the KEYBOARD_INDICATOR_PARAMETERS structure.
-
-
-#### -STATUS_INVALID_PARAMETER
-
-The <b>UnitId</b> value is not valid.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than the size, in bytes, of a KEYBOARD_INDICATOR_PARAMETERS structure.
 
 
 #### -STATUS_SUCCESS
@@ -145,19 +132,7 @@ The request completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/25631717-8aee-4eac-8337-46b13aa714a4">IOCTL_KEYBOARD_SET_INDICATORS</a>
-
-
-
-<a href="https://msdn.microsoft.com/27c538dd-19e2-4b5a-9605-0efb0f78e008">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
-
-
-
 <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/fd47b0ab-b66b-49a0-8302-2c45399d9963">KEYBOARD_UNIT_ID_PARAMETER</a>
  
 
  

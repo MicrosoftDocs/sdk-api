@@ -4,10 +4,10 @@ title: IMFASFContentInfo::SetProfile
 author: windows-sdk-content
 description: Uses profile data from a profile object to configure settings in the ContentInfo object.
 old-location: mf\imfasfcontentinfo_setprofile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7e7e062d-9507-400a-8cc2-5355c12017f5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 7e7e062d-9507-400a-8cc2-5355c12017f5, IMFASFContentInfo interface [Media Foundation],SetProfile method, IMFASFContentInfo.SetProfile, IMFASFContentInfo::SetProfile, SetProfile, SetProfile method [Media Foundation], SetProfile method [Media Foundation],IMFASFContentInfo interface, mf.imfasfcontentinfo_setprofile, wmcontainer/IMFASFContentInfo::SetProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

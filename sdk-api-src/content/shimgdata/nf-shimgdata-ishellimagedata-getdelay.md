@@ -4,10 +4,10 @@ title: IShellImageData::GetDelay
 author: windows-sdk-content
 description: Gets the delay value for the current frame of an animation.
 old-location: shell\IShellImageData_GetDelay.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b5815771-7c96-4431-bc43-a5e620bd1d2f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetDelay, GetDelay method [Windows Shell], GetDelay method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetDelay method, IShellImageData.GetDelay, IShellImageData::GetDelay, _shell_IShellImageData_GetDelay, shell.IShellImageData_GetDelay, shimgdata/IShellImageData::GetDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

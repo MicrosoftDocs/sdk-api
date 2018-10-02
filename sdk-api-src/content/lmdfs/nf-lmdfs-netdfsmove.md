@@ -4,10 +4,10 @@ title: NetDfsMove function
 author: windows-sdk-content
 description: Renames or moves a DFS link.
 old-location: dfs\netdfsmove.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: d9d225ac-26b9-4074-93b6-6294538a3504
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DFS_MOVE_FLAG_REPLACE_IF_EXISTS, NetDfsMove, NetDfsMove function [Distributed File System], dfs.netdfsmove, fs.netdfsmove, lmdfs/NetDfsMove, netmgmt.netdfsmove
 ms.prod: windows-hardware
 ms.technology: windows-devices

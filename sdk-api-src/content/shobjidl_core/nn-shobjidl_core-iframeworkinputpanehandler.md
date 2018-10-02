@@ -4,10 +4,10 @@ title: IFrameworkInputPaneHandler
 author: windows-sdk-content
 description: Enables an app to be notified when the input pane (the on-screen keyboard or handwriting panel) is being shown or hidden. This allows the app window to adjust its display so that no input areas (such as a text box) are obscured by the input pane.
 old-location: shell\IFrameworkInputPaneHandler.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: E8038442-9E96-4eee-968E-3A6BC747852D
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFrameworkInputPaneHandler, IFrameworkInputPaneHandler interface [Windows Shell], IFrameworkInputPaneHandler interface [Windows Shell],described, shell.IFrameworkInputPaneHandler, shobjidl_core/IFrameworkInputPaneHandler
 ms.prod: windows
 ms.technology: windows-sdk

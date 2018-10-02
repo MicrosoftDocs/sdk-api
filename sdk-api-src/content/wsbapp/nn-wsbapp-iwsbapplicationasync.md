@@ -7,7 +7,7 @@ old-location: wsb\iwsbapplicationasync.htm
 tech.root: wsb
 ms.assetid: cd8f74c0-c2dc-487c-b702-1e1355e99b7d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWsbApplicationAsync, IWsbApplicationAsync interface [Windows Server Backup], IWsbApplicationAsync interface [Windows Server Backup],described, wsb.iwsbapplicationasync, wsbapp/IWsbApplicationAsync
 ms.prod: windows
 ms.technology: windows-sdk

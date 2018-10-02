@@ -7,7 +7,7 @@ old-location: fs\openntmsnotification.htm
 tech.root: Rsm
 ms.assetid: a5b6ab4a-ab4c-4c84-877f-824dc9ac19a7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OpenNtmsNotification, OpenNtmsNotification function [Files], _zaw_openntmsnotification, base.openntmsnotification, fs.openntmsnotification, ntmsapi/OpenNtmsNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

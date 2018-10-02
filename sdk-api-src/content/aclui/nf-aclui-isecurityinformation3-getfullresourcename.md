@@ -7,7 +7,7 @@ old-location: security\isecurityinformation3_getfullresourcename.htm
 tech.root: SecAuthZ
 ms.assetid: a22b9a75-6aa8-4b32-8d86-7fb21afd248f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFullResourceName, GetFullResourceName method [Security], GetFullResourceName method [Security],ISecurityInformation3 interface, ISecurityInformation3 interface [Security],GetFullResourceName method, ISecurityInformation3.GetFullResourceName, ISecurityInformation3::GetFullResourceName, aclui/ISecurityInformation3::GetFullResourceName, security.isecurityinformation3_getfullresourcename
 ms.prod: windows-hardware
 ms.technology: windows-devices

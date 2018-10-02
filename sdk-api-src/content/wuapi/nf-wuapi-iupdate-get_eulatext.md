@@ -4,10 +4,10 @@ title: IUpdate::get_EulaText
 author: windows-sdk-content
 description: Gets the full localized text of the Microsoft Software License Terms that are associated with the update.
 old-location: wua\iupdate_eulatext.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4c3ddc9c-0261-46e8-92df-d125fea46991
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: EulaText property [Windows Update Agent], EulaText property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],EulaText property, IUpdate.EulaText, IUpdate.get_EulaText, IUpdate::EulaText, IUpdate::get_EulaText, get_EulaText, wua.iupdate_eulatext, wuapi/IUpdate::EulaText, wuapi/IUpdate::get_EulaText
 ms.prod: windows-hardware
 ms.technology: windows-devices

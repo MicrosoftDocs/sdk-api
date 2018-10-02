@@ -4,10 +4,10 @@ title: "_VENDORPROPERTIES"
 author: windows-sdk-content
 description: The values of the VENDORPROPERTIES enumeration type specify properties of objects in the vendors collection.
 old-location: nps\SDO_vendorproperties.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: 0449833a-d1a1-4ea0-901e-362557eb481d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PROPERTY_NAS_VENDOR_ID, VENDORPROPERTIES, VENDORPROPERTIES enumeration [Network Policy Server], _VENDORPROPERTIES, _sdo_vendorproperties, nps.SDO_vendorproperties, sdo.vendorproperties, sdoias/PROPERTY_NAS_VENDOR_ID, sdoias/VENDORPROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

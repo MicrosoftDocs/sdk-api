@@ -7,7 +7,7 @@ old-location: pla\idatacollector_xml.htm
 tech.root: PLA
 ms.assetid: c362cd5f-2db3-40ad-8f5e-e75a40db204c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: IDataCollector interface [PLA],Xml property, IDataCollector.Xml, IDataCollector.get_Xml, IDataCollector::Xml, IDataCollector::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollector interface, base.idatacollector_xml, get_Xml, pla.idatacollector_xml, pla/IDataCollector::Xml, pla/IDataCollector::get_Xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

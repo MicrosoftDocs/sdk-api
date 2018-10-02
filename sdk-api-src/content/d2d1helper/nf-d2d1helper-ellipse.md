@@ -7,7 +7,7 @@ old-location: direct2d\ellipse.htm
 tech.root: direct2d
 ms.assetid: 49d1b737-acf3-4dd7-81ce-c78ac0558a87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: Ellipse, Ellipse function [Direct2D], d2d1helper/Ellipse, direct2d.ellipse
 ms.prod: windows-hardware
 ms.technology: windows-devices

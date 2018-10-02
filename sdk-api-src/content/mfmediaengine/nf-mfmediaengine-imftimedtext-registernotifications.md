@@ -4,10 +4,10 @@ title: IMFTimedText::RegisterNotifications
 author: windows-sdk-content
 description: Registers a timed-text notify object.
 old-location: mf\imftimedtext_registernotifications.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0C43CD34-22A2-440A-97D5-682D979B52A9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFTimedText interface [Media Foundation],RegisterNotifications method, IMFTimedText.RegisterNotifications, IMFTimedText::RegisterNotifications, RegisterNotifications, RegisterNotifications method [Media Foundation], RegisterNotifications method [Media Foundation],IMFTimedText interface, mf.imftimedtext_registernotifications, mfmediaengine/IMFTimedText::RegisterNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DD_COLORCONTROLDATA"
 author: windows-sdk-content
 description: The DD_COLORCONTROLDATA structure contains the color control information for the specified overlay.
 old-location: display\dd_colorcontroldata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 7c983faa-de9d-4a04-ac8d-d37fb182a662
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA, DD_COLORCONTROLDATA structure [Display Devices], _DD_COLORCONTROLDATA, ddrawint/DD_COLORCONTROLDATA, ddstrcts_5bc6386d-437a-4fa7-b9ac-def03150b340.xml, display.dd_colorcontroldata"
 ms.prod: windows
 ms.technology: windows-sdk

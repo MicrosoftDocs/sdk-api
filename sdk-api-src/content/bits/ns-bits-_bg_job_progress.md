@@ -4,10 +4,10 @@ title: "_BG_JOB_PROGRESS"
 author: windows-sdk-content
 description: The BG_JOB_PROGRESS structure provides job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\bg_job_progress.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 92c5d1d6-1e0b-4b92-9dc5-ec9a4e2c4649
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: BG_JOB_PROGRESS, BG_JOB_PROGRESS structure [BITS], _BG_JOB_PROGRESS, _drz_bg_job_progress, bits.bg_job_progress, bits/BG_JOB_PROGRESS
 ms.prod: windows
 ms.technology: windows-sdk

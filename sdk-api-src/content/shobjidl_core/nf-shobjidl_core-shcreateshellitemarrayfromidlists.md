@@ -4,10 +4,10 @@ title: SHCreateShellItemArrayFromIDLists function
 author: windows-sdk-content
 description: Creates a Shell item array object from a list of ITEMIDLIST structures.
 old-location: shell\SHCreateShellItemArrayFromIDLists.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: af462941-8c23-4f48-baf5-1ead9739a2c5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateShellItemArrayFromIDLists, SHCreateShellItemArrayFromIDLists function [Windows Shell], _shell_SHCreateShellItemArrayFromIDLists, shell.SHCreateShellItemArrayFromIDLists, shobjidl_core/SHCreateShellItemArrayFromIDLists
 ms.prod: windows-hardware
 ms.technology: windows-devices

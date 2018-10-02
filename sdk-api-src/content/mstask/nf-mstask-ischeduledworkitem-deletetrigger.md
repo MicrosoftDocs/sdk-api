@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_deletetrigger.htm
 tech.root: TaskSchd
 ms.assetid: 418e16d3-67ee-4b77-a7a9-67e722619d80
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteTrigger, DeleteTrigger method [Task Scheduler], DeleteTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],DeleteTrigger method, IScheduledWorkItem.DeleteTrigger, IScheduledWorkItem::DeleteTrigger, _msb_ischeduledworkitem_deletetrigger, mstask/IScheduledWorkItem::DeleteTrigger, taskschd.ischeduledworkitem_deletetrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

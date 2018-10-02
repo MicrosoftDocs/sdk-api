@@ -4,10 +4,10 @@ title: IMFCapturePreviewSink::SetRotation
 author: windows-sdk-content
 description: Rotates the video preview stream.
 old-location: mf\imfcapturepreviewsink_setrotation.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 84C53A34-B2FB-4D13-9A45-5172E9E3CEE8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRotation method, IMFCapturePreviewSink.SetRotation, IMFCapturePreviewSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrotation, mfcaptureengine/IMFCapturePreviewSink::SetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices

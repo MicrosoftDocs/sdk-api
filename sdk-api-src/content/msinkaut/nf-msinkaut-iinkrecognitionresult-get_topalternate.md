@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionresult_topalternate.htm
 tech.root: tablet
 ms.assetid: 6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: 6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d, IInkRecognitionResult interface [Tablet PC],TopAlternate property, IInkRecognitionResult.TopAlternate, IInkRecognitionResult.get_TopAlternate, IInkRecognitionResult::TopAlternate, IInkRecognitionResult::get_TopAlternate, TopAlternate property [Tablet PC], TopAlternate property [Tablet PC],IInkRecognitionResult interface, get_TopAlternate, msinkaut/IInkRecognitionResult::TopAlternate, msinkaut/IInkRecognitionResult::get_TopAlternate, tablet.iinkrecognitionresult_topalternate
 ms.prod: windows-hardware
 ms.technology: windows-devices

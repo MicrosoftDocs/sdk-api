@@ -4,10 +4,10 @@ title: SHCreateDefaultPropertiesOp function
 author: windows-sdk-content
 description: Creates a file operation that sets the default properties on the Shell item that have not already been set.
 old-location: shell\SHCreateDefaultPropertiesOp.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5202ac48-16e7-4d64-8a69-2493036e1e11
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateDefaultPropertiesOp, SHCreateDefaultPropertiesOp function [Windows Shell], _shell_SHCreateDefaultPropertiesOp, shell.SHCreateDefaultPropertiesOp, shobjidl/SHCreateDefaultPropertiesOp
 ms.prod: windows-hardware
 ms.technology: windows-devices

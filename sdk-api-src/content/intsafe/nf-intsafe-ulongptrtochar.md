@@ -4,10 +4,10 @@ title: ULongPtrToChar function
 author: windows-sdk-content
 description: Converts a value of type ULONG_PTR to a value of type CHAR.
 old-location: shell\ULongPtrToChar.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0cc26423-5c14-49d0-984e-f2bb81f68010
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ULongPtrToChar, ULongPtrToChar function [Windows Shell], intsafe/ULongPtrToChar, shell.ULongPtrToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorGetStreamColorSpace
 author: windows-sdk-content
 description: Gets the color space for an input stream of the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamcolorspace.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4D66147C-D4FC-40BC-B406-B40B6EA24D94
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamColorSpace method, ID3D11VideoContext.VideoProcessorGetStreamColorSpace, ID3D11VideoContext::VideoProcessorGetStreamColorSpace, VideoProcessorGetStreamColorSpace, VideoProcessorGetStreamColorSpace method [Media Foundation], VideoProcessorGetStreamColorSpace method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamColorSpace, mf.id3d11videocontext_videoprocessorgetstreamcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

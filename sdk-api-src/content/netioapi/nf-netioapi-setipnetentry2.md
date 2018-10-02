@@ -4,10 +4,10 @@ title: SetIpNetEntry2 function
 author: windows-sdk-content
 description: Sets the physical address of an existing neighbor IP address entry on the local computer.
 old-location: iphlp\setipnetentry2.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 4f423700-f721-44a9-ade3-ea5b5b86e394
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: SetIpNetEntry2, SetIpNetEntry2 function [IP Helper], iphlp.setipnetentry2, netioapi/SetIpNetEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices

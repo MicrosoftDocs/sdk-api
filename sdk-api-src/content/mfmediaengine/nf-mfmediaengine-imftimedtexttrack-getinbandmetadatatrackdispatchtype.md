@@ -4,10 +4,10 @@ title: IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
 author: windows-sdk-content
 description: Gets the in-band metadata of the track.
 old-location: mf\imftimedtexttrack_getinbandmetadatatrackdispatchtype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: AEA4D160-6DBC-4829-95F3-F016F9709042
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetInBandMetadataTrackDispatchType, GetInBandMetadataTrackDispatchType method [Media Foundation], GetInBandMetadataTrackDispatchType method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetInBandMetadataTrackDispatchType method, IMFTimedTextTrack.GetInBandMetadataTrackDispatchType, IMFTimedTextTrack::GetInBandMetadataTrackDispatchType, mf.imftimedtexttrack_getinbandmetadatatrackdispatchtype, mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
 ms.prod: windows-hardware
 ms.technology: windows-devices

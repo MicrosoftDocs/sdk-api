@@ -7,7 +7,7 @@ old-location: controls\Animate_OpenEx.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_openex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: Animate_OpenEx, Animate_OpenEx macro [Windows Controls], _win32_Animate_OpenEx, _win32_Animate_OpenEx_cpp, commctrl/Animate_OpenEx, controls.Animate_OpenEx, controls._win32_Animate_OpenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

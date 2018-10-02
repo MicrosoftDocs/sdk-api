@@ -4,10 +4,10 @@ title: ICDBurnExt::GetSupportedActionTypes
 author: windows-sdk-content
 description: Determines the supported data type for a CD writing extension.
 old-location: shell\ICDBurnExt_GetSupportedActionTypes.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 46d0fe58-b8aa-42a8-811e-9762185bb8cc
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CDBE_TYPE_ALL, CDBE_TYPE_DATA, CDBE_TYPE_MUSIC, GetSupportedActionTypes, GetSupportedActionTypes method [Windows Shell], GetSupportedActionTypes method [Windows Shell],ICDBurnExt interface, ICDBurnExt interface [Windows Shell],GetSupportedActionTypes method, ICDBurnExt.GetSupportedActionTypes, ICDBurnExt::GetSupportedActionTypes, _shell_ICDBurnExt_GetSupportedActionTypes, shell.ICDBurnExt_GetSupportedActionTypes, shobjidl/ICDBurnExt::GetSupportedActionTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

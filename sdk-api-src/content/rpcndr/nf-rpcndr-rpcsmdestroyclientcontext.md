@@ -7,7 +7,7 @@ old-location: rpc\rpcsmdestroyclientcontext.htm
 tech.root: Rpc
 ms.assetid: ae886740-09e9-46a1-aa62-5dbcf6abab36
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcSmDestroyClientContext, RpcSmDestroyClientContext function [RPC], _rpc_rpcsmdestroyclientcontext, rpc.rpcsmdestroyclientcontext, rpcndr/RpcSmDestroyClientContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

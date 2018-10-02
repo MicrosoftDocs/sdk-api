@@ -7,7 +7,7 @@ old-location: directwrite\idwritegdiinterop1_getmatchingfontsbylogfont.htm
 tech.root: DirectWrite
 ms.assetid: 38D547D2-0C1C-4673-83BD-38458DFD7E5A
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetMatchingFontsByLOGFONT, GetMatchingFontsByLOGFONT method [Direct Write], GetMatchingFontsByLOGFONT method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],GetMatchingFontsByLOGFONT method, IDWriteGdiInterop1.GetMatchingFontsByLOGFONT, IDWriteGdiInterop1::GetMatchingFontsByLOGFONT, directwrite.idwritegdiinterop1_getmatchingfontsbylogfont, dwrite_3/IDWriteGdiInterop1::GetMatchingFontsByLOGFONT
 ms.prod: windows-hardware
 ms.technology: windows-devices

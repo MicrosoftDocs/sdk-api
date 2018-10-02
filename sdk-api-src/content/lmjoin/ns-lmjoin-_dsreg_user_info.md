@@ -4,10 +4,10 @@ title: "_DSREG_USER_INFO"
 author: windows-sdk-content
 description: Contains information about a user account that is used to join a device to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_user_info.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 5E639988-0F53-40D7-BBEC-F78B3D124CC0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDSREG_USER_INFO, DSREG_USER_INFO, DSREG_USER_INFO structure [Network Management], PDSREG_USER_INFO, PDSREG_USER_INFO structure pointer [Network Management], _DSREG_USER_INFO, lmjoin/DSREG_USER_INFO, lmjoin/PDSREG_USER_INFO, netmgmt.dsreg_user_info"
 ms.prod: windows
 ms.technology: windows-sdk

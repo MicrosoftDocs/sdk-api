@@ -7,7 +7,7 @@ old-location: pla\clocktype.htm
 tech.root: PLA
 ms.assetid: e255d486-2f1f-4a3d-a8a5-1c997d61a073
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: ClockType, ClockType enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0005, base.clocktype, pla.clocktype, pla/ClockType, pla/plaCycle, pla/plaPerformance, pla/plaSystem, pla/plaTimeStamp, plaCycle, plaPerformance, plaSystem, plaTimeStamp
 ms.prod: windows
 ms.technology: windows-sdk

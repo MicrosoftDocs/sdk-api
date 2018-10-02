@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateEllipsisTrimmingSign.htm
 tech.root: DirectWrite
 ms.assetid: b416d9f7-d2ce-477c-bf03-b20da2a55bb6
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: CreateEllipsisTrimmingSign, CreateEllipsisTrimmingSign method [Direct Write], CreateEllipsisTrimmingSign method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateEllipsisTrimmingSign method, IDWriteFactory.CreateEllipsisTrimmingSign, IDWriteFactory::CreateEllipsisTrimmingSign, directwrite.IDWriteFactory_CreateEllipsisTrimmingSign, dwrite/IDWriteFactory::CreateEllipsisTrimmingSign
 ms.prod: windows-hardware
 ms.technology: windows-devices

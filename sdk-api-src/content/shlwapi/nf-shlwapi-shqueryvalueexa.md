@@ -4,10 +4,10 @@ title: SHQueryValueExA function
 author: windows-sdk-content
 description: Opens a registry key and queries it for a specific value.
 old-location: shell\SHQueryValueEx.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9969acae-5965-40fe-bde9-6de9ddf26bb8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHQueryValueEx, SHQueryValueEx function [Windows Shell], SHQueryValueExA, SHQueryValueExW, _win32_SHQueryValueEx, shell.SHQueryValueEx, shlwapi/SHQueryValueEx, shlwapi/SHQueryValueExA, shlwapi/SHQueryValueExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

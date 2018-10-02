@@ -4,10 +4,10 @@ title: ILCloneFirst function
 author: windows-sdk-content
 description: Clones the first SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILCloneFirst.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 931df0c7-6acb-4c49-aa2b-464255e97347
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ILCloneFirst, ILCloneFirst function [Windows Shell], _win32_ILCloneFirst, shell.ILCloneFirst, shlobj_core/ILCloneFirst
 ms.prod: windows-hardware
 ms.technology: windows-devices

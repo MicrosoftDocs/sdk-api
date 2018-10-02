@@ -4,10 +4,10 @@ title: MI_OperationOptions_GetNumber function
 author: windows-sdk-content
 description: Gets a previously added custom number option.
 old-location: wmi_v2\mi_operationoptions_getnumber.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 5c22c18d-9e1f-4cf7-84c1-e4e8863d0dc1
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_OperationOptions_GetNumber, MI_OperationOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetNumber, wmi_v2.mi_operationoptions_getnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

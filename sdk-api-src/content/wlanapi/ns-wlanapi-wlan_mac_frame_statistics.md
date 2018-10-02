@@ -4,10 +4,10 @@ title: WLAN_MAC_FRAME_STATISTICS
 author: windows-sdk-content
 description: Contains information about sent and received MAC frames.
 old-location: nwifi\wlan_mac_frame_statistics.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: b5bb4ec9-aeec-4a64-977d-e875c3835196
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWLAN_MAC_FRAME_STATISTICS, PWLAN_MAC_FRAME_STATISTICS, PWLAN_MAC_FRAME_STATISTICS structure pointer [NativeWIFI], WLAN_MAC_FRAME_STATISTICS, WLAN_MAC_FRAME_STATISTICS structure [NativeWIFI], nwifi.wlan_mac_frame_statistics, wlanapi/PWLAN_MAC_FRAME_STATISTICS, wlanapi/WLAN_MAC_FRAME_STATISTICS"
 ms.prod: windows
 ms.technology: windows-sdk

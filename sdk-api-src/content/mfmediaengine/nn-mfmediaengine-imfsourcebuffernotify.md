@@ -4,10 +4,10 @@ title: IMFSourceBufferNotify
 author: windows-sdk-content
 description: Provides functionality for raising events associated with IMFSourceBuffer.
 old-location: mf\imfsourcebuffernotify.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4a823d37-f55a-4810-aaed-4e04f5371d3b
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], IMFSourceBufferNotify interface [Media Foundation],described, mf.imfsourcebuffernotify, mfmediaengine/IMFSourceBufferNotify
 ms.prod: windows
 ms.technology: windows-sdk

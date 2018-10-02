@@ -7,7 +7,7 @@ old-location: input_radial\iradialcontrollerinterop.htm
 tech.root: Input_Radial
 ms.assetid: ed701930-fae7-4c42-9e6b-b1cb3fac861c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: IRadialControllerInterop, IRadialControllerInterop interface, IRadialControllerInterop interface,described, Input_Radial.iradialcontrollerinterop, radialcontrollerinterop/IRadialControllerInterop
 ms.prod: windows
 ms.technology: windows-sdk

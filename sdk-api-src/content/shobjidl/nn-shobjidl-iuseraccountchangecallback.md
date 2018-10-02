@@ -4,10 +4,10 @@ title: IUserAccountChangeCallback
 author: windows-sdk-content
 description: Exposes a method which is called when the picture that represents a user account is changed.
 old-location: shell\IUserAccountChangeCallback.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
 ms.prod: windows
 ms.technology: windows-sdk

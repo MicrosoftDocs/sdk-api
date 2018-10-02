@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__keypress.htm
 tech.root: WMP
 ms.assetid: 72d97c04-6978-4275-9adf-2deeebb34224
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyPress method, IWMPEvents.KeyPress, IWMPEvents::KeyPress, IWMPEventsKeyPress, KeyPress, KeyPress method [Windows Media Player], KeyPress method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keypress, wmp/IWMPEvents::KeyPress
 ms.prod: windows-hardware
 ms.technology: windows-devices

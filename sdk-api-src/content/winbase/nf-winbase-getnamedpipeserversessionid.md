@@ -7,7 +7,7 @@ old-location: base\getnamedpipeserversessionid.htm
 tech.root: ipc
 ms.assetid: cd628d6d-aa13-4762-893b-42f6cf7a2ba6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetNamedPipeServerSessionId, GetNamedPipeServerSessionId function, base.getnamedpipeserversessionid, winbase/GetNamedPipeServerSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

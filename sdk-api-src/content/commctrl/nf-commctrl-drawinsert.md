@@ -7,7 +7,7 @@ old-location: controls\DrawInsert.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\drawinsert.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: DrawInsert, DrawInsert function [Windows Controls], _win32_DrawInsert, _win32_DrawInsert_cpp, commctrl/DrawInsert, controls.DrawInsert, controls._win32_DrawInsert
 ms.prod: windows-hardware
 ms.technology: windows-devices

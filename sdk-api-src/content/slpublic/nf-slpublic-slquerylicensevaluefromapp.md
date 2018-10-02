@@ -7,7 +7,7 @@ old-location: security\slquerylicensevaluefromapp.htm
 tech.root: SecSLApi
 ms.assetid: C26FF469-2B25-4EDA-8432-EF32A4550650
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SLQueryLicenseValueFromApp, SLQueryLicenseValueFromApp function [Security], security.slquerylicensevaluefromapp, slpublic/SLQueryLicenseValueFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

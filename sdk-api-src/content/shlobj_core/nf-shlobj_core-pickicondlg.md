@@ -4,10 +4,10 @@ title: PickIconDlg function
 author: windows-sdk-content
 description: PickIconDlg may be altered or unavailable.
 old-location: shell\PickIconDlg.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3dfcda10-26d8-495d-8c92-7ff16da098c1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: PickIconDlg, PickIconDlg function [Windows Shell], _win32_PickIconDlg, shell.PickIconDlg, shlobj_core/PickIconDlg
 ms.prod: windows-hardware
 ms.technology: windows-devices

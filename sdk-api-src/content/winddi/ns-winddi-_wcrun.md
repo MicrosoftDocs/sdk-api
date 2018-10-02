@@ -4,10 +4,10 @@ title: "_WCRUN"
 author: windows-sdk-content
 description: The WCRUN structure describes a run of Unicode characters.
 old-location: display\wcrun.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 01a90280-a7cc-4726-b0a2-68121bdb4686
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWCRUN, PWCRUN, PWCRUN structure pointer [Display Devices], WCRUN, WCRUN structure [Display Devices], _WCRUN, display.wcrun, grstrcts_0ef325fa-6d74-4c0e-87e2-126c05560c5d.xml, winddi/PWCRUN, winddi/WCRUN"
 ms.prod: windows
 ms.technology: windows-sdk

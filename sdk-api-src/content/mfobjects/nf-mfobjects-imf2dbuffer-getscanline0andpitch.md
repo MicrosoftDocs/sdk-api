@@ -4,10 +4,10 @@ title: IMF2DBuffer::GetScanline0AndPitch
 author: windows-sdk-content
 description: Retrieves a pointer to the buffer memory and the surface stride.
 old-location: mf\imf2dbuffer_getscanline0andpitch.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 08a5f659-609d-4a86-a24e-b30bb7f9e835
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 08a5f659-609d-4a86-a24e-b30bb7f9e835, GetScanline0AndPitch, GetScanline0AndPitch method [Media Foundation], GetScanline0AndPitch method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],GetScanline0AndPitch method, IMF2DBuffer.GetScanline0AndPitch, IMF2DBuffer::GetScanline0AndPitch, mf.imf2dbuffer_getscanline0andpitch, mfobjects/IMF2DBuffer::GetScanline0AndPitch
 ms.prod: windows-hardware
 ms.technology: windows-devices

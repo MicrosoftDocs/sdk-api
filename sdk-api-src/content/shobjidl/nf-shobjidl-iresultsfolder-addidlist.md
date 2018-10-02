@@ -4,10 +4,10 @@ title: IResultsFolder::AddIDList
 author: windows-sdk-content
 description: Inserts a pointer to an item identifier list (PIDL) into a results folder.
 old-location: shell\IResultsFolder_AddIDList.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0514fe4d-87d3-4665-a35b-9f9788fc169d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: AddIDList, AddIDList method [Windows Shell], AddIDList method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddIDList method, IResultsFolder.AddIDList, IResultsFolder::AddIDList, _shell_IResultsFolder_AddIDList, shell.IResultsFolder_AddIDList, shobjidl/IResultsFolder::AddIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

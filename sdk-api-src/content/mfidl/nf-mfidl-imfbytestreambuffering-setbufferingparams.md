@@ -4,10 +4,10 @@ title: IMFByteStreamBuffering::SetBufferingParams
 author: windows-sdk-content
 description: Sets the buffering parameters.
 old-location: mf\imfbytestreambuffering_setbufferingparams.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 033ea7d4-d669-497b-be37-a8c9a6584209
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 033ea7d4-d669-497b-be37-a8c9a6584209, IMFByteStreamBuffering interface [Media Foundation],SetBufferingParams method, IMFByteStreamBuffering.SetBufferingParams, IMFByteStreamBuffering::SetBufferingParams, SetBufferingParams, SetBufferingParams method [Media Foundation], SetBufferingParams method [Media Foundation],IMFByteStreamBuffering interface, mf.imfbytestreambuffering_setbufferingparams, mfidl/IMFByteStreamBuffering::SetBufferingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

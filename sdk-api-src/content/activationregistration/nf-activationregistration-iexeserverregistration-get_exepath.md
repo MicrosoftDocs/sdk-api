@@ -7,7 +7,7 @@ old-location: winrt\iexeserverregistration_exepath.htm
 tech.root: WinRT
 ms.assetid: 69E8D576-B842-4CD4-8D93-87E4E08D11CA
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_ExePath method, IExeServerRegistration.get_ExePath, IExeServerRegistration::get_ExePath, activationregistration/IExeServerRegistration::get_ExePath, get_ExePath, get_ExePath method [Windows Runtime], get_ExePath method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_exepath
 ms.prod: windows-hardware
 ms.technology: windows-devices

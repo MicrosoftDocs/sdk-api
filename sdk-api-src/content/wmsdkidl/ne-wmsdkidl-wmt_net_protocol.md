@@ -7,7 +7,7 @@ old-location: wmformat\wmt_net_protocol.htm
 tech.root: wmformat
 ms.assetid: dc8b67a9-33fe-408b-b0b5-62a2b219b6b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WMT_NET_PROTOCOL, WMT_NET_PROTOCOL enumeration [windows Media Format], WMT_PROTOCOL_HTTP, wmformat.wmt_net_protocol, wmsdkidl/WMT_NET_PROTOCOL, wmsdkidl/WMT_PROTOCOL_HTTP
 ms.prod: windows
 ms.technology: windows-sdk

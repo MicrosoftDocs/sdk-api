@@ -4,10 +4,10 @@ title: "_FD_KERNINGPAIR"
 author: windows-sdk-content
 description: The FD_KERNINGPAIR structure is used to store information about kerning pairs.
 old-location: display\fd_kerningpair.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 5c5eced6-a0a3-448e-bcb3-57be1b703797
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: FD_KERNINGPAIR, FD_KERNINGPAIR structure [Display Devices], _FD_KERNINGPAIR, display.fd_kerningpair, grstrcts_5e6126d0-b3c2-4964-ab7a-f3ec90162b7e.xml, winddi/FD_KERNINGPAIR
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_settargetmode.htm
 tech.root: SMI
 ms.assetid: f8c5e67f-a084-4916-8371-bba4e7fb1da1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetMode method, ITargetInfo.SetTargetMode, ITargetInfo::SetTargetMode, SetTargetMode, SetTargetMode method [SMI], SetTargetMode method [SMI],ITargetInfo interface, smi.itargetinfo_settargetmode, wcmconfig/ITargetInfo::SetTargetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

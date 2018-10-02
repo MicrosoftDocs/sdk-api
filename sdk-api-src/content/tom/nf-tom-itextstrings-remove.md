@@ -7,7 +7,7 @@ old-location: controls\itextstrings_remove.htm
 tech.root: controls
 ms.assetid: 1909e8b6-ee18-4d17-87cf-29bb3553bb25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ITextStrings interface [Windows Controls],Remove method, ITextStrings.Remove, ITextStrings::Remove, Remove, Remove method [Windows Controls], Remove method [Windows Controls],ITextStrings interface, controls.itextstrings_remove, tom/ITextStrings::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

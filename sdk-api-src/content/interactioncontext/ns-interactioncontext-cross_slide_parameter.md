@@ -7,7 +7,7 @@ old-location: input_intcontext\cross_slide_parameter.htm
 tech.root: Input_IntContext
 ms.assetid: 3871f24e-34a4-4524-801d-4d60cf6165d9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 09/26/2018
 ms.keywords: CROSS_SLIDE_PARAMETER, CROSS_SLIDE_PARAMETER structure, input_intcontext.cross_slide_parameter, interactioncontext.cross_slide_parameter, interactioncontext/CROSS_SLIDE_PARAMETER
 ms.prod: windows
 ms.technology: windows-sdk

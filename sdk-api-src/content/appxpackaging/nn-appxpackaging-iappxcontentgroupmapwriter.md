@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupmapwriter.htm
 tech.root: appxpkg
 ms.assetid: A9B3992C-D3D1-4190-9314-A21E388E88BA
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [App packaging and management], IAppxContentGroupMapWriter interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapWriter, appxpkg.iappxcontentgroupmapwriter
 ms.prod: windows
 ms.technology: windows-sdk

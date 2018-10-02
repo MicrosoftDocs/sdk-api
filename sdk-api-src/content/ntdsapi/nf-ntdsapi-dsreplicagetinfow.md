@@ -4,10 +4,10 @@ title: DsReplicaGetInfoW function
 author: windows-sdk-content
 description: Retrieves replication state data from the directory service.
 old-location: ad\dsreplicagetinfo.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: b7ab22fe-ed92-4213-9b66-2dd5526286fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DsReplicaGetInfo, DsReplicaGetInfo function [Active Directory], DsReplicaGetInfoW, _glines_dsreplicagetinfo, ad.dsreplicagetinfo, ntdsapi/DsReplicaGetInfo, ntdsapi/DsReplicaGetInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

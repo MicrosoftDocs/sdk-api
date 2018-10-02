@@ -4,10 +4,10 @@ title: ISyncMgrControl::UpdateEvents
 author: windows-sdk-content
 description: Informs Sync Center that events have been added for a specific handler or item.
 old-location: shell\ISyncMgrControl_UpdateEvents.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 72848e6a-eec3-45fc-b599-a5a8da2e1070
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateEvents method, ISyncMgrControl.UpdateEvents, ISyncMgrControl::UpdateEvents, UpdateEvents, UpdateEvents method [Windows Shell], UpdateEvents method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateEvents, shell.ISyncMgrControl_UpdateEvents, syncmgr/ISyncMgrControl::UpdateEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

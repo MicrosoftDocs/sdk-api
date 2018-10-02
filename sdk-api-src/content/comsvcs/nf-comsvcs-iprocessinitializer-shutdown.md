@@ -7,7 +7,7 @@ old-location: cos\iprocessinitializer_shutdown.htm
 tech.root: cossdk
 ms.assetid: e525ded0-971d-4711-b078-b2e6b28c313f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IProcessInitializer interface [COM+],Shutdown method, IProcessInitializer.Shutdown, IProcessInitializer::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Shutdown, comsvcs/IProcessInitializer::Shutdown, cos.iprocessinitializer_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

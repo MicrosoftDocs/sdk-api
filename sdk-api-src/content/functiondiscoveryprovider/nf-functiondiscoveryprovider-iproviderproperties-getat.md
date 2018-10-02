@@ -4,10 +4,10 @@ title: IProviderProperties::GetAt
 author: windows-sdk-content
 description: Gets the property key at the specified index.
 old-location: ncd\iproviderproperties_getat_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: f76d010b-f9dd-46d7-9b1f-eba3d11aaef1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IProviderProperties interface, IProviderProperties interface,GetAt method, IProviderProperties.GetAt, IProviderProperties::GetAt, functiondiscoveryprovider/IProviderProperties::GetAt, ncd.iproviderproperties_getat_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

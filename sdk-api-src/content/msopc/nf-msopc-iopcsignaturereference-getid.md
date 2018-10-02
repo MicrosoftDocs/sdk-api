@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereference_getid.htm
 tech.root: OPC
 ms.assetid: 741fd38e-910a-42c7-8bd2-006cf29843d9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetId method, IOpcSignatureReference.GetId, IOpcSignatureReference::GetId, msopc/IOpcSignatureReference::GetId, opc.iopcsignaturereference_getid
 ms.prod: windows-hardware
 ms.technology: windows-devices

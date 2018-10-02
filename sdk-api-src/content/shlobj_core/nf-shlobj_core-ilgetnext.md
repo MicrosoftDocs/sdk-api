@@ -4,10 +4,10 @@ title: ILGetNext function
 author: windows-sdk-content
 description: Retrieves the next SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILGetNext.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0b58cc30-fe1a-487c-8f24-f1de54f7730f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ILGetNext, ILGetNext function [Windows Shell], _win32_ILGetNext, shell.ILGetNext, shlobj_core/ILGetNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

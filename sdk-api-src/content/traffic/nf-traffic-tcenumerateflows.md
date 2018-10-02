@@ -7,7 +7,7 @@ old-location: qos\tcenumerateflows.htm
 tech.root: QOS
 ms.assetid: eae90fae-a29a-4005-b8c6-a5e2c9a6c07f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
 ms.prod: windows-hardware
 ms.technology: windows-devices

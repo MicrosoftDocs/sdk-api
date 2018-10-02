@@ -4,10 +4,10 @@ title: IMFVideoProcessorControl::SetDestinationRectangle
 author: windows-sdk-content
 description: Sets the destination rectangle.
 old-location: mf\imfvideoprocessorcontrol_setdestinationrectangle.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8AD1BDF4-2508-4A99-85A1-9DBC969D511B
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetDestinationRectangle method, IMFVideoProcessorControl.SetDestinationRectangle, IMFVideoProcessorControl::SetDestinationRectangle, SetDestinationRectangle, SetDestinationRectangle method [Media Foundation], SetDestinationRectangle method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setdestinationrectangle, mfidl/IMFVideoProcessorControl::SetDestinationRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

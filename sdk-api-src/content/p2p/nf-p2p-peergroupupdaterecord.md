@@ -4,10 +4,10 @@ title: PeerGroupUpdateRecord function
 author: windows-sdk-content
 description: The PeerGroupUpdateRecord function updates a record within a specific peer group.
 old-location: p2p\peergroupupdaterecord.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: bfff0422-452c-4780-8df7-d3e8d5ad385c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGroupUpdateRecord, PeerGroupUpdateRecord function [Peer Networking], p2p.peergroupupdaterecord, p2p/PeerGroupUpdateRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

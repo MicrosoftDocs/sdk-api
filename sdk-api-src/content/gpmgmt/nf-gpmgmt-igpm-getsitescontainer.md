@@ -7,7 +7,7 @@ old-location: gpmc\igpm_getsitescontainer.htm
 tech.root: GPMC
 ms.assetid: 0a1b8975-cd73-49e6-83b9-f6af296276cb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPM object [GPMC],GetSitesContainer method, GetSitesContainer, GetSitesContainer method [GPMC], GetSitesContainer method [GPMC],GPM object, GetSitesContainer method [GPMC],IGPM interface, IGPM interface [GPMC],GetSitesContainer method, IGPM.GetSitesContainer, IGPM::GetSitesContainer, _win32_igpm_getsitescontainer, gpmc.igpm_getsitescontainer, gpmgmt/IGPM::GetSitesContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

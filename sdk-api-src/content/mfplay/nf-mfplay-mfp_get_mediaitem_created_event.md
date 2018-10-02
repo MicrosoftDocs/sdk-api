@@ -4,10 +4,10 @@ title: MFP_GET_MEDIAITEM_CREATED_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_MEDIAITEM_CREATED_EVENT pointer.
 old-location: mf\mfp_get_mediaitem_created_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 16187a19-6ea9-461a-a785-d302056c41ef
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_GET_MEDIAITEM_CREATED_EVENT, MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_created_event, mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

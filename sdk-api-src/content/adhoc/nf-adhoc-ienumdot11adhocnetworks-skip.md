@@ -4,10 +4,10 @@ title: IEnumDot11AdHocNetworks::Skip
 author: windows-sdk-content
 description: Skips over the next specified number of elements in the enumeration sequence.
 old-location: nwifi\ienumdot11adhocnetworks_skip.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 31e182f8-6a19-4138-b799-7ad485868d19
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumDot11AdHocNetworks interface [NativeWIFI],Skip method, IEnumDot11AdHocNetworks.Skip, IEnumDot11AdHocNetworks::Skip, Skip, Skip method [NativeWIFI], Skip method [NativeWIFI],IEnumDot11AdHocNetworks interface, adhoc/IEnumDot11AdHocNetworks::Skip, nwifi.ienumdot11adhocnetworks_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

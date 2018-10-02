@@ -4,10 +4,10 @@ title: ISnapinHelp
 author: windows-sdk-content
 description: Allows snap-ins to add HTML Help support.
 old-location: mmc\isnapinhelp.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 237E52F7-5EB9-45DA-ACC3-391ED3BF7C5E
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: ISnapinHelp, ISnapinHelp interface [MMC], ISnapinHelp interface [MMC],described, mmc.isnapinhelp, mmc/ISnapinHelp
 ms.prod: windows
 ms.technology: windows-sdk

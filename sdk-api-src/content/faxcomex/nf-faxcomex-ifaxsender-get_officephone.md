@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_officephone_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1011.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxSender interface [Fax Service],OfficePhone property, IFaxSender.OfficePhone, IFaxSender.get_OfficePhone, IFaxSender.put_OfficePhone, IFaxSender::OfficePhone, IFaxSender::get_OfficePhone, IFaxSender::put_OfficePhone, OfficePhone property [Fax Service], OfficePhone property [Fax Service],IFaxSender interface, _mfax_faxsender.officephone, fax._mfax_faxsender_cpp_mfax_faxsender_officephone_cpp, fax._mfax_faxsender_officephone, faxcomex/IFaxSender::OfficePhone, faxcomex/IFaxSender::get_OfficePhone, faxcomex/IFaxSender::put_OfficePhone, get_OfficePhone
 ms.prod: windows-hardware
 ms.technology: windows-devices

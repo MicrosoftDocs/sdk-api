@@ -4,10 +4,10 @@ title: SHUnicodeToAnsi function
 author: windows-sdk-content
 description: Converts a string from the Unicode code page to the ANSI code page.
 old-location: shell\SHUnicodeToAnsi.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f0db3976-9956-418f-8432-7755b140050f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHUnicodeToAnsi, SHUnicodeToAnsi function [Windows Shell], _win32_SHUnicodeToAnsi, shell.SHUnicodeToAnsi, shlwapi/SHUnicodeToAnsi
 ms.prod: windows-hardware
 ms.technology: windows-devices

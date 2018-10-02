@@ -4,10 +4,10 @@ title: NetAddr_GetAddress macro
 author: windows-sdk-content
 description: Indicates whether a network address conforms to a specified type and format.
 old-location: shell\NetAddr_GetAddress.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shell_NetAddr_GetAddress, shell.NetAddr_GetAddress, shellapi/NetAddr_GetAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFHeapFree function
 author: windows-sdk-content
 description: Frees a block of memory that was allocated by calling the MFHeapAlloc function.
 old-location: mf\mfheapfree.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c4a03a20-5398-4fe0-9a1f-3bc162c624cd
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFHeapFree, MFHeapFree function [Media Foundation], c4a03a20-5398-4fe0-9a1f-3bc162c624cd, mf.mfheapfree, mfapi/MFHeapFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

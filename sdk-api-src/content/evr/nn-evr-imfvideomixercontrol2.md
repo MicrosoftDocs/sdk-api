@@ -4,10 +4,10 @@ title: IMFVideoMixerControl2
 author: windows-sdk-content
 description: Controls preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: a238b050-101d-4b8a-9479-984b889823f4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], IMFVideoMixerControl2 interface [Media Foundation],described, evr/IMFVideoMixerControl2, mf.imfvideomixercontrol2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_VIDEOMEMORYINFO"
 author: windows-sdk-content
 description: The VIDEOMEMORYINFO structure describes the general format of the display's memory.
 old-location: display\videomemoryinfo.htm
-tech.root: display
+tech.root: Display
 ms.assetid: c5df8f26-3eb1-4743-96d1-7b73d902be8d
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO structure pointer [Display Devices], VIDEOMEMORYINFO, VIDEOMEMORYINFO structure [Display Devices], _VIDEOMEMORYINFO, ddrawint/LPVIDEOMEMORYINFO, ddrawint/VIDEOMEMORYINFO, ddstrcts_7fe9cc27-40d0-41f7-b225-51cc97bc8fa0.xml, display.videomemoryinfo"
 ms.prod: windows
 ms.technology: windows-sdk

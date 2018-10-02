@@ -4,10 +4,10 @@ title: "_MFSequencerTopologyFlags"
 author: windows-sdk-content
 description: Contains flags for adding a topology to the sequencer source, or updating a topology already in the queue.
 old-location: mf\mfsequencertopologyflags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d52bac8c-e490-417c-ac00-e4cf57fd151c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFSequencerTopologyFlags, MFSequencerTopologyFlags enumeration [Media Foundation], SequencerTopologyFlags_Last, _MFSequencerTopologyFlags, d52bac8c-e490-417c-ac00-e4cf57fd151c, mf.mfsequencertopologyflags, mfidl/MFSequencerTopologyFlags, mfidl/SequencerTopologyFlags_Last
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ldap_addA function
 author: windows-sdk-content
 description: Initiates an asynchronous add operation to a directory tree.
 old-location: ldap\ldap_add.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: d978f668-7726-44e4-a0b1-31390e8498c4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ldap_add, ldap.ldap__add, ldap.ldap_add, ldap_add, ldap_add function [LDAP], ldap_addA, ldap_addW, winldap/ldap_add, winldap/ldap_addA, winldap/ldap_addW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

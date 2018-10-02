@@ -4,10 +4,10 @@ title: WlanHostedNetworkStopUsing function
 author: windows-sdk-content
 description: Stops the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkstopusing.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 36b5ed93-33c4-4ade-a6d9-0d240854a5ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanHostedNetworkStopUsing, WlanHostedNetworkStopUsing function [NativeWIFI], nwifi.wlanhostednetworkstopusing, wlanapi/WlanHostedNetworkStopUsing
 ms.prod: windows-hardware
 ms.technology: windows-devices

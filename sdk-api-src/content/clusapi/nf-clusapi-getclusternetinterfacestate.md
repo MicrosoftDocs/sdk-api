@@ -4,10 +4,10 @@ title: GetClusterNetInterfaceState function
 author: windows-sdk-content
 description: Returns the current state of a network interface.
 old-location: mscs\getclusternetinterfacestate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d84a5e3f-d0f9-4345-b008-e15c277dcbd5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetClusterNetInterfaceState, GetClusterNetInterfaceState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE function [Failover Cluster], _wolf_getclusternetinterfacestate, clusapi/GetClusterNetInterfaceState, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, mscs.getclusternetinterfacestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

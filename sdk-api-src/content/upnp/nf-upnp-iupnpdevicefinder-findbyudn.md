@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicefinder_findbyudn.htm
 tech.root: UPnP
 ms.assetid: 88d4e004-7df8-45f4-b6ec-9dcf3f0ccfeb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: FindByUDN, FindByUDN method [UPnP APIs], FindByUDN method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],FindByUDN method, IUPnPDeviceFinder.FindByUDN, IUPnPDeviceFinder::FindByUDN, _upnp_iupnpdevicefinder_findbyudn, upnp.iupnpdevicefinder_findbyudn, upnp/IUPnPDeviceFinder::FindByUDN
 ms.prod: windows-hardware
 ms.technology: windows-devices

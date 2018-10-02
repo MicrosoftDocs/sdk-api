@@ -4,10 +4,10 @@ title: peer_graph_status_flags_tag
 author: windows-sdk-content
 description: The PEER_GRAPH_STATUS_FLAGS enumeration is a set of flags that show the current status of a node within the peer graph.
 old-location: p2p\peer_graph_status_flags.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 71910437-4ebd-4fcc-977c-0a56c5f26d61
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PEER_GRAPH_STATUS_FLAGS, PEER_GRAPH_STATUS_FLAGS enumeration [Peer Networking], PEER_GRAPH_STATUS_HAS_CONNECTIONS, PEER_GRAPH_STATUS_LISTENING, PEER_GRAPH_STATUS_SYNCHRONIZED, p2p.peer_graph_status_flags, p2p/PEER_GRAPH_STATUS_FLAGS, p2p/PEER_GRAPH_STATUS_HAS_CONNECTIONS, p2p/PEER_GRAPH_STATUS_LISTENING, p2p/PEER_GRAPH_STATUS_SYNCHRONIZED, peer_graph_status_flags_tag
 ms.prod: windows
 ms.technology: windows-sdk

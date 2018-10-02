@@ -4,10 +4,10 @@ title: "_FsrmRuleFlags"
 author: windows-sdk-content
 description: Defines the possible states of a rule.
 old-location: fsrm\fsrmruleflags.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 81150d1e-4ce9-4c8f-a4d5-77f7c8759e59
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmRuleFlags, FsrmRuleFlags enumeration [File Server Resource Manager], FsrmRuleFlags_ClearAutomaticallyClassifiedProperty, FsrmRuleFlags_ClearManuallyClassifiedProperty, FsrmRuleFlags_Disabled, FsrmRuleFlags_Invalid, _FsrmRuleFlags, fs.fsrmruleflags, fsrm.fsrmruleflags, fsrmenums/FsrmRuleFlags, fsrmenums/FsrmRuleFlags_ClearAutomaticallyClassifiedProperty, fsrmenums/FsrmRuleFlags_ClearManuallyClassifiedProperty, fsrmenums/FsrmRuleFlags_Disabled, fsrmenums/FsrmRuleFlags_Invalid
 ms.prod: windows
 ms.technology: windows-sdk

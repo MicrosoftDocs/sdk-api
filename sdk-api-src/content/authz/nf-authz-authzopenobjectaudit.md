@@ -7,7 +7,7 @@ old-location: security\authzopenobjectaudit.htm
 tech.root: SecAuthZ
 ms.assetid: 39c6f0bc-72bf-4a82-b417-c0c5b2626344
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit
 ms.prod: windows-hardware
 ms.technology: windows-devices

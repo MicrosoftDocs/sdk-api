@@ -4,10 +4,10 @@ title: IMFByteStreamTimeSeek::IsTimeSeekSupported
 author: windows-sdk-content
 description: Queries whether the byte stream supports time-based seeking.
 old-location: mf\imfbytestreamtimeseek_istimeseeksupported.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 92FCE0EF-046C-4639-958E-731795C5A123
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],IsTimeSeekSupported method, IMFByteStreamTimeSeek.IsTimeSeekSupported, IMFByteStreamTimeSeek::IsTimeSeekSupported, IsTimeSeekSupported, IsTimeSeekSupported method [Media Foundation], IsTimeSeekSupported method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_istimeseeksupported, mfidl/IMFByteStreamTimeSeek::IsTimeSeekSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

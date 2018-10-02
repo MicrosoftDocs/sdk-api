@@ -4,10 +4,10 @@ title: ISyncMgrEnumItems
 author: windows-sdk-content
 description: Exposes methods that enumerate through an array of SYNCMGRITEM structures.
 old-location: shell\syncmgr_isyncmgrenumitems.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], ISyncMgrEnumItems interface [Windows Shell],described, mobsync/ISyncMgrEnumItems, shell.syncmgr_isyncmgrenumitems, syncmgr.isyncmgrenumitems
 ms.prod: windows
 ms.technology: windows-sdk

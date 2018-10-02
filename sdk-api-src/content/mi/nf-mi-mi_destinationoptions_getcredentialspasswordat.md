@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetCredentialsPasswordAt function
 author: windows-sdk-content
 description: Gets a credentials password based on a specified index.
 old-location: wmi_v2\mi_destinationoptions_getcredentialspasswordat.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 95ea5856-5b15-4522-9652-a7b52d89055a
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_DestinationOptions_GetCredentialsPasswordAt, MI_DestinationOptions_GetCredentialsPasswordAt function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCredentialsPasswordAt, wmi_v2.mi_destinationoptions_getcredentialspasswordat
 ms.prod: windows-hardware
 ms.technology: windows-devices

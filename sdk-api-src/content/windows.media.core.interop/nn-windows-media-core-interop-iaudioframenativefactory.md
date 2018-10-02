@@ -7,7 +7,7 @@ old-location: winrt\iaudioframenativefactory.htm
 tech.root: WinRT
 ms.assetid: 8416020D-8CBA-4E70-B77C-55057E6212BA
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAudioFrameNativeFactory, IAudioFrameNativeFactory interface [Windows Runtime], IAudioFrameNativeFactory interface [Windows Runtime],described, windows/IAudioFrameNativeFactory, winrt.iaudioframenativefactory
 ms.prod: windows
 ms.technology: windows-sdk

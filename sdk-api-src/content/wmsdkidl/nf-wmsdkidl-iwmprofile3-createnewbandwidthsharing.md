@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_createnewbandwidthsharing.htm
 tech.root: wmformat
 ms.assetid: ab6c9903-95ea-499b-be75-ff57328336f0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: CreateNewBandwidthSharing, CreateNewBandwidthSharing method [windows Media Format], CreateNewBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],CreateNewBandwidthSharing method, IWMProfile3.CreateNewBandwidthSharing, IWMProfile3::CreateNewBandwidthSharing, IWMProfile3CreateNewBandwidthSharing, wmformat.iwmprofile3_createnewbandwidthsharing, wmsdkidl/IWMProfile3::CreateNewBandwidthSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices

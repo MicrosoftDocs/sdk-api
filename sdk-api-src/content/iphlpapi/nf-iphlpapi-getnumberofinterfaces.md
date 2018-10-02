@@ -4,10 +4,10 @@ title: GetNumberOfInterfaces function
 author: windows-sdk-content
 description: The GetNumberOfInterfaces functions retrieves the number of interfaces on the local computer.
 old-location: iphlp\getnumberofinterfaces.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 655d63eb-455a-4a5e-97e2-7b7588eee4d9
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: GetNumberOfInterfaces, GetNumberOfInterfaces function [IP Helper], _iphlp_getnumberofinterfaces, iphlp.getnumberofinterfaces, iphlpapi/GetNumberOfInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

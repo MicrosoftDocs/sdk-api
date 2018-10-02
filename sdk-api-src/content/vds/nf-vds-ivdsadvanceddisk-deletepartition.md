@@ -7,7 +7,7 @@ old-location: base\ivdsadvanceddisk_deletepartition.htm
 tech.root: VDS
 ms.assetid: 3b1a9d18-5f0b-4535-b0fb-6b1929099c1a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeletePartition, DeletePartition method [VDS], DeletePartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],DeletePartition method, IVdsAdvancedDisk.DeletePartition, IVdsAdvancedDisk::DeletePartition, base.ivdsadvanceddisk_deletepartition, vds/IVdsAdvancedDisk::DeletePartition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dlgbox\choosefont_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\choosefont.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPCHOOSEFONTA, BOLD_FONTTYPE, CF_ANSIONLY, CF_APPLY, CF_BOTH, CF_EFFECTS, CF_ENABLEHOOK, CF_ENABLETEMPLATE, CF_ENABLETEMPLATEHANDLE, CF_FIXEDPITCHONLY, CF_FORCEFONTEXIST, CF_INACTIVEFONTS, CF_INITTOLOGFONTSTRUCT, CF_LIMITSIZE, CF_NOFACESEL, CF_NOOEMFONTS, CF_NOSCRIPTSEL, CF_NOSIMULATIONS, CF_NOSIZESEL, CF_NOSTYLESEL, CF_NOVECTORFONTS, CF_NOVERTFONTS, CF_PRINTERFONTS, CF_SCALABLEONLY, CF_SCREENFONTS, CF_SCRIPTSONLY, CF_SELECTSCRIPT, CF_SHOWHELP, CF_TTONLY, CF_USESTYLE, CF_WYSIWYG, CHOOSEFONT, CHOOSEFONT structure [Dialog Boxes], CHOOSEFONTA, CHOOSEFONTW, ITALIC_FONTTYPE, LPCHOOSEFONT, LPCHOOSEFONT structure pointer [Dialog Boxes], PRINTER_FONTTYPE, REGULAR_FONTTYPE, SCREEN_FONTTYPE, SIMULATED_FONTTYPE, _win32_CHOOSEFONT_str, _win32_choosefont_str_cpp, commdlg/CHOOSEFONT, commdlg/CHOOSEFONTA, commdlg/CHOOSEFONTW, commdlg/LPCHOOSEFONT, dlgbox.choosefont_str, tagCHOOSEFONTA, tagCHOOSEFONTW, winui._win32_choosefont_str"
 ms.prod: windows
 ms.technology: windows-sdk

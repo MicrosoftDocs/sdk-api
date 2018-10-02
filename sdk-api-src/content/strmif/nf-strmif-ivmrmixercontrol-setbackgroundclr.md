@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_setbackgroundclr.htm
 tech.root: DirectShow
 ms.assetid: f163f62a-8d2b-43af-bec1-cae67a9747b7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetBackgroundClr method, IVMRMixerControl.SetBackgroundClr, IVMRMixerControl::SetBackgroundClr, IVMRMixerControlSetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setbackgroundclr, strmif/IVMRMixerControl::SetBackgroundClr
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dlgbox\choosecolor_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\choosecolor.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPCHOOSECOLORA, CC_ANYCOLOR, CC_ENABLEHOOK, CC_ENABLETEMPLATE, CC_ENABLETEMPLATEHANDLE, CC_FULLOPEN, CC_PREVENTFULLOPEN, CC_RGBINIT, CC_SHOWHELP, CC_SOLIDCOLOR, CHOOSECOLOR, CHOOSECOLOR structure [Dialog Boxes], CHOOSECOLORA, CHOOSECOLORW, LPCHOOSECOLOR, LPCHOOSECOLOR structure pointer [Dialog Boxes], _win32_CHOOSECOLOR_str, _win32_choosecolor_str_cpp, commdlg/CHOOSECOLOR, commdlg/CHOOSECOLORA, commdlg/CHOOSECOLORW, commdlg/LPCHOOSECOLOR, dlgbox.choosecolor_str, tagCHOOSECOLORA, tagCHOOSECOLORW, winui._win32_choosecolor_str"
 ms.prod: windows
 ms.technology: windows-sdk

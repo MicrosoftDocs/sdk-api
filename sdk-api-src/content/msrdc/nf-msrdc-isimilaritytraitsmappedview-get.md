@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitsmappedview_get.htm
 tech.root: Rdc
 ms.assetid: 57542583-528e-49cb-9ece-f49ecfc6b1cd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Get, Get method [Remote Differential Compression], Get method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Get method, ISimilarityTraitsMappedView.Get, ISimilarityTraitsMappedView::Get, fs.isimilaritytraitsmappedview_get, msrdc/ISimilarityTraitsMappedView::Get, rdc.isimilaritytraitsmappedview_get
 ms.prod: windows-hardware
 ms.technology: windows-devices

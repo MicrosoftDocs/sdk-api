@@ -7,7 +7,7 @@ old-location: monitor\getmonitorbrightness.htm
 tech.root: Monitor
 ms.assetid: eafdec51-067c-4b57-ac07-ca6237bcde14
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMonitorBrightness, GetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorBrightness, monitor.getmonitorbrightness
 ms.prod: windows-hardware
 ms.technology: windows-devices

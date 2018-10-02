@@ -7,7 +7,7 @@ old-location: controls\ListView_GetTopIndex.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettopindex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_GetTopIndex, ListView_GetTopIndex macro [Windows Controls], _win32_ListView_GetTopIndex, _win32_ListView_GetTopIndex_cpp, commctrl/ListView_GetTopIndex, controls.ListView_GetTopIndex, controls._win32_ListView_GetTopIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

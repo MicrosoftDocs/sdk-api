@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_keyprotection.htm
 tech.root: SecCertEnroll
 ms.assetid: 39d8b9ac-ebbd-4bd8-8d5e-a4b28595b030
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IX509PrivateKey interface [Security],KeyProtection property, IX509PrivateKey.KeyProtection, IX509PrivateKey.get_KeyProtection, IX509PrivateKey::KeyProtection, IX509PrivateKey::get_KeyProtection, IX509PrivateKey::put_KeyProtection, KeyProtection property [Security], KeyProtection property [Security],IX509PrivateKey interface, XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, XCN_NCRYPT_UI_NO_PROTECTION_FLAG, XCN_NCRYPT_UI_PROTECT_KEY_FLAG, certenroll/IX509PrivateKey::KeyProtection, certenroll/IX509PrivateKey::get_KeyProtection, certenroll/IX509PrivateKey::put_KeyProtection, get_KeyProtection, security.ix509privatekey_keyprotection
 ms.prod: windows-hardware
 ms.technology: windows-devices

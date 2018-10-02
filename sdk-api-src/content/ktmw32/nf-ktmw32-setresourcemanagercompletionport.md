@@ -4,10 +4,10 @@ title: SetResourceManagerCompletionPort function
 author: windows-sdk-content
 description: Associates the specified I/O completion port with the specified resource manager (RM). This port receives all notifications for the RM.
 old-location: fs\setresourcemanagercompletionport.htm
-tech.root: ktm
+tech.root: Ktm
 ms.assetid: 219fc899-84ee-474f-9f86-6ebf9c721810
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: SetResourceManagerCompletionPort, SetResourceManagerCompletionPort function [Files], fs.setresourcemanagercompletionport, ktmw32/SetResourceManagerCompletionPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

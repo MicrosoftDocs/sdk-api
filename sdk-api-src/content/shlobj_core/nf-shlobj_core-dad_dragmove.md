@@ -4,10 +4,10 @@ title: DAD_DragMove function
 author: windows-sdk-content
 description: Moves the image that is being dragged during a drag-and-drop operation.
 old-location: shell\DAD_DragMove.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7cd9f5ba-e14f-4c0c-8cde-2e7c4926b509
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DAD_DragMove, DAD_DragMove function [Windows Shell], shell.DAD_DragMove, shell_DAD_DragMove, shlobj_core/DAD_DragMove
 ms.prod: windows-hardware
 ms.technology: windows-devices

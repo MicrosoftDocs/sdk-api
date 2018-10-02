@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage_setdiscardcontrolpartname.htm
 tech.root: printdocs
 ms.assetid: ce45f7cf-33ed-4e15-9f65-549ab2c8c8be
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDiscardControlPartName method, IXpsOMPackage.SetDiscardControlPartName, IXpsOMPackage::SetDiscardControlPartName, SetDiscardControlPartName, SetDiscardControlPartName method [XPS Documents and Packaging], SetDiscardControlPartName method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::SetDiscardControlPartName
 ms.prod: windows-hardware
 ms.technology: windows-devices

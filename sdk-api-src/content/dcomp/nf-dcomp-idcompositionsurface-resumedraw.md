@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsurface_resumedraw.htm
 tech.root: directcomp
 ms.assetid: EE008AAB-0C79-4D60-953C-7A9BCFED2C41
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionSurface interface [DirectComposition],ResumeDraw method, IDCompositionSurface.ResumeDraw, IDCompositionSurface::ResumeDraw, ResumeDraw, ResumeDraw method [DirectComposition], ResumeDraw method [DirectComposition],IDCompositionSurface interface, dcomp/IDCompositionSurface::ResumeDraw, directcomp.idcompositionsurface_resumedraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

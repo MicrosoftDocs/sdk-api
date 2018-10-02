@@ -4,10 +4,10 @@ title: IBDA_DigitalDemodulator::get_ModulationType
 author: windows-sdk-content
 description: The get_ModulationType method retrieves the modulation type for the signal.
 old-location: mstv\ibda_digitaldemodulator_get_modulationtype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0f00553f-c0b1-4ff5-9c92-fe3a1990ef20
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_ModulationType method, IBDA_DigitalDemodulator.get_ModulationType, IBDA_DigitalDemodulator::get_ModulationType, IBDA_DigitalDemodulatorget_ModulationType, bdaiface/IBDA_DigitalDemodulator::get_ModulationType, get_ModulationType, get_ModulationType method [Microsoft TV Technologies], get_ModulationType method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_modulationtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

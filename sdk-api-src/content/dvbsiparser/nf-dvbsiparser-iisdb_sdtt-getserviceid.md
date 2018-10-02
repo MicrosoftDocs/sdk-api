@@ -4,10 +4,10 @@ title: IISDB_SDTT::GetServiceId
 author: windows-sdk-content
 description: Receives the service_id field that uniquely identifies a service from an Integrated Services Digital Broadcasting System (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getserviceid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 36e9d2b7-f89a-47ad-9fd2-d9aa8d76949c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetServiceId method, IISDB_SDTT.GetServiceId, IISDB_SDTT::GetServiceId, dvbsiparser/IISDB_SDTT::GetServiceId, mstv.iisdb_sdtt_getserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices

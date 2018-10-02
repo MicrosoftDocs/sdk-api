@@ -4,10 +4,10 @@ title: MsiEnumClientsExA function
 author: windows-sdk-content
 description: The MsiEnumClientsEx function enumerates the installed applications that use a specified component. The function retrieves a product code for an application each time it is called.
 old-location: setup\msienumclientsex.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: f7677202-1b3d-4039-86d3-242c3ce984e4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumClientsEx, MsiEnumClientsEx function [Setup API], MsiEnumClientsExA, MsiEnumClientsExW, NULL, User SID, msi/MsiEnumClientsEx, msi/MsiEnumClientsExA, msi/MsiEnumClientsExW, s-1-1-0, setup.msienumclientsex
 ms.prod: windows-hardware
 ms.technology: windows-devices

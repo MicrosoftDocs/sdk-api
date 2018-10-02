@@ -4,10 +4,10 @@ title: FwpmProviderContextEnum1 function
 author: windows-sdk-content
 description: Returns the next page of results from the provider context enumerator.
 old-location: fwp\fwpmprovidercontextenum1_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 97a6e562-0423-438d-ab21-48c0f0830610
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmProviderContextEnum1, FwpmProviderContextEnum1 function [Filtering], fwp.fwpmprovidercontextenum1_func, fwpmu/FwpmProviderContextEnum1
 ms.prod: windows-hardware
 ms.technology: windows-devices

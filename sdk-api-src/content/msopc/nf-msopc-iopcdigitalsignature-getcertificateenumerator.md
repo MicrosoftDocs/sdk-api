@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature_getcertificateenumerator.htm
 tech.root: OPC
 ms.assetid: 5b5b803f-fc61-41fa-aa73-eefb1c1d2f00
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [Open Packaging Conventions], GetCertificateEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCertificateEnumerator method, IOpcDigitalSignature.GetCertificateEnumerator, IOpcDigitalSignature::GetCertificateEnumerator, msopc/IOpcDigitalSignature::GetCertificateEnumerator, opc.iopcdigitalsignature_getcertificateenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

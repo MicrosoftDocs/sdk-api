@@ -4,10 +4,10 @@ title: IApplicationAssociationRegistration::SetAppAsDefault
 author: windows-sdk-content
 description: Sets an application as the default for a given type. For more information, see Default Programs. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_SetAppAsDefault.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 30870adb-793f-404f-809c-1ec34a1f6b82
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],SetAppAsDefault method, IApplicationAssociationRegistration.SetAppAsDefault, IApplicationAssociationRegistration::SetAppAsDefault, SetAppAsDefault, SetAppAsDefault method [Windows Shell], SetAppAsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_SetAppAsDefault, shell.IApplicationAssociationRegistration_SetAppAsDefault, shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

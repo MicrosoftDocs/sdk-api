@@ -7,7 +7,7 @@ old-location: devinst\setupdideletedevregkey.htm
 tech.root: devinst
 ms.assetid: 3b332291-0593-4750-9965-f6bf90ec8838
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiDeleteDevRegKey, SetupDiDeleteDevRegKey function [Device and Driver Installation], devinst.setupdideletedevregkey, di-rtns_9e60aff0-2d01-4b1b-90e5-7f050a0e075a.xml, setupapi/SetupDiDeleteDevRegKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

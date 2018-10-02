@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_add.htm
 tech.root: cossdk
 ms.assetid: 0826a2f0-d4a5-40e2-b951-291d67f0d201
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Add, Add method [COM+], Add method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],Add method, ICatalogCollection.Add, ICatalogCollection::Add, _cos_ICatalogCollection_Add, comadmin/ICatalogCollection::Add, cos.icatalogcollection_add
 ms.prod: windows-hardware
 ms.technology: windows-devices

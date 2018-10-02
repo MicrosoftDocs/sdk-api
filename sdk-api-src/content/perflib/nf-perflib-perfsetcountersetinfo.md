@@ -4,10 +4,10 @@ title: PerfSetCounterSetInfo function
 author: windows-sdk-content
 description: Specifies the layout of a particular counter set.
 old-location: perf\perfsetcountersetinfo.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: b4295503-5588-4898-816c-939a5920fc77
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: PerfSetCounterSetInfo, PerfSetCounterSetInfo function [Perf], base.perfsetcountersetinfo, perf.perfsetcountersetinfo, perflib/PerfSetCounterSetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

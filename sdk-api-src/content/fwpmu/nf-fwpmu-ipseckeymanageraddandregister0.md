@@ -4,10 +4,10 @@ title: IPsecKeyManagerAddAndRegister0 function
 author: windows-sdk-content
 description: Registers a Trusted Intermediary Agent (TIA) with IPsec.
 old-location: fwp\ipseckeymanageraddandregister0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 9606A611-6C55-4548-B9C4-688580338F08
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IPsecKeyManagerAddAndRegister0, IPsecKeyManagerAddAndRegister0 function [Filtering], fwp.ipseckeymanageraddandregister0, fwpmu/IPsecKeyManagerAddAndRegister0
 ms.prod: windows-hardware
 ms.technology: windows-devices

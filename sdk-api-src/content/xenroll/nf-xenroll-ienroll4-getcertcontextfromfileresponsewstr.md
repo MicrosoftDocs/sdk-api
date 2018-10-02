@@ -7,7 +7,7 @@ old-location: security\ienroll4_getcertcontextfromfileresponsewstr.htm
 tech.root: seccrypto
 ms.assetid: 04a57bd4-4e04-41eb-97c9-87bfb51be645
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IEnroll4 interface [Security],getCertContextFromFileResponseWStr method, IEnroll4.getCertContextFromFileResponseWStr, IEnroll4::getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr method [Security], getCertContextFromFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_getcertcontextfromfileresponsewstr, xenroll/IEnroll4::getCertContextFromFileResponseWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

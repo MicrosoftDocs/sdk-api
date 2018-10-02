@@ -4,10 +4,10 @@ title: DhcpAddFilterV4 function
 author: windows-sdk-content
 description: Adds a link-layer address or address pattern to the allow/deny lists.
 old-location: dhcp\dhcpaddfilterv4.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 5543ef67-d095-44b8-b511-e6754aeb9881
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpAddFilterV4, DhcpAddFilterV4 function [DHCP], dhcp.dhcpaddfilterv4, dhcpsapi/DhcpAddFilterV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ICredentialProviderUserArray::GetCount
 author: windows-sdk-content
 description: Retrieves the number of ICredentialProviderUser objects in the user array.
 old-location: shell\ICredentialProviderUserArray_GetCount.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetCount method, ICredentialProviderUserArray.GetCount, ICredentialProviderUserArray::GetCount, credentialprovider/ICredentialProviderUserArray::GetCount, shell.ICredentialProviderUserArray_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

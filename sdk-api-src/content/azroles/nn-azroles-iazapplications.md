@@ -7,7 +7,7 @@ old-location: security\iazapplications.htm
 tech.root: SecAuthZ
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security],described, azroles/IAzApplications, security.iazapplications
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_changepoint.htm
 tech.root: imapi
 ms.assetid: e5d15478-e632-4e76-91e2-ee360dfccf19
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ChangePoint method, IFileSystemImage.get_ChangePoint, IFileSystemImage::get_ChangePoint, get_ChangePoint, get_ChangePoint method [IMAPI], get_ChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_changepoint, imapi2fs/IFileSystemImage::get_ChangePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

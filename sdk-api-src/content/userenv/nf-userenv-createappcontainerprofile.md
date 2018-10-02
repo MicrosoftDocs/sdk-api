@@ -4,10 +4,10 @@ title: CreateAppContainerProfile function
 author: windows-sdk-content
 description: Creates a per-user, per-app profile for Windows Store apps.
 old-location: shell\createappcontainerprofile.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 73F5F30F-4083-4D33-B181-31B782AD40D6
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CreateAppContainerProfile, CreateAppContainerProfile function [Windows Shell], shell.createappcontainerprofile, userenv/CreateAppContainerProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

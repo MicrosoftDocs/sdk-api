@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflection1_getvariablebyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getvariablebyname.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 949e282a-c8c8-2ae4-0a72-0b158bbcc614, GetVariableByName, GetVariableByName method [Direct3D 10], GetVariableByName method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetVariableByName method, ID3D10ShaderReflection1.GetVariableByName, ID3D10ShaderReflection1::GetVariableByName, d3d10_1shader/ID3D10ShaderReflection1::GetVariableByName, direct3d10.id3d10shaderreflection1_getvariablebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

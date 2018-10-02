@@ -4,10 +4,10 @@ title: IPsecSaContextGetSpi0 function
 author: windows-sdk-content
 description: Retrieves the security parameters index (SPI) for a security association (SA) context.
 old-location: fwp\ipsecsacontextgetspi0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: dac82051-db36-450a-a59a-61df6bad6694
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IPsecSaContextGetSpi0, IPsecSaContextGetSpi0 function [Filtering], fwp.ipsecsacontextgetspi0, fwpmu/IPsecSaContextGetSpi0
 ms.prod: windows-hardware
 ms.technology: windows-devices

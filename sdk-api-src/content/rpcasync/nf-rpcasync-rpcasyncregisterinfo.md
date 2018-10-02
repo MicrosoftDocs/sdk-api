@@ -7,7 +7,7 @@ old-location: rpc\rpcasyncregisterinfo.htm
 tech.root: Rpc
 ms.assetid: 57bb4579-caae-4ec5-8666-c5e2e98ae632
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcAsyncRegisterInfo, RpcAsyncRegisterInfo function [RPC], _rpc_rpcasyncregisterinfo, rpc.rpcasyncregisterinfo, rpcasync/RpcAsyncRegisterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

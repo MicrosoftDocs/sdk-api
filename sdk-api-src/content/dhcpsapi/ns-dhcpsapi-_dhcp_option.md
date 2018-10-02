@@ -4,10 +4,10 @@ title: "_DHCP_OPTION"
 author: windows-sdk-content
 description: The DHCP_OPTION structure defines a single DHCP option and any data elements associated with it.
 old-location: dhcp\dhcp_option.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 1be34eb4-a226-4f07-b763-173a4f8a0671
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_OPTION, DHCP_OPTION, DHCP_OPTION structure [DHCP], LPDHCP_OPTION, LPDHCP_OPTION structure pointer [DHCP], _DHCP_OPTION, dhcp.dhcp_option, dhcpsapi/DHCP_OPTION, dhcpsapi/LPDHCP_OPTION"
 ms.prod: windows
 ms.technology: windows-sdk

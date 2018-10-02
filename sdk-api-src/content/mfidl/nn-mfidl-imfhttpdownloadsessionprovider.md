@@ -4,10 +4,10 @@ title: IMFHttpDownloadSessionProvider
 author: windows-sdk-content
 description: Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation.
 old-location: mf\imfhttpdownloadsessionprovider.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4A3A96FB-A7C5-40BB-AB8F-12A7F00FDCD1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFHttpDownloadSessionProvider, IMFHttpDownloadSessionProvider interface [Media Foundation], IMFHttpDownloadSessionProvider interface [Media Foundation],described, mf.imfhttpdownloadsessionprovider, mfidl/IMFHttpDownloadSessionProvider
 ms.prod: windows
 ms.technology: windows-sdk

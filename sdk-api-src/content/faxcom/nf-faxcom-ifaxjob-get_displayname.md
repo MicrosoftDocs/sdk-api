@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_displayname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8b39.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service],IFaxJob interface, IFaxJob interface [Fax Service],DisplayName property, IFaxJob.DisplayName, IFaxJob.get_DisplayName, IFaxJob::DisplayName, IFaxJob::get_DisplayName, _mfax_ifaxjob_get_displayname, fax._mfax_ifaxjob_get_displayname, fax._mfax_ifaxjob_mfax_ifaxjob_get_displayname_cpp, faxcom/IFaxJob::DisplayName, faxcom/IFaxJob::get_DisplayName, get_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

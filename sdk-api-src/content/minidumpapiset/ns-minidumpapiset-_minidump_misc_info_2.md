@@ -7,7 +7,7 @@ old-location: base\minidump_misc_info_2.htm
 tech.root: debug
 ms.assetid: 34f46a51-9e41-4550-a080-1c7c7a603b54
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: "*PMINIDUMP_MISC_INFO_2, MINIDUMP_MISC1_PROCESSOR_POWER_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO_2, MINIDUMP_MISC_INFO_2 structure, PMINIDUMP_MISC_INFO_2, PMINIDUMP_MISC_INFO_2 structure pointer, _MINIDUMP_MISC_INFO_2, base.minidump_misc_info_2, minidumpapiset/MINIDUMP_MISC_INFO_2, minidumpapiset/PMINIDUMP_MISC_INFO_2"
 ms.prod: windows
 ms.technology: windows-sdk

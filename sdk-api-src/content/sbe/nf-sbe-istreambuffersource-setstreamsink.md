@@ -4,10 +4,10 @@ title: IStreamBufferSource::SetStreamSink
 author: windows-sdk-content
 description: The SetStreamSink method sets a pointer to the Stream Buffer Sink filter, so that the Stream Buffer Source filter can stream data from the sink filter.
 old-location: mstv\istreambuffersource_setstreamsink.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9cc53fb6-a652-43fa-a962-9bd3c67b5664
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IStreamBufferSource interface [Microsoft TV Technologies],SetStreamSink method, IStreamBufferSource.SetStreamSink, IStreamBufferSource::SetStreamSink, IStreamBufferSourceSetStreamSink, SetStreamSink, SetStreamSink method [Microsoft TV Technologies], SetStreamSink method [Microsoft TV Technologies],IStreamBufferSource interface, mstv.istreambuffersource_setstreamsink, sbe/IStreamBufferSource::SetStreamSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

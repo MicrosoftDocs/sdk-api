@@ -4,10 +4,10 @@ title: "_MI_Uint64A"
 author: windows-sdk-content
 description: Represents an array of MI_Uint64 types.
 old-location: wmi_v2\mi_uint64a.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 8bf5a9cc-e9ce-4b83-a902-e5dfcfca7b6a
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Uint64A, MI_Uint64A structure [Windows Management Infrastructure (MI)], _MI_Uint64A, mi/MI_Uint64A, wmi._mi_uint64a, wmi_v2.mi_uint64a
 ms.prod: windows
 ms.technology: windows-sdk

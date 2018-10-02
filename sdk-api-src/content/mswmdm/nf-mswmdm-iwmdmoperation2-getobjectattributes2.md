@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation2_getobjectattributes2.htm
 tech.root: WMDM
 ms.assetid: 7bf76094-5660-47ac-b1a2-a67b6f95964b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetObjectAttributes2, GetObjectAttributes2 method [windows Media Device Manager], GetObjectAttributes2 method [windows Media Device Manager],IWMDMOperation2 interface, IWMDMOperation2 interface [windows Media Device Manager],GetObjectAttributes2 method, IWMDMOperation2.GetObjectAttributes2, IWMDMOperation2::GetObjectAttributes2, IWMDMOperation2GetObjectAttributes2, mswmdm/IWMDMOperation2::GetObjectAttributes2, wmdm.iwmdmoperation2_getobjectattributes2
 ms.prod: windows-hardware
 ms.technology: windows-devices

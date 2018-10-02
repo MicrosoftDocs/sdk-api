@@ -4,10 +4,10 @@ title: IPersistTuneXml::InitNew
 author: windows-sdk-content
 description: This method is not implemented in the current release. It was created to make the IPersistTuneXml interface compatible with the IPersistStreamInit interface and is reserved for future use.
 old-location: mstv\ipersisttunexml_initnew.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 75485d59-118c-4098-974b-40f7a36dbd91
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],InitNew method, IPersistTuneXml.InitNew, IPersistTuneXml::InitNew, InitNew, InitNew method [Microsoft TV Technologies], InitNew method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_initnew, tuner/IPersistTuneXml::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices

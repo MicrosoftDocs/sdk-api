@@ -4,10 +4,10 @@ title: ldap_perror function
 author: windows-sdk-content
 description: Obsolete function. It exists only for compatibility.
 old-location: ldap\ldap_perror.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 9f4f1e45-7d0a-49d6-aae8-5ca550e14564
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ldap_perror, ldap.ldap__perror, ldap.ldap_perror, ldap_perror, ldap_perror function [LDAP], winldap/ldap_perror"
 ms.prod: windows-hardware
 ms.technology: windows-devices

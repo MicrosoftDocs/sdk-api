@@ -4,10 +4,10 @@ title: SHCOLUMNDATA
 author: windows-sdk-content
 description: Contains information that identifies a particular file. It is used by IColumnProvider::GetItemData when requesting data for a particular file.
 old-location: shell\SHCOLUMNDATA_str.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3a0c9231-2871-4314-9db3-7e5609e08359
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPSHCOLUMNDATA, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, LPSHCOLUMNDATA, LPSHCOLUMNDATA structure pointer [Windows Shell], SHCDF_UPDATEITEM, SHCOLUMNDATA, SHCOLUMNDATA structure [Windows Shell], _win32_SHCOLUMNDATA_str, shell.SHCOLUMNDATA_str, shlobj/LPSHCOLUMNDATA, shlobj/SHCOLUMNDATA"
 ms.prod: windows
 ms.technology: windows-sdk

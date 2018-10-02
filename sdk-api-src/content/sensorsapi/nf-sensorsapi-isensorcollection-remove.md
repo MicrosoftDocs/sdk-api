@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensorcollection_remove.htm
 tech.root: SensorsAPI
 ms.assetid: 9e96bae1-9ac8-41fd-99c7-3c025baf674a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISensorCollection interface,Remove method, ISensorCollection.Remove, ISensorCollection::Remove, Remove, Remove method, Remove method,ISensorCollection interface, sensorsapi/ISensorCollection::Remove, winsensors_com_ref.isensorcollection_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DsListSitesA function
 author: windows-sdk-content
 description: Lists all the sites in the enterprise forest.
 old-location: ad\dslistsites.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: d424e750-6700-42b8-9d4f-e430cd0a7e4e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DsListSites, DsListSites function [Active Directory], DsListSitesA, DsListSitesW, _glines_dslistsites, ad.dslistsites, ntdsapi/DsListSites, ntdsapi/DsListSitesA, ntdsapi/DsListSitesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

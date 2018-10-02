@@ -7,7 +7,7 @@ old-location: wes\evtgetchannelconfigproperty.htm
 tech.root: WES
 ms.assetid: 0f84f51c-716e-4a70-b31c-2b4f40b3fd83
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EvtGetChannelConfigProperty, EvtGetChannelConfigProperty function [EventLog], wes.evtgetchannelconfigproperty, winevt/EvtGetChannelConfigProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

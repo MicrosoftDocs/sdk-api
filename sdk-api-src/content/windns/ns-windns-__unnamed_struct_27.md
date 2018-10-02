@@ -4,10 +4,10 @@ title: DNS_LOC_DATA
 author: windows-sdk-content
 description: The DNS_LOC_DATA structure represents a DNS location (LOC) resource record (RR) as specified in RFC 1876.
 old-location: dns\dns_loc_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: c1e05479-17f0-4993-8dcf-02036989d6dc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDNS_LOC_DATA, DNS_LOC_DATA, DNS_LOC_DATA structure [DNS], PDNS_LOC_DATA, PDNS_LOC_DATA structure pointer [DNS], _dns_dns_loc_data, dns.dns_loc_data, windns/DNS_LOC_DATA, windns/PDNS_LOC_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

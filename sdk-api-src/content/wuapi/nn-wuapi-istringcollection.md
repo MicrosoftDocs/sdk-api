@@ -4,10 +4,10 @@ title: IStringCollection
 author: windows-sdk-content
 description: Represents an ordered list of strings.
 old-location: wua\istringcollection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 3aaab669-1f80-41ee-8c29-6da613ebccff
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], IStringCollection interface [Windows Update Agent],described, wua.istringcollection, wuapi/IStringCollection
 ms.prod: windows
 ms.technology: windows-sdk

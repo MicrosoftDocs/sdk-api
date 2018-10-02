@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioneffectgroup_setopacity_double.htm
 tech.root: directcomp
 ms.assetid: B82E6BEB-CF92-4EA6-8157-5AA0A41282F1
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_double
 ms.prod: windows-hardware
 ms.technology: windows-devices

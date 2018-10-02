@@ -4,10 +4,10 @@ title: WaitForThreadpoolWorkCallbacks function
 author: windows-sdk-content
 description: Waits for outstanding work callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
 old-location: base\waitforthreadpoolworkcallbacks.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 97c16892-d6ef-4216-ac79-344e83ab35bc
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: WaitForThreadpoolWorkCallbacks, WaitForThreadpoolWorkCallbacks function, base.waitforthreadpoolworkcallbacks, threadpoolapiset/WaitForThreadpoolWorkCallbacks, winbase/WaitForThreadpoolWorkCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

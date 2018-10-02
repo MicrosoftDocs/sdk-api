@@ -4,10 +4,10 @@ title: "_SdpAttributeRange"
 author: windows-sdk-content
 description: The SdpAttributeRange structure is used in a Bluetooth query to constrain the set of attributes to return in the query.
 old-location: bluetooth\sdpattributerange.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 2b8bf753-a3c4-4a41-89c7-0caac76cfd33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: SdpAttributeRange, SdpAttributeRange structure [Bluetooth], _SdpAttributeRange, bluetooth.sdpattributerange, bthsdpdef/SdpAttributeRange
 ms.prod: windows
 ms.technology: windows-sdk

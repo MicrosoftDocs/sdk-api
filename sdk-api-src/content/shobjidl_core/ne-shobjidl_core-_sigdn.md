@@ -4,10 +4,10 @@ title: "_SIGDN"
 author: windows-sdk-content
 description: Requests the form of an item's display name to retrieve through IShellItem::GetDisplayName and SHGetNameFromIDList.
 old-location: shell\SIGDN.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ef800ed8-8694-4543-ad33-c81b976cc5c2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SIGDN, SIGDN enumeration [Windows Shell], SIGDN_DESKTOPABSOLUTEEDITING, SIGDN_DESKTOPABSOLUTEPARSING, SIGDN_FILESYSPATH, SIGDN_NORMALDISPLAY, SIGDN_PARENTRELATIVE, SIGDN_PARENTRELATIVEEDITING, SIGDN_PARENTRELATIVEFORADDRESSBAR, SIGDN_PARENTRELATIVEFORUI, SIGDN_PARENTRELATIVEPARSING, SIGDN_URL, _SIGDN, inet_SIGDN, shell.SIGDN, shobjidl_core/SIGDN, shobjidl_core/SIGDN_DESKTOPABSOLUTEEDITING, shobjidl_core/SIGDN_DESKTOPABSOLUTEPARSING, shobjidl_core/SIGDN_FILESYSPATH, shobjidl_core/SIGDN_NORMALDISPLAY, shobjidl_core/SIGDN_PARENTRELATIVE, shobjidl_core/SIGDN_PARENTRELATIVEEDITING, shobjidl_core/SIGDN_PARENTRELATIVEFORADDRESSBAR, shobjidl_core/SIGDN_PARENTRELATIVEFORUI, shobjidl_core/SIGDN_PARENTRELATIVEPARSING, shobjidl_core/SIGDN_URL
 ms.prod: windows
 ms.technology: windows-sdk

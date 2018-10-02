@@ -4,10 +4,10 @@ title: IQueryContinueWithStatus::SetStatusMessage
 author: windows-sdk-content
 description: Enables the credential provider to set status messages as it attempts to complete IConnectableCredentialProviderCredential::Connect.
 old-location: shell\IQueryContinueWithStatus_SetStatusMessage.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1619c592-f79b-429f-a1dc-ce0b66542dd6
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IQueryContinueWithStatus interface [Windows Shell],SetStatusMessage method, IQueryContinueWithStatus.SetStatusMessage, IQueryContinueWithStatus::SetStatusMessage, SetStatusMessage, SetStatusMessage method [Windows Shell], SetStatusMessage method [Windows Shell],IQueryContinueWithStatus interface, _shell_IQueryContinueWithStatus_SetStatusMessage, credentialprovider/IQueryContinueWithStatus::SetStatusMessage, shell.IQueryContinueWithStatus_SetStatusMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

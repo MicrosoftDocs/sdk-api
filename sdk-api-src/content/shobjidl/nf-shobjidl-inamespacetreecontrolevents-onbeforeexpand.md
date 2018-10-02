@@ -4,10 +4,10 @@ title: INameSpaceTreeControlEvents::OnBeforeExpand
 author: windows-sdk-content
 description: Called before an IShellItem is expanded.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeExpand.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b3cf5edf-061a-434a-b273-dc33fcdd8448
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeforeExpand method, INameSpaceTreeControlEvents.OnBeforeExpand, INameSpaceTreeControlEvents::OnBeforeExpand, OnBeforeExpand, OnBeforeExpand method [Windows Shell], OnBeforeExpand method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeforeExpand, shell.INameSpaceTreeControlEvents_OnBeforeExpand, shobjidl/INameSpaceTreeControlEvents::OnBeforeExpand
 ms.prod: windows-hardware
 ms.technology: windows-devices

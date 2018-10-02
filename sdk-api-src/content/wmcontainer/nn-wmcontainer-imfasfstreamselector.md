@@ -4,10 +4,10 @@ title: IMFASFStreamSelector
 author: windows-sdk-content
 description: Selects streams in an Advanced Systems Format (ASF) file, based on the mutual exclusion information in the ASF header.
 old-location: mf\imfasfstreamselector.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d2e1fc15-2e12-4698-a4b1-ca8046d228de
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], IMFASFStreamSelector interface [Media Foundation],described, d2e1fc15-2e12-4698-a4b1-ca8046d228de, mf.imfasfstreamselector, wmcontainer/IMFASFStreamSelector
 ms.prod: windows
 ms.technology: windows-sdk

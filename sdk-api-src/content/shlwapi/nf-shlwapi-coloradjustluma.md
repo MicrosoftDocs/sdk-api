@@ -4,10 +4,10 @@ title: ColorAdjustLuma function
 author: windows-sdk-content
 description: Changes the luminance of a RGB value. Hue and saturation are not affected.
 old-location: shell\ColorAdjustLuma.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d113ad59-cde4-4f11-b7f1-53b3fb69ec10
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ColorAdjustLuma, ColorAdjustLuma function [Windows Shell], _win32_ColorAdjustLuma, shell.ColorAdjustLuma, shlwapi/ColorAdjustLuma
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_INFO_Skip.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\skip.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumWIA_DEV_INFO interface [WIA],Skip method, IEnumWIA_DEV_INFO.Skip, IEnumWIA_DEV_INFO::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWIA_DEV_INFO interface, _wia_IEnumWIA_DEV_INFO_Skip, wia._wia_IEnumWIA_DEV_INFO_Skip, wia_xp/IEnumWIA_DEV_INFO::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_login.htm
 tech.root: WMP
 ms.assetid: 7e43b200-1922-42ad-b785-6643e0215c61
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Login method, IWMPContentPartner.Login, IWMPContentPartner::Login, IWMPContentPartnerLogin, Login, Login method [Windows Media Player], Login method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Login, wmp.iwmpcontentpartner_login
 ms.prod: windows-hardware
 ms.technology: windows-devices

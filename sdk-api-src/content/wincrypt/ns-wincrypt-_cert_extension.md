@@ -7,7 +7,7 @@ old-location: security\cert_extension.htm
 tech.root: seccrypto
 ms.assetid: 787a4df0-c0e3-46b9-a7e6-eb3bee3ed717
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCERT_EXTENSION, CERT_EXTENSION, CERT_EXTENSION structure [Security], PCERT_EXTENSION, PCERT_EXTENSION structure pointer [Security], _CERT_EXTENSION, _crypto2_cert_extension, security.cert_extension, wincrypt/CERT_EXTENSION, wincrypt/PCERT_EXTENSION"
 ms.prod: windows
 ms.technology: windows-sdk

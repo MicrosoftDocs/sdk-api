@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_cancelsavefileas.htm
 tech.root: wmformat
 ms.assetid: fcf43e86-daa3-4944-b687-b8c9afab7336
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: CancelSaveFileAs, CancelSaveFileAs method [windows Media Format], CancelSaveFileAs method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],CancelSaveFileAs method, IWMReaderAdvanced4.CancelSaveFileAs, IWMReaderAdvanced4::CancelSaveFileAs, IWMReaderAdvanced4CancelSaveFileAs, wmformat.iwmreaderadvanced4_cancelsavefileas, wmsdkidl/IWMReaderAdvanced4::CancelSaveFileAs
 ms.prod: windows-hardware
 ms.technology: windows-devices

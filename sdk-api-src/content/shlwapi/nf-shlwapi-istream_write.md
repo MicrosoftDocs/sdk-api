@@ -4,10 +4,10 @@ title: IStream_Write function
 author: windows-sdk-content
 description: Writes data of unknown format from a buffer to a specified stream.
 old-location: shell\IStream_Write.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: fdcfdaf8-7fcb-433e-b3d4-98ca143fbe6b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IStream_Write, IStream_Write function [Windows Shell], _shell_IStream_Write, shell.IStream_Write, shlwapi/IStream_Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

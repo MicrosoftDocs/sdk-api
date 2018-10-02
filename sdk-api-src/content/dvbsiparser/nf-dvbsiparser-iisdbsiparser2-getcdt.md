@@ -4,10 +4,10 @@ title: IIsdbSiParser2::GetCDT
 author: windows-sdk-content
 description: Gets the common data table (CDT) from an Integrated Services Digital Broadcasting (ISDB) transport stream. A CDT contains data that is needed for receivers and stored in nonvolatile memory, such as company logos.
 old-location: mstv\iisdbsiparser2_getcdt.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c984a340-d31b-43a5-baac-323629002aab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCDT, GetCDT method [Microsoft TV Technologies], GetCDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetCDT method, IIsdbSiParser2.GetCDT, IIsdbSiParser2::GetCDT, dvbsiparser/IIsdbSiParser2::GetCDT, mstv.iisdbsiparser2_getcdt
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SHEvaluateSystemCommandTemplate function
 author: windows-sdk-content
 description: Enforces strict validation of parameters used in a call to CreateProcess or ShellExecute.
 old-location: shell\SHEvaluateSystemCommandTemplate.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 554b941d-7d03-47ae-a23a-2c47c5ca1044
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHEvaluateSystemCommandTemplate, SHEvaluateSystemCommandTemplate function [Windows Shell], _shell_SHEvaluateSystemCommandTemplate, shell.SHEvaluateSystemCommandTemplate, shellapi/SHEvaluateSystemCommandTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

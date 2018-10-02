@@ -4,10 +4,10 @@ title: PathCchAppendEx function
 author: windows-sdk-content
 description: Appends one path to the end of another.This function differs from PathCchAppend in that it allows for a longer final path to be constructed.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchAppendEx.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5421c666-1c8a-4ae8-baba-9e6f69c877df
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchAppendEx, PathCchAppendEx function [Windows Shell], pathcch/PathCchAppendEx, shell.PathCchAppendEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

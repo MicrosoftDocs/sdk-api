@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorEndSession function
 author: windows-sdk-content
 description: Closes an EAP authentication session on the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorendsession.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 6295277d-3ad8-4c37-a6bf-8f72e8a9b404
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EapMethodAuthenticatorEndSession, EapMethodAuthenticatorEndSession function [EAPHost], eaphost.eapmethodauthenticatorendsession, eapmethodauthenticatorapis/EapMethodAuthenticatorEndSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

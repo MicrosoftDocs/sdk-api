@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_setstate.htm
 tech.root: DirectShow
 ms.assetid: 69c3612f-e91a-4ab3-8f6d-2966e64a9220
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMediaStream.SetState, IMultiMediaStream::SetState, IMultiMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_setstate, mmstream/IMultiMediaStream::SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

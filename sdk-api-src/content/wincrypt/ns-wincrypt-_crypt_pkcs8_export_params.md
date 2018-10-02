@@ -7,7 +7,7 @@ old-location: security\crypt_pkcs8_export_params.htm
 tech.root: seccrypto
 ms.assetid: 5a60c96e-907a-409e-921c-59055452463f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCRYPT_PKCS8_EXPORT_PARAMS, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_PKCS8_EXPORT_PARAMS, CRYPT_PKCS8_EXPORT_PARAMS structure [Security], PCRYPT_PKCS8_EXPORT_PARAMS, PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security], _CRYPT_PKCS8_EXPORT_PARAMS, security.crypt_pkcs8_export_params, wincrypt/CRYPT_PKCS8_EXPORT_PARAMS, wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

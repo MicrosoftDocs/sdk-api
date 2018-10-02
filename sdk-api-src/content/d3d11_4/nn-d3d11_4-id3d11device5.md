@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device5.htm
 tech.root: direct3d11
 ms.assetid: C077BAD4-08D2-4F1F-8313-5066F68F014C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D11Device5, ID3D11Device5 interface [Direct3D 11], ID3D11Device5 interface [Direct3D 11],described, d3d11_4/ID3D11Device5, direct3d11.id3d11device5
 ms.prod: windows
 ms.technology: windows-sdk

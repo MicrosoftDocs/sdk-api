@@ -7,7 +7,7 @@ old-location: automat\itypechangeevents.htm
 tech.root: automat
 ms.assetid: 5e286a4b-b36b-40d6-9a39-d572086e5a2d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation],described, automat.itypechangeevents, oaidl/ITypeChangeEvents
 ms.prod: windows
 ms.technology: windows-sdk

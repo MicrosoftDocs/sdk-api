@@ -4,10 +4,10 @@ title: DrvEndDoc function
 author: windows-sdk-content
 description: The DrvEndDoc function is called by GDI when it has finished sending a document to the driver for rendering.
 old-location: display\drvenddoc.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 905813fd-281d-4cc8-b006-a2d284041bb7
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvEndDoc, DrvEndDoc function [Display Devices], ddifncs_aa6db3be-deb1-43f4-b33f-e13a8b65bf7e.xml, display.drvenddoc, winddi/DrvEndDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_LSA_DISPATCH_TABLE"
 author: windows-sdk-content
 description: Contains pointers to the Local Security Authority (LSA) functions that Windows authentication packages can call.
 old-location: security\lsa_dispatch_table.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 2e144ce0-e8c9-457a-8b12-7d21dda6adf3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PLSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE structure [Security], PLSA_DISPATCH_TABLE, PLSA_DISPATCH_TABLE structure pointer [Security], _LSA_DISPATCH_TABLE, _lsa_lsa_dispatch_table, ntsecpkg/LSA_DISPATCH_TABLE, ntsecpkg/PLSA_DISPATCH_TABLE, security.lsa_dispatch_table"
 ms.prod: windows
 ms.technology: windows-sdk

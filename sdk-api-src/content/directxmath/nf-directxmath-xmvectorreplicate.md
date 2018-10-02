@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorreplicate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicate(float)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVectorReplicate, XMVectorReplicate, XMVectorReplicate method [DirectX Math Support APIs], dxmath.xmvectorreplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

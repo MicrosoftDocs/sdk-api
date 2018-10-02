@@ -4,10 +4,10 @@ title: UIntPtrMult function
 author: windows-sdk-content
 description: Multiplies one value of type UINT_PTR by another.
 old-location: shell\UIntPtrMult.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c34708d1-50e8-47dd-ac79-cfef24ce6060
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: UIntPtrMult, UIntPtrMult function [Windows Shell], _shell_UIntPtrMult, intsafe/UIntPtrMult, shell.UIntPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

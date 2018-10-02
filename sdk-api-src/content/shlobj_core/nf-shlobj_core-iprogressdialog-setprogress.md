@@ -4,10 +4,10 @@ title: IProgressDialog::SetProgress
 author: windows-sdk-content
 description: Updates the progress dialog box with the current state of the operation.
 old-location: shell\IProgressDialog_SetProgress.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 50df7b32-e345-4379-809f-6870b53417b8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetProgress method, IProgressDialog.SetProgress, IProgressDialog::SetProgress, SetProgress, SetProgress method [Windows Shell], SetProgress method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetProgress, shell.IProgressDialog_SetProgress, shlobj_core/IProgressDialog::SetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

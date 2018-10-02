@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcollection_count.htm
 tech.root: Wds
 ms.assetid: 3b5057b9-0412-45d0-9ed7-c0e855c97b5a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Count property [Windows Deployment Services], Count property [Windows Deployment Services],IWdsTransportCollection interface, IWdsTransportCollection interface [Windows Deployment Services],Count property, IWdsTransportCollection.Count, IWdsTransportCollection.get_Count, IWdsTransportCollection::Count, IWdsTransportCollection::get_Count, get_Count, wds.iwdstransportcollection_count, wdstptmgmt/IWdsTransportCollection::Count, wdstptmgmt/IWdsTransportCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

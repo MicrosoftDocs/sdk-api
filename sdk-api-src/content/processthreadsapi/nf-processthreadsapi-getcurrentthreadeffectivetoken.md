@@ -7,7 +7,7 @@ old-location: security\getcurrentthreadeffectivetoken.htm
 tech.root: SecAuthZ
 ms.assetid: 794E9086-17E7-4520-AB30-63DF00FF7AA4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCurrentThreadEffectiveToken, GetCurrentThreadEffectiveToken function [Security], processthreadsapi/GetCurrentThreadEffectiveToken, security.getcurrentthreadeffectivetoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

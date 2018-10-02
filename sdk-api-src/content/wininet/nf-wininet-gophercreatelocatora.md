@@ -7,7 +7,7 @@ old-location: wininet\gophercreatelocator.htm
 tech.root: WinInet
 ms.assetid: 972a4ff9-efda-4784-9ac8-c76e679e8032
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GopherCreateLocator, GopherCreateLocator function [WinINet], GopherCreateLocatorA, GopherCreateLocatorW, _inet_gophercreatelocator_function, wininet.gophercreatelocator, wininet/GopherCreateLocator, wininet/GopherCreateLocatorA, wininet/GopherCreateLocatorW
 ms.prod: windows-hardware
 ms.technology: windows-devices

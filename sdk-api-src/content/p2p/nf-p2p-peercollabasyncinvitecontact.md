@@ -4,10 +4,10 @@ title: PeerCollabAsyncInviteContact function
 author: windows-sdk-content
 description: Sends an invitation to a trusted peer contact to join the sender's peer collaboration activity over a secured connection. The availability of the invitation response is updated through an asynchronous event.
 old-location: p2p\peercollabasyncinvitecontact.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 2101e16e-ee05-417f-835b-c00cba7f6576
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabAsyncInviteContact, PeerCollabAsyncInviteContact function [Peer Networking], p2p.peercollabasyncinvitecontact, p2p/PeerCollabAsyncInviteContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

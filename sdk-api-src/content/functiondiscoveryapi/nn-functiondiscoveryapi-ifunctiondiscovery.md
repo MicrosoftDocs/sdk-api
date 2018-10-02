@@ -4,10 +4,10 @@ title: IFunctionDiscovery
 author: windows-sdk-content
 description: This interface is used by client programs to discover function instances, get the default function instance for a category, and create advanced Function Discovery query objects that enable registering Function Discovery defaults, among other things.
 old-location: ncd\ifunctiondiscovery.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 352a8d61-7d3a-423d-8b7e-1163d4fa1e00
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFunctionDiscovery, IFunctionDiscovery interface, IFunctionDiscovery interface,described, functiondiscoveryapi/IFunctionDiscovery, ncd.ifunctiondiscovery
 ms.prod: windows
 ms.technology: windows-sdk

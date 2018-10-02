@@ -4,10 +4,10 @@ title: IExplorerCommand::GetToolTip
 author: windows-sdk-content
 description: Gets the tooltip string associated with a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetToolTip.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f2c54602-2ffc-45bc-ba00-d7b9d4cf2343
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetToolTip, GetToolTip method [Windows Shell], GetToolTip method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetToolTip method, IExplorerCommand.GetToolTip, IExplorerCommand::GetToolTip, _shell_IExplorerCommand_GetToolTip, shell.IExplorerCommand_GetToolTip, shobjidl_core/IExplorerCommand::GetToolTip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDVB_BAT::GetNextTable
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_getnexttable.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9ba93496-d32f-44f1-83d8-1cfb61b689e9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetNextTable method, IDVB_BAT.GetNextTable, IDVB_BAT::GetNextTable, IDVB_BATGetNextTable, dvbsiparser/IDVB_BAT::GetNextTable, mstv.idvb_bat_getnexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

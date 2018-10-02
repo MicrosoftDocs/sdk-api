@@ -4,10 +4,10 @@ title: IBDA_DRIDRMService
 author: windows-sdk-content
 description: The IBDA_DRIDRMService interface implements a Digital Rights Management (DRM) service for Media Transform Devices (MTDs) under the Protected Broadcast Driver Architecture (PBDA).
 old-location: mstv\ibda_dridrmservice.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9b04c960-a766-4322-bf18-e59176ee2ad1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_DRIDRMService, IBDA_DRIDRMService interface [DirectShow], IBDA_DRIDRMService interface [DirectShow],described, bdaiface/IBDA_DRIDRMService, mstv.ibda_dridrmservice
 ms.prod: windows
 ms.technology: windows-sdk

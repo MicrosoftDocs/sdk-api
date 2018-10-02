@@ -4,10 +4,10 @@ title: IMFSampleGrabberSinkCallback::OnShutdown
 author: windows-sdk-content
 description: Called when the sample-grabber sink is shut down.
 old-location: mf\imfsamplegrabbersinkcallback_onshutdown.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c6ab8ce3-fabb-4321-b90b-d9cdf03e7608
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnShutdown method, IMFSampleGrabberSinkCallback.OnShutdown, IMFSampleGrabberSinkCallback::OnShutdown, OnShutdown, OnShutdown method [Media Foundation], OnShutdown method [Media Foundation],IMFSampleGrabberSinkCallback interface, c6ab8ce3-fabb-4321-b90b-d9cdf03e7608, mf.imfsamplegrabbersinkcallback_onshutdown, mfidl/IMFSampleGrabberSinkCallback::OnShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

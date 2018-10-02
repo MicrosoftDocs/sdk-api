@@ -4,10 +4,10 @@ title: MFCompareFullToPartialMediaType function
 author: windows-sdk-content
 description: Compares a full media type to a partial media type.
 old-location: mf\mfcomparefulltopartialmediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5659cc69-46dc-4b08-96c4-e9ec787a310a
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 5659cc69-46dc-4b08-96c4-e9ec787a310a, MFCompareFullToPartialMediaType, MFCompareFullToPartialMediaType function [Media Foundation], mf.mfcomparefulltopartialmediatype, mfapi/MFCompareFullToPartialMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

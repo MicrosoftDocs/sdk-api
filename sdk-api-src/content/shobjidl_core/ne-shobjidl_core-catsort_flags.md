@@ -4,10 +4,10 @@ title: CATSORT_FLAGS
 author: windows-sdk-content
 description: Specifies methods for sorting category data.
 old-location: shell\CATSORT_FLAGS.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5e3f6c84-ebc4-45e7-8272-f5d98bffd4c8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CATSORT_DEFAULT, CATSORT_FLAGS, CATSORT_FLAGS enumeration [Windows Shell], CATSORT_NAME, inet_CATSORT_FLAGS, shell.CATSORT_FLAGS, shobjidl_core/CATSORT_DEFAULT, shobjidl_core/CATSORT_FLAGS, shobjidl_core/CATSORT_NAME
 ms.prod: windows
 ms.technology: windows-sdk

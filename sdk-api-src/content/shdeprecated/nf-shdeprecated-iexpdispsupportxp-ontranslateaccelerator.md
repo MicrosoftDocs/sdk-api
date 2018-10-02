@@ -4,10 +4,10 @@ title: IExpDispSupportXP::OnTranslateAccelerator
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IExpDispSupportXP_OnTranslateAccelerator.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7afdcd4d-76c6-41ff-b754-83068d5ca5cd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IExpDispSupportXP interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupportXP.OnTranslateAccelerator, IExpDispSupportXP::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupportXP interface, _shell_IExpDispSupportXP_OnTranslateAccelerator, shdeprecated/IExpDispSupportXP::OnTranslateAccelerator, shell.IExpDispSupportXP_OnTranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

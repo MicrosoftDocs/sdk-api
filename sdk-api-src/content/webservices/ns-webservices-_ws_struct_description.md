@@ -7,7 +7,7 @@ old-location: wsw\ws_struct_description.htm
 tech.root: wsw
 ms.assetid: b426a07e-9993-4cea-8847-fc80e9d0b451
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_STRUCT_DESCRIPTION, WS_STRUCT_DESCRIPTION structure [Web Services for Windows], _WS_STRUCT_DESCRIPTION, webservices/WS_STRUCT_DESCRIPTION, wsw.ws_struct_description
 ms.prod: windows
 ms.technology: windows-sdk

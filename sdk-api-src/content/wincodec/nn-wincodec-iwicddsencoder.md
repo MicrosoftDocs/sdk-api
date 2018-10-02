@@ -7,7 +7,7 @@ old-location: wic\iwicddsencoder.htm
 tech.root: wic
 ms.assetid: DF14309F-7595-4ABE-BB6E-03D2914CC86D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWICDdsEncoder, IWICDdsEncoder interface [Windows Imaging Component], IWICDdsEncoder interface [Windows Imaging Component],described, wic.iwicddsencoder, wincodec/IWICDdsEncoder
 ms.prod: windows
 ms.technology: windows-sdk

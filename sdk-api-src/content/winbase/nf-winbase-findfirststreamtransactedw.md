@@ -7,7 +7,7 @@ old-location: fs\findfirststreamtransactedw.htm
 tech.root: fileio
 ms.assetid: 76c64aa9-0501-457d-b774-c209fbac4ccc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Files], FindStreamInfoStandard, fs.findfirststreamtransactedw, winbase/FindFirstStreamTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

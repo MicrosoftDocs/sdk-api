@@ -4,10 +4,10 @@ title: IBackgroundCopyCallback3::FileRangesTransferred
 author: windows-sdk-content
 description: BITS calls your implementation of the FileRangesTransferred method when one or more file ranges have been downloaded. File ranges are added to the job using the IBackgroundCopyFile6::RequestFileRanges method.
 old-location: bits\ibackgroundcopycallback3_filerangestransferred.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: F47293D5-E21E-472A-AE62-4781D61D0430
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: FileRangesTransferred, FileRangesTransferred method [BITS], FileRangesTransferred method [BITS],IBackgroundCopyCallback3 interface, IBackgroundCopyCallback3 interface [BITS],FileRangesTransferred method, IBackgroundCopyCallback3.FileRangesTransferred, IBackgroundCopyCallback3::FileRangesTransferred, bits.ibackgroundcopycallback3_filerangestransferred, bits10_1/IBackgroundCopyCallback3::FileRangesTransferred
 ms.prod: windows-hardware
 ms.technology: windows-devices

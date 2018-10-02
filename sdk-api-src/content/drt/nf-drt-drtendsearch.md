@@ -4,10 +4,10 @@ title: DrtEndSearch function
 author: windows-sdk-content
 description: DrtEndSearch function cancels a search for a key in a DRT.
 old-location: p2p\drtendsearch.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 1a99476f-69ee-4aeb-8c9b-e06315ec095d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DrtEndSearch, DrtEndSearch function [Peer Networking], drt/DrtEndSearch, p2p.drtendsearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

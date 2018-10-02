@@ -4,10 +4,10 @@ title: IDvbSubtitlingDescriptor::GetCountOfRecords
 author: windows-sdk-content
 description: Gets the number of subtitling records in a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getcountofrecords.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8cc25b63-de43-4f8d-af19-c3bb8c389a55
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbSubtitlingDescriptor.GetCountOfRecords, IDvbSubtitlingDescriptor::GetCountOfRecords, dvbsiparser/IDvbSubtitlingDescriptor::GetCountOfRecords, mstv.idvbsubtitlingdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

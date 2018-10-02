@@ -7,7 +7,7 @@ old-location: wmformat\iwmlicenserevocationagent_getlrbchallenge.htm
 tech.root: wmformat
 ms.assetid: 9006f6c5-f9e7-4d00-a7c2-bbdfcfdd85e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetLRBChallenge, GetLRBChallenge method [windows Media Format], GetLRBChallenge method [windows Media Format],IWMLicenseRevocationAgent interface, IWMLicenseRevocationAgent interface [windows Media Format],GetLRBChallenge method, IWMLicenseRevocationAgent.GetLRBChallenge, IWMLicenseRevocationAgent::GetLRBChallenge, IWMLicenseRevocationAgentGetLRBChallenge, wmformat.iwmlicenserevocationagent_getlrbchallenge, wmsdkidl/IWMLicenseRevocationAgent::GetLRBChallenge
 ms.prod: windows-hardware
 ms.technology: windows-devices

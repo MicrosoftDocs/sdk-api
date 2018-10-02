@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_closecommandsession.htm
 tech.root: mbn
 ms.assetid: B0066062-0F10-49B8-85CC-0658757BF52B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CloseCommandSession, CloseCommandSession method [Microsoft Broadband Networks], CloseCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseCommandSession method, IMbnDeviceService.CloseCommandSession, IMbnDeviceService::CloseCommandSession, mbn.imbndeviceservice_closecommandsession, mbnapi/IMbnDeviceService::CloseCommandSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

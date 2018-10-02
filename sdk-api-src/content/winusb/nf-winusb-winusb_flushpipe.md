@@ -4,10 +4,10 @@ title: WinUsb_FlushPipe function
 author: windows-sdk-content
 description: The WinUsb_FlushPipe function discards any data that is cached in a pipe. This is a synchronous operation.
 old-location: buses\winusb_flushpipe.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: 3f6d55c2-32df-4cb9-99bb-0e1a71c97394
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WinUsb_FlushPipe, WinUsb_FlushPipe function [Buses], buses.winusb_flushpipe, winusb/WinUsb_FlushPipe, winusbfunc_44ebf8ef-770d-4102-8a2d-b0d996f36e41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

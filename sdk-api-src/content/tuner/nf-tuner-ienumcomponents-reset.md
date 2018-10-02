@@ -4,10 +4,10 @@ title: IEnumComponents::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumerator to the beginning of the collection.
 old-location: mstv\ienumcomponents_reset.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 753c9f74-3a97-4a8f-ba76-21e7b1d77a70
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Reset method, IEnumComponents.Reset, IEnumComponents::Reset, IEnumComponentsReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_reset, tuner/IEnumComponents::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

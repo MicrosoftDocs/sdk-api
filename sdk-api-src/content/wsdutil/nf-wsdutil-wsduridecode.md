@@ -7,7 +7,7 @@ old-location: ncd\wsduridecode.htm
 tech.root: WsdApi
 ms.assetid: 30232a4c-f7bb-4a22-b148-2576a259808a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSDUriDecode, WSDUriDecode function, ncd.wsduridecode, wsdutil/WSDUriDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

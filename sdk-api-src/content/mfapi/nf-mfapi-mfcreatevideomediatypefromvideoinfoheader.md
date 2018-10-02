@@ -4,10 +4,10 @@ title: MFCreateVideoMediaTypeFromVideoInfoHeader function
 author: windows-sdk-content
 description: Creates a media type from a KS_VIDEOINFOHEADER structure.
 old-location: mf\mfcreatevideomediatypefromvideoinfoheader.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 922ab0b5-2363-4073-9252-a71b79e03573
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 922ab0b5-2363-4073-9252-a71b79e03573, MFCreateVideoMediaTypeFromVideoInfoHeader, MFCreateVideoMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfcreatevideomediatypefromvideoinfoheader, mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

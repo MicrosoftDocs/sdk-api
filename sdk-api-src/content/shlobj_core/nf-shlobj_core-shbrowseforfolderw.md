@@ -4,10 +4,10 @@ title: SHBrowseForFolderW function
 author: windows-sdk-content
 description: Displays a dialog box that enables the user to select a Shell folder.
 old-location: shell\SHBrowseForFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHBrowseForFolder, SHBrowseForFolder function [Windows Shell], SHBrowseForFolderA, SHBrowseForFolderW, _win32_SHBrowseForFolder, shell.SHBrowseForFolder, shlobj_core/SHBrowseForFolder, shlobj_core/SHBrowseForFolderA, shlobj_core/SHBrowseForFolderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

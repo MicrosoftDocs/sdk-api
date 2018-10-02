@@ -4,10 +4,10 @@ title: INameSpaceTreeControl
 author: windows-sdk-content
 description: Exposes methods used to view and manipulate nodes in a tree of Shell items.
 old-location: shell\INameSpaceTreeControl.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2072cb3c-e540-4708-bfe8-33fff3a190bd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeControl, INameSpaceTreeControl interface [Windows Shell], INameSpaceTreeControl interface [Windows Shell],described, _shell_INameSpaceTreeControl, shell.INameSpaceTreeControl, shobjidl_core/INameSpaceTreeControl
 ms.prod: windows
 ms.technology: windows-sdk

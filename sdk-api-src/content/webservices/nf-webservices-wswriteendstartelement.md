@@ -7,7 +7,7 @@ old-location: wsw\wswriteendstartelement.htm
 tech.root: wsw
 ms.assetid: 56bf55f8-978c-4f03-9ace-f992530927c2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsWriteEndStartElement, WsWriteEndStartElement function [Web Services for Windows], webservices/WsWriteEndStartElement, wsw.wswriteendstartelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

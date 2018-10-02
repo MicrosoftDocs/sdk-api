@@ -4,10 +4,10 @@ title: DRMDecrypt function
 author: windows-sdk-content
 description: Decrypts encrypted content.
 old-location: rm\drmdecrypt.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 8e0cb353-4670-4cf7-bcd8-81ebd0adfe32
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMDecrypt, DRMDecrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDecrypt, rm.drmdecrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices

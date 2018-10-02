@@ -4,10 +4,10 @@ title: CMSPCallMultiGraph::RemoveStream
 author: windows-sdk-content
 description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
 old-location: tapi3\cmspcallmultigraph_removestream.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 03572d9a-f243-4423-b645-ef180704477f
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RemoveStream method, CMSPCallMultiGraph.RemoveStream, CMSPCallMultiGraph::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_removestream, mspcall/CMSPCallMultiGraph::RemoveStream, tapi3.cmspcallmultigraph_removestream
 ms.prod: windows-hardware
 ms.technology: windows-devices

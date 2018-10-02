@@ -4,10 +4,10 @@ title: IFolderView::GetFocusedItem
 author: windows-sdk-content
 description: Gets the index of the item that currently has focus in the folder's view.
 old-location: shell\IFolderView_GetFocusedItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5bbc0baf-b384-41da-850c-b2cb9570cb69
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetFocusedItem, GetFocusedItem method [Windows Shell], GetFocusedItem method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetFocusedItem method, IFolderView.GetFocusedItem, IFolderView::GetFocusedItem, _shell_IFolderView_GetFocusedItem, shell.IFolderView_GetFocusedItem, shobjidl_core/IFolderView::GetFocusedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

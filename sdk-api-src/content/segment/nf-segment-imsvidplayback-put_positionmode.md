@@ -4,10 +4,10 @@ title: IMSVidPlayback::put_PositionMode
 author: windows-sdk-content
 description: The put_PositionMode method specifies how position values will be interpreted by this interface.
 old-location: mstv\imsvidplayback_put_positionmode.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b2ff0b7e-c35d-4ea9-92de-a31654781687
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_PositionMode method, IMSVidPlayback.put_PositionMode, IMSVidPlayback::put_PositionMode, IMSVidPlaybackput_PositionMode, mstv.imsvidplayback_put_positionmode, put_PositionMode, put_PositionMode method [Microsoft TV Technologies], put_PositionMode method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_PositionMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

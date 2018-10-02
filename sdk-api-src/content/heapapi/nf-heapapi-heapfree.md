@@ -4,10 +4,10 @@ title: HeapFree function
 author: windows-sdk-content
 description: Frees a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
 old-location: base\heapfree.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 6139e55f-9dda-42b5-bc9b-8d9bbfeaa619
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, base.heapfree, heapapi/HeapFree, winbase/HeapFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

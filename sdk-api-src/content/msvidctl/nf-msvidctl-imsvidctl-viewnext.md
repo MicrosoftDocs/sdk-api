@@ -4,10 +4,10 @@ title: IMSVidCtl::ViewNext
 author: windows-sdk-content
 description: The ViewNext method finds another input device to view the specified tune request.
 old-location: mstv\imsvidctl_viewnext.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 23b83339-f712-4b49-91f9-d0a1b02d64af
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],ViewNext method, IMSVidCtl.ViewNext, IMSVidCtl::ViewNext, IMSVidCtlViewNext, ViewNext, ViewNext method [Microsoft TV Technologies], ViewNext method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_viewnext, msvidctl/IMSVidCtl::ViewNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

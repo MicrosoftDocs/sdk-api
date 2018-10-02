@@ -4,10 +4,10 @@ title: IMFMediaEngineSrcElements::GetURL
 author: windows-sdk-content
 description: Gets the URL of an element in the list.
 old-location: mf\imfmediaenginesrcelements_geturl.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5935BE0D-0E5A-46A8-944C-096746C5FCA3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetURL method, IMFMediaEngineSrcElements.GetURL, IMFMediaEngineSrcElements::GetURL, mf.imfmediaenginesrcelements_geturl, mfmediaengine/IMFMediaEngineSrcElements::GetURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

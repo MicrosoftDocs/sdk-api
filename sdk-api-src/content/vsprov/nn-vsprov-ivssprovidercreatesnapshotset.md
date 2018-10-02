@@ -7,7 +7,7 @@ old-location: base\ivssprovidercreatesnapshotset.htm
 tech.root: VSS
 ms.assetid: 41a795f0-7882-47a3-9226-aa50218a56e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], IVssProviderCreateSnapshotSet interface [VSS],described, base.ivssprovidercreatesnapshotset, vsprov/IVssProviderCreateSnapshotSet
 ms.prod: windows
 ms.technology: windows-sdk

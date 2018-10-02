@@ -4,10 +4,10 @@ title: IMFSample::GetBufferByIndex
 author: windows-sdk-content
 description: Gets a buffer from the sample, by index.
 old-location: mf\imfsample_getbufferbyindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 48d3b861-96e8-4767-a8b1-65614fd48254
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 48d3b861-96e8-4767-a8b1-65614fd48254, GetBufferByIndex, GetBufferByIndex method [Media Foundation], GetBufferByIndex method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferByIndex method, IMFSample.GetBufferByIndex, IMFSample::GetBufferByIndex, mf.imfsample_getbufferbyindex, mfobjects/IMFSample::GetBufferByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ISyncMgrSyncCallback::ReportManualSync
 author: windows-sdk-content
 description: Reports that a synchronization operation is being performed that was requested manually from outside the Sync Center UI.
 old-location: shell\ISyncMgrSyncCallback_ReportManualSync.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1e503f8f-ebfa-4ac9-a6de-e9127919c758
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportManualSync method, ISyncMgrSyncCallback.ReportManualSync, ISyncMgrSyncCallback::ReportManualSync, ReportManualSync, ReportManualSync method [Windows Shell], ReportManualSync method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportManualSync, shell.ISyncMgrSyncCallback_ReportManualSync, syncmgr/ISyncMgrSyncCallback::ReportManualSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

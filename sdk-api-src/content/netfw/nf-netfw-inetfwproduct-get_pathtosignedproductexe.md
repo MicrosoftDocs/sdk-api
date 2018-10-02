@@ -4,10 +4,10 @@ title: INetFwProduct::get_PathToSignedProductExe
 author: windows-sdk-content
 description: Indicates the path to the signed executable file of a third-party firewall product registration.
 old-location: ics\inetfwproduct_pathtosignedproductexe.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 01a7046b-9cfa-44fa-b981-87f15af19ff1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetFwProduct interface [ICS/ICF],PathToSignedProductExe property, INetFwProduct.PathToSignedProductExe, INetFwProduct.get_PathToSignedProductExe, INetFwProduct::PathToSignedProductExe, INetFwProduct::get_PathToSignedProductExe, PathToSignedProductExe property [ICS/ICF], PathToSignedProductExe property [ICS/ICF],INetFwProduct interface, get_PathToSignedProductExe, ics.inetfwproduct_pathtosignedproductexe, netfw/INetFwProduct::PathToSignedProductExe, netfw/INetFwProduct::get_PathToSignedProductExe
 ms.prod: windows-hardware
 ms.technology: windows-devices

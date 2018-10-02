@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateGeometryGroup.htm
 tech.root: direct2d
 ms.assetid: e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: CreateGeometryGroup, CreateGeometryGroup method [Direct2D], CreateGeometryGroup method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateGeometryGroup method, ID2D1Factory.CreateGeometryGroup, ID2D1Factory::CreateGeometryGroup, d2d1/ID2D1Factory::CreateGeometryGroup, direct2d.ID2D1Factory_CreateGeometryGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

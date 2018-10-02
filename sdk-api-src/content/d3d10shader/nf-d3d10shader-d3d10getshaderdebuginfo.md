@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10getshaderdebuginfo.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getshaderdebuginfo.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 8d9f638d-18e5-edcf-f803-bb2b87bf911a, D3D10GetShaderDebugInfo, D3D10GetShaderDebugInfo function [Direct3D 10], d3d10shader/D3D10GetShaderDebugInfo, direct3d10.d3d10getshaderdebuginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMPEG2TuneRequest::put_ProgNo
 author: windows-sdk-content
 description: The put_ProgNo method sets the program number ID.
 old-location: mstv\impeg2tunerequest_put_progno.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 08fc9cc1-52b7-4782-96a1-af00a76ff6c6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_ProgNo method, IMPEG2TuneRequest.put_ProgNo, IMPEG2TuneRequest::put_ProgNo, IMPEG2TuneRequestput_ProgNo, mstv.impeg2tunerequest_put_progno, put_ProgNo, put_ProgNo method [Microsoft TV Technologies], put_ProgNo method [Microsoft TV Technologies],IMPEG2TuneRequest interface, tuner/IMPEG2TuneRequest::put_ProgNo
 ms.prod: windows-hardware
 ms.technology: windows-devices

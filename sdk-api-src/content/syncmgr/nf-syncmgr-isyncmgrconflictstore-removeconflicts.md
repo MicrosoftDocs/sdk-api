@@ -4,10 +4,10 @@ title: ISyncMgrConflictStore::RemoveConflicts
 author: windows-sdk-content
 description: Deletes a set of conflicts, specified by conflict ID, from the store.
 old-location: shell\ISyncMgrConflictStore_RemoveConflicts.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d6fbb322-7bb0-4ad0-bf01-2fe407689fe5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrConflictStore interface [Windows Shell],RemoveConflicts method, ISyncMgrConflictStore.RemoveConflicts, ISyncMgrConflictStore::RemoveConflicts, RemoveConflicts, RemoveConflicts method [Windows Shell], RemoveConflicts method [Windows Shell],ISyncMgrConflictStore interface, _shell_ISyncMgrConflictStore_RemoveConflicts, shell.ISyncMgrConflictStore_RemoveConflicts, syncmgr/ISyncMgrConflictStore::RemoveConflicts
 ms.prod: windows-hardware
 ms.technology: windows-devices

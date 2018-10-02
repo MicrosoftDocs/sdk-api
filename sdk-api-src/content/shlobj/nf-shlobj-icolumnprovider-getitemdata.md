@@ -4,10 +4,10 @@ title: IColumnProvider::GetItemData
 author: windows-sdk-content
 description: Requests column data for a specified file.
 old-location: shell\IColumnProvider_GetItemData.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 88e76f03-acc3-46b1-ad03-d2343f4f3dac
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetItemData, GetItemData method [Windows Shell], GetItemData method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetItemData method, IColumnProvider.GetItemData, IColumnProvider::GetItemData, _win32_IColumnProvider_GetItemData, shell.IColumnProvider_GetItemData, shlobj/IColumnProvider::GetItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices

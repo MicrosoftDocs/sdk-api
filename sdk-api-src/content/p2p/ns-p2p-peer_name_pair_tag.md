@@ -4,10 +4,10 @@ title: peer_name_pair_tag
 author: windows-sdk-content
 description: The PEER_NAME_PAIR structure contains the results of a call to PeerGetNextItem.
 old-location: p2p\peer_name_pair.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 4c64664e-33c6-490e-b160-7bdb5fb428fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPEER_NAME_PAIR, PEER_NAME_PAIR, PEER_NAME_PAIR structure [Peer Networking], PPEER_NAME_PAIR, PPEER_NAME_PAIR structure pointer [Peer Networking], p2p.peer_name_pair, p2p/PPEER_NAME_PAIR, p2p/peer_name_pair_tag, peer_name_pair_tag"
 ms.prod: windows
 ms.technology: windows-sdk

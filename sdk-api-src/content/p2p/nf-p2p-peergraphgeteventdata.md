@@ -4,10 +4,10 @@ title: PeerGraphGetEventData function
 author: windows-sdk-content
 description: The PeerGraphGetEventData function retrieves peer events. An application calls this function until the return value PEER_S_NO_EVENT_DATA is returned, which indicates that a call is successful, but that there are no more peer events to retrieve.
 old-location: p2p\peergraphgeteventdata.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: b64bb920-3fbc-4927-a1b1-39c99850bdd5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphGetEventData, PeerGraphGetEventData function [Peer Networking], p2p.peergraphgeteventdata, p2p/PeerGraphGetEventData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdsvdprovider_createdisk.htm
 tech.root: VDS
 ms.assetid: 3655946d-f8b5-46a1-97e3-82b0831124b3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_DISK_FLAG_NONE, CreateVDisk, CreateVDisk method, CreateVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,CreateVDisk method, IVdsVdProvider.CreateVDisk, IVdsVdProvider::CreateVDisk, base.ivdsvdprovider_createdisk, vds/IVdsVdProvider::CreateVDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

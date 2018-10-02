@@ -4,10 +4,10 @@ title: SCardForgetReaderA function
 author: windows-sdk-content
 description: Removes a previously introduced reader from control by the smart card subsystem. It is removed from the smart card database, including from any reader group that it may have been added to.
 old-location: security\scardforgetreader.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 2022caff-ba01-4d0d-977c-3f51bde95659
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SCardForgetReader, SCardForgetReader function [Security], SCardForgetReaderA, SCardForgetReaderW, _smart_scardforgetreader, security.scardforgetreader, winscard/SCardForgetReader, winscard/SCardForgetReaderA, winscard/SCardForgetReaderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

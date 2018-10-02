@@ -7,7 +7,7 @@ old-location: directwrite\idwritelocalfontfileloader_getlastwritetimefromkey.htm
 tech.root: DirectWrite
 ms.assetid: ce7f5321-8ad8-4412-a54c-7102790e99c0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetLastWriteTimeFromKey, GetLastWriteTimeFromKey method [Direct Write], GetLastWriteTimeFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetLastWriteTimeFromKey method, IDWriteLocalFontFileLoader.GetLastWriteTimeFromKey, IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey, directwrite.idwritelocalfontfileloader_getlastwritetimefromkey, dwrite/IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

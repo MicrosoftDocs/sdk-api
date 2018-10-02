@@ -4,10 +4,10 @@ title: "_EAP_CONFIG_INPUT_FIELD_TYPE"
 author: windows-sdk-content
 description: Defines a set of possible input field types available when querying for user credentials.
 old-location: eaphost\eap_config_input_field_type.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: f05242ad-1e49-4a6d-b4f1-579c4b00ea28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PEAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE enumeration [EAPHost], EapConfigInputEdit, EapConfigInputNetworkPassword, EapConfigInputNetworkUsername, EapConfigInputPSK, EapConfigInputPassword, EapConfigInputPin, EapConfigInputUsername, EapConfigSmartCardError, EapConfigSmartCardUsername, _EAP_CONFIG_INPUT_FIELD_TYPE, eaphost.eap_config_input_field_type, eaptypes/EAP_CONFIG_INPUT_FIELD_TYPE, eaptypes/EapConfigInputEdit, eaptypes/EapConfigInputNetworkPassword, eaptypes/EapConfigInputNetworkUsername, eaptypes/EapConfigInputPSK, eaptypes/EapConfigInputPassword, eaptypes/EapConfigInputPin, eaptypes/EapConfigInputUsername, eaptypes/EapConfigSmartCardError, eaptypes/EapConfigSmartCardUsername"
 ms.prod: windows
 ms.technology: windows-sdk

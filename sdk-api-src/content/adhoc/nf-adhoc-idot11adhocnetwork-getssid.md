@@ -4,10 +4,10 @@ title: IDot11AdHocNetwork::GetSSID
 author: windows-sdk-content
 description: Gets the SSID of the network.
 old-location: nwifi\idot11adhocnetwork_getssid.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: a1a190a2-038b-4353-8dc9-76950b1da9ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetSSID, GetSSID method [NativeWIFI], GetSSID method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSSID method, IDot11AdHocNetwork.GetSSID, IDot11AdHocNetwork::GetSSID, adhoc/IDot11AdHocNetwork::GetSSID, nwifi.idot11adhocnetwork_getssid
 ms.prod: windows-hardware
 ms.technology: windows-devices

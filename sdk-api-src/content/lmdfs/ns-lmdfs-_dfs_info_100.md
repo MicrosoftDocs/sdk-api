@@ -4,10 +4,10 @@ title: "_DFS_INFO_100"
 author: windows-sdk-content
 description: Contains a comment associated with a Distributed File System (DFS) root or link.
 old-location: dfs\dfs_info_100_str.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: 763ba0f0-01e9-47cf-bbe5-93e13aa83aa0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDFS_INFO_100, *PDFS_INFO_100, DFS_INFO_100, DFS_INFO_100 structure [Distributed File System], LPDFS_INFO_100, LPDFS_INFO_100 structure pointer [Distributed File System], PDFS_INFO_100, PDFS_INFO_100 structure pointer [Distributed File System], _DFS_INFO_100, _win32_dfs_info_100_str, dfs.dfs_info_100_str, fs.dfs_info_100_str, lmdfs/DFS_INFO_100, lmdfs/LPDFS_INFO_100, lmdfs/PDFS_INFO_100, netmgmt.dfs_info_100_str"
 ms.prod: windows
 ms.technology: windows-sdk

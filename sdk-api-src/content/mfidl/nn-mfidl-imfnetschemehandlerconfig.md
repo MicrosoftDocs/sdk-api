@@ -4,10 +4,10 @@ title: IMFNetSchemeHandlerConfig
 author: windows-sdk-content
 description: Configures a network scheme plug-in.
 old-location: mf\imfnetschemehandlerconfig.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], IMFNetSchemeHandlerConfig interface [Media Foundation],described, mf.imfnetschemehandlerconfig, mfidl/IMFNetSchemeHandlerConfig
 ms.prod: windows
 ms.technology: windows-sdk

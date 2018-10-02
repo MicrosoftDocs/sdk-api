@@ -4,10 +4,10 @@ title: IMFVideoRenderer
 author: windows-sdk-content
 description: Sets a new mixer or presenter for the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideorenderer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 70596630-5131-460f-9cb3-adcea201c3b2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 70596630-5131-460f-9cb3-adcea201c3b2, IMFVideoRenderer, IMFVideoRenderer interface [Media Foundation], IMFVideoRenderer interface [Media Foundation],described, evr/IMFVideoRenderer, mf.imfvideorenderer
 ms.prod: windows
 ms.technology: windows-sdk

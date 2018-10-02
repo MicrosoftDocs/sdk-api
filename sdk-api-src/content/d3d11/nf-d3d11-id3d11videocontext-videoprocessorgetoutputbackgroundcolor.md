@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor
 author: windows-sdk-content
 description: Gets the current background color for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputbackgroundcolor.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: B22666BC-EADF-4812-B299-1EA45F1943C4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputBackgroundColor method, ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor, ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor, VideoProcessorGetOutputBackgroundColor, VideoProcessorGetOutputBackgroundColor method [Media Foundation], VideoProcessorGetOutputBackgroundColor method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor, mf.id3d11videocontext_videoprocessorgetoutputbackgroundcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

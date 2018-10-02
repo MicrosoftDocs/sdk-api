@@ -4,10 +4,10 @@ title: "_DHCP_IP_RESERVATION_V6"
 author: windows-sdk-content
 description: Defines an IPv6 reservation for a DHCPv6 client in a specific IPv6 prefix.
 old-location: dhcp\dhcp_ip_reservation_v6.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: f1595632-018b-4626-b3c6-49f0e5b3752c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_IP_RESERVATION_V6, DHCP_IP_RESERVATION_V6, DHCP_IP_RESERVATION_V6 structure [DHCP], PDHCP_IP_RESERVATION_V6, PDHCP_IP_RESERVATION_V6 structure pointer [DHCP], _DHCP_IP_RESERVATION_V6, dhcp.dhcp_ip_reservation_v6, dhcpsapi/DHCP_IP_RESERVATION_V6, dhcpsapi/PDHCP_IP_RESERVATION_V6"
 ms.prod: windows
 ms.technology: windows-sdk

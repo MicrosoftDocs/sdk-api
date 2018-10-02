@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_get_active_duty_cycle_percentage.htm
 tech.root: devio
 ms.assetid: F327D8E9-7441-41A4-B70B-E148083605C2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE, IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE control, IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code, base.ioctl_pwm_pin_get_active_duty_cycle_percentage, pwm/IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
 Retrieves the current duty cycle percentage for a pin or channel. The control code returns the percentage as a <a href="https://msdn.microsoft.com/09C0232A-DF5C-4A1C-8138-D3D65E45731B">PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT</a> structure.

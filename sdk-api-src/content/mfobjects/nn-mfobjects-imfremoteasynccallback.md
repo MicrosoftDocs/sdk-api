@@ -4,10 +4,10 @@ title: IMFRemoteAsyncCallback
 author: windows-sdk-content
 description: Used by the Microsoft Media Foundation proxy/stub DLL to marshal certain asynchronous method calls across process boundaries.Applications do not use or implement this interface.
 old-location: mf\imfremoteasynccallback.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 57be21cf-b381-436a-bc7e-3fdc01cc2515
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 57be21cf-b381-436a-bc7e-3fdc01cc2515, IMFRemoteAsyncCallback, IMFRemoteAsyncCallback interface [Media Foundation], IMFRemoteAsyncCallback interface [Media Foundation],described, mf.imfremoteasynccallback, mfobjects/IMFRemoteAsyncCallback
 ms.prod: windows
 ms.technology: windows-sdk

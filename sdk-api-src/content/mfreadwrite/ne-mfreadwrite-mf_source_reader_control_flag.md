@@ -4,10 +4,10 @@ title: MF_SOURCE_READER_CONTROL_FLAG
 author: windows-sdk-content
 description: Contains flags for the IMFSourceReader::ReadSample method.
 old-location: mf\mf_source_reader_control_flag.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: a6367fea-ceba-4ce4-9a1b-88a40afc3055
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MF_SOURCE_READER_CONTROLF_DRAIN, MF_SOURCE_READER_CONTROL_FLAG, MF_SOURCE_READER_CONTROL_FLAG enumeration [Media Foundation], mf.mf_source_reader_control_flag, mfreadwrite/MF_SOURCE_READER_CONTROLF_DRAIN, mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG
 ms.prod: windows
 ms.technology: windows-sdk

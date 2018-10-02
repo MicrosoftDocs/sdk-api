@@ -7,7 +7,7 @@ old-location: xps\xps_line_join.htm
 tech.root: printdocs
 ms.assetid: b0409564-a6b3-4e9d-b136-3d865dd46f1d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: XPS_LINE_JOIN, XPS_LINE_JOIN enumeration [XPS Documents and Packaging], XPS_LINE_JOIN_BEVEL, XPS_LINE_JOIN_MITER, XPS_LINE_JOIN_ROUND, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0007, xps.xps_line_join, xpsobjectmodel/XPS_LINE_JOIN, xpsobjectmodel/XPS_LINE_JOIN_BEVEL, xpsobjectmodel/XPS_LINE_JOIN_MITER, xpsobjectmodel/XPS_LINE_JOIN_ROUND
 ms.prod: windows
 ms.technology: windows-sdk

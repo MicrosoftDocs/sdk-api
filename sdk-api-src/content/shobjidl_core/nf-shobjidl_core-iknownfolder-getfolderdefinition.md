@@ -4,10 +4,10 @@ title: IKnownFolder::GetFolderDefinition
 author: windows-sdk-content
 description: Retrieves a structure that contains the defining elements of a known folder, which includes the folder's category, name, path, description, tooltip, icon, and other properties.
 old-location: shell\IKnownFolder_GetFolderDefinition.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b6f544cc-f487-405c-915d-b3a6dc59422c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetFolderDefinition, GetFolderDefinition method [Windows Shell], GetFolderDefinition method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetFolderDefinition method, IKnownFolder.GetFolderDefinition, IKnownFolder::GetFolderDefinition, _shell_IKnownFolder_GetFolderDefinition, shell.IKnownFolder_GetFolderDefinition, shobjidl_core/IKnownFolder::GetFolderDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices

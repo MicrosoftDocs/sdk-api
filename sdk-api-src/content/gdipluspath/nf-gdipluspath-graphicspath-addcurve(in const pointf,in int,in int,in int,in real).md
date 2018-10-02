@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddCurve_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddCurve, AddCurve methods [GDI+], GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const PointF,IN INT,IN INT,IN INT,IN REAL), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const PointF,IN INT,IN INT,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddCurve_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_Methods, gdipluspath/AddCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

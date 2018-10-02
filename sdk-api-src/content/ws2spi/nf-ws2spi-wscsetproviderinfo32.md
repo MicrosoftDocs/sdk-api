@@ -7,7 +7,7 @@ old-location: winsock\wscsetproviderinfo32.htm
 tech.root: WinSock
 ms.assetid: adb2737f-5327-4306-bd57-f165f339f911
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSCSetProviderInfo32, WSCSetProviderInfo32 function [Winsock], winsock.wscsetproviderinfo32, ws2spi/WSCSetProviderInfo32
 ms.prod: windows-hardware
 ms.technology: windows-devices

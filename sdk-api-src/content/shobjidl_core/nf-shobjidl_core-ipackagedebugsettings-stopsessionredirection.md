@@ -4,10 +4,10 @@ title: IPackageDebugSettings::StopSessionRedirection
 author: windows-sdk-content
 description: Stops redirection of background tasks for the specified package.
 old-location: shell\IPackageDebugSettings_StopSessionRedirection.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6edd4f9a-c9e8-45eb-a86b-a04116530aad
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StopSessionRedirection method, IPackageDebugSettings.StopSessionRedirection, IPackageDebugSettings::StopSessionRedirection, StopSessionRedirection, StopSessionRedirection method [Windows Shell], StopSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StopSessionRedirection, shobjidl_core/IPackageDebugSettings::StopSessionRedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices

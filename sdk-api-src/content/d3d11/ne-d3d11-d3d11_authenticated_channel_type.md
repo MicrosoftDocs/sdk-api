@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_CHANNEL_TYPE
 author: windows-sdk-content
 description: Specifies the type of Microsoft Direct3D authenticated channel.
 old-location: mf\d3d11_authenticated_channel_type.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4B4E8AA9-5FFE-4ADB-AC83-89FE1BCE27EB
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_AUTHENTICATED_CHANNEL_D3D11, D3D11_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, D3D11_AUTHENTICATED_CHANNEL_TYPE, D3D11_AUTHENTICATED_CHANNEL_TYPE enumeration [Media Foundation], d3d11/D3D11_AUTHENTICATED_CHANNEL_D3D11, d3d11/D3D11_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, d3d11/D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, d3d11/D3D11_AUTHENTICATED_CHANNEL_TYPE, mf.d3d11_authenticated_channel_type
 ms.prod: windows
 ms.technology: windows-sdk

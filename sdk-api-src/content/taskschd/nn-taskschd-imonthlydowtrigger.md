@@ -7,7 +7,7 @@ old-location: taskschd\imonthlydowtrigger.htm
 tech.root: TaskSchd
 ms.assetid: a950e4a0-1fcc-4213-bdb7-d1e1cf28fe91
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], IMonthlyDOWTrigger interface [Task Scheduler],described, monthly DOW trigger [Task Scheduler], taskschd.imonthlydowtrigger, taskschd/IMonthlyDOWTrigger, triggers [Task Scheduler],types,monthly DOW
 ms.prod: windows
 ms.technology: windows-sdk

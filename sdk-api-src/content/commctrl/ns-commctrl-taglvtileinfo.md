@@ -7,7 +7,7 @@ old-location: controls\LVTILEINFO.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: "*PLVTILEINFO, LVTILEINFO, LVTILEINFO structure [Windows Controls], PLVTILEINFO, PLVTILEINFO structure pointer [Windows Controls], commctrl/LVTILEINFO, commctrl/PLVTILEINFO, controls.LVTILEINFO, controls.inet_LVTILEINFO, inet_LVTILEINFO, inet_LVTILEINFO_cpp, tagLVTILEINFO"
 ms.prod: windows
 ms.technology: windows-sdk

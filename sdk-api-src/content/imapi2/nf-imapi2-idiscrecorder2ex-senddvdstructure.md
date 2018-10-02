@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_senddvdstructure.htm
 tech.root: imapi
 ms.assetid: 4e9b83ee-69f6-42b8-bd6b-546c4ffe2002
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendDvdStructure method, IDiscRecorder2Ex.SendDvdStructure, IDiscRecorder2Ex::SendDvdStructure, SendDvdStructure, SendDvdStructure method [IMAPI], SendDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_senddvdstructure, imapi2/IDiscRecorder2Ex::SendDvdStructure
 ms.prod: windows-hardware
 ms.technology: windows-devices

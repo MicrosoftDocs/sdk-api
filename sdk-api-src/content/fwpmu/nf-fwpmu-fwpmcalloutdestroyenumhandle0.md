@@ -4,10 +4,10 @@ title: FwpmCalloutDestroyEnumHandle0 function
 author: windows-sdk-content
 description: Frees a handle returned by FwpmCalloutCreateEnumHandle0.
 old-location: fwp\fwpmcalloutdestroyenumhandle0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 6aa41eed-b53c-4b35-a45c-88f89086cacc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmCalloutDestroyEnumHandle0, FwpmCalloutDestroyEnumHandle0 function [Filtering], fwp.fwpmcalloutdestroyenumhandle0_func, fwpmu/FwpmCalloutDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

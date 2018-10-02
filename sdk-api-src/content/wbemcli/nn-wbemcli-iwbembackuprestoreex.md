@@ -7,7 +7,7 @@ old-location: wmi\iwbembackuprestoreex.htm
 tech.root: WmiSdk
 ms.assetid: 5349359a-e15f-4799-abad-f4a5fc3e89ea
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemBackupRestoreEx, IWbemBackupRestoreEx interface [Windows Management Instrumentation], IWbemBackupRestoreEx interface [Windows Management Instrumentation],described, wbemcli/IWbemBackupRestoreEx, wmi.iwbembackuprestoreex
 ms.prod: windows
 ms.technology: windows-sdk

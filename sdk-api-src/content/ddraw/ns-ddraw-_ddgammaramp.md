@@ -7,7 +7,7 @@ old-location: directdraw\ddgammaramp.htm
 tech.root: directdraw
 ms.assetid: ec4cb111-3b12-4470-b1e3-e4379f7f2632
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDDGAMMARAMP, DDGAMMARAMP, DDGAMMARAMP structure [DirectDraw], LPDDGAMMARAMP, LPDDGAMMARAMP structure pointer [DirectDraw], _DDGAMMARAMP, ddraw/DDGAMMARAMP, ddraw/LPDDGAMMARAMP, directdraw.ddgammaramp"
 ms.prod: windows
 ms.technology: windows-sdk

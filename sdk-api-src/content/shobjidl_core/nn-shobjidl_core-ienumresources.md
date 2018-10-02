@@ -4,10 +4,10 @@ title: IEnumResources
 author: windows-sdk-content
 description: Exposes resource enumeration methods.
 old-location: shell\IEnumResources.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 28c645cf-8c69-49d7-a95f-ced6467ad682
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumResources, IEnumResources interface [Windows Shell], IEnumResources interface [Windows Shell],described, _shell_IEnumResources, shell.IEnumResources, shobjidl_core/IEnumResources
 ms.prod: windows
 ms.technology: windows-sdk

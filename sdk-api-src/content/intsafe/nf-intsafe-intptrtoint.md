@@ -4,10 +4,10 @@ title: IntPtrToInt function
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type INT.
 old-location: shell\IntPtrToInt.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a2ea1196-b503-4845-904a-26bc334b5275
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IntPtrToInt, IntPtrToInt function [Windows Shell], PtrdiffTToInt, _shell_IntPtrToInt, intsafe/IntPtrToInt, shell.IntPtrToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

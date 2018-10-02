@@ -7,7 +7,7 @@ old-location: tablet\iinkoverlay.htm
 tech.root: tablet
 ms.assetid: ACE11946-113B-42EE-A3F1-0036B1DF8141
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC], IInkOverlay interface [Tablet PC],described, msinkaut/IInkOverlay, tablet.iinkoverlay
 ms.prod: windows
 ms.technology: windows-sdk

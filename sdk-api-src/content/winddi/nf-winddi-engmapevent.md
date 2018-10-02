@@ -4,10 +4,10 @@ title: EngMapEvent function
 author: windows-sdk-content
 description: The EngMapEvent function maps a user-mode event object to kernel mode.
 old-location: display\engmapevent.htm
-tech.root: display
+tech.root: Display
 ms.assetid: a48f2367-49da-4d5c-87e5-b5c67e2311eb
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngMapEvent, EngMapEvent function [Display Devices], display.engmapevent, gdifncs_5d41fd21-c767-4c7b-8bd6-546be9ce1439.xml, winddi/EngMapEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

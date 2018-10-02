@@ -4,10 +4,10 @@ title: ITocEntry::GetSubEntries
 author: windows-sdk-content
 description: The GetSubEntries method gets an array of subentry indices that were set by a previous call to SetSubEntries.
 old-location: mf\itocentry_getsubentries.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 583340d7-87f9-40c5-a0dc-3e69bbb96334
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetSubEntries, GetSubEntries method [Media Foundation], GetSubEntries method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetSubEntries method, ITocEntry.GetSubEntries, ITocEntry::GetSubEntries, codecapi.itocentry_getsubentries, mf.itocentry_getsubentries, wmcodecdsp/ITocEntry::GetSubEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ReadEventLogW function
 author: windows-sdk-content
 description: Reads the specified number of entries from the specified event log.
 old-location: base\readeventlog.htm
-tech.root: eventlog
+tech.root: EventLog
 ms.assetid: 10b37174-661a-4dc6-a7fe-752739494156
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: EVENTLOG_BACKWARDS_READ, EVENTLOG_FORWARDS_READ, EVENTLOG_SEEK_READ, EVENTLOG_SEQUENTIAL_READ, ReadEventLog, ReadEventLog function, ReadEventLogA, ReadEventLogW, _win32_readeventlog, base.readeventlog, winbase/ReadEventLog, winbase/ReadEventLogA, winbase/ReadEventLogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

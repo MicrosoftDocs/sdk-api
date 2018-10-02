@@ -4,10 +4,10 @@ title: GetActivePwrScheme function
 author: windows-sdk-content
 description: Retrieves the index of the active power scheme.
 old-location: base\getactivepwrscheme.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 2a321372-40ff-4292-8b66-db3f794e5f53
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetActivePwrScheme, GetActivePwrScheme function, _win32_getactivepwrscheme, base.getactivepwrscheme, powrprof/GetActivePwrScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

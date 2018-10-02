@@ -4,10 +4,10 @@ title: ITransferAdviseSink
 author: windows-sdk-content
 description: Exposes methods supporting status collection and failure information.
 old-location: shell\ITransferAdviseSink.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 70866a03-2b22-4518-a9e6-2f06edaa4b5d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ITransferAdviseSink, ITransferAdviseSink interface [Windows Shell], ITransferAdviseSink interface [Windows Shell],described, _shell_ITransferAdviseSink, shell.ITransferAdviseSink, shobjidl_core/ITransferAdviseSink
 ms.prod: windows
 ms.technology: windows-sdk

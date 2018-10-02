@@ -7,7 +7,7 @@ old-location: rras\mpradminserverdisconnect.htm
 tech.root: RRAS
 ms.assetid: 905b5296-ae6b-40a6-ba49-837db96de152
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprAdminServerDisconnect, MprAdminServerDisconnect function [RAS], _mpr_mpradminserverdisconnect, mprapi/MprAdminServerDisconnect, rras.mpradminserverdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

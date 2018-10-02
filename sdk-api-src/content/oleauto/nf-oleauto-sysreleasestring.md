@@ -7,7 +7,7 @@ old-location: automat\sysreleasestring.htm
 tech.root: automat
 ms.assetid: D4905794-A4EA-4925-A4B2-92C8BF6EDFD0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: SysReleaseString, SysReleaseString function [Automation], automat.sysreleasestring, oleauto/SysReleaseString
 ms.prod: windows-hardware
 ms.technology: windows-devices

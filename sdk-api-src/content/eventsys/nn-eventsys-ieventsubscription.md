@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription.htm
 tech.root: cossdk
 ms.assetid: ce3f9f7e-3d0a-445f-b3db-671ee595aedf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEventSubscription, IEventSubscription interface [COM+], IEventSubscription interface [COM+],described, _cos_IEventSubscription, cos.ieventsubscription, eventsys/IEventSubscription
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicepropertiesbulk.htm
 tech.root: wpd_sdk
 ms.assetid: 57cda40a-8573-4b6c-981e-770f35186038
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPortableDevicePropertiesBulk, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK], IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesBulkInterface, portabledeviceapi/IPortableDevicePropertiesBulk, wpdsdk.iportabledevicepropertiesbulk
 ms.prod: windows
 ms.technology: windows-sdk

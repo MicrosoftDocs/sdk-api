@@ -7,7 +7,7 @@ old-location: cloudapi\cf_placeholder_basic_info.htm
 tech.root: cfApi
 ms.assetid: 77367235-342D-4BBC-B910-FE798E14B588
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 09/28/2018
 ms.keywords: CF_PLACEHOLDER_BASIC_INFO, CF_PLACEHOLDER_BASIC_INFO structure, cfapi/CF_PLACEHOLDER_BASIC_INFO, cloudApi.cf_placeholder_basic_info
 ms.prod: windows
 ms.technology: windows-sdk

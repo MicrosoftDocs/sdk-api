@@ -4,10 +4,10 @@ title: IFhConfigMgr::GetDefaultTarget
 author: windows-sdk-content
 description: Returns a pointer to an IFhTarget interface that can be used to query information about the currently assigned backup target.
 old-location: winprog\ifhconfigmgr_getdefaulttarget.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 570CB5FD-7586-41AD-84A6-DA6966B18E91
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: FhConfigMgr class [Windows API],GetDefaultTarget method, GetDefaultTarget, GetDefaultTarget method [Windows API], GetDefaultTarget method [Windows API],FhConfigMgr class, GetDefaultTarget method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetDefaultTarget method, IFhConfigMgr.GetDefaultTarget, IFhConfigMgr::GetDefaultTarget, fhcfg/IFhConfigMgr::GetDefaultTarget, winprog.ifhconfigmgr_getdefaulttarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

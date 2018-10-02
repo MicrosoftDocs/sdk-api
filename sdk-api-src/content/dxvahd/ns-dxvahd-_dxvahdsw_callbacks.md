@@ -4,10 +4,10 @@ title: "_DXVAHDSW_CALLBACKS"
 author: windows-sdk-content
 description: Contains pointers to functions implemented by a software plug-in for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahdsw_callbacks.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 74c329cc-af54-4cf8-8cb6-eed9e96db4c5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: DXVAHDSW_CALLBACKS, DXVAHDSW_CALLBACKS structure [Media Foundation], _DXVAHDSW_CALLBACKS, dxvahd/DXVAHDSW_CALLBACKS, mf.dxvahdsw_callbacks
 ms.prod: windows
 ms.technology: windows-sdk

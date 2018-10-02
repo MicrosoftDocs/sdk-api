@@ -4,10 +4,10 @@ title: DWordPtrSub function
 author: windows-sdk-content
 description: Subtracts one value of type DWORD_PTR from another.
 old-location: shell\DWordPtrSub.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: cfe9ec32-ed6a-42fa-9891-3ce2e88cd5d0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DWordPtrSub, DWordPtrSub function [Windows Shell], _shell_DWordPtrSub, intsafe/DWordPtrSub, shell.DWordPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

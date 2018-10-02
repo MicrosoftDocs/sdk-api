@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProviderFactory
 author: windows-sdk-content
 description: Provides factory methods to create Function Discovery objects.
 old-location: ncd\ifunctiondiscoveryproviderfactory.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 576db617-0bca-4b46-839b-0f133f28cacb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFunctionDiscoveryProviderFactory, IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory, ncd.ifunctiondiscoveryproviderfactory
 ms.prod: windows
 ms.technology: windows-sdk

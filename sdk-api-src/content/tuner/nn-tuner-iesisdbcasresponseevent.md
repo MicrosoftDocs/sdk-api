@@ -4,10 +4,10 @@ title: IESIsdbCasResponseEvent
 author: windows-sdk-content
 description: Implements methods that get information from a Protected Broadcast Driver Architecture (PBDA) IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 141c6798-5dca-495e-bdbe-f07e457a3d8a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IESIsdbCasResponseEvent, IESIsdbCasResponseEvent interface [DirectShow], IESIsdbCasResponseEvent interface [DirectShow],described, mstv.iesisdbcasresponseevent, tuner/IESIsdbCasResponseEvent
 ms.prod: windows
 ms.technology: windows-sdk

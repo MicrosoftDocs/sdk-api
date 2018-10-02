@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getdisplays.htm
 tech.root: controls
 ms.assetid: 8f610b45-9c17-4b20-82e0-fa78169360cc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: GetDisplays, GetDisplays method [Windows Controls], GetDisplays method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDisplays method, ITextDocument2.GetDisplays, ITextDocument2::GetDisplays, controls.itextdocument2_getdisplays, tom/ITextDocument2::GetDisplays
 ms.prod: windows-hardware
 ms.technology: windows-devices

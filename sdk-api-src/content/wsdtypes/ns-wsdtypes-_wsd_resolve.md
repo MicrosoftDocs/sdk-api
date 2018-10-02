@@ -7,7 +7,7 @@ old-location: ncd\wsd_resolve_struct.htm
 tech.root: WsdApi
 ms.assetid: f969f249-6c1e-4c0c-8da6-ec7069b06e20
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSD_RESOLVE, WSD_RESOLVE structure, _WSD_RESOLVE, ncd.wsd_resolve_struct, wsdtypes/WSD_RESOLVE
 ms.prod: windows
 ms.technology: windows-sdk

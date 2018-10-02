@@ -4,10 +4,10 @@ title: FreeIDListArrayChild function
 author: windows-sdk-content
 description: Releases the memory space for the array of pointers to child item IDs. This releases both the PITEMID_CHILDs within the array and the array itself.
 old-location: shell\FreeIDListArrayChild.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 89abceae-1aed-401d-82ab-57215ec22d00
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: FreeIDListArrayChild, FreeIDListArrayChild function [Windows Shell], _shell_FreeIDListArrayChild, shell.FreeIDListArrayChild, shobjidl_core/FreeIDListArrayChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

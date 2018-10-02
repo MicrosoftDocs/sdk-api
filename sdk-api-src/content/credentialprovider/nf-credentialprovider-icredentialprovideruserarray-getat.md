@@ -4,10 +4,10 @@ title: ICredentialProviderUserArray::GetAt
 author: windows-sdk-content
 description: Retrieves a specified user from the array.
 old-location: shell\ICredentialProviderUserArray_GetAt.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: E768CC54-4392-4d5f-BB90-4AA91E5D8B00
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

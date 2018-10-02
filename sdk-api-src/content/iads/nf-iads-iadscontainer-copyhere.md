@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer_copyhere.htm
 tech.root: ADSI
 ms.assetid: 8a006253-ccb4-4f13-93b5-297db17f7c2e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],CopyHere method, IADsContainer.CopyHere, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
 ms.prod: windows-hardware
 ms.technology: windows-devices

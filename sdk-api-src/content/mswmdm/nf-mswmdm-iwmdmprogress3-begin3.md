@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress3_begin3.htm
 tech.root: WMDM
 ms.assetid: 8c794aff-9800-405e-853a-56dd5bd84665
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Begin3, Begin3 method [windows Media Device Manager], Begin3 method [windows Media Device Manager],IWMDMProgress3 interface, IWMDMProgress3 interface [windows Media Device Manager],Begin3 method, IWMDMProgress3.Begin3, IWMDMProgress3::Begin3, IWMDMProgress3Begin3, mswmdm/IWMDMProgress3::Begin3, wmdm.iwmdmprogress3_begin3
 ms.prod: windows-hardware
 ms.technology: windows-devices

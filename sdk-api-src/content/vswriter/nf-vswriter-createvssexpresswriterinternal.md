@@ -7,7 +7,7 @@ old-location: base\createvssexpresswriter.htm
 tech.root: VSS
 ms.assetid: c24a1046-50b0-4fec-88f9-3bbd6970982a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateVssExpressWriter, CreateVssExpressWriter function, CreateVssExpressWriterInternal, base.createvssexpresswriter, vswriter/CreateVssExpressWriter, vswriter/CreateVssExpressWriterInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

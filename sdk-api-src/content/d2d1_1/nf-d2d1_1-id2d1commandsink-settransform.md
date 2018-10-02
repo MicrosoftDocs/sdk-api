@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_settransform.htm
 tech.root: direct2d
 ms.assetid: bc284b13-cf22-45aa-b80c-0750622f5284
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetTransform method, ID2D1CommandSink.SetTransform, ID2D1CommandSink::SetTransform, SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetTransform, direct2d.id2d1commandsink_settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

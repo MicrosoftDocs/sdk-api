@@ -4,10 +4,10 @@ title: EngMultiByteToWideChar function
 author: windows-sdk-content
 description: The EngMultiByteToWideChar function converts an ANSI source string into a wide character string using the specified code page.
 old-location: display\engmultibytetowidechar.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 7ed4f718-e28d-40d9-a3e0-c6961281a319
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngMultiByteToWideChar, EngMultiByteToWideChar function [Display Devices], display.engmultibytetowidechar, gdifncs_217d1045-3661-401b-af6e-148668ed97e4.xml, winddi/EngMultiByteToWideChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

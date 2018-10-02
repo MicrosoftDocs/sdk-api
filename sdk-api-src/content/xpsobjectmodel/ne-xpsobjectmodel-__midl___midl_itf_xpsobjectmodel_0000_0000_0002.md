@@ -7,7 +7,7 @@ old-location: xps\xps_color_interpolation.htm
 tech.root: printdocs
 ms.assetid: ad203082-d5a3-4414-88e1-8fd4dded6ea9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: XPS_COLOR_INTERPOLATION, XPS_COLOR_INTERPOLATION enumeration [XPS Documents and Packaging], XPS_COLOR_INTERPOLATION_SCRGBLINEAR, XPS_COLOR_INTERPOLATION_SRGBLINEAR, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0002, xps.xps_color_interpolation, xpsobjectmodel/XPS_COLOR_INTERPOLATION, xpsobjectmodel/XPS_COLOR_INTERPOLATION_SCRGBLINEAR, xpsobjectmodel/XPS_COLOR_INTERPOLATION_SRGBLINEAR
 ms.prod: windows
 ms.technology: windows-sdk

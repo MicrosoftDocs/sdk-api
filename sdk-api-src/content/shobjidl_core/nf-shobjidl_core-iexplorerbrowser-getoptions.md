@@ -4,10 +4,10 @@ title: IExplorerBrowser::GetOptions
 author: windows-sdk-content
 description: Gets the current browser options.
 old-location: shell\IExplorerBrowser_GetOptions.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e2c7ee6a-fbd9-4b75-a9ed-734e7977088d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetOptions method, IExplorerBrowser.GetOptions, IExplorerBrowser::GetOptions, _shell_IExplorerBrowser_GetOptions, shell.IExplorerBrowser_GetOptions, shobjidl_core/IExplorerBrowser::GetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

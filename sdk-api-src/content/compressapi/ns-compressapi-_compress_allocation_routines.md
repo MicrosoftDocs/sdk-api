@@ -7,7 +7,7 @@ old-location: cmpapi\compress_allocation_routines.htm
 tech.root: cmpapi
 ms.assetid: 91f541c8-36b9-4ec2-ae37-0b41aa6fd623
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCOMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES structure [Compression API], PCOMPRESS_ALLOCATION_ROUTINES, PCOMPRESS_ALLOCATION_ROUTINES structure pointer [Compression API], _COMPRESS_ALLOCATION_ROUTINES, cmpapi.compress_allocation_routines, compressapi/COMPRESS_ALLOCATION_ROUTINES, compressapi/PCOMPRESS_ALLOCATION_ROUTINES"
 ms.prod: windows
 ms.technology: windows-sdk

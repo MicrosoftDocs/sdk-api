@@ -4,10 +4,10 @@ title: AE_CURRENT_POSITION
 author: windows-sdk-content
 description: Reports the current frame position from the device to the clients.
 old-location: termserv\ae_current_position.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 2e239114-1af7-455a-a60f-2054b05e1414
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PAE_CURRENT_POSITION, AE_CURRENT_POSITION, AE_CURRENT_POSITION structure [Remote Desktop Services], PAE_CURRENT_POSITION, PAE_CURRENT_POSITION structure pointer [Remote Desktop Services], audioengineendpoint/AE_CURRENT_POSITION, audioengineendpoint/PAE_CURRENT_POSITION, termserv.ae_current_position"
 ms.prod: windows
 ms.technology: windows-sdk

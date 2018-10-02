@@ -4,10 +4,10 @@ title: IIsdbAudioComponentDescriptor::GetComponentType
 author: windows-sdk-content
 description: Gets the value of the component_type field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This field identifies the audio component type.
 old-location: mstv\iisdbaudiocomponentdescriptor_getcomponenttype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 417deb6e-863e-4d62-8d58-685972f96f0c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetComponentType, GetComponentType method [Microsoft TV Technologies], GetComponentType method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetComponentType method, IIsdbAudioComponentDescriptor.GetComponentType, IIsdbAudioComponentDescriptor::GetComponentType, dvbsiparser/IIsdbAudioComponentDescriptor::GetComponentType, mstv.iisdbaudiocomponentdescriptor_getcomponenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

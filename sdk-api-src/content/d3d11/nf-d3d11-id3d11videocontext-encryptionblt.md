@@ -4,10 +4,10 @@ title: ID3D11VideoContext::EncryptionBlt
 author: windows-sdk-content
 description: Reads encrypted data from a protected surface.
 old-location: mf\id3d11videocontext_encryptionblt.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2BBD0BC2-53D9-435E-835C-20A992118329
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],EncryptionBlt method, ID3D11VideoContext.EncryptionBlt, ID3D11VideoContext::EncryptionBlt, d3d11/ID3D11VideoContext::EncryptionBlt, mf.id3d11videocontext_encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

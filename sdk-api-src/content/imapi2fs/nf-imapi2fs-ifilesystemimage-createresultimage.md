@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_createresultimage.htm
 tech.root: imapi
 ms.assetid: 6f7d2438-5c80-4461-8b48-646f0ca44498
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: CreateResultImage, CreateResultImage method [IMAPI], CreateResultImage method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateResultImage method, IFileSystemImage.CreateResultImage, IFileSystemImage::CreateResultImage, imapi.ifilesystemimage_createresultimage, imapi2fs/IFileSystemImage::CreateResultImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

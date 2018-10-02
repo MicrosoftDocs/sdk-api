@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedExtendedProperties
 tech.root: WinAuto
 ms.assetid: 79B9AFBF-EAA2-45F6-B027-C12F0B4B4CCC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: CachedExtendedProperties property [Windows Accessibility], CachedExtendedProperties property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedExtendedProperties property, IUIAutomationStylesPattern.CachedExtendedProperties, IUIAutomationStylesPattern.get_CachedExtendedProperties, IUIAutomationStylesPattern::CachedExtendedProperties, IUIAutomationStylesPattern::get_CachedExtendedProperties, get_CachedExtendedProperties, uiautomationclient/IUIAutomationStylesPattern::CachedExtendedProperties, uiautomationclient/IUIAutomationStylesPattern::get_CachedExtendedProperties, winauto.uiauto_IUIAutomationStylesPattern_CachedExtendedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

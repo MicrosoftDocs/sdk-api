@@ -4,10 +4,10 @@ title: SHBindToObject function
 author: windows-sdk-content
 description: Retrieves and binds to a specified object by using the Shell namespace IShellFolder::BindToObject method.
 old-location: shell\SHBindToObject.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: acc16097-8301-4118-8cb5-00aa2705306a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHBindToObject, SHBindToObject function [Windows Shell], _shell_SHBindToObject, shell.SHBindToObject, shlobj_core/SHBindToObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\rpcnsgroupdelete.htm
 tech.root: Rpc
 ms.assetid: 4455e891-7846-47b5-9283-549c3451b70e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RPC_C_NS_SYNTAX_DCE, RPC_C_NS_SYNTAX_DEFAULT, RpcNsGroupDelete, RpcNsGroupDelete function [RPC], RpcNsGroupDeleteA, RpcNsGroupDeleteW, _rpc_rpcnsgroupdelete, rpc.rpcnsgroupdelete, rpcnsi/RpcNsGroupDelete, rpcnsi/RpcNsGroupDeleteA, rpcnsi/RpcNsGroupDeleteW
 ms.prod: windows-hardware
 ms.technology: windows-devices

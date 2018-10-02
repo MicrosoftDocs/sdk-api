@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_adddatabaselogfiles.htm
 tech.root: VSS
 ms.assetid: 09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddDatabaseLogFiles, AddDatabaseLogFiles method [VSS], AddDatabaseLogFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseLogFiles method, IVssCreateWriterMetadata.AddDatabaseLogFiles, IVssCreateWriterMetadata::AddDatabaseLogFiles, _win32_ivsscreatewritermetadata_adddatabaselogfiles, base.ivsscreatewritermetadata_adddatabaselogfiles, vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ Pointer to a <b>null</b>-terminated wide character string containing the file sp
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
 
 
-#### - dwBackupTypeMask [in]
+### -param dwBackupTypeMask [in]
 
 A bit mask (or bitwise OR) of 
 <a href="https://msdn.microsoft.com/41ba60f7-d621-478a-a24a-202d326ebf2c">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 

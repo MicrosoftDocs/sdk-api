@@ -4,10 +4,10 @@ title: ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1
 author: windows-sdk-content
 description: Sets the color space information for the video processor output surface.
 old-location: mf\id3d11videocontext1_videoprocessorsetoutputcolorspace1.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8DDD17AD-997F-406F-B337-E2256F67FC66
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetOutputColorSpace1 method, ID3D11VideoContext1.VideoProcessorSetOutputColorSpace1, ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1, VideoProcessorSetOutputColorSpace1, VideoProcessorSetOutputColorSpace1 method [Media Foundation], VideoProcessorSetOutputColorSpace1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1, mf.id3d11videocontext1_videoprocessorsetoutputcolorspace1
 ms.prod: windows-hardware
 ms.technology: windows-devices

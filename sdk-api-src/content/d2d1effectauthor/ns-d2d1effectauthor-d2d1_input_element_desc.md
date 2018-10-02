@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_input_element_desc.htm
 tech.root: direct2d
 ms.assetid: 17e70872-f0cb-4f9d-8188-d6d24770db04
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1_INPUT_ELEMENT_DESC, D2D1_INPUT_ELEMENT_DESC structure [Direct2D], d2d1effectauthor/D2D1_INPUT_ELEMENT_DESC, direct2d.d2d1_input_element_desc
 ms.prod: windows
 ms.technology: windows-sdk

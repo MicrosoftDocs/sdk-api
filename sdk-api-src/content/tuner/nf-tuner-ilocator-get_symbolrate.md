@@ -4,10 +4,10 @@ title: ILocator::get_SymbolRate
 author: windows-sdk-content
 description: The get_SymbolRate method gets the QPSK symbol rate.
 old-location: mstv\ilocator_get_symbolrate.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 828967df-6ce1-4320-ae83-7bfaec79f8c7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDigitalLocatorget_SymbolRate, ILocator interface [Microsoft TV Technologies],get_SymbolRate method, ILocator.get_SymbolRate, ILocator::get_SymbolRate, get_SymbolRate, get_SymbolRate method [Microsoft TV Technologies], get_SymbolRate method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_symbolrate, tuner/ILocator::get_SymbolRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

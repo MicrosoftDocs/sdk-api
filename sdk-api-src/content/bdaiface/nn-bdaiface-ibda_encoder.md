@@ -4,10 +4,10 @@ title: IBDA_Encoder
 author: windows-sdk-content
 description: Provides access to a device's Encoder Service.
 old-location: mstv\ibda_encoder.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 43ed9d91-c769-4fb3-bcd9-e5239ec5d9c7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], IBDA_Encoder interface [Microsoft TV Technologies],described, bdaiface/IBDA_Encoder, mstv.ibda_encoder
 ms.prod: windows
 ms.technology: windows-sdk

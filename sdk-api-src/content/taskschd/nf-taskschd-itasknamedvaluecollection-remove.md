@@ -7,7 +7,7 @@ old-location: taskschd\itasknamedvaluecollection_remove.htm
 tech.root: TaskSchd
 ms.assetid: 7c73fb37-5551-497f-86d9-b7158109ca38
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],Remove method, ITaskNamedValueCollection.Remove, ITaskNamedValueCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITaskNamedValueCollection interface, taskschd.itasknamedvaluecollection_remove, taskschd/ITaskNamedValueCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

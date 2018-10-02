@@ -4,10 +4,10 @@ title: "_IP_PER_ADAPTER_INFO_W2KSP1"
 author: windows-sdk-content
 description: The IP_PER_ADAPTER_INFO structure contains information specific to a particular adapter.
 old-location: iphlp\ip_per_adapter_info.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 10cfdded-4184-4d34-9ccd-85446c13d497
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP_PER_ADAPTER_INFO, *PIP_PER_ADAPTER_INFO_W2KSP1, IP_PER_ADAPTER_INFO, IP_PER_ADAPTER_INFO structure [IP Helper], IP_PER_ADAPTER_INFO_W2KSP1, PIP_PER_ADAPTER_INFO, PIP_PER_ADAPTER_INFO structure pointer [IP Helper], _IP_PER_ADAPTER_INFO_W2KSP1, _iphlp_ip_per_adapter_info, iphlp.ip_per_adapter_info, iptypes/IP_PER_ADAPTER_INFO, iptypes/PIP_PER_ADAPTER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

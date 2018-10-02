@@ -2,13 +2,13 @@
 UID: NF:gdiplusheaders.Region.Region(IN HRGN)
 title: Region::Region(IN HRGN)
 author: windows-sdk-content
-description: Creates a region that is infinite. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_Region_Region_.htm
+description: Creates a region that is identical to the region that is specified by a handle to a Windows Graphics Device Interface (GDI) region.
+old-location: gdiplus\_gdiplus_CLASS_Region_Region_hRgn_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_18.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_79hrgn.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(), Region.Region(IN HRGN), Region::Region, Region::Region(IN HRGN), _gdiplus_CLASS_Region_Region_, gdiplus._gdiplus_CLASS_Region_Region_
+ms.date: 09/26/2018
+ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(HRGN), Region.Region(IN HRGN), Region::Region, Region::Region(IN HRGN), _gdiplus_CLASS_Region_Region_hRgn_, gdiplus._gdiplus_CLASS_Region_Region_hRgn_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a region that is infinite. This is the default constructor. 
+Creates a region that is identical to the region that is specified by a handle to a Windows Graphics Device Interface (GDI) region.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Creates a region that is infinite. This is the default constructor.
 
 
 
-### -param hRgn
+### -param hRgn [in]
 
-TBD
+Type: <b>HRGN</b>
 
-
+Handle to an existing GDI region. 
 

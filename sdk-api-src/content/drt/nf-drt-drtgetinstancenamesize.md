@@ -4,10 +4,10 @@ title: DrtGetInstanceNameSize function
 author: windows-sdk-content
 description: The DrtGetInstanceNameSize function returns the size of the Distributed Routing Table instance name.
 old-location: p2p\drtgetinstancenamesize.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: b600ee27-bcea-4496-888f-1300f74d41e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DrtGetInstanceNameSize, DrtGetInstanceNameSize function [Peer Networking], drt/DrtGetInstanceNameSize, p2p.drtgetinstancenamesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

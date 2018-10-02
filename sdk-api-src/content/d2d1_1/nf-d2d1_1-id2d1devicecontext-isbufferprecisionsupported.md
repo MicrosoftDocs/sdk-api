@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_isbufferprecisionsupported.htm
 tech.root: direct2d
 ms.assetid: c65824dc-a9d5-4d4d-a2de-b4283153f64f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],IsBufferPrecisionSupported method, ID2D1DeviceContext.IsBufferPrecisionSupported, ID2D1DeviceContext::IsBufferPrecisionSupported, IsBufferPrecisionSupported, IsBufferPrecisionSupported method [Direct2D], IsBufferPrecisionSupported method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::IsBufferPrecisionSupported, direct2d.id2d1devicecontext_isbufferprecisionsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

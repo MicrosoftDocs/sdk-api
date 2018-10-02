@@ -4,10 +4,10 @@ title: IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex
 author: windows-sdk-content
 description: Retrieves a supported video surface type.
 old-location: mf\idirectxvideomemoryconfiguration_getavailablesurfacetypebyindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 63311052-f01b-4d77-afac-1cc89166f754
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 63311052-f01b-4d77-afac-1cc89166f754, GetAvailableSurfaceTypeByIndex, GetAvailableSurfaceTypeByIndex method [Media Foundation], GetAvailableSurfaceTypeByIndex method [Media Foundation],IDirectXVideoMemoryConfiguration interface, IDirectXVideoMemoryConfiguration interface [Media Foundation],GetAvailableSurfaceTypeByIndex method, IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex, IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex, dxva2api/IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex, mf.idirectxvideomemoryconfiguration_getavailablesurfacetypebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

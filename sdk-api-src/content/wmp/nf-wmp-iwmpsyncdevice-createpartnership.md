@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_createpartnership.htm
 tech.root: WMP
 ms.assetid: 734a8717-3b7f-4a40-895f-b55cfabd665c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],createPartnership method, IWMPSyncDevice.createPartnership, IWMPSyncDevice::createPartnership, IWMPSyncDevicecreatePartnership, createPartnership, createPartnership method [Windows Media Player], createPartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_createpartnership, wmp/IWMPSyncDevice::createPartnership
 ms.prod: windows-hardware
 ms.technology: windows-devices

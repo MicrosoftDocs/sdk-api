@@ -4,10 +4,10 @@ title: ITAddressCapabilities::EnumerateCompletionMessages
 author: windows-sdk-content
 description: The EnumerateCompletionMessages method gets completion messages. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratecompletionmessages.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: b7a3eb72-6c9f-4164-a082-8b0951733dcb
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: EnumerateCompletionMessages, EnumerateCompletionMessages method [TAPI 2.2], EnumerateCompletionMessages method [TAPI 2.2],ITAddressCapabilities interface, ITAddressCapabilities interface [TAPI 2.2],EnumerateCompletionMessages method, ITAddressCapabilities.EnumerateCompletionMessages, ITAddressCapabilities::EnumerateCompletionMessages, _tapi3_itaddresscapabilities_enumeratecompletionmessages, tapi3.itaddresscapabilities_enumeratecompletionmessages, tapi3if/ITAddressCapabilities::EnumerateCompletionMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices

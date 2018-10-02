@@ -4,10 +4,10 @@ title: IMFByteStreamCacheControl2::SetCacheLimit
 author: windows-sdk-content
 description: Limits the cache size.
 old-location: mf\imfbytestreamcachecontrol2_setcachelimit.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1DDC3D76-E28B-4B8C-B2CD-FE77E840D949
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],SetCacheLimit method, IMFByteStreamCacheControl2.SetCacheLimit, IMFByteStreamCacheControl2::SetCacheLimit, SetCacheLimit, SetCacheLimit method [Media Foundation], SetCacheLimit method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_setcachelimit, mfidl/IMFByteStreamCacheControl2::SetCacheLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

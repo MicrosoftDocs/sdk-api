@@ -4,10 +4,10 @@ title: ITocEntryList
 author: windows-sdk-content
 description: The ITocEntryList interface represents a list of entries in a table of contents. It provides methods for adding entries to, and removing entries from the list.
 old-location: mf\itocentrylist.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 98052f26-7956-4973-ab86-428e7a355937
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], ITocEntryList interface [Media Foundation],described, codecapi.itocentrylist, mf.itocentrylist, wmcodecdsp/ITocEntryList
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerGraphSetProperties function
 author: windows-sdk-content
 description: The PeerGraphSetProperties function sets the peer graph properties.
 old-location: p2p\peergraphsetproperties.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: a9cdf715-bbef-4b5b-96b9-b7c1e35c76ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphSetProperties, PeerGraphSetProperties function [Peer Networking], p2p.peergraphsetproperties, p2p/PeerGraphSetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

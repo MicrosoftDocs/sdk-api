@@ -4,10 +4,10 @@ title: IShellFolderViewDual::SelectedItems
 author: windows-sdk-content
 description: Gets a FolderItems object that represents all of the selected items in the view.
 old-location: shell\IShellFolderViewDual_SelectedItems.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 71ec6c0d-f3de-4a5d-941b-16d33b718921
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectedItems method, IShellFolderViewDual.SelectedItems, IShellFolderViewDual::SelectedItems, SelectedItems, SelectedItems method [Windows Shell], SelectedItems method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectedItems, shell.IShellFolderViewDual_SelectedItems, shldisp/IShellFolderViewDual::SelectedItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

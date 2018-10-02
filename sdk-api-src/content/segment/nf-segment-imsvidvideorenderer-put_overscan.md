@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::put_OverScan
 author: windows-sdk-content
 description: The put_OverScan method specifies the amount of clipping to perform on all sides of the video frame to cut off random video noise.
 old-location: mstv\imsvidvideorenderer_put_overscan.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 141df99b-4fc7-439c-953e-1fa1c544258e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_OverScan method, IMSVidVideoRenderer.put_OverScan, IMSVidVideoRenderer::put_OverScan, IMSVidVideoRendererput_OverScan, mstv.imsvidvideorenderer_put_overscan, put_OverScan, put_OverScan method [Microsoft TV Technologies], put_OverScan method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_OverScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

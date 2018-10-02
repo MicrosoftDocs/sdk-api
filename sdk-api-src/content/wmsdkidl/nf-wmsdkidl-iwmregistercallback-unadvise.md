@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistercallback_unadvise.htm
 tech.root: wmformat
 ms.assetid: 5f320288-09a8-4eaf-a7cd-54a4b52d0b47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWMRegisterCallback interface [windows Media Format],Unadvise method, IWMRegisterCallback.Unadvise, IWMRegisterCallback::Unadvise, IWMRegisterCallbackUnadvise, Unadvise, Unadvise method [windows Media Format], Unadvise method [windows Media Format],IWMRegisterCallback interface, wmformat.iwmregistercallback_unadvise, wmsdkidl/IWMRegisterCallback::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

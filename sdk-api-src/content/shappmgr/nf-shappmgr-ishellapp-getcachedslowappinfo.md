@@ -4,10 +4,10 @@ title: IShellApp::GetCachedSlowAppInfo
 author: windows-sdk-content
 description: Returns information to the application that originates from a slow source. Unlike IShellApp::GetSlowAppInfo, this method can return information that has been cached. This method is not applicable to published applications.
 old-location: shell\IShellApp_GetCachedSlowAppInfo.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 655edc51-0967-4b94-9eef-da213e735e0a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetCachedSlowAppInfo, GetCachedSlowAppInfo method [Windows Shell], GetCachedSlowAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetCachedSlowAppInfo method, IShellApp.GetCachedSlowAppInfo, IShellApp::GetCachedSlowAppInfo, inet_IShellApp_GetCachedSlowAppInfo, shappmgr/IShellApp::GetCachedSlowAppInfo, shell.IShellApp_GetCachedSlowAppInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

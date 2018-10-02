@@ -4,10 +4,10 @@ title: IMFSensorProfile
 author: windows-sdk-content
 description: Describes a media foundation sensor profile.
 old-location: mf\imfsensorprofile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 58D9FE3F-0F42-4262-B1BE-336BFA2E4BC7
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IMFSensorProfile interface [Media Foundation],described, mf.imfsensorprofile, mfidl/IMFSensorProfile
 ms.prod: windows
 ms.technology: windows-sdk

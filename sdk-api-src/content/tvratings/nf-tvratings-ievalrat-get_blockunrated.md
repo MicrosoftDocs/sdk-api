@@ -4,10 +4,10 @@ title: IEvalRat::get_BlockUnRated
 author: windows-sdk-content
 description: The get_BlockUnRated method indicates whether a program without rating information is blocked.
 old-location: mstv\ievalrat_get_blockunrated.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f558c87e-59ac-40d3-bfab-2835d59a730b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],get_BlockUnRated method, IEvalRat.get_BlockUnRated, IEvalRat::get_BlockUnRated, IEvalRatget_BlockUnRated, get_BlockUnRated, get_BlockUnRated method [Microsoft TV Technologies], get_BlockUnRated method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_get_blockunrated, tvratings/IEvalRat::get_BlockUnRated
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDvbLinkageDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_gettag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 4a01430f-13b2-40ff-a47e-98e1bcdbf4fc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbLinkageDescriptor.GetTag, IDvbLinkageDescriptor::GetTag, dvbsiparser/IDvbLinkageDescriptor::GetTag, mstv.idvblinkagedescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

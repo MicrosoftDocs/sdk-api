@@ -7,7 +7,7 @@ old-location: cos\itransactioncontextex.htm
 tech.root: cossdk
 ms.assetid: cdf3a74f-cdef-4721-9c0d-90af724c24ba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITransactionContextEx, ITransactionContextEx interface [COM+], ITransactionContextEx interface [COM+],described, _cos_ITransactionContextEx_Interface, comsvcs/ITransactionContextEx, cos.itransactioncontextex
 ms.prod: windows
 ms.technology: windows-sdk

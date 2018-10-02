@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiwindow.htm
 tech.root: Rdp
 ms.assetid: 85c8263b-e796-4748-b8e5-6315e5937861
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], IRDPSRAPIWindow interface [RDP],described, rdp.irdpsrapiwindow, rdpencomapi/IRDPSRAPIWindow
 ms.prod: windows
 ms.technology: windows-sdk

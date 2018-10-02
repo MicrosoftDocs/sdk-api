@@ -4,10 +4,10 @@ title: IShellTaskScheduler::AddTask
 author: windows-sdk-content
 description: Adds a task to the scheduler's background queue.
 old-location: shell\IShellTaskScheduler_AddTask.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 227b5013-a550-46cc-bae2-af60776cba22
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: AddTask, AddTask method [Windows Shell], AddTask method [Windows Shell],IShellTaskScheduler interface, IShellTaskScheduler interface [Windows Shell],AddTask method, IShellTaskScheduler.AddTask, IShellTaskScheduler::AddTask, ITSAT_DEFAULT_PRIORITY, ITSAT_MAX_PRIORITY, ITSAT_MIN_PRIORITY, _win32_IShellTaskScheduler_AddTask, shell.IShellTaskScheduler_AddTask, shobjidl_core/IShellTaskScheduler::AddTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

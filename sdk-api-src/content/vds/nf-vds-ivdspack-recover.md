@@ -7,7 +7,7 @@ old-location: base\ivdspack_recover.htm
 tech.root: VDS
 ms.assetid: e558c2f4-e1a9-47c0-9b2f-972457e27bbf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsPack interface [VDS],Recover method, IVdsPack.Recover, IVdsPack::Recover, Recover, Recover method [VDS], Recover method [VDS],IVdsPack interface, base.ivdspack_recover, vds/IVdsPack::Recover
 ms.prod: windows-hardware
 ms.technology: windows-devices

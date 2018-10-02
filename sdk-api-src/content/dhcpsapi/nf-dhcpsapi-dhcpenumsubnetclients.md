@@ -4,10 +4,10 @@ title: DhcpEnumSubnetClients function
 author: windows-sdk-content
 description: The DhcpEnumSubnetClients function returns an enumerated list of clients with served IP addresses in the specified subnet.
 old-location: dhcp\dhcpenumsubnetclients.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 04ef441e-0638-4ee7-a6a6-a35ab5cf7a44
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpEnumSubnetClients, DhcpEnumSubnetClients function [DHCP], dhcp.dhcpenumsubnetclients, dhcpsapi/DhcpEnumSubnetClients
 ms.prod: windows-hardware
 ms.technology: windows-devices

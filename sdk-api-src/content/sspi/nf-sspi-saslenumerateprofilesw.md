@@ -4,10 +4,10 @@ title: SaslEnumerateProfilesW function
 author: windows-sdk-content
 description: Lists the packages that provide a SASL interface.
 old-location: security\saslenumerateprofiles.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 0c11e0e3-2538-4703-bc32-31c73d65a498
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], SaslEnumerateProfilesA, SaslEnumerateProfilesW, security.saslenumerateprofiles, sspi/SaslEnumerateProfiles, sspi/SaslEnumerateProfilesA, sspi/SaslEnumerateProfilesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

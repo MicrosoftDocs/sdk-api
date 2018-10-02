@@ -7,7 +7,7 @@ old-location: automat\currency.htm
 tech.root: automat
 ms.assetid: 5e81273c-7289-45c7-93c0-32c1553f708e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPCY, CURRENCY, CURRENCY union [Automation], CY, CY union [Automation], _oa96_CURRENCY, automat.currency, tagCY, wtypes/CURRENCY"
 ms.prod: windows
 ms.technology: windows-sdk

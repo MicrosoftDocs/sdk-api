@@ -7,7 +7,7 @@ old-location: adsi\iadsadsysteminfo.htm
 tech.root: ADSI
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
 ms.prod: windows
 ms.technology: windows-sdk

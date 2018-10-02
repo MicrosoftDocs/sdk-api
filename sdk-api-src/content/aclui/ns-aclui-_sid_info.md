@@ -7,7 +7,7 @@ old-location: security\sid_info.htm
 tech.root: SecAuthZ
 ms.assetid: 6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSID_INFO, PSID_INFO, PSID_INFO structure pointer [Security], SID_INFO, SID_INFO structure [Security], _SID_INFO, _win32_sid_info_str, aclui/PSID_INFO, aclui/SID_INFO, security.sid_info"
 ms.prod: windows
 ms.technology: windows-sdk

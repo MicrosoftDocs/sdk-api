@@ -4,10 +4,10 @@ title: SHLimitInputEdit function
 author: windows-sdk-content
 description: Sets limits on valid characters for an edit control.
 old-location: shell\SHLimitInputEdit.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3f03374f-8dfe-4b80-9ecc-12c6548f2865
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHLimitInputEdit, SHLimitInputEdit function [Windows Shell], _shell_SHLimitInputEdit, shell.SHLimitInputEdit, shlobj_core/SHLimitInputEdit
 ms.prod: windows-hardware
 ms.technology: windows-devices

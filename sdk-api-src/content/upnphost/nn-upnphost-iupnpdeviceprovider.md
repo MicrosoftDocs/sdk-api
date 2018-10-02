@@ -7,7 +7,7 @@ old-location: upnp\iupnpdeviceprovider.htm
 tech.root: UPnP
 ms.assetid: daaa8b55-bcef-4142-8f7b-e6f64e0ac258
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUPnPDeviceProvider, IUPnPDeviceProvider interface [UPnP APIs], IUPnPDeviceProvider interface [UPnP APIs],described, _upnp_iupnpdeviceprovider, upnp.iupnpdeviceprovider, upnphost/IUPnPDeviceProvider
 ms.prod: windows
 ms.technology: windows-sdk

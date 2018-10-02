@@ -4,10 +4,10 @@ title: PeerIdentityGetXML function
 author: windows-sdk-content
 description: The PeerIdentityGetXML function returns a description of the peer identity, which can then be passed to third parties and used to invite a peer identity into a peer group. This information is returned as an XML fragment.
 old-location: p2p\peeridentitygetxml.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 94172351-291e-461e-8c7f-0925c80df0c3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerIdentityGetXML, PeerIdentityGetXML function [Peer Networking], p2p.peeridentitygetxml, p2p/PeerIdentityGetXML
 ms.prod: windows-hardware
 ms.technology: windows-devices

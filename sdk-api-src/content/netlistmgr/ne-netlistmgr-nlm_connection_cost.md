@@ -4,10 +4,10 @@ title: NLM_CONNECTION_COST
 author: windows-sdk-content
 description: The NLM_CONNECTION_COST enumeration specifies a set of cost levels and cost flags supported in Windows 8 Cost APIs.
 old-location: nla\nlm_connection_cost.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 93541814-A1C3-4C24-BB99-CEE4895F34F8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NLM_CONNECTION_COST, NLM_CONNECTION_COST enumeration [Network Awareness], NLM_CONNECTION_COST_APPROACHINGDATALIMIT, NLM_CONNECTION_COST_CONGESTED, NLM_CONNECTION_COST_FIXED, NLM_CONNECTION_COST_OVERDATALIMIT, NLM_CONNECTION_COST_ROAMING, NLM_CONNECTION_COST_UNKNOWN, NLM_CONNECTION_COST_UNRESTRICTED, NLM_CONNECTION_COST_VARIABLE, netlistmgr/NLM_CONNECTION_COST, netlistmgr/NLM_CONNECTION_COST_APPROACHINGDATALIMIT, netlistmgr/NLM_CONNECTION_COST_CONGESTED, netlistmgr/NLM_CONNECTION_COST_FIXED, netlistmgr/NLM_CONNECTION_COST_OVERDATALIMIT, netlistmgr/NLM_CONNECTION_COST_ROAMING, netlistmgr/NLM_CONNECTION_COST_UNKNOWN, netlistmgr/NLM_CONNECTION_COST_UNRESTRICTED, netlistmgr/NLM_CONNECTION_COST_VARIABLE, nla.nlm_connection_cost
 ms.prod: windows
 ms.technology: windows-sdk

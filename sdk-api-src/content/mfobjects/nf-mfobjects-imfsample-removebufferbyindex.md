@@ -4,10 +4,10 @@ title: IMFSample::RemoveBufferByIndex
 author: windows-sdk-content
 description: Removes a buffer at a specified index from the sample.
 old-location: mf\imfsample_removebufferbyindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: fc7b5a46-a127-4d75-a9a5-382d9d65a426
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveBufferByIndex method, IMFSample.RemoveBufferByIndex, IMFSample::RemoveBufferByIndex, RemoveBufferByIndex, RemoveBufferByIndex method [Media Foundation], RemoveBufferByIndex method [Media Foundation],IMFSample interface, fc7b5a46-a127-4d75-a9a5-382d9d65a426, mf.imfsample_removebufferbyindex, mfobjects/IMFSample::RemoveBufferByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

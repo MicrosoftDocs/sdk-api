@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_GetMaxWidth.htm
 tech.root: DirectWrite
 ms.assetid: 05706f92-6bf6-49fe-9b63-bf8350d48bd9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetMaxWidth, GetMaxWidth method [Direct Write], GetMaxWidth method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetMaxWidth method, IDWriteTextLayout.GetMaxWidth, IDWriteTextLayout::GetMaxWidth, directwrite.IDWriteTextLayout_GetMaxWidth, dwrite/IDWriteTextLayout::GetMaxWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

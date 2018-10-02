@@ -4,10 +4,10 @@ title: DhcpHlprAddV4PolicyRange function
 author: windows-sdk-content
 description: Adds a DHCP IPv4 range to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policyrange.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 4e5b5fca-7583-43a8-8816-c1003d936233
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpHlprAddV4PolicyRange, DhcpHlprAddV4PolicyRange function [DHCP], dhcp.dhcphlpraddv4policyrange, dhcpsapi/DhcpHlprAddV4PolicyRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

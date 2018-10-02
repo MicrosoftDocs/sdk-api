@@ -4,10 +4,10 @@ title: ITsSbTaskInfo
 author: windows-sdk-content
 description: Exposes properties that the Remote Desktop Connection Broker uses to set a plugin’s queue.
 old-location: termserv\itssbtaskinfo.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d24c1a64-e006-4229-a675-54f29b8ac1c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbTaskInfo, ITsSbTaskInfo interface [Remote Desktop Services], ITsSbTaskInfo interface [Remote Desktop Services],described, sbtsv/ITsSbTaskInfo, termserv.itssbtaskinfo
 ms.prod: windows
 ms.technology: windows-sdk

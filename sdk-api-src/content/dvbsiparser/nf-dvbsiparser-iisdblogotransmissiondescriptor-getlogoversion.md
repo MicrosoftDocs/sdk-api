@@ -4,10 +4,10 @@ title: IIsdbLogoTransmissionDescriptor::GetLogoVersion
 author: windows-sdk-content
 description: Gets the value of the logo_version field from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor. This field contains the version number of the logo specified in the descriptor logo_id field.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogoversion.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b6cc23b4-b0cf-410c-9c15-03d58e795e6b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetLogoVersion, GetLogoVersion method [Microsoft TV Technologies], GetLogoVersion method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoVersion method, IIsdbLogoTransmissionDescriptor.GetLogoVersion, IIsdbLogoTransmissionDescriptor::GetLogoVersion, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoVersion, mstv.iisdblogotransmissiondescriptor_getlogoversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

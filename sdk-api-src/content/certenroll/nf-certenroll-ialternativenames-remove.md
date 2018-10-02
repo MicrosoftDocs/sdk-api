@@ -7,7 +7,7 @@ old-location: security\ialternativenames_remove_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 1507d03b-2c1d-416e-b346-16795902f5e2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAlternativeNames interface [Security],Remove method, IAlternativeNames.Remove, IAlternativeNames::Remove, Remove, Remove method [Security], Remove method [Security],IAlternativeNames interface, certenroll/IAlternativeNames::Remove, security.ialternativenames_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

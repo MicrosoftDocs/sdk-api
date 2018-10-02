@@ -4,10 +4,10 @@ title: D3D11_TEX2D_VDOV
 author: windows-sdk-content
 description: Identifies the texture resource for a video decoder output view.
 old-location: mf\d3d11_tex2d_vdov.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_TEX2D_VDOV, D3D11_TEX2D_VDOV structure [Media Foundation], d3d11/D3D11_TEX2D_VDOV, mf.d3d11_tex2d_vdov
 ms.prod: windows
 ms.technology: windows-sdk

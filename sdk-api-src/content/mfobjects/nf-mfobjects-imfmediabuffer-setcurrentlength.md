@@ -4,10 +4,10 @@ title: IMFMediaBuffer::SetCurrentLength
 author: windows-sdk-content
 description: Sets the length of the valid data in the buffer.
 old-location: mf\imfmediabuffer_setcurrentlength.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ce48458f-eb0f-441a-a4bc-9d3fbee0cd74
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaBuffer interface [Media Foundation],SetCurrentLength method, IMFMediaBuffer.SetCurrentLength, IMFMediaBuffer::SetCurrentLength, SetCurrentLength, SetCurrentLength method [Media Foundation], SetCurrentLength method [Media Foundation],IMFMediaBuffer interface, ce48458f-eb0f-441a-a4bc-9d3fbee0cd74, mf.imfmediabuffer_setcurrentlength, mfobjects/IMFMediaBuffer::SetCurrentLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

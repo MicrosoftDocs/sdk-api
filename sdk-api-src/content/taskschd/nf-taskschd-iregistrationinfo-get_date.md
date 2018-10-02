@@ -7,7 +7,7 @@ old-location: taskschd\iregistrationinfo_date.htm
 tech.root: TaskSchd
 ms.assetid: b9a41413-954f-447c-8fce-f99c81fec40a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Date property [Task Scheduler], Date property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Date property, IRegistrationInfo.Date, IRegistrationInfo.get_Date, IRegistrationInfo::Date, IRegistrationInfo::get_Date, IRegistrationInfo::put_Date, get_Date, taskschd.iregistrationinfo_date, taskschd/IRegistrationInfo::Date, taskschd/IRegistrationInfo::get_Date, taskschd/IRegistrationInfo::put_Date
 ms.prod: windows-hardware
 ms.technology: windows-devices

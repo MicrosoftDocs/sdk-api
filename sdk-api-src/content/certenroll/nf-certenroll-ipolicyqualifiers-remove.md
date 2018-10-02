@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifiers_remove_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

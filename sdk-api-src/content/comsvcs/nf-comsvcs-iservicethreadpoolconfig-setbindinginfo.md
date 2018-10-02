@@ -7,7 +7,7 @@ old-location: cos\iservicethreadpoolconfig_setbindinginfo.htm
 tech.root: cossdk
 ms.assetid: 9d2c4e6f-aa12-4874-a8e0-ca21a981b43f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IServiceThreadPoolConfig interface [COM+],SetBindingInfo method, IServiceThreadPoolConfig.SetBindingInfo, IServiceThreadPoolConfig::SetBindingInfo, SetBindingInfo, SetBindingInfo method [COM+], SetBindingInfo method [COM+],IServiceThreadPoolConfig interface, _cos_IServiceThreadPoolConfig_SetBindingInfo, comsvcs/IServiceThreadPoolConfig::SetBindingInfo, cos.iservicethreadpoolconfig_setbindinginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

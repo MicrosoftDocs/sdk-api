@@ -7,7 +7,7 @@ old-location: controls\Pager_ForwardMouse.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_forwardmouse.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: Pager_ForwardMouse, Pager_ForwardMouse macro [Windows Controls], _win32_Pager_ForwardMouse, _win32_Pager_ForwardMouse_cpp, commctrl/Pager_ForwardMouse, controls.Pager_ForwardMouse, controls._win32_Pager_ForwardMouse
 ms.prod: windows-hardware
 ms.technology: windows-devices

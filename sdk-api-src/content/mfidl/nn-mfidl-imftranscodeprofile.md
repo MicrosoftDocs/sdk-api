@@ -4,10 +4,10 @@ title: IMFTranscodeProfile
 author: windows-sdk-content
 description: Implemented by the transcode profile object.
 old-location: mf\imftranscodeprofile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 82e012e0-84d8-4791-8b6f-bda58b498a90
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], IMFTranscodeProfile interface [Media Foundation],described, mf.imftranscodeprofile, mfidl/IMFTranscodeProfile
 ms.prod: windows
 ms.technology: windows-sdk

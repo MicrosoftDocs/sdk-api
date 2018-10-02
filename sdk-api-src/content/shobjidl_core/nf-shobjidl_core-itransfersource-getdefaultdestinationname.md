@@ -4,10 +4,10 @@ title: ITransferSource::GetDefaultDestinationName
 author: windows-sdk-content
 description: Gets the default name for a Shell item.
 old-location: shell\ITransferSource_GetDefaultDestinationName.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a99d9622-b205-4a8a-9840-879f655463a5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetDefaultDestinationName, GetDefaultDestinationName method [Windows Shell], GetDefaultDestinationName method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],GetDefaultDestinationName method, ITransferSource.GetDefaultDestinationName, ITransferSource::GetDefaultDestinationName, _shell_ITransferSource_GetDefaultDestinationName, shell.ITransferSource_GetDefaultDestinationName, shobjidl_core/ITransferSource::GetDefaultDestinationName
 ms.prod: windows-hardware
 ms.technology: windows-devices

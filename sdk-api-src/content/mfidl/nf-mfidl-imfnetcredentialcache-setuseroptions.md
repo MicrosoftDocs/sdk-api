@@ -4,10 +4,10 @@ title: IMFNetCredentialCache::SetUserOptions
 author: windows-sdk-content
 description: Specifies how user credentials are stored.
 old-location: mf\imfnetcredentialcache_setuseroptions.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 024eea57-e7c8-495d-9959-ab37dd45873d
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 024eea57-e7c8-495d-9959-ab37dd45873d, IMFNetCredentialCache interface [Media Foundation],SetUserOptions method, IMFNetCredentialCache.SetUserOptions, IMFNetCredentialCache::SetUserOptions, SetUserOptions, SetUserOptions method [Media Foundation], SetUserOptions method [Media Foundation],IMFNetCredentialCache interface, mf.imfnetcredentialcache_setuseroptions, mfidl/IMFNetCredentialCache::SetUserOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: edp\srpcreatethreadnetworkcontext.htm
 tech.root: EDP
 ms.assetid: 95997D25-04FE-445B-ADC1-DE85A34BD70C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EDP.srpcreatethreadnetworkcontext, SrpCreateThreadNetworkContext, SrpCreateThreadNetworkContext function, srpapi/SrpCreateThreadNetworkContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

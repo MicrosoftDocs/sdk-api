@@ -4,10 +4,10 @@ title: IColumnData::SetColumnSortData
 author: windows-sdk-content
 description: The IColumnData::SetColumnSortData method enables a snap-in to set the sorted column and sorting direction for columns in a column set.
 old-location: mmc\icolumndata_setcolumnsortdata.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: ece69cce-6861-4795-b1cb-da22d2bdc67a
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: IColumnData interface [MMC],SetColumnSortData method, IColumnData.SetColumnSortData, IColumnData::SetColumnSortData, SetColumnSortData, SetColumnSortData method [MMC], SetColumnSortData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnsortdata, mmc.icolumndata_setcolumnsortdata, mmc/IColumnData::SetColumnSortData
 ms.prod: windows-hardware
 ms.technology: windows-devices

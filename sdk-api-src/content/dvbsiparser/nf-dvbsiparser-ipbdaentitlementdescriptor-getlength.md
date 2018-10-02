@@ -4,10 +4,10 @@ title: IPBDAEntitlementDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the length of the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream, in bytes.
 old-location: mstv\ipbdaentitlementdescriptor_getlength.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 51fc1ecc-ec18-415c-84f8-276ec581b24e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetLength method, IPBDAEntitlementDescriptor.GetLength, IPBDAEntitlementDescriptor::GetLength, dvbsiparser/IPBDAEntitlementDescriptor::GetLength, mstv.ipbdaentitlementdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

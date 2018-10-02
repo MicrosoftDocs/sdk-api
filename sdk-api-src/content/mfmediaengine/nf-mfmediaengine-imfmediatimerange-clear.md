@@ -4,10 +4,10 @@ title: IMFMediaTimeRange::Clear
 author: windows-sdk-content
 description: Clears the list of time ranges.
 old-location: mf\imfmediatimerange_clear.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: F7CDC73E-CF14-48E2-9C8A-E1944099861A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],Clear method, IMFMediaTimeRange.Clear, IMFMediaTimeRange::Clear, mf.imfmediatimerange_clear, mfmediaengine/IMFMediaTimeRange::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

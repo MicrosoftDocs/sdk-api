@@ -7,7 +7,7 @@ old-location: wes\evtgetqueryinfo.htm
 tech.root: WES
 ms.assetid: 311a2060-90d9-41ec-b489-c07d3e813187
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EvtGetQueryInfo, EvtGetQueryInfo function [EventLog], wes.evtgetqueryinfo, winevt/EvtGetQueryInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

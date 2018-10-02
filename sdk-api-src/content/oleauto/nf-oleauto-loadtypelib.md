@@ -7,7 +7,7 @@ old-location: automat\loadtypelib.htm
 tech.root: automat
 ms.assetid: 155b48e5-5438-409e-9342-630a6a500f60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: LoadTypeLib, LoadTypeLib function [Automation], _oa96_LoadTypeLib, automat.loadtypelib, oleauto/LoadTypeLib
 ms.prod: windows-hardware
 ms.technology: windows-devices

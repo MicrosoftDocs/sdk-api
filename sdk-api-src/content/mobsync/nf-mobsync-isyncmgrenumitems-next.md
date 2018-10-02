@@ -4,10 +4,10 @@ title: ISyncMgrEnumItems::Next
 author: windows-sdk-content
 description: Enumerates the next celt elements in the enumerator's list, returning them in rgelt along with the actual number of enumerated elements in pceltFetched.
 old-location: shell\syncmgr_isyncmgrenumitems_next.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bb4ab08a-aa12-46f0-8c7d-82742b0b1538
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Next method, ISyncMgrEnumItems.Next, ISyncMgrEnumItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Next, shell.syncmgr_isyncmgrenumitems_next, syncmgr.isyncmgrenumitems_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

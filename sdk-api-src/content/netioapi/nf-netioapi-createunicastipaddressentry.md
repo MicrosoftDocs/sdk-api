@@ -4,10 +4,10 @@ title: CreateUnicastIpAddressEntry function
 author: windows-sdk-content
 description: Adds a new unicast IP address entry on the local computer.
 old-location: iphlp\createunicastipaddressentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: CreateUnicastIpAddressEntry, CreateUnicastIpAddressEntry function [IP Helper], iphlp.createunicastipaddressentry, netioapi/CreateUnicastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

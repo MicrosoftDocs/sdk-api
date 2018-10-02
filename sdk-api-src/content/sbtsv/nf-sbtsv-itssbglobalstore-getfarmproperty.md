@@ -4,10 +4,10 @@ title: ITsSbGlobalStore::GetFarmProperty
 author: windows-sdk-content
 description: Retrieves a property of a farm.
 old-location: termserv\itssbglobalstore_getfarmproperty.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 14b9ca43-735d-43d1-bda5-d84cc9a7761a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetFarmProperty, GetFarmProperty method [Remote Desktop Services], GetFarmProperty method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],GetFarmProperty method, ITsSbGlobalStore.GetFarmProperty, ITsSbGlobalStore::GetFarmProperty, sbtsv/ITsSbGlobalStore::GetFarmProperty, termserv.itssbglobalstore_getfarmproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

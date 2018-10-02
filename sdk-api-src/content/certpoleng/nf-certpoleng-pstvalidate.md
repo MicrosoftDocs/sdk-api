@@ -4,10 +4,10 @@ title: PstValidate function
 author: windows-sdk-content
 description: Validates the specified certificate.
 old-location: security\pstvalidate.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices

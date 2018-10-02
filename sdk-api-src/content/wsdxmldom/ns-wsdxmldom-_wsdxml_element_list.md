@@ -7,7 +7,7 @@ old-location: ncd\wsdxml_element_list_struct.htm
 tech.root: WsdApi
 ms.assetid: 498fe365-e9a1-490c-a361-2312ea698977
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSDXML_ELEMENT_LIST, WSDXML_ELEMENT_LIST structure, _WSDXML_ELEMENT_LIST, ncd.wsdxml_element_list_struct, wsdxmldom/WSDXML_ELEMENT_LIST
 ms.prod: windows
 ms.technology: windows-sdk

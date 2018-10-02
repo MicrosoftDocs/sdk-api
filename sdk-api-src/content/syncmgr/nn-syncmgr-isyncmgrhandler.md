@@ -4,10 +4,10 @@ title: ISyncMgrHandler
 author: windows-sdk-content
 description: Exposes methods that make up the primary interface implemented by a sync handler.
 old-location: shell\ISyncMgrHandler.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 39579030-1cf5-4e82-a5e7-cb3415903d02
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], ISyncMgrHandler interface [Windows Shell],described, _shell_ISyncMgrHandler, shell.ISyncMgrHandler, syncmgr/ISyncMgrHandler
 ms.prod: windows
 ms.technology: windows-sdk

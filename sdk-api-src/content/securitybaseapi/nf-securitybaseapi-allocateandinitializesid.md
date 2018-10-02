@@ -7,7 +7,7 @@ old-location: security\allocateandinitializesid.htm
 tech.root: SecAuthZ
 ms.assetid: fcdff2f8-7f43-4c0f-b548-4914b1991937
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AllocateAndInitializeSid, AllocateAndInitializeSid function [Security], _win32_allocateandinitializesid, security.allocateandinitializesid, securitybaseapi/AllocateAndInitializeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

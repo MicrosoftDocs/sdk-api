@@ -4,10 +4,10 @@ title: MI_DestinationOptions_SetPacketEncoding function
 author: windows-sdk-content
 description: Sets the encoding mechanism for certain protocol handles.
 old-location: wmi_v2\mi_destinationoptions_setpacketencoding.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: cb7f922d-7e96-4304-9abe-bfa23709e1c7
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_DESTINATIONOPTIONS_PACKET_ENCODING_DEFAULT, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF16, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF8, MI_DestinationOptions_SetPacketEncoding, MI_DestinationOptions_SetPacketEncoding function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetPacketEncoding, wmi_v2.mi_destinationoptions_setpacketencoding
 ms.prod: windows-hardware
 ms.technology: windows-devices

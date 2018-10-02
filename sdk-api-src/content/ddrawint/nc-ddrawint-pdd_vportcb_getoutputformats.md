@@ -4,10 +4,10 @@ title: PDD_VPORTCB_GETOUTPUTFORMATS
 author: windows-sdk-content
 description: The DdVideoPortGetOutputFormats callback function determines the output formats that the VPE object supports.
 old-location: display\ddvideoportgetoutputformats.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 8e9df88b-a50a-4838-9732-9f818936cbcb
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DdVideoPortGetOutputFormats, DdVideoPortGetOutputFormats callback function [Display Devices], PDD_VPORTCB_GETOUTPUTFORMATS, PDD_VPORTCB_GETOUTPUTFORMATS callback, ddfncs_24c5f4e8-c9ee-4104-80e5-7f6ef21a1f22.xml, ddrawint/DdVideoPortGetOutputFormats, display.ddvideoportgetoutputformats
 ms.prod: windows
 ms.technology: windows-sdk

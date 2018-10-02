@@ -4,10 +4,10 @@ title: IWMCodecLeakyBucket
 author: windows-sdk-content
 description: Configures the &#0034;leaky bucket&#0034; parameters on a video encoder.
 old-location: mf\iwmcodecleakybucketinterface.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 93a0169e-39fe-4152-8698-72a0650be41a
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], IWMCodecLeakyBucket interface [Media Foundation],described, codecapi.iwmcodecleakybucketinterface, mf.iwmcodecleakybucketinterface, wmcodecdsp/IWMCodecLeakyBucket
 ms.prod: windows
 ms.technology: windows-sdk

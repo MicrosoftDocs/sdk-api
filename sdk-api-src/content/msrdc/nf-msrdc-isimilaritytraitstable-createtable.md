@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitstable_createtable.htm
 tech.root: Rdc
 ms.assetid: 35fd9ea1-85bf-424c-b0e2-dcdfbb6940fb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateTable, CreateTable method [Remote Differential Compression], CreateTable method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CreateTable method, ISimilarityTraitsTable.CreateTable, ISimilarityTraitsTable::CreateTable, fs.isimilaritytraitstable_createtable, msrdc/ISimilarityTraitsTable::CreateTable, rdc.isimilaritytraitstable_createtable
 ms.prod: windows-hardware
 ms.technology: windows-devices

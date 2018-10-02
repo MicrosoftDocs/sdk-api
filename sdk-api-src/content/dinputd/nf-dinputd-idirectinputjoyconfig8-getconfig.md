@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_getconfig.htm
 tech.root: hid
 ms.assetid: d8e2a702-d33e-48d2-8e1c-49e09e8f560f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 10/01/2018
 ms.keywords: GetConfig, GetConfig method [Human Input Devices], GetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetConfig method, IDirectInputJoyConfig8.GetConfig, IDirectInputJoyConfig8::GetConfig, di_ref_86a1c8bf-81df-4c68-b646-347785f3584f.xml, dinputd/IDirectInputJoyConfig8::GetConfig, hid.idirectinputjoyconfig8_getconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

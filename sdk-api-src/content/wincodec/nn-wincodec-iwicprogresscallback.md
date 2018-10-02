@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicprogresscallback.htm
 tech.root: wic
 ms.assetid: cd94e0a1-c275-458e-ae7f-85b703fc660e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWICProgressCallback, IWICProgressCallback interface [Windows Imaging Component], IWICProgressCallback interface [Windows Imaging Component],described, _wic_codec_iwicprogresscallback, wic._wic_codec_iwicprogresscallback, wincodec/IWICProgressCallback
 ms.prod: windows
 ms.technology: windows-sdk

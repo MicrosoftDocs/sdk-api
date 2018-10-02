@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonceeventargs_get_remainingtime.htm
 tech.root: imapi
 ms.assetid: cc427810-fcac-45a1-bd47-e392e1c0110e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_RemainingTime method, IDiscFormat2TrackAtOnceEventArgs.get_RemainingTime, IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime, get_RemainingTime, get_RemainingTime method [IMAPI], get_RemainingTime method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_remainingtime, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

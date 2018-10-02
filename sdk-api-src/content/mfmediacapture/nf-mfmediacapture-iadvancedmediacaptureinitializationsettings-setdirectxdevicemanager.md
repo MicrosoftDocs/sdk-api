@@ -4,10 +4,10 @@ title: IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager
 author: windows-sdk-content
 description: Sets the DirectX Device Manager.
 old-location: mf\iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 556923c5-711e-4ace-8657-298be55dd7b0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],SetDirectxDeviceManager method, IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager, IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager, SetDirectxDeviceManager, SetDirectxDeviceManager method [Media Foundation], SetDirectxDeviceManager method [Media Foundation],IAdvancedMediaCaptureInitializationSettings interface, mf.iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager, mfmediacapture/IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

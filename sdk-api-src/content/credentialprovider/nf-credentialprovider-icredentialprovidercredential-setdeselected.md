@@ -4,10 +4,10 @@ title: ICredentialProviderCredential::SetDeselected
 author: windows-sdk-content
 description: Called when a credential loses selection.
 old-location: shell\ICredentialProviderCredential_SetDeselected.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 89c01b7c-0d22-44f8-9934-b01d7410f85f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetDeselected method, ICredentialProviderCredential.SetDeselected, ICredentialProviderCredential::SetDeselected, SetDeselected, SetDeselected method [Windows Shell], SetDeselected method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetDeselected, credentialprovider/ICredentialProviderCredential::SetDeselected, shell.ICredentialProviderCredential_SetDeselected
 ms.prod: windows-hardware
 ms.technology: windows-devices

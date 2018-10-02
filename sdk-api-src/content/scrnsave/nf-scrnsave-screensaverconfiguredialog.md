@@ -4,10 +4,10 @@ title: ScreenSaverConfigureDialog function
 author: windows-sdk-content
 description: Receives messages sent to a screen saver's configuration dialog box. A screen saver that allows user configuration must define this function.
 old-location: shell\ScreenSaverConfigureDialog.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 84c2966f-8f01-4f8d-9cec-c7fef657bff0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Windows Shell], _win32_ScreenSaverConfigureDialog, scrnsave/ScreenSaverConfigureDialog, shell.ScreenSaverConfigureDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

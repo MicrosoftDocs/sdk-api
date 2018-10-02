@@ -7,7 +7,7 @@ old-location: rpc\mesencodeincrementalhandlecreate.htm
 tech.root: Rpc
 ms.assetid: 54bbe560-08a9-4e41-9121-37aab0c209a9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MesEncodeIncrementalHandleCreate, MesEncodeIncrementalHandleCreate function [RPC], _rpc_mesencodeincrementalhandlecreate, midles/MesEncodeIncrementalHandleCreate, rpc.mesencodeincrementalhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

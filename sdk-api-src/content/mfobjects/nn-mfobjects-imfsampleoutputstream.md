@@ -4,10 +4,10 @@ title: IMFSampleOutputStream
 author: windows-sdk-content
 description: Writes media samples to a byte stream.
 old-location: mf\imfsampleoutputstream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: BA293BB7-9191-4123-96DB-FF6386ABB3AE
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSampleOutputStream, IMFSampleOutputStream interface [Media Foundation], IMFSampleOutputStream interface [Media Foundation],described, mf.imfsampleoutputstream, mfobjects/IMFSampleOutputStream
 ms.prod: windows
 ms.technology: windows-sdk

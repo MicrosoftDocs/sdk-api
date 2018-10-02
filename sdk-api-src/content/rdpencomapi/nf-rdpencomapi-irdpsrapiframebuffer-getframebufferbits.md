@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiframebuffer_getframebufferbits.htm
 tech.root: Rdp
 ms.assetid: 6497d9d1-c987-40ea-b384-0fff1e852122
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFrameBufferBits, GetFrameBufferBits method [RDP], GetFrameBufferBits method [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],GetFrameBufferBits method, IRDPSRAPIFrameBuffer.GetFrameBufferBits, IRDPSRAPIFrameBuffer::GetFrameBufferBits, rdp.irdpsrapiframebuffer_getframebufferbits, rdpencomapi/IRDPSRAPIFrameBuffer::GetFrameBufferBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ListView_GetEditControl.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_geteditcontrol.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_GetEditControl, ListView_GetEditControl macro [Windows Controls], _win32_ListView_GetEditControl, _win32_ListView_GetEditControl_cpp, commctrl/ListView_GetEditControl, controls.ListView_GetEditControl, controls._win32_ListView_GetEditControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

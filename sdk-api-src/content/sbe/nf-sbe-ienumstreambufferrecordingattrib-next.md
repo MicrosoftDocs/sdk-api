@@ -4,10 +4,10 @@ title: IEnumStreamBufferRecordingAttrib::Next
 author: windows-sdk-content
 description: The Next method returns a specified number of attributes in the enumeration sequence.
 old-location: mstv\ienumstreambufferrecordingattrib_next.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 760b2e2c-799d-45e5-9dbd-2407e7431918
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Next method, IEnumStreamBufferRecordingAttrib.Next, IEnumStreamBufferRecordingAttrib::Next, IEnumStreamBufferRecordingAttribNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, mstv.ienumstreambufferrecordingattrib_next, sbe/IEnumStreamBufferRecordingAttrib::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

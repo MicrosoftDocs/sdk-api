@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i78.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxSender interface [Fax Service],TSID property, IFaxSender.TSID, IFaxSender.get_TSID, IFaxSender.put_TSID, IFaxSender::TSID, IFaxSender::get_TSID, IFaxSender::put_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxSender interface, _mfax_faxsender.tsid, fax._mfax_faxsender_cpp_mfax_faxsender_tsid_cpp, fax._mfax_faxsender_tsid, faxcomex/IFaxSender::TSID, faxcomex/IFaxSender::get_TSID, faxcomex/IFaxSender::put_TSID, get_TSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

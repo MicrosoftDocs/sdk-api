@@ -7,7 +7,7 @@ old-location: winsock\wsaproviderconfigchange_2.htm
 tech.root: WinSock
 ms.assetid: abaf367a-8f99-478c-a58c-d57e9f9cd8a1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSAProviderConfigChange, WSAProviderConfigChange function [Winsock], _win32_wsaproviderconfigchange_2, winsock.wsaproviderconfigchange_2, winsock2/WSAProviderConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

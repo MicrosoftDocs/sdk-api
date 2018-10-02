@@ -7,7 +7,7 @@ old-location: dxmath\xmloadfloat4a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4A(const XMFLOAT4A)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMLoadFloat4A, XMLoadFloat4A, XMLoadFloat4A method [DirectX Math Support APIs], dxmath.xmloadfloat4a
 ms.prod: windows-hardware
 ms.technology: windows-devices

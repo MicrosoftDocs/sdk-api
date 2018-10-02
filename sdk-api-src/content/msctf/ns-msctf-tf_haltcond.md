@@ -7,7 +7,7 @@ old-location: tsf\tf_haltcond.htm
 tech.root: TSF
 ms.assetid: 055f3228-1e3b-4e31-9035-e509a98016a8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: TF_HALTCOND, TF_HALTCOND structure [Text Services Framework], _tsf_tf_haltcond_ref, msctf/TF_HALTCOND, tsf.tf_haltcond
 ms.prod: windows
 ms.technology: windows-sdk

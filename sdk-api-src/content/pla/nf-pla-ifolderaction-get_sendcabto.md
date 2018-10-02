@@ -7,7 +7,7 @@ old-location: pla\ifolderaction_sendcabto.htm
 tech.root: PLA
 ms.assetid: a6398d07-f15d-401b-a3b6-21b2506ad270
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: IFolderAction interface [PLA],SendCabTo property, IFolderAction.SendCabTo, IFolderAction.get_SendCabTo, IFolderAction::SendCabTo, IFolderAction::get_SendCabTo, IFolderAction::put_SendCabTo, SendCabTo property [PLA], SendCabTo property [PLA],IFolderAction interface, base.ifolderaction_sendcabto, get_SendCabTo, pla.ifolderaction_sendcabto, pla/IFolderAction::SendCabTo, pla/IFolderAction::get_SendCabTo, pla/IFolderAction::put_SendCabTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

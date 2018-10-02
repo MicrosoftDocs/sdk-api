@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_get_isidentical.htm
 tech.root: WMP
 ms.assetid: 480fa108-5cfd-49ab-92fe-c635f13f3194
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_isIdentical method, IWMPPlaylist.get_isIdentical, IWMPPlaylist::get_isIdentical, IWMPPlaylistget_isIdentical, get_isIdentical, get_isIdentical method [Windows Media Player], get_isIdentical method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_isidentical, wmp/IWMPPlaylist::get_isIdentical
 ms.prod: windows-hardware
 ms.technology: windows-devices

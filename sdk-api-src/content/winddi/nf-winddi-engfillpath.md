@@ -4,10 +4,10 @@ title: EngFillPath function
 author: windows-sdk-content
 description: The EngFillPath function fills a path.
 old-location: display\engfillpath.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 81c4ae89-391c-482b-b5dc-ef34d41607a1
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngFillPath, EngFillPath function [Display Devices], display.engfillpath, gdifncs_5128f1e3-265b-4570-8504-1782a07268d5.xml, winddi/EngFillPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadsserviceoperations_start.htm
 tech.root: ADSI
 ms.assetid: 8eabd59e-2abf-4e6f-be42-342f3b722d75
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Start method, IADsServiceOperations.Start, IADsServiceOperations::Start, Start, Start method [ADSI], Start method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_start, adsi.iadsserviceoperations__start, adsi.iadsserviceoperations_start, iads/IADsServiceOperations::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

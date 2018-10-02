@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings2.htm
 tech.root: WMP
 ms.assetid: 0fb0c7be-015e-4081-8467-c382e0858195
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPSettings2, IWMPSettings2 interface [Windows Media Player], IWMPSettings2 interface [Windows Media Player],described, IWMPSettings2Interface, wmp.iwmpsettings2, wmp/IWMPSettings2
 ms.prod: windows
 ms.technology: windows-sdk

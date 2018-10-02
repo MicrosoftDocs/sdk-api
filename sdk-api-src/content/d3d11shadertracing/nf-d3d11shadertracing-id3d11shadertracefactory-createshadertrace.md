@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertracefactory_createshadertrace.htm
 tech.root: direct3d11
 ms.assetid: 8F63E8B3-0E36-49D5-AB3B-1B1C7A9B841A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: CreateShaderTrace, CreateShaderTrace method [Direct3D 11], CreateShaderTrace method [Direct3D 11],ID3D11ShaderTraceFactory interface, ID3D11ShaderTraceFactory interface [Direct3D 11],CreateShaderTrace method, ID3D11ShaderTraceFactory.CreateShaderTrace, ID3D11ShaderTraceFactory::CreateShaderTrace, d3d11shadertracing/ID3D11ShaderTraceFactory::CreateShaderTrace, direct3d11.id3d11shadertracefactory_createshadertrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

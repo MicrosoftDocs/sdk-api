@@ -4,10 +4,10 @@ title: DRMVerify function
 author: windows-sdk-content
 description: No longer supported and returns E_NOTIMPL.
 old-location: rm\drmverify.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: aebf46e7-9de2-40e7-a748-0621a61ccb6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMVerify, DRMVerify function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMVerify, rm.drmverify
 ms.prod: windows-hardware
 ms.technology: windows-devices

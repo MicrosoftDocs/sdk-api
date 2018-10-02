@@ -4,10 +4,10 @@ title: IMFQualityAdvise2::NotifyQualityEvent
 author: windows-sdk-content
 description: Forwards an MEQualityNotify event from the media sink.
 old-location: mf\imfqualityadvise2_notifyqualityevent.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7e39d421-1e7c-4b6d-beba-e24429271378
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFQualityAdvise2 interface [Media Foundation],NotifyQualityEvent method, IMFQualityAdvise2.NotifyQualityEvent, IMFQualityAdvise2::NotifyQualityEvent, NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation],IMFQualityAdvise2 interface, mf.imfqualityadvise2_notifyqualityevent, mfidl/IMFQualityAdvise2::NotifyQualityEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

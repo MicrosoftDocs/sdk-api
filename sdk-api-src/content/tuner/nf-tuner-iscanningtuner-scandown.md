@@ -4,10 +4,10 @@ title: IScanningTuner::ScanDown
 author: windows-sdk-content
 description: The ScanDown method changes the channel to the next lower channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
 old-location: mstv\iscanningtuner_scandown.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0e9120be-9f8c-442e-8253-812b2917f902
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],ScanDown method, IScanningTuner.ScanDown, IScanningTuner::ScanDown, IScanningTunerScanDown, ScanDown, ScanDown method [Microsoft TV Technologies], ScanDown method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_scandown, tuner/IScanningTuner::ScanDown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_getwritercomponents.htm
 tech.root: VSS
 ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

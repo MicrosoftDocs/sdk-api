@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setalldefaults.htm
 tech.root: DirectShow
 ms.assetid: b2f630be-a105-4f1b-9f9a-9d56c8853f35
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllDefaults method, ICodecAPI.SetAllDefaults, ICodecAPI::SetAllDefaults, ICodecAPISetAllDefaults, SetAllDefaults, SetAllDefaults method [DirectShow], SetAllDefaults method [DirectShow],ICodecAPI interface, dshow.icodecapi_setalldefaults, strmif/ICodecAPI::SetAllDefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices

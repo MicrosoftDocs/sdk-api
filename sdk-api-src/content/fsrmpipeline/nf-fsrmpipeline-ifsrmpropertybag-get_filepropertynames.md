@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::get_FilePropertyNames
 author: windows-sdk-content
 description: A list of the names of the properties that the bag contains.
 old-location: fsrm\ifsrmpropertybag_filepropertynames.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 5dfbf1a8-99a4-4348-8fc4-9d582330be57
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: FilePropertyNames property [File Server Resource Manager], FilePropertyNames property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],FilePropertyNames property, IFsrmPropertyBag.FilePropertyNames, IFsrmPropertyBag.get_FilePropertyNames, IFsrmPropertyBag::FilePropertyNames, IFsrmPropertyBag::get_FilePropertyNames, fs.ifsrmpropertybag_filepropertynames, fsrm.ifsrmpropertybag_filepropertynames, fsrmpipeline/IFsrmPropertyBag::FilePropertyNames, fsrmpipeline/IFsrmPropertyBag::get_FilePropertyNames, get_FilePropertyNames
 ms.prod: windows-hardware
 ms.technology: windows-devices

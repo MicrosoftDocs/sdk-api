@@ -7,7 +7,7 @@ old-location: security\indespolicy_notify.htm
 tech.root: seccrypto
 ms.assetid: dcb1c006-c709-4879-a9bf-8d441d26db8d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: INDESPolicy interface [Security],Notify method, INDESPolicy.Notify, INDESPolicy::Notify, Notify, Notify method [Security], Notify method [Security],INDESPolicy interface, certpol/INDESPolicy::Notify, security.indespolicy_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

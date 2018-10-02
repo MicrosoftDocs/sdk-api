@@ -7,7 +7,7 @@ old-location: controls\DPA_InsertPtr.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_insertptr.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: DPA_InsertPtr, DPA_InsertPtr function [Windows Controls], _win32_DPA_InsertPtr, _win32_DPA_InsertPtr_cpp, controls.DPA_InsertPtr, controls._win32_DPA_InsertPtr, dpa_dsa/DPA_InsertPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

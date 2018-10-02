@@ -7,7 +7,7 @@ old-location: cos\isecuritycallcontext_get__newenum.htm
 tech.root: cossdk
 ms.assetid: b449a373-2d14-43c5-98b5-ba8119b61e4c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISecurityCallContext interface [COM+],get__NewEnum method, ISecurityCallContext.get__NewEnum, ISecurityCallContext::get__NewEnum, _cos_ISecurityCallContext_get__NewEnum, comsvcs/ISecurityCallContext::get__NewEnum, cos.isecuritycallcontext_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityCallContext interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

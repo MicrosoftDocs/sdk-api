@@ -4,10 +4,10 @@ title: "_DDGETSURFACESTATEOUT"
 author: windows-sdk-content
 description: The DDGETSURFACESTATEOUT structure contains the capabilities and status of the specified surface.
 old-location: display\ddgetsurfacestateout.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 8d84fcdf-c880-4a3e-a57d-12bb8e59cb5b
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT structure [Display Devices], LPDDGETSURFACESTATEOUT, LPDDGETSURFACESTATEOUT structure pointer [Display Devices], _DDGETSURFACESTATEOUT, ddkmapi/DDGETSURFACESTATEOUT, ddkmapi/LPDDGETSURFACESTATEOUT, ddstrcts_bfeeac46-f803-48ee-aac4-39cb4781f925.xml, display.ddgetsurfacestateout"
 ms.prod: windows
 ms.technology: windows-sdk

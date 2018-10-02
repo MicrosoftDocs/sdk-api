@@ -7,7 +7,7 @@ old-location: rras\rasclearconnectionstatistics.htm
 tech.root: RRAS
 ms.assetid: b5c87ecd-4f21-46b5-91a3-41706907157a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RasClearConnectionStatistics, RasClearConnectionStatistics function [RAS], _ras_rasclearconnectionstatistics, ras/RasClearConnectionStatistics, rras.rasclearconnectionstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifiers_itembyindex.htm
 tech.root: SecCertEnroll
 ms.assetid: 89d6ce10-8425-4ee9-a957-88f9a2daba74
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPolicyQualifiers interface [Security],ItemByIndex property, IPolicyQualifiers.ItemByIndex, IPolicyQualifiers.get_ItemByIndex, IPolicyQualifiers::ItemByIndex, IPolicyQualifiers::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::ItemByIndex, certenroll/IPolicyQualifiers::get_ItemByIndex, get_ItemByIndex, security.ipolicyqualifiers_itembyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SCardGetTransmitCount function
 author: windows-sdk-content
 description: Retrieves the number of transmit operations that have completed since the specified card reader was inserted.
 old-location: security\scardgettransmitcount.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 13857fc3-374d-4ba5-b4ca-e523b323974c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SCardGetTransmitCount, SCardGetTransmitCount function [Security], security.scardgettransmitcount, winscard/SCardGetTransmitCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

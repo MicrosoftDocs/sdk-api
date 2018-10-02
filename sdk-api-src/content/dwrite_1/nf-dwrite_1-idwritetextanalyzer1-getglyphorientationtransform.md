@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer1_getglyphorientationtransform.htm
 tech.root: DirectWrite
 ms.assetid: 583AFE54-F816-4098-844B-C3F838BE46B0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetGlyphOrientationTransform, GetGlyphOrientationTransform method [Direct Write], GetGlyphOrientationTransform method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetGlyphOrientationTransform method, IDWriteTextAnalyzer1.GetGlyphOrientationTransform, IDWriteTextAnalyzer1::GetGlyphOrientationTransform, directwrite.idwritetextanalyzer1_getglyphorientationtransform, dwrite_1/IDWriteTextAnalyzer1::GetGlyphOrientationTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

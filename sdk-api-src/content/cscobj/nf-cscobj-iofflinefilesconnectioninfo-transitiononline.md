@@ -4,10 +4,10 @@ title: IOfflineFilesConnectionInfo::TransitionOnline
 author: windows-sdk-content
 description: Transitions an item online if possible.
 old-location: of\iofflinefilesconnectioninfo_transitiononline.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: b8cac664-598d-43fd-a77e-e8406c197afc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOnline method, IOfflineFilesConnectionInfo.TransitionOnline, IOfflineFilesConnectionInfo::TransitionOnline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOnline, TransitionOnline method [Offline Files], TransitionOnline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOnline, of.iofflinefilesconnectioninfo_transitiononline
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PeerGraphUnregisterEvent function
 author: windows-sdk-content
 description: The PeerGraphUnregisterEvent function requests that the application no longer be notified of changes associated with a peer graph and record type.
 old-location: p2p\peergraphunregisterevent.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: de37bb9a-e1b2-4448-9610-566f77acf542
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphUnregisterEvent, PeerGraphUnregisterEvent function [Peer Networking], p2p.peergraphunregisterevent, p2p/PeerGraphUnregisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

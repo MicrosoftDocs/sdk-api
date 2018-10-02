@@ -7,7 +7,7 @@ old-location: adsi\iadspropertylist_resetpropertyitem.htm
 tech.root: ADSI
 ms.assetid: 25ee4444-476d-4146-ac22-3b0cfed3f2c0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsPropertyList interface [ADSI],ResetPropertyItem method, IADsPropertyList.ResetPropertyItem, IADsPropertyList::ResetPropertyItem, ResetPropertyItem, ResetPropertyItem method [ADSI], ResetPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_resetpropertyitem, adsi.iadspropertylist__resetpropertyitem, adsi.iadspropertylist_resetpropertyitem, iads/IADsPropertyList::ResetPropertyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

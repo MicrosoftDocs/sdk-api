@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsession_networkinterfacename.htm
 tech.root: Wds
 ms.assetid: 2408b109-6878-4c66-ba44-196c10b2ae96
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],NetworkInterfaceName property, IWdsTransportSession.NetworkInterfaceName, IWdsTransportSession.get_NetworkInterfaceName, IWdsTransportSession::NetworkInterfaceName, IWdsTransportSession::get_NetworkInterfaceName, NetworkInterfaceName property [Windows Deployment Services], NetworkInterfaceName property [Windows Deployment Services],IWdsTransportSession interface, get_NetworkInterfaceName, wds.iwdstransportsession_networkinterfacename, wdstptmgmt/IWdsTransportSession::NetworkInterfaceName, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

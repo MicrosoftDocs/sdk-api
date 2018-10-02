@@ -4,10 +4,10 @@ title: IPersistQuery::WriteInt
 author: windows-sdk-content
 description: Writes an integer value to the query store.
 old-location: ad\ipersistquery_writeint.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 5f68865a-dd9f-4428-9cbc-f998f0f1f4a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteInt method, IPersistQuery.WriteInt, IPersistQuery::WriteInt, WriteInt, WriteInt method [Active Directory], WriteInt method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writeint, ad.ipersistquery__writeint, ad.ipersistquery_writeint, cmnquery/IPersistQuery::WriteInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

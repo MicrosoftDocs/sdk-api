@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory1_getregisteredeffects.htm
 tech.root: direct2d
 ms.assetid: c3363411-908f-4b02-b77e-ca563094f9a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: GetRegisteredEffects, GetRegisteredEffects method [Direct2D], GetRegisteredEffects method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],GetRegisteredEffects method, ID2D1Factory1.GetRegisteredEffects, ID2D1Factory1::GetRegisteredEffects, d2d1_1/ID2D1Factory1::GetRegisteredEffects, direct2d.id2d1factory1_getregisteredeffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

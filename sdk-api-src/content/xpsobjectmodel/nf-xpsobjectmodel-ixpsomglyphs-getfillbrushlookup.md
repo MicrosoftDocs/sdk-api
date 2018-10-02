@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getfillbrushlookup.htm
 tech.root: printdocs
 ms.assetid: f71b0b98-12d6-4108-8b1e-4ad254ffbdfd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMGlyphs.GetFillBrushLookup, IXpsOMGlyphs::GetFillBrushLookup, xps.ixpsomglyphs_getfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices

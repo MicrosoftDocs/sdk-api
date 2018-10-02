@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage4_setreferences.htm
 tech.root: WMDM
 ms.assetid: 45fd9efa-b03d-46de-9d8c-85ed04d446dd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMDSPStorage4 interface [windows Media Device Manager],SetReferences method, IMDSPStorage4.SetReferences, IMDSPStorage4::SetReferences, IMDSPStorage4SetReferences, SetReferences, SetReferences method [windows Media Device Manager], SetReferences method [windows Media Device Manager],IMDSPStorage4 interface, mswmdm/IMDSPStorage4::SetReferences, wmdm.imdspstorage4_setreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices

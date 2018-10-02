@@ -4,10 +4,10 @@ title: IPackageDebugSettings::UnregisterForPackageStateChanges
 author: windows-sdk-content
 description: Stops receiving package state-change notifications associated with a previous call to RegisterForPackageStateChanges.
 old-location: shell\IPackageDebugSettings_UnregisterForPackageStateChanges.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],UnregisterForPackageStateChanges method, IPackageDebugSettings.UnregisterForPackageStateChanges, IPackageDebugSettings::UnregisterForPackageStateChanges, UnregisterForPackageStateChanges, UnregisterForPackageStateChanges method [Windows Shell], UnregisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_UnregisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::UnregisterForPackageStateChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

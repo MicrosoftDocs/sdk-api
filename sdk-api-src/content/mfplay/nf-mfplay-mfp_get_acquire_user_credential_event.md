@@ -4,10 +4,10 @@ title: MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_ACQUIRE_USER_CREDENTIAL_EVENT pointer.
 old-location: mf\mfp_get_acquire_user_credential_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4079acb8-8ae2-46e3-b7d9-50a700696fd6
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro [Media Foundation], mf.mfp_get_acquire_user_credential_event, mfplay/MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

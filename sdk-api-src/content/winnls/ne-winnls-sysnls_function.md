@@ -7,7 +7,7 @@ old-location: intl\sysnls_function.htm
 tech.root: Intl
 ms.assetid: c34eb904-e264-4f7d-ac7f-4ec8cfc588b6
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/28/2018
 ms.keywords: COMPARE_STRING, SYSNLS_FUNCTION, SYSNLS_FUNCTION enumeration [Internationalization for Windows Applications], intl.nls_function, intl.sysnls_function, winnls/COMPARE_STRING, winnls/SYSNLS_FUNCTION
 ms.prod: windows
 ms.technology: windows-sdk

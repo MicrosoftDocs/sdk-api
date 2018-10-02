@@ -4,10 +4,10 @@ title: DnsExtractRecordsFromMessage_W function
 author: windows-sdk-content
 description: The DnsExtractRecordsFromMessage function type extracts resource records (RR) from a DNS message, and stores those records in a DNS_RECORD structure.
 old-location: dns\dnsextractrecordsfrommessage.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 0179bf3e-9243-4dd7-a2ab-e2f6f4bf4b82
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DnsExtractRecordsFromMessage, DnsExtractRecordsFromMessage_UTF8, DnsExtractRecordsFromMessage_W, DnsExtractRecordsFromMessage_W function [DNS], _dns_dnsextractrecordsfrommessage, dns.dnsextractrecordsfrommessage, windns/DnsExtractRecordsFromMessage_UTF8, windns/DnsExtractRecordsFromMessage_W
 ms.prod: windows-hardware
 ms.technology: windows-devices

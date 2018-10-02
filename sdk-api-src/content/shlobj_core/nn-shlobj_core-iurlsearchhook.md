@@ -4,10 +4,10 @@ title: IURLSearchHook
 author: windows-sdk-content
 description: Exposes a method that is used by the browser to translate the address of an unknown URL protocol.
 old-location: shell\IURLSearchHook.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6073ad95-03b5-4c06-9742-836719211e24
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IURLSearchHook, IURLSearchHook interface [Windows Shell], IURLSearchHook interface [Windows Shell],described, _win32_IURLSearchHook, shell.IURLSearchHook, shlobj_core/IURLSearchHook
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MFCreateASFStreamingMediaSink function
 author: windows-sdk-content
 description: Creates an activation object for the ASF streaming sink.
 old-location: mf\mfcreateasfstreamingmediasink.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: bfa34529-e1f9-462b-9c99-b65cd526d364
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateASFStreamingMediaSink, MFCreateASFStreamingMediaSink function [Media Foundation], mf.mfcreateasfstreamingmediasink, wmcontainer/MFCreateASFStreamingMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

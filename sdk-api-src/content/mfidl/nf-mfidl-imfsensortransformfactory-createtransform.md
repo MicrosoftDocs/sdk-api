@@ -4,10 +4,10 @@ title: IMFSensorTransformFactory::CreateTransform
 author: windows-sdk-content
 description: Called by the media pipeline to create the transform.
 old-location: mf\imfsensortransformfactory_createtransform.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 90F986B1-7E1A-43AC-A633-34DD9D53D634
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: CreateTransform, CreateTransform method [Media Foundation], CreateTransform method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],CreateTransform method, IMFSensorTransformFactory.CreateTransform, IMFSensorTransformFactory::CreateTransform, mf.imfsensortransformfactory_createtransform, mfidl/IMFSensorTransformFactory::CreateTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

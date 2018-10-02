@@ -4,10 +4,10 @@ title: GetBestInterfaceEx function
 author: windows-sdk-content
 description: The GetBestInterfaceEx function retrieves the index of the interface that has the best route to the specified IPv4 or IPv6 address.
 old-location: iphlp\getbestinterfaceex.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: cfd1108e-d7a0-4fe5-be3f-299189089d37
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: GetBestInterfaceEx, GetBestInterfaceEx function [IP Helper], iphlp.getbestinterfaceex, iphlpapi/GetBestInterfaceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

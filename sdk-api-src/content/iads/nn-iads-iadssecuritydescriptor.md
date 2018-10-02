@@ -7,7 +7,7 @@ old-location: adsi\iadssecuritydescriptor.htm
 tech.root: ADSI
 ms.assetid: c77547ab-e666-4d72-b8ef-4b2f3d61ad38
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADsSecurityUtility, IADsSecurityDescriptor, IADsSecurityDescriptor interface [ADSI], IADsSecurityDescriptor interface [ADSI],described, _ds_iadssecuritydescriptor, adsi.iadssecuritydescriptor, iads/IADsSecurityDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

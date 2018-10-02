@@ -4,10 +4,10 @@ title: IAssociatedIdentityProvider
 author: windows-sdk-content
 description: Allows an identity provider to associate identities with local user accounts.
 old-location: security\iassociatedidentityprovider.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 007d5daf-f0cf-4bfb-bd87-bb949bf90126
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IAssociatedIdentityProvider, IAssociatedIdentityProvider interface [Security], IAssociatedIdentityProvider interface [Security],described, identityprovider/IAssociatedIdentityProvider, identitystore/IAssociatedIdentityProvider, security.iassociatedidentityprovider
 ms.prod: windows
 ms.technology: windows-sdk

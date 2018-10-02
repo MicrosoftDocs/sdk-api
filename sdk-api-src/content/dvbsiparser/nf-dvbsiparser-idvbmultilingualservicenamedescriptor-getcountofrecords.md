@@ -4,10 +4,10 @@ title: IDvbMultilingualServiceNameDescriptor::GetCountOfRecords
 author: windows-sdk-content
 description: Gets the number of service records in a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getcountofrecords.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c157e520-696f-45d8-8e43-0e6845882404
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbMultilingualServiceNameDescriptor.GetCountOfRecords, IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, mstv.idvbmultilingualservicenamedescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

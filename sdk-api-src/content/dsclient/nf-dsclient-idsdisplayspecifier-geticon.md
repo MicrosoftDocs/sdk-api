@@ -4,10 +4,10 @@ title: IDsDisplaySpecifier::GetIcon
 author: windows-sdk-content
 description: The IDsDisplaySpecifier::GetIcon method obtains the icon for a given object class.
 old-location: ad\idsdisplayspecifier_geticon.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 7057779b-4176-41a3-bc7e-0d6958baf245
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISMASK, DSGIF_ISNORMAL, DSGIF_ISOPEN, GetIcon, GetIcon method [Active Directory], GetIcon method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetIcon method, IDsDisplaySpecifier.GetIcon, IDsDisplaySpecifier::GetIcon, _glines_idsdisplayspecifier_geticon, ad.idsdisplayspecifier__geticon, ad.idsdisplayspecifier_geticon, dsclient/IDsDisplaySpecifier::GetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

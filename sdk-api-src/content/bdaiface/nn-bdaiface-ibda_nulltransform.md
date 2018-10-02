@@ -4,10 +4,10 @@ title: IBDA_NullTransform
 author: windows-sdk-content
 description: The IBDA_NullTransform interface is implemented on all BDA device filters.
 old-location: mstv\ibda_nulltransform.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f13350cb-5064-405d-aeb6-25f684d0bdbb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_NullTransform, IBDA_NullTransform interface [Microsoft TV Technologies], IBDA_NullTransform interface [Microsoft TV Technologies],described, IBDA_NullTransformInterface, bdaiface/IBDA_NullTransform, mstv.ibda_nulltransform
 ms.prod: windows
 ms.technology: windows-sdk

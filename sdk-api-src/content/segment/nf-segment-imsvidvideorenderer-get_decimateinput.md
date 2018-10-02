@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::get_DecimateInput
 author: windows-sdk-content
 description: The get_DecimateInput method queries whether the Video Mixing Renderer (VMR) is currently configured to decimate the video (that is, reduce the native video size) before processing it.
 old-location: mstv\imsvidvideorenderer_get_decimateinput.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1f533b85-175b-4381-b7a9-eac0d8e313ed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_DecimateInput method, IMSVidVideoRenderer.get_DecimateInput, IMSVidVideoRenderer::get_DecimateInput, IMSVidVideoRendererget_DecimateInput, get_DecimateInput, get_DecimateInput method [Microsoft TV Technologies], get_DecimateInput method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_decimateinput, segment/IMSVidVideoRenderer::get_DecimateInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

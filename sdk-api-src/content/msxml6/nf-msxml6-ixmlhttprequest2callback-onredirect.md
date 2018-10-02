@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2callback_onredirect.htm
 tech.root: ixhr2
 ms.assetid: 8492FFD5-99C8-4545-B5FD-465CC01D0038
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnRedirect method, IXMLHTTPRequest2Callback.OnRedirect, IXMLHTTPRequest2Callback::OnRedirect, OnRedirect, OnRedirect method [XMLHttpRequest2], OnRedirect method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onredirect, msxml6/IXMLHTTPRequest2Callback::OnRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

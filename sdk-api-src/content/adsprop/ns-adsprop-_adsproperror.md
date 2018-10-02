@@ -4,10 +4,10 @@ title: "_ADSPROPERROR"
 author: windows-sdk-content
 description: The ADSPROPERROR structure is used to pass error data to the notification object with the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR message.
 old-location: ad\adsproperror.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 584cb3e7-3b26-4346-9162-b3e3064ded1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Directory], PADSPROPERROR, PADSPROPERROR structure pointer [Active Directory], _ADSPROPERROR, _glines_adsproperror, ad.adsproperror, adsprop/ADSPROPERROR, adsprop/PADSPROPERROR"
 ms.prod: windows
 ms.technology: windows-sdk

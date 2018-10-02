@@ -4,10 +4,10 @@ title: IStaticPortMapping::EditInternalClient
 author: windows-sdk-content
 description: The EditInternalClient method sets the internal client property of this port mapping to the specified value.
 old-location: ics\istaticportmapping_editinternalclient.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 864d0edf-c9fd-4ea0-b950-119dc4a630dc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: EditInternalClient, EditInternalClient method [ICS/ICF], EditInternalClient method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalClient method, IStaticPortMapping.EditInternalClient, IStaticPortMapping::EditInternalClient, _ics_istaticportmapping_editinternalclient, ics.istaticportmapping_editinternalclient, natupnp/IStaticPortMapping::EditInternalClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

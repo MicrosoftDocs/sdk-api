@@ -7,7 +7,7 @@ old-location: rras\rtmupdateandunlockroute.htm
 tech.root: RRAS
 ms.assetid: 917e3e90-b06b-410d-8456-d76e2baa76f8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RtmUpdateAndUnlockRoute, RtmUpdateAndUnlockRoute function [RAS], _rtmv2ref_rtmupdateandunlockroute, rras.rtmupdateandunlockroute, rtmv2/RtmUpdateAndUnlockRoute
 ms.prod: windows-hardware
 ms.technology: windows-devices

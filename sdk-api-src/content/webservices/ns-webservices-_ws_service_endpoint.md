@@ -7,7 +7,7 @@ old-location: wsw\ws_service_endpoint.htm
 tech.root: wsw
 ms.assetid: 6b15fc3f-5e4b-4eb3-b337-0170b0ca746f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_SERVICE_ENDPOINT, WS_SERVICE_ENDPOINT structure [Web Services for Windows], _WS_SERVICE_ENDPOINT, webservices/WS_SERVICE_ENDPOINT, wsw.ws_service_endpoint
 ms.prod: windows
 ms.technology: windows-sdk

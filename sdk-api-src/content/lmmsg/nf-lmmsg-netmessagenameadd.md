@@ -4,10 +4,10 @@ title: NetMessageNameAdd function
 author: windows-sdk-content
 description: The NetMessageNameAdd function registers a message alias in the message name table. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenameadd.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 5330e883-5439-46af-b4ae-b0926feadb70
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management], _win32_netmessagenameadd, lmmsg/NetMessageNameAdd, netmgmt.netmessagenameadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

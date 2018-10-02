@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10stateblockmaskenableall.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskenableall.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 616dd4e2-841d-9b31-8251-b729947c2c0f, D3D10StateBlockMaskEnableAll, D3D10StateBlockMaskEnableAll function [Direct3D 10], d3d10effect/D3D10StateBlockMaskEnableAll, direct3d10.d3d10stateblockmaskenableall
 ms.prod: windows-hardware
 ms.technology: windows-devices

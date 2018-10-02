@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_setvideo_parms.htm
 tech.root: Multimedia
 ms.assetid: 1ecc41b9-6c09-4ebb-b14a-e4044df3b5b7
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPMCI_DGV_SETVIDEO_PARMSA, MCI_DGV_SETVIDEO_PARMS, MCI_DGV_SETVIDEO_PARMS structure [Windows Multimedia], MCI_DGV_SETVIDEO_PARMSA, _win32_MCI_DGV_SETVIDEO_PARMS_str, digitalv/MCI_DGV_SETVIDEO_PARMS, multimedia.mci_dgv_setvideo_parms"
 ms.prod: windows
 ms.technology: windows-sdk

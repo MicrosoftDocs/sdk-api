@@ -4,10 +4,10 @@ title: SHLocalStrDupA function
 author: windows-sdk-content
 description: Makes a copy of a string in newly allocated memory.
 old-location: shell\SHLocalStrDup.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 79da6160-b1b1-41c3-9b21-229aadf251dd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHLocalStrDup, SHLocalStrDup function [Windows Shell], SHLocalStrDupA, SHLocalStrDupW, _shell_SHLocalStrDup, shell.SHLocalStrDup, shlwapi/SHLocalStrDup, shlwapi/SHLocalStrDupA, shlwapi/SHLocalStrDupW
 ms.prod: windows-hardware
 ms.technology: windows-devices

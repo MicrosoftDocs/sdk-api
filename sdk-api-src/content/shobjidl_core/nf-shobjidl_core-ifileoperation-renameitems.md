@@ -4,10 +4,10 @@ title: IFileOperation::RenameItems
 author: windows-sdk-content
 description: Declares a set of items that are to be given a new display name. All items are given the same name.
 old-location: shell\IFileOperation_RenameItems.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 325c09c6-ae32-4f5d-8b21-174dafc94aea
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileOperation interface [Windows Shell],RenameItems method, IFileOperation.RenameItems, IFileOperation::RenameItems, RenameItems, RenameItems method [Windows Shell], RenameItems method [Windows Shell],IFileOperation interface, _shell_IFileOperation_RenameItems, shell.IFileOperation_RenameItems, shobjidl_core/IFileOperation::RenameItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

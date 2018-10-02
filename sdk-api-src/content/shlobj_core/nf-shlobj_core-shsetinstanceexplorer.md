@@ -4,10 +4,10 @@ title: SHSetInstanceExplorer function
 author: windows-sdk-content
 description: Provides an interface that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.
 old-location: shell\SHSetInstanceExplorer.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 86f29587-8347-4e88-87bc-83ef2b8a7728
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHSetInstanceExplorer, SHSetInstanceExplorer function [Windows Shell], _win32_SHSetInstanceExplorer, shell.SHSetInstanceExplorer, shlobj_core/SHSetInstanceExplorer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CLIPOBJ_bEnum function
 author: windows-sdk-content
 description: The CLIPOBJ_bEnum function enumerates a batch of rectangles from a specified clip region; a prior call to CLIPOBJ_cEnumStart determines the order of enumeration.
 old-location: display\clipobj_benum.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: CLIPOBJ_bEnum, CLIPOBJ_bEnum function [Display Devices], display.clipobj_benum, gdifncs_8f383214-6bb4-4099-bdf7-c019a28ef8ac.xml, winddi/CLIPOBJ_bEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

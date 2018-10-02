@@ -4,10 +4,10 @@ title: DRMGetRightInfo function
 author: windows-sdk-content
 description: Obtains information about a previously created right.
 old-location: rm\drmgetrightinfo.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 54581da2-d3d1-44ee-936a-568b7d66143b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMGetRightInfo, DRMGetRightInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRightInfo, rm.drmgetrightinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

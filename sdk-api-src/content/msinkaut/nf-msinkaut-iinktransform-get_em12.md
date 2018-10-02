@@ -7,7 +7,7 @@ old-location: tablet\inktransform_em12.htm
 tech.root: tablet
 ms.assetid: e0cfcd30-49b7-457f-8e1f-faa433b4e8ef
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: IInkTransform interface [Tablet PC],eM12 property, IInkTransform.eM12, IInkTransform.get_eM12, IInkTransform::eM12, IInkTransform::get_eM12, IInkTransform::put_eM12, InkTransform.get_eM12, InkTransform.put_eM12, e0cfcd30-49b7-457f-8e1f-faa433b4e8ef, eM12 property [Tablet PC], eM12 property [Tablet PC],IInkTransform interface, get_eM12, msinkaut/IInkTransform::eM12, msinkaut/IInkTransform::get_eM12, msinkaut/IInkTransform::put_eM12, put_eM12, tablet.inktransform_em12
 ms.prod: windows-hardware
 ms.technology: windows-devices

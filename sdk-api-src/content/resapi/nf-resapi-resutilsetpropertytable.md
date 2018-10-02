@@ -4,10 +4,10 @@ title: ResUtilSetPropertyTable function
 author: windows-sdk-content
 description: Sets properties in the cluster database based on a property list from a property table..
 old-location: mscs\resutilsetpropertytable.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 79d8acfa-fc5d-4810-9775-d5f065d93d6f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE, PRESUTIL_SET_PROPERTY_TABLE function [Failover Cluster], ResUtilSetPropertyTable, ResUtilSetPropertyTable function [Failover Cluster], _wolf_resutilsetpropertytable, mscs.resutilsetpropertytable, resapi/PRESUTIL_SET_PROPERTY_TABLE, resapi/ResUtilSetPropertyTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

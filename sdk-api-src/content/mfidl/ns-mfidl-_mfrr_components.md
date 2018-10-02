@@ -4,10 +4,10 @@ title: "_MFRR_COMPONENTS"
 author: windows-sdk-content
 description: Contains information about one or more revoked components.
 old-location: mf\mfrr_components.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: df12e64b-92e3-4446-bade-3ad55cbedf51
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: "*PMFRR_COMPONENTS, MFRR_COMPONENTS, MFRR_COMPONENTS structure [Media Foundation], PMFRR_COMPONENTS, PMFRR_COMPONENTS structure pointer [Media Foundation], _MFRR_COMPONENTS, df12e64b-92e3-4446-bade-3ad55cbedf51, mf.mfrr_components, mfidl/MFRR_COMPONENTS, mfidl/PMFRR_COMPONENTS"
 ms.prod: windows
 ms.technology: windows-sdk

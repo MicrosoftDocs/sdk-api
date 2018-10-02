@@ -4,10 +4,10 @@ title: IMSVidRect::put_Left
 author: windows-sdk-content
 description: The put_Left method specifies the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_left.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8e61fd8a-9ea0-48c1-8749-780b0363c12d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Left method, IMSVidRect.put_Left, IMSVidRect::put_Left, IMSVidRectput_Left, mstv.imsvidrect_put_left, put_Left, put_Left method [Microsoft TV Technologies], put_Left method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Left
 ms.prod: windows-hardware
 ms.technology: windows-devices

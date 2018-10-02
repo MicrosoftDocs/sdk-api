@@ -4,10 +4,10 @@ title: IToolbar::GetButtonState
 author: windows-sdk-content
 description: Enables a snap-in to obtain an attribute of a button.
 old-location: mmc\itoolbar_getbuttonstate.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 94c41b13-f1ab-4368-8cfa-960caeea796e
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, GetButtonState, GetButtonState method [MMC], GetButtonState method [MMC],IToolbar interface, HIDDEN, INDETERMINATE, IToolbar interface [MMC],GetButtonState method, IToolbar.GetButtonState, IToolbar::GetButtonState, _slate_itoolbar_getbuttonstate, mmc.itoolbar_getbuttonstate, mmc/IToolbar::GetButtonState
 ms.prod: windows-hardware
 ms.technology: windows-devices

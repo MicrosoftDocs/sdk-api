@@ -7,7 +7,7 @@ old-location: controls\itextpara2_gettrimpunctuationatstart.htm
 tech.root: controls
 ms.assetid: 965df0ef-b8ff-4d0e-8124-c811e74e0208
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: GetTrimPunctuationAtStart, GetTrimPunctuationAtStart method [Windows Controls], GetTrimPunctuationAtStart method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetTrimPunctuationAtStart method, ITextPara2.GetTrimPunctuationAtStart, ITextPara2::GetTrimPunctuationAtStart, controls.itextpara2_gettrimpunctuationatstart, tom/ITextPara2::GetTrimPunctuationAtStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ReadOnlyEnlistment function
 author: windows-sdk-content
 description: Requests that the specified enlistment be converted to a read-only enlistment. A read-only enlistment cannot participate in the outcome of the transaction and is not durably recorded for recovery.
 old-location: fs\readonlyenlistment.htm
-tech.root: ktm
+tech.root: Ktm
 ms.assetid: a6411fad-8ad0-4a31-9e09-0c18dd384634
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonlyenlistment, ktmw32/ReadOnlyEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

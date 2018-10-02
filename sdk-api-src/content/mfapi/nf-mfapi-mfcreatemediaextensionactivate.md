@@ -4,10 +4,10 @@ title: MFCreateMediaExtensionActivate function
 author: windows-sdk-content
 description: Creates an activation object for a Windows Runtime class.
 old-location: mf\mfcreatemediaextensionactivate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3F9538F2-DB7A-4841-B61D-C59BC02718B1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateMediaExtensionActivate, MFCreateMediaExtensionActivate function [Media Foundation], mf.mfcreatemediaextensionactivate, mf.mfcreatewinrtactivate, mfapi/MFCreateMediaExtensionActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

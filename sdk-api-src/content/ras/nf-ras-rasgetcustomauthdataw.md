@@ -7,7 +7,7 @@ old-location: rras\rasgetcustomauthdata.htm
 tech.root: RRAS
 ms.assetid: 626d372c-4da8-4c79-92dd-9cc5b4b8a618
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RasGetCustomAuthData, RasGetCustomAuthData function [RAS], RasGetCustomAuthDataA, RasGetCustomAuthDataW, _ras_rasgetcustomauthdata, ras/RasGetCustomAuthData, ras/RasGetCustomAuthDataA, ras/RasGetCustomAuthDataW, rras.rasgetcustomauthdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

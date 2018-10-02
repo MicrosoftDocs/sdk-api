@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile_getstreamcount.htm
 tech.root: wmformat
 ms.assetid: 49534bc3-9115-422b-b448-b6f9c6ec1c47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetStreamCount, GetStreamCount method [windows Media Format], GetStreamCount method [windows Media Format],IWMProfile interface, GetStreamCount method [windows Media Format],IWMProfile2 interface, GetStreamCount method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetStreamCount method, IWMProfile.GetStreamCount, IWMProfile2 interface [windows Media Format],GetStreamCount method, IWMProfile2::GetStreamCount, IWMProfile3 interface [windows Media Format],GetStreamCount method, IWMProfile3::GetStreamCount, IWMProfile::GetStreamCount, IWMProfileGetStreamCount, wmformat.iwmprofile_getstreamcount, wmsdkidl/IWMProfile2::GetStreamCount, wmsdkidl/IWMProfile3::GetStreamCount, wmsdkidl/IWMProfile::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

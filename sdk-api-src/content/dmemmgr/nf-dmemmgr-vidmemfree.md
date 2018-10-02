@@ -4,10 +4,10 @@ title: VidMemFree function
 author: windows-sdk-content
 description: The VidMemFree function frees off-screen memory allocated for a display driver by HeapVidMemAllocAligned.
 old-location: display\vidmemfree.htm
-tech.root: display
+tech.root: Display
 ms.assetid: f1d3b5a0-f1e3-4977-8081-839b4e36971f
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: VidMemFree, VidMemFree function [Display Devices], display.vidmemfree, dmemmgr/VidMemFree, gdifncs_a3a43790-1189-4c79-965c-aa20f04c7405.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

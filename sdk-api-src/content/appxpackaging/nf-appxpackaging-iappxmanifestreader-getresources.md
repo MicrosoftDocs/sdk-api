@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader_getresources.htm
 tech.root: appxpkg
 ms.assetid: 2F0109C2-99F5-4AEE-9596-153764FA8FA3
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: GetResources, GetResources method [App packaging and management], GetResources method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetResources method, IAppxManifestReader.GetResources, IAppxManifestReader::GetResources, appxpackaging/IAppxManifestReader::GetResources, appxpkg.iappxmanifestreader_getresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

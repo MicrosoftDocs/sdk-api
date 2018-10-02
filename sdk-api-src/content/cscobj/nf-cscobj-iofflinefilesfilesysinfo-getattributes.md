@@ -4,10 +4,10 @@ title: IOfflineFilesFileSysInfo::GetAttributes
 author: windows-sdk-content
 description: Retrieves the Win32 attributes for an item.
 old-location: of\iofflinefilesfilesysinfo_getattributes.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 5bf8a834-cd5e-46b9-9b7d-b5cc6fb9fe10
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetAttributes, GetAttributes method [Offline Files], GetAttributes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetAttributes method, IOfflineFilesFileSysInfo.GetAttributes, IOfflineFilesFileSysInfo::GetAttributes, cscobj/IOfflineFilesFileSysInfo::GetAttributes, of.iofflinefilesfilesysinfo_getattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

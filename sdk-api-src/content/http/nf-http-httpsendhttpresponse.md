@@ -4,10 +4,10 @@ title: HttpSendHttpResponse function
 author: windows-sdk-content
 description: Sends an HTTP response to the specified HTTP request.
 old-location: http\httpsendhttpresponse.htm
-tech.root: http
+tech.root: Http
 ms.assetid: 0183584f-105e-4fa3-8991-d3f2dfca1d62
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCONNECT, HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING, HTTP_SEND_RESPONSE_FLAG_MORE_DATA, HTTP_SEND_RESPONSE_FLAG_OPAQUE, HTTP_SEND_RESPONSE_FLAG_PROCESS_RANGES, HttpSendHttpResponse, HttpSendHttpResponse function [HTTP], _http_httpsendhttpresponse, http.httpsendhttpresponse, http/HttpSendHttpResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices

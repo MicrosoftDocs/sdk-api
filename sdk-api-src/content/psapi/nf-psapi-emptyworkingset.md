@@ -7,7 +7,7 @@ old-location: psapi\emptyworkingset.htm
 tech.root: psapi
 ms.assetid: 76f2252e-7305-46b0-b1af-40ac084e6696
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EmptyWorkingSet, EmptyWorkingSet function [PSAPI], K32EmptyWorkingSet, _win32_emptyworkingset, base.emptyworkingset, psapi.emptyworkingset, psapi/EmptyWorkingSet, psapi/K32EmptyWorkingSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

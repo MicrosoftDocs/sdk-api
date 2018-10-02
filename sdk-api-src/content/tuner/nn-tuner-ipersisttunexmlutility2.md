@@ -4,10 +4,10 @@ title: IPersistTuneXmlUtility2
 author: windows-sdk-content
 description: Defines utility methods for serializing tuning requests (objects that implement the ITuneRequest interface) to XML tuning request strings.
 old-location: mstv\ipersisttunexmlutility2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d909d505-2ae9-4488-b4c1-42ca32661bf3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPersistTuneXmlUtility2, IPersistTuneXmlUtility2 interface [Microsoft TV Technologies], IPersistTuneXmlUtility2 interface [Microsoft TV Technologies],described, mstv.ipersisttunexmlutility2, tuner/IPersistTuneXmlUtility2
 ms.prod: windows
 ms.technology: windows-sdk

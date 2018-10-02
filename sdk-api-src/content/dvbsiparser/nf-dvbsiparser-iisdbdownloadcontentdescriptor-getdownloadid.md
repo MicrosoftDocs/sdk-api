@@ -4,10 +4,10 @@ title: IIsdbDownloadContentDescriptor::GetDownloadId
 author: windows-sdk-content
 description: Gets the download identifier from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The download identifier identifies an application number for the download.
 old-location: mstv\iisdbdownloadcontentdescriptor_getdownloadid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b57eba56-b9d6-4555-8d5d-80fd2b9fd23f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetDownloadId, GetDownloadId method [Microsoft TV Technologies], GetDownloadId method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetDownloadId method, IIsdbDownloadContentDescriptor.GetDownloadId, IIsdbDownloadContentDescriptor::GetDownloadId, dvbsiparser/IIsdbDownloadContentDescriptor::GetDownloadId, mstv.iisdbdownloadcontentdescriptor_getdownloadid
 ms.prod: windows-hardware
 ms.technology: windows-devices

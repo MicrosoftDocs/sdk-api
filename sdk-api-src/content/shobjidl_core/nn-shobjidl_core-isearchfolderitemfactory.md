@@ -4,10 +4,10 @@ title: ISearchFolderItemFactory
 author: windows-sdk-content
 description: Exposes methods that create and modify search folders.
 old-location: shell\ISearchFolderItemFactory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a684b373-6de4-4b4a-bbae-85e1c5a7e04a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISearchFolderItemFactory, ISearchFolderItemFactory interface [Windows Shell], ISearchFolderItemFactory interface [Windows Shell],described, _shell_ISearchFolderItemFactory, shell.ISearchFolderItemFactory, shobjidl_core/ISearchFolderItemFactory
 ms.prod: windows
 ms.technology: windows-sdk

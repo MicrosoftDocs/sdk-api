@@ -4,10 +4,10 @@ title: ISdoMachine::GetAttachedComputer
 author: windows-sdk-content
 description: The GetAttachedComputer method retrieves the name of the computer that is currently attached as an SDO computer.
 old-location: nps\SDO_isdomachine_getattachedcomputer.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: ac2fe3e3-a1cb-4642-90af-2b0203e29251
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetAttachedComputer, GetAttachedComputer method [Network Policy Server], GetAttachedComputer method [Network Policy Server],ISdoMachine interface, GetAttachedComputer method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetAttachedComputer method, ISdoMachine.GetAttachedComputer, ISdoMachine::GetAttachedComputer, SdoMachine object [Network Policy Server],GetAttachedComputer method, _sdo_isdomachine_getattachedcomputer, nps.SDO_isdomachine_getattachedcomputer, sdo.isdomachine_getattachedcomputer, sdoias/ISdoMachine::GetAttachedComputer
 ms.prod: windows-hardware
 ms.technology: windows-devices

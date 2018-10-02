@@ -4,10 +4,10 @@ title: IParentAndItem::GetParentAndItem
 author: windows-sdk-content
 description: Gets the parent of an item and the parent's child ID.
 old-location: shell\IParentAndItem_GetParentAndItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 351ad043-949c-46e1-a6cd-bcc15016f42a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetParentAndItem, GetParentAndItem method [Windows Shell], GetParentAndItem method [Windows Shell],IParentAndItem interface, IParentAndItem interface [Windows Shell],GetParentAndItem method, IParentAndItem.GetParentAndItem, IParentAndItem::GetParentAndItem, _shell_IParentAndItem_GetParentAndItem, shell.IParentAndItem_GetParentAndItem, shobjidl_core/IParentAndItem::GetParentAndItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

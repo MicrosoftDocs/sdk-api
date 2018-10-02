@@ -4,10 +4,10 @@ title: SHGetItemFromDataObject function
 author: windows-sdk-content
 description: Creates an IShellItem or related object based on an item specified by an IDataObject.
 old-location: shell\SHGetItemFromDataObject.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1d7b9ffa-9980-4d68-85e4-7bab667be168
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetItemFromDataObject, SHGetItemFromDataObject function [Windows Shell], _shell_SHGetItemFromDataObject, shell.SHGetItemFromDataObject, shobjidl_core/SHGetItemFromDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

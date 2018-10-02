@@ -7,7 +7,7 @@ old-location: websock\websocketcreateserverhandle.htm
 tech.root: WebSock
 ms.assetid: f8c44a86-c586-48e3-b948-ed119bebf951
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WebSocketCreateServerHandle, WebSocketCreateServerHandle function [Websocket Protocol Component API], websock.websocketcreateserverhandle, websocket/WebSocketCreateServerHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

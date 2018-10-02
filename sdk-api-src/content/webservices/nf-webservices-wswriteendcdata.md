@@ -7,7 +7,7 @@ old-location: wsw\wswriteendcdata.htm
 tech.root: wsw
 ms.assetid: 7b8c27b8-4540-4d47-9622-904428233d30
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsWriteEndCData, WsWriteEndCData function [Web Services for Windows], webservices/WsWriteEndCData, wsw.wswriteendcdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7ns8.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxEventLogging interface [Fax Service],Refresh method, IFaxEventLogging.Refresh, IFaxEventLogging::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxEventLogging interface, _mfax_faxeventlogging.refresh, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp, fax._mfax_faxeventlogging_refresh, faxcomex/IFaxEventLogging::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

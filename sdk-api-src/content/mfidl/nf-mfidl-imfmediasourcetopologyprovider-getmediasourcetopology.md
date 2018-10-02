@@ -4,10 +4,10 @@ title: IMFMediaSourceTopologyProvider::GetMediaSourceTopology
 author: windows-sdk-content
 description: Returns a topology for a media source that builds an internal topology.
 old-location: mf\imfmediasourcetopologyprovider_getmediasourcetopology.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3889768a-27bb-422e-912b-80546b6017fb
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology, GetMediaSourceTopology method [Media Foundation], GetMediaSourceTopology method [Media Foundation],IMFMediaSourceTopologyProvider interface, IMFMediaSourceTopologyProvider interface [Media Foundation],GetMediaSourceTopology method, IMFMediaSourceTopologyProvider.GetMediaSourceTopology, IMFMediaSourceTopologyProvider::GetMediaSourceTopology, mf.imfmediasourcetopologyprovider_getmediasourcetopology, mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

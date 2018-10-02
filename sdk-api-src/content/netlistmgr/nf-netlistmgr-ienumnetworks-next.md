@@ -4,10 +4,10 @@ title: IEnumNetworks::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworks_next.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 5ee2501c-502e-448e-8635-c8bf9d169ebb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Next method, IEnumNetworks.Next, IEnumNetworks::Next, Next, Next method [Network Awareness], Next method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Next, nla.ienumnetworks_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

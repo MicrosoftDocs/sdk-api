@@ -7,7 +7,7 @@ old-location: security\iaztask_bizrule.htm
 tech.root: SecAuthZ
 ms.assetid: cf3d87af-5320-4fe0-b513-e242f8a1dd1b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzTask object [Security],BizRule property, BizRule property [Security], BizRule property [Security],AzTask object, BizRule property [Security],IAzTask interface, IAzTask interface [Security],BizRule property, IAzTask.BizRule, IAzTask.put_BizRule, IAzTask::BizRule, IAzTask::get_BizRule, IAzTask::put_BizRule, azroles/IAzTask::BizRule, azroles/IAzTask::get_BizRule, azroles/IAzTask::put_BizRule, put_BizRule, security.iaztask_bizrule
 ms.prod: windows-hardware
 ms.technology: windows-devices

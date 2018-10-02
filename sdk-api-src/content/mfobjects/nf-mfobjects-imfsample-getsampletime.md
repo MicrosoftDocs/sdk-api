@@ -4,10 +4,10 @@ title: IMFSample::GetSampleTime
 author: windows-sdk-content
 description: Retrieves the presentation time of the sample.
 old-location: mf\imfsample_getsampletime.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: fc4aac9e-e7a9-43f0-af7b-54a39666044a
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetSampleTime, GetSampleTime method [Media Foundation], GetSampleTime method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleTime method, IMFSample.GetSampleTime, IMFSample::GetSampleTime, fc4aac9e-e7a9-43f0-af7b-54a39666044a, mf.imfsample_getsampletime, mfobjects/IMFSample::GetSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

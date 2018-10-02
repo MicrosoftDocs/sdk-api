@@ -7,7 +7,7 @@ old-location: automat\dispinvoke.htm
 tech.root: automat
 ms.assetid: 69b89e5c-2a04-4a6a-beb0-18e68f8866ac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, DispInvoke, DispInvoke function [Automation], _oa96_DispInvoke, automat.dispinvoke, oleauto/DispInvoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

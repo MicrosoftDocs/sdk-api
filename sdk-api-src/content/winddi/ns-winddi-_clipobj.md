@@ -4,10 +4,10 @@ title: "_CLIPOBJ"
 author: windows-sdk-content
 description: The CLIPOBJ structure describes the clip region used when drawing.
 old-location: display\clipobj.htm
-tech.root: display
+tech.root: Display
 ms.assetid: c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: CLIPOBJ, CLIPOBJ structure [Display Devices], _CLIPOBJ, display.clipobj, grstrcts_028034f6-2370-4e77-be77-7bc8e9ee8504.xml, winddi/CLIPOBJ
 ms.prod: windows
 ms.technology: windows-sdk

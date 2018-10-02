@@ -4,10 +4,10 @@ title: BluetoothFindNextRadio function
 author: windows-sdk-content
 description: The BluetoothFindNextRadio function finds the next Bluetooth radio.
 old-location: bluetooth\bluetoothfindnextradio.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 7dd6b823-f9c6-4375-80b6-d59c4570c8fb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: BluetoothFindNextRadio, BluetoothFindNextRadio function [Bluetooth], bluetooth.bluetoothfindnextradio, bluetoothapis/BluetoothFindNextRadio
 ms.prod: windows-hardware
 ms.technology: windows-devices

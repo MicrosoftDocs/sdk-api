@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager_diagnosticspolicy.htm
 tech.root: Wds
 ms.assetid: 80a84495-724c-4198-8262-dcf8cabce3f0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DiagnosticsPolicy property [Windows Deployment Services], DiagnosticsPolicy property [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],DiagnosticsPolicy property, IWdsTransportConfigurationManager.DiagnosticsPolicy, IWdsTransportConfigurationManager.get_DiagnosticsPolicy, IWdsTransportConfigurationManager::DiagnosticsPolicy, IWdsTransportConfigurationManager::get_DiagnosticsPolicy, get_DiagnosticsPolicy, wds.iwdstransportconfigurationmanager_diagnosticspolicy, wdstptmgmt/IWdsTransportConfigurationManager::DiagnosticsPolicy, wdstptmgmt/IWdsTransportConfigurationManager::get_DiagnosticsPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

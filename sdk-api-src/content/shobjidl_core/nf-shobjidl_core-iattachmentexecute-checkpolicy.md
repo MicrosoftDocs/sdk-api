@@ -4,10 +4,10 @@ title: IAttachmentExecute::CheckPolicy
 author: windows-sdk-content
 description: Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.
 old-location: shell\IAttachmentExecute_CheckPolicy.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ff6a0aa8-4d14-4074-b084-be117b01c77a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CheckPolicy, CheckPolicy method [Windows Shell], CheckPolicy method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],CheckPolicy method, IAttachmentExecute.CheckPolicy, IAttachmentExecute::CheckPolicy, _win32_IAttachmentExecute_CheckPolicy, shell.IAttachmentExecute_CheckPolicy, shobjidl_core/IAttachmentExecute::CheckPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

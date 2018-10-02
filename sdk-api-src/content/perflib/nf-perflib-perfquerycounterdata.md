@@ -4,10 +4,10 @@ title: PerfQueryCounterData function
 author: windows-sdk-content
 description: Gets the values of the performance counters that match the counter specifications in the specified query.
 old-location: perf\perfquerycounterdata.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: PerfQueryCounterData, PerfQueryCounterData function [Perf], perf.perfquerycounterdata, perflib/PerfQueryCounterData
 ms.prod: windows-hardware
 ms.technology: windows-devices

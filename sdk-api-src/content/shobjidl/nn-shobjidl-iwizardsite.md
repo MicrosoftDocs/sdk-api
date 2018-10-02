@@ -4,10 +4,10 @@ title: IWizardSite
 author: windows-sdk-content
 description: Exposes methods used by a wizard extension to navigate the borders between itself and the rest of the wizard.
 old-location: shell\IWizardSite.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4c366f9c-d774-4390-8f43-8c25f86e3c35
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
 ms.prod: windows
 ms.technology: windows-sdk

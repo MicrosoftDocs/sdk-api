@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_updatecache.htm
 tech.root: SecAuthZ
 ms.assetid: 1fd17040-f736-44a6-8a01-720f4c8fe9ac
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzAuthorizationStore object [Security],UpdateCache method, IAzAuthorizationStore interface [Security],UpdateCache method, IAzAuthorizationStore.UpdateCache, IAzAuthorizationStore::UpdateCache, UpdateCache, UpdateCache method [Security], UpdateCache method [Security],AzAuthorizationStore object, UpdateCache method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::UpdateCache, security.azauthorizationstore_updatecache
 ms.prod: windows-hardware
 ms.technology: windows-devices

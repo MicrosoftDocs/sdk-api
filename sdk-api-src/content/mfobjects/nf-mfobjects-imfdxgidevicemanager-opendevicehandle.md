@@ -4,10 +4,10 @@ title: IMFDXGIDeviceManager::OpenDeviceHandle
 author: windows-sdk-content
 description: Gets a handle to the Microsoft Direct3D device.
 old-location: mf\imfdxgidevicemanager_opendevicehandle.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: B025DF73-1F85-46F3-9AD4-2385BD515DDD
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],OpenDeviceHandle method, IMFDXGIDeviceManager.OpenDeviceHandle, IMFDXGIDeviceManager::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_opendevicehandle, mfobjects/IMFDXGIDeviceManager::OpenDeviceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

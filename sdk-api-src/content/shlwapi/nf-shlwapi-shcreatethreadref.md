@@ -4,10 +4,10 @@ title: SHCreateThreadRef function
 author: windows-sdk-content
 description: Creates a per-thread reference to a Component Object Model (COM) object.
 old-location: shell\SHCreateThreadRef.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6abca2df-832c-410b-93c7-5131e481e595
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateThreadRef, SHCreateThreadRef function [Windows Shell], _shell_SHCreateThreadRef, shell.SHCreateThreadRef, shlwapi/SHCreateThreadRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

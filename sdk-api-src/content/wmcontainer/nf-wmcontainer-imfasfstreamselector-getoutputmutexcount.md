@@ -4,10 +4,10 @@ title: IMFASFStreamSelector::GetOutputMutexCount
 author: windows-sdk-content
 description: Retrieves the number of mutual exclusion objects associated with an output.
 old-location: mf\imfasfstreamselector_getoutputmutexcount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d6e98595-3307-47f5-806d-796350c78cec
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetOutputMutexCount, GetOutputMutexCount method [Media Foundation], GetOutputMutexCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputMutexCount method, IMFASFStreamSelector.GetOutputMutexCount, IMFASFStreamSelector::GetOutputMutexCount, d6e98595-3307-47f5-806d-796350c78cec, mf.imfasfstreamselector_getoutputmutexcount, wmcontainer/IMFASFStreamSelector::GetOutputMutexCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetClusterNetInterface function
 author: windows-sdk-content
 description: Returns the name of a node's interface to a network in a cluster.
 old-location: mscs\getclusternetinterface.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b9bca010-7401-4a2f-95df-a5d0ef3dbfae
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetClusterNetInterface, GetClusterNetInterface function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NET_INTERFACE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_getclusternetinterface, clusapi/GetClusterNetInterface, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE, mscs.getclusternetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

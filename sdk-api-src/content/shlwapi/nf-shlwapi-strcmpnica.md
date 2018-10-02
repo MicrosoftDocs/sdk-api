@@ -4,10 +4,10 @@ title: StrCmpNICA function
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive.
 old-location: shell\StrCmpNIC.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ed2e7df9-7f36-4566-8a3e-e3517307a584
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: StrCmpNIC, StrCmpNIC function [Windows Shell], StrCmpNICA, StrCmpNICW, _shell_StrCmpNIC, shell.StrCmpNIC, shlwapi/StrCmpNIC, shlwapi/StrCmpNICA, shlwapi/StrCmpNICW
 ms.prod: windows-hardware
 ms.technology: windows-devices

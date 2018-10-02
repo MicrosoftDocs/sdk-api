@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_ApplyEffect_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapapplyeffectmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ApplyEffect, ApplyEffect methods [GDI+], Bitmap.ApplyEffect, Bitmap.ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap), Bitmap::ApplyEffect, Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap), _gdiplus_CLASS_Bitmap_ApplyEffect_Methods, gdiplus._gdiplus_CLASS_Bitmap_ApplyEffect_Methods, gdiplusheaders/ApplyEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

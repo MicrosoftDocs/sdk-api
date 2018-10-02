@@ -7,7 +7,7 @@ old-location: xinput\xinput_state.htm
 tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_STATE
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PXINPUT_STATE, PXINPUT_STATE, PXINPUT_STATE structure pointer [XInput Game Controller APIs], XINPUT_STATE, XINPUT_STATE structure [XInput Game Controller APIs], _XINPUT_STATE, xinput.xinput_state, xinput/PXINPUT_STATE, xinput/XINPUT_STATE"
 ms.prod: windows
 ms.technology: windows-sdk

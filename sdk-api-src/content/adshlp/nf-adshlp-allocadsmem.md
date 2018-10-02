@@ -7,7 +7,7 @@ old-location: adsi\allocadsmem.htm
 tech.root: ADSI
 ms.assetid: df98a728-596b-4541-974a-5690e510ad9f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: AllocADsMem, AllocADsMem function [ADSI], _ds_allocadsmem, adshlp/AllocADsMem, adsi.allocadsmem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWorkspace2
 author: windows-sdk-content
 description: Exposes additional methods that provide information about a connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace2.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8155cd78-4c6b-47a9-a2c7-f9fffc95f700
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IWorkspace2, IWorkspace2 interface [Remote Desktop Services], IWorkspace2 interface [Remote Desktop Services],described, termserv.iworkspace2, workspaceruntime/IWorkspace2
 ms.prod: windows
 ms.technology: windows-sdk

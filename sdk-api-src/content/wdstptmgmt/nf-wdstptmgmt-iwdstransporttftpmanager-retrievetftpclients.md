@@ -7,7 +7,7 @@ old-location: wds\iwdstransporttftpclient_retrievetftpclients.htm
 tech.root: Wds
 ms.assetid: 48527950-A29D-4BC0-AD85-7B40E9C19133
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportTftpManager interface [Windows Deployment Services],RetrieveTftpClients method, IWdsTransportTftpManager.RetrieveTftpClients, IWdsTransportTftpManager::RetrieveTftpClients, RetrieveTftpClients, RetrieveTftpClients method [Windows Deployment Services], RetrieveTftpClients method [Windows Deployment Services],IWdsTransportTftpManager interface, wds.iwdstransporttftpclient_retrievetftpclients, wdstptmgmt/IWdsTransportTftpManager::RetrieveTftpClients
 ms.prod: windows-hardware
 ms.technology: windows-devices

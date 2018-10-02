@@ -4,10 +4,10 @@ title: ber_init function
 author: windows-sdk-content
 description: The ber_init function allocates a new BerElement structure containing the data taken from the supplied berval structure.
 old-location: ldap\ber_init.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: ad6557e9-1683-4ffd-a59e-8f37eb67d089
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ber_init, ber_init, ber_init function [LDAP], ldap.ber__init, ldap.ber_init, winber/ber_init"
 ms.prod: windows-hardware
 ms.technology: windows-devices

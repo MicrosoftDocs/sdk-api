@@ -4,10 +4,10 @@ title: IMFTimedTextCue::GetId
 author: windows-sdk-content
 description: Gets the identifier of a timed-text cue.
 old-location: mf\imftimedtextcue_getid.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: D096B1FA-E92F-4B09-9177-13203FF1704D
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetId method, IMFTimedTextCue.GetId, IMFTimedTextCue::GetId, mf.imftimedtextcue_getid, mfmediaengine/IMFTimedTextCue::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices

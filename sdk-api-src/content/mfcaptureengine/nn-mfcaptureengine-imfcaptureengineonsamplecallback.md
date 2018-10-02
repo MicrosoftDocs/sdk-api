@@ -4,10 +4,10 @@ title: IMFCaptureEngineOnSampleCallback
 author: windows-sdk-content
 description: Callback interface to receive data from the capture engine.
 old-location: mf\imfcaptureengineonsamplecallback.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7C621525-CCD2-45EC-9E7A-3A774B96EA6F
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback, IMFCaptureEngineOnSampleCallback interface [Media Foundation], IMFCaptureEngineOnSampleCallback interface [Media Foundation],described, mf.imfcaptureengineonsamplecallback, mfcaptureengine/IMFCaptureEngineOnSampleCallback
 ms.prod: windows
 ms.technology: windows-sdk

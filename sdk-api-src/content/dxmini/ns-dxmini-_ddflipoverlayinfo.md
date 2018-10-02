@@ -4,10 +4,10 @@ title: "_DDFLIPOVERLAYINFO"
 author: windows-sdk-content
 description: The DDFLIPOVERLAYINFO structure contains the flip information for the surface.
 old-location: display\ddflipoverlayinfo.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 04e4baba-4b6c-4f0a-8197-1fb2d83f53d6
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDDFLIPOVERLAYINFO, DDFLIPOVERLAYINFO, DDFLIPOVERLAYINFO structure [Display Devices], PDDFLIPOVERLAYINFO, PDDFLIPOVERLAYINFO structure pointer [Display Devices], Video_Structs_c9d5aaff-82e8-482e-b774-6c14f0fa8610.xml, _DDFLIPOVERLAYINFO, display.ddflipoverlayinfo, dxmini/DDFLIPOVERLAYINFO, dxmini/PDDFLIPOVERLAYINFO"
 ms.prod: windows
 ms.technology: windows-sdk

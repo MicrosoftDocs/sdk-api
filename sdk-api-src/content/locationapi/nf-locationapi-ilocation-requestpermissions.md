@@ -4,10 +4,10 @@ title: ILocation::RequestPermissions
 author: windows-sdk-content
 description: Opens a system dialog box to request user permission to enable location devices.
 old-location: winlocation_com_ref\ilocation_requestpermissions.htm
-tech.root: locationapi
+tech.root: LocationAPI
 ms.assetid: eef60203-8705-4f68-be30-c9e7938e5596
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: ILocation interface [WinLocation],RequestPermissions method, ILocation.RequestPermissions, ILocation::RequestPermissions, RequestPermissions, RequestPermissions method [WinLocation], RequestPermissions method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_requestpermissions, locationapi/ILocation::RequestPermissions
 ms.prod: windows-hardware
 ms.technology: windows-devices

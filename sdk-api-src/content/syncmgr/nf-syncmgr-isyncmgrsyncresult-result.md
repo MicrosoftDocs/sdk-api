@@ -4,10 +4,10 @@ title: ISyncMgrSyncResult::Result
 author: windows-sdk-content
 description: Gets the result of a StartHandlerSync or StartItemSync call.
 old-location: shell\ISyncMgrSyncResult_Result.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8ba7de05-0703-4bab-bf64-ae84f42fad69
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrSyncResult interface [Windows Shell],Result method, ISyncMgrSyncResult.Result, ISyncMgrSyncResult::Result, Result, Result method [Windows Shell], Result method [Windows Shell],ISyncMgrSyncResult interface, _shell_ISyncMgrSyncResult_Result, shell.ISyncMgrSyncResult_Result, syncmgr/ISyncMgrSyncResult::Result
 ms.prod: windows-hardware
 ms.technology: windows-devices

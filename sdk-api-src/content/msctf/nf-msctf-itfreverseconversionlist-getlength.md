@@ -7,7 +7,7 @@ old-location: tsf\itfreverseconversionlist_getlength.htm
 tech.root: TSF
 ms.assetid: 0cf59b02-486b-412b-a8c2-b8a6e8e50248
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetLength, GetLength method [Text Services Framework], GetLength method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetLength method, ITfReverseConversionList.GetLength, ITfReverseConversionList::GetLength, msctf/ITfReverseConversionList::GetLength, tsf.itfreverseconversionlist_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

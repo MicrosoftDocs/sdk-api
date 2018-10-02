@@ -7,7 +7,7 @@ old-location: security\slgathermigrationblob.htm
 tech.root: SecSLApi
 ms.assetid: 490a5dbd-8c4b-4b25-ae21-f5f58b97a58f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SLGatherMigrationBlob, SLGatherMigrationBlob function [Security], security.slgathermigrationblob, slpublic/SLGatherMigrationBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

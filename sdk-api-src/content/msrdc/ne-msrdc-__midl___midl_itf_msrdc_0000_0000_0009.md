@@ -7,7 +7,7 @@ old-location: rdc\rdccreatedtables.htm
 tech.root: Rdc
 ms.assetid: f46dd0f0-22b0-41fb-a7c2-29d1b4514f7e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RDCTABLE_Existing, RDCTABLE_InvalidOrUnknown, RDCTABLE_New, RdcCreatedTables, RdcCreatedTables enumeration [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0009, fs.rdccreatedtables, msrdc/RDCTABLE_Existing, msrdc/RDCTABLE_InvalidOrUnknown, msrdc/RDCTABLE_New, msrdc/RdcCreatedTables, rdc.rdccreatedtables
 ms.prod: windows
 ms.technology: windows-sdk

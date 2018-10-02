@@ -4,10 +4,10 @@ title: EngFntCacheAlloc function
 author: windows-sdk-content
 description: The EngFntCacheAlloc function allocates storage for a font that is to be stored in cached memory.
 old-location: display\engfntcachealloc.htm
-tech.root: display
+tech.root: Display
 ms.assetid: fd0765e0-decd-46fb-872e-4c750713abe6
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngFntCacheAlloc, EngFntCacheAlloc function [Display Devices], display.engfntcachealloc, gdifncs_c2f9bace-a686-42e3-b72c-bd6d109786a6.xml, winddi/EngFntCacheAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

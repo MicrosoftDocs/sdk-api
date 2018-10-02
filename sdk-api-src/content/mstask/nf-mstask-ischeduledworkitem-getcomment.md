@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getcomment.htm
 tech.root: TaskSchd
 ms.assetid: 49bfd451-8100-40e1-9727-e54c5478b415
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetComment, GetComment method [Task Scheduler], GetComment method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetComment method, IScheduledWorkItem.GetComment, IScheduledWorkItem::GetComment, _msb_ischeduledworkitem_getcomment, mstask/IScheduledWorkItem::GetComment, taskschd.ischeduledworkitem_getcomment
 ms.prod: windows-hardware
 ms.technology: windows-devices

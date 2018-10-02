@@ -7,7 +7,7 @@ old-location: wer\outofprocessexceptioneventsignaturecallback.htm
 tech.root: wer
 ms.assetid: 892498db-0265-4276-9735-63a8104ecaa9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OutOfProcessExceptionEventSignatureCallback, OutOfProcessExceptionEventSignatureCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE, PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE callback, wer.outofprocessexceptioneventsignaturecallback, werapi/OutOfProcessExceptionEventSignatureCallback
 ms.prod: windows
 ms.technology: windows-sdk

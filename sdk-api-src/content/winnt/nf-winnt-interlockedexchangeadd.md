@@ -7,7 +7,7 @@ old-location: base\interlockedexchangeadd.htm
 tech.root: Sync
 ms.assetid: e48b67a0-133b-4e88-b451-432f26b4881a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InterlockedExchangeAdd, InterlockedExchangeAdd function, _win32_interlockedexchangeadd, base.interlockedexchangeadd, winnt/InterlockedExchangeAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext4_wait.htm
 tech.root: direct3d11
 ms.assetid: 91576E2D-A28F-43A8-B9FE-5888779877F9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D11DeviceContext4 interface [Direct3D 11],Wait method, ID3D11DeviceContext4.Wait, ID3D11DeviceContext4::Wait, Wait, Wait method [Direct3D 11], Wait method [Direct3D 11],ID3D11DeviceContext4 interface, d3d11_3/ID3D11DeviceContext4::Wait, direct3d11.id3d11devicecontext4_wait
 ms.prod: windows-hardware
 ms.technology: windows-devices

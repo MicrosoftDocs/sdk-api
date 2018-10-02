@@ -4,10 +4,10 @@ title: IATSC_VCT::GetRecordMinorChannelNumber
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordminorchannelnumber.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e0c6eecb-7543-4476-882c-29b1ee103359
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordMinorChannelNumber, GetRecordMinorChannelNumber method [Microsoft TV Technologies], GetRecordMinorChannelNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordMinorChannelNumber method, IATSC_VCT.GetRecordMinorChannelNumber, IATSC_VCT::GetRecordMinorChannelNumber, IATSC_VCTGetRecordMinorChannelNumber, atscpsipparser/IATSC_VCT::GetRecordMinorChannelNumber, mstv.iatsc_vct_getrecordminorchannelnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\istreamconcatenate_append.htm
 tech.root: imapi
 ms.assetid: 9871cc35-c955-4fd4-9082-5b6ab60cae7b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Append, Append method [IMAPI], Append method [IMAPI],IStreamConcatenate interface, IStreamConcatenate interface [IMAPI],Append method, IStreamConcatenate.Append, IStreamConcatenate::Append, imapi.istreamconcatenate_append, imapi2/IStreamConcatenate::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices

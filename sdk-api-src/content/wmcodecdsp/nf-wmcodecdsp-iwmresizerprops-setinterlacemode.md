@@ -4,10 +4,10 @@ title: IWMResizerProps::SetInterlaceMode
 author: windows-sdk-content
 description: The SetInterlaceMode method specifies whether the input video stream is interlaced.
 old-location: mf\iwmresizerpropssetinterlacemode.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: a5ce36aa-d46c-4c17-bc8d-4840ea496980
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetInterlaceMode method, IWMResizerProps.SetInterlaceMode, IWMResizerProps::SetInterlaceMode, SetInterlaceMode, SetInterlaceMode method [Media Foundation], SetInterlaceMode method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetinterlacemode, mf.iwmresizerpropssetinterlacemode, wmcodecdsp/IWMResizerProps::SetInterlaceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

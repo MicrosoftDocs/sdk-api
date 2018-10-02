@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteLocalizedStrings_FindLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: d80032b2-304e-4c48-a7c7-fcda4305cca4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: FindLocaleName, FindLocaleName method [Direct Write], FindLocaleName method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],FindLocaleName method, IDWriteLocalizedStrings.FindLocaleName, IDWriteLocalizedStrings::FindLocaleName, directwrite.IDWriteLocalizedStrings_FindLocaleName, dwrite/IDWriteLocalizedStrings::FindLocaleName
 ms.prod: windows-hardware
 ms.technology: windows-devices

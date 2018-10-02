@@ -4,10 +4,10 @@ title: APPLICATION_VIEW_ORIENTATION
 author: windows-sdk-content
 description: Defines the set of display orientation modes for a window (app view). Used by IApplicationDesignModeSettings2::GetApplicationViewOrientation and IApplicationDesignModeSettings2::SetApplicationViewOrientation.
 old-location: shell\APPLICATION_VIEW_ORIENTATION.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6E14D892-09E3-46F4-84AD-991996431FB2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: APPLICATION_VIEW_ORIENTATION, APPLICATION_VIEW_ORIENTATION enumeration [Windows Shell], AVO_LANDSCAPE, AVO_PORTRAIT, shell.APPLICATION_VIEW_ORIENTATION, shobjidl_core/APPLICATION_VIEW_ORIENTATION, shobjidl_core/AVO_LANDSCAPE, shobjidl_core/AVO_PORTRAIT
 ms.prod: windows
 ms.technology: windows-sdk

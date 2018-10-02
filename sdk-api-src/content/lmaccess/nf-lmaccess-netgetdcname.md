@@ -4,10 +4,10 @@ title: NetGetDCName function
 author: windows-sdk-content
 description: The NetGetDCName function returns the name of the primary domain controller (PDC). It does not return the name of the backup domain controller (BDC) for the specified domain. Also, you cannot remote this function to a non-PDC server.
 old-location: netmgmt\netgetdcname.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3e32aacc-088e-455a-bc1b-92274e98d2e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_netgetdcname, lmaccess/NetGetDCName, netmgmt.netgetdcname
 ms.prod: windows-hardware
 ms.technology: windows-devices

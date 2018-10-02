@@ -4,10 +4,10 @@ title: MsiCreateRecord function
 author: windows-sdk-content
 description: The MsiCreateRecord function creates a new record object with the specified number of fields. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msicreaterecord.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: fc1d5a09-3097-4a1c-a615-1b93f7eacb04
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MsiCreateRecord, MsiCreateRecord function, _msi_msicreaterecord, msiquery/MsiCreateRecord, setup.msicreaterecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

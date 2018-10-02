@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcacheable.htm
 tech.root: Wds
 ms.assetid: 2245d198-056c-467f-aae7-b1bb02f188e2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], IWdsTransportCacheable interface [Windows Deployment Services],described, wds.iwdstransportcacheable, wdstptmgmt/IWdsTransportCacheable
 ms.prod: windows
 ms.technology: windows-sdk

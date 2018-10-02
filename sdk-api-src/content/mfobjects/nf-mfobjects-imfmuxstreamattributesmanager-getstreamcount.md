@@ -4,10 +4,10 @@ title: IMFMuxStreamAttributesManager::GetStreamCount
 author: windows-sdk-content
 description: Gets the count of substreams managed by the multiplexed media source.
 old-location: mf\imfmuxstreamattributesmanager_getstreamcount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 631802B5-00F7-4219-9B21-5A1FB8628477
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamAttributesManager.GetStreamCount, IMFMuxStreamAttributesManager::GetStreamCount, mf.imfmuxstreamattributesmanager_getstreamcount, mfobjects/IMFMuxStreamAttributesManager::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

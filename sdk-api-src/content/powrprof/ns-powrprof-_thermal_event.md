@@ -4,10 +4,10 @@ title: "_THERMAL_EVENT"
 author: windows-sdk-content
 description: Contains a thermal event.
 old-location: base\thermal_event.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 80B6A494-AED6-4EF0-8B69-4AA5DA6BCBB3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTHERMAL_EVENT, PTHERMAL_EVENT, PTHERMAL_EVENT structure pointer, THERMAL_EVENT, THERMAL_EVENT structure, _THERMAL_EVENT, base.thermal_event, powrprof/PTHERMAL_EVENT, powrprof/THERMAL_EVENT"
 ms.prod: windows
 ms.technology: windows-sdk

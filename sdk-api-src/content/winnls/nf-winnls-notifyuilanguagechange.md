@@ -7,7 +7,7 @@ old-location: intl\notifyuilanguagechange.htm
 tech.root: Intl
 ms.assetid: DA75201D-38F9-470E-BA04-9135C5CE169F
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/28/2018
 ms.keywords: NotifyUILanguageChange, NotifyUILanguageChange function [Internationalization for Windows Applications], intl.notifyuilanguagechange, winnls/NotifyUILanguageChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

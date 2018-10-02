@@ -4,10 +4,10 @@ title: IDirect3DAuthenticatedChannel9::NegotiateKeyExchange
 author: windows-sdk-content
 description: Establishes a session key for the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_negotiatekeyexchange.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 35605d35-76c9-43d7-a022-6db6af179c41
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IDirect3DAuthenticatedChannel9 interface [Media Foundation],NegotiateKeyExchange method, IDirect3DAuthenticatedChannel9.NegotiateKeyExchange, IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, d3d9/IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, mf.idirect3dauthenticatedchannel9_negotiatekeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DD_MORESURFACECAPS"
 author: windows-sdk-content
 description: The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in DDCORECAPS.
 old-location: display\dd_moresurfacecaps.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 25cc9058-0c37-4768-a177-345cdae4ee5f
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_MORESURFACECAPS, DD_MORESURFACECAPS, DD_MORESURFACECAPS structure [Display Devices], _DD_MORESURFACECAPS, ddrawint/DD_MORESURFACECAPS, ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml, display.dd_moresurfacecaps"
 ms.prod: windows
 ms.technology: windows-sdk

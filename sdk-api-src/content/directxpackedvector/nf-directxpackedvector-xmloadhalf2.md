@@ -7,7 +7,7 @@ old-location: dxmath\xmloadhalf2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadHalf2(const XMHALF2)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: DirectX::PackedVector.XMLoadHalf2, XMLoadHalf2, XMLoadHalf2 method [DirectX Math Support APIs], dxmath.xmloadhalf2
 ms.prod: windows-hardware
 ms.technology: windows-devices

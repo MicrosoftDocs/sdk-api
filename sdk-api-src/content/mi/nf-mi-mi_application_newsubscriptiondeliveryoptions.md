@@ -4,10 +4,10 @@ title: MI_Application_NewSubscriptionDeliveryOptions function
 author: windows-sdk-content
 description: Creates an MI_SubscriptionDeliveryOptions object that represents the configuration needed to carry out subscribe operations over certain protocols.
 old-location: wmi_v2\mi_application_newsubscriptiondeliveryoptions.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: ac84ec09-7d91-42fc-8271-3e0e54bbb788
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Application_NewSubscriptionDeliveryOptions, MI_Application_NewSubscriptionDeliveryOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSubscriptionDeliveryOptions, wmi_v2.mi_application_newsubscriptiondeliveryoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

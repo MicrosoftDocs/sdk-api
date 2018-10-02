@@ -7,7 +7,7 @@ old-location: base\getlocaltime.htm
 tech.root: SysInfo
 ms.assetid: a63fcd36-de48-4437-a823-837884cc2bf9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetLocalTime, GetLocalTime function, _win32_getlocaltime, base.getlocaltime, sysinfoapi/GetLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

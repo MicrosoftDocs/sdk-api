@@ -4,10 +4,10 @@ title: ITsSbLoadBalanceResult::get_TargetName
 author: windows-sdk-content
 description: Retrieves the target name returned by a load-balancing algorithm.
 old-location: termserv\itssbloadbalanceresult_targetname.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a3503aef-e177-4ebb-ac9a-8e24ab8610b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbLoadBalanceResult interface [Remote Desktop Services],TargetName property, ITsSbLoadBalanceResult.TargetName, ITsSbLoadBalanceResult.get_TargetName, ITsSbLoadBalanceResult::TargetName, ITsSbLoadBalanceResult::get_TargetName, TargetName property [Remote Desktop Services], TargetName property [Remote Desktop Services],ITsSbLoadBalanceResult interface, get_TargetName, sbtsv/ITsSbLoadBalanceResult::TargetName, sbtsv/ITsSbLoadBalanceResult::get_TargetName, termserv.itssbloadbalanceresult_targetname
 ms.prod: windows-hardware
 ms.technology: windows-devices

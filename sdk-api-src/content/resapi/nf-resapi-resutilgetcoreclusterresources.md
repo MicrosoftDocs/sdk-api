@@ -4,10 +4,10 @@ title: ResUtilGetCoreClusterResources function
 author: windows-sdk-content
 description: Returns handles to the core&#32;Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.
 old-location: mscs\resutilgetcoreclusterresources.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cadfeaf7-951f-4fc7-96fa-2e256e52a370
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES, PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster], ResUtilGetCoreClusterResources, ResUtilGetCoreClusterResources function [Failover Cluster], _wolf_resutilgetcoreclusterresources, mscs.resutilgetcoreclusterresources, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES, resapi/ResUtilGetCoreClusterResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

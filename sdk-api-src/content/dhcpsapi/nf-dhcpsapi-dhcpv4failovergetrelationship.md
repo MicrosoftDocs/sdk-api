@@ -4,10 +4,10 @@ title: DhcpV4FailoverGetRelationship function
 author: windows-sdk-content
 description: Retrieves relationship details for a specific relationship name.
 old-location: dhcp\dhcpv4failovergetrelationship.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: b637d1e8-8c61-4382-a5ec-3d5395433f86
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpV4FailoverGetRelationship, DhcpV4FailoverGetRelationship function [DHCP], dhcp.dhcpv4failovergetrelationship, dhcpsapi/DhcpV4FailoverGetRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices

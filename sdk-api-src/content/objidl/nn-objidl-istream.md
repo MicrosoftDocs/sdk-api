@@ -7,7 +7,7 @@ old-location: stg\istream.htm
 tech.root: Stg
 ms.assetid: c6f60e37-eadc-46a1-94f6-cacc23613531
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IStream, IStream interface [Structured Storage], IStream interface [Structured Storage],described, _stg_istream, objidl/IStream, stg.istream
 ms.prod: windows
 ms.technology: windows-sdk

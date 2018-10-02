@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetWrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\getwrapmode_51.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],TextureBrush class, TextureBrush class [GDI+],GetWrapMode method, TextureBrush.GetWrapMode, TextureBrush::GetWrapMode, _gdiplus_CLASS_TextureBrush_GetWrapMode_, gdiplus._gdiplus_CLASS_TextureBrush_GetWrapMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFImageSharingEngine
 author: windows-sdk-content
 description: Enables image sharing.
 old-location: mf\imfimagesharingengine.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: A30C73DA-9BD5-4D12-A6FB-771BBD2D1191
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFImageSharingEngine, IMFImageSharingEngine interface [Media Foundation], IMFImageSharingEngine interface [Media Foundation],described, mf.imfimagesharingengine, mfsharingengine/IMFImageSharingEngine
 ms.prod: windows
 ms.technology: windows-sdk

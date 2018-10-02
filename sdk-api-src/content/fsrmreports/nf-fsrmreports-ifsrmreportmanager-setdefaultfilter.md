@@ -4,10 +4,10 @@ title: IFsrmReportManager::SetDefaultFilter
 author: windows-sdk-content
 description: Sets the default report filter value to use with the specified report type.
 old-location: fsrm\ifsrmreportmanager_setdefaultfilter.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 5a3165a9-8161-4dad-b8b9-d0c3f54f1803
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],SetDefaultFilter method, IFsrmReportManager interface [File Server Resource Manager],SetDefaultFilter method, IFsrmReportManager.SetDefaultFilter, IFsrmReportManager::SetDefaultFilter, SetDefaultFilter, SetDefaultFilter method [File Server Resource Manager], SetDefaultFilter method [File Server Resource Manager],FsrmReportManager class, SetDefaultFilter method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setdefaultfilter, fsrm.ifsrmreportmanager_setdefaultfilter, fsrmreports/IFsrmReportManager::SetDefaultFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

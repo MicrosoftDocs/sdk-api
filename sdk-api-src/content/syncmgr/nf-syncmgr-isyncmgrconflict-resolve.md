@@ -4,10 +4,10 @@ title: ISyncMgrConflict::Resolve
 author: windows-sdk-content
 description: Resolves the conflict using its own sync handler, controls UI.
 old-location: shell\ISyncMgrConflict_Resolve.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9680b96e-9a83-45e1-a2bf-674aff6490ec
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrConflict interface [Windows Shell],Resolve method, ISyncMgrConflict.Resolve, ISyncMgrConflict::Resolve, Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell],ISyncMgrConflict interface, _shell_ISyncMgrConflict_Resolve, shell.ISyncMgrConflict_Resolve, syncmgr/ISyncMgrConflict::Resolve
 ms.prod: windows-hardware
 ms.technology: windows-devices

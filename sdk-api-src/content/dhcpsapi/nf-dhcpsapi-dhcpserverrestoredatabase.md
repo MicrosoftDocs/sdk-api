@@ -4,10 +4,10 @@ title: DhcpServerRestoreDatabase function
 author: windows-sdk-content
 description: Restores the settings, configuration, and records for a client lease database from a specific backup location (path).
 old-location: dhcp\dhcpserverrestoredatabase.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: b7003fcc-bff1-449d-8849-c02932880114
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpServerRestoreDatabase, DhcpServerRestoreDatabase function [DHCP], dhcp.dhcpserverrestoredatabase, dhcpsapi/DhcpServerRestoreDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

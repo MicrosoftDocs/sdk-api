@@ -7,7 +7,7 @@ old-location: taskschd\itaskscheduler_newworkitem.htm
 tech.root: TaskSchd
 ms.assetid: 1fbd65ae-0b54-4175-bf26-4226b1aabdc1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],NewWorkItem method, ITaskScheduler.NewWorkItem, ITaskScheduler::NewWorkItem, NewWorkItem, NewWorkItem method [Task Scheduler], NewWorkItem method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_newworkitem, mstask/ITaskScheduler::NewWorkItem, taskschd.itaskscheduler_newworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

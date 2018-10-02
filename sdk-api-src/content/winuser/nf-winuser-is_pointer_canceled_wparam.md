@@ -7,7 +7,7 @@ old-location: inputmsg\is_pointer_canceled_wparam.htm
 tech.root: InputMsg
 ms.assetid: BB153262-E037-45C6-9391-6039FF1FFC86
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IS_POINTER_CANCELED_WPARAM, IS_POINTER_CANCELED_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_canceled_wparam, winuser/IS_POINTER_CANCELED_WPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices

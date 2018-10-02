@@ -4,10 +4,10 @@ title: UnenableRouter function
 author: windows-sdk-content
 description: The UnenableRouter function decrements the reference count that tracks the number of requests to enable IPv4 forwarding. When this reference count reaches zero, UnenableRouter turns off IPv4 forwarding on the local computer.
 old-location: iphlp\unenablerouter.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 95f0387f-24e8-4382-b78e-e59bcec0f2ed
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: UnenableRouter, UnenableRouter function [IP Helper], _iphlp_unenablerouter, iphlp.unenablerouter, iphlpapi/UnenableRouter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex3_recoverset.htm
 tech.root: VSS
 ms.assetid: 2e468527-11e7-42d8-808b-2cb2eb86e0ba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssBackupComponentsEx3 interface,RecoverSet method, IVssBackupComponentsEx3.RecoverSet, IVssBackupComponentsEx3::RecoverSet, RecoverSet, RecoverSet method, RecoverSet method,IVssBackupComponentsEx3 interface, base.ivssbackupcomponentsex3_recoverset, vsbackup/IVssBackupComponentsEx3::RecoverSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_MMCButton"
 author: windows-sdk-content
 description: The MMCBUTTON structure contains values used in creating buttons on a toolbar. This structure is similar to the TBBUTTON structure discussed in the Platform Software Development Kit (SDK) topics related to common controls.
 old-location: mmc\mmcbutton.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 340fed49-3003-4dd6-80c9-6cefc8c5b750
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPMMCBUTTON, LPMMCBUTTON, LPMMCBUTTON structure pointer [MMC], MMCBUTTON, MMCBUTTON structure [MMC], TBSTATE_CHECKED, TBSTATE_ENABLED, TBSTATE_HIDDEN, TBSTATE_INDETERMINATE, TBSTATE_PRESSED, TBSTYLE_BUTTON, TBSTYLE_CHECK, TBSTYLE_CHECKGROUP, TBSTYLE_GROUP, TBSTYLE_SEP, _MMCButton, _slate_mmcbutton, mmc.mmcbutton, mmc/LPMMCBUTTON, mmc/MMCBUTTON"
 ms.prod: windows
 ms.technology: windows-sdk

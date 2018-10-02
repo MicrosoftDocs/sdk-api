@@ -7,7 +7,7 @@ old-location: security\iobjectids_addrange_method.htm
 tech.root: SecCertEnroll
 ms.assetid: bf7a85a3-201b-413e-a1da-1e54b55771cc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IObjectIds interface, IObjectIds interface [Security],AddRange method, IObjectIds.AddRange, IObjectIds::AddRange, certenroll/IObjectIds::AddRange, security.iobjectids_addrange_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WlanHostedNetworkQuerySecondaryKey function
 author: windows-sdk-content
 description: Queries the secondary security key that is configured to be used by the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkquerysecondarykey.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 5989977a-7a2f-43b8-a958-058db01fd24f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanHostedNetworkQuerySecondaryKey, WlanHostedNetworkQuerySecondaryKey function [NativeWIFI], nwifi.wlanhostednetworkquerysecondarykey, wlanapi/WlanHostedNetworkQuerySecondaryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

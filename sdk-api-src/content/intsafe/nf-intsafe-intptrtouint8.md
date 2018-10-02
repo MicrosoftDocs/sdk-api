@@ -4,10 +4,10 @@ title: IntPtrToUInt8 function
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type UINT8.
 old-location: shell\IntPtrToUInt8.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d1337a8a-0a7a-41a1-b57b-f20d8a616113
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IntPtrToUInt8, IntPtrToUInt8 function [Windows Shell], intsafe/IntPtrToUInt8, shell.IntPtrToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_rasterizer_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_rasterizer_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: D3D10_RASTERIZER_DESC, D3D10_RASTERIZER_DESC structure [Direct3D 10], c7cc2dab-949f-f064-3ae8-72b463253e0d, d3d10/D3D10_RASTERIZER_DESC, direct3d10.d3d10_rasterizer_desc
 ms.prod: windows
 ms.technology: windows-sdk

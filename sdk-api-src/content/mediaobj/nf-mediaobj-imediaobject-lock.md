@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_lock.htm
 tech.root: DirectShow
 ms.assetid: 6923dd91-7bdb-4a0c-833d-4742973825ee
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IMediaObject interface [DirectShow],Lock method, IMediaObject.Lock, IMediaObject::Lock, IMediaObjectLock, Lock, Lock method [DirectShow], Lock method [DirectShow],IMediaObject interface, dshow.imediaobject_lock, mediaobj/IMediaObject::Lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: INameSpaceTreeAccessible::OnGetAccessibilityRole
 author: windows-sdk-content
 description: Gets the accessibility role for a Shell item.
 old-location: shell\INameSpaceTreeAccessible_OnGetAccessibilityRole.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9de27a09-dc11-46a6-a233-696ccf35aa87
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnGetAccessibilityRole method, INameSpaceTreeAccessible.OnGetAccessibilityRole, INameSpaceTreeAccessible::OnGetAccessibilityRole, OnGetAccessibilityRole, OnGetAccessibilityRole method [Windows Shell], OnGetAccessibilityRole method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnGetAccessibilityRole, shell.INameSpaceTreeAccessible_OnGetAccessibilityRole, shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

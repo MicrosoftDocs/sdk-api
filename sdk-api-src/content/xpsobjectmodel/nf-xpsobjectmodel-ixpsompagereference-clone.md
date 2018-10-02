@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_clone.htm
 tech.root: printdocs
 ms.assetid: 30511ddc-19c3-4122-864d-c368df9619a3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],Clone method, IXpsOMPageReference.Clone, IXpsOMPageReference::Clone, xps.ixpsompagereference_clone, xpsobjectmodel/IXpsOMPageReference::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

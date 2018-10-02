@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiperfcounterloggingmanager_createlogger.htm
 tech.root: Rdp
 ms.assetid: 24C57AE8-208B-4254-B5B1-8AB77E2D4044
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateLogger, CreateLogger method [RDP], CreateLogger method [RDP],IRDPSRAPIPerfCounterLoggingManager interface, IRDPSRAPIPerfCounterLoggingManager interface [RDP],CreateLogger method, IRDPSRAPIPerfCounterLoggingManager.CreateLogger, IRDPSRAPIPerfCounterLoggingManager::CreateLogger, rdp.irdpsrapiperfcounterloggingmanager_createlogger, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager::CreateLogger
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\acl_size_information.htm
 tech.root: SecAuthZ
 ms.assetid: 05034096-211d-4ee3-a686-dfebfa167814
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION structure [Security], PACL_SIZE_INFORMATION, PACL_SIZE_INFORMATION structure pointer [Security], _ACL_SIZE_INFORMATION, _win32_acl_size_information_str, security.acl_size_information, winnt/ACL_SIZE_INFORMATION, winnt/PACL_SIZE_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

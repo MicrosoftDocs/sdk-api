@@ -4,10 +4,10 @@ title: INetFwRule3
 author: windows-sdk-content
 description: Allows an application or service to access all the properties of INetFwRule2 and to provide access to the requirements of app containers.
 old-location: ics\inetfwrule3.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 72bf5ac3-7ee7-4837-96b2-815b499aac2f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetFwRule3, INetFwRule3 interface [ICS/ICF], INetFwRule3 interface [ICS/ICF],described, ics.inetfwrule3, netfw/INetFwRule3
 ms.prod: windows
 ms.technology: windows-sdk

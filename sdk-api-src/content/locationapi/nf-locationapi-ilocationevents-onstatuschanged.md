@@ -4,10 +4,10 @@ title: ILocationEvents::OnStatusChanged
 author: windows-sdk-content
 description: Called when a report status changes.
 old-location: winlocation_com_ref\ilocationevents_onstatuschanged.htm
-tech.root: locationapi
+tech.root: LocationAPI
 ms.assetid: d13d8b72-3188-479f-a70c-52b1a9435b80
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: ILocationEvents interface [WinLocation],OnStatusChanged method, ILocationEvents.OnStatusChanged, ILocationEvents::OnStatusChanged, OnStatusChanged, OnStatusChanged method [WinLocation], OnStatusChanged method [WinLocation],ILocationEvents interface, WinLocation_COM_Ref.ilocationevents_onstatuschanged, locationapi/ILocationEvents::OnStatusChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

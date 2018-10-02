@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresourcecollection_setat.htm
 tech.root: printdocs
 ms.assetid: c1f88493-0f81-4aac-b6d6-049d10934254
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMSignatureBlockResourceCollection.SetAt, IXpsOMSignatureBlockResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_setat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

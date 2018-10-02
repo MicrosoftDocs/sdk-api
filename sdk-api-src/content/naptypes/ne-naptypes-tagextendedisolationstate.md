@@ -4,10 +4,10 @@ title: tagExtendedIsolationState
 author: windows-sdk-content
 description: Describes the extended isolation state of a connection.
 old-location: nap\extendedisolationstate.htm
-tech.root: nap
+tech.root: NAP
 ms.assetid: 1466247a-eecf-4912-810a-07cabb9c83da
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: ExtendedIsolationState, ExtendedIsolationState enumeration [NAP], extendedIsolationStateInfected, extendedIsolationStateNoData, extendedIsolationStateTransition, extendedIsolationStateUnknown, nap.extendedisolationstate, naptypes/ExtendedIsolationState, naptypes/extendedIsolationStateInfected, naptypes/extendedIsolationStateNoData, naptypes/extendedIsolationStateTransition, naptypes/extendedIsolationStateUnknown, tagExtendedIsolationState
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFileDialogCustomize::SetEditBoxText
 author: windows-sdk-content
 description: Sets the text in an edit box control found in the dialog.
 old-location: shell\IFileDialogCustomize_SetEditBoxText.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e235e82e-65db-4919-bf71-c454673d07fb
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetEditBoxText method, IFileDialogCustomize.SetEditBoxText, IFileDialogCustomize::SetEditBoxText, SetEditBoxText, SetEditBoxText method [Windows Shell], SetEditBoxText method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetEditBoxText, shell_IFileDialogCustomize_SetEditBoxText, shobjidl_core/IFileDialogCustomize::SetEditBoxText
 ms.prod: windows-hardware
 ms.technology: windows-devices

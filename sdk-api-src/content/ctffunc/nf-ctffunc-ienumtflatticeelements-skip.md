@@ -7,7 +7,7 @@ old-location: tsf\ienumtflatticeelements_skip.htm
 tech.root: TSF
 ms.assetid: 53dbe7f0-cc1f-4ba4-9ed5-7b328c707902
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Skip method, IEnumTfLatticeElements.Skip, IEnumTfLatticeElements::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_skip_ref, ctffunc/IEnumTfLatticeElements::Skip, tsf.ienumtflatticeelements_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

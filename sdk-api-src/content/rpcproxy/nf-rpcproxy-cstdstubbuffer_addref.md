@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_addref.htm
 tech.root: Rpc
 ms.assetid: 4dbef7a0-6332-4307-8d22-40414a1df4f5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CStdStubBuffer_AddRef, CStdStubBuffer_AddRef function [RPC], rpc.cstdstubbuffer_addref, rpcproxy/CStdStubBuffer_AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

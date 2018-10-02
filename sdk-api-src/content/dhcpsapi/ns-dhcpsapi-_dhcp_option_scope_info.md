@@ -4,10 +4,10 @@ title: "_DHCP_OPTION_SCOPE_INFO"
 author: windows-sdk-content
 description: The DHCP_OPTION_SCOPE_INFO structure defines information about the options provided for a certain DHCP scope.
 old-location: dhcp\dhcp_option_scope_info.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 91d4d678-f0c5-4081-9302-0d08c8994692
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_INFO, DHCP_OPTION_SCOPE_INFO, DHCP_OPTION_SCOPE_INFO structure [DHCP], LPDHCP_OPTION_SCOPE_INFO, LPDHCP_OPTION_SCOPE_INFO structure pointer [DHCP], _DHCP_OPTION_SCOPE_INFO, dhcp.dhcp_option_scope_info, dhcpsapi/LPDHCP_OPTION_SCOPE_INFO, dhcpsapi/_DHCP_OPTION_SCOPE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

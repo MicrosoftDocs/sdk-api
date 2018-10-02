@@ -4,10 +4,10 @@ title: IMPEG2TuneRequest
 author: windows-sdk-content
 description: The IMPEG2TuneRequest interface represents a tune request for a basic MPEG-2 transport stream containing the minimal tables.Use the IMPEG2TuneRequestFactory::CreateTuneRequest method to obtain this interface.
 old-location: mstv\impeg2tunerequest.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a9e37b8b-9272-43c6-b36e-1e82b0d1b0db
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMPEG2TuneRequest, IMPEG2TuneRequest interface [Microsoft TV Technologies], IMPEG2TuneRequest interface [Microsoft TV Technologies],described, IMPEG2TuneRequestInterface, mstv.impeg2tunerequest, tuner/IMPEG2TuneRequest
 ms.prod: windows
 ms.technology: windows-sdk

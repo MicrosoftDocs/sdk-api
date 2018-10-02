@@ -4,10 +4,10 @@ title: IMFSSLCertificateManager::GetClientCertificate
 author: windows-sdk-content
 description: Gets the client SSL certificate synchronously.
 old-location: mf\imfsslcertificatemanager_getclientcertificate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 11a575e8-5eb2-4cbb-a460-f1ea5d54d324
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method [Media Foundation], GetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],GetClientCertificate method, IMFSSLCertificateManager.GetClientCertificate, IMFSSLCertificateManager::GetClientCertificate, mf.imfsslcertificatemanager_getclientcertificate, mfidl/IMFSSLCertificateManager::GetClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

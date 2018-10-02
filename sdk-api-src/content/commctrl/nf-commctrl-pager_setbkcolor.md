@@ -7,7 +7,7 @@ old-location: controls\Pager_SetBkColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: Pager_SetBkColor, Pager_SetBkColor macro [Windows Controls], _win32_Pager_SetBkColor, _win32_Pager_SetBkColor_cpp, commctrl/Pager_SetBkColor, controls.Pager_SetBkColor, controls._win32_Pager_SetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

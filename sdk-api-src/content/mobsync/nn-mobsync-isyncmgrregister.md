@@ -4,10 +4,10 @@ title: ISyncMgrRegister
 author: windows-sdk-content
 description: Exposes methods so that an application can register with the synchronization manager. This can be achieved either through the ISyncMgrRegister interface or by registering directly in the registry.
 old-location: shell\syncmgr_isyncmgrregister.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], ISyncMgrRegister interface [Windows Shell],described, mobsync/ISyncMgrRegister, shell.syncmgr_isyncmgrregister, syncmgr.isyncmgrregister
 ms.prod: windows
 ms.technology: windows-sdk

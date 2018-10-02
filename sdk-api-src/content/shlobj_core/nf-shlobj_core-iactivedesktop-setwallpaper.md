@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_setwallpaper.htm
 tech.root: lwef
 ms.assetid: e789a8f1-3e65-4fa7-a62b-8fad6114ed46
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetWallpaper method, IActiveDesktop.SetWallpaper, IActiveDesktop::SetWallpaper, SetWallpaper, SetWallpaper method [Legacy Windows Environment Features], SetWallpaper method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_SetWallpaper, lwef.iactivedesktop_setwallpaper, shell.iactivedesktop_setwallpaper, shlobj_core/IActiveDesktop::SetWallpaper
 ms.prod: windows-hardware
 ms.technology: windows-devices

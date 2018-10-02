@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_initialize.htm
 tech.root: directdraw
 ms.assetid: e641d8e7-ce29-454a-80fc-d404a27e9b63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],Initialize method, IDirectDraw7.Initialize, IDirectDraw7::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::Initialize, directdraw.idirectdraw7_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

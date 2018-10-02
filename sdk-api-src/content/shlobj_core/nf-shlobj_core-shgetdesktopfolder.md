@@ -4,10 +4,10 @@ title: SHGetDesktopFolder function
 author: windows-sdk-content
 description: Retrieves the IShellFolder interface for the desktop folder, which is the root of the Shell's namespace.
 old-location: shell\SHGetDesktopFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 121cbd41-d512-4f33-b89c-d0dd9933df87
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetDesktopFolder, SHGetDesktopFolder function [Windows Shell], _win32_SHGetDesktopFolder, shell.SHGetDesktopFolder, shlobj_core/SHGetDesktopFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

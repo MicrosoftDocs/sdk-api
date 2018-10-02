@@ -4,10 +4,10 @@ title: IMSVidInputDevices::Remove
 author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidinputdevices_remove.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c8990564-70d3-4962-9ff2-24664dbc1161
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],Remove method, IMSVidInputDevices.Remove, IMSVidInputDevices::Remove, IMSVidInputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_remove, segment/IMSVidInputDevices::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

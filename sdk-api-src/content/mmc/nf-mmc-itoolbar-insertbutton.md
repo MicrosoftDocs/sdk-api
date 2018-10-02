@@ -4,10 +4,10 @@ title: IToolbar::InsertButton
 author: windows-sdk-content
 description: Enables a snap-in to add a single button to the toolbar.
 old-location: mmc\itoolbar_insertbutton.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 768df6d0-c2e5-4099-b4a6-a71e4f7e06d7
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: IToolbar interface [MMC],InsertButton method, IToolbar.InsertButton, IToolbar::InsertButton, InsertButton, InsertButton method [MMC], InsertButton method [MMC],IToolbar interface, _slate_itoolbar_insertbutton, mmc.itoolbar_insertbutton, mmc/IToolbar::InsertButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

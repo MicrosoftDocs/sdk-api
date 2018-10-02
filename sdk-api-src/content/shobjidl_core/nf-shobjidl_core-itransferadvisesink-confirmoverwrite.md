@@ -4,10 +4,10 @@ title: ITransferAdviseSink::ConfirmOverwrite
 author: windows-sdk-content
 description: Displays a message to the user confirming that overwriting existing items is acceptable.
 old-location: shell\ITransferAdviseSink_ConfirmOverwrite.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1c7705c5-1a56-47c2-9b9b-3f72a4323cd7
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ConfirmOverwrite, ConfirmOverwrite method [Windows Shell], ConfirmOverwrite method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],ConfirmOverwrite method, ITransferAdviseSink.ConfirmOverwrite, ITransferAdviseSink::ConfirmOverwrite, _shell_ITransferAdviseSink_ConfirmOverwrite, shell.ITransferAdviseSink_ConfirmOverwrite, shobjidl_core/ITransferAdviseSink::ConfirmOverwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

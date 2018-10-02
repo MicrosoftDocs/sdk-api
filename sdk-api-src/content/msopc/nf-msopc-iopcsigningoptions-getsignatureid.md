@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions_getsignatureid.htm
 tech.root: OPC
 ms.assetid: b81b49de-aaee-4224-9f5c-554b51f10cfa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetSignatureId, GetSignatureId method [Open Packaging Conventions], GetSignatureId method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureId method, IOpcSigningOptions.GetSignatureId, IOpcSigningOptions::GetSignatureId, msopc/IOpcSigningOptions::GetSignatureId, opc.iopcsigningoptions_getsignatureid
 ms.prod: windows-hardware
 ms.technology: windows-devices

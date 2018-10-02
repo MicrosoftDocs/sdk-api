@@ -4,10 +4,10 @@ title: SHGetMalloc function
 author: windows-sdk-content
 description: Retrieves a pointer to the Shell's IMalloc interface.
 old-location: shell\SHGetMalloc.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 720cacb9-af54-41b7-9fb6-72dfa634c4c5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetMalloc, SHGetMalloc function [Windows Shell], _win32_SHGetMalloc, shell.SHGetMalloc, shlobj_core/SHGetMalloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

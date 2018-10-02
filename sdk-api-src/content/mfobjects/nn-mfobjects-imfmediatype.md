@@ -4,10 +4,10 @@ title: IMFMediaType
 author: windows-sdk-content
 description: Represents a description of a media format.
 old-location: mf\imfmediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f1d60bec-71e4-4fcc-a020-92754b6f3c02
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaType, IMFMediaType interface [Media Foundation], IMFMediaType interface [Media Foundation],described, f1d60bec-71e4-4fcc-a020-92754b6f3c02, mf.imfmediatype, mfobjects/IMFMediaType
 ms.prod: windows
 ms.technology: windows-sdk

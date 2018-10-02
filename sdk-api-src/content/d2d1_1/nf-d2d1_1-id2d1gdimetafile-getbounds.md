@@ -7,7 +7,7 @@ old-location: direct2d\id2d1gdimetafile_getbounds.htm
 tech.root: direct2d
 ms.assetid: 59DA5314-2A6C-42B0-A4B8-72F6302B4B0F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: GetBounds, GetBounds method [Direct2D], GetBounds method [Direct2D],ID2D1GdiMetafile interface, ID2D1GdiMetafile interface [Direct2D],GetBounds method, ID2D1GdiMetafile.GetBounds, ID2D1GdiMetafile::GetBounds, d2d1_1/ID2D1GdiMetafile::GetBounds, direct2d.id2d1gdimetafile_getbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

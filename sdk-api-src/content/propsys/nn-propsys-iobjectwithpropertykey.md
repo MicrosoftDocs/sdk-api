@@ -4,10 +4,10 @@ title: IObjectWithPropertyKey
 author: windows-sdk-content
 description: Exposes methods for getting and setting the property key.
 old-location: shell\IObjectWithPropertyKey.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 238c3e39-62ba-4e97-9a15-19ad2e2d12e7
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IObjectWithPropertyKey, IObjectWithPropertyKey interface [Windows Shell], IObjectWithPropertyKey interface [Windows Shell],described, _shell_IObjectWithPropertyKey, propsys/IObjectWithPropertyKey, shell.IObjectWithPropertyKey
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IShellService::SetOwner
 author: windows-sdk-content
 description: Deprecated. Declares an owner reference to the service object.
 old-location: shell\IShellService_SetOwner.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ef3865b2-b651-4072-86f2-2996fce061a4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellService.SetOwner, IShellService::SetOwner, SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell],IShellService interface, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

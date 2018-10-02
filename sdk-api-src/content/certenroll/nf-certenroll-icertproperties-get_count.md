@@ -7,7 +7,7 @@ old-location: security\icertproperties_count_property.htm
 tech.root: SecCertEnroll
 ms.assetid: a01672b6-f2d1-43ad-a8bf-a052d6435572
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Count property [Security], Count property [Security],ICertProperties interface, ICertProperties interface [Security],Count property, ICertProperties.Count, ICertProperties.get_Count, ICertProperties::Count, ICertProperties::get_Count, certenroll/ICertProperties::Count, certenroll/ICertProperties::get_Count, get_Count, security.icertproperties_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

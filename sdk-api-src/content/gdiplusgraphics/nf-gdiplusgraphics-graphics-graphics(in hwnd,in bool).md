@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.Graphics(IN HWND,IN BOOL)
 title: Graphics::Graphics(IN HWND,IN BOOL)
 author: windows-sdk-content
-description: This topic lists the constructors of the Graphics class. For a complete class listing, see Graphics Class.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_Constructors.htm
+description: Creates a Graphics::Graphics object that is associated with a specified window.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_hwnd_icm_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_7hwnd_icm.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Graphics, Graphics constructors [GDI+], Graphics.Graphics, Graphics.Graphics(IN HWND,IN BOOL), Graphics::Graphics, Graphics::Graphics(IN HWND,IN BOOL), _gdiplus_CLASS_Graphics_Constructors, gdiplus._gdiplus_CLASS_Graphics_Constructors, gdiplusgraphics/Graphics
+ms.date: 09/26/2018
+ms.keywords: Graphics, Graphics class [GDI+],Graphics constructor, Graphics constructor [GDI+], Graphics constructor [GDI+],Graphics class, Graphics.Graphics, Graphics.Graphics(HWND,BOOL), Graphics.Graphics(IN HWND,IN BOOL), Graphics::Graphics, Graphics::Graphics(IN HWND,IN BOOL), _gdiplus_CLASS_Graphics_Graphics_hwnd_icm_, gdiplus._gdiplus_CLASS_Graphics_Graphics_hwnd_icm_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusgraphics.h
+ - Gdiplus.dll
 api_name:
  - Graphics.Graphics
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Graphics::Graphics(IN HWND,IN BOOL)
@@ -50,50 +51,47 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete class listing, see <b>Graphics Class</b>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536160(v=VS.85).aspx">Graphics(HDC)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536160(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified device context.
+Creates a <b>Graphics::Graphics</b> object that is associated with a specified window.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536159(v=VS.85).aspx">Graphics(Image*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536159(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536162(v=VS.85).aspx">Graphics(HWND,BOOL)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536162(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536161(v=VS.85).aspx">Graphics(HDC,HANDLE)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536161(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified device context and a specified device.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param hwnd [in]
+
+Type: <b>HWND</b>
+
+Handle to a window that will be associated with the new <b>Graphics::Graphics</b> object. 
+
+
+### -param icm [in]
+
+Type: <b>BOOL</b>
+
+Optional. Boolean value that specifies whether the new <b>Graphics::Graphics</b> object applies color adjustment according to the ICC profile associated with the display device. <b>TRUE</b> specifies that color adjustment is applied, and <b>FALSE</b> specifies that color adjustment is not applied. The default value is <b>FALSE</b>. 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/89a154c1-6a49-45d6-a73c-94b0b1567408">Changes in the Programming Model</a>
+
+
+
+<a href="https://msdn.microsoft.com/c03c5ef1-13f6-4cf5-9395-be90b46aa6bb">Getting Started</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+
+
+<a href="https://msdn.microsoft.com/76c4c444-cd6f-43ff-8ab7-96469d4505b9">Graphics Constructors</a>
+ 
+
+ 
 

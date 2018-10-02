@@ -7,7 +7,7 @@ old-location: base\ivsswmfiledesc.htm
 tech.root: VSS
 ms.assetid: 0b86882d-af1b-4a09-8c25-5b806c9ca909
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssWMFiledesc, IVssWMFiledesc interface [VSS], IVssWMFiledesc interface [VSS],described, _win32_ivsswmfiledesc, base.ivsswmfiledesc, vswriter/IVssWMFiledesc
 ms.prod: windows
 ms.technology: windows-sdk

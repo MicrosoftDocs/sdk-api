@@ -4,10 +4,10 @@ title: DrvQueryFontFile function
 author: windows-sdk-content
 description: The DrvQueryFontFile function provides font file information.
 old-location: display\drvqueryfontfile.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 4d853dbd-0448-43c3-9f01-13b7118a0743
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvQueryFontFile, DrvQueryFontFile function [Display Devices], ddifncs_e1440df7-d91a-4c86-b43b-10a5c5b7aab9.xml, display.drvqueryfontfile, winddi/DrvQueryFontFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

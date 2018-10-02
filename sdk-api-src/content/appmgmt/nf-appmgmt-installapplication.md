@@ -7,7 +7,7 @@ old-location: policy\installapplication.htm
 tech.root: Policy
 ms.assetid: 5b2e1d82-a421-42af-9e1b-391ae9d4813e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: InstallApplication, InstallApplication function [Group Policy], appmgmt/InstallApplication, policy.installapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

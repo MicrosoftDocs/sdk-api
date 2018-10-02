@@ -4,10 +4,10 @@ title: IMSVidGenericSink::get_SinkStreams
 author: windows-sdk-content
 description: The get_SinkStreams method retrieves the streams that are required to be rendered down to the sink. Not implemented.
 old-location: mstv\imsvidgenericsink_get_sinkstreams.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e77f2ee8-081b-4415-87b5-ab27ee0218d2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],get_SinkStreams method, IMSVidGenericSink.get_SinkStreams, IMSVidGenericSink::get_SinkStreams, IMSVidGenericSinkget_SinkStreams, get_SinkStreams, get_SinkStreams method [Microsoft TV Technologies], get_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_get_sinkstreams, segment/IMSVidGenericSink::get_SinkStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

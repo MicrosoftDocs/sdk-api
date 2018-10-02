@@ -4,10 +4,10 @@ title: IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats
 author: windows-sdk-content
 description: Gets a list of substream formats supported by a specified video processor device.
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessorsubstreamformats.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1, GetVideoProcessorSubStreamFormats, GetVideoProcessorSubStreamFormats method [Media Foundation], GetVideoProcessorSubStreamFormats method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorSubStreamFormats method, IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats, IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, mf.idirectxvideoprocessorservice_getvideoprocessorsubstreamformats
 ms.prod: windows-hardware
 ms.technology: windows-devices

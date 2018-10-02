@@ -4,10 +4,10 @@ title: "_TCP_ESTATS_OBS_REC_RW_v0"
 author: windows-sdk-content
 description: Contains read/write configuration information for extended TCP statistics observed on the remote receiver for a TCP connection.
 old-location: iphlp\tcp_estats_obs_rec_rw_v0.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 91c2d5d9-3198-42a7-abf7-077281b491f2
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: "*PTCP_ESTATS_OBS_REC_RW_v0, PTCP_ESTATS_OBS_REC_RW_v0, PTCP_ESTATS_OBS_REC_RW_v0 structure pointer [IP Helper], TCP_ESTATS_OBS_REC_RW_v0, TCP_ESTATS_OBS_REC_RW_v0 structure [IP Helper], _TCP_ESTATS_OBS_REC_RW_v0, iphlp.tcp_estats_obs_rec_rw_v0, tcpestats/PTCP_ESTATS_OBS_REC_RW_v0, tcpestats/TCP_ESTATS_OBS_REC_RW_v0"
 ms.prod: windows
 ms.technology: windows-sdk

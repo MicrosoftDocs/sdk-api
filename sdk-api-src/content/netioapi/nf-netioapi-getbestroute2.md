@@ -4,10 +4,10 @@ title: GetBestRoute2 function
 author: windows-sdk-content
 description: Retrieves the IP route entry on the local computer for the best route to the specified destination IP address.
 old-location: iphlp\getbestroute2.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 7bc16824-c98f-4cd5-a589-e198b48b637c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: GetBestRoute2, GetBestRoute2 function [IP Helper], iphlp.getbestroute2, netioapi/GetBestRoute2
 ms.prod: windows-hardware
 ms.technology: windows-devices

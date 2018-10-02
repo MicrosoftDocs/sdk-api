@@ -4,10 +4,10 @@ title: PowerSetRequest function
 author: windows-sdk-content
 description: Increments the count of power requests of the specified type for a power request object.
 old-location: base\powersetrequest.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 85249de8-5832-4f25-bbd9-3576cfd1caa0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, PowerSetRequest, PowerSetRequest function, base.powersetrequest, winbase/PowerSetRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

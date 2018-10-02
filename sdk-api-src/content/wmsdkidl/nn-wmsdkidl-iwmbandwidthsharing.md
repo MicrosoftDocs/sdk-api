@@ -7,7 +7,7 @@ old-location: wmformat\iwmbandwidthsharing.htm
 tech.root: wmformat
 ms.assetid: fd0e48bb-2e5e-4158-9ff1-5b603f219689
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWMBandwidthSharing, IWMBandwidthSharing interface [windows Media Format], IWMBandwidthSharing interface [windows Media Format],described, IWMBandwidthSharingInterface, wmformat.iwmbandwidthsharing, wmsdkidl/IWMBandwidthSharing
 ms.prod: windows
 ms.technology: windows-sdk

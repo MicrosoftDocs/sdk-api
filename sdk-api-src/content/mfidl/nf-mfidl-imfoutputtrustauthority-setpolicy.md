@@ -4,10 +4,10 @@ title: IMFOutputTrustAuthority::SetPolicy
 author: windows-sdk-content
 description: Sets one or more policy objects on the output trust authority (OTA).
 old-location: mf\imfoutputtrustauthority_setpolicy.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f5102ef3-472f-4a38-889c-e1c25dd46765
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFOutputTrustAuthority interface [Media Foundation],SetPolicy method, IMFOutputTrustAuthority.SetPolicy, IMFOutputTrustAuthority::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFOutputTrustAuthority interface, f5102ef3-472f-4a38-889c-e1c25dd46765, mf.imfoutputtrustauthority_setpolicy, mfidl/IMFOutputTrustAuthority::SetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

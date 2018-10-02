@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_BrushType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\brushtype.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: BrushType, BrushType enumeration [GDI+], BrushTypeHatchFill, BrushTypeLinearGradient, BrushTypePathGradient, BrushTypeSolidColor, BrushTypeTextureFill, _gdiplus_ENUM_BrushType, gdiplus._gdiplus_ENUM_BrushType, gdiplusenums/BrushType, gdiplusenums/BrushTypeHatchFill, gdiplusenums/BrushTypeLinearGradient, gdiplusenums/BrushTypePathGradient, gdiplusenums/BrushTypeSolidColor, gdiplusenums/BrushTypeTextureFill
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMSVidCtl::Run
 author: windows-sdk-content
 description: The Run method runs the filter graph.
 old-location: mstv\imsvidctl_run.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 37ed6d7b-2e44-4bce-b476-8e8b28635346
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Run method, IMSVidCtl.Run, IMSVidCtl::Run, IMSVidCtlRun, Run, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_run, msvidctl/IMSVidCtl::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices

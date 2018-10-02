@@ -7,7 +7,7 @@ old-location: winsock\closesocket_2.htm
 tech.root: WinSock
 ms.assetid: 2f357aa8-389b-4c92-8a9f-289e048cc41c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket"
 ms.prod: windows-hardware
 ms.technology: windows-devices

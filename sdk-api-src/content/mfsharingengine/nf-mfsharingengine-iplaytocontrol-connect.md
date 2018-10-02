@@ -4,10 +4,10 @@ title: IPlayToControl::Connect
 author: windows-sdk-content
 description: Connects the media element to the media sharing engine.
 old-location: mf\iplaytocontrol_connect.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5252DC51-E1EF-4A61-A2BD-682F51DC219B
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: Connect, Connect method [Media Foundation], Connect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Connect method, IPlayToControl.Connect, IPlayToControl::Connect, mf.iplaytocontrol_connect, mfsharingengine/IPlayToControl::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

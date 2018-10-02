@@ -7,7 +7,7 @@ old-location: gdi\getwinmetafilebits.htm
 tech.root: gdi
 ms.assetid: db61ea3a-44d0-4769-acb4-05a982d3f06f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetWinMetaFileBits, GetWinMetaFileBits function [Windows GDI], _win32_GetWinMetaFileBits, gdi.getwinmetafilebits, wingdi/GetWinMetaFileBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

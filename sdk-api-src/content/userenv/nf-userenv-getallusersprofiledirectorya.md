@@ -4,10 +4,10 @@ title: GetAllUsersProfileDirectoryA function
 author: windows-sdk-content
 description: Retrieves the path to the root of the directory that contains program data shared by all users.
 old-location: shell\GetAllUsersProfileDirectory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bd08947a-df57-4dd9-b9ba-a01b315bfdf1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetAllUsersProfileDirectory, GetAllUsersProfileDirectory function [Windows Shell], GetAllUsersProfileDirectoryA, GetAllUsersProfileDirectoryW, _shell_GetAllUsersProfileDirectory, shell.GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectoryA, userenv/GetAllUsersProfileDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

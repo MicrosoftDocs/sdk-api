@@ -7,7 +7,7 @@ old-location: wsw\ws_spn_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 99a484f0-4d04-4998-90d9-c39194ecf3f8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_SPN_ENDPOINT_IDENTITY, WS_SPN_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_SPN_ENDPOINT_IDENTITY, webservices/WS_SPN_ENDPOINT_IDENTITY, wsw.ws_spn_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk

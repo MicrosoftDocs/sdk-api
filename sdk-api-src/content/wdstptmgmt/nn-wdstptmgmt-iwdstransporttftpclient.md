@@ -7,7 +7,7 @@ old-location: wds\iwdstransporttftpclient.htm
 tech.root: Wds
 ms.assetid: B612A719-247E-40CC-B7BC-E2A6144DA329
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], IWdsTransportTftpClient interface [Windows Deployment Services],described, wds.iwdstransporttftpclient, wdstptmgmt/IWdsTransportTftpClient
 ms.prod: windows
 ms.technology: windows-sdk

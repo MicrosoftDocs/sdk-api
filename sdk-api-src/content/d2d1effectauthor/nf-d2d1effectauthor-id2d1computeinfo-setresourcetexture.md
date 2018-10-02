@@ -7,7 +7,7 @@ old-location: direct2d\id2d1computeinfo_setresourcetexture.htm
 tech.root: direct2d
 ms.assetid: 20641E91-15EB-4D64-AE36-DB83103B112E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1ComputeInfo interface [Direct2D],SetResourceTexture method, ID2D1ComputeInfo.SetResourceTexture, ID2D1ComputeInfo::SetResourceTexture, SetResourceTexture, SetResourceTexture method [Direct2D], SetResourceTexture method [Direct2D],ID2D1ComputeInfo interface, d2d1effectauthor/ID2D1ComputeInfo::SetResourceTexture, direct2d.id2d1computeinfo_setresourcetexture
 ms.prod: windows-hardware
 ms.technology: windows-devices

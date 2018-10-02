@@ -4,10 +4,10 @@ title: IBDA_LNBInfo::get_LocalOscilatorFrequencyLowBand
 author: windows-sdk-content
 description: The get_LocalOscilatorFrequencyLowBand method retrieves the low band of the local oscillator frequency.
 old-location: mstv\ibda_lnbinfo_get_localoscilatorfrequencylowband.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8aabb13a-166f-4b50-90a5-a18dd4b04720
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],get_LocalOscilatorFrequencyLowBand method, IBDA_LNBInfo.get_LocalOscilatorFrequencyLowBand, IBDA_LNBInfo::get_LocalOscilatorFrequencyLowBand, IBDA_LNBInfoget_LocalOscilatorFrequencyLowBand, bdaiface/IBDA_LNBInfo::get_LocalOscilatorFrequencyLowBand, get_LocalOscilatorFrequencyLowBand, get_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies], get_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies],IBDA_LNBInfo interface, mstv.ibda_lnbinfo_get_localoscilatorfrequencylowband
 ms.prod: windows-hardware
 ms.technology: windows-devices

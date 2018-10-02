@@ -4,10 +4,10 @@ title: HTTPAPI_EQUAL_VERSION macro
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is exactly equal to a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_equal_version.htm
-tech.root: http
+tech.root: Http
 ms.assetid: e6af7b3a-2e2f-4a50-bef6-9e5b6503cd71
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: HTTPAPI_EQUAL_VERSION, HTTPAPI_EQUAL_VERSION macro [HTTP], http.httpapi_equal_version, http/HTTPAPI_EQUAL_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

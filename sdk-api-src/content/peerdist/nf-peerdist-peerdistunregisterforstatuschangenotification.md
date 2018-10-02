@@ -4,10 +4,10 @@ title: PeerDistUnregisterForStatusChangeNotification function
 author: windows-sdk-content
 description: PeerDistUnregisterForStatusChangeNotification function unregisters the status change notification for the session associated with the specified handle.
 old-location: p2p\peerdistunregisterforstatuschangenotification.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: cb18c8bb-92b3-4d4e-9ce8-77c5628a9a1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerDistUnregisterForStatusChangeNotification, PeerDistUnregisterForStatusChangeNotification function [Peer Networking], p2p.peerdistunregisterforstatuschangenotification, peerdist/PeerDistUnregisterForStatusChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

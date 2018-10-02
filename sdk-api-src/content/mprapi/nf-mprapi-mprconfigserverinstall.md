@@ -7,7 +7,7 @@ old-location: rras\mprconfigserverinstall.htm
 tech.root: RRAS
 ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

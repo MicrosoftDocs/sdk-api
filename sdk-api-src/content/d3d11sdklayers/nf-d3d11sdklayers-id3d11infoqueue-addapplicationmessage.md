@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_addapplicationmessage.htm
 tech.root: direct3d11
 ms.assetid: ca5a5e33-f912-4283-8b23-b212ace6089c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: 566d6299-a5dc-568a-e71a-3c990b282e93, AddApplicationMessage, AddApplicationMessage method [Direct3D 11], AddApplicationMessage method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],AddApplicationMessage method, ID3D11InfoQueue.AddApplicationMessage, ID3D11InfoQueue::AddApplicationMessage, d3d11sdklayers/ID3D11InfoQueue::AddApplicationMessage, direct3d11.id3d11infoqueue_addapplicationmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

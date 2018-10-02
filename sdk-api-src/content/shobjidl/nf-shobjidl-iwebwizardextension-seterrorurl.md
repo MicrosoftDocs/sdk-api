@@ -4,10 +4,10 @@ title: IWebWizardExtension::SetErrorURL
 author: windows-sdk-content
 description: Specifies the URL of a page that displays when a user experiences an error while navigating through the wizard extension pages.
 old-location: shell\IWebWizardExtension_SetErrorURL.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4b7ba688-dfa0-45ee-a32f-08f24a7626d8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IWebWizardExtension interface [Windows Shell],SetErrorURL method, IWebWizardExtension.SetErrorURL, IWebWizardExtension::SetErrorURL, SetErrorURL, SetErrorURL method [Windows Shell], SetErrorURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetErrorURL, shell.IWebWizardExtension_SetErrorURL, shobjidl/IWebWizardExtension::SetErrorURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

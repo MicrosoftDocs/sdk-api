@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtinqdefaultprotectlevel.htm
 tech.root: Rpc
 ms.assetid: 54a960dd-7dfc-4364-8ae8-e18fa30a51a3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcMgmtInqDefaultProtectLevel, RpcMgmtInqDefaultProtectLevel function [RPC], _rpc_rpcmgmtinqdefaultprotectlevel, rpc.rpcmgmtinqdefaultprotectlevel, rpcdce/RpcMgmtInqDefaultProtectLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

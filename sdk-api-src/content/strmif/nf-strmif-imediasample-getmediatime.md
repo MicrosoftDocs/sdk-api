@@ -7,7 +7,7 @@ old-location: dshow\imediasample_getmediatime.htm
 tech.root: DirectShow
 ms.assetid: eb2a8fd4-4a25-482c-8509-f43461c708d6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: GetMediaTime, GetMediaTime method [DirectShow], GetMediaTime method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaTime method, IMediaSample.GetMediaTime, IMediaSample::GetMediaTime, IMediaSampleGetMediaTime, dshow.imediasample_getmediatime, strmif/IMediaSample::GetMediaTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

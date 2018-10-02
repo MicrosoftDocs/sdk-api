@@ -7,7 +7,7 @@ old-location: gdi\emrsetcoloradjustment.htm
 tech.root: gdi
 ms.assetid: d9f99f71-d102-484f-beb4-0d2de1070345
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PEMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT structure [Windows GDI], PEMRSETCOLORADJUSTMENT, PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI], _win32_EMRSETCOLORADJUSTMENT_str, gdi.emrsetcoloradjustment, tagEMRSETCOLORADJUSTMENT, wingdi/EMRSETCOLORADJUSTMENT, wingdi/PEMRSETCOLORADJUSTMENT"
 ms.prod: windows
 ms.technology: windows-sdk

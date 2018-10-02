@@ -7,7 +7,7 @@ old-location: security\iazrole_deletemembername.htm
 tech.root: SecAuthZ
 ms.assetid: 3ca3e242-deab-46e7-b3f5-d6a75e5a2c08
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzRole object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzRole object, DeleteMemberName method [Security],IAzRole interface, IAzRole interface [Security],DeleteMemberName method, IAzRole.DeleteMemberName, IAzRole::DeleteMemberName, azroles/IAzRole::DeleteMemberName, security.iazrole_deletemembername
 ms.prod: windows-hardware
 ms.technology: windows-devices

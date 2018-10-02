@@ -7,7 +7,7 @@ old-location: controls\DPA_Create.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_create.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: DPA_Create, DPA_Create function [Windows Controls], _win32_DPA_Create, _win32_DPA_Create_cpp, controls.DPA_Create, controls._win32_DPA_Create, dpa_dsa/DPA_Create
 ms.prod: windows-hardware
 ms.technology: windows-devices

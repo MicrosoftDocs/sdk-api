@@ -4,10 +4,10 @@ title: IShellItem2::GetBool
 author: windows-sdk-content
 description: Gets the boolean value of a specified property key.
 old-location: shell\IShellItem2_GetBool.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 754d0a7a-a6b4-41ef-8c8f-483539f7d53e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetBool, GetBool method [Windows Shell], GetBool method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetBool method, IShellItem2.GetBool, IShellItem2::GetBool, _shell_IShellItem2_GetBool, shell.IShellItem2_GetBool, shobjidl_core/IShellItem2::GetBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

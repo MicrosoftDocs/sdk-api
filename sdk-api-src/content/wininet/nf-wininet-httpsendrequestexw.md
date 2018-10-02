@@ -7,7 +7,7 @@ old-location: wininet\httpsendrequestex.htm
 tech.root: WinInet
 ms.assetid: 3362fcd2-e8df-4886-9525-bf60589b2c1f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: HttpSendRequestEx, HttpSendRequestEx function [WinINet], HttpSendRequestExA, HttpSendRequestExW, _win32_httpsendrequestex, wininet.httpsendrequestex, wininet/HttpSendRequestEx, wininet/HttpSendRequestExA, wininet/HttpSendRequestExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

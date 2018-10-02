@@ -4,10 +4,10 @@ title: "_SFVM_HELPTOPIC_DATA"
 author: windows-sdk-content
 description: Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings.
 old-location: shell\SFVM_HELPTOPIC_DATA_str.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c06f43ca-be32-4ab7-ba6c-a0066b749dba
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SFVM_HELPTOPIC_DATA, SFVM_HELPTOPIC_DATA structure [Windows Shell], _SFVM_HELPTOPIC_DATA, _win32_SFVM_HELPTOPIC_DATA_str, shell.SFVM_HELPTOPIC_DATA_str, shlobj_core/SFVM_HELPTOPIC_DATA
 ms.prod: windows
 ms.technology: windows-sdk

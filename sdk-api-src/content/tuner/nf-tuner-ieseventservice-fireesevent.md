@@ -4,10 +4,10 @@ title: IESEventService::FireESEvent
 author: windows-sdk-content
 description: Raises an event derived from the IESEvent interface.
 old-location: mstv\ieseventservice_fireesevent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3781e50c-ab19-4bfa-86d6-af12223019ca
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: FireESEvent, FireESEvent method [Microsoft TV Technologies], FireESEvent method [Microsoft TV Technologies],IESEventService interface, IESEventService interface [Microsoft TV Technologies],FireESEvent method, IESEventService.FireESEvent, IESEventService::FireESEvent, mstv.ieseventservice_fireesevent, tuner/IESEventService::FireESEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

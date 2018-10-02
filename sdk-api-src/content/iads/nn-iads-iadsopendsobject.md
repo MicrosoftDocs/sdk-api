@@ -7,7 +7,7 @@ old-location: adsi\iadsopendsobject.htm
 tech.root: ADSI
 ms.assetid: 9daf6f91-6c58-46a8-ba05-149f28b53829
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObject interface [ADSI],described, _ds_iadsopendsobject, adsi.iadsopendsobject, iads/IADsOpenDSObject
 ms.prod: windows
 ms.technology: windows-sdk

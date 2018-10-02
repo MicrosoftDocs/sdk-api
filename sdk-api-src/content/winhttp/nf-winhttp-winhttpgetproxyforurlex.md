@@ -7,7 +7,7 @@ old-location: http\winhttpgetproxyforurlex.htm
 tech.root: WinHttp
 ms.assetid: 28479a55-7a25-4254-b27a-45e09b166dd5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WinHttpGetProxyForUrlEx, WinHttpGetProxyForUrlEx function [WinHTTP], http.winhttpgetproxyforurlex, winhttp/WinHttpGetProxyForUrlEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

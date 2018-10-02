@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_picture.htm
 tech.root: tablet
 ms.assetid: c07433f2-d32c-4b6f-ad15-6b49dc6f4efa
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: IInkPicture interface [Tablet PC],Picture property, IInkPicture.Picture, IInkPicture.put_Picture, IInkPicture::Picture, IInkPicture::get_Picture, IInkPicture::put_Picture, InkPicture.get_Picture, InkPicture.put_Picture, Picture property [Tablet PC], Picture property [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::Picture, msinkaut/IInkPicture::get_Picture, msinkaut/IInkPicture::put_Picture, put_Picture, tablet.inkpicture_picture
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMenuBand::IsMenuMessage
 author: windows-sdk-content
 description: A message pump calls this method to see if any messages should be redirected to the Component Object Model (COM) object.
 old-location: shell\IMenuBand_IsMenuMessage.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d30a456c-7c09-4250-8509-353c54d017b9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IMenuBand interface [Windows Shell],IsMenuMessage method, IMenuBand.IsMenuMessage, IMenuBand::IsMenuMessage, IsMenuMessage, IsMenuMessage method [Windows Shell], IsMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_IsMenuMessage, shell.IMenuBand_IsMenuMessage, shobjidl_core/IMenuBand::IsMenuMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

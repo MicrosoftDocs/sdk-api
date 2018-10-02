@@ -4,10 +4,10 @@ title: INetSharingPrivateConnectionCollection::get_Count
 author: windows-sdk-content
 description: The get__Count method retrieves the number of items in the private connections collection.
 old-location: ics\inetsharingprivateconnectioncollection_get_count.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 599ffa10-6932-48bd-a736-60512f25271c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get_Count method, INetSharingPrivateConnectionCollection.get_Count, INetSharingPrivateConnectionCollection::get_Count, _ics_inetsharingprivateconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get_count, netcon/INetSharingPrivateConnectionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

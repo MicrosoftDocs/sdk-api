@@ -4,10 +4,10 @@ title: IActionProgressDialog::Stop
 author: windows-sdk-content
 description: Stops a progress dialog.
 old-location: shell\IActionProgressDialog_Stop.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 700835c1-f6c0-40f9-8968-0924281dcfe0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IActionProgressDialog interface [Windows Shell],Stop method, IActionProgressDialog.Stop, IActionProgressDialog::Stop, Stop, Stop method [Windows Shell], Stop method [Windows Shell],IActionProgressDialog interface, _shell_IActionProgressDialog_Stop, shell.IActionProgressDialog_Stop, shobjidl_core/IActionProgressDialog::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

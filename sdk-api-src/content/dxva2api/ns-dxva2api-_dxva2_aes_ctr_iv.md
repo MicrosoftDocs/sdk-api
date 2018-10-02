@@ -4,10 +4,10 @@ title: "_DXVA2_AES_CTR_IV"
 author: windows-sdk-content
 description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 old-location: mf\dxva2_aes_ctr_iv.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: acde4bbb-2a14-4237-b426-a157a9781f40
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: DXVA2_AES_CTR_IV, DXVA2_AES_CTR_IV structure [Media Foundation], _DXVA2_AES_CTR_IV, dxva2api/DXVA2_AES_CTR_IV, mf.dxva2_aes_ctr_iv
 ms.prod: windows
 ms.technology: windows-sdk

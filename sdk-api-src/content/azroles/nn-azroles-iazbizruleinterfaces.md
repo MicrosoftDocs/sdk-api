@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces.htm
 tech.root: SecAuthZ
 ms.assetid: 96cc0e45-ddd5-4ab0-9243-5f2046e48f78
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], IAzBizRuleInterfaces interface [Security],described, azroles/IAzBizRuleInterfaces, security.iazbizruleinterfaces
 ms.prod: windows
 ms.technology: windows-sdk

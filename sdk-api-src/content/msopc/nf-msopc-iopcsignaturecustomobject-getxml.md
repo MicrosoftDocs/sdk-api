@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobject_getxml.htm
 tech.root: OPC
 ms.assetid: fedb6f47-59b9-4959-91ef-db1fb398aca9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetXml, GetXml method [Open Packaging Conventions], GetXml method [Open Packaging Conventions],IOpcSignatureCustomObject interface, IOpcSignatureCustomObject interface [Open Packaging Conventions],GetXml method, IOpcSignatureCustomObject.GetXml, IOpcSignatureCustomObject::GetXml, msopc/IOpcSignatureCustomObject::GetXml, opc.iopcsignaturecustomobject_getxml
 ms.prod: windows-hardware
 ms.technology: windows-devices

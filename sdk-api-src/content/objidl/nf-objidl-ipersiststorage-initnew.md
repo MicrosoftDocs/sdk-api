@@ -7,7 +7,7 @@ old-location: com\ipersiststorage_initnew.htm
 tech.root: com
 ms.assetid: 79caf1f6-d974-4aee-8563-eda4876a0a90
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IPersistStorage interface [COM],InitNew method, IPersistStorage.InitNew, IPersistStorage::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IPersistStorage interface, _com_ipersiststorage_initnew, com.ipersiststorage_initnew, objidl/IPersistStorage::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices

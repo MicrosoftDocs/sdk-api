@@ -4,10 +4,10 @@ title: IOperationsProgressDialog::GetMilliseconds
 author: windows-sdk-content
 description: Gets elapsed and remaining time for progress dialog.
 old-location: shell\IOperationsProgressDialog_GetMilliseconds.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0e1c34cf-1fa2-43b7-91c9-2ec9224b5b39
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetMilliseconds, GetMilliseconds method [Windows Shell], GetMilliseconds method [Windows Shell],IOperationsProgressDialog interface, IOperationsProgressDialog interface [Windows Shell],GetMilliseconds method, IOperationsProgressDialog.GetMilliseconds, IOperationsProgressDialog::GetMilliseconds, _shell_IOperationsProgressDialog_GetMilliseconds, shell.IOperationsProgressDialog_GetMilliseconds, shobjidl_core/IOperationsProgressDialog::GetMilliseconds
 ms.prod: windows-hardware
 ms.technology: windows-devices

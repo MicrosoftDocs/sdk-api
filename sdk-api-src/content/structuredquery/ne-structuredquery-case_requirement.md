@@ -7,7 +7,7 @@ old-location: search\_search_CASE_REQUIREMENT.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\case_requirement.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: CASE_REQUIREMENT, CASE_REQUIREMENT enumeration [search], CASE_REQUIREMENT_ANY, CASE_REQUIREMENT_UPPER_IF_AQS, _search_CASE_REQUIREMENT, search._search_CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT_ANY, structuredquery/CASE_REQUIREMENT_UPPER_IF_AQS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IApplicationDestinations
 author: windows-sdk-content
 description: Exposes methods that allow an application to remove one or all destinations from the Recent or Frequent categories in a Jump List.
 old-location: shell\IApplicationDestinations.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d425eb2c-75c7-431e-9607-11ea2e092178
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IApplicationDestinations, IApplicationDestinations interface [Windows Shell], IApplicationDestinations interface [Windows Shell],described, _shell_IApplicationDestinations, shell.IApplicationDestinations, shobjidl_core/IApplicationDestinations
 ms.prod: windows
 ms.technology: windows-sdk

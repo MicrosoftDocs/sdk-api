@@ -4,10 +4,10 @@ title: PeerCollabEnumEndpoints function
 author: windows-sdk-content
 description: Returns the handle to an enumeration that contains the endpoints associated with a specific peer contact.
 old-location: p2p\peercollabenumendpoints.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: c29d089c-1f1e-4d50-9a3a-18c844b4ad1c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabEnumEndpoints, PeerCollabEnumEndpoints function [Peer Networking], p2p.peercollabenumendpoints, p2p/PeerCollabEnumEndpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

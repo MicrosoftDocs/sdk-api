@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_INPUT
 author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS query.
 old-location: mf\d3d11_authenticated_query_restricted_shared_resource_process_input.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 39B705E7-CCC0-48D3-A665-F42DE737FFAE
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_INPUT, D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_INPUT, mf.d3d11_authenticated_query_restricted_shared_resource_process_input
 ms.prod: windows
 ms.technology: windows-sdk

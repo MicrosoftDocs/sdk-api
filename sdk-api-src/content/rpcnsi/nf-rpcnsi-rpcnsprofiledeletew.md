@@ -7,7 +7,7 @@ old-location: rpc\rpcnsprofiledelete.htm
 tech.root: Rpc
 ms.assetid: bac77a37-a4e8-4edf-a31b-28692ccec0f7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcNsProfileDelete, RpcNsProfileDelete function [RPC], RpcNsProfileDeleteA, RpcNsProfileDeleteW, _rpc_rpcnsprofiledelete, rpc.rpcnsprofiledelete, rpcnsi/RpcNsProfileDelete, rpcnsi/RpcNsProfileDeleteA, rpcnsi/RpcNsProfileDeleteW
 ms.prod: windows-hardware
 ms.technology: windows-devices

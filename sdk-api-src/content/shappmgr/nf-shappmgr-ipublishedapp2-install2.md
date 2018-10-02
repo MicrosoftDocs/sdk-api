@@ -4,10 +4,10 @@ title: IPublishedApp2::Install2
 author: windows-sdk-content
 description: Installs an application published by an application publisher, while preventing multiple windows from being active on the same thread.
 old-location: shell\IPublishedApp2_Install2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ce2319d0-e4e8-49a8-9803-ef386c6969a9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IPublishedApp2 interface [Windows Shell],Install2 method, IPublishedApp2.Install2, IPublishedApp2::Install2, Install2, Install2 method [Windows Shell], Install2 method [Windows Shell],IPublishedApp2 interface, _shell_IPublishedApp2_Install2, shappmgr/IPublishedApp2::Install2, shell.IPublishedApp2_Install2
 ms.prod: windows-hardware
 ms.technology: windows-devices

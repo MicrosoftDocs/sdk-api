@@ -2,21 +2,21 @@
 UID: NF:gdiplustypes.RectF.Contains(IN REAL,IN REAL)
 title: RectF::Contains(IN REAL,IN REAL)
 author: windows-sdk-content
-description: This topic lists the Contains methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
-old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_Methods.htm
+description: The RectF::Contains method determines whether the point (x, y) is inside this rectangle.
+old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_x_y_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods\contains_77x_y.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Contains, Contains methods [GDI+], RectF.Contains, RectF.Contains(IN REAL,IN REAL), RectF::Contains, RectF::Contains(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Contains_Methods, gdiplus._gdiplus_CLASS_RectF_Contains_Methods, gdiplustypes/Contains
+ms.date: 09/26/2018
+ms.keywords: Contains, Contains method [GDI+], Contains method [GDI+],RectF class, RectF class [GDI+],Contains method, RectF.Contains, RectF.Contains(IN REAL,IN REAL), RectF.Contains(REAL,REAL), RectF::Contains, RectF::Contains(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Contains_x_y_, gdiplus._gdiplus_CLASS_RectF_Contains_x_y_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplustypes.h
+ - Gdiplus.dll
 api_name:
  - RectF.Contains
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # RectF::Contains(IN REAL,IN REAL)
@@ -50,43 +51,67 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Contains methods of the 
-			<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> class. For a complete list of methods for the 
-			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/f14f1693-b0f3-4e68-8245-846aef1ed299">RectF Methods</a>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f27723a8-173b-4eb9-b003-d74e9cb16154">Contains(RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f27723a8-173b-4eb9-b003-d74e9cb16154">RectF::Contains</a> method determines whether another rectangle is inside this rectangle.
+The <b>RectF::Contains</b> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/adeb5a20-1ef0-4811-a16a-3e9d06c05cf7">Contains(PointF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/adeb5a20-1ef0-4811-a16a-3e9d06c05cf7">RectF::Contains</a> method determines whether a point is inside this rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6aa28593-4692-44e9-984c-fd25b519dd14">Contains(REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6aa28593-4692-44e9-984c-fd25b519dd14">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param x [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the x-coordinate of the point to be tested. 
+
+
+### -param y [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the y-coordinate of the point to be tested. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>BOOL</b>
+</strong>
+
+If the point to be tested (<i>x</i>, <i>y</i>) is inside this rectangle, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/59ecbc4d-88d8-4d37-a1af-ed1da536406c">Contains Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+
+
+
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+ 
+
+ 
 

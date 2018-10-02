@@ -4,10 +4,10 @@ title: IPSEC_CIPHER_TRANSFORM_ID0_
 author: windows-sdk-content
 description: Specifies information used to uniquely identify the encryption algorithm used in an IPsec SA.
 old-location: fwp\ipsec_cipher_transform_id0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: fc58606b-18a4-49ab-87bb-a6846b81520b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_CIPHER_CONFIG_CBC_3DES, IPSEC_CIPHER_CONFIG_CBC_AES_128, IPSEC_CIPHER_CONFIG_CBC_AES_192, IPSEC_CIPHER_CONFIG_CBC_AES_256, IPSEC_CIPHER_CONFIG_CBC_DES, IPSEC_CIPHER_CONFIG_GCM_AES_128, IPSEC_CIPHER_CONFIG_GCM_AES_192, IPSEC_CIPHER_CONFIG_GCM_AES_256, IPSEC_CIPHER_TRANSFORM_ID0, IPSEC_CIPHER_TRANSFORM_ID0 structure [Filtering], IPSEC_CIPHER_TRANSFORM_ID0_, fwp.ipsec_cipher_transform_id0_struct, ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0
 ms.prod: windows
 ms.technology: windows-sdk

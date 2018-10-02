@@ -4,10 +4,10 @@ title: "_DS_REPL_VALUE_META_DATA"
 author: windows-sdk-content
 description: Used with the DS_REPL_ATTR_VALUE_META_DATA structure to contain attribute value replication metadata.
 old-location: ad\ds_repl_value_meta_data.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 294a466e-8a83-4b33-a8a8-ac7b51d081d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPL_VALUE_META_DATA, DS_REPL_VALUE_META_DATA structure [Active Directory], _DS_REPL_VALUE_META_DATA, ad.ds_repl_value_meta_data, ntdsapi/DS_REPL_VALUE_META_DATA
 ms.prod: windows
 ms.technology: windows-sdk

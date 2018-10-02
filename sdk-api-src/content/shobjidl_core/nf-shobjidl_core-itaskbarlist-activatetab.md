@@ -4,10 +4,10 @@ title: ITaskbarList::ActivateTab
 author: windows-sdk-content
 description: Activates an item on the taskbar. The window is not actually activated; the window's item on the taskbar is merely displayed as active.
 old-location: shell\ITaskbarList_ActivateTab.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1dc95768-62a5-4784-9f4f-96bebdd38c2b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ActivateTab, ActivateTab method [Windows Shell], ActivateTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],ActivateTab method, ITaskbarList.ActivateTab, ITaskbarList::ActivateTab, _win32_ITaskbarList_ActivateTab, shell.ITaskbarList_ActivateTab, shobjidl_core/ITaskbarList::ActivateTab
 ms.prod: windows-hardware
 ms.technology: windows-devices

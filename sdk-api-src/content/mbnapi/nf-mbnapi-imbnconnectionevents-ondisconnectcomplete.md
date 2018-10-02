@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionevents_ondisconnectcomplete.htm
 tech.root: mbn
 ms.assetid: 2d225823-2b9b-4c3a-b847-7b2b9a13d121
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnDisconnectComplete method, IMbnConnectionEvents.OnDisconnectComplete, IMbnConnectionEvents::OnDisconnectComplete, OnDisconnectComplete, OnDisconnectComplete method [Microsoft Broadband Networks], OnDisconnectComplete method [Microsoft Broadband Networks],IMbnConnectionEvents interface, mbn.imbnconnectionevents_ondisconnectcomplete, mbnapi/IMbnConnectionEvents::OnDisconnectComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

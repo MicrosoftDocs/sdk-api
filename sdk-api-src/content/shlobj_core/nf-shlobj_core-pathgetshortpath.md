@@ -4,10 +4,10 @@ title: PathGetShortPath function
 author: windows-sdk-content
 description: PathGetShortPath may be altered or unavailable.
 old-location: shell\PathGetShortPath.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f374a575-3fbf-4bed-aa76-76ed81e01d60
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: PathGetShortPath, PathGetShortPath function [Windows Shell], _win32_PathGetShortPath, shell.PathGetShortPath, shlobj_core/PathGetShortPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

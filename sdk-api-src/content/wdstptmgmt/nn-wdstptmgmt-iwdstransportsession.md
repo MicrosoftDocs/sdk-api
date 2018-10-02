@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsession.htm
 tech.root: Wds
 ms.assetid: acf417ea-2396-4178-84e5-6d6b495476f8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], IWdsTransportSession interface [Windows Deployment Services],described, wds.iwdstransportsession, wdstptmgmt/IWdsTransportSession
 ms.prod: windows
 ms.technology: windows-sdk

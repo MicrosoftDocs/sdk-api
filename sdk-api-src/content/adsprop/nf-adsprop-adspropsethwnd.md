@@ -4,10 +4,10 @@ title: ADsPropSetHwnd function
 author: windows-sdk-content
 description: Used to notify the notification object of the property page window handle.
 old-location: ad\adspropsethwnd.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 9fc6b86b-e075-4969-842c-3ebddd43db8f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ADsPropSetHwnd, ADsPropSetHwnd function [Active Directory], _glines_adspropsethwnd, ad.adspropsethwnd, adsprop/ADsPropSetHwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

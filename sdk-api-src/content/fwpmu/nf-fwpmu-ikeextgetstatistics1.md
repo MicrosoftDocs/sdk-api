@@ -4,10 +4,10 @@ title: IkeextGetStatistics1 function
 author: windows-sdk-content
 description: Retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics.
 old-location: fwp\ikeextgetstatistics1.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: c1742e08-a998-4773-a216-cfbbee8608b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IkeextGetStatistics1, IkeextGetStatistics1 function [Filtering], fwp.ikeextgetstatistics1, fwpmu/IkeextGetStatistics1
 ms.prod: windows-hardware
 ms.technology: windows-devices

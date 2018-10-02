@@ -4,10 +4,10 @@ title: INetSharingPortMappingProps::get_Name
 author: windows-sdk-content
 description: The get_Name method retrieves the name for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_name.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 0f2b4d49-a13d-49e1-96d0-276afe4208b2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Name method, INetSharingPortMappingProps.get_Name, INetSharingPortMappingProps::get_Name, _ics_inetsharingportmappingprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_name, netcon/INetSharingPortMappingProps::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

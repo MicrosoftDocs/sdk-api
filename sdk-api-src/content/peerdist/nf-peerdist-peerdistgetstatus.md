@@ -4,10 +4,10 @@ title: PeerDistGetStatus function
 author: windows-sdk-content
 description: PeerDistGetStatus function returns the current status of the Peer Distribution service.
 old-location: p2p\peerdistgetstatus.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

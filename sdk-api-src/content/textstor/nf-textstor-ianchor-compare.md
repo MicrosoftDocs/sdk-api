@@ -7,7 +7,7 @@ old-location: tsf\ianchor_compare.htm
 tech.root: TSF
 ms.assetid: 227ed0c0-0bdd-49af-b5dc-fdb69913b9c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: "+1, -1, 0, Compare, Compare method [Text Services Framework], Compare method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Compare method, IAnchor.Compare, IAnchor::Compare, textstor/IAnchor::Compare, tsf.ianchor_compare"
 ms.prod: windows-hardware
 ms.technology: windows-devices

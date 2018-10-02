@@ -7,7 +7,7 @@ old-location: wsw\wsreadmessagestart.htm
 tech.root: wsw
 ms.assetid: e4f92e99-f272-47b5-8eaa-56713b22df7e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsReadMessageStart, WsReadMessageStart function [Web Services for Windows], webservices/WsReadMessageStart, wsw.wsreadmessagestart
 ms.prod: windows-hardware
 ms.technology: windows-devices

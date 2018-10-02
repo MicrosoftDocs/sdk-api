@@ -7,7 +7,7 @@ old-location: lwef\search_2x_columnsortorder.htm
 tech.root: lwef
 ms.assetid: VS|search|~\search\wds2x\reference\enum\columnsortorder.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: AscItems, COLUMNSORTORDER, ColumnSortOrder, ColumnSortOrder enumeration [Legacy Windows Environment Features], DescItems, _ColumnSortOrder, lwef.search_2x_columnsortorder, mmcobj/AscItems, mmcobj/ColumnSortOrder, mmcobj/DescItems, search.search_2x_columnsortorder, search_2x_ColumnSortOrder
 ms.prod: windows
 ms.technology: windows-sdk

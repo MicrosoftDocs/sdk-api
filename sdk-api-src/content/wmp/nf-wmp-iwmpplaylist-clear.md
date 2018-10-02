@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_clear.htm
 tech.root: WMP
 ms.assetid: 3de2410d-e35a-4f27-bdcf-2a6d85eafe9d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],clear method, IWMPPlaylist.clear, IWMPPlaylist::clear, IWMPPlaylistclear, clear, clear method [Windows Media Player], clear method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_clear, wmp/IWMPPlaylist::clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

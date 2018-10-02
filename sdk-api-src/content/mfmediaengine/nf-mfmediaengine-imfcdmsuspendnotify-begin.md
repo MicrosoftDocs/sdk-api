@@ -4,10 +4,10 @@ title: IMFCdmSuspendNotify::Begin
 author: windows-sdk-content
 description: Indicates that the suspend process is starting and resources should be brought into a consistent state.
 old-location: mf\imfcdmsuspendnotify_begin.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5cf3d249-3d8b-4596-9d8b-e7b95a270eff
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: Begin, Begin method [Media Foundation], Begin method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],Begin method, IMFCdmSuspendNotify.Begin, IMFCdmSuspendNotify::Begin, mf.imfcdmsuspendnotify_begin, mfmediaengine/IMFCdmSuspendNotify::Begin
 ms.prod: windows-hardware
 ms.technology: windows-devices

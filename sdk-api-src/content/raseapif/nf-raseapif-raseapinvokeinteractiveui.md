@@ -4,10 +4,10 @@ title: RasEapInvokeInteractiveUI function
 author: windows-sdk-content
 description: The RAS connection manager calls the RasEapInvokeInteractiveUI function to display a dialog to obtain authentication data from the user.
 old-location: eap\raseapinvokeinteractiveui.htm
-tech.root: eap
+tech.root: EAP
 ms.assetid: 71dd40c9-acbd-4fb6-800d-d3f83a61b7b8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasEapInvokeInteractiveUI callback function [EAP], _eap_raseapinvokeinteractiveui, eap.raseapinvokeinteractiveui, raseapif/RasEapInvokeInteractiveUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

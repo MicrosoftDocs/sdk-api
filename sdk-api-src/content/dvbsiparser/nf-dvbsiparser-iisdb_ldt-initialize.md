@@ -4,10 +4,10 @@ title: IISDB_LDT::Initialize
 author: windows-sdk-content
 description: Initializes the object using captured table section data for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_initialize.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6239688f-2300-4cdb-97cb-179f63efb933
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IISDB_LDT interface [Microsoft TV Technologies],Initialize method, IISDB_LDT.Initialize, IISDB_LDT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_LDT interface, dvbsiparser/IISDB_LDT::Initialize, mstv.iisdb_ldt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

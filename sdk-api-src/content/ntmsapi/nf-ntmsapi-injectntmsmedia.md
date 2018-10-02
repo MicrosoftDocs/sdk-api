@@ -7,7 +7,7 @@ old-location: fs\injectntmsmedia.htm
 tech.root: Rsm
 ms.assetid: c4274c9c-f052-42dd-859b-85606d455001
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InjectNtmsMedia, InjectNtmsMedia function [Files], NTMS_INJECT_RETRACT, NTMS_INJECT_START, NTMS_INJECT_START_MANY, NTMS_INJECT_STOP, _zaw_injectntmsmedia, base.injectntmsmedia, fs.injectntmsmedia, ntmsapi/InjectNtmsMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

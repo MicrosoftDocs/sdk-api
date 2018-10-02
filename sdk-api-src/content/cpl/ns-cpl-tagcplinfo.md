@@ -4,10 +4,10 @@ title: tagCPLINFO
 author: windows-sdk-content
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\CPLINFO.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 707950c9-c242-43b2-b665-c97a89e632c5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPLINFO, cpl/CPLINFO, shell.CPLINFO, tagCPLINFO"
 ms.prod: windows
 ms.technology: windows-sdk

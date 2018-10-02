@@ -7,7 +7,7 @@ old-location: security\slclose.htm
 tech.root: SecSLApi
 ms.assetid: a2483fa2-cdd6-48b8-861f-34fd5efc34df
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SLClose, SLClose function [Security], security.slclose, slpublic/SLClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

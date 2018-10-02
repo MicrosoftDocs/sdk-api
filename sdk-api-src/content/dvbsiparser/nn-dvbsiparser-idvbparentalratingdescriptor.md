@@ -4,10 +4,10 @@ title: IDvbParentalRatingDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 667ef815-ef22-4dd1-9457-49af674b24ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbParentalRatingDescriptor, mstv.idvbparentalratingdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

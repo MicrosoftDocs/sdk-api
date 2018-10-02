@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrary2_getiteminfo.htm
 tech.root: WMP
 ms.assetid: 38de9e72-b942-4c09-be9e-ff9f345c778d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IWMPLibrary2 interface [Windows Media Player],getItemInfo method, IWMPLibrary2.getItemInfo, IWMPLibrary2::getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPLibrary2 interface, wmp.iwmplibrary2_getiteminfo, wmp/IWMPLibrary2::getItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

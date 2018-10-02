@@ -4,10 +4,10 @@ title: IDirect3D9ExOverlayExtension
 author: windows-sdk-content
 description: Queries the overlay hardware capabilities of a Direct3D device.
 old-location: mf\idirect3d9exoverlayextension.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 57591794-96d3-40e6-a4fb-3bb195fd1396
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IDirect3D9ExOverlayExtension, IDirect3D9ExOverlayExtension interface [Media Foundation], IDirect3D9ExOverlayExtension interface [Media Foundation],described, d3d9/IDirect3D9ExOverlayExtension, mf.idirect3d9exoverlayextension
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IEnumPluggableTerminalClassInfo::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggableterminalclassinfo_reset.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 075faaed-4678-4676-8780-e5b595541488
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Reset method, IEnumPluggableTerminalClassInfo.Reset, IEnumPluggableTerminalClassInfo::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_reset, tapi3.ienumpluggableterminalclassinfo_reset, tapi3if/IEnumPluggableTerminalClassInfo::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

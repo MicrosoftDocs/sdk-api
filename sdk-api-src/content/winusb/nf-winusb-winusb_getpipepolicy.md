@@ -4,10 +4,10 @@ title: WinUsb_GetPipePolicy function
 author: windows-sdk-content
 description: The WinUsb_GetPipePolicy function retrieves the policy for a specific pipe associated with an endpoint on the device. This is a synchronous operation.
 old-location: buses\winusb_getpipepolicy.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: adf66b3d-cf63-40f1-837a-d83c353236a3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WinUsb_GetPipePolicy, WinUsb_GetPipePolicy function [Buses], buses.winusb_getpipepolicy, winusb/WinUsb_GetPipePolicy, winusbfunc_1f0337bd-6717-4123-914b-daecb090ac89.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

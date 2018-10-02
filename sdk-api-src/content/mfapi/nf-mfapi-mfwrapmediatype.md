@@ -4,10 +4,10 @@ title: MFWrapMediaType function
 author: windows-sdk-content
 description: Creates a media type that wraps another media type.
 old-location: mf\mfwrapmediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: a3dd74bc-1f1c-40b9-a43e-d45ff621248f
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFWrapMediaType, MFWrapMediaType function [Media Foundation], a3dd74bc-1f1c-40b9-a43e-d45ff621248f, mf.mfwrapmediatype, mfapi/MFWrapMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\icolumnmappercreator.htm
 tech.root: search
 ms.assetid: 3598C736-5736-4B08-83B7-E80BA69FCBAB
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IColumnMapperCreator, IColumnMapperCreator interface [search], IColumnMapperCreator interface [search],described, indexsrv/IColumnMapperCreator, search.icolumnmappercreator
 ms.prod: windows
 ms.technology: windows-sdk

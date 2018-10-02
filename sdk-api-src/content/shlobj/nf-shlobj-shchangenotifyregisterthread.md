@@ -4,10 +4,10 @@ title: SHChangeNotifyRegisterThread function
 author: windows-sdk-content
 description: Enables asynchronous register and deregister of a thread.
 old-location: shell\SHChangeNotifyRegisterThread.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 170afefc-b4de-4661-9c12-1341656b0fdb
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHChangeNotifyRegisterThread, SHChangeNotifyRegisterThread function [Windows Shell], _shell_SHChangeNotifyRegisterThread, shell.SHChangeNotifyRegisterThread, shlobj/SHChangeNotifyRegisterThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SHGetKnownFolderPath function
 author: windows-sdk-content
 description: Retrieves the full path of a known folder identified by the folder's KNOWNFOLDERID.
 old-location: shell\SHGetKnownFolderPath.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

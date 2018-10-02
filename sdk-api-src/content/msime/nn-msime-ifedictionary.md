@@ -7,7 +7,7 @@ old-location: intl\ifedictionary.htm
 tech.root: Intl
 ms.assetid: 4C63FF43-0170-4038-AB01-72441E1BB189
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/28/2018
 ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications],described, intl.ifedictionary, msime/IFEDictionary
 ms.prod: windows
 ms.technology: windows-sdk

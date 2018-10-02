@@ -4,10 +4,10 @@ title: IShellFolderViewDual::get_ViewOptions
 author: windows-sdk-content
 description: Gets a set of flags that indicate the current options of the view.
 old-location: shell\IShellFolderViewDual_get_ViewOptions.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1ef3a163-bc38-40b2-aa3e-dcd36f87964f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_ViewOptions method, IShellFolderViewDual.get_ViewOptions, IShellFolderViewDual::get_ViewOptions, _shell_IShellFolderViewDual_get_ViewOptions, get_ViewOptions, get_ViewOptions method [Windows Shell], get_ViewOptions method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_ViewOptions, shldisp/IShellFolderViewDual::get_ViewOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

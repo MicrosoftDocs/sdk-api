@@ -4,10 +4,10 @@ title: SHMultiFileProperties function
 author: windows-sdk-content
 description: Displays a merged property sheet for a set of files. Property values common to all the files are shown while those that differ display the string (multiple values).
 old-location: shell\SHMultiFileProperties.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7c66fd91-4f7a-45f3-b849-bf210c552511
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHMultiFileProperties, SHMultiFileProperties function [Windows Shell], _win32_SHMultiFileProperties, shell.SHMultiFileProperties, shlobj/SHMultiFileProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

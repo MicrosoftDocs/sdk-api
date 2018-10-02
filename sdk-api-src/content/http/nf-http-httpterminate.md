@@ -4,10 +4,10 @@ title: HttpTerminate function
 author: windows-sdk-content
 description: Cleans up resources used by the HTTP Server API to process calls by an application.
 old-location: http\httpterminate.htm
-tech.root: http
+tech.root: Http
 ms.assetid: d1922375-3d59-45a7-9d1d-08dbce1111ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: HTTP_INITIALIZE_CONFIG, HTTP_INITIALIZE_SERVER, HttpTerminate, HttpTerminate function [HTTP], _http_httpterminate, http.httpterminate, http/HttpTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices

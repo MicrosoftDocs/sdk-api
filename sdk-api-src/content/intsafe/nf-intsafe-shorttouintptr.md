@@ -4,10 +4,10 @@ title: ShortToUIntPtr function
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type UINT_PTR.
 old-location: shell\ShortToUIntPtr.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6b5d0c0c-a2c3-4d63-ab6c-d93372a7413e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ShortToUIntPtr, ShortToUIntPtr function [Windows Shell], intsafe/ShortToUIntPtr, shell.ShortToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

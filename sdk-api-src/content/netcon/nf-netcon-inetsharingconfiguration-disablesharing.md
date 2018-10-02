@@ -4,10 +4,10 @@ title: INetSharingConfiguration::DisableSharing
 author: windows-sdk-content
 description: The DisableSharing method disables sharing on this connection. It also disables all mappings on this connection. It does not disable Internet Connection Firewall or bridge configuration.
 old-location: ics\inetsharingconfiguration_disablesharing.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 85fda578-603c-4447-8546-374077235943
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: DisableSharing, DisableSharing method [ICS/ICF], DisableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableSharing method, INetSharingConfiguration.DisableSharing, INetSharingConfiguration::DisableSharing, _ics_inetsharingconfiguration_disablesharing, ics.inetsharingconfiguration_disablesharing, netcon/INetSharingConfiguration::DisableSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices

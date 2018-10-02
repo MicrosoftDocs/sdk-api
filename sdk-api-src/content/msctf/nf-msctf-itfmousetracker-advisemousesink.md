@@ -7,7 +7,7 @@ old-location: tsf\itfmousetracker_advisemousesink.htm
 tech.root: TSF
 ms.assetid: d73b2b9b-8904-4507-9b32-dcb8946fb887
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: AdviseMouseSink, AdviseMouseSink method [Text Services Framework], AdviseMouseSink method [Text Services Framework],ITfMouseTracker interface, ITfMouseTracker interface [Text Services Framework],AdviseMouseSink method, ITfMouseTracker.AdviseMouseSink, ITfMouseTracker::AdviseMouseSink, _tsf_itfmousetracker_advisemousesink_ref, msctf/ITfMouseTracker::AdviseMouseSink, tsf.itfmousetracker_advisemousesink
 ms.prod: windows-hardware
 ms.technology: windows-devices

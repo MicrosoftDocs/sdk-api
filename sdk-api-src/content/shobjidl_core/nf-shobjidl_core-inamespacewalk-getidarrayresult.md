@@ -4,10 +4,10 @@ title: INamespaceWalk::GetIDArrayResult
 author: windows-sdk-content
 description: Gets a list of objects found during a namespace walk initiated by INamespaceWalk::Walk.
 old-location: shell\INamespaceWalk_GetIDArrayResult.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 51bce109-8f84-4852-bec5-e4f2937c31b3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetIDArrayResult, GetIDArrayResult method [Windows Shell], GetIDArrayResult method [Windows Shell],INamespaceWalk interface, INamespaceWalk interface [Windows Shell],GetIDArrayResult method, INamespaceWalk.GetIDArrayResult, INamespaceWalk::GetIDArrayResult, _win32_INamespaceWalk_GetIDArrayResult, shell.INamespaceWalk_GetIDArrayResult, shobjidl_core/INamespaceWalk::GetIDArrayResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

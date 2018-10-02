@@ -4,10 +4,10 @@ title: IVisualProperties::SetFont
 author: windows-sdk-content
 description: Sets attributes of the font.
 old-location: shell\IVisualProperties_SetFont.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ecdf8652-0e1c-47df-bd19-80390bdf6c7f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetFont method, IVisualProperties.SetFont, IVisualProperties::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetFont, shell.IVisualProperties_SetFont, shobjidl/IVisualProperties::SetFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

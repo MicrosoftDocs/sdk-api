@@ -7,7 +7,7 @@ old-location: winsock\inet_port_reservation_token.htm
 tech.root: WinSock
 ms.assetid: 1AA2FF8C-BEAB-4D38-B53A-68E0628748FF
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PINET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN structure [Winsock], PINET_PORT_RESERVATION_TOKEN, PINET_PORT_RESERVATION_TOKEN structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_TOKEN, mstcpip/PINET_PORT_RESERVATION_TOKEN, winsock.inet_port_reservation_token"
 ms.prod: windows
 ms.technology: windows-sdk

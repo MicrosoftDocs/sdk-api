@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectconstantbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 03babb38-8c88-954d-43c3-eb8942a15d5a, ID3D10EffectConstantBuffer, ID3D10EffectConstantBuffer interface [Direct3D 10], ID3D10EffectConstantBuffer interface [Direct3D 10],described, d3d10effect/ID3D10EffectConstantBuffer, direct3d10.id3d10effectconstantbuffer
 ms.prod: windows
 ms.technology: windows-sdk

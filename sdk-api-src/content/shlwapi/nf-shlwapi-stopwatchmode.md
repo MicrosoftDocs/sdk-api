@@ -4,10 +4,10 @@ title: StopWatchMode function
 author: windows-sdk-content
 description: StopWatchMode may be altered or unavailable.
 old-location: shell\StopWatchMode.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3db69040-0720-41a3-ba88-db885a2685aa
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: StopWatchMode, StopWatchMode function [Windows Shell], _win32_StopWatchMode, shell.StopWatchMode, shlwapi/StopWatchMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

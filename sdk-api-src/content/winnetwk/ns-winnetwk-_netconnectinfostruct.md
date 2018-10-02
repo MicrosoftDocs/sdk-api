@@ -4,10 +4,10 @@ title: "_NETCONNECTINFOSTRUCT"
 author: windows-sdk-content
 description: The NETCONNECTINFOSTRUCT structure contains information about the performance of a network. It is used by the NPGetConnectionPerformance function.
 old-location: security\netconnectinfostruct.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 0309667e-cb6c-406f-bb48-ed16602d38b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT structure pointer [Security], NETCONNECTINFOSTRUCT, NETCONNECTINFOSTRUCT structure [Security], WNCON_DYNAMIC, WNCON_FORNETCARD, WNCON_NOTROUTED, WNCON_SLOWLINK, _NETCONNECTINFOSTRUCT, _mnp_netconnectinfostruct, security.netconnectinfostruct, winnetwk/LPNETCONNECTINFOSTRUCT, winnetwk/NETCONNECTINFOSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk

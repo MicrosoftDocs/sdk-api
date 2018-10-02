@@ -7,7 +7,7 @@ old-location: gpmc\igpmsecurityinfo_get__newenum.htm
 tech.root: GPMC
 ms.assetid: f8dc2ee1-d1cb-4e7a-abf4-1a388320b681
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IGPMSecurityInfo interface [GPMC],get__NewEnum method, IGPMSecurityInfo.get__NewEnum, IGPMSecurityInfo::get__NewEnum, _win32_igpmsecurityinfo_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMSecurityInfo interface, gpmc.igpmsecurityinfo_get__newenum, gpmgmt/IGPMSecurityInfo::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

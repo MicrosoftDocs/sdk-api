@@ -4,10 +4,10 @@ title: DrvQueryTrueTypeTable function
 author: windows-sdk-content
 description: The DrvQueryTrueTypeTable function accesses specific tables in a TrueType font-description file.
 old-location: display\drvquerytruetypetable.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d1c76df6-8c27-47b5-a879-4e064081481c
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvQueryTrueTypeTable, DrvQueryTrueTypeTable function [Display Devices], ddifncs_bcc0c4c9-b3f4-471d-8f04-1cca202e9d24.xml, display.drvquerytruetypetable, winddi/DrvQueryTrueTypeTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

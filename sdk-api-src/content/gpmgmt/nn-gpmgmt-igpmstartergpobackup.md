@@ -7,7 +7,7 @@ old-location: gpmc\igpmstartergpobackup.htm
 tech.root: GPMC
 ms.assetid: b062da03-6d9c-42b3-a4aa-5a7a6a38e4c9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMStarterGPOBackup, IGPMStarterGPOBackup, IGPMStarterGPOBackup interface [GPMC], IGPMStarterGPOBackup interface [GPMC],described, gpmc.igpmstartergpobackup, gpmgmt/IGPMStarterGPOBackup
 ms.prod: windows
 ms.technology: windows-sdk

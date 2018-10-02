@@ -4,10 +4,10 @@ title: IShellFolderView::GetSelectedCount
 author: windows-sdk-content
 description: Gets the number of items in the view that are selected.
 old-location: shell\IShellFolderView_GetSelectedCount.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3d504eba-7fb8-44a0-9534-4e7995b9b5d4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetSelectedCount, GetSelectedCount method [Windows Shell], GetSelectedCount method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetSelectedCount method, IShellFolderView.GetSelectedCount, IShellFolderView::GetSelectedCount, _shell_IShellFolderView_GetSelectedCount, shell.IShellFolderView_GetSelectedCount, shlobj_core/IShellFolderView::GetSelectedCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

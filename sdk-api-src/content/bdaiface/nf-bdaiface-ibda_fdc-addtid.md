@@ -4,10 +4,10 @@ title: IBDA_FDC::AddTid
 author: windows-sdk-content
 description: Adds one or more table identifiers (TIDs) to the MPEG flow.
 old-location: mstv\ibda_fdc_addtid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2cd39bbc-106b-4411-bc42-a1adc360e121
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddTid, AddTid method [Microsoft TV Technologies], AddTid method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],AddTid method, IBDA_FDC.AddTid, IBDA_FDC::AddTid, bdaiface/IBDA_FDC::AddTid, mstv.ibda_fdc_addtid
 ms.prod: windows-hardware
 ms.technology: windows-devices

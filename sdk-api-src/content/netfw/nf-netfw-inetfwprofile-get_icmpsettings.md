@@ -4,10 +4,10 @@ title: INetFwProfile::get_IcmpSettings
 author: windows-sdk-content
 description: Retrieves the ICMP settings of the profile.
 old-location: ics\inetfwprofile_icmpsettings.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 088be29e-cd1f-4e00-9759-c6e40dca8449
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],IcmpSettings property, INetFwProfile.IcmpSettings, INetFwProfile.get_IcmpSettings, INetFwProfile::IcmpSettings, INetFwProfile::get_IcmpSettings, IcmpSettings property [ICS/ICF], IcmpSettings property [ICS/ICF],INetFwProfile interface, get_IcmpSettings, ics.inetfwprofile_icmpsettings, netfw/INetFwProfile::IcmpSettings, netfw/INetFwProfile::get_IcmpSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

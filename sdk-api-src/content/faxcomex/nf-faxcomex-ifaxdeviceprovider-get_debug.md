@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_debug_cpp.h
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4j6v.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxDeviceProvider interface, IFaxDeviceProvider interface [Fax Service],Debug property, IFaxDeviceProvider.Debug, IFaxDeviceProvider.get_Debug, IFaxDeviceProvider::Debug, IFaxDeviceProvider::get_Debug, _mfax_faxdeviceprovider.debug, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_debug_cpp, fax._mfax_faxdeviceprovider_debug, faxcomex/IFaxDeviceProvider::Debug, faxcomex/IFaxDeviceProvider::get_Debug, get_Debug
 ms.prod: windows-hardware
 ms.technology: windows-devices

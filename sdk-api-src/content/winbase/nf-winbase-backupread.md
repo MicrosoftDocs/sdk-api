@@ -4,10 +4,10 @@ title: BackupRead function
 author: windows-sdk-content
 description: Back up a file or directory, including the security information.
 old-location: backup\backupread.htm
-tech.root: backup
+tech.root: Backup
 ms.assetid: 47d13662-af70-4c76-9fb6-3835e329ae5f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: BackupRead, BackupRead function [Backup], _win32_backupread, backup.backupread, base.backupread, winbase/BackupRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

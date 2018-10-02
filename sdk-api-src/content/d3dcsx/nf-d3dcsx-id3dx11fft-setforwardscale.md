@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11fft_setforwardscale.htm
 tech.root: direct3d11
 ms.assetid: afca03bb-459f-42ff-bc88-7487b1bc250d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ID3DX11FFT interface [Direct3D 11],SetForwardScale method, ID3DX11FFT.SetForwardScale, ID3DX11FFT::SetForwardScale, SetForwardScale, SetForwardScale method [Direct3D 11], SetForwardScale method [Direct3D 11],ID3DX11FFT interface, ceddf377-cf6d-2efb-3b7d-dcf4a17d5886, d3dcsx/ID3DX11FFT::SetForwardScale, direct3d11.id3dx11fft_setforwardscale
 ms.prod: windows-hardware
 ms.technology: windows-devices

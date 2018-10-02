@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_setwritespeed.htm
 tech.root: imapi
 ms.assetid: a3e03af5-bda2-49a3-80d9-52acfe390708
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],SetWriteSpeed method, IDiscFormat2Data.SetWriteSpeed, IDiscFormat2Data::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_setwritespeed, imapi2/IDiscFormat2Data::SetWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSensorDevice::GetFlags
 author: windows-sdk-content
 description: Gets the flags set for the sensor device. This method is reserved for future use.
 old-location: mf\imfsensordevice_getflags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 802649EE-7A24-429A-92DB-775A215BCD79
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetFlags method, IMFSensorDevice.GetFlags, IMFSensorDevice::GetFlags, mf.imfsensordevice_getflags, mfidl/IMFSensorDevice::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

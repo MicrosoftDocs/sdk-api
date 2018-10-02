@@ -7,7 +7,7 @@ old-location: winsock\wsasetsocketsecurity.htm
 tech.root: WinSock
 ms.assetid: 9efee804-9763-4456-97a3-6eb9a8e30f49
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSASetSocketSecurity, WSASetSocketSecurity function [Winsock], winsock.wsasetsocketsecurity, ws2tcpip/WSASetSocketSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

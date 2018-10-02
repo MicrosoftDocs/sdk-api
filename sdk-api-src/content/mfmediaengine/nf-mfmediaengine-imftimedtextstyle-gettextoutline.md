@@ -4,10 +4,10 @@ title: IMFTimedTextStyle::GetTextOutline
 author: windows-sdk-content
 description: Gets the text outline for the timed-text style.
 old-location: mf\imftimedtextstyle_gettextoutline.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 44701080-7E70-4073-85E2-4AF86D4B4FDB
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetTextOutline, GetTextOutline method [Media Foundation], GetTextOutline method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextOutline method, IMFTimedTextStyle.GetTextOutline, IMFTimedTextStyle::GetTextOutline, mf.imftimedtextstyle_gettextoutline, mfmediaengine/IMFTimedTextStyle::GetTextOutline
 ms.prod: windows-hardware
 ms.technology: windows-devices

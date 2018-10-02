@@ -7,7 +7,7 @@ old-location: tsf\tf_createinputprocessorprofiles.htm
 tech.root: TSF
 ms.assetid: d223736f-cf83-45a4-871e-0d6fcecb5c43
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: TF_CreateInputProcessorProfiles, TF_CreateInputProcessorProfiles function [Text Services Framework], msctf/TF_CreateInputProcessorProfiles, tsf.tf_createinputprocessorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

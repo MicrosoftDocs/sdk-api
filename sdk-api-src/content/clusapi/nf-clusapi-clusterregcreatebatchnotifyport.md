@@ -4,10 +4,10 @@ title: ClusterRegCreateBatchNotifyPort function
 author: windows-sdk-content
 description: Creates a subscription to a batch notification port.
 old-location: mscs\clusterregcreatebatchnotifyport.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1eca2ba5-c0c3-4388-9384-db9dbcfc8405
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ClusterRegCreateBatchNotifyPort, ClusterRegCreateBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCreateBatchNotifyPort, mscs.clusterregcreatebatchnotifyport
 ms.prod: windows-hardware
 ms.technology: windows-devices

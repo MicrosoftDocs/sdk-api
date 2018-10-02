@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_remove.htm
 tech.root: tablet
 ms.assetid: ce7a7842-c7c8-4f73-8f68-05b22c2199de
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Remove method, IInkStrokes.Remove, IInkStrokes::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkStrokes interface, ce7a7842-c7c8-4f73-8f68-05b22c2199de, msinkaut/IInkStrokes::Remove, tablet.inkstrokes_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

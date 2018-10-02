@@ -4,10 +4,10 @@ title: ITocEntryList::GetEntryByIndex
 author: windows-sdk-content
 description: The GetEntryByIndex method retrieves an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_getentrybyindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: cf2171c9-67ce-4acb-97cc-af17203e815b
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryByIndex method, ITocEntryList.GetEntryByIndex, ITocEntryList::GetEntryByIndex, codecapi.itocentrylist_getentrybyindex, mf.itocentrylist_getentrybyindex, wmcodecdsp/ITocEntryList::GetEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

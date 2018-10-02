@@ -4,10 +4,10 @@ title: IMFMediaEngine::GetPlaybackRate
 author: windows-sdk-content
 description: Gets the current playback rate.
 old-location: mf\imfmediaengine_getplaybackrate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: E270CB86-D90B-43FA-843B-F824970BD4F3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetPlaybackRate, GetPlaybackRate method [Media Foundation], GetPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlaybackRate method, IMFMediaEngine.GetPlaybackRate, IMFMediaEngine::GetPlaybackRate, mf.imfmediaengine_getplaybackrate, mfmediaengine/IMFMediaEngine::GetPlaybackRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFsrmClassificationRule::put_PropertyAffected
 author: windows-sdk-content
 description: The name of the property that this rule affects.
 old-location: fsrm\ifsrmclassificationrule_propertyaffected.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 0e41ac2b-c48a-4bb8-a363-8a64c856b8f9
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],PropertyAffected property, IFsrmClassificationRule.PropertyAffected, IFsrmClassificationRule.put_PropertyAffected, IFsrmClassificationRule::PropertyAffected, IFsrmClassificationRule::get_PropertyAffected, IFsrmClassificationRule::put_PropertyAffected, PropertyAffected property [File Server Resource Manager], PropertyAffected property [File Server Resource Manager],IFsrmClassificationRule interface, fs.ifsrmclassificationrule_propertyaffected, fsrm.ifsrmclassificationrule_propertyaffected, fsrmpipeline/IFsrmClassificationRule::PropertyAffected, fsrmpipeline/IFsrmClassificationRule::get_PropertyAffected, fsrmpipeline/IFsrmClassificationRule::put_PropertyAffected, put_PropertyAffected
 ms.prod: windows-hardware
 ms.technology: windows-devices

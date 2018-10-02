@@ -7,7 +7,7 @@ old-location: gpmc\igpmbackup.htm
 tech.root: GPMC
 ms.assetid: a593740a-9541-465a-9a2d-64ddf29793bf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMBackup, IGPMBackup, IGPMBackup interface [GPMC], IGPMBackup interface [GPMC],described, _win32_igpmbackup, gpmc.igpmbackup, gpmgmt/IGPMBackup
 ms.prod: windows
 ms.technology: windows-sdk

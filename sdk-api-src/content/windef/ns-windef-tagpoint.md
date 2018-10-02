@@ -4,10 +4,10 @@ title: tagPOINT
 author: windows-sdk-content
 description: The POINT structure defines the x- and y-coordinates of a point.
 old-location: display\point.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 6fb3bd3f-f810-4043-812b-94495f38a6aa
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPPOINT, *NPPOINT, *PPOINT, LPPOINT, LPPOINT structure pointer [Display Devices], NPPOINT, NPPOINT structure pointer [Display Devices], POINT, POINT structure [Display Devices], PPOINT, PPOINT structure pointer [Display Devices], display.point, grstrcts_1a83f2ca-3373-4aa6-b6ec-54c3b6b173f3.xml, tagPOINT, windef/LPPOINT, windef/NPPOINT, windef/POINT, windef/PPOINT"
 ms.prod: windows
 ms.technology: windows-sdk

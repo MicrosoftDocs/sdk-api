@@ -4,10 +4,10 @@ title: DELEGATEITEMID
 author: windows-sdk-content
 description: Used by delegate folders in place of a standard ITEMIDLIST structure.
 old-location: shell\DELEGATEITEMID.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 986591cf-97c5-4328-900e-b49f0f0859a5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: "*PDELEGATEITEMID, DELEGATEITEMID, DELEGATEITEMID structure [Windows Shell], shell.DELEGATEITEMID, shell_DELEGATEITEMID, shobjidl_core/DELEGATEITEMID"
 ms.prod: windows
 ms.technology: windows-sdk

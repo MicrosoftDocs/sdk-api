@@ -4,10 +4,10 @@ title: DsGetDomainControllerInfoA function
 author: windows-sdk-content
 description: Retrieves data about the domain controllers in a domain.
 old-location: ad\dsgetdomaincontrollerinfo.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 52db3b25-e6b0-4a0d-831b-89a203580cf1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: 1, 2, 3, DsGetDomainControllerInfo, DsGetDomainControllerInfo function [Active Directory], DsGetDomainControllerInfoA, DsGetDomainControllerInfoW, _glines_dsgetdomaincontrollerinfo, ad.dsgetdomaincontrollerinfo, ntdsapi/DsGetDomainControllerInfo, ntdsapi/DsGetDomainControllerInfoA, ntdsapi/DsGetDomainControllerInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

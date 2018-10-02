@@ -7,7 +7,7 @@ old-location: base\imageaddcertificate.htm
 tech.root: debug
 ms.assetid: c0cf3845-749b-4d20-ab67-6ace2ac30793
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: ImageAddCertificate, ImageAddCertificate function, _win32_imageaddcertificate, base.imageaddcertificate, imagehlp/ImageAddCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWMCodecLeakyBucket::GetBufferFullnessBits
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mf\iwmcodecleakybucketgetbufferfullnessbits.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 46eee8c9-e10e-41e3-9400-051b4484eee0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetBufferFullnessBits, GetBufferFullnessBits method [Media Foundation], GetBufferFullnessBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferFullnessBits method, IWMCodecLeakyBucket.GetBufferFullnessBits, IWMCodecLeakyBucket::GetBufferFullnessBits, codecapi.iwmcodecleakybucketgetbufferfullnessbits, codecapi.iwmcodecleakybuffergetbufferfullnessbits, mf.iwmcodecleakybucketgetbufferfullnessbits, wmcodecdsp/IWMCodecLeakyBucket::GetBufferFullnessBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

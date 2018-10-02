@@ -4,10 +4,10 @@ title: SHGetViewStatePropertyBag function
 author: windows-sdk-content
 description: SHGetViewStatePropertyBag may be altered or unavailable.
 old-location: shell\SHGetViewStatePropertyBag.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6852867a-30a5-4d4e-b790-3746104e3ed8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHGVSPB_ALLFOLDERS, SHGVSPB_ALLUSERS, SHGVSPB_FOLDER, SHGVSPB_FOLDERNODEFAULTS, SHGVSPB_GLOBALDEFAULTS, SHGVSPB_INHERIT, SHGVSPB_NOAUTODEFAULTS, SHGVSPB_PERFOLDER, SHGVSPB_PERUSER, SHGVSPB_ROAM, SHGVSPB_USERDEFAULTS, SHGetViewStatePropertyBag, SHGetViewStatePropertyBag function [Windows Shell], shell.SHGetViewStatePropertyBag, shell_SHGetViewStatePropertyBag, shlwapi/SHGetViewStatePropertyBag
 ms.prod: windows-hardware
 ms.technology: windows-devices

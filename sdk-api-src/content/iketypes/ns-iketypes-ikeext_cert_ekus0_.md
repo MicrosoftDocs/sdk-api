@@ -4,10 +4,10 @@ title: IKEEXT_CERT_EKUS0_
 author: windows-sdk-content
 description: Contains information about the extended key usage (EKU) properties of a certificate.
 old-location: fwp\ikeext_cert_ekus0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: e9669340-a1f2-455f-a490-a94694c83531
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IKEEXT_CERT_EKUS0, IKEEXT_CERT_EKUS0 structure [Filtering], IKEEXT_CERT_EKUS0_, fwp.ikeext_cert_ekus0, iketypes/IKEEXT_CERT_EKUS0
 ms.prod: windows
 ms.technology: windows-sdk

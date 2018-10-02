@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress_progress.htm
 tech.root: WMDM
 ms.assetid: e85b6b46-2c42-461f-90b5-71b48bc4a111
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMProgress interface [windows Media Device Manager],Progress method, IWMDMProgress.Progress, IWMDMProgress::Progress, IWMDMProgressProgress, Progress, Progress method [windows Media Device Manager], Progress method [windows Media Device Manager],IWMDMProgress interface, mswmdm/IWMDMProgress::Progress, wmdm.iwmdmprogress_progress
 ms.prod: windows-hardware
 ms.technology: windows-devices

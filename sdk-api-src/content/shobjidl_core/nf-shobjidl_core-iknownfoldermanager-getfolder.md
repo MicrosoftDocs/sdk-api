@@ -4,10 +4,10 @@ title: IKnownFolderManager::GetFolder
 author: windows-sdk-content
 description: Gets an object that represents a known folder identified by its KNOWNFOLDERID.
 old-location: shell\IKnownFolderManager_GetFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bd8dba51-c711-4f7c-af53-00c80f211cb8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolder method, IKnownFolderManager.GetFolder, IKnownFolderManager::GetFolder, _shell_IKnownFolderManager_GetFolder, shell.IKnownFolderManager_GetFolder, shobjidl_core/IKnownFolderManager::GetFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

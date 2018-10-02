@@ -4,10 +4,10 @@ title: MFGetAttributeRatio function
 author: windows-sdk-content
 description: Retrieves an attribute whose value is a ratio.
 old-location: mf\mfgetattributeratio.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2572c30c-4ae1-42b7-b1f7-6c564d936c60
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 2572c30c-4ae1-42b7-b1f7-6c564d936c60, MFGetAttributeRatio, MFGetAttributeRatio function [Media Foundation], mf.mfgetattributeratio, mfapi/MFGetAttributeRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

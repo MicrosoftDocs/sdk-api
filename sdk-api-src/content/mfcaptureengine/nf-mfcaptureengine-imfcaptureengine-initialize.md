@@ -4,10 +4,10 @@ title: IMFCaptureEngine::Initialize
 author: windows-sdk-content
 description: Initializes the capture engine.
 old-location: mf\imfcaptureengine_initialize.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 23EC8B49-2F67-4FB8-AFFA-409823ACCF59
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],Initialize method, IMFCaptureEngine.Initialize, IMFCaptureEngine::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_initialize, mfcaptureengine/IMFCaptureEngine::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -174,6 +174,17 @@ The <a href="https://msdn.microsoft.com/23EC8B49-2F67-4FB8-AFFA-409823ACCF59">In
 </td>
 <td width="60%">
 No capture devices are available.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_UNSUPPORTED_CAPTURE_DEVICE_PRESENT</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unsupported capture device is present on the system. This error will only be returned if NULL is specified for the <i>pVideoSource</i> parameter, indicating that the system should pick the capture device, and if no supported capture device has already been attached. It is recommended that apps show users a specific unsupported capture device message if this error is returned, rather than a general failure message.
 
 </td>
 </tr>

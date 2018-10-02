@@ -7,7 +7,7 @@ old-location: taskschd\task_session_state_change_type.htm
 tech.root: TaskSchd
 ms.assetid: 275108c1-bc08-4856-8b4f-28f14bd519f7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TASK_CONSOLE_CONNECT, TASK_CONSOLE_DISCONNECT, TASK_REMOTE_CONNECT, TASK_REMOTE_DISCONNECT, TASK_SESSION_LOCK, TASK_SESSION_STATE_CHANGE_TYPE, TASK_SESSION_STATE_CHANGE_TYPE enumeration [Task Scheduler], TASK_SESSION_UNLOCK, _TASK_SESSION_STATE_CHANGE_TYPE, taskschd.task_session_state_change_type, taskschd/TASK_CONSOLE_CONNECT, taskschd/TASK_CONSOLE_DISCONNECT, taskschd/TASK_REMOTE_CONNECT, taskschd/TASK_REMOTE_DISCONNECT, taskschd/TASK_SESSION_LOCK, taskschd/TASK_SESSION_STATE_CHANGE_TYPE, taskschd/TASK_SESSION_UNLOCK
 ms.prod: windows
 ms.technology: windows-sdk

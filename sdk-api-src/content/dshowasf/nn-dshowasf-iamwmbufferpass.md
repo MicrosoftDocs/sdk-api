@@ -3,20 +3,20 @@ UID: NN:dshowasf.IAMWMBufferPass
 title: IAMWMBufferPass
 author: windows-sdk-content
 description: The IAMWMBufferPass interface is implemented on the output pins of the WM ASF Reader and the input pins of the WM ASF Writer.
-old-location: dshow\iamwmbufferpass.htm
-tech.root: DirectShow
-ms.assetid: c13fe4e0-0847-4799-92a6-da36375cfbf4
+old-location: wmformat\iamwmbufferpass.htm
+tech.root: wmformat
+ms.assetid: aa7513d4-9341-4ddf-ac82-54eb0c6eb5f4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
-ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [DirectShow], IAMWMBufferPass interface [DirectShow],described, IAMWMBufferPassInterface, dshow.iamwmbufferpass, dshowasf/IAMWMBufferPass
+ms.date: 09/27/2018
+ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [windows Media Format], IAMWMBufferPass interface [windows Media Format],described, IAMWMBufferPassInterface, dshowasf/IAMWMBufferPass, wmformat.iamwmbufferpass
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
+req.target-min-winverclnt: Requires Dshowasf.h, Windows Media Format 9 Series SDK, or later.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,14 +35,13 @@ topic_type:
 api_type:
  - COM
 api_location:
- - Dshowasf.h
+ - dshowasf.h
 api_name:
  - IAMWMBufferPass
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: Windows Media Format 9 Series or later
 ---
 
 # IAMWMBufferPass interface
@@ -52,9 +51,7 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-The <code>IAMWMBufferPass</code> interface is implemented on the output pins of the <a href="https://msdn.microsoft.com/82b9f849-b9dc-439b-8ca7-9dcd992338ab">WM ASF Reader</a> and the input pins of the <a href="https://msdn.microsoft.com/1b12f65f-8d77-4d38-aad9-92bb15cc0426">WM ASF Writer</a>. Applications can use this interface to get or set properties on individual samples in an ASF stream. Applications can also use it to get or set data unit extensions. To use this interface, implement the <a href="https://msdn.microsoft.com/c3a8e01e-a626-4e47-ad98-e22d1fe88906">IAMWMBufferPassCallback</a> interface in your application. Then call <a href="https://msdn.microsoft.com/4aa6fc71-39a7-4fa5-bfe3-b5b12dd44a2b">IAMWMBufferPass::SetNotify</a> on the filter's pin with a pointer to the callback interface.
-
-One common use for this interface is to force key-frame insertion in a variable bit rate video stream during file writing. To do this, you must set the <b>WM_SampleExtensionGUID_OutputCleanPoint</b> property using the <a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3</a> interface on the sample. For more information about sample extensions, see the Windows Media Format SDK documentation.
+The <b>IAMWMBufferPass</b> interface is implemented on the output pins of the <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> and the input pins of the <a href="https://msdn.microsoft.com/a902c92e-836d-492c-b2d2-89c216125774">WM ASF Writer</a>. Applications use it to give the pin a pointer to the <a href="https://msdn.microsoft.com/5bf0ae2e-504b-471b-bfc9-aa48f534e03f">IAMWMBufferPassCallback</a> interface on an application-defined object that gets and sets properties and data unit extensions on individual samples in a stream. One common use for this interface is to force key-frame insertion in a variable bit rate video stream during file writing. To do this, you must set the <a href="wmformat_glossary.htm">cleanpoint</a> property on individual <b>INSSBuffer3</b> samples.
 
 
 
@@ -76,10 +73,10 @@ The <b>IAMWMBufferPass</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4aa6fc71-39a7-4fa5-bfe3-b5b12dd44a2b">SetNotify</a>
+<a href="https://msdn.microsoft.com/b0fff344-a20c-4cfc-828b-c6fc49d990ea">SetNotify</a>
 </td>
 <td align="left" width="63%">
-Sets an application-defined callback on the filter.
+Used by applications to provide the WM ASF Writer or <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> filter with a pointer to the <a href="https://msdn.microsoft.com/5bf0ae2e-504b-471b-bfc9-aa48f534e03f">IAMWMBufferPassCallback</a> interface on an application-defined object.
 
 </td>
 </tr>
@@ -91,7 +88,7 @@ Sets an application-defined callback on the filter.
 
 
 
-<a href="https://msdn.microsoft.com/2fae0504-d1da-413a-80dd-de7818f506ef">Using Windows Media in DirectShow</a>
+<a href="https://msdn.microsoft.com/66f483b5-3886-48b4-bc43-7c3517abd20d">DirectShow QASF Reference</a>
  
 
  

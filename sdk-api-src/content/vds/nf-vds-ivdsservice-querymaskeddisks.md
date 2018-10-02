@@ -7,7 +7,7 @@ old-location: base\ivdsservice_querymaskeddisks.htm
 tech.root: VDS
 ms.assetid: 6e53b250-0ceb-4a0c-a1ea-11b2686c5b4d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsService interface [VDS],QueryMaskedDisks method, IVdsService.QueryMaskedDisks, IVdsService::QueryMaskedDisks, QueryMaskedDisks, QueryMaskedDisks method [VDS], QueryMaskedDisks method [VDS],IVdsService interface, base.ivdsservice_querymaskeddisks, vds/IVdsService::QueryMaskedDisks
 ms.prod: windows-hardware
 ms.technology: windows-devices

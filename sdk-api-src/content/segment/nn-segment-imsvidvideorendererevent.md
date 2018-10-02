@@ -4,10 +4,10 @@ title: IMSVidVideoRendererEvent
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidvideorendererevent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ff451fa3-a755-4969-bccc-3a014865e7a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRendererEvent, IMSVidVideoRendererEvent interface [Microsoft TV Technologies], IMSVidVideoRendererEvent interface [Microsoft TV Technologies],described, IMSVidVideoRendererEventInterface, mstv.imsvidvideorendererevent, segment/IMSVidVideoRendererEvent
 ms.prod: windows
 ms.technology: windows-sdk

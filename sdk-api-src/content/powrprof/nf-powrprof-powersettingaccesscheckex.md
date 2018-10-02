@@ -4,10 +4,10 @@ title: PowerSettingAccessCheckEx function
 author: windows-sdk-content
 description: Queries for a group policy override for specified power settings and specifies the requested access for the setting.
 old-location: base\powersettingaccesscheckex.htm
-tech.root: power
+tech.root: Power
 ms.assetid: dad9cca9-5961-48b5-b7d0-4828eca3364b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, KEY_READ, KEY_WRITE, PowerSettingAccessCheckEx, PowerSettingAccessCheckEx function, base.powersettingaccesscheckex, powrprof/PowerSettingAccessCheckEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

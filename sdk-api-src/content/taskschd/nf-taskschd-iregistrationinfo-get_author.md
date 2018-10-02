@@ -7,7 +7,7 @@ old-location: taskschd\iregistrationinfo_author.htm
 tech.root: TaskSchd
 ms.assetid: 7a71924b-47d6-4aea-b384-09874f85976b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Author property [Task Scheduler], Author property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Author property, IRegistrationInfo.Author, IRegistrationInfo.get_Author, IRegistrationInfo::Author, IRegistrationInfo::get_Author, IRegistrationInfo::put_Author, get_Author, taskschd.iregistrationinfo_author, taskschd/IRegistrationInfo::Author, taskschd/IRegistrationInfo::get_Author, taskschd/IRegistrationInfo::put_Author
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IShellFolderViewDual2::get_CurrentViewMode
 author: windows-sdk-content
 description: Gets the current view mode of the current folder.
 old-location: shell\IShellFolderViewDual2_get_CurrentViewMode.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: aa4bcb25-98f9-49c3-be25-abc6a5ecdcca
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderViewDual2 interface [Windows Shell],get_CurrentViewMode method, IShellFolderViewDual2.get_CurrentViewMode, IShellFolderViewDual2::get_CurrentViewMode, _shell_IShellFolderViewDual2_get_CurrentViewMode, get_CurrentViewMode, get_CurrentViewMode method [Windows Shell], get_CurrentViewMode method [Windows Shell],IShellFolderViewDual2 interface, shell.IShellFolderViewDual2_get_CurrentViewMode, shldisp/IShellFolderViewDual2::get_CurrentViewMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

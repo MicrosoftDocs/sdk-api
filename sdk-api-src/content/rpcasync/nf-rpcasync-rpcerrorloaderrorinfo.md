@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorloaderrorinfo.htm
 tech.root: Rpc
 ms.assetid: cbd171ee-cef3-4880-a26d-81267cb813e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcErrorLoadErrorInfo, RpcErrorLoadErrorInfo function [RPC], _rpc_rpcerrorloaderrorinfo, rpc.rpcerrorloaderrorinfo, rpcasync/RpcErrorLoadErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

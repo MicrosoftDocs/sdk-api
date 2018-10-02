@@ -4,10 +4,10 @@ title: SHARDAPPIDINFOIDLIST
 author: windows-sdk-content
 description: Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case by an absolute pointer to an item identifier list (PIDL)&#8212;and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFOIDLIST.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 11c69ff9-b8a0-4168-8036-f45a9f7813ba
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHARDAPPIDINFOIDLIST, SHARDAPPIDINFOIDLIST structure [Windows Shell], _shell_SHARDAPPIDINFOIDLIST, shell.SHARDAPPIDINFOIDLIST, shlobj_core/SHARDAPPIDINFOIDLIST
 ms.prod: windows
 ms.technology: windows-sdk

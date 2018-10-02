@@ -4,10 +4,10 @@ title: IFolderView2::IsMoveInSameFolder
 author: windows-sdk-content
 description: Checks to see if this view sourced the current drag-and-drop or cut-and-paste operation (used by drop target objects).
 old-location: shell\IFolderView2_IsMoveInSameFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1687a162-f81c-422b-afc2-0b5b8b6951ad
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderView2 interface [Windows Shell],IsMoveInSameFolder method, IFolderView2.IsMoveInSameFolder, IFolderView2::IsMoveInSameFolder, IsMoveInSameFolder, IsMoveInSameFolder method [Windows Shell], IsMoveInSameFolder method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_IsMoveInSameFolder, shell.IFolderView2_IsMoveInSameFolder, shobjidl_core/IFolderView2::IsMoveInSameFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

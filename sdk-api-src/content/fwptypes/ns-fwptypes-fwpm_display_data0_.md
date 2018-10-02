@@ -4,10 +4,10 @@ title: FWPM_DISPLAY_DATA0_
 author: windows-sdk-content
 description: Stores an optional friendly name and an optional description for an object.
 old-location: fwp\fwpm_display_data0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_DISPLAY_DATA0, FWPM_DISPLAY_DATA0 structure [Filtering], FWPM_DISPLAY_DATA0_, fwp.fwpm_display_data0_struct, fwptypes/FWPM_DISPLAY_DATA0
 ms.prod: windows
 ms.technology: windows-sdk

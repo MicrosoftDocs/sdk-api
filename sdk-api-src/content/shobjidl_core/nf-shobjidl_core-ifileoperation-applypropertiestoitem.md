@@ -4,10 +4,10 @@ title: IFileOperation::ApplyPropertiesToItem
 author: windows-sdk-content
 description: Declares a single item whose property values are to be set.
 old-location: shell\IFileOperation_ApplyPropertiesToItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 35330c7c-29fc-4337-a538-863925398b0d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell], ApplyPropertiesToItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],ApplyPropertiesToItem method, IFileOperation.ApplyPropertiesToItem, IFileOperation::ApplyPropertiesToItem, _shell_IFileOperation_ApplyPropertiesToItem, shell.IFileOperation_ApplyPropertiesToItem, shobjidl_core/IFileOperation::ApplyPropertiesToItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

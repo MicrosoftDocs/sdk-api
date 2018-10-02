@@ -4,10 +4,10 @@ title: DsGetForestTrustInformationW function
 author: windows-sdk-content
 description: Obtains forest trust data for a specified domain.
 old-location: ad\dsgetforesttrustinformationw.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: c94fdc5b-920b-4807-9cbf-3172ec1c7386
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DS_GFTI_UPDATE_TDO, DsGetForestTrustInformationW, DsGetForestTrustInformationW function [Active Directory], ad.dsgetforesttrustinformationw, dsgetdc/DsGetForestTrustInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ADsPropSetHwndWithTitle function
 author: windows-sdk-content
 description: Used to notify the notification object of the property page window handle.
 old-location: ad\adspropsethwndwithtitle.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: d0d26f32-1c15-4641-bdeb-0f464a510669
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active Directory], ad.adspropsethwndwithtitle, adsprop/ADsPropSetHwndWithTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

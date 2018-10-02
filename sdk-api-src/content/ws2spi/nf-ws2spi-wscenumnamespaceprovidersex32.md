@@ -7,7 +7,7 @@ old-location: winsock\wscenumnamespaceprovidersex32.htm
 tech.root: WinSock
 ms.assetid: 544120b2-7575-4deb-8429-2bd4582eceef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSCEnumNameSpaceProvidersEx32, WSCEnumNameSpaceProvidersEx32 function [Winsock], winsock.wscenumnamespaceprovidersex32, ws2spi/WSCEnumNameSpaceProvidersEx32
 ms.prod: windows-hardware
 ms.technology: windows-devices

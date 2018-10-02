@@ -4,10 +4,10 @@ title: IFsrmReportJob::WaitForCompletion
 author: windows-sdk-content
 description: Waits for the reports in the job to complete.
 old-location: fsrm\ifsrmreportjob_waitforcompletion.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 127027a0-7f05-4de4-a3be-8e3c3ec30910
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],WaitForCompletion method, IFsrmReportJob.WaitForCompletion, IFsrmReportJob::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_waitforcompletion, fsrm.ifsrmreportjob_waitforcompletion, fsrmreports/IFsrmReportJob::WaitForCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices

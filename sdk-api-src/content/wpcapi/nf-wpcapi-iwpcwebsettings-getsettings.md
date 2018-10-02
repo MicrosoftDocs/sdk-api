@@ -7,7 +7,7 @@ old-location: parcon\iwpcwebsettings_getsettings.htm
 tech.root: parcon
 ms.assetid: bf0c1a54-ac36-45f4-8005-1847dc00bf7f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetSettings, GetSettings method, GetSettings method,IWPCWebSettings interface, IWPCWebSettings interface,GetSettings method, IWPCWebSettings.GetSettings, IWPCWebSettings::GetSettings, WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED, WPCFLAG_WEB_SETTING_NOTBLOCKED, parcon.iwpcwebsettings_getsettings, wpcapi/IWPCWebSettings::GetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

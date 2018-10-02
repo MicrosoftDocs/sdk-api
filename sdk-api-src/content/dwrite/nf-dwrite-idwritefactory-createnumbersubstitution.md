@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateNumberSubstitution.htm
 tech.root: DirectWrite
 ms.assetid: a2778bfd-c721-44e8-ac0a-79aaa2b323a8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: CreateNumberSubstitution, CreateNumberSubstitution method [Direct Write], CreateNumberSubstitution method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateNumberSubstitution method, IDWriteFactory.CreateNumberSubstitution, IDWriteFactory::CreateNumberSubstitution, directwrite.IDWriteFactory_CreateNumberSubstitution, dwrite/IDWriteFactory::CreateNumberSubstitution
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_MFMPEG2DLNASINKSTATS"
 author: windows-sdk-content
 description: Contains encoding statistics from the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\mfmpeg2dlnasinkstats.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 40d7db61-cf27-4c27-8774-d565ebee2c93
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFMPEG2DLNASINKSTATS, MFMPEG2DLNASINKSTATS structure [Media Foundation], _MFMPEG2DLNASINKSTATS, mf.mfmpeg2dlnasinkstats, mfmp2dlna/MFMPEG2DLNASINKSTATS
 ms.prod: windows
 ms.technology: windows-sdk

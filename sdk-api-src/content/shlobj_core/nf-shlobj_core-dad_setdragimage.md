@@ -4,10 +4,10 @@ title: DAD_SetDragImage function
 author: windows-sdk-content
 description: Sets the drag image.
 old-location: shell\DAD_SetDragImage.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1e60e16c-3a12-48e2-a144-b3ba81599473
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DAD_SetDragImage, DAD_SetDragImage function [Windows Shell], shell.DAD_SetDragImage, shell_DAD_SetDragImage, shlobj_core/DAD_SetDragImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

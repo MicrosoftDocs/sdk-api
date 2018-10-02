@@ -4,10 +4,10 @@ title: GetIpForwardEntry2 function
 author: windows-sdk-content
 description: Retrieves information for an IP route entry on the local computer.
 old-location: iphlp\getipforwardentry2.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 53d5009a-d205-40ce-88e5-fe37e72b5a50
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: GetIpForwardEntry2, GetIpForwardEntry2 function [IP Helper], iphlp.getipforwardentry2, netioapi/GetIpForwardEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\equalsid.htm
 tech.root: SecAuthZ
 ms.assetid: 08420df3-f6e6-462e-a2e6-d2a7a90be8ed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EqualSid, EqualSid function [Security], _win32_equalsid, security.equalsid, securitybaseapi/EqualSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

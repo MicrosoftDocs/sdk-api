@@ -4,10 +4,10 @@ title: IBrowserService::GetBrowserByIndex
 author: windows-sdk-content
 description: Deprecated. Retrieves the browser with the given index.
 old-location: shell\IBrowserService_GetBrowserByIndex.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 190bd99d-3921-4d7b-8cf3-c91067d3e1f8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetBrowserByIndex, GetBrowserByIndex method [Windows Shell], GetBrowserByIndex method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetBrowserByIndex method, IBrowserService.GetBrowserByIndex, IBrowserService::GetBrowserByIndex, shdeprecated/IBrowserService::GetBrowserByIndex, shell.IBrowserService_GetBrowserByIndex, zone_IBrowserService_GetBrowserByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

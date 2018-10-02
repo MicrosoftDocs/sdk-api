@@ -4,10 +4,10 @@ title: IPSEC_PROPOSAL0_
 author: windows-sdk-content
 description: Used to store an IPsec quick mode proposal.
 old-location: fwp\ipsec_proposal0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: bc551733-dbba-4d66-8054-fbf4bbfa28b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_PROPOSAL0, IPSEC_PROPOSAL0 structure [Filtering], IPSEC_PROPOSAL0_, fwp.ipsec_proposal0_struct, ipsectypes/IPSEC_PROPOSAL0
 ms.prod: windows
 ms.technology: windows-sdk

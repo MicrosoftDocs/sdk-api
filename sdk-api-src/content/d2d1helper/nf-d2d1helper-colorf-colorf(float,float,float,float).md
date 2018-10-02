@@ -7,7 +7,7 @@ old-location: direct2d\colorf_colorf_float__float__float__float_.htm
 tech.root: direct2d
 ms.assetid: 0c6118e6-0d97-4f66-951a-01e6d5264c59
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ColorF, ColorF interface [Direct2D],ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor, ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor [Direct2D], ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor [Direct2D],ColorF interface, ColorF.ColorF, ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT), ColorF::ColorF, ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT)(FLOAT,FLOAT,FLOAT,FLOAT), D2D1.ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT), D2D1::ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), d2d1helper/ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), direct2d.colorf_colorf_float__float__float__float_
 ms.prod: windows-hardware
 ms.technology: windows-devices

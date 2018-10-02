@@ -7,7 +7,7 @@ old-location: security\addaccessdeniedace.htm
 tech.root: SecAuthZ
 ms.assetid: 5b4c4164-48f4-4cd5-b60e-554f2498d547
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddAccessDeniedAce, AddAccessDeniedAce function [Security], _win32_addaccessdeniedace, security.addaccessdeniedace, securitybaseapi/AddAccessDeniedAce
 ms.prod: windows-hardware
 ms.technology: windows-devices

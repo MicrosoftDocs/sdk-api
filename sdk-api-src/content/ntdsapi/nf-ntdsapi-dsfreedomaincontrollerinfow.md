@@ -4,10 +4,10 @@ title: DsFreeDomainControllerInfoW function
 author: windows-sdk-content
 description: The DsFreeDomainControllerInfo function frees memory that is allocated by DsGetDomainControllerInfo for data about the domain controllers in a domain.
 old-location: ad\dsfreedomaincontrollerinfo.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: 1, 2, DsFreeDomainControllerInfo, DsFreeDomainControllerInfo function [Active Directory], DsFreeDomainControllerInfoA, DsFreeDomainControllerInfoW, _glines_dsfreedomaincontrollerinfo, ad.dsfreedomaincontrollerinfo, ntdsapi/DsFreeDomainControllerInfo, ntdsapi/DsFreeDomainControllerInfoA, ntdsapi/DsFreeDomainControllerInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

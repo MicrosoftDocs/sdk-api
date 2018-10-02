@@ -7,7 +7,7 @@ old-location: input_touchinjection\initializetouchinjection.htm
 tech.root: Input_TouchInjection
 ms.assetid: 79cc2a05-d8ee-4d87-9c7b-fa7d5354b04f
 ms.author: windowssdkdev
-ms.date: 03/01/2018
+ms.date: 09/26/2018
 ms.keywords: InitializeTouchInjection, InitializeTouchInjection function [Windows Touch], input_touchinjection.initializetouchinjection, touch_injection.initializetouchinjection, winuser/InitializeTouchInjection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazscope_deletepolicyreadername.htm
 tech.root: SecAuthZ
 ms.assetid: e65af2a2-c7f7-483c-af05-342075218158
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzScope object [Security],DeletePolicyReaderName method, DeletePolicyReaderName, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security],AzScope object, DeletePolicyReaderName method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyReaderName method, IAzScope.DeletePolicyReaderName, IAzScope::DeletePolicyReaderName, azroles/IAzScope::DeletePolicyReaderName, security.iazscope_deletepolicyreadername
 ms.prod: windows-hardware
 ms.technology: windows-devices

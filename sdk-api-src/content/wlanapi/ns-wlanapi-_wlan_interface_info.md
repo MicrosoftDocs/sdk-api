@@ -4,10 +4,10 @@ title: "_WLAN_INTERFACE_INFO"
 author: windows-sdk-content
 description: Contains information about a wireless LAN interface.
 old-location: nwifi\wlan_interface_info.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 906e7d59-ebd0-47e7-985e-f5d313f19ecb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWLAN_INTERFACE_INFO, PWLAN_INTERFACE_INFO, PWLAN_INTERFACE_INFO structure pointer [NativeWIFI], WLAN_INTERFACE_INFO, WLAN_INTERFACE_INFO structure [NativeWIFI], _WLAN_INTERFACE_INFO, nwifi.wlan_interface_info, wlanapi/PWLAN_INTERFACE_INFO, wlanapi/WLAN_INTERFACE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

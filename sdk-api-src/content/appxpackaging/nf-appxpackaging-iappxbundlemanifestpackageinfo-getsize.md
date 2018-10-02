@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestpackageinfo_getsize.htm
 tech.root: appxpkg
 ms.assetid: BA9BB378-D9AF-4D96-88B0-219A5545397A
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: GetSize, GetSize method [App packaging and management], GetSize method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetSize method, IAppxBundleManifestPackageInfo.GetSize, IAppxBundleManifestPackageInfo::GetSize, appxpackaging/IAppxBundleManifestPackageInfo::GetSize, appxpkg.iappxbundlemanifestpackageinfo_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

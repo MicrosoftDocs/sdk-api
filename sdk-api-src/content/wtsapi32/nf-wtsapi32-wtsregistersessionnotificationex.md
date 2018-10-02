@@ -4,10 +4,10 @@ title: WTSRegisterSessionNotificationEx function
 author: windows-sdk-content
 description: Registers the specified window to receive session change notifications.
 old-location: termserv\wtsregistersessionnotificationex.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8670643e-33e0-482a-ade0-d136b8c97d37
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NOTIFY_FOR_ALL_SESSIONS, NOTIFY_FOR_THIS_SESSION, WTSRegisterSessionNotificationEx, WTSRegisterSessionNotificationEx function [Remote Desktop Services], termserv.wtsregistersessionnotificationex, wtsapi32/WTSRegisterSessionNotificationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

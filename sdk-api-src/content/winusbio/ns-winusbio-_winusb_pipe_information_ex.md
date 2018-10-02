@@ -4,10 +4,10 @@ title: "_WINUSB_PIPE_INFORMATION_EX"
 author: windows-sdk-content
 description: The WINUSB_PIPE_INFORMATION_EX structure contains pipe information that the WinUsb_QueryPipeEx routine retrieves.
 old-location: buses\win_usb_pipe_information_ex.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: 1A70E67D-8A1E-4041-A1E4-E322317E2849
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: "*PWINUSB_PIPE_INFORMATION_EX, PWINUSB_PIPE_INFORMATION_EX, PWINUSB_PIPE_INFORMATION_EX structure pointer [Buses], WINUSB_PIPE_INFORMATION_EX, WINUSB_PIPE_INFORMATION_EX structure [Buses], _WINUSB_PIPE_INFORMATION_EX, buses.win_usb_pipe_information_ex, winusbio/PWINUSB_PIPE_INFORMATION_EX, winusbio/WINUSB_PIPE_INFORMATION_EX"
 ms.prod: windows
 ms.technology: windows-sdk

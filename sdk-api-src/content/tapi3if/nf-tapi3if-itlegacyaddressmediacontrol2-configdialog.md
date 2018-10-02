@@ -4,10 +4,10 @@ title: ITLegacyAddressMediaControl2::ConfigDialog
 author: windows-sdk-content
 description: The ConfigDialog method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device. The parameters that can be edited are those currently in use on the device.
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialog.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: ac2f7afe-4531-454a-8696-ca21556a049a
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: ConfigDialog, ConfigDialog method [TAPI 2.2], ConfigDialog method [TAPI 2.2],ITLegacyAddressMediaControl2 interface, ITLegacyAddressMediaControl2 interface [TAPI 2.2],ConfigDialog method, ITLegacyAddressMediaControl2.ConfigDialog, ITLegacyAddressMediaControl2::ConfigDialog, _tapi3_itlegacyaddressmediacontrol2_configdialog, tapi3.itlegacyaddressmediacontrol2_configdialog, tapi3if/ITLegacyAddressMediaControl2::ConfigDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

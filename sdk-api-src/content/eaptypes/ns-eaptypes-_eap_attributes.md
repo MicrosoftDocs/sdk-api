@@ -4,10 +4,10 @@ title: "_EAP_ATTRIBUTES"
 author: windows-sdk-content
 description: Contains an array of EAP attributes.
 old-location: eaphost\eap_attributes.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 2f88b475-a4ae-4c40-b0f8-2dd05c676619
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EAP_ATTRIBUTES, EAP_ATTRIBUTES structure [EAPHost], EapAttributes, EapAttributes structure [EAPHost], _EAP_ATTRIBUTES, eaphost.eap_attributes, eaptypes/EAP_ATTRIBUTES, eaptypes/EapAttributes
 ms.prod: windows
 ms.technology: windows-sdk

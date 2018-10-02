@@ -7,7 +7,7 @@ old-location: security\iazauthorizationstore3.htm
 tech.root: SecAuthZ
 ms.assetid: 7063416c-b132-4b3a-bb2b-d27fccea25e4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAzAuthorizationStore3, IAzAuthorizationStore3 interface [Security], IAzAuthorizationStore3 interface [Security],described, azroles/IAzAuthorizationStore3, security.iazauthorizationstore3
 ms.prod: windows
 ms.technology: windows-sdk

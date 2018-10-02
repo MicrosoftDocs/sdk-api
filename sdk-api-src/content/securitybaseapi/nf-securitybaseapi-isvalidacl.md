@@ -7,7 +7,7 @@ old-location: security\isvalidacl.htm
 tech.root: SecAuthZ
 ms.assetid: 3ae9f147-4e90-44df-a1af-cf6ebad92aea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IsValidAcl, IsValidAcl function [Security], _win32_isvalidacl, security.isvalidacl, securitybaseapi/IsValidAcl
 ms.prod: windows-hardware
 ms.technology: windows-devices

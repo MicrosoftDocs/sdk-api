@@ -7,7 +7,7 @@ old-location: wes\evt_log_property_id.htm
 tech.root: WES
 ms.assetid: c5b8b80b-6549-497a-adc3-2517bd5f27c7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EVT_LOG_PROPERTY_ID, EVT_LOG_PROPERTY_ID enumeration [EventLog], EvtLogAttributes, EvtLogCreationTime, EvtLogFileSize, EvtLogFull, EvtLogLastAccessTime, EvtLogLastWriteTime, EvtLogNumberOfLogRecords, EvtLogOldestRecordNumber, _EVT_LOG_PROPERTY_ID, wes.evt_log_property_id, winevt/EVT_LOG_PROPERTY_ID, winevt/EvtLogAttributes, winevt/EvtLogCreationTime, winevt/EvtLogFileSize, winevt/EvtLogFull, winevt/EvtLogLastAccessTime, winevt/EvtLogLastWriteTime, winevt/EvtLogNumberOfLogRecords, winevt/EvtLogOldestRecordNumber
 ms.prod: windows
 ms.technology: windows-sdk

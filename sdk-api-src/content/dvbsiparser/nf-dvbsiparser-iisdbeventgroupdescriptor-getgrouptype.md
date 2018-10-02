@@ -4,10 +4,10 @@ title: IIsdbEventGroupDescriptor::GetGroupType
 author: windows-sdk-content
 description: Gets a code that describes the event group type from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getgrouptype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 152bae4a-f4e6-4e9e-a1ed-19240cf8108c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetGroupType, GetGroupType method [Microsoft TV Technologies], GetGroupType method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetGroupType method, IIsdbEventGroupDescriptor.GetGroupType, IIsdbEventGroupDescriptor::GetGroupType, dvbsiparser/IIsdbEventGroupDescriptor::GetGroupType, mstv.iisdbeventgroupdescriptor_getgrouptype
 ms.prod: windows-hardware
 ms.technology: windows-devices

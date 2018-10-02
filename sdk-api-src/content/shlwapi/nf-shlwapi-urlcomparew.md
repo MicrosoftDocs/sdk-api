@@ -4,10 +4,10 @@ title: UrlCompareW function
 author: windows-sdk-content
 description: Makes a case-sensitive comparison of two URL strings.
 old-location: shell\UrlCompare.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d5c9e003-b85b-4f9f-b231-e3e4b71d4ce6
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: UrlCompare, UrlCompare function [Windows Shell], UrlCompareA, UrlCompareW, _win32_UrlCompare, shell.UrlCompare, shlwapi/UrlCompare, shlwapi/UrlCompareA, shlwapi/UrlCompareW
 ms.prod: windows-hardware
 ms.technology: windows-devices

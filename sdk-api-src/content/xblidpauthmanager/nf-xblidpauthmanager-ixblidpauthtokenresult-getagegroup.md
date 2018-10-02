@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getagegroup.htm
 tech.root: xblidp
 ms.assetid: 0C2699CB-6AAF-4720-90AF-03A05A193DBC
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetAgeGroup, GetAgeGroup method, GetAgeGroup method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetAgeGroup method, IXblIdpAuthTokenResult.GetAgeGroup, IXblIdpAuthTokenResult::GetAgeGroup, xblidp.ixblidpauthtokenresult_getagegroup, xblidpauthmanager/IXblIdpAuthTokenResult::GetAgeGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

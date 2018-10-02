@@ -4,10 +4,10 @@ title: Dhcpv6RequestParams function
 author: windows-sdk-content
 description: Requests options from the DHCPv6 client cache or directly from the DHCPv6 server.
 old-location: dhcp\dhcpv6requestparams.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: dfe94735-ee9d-4781-9d54-90a10d0e243a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: Dhcpv6RequestParams, Dhcpv6RequestParams function [DHCP], dhcp.dhcpv6requestparams, dhcpv6csdk/Dhcpv6RequestParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfsystemdevicetypelangbaritem.htm
 tech.root: TSF
 ms.assetid: 0dc32f10-eecd-4203-992c-80eb0f991615
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: ITfSystemDeviceTypeLangBarItem, ITfSystemDeviceTypeLangBarItem interface [Text Services Framework], ITfSystemDeviceTypeLangBarItem interface [Text Services Framework],described, _tsf_itfsystemdevicetypelangbaritem_ref, ctfutb/ITfSystemDeviceTypeLangBarItem, tsf.itfsystemdevicetypelangbaritem
 ms.prod: windows
 ms.technology: windows-sdk

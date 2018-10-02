@@ -4,10 +4,10 @@ title: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to register for Universal Serial Bus (USB) event.
 old-location: buses\ioctl_genericusbfn_bus_event_notification.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: 1DFDF22D-D86D-4875-B11D-45C0577B6281
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_genericusbfn_bus_event_notification, genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

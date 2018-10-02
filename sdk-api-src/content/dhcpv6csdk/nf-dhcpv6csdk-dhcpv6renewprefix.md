@@ -4,10 +4,10 @@ title: Dhcpv6RenewPrefix function
 author: windows-sdk-content
 description: Renews a prefix.
 old-location: dhcp\dhcpv6renewprefix.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: e4eec40c-0e95-47f7-b102-daa63e5a8da0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: Dhcpv6RenewPrefix, Dhcpv6RenewPrefix function [DHCP], dhcp.dhcpv6renewprefix, dhcpv6csdk/Dhcpv6RenewPrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

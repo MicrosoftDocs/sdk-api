@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_get_devicecanloadmedia.htm
 tech.root: imapi
 ms.assetid: aa6790aa-2999-4895-83fa-3967cb411741
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_DeviceCanLoadMedia method, IDiscRecorder2.get_DeviceCanLoadMedia, IDiscRecorder2::get_DeviceCanLoadMedia, get_DeviceCanLoadMedia, get_DeviceCanLoadMedia method [IMAPI], get_DeviceCanLoadMedia method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_devicecanloadmedia, imapi2/IDiscRecorder2::get_DeviceCanLoadMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

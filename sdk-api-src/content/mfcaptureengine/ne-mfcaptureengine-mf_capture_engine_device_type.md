@@ -4,10 +4,10 @@ title: MF_CAPTURE_ENGINE_DEVICE_TYPE
 author: windows-sdk-content
 description: Specifies a type of capture device.
 old-location: mf\mf_capture_engine_device_type.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 302C998E-51F6-4CEC-8940-DAF561D08EFD
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MF_CAPTURE_ENGINE_DEVICE_TYPE, MF_CAPTURE_ENGINE_DEVICE_TYPE enumeration [Media Foundation], MF_CAPTURE_ENGINE_DEVICE_TYPE_AUDIO, MF_CAPTURE_ENGINE_DEVICE_TYPE_VIDEO, mf.mf_capture_engine_device_type, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE_AUDIO, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE_VIDEO
 ms.prod: windows
 ms.technology: windows-sdk

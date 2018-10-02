@@ -4,10 +4,10 @@ title: "_TOC_ENTRY_DESCRIPTOR"
 author: windows-sdk-content
 description: The TOC_ENTRY_DESCRIPTOR structure holds descriptive information for an entry in a table of contents.
 old-location: mf\toc_entry_descriptor.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 05e9bf59-5dd8-410f-8e42-25bfb555dd40
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: TOC_ENTRY_DESCRIPTOR, TOC_ENTRY_DESCRIPTOR structure [Media Foundation], _TOC_ENTRY_DESCRIPTOR, codecapi.toc_entry_descriptor, mf.toc_entry_descriptor, wmcodecdsp/TOC_ENTRY_DESCRIPTOR
 ms.prod: windows
 ms.technology: windows-sdk

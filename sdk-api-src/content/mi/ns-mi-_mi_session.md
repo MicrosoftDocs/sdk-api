@@ -4,10 +4,10 @@ title: "_MI_Session"
 author: windows-sdk-content
 description: An object that is associated with a destination and has a set of credentials and options associated with it. .
 old-location: wmi_v2\mi_session.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 68a69321-0aa9-423e-a72f-aa2f4dee2d51
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Session, MI_Session structure [Windows Management Infrastructure (MI)], _MI_Session, mi/MI_Session, wmi._mi_session, wmi_v2.mi_session
 ms.prod: windows
 ms.technology: windows-sdk

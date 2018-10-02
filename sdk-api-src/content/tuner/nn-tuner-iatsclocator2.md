@@ -4,10 +4,10 @@ title: IATSCLocator2
 author: windows-sdk-content
 description: The IATASCLocator2 interface enables the network provider to determine the physical channel, transport stream ID, and program number of an ATSC transmission.
 old-location: mstv\iatsclocator2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: dbb830bf-db46-4981-8a96-ae33b1de3883
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IATSCLocator2, IATSCLocator2 interface [Microsoft TV Technologies], IATSCLocator2 interface [Microsoft TV Technologies],described, IATSCLocator2Interface, mstv.iatsclocator2, tuner/IATSCLocator2
 ms.prod: windows
 ms.technology: windows-sdk

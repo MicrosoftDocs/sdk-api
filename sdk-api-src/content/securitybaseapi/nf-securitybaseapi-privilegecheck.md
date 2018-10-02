@@ -7,7 +7,7 @@ old-location: security\privilegecheck.htm
 tech.root: SecAuthZ
 ms.assetid: a73d934a-1abf-4e60-bf0a-6c4629f28f7a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PrivilegeCheck, PrivilegeCheck function [Security], _win32_privilegecheck, security.privilegecheck, securitybaseapi/PrivilegeCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

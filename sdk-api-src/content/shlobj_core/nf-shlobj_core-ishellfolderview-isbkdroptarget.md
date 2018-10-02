@@ -4,10 +4,10 @@ title: IShellFolderView::IsBkDropTarget
 author: windows-sdk-content
 description: IsBkDropTarget may be altered or unavailable.
 old-location: shell\IShellFolderView_IsBkDropTarget.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6de58057-2bcd-480e-8b4a-6e59aad168dc
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderView interface [Windows Shell],IsBkDropTarget method, IShellFolderView.IsBkDropTarget, IShellFolderView::IsBkDropTarget, IsBkDropTarget, IsBkDropTarget method [Windows Shell], IsBkDropTarget method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_IsBkDropTarget, shell.IShellFolderView_IsBkDropTarget, shlobj_core/IShellFolderView::IsBkDropTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

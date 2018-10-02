@@ -7,7 +7,7 @@ old-location: security\icertificatepolicy.htm
 tech.root: SecCertEnroll
 ms.assetid: 2162de70-edcc-4f01-807d-79ff200d0016
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICertificatePolicy, ICertificatePolicy interface [Security], ICertificatePolicy interface [Security],described, certenroll/ICertificatePolicy, security.icertificatepolicy
 ms.prod: windows
 ms.technology: windows-sdk

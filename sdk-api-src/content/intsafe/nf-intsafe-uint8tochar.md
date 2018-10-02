@@ -4,10 +4,10 @@ title: UInt8ToChar function
 author: windows-sdk-content
 description: Converts a value of type UINT8 to a value of type CHAR.
 old-location: shell\UInt8ToChar.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f622eab3-4815-465a-823e-c52f1cb1c126
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: UInt8ToChar, UInt8ToChar function [Windows Shell], intsafe/UInt8ToChar, shell.UInt8ToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

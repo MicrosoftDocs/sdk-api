@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpocollection_get_item.htm
 tech.root: GPMC
 ms.assetid: 2bfffa38-b050-4ae6-ae38-57ff1babffc5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMGPOCollection class [GPMC],Item property, IGPMGPOCollection interface [GPMC],Item property, IGPMGPOCollection.Item, IGPMGPOCollection.get_Item, IGPMGPOCollection::Item, IGPMGPOCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMGPOCollection class, Item property [GPMC],IGPMGPOCollection interface, _win32_igpmgpocollection_get_item, get_Item, gpmc.igpmgpocollection_get_item, gpmgmt/IGPMGPOCollection::Item, gpmgmt/IGPMGPOCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

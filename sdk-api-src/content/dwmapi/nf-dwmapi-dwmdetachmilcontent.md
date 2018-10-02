@@ -7,7 +7,7 @@ old-location: dwm\dwmdetachmilcontent.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmdetachmilcontent.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DwmDetachMilContent, DwmDetachMilContent function [Desktop Window Manager], _udwm_dwmdetachmilcontent, _udwm_dwmdetachmilcontent_cpp, dwm.dwmdetachmilcontent, dwmapi/DwmDetachMilContent, winui._udwm_dwmdetachmilcontent
 ms.prod: windows-hardware
 ms.technology: windows-devices

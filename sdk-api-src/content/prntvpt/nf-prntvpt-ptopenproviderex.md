@@ -7,7 +7,7 @@ old-location: gdi\ptopenproviderex.htm
 tech.root: printdocs
 ms.assetid: 0e65170b-66f6-4238-bdde-0a0b7108a686
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: PTOpenProviderEx, PTOpenProviderEx function [Windows GDI], _win32_PTOpenProviderEx, gdi.ptopenproviderex, prntvpt/PTOpenProviderEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

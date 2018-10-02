@@ -4,10 +4,10 @@ title: IMFSaveJob::CancelSave
 author: windows-sdk-content
 description: Cancels the operation started by IMFSaveJob::BeginSave.
 old-location: mf\imfsavejob_cancelsave.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ce3ec53a-eeca-430f-a939-3d941b9b2570
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: CancelSave, CancelSave method [Media Foundation], CancelSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],CancelSave method, IMFSaveJob.CancelSave, IMFSaveJob::CancelSave, ce3ec53a-eeca-430f-a939-3d941b9b2570, mf.imfsavejob_cancelsave, mfidl/IMFSaveJob::CancelSave
 ms.prod: windows-hardware
 ms.technology: windows-devices

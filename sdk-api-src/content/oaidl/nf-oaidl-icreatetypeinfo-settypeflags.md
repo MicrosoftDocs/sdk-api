@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_settypeflags.htm
 tech.root: automat
 ms.assetid: 7dfc1673-6242-4beb-978f-85f2000fab8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetTypeFlags method, ICreateTypeInfo.SetTypeFlags, ICreateTypeInfo::SetTypeFlags, SetTypeFlags, SetTypeFlags method [Automation], SetTypeFlags method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeFlags, automat.icreatetypeinfo_settypeflags, oaidl/ICreateTypeInfo::SetTypeFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

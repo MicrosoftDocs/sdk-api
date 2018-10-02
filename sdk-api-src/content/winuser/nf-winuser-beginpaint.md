@@ -7,7 +7,7 @@ old-location: gdi\beginpaint.htm
 tech.root: gdi
 ms.assetid: 513341d7-bed8-469c-a067-ee71dc8860f9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: BeginPaint, BeginPaint function [Windows GDI], _win32_BeginPaint, gdi.beginpaint, winuser/BeginPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

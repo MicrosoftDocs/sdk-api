@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_openlocalmachinegpo.htm
 tech.root: Policy
 ms.assetid: c986152b-59cd-4733-bcdd-ee7f0b6907ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],OpenLocalMachineGPO method, IGroupPolicyObject.OpenLocalMachineGPO, IGroupPolicyObject::OpenLocalMachineGPO, OpenLocalMachineGPO, OpenLocalMachineGPO method [Group Policy], OpenLocalMachineGPO method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_openlocalmachinegpo, gpedit/IGroupPolicyObject::OpenLocalMachineGPO, policy.igrouppolicyobject_openlocalmachinegpo
 ms.prod: windows-hardware
 ms.technology: windows-devices

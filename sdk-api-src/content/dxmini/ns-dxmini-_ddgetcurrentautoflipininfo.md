@@ -4,10 +4,10 @@ title: "_DDGETCURRENTAUTOFLIPININFO"
 author: windows-sdk-content
 description: The DDGETCURRENTAUTOFLIPININFO structure contains the video port extensions (VPE) object information.
 old-location: display\ddgetcurrentautoflipininfo.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 17443cab-7dc6-4bc9-ae0c-463c6f76d768
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO structure [Display Devices], PDDGETCURRENTAUTOFLIPININFO, PDDGETCURRENTAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_3476fe24-7963-4d7c-a794-ade9c2fdca57.xml, _DDGETCURRENTAUTOFLIPININFO, display.ddgetcurrentautoflipininfo, dxmini/DDGETCURRENTAUTOFLIPININFO, dxmini/PDDGETCURRENTAUTOFLIPININFO"
 ms.prod: windows
 ms.technology: windows-sdk

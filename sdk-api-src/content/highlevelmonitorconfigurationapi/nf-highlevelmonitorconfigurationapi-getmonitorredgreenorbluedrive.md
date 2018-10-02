@@ -7,7 +7,7 @@ old-location: monitor\getmonitorredgreenorbluedrive.htm
 tech.root: Monitor
 ms.assetid: 4c590d1c-be28-401a-a0e9-dacf6b86a569
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMonitorRedGreenOrBlueDrive, GetMonitorRedGreenOrBlueDrive function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorRedGreenOrBlueDrive, monitor.getmonitorredgreenorbluedrive
 ms.prod: windows-hardware
 ms.technology: windows-devices

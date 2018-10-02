@@ -4,10 +4,10 @@ title: DRMDuplicateSession function
 author: windows-sdk-content
 description: Duplicates a client or license storage session.
 old-location: rm\drmduplicatesession.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 4a768919-36aa-4e09-898f-bd8f9c21cb0e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMDuplicateSession, DRMDuplicateSession function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateSession, rm.drmduplicatesession
 ms.prod: windows-hardware
 ms.technology: windows-devices

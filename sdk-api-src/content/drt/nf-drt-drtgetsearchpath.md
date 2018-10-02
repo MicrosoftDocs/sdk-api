@@ -4,10 +4,10 @@ title: DrtGetSearchPath function
 author: windows-sdk-content
 description: DrtGetSearchPath function returns a list of nodes contacted during the search operation.
 old-location: p2p\drtgetsearchpath.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: d095acbe-30bf-4449-bd00-a9f8813111c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DrtGetSearchPath, DrtGetSearchPath function [Peer Networking], drt/DrtGetSearchPath, p2p.drtgetsearchpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

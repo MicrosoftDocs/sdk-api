@@ -4,10 +4,10 @@ title: IMFByteStreamBuffering
 author: windows-sdk-content
 description: Controls how a byte stream buffers data from a network.
 old-location: mf\imfbytestreambuffering.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: bbf9cdb1-5ec7-498a-aa59-85c24779547e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], IMFByteStreamBuffering interface [Media Foundation],described, bbf9cdb1-5ec7-498a-aa59-85c24779547e, mf.imfbytestreambuffering, mfidl/IMFByteStreamBuffering
 ms.prod: windows
 ms.technology: windows-sdk

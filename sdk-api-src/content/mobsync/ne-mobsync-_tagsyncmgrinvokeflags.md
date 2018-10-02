@@ -4,10 +4,10 @@ title: "_tagSYNCMGRINVOKEFLAGS"
 author: windows-sdk-content
 description: The SYNCMGRINVOKEFLAGS enumeration value specifies how the Sync Manager is to be invoked in the ISyncMgrSynchronizeInvoke::UpdateItems method.
 old-location: shell\syncmgr_syncmgrinvokeflags.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6526e048-b7a8-4822-afd7-30f04a3039eb
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SYNCMGRINVOKEFLAGS, SYNCMGRINVOKEFLAGS enumeration [Windows Shell], SYNCMGRINVOKE_MINIMIZED, SYNCMGRINVOKE_STARTSYNC, _tagSYNCMGRINVOKEFLAGS, mobsync/SYNCMGRINVOKEFLAGS, mobsync/SYNCMGRINVOKE_MINIMIZED, mobsync/SYNCMGRINVOKE_STARTSYNC, shell.syncmgr_syncmgrinvokeflags, syncmgr.syncmgrinvokeflags
 ms.prod: windows
 ms.technology: windows-sdk

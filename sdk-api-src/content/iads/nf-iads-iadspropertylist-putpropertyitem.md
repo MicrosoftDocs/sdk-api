@@ -7,7 +7,7 @@ old-location: adsi\iadspropertylist_putpropertyitem.htm
 tech.root: ADSI
 ms.assetid: 16af5cbf-3b87-467e-8e72-0110bcf95295
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADsPropertyList interface [ADSI],PutPropertyItem method, IADsPropertyList.PutPropertyItem, IADsPropertyList::PutPropertyItem, PutPropertyItem, PutPropertyItem method [ADSI], PutPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_putpropertyitem, adsi.iadspropertylist__putpropertyitem, adsi.iadspropertylist_putpropertyitem, iads/IADsPropertyList::PutPropertyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

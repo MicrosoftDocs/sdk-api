@@ -7,7 +7,7 @@ old-location: xps\ixpsombrush.htm
 tech.root: printdocs
 ms.assetid: 43cb56db-e09e-47cb-b50b-7827131659fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMBrush, IXpsOMBrush interface [XPS Documents and Packaging], IXpsOMBrush interface [XPS Documents and Packaging],described, xps.ixpsombrush, xpsobjectmodel/IXpsOMBrush
 ms.prod: windows
 ms.technology: windows-sdk

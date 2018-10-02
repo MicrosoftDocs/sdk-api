@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_rotationy.htm
 tech.root: direct2d
 ms.assetid: F761CAB1-77F8-4C98-9085-3FBF4452AA51
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationY method, Matrix4x4F.RotationY, Matrix4x4F::RotationY, RotationY, RotationY method [Direct2D], RotationY method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationY, direct2d.matrix4x4f_rotationy
 ms.prod: windows-hardware
 ms.technology: windows-devices

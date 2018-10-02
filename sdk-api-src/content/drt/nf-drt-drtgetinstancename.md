@@ -4,10 +4,10 @@ title: DrtGetInstanceName function
 author: windows-sdk-content
 description: DrtGetInstanceName function retrieves the full name of the Distributed Routing Table instance that corresponds to the specified DRT handle.
 old-location: p2p\drtgetinstancename.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: f69b745c-d990-42cf-8994-9640bcb7d1bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DrtGetInstanceName, DrtGetInstanceName function [Distributed Routing Tables], drt/DrtGetInstanceName, p2p.drtgetinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices

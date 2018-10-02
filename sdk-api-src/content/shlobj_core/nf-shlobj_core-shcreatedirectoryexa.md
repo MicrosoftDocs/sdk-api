@@ -4,10 +4,10 @@ title: SHCreateDirectoryExA function
 author: windows-sdk-content
 description: Creates a new file system folder, with optional security attributes.
 old-location: shell\SHCreateDirectoryEx.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7f44f907-cd12-4156-91c0-76e577ae25f6
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateDirectoryEx, SHCreateDirectoryEx function [Windows Shell], SHCreateDirectoryExA, SHCreateDirectoryExW, _win32_SHCreateDirectoryEx, shell.SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryExA, shlobj_core/SHCreateDirectoryExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

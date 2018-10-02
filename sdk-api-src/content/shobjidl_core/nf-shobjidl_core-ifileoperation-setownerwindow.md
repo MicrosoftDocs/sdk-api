@@ -4,10 +4,10 @@ title: IFileOperation::SetOwnerWindow
 author: windows-sdk-content
 description: Sets the parent or owner window for progress and dialog windows.
 old-location: shell\IFileOperation_SetOwnerWindow.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ad3276a5-409d-4a49-ac95-2c2a3eb3b864
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetOwnerWindow method, IFileOperation.SetOwnerWindow, IFileOperation::SetOwnerWindow, SetOwnerWindow, SetOwnerWindow method [Windows Shell], SetOwnerWindow method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetOwnerWindow, shell.IFileOperation_SetOwnerWindow, shobjidl_core/IFileOperation::SetOwnerWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

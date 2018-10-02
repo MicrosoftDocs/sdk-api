@@ -4,10 +4,10 @@ title: ID3D11VideoDecoderOutputView
 author: windows-sdk-content
 description: Identifies the output surfaces that can be accessed during video decoding.
 old-location: mf\id3d11videodecoderoutputview.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 389E0CCC-4DD2-4E82-84D7-3794AEE59208
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoDecoderOutputView, ID3D11VideoDecoderOutputView interface [Media Foundation], ID3D11VideoDecoderOutputView interface [Media Foundation],described, d3d11/ID3D11VideoDecoderOutputView, mf.id3d11videodecoderoutputview
 ms.prod: windows
 ms.technology: windows-sdk

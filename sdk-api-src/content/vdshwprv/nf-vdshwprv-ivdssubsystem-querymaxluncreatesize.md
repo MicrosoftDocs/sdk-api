@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem_querymaxluncreatesize.htm
 tech.root: VDS
 ms.assetid: 16e8bcab-d01f-494a-9705-8392cf043674
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsSubSystem interface,QueryMaxLunCreateSize method, IVdsSubSystem.QueryMaxLunCreateSize, IVdsSubSystem::QueryMaxLunCreateSize, QueryMaxLunCreateSize, QueryMaxLunCreateSize method, QueryMaxLunCreateSize method,IVdsSubSystem interface, base.ivdssubsystem_querymaxluncreatesize, vds/IVdsSubSystem::QueryMaxLunCreateSize, vdshwprv/IVdsSubSystem::QueryMaxLunCreateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

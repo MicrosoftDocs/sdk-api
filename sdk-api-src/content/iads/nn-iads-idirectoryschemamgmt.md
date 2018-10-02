@@ -7,7 +7,7 @@ old-location: adsi\idirectoryschemamgmt.htm
 tech.root: ADSI
 ms.assetid: 96062c41-6e95-4024-b16d-4002ed84ec5d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectorySchemaMgmt, IDirectorySchemaMgmt interface [ADSI], IDirectorySchemaMgmt interface [ADSI],described, adsi.idirectoryschemamgmt, iads/IDirectorySchemaMgmt
 ms.prod: windows
 ms.technology: windows-sdk

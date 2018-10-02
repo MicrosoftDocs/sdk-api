@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangles_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglesmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: DrawRectangles, DrawRectangles methods [GDI+], Graphics.DrawRectangles, Graphics.DrawRectangles(IN const Pen,IN const RectF,IN INT), Graphics::DrawRectangles, Graphics::DrawRectangles(IN const Pen,IN const RectF,IN INT), _gdiplus_CLASS_Graphics_DrawRectangles_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawRectangles_Methods, gdiplusgraphics/DrawRectangles
 ms.prod: windows-hardware
 ms.technology: windows-devices

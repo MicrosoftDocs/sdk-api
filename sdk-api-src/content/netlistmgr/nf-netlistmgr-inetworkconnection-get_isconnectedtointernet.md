@@ -4,10 +4,10 @@ title: INetworkConnection::get_IsConnectedToInternet
 author: windows-sdk-content
 description: The get_IsConnectedToInternet property specifies if the associated network connection has internet connectivity.
 old-location: nla\inetworkconnection_get_isconnectedtointernet.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: c5ac2d6b-c96a-478f-add3-617c544dfaf0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: INetworkConnection interface [Network Awareness],get_IsConnectedToInternet method, INetworkConnection.get_IsConnectedToInternet, INetworkConnection::get_IsConnectedToInternet, get_IsConnectedToInternet, get_IsConnectedToInternet method [Network Awareness], get_IsConnectedToInternet method [Network Awareness],INetworkConnection interface, netlistmgr/INetworkConnection::get_IsConnectedToInternet, nla.inetworkconnection_get_isconnectedtointernet
 ms.prod: windows-hardware
 ms.technology: windows-devices

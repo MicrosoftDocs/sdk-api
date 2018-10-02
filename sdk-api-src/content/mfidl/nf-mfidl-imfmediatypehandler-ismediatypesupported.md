@@ -4,10 +4,10 @@ title: IMFMediaTypeHandler::IsMediaTypeSupported
 author: windows-sdk-content
 description: Queries whether the object supports a specified media type.
 old-location: mf\imfmediatypehandler_ismediatypesupported.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ea52defa-8b78-4f40-97ae-ed6a5ee4849e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaTypeHandler interface [Media Foundation],IsMediaTypeSupported method, IMFMediaTypeHandler.IsMediaTypeSupported, IMFMediaTypeHandler::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFMediaTypeHandler interface, ea52defa-8b78-4f40-97ae-ed6a5ee4849e, mf.imfmediatypehandler_ismediatypesupported, mfidl/IMFMediaTypeHandler::IsMediaTypeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

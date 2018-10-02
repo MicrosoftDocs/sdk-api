@@ -4,10 +4,10 @@ title: "_DSROLE_PRIMARY_DOMAIN_INFO_BASIC"
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain domain data.
 old-location: ad\dsrole_primary_domain_info_basic.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 8a7b34e8-46d6-46dc-9fef-ec37b0f65eea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDSROLE_PRIMARY_DOMAIN_INFO_BASIC, DSROLE_PRIMARY_DOMAIN_GUID_PRESENT, DSROLE_PRIMARY_DOMAIN_INFO_BASIC, DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure [Active Directory], DSROLE_PRIMARY_DS_MIXED_MODE, DSROLE_PRIMARY_DS_READONLY, DSROLE_PRIMARY_DS_RUNNING, DSROLE_UPGRADE_IN_PROGRESS, PDSROLE_PRIMARY_DOMAIN_INFO_BASIC, PDSROLE_PRIMARY_DOMAIN_INFO_BASIC structure pointer [Active Directory], _DSROLE_PRIMARY_DOMAIN_INFO_BASIC, _glines_dsrole_primary_domain_info_basic, ad.dsrole__primary__domain__info__basic, ad.dsrole_primary_domain_info_basic, dsrole/DSROLE_PRIMARY_DOMAIN_INFO_BASIC, dsrole/PDSROLE_PRIMARY_DOMAIN_INFO_BASIC"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wsgetdictionary.htm
 tech.root: wsw
 ms.assetid: 85736dc0-671b-463f-b7ba-458cdd9001fc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsGetDictionary, WsGetDictionary function [Web Services for Windows], webservices/WsGetDictionary, wsw.wsgetdictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices

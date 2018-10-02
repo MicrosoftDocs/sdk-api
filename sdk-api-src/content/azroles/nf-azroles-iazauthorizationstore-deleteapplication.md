@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_deleteapplication.htm
 tech.root: SecAuthZ
 ms.assetid: 512907fc-8657-4f2a-8b4a-af3027c6bbcd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteApplication method, DeleteApplication, DeleteApplication method [Security], DeleteApplication method [Security],AzAuthorizationStore object, DeleteApplication method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteApplication method, IAzAuthorizationStore.DeleteApplication, IAzAuthorizationStore::DeleteApplication, azroles/IAzAuthorizationStore::DeleteApplication, security.azauthorizationstore_deleteapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

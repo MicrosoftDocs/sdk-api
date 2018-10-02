@@ -4,10 +4,10 @@ title: INetFwRules::Item
 author: windows-sdk-content
 description: The Item method returns the specified rule if it is in the collection.
 old-location: ics\inetfwrules_item.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 91c5a93b-7408-4870-a2c0-167648d849cd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Item method, INetFwRules.Item, INetFwRules::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwRules interface, ics.inetfwrules_item, netfw/INetFwRules::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

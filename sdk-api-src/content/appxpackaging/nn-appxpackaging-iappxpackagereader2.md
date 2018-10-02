@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader2.htm
 tech.root: appxpkg
 ms.assetid: 8E46CFB5-1F48-41E8-85AD-C03685D4EA5F
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: IAppxPackageReader2, IAppxPackageReader2 interface [App packaging and management], IAppxPackageReader2 interface [App packaging and management],described, appxpackaging/IAppxPackageReader2, appxpkg.iappxpackagereader2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFPMPServer::LockProcess
 author: windows-sdk-content
 description: Blocks the protected media path (PMP) process from ending.
 old-location: mf\imfpmpserver_lockprocess.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 9a25abfb-5038-4869-ad70-1ae52e8cf599
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 9a25abfb-5038-4869-ad70-1ae52e8cf599, IMFPMPServer interface [Media Foundation],LockProcess method, IMFPMPServer.LockProcess, IMFPMPServer::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_lockprocess, mfidl/IMFPMPServer::LockProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

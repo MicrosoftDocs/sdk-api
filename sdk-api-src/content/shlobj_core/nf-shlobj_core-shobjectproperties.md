@@ -4,10 +4,10 @@ title: SHObjectProperties function
 author: windows-sdk-content
 description: SHObjectProperties may be altered or unavailable.
 old-location: shell\SHObjectProperties.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7517c461-955b-446e-85d7-a707c9bd183a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHOP_FILEPATH, SHOP_PRINTERNAME, SHOP_VOLUMEGUID, SHObjectProperties, SHObjectProperties function [Windows Shell], _win32_SHObjectProperties, shell.SHObjectProperties, shlobj_core/SHObjectProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

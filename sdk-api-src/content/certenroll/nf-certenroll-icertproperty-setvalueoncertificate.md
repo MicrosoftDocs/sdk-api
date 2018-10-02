@@ -7,7 +7,7 @@ old-location: security\icertproperty_setvalueoncertificate_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 46c409c4-46bd-4349-8363-1983f4411bc2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICertProperty interface [Security],SetValueOnCertificate method, ICertProperty.SetValueOnCertificate, ICertProperty::SetValueOnCertificate, SetValueOnCertificate, SetValueOnCertificate method [Security], SetValueOnCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::SetValueOnCertificate, security.icertproperty_setvalueoncertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

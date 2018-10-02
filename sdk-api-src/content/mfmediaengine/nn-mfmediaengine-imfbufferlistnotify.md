@@ -4,10 +4,10 @@ title: IMFBufferListNotify
 author: windows-sdk-content
 description: Enables IMFSourceBufferList object to notify its clients of important state changes.
 old-location: mf\imfbufferlistnotify.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2a2705b4-fac3-4059-b2c9-c03efaa9c15e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify
 ms.prod: windows
 ms.technology: windows-sdk

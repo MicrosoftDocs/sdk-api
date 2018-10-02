@@ -7,7 +7,7 @@ old-location: rpc\rpc_message.htm
 tech.root: Rpc
 ms.assetid: fd014622-97b3-4f76-8bc3-10821aa3c46e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PRPC_MESSAGE, PRPC_MESSAGE, PRPC_MESSAGE structure pointer [RPC], RPC_MESSAGE, RPC_MESSAGE structure [RPC], _RPC_MESSAGE, rpc.rpc_message, rpcdcep/PRPC_MESSAGE, rpcdcep/RPC_MESSAGE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: tagIsolationInfoEx
 author: windows-sdk-content
 description: Defines the extended isolation status of the machine or the connection.
 old-location: nap\isolationinfoex.htm
-tech.root: nap
+tech.root: NAP
 ms.assetid: 7b361429-015f-4ecc-8569-3075b5b7b85d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IsolationInfoEx, IsolationInfoEx structure [NAP], nap.isolationinfoex, naptypes/IsolationInfoEx, tagIsolationInfoEx
 ms.prod: windows
 ms.technology: windows-sdk

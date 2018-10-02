@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::Remove
 author: windows-sdk-content
 description: The Remove method permanently removes a tuning space from the system.
 old-location: mstv\ituningspacecontainer_remove.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 72ead181-6c5a-49d1-a789-3ae4128417c6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],Remove method, ITuningSpaceContainer.Remove, ITuningSpaceContainer::Remove, ITuningSpaceContainerRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_remove, tuner/ITuningSpaceContainer::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

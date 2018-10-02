@@ -1,7 +1,6 @@
 {
   "tech": "com",
   "headers": [
-    "tbd",
     "wtypes.h",
     "olectl.h",
     "vbinterf.h",
@@ -20,8 +19,8 @@
     "combaseapi.h",
     "objidlbase.h",
     "callobj.h",
-    "eventsys.h",
     "wtypesbase.h",
+    "eventsys.h",
     "txlogpub.h",
     "shobjidl.h",
     "iaccess.h",

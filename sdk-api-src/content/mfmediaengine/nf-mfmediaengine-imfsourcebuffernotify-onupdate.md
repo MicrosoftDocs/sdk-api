@@ -4,10 +4,10 @@ title: IMFSourceBufferNotify::OnUpdate
 author: windows-sdk-content
 description: Used to indicate that the source buffer is updating.
 old-location: mf\imfsourcebuffernotify_onupdate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3c41f50f-7f0b-4676-9522-3866aedab047
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdate method, IMFSourceBufferNotify.OnUpdate, IMFSourceBufferNotify::OnUpdate, OnUpdate, OnUpdate method [Media Foundation], OnUpdate method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdate, mfmediaengine/IMFSourceBufferNotify::OnUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

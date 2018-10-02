@@ -4,10 +4,10 @@ title: SHRegDeleteUSValueA function
 author: windows-sdk-content
 description: Deletes a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegDeleteUSValue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f70407af-d8ee-4333-be32-01887d4add4c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHRegDeleteUSValue, SHRegDeleteUSValue function [Windows Shell], SHRegDeleteUSValueA, SHRegDeleteUSValueW, _win32_SHRegDeleteUSValue, shell.SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValueA, shlwapi/SHRegDeleteUSValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

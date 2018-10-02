@@ -7,7 +7,7 @@ old-location: fs\write_cache_change.htm
 tech.root: fileio
 ms.assetid: a6974092-fa4f-4524-96ec-b4fad0b8c5ea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: WRITE_CACHE_CHANGE, WRITE_CACHE_CHANGE enumeration [Files], WriteCacheChangeUnknown, WriteCacheChangeable, WriteCacheNotChangeable, _WRITE_CACHE_CHANGE, fs.write_cache_change, winioctl/WRITE_CACHE_CHANGE, winioctl/WriteCacheChangeUnknown, winioctl/WriteCacheChangeable, winioctl/WriteCacheNotChangeable
 ms.prod: windows
 ms.technology: windows-sdk

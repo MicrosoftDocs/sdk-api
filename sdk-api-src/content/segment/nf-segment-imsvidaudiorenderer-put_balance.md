@@ -4,10 +4,10 @@ title: IMSVidAudioRenderer::put_Balance
 author: windows-sdk-content
 description: The put_Balance method specifies the audio renderer's balance level.
 old-location: mstv\imsvidaudiorenderer_put_balance.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 25a9231a-d34a-4657-be0a-fcc979d1745d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],put_Balance method, IMSVidAudioRenderer.put_Balance, IMSVidAudioRenderer::put_Balance, IMSVidAudioRendererput_Balance, mstv.imsvidaudiorenderer_put_balance, put_Balance, put_Balance method [Microsoft TV Technologies], put_Balance method [Microsoft TV Technologies],IMSVidAudioRenderer interface, segment/IMSVidAudioRenderer::put_Balance
 ms.prod: windows-hardware
 ms.technology: windows-devices

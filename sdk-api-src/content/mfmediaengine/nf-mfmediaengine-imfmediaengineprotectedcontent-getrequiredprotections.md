@@ -4,10 +4,10 @@ title: IMFMediaEngineProtectedContent::GetRequiredProtections
 author: windows-sdk-content
 description: Gets the content protections that must be applied in frame-server mode.
 old-location: mf\imfmediaengineprotectedcontent_getrequiredprotections.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4D67813D-F222-4EB1-B059-6DB5EC642DA2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetRequiredProtections, GetRequiredProtections method [Media Foundation], GetRequiredProtections method [Media Foundation],IMFMediaEngineProtectedContent interface, IMFMediaEngineProtectedContent interface [Media Foundation],GetRequiredProtections method, IMFMediaEngineProtectedContent.GetRequiredProtections, IMFMediaEngineProtectedContent::GetRequiredProtections, mf.imfmediaengineprotectedcontent_getrequiredprotections, mfmediaengine/IMFMediaEngineProtectedContent::GetRequiredProtections
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWMSampleExtensionSupport
 author: windows-sdk-content
 description: Configures codec support for sample extensions.
 old-location: mf\iwmsampleextensionsupportinterface.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3c6dd1c2-4692-4176-b164-bb90d661defc
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], IWMSampleExtensionSupport interface [Media Foundation],described, codecapi.iwmsampleextensionsupportinterface, mf.iwmsampleextensionsupport, mf.iwmsampleextensionsupportinterface, wmcodecdsp/IWMSampleExtensionSupport
 ms.prod: windows
 ms.technology: windows-sdk

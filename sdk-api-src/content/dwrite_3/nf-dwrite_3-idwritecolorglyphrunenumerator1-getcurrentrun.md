@@ -7,7 +7,7 @@ old-location: directwrite\idwritecolorglyphrunenumerator1_getcurrentrun.htm
 tech.root: DirectWrite
 ms.assetid: 0FEFD8EB-20E7-4E04-9C31-1A763D2FB816
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetCurrentRun, GetCurrentRun method [Direct Write], GetCurrentRun method [Direct Write],IDWriteColorGlyphRunEnumerator1 interface, IDWriteColorGlyphRunEnumerator1 interface [Direct Write],GetCurrentRun method, IDWriteColorGlyphRunEnumerator1.GetCurrentRun, IDWriteColorGlyphRunEnumerator1::GetCurrentRun, directwrite.idwritecolorglyphrunenumerator1_getcurrentrun, dwrite_3/IDWriteColorGlyphRunEnumerator1::GetCurrentRun
 ms.prod: windows-hardware
 ms.technology: windows-devices

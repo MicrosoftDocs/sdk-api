@@ -4,10 +4,10 @@ title: "_DXVAHD_RATIONAL"
 author: windows-sdk-content
 description: Contains a rational number (ratio).
 old-location: mf\dxvahd_rational.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8064820e-533e-4b40-8eeb-e3ad6a6b1ff7
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: DXVAHD_RATIONAL, DXVAHD_RATIONAL structure [Media Foundation], _DXVAHD_RATIONAL, dxvahd/DXVAHD_RATIONAL, mf.dxvahd_rational
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\setcontextpropertyvalue.htm
 tech.root: tablet
 ms.assetid: 42b1857d-92ee-456f-aafc-b8780526a137
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: 42b1857d-92ee-456f-aafc-b8780526a137, SetContextPropertyValue, SetContextPropertyValue function [Tablet PC], recapis/SetContextPropertyValue, tablet.setcontextpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

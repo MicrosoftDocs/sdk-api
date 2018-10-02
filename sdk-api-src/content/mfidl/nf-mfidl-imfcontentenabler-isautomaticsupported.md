@@ -4,10 +4,10 @@ title: IMFContentEnabler::IsAutomaticSupported
 author: windows-sdk-content
 description: Queries whether the content enabler can perform all of its actions automatically.
 old-location: mf\imfcontentenabler_isautomaticsupported.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 144470ce-2849-4464-8596-fac216529145
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 144470ce-2849-4464-8596-fac216529145, IMFContentEnabler interface [Media Foundation],IsAutomaticSupported method, IMFContentEnabler.IsAutomaticSupported, IMFContentEnabler::IsAutomaticSupported, IsAutomaticSupported, IsAutomaticSupported method [Media Foundation], IsAutomaticSupported method [Media Foundation],IMFContentEnabler interface, mf.imfcontentenabler_isautomaticsupported, mfidl/IMFContentEnabler::IsAutomaticSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

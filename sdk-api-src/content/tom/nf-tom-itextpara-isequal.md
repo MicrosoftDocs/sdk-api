@@ -7,7 +7,7 @@ old-location: controls\ITextPara_IsEqual.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparaisequal.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ITextPara interface [Windows Controls],IsEqual method, ITextPara.IsEqual, ITextPara::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextPara interface, _win32_ITextPara_IsEqual, _win32_ITextPara_IsEqual_cpp, controls.ITextPara_IsEqual, controls._win32_ITextPara_IsEqual, tom/ITextPara::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices

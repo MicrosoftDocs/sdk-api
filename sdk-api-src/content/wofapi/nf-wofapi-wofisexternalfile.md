@@ -7,7 +7,7 @@ old-location: fs\wofisexternalfile.htm
 tech.root: fileio
 ms.assetid: 9E06B486-B9F9-4B9B-B164-E3954FB87B8D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: WofIsExternalFile, WofIsExternalFile function [Files], fs.wofisexternalfile, wofapi/WofIsExternalFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

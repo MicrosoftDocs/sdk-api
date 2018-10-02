@@ -4,10 +4,10 @@ title: INameSpaceTreeControl2::GetControlStyle
 author: windows-sdk-content
 description: Gets the display styles set for the namespace object's treeview controls.
 old-location: shell\INameSpaceTreeControl2_GetControlStyle.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5305d7ba-e37f-4f95-8ae2-e0532012cb1e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetControlStyle, GetControlStyle method [Windows Shell], GetControlStyle method [Windows Shell],INameSpaceTreeControl2 interface, INameSpaceTreeControl2 interface [Windows Shell],GetControlStyle method, INameSpaceTreeControl2.GetControlStyle, INameSpaceTreeControl2::GetControlStyle, _shell_INameSpaceTreeControl2_GetControlStyle, shell.INameSpaceTreeControl2_GetControlStyle, shobjidl/INameSpaceTreeControl2::GetControlStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_GROUP_INFO_1002"
 author: windows-sdk-content
 description: The GROUP_INFO_1002 structure contains a comment to associate with a global group.
 old-location: netmgmt\group_info_1002_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 9c322ef5-4f98-44ad-8b57-40f8533eb9c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPGROUP_INFO_1002, *PGROUP_INFO_1002, GROUP_INFO_1002, GROUP_INFO_1002 structure [Network Management], LPGROUP_INFO_1002, LPGROUP_INFO_1002 structure pointer [Network Management], PGROUP_INFO_1002, PGROUP_INFO_1002 structure pointer [Network Management], _GROUP_INFO_1002, _win32_group_info_1002_str, lmaccess/GROUP_INFO_1002, lmaccess/LPGROUP_INFO_1002, lmaccess/PGROUP_INFO_1002, netmgmt.group_info_1002_str"
 ms.prod: windows
 ms.technology: windows-sdk

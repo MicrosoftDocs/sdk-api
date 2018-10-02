@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepairs_itembyindex_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 76c00e96-e563-45e1-a579-9efafbc227b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IX509NameValuePairs interface [Security],ItemByIndex property, IX509NameValuePairs.ItemByIndex, IX509NameValuePairs.get_ItemByIndex, IX509NameValuePairs::ItemByIndex, IX509NameValuePairs::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::ItemByIndex, certenroll/IX509NameValuePairs::get_ItemByIndex, get_ItemByIndex, security.ix509namevaluepairs_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

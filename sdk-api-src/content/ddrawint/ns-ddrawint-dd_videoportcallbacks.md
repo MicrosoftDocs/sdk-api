@@ -4,10 +4,10 @@ title: DD_VIDEOPORTCALLBACKS
 author: windows-sdk-content
 description: The DD_VIDEOPORTCALLBACKS structure contains entry pointers to Microsoft DirectDraw video port extensions (VPE) callback functions that a device driver supports.
 old-location: display\dd_videoportcallbacks.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 5e03d240-f483-4ecf-8890-b9f0368e2b2f
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS structure [Display Devices], PDD_VIDEOPORTCALLBACKS, PDD_VIDEOPORTCALLBACKS structure pointer [Display Devices], ddrawint/DD_VIDEOPORTCALLBACKS, ddrawint/PDD_VIDEOPORTCALLBACKS, ddstrcts_e0a55748-eb24-4e5f-8208-bcb0083cdf21.xml, display.dd_videoportcallbacks"
 ms.prod: windows
 ms.technology: windows-sdk

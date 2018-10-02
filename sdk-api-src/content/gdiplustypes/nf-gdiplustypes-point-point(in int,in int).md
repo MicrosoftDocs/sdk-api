@@ -2,13 +2,13 @@
 UID: NF:gdiplustypes.Point.Point(IN INT,IN INT)
 title: Point::Point(IN INT,IN INT)
 author: windows-sdk-content
-description: Creates a Point object and initializes the X and Y data members to zero. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_Point_Point_.htm
+description: Creates a Point object using two integers to initialize the X and Y data members.
+old-location: gdiplus\_gdiplus_CLASS_Point_Point_x_y_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_14.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_85x_y.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(), Point.Point(IN INT,IN INT), Point::Point, Point::Point(IN INT,IN INT), _gdiplus_CLASS_Point_Point_, gdiplus._gdiplus_CLASS_Point_Point_
+ms.date: 09/26/2018
+ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(IN INT,IN INT), Point.Point(INT,INT), Point::Point, Point::Point(IN INT,IN INT), _gdiplus_CLASS_Point_Point_x_y_, gdiplus._gdiplus_CLASS_Point_Point_x_y_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,9 +51,9 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object and initializes the 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object using two integers to initialize the 
 			<b>X</b> and 
-			<b>Y</b> data members to zero. This is the default constructor.
+			<b>Y</b> data members.
 
 
 ## -parameters
@@ -61,16 +61,18 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).as
 
 
 
-### -param x
+### -param x [in]
 
-TBD
+Type: <b>INT</b>
 
-
-### -param y
-
-TBD
+Integer that specifies the x-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object. 
 
 
+### -param y [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the y-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object. 
 
 
 ## -see-also

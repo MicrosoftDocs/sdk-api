@@ -4,10 +4,10 @@ title: ICivicAddressReport
 author: windows-sdk-content
 description: ICivicAddressReport represents a location report that contains information in the form of a street address.
 old-location: winlocation\icivicaddressreport.htm
-tech.root: locationapi
+tech.root: LocationAPI
 ms.assetid: ba8c66cb-be94-4649-ada9-620ed3b35516
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: ICivicAddressReport, ICivicAddressReport interface [WinLocation], ICivicAddressReport interface [WinLocation],described, locationapi/ICivicAddressReport, winlocation.icivicaddressreport
 ms.prod: windows
 ms.technology: windows-sdk

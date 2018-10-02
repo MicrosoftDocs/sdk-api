@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_updateregistry.htm
 tech.root: SecCertEnroll
 ms.assetid: dfb43979-a630-497d-96eb-f2bd701b5e09
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],UpdateRegistry method, IX509PolicyServerUrl.UpdateRegistry, IX509PolicyServerUrl::UpdateRegistry, UpdateRegistry, UpdateRegistry method [Security], UpdateRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::UpdateRegistry, security.ix509policyserverurl_updateregistry
 ms.prod: windows-hardware
 ms.technology: windows-devices

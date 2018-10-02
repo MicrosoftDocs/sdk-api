@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapterdeleterecord.htm
 tech.root: SecBioMet
 ms.assetid: f1939410-1c1e-42e4-98d6-d8866d313ca1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_DELETE_RECORD_FN, PIBIO_STORAGE_DELETE_RECORD_FN callback, StorageAdapterDeleteRecord, StorageAdapterDeleteRecord callback function [Windows Biometric Framework API], secbiomet.storageadapterdeleterecord, winbio_adapter/StorageAdapterDeleteRecord
 ms.prod: windows
 ms.technology: windows-sdk

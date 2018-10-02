@@ -4,10 +4,10 @@ title: IShellItem
 author: windows-sdk-content
 description: Exposes methods that retrieve information about a Shell item. IShellItem and IShellItem2 are the preferred representations of items in any new code.
 old-location: shell\IShellItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 599b9c0a-df04-4dbd-a5a6-a8736eecc560
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellItem, IShellItem interface [Windows Shell], IShellItem interface [Windows Shell],described, _win32_IShellItem, shell.IShellItem, shobjidl_core/IShellItem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMSVidStreamBufferV2SourceEvent::BroadcastEvent
 author: windows-sdk-content
 description: Fired when the SBE2 source filter receives any event fired through the IBroadcastEvent interface, other than the EVENTID_DTFilterRatingChange event.
 old-location: mstv\imsvidstreambufferv2sourceevent_broadcastevent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f5d5b6d8-9baa-4a9e-8275-e817394c211a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: BroadcastEvent, BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEvent method, IMSVidStreamBufferV2SourceEvent.BroadcastEvent, IMSVidStreamBufferV2SourceEvent::BroadcastEvent, mstv.imsvidstreambufferv2sourceevent_broadcastevent, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

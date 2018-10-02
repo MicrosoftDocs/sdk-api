@@ -4,10 +4,10 @@ title: IShellTaskScheduler::RemoveTasks
 author: windows-sdk-content
 description: Removes tasks from the scheduler's background queue.
 old-location: shell\IShellTaskScheduler_RemoveTasks.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a160cfcf-f989-4a7c-9da0-97d658c151b9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellTaskScheduler interface [Windows Shell],RemoveTasks method, IShellTaskScheduler.RemoveTasks, IShellTaskScheduler::RemoveTasks, RemoveTasks, RemoveTasks method [Windows Shell], RemoveTasks method [Windows Shell],IShellTaskScheduler interface, _win32_IShellTaskScheduler_RemoveTasks, shell.IShellTaskScheduler_RemoveTasks, shobjidl_core/IShellTaskScheduler::RemoveTasks
 ms.prod: windows-hardware
 ms.technology: windows-devices

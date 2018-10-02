@@ -4,10 +4,10 @@ title: DhcpGetAllOptionValues function
 author: windows-sdk-content
 description: Returns an array that contains all option values defined for a specific scope on the DHCP server.
 old-location: dhcp\dhcpgetalloptionvalues.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: c462feba-dd9b-4815-b4d4-db1cdec3a354
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionValues, DhcpGetAllOptionValues function [DHCP], dhcp.dhcpgetalloptionvalues, dhcpsapi/DhcpGetAllOptionValues
 ms.prod: windows-hardware
 ms.technology: windows-devices

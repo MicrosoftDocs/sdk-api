@@ -7,7 +7,7 @@ old-location: security\initializesid.htm
 tech.root: SecAuthZ
 ms.assetid: b2d803a5-faaf-4066-ba2c-0442c71bb150
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InitializeSid, InitializeSid function [Security], _win32_initializesid, security.initializesid, securitybaseapi/InitializeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

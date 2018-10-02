@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptordacl.htm
 tech.root: SecAuthZ
 ms.assetid: 8006c8bb-4976-463f-b074-a59c3bbab36b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSecurityDescriptorDacl, GetSecurityDescriptorDacl function [Security], _win32_getsecuritydescriptordacl, security.getsecuritydescriptordacl, securitybaseapi/GetSecurityDescriptorDacl
 ms.prod: windows-hardware
 ms.technology: windows-devices

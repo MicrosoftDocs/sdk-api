@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyFiles
 author: windows-sdk-content
 description: Use the IEnumBackgroundCopyFiles interface to enumerate the files that a job contains. To get an IEnumBackgroundCopyFiles interface pointer, call the IBackgroundCopyJob::EnumFiles method.
 old-location: bits\ienumbackgroundcopyfiles.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 831998ba-601c-43c4-ba27-faff741f8eb4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS], IEnumBackgroundCopyFiles interface [BITS],described, _drz_ienumbackgroundcopyfiles, bits.ienumbackgroundcopyfiles, bits/IEnumBackgroundCopyFiles
 ms.prod: windows
 ms.technology: windows-sdk

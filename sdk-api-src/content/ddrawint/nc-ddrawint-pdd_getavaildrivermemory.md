@@ -4,10 +4,10 @@ title: PDD_GETAVAILDRIVERMEMORY
 author: windows-sdk-content
 description: The DdGetAvailDriverMemory callback function queries the amount of free memory in the driver-managed memory heap.
 old-location: display\ddgetavaildrivermemory.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 21a1988a-1bfd-47b8-b4b6-1bc137b2ba64
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DdGetAvailDriverMemory, DdGetAvailDriverMemory callback function [Display Devices], PDD_GETAVAILDRIVERMEMORY, PDD_GETAVAILDRIVERMEMORY callback, ddfncs_670b3444-286c-4258-9936-9cb7995d0b24.xml, ddrawint/DdGetAvailDriverMemory, display.ddgetavaildrivermemory
 ms.prod: windows
 ms.technology: windows-sdk

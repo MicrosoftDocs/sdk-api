@@ -4,10 +4,10 @@ title: IContactManagerInterop
 author: windows-sdk-content
 description: Enables access to ContactManager methods in an app that manages multiple windows.
 old-location: shell\IContactManagerInterop.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Shell], IContactManagerInterop interface [Windows Shell],described, shell.IContactManagerInterop, shobjidl_core/IContactManagerInterop
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_unadvise.htm
 tech.root: wpd_sdk
 ms.assetid: 6720e92b-35cd-4e3f-bd21-36337cf80140
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Unadvise method, IPortableDevice.Unadvise, IPortableDevice::Unadvise, IPortableDeviceUnadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Unadvise, wpdsdk.iportabledevice_unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

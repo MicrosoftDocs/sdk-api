@@ -7,7 +7,7 @@ old-location: mbn\imbnpinmanager_getpinstate.htm
 tech.root: mbn
 ms.assetid: 34378403-cf58-4ada-9eb6-f5dad5f69bc9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPinState, GetPinState method [Microsoft Broadband Networks], GetPinState method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPinState method, IMbnPinManager.GetPinState, IMbnPinManager::GetPinState, mbn.imbnpinmanager_getpinstate, mbnapi/IMbnPinManager::GetPinState
 ms.prod: windows-hardware
 ms.technology: windows-devices

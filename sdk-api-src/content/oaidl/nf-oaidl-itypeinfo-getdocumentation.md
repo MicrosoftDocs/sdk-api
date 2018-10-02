@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getdocumentation.htm
 tech.root: automat
 ms.assetid: 64d2cb0c-d0ca-499b-b089-44525f7f9749
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDocumentation method, ITypeInfo.GetDocumentation, ITypeInfo::GetDocumentation, _oa96_ITypeInfo_GetDocumentation, automat.itypeinfo_getdocumentation, oaidl/ITypeInfo::GetDocumentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

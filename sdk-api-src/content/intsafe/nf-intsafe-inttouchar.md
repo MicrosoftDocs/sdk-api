@@ -4,10 +4,10 @@ title: IntToUChar function
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type UCHAR.
 old-location: shell\IntToUChar.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 19bdf34e-49ae-4dff-bed7-fa6229c8aa1b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IntToUChar, IntToUChar function [Windows Shell], _shell_IntToUChar, intsafe/IntToUChar, shell.IntToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

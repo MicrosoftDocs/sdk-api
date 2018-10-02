@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::get_SourceSize
 author: windows-sdk-content
 description: The get_SourceSize method retrieves the type of clipping to apply to the video rectangle, if any.
 old-location: mstv\imsvidvideorenderer_get_sourcesize.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 312a2c1e-5332-4a2d-ada9-1dc8236f4170
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_SourceSize method, IMSVidVideoRenderer.get_SourceSize, IMSVidVideoRenderer::get_SourceSize, IMSVidVideoRendererget_SourceSize, get_SourceSize, get_SourceSize method [Microsoft TV Technologies], get_SourceSize method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_sourcesize, segment/IMSVidVideoRenderer::get_SourceSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

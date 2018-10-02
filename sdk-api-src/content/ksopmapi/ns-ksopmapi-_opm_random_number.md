@@ -4,10 +4,10 @@ title: "_OPM_RANDOM_NUMBER"
 author: windows-sdk-content
 description: Contains a 128-bit random number for use with Output Protection Manager (OPM).
 old-location: mf\opm_random_number.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d3a5be4b-39d1-43da-b87e-ab4dd7815262
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: "*POPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structure [Media Foundation], _OPM_RANDOM_NUMBER, ksopmapi/OPM_RANDOM_NUMBER, mf.opm_random_number"
 ms.prod: windows
 ms.technology: windows-sdk

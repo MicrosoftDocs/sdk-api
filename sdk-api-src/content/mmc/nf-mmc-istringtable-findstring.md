@@ -4,10 +4,10 @@ title: IStringTable::FindString
 author: windows-sdk-content
 description: Enables a snap-in to search for a string in the snap-in string table.
 old-location: mmc\istringtable_findstring.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: c239618d-ed27-4d73-9e88-7323960a0e68
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: FindString, FindString method [MMC], FindString method [MMC],IStringTable interface, IStringTable interface [MMC],FindString method, IStringTable.FindString, IStringTable::FindString, _slate_istringtable_findstring, mmc.istringtable_findstring, mmc/IStringTable::FindString
 ms.prod: windows-hardware
 ms.technology: windows-devices

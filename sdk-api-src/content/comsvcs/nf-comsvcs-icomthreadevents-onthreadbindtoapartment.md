@@ -7,7 +7,7 @@ old-location: cos\icomthreadevents_onthreadbindtoapartment.htm
 tech.root: cossdk
 ms.assetid: d05c784a-5dcd-4155-baa0-775c499bd936
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadBindToApartment method, IComThreadEvents.OnThreadBindToApartment, IComThreadEvents::OnThreadBindToApartment, OnThreadBindToApartment, OnThreadBindToApartment method [COM+], OnThreadBindToApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadBindToApartment, comsvcs/IComThreadEvents::OnThreadBindToApartment, cos.icomthreadevents_onthreadbindtoapartment
 ms.prod: windows-hardware
 ms.technology: windows-devices

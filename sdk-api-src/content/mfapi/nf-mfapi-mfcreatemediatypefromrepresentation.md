@@ -4,10 +4,10 @@ title: MFCreateMediaTypeFromRepresentation function
 author: windows-sdk-content
 description: Creates a Media Foundation media type from another format representation.
 old-location: mf\mfcreatemediatypefromrepresentation.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5d85c47e-2e40-45f2-8f17-52f642652112
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 5d85c47e-2e40-45f2-8f17-52f642652112, MFCreateMediaTypeFromRepresentation, MFCreateMediaTypeFromRepresentation function [Media Foundation], mf.mfcreatemediatypefromrepresentation, mfapi/MFCreateMediaTypeFromRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

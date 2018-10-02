@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_uiactivate.htm
 tech.root: com
 ms.assetid: df92366c-89b3-44b3-bea0-1b6deb321fe4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IOleDocumentView interface [COM],UIActivate method, IOleDocumentView.UIActivate, IOleDocumentView::UIActivate, UIActivate, UIActivate method [COM], UIActivate method [COM],IOleDocumentView interface, _ole_ioledocumentview_uiactivate, com.ioledocumentview_uiactivate, docobj/IOleDocumentView::UIActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

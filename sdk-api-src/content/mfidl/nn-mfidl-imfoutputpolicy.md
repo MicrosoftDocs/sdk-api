@@ -4,10 +4,10 @@ title: IMFOutputPolicy
 author: windows-sdk-content
 description: Encapsulates a usage policy from an input trust authority (ITA).
 old-location: mf\imfoutputpolicy.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b, IMFOutputPolicy, IMFOutputPolicy interface [Media Foundation], IMFOutputPolicy interface [Media Foundation],described, mf.imfoutputpolicy, mfidl/IMFOutputPolicy
 ms.prod: windows
 ms.technology: windows-sdk

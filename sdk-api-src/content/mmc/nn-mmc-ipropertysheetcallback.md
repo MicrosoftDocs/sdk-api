@@ -4,10 +4,10 @@ title: IPropertySheetCallback
 author: windows-sdk-content
 description: The IPropertySheetCallback interface is a COM-based interface used by a snap-in to add its property pages to a property sheet.
 old-location: mmc\ipropertysheetcallback.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: e2115929-692e-4e59-bcdb-f37b02c53224
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: IPropertySheetCallback, IPropertySheetCallback interface [MMC], IPropertySheetCallback interface [MMC],described, _slate_ipropertysheetcallback, mmc.ipropertysheetcallback, mmc/IPropertySheetCallback
 ms.prod: windows
 ms.technology: windows-sdk

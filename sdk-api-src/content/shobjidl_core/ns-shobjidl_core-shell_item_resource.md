@@ -4,10 +4,10 @@ title: SHELL_ITEM_RESOURCE
 author: windows-sdk-content
 description: Defines Shell item resource.
 old-location: shell\SHELL_ITEM_RESOURCE.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 92ca56a2-e2c3-4651-aa29-115eb07119e9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHELL_ITEM_RESOURCE, SHELL_ITEM_RESOURCE structure [Windows Shell], _shell_SHELL_ITEM_RESOURCE, shell.SHELL_ITEM_RESOURCE, shobjidl_core/SHELL_ITEM_RESOURCE
 ms.prod: windows
 ms.technology: windows-sdk

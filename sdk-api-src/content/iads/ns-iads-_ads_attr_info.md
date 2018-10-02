@@ -7,7 +7,7 @@ old-location: adsi\ads_attr_info.htm
 tech.root: ADSI
 ms.assetid: a2b97a52-4b8b-4491-8798-72a161903422
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PADS_ATTR_INFO, ADS_ATTR_INFO, ADS_ATTR_INFO structure [ADSI], PADS_ATTR_INFO, PADS_ATTR_INFO structure pointer [ADSI], _ads_attr_info, _ds_ads_attr_info, adsi.ads__attr__info, adsi.ads_attr_info, iads/ADS_ATTR_INFO, iads/PADS_ATTR_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

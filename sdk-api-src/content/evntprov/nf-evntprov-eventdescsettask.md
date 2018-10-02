@@ -4,10 +4,10 @@ title: EventDescSetTask function
 author: windows-sdk-content
 description: Sets the Task member of the event descriptor.
 old-location: etw\eventdescsettask_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 74298e6f-b29a-4fa7-98d1-f81270fcbc0e
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: EventDescSetTask, EventDescSetTask function [ETW], base.eventdescsettask_func, etw.eventdescsettask_func, evntprov/EventDescSetTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradapterquerystatus.htm
 tech.root: SecBioMet
 ms.assetid: 88c22183-5bc8-4ac9-9048-72ee7a861b76
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_SENSOR_QUERY_STATUS_FN, PIBIO_SENSOR_QUERY_STATUS_FN callback, SensorAdapterQueryStatus, SensorAdapterQueryStatus callback function [Windows Biometric Framework API], secbiomet.sensoradapterquerystatus, winbio_adapter/SensorAdapterQueryStatus
 ms.prod: windows
 ms.technology: windows-sdk

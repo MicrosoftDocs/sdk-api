@@ -7,7 +7,7 @@ old-location: security\cryptxmlverifysignature.htm
 tech.root: seccrypto
 ms.assetid: 1f8776dc-d91a-4be9-90bf-7d36d587ffb2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlVerifySignature, CryptXmlVerifySignature function [Security], cryptxml/CryptXmlVerifySignature, security.cryptxmlverifysignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

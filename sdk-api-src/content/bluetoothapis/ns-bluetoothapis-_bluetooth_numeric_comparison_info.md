@@ -4,10 +4,10 @@ title: "_BLUETOOTH_NUMERIC_COMPARISON_INFO"
 author: windows-sdk-content
 description: BLUETOOTH_NUMERIC_COMPARISON_INFO structure contains the numeric value used for authentication via numeric comparison.
 old-location: bluetooth\bluetooth_numeric_comparison_info.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 5e8f8250-6790-41dd-bd0b-13a421cf3ebc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PBLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth], PBLUETOOTH_NUMERIC_COMPARISON_INFO, PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth], _BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetooth.bluetooth_numeric_comparison_info, bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

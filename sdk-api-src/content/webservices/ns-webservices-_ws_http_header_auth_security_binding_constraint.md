@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: 1f6341b2-1f98-40a0-8f3a-cc9cf4538209
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, wsw.ws_http_header_auth_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk

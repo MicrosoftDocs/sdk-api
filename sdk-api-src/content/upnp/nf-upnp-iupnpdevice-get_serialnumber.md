@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevice_serialnumber.htm
 tech.root: UPnP
 ms.assetid: de2f8594-a183-440a-aeb1-240cf0709e36
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_SerialNumber method, IUPnPDevice.get_SerialNumber, IUPnPDevice::get_SerialNumber, _upnp_iupnpdevice_serialnumber, get_SerialNumber, get_SerialNumber method [UPnP APIs], get_SerialNumber method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_serialnumber, upnp/IUPnPDevice::get_SerialNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

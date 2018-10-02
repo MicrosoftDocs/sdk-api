@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_accountname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\accountname.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: AccountName property [Fax Service], AccountName property [Fax Service],IFaxAccount interface, IFaxAccount interface [Fax Service],AccountName property, IFaxAccount.AccountName, IFaxAccount.get_AccountName, IFaxAccount::AccountName, IFaxAccount::get_AccountName, _mfax_faxaccount.accountname, fax._mfax_faxaccount_accountname, fax._mfax_faxaccount_cpp_mfax_faxaccount_accountname_cpp, faxcomex/IFaxAccount::AccountName, faxcomex/IFaxAccount::get_AccountName, get_AccountName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper_sethwnd.htm
 tech.root: directdraw
 ms.assetid: 7683bccd-3f5c-4098-9041-9c66853cda0e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],SetHWnd method, IDirectDrawClipper.SetHWnd, IDirectDrawClipper::SetHWnd, SetHWnd, SetHWnd method [DirectDraw], SetHWnd method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::SetHWnd, directdraw.idirectdrawclipper_sethwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

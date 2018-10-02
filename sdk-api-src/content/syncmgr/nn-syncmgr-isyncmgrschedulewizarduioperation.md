@@ -4,10 +4,10 @@ title: ISyncMgrScheduleWizardUIOperation
 author: windows-sdk-content
 description: Exposes a method that allows a handler to display the sync schedule wizard for the handler.
 old-location: shell\ISyncMgrScheduleWizardUIOperation.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: dcbe22fb-624f-4784-b1c3-5c463d6502a3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperation interface [Windows Shell], ISyncMgrScheduleWizardUIOperation interface [Windows Shell],described, _shell_ISyncMgrScheduleWizardUIOperation, shell.ISyncMgrScheduleWizardUIOperation, syncmgr/ISyncMgrScheduleWizardUIOperation
 ms.prod: windows
 ms.technology: windows-sdk

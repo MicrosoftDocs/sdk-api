@@ -4,10 +4,10 @@ title: DsBrowseForContainerW function
 author: windows-sdk-content
 description: Displays a dialog box used to browse for container objects in Active Directory Domain Services.
 old-location: ad\dsbrowseforcontainer.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: c95585b3-bf40-4aee-ae47-ca8f43daf0e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DsBrowseForContainer, DsBrowseForContainer function [Active Directory], DsBrowseForContainerA, DsBrowseForContainerW, _glines_dsbrowseforcontainer, ad.dsbrowseforcontainer, dsclient/DsBrowseForContainer, dsclient/DsBrowseForContainerA, dsclient/DsBrowseForContainerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

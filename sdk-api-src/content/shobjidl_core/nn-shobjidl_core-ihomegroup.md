@@ -4,10 +4,10 @@ title: IHomeGroup
 author: windows-sdk-content
 description: Exposes methods that determine a computer's HomeGroup membership status and display the sharing wizard.
 old-location: shell\IHomeGroup.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 97d693c0-1126-4cd3-8aee-b5499b538403
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IHomeGroup, IHomeGroup interface [Windows Shell], IHomeGroup interface [Windows Shell],described, _shell_IHomeGroup, shell.IHomeGroup, shobjidl_core/IHomeGroup
 ms.prod: windows
 ms.technology: windows-sdk

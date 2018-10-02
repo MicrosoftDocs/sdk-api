@@ -4,10 +4,10 @@ title: IMFVideoDisplayControl::SetVideoPosition
 author: windows-sdk-content
 description: Sets the source and destination rectangles for the video.
 old-location: mf\imfvideodisplaycontrol_setvideoposition.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184, IMFVideoDisplayControl interface [Media Foundation],SetVideoPosition method, IMFVideoDisplayControl.SetVideoPosition, IMFVideoDisplayControl::SetVideoPosition, SetVideoPosition, SetVideoPosition method [Media Foundation], SetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoPosition, mf.imfvideodisplaycontrol_setvideoposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

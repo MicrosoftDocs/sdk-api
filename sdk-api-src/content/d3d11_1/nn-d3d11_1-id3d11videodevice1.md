@@ -4,10 +4,10 @@ title: ID3D11VideoDevice1
 author: windows-sdk-content
 description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videodevice1.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 10E68945-6103-491D-8846-3B7C880FEAFD
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoDevice1, ID3D11VideoDevice1 interface [Media Foundation], ID3D11VideoDevice1 interface [Media Foundation],described, d3d11_1/ID3D11VideoDevice1, mf.id3d11videodevice1
 ms.prod: windows
 ms.technology: windows-sdk

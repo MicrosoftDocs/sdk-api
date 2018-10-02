@@ -4,10 +4,10 @@ title: IBrowserService2
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5c100b60-ef2e-4044-9f06-c1d01bcd88d2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], IBrowserService2 interface [Windows Shell],described, shdeprecated/IBrowserService2, shell.IBrowserService2, zone_IBrowserService2
 ms.prod: windows
 ms.technology: windows-sdk

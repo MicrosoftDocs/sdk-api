@@ -7,7 +7,7 @@ old-location: taskschd\itaskservice_connecteddomain.htm
 tech.root: TaskSchd
 ms.assetid: 13a67d82-f239-450c-9490-02f07e672a64
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ConnectedDomain property [Task Scheduler], ConnectedDomain property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],ConnectedDomain property, ITaskService.ConnectedDomain, ITaskService.get_ConnectedDomain, ITaskService::ConnectedDomain, ITaskService::get_ConnectedDomain, get_ConnectedDomain, taskschd.itaskservice_connecteddomain, taskschd/ITaskService::ConnectedDomain, taskschd/ITaskService::get_ConnectedDomain
 ms.prod: windows-hardware
 ms.technology: windows-devices

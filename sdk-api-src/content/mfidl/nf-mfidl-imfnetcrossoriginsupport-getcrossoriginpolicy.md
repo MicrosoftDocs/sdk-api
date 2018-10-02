@@ -4,10 +4,10 @@ title: IMFNetCrossOriginSupport::GetCrossOriginPolicy
 author: windows-sdk-content
 description: Returns the client's current cross-origin policy to apply to the download session.
 old-location: mf\imfnetcrossoriginsupport_getcrossoriginpolicy.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: B74FA337-014E-4A5C-83CD-26C563E9BBD4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetCrossOriginPolicy, GetCrossOriginPolicy method [Media Foundation], GetCrossOriginPolicy method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetCrossOriginPolicy method, IMFNetCrossOriginSupport.GetCrossOriginPolicy, IMFNetCrossOriginSupport::GetCrossOriginPolicy, mf.imfnetcrossoriginsupport_getcrossoriginpolicy, mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

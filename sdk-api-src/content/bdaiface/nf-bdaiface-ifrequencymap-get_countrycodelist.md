@@ -4,10 +4,10 @@ title: IFrequencyMap::get_CountryCodeList
 author: windows-sdk-content
 description: The get_CountryCodeList method returns a list of all the country/region codes for which the Network Provider has a frequency table.
 old-location: mstv\ifrequencymap_get_countrycodelist.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: cc9e2f2e-3187-446e-b1e6-ae32da4413b9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_CountryCodeList method, IFrequencyMap.get_CountryCodeList, IFrequencyMap::get_CountryCodeList, IFrequencyMapget_CountryCodeList, bdaiface/IFrequencyMap::get_CountryCodeList, get_CountryCodeList, get_CountryCodeList method [Microsoft TV Technologies], get_CountryCodeList method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_countrycodelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

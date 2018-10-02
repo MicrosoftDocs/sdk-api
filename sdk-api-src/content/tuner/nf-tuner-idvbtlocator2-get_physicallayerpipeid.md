@@ -4,10 +4,10 @@ title: IDVBTLocator2::get_PhysicalLayerPipeId
 author: windows-sdk-content
 description: Identifies a Physical Layer Pipe (PLP) that carries a T2 logical data stream.
 old-location: mstv\idvbtlocator2_physicallayerpipeid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b8292803-6fde-497e-9add-cf9cafc73a96
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBTLocator2 interface [Microsoft TV Technologies],PhysicalLayerPipeId property, IDVBTLocator2.PhysicalLayerPipeId, IDVBTLocator2.get_PhysicalLayerPipeId, IDVBTLocator2::PhysicalLayerPipeId, IDVBTLocator2::get_PhysicalLayerPipeId, IDVBTLocator2::put_PhysicalLayerPipeId, PhysicalLayerPipeId property [Microsoft TV Technologies], PhysicalLayerPipeId property [Microsoft TV Technologies],IDVBTLocator2 interface, get_PhysicalLayerPipeId, mstv.idvbtlocator2_physicallayerpipeid, tuner/IDVBTLocator2::PhysicalLayerPipeId, tuner/IDVBTLocator2::get_PhysicalLayerPipeId, tuner/IDVBTLocator2::put_PhysicalLayerPipeId
 ms.prod: windows-hardware
 ms.technology: windows-devices

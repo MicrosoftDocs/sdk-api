@@ -4,10 +4,10 @@ title: IESLicenseRenewalResultEvent::GetFileName
 author: windows-sdk-content
 description: Gets the file name for the license to renew from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getfilename.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6ef49a38-c005-4731-a1cb-d5a63ea94e71
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetFileName, GetFileName method [DirectShow], GetFileName method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetFileName method, IESLicenseRenewalResultEvent.GetFileName, IESLicenseRenewalResultEvent::GetFileName, mstv.ieslicenserenewalresultevent_getfilename, tuner/IESLicenseRenewalResultEvent::GetFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

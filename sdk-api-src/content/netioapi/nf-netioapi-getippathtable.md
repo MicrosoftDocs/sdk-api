@@ -4,10 +4,10 @@ title: GetIpPathTable function
 author: windows-sdk-content
 description: The GetIpPathTable function retrieves the IP path table on the local computer.
 old-location: iphlp\getippathtable.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: e03816a4-0b86-4e0b-a45e-8148c8ba5472
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpPathTable, GetIpPathTable function [IP Helper], iphlp.getippathtable, netioapi/GetIpPathTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

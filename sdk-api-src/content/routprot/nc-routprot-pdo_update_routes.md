@@ -7,7 +7,7 @@ old-location: rras\doupdateroutes.htm
 tech.root: RRAS
 ms.assetid: 5942c856-f504-4e2d-86c8-f3207c787ed5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DoUpdateRoutes, DoUpdateRoutes callback function [RAS], PDO_UPDATE_ROUTES, PDO_UPDATE_ROUTES callback, _mpr_doupdateroutes, routprot/DoUpdateRoutes, rras.doupdateroutes
 ms.prod: windows
 ms.technology: windows-sdk

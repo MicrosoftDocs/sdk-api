@@ -4,10 +4,10 @@ title: MFCreateStreamOnMFByteStream function
 author: windows-sdk-content
 description: Returns an IStream pointer that wraps a Microsoft Media Foundation byte stream.
 old-location: mf\mfcreatestreamonmfbytestream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 97C72B89-2E57-494E-AEB8-41125B3D740E
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateStreamOnMFByteStream, MFCreateStreamOnMFByteStream function [Media Foundation], mf.mfcreatestreamonmfbytestream, mfidl/MFCreateStreamOnMFByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itasknamedvaluecollection_create.htm
 tech.root: TaskSchd
 ms.assetid: aec5ca20-b983-48e1-a5d0-761f18557fe4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Create method, ITaskNamedValueCollection.Create, ITaskNamedValueCollection::Create, taskschd.itasknamedvaluecollection_create, taskschd/ITaskNamedValueCollection::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices

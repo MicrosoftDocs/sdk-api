@@ -4,10 +4,10 @@ title: EngBugCheckEx function
 author: windows-sdk-content
 description: The EngBugCheckEx function brings down the system in a controlled manner when the caller discovers an unrecoverable error that would corrupt the system if the caller continued to run.
 old-location: display\engbugcheckex.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 3b835719-cf11-4058-a557-c6618015f362
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngBugCheckEx, EngBugCheckEx function [Display Devices], display.engbugcheckex, gdifncs_0ed66a9e-1824-45cc-9237-ab0910e72915.xml, winddi/EngBugCheckEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

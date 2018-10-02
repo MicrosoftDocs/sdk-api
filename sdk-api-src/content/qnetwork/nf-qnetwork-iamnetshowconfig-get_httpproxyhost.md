@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_httpproxyhost.htm
 tech.root: DirectShow
 ms.assetid: d73aefda-2c51-466a-b590-c8f189db4719
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_HTTPProxyHost method, IAMNetShowConfig.get_HTTPProxyHost, IAMNetShowConfig::get_HTTPProxyHost, IAMNetShowConfigget_HTTPProxyHost, dshow.iamnetshowconfig_get_httpproxyhost, get_HTTPProxyHost, get_HTTPProxyHost method [DirectShow], get_HTTPProxyHost method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_HTTPProxyHost
 ms.prod: windows-hardware
 ms.technology: windows-devices

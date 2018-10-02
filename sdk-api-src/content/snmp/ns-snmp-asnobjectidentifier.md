@@ -7,7 +7,7 @@ old-location: snmp\asnobjectidentifier_str.htm
 tech.root: SNMP
 ms.assetid: 695e5581-00df-49af-8abe-1dd1b25cb215
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AsnObjectIdentifier, AsnObjectIdentifier structure [SNMP], AsnObjectName, _snmp_asnobjectidentifier_str, snmp.asnobjectidentifier_str, snmp/AsnObjectIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

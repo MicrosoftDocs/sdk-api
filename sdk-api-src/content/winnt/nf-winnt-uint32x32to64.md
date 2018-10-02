@@ -7,7 +7,7 @@ old-location: winprog\uint32x32to64.htm
 tech.root: WinProg
 ms.assetid: 369e0574-df8b-4e65-bbba-7a7961caebe7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: UInt32x32To64, UInt32x32To64 macro [Windows API], _win32_uint32x32to64, winnt/UInt32x32To64, winprog.uint32x32to64
 ms.prod: windows-hardware
 ms.technology: windows-devices

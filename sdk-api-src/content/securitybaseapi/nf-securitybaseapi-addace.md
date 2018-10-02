@@ -7,7 +7,7 @@ old-location: security\addace.htm
 tech.root: SecAuthZ
 ms.assetid: f472d864-a273-49b5-b5e2-98772989971e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AddAce, AddAce function [Security], _win32_addace, security.addace, securitybaseapi/AddAce
 ms.prod: windows-hardware
 ms.technology: windows-devices

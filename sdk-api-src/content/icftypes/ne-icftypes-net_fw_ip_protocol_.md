@@ -4,10 +4,10 @@ title: NET_FW_IP_PROTOCOL_
 author: windows-sdk-content
 description: Specifies the Internet protocol.
 old-location: ics\net_fw_ip_protocol.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 867a038c-ae8e-4da8-a3e9-3ca7cb6ba518
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: NET_FW_IP_PROTOCOL, NET_FW_IP_PROTOCOL enumeration [ICS/ICF], NET_FW_IP_PROTOCOL_, NET_FW_IP_PROTOCOL_TCP, NET_FW_IP_PROTOCOL_UDP, icftypes/NET_FW_IP_PROTOCOL, icftypes/NET_FW_IP_PROTOCOL_TCP, icftypes/NET_FW_IP_PROTOCOL_UDP, ics.net_fw_ip_protocol
 ms.prod: windows
 ms.technology: windows-sdk

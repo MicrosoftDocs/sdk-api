@@ -4,10 +4,10 @@ title: "_SCHANNEL_CERT_HASH"
 author: windows-sdk-content
 description: Contains the hash store data for the certificate that Schannel uses.
 old-location: security\schannel_cert_hash.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: BC068062-6644-4296-990F-7C533DC80C02
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH structure pointer [Security], SCHANNEL_CERT_HASH, SCHANNEL_CERT_HASH structure [Security], SCH_MACHINE_CERT_HASH, _SCHANNEL_CERT_HASH, schannel/PSCHANNEL_CERT_HASH, schannel/SCHANNEL_CERT_HASH, security.schannel_cert_hash"
 ms.prod: windows
 ms.technology: windows-sdk

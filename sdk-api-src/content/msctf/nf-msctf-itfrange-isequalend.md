@@ -7,7 +7,7 @@ old-location: tsf\itfrange_isequalend.htm
 tech.root: TSF
 ms.assetid: 03b87230-457f-4483-a183-d8a8cc7cead4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEqualEnd method, ITfRange.IsEqualEnd, ITfRange::IsEqualEnd, IsEqualEnd, IsEqualEnd method [Text Services Framework], IsEqualEnd method [Text Services Framework],ITfRange interface, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_isequalend_ref, msctf/ITfRange::IsEqualEnd, tsf.itfrange_isequalend
 ms.prod: windows-hardware
 ms.technology: windows-devices

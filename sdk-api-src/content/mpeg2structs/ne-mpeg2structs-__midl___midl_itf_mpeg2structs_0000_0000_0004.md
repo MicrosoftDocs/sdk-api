@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0004"
 author: windows-sdk-content
 description: The MPEG_CURRENT_NEXT_BIT enumeration type specifies the value of the current_next_indicator bit.
 old-location: mstv\mpeg_current_next_bit.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b35ced88-92b3-4f70-842b-9664a714823c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: MPEG_CURRENT_NEXT_BIT, MPEG_CURRENT_NEXT_BIT enumeration [Microsoft TV Technologies], MPEG_SECTION_IS_CURRENT, MPEG_SECTION_IS_NEXT, __MIDL___MIDL_itf_mpeg2structs_0000_0000_0004, mpeg2structs/MPEG_CURRENT_NEXT_BIT, mpeg2structs/MPEG_SECTION_IS_CURRENT, mpeg2structs/MPEG_SECTION_IS_NEXT, mstv.mpeg_current_next_bit
 ms.prod: windows
 ms.technology: windows-sdk

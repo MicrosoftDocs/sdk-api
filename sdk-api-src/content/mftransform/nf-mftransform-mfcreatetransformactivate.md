@@ -4,10 +4,10 @@ title: MFCreateTransformActivate function
 author: windows-sdk-content
 description: Creates a generic activation object for Media Foundation transforms (MFTs).
 old-location: mf\mfcreatetransformactivate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 845c7114-756b-4d0f-a92e-9c6e2eba7c94
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateTransformActivate, MFCreateTransformActivate function [Media Foundation], mf.mfcreatetransformactivate, mftransform/MFCreateTransformActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SetClusterGroupSetDependencyExpression function
 author: windows-sdk-content
 description: Sets the dependency expression for a cluster groupset.
 old-location: mscs\setclustergroupcollectiondependencyexpression.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1bde6ef6-a415-4fa2-8618-0304c38d9434
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION function [Failover Cluster], SetClusterGroupSetDependencyExpression, SetClusterGroupSetDependencyExpression function [Failover Cluster], clusapi/PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION, clusapi/SetClusterGroupSetDependencyExpression, mscs.setclustergroupcollectiondependencyexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices

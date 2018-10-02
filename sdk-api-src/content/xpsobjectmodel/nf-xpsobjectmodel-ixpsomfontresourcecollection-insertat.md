@@ -7,7 +7,7 @@ old-location: xps\ixpsomfontresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 39400f6a-10b1-48f8-ae53-cd27bf7c2e1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMFontResourceCollection.InsertAt, IXpsOMFontResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_insertat, xpsobjectmodel/IXpsOMFontResourceCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

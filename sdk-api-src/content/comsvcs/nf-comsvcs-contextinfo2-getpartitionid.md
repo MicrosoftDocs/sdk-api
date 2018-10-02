@@ -7,7 +7,7 @@ old-location: cos\contextinfo2_getpartitionid.htm
 tech.root: cossdk
 ms.assetid: b4cda75d-a4f3-404e-965a-9c1487946ee1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ContextInfo2 interface [COM+],GetPartitionId method, ContextInfo2.GetPartitionId, ContextInfo2::GetPartitionId, GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetPartitionId, comsvcs/ContextInfo2::GetPartitionId, cos.contextinfo2_getpartitionid
 ms.prod: windows-hardware
 ms.technology: windows-devices

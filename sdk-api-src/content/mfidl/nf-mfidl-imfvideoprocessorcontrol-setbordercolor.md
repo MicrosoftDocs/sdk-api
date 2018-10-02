@@ -4,10 +4,10 @@ title: IMFVideoProcessorControl::SetBorderColor
 author: windows-sdk-content
 description: Sets the border color.
 old-location: mf\imfvideoprocessorcontrol_setbordercolor.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: DA6165C9-24E9-473C-A4F7-4C94399AF346
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetBorderColor method, IMFVideoProcessorControl.SetBorderColor, IMFVideoProcessorControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setbordercolor, mfidl/IMFVideoProcessorControl::SetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

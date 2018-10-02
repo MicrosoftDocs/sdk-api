@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembitmapbutton_onclick.htm
 tech.root: TSF
 ms.assetid: 8d376d22-897d-4032-9c9e-7d0f93d73fac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],OnClick method, ITfLangBarItemBitmapButton.OnClick, ITfLangBarItemBitmapButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_onclick_ref, ctfutb/ITfLangBarItemBitmapButton::OnClick, tsf.itflangbaritembitmapbutton_onclick
 ms.prod: windows-hardware
 ms.technology: windows-devices

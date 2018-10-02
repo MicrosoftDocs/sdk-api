@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleConnector
 author: windows-sdk-content
 description: Creates the communication channel between FSRM and your pipeline module implementation.
 old-location: fsrm\ifsrmpipelinemoduleconnector.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 7debbe8c-b687-42e1-b9b7-1b5f6f16a159
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], IFsrmPipelineModuleConnector interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleconnector, fsrm.ifsrmpipelinemoduleconnector, fsrmpipeline/IFsrmPipelineModuleConnector
 ms.prod: windows
 ms.technology: windows-sdk

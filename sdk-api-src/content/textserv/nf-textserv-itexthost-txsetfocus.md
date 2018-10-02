@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxSetFocus.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetfocus.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetFocus method, ITextHost.TxSetFocus, ITextHost::TxSetFocus, TxSetFocus, TxSetFocus method [Windows Controls], TxSetFocus method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetFocus, _win32_ITextHost_TxSetFocus_cpp, controls.ITextHost_TxSetFocus, controls._win32_ITextHost_TxSetFocus, textserv/ITextHost::TxSetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

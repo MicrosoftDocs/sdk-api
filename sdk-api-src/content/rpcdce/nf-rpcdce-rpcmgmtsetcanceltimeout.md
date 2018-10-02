@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtsetcanceltimeout.htm
 tech.root: Rpc
 ms.assetid: 0a616f5d-b30a-4cd3-9348-19f09f373c50
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcMgmtSetCancelTimeout, RpcMgmtSetCancelTimeout function [RPC], _rpc_rpcmgmtsetcanceltimeout, rpc.rpcmgmtsetcanceltimeout, rpcdce/RpcMgmtSetCancelTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

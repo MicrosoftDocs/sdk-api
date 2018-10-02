@@ -4,10 +4,10 @@ title: IFsrmQuotaManager::GetRestrictiveQuota
 author: windows-sdk-content
 description: Retrieves the most restrictive quota for the specified path.
 old-location: fsrm\ifsrmquotamanager_getrestrictivequota.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: aa1ac69d-341e-49fd-893c-82ce3577c1f5
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetRestrictiveQuota method, GetRestrictiveQuota, GetRestrictiveQuota method [File Server Resource Manager], GetRestrictiveQuota method [File Server Resource Manager],FsrmQuotaManager class, GetRestrictiveQuota method [File Server Resource Manager],IFsrmQuotaManager interface, GetRestrictiveQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, IFsrmQuotaManager interface [File Server Resource Manager],GetRestrictiveQuota method, IFsrmQuotaManager.GetRestrictiveQuota, IFsrmQuotaManager::GetRestrictiveQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],GetRestrictiveQuota method, IFsrmQuotaManagerEx::GetRestrictiveQuota, fs.ifsrmquotamanager_getrestrictivequota, fsrm.ifsrmquotamanager_getrestrictivequota, fsrmquota/IFsrmQuotaManager::GetRestrictiveQuota, fsrmquota/IFsrmQuotaManagerEx::GetRestrictiveQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices

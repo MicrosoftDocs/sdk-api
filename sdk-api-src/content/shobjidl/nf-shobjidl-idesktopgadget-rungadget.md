@@ -4,10 +4,10 @@ title: IDesktopGadget::RunGadget
 author: windows-sdk-content
 description: Adds an installed gadget to the desktop.
 old-location: shell\IDesktopGadget_RunGadget.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktopGadget.RunGadget, IDesktopGadget::RunGadget, RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell],IDesktopGadget interface, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
 ms.prod: windows-hardware
 ms.technology: windows-devices

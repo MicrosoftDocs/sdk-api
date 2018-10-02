@@ -4,10 +4,10 @@ title: IShellWindows::_NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection of Shell windows.
 old-location: shell\IShellWindows_NewEnum.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e91b2be7-2be9-4460-9a2a-57090dcfc961
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellWindows interface [Windows Shell],_NewEnum method, IShellWindows._NewEnum, IShellWindows::_NewEnum, _NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell],IShellWindows interface, _win32_IShellWindows_NewEnum, exdisp/IShellWindows::_NewEnum, shell.IShellWindows_NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

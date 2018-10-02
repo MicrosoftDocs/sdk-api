@@ -4,10 +4,10 @@ title: RevokeScaleChangeNotifications function
 author: windows-sdk-content
 description: Revokes the registration of a window, preventing it from receiving callbacks when scaling information changes.
 old-location: shell\RevokeScaleChangeNotifications.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 95F1D147-D364-4b11-AE2B-CD1FCEA07B5D
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: RevokeScaleChangeNotifications, RevokeScaleChangeNotifications function [Windows Shell], shell.RevokeScaleChangeNotifications, shellscalingapi/RevokeScaleChangeNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices

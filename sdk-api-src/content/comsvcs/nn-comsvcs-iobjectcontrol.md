@@ -7,7 +7,7 @@ old-location: cos\iobjectcontrol.htm
 tech.root: cossdk
 ms.assetid: cbc63f97-dfc7-4e1f-97f9-2043f8bea1d4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IObjectControl, IObjectControl interface [COM+], IObjectControl interface [COM+],described, _cos_IObjectControl, comsvcs/IObjectControl, cos.iobjectcontrol
 ms.prod: windows
 ms.technology: windows-sdk

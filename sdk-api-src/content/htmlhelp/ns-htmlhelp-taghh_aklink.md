@@ -7,7 +7,7 @@ old-location: htmlhelp\hh_aklink_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhaklink.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: HH_AKLINK, HH_AKLINK structure [HTML Help Workshop], htmlhelp.hh_aklink_structure, htmlhelp/HH_AKLINK, tagHH_AKLINK, vsconStrhhaklink
 ms.prod: windows
 ms.technology: windows-sdk

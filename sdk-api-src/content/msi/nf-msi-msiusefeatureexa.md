@@ -4,10 +4,10 @@ title: MsiUseFeatureExA function
 author: windows-sdk-content
 description: The MsiUseFeatureEx function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 old-location: setup\msiusefeatureex.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: fa05124c-e1ed-4059-9af3-2a914785799d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: INSTALLMODE_NODETECTION, MsiUseFeatureEx, MsiUseFeatureEx function, MsiUseFeatureExA, MsiUseFeatureExW, _msi_msiusefeatureex, msi/MsiUseFeatureEx, msi/MsiUseFeatureExA, msi/MsiUseFeatureExW, setup.msiusefeatureex
 ms.prod: windows-hardware
 ms.technology: windows-devices

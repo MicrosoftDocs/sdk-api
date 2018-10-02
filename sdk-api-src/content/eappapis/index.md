@@ -2,13 +2,12 @@
 UID: NA:eappapis
 ms.assetid: e800240b-5ee6-32f1-b81e-cacbb23ed2ff
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: eaphost
-archived: true
 ---
 
 # Eappapis.h header

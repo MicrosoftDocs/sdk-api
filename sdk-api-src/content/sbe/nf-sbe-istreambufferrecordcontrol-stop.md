@@ -4,10 +4,10 @@ title: IStreamBufferRecordControl::Stop
 author: windows-sdk-content
 description: The Stop method stops the recording and closes the file.
 old-location: mstv\istreambufferrecordcontrol_stop.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1b6a3ac4-076a-4fca-909c-6063637248a8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IStreamBufferRecordControl interface [Microsoft TV Technologies],Stop method, IStreamBufferRecordControl.Stop, IStreamBufferRecordControl::Stop, IStreamBufferRecordControlStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IStreamBufferRecordControl interface, mstv.istreambufferrecordcontrol_stop, sbe/IStreamBufferRecordControl::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

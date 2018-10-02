@@ -4,10 +4,10 @@ title: UIntPtrToInt16 function
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type INT16.
 old-location: shell\UIntPtrToInt16.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: cce027f0-34e9-4c13-89de-102c98ab7a14
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: UIntPtrToInt16, UIntPtrToInt16 function [Windows Shell], intsafe/UIntPtrToInt16, shell.UIntPtrToInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDvbLogicalChannelDescriptor2
 author: windows-sdk-content
 description: The IDvbLogicalChannelDescriptor2 interface enables the client to get a logical channel descriptor from a DVB stream. The logical channel descriptor may be present in the network information table (NIT).
 old-location: mstv\idvblogicalchanneldescriptor2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1A554897-D223-4172-B71B-ACD11BCA290A
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbLogicalChannelDescriptor2, IDvbLogicalChannelDescriptor2 interface [Microsoft TV Technologies], IDvbLogicalChannelDescriptor2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLogicalChannelDescriptor2, mstv.idvblogicalchanneldescriptor2
 ms.prod: windows
 ms.technology: windows-sdk

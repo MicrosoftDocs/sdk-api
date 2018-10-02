@@ -4,10 +4,10 @@ title: IDeskBand
 author: windows-sdk-content
 description: Used to obtain information about a band object.
 old-location: shell\IDeskBand.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: eb9f7f2a-a6be-4527-8a32-325dad4c8000
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IDeskBand, IDeskBand interface [Windows Shell], IDeskBand interface [Windows Shell],described, _win32_IDeskBand, shell.IDeskBand, shobjidl_core/IDeskBand
 ms.prod: windows
 ms.technology: windows-sdk

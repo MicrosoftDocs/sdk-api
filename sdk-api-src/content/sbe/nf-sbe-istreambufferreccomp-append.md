@@ -4,10 +4,10 @@ title: IStreamBufferRecComp::Append
 author: windows-sdk-content
 description: The Append method appends an entire recording to the target file.
 old-location: mstv\istreambufferreccomp_append.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 17911b5d-6ef5-45d2-83c3-e1b481544008
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: Append, Append method [Microsoft TV Technologies], Append method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Append method, IStreamBufferRecComp.Append, IStreamBufferRecComp::Append, IStreamBufferRecCompAppend, mstv.istreambufferreccomp_append, sbe/IStreamBufferRecComp::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices

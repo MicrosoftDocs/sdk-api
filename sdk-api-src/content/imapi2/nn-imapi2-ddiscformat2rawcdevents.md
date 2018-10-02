@@ -7,7 +7,7 @@ old-location: imapi\ddiscformat2rawcdevents.htm
 tech.root: imapi
 ms.assetid: 3a06911e-8a50-4e41-874c-478ad05f6488
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: DDiscFormat2RawCDEvents, DDiscFormat2RawCDEvents interface [IMAPI], DDiscFormat2RawCDEvents interface [IMAPI],described, imapi.ddiscformat2rawcdevents, imapi2/DDiscFormat2RawCDEvents
 ms.prod: windows
 ms.technology: windows-sdk

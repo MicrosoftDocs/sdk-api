@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getstreamcount.htm
 tech.root: stream
 ms.assetid: 6FD4B393-05E6-4400-B1A3-D69B7F1B90F0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Streaming Media Devices], GetStreamCount method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetStreamCount method, IMFDeviceTransform.GetStreamCount, IMFDeviceTransform::GetStreamCount, mftransform/IMFDeviceTransform::GetStreamCount, stream.imfdevicetransform_getstreamcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

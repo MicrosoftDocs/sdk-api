@@ -7,7 +7,7 @@ old-location: wmformat\wm_stream_priority_record.htm
 tech.root: wmformat
 ms.assetid: 43c9370c-cd43-4dd0-8258-d6dbdb98f1de
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WM_STREAM_PRIORITY_RECORD, WM_STREAM_PRIORITY_RECORD structure [windows Media Format], _WMStreamPrioritizationRecord, wmformat.wm_stream_priority_record, wmsdkidl/WM_STREAM_PRIORITY_RECORD
 ms.prod: windows
 ms.technology: windows-sdk

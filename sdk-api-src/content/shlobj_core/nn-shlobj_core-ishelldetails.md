@@ -4,10 +4,10 @@ title: IShellDetails
 author: windows-sdk-content
 description: Exposed by Shell folders to provide detailed information about the items in a folder.
 old-location: shell\IShellDetails.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c31409fd-9350-46bb-a8a0-85d5958c6e49
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellDetails, IShellDetails interface [Windows Shell], IShellDetails interface [Windows Shell],described, _win32_IShellDetails, shell.IShellDetails, shlobj_core/IShellDetails
 ms.prod: windows
 ms.technology: windows-sdk

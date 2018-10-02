@@ -4,10 +4,10 @@ title: IMFMediaEngineSrcElementsEx::GetKeySystem
 author: windows-sdk-content
 description: Gets the key system for the given source element index.
 old-location: mf\imfmediaenginesrcelementsex_getkeysystem.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5d8db178-a17d-4920-9eed-b2dfba9f05fc
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetKeySystem, GetKeySystem method [Media Foundation], GetKeySystem method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],GetKeySystem method, IMFMediaEngineSrcElementsEx.GetKeySystem, IMFMediaEngineSrcElementsEx::GetKeySystem, mf.imfmediaenginesrcelementsex_getkeysystem, mfmediaengine/IMFMediaEngineSrcElementsEx::GetKeySystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSourceResolver::CreateObjectFromURL
 author: windows-sdk-content
 description: Creates a media source or a byte stream from a URL. This method is synchronous.
 old-location: mf\imfsourceresolver_createobjectfromurl.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: b8f751b1-6456-4d67-839d-ecfa388e8d71
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: CreateObjectFromURL, CreateObjectFromURL method [Media Foundation], CreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CreateObjectFromURL method, IMFSourceResolver.CreateObjectFromURL, IMFSourceResolver::CreateObjectFromURL, b8f751b1-6456-4d67-839d-ecfa388e8d71, mf.imfsourceresolver_createobjectfromurl, mfidl/IMFSourceResolver::CreateObjectFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

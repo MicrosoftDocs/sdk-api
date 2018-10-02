@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_setsynctolerance.htm
 tech.root: wmformat
 ms.assetid: d60020bf-52f1-46a0-aeae-367e3b179fac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetSyncTolerance method, IWMWriterAdvanced.SetSyncTolerance, IWMWriterAdvanced::SetSyncTolerance, IWMWriterAdvancedSetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [windows Media Format], SetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setsynctolerance, wmsdkidl/IWMWriterAdvanced::SetSyncTolerance
 ms.prod: windows-hardware
 ms.technology: windows-devices

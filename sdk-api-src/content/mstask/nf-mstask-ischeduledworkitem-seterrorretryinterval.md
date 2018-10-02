@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_seterrorretryinterval.htm
 tech.root: TaskSchd
 ms.assetid: e5923d76-50d0-4d1c-9d80-0b7cbd8ee3d7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryInterval method, IScheduledWorkItem.SetErrorRetryInterval, IScheduledWorkItem::SetErrorRetryInterval, SetErrorRetryInterval, SetErrorRetryInterval method [Task Scheduler], SetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretryinterval, mstask/IScheduledWorkItem::SetErrorRetryInterval, taskschd.ischeduledworkitem_seterrorretryinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

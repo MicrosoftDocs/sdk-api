@@ -2,7 +2,7 @@
 UID: NA:wpcevent
 ms.assetid: 9a522c75-7a22-3cfb-a82e-bb1e411d03d5
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

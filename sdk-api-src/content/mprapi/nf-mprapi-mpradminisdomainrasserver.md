@@ -7,7 +7,7 @@ old-location: rras\mpradminisdomainrasserver.htm
 tech.root: RRAS
 ms.assetid: 5d9e09f9-3bb7-4877-b9f7-ce045fb30c8f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS], mprapi/MprAdminIsDomainRasServer, rras.mpradminisdomainrasserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

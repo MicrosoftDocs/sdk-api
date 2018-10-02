@@ -7,7 +7,7 @@ old-location: properties\IPropertyUI_FormatForDisplay.htm
 tech.root: properties
 ms.assetid: 1283A5A9-EB9A-4e7c-A82B-0DDE309FA979
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],FormatForDisplay method, IPropertyUI.FormatForDisplay, IPropertyUI::FormatForDisplay, PUIFFDF_DEFAULT, PUIFFDF_FRIENDLYDATE, PUIFFDF_NOTIME, PUIFFDF_RIGHTTOLEFT, PUIFFDF_SHORTFORMAT, _shell_IPropertyUI_FormatForDisplay, properties.IPropertyUI_FormatForDisplay, shell.IPropertyUI_FormatForDisplay, shobjidl_core/IPropertyUI::FormatForDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

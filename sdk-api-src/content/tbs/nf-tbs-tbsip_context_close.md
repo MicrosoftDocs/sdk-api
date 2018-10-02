@@ -7,7 +7,7 @@ old-location: tbs\_tbsip_context_close.htm
 tech.root: TBS
 ms.assetid: 405c600b-f752-48e8-9eea-473fcdf1eb2f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Tbsip_Context_Close, Tbsip_Context_Close function [TBS], tbs._tbsip_context_close, tbs/Tbsip_Context_Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

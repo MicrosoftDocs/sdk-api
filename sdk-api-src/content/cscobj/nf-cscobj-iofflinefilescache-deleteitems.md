@@ -4,10 +4,10 @@ title: IOfflineFilesCache::DeleteItems
 author: windows-sdk-content
 description: Deletes files and directories from the local cache.
 old-location: of\iofflinefilescache_deleteitems.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: e6326364-fbd0-4446-97c3-6a3940856efb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteItems, DeleteItems method [Offline Files], DeleteItems method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],DeleteItems method, IOfflineFilesCache.DeleteItems, IOfflineFilesCache::DeleteItems, OFFLINEFILES_DELETE_FLAG_ADMIN, OFFLINEFILES_DELETE_FLAG_DELMODIFIED, OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED, OFFLINEFILES_DELETE_FLAG_NOPINNED, cscobj/IOfflineFilesCache::DeleteItems, of.iofflinefilescache_deleteitems
 ms.prod: windows-hardware
 ms.technology: windows-devices

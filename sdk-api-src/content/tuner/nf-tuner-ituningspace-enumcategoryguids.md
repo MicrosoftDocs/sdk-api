@@ -4,10 +4,10 @@ title: ITuningSpace::EnumCategoryGUIDs
 author: windows-sdk-content
 description: Currently not implemented.
 old-location: mstv\ituningspace_enumcategoryguids.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d9efbbda-fa95-46ea-aedc-7be5b13d16b5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: EnumCategoryGUIDs, EnumCategoryGUIDs method [Microsoft TV Technologies], EnumCategoryGUIDs method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumCategoryGUIDs method, ITuningSpace.EnumCategoryGUIDs, ITuningSpace::EnumCategoryGUIDs, ITuningSpaceEnumCategoryGUIDs, mstv.ituningspace_enumcategoryguids, tuner/ITuningSpace::EnumCategoryGUIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MsiDatabaseMergeA function
 author: windows-sdk-content
 description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows.
 old-location: setup\msidatabasemerge.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: 2a8c5e13-f7af-47ea-b781-a739d848fe09
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, MsiDatabaseMergeW, _msi_msidatabasemerge, msiquery/MsiDatabaseMerge, msiquery/MsiDatabaseMergeA, msiquery/MsiDatabaseMergeW, setup.msidatabasemerge
 ms.prod: windows-hardware
 ms.technology: windows-devices

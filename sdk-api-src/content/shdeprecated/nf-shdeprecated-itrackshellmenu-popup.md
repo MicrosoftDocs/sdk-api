@@ -4,10 +4,10 @@ title: ITrackShellMenu::Popup
 author: windows-sdk-content
 description: Displays a modal pop-up menu at a specific location.
 old-location: shell\ITrackShellMenu_Popup.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a8098143-6f36-496c-81af-f06fb83c9920
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ITrackShellMenu interface [Windows Shell],Popup method, ITrackShellMenu.Popup, ITrackShellMenu::Popup, Popup, Popup method [Windows Shell], Popup method [Windows Shell],ITrackShellMenu interface, _shell_ITrackShellMenu_Popup, shdeprecated/ITrackShellMenu::Popup, shell.ITrackShellMenu_Popup
 ms.prod: windows-hardware
 ms.technology: windows-devices

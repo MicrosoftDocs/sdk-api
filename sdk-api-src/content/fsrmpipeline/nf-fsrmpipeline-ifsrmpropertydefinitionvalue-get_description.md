@@ -4,10 +4,10 @@ title: IFsrmPropertyDefinitionValue::get_Description
 author: windows-sdk-content
 description: Description of the classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue_description.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: dfbd62c6-4795-418f-bb04-18da2d0f3acb
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, IFsrmPropertyDefinitionValue interface [File Server Resource Manager],Description property, IFsrmPropertyDefinitionValue.Description, IFsrmPropertyDefinitionValue.get_Description, IFsrmPropertyDefinitionValue::Description, IFsrmPropertyDefinitionValue::get_Description, fs.ifsrmpropertydefinitionvalue_description, fsrm.ifsrmpropertydefinitionvalue_description, fsrmpipeline/IFsrmPropertyDefinitionValue::Description, fsrmpipeline/IFsrmPropertyDefinitionValue::get_Description, get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

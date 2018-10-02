@@ -4,10 +4,10 @@ title: INamespaceWalkCB::LeaveFolder
 author: windows-sdk-content
 description: Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by INamespaceWalkCB::EnterFolder or INamespaceWalkCB::FoundItem.
 old-location: shell\INamespaceWalkCB_LeaveFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 307b0686-c4ec-40c6-8bd3-18a7aa790875
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: INamespaceWalkCB interface [Windows Shell],LeaveFolder method, INamespaceWalkCB.LeaveFolder, INamespaceWalkCB::LeaveFolder, LeaveFolder, LeaveFolder method [Windows Shell], LeaveFolder method [Windows Shell],INamespaceWalkCB interface, _win32_INamespaceWalkCB_LeaveFolder, shell.INamespaceWalkCB_LeaveFolder, shobjidl_core/INamespaceWalkCB::LeaveFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

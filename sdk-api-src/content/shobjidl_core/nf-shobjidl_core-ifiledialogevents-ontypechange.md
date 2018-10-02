@@ -4,10 +4,10 @@ title: IFileDialogEvents::OnTypeChange
 author: windows-sdk-content
 description: Called when the dialog is opened to notify the application of the initial chosen filetype.
 old-location: shell\IFileDialogEvents_OnTypeChange.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d57e7b57-520d-40d6-8bac-ebf245ad7484
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnTypeChange method, IFileDialogEvents.OnTypeChange, IFileDialogEvents::OnTypeChange, OnTypeChange, OnTypeChange method [Windows Shell], OnTypeChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnTypeChange, shell_IFileDialogEvents_OnTypeChange, shobjidl_core/IFileDialogEvents::OnTypeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

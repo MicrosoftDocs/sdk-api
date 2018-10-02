@@ -4,10 +4,10 @@ title: NetGetJoinInformation function
 author: windows-sdk-content
 description: The NetGetJoinInformation function retrieves join status information for the specified computer.
 old-location: netmgmt\netgetjoininformation.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: c7cc1cf2-4530-4039-806b-fbee572f564d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NetGetJoinInformation, NetGetJoinInformation function [Network Management], NetSetupDomainName, NetSetupUnjoined, NetSetupUnknownStatus, NetSetupWorkgroupName, _win32_netgetjoininformation, lmjoin/NetGetJoinInformation, netmgmt.netgetjoininformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

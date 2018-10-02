@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::DeleteNotification
 author: windows-sdk-content
 description: Deletes a notification value from the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_deletenotification.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: d21e289a-5062-4897-9479-3408589db11f
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteNotification, DeleteNotification method [File Server Resource Manager], DeleteNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DeleteNotification method, IFsrmFileManagementJob.DeleteNotification, IFsrmFileManagementJob::DeleteNotification, fs.ifsrmfilemanagementjob_deletenotification, fsrm.ifsrmfilemanagementjob_deletenotification, fsrmreports/IFsrmFileManagementJob::DeleteNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

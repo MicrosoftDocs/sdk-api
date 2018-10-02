@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_gatherwriterstatus.htm
 tech.root: VSS
 ms.assetid: ca87cdc3-e233-4efc-81c0-918e5a698af5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GatherWriterStatus, GatherWriterStatus method [VSS], GatherWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterStatus method, IVssBackupComponents.GatherWriterStatus, IVssBackupComponents::GatherWriterStatus, _win32_ivssbackupcomponents_gatherwriterstatus, base.ivssbackupcomponents_gatherwriterstatus, vsbackup/IVssBackupComponents::GatherWriterStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

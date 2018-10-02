@@ -7,7 +7,7 @@ old-location: multimedia\avistreamendstreaming.htm
 tech.root: Multimedia
 ms.assetid: 8555bc24-c017-4d02-854b-e64cf9e8ae1b
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/26/2018
 ms.keywords: AVIStreamEndStreaming, AVIStreamEndStreaming function [Windows Multimedia], _win32_AVIStreamEndStreaming, multimedia.avistreamendstreaming, vfw/AVIStreamEndStreaming
 ms.prod: windows-hardware
 ms.technology: windows-devices

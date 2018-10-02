@@ -4,10 +4,10 @@ title: MFCreateMediaType function
 author: windows-sdk-content
 description: Creates an empty media type.
 old-location: mf\mfcreatemediatype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 05b0941e-03ce-4ced-9022-22b65d1c4b4c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 05b0941e-03ce-4ced-9022-22b65d1c4b4c, MFCreateMediaType, MFCreateMediaType function [Media Foundation], mf.mfcreatemediatype, mfapi/MFCreateMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

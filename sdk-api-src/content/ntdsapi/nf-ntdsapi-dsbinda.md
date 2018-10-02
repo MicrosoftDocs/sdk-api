@@ -4,10 +4,10 @@ title: DsBindA function
 author: windows-sdk-content
 description: Binds to a domain controller.
 old-location: ad\dsbind.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: c73cd16d-ccfd-4f61-b1c5-50130bef64d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DsBind, DsBind function [Active Directory], DsBindA, DsBindW, _glines_dsbind, ad.dsbind, ntdsapi/DsBind, ntdsapi/DsBindA, ntdsapi/DsBindW
 ms.prod: windows-hardware
 ms.technology: windows-devices

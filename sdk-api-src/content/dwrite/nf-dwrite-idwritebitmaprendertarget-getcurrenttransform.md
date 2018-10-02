@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteBitmapRenderTarget_GetCurrentTransform.htm
 tech.root: DirectWrite
 ms.assetid: 7f84e38e-f0e8-4cf7-bad0-d41f24ce9499
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetCurrentTransform, GetCurrentTransform method [Direct Write], GetCurrentTransform method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetCurrentTransform method, IDWriteBitmapRenderTarget.GetCurrentTransform, IDWriteBitmapRenderTarget::GetCurrentTransform, directwrite.IDWriteBitmapRenderTarget_GetCurrentTransform, dwrite/IDWriteBitmapRenderTarget::GetCurrentTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_WTS_PRODUCT_INFOW"
 author: windows-sdk-content
 description: The details of the product license that is required to connect to a terminal server.
 old-location: termserv\wts_product_info.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 92E4BC54-029D-4B37-9397-CFF44B9712A3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PRODUCT_INFO, PRODUCT_INFO structure [Remote Desktop Services], PRODUCT_INFOW, WTS_PRODUCT_INFO, WTS_PRODUCT_INFO structure [Remote Desktop Services], WTS_PRODUCT_INFOA, WTS_PRODUCT_INFOW, _WTS_PRODUCT_INFOA, _WTS_PRODUCT_INFOW, termserv.wts_product_info, wtsapi32/WTS_PRODUCT_INFO, wtsapi32/WTS_PRODUCT_INFOA, wtsapi32/WTS_PRODUCT_INFOW
 ms.prod: windows
 ms.technology: windows-sdk

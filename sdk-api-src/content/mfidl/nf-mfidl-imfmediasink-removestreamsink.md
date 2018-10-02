@@ -4,10 +4,10 @@ title: IMFMediaSink::RemoveStreamSink
 author: windows-sdk-content
 description: Removes a stream sink from the media sink.
 old-location: mf\imfmediasink_removestreamsink.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f99ee960-7fea-4867-bc24-d7e1d6fcafa5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaSink interface [Media Foundation],RemoveStreamSink method, IMFMediaSink.RemoveStreamSink, IMFMediaSink::RemoveStreamSink, RemoveStreamSink, RemoveStreamSink method [Media Foundation], RemoveStreamSink method [Media Foundation],IMFMediaSink interface, f99ee960-7fea-4867-bc24-d7e1d6fcafa5, mf.imfmediasink_removestreamsink, mfidl/IMFMediaSink::RemoveStreamSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

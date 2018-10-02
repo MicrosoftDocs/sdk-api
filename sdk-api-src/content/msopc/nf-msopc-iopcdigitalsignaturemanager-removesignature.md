@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignaturemanager_removesignature.htm
 tech.root: OPC
 ms.assetid: bc022b81-f61d-4efa-9c68-f798b2d929c2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],RemoveSignature method, IOpcDigitalSignatureManager.RemoveSignature, IOpcDigitalSignatureManager::RemoveSignature, RemoveSignature, RemoveSignature method [Open Packaging Conventions], RemoveSignature method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::RemoveSignature, opc.iopcdigitalsignaturemanager_removesignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

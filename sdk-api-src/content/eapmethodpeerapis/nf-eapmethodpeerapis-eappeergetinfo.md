@@ -4,10 +4,10 @@ title: EapPeerGetInfo function
 author: windows-sdk-content
 description: Obtains a set of function pointers for an implementation of the EAP peer method EapPeerGetInfo currently loaded on the EAPHost service.
 old-location: eaphost\eappeergetinfo.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 99b7e136-b502-435b-9c62-a0e106ec8ec5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EapPeerGetInfo, EapPeerGetInfo function [EAPHost], eaphost.eappeergetinfo, eapmethodpeerapis/EapPeerGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

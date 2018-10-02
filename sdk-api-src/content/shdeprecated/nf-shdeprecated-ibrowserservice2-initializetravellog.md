@@ -4,10 +4,10 @@ title: IBrowserService2::InitializeTravelLog
 author: windows-sdk-content
 description: Deprecated. Allows the derived class to specify a navigation record to be used in a new window.
 old-location: shell\IBrowserService2_InitializeTravelLog.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ff2165da-e195-4cc1-ba89-c11eb37ac4c3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTravelLog method, IBrowserService2.InitializeTravelLog, IBrowserService2::InitializeTravelLog, InitializeTravelLog, InitializeTravelLog method [Windows Shell], InitializeTravelLog method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTravelLog, shell.IBrowserService2_InitializeTravelLog, zone_IBrowserService2_InitializeTravelLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

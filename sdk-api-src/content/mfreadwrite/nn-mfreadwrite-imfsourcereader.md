@@ -4,10 +4,10 @@ title: IMFSourceReader
 author: windows-sdk-content
 description: Implemented by the Microsoft Media Foundation source reader object.
 old-location: mf\imfsourcereader.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7d3cc314-6b9e-437c-afda-ee1965a12721
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], IMFSourceReader interface [Media Foundation],described, mf.imfsourcereader, mfreadwrite/IMFSourceReader
 ms.prod: windows
 ms.technology: windows-sdk

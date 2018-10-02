@@ -4,10 +4,10 @@ title: tagUpdateExceptionContext
 author: windows-sdk-content
 description: Defines the context in which an IUpdateException object can be provided.
 old-location: wua\updateexceptioncontext.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ad8aa73f-10d3-40b0-8bb3-1742dac0897d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: UpdateExceptionContext, UpdateExceptionContext enumeration [Windows Update Agent], tagUpdateExceptionContext, uecGeneral, uecWindowsDriver, uecWindowsInstaller, wua.updateexceptioncontext, wuapi/UpdateExceptionContext, wuapi/uecGeneral, wuapi/uecWindowsDriver, wuapi/uecWindowsInstaller
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,6 @@ The <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IU
 ### -field uecWindowsInstaller
 
 The <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IUpdateException</a> is related to Windows Installer.
-
-
-### -field uecSearchIncomplete
-
-
 
 
 ## -see-also

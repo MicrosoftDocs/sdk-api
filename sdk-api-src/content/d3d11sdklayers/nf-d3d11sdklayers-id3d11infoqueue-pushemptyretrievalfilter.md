@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_pushemptyretrievalfilter.htm
 tech.root: direct3d11
 ms.assetid: 906485ba-d703-4adb-8a11-f82bcf3d36ea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: 7de89d7b-e322-173f-aed7-4b318336eadc, ID3D11InfoQueue interface [Direct3D 11],PushEmptyRetrievalFilter method, ID3D11InfoQueue.PushEmptyRetrievalFilter, ID3D11InfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method [Direct3D 11], PushEmptyRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PushEmptyRetrievalFilter, direct3d11.id3d11infoqueue_pushemptyretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

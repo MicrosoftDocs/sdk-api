@@ -4,10 +4,10 @@ title: DnsRecordCopyEx function
 author: windows-sdk-content
 description: The DnsRecordCopyEx function creates a copy of a specified resource record (RR). The DnsRecordCopyEx function is also capable of converting the character encoding during the copy operation.
 old-location: dns\dnsrecordcopyex.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: b5a74799-75fc-4489-9efa-c15b2def2ae7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DnsRecordCopyEx, DnsRecordCopyEx function [DNS], _dns_dnsrecordcopyex, dns.dnsrecordcopyex, windns/DnsRecordCopyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

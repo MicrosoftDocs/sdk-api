@@ -4,10 +4,10 @@ title: IMFMediaBuffer
 author: windows-sdk-content
 description: Represents a block of memory that contains media data.
 old-location: mf\imfmediabuffer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 3ccc7089-d0d0-4eb1-b763-0d4e348af685
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 3ccc7089-d0d0-4eb1-b763-0d4e348af685, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], IMFMediaBuffer interface [Media Foundation],described, mf.imfmediabuffer, mfobjects/IMFMediaBuffer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cloudapi\cf_callback_parameters.htm
 tech.root: cfApi
 ms.assetid: FA403E9E-5EFA-4285-9619-614DB0044FFB
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 09/28/2018
 ms.keywords: CF_CALLBACK_PARAMETERS, CF_CALLBACK_PARAMETERS structure, cfapi/CF_CALLBACK_PARAMETERS, cloudApi.cf_callback_parameters
 ms.prod: windows
 ms.technology: windows-sdk

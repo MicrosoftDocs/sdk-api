@@ -4,10 +4,10 @@ title: IMFVideoSampleAllocator::AllocateSample
 author: windows-sdk-content
 description: Gets a video sample from the allocator.
 old-location: mf\imfvideosampleallocator_allocatesample.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e5347cef-edbd-4f6a-88c9-042e53515a32
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: AllocateSample, AllocateSample method [Media Foundation], AllocateSample method [Media Foundation],IMFVideoSampleAllocator interface, IMFVideoSampleAllocator interface [Media Foundation],AllocateSample method, IMFVideoSampleAllocator.AllocateSample, IMFVideoSampleAllocator::AllocateSample, e5347cef-edbd-4f6a-88c9-042e53515a32, mf.imfvideosampleallocator_allocatesample, mfidl/IMFVideoSampleAllocator::AllocateSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

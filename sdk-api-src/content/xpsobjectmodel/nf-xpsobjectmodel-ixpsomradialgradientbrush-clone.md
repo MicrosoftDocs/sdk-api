@@ -7,7 +7,7 @@ old-location: xps\ixpsomradialgradientbrush_clone.htm
 tech.root: printdocs
 ms.assetid: be715ef5-9d75-464d-ab72-da2a4047d1e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],Clone method, IXpsOMRadialGradientBrush.Clone, IXpsOMRadialGradientBrush::Clone, xps.ixpsomradialgradientbrush_clone, xpsobjectmodel/IXpsOMRadialGradientBrush::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

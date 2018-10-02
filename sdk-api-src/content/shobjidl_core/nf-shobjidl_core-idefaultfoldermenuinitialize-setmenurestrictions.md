@@ -4,10 +4,10 @@ title: IDefaultFolderMenuInitialize::SetMenuRestrictions
 author: windows-sdk-content
 description: "."
 old-location: shell\IDefaultFolderMenuInitialize_SetMenuRestrictions.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7D907B01-E0C4-428b-A8A4-FA383B0970BF
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetMenuRestrictions method, IDefaultFolderMenuInitialize.SetMenuRestrictions, IDefaultFolderMenuInitialize::SetMenuRestrictions, SetMenuRestrictions, SetMenuRestrictions method [Windows Shell], SetMenuRestrictions method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetMenuRestrictions, shobjidl_core/IDefaultFolderMenuInitialize::SetMenuRestrictions
 ms.prod: windows-hardware
 ms.technology: windows-devices

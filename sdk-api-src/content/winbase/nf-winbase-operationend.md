@@ -7,7 +7,7 @@ old-location: oprec\operationend.htm
 tech.root: oprec
 ms.assetid: 73C6FBDD-BB4A-46A5-8E39-7862A1938F47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: OperationEnd, OperationEnd function [Operation Recorder], oprec.operationend, winbase/OperationEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

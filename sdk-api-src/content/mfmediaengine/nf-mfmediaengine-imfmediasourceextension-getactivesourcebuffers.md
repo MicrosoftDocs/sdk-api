@@ -4,10 +4,10 @@ title: IMFMediaSourceExtension::GetActiveSourceBuffers
 author: windows-sdk-content
 description: Gets the source buffers that are actively supplying media data to the media source.
 old-location: mf\imfmediasourceextension_getactivesourcebuffers.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 9d4a70cf-7436-4f4a-9a7c-9127e3829ba8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetActiveSourceBuffers, GetActiveSourceBuffers method [Media Foundation], GetActiveSourceBuffers method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetActiveSourceBuffers method, IMFMediaSourceExtension.GetActiveSourceBuffers, IMFMediaSourceExtension::GetActiveSourceBuffers, mf.imfmediasourceextension_getactivesourcebuffers, mfmediaengine/IMFMediaSourceExtension::GetActiveSourceBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

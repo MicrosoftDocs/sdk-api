@@ -4,10 +4,10 @@ title: PeerEndEnumeration function
 author: windows-sdk-content
 description: The PeerEndEnumeration function releases an enumeration, for example, a record or member enumeration, and deallocates all resources associated with the enumeration.
 old-location: p2p\peerendenumeration.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: cc9484fb-57b9-4970-91b8-c74db6bf2248
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerEndEnumeration, PeerEndEnumeration function [Peer Networking], p2p.peerendenumeration, p2p/PeerEndEnumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

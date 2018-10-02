@@ -7,7 +7,7 @@ old-location: rras\mprconfigserverrestore.htm
 tech.root: RRAS
 ms.assetid: 1489ce8a-4f9d-4cf0-8729-b24e8c571557
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprConfigServerRestore, MprConfigServerRestore function [RAS], _mpr_mprconfigserverrestore, mprapi/MprConfigServerRestore, rras.mprconfigserverrestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

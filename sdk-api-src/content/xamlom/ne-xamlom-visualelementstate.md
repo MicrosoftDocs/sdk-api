@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\visualelementstate.htm
 tech.root: xaml_diagnostics
 ms.assetid: 6D2AA4D0-4EB6-419F-AA9F-1B2404E0ED42
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ErrorInvalidResource, ErrorResolved, ErrorResourceNotFound, VisualElementState, VisualElementState enumeration, xaml_diagnostics.visualelementstate, xamlom/ErrorInvalidResource, xamlom/ErrorResolved, xamlom/ErrorResourceNotFound, xamlom/VisualElementState
 ms.prod: windows
 ms.technology: windows-sdk

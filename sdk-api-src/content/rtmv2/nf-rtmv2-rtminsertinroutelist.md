@@ -7,7 +7,7 @@ old-location: rras\rtminsertinroutelist.htm
 tech.root: RRAS
 ms.assetid: e0145bdc-5000-429d-8603-1ebc6003a2bc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RtmInsertInRouteList, RtmInsertInRouteList function [RAS], _rtmv2ref_rtminsertinroutelist, rras.rtminsertinroutelist, rtmv2/RtmInsertInRouteList
 ms.prod: windows-hardware
 ms.technology: windows-devices

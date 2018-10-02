@@ -4,10 +4,10 @@ title: IShellMenu
 author: windows-sdk-content
 description: Exposes methods that interact with Shell menus such as the Start menu, and the Favorites menu.
 old-location: shell\IShellMenu.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 46793ae9-936e-4a58-bc34-84396151b4a3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellMenu, IShellMenu interface [Windows Shell], IShellMenu interface [Windows Shell],described, _shell_IShellMenu, shell.IShellMenu, shobjidl_core/IShellMenu
 ms.prod: windows
 ms.technology: windows-sdk

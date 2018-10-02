@@ -4,10 +4,10 @@ title: CreateFileMappingFromApp function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file from a Windows Store app.
 old-location: base\createfilemappingfromapp.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: ef7ad1aa-2ce7-4a77-a57e-d6e55d58b8d3
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: CreateFileMappingFromApp, CreateFileMappingFromApp function, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingfromapp, memoryapi/CreateFileMappingFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

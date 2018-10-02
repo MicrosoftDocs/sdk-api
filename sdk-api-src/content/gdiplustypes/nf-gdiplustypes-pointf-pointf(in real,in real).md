@@ -2,13 +2,13 @@
 UID: NF:gdiplustypes.PointF.PointF(IN REAL,IN REAL)
 title: PointF::PointF(IN REAL,IN REAL)
 author: windows-sdk-content
-description: Creates a PointF object and initializes the X and Y data members to zero. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_.htm
+description: Creates a PointF object using two real numbers to specify the X and Y data members.
+old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_x_y_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_52.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_49x_y.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(), PointF.PointF(IN REAL,IN REAL), PointF::PointF, PointF::PointF(IN REAL,IN REAL), _gdiplus_CLASS_PointF_PointF_, gdiplus._gdiplus_CLASS_PointF_PointF_
+ms.date: 09/26/2018
+ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(IN REAL,IN REAL), PointF.PointF(REAL,REAL), PointF::PointF, PointF::PointF(IN REAL,IN REAL), _gdiplus_CLASS_PointF_PointF_x_y_, gdiplus._gdiplus_CLASS_PointF_PointF_x_y_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,9 +51,9 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object and initializes the 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object using two real numbers to specify the 
 			<b>X</b> and 
-			<b>Y</b> data members to zero. This is the default constructor.
+			<b>Y</b> data members.
 
 
 ## -parameters
@@ -61,16 +61,18 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).as
 
 
 
-### -param x
+### -param x [in]
 
-TBD
+Type: <b>REAL</b>
 
-
-### -param y
-
-TBD
+Real number that specifies the x-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object. 
 
 
+### -param y [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the y-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object. 
 
 
 ## -see-also
@@ -82,11 +84,11 @@ TBD
 
 
 
+<a href="https://msdn.microsoft.com/27952618-cf2d-4a85-b271-b3950c293ece">Point Constructors</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534994(v=VS.85).aspx">PointF Constructors</a>
  
 
  

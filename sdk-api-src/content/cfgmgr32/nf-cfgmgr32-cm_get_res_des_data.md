@@ -7,7 +7,7 @@ old-location: devinst\cm_get_res_des_data.htm
 tech.root: devinst
 ms.assetid: f35975ac-022e-4e7c-a331-da0ccd0440a1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: CM_Get_Res_Des_Data, CM_Get_Res_Des_Data function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data, cfgmgrfn_76c92157-2495-4c52-a25f-9a02d83cff75.xml, devinst.cm_get_res_des_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

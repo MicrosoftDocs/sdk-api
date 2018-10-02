@@ -4,10 +4,10 @@ title: PeerCollabSignin function
 author: windows-sdk-content
 description: Signs the peer into a hosted Internet (serverless presence) or subnet (&#0034;People Near Me&#0034;) peer collaboration network presence provider.
 old-location: p2p\peercollabsignin.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 927cccfa-2711-439c-833f-348087927c09
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabSignin, PeerCollabSignin function [Peer Networking], p2p.peercollabsignin, p2p/PeerCollabSignin
 ms.prod: windows-hardware
 ms.technology: windows-devices

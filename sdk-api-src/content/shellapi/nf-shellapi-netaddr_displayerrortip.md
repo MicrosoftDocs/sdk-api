@@ -4,10 +4,10 @@ title: NetAddr_DisplayErrorTip macro
 author: windows-sdk-content
 description: Displays an error message in the balloon tip associated with the network address control.
 old-location: shell\NetAddr_DisplayErrorTip.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1fd623da-51a0-4b37-a25b-00278b5f4732
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: NetAddr_DisplayErrorTip, NetAddr_DisplayErrorTip macro [Windows Shell], _shell_NetAddr_DisplayErrorTip, shell.NetAddr_DisplayErrorTip, shellapi/NetAddr_DisplayErrorTip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcertificate_serialnumber_property.
 tech.root: SecCertEnroll
 ms.assetid: ab9d576d-bca2-4388-97ee-9c409c0084c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],SerialNumber property, IX509CertificateRequestCertificate.SerialNumber, IX509CertificateRequestCertificate.put_SerialNumber, IX509CertificateRequestCertificate::SerialNumber, IX509CertificateRequestCertificate::get_SerialNumber, IX509CertificateRequestCertificate::put_SerialNumber, SerialNumber property [Security], SerialNumber property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::SerialNumber, certenroll/IX509CertificateRequestCertificate::get_SerialNumber, certenroll/IX509CertificateRequestCertificate::put_SerialNumber, put_SerialNumber, security.ix509certificaterequestcertificate_serialnumber_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\colorf_colorf_uint32_rgb__float_a_.htm
 tech.root: direct2d
 ms.assetid: 1edb46b1-9700-4c0d-b987-660034e8fb55
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ColorF, ColorF interface [Direct2D],ColorF(UINT32,FLOAT) constructor, ColorF(UINT32,FLOAT) constructor [Direct2D], ColorF(UINT32,FLOAT) constructor [Direct2D],ColorF interface, ColorF.ColorF, ColorF.ColorF(UINT32,FLOAT), ColorF::ColorF, ColorF::ColorF(UINT32,FLOAT), ColorF::ColorF(UINT32,FLOAT)(UINT32,FLOAT), D2D1.ColorF.ColorF(UINT32,FLOAT), D2D1::ColorF::ColorF(UINT32,FLOAT), d2d1helper/ColorF::ColorF(UINT32,FLOAT), direct2d.colorf_colorf_uint32_rgb__float_a_
 ms.prod: windows-hardware
 ms.technology: windows-devices

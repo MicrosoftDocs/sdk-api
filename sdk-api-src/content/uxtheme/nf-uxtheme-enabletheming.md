@@ -7,7 +7,7 @@ old-location: controls\EnableTheming.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enabletheming.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: EnableTheming, EnableTheming function [Windows Controls], controls.EnableTheming, controls.inet_EnableTheming, inet_EnableTheming, inet_EnableTheming_cpp, uxtheme/EnableTheming
 ms.prod: windows-hardware
 ms.technology: windows-devices

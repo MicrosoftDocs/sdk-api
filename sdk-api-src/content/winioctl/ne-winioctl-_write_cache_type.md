@@ -7,7 +7,7 @@ old-location: fs\write_cache_type.htm
 tech.root: fileio
 ms.assetid: fb861a65-5207-4af3-b994-0883febcbb0a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: WRITE_CACHE_TYPE, WRITE_CACHE_TYPE enumeration [Files], WriteCacheTypeNone, WriteCacheTypeUnknown, WriteCacheTypeWriteBack, WriteCacheTypeWriteThrough, _WRITE_CACHE_TYPE, fs.write_cache_type, winioctl/WRITE_CACHE_TYPE, winioctl/WriteCacheTypeNone, winioctl/WriteCacheTypeUnknown, winioctl/WriteCacheTypeWriteBack, winioctl/WriteCacheTypeWriteThrough
 ms.prod: windows
 ms.technology: windows-sdk

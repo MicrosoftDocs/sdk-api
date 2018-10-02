@@ -4,10 +4,10 @@ title: DhcpCreateOption function
 author: windows-sdk-content
 description: Creates an option definition for the default user and vendor class at the default option level.
 old-location: dhcp\dhcpcreateoption.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 2a77467e-12e8-4a8e-a6ab-e3783a7492da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpCreateOption, DhcpCreateOption function [DHCP], dhcp.dhcpcreateoption, dhcpsapi/DhcpCreateOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

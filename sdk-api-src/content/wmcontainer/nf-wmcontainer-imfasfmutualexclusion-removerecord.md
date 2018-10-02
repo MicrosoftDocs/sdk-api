@@ -4,10 +4,10 @@ title: IMFASFMutualExclusion::RemoveRecord
 author: windows-sdk-content
 description: Removes a record from the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_removerecord.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFASFMutualExclusion interface [Media Foundation],RemoveRecord method, IMFASFMutualExclusion.RemoveRecord, IMFASFMutualExclusion::RemoveRecord, RemoveRecord, RemoveRecord method [Media Foundation], RemoveRecord method [Media Foundation],IMFASFMutualExclusion interface, ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8, mf.imfasfmutualexclusion_removerecord, wmcontainer/IMFASFMutualExclusion::RemoveRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

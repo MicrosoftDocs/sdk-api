@@ -7,7 +7,7 @@ old-location: fs\handlelogfull.htm
 tech.root: Clfs
 ms.assetid: ed4b067f-9386-4bec-a6dc-b22d6fd52390
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: HandleLogFull, HandleLogFull function [Files], clfsmgmtw32/HandleLogFull, fs.handlelogfull
 ms.prod: windows-hardware
 ms.technology: windows-devices

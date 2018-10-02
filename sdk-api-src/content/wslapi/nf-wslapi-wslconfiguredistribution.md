@@ -7,7 +7,7 @@ old-location: wsl\wslconfiguredistribution.htm
 tech.root: wsl
 ms.assetid: 4E89F367-4E10-4E76-93BC-FD5E2450D430
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WslConfigureDistribution, WslConfigureDistribution function, wsl.wslconfiguredistribution, wslapi/WslConfigureDistribution
 ms.prod: windows-hardware
 ms.technology: windows-devices

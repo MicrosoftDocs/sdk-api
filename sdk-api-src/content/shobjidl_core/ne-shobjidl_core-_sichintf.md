@@ -4,10 +4,10 @@ title: "_SICHINTF"
 author: windows-sdk-content
 description: Used to determine how to compare two Shell items. IShellItem::Compare uses this enumerated type.
 old-location: shell\SICHINT.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4d333302-5be3-4e8d-9018-e42729df0cc3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SICHINTF, SICHINTF enumeration [Windows Shell], SICHINT_ALLFIELDS, SICHINT_CANONICAL, SICHINT_DISPLAY, SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL, _SICHINTF, inet_SICHINT, shell.SICHINT, shobjidl_core/SICHINTF, shobjidl_core/SICHINT_ALLFIELDS, shobjidl_core/SICHINT_CANONICAL, shobjidl_core/SICHINT_DISPLAY, shobjidl_core/SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL
 ms.prod: windows
 ms.technology: windows-sdk

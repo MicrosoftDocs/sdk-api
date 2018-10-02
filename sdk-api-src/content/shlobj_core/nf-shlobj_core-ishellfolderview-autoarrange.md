@@ -4,10 +4,10 @@ title: IShellFolderView::AutoArrange
 author: windows-sdk-content
 description: AutoArrange may be altered or unavailable.
 old-location: shell\IShellFolderView_AutoArrange.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 37260573-bac0-462c-a0df-654e2b22ed47
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: AutoArrange, AutoArrange method [Windows Shell], AutoArrange method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],AutoArrange method, IShellFolderView.AutoArrange, IShellFolderView::AutoArrange, _shell_IShellFolderView_AutoArrange, shell.IShellFolderView_AutoArrange, shlobj_core/IShellFolderView::AutoArrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

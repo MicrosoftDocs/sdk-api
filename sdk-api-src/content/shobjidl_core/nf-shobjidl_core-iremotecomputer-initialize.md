@@ -4,10 +4,10 @@ title: IRemoteComputer::Initialize
 author: windows-sdk-content
 description: Used by Windows Explorer or Windows Internet Explorer when it is initializing or enumerating a namespace extension invoked on a remote computer.
 old-location: shell\IRemoteComputer_Initialize.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 69bd0b90-dcb0-45a6-9144-294fcd2d29eb
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IRemoteComputer interface [Windows Shell],Initialize method, IRemoteComputer.Initialize, IRemoteComputer::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IRemoteComputer interface, _win32_IRemoteComputer_Initialize, shell.IRemoteComputer_Initialize, shobjidl_core/IRemoteComputer::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

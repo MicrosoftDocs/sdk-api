@@ -4,10 +4,10 @@ title: UrlCreateFromPathA function
 author: windows-sdk-content
 description: Converts a Microsoft MS-DOS path to a canonicalized URL.
 old-location: shell\UrlCreateFromPath.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b69ab203-daab-4951-b3b9-c5ca37c532b3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: UrlCreateFromPath, UrlCreateFromPath function [Windows Shell], UrlCreateFromPathA, UrlCreateFromPathW, _win32_UrlCreateFromPath, shell.UrlCreateFromPath, shlwapi/UrlCreateFromPath, shlwapi/UrlCreateFromPathA, shlwapi/UrlCreateFromPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

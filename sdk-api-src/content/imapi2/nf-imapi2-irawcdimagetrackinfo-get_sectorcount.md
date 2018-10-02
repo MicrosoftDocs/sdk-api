@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagetrackinfo_get_sectorcount.htm
 tech.root: imapi
 ms.assetid: 1762620b-b429-4674-85e2-f6f206de1a4f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_SectorCount method, IRawCDImageTrackInfo.get_SectorCount, IRawCDImageTrackInfo::get_SectorCount, get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_sectorcount, imapi2/IRawCDImageTrackInfo::get_SectorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDsAdminNotifyHandler::Initialize
 author: windows-sdk-content
 description: Called to initialize the notification handler.
 old-location: ad\idsadminnotifyhandler_initialize.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 7fcd49d3-ccdb-4d55-96ea-cc925a36c366
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DSA_NOTIFY_ALL, DSA_NOTIFY_DEL, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler interface [Active Directory],Initialize method, IDsAdminNotifyHandler.Initialize, IDsAdminNotifyHandler::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminNotifyHandler interface, ad.idsadminnotifyhandler_initialize, dsadmin/IDsAdminNotifyHandler::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

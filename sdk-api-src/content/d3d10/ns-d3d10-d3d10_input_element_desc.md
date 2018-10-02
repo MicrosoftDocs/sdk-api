@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_input_element_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_input_element_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 0181f051-1b3b-7933-88f6-5ddfa2b8cf74, D3D10_INPUT_ELEMENT_DESC, D3D10_INPUT_ELEMENT_DESC structure [Direct3D 10], d3d10/D3D10_INPUT_ELEMENT_DESC, direct3d10.d3d10_input_element_desc
 ms.prod: windows
 ms.technology: windows-sdk

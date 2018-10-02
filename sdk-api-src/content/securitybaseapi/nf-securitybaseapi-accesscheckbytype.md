@@ -7,7 +7,7 @@ old-location: security\accesscheckbytype.htm
 tech.root: SecAuthZ
 ms.assetid: 50acfc17-459d-464c-9927-88b32dd424c7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AccessCheckByType, AccessCheckByType function [Security], _win32_accesscheckbytype, security.accesscheckbytype, securitybaseapi/AccessCheckByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

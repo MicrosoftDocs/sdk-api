@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientclosesession.htm
 tech.root: Wds
 ms.assetid: 4c135502-a6be-4d5d-b6ce-34b55f6e08b0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WdsTransportClientCloseSession, WdsTransportClientCloseSession function [Windows Deployment Services], wds.wdstransportclientclosesession, wdstci/WdsTransportClientCloseSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

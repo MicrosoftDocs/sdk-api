@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicmapschematoname.htm
 tech.root: wic
 ms.assetid: 6e71b75a-a542-459c-9935-b05f3ce39217
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WICMapSchemaToName, WICMapSchemaToName function [Windows Imaging Component], _wic_codec_wicmapschematoname, wic._wic_codec_wicmapschematoname, wincodec/WICMapSchemaToName
 ms.prod: windows-hardware
 ms.technology: windows-devices

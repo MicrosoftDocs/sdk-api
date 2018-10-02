@@ -4,10 +4,10 @@ title: ITaskbarList::AddTab
 author: windows-sdk-content
 description: Adds an item to the taskbar.
 old-location: shell\ITaskbarList_AddTab.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 47d52ab8-f182-4bfb-8745-ad2d23197088
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: AddTab, AddTab method [Windows Shell], AddTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],AddTab method, ITaskbarList.AddTab, ITaskbarList::AddTab, _win32_ITaskbarList_AddTab, shell.ITaskbarList_AddTab, shobjidl_core/ITaskbarList::AddTab
 ms.prod: windows-hardware
 ms.technology: windows-devices

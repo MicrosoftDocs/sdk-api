@@ -4,10 +4,10 @@ title: IMFMediaEngineSrcElements
 author: windows-sdk-content
 description: Provides the Media Engine with a list of media resources.
 old-location: mf\imfmediaenginesrcelements.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 37A3EAC0-639C-47F3-AAB9-588EBEC8E1E3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], IMFMediaEngineSrcElements interface [Media Foundation],described, mf.imfmediaenginesrcelements, mfmediaengine/IMFMediaEngineSrcElements
 ms.prod: windows
 ms.technology: windows-sdk

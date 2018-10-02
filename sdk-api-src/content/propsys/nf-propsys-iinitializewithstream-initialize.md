@@ -4,10 +4,10 @@ title: IInitializeWithStream::Initialize
 author: windows-sdk-content
 description: Initializes a handler with a stream.
 old-location: shell\IInitializeWithStream_Initialize.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1e04c0a4-aa9b-4e2c-8307-525809ca903f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IInitializeWithStream interface [Windows Shell],Initialize method, IInitializeWithStream.Initialize, IInitializeWithStream::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithStream interface, STGM_READ, STGM_READWRITE, propsys/IInitializeWithStream::Initialize, shell.IInitializeWithStream_Initialize, shell_IInitializeWithStream_Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

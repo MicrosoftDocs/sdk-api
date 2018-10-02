@@ -4,10 +4,10 @@ title: IISDB_NBIT::GetRecordMessageSectionNumber
 author: windows-sdk-content
 description: Gets the section_number field from a record in Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordmessagesectionnumber.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3bfab381-f5af-4583-b268-72c83f3bfb8d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordMessageSectionNumber, GetRecordMessageSectionNumber method [Microsoft TV Technologies], GetRecordMessageSectionNumber method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordMessageSectionNumber method, IISDB_NBIT.GetRecordMessageSectionNumber, IISDB_NBIT::GetRecordMessageSectionNumber, dvbsiparser/IISDB_NBIT::GetRecordMessageSectionNumber, mstv.iisdb_nbit_getrecordmessagesectionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

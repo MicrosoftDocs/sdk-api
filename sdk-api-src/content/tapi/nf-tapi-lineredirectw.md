@@ -4,10 +4,10 @@ title: lineRedirectW function
 author: windows-sdk-content
 description: The lineRedirect function redirects the specified offering call to the specified destination address.
 old-location: tapi2\lineredirect.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 014465af-26a7-451e-9d32-2e020d1043b0
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: "_tapi2_lineredirect, lineRedirect, lineRedirect function [TAPI 2.2], lineRedirectA, lineRedirectW, tapi/lineRedirect, tapi/lineRedirectA, tapi/lineRedirectW, tapi2.lineredirect"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\iregistrationtrigger.htm
 tech.root: TaskSchd
 ms.assetid: 0862f7ac-69d6-4271-8d39-c5bd7038a95e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRegistrationTrigger, IRegistrationTrigger interface [Task Scheduler], IRegistrationTrigger interface [Task Scheduler],described, registration trigger [Task Scheduler],interface, taskschd.iregistrationtrigger, taskschd/IRegistrationTrigger
 ms.prod: windows
 ms.technology: windows-sdk

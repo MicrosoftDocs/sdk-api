@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v2_initializefromprivatekeyt
 tech.root: SecCertEnroll
 ms.assetid: c19d9754-e96d-4093-9095-82fa0a4baf37
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2 interface [Security],InitializeFromPrivateKeyTemplate method, IX509CertificateRequestPkcs10V2.InitializeFromPrivateKeyTemplate, IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate method [Security], InitializeFromPrivateKeyTemplate method [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate, security.ix509certificaterequestpkcs10v2_initializefromprivatekeytemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

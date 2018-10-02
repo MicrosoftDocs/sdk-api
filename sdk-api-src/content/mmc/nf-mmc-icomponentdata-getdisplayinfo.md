@@ -4,10 +4,10 @@ title: IComponentData::GetDisplayInfo
 author: windows-sdk-content
 description: The IComponentData::GetDisplayInfo method retrieves display information for a scope item.
 old-location: mmc\icomponentdata_getdisplayinfo.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: bd34652a-8e57-44b4-bbc2-99ffadf2a6cf
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: GetDisplayInfo, GetDisplayInfo method [MMC], GetDisplayInfo method [MMC],IComponentData interface, IComponentData interface [MMC],GetDisplayInfo method, IComponentData.GetDisplayInfo, IComponentData::GetDisplayInfo, _slate_icomponentdata_getdisplayinfo, mmc.icomponentdata_getdisplayinfo, mmc/IComponentData::GetDisplayInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: peer_data_tag
 author: windows-sdk-content
 description: The PEER_DATA structure contains binary data.
 old-location: p2p\peer_data.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: d8a8b9e3-c455-4813-b812-263efe7f5e3e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPEER_DATA, PEER_DATA, PEER_DATA structure [Peer Networking], PPEER_DATA, PPEER_DATA structure pointer [Peer Networking], p2p.peer_data, p2p/PPEER_DATA, p2p/peer_data_tag, peer_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

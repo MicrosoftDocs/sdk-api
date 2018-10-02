@@ -4,10 +4,10 @@ title: IMFSensorStream
 author: windows-sdk-content
 description: "."
 old-location: mf\imfsensorstream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSensorStream, IMFSensorStream interface [Media Foundation], IMFSensorStream interface [Media Foundation],described, mf.imfsensorstream, mfidl/IMFSensorStream
 ms.prod: windows
 ms.technology: windows-sdk

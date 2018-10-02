@@ -7,7 +7,7 @@ old-location: setup\iassemblyname_getdisplayname.htm
 tech.root: SbsCs
 ms.assetid: d2d74d67-a893-4f2f-8161-80bf3d5cbedb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Side-by-side Assemblies], GetDisplayName method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetDisplayName method, IAssemblyName.GetDisplayName, IAssemblyName::GetDisplayName, setup.iassemblyname_getdisplayname, winsxs/IAssemblyName::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

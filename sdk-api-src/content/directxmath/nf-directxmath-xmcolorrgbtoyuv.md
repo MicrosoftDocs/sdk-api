@@ -7,7 +7,7 @@ old-location: dxmath\xmcolorrgbtoyuv.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorRGBToYUV(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMColorRGBToYUV, XMColorRGBToYUV, XMColorRGBToYUV method [DirectX Math Support APIs], dxmath.xmcolorrgbtoyuv
 ms.prod: windows-hardware
 ms.technology: windows-devices

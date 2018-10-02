@@ -7,7 +7,7 @@ old-location: pla\iperformancecounterdatacollector_logfileformat.htm
 tech.root: PLA
 ms.assetid: 3b980ea6-cb08-4e10-b4b3-40fd504d5e8f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],LogFileFormat property, IPerformanceCounterDataCollector.LogFileFormat, IPerformanceCounterDataCollector.put_LogFileFormat, IPerformanceCounterDataCollector::LogFileFormat, IPerformanceCounterDataCollector::get_LogFileFormat, IPerformanceCounterDataCollector::put_LogFileFormat, LogFileFormat property [PLA], LogFileFormat property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_logfileformat, pla.iperformancecounterdatacollector_logfileformat, pla/IPerformanceCounterDataCollector::LogFileFormat, pla/IPerformanceCounterDataCollector::get_LogFileFormat, pla/IPerformanceCounterDataCollector::put_LogFileFormat, put_LogFileFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

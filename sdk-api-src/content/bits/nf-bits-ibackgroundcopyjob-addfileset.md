@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::AddFileSet
 author: windows-sdk-content
 description: Adds multiple files to a job.
 old-location: bits\ibackgroundcopyjob_addfileset.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: fe2f9b47-0f0a-48ab-be0e-658307cfec5f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: AddFileSet, AddFileSet method [BITS], AddFileSet method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFileSet method, IBackgroundCopyJob.AddFileSet, IBackgroundCopyJob::AddFileSet, _drz_ibackgroundcopyjob_addfileset, bits.ibackgroundcopyjob_addfileset, bits/IBackgroundCopyJob::AddFileSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

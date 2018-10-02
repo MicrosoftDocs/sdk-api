@@ -4,10 +4,10 @@ title: ClusterResourceOpenEnumEx function
 author: windows-sdk-content
 description: Opens a handle to a resource enumeration that enables iteration through a resource's dependencies and nodes.
 old-location: mscs\clusterresourceopenenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B43460F1-4BFE-48E0-889A-56370320E4E6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ClusterResourceOpenEnumEx, ClusterResourceOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, mscs.clusterresourceopenenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices

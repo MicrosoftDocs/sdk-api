@@ -4,10 +4,10 @@ title: IEnumObjects::Next
 author: windows-sdk-content
 description: Gets the next specified number and type of objects.
 old-location: shell\IEnumObjects_Next.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5c79d3e2-c1c9-4529-9a60-457c2d2e6af5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Next method, IEnumObjects.Next, IEnumObjects::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Next, shell.IEnumObjects_Next, shobjidl_core/IEnumObjects::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

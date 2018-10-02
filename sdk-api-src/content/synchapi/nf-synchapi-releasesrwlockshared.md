@@ -7,7 +7,7 @@ old-location: base\releasesrwlockshared.htm
 tech.root: Sync
 ms.assetid: afefd9f2-7fd4-4cba-9a6f-1f9da614dcec
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ReleaseSRWLockShared, ReleaseSRWLockShared function, base.releasesrwlockshared, synchapi/ReleaseSRWLockShared, winbase/ReleaseSRWLockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

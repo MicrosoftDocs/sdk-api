@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::SetErrorInfo
 author: windows-sdk-content
 description: IWTSProtocolConnection::SetErrorInfo is no longer available. Instead, use IWRdsProtocolConnection::SetErrorInfo.
 old-location: termserv\iwtsprotocolconnection_seterrorinfo.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 0ec35560-5aad-403a-9477-50e48ee7136a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SetErrorInfo method, IWTSProtocolConnection.SetErrorInfo, IWTSProtocolConnection::SetErrorInfo, SetErrorInfo, SetErrorInfo method [Remote Desktop Services], SetErrorInfo method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_seterrorinfo, wtsprotocol/IWTSProtocolConnection::SetErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

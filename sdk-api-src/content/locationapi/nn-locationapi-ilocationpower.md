@@ -4,10 +4,10 @@ title: ILocationPower
 author: windows-sdk-content
 description: Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
 old-location: winlocation\ilocationpower.htm
-tech.root: locationapi
+tech.root: LocationAPI
 ms.assetid: bf0a0c13-a50f-4ed8-bc29-7d70561da306
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: ILocationPower, ILocationPower interface [WinLocation], ILocationPower interface [WinLocation],described, locationapi/ILocationPower, winlocation.ilocationpower
 ms.prod: windows
 ms.technology: windows-sdk

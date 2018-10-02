@@ -7,7 +7,7 @@ old-location: security\sldepositmigrationblob.htm
 tech.root: SecSLApi
 ms.assetid: 0fe3e466-c4df-4c11-9689-1002045df791
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SLDepositMigrationBlob, SLDepositMigrationBlob function [Security], security.sldepositmigrationblob, slpublic/SLDepositMigrationBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

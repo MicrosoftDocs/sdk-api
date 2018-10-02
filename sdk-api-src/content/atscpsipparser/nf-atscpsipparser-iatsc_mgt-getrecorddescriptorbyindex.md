@@ -4,10 +4,10 @@ title: IATSC_MGT::GetRecordDescriptorByIndex
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getrecorddescriptorbyindex.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 87a37141-6426-4f75-b5c5-f39e05262060
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IATSC_MGT.GetRecordDescriptorByIndex, IATSC_MGT::GetRecordDescriptorByIndex, IATSC_MGTGetRecordDescriptorByIndex, atscpsipparser/IATSC_MGT::GetRecordDescriptorByIndex, mstv.iatsc_mgt_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

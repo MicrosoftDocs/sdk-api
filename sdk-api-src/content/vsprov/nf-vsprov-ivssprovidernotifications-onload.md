@@ -7,7 +7,7 @@ old-location: base\ivssprovidernotifications_onload.htm
 tech.root: VSS
 ms.assetid: dd3df604-074b-4206-827e-3cc4d5f71f87
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnLoad method, IVssProviderNotifications.OnLoad, IVssProviderNotifications::OnLoad, OnLoad, OnLoad method [VSS], OnLoad method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onload, vsprov/IVssProviderNotifications::OnLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices

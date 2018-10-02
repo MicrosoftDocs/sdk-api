@@ -4,10 +4,10 @@ title: IOfflineFilesCache::GetLocation
 author: windows-sdk-content
 description: Retrieves the current fully qualified directory path of the Offline Files cache.
 old-location: of\iofflinefilescache_getlocation.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: e608c662-23d2-4dcc-95fc-e949ba9f848f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetLocation, GetLocation method [Offline Files], GetLocation method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetLocation method, IOfflineFilesCache.GetLocation, IOfflineFilesCache::GetLocation, cscobj/IOfflineFilesCache::GetLocation, of.iofflinefilescache_getlocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

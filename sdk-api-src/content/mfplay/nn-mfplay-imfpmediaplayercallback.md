@@ -4,10 +4,10 @@ title: IMFPMediaPlayerCallback
 author: windows-sdk-content
 description: Callback interface for the IMFPMediaPlayer interface.
 old-location: mf\imfpmediaplayercallback.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7d9d01bf-861a-4c35-93b1-dbf85cbf0a32
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media Foundation], IMFPMediaPlayerCallback interface [Media Foundation],described, mf.imfpmediaplayercallback, mfplay/IMFPMediaPlayerCallback
 ms.prod: windows
 ms.technology: windows-sdk

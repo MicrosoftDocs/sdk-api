@@ -4,10 +4,10 @@ title: GetScaleFactorForDevice function
 author: windows-sdk-content
 description: Gets the preferred scale factor for a display device.
 old-location: shell\getscalefactorfordevice.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5F312914-03F6-42E0-80F9-761D854A81A3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetScaleFactorForDevice, GetScaleFactorForDevice function [Windows Shell], shell.getscalefactorfordevice, shellscalingapi/GetScaleFactorForDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

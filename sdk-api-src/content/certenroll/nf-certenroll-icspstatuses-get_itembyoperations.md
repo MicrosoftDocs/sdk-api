@@ -7,7 +7,7 @@ old-location: security\icspstatuses_itembyoperations_property.htm
 tech.root: SecCertEnroll
 ms.assetid: ae314b76-61b7-4e28-87bb-f58ea14d7b71
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOperations property, ICspStatuses.ItemByOperations, ICspStatuses.get_ItemByOperations, ICspStatuses::ItemByOperations, ICspStatuses::get_ItemByOperations, ItemByOperations property [Security], ItemByOperations property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOperations, certenroll/ICspStatuses::get_ItemByOperations, get_ItemByOperations, security.icspstatuses_itembyoperations_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

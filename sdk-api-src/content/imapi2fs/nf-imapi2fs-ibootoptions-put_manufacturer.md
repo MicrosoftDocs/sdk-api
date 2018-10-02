@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions_put_manufacturer.htm
 tech.root: imapi
 ms.assetid: 485b36f0-6c33-48da-8ac5-64f4fc13fd68
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBootOptions interface [IMAPI],put_Manufacturer method, IBootOptions.put_Manufacturer, IBootOptions::put_Manufacturer, imapi.ibootoptions_put_manufacturer, imapi2fs/IBootOptions::put_Manufacturer, put_Manufacturer, put_Manufacturer method [IMAPI], put_Manufacturer method [IMAPI],IBootOptions interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

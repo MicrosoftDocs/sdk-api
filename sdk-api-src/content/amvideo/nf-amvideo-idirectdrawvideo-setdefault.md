@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_setdefault.htm
 tech.root: DirectShow
 ms.assetid: 9525ee57-3c53-42db-bc40-eb1d4658d9b6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDefault method, IDirectDrawVideo.SetDefault, IDirectDrawVideo::SetDefault, IDirectDrawVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDefault, dshow.idirectdrawvideo_setdefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

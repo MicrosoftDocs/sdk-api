@@ -7,7 +7,7 @@ old-location: security\lsaenumerateaccountswithuserright.htm
 tech.root: SecMgmt
 ms.assetid: 97e7180e-4edb-4edd-915e-0477e7e7a9ff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRight function [Security], _lsa_lsaenumerateaccountswithuserright, ntsecapi/LsaEnumerateAccountsWithUserRight, security.lsaenumerateaccountswithuserright
 ms.prod: windows-hardware
 ms.technology: windows-devices

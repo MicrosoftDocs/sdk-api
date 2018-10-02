@@ -4,10 +4,10 @@ title: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
 author: windows-sdk-content
 description: A callback function prototype that is called once for each attribute found in the pSDPStream parameter passed to the BluetoothSdpEnumAttributes function call.
 old-location: bluetooth\pfn_bluetooth_enum_attributes_callback.htm
-tech.root: bluetooth
+tech.root: Bluetooth
 ms.assetid: 4d728467-1866-428f-9e66-a45b597a226a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK, PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback, PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback function [Bluetooth], bluetooth.pfn_bluetooth_enum_attributes_callback, bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_mfidl_0000_0109_0001"
 author: windows-sdk-content
 description: Specifies the type of a sensor device. A value from this enumeration is returned by IMFSensorDevice::GetDeviceType.
 old-location: mf\mfsensordevicetype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 13CC03E6-F0E2-4E69-B94F-4CF1BC7D0C23
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFSensorDeviceType, MFSensorDeviceType enumeration [Media Foundation], MFSensorDeviceType_Device, MFSensorDeviceType_FrameProvider, MFSensorDeviceType_MediaSource, MFSensorDeviceType_Unknown, __MIDL___MIDL_itf_mfidl_0000_0109_0001, mf.mfsensordevicetype, mfidl/MFSensorDeviceType, mfidl/MFSensorDeviceType_Device, mfidl/MFSensorDeviceType_FrameProvider, mfidl/MFSensorDeviceType_MediaSource, mfidl/MFSensorDeviceType_Unknown
 ms.prod: windows
 ms.technology: windows-sdk

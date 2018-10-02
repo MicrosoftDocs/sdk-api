@@ -4,10 +4,10 @@ title: DrtUpdateKey function
 author: windows-sdk-content
 description: DrtUpdateKey function updates the application data associated with a registered key.
 old-location: p2p\drtupdatekey.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: e7e65246-ebe0-4fdf-924c-8c19cfb1322e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DrtUpdateKey, DrtUpdateKey function [Distributed Routing Tables], drt/DrtUpdateKey, p2p.drtupdatekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

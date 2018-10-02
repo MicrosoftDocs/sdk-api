@@ -7,7 +7,7 @@ old-location: wsw\ws_abandon_message_callback.htm
 tech.root: wsw
 ms.assetid: 494cfb49-c09e-4f51-85fd-5bb0f8d0a45d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_ABANDON_MESSAGE_CALLBACK, WS_ABANDON_MESSAGE_CALLBACK callback, WS_ABANDON_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_ABANDON_MESSAGE_CALLBACK, wsw.ws_abandon_message_callback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rras\rtmregisterforchangenotification.htm
 tech.root: RRAS
 ms.assetid: b6e04984-ac92-44a2-a18c-018c6b1b49a9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RTM_CHANGE_TYPE_ALL, RTM_CHANGE_TYPE_BEST, RTM_CHANGE_TYPE_FORWARDING, RTM_NOTIFY_ONLY_MARKED_DESTS, RtmRegisterForChangeNotification, RtmRegisterForChangeNotification function [RAS], _rtmv2ref_rtmregisterforchangenotification, rras.rtmregisterforchangenotification, rtmv2/RtmRegisterForChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

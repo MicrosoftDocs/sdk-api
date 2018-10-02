@@ -7,7 +7,7 @@ old-location: imapi\imultisessionrandomwrite_get_totalsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 22afe893-dc8b-42dc-bbb5-78ed245d300b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_TotalSectorsOnMedia method, IMultisessionRandomWrite.get_TotalSectorsOnMedia, IMultisessionRandomWrite::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_totalsectorsonmedia, imapi2/IMultisessionRandomWrite::get_TotalSectorsOnMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,12 @@
 UID: NA:netsh
 ms.assetid: 27853dd3-deab-3c04-b057-b805862bd855
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: netshell
-archived: true
 ---
 
 # Netsh.h header

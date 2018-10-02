@@ -4,10 +4,10 @@ title: DrvQueryFontTree function
 author: windows-sdk-content
 description: The DrvQueryFontTree function provides GDI with a pointer to a structure that defines one of the following:A mapping from Unicode to glyph handles, including glyph variantsA mapping of kerning pairs to kerning handles
 old-location: display\drvqueryfonttree.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 29601ea6-9b68-4cdc-a7a1-b6a922524760
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvQueryFontTree, DrvQueryFontTree function [Display Devices], ddifncs_7f9eb5d2-dedd-4c72-8c12-0a382ea59ff4.xml, display.drvqueryfonttree, winddi/DrvQueryFontTree
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_PERF_COUNTER_DEFINITION"
 author: windows-sdk-content
 description: Describes a performance counter.
 old-location: perf\perf_counter_definition_str.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: faef043b-81e0-49b0-913f-d691bafd17e6
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, _PERF_COUNTER_DEFINITION, _win32_perf_counter_definition_str, base.perf_counter_definition_str, perf.perf_counter_definition_str, winperf/PERF_COUNTER_DEFINITION"
 ms.prod: windows
 ms.technology: windows-sdk

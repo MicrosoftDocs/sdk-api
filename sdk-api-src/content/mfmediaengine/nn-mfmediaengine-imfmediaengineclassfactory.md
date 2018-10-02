@@ -4,10 +4,10 @@ title: IMFMediaEngineClassFactory
 author: windows-sdk-content
 description: Creates an instance of the Media Engine.
 old-location: mf\imfmediaengineclassfactory.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8E4E84A0-BCFC-4CBF-813B-4FEE2B42A83E
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineClassFactory, IMFMediaEngineClassFactory interface [Media Foundation], IMFMediaEngineClassFactory interface [Media Foundation],described, mf.imfmediaengineclassfactory, mfmediaengine/IMFMediaEngineClassFactory
 ms.prod: windows
 ms.technology: windows-sdk

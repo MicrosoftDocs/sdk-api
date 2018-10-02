@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_rotationx.htm
 tech.root: direct2d
 ms.assetid: 3F9B9CE2-18F4-4F73-9725-A10B84639817
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationX method, Matrix4x4F.RotationX, Matrix4x4F::RotationX, RotationX, RotationX method [Direct2D], RotationX method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationX, direct2d.matrix4x4f_rotationx
 ms.prod: windows-hardware
 ms.technology: windows-devices

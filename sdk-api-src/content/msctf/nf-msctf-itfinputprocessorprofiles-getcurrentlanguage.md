@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofiles_getcurrentlanguage.htm
 tech.root: TSF
 ms.assetid: c770872f-752f-4c34-8d0d-cdf3d5c7d6b4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetCurrentLanguage, GetCurrentLanguage method [Text Services Framework], GetCurrentLanguage method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetCurrentLanguage method, ITfInputProcessorProfiles.GetCurrentLanguage, ITfInputProcessorProfiles::GetCurrentLanguage, _tsf_itfinputprocessorprofiles_getcurrentlanguage_ref, msctf/ITfInputProcessorProfiles::GetCurrentLanguage, tsf.itfinputprocessorprofiles_getcurrentlanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

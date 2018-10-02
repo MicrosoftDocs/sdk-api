@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorSetStreamPalette
 author: windows-sdk-content
 description: Sets the color-palette entries for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreampalette.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: E2816D5F-0541-45B0-A90A-7C26530D064C
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamPalette method, ID3D11VideoContext.VideoProcessorSetStreamPalette, ID3D11VideoContext::VideoProcessorSetStreamPalette, VideoProcessorSetStreamPalette, VideoProcessorSetStreamPalette method [Media Foundation], VideoProcessorSetStreamPalette method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamPalette, mf.id3d11videocontext_videoprocessorsetstreampalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

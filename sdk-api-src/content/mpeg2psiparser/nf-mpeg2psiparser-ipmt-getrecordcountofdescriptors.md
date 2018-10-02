@@ -4,10 +4,10 @@ title: IPMT::GetRecordCountOfDescriptors
 author: windows-sdk-content
 description: The GetRecordCountOfDescriptors method returns the number of descriptors for a record in the PMT.
 old-location: mstv\ipmt_getrecordcountofdescriptors.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b2470267-25a6-4ed3-91a1-30fd3ac7bbea
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPMT.GetRecordCountOfDescriptors, IPMT::GetRecordCountOfDescriptors, IPMTGetRecordCountOfDescriptors, mpeg2psiparser/IPMT::GetRecordCountOfDescriptors, mstv.ipmt_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

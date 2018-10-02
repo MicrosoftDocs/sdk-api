@@ -4,10 +4,10 @@ title: IMFAttributes::GetBlob
 author: windows-sdk-content
 description: Retrieves a byte array associated with a key. This method copies the array into a caller-allocated buffer.
 old-location: mf\imfattributes_getblob.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 68528db7-90df-4abe-a957-ffb8c3f12cef
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 68528db7-90df-4abe-a957-ffb8c3f12cef, GetBlob, GetBlob method [Media Foundation], GetBlob method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetBlob method, IMFAttributes.GetBlob, IMFAttributes::GetBlob, mf.imfattributes_getblob, mfobjects/IMFAttributes::GetBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

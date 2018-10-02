@@ -7,7 +7,7 @@ old-location: wcs\seticmprofile.htm
 tech.root: WCS
 ms.assetid: c95f6536-9377-4766-9eb6-004a41bcf6c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetICMProfile, SetICMProfile function [Windows Color System], SetICMProfileA, SetICMProfileW, _color_SetICMProfile, wcs.seticmprofile, wingdi/SetICMProfile, wingdi/SetICMProfileA, wingdi/SetICMProfileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

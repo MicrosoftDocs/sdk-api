@@ -7,7 +7,7 @@ old-location: enstor\enhanced_storage_password_silo_information.htm
 tech.root: enstor
 ms.assetid: b922aca7-d574-497a-bf83-b53a321400a9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: "*PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure [Enhanced Storage], PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure pointer [Enhanced Storage], _ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ehstorextensions/PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, enstor.enhanced_storage_password_silo_information"
 ms.prod: windows
 ms.technology: windows-sdk

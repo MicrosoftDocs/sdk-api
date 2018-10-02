@@ -4,10 +4,10 @@ title: IComponent::put_Status
 author: windows-sdk-content
 description: The put_Status method sets the requested or actual status of the component.
 old-location: mstv\icomponent_put_status.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f1f9cf98-69fd-4c54-8023-742f86413220
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_Status method, IComponent.put_Status, IComponent::put_Status, IComponentput_Status, mstv.icomponent_put_status, put_Status, put_Status method [Microsoft TV Technologies], put_Status method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_Status
 ms.prod: windows-hardware
 ms.technology: windows-devices

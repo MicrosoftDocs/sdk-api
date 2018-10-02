@@ -7,7 +7,7 @@ old-location: security\isignercertificates_itembyindex_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 44f9ff7d-5ed2-4575-a9c2-50096fffcf07
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISignerCertificates interface [Security],ItemByIndex property, ISignerCertificates.ItemByIndex, ISignerCertificates.get_ItemByIndex, ISignerCertificates::ItemByIndex, ISignerCertificates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ISignerCertificates interface, certenroll/ISignerCertificates::ItemByIndex, certenroll/ISignerCertificates::get_ItemByIndex, get_ItemByIndex, security.isignercertificates_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

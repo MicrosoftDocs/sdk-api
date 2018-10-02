@@ -4,10 +4,10 @@ title: IEnumFullIDList::Skip
 author: windows-sdk-content
 description: Skips a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Skip.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f47bdab1-57be-4f40-a142-ad5edcf6fbfd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Skip method, IEnumFullIDList.Skip, IEnumFullIDList::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Skip, shell.IEnumFullIDList_Skip, shobjidl_core/IEnumFullIDList::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

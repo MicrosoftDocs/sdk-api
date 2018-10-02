@@ -4,10 +4,10 @@ title: PeerCollabAsyncInviteEndpoint function
 author: windows-sdk-content
 description: Sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. The availability of the response to the invitation is updated through an asynchronous event.
 old-location: p2p\peercollabasyncinviteendpoint.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 2606d2ef-26d3-4c52-b481-3ea38350295a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabAsyncInviteEndpoint, PeerCollabAsyncInviteEndpoint function [Peer Networking], p2p.peercollabasyncinviteendpoint, p2p/PeerCollabAsyncInviteEndpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

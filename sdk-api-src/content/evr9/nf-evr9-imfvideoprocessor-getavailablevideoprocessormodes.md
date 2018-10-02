@@ -4,10 +4,10 @@ title: IMFVideoProcessor::GetAvailableVideoProcessorModes
 author: windows-sdk-content
 description: Retrieves the video processor modes that the video driver supports.
 old-location: mf\imfvideoprocessor_getavailablevideoprocessormodes.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1004341d-d39b-4032-a027-39e35ecab635
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 1004341d-d39b-4032-a027-39e35ecab635, GetAvailableVideoProcessorModes, GetAvailableVideoProcessorModes method [Media Foundation], GetAvailableVideoProcessorModes method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetAvailableVideoProcessorModes method, IMFVideoProcessor.GetAvailableVideoProcessorModes, IMFVideoProcessor::GetAvailableVideoProcessorModes, evr9/IMFVideoProcessor::GetAvailableVideoProcessorModes, mf.imfvideoprocessor_getavailablevideoprocessormodes
 ms.prod: windows-hardware
 ms.technology: windows-devices

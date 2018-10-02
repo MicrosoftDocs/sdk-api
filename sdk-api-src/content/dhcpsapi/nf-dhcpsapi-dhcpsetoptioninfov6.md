@@ -4,10 +4,10 @@ title: DhcpSetOptionInfoV6 function
 author: windows-sdk-content
 description: The DhcpSetOptionInfoV6 function sets information for a specific DHCP option.
 old-location: dhcp\dhcpsetoptioninfov6.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 146e3dbd-e85c-4efd-9265-1072c799cdd8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionInfoV6, DhcpSetOptionInfoV6 function [DHCP], dhcp.dhcpsetoptioninfov6, dhcpsapi/DhcpSetOptionInfoV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

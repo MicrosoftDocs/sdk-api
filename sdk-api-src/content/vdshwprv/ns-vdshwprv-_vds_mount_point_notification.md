@@ -7,7 +7,7 @@ old-location: base\vds_mount_point_notification.htm
 tech.root: VDS
 ms.assetid: 6e49437e-8fc7-4fc5-a227-b326a1ea9967
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: VDS_MOUNT_POINT_NOTIFICATION, VDS_MOUNT_POINT_NOTIFICATION structure [VDS], VDS_NF_MOUNT_POINTS_CHANGE, _VDS_MOUNT_POINT_NOTIFICATION, base.vds_mount_point_notification, vds/_VDS_MOUNT_POINT_NOTIFICATION, vdshwprv/_VDS_MOUNT_POINT_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

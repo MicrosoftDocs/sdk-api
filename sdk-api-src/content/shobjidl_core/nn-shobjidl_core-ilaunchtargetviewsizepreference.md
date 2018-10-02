@@ -4,10 +4,10 @@ title: ILaunchTargetViewSizePreference
 author: windows-sdk-content
 description: Provides a method for retrieving the preferred view size for a new application window.
 old-location: shell\ILaunchTargetViewSizePreference.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3535E9EF-265E-4278-8E0D-60AA8A34C316
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ILaunchTargetViewSizePreference, ILaunchTargetViewSizePreference interface [Windows Shell], ILaunchTargetViewSizePreference interface [Windows Shell],described, shell.ILaunchTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference
 ms.prod: windows
 ms.technology: windows-sdk

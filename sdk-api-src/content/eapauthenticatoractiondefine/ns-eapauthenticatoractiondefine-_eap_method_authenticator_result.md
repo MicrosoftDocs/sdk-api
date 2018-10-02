@@ -4,10 +4,10 @@ title: "_EAP_METHOD_AUTHENTICATOR_RESULT"
 author: windows-sdk-content
 description: Contains authentication results returned by an EAP authenticator method.
 old-location: eaphost\eap_method_authenticator_result.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 8367fd35-852b-4cdf-9a86-7d07a5a1a2ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EAP_METHOD_AUTHENTICATOR_RESULT, EAP_METHOD_AUTHENTICATOR_RESULT structure [EAPHost], _EAP_METHOD_AUTHENTICATOR_RESULT, eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT, eaphost.eap_method_authenticator_result
 ms.prod: windows
 ms.technology: windows-sdk

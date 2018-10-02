@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_clearrendertargetview.htm
 tech.root: direct3d12
 ms.assetid: 5AB13E36-A189-41B4-AEF8-B5C5831655DB
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: ClearRenderTargetView, ClearRenderTargetView method, ClearRenderTargetView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearRenderTargetView method, ID3D12GraphicsCommandList.ClearRenderTargetView, ID3D12GraphicsCommandList::ClearRenderTargetView, d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView, direct3d12.id3d12graphicscommandlist_clearrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices

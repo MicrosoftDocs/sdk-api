@@ -4,10 +4,10 @@ title: "_MT_ARBITRARY_HEADER"
 author: windows-sdk-content
 description: Contains format data for a binary stream in an Advanced Streaming Format (ASF) file.
 old-location: mf\mt_arbitrary_header.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: efe2ceb7-32f5-4a43-b4d9-807fe66d6edb
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundation], _MT_ARBITRARY_HEADER, mf.mt_arbitrary_header, mfapi/MT_ARBITRARY_HEADER
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritem_getinfo.htm
 tech.root: TSF
 ms.assetid: b32e433a-c0d6-418e-bf11-2291c85373c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetInfo, GetInfo method [Text Services Framework], GetInfo method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetInfo method, ITfLangBarItem.GetInfo, ITfLangBarItem::GetInfo, _tsf_itflangbaritem_getinfo_ref, ctfutb/ITfLangBarItem::GetInfo, tsf.itflangbaritem_getinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

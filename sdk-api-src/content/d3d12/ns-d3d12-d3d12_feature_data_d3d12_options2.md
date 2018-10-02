@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_d3d12_options2.htm
 tech.root: direct3d12
 ms.assetid: E45DA471-E0A9-47BF-8AE5-4B8BA4B38337
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS2, D3D12_FEATURE_DATA_D3D12_OPTIONS2 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS2, direct3d12.d3d12_feature_data_d3d12_options2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11multithread.htm
 tech.root: direct3d11
 ms.assetid: 1A07694E-7D61-4A59-82E3-048F04C8D57A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ID3D11Multithread, ID3D11Multithread interface [Direct3D 11], ID3D11Multithread interface [Direct3D 11],described, d3d11_4/ID3D11Multithread, direct3d11.id3d11multithread
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wspsocket_2.htm
 tech.root: WinSock
 ms.assetid: 16735fd1-289d-425a-8ad2-c20d73888b1b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LPWSPSOCKET, WSPSocket, WSPSocket function [Winsock], _win32_wspsocket_2, winsock.wspsocket_2, ws2spi/WSPSocket
 ms.prod: windows
 ms.technology: windows-sdk

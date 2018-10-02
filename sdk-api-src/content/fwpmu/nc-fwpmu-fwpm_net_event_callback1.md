@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_CALLBACK1
 author: windows-sdk-content
 description: Is used to add custom behavior to the net event subscription process.
 old-location: fwp\fwpm_net_event_callback1.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: fddf8e2e-e133-4575-a6dc-c7b5e6cfff31
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_NET_EVENT_CALLBACK1, FWPM_NET_EVENT_CALLBACK1 callback, FWPM_NET_EVENT_CALLBACK1 callback function [Filtering], fwp.fwpm_net_event_callback1, fwpmu/FWPM_NET_EVENT_CALLBACK1
 ms.prod: windows
 ms.technology: windows-sdk

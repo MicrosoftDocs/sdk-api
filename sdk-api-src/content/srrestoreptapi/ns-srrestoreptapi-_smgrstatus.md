@@ -7,7 +7,7 @@ old-location: sr\statemgrstatus_str.htm
 tech.root: sr
 ms.assetid: 3531474b-1499-4c83-ab32-8c464c0eece0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSTATEMGRSTATUS, PSTATEMGRSTATUS, PSTATEMGRSTATUS structure pointer [System Restore], STATEMGRSTATUS, STATEMGRSTATUS structure [System Restore], _SMGRSTATUS, _sr_statemgrstatus_str, sr.statemgrstatus_str, srrestoreptapi/PSTATEMGRSTATUS, srrestoreptapi/STATEMGRSTATUS"
 ms.prod: windows
 ms.technology: windows-sdk

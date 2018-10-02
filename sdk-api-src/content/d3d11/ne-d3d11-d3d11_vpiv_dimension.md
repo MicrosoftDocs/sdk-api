@@ -4,10 +4,10 @@ title: D3D11_VPIV_DIMENSION
 author: windows-sdk-content
 description: Specifies how to access a resource that is used in a video processor input view.
 old-location: mf\d3d11_vpiv_dimension.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 65003974-F86E-4604-BA8D-262CA2674D53
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_VPIV_DIMENSION, D3D11_VPIV_DIMENSION enumeration [Media Foundation], D3D11_VPIV_DIMENSION_TEXTURE2D, D3D11_VPIV_DIMENSION_UNKNOWN, d3d11/D3D11_VPIV_DIMENSION, d3d11/D3D11_VPIV_DIMENSION_TEXTURE2D, d3d11/D3D11_VPIV_DIMENSION_UNKNOWN, mf.d3d11_vpiv_dimension
 ms.prod: windows
 ms.technology: windows-sdk

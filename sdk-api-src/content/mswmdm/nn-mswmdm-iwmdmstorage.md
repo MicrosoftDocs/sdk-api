@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage.htm
 tech.root: WMDM
 ms.assetid: 1ede7c68-0169-4375-9b45-b0995ad14e44
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], IWMDMStorage interface [windows Media Device Manager],described, IWMDMStorageInterface, mswmdm/IWMDMStorage, wmdm.iwmdmstorage
 ms.prod: windows
 ms.technology: windows-sdk

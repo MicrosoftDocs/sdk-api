@@ -4,10 +4,10 @@ title: IOfflineFilesItem::GetParentItem
 author: windows-sdk-content
 description: Retrieves the IOfflineFilesItem interface for the parent of the item.
 old-location: of\iofflinefilesitem_getparentitem.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 4fa89807-cd0c-4868-bd65-a8a0a42dff7d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetParentItem method, IOfflineFilesItem.GetParentItem, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

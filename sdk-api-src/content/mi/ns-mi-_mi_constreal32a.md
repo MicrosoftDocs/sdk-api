@@ -4,10 +4,10 @@ title: "_MI_ConstReal32A"
 author: windows-sdk-content
 description: Represents an array of MI_Real32 types.
 old-location: wmi_v2\mi_constreal32a.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: faffc6a4-bbb2-47f3-b1f3-c8bd1cdadc9f
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ConstReal32A, MI_ConstReal32A structure [Windows Management Infrastructure (MI)], _MI_ConstReal32A, mi/MI_ConstReal32A, wmi._mi_constreal32a, wmi_v2.mi_constreal32a
 ms.prod: windows
 ms.technology: windows-sdk

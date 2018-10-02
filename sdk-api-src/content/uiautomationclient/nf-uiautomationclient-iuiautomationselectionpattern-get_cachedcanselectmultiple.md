@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultip
 tech.root: WinAuto
 ms.assetid: e32051ef-5605-485c-94f9-d79f385cd6d6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: CachedCanSelectMultiple property [Windows Accessibility], CachedCanSelectMultiple property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CachedCanSelectMultiple property, IUIAutomationSelectionPattern.CachedCanSelectMultiple, IUIAutomationSelectionPattern.get_CachedCanSelectMultiple, IUIAutomationSelectionPattern::CachedCanSelectMultiple, IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, get_CachedCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices

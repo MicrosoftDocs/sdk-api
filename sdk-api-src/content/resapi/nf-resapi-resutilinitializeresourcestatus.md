@@ -4,10 +4,10 @@ title: ResUtilInitializeResourceStatus macro
 author: windows-sdk-content
 description: Initializes a RESOURCE_STATUS structure.
 old-location: mscs\resutilinitializeresourcestatus.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e4a887b0-619d-42e0-a828-6a8c8d8c6f47
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ResUtilInitializeResourceStatus, ResUtilInitializeResourceStatus macro [Failover Cluster], _wolf_resutilinitializeresourcestatus, mscs.resutilinitializeresourcestatus, resapi/ResUtilInitializeResourceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

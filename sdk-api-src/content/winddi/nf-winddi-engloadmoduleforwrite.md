@@ -4,10 +4,10 @@ title: EngLoadModuleForWrite function
 author: windows-sdk-content
 description: The EngLoadModuleForWrite function loads the specified executable module into system memory for writing.
 old-location: display\engloadmoduleforwrite.htm
-tech.root: display
+tech.root: Display
 ms.assetid: e5509142-624e-4c57-93b0-2579c6fb7089
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngLoadModuleForWrite, EngLoadModuleForWrite function [Display Devices], display.engloadmoduleforwrite, gdifncs_ee01ce88-2028-4ba0-8800-b02d6534891b.xml, winddi/EngLoadModuleForWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

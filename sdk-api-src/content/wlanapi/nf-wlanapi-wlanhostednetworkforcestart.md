@@ -4,10 +4,10 @@ title: WlanHostedNetworkForceStart function
 author: windows-sdk-content
 description: Transitions the wireless Hosted Network to the wlan_hosted_network_active state without associating the request with the application's calling handle.
 old-location: nwifi\wlanhostednetworkforcestart.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: d3e3b44f-ff52-4062-b54d-a0e3f2cf7785
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanHostedNetworkForceStart, WlanHostedNetworkForceStart function [NativeWIFI], nwifi.wlanhostednetworkforcestart, wlanapi/WlanHostedNetworkForceStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

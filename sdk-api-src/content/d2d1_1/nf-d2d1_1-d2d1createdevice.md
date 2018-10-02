@@ -7,7 +7,7 @@ old-location: direct2d\d2d1createdevice.htm
 tech.root: direct2d
 ms.assetid: 5ed3ec21-b609-41b6-9568-6ede460bc395
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1CreateDevice, D2D1CreateDevice function [Direct2D], d2d1_1/D2D1CreateDevice, direct2d.d2d1createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

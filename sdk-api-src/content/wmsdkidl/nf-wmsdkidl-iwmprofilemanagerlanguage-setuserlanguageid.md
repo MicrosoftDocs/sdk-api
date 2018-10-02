@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanagerlanguage_setuserlanguageid.htm
 tech.root: wmformat
 ms.assetid: e2154057-ea76-43bb-92d9-b52f16eb6b1b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWMProfileManagerLanguage interface [windows Media Format],SetUserLanguageID method, IWMProfileManagerLanguage.SetUserLanguageID, IWMProfileManagerLanguage::SetUserLanguageID, IWMProfileManagerLanguageSetUserLanguageID, SetUserLanguageID, SetUserLanguageID method [windows Media Format], SetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, wmformat.iwmprofilemanagerlanguage_setuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::SetUserLanguageID
 ms.prod: windows-hardware
 ms.technology: windows-devices

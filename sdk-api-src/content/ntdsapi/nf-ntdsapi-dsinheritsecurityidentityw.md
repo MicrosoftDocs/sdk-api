@@ -4,10 +4,10 @@ title: DsInheritSecurityIdentityW function
 author: windows-sdk-content
 description: Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction.
 old-location: ad\dsinheritsecurityidentity.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: ea467069-f886-4e22-896c-16e6e01f3968
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DsInheritSecurityIdentity, DsInheritSecurityIdentity function [Active Directory], DsInheritSecurityIdentityA, DsInheritSecurityIdentityW, _glines_dsinheritsecurityidentity, ad.dsinheritsecurityidentity, ntdsapi/DsInheritSecurityIdentity, ntdsapi/DsInheritSecurityIdentityA, ntdsapi/DsInheritSecurityIdentityW
 ms.prod: windows-hardware
 ms.technology: windows-devices

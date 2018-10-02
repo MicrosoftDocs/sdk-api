@@ -4,10 +4,10 @@ title: IMFMediaEngineEME
 author: windows-sdk-content
 description: Implemented by the media engine to add encrypted media extensions methods.
 old-location: mf\imfmediaengineeme.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d03045d5-bafe-4e65-98da-e9ea8104c169
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineEME, IMFMediaEngineEME interface [Media Foundation], IMFMediaEngineEME interface [Media Foundation],described, mf.imfmediaengineeme, mfmediaengine/IMFMediaEngineEME
 ms.prod: windows
 ms.technology: windows-sdk

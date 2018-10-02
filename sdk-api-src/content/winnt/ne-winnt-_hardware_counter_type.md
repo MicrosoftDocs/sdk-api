@@ -7,7 +7,7 @@ old-location: hcp\hardware_counter_type.htm
 tech.root: hcp
 ms.assetid: 250dd9f1-b409-4b17-bb84-bf7eba14d36e
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Hardware Counter Profiling], MaxHardwareCounterType, PMCCounter, _HARDWARE_COUNTER_TYPE, hcp.hardware_counter_type, winnt/HARDWARE_COUNTER_TYPE, winnt/MaxHardwareCounterType, winnt/PMCCounter"
 ms.prod: windows
 ms.technology: windows-sdk

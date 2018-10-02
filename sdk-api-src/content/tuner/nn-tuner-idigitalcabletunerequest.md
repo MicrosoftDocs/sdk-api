@@ -4,10 +4,10 @@ title: IDigitalCableTuneRequest
 author: windows-sdk-content
 description: The IDigitalCableTuneRequest interface provides methods for tuning to a channel in a digital cable network.
 old-location: mstv\idigitalcabletunerequest.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 75c3c80f-2f02-4cb7-a9e0-aad4076793e4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDigitalCableTuneRequest, IDigitalCableTuneRequest interface [Microsoft TV Technologies], IDigitalCableTuneRequest interface [Microsoft TV Technologies],described, IDigitalCableTuneRequestInterface, mstv.idigitalcabletunerequest, tuner/IDigitalCableTuneRequest
 ms.prod: windows
 ms.technology: windows-sdk

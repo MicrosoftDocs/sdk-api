@@ -4,10 +4,10 @@ title: HTTP_IS_NULL_ID macro
 author: windows-sdk-content
 description: Determines if the HTTP_OPAQUE_ID is NULL.
 old-location: http\http_is_null_id.htm
-tech.root: http
+tech.root: Http
 ms.assetid: 8a73585a-e531-4c5d-9ed3-9e6e1fef93ac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: HTTP_IS_NULL_ID, HTTP_IS_NULL_ID macro [HTTP], http.http_is_null_id, http/HTTP_IS_NULL_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices

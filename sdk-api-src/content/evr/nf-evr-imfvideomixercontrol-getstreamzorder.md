@@ -4,10 +4,10 @@ title: IMFVideoMixerControl::GetStreamZOrder
 author: windows-sdk-content
 description: Retrieves the z-order of a video stream.
 old-location: mf\imfvideomixercontrol_getstreamzorder.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907, GetStreamZOrder, GetStreamZOrder method [Media Foundation], GetStreamZOrder method [Media Foundation],IMFVideoMixerControl interface, IMFVideoMixerControl interface [Media Foundation],GetStreamZOrder method, IMFVideoMixerControl.GetStreamZOrder, IMFVideoMixerControl::GetStreamZOrder, evr/IMFVideoMixerControl::GetStreamZOrder, mf.imfvideomixercontrol_getstreamzorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

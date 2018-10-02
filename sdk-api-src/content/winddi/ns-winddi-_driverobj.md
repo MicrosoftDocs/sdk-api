@@ -4,10 +4,10 @@ title: "_DRIVEROBJ"
 author: windows-sdk-content
 description: The DRIVEROBJ structure is used to track a resource, allocated by a driver, that requires use GDI services.
 old-location: display\driverobj.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 313ee1bf-ee0c-4283-b5e1-5bbabb944a4a
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DRIVEROBJ, DRIVEROBJ structure [Display Devices], _DRIVEROBJ, display.driverobj, grstrcts_8b5c3216-cbe0-4ddf-97b3-c54b39f996cb.xml, winddi/DRIVEROBJ
 ms.prod: windows
 ms.technology: windows-sdk

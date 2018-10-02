@@ -4,10 +4,10 @@ title: IGuideDataEvent
 author: windows-sdk-content
 description: The IGuideDataEvent interface is used to receive events from the BDA MPEG-2 Transport Information Filter (TIF).This interface is an outgoing connection-point interface.
 old-location: mstv\iguidedataevent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9da565f2-fbcb-4d71-ae40-7d9821f46630
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], IGuideDataEvent interface [Microsoft TV Technologies],described, IGuideDataEventInterface, bdatif/IGuideDataEvent, mstv.iguidedataevent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rpc\iunknown_queryinterface_proxy.htm
 tech.root: Rpc
 ms.assetid: 4f266740-e33a-4dc1-8ade-720308bb82fe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUnknown_QueryInterface_Proxy, IUnknown_QueryInterface_Proxy function [RPC], rpc.iunknown_queryinterface_proxy, unknwnbase/IUnknown_QueryInterface_Proxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FlushIpNetTable2 function
 author: windows-sdk-content
 description: The FlushIpNetTable2 function flushes the IP neighbor table on the local computer.
 old-location: iphlp\flushipnettable2.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 6ebfca41-acc3-450c-a3c5-881b8c3fca5e
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, FlushIpNetTable2, FlushIpNetTable2 function [IP Helper], iphlp.flushipnettable2, netioapi/FlushIpNetTable2
 ms.prod: windows-hardware
 ms.technology: windows-devices

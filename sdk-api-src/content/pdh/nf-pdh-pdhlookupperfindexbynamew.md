@@ -4,10 +4,10 @@ title: PdhLookupPerfIndexByNameW function
 author: windows-sdk-content
 description: Returns the counter index corresponding to the specified counter name.
 old-location: perf\pdhlookupperfindexbyname.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: b8530bf3-0a9b-49c2-9494-4dca14cd57ef
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: PdhLookupPerfIndexByName, PdhLookupPerfIndexByName function [Perf], PdhLookupPerfIndexByNameA, PdhLookupPerfIndexByNameW, _win32_pdhlookupperfindexbyname, base.pdhlookupperfindexbyname, pdh/PdhLookupPerfIndexByName, pdh/PdhLookupPerfIndexByNameA, pdh/PdhLookupPerfIndexByNameW, perf.pdhlookupperfindexbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

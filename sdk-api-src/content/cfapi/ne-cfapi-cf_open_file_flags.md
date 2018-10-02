@@ -7,7 +7,7 @@ old-location: cloudapi\cf_open_file_flags.htm
 tech.root: cfApi
 ms.assetid: 4A9D87AB-7B81-46DF-80C3-DB2F63C76964
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 09/28/2018
 ms.keywords: CF_OPEN_FILE_FLAGS, CF_OPEN_FILE_FLAGS enumeration, CF_OPEN_FILE_FLAG_DELETE_ACCESS, CF_OPEN_FILE_FLAG_EXCLUSIVE, CF_OPEN_FILE_FLAG_NONE, CF_OPEN_FILE_FLAG_WRITE_ACCESS, cfapi/CF_OPEN_FILE_FLAGS, cfapi/CF_OPEN_FILE_FLAG_DELETE_ACCESS, cfapi/CF_OPEN_FILE_FLAG_EXCLUSIVE, cfapi/CF_OPEN_FILE_FLAG_NONE, cfapi/CF_OPEN_FILE_FLAG_WRITE_ACCESS, cloudApi.cf_open_file_flags
 ms.prod: windows
 ms.technology: windows-sdk

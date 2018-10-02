@@ -4,10 +4,10 @@ title: MFCreateDeviceSourceActivate function
 author: windows-sdk-content
 description: Creates an activation object that represents a hardware capture device.
 old-location: mf\mfcreatedevicesourceactivate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c52cb35a-8f5b-479e-9c08-3185c9a561f2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateDeviceSourceActivate, MFCreateDeviceSourceActivate function [Media Foundation], mf.mfcreatedevicesourceactivate, mfidl/MFCreateDeviceSourceActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

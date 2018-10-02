@@ -4,10 +4,10 @@ title: NPGetCaps function
 author: windows-sdk-content
 description: Returns information about which services are supported on the network.
 old-location: security\npgetcaps.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 8d399bae-4084-4f06-b7f5-036a54d8d90e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: NPGetCaps, NPGetCaps function [Security], WNNC_ADMIN, WNNC_CONNECTION, WNNC_DIALOG, WNNC_ENUMERATION, WNNC_NET_TYPE, WNNC_SPEC_VERSION, WNNC_START, WNNC_USER, _mnp_npgetcaps, npapi/NPGetCaps, security.npgetcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

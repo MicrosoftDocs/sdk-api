@@ -7,7 +7,7 @@ old-location: wsw\wscloseservicehost.htm
 tech.root: wsw
 ms.assetid: 46abbcba-72ba-4328-858d-367218f45df3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsCloseServiceHost, WsCloseServiceHost function [Web Services for Windows], webservices/WsCloseServiceHost, wsw.wscloseservicehost
 ms.prod: windows-hardware
 ms.technology: windows-devices

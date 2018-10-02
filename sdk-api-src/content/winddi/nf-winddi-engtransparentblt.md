@@ -4,10 +4,10 @@ title: EngTransparentBlt function
 author: windows-sdk-content
 description: The EngTransparentBlt function provides bit-block transfer capabilities with transparency.
 old-location: display\engtransparentblt.htm
-tech.root: display
+tech.root: Display
 ms.assetid: db98b15f-6b4b-4efc-aa24-20c728b09358
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngTransparentBlt, EngTransparentBlt function [Display Devices], display.engtransparentblt, gdifncs_1f33c0a3-6062-494c-aef0-2fa368d278ac.xml, winddi/EngTransparentBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices

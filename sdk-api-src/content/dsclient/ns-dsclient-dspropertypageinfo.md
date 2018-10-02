@@ -4,10 +4,10 @@ title: DSPROPERTYPAGEINFO
 author: windows-sdk-content
 description: The DSPROPERTYPAGEINFO structure is used by an Active Directory property sheet extension to obtain static registration data for the extension. This structure is supplied by the CFSTR_DSPROPERTYPAGEINFO clipboard format.
 old-location: ad\dspropertypageinfo.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 1f8313cd-5cbe-440b-bcf9-de835f2b4f4a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO structure [Active Directory], LPDSPROPERTYPAGEINFO, LPDSPROPERTYPAGEINFO structure pointer [Active Directory], _glines_dspropertypageinfo, ad.dspropertypageinfo, dsclient/DSPROPERTYPAGEINFO, dsclient/LPDSPROPERTYPAGEINFO"
 ms.prod: windows
 ms.technology: windows-sdk

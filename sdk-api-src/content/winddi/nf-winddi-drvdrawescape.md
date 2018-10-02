@@ -4,10 +4,10 @@ title: DrvDrawEscape function
 author: windows-sdk-content
 description: The DrvDrawEscape function is the entry point that serves more than one function call; the particular function depends on the value of the iEsc parameter.
 old-location: display\drvdrawescape.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 698fb67e-4878-42ad-9c7a-899ddcbf1811
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvDrawEscape, DrvDrawEscape function [Display Devices], ddifncs_d3db71f3-aafb-4718-a98f-4ef5d30a6b50.xml, display.drvdrawescape, winddi/DrvDrawEscape
 ms.prod: windows-hardware
 ms.technology: windows-devices

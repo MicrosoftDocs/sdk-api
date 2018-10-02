@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxlinecallback.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xpn.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: FaxLineCallback, FaxLineCallback callback function [Fax Service], PFAX_LINECALLBACK, PFAX_LINECALLBACK callback, _mfax_faxlinecallback, fax._mfax_faxlinecallback, faxdev/FaxLineCallback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IDVB_SDT::GetNextTable
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getnexttable.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c1bc015d-1ea2-4e68-8fbc-39e0bc973d01
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetNextTable method, IDVB_SDT.GetNextTable, IDVB_SDT::GetNextTable, IDVB_SDTGetNextTable, dvbsiparser/IDVB_SDT::GetNextTable, mstv.idvb_sdt_getnexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

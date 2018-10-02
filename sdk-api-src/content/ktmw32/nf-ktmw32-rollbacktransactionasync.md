@@ -4,10 +4,10 @@ title: RollbackTransactionAsync function
 author: windows-sdk-content
 description: Requests that the specified transaction be rolled back. This function returns asynchronously.
 old-location: fs\rollbacktransactionasync.htm
-tech.root: ktm
+tech.root: Ktm
 ms.assetid: df23e5af-c37e-4e60-b160-6ffa8f6a26e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: RollbackTransactionAsync, RollbackTransactionAsync function [Files], fs.rollbacktransactionasync, ktmw32/RollbackTransactionAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: NdfCreateWinSockIncident function
 author: windows-sdk-content
 description: Provides access to the Winsock Helper Class provided by Microsoft.
 old-location: ndf\ndfcreatewinsockincident.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: c4cb2713-b656-47a8-9de7-9d33e864a811
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NdfCreateWinSockIncident, NdfCreateWinSockIncident function [NDF], ndf.ndfcreatewinsockincident, ndfapi/NdfCreateWinSockIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

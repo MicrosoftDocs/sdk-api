@@ -4,10 +4,10 @@ title: EnumerateTraceGuidsEx function
 author: windows-sdk-content
 description: Use this function to retrieve information about trace providers that are registered on the computer.
 old-location: etw\enumeratetraceguidsex.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: EnumerateTraceGuidsEx, EnumerateTraceGuidsEx function [ETW], base.enumeratetraceguidsex, etw.enumeratetraceguidsex, evntrace/EnumerateTraceGuidsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

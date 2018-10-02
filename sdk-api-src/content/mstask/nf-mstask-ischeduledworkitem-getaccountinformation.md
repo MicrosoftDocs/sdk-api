@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getaccountinformation.htm
 tech.root: TaskSchd
 ms.assetid: d5f279ac-bf03-4af5-9bad-58eadaba0ca1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetAccountInformation, GetAccountInformation method [Task Scheduler], GetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetAccountInformation method, IScheduledWorkItem.GetAccountInformation, IScheduledWorkItem::GetAccountInformation, _msb_ischeduledworkitem_getaccountinformation, mstask/IScheduledWorkItem::GetAccountInformation, taskschd.ischeduledworkitem_getaccountinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

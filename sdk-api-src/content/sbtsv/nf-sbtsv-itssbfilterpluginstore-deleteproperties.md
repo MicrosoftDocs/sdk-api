@@ -4,10 +4,10 @@ title: ITsSbFilterPluginStore::DeleteProperties
 author: windows-sdk-content
 description: Deletes a property.
 old-location: termserv\itssbfilterpluginstore_deleteproperties.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 25c2ab34-0879-4dda-9ccb-fb5d7baea61c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteProperties, DeleteProperties method [Remote Desktop Services], DeleteProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],DeleteProperties method, ITsSbFilterPluginStore.DeleteProperties, ITsSbFilterPluginStore::DeleteProperties, sbtsv/ITsSbFilterPluginStore::DeleteProperties, termserv.itssbfilterpluginstore_deleteproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

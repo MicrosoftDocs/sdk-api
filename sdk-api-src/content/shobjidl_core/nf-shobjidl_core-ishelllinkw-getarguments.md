@@ -4,11 +4,11 @@ title: IShellLinkW::GetArguments
 author: windows-sdk-content
 description: Gets the command-line arguments associated with a Shell link object.
 old-location: shell\IShellLink_GetArguments.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bd807387-1998-4b38-996f-6dbacefffa48
 ms.author: windowssdkdev
-ms.date: 08/24/2018
-ms.keywords: GetArguments, GetArguments method [Windows Shell], GetArguments method [Windows Shell],IShellLink interface, IShellLink interface [Windows Shell],GetArguments method, IShellLink::GetArguments, IShellLinkA.GetArguments, IShellLinkW.GetArguments, IShellLinkW::GetArguments, _win32_IShellLink_GetArguments, shell.IShellLink_GetArguments, shobjidl_core/IShellLink::GetArguments
+ms.date: 09/27/2018
+ms.keywords: GetArguments, GetArguments method [Windows Shell], GetArguments method [Windows Shell],IShellLink interface, GetArguments method [Windows Shell],IShellLinkA interface, GetArguments method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetArguments method, IShellLink::GetArguments, IShellLinkA interface [Windows Shell],GetArguments method, IShellLinkA.GetArguments, IShellLinkA::GetArguments, IShellLinkW interface [Windows Shell],GetArguments method, IShellLinkW.GetArguments, IShellLinkW::GetArguments, _win32_IShellLink_GetArguments, shell.IShellLink_GetArguments, shobjidl_core/IShellLink::GetArguments, shobjidl_core/IShellLinkA::GetArguments, shobjidl_core/IShellLinkW::GetArguments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,6 +38,8 @@ api_location:
  - Shell32.dll
 api_name:
  - IShellLink.GetArguments
+ - IShellLinkA.GetArguments
+ - IShellLinkW.GetArguments
  - IShellLinkW.GetArguments
  - IShellLinkA.GetArguments
 product: Windows
@@ -111,6 +113,14 @@ In Windows 7 and later, it is recommended that you retrieve argument strings th
 
 
 <a href="https://msdn.microsoft.com/5ad5fabd-be12-40bc-a6b3-498bcde7223a">IShellLink::SetArguments</a>
+
+
+
+<b>IShellLinkA</b>
+
+
+
+<b>IShellLinkW</b>
  
 
  

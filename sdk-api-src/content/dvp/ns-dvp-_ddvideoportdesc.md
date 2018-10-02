@@ -4,10 +4,10 @@ title: "_DDVIDEOPORTDESC"
 author: windows-sdk-content
 description: The DDVIDEOPORTDESC structure describes the video port extensions (VPE) object being created.
 old-location: display\ddvideoportdesc.htm
-tech.root: display
+tech.root: Display
 ms.assetid: efd5907c-ed75-40be-b568-7c305310f79b
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC, DDVIDEOPORTDESC structure [Display Devices], _DDVIDEOPORTDESC, ddstrcts_4fab2afd-4b57-49cc-b288-3ff8af49c3ba.xml, display.ddvideoportdesc, dvp/DDVIDEOPORTDESC"
 ms.prod: windows
 ms.technology: windows-sdk

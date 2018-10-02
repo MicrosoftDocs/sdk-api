@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_submissionid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\submissionid.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxDocument2 interface [Fax Service],SubmissionId property, IFaxDocument2.SubmissionId, IFaxDocument2.get_SubmissionId, IFaxDocument2::SubmissionId, IFaxDocument2::get_SubmissionId, SubmissionId property [Fax Service], SubmissionId property [Fax Service],IFaxDocument2 interface, _mfax_faxdocument2.submissionid, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_submissionid_cpp, fax._mfax_faxdocument2_submissionid, faxcomex/IFaxDocument2::SubmissionId, faxcomex/IFaxDocument2::get_SubmissionId, get_SubmissionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

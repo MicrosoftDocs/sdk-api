@@ -4,10 +4,10 @@ title: DhcpV6CreateClientInfo function
 author: windows-sdk-content
 description: Creates a DHCPv6 client lease record in the DHCP server database.
 old-location: dhcp\dhcpv6createclientinfo.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 5d49ab90-3c40-4577-8e7e-36d1370d8de9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpV6CreateClientInfo, DhcpV6CreateClientInfo function [DHCP], dhcp.dhcpv6createclientinfo, dhcpsapi/DhcpV6CreateClientInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

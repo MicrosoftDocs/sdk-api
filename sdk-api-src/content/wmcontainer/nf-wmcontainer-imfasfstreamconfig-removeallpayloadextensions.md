@@ -4,10 +4,10 @@ title: IMFASFStreamConfig::RemoveAllPayloadExtensions
 author: windows-sdk-content
 description: Removes all payload extensions that are configured for the stream.
 old-location: mf\imfasfstreamconfig_removeallpayloadextensions.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 7b2c592b-28f6-49a9-9bf5-1080202f606a
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 7b2c592b-28f6-49a9-9bf5-1080202f606a, IMFASFStreamConfig interface [Media Foundation],RemoveAllPayloadExtensions method, IMFASFStreamConfig.RemoveAllPayloadExtensions, IMFASFStreamConfig::RemoveAllPayloadExtensions, RemoveAllPayloadExtensions, RemoveAllPayloadExtensions method [Media Foundation], RemoveAllPayloadExtensions method [Media Foundation],IMFASFStreamConfig interface, mf.imfasfstreamconfig_removeallpayloadextensions, wmcontainer/IMFASFStreamConfig::RemoveAllPayloadExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

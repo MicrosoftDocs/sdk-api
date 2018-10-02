@@ -4,10 +4,10 @@ title: ITransferAdviseSink::ConfirmEncryptionLoss
 author: windows-sdk-content
 description: Displays a message to the user confirming that loss of encryption is acceptable for this operation.
 old-location: shell\ITransferAdviseSink_ConfirmEncryptionLoss.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6c6c6c6a-9eb0-43dd-a51f-cdbe6d538652
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ConfirmEncryptionLoss, ConfirmEncryptionLoss method [Windows Shell], ConfirmEncryptionLoss method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],ConfirmEncryptionLoss method, ITransferAdviseSink.ConfirmEncryptionLoss, ITransferAdviseSink::ConfirmEncryptionLoss, _shell_ITransferAdviseSink_ConfirmEncryptionLoss, shell.ITransferAdviseSink_ConfirmEncryptionLoss, shobjidl_core/ITransferAdviseSink::ConfirmEncryptionLoss
 ms.prod: windows-hardware
 ms.technology: windows-devices

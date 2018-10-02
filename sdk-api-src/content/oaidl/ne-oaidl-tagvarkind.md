@@ -7,7 +7,7 @@ old-location: automat\varkind.htm
 tech.root: automat
 ms.assetid: 8b2df767-bba1-4e0a-be63-32d45fb2be07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: VARKIND, VARKIND enumeration [Automation], VAR_CONST, VAR_DISPATCH, VAR_PERINSTANCE, VAR_STATIC, _oa96_VARKIND, automat.varkind, oaidl/VARKIND, oaidl/VAR_CONST, oaidl/VAR_DISPATCH, oaidl/VAR_PERINSTANCE, oaidl/VAR_STATIC, tagVARKIND
 ms.prod: windows
 ms.technology: windows-sdk

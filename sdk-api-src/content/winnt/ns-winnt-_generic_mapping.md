@@ -7,7 +7,7 @@ old-location: security\generic_mapping.htm
 tech.root: SecAuthZ
 ms.assetid: e3c49b47-9bc7-4000-a131-449345ebb9cd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PGENERIC_MAPPING, GENERIC_MAPPING, GENERIC_MAPPING structure [Security], PGENERIC_MAPPING, PGENERIC_MAPPING structure pointer [Security], _GENERIC_MAPPING, _win32_generic_mapping_str, security.generic_mapping, winnt/GENERIC_MAPPING, winnt/PGENERIC_MAPPING"
 ms.prod: windows
 ms.technology: windows-sdk

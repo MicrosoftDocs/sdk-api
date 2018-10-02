@@ -4,10 +4,10 @@ title: IPlayToControlWithCapabilities::GetCapabilities
 author: windows-sdk-content
 description: Gets the capabilities information for the content.
 old-location: mf\iplaytocontrolwithcapabilities_getcapabilities.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 04d35ac6-af8c-4e95-865b-54bbc7e36059
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Media Foundation], GetCapabilities method [Media Foundation],IPlayToControlWithCapabilities interface, IPlayToControlWithCapabilities interface [Media Foundation],GetCapabilities method, IPlayToControlWithCapabilities.GetCapabilities, IPlayToControlWithCapabilities::GetCapabilities, mf.iplaytocontrolwithcapabilities_getcapabilities, mfsharingengine/IPlayToControlWithCapabilities::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\setsecuritydescriptordacl.htm
 tech.root: SecAuthZ
 ms.assetid: a873b803-391e-47e1-af7e-6dad7195968c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SetSecurityDescriptorDacl, SetSecurityDescriptorDacl function [Security], _win32_setsecuritydescriptordacl, security.setsecuritydescriptordacl, securitybaseapi/SetSecurityDescriptorDacl
 ms.prod: windows-hardware
 ms.technology: windows-devices

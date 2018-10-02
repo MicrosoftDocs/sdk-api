@@ -4,10 +4,10 @@ title: ICategory::get_Children
 author: windows-sdk-content
 description: Gets an interface collection that contains the child categories of this category.
 old-location: wua\icategory_children.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 98c49741-cd7b-43fd-bc9c-f70899506ef2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: Children property [Windows Update Agent], Children property [Windows Update Agent],ICategory interface, ICategory interface [Windows Update Agent],Children property, ICategory.Children, ICategory.get_Children, ICategory::Children, ICategory::get_Children, get_Children, wua.icategory_children, wuapi/ICategory::Children, wuapi/ICategory::get_Children
 ms.prod: windows-hardware
 ms.technology: windows-devices

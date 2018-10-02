@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_configuration_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_14aa.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: "*PFAX_CONFIGURATIONW, FAX_CONFIGURATION, FAX_CONFIGURATION structure [Fax Service], FAX_CONFIGURATIONA, FAX_CONFIGURATIONW, PFAX_CONFIGURATION, PFAX_CONFIGURATION structure pointer [Fax Service], _FAX_CONFIGURATIONW, _mfax_fax_configuration_str, fax._mfax_fax_configuration_str, winfax/FAX_CONFIGURATION, winfax/FAX_CONFIGURATIONA, winfax/FAX_CONFIGURATIONW, winfax/PFAX_CONFIGURATION"
 ms.prod: windows
 ms.technology: windows-sdk

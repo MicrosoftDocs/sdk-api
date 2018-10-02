@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextMarker_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextmarkermethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GraphicsPathIterator.NextMarker, GraphicsPathIterator.NextMarker(OUT const GraphicsPath), GraphicsPathIterator::NextMarker, GraphicsPathIterator::NextMarker(OUT const GraphicsPath), NextMarker, NextMarker methods [GDI+], _gdiplus_CLASS_GraphicsPathIterator_NextMarker_Methods, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextMarker_Methods, gdipluspath/NextMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

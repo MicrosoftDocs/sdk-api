@@ -4,10 +4,10 @@ title: "_FsrmTemplateApplyOptions"
 author: windows-sdk-content
 description: Defines the options for applying template changes to derived objects.
 old-location: fsrm\fsrmtemplateapplyoptions.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 44a8e280-4005-476c-a43d-184c18825129
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: FsrmTemplateApplyOptions, FsrmTemplateApplyOptions enumeration [File Server Resource Manager], FsrmTemplateApplyOptions_ApplyToDerivedAll, FsrmTemplateApplyOptions_ApplyToDerivedMatching, _FsrmTemplateApplyOptions, fs.fsrmtemplateapplyoptions, fsrm.fsrmtemplateapplyoptions, fsrmenums/FsrmTemplateApplyOptions, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedAll, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedMatching
 ms.prod: windows
 ms.technology: windows-sdk

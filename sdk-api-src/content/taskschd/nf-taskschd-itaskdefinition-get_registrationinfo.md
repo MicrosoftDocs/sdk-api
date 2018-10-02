@@ -7,7 +7,7 @@ old-location: taskschd\itaskdefinition_registrationinfo.htm
 tech.root: TaskSchd
 ms.assetid: 74a616fe-bc56-4d81-9a79-8f7c719b87c9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],RegistrationInfo property, ITaskDefinition.RegistrationInfo, ITaskDefinition.get_RegistrationInfo, ITaskDefinition::RegistrationInfo, ITaskDefinition::get_RegistrationInfo, ITaskDefinition::put_RegistrationInfo, RegistrationInfo property [Task Scheduler], RegistrationInfo property [Task Scheduler],ITaskDefinition interface, get_RegistrationInfo, taskschd.itaskdefinition_registrationinfo, taskschd/ITaskDefinition::RegistrationInfo, taskschd/ITaskDefinition::get_RegistrationInfo, taskschd/ITaskDefinition::put_RegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

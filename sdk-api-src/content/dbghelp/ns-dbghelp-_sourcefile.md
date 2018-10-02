@@ -7,7 +7,7 @@ old-location: base\sourcefile_str.htm
 tech.root: debug
 ms.assetid: b41b844d-85d2-4ea3-bdd9-1564898da9e1
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: "*PSOURCEFILE, PSOURCEFILE, PSOURCEFILE structure pointer, SOURCEFILE, SOURCEFILE structure, SOURCEFILEW, _SOURCEFILE, _SOURCEFILEW, base.sourcefile_str, dbghelp/PSOURCEFILE, dbghelp/SOURCEFILE, dbghelp/SOURCEFILEW"
 ms.prod: windows
 ms.technology: windows-sdk

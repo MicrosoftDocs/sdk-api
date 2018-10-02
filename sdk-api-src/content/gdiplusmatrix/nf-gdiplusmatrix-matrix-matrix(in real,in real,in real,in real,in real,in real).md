@@ -2,13 +2,13 @@
 UID: NF:gdiplusmatrix.Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
 title: Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
 author: windows-sdk-content
-description: Creates and initializes a Matrix::Matrix object that represents the identity matrix.
-old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_.htm
+description: Creates and initializes a Matrix::Matrix object based on six numbers that define an affine transformation.
+old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_53.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_67m11_m12_m21_m22_dx_dy.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(), Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Matrix::Matrix, Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Matrix_Matrix_, gdiplus._gdiplus_CLASS_Matrix_Matrix_
+ms.date: 09/26/2018
+ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Matrix.Matrix(REAL,REAL,REAL,REAL,REAL,REAL), Matrix::Matrix, Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_, gdiplus._gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates and initializes a <b>Matrix::Matrix</b> object that represents the identity matrix.
+Creates and initializes a <b>Matrix::Matrix</b> object based on six numbers that define an affine transformation.
 
 
 ## -parameters
@@ -59,36 +59,46 @@ Creates and initializes a <b>Matrix::Matrix</b> object that represents the ident
 
 
 
-### -param m11
+### -param m11 [in]
 
-TBD
+Type: <b>REAL</b>
 
-
-### -param m12
-
-TBD
+Real number that specifies the element in the first row, first column. 
 
 
-### -param m21
+### -param m12 [in]
 
-TBD
+Type: <b>REAL</b>
 
-
-### -param m22
-
-TBD
+Real number that specifies the element in the first row, second column. 
 
 
-### -param dx
+### -param m21 [in]
 
-TBD
+Type: <b>REAL</b>
 
-
-### -param dy
-
-TBD
+Real number that specifies the element in the second row, first column. 
 
 
+### -param m22 [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the element in the second row, second column. 
+
+
+### -param dx [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the element in the third row, first column. 
+
+
+### -param dy [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the element in the third row, second column. 
 
 
 ## -see-also

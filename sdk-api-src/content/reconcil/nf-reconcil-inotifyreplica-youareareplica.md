@@ -4,10 +4,10 @@ title: INotifyReplica::YouAreAReplica
 author: windows-sdk-content
 description: Notifies an object that it may be subject to subsequent reconciliation through the Reconcile method.
 old-location: shell\INotifyReplica_YouAreAReplica.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e6cbdb94-1804-4d6d-890e-d3fd596fec89
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: INotifyReplica interface [Windows Shell],YouAreAReplica method, INotifyReplica.YouAreAReplica, INotifyReplica::YouAreAReplica, YouAreAReplica, YouAreAReplica method [Windows Shell], YouAreAReplica method [Windows Shell],INotifyReplica interface, _win32_INotifyReplica_YouAreAReplica, reconcil/INotifyReplica::YouAreAReplica, shell.INotifyReplica_YouAreAReplica
 ms.prod: windows-hardware
 ms.technology: windows-devices

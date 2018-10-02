@@ -7,7 +7,7 @@ old-location: rpc\rpc_stats_vector.htm
 tech.root: Rpc
 ms.assetid: f2d959a5-530c-4534-9095-ec1a177ead99
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RPC_C_STATS_CALLS_IN, RPC_C_STATS_CALLS_OUT, RPC_C_STATS_PKTS_IN, RPC_C_STATS_PKTS_OUT, RPC_STATS_VECTOR, RPC_STATS_VECTOR structure [RPC], _rpc_rpc_stats_vector, rpc.rpc_stats_vector, rpcdce/RPC_STATS_VECTOR
 ms.prod: windows
 ms.technology: windows-sdk

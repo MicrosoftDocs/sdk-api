@@ -4,10 +4,10 @@ title: IUnknown_Set function
 author: windows-sdk-content
 description: Changes the value of a Component Object Model (COM) interface pointer and releases the previous interface.
 old-location: shell\IUnknown_Set.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b3c4bee2-12cb-483e-9a46-f09d63ae9a2e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IUnknown_Set, IUnknown_Set function [Windows Shell], _win32_IUnknown_Set, shell.IUnknown_Set, shlwapi/IUnknown_Set
 ms.prod: windows-hardware
 ms.technology: windows-devices

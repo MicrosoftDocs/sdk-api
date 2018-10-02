@@ -7,7 +7,7 @@ old-location: base\symenumeratesymbols64.htm
 tech.root: debug
 ms.assetid: f1aa710c-fbe5-4c9a-9956-5bd872b4b5be
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: SymEnumerateSymbols, SymEnumerateSymbols function, SymEnumerateSymbols64, SymEnumerateSymbols64 function, SymEnumerateSymbolsW, SymEnumerateSymbolsW64, _win32_symenumeratesymbols64, base.symenumeratesymbols64, dbghelp/SymEnumerateSymbols, dbghelp/SymEnumerateSymbols64, dbghelp/SymEnumerateSymbolsW, dbghelp/SymEnumerateSymbolsW64
 ms.prod: windows-hardware
 ms.technology: windows-devices

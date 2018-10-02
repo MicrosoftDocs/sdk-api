@@ -4,10 +4,10 @@ title: EngMulDiv function
 author: windows-sdk-content
 description: The EngMulDiv function multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.
 old-location: display\engmuldiv.htm
-tech.root: display
+tech.root: Display
 ms.assetid: e1d9d790-4038-445c-a1ea-fe689cb0e694
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngMulDiv, EngMulDiv function [Display Devices], display.engmuldiv, gdifncs_0d175bf5-b421-43e5-acc5-a11299b0d990.xml, winddi/EngMulDiv
 ms.prod: windows-hardware
 ms.technology: windows-devices

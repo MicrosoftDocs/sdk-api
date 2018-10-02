@@ -7,7 +7,7 @@ old-location: wsw\wsresetserviceproxy.htm
 tech.root: wsw
 ms.assetid: 6a99c958-92f9-4487-8768-3265dab7f0ea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsResetServiceProxy, WsResetServiceProxy function [Web Services for Windows], webservices/WsResetServiceProxy, wsw.wsresetserviceproxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

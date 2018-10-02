@@ -4,10 +4,10 @@ title: MI_Instance_AddElement function
 author: windows-sdk-content
 description: Adds a new property to a dynamic instance (supported only by dynamic instances whose schema may be extended at run time).
 old-location: wmi_v2\mi_instance_addelement.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 51a26894-f391-4281-9e06-2e70fb662aa2
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_ANY, MI_FLAG_BORROW, MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_FLAG_REQUIRED, MI_FLAG_STREAM, MI_Instance_AddElement, MI_Instance_AddElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_AddElement, wmi_v2.mi_instance_addelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: lineSetTollListW function
 author: windows-sdk-content
 description: The lineSetTollList function manipulates the toll list.
 old-location: tapi2\linesettolllist.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: "_tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

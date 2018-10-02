@@ -4,10 +4,10 @@ title: NdfCreateDNSIncident function
 author: windows-sdk-content
 description: Diagnoses name resolution issues in resolving a specific host name.
 old-location: ndf\ndfcreatednsincident.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: e852b3e5-c5b8-45e2-af72-f7e89fb2c310
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NdfCreateDNSIncident, NdfCreateDNSIncident function [NDF], ndf.ndfcreatednsincident, ndfapi/NdfCreateDNSIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

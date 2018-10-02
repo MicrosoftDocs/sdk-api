@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagehalname.htm
 tech.root: Wds
 ms.assetid: c7e3dde3-2f69-4c58-a732-4fd059a9222e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WdsCliGetImageHalName, WdsCliGetImageHalName function [Windows Deployment Services], wds.wdscligetimagehalname, wdsclientapi/WdsCliGetImageHalName
 ms.prod: windows-hardware
 ms.technology: windows-devices

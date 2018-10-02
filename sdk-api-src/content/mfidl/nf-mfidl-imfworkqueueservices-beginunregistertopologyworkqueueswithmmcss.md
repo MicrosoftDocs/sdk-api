@@ -4,10 +4,10 @@ title: IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS
 author: windows-sdk-content
 description: Unregisters the topology work queues from the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfworkqueueservices_beginunregistertopologyworkqueueswithmmcss.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: af68b792-6e00-4ed1-91f8-f275288dc680
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: BeginUnregisterTopologyWorkQueuesWithMMCSS, BeginUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginUnregisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS, af68b792-6e00-4ed1-91f8-f275288dc680, mf.imfworkqueueservices_beginunregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

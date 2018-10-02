@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage_createstorage.htm
 tech.root: WMDM
 ms.assetid: 95633bc4-44fc-4ac7-9492-f99069d77d4d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateStorage, CreateStorage method [windows Media Device Manager], CreateStorage method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],CreateStorage method, IMDSPStorage.CreateStorage, IMDSPStorage::CreateStorage, IMDSPStorageCreateStorage, mswmdm/IMDSPStorage::CreateStorage, wmdm.imdspstorage_createstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

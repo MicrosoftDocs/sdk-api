@@ -4,10 +4,10 @@ title: IShellImageData::Decode
 author: windows-sdk-content
 description: Decodes the image file, setting state.
 old-location: shell\IShellImageData_Decode.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 954424d6-cb90-46c1-a850-4e1113dfe2e4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: Decode, Decode method [Windows Shell], Decode method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Decode method, IShellImageData.Decode, IShellImageData::Decode, SHIMGDEC_DEFAULT, SHIMGDEC_LOADFULL, SHIMGDEC_THUMBNAIL, _shell_IShellImageData_Decode, shell.IShellImageData_Decode, shimgdata/IShellImageData::Decode
 ms.prod: windows-hardware
 ms.technology: windows-devices

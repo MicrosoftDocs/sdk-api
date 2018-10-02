@@ -7,7 +7,7 @@ old-location: fs\storage_medium_product_type_descriptor.htm
 tech.root: fileio
 ms.assetid: 4845F541-D822-4DD0-8F52-9923B067A4F8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: "*PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Files], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Files], _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, fs.storage_medium_product_type_descriptor, winioctl/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

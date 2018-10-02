@@ -7,7 +7,7 @@ old-location: controls\DateTime_SetRange.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setrange.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: DateTime_SetRange, DateTime_SetRange macro [Windows Controls], GDTR_MAX, GDTR_MIN, _win32_DateTime_SetRange, _win32_DateTime_SetRange_cpp, commctrl/DateTime_SetRange, controls.DateTime_SetRange, controls._win32_DateTime_SetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

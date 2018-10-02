@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo3.htm
 tech.root: wmformat
 ms.assetid: 5791e330-3877-4d3a-b27f-f14b97d1a435
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], IWMHeaderInfo3 interface [windows Media Format],described, IWMHeaderInfo3Interface, wmformat.iwmheaderinfo3, wmsdkidl/IWMHeaderInfo3
 ms.prod: windows
 ms.technology: windows-sdk

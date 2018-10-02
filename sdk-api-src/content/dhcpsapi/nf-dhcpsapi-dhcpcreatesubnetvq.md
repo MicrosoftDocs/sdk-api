@@ -4,10 +4,10 @@ title: DhcpCreateSubnetVQ function
 author: windows-sdk-content
 description: The DhcpCreateSubnetVQ function creates a new IPv4 subnet and its associated NAP state information on the DHCP server.
 old-location: dhcp\dhcpcreatesubnetvq.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 4ec8cff5-0652-4dd0-9393-7131e3be6ef8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpCreateSubnetVQ, DhcpCreateSubnetVQ function [DHCP], dhcp.dhcpcreatesubnetvq, dhcpsapi/DhcpCreateSubnetVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

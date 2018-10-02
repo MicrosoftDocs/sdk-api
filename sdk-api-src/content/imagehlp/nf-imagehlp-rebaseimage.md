@@ -7,7 +7,7 @@ old-location: base\rebaseimage.htm
 tech.root: debug
 ms.assetid: b17eb5e6-38de-4baf-a958-189d8c4454af
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: ReBaseImage, ReBaseImage function, _win32_rebaseimage, base.rebaseimage, imagehlp/ReBaseImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

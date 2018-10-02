@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrydelete.htm
 tech.root: RRAS
 ms.assetid: 5a9a1d79-a313-49bc-a678-ba26ccda8e65
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprAdminMIBEntryDelete, MprAdminMIBEntryDelete function [RAS], _mpr_mpradminmibentrydelete, mprapi/MprAdminMIBEntryDelete, rras.mpradminmibentrydelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

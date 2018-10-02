@@ -4,10 +4,10 @@ title: SHCLSIDFromString function
 author: windows-sdk-content
 description: Takes the string form of a class identifier (CLSID) and creates the corresponding CLSID.
 old-location: shell\SHCLSIDFromString.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b09950fb-0a72-4829-aedd-cf01a3f98074
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCLSIDFromString, SHCLSIDFromString function [Windows Shell], _win32_SHCLSIDFromString, shell.SHCLSIDFromString, shlobj_core/SHCLSIDFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices

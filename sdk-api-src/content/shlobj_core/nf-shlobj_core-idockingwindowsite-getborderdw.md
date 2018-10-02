@@ -4,10 +4,10 @@ title: IDockingWindowSite::GetBorderDW
 author: windows-sdk-content
 description: Gets the border space allocated for the specified IDockingWindow object.
 old-location: shell\IDockingWindowSite_GetBorderDW.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b1c30a49-8d87-4855-acc0-5f33eabe5e8a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetBorderDW, GetBorderDW method [Windows Shell], GetBorderDW method [Windows Shell],IDockingWindowSite interface, IDockingWindowSite interface [Windows Shell],GetBorderDW method, IDockingWindowSite.GetBorderDW, IDockingWindowSite::GetBorderDW, _win32_IDockingWindowSite_GetBorderDW, shell.IDockingWindowSite_GetBorderDW, shlobj_core/IDockingWindowSite::GetBorderDW
 ms.prod: windows-hardware
 ms.technology: windows-devices

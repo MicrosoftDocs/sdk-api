@@ -4,10 +4,10 @@ title: IEncoderAPI::IsSupported
 author: windows-sdk-content
 description: The IsSupported method queries whether a given parameter is supported.
 old-location: mstv\iencoderapi_issupported.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: bbcbde18-2b2d-48b0-9f52-185648f502ce
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsSupported method, IEncoderAPI.IsSupported, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

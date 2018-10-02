@@ -7,7 +7,7 @@ old-location: audio\iaudiomediatype_isequal.htm
 tech.root: audio
 ms.assetid: a8ab9ad3-251d-43ab-b099-793ffc22b45f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/28/2018
 ms.keywords: IAudioMediaType interface [Audio Devices],IsEqual method, IAudioMediaType.IsEqual, IAudioMediaType::IsEqual, IsEqual, IsEqual method [Audio Devices], IsEqual method [Audio Devices],IAudioMediaType interface, audio.iaudiomediatype_isequal, audio_syseffects_r_0b3614f0-18af-462e-9ab4-3e625bec54ab.xml, audiomediatype/IAudioMediaType::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices

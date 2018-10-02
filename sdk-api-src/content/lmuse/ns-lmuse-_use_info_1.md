@@ -4,10 +4,10 @@ title: "_USE_INFO_1"
 author: windows-sdk-content
 description: Contains information about the connection between a local device and a shared resource.
 old-location: netmgmt\use_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: b9f680b8-b56a-42be-9af1-d7b18328ded4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPUSE_INFO_1, *PUSE_INFO_1, LPUSE_INFO_1, LPUSE_INFO_1 structure pointer [Network Management], PUSE_INFO_1, PUSE_INFO_1 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_1, USE_INFO_1 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _USE_INFO_1, _win32_use_info_1_str, lmuse/LPUSE_INFO_1, lmuse/PUSE_INFO_1, lmuse/USE_INFO_1, netmgmt.use_info_1_str"
 ms.prod: windows
 ms.technology: windows-sdk

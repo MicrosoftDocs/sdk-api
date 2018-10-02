@@ -4,10 +4,10 @@ title: IIsdbSIParameterDescriptor::GetParameterVersion
 author: windows-sdk-content
 description: Gets the version number of a parameter from a service information (SI) parameter descriptor. This version number is incremented by one each time the parameter is updated.
 old-location: mstv\iisdbsiparameterdescriptor_getparameterversion.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8ca9d5d3-d96f-4437-9d22-0166a3fbc593
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetParameterVersion, GetParameterVersion method [Microsoft TV Technologies], GetParameterVersion method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetParameterVersion method, IIsdbSIParameterDescriptor.GetParameterVersion, IIsdbSIParameterDescriptor::GetParameterVersion, dvbsiparser/IIsdbSIParameterDescriptor::GetParameterVersion, mstv.iisdbsiparameterdescriptor_getparameterversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PowerDuplicateScheme function
 author: windows-sdk-content
 description: Duplicates an existing power scheme.
 old-location: base\powerduplicatescheme.htm
-tech.root: power
+tech.root: Power
 ms.assetid: e58dee69-309c-4b52-bf28-f54b300801b9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerduplicatescheme, powrprof/PowerDuplicateScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFEndCreateFile function
 author: windows-sdk-content
 description: Completes an asynchronous request to create a byte stream from a file.
 old-location: mf\mfendcreatefile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: daa92660-5d0d-4c7c-985a-ad621eca4bfc
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFEndCreateFile, MFEndCreateFile function [Media Foundation], daa92660-5d0d-4c7c-985a-ad621eca4bfc, mf.mfendcreatefile, mfapi/MFEndCreateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

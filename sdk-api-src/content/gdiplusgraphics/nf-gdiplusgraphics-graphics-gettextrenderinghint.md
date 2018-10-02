@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTextRenderingHint_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettextrenderinghint.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTextRenderingHint, GetTextRenderingHint method [GDI+], GetTextRenderingHint method [GDI+],Graphics class, Graphics class [GDI+],GetTextRenderingHint method, Graphics.GetTextRenderingHint, Graphics::GetTextRenderingHint, _gdiplus_CLASS_Graphics_GetTextRenderingHint_, gdiplus._gdiplus_CLASS_Graphics_GetTextRenderingHint_
 ms.prod: windows-hardware
 ms.technology: windows-devices

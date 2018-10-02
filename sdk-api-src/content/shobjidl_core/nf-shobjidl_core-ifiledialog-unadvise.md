@@ -4,10 +4,10 @@ title: IFileDialog::Unadvise
 author: windows-sdk-content
 description: Removes an event handler that was attached through the IFileDialog::Advise method.
 old-location: shell\IFileDialog_Unadvise.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 48504141-6612-43fe-8470-a9871b560f1a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileDialog interface [Windows Shell],Unadvise method, IFileDialog.Unadvise, IFileDialog::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFileDialog interface, shell.IFileDialog_Unadvise, shell_IFileDialog_Unadvise, shobjidl_core/IFileDialog::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

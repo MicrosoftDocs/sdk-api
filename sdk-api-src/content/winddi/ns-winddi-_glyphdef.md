@@ -4,10 +4,10 @@ title: "_GLYPHDEF"
 author: windows-sdk-content
 description: The GLYPHDEF union identifies individual glyphs and provides either a pointer to a GLYPHBITS structure or a pointer to a PATHOBJ structure.
 old-location: display\glyphdef.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d1a7a02c-acaf-46b5-9ffe-fddbb01408a5
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: GLYPHDEF, GLYPHDEF union [Display Devices], _GLYPHDEF, display.glyphdef, grstrcts_d3283f02-3635-482d-a65a-b92f0a91aa54.xml, winddi/GLYPHDEF
 ms.prod: windows
 ms.technology: windows-sdk

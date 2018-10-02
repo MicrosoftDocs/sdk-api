@@ -4,10 +4,10 @@ title: IFileSaveDialog
 author: windows-sdk-content
 description: Extends the IFileDialog interface by adding methods specific to the save dialog, which include those that provide support for the collection of metadata to be persisted with the file.
 old-location: shell\IFileSaveDialog.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
 ms.prod: windows
 ms.technology: windows-sdk

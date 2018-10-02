@@ -7,7 +7,7 @@ old-location: automat\varbstrfromi4.htm
 tech.root: automat
 ms.assetid: ae4cc116-29b2-40cd-8990-531837c3fcb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: VarBstrFromI4, VarBstrFromI4 function [Automation], _oa96_VarBstrFromI4, automat.varbstrfromi4, oleauto/VarBstrFromI4
 ms.prod: windows-hardware
 ms.technology: windows-devices

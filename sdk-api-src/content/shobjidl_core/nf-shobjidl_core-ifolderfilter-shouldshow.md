@@ -4,10 +4,10 @@ title: IFolderFilter::ShouldShow
 author: windows-sdk-content
 description: Specifies whether an individual item should be allowed through the filter and which should be blocked.
 old-location: shell\IFolderFilter_ShouldShow.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 60893b97-5b13-4c1f-9fd6-042217d3026f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderFilter interface [Windows Shell],ShouldShow method, IFolderFilter.ShouldShow, IFolderFilter::ShouldShow, ShouldShow, ShouldShow method [Windows Shell], ShouldShow method [Windows Shell],IFolderFilter interface, _shell_IFolderFilter_ShouldShow, shell.IFolderFilter_ShouldShow, shobjidl_core/IFolderFilter::ShouldShow
 ms.prod: windows-hardware
 ms.technology: windows-devices

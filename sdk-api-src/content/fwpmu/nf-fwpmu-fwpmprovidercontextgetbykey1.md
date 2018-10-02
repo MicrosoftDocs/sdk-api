@@ -4,10 +4,10 @@ title: FwpmProviderContextGetByKey1 function
 author: windows-sdk-content
 description: Retrieves a provider context.
 old-location: fwp\fwpmprovidercontextgetbykey1_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 896b0b83-b262-4a09-a88e-eb4b623888ab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmProviderContextGetByKey1, FwpmProviderContextGetByKey1 function [Filtering], fwp.fwpmprovidercontextgetbykey1_func, fwpmu/FwpmProviderContextGetByKey1
 ms.prod: windows-hardware
 ms.technology: windows-devices

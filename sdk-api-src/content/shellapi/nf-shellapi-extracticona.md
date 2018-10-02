@@ -4,10 +4,10 @@ title: ExtractIconA function
 author: windows-sdk-content
 description: Gets a handle to an icon from the specified executable file, DLL, or icon file. To retrieve an array of handles to large or small icons, use the ExtractIconEx function.
 old-location: shell\ExtractIcon.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a0314423-79d6-416e-8be0-be946477da3e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ExtractIcon, ExtractIcon function [Windows Shell], ExtractIconA, ExtractIconW, _shell_ExtractIcon, shell.ExtractIcon, shellapi/ExtractIcon, shellapi/ExtractIconA, shellapi/ExtractIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices

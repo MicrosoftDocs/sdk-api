@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2_deletevardesc.htm
 tech.root: automat
 ms.assetid: 0fcf55d9-2592-4fed-9612-48085eb7791b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteVarDesc, DeleteVarDesc method [Automation], DeleteVarDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDesc method, ICreateTypeInfo2.DeleteVarDesc, ICreateTypeInfo2::DeleteVarDesc, _oa96_ICreateTypeInfo2_DeleteVarDesc, automat.icreatetypeinfo2_deletevardesc, oaidl/ICreateTypeInfo2::DeleteVarDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

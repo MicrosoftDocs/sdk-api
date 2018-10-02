@@ -7,7 +7,7 @@ old-location: automat\getrecordinfofromguids.htm
 tech.root: automat
 ms.assetid: 0f132a13-ebcd-4886-b842-e6852d6fb2c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordInfoFromGuids, GetRecordInfoFromGuids function [Automation], _oa96_GetRecordInfoFromGuids, automat.getrecordinfofromguids, oleauto/GetRecordInfoFromGuids
 ms.prod: windows-hardware
 ms.technology: windows-devices

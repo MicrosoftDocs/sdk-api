@@ -4,10 +4,10 @@ title: "_DHCP_SCAN_FLAG"
 author: windows-sdk-content
 description: The DHCP_SCAN_FLAG enumeration defines the set of possible targets of synchronization during a database scan operation.
 old-location: dhcp\dhcp_scan_flag.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 825a0e64-b0c2-453e-8e00-52f84c40bef3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_SCAN_FLAG, DHCP_SCAN_FLAG, DHCP_SCAN_FLAG enumeration [DHCP], DhcpDatabaseFix, DhcpRegistryFix, LPDHCP_SCAN_FLAG, LPDHCP_SCAN_FLAG enumeration pointer [DHCP], _DHCP_SCAN_FLAG, dhcp.dhcp_scan_flag, dhcpsapi/DHCP_SCAN_FLAG, dhcpsapi/DhcpDatabaseFix, dhcpsapi/DhcpRegistryFix, dhcpsapi/LPDHCP_SCAN_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk

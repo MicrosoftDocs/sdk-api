@@ -1,0 +1,79 @@
+---
+UID: NN:uiautomationclient.IUIAutomationActiveTextPositionChangedEventHandler
+title: IUIAutomationActiveTextPositionChangedEventHandler
+author: windows-sdk-content
+description: Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.
+old-location: winauto\uiauto_IUIAutomationActiveTextPositionChangedEventHandler.htm
+tech.root: WinAuto
+ms.assetid: 038AD911-2FDB-42E5-86E0-76C58F765114
+ms.author: windowssdkdev
+ms.date: 09/27/2018
+ms.keywords: IUIAutomationActiveTextPositionChangedEventHandler, IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility], IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationActiveTextPositionChangedEventHandler
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationActiveTextPositionChangedEventHandler
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IUIAutomationActiveTextPositionChangedEventHandler interface
+
+
+## -description
+
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.<div class="alert"><b>Note</b>  This interface is implemented by the application to handle events that it has subscribed to by calling <a href="winauto.uiauto_iuiautomation6_addactivetextpositionchangedeventhandler">AddActiveTextPositionChangedEventHandler</a>.
+			</div>
+<div> </div>
+
+
+
+## -remarks
+
+
+
+Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://msdn.microsoft.com/0772969a-da55-488e-8b21-7368434df8a9">Understanding Threading Issues</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ce9c4044-f46b-42b7-af44-05aee728a0e8">Event Handling Interfaces for Clients</a>
+ 
+
+ 
+

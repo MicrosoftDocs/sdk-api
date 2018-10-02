@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetImageList.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setimagelist.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_SetImageList, TreeView_SetImageList macro [Windows Controls], _win32_TreeView_SetImageList, _win32_TreeView_SetImageList_cpp, commctrl/TreeView_SetImageList, controls.TreeView_SetImageList, controls._win32_TreeView_SetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

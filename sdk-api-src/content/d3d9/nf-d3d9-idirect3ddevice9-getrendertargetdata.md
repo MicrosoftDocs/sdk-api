@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetRenderTargetData
 author: windows-sdk-content
 description: Copies the render-target data from device memory to system memory.
 old-location: direct3d9\idirect3ddevice9__getrendertargetdata.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getrendertargetdata.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetRenderTargetData, GetRenderTargetData method [Direct3D 9], GetRenderTargetData method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetRenderTargetData method, IDirect3DDevice9.GetRenderTargetData, IDirect3DDevice9::GetRenderTargetData, d3d9helper/IDirect3DDevice9::GetRenderTargetData, direct3d9.idirect3ddevice9__getrendertargetdata, ef2b445f-f837-5faa-3c68-645f07e7e87b
 ms.prod: windows-hardware
 ms.technology: windows-devices

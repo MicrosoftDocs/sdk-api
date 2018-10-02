@@ -4,10 +4,10 @@ title: IUpdateSession::CreateUpdateDownloader
 author: windows-sdk-content
 description: Returns an IUpdateDownloader interface for this session.
 old-location: wua\iupdatesession_createupdatedownloader.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 9d410114-2327-489c-84b6-c3f5367008c2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: CreateUpdateDownloader, CreateUpdateDownloader method [Windows Update Agent], CreateUpdateDownloader method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateDownloader method, IUpdateSession.CreateUpdateDownloader, IUpdateSession::CreateUpdateDownloader, wua.iupdatesession_createupdatedownloader, wuapi/IUpdateSession::CreateUpdateDownloader
 ms.prod: windows-hardware
 ms.technology: windows-devices

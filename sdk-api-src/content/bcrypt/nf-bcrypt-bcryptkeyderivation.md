@@ -7,7 +7,7 @@ old-location: security\bcryptkeyderivation.htm
 tech.root: SecCNG
 ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BCryptKeyDerivation, BCryptKeyDerivation function [Security], bcrypt/BCryptKeyDerivation, security.bcryptkeyderivation
 ms.prod: windows-hardware
 ms.technology: windows-devices

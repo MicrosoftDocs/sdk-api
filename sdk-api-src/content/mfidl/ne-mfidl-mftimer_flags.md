@@ -4,10 +4,10 @@ title: MFTIMER_FLAGS
 author: windows-sdk-content
 description: Contains flags for the IMFTimer::SetTimer method.
 old-location: mf\mftimer_flags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: bd94247a-ed58-4857-a39d-16880eea75e0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFTIMER_FLAGS, MFTIMER_FLAGS enumeration [Media Foundation], MFTIMER_RELATIVE, bd94247a-ed58-4857-a39d-16880eea75e0, mf.mftimer_flags, mfidl/MFTIMER_FLAGS, mfidl/MFTIMER_RELATIVE
 ms.prod: windows
 ms.technology: windows-sdk

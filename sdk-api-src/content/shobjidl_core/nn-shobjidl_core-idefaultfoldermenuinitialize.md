@@ -4,10 +4,10 @@ title: IDefaultFolderMenuInitialize
 author: windows-sdk-content
 description: Provides methods used to get and set shortcut menu information. This information is the same as that provided to SHCreateDefaultContextMenu through the DEFCONTEXTMENU structure.
 old-location: shell\IDefaultFolderMenuInitialize.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IDefaultFolderMenuInitialize, IDefaultFolderMenuInitialize interface [Windows Shell], IDefaultFolderMenuInitialize interface [Windows Shell],described, shell.IDefaultFolderMenuInitialize, shobjidl_core/IDefaultFolderMenuInitialize
 ms.prod: windows
 ms.technology: windows-sdk

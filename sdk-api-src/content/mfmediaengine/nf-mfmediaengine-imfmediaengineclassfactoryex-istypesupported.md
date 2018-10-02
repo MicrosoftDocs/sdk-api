@@ -4,10 +4,10 @@ title: IMFMediaEngineClassFactoryEx::IsTypeSupported
 author: windows-sdk-content
 description: Gets a value that indicates if the specified key system supports the specified media type.
 old-location: mf\imfmediaengineclassfactoryex_istypesupported.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6f4f50db-e491-46c2-a8b2-1b8e51033b5b
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineClassFactoryEx interface [Media Foundation],IsTypeSupported method, IMFMediaEngineClassFactoryEx.IsTypeSupported, IMFMediaEngineClassFactoryEx::IsTypeSupported, IsTypeSupported, IsTypeSupported method [Media Foundation], IsTypeSupported method [Media Foundation],IMFMediaEngineClassFactoryEx interface, mf.imfmediaengineclassfactoryex_istypesupported, mfmediaengine/IMFMediaEngineClassFactoryEx::IsTypeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

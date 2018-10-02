@@ -4,10 +4,10 @@ title: MFCreateSensorProfileCollection function
 author: windows-sdk-content
 description: Creates a sensor profile collection.
 old-location: mf\mfcreatesensorprofilecollection.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 0EEA1C89-4B8B-4ECC-AF34-EB516C91997A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateSensorProfileCollection, MFCreateSensorProfileCollection function [Media Foundation], mf.mfcreatesensorprofilecollection, mfidl/MFCreateSensorProfileCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

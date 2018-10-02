@@ -7,7 +7,7 @@ old-location: gdi\polypolyline.htm
 tech.root: gdi
 ms.assetid: 71a9273f-321b-4efb-ac73-5979f8151d05
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PolyPolyline, PolyPolyline function [Windows GDI], _win32_PolyPolyline, gdi.polypolyline, wingdi/PolyPolyline
 ms.prod: windows-hardware
 ms.technology: windows-devices

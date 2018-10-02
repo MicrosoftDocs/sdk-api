@@ -7,7 +7,7 @@ old-location: taskschd\itask_settaskflags.htm
 tech.root: TaskSchd
 ms.assetid: 32231145-241a-46ff-9c49-94f5bf7cc532
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITask interface [Task Scheduler],SetTaskFlags method, ITask.SetTaskFlags, ITask::SetTaskFlags, SetTaskFlags, SetTaskFlags method [Task Scheduler], SetTaskFlags method [Task Scheduler],ITask interface, _msb_itask_settaskflags, mstask/ITask::SetTaskFlags, taskschd.itask_settaskflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

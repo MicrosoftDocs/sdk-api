@@ -4,10 +4,10 @@ title: FwpmFreeMemory0 function
 author: windows-sdk-content
 description: Is used to release memory resources allocated by the Windows Filtering Platform (WFP) functions.
 old-location: fwp\fwpmfreememory0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: ba9f8c1e-f75c-4bf0-b68b-e21a358575fc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmFreeMemory0, FwpmFreeMemory0 function [Filtering], fwp.fwpmfreememory0_func, fwpmu/FwpmFreeMemory0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFAttributes::SetBlob
 author: windows-sdk-content
 description: Associates a byte array with a key.
 old-location: mf\imfattributes_setblob.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c, IMFAttributes interface [Media Foundation],SetBlob method, IMFAttributes.SetBlob, IMFAttributes::SetBlob, SetBlob, SetBlob method [Media Foundation], SetBlob method [Media Foundation],IMFAttributes interface, mf.imfattributes_setblob, mfobjects/IMFAttributes::SetBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

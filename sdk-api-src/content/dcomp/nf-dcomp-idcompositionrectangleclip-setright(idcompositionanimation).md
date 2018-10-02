@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setright_float.htm
 tech.root: directcomp
 ms.assetid: FB27BB00-239A-42A8-86D3-C78E2E8E820B
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetRight method, IDCompositionRectangleClip.SetRight, IDCompositionRectangleClip.SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight, IDCompositionRectangleClip::SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight(float), SetRight, SetRight method [DirectComposition], SetRight method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetRight, directcomp.idcompositionrectangleclip_setright_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

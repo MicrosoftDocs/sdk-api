@@ -4,10 +4,10 @@ title: DhcpV6GetStatelessStatistics function
 author: windows-sdk-content
 description: Retrieves the stateless server IPv6 subnet statistics.
 old-location: dhcp\dhcpv6getstatelessstatistics.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 4f6ba79c-5ab5-4d89-907d-83bdddbd09a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpV6GetStatelessStatistics, DhcpV6GetStatelessStatistics function [DHCP], dhcp.dhcpv6getstatelessstatistics, dhcpsapi/DhcpV6GetStatelessStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

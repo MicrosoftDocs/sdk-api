@@ -7,7 +7,7 @@ old-location: security\icertificatepolicy_initialize_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 995b344b-ed1f-47e4-a7c6-0d638ed9ec23
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICertificatePolicy interface [Security],Initialize method, ICertificatePolicy.Initialize, ICertificatePolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::Initialize, security.icertificatepolicy_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

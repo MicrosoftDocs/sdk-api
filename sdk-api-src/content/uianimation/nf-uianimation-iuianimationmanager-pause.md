@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_pause.htm
 tech.root: UIAnimation
 ms.assetid: 52b11e79-9930-4fd8-84b4-152917090519
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Pause method, IUIAnimationManager.Pause, IUIAnimationManager::Pause, Pause, Pause method [Windows Animation], Pause method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_pause, uianimation/IUIAnimationManager::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

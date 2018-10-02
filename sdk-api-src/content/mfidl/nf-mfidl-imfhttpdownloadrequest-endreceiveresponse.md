@@ -4,10 +4,10 @@ title: IMFHttpDownloadRequest::EndReceiveResponse
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginReceiveResponse.
 old-location: mf\imfhttpdownloadrequest_endreceiveresponse.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: FC342FB9-930F-4EA7-9057-51AF10D13ED9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: EndReceiveResponse, EndReceiveResponse method [Media Foundation], EndReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReceiveResponse method, IMFHttpDownloadRequest.EndReceiveResponse, IMFHttpDownloadRequest::EndReceiveResponse, mf.imfhttpdownloadrequest_endreceiveresponse, mfidl/IMFHttpDownloadRequest::EndReceiveResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices

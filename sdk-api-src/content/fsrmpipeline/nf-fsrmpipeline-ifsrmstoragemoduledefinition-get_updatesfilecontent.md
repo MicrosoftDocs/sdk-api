@@ -4,10 +4,10 @@ title: IFsrmStorageModuleDefinition::get_UpdatesFileContent
 author: windows-sdk-content
 description: Determines whether the module updates the contents of the file.
 old-location: fsrm\ifsrmstoragemoduledefinition_updatesfilecontent.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 461befff-0bb4-44a2-9c37-e9a8fb1b080f
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmStorageModuleDefinition interface [File Server Resource Manager],UpdatesFileContent property, IFsrmStorageModuleDefinition.UpdatesFileContent, IFsrmStorageModuleDefinition.get_UpdatesFileContent, IFsrmStorageModuleDefinition::UpdatesFileContent, IFsrmStorageModuleDefinition::get_UpdatesFileContent, IFsrmStorageModuleDefinition::put_UpdatesFileContent, UpdatesFileContent property [File Server Resource Manager], UpdatesFileContent property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, fs.ifsrmstoragemoduledefinition_updatesfilecontent, fsrm.ifsrmstoragemoduledefinition_updatesfilecontent, fsrmpipeline/IFsrmStorageModuleDefinition::UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::get_UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::put_UpdatesFileContent, get_UpdatesFileContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

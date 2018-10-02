@@ -2,13 +2,13 @@
 UID: NF:gdiplustypes.PointF.PointF(IN const PointF &)
 title: PointF::PointF(IN const PointF &)
 author: windows-sdk-content
-description: Creates a PointF object and initializes the X and Y data members to zero. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_.htm
+description: Creates a new PointF object and copies the data from another PointF object.
+old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_point_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_52.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_92point.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(), PointF.PointF(IN const PointF &), PointF::PointF, PointF::PointF(IN const PointF &), _gdiplus_CLASS_PointF_PointF_, gdiplus._gdiplus_CLASS_PointF_PointF_
+ms.date: 09/26/2018
+ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(IN const PointF &), PointF.PointF(const PointF&), PointF::PointF, PointF::PointF(IN const PointF &), _gdiplus_CLASS_PointF_PointF_point_, gdiplus._gdiplus_CLASS_PointF_PointF_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,9 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object and initializes the 
-			<b>X</b> and 
-			<b>Y</b> data members to zero. This is the default constructor.
+Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object and copies the data from another <b>PointF</b> object.
 
 
 ## -parameters
@@ -61,11 +59,15 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).as
 
 
 
-### -param point
+### -param point [in, ref]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a></b>
 
-
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object whose 
+					<b>X</b> and 
+					<b>Y</b> data members are copied into the 
+					<b>X</b> and 
+					<b>Y</b> data members of the new <b>PointF</b> object. 
 
 
 ## -see-also

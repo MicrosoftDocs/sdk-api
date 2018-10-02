@@ -4,10 +4,10 @@ title: IPMT
 author: windows-sdk-content
 description: The IPMT interface enables the client to get information from a program map table (PMT).
 old-location: mstv\ipmt.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IPMT, IPMT interface [Microsoft TV Technologies], IPMT interface [Microsoft TV Technologies],described, IPMTInterface, mpeg2psiparser/IPMT, mstv.ipmt
 ms.prod: windows
 ms.technology: windows-sdk

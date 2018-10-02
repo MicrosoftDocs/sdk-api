@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_setclassname.htm
 tech.root: WmiSdk
 ms.assetid: 77c51bb7-2868-4d9f-b48c-60b152e18cac
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetClassName method, IWbemPath.SetClassName, IWbemPath::SetClassName, SetClassName, SetClassName method [Windows Management Instrumentation], SetClassName method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setclassname, wmi.iwbempath_setclassname, wmiutils/IWbemPath::SetClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\wsskipnode.htm
 tech.root: wsw
 ms.assetid: 90eda6f1-dda2-4595-90f5-029768278f5b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsSkipNode, WsSkipNode function [Web Services for Windows], webservices/WsSkipNode, wsw.wsskipnode
 ms.prod: windows-hardware
 ms.technology: windows-devices

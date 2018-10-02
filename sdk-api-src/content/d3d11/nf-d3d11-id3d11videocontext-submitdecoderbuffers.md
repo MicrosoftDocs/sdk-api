@@ -4,10 +4,10 @@ title: ID3D11VideoContext::SubmitDecoderBuffers
 author: windows-sdk-content
 description: Submits one or more buffers for decoding.
 old-location: mf\id3d11videocontext_submitdecoderbuffers.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 39010E57-FFF2-4793-B839-E336E8D2C1B2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],SubmitDecoderBuffers method, ID3D11VideoContext.SubmitDecoderBuffers, ID3D11VideoContext::SubmitDecoderBuffers, SubmitDecoderBuffers, SubmitDecoderBuffers method [Media Foundation], SubmitDecoderBuffers method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::SubmitDecoderBuffers, mf.id3d11videocontext_submitdecoderbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

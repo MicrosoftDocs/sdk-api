@@ -4,10 +4,10 @@ title: "_USB_BANDWIDTH_INFO"
 author: windows-sdk-content
 description: The USB_BANDWIDTH_INFO structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the allocated bandwidth.
 old-location: buses\usb_bandwidth_info.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: 33983bed-9794-4deb-8d30-1089eee9eb9c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: "*PUSB_BANDWIDTH_INFO, PUSB_BANDWIDTH_INFO, PUSB_BANDWIDTH_INFO structure pointer [Buses], USB_BANDWIDTH_INFO, USB_BANDWIDTH_INFO structure [Buses], _USB_BANDWIDTH_INFO, buses.usb_bandwidth_info, usbstrct_d852c165-11b3-405f-aa49-dc7f48f710a1.xml, usbuser/PUSB_BANDWIDTH_INFO, usbuser/USB_BANDWIDTH_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

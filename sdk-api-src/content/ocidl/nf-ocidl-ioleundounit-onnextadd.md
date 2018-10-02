@@ -7,7 +7,7 @@ old-location: com\ioleundounit_onnextadd.htm
 tech.root: com
 ms.assetid: 79bbdb6c-cae3-4f9a-b335-565aacec6d3e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IOleUndoUnit interface [COM],OnNextAdd method, IOleUndoUnit.OnNextAdd, IOleUndoUnit::OnNextAdd, OnNextAdd, OnNextAdd method [COM], OnNextAdd method [COM],IOleUndoUnit interface, _ole_ioleundounit_onnextadd, com.ioleundounit_onnextadd, ocidl/IOleUndoUnit::OnNextAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

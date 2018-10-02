@@ -4,10 +4,10 @@ title: IQueryContinue::QueryContinue
 author: windows-sdk-content
 description: Returns S_OK if the operation associated with the current instance of this interface should continue.
 old-location: shell\IQueryContinue_QueryContinue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9beabfc9-56b9-4778-8027-939aa986086a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IQueryContinue interface [Windows Shell],QueryContinue method, IQueryContinue.QueryContinue, IQueryContinue::QueryContinue, QueryContinue, QueryContinue method [Windows Shell], QueryContinue method [Windows Shell],IQueryContinue interface, inet_IQueryContinue_QueryContinue, shell.IQueryContinue_QueryContinue, shobjidl_core/IQueryContinue::QueryContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices

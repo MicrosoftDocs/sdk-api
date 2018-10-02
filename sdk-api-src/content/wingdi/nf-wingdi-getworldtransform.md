@@ -7,7 +7,7 @@ old-location: gdi\getworldtransform.htm
 tech.root: gdi
 ms.assetid: 72945b1e-144e-4724-bf08-6f971f8adb43
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetWorldTransform, GetWorldTransform function [Windows GDI], _win32_GetWorldTransform, gdi.getworldtransform, wingdi/GetWorldTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

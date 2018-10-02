@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetCredentialsAt function
 author: windows-sdk-content
 description: Get the credentials at the specified index.
 old-location: wmi_v2\mi_destinationoptions_getcredentialsat.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 605f6486-f7d4-433e-9f56-49a868de9e8e
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_DestinationOptions_GetCredentialsAt, MI_DestinationOptions_GetCredentialsAt function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCredentialsAt, wmi_v2.mi_destinationoptions_getcredentialsat
 ms.prod: windows-hardware
 ms.technology: windows-devices

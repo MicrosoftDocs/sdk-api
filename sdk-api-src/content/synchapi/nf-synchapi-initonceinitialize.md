@@ -7,7 +7,7 @@ old-location: base\initonceinitialize.htm
 tech.root: Sync
 ms.assetid: f2943ac5-0e43-4f07-8941-952383e2fa08
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: InitOnceInitialize, InitOnceInitialize function, base.initonceinitialize, synchapi/InitOnceInitialize, winbase/InitOnceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\varcmp.htm
 tech.root: automat
 ms.assetid: 00b96fa7-446c-450b-bd06-a966e1acb5ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarCmp, VarCmp function [Automation], _oa96_VarCmp, automat.varcmp, oleauto/VarCmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ldt_entry_str.htm
 tech.root: debug
 ms.assetid: e4c470ee-63e5-4a00-8c69-76cadd490439
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: "*PLDT_ENTRY, LDT_ENTRY, LDT_ENTRY structure, PLDT_ENTRY, PLDT_ENTRY structure pointer, _LDT_ENTRY, _win32_ldt_entry_str, base.ldt_entry_str, winnt/LDT_ENTRY, winnt/PLDT_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

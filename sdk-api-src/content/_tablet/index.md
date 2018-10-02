@@ -2,7 +2,7 @@
 UID: TP:tablet
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,7 +18,6 @@ Overview of the Tablet PC technology.
 To develop Tablet PC, you need these headers:
 
  * [inked.h](../inked/index.md)
- * [inkrenderer.h](../inkrenderer/index.md)
  * [micaut.h](../micaut/index.md)
  * [msinkaut.h](../msinkaut/index.md)
  * [msinkaut15.h](../msinkaut15/index.md)

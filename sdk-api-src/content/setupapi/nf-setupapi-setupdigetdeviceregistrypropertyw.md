@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceregistryproperty.htm
 tech.root: devinst
 ms.assetid: d42269dc-57b5-4303-94d9-02f6ee16a96f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiGetDeviceRegistryProperty, SetupDiGetDeviceRegistryProperty function [Device and Driver Installation], SetupDiGetDeviceRegistryPropertyA, SetupDiGetDeviceRegistryPropertyW, devinst.setupdigetdeviceregistryproperty, di-rtns_a60fa017-1c15-45bf-a178-37516bc0aea1.xml, setupapi/SetupDiGetDeviceRegistryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

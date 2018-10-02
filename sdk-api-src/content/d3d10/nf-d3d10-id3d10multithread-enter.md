@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10multithread_enter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread_enter.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: Enter, Enter method [Direct3D 10], Enter method [Direct3D 10],ID3D10Multithread interface, ID3D10Multithread interface [Direct3D 10],Enter method, ID3D10Multithread.Enter, ID3D10Multithread::Enter, d34de96c-b476-19e4-cf57-4e43604474ab, d3d10/ID3D10Multithread::Enter, direct3d10.id3d10multithread_enter
 ms.prod: windows-hardware
 ms.technology: windows-devices

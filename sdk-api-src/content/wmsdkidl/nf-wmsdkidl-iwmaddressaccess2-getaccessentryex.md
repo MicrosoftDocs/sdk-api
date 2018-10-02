@@ -7,7 +7,7 @@ old-location: wmformat\iwmaddressaccess2_getaccessentryex.htm
 tech.root: wmformat
 ms.assetid: 477e6b28-bfa0-4ce9-b2e0-eb51eaba6476
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetAccessEntryEx, GetAccessEntryEx method [windows Media Format], GetAccessEntryEx method [windows Media Format],IWMAddressAccess2 interface, IWMAddressAccess2 interface [windows Media Format],GetAccessEntryEx method, IWMAddressAccess2.GetAccessEntryEx, IWMAddressAccess2::GetAccessEntryEx, IWMAddressAccess2GetAccessEntryEx, wmformat.iwmaddressaccess2_getaccessentryex, wmsdkidl/IWMAddressAccess2::GetAccessEntryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

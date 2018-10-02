@@ -4,10 +4,10 @@ title: PDD_SURFCB_DESTROYSURFACE
 author: windows-sdk-content
 description: The DdDestroySurface callback function destroys a DirectDraw surface.
 old-location: display\dddestroysurface.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 90060863-02ef-49bf-820d-b3adffbc8f40
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DdDestroySurface, DdDestroySurface callback function [Display Devices], PDD_SURFCB_DESTROYSURFACE, PDD_SURFCB_DESTROYSURFACE callback, ddfncs_f6029f7a-5729-42d3-8ff6-f5e27994b133.xml, ddrawint/DdDestroySurface, display.dddestroysurface
 ms.prod: windows
 ms.technology: windows-sdk

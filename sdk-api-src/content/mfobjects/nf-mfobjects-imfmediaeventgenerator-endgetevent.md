@@ -4,10 +4,10 @@ title: IMFMediaEventGenerator::EndGetEvent
 author: windows-sdk-content
 description: Completes an asynchronous request for the next event in the queue.
 old-location: mf\imfmediaeventgenerator_endgetevent.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6b38e984-d818-4f69-af28-8b54153faebb
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 6b38e984-d818-4f69-af28-8b54153faebb, EndGetEvent, EndGetEvent method [Media Foundation], EndGetEvent method [Media Foundation],IMFMediaEventGenerator interface, IMFMediaEventGenerator interface [Media Foundation],EndGetEvent method, IMFMediaEventGenerator.EndGetEvent, IMFMediaEventGenerator::EndGetEvent, mf.imfmediaeventgenerator_endgetevent, mfobjects/IMFMediaEventGenerator::EndGetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_buffer_srv.htm
 tech.root: direct3d12
 ms.assetid: FD5FBA65-4C70-487F-8D93-0EC5668BCE4A
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_BUFFER_SRV, D3D12_BUFFER_SRV structure, d3d12/D3D12_BUFFER_SRV, direct3d12.d3d12_buffer_srv
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symgetsymfromaddr64.htm
 tech.root: debug
 ms.assetid: c4882a3b-7773-4ab0-ad83-bdde512b5fb4
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: SymGetSymFromAddr, SymGetSymFromAddr function, SymGetSymFromAddr64, SymGetSymFromAddr64 function, _win32_symgetsymfromaddr64, base.symgetsymfromaddr64, dbghelp/SymGetSymFromAddr, dbghelp/SymGetSymFromAddr64
 ms.prod: windows-hardware
 ms.technology: windows-devices

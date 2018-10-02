@@ -4,10 +4,10 @@ title: IFileSystemBindData
 author: windows-sdk-content
 description: Exposes methods that store file system information for optimizing calls to IShellFolder::ParseDisplayName.
 old-location: shell\IFileSystemBindData.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: f5099bb3-21a7-4708-ac48-d32a14646614
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileSystemBindData, IFileSystemBindData interface [Windows Shell], IFileSystemBindData interface [Windows Shell],described, _shell_ifilesystembinddata, shell.IFileSystemBindData, shobjidl_core/IFileSystemBindData
 ms.prod: windows
 ms.technology: windows-sdk

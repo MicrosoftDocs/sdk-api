@@ -4,10 +4,10 @@ title: GetMulticastIpAddressTable function
 author: windows-sdk-content
 description: Retrieves the multicast IP address table on the local computer.
 old-location: iphlp\getmulticastipaddresstable.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 0958e92e-12ed-42e0-aa04-b8c4544f6642
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetMulticastIpAddressTable, GetMulticastIpAddressTable function [IP Helper], iphlp.getmulticastipaddresstable, netioapi/GetMulticastIpAddressTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

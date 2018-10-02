@@ -4,10 +4,10 @@ title: LeaveCriticalSectionWhenCallbackReturns function
 author: windows-sdk-content
 description: Specifies the critical section that the thread pool will release when the current callback completes.
 old-location: base\leavecriticalsectionwhencallbackreturns.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 43ce27ee-207c-4317-9771-d82f1f4edda2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: LeaveCriticalSectionWhenCallbackReturns, LeaveCriticalSectionWhenCallbackReturns function, base.leavecriticalsectionwhencallbackreturns, threadpoolapiset/LeaveCriticalSectionWhenCallbackReturns, winbase/LeaveCriticalSectionWhenCallbackReturns
 ms.prod: windows-hardware
 ms.technology: windows-devices

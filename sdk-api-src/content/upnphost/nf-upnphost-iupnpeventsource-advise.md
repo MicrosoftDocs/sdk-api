@@ -7,7 +7,7 @@ old-location: upnp\iupnpeventsource_advise.htm
 tech.root: UPnP
 ms.assetid: ec68f4ff-7549-4d48-b347-0320bc55329c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPEventSource interface, IUPnPEventSource interface [UPnP APIs],Advise method, IUPnPEventSource.Advise, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

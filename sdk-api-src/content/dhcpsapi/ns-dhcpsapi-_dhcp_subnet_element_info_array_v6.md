@@ -4,10 +4,10 @@ title: "_DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6"
 author: windows-sdk-content
 description: Contains data that defines an array of DHCP_SUBNET_ELEMENT_DATA_V6 IPv6 prefix elements.
 old-location: dhcp\dhcp_subnet_element_info_array_v6.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 02e7e633-173d-46ab-b657-4763d367f325
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, dhcp.dhcp_subnet_element_info_array_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6"
 ms.prod: windows
 ms.technology: windows-sdk

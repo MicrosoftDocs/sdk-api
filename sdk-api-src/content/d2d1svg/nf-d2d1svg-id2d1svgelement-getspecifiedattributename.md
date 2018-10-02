@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_getspecifiedattributename.htm
 tech.root: direct2d
 ms.assetid: 08419C4C-4EED-406F-884C-84532C6AF1CC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: GetSpecifiedAttributeName, GetSpecifiedAttributeName method [Direct2D], GetSpecifiedAttributeName method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetSpecifiedAttributeName method, ID2D1SvgElement.GetSpecifiedAttributeName, ID2D1SvgElement::GetSpecifiedAttributeName, d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeName, direct2d.id2d1svgelement_getspecifiedattributename
 ms.prod: windows-hardware
 ms.technology: windows-devices

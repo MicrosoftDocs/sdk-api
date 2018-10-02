@@ -4,10 +4,10 @@ title: CreateClusterGroup function
 author: windows-sdk-content
 description: Adds a group to a cluster and returns a handle to the newly added group.
 old-location: mscs\createclustergroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7011640e-87d0-4f2b-971c-9e86c77db13e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateClusterGroup, CreateClusterGroup function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP, PCLUSAPI_CREATE_CLUSTER_GROUP function [Failover Cluster], _wolf_createclustergroup, clusapi/CreateClusterGroup, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP, mscs.createclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

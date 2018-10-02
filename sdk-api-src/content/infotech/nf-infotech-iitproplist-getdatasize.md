@@ -7,7 +7,7 @@ old-location: htmlhelp\iitproplist_getdatasize.htm
 tech.root: htmlhelp
 ms.assetid: 83d9fa7b-d814-4293-93b9-9454c01c1503
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: GetDataSize, GetDataSize method [HTML Help Workshop], GetDataSize method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetDataSize method, IITPropList.GetDataSize, IITPropList::GetDataSize, htmlhelp.iitproplist_getdatasize, infotech/IITPropList::GetDataSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

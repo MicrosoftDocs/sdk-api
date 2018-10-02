@@ -4,10 +4,10 @@ title: IPMT::GetRecordDescriptorByTag
 author: windows-sdk-content
 description: The GetRecordDescriptorByTag method searches a record in the PMT for a descriptor with a specified descriptor tag.
 old-location: mstv\ipmt_getrecorddescriptorbytag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 7ed3dd22-331a-419a-ab30-5645e259e36a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IPMT.GetRecordDescriptorByTag, IPMT::GetRecordDescriptorByTag, IPMTGetRecordDescriptorByTag, mpeg2psiparser/IPMT::GetRecordDescriptorByTag, mstv.ipmt_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\enrollmentpolicyflags.htm
 tech.root: SecCertEnroll
 ms.assetid: 07f80422-6856-4371-946f-88efdd9c765a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: DisableGroupPolicyList, DisableUserServerList, EnrollmentPolicyFlags, EnrollmentPolicyFlags enumeration [Security], certenroll/DisableGroupPolicyList, certenroll/DisableUserServerList, certenroll/EnrollmentPolicyFlags, security.enrollmentpolicyflags
 ms.prod: windows
 ms.technology: windows-sdk

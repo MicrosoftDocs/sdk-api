@@ -7,7 +7,7 @@ old-location: snmp\snmpvarbind_str.htm
 tech.root: SNMP
 ms.assetid: 40f9930d-93d1-45eb-aa3a-499947004fcf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SnmpVarBind, SnmpVarBind structure [SNMP], _snmp_snmpvarbind_str, snmp.snmpvarbind_str, snmp/SnmpVarBind
 ms.prod: windows
 ms.technology: windows-sdk

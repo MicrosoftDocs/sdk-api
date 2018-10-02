@@ -7,7 +7,7 @@ old-location: taskschd\itasksettings_enabled.htm
 tech.root: TaskSchd
 ms.assetid: 6c6e7f51-9591-4b84-b06b-124cd88a0345
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Enabled property, ITaskSettings.Enabled, ITaskSettings.get_Enabled, ITaskSettings::Enabled, ITaskSettings::get_Enabled, get_Enabled, taskschd.itasksettings_enabled, taskschd/ITaskSettings::Enabled, taskschd/ITaskSettings::get_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

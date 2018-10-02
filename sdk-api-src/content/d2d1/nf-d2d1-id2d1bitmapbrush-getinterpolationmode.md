@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1BitmapBrush_GetInterpolationMode.htm
 tech.root: direct2d
 ms.assetid: b0bc487b-3259-4f25-b4ab-7468ccf96d98
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: GetInterpolationMode, GetInterpolationMode method [Direct2D], GetInterpolationMode method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetInterpolationMode method, ID2D1BitmapBrush.GetInterpolationMode, ID2D1BitmapBrush::GetInterpolationMode, d2d1/ID2D1BitmapBrush::GetInterpolationMode, direct2d.ID2D1BitmapBrush_GetInterpolationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

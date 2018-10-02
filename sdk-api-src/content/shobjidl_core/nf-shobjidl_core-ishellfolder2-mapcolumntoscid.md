@@ -4,10 +4,10 @@ title: IShellFolder2::MapColumnToSCID
 author: windows-sdk-content
 description: Converts a column to the appropriate property set ID (FMTID) and property ID (PID).
 old-location: shell\IShellFolder2_MapColumnToSCID.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4bd1f9a1-379b-4488-87d3-c7c7dc47c4d1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolder2 interface [Windows Shell],MapColumnToSCID method, IShellFolder2.MapColumnToSCID, IShellFolder2::MapColumnToSCID, MapColumnToSCID, MapColumnToSCID method [Windows Shell], MapColumnToSCID method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder2_MapColumnToSCID, shell.IShellFolder2_MapColumnToSCID, shobjidl_core/IShellFolder2::MapColumnToSCID
 ms.prod: windows-hardware
 ms.technology: windows-devices

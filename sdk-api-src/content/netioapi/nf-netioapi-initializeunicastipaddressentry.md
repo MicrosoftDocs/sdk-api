@@ -4,10 +4,10 @@ title: InitializeUnicastIpAddressEntry function
 author: windows-sdk-content
 description: Initializes a MIB_UNICASTIPADDRESS_ROW structure with default values for a unicast IP address entry on the local computer.
 old-location: iphlp\initializeunicastipaddressentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 8cbdd972-060a-4e18-9490-450df21936ea
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: InitializeUnicastIpAddressEntry, InitializeUnicastIpAddressEntry function [IP Helper], iphlp.initializeunicastipaddressentry, netioapi/InitializeUnicastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

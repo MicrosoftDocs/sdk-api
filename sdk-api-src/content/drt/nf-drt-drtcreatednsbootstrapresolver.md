@@ -4,10 +4,10 @@ title: DrtCreateDnsBootstrapResolver function
 author: windows-sdk-content
 description: The DrtCreateDnsBootstrapResolver function creates a bootstrap resolver that will use the GetAddrInfo system function to resolve the hostname of a will known node already present in the DRT mesh.
 old-location: p2p\drtcreatednsbootstrapresolver.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: d4a92dd3-d66a-4c27-9180-f9c148735a4a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DrtCreateDnsBootstrapResolver, DrtCreateDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtCreateDnsBootstrapResolver, p2p.drtcreatednsbootstrapresolver
 ms.prod: windows-hardware
 ms.technology: windows-devices

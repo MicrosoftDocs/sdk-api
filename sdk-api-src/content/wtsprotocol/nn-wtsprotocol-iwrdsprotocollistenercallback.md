@@ -4,10 +4,10 @@ title: IWRdsProtocolListenerCallback
 author: windows-sdk-content
 description: Exposes methods that notify the Remote Desktop Services service that a client has connected.
 old-location: termserv\iwrdsprotocollistenercallback.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 33f583a4-8311-4db1-9646-bed1cd06e479
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IWRdsProtocolListenerCallback, IWRdsProtocolListenerCallback interface [Remote Desktop Services], IWRdsProtocolListenerCallback interface [Remote Desktop Services],described, termserv.iwrdsprotocollistenercallback, wtsprotocol/IWRdsProtocolListenerCallback
 ms.prod: windows
 ms.technology: windows-sdk

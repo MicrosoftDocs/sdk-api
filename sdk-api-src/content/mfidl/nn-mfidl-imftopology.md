@@ -4,10 +4,10 @@ title: IMFTopology
 author: windows-sdk-content
 description: Represents a topology. A topology describes a collection of media sources, sinks, and transforms that are connected in a certain order.
 old-location: mf\imftopology.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f293e9ee-9bd2-4b3e-a4ff-53457ee910f6
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFTopology, IMFTopology interface [Media Foundation], IMFTopology interface [Media Foundation],described, f293e9ee-9bd2-4b3e-a4ff-53457ee910f6, mf.imftopology, mfidl/IMFTopology
 ms.prod: windows
 ms.technology: windows-sdk

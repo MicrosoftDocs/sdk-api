@@ -4,10 +4,10 @@ title: IMFSeekInfo::GetNearestKeyFrames
 author: windows-sdk-content
 description: For a particular seek position, gets the two nearest key frames.
 old-location: mf\imfseekinfo_getnearestkeyframes.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 72A7161A-09CA-4582-B240-1442D70936D7
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetNearestKeyFrames, GetNearestKeyFrames method [Media Foundation], GetNearestKeyFrames method [Media Foundation],IMFSeekInfo interface, IMFSeekInfo interface [Media Foundation],GetNearestKeyFrames method, IMFSeekInfo.GetNearestKeyFrames, IMFSeekInfo::GetNearestKeyFrames, mf.imfseekinfo_getnearestkeyframes, mfidl/IMFSeekInfo::GetNearestKeyFrames
 ms.prod: windows-hardware
 ms.technology: windows-devices

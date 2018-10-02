@@ -4,10 +4,10 @@ title: CreateSortedAddressPairs function
 author: windows-sdk-content
 description: Takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address pair is best suited for communication between the two peers.
 old-location: iphlp\createsortedaddresspairs.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: cdc90d63-15a4-4278-afc3-dbf9ad6ba698
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: CreateSortedAddressPairs, CreateSortedAddressPairs function [IP Helper], iphlp.createsortedaddresspairs, netioapi/CreateSortedAddressPairs
 ms.prod: windows-hardware
 ms.technology: windows-devices

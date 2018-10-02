@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions.htm
 tech.root: imapi
 ms.assetid: 446b535c-d576-4f96-8b74-305e34cb99d4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBootOptions, IBootOptions interface [IMAPI], IBootOptions interface [IMAPI],described, imapi.ibootoptions, imapi2fs/IBootOptions
 ms.prod: windows
 ms.technology: windows-sdk

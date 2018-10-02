@@ -7,7 +7,7 @@ old-location: wsw\ws_string_username_credential.htm
 tech.root: wsw
 ms.assetid: 3dea7172-56ac-4209-9016-dc48be5b02e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_STRING_USERNAME_CREDENTIAL, WS_STRING_USERNAME_CREDENTIAL structure [Web Services for Windows], _WS_STRING_USERNAME_CREDENTIAL, webservices/WS_STRING_USERNAME_CREDENTIAL, wsw.ws_string_username_credential
 ms.prod: windows
 ms.technology: windows-sdk

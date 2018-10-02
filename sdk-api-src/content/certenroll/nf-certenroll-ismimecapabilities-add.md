@@ -7,7 +7,7 @@ old-location: security\ismimecapabilities_add_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 8ad35758-0dc1-4887-aea7-b8ead537cab2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Add method, ISmimeCapabilities.Add, ISmimeCapabilities::Add, certenroll/ISmimeCapabilities::Add, security.ismimecapabilities_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

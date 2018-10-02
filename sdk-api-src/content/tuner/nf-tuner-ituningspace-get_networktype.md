@@ -4,10 +4,10 @@ title: ITuningSpace::get_NetworkType
 author: windows-sdk-content
 description: The get_NetworkType method retrieves the network type of the tuning space as a BSTR.
 old-location: mstv\ituningspace_get_networktype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f264b6b3-98ae-44bc-8922-ab35c3b7a0d1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_NetworkType method, ITuningSpace.get_NetworkType, ITuningSpace::get_NetworkType, ITuningSpaceget_NetworkType, get_NetworkType, get_NetworkType method [Microsoft TV Technologies], get_NetworkType method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_networktype, tuner/ITuningSpace::get_NetworkType
 ms.prod: windows-hardware
 ms.technology: windows-devices

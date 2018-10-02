@@ -4,10 +4,10 @@ title: IBDA_Topology::CreatePin
 author: windows-sdk-content
 description: The CreatePin method creates an instance of a specified pin type.
 old-location: mstv\ibda_topology_createpin.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ced0f8a8-7a34-4357-8795-491e60a22e91
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreatePin, CreatePin method [Microsoft TV Technologies], CreatePin method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],CreatePin method, IBDA_Topology.CreatePin, IBDA_Topology::CreatePin, IBDA_TopologyCreatePin, bdaiface/IBDA_Topology::CreatePin, mstv.ibda_topology_createpin
 ms.prod: windows-hardware
 ms.technology: windows-devices

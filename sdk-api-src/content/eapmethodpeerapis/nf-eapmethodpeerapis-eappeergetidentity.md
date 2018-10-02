@@ -4,10 +4,10 @@ title: EapPeerGetIdentity function
 author: windows-sdk-content
 description: Returns the user data and user identity after being called by EAPHost.
 old-location: eaphost\eappeergetidentity.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 24ae093f-5ddf-4b09-934f-d0e945335cde
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EapPeerGetIdentity, EapPeerGetIdentity function [EAPHost], eaphost.eappeergetidentity, eapmethodpeerapis/EapPeerGetIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

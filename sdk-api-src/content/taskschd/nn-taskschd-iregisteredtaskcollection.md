@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtaskcollection.htm
 tech.root: TaskSchd
 ms.assetid: 97403825-5762-477c-9695-3775bb5bc9e4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRegisteredTaskCollection, IRegisteredTaskCollection interface [Task Scheduler], IRegisteredTaskCollection interface [Task Scheduler],described, taskschd.iregisteredtaskcollection, taskschd/IRegisteredTaskCollection
 ms.prod: windows
 ms.technology: windows-sdk

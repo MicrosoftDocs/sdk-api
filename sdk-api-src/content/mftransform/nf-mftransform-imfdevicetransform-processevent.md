@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_processevent.htm
 tech.root: stream
 ms.assetid: 6E8B208C-A492-41C8-9A86-34B11375053B
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessEvent method, IMFDeviceTransform.ProcessEvent, IMFDeviceTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Streaming Media Devices], ProcessEvent method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessEvent, stream.imfdevicetransform_processevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

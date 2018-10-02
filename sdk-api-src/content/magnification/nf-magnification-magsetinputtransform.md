@@ -7,7 +7,7 @@ old-location: magapi\magapi_magsetinputtransform.htm
 tech.root: magapi
 ms.assetid: B42B59DB-9E21-4769-B605-014173514AEB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: MagSetInputTransform, MagSetInputTransform function [Magnification API], magapi.magapi_magsetinputtransform, magnification/MagSetInputTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

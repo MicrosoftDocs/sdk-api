@@ -4,10 +4,10 @@ title: IPBDA_Services::GetRecordByIndex
 author: windows-sdk-content
 description: Gets a service record at a given position from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_getrecordbyindex.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1f9a71a4-3cfd-4a08-929f-e17d506a021b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordByIndex, GetRecordByIndex method [Microsoft TV Technologies], GetRecordByIndex method [Microsoft TV Technologies],IPBDA_Services interface, IPBDA_Services interface [Microsoft TV Technologies],GetRecordByIndex method, IPBDA_Services.GetRecordByIndex, IPBDA_Services::GetRecordByIndex, dvbsiparser/IPBDA_Services::GetRecordByIndex, mstv.ipbda_services_getrecordbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\setupdiaskforoemdisk.htm
 tech.root: devinst
 ms.assetid: 5be03143-3de0-43ed-a027-832f1e275527
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: SetupDiAskForOEMDisk, SetupDiAskForOEMDisk function [Device and Driver Installation], devinst.setupdiaskforoemdisk, di-rtns_4b903984-cb48-48d3-9de8-dc68a79128c2.xml, setupapi/SetupDiAskForOEMDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

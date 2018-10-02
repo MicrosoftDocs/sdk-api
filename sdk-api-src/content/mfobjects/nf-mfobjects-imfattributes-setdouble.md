@@ -4,10 +4,10 @@ title: IMFAttributes::SetDouble
 author: windows-sdk-content
 description: Associates a double value with a key.
 old-location: mf\imfattributes_setdouble.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: bb58f35e-0fca-4b19-9976-de2140e6ebc0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetDouble method, IMFAttributes.SetDouble, IMFAttributes::SetDouble, SetDouble, SetDouble method [Media Foundation], SetDouble method [Media Foundation],IMFAttributes interface, bb58f35e-0fca-4b19-9976-de2140e6ebc0, mf.imfattributes_setdouble, mfobjects/IMFAttributes::SetDouble
 ms.prod: windows-hardware
 ms.technology: windows-devices

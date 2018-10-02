@@ -4,10 +4,10 @@ title: WlanFreeMemory function
 author: windows-sdk-content
 description: Frees memory.
 old-location: nwifi\wlanfreememory.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 241afb9d-8b16-4d76-b311-302b5492853e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanFreeMemory, WlanFreeMemory function [NativeWIFI], nwifi.wlanfreememory, wlanapi/WlanFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

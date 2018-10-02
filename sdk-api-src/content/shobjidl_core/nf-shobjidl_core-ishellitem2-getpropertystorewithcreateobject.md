@@ -4,10 +4,10 @@ title: IShellItem2::GetPropertyStoreWithCreateObject
 author: windows-sdk-content
 description: Uses the specified ICreateObject instead of CoCreateInstance to create an instance of the property handler associated with the Shell item on which this method is called.
 old-location: shell\IShellItem2_GetPropertyStoreWithCreateObject.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6a90ea62-e4d7-4876-802a-9c1f6c296714
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetPropertyStoreWithCreateObject, GetPropertyStoreWithCreateObject method [Windows Shell], GetPropertyStoreWithCreateObject method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStoreWithCreateObject method, IShellItem2.GetPropertyStoreWithCreateObject, IShellItem2::GetPropertyStoreWithCreateObject, _shell_IShellItem2_GetPropertyStoreWithCreateObject, shell.IShellItem2_GetPropertyStoreWithCreateObject, shobjidl_core/IShellItem2::GetPropertyStoreWithCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

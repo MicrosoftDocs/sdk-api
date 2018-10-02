@@ -4,10 +4,10 @@ title: IExpDispSupport::FindConnectionPoint
 author: windows-sdk-content
 description: Deprecated. Gets connection points for browser events.
 old-location: shell\IExpDispSupport_FindCIE4ConnectionPoint.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ef8d4e8c-7f85-4920-b149-1bf277d3fd5e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DIID_DWebBrowserEvents, DIID_DWebBrowserEvents2, FindConnectionPoint, FindConnectionPoint method [Windows Shell], FindConnectionPoint method [Windows Shell],IExpDispSupport interface, IExpDispSupport interface [Windows Shell],FindConnectionPoint method, IExpDispSupport.FindConnectionPoint, IExpDispSupport::FindConnectionPoint, IID_IPropertyNotifySink, shdeprecated/IExpDispSupport::FindConnectionPoint, shell.IExpDispSupport_FindCIE4ConnectionPoint, zone_IExpDispSupport_FindCIE4ConnectionPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

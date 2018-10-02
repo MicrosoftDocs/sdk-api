@@ -4,10 +4,10 @@ title: IEnumDirectoryObject::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_skip.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: e14e71f1-5151-4562-bfbf-1370f65cb23a
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Skip method, IEnumDirectoryObject.Skip, IEnumDirectoryObject::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_skip, rend/IEnumDirectoryObject::Skip, tapi3.ienumdirectoryobject_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

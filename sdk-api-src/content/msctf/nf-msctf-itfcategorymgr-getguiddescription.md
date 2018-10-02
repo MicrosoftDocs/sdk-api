@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_getguiddescription.htm
 tech.root: TSF
 ms.assetid: e0c4f64e-7e20-4dff-b597-acc280aebf32
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetGUIDDescription, GetGUIDDescription method [Text Services Framework], GetGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDescription method, ITfCategoryMgr.GetGUIDDescription, ITfCategoryMgr::GetGUIDDescription, _tsf_itfcategorymgr_getguiddescription_ref, msctf/ITfCategoryMgr::GetGUIDDescription, tsf.itfcategorymgr_getguiddescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

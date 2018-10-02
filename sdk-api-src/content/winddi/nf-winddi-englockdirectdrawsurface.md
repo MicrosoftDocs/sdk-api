@@ -4,10 +4,10 @@ title: EngLockDirectDrawSurface function
 author: windows-sdk-content
 description: The EngLockDirectDrawSurface function locks the kernel-mode handle of a DirectDraw surface.
 old-location: display\englockdirectdrawsurface.htm
-tech.root: display
+tech.root: Display
 ms.assetid: be43afe9-97c9-4ae4-b18c-3312ae757798
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngLockDirectDrawSurface, EngLockDirectDrawSurface function [Display Devices], display.englockdirectdrawsurface, gdifncs_f0027001-42bd-4f64-b5c0-c7ec3768f72c.xml, winddi/EngLockDirectDrawSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

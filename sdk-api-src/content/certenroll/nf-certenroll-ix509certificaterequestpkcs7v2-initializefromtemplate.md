@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7v2_initializefromtemplate.htm
 tech.root: SecCertEnroll
 ms.assetid: 9b8f862e-47a4-47c7-8864-2654640129f3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs7V2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestPkcs7V2.InitializeFromTemplate, IX509CertificateRequestPkcs7V2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestPkcs7V2 interface, certenroll/IX509CertificateRequestPkcs7V2::InitializeFromTemplate, security.ix509certificaterequestpkcs7v2_initializefromtemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

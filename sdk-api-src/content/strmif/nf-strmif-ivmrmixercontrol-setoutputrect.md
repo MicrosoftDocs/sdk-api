@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_setoutputrect.htm
 tech.root: DirectShow
 ms.assetid: e7e1689c-03b4-457e-8d4c-6d59a70c42af
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetOutputRect method, IVMRMixerControl.SetOutputRect, IVMRMixerControl::SetOutputRect, IVMRMixerControlSetMixingPrefs, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setoutputrect, strmif/IVMRMixerControl::SetOutputRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

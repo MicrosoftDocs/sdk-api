@@ -7,7 +7,7 @@ old-location: intl\getuserdefaultlangid.htm
 tech.root: Intl
 ms.assetid: b1f25fc1-9435-4e9b-b8d0-a670a198ab3a
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/28/2018
 ms.keywords: GetUserDefaultLangID, GetUserDefaultLangID function [Internationalization for Windows Applications], _win32_GetUserDefaultLangID, intl.getuserdefaultlangid, winnls/GetUserDefaultLangID
 ms.prod: windows-hardware
 ms.technology: windows-devices

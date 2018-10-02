@@ -4,10 +4,10 @@ title: DhcpV4AddPolicyRange function
 author: windows-sdk-content
 description: Adds an IP address range to a policy.
 old-location: dhcp\dhcpv4addpolicyrange.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 43ec0634-6a4b-4d70-98d1-410b33a7cb17
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpV4AddPolicyRange, DhcpV4AddPolicyRange function [DHCP], dhcp.dhcpv4addpolicyrange, dhcpsapi/DhcpV4AddPolicyRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFsrmActionEventLog
 author: windows-sdk-content
 description: Used to log an event to the Windows Application event log in response to a quota, file screen, or file management job event.
 old-location: fsrm\ifsrmactioneventlog.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 418cd7aa-c363-4ab7-9c7e-2d0388483a8f
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmActionEventLog, IFsrmActionEventLog interface [File Server Resource Manager], IFsrmActionEventLog interface [File Server Resource Manager],described, fs.ifsrmactioneventlog, fsrm.ifsrmactioneventlog, fsrm/IFsrmActionEventLog
 ms.prod: windows
 ms.technology: windows-sdk

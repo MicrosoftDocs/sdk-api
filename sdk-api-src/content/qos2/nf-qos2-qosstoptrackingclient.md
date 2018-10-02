@@ -7,7 +7,7 @@ old-location: qos\qosstoptrackingclient.htm
 tech.root: QOS
 ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

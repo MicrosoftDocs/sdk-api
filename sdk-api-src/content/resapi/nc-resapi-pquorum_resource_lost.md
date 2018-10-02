@@ -4,10 +4,10 @@ title: PQUORUM_RESOURCE_LOST
 author: windows-sdk-content
 description: Called when control of the quorum resource has been lost.
 old-location: mscs\quorumresourcelost.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 353eaf47-f93e-4243-8bed-7b6f07513a3c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PQUORUM_RESOURCE_LOST, PQUORUM_RESOURCE_LOST callback function [Failover Cluster], QuorumResourceLost, QuorumResourceLost callback, QuorumResourceLost callback function [Failover Cluster], _wolf_quorumresourcelost, mscs.quorumresourcelost, resapi/PQUORUM_RESOURCE_LOST, resapi/QuorumResourceLost
 ms.prod: windows
 ms.technology: windows-sdk

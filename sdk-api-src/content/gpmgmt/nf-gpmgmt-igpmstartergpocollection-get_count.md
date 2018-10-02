@@ -7,7 +7,7 @@ old-location: gpmc\igpmstartergpocollection_get_count.htm
 tech.root: GPMC
 ms.assetid: a9c60be1-98e7-4dc6-a208-40be1b456a00
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],IGPMStarterGPOCollection interface, IGPMStarterGPOCollection interface [GPMC],Count property, IGPMStarterGPOCollection.Count, IGPMStarterGPOCollection.get_Count, IGPMStarterGPOCollection::Count, IGPMStarterGPOCollection::get_Count, get_Count, gpmc.igpmstartergpocollection_get_count, gpmgmt/IGPMStarterGPOCollection::Count, gpmgmt/IGPMStarterGPOCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iadvisesink.htm
 tech.root: com
 ms.assetid: bc9f217a-75bd-4155-9d00-df44b00cf0e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IAdviseSink, IAdviseSink interface [COM], IAdviseSink interface [COM],described, _ole_iadvisesink, com.iadvisesink, objidl/IAdviseSink
 ms.prod: windows
 ms.technology: windows-sdk

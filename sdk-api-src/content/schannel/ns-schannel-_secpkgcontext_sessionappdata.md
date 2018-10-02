@@ -4,10 +4,10 @@ title: "_SecPkgContext_SessionAppData"
 author: windows-sdk-content
 description: Stores application data for a session context.
 old-location: security\secpkgcontext_sessionappdata.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 7bda791a-dd60-4651-bfe8-13333017d6a3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], _SecPkgContext_SessionAppData, schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata"
 ms.prod: windows
 ms.technology: windows-sdk

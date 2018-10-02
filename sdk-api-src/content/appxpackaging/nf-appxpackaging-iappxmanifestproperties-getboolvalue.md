@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestproperties_getboolvalue.htm
 tech.root: appxpkg
 ms.assetid: 228FD28A-E65E-484B-81EF-83CC993F05D6
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: GetBoolValue, GetBoolValue method [App packaging and management], GetBoolValue method [App packaging and management],IAppxManifestProperties interface, IAppxManifestProperties interface [App packaging and management],GetBoolValue method, IAppxManifestProperties.GetBoolValue, IAppxManifestProperties::GetBoolValue, appxpackaging/IAppxManifestProperties::GetBoolValue, appxpkg.iappxmanifestproperties_getboolvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

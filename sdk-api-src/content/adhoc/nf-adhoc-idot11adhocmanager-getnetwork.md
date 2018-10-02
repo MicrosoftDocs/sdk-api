@@ -4,10 +4,10 @@ title: IDot11AdHocManager::GetNetwork
 author: windows-sdk-content
 description: Returns the network associated with a signature.
 old-location: nwifi\idot11adhocmanager_getnetwork.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 971703dc-1a3c-4c9a-a9e2-c547c96beacd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetNetwork, GetNetwork method [NativeWIFI], GetNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetNetwork method, IDot11AdHocManager.GetNetwork, IDot11AdHocManager::GetNetwork, adhoc/IDot11AdHocManager::GetNetwork, nwifi.idot11adhocmanager_getnetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices

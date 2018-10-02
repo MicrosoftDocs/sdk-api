@@ -4,10 +4,10 @@ title: GetUdpStatisticsEx function
 author: windows-sdk-content
 description: The GetUdpStatisticsEx function retrieves the User Datagram Protocol (UDP) statistics for the current computer.
 old-location: iphlp\getudpstatisticsex.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 9de7fa95-6bda-4fcc-b563-aed2e61fc1c7
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx, GetUdpStatisticsEx function [IP Helper], _iphlp_getudpstatisticsex, iphlp.getudpstatisticsex, iphlpapi/GetUdpStatisticsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

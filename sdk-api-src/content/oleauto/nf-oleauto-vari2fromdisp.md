@@ -7,7 +7,7 @@ old-location: automat\vari2fromdisp.htm
 tech.root: automat
 ms.assetid: 37c3084d-828a-42b4-92c3-d4c89336cac7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: VarI2FromDisp, VarI2FromDisp function [Automation], _oa96_VarI2FromDisp, automat.vari2fromdisp, oleauto/VarI2FromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices

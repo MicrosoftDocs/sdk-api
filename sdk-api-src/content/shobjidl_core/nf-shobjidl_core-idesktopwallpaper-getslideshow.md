@@ -4,10 +4,10 @@ title: IDesktopWallpaper::GetSlideshow
 author: windows-sdk-content
 description: Gets the images that are being displayed in the desktop wallpaper slideshow.
 old-location: shell\IDesktopWallpaper_GetSlideshow.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: A5660D7F-C42A-4587-B319-B47441CD37AB
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetSlideshow, GetSlideshow method [Windows Shell], GetSlideshow method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetSlideshow method, IDesktopWallpaper.GetSlideshow, IDesktopWallpaper::GetSlideshow, shell.IDesktopWallpaper_GetSlideshow, shobjidl_core/IDesktopWallpaper::GetSlideshow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_barrier.htm
 tech.root: direct3d12
 ms.assetid: 49F02D65-767E-4BA4-A90D-68AA2D709E09
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_RESOURCE_BARRIER, D3D12_RESOURCE_BARRIER structure, d3d12/D3D12_RESOURCE_BARRIER, direct3d12.d3d12_resource_barrier
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter2_getdesc2.htm
 tech.root: direct3ddxgi
 ms.assetid: DC1A054D-4092-4865-A6EF-B936891AA470
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetDesc2, GetDesc2 method [DXGI], GetDesc2 method [DXGI],IDXGIAdapter2 interface, IDXGIAdapter2 interface [DXGI],GetDesc2 method, IDXGIAdapter2.GetDesc2, IDXGIAdapter2::GetDesc2, direct3ddxgi.idxgiadapter2_getdesc2, dxgi1_2/IDXGIAdapter2::GetDesc2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\varr4fromstr.htm
 tech.root: automat
 ms.assetid: ac90e093-3d18-4f3b-94bb-59ac111eadce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarR4FromStr, VarR4FromStr function [Automation], _oa96_VarR4FromStr, automat.varr4fromstr, oleauto/VarR4FromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

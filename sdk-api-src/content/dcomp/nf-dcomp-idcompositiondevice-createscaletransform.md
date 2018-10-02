@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createscaletransform.htm
 tech.root: directcomp
 ms.assetid: b11673dd-87c1-43c9-8501-affa1fa64c08
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: CreateScaleTransform, CreateScaleTransform method [DirectComposition], CreateScaleTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateScaleTransform method, IDCompositionDevice.CreateScaleTransform, IDCompositionDevice::CreateScaleTransform, dcomp/IDCompositionDevice::CreateScaleTransform, directcomp.idcompositiondevice_createscaletransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

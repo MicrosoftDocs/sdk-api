@@ -4,10 +4,10 @@ title: IShellFolderViewDual3
 author: windows-sdk-content
 description: Exposes methods that modify the current folder view.
 old-location: shell\IShellFolderViewDual3.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1aa70db8-4225-49de-8b8f-ec86b1aafa22
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], IShellFolderViewDual3 interface [Windows Shell],described, _shell_IShellFolderViewDual3, shell.IShellFolderViewDual3, shldisp/IShellFolderViewDual3
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: INetwork
 author: windows-sdk-content
 description: The INetwork interface represents a network on the local machine. It can also represent a collection of network connections with a similar network signature.
 old-location: nla\inetwork.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 6d483058-f7c4-4a6c-a1a8-816c2fab9994
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: INetwork, INetwork interface [Network Awareness], INetwork interface [Network Awareness],described, netlistmgr/INetwork, nla.inetwork
 ms.prod: windows
 ms.technology: windows-sdk

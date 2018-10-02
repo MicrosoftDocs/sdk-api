@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::GetProtocolStatus
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetProtocolStatus is no longer available. Instead, use IWRdsProtocolConnection::GetProtocolStatus.
 old-location: termserv\iwtsprotocolconnection_getprotocolstatus.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d224877a-649a-4ac2-a5e7-831592e6a0d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetProtocolStatus, GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetProtocolStatus method, IWTSProtocolConnection.GetProtocolStatus, IWTSProtocolConnection::GetProtocolStatus, termserv.iwtsprotocolconnection_getprotocolstatus, wtsprotocol/IWTSProtocolConnection::GetProtocolStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

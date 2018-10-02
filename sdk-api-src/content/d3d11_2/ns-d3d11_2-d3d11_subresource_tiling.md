@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_subresource_tiling.htm
 tech.root: direct3d11
 ms.assetid: 679E4AD1-3AC8-4055-9D38-37776E2D17BE
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_SUBRESOURCE_TILING, D3D11_SUBRESOURCE_TILING structure [Direct3D 11], d3d11_2/D3D11_SUBRESOURCE_TILING, direct3d11.d3d11_subresource_tiling
 ms.prod: windows
 ms.technology: windows-sdk

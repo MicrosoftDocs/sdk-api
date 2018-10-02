@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverenum.htm
 tech.root: Multimedia
 ms.assetid: 3e93284d-2810-4c8e-9619-1989d8bf788e
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_acmDriverEnum, acmDriverEnum, acmDriverEnum function [Windows Multimedia], msacm/acmDriverEnum, multimedia.acmdriverenum"
 ms.prod: windows-hardware
 ms.technology: windows-devices

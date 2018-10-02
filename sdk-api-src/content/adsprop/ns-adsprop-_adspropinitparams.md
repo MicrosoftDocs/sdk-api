@@ -4,10 +4,10 @@ title: "_ADSPROPINITPARAMS"
 author: windows-sdk-content
 description: Used with the ADsPropGetInitInfo function to obtain object data that a display specifier applies to.
 old-location: ad\adspropinitparams.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: cbee3515-5037-4d65-8817-4c63fe13ef5d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PADSPROPINITPARAMS, ADSPROPINITPARAMS, ADSPROPINITPARAMS structure [Active Directory], PADSPROPINITPARAMS, PADSPROPINITPARAMS structure pointer [Active Directory], _ADSPROPINITPARAMS, _glines_adspropinitparams, ad.adspropinitparams, adsprop/ADSPROPINITPARAMS, adsprop/PADSPROPINITPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: taskschd\itask_gettaskflags.htm
 tech.root: TaskSchd
 ms.assetid: fd919375-c903-45eb-a8f4-45baf5b42203
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTaskFlags, GetTaskFlags method [Task Scheduler], GetTaskFlags method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetTaskFlags method, ITask.GetTaskFlags, ITask::GetTaskFlags, _msb_itask_gettaskflags, mstask/ITask::GetTaskFlags, taskschd.itask_gettaskflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

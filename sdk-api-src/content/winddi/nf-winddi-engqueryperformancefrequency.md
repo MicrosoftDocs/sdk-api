@@ -4,10 +4,10 @@ title: EngQueryPerformanceFrequency function
 author: windows-sdk-content
 description: The EngQueryPerformanceFrequency function queries the frequency of the performance counter.
 old-location: display\engqueryperformancefrequency.htm
-tech.root: display
+tech.root: Display
 ms.assetid: d4194278-eb49-43e4-b4bf-576e65d9e5ad
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngQueryPerformanceFrequency, EngQueryPerformanceFrequency function [Display Devices], display.engqueryperformancefrequency, gdifncs_46139586-61a2-4418-9400-ac9bbce12167.xml, winddi/EngQueryPerformanceFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

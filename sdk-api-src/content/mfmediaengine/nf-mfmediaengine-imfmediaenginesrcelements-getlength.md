@@ -4,10 +4,10 @@ title: IMFMediaEngineSrcElements::GetLength
 author: windows-sdk-content
 description: Gets the number of source elements in the list.
 old-location: mf\imfmediaenginesrcelements_getlength.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 212883A5-5613-4BCC-8713-9CD5E6480136
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetLength method, IMFMediaEngineSrcElements.GetLength, IMFMediaEngineSrcElements::GetLength, mf.imfmediaenginesrcelements_getlength, mfmediaengine/IMFMediaEngineSrcElements::GetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

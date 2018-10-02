@@ -7,7 +7,7 @@ old-location: security\auditsetsystempolicy_func.htm
 tech.root: SecAuthZ
 ms.assetid: 9692ebe3-a676-45bb-a58d-b3fdbb1bbc2a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], ntsecapi/AuditSetSystemPolicy, security.auditsetsystempolicy_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

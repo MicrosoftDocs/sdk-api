@@ -4,10 +4,10 @@ title: ISearchFolderItemFactory::SetSortColumns
 author: windows-sdk-content
 description: Creates a list of sort column directions, as specified.
 old-location: shell\ISearchFolderItemFactory_SetSortColumns.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c91667fa-a48b-409a-ba96-35581fdd07dd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetSortColumns method, ISearchFolderItemFactory.SetSortColumns, ISearchFolderItemFactory::SetSortColumns, SetSortColumns, SetSortColumns method [Windows Shell], SetSortColumns method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetSortColumns, shell.ISearchFolderItemFactory_SetSortColumns, shobjidl_core/ISearchFolderItemFactory::SetSortColumns
 ms.prod: windows-hardware
 ms.technology: windows-devices

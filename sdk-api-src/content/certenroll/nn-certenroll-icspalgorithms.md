@@ -7,7 +7,7 @@ old-location: security\icspalgorithms.htm
 tech.root: SecCertEnroll
 ms.assetid: bbf8cff4-b1b2-480e-8c30-eb34166db143
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ICspAlgorithms interface [Security],described, certenroll/ICspAlgorithms, security.icspalgorithms
 ms.prod: windows
 ms.technology: windows-sdk

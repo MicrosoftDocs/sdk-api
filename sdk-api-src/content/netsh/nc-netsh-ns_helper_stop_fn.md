@@ -4,10 +4,10 @@ title: NS_HELPER_STOP_FN
 author: windows-sdk-content
 description: Is the stop function for helpers.
 old-location: netshell\ns_helper_stop_fn.htm
-tech.root: netshell
+tech.root: NetShell
 ms.assetid: a56c11e6-5314-43eb-9960-55987395112f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NS_HELPER_STOP_FN, NS_HELPER_STOP_FN callback, NS_HELPER_STOP_FN callback function [NetShell], SampleStopHelper, _netsh_ns_helper_stop_fn, netsh/NS_HELPER_STOP_FN, netshell.ns_helper_stop_fn
 ms.prod: windows
 ms.technology: windows-sdk

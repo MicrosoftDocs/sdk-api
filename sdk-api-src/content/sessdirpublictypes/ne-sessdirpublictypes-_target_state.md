@@ -4,10 +4,10 @@ title: "_TARGET_STATE"
 author: windows-sdk-content
 description: Indicates the state of a target.
 old-location: termserv\target_state.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 52ef4bb9-d025-4b54-ac5b-16fa28047cc6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: TARGET_CHECKED_OUT, TARGET_DOWN, TARGET_HIBERNATED, TARGET_INITIALIZING, TARGET_RUNNING, TARGET_STATE, TARGET_STATE enumeration [Remote Desktop Services], TARGET_STOPPED, TARGET_UNKNOWN, _TARGET_STATE, sessdirpublictypes/TARGET_CHECKED_OUT, sessdirpublictypes/TARGET_DOWN, sessdirpublictypes/TARGET_HIBERNATED, sessdirpublictypes/TARGET_INITIALIZING, sessdirpublictypes/TARGET_RUNNING, sessdirpublictypes/TARGET_STATE, sessdirpublictypes/TARGET_STOPPED, sessdirpublictypes/TARGET_UNKNOWN, termserv.target_state
 ms.prod: windows
 ms.technology: windows-sdk

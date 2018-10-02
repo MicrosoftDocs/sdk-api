@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_start.htm
 tech.root: devio
 ms.assetid: 2256B46F-2E81-4A28-8F48-C870E4B8D906
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_PWM_PIN_START, IOCTL_PWM_PIN_START control, IOCTL_PWM_PIN_START control code, base.ioctl_pwm_pin_start, pwm/IOCTL_PWM_PIN_START
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
 Starts generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use <a href="https://msdn.microsoft.com/en-us/library/Mt843917(v=VS.85).aspx">IOCTL_PWM_PIN_IS_STARTED</a>.

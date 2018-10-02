@@ -7,7 +7,7 @@ old-location: dshow\ivmrmonitorconfig9_getdefaultmonitor.htm
 tech.root: DirectShow
 ms.assetid: a5d5bf77-5261-42eb-b79b-d72dfb2d9f21
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetDefaultMonitor method, IVMRMonitorConfig9.GetDefaultMonitor, IVMRMonitorConfig9::GetDefaultMonitor, IVMRMonitorConfig9GetDefaultMonitor, dshow.ivmrmonitorconfig9_getdefaultmonitor, vmr9/IVMRMonitorConfig9::GetDefaultMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPBDA_Services::GetCountOfRecords
 author: windows-sdk-content
 description: Gets the number of service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_getcountofrecords.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a39a0ec2-aabc-4609-91cc-667c14773515
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IPBDA_Services interface, IPBDA_Services interface [Microsoft TV Technologies],GetCountOfRecords method, IPBDA_Services.GetCountOfRecords, IPBDA_Services::GetCountOfRecords, dvbsiparser/IPBDA_Services::GetCountOfRecords, mstv.ipbda_services_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

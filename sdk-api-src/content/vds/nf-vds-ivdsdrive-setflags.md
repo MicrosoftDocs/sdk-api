@@ -7,7 +7,7 @@ old-location: base\ivdsdrive_setflags.htm
 tech.root: VDS
 ms.assetid: 73f20f2b-44ec-44f0-b4e9-2aa40e85cc7c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsDrive interface [VDS],SetFlags method, IVdsDrive.SetFlags, IVdsDrive::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDrive interface, base.ivdsdrive_setflags, vds/IVdsDrive::SetFlags, vdshwprv/IVdsDrive::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

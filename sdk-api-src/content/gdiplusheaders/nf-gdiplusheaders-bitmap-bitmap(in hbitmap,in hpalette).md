@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN HBITMAP,IN HPALETTE)
 title: Bitmap::Bitmap(IN HBITMAP,IN HPALETTE)
 author: windows-sdk-content
-description: This topic lists the constructors of the Bitmap class. For a complete class listing, see Bitmap Class.
-old-location: gdiplus\_gdiplus_CLASS_Bitmap_Constructors.htm
+description: Creates a Bitmap::Bitmap object based on a handle to a Windows Windows Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
+old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_hbm_hpal_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_52hbm_hpal.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Bitmap, Bitmap constructors [GDI+], Bitmap.Bitmap, Bitmap.Bitmap(IN HBITMAP,IN HPALETTE), Bitmap::Bitmap, Bitmap::Bitmap(IN HBITMAP,IN HPALETTE), _gdiplus_CLASS_Bitmap_Constructors, gdiplus._gdiplus_CLASS_Bitmap_Constructors, gdiplusheaders/Bitmap
+ms.date: 09/26/2018
+ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(HBITMAP,HPALETTE), Bitmap.Bitmap(IN HBITMAP,IN HPALETTE), Bitmap::Bitmap, Bitmap::Bitmap(IN HBITMAP,IN HPALETTE), _gdiplus_CLASS_Bitmap_Bitmap_hbm_hpal_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_hbm_hpal_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusheaders.h
+ - Gdiplus.dll
 api_name:
  - Bitmap.Bitmap
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Bitmap::Bitmap(IN HBITMAP,IN HPALETTE)
@@ -50,106 +51,67 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class. For a complete class listing, see <b>Bitmap Class</b>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536318(v=VS.85).aspx">Bitmap(HICON)</a>
-</td>
-<td align="left" width="63%">
-Creates a
-			<b> Bitmap</b> object based on an icon.
+Creates a <b>Bitmap::Bitmap</b> object based on a handle to a Windows Windows Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536316(v=VS.85).aspx">Bitmap(WCHAR*,BOOL)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536316(v=VS.85).aspx">Bitmap::Bitmap</a> object based on an image file.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536319(v=VS.85).aspx">Bitmap(IStream*,BOOL)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536319(v=VS.85).aspx">Bitmap::Bitmap</a> object based on an <b>IStream</b> COM interface.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536314(v=VS.85).aspx">Bitmap(HBITMAP,HPALETTE)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536314(v=VS.85).aspx">Bitmap::Bitmap</a> object based on a handle to a Windows GDI bitmap and a handle to a GDI palette.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536317(v=VS.85).aspx">Bitmap(HINSTANCE,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536317(v=VS.85).aspx">Bitmap::Bitmap</a> object based on an application or DLL instance handle and the name of a bitmap resource.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536312(v=VS.85).aspx">Bitmap(BITMAPINFO*,VOID*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536312(v=VS.85).aspx">Bitmap::Bitmap</a> object based on a 
-			<b>BITMAPINFO</b> structure and an array of pixel data.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536311(v=VS.85).aspx">Bitmap(INT,INT,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536311(v=VS.85).aspx">Bitmap::Bitmap</a> object based on a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, a width, and a height.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536313(v=VS.85).aspx">Bitmap(INT,INT,PixelFormat)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536313(v=VS.85).aspx">Bitmap::Bitmap</a> object of a specified size and pixel format. The pixel data must be provided after the <b>Bitmap::Bitmap</b> object is constructed.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536310(v=VS.85).aspx">Bitmap(IDirectDrawSurface7*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536310(v=VS.85).aspx">Bitmap::Bitmap</a> object based on a DirectDraw surface. The <b>Bitmap::Bitmap</b> object maintains a reference to the DirectDraw surface until the <b>Bitmap::Bitmap</b> object is deleted or goes out of scope.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536315(v=VS.85).aspx">Bitmap(INT,INT,INT,PixelFormat,BYTE*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536315(v=VS.85).aspx">Bitmap::Bitmap</a> object based on an array of bytes along with size and format information.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param hbm [in]
+
+Type: <b>HBITMAP</b>
+
+Handle to a GDI bitmap. 
+
+
+### -param hpal [in]
+
+Type: <b>HPALETTE</b>
+
+Handle to a GDI palette used to define the bitmap colors if 
+					<i>hbm</i> is not a device-independent bitmap (DIB). 
+
+
+## -remarks
+
+
+
+You are responsible for deleting the GDI bitmap and the GDI palette. However, you should not delete the GDI bitmap or the GDI palette until after the GDI+ <b>Bitmap::Bitmap</b> object is deleted or goes out of scope.
+
+Do not pass to the GDI+ <b>Bitmap::Bitmap</b> constructor a GDI bitmap or a GDI palette that is currently (or was previously) selected into a device context.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b246a76-e8c0-41b2-9bb2-0df06ebc5563">Bitmap Constructors</a>
+
+
+
+<a href="https://msdn.microsoft.com/08b970fe-b548-4fb7-8dea-63eef8a36510">Bitmap::FromHBITMAP</a>
+
+
+
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+
+
+
+<a href="https://msdn.microsoft.com/ddde257c-41a6-4f6e-8d81-10d66c60085c">Images, Bitmaps, and Metafiles</a>
+
+
+
+<a href="https://msdn.microsoft.com/57e3bf33-5490-4f4a-addf-356ef8f1aeed">Using Images, Bitmaps, and Metafiles</a>
+ 
+
+ 
 

@@ -7,7 +7,7 @@ old-location: stg\stgopenstorageonilockbytes.htm
 tech.root: Stg
 ms.assetid: 7920bd46-0a8f-42e0-9988-59d85edb64e2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [Structured Storage], _stg_stgopenstorageonilockbytes, coml2api/StgOpenStorageOnILockBytes, stg.stgopenstorageonilockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

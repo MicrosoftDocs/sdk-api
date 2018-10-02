@@ -4,10 +4,10 @@ title: SendSAS function
 author: windows-sdk-content
 description: Simulates a secure attention sequence (SAS).
 old-location: security\sendsas.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
 ms.prod: windows-hardware
 ms.technology: windows-devices

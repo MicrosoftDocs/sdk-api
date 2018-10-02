@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapterquerybycontent.htm
 tech.root: SecBioMet
 ms.assetid: 773aacd1-a34a-4c5a-b615-2a5485f13ca1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_QUERY_BY_CONTENT_FN, PIBIO_STORAGE_QUERY_BY_CONTENT_FN callback, StorageAdapterQueryByContent, StorageAdapterQueryByContent callback function [Windows Biometric Framework API], secbiomet.storageadapterquerybycontent, winbio_adapter/StorageAdapterQueryByContent
 ms.prod: windows
 ms.technology: windows-sdk

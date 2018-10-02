@@ -4,10 +4,10 @@ title: DhcpGetSuperScopeInfoV4 function
 author: windows-sdk-content
 description: Returns information on the superscope of a DHCP server.
 old-location: dhcp\dhcpgetsuperscopeinfov4.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: f40c77b8-c8ad-432d-8a9e-6719630826ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpGetSuperScopeInfoV4, DhcpGetSuperScopeInfoV4 function [DHCP], dhcp.dhcpgetsuperscopeinfov4, dhcpsapi/DhcpGetSuperScopeInfoV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

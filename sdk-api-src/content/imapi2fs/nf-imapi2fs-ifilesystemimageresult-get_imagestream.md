@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimageresult_get_imagestream.htm
 tech.root: imapi
 ms.assetid: 87e4bde6-c8c3-43b6-b096-514fdef5e262
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ImageStream method, IFileSystemImageResult.get_ImageStream, IFileSystemImageResult::get_ImageStream, get_ImageStream, get_ImageStream method [IMAPI], get_ImageStream method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_imagestream, imapi2fs/IFileSystemImageResult::get_ImageStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

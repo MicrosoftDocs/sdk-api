@@ -4,10 +4,10 @@ title: IWTSPlugin::Terminated
 author: windows-sdk-content
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has terminated.
 old-location: termserv\iwtsplugin_terminated.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: face8f79-f02d-465f-b716-1fa170fd6a33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSPlugin interface [Remote Desktop Services],Terminated method, IWTSPlugin.Terminated, IWTSPlugin::Terminated, Terminated, Terminated method [Remote Desktop Services], Terminated method [Remote Desktop Services],IWTSPlugin interface, termserv.iwtsplugin_terminated, tsvirtualchannels/IWTSPlugin::Terminated
 ms.prod: windows-hardware
 ms.technology: windows-devices

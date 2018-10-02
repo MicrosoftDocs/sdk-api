@@ -4,10 +4,10 @@ title: IMFDXGIBuffer::SetUnknown
 author: windows-sdk-content
 description: Stores an arbitrary IUnknown pointer in the media buffer object.
 old-location: mf\imfdxgibuffer_setunknown.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 94BA5E48-FF89-48FA-BE0D-C158A5B4D4CF
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFDXGIBuffer interface [Media Foundation],SetUnknown method, IMFDXGIBuffer.SetUnknown, IMFDXGIBuffer::SetUnknown, SetUnknown, SetUnknown method [Media Foundation], SetUnknown method [Media Foundation],IMFDXGIBuffer interface, mf.imfdxgibuffer_setunknown, mfobjects/IMFDXGIBuffer::SetUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

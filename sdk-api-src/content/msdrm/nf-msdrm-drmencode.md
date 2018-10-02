@@ -4,10 +4,10 @@ title: DRMEncode function
 author: windows-sdk-content
 description: Encodes data using a public encoding method, such as base64.
 old-location: rm\drmencode.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 5fc0275c-098b-43a6-a52a-871321b0e4f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMEncode, DRMEncode function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMEncode, rm.drmencode
 ms.prod: windows-hardware
 ms.technology: windows-devices

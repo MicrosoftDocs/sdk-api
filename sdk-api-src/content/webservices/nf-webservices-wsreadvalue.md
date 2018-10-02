@@ -7,7 +7,7 @@ old-location: wsw\wsreadvalue.htm
 tech.root: wsw
 ms.assetid: d2dbeaf1-29cb-4848-8188-7922fdc15091
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsReadValue, WsReadValue function [Web Services for Windows], webservices/WsReadValue, wsw.wsreadvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

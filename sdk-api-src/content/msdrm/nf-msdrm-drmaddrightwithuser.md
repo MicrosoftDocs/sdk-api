@@ -4,10 +4,10 @@ title: DRMAddRightWithUser function
 author: windows-sdk-content
 description: Assigns a right to a user in an issuance license.
 old-location: rm\drmaddrightwithuser.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 10b76b20-cee7-44f3-b9bd-2b690fdd040c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMAddRightWithUser, DRMAddRightWithUser function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAddRightWithUser, rm.drmaddrightwithuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

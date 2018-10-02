@@ -7,7 +7,7 @@ old-location: wsw\wsgetmessageproperty.htm
 tech.root: wsw
 ms.assetid: 369f7690-6d70-401a-84aa-e5761dc874b5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsGetMessageProperty, WsGetMessageProperty function [Web Services for Windows], webservices/WsGetMessageProperty, wsw.wsgetmessageproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

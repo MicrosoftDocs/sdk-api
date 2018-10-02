@@ -4,10 +4,10 @@ title: IPackageDebugSettings::StartServicing
 author: windows-sdk-content
 description: Suspends and terminates the non-background portion of the apps associated with the specified package and cancels the background tasks associated with the package.
 old-location: shell\IPackageDebugSettings_StartServicing.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 40f5331d-194f-4beb-9c59-f6899186b393
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StartServicing method, IPackageDebugSettings.StartServicing, IPackageDebugSettings::StartServicing, StartServicing, StartServicing method [Windows Shell], StartServicing method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartServicing, shobjidl_core/IPackageDebugSettings::StartServicing
 ms.prod: windows-hardware
 ms.technology: windows-devices

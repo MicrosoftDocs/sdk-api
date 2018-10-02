@@ -4,10 +4,10 @@ title: MFShutdown function
 author: windows-sdk-content
 description: Shuts down the Microsoft Media Foundation platform.
 old-location: mf\mfshutdown.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 10be2361-b5b4-4c10-92a1-527ca22c74e4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 10be2361-b5b4-4c10-92a1-527ca22c74e4, MFShutdown, MFShutdown function [Media Foundation], mf.mfshutdown, mfapi/MFShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

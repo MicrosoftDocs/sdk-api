@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::EnableWindowlessSwapchainMode
 author: windows-sdk-content
 description: Enables or disables windowless swap-chain mode.
 old-location: mf\imfmediaengineex_enablewindowlessswapchainmode.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: B93429D7-A0DF-4440-A164-C140334FC0A6
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: EnableWindowlessSwapchainMode, EnableWindowlessSwapchainMode method [Media Foundation], EnableWindowlessSwapchainMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableWindowlessSwapchainMode method, IMFMediaEngineEx.EnableWindowlessSwapchainMode, IMFMediaEngineEx::EnableWindowlessSwapchainMode, mf.imfmediaengineex_enablewindowlessswapchainmode, mfmediaengine/IMFMediaEngineEx::EnableWindowlessSwapchainMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

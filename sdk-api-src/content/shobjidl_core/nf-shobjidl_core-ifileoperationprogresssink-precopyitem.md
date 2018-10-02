@@ -4,10 +4,10 @@ title: IFileOperationProgressSink::PreCopyItem
 author: windows-sdk-content
 description: Performs caller-implemented actions before the copy process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreCopyItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ee436179-197d-49f6-986c-62a1ea930af5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreCopyItem method, IFileOperationProgressSink.PreCopyItem, IFileOperationProgressSink::PreCopyItem, PreCopyItem, PreCopyItem method [Windows Shell], PreCopyItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreCopyItem, shell.IFileOperationProgressSink_PreCopyItem, shobjidl_core/IFileOperationProgressSink::PreCopyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

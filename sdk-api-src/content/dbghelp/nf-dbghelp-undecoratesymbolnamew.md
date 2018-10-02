@@ -7,7 +7,7 @@ old-location: base\undecoratesymbolname.htm
 tech.root: debug
 ms.assetid: f52e8e3b-3113-4d8c-b44a-846c574cfbd8
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 10/01/2018
 ms.keywords: UNDNAME_32_BIT_DECODE, UNDNAME_COMPLETE, UNDNAME_NAME_ONLY, UNDNAME_NO_ACCESS_SPECIFIERS, UNDNAME_NO_ALLOCATION_LANGUAGE, UNDNAME_NO_ALLOCATION_MODEL, UNDNAME_NO_ARGUMENTS, UNDNAME_NO_CV_THISTYPE, UNDNAME_NO_FUNCTION_RETURNS, UNDNAME_NO_LEADING_UNDERSCORES, UNDNAME_NO_MEMBER_TYPE, UNDNAME_NO_MS_KEYWORDS, UNDNAME_NO_MS_THISTYPE, UNDNAME_NO_RETURN_UDT_MODEL, UNDNAME_NO_SPECIAL_SYMS, UNDNAME_NO_THISTYPE, UNDNAME_NO_THROW_SIGNATURES, UnDecorateSymbolName, UnDecorateSymbolName function, UnDecorateSymbolNameW, _win32_undecoratesymbolname, base.undecoratesymbolname, dbghelp/UnDecorateSymbolName, dbghelp/UnDecorateSymbolNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

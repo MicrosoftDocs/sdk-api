@@ -4,10 +4,10 @@ title: RealDriveType function
 author: windows-sdk-content
 description: RealDriveType may be altered or unavailable.
 old-location: shell\RealDriveType.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c4e55b50-637a-446f-aa9c-7d8c71d8071c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: RealDriveType, RealDriveType function [Windows Shell], _win32_RealDriveType, shell.RealDriveType, shlobj_core/RealDriveType
 ms.prod: windows-hardware
 ms.technology: windows-devices

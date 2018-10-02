@@ -4,10 +4,10 @@ title: DRMClearAllRights function
 author: windows-sdk-content
 description: Removes all rights from an existing issuance license.
 old-location: rm\drmclearallrights.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: f0a5dc8d-2bc6-4fcc-8871-ea80fc6a4abc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMClearAllRights, DRMClearAllRights function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClearAllRights, rm.drmclearallrights
 ms.prod: windows-hardware
 ms.technology: windows-devices

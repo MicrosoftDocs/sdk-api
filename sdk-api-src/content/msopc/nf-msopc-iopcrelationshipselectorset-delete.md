@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipselectorset_delete.htm
 tech.root: OPC
 ms.assetid: a90757f7-bdb1-4cff-9a46-64ec953f2172
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],Delete method, IOpcRelationshipSelectorSet.Delete, IOpcRelationshipSelectorSet::Delete, msopc/IOpcRelationshipSelectorSet::Delete, opc.iopcrelationshipselectorset_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

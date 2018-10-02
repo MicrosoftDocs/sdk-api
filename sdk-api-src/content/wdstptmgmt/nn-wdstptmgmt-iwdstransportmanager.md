@@ -7,7 +7,7 @@ old-location: wds\iwdstransportmanager.htm
 tech.root: Wds
 ms.assetid: 23f36ec7-5f6f-486c-bb09-e2f5b6f57efa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportManager, IWdsTransportManager interface [Windows Deployment Services], IWdsTransportManager interface [Windows Deployment Services],described, wds.iwdstransportmanager, wdstptmgmt/IWdsTransportManager
 ms.prod: windows
 ms.technology: windows-sdk

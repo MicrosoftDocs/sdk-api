@@ -4,10 +4,10 @@ title: StrIsIntlEqualA function
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings to determine if they are equal.
 old-location: shell\StrIsIntlEqual.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 02c66644-8aab-4ddd-a3ab-d52aeaa900a3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: StrIsIntlEqual, StrIsIntlEqual function [Windows Shell], StrIsIntlEqualA, StrIsIntlEqualW, _win32_StrIsIntlEqual, shell.StrIsIntlEqual, shlwapi/StrIsIntlEqual, shlwapi/StrIsIntlEqualA, shlwapi/StrIsIntlEqualW
 ms.prod: windows-hardware
 ms.technology: windows-devices

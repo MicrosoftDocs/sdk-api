@@ -4,10 +4,10 @@ title: ISyncMgrRegister::RegisterSyncMgrHandler
 author: windows-sdk-content
 description: Registers a handler with the synchronization manager when the handler has items to synchronize.
 old-location: shell\syncmgr_isyncmgrregister_registersyncmgrhandler.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8c980c57-90a1-4f97-8d0c-22a3abdefabb
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrRegister interface [Windows Shell],RegisterSyncMgrHandler method, ISyncMgrRegister.RegisterSyncMgrHandler, ISyncMgrRegister::RegisterSyncMgrHandler, RegisterSyncMgrHandler, RegisterSyncMgrHandler method [Windows Shell], RegisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::RegisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_registersyncmgrhandler, syncmgr.isyncmgrregister_registersyncmgrhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

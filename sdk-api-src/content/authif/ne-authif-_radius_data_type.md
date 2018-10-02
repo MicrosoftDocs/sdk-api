@@ -4,10 +4,10 @@ title: "_RADIUS_DATA_TYPE"
 author: windows-sdk-content
 description: The RADIUS_DATA_TYPE type enumerates the possible data type for a RADIUS attribute or extended attribute.
 old-location: nps\IAS_radius_data_type.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: 620d5c1f-61dc-48af-a1b2-4eaa81e358a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: RADIUS_DATA_TYPE, RADIUS_DATA_TYPE enumeration [Network Policy Server], _RADIUS_DATA_TYPE, _ias_radius_data_type, authif/RADIUS_DATA_TYPE, authif/rdtAddress, authif/rdtInteger, authif/rdtIpv6Address, authif/rdtString, authif/rdtTime, authif/rdtUnknown, ias.radius_data_type, nps.IAS_radius_data_type, rdtAddress, rdtInteger, rdtIpv6Address, rdtString, rdtTime, rdtUnknown
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownerservices_createrange.htm
 tech.root: TSF
 ms.assetid: 60214fdb-212c-4967-8cbf-e988db893245
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],CreateRange method, ITfContextOwnerServices.CreateRange, ITfContextOwnerServices::CreateRange, _tsf_itfcontextownerservices_createrange_ref, msctf/ITfContextOwnerServices::CreateRange, tsf.itfcontextownerservices_createrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FreeConfirmConflictItem function
 author: windows-sdk-content
 description: Frees the resources that have been allocated for a CONFIRM_CONFLICT_ITEM structure.
 old-location: shell\FreeConfirmConflictItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 504a63e0-39e9-4228-ab3d-c34b272f8fd3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows Shell], _shell_FreeConfirmConflictItem, shell.FreeConfirmConflictItem, syncmgr/FreeConfirmConflictItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

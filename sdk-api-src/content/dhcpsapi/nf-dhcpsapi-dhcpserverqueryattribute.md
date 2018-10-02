@@ -4,10 +4,10 @@ title: DhcpServerQueryAttribute function
 author: windows-sdk-content
 description: Returns specific attribute information from the DHCP server.
 old-location: dhcp\dhcpserverqueryattribute.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 8a522a8d-0b65-4dce-a785-d2b0c70e2794
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpServerQueryAttribute, DhcpServerQueryAttribute function [DHCP], dhcp.dhcpserverqueryattribute, dhcpsapi/DhcpServerQueryAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

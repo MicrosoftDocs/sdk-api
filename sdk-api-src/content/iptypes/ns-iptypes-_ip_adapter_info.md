@@ -4,10 +4,10 @@ title: "_IP_ADAPTER_INFO"
 author: windows-sdk-content
 description: Contains information about a particular network adapter on the local computer.
 old-location: iphlp\ip_adapter_info.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: f8035801-ca0c-4d86-bfc5-8e2d746af1b4
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP_ADAPTER_INFO, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IP_ADAPTER_INFO, IP_ADAPTER_INFO structure [IP Helper], MIB_IF_TYPE_ETHERNET, MIB_IF_TYPE_LOOPBACK, MIB_IF_TYPE_OTHER, MIB_IF_TYPE_PPP, MIB_IF_TYPE_SLIP, PIP_ADAPTER_INFO, PIP_ADAPTER_INFO structure pointer [IP Helper], _IP_ADAPTER_INFO, _iphlp_ip_adapter_info, iphlp.ip_adapter_info, iptypes/IP_ADAPTER_INFO, iptypes/PIP_ADAPTER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

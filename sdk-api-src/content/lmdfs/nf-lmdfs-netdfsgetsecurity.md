@@ -4,10 +4,10 @@ title: NetDfsGetSecurity function
 author: windows-sdk-content
 description: Retrieves the security descriptor for the root object of the specified DFS namespace.
 old-location: dfs\netdfsgetsecurity.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: a6db7c82-c2ec-464a-8c05-2360622880b4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NetDfsGetSecurity, NetDfsGetSecurity function [Distributed File System], dfs.netdfsgetsecurity, fs.netdfsgetsecurity, lmdfs/NetDfsGetSecurity, netmgmt.netdfsgetsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

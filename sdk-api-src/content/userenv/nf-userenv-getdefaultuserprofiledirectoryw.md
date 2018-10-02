@@ -4,10 +4,10 @@ title: GetDefaultUserProfileDirectoryW function
 author: windows-sdk-content
 description: Retrieves the path to the root of the default user's profile.
 old-location: shell\GetDefaultUserProfileDirectory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 14ff99cb-838a-442b-9f51-414bd7c0a2ef
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetDefaultUserProfileDirectory, GetDefaultUserProfileDirectory function [Windows Shell], GetDefaultUserProfileDirectoryA, GetDefaultUserProfileDirectoryW, _shell_GetDefaultUserProfileDirectory, shell.GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectoryA, userenv/GetDefaultUserProfileDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

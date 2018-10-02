@@ -7,7 +7,7 @@ old-location: base\ivdshwprovider.htm
 tech.root: VDS
 ms.assetid: ff90875d-f437-4236-a13f-d55a83b778b9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsHwProvider, IVdsHwProvider interface [VDS], IVdsHwProvider interface [VDS],described, base.ivdshwprovider, vds/IVdsHwProvider, vdshwprv/IVdsHwProvider
 ms.prod: windows
 ms.technology: windows-sdk

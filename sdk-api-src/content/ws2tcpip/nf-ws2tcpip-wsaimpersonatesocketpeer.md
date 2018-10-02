@@ -7,7 +7,7 @@ old-location: winsock\wsaimpersonatesocketpeer.htm
 tech.root: WinSock
 ms.assetid: 8dd2c0dd-ca1d-40b8-8e58-a980e67b6941
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSAImpersonateSocketPeer, WSAImpersonateSocketPeer function [Winsock], winsock.wsaimpersonatesocketpeer, ws2tcpip/WSAImpersonateSocketPeer
 ms.prod: windows-hardware
 ms.technology: windows-devices

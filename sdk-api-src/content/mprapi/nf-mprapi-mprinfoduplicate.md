@@ -7,7 +7,7 @@ old-location: rras\mprinfoduplicate.htm
 tech.root: RRAS
 ms.assetid: 446e93a0-8de5-4117-94fe-6f167da1acef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprInfoDuplicate, MprInfoDuplicate function [RAS], _mpr_mprinfoduplicate, mprapi/MprInfoDuplicate, rras.mprinfoduplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

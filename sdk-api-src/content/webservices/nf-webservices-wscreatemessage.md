@@ -7,7 +7,7 @@ old-location: wsw\wscreatemessage.htm
 tech.root: wsw
 ms.assetid: 1c48647e-9e77-4b7a-add3-e035c7f9f27e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WsCreateMessage, WsCreateMessage function [Web Services for Windows], webservices/WsCreateMessage, wsw.wscreatemessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

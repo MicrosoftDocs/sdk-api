@@ -4,10 +4,10 @@ title: GetEnlistmentId function
 author: windows-sdk-content
 description: Obtains the identifier (ID) for the specified enlistment.
 old-location: fs\getenlistmentid.htm
-tech.root: ktm
+tech.root: Ktm
 ms.assetid: ffd37a2e-6bac-4566-bb15-eafce8a11c3b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetEnlistmentId, GetEnlistmentId function [Files], fs.getenlistmentid, ktmw32/GetEnlistmentId
 ms.prod: windows-hardware
 ms.technology: windows-devices

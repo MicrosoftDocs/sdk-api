@@ -4,10 +4,10 @@ title: IMFSourceBufferList
 author: windows-sdk-content
 description: Represents a collection of IMFSourceBuffer objects.
 old-location: mf\imfsourcebufferlist.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 26f66c2d-5f84-485f-bc86-c8399666c9f1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBufferList, IMFSourceBufferList interface [Media Foundation], IMFSourceBufferList interface [Media Foundation],described, mf.imfsourcebufferlist, mfmediaengine/IMFSourceBufferList
 ms.prod: windows
 ms.technology: windows-sdk

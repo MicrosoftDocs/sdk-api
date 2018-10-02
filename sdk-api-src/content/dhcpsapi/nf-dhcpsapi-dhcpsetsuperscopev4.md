@@ -4,10 +4,10 @@ title: DhcpSetSuperScopeV4 function
 author: windows-sdk-content
 description: Sets a subnet as the superscope on a DHCP server.
 old-location: dhcp\dhcpsetsuperscopev4.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 70da0113-0c4a-4c4e-80ae-1e55773f9904
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpSetSuperScopeV4, DhcpSetSuperScopeV4 function [DHCP], dhcp.dhcpsetsuperscopev4, dhcpsapi/DhcpSetSuperScopeV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

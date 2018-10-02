@@ -7,7 +7,7 @@ old-location: wmformat\wmt_index_type.htm
 tech.root: wmformat
 ms.assetid: 250f12ba-2334-41e4-9258-0da79dd4cb3d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WMT_INDEX_TYPE, WMT_INDEX_TYPE enumeration [windows Media Format], WMT_IT_NEAREST_CLEAN_POINT, WMT_IT_NEAREST_DATA_UNIT, WMT_IT_NEAREST_OBJECT, tagWMT_INDEX_TYPE, wmformat.wmt_index_type, wmsdkidl/WMT_INDEX_TYPE, wmsdkidl/WMT_IT_NEAREST_CLEAN_POINT, wmsdkidl/WMT_IT_NEAREST_DATA_UNIT, wmsdkidl/WMT_IT_NEAREST_OBJECT
 ms.prod: windows
 ms.technology: windows-sdk

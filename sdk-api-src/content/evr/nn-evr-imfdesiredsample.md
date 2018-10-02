@@ -4,10 +4,10 @@ title: IMFDesiredSample
 author: windows-sdk-content
 description: Enables the presenter for the enhanced video renderer (EVR) to request a specific frame from the video mixer.
 old-location: mf\imfdesiredsample.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 373c076c-6329-4332-9f07-f18a01197659
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 373c076c-6329-4332-9f07-f18a01197659, IMFDesiredSample, IMFDesiredSample interface [Media Foundation], IMFDesiredSample interface [Media Foundation],described, evr/IMFDesiredSample, mf.imfdesiredsample
 ms.prod: windows
 ms.technology: windows-sdk

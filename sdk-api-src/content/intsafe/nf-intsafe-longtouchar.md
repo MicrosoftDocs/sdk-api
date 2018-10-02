@@ -4,10 +4,10 @@ title: LongToUChar function
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type UCHAR.
 old-location: shell\LongToUChar.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 04c675f0-8193-4a21-a00f-03f010896b31
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: LongToUChar, LongToUChar function [Windows Shell], _shell_LongToUChar, intsafe/LongToUChar, shell.LongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

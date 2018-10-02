@@ -4,10 +4,10 @@ title: MI_OperationOptions_GetEnabledChannels function
 author: windows-sdk-content
 description: Gets the list of previously enabled channels.
 old-location: wmi_v2\mi_operationoptions_getenabledchannels.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 5604288f-cc51-40b2-b9a8-5d972e05b172
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_OperationOptions_GetEnabledChannels, MI_OperationOptions_GetEnabledChannels function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetEnabledChannels, wmi_v2.mi_operationoptions_getenabledchannels
 ms.prod: windows-hardware
 ms.technology: windows-devices

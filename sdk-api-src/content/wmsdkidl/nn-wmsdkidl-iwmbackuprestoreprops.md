@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops.htm
 tech.root: wmformat
 ms.assetid: 3a5af1f3-e652-4729-931b-d0702af408f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], IWMBackupRestoreProps interface [windows Media Format],described, IWMBackupRestorePropsInterface, wmformat.iwmbackuprestoreprops, wmsdkidl/IWMBackupRestoreProps
 ms.prod: windows
 ms.technology: windows-sdk

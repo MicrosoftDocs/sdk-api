@@ -7,7 +7,7 @@ old-location: security\ix509enrollment_createrequest_method.htm
 tech.root: SecCertEnroll
 ms.assetid: bc01a648-04c7-411e-8f7a-80f19433a200
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CreateRequest, CreateRequest method [Security], CreateRequest method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CreateRequest method, IX509Enrollment.CreateRequest, IX509Enrollment::CreateRequest, certenroll/IX509Enrollment::CreateRequest, security.ix509enrollment_createrequest_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

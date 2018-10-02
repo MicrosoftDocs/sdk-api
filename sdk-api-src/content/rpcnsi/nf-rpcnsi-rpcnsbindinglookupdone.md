@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindinglookupdone.htm
 tech.root: Rpc
 ms.assetid: bf272b29-8594-428a-947c-cc91ddfb4538
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcNsBindingLookupDone, RpcNsBindingLookupDone function [RPC], _rpc_rpcnsbindinglookupdone, rpc.rpcnsbindinglookupdone, rpcnsi/RpcNsBindingLookupDone
 ms.prod: windows-hardware
 ms.technology: windows-devices

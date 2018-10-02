@@ -4,10 +4,10 @@ title: "_DXVAHD_STREAM_STATE_ALPHA_DATA"
 author: windows-sdk-content
 description: Specifies the planar alpha value for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_alpha_data.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 51135d6e-4f97-44d9-b1d5-f7d2095ee6f1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: DXVAHD_STREAM_STATE_ALPHA_DATA, DXVAHD_STREAM_STATE_ALPHA_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_ALPHA_DATA, dxvahd/DXVAHD_STREAM_STATE_ALPHA_DATA, mf.dxvahd_stream_state_alpha_data
 ms.prod: windows
 ms.technology: windows-sdk

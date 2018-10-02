@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_providertype.htm
 tech.root: SecCertEnroll
 ms.assetid: 5f4d2e29-8c02-4d9c-a3a6-15c222650c3e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IX509PrivateKey interface [Security],ProviderType property, IX509PrivateKey.ProviderType, IX509PrivateKey.get_ProviderType, IX509PrivateKey::ProviderType, IX509PrivateKey::get_ProviderType, IX509PrivateKey::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderType, certenroll/IX509PrivateKey::get_ProviderType, certenroll/IX509PrivateKey::put_ProviderType, get_ProviderType, security.ix509privatekey_providertype
 ms.prod: windows-hardware
 ms.technology: windows-devices

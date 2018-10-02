@@ -4,10 +4,10 @@ title: DnsRecordCompare function
 author: windows-sdk-content
 description: The DnsRecordCompare function compares two DNS resource records (RR).
 old-location: dns\dnsrecordcompare.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: c4449a23-d6d3-4f27-a963-a84144983e5e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DnsRecordCompare, DnsRecordCompare function [DNS], _dns_dnsrecordcompare, dns.dnsrecordcompare, windns/DnsRecordCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices

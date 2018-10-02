@@ -7,7 +7,7 @@ old-location: cos\imanagedactivationevents.htm
 tech.root: cossdk
 ms.assetid: 621ffc7d-186e-451c-8d97-9c8291549f51
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IManagedActivationEvents, IManagedActivationEvents interface [COM+], IManagedActivationEvents interface [COM+],described, _cos_IManagedActivationEvents, comsvcs/IManagedActivationEvents, cos.imanagedactivationevents
 ms.prod: windows
 ms.technology: windows-sdk

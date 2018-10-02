@@ -4,10 +4,10 @@ title: DhcpServerRedoAuthorization function
 author: windows-sdk-content
 description: The DhcpServerRedoAuthorization function attempts to determine whether the DHCP server is authorized and restores leasing operations if it is not.
 old-location: dhcp\dhcpserverredoauthorization.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: c5bee9f1-7d4b-4dc2-a7c0-ebafd533ed50
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpServerRedoAuthorization, DhcpServerRedoAuthorization function [DHCP], dhcp.dhcpserverredoauthorization, dhcpsapi/DhcpServerRedoAuthorization
 ms.prod: windows-hardware
 ms.technology: windows-devices

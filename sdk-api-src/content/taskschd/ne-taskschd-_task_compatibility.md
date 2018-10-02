@@ -7,7 +7,7 @@ old-location: taskschd\task_compatibility.htm
 tech.root: TaskSchd
 ms.assetid: a842ab84-26e1-49bd-bf57-1a1073a17183
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: TASK_COMPATIBILITY, TASK_COMPATIBILITY enumeration [Task Scheduler], TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, _TASK_COMPATIBILITY, taskschd.task_compatibility, taskschd/TASK_COMPATIBILITY, taskschd/TASK_COMPATIBILITY_AT, taskschd/TASK_COMPATIBILITY_V1, taskschd/TASK_COMPATIBILITY_V2
 ms.prod: windows
 ms.technology: windows-sdk

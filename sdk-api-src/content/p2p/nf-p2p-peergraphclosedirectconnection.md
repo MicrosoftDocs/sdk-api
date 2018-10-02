@@ -4,10 +4,10 @@ title: PeerGraphCloseDirectConnection function
 author: windows-sdk-content
 description: The PeerGraphCloseDirectConnection function closes a specified direct connection.
 old-location: p2p\peergraphclosedirectconnection.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: e5547292-7f6f-456c-b47a-5d5948f51a7f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphCloseDirectConnection, PeerGraphCloseDirectConnection function [Peer Networking], p2p.peergraphclosedirectconnection, p2p/PeerGraphCloseDirectConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

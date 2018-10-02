@@ -4,10 +4,10 @@ title: MFCreateSampleGrabberSinkActivate function
 author: windows-sdk-content
 description: Creates an activation object for the sample grabber media sink.
 old-location: mf\mfcreatesamplegrabbersinkactivate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ac8e415e-5df8-4fdb-adf6-c3c717c3d625
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateSampleGrabberSinkActivate, MFCreateSampleGrabberSinkActivate function [Media Foundation], ac8e415e-5df8-4fdb-adf6-c3c717c3d625, mf.mfcreatesamplegrabbersinkactivate, mfidl/MFCreateSampleGrabberSinkActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

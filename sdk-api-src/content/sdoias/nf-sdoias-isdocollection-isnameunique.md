@@ -4,10 +4,10 @@ title: ISdoCollection::IsNameUnique
 author: windows-sdk-content
 description: The IsNameUnique method tests whether the specified name is unique in the collection.
 old-location: nps\SDO_isdocollection_isnameunique.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: cf9263c3-5d98-4b52-bbd7-6a37fb4c8481
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],IsNameUnique method, ISdoCollection.IsNameUnique, ISdoCollection::IsNameUnique, IsNameUnique, IsNameUnique method [Network Policy Server], IsNameUnique method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_isnameunique, nps.SDO_isdocollection_isnameunique, sdo.isdocollection_isnameunique, sdoias/ISdoCollection::IsNameUnique
 ms.prod: windows-hardware
 ms.technology: windows-devices

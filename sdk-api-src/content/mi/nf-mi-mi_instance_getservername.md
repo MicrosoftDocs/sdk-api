@@ -4,10 +4,10 @@ title: MI_Instance_GetServerName function
 author: windows-sdk-content
 description: Gets the server name from the specified instance.
 old-location: wmi_v2\mi_instance_getservername.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 773b2cb9-9296-4da9-8c13-288524bfccd5
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Instance_GetServerName, MI_Instance_GetServerName function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetServerName, wmi_v2.mi_instance_getservername
 ms.prod: windows-hardware
 ms.technology: windows-devices

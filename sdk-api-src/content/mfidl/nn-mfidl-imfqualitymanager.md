@@ -4,10 +4,10 @@ title: IMFQualityManager
 author: windows-sdk-content
 description: Adjusts playback quality. This interface is exposed by the quality manager.
 old-location: mf\imfqualitymanager.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 66781a1f-7469-4222-9e99-6b1415830f4c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 66781a1f-7469-4222-9e99-6b1415830f4c, IMFQualityManager, IMFQualityManager interface [Media Foundation], IMFQualityManager interface [Media Foundation],described, mf.imfqualitymanager, mfidl/IMFQualityManager
 ms.prod: windows
 ms.technology: windows-sdk

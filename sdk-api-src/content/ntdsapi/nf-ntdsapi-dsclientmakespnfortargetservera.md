@@ -4,10 +4,10 @@ title: DsClientMakeSpnForTargetServerA function
 author: windows-sdk-content
 description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication.
 old-location: ad\dsclientmakespnfortargetserver.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: d205e7cc-4879-41a4-baa7-75e7dd177cd0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DsClientMakeSpnForTargetServer, DsClientMakeSpnForTargetServer function [Active Directory], DsClientMakeSpnForTargetServerA, DsClientMakeSpnForTargetServerW, _glines_dsclientmakespnfortargetserver, ad.dsclientmakespnfortargetserver, ntdsapi/DsClientMakeSpnForTargetServer, ntdsapi/DsClientMakeSpnForTargetServerA, ntdsapi/DsClientMakeSpnForTargetServerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

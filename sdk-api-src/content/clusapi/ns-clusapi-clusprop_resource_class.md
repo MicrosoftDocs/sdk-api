@@ -4,10 +4,10 @@ title: CLUSPROP_RESOURCE_CLASS
 author: windows-sdk-content
 description: Describes a resource class.
 old-location: mscs\clusprop_resource_class.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9ec01908-3765-4e95-a9d3-fdf6daa5f64d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PCLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS structure [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, PCLUSPROP_RESOURCE_CLASS, PCLUSPROP_RESOURCE_CLASS structure pointer [Failover Cluster], _wolf_clusprop_resource_class, clusapi/CLUSPROP_RESOURCE_CLASS, clusapi/PCLUSPROP_RESOURCE_CLASS, mscs.clusprop_resource_class"
 ms.prod: windows
 ms.technology: windows-sdk

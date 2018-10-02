@@ -7,7 +7,7 @@ old-location: xps\xps_fill_rule.htm
 tech.root: printdocs
 ms.assetid: 353a4dc3-0c4d-46df-ae31-cc94c4116ca3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: XPS_FILL_RULE, XPS_FILL_RULE enumeration [XPS Documents and Packaging], XPS_FILL_RULE_EVENODD, XPS_FILL_RULE_NONZERO, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0010, xps.xps_fill_rule, xpsobjectmodel/XPS_FILL_RULE, xpsobjectmodel/XPS_FILL_RULE_EVENODD, xpsobjectmodel/XPS_FILL_RULE_NONZERO
 ms.prod: windows
 ms.technology: windows-sdk

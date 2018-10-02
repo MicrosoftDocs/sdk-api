@@ -7,7 +7,7 @@ old-location: fs\device_trim_descriptor.htm
 tech.root: fileio
 ms.assetid: 60b38d08-5869-442f-845b-b3d8667d069f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: "*PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Files], PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Files], _DEVICE_TRIM_DESCRIPTOR, fs.device_trim_descriptor, winioctl/DEVICE_TRIM_DESCRIPTOR, winioctl/PDEVICE_TRIM_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

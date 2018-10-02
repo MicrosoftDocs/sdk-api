@@ -4,10 +4,10 @@ title: IMFClockStateSink::OnClockSetRate
 author: windows-sdk-content
 description: Called when the rate changes on the presentation clock.
 old-location: mf\imfclockstatesink_onclocksetrate.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockSetRate method, IMFClockStateSink.OnClockSetRate, IMFClockStateSink::OnClockSetRate, OnClockSetRate, OnClockSetRate method [Media Foundation], OnClockSetRate method [Media Foundation],IMFClockStateSink interface, ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998, mf.imfclockstatesink_onclocksetrate, mfidl/IMFClockStateSink::OnClockSetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

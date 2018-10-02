@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_getrecordertype.htm
 tech.root: imapi
 ms.assetid: 287516b5-5d27-4277-8bc4-e2409b2a8cd7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecorderType, GetRecorderType method [IMAPI], GetRecorderType method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderType method, IDiscRecorder.GetRecorderType, IDiscRecorder::GetRecorderType, RECORDER_CDR, RECORDER_CDRW, _win32_idiscrecorder_getrecordertype, base.idiscrecorder_getrecordertype, imapi.idiscrecorder_getrecordertype, imapi/IDiscRecorder::GetRecorderType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\elemdesc.htm
 tech.root: automat
 ms.assetid: 2187a4c6-f8ba-4373-9240-1b1a9af92507
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPELEMDESC, ELEMDESC, ELEMDESC structure [Automation], LPELEMDESC, LPELEMDESC structure pointer [Automation], _oa96_ELEMDESC, automat.elemdesc, oaidl/ELEMDESC, oaidl/LPELEMDESC, tagELEMDESC"
 ms.prod: windows
 ms.technology: windows-sdk

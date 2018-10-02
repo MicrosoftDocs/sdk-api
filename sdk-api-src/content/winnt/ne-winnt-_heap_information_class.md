@@ -4,10 +4,10 @@ title: "_HEAP_INFORMATION_CLASS"
 author: windows-sdk-content
 description: Specifies the class of heap information to be set or retrieved.
 old-location: base\heap_information_class.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 4D1B21D2-1F0E-4DC8-A583-220E9891DBBF
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: HEAP_INFORMATION_CLASS, HEAP_INFORMATION_CLASS enumeration, HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, _HEAP_INFORMATION_CLASS, base.heap_information_class, winnt/HEAP_INFORMATION_CLASS, winnt/HeapCompatibilityInformation, winnt/HeapEnableTerminationOnCorruption
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevice_uniquedevicename.htm
 tech.root: UPnP
 ms.assetid: ca644bd3-6580-44da-87f5-11d543814043
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_UniqueDeviceName method, IUPnPDevice.get_UniqueDeviceName, IUPnPDevice::get_UniqueDeviceName, _upnp_iupnpdevice_uniquedevicename, get_UniqueDeviceName, get_UniqueDeviceName method [UPnP APIs], get_UniqueDeviceName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_uniquedevicename, upnp/IUPnPDevice::get_UniqueDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

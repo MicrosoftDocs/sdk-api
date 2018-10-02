@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11samplerstate.htm
 tech.root: direct3d11
 ms.assetid: 8dc2facc-4f51-4064-aab4-028a06b9d7e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: 10df1118-2f5f-fe2c-97bb-9adf4d72bc25, ID3D11SamplerState, ID3D11SamplerState interface [Direct3D 11], ID3D11SamplerState interface [Direct3D 11],described, d3d11/ID3D11SamplerState, direct3d11.id3d11samplerstate
 ms.prod: windows
 ms.technology: windows-sdk

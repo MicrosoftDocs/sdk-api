@@ -4,10 +4,10 @@ title: IMFTransform::SetOutputBounds
 author: windows-sdk-content
 description: Sets the range of time stamps the client needs for output.
 old-location: mf\imftransform_setoutputbounds.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 045f2f16-3f32-4cc4-9052-424f32274f34
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 045f2f16-3f32-4cc4-9052-424f32274f34, IMFTransform interface [Media Foundation],SetOutputBounds method, IMFTransform.SetOutputBounds, IMFTransform::SetOutputBounds, SetOutputBounds, SetOutputBounds method [Media Foundation], SetOutputBounds method [Media Foundation],IMFTransform interface, mf.imftransform_setoutputbounds, mftransform/IMFTransform::SetOutputBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

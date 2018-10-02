@@ -4,10 +4,10 @@ title: FLOATOBJ_SubLong function
 author: windows-sdk-content
 description: The FLOATOBJ_SubLong function subtracts the value of type LONG from the FLOATOBJ, and returns with the result in the first parameter.
 old-location: display\floatobj_sublong.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 2a3e8a17-3718-4212-adfe-f109e286bec6
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: FLOATOBJ_SubLong, FLOATOBJ_SubLong function [Display Devices], display.floatobj_sublong, gdifncs_8b50c7a1-6ed7-4368-8465-5b1b1e7f4c48.xml, winddi/FLOATOBJ_SubLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IComponents::get_Count
 author: windows-sdk-content
 description: The get_Count method gets the number of Component objects in the collection.
 old-location: mstv\icomponents_get_count.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ba198e27-c699-4c93-aa2d-b8be8c40380c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get_Count method, IComponents.get_Count, IComponents::get_Count, IComponentsget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get_count, tuner/IComponents::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

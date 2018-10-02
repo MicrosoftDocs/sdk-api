@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigurecollection_setat.htm
 tech.root: printdocs
 ms.assetid: 59612109-8500-4bd9-a37c-120ef12aded4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMGeometryFigureCollection.SetAt, IXpsOMGeometryFigureCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_setat, xpsobjectmodel/IXpsOMGeometryFigureCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

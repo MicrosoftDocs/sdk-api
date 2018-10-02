@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents2_iwmpevents2__devicedisconnect.htm
 tech.root: WMP
 ms.assetid: a37b72f9-4f71-433c-afad-66caae2d749a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: DeviceDisconnect, DeviceDisconnect method [Windows Media Player], DeviceDisconnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceDisconnect method, IWMPEvents2.DeviceDisconnect, IWMPEvents2::DeviceDisconnect, IWMPEvents2DeviceDisconnect, wmp.iwmpevents2_iwmpevents2__devicedisconnect, wmp/IWMPEvents2::DeviceDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

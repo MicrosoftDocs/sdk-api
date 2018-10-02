@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_grantaccessrights.htm
 tech.root: com
 ms.assetid: f8ec6743-633b-4c79-afac-68eb20e07b2a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: GrantAccessRights, GrantAccessRights method [COM], GrantAccessRights method [COM],IAccessControl interface, IAccessControl interface [COM],GrantAccessRights method, IAccessControl.GrantAccessRights, IAccessControl::GrantAccessRights, _com_iaccesscontrol_grantaccessrights, com.iaccesscontrol_grantaccessrights, iaccess/IAccessControl::GrantAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices

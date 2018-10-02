@@ -4,10 +4,10 @@ title: IIsdbCAServiceDescriptor::GetCASystemId
 author: windows-sdk-content
 description: Gets the conditional access (CA) system identifier from a CA service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getcasystemid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 48148c5c-30e1-4028-8baf-692141d79fad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAServiceDescriptor.GetCASystemId, IIsdbCAServiceDescriptor::GetCASystemId, dvbsiparser/IIsdbCAServiceDescriptor::GetCASystemId, mstv.iisdbcaservicedescriptor_getcasystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices

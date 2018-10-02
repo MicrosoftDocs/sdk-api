@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_composite_prop.htm
 tech.root: direct2d
 ms.assetid: E3A521E9-20BC-4F82-A673-1BC854D2E297
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1_COMPOSITE_PROP, D2D1_COMPOSITE_PROP enumeration [Direct2D], D2D1_COMPOSITE_PROP_MODE, d2d1effects/D2D1_COMPOSITE_PROP, d2d1effects/D2D1_COMPOSITE_PROP_MODE, direct2d.d2d1_composite_prop
 ms.prod: windows
 ms.technology: windows-sdk

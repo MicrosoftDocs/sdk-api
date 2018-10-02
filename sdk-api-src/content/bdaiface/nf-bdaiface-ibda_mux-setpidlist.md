@@ -4,10 +4,10 @@ title: IBDA_MUX::SetPidList
 author: windows-sdk-content
 description: Sets the list of packet identifiers (PIDs) that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.
 old-location: mstv\ibda_mux_setpidlist.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2d77086c-2321-434d-bf24-b4eac395825b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_MUX interface [Microsoft TV Technologies],SetPidList method, IBDA_MUX.SetPidList, IBDA_MUX::SetPidList, SetPidList, SetPidList method [Microsoft TV Technologies], SetPidList method [Microsoft TV Technologies],IBDA_MUX interface, bdaiface/IBDA_MUX::SetPidList, mstv.ibda_mux_setpidlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: tagNC_ADDRESS
 author: windows-sdk-content
 description: Contains information that describes a network address.
 old-location: shell\NC_ADDRESS.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1dfb0f6a-3aa5-486b-bbd0-8a24070bca19
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: "*PNC_ADDRESS, NC_ADDRESS, NC_ADDRESS structure [Windows Shell], PNC_ADDRESS, PNC_ADDRESS structure pointer [Windows Shell], _shell_NC_ADDRESS, shell.NC_ADDRESS, shellapi/NC_ADDRESS, shellapi/PNC_ADDRESS, tagNC_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk

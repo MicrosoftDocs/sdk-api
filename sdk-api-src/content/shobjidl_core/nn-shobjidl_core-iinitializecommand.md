@@ -4,10 +4,10 @@ title: IInitializeCommand
 author: windows-sdk-content
 description: Exposes a single method used to initialize objects that implement IExplorerCommandState, IExecuteCommand or IDropTarget with the application-specified command name and its registered properties.
 old-location: shell\IInitializeCommand.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e5a2a4d3-2488-4da2-aaab-c27461859d9f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IInitializeCommand, IInitializeCommand interface [Windows Shell], IInitializeCommand interface [Windows Shell],described, _shell_IInitializeCommand, shell.IInitializeCommand, shobjidl_core/IInitializeCommand
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_AT_INFO"
 author: windows-sdk-content
 description: The AT_INFO structure contains information about a job.
 old-location: netmgmt\at_info_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: eb0bf696-53ca-432a-b04c-5e0b6a61a0fd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPAT_INFO, *PAT_INFO, AT_INFO, AT_INFO structure [Network Management], JOB_ADD_CURRENT_DATE, JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_INFO, LPAT_INFO structure pointer [Network Management], PAT_INFO, PAT_INFO structure pointer [Network Management], _AT_INFO, _win32_at_info_str, lmat/AT_INFO, lmat/LPAT_INFO, lmat/PAT_INFO, netmgmt.at_info_str"
 ms.prod: windows
 ms.technology: windows-sdk

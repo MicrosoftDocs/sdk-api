@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingreset.htm
 tech.root: Rpc
 ms.assetid: 2f7a447a-50b1-422e-a49a-00ede3fcf187
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcBindingReset, RpcBindingReset function [RPC], _rpc_rpcbindingreset, rpc.rpcbindingreset, rpcdce/RpcBindingReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

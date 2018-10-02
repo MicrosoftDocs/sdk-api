@@ -4,10 +4,10 @@ title: DrvEnableDriver function
 author: windows-sdk-content
 description: The DrvEnableDriver function is the initial driver entry point exported by the driver DLL.
 old-location: display\drvenabledriver.htm
-tech.root: display
+tech.root: Display
 ms.assetid: b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvEnableDriver, DrvEnableDriver function [Display Devices], ddifncs_ceb25289-afd3-447e-85e7-d89fa95aebd4.xml, display.drvenabledriver, winddi/DrvEnableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices

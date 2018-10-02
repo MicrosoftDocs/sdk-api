@@ -4,10 +4,10 @@ title: DllInstall function
 author: windows-sdk-content
 description: Handles installation and setup for a DLL.
 old-location: shell\DllInstall.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d161f2ec-31e6-405e-b76c-9976b0880816
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall, shell.DllInstall, shlwapi/DllInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

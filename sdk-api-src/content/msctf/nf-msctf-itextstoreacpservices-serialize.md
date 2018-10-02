@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpservices_serialize.htm
 tech.root: TSF
 ms.assetid: 14be52d1-4f8c-4deb-aa92-470c3608c841
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Serialize method, ITextStoreACPServices.Serialize, ITextStoreACPServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_serialize_ref, msctf/ITextStoreACPServices::Serialize, tsf.itextstoreacpservices_serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

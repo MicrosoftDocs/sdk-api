@@ -4,10 +4,10 @@ title: MFCreateSequencerSource function
 author: windows-sdk-content
 description: Creates the sequencer source.
 old-location: mf\mfcreatesequencersource.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: e4640731-f262-4ceb-8d17-908c2c6b192e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateSequencerSource, MFCreateSequencerSource function [Media Foundation], e4640731-f262-4ceb-8d17-908c2c6b192e, mf.mfcreatesequencersource, mfidl/MFCreateSequencerSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

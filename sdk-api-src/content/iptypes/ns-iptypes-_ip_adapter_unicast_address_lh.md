@@ -4,10 +4,10 @@ title: "_IP_ADAPTER_UNICAST_ADDRESS_LH"
 author: windows-sdk-content
 description: The IP_ADAPTER_UNICAST_ADDRESS structure stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
 old-location: iphlp\ip_adapter_unicast_address.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 65c3648c-89bd-417b-8a9b-feefa6149c4a
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP_ADAPTER_UNICAST_ADDRESS, *PIP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_UNICAST_ADDRESS, IP_ADAPTER_UNICAST_ADDRESS structure [IP Helper], IP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_UNICAST_ADDRESS_XP, PIP_ADAPTER_UNICAST_ADDRESS, PIP_ADAPTER_UNICAST_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_UNICAST_ADDRESS_LH, _iphlp_ip_adapter_unicast_address, iphlp.ip_adapter_unicast_address, iptypes/IP_ADAPTER_UNICAST_ADDRESS, iptypes/PIP_ADAPTER_UNICAST_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk

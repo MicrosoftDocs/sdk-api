@@ -4,10 +4,10 @@ title: IURLSearchHook2
 author: windows-sdk-content
 description: Exposes a method that is used by the browser to translate the address of an unknown URL protocol by using a search context object.
 old-location: shell\IURLSearchHook2.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5a17e099-a8b4-454d-8f2e-0a45435902a4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IURLSearchHook2, IURLSearchHook2 interface [Windows Shell], IURLSearchHook2 interface [Windows Shell],described, _shell_IURLSearchHook2, shell.IURLSearchHook2, shlobj_core/IURLSearchHook2
 ms.prod: windows
 ms.technology: windows-sdk

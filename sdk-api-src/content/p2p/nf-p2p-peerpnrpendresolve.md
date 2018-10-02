@@ -4,10 +4,10 @@ title: PeerPnrpEndResolve function
 author: windows-sdk-content
 description: Closes the handle for an asynchronous PNRP resolution operation initiated with a previous call to PeerPnrpStartResolve.
 old-location: p2p\peerpnrpendresolve.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: b700a195-57c4-481a-93d2-82d543f5c6c6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerPnrpEndResolve, PeerPnrpEndResolve function [Peer Networking], p2p.peerpnrpendresolve, p2p/PeerPnrpEndResolve
 ms.prod: windows-hardware
 ms.technology: windows-devices

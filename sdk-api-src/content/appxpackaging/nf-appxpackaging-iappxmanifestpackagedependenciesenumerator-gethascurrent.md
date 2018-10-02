@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackagedependenciesenumerator_gethascurrent.h
 tech.root: appxpkg
 ms.assetid: 2D06DC83-B795-47F8-A05D-4DF4E86FEDFA
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestPackageDependenciesEnumerator interface, IAppxManifestPackageDependenciesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestPackageDependenciesEnumerator.GetHasCurrent, IAppxManifestPackageDependenciesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestPackageDependenciesEnumerator::GetHasCurrent, appxpkg.iappxmanifestpackagedependenciesenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

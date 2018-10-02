@@ -4,10 +4,10 @@ title: IExtendControlbar
 author: windows-sdk-content
 description: The IExtendControlbar interface enables an extension to add control bars to the console. This provides a way to improve the functionality and appearance of your snap-in by adding toolbars or other user interface enhancements.
 old-location: mmc\iextendcontrolbar.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: e0d586e3-5ad9-4996-b5bd-d6ab4f2eaf26
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: IExtendControlbar, IExtendControlbar interface [MMC], IExtendControlbar interface [MMC],described, _slate_iextendcontrolbar, mmc.iextendcontrolbar, mmc/IExtendControlbar
 ms.prod: windows
 ms.technology: windows-sdk

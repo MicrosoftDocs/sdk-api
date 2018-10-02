@@ -7,7 +7,7 @@ old-location: adsi\iads_put.htm
 tech.root: ADSI
 ms.assetid: b543220d-939b-4ca5-9a27-90b04f14be5d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADs interface [ADSI],Put method, IADs.Put, IADs::Put, Put, Put method [ADSI], Put method [ADSI],IADs interface, _ds_iads_put, adsi.iads__put, adsi.iads_put, iads/IADs::Put
 ms.prod: windows-hardware
 ms.technology: windows-devices

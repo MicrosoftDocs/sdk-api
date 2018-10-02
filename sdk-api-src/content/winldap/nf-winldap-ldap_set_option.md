@@ -4,10 +4,10 @@ title: ldap_set_option function
 author: windows-sdk-content
 description: Sets options on connection blocks.
 old-location: ldap\ldap_set_option.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: b6d6b285-7302-4812-bbcb-0aeb5b53cf23
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ldap_set_option, ldap.ldap__set__option, ldap.ldap_set_option, ldap_set_option, ldap_set_option function [LDAP], ldap_set_optionW, winldap/ldap_set_option, winldap/ldap_set_optionW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

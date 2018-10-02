@@ -4,10 +4,10 @@ title: IShellLibrary::Commit
 author: windows-sdk-content
 description: Commits library updates to an existing Library Description file.
 old-location: shell\IShellLibrary_Commit.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: a340964d-ea20-4a3b-be8b-f4f4dbf624ed
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],Commit method, IShellLibrary.Commit, IShellLibrary::Commit, _shell_IShellLibrary_Commit, shell.IShellLibrary_Commit, shobjidl_core/IShellLibrary::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SYSTEM_POWER_CAPABILITIES
 author: windows-sdk-content
 description: Contains information about the power capabilities of the system.
 old-location: base\system_power_capabilities_str.htm
-tech.root: power
+tech.root: Power
 ms.assetid: aa0af56e-59b3-4d0d-b356-a4046d8754ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES structure pointer, SYSTEM_POWER_CAPABILITIES, SYSTEM_POWER_CAPABILITIES structure, _win32_system_power_capabilities_str, base.system_power_capabilities_str, winnt/PSYSTEM_POWER_CAPABILITIES, winnt/SYSTEM_POWER_CAPABILITIES"
 ms.prod: windows
 ms.technology: windows-sdk

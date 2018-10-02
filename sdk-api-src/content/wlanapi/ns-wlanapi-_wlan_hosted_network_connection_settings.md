@@ -4,10 +4,10 @@ title: "_WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS"
 author: windows-sdk-content
 description: Contains information about the connection settings on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_connection_settings.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 845eaef2-7ce0-4d7a-8273-8b843b5c95fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure [NativeWIFI], _WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, nwifi.wlan_hosted_network_connection_settings, wlanapi/PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, wlanapi/WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS"
 ms.prod: windows
 ms.technology: windows-sdk

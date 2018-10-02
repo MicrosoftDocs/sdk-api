@@ -4,10 +4,10 @@ title: IFolderView2::SetTileViewProperties
 author: windows-sdk-content
 description: Set the list of tile properties for an item.
 old-location: shell\IFolderView2_SetTileViewProperties.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 44abbbbb-8d4d-4a09-9c17-a2255467de44
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetTileViewProperties method, IFolderView2.SetTileViewProperties, IFolderView2::SetTileViewProperties, SetTileViewProperties, SetTileViewProperties method [Windows Shell], SetTileViewProperties method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetTileViewProperties, shell.IFolderView2_SetTileViewProperties, shobjidl_core/IFolderView2::SetTileViewProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

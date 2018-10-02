@@ -2,21 +2,21 @@
 UID: NF:gdiplustypes.Rect.Inflate(IN INT,IN INT)
 title: Rect::Inflate(IN INT,IN INT)
 author: windows-sdk-content
-description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
-old-location: gdiplus\_gdiplus_CLASS_Rect_Inflate_Methods.htm
+description: The Rect::Inflate method expands the rectangle by dx on the left and right edges, and by dy on the top and bottom edges.
+old-location: gdiplus\_gdiplus_CLASS_Rect_Inflate_dx_dy_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectinflatemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectinflatemethods\inflate.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Inflate, Inflate methods [GDI+], Rect.Inflate, Rect.Inflate(IN INT,IN INT), Rect::Inflate, Rect::Inflate(IN INT,IN INT), _gdiplus_CLASS_Rect_Inflate_Methods, gdiplus._gdiplus_CLASS_Rect_Inflate_Methods, gdiplustypes/Inflate
+ms.date: 09/26/2018
+ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],Rect class, Rect class [GDI+],Inflate method, Rect.Inflate, Rect.Inflate(IN INT,IN INT), Rect.Inflate(INT,INT), Rect::Inflate, Rect::Inflate(IN INT,IN INT), _gdiplus_CLASS_Rect_Inflate_dx_dy_, gdiplus._gdiplus_CLASS_Rect_Inflate_dx_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplustypes.h
+ - Gdiplus.dll
 api_name:
  - Rect.Inflate
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Rect::Inflate(IN INT,IN INT)
@@ -50,34 +51,101 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Inflate methods of the 
-			<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/fe6960fa-db73-4806-a2c2-675782eed41d">Rect Methods</a>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/598dbe05-0edb-4c3b-ba2f-5ecf0ce47ce4">Inflate(Point&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/598dbe05-0edb-4c3b-ba2f-5ecf0ce47ce4">Rect::Inflate</a> method expands the rectangle by the value of <i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
+The <b>Rect::Inflate</b> method expands the rectangle by 
+			<i>dx</i> on the left and right edges, and by 
+			<i>dy</i> on the top and bottom edges.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0601f59d-4ded-4224-b9c8-36499c3d381f">Inflate(INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0601f59d-4ded-4224-b9c8-36499c3d381f">Rect::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param dx [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the amount to expand the rectangle on the left and right edges. 
+
+
+### -param dy [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the amount to expand the rectangle on the top and bottom edges. 
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+The x-coordinate of the left edge is decreased by 
+				<i>dx</i>, and the x-coordinate of the right edge is increased by 
+				<i>dx</i>. The y-coordinate of the top edge is decreased by 
+				<i>dy</i> and the y-coordinate of the bottom edge is increased by 
+				<i>dy</i>.
+
+
+#### Examples
+
+
+
+The following example creates a 
+						<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object, draws the rectangle, inflates the rectangle, and then redraws the rectangle.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_InflateDxDy(HDC hdc)
+{
+   Graphics graphics(hdc);
+   Pen pen(Color(255, 0, 0, 0));
+
+   // Create and draw a rectangle.
+   Rect rect(100, 100, 80, 40);
+   graphics.DrawRectangle(&amp;pen, rect);
+
+   // Inflate the rectangle, and then redraw the rectangle.
+   rect.Inflate(20, 10);
+   graphics.DrawRectangle(&amp;pen, rect);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+ 
+
+ 
 

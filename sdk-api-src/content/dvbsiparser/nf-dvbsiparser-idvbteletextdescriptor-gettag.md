@@ -4,10 +4,10 @@ title: IDvbTeletextDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that idenfities a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_gettag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1f359c37-8d8f-48de-a4a2-89617c5761ed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbTeletextDescriptor.GetTag, IDvbTeletextDescriptor::GetTag, dvbsiparser/IDvbTeletextDescriptor::GetTag, mstv.idvbteletextdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDVBSLocator::get_Elevation
 author: windows-sdk-content
 description: The get_Elevation method retrieves the elevation of the satellite in tenths of a degree.
 old-location: mstv\idvbslocator_get_elevation.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8d81cb6d-412f-4a55-b9fc-a0a0e8cebaaa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_Elevation method, IDVBSLocator.get_Elevation, IDVBSLocator::get_Elevation, IDVBSLocatorget_Elevation, get_Elevation, get_Elevation method [Microsoft TV Technologies], get_Elevation method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_elevation, tuner/IDVBSLocator::get_Elevation
 ms.prod: windows-hardware
 ms.technology: windows-devices

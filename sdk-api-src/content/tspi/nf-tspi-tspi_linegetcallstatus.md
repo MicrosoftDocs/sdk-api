@@ -4,10 +4,10 @@ title: TSPI_lineGetCallStatus function
 author: windows-sdk-content
 description: The TSPI_lineGetCallStatus function returns the current status of the specified call.
 old-location: tspi\tspi_linegetcallstatus.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 7124ef73-148f-41df-afd6-ebfa29d5cf1c
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: TSPI_lineGetCallStatus, TSPI_lineGetCallStatus function [TAPI 2.2], _tspi_tspi_linegetcallstatus, tspi.tspi_linegetcallstatus, tspi/TSPI_lineGetCallStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

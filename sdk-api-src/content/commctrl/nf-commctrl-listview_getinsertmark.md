@@ -7,7 +7,7 @@ old-location: controls\ListView_GetInsertMark.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_GetInsertMark, ListView_GetInsertMark macro [Windows Controls], _win32_ListView_GetInsertMark, _win32_ListView_GetInsertMark_cpp, commctrl/ListView_GetInsertMark, controls.ListView_GetInsertMark, controls._win32_ListView_GetInsertMark
 ms.prod: windows-hardware
 ms.technology: windows-devices

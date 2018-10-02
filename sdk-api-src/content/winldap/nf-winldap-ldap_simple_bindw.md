@@ -4,10 +4,10 @@ title: ldap_simple_bindW function
 author: windows-sdk-content
 description: Asynchronously authenticates a client to a server, using a plaintext password.
 old-location: ldap\ldap_simple_bind.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 13fc47c5-094b-4a91-8e5f-bfff8c72b431
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ldap_simple_bind, ldap.ldap__simple__bind, ldap.ldap_simple_bind, ldap_simple_bind, ldap_simple_bind function [LDAP], ldap_simple_bindA, ldap_simple_bindW, winldap/ldap_simple_bind, winldap/ldap_simple_bindA, winldap/ldap_simple_bindW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

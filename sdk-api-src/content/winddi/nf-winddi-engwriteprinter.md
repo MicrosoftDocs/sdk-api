@@ -4,10 +4,10 @@ title: EngWritePrinter function
 author: windows-sdk-content
 description: The EngWritePrinter function allows printer graphics DLLs to send a data stream to printer hardware.
 old-location: display\engwriteprinter.htm
-tech.root: display
+tech.root: Display
 ms.assetid: c65f09b2-5924-479a-8067-a1ba472348e2
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: EngWritePrinter, EngWritePrinter function [Display Devices], display.engwriteprinter, gdifncs_ec307778-86e1-4f8c-96c8-66c86e196a67.xml, winddi/EngWritePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices

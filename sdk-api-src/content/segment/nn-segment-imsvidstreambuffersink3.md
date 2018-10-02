@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSink3
 author: windows-sdk-content
 description: The IMSVidStreamBufferSink3 interface represents the Stream Buffer Sink filter within the Video Control.
 old-location: mstv\imsvidstreambuffersink3.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 5768936b-9c0a-4177-82da-cc6ebe62ea67
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSink3Interface, mstv.imsvidstreambuffersink3, segment/IMSVidStreamBufferSink3
 ms.prod: windows
 ms.technology: windows-sdk

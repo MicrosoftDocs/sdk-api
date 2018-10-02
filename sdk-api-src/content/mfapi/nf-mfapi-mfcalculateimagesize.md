@@ -4,10 +4,10 @@ title: MFCalculateImageSize function
 author: windows-sdk-content
 description: Retrieves the image size, in bytes, for an uncompressed video format.
 old-location: mf\mfcalculateimagesize.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 039ee3cd-2221-4405-ba7f-233a93a0271b
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 039ee3cd-2221-4405-ba7f-233a93a0271b, MFCalculateImageSize, MFCalculateImageSize function [Media Foundation], mf.mfcalculateimagesize, mfapi/MFCalculateImageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

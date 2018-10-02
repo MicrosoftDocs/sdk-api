@@ -4,10 +4,10 @@ title: AvSetMmMaxThreadCharacteristicsA function
 author: windows-sdk-content
 description: Associates the calling thread with the specified tasks.
 old-location: base\avsetmmmaxthreadcharacteristics.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: d8137b53-b1fd-4c25-909a-d0ed671848df
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: AvSetMmMaxThreadCharacteristics, AvSetMmMaxThreadCharacteristics function, AvSetMmMaxThreadCharacteristicsA, AvSetMmMaxThreadCharacteristicsW, avrt/AvSetMmMaxThreadCharacteristics, avrt/AvSetMmMaxThreadCharacteristicsA, avrt/AvSetMmMaxThreadCharacteristicsW, base.avsetmmmaxthreadcharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices

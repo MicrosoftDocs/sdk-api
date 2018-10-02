@@ -7,7 +7,7 @@ old-location: security\iazapplications_item.htm
 tech.root: SecAuthZ
 ms.assetid: a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzApplications object [Security],Item property, IAzApplications interface [Security],Item property, IAzApplications.Item, IAzApplications.get_Item, IAzApplications::Item, IAzApplications::get_Item, Item property [Security], Item property [Security],AzApplications object, Item property [Security],IAzApplications interface, azroles/IAzApplications::Item, azroles/IAzApplications::get_Item, get_Item, security.iazapplications_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

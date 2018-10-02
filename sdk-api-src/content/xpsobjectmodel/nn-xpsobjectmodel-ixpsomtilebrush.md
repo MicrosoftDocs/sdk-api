@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush.htm
 tech.root: printdocs
 ms.assetid: fc9e1925-0dbc-447b-9acc-e7f719df62d1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], IXpsOMTileBrush interface [XPS Documents and Packaging],described, xps.ixpsomtilebrush, xpsobjectmodel/IXpsOMTileBrush
 ms.prod: windows
 ms.technology: windows-sdk

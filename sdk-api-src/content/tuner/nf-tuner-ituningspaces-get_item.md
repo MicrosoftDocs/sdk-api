@@ -4,10 +4,10 @@ title: ITuningSpaces::get_Item
 author: windows-sdk-content
 description: The get_Item method returns the specified item in the collection.
 old-location: mstv\ituningspaces_get_item.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9f7686d5-f454-46ea-ae50-5c140fda3099
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get_Item method, ITuningSpaces.get_Item, ITuningSpaces::get_Item, ITuningSpacesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get_item, tuner/ITuningSpaces::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

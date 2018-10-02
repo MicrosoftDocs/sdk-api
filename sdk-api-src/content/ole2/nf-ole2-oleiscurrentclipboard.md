@@ -7,7 +7,7 @@ old-location: com\oleiscurrentclipboard.htm
 tech.root: com
 ms.assetid: 12844504-ef47-4a4d-b31b-f765e0f2ace6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: OleIsCurrentClipboard, OleIsCurrentClipboard function [COM], _ole_OleIsCurrentClipboard, com.oleiscurrentclipboard, ole2/OleIsCurrentClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

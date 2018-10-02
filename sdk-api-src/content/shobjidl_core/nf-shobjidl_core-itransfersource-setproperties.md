@@ -4,10 +4,10 @@ title: ITransferSource::SetProperties
 author: windows-sdk-content
 description: Sets properties that should be applied to an item.
 old-location: shell\ITransferSource_SetProperties.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c42497cc-5a19-41da-9356-1086796032a7
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ITransferSource interface [Windows Shell],SetProperties method, ITransferSource.SetProperties, ITransferSource::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],ITransferSource interface, _shell_ITransferSource_SetProperties, shell.ITransferSource_SetProperties, shobjidl_core/ITransferSource::SetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

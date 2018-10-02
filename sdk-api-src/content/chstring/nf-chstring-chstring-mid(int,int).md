@@ -7,7 +7,7 @@ old-location: wmi\chstring_mid_int_int_.htm
 tech.root: WmiSdk
 ms.assetid: f79f7b70-0587-4d5d-8a18-c61bd3c69212
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: "?Mid@CHString@@QBE?AV1@HH@Z, ?Mid@CHString@@QEBA?AV1@HH@Z, CHString interface [Windows Management Instrumentation],Mid method, CHString.Mid, CHString.Mid(int,int), CHString::Mid, CHString::Mid(int,int), Mid, Mid method [Windows Management Instrumentation], Mid method [Windows Management Instrumentation],CHString interface, chstring/CHString::Mid, wmi.chstring_mid_int_int_"
 ms.prod: windows-hardware
 ms.technology: windows-devices

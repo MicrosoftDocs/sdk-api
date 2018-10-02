@@ -4,10 +4,10 @@ title: RtlEthernetAddressToStringA function
 author: windows-sdk-content
 description: Converts a binary Ethernet address to a string representation of the Ethernet MAC address.
 old-location: iphlp\rtlethernetaddresstostring.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 5DE1A1EF-86B3-4414-A21F-90635B48242A
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: RtlEthernetAddressToString, RtlEthernetAddressToString function [IP Helper], RtlEthernetAddressToStringA, RtlEthernetAddressToStringW, ip2string/RtlEthernetAddressToString, ip2string/RtlEthernetAddressToStringA, ip2string/RtlEthernetAddressToStringW, iphlp.rtlethernetaddresstostring
 ms.prod: windows-hardware
 ms.technology: windows-devices

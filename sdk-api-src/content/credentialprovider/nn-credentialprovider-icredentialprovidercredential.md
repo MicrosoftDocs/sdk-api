@@ -4,10 +4,10 @@ title: ICredentialProviderCredential
 author: windows-sdk-content
 description: Exposes methods that enable the handling of a credential.
 old-location: shell\ICredentialProviderCredential.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ef9bb148-0b4e-4c13-b69d-3e63a5592e4a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], ICredentialProviderCredential interface [Windows Shell],described, credentialprovider/ICredentialProviderCredential, shell.ICredentialProviderCredential, shell_ICredentialProviderCredential
 ms.prod: windows
 ms.technology: windows-sdk

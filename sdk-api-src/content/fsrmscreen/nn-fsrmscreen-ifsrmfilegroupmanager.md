@@ -4,10 +4,10 @@ title: IFsrmFileGroupManager
 author: windows-sdk-content
 description: Used to manage file group objects.
 old-location: fsrm\ifsrmfilegroupmanager.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: e0a1a3d3-f683-410d-a0d9-081cd2476d1e
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], IFsrmFileGroupManager interface [File Server Resource Manager],described, fs.ifsrmfilegroupmanager, fsrm.ifsrmfilegroupmanager, fsrmscreen/IFsrmFileGroupManager
 ms.prod: windows
 ms.technology: windows-sdk

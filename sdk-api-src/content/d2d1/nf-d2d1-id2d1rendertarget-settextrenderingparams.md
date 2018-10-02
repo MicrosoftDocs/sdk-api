@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_SetTextRenderingParams.htm
 tech.root: direct2d
 ms.assetid: ab4b29a5-72a7-49dc-9131-696f888b0355
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],SetTextRenderingParams method, ID2D1RenderTarget.SetTextRenderingParams, ID2D1RenderTarget::SetTextRenderingParams, SetTextRenderingParams, SetTextRenderingParams method [Direct2D], SetTextRenderingParams method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetTextRenderingParams, direct2d.ID2D1RenderTarget_SetTextRenderingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDvbNetworkNameDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) network name descriptor.
 old-location: mstv\idvbnetworknamedescriptor_gettag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9bc0ffea-ef18-488e-adeb-a5fd19b343a6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbNetworkNameDescriptor.GetTag, IDvbNetworkNameDescriptor::GetTag, dvbsiparser/IDvbNetworkNameDescriptor::GetTag, mstv.idvbnetworknamedescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IShellMenu::SetShellFolder
 author: windows-sdk-content
 description: Specifies the folder for the menu band to browse.
 old-location: shell\IShellMenu_SetShellFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b442f64a-c8ab-4431-87d9-481befb51af7
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetShellFolder method, IShellMenu.SetShellFolder, IShellMenu::SetShellFolder, SMSET_BOTTOM, SMSET_COLLAPSEONEMPTY, SMSET_HASEXPANDABLEFOLDERS, SMSET_USEBKICONEXTRACTION, SetShellFolder, SetShellFolder method [Windows Shell], SetShellFolder method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetShellFolder, shell.IShellMenu_SetShellFolder, shobjidl_core/IShellMenu::SetShellFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

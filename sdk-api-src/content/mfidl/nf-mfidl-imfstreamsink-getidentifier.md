@@ -4,10 +4,10 @@ title: IMFStreamSink::GetIdentifier
 author: windows-sdk-content
 description: Retrieves the stream identifier for this stream sink.
 old-location: mf\imfstreamsink_getidentifier.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: af4855f6-36fa-4949-8b93-9e630a12e71b
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetIdentifier, GetIdentifier method [Media Foundation], GetIdentifier method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetIdentifier method, IMFStreamSink.GetIdentifier, IMFStreamSink::GetIdentifier, af4855f6-36fa-4949-8b93-9e630a12e71b, mf.imfstreamsink_getidentifier, mfidl/IMFStreamSink::GetIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

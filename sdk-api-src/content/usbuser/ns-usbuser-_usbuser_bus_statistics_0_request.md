@@ -4,10 +4,10 @@ title: "_USBUSER_BUS_STATISTICS_0_REQUEST"
 author: windows-sdk-content
 description: The USBUSER_BUS_STATISTICS_0_REQUEST structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve bus statistics.
 old-location: buses\usbuser_bus_statistics_0_request.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: 9913bcf7-61ce-4d96-9510-3b8d2117a802
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: "*PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQUEST structure pointer [Buses], USBUSER_BUS_STATISTICS_0_REQUEST, USBUSER_BUS_STATISTICS_0_REQUEST structure [Buses], _USBUSER_BUS_STATISTICS_0_REQUEST, buses.usbuser_bus_statistics_0_request, usbstrct_bf51b053-6add-4de5-95db-95f755f2bc28.xml, usbuser/PUSBUSER_BUS_STATISTICS_0_REQUEST, usbuser/USBUSER_BUS_STATISTICS_0_REQUEST"
 ms.prod: windows
 ms.technology: windows-sdk

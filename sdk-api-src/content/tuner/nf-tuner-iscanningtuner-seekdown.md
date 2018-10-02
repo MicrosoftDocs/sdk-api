@@ -4,10 +4,10 @@ title: IScanningTuner::SeekDown
 author: windows-sdk-content
 description: The SeekDown method changes the channel to the next lower channel with valid programming.
 old-location: mstv\iscanningtuner_seekdown.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ef78bae1-238f-4774-ab9a-b3681ba53656
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],SeekDown method, IScanningTuner.SeekDown, IScanningTuner::SeekDown, IScanningTunerSeekDown, SeekDown, SeekDown method [Microsoft TV Technologies], SeekDown method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_seekdown, tuner/IScanningTuner::SeekDown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FwpmFilterSubscriptionsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all the current filter change notification subscriptions.
 old-location: fwp\fwpmfiltersubscriptionsget0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 347c7792-12bc-4a2c-b4c2-7a71ee4a3709
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmFilterSubscriptionsGet0, FwpmFilterSubscriptionsGet0 function [Filtering], fwp.fwpmfiltersubscriptionsget0_func, fwpmu/FwpmFilterSubscriptionsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

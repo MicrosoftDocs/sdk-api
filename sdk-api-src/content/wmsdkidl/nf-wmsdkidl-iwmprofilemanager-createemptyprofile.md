@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager_createemptyprofile.htm
 tech.root: wmformat
 ms.assetid: fb5c2ed4-f733-422e-87e3-8e70c3ee9f1c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: CreateEmptyProfile, CreateEmptyProfile method [windows Media Format], CreateEmptyProfile method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],CreateEmptyProfile method, IWMProfileManager.CreateEmptyProfile, IWMProfileManager::CreateEmptyProfile, IWMProfileManagerCreateEmptyProfile, wmformat.iwmprofilemanager_createemptyprofile, wmsdkidl/IWMProfileManager::CreateEmptyProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\stream_seek.htm
 tech.root: Stg
 ms.assetid: f73a8f98-c004-40c7-b8d2-5b84d7aa2c31
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: STREAM_SEEK, STREAM_SEEK enumeration [Structured Storage], STREAM_SEEK_CUR, STREAM_SEEK_END, STREAM_SEEK_SET, _stg_stream_seek, objidl/STREAM_SEEK, objidl/STREAM_SEEK_CUR, objidl/STREAM_SEEK_END, objidl/STREAM_SEEK_SET, stg.stream_seek, tagSTREAM_SEEK
 ms.prod: windows
 ms.technology: windows-sdk

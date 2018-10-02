@@ -4,10 +4,10 @@ title: IBDA_IPV6Filter::GetMulticastList
 author: windows-sdk-content
 description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ipv6filter_getmulticastlist.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 545c6bcb-f96c-47d7-ac33-92da016dbabf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPV6Filter.GetMulticastList, IBDA_IPV6Filter::GetMulticastList, IBDA_IPV6FilterGetMulticastList, bdaiface/IBDA_IPV6Filter::GetMulticastList, mstv.ibda_ipv6filter_getmulticastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

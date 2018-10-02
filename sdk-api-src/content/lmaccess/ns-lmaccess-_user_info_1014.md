@@ -4,10 +4,10 @@ title: "_USER_INFO_1014"
 author: windows-sdk-content
 description: The USER_INFO_1014 structure contains the names of workstations from which the user can log on. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1014_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ff7f385d-bcda-4560-b22f-d1fc94e7ae41
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPUSER_INFO_1014, *PUSER_INFO_1014, LPUSER_INFO_1014, LPUSER_INFO_1014 structure pointer [Network Management], PUSER_INFO_1014, PUSER_INFO_1014 structure pointer [Network Management], USER_INFO_1014, USER_INFO_1014 structure [Network Management], _USER_INFO_1014, _win32_user_info_1014_str, lmaccess/LPUSER_INFO_1014, lmaccess/PUSER_INFO_1014, lmaccess/USER_INFO_1014, netmgmt.user_info_1014_str"
 ms.prod: windows
 ms.technology: windows-sdk

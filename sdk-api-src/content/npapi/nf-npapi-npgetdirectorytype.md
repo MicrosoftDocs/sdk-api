@@ -4,10 +4,10 @@ title: NPGetDirectoryType function
 author: windows-sdk-content
 description: Determines the type of a network directory.
 old-location: security\npgetdirectorytype.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 70ee5c14-1395-470a-970c-91a3d3ac0fd1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: NPGetDirectoryType, NPGetDirectoryType function [Security], _mnp_npgetdirectorytype, npapi/NPGetDirectoryType, security.npgetdirectorytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

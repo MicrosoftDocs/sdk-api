@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_setmodulepath.htm
 tech.root: SMI
 ms.assetid: 4831fdf9-411b-4fdb-bd5c-3a309e6b6918
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITargetInfo interface [SMI],SetModulePath method, ITargetInfo.SetModulePath, ITargetInfo::SetModulePath, SetModulePath, SetModulePath method [SMI], SetModulePath method [SMI],ITargetInfo interface, smi.itargetinfo_setmodulepath, wcmconfig/ITargetInfo::SetModulePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

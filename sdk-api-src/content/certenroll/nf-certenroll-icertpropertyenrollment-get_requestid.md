@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollment_requestid_property.htm
 tech.root: SecCertEnroll
 ms.assetid: a9e2000c-7d64-43f1-b891-b5cd6f46201f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],RequestId property, ICertPropertyEnrollment.RequestId, ICertPropertyEnrollment.get_RequestId, ICertPropertyEnrollment::RequestId, ICertPropertyEnrollment::get_RequestId, RequestId property [Security], RequestId property [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::RequestId, certenroll/ICertPropertyEnrollment::get_RequestId, get_RequestId, security.icertpropertyenrollment_requestid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

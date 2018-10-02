@@ -4,10 +4,10 @@ title: "_PROCESSOR_RELATIONSHIP"
 author: windows-sdk-content
 description: Represents information about affinity within a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\processor_relationship.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1efda80d-cf5b-4312-801a-ea3585b152ac
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP structure pointer, PROCESSOR_RELATIONSHIP, PROCESSOR_RELATIONSHIP structure, _PROCESSOR_RELATIONSHIP, base.processor_relationship, winnt/PPROCESSOR_RELATIONSHIP, winnt/PROCESSOR_RELATIONSHIP"
 ms.prod: windows
 ms.technology: windows-sdk

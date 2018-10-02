@@ -7,7 +7,7 @@ old-location: gdi\ixpsprintjob.htm
 tech.root: printdocs
 ms.assetid: aa17e059-6208-4348-87f3-556a3818f2b9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsPrintJob, IXpsPrintJob interface [Windows GDI], IXpsPrintJob interface [Windows GDI],described, gdi.ixpsprintjob, xpsprint/IXpsPrintJob
 ms.prod: windows
 ms.technology: windows-sdk

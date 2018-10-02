@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt16VectorAlloc.htm
 tech.root: properties
 ms.assetid: 489aff33-2faa-480a-a146-67f6ef4b8b93
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: PropVariantToInt16VectorAlloc, PropVariantToInt16VectorAlloc function [Windows Properties], _shell_PropVariantToInt16VectorAlloc, properties.PropVariantToInt16VectorAlloc, propvarutil/PropVariantToInt16VectorAlloc, shell.PropVariantToInt16VectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

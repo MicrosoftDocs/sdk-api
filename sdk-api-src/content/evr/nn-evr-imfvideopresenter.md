@@ -4,10 +4,10 @@ title: IMFVideoPresenter
 author: windows-sdk-content
 description: Represents a video presenter. A video presenter is an object that receives video frames, typically from a video mixer, and presents them in some way, typically by rendering them to the display.
 old-location: mf\imfvideopresenter.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8f6e3132-03e9-4a2e-9160-e39d29cf2408
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 8f6e3132-03e9-4a2e-9160-e39d29cf2408, IMFVideoPresenter, IMFVideoPresenter interface [Media Foundation], IMFVideoPresenter interface [Media Foundation],described, evr/IMFVideoPresenter, mf.imfvideopresenter
 ms.prod: windows
 ms.technology: windows-sdk

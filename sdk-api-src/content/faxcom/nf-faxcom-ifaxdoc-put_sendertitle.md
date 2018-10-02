@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendertitle_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3obp.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderTitle property, IFaxDoc.SenderTitle, IFaxDoc.put_SenderTitle, IFaxDoc::SenderTitle, IFaxDoc::get_SenderTitle, IFaxDoc::put_SenderTitle, SenderTitle property [Fax Service], SenderTitle property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendertitle_cpp, faxcom/IFaxDoc::SenderTitle, faxcom/IFaxDoc::get_SenderTitle, faxcom/IFaxDoc::put_SenderTitle, put_SenderTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

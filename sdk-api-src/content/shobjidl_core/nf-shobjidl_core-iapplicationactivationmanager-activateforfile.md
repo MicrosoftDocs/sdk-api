@@ -4,10 +4,10 @@ title: IApplicationActivationManager::ActivateForFile
 author: windows-sdk-content
 description: Activates the specified Windows Store app for the file contract (Windows.File).
 old-location: shell\IApplicationActivationManager_ActivateForFile.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: E7EBB743-4847-4966-A2EA-486BBA6A4A6F
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ActivateForFile, ActivateForFile method [Windows Shell], ActivateForFile method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForFile method, IApplicationActivationManager.ActivateForFile, IApplicationActivationManager::ActivateForFile, shell.IApplicationActivationManager_ActivateForFile, shobjidl_core/IApplicationActivationManager::ActivateForFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

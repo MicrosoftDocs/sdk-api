@@ -7,7 +7,7 @@ old-location: security\reverttoself.htm
 tech.root: SecAuthZ
 ms.assetid: e3de77b9-dd27-4f20-b63d-ad2c57ac4283
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself, security.reverttoself, securitybaseapi/RevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices

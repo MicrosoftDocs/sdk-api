@@ -7,7 +7,7 @@ old-location: security\certserializecrlstoreelement.htm
 tech.root: seccrypto
 ms.assetid: 4ab053cd-d3d4-483c-b0ff-b8de63d88707
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: CertSerializeCRLStoreElement, CertSerializeCRLStoreElement function [Security], _crypto2_certserializecrlstoreelement, security.certserializecrlstoreelement, wincrypt/CertSerializeCRLStoreElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

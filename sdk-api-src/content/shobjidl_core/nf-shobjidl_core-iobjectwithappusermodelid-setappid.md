@@ -4,10 +4,10 @@ title: IObjectWithAppUserModelID::SetAppID
 author: windows-sdk-content
 description: Specifies a unique application-defined Application User Model ID (AppUserModelID) that identifies the object as a handler for a specific file type. This method is used by applications that require dynamic AppUserModelIDs.
 old-location: shell\IObjectWithAppUserModelID_SetAppID.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6f6850fc-2aa5-46fa-b237-82aafa844092
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IObjectWithAppUserModelID interface [Windows Shell],SetAppID method, IObjectWithAppUserModelID.SetAppID, IObjectWithAppUserModelID::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IObjectWithAppUserModelID interface, _shell_IObjectWithAppUserModelID_SetAppID, shell.IObjectWithAppUserModelID_SetAppID, shobjidl_core/IObjectWithAppUserModelID::SetAppID
 ms.prod: windows-hardware
 ms.technology: windows-devices

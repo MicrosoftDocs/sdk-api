@@ -7,7 +7,7 @@ old-location: stg\locktype.htm
 tech.root: Stg
 ms.assetid: 5d84fb08-aa4f-4918-a0de-550b02cb5287
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LOCKTYPE, LOCKTYPE enumeration [Structured Storage], LOCK_EXCLUSIVE, LOCK_ONLYONCE, LOCK_WRITE, _stg_locktype, objidl/LOCKTYPE, objidl/LOCK_EXCLUSIVE, objidl/LOCK_ONLYONCE, objidl/LOCK_WRITE, stg.locktype, tagLOCKTYPE
 ms.prod: windows
 ms.technology: windows-sdk

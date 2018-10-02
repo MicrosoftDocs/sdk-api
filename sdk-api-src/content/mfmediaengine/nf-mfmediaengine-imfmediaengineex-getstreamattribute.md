@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::GetStreamAttribute
 author: windows-sdk-content
 description: Gets a stream-level attribute from the media resource.
 old-location: mf\imfmediaengineex_getstreamattribute.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2C64CD7B-F376-47DF-AD5A-DE5EBC665288
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStreamAttribute method, IMFMediaEngineEx.GetStreamAttribute, IMFMediaEngineEx::GetStreamAttribute, mf.imfmediaengineex_getstreamattribute, mfmediaengine/IMFMediaEngineEx::GetStreamAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

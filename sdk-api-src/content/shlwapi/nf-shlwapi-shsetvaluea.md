@@ -4,10 +4,10 @@ title: SHSetValueA function
 author: windows-sdk-content
 description: Sets the value of a registry key.
 old-location: shell\SHSetValue.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6cd5b7fd-8fb9-4c24-9670-20c23ca709bf
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHSetValue, SHSetValue function [Windows Shell], SHSetValueA, SHSetValueW, _win32_SHSetValue, shell.SHSetValue, shlwapi/SHSetValue, shlwapi/SHSetValueA, shlwapi/SHSetValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

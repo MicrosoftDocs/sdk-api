@@ -4,10 +4,10 @@ title: SHSetUnreadMailCountW function
 author: windows-sdk-content
 description: Stores the current user's unread message count for a specified email account in the registry.
 old-location: shell\SHSetUnreadMailCount.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 4a0e1ade-8df1-41b5-b6ea-dad427b50f5a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHSetUnreadMailCount, SHSetUnreadMailCount function [Windows Shell], SHSetUnreadMailCountW, _shell_SHSetUnreadMailCount, shell.SHSetUnreadMailCount, shellapi/SHSetUnreadMailCount, shellapi/SHSetUnreadMailCountW
 ms.prod: windows-hardware
 ms.technology: windows-devices

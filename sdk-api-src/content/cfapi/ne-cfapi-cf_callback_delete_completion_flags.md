@@ -7,7 +7,7 @@ old-location: cloudapi\cf_callback_delete_completion_flags.htm
 tech.root: cfApi
 ms.assetid: 33971B32-C97B-4C79-B6ED-B2E1C20B912A
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 09/28/2018
 ms.keywords: CF_CALLBACK_DELETE_COMPLETION_FLAGS, CF_CALLBACK_DELETE_COMPLETION_FLAGS enumeration, CF_CALLBACK_DELETE_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_DELETE_COMPLETION_FLAGS, cfapi/CF_CALLBACK_DELETE_COMPLETION_FLAG_NONE, cloudApi.cf_callback_delete_completion_flags
 ms.prod: windows
 ms.technology: windows-sdk

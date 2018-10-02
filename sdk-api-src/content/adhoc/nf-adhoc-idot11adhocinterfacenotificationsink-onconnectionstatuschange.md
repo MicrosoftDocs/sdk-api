@@ -4,10 +4,10 @@ title: IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange
 author: windows-sdk-content
 description: Notifies the client that the connection status of the network associated with the NIC has changed.
 old-location: nwifi\idot11adhocinterfacenotificationsink_onconnectionstatuschange.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: a2116e44-e29b-4110-8794-ed161fdb534d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IDot11AdHocInterfaceNotificationSink interface [NativeWIFI],OnConnectionStatusChange method, IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange, IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, OnConnectionStatusChange, OnConnectionStatusChange method [NativeWIFI], OnConnectionStatusChange method [NativeWIFI],IDot11AdHocInterfaceNotificationSink interface, adhoc/IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, nwifi.idot11adhocinterfacenotificationsink_onconnectionstatuschange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::GetBorderColor
 author: windows-sdk-content
 description: Gets the current color of the video border.
 old-location: mf\imfpmediaplayer_getbordercolor.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: a07bacbd-3d45-4733-a506-3c54ec10b634
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetBorderColor method, IMFPMediaPlayer.GetBorderColor, IMFPMediaPlayer::GetBorderColor, mf.imfpmediaplayer_getbordercolor, mfplay/IMFPMediaPlayer::GetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

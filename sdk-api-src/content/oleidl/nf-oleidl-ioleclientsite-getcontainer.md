@@ -7,7 +7,7 @@ old-location: com\ioleclientsite_getcontainer.htm
 tech.root: com
 ms.assetid: 8f0caf07-f059-4e0c-9c28-c7ad0cc149e3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: GetContainer, GetContainer method [COM], GetContainer method [COM],IOleClientSite interface, IOleClientSite interface [COM],GetContainer method, IOleClientSite.GetContainer, IOleClientSite::GetContainer, _ole_ioleclientsite_getcontainer, com.ioleclientsite_getcontainer, oleidl/IOleClientSite::GetContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

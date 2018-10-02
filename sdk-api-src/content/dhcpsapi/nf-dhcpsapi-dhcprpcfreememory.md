@@ -4,10 +4,10 @@ title: DhcpRpcFreeMemory function
 author: windows-sdk-content
 description: The DhcpRpcFreeMemory function frees a block of buffer space returned as a parameter.
 old-location: dhcp\dhcprpcfreememory.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: bf22a0a6-2ecd-4460-89c4-3f870c6275dc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpRpcFreeMemory, DhcpRpcFreeMemory function [DHCP], dhcp.dhcprpcfreememory, dhcpsapi/DhcpRpcFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

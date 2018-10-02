@@ -4,10 +4,10 @@ title: eAVEncVideoContentType
 author: windows-sdk-content
 description: Specifies the type of video content.
 old-location: mf\eavencvideocontenttype.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 24670733-18F8-489A-AE43-E59F444F8340
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: codecapi/eAVEncVideoContentType, codecapi/eAVEncVideoContentType_FixedCameraAngle, codecapi/eAVEncVideoContentType_Unknown, eAVEncVideoContentType, eAVEncVideoContentType enumeration [Media Foundation], eAVEncVideoContentType_FixedCameraAngle, eAVEncVideoContentType_Unknown, mf.eavencvideocontenttype
 ms.prod: windows
 ms.technology: windows-sdk

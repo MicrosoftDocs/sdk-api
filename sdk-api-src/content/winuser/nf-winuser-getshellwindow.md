@@ -7,7 +7,7 @@ old-location: winmsg\getshellwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getshellwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetShellWindow, GetShellWindow function [Windows and Messages], _win32_GetShellWindow, _win32_getshellwindow_cpp, winmsg.getshellwindow, winui._win32_getshellwindow, winuser/GetShellWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

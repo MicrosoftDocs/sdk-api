@@ -7,7 +7,7 @@ old-location: com\cotreatasclass.htm
 tech.root: com
 ms.assetid: d871879f-ec68-48e1-8ef6-364cf1447d0f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: CoTreatAsClass, CoTreatAsClass function [COM], _com_CoTreatAsClass, com.cotreatasclass, objbase/CoTreatAsClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

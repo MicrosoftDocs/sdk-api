@@ -7,7 +7,7 @@ old-location: hidpi\getwindowdpihostingbehavior.htm
 tech.root: hidpi
 ms.assetid: BD16F545-54A1-479A-BA4B-F54834043EB2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetWindowDpiHostingBehavior, GetWindowDpiHostingBehavior function [High DPI], hidpi.getwindowdpihostingbehavior, winuser/GetWindowDpiHostingBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices

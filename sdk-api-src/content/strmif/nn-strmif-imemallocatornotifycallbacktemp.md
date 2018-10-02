@@ -7,7 +7,7 @@ old-location: dshow\imemallocatornotifycallbacktemp.htm
 tech.root: DirectShow
 ms.assetid: 63097b58-8197-4354-8b92-25baaf265df2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp, IMemAllocatorNotifyCallbackTemp interface [DirectShow], IMemAllocatorNotifyCallbackTemp interface [DirectShow],described, IMemAllocatorNotifyCallbackTempInterface, dshow.imemallocatornotifycallbacktemp, strmif/IMemAllocatorNotifyCallbackTemp
 ms.prod: windows
 ms.technology: windows-sdk

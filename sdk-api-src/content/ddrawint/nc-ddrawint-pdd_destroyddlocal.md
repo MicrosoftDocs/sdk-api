@@ -4,10 +4,10 @@ title: PDD_DESTROYDDLOCAL
 author: windows-sdk-content
 description: The D3dDestroyDDLocal function destroys all the Microsoft Direct3D surfaces previously created by the D3dCreateSurfaceEx function that belong to the same given local Microsoft DirectDraw object.
 old-location: display\d3ddestroyddlocal.htm
-tech.root: display
+tech.root: Display
 ms.assetid: c68b924b-422d-4a01-8dac-674835833798
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: D3dDestroyDDLocal, D3dDestroyDDLocal callback function [Display Devices], PDD_DESTROYDDLOCAL, PDD_DESTROYDDLOCAL callback, d3dfncs_3480b8ff-c19d-4495-ab5e-d5ef4e326967.xml, ddrawint/D3dDestroyDDLocal, display.d3ddestroyddlocal
 ms.prod: windows
 ms.technology: windows-sdk

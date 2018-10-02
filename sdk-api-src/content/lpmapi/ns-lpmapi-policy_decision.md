@@ -7,7 +7,7 @@ old-location: qos\policy_decision.htm
 tech.root: QOS
 ms.assetid: 6896031d-a8b4-46c5-bb52-61808bbb23f2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: POLICY_DECISION, POLICY_DECISION structure [QOS], lpmapi/POLICY_DECISION, policy_decision, qos.policy_decision
 ms.prod: windows
 ms.technology: windows-sdk

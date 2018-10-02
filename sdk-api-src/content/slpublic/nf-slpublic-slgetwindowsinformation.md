@@ -7,7 +7,7 @@ old-location: security\slgetwindowsinformation.htm
 tech.root: SecSLApi
 ms.assetid: 007b3f3a-c320-4bbc-ab5c-746b513cb815
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SLGetWindowsInformation, SLGetWindowsInformation function [Security], security.slgetwindowsinformation, slpublic/SLGetWindowsInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

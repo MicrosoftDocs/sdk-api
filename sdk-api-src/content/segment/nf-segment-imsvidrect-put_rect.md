@@ -4,10 +4,10 @@ title: IMSVidRect::put_Rect
 author: windows-sdk-content
 description: The put_Rect method copies the values of another rectangle to this rectangle.
 old-location: mstv\imsvidrect_put_rect.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e50fd657-d913-49f5-b4dd-fb4c0d207417
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Rect method, IMSVidRect.put_Rect, IMSVidRect::put_Rect, IMSVidRectput_Rect, mstv.imsvidrect_put_rect, put_Rect, put_Rect method [Microsoft TV Technologies], put_Rect method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Rect
 ms.prod: windows-hardware
 ms.technology: windows-devices

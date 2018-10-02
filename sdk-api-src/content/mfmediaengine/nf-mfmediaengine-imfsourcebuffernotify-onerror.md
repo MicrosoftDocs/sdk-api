@@ -4,10 +4,10 @@ title: IMFSourceBufferNotify::OnError
 author: windows-sdk-content
 description: Used to indicate that an error has occurred with the source buffer.
 old-location: mf\imfsourcebuffernotify_onerror.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnError method, IMFSourceBufferNotify.OnError, IMFSourceBufferNotify::OnError, OnError, OnError method [Media Foundation], OnError method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onerror, mfmediaengine/IMFSourceBufferNotify::OnError
 ms.prod: windows-hardware
 ms.technology: windows-devices

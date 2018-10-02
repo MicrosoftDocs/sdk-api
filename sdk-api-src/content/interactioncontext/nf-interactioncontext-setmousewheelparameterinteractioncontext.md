@@ -7,7 +7,7 @@ old-location: input_intcontext\setmousewheelparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: fbc47bd4-f78a-4b03-8adc-9b2c4620ea55
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 09/26/2018
 ms.keywords: SetMouseWheelParameterInteractionContext, SetMouseWheelParameterInteractionContext function, input_intcontext.setmousewheelparameterinteractioncontext, interactioncontext.setmousewheelparameterinteractioncontext, interactioncontext/SetMouseWheelParameterInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

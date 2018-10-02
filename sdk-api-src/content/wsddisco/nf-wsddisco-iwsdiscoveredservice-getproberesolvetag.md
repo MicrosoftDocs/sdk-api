@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getproberesolvetag.htm
 tech.root: WsdApi
 ms.assetid: 80c22d39-0197-4e4d-b47e-e04ae90716f9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetProbeResolveTag, GetProbeResolveTag method, GetProbeResolveTag method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetProbeResolveTag method, IWSDiscoveredService.GetProbeResolveTag, IWSDiscoveredService::GetProbeResolveTag, ncd.iwsdiscoveredservice_getproberesolvetag, wsddisco/IWSDiscoveredService::GetProbeResolveTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

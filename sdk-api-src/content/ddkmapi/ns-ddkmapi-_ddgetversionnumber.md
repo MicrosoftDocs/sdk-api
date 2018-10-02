@@ -4,10 +4,10 @@ title: "_DDGETVERSIONNUMBER"
 author: windows-sdk-content
 description: The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the video miniport driver's DxApi interface.
 old-location: display\ddgetversionnumber.htm
-tech.root: display
+tech.root: Display
 ms.assetid: fa752700-8bc4-46be-bed9-d7d546f18f03
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDDGETVERSIONNUMBER, DDGETVERSIONNUMBER, DDGETVERSIONNUMBER structure [Display Devices], LPDDGETVERSIONNUMBER, LPDDGETVERSIONNUMBER structure pointer [Display Devices], _DDGETVERSIONNUMBER, ddkmapi/DDGETVERSIONNUMBER, ddkmapi/LPDDGETVERSIONNUMBER, ddstrcts_82a9e57e-1569-44f2-b903-41140e18621f.xml, display.ddgetversionnumber"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: adsi\iads.htm
 tech.root: ADSI
 ms.assetid: f53d9ee0-3f4d-4a01-b953-98d168ad94cb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IADs, IADs interface [ADSI], IADs interface [ADSI],described, _ds_iads, adsi.iads, iads/IADs
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISdoCollection::get_Count
 author: windows-sdk-content
 description: The get_Count method returns the number of items in the collection.
 old-location: nps\SDO_isdocollection_get_count.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: 57f83f72-327b-4018-be1b-3527820f88d5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],get_Count method, ISdoCollection.get_Count, ISdoCollection::get_Count, _sdo_isdocollection_get_count, get_Count, get_Count method [Network Policy Server], get_Count method [Network Policy Server],ISdoCollection interface, nps.SDO_isdocollection_get_count, sdo.isdocollection_get_count, sdoias/ISdoCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

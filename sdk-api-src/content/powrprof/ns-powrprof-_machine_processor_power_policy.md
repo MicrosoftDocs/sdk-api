@@ -4,10 +4,10 @@ title: "_MACHINE_PROCESSOR_POWER_POLICY"
 author: windows-sdk-content
 description: Contains processor power policy settings that apply while the system is running on AC power or battery power.
 old-location: base\machine_processor_power_policy_str.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 54403b81-97bc-4f2b-8721-48c9f69e2773
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMACHINE_PROCESSOR_POWER_POLICY, MACHINE_PROCESSOR_POWER_POLICY, MACHINE_PROCESSOR_POWER_POLICY structure, PMACHINE_PROCESSOR_POWER_POLICY, PMACHINE_PROCESSOR_POWER_POLICY structure pointer, _MACHINE_PROCESSOR_POWER_POLICY, _win32_machine_processor_power_policy_str, base.machine_processor_power_policy_str, powrprof/MACHINE_PROCESSOR_POWER_POLICY, powrprof/PMACHINE_PROCESSOR_POWER_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

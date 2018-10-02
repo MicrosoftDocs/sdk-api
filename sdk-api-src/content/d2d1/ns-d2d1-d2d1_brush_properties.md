@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_BRUSH_PROPERTIES.htm
 tech.root: direct2d
 ms.assetid: 37b2fc18-a320-41c0-8717-dcd561a2f2df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: D2D1_BRUSH_PROPERTIES, D2D1_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_BRUSH_PROPERTIES, direct2d.D2D1_BRUSH_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

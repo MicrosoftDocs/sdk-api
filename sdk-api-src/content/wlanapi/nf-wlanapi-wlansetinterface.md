@@ -4,10 +4,10 @@ title: WlanSetInterface function
 author: windows-sdk-content
 description: Sets user-configurable parameters.
 old-location: nwifi\wlansetinterface.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 114a2a71-babd-4cd7-860a-fea523bcc865
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wlansetinterface, wlanapi/WlanSetInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

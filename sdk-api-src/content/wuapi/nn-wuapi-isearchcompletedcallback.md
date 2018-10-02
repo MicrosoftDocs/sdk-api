@@ -4,10 +4,10 @@ title: ISearchCompletedCallback
 author: windows-sdk-content
 description: Contains a method that handles the notification about the completion of an asynchronous search operation.
 old-location: wua\isearchcompletedcallback.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: f228808d-7f7e-4107-a4b6-4bac5b48d1b4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: ISearchCompletedCallback, ISearchCompletedCallback interface [Windows Update Agent], ISearchCompletedCallback interface [Windows Update Agent],described, wua.isearchcompletedcallback, wuapi/ISearchCompletedCallback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\opc_relationships_signing_option.htm
 tech.root: OPC
 ms.assetid: b6a83730-459a-4119-a013-7d670e659c32
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: OPC_RELATIONSHIPS_SIGNING_OPTION, OPC_RELATIONSHIPS_SIGNING_OPTION enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SIGN_PART, OPC_RELATIONSHIP_SIGN_USING_SELECTORS, __MIDL___MIDL_itf_msopc_0001_0076_0003, msopc/OPC_RELATIONSHIPS_SIGNING_OPTION, msopc/OPC_RELATIONSHIP_SIGN_PART, msopc/OPC_RELATIONSHIP_SIGN_USING_SELECTORS, opc.opc_relationships_signing_option
 ms.prod: windows
 ms.technology: windows-sdk

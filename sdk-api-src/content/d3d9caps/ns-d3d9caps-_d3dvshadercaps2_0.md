@@ -4,10 +4,10 @@ title: "_D3DVSHADERCAPS2_0"
 author: windows-sdk-content
 description: Vertex shader caps.
 old-location: direct3d9\d3dvshadercaps2_0.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\d3dvshadercaps2_0.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 85a71d10-ae0f-bdc3-e929-6d1ff3c0b356, D3DVSHADERCAPS2_0, D3DVSHADERCAPS2_0 structure [Direct3D 9], LPD3DVSHADERCAPS2_0, LPD3DVSHADERCAPS2_0 structure pointer [Direct3D 9], _D3DVSHADERCAPS2_0, d3d9caps/D3DVSHADERCAPS2_0, d3d9caps/LPD3DVSHADERCAPS2_0, direct3d9.d3dvshadercaps2_0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAdvancedMediaCapture
 author: windows-sdk-content
 description: Enables advanced media capture.
 old-location: mf\iadvancedmediacapture.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 932b0cbf-c264-4c3b-b143-023dd7f809f1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IAdvancedMediaCapture, IAdvancedMediaCapture interface [Media Foundation], IAdvancedMediaCapture interface [Media Foundation],described, mf.iadvancedmediacapture, mfmediacapture/IAdvancedMediaCapture
 ms.prod: windows
 ms.technology: windows-sdk

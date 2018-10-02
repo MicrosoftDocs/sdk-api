@@ -4,10 +4,10 @@ title: IConsole::QueryConsoleVerb
 author: windows-sdk-content
 description: Queries for the IConsoleVerb interface.
 old-location: mmc\iconsole_queryconsoleverb.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 6C40014C-EBCC-455C-A575-4637B253439C
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: IConsole interface [MMC],QueryConsoleVerb method, IConsole.QueryConsoleVerb, IConsole::QueryConsoleVerb, QueryConsoleVerb, QueryConsoleVerb method [MMC], QueryConsoleVerb method [MMC],IConsole interface, mmc.iconsole_queryconsoleverb, mmc/IConsole::QueryConsoleVerb
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method supports For...Each loops in Automation clients.
 old-location: mstv\ituningspacecontainer_get__newenum.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f2bcd80b-b36c-44b1-9a87-beda7ae12117
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get__NewEnum method, ITuningSpaceContainer.get__NewEnum, ITuningSpaceContainer::get__NewEnum, ITuningSpaceContainerget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get__newenum, tuner/ITuningSpaceContainer::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

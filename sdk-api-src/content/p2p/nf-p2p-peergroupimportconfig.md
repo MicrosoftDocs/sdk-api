@@ -4,10 +4,10 @@ title: PeerGroupImportConfig function
 author: windows-sdk-content
 description: The PeerGroupImportConfig function imports a peer group configuration for an identity based on the specific settings in a supplied XML configuration string.
 old-location: p2p\peergroupimportconfig.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: e459f2f9-b118-4e22-8b32-65d389795664
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGroupImportConfig, PeerGroupImportConfig function [Peer Networking], p2p.peergroupimportconfig, p2p/PeerGroupImportConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

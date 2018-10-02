@@ -4,10 +4,10 @@ title: IFolderView2::GetGroupBy
 author: windows-sdk-content
 description: Retrieves the property and sort order used for grouping items in the folder display.
 old-location: shell\IFolderView2_GetGroupBy.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 6fabf321-34af-4a5e-b2c0-9ed344e1c782
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetGroupBy, GetGroupBy method [Windows Shell], GetGroupBy method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetGroupBy method, IFolderView2.GetGroupBy, IFolderView2::GetGroupBy, _shell_IFolderView2_GetGroupBy, shell.IFolderView2_GetGroupBy, shobjidl_core/IFolderView2::GetGroupBy
 ms.prod: windows-hardware
 ms.technology: windows-devices

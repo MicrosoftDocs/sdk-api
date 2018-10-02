@@ -4,10 +4,10 @@ title: "_DDOPENSURFACEIN"
 author: windows-sdk-content
 description: The DDOPENSURFACEIN structure contains the DirectDrawSurface object information.
 old-location: display\ddopensurfacein.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 98a5d436-096d-4698-8f2c-31a0455300ff
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDDOPENSURFACEIN, DDOPENSURFACEIN, DDOPENSURFACEIN structure [Display Devices], LPDDOPENSURFACEIN, LPDDOPENSURFACEIN structure pointer [Display Devices], _DDOPENSURFACEIN, ddkmapi/DDOPENSURFACEIN, ddkmapi/LPDDOPENSURFACEIN, ddstrcts_406539e4-c43f-4871-b00b-30c71433d1fd.xml, display.ddopensurfacein"
 ms.prod: windows
 ms.technology: windows-sdk

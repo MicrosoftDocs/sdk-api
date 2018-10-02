@@ -4,10 +4,10 @@ title: "_CRED_PROTECTION_TYPE"
 author: windows-sdk-content
 description: Specifies the security context in which credentials are encrypted when using the CredProtect function.
 old-location: security\cred_protection_type.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 6d8d8ad6-1b44-4482-a9a2-9c50d522b8d9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCRED_PROTECTION_TYPE, CRED_PROTECTION_TYPE, CRED_PROTECTION_TYPE enumeration [Security], CredTrustedProtection, CredUnprotected, CredUserProtection, PCRED_PROTECTION_TYPE, PCRED_PROTECTION_TYPE enumeration pointer [Security], _CRED_PROTECTION_TYPE, security.cred_protection_type, wincred/CRED_PROTECTION_TYPE, wincred/CredTrustedProtection, wincred/CredUnprotected, wincred/CredUserProtection, wincred/PCRED_PROTECTION_TYPE"
 ms.prod: windows
 ms.technology: windows-sdk

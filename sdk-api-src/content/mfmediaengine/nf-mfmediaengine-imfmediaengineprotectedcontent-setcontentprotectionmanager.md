@@ -4,10 +4,10 @@ title: IMFMediaEngineProtectedContent::SetContentProtectionManager
 author: windows-sdk-content
 description: Sets the content protection manager (CPM).
 old-location: mf\imfmediaengineprotectedcontent_setcontentprotectionmanager.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8F150CB5-43AB-4709-A254-636440113642
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetContentProtectionManager method, IMFMediaEngineProtectedContent.SetContentProtectionManager, IMFMediaEngineProtectedContent::SetContentProtectionManager, SetContentProtectionManager, SetContentProtectionManager method [Media Foundation], SetContentProtectionManager method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setcontentprotectionmanager, mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

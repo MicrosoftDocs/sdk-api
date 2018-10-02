@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport2_removeallbehaviors
 tech.root: directmanipulation
 ms.assetid: 94CCF2F4-F6E7-4446-8F6A-3E058B98A328
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: IDirectManipulationViewport2 interface [Direct Manipulation],RemoveAllBehaviors method, IDirectManipulationViewport2.RemoveAllBehaviors, IDirectManipulationViewport2::RemoveAllBehaviors, RemoveAllBehaviors, RemoveAllBehaviors method [Direct Manipulation], RemoveAllBehaviors method [Direct Manipulation],IDirectManipulationViewport2 interface, directmanipulation.idirectmanipulationviewport2_removeallbehaviors, directmanipulation/IDirectManipulationViewport2::RemoveAllBehaviors
 ms.prod: windows-hardware
 ms.technology: windows-devices

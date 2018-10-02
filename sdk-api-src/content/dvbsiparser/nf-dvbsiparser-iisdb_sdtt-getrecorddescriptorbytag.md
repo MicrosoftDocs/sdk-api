@@ -4,10 +4,10 @@ title: IISDB_SDTT::GetRecordDescriptorByTag
 author: windows-sdk-content
 description: Searches a record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecorddescriptorbytag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0260e4fb-06d0-489c-8526-f5c2dd62b146
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_SDTT.GetRecordDescriptorByTag, IISDB_SDTT::GetRecordDescriptorByTag, dvbsiparser/IISDB_SDTT::GetRecordDescriptorByTag, mstv.iisdb_sdtt_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

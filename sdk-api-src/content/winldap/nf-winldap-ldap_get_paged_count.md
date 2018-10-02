@@ -4,10 +4,10 @@ title: ldap_get_paged_count function
 author: windows-sdk-content
 description: Records the number of paged results that the server has returned for a search.
 old-location: ldap\ldap_get_paged_count.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 17ad1c7e-c3a1-4f6a-8303-fbbedfc36409
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ldap_get_paged_count, ldap.ldap__get__paged__count, ldap.ldap_get_paged_count, ldap_get_paged_count, ldap_get_paged_count function [LDAP], winldap/ldap_get_paged_count"
 ms.prod: windows-hardware
 ms.technology: windows-devices

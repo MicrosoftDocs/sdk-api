@@ -4,10 +4,10 @@ title: DhcpHlprIsV4PolicyValid function
 author: windows-sdk-content
 description: Verifies a DHCP server policy.
 old-location: dhcp\dhcphlprisv4policyvalid.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: f11386a6-2b80-4a2b-b859-fb399d7392e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpHlprIsV4PolicyValid, DhcpHlprIsV4PolicyValid function [DHCP], dhcp.dhcphlprisv4policyvalid, dhcpsapi/DhcpHlprIsV4PolicyValid
 ms.prod: windows-hardware
 ms.technology: windows-devices

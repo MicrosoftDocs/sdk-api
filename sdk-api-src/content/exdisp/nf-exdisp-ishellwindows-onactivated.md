@@ -4,10 +4,10 @@ title: IShellWindows::OnActivated
 author: windows-sdk-content
 description: Occurs when a Shell window's activation state changes.
 old-location: shell\IShellWindows_OnActivated.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ccd93f0f-3cd2-4b18-b6d2-834665d8b658
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnActivated method, IShellWindows.OnActivated, IShellWindows::OnActivated, OnActivated, OnActivated method [Windows Shell], OnActivated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnActivated, exdisp/IShellWindows::OnActivated, shell.IShellWindows_OnActivated
 ms.prod: windows-hardware
 ms.technology: windows-devices

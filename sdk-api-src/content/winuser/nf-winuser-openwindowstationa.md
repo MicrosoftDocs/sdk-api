@@ -7,7 +7,7 @@ old-location: winstation\openwindowstation.htm
 tech.root: winstation
 ms.assetid: 78ee7100-1bad-4c2d-b923-c5e67191bd41
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OpenWindowStation, OpenWindowStation function [Windows Stations and Desktops], OpenWindowStationA, OpenWindowStationW, _win32_openwindowstation, base.openwindowstation, winstation.openwindowstation, winuser/OpenWindowStation, winuser/OpenWindowStationA, winuser/OpenWindowStationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\selectpalette.htm
 tech.root: gdi
 ms.assetid: 1fc3356f-6fa3-444f-b224-b953acd2394b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: SelectPalette, SelectPalette function [Windows GDI], _win32_SelectPalette, gdi.selectpalette, wingdi/SelectPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

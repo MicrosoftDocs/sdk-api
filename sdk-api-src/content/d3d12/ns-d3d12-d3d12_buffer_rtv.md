@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_buffer_rtv.htm
 tech.root: direct3d12
 ms.assetid: B4BDA7DE-6FB1-4806-9207-42EA0BFC69AE
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_BUFFER_RTV, D3D12_BUFFER_RTV structure, d3d12/D3D12_BUFFER_RTV, direct3d12.d3d12_buffer_rtv
 ms.prod: windows
 ms.technology: windows-sdk

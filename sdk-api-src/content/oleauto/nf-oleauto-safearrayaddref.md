@@ -7,7 +7,7 @@ old-location: automat\safearrayaddref.htm
 tech.root: automat
 ms.assetid: 0745D2E7-447E-4688-ADCF-1F889BC55BFB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: SafeArrayAddRef, SafeArrayAddRef function [Automation], automat.safearrayaddref, oleauto/SafeArrayAddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

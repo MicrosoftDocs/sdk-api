@@ -7,7 +7,7 @@ old-location: monitor\getmonitordisplayareaposition.htm
 tech.root: Monitor
 ms.assetid: d6dca744-634e-420f-a025-5be9d136969f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetMonitorDisplayAreaPosition, GetMonitorDisplayAreaPosition function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorDisplayAreaPosition, monitor.getmonitordisplayareaposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

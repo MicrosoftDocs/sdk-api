@@ -4,10 +4,10 @@ title: IFsrmObject::put_Description
 author: windows-sdk-content
 description: Retrieves or sets the description of the object.
 old-location: fsrm\ifsrmobject_description.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 8e039e44-17f0-47e7-935b-404af43685bf
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmObject interface, IFsrmObject interface [File Server Resource Manager],Description property, IFsrmObject.Description, IFsrmObject.put_Description, IFsrmObject::Description, IFsrmObject::get_Description, IFsrmObject::put_Description, fs.ifsrmobject_description, fsrm.ifsrmobject_description, fsrm/IFsrmObject::Description, fsrm/IFsrmObject::get_Description, fsrm/IFsrmObject::put_Description, put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

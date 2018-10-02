@@ -7,7 +7,7 @@ old-location: winsat\iprovidewinsatassessmentinfo.htm
 tech.root: WinSAT
 ms.assetid: 90036c75-6e9e-4d25-804b-02c423616de1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IProvideWinSATAssessmentInfo, IProvideWinSATAssessmentInfo interface [WinSAT], IProvideWinSATAssessmentInfo interface [WinSAT],described, winsat.iprovidewinsatassessmentinfo, winsatcominterfacei/IProvideWinSATAssessmentInfo
 ms.prod: windows
 ms.technology: windows-sdk

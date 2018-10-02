@@ -7,7 +7,7 @@ old-location: fs\set_partition_information_str.htm
 tech.root: fileio
 ms.assetid: cc04868c-cb9c-455f-a0df-bde6a133eb60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: "*PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION structure pointer [Files], SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION structure [Files], SET_PARTITION_INFORMATION_MBR, _SET_PARTITION_INFORMATION, _win32_set_partition_information_str, base.set_partition_information_str, fs.set_partition_information_str, winioctl/PSET_PARTITION_INFORMATION, winioctl/SET_PARTITION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

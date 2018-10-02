@@ -4,10 +4,10 @@ title: StrCmpLogicalW function
 author: windows-sdk-content
 description: Compares two Unicode strings. Digits in the strings are considered as numerical content rather than text. This test is not case-sensitive.
 old-location: shell\StrCmpLogicalW.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 013c6db3-7d14-44ef-89af-b3aac28f4e3f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: StrCmpLogicalW, StrCmpLogicalW function [Windows Shell], _shell_StrCmpLogicalW, shell.StrCmpLogicalW, shlwapi/StrCmpLogicalW
 ms.prod: windows-hardware
 ms.technology: windows-devices

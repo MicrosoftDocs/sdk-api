@@ -7,7 +7,7 @@ old-location: winauto\uiauto_SelectionItemPattern_AddToSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: 77ded493-cdf5-4e1b-b0eb-640ec46cf43a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: SelectionItemPattern_AddToSelection, SelectionItemPattern_AddToSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_AddToSelectionConPat, uiauto_SelectionItemPattern_AddToSelectionConPat, uiautomationcoreapi/SelectionItemPattern_AddToSelection, winauto.uiauto_SelectionItemPattern_AddToSelectionConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

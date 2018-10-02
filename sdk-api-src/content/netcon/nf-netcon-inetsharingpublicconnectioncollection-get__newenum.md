@@ -4,10 +4,10 @@ title: INetSharingPublicConnectionCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the public connections collection.
 old-location: ics\inetsharingpublicconnectioncollection_get__newenum.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 169de955-d53d-410e-b2e6-911ab0a78bba
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetSharingPublicConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingPublicConnectionCollection.get__NewEnum, INetSharingPublicConnectionCollection::get__NewEnum, _ics_inetsharingpublicconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPublicConnectionCollection interface, ics.inetsharingpublicconnectioncollection_get__newenum, netcon/INetSharingPublicConnectionCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

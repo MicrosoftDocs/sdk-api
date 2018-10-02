@@ -4,10 +4,10 @@ title: IMFSensorProfileCollection::AddProfile
 author: windows-sdk-content
 description: Adds the specified profile to the collection.
 old-location: mf\imfsensorprofilecollection_addprofile.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4997E69B-6444-4603-ABCF-4E2526B5AC23
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: AddProfile, AddProfile method [Media Foundation], AddProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],AddProfile method, IMFSensorProfileCollection.AddProfile, IMFSensorProfileCollection::AddProfile, mf.imfsensorprofilecollection_addprofile, mfidl/IMFSensorProfileCollection::AddProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

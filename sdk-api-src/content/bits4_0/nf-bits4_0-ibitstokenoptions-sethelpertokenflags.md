@@ -4,10 +4,10 @@ title: IBitsTokenOptions::SetHelperTokenFlags
 author: windows-sdk-content
 description: Sets the usage flags for a token that is associated with a BITS transfer job.
 old-location: bits\ibitstokenoptions_sethelpertokenflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: bee8fda2-ec11-4969-be81-57a8b4177a1c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: BG_TOKEN_LOCAL_FILE, BG_TOKEN_NETWORK, IBitsTokenOptions interface [BITS],SetHelperTokenFlags method, IBitsTokenOptions.SetHelperTokenFlags, IBitsTokenOptions::SetHelperTokenFlags, SetHelperTokenFlags, SetHelperTokenFlags method [BITS], SetHelperTokenFlags method [BITS],IBitsTokenOptions interface, bits.ibitstokenoptions_sethelpertokenflags, bits4_0/IBitsTokenOptions::SetHelperTokenFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

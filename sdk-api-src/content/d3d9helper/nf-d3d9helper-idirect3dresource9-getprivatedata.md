@@ -4,10 +4,10 @@ title: IDirect3DResource9::GetPrivateData
 author: windows-sdk-content
 description: Copies the private data associated with the resource to a provided buffer.
 old-location: direct3d9\idirect3dresource9__getprivatedata.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__getprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetPrivateData method, IDirect3DResource9.GetPrivateData, IDirect3DResource9::GetPrivateData, a3ce4b5e-f58e-cf26-2ef5-896eaf4a5613, d3d9helper/IDirect3DResource9::GetPrivateData, direct3d9.idirect3dresource9__getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

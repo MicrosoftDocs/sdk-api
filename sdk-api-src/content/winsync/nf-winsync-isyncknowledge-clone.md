@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_clone.htm
 tech.root: winsync
 ms.assetid: 4f8dbe6f-e686-464a-98d0-b6e78bfd405a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],Clone method, ISyncKnowledge.Clone, ISyncKnowledge::Clone, winsync.isyncknowledge_clone, winsync/ISyncKnowledge::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WFDCloseSession function
 author: windows-sdk-content
 description: Closes a session after a previously successful call to the WFDStartOpenSession function.
 old-location: nwifi\wfdclosesession.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: DEAF32C9-64A6-419A-A466-DE2313AE534C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WFDCloseSession, WFDCloseSession function [NativeWIFI], nwifi.wfdclosesession, wlanapi/WFDCloseSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

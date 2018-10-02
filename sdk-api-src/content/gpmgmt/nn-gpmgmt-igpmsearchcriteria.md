@@ -7,7 +7,7 @@ old-location: gpmc\igpmsearchcriteria.htm
 tech.root: GPMC
 ms.assetid: 6d24ffd1-987c-468f-a8cc-08992b7deb9d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GPMSearchCriteria, IGPMSearchCriteria, IGPMSearchCriteria interface [GPMC], IGPMSearchCriteria interface [GPMC],described, _win32_igpmsearchcriteria, gpmc.igpmsearchcriteria, gpmgmt/IGPMSearchCriteria
 ms.prod: windows
 ms.technology: windows-sdk

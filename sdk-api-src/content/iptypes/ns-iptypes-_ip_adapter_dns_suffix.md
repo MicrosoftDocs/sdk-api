@@ -4,10 +4,10 @@ title: "_IP_ADAPTER_DNS_SUFFIX"
 author: windows-sdk-content
 description: The IP_ADAPTER_DNS_SUFFIX structure stores a DNS suffix in a linked list of DNS suffixes for a particular adapter.
 old-location: iphlp\ip_adapter_dns_suffix.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 3730a406-2995-48f7-b70e-1cf8258ee4a6
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: "*PIP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX structure [IP Helper], PIP_ADAPTER_DNS_SUFFIX, PIP_ADAPTER_DNS_SUFFIX structure pointer [IP Helper], _IP_ADAPTER_DNS_SUFFIX, iphlp.ip_adapter_dns_suffix, iptypes/IP_ADAPTER_DNS_SUFFIX, iptypes/PIP_ADAPTER_DNS_SUFFIX"
 ms.prod: windows
 ms.technology: windows-sdk

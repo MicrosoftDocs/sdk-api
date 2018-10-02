@@ -4,10 +4,10 @@ title: SHGlobalCounterIncrement function
 author: windows-sdk-content
 description: Increments a global counter.
 old-location: shell\SHGlobalCounterIncrement.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 088efa01-b070-4384-b17a-311aefb0737c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHGlobalCounterIncrement, SHGlobalCounterIncrement function [Windows Shell], _shell_SHGlobalCounterIncrement, shell.SHGlobalCounterIncrement, shlwapi/SHGlobalCounterIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices

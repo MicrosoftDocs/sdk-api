@@ -7,7 +7,7 @@ old-location: input_intcontext\setcrossslideparametersinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: b4d9459a-7b07-4316-bf5c-628de08de7dc
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 09/26/2018
 ms.keywords: SetCrossSlideParametersInteractionContext, SetCrossSlideParametersInteractionContext function, input_intcontext.setcrossslideparametersinteractioncontext, interactioncontext.setcrossslideparametersinteractioncontext, interactioncontext/SetCrossSlideParametersInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DhcpEnumOptions function
 author: windows-sdk-content
 description: Returns an enumerated set of options stored on the DHCPv4 server.
 old-location: dhcp\dhcpenumoptions.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: b7a3afb2-cc5b-4181-997c-0cf3a049d091
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpEnumOptions, DhcpEnumOptions function [DHCP], dhcp.dhcpenumoptions, dhcpsapi/DhcpEnumOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

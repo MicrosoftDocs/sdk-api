@@ -4,10 +4,10 @@ title: IESLicenseRenewalResultEvent::GetRenewalHResult
 author: windows-sdk-content
 description: Gets the final HRESULT value from a LicenseRenewalResult event that is returned by a call to a COM interface method during the renewal process.
 old-location: mstv\ieslicenserenewalresultevent_getrenewalhresult.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ed823c23-ae7d-4e2d-8546-92f04bd3b212
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRenewalHResult, GetRenewalHResult method [DirectShow], GetRenewalHResult method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetRenewalHResult method, IESLicenseRenewalResultEvent.GetRenewalHResult, IESLicenseRenewalResultEvent::GetRenewalHResult, mstv.ieslicenserenewalresultevent_getrenewalhresult, tuner/IESLicenseRenewalResultEvent::GetRenewalHResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

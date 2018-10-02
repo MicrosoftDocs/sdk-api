@@ -4,10 +4,10 @@ title: UInt8Add function
 author: windows-sdk-content
 description: Adds two values of type UINT8.
 old-location: shell\UInt8Add.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 576be346-55bc-41a7-93d3-612b6ef8a267
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: UInt8Add, UInt8Add function [Windows Shell], intsafe/UInt8Add, shell.UInt8Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_tagPublishedAppInfoFlags"
 author: windows-sdk-content
 description: Specifies which members in the PUBAPPINFO structure are valid. These flags are bitmasks set in the dwMask member and passed to IPublishedApp::GetPublishedAppInfo.
 old-location: shell\PUBAPPINFOFLAGS.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9fcb93a5-24b5-4bc3-9f20-0088affb183b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: PAI_ASSIGNEDTIME, PAI_EXPIRETIME, PAI_PUBLISHEDTIME, PAI_SCHEDULEDTIME, PAI_SOURCE, PUBAPPINFOFLAGS, PUBAPPINFOFLAGS enumeration [Windows Shell], _tagPublishedAppInfoFlags, inet_PUBAPPINFOFLAGS, shappmgr/PAI_ASSIGNEDTIME, shappmgr/PAI_EXPIRETIME, shappmgr/PAI_PUBLISHEDTIME, shappmgr/PAI_SCHEDULEDTIME, shappmgr/PAI_SOURCE, shappmgr/PUBAPPINFOFLAGS, shell.PUBAPPINFOFLAGS
 ms.prod: windows
 ms.technology: windows-sdk

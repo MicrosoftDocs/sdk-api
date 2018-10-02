@@ -4,10 +4,10 @@ title: "_WKSTA_INFO_102"
 author: windows-sdk-content
 description: Contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system.
 old-location: netmgmt\wksta_info_102_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 01607fb5-c433-439c-aaaa-3736697f7c07
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPWKSTA_INFO_102, *PWKSTA_INFO_102, LPWKSTA_INFO_102, LPWKSTA_INFO_102 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_102, PWKSTA_INFO_102 structure pointer [Network Management], WKSTA_INFO_102, WKSTA_INFO_102 structure [Network Management], _WKSTA_INFO_102, _win32_wksta_info_102_str, lmwksta/LPWKSTA_INFO_102, lmwksta/PWKSTA_INFO_102, lmwksta/WKSTA_INFO_102, netmgmt.wksta_info_102_str"
 ms.prod: windows
 ms.technology: windows-sdk

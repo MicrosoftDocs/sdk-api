@@ -4,10 +4,10 @@ title: IFileOperationProgressSink::PreDeleteItem
 author: windows-sdk-content
 description: Performs caller-implemented actions before the delete process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreDeleteItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bf54f2da-4861-4546-9b1e-35b5983e836c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreDeleteItem method, IFileOperationProgressSink.PreDeleteItem, IFileOperationProgressSink::PreDeleteItem, PreDeleteItem, PreDeleteItem method [Windows Shell], PreDeleteItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreDeleteItem, shell.IFileOperationProgressSink_PreDeleteItem, shobjidl_core/IFileOperationProgressSink::PreDeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

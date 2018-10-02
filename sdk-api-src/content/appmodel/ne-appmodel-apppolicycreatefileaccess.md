@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicycreatefileaccess_enumeration.htm
 tech.root: appxpkg
 ms.assetid: B21CF29E-D3B8-46A3-8443-161646E23ECA
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: AppPolicyCreateFileAccess, AppPolicyCreateFileAccess enumeration [App packaging and management], AppPolicyCreateFileAccess_Full, AppPolicyCreateFileAccess_Limited, appmodel/AppPolicyCreateFileAccess, appmodel/AppPolicyCreateFileAccess_Full, appmodel/AppPolicyCreateFileAccess_Limited, appxpkg.apppolicycreatefileaccess_enumeration
 ms.prod: windows
 ms.technology: windows-sdk

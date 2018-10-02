@@ -4,10 +4,10 @@ title: IRemoteDesktopClientSettings::RetrieveSettings
 author: windows-sdk-content
 description: Retrieves the entire RDP file as a string.
 old-location: termserv\iremotedesktopclientsettings_retrievesettings.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5c28a172-42f3-4abd-9983-ee5acb1c9c78
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],RetrieveSettings method, IRemoteDesktopClientSettings.RetrieveSettings, IRemoteDesktopClientSettings::RetrieveSettings, RetrieveSettings, RetrieveSettings method [Remote Desktop Services], RetrieveSettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings, termserv.iremotedesktopclientsettings_retrievesettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

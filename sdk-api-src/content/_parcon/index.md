@@ -2,7 +2,7 @@
 UID: TP:parcon
 ms.assetid: d41c225a-7794-30c9-9b0b-8612948bb42f
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

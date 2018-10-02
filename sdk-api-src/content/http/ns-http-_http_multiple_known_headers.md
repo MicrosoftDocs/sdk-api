@@ -4,10 +4,10 @@ title: "_HTTP_MULTIPLE_KNOWN_HEADERS"
 author: windows-sdk-content
 description: Specifies the headers that are included in an HTTP response when more than one header is required.
 old-location: http\http_multiple_known_headers.htm
-tech.root: http
+tech.root: Http
 ms.assetid: b5e68d55-43a4-422f-b7e3-163739628720
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PHTTP_MULTIPLE_KNOWN_HEADERS, *PHTTP_MULTIPLE_KNOWN_HEADERS structure [HTTP], HTTP_MULTIPLE_KNOWN_HEADERS, HTTP_MULTIPLE_KNOWN_HEADERS structure [HTTP], HTTP_RESPONSE_INFO_FLAGS_PRESERVE_ORDER, _HTTP_MULTIPLE_KNOWN_HEADERS, http.http_multiple_known_headers, http/*PHTTP_MULTIPLE_KNOWN_HEADERS, http/HTTP_MULTIPLE_KNOWN_HEADERS"
 ms.prod: windows
 ms.technology: windows-sdk

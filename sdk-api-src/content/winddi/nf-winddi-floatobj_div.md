@@ -4,10 +4,10 @@ title: FLOATOBJ_Div function
 author: windows-sdk-content
 description: The FLOATOBJ_Div function divides the two FLOATOBJs, and returns with the result in the first parameter.
 old-location: display\floatobj_div.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 110473d8-712a-4670-96e0-daf57dd5efd2
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: FLOATOBJ_Div, FLOATOBJ_Div function [Display Devices], display.floatobj_div, gdifncs_0ffe4b55-d291-47b0-bbd4-351e01ffe228.xml, winddi/FLOATOBJ_Div
 ms.prod: windows-hardware
 ms.technology: windows-devices

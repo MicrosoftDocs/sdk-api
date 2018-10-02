@@ -7,7 +7,7 @@ old-location: mbn\imbnvendorspecificoperation_setvendorspecific.htm
 tech.root: mbn
 ms.assetid: adae9d6c-3fd4-42f6-8f6a-0047f3e0aad0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMbnVendorSpecificOperation interface [Microsoft Broadband Networks],SetVendorSpecific method, IMbnVendorSpecificOperation.SetVendorSpecific, IMbnVendorSpecificOperation::SetVendorSpecific, SetVendorSpecific, SetVendorSpecific method [Microsoft Broadband Networks], SetVendorSpecific method [Microsoft Broadband Networks],IMbnVendorSpecificOperation interface, mbn.imbnvendorspecificoperation_setvendorspecific, mbnapi/IMbnVendorSpecificOperation::SetVendorSpecific
 ms.prod: windows-hardware
 ms.technology: windows-devices

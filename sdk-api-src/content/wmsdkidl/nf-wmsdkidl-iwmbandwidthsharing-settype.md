@@ -7,7 +7,7 @@ old-location: wmformat\iwmbandwidthsharing_settype.htm
 tech.root: wmformat
 ms.assetid: 3f4fc06a-ffbe-4854-8e64-d369acfac271
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetType method, IWMBandwidthSharing.SetType, IWMBandwidthSharing::SetType, IWMBandwidthSharingSetType, SetType, SetType method [windows Media Format], SetType method [windows Media Format],IWMBandwidthSharing interface, wmformat.iwmbandwidthsharing_settype, wmsdkidl/IWMBandwidthSharing::SetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

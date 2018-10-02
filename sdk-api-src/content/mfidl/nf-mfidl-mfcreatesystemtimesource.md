@@ -4,10 +4,10 @@ title: MFCreateSystemTimeSource function
 author: windows-sdk-content
 description: Creates a presentation time source that is based on the system time.
 old-location: mf\mfcreatesystemtimesource.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateSystemTimeSource, MFCreateSystemTimeSource function [Media Foundation], f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f, mf.mfcreatesystemtimesource, mfidl/MFCreateSystemTimeSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

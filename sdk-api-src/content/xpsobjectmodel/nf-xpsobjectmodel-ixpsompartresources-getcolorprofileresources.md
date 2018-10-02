@@ -7,7 +7,7 @@ old-location: xps\ixpsompartresources_getcolorprofileresources.htm
 tech.root: printdocs
 ms.assetid: ad986a95-a77d-4e04-b857-09ee137070e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetColorProfileResources, GetColorProfileResources method [XPS Documents and Packaging], GetColorProfileResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetColorProfileResources method, IXpsOMPartResources.GetColorProfileResources, IXpsOMPartResources::GetColorProfileResources, xps.ixpsompartresources_getcolorprofileresources, xpsobjectmodel/IXpsOMPartResources::GetColorProfileResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

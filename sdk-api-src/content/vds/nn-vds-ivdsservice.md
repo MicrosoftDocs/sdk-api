@@ -7,7 +7,7 @@ old-location: base\ivdsservice.htm
 tech.root: VDS
 ms.assetid: 6b081cc8-fe06-427f-b06d-831a1f1fef52
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsService, IVdsService interface [VDS], IVdsService interface [VDS],described, base.ivdsservice, vds/IVdsService
 ms.prod: windows
 ms.technology: windows-sdk

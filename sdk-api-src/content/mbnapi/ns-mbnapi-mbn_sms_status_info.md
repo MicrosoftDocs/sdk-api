@@ -7,7 +7,7 @@ old-location: mbn\mbn_sms_status_info.htm
 tech.root: mbn
 ms.assetid: 9146d230-c96c-4d70-9bc5-e91896e19d35
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MBN_SMS_STATUS_INFO, MBN_SMS_STATUS_INFO structure [Microsoft Broadband Networks], mbn.mbn_sms_status_info, mbnapi/MBN_SMS_STATUS_INFO
 ms.prod: windows
 ms.technology: windows-sdk

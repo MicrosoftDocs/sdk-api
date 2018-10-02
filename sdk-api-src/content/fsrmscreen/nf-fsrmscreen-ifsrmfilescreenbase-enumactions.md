@@ -4,10 +4,10 @@ title: IFsrmFileScreenBase::EnumActions
 author: windows-sdk-content
 description: Enumerates all the actions for the file screen object.
 old-location: fsrm\ifsrmfilescreenbase_enumactions.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: fbc22338-8271-407a-97c6-4a2329445979
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: EnumActions, EnumActions method [File Server Resource Manager], EnumActions method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],EnumActions method, IFsrmFileScreenBase.EnumActions, IFsrmFileScreenBase::EnumActions, fs.ifsrmfilescreenbase_enumactions, fsrm.ifsrmfilescreenbase_enumactions, fsrmscreen/IFsrmFileScreenBase::EnumActions
 ms.prod: windows-hardware
 ms.technology: windows-devices

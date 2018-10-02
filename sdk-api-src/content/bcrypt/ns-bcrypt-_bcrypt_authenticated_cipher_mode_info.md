@@ -7,7 +7,7 @@ old-location: security\bcrypt_authenticated_cipher_mode_info.htm
 tech.root: SecCNG
 ms.assetid: 6c00f458-7198-44fe-bdb6-2c2eb9995bd9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure [Security], BCRYPT_AUTH_MODE_CHAIN_CALLS_FLAG, BCRYPT_AUTH_MODE_IN_PROGRESS_FLAG, BCryptDecrypt, BCryptEncrypt, PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure pointer [Security], _BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, bcrypt/BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, bcrypt/PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, security.bcrypt_authenticated_cipher_mode_info"
 ms.prod: windows
 ms.technology: windows-sdk

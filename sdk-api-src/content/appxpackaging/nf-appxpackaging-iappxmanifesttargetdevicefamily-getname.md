@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifesttargetdevicefamily_getname.htm
 tech.root: appxpkg
 ms.assetid: B7D3A0D3-421D-4A40-AF40-516AE51E06D4
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetName method, IAppxManifestTargetDeviceFamily.GetName, IAppxManifestTargetDeviceFamily::GetName, appxpackaging/IAppxManifestTargetDeviceFamily::GetName, appxpkg.iappxmanifesttargetdevicefamily_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices

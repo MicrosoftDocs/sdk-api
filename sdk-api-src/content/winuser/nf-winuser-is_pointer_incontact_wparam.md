@@ -7,7 +7,7 @@ old-location: inputmsg\is_pointer_incontact_wparam.htm
 tech.root: InputMsg
 ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed9912a8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IS_POINTER_INCONTACT_WPARAM, IS_POINTER_INCONTACT_WPARAM	, IS_POINTER_INCONTACT_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_incontact_wparam, winuser/IS_POINTER_INCONTACT_WPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices

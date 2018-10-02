@@ -4,10 +4,10 @@ title: IFsrmReport::get_Name
 author: windows-sdk-content
 description: Retrieves or sets the name of the report.
 old-location: fsrm\ifsrmreport_name.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: 4fde46af-1d13-4ca8-b627-0285c694fb6e
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],Name property, IFsrmReport.Name, IFsrmReport.get_Name, IFsrmReport::Name, IFsrmReport::get_Name, IFsrmReport::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_name, fsrm.ifsrmreport_name, fsrmreports/IFsrmReport::Name, fsrmreports/IFsrmReport::get_Name, fsrmreports/IFsrmReport::put_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

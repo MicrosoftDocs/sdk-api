@@ -7,7 +7,7 @@ old-location: dshow\iamtunernotification.htm
 tech.root: DirectShow
 ms.assetid: 8e5fde62-d17c-4d3c-bdb0-0748a9bd285b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IAMTunerNotification, IAMTunerNotification interface [DirectShow], IAMTunerNotification interface [DirectShow],described, IAMTunerNotificationInterface, dshow.iamtunernotification, strmif/IAMTunerNotification
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: StrCatW function
 author: windows-sdk-content
 description: Appends one string to another.
 old-location: shell\StrCat.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: fd357462-83be-42a8-9f39-1e023bd5f86e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: StrCat, StrCat function [Windows Shell], StrCatW, _win32_StrCat, shell.StrCat, shlwapi/StrCat, shlwapi/StrCatW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WinUsb_GetAssociatedInterface function
 author: windows-sdk-content
 description: The WinUsb_GetAssociatedInterface function retrieves a handle for an associated interface. This is a synchronous operation.
 old-location: buses\winusb_getassociatedinterface.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: 1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WinUsb_GetAssociatedInterface, WinUsb_GetAssociatedInterface function [Buses], buses.winusb_getassociatedinterface, winusb/WinUsb_GetAssociatedInterface, winusbfunc_22b6f592-12ca-433e-b7a1-885eebf60386.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

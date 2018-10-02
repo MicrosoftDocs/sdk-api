@@ -7,7 +7,7 @@ old-location: tablet\destroycontext.htm
 tech.root: tablet
 ms.assetid: b0d90728-6934-4727-b553-c6058acfa0ec
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: DestroyContext, DestroyContext function [Tablet PC], b0d90728-6934-4727-b553-c6058acfa0ec, recapis/DestroyContext, tablet.destroycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITravelLog::GetTravelEntry
 author: windows-sdk-content
 description: Deprecated. Gets a travel entry in the travel log relative to the position of the current entry.
 old-location: shell\ITravelLog_GetTravelEntry.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8db8aa9a-91c2-49fb-bbef-c7e19de09efe
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetTravelEntry, GetTravelEntry method [Windows Shell], GetTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetTravelEntry method, ITravelLog.GetTravelEntry, ITravelLog::GetTravelEntry, shdeprecated/ITravelLog::GetTravelEntry, shell.ITravelLog_GetTravelEntry, zone_ITravelLog_GetTravelEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

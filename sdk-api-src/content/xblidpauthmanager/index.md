@@ -2,13 +2,12 @@
 UID: NA:xblidpauthmanager
 ms.assetid: 57ba1243-1819-34fc-a76e-420ecde785d9
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: xblidp
-archived: true
 ---
 
 # Xblidpauthmanager.h header

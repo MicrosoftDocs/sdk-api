@@ -7,7 +7,7 @@ old-location: base\registerdevicenotification.htm
 tech.root: devio
 ms.assetid: 82094d95-9af3-4222-9c5e-ce2df9bab5e3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.keywords: DEVICE_NOTIFY_ALL_INTERFACE_CLASSES, DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterDeviceNotification, RegisterDeviceNotification function, RegisterDeviceNotificationA, RegisterDeviceNotificationW, _win32_registerdevicenotification, base.registerdevicenotification, winuser/RegisterDeviceNotification, winuser/RegisterDeviceNotificationA, winuser/RegisterDeviceNotificationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

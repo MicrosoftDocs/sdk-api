@@ -4,10 +4,10 @@ title: IBackgroundCopyJobHttpOptions::SetClientCertificateByID
 author: windows-sdk-content
 description: Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request.
 old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyid.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 60839bac-7f5f-4c43-84d4-26f1b21f974d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: CA, IBackgroundCopyJobHttpOptions interface [BITS],SetClientCertificateByID method, IBackgroundCopyJobHttpOptions.SetClientCertificateByID, IBackgroundCopyJobHttpOptions::SetClientCertificateByID, MY, ROOT, SPC, SetClientCertificateByID, SetClientCertificateByID method [BITS], SetClientCertificateByID method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyid, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID
 ms.prod: windows-hardware
 ms.technology: windows-devices

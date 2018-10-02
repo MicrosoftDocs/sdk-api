@@ -2,7 +2,7 @@
 UID: NA:gdipluspixelformats
 ms.assetid: 366c01ec-75c0-31f8-96b2-40ede9843529
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

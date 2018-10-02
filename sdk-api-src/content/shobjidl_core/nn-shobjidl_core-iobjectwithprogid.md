@@ -4,10 +4,10 @@ title: IObjectWithProgID
 author: windows-sdk-content
 description: Exposes methods that provide access to the ProgID associated with an object.
 old-location: shell\IObjectWithProgID.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3b66ba49-ed39-464e-b15a-c72fdff7f5e5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IObjectWithProgID, IObjectWithProgID interface [Windows Shell], IObjectWithProgID interface [Windows Shell],described, _shell_IObjectWithProgID, shell.IObjectWithProgID, shobjidl_core/IObjectWithProgID
 ms.prod: windows
 ms.technology: windows-sdk

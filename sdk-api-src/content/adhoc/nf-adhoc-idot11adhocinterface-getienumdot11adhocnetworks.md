@@ -4,10 +4,10 @@ title: IDot11AdHocInterface::GetIEnumDot11AdHocNetworks
 author: windows-sdk-content
 description: Gets the collection of networks associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getienumdot11adhocnetworks.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 997acc8d-a4e7-43dc-917d-7a2b69f3c049
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetIEnumDot11AdHocNetworks, GetIEnumDot11AdHocNetworks method [NativeWIFI], GetIEnumDot11AdHocNetworks method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumDot11AdHocNetworks method, IDot11AdHocInterface.GetIEnumDot11AdHocNetworks, IDot11AdHocInterface::GetIEnumDot11AdHocNetworks, adhoc/IDot11AdHocInterface::GetIEnumDot11AdHocNetworks, nwifi.idot11adhocinterface_getienumdot11adhocnetworks
 ms.prod: windows-hardware
 ms.technology: windows-devices

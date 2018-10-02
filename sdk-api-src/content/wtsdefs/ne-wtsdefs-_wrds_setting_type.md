@@ -4,10 +4,10 @@ title: "_WRDS_SETTING_TYPE"
 author: windows-sdk-content
 description: Specifies the category of settings being stored in a WRDS_SETTINGS structure.
 old-location: termserv\wrds_setting_type.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 2B8191F8-FF54-4CF6-9239-F9BFA0FA0A6B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE enumeration pointer [Remote Desktop Services], WRDS_SETTING_TYPE, WRDS_SETTING_TYPE enumeration [Remote Desktop Services], WRDS_SETTING_TYPE_INVALID, WRDS_SETTING_TYPE_MACHINE, WRDS_SETTING_TYPE_SAM, WRDS_SETTING_TYPE_USER, _WRDS_SETTING_TYPE, termserv.wrds_setting_type, wtsdefs/PWRDS_SETTING_TYPE, wtsdefs/WRDS_SETTING_TYPE, wtsdefs/WRDS_SETTING_TYPE_INVALID, wtsdefs/WRDS_SETTING_TYPE_MACHINE, wtsdefs/WRDS_SETTING_TYPE_SAM, wtsdefs/WRDS_SETTING_TYPE_USER"
 ms.prod: windows
 ms.technology: windows-sdk

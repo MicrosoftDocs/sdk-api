@@ -4,10 +4,10 @@ title: IObjMgr
 author: windows-sdk-content
 description: Exposes methods that allow a client to append or remove an object from a collection of objects managed by a server object.
 old-location: shell\IObjMgr.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c0556a87-2be5-43dc-9ca6-dfbdae7e7137
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IObjMgr, IObjMgr interface [Windows Shell], IObjMgr interface [Windows Shell],described, _win32_IObjMgr, shell.IObjMgr, shlobj_core/IObjMgr
 ms.prod: windows
 ms.technology: windows-sdk

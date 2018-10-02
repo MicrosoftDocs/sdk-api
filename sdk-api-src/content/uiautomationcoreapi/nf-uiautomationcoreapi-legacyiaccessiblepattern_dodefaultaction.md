@@ -7,7 +7,7 @@ old-location: winauto\uiauto_LegacyIAccessiblePattern_DoDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: 7923de3b-4e9e-4e2d-8c0c-e1cfdd983ba8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: LegacyIAccessiblePattern_DoDefaultAction, LegacyIAccessiblePattern_DoDefaultAction function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_DoDefaultAction, uiauto_LegacyIAccessiblePattern_DoDefaultAction, uiautomationcoreapi/LegacyIAccessiblePattern_DoDefaultAction, winauto.uiauto_LegacyIAccessiblePattern_DoDefaultAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

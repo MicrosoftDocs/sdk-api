@@ -7,7 +7,7 @@ old-location: devtest\event_descriptor.htm
 tech.root: devtest
 ms.assetid: cfe84b3d-fed2-4624-9899-8451e5b39de0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [Driver Development Tools], Event Descriptor, Event Descriptor structure [Driver Development Tools], PEVENT_DESCRIPTOR, PEVENT_DESCRIPTOR structure pointer [Driver Development Tools], _EVENT_DESCRIPTOR, devtest.event_descriptor, etw_km_2dcb59a8-a21d-4520-8201-1074b9291978.xml, evntprov/EVENT_DESCRIPTOR, evntprov/PEVENT_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

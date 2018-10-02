@@ -4,10 +4,10 @@ title: DRMCloseQueryHandle function
 author: windows-sdk-content
 description: Closes a handle to an unbound license object.
 old-location: rm\drmclosequeryhandle.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 4902a6e2-e3b2-4f05-970c-aa4f80895762
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DRMCloseQueryHandle, DRMCloseQueryHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseQueryHandle, rm.drmclosequeryhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

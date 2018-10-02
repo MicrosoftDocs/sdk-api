@@ -4,10 +4,10 @@ title: HttpCloseRequestQueue function
 author: windows-sdk-content
 description: Closes the handle to the specified request queue created by HttpCreateRequestQueue.
 old-location: http\httpcloserequestqueue.htm
-tech.root: http
+tech.root: Http
 ms.assetid: dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: HttpCloseRequestQueue, HttpCloseRequestQueue function [HTTP], http.httpcloserequestqueue, http/HttpCloseRequestQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

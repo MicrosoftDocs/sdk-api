@@ -4,10 +4,10 @@ title: IBrowserService2::_ResizeNextBorder
 author: windows-sdk-content
 description: Deprecated. Resizes the border of the browser view in response to the addition or removal of toolbars.
 old-location: shell\IBrowserService2__ResizeNextBorder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 9d7c618a-2948-44cf-8e47-96d33c08c9a5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeNextBorder method, IBrowserService2._ResizeNextBorder, IBrowserService2::_ResizeNextBorder, _ResizeNextBorder, _ResizeNextBorder method [Windows Shell], _ResizeNextBorder method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeNextBorder, shell.IBrowserService2__ResizeNextBorder, zone_IBrowserService2__ResizeNextBorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

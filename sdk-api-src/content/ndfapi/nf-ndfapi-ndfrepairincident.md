@@ -4,10 +4,10 @@ title: NdfRepairIncident function
 author: windows-sdk-content
 description: Repairs an incident without displaying a user interface.
 old-location: ndf\ndfrepairincident.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: 570e7824-463f-4fc1-bc1a-16a1da31e8a3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: NdfRepairIncident, NdfRepairIncident function [NDF], ndf.ndfrepairincident, ndfapi/NdfRepairIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IKnownFolderManager::RegisterFolder
 author: windows-sdk-content
 description: Adds a new known folder to the registry. Used particularly by independent software vendors (ISVs) that are adding one of their own folders to the known folder system.
 old-location: shell\IKnownFolderManager_RegisterFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1b3d492f-26a3-4f04-ba01-768ebad39e1b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],RegisterFolder method, IKnownFolderManager.RegisterFolder, IKnownFolderManager::RegisterFolder, RegisterFolder, RegisterFolder method [Windows Shell], RegisterFolder method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_RegisterFolder, shell.IKnownFolderManager_RegisterFolder, shobjidl_core/IKnownFolderManager::RegisterFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

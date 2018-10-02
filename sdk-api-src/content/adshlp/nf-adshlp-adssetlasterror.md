@@ -7,7 +7,7 @@ old-location: adsi\adssetlasterror.htm
 tech.root: ADSI
 ms.assetid: c9433af7-2ca5-492a-9b8e-9dfedb5e4d9d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADsSetLastError, ADsSetLastError function [ADSI], _ds_adssetlasterror, adshlp/ADsSetLastError, adsi.adssetlasterror
 ms.prod: windows-hardware
 ms.technology: windows-devices

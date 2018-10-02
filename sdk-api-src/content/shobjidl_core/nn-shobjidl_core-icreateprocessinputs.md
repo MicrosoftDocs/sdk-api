@@ -4,10 +4,10 @@ title: ICreateProcessInputs
 author: windows-sdk-content
 description: Used by the ICreatingProcess interface to alter some parameters of the process that is being created.
 old-location: shell\icreateprocessinputs.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2C1756A3-FF40-4FBF-860D-06BB415DB695
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ICreateProcessInputs, ICreateProcessInputs interface [Windows Shell], ICreateProcessInputs interface [Windows Shell],described, shell.icreateprocessinputs, shobjidl_core/ICreateProcessInputs
 ms.prod: windows
 ms.technology: windows-sdk

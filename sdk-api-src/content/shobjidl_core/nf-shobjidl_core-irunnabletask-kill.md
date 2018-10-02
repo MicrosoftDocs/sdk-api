@@ -4,10 +4,10 @@ title: IRunnableTask::Kill
 author: windows-sdk-content
 description: Requests that a task be stopped.
 old-location: shell\IRunnableTask_Kill.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7465aded-43ff-4b63-8a90-b9f55240625b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Kill method, IRunnableTask.Kill, IRunnableTask::Kill, Kill, Kill method [Windows Shell], Kill method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Kill, shell.IRunnableTask_Kill, shobjidl_core/IRunnableTask::Kill
 ms.prod: windows-hardware
 ms.technology: windows-devices

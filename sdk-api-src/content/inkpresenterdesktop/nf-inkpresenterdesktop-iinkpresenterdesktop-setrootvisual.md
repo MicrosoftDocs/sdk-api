@@ -7,7 +7,7 @@ old-location: input_ink\iinkpresenterdesktop_setrootvisual.htm
 tech.root: input_ink
 ms.assetid: 27b08f20-d43b-452c-809d-837664eb42d0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 09/26/2018
 ms.keywords: IInkPresenterDesktop interface,SetRootVisual method, IInkPresenterDesktop.SetRootVisual, IInkPresenterDesktop::SetRootVisual, InkPresenterDesktop.iinkpresenterdesktop_setrootvisual, SetRootVisual, SetRootVisual method, SetRootVisual method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetRootVisual, input_ink.iinkpresenterdesktop_setrootvisual
 ms.prod: windows-hardware
 ms.technology: windows-devices

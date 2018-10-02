@@ -7,7 +7,7 @@ old-location: cos\itransactionstatus.htm
 tech.root: cossdk
 ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
 ms.prod: windows
 ms.technology: windows-sdk

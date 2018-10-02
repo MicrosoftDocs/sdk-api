@@ -7,7 +7,7 @@ old-location: rpc\rpcasyncabortcall.htm
 tech.root: Rpc
 ms.assetid: 651c53f3-8bb5-4162-a8a8-2da5a0d05d21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcAsyncAbortCall, RpcAsyncAbortCall function [RPC], _rpc_rpcasyncabortcall, rpc.rpcasyncabortcall, rpcasync/RpcAsyncAbortCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

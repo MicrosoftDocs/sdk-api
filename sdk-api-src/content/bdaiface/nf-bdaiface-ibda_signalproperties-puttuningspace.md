@@ -4,10 +4,10 @@ title: IBDA_SignalProperties::PutTuningSpace
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_puttuningspace.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f3ecddfc-a95b-47ba-8a2b-5073de4aad5e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutTuningSpace method, IBDA_SignalProperties.PutTuningSpace, IBDA_SignalProperties::PutTuningSpace, IBDA_SignalPropertiesPutTuningSpace, PutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies],IBDA_SignalProperties interface, bdaiface/IBDA_SignalProperties::PutTuningSpace, mstv.ibda_signalproperties_puttuningspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

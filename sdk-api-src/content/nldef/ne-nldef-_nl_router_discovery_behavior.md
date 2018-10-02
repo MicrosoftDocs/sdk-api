@@ -4,10 +4,10 @@ title: "_NL_ROUTER_DISCOVERY_BEHAVIOR"
 author: windows-sdk-content
 description: The NL_ROUTER_DISCOVERY_BEHAVIOR enumeration type defines the router discovery behavior, as described in RFC 2461.
 old-location: netvista\nl_router_discovery_behavior.htm
-tech.root: netvista
+tech.root: NetVista
 ms.assetid: d3a0d872-c90a-4eb5-9011-c5913b9912c6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: NL_ROUTER_DISCOVERY_BEHAVIOR, NL_ROUTER_DISCOVERY_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _NL_ROUTER_DISCOVERY_BEHAVIOR, iphelper_fbaacfeb-efe8-45a1-8cf9-c600ed0214e0.xml, netvista.nl_router_discovery_behavior, nldef/NL_ROUTER_DISCOVERY_BEHAVIOR, nldef/RouterDiscoveryDhcp, nldef/RouterDiscoveryDisabled, nldef/RouterDiscoveryEnabled, nldef/RouterDiscoveryUnchanged
 ms.prod: windows
 ms.technology: windows-sdk

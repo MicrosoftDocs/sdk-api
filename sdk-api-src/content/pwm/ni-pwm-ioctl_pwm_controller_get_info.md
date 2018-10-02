@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_controller_get_info.htm
 tech.root: devio
 ms.assetid: C198FCCA-E1C5-4B03-8F42-7EE1952DC055
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_INFO, IOCTL_PWM_CONTROLLER_GET_INFO control, IOCTL_PWM_CONTROLLER_GET_INFO control code, base.ioctl_pwm_controller_get_info, pwm/IOCTL_PWM_CONTROLLER_GET_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
 Retrieves information about a Pulse Width Modulation (PWM) controller. This information does not change after the controller is initialized. 

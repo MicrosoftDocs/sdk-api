@@ -7,7 +7,7 @@ old-location: controls\itextdocument2.htm
 tech.root: controls
 ms.assetid: 0b0a54d7-7606-41f6-b8be-6367d9180ef4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], ITextDocument2 interface [Windows Controls],described, controls.itextdocument2, tom/ITextDocument2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: StrToInt64ExW function
 author: windows-sdk-content
 description: Converts a string representing a decimal or hexadecimal value to a 64-bit integer.
 old-location: shell\StrToInt64Ex.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8ea04c9f-6485-4931-a5d5-b22eb6681bd1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: STIF_DEFAULT, STIF_SUPPORT_HEX, StrToInt64Ex, StrToInt64Ex function [Windows Shell], StrToInt64ExA, StrToInt64ExW, _win32_StrToInt64Ex, shell.StrToInt64Ex, shlwapi/StrToInt64Ex, shlwapi/StrToInt64ExA, shlwapi/StrToInt64ExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

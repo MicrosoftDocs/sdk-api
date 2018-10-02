@@ -7,7 +7,7 @@ old-location: rras\mprinfoblockadd.htm
 tech.root: RRAS
 ms.assetid: 94d8fc3b-1ed6-4555-85c0-40e32d197a72
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprInfoBlockAdd, MprInfoBlockAdd function [RAS], _mpr_mprinfoblockadd, mprapi/MprInfoBlockAdd, rras.mprinfoblockadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

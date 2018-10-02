@@ -4,10 +4,10 @@ title: "_MI_SerializerFT"
 author: windows-sdk-content
 description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &#0034;MI_Serializer_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_serializerft.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: bf97fff0-0a3d-4326-90a4-c329a06d5741
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_SerializerFT, MI_SerializerFT structure [Windows Management Infrastructure (MI)], _MI_SerializerFT, mi/MI_SerializerFT, wmi_v2.mi_serializerft
 ms.prod: windows
 ms.technology: windows-sdk

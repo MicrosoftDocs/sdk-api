@@ -2,21 +2,21 @@
 UID: NF:dshowasf.IAMWMBufferPass.SetNotify
 title: IAMWMBufferPass::SetNotify
 author: windows-sdk-content
-description: The SetNotify method IAMWMBufferPasssets an application-defined callback on the WM ASF Reader or WM ASF Writer filter.
-old-location: dshow\iamwmbufferpass_setnotify.htm
-tech.root: DirectShow
-ms.assetid: 4aa6fc71-39a7-4fa5-bfe3-b5b12dd44a2b
+description: The SetNotify method is used by applications to provide the WM ASF Writer or WM ASF Reader filter with a pointer to the application's IAMWMBufferPassCallback interface.
+old-location: wmformat\iamwmbufferpass_setnotify.htm
+tech.root: wmformat
+ms.assetid: b0fff344-a20c-4cfc-828b-c6fc49d990ea
 ms.author: windowssdkdev
-ms.date: 08/20/2018
-ms.keywords: IAMWMBufferPass interface [DirectShow],SetNotify method, IAMWMBufferPass.SetNotify, IAMWMBufferPass::SetNotify, IAMWMBufferPassSetNotify, SetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow],IAMWMBufferPass interface, dshow.iamwmbufferpass_setnotify, dshowasf/IAMWMBufferPass::SetNotify
+ms.date: 09/27/2018
+ms.keywords: IAMWMBufferPass interface [windows Media Format],SetNotify method, IAMWMBufferPass.SetNotify, IAMWMBufferPass::SetNotify, IAMWMBufferPassSetNotify, SetNotify, SetNotify method [windows Media Format], SetNotify method [windows Media Format],IAMWMBufferPass interface, dshowasf/IAMWMBufferPass::SetNotify, wmformat.iamwmbufferpass_setnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,14 +35,13 @@ topic_type:
 api_type:
  - COM
 api_location:
- - Dshowasf.h
+ - dshowasf.h
 api_name:
  - IAMWMBufferPass.SetNotify
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: Windows Media Format 9 Series or later
 ---
 
 # IAMWMBufferPass::SetNotify
@@ -52,7 +51,7 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-The <code>SetNotify</code> method <a href="https://msdn.microsoft.com/c13fe4e0-0847-4799-92a6-da36375cfbf4">IAMWMBufferPass</a>sets an application-defined callback on the WM ASF Reader or WM ASF Writer filter.
+The <b>SetNotify</b> method is used by applications to provide the WM ASF Writer or <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> filter with a pointer to the application's <a href="https://msdn.microsoft.com/5bf0ae2e-504b-471b-bfc9-aa48f534e03f">IAMWMBufferPassCallback</a> interface.
 
 
 
@@ -64,7 +63,7 @@ The <code>SetNotify</code> method <a href="https://msdn.microsoft.com/c13fe4e0-0
 
 ### -param pCallback [in]
 
-Pointer to the application's <a href="https://msdn.microsoft.com/c3a8e01e-a626-4e47-ad98-e22d1fe88906">IAMWMBufferPassCallback</a> interface.
+Pointer to the application's <b>IAMWMBufferPassCallback</b> interface.
 
 
 ## -returns
@@ -90,11 +89,7 @@ Call this method before putting the filter graph into the run state.
 
 
 
-<a href="https://msdn.microsoft.com/c13fe4e0-0847-4799-92a6-da36375cfbf4">IAMWMBufferPass Interface</a>
-
-
-
-<a href="https://msdn.microsoft.com/2fae0504-d1da-413a-80dd-de7818f506ef">Using Windows Media in DirectShow</a>
+<a href="https://msdn.microsoft.com/aa7513d4-9341-4ddf-ac82-54eb0c6eb5f4">IAMWMBufferPass Interface</a>
  
 
  

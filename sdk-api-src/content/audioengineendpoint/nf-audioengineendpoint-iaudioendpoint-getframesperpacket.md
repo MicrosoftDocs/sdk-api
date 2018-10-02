@@ -4,10 +4,10 @@ title: IAudioEndpoint::GetFramesPerPacket
 author: windows-sdk-content
 description: Gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.
 old-location: termserv\iaudioendpoint_getframesperpacket.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: b9e47262-9e6f-4ddf-a74a-b7fa63983a5a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetFramesPerPacket, GetFramesPerPacket method [Remote Desktop Services], GetFramesPerPacket method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFramesPerPacket method, IAudioEndpoint.GetFramesPerPacket, IAudioEndpoint::GetFramesPerPacket, audioengineendpoint/IAudioEndpoint::GetFramesPerPacket, termserv.iaudioendpoint_getframesperpacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

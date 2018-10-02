@@ -7,7 +7,7 @@ old-location: security\openprocesstoken.htm
 tech.root: SecAuthZ
 ms.assetid: 1e760ad8-7e46-4748-8c45-36ad8efe936a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: OpenProcessToken, OpenProcessToken function [Security], _win32_openprocesstoken, processthreadsapi/OpenProcessToken, security.openprocesstoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

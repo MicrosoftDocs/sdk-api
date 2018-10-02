@@ -4,10 +4,10 @@ title: IMFCaptureEngineClassFactory
 author: windows-sdk-content
 description: Creates an instance of the capture engine.
 old-location: mf\imfcaptureengineclassfactory.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: FAFA52AD-B96E-4ADC-BE79-3BE5F1ACC92A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFCaptureEngineClassFactory, IMFCaptureEngineClassFactory interface [Media Foundation], IMFCaptureEngineClassFactory interface [Media Foundation],described, mf.imfcaptureengineclassfactory, mfcaptureengine/IMFCaptureEngineClassFactory
 ms.prod: windows
 ms.technology: windows-sdk

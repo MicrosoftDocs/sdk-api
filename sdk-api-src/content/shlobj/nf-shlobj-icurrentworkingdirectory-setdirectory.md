@@ -4,10 +4,10 @@ title: ICurrentWorkingDirectory::SetDirectory
 author: windows-sdk-content
 description: Sets the current working directory.
 old-location: shell\ICurrentWorkingDirectory_SetDirectory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: cd7d1517-8c0c-4e42-b750-815fa0aff32c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ICurrentWorkingDirectory interface [Windows Shell],SetDirectory method, ICurrentWorkingDirectory.SetDirectory, ICurrentWorkingDirectory::SetDirectory, SetDirectory, SetDirectory method [Windows Shell], SetDirectory method [Windows Shell],ICurrentWorkingDirectory interface, _win32_ICurrentWorkingDirectory_SetDirectory, shell.ICurrentWorkingDirectory_SetDirectory, shlobj/ICurrentWorkingDirectory::SetDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\dodragdrop.htm
 tech.root: com
 ms.assetid: 095172ac-9e08-4797-b9da-41a4e5a61315
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: DoDragDrop, DoDragDrop function [COM], _ole_DoDragDrop, com.dodragdrop, ole2/DoDragDrop
 ms.prod: windows-hardware
 ms.technology: windows-devices

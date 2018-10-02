@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_endmethodenumeration.htm
 tech.root: WmiSdk
 ms.assetid: 7a6de467-65f7-4873-a2dd-9c52c138b1d2
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: EndMethodEnumeration, EndMethodEnumeration method [Windows Management Instrumentation], EndMethodEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],EndMethodEnumeration method, IWbemClassObject.EndMethodEnumeration, IWbemClassObject::EndMethodEnumeration, _hmm_iwbemclassobject_endmethodenumeration, wbemcli/IWbemClassObject::EndMethodEnumeration, wmi.iwbemclassobject_endmethodenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

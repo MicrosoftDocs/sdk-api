@@ -4,10 +4,10 @@ title: IMSVidAnalogTuner::get_CountryCode
 author: windows-sdk-content
 description: The get_CountryCode method retrieves the tuner's country/region code.
 old-location: mstv\imsvidanalogtuner_get_countrycode.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f8efd47f-2a89-4982-88dd-3bfc6c00801b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_CountryCode method, IMSVidAnalogTuner.get_CountryCode, IMSVidAnalogTuner::get_CountryCode, IMSVidAnalogTunerget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_countrycode, segment/IMSVidAnalogTuner::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

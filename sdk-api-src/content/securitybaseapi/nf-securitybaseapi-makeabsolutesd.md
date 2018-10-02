@@ -7,7 +7,7 @@ old-location: security\makeabsolutesd.htm
 tech.root: SecAuthZ
 ms.assetid: 47c75071-f10d-43cf-a841-2dd49fc39afa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MakeAbsoluteSD, MakeAbsoluteSD function [Security], _win32_makeabsolutesd, security.makeabsolutesd, securitybaseapi/MakeAbsoluteSD
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFTimedTextTrack::GetLanguage
 author: windows-sdk-content
 description: Gets the language of the track.
 old-location: mf\imftimedtexttrack_getlanguage.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5676082D-A3D2-4239-A73F-65FA77D660EF
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLanguage method, IMFTimedTextTrack.GetLanguage, IMFTimedTextTrack::GetLanguage, mf.imftimedtexttrack_getlanguage, mfmediaengine/IMFTimedTextTrack::GetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

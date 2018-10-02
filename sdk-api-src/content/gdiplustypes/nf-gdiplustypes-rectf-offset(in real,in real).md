@@ -2,21 +2,21 @@
 UID: NF:gdiplustypes.RectF.Offset(IN REAL,IN REAL)
 title: RectF::Offset(IN REAL,IN REAL)
 author: windows-sdk-content
-description: This topic lists the Offset methods of the RectF class. For a complete list of methods for the RectF class, see Rect Methods.
-old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_Methods.htm
+description: The RectF::Offset method moves the rectangle by dx horizontally and by dx vertically.
+old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_dx_dy_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods\offset_44dx_dy.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Offset, Offset methods [GDI+], RectF.Offset, RectF.Offset(IN REAL,IN REAL), RectF::Offset, RectF::Offset(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Offset_Methods, gdiplus._gdiplus_CLASS_RectF_Offset_Methods, gdiplustypes/Offset
+ms.date: 09/26/2018
+ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],RectF class, RectF class [GDI+],Offset method, RectF.Offset, RectF.Offset(IN REAL,IN REAL), RectF.Offset(REAL,REAL), RectF::Offset, RectF::Offset(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Offset_dx_dy_, gdiplus._gdiplus_CLASS_RectF_Offset_dx_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplustypes.h
+ - Gdiplus.dll
 api_name:
  - RectF.Offset
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # RectF::Offset(IN REAL,IN REAL)
@@ -50,34 +51,62 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Offset methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> class. For a complete list of methods for the 
-			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534961(v=VS.85).aspx">Rect Methods</a>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx">Offset(PointF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx">RectF::Offset</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b>.
+The <b>RectF::Offset</b> method moves the rectangle by 
+			<i>dx</i> horizontally and by 
+			<i>dx</i> vertically.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx">Offset(REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx">RectF::Offset</a><i>dx</i><i>dx</i> vertically.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param dx [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the amount to move the rectangle horizontally. 
+
+
+### -param dy [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the amount to move the rectangle vertically. 
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0dcd8bc5-c38b-40ce-bc66-110d49cb96d5">Offset Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+ 
+
+ 
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationCacheRequest_Clone.htm
 tech.root: WinAuto
 ms.assetid: e7ba5cb0-a4a5-4556-ba28-899e9635af5d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],Clone method, IUIAutomationCacheRequest.Clone, IUIAutomationCacheRequest::Clone, uiauto.uiauto_IUIAutomationCacheRequest_Clone, uiauto_IUIAutomationCacheRequest_Clone, uiautomationclient/IUIAutomationCacheRequest::Clone, winauto.uiauto_IUIAutomationCacheRequest_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

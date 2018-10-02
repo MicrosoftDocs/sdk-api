@@ -7,7 +7,7 @@ old-location: imapi\emulationtype.htm
 tech.root: imapi
 ms.assetid: 53e87d6d-9547-4437-9548-652cfcbd308e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Emulation12MFloppy, Emulation144MFloppy, Emulation288MFloppy, EmulationHardDisk, EmulationNone, EmulationType, EmulationType enumeration [IMAPI], imapi.emulationtype, imapi2fs/Emulation12MFloppy, imapi2fs/Emulation144MFloppy, imapi2fs/Emulation288MFloppy, imapi2fs/EmulationHardDisk, imapi2fs/EmulationNone, imapi2fs/EmulationType
 ms.prod: windows
 ms.technology: windows-sdk

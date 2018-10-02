@@ -7,7 +7,7 @@ old-location: security\icryptattribute_objectid_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 9ae9a217-1658-42ac-bd28-33abab5d0d70
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICryptAttribute interface [Security],ObjectId property, ICryptAttribute.ObjectId, ICryptAttribute.get_ObjectId, ICryptAttribute::ObjectId, ICryptAttribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ICryptAttribute interface, certenroll/ICryptAttribute::ObjectId, certenroll/ICryptAttribute::get_ObjectId, get_ObjectId, security.icryptattribute_objectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

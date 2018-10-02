@@ -4,10 +4,10 @@ title: SHCreateShellItem function
 author: windows-sdk-content
 description: Creates an IShellItem object.
 old-location: shell\SHCreateShellItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d4371cdf-a8f4-4a39-ba66-97fd40ed46ae
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateShellItem, SHCreateShellItem function [Windows Shell], _win32_SHCreateShellItem, shell.SHCreateShellItem, shlobj_core/SHCreateShellItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

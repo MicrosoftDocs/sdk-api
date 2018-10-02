@@ -4,10 +4,10 @@ title: "_MMC_PROPERTY_ACTION"
 author: windows-sdk-content
 description: The MMC_PROPERTY_ACTION enumeration specifies the operations that can occur to a property contained in an MMC_SNAPIN_PROPERTY structure.
 old-location: mmc\mmc_property_action.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: c380d562-0acb-4c90-9460-6007a8eeb596
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: MMC_PROPACT_CHANGING, MMC_PROPACT_DELETING, MMC_PROPACT_INITIALIZED, MMC_PROPERTY_ACTION, MMC_PROPERTY_ACTION enumeration [MMC], _MMC_PROPERTY_ACTION, _slate_mmc_property_action, mmc.mmc_property_action, mmcobj/MMC_PROPACT_CHANGING, mmcobj/MMC_PROPACT_DELETING, mmcobj/MMC_PROPACT_INITIALIZED, mmcobj/MMC_PROPERTY_ACTION
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFPresentationTimeSource::GetUnderlyingClock
 author: windows-sdk-content
 description: Retrieves the underlying clock that the presentation time source uses to generate its clock times.
 old-location: mf\imfpresentationtimesource_getunderlyingclock.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 09c8fef8-7288-4356-9671-4c927c0cf502
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 09c8fef8-7288-4356-9671-4c927c0cf502, GetUnderlyingClock, GetUnderlyingClock method [Media Foundation], GetUnderlyingClock method [Media Foundation],IMFPresentationTimeSource interface, IMFPresentationTimeSource interface [Media Foundation],GetUnderlyingClock method, IMFPresentationTimeSource.GetUnderlyingClock, IMFPresentationTimeSource::GetUnderlyingClock, mf.imfpresentationtimesource_getunderlyingclock, mfidl/IMFPresentationTimeSource::GetUnderlyingClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

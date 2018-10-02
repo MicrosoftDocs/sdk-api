@@ -4,10 +4,10 @@ title: DhcpGetOptionInfo function
 author: windows-sdk-content
 description: Returns information on a specific DHCP option for the default user and vendor class.
 old-location: dhcp\dhcpgetoptioninfo.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: b62b0a07-3043-417d-affe-d3a350907f4e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpGetOptionInfo, DhcpGetOptionInfo function [DHCP], dhcp.dhcpgetoptioninfo, dhcpsapi/DhcpGetOptionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

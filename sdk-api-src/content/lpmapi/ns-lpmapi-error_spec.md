@@ -7,7 +7,7 @@ old-location: qos\error_spec.htm
 tech.root: QOS
 ms.assetid: 4d20cbb8-c29a-4c0c-bf06-532144da3e33
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ERROR_SPEC, ERROR_SPEC structure [QOS], lpmapi/ERROR_SPEC, qos.error_spec
 ms.prod: windows
 ms.technology: windows-sdk

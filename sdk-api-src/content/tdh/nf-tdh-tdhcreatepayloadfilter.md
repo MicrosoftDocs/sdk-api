@@ -4,10 +4,10 @@ title: TdhCreatePayloadFilter function
 author: windows-sdk-content
 description: Creates a single filter for a single payload to be used with the EnableTraceEx2 function.
 old-location: etw\tdhcreatepayloadfilter.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: B5132FF2-9DE3-40F3-82F0-90FE0640F646
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 09/26/2018
 ms.keywords: TdhCreatePayloadFilter, TdhCreatePayloadFilter function [ETW], etw.tdhcreatepayloadfilter, tdh/TdhCreatePayloadFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

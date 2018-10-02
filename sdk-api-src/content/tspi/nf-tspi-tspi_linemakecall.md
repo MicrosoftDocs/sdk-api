@@ -4,10 +4,10 @@ title: TSPI_lineMakeCall function
 author: windows-sdk-content
 description: The TSPI_lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested.
 old-location: tspi\tspi_linemakecall.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 9c3d6a7d-b0bf-4068-9d64-e0c715a8c011
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: TSPI_lineMakeCall, TSPI_lineMakeCall function [TAPI 2.2], _tspi_tspi_linemakecall, tspi.tspi_linemakecall, tspi/TSPI_lineMakeCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

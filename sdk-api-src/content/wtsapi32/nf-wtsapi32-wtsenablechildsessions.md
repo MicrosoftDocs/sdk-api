@@ -4,10 +4,10 @@ title: WTSEnableChildSessions function
 author: windows-sdk-content
 description: Enables or disables Child Sessions.
 old-location: termserv\wtsenablechildsessions.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: BA995C04-9004-4A41-8E4A-8701E8C64F2E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WTSEnableChildSessions, WTSEnableChildSessions function [Remote Desktop Services], termserv.wtsenablechildsessions, wtsapi32/WTSEnableChildSessions
 ms.prod: windows-hardware
 ms.technology: windows-devices

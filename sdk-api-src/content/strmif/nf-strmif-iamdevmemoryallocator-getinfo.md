@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemoryallocator_getinfo.htm
 tech.root: DirectShow
 ms.assetid: ee3070ed-98df-4f20-a91f-bb3c3492f3d8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetInfo method, IAMDevMemoryAllocator.GetInfo, IAMDevMemoryAllocator::GetInfo, IAMDevMemoryAllocatorGetInfo, dshow.iamdevmemoryallocator_getinfo, strmif/IAMDevMemoryAllocator::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

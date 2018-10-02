@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynthsink_setmasterclock.htm
 tech.root: audio
 ms.assetid: 91c996cc-04e1-47fb-a82d-1cb17fe191e2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/28/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetMasterClock method, IDirectMusicSynthSink.SetMasterClock, IDirectMusicSynthSink::SetMasterClock, SetMasterClock, SetMasterClock method [Audio Devices], SetMasterClock method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_setmasterclock, audmp-routines_45d219a0-1877-4a19-961f-6f3666bc9a1a.xml, dmusics/IDirectMusicSynthSink::SetMasterClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

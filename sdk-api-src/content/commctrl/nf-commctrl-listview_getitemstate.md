@@ -7,7 +7,7 @@ old-location: controls\ListView_GetItemState.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemstate.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_GetItemState, ListView_GetItemState macro [Windows Controls], _win32_ListView_GetItemState, _win32_ListView_GetItemState_cpp, commctrl/ListView_GetItemState, controls.ListView_GetItemState, controls._win32_ListView_GetItemState
 ms.prod: windows-hardware
 ms.technology: windows-devices

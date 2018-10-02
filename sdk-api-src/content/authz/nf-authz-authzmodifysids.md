@@ -7,7 +7,7 @@ old-location: security\authzmodifysids.htm
 tech.root: SecAuthZ
 ms.assetid: 740569A5-6159-409B-B8CB-B3A8BAE4F398
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AuthzModifySids, AuthzModifySids function [Security], authz/AuthzModifySids, security.authzmodifysids
 ms.prod: windows-hardware
 ms.technology: windows-devices

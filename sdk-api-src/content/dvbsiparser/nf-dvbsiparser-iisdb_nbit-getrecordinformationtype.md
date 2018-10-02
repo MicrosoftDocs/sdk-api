@@ -4,10 +4,10 @@ title: IISDB_NBIT::GetRecordInformationType
 author: windows-sdk-content
 description: Gets an information_type field from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordinformationtype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0f51abc1-d797-4666-b5d5-50560fd2f9f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordInformationType, GetRecordInformationType method [Microsoft TV Technologies], GetRecordInformationType method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordInformationType method, IISDB_NBIT.GetRecordInformationType, IISDB_NBIT::GetRecordInformationType, dvbsiparser/IISDB_NBIT::GetRecordInformationType, mstv.iisdb_nbit_getrecordinformationtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

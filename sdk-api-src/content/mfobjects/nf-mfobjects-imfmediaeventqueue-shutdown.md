@@ -4,10 +4,10 @@ title: IMFMediaEventQueue::Shutdown
 author: windows-sdk-content
 description: Shuts down the event queue.
 old-location: mf\imfmediaeventqueue_shutdown.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6ec52973-0d90-463b-b2be-08d5d6fdcc05
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue interface [Media Foundation],Shutdown method, IMFMediaEventQueue.Shutdown, IMFMediaEventQueue::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEventQueue interface, mf.imfmediaeventqueue_shutdown, mfobjects/IMFMediaEventQueue::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

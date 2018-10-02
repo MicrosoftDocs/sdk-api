@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_getbusinessrulestring.htm
 tech.root: SecAuthZ
 ms.assetid: 44cd9331-4891-45fe-9392-04c19da0ac7d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzClientContext object [Security],GetBusinessRuleString method, GetBusinessRuleString, GetBusinessRuleString method [Security], GetBusinessRuleString method [Security],AzClientContext object, GetBusinessRuleString method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetBusinessRuleString method, IAzClientContext.GetBusinessRuleString, IAzClientContext::GetBusinessRuleString, azroles/IAzClientContext::GetBusinessRuleString, security.iazclientcontext_getbusinessrulestring
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\lzclose.htm
 tech.root: fileio
 ms.assetid: ba535eb7-8d9b-4290-af1f-495e9737cd38
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: LZClose, LZClose function [Files], _win32_lzclose, base.lzclose, fs.lzclose, lzexpand/LZClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

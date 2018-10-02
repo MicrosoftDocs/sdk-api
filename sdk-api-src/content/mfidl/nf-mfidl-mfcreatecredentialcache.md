@@ -4,10 +4,10 @@ title: MFCreateCredentialCache function
 author: windows-sdk-content
 description: Creates a credential cache object. An application can use this object to implement a custom credential manager.
 old-location: mf\mfcreatecredentialcache.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: ec27f54a-4534-4342-856b-f6f55c5a7fdb
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFCreateCredentialCache, MFCreateCredentialCache function [Media Foundation], ec27f54a-4534-4342-856b-f6f55c5a7fdb, mf.mfcreatecredentialcache, mfidl/MFCreateCredentialCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

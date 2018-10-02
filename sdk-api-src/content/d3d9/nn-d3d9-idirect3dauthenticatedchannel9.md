@@ -4,10 +4,10 @@ title: IDirect3DAuthenticatedChannel9
 author: windows-sdk-content
 description: Provides a communication channel with the graphics driver or the Direct3D runtime.To get a pointer to this interface, call IDirect3DDevice9Video::CreateAuthenticatedChannel.
 old-location: mf\idirect3dauthenticatedchannel9.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: dd969956-a140-44ed-9917-5a0a09a432fa
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IDirect3DAuthenticatedChannel9, IDirect3DAuthenticatedChannel9 interface [Media Foundation], IDirect3DAuthenticatedChannel9 interface [Media Foundation],described, d3d9/IDirect3DAuthenticatedChannel9, mf.idirect3dauthenticatedchannel9
 ms.prod: windows
 ms.technology: windows-sdk

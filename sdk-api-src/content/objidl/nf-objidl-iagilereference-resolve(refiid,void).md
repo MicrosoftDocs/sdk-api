@@ -7,7 +7,7 @@ old-location: winrt\iagilereference_resolve.htm
 tech.root: WinRT
 ms.assetid: 627A7EE4-CFEF-47F6-BA99-51BEB78C5D55
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IAgileReference interface [Windows Runtime],Resolve method, IAgileReference.Resolve, IAgileReference.Resolve(REFIID,void), IAgileReference::Resolve, IAgileReference::Resolve(REFIID,void), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IAgileReference interface, objidl/IAgileReference::Resolve, winrt.iagilereference_resolve
 ms.prod: windows-hardware
 ms.technology: windows-devices

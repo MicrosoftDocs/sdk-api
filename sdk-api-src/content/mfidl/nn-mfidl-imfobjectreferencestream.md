@@ -4,10 +4,10 @@ title: IMFObjectReferenceStream
 author: windows-sdk-content
 description: Marshals an interface pointer to and from a stream.Stream objects that support IStream can expose this interface to provide custom marshaling for interface pointers.
 old-location: mf\imfobjectreferencestream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 9d29befd-b0ae-4610-a0b7-17face03c45e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 9d29befd-b0ae-4610-a0b7-17face03c45e, IMFObjectReferenceStream, IMFObjectReferenceStream interface [Media Foundation], IMFObjectReferenceStream interface [Media Foundation],described, mf.imfobjectreferencestream, mfidl/IMFObjectReferenceStream
 ms.prod: windows
 ms.technology: windows-sdk

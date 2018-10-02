@@ -4,10 +4,10 @@ title: GetUdpStatistics function
 author: windows-sdk-content
 description: The GetUdpStatistics function retrieves the User Datagram Protocol (UDP) statistics for the local computer.
 old-location: iphlp\getudpstatistics.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: a86e5758-a984-4483-8e9c-c482a7676a20
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: GetUdpStatistics, GetUdpStatistics function [IP Helper], _iphlp_getudpstatistics, iphlp.getudpstatistics, iphlpapi/GetUdpStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

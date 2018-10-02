@@ -4,10 +4,10 @@ title: ISyncMgrEvent::GetLevel
 author: windows-sdk-content
 description: Gets the log level of the event.
 old-location: shell\ISyncMgrEvent_GetLevel.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2937dc05-9576-43b4-9fbe-6c151dffcace
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetLevel, GetLevel method [Windows Shell], GetLevel method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLevel method, ISyncMgrEvent.GetLevel, ISyncMgrEvent::GetLevel, _shell_ISyncMgrEvent_GetLevel, shell.ISyncMgrEvent_GetLevel, syncmgr/ISyncMgrEvent::GetLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

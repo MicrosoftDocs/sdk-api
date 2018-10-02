@@ -4,10 +4,10 @@ title: IComponent::get_Status
 author: windows-sdk-content
 description: The get_Status method retrieves the requested or actual status of the component.
 old-location: mstv\icomponent_get_status.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3f517db8-a207-472e-8c6c-7cb2cac91f62
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_Status method, IComponent.get_Status, IComponent::get_Status, IComponentget_Status, get_Status, get_Status method [Microsoft TV Technologies], get_Status method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_status, tuner/IComponent::get_Status
 ms.prod: windows-hardware
 ms.technology: windows-devices

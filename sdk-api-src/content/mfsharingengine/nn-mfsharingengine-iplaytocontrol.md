@@ -4,10 +4,10 @@ title: IPlayToControl
 author: windows-sdk-content
 description: Enables the PlayToConnection object to connect to a media element.
 old-location: mf\iplaytocontrol.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 53355EEA-559B-4803-89F6-D454E15F9254
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation],described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
 ms.prod: windows
 ms.technology: windows-sdk

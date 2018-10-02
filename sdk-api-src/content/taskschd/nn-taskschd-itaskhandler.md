@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandler.htm
 tech.root: TaskSchd
 ms.assetid: ea3100d7-a80b-4487-9786-24124f2d72f1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], ITaskHandler interface [Task Scheduler],described, taskschd.itaskhandler, taskschd/ITaskHandler
 ms.prod: windows
 ms.technology: windows-sdk

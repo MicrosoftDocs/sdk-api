@@ -7,7 +7,7 @@ old-location: wsw\ws_fault_code.htm
 tech.root: wsw
 ms.assetid: 31fb8432-6bf6-475b-81ae-e4b1a797b189
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_FAULT_CODE, WS_FAULT_CODE structure [Web Services for Windows], _WS_FAULT_CODE, webservices/WS_FAULT_CODE, wsw.ws_fault_code
 ms.prod: windows
 ms.technology: windows-sdk

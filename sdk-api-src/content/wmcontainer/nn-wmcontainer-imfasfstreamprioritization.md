@@ -4,10 +4,10 @@ title: IMFASFStreamPrioritization
 author: windows-sdk-content
 description: Not implemented.
 old-location: mf\imfasfstreamprioritization.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 6eb79c52-dc81-406c-9000-d25ad380e6b2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], IMFASFStreamPrioritization interface [Media Foundation],described, mf.imfasfstreamprioritization, wmcontainer/IMFASFStreamPrioritization
 ms.prod: windows
 ms.technology: windows-sdk

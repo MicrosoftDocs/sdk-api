@@ -4,10 +4,10 @@ title: SHCreateItemInKnownFolder function
 author: windows-sdk-content
 description: Creates a Shell item object for a single file that exists inside a known folder.
 old-location: shell\SHCreateItemInKnownFolder.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: dc75ee60-7319-4a11-949e-dd0c3deabd8f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateItemInKnownFolder, SHCreateItemInKnownFolder function [Windows Shell], _shell_SHCreateItemInKnownFolder, shell.SHCreateItemInKnownFolder, shobjidl_core/SHCreateItemInKnownFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

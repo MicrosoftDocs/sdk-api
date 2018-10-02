@@ -7,7 +7,7 @@ old-location: automat\revokeactiveobject.htm
 tech.root: automat
 ms.assetid: 47e7b47b-dddc-445d-918f-02b1b6a37075
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: RevokeActiveObject, RevokeActiveObject function [Automation], _oa96_RevokeActiveObject, automat.revokeactiveobject, oleauto/RevokeActiveObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

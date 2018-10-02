@@ -7,7 +7,7 @@ old-location: wmformat\insnetsourcecreator.htm
 tech.root: wmformat
 ms.assetid: 39e692a6-fb68-447f-bd28-8d216776157a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], INSNetSourceCreator interface [windows Media Format],described, INSNetSourceCreatorInterface, wmformat.insnetsourcecreator, wmnetsourcecreator/INSNetSourceCreator
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFASFIndexer::SetIndexByteStreams
 author: windows-sdk-content
 description: Adds byte streams to be indexed.
 old-location: mf\imfasfindexer_setindexbytestreams.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f116baaa-8d9b-4ac0-9263-3bb65d67ee63
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexByteStreams method, IMFASFIndexer.SetIndexByteStreams, IMFASFIndexer::SetIndexByteStreams, SetIndexByteStreams, SetIndexByteStreams method [Media Foundation], SetIndexByteStreams method [Media Foundation],IMFASFIndexer interface, f116baaa-8d9b-4ac0-9263-3bb65d67ee63, mf.imfasfindexer_setindexbytestreams, wmcontainer/IMFASFIndexer::SetIndexByteStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

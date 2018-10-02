@@ -4,10 +4,10 @@ title: IContextMenuSite
 author: windows-sdk-content
 description: Implemented by the default folder view created using SHCreateShellFolderView.
 old-location: shell\IContextMenuSite.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IContextMenuSite, IContextMenuSite interface [Windows Shell], IContextMenuSite interface [Windows Shell],described, _shell_IContextMenuSite, shell.IContextMenuSite, shobjidl_core/IContextMenuSite
 ms.prod: windows
 ms.technology: windows-sdk

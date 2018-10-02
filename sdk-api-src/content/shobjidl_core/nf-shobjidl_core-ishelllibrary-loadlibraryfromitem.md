@@ -4,10 +4,10 @@ title: IShellLibrary::LoadLibraryFromItem
 author: windows-sdk-content
 description: Loads the library from a specified library definition file.
 old-location: shell\IShellLibrary_LoadLibraryFromItem.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5dd2c197-8846-481f-b51e-ea0a93fd5e9b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellLibrary interface [Windows Shell],LoadLibraryFromItem method, IShellLibrary.LoadLibraryFromItem, IShellLibrary::LoadLibraryFromItem, LoadLibraryFromItem, LoadLibraryFromItem method [Windows Shell], LoadLibraryFromItem method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_LoadLibraryFromItem, shell.IShellLibrary_LoadLibraryFromItem, shobjidl_core/IShellLibrary::LoadLibraryFromItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

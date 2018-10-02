@@ -7,7 +7,7 @@ old-location: multimedia\capyieldcallback.htm
 tech.root: Multimedia
 ms.assetid: 4d92ab5e-5cde-4fed-a661-0458b5399c2a
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_capYieldCallback, capYieldCallback, capYieldCallback callback, capYieldCallback callback function [Windows Multimedia], multimedia.capyieldcallback, vfw/capYieldCallback"
 ms.prod: windows
 ms.technology: windows-sdk

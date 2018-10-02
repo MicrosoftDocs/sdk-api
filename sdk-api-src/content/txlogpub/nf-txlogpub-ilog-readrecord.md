@@ -7,7 +7,7 @@ old-location: com\ilog_readrecord.htm
 tech.root: com
 ms.assetid: 756d56a4-083f-45cd-bcdc-7c8a15dabae6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: ILog interface [COM],ReadRecord method, ILog.ReadRecord, ILog::ReadRecord, ReadRecord, ReadRecord method [COM], ReadRecord method [COM],ILog interface, _com_ilog_readrecord, com.ilog_readrecord, txlogpub/ILog::ReadRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

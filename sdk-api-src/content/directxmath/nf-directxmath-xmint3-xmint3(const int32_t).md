@@ -7,7 +7,7 @@ old-location: dxmath\xmint3_ctor.htm
 tech.root: dxmath
 ms.assetid: Overload:Microsoft.directx_sdk.reference.XMINT3.#ctor
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: XMINT3, XMINT3 Constructors, XMINT3 Constructors constructors [DirectX Math Support APIs], directxmath/XMINT3 Constructors, dxmath.xmint3_ctor
 ms.prod: windows-hardware
 ms.technology: windows-devices

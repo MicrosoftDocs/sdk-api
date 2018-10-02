@@ -4,10 +4,10 @@ title: IDVBTLocator2
 author: windows-sdk-content
 description: Gets or sets tuning information for a Digital Video Broadcast - Second Generation Terrestrial (DVB-T2) network.
 old-location: mstv\idvbtlocator2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3a0add24-74bb-4645-8ea2-ec14ecfa8fb5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDVBTLocator2, IDVBTLocator2 interface [Microsoft TV Technologies], IDVBTLocator2 interface [Microsoft TV Technologies],described, mstv.idvbtlocator2, tuner/IDVBTLocator2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer1_getscriptproperties.htm
 tech.root: DirectWrite
 ms.assetid: CBC1DA09-6D3D-42D8-8E77-CFDBA733C228
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetScriptProperties, GetScriptProperties method [Direct Write], GetScriptProperties method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetScriptProperties method, IDWriteTextAnalyzer1.GetScriptProperties, IDWriteTextAnalyzer1::GetScriptProperties, directwrite.idwritetextanalyzer1_getscriptproperties, dwrite_1/IDWriteTextAnalyzer1::GetScriptProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

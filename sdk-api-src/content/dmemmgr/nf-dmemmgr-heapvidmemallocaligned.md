@@ -4,10 +4,10 @@ title: HeapVidMemAllocAligned function
 author: windows-sdk-content
 description: The HeapVidMemAllocAligned function allocates off_screen_memory for a display driver by using the DirectDraw video memory heap manager.
 old-location: display\heapvidmemallocaligned.htm
-tech.root: display
+tech.root: Display
 ms.assetid: efd004d5-58fc-4721-9a74-d018cb3e5de9
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: HeapVidMemAllocAligned, HeapVidMemAllocAligned function [Display Devices], display.heapvidmemallocaligned, dmemmgr/HeapVidMemAllocAligned, gdifncs_07c83436-71a7-4b41-91b9-5b24b6390474.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

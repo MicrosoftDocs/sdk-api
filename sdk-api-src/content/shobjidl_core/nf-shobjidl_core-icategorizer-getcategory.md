@@ -4,10 +4,10 @@ title: ICategorizer::GetCategory
 author: windows-sdk-content
 description: Gets a list of categories associated with a list of identifiers.
 old-location: shell\ICategorizer_GetCategory.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e3756e9e-7d68-4e30-92d4-1fddccf66ba5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetCategory method, ICategorizer.GetCategory, ICategorizer::GetCategory, inet_ICategorizer_GetCategory, shell.ICategorizer_GetCategory, shobjidl_core/ICategorizer::GetCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

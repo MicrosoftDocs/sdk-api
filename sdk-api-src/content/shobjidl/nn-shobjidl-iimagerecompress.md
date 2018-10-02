@@ -4,10 +4,10 @@ title: IImageRecompress
 author: windows-sdk-content
 description: Exposes a method that recompress images.
 old-location: shell\IImageRecompress.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 48e07bc4-da70-406b-8024-3fa36416247f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IImageRecompress, IImageRecompress interface [Windows Shell], IImageRecompress interface [Windows Shell],described, _win32_IImageRecompress, shell.IImageRecompress, shobjidl/IImageRecompress
 ms.prod: windows
 ms.technology: windows-sdk

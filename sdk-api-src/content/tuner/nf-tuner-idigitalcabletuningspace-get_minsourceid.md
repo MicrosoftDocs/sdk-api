@@ -4,10 +4,10 @@ title: IDigitalCableTuningSpace::get_MinSourceID
 author: windows-sdk-content
 description: The get_MinSourceID method retrieves the lowest source identifier for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_minsourceid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 54123d08-e01c-466e-833f-8412e06ac139
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MinSourceID method, IDigitalCableTuningSpace.get_MinSourceID, IDigitalCableTuningSpace::get_MinSourceID, IDigitalCableTuningSpaceget_MinSourceID, get_MinSourceID, get_MinSourceID method [Microsoft TV Technologies], get_MinSourceID method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_minsourceid, tuner/IDigitalCableTuningSpace::get_MinSourceID
 ms.prod: windows-hardware
 ms.technology: windows-devices

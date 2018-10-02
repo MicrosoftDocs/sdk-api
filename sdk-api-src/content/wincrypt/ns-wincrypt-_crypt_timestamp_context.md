@@ -7,7 +7,7 @@ old-location: security\crypt_timestamp_context.htm
 tech.root: seccrypto
 ms.assetid: 2831b2a9-0f84-4e41-a666-5903fc882965
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_CONTEXT, CRYPT_TIMESTAMP_CONTEXT, CRYPT_TIMESTAMP_CONTEXT structure [Security], PCRYPT_TIMESTAMP_CONTEXT, PCRYPT_TIMESTAMP_CONTEXT structure pointer [Security], _CRYPT_TIMESTAMP_CONTEXT, security.crypt_timestamp_context, wincrypt/CRYPT_TIMESTAMP_CONTEXT, wincrypt/PCRYPT_TIMESTAMP_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

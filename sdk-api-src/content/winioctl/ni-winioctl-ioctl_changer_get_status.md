@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_get_status.htm
 tech.root: devio
 ms.assetid: 6073230e-0ee7-40be-8fb5-1dd90c01de10
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_CHANGER_GET_STATUS control code, _win32_ioctl_changer_get_status, base.ioctl_changer_get_status, winioctl/IOCTL_CHANGER_GET_STATUS
 ms.prod: windows
 ms.technology: windows-sdk

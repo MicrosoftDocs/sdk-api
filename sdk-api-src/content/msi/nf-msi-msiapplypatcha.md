@@ -4,10 +4,10 @@ title: MsiApplyPatchA function
 author: windows-sdk-content
 description: For each product listed by the patch package as eligible to receive the patch, the MsiApplyPatch function invokes an installation and sets the PATCH property to the path of the patch package.
 old-location: setup\msiapplypatch.htm
-tech.root: msi
+tech.root: MSI
 ms.assetid: c78006ad-7355-49b6-8e79-a98dcdb0e54f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: INSTALLTYPE_DEFAULT, INSTALLTYPE_NETWORK_IMAGE, INSTALLTYPE_SINGLE_INSTANCE, MsiApplyPatch, MsiApplyPatch function, MsiApplyPatchA, MsiApplyPatchW, _msi_msiapplypatch, msi/MsiApplyPatch, msi/MsiApplyPatchA, msi/MsiApplyPatchW, setup.msiapplypatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

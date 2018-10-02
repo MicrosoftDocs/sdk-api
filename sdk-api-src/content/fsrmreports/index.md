@@ -2,13 +2,12 @@
 UID: NA:fsrmreports
 ms.assetid: 7b8e6d24-09ee-3bf8-b96e-20ec47982599
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: fsrm
-archived: true
 ---
 
 # Fsrmreports.h header

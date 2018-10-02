@@ -4,10 +4,10 @@ title: PeerCollabUpdateContact function
 author: windows-sdk-content
 description: Updates the information associated with a peer contact specified in the local contact store of the caller.
 old-location: p2p\peercollabupdatecontact.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 66a72629-6be1-4f1e-aeb1-e9b484c74732
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerCollabUpdateContact, PeerCollabUpdateContact function [Peer Networking], p2p.peercollabupdatecontact, p2p/PeerCollabUpdateContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

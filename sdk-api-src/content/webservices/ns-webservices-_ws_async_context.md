@@ -7,7 +7,7 @@ old-location: wsw\ws_async_context.htm
 tech.root: wsw
 ms.assetid: 3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_ASYNC_CONTEXT, WS_ASYNC_CONTEXT structure [Web Services for Windows], _WS_ASYNC_CONTEXT, webservices/WS_ASYNC_CONTEXT, wsw.ws_async_context
 ms.prod: windows
 ms.technology: windows-sdk

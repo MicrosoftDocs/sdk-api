@@ -4,10 +4,10 @@ title: IMFASFProfile::RemoveStream
 author: windows-sdk-content
 description: Removes a stream from the Advanced Systems Format (ASF) profile object.
 old-location: mf\imfasfprofile_removestream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: dfe404d3-66ea-407b-a2e0-caa065f41afe
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStream method, IMFASFProfile.RemoveStream, IMFASFProfile::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFProfile interface, dfe404d3-66ea-407b-a2e0-caa065f41afe, mf.imfasfprofile_removestream, wmcontainer/IMFASFProfile::RemoveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

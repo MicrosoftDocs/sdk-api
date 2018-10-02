@@ -7,7 +7,7 @@ old-location: base\startservice.htm
 tech.root: Services
 ms.assetid: f185a878-e1c3-4fe5-8ec9-c5296d27f985
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: StartService, StartService function, StartServiceA, StartServiceW, _win32_startservice, base.startservice, winsvc/StartService, winsvc/StartServiceA, winsvc/StartServiceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

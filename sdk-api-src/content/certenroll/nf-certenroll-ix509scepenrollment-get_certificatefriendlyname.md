@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_certificatefriendlyname.htm
 tech.root: SecCertEnroll
 ms.assetid: 7d6802be-c8d7-45ea-8da2-042414ae5e55
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CertificateFriendlyName property [Security], CertificateFriendlyName property [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CertificateFriendlyName property, IX509SCEPEnrollment.CertificateFriendlyName, IX509SCEPEnrollment.get_CertificateFriendlyName, IX509SCEPEnrollment::CertificateFriendlyName, IX509SCEPEnrollment::get_CertificateFriendlyName, IX509SCEPEnrollment::put_CertificateFriendlyName, certenroll/IX509SCEPEnrollment::CertificateFriendlyName, certenroll/IX509SCEPEnrollment::get_CertificateFriendlyName, certenroll/IX509SCEPEnrollment::put_CertificateFriendlyName, get_CertificateFriendlyName, security.ix509scepenrollment_certificatefriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

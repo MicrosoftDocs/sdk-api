@@ -4,10 +4,10 @@ title: Int8ToUInt8 function
 author: windows-sdk-content
 description: Converts a value of type INT8 to a value of type UINT8.
 old-location: shell\Int8ToUInt8.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1638bfca-9cec-4d01-b3b0-47a4358e35d1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: Int8ToUInt8, Int8ToUInt8 function [Windows Shell], intsafe/Int8ToUInt8, shell.Int8ToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

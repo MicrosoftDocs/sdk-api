@@ -4,10 +4,10 @@ title: IEnumGuideDataProperties::Next
 author: windows-sdk-content
 description: The Next method retrieves the specified number of items in the enumeration sequence.
 old-location: mstv\ienumguidedataproperties_next.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 5d13ce97-5729-48e5-a742-0689b2aae1f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Next method, IEnumGuideDataProperties.Next, IEnumGuideDataProperties::Next, IEnumGuideDataPropertiesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Next, mstv.ienumguidedataproperties_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

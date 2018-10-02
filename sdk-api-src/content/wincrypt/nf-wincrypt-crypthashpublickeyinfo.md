@@ -7,7 +7,7 @@ old-location: security\crypthashpublickeyinfo.htm
 tech.root: seccrypto
 ms.assetid: b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: CryptHashPublicKeyInfo, CryptHashPublicKeyInfo function [Security], _crypto2_crypthashpublickeyinfo, security.crypthashpublickeyinfo, wincrypt/CryptHashPublicKeyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

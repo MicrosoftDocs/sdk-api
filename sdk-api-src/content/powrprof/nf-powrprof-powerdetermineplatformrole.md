@@ -4,10 +4,10 @@ title: PowerDeterminePlatformRole function
 author: windows-sdk-content
 description: Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.
 old-location: base\powerdetermineplatformrole.htm
-tech.root: power
+tech.root: Power
 ms.assetid: a0311454-3908-49a6-95c0-c118dca259ac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PowerDeterminePlatformRole, PowerDeterminePlatformRole function, base.powerdetermineplatformrole, powrprof/PowerDeterminePlatformRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

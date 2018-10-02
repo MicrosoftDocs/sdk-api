@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::RemoveAllEffects
 author: windows-sdk-content
 description: Removes all effects that were added with the IMFPMediaPlayer::InsertEffect method.
 old-location: mf\imfpmediaplayer_removealleffects.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 8745714c-315c-4183-86a2-7c189328dfe6
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveAllEffects method, IMFPMediaPlayer.RemoveAllEffects, IMFPMediaPlayer::RemoveAllEffects, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removealleffects, mfplay/IMFPMediaPlayer::RemoveAllEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

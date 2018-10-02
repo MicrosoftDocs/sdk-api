@@ -4,10 +4,10 @@ title: IScanningTunerEx::GetTunerStatus
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_gettunerstatus.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9e91f5ca-5a2e-414e-bf4c-882ba6a08b98
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetTunerStatus, GetTunerStatus method [Microsoft TV Technologies], GetTunerStatus method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerStatus method, IScanningTunerEx.GetTunerStatus, IScanningTunerEx::GetTunerStatus, IScanningTunerExGetTunerStatus, mstv.iscanningtunerex_gettunerstatus, tuner/IScanningTunerEx::GetTunerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

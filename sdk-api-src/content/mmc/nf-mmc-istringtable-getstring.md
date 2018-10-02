@@ -4,10 +4,10 @@ title: IStringTable::GetString
 author: windows-sdk-content
 description: Enables a snap-in to retrieve a string from the snap-in's string table.
 old-location: mmc\istringtable_getstring.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 34dbf92a-b54d-4f60-87ff-493c9946a57d
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: GetString, GetString method [MMC], GetString method [MMC],IStringTable interface, IStringTable interface [MMC],GetString method, IStringTable.GetString, IStringTable::GetString, _slate_istringtable_getstring, mmc.istringtable_getstring, mmc/IStringTable::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices

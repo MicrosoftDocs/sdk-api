@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_numberofmissedruns.htm
 tech.root: TaskSchd
 ms.assetid: 8f5b5471-edfa-45e6-b556-ba12c0721aed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],NumberOfMissedRuns property, IRegisteredTask.NumberOfMissedRuns, IRegisteredTask.get_NumberOfMissedRuns, IRegisteredTask::NumberOfMissedRuns, IRegisteredTask::get_NumberOfMissedRuns, NumberOfMissedRuns property [Task Scheduler], NumberOfMissedRuns property [Task Scheduler],IRegisteredTask interface, get_NumberOfMissedRuns, taskschd.iregisteredtask_numberofmissedruns, taskschd/IRegisteredTask::NumberOfMissedRuns, taskschd/IRegisteredTask::get_NumberOfMissedRuns
 ms.prod: windows-hardware
 ms.technology: windows-devices

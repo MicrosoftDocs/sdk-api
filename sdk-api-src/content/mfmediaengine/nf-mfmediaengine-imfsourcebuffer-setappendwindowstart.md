@@ -4,10 +4,10 @@ title: IMFSourceBuffer::SetAppendWindowStart
 author: windows-sdk-content
 description: Sets the timestamp for the start of the append window.
 old-location: mf\imfsourcebuffer_setappendwindowstart.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 5f78e53c-ea2b-4849-9d01-6c31539d8ef5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowStart method, IMFSourceBuffer.SetAppendWindowStart, IMFSourceBuffer::SetAppendWindowStart, SetAppendWindowStart, SetAppendWindowStart method [Media Foundation], SetAppendWindowStart method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowstart, mfmediaengine/IMFSourceBuffer::SetAppendWindowStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

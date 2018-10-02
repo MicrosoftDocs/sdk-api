@@ -4,10 +4,10 @@ title: IBrowserService2::_GetToolbarCount
 author: windows-sdk-content
 description: Deprecated. Returns the number of toolbars in the browser window.
 old-location: shell\IBrowserService2__GetToolbarCount.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7884c80d-dc15-42a7-80e3-566eed819275
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarCount method, IBrowserService2._GetToolbarCount, IBrowserService2::_GetToolbarCount, _GetToolbarCount, _GetToolbarCount method [Windows Shell], _GetToolbarCount method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarCount, shell.IBrowserService2__GetToolbarCount, zone_IBrowserService2__GetToolbarCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

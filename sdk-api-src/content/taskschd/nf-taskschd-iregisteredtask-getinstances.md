@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_getinstances.htm
 tech.root: TaskSchd
 ms.assetid: 4634851e-e868-4915-a7da-32a39f405974
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetInstances, GetInstances method [Task Scheduler], GetInstances method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetInstances method, IRegisteredTask.GetInstances, IRegisteredTask::GetInstances, taskschd.iregisteredtask_getinstances, taskschd/IRegisteredTask::GetInstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

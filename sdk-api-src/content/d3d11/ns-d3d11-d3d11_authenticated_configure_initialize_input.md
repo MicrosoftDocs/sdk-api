@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE command.
 old-location: mf\d3d11_authenticated_configure_initialize_input.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: D634AF82-BC17-43FC-9E0E-1FEC10B5A42E
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, mf.d3d11_authenticated_configure_initialize_input
 ms.prod: windows
 ms.technology: windows-sdk

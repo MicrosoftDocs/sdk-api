@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellcolorback.htm
 tech.root: controls
 ms.assetid: d199c4d7-17fd-4d1d-9d6d-b11db71f1363
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: GetCellColorBack, GetCellColorBack method [Windows Controls], GetCellColorBack method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellColorBack method, ITextRow.GetCellColorBack, ITextRow::GetCellColorBack, controls.itextrow_getcellcolorback, tom/ITextRow::GetCellColorBack
 ms.prod: windows-hardware
 ms.technology: windows-devices

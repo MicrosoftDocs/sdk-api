@@ -4,10 +4,10 @@ title: IDsAdminCreateObj
 author: windows-sdk-content
 description: Used by an application or component to programmatically start a creation wizard for a specified object class.
 old-location: ad\idsadmincreateobj.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 93673b29-744a-4100-86b7-8a2eec861c47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], IDsAdminCreateObj interface [Active Directory],described, _glines_idsadmincreateobj, ad.idsadmincreateobj, dsadmin/IDsAdminCreateObj
 ms.prod: windows
 ms.technology: windows-sdk

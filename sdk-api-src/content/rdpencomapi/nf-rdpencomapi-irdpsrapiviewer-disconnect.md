@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiviewer_disconnect.htm
 tech.root: Rdp
 ms.assetid: 526b91aa-a5b9-4ee9-873f-ca23c4633d21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Disconnect, Disconnect method [RDP], Disconnect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Disconnect method, IRDPSRAPIViewer.Disconnect, IRDPSRAPIViewer::Disconnect, rdp.irdpsrapiviewer_disconnect, rdpencomapi/IRDPSRAPIViewer::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

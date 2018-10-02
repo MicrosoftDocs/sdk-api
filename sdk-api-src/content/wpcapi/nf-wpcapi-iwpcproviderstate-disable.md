@@ -7,7 +7,7 @@ old-location: parcon\iwpcproviderstate_disable.htm
 tech.root: parcon
 ms.assetid: 2aa1a236-b681-4226-a337-507d0854955d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Disable, Disable method, Disable method,IWPCProviderState interface, IWPCProviderState interface,Disable method, IWPCProviderState.Disable, IWPCProviderState::Disable, parcon.iwpcproviderstate_disable, wpcapi/IWPCProviderState::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_getlanguage.htm
 tech.root: printdocs
 ms.assetid: d16378cc-dd1c-49f9-9c1b-1eb0d78067f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetLanguage method, IXpsOMPage.GetLanguage, IXpsOMPage::GetLanguage, xps.ixpsompage_getlanguage, xpsobjectmodel/IXpsOMPage::GetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

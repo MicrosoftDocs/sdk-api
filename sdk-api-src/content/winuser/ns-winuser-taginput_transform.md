@@ -7,7 +7,7 @@ old-location: inputmsg\input_transform.htm
 tech.root: InputMsg
 ms.assetid: DE6854F0-17D8-4E4B-97CB-A135910A300C
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INPUT_TRANSFORM, INPUT_TRANSFORM structure [Windows and Messages], _INPUT_TRANSFORM, inputmsg.input_transform, tagINPUT_TRANSFORM, winuser/INPUT_TRANSFORM
 ms.prod: windows
 ms.technology: windows-sdk

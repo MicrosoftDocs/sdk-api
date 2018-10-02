@@ -7,7 +7,7 @@ old-location: search\iloadfilter_loadifilter.htm
 tech.root: search
 ms.assetid: 920c976e-4dde-4e53-85b7-7547291736a0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilter method, ILoadFilter.LoadIFilter, ILoadFilter::LoadIFilter, LoadIFilter, LoadIFilter method [search], LoadIFilter method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilter, search.iloadfilter_loadifilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

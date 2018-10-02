@@ -7,7 +7,7 @@ old-location: controls\ListView_FindItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_finditem.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ListView_FindItem, ListView_FindItem macro [Windows Controls], _win32_ListView_FindItem, _win32_ListView_FindItem_cpp, commctrl/ListView_FindItem, controls.ListView_FindItem, controls._win32_ListView_FindItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

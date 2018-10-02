@@ -4,10 +4,10 @@ title: ISBE2EnumStream::Skip
 author: windows-sdk-content
 description: Skips a specified number of streams in the enumeration sequence.
 old-location: mstv\isbe2enumstream_skip.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 52979cbc-203b-49ae-9892-db1abfeae94b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Skip method, ISBE2EnumStream.Skip, ISBE2EnumStream::Skip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_skip, sbe/ISBE2EnumStream::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

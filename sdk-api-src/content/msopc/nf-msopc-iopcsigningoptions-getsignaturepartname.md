@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions_getsignaturepartname.htm
 tech.root: OPC
 ms.assetid: 09481639-eea1-4203-932f-e97558408b42
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartName method, IOpcSigningOptions.GetSignaturePartName, IOpcSigningOptions::GetSignaturePartName, msopc/IOpcSigningOptions::GetSignaturePartName, opc.iopcsigningoptions_getsignaturepartname
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
 author: windows-sdk-content
 description: Indicates a change in the AVDecCommonOutput codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommonoutputformat.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: fe25dc52-bf79-488f-a897-e533c5209001
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: AVDecCommonOutputFormat, AVDecCommonOutputFormat method [Microsoft TV Technologies], AVDecCommonOutputFormat method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonOutputFormat method, IMSVidAudioRendererEvent2.AVDecCommonOutputFormat, IMSVidAudioRendererEvent2::AVDecCommonOutputFormat, mstv.imsvidaudiorendererevent2_avdeccommonoutputformat, segment/IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

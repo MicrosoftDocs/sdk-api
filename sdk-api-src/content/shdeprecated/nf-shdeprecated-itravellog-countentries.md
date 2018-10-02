@@ -4,10 +4,10 @@ title: ITravelLog::CountEntries
 author: windows-sdk-content
 description: Deprecated. Generates the number of entries in the travel log.
 old-location: shell\ITravelLog_CountEntries.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 490f7350-6c67-4c79-a100-af266b269472
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CountEntries, CountEntries method [Windows Shell], CountEntries method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],CountEntries method, ITravelLog.CountEntries, ITravelLog::CountEntries, shdeprecated/ITravelLog::CountEntries, shell.ITravelLog_CountEntries, zone_ITravelLog_CountEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

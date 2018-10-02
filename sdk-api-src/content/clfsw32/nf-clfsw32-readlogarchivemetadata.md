@@ -7,7 +7,7 @@ old-location: fs\readlogarchivemetadata.htm
 tech.root: Clfs
 ms.assetid: b0b8528d-30fc-4995-b82d-5577af8d299d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: ReadLogArchiveMetadata, ReadLogArchiveMetadata function [Files], clfsw32/ReadLogArchiveMetadata, fs.readlogarchivemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

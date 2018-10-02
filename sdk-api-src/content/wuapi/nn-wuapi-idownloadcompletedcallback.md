@@ -4,10 +4,10 @@ title: IDownloadCompletedCallback
 author: windows-sdk-content
 description: Provides the callback that is used when an asynchronous download is completed.
 old-location: wua\idownloadcompletedcallback.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ad1c3075-21d9-409f-9677-fbf6d0c50313
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IDownloadCompletedCallback, IDownloadCompletedCallback interface [Windows Update Agent], IDownloadCompletedCallback interface [Windows Update Agent],described, wua.idownloadcompletedcallback, wuapi/IDownloadCompletedCallback
 ms.prod: windows
 ms.technology: windows-sdk

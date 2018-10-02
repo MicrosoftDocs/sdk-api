@@ -7,7 +7,7 @@ old-location: adsi\idirectoryobject_deletedsobject.htm
 tech.root: ADSI
 ms.assetid: bb7bed74-1420-4b46-92a9-ebe31f2d88fd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: DeleteDSObject, DeleteDSObject method [ADSI], DeleteDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],DeleteDSObject method, IDirectoryObject.DeleteDSObject, IDirectoryObject::DeleteDSObject, _ds_idirectoryobject_deletedsobject, adsi.idirectoryobject__deletedsobject, adsi.idirectoryobject_deletedsobject, iads/IDirectoryObject::DeleteDSObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

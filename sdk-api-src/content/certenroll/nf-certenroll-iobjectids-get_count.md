@@ -7,7 +7,7 @@ old-location: security\iobjectids_count_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 21beb41d-ebbf-4925-8e21-4506cdaefb97
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: Count property [Security], Count property [Security],IObjectIds interface, IObjectIds interface [Security],Count property, IObjectIds.Count, IObjectIds.get_Count, IObjectIds::Count, IObjectIds::get_Count, certenroll/IObjectIds::Count, certenroll/IObjectIds::get_Count, get_Count, security.iobjectids_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

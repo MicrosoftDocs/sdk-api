@@ -7,7 +7,7 @@ old-location: pla\ischedulecollection_item.htm
 tech.root: PLA
 ms.assetid: ba889b2e-f822-41ca-a908-ade83ae7cf10
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: IScheduleCollection interface [PLA],Item property, IScheduleCollection.Item, IScheduleCollection.get_Item, IScheduleCollection::Item, IScheduleCollection::get_Item, Item property [PLA], Item property [PLA],IScheduleCollection interface, base.ischedulecollection_item, get_Item, pla.ischedulecollection_item, pla/IScheduleCollection::Item, pla/IScheduleCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

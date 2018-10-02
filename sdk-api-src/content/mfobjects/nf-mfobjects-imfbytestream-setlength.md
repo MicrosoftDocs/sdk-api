@@ -4,10 +4,10 @@ title: IMFByteStream::SetLength
 author: windows-sdk-content
 description: Sets the length of the stream.
 old-location: mf\imfbytestream_setlength.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 55bee595-0a32-4b9e-8b22-48fdb2913dfc
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 55bee595-0a32-4b9e-8b22-48fdb2913dfc, IMFByteStream interface [Media Foundation],SetLength method, IMFByteStream.SetLength, IMFByteStream::SetLength, SetLength, SetLength method [Media Foundation], SetLength method [Media Foundation],IMFByteStream interface, mf.imfbytestream_setlength, mfobjects/IMFByteStream::SetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

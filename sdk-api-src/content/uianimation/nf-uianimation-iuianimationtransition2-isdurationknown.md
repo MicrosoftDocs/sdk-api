@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransition2_isdurationknown.htm
 tech.root: UIAnimation
 ms.assetid: A73065A7-B191-4CB9-A75A-827CFC040C92
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],IsDurationKnown method, IUIAnimationTransition2.IsDurationKnown, IUIAnimationTransition2::IsDurationKnown, IsDurationKnown, IsDurationKnown method [Windows Animation], IsDurationKnown method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_isdurationknown, uianimation/IUIAnimationTransition2::IsDurationKnown
 ms.prod: windows-hardware
 ms.technology: windows-devices

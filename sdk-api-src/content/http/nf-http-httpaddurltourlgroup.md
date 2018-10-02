@@ -4,10 +4,10 @@ title: HttpAddUrlToUrlGroup function
 author: windows-sdk-content
 description: Adds the specified URL to the URL Group identified by the URL Group ID.
 old-location: http\httpaddurltourlgroup.htm
-tech.root: http
+tech.root: Http
 ms.assetid: e6bf68aa-d6a5-4079-b689-49cfc2303ba5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: HttpAddUrlToUrlGroup, HttpAddUrlToUrlGroup function [HTTP], http.httpaddurltourlgroup, http/HttpAddUrlToUrlGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

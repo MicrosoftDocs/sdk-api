@@ -4,10 +4,10 @@ title: IShellChangeNotify
 author: windows-sdk-content
 description: Exposes a method that notifies a Shell namespace extension when the ID of an item has changed.
 old-location: shell\IShellChangeNotify.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: fc8d0bdd-0ca5-40e3-bdad-68ca1c64b08e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellChangeNotify, IShellChangeNotify interface [Windows Shell], IShellChangeNotify interface [Windows Shell],described, _win32_IShellChangeNotify, shell.IShellChangeNotify, shlobj_core/IShellChangeNotify
 ms.prod: windows
 ms.technology: windows-sdk

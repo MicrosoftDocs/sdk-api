@@ -7,7 +7,7 @@ old-location: winsock\wsaasyncgetservbyname_2.htm
 tech.root: WinSock
 ms.assetid: d3524197-cd7a-4863-8fbb-a05e6f5d38e0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WSAAsyncGetServByName, WSAAsyncGetServByName function [Winsock], _win32_wsaasyncgetservbyname_2, winsock.wsaasyncgetservbyname_2, winsock/WSAAsyncGetServByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

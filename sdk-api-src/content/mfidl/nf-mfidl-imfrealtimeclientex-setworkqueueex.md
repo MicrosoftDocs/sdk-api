@@ -4,10 +4,10 @@ title: IMFRealTimeClientEx::SetWorkQueueEx
 author: windows-sdk-content
 description: Specifies the work queue that this object should use for asynchronous work items.
 old-location: mf\imfrealtimeclientex_setworkqueueex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 4F91FD8A-A8B6-4066-A0EB-F764A3BFD8A2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFRealTimeClientEx interface [Media Foundation],SetWorkQueueEx method, IMFRealTimeClientEx.SetWorkQueueEx, IMFRealTimeClientEx::SetWorkQueueEx, SetWorkQueueEx, SetWorkQueueEx method [Media Foundation], SetWorkQueueEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_setworkqueueex, mfidl/IMFRealTimeClientEx::SetWorkQueueEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

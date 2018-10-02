@@ -7,7 +7,7 @@ old-location: security\icspalgorithms_itembyindex_property.htm
 tech.root: SecCertEnroll
 ms.assetid: a9016683-fc62-4440-9c15-318199810091
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICspAlgorithms interface [Security],ItemByIndex property, ICspAlgorithms.ItemByIndex, ICspAlgorithms.get_ItemByIndex, ICspAlgorithms::ItemByIndex, ICspAlgorithms::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByIndex, certenroll/ICspAlgorithms::get_ItemByIndex, get_ItemByIndex, security.icspalgorithms_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

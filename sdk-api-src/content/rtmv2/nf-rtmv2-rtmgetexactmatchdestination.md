@@ -7,7 +7,7 @@ old-location: rras\rtmgetexactmatchdestination.htm
 tech.root: RRAS
 ms.assetid: 0cbb24f4-30f4-41be-aea2-36474760d374
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RtmGetExactMatchDestination, RtmGetExactMatchDestination function [RAS], _rtmv2ref_rtmgetexactmatchdestination, rras.rtmgetexactmatchdestination, rtmv2/RtmGetExactMatchDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsubtractangles.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorSubtractAngles(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVectorSubtractAngles, XMVectorSubtractAngles, XMVectorSubtractAngles method [DirectX Math Support APIs], dxmath.xmvectorsubtractangles
 ms.prod: windows-hardware
 ms.technology: windows-devices

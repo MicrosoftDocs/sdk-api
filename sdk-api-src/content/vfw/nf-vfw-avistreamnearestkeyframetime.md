@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnearestkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 7409e8e3-d151-4970-9c0e-84ecdf9846a0
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/26/2018
 ms.keywords: AVIStreamNearestKeyFrameTime, AVIStreamNearestKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrameTime, multimedia.avistreamnearestkeyframetime, vfw/AVIStreamNearestKeyFrameTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

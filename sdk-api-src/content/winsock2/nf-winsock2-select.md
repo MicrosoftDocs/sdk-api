@@ -7,7 +7,7 @@ old-location: winsock\select_2.htm
 tech.root: WinSock
 ms.assetid: f9f1092d-7e15-41cd-a42f-abe8a4f33e15
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "_win32_select_2, select, select function [Winsock], winsock.select_2, winsock2/select"
 ms.prod: windows-hardware
 ms.technology: windows-devices

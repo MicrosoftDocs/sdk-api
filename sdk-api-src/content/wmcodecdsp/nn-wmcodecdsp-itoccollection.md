@@ -4,10 +4,10 @@ title: ITocCollection
 author: windows-sdk-content
 description: The ITocCollection represents a collection of tables of contents. It provides methods for adding, retrieving, and removing, tables of contents from the collection.
 old-location: mf\itoccollection.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 10d6fc04-4444-4a47-911f-3d5bec548e28
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], ITocCollection interface [Media Foundation],described, codecapi.itoccollection, mf.itoccollection, wmcodecdsp/ITocCollection
 ms.prod: windows
 ms.technology: windows-sdk

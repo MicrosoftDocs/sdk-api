@@ -4,10 +4,10 @@ title: SHGetAssocKeys function
 author: windows-sdk-content
 description: Retrieves an array of class subkeys associated with an IQueryAssociations object.
 old-location: shell\shgetassockeys.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 0DCB7E41-5986-40CA-A68D-EC6688EB42C0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHGetAssocKeys, SHGetAssocKeys function [Windows Shell], shell.shgetassockeys, shlwapi/SHGetAssocKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

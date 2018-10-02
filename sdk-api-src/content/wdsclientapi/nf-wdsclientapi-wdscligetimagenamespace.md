@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagenamespace.htm
 tech.root: Wds
 ms.assetid: 30396f0b-77bb-4c43-86a0-2d4454a05b72
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WdsCliGetImageNamespace, WdsCliGetImageNamespace function [Windows Deployment Services], wds.wdscligetimagenamespace, wdsclientapi/WdsCliGetImageNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices

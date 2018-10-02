@@ -7,7 +7,7 @@ old-location: stream\histogramgrid.htm
 tech.root: stream
 ms.assetid: 2B0BA5EC-3120-41A2-B06A-B63E57DC8766
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: HistogramGrid, HistogramGrid structure [Streaming Media Devices], mfapi/HistogramGrid, stream.histogramgrid, tagHistogramGrid
 ms.prod: windows
 ms.technology: windows-sdk

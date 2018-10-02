@@ -4,10 +4,10 @@ title: IMSVidAnalogTuner::get_SAP
 author: windows-sdk-content
 description: The get_SAP method retrieves the tuner's SAP setting to enable secondary audio components.
 old-location: mstv\imsvidanalogtuner_get_sap.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9943ca7e-754e-4145-8f52-0a915fd7133d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_SAP method, IMSVidAnalogTuner.get_SAP, IMSVidAnalogTuner::get_SAP, IMSVidAnalogTunerget_SAP, get_SAP, get_SAP method [Microsoft TV Technologies], get_SAP method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_sap, segment/IMSVidAnalogTuner::get_SAP
 ms.prod: windows-hardware
 ms.technology: windows-devices

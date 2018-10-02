@@ -4,10 +4,10 @@ title: IResultData::GetNextItem
 author: windows-sdk-content
 description: The IResultData::GetNextItem method gets the next item in the result view with the specified state flags set.
 old-location: mmc\iresultdata_getnextitem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 1123fa48-969c-4208-83f2-e8ef4f72f0bb
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IResultData interface, GetNextItem method [MMC],IResultData2 interface, IResultData interface [MMC],GetNextItem method, IResultData.GetNextItem, IResultData2 interface [MMC],GetNextItem method, IResultData2::GetNextItem, IResultData::GetNextItem, _slate_iresultdata_getnextitem, mmc.iresultdata_getnextitem, mmc/IResultData2::GetNextItem, mmc/IResultData::GetNextItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

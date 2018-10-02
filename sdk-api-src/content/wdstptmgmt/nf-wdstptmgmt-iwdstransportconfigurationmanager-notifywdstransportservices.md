@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager_notifywdstransportservices.h
 tech.root: Wds
 ms.assetid: 0ca38fe9-fc18-41f1-bd4b-5e3e84e496d0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],NotifyWdsTransportServices method, IWdsTransportConfigurationManager.NotifyWdsTransportServices, IWdsTransportConfigurationManager::NotifyWdsTransportServices, NotifyWdsTransportServices, NotifyWdsTransportServices method [Windows Deployment Services], NotifyWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_notifywdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::NotifyWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

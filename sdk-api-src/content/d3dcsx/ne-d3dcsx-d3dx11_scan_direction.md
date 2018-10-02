@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11_scan_direction.htm
 tech.root: direct3d11
 ms.assetid: bb2660c8-2a29-4eb2-9156-5516b60a8dc3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: D3DX11_SCAN_DIRECTION, D3DX11_SCAN_DIRECTION enumeration [Direct3D 11], D3DX11_SCAN_DIRECTION_BACKWARD, D3DX11_SCAN_DIRECTION_FORWARD, d15d15a2-7d9f-af63-6396-dc4819d59098, d3dcsx/D3DX11_SCAN_DIRECTION, d3dcsx/D3DX11_SCAN_DIRECTION_BACKWARD, d3dcsx/D3DX11_SCAN_DIRECTION_FORWARD, direct3d11.d3dx11_scan_direction
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IDsAdminNotifyHandler::Notify
 author: windows-sdk-content
 description: Called for each object after the confirmation dialog box has been displayed and the notification handler is selected in the confirmation dialog box.
 old-location: ad\idsadminnotifyhandler_notify.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: ac0b9da5-b0e3-4280-ae9c-602e28c907b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IDsAdminNotifyHandler interface [Active Directory],Notify method, IDsAdminNotifyHandler.Notify, IDsAdminNotifyHandler::Notify, Notify, Notify method [Active Directory], Notify method [Active Directory],IDsAdminNotifyHandler interface, _glines_idsadminnotifyhandler_notify, ad.idsadminnotifyhandler__notify, ad.idsadminnotifyhandler_notify, dsadmin/IDsAdminNotifyHandler::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

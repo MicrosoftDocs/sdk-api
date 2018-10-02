@@ -4,10 +4,10 @@ title: DefScreenSaverProc function
 author: windows-sdk-content
 description: Provides default processing for any messages that a screen saver application does not process.
 old-location: shell\DefScreenSaverProc.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: eda5c4d4-0484-4c81-a699-5fedea0bd1c2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DefScreenSaverProc, DefScreenSaverProc function [Windows Shell], _win32_DefScreenSaverProc, scrnsave/DefScreenSaverProc, shell.DefScreenSaverProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

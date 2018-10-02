@@ -7,7 +7,7 @@ old-location: http\winhttp_proxy_result_entry.htm
 tech.root: WinHttp
 ms.assetid: d1652b34-67a9-40ad-a495-836147e5cc88
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WINHTTP_PROXY_RESULT_ENTRY, WINHTTP_PROXY_RESULT_ENTRY structure [HTTP], _WINHTTP_PROXY_RESULT_ENTRY, http.winhttp_proxy_result_entry, winhttp/WINHTTP_PROXY_RESULT_ENTRY
 ms.prod: windows
 ms.technology: windows-sdk

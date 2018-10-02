@@ -4,10 +4,10 @@ title: IWTSProtocolConnection
 author: windows-sdk-content
 description: IWTSProtocolConnection is no longer available. Instead, use IWRdsProtocolConnection.
 old-location: termserv\iwtsprotocolconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 584a6874-0df4-480e-a10a-4b603643870e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], IWTSProtocolConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolconnection, wtsprotocol/IWTSProtocolConnection
 ms.prod: windows
 ms.technology: windows-sdk

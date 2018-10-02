@@ -4,10 +4,10 @@ title: MFCreateVideoSampleAllocator
 author: windows-sdk-content
 description: Creates an object that allocates video samples.
 old-location: mf\mfcreatevideosampleallocator.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 2d40a335-9948-40d9-b93f-18a6decf96c8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IUnknown, MFCreateVideoSampleAllocator, MFCreateVideoSampleAllocator callback, MFCreateVideoSampleAllocator callback function [Media Foundation], evr/MFCreateVideoSampleAllocator, mf.mfcreatevideosampleallocator
 ms.prod: windows
 ms.technology: windows-sdk

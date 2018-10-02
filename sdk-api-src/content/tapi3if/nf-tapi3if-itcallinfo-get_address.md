@@ -4,10 +4,10 @@ title: ITCallInfo::get_Address
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the ITAddress interface of the Address object.
 old-location: tapi3\itcallinfo_get_address.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 40f20f33-166f-4df7-9c9f-b7436958d16a
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_Address method, ITCallInfo.get_Address, ITCallInfo::get_Address, _tapi3_itcallinfo_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_address, tapi3if/ITCallInfo::get_Address
 ms.prod: windows-hardware
 ms.technology: windows-devices

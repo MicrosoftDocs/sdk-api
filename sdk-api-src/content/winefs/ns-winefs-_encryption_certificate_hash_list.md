@@ -7,7 +7,7 @@ old-location: fs\encryption_certificate_hash_list_str.htm
 tech.root: fileio
 ms.assetid: 988159b3-3cb9-4a4d-9c68-ebfb309cff25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: "*PENCRYPTION_CERTIFICATE_HASH_LIST, ENCRYPTION_CERTIFICATE_HASH_LIST, ENCRYPTION_CERTIFICATE_HASH_LIST structure [Files], PENCRYPTION_CERTIFICATE_HASH_LIST, PENCRYPTION_CERTIFICATE_HASH_LIST structure pointer [Files], _ENCRYPTION_CERTIFICATE_HASH_LIST, _win32_encryption_certificate_hash_list_str, base.encryption_certificate_hash_list_str, fs.encryption_certificate_hash_list_str, winefs/ENCRYPTION_CERTIFICATE_HASH_LIST, winefs/PENCRYPTION_CERTIFICATE_HASH_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

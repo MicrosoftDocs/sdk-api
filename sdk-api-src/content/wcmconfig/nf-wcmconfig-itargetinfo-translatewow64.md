@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_translatewow64.htm
 tech.root: SMI
 ms.assetid: 0325bac8-1843-4e32-97a6-fb6e2bef9e16
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITargetInfo interface [SMI],TranslateWow64 method, ITargetInfo.TranslateWow64, ITargetInfo::TranslateWow64, TranslateWow64, TranslateWow64 method [SMI], TranslateWow64 method [SMI],ITargetInfo interface, smi.itargetinfo_translatewow64, wcmconfig/ITargetInfo::TranslateWow64
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: peer_application_tag
 author: windows-sdk-content
 description: The PEER_APPLICATION structure contains data describing a locally installed software application or component that can be registered and shared with trusted contacts within a peer collaboration network.
 old-location: p2p\peer_application.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: a219231b-75d0-47d3-8294-f1cc25b43d27
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPEER_APPLICATION, PCPEER_APPLICATION, PCPEER_APPLICATION structure pointer [Peer Networking], PEER_APPLICATION, PEER_APPLICATION structure [Peer Networking], PPEER_APPLICATION, PPEER_APPLICATION structure pointer [Peer Networking], p2p.peer_application, p2p/PCPEER_APPLICATION, p2p/PEER_APPLICATION, p2p/PPEER_APPLICATION, peer_application_tag"
 ms.prod: windows
 ms.technology: windows-sdk

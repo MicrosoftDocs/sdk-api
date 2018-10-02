@@ -4,10 +4,10 @@ title: FWPM_LAYER_STATISTICS0_
 author: windows-sdk-content
 description: Stores statistics related to a layer.
 old-location: fwp\fwpm_layer_statistics0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: cc8e0159-fe28-4718-b5fe-d38d180b3e2c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FWPM_LAYER_STATISTICS0, FWPM_LAYER_STATISTICS0 structure [Filtering], FWPM_LAYER_STATISTICS0_, fwp.fwpm_layer_statistics0, fwpmtypes/FWPM_LAYER_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

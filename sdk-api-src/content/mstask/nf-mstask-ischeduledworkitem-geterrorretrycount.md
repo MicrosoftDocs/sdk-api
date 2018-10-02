@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_geterrorretrycount.htm
 tech.root: TaskSchd
 ms.assetid: f9935325-124b-4c21-be9c-e9d48fb69791
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetErrorRetryCount, GetErrorRetryCount method [Task Scheduler], GetErrorRetryCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetErrorRetryCount method, IScheduledWorkItem.GetErrorRetryCount, IScheduledWorkItem::GetErrorRetryCount, _msb_ischeduledworkitem_geterrorretrycount, mstask/IScheduledWorkItem::GetErrorRetryCount, taskschd.ischeduledworkitem_geterrorretrycount
 ms.prod: windows-hardware
 ms.technology: windows-devices

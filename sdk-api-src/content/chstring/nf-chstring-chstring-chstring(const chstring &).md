@@ -2,13 +2,13 @@
 UID: NF:chstring.CHString.CHString(const CHString &)
 title: CHString::CHString(const CHString &)
 author: windows-sdk-content
-description: Each of the following constructors initializes a new CHString object with the specified data.
-old-location: wmi\chstring_chstring.htm
+description: Initializes a new CHString object with the specified data.
+old-location: wmi\chstring_chstring_const_chstring__.htm
 tech.root: WmiSdk
-ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
+ms.assetid: 2b799ee3-e54f-4911-ac0c-4bca91a830d4
 ms.author: windowssdkdev
-ms.date: 08/28/2018
-ms.keywords: CHString, CHString.CHString, CHString.CHString(const CHString &), CHString::CHString, CHString::CHString constructors [Windows Management Instrumentation], CHString::CHString(const CHString &), chstring/CHString::CHString, wmi.chstring_chstring
+ms.date: 09/27/2018
+ms.keywords: "??0CHString@@QAE@ABV0@@Z, ??0CHString@@QEAA@AEBV0@@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(const CHString &), CHString::CHString, CHString::CHString(const CHString &), CHString::CHString(const CHString&), chstring/CHString::CHString, wmi.chstring_chstring_const_chstring__"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -33,12 +33,14 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::CHString
+ - CHString.CHString
+ - ??0CHString@@QAE@ABV0@@Z
+ - ??0CHString@@QEAA@AEBV0@@Z
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,76 +58,73 @@ req.redist:
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
-<span>Each of the following constructors initializes a new <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object with the specified data.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb7da79b-f808-4f2d-ac33-559fdc9a9978">CHString()</a>
-</td>
-<td align="left" width="63%">
-Creates an empty CHString object.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a12cbd2-7fc5-4d82-a85a-dcc1d538a839">CHString(LPCSTR)</a>
-</td>
-<td align="left" width="63%">
-Initializes with the LPCSTR value.
+Each of these constructors initializes a new <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object with the specified data.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11780ce1-b7d8-4a79-89fc-656ea5d71048">CHString(LPCWSTR)</a>
-</td>
-<td align="left" width="63%">
-Initializes with the LPCWSTR value.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b0afbc0-3ce0-4bcc-8ad1-e3b546d3b0dd">CHString(WCHAR,int)</a>
-</td>
-<td align="left" width="63%">
-Initializes with int copies of the WCHAR value.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58d588fe-6fd4-40c6-83fd-b78e0e409783">CHString(LPCWSTR,int)</a>
-</td>
-<td align="left" width="63%">
-Initializes with int copies of the LPCWSTR value.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b799ee3-e54f-4911-ac0c-4bca91a830d4">CHString(const CHString&)</a>
-</td>
-<td align="left" width="63%">
-Replicates the CHString parameter.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa1cf180-bc7c-40ba-91ab-091018790b39">CHString(const unsigned char*)</a>
-</td>
-<td align="left" width="63%">
-Initializes with the value pointed to by char*.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param stringSrc
+
+The existing <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object that is copied into this <b>CHString</b> object.
+
+
+## -remarks
+
+
+
+Because the constructors copy the input data into new allocated storage, memory exceptions can result. Some of these constructors act as conversion functions; you can substitute, for example, an <b>LPWSTR</b> where a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object is expected.
+
+Several forms of the constructor have special purposes:
+
+<ul>
+<li>
+CHString( LPCSTR
+      <i>lpsz</i> )
+
+Constructs a Unicode <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string from an ANSI string.
+
+</li>
+<li>
+CHString( LPCWSTR
+      <i>lpsz</i> )
+
+Constructs a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string from a Unicode string.
+
+</li>
+<li>
+CHString( const unsigned char*
+      <i>lpsz</i> )
+
+Enables you to construct a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string from a pointer to unsigned char.
+
+</li>
+</ul>
+
+#### Examples
+
+The following code example shows how to use <a href="https://msdn.microsoft.com/d49e1600-d5d4-4c44-81c5-1b8c53b768de">CHString::CHString</a>.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s1;                    // Empty string
+CHString s2( L"cat" );          // From a C string literal
+CHString s3 = s2;               // Copy constructor
+CHString s4( s2 + " " + s3 );   // From a string expression
+
+CHString s5( 'x' );             // s5 = "x"
+CHString s6( 'x', 6 );          // s6 = "xxxxxx"
+
+CHString city = L"Philadelphia"; // NOT the assignment operator</pre>
+</td>
+</tr>
+</table></span></div>
+
 

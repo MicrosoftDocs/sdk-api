@@ -7,7 +7,7 @@ old-location: wab\_wab_WABOpen.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopen.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WABOpen, WABOpen callback, WABOpen callback function [Windows Address Book], _wab_WABOpen, wab._wab_WABOpen, wabapi/WABOpen
 ms.prod: windows
 ms.technology: windows-sdk

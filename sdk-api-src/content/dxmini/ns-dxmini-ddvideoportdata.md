@@ -4,10 +4,10 @@ title: DDVIDEOPORTDATA
 author: windows-sdk-content
 description: The DDVIDEOPORTDATA structure is used by DirectDraw to represent a video port extensions (VPE) object to the kernel-mode video miniport driver.
 old-location: display\ddvideoportdata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPDDVIDEOPORTDATA, DDVIDEOPORTDATA, DDVIDEOPORTDATA structure [Display Devices], LPDDVIDEOPORTDATA, LPDDVIDEOPORTDATA structure pointer [Display Devices], Video_Structs_2c27c41d-7b5c-4e72-a362-ca2699099ef4.xml, display.ddvideoportdata, dxmini/DDVIDEOPORTDATA, dxmini/LPDDVIDEOPORTDATA"
 ms.prod: windows
 ms.technology: windows-sdk

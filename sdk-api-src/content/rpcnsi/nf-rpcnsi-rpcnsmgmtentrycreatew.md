@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmtentrycreate.htm
 tech.root: Rpc
 ms.assetid: 32de2395-174a-4e14-82db-9043db817708
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RpcNsMgmtEntryCreate, RpcNsMgmtEntryCreate function [RPC], RpcNsMgmtEntryCreateA, RpcNsMgmtEntryCreateW, _rpc_rpcnsmgmtentrycreate, rpc.rpcnsmgmtentrycreate, rpcnsi/RpcNsMgmtEntryCreate, rpcnsi/RpcNsMgmtEntryCreateA, rpcnsi/RpcNsMgmtEntryCreateW
 ms.prod: windows-hardware
 ms.technology: windows-devices

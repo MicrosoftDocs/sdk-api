@@ -2,12 +2,11 @@
 UID: TP:mschap
 ms.assetid: c40be60a-5dfc-325b-8e6a-cfb4906a05e2
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # MS-CHAP Password Management API
@@ -21,5 +20,5 @@ To develop MS-CHAP Password Management API, you need these headers:
  * [mschapp.h](../mschapp/index.md)
 
 For programming guidance for this technology, see:
-* [MS-CHAP Password Management API](/previous-versions/windows/desktop/mschap)
+* [MS-CHAP Password Management API](/windows/desktop/mschap)
 

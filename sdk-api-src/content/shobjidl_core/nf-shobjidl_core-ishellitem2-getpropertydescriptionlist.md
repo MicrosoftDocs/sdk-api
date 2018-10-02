@@ -4,10 +4,10 @@ title: IShellItem2::GetPropertyDescriptionList
 author: windows-sdk-content
 description: Gets a property description list object given a reference to a property key.
 old-location: shell\IShellItem2_GetPropertyDescriptionList.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 443b95c9-0a9e-4ad5-8774-ad3b1b51c136
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetPropertyDescriptionList, GetPropertyDescriptionList method [Windows Shell], GetPropertyDescriptionList method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyDescriptionList method, IShellItem2.GetPropertyDescriptionList, IShellItem2::GetPropertyDescriptionList, _shell_IShellItem2_GetPropertyDescriptionList, shell.IShellItem2_GetPropertyDescriptionList, shobjidl_core/IShellItem2::GetPropertyDescriptionList
 ms.prod: windows-hardware
 ms.technology: windows-devices

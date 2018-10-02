@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_tapi3_0000_0018_0001"
 author: windows-sdk-content
 description: The MSP_ADDRESS_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT.
 old-location: tapi3\msp_address_event.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 35aecd05-badd-4509-92e5-1936ca075c37
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: ADDRESS_TERMINAL_AVAILABLE, ADDRESS_TERMINAL_UNAVAILABLE, MSP_ADDRESS_EVENT, MSP_ADDRESS_EVENT enumeration [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0001, _tapi3_msp_address_event, msp/ADDRESS_TERMINAL_AVAILABLE, msp/ADDRESS_TERMINAL_UNAVAILABLE, msp/MSP_ADDRESS_EVENT, tapi3.msp_address_event
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFDXGIDeviceManager::CloseDeviceHandle
 author: windows-sdk-content
 description: Closes a Microsoft Direct3D device handle.
 old-location: mf\imfdxgidevicemanager_closedevicehandle.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: D5C74D6C-F066-4905-9D02-886FA503F58E
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: CloseDeviceHandle, CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],CloseDeviceHandle method, IMFDXGIDeviceManager.CloseDeviceHandle, IMFDXGIDeviceManager::CloseDeviceHandle, mf.imfdxgidevicemanager_closedevicehandle, mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

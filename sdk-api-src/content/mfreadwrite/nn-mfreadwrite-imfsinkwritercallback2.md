@@ -4,10 +4,10 @@ title: IMFSinkWriterCallback2
 author: windows-sdk-content
 description: Extends the IMFSinkWriterCallback interface.
 old-location: mf\imfsinkwritercallback2.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 92885A3C-137D-42DD-A65D-D2CE56A69A68
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSinkWriterCallback2, IMFSinkWriterCallback2 interface [Media Foundation], IMFSinkWriterCallback2 interface [Media Foundation],described, mf.imfsinkwritercallback2, mfreadwrite/IMFSinkWriterCallback2
 ms.prod: windows
 ms.technology: windows-sdk

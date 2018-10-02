@@ -4,10 +4,10 @@ title: "_SERVER_INFO_1018"
 author: windows-sdk-content
 description: The SERVER_INFO_1018 structure contains information about how much the announce rate can vary for the specified server.
 old-location: netmgmt\server_info_1018_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 0a87d88c-af70-41ce-9d92-6e642d284819
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*LPSERVER_INFO_1018, *PSERVER_INFO_1018, LPSERVER_INFO_1018, LPSERVER_INFO_1018 structure pointer [Network Management], PSERVER_INFO_1018, PSERVER_INFO_1018 structure pointer [Network Management], SERVER_INFO_1018, SERVER_INFO_1018 structure [Network Management], _SERVER_INFO_1018, _win32_server_info_1018_str, lmserver/LPSERVER_INFO_1018, lmserver/PSERVER_INFO_1018, lmserver/SERVER_INFO_1018, netmgmt.server_info_1018_str"
 ms.prod: windows
 ms.technology: windows-sdk

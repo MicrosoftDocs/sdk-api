@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice3_createarithmeticcompositeeffect.ht
 tech.root: directcomp
 ms.assetid: 0A06A546-7FD6-4B3C-86C8-0C5B9417D450
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: CreateArithmeticCompositeEffect, CreateArithmeticCompositeEffect method [DirectComposition], CreateArithmeticCompositeEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateArithmeticCompositeEffect method, IDCompositionDevice3.CreateArithmeticCompositeEffect, IDCompositionDevice3::CreateArithmeticCompositeEffect, dcomp/IDCompositionDevice3::CreateArithmeticCompositeEffect, directcomp.idcompositiondevice3_createarithmeticcompositeeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

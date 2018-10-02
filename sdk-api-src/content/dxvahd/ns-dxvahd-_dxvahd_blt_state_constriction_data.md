@@ -4,10 +4,10 @@ title: "_DXVAHD_BLT_STATE_CONSTRICTION_DATA"
 author: windows-sdk-content
 description: Specifies whether the output is downsampled in a blit operation, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_blt_state_constriction_data.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 962a99bd-060d-4101-b65a-d0406e136bf7
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: DXVAHD_BLT_STATE_CONSTRICTION_DATA, DXVAHD_BLT_STATE_CONSTRICTION_DATA structure [Media Foundation], _DXVAHD_BLT_STATE_CONSTRICTION_DATA, dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA, mf.dxvahd_blt_state_constriction_data
 ms.prod: windows
 ms.technology: windows-sdk

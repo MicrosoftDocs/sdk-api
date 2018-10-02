@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipselectorenumerator.htm
 tech.root: OPC
 ms.assetid: 9c0bbc0d-d950-4929-9100-41a7f016a208
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions], IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorEnumerator, opc.iopcrelationshipselectorenumerator
 ms.prod: windows
 ms.technology: windows-sdk

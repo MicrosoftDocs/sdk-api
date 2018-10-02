@@ -7,7 +7,7 @@ old-location: pla\ifolderactioncollection_remove.htm
 tech.root: PLA
 ms.assetid: b0894d3f-13d1-4f71-9171-592640d70969
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: IFolderActionCollection interface [PLA],Remove method, IFolderActionCollection.Remove, IFolderActionCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IFolderActionCollection interface, base.ifolderactioncollection_remove, pla.ifolderactioncollection_remove, pla/IFolderActionCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

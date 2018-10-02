@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 author: windows-sdk-content
 description: Specifies the type of process that is identified in the D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure.
 old-location: mf\d3d11_authenticated_process_identifier_type.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: A8FFBBF1-7893-4D42-A8FB-1B7E56834603
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Media Foundation], D3D11_PROCESSIDTYPE_DWM, D3D11_PROCESSIDTYPE_HANDLE, D3D11_PROCESSIDTYPE_UNKNOWN, d3d11/D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, d3d11/D3D11_PROCESSIDTYPE_DWM, d3d11/D3D11_PROCESSIDTYPE_HANDLE, d3d11/D3D11_PROCESSIDTYPE_UNKNOWN, mf.d3d11_authenticated_process_identifier_type
 ms.prod: windows
 ms.technology: windows-sdk

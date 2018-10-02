@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN REAL,IN REAL,IN const Graphics), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN REAL,IN REAL,IN const Graphics), IsVisible, IsVisible methods [GDI+], _gdiplus_CLASS_GraphicsPath_IsVisible_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_Methods, gdipluspath/IsVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

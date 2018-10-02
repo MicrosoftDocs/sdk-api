@@ -4,10 +4,10 @@ title: IEnumShellItems
 author: windows-sdk-content
 description: Exposes enumeration of IShellItem interfaces. This interface is typically obtained by calling the IEnumShellItems method.
 old-location: shell\IEnumShellItems.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 07aed597-359f-4f4b-9edf-168c15bdc58e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumShellItems, IEnumShellItems interface [Windows Shell], IEnumShellItems interface [Windows Shell],described, _shell_IEnumShellItems, shell.IEnumShellItems, shobjidl_core/IEnumShellItems
 ms.prod: windows
 ms.technology: windows-sdk

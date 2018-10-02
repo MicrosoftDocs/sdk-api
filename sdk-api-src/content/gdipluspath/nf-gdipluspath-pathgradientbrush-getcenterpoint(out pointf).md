@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetcenterpointmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetCenterPoint, GetCenterPoint methods [GDI+], PathGradientBrush.GetCenterPoint, PathGradientBrush.GetCenterPoint(OUT PointF), PathGradientBrush::GetCenterPoint, PathGradientBrush::GetCenterPoint(OUT PointF), _gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods, gdipluspath/GetCenterPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: tagEapPeerMethodResponseAction
 author: windows-sdk-content
 description: Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.
 old-location: eaphost\eappeermethodresponseaction.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: def7e04e-ed0c-46f0-97d6-4c0ab021fa8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EapPeerMethodResponseAction, EapPeerMethodResponseAction enumeration [EAPHost], EapPeerMethodResponseActionDiscard, EapPeerMethodResponseActionInvokeUI, EapPeerMethodResponseActionNone, EapPeerMethodResponseActionRespond, EapPeerMethodResponseActionResult, EapPeerMethodResponseActionSend, eapauthenticatoractiondefine/EapPeerMethodResponseAction, eapauthenticatoractiondefine/EapPeerMethodResponseActionDiscard, eapauthenticatoractiondefine/EapPeerMethodResponseActionInvokeUI, eapauthenticatoractiondefine/EapPeerMethodResponseActionNone, eapauthenticatoractiondefine/EapPeerMethodResponseActionRespond, eapauthenticatoractiondefine/EapPeerMethodResponseActionResult, eapauthenticatoractiondefine/EapPeerMethodResponseActionSend, eaphost.eappeermethodresponseaction, tagEapPeerMethodResponseAction
 ms.prod: windows
 ms.technology: windows-sdk

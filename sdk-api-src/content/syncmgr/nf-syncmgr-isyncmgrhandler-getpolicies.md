@@ -4,10 +4,10 @@ title: ISyncMgrHandler::GetPolicies
 author: windows-sdk-content
 description: Gets a set of flags describing the policies set by the handler.
 old-location: shell\ISyncMgrHandler_GetPolicies.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ff30441a-43bb-4f30-af04-4d2056b8dfb0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetPolicies method, ISyncMgrHandler.GetPolicies, ISyncMgrHandler::GetPolicies, _shell_ISyncMgrHandler_GetPolicies, shell.ISyncMgrHandler_GetPolicies, syncmgr/ISyncMgrHandler::GetPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

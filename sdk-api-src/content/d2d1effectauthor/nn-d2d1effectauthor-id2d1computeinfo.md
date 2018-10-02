@@ -7,7 +7,7 @@ old-location: direct2d\id2d1computeinfo.htm
 tech.root: direct2d
 ms.assetid: 0560BB4B-B837-4DA8-AD68-545224152BA5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1ComputeInfo, ID2D1ComputeInfo interface [Direct2D], ID2D1ComputeInfo interface [Direct2D],described, d2d1effectauthor/ID2D1ComputeInfo, direct2d.id2d1computeinfo
 ms.prod: windows
 ms.technology: windows-sdk

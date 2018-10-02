@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT
 author: windows-sdk-content
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ATTRIBUTES query.
 old-location: mf\d3d11_authenticated_query_accessibility_output.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1E2EBE2C-3749-47B5-B7A8-3EAE371981DB
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT structure [Media Foundation], D3D11_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT, d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, mf.d3d11_authenticated_query_accessibility_output
 ms.prod: windows
 ms.technology: windows-sdk

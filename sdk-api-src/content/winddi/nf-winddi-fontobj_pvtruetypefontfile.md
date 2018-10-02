@@ -4,10 +4,10 @@ title: FONTOBJ_pvTrueTypeFontFile function
 author: windows-sdk-content
 description: The FONTOBJ_pvTrueTypeFontFile function retrieves a user-mode pointer to a view of a TrueType, OpenType, or Type1 font file.
 old-location: display\fontobj_pvtruetypefontfile.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 2665d984-6a35-4950-92c0-82e7c8b633aa
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: FONTOBJ_pvTrueTypeFontFile, FONTOBJ_pvTrueTypeFontFile function [Display Devices], display.fontobj_pvtruetypefontfile, gdifncs_72ff6779-98e3-44b1-919c-06fa0ac1ffa2.xml, winddi/FONTOBJ_pvTrueTypeFontFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

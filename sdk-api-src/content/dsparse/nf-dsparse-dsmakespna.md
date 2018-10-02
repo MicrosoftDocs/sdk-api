@@ -4,10 +4,10 @@ title: DsMakeSpnA function
 author: windows-sdk-content
 description: Constructs a service principal name (SPN) that identifies a service instance.
 old-location: ad\dsmakespn.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: fca3c59c-bb81-42a0-acd3-2e55c902febe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMakeSpnW, _glines_dsmakespn, ad.dsmakespn, dsparse/DsMakeSpn, dsparse/DsMakeSpnA, dsparse/DsMakeSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices.htm
 tech.root: WmiSdk
 ms.assetid: 58e2ecca-7d1f-4831-93fc-f946f8ada2c0
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrumentation], IWbemServices interface [Windows Management Instrumentation],described, _hmm_iwbemservices, wbemcli/IWbemServices, wmi.iwbemservices
 ms.prod: windows
 ms.technology: windows-sdk

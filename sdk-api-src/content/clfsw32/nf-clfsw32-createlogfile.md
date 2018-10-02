@@ -7,7 +7,7 @@ old-location: fs\createlogfile.htm
 tech.root: Clfs
 ms.assetid: ac104bf9-7ca7-417a-bd14-09b0e82c6a77
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: CREATE_NEW, CreateLogFile, CreateLogFile function [Files], DELETE, FILE_ATTRIBUTE_ARCHIVE, FILE_FLAG_OVERLAPPED, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, GENERIC_READ, GENERIC_WRITE, OPEN_ALWAYS, OPEN_EXISTING, clfsw32/CreateLogFile, fs.createlogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

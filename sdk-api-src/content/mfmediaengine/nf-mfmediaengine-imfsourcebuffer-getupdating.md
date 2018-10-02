@@ -4,10 +4,10 @@ title: IMFSourceBuffer::GetUpdating
 author: windows-sdk-content
 description: Gets a value that indicates if Append, AppendByteStream, or Remove is in process.
 old-location: mf\imfsourcebuffer_getupdating.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: f1c810d1-05dd-4931-b063-fb86c6bedae3
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetUpdating, GetUpdating method [Media Foundation], GetUpdating method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetUpdating method, IMFSourceBuffer.GetUpdating, IMFSourceBuffer::GetUpdating, mf.imfsourcebuffer_getupdating, mfmediaengine/IMFSourceBuffer::GetUpdating
 ms.prod: windows-hardware
 ms.technology: windows-devices

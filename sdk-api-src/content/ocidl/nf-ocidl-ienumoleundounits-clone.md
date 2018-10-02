@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits_clone.htm
 tech.root: com
 ms.assetid: 0aed7771-0e9c-49b1-8c45-4dcf637cb04c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleUndoUnits interface, IEnumOleUndoUnits interface [COM],Clone method, IEnumOleUndoUnits.Clone, IEnumOleUndoUnits::Clone, _ole_ienumoleundounits_clone, com.ienumoleundounits_clone, ocidl/IEnumOleUndoUnits::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

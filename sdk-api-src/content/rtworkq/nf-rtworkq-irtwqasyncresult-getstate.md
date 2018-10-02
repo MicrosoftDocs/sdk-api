@@ -4,10 +4,10 @@ title: IRtwqAsyncResult::GetState
 author: windows-sdk-content
 description: Returns the state object specified by the caller in the asynchronous Begin method.
 old-location: base\irtwqasyncresult_getstate.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 26940ECA-BE6A-42E4-8D9E-E002A6D5DD23
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: GetState, GetState method, GetState method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetState method, IRtwqAsyncResult.GetState, IRtwqAsyncResult::GetState, base.irtwqasyncresult_getstate, rtworkq/IRtwqAsyncResult::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

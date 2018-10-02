@@ -7,7 +7,7 @@ old-location: gdi\getcurrentobject.htm
 tech.root: gdi
 ms.assetid: d7e2310c-6a9e-4195-824c-1a83382a5c5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetCurrentObject, GetCurrentObject function [Windows GDI], OBJ_BITMAP, OBJ_BRUSH, OBJ_COLORSPACE, OBJ_FONT, OBJ_PAL, OBJ_PEN, _win32_GetCurrentObject, gdi.getcurrentobject, wingdi/GetCurrentObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

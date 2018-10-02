@@ -4,10 +4,10 @@ title: IsMediaBehaviorEnabled function
 author: windows-sdk-content
 description: Gets a value indicating whether the media behavior associated with the specified GUID is enabled.
 old-location: winprog\ismediabehaviorenabled.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 6D1F52E3-3AC0-4270-8931-53D8687A10C7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IsMediaBehaviorEnabled, IsMediaBehaviorEnabled function [Windows API], comppkgsup/IsMediaBehaviorEnabled, winprog.ismediabehaviorenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Gets a value indicating whether the media behavior associated with the specified GUID is enabled.
 

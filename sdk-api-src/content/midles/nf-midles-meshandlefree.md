@@ -7,7 +7,7 @@ old-location: rpc\meshandlefree.htm
 tech.root: Rpc
 ms.assetid: d4a4ac59-56fb-4693-9007-f358105f82f0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MesHandleFree, MesHandleFree function [RPC], _rpc_meshandlefree, midles/MesHandleFree, rpc.meshandlefree
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFASFMutualExclusion
 author: windows-sdk-content
 description: Configures an Advanced Systems Format (ASF) mutual exclusion object, which manages information about a group of streams in an ASF profile that are mutually exclusive.
 old-location: mf\imfasfmutualexclusion.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 9c2278ec-77d1-445e-94bc-44e5d48f14ae
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 9c2278ec-77d1-445e-94bc-44e5d48f14ae, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], IMFASFMutualExclusion interface [Media Foundation],described, mf.imfasfmutualexclusion, wmcontainer/IMFASFMutualExclusion
 ms.prod: windows
 ms.technology: windows-sdk

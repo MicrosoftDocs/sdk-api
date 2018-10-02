@@ -4,10 +4,10 @@ title: ICustomDestinationList
 author: windows-sdk-content
 description: Exposes methods that allow an application to provide a custom Jump List, including destinations and tasks, for display in the taskbar.
 old-location: shell\ICustomDestinationList.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 65a3dab8-3136-416d-bd8a-ca813bfe0533
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ICustomDestinationList, ICustomDestinationList interface [Windows Shell], ICustomDestinationList interface [Windows Shell],described, _shell_ICustomDestinationList, shell.ICustomDestinationList, shobjidl_core/ICustomDestinationList
 ms.prod: windows
 ms.technology: windows-sdk

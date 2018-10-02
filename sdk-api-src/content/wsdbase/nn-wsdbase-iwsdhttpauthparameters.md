@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpauthparameters.htm
 tech.root: WsdApi
 ms.assetid: 77AB4D22-55F2-4DF6-8E83-718BFB88841A
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWSDHttpAuthParameters, IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,described, ncd.iwsdhttpauthparameters, wsdbase/IWSDHttpAuthParameters
 ms.prod: windows
 ms.technology: windows-sdk

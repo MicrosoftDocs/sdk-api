@@ -4,10 +4,10 @@ title: TSPI_linePark function
 author: windows-sdk-content
 description: The TSPI_linePark function parks the specified call according to the specified park mode.
 old-location: tspi\tspi_linepark.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 6ff14bfc-ba48-4f70-b732-81c19dba92c5
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: TSPI_linePark, TSPI_linePark function [TAPI 2.2], _tspi_tspi_linepark, tspi.tspi_linepark, tspi/TSPI_linePark
 ms.prod: windows-hardware
 ms.technology: windows-devices

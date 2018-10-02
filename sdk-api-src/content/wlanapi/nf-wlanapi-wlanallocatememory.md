@@ -4,10 +4,10 @@ title: WlanAllocateMemory function
 author: windows-sdk-content
 description: Allocates memory.
 old-location: nwifi\wlanallocatememory.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 29200450-4ec8-418d-b633-1ea688755711
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanAllocateMemory, WlanAllocateMemory function [NativeWIFI], nwifi.wlanallocatememory, wlanapi/WlanAllocateMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

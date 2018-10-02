@@ -7,7 +7,7 @@ old-location: controls\itextpara2_getduplicate2.htm
 tech.root: controls
 ms.assetid: 1b7855ca-1e69-48c8-b186-99b191a7ee29
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetDuplicate2 method, ITextPara2.GetDuplicate2, ITextPara2::GetDuplicate2, controls.itextpara2_getduplicate2, tom/ITextPara2::GetDuplicate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

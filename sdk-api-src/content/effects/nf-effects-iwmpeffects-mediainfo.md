@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_mediainfo.htm
 tech.root: WMP
 ms.assetid: 1267cb11-1b45-4f38-ad3c-02213405ed66
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: EffectsMediaInfo, IWMPEffects interface [Windows Media Player],MediaInfo method, IWMPEffects.MediaInfo, IWMPEffects::MediaInfo, MediaInfo, MediaInfo method [Windows Media Player], MediaInfo method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::MediaInfo, wmp.iwmpeffects_mediainfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

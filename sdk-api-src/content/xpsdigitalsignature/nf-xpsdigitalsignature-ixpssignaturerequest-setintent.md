@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_setintent.htm
 tech.root: printdocs
 ms.assetid: 8a77a168-58c7-4bb4-83ee-ed4dfd2839fe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetIntent method, IXpsSignatureRequest.SetIntent, IXpsSignatureRequest::SetIntent, SetIntent, SetIntent method [XPS Documents and Packaging], SetIntent method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setintent, xpsdigitalsignature/IXpsSignatureRequest::SetIntent
 ms.prod: windows-hardware
 ms.technology: windows-devices

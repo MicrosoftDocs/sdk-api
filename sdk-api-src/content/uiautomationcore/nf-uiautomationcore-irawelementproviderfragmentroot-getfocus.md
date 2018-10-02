@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragmentRoot_GetFocus.htm
 tech.root: WinAuto
 ms.assetid: 73b5ffc8-1a24-4fa5-8bc4-ae09656a80df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetFocus, GetFocus method [Windows Accessibility], GetFocus method [Windows Accessibility],IRawElementProviderFragmentRoot interface, IRawElementProviderFragmentRoot interface [Windows Accessibility],GetFocus method, IRawElementProviderFragmentRoot.GetFocus, IRawElementProviderFragmentRoot::GetFocus, uiauto.uiauto_IRawElementProviderFragmentRoot_GetFocus, uiauto_IRawElementProviderFragmentRoot_GetFocus, uiautomationcore/IRawElementProviderFragmentRoot::GetFocus, winauto.uiauto_IRawElementProviderFragmentRoot_GetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\cvsswriter_subscribe.htm
 tech.root: VSS
 ms.assetid: ab9520c9-bd6b-4c81-87fc-f5cda6ee9c94
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriter interface [VSS],Subscribe method, CVssWriter.Subscribe, CVssWriter::Subscribe, Subscribe, Subscribe method [VSS], Subscribe method [VSS],CVssWriter interface, _win32_cvsswriter_subscribe, base.cvsswriter_subscribe, vswriter/CVssWriter::Subscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,7 @@ The
 
 
 
-
-
-#### - dwEventFlags [in]
+### -param dwEventFlags [in]
 
 A bit mask (or bitwise OR) of 
 <a href="https://msdn.microsoft.com/4aa3afe4-98da-4376-b795-75bf404aaed9">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 

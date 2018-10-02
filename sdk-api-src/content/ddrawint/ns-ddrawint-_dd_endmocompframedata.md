@@ -4,10 +4,10 @@ title: "_DD_ENDMOCOMPFRAMEDATA"
 author: windows-sdk-content
 description: The DD_ENDMOCOMPFRAMEDATA structure contains information required to complete a decoded frame.
 old-location: display\dd_endmocompframedata.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 4e604940-1c0f-43be-bac7-9936df0c4044
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: "*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA structure [Display Devices], _DD_ENDMOCOMPFRAMEDATA, ddrawint/DD_ENDMOCOMPFRAMEDATA, ddstrcts_4c526986-eaf4-40ea-890c-e90295ac9ee6.xml, display.dd_endmocompframedata"
 ms.prod: windows
 ms.technology: windows-sdk

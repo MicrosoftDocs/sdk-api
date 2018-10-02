@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem.htm
 tech.root: VDS
 ms.assetid: 1f1b9735-216b-4bc5-a9b8-2d274827b2c8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], IVdsSubSystem interface [VDS],described, base.ivdssubsystem, vds/IVdsSubSystem, vdshwprv/IVdsSubSystem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PtrdiffTAdd function
 author: windows-sdk-content
 description: Adds two values of type ptrdiff_t.
 old-location: shell\PtrdiffTAdd.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ed670d8a-ede5-47c5-9cf9-eea32609f195
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: PtrdiffTAdd, PtrdiffTAdd function [Windows Shell], intsafe/PtrdiffTAdd, shell.PtrdiffTAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

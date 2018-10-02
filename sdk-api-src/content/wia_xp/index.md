@@ -2,12 +2,12 @@
 UID: NA:wia_xp
 ms.assetid: ef43ca4f-6fc3-3d64-a4bb-72f44caa18e5
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wia
+tech.root: automat
 ---
 
 # Wia_Xp.h header
@@ -16,6 +16,6 @@ tech.root: wia
 ## -description
 
 
-This header is used by WIA. For more information, see:
+This header is used by Automation. For more information, see:
 
-- [WIA](../_wia)
+- [Automation](../_automat)

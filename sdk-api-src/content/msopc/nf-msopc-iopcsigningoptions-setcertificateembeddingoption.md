@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions_setcertificateembeddingoption.htm
 tech.root: OPC
 ms.assetid: afae4b98-c05f-4fa3-bb1e-f9f43ee86e64
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetCertificateEmbeddingOption method, IOpcSigningOptions.SetCertificateEmbeddingOption, IOpcSigningOptions::SetCertificateEmbeddingOption, SetCertificateEmbeddingOption, SetCertificateEmbeddingOption method [Open Packaging Conventions], SetCertificateEmbeddingOption method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetCertificateEmbeddingOption, opc.iopcsigningoptions_setcertificateembeddingoption
 ms.prod: windows-hardware
 ms.technology: windows-devices

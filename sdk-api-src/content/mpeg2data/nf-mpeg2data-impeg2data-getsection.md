@@ -4,10 +4,10 @@ title: IMpeg2Data::GetSection
 author: windows-sdk-content
 description: GetSection is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data_getsection.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9fb0d10f-7f9a-452d-9725-546d372430bd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetSection, GetSection method [Microsoft TV Technologies], GetSection method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetSection method, IMpeg2Data.GetSection, IMpeg2Data::GetSection, IMpeg2DataGetSection, mpeg2data/IMpeg2Data::GetSection, mstv.impeg2data_getsection
 ms.prod: windows-hardware
 ms.technology: windows-devices

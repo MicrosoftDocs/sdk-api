@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice2_createsurfacefactory.htm
 tech.root: directcomp
 ms.assetid: 20E60EAE-68CB-45B8-BC50-3D12F449AA6E
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 09/26/2018
 ms.keywords: CreateSurfaceFactory, CreateSurfaceFactory method [DirectComposition], CreateSurfaceFactory method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateSurfaceFactory method, IDCompositionDevice2.CreateSurfaceFactory, IDCompositionDevice2::CreateSurfaceFactory, dcomp/IDCompositionDevice2::CreateSurfaceFactory, directcomp.idcompositiondevice2_createsurfacefactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

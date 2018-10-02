@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory3_createencryptedpackagewriter.htm
 tech.root: appxpkg
 ms.assetid: 9CBBAF89-DE9F-49B6-B03A-2F3B6B4CE1E4
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 09/28/2018
 ms.keywords: CreateEncryptedPackageWriter, CreateEncryptedPackageWriter method [App packaging and management], CreateEncryptedPackageWriter method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],CreateEncryptedPackageWriter method, IAppxEncryptionFactory3.CreateEncryptedPackageWriter, IAppxEncryptionFactory3::CreateEncryptedPackageWriter, appxpackaging/IAppxEncryptionFactory3::CreateEncryptedPackageWriter, appxpkg.iappxencryptionfactory3_createencryptedpackagewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

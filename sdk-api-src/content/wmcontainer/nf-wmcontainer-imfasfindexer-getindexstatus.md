@@ -4,10 +4,10 @@ title: IMFASFIndexer::GetIndexStatus
 author: windows-sdk-content
 description: Retrieves the index settings for a specified stream and index type.
 old-location: mf\imfasfindexer_getindexstatus.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: dc38a060-36e4-458e-829e-2770387fc484
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetIndexStatus, GetIndexStatus method [Media Foundation], GetIndexStatus method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexStatus method, IMFASFIndexer.GetIndexStatus, IMFASFIndexer::GetIndexStatus, dc38a060-36e4-458e-829e-2770387fc484, mf.imfasfindexer_getindexstatus, wmcontainer/IMFASFIndexer::GetIndexStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

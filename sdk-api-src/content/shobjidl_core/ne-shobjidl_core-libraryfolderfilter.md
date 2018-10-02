@@ -4,10 +4,10 @@ title: LIBRARYFOLDERFILTER
 author: windows-sdk-content
 description: Defines options for filtering folder items.
 old-location: shell\LIBRARYFOLDERFILTER.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8bcb8ee7-14a9-411e-978d-ddeed83d8392
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: LFF_ALLITEMS, LFF_FORCEFILESYSTEM, LFF_STORAGEITEMS, LIBRARYFOLDERFILTER, LIBRARYFOLDERFILTER enumeration [Windows Shell], _shell_LIBRARYFOLDERFILTER, shell.LIBRARYFOLDERFILTER, shobjidl_core/LFF_ALLITEMS, shobjidl_core/LFF_FORCEFILESYSTEM, shobjidl_core/LFF_STORAGEITEMS, shobjidl_core/LIBRARYFOLDERFILTER
 ms.prod: windows
 ms.technology: windows-sdk

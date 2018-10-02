@@ -7,7 +7,7 @@ old-location: xps\ixpsomfontresourcecollection_getbypartname.htm
 tech.root: printdocs
 ms.assetid: f40830ec-e77b-4c47-9041-b0df5becf9fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMFontResourceCollection.GetByPartName, IXpsOMFontResourceCollection::GetByPartName, xps.ixpsomfontresourcecollection_getbypartname, xpsobjectmodel/IXpsOMFontResourceCollection::GetByPartName
 ms.prod: windows-hardware
 ms.technology: windows-devices

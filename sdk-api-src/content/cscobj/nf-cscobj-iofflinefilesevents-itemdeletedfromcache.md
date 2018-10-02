@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::ItemDeletedFromCache
 author: windows-sdk-content
 description: Reports that an item has been removed from the Offline Files cache.
 old-location: of\iofflinefilesevents_itemdeletedfromcache.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 358b358a-65cc-4f37-8beb-be492b83c222
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDeletedFromCache method, IOfflineFilesEvents.ItemDeletedFromCache, IOfflineFilesEvents::ItemDeletedFromCache, ItemDeletedFromCache, ItemDeletedFromCache method [Offline Files], ItemDeletedFromCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDeletedFromCache, of.iofflinefilesevents_itemdeletedfromcache
 ms.prod: windows-hardware
 ms.technology: windows-devices

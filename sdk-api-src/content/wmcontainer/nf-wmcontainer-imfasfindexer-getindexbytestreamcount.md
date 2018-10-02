@@ -4,10 +4,10 @@ title: IMFASFIndexer::GetIndexByteStreamCount
 author: windows-sdk-content
 description: Retrieves the number of byte streams that are in use by the indexer object.
 old-location: mf\imfasfindexer_getindexbytestreamcount.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: a433af8a-9e8a-4234-9694-c3a5420a1710
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetIndexByteStreamCount, GetIndexByteStreamCount method [Media Foundation], GetIndexByteStreamCount method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexByteStreamCount method, IMFASFIndexer.GetIndexByteStreamCount, IMFASFIndexer::GetIndexByteStreamCount, a433af8a-9e8a-4234-9694-c3a5420a1710, mf.imfasfindexer_getindexbytestreamcount, wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

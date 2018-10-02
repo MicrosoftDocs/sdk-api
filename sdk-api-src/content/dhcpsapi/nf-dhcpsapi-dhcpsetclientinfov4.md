@@ -4,10 +4,10 @@ title: DhcpSetClientInfoV4 function
 author: windows-sdk-content
 description: Sets information on a client whose IP address lease is administrated by the DHCP server. This function extends the functionality provided by DhcpSetClientInfo by allowing the caller to specify the client type (DHCP or BOOTP).
 old-location: dhcp\dhcpsetclientinfov4.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: f7e1aa86-634e-48a7-ae2a-9c23277ed946
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpSetClientInfoV4, DhcpSetClientInfoV4 function [DHCP], dhcp.dhcpsetclientinfov4, dhcpsapi/DhcpSetClientInfoV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

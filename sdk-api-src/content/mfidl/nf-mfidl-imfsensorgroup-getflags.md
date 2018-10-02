@@ -4,10 +4,10 @@ title: IMFSensorGroup::GetFlags
 author: windows-sdk-content
 description: Gets the flags set for the sensor group.
 old-location: mf\imfsensorgroup_getflags.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 99143CFD-930A-405C-A8FB-8DBF52CD9BB5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetFlags method, IMFSensorGroup.GetFlags, IMFSensorGroup::GetFlags, mf.imfsensorgroup_getflags, mfidl/IMFSensorGroup::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: htmlhelp\hhntrack_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhntrack.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 09/26/2018
 ms.keywords: HHNTRACK, HHNTRACK structure [HTML Help Workshop], htmlhelp.hhntrack_structure, htmlhelp/HHNTRACK, tagHHNTRACK, vsconStrhhntrack
 ms.prod: windows
 ms.technology: windows-sdk

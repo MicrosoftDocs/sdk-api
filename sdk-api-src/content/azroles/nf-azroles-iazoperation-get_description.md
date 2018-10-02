@@ -7,7 +7,7 @@ old-location: security\iazoperation_description.htm
 tech.root: SecAuthZ
 ms.assetid: 9f39032d-7624-43f8-91a4-6e616e691156
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzOperation object [Security],Description property, Description property [Security], Description property [Security],AzOperation object, Description property [Security],IAzOperation interface, IAzOperation interface [Security],Description property, IAzOperation.Description, IAzOperation.get_Description, IAzOperation::Description, IAzOperation::get_Description, IAzOperation::put_Description, azroles/IAzOperation::Description, azroles/IAzOperation::get_Description, azroles/IAzOperation::put_Description, get_Description, security.iazoperation_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

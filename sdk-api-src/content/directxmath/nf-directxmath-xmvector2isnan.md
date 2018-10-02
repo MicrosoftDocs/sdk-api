@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2isnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2IsNaN(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: Use DirectX..XMVector2IsNaN, XMVector2IsNaN, XMVector2IsNaN method [DirectX Math Support APIs], dxmath.xmvector2isnan
 ms.prod: windows-hardware
 ms.technology: windows-devices

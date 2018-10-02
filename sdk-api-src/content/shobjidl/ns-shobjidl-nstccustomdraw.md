@@ -4,10 +4,10 @@ title: NSTCCUSTOMDRAW
 author: windows-sdk-content
 description: Custom draw structure used by INameSpaceTreeControlCustomDraw methods.
 old-location: shell\NSTCCUSTOMDRAW.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
 ms.prod: windows
 ms.technology: windows-sdk

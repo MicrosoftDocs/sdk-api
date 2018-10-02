@@ -4,10 +4,10 @@ title: ResolveNeighbor function
 author: windows-sdk-content
 description: Resolves the physical address for a neighbor IP address entry on the local computer.
 old-location: iphlp\resolveneighbor.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: c9d902c7-6543-4811-8116-003a5153bd27
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: ResolveNeighbor, ResolveNeighbor function [IP Helper], iphlp.resolveneighbor, iphlpapi/ResolveNeighbor
 ms.prod: windows-hardware
 ms.technology: windows-devices

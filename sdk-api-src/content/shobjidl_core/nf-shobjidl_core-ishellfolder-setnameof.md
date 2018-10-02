@@ -4,10 +4,10 @@ title: IShellFolder::SetNameOf
 author: windows-sdk-content
 description: Sets the display name of a file object or subfolder, changing the item identifier in the process.
 old-location: shell\IShellFolder_SetNameOf.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b975df89-9289-4344-9c55-f11ee83229dd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellFolder interface [Windows Shell],SetNameOf method, IShellFolder.SetNameOf, IShellFolder2 interface [Windows Shell],SetNameOf method, IShellFolder2::SetNameOf, IShellFolder::SetNameOf, SetNameOf, SetNameOf method [Windows Shell], SetNameOf method [Windows Shell],IShellFolder interface, SetNameOf method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_SetNameOf, shell.IShellFolder_SetNameOf, shobjidl_core/IShellFolder2::SetNameOf, shobjidl_core/IShellFolder::SetNameOf
 ms.prod: windows-hardware
 ms.technology: windows-devices

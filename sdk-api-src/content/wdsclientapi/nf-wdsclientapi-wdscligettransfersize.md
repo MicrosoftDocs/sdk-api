@@ -7,7 +7,7 @@ old-location: wds\wdscligettransfersize.htm
 tech.root: Wds
 ms.assetid: 411ef76f-8075-4d1a-8ec1-faa399e073a4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WdsCliGetTransferSize, WdsCliGetTransferSize function [Windows Deployment Services], wds.wdscligettransfersize, wdsclientapi/WdsCliGetTransferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

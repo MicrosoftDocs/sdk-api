@@ -4,10 +4,10 @@ title: ITuner::put_TuneRequest
 author: windows-sdk-content
 description: The put_TuneRequest method sets the tune request currently in effect for the Network Provider.
 old-location: mstv\ituner_put_tunerequest.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 69f71855-86d0-4ef9-a168-14e79461ec98
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_TuneRequest method, ITuner.put_TuneRequest, ITuner::put_TuneRequest, ITunerput_TuneRequest, mstv.ituner_put_tunerequest, put_TuneRequest, put_TuneRequest method [Microsoft TV Technologies], put_TuneRequest method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_TuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

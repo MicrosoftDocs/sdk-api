@@ -4,10 +4,10 @@ title: RegisterAppStateChangeNotification function
 author: windows-sdk-content
 description: Enables an app to register a callback function through which it can be notified that its library is going into or coming out of a suspended state.
 old-location: shell\RegisterAppStateChangeNotification.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: EE55F783-BF18-49F0-934E-67A252138565
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotification function [Windows Shell], appnotify/RegisterAppStateChangeNotification, shell.RegisterAppStateChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

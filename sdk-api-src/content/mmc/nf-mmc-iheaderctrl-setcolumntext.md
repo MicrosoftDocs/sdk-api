@@ -4,10 +4,10 @@ title: IHeaderCtrl::SetColumnText
 author: windows-sdk-content
 description: Sets the text of the title in a specific column.
 old-location: mmc\iheaderctrl_setcolumntext.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: B760D7E1-DE2D-4E1A-898C-5EC1E99E9B91
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnText method, IHeaderCtrl.SetColumnText, IHeaderCtrl::SetColumnText, SetColumnText, SetColumnText method [MMC], SetColumnText method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumntext, mmc/IHeaderCtrl::SetColumnText
 ms.prod: windows-hardware
 ms.technology: windows-devices

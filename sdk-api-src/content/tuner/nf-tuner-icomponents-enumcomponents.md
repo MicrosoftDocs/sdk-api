@@ -4,10 +4,10 @@ title: IComponents::EnumComponents
 author: windows-sdk-content
 description: The EnumComponents method returns an enumerator for the components in the collection.
 old-location: mstv\icomponents_enumcomponents.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 214030ff-8aec-46df-8b59-f31fe926d8aa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: EnumComponents, EnumComponents method [Microsoft TV Technologies], EnumComponents method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],EnumComponents method, IComponents.EnumComponents, IComponents::EnumComponents, IComponentsEnumComponents, mstv.icomponents_enumcomponents, tuner/IComponents::EnumComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

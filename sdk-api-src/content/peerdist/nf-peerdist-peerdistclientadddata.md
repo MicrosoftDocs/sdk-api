@@ -4,10 +4,10 @@ title: PeerDistClientAddData function
 author: windows-sdk-content
 description: The PeerDistClientAddData function is used to supply content to the local cache.
 old-location: p2p\peerdistclientadddata.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: f1fdd398-ed84-4819-b0e8-e9b653bd6848
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerDistClientAddData, PeerDistClientAddData function [Peer Networking], p2p.peerdistclientadddata, peerdist/PeerDistClientAddData
 ms.prod: windows-hardware
 ms.technology: windows-devices

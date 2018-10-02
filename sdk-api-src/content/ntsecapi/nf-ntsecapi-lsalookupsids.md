@@ -7,7 +7,7 @@ old-location: security\lsalookupsids.htm
 tech.root: SecMgmt
 ms.assetid: 69051bad-91e7-469d-9010-48ac3d20f8af
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LsaLookupSids, LsaLookupSids function [Security], _lsa_lsalookupsids, ntsecapi/LsaLookupSids, security.lsalookupsids
 ms.prod: windows-hardware
 ms.technology: windows-devices

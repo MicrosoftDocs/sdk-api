@@ -4,10 +4,10 @@ title: IDTFilterConfig
 author: windows-sdk-content
 description: The IDTFilterConfig interface configures the Decrypter/Detagger filter. Most applications will not have to use this interface.
 old-location: mstv\idtfilterconfig.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1f6d7969-3207-48f8-8972-0a95287ccc71
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDTFilterConfig, IDTFilterConfig interface [Microsoft TV Technologies], IDTFilterConfig interface [Microsoft TV Technologies],described, IDTFilterConfigInterface, encdec/IDTFilterConfig, mstv.idtfilterconfig
 ms.prod: windows
 ms.technology: windows-sdk

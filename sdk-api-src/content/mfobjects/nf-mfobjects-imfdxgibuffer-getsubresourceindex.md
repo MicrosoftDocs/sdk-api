@@ -4,10 +4,10 @@ title: IMFDXGIBuffer::GetSubresourceIndex
 author: windows-sdk-content
 description: Gets the index of the subresource that is associated with this media buffer.
 old-location: mf\imfdxgibuffer_getsubresourceindex.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 71FA2B1C-2F11-45E7-8211-92A129F8C991
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetSubresourceIndex, GetSubresourceIndex method [Media Foundation], GetSubresourceIndex method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetSubresourceIndex method, IMFDXGIBuffer.GetSubresourceIndex, IMFDXGIBuffer::GetSubresourceIndex, mf.imfdxgibuffer_getsubresourceindex, mfobjects/IMFDXGIBuffer::GetSubresourceIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

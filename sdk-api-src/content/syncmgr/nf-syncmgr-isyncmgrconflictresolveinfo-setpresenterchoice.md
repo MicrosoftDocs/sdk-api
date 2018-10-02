@@ -4,10 +4,10 @@ title: ISyncMgrConflictResolveInfo::SetPresenterChoice
 author: windows-sdk-content
 description: Sets what kind of choice was made about a sync manager conflict resolution and whether to apply the choice to all subsequent conflicts in the set.
 old-location: shell\ISyncMgrConflictResolveInfo_SetPresenterChoice.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5f4bfe69-1ff3-4d21-9c27-f5d8ecfc8371
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetPresenterChoice method, ISyncMgrConflictResolveInfo.SetPresenterChoice, ISyncMgrConflictResolveInfo::SetPresenterChoice, SetPresenterChoice, SetPresenterChoice method [Windows Shell], SetPresenterChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetPresenterChoice, shell.ISyncMgrConflictResolveInfo_SetPresenterChoice, syncmgr/ISyncMgrConflictResolveInfo::SetPresenterChoice
 ms.prod: windows-hardware
 ms.technology: windows-devices

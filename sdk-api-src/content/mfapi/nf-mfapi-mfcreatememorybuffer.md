@@ -4,10 +4,10 @@ title: MFCreateMemoryBuffer function
 author: windows-sdk-content
 description: Allocates system memory and creates a media buffer to manage it.
 old-location: mf\mfcreatememorybuffer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1f79d057-7ef7-4662-9f82-ceadc23276f0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 1f79d057-7ef7-4662-9f82-ceadc23276f0, MFCreateMemoryBuffer, MFCreateMemoryBuffer function [Media Foundation], mf.mfcreatememorybuffer, mfapi/MFCreateMemoryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

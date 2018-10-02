@@ -4,10 +4,10 @@ title: IOfflineFilesCache::Encrypt
 author: windows-sdk-content
 description: Encrypts or unencrypts the contents of the Offline Files cache cached for the calling user.
 old-location: of\iofflinefilescache_encrypt.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: b7531018-4837-4fde-8947-0f099f6de9e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: Encrypt, Encrypt method [Offline Files], Encrypt method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],Encrypt method, IOfflineFilesCache.Encrypt, IOfflineFilesCache::Encrypt, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_CONSOLE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_LOWPRIORITY, cscobj/IOfflineFilesCache::Encrypt, of.iofflinefilescache_encrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices

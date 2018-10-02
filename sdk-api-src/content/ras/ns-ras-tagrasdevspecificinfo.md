@@ -7,7 +7,7 @@ old-location: rras\rasdevspecificinfo.htm
 tech.root: RRAS
 ms.assetid: 0dee3f10-d49b-4059-8cfb-c28af6b8b371
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo, tagRASDEVSPECIFICINFO"
 ms.prod: windows
 ms.technology: windows-sdk

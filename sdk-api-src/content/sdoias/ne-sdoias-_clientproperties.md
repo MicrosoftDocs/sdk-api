@@ -4,10 +4,10 @@ title: "_CLIENTPROPERTIES"
 author: windows-sdk-content
 description: The values of the CLIENTPROPERTIES type enumerate the properties of a RADIUS client. The SDO computer is the RADIUS server.
 old-location: nps\SDO_clientproperties.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: bd37acfb-eb92-40de-945b-ebda95f6ae53
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: CLIENTPROPERTIES, CLIENTPROPERTIES enumeration [Network Policy Server], PROPERTY_CLIENT_ADDRESS, PROPERTY_CLIENT_ENABLED, PROPERTY_CLIENT_FILTER_VSAS, PROPERTY_CLIENT_NAS_MANUFACTURER, PROPERTY_CLIENT_QUARANTINE_COMPATIBLE, PROPERTY_CLIENT_REQUIRE_SIGNATURE, PROPERTY_CLIENT_SHARED_SECRET, PROPERTY_CLIENT_UNUSED, _CLIENTPROPERTIES, _sdo_clientproperties, nps.SDO_clientproperties, sdo.clientproperties, sdoias/CLIENTPROPERTIES, sdoias/PROPERTY_CLIENT_ADDRESS, sdoias/PROPERTY_CLIENT_ENABLED, sdoias/PROPERTY_CLIENT_FILTER_VSAS, sdoias/PROPERTY_CLIENT_NAS_MANUFACTURER, sdoias/PROPERTY_CLIENT_QUARANTINE_COMPATIBLE, sdoias/PROPERTY_CLIENT_REQUIRE_SIGNATURE, sdoias/PROPERTY_CLIENT_SHARED_SECRET, sdoias/PROPERTY_CLIENT_UNUSED
 ms.prod: windows
 ms.technology: windows-sdk

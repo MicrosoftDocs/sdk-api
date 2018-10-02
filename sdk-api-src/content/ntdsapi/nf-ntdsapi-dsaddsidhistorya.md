@@ -4,10 +4,10 @@ title: DsAddSidHistoryA function
 author: windows-sdk-content
 description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest.
 old-location: ad\dsaddsidhistory.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 36ef8734-717a-4c3a-a839-6591d85c9734
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DsAddSidHistory, DsAddSidHistory function [Active Directory], DsAddSidHistoryA, DsAddSidHistoryW, _glines_dsaddsidhistory, ad.dsaddsidhistory, ntdsapi/DsAddSidHistory, ntdsapi/DsAddSidHistoryA, ntdsapi/DsAddSidHistoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

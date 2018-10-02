@@ -4,10 +4,10 @@ title: IMFMetadata::GetProperty
 author: windows-sdk-content
 description: Gets the value of a metadata property.
 old-location: mf\imfmetadata_getproperty.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 177c8612-5c9f-4a71-9ee1-a4c67737af2d
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 177c8612-5c9f-4a71-9ee1-a4c67737af2d, GetProperty, GetProperty method [Media Foundation], GetProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetProperty method, IMFMetadata.GetProperty, IMFMetadata::GetProperty, mf.imfmetadata_getproperty, mfidl/IMFMetadata::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

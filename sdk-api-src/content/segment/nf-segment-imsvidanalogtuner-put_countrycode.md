@@ -4,10 +4,10 @@ title: IMSVidAnalogTuner::put_CountryCode
 author: windows-sdk-content
 description: The put_CountryCode method specifies the tuner's country/region code.
 old-location: mstv\imsvidanalogtuner_put_countrycode.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e6ec6975-8953-45df-9d86-cf8b8888bba6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_CountryCode method, IMSVidAnalogTuner.put_CountryCode, IMSVidAnalogTuner::put_CountryCode, IMSVidAnalogTunerput_CountryCode, mstv.imsvidanalogtuner_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

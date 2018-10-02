@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator2_setinitialvalueandvelocity.h
 tech.root: UIAnimation
 ms.assetid: F1C0C54D-86C3-4B65-96A4-66D89F2B2084
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],SetInitialValueAndVelocity method, IUIAnimationInterpolator2.SetInitialValueAndVelocity, IUIAnimationInterpolator2::SetInitialValueAndVelocity, SetInitialValueAndVelocity, SetInitialValueAndVelocity method [Windows Animation], SetInitialValueAndVelocity method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_setinitialvalueandvelocity, uianimation/IUIAnimationInterpolator2::SetInitialValueAndVelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices

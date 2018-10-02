@@ -7,7 +7,7 @@ old-location: security\lsantstatustowinerror.htm
 tech.root: SecMgmt
 ms.assetid: fa91794c-c502-4b36-84cc-a8d77c8e9d9f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: LsaNtStatusToWinError, LsaNtStatusToWinError function [Security], _lsa_lsantstatustowinerror, ntsecapi/LsaNtStatusToWinError, security.lsantstatustowinerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

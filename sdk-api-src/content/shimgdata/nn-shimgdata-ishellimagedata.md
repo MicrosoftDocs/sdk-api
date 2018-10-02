@@ -4,10 +4,10 @@ title: IShellImageData
 author: windows-sdk-content
 description: Exposes methods and properties that display, manipulate, and describe image data.
 old-location: shell\IShellImageData.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 935e651c-4dcd-4317-847e-34adf656035c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IShellImageData interface [Windows Shell],described, _shell_IShellImageData, shell.IShellImageData, shimgdata/IShellImageData
 ms.prod: windows
 ms.technology: windows-sdk

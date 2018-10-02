@@ -4,10 +4,10 @@ title: EapPeerQueryUserBlobFromCredentialInputFields function
 author: windows-sdk-content
 description: Defines the implementation of an EAP method function that obtains the user BLOB data provided in an interactive Single-Sign-On (SSO) UI raised on the supplicant.
 old-location: eaphost\eappeerqueryuserblobfrominteractiveuiinputfields.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: decfe3cd-642e-41c8-9bec-d079a0f74504
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EapPeerQueryUserBlobFromCredentialInputFields, EapPeerQueryUserBlobFromCredentialInputFields function [EAPHost], eaphost.eappeerqueryuserblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUserBlobFromCredentialInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

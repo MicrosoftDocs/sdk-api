@@ -4,10 +4,10 @@ title: IDvbDefaultAuthorityDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from the default authority descriptor for a content reference identifier (CRID). The default authority descriptor is the first part of the CRID and identifies the body that created the CRID.
 old-location: mstv\idvbdefaultauthoritydescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 42d10cb5-dea9-4fdb-a588-7bc647e0b95b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IDvbDefaultAuthorityDescriptor, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies], IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDefaultAuthorityDescriptor, mstv.idvbdefaultauthoritydescriptor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild_getprivatedata.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_getprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 1156e7b1-1ba9-fab9-ab1a-7695c94278e9, GetPrivateData, GetPrivateData method [Direct3D 10], GetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, ID3D10DeviceChild interface [Direct3D 10],GetPrivateData method, ID3D10DeviceChild.GetPrivateData, ID3D10DeviceChild::GetPrivateData, d3d10/ID3D10DeviceChild::GetPrivateData, direct3d10.id3d10devicechild_getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

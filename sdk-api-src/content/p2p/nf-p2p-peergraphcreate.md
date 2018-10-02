@@ -4,10 +4,10 @@ title: PeerGraphCreate function
 author: windows-sdk-content
 description: The PeerGraphCreate function creates a new peer graph. An application can specify information about a peer graph, and the type of security that a peer graph uses. A handle to a peer graph is returned, but a network connection is not established.
 old-location: p2p\peergraphcreate.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 62e3ec57-378c-4322-9ad4-a40d98e03dab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGraphCreate, PeerGraphCreate function [Peer Networking], p2p.peergraphcreate, p2p/PeerGraphCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

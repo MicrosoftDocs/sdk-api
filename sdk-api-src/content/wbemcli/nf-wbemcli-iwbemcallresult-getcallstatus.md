@@ -7,7 +7,7 @@ old-location: wmi\iwbemcallresult_getcallstatus.htm
 tech.root: WmiSdk
 ms.assetid: 5a600fd8-87d8-446d-93da-5b22fd575a11
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: GetCallStatus, GetCallStatus method [Windows Management Instrumentation], GetCallStatus method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetCallStatus method, IWbemCallResult.GetCallStatus, IWbemCallResult::GetCallStatus, _hmm_iwbemcallresult_getcallstatus, wbemcli/IWbemCallResult::GetCallStatus, wmi.iwbemcallresult_getcallstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

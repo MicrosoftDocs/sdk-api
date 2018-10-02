@@ -4,10 +4,10 @@ title: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_
 author: windows-sdk-content
 description: Stores information about the authentication and encryption algorithms of an IPsec security association (SA).
 old-location: fwp\ipsec_sa_auth_and_cipher_information0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 0e213ba0-3993-41da-8ddd-5ecde7942a95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0, IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0 structure [Filtering], IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_, fwp.ipsec_sa_auth_and_cipher_information0_struct, ipsectypes/IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
 ms.prod: windows
 ms.technology: windows-sdk

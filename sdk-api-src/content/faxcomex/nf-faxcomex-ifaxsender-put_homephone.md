@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_homephone_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9tyd.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: HomePhone property [Fax Service], HomePhone property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],HomePhone property, IFaxSender.HomePhone, IFaxSender.get_HomePhone, IFaxSender.put_HomePhone, IFaxSender::HomePhone, IFaxSender::get_HomePhone, IFaxSender::put_HomePhone, _mfax_faxsender.homephone, fax._mfax_faxsender_cpp_mfax_faxsender_homephone_cpp, fax._mfax_faxsender_homephone, faxcomex/IFaxSender::HomePhone, faxcomex/IFaxSender::get_HomePhone, faxcomex/IFaxSender::put_HomePhone, put_HomePhone
 ms.prod: windows-hardware
 ms.technology: windows-devices

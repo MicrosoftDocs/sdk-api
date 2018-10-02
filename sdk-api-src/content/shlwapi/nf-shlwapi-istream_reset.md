@@ -4,10 +4,10 @@ title: IStream_Reset function
 author: windows-sdk-content
 description: Moves the seek position in a specified stream to the beginning of the stream.
 old-location: shell\IStream_Reset.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1e7a881d-decb-4018-b2e8-e0cba454236d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IStream_Reset, IStream_Reset function [Windows Shell], _win32_IStream_Reset, shell.IStream_Reset, shlwapi/IStream_Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

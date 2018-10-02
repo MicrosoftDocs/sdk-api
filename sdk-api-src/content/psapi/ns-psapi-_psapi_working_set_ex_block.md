@@ -7,7 +7,7 @@ old-location: psapi\psapi_working_set_ex_block.htm
 tech.root: psapi
 ms.assetid: 4ba17fa0-2aed-4099-9380-fc13f1b826ca
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK union pointer [PSAPI], PSAPI_WORKING_SET_EX_BLOCK, PSAPI_WORKING_SET_EX_BLOCK union [PSAPI], _PSAPI_WORKING_SET_EX_BLOCK, base.psapi_working_set_ex_block, psapi.psapi_working_set_ex_block, psapi/PPSAPI_WORKING_SET_EX_BLOCK, psapi/PSAPI_WORKING_SET_EX_BLOCK"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetProcessIdOfThread function
 author: windows-sdk-content
 description: Retrieves the process identifier of the process associated with the specified thread.
 old-location: base\getprocessidofthread.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1878088b-e0fd-4009-b608-f491805948b5
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/26/2018
 ms.keywords: GetProcessIdOfThread, GetProcessIdOfThread function, base.getprocessidofthread, processthreadsapi/GetProcessIdOfThread, winbase/GetProcessIdOfThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

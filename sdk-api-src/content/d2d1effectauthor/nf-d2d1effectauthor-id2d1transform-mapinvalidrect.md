@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transform_setinputrects.htm
 tech.root: direct2d
 ms.assetid: 46E6EAF3-7EC7-4433-90E5-4C6E3A56AFA5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: ID2D1Transform interface [Direct2D],MapInvalidRect method, ID2D1Transform.MapInvalidRect, ID2D1Transform::MapInvalidRect, MapInvalidRect, MapInvalidRect method [Direct2D], MapInvalidRect method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapInvalidRect, direct2d.id2d1transform_setinputrects
 ms.prod: windows-hardware
 ms.technology: windows-devices

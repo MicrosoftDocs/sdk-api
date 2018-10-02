@@ -4,10 +4,10 @@ title: IBitsTokenOptions
 author: windows-sdk-content
 description: Use IBitsTokenOptions to associate and manage a pair of security tokens for a Background Intelligent Transfer Service (BITS) transfer job.
 old-location: bits\ibitstokenoptions.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 8496c27b-68d8-4709-b8a6-6ffa17c886df
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: IBitsTokenOptions, IBitsTokenOptions interface [BITS], IBitsTokenOptions interface [BITS],described, bits.ibitstokenoptions, bits4_0/IBitsTokenOptions
 ms.prod: windows
 ms.technology: windows-sdk

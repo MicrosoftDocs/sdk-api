@@ -7,7 +7,7 @@ old-location: base\cvsswriterex_subscribeex.htm
 tech.root: VSS
 ms.assetid: b60ca619-c92b-4700-a048-7c74fad3d0e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CVssWriterEx interface,SubscribeEx method, CVssWriterEx.SubscribeEx, CVssWriterEx::SubscribeEx, SubscribeEx, SubscribeEx method, SubscribeEx method,CVssWriterEx interface, base.cvsswriterex_subscribeex, vswriter/CVssWriterEx::SubscribeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ Causes the writer to subscribe to VSS events.
 The length of time, in milliseconds, that the method will wait before timing out.
 
 
-#### - dwEventFlags [in]
+### -param dwEventFlags [in]
 
 A bitmask of 
 <a href="https://msdn.microsoft.com/4aa3afe4-98da-4376-b795-75bf404aaed9">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 

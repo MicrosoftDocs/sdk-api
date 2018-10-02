@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereference_gettype.htm
 tech.root: OPC
 ms.assetid: 7402f031-b06c-4fc6-bb54-ad9fc28600b3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: GetType, GetType method [Open Packaging Conventions], GetType method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetType method, IOpcSignatureReference.GetType, IOpcSignatureReference::GetType, msopc/IOpcSignatureReference::GetType, opc.iopcsignaturereference_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SHCreateAssociationRegistration function
 author: windows-sdk-content
 description: Creates an IApplicationAssociationRegistration object based on the stock implementation of the interface provided by Windows.
 old-location: shell\SHCreateAssociationRegistration.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7998f49d-2515-4c77-991e-62c0fefa43df
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateAssociationRegistration, SHCreateAssociationRegistration function [Windows Shell], _shell_SHCreateAssociationRegistration, shell.SHCreateAssociationRegistration, shobjidl_core/SHCreateAssociationRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

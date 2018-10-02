@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue.htm
 tech.root: WmiSdk
 ms.assetid: 493027c2-e54d-4fad-9e33-98d1ceab8860
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue class [Windows Management Instrumentation], CWbemProviderGlue class [Windows Management Instrumentation],described, _hmm_cwbemproviderglue, wbemglue/CWbemProviderGlue, wmi.cwbemproviderglue
 ms.prod: windows
 ms.technology: windows-sdk

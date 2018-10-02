@@ -4,10 +4,10 @@ title: tagATTRIBUTE_TYPE
 author: windows-sdk-content
 description: The ATTRIBUTE_TYPE enumeration defines possible values for a helper attribute.
 old-location: ndf\attribute_type.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: 9064549e-4f30-42f4-a7b4-6072f9c30f60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ATTRIBUTE_TYPE, ATTRIBUTE_TYPE enumeration [NDF], AT_BOOLEAN, AT_GUID, AT_INT16, AT_INT32, AT_INT64, AT_INT8, AT_INVALID, AT_LIFE_TIME, AT_OCTET_STRING, AT_SOCKADDR, AT_STRING, AT_UINT16, AT_UINT32, AT_UINT64, AT_UINT8, ndattrib/ATTRIBUTE_TYPE, ndattrib/AT_BOOLEAN, ndattrib/AT_GUID, ndattrib/AT_INT16, ndattrib/AT_INT32, ndattrib/AT_INT64, ndattrib/AT_INT8, ndattrib/AT_INVALID, ndattrib/AT_LIFE_TIME, ndattrib/AT_OCTET_STRING, ndattrib/AT_SOCKADDR, ndattrib/AT_STRING, ndattrib/AT_UINT16, ndattrib/AT_UINT32, ndattrib/AT_UINT64, ndattrib/AT_UINT8, ndf.attribute_type, tagATTRIBUTE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

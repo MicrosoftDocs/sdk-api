@@ -4,10 +4,10 @@ title: IComponentType::put__MediaFormatType
 author: windows-sdk-content
 description: The put__MediaFormatType method sets the DirectShow media format type.
 old-location: mstv\icomponenttype_put__mediaformattype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 37baa69e-d942-41d6-b497-bf37d6b0d57b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaFormatType method, IComponentType.put__MediaFormatType, IComponentType::put__MediaFormatType, IComponentTypeput__MediaFormatType, mstv.icomponenttype_put__mediaformattype, put__MediaFormatType, put__MediaFormatType method [Microsoft TV Technologies], put__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaFormatType
 ms.prod: windows-hardware
 ms.technology: windows-devices

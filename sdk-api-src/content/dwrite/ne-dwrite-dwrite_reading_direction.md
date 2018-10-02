@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_reading_direction.htm
 tech.root: DirectWrite
 ms.assetid: 37288d34-d533-474c-b3c0-8c6361074a9b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: DWRITE_READING_DIRECTION, DWRITE_READING_DIRECTION enumeration [Direct Write], DWRITE_READING_DIRECTION_BOTTOM_TO_TOP, DWRITE_READING_DIRECTION_LEFT_TO_RIGHT, DWRITE_READING_DIRECTION_RIGHT_TO_LEFT, DWRITE_READING_DIRECTION_TOP_TO_BOTTOM, directwrite.dwrite_reading_direction, dwrite/DWRITE_READING_DIRECTION, dwrite/DWRITE_READING_DIRECTION_BOTTOM_TO_TOP, dwrite/DWRITE_READING_DIRECTION_LEFT_TO_RIGHT, dwrite/DWRITE_READING_DIRECTION_RIGHT_TO_LEFT, dwrite/DWRITE_READING_DIRECTION_TOP_TO_BOTTOM
 ms.prod: windows
 ms.technology: windows-sdk

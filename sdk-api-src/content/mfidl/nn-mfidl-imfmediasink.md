@@ -4,10 +4,10 @@ title: IMFMediaSink
 author: windows-sdk-content
 description: Implemented by media sink objects.
 old-location: mf\imfmediasink.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink
 ms.prod: windows
 ms.technology: windows-sdk

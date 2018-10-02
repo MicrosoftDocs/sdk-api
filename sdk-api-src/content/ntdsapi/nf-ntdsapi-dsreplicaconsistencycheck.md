@@ -4,10 +4,10 @@ title: DsReplicaConsistencyCheck function
 author: windows-sdk-content
 description: Invokes the Knowledge Consistency Checker (KCC) to verify the replication topology.
 old-location: ad\dsreplicaconsistencycheck.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: 2a83ffcb-1ebd-4024-a186-9c079896f4e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DS_KCC_FLAG_ASYNC_OP, DS_KCC_FLAG_DAMPED, DsReplicaConsistencyCheck, DsReplicaConsistencyCheck function [Active Directory], _glines_dsreplicaconsistencycheck, ad.dsreplicaconsistencycheck, ntdsapi/DsReplicaConsistencyCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

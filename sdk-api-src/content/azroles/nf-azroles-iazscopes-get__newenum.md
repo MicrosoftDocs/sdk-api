@@ -7,7 +7,7 @@ old-location: security\iazscopes_newenum.htm
 tech.root: SecAuthZ
 ms.assetid: 3f3420ab-6153-4094-80e1-8011f4776139
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: AzScopes object [Security],_NewEnum property, IAzScopes interface [Security],_NewEnum property, IAzScopes._NewEnum, IAzScopes.get__NewEnum, IAzScopes::_NewEnum, IAzScopes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzScopes object, _NewEnum property [Security],IAzScopes interface, azroles/IAzScopes::_NewEnum, azroles/IAzScopes::get__NewEnum, get__NewEnum, security.iazscopes_newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

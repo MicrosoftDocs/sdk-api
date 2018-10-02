@@ -4,10 +4,10 @@ title: IETFilter::GetLastErrorCode
 author: windows-sdk-content
 description: Not implemented.
 old-location: mstv\ietfilter_getlasterrorcode.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 7982c60b-9be1-49c4-8194-f5e52487275e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetLastErrorCode method, IETFilter.GetLastErrorCode, IETFilter::GetLastErrorCode, IETFilterGetLastErrorCode, encdec/IETFilter::GetLastErrorCode, mstv.ietfilter_getlasterrorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

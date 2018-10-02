@@ -4,10 +4,10 @@ title: ILocation
 author: windows-sdk-content
 description: Provides methods used to manage location reports, event registration, and sensor permissions.
 old-location: winlocation\ilocation.htm
-tech.root: locationapi
+tech.root: LocationAPI
 ms.assetid: beeedbbd-df93-4c05-a215-4cfd14e03076
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: ILocation, ILocation interface [WinLocation], ILocation interface [WinLocation],described, locationapi/ILocation, winlocation.ilocation
 ms.prod: windows
 ms.technology: windows-sdk

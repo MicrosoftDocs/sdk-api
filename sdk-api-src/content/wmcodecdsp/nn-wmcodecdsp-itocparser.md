@@ -4,10 +4,10 @@ title: ITocParser
 author: windows-sdk-content
 description: The ITocParser interface represents a TOC Parser object. It provides methods for storing tables of contents in a video file and retrieving tables of contents from a video file.
 old-location: mf\itocparser.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: d1f14a6e-d75c-4266-beff-0e9af911edfe
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: ITocParser, ITocParser interface [Media Foundation], ITocParser interface [Media Foundation],described, codecapi.itocparser, mf.itocparser, wmcodecdsp/ITocParser
 ms.prod: windows
 ms.technology: windows-sdk

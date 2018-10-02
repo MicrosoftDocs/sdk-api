@@ -4,10 +4,10 @@ title: ISdoDictionaryOld::CreateAttribute
 author: windows-sdk-content
 description: The CreateAttribute method creates a new attribute object and returns an IDispatch interface to it.
 old-location: nps\SDO_isdodictionaryold_createattribute.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: 8c5a203b-b60b-4053-b1c4-eca2c30a050e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: CreateAttribute, CreateAttribute method [Network Policy Server], CreateAttribute method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],CreateAttribute method, ISdoDictionaryOld.CreateAttribute, ISdoDictionaryOld::CreateAttribute, _sdo_isdodictionaryold_createattribute, nps.SDO_isdodictionaryold_createattribute, sdo.isdodictionaryold_createattribute, sdoias/ISdoDictionaryOld::CreateAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IUnknown_SetSite function
 author: windows-sdk-content
 description: Sets the specified object's site by calling its IObjectWithSite::SetSite method.
 old-location: shell\IUnknown_SetSite.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 66175435-f85b-4e26-b148-f4edb74cb41d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IUnknown_SetSite, IUnknown_SetSite function [Windows Shell], _win32_IUnknown_SetSite, shell.IUnknown_SetSite, shlwapi/IUnknown_SetSite
 ms.prod: windows-hardware
 ms.technology: windows-devices

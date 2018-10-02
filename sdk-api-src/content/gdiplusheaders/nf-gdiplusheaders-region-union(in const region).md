@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Union_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: Region.Union, Region.Union(IN const Region), Region::Union, Region::Union(IN const Region), Union, Union methods [GDI+], _gdiplus_CLASS_Region_Union_Methods, gdiplus._gdiplus_CLASS_Region_Union_Methods, gdiplusheaders/Union
 ms.prod: windows-hardware
 ms.technology: windows-devices

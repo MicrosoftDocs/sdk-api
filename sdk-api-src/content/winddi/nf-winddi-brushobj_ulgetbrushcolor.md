@@ -4,10 +4,10 @@ title: BRUSHOBJ_ulGetBrushColor function
 author: windows-sdk-content
 description: The BRUSHOBJ_ulGetBrushColor function returns the RGB color of the specified solid brush.
 old-location: display\brushobj_ulgetbrushcolor.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 815844d7-930f-46c3-9403-c61cb2c8a992
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: BRUSHOBJ_ulGetBrushColor, BRUSHOBJ_ulGetBrushColor function [Display Devices], display.brushobj_ulgetbrushcolor, gdifncs_d103f229-9c90-4dbc-ba0b-e909a8371cd8.xml, winddi/BRUSHOBJ_ulGetBrushColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\dwriteengine2events.htm
 tech.root: imapi
 ms.assetid: 697f8247-6940-4b5e-8521-df89838837be
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: DWriteEngine2Events, DWriteEngine2Events interface [IMAPI], DWriteEngine2Events interface [IMAPI],described, imapi.dwriteengine2events, imapi2/DWriteEngine2Events
 ms.prod: windows
 ms.technology: windows-sdk

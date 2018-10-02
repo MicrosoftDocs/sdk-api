@@ -4,10 +4,10 @@ title: ITAddressCapabilities::get_CallTreatments
 author: windows-sdk-content
 description: The get_CallTreatments method gets call treatments. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_calltreatments.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: fd6bbbf0-1f33-4e4f-bd81-7854019a0225
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_CallTreatments method, ITAddressCapabilities.get_CallTreatments, ITAddressCapabilities::get_CallTreatments, _tapi3_itaddresscapabilities_get_calltreatments, get_CallTreatments, get_CallTreatments method [TAPI 2.2], get_CallTreatments method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_calltreatments, tapi3if/ITAddressCapabilities::get_CallTreatments
 ms.prod: windows-hardware
 ms.technology: windows-devices

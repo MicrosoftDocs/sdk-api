@@ -7,7 +7,7 @@ old-location: automat\ierrorinfo.htm
 tech.root: automat
 ms.assetid: 4dda6909-2d9a-4727-ae0c-b5f90dcfa447
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IErrorInfo, IErrorInfo interface [Automation], IErrorInfo interface [Automation],described, _oa96_IErrorInfo_Interface, automat.ierrorinfo, oaidl/IErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk

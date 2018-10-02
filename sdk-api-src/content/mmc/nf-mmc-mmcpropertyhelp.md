@@ -4,10 +4,10 @@ title: MMCPropertyHelp function
 author: windows-sdk-content
 description: Displays the specified HTML Help topic in the merged MMC HTML Help file for a property page.
 old-location: mmc\mmcpropertyhelp.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: c3b0fa86-dff4-4c35-9b08-633448db18be
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: MMCPropertyHelp, MMCPropertyHelp callback, MMCPropertyHelp callback function [MMC], _slate_mmcpropertyhelp, mmc.mmcpropertyhelp, mmc/MMCPropertyHelp
 ms.prod: windows-hardware
 ms.technology: windows-devices

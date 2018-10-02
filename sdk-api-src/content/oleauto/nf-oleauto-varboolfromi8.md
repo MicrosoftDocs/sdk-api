@@ -7,7 +7,7 @@ old-location: automat\varboolfromi8.htm
 tech.root: automat
 ms.assetid: 143cd441-af97-44da-a772-936f57f1df97
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: VarBoolFromI8, VarBoolFromI8 function [Automation], _oa96_VarBoolFromI8, automat.varboolfromi8, oleauto/VarBoolFromI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

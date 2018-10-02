@@ -4,10 +4,10 @@ title: "_BG_FILE_RANGE"
 author: windows-sdk-content
 description: The BG_FILE_RANGE structure identifies a range of bytes to download from a file.
 old-location: bits\bg_file_range.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: BG_FILE_RANGE, BG_FILE_RANGE structure [BITS], _BG_FILE_RANGE, bits.bg_file_range, bits2_0/BG_FILE_RANGE
 ms.prod: windows
 ms.technology: windows-sdk

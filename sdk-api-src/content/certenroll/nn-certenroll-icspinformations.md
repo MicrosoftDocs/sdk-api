@@ -7,7 +7,7 @@ old-location: security\icspinformations.htm
 tech.root: SecCertEnroll
 ms.assetid: 8141023c-c162-46d6-9c37-e227ce1c8761
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICspInformations, ICspInformations interface [Security], ICspInformations interface [Security],described, certenroll/ICspInformations, security.icspinformations
 ms.prod: windows
 ms.technology: windows-sdk

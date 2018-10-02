@@ -7,7 +7,7 @@ old-location: cos\objectcontext_get_count.htm
 tech.root: cossdk
 ms.assetid: 0844876e-6e21-4fac-9d74-01c221e1d78a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ObjectContext interface [COM+],get_Count method, ObjectContext.get_Count, ObjectContext::get_Count, _cos_ObjectContext_get_Count, comsvcs/ObjectContext::get_Count, cos.objectcontext_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ObjectContext interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

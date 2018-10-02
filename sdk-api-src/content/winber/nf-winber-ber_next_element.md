@@ -4,10 +4,10 @@ title: ber_next_element function
 author: windows-sdk-content
 description: The ber_next_element function is used along with ber_first_element to traverse a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied BerElement structure. It returns the tag and length of the next element in the constructed type.
 old-location: ldap\ber_next_element.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 3daf33c9-730d-4032-a0fc-21de4c425209
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "_ldap_ber_next_element, ber_next_element, ber_next_element function [LDAP], ldap.ber__next__element, ldap.ber_next_element, winber/ber_next_element"
 ms.prod: windows-hardware
 ms.technology: windows-devices

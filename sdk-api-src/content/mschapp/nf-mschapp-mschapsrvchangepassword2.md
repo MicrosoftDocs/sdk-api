@@ -4,10 +4,10 @@ title: MSChapSrvChangePassword2 function
 author: windows-sdk-content
 description: The MSChapSrvChangePassword2 function changes the password of a user account while supporting mutual encryption.
 old-location: mschap\mschapsrvchangepassword2.htm
-tech.root: mschap
+tech.root: MsChap
 ms.assetid: 91ea4b98-79e4-4764-a580-a622d1491943
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: MSChapSrvChangePassword2, MSChapSrvChangePassword2 function [MS-CHAP], _mschap_mschapsrvchangepassword2, mschap.mschapsrvchangepassword2, mschapp/MSChapSrvChangePassword2
 ms.prod: windows-hardware
 ms.technology: windows-devices

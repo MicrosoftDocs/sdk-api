@@ -4,10 +4,10 @@ title: "_tagSYNCMGRREGISTERFLAGS"
 author: windows-sdk-content
 description: The SYNCMGRREGISTERFLAGS enumeration values are used in methods of the ISyncMgrRegister interface to identify events for which the handler is registered to be notified.
 old-location: shell\syncmgr_SYNCMGRREGISTERFLAGS.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: be87cebf-da50-437b-bbb1-22c2c764e700
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SYNCMGRREGISTERFLAGS, SYNCMGRREGISTERFLAGS enumeration [Windows Shell], SYNCMGRREGISTERFLAG_CONNECT, SYNCMGRREGISTERFLAG_IDLE, SYNCMGRREGISTERFLAG_PENDINGDISCONNECT, _tagSYNCMGRREGISTERFLAGS, mobsync/SYNCMGRREGISTERFLAGS, mobsync/SYNCMGRREGISTERFLAG_CONNECT, mobsync/SYNCMGRREGISTERFLAG_IDLE, mobsync/SYNCMGRREGISTERFLAG_PENDINGDISCONNECT, shell.syncmgr_SYNCMGRREGISTERFLAGS, syncmgr_SYNCMGRREGISTERFLAGS
 ms.prod: windows
 ms.technology: windows-sdk

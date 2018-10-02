@@ -4,10 +4,10 @@ title: IMFSourceReader::ReadSample
 author: windows-sdk-content
 description: Reads the next sample from the media source.
 old-location: mf\imfsourcereader_readsample.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 99bd9bd7-d8d1-433a-bc5a-4b9761de5048
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSourceReader interface [Media Foundation],ReadSample method, IMFSourceReader.ReadSample, IMFSourceReader::ReadSample, MF_SOURCE_READER_ANY_STREAM, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, ReadSample, ReadSample method [Media Foundation], ReadSample method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_readsample, mfreadwrite/IMFSourceReader::ReadSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

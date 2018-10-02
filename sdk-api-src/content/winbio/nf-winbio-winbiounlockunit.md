@@ -7,7 +7,7 @@ old-location: secbiomet\winbiounlockunit.htm
 tech.root: SecBioMet
 ms.assetid: 689adf39-da62-4e83-94e9-e2daa7bd4753
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WinBioUnlockUnit, WinBioUnlockUnit function [Windows Biometric Framework API], secbiomet.winbiounlockunit, winbio/WinBioUnlockUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

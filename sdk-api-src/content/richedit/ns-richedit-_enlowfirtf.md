@@ -7,7 +7,7 @@ old-location: controls\ENLOWFIRTF.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlowfirtf.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: ENLOWFIRTF, ENLOWFIRTF structure [Windows Controls], _enlowfirtf, _win32_ENLOWFIRTF_str, _win32_ENLOWFIRTF_str_cpp, controls.ENLOWFIRTF, controls._win32_ENLOWFIRTF_str, richedit/ENLOWFIRTF
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: INetSharingPortMappingCollection::get_Count
 author: windows-sdk-content
 description: The get__Count method retrieves the number of items in the port mapping collection.
 old-location: ics\inetsharingportmappingcollection_get_count.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 40a697e8-aac4-4656-9c86-d11b5cdcb9e2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get_Count method, INetSharingPortMappingCollection.get_Count, INetSharingPortMappingCollection::get_Count, _ics_inetsharingportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPortMappingCollection interface, ics.inetsharingportmappingcollection_get_count, netcon/INetSharingPortMappingCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

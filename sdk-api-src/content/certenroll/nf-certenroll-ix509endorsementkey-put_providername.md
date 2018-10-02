@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey_providername.htm
 tech.root: SecCertEnroll
 ms.assetid: 5031d14d-8a10-4821-aed4-b49e12027d91
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IX509EndorsementKey interface [Security],ProviderName property, IX509EndorsementKey.ProviderName, IX509EndorsementKey.put_ProviderName, IX509EndorsementKey::ProviderName, IX509EndorsementKey::get_ProviderName, IX509EndorsementKey::put_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::ProviderName, certenroll/IX509EndorsementKey::get_ProviderName, certenroll/IX509EndorsementKey::put_ProviderName, put_ProviderName, security.ix509endorsementkey_providername
 ms.prod: windows-hardware
 ms.technology: windows-devices

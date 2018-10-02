@@ -4,10 +4,10 @@ title: "_MI_Class"
 author: windows-sdk-content
 description: Represents the schema of an instance.
 old-location: wmi_v2\mi_class.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 7f02e0fa-9e58-455d-9cf4-1d1244c44422
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Class, MI_Class structure [Windows Management Infrastructure (MI)], _MI_Class, mi/MI_Class, wmi._mi_class, wmi_v2.mi_class
 ms.prod: windows
 ms.technology: windows-sdk

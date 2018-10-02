@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSink::get_ReferenceRecorder
 author: windows-sdk-content
 description: The get_ReferenceRecorder method creates a new reference recording object.
 old-location: mstv\imsvidstreambuffersink_get_referencerecorder.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 81315825-165a-48ef-be5e-fdeba67765f6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ReferenceRecorder method, IMSVidStreamBufferSink.get_ReferenceRecorder, IMSVidStreamBufferSink::get_ReferenceRecorder, IMSVidStreamBufferSinkget_ReferenceRecorder, get_ReferenceRecorder, get_ReferenceRecorder method [Microsoft TV Technologies], get_ReferenceRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_referencerecorder, segment/IMSVidStreamBufferSink::get_ReferenceRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

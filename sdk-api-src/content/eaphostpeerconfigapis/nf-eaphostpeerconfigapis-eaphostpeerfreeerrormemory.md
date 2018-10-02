@@ -4,10 +4,10 @@ title: EapHostPeerFreeErrorMemory function
 author: windows-sdk-content
 description: Frees memory allocated to an EAP_ERROR structure.
 old-location: eaphost\eaphostpeerfreeerrormemory.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: c80ac625-8202-49a7-813a-62a9e0d15058
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EapHostPeerFreeErrorMemory, EapHostPeerFreeErrorMemory function [EAPHost], eaphost.eaphostpeerfreeerrormemory, eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

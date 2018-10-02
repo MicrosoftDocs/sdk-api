@@ -4,10 +4,10 @@ title: DhcpRemoveSubnetElementV5 function
 author: windows-sdk-content
 description: The DhcpRemoveSubnetElementV5 function removes an element from a subnet defined on the DHCP server.
 old-location: dhcp\dhcpremovesubnetelementv5.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 8232b2cc-0bb1-4509-ad5f-6d1d1ece9fe5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpRemoveSubnetElementV5, DhcpRemoveSubnetElementV5 function [DHCP], dhcp.dhcpremovesubnetelementv5, dhcpsapi/DhcpRemoveSubnetElementV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

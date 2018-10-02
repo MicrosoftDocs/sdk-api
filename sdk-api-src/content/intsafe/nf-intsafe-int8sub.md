@@ -4,10 +4,10 @@ title: Int8Sub function
 author: windows-sdk-content
 description: Subtracts one value of type INT8 from another.
 old-location: shell\Int8Sub.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2dfab719-3c16-49db-9cf3-1db236eae141
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: Int8Sub, Int8Sub function [Windows Shell], intsafe/Int8Sub, shell.Int8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createpixelshader.htm
 tech.root: direct3d11
 ms.assetid: f013a648-fd11-417b-8f87-36a4be901715
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: 60e28609-f849-5247-ceff-56bd9925d775, CreatePixelShader, CreatePixelShader method [Direct3D 11], CreatePixelShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreatePixelShader method, ID3D11Device.CreatePixelShader, ID3D11Device::CreatePixelShader, d3d11/ID3D11Device::CreatePixelShader, direct3d11.id3d11device_createpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

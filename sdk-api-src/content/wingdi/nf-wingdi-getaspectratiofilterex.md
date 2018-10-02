@@ -7,7 +7,7 @@ old-location: gdi\getaspectratiofilterex.htm
 tech.root: gdi
 ms.assetid: 3f2dd47d-08bf-4848-897f-5ae506fba342
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetAspectRatioFilterEx, GetAspectRatioFilterEx function [Windows GDI], _win32_GetAspectRatioFilterEx, gdi.getaspectratiofilterex, wingdi/GetAspectRatioFilterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

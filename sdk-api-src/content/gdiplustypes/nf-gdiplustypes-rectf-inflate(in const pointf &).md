@@ -2,21 +2,21 @@
 UID: NF:gdiplustypes.RectF.Inflate(IN const PointF &)
 title: RectF::Inflate(IN const PointF &)
 author: windows-sdk-content
-description: This topic lists the Inflate methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
-old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_Methods.htm
+description: The RectF::Inflate method expands the rectangle by the value of point.X on the left and right edges, and by the value of point.Y on the top and bottom edges.
+old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_point_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods\inflate_61point.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
-ms.keywords: Inflate, Inflate methods [GDI+], RectF.Inflate, RectF.Inflate(IN const PointF &), RectF::Inflate, RectF::Inflate(IN const PointF &), _gdiplus_CLASS_RectF_Inflate_Methods, gdiplus._gdiplus_CLASS_RectF_Inflate_Methods, gdiplustypes/Inflate
+ms.date: 09/26/2018
+ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],RectF class, RectF class [GDI+],Inflate method, RectF.Inflate, RectF.Inflate(IN const PointF &), RectF.Inflate(const PointF&), RectF::Inflate, RectF::Inflate(IN const PointF &), _gdiplus_CLASS_RectF_Inflate_point_, gdiplus._gdiplus_CLASS_RectF_Inflate_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplustypes.h
+ - Gdiplus.dll
 api_name:
  - RectF.Inflate
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # RectF::Inflate(IN const PointF &)
@@ -50,34 +51,57 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Inflate methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> class. For a complete list of methods for the 
-			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534931(v=VS.85).aspx">RectF Methods</a>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">Inflate(PointF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">RectF::Inflate</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
+The <b>RectF::Inflate</b> method expands the rectangle by the value of 
+			<i>point</i>.<b>X</b> on the left and right edges, and by the value of 
+			<i>point</i>.<b>Y</b> on the top and bottom edges.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">Inflate(REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">RectF::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param point [in]
+
+Type: <b>const PointF&amp;</b>
+
+Reference to a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object whose 
+					<b>X</b> data member specifies the amount to expand the rectangle on the left and right edges, and whose 
+					<b>Y</b> data member specifies the amount to expand the rectangle on the top and bottom edges. 
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+
+
+
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+ 
+
+ 
 

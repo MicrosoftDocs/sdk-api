@@ -4,10 +4,10 @@ title: EnumPwrSchemes function
 author: windows-sdk-content
 description: Enumerates all power schemes.
 old-location: base\enumpwrschemes.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 5e9e10b4-84c3-40ec-8de9-220d13795403
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: EnumPwrSchemes, EnumPwrSchemes function, _win32_enumpwrschemes, base.enumpwrschemes, powrprof/EnumPwrSchemes
 ms.prod: windows-hardware
 ms.technology: windows-devices

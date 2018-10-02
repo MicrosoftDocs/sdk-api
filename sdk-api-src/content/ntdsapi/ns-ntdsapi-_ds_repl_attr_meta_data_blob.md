@@ -4,10 +4,10 @@ title: "_DS_REPL_ATTR_META_DATA_BLOB"
 author: windows-sdk-content
 description: The DS_REPL_ATTR_META_DATA_BLOB structure is used to contain replication state data for an object attribute.
 old-location: ad\ds_repl_attr_meta_data_blob.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: eee12de1-287a-4e76-9a9c-37e6b967971f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPL_ATTR_META_DATA_BLOB, DS_REPL_ATTR_META_DATA_BLOB structure [Active Directory], _DS_REPL_ATTR_META_DATA_BLOB, ad.ds_repl_attr_meta_data_blob, ntdsapi/DS_REPL_ATTR_META_DATA_BLOB
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:dcompanimation
 ms.assetid: 829b3736-320b-32aa-bac4-64a829d56247
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_WTS_CLIENT_ADDRESS"
 author: windows-sdk-content
 description: Contains the client network address of a Remote Desktop Services session.
 old-location: termserv\wts_client_address_str.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 29034986-f8d1-4cf0-9f53-e4b195d450a6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS structure pointer [Remote Desktop Services], WTS_CLIENT_ADDRESS, WTS_CLIENT_ADDRESS structure [Remote Desktop Services], _WTS_CLIENT_ADDRESS, _win32_wts_client_address_str, termserv.wts_client_address_str, wtsapi32/PWTS_CLIENT_ADDRESS, wtsapi32/WTS_CLIENT_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk

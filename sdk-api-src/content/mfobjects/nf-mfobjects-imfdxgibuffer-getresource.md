@@ -4,10 +4,10 @@ title: IMFDXGIBuffer::GetResource
 author: windows-sdk-content
 description: Queries the Microsoft DirectX Graphics Infrastructure (DXGI)surface for an interface.
 old-location: mf\imfdxgibuffer_getresource.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: E8FF3346-D60A-4FF9-AF3E-673397EA6E6A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: GetResource, GetResource method [Media Foundation], GetResource method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetResource method, IMFDXGIBuffer.GetResource, IMFDXGIBuffer::GetResource, mf.imfdxgibuffer_getresource, mfobjects/IMFDXGIBuffer::GetResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

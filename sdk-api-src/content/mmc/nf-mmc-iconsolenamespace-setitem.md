@@ -2,13 +2,13 @@
 UID: NF:mmc.IConsoleNameSpace.SetItem
 title: IConsoleNameSpace::SetItem
 author: windows-sdk-content
-description: The IConsoleNameSpace2::SetItem method enables the snap-in to set the attributes of a single scope-view item.
-old-location: mmc\iconsolenamespace2_setitem.htm
-tech.root: mmc
-ms.assetid: e63dd8dd-dcef-4d52-96f7-cf9a7e42a0f1
+description: Enables the snap-in to set the attributes of a single scope-view item.
+old-location: mmc\iconsolenamespace_setitem.htm
+tech.root: MMC
+ms.assetid: 04111116-CE7C-4FEA-AC61-E30393583B9A
 ms.author: windowssdkdev
-ms.date: 08/14/2018
-ms.keywords: IConsoleNameSpace interface [MMC],SetItem method, IConsoleNameSpace.SetItem, IConsoleNameSpace2 interface [MMC],SetItem method, IConsoleNameSpace2::SetItem, IConsoleNameSpace::SetItem, SetItem, SetItem method [MMC], SetItem method [MMC],IConsoleNameSpace interface, SetItem method [MMC],IConsoleNameSpace2 interface, _slate_iconsolenamespace2_setitem, mmc.iconsolenamespace2_setitem, mmc/IConsoleNameSpace2::SetItem, mmc/IConsoleNameSpace::SetItem
+ms.date: 09/26/2018
+ms.keywords: IConsoleNameSpace interface [MMC],SetItem method, IConsoleNameSpace.SetItem, IConsoleNameSpace::SetItem, SetItem, SetItem method [MMC], SetItem method [MMC],IConsoleNameSpace interface, mmc.iconsolenamespace_setitem, mmc/IConsoleNameSpace::SetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mmc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsoleNameSpace.SetItem
- - IConsoleNameSpace2.SetItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IConsoleNameSpace2::SetItem</b> method enables the snap-in to set the attributes of a single scope-view item.
+Enables the snap-in to set the attributes of a single scope-view item.
 
 
 ## -parameters
@@ -79,7 +78,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
+<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
  
 
  

@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::get_LastError
 author: windows-sdk-content
 description: The error message from the last time the job was run.
 old-location: fsrm\ifsrmfilemanagementjob_lasterror.htm
-tech.root: fsrm
+tech.root: Fsrm
 ms.assetid: f7a7d5fd-b060-41f6-be1f-038ab252259a
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/26/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],LastError property, IFsrmFileManagementJob.LastError, IFsrmFileManagementJob.get_LastError, IFsrmFileManagementJob::LastError, IFsrmFileManagementJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_lasterror, fsrm.ifsrmfilemanagementjob_lasterror, fsrmreports/IFsrmFileManagementJob::LastError, fsrmreports/IFsrmFileManagementJob::get_LastError, get_LastError
 ms.prod: windows-hardware
 ms.technology: windows-devices

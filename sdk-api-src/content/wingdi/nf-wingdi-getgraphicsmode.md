@@ -7,7 +7,7 @@ old-location: gdi\getgraphicsmode.htm
 tech.root: gdi
 ms.assetid: 62e2960b-d414-4e84-a94f-60b192071402
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GetGraphicsMode, GetGraphicsMode function [Windows GDI], _win32_GetGraphicsMode, gdi.getgraphicsmode, wingdi/GetGraphicsMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

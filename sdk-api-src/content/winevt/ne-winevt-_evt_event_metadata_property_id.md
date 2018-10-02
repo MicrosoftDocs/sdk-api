@@ -7,7 +7,7 @@ old-location: wes\evt_event_metadata_property_id.htm
 tech.root: WES
 ms.assetid: d5a71e51-c080-4976-9f33-fe24b523ae81
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: EVT_EVENT_METADATA_PROPERTY_ID, EVT_EVENT_METADATA_PROPERTY_ID enumeration [EventLog], EventMetadataEventChannel, EventMetadataEventID, EventMetadataEventKeyword, EventMetadataEventLevel, EventMetadataEventMessageID, EventMetadataEventOpcode, EventMetadataEventTask, EventMetadataEventTemplate, EventMetadataEventVersion, EvtEventMetadataPropertyIdEND, _EVT_EVENT_METADATA_PROPERTY_ID, wes.evt_event_metadata_property_id, winevt/EVT_EVENT_METADATA_PROPERTY_ID, winevt/EventMetadataEventChannel, winevt/EventMetadataEventID, winevt/EventMetadataEventKeyword, winevt/EventMetadataEventLevel, winevt/EventMetadataEventMessageID, winevt/EventMetadataEventOpcode, winevt/EventMetadataEventTask, winevt/EventMetadataEventTemplate, winevt/EventMetadataEventVersion, winevt/EvtEventMetadataPropertyIdEND
 ms.prod: windows
 ms.technology: windows-sdk

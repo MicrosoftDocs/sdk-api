@@ -4,10 +4,10 @@ title: "_WL_DISPLAY_PAGES"
 author: windows-sdk-content
 description: Specifies the active tab when the wireless profile user interface dialog box appears.
 old-location: nwifi\wl_display_pages.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 040433b7-9204-4462-a8fd-7b65bcd1880b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI], WLConnectionPage, WLSecurityPage, WL_DISPLAY_PAGES, WL_DISPLAY_PAGES enumeration [NativeWIFI], _WL_DISPLAY_PAGES, nwifi.wl_display_pages, wlanapi/PWL_DISPLAY_PAGES, wlanapi/WLConnectionPage, wlanapi/WLSecurityPage, wlanapi/WL_DISPLAY_PAGES"
 ms.prod: windows
 ms.technology: windows-sdk

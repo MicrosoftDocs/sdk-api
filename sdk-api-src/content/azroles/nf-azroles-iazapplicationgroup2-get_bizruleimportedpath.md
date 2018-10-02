@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup2_bizruleimportedpath_method.htm
 tech.root: SecAuthZ
 ms.assetid: fe088018-0505-4339-8a9a-36e8764a22f6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],IAzApplicationGroup2 interface, IAzApplicationGroup2 interface [Security],BizRuleImportedPath property, IAzApplicationGroup2.BizRuleImportedPath, IAzApplicationGroup2.get_BizRuleImportedPath, IAzApplicationGroup2::BizRuleImportedPath, IAzApplicationGroup2::get_BizRuleImportedPath, IAzApplicationGroup2::put_BizRuleImportedPath, azroles/IAzApplicationGroup2::BizRuleImportedPath, azroles/IAzApplicationGroup2::get_BizRuleImportedPath, azroles/IAzApplicationGroup2::put_BizRuleImportedPath, get_BizRuleImportedPath, security.iazapplicationgroup2_bizruleimportedpath_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

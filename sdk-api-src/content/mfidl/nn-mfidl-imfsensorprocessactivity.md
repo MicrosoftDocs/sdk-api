@@ -4,10 +4,10 @@ title: IMFSensorProcessActivity
 author: windows-sdk-content
 description: Represents the activity of a process associated with a sensor.
 old-location: mf\imfsensorprocessactivity.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 833A24EA-11E0-47CF-A710-06E38A1FD50A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], IMFSensorProcessActivity interface [Media Foundation],described, mf.imfsensorprocessactivity, mfidl/IMFSensorProcessActivity
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicgetmetadatacontentsize.htm
 tech.root: wic
 ms.assetid: 57daa7a5-d0a0-46ae-a009-7f4ee3752088
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: WICGetMetadataContentSize, WICGetMetadataContentSize function [Windows Imaging Component], _wic_codec_wicgetmetadatacontentsize, wic._wic_codec_wicgetmetadatacontentsize, wincodecsdk/WICGetMetadataContentSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

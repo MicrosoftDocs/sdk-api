@@ -4,10 +4,10 @@ title: CIShutdown function
 author: windows-sdk-content
 description: Shuts down the content indexer and closes all open catalogs.
 old-location: shell\CIShutdown.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown, ntquery/CIShutdown, shell.CIShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

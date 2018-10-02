@@ -7,7 +7,7 @@ old-location: rras\mpradmingetpdcserver.htm
 tech.root: RRAS
 ms.assetid: 96bd5e88-5b13-41b2-ab3a-f9995cae36f8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: MprAdminGetPDCServer, MprAdminGetPDCServer function [RAS], _mpr_mpradmingetpdcserver, mprapi/MprAdminGetPDCServer, rras.mpradmingetpdcserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

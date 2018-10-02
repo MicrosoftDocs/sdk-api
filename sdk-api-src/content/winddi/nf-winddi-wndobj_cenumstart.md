@@ -4,10 +4,10 @@ title: WNDOBJ_cEnumStart function
 author: windows-sdk-content
 description: The WNDOBJ_cEnumStart function is a callback function that sets parameters for enumeration of rectangles in the visible region of a window.
 old-location: display\wndobj_cenumstart.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 7d3951de-807f-4d54-a022-e2610987d965
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: WNDOBJ_cEnumStart, WNDOBJ_cEnumStart function [Display Devices], display.wndobj_cenumstart, gdifncs_25b715da-7083-4602-b503-0f3a36a2dc1f.xml, winddi/WNDOBJ_cEnumStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

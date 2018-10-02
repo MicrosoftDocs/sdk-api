@@ -4,10 +4,10 @@ title: CMSPAddress::PostEvent
 author: windows-sdk-content
 description: The PostEvent method is called by the MSPCall to post an event to TAPI3. This method puts the event at the end of the event list and signals TAPI3. Locks the event list.
 old-location: tapi3\cmspaddress_postevent.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 25050c11-c270-4fc0-85b4-0f48622a5ec5
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],PostEvent method, CMSPAddress.PostEvent, CMSPAddress::PostEvent, PostEvent, PostEvent method [TAPI 2.2], PostEvent method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_postevent, mspaddr/CMSPAddress::PostEvent, tapi3.cmspaddress_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

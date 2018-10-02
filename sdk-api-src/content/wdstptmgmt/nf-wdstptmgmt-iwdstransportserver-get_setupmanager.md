@@ -7,7 +7,7 @@ old-location: wds\iwdstransportserver_setupmanager.htm
 tech.root: Wds
 ms.assetid: 17bd15d2-5468-4e8e-8d1f-d4b17a27be2f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IWdsTransportServer interface [Windows Deployment Services],SetupManager property, IWdsTransportServer.SetupManager, IWdsTransportServer.get_SetupManager, IWdsTransportServer::SetupManager, IWdsTransportServer::get_SetupManager, SetupManager property [Windows Deployment Services], SetupManager property [Windows Deployment Services],IWdsTransportServer interface, get_SetupManager, wds.iwdstransportserver_setupmanager, wdstptmgmt/IWdsTransportServer::SetupManager, wdstptmgmt/IWdsTransportServer::get_SetupManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

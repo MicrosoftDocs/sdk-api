@@ -7,7 +7,7 @@ old-location: wsw\ws_security_context_message_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: 7abc37d8-cb00-459d-aa08-609a06b65a5c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT, webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_security_context_message_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk

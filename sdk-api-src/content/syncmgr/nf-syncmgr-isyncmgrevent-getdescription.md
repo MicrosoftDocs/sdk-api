@@ -4,10 +4,10 @@ title: ISyncMgrEvent::GetDescription
 author: windows-sdk-content
 description: Gets the event description.
 old-location: shell\ISyncMgrEvent_GetDescription.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3ec45cf6-d282-4df9-bd4a-b5d75df69ff4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetDescription method, ISyncMgrEvent.GetDescription, ISyncMgrEvent::GetDescription, _shell_ISyncMgrEvent_GetDescription, shell.ISyncMgrEvent_GetDescription, syncmgr/ISyncMgrEvent::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

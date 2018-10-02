@@ -4,10 +4,10 @@ title: IDeskBand::GetBandInfo
 author: windows-sdk-content
 description: Gets state information for a band object.
 old-location: shell\IDeskBand_GetBandInfo.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7567a2f8-989e-4d11-ae55-209e4cfacad0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DBIF_VIEWMODE_FLOATING, DBIF_VIEWMODE_NORMAL, DBIF_VIEWMODE_TRANSPARENT, DBIF_VIEWMODE_VERTICAL, GetBandInfo, GetBandInfo method [Windows Shell], GetBandInfo method [Windows Shell],IDeskBand interface, IDeskBand interface [Windows Shell],GetBandInfo method, IDeskBand.GetBandInfo, IDeskBand::GetBandInfo, _win32_IDeskBand_GetBandInfo, shell.IDeskBand_GetBandInfo, shobjidl_core/IDeskBand::GetBandInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

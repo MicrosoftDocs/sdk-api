@@ -4,10 +4,10 @@ title: ClusterRegEnumValue function
 author: windows-sdk-content
 description: Enumerates the values of an open cluster database key.
 old-location: mscs\clusterregenumvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4ea2fc6f-6b52-4fa1-8d71-5bbae72368b3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ClusterRegEnumValue, ClusterRegEnumValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregenumvalue, clusapi/ClusterRegEnumValue, mscs.clusterregenumvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

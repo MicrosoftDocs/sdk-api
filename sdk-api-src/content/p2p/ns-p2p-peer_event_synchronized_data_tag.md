@@ -4,10 +4,10 @@ title: peer_event_synchronized_data_tag
 author: windows-sdk-content
 description: The PEER_EVENT_SYNCHRONIZED_DATA is pointed to by a PEER_GRAPH_EVENT_DATA structure's union if a PEER_GRAPH_EVENT_RECORD_CHANGE or PEER_GROUP_EVENT_RECORD_CHANGE event is triggered.
 old-location: p2p\peer_event_synchronized_data.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: ae7dc220-a827-4671-97b3-1ac039ab3e08
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: "*PPEER_EVENT_SYNCHRONIZED_DATA, PEER_EVENT_SYNCHRONIZED_DATA, PEER_EVENT_SYNCHRONIZED_DATA structure [Peer Networking], PPEER_EVENT_SYNCHRONIZED_DATA, PPEER_EVENT_SYNCHRONIZED_DATA structure pointer [Peer Networking], p2p.peer_event_synchronized_data, p2p/PPEER_EVENT_SYNCHRONIZED_DATA, p2p/peer_event_synchronized_data_tag, peer_event_synchronized_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

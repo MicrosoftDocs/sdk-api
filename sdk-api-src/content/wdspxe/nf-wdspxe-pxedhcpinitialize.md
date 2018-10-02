@@ -7,7 +7,7 @@ old-location: wds\pxedhcpinitialize.htm
 tech.root: Wds
 ms.assetid: b1bcd725-723c-47a3-a2b9-468f5f2e6596
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: PxeDhcpInitialize, PxeDhcpInitialize function [Windows Deployment Services], wds.pxedhcpinitialize, wdspxe/PxeDhcpInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

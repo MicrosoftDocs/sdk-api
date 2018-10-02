@@ -4,10 +4,10 @@ title: MFSetAttributeRatio function
 author: windows-sdk-content
 description: Sets a ratio as a 64-bit attribute value.
 old-location: mf\mfsetattributeratio.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 04e8c89e-115e-41d4-b8cb-953f68ddd14e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 04e8c89e-115e-41d4-b8cb-953f68ddd14e, MFSetAttributeRatio, MFSetAttributeRatio function [Media Foundation], mf.mfsetattributeratio, mfapi/MFSetAttributeRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\chstring_makelower.htm
 tech.root: WmiSdk
 ms.assetid: 5031bbd0-d7a6-4b58-b338-da875c24ad25
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],MakeLower method, CHString.MakeLower, CHString::MakeLower, MakeLower, MakeLower method [Windows Management Instrumentation], MakeLower method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makelower, chstring/CHString::MakeLower, wmi.chstring_makelower
 ms.prod: windows-hardware
 ms.technology: windows-devices

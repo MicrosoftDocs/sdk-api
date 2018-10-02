@@ -4,10 +4,10 @@ title: Pack2UINT32AsUINT64 function
 author: windows-sdk-content
 description: Packs two UINT32 values into a UINT64 value.
 old-location: mf\pack2uint32asuint64.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 82d37211-e2e5-4b34-8102-2c3f8650cc26
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: Pack2UINT32AsUINT64, Pack2UINT32AsUINT64 function [Media Foundation], mf.pack2uint32asuint64, mfapi/Pack2UINT32AsUINT64
 ms.prod: windows-hardware
 ms.technology: windows-devices

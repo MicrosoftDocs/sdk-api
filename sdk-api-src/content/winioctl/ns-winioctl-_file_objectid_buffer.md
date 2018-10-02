@@ -7,7 +7,7 @@ old-location: fs\file_objectid_buffer_str.htm
 tech.root: fileio
 ms.assetid: 4d58921c-a3ec-44f3-b077-528db6b1211c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: "*PFILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER structure [Files], PFILE_OBJECTID_BUFFER, PFILE_OBJECTID_BUFFER structure pointer [Files], _FILE_OBJECTID_BUFFER, _win32_file_objectid_buffer_str, base.file_objectid_buffer_str, fs.file_objectid_buffer_str, winioctl/FILE_OBJECTID_BUFFER, winioctl/PFILE_OBJECTID_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

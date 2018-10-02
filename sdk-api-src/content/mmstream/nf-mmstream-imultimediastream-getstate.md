@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_getstate.htm
 tech.root: DirectShow
 ms.assetid: 8d01c4cf-2de9-4e9c-8b6e-921284f4f1b6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetState method, IMultiMediaStream.GetState, IMultiMediaStream::GetState, IMultiMediaStreamGetState, dshow.imultimediastream_getstate, mmstream/IMultiMediaStream::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

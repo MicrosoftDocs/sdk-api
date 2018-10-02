@@ -4,10 +4,10 @@ title: SslCrackCertificate function
 author: windows-sdk-content
 description: Returns an X509Certificate structure with the information contained in the specified certificate BLOB.
 old-location: security\sslcrackcertificate.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schannel/SslCrackCertificate, security.sslcrackcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

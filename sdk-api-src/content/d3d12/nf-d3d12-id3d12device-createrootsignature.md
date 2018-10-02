@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createrootsignature.htm
 tech.root: direct3d12
 ms.assetid: CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: CreateRootSignature, CreateRootSignature method, CreateRootSignature method,ID3D12Device interface, ID3D12Device interface,CreateRootSignature method, ID3D12Device.CreateRootSignature, ID3D12Device::CreateRootSignature, d3d12/ID3D12Device::CreateRootSignature, direct3d12.id3d12device_createrootsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

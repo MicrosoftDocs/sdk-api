@@ -4,10 +4,10 @@ title: MFSerializeAttributesToStream function
 author: windows-sdk-content
 description: Writes the contents of an attribute store to a stream.
 old-location: mf\mfserializeattributestostream.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: b8bc88e5-19ae-46b3-aa78-a00afee1f481
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFSerializeAttributesToStream, MFSerializeAttributesToStream function [Media Foundation], b8bc88e5-19ae-46b3-aa78-a00afee1f481, mf.mfserializeattributestostream, mfobjects/MFSerializeAttributesToStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

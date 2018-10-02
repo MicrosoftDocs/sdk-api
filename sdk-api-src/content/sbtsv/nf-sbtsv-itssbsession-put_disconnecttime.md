@@ -4,10 +4,10 @@ title: ITsSbSession::put_DisconnectTime
 author: windows-sdk-content
 description: Retrieves or specifies the time the session was disconnected.
 old-location: termserv\itssbsession_disconnecttime.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e4bbb6e5-5fe2-4aa8-8a14-40fb2a4251e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DisconnectTime property [Remote Desktop Services], DisconnectTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],DisconnectTime property, ITsSbSession.DisconnectTime, ITsSbSession.put_DisconnectTime, ITsSbSession::DisconnectTime, ITsSbSession::get_DisconnectTime, ITsSbSession::put_DisconnectTime, put_DisconnectTime, sbtsv/ITsSbSession::DisconnectTime, sbtsv/ITsSbSession::get_DisconnectTime, sbtsv/ITsSbSession::put_DisconnectTime, termserv.itssbsession_disconnecttime
 ms.prod: windows-hardware
 ms.technology: windows-devices

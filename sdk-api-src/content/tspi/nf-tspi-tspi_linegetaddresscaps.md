@@ -4,10 +4,10 @@ title: TSPI_lineGetAddressCaps function
 author: windows-sdk-content
 description: The TSPI_lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
 old-location: tspi\tspi_linegetaddresscaps.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: b8d52a94-2666-4f92-80e0-c9a1e04d1e79
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: TSPI_lineGetAddressCaps, TSPI_lineGetAddressCaps function [TAPI 2.2], _tspi_tspi_linegetaddresscaps, tspi.tspi_linegetaddresscaps, tspi/TSPI_lineGetAddressCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

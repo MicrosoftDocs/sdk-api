@@ -7,7 +7,7 @@ old-location: base\ivssenummgmtobject.htm
 tech.root: VSS
 ms.assetid: c2067822-1824-4676-8376-7d83fcbbaea3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumMgmtObject interface [Files],described, base.ivssenummgmtobject, vsmgmt/IVssEnumMgmtObject
 ms.prod: windows
 ms.technology: windows-sdk

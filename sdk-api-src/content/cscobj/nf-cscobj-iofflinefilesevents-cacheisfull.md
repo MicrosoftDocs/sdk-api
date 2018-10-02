@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::CacheIsFull
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_cacheisfull.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 535998f6-846b-4075-9504-a8d3e90a73b9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: CacheIsFull, CacheIsFull method [Offline Files], CacheIsFull method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsFull method, IOfflineFilesEvents.CacheIsFull, IOfflineFilesEvents::CacheIsFull, cscobj/IOfflineFilesEvents::CacheIsFull, of.iofflinefilesevents_cacheisfull
 ms.prod: windows-hardware
 ms.technology: windows-devices

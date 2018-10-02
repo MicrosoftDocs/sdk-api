@@ -7,7 +7,7 @@ old-location: base\regdeletekeytransacted.htm
 tech.root: SysInfo
 ms.assetid: 4c67e08b-4338-4441-8300-6b6ed31d4b21
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyTransacted, RegDeleteKeyTransacted function, RegDeleteKeyTransactedA, RegDeleteKeyTransactedW, base.regdeletekeytransacted, winreg/RegDeleteKeyTransacted, winreg/RegDeleteKeyTransactedA, winreg/RegDeleteKeyTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

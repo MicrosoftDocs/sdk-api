@@ -7,7 +7,7 @@ old-location: rras\rtmgetexactmatchroute.htm
 tech.root: RRAS
 ms.assetid: 5fc9cde7-9912-409f-85ee-c775b4d6ddc0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RTM_MATCH_FULL, RTM_MATCH_INTERFACE, RTM_MATCH_NEIGHBOUR, RTM_MATCH_NEXTHOP, RTM_MATCH_NONE, RTM_MATCH_OWNER, RTM_MATCH_PREF, RtmGetExactMatchRoute, RtmGetExactMatchRoute function [RAS], _rtmv2ref_rtmgetexactmatchroute, rras.rtmgetexactmatchroute, rtmv2/RtmGetExactMatchRoute
 ms.prod: windows-hardware
 ms.technology: windows-devices

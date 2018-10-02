@@ -4,10 +4,10 @@ title: MI_Operation_GetIndication function
 author: windows-sdk-content
 description: Get the synchronous results from a subscription.
 old-location: wmi_v2\mi_operation_getindication.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 3e3e8472-ea33-485b-9e86-b5ba770af95b
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_Operation_GetIndication, MI_Operation_GetIndication function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetIndication, wmi_v2.mi_operation_getindication
 ms.prod: windows-hardware
 ms.technology: windows-devices

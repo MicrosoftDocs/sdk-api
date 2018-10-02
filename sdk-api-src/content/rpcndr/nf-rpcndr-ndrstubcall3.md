@@ -7,7 +7,7 @@ old-location: rpc\ndrstubcall3.htm
 tech.root: Rpc
 ms.assetid: 2EBEAD72-DEBE-44D6-9CC1-A9264D8B88C4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: NdrStubCall3, NdrStubCall3 function [RPC], rpc.ndrstubcall3, rpcndr/NdrStubCall3
 ms.prod: windows-hardware
 ms.technology: windows-devices

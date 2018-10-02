@@ -7,7 +7,7 @@ old-location: com\ienumconnectionpoints_skip.htm
 tech.root: com
 ms.assetid: 53080d41-c8b8-46ad-a5f1-6eceb497aa9b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Skip method, IEnumConnectionPoints.Skip, IEnumConnectionPoints::Skip, Skip, Skip method [COM], Skip method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_skip, com.ienumconnectionpoints_skip, ocidl/IEnumConnectionPoints::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

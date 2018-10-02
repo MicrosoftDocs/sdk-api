@@ -4,10 +4,10 @@ title: IQueryCancelAutoPlay
 author: windows-sdk-content
 description: Exposes a method that programmatically overrides AutoPlay or AutoRun. This allows you to customize the location and type of content that is launched when media is inserted.
 old-location: shell\IQueryCancelAutoPlay.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 7dd470cd-163b-43e1-80d9-cdaa8b615858
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IQueryCancelAutoPlay, IQueryCancelAutoPlay interface [Windows Shell], IQueryCancelAutoPlay interface [Windows Shell],described, _shell_IQueryCancelAutoPlay, shell.IQueryCancelAutoPlay, shobjidl/IQueryCancelAutoPlay
 ms.prod: windows
 ms.technology: windows-sdk

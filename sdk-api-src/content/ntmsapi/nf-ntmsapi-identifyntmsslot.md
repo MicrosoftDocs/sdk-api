@@ -7,7 +7,7 @@ old-location: fs\identifyntmsslot.htm
 tech.root: Rsm
 ms.assetid: 8fdddce9-34fa-4223-b55e-17620db9bbfc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot
 ms.prod: windows-hardware
 ms.technology: windows-devices

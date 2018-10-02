@@ -7,7 +7,7 @@ old-location: wds\wdstransportprovidercomparecontent.htm
 tech.root: Wds
 ms.assetid: 206b85e2-e139-4f62-9107-ed78893a7ad2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WdsTransportProviderCompareContent, WdsTransportProviderCompareContent callback, WdsTransportProviderCompareContent callback function [Windows Deployment Services], wds.wdstransportprovidercomparecontent, wdstpdi/WdsTransportProviderCompareContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

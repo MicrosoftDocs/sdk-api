@@ -4,10 +4,10 @@ title: IUpdate5
 author: windows-sdk-content
 description: Contains the properties and methods that are available to an update.
 old-location: wua\iupdate5.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ff290e39-7d7c-42da-a522-ba9e672721b8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/27/2018
 ms.keywords: IUpdate5, IUpdate5 interface [Windows Update Agent], IUpdate5 interface [Windows Update Agent],described, wua.iupdate5, wuapi/IUpdate5
 ms.prod: windows
 ms.technology: windows-sdk

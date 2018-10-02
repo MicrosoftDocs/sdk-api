@@ -4,10 +4,10 @@ title: IBrowserService2::SetAsDefFolderSettings
 author: windows-sdk-content
 description: Deprecated. Sets the folder's current view mode as the default view mode for all folders. Used by the Folder Options dialog.
 old-location: shell\IBrowserService2_SetAsDefFolderSettings.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: b5bcbb41-7c43-4448-a612-fe2342c502a0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetAsDefFolderSettings method, IBrowserService2.SetAsDefFolderSettings, IBrowserService2::SetAsDefFolderSettings, SetAsDefFolderSettings, SetAsDefFolderSettings method [Windows Shell], SetAsDefFolderSettings method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetAsDefFolderSettings, shell.IBrowserService2_SetAsDefFolderSettings, zone_IBrowserService2_SetAsDefFolderSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

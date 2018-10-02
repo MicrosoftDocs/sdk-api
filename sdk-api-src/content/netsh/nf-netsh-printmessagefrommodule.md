@@ -4,10 +4,10 @@ title: PrintMessageFromModule function
 author: windows-sdk-content
 description: Displays localized output to the NetShell console.
 old-location: netshell\printmessagefrommodule.htm
-tech.root: netshell
+tech.root: NetShell
 ms.assetid: 21f4688a-24fd-40b3-8da4-08c496b395f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell], _netsh_printmessagefrommodule, netsh/PrintMessageFromModule, netshell.printmessagefrommodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITQueue::get_TotalCallsAbandoned
 author: windows-sdk-content
 description: The get_TotalCallsAbandoned method gets the number of abandoned calls during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsabandoned.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 2db1309e-f6df-47f8-a695-7bf05d360d99
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsAbandoned method, ITQueue.get_TotalCallsAbandoned, ITQueue::get_TotalCallsAbandoned, _tapi3_itqueue_get_totalcallsabandoned, get_TotalCallsAbandoned, get_TotalCallsAbandoned method [TAPI 2.2], get_TotalCallsAbandoned method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsabandoned, tapi3cc/ITQueue::get_TotalCallsAbandoned
 ms.prod: windows-hardware
 ms.technology: windows-devices

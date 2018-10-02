@@ -4,10 +4,10 @@ title: IMFContentProtectionDevice::InvokeFunction
 author: windows-sdk-content
 description: Calls into the implementation of the protection system in the security processor.
 old-location: mf\imfcontentprotectiondevice_invokefunction.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 1BEC7122-1DFB-49D7-BE60-7CE9D83A64F5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: IMFContentProtectionDevice interface [Media Foundation],InvokeFunction method, IMFContentProtectionDevice.InvokeFunction, IMFContentProtectionDevice::InvokeFunction, InvokeFunction, InvokeFunction method [Media Foundation], InvokeFunction method [Media Foundation],IMFContentProtectionDevice interface, mf.imfcontentprotectiondevice_invokefunction, mfidl/IMFContentProtectionDevice::InvokeFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

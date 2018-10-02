@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFileStream_GetFileSize.htm
 tech.root: DirectWrite
 ms.assetid: 52186ddb-ea08-4615-a3df-35ea7288270c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method [Direct Write],IDWriteFontFileStream interface, IDWriteFontFileStream interface [Direct Write],GetFileSize method, IDWriteFontFileStream.GetFileSize, IDWriteFontFileStream::GetFileSize, directwrite.IDWriteFontFileStream_GetFileSize, dwrite/IDWriteFontFileStream::GetFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

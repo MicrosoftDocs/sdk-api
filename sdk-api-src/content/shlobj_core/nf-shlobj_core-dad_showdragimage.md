@@ -4,10 +4,10 @@ title: DAD_ShowDragImage function
 author: windows-sdk-content
 description: Shows or hides the image being dragged.
 old-location: shell\DAD_ShowDragImage.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 71448b05-9657-41e4-b5e4-6ae403219c6a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: DAD_ShowDragImage, DAD_ShowDragImage function [Windows Shell], FALSE, TRUE, shell.DAD_ShowDragImage, shell_DAD_ShowDragImage, shlobj_core/DAD_ShowDragImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

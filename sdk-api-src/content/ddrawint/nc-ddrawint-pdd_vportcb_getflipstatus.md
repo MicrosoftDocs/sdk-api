@@ -4,10 +4,10 @@ title: PDD_VPORTCB_GETFLIPSTATUS
 author: windows-sdk-content
 description: The DdVideoPortGetFlipStatus callback function determines whether the most recently requested flip on a surface has occurred.
 old-location: display\ddvideoportgetflipstatus.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 67a7aa80-2201-4bb7-919b-dd9ca1228f06
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DdVideoPortGetFlipStatus, DdVideoPortGetFlipStatus callback function [Display Devices], PDD_VPORTCB_GETFLIPSTATUS, PDD_VPORTCB_GETFLIPSTATUS callback, ddfncs_b5004bc9-0486-40b0-9be0-b17b10b0241a.xml, ddrawint/DdVideoPortGetFlipStatus, display.ddvideoportgetflipstatus
 ms.prod: windows
 ms.technology: windows-sdk

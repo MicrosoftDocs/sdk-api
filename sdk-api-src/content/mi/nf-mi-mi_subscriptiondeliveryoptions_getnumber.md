@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_GetNumber function
 author: windows-sdk-content
 description: Gets the value of the named numeric option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getnumber.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 80314490-204d-4b99-937f-f9b55266ac1a
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetNumber, MI_SubscriptionDeliveryOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetNumber, wmi_v2.mi_subscriptiondeliveryoptions_getnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

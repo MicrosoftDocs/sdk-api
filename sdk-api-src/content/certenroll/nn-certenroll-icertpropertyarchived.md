@@ -7,7 +7,7 @@ old-location: security\icertpropertyarchived.htm
 tech.root: SecCertEnroll
 ms.assetid: 81219ad9-4717-40e5-9ecd-d3df980e23c6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICertPropertyArchived, ICertPropertyArchived interface [Security], ICertPropertyArchived interface [Security],described, certenroll/ICertPropertyArchived, security.icertpropertyarchived
 ms.prod: windows
 ms.technology: windows-sdk

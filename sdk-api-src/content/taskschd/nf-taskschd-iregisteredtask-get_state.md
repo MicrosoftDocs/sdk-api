@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_state.htm
 tech.root: TaskSchd
 ms.assetid: b5ac2207-b5c0-42bd-a059-93a2c1f49f33
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],State property, IRegisteredTask.State, IRegisteredTask.get_State, IRegisteredTask::State, IRegisteredTask::get_State, State property [Task Scheduler], State property [Task Scheduler],IRegisteredTask interface, TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, get_State, taskschd.iregisteredtask_state, taskschd/IRegisteredTask::State, taskschd/IRegisteredTask::get_State
 ms.prod: windows-hardware
 ms.technology: windows-devices

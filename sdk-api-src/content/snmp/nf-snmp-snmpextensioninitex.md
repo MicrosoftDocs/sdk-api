@@ -7,7 +7,7 @@ old-location: snmp\snmpextensioninitex.htm
 tech.root: SNMP
 ms.assetid: f4e090ca-3f15-4f50-8ea7-92a06868268f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: SnmpExtensionInitEx, SnmpExtensionInitEx callback, SnmpExtensionInitEx callback function [SNMP], _snmp_snmpextensioninitex, snmp.snmpextensioninitex, snmp/SnmpExtensionInitEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

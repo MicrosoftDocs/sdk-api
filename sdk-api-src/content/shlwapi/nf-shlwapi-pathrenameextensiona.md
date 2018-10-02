@@ -4,10 +4,10 @@ title: PathRenameExtensionA function
 author: windows-sdk-content
 description: Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string.
 old-location: shell\PathRenameExtension.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 3d94f67c-e3ee-4b64-b0b9-8f771423bdc5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: PathRenameExtension, PathRenameExtension function [Windows Shell], PathRenameExtensionA, PathRenameExtensionW, _win32_PathRenameExtension, shell.PathRenameExtension, shlwapi/PathRenameExtension, shlwapi/PathRenameExtensionA, shlwapi/PathRenameExtensionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

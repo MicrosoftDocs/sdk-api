@@ -7,7 +7,7 @@ old-location: wsw\ws_security_constraints.htm
 tech.root: wsw
 ms.assetid: 17fe7602-c050-46a2-b55c-aac6c277a5ce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: WS_SECURITY_CONSTRAINTS, WS_SECURITY_CONSTRAINTS structure [Web Services for Windows], _WS_SECURITY_CONSTRAINTS, webservices/WS_SECURITY_CONSTRAINTS, wsw.ws_security_constraints
 ms.prod: windows
 ms.technology: windows-sdk

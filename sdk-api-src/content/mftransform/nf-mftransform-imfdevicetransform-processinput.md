@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_processinput.htm
 tech.root: stream
 ms.assetid: EB4197BA-5963-45E7-B196-94F907637EBB
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessInput method, IMFDeviceTransform.ProcessInput, IMFDeviceTransform::ProcessInput, ProcessInput, ProcessInput method [Streaming Media Devices], ProcessInput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessInput, stream.imfdevicetransform_processinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

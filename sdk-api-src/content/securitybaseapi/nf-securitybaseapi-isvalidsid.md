@@ -7,7 +7,7 @@ old-location: security\isvalidsid.htm
 tech.root: SecAuthZ
 ms.assetid: 0fb08512-90a1-4a5c-9b4c-121bf7701bba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IsValidSid, IsValidSid function [Security], _win32_isvalidsid, security.isvalidsid, securitybaseapi/IsValidSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

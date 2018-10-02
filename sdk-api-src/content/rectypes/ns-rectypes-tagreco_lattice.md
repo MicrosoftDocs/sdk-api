@@ -7,7 +7,7 @@ old-location: tablet\reco_lattice.htm
 tech.root: tablet
 ms.assetid: 0fab8928-1632-4011-9d1d-2be5f6c5f22d
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/27/2018
 ms.keywords: 0fab8928-1632-4011-9d1d-2be5f6c5f22d, RECO_LATTICE, RECO_LATTICE structure [Tablet PC], rectypes/RECO_LATTICE, tablet.reco_lattice, tagRECO_LATTICE
 ms.prod: windows
 ms.technology: windows-sdk

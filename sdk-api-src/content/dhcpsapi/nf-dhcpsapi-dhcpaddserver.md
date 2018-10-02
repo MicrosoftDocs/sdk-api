@@ -4,10 +4,10 @@ title: DhcpAddServer function
 author: windows-sdk-content
 description: The DhcpAddServer function attempts to add a new server to the existing list of DHCP servers maintained in the domain directory service. If the specified DHCP server already exists in the directory service, an error is returned.
 old-location: dhcp\dhcpaddserver.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: bdf5d239-478a-47af-9240-19d1b6933f7e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpAddServer, DhcpAddServer function [DHCP], dhcp.dhcpaddserver, dhcpsapi/DhcpAddServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

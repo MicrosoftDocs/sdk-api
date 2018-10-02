@@ -4,10 +4,10 @@ title: "_MI_ConstReferenceA"
 author: windows-sdk-content
 description: Represents an array of MI_Instance types.
 old-location: wmi_v2\mi_constreferencea.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 01709e23-1c12-402b-a369-3100deeb0092
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_ConstReferenceA, MI_ConstReferenceA structure [Windows Management Infrastructure (MI)], _MI_ConstReferenceA, mi/MI_ConstReferenceA, wmi._mi_constreferencea, wmi_v2.mi_constreferencea
 ms.prod: windows
 ms.technology: windows-sdk

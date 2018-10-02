@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvectorvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: 1d5dd378-d11b-3553-f1bc-769225c1c1c5, ID3D10EffectVectorVariable, ID3D10EffectVectorVariable interface [Direct3D 10], ID3D10EffectVectorVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectVectorVariable, direct3d10.id3d10effectvectorvariable
 ms.prod: windows
 ms.technology: windows-sdk

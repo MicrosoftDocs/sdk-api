@@ -7,7 +7,7 @@ old-location: stg\istream_seek.htm
 tech.root: Stg
 ms.assetid: ea087c6d-8854-4a81-b37b-15ab76630973
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IStream interface [Structured Storage],Seek method, IStream.Seek, IStream::Seek, Seek, Seek method [Structured Storage], Seek method [Structured Storage],IStream interface, _stg_istream_seek, objidl/IStream::Seek, stg.istream_seek
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: OpenEventLogA function
 author: windows-sdk-content
 description: Opens a handle to the specified event log.
 old-location: base\openeventlog.htm
-tech.root: eventlog
+tech.root: EventLog
 ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: OpenEventLog, OpenEventLog function, OpenEventLogA, OpenEventLogW, _win32_openeventlog, base.openeventlog, winbase/OpenEventLog, winbase/OpenEventLogA, winbase/OpenEventLogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

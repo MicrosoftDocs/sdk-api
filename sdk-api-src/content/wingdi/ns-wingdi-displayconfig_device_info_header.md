@@ -4,10 +4,10 @@ title: DISPLAYCONFIG_DEVICE_INFO_HEADER
 author: windows-sdk-content
 description: The DISPLAYCONFIG_DEVICE_INFO_HEADER structure contains display information about the device.
 old-location: display\displayconfig_device_info_header.htm
-tech.root: display
+tech.root: Display
 ms.assetid: 2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: CCD_Structures_b17380bb-3894-4832-bbe6-97c40607d366.xml, DISPLAYCONFIG_DEVICE_INFO_HEADER, DISPLAYCONFIG_DEVICE_INFO_HEADER structure [Display Devices], display.displayconfig_device_info_header, wingdi/DISPLAYCONFIG_DEVICE_INFO_HEADER
 ms.prod: windows
 ms.technology: windows-sdk

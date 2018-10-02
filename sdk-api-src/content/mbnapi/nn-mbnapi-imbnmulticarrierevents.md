@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrierevents.htm
 tech.root: mbn
 ms.assetid: F7CAF21B-F487-4F35-806B-312B5246C1B2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft Broadband Networks], IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrierevents, mbnapi/IMbnMultiCarrierEvents
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RegisterScaleChangeEvent function
 author: windows-sdk-content
 description: Registers for an event that is triggered when the scale has possibly changed. This function replaces RegisterScaleChangeNotifications.
 old-location: shell\RegisterScaleChangeEvent.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 05FAFC9B-DCB7-464A-9933-7166C7E53D40
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: RegisterScaleChangeEvent, RegisterScaleChangeEvent function [Windows Shell], shell.RegisterScaleChangeEvent, shellscalingapi/RegisterScaleChangeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

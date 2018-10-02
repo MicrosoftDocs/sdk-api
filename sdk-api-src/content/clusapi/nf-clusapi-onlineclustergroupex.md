@@ -4,10 +4,10 @@ title: OnlineClusterGroupEx function
 author: windows-sdk-content
 description: Brings a group online.
 old-location: mscs\onlineclustergroupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: F79E75E9-EB54-4C66-AB7C-98AF075718B1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_ONLINE_SYNCHRONOUS, OnlineClusterGroupEx, OnlineClusterGroupEx function [Failover Cluster], clusapi/OnlineClusterGroupEx, mscs.onlineclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices

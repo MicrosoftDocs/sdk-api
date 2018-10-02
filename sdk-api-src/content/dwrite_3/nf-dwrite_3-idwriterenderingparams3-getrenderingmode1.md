@@ -7,7 +7,7 @@ old-location: directwrite\idwriterenderingparams3_getrenderingmode1.htm
 tech.root: DirectWrite
 ms.assetid: 3C8CBE42-D7F5-4646-A1C4-1C9C8C4EBAD1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: GetRenderingMode1, GetRenderingMode1 method [Direct Write], GetRenderingMode1 method [Direct Write],IDWriteRenderingParams3 interface, IDWriteRenderingParams3 interface [Direct Write],GetRenderingMode1 method, IDWriteRenderingParams3.GetRenderingMode1, IDWriteRenderingParams3::GetRenderingMode1, directwrite.idwriterenderingparams3_getrenderingmode1, dwrite_3/IDWriteRenderingParams3::GetRenderingMode1
 ms.prod: windows-hardware
 ms.technology: windows-devices

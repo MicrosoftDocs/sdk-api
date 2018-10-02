@@ -4,10 +4,10 @@ title: LongPtrMult function
 author: windows-sdk-content
 description: Multiplies two values of type LONG_PTR.
 old-location: shell\LongPtrMult.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c2b86515-fe03-439a-bfe4-d92750b29279
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: LongPtrMult, LongPtrMult function [Windows Shell], intsafe/LongPtrMult, shell.LongPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

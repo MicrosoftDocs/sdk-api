@@ -7,7 +7,7 @@ old-location: sens\isenslogon_logon.htm
 tech.root: Sens
 ms.assetid: 76a811a2-70c4-4dda-99c0-1578e9402a3b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISensLogon interface [SENS],Logon method, ISensLogon.Logon, ISensLogon::Logon, Logon, Logon method [SENS], Logon method [SENS],ISensLogon interface, _zaw_isenslogon_logon, sens.isenslogon_logon, sensevts/ISensLogon::Logon, syncmgr.isenslogon_logon
 ms.prod: windows-hardware
 ms.technology: windows-devices

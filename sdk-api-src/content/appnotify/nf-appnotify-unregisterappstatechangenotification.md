@@ -4,10 +4,10 @@ title: UnregisterAppStateChangeNotification function
 author: windows-sdk-content
 description: Cancels a change notification registered through RegisterAppStateChangeNotification.
 old-location: shell\UnregisterAppStateChangeNotification.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 97D92C75-5C73-4DCF-BE65-2558A1101789
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: UnregisterAppStateChangeNotification, UnregisterAppStateChangeNotification function [Windows Shell], appnotify/UnregisterAppStateChangeNotification, shell.UnregisterAppStateChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

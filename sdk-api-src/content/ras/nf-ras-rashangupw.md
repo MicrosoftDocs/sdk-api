@@ -7,7 +7,7 @@ old-location: rras\rashangup.htm
 tech.root: RRAS
 ms.assetid: b5720ddf-c7ac-439e-97cb-62240122a775
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RasHangUp, RasHangUp function [RAS], RasHangUpA, RasHangUpW, _ras_rashangup, ras/RasHangUp, ras/RasHangUpA, ras/RasHangUpW, rras.rashangup
 ms.prod: windows-hardware
 ms.technology: windows-devices

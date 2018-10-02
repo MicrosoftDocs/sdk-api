@@ -2,13 +2,12 @@
 UID: NA:wcmconfig
 ms.assetid: 95ac423c-bf97-334b-a8ff-0e284ec817e7
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: smi
-archived: true
 ---
 
 # Wcmconfig.h header

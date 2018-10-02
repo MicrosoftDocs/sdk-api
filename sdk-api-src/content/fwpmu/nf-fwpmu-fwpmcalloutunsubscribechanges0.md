@@ -4,10 +4,10 @@ title: FwpmCalloutUnsubscribeChanges0 function
 author: windows-sdk-content
 description: Is used to cancel a callout change subscription and stop receiving change notifications.
 old-location: fwp\fwpmcalloutunsubscribechanges0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: ab0825fc-edf8-4634-a6bb-86de7e1e030c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: FwpmCalloutUnsubscribeChanges0, FwpmCalloutUnsubscribeChanges0 function [Filtering], fwp.fwpmcalloutunsubscribechanges0_func, fwpmu/FwpmCalloutUnsubscribeChanges0
 ms.prod: windows-hardware
 ms.technology: windows-devices

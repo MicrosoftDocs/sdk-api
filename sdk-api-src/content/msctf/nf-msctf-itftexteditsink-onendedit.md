@@ -7,7 +7,7 @@ old-location: tsf\itftexteditsink_onendedit.htm
 tech.root: TSF
 ms.assetid: 7763a879-a558-463d-837b-e38e6f84b9f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: ITfTextEditSink interface [Text Services Framework],OnEndEdit method, ITfTextEditSink.OnEndEdit, ITfTextEditSink::OnEndEdit, OnEndEdit, OnEndEdit method [Text Services Framework], OnEndEdit method [Text Services Framework],ITfTextEditSink interface, _tsf_itftexteditsink_onendedit_ref, msctf/ITfTextEditSink::OnEndEdit, tsf.itftexteditsink_onendedit
 ms.prod: windows-hardware
 ms.technology: windows-devices

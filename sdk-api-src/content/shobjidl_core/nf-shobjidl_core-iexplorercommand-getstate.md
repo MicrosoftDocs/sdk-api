@@ -4,10 +4,10 @@ title: IExplorerCommand::GetState
 author: windows-sdk-content
 description: Gets state information associated with a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetState.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: bb600cb5-9b7e-45dc-beca-0a913c214084
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetState, GetState method [Windows Shell], GetState method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetState method, IExplorerCommand.GetState, IExplorerCommand::GetState, _shell_IExplorerCommand_GetState, shell.IExplorerCommand_GetState, shobjidl_core/IExplorerCommand::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

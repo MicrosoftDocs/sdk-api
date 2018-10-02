@@ -4,10 +4,10 @@ title: IOperationsProgressDialog::UpdateProgress
 author: windows-sdk-content
 description: Updates the current progress dialog, as specified.
 old-location: shell\IOperationsProgressDialog_UpdateProgress.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 5ff2def3-f320-412c-8f98-bd1a58866d03
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],UpdateProgress method, IOperationsProgressDialog.UpdateProgress, IOperationsProgressDialog::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_UpdateProgress, shell.IOperationsProgressDialog_UpdateProgress, shobjidl_core/IOperationsProgressDialog::UpdateProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PDD_SURFCB_GETFLIPSTATUS
 author: windows-sdk-content
 description: The DdGetFlipStatus callback function determines whether the most recently requested flip on a surface has occurred.
 old-location: display\ddgetflipstatus.htm
-tech.root: display
+tech.root: Display
 ms.assetid: ec556891-e091-4c52-a155-cb6ba8011f71
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DdGetFlipStatus, DdGetFlipStatus callback function [Display Devices], PDD_SURFCB_GETFLIPSTATUS, PDD_SURFCB_GETFLIPSTATUS callback, ddfncs_129ef755-b85d-4f99-b62b-87124364c283.xml, ddrawint/DdGetFlipStatus, display.ddgetflipstatus
 ms.prod: windows
 ms.technology: windows-sdk

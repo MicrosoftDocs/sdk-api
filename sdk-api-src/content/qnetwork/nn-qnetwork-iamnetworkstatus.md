@@ -7,7 +7,7 @@ old-location: dshow\iamnetworkstatus.htm
 tech.root: DirectShow
 ms.assetid: 51d56b76-f9fc-44e1-88f0-d35d861a4697
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], IAMNetworkStatus interface [DirectShow],described, IAMNetworkStatusInterface, dshow.iamnetworkstatus, qnetwork/IAMNetworkStatus
 ms.prod: windows
 ms.technology: windows-sdk

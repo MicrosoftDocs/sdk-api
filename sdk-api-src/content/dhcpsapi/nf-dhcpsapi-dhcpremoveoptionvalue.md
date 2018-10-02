@@ -4,10 +4,10 @@ title: DhcpRemoveOptionValue function
 author: windows-sdk-content
 description: Removes the option value for a specific option on the DHCP4 server for the default user class and vendor class, for the specified scope.
 old-location: dhcp\dhcpremoveoptionvalue.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: e370760c-d392-4e2e-a95c-7213ce593f77
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpRemoveOptionValue, DhcpRemoveOptionValue function [DHCP], dhcp.dhcpremoveoptionvalue, dhcpsapi/DhcpRemoveOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

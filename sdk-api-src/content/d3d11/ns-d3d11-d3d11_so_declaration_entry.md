@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_so_declaration_entry.htm
 tech.root: direct3d11
 ms.assetid: c40e8db6-e26f-4c61-a812-f60eae43e86b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_SO_DECLARATION_ENTRY, D3D11_SO_DECLARATION_ENTRY structure [Direct3D 11], d3d11/D3D11_SO_DECLARATION_ENTRY, direct3d11.d3d11_so_declaration_entry, fdc7503f-19ea-e13f-ae4b-f27469123a78
 ms.prod: windows
 ms.technology: windows-sdk

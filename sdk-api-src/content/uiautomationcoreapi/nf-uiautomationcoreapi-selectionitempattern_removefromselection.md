@@ -7,7 +7,7 @@ old-location: winauto\uiauto_SelectionItemPattern_RemoveFromSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: 190e02a5-1ea9-44cc-a215-cabc700ec814
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: SelectionItemPattern_RemoveFromSelection, SelectionItemPattern_RemoveFromSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_RemoveFromSelectionConPat, uiauto_SelectionItemPattern_RemoveFromSelectionConPat, uiautomationcoreapi/SelectionItemPattern_RemoveFromSelection, winauto.uiauto_SelectionItemPattern_RemoveFromSelectionConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

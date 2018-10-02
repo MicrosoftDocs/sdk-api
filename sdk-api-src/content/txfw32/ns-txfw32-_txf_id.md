@@ -7,7 +7,7 @@ old-location: fs\txf_id.htm
 tech.root: fileio
 ms.assetid: b7bdb226-69ce-4226-b826-baf9c732ec52
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: "*PTXF_ID, PTXF_ID, PTXF_ID structure pointer [Files], TXF_ID, TXF_ID structure [Files], _TXF_ID, fs.txf_id, txfw32/PTXF_ID, txfw32/TXF_ID"
 ms.prod: windows
 ms.technology: windows-sdk

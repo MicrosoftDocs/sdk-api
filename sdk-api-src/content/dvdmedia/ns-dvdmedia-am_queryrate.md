@@ -7,7 +7,7 @@ old-location: dshow\am_queryrate.htm
 tech.root: DirectShow
 ms.assetid: a791f6ac-f415-4641-bac1-26db983a1ef7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.keywords: AM_QueryRate, AM_QueryRate structure [DirectShow], AM_QueryRateStructure, dshow.am_queryrate, dvdmedia/AM_QueryRate
 ms.prod: windows
 ms.technology: windows-sdk

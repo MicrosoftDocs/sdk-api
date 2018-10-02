@@ -4,10 +4,10 @@ title: RemoveDllDirectory function
 author: windows-sdk-content
 description: Removes a directory that was added to the process DLL search path by using AddDllDirectory.
 old-location: base\removedlldirectory.htm
-tech.root: dlls
+tech.root: Dlls
 ms.assetid: 89ab63be-f0db-4f0f-9792-6976d867524e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: RemoveDllDirectory, RemoveDllDirectory function, base.removedlldirectory, libloaderapi/RemoveDllDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

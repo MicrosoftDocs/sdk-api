@@ -4,10 +4,10 @@ title: PowerReadValueUnitsSpecifier function
 author: windows-sdk-content
 description: Reads the string used to describe the units of a power setting that supports a range of values.
 old-location: base\powerreadvalueunitsspecifier.htm
-tech.root: power
+tech.root: Power
 ms.assetid: 48ad80b7-f89a-4dad-a991-056ce41d6975
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadValueUnitsSpecifier, PowerReadValueUnitsSpecifier function, base.powerreadvalueunitsspecifier, powrprof/PowerReadValueUnitsSpecifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

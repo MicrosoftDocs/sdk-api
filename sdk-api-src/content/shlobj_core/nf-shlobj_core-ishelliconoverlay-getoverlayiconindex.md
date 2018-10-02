@@ -4,10 +4,10 @@ title: IShellIconOverlay::GetOverlayIconIndex
 author: windows-sdk-content
 description: Gets the index of the icon overlay in the system image list.
 old-location: shell\IShellIconOverlay_GetOverlayIconIndex.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: ae7c55a1-8540-44d3-9793-2d6ac849ef60
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: GetOverlayIconIndex, GetOverlayIconIndex method [Windows Shell], GetOverlayIconIndex method [Windows Shell],IShellIconOverlay interface, IShellIconOverlay interface [Windows Shell],GetOverlayIconIndex method, IShellIconOverlay.GetOverlayIconIndex, IShellIconOverlay::GetOverlayIconIndex, _win32_IShellIconOverlay_GetOverlayIconIndex, shell.IShellIconOverlay_GetOverlayIconIndex, shlobj_core/IShellIconOverlay::GetOverlayIconIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

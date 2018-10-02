@@ -4,10 +4,10 @@ title: IWSCProductList::get_Item
 author: windows-sdk-content
 description: Returns one of the types of providers on the computer.
 old-location: winprog\iwscproductlist_item.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 041F45EF-BE1E-4C37-9BD7-ED9F45587ADA
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Item method, IWSCProductList.get_Item, IWSCProductList::get_Item, get_Item, get_Item method [Windows API], get_Item method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Item, winprog.iwscproductlist_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

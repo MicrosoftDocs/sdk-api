@@ -4,10 +4,10 @@ title: PeerGroupConnect function
 author: windows-sdk-content
 description: The PeerGroupConnect function initiates a PNRP search for a peer group and attempts to connect to it. After this function is called successfully, a peer can communicate with other members of the peer group.
 old-location: p2p\peergroupconnect.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 240bcba7-29f9-4043-8203-e71175bee69a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: PeerGroupConnect, PeerGroupConnect function [Peer Networking], p2p.peergroupconnect, p2p/PeerGroupConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

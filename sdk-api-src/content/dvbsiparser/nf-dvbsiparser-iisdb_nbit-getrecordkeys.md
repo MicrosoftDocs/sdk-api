@@ -4,10 +4,10 @@ title: IISDB_NBIT::GetRecordKeys
 author: windows-sdk-content
 description: Gets the number_of_keys field from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordkeys.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c8f58c17-b3b1-4fc8-b6e0-2ab23681280d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetRecordKeys, GetRecordKeys method [Microsoft TV Technologies], GetRecordKeys method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordKeys method, IISDB_NBIT.GetRecordKeys, IISDB_NBIT::GetRecordKeys, dvbsiparser/IISDB_NBIT::GetRecordKeys, mstv.iisdb_nbit_getrecordkeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

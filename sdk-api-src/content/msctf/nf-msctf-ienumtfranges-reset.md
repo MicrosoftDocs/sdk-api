@@ -7,7 +7,7 @@ old-location: tsf\ienumtfranges_reset.htm
 tech.root: TSF
 ms.assetid: c7f8ea8d-5627-4dc1-ab22-a9e14f536520
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Reset method, IEnumTfRanges.Reset, IEnumTfRanges::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_reset_ref, msctf/IEnumTfRanges::Reset, tsf.ienumtfranges_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

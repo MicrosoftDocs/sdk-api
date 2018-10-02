@@ -4,10 +4,10 @@ title: IDot11AdHocManagerNotificationSink::OnNetworkRemove
 author: windows-sdk-content
 description: Notifies the client that a wireless ad hoc network destination is no longer available for connection.
 old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkremove.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 9f325b86-3aff-4344-a154-86b74a922372
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkRemove method, IDot11AdHocManagerNotificationSink.OnNetworkRemove, IDot11AdHocManagerNotificationSink::OnNetworkRemove, OnNetworkRemove, OnNetworkRemove method [NativeWIFI], OnNetworkRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkRemove, nwifi.idot11adhocmanagernotificationsink_onnetworkremove
 ms.prod: windows-hardware
 ms.technology: windows-devices

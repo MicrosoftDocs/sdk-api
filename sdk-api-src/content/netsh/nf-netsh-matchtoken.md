@@ -4,10 +4,10 @@ title: MatchToken function
 author: windows-sdk-content
 description: Determines whether a user-entered string matches a specific string.
 old-location: netshell\matchtoken.htm
-tech.root: netshell
+tech.root: NetShell
 ms.assetid: d6389d2e-1987-4ea6-967c-260686659852
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: MatchToken, MatchToken function [NetShell], _netsh_matchtoken, netsh/MatchToken, netshell.matchtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

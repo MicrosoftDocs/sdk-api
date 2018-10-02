@@ -4,10 +4,10 @@ title: IMSVidCtl::put_Enabled
 author: windows-sdk-content
 description: The put_Enabled method specifies a value that determines whether the Video Control can respond to user-generated events.
 old-location: mstv\imsvidctl_put_enabled.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 366164ac-1514-46d6-870a-388706b8de75
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_Enabled method, IMSVidCtl.put_Enabled, IMSVidCtl::put_Enabled, IMSVidCtlput_Enabled, mstv.imsvidctl_put_enabled, msvidctl/IMSVidCtl::put_Enabled, put_Enabled, put_Enabled method [Microsoft TV Technologies], put_Enabled method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

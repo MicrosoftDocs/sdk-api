@@ -4,10 +4,10 @@ title: ITsSbClientConnection
 author: windows-sdk-content
 description: Exposes methods and properties that store state information about an incoming connection request from a Remote Desktop Connection (RDC) client.
 old-location: termserv\itssbclientconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 6649f43d-0e2a-42d7-8111-862bb28e3dbc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], ITsSbClientConnection interface [Remote Desktop Services],described, sbtsv/ITsSbClientConnection, termserv.itssbclientconnection
 ms.prod: windows
 ms.technology: windows-sdk

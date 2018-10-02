@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidebug_reportliveobjects.htm
 tech.root: direct3ddxgi
 ms.assetid: 6CA5C335-08E3-4CC6-A9C9-D7BC6B11C0EA
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: IDXGIDebug interface [DXGI],ReportLiveObjects method, IDXGIDebug.ReportLiveObjects, IDXGIDebug::ReportLiveObjects, ReportLiveObjects, ReportLiveObjects method [DXGI], ReportLiveObjects method [DXGI],IDXGIDebug interface, direct3ddxgi.idxgidebug_reportliveobjects, dxgidebug/IDXGIDebug::ReportLiveObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

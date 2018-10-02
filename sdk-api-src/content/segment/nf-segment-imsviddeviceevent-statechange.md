@@ -4,10 +4,10 @@ title: IMSVidDeviceEvent::StateChange
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsviddeviceevent_statechange.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0f7a5e37-5a0d-415e-aca0-df5f9448b017
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange method, IMSVidDeviceEvent.StateChange, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies],IMSVidDeviceEvent interface, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

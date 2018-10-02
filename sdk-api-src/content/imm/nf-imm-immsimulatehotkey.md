@@ -7,7 +7,7 @@ old-location: intl\immsimulatehotkey.htm
 tech.root: Intl
 ms.assetid: 24d5dd3c-01bd-4665-ad45-9f93edb212b3
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/28/2018
 ms.keywords: ImmSimulateHotKey, ImmSimulateHotKey function [Internationalization for Windows Applications], _win32_ImmSimulateHotKey, imm/ImmSimulateHotKey, intl.immsimulatehotkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

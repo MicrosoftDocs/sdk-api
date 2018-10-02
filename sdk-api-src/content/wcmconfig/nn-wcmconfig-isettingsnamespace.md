@@ -7,7 +7,7 @@ old-location: smi\isettingsnamespace.htm
 tech.root: SMI
 ms.assetid: a5d7b9ff-eb6f-40be-b246-17189cad92be
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], ISettingsNamespace interface [SMI],described, smi.isettingsnamespace, wcmconfig/ISettingsNamespace
 ms.prod: windows
 ms.technology: windows-sdk

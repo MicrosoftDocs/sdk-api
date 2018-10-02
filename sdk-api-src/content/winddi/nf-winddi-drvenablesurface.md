@@ -4,10 +4,10 @@ title: DrvEnableSurface function
 author: windows-sdk-content
 description: The DrvEnableSurface function sets up a surface to be drawn on and associates it with a given physical device.
 old-location: display\drvenablesurface.htm
-tech.root: display
+tech.root: Display
 ms.assetid: a838a44a-243c-4d0d-bda3-eec9a626cb53
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvEnableSurface, DrvEnableSurface function [Display Devices], ddifncs_c0044970-ac75-4dae-af55-f6fd87079dbb.xml, display.drvenablesurface, winddi/DrvEnableSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

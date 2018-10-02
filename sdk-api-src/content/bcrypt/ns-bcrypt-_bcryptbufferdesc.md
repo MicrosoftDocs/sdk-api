@@ -7,7 +7,7 @@ old-location: security\ncryptbufferdesc_struct.htm
 tech.root: SecCNG
 ms.assetid: ae4673ab-81cd-4604-bafa-8d8c66003aba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PBCryptBufferDesc, BCryptBufferDesc, NCRYPTBUFFER_VERSION, NCryptBufferDesc, NCryptBufferDesc structure [Security], PNCryptBufferDesc, PNCryptBufferDesc structure pointer [Security], _BCryptBufferDesc, bcrypt/NCryptBufferDesc, bcrypt/PNCryptBufferDesc, security.ncryptbufferdesc_struct"
 ms.prod: windows
 ms.technology: windows-sdk

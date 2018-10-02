@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getpowersource.htm
 tech.root: WMDM
 ms.assetid: 476e25cf-de18-4039-994c-570fa423821f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: GetPowerSource, GetPowerSource method [windows Media Device Manager], GetPowerSource method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetPowerSource method, IMDSPDevice.GetPowerSource, IMDSPDevice::GetPowerSource, IMDSPDeviceGetPowerSource, mswmdm/IMDSPDevice::GetPowerSource, wmdm.imdspdevice_getpowersource
 ms.prod: windows-hardware
 ms.technology: windows-devices

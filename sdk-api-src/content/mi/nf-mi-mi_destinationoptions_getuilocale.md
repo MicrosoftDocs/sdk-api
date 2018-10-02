@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetUILocale function
 author: windows-sdk-content
 description: Gets the user interface locale set by the user.
 old-location: wmi_v2\mi_destinationoptions_getuilocale.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: c05104c8-ecf7-447c-9cea-25a26b82bc69
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/27/2018
 ms.keywords: MI_DestinationOptions_GetUILocale, MI_DestinationOptions_GetUILocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetUILocale, wmi_v2.mi_destinationoptions_getuilocale
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: tagCountedString
 author: windows-sdk-content
 description: Defines a null-terminated string with a defined length.
 old-location: nap\countedstring_struct.htm
-tech.root: nap
+tech.root: NAP
 ms.assetid: 92261dd3-504d-4a4b-b6fa-86f4f97a0df0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: CountedString, CountedString structure [NAP], StringCorrelationId, nap.countedstring_struct, naptypes/CountedString, tagCountedString
 ms.prod: windows
 ms.technology: windows-sdk

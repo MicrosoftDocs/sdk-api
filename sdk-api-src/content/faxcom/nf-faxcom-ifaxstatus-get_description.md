@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_description_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5goe.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 09/26/2018
 ms.keywords: Description property [Fax Service], Description property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],Description property, IFaxStatus.Description, IFaxStatus.get_Description, IFaxStatus::Description, IFaxStatus::get_Description, _mfax_ifaxstatus_get_description, fax._mfax_ifaxstatus_get_description, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_description_cpp, faxcom/IFaxStatus::Description, faxcom/IFaxStatus::get_Description, get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

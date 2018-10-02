@@ -7,7 +7,7 @@ old-location: base\regdisablepredefinedcacheex.htm
 tech.root: SysInfo
 ms.assetid: a56cf7d9-0ac4-4719-af41-3c0cdcef6faf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RegDisablePredefinedCacheEx, RegDisablePredefinedCacheEx function, base.regdisablepredefinedcacheex, winreg/RegDisablePredefinedCacheEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

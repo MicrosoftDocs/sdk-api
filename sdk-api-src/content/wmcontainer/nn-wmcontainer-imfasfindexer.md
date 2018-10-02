@@ -4,10 +4,10 @@ title: IMFASFIndexer
 author: windows-sdk-content
 description: Provides methods to work with indexes in Systems Format (ASF) files.
 old-location: mf\imfasfindexer.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: 93127fe4-bca9-4674-ae21-012367d7dd2f
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: 93127fe4-bca9-4674-ae21-012367d7dd2f, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], IMFASFIndexer interface [Media Foundation],described, mf.imfasfindexer, wmcontainer/IMFASFIndexer
 ms.prod: windows
 ms.technology: windows-sdk

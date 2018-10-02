@@ -4,10 +4,10 @@ title: "_CMINVOKECOMMANDINFO"
 author: windows-sdk-content
 description: Contains information needed by IContextMenu::InvokeCommand to invoke a shortcut menu command.
 old-location: shell\CMINVOKECOMMANDINFO.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 1da79d98-5a2f-4c43-aab2-8ae7c3b345b2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: "*LPCMINVOKECOMMANDINFO, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_SHIFT_DOWN, CMINVOKECOMMANDINFO, CMINVOKECOMMANDINFO structure [Windows Shell], PCCMINVOKECOMMANDINFO, PCCMINVOKECOMMANDINFO structure pointer [Windows Shell], _CMINVOKECOMMANDINFO, _win32_CMINVOKECOMMANDINFO, shell.CMINVOKECOMMANDINFO, shobjidl_core/CMINVOKECOMMANDINFO, shobjidl_core/PCCMINVOKECOMMANDINFO"
 ms.prod: windows
 ms.technology: windows-sdk

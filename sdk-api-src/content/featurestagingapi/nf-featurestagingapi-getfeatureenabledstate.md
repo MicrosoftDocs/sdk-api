@@ -4,10 +4,10 @@ title: GetFeatureEnabledState function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\getfeatureenabledstate.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 10/01/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

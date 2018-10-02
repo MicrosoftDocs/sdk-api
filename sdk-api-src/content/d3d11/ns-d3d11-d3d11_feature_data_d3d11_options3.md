@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_d3d11_options3.htm
 tech.root: direct3d11
 ms.assetid: A8F9AAF5-F1C6-476D-AF14-5BCDEEDAF810
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS3, D3D11_FEATURE_DATA_D3D11_OPTIONS3 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS3, direct3d11.d3d11_feature_data_d3d11_options3
 ms.prod: windows
 ms.technology: windows-sdk

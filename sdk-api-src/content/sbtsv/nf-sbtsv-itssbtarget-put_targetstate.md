@@ -4,10 +4,10 @@ title: ITsSbTarget::put_TargetState
 author: windows-sdk-content
 description: Retrieves or specifies the target state.
 old-location: termserv\itssbtarget_targetstate.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 0913e997-d3f0-44a3-977f-eb760489c43b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetState property, ITsSbTarget.TargetState, ITsSbTarget.put_TargetState, ITsSbTarget::TargetState, ITsSbTarget::get_TargetState, ITsSbTarget::put_TargetState, ITsSbTargetEx interface [Remote Desktop Services],TargetState property, ITsSbTargetEx.TargetState, ITsSbTargetEx::get_TargetState, ITsSbTargetEx::put_TargetState, TargetState property [Remote Desktop Services], TargetState property [Remote Desktop Services],ITsSbTarget interface, TargetState property [Remote Desktop Services],ITsSbTargetEx interface, put_TargetState, sbtsv/ITsSbTarget::TargetState, sbtsv/ITsSbTarget::get_TargetState, sbtsv/ITsSbTarget::put_TargetState, sbtsv/ITsSbTargetEx::TargetState, sbtsv/ITsSbTargetEx::get_TargetState, sbtsv/ITsSbTargetEx::put_TargetState, termserv.itssbtarget_targetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

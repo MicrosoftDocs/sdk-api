@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_filter_type.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_FILTER_TYPE
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: BandPassFilter, HighPassFilter, HighPassOnePoleFilter, LowPassFilter, LowPassOnePoleFilter, NotchFilter, XAUDIO2_FILTER_TYPE, XAUDIO2_FILTER_TYPE enumeration [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_filter_type, xaudio2/BandPassFilter, xaudio2/HighPassFilter, xaudio2/HighPassOnePoleFilter, xaudio2/LowPassFilter, xaudio2/LowPassOnePoleFilter, xaudio2/NotchFilter, xaudio2/XAUDIO2_FILTER_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DS_REPL_ATTR_VALUE_META_DATA_EXT"
 author: windows-sdk-content
 description: Provides metadata for a collection of attribute replication values.
 old-location: ad\ds_repl_attr_value_meta_data_ext.htm
-tech.root: ad
+tech.root: AD
 ms.assetid: CA41C6BF-A485-4AC7-B761-3A07159C2FF1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DS_REPL_ATTR_VALUE_META_DATA_EXT, DS_REPL_ATTR_VALUE_META_DATA_EXT structure [Active Directory], _DS_REPL_ATTR_VALUE_META_DATA_EXT, ad.ds_repl_attr_value_meta_data_ext, ntdsapi/DS_REPL_ATTR_VALUE_META_DATA_EXT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_MMC_ACTION_TYPE"
 author: windows-sdk-content
 description: The MMC_ACTION_TYPE enumeration is introduced in MMC 1.1.
 old-location: mmc\mmc_action_type.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 08d9929a-ca55-4f71-8e9f-411e01e363d6
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/26/2018
 ms.keywords: MMC_ACTION_ID, MMC_ACTION_LINK, MMC_ACTION_SCRIPT, MMC_ACTION_TYPE, MMC_ACTION_TYPE enumeration [MMC], MMC_ACTION_UNINITIALIZED, _MMC_ACTION_TYPE, _slate_mmc_action_type, mmc.mmc_action_type, mmc/MMC_ACTION_ID, mmc/MMC_ACTION_LINK, mmc/MMC_ACTION_SCRIPT, mmc/MMC_ACTION_TYPE, mmc/MMC_ACTION_UNINITIALIZED
 ms.prod: windows
 ms.technology: windows-sdk

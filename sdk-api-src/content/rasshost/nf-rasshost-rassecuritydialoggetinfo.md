@@ -7,7 +7,7 @@ old-location: rras\rassecuritydialoggetinfo.htm
 tech.root: RRAS
 ms.assetid: b7fbcfb6-686c-4464-ba78-e689019e74be
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RasSecurityDialogGetInfo, RasSecurityDialogGetInfo function [RAS], _ras_rassecuritydialoggetinfo, rasshost/RasSecurityDialogGetInfo, rras.rassecuritydialoggetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\getlongpathname.htm
 tech.root: fileio
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/28/2018
 ms.keywords: GetLongPathName, GetLongPathName function [Files], GetLongPathNameA, GetLongPathNameW, _win32_getlongpathname, base.getlongpathname, fileapi/GetLongPathName, fileapi/GetLongPathNameA, fileapi/GetLongPathNameW, fs.getlongpathname, winbase/GetLongPathName, winbase/GetLongPathNameA, winbase/GetLongPathNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\adsbuildvararraystr.htm
 tech.root: ADSI
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/26/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
 ms.prod: windows-hardware
 ms.technology: windows-devices

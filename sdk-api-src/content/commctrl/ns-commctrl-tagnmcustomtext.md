@@ -7,7 +7,7 @@ old-location: controls\NMCUSTOMTEXT.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmcustomtext.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 10/01/2018
 ms.keywords: "*LPNMCUSTOMTEXT, LPNMCUSTOMTEXT, LPNMCUSTOMTEXT structure pointer [Windows Controls], NMCUSTOMTEXT, NMCUSTOMTEXT structure [Windows Controls], _shell_NMCUSTOMTEXT, _shell_NMCUSTOMTEXT_cpp, commctrl/LPNMCUSTOMTEXT, commctrl/NMCUSTOMTEXT, controls.NMCUSTOMTEXT, controls._shell_NMCUSTOMTEXT, tagNMCUSTOMTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

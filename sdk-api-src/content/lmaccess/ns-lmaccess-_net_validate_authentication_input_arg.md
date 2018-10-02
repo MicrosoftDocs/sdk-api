@@ -4,10 +4,10 @@ title: "_NET_VALIDATE_AUTHENTICATION_INPUT_ARG"
 author: windows-sdk-content
 description: A client application passes the NET_VALIDATE_AUTHENTICATION_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests an authentication validation.
 old-location: netmgmt\net_validate_authentication_input_arg.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: b7466e8a-81d8-4552-adff-47fc2f3ed3ad
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: "*PNET_VALIDATE_AUTHENTICATION_INPUT_ARG, NET_VALIDATE_AUTHENTICATION_INPUT_ARG, NET_VALIDATE_AUTHENTICATION_INPUT_ARG structure [Network Management], PNET_VALIDATE_AUTHENTICATION_INPUT_ARG, PNET_VALIDATE_AUTHENTICATION_INPUT_ARG structure pointer [Network Management], _NET_VALIDATE_AUTHENTICATION_INPUT_ARG, lmaccess/NET_VALIDATE_AUTHENTICATION_INPUT_ARG, lmaccess/PNET_VALIDATE_AUTHENTICATION_INPUT_ARG, netmgmt.net_validate_authentication_input_arg"
 ms.prod: windows
 ms.technology: windows-sdk

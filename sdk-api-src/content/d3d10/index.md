@@ -2,7 +2,7 @@
 UID: NA:d3d10
 ms.assetid: 0e839bab-bc29-3652-bfbd-9c066b00ce86
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_msp_0000_0000_0002"
 author: windows-sdk-content
 description: The MSP_CALL_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
 old-location: tapi3\msp_call_event.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: c1bbc75e-04ad-4db4-9730-abbbf89306dd
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 09/27/2018
 ms.keywords: CALL_NEW_STREAM, CALL_STREAM_ACTIVE, CALL_STREAM_FAIL, CALL_STREAM_INACTIVE, CALL_STREAM_NOT_USED, CALL_TERMINAL_FAIL, MSP_CALL_EVENT, MSP_CALL_EVENT enumeration [TAPI 2.2], __MIDL___MIDL_itf_msp_0000_0000_0002, _tapi3_msp_call_event, msp/CALL_NEW_STREAM, msp/CALL_STREAM_ACTIVE, msp/CALL_STREAM_FAIL, msp/CALL_STREAM_INACTIVE, msp/CALL_STREAM_NOT_USED, msp/CALL_TERMINAL_FAIL, msp/MSP_CALL_EVENT, tapi3.msp_call_event
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PATHOBJ_vEnumStart function
 author: windows-sdk-content
 description: The PATHOBJ_vEnumStart function notifies a given PATHOBJ structure that the driver will be calling PATHOBJ_bEnum to enumerate lines and/or curves in the path.
 old-location: display\pathobj_venumstart.htm
-tech.root: display
+tech.root: Display
 ms.assetid: b83e6f87-be79-4743-bc52-b9310853c4f5
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: PATHOBJ_vEnumStart, PATHOBJ_vEnumStart function [Display Devices], display.pathobj_venumstart, gdifncs_93ed4330-ebfd-4ba1-b095-99beb3146452.xml, winddi/PATHOBJ_vEnumStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

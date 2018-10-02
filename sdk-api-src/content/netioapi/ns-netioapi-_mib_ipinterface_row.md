@@ -4,10 +4,10 @@ title: "_MIB_IPINTERFACE_ROW"
 author: windows-sdk-content
 description: Stores interface management information for a particular IP address family on a network interface.
 old-location: mib\mib_ipinterface_row.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: 28265037-f7a3-40a4-b386-20f43f32a8b3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/26/2018
 ms.keywords: "*PMIB_IPINTERFACE_ROW, AF_INET, AF_INET6, AF_UNSPEC, LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, MIB_IPINTERFACE_ROW, MIB_IPINTERFACE_ROW structure [MIB], PMIB_IPINTERFACE_ROW, PMIB_IPINTERFACE_ROW structure pointer [MIB], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _MIB_IPINTERFACE_ROW, mib.mib_ipinterface_row, netioapi/MIB_IPINTERFACE_ROW, netioapi/PMIB_IPINTERFACE_ROW"
 ms.prod: windows
 ms.technology: windows-sdk

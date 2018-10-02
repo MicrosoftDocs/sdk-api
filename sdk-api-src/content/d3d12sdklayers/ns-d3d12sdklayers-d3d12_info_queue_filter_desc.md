@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_info_queue_filter_desc.htm
 tech.root: direct3d12
 ms.assetid: 079494EC-3FC3-490D-B2BC-0FBD976ECC97
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_INFO_QUEUE_FILTER_DESC, D3D12_INFO_QUEUE_FILTER_DESC structure, d3d12sdklayers/D3D12_INFO_QUEUE_FILTER_DESC, direct3d12.d3d12_info_queue_filter_desc
 ms.prod: windows
 ms.technology: windows-sdk

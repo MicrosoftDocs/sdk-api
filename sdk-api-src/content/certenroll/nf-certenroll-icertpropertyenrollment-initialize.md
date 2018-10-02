@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollment_initialize_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 47e9b11f-3f23-4e2f-817a-4b6311e3d710
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],Initialize method, ICertPropertyEnrollment.Initialize, ICertPropertyEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::Initialize, security.icertpropertyenrollment_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_uniquecontainername_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 93da413f-556d-4cda-8628-ce4a2150da19
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IX509PrivateKey interface [Security],UniqueContainerName property, IX509PrivateKey.UniqueContainerName, IX509PrivateKey.get_UniqueContainerName, IX509PrivateKey::UniqueContainerName, IX509PrivateKey::get_UniqueContainerName, UniqueContainerName property [Security], UniqueContainerName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::UniqueContainerName, certenroll/IX509PrivateKey::get_UniqueContainerName, get_UniqueContainerName, security.ix509privatekey_uniquecontainername_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

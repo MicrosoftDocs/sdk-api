@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_query_data_so_statistics.htm
 tech.root: direct3d12
 ms.assetid: 7A71F6DA-AAC2-4070-90E9-F91F090AD1A1
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.keywords: D3D12_QUERY_DATA_SO_STATISTICS, D3D12_QUERY_DATA_SO_STATISTICS structure, d3d12/D3D12_QUERY_DATA_SO_STATISTICS, direct3d12.d3d12_query_data_so_statistics
 ms.prod: windows
 ms.technology: windows-sdk

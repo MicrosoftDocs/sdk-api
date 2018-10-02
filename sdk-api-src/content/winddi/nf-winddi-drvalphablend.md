@@ -4,10 +4,10 @@ title: DrvAlphaBlend function
 author: windows-sdk-content
 description: The DrvAlphaBlend function provides bit-block transfer capabilities with alpha blending.
 old-location: display\drvalphablend.htm
-tech.root: display
+tech.root: Display
 ms.assetid: fff3df30-cb29-4da3-97bc-dba5fbba1db5
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/26/2018
 ms.keywords: DrvAlphaBlend, DrvAlphaBlend function [Display Devices], ddifncs_fc2d104a-d161-4f43-af15-ad088b5a2d3f.xml, display.drvalphablend, winddi/DrvAlphaBlend
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\avimakestreamfromclipboard.htm
 tech.root: Multimedia
 ms.assetid: e41f4ef2-bb57-4a92-b382-7faa106d2aa0
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 09/26/2018
 ms.keywords: AVIMakeStreamFromClipboard, AVIMakeStreamFromClipboard function [Windows Multimedia], _win32_AVIMakeStreamFromClipboard, multimedia.avimakestreamfromclipboard, vfw/AVIMakeStreamFromClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

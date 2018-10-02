@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_font_metrics1.htm
 tech.root: DirectWrite
 ms.assetid: F06033F4-2312-48C2-AF70-BDB83700B4E0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/26/2018
 ms.keywords: DWRITE_FONT_METRICS1, DWRITE_FONT_METRICS1 structure [Direct Write], directwrite.dwrite_font_metrics1, dwrite_1/DWRITE_FONT_METRICS1
 ms.prod: windows
 ms.technology: windows-sdk

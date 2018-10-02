@@ -4,10 +4,10 @@ title: MFP_GET_RATE_SET_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_RATE_SET_EVENT pointer.
 old-location: mf\mfp_get_rate_set_event.htm
-tech.root: medfound
+tech.root: MedFound
 ms.assetid: c23436a7-6206-47fc-bd8e-4b8df31b26d9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/27/2018
 ms.keywords: MFP_GET_RATE_SET_EVENT, MFP_GET_RATE_SET_EVENT macro [Media Foundation], mf.mfp_get_rate_set_event, mfplay/MFP_GET_RATE_SET_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

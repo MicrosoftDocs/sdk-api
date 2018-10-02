@@ -4,10 +4,10 @@ title: INameSpaceTreeControl::HitTest
 author: windows-sdk-content
 description: Retrieves the item that a given point is in, if any.
 old-location: shell\INameSpaceTreeControl_HitTest.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 2287772d-2c06-4d4b-a11e-727dd5de5326
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: HitTest, HitTest method [Windows Shell], HitTest method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],HitTest method, INameSpaceTreeControl.HitTest, INameSpaceTreeControl::HitTest, _shell_INameSpaceTreeControl_HitTest, shell.INameSpaceTreeControl_HitTest, shobjidl_core/INameSpaceTreeControl::HitTest
 ms.prod: windows-hardware
 ms.technology: windows-devices

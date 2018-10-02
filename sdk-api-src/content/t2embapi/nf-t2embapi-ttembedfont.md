@@ -7,7 +7,7 @@ old-location: gdi\ttembedfont.htm
 tech.root: gdi
 ms.assetid: 32f1df87-b742-4b5a-8c61-07e758c7660b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFont, TTEmbedFont function [Windows GDI], _win32_TTEmbedFont, gdi.ttembedfont, t2embapi/TTEmbedFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

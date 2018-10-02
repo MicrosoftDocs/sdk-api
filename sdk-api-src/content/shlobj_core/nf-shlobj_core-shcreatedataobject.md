@@ -4,10 +4,10 @@ title: SHCreateDataObject function
 author: windows-sdk-content
 description: Creates a data object in a parent folder.
 old-location: shell\SHCreateDataObject.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: d56cdafe-9463-43a5-8ef0-6cfaf0c524a8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHCreateDataObject, SHCreateDataObject function [Windows Shell], _shell_SHCreateDataObject, shell.SHCreateDataObject, shlobj_core/SHCreateDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IpReleaseAddress function
 author: windows-sdk-content
 description: The IpReleaseAddress function releases an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP).
 old-location: iphlp\ipreleaseaddress.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: d937ea44-1ca3-49e0-913d-fb77888d05fc
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: IpReleaseAddress, IpReleaseAddress function [IP Helper], _iphlp_ipreleaseaddress, iphlp.ipreleaseaddress, iphlpapi/IpReleaseAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

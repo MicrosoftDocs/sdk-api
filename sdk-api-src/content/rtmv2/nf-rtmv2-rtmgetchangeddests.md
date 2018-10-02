@@ -7,7 +7,7 @@ old-location: rras\rtmgetchangeddests.htm
 tech.root: RRAS
 ms.assetid: 2b22927d-a857-4bcb-9d89-6ca156b04ea9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: RtmGetChangedDests, RtmGetChangedDests function [RAS], _rtmv2ref_rtmgetchangeddests, rras.rtmgetchangeddests, rtmv2/RtmGetChangedDests
 ms.prod: windows-hardware
 ms.technology: windows-devices

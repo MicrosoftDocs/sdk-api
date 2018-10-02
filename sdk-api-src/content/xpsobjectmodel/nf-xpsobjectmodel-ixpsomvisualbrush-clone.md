@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualbrush_clone.htm
 tech.root: printdocs
 ms.assetid: c3341566-6b35-4ed9-9db8-d5493656755e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],Clone method, IXpsOMVisualBrush.Clone, IXpsOMVisualBrush::Clone, xps.ixpsomvisualbrush_clone, xpsobjectmodel/IXpsOMVisualBrush::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

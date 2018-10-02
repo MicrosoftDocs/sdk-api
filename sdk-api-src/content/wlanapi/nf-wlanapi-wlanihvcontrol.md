@@ -4,10 +4,10 @@ title: WlanIhvControl function
 author: windows-sdk-content
 description: Provides a mechanism for independent hardware vendor (IHV) control of WLAN drivers or services.
 old-location: nwifi\wlanihvcontrol.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 3fc32119-0f92-4939-8125-812f45584d45
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanIhvControl, WlanIhvControl function [NativeWIFI], nwifi.wlanihvcontrol, wlanapi/WlanIhvControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

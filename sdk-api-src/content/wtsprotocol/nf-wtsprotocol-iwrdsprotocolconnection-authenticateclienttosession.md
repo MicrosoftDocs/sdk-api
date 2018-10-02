@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::AuthenticateClientToSession
 author: windows-sdk-content
 description: Specifies a session that the connection should be reconnected to.
 old-location: termserv\iwrdsprotocolconnection_authenticateclienttosession.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 314f1ae8-5b2d-4c95-bb2d-0d9288d38934
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: AuthenticateClientToSession, AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],AuthenticateClientToSession method, IWRdsProtocolConnection.AuthenticateClientToSession, IWRdsProtocolConnection::AuthenticateClientToSession, termserv.iwrdsprotocolconnection_authenticateclienttosession, wtsprotocol/IWRdsProtocolConnection::AuthenticateClientToSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

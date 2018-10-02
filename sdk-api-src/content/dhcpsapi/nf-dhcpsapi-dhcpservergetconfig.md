@@ -4,10 +4,10 @@ title: DhcpServerGetConfig function
 author: windows-sdk-content
 description: Returns the specific configuration settings of a DHCP server.
 old-location: dhcp\dhcpservergetconfig.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 79fa7f78-35ae-4f40-bf3d-3c8f6f323776
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DhcpServerGetConfig, DhcpServerGetConfig function [DHCP], dhcp.dhcpservergetconfig, dhcpsapi/DhcpServerGetConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

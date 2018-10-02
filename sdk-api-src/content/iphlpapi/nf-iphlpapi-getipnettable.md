@@ -4,10 +4,10 @@ title: GetIpNetTable function
 author: windows-sdk-content
 description: The GetIpNetTable function retrieves the IPv4 to physical address mapping table.
 old-location: iphlp\getipnettable.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 01bcf86e-5fcc-4ce9-bb89-02d393e75d1d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 09/26/2018
 ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

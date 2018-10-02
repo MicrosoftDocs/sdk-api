@@ -4,10 +4,10 @@ title: WlanHostedNetworkForceStop function
 author: windows-sdk-content
 description: Transitions the wireless Hosted Network to the wlan_hosted_network_idle without associating the request with the application's calling handle.
 old-location: nwifi\wlanhostednetworkforcestop.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: abcfc33d-0310-46d2-a543-5c9529c2b851
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: WlanHostedNetworkForceStop, WlanHostedNetworkForceStop function [NativeWIFI], nwifi.wlanhostednetworkforcestop, wlanapi/WlanHostedNetworkForceStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

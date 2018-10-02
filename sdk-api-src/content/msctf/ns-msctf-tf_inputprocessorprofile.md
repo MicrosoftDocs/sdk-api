@@ -7,7 +7,7 @@ old-location: tsf\tf_inputprocessorprofile.htm
 tech.root: TSF
 ms.assetid: fecaf8f5-1323-4a2e-94ee-26b5712ed643
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/27/2018
 ms.keywords: TF_INPUTPROCESSORPROFILE, TF_INPUTPROCESSORPROFILE structure [Text Services Framework], _tsf_tf_inputprocessorprofile_ref, msctf/TF_INPUTPROCESSORPROFILE, tsf.tf_inputprocessorprofile
 ms.prod: windows
 ms.technology: windows-sdk

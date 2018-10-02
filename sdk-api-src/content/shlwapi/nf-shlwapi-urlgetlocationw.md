@@ -4,10 +4,10 @@ title: UrlGetLocationW function
 author: windows-sdk-content
 description: Retrieves the location from a URL.
 old-location: shell\UrlGetLocation.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: e75bde92-2ca0-4d34-a276-50b4eeceda1c
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: UrlGetLocation, UrlGetLocation function [Windows Shell], UrlGetLocationA, UrlGetLocationW, _win32_UrlGetLocation, shell.UrlGetLocation, shlwapi/UrlGetLocation, shlwapi/UrlGetLocationA, shlwapi/UrlGetLocationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DrtDeleteIpv6UdpTransport function
 author: windows-sdk-content
 description: DrtDeleteIpv6UdpTransport function deletes a transport based on the IPv6 UDP protocol.
 old-location: p2p\drtdeleteipv6udptransport.htm
-tech.root: p2psdk
+tech.root: P2PSdk
 ms.assetid: 9b078f63-36b1-448b-b0c2-d452699157d8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/26/2018
 ms.keywords: DrtDeleteIpv6UdpTransport, DrtDeleteIpv6UdpTransport function [Peer Networking], drt/DrtDeleteIpv6UdpTransport, p2p.drtdeleteipv6udptransport
 ms.prod: windows-hardware
 ms.technology: windows-devices

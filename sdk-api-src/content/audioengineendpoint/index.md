@@ -2,7 +2,7 @@
 UID: NA:audioengineendpoint
 ms.assetid: e3f686f9-6316-396c-adf4-e0ac9e6d8ad8
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 10/02/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

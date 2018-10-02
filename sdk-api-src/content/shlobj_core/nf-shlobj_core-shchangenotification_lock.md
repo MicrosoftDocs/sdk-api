@@ -4,10 +4,10 @@ title: SHChangeNotification_Lock function
 author: windows-sdk-content
 description: Locks the shared memory associated with a Shell change notification event.
 old-location: shell\SHChangeNotification_Lock.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: 8e22d5d0-64be-403c-982d-c23705d85223
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SHChangeNotification_Lock, SHChangeNotification_Lock function [Windows Shell], _win32_SHChangeNotification_Lock, shell.SHChangeNotification_Lock, shlobj_core/SHChangeNotification_Lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

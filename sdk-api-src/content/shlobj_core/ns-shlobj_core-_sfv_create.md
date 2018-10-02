@@ -4,10 +4,10 @@ title: "_SFV_CREATE"
 author: windows-sdk-content
 description: This structure is used with the SHCreateShellFolderView function.
 old-location: shell\SFV_CREATE.htm
-tech.root: shell
+tech.root: Shell
 ms.assetid: c6f3d9a6-5f39-4124-9340-78352f6be117
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/27/2018
 ms.keywords: SFV_CREATE, SFV_CREATE structure [Windows Shell], _SFV_CREATE, _win32_SFV_CREATE, shell.SFV_CREATE, shlobj_core/SFV_CREATE
 ms.prod: windows
 ms.technology: windows-sdk

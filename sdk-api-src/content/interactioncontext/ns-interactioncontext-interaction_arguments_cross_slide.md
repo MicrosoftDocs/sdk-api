@@ -7,7 +7,7 @@ old-location: input_intcontext\interaction_arguments_cross_slide.htm
 tech.root: Input_IntContext
 ms.assetid: 365b0bed-888e-4e9c-ad13-254a241b9de9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 09/26/2018
 ms.keywords: INTERACTION_ARGUMENTS_CROSS_SLIDE, INTERACTION_ARGUMENTS_CROSS_SLIDE structure, input_intcontext.interaction_arguments_cross_slide, interactioncontext.interaction_arguments_cross_slide, interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE
 ms.prod: windows
 ms.technology: windows-sdk

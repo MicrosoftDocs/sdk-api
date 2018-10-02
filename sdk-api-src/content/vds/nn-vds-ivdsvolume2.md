@@ -7,7 +7,7 @@ old-location: base\ivdsvolume2.htm
 tech.root: VDS
 ms.assetid: 78077ce6-04f7-4d76-9057-40941feb941b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 ms.keywords: IVdsVolume2, IVdsVolume2 interface, IVdsVolume2 interface,described, base.ivdsvolume2, vds/IVdsVolume2
 ms.prod: windows
 ms.technology: windows-sdk
