@@ -96,24 +96,20 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776531(v=VS.85).aspx">PropVariantToBoolean</a> access a Boolean value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyStore *ppropstore;
+
+```cpp
+// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
 
-HRESULT hr = ppropstore-&gt;GetValue(PKEY_IsShared, &amp;propvar);
+HRESULT hr = ppropstore->GetValue(PKEY_IsShared, &propvar);
 if (SUCCEEDED(hr))
 {
      // PKEY_IsShared is expected to produce a VT_BOOL or VT_EMPTY value.
      // PropVariantToBoolean will convert VT_EMPTY to FALSE.
      BOOL fShared;
      
-     hr = PropVariantToBoolean(propvar, &amp;fShared);
+     hr = PropVariantToBoolean(propvar, &fShared);
      if (SUCCEEDED(hr))
      {
          // fShared is now valid
@@ -123,13 +119,13 @@ if (SUCCEEDED(hr))
          // fShared is always FALSE
      }
      
-     PropVariantClear(&amp;propvar);
+     PropVariantClear(&propvar);
 }
 
-                    </pre>
-</td>
-</tr>
-</table></span></div>
+                    
+```
+
+
 
 
 

@@ -100,13 +100,9 @@ The following example creates an <a href="https://msdn.microsoft.com/en-us/libra
 
 The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536045(v=VS.85).aspx">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. The second time the image is drawn (after the call that sets the default color key), all of the red from 80 through 120 is transparent. The third time the image is drawn (after the call that sets the pen color key), all of the red from 135 through 175 that is drawn with a pen is transparent. Also, all of the red from 80 through 120 that is not drawn with a pen is transparent. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearColorKey</b>), none of the red drawn with a pen is transparent. Also, all of the red from 80 through 120 that is not drawn with a pen is transparent.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetClearColorKey(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -116,7 +112,7 @@ VOID Example_SetClearColorKey(HDC hdc)
 
    // Draw the image (metafile) using no color adjustment.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(0, 0, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),        // source rect
       UnitPixel);
@@ -130,11 +126,11 @@ VOID Example_SetClearColorKey(HDC hdc)
    // Draw the image (metafile) using default color adjustment.
    // Colors with red components from 80 through 120 are transparent.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(0, 100, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),          // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Set the pen color key.
    imAtt.SetColorKey(
@@ -147,11 +143,11 @@ VOID Example_SetClearColorKey(HDC hdc)
    // are transparent. Colors not drawn with a pen that have red components
    // from 80 to 120 are transparent.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(0, 200, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),          // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Clear the pen color key.
    imAtt.ClearColorKey(ColorAdjustTypePen);
@@ -160,16 +156,16 @@ VOID Example_SetClearColorKey(HDC hdc)
    // No colors drawn with a pen are transparent. Colors not drawn with 
    // a pen that have red components from 80 to 120 are transparent.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(0, 300, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),          // source rect
       UnitPixel,
-      &amp;imAtt); 
+      &imAtt); 
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 The preceding code, along with a particular file, TestMetafile5.png, produced the following output. The bars in the left column were drawn with a pen, and the bars in the right column were filled with a brush. The default color key applies to the bars filled with a brush. The color key that applies to the bars drawn with a pen varies according to the <a href="https://msdn.microsoft.com/en-us/library/ms535429(v=VS.85).aspx">ImageAttributes::SetColorKey</a> and <b>ImageAttributes::ClearColorKey</b> calls.
 
 <img alt="Illustration showing bars in four rows of two columns each; the last two have unequal numbers of bars in each row" src="./images/imageattributesclearcolorkey.png"/>

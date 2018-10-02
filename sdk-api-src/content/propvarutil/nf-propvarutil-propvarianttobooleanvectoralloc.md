@@ -133,28 +133,24 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776533(v=VS.85).aspx">PropVariantToBooleanVectorAlloc</a> to access a Boolean vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid. The application is 
 // expecting propvar to contain a vector of Boolean values.
 BOOL *prgFlags;
 ULONG cFlags;
-HRESULT hr = PropVariantToBooleanVectorAlloc(propvar, &amp;prgFlags, &amp;cFlags);
+HRESULT hr = PropVariantToBooleanVectorAlloc(propvar, &prgFlags, &cFlags);
 
 if (SUCCEEDED(hr))
 {
      // The prgFlags variable now points to a vector that contains a count
      // of cFlags flags.
      CoTaskMemFree(prgFlags);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

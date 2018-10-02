@@ -183,20 +183,16 @@ The following code sample demonstrates how to retrieve information about the con
 <b>NetWkstaGetInfo</b>, specifying information level 102 (
 <a href="https://msdn.microsoft.com/01607fb5-c433-439c-aaaa-3736697f7c07">WKSTA_INFO_102</a>). If the call succeeds, the sample prints information about the workstation. Finally, the code sample frees the memory allocated for the information buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <windows.h> 
+#include <lm.h>
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -207,7 +203,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    // Check command line arguments.
    //
-   if (argc &gt; 2)
+   if (argc > 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -221,20 +217,20 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetWkstaGetInfo(pszServerName,
                              dwLevel,
-                             (LPBYTE *)&amp;pBuf);
+                             (LPBYTE *)&pBuf);
    //
    // If the call is successful,
    //  print the workstation data.
    //
    if (nStatus == NERR_Success)
    {
-      printf("\n\tPlatform: %d\n", pBuf-&gt;wki102_platform_id);
-      wprintf(L"\tName:     %s\n", pBuf-&gt;wki102_computername);
-      printf("\tVersion:  %d.%d\n", pBuf-&gt;wki102_ver_major,
-                                  pBuf-&gt;wki102_ver_minor);
-      wprintf(L"\tDomain:   %s\n", pBuf-&gt;wki102_langroup);
-      wprintf(L"\tLan Root: %s\n", pBuf-&gt;wki102_lanroot);
-      wprintf(L"\t# Logged On Users: %d\n", pBuf-&gt;wki102_logged_on_users);
+      printf("\n\tPlatform: %d\n", pBuf->wki102_platform_id);
+      wprintf(L"\tName:     %s\n", pBuf->wki102_computername);
+      printf("\tVersion:  %d.%d\n", pBuf->wki102_ver_major,
+                                  pBuf->wki102_ver_minor);
+      wprintf(L"\tDomain:   %s\n", pBuf->wki102_langroup);
+      wprintf(L"\tLan Root: %s\n", pBuf->wki102_lanroot);
+      wprintf(L"\t# Logged On Users: %d\n", pBuf->wki102_logged_on_users);
    }
    //
    // Otherwise, indicate the system error.
@@ -249,10 +245,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

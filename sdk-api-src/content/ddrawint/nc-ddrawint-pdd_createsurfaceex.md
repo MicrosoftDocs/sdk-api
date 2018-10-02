@@ -107,30 +107,26 @@ Direct3D calls <b>D3dCreateSurfaceEx</b> after the surface is created by DirectD
 
 <b>Sample implementation of D3dCreateSurfaceEx</b>
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>LPDDRAWI_DDRAWSURFACE_LCL GetAttachedSurface(
+
+```
+LPDDRAWI_DDRAWSURFACE_LCL GetAttachedSurface(
     LPDDRAWI_DDRAWSURFACE_LCL pLcl,
     DDSCAPS2 * pddsCaps2)
 {
     LPATTACHLIST pAl;
-    pAl = pLcl-&gt;lpAttachList;
+    pAl = pLcl->lpAttachList;
     while (pAl) {
-        LPDDRAWI_DDRAWSURFACE_LCL pLclAttached = pAl-&gt;lpAttached;
-        LPATTACHLIST pAlAttached = pLclAttached-&gt;lpAttachList;
-        if ((pLclAttached-&gt;lpSurfMore-&gt;ddsCapsEx.dwCaps2 &amp; pddsCaps2-&gt;dwCaps2) ||
-            (pLclAttached-&gt;lpSurfMore-&gt;ddsCapsEx.dwCaps3 &amp; pddsCaps2-&gt;dwCaps3) ||
-            (pLclAttached-&gt;lpSurfMore-&gt;ddsCapsEx.dwCaps4 &amp; pddsCaps2-&gt;dwCaps4) ||
-            (pLclAttached-&gt;ddsCaps.dwCaps &amp; pddsCaps2-&gt;dwCaps)
+        LPDDRAWI_DDRAWSURFACE_LCL pLclAttached = pAl->lpAttached;
+        LPATTACHLIST pAlAttached = pLclAttached->lpAttachList;
+        if ((pLclAttached->lpSurfMore->ddsCapsEx.dwCaps2 & pddsCaps2->dwCaps2) ||
+            (pLclAttached->lpSurfMore->ddsCapsEx.dwCaps3 & pddsCaps2->dwCaps3) ||
+            (pLclAttached->lpSurfMore->ddsCapsEx.dwCaps4 & pddsCaps2->dwCaps4) ||
+            (pLclAttached->ddsCaps.dwCaps & pddsCaps2->dwCaps)
             )
         {
             return pLclAttached;
         }
-        pAl = pAl-&gt;lpLink;
+        pAl = pAl->lpLink;
     }
     return NULL;
 }
@@ -148,7 +144,7 @@ void CSExProcessPossibleMipmap(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
     while (pLcl) {
         //Call the private driver routine that creates a driver-side surface structure
         CreateMyRepresentation(pLcl);
-        pLcl = GetAttachedSurface(pLcl,&amp;ddsCaps2);
+        pLcl = GetAttachedSurface(pLcl,&ddsCaps2);
     }
 }
 
@@ -162,17 +158,17 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
     DDSCAPS2 ddsCaps2 = {0,0,0,0};
     LPDDRAWI_DDRAWSURFACE_LCL pLclAttached;
     LPDDRAWI_DDRAWSURFACE_LCL pLclStart;
-    if (pLcl-&gt;lpGbl-&gt;fpVidMem == 0) {
+    if (pLcl->lpGbl->fpVidMem == 0) {
         //A required check against bad surfaces
-        if (pLcl-&gt;ddsCaps.dwCaps &amp; DDSCAPS_VIDEOMEMORY)
+        if (pLcl->ddsCaps.dwCaps & DDSCAPS_VIDEOMEMORY)
             return;
         //Else, this is a system memory surface, so we are being informed of
         // its destruction
-        DestroyMyRepresentation(pLcl-&gt;lpSurfMore-&gt;dwSurfaceHandle);
+        DestroyMyRepresentation(pLcl->lpSurfMore->dwSurfaceHandle);
         return;
     }
     CSExProcessPossibleMipmap(pLcl);
-    if (pLcl-&gt;lpSurfMore-&gt;ddsCapsEx.dwCaps2 &amp; DDSCAPS2_CUBEMAP) {
+    if (pLcl->lpSurfMore->ddsCapsEx.dwCaps2 & DDSCAPS2_CUBEMAP) {
         int i;
         //
         // The root surface is always positive X, so we check for the
@@ -184,9 +180,9 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
             DDSCAPS2_CUBEMAP_NEGATIVEY,
             DDSCAPS2_CUBEMAP_POSITIVEZ,
             DDSCAPS2_CUBEMAP_NEGATIVEZ};
-        for(i=0;i&lt; sizeof(dw)/sizeof(dw[0]);i++) {
+        for(i=0;i< sizeof(dw)/sizeof(dw[0]);i++) {
             ddsCaps2.dwCaps2 = dw[i];
-            pLclAttached = GetAttachedSurface(pLcl, &amp;ddsCaps2);
+            pLclAttached = GetAttachedSurface(pLcl, &ddsCaps2);
             if (pLclAttached)
                 CSExProcessPossibleMipmap(pLclAttached);
         }
@@ -204,7 +200,7 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
     // Because a primary flipping chain cannot be mipmapped, we will simply return
     // here if this surface is a mipmap.
     //
-    if (pLcl-&gt;ddsCaps.dwCaps &amp; DDSCAPS_MIPMAP)
+    if (pLcl->ddsCaps.dwCaps & DDSCAPS_MIPMAP)
         return;
     //
     // The only system memory surfaces we'll ever be interested in are textures (mipmaps)
@@ -213,7 +209,7 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
     // be propagated to the application when it was trying to use system memory surfaces
     // of a format we do not understand, but is valid for the reference rasterizer, for example.
     //
-    if (pLcl-&gt;ddsCaps.dwCaps &amp; DDSCAPS_SYSTEMMEMORY)
+    if (pLcl->ddsCaps.dwCaps & DDSCAPS_SYSTEMMEMORY)
         return;
     //
     // Now walk around a flipping chain. A flipping chain is a ring of
@@ -225,17 +221,17 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
     // in the ring, which may or may not have been CreateSurfaceEx'ed already.
     //
     pLclStart = pLcl;
-    while (pLcl &amp;&amp; pLcl != pLclStart) {
+    while (pLcl && pLcl != pLclStart) {
         //Check for Z buffer attached to this surface in the ring.
         ddsCaps2.dwCaps = DDSCAPS_ZBUFFER;
         ddsCaps2.dwCaps2 = 0;
-        pLclAttached = GetAttachedSurface(pLcl, &amp;ddsCaps2);
+        pLclAttached = GetAttachedSurface(pLcl, &ddsCaps2);
         if (pLclAttached)
             CreateMyRepresentation(pLclAttached);
         //Check for stereo left surface attached to this surface in the ring
         ddsCaps2.dwCaps = 0;
         ddsCaps2.dwCaps2 = DDSCAPS2_STEREOSURFACELEFT;
-        pLclAttached = GetAttachedSurface(pLcl, &amp;ddsCaps2);
+        pLclAttached = GetAttachedSurface(pLcl, &ddsCaps2);
         if (pLclAttached)
             CreateMyRepresentation(pLclAttached);
         // Move to next surface in the primary flipping ring. The next surface is 
@@ -246,20 +242,20 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
         ddsCaps2.dwCaps = DDSCAPS_VIDEOMEMORY;
         ddsCaps2.dwCaps2 = 0;
         do {
-            pLclAttached = GetAttachedSurface(pLcl, &amp;ddsCaps2);
+            pLclAttached = GetAttachedSurface(pLcl, &ddsCaps2);
         }
         while (
-            pLclAttached-&gt;ddsCaps.dwCaps &amp; DDSCAPS_ZBUFFER ||
-            pLclAttached-&gt;lpSurfMore-&gt;ddsCapsEx.dwCaps2 &amp; DDSCAPS2_STEREOSURFACELEFT
+            pLclAttached->ddsCaps.dwCaps & DDSCAPS_ZBUFFER ||
+            pLclAttached->lpSurfMore->ddsCapsEx.dwCaps2 & DDSCAPS2_STEREOSURFACELEFT
             );
         pLcl = pLclAttached;
         if (pLcl != pLclStart)
             CreateMyRepresentation(pLcl);
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

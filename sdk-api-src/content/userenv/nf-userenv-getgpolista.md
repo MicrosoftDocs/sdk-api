@@ -136,43 +136,35 @@ Call the
 Generally, you should call 
 <b>GetGPOList</b> with a token when retrieving a list of GPOs for a user as shown in the following code example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPGROUP_POLICY_OBJECT  pGPOList;
-      if (GetGPOList (hToken, NULL, NULL, NULL, 0, &amp;pGPOList))
+
+```cpp
+LPGROUP_POLICY_OBJECT  pGPOList;
+      if (GetGPOList (hToken, NULL, NULL, NULL, 0, &pGPOList))
       {
 //        Perform processing here. 
 //
 //        Free the GPO list when you finish processing.
           FreeGPOList (pGPOList);
-      }</pre>
-</td>
-</tr>
-</table></span></div>
+      }
+```
+
+
 Typically, to retrieve a list of GPOs for a computer, you can call 
 <b>GetGPOList</b> with the computer name and domain controller name as demonstrated in the following code snippet.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPGROUP_POLICY_OBJECT  pGPOList;
-      if (GetGPOList (NULL, lpMachineName, lpHostName, lpMachineName, GPO_LIST_FLAG_MACHINE, &amp;pGPOList))
+
+```cpp
+LPGROUP_POLICY_OBJECT  pGPOList;
+      if (GetGPOList (NULL, lpMachineName, lpHostName, lpMachineName, GPO_LIST_FLAG_MACHINE, &pGPOList))
       {
 //        Perform processing here. 
 //
 //        Free the GPO list when you finish processing.
           FreeGPOList (pGPOList);
-      }</pre>
-</td>
-</tr>
-</table></span></div>
+      }
+```
+
+
 To retrieve the list of GPOs applied for a specific user or computer and extension, call the 
 <a href="https://msdn.microsoft.com/11e80a4e-acc4-4229-aa34-8f7d083c1041">GetAppliedGPOList</a> function.
 

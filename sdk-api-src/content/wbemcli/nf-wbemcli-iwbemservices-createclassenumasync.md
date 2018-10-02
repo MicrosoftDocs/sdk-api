@@ -163,13 +163,9 @@ For more information about using methods semisynchronously, see <a href="https:/
 The following code example shows how to implement 
 <b>CreateClassEnumAsync</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CStdProvider::CreateClassEnumAsync( 
+
+```cpp
+HRESULT CStdProvider::CreateClassEnumAsync( 
             /* [in] */ BSTR strSuperclass,
             /* [in] */ long lFlags,
             /* [in] */ IWbemContext __RPC_FAR *pCtx,
@@ -182,7 +178,7 @@ The following code example shows how to implement
     // Retrieve an 'empty' object that will be built up
     // into the class definition.
     
-    HRESULT hRes = m_pSvc-&gt;GetObject(NULL, 0, NULL, &amp;pClass, 0);
+    HRESULT hRes = m_pSvc->GetObject(NULL, 0, NULL, &pClass, 0);
     if (hRes)
     {
         return hRes;
@@ -190,7 +186,7 @@ The following code example shows how to implement
 
     // Prepare an empty object to receive the class definition.
         IWbemClassObject *pNextClass = 0;
-        hRes = pClass-&gt;Clone(&amp;pNextClass);
+        hRes = pClass->Clone(&pNextClass);
 
     // Now loop through the private source of class definitions
     // and create each class.
@@ -201,25 +197,25 @@ The following code example shows how to implement
         // FillClassDef(pNextClass);
 
         // Deliver the class to WMI.
-        pResponseHandler-&gt;Indicate(1, &amp;pNextClass);
-        pNextClass-&gt;Release( );
+        pResponseHandler->Indicate(1, &pNextClass);
+        pNextClass->Release( );
 
         // Prepare an empty object to receive the class definition.
         IWbemClassObject *pNextClass = 0;
-        hRes = pClass-&gt;Clone(&amp;pNextClass);     
+        hRes = pClass->Clone(&pNextClass);     
     }
 
-    pClass-&gt;Release();
+    pClass->Release();
 
     // Send a finish message to WMI.
 
-    pResponseHandler-&gt;SetStatus(0, hRes, 0, 0);
+    pResponseHandler->SetStatus(0, hRes, 0, 0);
 
     return hRes;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 In the previous example, the class provider acquires a thread from WMI to perform the necessary operations. You may want to call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on the amount of time the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="code"></div>

@@ -173,23 +173,19 @@ The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3
 
 Create a vertex buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ThrowIfFailed(m_device-&gt;CreateCommittedResource(
-    &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+
+```cpp
+ThrowIfFailed(m_device->CreateCommittedResource(
+    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
     D3D12_HEAP_FLAG_NONE,
-    &amp;CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
+    &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
     D3D12_RESOURCE_STATE_COPY_DEST,
     nullptr,
-    IID_PPV_ARGS(&amp;m_vertexBuffer)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+    IID_PPV_ARGS(&m_vertexBuffer)));
+
+```
+
+
 See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
           
 

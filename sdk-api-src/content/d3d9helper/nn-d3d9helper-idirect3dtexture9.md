@@ -132,18 +132,14 @@ The LPDIRECT3DTEXTURE9 and PDIRECT3DTEXTURE9 types are defined as pointers to th
 
     
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 typedef struct IDirect3DTexture9 *LPDIRECT3DTEXTURE9, *PDIRECT3DTEXTURE9;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

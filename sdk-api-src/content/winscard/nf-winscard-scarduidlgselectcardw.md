@@ -131,13 +131,9 @@ This function replaces
 
 The following example  shows how to display the smart card <b>Select Card</b> dialog box.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SCARDCONTEXT     hSC;
+
+```cpp
+SCARDCONTEXT     hSC;
 OPENCARDNAME_EX  dlgStruct;
 WCHAR            szReader[256];
 WCHAR            szCard[256];
@@ -148,7 +144,7 @@ LONG             lReturn;
 lReturn = SCardEstablishContext(SCARD_SCOPE_USER,
                                 NULL,
                                 NULL,
-                                &amp;hSC );
+                                &hSC );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardEstablishContext\n");
@@ -156,7 +152,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 }
 
 // Initialize the structure.
-memset(&amp;dlgStruct, 0, sizeof(dlgStruct));
+memset(&dlgStruct, 0, sizeof(dlgStruct));
 dlgStruct.dwStructSize = sizeof(dlgStruct);
 dlgStruct.hSCardContext = hSC;
 dlgStruct.dwFlags = SC_DLG_FORCE_UI;
@@ -167,17 +163,17 @@ dlgStruct.nMaxCard = 256;
 dlgStruct.lpstrTitle = (LPSTR) "My Select Card Title";
 
 // Display the select card dialog box.
-lReturn = SCardUIDlgSelectCard(&amp;dlgStruct);
+lReturn = SCardUIDlgSelectCard(&dlgStruct);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardUIDlgSelectCard - %x\n", lReturn );
 else
     printf("Reader: %S\nCard: %S\n", szReader, szCard );
 
 // Release the context (by SCardReleaseContext - not shown here).
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -104,13 +104,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on a triangular path that is defined by an array of three points. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535090(v=VS.85).aspx">PathGradientBrush::SetSurroundColors</a> method of the 
 						<b>PathGradientBrush</b>object to specify a color for each of the points that define the triangle. The <a href="https://msdn.microsoft.com/en-us/library/ms535071(v=VS.85).aspx">PathGradientBrush::GetSurroundColorCount</a> method determines the current number of surround colors (the colors specified for the brush's boundary path). Next, the code allocates a buffer large enough to receive the array of surround colors and calls <b>PathGradientBrush::GetSurroundColors</b> to fill that buffer. Finally the code fills a small square with each of the brush's surround colors.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetSurColors(HDC hdc)
+
+```cpp
+VOID Example_GetSurColors(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -127,27 +123,27 @@ The following example creates a
 
    INT count = 3;
    PathGradientBrush pthGrBrush(pts, 3);
-   pthGrBrush.SetSurroundColors(cols, &amp;count);
+   pthGrBrush.SetSurroundColors(cols, &count);
    
    // Obtain information about the path gradient brush.
    INT colorCount = pthGrBrush.GetSurroundColorCount();
    Color* colors = new Color[colorCount];
-   pthGrBrush.GetSurroundColors(colors, &amp;colorCount);
+   pthGrBrush.GetSurroundColors(colors, &colorCount);
 
    // Fill a small square with each of the surround colors.
    SolidBrush solidBrush(Color(255, 255, 255, 255));
 
-   for(INT j = 0; j &lt; colorCount; ++j)
+   for(INT j = 0; j < colorCount; ++j)
    {
       solidBrush.SetColor(colors[j]);
-      graphics.FillRectangle(&amp;solidBrush, 15*j, 0, 10, 10);
+      graphics.FillRectangle(&solidBrush, 15*j, 0, 10, 10);
    }
 
    delete [] colors;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

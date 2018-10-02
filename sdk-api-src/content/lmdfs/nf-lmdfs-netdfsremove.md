@@ -128,16 +128,12 @@ When you call <b>NetDfsRemove</b> to remove a target from a
 The following code sample demonstrates how to remove a target from a DFS link using a call to the 
      <b>NetDfsRemove</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;lm.h&gt;
-#include &lt;lmdfs.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <lm.h>
+#include <lmdfs.h>
+#include <stdio.h>
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain(int argc, wchar_t *argv[])
@@ -146,7 +142,7 @@ void wmain(int argc, wchar_t *argv[])
    //
    // All parameters are required.
    //
-   if (argc &lt; 4)
+   if (argc < 4)
       wprintf(L"Syntax: %s DfsEntryPath ServerName ShareName\n", argv[0]);
    else
    {
@@ -165,10 +161,10 @@ void wmain(int argc, wchar_t *argv[])
    }
    return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

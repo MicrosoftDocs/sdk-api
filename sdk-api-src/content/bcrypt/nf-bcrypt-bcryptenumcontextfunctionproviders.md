@@ -298,20 +298,16 @@ No context function providers that match the specified criteria were found.
 
 The following  example shows how to use the <b>BCryptEnumContextFunctionProviders</b> function to enumerate the providers for all key storage functions for all contexts in the local-machine configuration table.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;ntstatus.h&gt;
-#include &lt;Bcrypt.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <ntstatus.h>
+#include <Bcrypt.h>
 #pragma comment(lib, "Bcrypt.lib")
 
 #ifndef NT_SUCCESS
-#define NT_SUCCESS(Status) ((NTSTATUS)(Status) &gt;= 0)
+#define NT_SUCCESS(Status) ((NTSTATUS)(Status) >= 0)
 #endif
 
 NTSTATUS EnumContextFunctionProviders()
@@ -323,56 +319,56 @@ NTSTATUS EnumContextFunctionProviders()
     
     // Get the contexts for the local machine. 
     // CNG will allocate the memory for us.
-    status = BCryptEnumContexts(uTable, &amp;uSize, &amp;pContexts);
+    status = BCryptEnumContexts(uTable, &uSize, &pContexts);
     if(NT_SUCCESS(status))
     {
         // Enumerate the context identifiers.
         for(ULONG a = 0; 
-            a &lt; pContexts-&gt;cContexts; 
+            a < pContexts->cContexts; 
             a++)
         {
             ULONG uInterface = NCRYPT_SCHANNEL_INTERFACE;
 
             wprintf(L"Context functions for %s:\n", 
-                pContexts-&gt;rgpszContexts[a]);
+                pContexts->rgpszContexts[a]);
 
             // Get the functions for this context.
             // CNG will allocate the memory for us.
             PCRYPT_CONTEXT_FUNCTIONS pContextFunctions = NULL;
             status = BCryptEnumContextFunctions(
                 uTable, 
-                pContexts-&gt;rgpszContexts[a], 
+                pContexts->rgpszContexts[a], 
                 uInterface, 
-                &amp;uSize, 
-                &amp;pContextFunctions);
+                &uSize, 
+                &pContextFunctions);
             if(NT_SUCCESS(status))
             {
                 // Enumerate the functions.
                 for(ULONG b = 0; 
-                    b &lt; pContextFunctions-&gt;cFunctions; 
+                    b < pContextFunctions->cFunctions; 
                     b++)
                 {
                     wprintf(L"\tFunction providers for %s:\n", 
-                        pContextFunctions-&gt;rgpszFunctions[b]);
+                        pContextFunctions->rgpszFunctions[b]);
 
                     // Get the providers for this function.
                     PCRYPT_CONTEXT_FUNCTION_PROVIDERS pProviders;
                     pProviders = NULL;
                     status = BCryptEnumContextFunctionProviders(
                         uTable, 
-                        pContexts-&gt;rgpszContexts[a], 
+                        pContexts->rgpszContexts[a], 
                         uInterface, 
-                        pContextFunctions-&gt;rgpszFunctions[b],
-                        &amp;uSize, 
-                        &amp;pProviders);
+                        pContextFunctions->rgpszFunctions[b],
+                        &uSize, 
+                        &pProviders);
                     if(NT_SUCCESS(status))
                     {
                         for(ULONG c = 0; 
-                            c &lt; pProviders-&gt;cProviders; 
+                            c < pProviders->cProviders; 
                             c++)
                         {
                             wprintf(L"\t\t%s\n", 
-                                pProviders-&gt;rgpszProviders[c]);
+                                pProviders->rgpszProviders[c]);
                         }
                     }
                     else if(STATUS_NOT_FOUND == status)
@@ -392,10 +388,10 @@ NTSTATUS EnumContextFunctionProviders()
 
     return status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -103,16 +103,12 @@ The <b>LONG</b> value retrieved by calling this method can be examined to determ
 
 The following example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a> interface pointer is valid.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR bstrCA = NULL;
+
+```cpp
+BSTR bstrCA = NULL;
 LONG nFlags;  // Variable to contain the property flags.
 
-bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
 if (NULL == bstrCA)
 {
     printf("Failed to allocate memory for bstrCA\n");
@@ -120,9 +116,9 @@ if (NULL == bstrCA)
 }
 
 // Retrieve a property's flags.
-hr = pCertAdmin2-&gt;GetCAPropertyFlags(bstrCA,
+hr = pCertAdmin2->GetCAPropertyFlags(bstrCA,
                                      CR_PROP_EXITCOUNT,
-                                     &amp;nFlags);
+                                     &nFlags);
 if (FAILED(hr))
 {
     printf("Failed GetCAPropertyFlags\n");
@@ -130,7 +126,7 @@ if (FAILED(hr))
     exit(1);  // Or other error action.
 }
 // Display the property data type.
-switch (nFlags &amp; PROPTYPE_MASK)
+switch (nFlags & PROPTYPE_MASK)
 {
     case PROPTYPE_BINARY:
         printf("Type is BINARY\n");
@@ -150,11 +146,11 @@ switch (nFlags &amp; PROPTYPE_MASK)
 }
 // Display the property's indexed status.
 printf("Property %s indexed\n", 
-       nFlags &amp; PROPFLAGS_INDEXED ? "is" : "is not");
+       nFlags & PROPFLAGS_INDEXED ? "is" : "is not");
 
-SysFreeString(bstrCA);</pre>
-</td>
-</tr>
-</table></span></div>
+SysFreeString(bstrCA);
+```
+
+
 
 

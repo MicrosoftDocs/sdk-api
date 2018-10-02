@@ -102,51 +102,39 @@ This method is used to handle a path that contains special characters in a unesc
 
 The following Visual Basic code example shows the effect produced by <b>IADsPathname::GetEscapedElement</b>. After this code is executed, rdn will contain "cn=smith\,jeff".
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim x As New Pathname
+
+```vb
+Dim x As New Pathname
  
-rdn = x.GetEscapedElement(0, "cn=smith,jeff")</pre>
-</td>
-</tr>
-</table></span></div>
+rdn = x.GetEscapedElement(0, "cn=smith,jeff")
+```
+
+
 The following VBScript code example shows the effect produced by <b>IADsPathname::GetEscapedElement</b>. After this code is executed, rdn will contain "cn=smith\,jeff".
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim x 
+
+```vb
+Dim x 
 Set x = CreateObject("Pathname")
-rdn = x.GetEscapedElement(0, "cn=smith,jeff")</pre>
-</td>
-</tr>
-</table></span></div>
+rdn = x.GetEscapedElement(0, "cn=smith,jeff")
+```
+
+
 The following C++ code example shows the effect produced by <b>IADsPathname::GetEscapedElement</b>. After this code is executed, rdn will contain "cn=smith\,jeff".
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPWSTR adsPath=L"LDAP://server/cn=jeffsmith,dc=Fabrikam,dc=com";
+
+```cpp
+LPWSTR adsPath=L"LDAP://server/cn=jeffsmith,dc=Fabrikam,dc=com";
  
 IADsPathname *pPath = GetPathnameObject(adsPath);
 BSTR rdn;
-HRESULT hr = pPath-&gt;GetEscapedElement(0,CComBSTR("cn=smith,jeff")
-                                      ,&amp;rdn);
+HRESULT hr = pPath->GetEscapedElement(0,CComBSTR("cn=smith,jeff")
+                                      ,&rdn);
  
-pPath-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+pPath->Release();
+```
+
+
 
 
 

@@ -135,13 +135,9 @@ If this method does not find a matching template in the database, it should set 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterCheckForDuplicate
 // 
@@ -189,11 +185,11 @@ EngineAdapterCheckForDuplicate(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // Return if an enrollment is not in progress. This example assumes that 
     // an enrollment object is part of your engine context structure.
-    if (context-&gt;Enrollment.InProgress != TRUE)
+    if (context->Enrollment.InProgress != TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -202,7 +198,7 @@ EngineAdapterCheckForDuplicate(
     // Zero the memory pointed to by the Identity argument and set the
     // pointer to NULL.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
+    Identity->Type = WINBIO_ID_TYPE_NULL;
 
     // Eliminate sub-factor information.
     *SubFactor  = WINBIO_SUBTYPE_NO_INFORMATION;
@@ -218,11 +214,11 @@ EngineAdapterCheckForDuplicate(
     // differ.
     hr = _AdapterCreateIndexVector(
                 context, 
-                context-&gt;Enrollment.Template, 
-                context-&gt;Enrollment.TemplateSize,
+                context->Enrollment.Template, 
+                context->Enrollment.TemplateSize,
                 indexVector, 
                 NUMBER_OF_TEMPLATE_BINS, 
-                &amp;rejectDetail
+                &rejectDetail
                 );
     if (FAILED(hr))
     {
@@ -247,7 +243,7 @@ EngineAdapterCheckForDuplicate(
 
     // Determine the size of the result set. WbioStorageGetRecordCount is a wrapper
     // function in the Winbio_adapter.h header file.
-    hr = WbioStorageGetRecordCount( Pipeline, &amp;recordCount);
+    hr = WbioStorageGetRecordCount( Pipeline, &recordCount);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -264,9 +260,9 @@ EngineAdapterCheckForDuplicate(
     // Iterate through all records in the result set and determine which record
     // matches the current feature set. WbioStorageGetCurrentRecord is a wrapper
     // function in the Winbio_adapter.h header file. 
-    for (index = 0; index &lt; recordCount; ++index)
+    for (index = 0; index < recordCount; ++index)
     {
-        hr = WbioStorageGetCurrentRecord( Pipeline, &amp;thisRecord );
+        hr = WbioStorageGetCurrentRecord( Pipeline, &thisRecord );
         if (FAILED(hr))
         {
             goto cleanup;
@@ -281,11 +277,11 @@ EngineAdapterCheckForDuplicate(
         // other reason, return a failure HRESULT.
         hr = _AdapterCompareTemplateToEnrollmentTemplate( 
                     context, 
-                    context-&gt;Enrollment.Template, 
-                    context-&gt;Enrollment.TemplateSize,
+                    context->Enrollment.Template, 
+                    context->Enrollment.TemplateSize,
                     thisRecord.TemplateBlob, 
                     thisRecord.TemplateBlobSize,
-                    &amp;match
+                    &match
                     );
         if (FAILED(hr))
         {
@@ -331,10 +327,10 @@ cleanup:
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

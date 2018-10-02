@@ -195,20 +195,16 @@ The following code sample demonstrates how to call the
 <b>NetServerDiskEnum</b> function to retrieve a list of disk drives on a server. The sample calls 
 <b>NetServerDiskEnum</b>, specifying the information level 0 (required). If there are entries to return, and the user has access to the information, it prints a list of the drives, in the format of a three-character string: a drive letter, a colon, and a terminating null character. The sample also prints the total number of entries that are available and a hint about the number of entries actually enumerated. Finally, the code sample frees the memory allocated for the buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;stdio.h&gt;
-#include &lt;assert.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <assert.h>
+#include <windows.h> 
+#include <lm.h>
 
 #pragma comment(lib, "netapi32.lib")
 
@@ -223,7 +219,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPWSTR pszServerName = NULL;
 
-   if (argc &gt; 2)
+   if (argc > 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -237,10 +233,10 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetServerDiskEnum(pszServerName,
                                dwLevel,
-                               (LPBYTE *) &amp;pBuf,
+                               (LPBYTE *) &pBuf,
                                dwPrefMaxLen,
-                               &amp;dwEntriesRead,
-                               &amp;dwTotalEntries,
+                               &dwEntriesRead,
+                               &dwTotalEntries,
                                NULL);
    //
    // If the call succeeds,
@@ -256,7 +252,7 @@ int wmain(int argc, wchar_t *argv[])
          //
          // Loop through the entries.
          //
-         for (i = 0; i &lt; dwEntriesRead; i++)
+         for (i = 0; i < dwEntriesRead; i++)
          {
             assert(pTmpBuf != NULL);
 
@@ -294,10 +290,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

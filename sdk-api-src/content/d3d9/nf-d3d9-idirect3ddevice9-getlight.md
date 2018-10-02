@@ -99,50 +99,42 @@ This method will not return device state for a device that is created using D3DC
 
 Retrieve all the properties for an existing light source by calling the <b>IDirect3DDevice9::GetLight</b> method for the device. When calling the <b>IDirect3DDevice9::GetLight</b> method, pass the zero-based index of the light source for which the properties will be retrieved as the first parameter, and supply the address of a <a href="https://msdn.microsoft.com/en-us/library/Bb172566(v=VS.85).aspx">D3DLIGHT9</a> structure as the second parameter. The device fills the <b>D3DLIGHT9</b> structure to describe the lighting properties it uses for the light source at that index.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // Assume d3dDevice is a valid pointer to an IDirect3DDevice9 interface.
 HRESULT hr;
 D3DLight9 light;
     
 // Get the property information for the first light.
-hr = pd3dDevice-&gt;GetLight(0, &amp;light);
+hr = pd3dDevice->GetLight(0, &light);
 if (SUCCEEDED(hr))
     // Handle Success
 else
     // Handle failure
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 If you supply an index outside the range of the light sources assigned in the device, the <b>IDirect3DDevice9::GetLight</b> method fails, returning D3DERR_INVALIDCALL.
 
 When you assign a set of light properties for a light source in a scene, the light source can be activated by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">IDirect3DDevice9::LightEnable</a> method for the device. New light sources are disabled by default. The <b>IDirect3DDevice9::LightEnable</b> method accepts two parameters. Set the first parameter to the zero-based index of the light source to be affected by the method, and set the second parameter to <b>TRUE</b> to enable the light or <b>FALSE</b> to disable it. The following code example illustrates the use of this method by enabling the first light source in the device's list of light source properties.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // Assume d3dDevice is a valid pointer to an IDirect3DDevice9 interface.
 HRESULT hr;
     
-hr = pd3dDevice-&gt;LightEnable(0, TRUE);
+hr = pd3dDevice->LightEnable(0, TRUE);
 if (SUCCEEDED(hr))
     // Handle Success
 else
     // Handle failure
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Check the MaxActiveLights member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a> structure when you retrieve device capabilities to determine the maximum number of active lights supported by that device.
 
 If you enable or disable a light that has no properties that are set with <a href="https://msdn.microsoft.com/en-us/library/Bb174436(v=VS.85).aspx">IDirect3DDevice9::SetLight</a>, the <a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">IDirect3DDevice9::LightEnable</a> method creates a light source with the properties listed in following table and enables or disables it.

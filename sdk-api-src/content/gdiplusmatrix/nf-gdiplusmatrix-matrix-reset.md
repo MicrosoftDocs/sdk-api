@@ -93,13 +93,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms535317(v=VS.85).aspx">Matrix::Translate</a> method to update the matrix with the product of itself (the identity) and a translation matrix. The result is that the matrix represents only the translation, not the scaling. The code uses the matrix to set the world transformation of a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and then draws a rectangle that is transformed according to that world transformation.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_Reset(HDC hdc)
+
+```cpp
+VOID Example_Reset(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen pen(Color(255, 0, 0, 255));
@@ -108,12 +104,12 @@ The following example creates a
    matrix.Reset();
    matrix.Translate(50.0f, 40.0f);
 
-   graphics.SetTransform(&amp;matrix);
-   graphics.DrawRectangle(&amp;pen, 0, 0, 100, 100);  
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.SetTransform(&matrix);
+   graphics.DrawRectangle(&pen, 0, 0, 100, 100);  
+}
+```
+
+
 
 
 

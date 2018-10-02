@@ -149,24 +149,20 @@ The function always uses the themed font for the specified part and state if one
 
 <b>Security Warning:  </b>Using <a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> incorrectly can compromise the security of your application. Ensure that when creating wide-character buffers they are large enough to accommodate the size of the string in wide characters, not in bytes.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>INT cchText = GetWindowTextLength(_hwnd);
-if (cchText &gt; 0)
+
+```cpp
+INT cchText = GetWindowTextLength(_hwnd);
+if (cchText > 0)
 {
     TCHAR *pszText = new TCHAR[cchText+1];
     if (pszText)
     {
         if (GetWindowText(_hwnd, pszText, cchText+1))
         {
-            int widelen = MultiByteToWideChar(CP_ACP, 0, reinterpret_cast&lt;LPCSTR&gt;(pszText), 
+            int widelen = MultiByteToWideChar(CP_ACP, 0, reinterpret_cast<LPCSTR>(pszText), 
                     cchText+1, NULL, 0);
             WCHAR *pszWideText = new WCHAR[widelen+1];
-            MultiByteToWideChar(CP_ACP, 0, reinterpret_cast&lt;LPCSTR&gt;(pszText), cchText, 
+            MultiByteToWideChar(CP_ACP, 0, reinterpret_cast<LPCSTR>(pszText), cchText, 
                     pszWideText, widelen);
 
             SetBkMode(hdcPaint, TRANSPARENT);
@@ -178,7 +174,7 @@ if (cchText &gt; 0)
                     cchText,
                     DT_CENTER | DT_VCENTER | DT_SINGLELINE,
                     NULL,
-                    &amp;rcContent);
+                    &rcContent);
 
             delete [] pszWideText;
         }
@@ -186,10 +182,10 @@ if (cchText &gt; 0)
         delete [] pszText;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

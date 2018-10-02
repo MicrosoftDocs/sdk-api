@@ -85,13 +85,9 @@ Collections that do not support direct removal of items are required to return <
 
 The following Visual Basic code example shows how to remove a named session object from a collection of active file service sessions.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim fso As IADsFileServiceOperations 
+
+```vb
+Dim fso As IADsFileServiceOperations 
 Dim ses As IADsSession
 Dim coll As IADsCollection
 Dim mySessionName As String
@@ -108,48 +104,44 @@ Set coll = fso.Sessions
 coll.Remove mySessionName
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set fso = Nothing
     Set ses = Nothing
     Set coll = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following C++ code example shows how to remove a named session object from a collection of active file service sessions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT RemoveASessionObjectFromCollection()
+
+```cpp
+HRESULT RemoveASessionObjectFromCollection()
 {
     LPWSTR adspath = L"WinNT://myComputer/FabrikamServer";
     HRESULT hr = S_OK;
     IADsCollection *pColl = NULL;
     IADsFileServiceOperations *pFso = NULL;
 
-    hr = ADsGetObject(adspath,IID_IADsFileServiceOperations,(void**)&amp;pFso);
+    hr = ADsGetObject(adspath,IID_IADsFileServiceOperations,(void**)&pFso);
     if(FAILED(hr)) {goto Cleanup;}
 
-    hr = pFso-&gt;Sessions(&amp;pColl);
+    hr = pFso->Sessions(&pColl);
     if(FAILED(hr)) {goto Cleanup;}
 
-    hr = pColl-&gt;Remove(CComBSTR("MySession"));
+    hr = pColl->Remove(CComBSTR("MySession"));
 
 Cleanup
-    if(pFso) pFso-&gt;Release();
-    if(pColl) pColl-&gt;Release();
+    if(pFso) pFso->Release();
+    if(pColl) pColl->Release();
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

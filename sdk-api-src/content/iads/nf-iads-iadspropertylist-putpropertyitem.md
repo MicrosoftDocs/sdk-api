@@ -90,13 +90,9 @@ The  <a href="https://msdn.microsoft.com/73b0f6d4-55db-46cf-a781-e10bc4fcf2db">I
 
 The following code example shows how to add a new entry to a property list using <b>PutPropertyItem</b>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim propList As IADsPropertyList
+
+```vb
+Dim propList As IADsPropertyList
 Dim propVal As IADsPropertyValue
 Dim propEntry As IADsPropertyEntry
 On Error GoTo Cleanup
@@ -126,26 +122,22 @@ Set IADsObj=propList
 IADsObj.SetInfo
 
 Cleanup:
-    If(Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If(Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
 
     Set propList = Nothing
     Set propVal = Nothing
     Set propEntry = Nothing
-    Set IADsObj = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set IADsObj = Nothing
+```
+
+
 The following code example adds a new entry to a property list using <b>IADsPropertyList::PutPropertyItem</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// forward declaration of a helper function
+
+```cpp
+// forward declaration of a helper function
 HRESULT ADsBuildVarArrayDisp(IDispatch ** ppObjs,
                              DWORD      dwObjs,
                              VARIANT * pVar
@@ -161,7 +153,7 @@ int main()
                       L"",
                       ADS_SECURE_AUTHENTICATION,
                       IID_IADsPropertyList,
-                      (void**)&amp;pList);
+                      (void**)&pList);
 
    if(hr!=S_OK)
    {
@@ -175,33 +167,33 @@ int main()
                          NULL,
                          CLSCTX_INPROC_SERVER,
                          IID_IADsPropertyValue,
-                         (void**)&amp;pVal);
+                         (void**)&pVal);
    if(hr!=S_OK)
    {
       _tprintf(TEXT("An error has occurred."));
-      pList-&gt;Release();
+      pList->Release();
       return;
    }
 
-   hr = pVal-&gt;put_CaseIgnoreString(CComBSTR("Fabrikam, Inc - Seattle, WA"));
+   hr = pVal->put_CaseIgnoreString(CComBSTR("Fabrikam, Inc - Seattle, WA"));
 
-   hr = pVal-&gt;put_ADsType(ADSTYPE_CASE_IGNORE_STRING);
+   hr = pVal->put_ADsType(ADSTYPE_CASE_IGNORE_STRING);
 
    // put the propertyValue object into a variant array for 
    // assignment to a propertyEntry object
    IDispatch *pDisp;
-   hr = pVal-&gt;QueryInterface(IID_IDispatch,(void**)&amp;pDisp);
-   hr = pVal-&gt;Release();
+   hr = pVal->QueryInterface(IID_IDispatch,(void**)&pDisp);
+   hr = pVal->Release();
 
    VARIANT vVals;
-   VariantInit(&amp;vVals);
-   hr = ADsBuildVarArrayDisp(&amp;pDisp,1,&amp;vVals);  //code given below.
-   pDisp-&gt;Release();  
+   VariantInit(&vVals);
+   hr = ADsBuildVarArrayDisp(&pDisp,1,&vVals);  //code given below.
+   pDisp->Release();  
 
    if(hr!=S_OK)
    {
       _tprintf(TEXT("An error has occurred."));
-      pList-&gt;Release();
+      pList->Release();
       return;
    }
 
@@ -211,31 +203,31 @@ int main()
                          NULL,
                          CLSCTX_INPROC_SERVER,
                          IID_IADsPropertyEntry,
-                         (void**)&amp;pEntry);
+                         (void**)&pEntry);
 
-   hr = pEntry-&gt;put_Name(CComBSTR("adminDescription"));
-   hr = pEntry-&gt;put_ControlCode(ADS_PROPERTY_UPDATE);
-   hr = pEntry-&gt;put_ADsType(ADSTYPE_CASE_IGNORE_STRING);
-   hr = pEntry-&gt;put_Values(vVals);
-   VariantClear(&amp;vVals);
+   hr = pEntry->put_Name(CComBSTR("adminDescription"));
+   hr = pEntry->put_ControlCode(ADS_PROPERTY_UPDATE);
+   hr = pEntry->put_ADsType(ADSTYPE_CASE_IGNORE_STRING);
+   hr = pEntry->put_Values(vVals);
+   VariantClear(&vVals);
 
    // Convert pEntry to pDisp for use in pList.PutPropertyItem
-   hr = pEntry-&gt;QueryInterface(IID_IDispatch,(void**)&amp;pDisp);
-   pEntry-&gt;Release();
+   hr = pEntry->QueryInterface(IID_IDispatch,(void**)&pDisp);
+   pEntry->Release();
 
    VARIANT vEntry;
-   VariantInit(&amp;vEntry);
-   V_DISPATCH(&amp;vEntry)=pDisp;
-   V_VT(&amp;vEntry)=  VT_DISPATCH;
-   hr = pList-&gt;PutPropertyItem(vEntry);  
-   VariantClear(&amp;vEntry);
+   VariantInit(&vEntry);
+   V_DISPATCH(&vEntry)=pDisp;
+   V_VT(&vEntry)=  VT_DISPATCH;
+   hr = pList->PutPropertyItem(vEntry);  
+   VariantClear(&vEntry);
 
    IADs *pObj;
-   hr = pList-&gt;QueryInterface(IID_IADs,(void**)&amp;pObj);
-   pObj-&gt;SetInfo();
-   pObj-&gt;Release();
+   hr = pList->QueryInterface(IID_IADs,(void**)&pObj);
+   pObj->SetInfo();
+   pObj->Release();
 
-   pList-&gt;Release();
+   pList->Release();
 
    CoUninitialize();
    return 0;
@@ -257,14 +249,14 @@ HRESULT ADsBuildVarArrayDisp(
     SAFEARRAY *psa = NULL;
     HRESULT hr = E_FAIL;
 
-    if((!IDispatch) || (dwObjs&lt;=0))
+    if((!IDispatch) || (dwObjs<=0))
     {
         return E_INVALIDARG;
     }
 
     sabNewArray.cElements = dwObjs;
     sabNewArray.lLbound = 0;
-    psa = SafeArrayCreate(VT_VARIANT, 1, &amp;sabNewArray);
+    psa = SafeArrayCreate(VT_VARIANT, 1, &sabNewArray);
 
     if (!pVar) {
         hr = E_ADS_BAD_PARAMETER;
@@ -276,13 +268,13 @@ HRESULT ADsBuildVarArrayDisp(
         goto Fail;
     }
 
-    for (i = 0; i &lt; dwObjs; i++) {
-        VariantInit(&amp;v);
-        V_VT(&amp;v) = VT_DISPATCH;
-        V_DISPATCH(&amp;v) = *(ppObjs + i);
+    for (i = 0; i < dwObjs; i++) {
+        VariantInit(&v);
+        V_VT(&v) = VT_DISPATCH;
+        V_DISPATCH(&v) = *(ppObjs + i);
         hr = SafeArrayPutElement(psa,
-                                 (long FAR *)&amp;i,
-                                 &amp;v
+                                 (long FAR *)&i,
+                                 &v
                                  );
         if (FAILED(hr))  {
             goto Fail;
@@ -300,10 +292,10 @@ Fail:
     }
 
     return(E_FAIL);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

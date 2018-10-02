@@ -112,28 +112,24 @@ Although SERIALIZEDPROPSTORAGE is an opaque serialized data structure whose form
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762080(v=VS.85).aspx">PSGetPropertyFromPropertyStorage</a> to read a value from serialized property storage.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// SERIALIZEDPROPSTORAGE *pStorage;
+
+```cpp
+// SERIALIZEDPROPSTORAGE *pStorage;
 // DWORD cbStorage;
 // Assume the variables pStorage and cbStorage are initialized and valid.  
 PROPVARIANT propvar;
 
-HRESULT hr = PSGetPropertyFromPropertyStorage(pStorage, cb, PKEY_Rating, &amp;propvar);
+HRESULT hr = PSGetPropertyFromPropertyStorage(pStorage, cb, PKEY_Rating, &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar is now valid.
  
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 

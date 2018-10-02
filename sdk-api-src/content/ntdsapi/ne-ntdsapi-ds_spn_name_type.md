@@ -62,131 +62,91 @@ The <b>DS_SPN_NAME_TYPE</b> enumeration is used by the <a href="https://msdn.mic
 
 The SPN format for the distinguished name service of the host-based service, which provides services identified with its host computer. This SPN uses the following format:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>jeffsmith.fabrikam.com</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+jeffsmith.fabrikam.com
+```
+
+
 
 ### -field DS_SPN_DN_HOST
 
 The SPN format for the distinguished name of the host-based service, which provides services identified with its host computer. This SPN uses the following format:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>cn=jeffsmith,ou=computers,dc=fabrikam,dc=com</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+cn=jeffsmith,ou=computers,dc=fabrikam,dc=com
+```
+
+
 
 ### -field DS_SPN_NB_HOST
 
 The SPN format for the NetBIOS service of the host-based service, which provides services identified with its host computer. This SPN uses the following format:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>jeffsmith-nec</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+jeffsmith-nec
+```
+
+
 
 ### -field DS_SPN_DOMAIN
 
 The SPN format for a replicable service that provides services to the specified domain. This SPN uses the following format:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>fabrikam.com</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+fabrikam.com
+```
+
+
 
 ### -field DS_SPN_NB_DOMAIN
 
 The SPN format for a replicable service that provides services to the specified NetBIOS domain. This SPN uses the following format:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>fabrikam</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+fabrikam
+```
+
+
 
 ### -field DS_SPN_SERVICE
 
 The SPN format for a specified service. This SPN uses the following formats, depending on which service is used:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>cn=anRpcService,cn=RPC Services,cn=system,dc=fabrikam,dc=com</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>cn=aWsService,cn=Winsock Services,cn=system,dc=fabrikam,dc=com</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>cn=aService,dc=itg,dc=fabrikam,dc=com</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>www.fabrikam.com, ftp.fabrikam.com, ldap.fabrikam.com</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>products.fabrikam.com</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+cn=anRpcService,cn=RPC Services,cn=system,dc=fabrikam,dc=com
+```
+
+
+
+```cpp
+cn=aWsService,cn=Winsock Services,cn=system,dc=fabrikam,dc=com
+```
+
+
+
+```cpp
+cn=aService,dc=itg,dc=fabrikam,dc=com
+```
+
+
+
+```cpp
+www.fabrikam.com, ftp.fabrikam.com, ldap.fabrikam.com
+```
+
+
+
+```cpp
+products.fabrikam.com
+```
+
+
 
 ## -see-also
 

@@ -54,42 +54,30 @@ req.redist:
 The <b>IADsADSystemInfo</b> interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
 
 The <b>IADsADSystemInfo</b> interface is implemented on the <b>ADSystemInfo</b> object residing in adsldp.dll, which is included with the standard installation of ADSI on Windows 2000. You must explicitly create an instance of the <b>ADSystemInfo</b> object in order to call the methods on the <b>IADsADSystemInfo</b> interface. This requirement amounts to creating an <b>ADSystemInfo</b> instance with the  <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function in C/C++.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsADSystemInfo *pADsys;
+
+```cpp
+IADsADSystemInfo *pADsys;
 HRESULT hr = CoCreateInstance(CLSID_ADSystemInfo,
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IADsADSystemInfo,
-                              (void**)&amp;pADsys);</pre>
-</td>
-</tr>
-</table></span></div>You can also use the <b>New</b> operator in Visual Basic.
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim adSys as New ADSystemInfo</pre>
-</td>
-</tr>
-</table></span></div>Or you can call the <b>CreateObject</b> function in a scripting environment, supplying "ADSystemInfo" as the ProgID.
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim adSys
-Set adSys = CreateObject("ADSystemInfo")</pre>
-</td>
-</tr>
-</table></span></div>
+                              (void**)&pADsys);
+```
+
+You can also use the <b>New</b> operator in Visual Basic.
+
+```vb
+Dim adSys as New ADSystemInfo
+```
+
+Or you can call the <b>CreateObject</b> function in a scripting environment, supplying "ADSystemInfo" as the ProgID.
+
+```vb
+Dim adSys
+Set adSys = CreateObject("ADSystemInfo")
+```
+
+
 
 ## -inheritance
 

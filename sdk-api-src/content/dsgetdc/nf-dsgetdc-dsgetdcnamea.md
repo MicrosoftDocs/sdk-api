@@ -459,17 +459,13 @@ To turn on <a href="https://msdn.microsoft.com/F23E5516-36B9-478E-90D3-54D1C52CB
 
 The key will have a structure as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>String ProcessName
-  DWORD  PID &lt;optional&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+String ProcessName
+  DWORD  PID <optional>
+```
+
+
 <i>ProcessName</i> must be the full name including extension of the process that you want 
       to get trace information for. <i>PID</i> is only required when multiple processes with the 
       same name exist.  If it is defined, then only the process with that PID will be enabled for tracing.  It is not 

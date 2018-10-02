@@ -92,19 +92,15 @@ The function accepts parameters similar to<a href="http://go.microsoft.com/fwlin
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNFCIREAD(fnFileRead)
+
+```cpp
+FNFCIREAD(fnFileRead)
 {
     DWORD dwBytesRead = 0;
 
     UNREFERENCED_PARAMETER(pv);
 
-    if( ReadFile((HANDLE)hf, memory, cb, &amp;dwBytesRead, NULL) == FALSE )
+    if( ReadFile((HANDLE)hf, memory, cb, &dwBytesRead, NULL) == FALSE )
     {
         dwBytesRead = (DWORD)-1;
         *err = GetLastError();
@@ -112,10 +108,10 @@ The function accepts parameters similar to<a href="http://go.microsoft.com/fwlin
          
     return dwBytesRead;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -239,21 +239,17 @@ If the <b>listen</b> function is called on an already listening socket, it will 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>listen</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -269,7 +265,7 @@ int wmain()
     SOCKET ListenSocket = INVALID_SOCKET;
     sockaddr_in service;
 
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"WSAStartup() failed with error: %d\n", iResult);
         return 1;
@@ -289,7 +285,7 @@ int wmain()
     service.sin_addr.s_addr = inet_addr("127.0.0.1");
     service.sin_port = htons(27015);
 
-    iResult = bind(ListenSocket, (SOCKADDR *) &amp; service, sizeof (service));
+    iResult = bind(ListenSocket, (SOCKADDR *) & service, sizeof (service));
     if (iResult == SOCKET_ERROR) {
         wprintf(L"bind function failed with error %d\n", WSAGetLastError());
         iResult = closesocket(ListenSocket);
@@ -316,10 +312,10 @@ int wmain()
     WSACleanup();
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 For another example that uses the <b>listen</b> function, see <a href="https://msdn.microsoft.com/905cd5bc-44af-4d3f-841a-9e9a2700a785">Getting Started With Winsock</a>.
 

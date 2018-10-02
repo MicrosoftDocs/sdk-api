@@ -154,13 +154,9 @@ When this method is called from script, the method displays a user interface tha
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR bstrDN = NULL;
+
+```cpp
+BSTR bstrDN = NULL;
 BSTR bstrReq = NULL;
 ICEnroll4 * pEnroll4 = NULL;
 HRESULT hr;
@@ -176,7 +172,7 @@ hr = CoCreateInstance( __uuidof(CEnroll),
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        __uuidof(ICEnroll4),
-                       (void **)&amp;pEnroll4);
+                       (void **)&pEnroll4);
 if (FAILED(hr))
 {
     printf("Failed CoCreateInstance - pEnroll4 [%x]\n", hr);
@@ -192,10 +188,10 @@ bstrDN = SysAllocString( TEXT("CN=Your Name")   // common name
                          TEXT(",C=Your Country") );  // country/region
 
 // create the CMC request
-hr = pEnroll4-&gt;createRequest( XECR_CMC,
+hr = pEnroll4->createRequest( XECR_CMC,
                               bstrDN,
                               NULL,
-                              &amp;bstrReq );
+                              &bstrReq );
 if (FAILED(hr))
 {
         printf("Failed createRequest - pEnroll4 [%x]\n", hr);
@@ -212,12 +208,12 @@ if ( bstrDN )
 if ( bstrReq )
     SysFreeString( bstrReq );
 if ( pEnroll4 )
-    pEnroll4-&gt;Release();
+    pEnroll4->Release();
 
 CoUninitialize();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

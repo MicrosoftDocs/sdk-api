@@ -79,15 +79,11 @@ The values for this property are <a href="https://msdn.microsoft.com/4165b820-30
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Code to set the hash algorithm ID.
+
+```cpp
+// Code to set the hash algorithm ID.
 // hr is HRESULT variable.
-hr = pEnroll-&gt;put_HashAlgID( CALG_MD4 );
+hr = pEnroll->put_HashAlgID( CALG_MD4 );
 if ( FAILED( hr ) )    
     printf("Failed put_HashAlgID [%x]\n", hr);
 
@@ -95,14 +91,14 @@ if ( FAILED( hr ) )
 // Code to retrieve the hash algorithm ID.
 DWORD dwHashID;
 
-hr = pEnroll-&gt;get_HashAlgID( &amp;dwHashID );
+hr = pEnroll->get_HashAlgID( &dwHashID );
 if ( FAILED( hr ) )    
     printf("Failed get_HashAlgID [%x]\n", hr);
 else
-    printf("HashAlgID: %d\n", dwHashID);</pre>
-</td>
-</tr>
-</table></span></div>
+    printf("HashAlgID: %d\n", dwHashID);
+```
+
+
 
 
 

@@ -94,25 +94,21 @@ Creates a VT_CLSID propvariant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromCLSID(CLSID_PropertySystem, &amp;propvar);
+```cpp
+PROPVARIANT propvar;
+
+HRESULT hr = InitPropVariantFromCLSID(CLSID_PropertySystem, &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_CLSID.
  
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 

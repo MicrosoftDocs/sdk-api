@@ -145,30 +145,26 @@ Client applications use this method to perform complex selection operations. For
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function selects the item at a specified point on the screen. It is assumed that a single selection is wanted.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT SelectItemAtPoint(POINT point)
 {
     VARIANT varItem;
     IAccessible* pAcc;
-    HRESULT hr = AccessibleObjectFromPoint(point, &amp;pAcc, &amp;varItem);
+    HRESULT hr = AccessibleObjectFromPoint(point, &pAcc, &varItem);
     if ((hr == S_OK))
     {
-        hr = pAcc-&gt;accSelect((SELFLAG_TAKEFOCUS | SELFLAG_TAKESELECTION), varItem);
-        VariantClear(&amp;varItem);
-        pAcc-&gt;Release();
+        hr = pAcc->accSelect((SELFLAG_TAKEFOCUS | SELFLAG_TAKESELECTION), varItem);
+        VariantClear(&varItem);
+        pAcc->Release();
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
