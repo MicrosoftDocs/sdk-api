@@ -4,10 +4,10 @@ title: ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage
 author: windows-sdk-content
 description: Gets a value indicating whether the output surface from a call to ID3D11VideoContext::VideoProcessorBlt can be read by Direct3D shaders.
 old-location: mf\id3d11videocontext1_videoprocessorgetoutputshaderusage.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: B75BDC83-3065-41F8-B552-B38BCB4BFC66
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetOutputShaderUsage method, ID3D11VideoContext1.VideoProcessorGetOutputShaderUsage, ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage, VideoProcessorGetOutputShaderUsage, VideoProcessorGetOutputShaderUsage method [Media Foundation], VideoProcessorGetOutputShaderUsage method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage, mf.id3d11videocontext1_videoprocessorgetoutputshaderusage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winmsg\anypopup.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\anypopup.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: AnyPopup, AnyPopup function [Windows and Messages], _win32_AnyPopup, _win32_anypopup_cpp, winmsg.anypopup, winui._win32_anypopup, winuser/AnyPopup
 ms.prod: windows-hardware
 ms.technology: windows-devices

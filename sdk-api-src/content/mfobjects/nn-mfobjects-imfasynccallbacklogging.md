@@ -4,10 +4,10 @@ title: IMFAsyncCallbackLogging
 author: windows-sdk-content
 description: Provides logging information about the parent object the async callback is associated with.
 old-location: mf\imfasynccallbacklogging.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 8b4de920-8e82-4e50-b801-82842da8a6ae
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFAsyncCallbackLogging, IMFAsyncCallbackLogging interface [Media Foundation], IMFAsyncCallbackLogging interface [Media Foundation],described, mf.imfasynccallbacklogging, mfobjects/IMFAsyncCallbackLogging
 ms.prod: windows
 ms.technology: windows-sdk

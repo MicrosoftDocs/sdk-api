@@ -4,10 +4,10 @@ title: SHGetSetSettings function
 author: windows-sdk-content
 description: SHGetSetSettings may be altered or unavailable.
 old-location: shell\SHGetSetSettings.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IntToULong function
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type ULONG.
 old-location: shell\IntToULong.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 060915cf-d7a2-48ef-b2b6-303f2cc86c94
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IntToDWord, IntToULong, IntToULong function [Windows Shell], _shell_IntToULong, intsafe/IntToULong, shell.IntToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices

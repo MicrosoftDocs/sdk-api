@@ -4,10 +4,10 @@ title: INameSpaceTreeControlEvents::OnBeforeContextMenu
 author: windows-sdk-content
 description: Called before a context menu is displayed; allows client to add additional menu entries.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeContextMenu.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: aa243592-1cda-4844-8f3c-e9c62083fabb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeforeContextMenu method, INameSpaceTreeControlEvents.OnBeforeContextMenu, INameSpaceTreeControlEvents::OnBeforeContextMenu, OnBeforeContextMenu, OnBeforeContextMenu method [Windows Shell], OnBeforeContextMenu method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeforeContextMenu, shell.INameSpaceTreeControlEvents_OnBeforeContextMenu, shobjidl/INameSpaceTreeControlEvents::OnBeforeContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

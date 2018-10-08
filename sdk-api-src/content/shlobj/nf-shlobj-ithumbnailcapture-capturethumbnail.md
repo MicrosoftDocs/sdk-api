@@ -4,10 +4,10 @@ title: IThumbnailCapture::CaptureThumbnail
 author: windows-sdk-content
 description: Retrieves a thumbnail representation of an IHTMLDocument2 document.
 old-location: shell\IThumbnailCapture_CaptureThumbnail.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3f492199-f40c-416f-b20f-84bd5c3b3709
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CaptureThumbnail, CaptureThumbnail method [Windows Shell], CaptureThumbnail method [Windows Shell],IThumbnailCapture interface, IThumbnailCapture interface [Windows Shell],CaptureThumbnail method, IThumbnailCapture.CaptureThumbnail, IThumbnailCapture::CaptureThumbnail, _shell_IThumbnailCapture_CaptureThumbnail, shell.IThumbnailCapture_CaptureThumbnail, shlobj/IThumbnailCapture::CaptureThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices

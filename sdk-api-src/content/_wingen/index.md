@@ -2,7 +2,7 @@
 UID: TP:wingen
 ms.assetid: e9c62382-8b92-33aa-8f38-f0150c61496b
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

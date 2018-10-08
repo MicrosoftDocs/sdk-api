@@ -4,10 +4,10 @@ title: SHCreatePropSheetExtArray function
 author: windows-sdk-content
 description: SHCreatePropSheetExtArray may be altered or unavailable.
 old-location: shell\SHCreatePropSheetExtArray.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 88a72529-325d-431e-bc26-bddca787e62b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHCreatePropSheetExtArray, SHCreatePropSheetExtArray function [Windows Shell], _win32_SHCreatePropSheetExtArray, shell.SHCreatePropSheetExtArray, shlobj/SHCreatePropSheetExtArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

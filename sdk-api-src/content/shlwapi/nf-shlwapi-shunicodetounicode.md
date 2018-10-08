@@ -4,10 +4,10 @@ title: SHUnicodeToUnicode function
 author: windows-sdk-content
 description: Copies a Unicode string.
 old-location: shell\SHUnicodeToUnicode.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1a208c2d-e627-4aac-9a28-b579c734a2a8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHUnicodeToUnicode, SHUnicodeToUnicode function [Windows Shell], _win32_SHUnicodeToUnicode, shell.SHUnicodeToUnicode, shlwapi/SHUnicodeToUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices

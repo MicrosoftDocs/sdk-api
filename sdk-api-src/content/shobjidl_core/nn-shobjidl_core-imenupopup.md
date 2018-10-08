@@ -4,10 +4,10 @@ title: IMenuPopup
 author: windows-sdk-content
 description: IMenuPopup may be altered or unavailable.
 old-location: shell\IMenuPopup.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: dc5749b1-43b7-4f68-ac38-8a6e99613149
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMenuPopup, IMenuPopup interface [Windows Shell], IMenuPopup interface [Windows Shell],described, _win32_IMenuPopup, shell.IMenuPopup, shobjidl_core/IMenuPopup
 ms.prod: windows
 ms.technology: windows-sdk

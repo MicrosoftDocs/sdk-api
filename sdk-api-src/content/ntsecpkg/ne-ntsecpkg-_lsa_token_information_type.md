@@ -7,7 +7,7 @@ old-location: security\lsa_token_information_type.htm
 tech.root: secauthn
 ms.assetid: c8bf5b8d-6cb1-469d-a451-6cceafda24cf
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*PLSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE enumeration [Security], LsaTokenInformationNull, LsaTokenInformationV1, PLSA_TOKEN_INFORMATION_TYPE, PLSA_TOKEN_INFORMATION_TYPE enumeration pointer [Security], _LSA_TOKEN_INFORMATION_TYPE, _lsa_lsa_token_information_type, ntsecpkg/LSA_TOKEN_INFORMATION_TYPE, ntsecpkg/LsaTokenInformationNull, ntsecpkg/LsaTokenInformationV1, ntsecpkg/PLSA_TOKEN_INFORMATION_TYPE, security.lsa_token_information_type"
 ms.prod: windows
 ms.technology: windows-sdk

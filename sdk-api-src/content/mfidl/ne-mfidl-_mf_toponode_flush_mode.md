@@ -4,10 +4,10 @@ title: "_MF_TOPONODE_FLUSH_MODE"
 author: windows-sdk-content
 description: Defines when a transform in a topology is flushed.
 old-location: mf\mf_toponode_flush_mode.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e7eec3c1-f4be-4d7f-9d4c-e98a6a05e85a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MF_TOPONODE_FLUSH_ALWAYS, MF_TOPONODE_FLUSH_MODE, MF_TOPONODE_FLUSH_MODE enumeration [Media Foundation], MF_TOPONODE_FLUSH_NEVER, MF_TOPONODE_FLUSH_SEEK, _MF_TOPONODE_FLUSH_MODE, e7eec3c1-f4be-4d7f-9d4c-e98a6a05e85a, mf.mf_toponode_flush_mode, mfidl/MF_TOPONODE_FLUSH_ALWAYS, mfidl/MF_TOPONODE_FLUSH_MODE, mfidl/MF_TOPONODE_FLUSH_NEVER, mfidl/MF_TOPONODE_FLUSH_SEEK
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::GetNumberOfStreams
 author: windows-sdk-content
 description: Gets the number of streams in the media resource.
 old-location: mf\imfmediaengineex_getnumberofstreams.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 7F3E805A-FE5C-4B75-9333-AE9819CFAFFA
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetNumberOfStreams method, IMFMediaEngineEx.GetNumberOfStreams, IMFMediaEngineEx::GetNumberOfStreams, mf.imfmediaengineex_getnumberofstreams, mfmediaengine/IMFMediaEngineEx::GetNumberOfStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

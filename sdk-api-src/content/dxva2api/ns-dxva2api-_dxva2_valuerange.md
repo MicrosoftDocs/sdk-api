@@ -4,10 +4,10 @@ title: "_DXVA2_ValueRange"
 author: windows-sdk-content
 description: Defines the range of supported values for a DirectX Video Acceleration (DXVA) operation.
 old-location: mf\dxva2_valuerange.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e01328bb-9069-4874-aa35-b3c9bc1c6094
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DXVA2_ValueRange, DXVA2_ValueRange structure [Media Foundation], _DXVA2_ValueRange, dxva2api/DXVA2_ValueRange, e01328bb-9069-4874-aa35-b3c9bc1c6094, mf.dxva2_valuerange
 ms.prod: windows
 ms.technology: windows-sdk

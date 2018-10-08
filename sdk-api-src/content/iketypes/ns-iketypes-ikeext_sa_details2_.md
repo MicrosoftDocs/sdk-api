@@ -4,10 +4,10 @@ title: IKEEXT_SA_DETAILS2_
 author: windows-sdk-content
 description: Is used to store information returned when enumerating IKE, AuthIP, and IKEv2 security associations (SAs).
 old-location: fwp\ikeext_sa_details2.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 51b8f3a8-bccc-4d1f-871f-9a319ed5c49c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IKEEXT_SA_DETAILS2, IKEEXT_SA_DETAILS2 structure [Filtering], IKEEXT_SA_DETAILS2_, fwp.ikeext_sa_details2, iketypes/IKEEXT_SA_DETAILS2
 ms.prod: windows
 ms.technology: windows-sdk

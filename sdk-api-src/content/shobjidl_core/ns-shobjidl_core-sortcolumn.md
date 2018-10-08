@@ -4,10 +4,10 @@ title: SORTCOLUMN
 author: windows-sdk-content
 description: Stores information about how to sort a column that is displayed in the folder view.
 old-location: shell\SORTCOLUMN.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3ca4c318-6462-4e22-813c-ef7b3ef03230
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SORTCOLUMN, SORTCOLUMN structure [Windows Shell], SORT_ASCENDING, SORT_DESCENDING, _shell_SORTCOLUMN, shell.SORTCOLUMN, shobjidl_core/SORTCOLUMN
 ms.prod: windows
 ms.technology: windows-sdk

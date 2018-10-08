@@ -4,10 +4,10 @@ title: "_MFVideoDSPMode"
 author: windows-sdk-content
 description: Specifies the processing mode of the Video Stabilization MFT.
 old-location: mf\mfvideodspmode.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 24A5190B-6839-4CA1-ADBF-CDBF9B47C6AF
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFVideoDSPMode, MFVideoDSPMode enumeration [Media Foundation], MFVideoDSPMode_Passthrough, MFVideoDSPMode_Stabilization, _MFVideoDSPMode, mf.mfvideodspmode, wmcodecdsp/MFVideoDSPMode, wmcodecdsp/MFVideoDSPMode_Passthrough, wmcodecdsp/MFVideoDSPMode_Stabilization
 ms.prod: windows
 ms.technology: windows-sdk

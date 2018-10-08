@@ -4,10 +4,10 @@ title: UIntPtrToUChar function
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type UCHAR.
 old-location: shell\UIntPtrToUChar.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b69f2f7b-4f93-40f4-aaea-1b606e694680
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: UIntPtrToUChar, UIntPtrToUChar function [Windows Shell], intsafe/UIntPtrToUChar, shell.UIntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

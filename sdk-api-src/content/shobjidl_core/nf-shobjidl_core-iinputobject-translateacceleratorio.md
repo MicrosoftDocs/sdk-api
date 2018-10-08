@@ -4,10 +4,10 @@ title: IInputObject::TranslateAcceleratorIO
 author: windows-sdk-content
 description: Enables the object to process keyboard accelerators.
 old-location: shell\IInputObject_TranslateAcceleratorIO.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e075556a-2910-41ee-a8f3-3fba1cd55a35
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IInputObject interface [Windows Shell],TranslateAcceleratorIO method, IInputObject.TranslateAcceleratorIO, IInputObject::TranslateAcceleratorIO, TranslateAcceleratorIO, TranslateAcceleratorIO method [Windows Shell], TranslateAcceleratorIO method [Windows Shell],IInputObject interface, _win32_IInputObject_TranslateAcceleratorIO, shell.IInputObject_TranslateAcceleratorIO, shobjidl_core/IInputObject::TranslateAcceleratorIO
 ms.prod: windows-hardware
 ms.technology: windows-devices

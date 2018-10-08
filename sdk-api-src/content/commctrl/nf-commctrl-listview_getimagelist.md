@@ -7,7 +7,7 @@ old-location: controls\ListView_GetImageList.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getimagelist.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_GetImageList, ListView_GetImageList macro [Windows Controls], _win32_ListView_GetImageList, _win32_ListView_GetImageList_cpp, commctrl/ListView_GetImageList, controls.ListView_GetImageList, controls._win32_ListView_GetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

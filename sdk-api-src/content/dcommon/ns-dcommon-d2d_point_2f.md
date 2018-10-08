@@ -4,10 +4,10 @@ title: D2D_POINT_2F
 author: windows-sdk-content
 description: Represents an x-coordinate and y-coordinate pair, expressed as floating-point values, in two-dimensional space.
 old-location: direct2d\D2D_POINT_2F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2ee55d63-594b-482d-9e31-2378369c6c30
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: D2D1_POINT_2F, D2D_POINT_2F, D2D_POINT_2F structure [Direct2D], dcommon/D2D_POINT_2F, direct2d.D2D_POINT_2F
 ms.prod: windows
 ms.technology: windows-sdk

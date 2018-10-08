@@ -4,10 +4,10 @@ title: ITocCollection::AddEntryByIndex
 author: windows-sdk-content
 description: The AddEntryByIndex adds an individual table of contents to the collection and associates a caller-supplied index with the table of contents.
 old-location: mf\itoccollection_addentrybyindex.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 61f3103b-9b81-4729-a410-ab5ea63e072c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],AddEntryByIndex method, ITocCollection.AddEntryByIndex, ITocCollection::AddEntryByIndex, codecapi.itoccollection_addentrybyindex, mf.itoccollection_addentrybyindex, wmcodecdsp/ITocCollection::AddEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

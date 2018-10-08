@@ -4,10 +4,10 @@ title: WhichPlatform function
 author: windows-sdk-content
 description: WhichPlatform may be altered or unavailable.
 old-location: shell\WhichPlatform.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 14af733b-81b4-40a2-b93b-6f387b181f12
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: WhichPlatform, WhichPlatform function [Windows Shell], _win32_WhichPlatform, shell.WhichPlatform, shlwapi/WhichPlatform
 ms.prod: windows-hardware
 ms.technology: windows-devices

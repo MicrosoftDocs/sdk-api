@@ -4,10 +4,10 @@ title: IMFASFSplitter::GetLastSendTime
 author: windows-sdk-content
 description: Retrieves the send time of the last sample received.
 old-location: mf\imfasfsplitter_getlastsendtime.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 59a6c53c-2cdf-4677-a5a3-4138f107f721
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 59a6c53c-2cdf-4677-a5a3-4138f107f721, GetLastSendTime, GetLastSendTime method [Media Foundation], GetLastSendTime method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetLastSendTime method, IMFASFSplitter.GetLastSendTime, IMFASFSplitter::GetLastSendTime, mf.imfasfsplitter_getlastsendtime, wmcontainer/IMFASFSplitter::GetLastSendTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

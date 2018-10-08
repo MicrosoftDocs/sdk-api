@@ -4,10 +4,10 @@ title: IFileOperationProgressSink
 author: windows-sdk-content
 description: Exposes methods that provide a rich notification system used by callers of IFileOperation to monitor the details of the operations they are performing through that interface.
 old-location: shell\IFileOperationProgressSink.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 24b20e05-d8be-4060-a966-7b32d9225403
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFileOperationProgressSink, IFileOperationProgressSink interface [Windows Shell], IFileOperationProgressSink interface [Windows Shell],described, _shell_IFileOperationProgressSink, shell.IFileOperationProgressSink, shobjidl_core/IFileOperationProgressSink
 ms.prod: windows
 ms.technology: windows-sdk

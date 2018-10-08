@@ -4,10 +4,10 @@ title: IMFCollection::GetElement
 author: windows-sdk-content
 description: Retrieves an object in the collection.
 old-location: mf\imfcollection_getelement.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: a45983a8-4061-40e1-a11a-67de0867e553
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetElement, GetElement method [Media Foundation], GetElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElement method, IMFCollection.GetElement, IMFCollection::GetElement, a45983a8-4061-40e1-a11a-67de0867e553, mf.imfcollection_getelement, mfobjects/IMFCollection::GetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

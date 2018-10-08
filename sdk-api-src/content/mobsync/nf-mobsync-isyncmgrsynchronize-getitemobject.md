@@ -4,10 +4,10 @@ title: ISyncMgrSynchronize::GetItemObject
 author: windows-sdk-content
 description: Obtains an interface on a specified item that a registered application handles.
 old-location: shell\syncmgr_isyncmgrsynchronize_getitemobject.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e21e1cd5-ab15-42e3-b3c7-1ae0c4dfec02
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],GetItemObject method, ISyncMgrSynchronize.GetItemObject, ISyncMgrSynchronize::GetItemObject, mobsync/ISyncMgrSynchronize::GetItemObject, shell.syncmgr_isyncmgrsynchronize_getitemobject, syncmgr.isyncmgrsynchronize_getitemobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

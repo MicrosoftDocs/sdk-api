@@ -4,10 +4,10 @@ title: IMFMediaSharingEngineClassFactory
 author: windows-sdk-content
 description: Creates an instance of the IMFMediaSharingEngine.
 old-location: mf\imfmediasharingengineclassfactory.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: C8732101-2512-4252-A8D0-677B394BDEB1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaSharingEngineClassFactory, IMFMediaSharingEngineClassFactory interface [Media Foundation], IMFMediaSharingEngineClassFactory interface [Media Foundation],described, mf.imfmediasharingengineclassfactory, mfsharingengine/IMFMediaSharingEngineClassFactory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:wsmandisp
 ms.assetid: f9530b7e-e909-3279-8f5d-9bb8aad08c11
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

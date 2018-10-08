@@ -4,10 +4,10 @@ title: IMFVideoSampleAllocatorEx
 author: windows-sdk-content
 description: Allocates video samples that contain Microsoft Direct3D 11 texture surfaces.
 old-location: mf\imfvideosampleallocatorex.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: B621F413-001B-4419-8FA7-439C45F97243
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFVideoSampleAllocatorEx, IMFVideoSampleAllocatorEx interface [Media Foundation], IMFVideoSampleAllocatorEx interface [Media Foundation],described, mf.imfvideosampleallocatorex, mfidl/IMFVideoSampleAllocatorEx
 ms.prod: windows
 ms.technology: windows-sdk

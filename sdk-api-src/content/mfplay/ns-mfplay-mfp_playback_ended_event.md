@@ -4,10 +4,10 @@ title: MFP_PLAYBACK_ENDED_EVENT
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_PLAYBACK_ENDED event.
 old-location: mf\mfp_playback_ended_event.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 08cea881-dce9-4170-9b44-9943b014d300
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFP_PLAYBACK_ENDED_EVENT, MFP_PLAYBACK_ENDED_EVENT structure [Media Foundation], mf.mfp_playback_ended_event, mfplay/MFP_PLAYBACK_ENDED_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

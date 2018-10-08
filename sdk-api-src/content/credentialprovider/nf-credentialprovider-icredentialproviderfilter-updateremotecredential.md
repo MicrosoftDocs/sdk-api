@@ -4,10 +4,10 @@ title: ICredentialProviderFilter::UpdateRemoteCredential
 author: windows-sdk-content
 description: Updates a credential from a remote session.
 old-location: shell\ICredentialProviderFilter_UpdateRemoteCredential.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d0730f67-e4f1-42b2-823a-75b08a5c952e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ICredentialProviderFilter interface [Windows Shell],UpdateRemoteCredential method, ICredentialProviderFilter.UpdateRemoteCredential, ICredentialProviderFilter::UpdateRemoteCredential, UpdateRemoteCredential, UpdateRemoteCredential method [Windows Shell], UpdateRemoteCredential method [Windows Shell],ICredentialProviderFilter interface, _shell_ICredentialProviderFilter_UpdateRemoteCredential, credentialprovider/ICredentialProviderFilter::UpdateRemoteCredential, shell.ICredentialProviderFilter_UpdateRemoteCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

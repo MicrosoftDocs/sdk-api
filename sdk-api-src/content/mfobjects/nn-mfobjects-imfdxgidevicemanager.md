@@ -4,10 +4,10 @@ title: IMFDXGIDeviceManager
 author: windows-sdk-content
 description: Enables two threads to share the same Microsoft Direct3D 11 device.
 old-location: mf\imfdxgidevicemanager.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4A0DC266-FCF0-4ECD-AC78-CF429839486D
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], IMFDXGIDeviceManager interface [Media Foundation],described, mf.imfdxgidevicemanager, mfobjects/IMFDXGIDeviceManager
 ms.prod: windows
 ms.technology: windows-sdk

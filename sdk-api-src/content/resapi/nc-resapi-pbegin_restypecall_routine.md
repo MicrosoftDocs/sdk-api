@@ -7,7 +7,7 @@ old-location: mscs\beginresourcetypecontrol.htm
 tech.root: MsCS
 ms.assetid: 9D5D5ADB-9707-4690-9B91-CC99F68DE2A8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: BeginResourceTypeControl, BeginResourceTypeControl callback, BeginResourceTypeControl callback function [Failover Cluster], PBEGIN_RESTYPECALL_ROUTINE, PBEGIN_RESTYPECALL_ROUTINE callback function [Failover Cluster], mscs.beginresourcetypecontrol, resapi/BeginResourceTypeControl, resapi/PBEGIN_RESTYPECALL_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

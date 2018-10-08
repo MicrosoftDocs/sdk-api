@@ -4,10 +4,10 @@ title: MsiSetMode function
 author: windows-sdk-content
 description: The MsiSetMode function sets an internal engine Boolean state.
 old-location: setup\msisetmode.htm
-tech.root: MSI
+tech.root: msi
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

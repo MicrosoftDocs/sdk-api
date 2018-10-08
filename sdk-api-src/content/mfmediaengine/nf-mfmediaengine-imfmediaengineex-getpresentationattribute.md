@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::GetPresentationAttribute
 author: windows-sdk-content
 description: Gets a presentation attribute from the media resource.
 old-location: mf\imfmediaengineex_getpresentationattribute.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 127667EA-8ED2-428E-8F6B-C280CF42E1C5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetPresentationAttribute method, IMFMediaEngineEx.GetPresentationAttribute, IMFMediaEngineEx::GetPresentationAttribute, mf.imfmediaengineex_getpresentationattribute, mfmediaengine/IMFMediaEngineEx::GetPresentationAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

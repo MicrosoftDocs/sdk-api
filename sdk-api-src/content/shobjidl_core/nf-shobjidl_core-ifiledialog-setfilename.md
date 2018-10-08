@@ -4,10 +4,10 @@ title: IFileDialog::SetFileName
 author: windows-sdk-content
 description: Sets the file name that appears in the File name edit box when that dialog box is opened.
 old-location: shell\IFileDialog_SetFileName.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b8b72a76-6cdb-4675-8d84-f3c7171b8576
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileName method, IFileDialog.SetFileName, IFileDialog::SetFileName, SetFileName, SetFileName method [Windows Shell], SetFileName method [Windows Shell],IFileDialog interface, _shell_IFileDialog_SetFileName, shell.IFileDialog_SetFileName, shobjidl_core/IFileDialog::SetFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

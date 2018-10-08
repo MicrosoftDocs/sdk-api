@@ -4,10 +4,10 @@ title: IFileSaveDialog::SetProperties
 author: windows-sdk-content
 description: Provides a property store that defines the default values to be used for the item being saved.
 old-location: shell\IFileSaveDialog_SetProperties.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 418f2524-5e6d-4e79-894b-b5f706171836
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetProperties method, IFileSaveDialog.SetProperties, IFileSaveDialog::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetProperties, shell_IFileSaveDialog_SetProperties, shobjidl_core/IFileSaveDialog::SetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

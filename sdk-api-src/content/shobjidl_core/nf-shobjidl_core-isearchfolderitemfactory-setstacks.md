@@ -4,10 +4,10 @@ title: ISearchFolderItemFactory::SetStacks
 author: windows-sdk-content
 description: Creates a list of stack keys, as specified. If this method is not called, by default the folder will not be stacked.
 old-location: shell\ISearchFolderItemFactory_SetStacks.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d2f3d975-b968-4491-868f-90eccb40e8e4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetStacks method, ISearchFolderItemFactory.SetStacks, ISearchFolderItemFactory::SetStacks, SetStacks, SetStacks method [Windows Shell], SetStacks method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetStacks, shell.ISearchFolderItemFactory_SetStacks, shobjidl_core/ISearchFolderItemFactory::SetStacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

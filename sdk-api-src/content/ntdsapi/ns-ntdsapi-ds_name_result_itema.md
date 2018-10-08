@@ -4,10 +4,10 @@ title: DS_NAME_RESULT_ITEMA
 author: windows-sdk-content
 description: The DS_NAME_RESULT_ITEM structure contains a name converted by the DsCrackNames function, along with associated error and domain data.
 old-location: ad\ds_name_result_item.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 50a4488f-e2d4-4671-b0e7-fb8cb4096c5c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PDS_NAME_RESULT_ITEMA, DS_NAME_RESULT_ITEM, DS_NAME_RESULT_ITEM structure [Active Directory], DS_NAME_RESULT_ITEMA, DS_NAME_RESULT_ITEMW, PDS_NAME_RESULT_ITEM, PDS_NAME_RESULT_ITEM structure pointer [Active Directory], _glines_ds_name_result_item, ad.ds__name__result__item, ad.ds_name_result_item, ntdsapi/DS_NAME_RESULT_ITEM, ntdsapi/DS_NAME_RESULT_ITEMA, ntdsapi/DS_NAME_RESULT_ITEMW, ntdsapi/PDS_NAME_RESULT_ITEM"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MFP_EVENT_HEADER
 author: windows-sdk-content
 description: Contains information that is common to every type of MFPlay event.
 old-location: mf\mfp_event_header.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ed9d3790-845a-4392-b755-6a5ce6e20de5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFP_EVENT_HEADER, MFP_EVENT_HEADER structure [Media Foundation], mf.mfp_event_header, mfplay/MFP_EVENT_HEADER
 ms.prod: windows
 ms.technology: windows-sdk

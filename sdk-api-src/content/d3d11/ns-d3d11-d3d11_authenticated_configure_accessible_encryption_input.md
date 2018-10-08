@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT
 author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_ENCRYPTION_WHEN_ACCESSIBLE command.
 old-location: mf\d3d11_authenticated_configure_accessible_encryption_input.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: CEC3B9BC-CEDB-448E-9088-35EBF9D7906F
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT, mf.d3d11_authenticated_configure_accessible_encryption_input
 ms.prod: windows
 ms.technology: windows-sdk

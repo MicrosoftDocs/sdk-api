@@ -4,10 +4,10 @@ title: IFileDialogCustomize::AddPushButton
 author: windows-sdk-content
 description: Adds a button to the dialog.
 old-location: shell\IFileDialogCustomize_AddPushButton.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: cd0e4a8f-59c7-4056-8521-abb4c8c08a40
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddPushButton, AddPushButton method [Windows Shell], AddPushButton method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddPushButton method, IFileDialogCustomize.AddPushButton, IFileDialogCustomize::AddPushButton, shell.IFileDialogCustomize_AddPushButton, shell_IFileDialogCustomize_AddPushButton, shobjidl_core/IFileDialogCustomize::AddPushButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

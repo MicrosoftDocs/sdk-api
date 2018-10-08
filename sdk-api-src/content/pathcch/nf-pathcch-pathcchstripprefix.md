@@ -4,10 +4,10 @@ title: PathCchStripPrefix function
 author: windows-sdk-content
 description: Removes the &#0034;\\?\&#0034; prefix, if present, from a file path.
 old-location: shell\PathCchStripPrefix.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2e50b23e-2725-4200-bd5e-845ff3458026
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pathcch/PathCchStripPrefix, shell.PathCchStripPrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITocEntry::SetDescriptor
 author: windows-sdk-content
 description: The SetDescriptor method associates a descriptor with the entry.
 old-location: mf\itocentry_setdescriptor.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 09a366a6-fcb4-4a0b-8df1-795360d147b9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetDescriptor method, ITocEntry.SetDescriptor, ITocEntry::SetDescriptor, SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptor, mf.itocentry_setdescriptor, wmcodecdsp/ITocEntry::SetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

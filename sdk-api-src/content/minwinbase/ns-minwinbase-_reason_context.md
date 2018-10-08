@@ -4,10 +4,10 @@ title: "_REASON_CONTEXT"
 author: windows-sdk-content
 description: Contains information about a power request. This structure is used by the PowerCreateRequest and SetWaitableTimerEx functions.
 old-location: base\reason_context.htm
-tech.root: Power
+tech.root: power
 ms.assetid: 006bb84f-5e51-4f6e-8a44-6b50e763c5ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PREASON_CONTEXT, POWER_REQUEST_CONTEXT_DETAILED_STRING, POWER_REQUEST_CONTEXT_SIMPLE_STRING, PREASON_CONTEXT, PREASON_CONTEXT structure pointer, REASON_CONTEXT, REASON_CONTEXT structure, _REASON_CONTEXT, base.reason_context, minwinbase/PREASON_CONTEXT, minwinbase/REASON_CONTEXT, winbase/PREASON_CONTEXT, winbase/REASON_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

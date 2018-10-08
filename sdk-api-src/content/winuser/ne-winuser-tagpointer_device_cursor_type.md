@@ -2,12 +2,12 @@
 UID: NE:winuser.tagPOINTER_DEVICE_CURSOR_TYPE
 title: tagPOINTER_DEVICE_CURSOR_TYPE
 author: windows-sdk-content
-description: Identifies the cursor types.
+description: Identifies the pointer device cursor types.
 old-location: input_pointerdevice\pointer_device_cursor_type.htm
 tech.root: Input_PointerDevice
 ms.assetid: ebd5c0c6-a949-42f1-976e-96d143b1a0d7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: POINTER_DEVICE_CURSOR_TYPE, POINTER_DEVICE_CURSOR_TYPE enumeration, POINTER_DEVICE_CURSOR_TYPE_ERASER, POINTER_DEVICE_CURSOR_TYPE_MAX, POINTER_DEVICE_CURSOR_TYPE_TIP, POINTER_DEVICE_CURSOR_TYPE_UNKNOWN, input_pointerdevice.pointer_device_cursor_type, tagPOINTER_DEVICE_CURSOR_TYPE, unifiedinputstack.pointer_device_cursor_type, winuser/POINTER_DEVICE_CURSOR_TYPE, winuser/POINTER_DEVICE_CURSOR_TYPE_ERASER, winuser/POINTER_DEVICE_CURSOR_TYPE_MAX, winuser/POINTER_DEVICE_CURSOR_TYPE_TIP, winuser/POINTER_DEVICE_CURSOR_TYPE_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifies the cursor types.
+Identifies the pointer device cursor types.
 
 
 ## -enum-fields

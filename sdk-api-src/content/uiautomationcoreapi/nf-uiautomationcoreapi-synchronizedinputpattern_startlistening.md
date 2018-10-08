@@ -7,7 +7,7 @@ old-location: winauto\uiauto_SynchronizedInputPattern_StartListening.htm
 tech.root: WinAuto
 ms.assetid: 6c8c88fc-25b2-4ca3-86d7-f1d666fc45e1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SynchronizedInputPattern_StartListening, SynchronizedInputPattern_StartListening function [Windows Accessibility], uiauto.uiauto_SynchronizedInputPattern_StartListening, uiauto_SynchronizedInputPattern_StartListening, uiautomationcoreapi/SynchronizedInputPattern_StartListening, winauto.uiauto_SynchronizedInputPattern_StartListening
 ms.prod: windows-hardware
 ms.technology: windows-devices

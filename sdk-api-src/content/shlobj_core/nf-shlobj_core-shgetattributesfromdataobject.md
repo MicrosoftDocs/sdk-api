@@ -4,10 +4,10 @@ title: SHGetAttributesFromDataObject function
 author: windows-sdk-content
 description: SHGetAttributesFromDataObject may be altered or unavailable.
 old-location: shell\SHGetAttributesFromDataObject.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bdc583ef-a5b6-4665-949c-50f79ace39dc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHGetAttributesFromDataObject, SHGetAttributesFromDataObject function [Windows Shell], _win32_SHGetAttributesFromDataObject, shell.SHGetAttributesFromDataObject, shlobj_core/SHGetAttributesFromDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: LongLongToLong function
 author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type LONG.
 old-location: shell\LongLongToLong.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c77dbb9f-6c3a-4793-9740-ce9b75727b0d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Int64ToLong, LongLongToLong, LongLongToLong function [Windows Shell], intsafe/LongLongToLong, shell.LongLongToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

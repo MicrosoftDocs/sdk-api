@@ -4,10 +4,10 @@ title: IntPtrSub function
 author: windows-sdk-content
 description: Subtracts one value of type INT_PTR from another.
 old-location: shell\IntPtrSub.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ad30f236-7412-401f-b6a9-76b74118092d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IntPtrSub, IntPtrSub function [Windows Shell], intsafe/IntPtrSub, shell.IntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

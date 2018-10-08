@@ -7,7 +7,7 @@ old-location: security\schannel_client_signature.htm
 tech.root: secauthn
 ms.assetid: 2549a287-bee3-457b-86e3-3330bf23169a
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE structure pointer [Security], SCHANNEL_CLIENT_SIGNATURE, SCHANNEL_CLIENT_SIGNATURE structure [Security], _SCHANNEL_CLIENT_SIGNATURE, schannel/PSCHANNEL_CLIENT_SIGNATURE, schannel/SCHANNEL_CLIENT_SIGNATURE, security.schannel_client_signature"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFNetProxyLocator
 author: windows-sdk-content
 description: Determines the proxy to use when connecting to a server.
 old-location: mf\imfnetproxylocator.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2906b998-f1ca-4c65-b810-cbc360390653
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 2906b998-f1ca-4c65-b810-cbc360390653, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], IMFNetProxyLocator interface [Media Foundation],described, mf.imfnetproxylocator, mfidl/IMFNetProxyLocator
 ms.prod: windows
 ms.technology: windows-sdk

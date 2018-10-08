@@ -2,21 +2,21 @@
 UID: NF:d2d1.ID2D1GeometrySink.AddArc(const D2D1_ARC_SEGMENT &)
 title: ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT &)
 author: windows-sdk-content
-description: Creates a single arc and adds it to the path geometry.
-old-location: direct2d\id2d1geometrysink_addarc.htm
-tech.root: direct2d
-ms.assetid: 845fed36-8425-45fd-a12e-7537e5ba3c4f
+description: Adds a single arc to the path geometry.
+old-location: direct2d\ID2D1GeometrySink_AddArc_ref_D2D1_ARC_SEGMENT.htm
+tech.root: Direct2D
+ms.assetid: 4d3d1f39-454a-4131-b6f8-90e333f2b7c4
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: AddArc, AddArc methods [Direct2D], ID2D1GeometrySink.AddArc, ID2D1GeometrySink.AddArc(const D2D1_ARC_SEGMENT &), ID2D1GeometrySink::AddArc, ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT &), d2d1/AddArc, direct2d.id2d1geometrysink_addarc
+ms.date: 10/05/2018
+ms.keywords: AddArc, AddArc method [Direct2D], AddArc method [Direct2D],ID2D1GeometrySink interface, ID2D1GeometrySink interface [Direct2D],AddArc method, ID2D1GeometrySink.AddArc, ID2D1GeometrySink.AddArc(const D2D1_ARC_SEGMENT &), ID2D1GeometrySink::AddArc, ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT &), d2d1/ID2D1GeometrySink::AddArc, direct2d.ID2D1GeometrySink_AddArc_ref_D2D1_ARC_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1GeometrySink::AddArc
+ - ID2D1GeometrySink.AddArc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,33 +50,28 @@ req.redist:
 ## -description
 
 
-<span>Creates a single arc and adds it to the path geometry.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d3d1f39-454a-4131-b6f8-90e333f2b7c4">AddArc(D2D1_ARC_SEGMENT&)</a>
-</td>
-<td align="left" width="63%">
 Adds a single arc to the path geometry.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8627e30d-59b2-47e2-bd6d-ed8c6124b95c">AddArc(D2D1_ARC_SEGMENT*)</a>
-</td>
-<td align="left" width="63%">
-Adds a single arc to the path geometry. 
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param arc [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/3f391265-20b4-4897-aa0b-d14b71cd5f0a">D2D1_ARC_SEGMENT</a></b>
+
+The arc segment to add to the figure.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
 
 
 ## -see-also

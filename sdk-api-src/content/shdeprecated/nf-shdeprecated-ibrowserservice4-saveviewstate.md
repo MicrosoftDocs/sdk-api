@@ -4,10 +4,10 @@ title: IBrowserService4::SaveViewState
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService4_SaveViewState.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 8f43aa2b-9bae-4eda-823b-0dc036185ca8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBrowserService4 interface [Windows Shell],SaveViewState method, IBrowserService4.SaveViewState, IBrowserService4::SaveViewState, SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell],IBrowserService4 interface, _shell_IBrowserService4_SaveViewState, shdeprecated/IBrowserService4::SaveViewState, shell.IBrowserService4_SaveViewState
 ms.prod: windows-hardware
 ms.technology: windows-devices

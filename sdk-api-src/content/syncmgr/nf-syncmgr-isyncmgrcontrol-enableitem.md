@@ -4,10 +4,10 @@ title: ISyncMgrControl::EnableItem
 author: windows-sdk-content
 description: Enables or disables a sync item managed by a specified handler.
 old-location: shell\ISyncMgrControl_EnableItem.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2e88fb21-201c-47b9-b341-1a8d9358a455
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: EnableItem, EnableItem method [Windows Shell], EnableItem method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableItem method, ISyncMgrControl.EnableItem, ISyncMgrControl::EnableItem, _shell_ISyncMgrControl_EnableItem, shell.ISyncMgrControl_EnableItem, syncmgr/ISyncMgrControl::EnableItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

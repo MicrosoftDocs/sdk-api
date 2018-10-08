@@ -7,7 +7,7 @@ old-location: com\ioleundounit_do.htm
 tech.root: com
 ms.assetid: 5f087779-ef92-41c9-94e6-61d07d5731a7
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: Do, Do method [COM], Do method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],Do method, IOleUndoUnit.Do, IOleUndoUnit::Do, _ole_ioleundounit_do, com.ioleundounit_do, ocidl/IOleUndoUnit::Do
 ms.prod: windows-hardware
 ms.technology: windows-devices

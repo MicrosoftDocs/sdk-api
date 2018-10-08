@@ -4,10 +4,10 @@ title: IApplicationAssociationRegistrationUI
 author: windows-sdk-content
 description: Exposes a method that launches an advanced association dialog box through which the user can customize their associations.
 old-location: shell\IApplicationAssociationRegistrationUI.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3a4d6f1d-72c2-4bd0-ad44-1c42a5bf9cb6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IApplicationAssociationRegistrationUI, IApplicationAssociationRegistrationUI interface [Windows Shell], IApplicationAssociationRegistrationUI interface [Windows Shell],described, _shell_IApplicationAssociationRegistrationUI, shell.IApplicationAssociationRegistrationUI, shobjidl/IApplicationAssociationRegistrationUI
 ms.prod: windows
 ms.technology: windows-sdk

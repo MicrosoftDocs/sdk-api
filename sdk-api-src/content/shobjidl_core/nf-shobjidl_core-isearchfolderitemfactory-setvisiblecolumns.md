@@ -4,10 +4,10 @@ title: ISearchFolderItemFactory::SetVisibleColumns
 author: windows-sdk-content
 description: Creates a new column list whose columns are all visible, given an array of PROPERTYKEY structures. The default is based on FolderTypeID.
 old-location: shell\ISearchFolderItemFactory_SetVisibleColumns.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: be18218e-a117-4256-936e-3a5eb36c3654
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetVisibleColumns method, ISearchFolderItemFactory.SetVisibleColumns, ISearchFolderItemFactory::SetVisibleColumns, SetVisibleColumns, SetVisibleColumns method [Windows Shell], SetVisibleColumns method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetVisibleColumns, shell.ISearchFolderItemFactory_SetVisibleColumns, shobjidl_core/ISearchFolderItemFactory::SetVisibleColumns
 ms.prod: windows-hardware
 ms.technology: windows-devices

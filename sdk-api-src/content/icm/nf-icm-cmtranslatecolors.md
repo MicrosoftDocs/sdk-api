@@ -7,7 +7,7 @@ old-location: wcs\cmtranslatecolors.htm
 tech.root: WCS
 ms.assetid: 5c775e36-ee45-4b8a-ac12-6219063e185a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: CMTranslateColors, CMTranslateColors function [Windows Color System], _color_CMTranslateColors, icm/CMTranslateColors, wcs.cmtranslatecolors
 ms.prod: windows-hardware
 ms.technology: windows-devices

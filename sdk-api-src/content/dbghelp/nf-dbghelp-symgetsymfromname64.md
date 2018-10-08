@@ -7,7 +7,7 @@ old-location: base\symgetsymfromname64.htm
 tech.root: debug
 ms.assetid: 9c9a1a57-06c2-422a-b078-5b7725d54bd4
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: SymGetSymFromName, SymGetSymFromName function, SymGetSymFromName64, SymGetSymFromName64 function, _win32_symgetsymfromname64, base.symgetsymfromname64, dbghelp/SymGetSymFromName, dbghelp/SymGetSymFromName64
 ms.prod: windows-hardware
 ms.technology: windows-devices

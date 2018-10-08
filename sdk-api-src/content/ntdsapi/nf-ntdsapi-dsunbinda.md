@@ -4,10 +4,10 @@ title: DsUnBindA function
 author: windows-sdk-content
 description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS).
 old-location: ad\dsunbind.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 7106d67f-d421-4a7c-b775-440e5944f25e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DsUnBind, DsUnBind function [Active Directory], DsUnBindA, DsUnBindW, _glines_dsunbind, ad.dsunbind, ntdsapi/DsUnBind, ntdsapi/DsUnBindA, ntdsapi/DsUnBindW
 ms.prod: windows-hardware
 ms.technology: windows-devices

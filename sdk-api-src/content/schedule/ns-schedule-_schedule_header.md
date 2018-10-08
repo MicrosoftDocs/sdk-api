@@ -4,10 +4,10 @@ title: "_SCHEDULE_HEADER"
 author: windows-sdk-content
 description: Used to contain the replication schedule data for a replication source.
 old-location: ad\schedule_header.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 5453927e-306e-4442-a855-916005dc8e3b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PSCHEDULE_HEADER, PSCHEDULE_HEADER, PSCHEDULE_HEADER structure pointer [Active Directory], SCHEDULE_BANDWIDTH, SCHEDULE_HEADER, SCHEDULE_HEADER structure [Active Directory], SCHEDULE_INTERVAL, SCHEDULE_PRIORITY, _SCHEDULE_HEADER, ad.schedule_header, schedule/PSCHEDULE_HEADER, schedule/SCHEDULE_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFTimedTextStyle::GetShowBackgroundAlways
 author: windows-sdk-content
 description: Determines whether the style of timed text always shows the background.
 old-location: mf\imftimedtextstyle_getshowbackgroundalways.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 3FE2327F-542B-45D3-95F4-09CF0CE26403
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetShowBackgroundAlways, GetShowBackgroundAlways method [Media Foundation], GetShowBackgroundAlways method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetShowBackgroundAlways method, IMFTimedTextStyle.GetShowBackgroundAlways, IMFTimedTextStyle::GetShowBackgroundAlways, mf.imftimedtextstyle_getshowbackgroundalways, mfmediaengine/IMFTimedTextStyle::GetShowBackgroundAlways
 ms.prod: windows-hardware
 ms.technology: windows-devices

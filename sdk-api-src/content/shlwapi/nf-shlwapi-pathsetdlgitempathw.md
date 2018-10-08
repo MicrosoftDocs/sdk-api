@@ -4,10 +4,10 @@ title: PathSetDlgItemPathW function
 author: windows-sdk-content
 description: Sets the text of a child control in a window or dialog box, using PathCompactPath to ensure the path fits in the control.
 old-location: shell\PathSetDlgItemPath.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 05737525-d906-482c-847f-bdbf0ba0ce3d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathSetDlgItemPath, PathSetDlgItemPath function [Windows Shell], PathSetDlgItemPathA, PathSetDlgItemPathW, _win32_PathSetDlgItemPath, shell.PathSetDlgItemPath, shlwapi/PathSetDlgItemPath, shlwapi/PathSetDlgItemPathA, shlwapi/PathSetDlgItemPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

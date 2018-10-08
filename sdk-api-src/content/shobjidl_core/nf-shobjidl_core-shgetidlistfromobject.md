@@ -4,10 +4,10 @@ title: SHGetIDListFromObject function
 author: windows-sdk-content
 description: Retrieves the pointer to an item identifier list (PIDL) of an object.
 old-location: shell\SHGetIDListFromObject.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 42821075-8123-4bfa-a6ba-8d3a77a9f50b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHGetIDListFromObject, SHGetIDListFromObject function [Windows Shell], _shell_SHGetIDListFromObject, shell.SHGetIDListFromObject, shobjidl_core/SHGetIDListFromObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

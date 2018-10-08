@@ -4,10 +4,10 @@ title: "_RTL_UMS_THREAD_INFO_CLASS"
 author: windows-sdk-content
 description: Represents classes of information about user-mode scheduling (UMS) threads.
 old-location: base\ums_thread_info_class.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 2d6730b2-4d01-45f5-9514-0d91806f50d5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PRTL_UMS_THREAD_INFO_CLASS, PUMS_THREAD_INFO_CLASS, PUMS_THREAD_INFO_CLASS enumeration pointer, RTL_UMS_THREAD_INFO_CLASS, UMS_THREAD_INFO_CLASS, UMS_THREAD_INFO_CLASS enumeration, UmsThreadAffinity, UmsThreadInvalidInfoClass, UmsThreadIsSuspended, UmsThreadIsTerminated, UmsThreadMaxInfoClass, UmsThreadPriority, UmsThreadTeb, UmsThreadUserContext, _RTL_UMS_THREAD_INFO_CLASS, base.ums_thread_info_class, winbase/PUMS_THREAD_INFO_CLASS, winbase/UMS_THREAD_INFO_CLASS, winbase/UmsThreadAffinity, winbase/UmsThreadInvalidInfoClass, winbase/UmsThreadIsSuspended, winbase/UmsThreadIsTerminated, winbase/UmsThreadMaxInfoClass, winbase/UmsThreadPriority, winbase/UmsThreadTeb, winbase/UmsThreadUserContext, winnt/PUMS_THREAD_INFO_CLASS, winnt/UMS_THREAD_INFO_CLASS, winnt/UmsThreadAffinity, winnt/UmsThreadInvalidInfoClass, winnt/UmsThreadIsSuspended, winnt/UmsThreadIsTerminated, winnt/UmsThreadMaxInfoClass, winnt/UmsThreadPriority, winnt/UmsThreadTeb, winnt/UmsThreadUserContext"
 ms.prod: windows
 ms.technology: windows-sdk

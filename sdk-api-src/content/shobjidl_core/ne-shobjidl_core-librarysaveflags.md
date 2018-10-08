@@ -4,10 +4,10 @@ title: LIBRARYSAVEFLAGS
 author: windows-sdk-content
 description: Specifies the options for handling a name collision when saving a library.
 old-location: shell\LIBRARYSAVEFLAGS.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: cae52226-0030-457b-aebf-00aaf860243d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LIBRARYSAVEFLAGS, LIBRARYSAVEFLAGS enumeration [Windows Shell], LSF_FAILIFTHERE, LSF_MAKEUNIQUENAME, LSF_OVERRIDEEXISTING, _shell_LIBRARYSAVEFLAGS, shell.LIBRARYSAVEFLAGS, shobjidl_core/LIBRARYSAVEFLAGS, shobjidl_core/LSF_FAILIFTHERE, shobjidl_core/LSF_MAKEUNIQUENAME, shobjidl_core/LSF_OVERRIDEEXISTING
 ms.prod: windows
 ms.technology: windows-sdk

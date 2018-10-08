@@ -4,10 +4,10 @@ title: MprAdminInterfaceSetCustomInfoEx function
 author: windows-sdk-content
 description: Sets the tunnel specific custom configuration for a specified demand dial interface on a specified server.
 old-location: rras\mpradmininterfacesetcustominfoex.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 306d9d6c-6196-4a1f-8549-f8dd0fb5ab6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MprAdminInterfaceSetCustomInfoEx, MprAdminInterfaceSetCustomInfoEx function [RAS], mprapi/MprAdminInterfaceSetCustomInfoEx, rras.mpradmininterfacesetcustominfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

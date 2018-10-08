@@ -4,10 +4,10 @@ title: FWPM_FILTER_CHANGE0_
 author: windows-sdk-content
 description: Stores change notification dispatched to subscribers.
 old-location: fwp\fwpm_filter_change0_struct.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 01c58002-5506-4e2a-ae85-30b16aad2dd6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: FWPM_FILTER_CHANGE0, FWPM_FILTER_CHANGE0 structure [Filtering], FWPM_FILTER_CHANGE0_, fwp.fwpm_filter_change0_struct, fwpmtypes/FWPM_FILTER_CHANGE0
 ms.prod: windows
 ms.technology: windows-sdk

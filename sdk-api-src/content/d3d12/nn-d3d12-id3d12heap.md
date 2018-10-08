@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12heap.htm
 tech.root: direct3d12
 ms.assetid: 3791C64F-76D7-4580-A444-F2CEA3EB10CE
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D12Heap, ID3D12Heap interface, ID3D12Heap interface,described, d3d12/ID3D12Heap, direct3d12.id3d12heap
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SYNCMGR_RESOLUTION_FEEDBACK
 author: windows-sdk-content
 description: Describes Sync Manager resolution feedback. Used by ISyncMgrResolutionHandler.
 old-location: shell\SYNCMGR_RESOLUTION_FEEDBACK.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9526cac8-0df3-40b2-9f86-1a4dadb61dcc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SYNCMGR_RESOLUTION_FEEDBACK, SYNCMGR_RESOLUTION_FEEDBACK enumeration [Windows Shell], SYNCMGR_RF_CANCEL, SYNCMGR_RF_CONTINUE, SYNCMGR_RF_REFRESH, _shell_SYNCMGR_RESOLUTION_FEEDBACK, shell.SYNCMGR_RESOLUTION_FEEDBACK, syncmgr/SYNCMGR_RESOLUTION_FEEDBACK, syncmgr/SYNCMGR_RF_CANCEL, syncmgr/SYNCMGR_RF_CONTINUE, syncmgr/SYNCMGR_RF_REFRESH
 ms.prod: windows
 ms.technology: windows-sdk

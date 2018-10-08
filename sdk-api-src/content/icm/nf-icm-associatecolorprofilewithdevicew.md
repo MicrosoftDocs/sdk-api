@@ -7,7 +7,7 @@ old-location: wcs\associatecolorprofilewithdevice.htm
 tech.root: WCS
 ms.assetid: 2a4adfde-ab91-48f1-8212-3263006ea3a1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: AssociateColorProfileWithDevice, AssociateColorProfileWithDevice function [Windows Color System], AssociateColorProfileWithDeviceA, AssociateColorProfileWithDeviceW, _color_AssociateColorProfileWithDevice, icm/AssociateColorProfileWithDevice, icm/AssociateColorProfileWithDeviceA, icm/AssociateColorProfileWithDeviceW, wcs.associatecolorprofilewithdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

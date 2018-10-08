@@ -7,7 +7,7 @@ old-location: hid\keyboard_input_data.htm
 tech.root: hid
 ms.assetid: ea0b592a-51d1-4407-9c66-b069af336e54
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: "*PKEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA structure [Human Input Devices], PKEYBOARD_INPUT_DATA, PKEYBOARD_INPUT_DATA structure pointer [Human Input Devices], _KEYBOARD_INPUT_DATA, hid.keyboard_input_data, kref_5fd34b1f-6ad2-4eaf-971a-8adedb3bada9.xml, ntddkbd/KEYBOARD_INPUT_DATA, ntddkbd/PKEYBOARD_INPUT_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

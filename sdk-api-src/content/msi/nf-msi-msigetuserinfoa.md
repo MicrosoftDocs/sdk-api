@@ -4,10 +4,10 @@ title: MsiGetUserInfoA function
 author: windows-sdk-content
 description: The MsiGetUserInfo function returns the registered user information for an installed product.
 old-location: setup\msigetuserinfo.htm
-tech.root: MSI
+tech.root: msi
 ms.assetid: c05580c6-9be3-410a-aa97-be15c2980ba8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MsiGetUserInfo, MsiGetUserInfo function, MsiGetUserInfoA, MsiGetUserInfoW, _msi_msigetuserinfo, msi/MsiGetUserInfo, msi/MsiGetUserInfoA, msi/MsiGetUserInfoW, setup.msigetuserinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

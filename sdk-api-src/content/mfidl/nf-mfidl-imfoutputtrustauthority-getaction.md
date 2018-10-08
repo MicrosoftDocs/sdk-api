@@ -4,10 +4,10 @@ title: IMFOutputTrustAuthority::GetAction
 author: windows-sdk-content
 description: Retrieves the action that is performed by this output trust authority (OTA).
 old-location: mf\imfoutputtrustauthority_getaction.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 5a109e18-a6e2-4f8c-a656-b27112935452
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 5a109e18-a6e2-4f8c-a656-b27112935452, GetAction, GetAction method [Media Foundation], GetAction method [Media Foundation],IMFOutputTrustAuthority interface, IMFOutputTrustAuthority interface [Media Foundation],GetAction method, IMFOutputTrustAuthority.GetAction, IMFOutputTrustAuthority::GetAction, mf.imfoutputtrustauthority_getaction, mfidl/IMFOutputTrustAuthority::GetAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

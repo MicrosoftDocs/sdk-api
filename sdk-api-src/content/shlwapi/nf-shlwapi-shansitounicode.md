@@ -4,10 +4,10 @@ title: SHAnsiToUnicode function
 author: windows-sdk-content
 description: Converts a string from the ANSI code page to the Unicode code page.
 old-location: shell\SHAnsiToUnicode.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9578f26e-56ea-4f3b-b024-b2e285d0c4d2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHAnsiToUnicode, SHAnsiToUnicode function [Windows Shell], _win32_SHAnsiToUnicode, shell.SHAnsiToUnicode, shlwapi/SHAnsiToUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices

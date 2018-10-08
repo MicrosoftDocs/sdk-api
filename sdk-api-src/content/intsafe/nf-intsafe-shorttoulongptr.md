@@ -4,10 +4,10 @@ title: ShortToULongPtr function
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type ULONG_PTR.
 old-location: shell\ShortToULongPtr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 92600b01-55da-4f71-bbfd-96df43c1b6a5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ShortToULongPtr, ShortToULongPtr function [Windows Shell], intsafe/ShortToULongPtr, shell.ShortToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

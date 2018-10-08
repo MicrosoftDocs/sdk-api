@@ -4,10 +4,10 @@ title: ExtractAssociatedIconW function
 author: windows-sdk-content
 description: Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.
 old-location: shell\ExtractAssociatedIcon.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shell], ExtractAssociatedIconA, ExtractAssociatedIconW, _shell_ExtractAssociatedIcon, shell.ExtractAssociatedIcon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices

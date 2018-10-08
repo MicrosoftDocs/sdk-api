@@ -4,10 +4,10 @@ title: IFrameworkInputPane
 author: windows-sdk-content
 description: Provides methods that enable apps to be informed of state changes and location for the input pane.
 old-location: shell\IFrameworkInputPane.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 05C115BA-249A-4271-9C6F-DAAEE91BB936
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFrameworkInputPane, IFrameworkInputPane interface [Windows Shell], IFrameworkInputPane interface [Windows Shell],described, shell.IFrameworkInputPane, shobjidl_core/IFrameworkInputPane
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\PFNDPAMERGE.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamerge.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGE, PFNDPAMERGE callback, PFNDPAMERGE callback function [Windows Controls], _shell_PFNDPAMERGE, _shell_PFNDPAMERGE_cpp, controls.PFNDPAMERGE, controls._shell_PFNDPAMERGE, dpa_dsa/PFNDPAMERGE
 ms.prod: windows
 ms.technology: windows-sdk

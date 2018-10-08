@@ -4,10 +4,10 @@ title: MFScheduleWorkItemEx function
 author: windows-sdk-content
 description: Schedules an asynchronous operation to be completed after a specified interval.
 old-location: mf\mfscheduleworkitemex.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: b698cae1-4f3b-4649-b6f7-583f223eb90c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFScheduleWorkItemEx, MFScheduleWorkItemEx function [Media Foundation], b698cae1-4f3b-4649-b6f7-583f223eb90c, mf.mfscheduleworkitemex, mfapi/MFScheduleWorkItemEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

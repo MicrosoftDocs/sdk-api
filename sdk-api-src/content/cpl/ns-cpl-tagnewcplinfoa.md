@@ -4,10 +4,10 @@ title: tagNEWCPLINFOA
 author: windows-sdk-content
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\NEWCPLINFO.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPNEWCPLINFOA, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOA, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO, tagNEWCPLINFOA"
 ms.prod: windows
 ms.technology: windows-sdk

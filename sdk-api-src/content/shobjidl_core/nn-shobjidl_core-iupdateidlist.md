@@ -4,10 +4,10 @@ title: IUpdateIDList
 author: windows-sdk-content
 description: Provides a method to update the ITEMIDLIST of the child of an folder object.
 old-location: shell\IUpdateIDList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e6d94975-de33-497e-95a9-b89e8f8f0134
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IUpdateIDList, IUpdateIDList interface [Windows Shell], IUpdateIDList interface [Windows Shell],described, _shell_IUpdateIDList, shell.IUpdateIDList, shobjidl_core/IUpdateIDList
 ms.prod: windows
 ms.technology: windows-sdk

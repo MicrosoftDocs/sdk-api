@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::GetVideoWindow
 author: windows-sdk-content
 description: Gets the window where the video is displayed.
 old-location: mf\imfpmediaplayer_getvideowindow.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 313e3a87-3dad-4cfb-ad37-1018cb03a707
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoWindow method, IMFPMediaPlayer.GetVideoWindow, IMFPMediaPlayer::GetVideoWindow, mf.imfpmediaplayer_getvideowindow, mfplay/IMFPMediaPlayer::GetVideoWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

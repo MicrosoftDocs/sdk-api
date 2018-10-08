@@ -7,7 +7,7 @@ old-location: security\cert_signed_content_info.htm
 tech.root: seccrypto
 ms.assetid: f650765e-7a72-42a3-baf7-29779fd04adc
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*PCERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO structure [Security], PCERT_SIGNED_CONTENT_INFO, PCERT_SIGNED_CONTENT_INFO structure pointer [Security], _CERT_SIGNED_CONTENT_INFO, _crypto2_cert_signed_content_info, security.cert_signed_content_info, wincrypt/CERT_SIGNED_CONTENT_INFO, wincrypt/PCERT_SIGNED_CONTENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

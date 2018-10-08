@@ -4,10 +4,10 @@ title: WriteProcessorPwrScheme function
 author: windows-sdk-content
 description: Writes processor power policy settings for the specified power scheme.
 old-location: base\writeprocessorpwrscheme.htm
-tech.root: Power
+tech.root: power
 ms.assetid: 70e18f50-4774-4a7c-8fe0-7fd6a54aaa90
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: WriteProcessorPwrScheme, WriteProcessorPwrScheme function, _win32_writeprocessorpwrscheme, base.writeprocessorpwrscheme, powrprof/WriteProcessorPwrScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

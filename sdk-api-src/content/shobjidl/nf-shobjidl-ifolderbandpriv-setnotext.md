@@ -4,10 +4,10 @@ title: IFolderBandPriv::SetNoText
 author: windows-sdk-content
 description: Sets whether text is displayed in a folder band.
 old-location: shell\IFolderBandPriv_SetNoText.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 49a0e5ae-68ce-488c-a1a0-bd9df5458143
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoText method, IFolderBandPriv.SetNoText, IFolderBandPriv::SetNoText, SetNoText, SetNoText method [Windows Shell], SetNoText method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoText, shell.IFolderBandPriv_SetNoText, shobjidl/IFolderBandPriv::SetNoText
 ms.prod: windows-hardware
 ms.technology: windows-devices

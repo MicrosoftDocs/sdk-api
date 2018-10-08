@@ -4,10 +4,10 @@ title: PathCchAddExtension function
 author: windows-sdk-content
 description: Adds a file name extension to a path string.This function differs from PathAddExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchAddExtension.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c37b438b-39e7-4f24-b076-2401900dab71
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathCchAddExtension, PathCchAddExtension function [Windows Shell], pathcch/PathCchAddExtension, shell.PathCchAddExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

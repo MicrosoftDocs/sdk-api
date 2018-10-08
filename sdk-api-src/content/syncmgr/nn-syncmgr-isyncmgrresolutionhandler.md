@@ -4,10 +4,10 @@ title: ISyncMgrResolutionHandler
 author: windows-sdk-content
 description: Exposes methods that manage synchronizing conflicts. Implement this interface to construct a sync conflict handler. The conflict resolution user interface (UI) will call this interface to resolve the conflict presented to the user.
 old-location: shell\ISyncMgrResolutionHandler.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5b77217d-5c63-41be-b4df-338714a90fb9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], ISyncMgrResolutionHandler interface [Windows Shell],described, _shell_ISyncMgrResolutionHandler, shell.ISyncMgrResolutionHandler, syncmgr/ISyncMgrResolutionHandler
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISyncMgrSyncItem::GetPolicies
 author: windows-sdk-content
 description: Gets a set of flags describing the policies set by the item.
 old-location: shell\ISyncMgrSyncItem_GetPolicies.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5f4e1a8e-8fa7-48b3-8f20-8b260540ab9c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetPolicies method, ISyncMgrSyncItem.GetPolicies, ISyncMgrSyncItem::GetPolicies, _shell_ISyncMgrSyncItem_GetPolicies, shell.ISyncMgrSyncItem_GetPolicies, syncmgr/ISyncMgrSyncItem::GetPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

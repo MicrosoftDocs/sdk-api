@@ -4,10 +4,10 @@ title: IMFASFStreamConfig
 author: windows-sdk-content
 description: Configures the settings of a stream in an ASF file.
 old-location: mf\imfasfstreamconfig.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 7bb63396-21c2-400d-b9de-c00b90f46d62
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 7bb63396-21c2-400d-b9de-c00b90f46d62, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], IMFASFStreamConfig interface [Media Foundation],described, mf.imfasfstreamconfig, wmcontainer/IMFASFStreamConfig
 ms.prod: windows
 ms.technology: windows-sdk

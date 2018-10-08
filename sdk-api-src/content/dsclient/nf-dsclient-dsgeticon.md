@@ -4,10 +4,10 @@ title: DsGetIcon function
 author: windows-sdk-content
 description: Obtains the icon for a given object class.
 old-location: ad\dsgeticon.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: eee18c78-aefa-4f09-9361-91893502efec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISNORMAL, DSGIF_ISOPEN, DsGetIcon, DsGetIcon function [Active Directory], ad.dsgeticon, dsclient/DsGetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

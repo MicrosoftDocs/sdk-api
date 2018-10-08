@@ -4,10 +4,10 @@ title: IAssocHandler
 author: windows-sdk-content
 description: Exposes methods for operations with a file association dialog box or menu.
 old-location: shell\IAssocHandler.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5d5a107c-2c0e-4242-8f40-97421937167c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAssocHandler, IAssocHandler interface [Windows Shell], IAssocHandler interface [Windows Shell],described, _shell_IAssocHandler, shell.IAssocHandler, shobjidl_core/IAssocHandler
 ms.prod: windows
 ms.technology: windows-sdk

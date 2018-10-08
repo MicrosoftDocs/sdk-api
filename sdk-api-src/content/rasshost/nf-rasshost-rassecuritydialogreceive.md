@@ -4,10 +4,10 @@ title: RasSecurityDialogReceive function
 author: windows-sdk-content
 description: The RasSecurityDialogReceive function starts an asynchronous operation that receives a remote user's response to a security challenge.
 old-location: rras\rassecuritydialogreceive.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: ed5fcea6-6533-4c78-bd49-dfeaafd8192a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: RasSecurityDialogReceive, RasSecurityDialogReceive function [RAS], _ras_rassecuritydialogreceive, rasshost/RasSecurityDialogReceive, rras.rassecuritydialogreceive
 ms.prod: windows-hardware
 ms.technology: windows-devices

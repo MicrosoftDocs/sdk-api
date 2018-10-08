@@ -4,10 +4,10 @@ title: LongLongToUShort function
 author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type USHORT.
 old-location: shell\LongLongToUShort.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fd70ca5d-1dc0-4d2a-b497-a7df9cfba95c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LongLongToUShort, LongLongToUShort function [Windows Shell], intsafe/LongLongToUShort, shell.LongLongToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

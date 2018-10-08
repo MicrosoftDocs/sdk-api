@@ -2,13 +2,13 @@
 UID: NF:d2d1.ID2D1Geometry.ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT)
 title: ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT)
 author: windows-sdk-content
-description: Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.
-old-location: direct2d\ID2D1Geometry_ComputeArea_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT.htm
-tech.root: direct2d
-ms.assetid: 1efc99d7-453f-4c51-a523-00c38fa00ff4
+description: Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.
+old-location: direct2d\ID2D1Geometry_ComputeArea_ref_D2D_MATRIX_3X2_F_ptr_FLOAT.htm
+tech.root: Direct2D
+ms.assetid: 451d2979-5f76-46d7-b07c-43fbae48a522
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ComputeArea, ComputeArea method [Direct2D], ComputeArea method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputeArea method, ID2D1Geometry.ComputeArea, ID2D1Geometry.ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT), ID2D1Geometry::ComputeArea, ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT), d2d1/ID2D1Geometry::ComputeArea, direct2d.ID2D1Geometry_ComputeArea_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT
+ms.date: 10/05/2018
+ms.keywords: ComputeArea, ComputeArea method [Direct2D], ComputeArea method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputeArea method, ID2D1Geometry.ComputeArea, ID2D1Geometry.ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT), ID2D1Geometry::ComputeArea, ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT), d2d1/ID2D1Geometry::ComputeArea, direct2d.ID2D1Geometry_ComputeArea_ref_D2D_MATRIX_3X2_F_ptr_FLOAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.
+Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.
 
 
 ## -parameters
@@ -58,26 +58,18 @@ Computes the area of the geometry after it has been transformed by the specified
 
 
 
-### -param worldTransform [in, optional]
+### -param worldTransform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
-The transform to apply to this geometry before computing its area, or <b>NULL</b>.
+The transform to be applied to this geometry before computing its area. 
 
 
 ### -param area [out]
 
 Type: <b>FLOAT*</b>
 
-When this this method returns, contains a pointer to the area of the transformed, flattened version of this geometry. You must allocate storage for this parameter.
-
-
-#### - flatteningTolerance
-
-Type: <b>FLOAT</b>
-
-The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution. 
-
+When this method returns, <i>area</i> contains a pointer to the area of the transformed, flattened version of this geometry. You must allocate storage for this parameter.
 
 
 ## -returns

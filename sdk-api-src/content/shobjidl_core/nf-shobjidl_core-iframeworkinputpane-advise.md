@@ -4,10 +4,10 @@ title: IFrameworkInputPane::Advise
 author: windows-sdk-content
 description: Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from AdviseWithHWND in that it references its window through an object that implements ICoreWindow.
 old-location: shell\IFrameworkInputPane_Advise.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: F05A097F-13A4-48ad-B660-5B2409BB6D61
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFrameworkInputPane interface, IFrameworkInputPane interface [Windows Shell],Advise method, IFrameworkInputPane.Advise, IFrameworkInputPane::Advise, shell.IFrameworkInputPane_Advise, shobjidl_core/IFrameworkInputPane::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

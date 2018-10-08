@@ -4,10 +4,10 @@ title: SHDefExtractIconA function
 author: windows-sdk-content
 description: Provides a default handler to extract an icon from a file.
 old-location: shell\SHDefExtractIcon.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fbaa600a-5e5c-4948-81fb-d2c3993dcd47
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GIL_SIMULATEDOC, SHDefExtractIcon, SHDefExtractIcon function [Windows Shell], SHDefExtractIconA, SHDefExtractIconW, _win32_SHDefExtractIcon, shell.SHDefExtractIcon, shlobj_core/SHDefExtractIcon, shlobj_core/SHDefExtractIconA, shlobj_core/SHDefExtractIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices

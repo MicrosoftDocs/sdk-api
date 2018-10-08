@@ -4,10 +4,10 @@ title: ICredentialProviderEvents::CredentialsChanged
 author: windows-sdk-content
 description: Signals the Logon UI or Credential UI that the enumerated list of credentials has changed.
 old-location: shell\ICredentialProviderEvents_CredentialsChanged.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bff835ed-01b9-4620-a97c-c64a2445e02a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CredentialsChanged, CredentialsChanged method [Windows Shell], CredentialsChanged method [Windows Shell],ICredentialProviderEvents interface, ICredentialProviderEvents interface [Windows Shell],CredentialsChanged method, ICredentialProviderEvents.CredentialsChanged, ICredentialProviderEvents::CredentialsChanged, credentialprovider/ICredentialProviderEvents::CredentialsChanged, shell.ICredentialProviderEvents_CredentialsChanged, shell_ICredentialProviderEvents_CredentialsChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

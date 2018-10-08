@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontrol_getcurrentviewtype.htm
 tech.root: devnotes
 ms.assetid: 1037db43-58db-4131-9a7d-d392250e133a
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: GetCurrentViewType, GetCurrentViewType method [Windows API], GetCurrentViewType method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetCurrentViewType method, ICameraUIControl.GetCurrentViewType, ICameraUIControl::GetCurrentViewType, camerauicontrol/ICameraUIControl::GetCurrentViewType, winprog.icamerauicontrol_getcurrentviewtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

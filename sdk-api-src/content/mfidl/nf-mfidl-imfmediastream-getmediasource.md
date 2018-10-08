@@ -4,10 +4,10 @@ title: IMFMediaStream::GetMediaSource
 author: windows-sdk-content
 description: Retrieves a pointer to the media source that created this media stream.
 old-location: mf\imfmediastream_getmediasource.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ffca44ca-14ae-4f93-a719-9012a8151a7a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetMediaSource, GetMediaSource method [Media Foundation], GetMediaSource method [Media Foundation],IMFMediaStream interface, IMFMediaStream interface [Media Foundation],GetMediaSource method, IMFMediaStream.GetMediaSource, IMFMediaStream::GetMediaSource, ffca44ca-14ae-4f93-a719-9012a8151a7a, mf.imfmediastream_getmediasource, mfidl/IMFMediaStream::GetMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,21 +2,21 @@
 UID: NF:d2d1.ID2D1RenderTarget.CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush)
 title: ID2D1RenderTarget::CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush)
 author: windows-sdk-content
-description: Creates an ID2D1RadialGradientBrush object that can be used to paint areas with a radial gradient.
-old-location: direct2d\id2d1rendertarget_createradialgradientbrush.htm
-tech.root: direct2d
-ms.assetid: 985a4c1b-d29b-46ed-bc55-6dcd313718a8
+description: Creates an ID2D1RadialGradientBrush that contains the specified gradient stops and has the specified transform and base opacity.
+old-location: direct2d\ID2D1RenderTarget_CreateRadialGradientBrush_overload1.htm
+tech.root: Direct2D
+ms.assetid: df87e288-392d-439e-8d03-e4866fde892f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush methods [Direct2D], ID2D1RenderTarget.CreateRadialGradientBrush, ID2D1RenderTarget.CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush), ID2D1RenderTarget::CreateRadialGradientBrush, ID2D1RenderTarget::CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush), d2d1/CreateRadialGradientBrush, direct2d.id2d1rendertarget_createradialgradientbrush
+ms.date: 10/05/2018
+ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush method [Direct2D], CreateRadialGradientBrush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateRadialGradientBrush method, ID2D1RenderTarget.CreateRadialGradientBrush, ID2D1RenderTarget.CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush), ID2D1RenderTarget::CreateRadialGradientBrush, ID2D1RenderTarget::CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush), d2d1/ID2D1RenderTarget::CreateRadialGradientBrush, direct2d.ID2D1RenderTarget_CreateRadialGradientBrush_overload1, direct2d.ID2D1RenderTarget_CreateRadialGradientBrush_ref_D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES_ref_D2D1_BRUSH_PROPERTIES_ptr_ID2D1GradientStopCollection_ptr_ptr_ID2D1RadialGradientBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget::CreateRadialGradientBrush
+ - ID2D1RenderTarget.CreateRadialGradientBrush
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,45 +50,51 @@ req.redist:
 ## -description
 
 
-<span>Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> object that can be used to paint areas with a radial gradient.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/177d0b8c-82ae-4d2a-ae43-246352b92166">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES&,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
-</td>
-<td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> that contains the specified gradient stops, has no transform, and has a base opacity of 1.0.
-    
-    
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df87e288-392d-439e-8d03-e4866fde892f">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES&,D2D1_BRUSH_PROPERTIES&,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
-</td>
-<td align="left" width="63%">
 Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> that contains the specified gradient stops and has the specified transform and base opacity.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d4f4ba0-1d1d-477f-a721-898a259df022">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES*,D2D1_BRUSH_PROPERTIES*,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
-</td>
-<td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> that contains the specified gradient stops and has the specified transform and base opacity.
-    
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param radialGradientBrushProperties [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/194f7624-ac3b-4054-8d6f-5b4c99ef6546">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a></b>
+
+The center, gradient origin offset, and x-radius and y-radius of the brush's gradient.
+
+
+### -param brushProperties [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/37b2fc18-a320-41c0-8717-dcd561a2f2df">D2D1_BRUSH_PROPERTIES</a></b>
+
+The transform and base opacity of the new brush.
+
+
+### -param gradientStopCollection [in]
+
+Type: <b><a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a>*</b>
+
+A collection of <a href="https://msdn.microsoft.com/f6798542-382a-4074-bbe1-707bc00b3575">D2D1_GRADIENT_STOP</a> structures that describe the colors in the brush's gradient and their locations along the gradient.
+
+
+### -param radialGradientBrush [out]
+
+Type: <b><a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>**</b>
+
+When this method returns, contains a pointer to a pointer to the new brush. This parameter is passed uninitialized.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -see-also

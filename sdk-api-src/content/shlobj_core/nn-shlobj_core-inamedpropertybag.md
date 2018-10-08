@@ -4,10 +4,10 @@ title: INamedPropertyBag
 author: windows-sdk-content
 description: Exposes methods that provide an object with a specified property bag in which the object can save its properties.
 old-location: shell\INamedPropertyBag.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5a7d6e06-712b-4b18-baad-f4166163c50f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: INamedPropertyBag, INamedPropertyBag interface [Windows Shell], INamedPropertyBag interface [Windows Shell],described, _shell_INamedPropertyBag, shell.INamedPropertyBag, shlobj_core/INamedPropertyBag
 ms.prod: windows
 ms.technology: windows-sdk

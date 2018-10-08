@@ -4,10 +4,10 @@ title: StrRetToBSTR function
 author: windows-sdk-content
 description: Accepts a STRRET structure returned by IShellFolder::GetDisplayNameOf that contains or points to a string, and returns that string as a BSTR.
 old-location: shell\StrRetToBSTR.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2a5a9a2b-74df-4521-a5b2-8fc91c3559eb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrRetToBSTR, StrRetToBSTR function [Windows Shell], _shell_StrRetToBSTR, shell.StrRetToBSTR, shlwapi/StrRetToBSTR
 ms.prod: windows-hardware
 ms.technology: windows-devices

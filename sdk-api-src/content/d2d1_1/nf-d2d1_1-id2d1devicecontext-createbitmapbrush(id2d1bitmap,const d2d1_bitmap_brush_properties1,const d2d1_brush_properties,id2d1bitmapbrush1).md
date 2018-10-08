@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMA
 title: ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1,const D2D1_BRUSH_PROPERTIES,ID2D1BitmapBrush1)
 author: windows-sdk-content
 description: Creates a bitmap brush, the input image is a Direct2D bitmap object.
-old-location: direct2d\id2d1devicecontext_createbitmapbrush.htm
-tech.root: direct2d
-ms.assetid: E6385DBD-1A3B-4504-9987-35258E90DBC7
+old-location: direct2d\id2d1devicecontext_createbitmapbrush5.htm
+tech.root: Direct2D
+ms.assetid: 8222589B-9910-455A-A642-3F08262727FB
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateBitmapBrush, CreateBitmapBrush method [Direct2D], CreateBitmapBrush method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapBrush method, ID2D1DeviceContext.CreateBitmapBrush, ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1,const D2D1_BRUSH_PROPERTIES,ID2D1BitmapBrush1), ID2D1DeviceContext::CreateBitmapBrush, ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1,const D2D1_BRUSH_PROPERTIES,ID2D1BitmapBrush1), d2d1_1/ID2D1DeviceContext::CreateBitmapBrush, direct2d.id2d1devicecontext_createbitmapbrush
+ms.date: 10/05/2018
+ms.keywords: CreateBitmapBrush, CreateBitmapBrush method [Direct2D], CreateBitmapBrush method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapBrush method, ID2D1DeviceContext.CreateBitmapBrush, ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1,const D2D1_BRUSH_PROPERTIES,ID2D1BitmapBrush1), ID2D1DeviceContext::CreateBitmapBrush, ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1,const D2D1_BRUSH_PROPERTIES,ID2D1BitmapBrush1), d2d1_1/ID2D1DeviceContext::CreateBitmapBrush, direct2d.id2d1devicecontext_createbitmapbrush5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,14 +67,14 @@ The bitmap to use as the brush.
 
 ### -param bitmapBrushProperties [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/0FECAD03-C35C-4729-9BBE-40DE11B34068">D2D1_BITMAP_BRUSH_PROPERTIES1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0FECAD03-C35C-4729-9BBE-40DE11B34068">D2D1_BITMAP_BRUSH_PROPERTIES1</a></b>
 
 A bitmap brush properties structure.
 
 
-#### - brushProperties [in, optional]
+### -param brushProperties [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/37b2fc18-a320-41c0-8717-dcd561a2f2df">D2D1_BRUSH_PROPERTIES</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/37b2fc18-a320-41c0-8717-dcd561a2f2df">D2D1_BRUSH_PROPERTIES</a></b>
 
 A brush properties structure.
 

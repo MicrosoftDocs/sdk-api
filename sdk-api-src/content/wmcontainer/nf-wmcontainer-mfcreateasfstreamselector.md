@@ -4,10 +4,10 @@ title: MFCreateASFStreamSelector function
 author: windows-sdk-content
 description: Creates the ASF stream selector.
 old-location: mf\mfcreateasfstreamselector.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 71b1af5b-f127-463f-9720-72e789bb2cd1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 71b1af5b-f127-463f-9720-72e789bb2cd1, MFCreateASFStreamSelector, MFCreateASFStreamSelector function [Media Foundation], mf.mfcreateasfstreamselector, wmcontainer/MFCreateASFStreamSelector
 ms.prod: windows-hardware
 ms.technology: windows-devices

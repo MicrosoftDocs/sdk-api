@@ -4,10 +4,10 @@ title: ULongLongToUChar function
 author: windows-sdk-content
 description: Converts a value of type ULONGLONG to a value of type UCHAR.
 old-location: shell\ULongLongToUChar.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 0cf22d19-db44-4307-9fbc-6d814c21c06d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ULongLongToUChar, ULongLongToUChar function [Windows Shell], intsafe/ULongLongToUChar, shell.ULongLongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

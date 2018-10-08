@@ -7,7 +7,7 @@ old-location: controls\TreeView_DeleteItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_deleteitem.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: TreeView_DeleteItem, TreeView_DeleteItem macro [Windows Controls], _win32_TreeView_DeleteItem, _win32_TreeView_DeleteItem_cpp, commctrl/TreeView_DeleteItem, controls.TreeView_DeleteItem, controls._win32_TreeView_DeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

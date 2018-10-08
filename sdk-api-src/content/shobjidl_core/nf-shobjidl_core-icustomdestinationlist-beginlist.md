@@ -4,10 +4,10 @@ title: ICustomDestinationList::BeginList
 author: windows-sdk-content
 description: Initiates a building session for a custom Jump List.
 old-location: shell\ICustomDestinationList_BeginList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 431ae6b0-1421-46ec-a06a-38158acb0275
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: BeginList, BeginList method [Windows Shell], BeginList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],BeginList method, ICustomDestinationList.BeginList, ICustomDestinationList::BeginList, _shell_ICustomDestinationList_BeginList, shell.ICustomDestinationList_BeginList, shobjidl_core/ICustomDestinationList::BeginList
 ms.prod: windows-hardware
 ms.technology: windows-devices

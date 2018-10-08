@@ -4,10 +4,10 @@ title: IDockingWindowSite::RequestBorderSpaceDW
 author: windows-sdk-content
 description: Approves, modifies, or refuses a request for an IDockingWindow object's border space. The border space is not allocated until the SetBorderSpaceDW method is called.
 old-location: shell\IDockingWindowSite_RequestBorderSpaceDW.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a104c58b-44da-47e7-b10b-f0116024bee1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDockingWindowSite interface [Windows Shell],RequestBorderSpaceDW method, IDockingWindowSite.RequestBorderSpaceDW, IDockingWindowSite::RequestBorderSpaceDW, RequestBorderSpaceDW, RequestBorderSpaceDW method [Windows Shell], RequestBorderSpaceDW method [Windows Shell],IDockingWindowSite interface, _win32_IDockingWindowSite_RequestBorderSpaceDW, shell.IDockingWindowSite_RequestBorderSpaceDW, shlobj_core/IDockingWindowSite::RequestBorderSpaceDW
 ms.prod: windows-hardware
 ms.technology: windows-devices

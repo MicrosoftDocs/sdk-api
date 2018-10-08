@@ -4,10 +4,10 @@ title: SHCreateDefaultContextMenu function
 author: windows-sdk-content
 description: Creates an object that represents the Shell's default context menu implementation.
 old-location: shell\SHCreateDefaultContextMenu.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 055ff0a0-9ba7-463d-9684-3fd072b190da
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHCreateDefaultContextMenu, SHCreateDefaultContextMenu function [Windows Shell], _shell_SHCreateDefaultContextMenu, shell.SHCreateDefaultContextMenu, shlobj_core/SHCreateDefaultContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

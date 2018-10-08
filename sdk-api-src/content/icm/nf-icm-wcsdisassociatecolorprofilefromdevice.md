@@ -7,7 +7,7 @@ old-location: wcs\wcsdisassociatecolorprofilefromdevice.htm
 tech.root: WCS
 ms.assetid: d5c2ee77-7cab-4f41-801c-bc749bba00c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Windows Color System], _color_WcsDisassociateColorProfileFromDevice, icm/WcsDisassociateColorProfileFromDevice, wcs.wcsdisassociatecolorprofilefromdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

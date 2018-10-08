@@ -4,10 +4,10 @@ title: IDefaultExtractIconInit::SetShortcutIcon
 author: windows-sdk-content
 description: Sets the icon for a shortcut to the object.
 old-location: shell\IDefaultExtractIconInit_SetShortcutIcon.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1defab08-3dce-4668-aca3-d11821a4c339
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetShortcutIcon method, IDefaultExtractIconInit.SetShortcutIcon, IDefaultExtractIconInit::SetShortcutIcon, SetShortcutIcon, SetShortcutIcon method [Windows Shell], SetShortcutIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetShortcutIcon, shell.IDefaultExtractIconInit_SetShortcutIcon, shobjidl_core/IDefaultExtractIconInit::SetShortcutIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ICredentialProviderEvents
 author: windows-sdk-content
 description: Provides an asynchronous callback mechanism used by a credential provider to notify it of changes in the list of credentials or their fields.
 old-location: shell\ICredentialProviderEvents.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bf303b9d-2d6c-4de5-9bca-fc71d4f18903
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ICredentialProviderEvents, ICredentialProviderEvents interface [Windows Shell], ICredentialProviderEvents interface [Windows Shell],described, credentialprovider/ICredentialProviderEvents, shell.ICredentialProviderEvents, shell_ICredentialProviderEvents
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFSimpleAudioVolume::GetMasterVolume
 author: windows-sdk-content
 description: Retrieves the master volume level.
 old-location: mf\imfsimpleaudiovolume_getmastervolume.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 03ce097e-c4e5-4dac-84c0-b569efc420bc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMasterVolume method, IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

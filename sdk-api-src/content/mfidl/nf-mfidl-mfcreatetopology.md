@@ -4,10 +4,10 @@ title: MFCreateTopology function
 author: windows-sdk-content
 description: Creates a topology object.
 old-location: mf\mfcreatetopology.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 9811eca7-e822-4ff7-93e4-2eb6245d4490
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 9811eca7-e822-4ff7-93e4-2eb6245d4490, MFCreateTopology, MFCreateTopology function [Media Foundation], mf.mfcreatetopology, mfidl/MFCreateTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

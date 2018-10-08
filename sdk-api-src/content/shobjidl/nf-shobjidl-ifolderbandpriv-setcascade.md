@@ -4,10 +4,10 @@ title: IFolderBandPriv::SetCascade
 author: windows-sdk-content
 description: Sets a cascade folder.
 old-location: shell\IFolderBandPriv_SetCascade.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c4981edf-981e-47e3-8869-86cb99f23e3e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetCascade method, IFolderBandPriv.SetCascade, IFolderBandPriv::SetCascade, SetCascade, SetCascade method [Windows Shell], SetCascade method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetCascade, shell.IFolderBandPriv_SetCascade, shobjidl/IFolderBandPriv::SetCascade
 ms.prod: windows-hardware
 ms.technology: windows-devices

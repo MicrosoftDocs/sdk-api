@@ -4,10 +4,10 @@ title: IDefaultFolderMenuInitialize::Initialize
 author: windows-sdk-content
 description: "."
 old-location: shell\IDefaultFolderMenuInitialize_Initialize.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: D837712B-1FF3-4021-BA50-E433BF5B24C2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],Initialize method, IDefaultFolderMenuInitialize.Initialize, IDefaultFolderMenuInitialize::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_Initialize, shobjidl_core/IDefaultFolderMenuInitialize::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

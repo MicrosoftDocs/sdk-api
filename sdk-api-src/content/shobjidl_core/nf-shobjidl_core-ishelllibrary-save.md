@@ -4,10 +4,10 @@ title: IShellLibrary::Save
 author: windows-sdk-content
 description: Saves the library to a new Library Description (*.library-ms) file.
 old-location: shell\IShellLibrary_Save.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2a7de829-f0bc-4ace-aed4-83d0611ae292
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],Save method, IShellLibrary.Save, IShellLibrary::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_Save, shell.IShellLibrary_Save, shobjidl_core/IShellLibrary::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

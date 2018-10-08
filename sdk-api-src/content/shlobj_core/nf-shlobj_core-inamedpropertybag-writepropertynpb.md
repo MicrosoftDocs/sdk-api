@@ -4,10 +4,10 @@ title: INamedPropertyBag::WritePropertyNPB
 author: windows-sdk-content
 description: Saves a property to the named property bag.
 old-location: shell\INamedPropertyBag_WritePropertyNPB.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f91764ee-85eb-47ec-b983-49ec410b8c2c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],WritePropertyNPB method, INamedPropertyBag.WritePropertyNPB, INamedPropertyBag::WritePropertyNPB, WritePropertyNPB, WritePropertyNPB method [Windows Shell], WritePropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_WritePropertyNPB, shell.INamedPropertyBag_WritePropertyNPB, shlobj_core/INamedPropertyBag::WritePropertyNPB
 ms.prod: windows-hardware
 ms.technology: windows-devices

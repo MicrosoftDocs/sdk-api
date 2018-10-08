@@ -4,10 +4,10 @@ title: DWordPtrMult function
 author: windows-sdk-content
 description: Multiplies one value of type DWORD_PTR by another.
 old-location: shell\DWordPtrMult.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9f5beb13-17cd-44ef-a352-843d51304ab6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DWordPtrMult, DWordPtrMult function [Windows Shell], _shell_DWordPtrMult, intsafe/DWordPtrMult, shell.DWordPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

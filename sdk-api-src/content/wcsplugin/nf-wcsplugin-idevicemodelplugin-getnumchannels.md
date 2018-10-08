@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_GetNumChannels.htm
 tech.root: WCS
 ms.assetid: 3963eaf1-2516-4ac5-9f9f-9962f9d42adb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: GetNumChannels, GetNumChannels method [Windows Color System], GetNumChannels method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNumChannels method, IDeviceModelPlugIn.GetNumChannels, IDeviceModelPlugIn::GetNumChannels, _color_IDeviceModelPlugIn::GetNumChannels, wcs.IDeviceModelPlugIn_GetNumChannels, wcsplugin/IDeviceModelPlugIn::GetNumChannels
 ms.prod: windows-hardware
 ms.technology: windows-devices

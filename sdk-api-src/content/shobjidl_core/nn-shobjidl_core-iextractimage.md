@@ -4,10 +4,10 @@ title: IExtractImage
 author: windows-sdk-content
 description: Exposes methods that request a thumbnail image from a Shell folder.
 old-location: shell\IExtractImage.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 28a13749-89e7-407e-89cb-95464859ce3e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IExtractImage, IExtractImage interface [Windows Shell], IExtractImage interface [Windows Shell],described, _win32_IExtractImage, shell.IExtractImage, shobjidl_core/IExtractImage
 ms.prod: windows
 ms.technology: windows-sdk

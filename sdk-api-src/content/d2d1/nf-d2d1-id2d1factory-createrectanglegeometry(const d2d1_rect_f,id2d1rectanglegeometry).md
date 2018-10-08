@@ -3,20 +3,20 @@ UID: NF:d2d1.ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F,ID2D1Rectang
 title: ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry)
 author: windows-sdk-content
 description: Creates an ID2D1RectangleGeometry.
-old-location: direct2d\id2d1factory_createrectanglegeometry.htm
-tech.root: direct2d
-ms.assetid: 4c8f4950-7b5a-4f77-9a5b-513916f83d0c
+old-location: direct2d\ID2D1Factory_CreateRectangleGeometry_ptr_D2D_RECT_F_ptr_ptr_ID2D1RectangleGeometry.htm
+tech.root: Direct2D
+ms.assetid: 3d9a1e40-1432-4800-8d15-e2b8bda8f04f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateRectangleGeometry, CreateRectangleGeometry methods [Direct2D], ID2D1Factory.CreateRectangleGeometry, ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry), ID2D1Factory::CreateRectangleGeometry, ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry), d2d1/CreateRectangleGeometry, direct2d.id2d1factory_createrectanglegeometry
+ms.date: 10/05/2018
+ms.keywords: CreateRectangleGeometry, CreateRectangleGeometry method [Direct2D], CreateRectangleGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateRectangleGeometry method, ID2D1Factory.CreateRectangleGeometry, ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry), ID2D1Factory::CreateRectangleGeometry, ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry), d2d1/ID2D1Factory::CreateRectangleGeometry, direct2d.ID2D1Factory_CreateRectangleGeometry_ptr_D2D_RECT_F_ptr_ptr_ID2D1RectangleGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory::CreateRectangleGeometry
+ - ID2D1Factory.CreateRectangleGeometry
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,33 +50,37 @@ req.redist:
 ## -description
 
 
-<span>Creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d9a1e40-1432-4800-8d15-e2b8bda8f04f">CreateRectangleGeometry(D2D1_RECT_F*,ID2D1RectangleGeometry**)</a>
-</td>
-<td align="left" width="63%">
 Creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>. 
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/536bc4c6-9347-4b7f-ab35-163636d327b6">CreateRectangleGeometry(D2D1_RECT_F&,ID2D1RectangleGeometry**)</a>
-</td>
-<td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>. 
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param rectangle [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+
+The coordinates of the rectangle geometry. 
+
+
+### -param rectangleGeometry [out]
+
+Type: <b><a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>**</b>
+
+When this method returns, contains the address of the pointer to the rectangle geometry created by this method.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -see-also

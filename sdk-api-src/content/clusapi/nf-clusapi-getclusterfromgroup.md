@@ -7,7 +7,7 @@ old-location: mscs\getclusterfromgroup.htm
 tech.root: MsCS
 ms.assetid: 43e1a74f-3320-4b1a-a946-6485d380dda1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: GetClusterFromGroup, GetClusterFromGroup function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_GROUP, PCLUSAPI_GET_CLUSTER_FROM_GROUP function [Failover Cluster], _wolf_getclusterfromgroup, clusapi/GetClusterFromGroup, clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP, mscs.getclusterfromgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

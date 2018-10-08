@@ -4,10 +4,10 @@ title: ULongLongToChar function
 author: windows-sdk-content
 description: Converts a value of type ULONGLONG to a value of type CHAR.
 old-location: shell\ULongLongToChar.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6216f4fb-1eea-4a8a-a92c-ab853cbff516
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ULongLongToChar, ULongLongToChar function [Windows Shell], intsafe/ULongLongToChar, shell.ULongLongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

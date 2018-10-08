@@ -4,10 +4,10 @@ title: IMFClock
 author: windows-sdk-content
 description: Provides timing information from a clock in Microsoft Media Foundation.
 old-location: mf\imfclock.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 3a60bfec-8511-4a84-a833-e0c73c593970
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 3a60bfec-8511-4a84-a833-e0c73c593970, IMFClock, IMFClock interface [Media Foundation], IMFClock interface [Media Foundation],described, mf.imfclock, mfidl/IMFClock
 ms.prod: windows
 ms.technology: windows-sdk

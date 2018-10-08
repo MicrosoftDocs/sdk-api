@@ -4,10 +4,10 @@ title: ID3D11VideoDecoderOutputView::GetDesc
 author: windows-sdk-content
 description: Gets the properties of the video decoder output view.
 old-location: mf\id3d11videodecoderoutputview_getdesc.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 002BE600-2B4C-4337-BAA4-EC132FD3BC8A
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoDecoderOutputView interface, ID3D11VideoDecoderOutputView interface [Media Foundation],GetDesc method, ID3D11VideoDecoderOutputView.GetDesc, ID3D11VideoDecoderOutputView::GetDesc, d3d11/ID3D11VideoDecoderOutputView::GetDesc, mf.id3d11videodecoderoutputview_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

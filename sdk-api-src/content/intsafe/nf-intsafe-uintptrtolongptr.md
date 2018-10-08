@@ -4,10 +4,10 @@ title: UIntPtrToLongPtr function
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type LONG_PTR.
 old-location: shell\UIntPtrToLongPtr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 13956b42-981c-41ef-8137-e2c84f662a6b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SizeTToLongPtr, SizeTToSSIZET, UIntPtrToLongPtr, UIntPtrToLongPtr function [Windows Shell], UIntPtrToSSIZET, _shell_UIntPtrToLongPtr, intsafe/UIntPtrToLongPtr, shell.UIntPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

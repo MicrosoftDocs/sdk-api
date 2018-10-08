@@ -4,10 +4,10 @@ title: IApplicationDesignModeSettings2::SetIsOnLockScreen
 author: windows-sdk-content
 description: This method determines whether or not the application, in design mode, can display information on the Windows 8 lock screen.
 old-location: shell\IApplicationDesignModeSettings2_SetIsOnLockScreen.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5BFBB0E4-2448-44B1-B2F3-68AB8392C3A4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IApplicationDesignModeSettings2 interface [Windows Shell],SetIsOnLockScreen method, IApplicationDesignModeSettings2.SetIsOnLockScreen, IApplicationDesignModeSettings2::SetIsOnLockScreen, SetIsOnLockScreen, SetIsOnLockScreen method [Windows Shell], SetIsOnLockScreen method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetIsOnLockScreen, shobjidl_core/IApplicationDesignModeSettings2::SetIsOnLockScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

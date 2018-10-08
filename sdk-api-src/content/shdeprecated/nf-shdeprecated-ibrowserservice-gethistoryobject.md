@@ -4,10 +4,10 @@ title: IBrowserService::GetHistoryObject
 author: windows-sdk-content
 description: Deprecated. Retrieves an IOleObject that represents the browser's history object.
 old-location: shell\IBrowserService_GetHistoryObject.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 409d76e8-5501-437d-92d3-55e1676a80b8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetHistoryObject, GetHistoryObject method [Windows Shell], GetHistoryObject method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetHistoryObject method, IBrowserService.GetHistoryObject, IBrowserService::GetHistoryObject, shdeprecated/IBrowserService::GetHistoryObject, shell.IBrowserService_GetHistoryObject, zone_IBrowserService_GetHistoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

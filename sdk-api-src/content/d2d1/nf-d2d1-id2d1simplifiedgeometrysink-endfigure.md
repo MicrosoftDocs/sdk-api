@@ -4,10 +4,10 @@ title: ID2D1SimplifiedGeometrySink::EndFigure
 author: windows-sdk-content
 description: Ends the current figure; optionally, closes it.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_EndFigure.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 31f6aeba-2e81-4b8d-b734-0c501eae331f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: EndFigure, EndFigure method [Direct2D], EndFigure method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],EndFigure method, ID2D1SimplifiedGeometrySink.EndFigure, ID2D1SimplifiedGeometrySink::EndFigure, d2d1/ID2D1SimplifiedGeometrySink::EndFigure, direct2d.ID2D1SimplifiedGeometrySink_EndFigure
 ms.prod: windows-hardware
 ms.technology: windows-devices

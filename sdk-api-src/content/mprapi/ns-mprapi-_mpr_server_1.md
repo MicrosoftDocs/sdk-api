@@ -4,10 +4,10 @@ title: "_MPR_SERVER_1"
 author: windows-sdk-content
 description: Is used to retrieve and set the number of ports available for the Point-to-Point Tunneling Protocol (PPTP) and Layer 2 Tunneling Protocol (L2TP) on a device.
 old-location: rras\mpr_server_1.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: ea27a928-055b-4705-8f7c-dd9a221b2573
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PMPR_SERVER_1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_1, MPR_SERVER_1 structure [RAS], PMPR_SERVER_1, PMPR_SERVER_1 structure pointer [RAS], _MPR_SERVER_1, mprapi/MPR_SERVER_1, mprapi/PMPR_SERVER_1, rras.mpr_server_1"
 ms.prod: windows
 ms.technology: windows-sdk

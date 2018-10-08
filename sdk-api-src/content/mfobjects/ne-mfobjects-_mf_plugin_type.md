@@ -4,10 +4,10 @@ title: "_MF_Plugin_Type"
 author: windows-sdk-content
 description: Specifies the object type for the IMFPluginControl interface.
 old-location: mf\mf_plugin_type.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: f967cf3f-582c-457a-ba75-980feb2d9bf3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MF_Plugin_Type, MF_Plugin_Type enumeration [Media Foundation], MF_Plugin_Type_MFT, MF_Plugin_Type_MFT_MatchOutputType, MF_Plugin_Type_MediaSource, MF_Plugin_Type_Other, _MF_Plugin_Type, mf.mf_plugin_type, mfobjects/, mfobjects/MF_Plugin_Type, mfobjects/MF_Plugin_Type_MFT, mfobjects/MF_Plugin_Type_MFT_MatchOutputType, mfobjects/MF_Plugin_Type_MediaSource, mfobjects/MF_Plugin_Type_Other
 ms.prod: windows
 ms.technology: windows-sdk

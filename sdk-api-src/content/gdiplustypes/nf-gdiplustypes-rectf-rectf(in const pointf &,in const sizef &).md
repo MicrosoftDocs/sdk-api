@@ -2,13 +2,13 @@
 UID: NF:gdiplustypes.RectF.RectF(IN const PointF &,IN const SizeF &)
 title: RectF::RectF(IN const PointF &,IN const SizeF &)
 author: windows-sdk-content
-description: Creates a RectF object by using a PointF object to initialize the X and Y data members and uses a SizeF object to initialize the Width and Height data members of this rectangle.
-old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_location_size_.htm
+description: Creates a RectF object and initializes the X, Y, Width, and Height data members to zero. This is the default constructor.
+old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_18location_size.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_42.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
-ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(IN const PointF &,IN const SizeF &), RectF.RectF(const PointF&,const SizeF&), RectF::RectF, RectF::RectF(IN const PointF &,IN const SizeF &), _gdiplus_CLASS_RectF_RectF_location_size_, gdiplus._gdiplus_CLASS_RectF_RectF_location_size_
+ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(), RectF.RectF(IN const PointF &,IN const SizeF &), RectF::RectF, RectF::RectF(IN const PointF &,IN const SizeF &), _gdiplus_CLASS_RectF_RectF_, gdiplus._gdiplus_CLASS_RectF_RectF_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,11 +51,11 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object by using a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object to initialize the 
-			<b>X</b> and 
-			<b>Y</b> data members and uses a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a> object to initialize the 
-			<b>Width</b> and 
-			<b>Height</b> data members of this rectangle.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object and initializes the 
+			<b>X</b>, 
+			<b>Y</b>, 
+			<b>Width</b>, and 
+			<b>Height</b>  data members to zero. This is the default constructor.
 
 
 ## -parameters
@@ -63,18 +63,16 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).as
 
 
 
-### -param location [in, ref]
+### -param location
 
-Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a></b>
-
-Reference to a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object that specifies the upper-left corner of this rectangle. 
+TBD
 
 
-### -param size [in, ref]
+### -param size
 
-Type: <b>const <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a></b>
+TBD
 
-Reference to a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a> object that specifies the width and height of this rectangle. 
+
 
 
 ## -see-also
@@ -83,10 +81,6 @@ Reference to a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec0
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
-
-
-
-<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
 
 
 
@@ -99,10 +93,6 @@ Reference to a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec0
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms534930(v=VS.85).aspx">RectF Constructors</a>
-
-
-
-<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a>
 
 
 

@@ -4,10 +4,10 @@ title: DAD_AutoScroll function
 author: windows-sdk-content
 description: Scrolls the window while an image is being dragged.
 old-location: shell\DAD_AutoScroll.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3c5af682-8497-477e-8222-3eb37d1e295f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DAD_AutoScroll, DAD_AutoScroll function [Windows Shell], shell.DAD_AutoScroll, shell_DAD_AutoScroll, shlobj_core/DAD_AutoScroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

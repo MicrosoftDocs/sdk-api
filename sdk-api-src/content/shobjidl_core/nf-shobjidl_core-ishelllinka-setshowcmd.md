@@ -4,10 +4,10 @@ title: IShellLinkA::SetShowCmd
 author: windows-sdk-content
 description: Sets the show command for a Shell link object. The show command sets the initial show state of the window.
 old-location: shell\IShellLink_SetShowCmd.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9f40cd7d-04b5-4880-831f-5fb5cd52a2eb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetShowCmd method, IShellLink::SetShowCmd, IShellLinkA interface [Windows Shell],SetShowCmd method, IShellLinkA.SetShowCmd, IShellLinkA::SetShowCmd, IShellLinkW interface [Windows Shell],SetShowCmd method, IShellLinkW::SetShowCmd, SW_SHOWMAXIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNORMAL, SetShowCmd, SetShowCmd method [Windows Shell], SetShowCmd method [Windows Shell],IShellLink interface, SetShowCmd method [Windows Shell],IShellLinkA interface, SetShowCmd method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetShowCmd, shell.IShellLink_SetShowCmd, shobjidl_core/IShellLink::SetShowCmd, shobjidl_core/IShellLinkA::SetShowCmd, shobjidl_core/IShellLinkW::SetShowCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices

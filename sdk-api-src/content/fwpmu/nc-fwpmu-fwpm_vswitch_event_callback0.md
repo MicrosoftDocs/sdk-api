@@ -1,0 +1,108 @@
+---
+UID: NC:fwpmu.FWPM_VSWITCH_EVENT_CALLBACK0
+title: FWPM_VSWITCH_EVENT_CALLBACK0
+author: windows-sdk-content
+description: Is used to add custom behavior to the vSwitch event subscription process.
+old-location: fwp\fwpm_vswitch_event_callback0.htm
+tech.root: fwp
+ms.assetid: 95cccc54-8f58-4942-8770-f07f4d293396
+ms.author: windowssdkdev
+ms.date: 10/05/2018
+ms.keywords: FWPM_VSWITCH_EVENT_CALLBACK0, FWPM_VSWITCH_EVENT_CALLBACK0 callback, FWPM_VSWITCH_EVENT_CALLBACK0 callback function [Filtering], fwp.fwpm_vswitch_event_callback0, fwpmu/FWPM_VSWITCH_EVENT_CALLBACK0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: fwpmu.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Fwpmu.h
+api_name:
+ - FWPM_VSWITCH_EVENT_CALLBACK0
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# FWPM_VSWITCH_EVENT_CALLBACK0 callback function
+
+
+## -description
+
+
+The <b>FWPM_VSWITCH_EVENT_CALLBACK0</b> function is used to add custom behavior to the vSwitch event subscription process.
+
+
+## -parameters
+
+
+
+
+### -param *context [in, out]
+
+Type: <b>void*</b>
+
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://msdn.microsoft.com/1264a58d-81e1-4877-915d-6ed3d7d15512">FwpmvSwitchEventSubscribe0</a> function.
+
+
+### -param *vSwitchEvent [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/bd25f66a-511a-470d-a33a-5e73d8b802c2">FWPM_VSWITCH_EVENT0</a>*</b>
+
+The vSwitch event information.
+
+
+## -returns
+
+
+
+This callback function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+Call <a href="https://msdn.microsoft.com/1264a58d-81e1-4877-915d-6ed3d7d15512">FwpmvSwitchEventSubscribe0</a> to register this callback function.
+
+<b>FWPM_VSWITCH_EVENT_CALLBACK0</b> is a specific implementation of FWPM_VSWITCH_EVENT_CALLBACK. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bd25f66a-511a-470d-a33a-5e73d8b802c2">FWPM_VSWITCH_EVENT0</a>
+
+
+
+<a href="https://msdn.microsoft.com/1264a58d-81e1-4877-915d-6ed3d7d15512">FwpmvSwitchEventSubscribe0</a>
+ 
+
+ 
+

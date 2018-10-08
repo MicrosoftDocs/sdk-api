@@ -4,10 +4,10 @@ title: "_NRESARRAY"
 author: windows-sdk-content
 description: Defines the CF_NETRESOURCE clipboard format.
 old-location: shell\NRESARRAY.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 261338c2-8fb4-4d10-8392-f9f6254a30ed
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPNRESARRAY, LPNRESARRAY, LPNRESARRAY structure pointer [Windows Shell], NRESARRAY, NRESARRAY structure [Windows Shell], _NRESARRAY, _win32_NRESARRAY, shell.NRESARRAY, shlobj_core/LPNRESARRAY, shlobj_core/NRESARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

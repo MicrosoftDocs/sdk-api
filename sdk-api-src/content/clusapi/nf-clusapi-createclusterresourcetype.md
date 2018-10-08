@@ -7,7 +7,7 @@ old-location: mscs\createclusterresourcetype.htm
 tech.root: MsCS
 ms.assetid: 19b8e8cf-898c-4df5-959c-e3789b082a76
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: CreateClusterResourceType, CreateClusterResourceType function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE function [Failover Cluster], _wolf_createclusterresourcetype, clusapi/CreateClusterResourceType, clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, mscs.createclusterresourcetype
 ms.prod: windows-hardware
 ms.technology: windows-devices

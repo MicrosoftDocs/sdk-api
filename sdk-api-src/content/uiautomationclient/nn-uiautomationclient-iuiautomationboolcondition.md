@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationBoolCondition.htm
 tech.root: WinAuto
 ms.assetid: a2f9d994-a0fa-4ff5-90b2-8212469f0ced
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IUIAutomationBoolCondition, IUIAutomationBoolCondition interface [Windows Accessibility], IUIAutomationBoolCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationBoolCondition, uiauto_IUIAutomationBoolCondition, uiautomationclient/IUIAutomationBoolCondition, winauto.uiauto_IUIAutomationBoolCondition
 ms.prod: windows
 ms.technology: windows-sdk

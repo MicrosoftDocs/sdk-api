@@ -4,10 +4,10 @@ title: SHLoadLibraryFromKnownFolder function
 author: windows-sdk-content
 description: Creates and loads an IShellLibrary object for a specified known folder ID.
 old-location: shell\SHLoadLibraryFromKnownFolder.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9486252b-9aaf-4daf-b307-5a5adddfaa99
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHLoadLibraryFromKnownFolder, SHLoadLibraryFromKnownFolder function [Windows Shell], _shell_SHLoadLibraryFromKnownFolder, shell.SHLoadLibraryFromKnownFolder, shobjidl_core/SHLoadLibraryFromKnownFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

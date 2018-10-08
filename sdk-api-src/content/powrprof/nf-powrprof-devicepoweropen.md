@@ -4,10 +4,10 @@ title: DevicePowerOpen function
 author: windows-sdk-content
 description: Initializes a device list by querying all the devices.
 old-location: base\devicepoweropen.htm
-tech.root: Power
+tech.root: power
 ms.assetid: 1f0e8ee6-cd9e-468a-ba9a-f11e17852f89
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DevicePowerOpen, DevicePowerOpen function, base.devicepoweropen, powrprof/DevicePowerOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

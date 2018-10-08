@@ -4,10 +4,10 @@ title: GetNativeSystemInfo function
 author: windows-sdk-content
 description: Retrieves information about the current system to an application running under WOW64.
 old-location: base\getnativesysteminfo.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: a4a1123b-83d7-4ee2-aa38-68fff5373618
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: GetNativeSystemInfo, GetNativeSystemInfo function, _win32_getnativesysteminfo, base.getnativesysteminfo, sysinfoapi/GetNativeSystemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 
 
 Retrieves information about the current system to an application running under 
-<a href="https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0">WOW64</a>. If the function is called from a 64-bit application, it is equivalent to the 
+<a href="https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0">WOW64</a>. If the function is called from a 64-bit application, or on a 64-bit system that does not have an Intel64 or x64 processor (such as ARM64), it is equivalent to the 
 <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a> function.
 
 
@@ -87,7 +87,7 @@ This function does not return a value.
 
 
 To determine whether a Win32-based application is running under WOW64, call the 
-<a href="https://msdn.microsoft.com/5a237542-e432-487c-aa59-2ede427dd1eb">IsWow64Process</a> function.
+<a href="https://msdn.microsoft.com/77B4E3C8-F9DE-4674-9CEA-9C81AEEB393C">IsWow64Process2</a> function.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see 
 <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.

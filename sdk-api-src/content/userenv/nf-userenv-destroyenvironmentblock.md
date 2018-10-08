@@ -4,10 +4,10 @@ title: DestroyEnvironmentBlock function
 author: windows-sdk-content
 description: Frees environment variables created by the CreateEnvironmentBlock function.
 old-location: shell\DestroyEnvironmentBlock.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 8d03e102-3f8a-4aa7-b175-0a6781eedea7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DestroyEnvironmentBlock, DestroyEnvironmentBlock function [Windows Shell], _shell_DestroyEnvironmentBlock, shell.DestroyEnvironmentBlock, userenv/DestroyEnvironmentBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

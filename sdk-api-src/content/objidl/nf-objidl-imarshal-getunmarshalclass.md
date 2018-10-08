@@ -7,7 +7,7 @@ old-location: com\imarshal_getunmarshalclass.htm
 tech.root: com
 ms.assetid: 900a0f19-dcd5-4135-bab8-c191ec7e95e4
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: GetUnmarshalClass, GetUnmarshalClass method [COM], GetUnmarshalClass method [COM],IMarshal interface, IMarshal interface [COM],GetUnmarshalClass method, IMarshal.GetUnmarshalClass, IMarshal::GetUnmarshalClass, _com_imarshal_getunmarshalclass, com.imarshal_getunmarshalclass, objidl/IMarshal::GetUnmarshalClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

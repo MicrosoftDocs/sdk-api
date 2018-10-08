@@ -4,10 +4,10 @@ title: QueryIoRateControlInformationJobObject function
 author: windows-sdk-content
 description: Gets information about the control of the I/O rate for a job object.
 old-location: base\queryioratecontrolinformationjobobject.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

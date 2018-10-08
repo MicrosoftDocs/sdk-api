@@ -4,10 +4,10 @@ title: IShellView::EnableModeless
 author: windows-sdk-content
 description: Enables or disables modeless dialog boxes. This method is not currently implemented.
 old-location: shell\IShellView_EnableModeless.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5467f524-fa61-4919-bf64-268f9387b2f2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: EnableModeless, EnableModeless method [Windows Shell], EnableModeless method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],EnableModeless method, IShellView.EnableModeless, IShellView::EnableModeless, _win32_IShellView_EnableModeless, shell.IShellView_EnableModeless, shobjidl_core/IShellView::EnableModeless
 ms.prod: windows-hardware
 ms.technology: windows-devices

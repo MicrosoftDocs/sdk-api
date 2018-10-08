@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontrol_close.htm
 tech.root: devnotes
 ms.assetid: d1f73422-37e9-488e-92e6-8e8dd99af57f
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],Close method, ICameraUIControl.Close, ICameraUIControl::Close, camerauicontrol/ICameraUIControl::Close, winprog.icamerauicontrol_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

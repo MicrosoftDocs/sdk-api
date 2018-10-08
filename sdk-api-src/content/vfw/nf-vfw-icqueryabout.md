@@ -7,7 +7,7 @@ old-location: multimedia\icqueryabout.htm
 tech.root: Multimedia
 ms.assetid: 073f217f-961b-4de2-9430-5ee81379e807
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ICQueryAbout, ICQueryAbout macro [Windows Multimedia], _win32_ICQueryAbout, multimedia.icqueryabout, vfw/ICQueryAbout
 ms.prod: windows-hardware
 ms.technology: windows-devices

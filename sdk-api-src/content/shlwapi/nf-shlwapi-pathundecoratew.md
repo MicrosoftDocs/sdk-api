@@ -4,10 +4,10 @@ title: PathUndecorateW function
 author: windows-sdk-content
 description: Removes the decoration from a path string.
 old-location: shell\PathUndecorate.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2d98ad60-8a7d-4b8d-9b5c-27e348bdc2c3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathUndecorate, PathUndecorate function [Windows Shell], PathUndecorateA, PathUndecorateW, _win32_PathUndecorate, shell.PathUndecorate, shlwapi/PathUndecorate, shlwapi/PathUndecorateA, shlwapi/PathUndecorateW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleWindowlessSite.htm
 tech.root: WinAuto
 ms.assetid: 1ED23B39-231B-46A2-9FED-969A36DA8DD9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], IAccessibleWindowlessSite interface [Windows Accessibility],described, oleacc/IAccessibleWindowlessSite, winauto.uiauto_IAccessibleWindowlessSite
 ms.prod: windows
 ms.technology: windows-sdk

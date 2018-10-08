@@ -4,10 +4,10 @@ title: IFileDialogCustomize::AddText
 author: windows-sdk-content
 description: Adds text content to the dialog.
 old-location: shell\IFileDialogCustomize_AddText.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: efea2fdb-4006-4567-b53c-faa891d18c7e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddText, AddText method [Windows Shell], AddText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddText method, IFileDialogCustomize.AddText, IFileDialogCustomize::AddText, shell.IFileDialogCustomize_AddText, shell_IFileDialogCustomize_AddText, shobjidl_core/IFileDialogCustomize::AddText
 ms.prod: windows-hardware
 ms.technology: windows-devices

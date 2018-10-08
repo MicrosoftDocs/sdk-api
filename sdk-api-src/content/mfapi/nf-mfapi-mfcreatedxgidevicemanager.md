@@ -4,10 +4,10 @@ title: MFCreateDXGIDeviceManager function
 author: windows-sdk-content
 description: Creates an instance of the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 old-location: mf\mfcreatedxgidevicemanager.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 5398B6D7-1E7D-4987-A163-3360C805EE9C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateDXGIDeviceManager, MFCreateDXGIDeviceManager function [Media Foundation], mf.mfcreatedxgidevicemanager, mfapi/MFCreateDXGIDeviceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

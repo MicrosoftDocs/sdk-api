@@ -4,10 +4,10 @@ title: IUserNotificationCallback
 author: windows-sdk-content
 description: Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with IUserNotification2::Show.
 old-location: shell\IUserNotificationCallback.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f746a4d4-8649-43a1-ac9b-773402dfb6c7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], IUserNotificationCallback interface [Windows Shell],described, _shell_IUserNotificationCallback, shell.IUserNotificationCallback, shobjidl/IUserNotificationCallback
 ms.prod: windows
 ms.technology: windows-sdk

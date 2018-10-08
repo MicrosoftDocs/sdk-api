@@ -4,10 +4,10 @@ title: IEnumSyncMgrConflict
 author: windows-sdk-content
 description: Exposes conflict enumeration methods.
 old-location: shell\IEnumSyncMgrConflict.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 627f39be-5c9d-49a1-af73-210cdbb7940a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], IEnumSyncMgrConflict interface [Windows Shell],described, _shell_IEnumSyncMgrConflict, shell.IEnumSyncMgrConflict, syncmgr/IEnumSyncMgrConflict
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MgmGetMfeStats function
 author: windows-sdk-content
 description: The MgmGetMfeStats function retrieves the statistics for a specific MFE. The statistics returned include the packets received, bytes received, and the packets forwarded on each outgoing interface.
 old-location: rras\mgmgetmfestats.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 16c4b403-0477-47da-9f98-55f8368dca15
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetMfeStats, MgmGetMfeStats function [RAS], _mpr_mgmgetmfestats, mgm/MgmGetMfeStats, rras.mgmgetmfestats
 ms.prod: windows-hardware
 ms.technology: windows-devices

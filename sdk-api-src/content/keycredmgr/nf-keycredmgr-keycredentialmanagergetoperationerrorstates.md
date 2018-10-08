@@ -7,7 +7,7 @@ old-location: security\keycredentialmanagergetoperationerrorstates.htm
 tech.root: secauthn
 ms.assetid: 0E34340F-D886-4E69-9AF3-D9142E350173
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: KeyCredentialManagerGetOperationErrorStates, KeyCredentialManagerGetOperationErrorStates function [Security], keycredmgr/KeyCredentialManagerGetOperationErrorStates, security.keycredentialmanagergetoperationerrorstates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,8 +50,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Prerequisite API to call to determine if the operation will be successful prior.
 

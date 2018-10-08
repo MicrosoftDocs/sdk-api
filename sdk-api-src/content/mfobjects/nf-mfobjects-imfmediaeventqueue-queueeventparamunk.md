@@ -4,10 +4,10 @@ title: IMFMediaEventQueue::QueueEventParamUnk
 author: windows-sdk-content
 description: Creates an event, sets an IUnknown pointer as the event data, and puts the event in the queue.
 old-location: mf\imfmediaeventqueue_queueeventparamunk.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e51653a4-8f71-44f3-90e8-2052db521307
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEventParamUnk method, IMFMediaEventQueue.QueueEventParamUnk, IMFMediaEventQueue::QueueEventParamUnk, QueueEventParamUnk, QueueEventParamUnk method [Media Foundation], QueueEventParamUnk method [Media Foundation],IMFMediaEventQueue interface, e51653a4-8f71-44f3-90e8-2052db521307, mf.imfmediaeventqueue_queueeventparamunk, mfobjects/IMFMediaEventQueue::QueueEventParamUnk
 ms.prod: windows-hardware
 ms.technology: windows-devices

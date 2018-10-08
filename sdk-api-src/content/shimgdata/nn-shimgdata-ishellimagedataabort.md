@@ -4,10 +4,10 @@ title: IShellImageDataAbort
 author: windows-sdk-content
 description: Exposes a single method used to abort IShellImageData processes.
 old-location: shell\IShellImageDataAbort.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 98a79c41-a384-4486-af51-a33cd5f0750e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
 ms.prod: windows
 ms.technology: windows-sdk

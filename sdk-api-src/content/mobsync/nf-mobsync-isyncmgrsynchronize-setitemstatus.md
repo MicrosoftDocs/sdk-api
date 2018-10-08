@@ -4,10 +4,10 @@ title: ISyncMgrSynchronize::SetItemStatus
 author: windows-sdk-content
 description: Called by the synchronization manager in a registered application's handler to change the status of an item in the following two cases:\_between the time the handler has returned from the ISyncMgrSynchronize::PrepareForSync method and called the PrepareForSyncCompleted callback method, or after the handler has returned from the ISyncMgrSynchronize::Synchronize method but has not yet called the SynchronizeCompleted callback method.
 old-location: shell\syncmgr_isyncmgrsynchronize_setitemstatus.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 311e916c-46a0-4eb2-a5e3-8da417ae7d71
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetItemStatus method, ISyncMgrSynchronize.SetItemStatus, ISyncMgrSynchronize::SetItemStatus, SetItemStatus, SetItemStatus method [Windows Shell], SetItemStatus method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetItemStatus, shell.syncmgr_isyncmgrsynchronize_setitemstatus, syncmgr.isyncmgrsynchronize_setitemstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

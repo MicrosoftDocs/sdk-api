@@ -3,12 +3,12 @@ UID: NF:d2d1svg.ID2D1SvgPaint.SetColor(const D2D1_COLOR_F &)
 title: ID2D1SvgPaint::SetColor(const D2D1_COLOR_F &)
 author: windows-sdk-content
 description: Sets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
-old-location: direct2d\id2d1svgpaint_setcolor.htm
-tech.root: direct2d
-ms.assetid: A7C3CEDD-7C02-4E24-924A-AD2EA5188730
+old-location: direct2d\id2d1svgpaint_setcolor_2.htm
+tech.root: Direct2D
+ms.assetid: ACA66305-6BE1-4F5A-8D4D-40EC9DD643C9
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ID2D1SvgPaint interface [Direct2D],SetColor method, ID2D1SvgPaint.SetColor, ID2D1SvgPaint.SetColor(const D2D1_COLOR_F &), ID2D1SvgPaint::SetColor, ID2D1SvgPaint::SetColor(const D2D1_COLOR_F &), SetColor, SetColor method [Direct2D], SetColor method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetColor, direct2d.id2d1svgpaint_setcolor
+ms.date: 10/05/2018
+ms.keywords: ID2D1SvgPaint interface [Direct2D],SetColor method, ID2D1SvgPaint.SetColor, ID2D1SvgPaint.SetColor(const D2D1_COLOR_F &), ID2D1SvgPaint::SetColor, ID2D1SvgPaint::SetColor(const D2D1_COLOR_F &), SetColor, SetColor method [Direct2D], SetColor method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetColor, direct2d.id2d1svgpaint_setcolor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,9 +58,9 @@ Sets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR
 
 
 
-### -param color [in]
+### -param color [ref]
 
-Type: <b>const D2D1_COLOR_F*</b>
+Type: <b>const D2D1_COLOR_F</b>
 
 The new paint color.
 

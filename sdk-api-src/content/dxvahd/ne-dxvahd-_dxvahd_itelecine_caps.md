@@ -4,10 +4,10 @@ title: "_DXVAHD_ITELECINE_CAPS"
 author: windows-sdk-content
 description: Specifies the inverse telecine (IVTC) capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_itelecine_caps.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: bf3e0d24-2671-4e79-9cfe-d776d8e5fb47
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DXVAHD_ITELECINE_CAPS, DXVAHD_ITELECINE_CAPS enumeration [Media Foundation], DXVAHD_ITELECINE_CAPS_22, DXVAHD_ITELECINE_CAPS_222222222223, DXVAHD_ITELECINE_CAPS_2224, DXVAHD_ITELECINE_CAPS_2332, DXVAHD_ITELECINE_CAPS_32, DXVAHD_ITELECINE_CAPS_32322, DXVAHD_ITELECINE_CAPS_55, DXVAHD_ITELECINE_CAPS_64, DXVAHD_ITELECINE_CAPS_87, DXVAHD_ITELECINE_CAPS_OTHER, _DXVAHD_ITELECINE_CAPS, dxvahd/DXVAHD_ITELECINE_CAPS, dxvahd/DXVAHD_ITELECINE_CAPS_22, dxvahd/DXVAHD_ITELECINE_CAPS_222222222223, dxvahd/DXVAHD_ITELECINE_CAPS_2224, dxvahd/DXVAHD_ITELECINE_CAPS_2332, dxvahd/DXVAHD_ITELECINE_CAPS_32, dxvahd/DXVAHD_ITELECINE_CAPS_32322, dxvahd/DXVAHD_ITELECINE_CAPS_55, dxvahd/DXVAHD_ITELECINE_CAPS_64, dxvahd/DXVAHD_ITELECINE_CAPS_87, dxvahd/DXVAHD_ITELECINE_CAPS_OTHER, mf.dxvahd_itelecine_caps
 ms.prod: windows
 ms.technology: windows-sdk

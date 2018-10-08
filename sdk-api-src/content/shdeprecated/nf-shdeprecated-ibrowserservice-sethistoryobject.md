@@ -4,10 +4,10 @@ title: IBrowserService::SetHistoryObject
 author: windows-sdk-content
 description: Deprecated. Sets the browser's history object.
 old-location: shell\IBrowserService_SetHistoryObject.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1a0b55b0-a6b6-4b0c-be09-cfb573a5420c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetHistoryObject method, IBrowserService.SetHistoryObject, IBrowserService::SetHistoryObject, SetHistoryObject, SetHistoryObject method [Windows Shell], SetHistoryObject method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetHistoryObject, shell.IBrowserService_SetHistoryObject, zone_IBrowserService_SetHistoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

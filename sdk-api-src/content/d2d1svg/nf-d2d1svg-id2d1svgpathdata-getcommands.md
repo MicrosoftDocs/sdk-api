@@ -4,10 +4,10 @@ title: ID2D1SvgPathData::GetCommands
 author: windows-sdk-content
 description: Gets commands from the commands array.
 old-location: direct2d\id2d1svgpathdata_getcommands.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D72199E5-11E5-413E-88F0-85EF17585587
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: GetCommands, GetCommands method [Direct2D], GetCommands method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetCommands method, ID2D1SvgPathData.GetCommands, ID2D1SvgPathData::GetCommands, d2d1svg/ID2D1SvgPathData::GetCommands, direct2d.id2d1svgpathdata_getcommands
 ms.prod: windows-hardware
 ms.technology: windows-devices

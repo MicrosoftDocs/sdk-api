@@ -4,10 +4,10 @@ title: SHChangeNotifyDeregister function
 author: windows-sdk-content
 description: Unregisters the client's window process from receiving SHChangeNotify messages.
 old-location: shell\SHChangeNotifyDeregister.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fad021dc-8199-4384-b623-c98bc618799f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: NTSHChangeNotifyDeregister, SHChangeNotifyDeregister, SHChangeNotifyDeregister function [Windows Shell], _win32_SHChangeNotifyDeregister, shell.SHChangeNotifyDeregister, shlobj_core/NTSHChangeNotifyDeregister, shlobj_core/SHChangeNotifyDeregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

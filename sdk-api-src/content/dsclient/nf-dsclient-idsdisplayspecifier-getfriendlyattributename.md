@@ -4,10 +4,10 @@ title: IDsDisplaySpecifier::GetFriendlyAttributeName
 author: windows-sdk-content
 description: The IDsDisplaySpecifier::GetFriendlyAttributeName method retrieves from the localized name of an attribute of a given object class.
 old-location: ad\idsdisplayspecifier_getfriendlyattributename.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 6a4551ec-0b73-4119-8fdd-1e1952f60bd2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: GetFriendlyAttributeName, GetFriendlyAttributeName method [Active Directory], GetFriendlyAttributeName method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetFriendlyAttributeName method, IDsDisplaySpecifier.GetFriendlyAttributeName, IDsDisplaySpecifier::GetFriendlyAttributeName, _glines_idsdisplayspecifier_getfriendlyattributename, ad.idsdisplayspecifier__getfriendlyattributename, ad.idsdisplayspecifier_getfriendlyattributename, dsclient/IDsDisplaySpecifier::GetFriendlyAttributeName
 ms.prod: windows-hardware
 ms.technology: windows-devices

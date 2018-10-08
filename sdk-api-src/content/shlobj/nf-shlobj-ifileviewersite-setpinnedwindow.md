@@ -4,10 +4,10 @@ title: IFileViewerSite::SetPinnedWindow
 author: windows-sdk-content
 description: Sets the pinned window. When the user selects a new file to view, the Shell directs the file viewer to display the new file in the pinned window instead of creating a new window.
 old-location: shell\IFileViewerSite_SetPinnedWindow.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7c2bcb76-84aa-404e-9e0a-9ee966b6c91e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFileViewerSite interface [Windows Shell],SetPinnedWindow method, IFileViewerSite.SetPinnedWindow, IFileViewerSite::SetPinnedWindow, SetPinnedWindow, SetPinnedWindow method [Windows Shell], SetPinnedWindow method [Windows Shell],IFileViewerSite interface, _win32_IFileViewerSite_SetPinnedWindow, shell.IFileViewerSite_SetPinnedWindow, shlobj/IFileViewerSite::SetPinnedWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

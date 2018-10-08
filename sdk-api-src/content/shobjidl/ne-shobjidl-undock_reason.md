@@ -4,10 +4,10 @@ title: UNDOCK_REASON
 author: windows-sdk-content
 description: Values that indicate the reason that a docked accessibility app window has been undocked. Used by IAccessibilityDockingServiceCallback::Undocked.
 old-location: shell\UNDOCK_REASON.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: C900E0DA-C6C6-41cd-8333-38BE4D451A66
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: UNDOCK_REASON, UNDOCK_REASON enumeration [Windows Shell], UR_MONITOR_DISCONNECT, UR_RESOLUTION_CHANGE, shell.UNDOCK_REASON, shobjidl/UNDOCK_REASON, shobjidl/UR_MONITOR_DISCONNECT, shobjidl/UR_RESOLUTION_CHANGE
 ms.prod: windows
 ms.technology: windows-sdk

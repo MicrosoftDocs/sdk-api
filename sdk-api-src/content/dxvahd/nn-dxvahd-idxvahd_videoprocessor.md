@@ -4,10 +4,10 @@ title: IDXVAHD_VideoProcessor
 author: windows-sdk-content
 description: Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\idxvahd_videoprocessor.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: cbfacff5-1cbb-4296-8242-c06b43fc95af
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor
 ms.prod: windows
 ms.technology: windows-sdk

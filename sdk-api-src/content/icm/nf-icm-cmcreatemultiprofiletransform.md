@@ -7,7 +7,7 @@ old-location: wcs\cmcreatemultiprofiletransform.htm
 tech.root: WCS
 ms.assetid: 8a40215c-6c37-4346-a669-79b7871f265e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: CMCreateMultiProfileTransform, CMCreateMultiProfileTransform function [Windows Color System], _color_CMCreateMultiProfileTransform, icm/CMCreateMultiProfileTransform, wcs.cmcreatemultiprofiletransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

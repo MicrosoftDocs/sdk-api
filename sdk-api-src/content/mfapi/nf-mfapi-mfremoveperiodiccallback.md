@@ -4,10 +4,10 @@ title: MFRemovePeriodicCallback function
 author: windows-sdk-content
 description: Cancels a callback function that was set by the MFAddPeriodicCallback function.
 old-location: mf\mfremoveperiodiccallback.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e70cdad3-c330-4368-8ef8-d616157b5e72
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFRemovePeriodicCallback, MFRemovePeriodicCallback function [Media Foundation], e70cdad3-c330-4368-8ef8-d616157b5e72, mf.mfremoveperiodiccallback, mfapi/MFRemovePeriodicCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWizardSite::GetCancelledPage
 author: windows-sdk-content
 description: Called when the user cancels navigation through the wizard extension. Gets the handle of the PROPSHEETPAGE that represents the wizard page to display when the user cancels navigation while in the wizard extension.
 old-location: shell\IWizardSite_GetCancelledPage.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 682f5624-5fec-4bc9-9455-150e8e951538
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetCancelledPage, GetCancelledPage method [Windows Shell], GetCancelledPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetCancelledPage method, IWizardSite.GetCancelledPage, IWizardSite::GetCancelledPage, _shell_IWizardSite_GetCancelledPage, shell.IWizardSite_GetCancelledPage, shobjidl/IWizardSite::GetCancelledPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ILCombine function
 author: windows-sdk-content
 description: Combines two ITEMIDLIST structures.
 old-location: shell\ILCombine.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 29eb1e1f-b7ac-4b72-8fce-a4388d7edfcc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ILCombine, ILCombine function [Windows Shell], _win32_ILCombine, shell.ILCombine, shlobj_core/ILCombine
 ms.prod: windows-hardware
 ms.technology: windows-devices

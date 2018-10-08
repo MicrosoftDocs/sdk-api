@@ -4,10 +4,10 @@ title: IFolderFilter
 author: windows-sdk-content
 description: Exposed by a client to specify how to filter the enumeration of a Shell folder by a server application.
 old-location: shell\IFolderFilter.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fd69c11c-f4c3-4681-ae85-385460e96be9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFolderFilter, IFolderFilter interface [Windows Shell], IFolderFilter interface [Windows Shell],described, _shell_IFolderFilter, shell.IFolderFilter, shobjidl_core/IFolderFilter
 ms.prod: windows
 ms.technology: windows-sdk

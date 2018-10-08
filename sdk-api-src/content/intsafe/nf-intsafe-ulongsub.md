@@ -4,10 +4,10 @@ title: ULongSub function
 author: windows-sdk-content
 description: Subtracts one value of type ULONG from another.
 old-location: shell\ULongSub.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5d2335a4-2b2e-4820-ae82-ba94d6e4cc9a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DWordSub, ULongSub, ULongSub function [Windows Shell], _shell_ULongSub, intsafe/ULongSub, shell.ULongSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

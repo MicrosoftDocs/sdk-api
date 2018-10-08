@@ -4,10 +4,10 @@ title: IThumbnailProvider::GetThumbnail
 author: windows-sdk-content
 description: Gets a thumbnail image and alpha type.
 old-location: shell\IThumbnailProvider_GetThumbnail.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5ea237fb-6b1c-4e87-a9f3-711ffa37b3dc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Shell], GetThumbnail method [Windows Shell],IThumbnailProvider interface, IThumbnailProvider interface [Windows Shell],GetThumbnail method, IThumbnailProvider.GetThumbnail, IThumbnailProvider::GetThumbnail, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell_IThumbnailProvider_GetThumbnail, shell.IThumbnailProvider_GetThumbnail, thumbcache/IThumbnailProvider::GetThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices

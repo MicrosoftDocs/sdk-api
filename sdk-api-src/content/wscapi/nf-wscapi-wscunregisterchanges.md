@@ -7,7 +7,7 @@ old-location: winprog\wscunregisterchanges.htm
 tech.root: devnotes
 ms.assetid: cfb0d076-bd8b-4483-a036-51c77b8181c9
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], winprog.wscunregisterchanges, wscapi/WscUnRegisterChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFInitMediaTypeFromVideoInfoHeader function
 author: windows-sdk-content
 description: Initializes a media type from a DirectShow VIDEOINFOHEADER structure.
 old-location: mf\mfinitmediatypefromvideoinfoheader.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 7f88422d-c968-4eea-83cb-45e6cfe37921
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 7f88422d-c968-4eea-83cb-45e6cfe37921, MFInitMediaTypeFromVideoInfoHeader, MFInitMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfinitmediatypefromvideoinfoheader, mfapi/MFInitMediaTypeFromVideoInfoHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

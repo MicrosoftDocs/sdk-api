@@ -3,12 +3,12 @@ UID: NF:d2d1.ID2D1Geometry.Outline(const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeomet
 title: ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink)
 author: windows-sdk-content
 description: Computes the outline of the geometry and writes the result to an ID2D1SimplifiedGeometrySink.
-old-location: direct2d\ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink.htm
-tech.root: direct2d
-ms.assetid: ee5edc52-eff7-4e7e-8f77-020e7967e6f5
+old-location: direct2d\ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink.htm
+tech.root: Direct2D
+ms.assetid: 10ab30b9-6141-4b4f-a3e7-9aa690043381
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ID2D1Geometry interface [Direct2D],Outline method, ID2D1Geometry.Outline, ID2D1Geometry.Outline(const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink), ID2D1Geometry::Outline, ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink), Outline, Outline method [Direct2D], Outline method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Outline, direct2d.ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink
+ms.date: 10/05/2018
+ms.keywords: ID2D1Geometry interface [Direct2D],Outline method, ID2D1Geometry.Outline, ID2D1Geometry.Outline(const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink), ID2D1Geometry::Outline, ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink), Outline, Outline method [Direct2D], Outline method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Outline, direct2d.ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -65,20 +65,11 @@ Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443
 The transform to apply to the geometry outline, or <b>NULL</b>.
 
 
-
 ### -param geometrySink [in]
 
 Type: <b><a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>*</b>
 
 The <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a> to which the geometry's transformed outline is appended. 
-
-
-#### - flatteningTolerance
-
-Type: <b>FLOAT</b>
-
-The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution. 
-
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: CommandLineToArgvW function
 author: windows-sdk-content
 description: Parses a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time argv and argc values.
 old-location: shell\CommandLineToArgvW.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9889a016-b7a5-402b-8305-6f7c199d41b3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _shell_CommandLineToArgvW, shell.CommandLineToArgvW, shellapi/CommandLineToArgvW
 ms.prod: windows-hardware
 ms.technology: windows-devices

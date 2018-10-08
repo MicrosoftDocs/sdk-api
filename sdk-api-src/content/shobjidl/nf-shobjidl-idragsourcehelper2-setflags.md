@@ -4,10 +4,10 @@ title: IDragSourceHelper2::SetFlags
 author: windows-sdk-content
 description: Sets the characteristics of a drag-and-drop operation over an IDragSourceHelper object.
 old-location: shell\IDragSourceHelper2_SetFlags.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1fe9b753-5ac1-4b6f-9538-5259870404ec
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DSH_ALLOWDROPDESCRIPTIONTEXT, IDragSourceHelper2 interface [Windows Shell],SetFlags method, IDragSourceHelper2.SetFlags, IDragSourceHelper2::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IDragSourceHelper2 interface, _shell_IDragSourceHelper2_SetFlags, shell.IDragSourceHelper2_SetFlags, shobjidl/IDragSourceHelper2::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

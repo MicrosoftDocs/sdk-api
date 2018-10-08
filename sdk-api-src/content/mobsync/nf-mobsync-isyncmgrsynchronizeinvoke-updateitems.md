@@ -4,10 +4,10 @@ title: ISyncMgrSynchronizeInvoke::UpdateItems
 author: windows-sdk-content
 description: Programmatically starts an update for specified items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateitems.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7a646d11-a84c-44c1-b52b-ffd364cc2ac3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
 ms.prod: windows-hardware
 ms.technology: windows-devices

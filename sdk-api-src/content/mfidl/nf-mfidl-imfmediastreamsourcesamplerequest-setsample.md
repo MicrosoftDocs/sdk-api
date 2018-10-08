@@ -4,10 +4,10 @@ title: IMFMediaStreamSourceSampleRequest::SetSample
 author: windows-sdk-content
 description: Sets the sample for the media stream source.
 old-location: mf\imfmediastreamsourcesamplerequest_setsample.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest interface [Media Foundation],SetSample method, IMFMediaStreamSourceSampleRequest.SetSample, IMFMediaStreamSourceSampleRequest::SetSample, SetSample, SetSample method [Media Foundation], SetSample method [Media Foundation],IMFMediaStreamSourceSampleRequest interface, mf.imfmediastreamsourcesamplerequest_setsample, mfidl/IMFMediaStreamSourceSampleRequest::SetSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

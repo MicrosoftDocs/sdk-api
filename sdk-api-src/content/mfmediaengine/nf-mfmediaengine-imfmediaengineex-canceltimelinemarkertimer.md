@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::CancelTimelineMarkerTimer
 author: windows-sdk-content
 description: Cancels the next pending timeline marker.
 old-location: mf\imfmediaengineex_canceltimelinemarkertimer.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: AC295919-747B-445D-8C74-E648A612C0BF
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CancelTimelineMarkerTimer, CancelTimelineMarkerTimer method [Media Foundation], CancelTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],CancelTimelineMarkerTimer method, IMFMediaEngineEx.CancelTimelineMarkerTimer, IMFMediaEngineEx::CancelTimelineMarkerTimer, mf.imfmediaengineex_canceltimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::CancelTimelineMarkerTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

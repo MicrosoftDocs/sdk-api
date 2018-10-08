@@ -4,10 +4,10 @@ title: IUnknown_AtomicRelease function
 author: windows-sdk-content
 description: Releases a Component Object Model (COM) pointer and sets it to NULL.
 old-location: shell\IUnknown_AtomicRelease.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6bb3f9cf-bf28-4f94-8557-56c1952384ec
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IUnknown_AtomicRelease, IUnknown_AtomicRelease function [Windows Shell], _win32_IUnknown_AtomicRelease, shell.IUnknown_AtomicRelease, shlwapi/IUnknown_AtomicRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

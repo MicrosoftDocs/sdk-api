@@ -4,10 +4,10 @@ title: IAttachmentExecute::SetClientTitle
 author: windows-sdk-content
 description: Specifies and stores the title of the prompt window.
 old-location: shell\IAttachmentExecute_SetClientTitle.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 24840acd-c2d1-43d8-99aa-8614e55d6604
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetClientTitle method, IAttachmentExecute.SetClientTitle, IAttachmentExecute::SetClientTitle, SetClientTitle, SetClientTitle method [Windows Shell], SetClientTitle method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetClientTitle, shell.IAttachmentExecute_SetClientTitle, shobjidl_core/IAttachmentExecute::SetClientTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

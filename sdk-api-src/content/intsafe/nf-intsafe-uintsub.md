@@ -4,10 +4,10 @@ title: UIntSub function
 author: windows-sdk-content
 description: Subtracts one value of type UINT from another.
 old-location: shell\UIntSub.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: be257075-84c9-40e2-af3f-75dccd97bab1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: UIntSub, UIntSub function [Windows Shell], _shell_UIntSub, intsafe/UIntSub, shell.UIntSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

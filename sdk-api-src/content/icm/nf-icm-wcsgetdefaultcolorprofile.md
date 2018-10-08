@@ -7,7 +7,7 @@ old-location: wcs\wcsgetdefaultcolorprofile.htm
 tech.root: WCS
 ms.assetid: a40ea9f3-ec56-459e-a55d-aad1b60ae7d4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Windows Color System], _color_WcsGetDefaultColorProfile, icm/WcsGetDefaultColorProfile, wcs.wcsgetdefaultcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

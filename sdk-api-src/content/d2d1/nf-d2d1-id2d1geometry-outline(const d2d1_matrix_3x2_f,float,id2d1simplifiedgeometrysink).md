@@ -4,10 +4,10 @@ title: ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F,FLOAT,ID2D1SimplifiedGeome
 author: windows-sdk-content
 description: Computes the outline of the geometry and writes the result to an ID2D1SimplifiedGeometrySink.
 old-location: direct2d\ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ee5edc52-eff7-4e7e-8f77-020e7967e6f5
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: ID2D1Geometry interface [Direct2D],Outline method, ID2D1Geometry.Outline, ID2D1Geometry.Outline(const D2D1_MATRIX_3X2_F,FLOAT,ID2D1SimplifiedGeometrySink), ID2D1Geometry::Outline, ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F,FLOAT,ID2D1SimplifiedGeometrySink), Outline, Outline method [Direct2D], Outline method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Outline, direct2d.ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ The transform to apply to the geometry outline, or <b>NULL</b>.
 
 
 
-#### - flatteningTolerance
+### -param flatteningTolerance
 
 Type: <b>FLOAT</b>
 

@@ -4,10 +4,10 @@ title: "_DXVA2_ExtendedFormat"
 author: windows-sdk-content
 description: Describes the format of a video stream.
 old-location: mf\dxva2_extendedformat.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: eba2c56b-8951-4dc5-91ae-1371793ce787
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DXVA2_ExtendedFormat, DXVA2_ExtendedFormat structure [Media Foundation], _DXVA2_ExtendedFormat, dxva2api/DXVA2_ExtendedFormat, eba2c56b-8951-4dc5-91ae-1371793ce787, mf.dxva2_extendedformat
 ms.prod: windows
 ms.technology: windows-sdk

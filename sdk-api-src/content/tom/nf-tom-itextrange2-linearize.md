@@ -7,7 +7,7 @@ old-location: controls\itextrange2_linearize.htm
 tech.root: controls
 ms.assetid: 9906547b-e31c-48a6-961e-0b7f5c0c0506
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],Linearize method, ITextRange2.Linearize, ITextRange2::Linearize, Linearize, Linearize method [Windows Controls], Linearize method [Windows Controls],ITextRange2 interface, controls.itextrange2_linearize, tom/ITextRange2::Linearize, tomMathAlphabetics, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathRemoveOutermost, tomPlain, tomTeX
 ms.prod: windows-hardware
 ms.technology: windows-devices

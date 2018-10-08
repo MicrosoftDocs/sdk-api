@@ -4,10 +4,10 @@ title: IPublishedApp
 author: windows-sdk-content
 description: Exposes methods that represent applications to Add/Remove Programs in Control Panel.
 old-location: shell\IPublishedApp.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a5a44e74-494a-4c9b-8bf3-85c6093b2c0e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IPublishedApp, IPublishedApp interface [Windows Shell], IPublishedApp interface [Windows Shell],described, inet_IPublishedApp, shappmgr/IPublishedApp, shell.IPublishedApp
 ms.prod: windows
 ms.technology: windows-sdk

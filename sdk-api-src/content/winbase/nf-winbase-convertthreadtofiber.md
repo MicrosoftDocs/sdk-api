@@ -4,10 +4,10 @@ title: ConvertThreadToFiber function
 author: windows-sdk-content
 description: Converts the current thread into a fiber. You must convert a thread into a fiber before you can schedule other fibers.
 old-location: base\convertthreadtofiber.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 31954a7e-b9a3-4d60-b43a-54fe0047f380
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ConvertThreadToFiber, ConvertThreadToFiber function, _win32_convertthreadtofiber, base.convertthreadtofiber, winbase/ConvertThreadToFiber
 ms.prod: windows-hardware
 ms.technology: windows-devices

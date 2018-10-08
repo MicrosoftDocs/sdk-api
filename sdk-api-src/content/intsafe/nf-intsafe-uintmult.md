@@ -4,10 +4,10 @@ title: UIntMult function
 author: windows-sdk-content
 description: Multiplies one value of type UINT by another.
 old-location: shell\UIntMult.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c469417c-c774-4946-b873-cc2845417655
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: UIntMult, UIntMult function [Windows Shell], _shell_UIntMult, intsafe/UIntMult, shell.UIntMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

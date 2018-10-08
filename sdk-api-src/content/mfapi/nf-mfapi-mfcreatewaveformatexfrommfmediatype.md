@@ -4,10 +4,10 @@ title: MFCreateWaveFormatExFromMFMediaType function
 author: windows-sdk-content
 description: Converts a Media Foundation audio media type to a WAVEFORMATEX structure.
 old-location: mf\mfcreatewaveformatexfrommfmediatype.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: b124bac2-90de-4358-a079-f509a89c3776
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateWaveFormatExFromMFMediaType, MFCreateWaveFormatExFromMFMediaType function [Media Foundation], b124bac2-90de-4358-a079-f509a89c3776, mf.mfcreatewaveformatexfrommfmediatype, mfapi/MFCreateWaveFormatExFromMFMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

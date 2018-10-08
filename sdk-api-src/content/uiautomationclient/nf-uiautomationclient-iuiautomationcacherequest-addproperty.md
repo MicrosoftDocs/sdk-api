@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationCacheRequest_AddProperty.htm
 tech.root: WinAuto
 ms.assetid: 61e56133-fb9e-4556-a9be-f7270b1d2bfb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddProperty, AddProperty method [Windows Accessibility], AddProperty method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AddProperty method, IUIAutomationCacheRequest.AddProperty, IUIAutomationCacheRequest::AddProperty, uiauto.uiauto_IUIAutomationCacheRequest_AddProperty, uiauto_IUIAutomationCacheRequest_AddProperty, uiautomationclient/IUIAutomationCacheRequest::AddProperty, winauto.uiauto_IUIAutomationCacheRequest_AddProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSample::SetSampleTime
 author: windows-sdk-content
 description: Sets the presentation time of the sample.
 old-location: mf\imfsample_setsampletime.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample interface [Media Foundation],SetSampleTime method, IMFSample.SetSampleTime, IMFSample::SetSampleTime, SetSampleTime, SetSampleTime method [Media Foundation], SetSampleTime method [Media Foundation],IMFSample interface, mf.imfsample_setsampletime, mfobjects/IMFSample::SetSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

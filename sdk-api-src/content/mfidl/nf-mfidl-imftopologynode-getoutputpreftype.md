@@ -4,10 +4,10 @@ title: IMFTopologyNode::GetOutputPrefType
 author: windows-sdk-content
 description: Retrieves the preferred media type for an output stream on this node.
 old-location: mf\imftopologynode_getoutputpreftype.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 972052ca-1d87-4fa4-abeb-6e74ba6c9368
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 972052ca-1d87-4fa4-abeb-6e74ba6c9368, GetOutputPrefType, GetOutputPrefType method [Media Foundation], GetOutputPrefType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputPrefType method, IMFTopologyNode.GetOutputPrefType, IMFTopologyNode::GetOutputPrefType, mf.imftopologynode_getoutputpreftype, mfidl/IMFTopologyNode::GetOutputPrefType
 ms.prod: windows-hardware
 ms.technology: windows-devices

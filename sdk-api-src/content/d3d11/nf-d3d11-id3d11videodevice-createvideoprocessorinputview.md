@@ -4,10 +4,10 @@ title: ID3D11VideoDevice::CreateVideoProcessorInputView
 author: windows-sdk-content
 description: Creates a resource view for a video processor, describing the input sample for the video processing operation.
 old-location: mf\id3d11videodevice_createvideoprocessorinputview.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 3245D2AF-74A1-4068-A0BC-577FD42B353E
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView method [Media Foundation], CreateVideoProcessorInputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorInputView method, ID3D11VideoDevice.CreateVideoProcessorInputView, ID3D11VideoDevice::CreateVideoProcessorInputView, d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView, mf.id3d11videodevice_createvideoprocessorinputview
 ms.prod: windows-hardware
 ms.technology: windows-devices

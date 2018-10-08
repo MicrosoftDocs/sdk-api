@@ -4,10 +4,10 @@ title: SHCreateFileExtractIconW function
 author: windows-sdk-content
 description: SHCreateFileExtractIcon may be altered or unavailable.
 old-location: shell\SHCreateFileExtractIcon.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: af3beb0a-892b-43e5-b5b8-8005f497b6e5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHCreateFileExtractIcon, SHCreateFileExtractIcon function [Windows Shell], SHCreateFileExtractIconW, _win32_SHCreateFileExtractIcon, shell.SHCreateFileExtractIcon, shlobj_core/SHCreateFileExtractIcon, shlobj_core/SHCreateFileExtractIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices

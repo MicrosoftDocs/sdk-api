@@ -4,10 +4,10 @@ title: PathIsNetworkPathA function
 author: windows-sdk-content
 description: Determines whether a path string represents a network resource.
 old-location: shell\PathIsNetworkPath.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3a9c33bc-2325-4285-b6c3-4c3e1d323c1e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathIsNetworkPath, PathIsNetworkPath function [Windows Shell], PathIsNetworkPathA, PathIsNetworkPathW, _win32_PathIsNetworkPath, shell.PathIsNetworkPath, shlwapi/PathIsNetworkPath, shlwapi/PathIsNetworkPathA, shlwapi/PathIsNetworkPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

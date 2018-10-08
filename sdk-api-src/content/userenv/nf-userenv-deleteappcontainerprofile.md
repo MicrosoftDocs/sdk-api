@@ -4,10 +4,10 @@ title: DeleteAppContainerProfile function
 author: windows-sdk-content
 description: Deletes the specified per-user, per-app profile.
 old-location: shell\deleteappcontainerprofile.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ED79D661-D087-4E44-8C32-14705ACA9D40
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DeleteAppContainerProfile, DeleteAppContainerProfile function [Windows Shell], shell.deleteappcontainerprofile, userenv/DeleteAppContainerProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

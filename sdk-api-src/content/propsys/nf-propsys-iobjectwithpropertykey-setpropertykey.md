@@ -4,10 +4,10 @@ title: IObjectWithPropertyKey::SetPropertyKey
 author: windows-sdk-content
 description: Sets the property key.
 old-location: shell\IObjectWithPropertyKey_SetPropertyKey.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f7352fb0-7e6f-4145-bd5d-4ed3de0c9659
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IObjectWithPropertyKey interface [Windows Shell],SetPropertyKey method, IObjectWithPropertyKey.SetPropertyKey, IObjectWithPropertyKey::SetPropertyKey, SetPropertyKey, SetPropertyKey method [Windows Shell], SetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, _shell_IObjectWithPropertyKey_SetPropertyKey, propsys/IObjectWithPropertyKey::SetPropertyKey, shell.IObjectWithPropertyKey_SetPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

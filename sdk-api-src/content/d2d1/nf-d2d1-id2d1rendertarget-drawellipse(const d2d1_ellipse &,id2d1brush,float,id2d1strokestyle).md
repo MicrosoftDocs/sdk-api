@@ -2,21 +2,21 @@
 UID: NF:d2d1.ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 author: windows-sdk-content
-description: Draws the outline of an ellipse with the specified dimensions and stroke.
-old-location: direct2d\id2d1rendertarget_drawellipse.htm
-tech.root: direct2d
-ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
+description: Draws the outline of the specified ellipse using the specified stroke style.
+old-location: direct2d\ID2D1RenderTarget_DrawEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle.htm
+tech.root: Direct2D
+ms.assetid: 3cd3aad6-72fc-41a3-a792-6ecac838c080
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: DrawEllipse, DrawEllipse methods [Direct2D], ID2D1RenderTarget.DrawEllipse, ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), ID2D1RenderTarget::DrawEllipse, ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), d2d1/DrawEllipse, direct2d.id2d1rendertarget_drawellipse
+ms.date: 10/05/2018
+ms.keywords: DrawEllipse, DrawEllipse method [Direct2D], DrawEllipse method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawEllipse method, ID2D1RenderTarget.DrawEllipse, ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), ID2D1RenderTarget::DrawEllipse, ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), d2d1/ID2D1RenderTarget::DrawEllipse, direct2d.ID2D1RenderTarget_DrawEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget::DrawEllipse
+ - ID2D1RenderTarget.DrawEllipse
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,40 +50,56 @@ req.redist:
 ## -description
 
 
-<span>Draws the outline of an ellipse with the specified dimensions and stroke.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cd3aad6-72fc-41a3-a792-6ecac838c080">DrawEllipse(D2D1_ELLIPSE&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
-</td>
-<td align="left" width="63%">
 Draws the outline of the specified ellipse using the specified stroke style.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a760cc1e-4798-449d-bb45-693672d91132">DrawEllipse(D2D1_ELLIPSE*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
-</td>
-<td align="left" width="63%">
-Draws the outline of the specified ellipse using the specified stroke style.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param ellipse [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/6fed6c49-ba83-4c2b-af8a-04156ee317f0">D2D1_ELLIPSE</a></b>
+
+The position and radius of the ellipse to draw, in device-independent pixels.
+
+
+### -param brush [in]
+
+Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+
+The brush used to paint the ellipse's outline.
+
+
+### -param strokeWidth
+
+Type: <b>FLOAT</b>
+
+The width of the stroke, in device-independent pixels. The value must be greater than or equal to 0.0f. If this parameter isn't specified, it defaults to 1.0f. The stroke is centered on the line.
+
+
+### -param strokeStyle [in, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a>*</b>
+
+The style of stroke to apply to the ellipse's outline, or <b>NULL</b> to paint a solid stroke.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
 
 
 ## -remarks
 
 
 
-The <b>DrawEllipse</b> method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawEllipse</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
+The <a href="https://msdn.microsoft.com/dabbb399-2d72-41c3-8b2f-aea49d7ad0cb">DrawEllipse</a> method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawEllipse</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples
@@ -96,10 +112,6 @@ For an example, see <a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/149fb303-d2e8-416c-b28f-8bc5f1482ba6">FillEllipse</a>
 
 
 

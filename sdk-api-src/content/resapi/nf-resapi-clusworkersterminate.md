@@ -7,7 +7,7 @@ old-location: mscs\clusworkersterminate.htm
 tech.root: MsCS
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Waits for multiple  worker threads to terminate up to the specified timeout.  Optionally,  signals the threads to terminate at the end of the timeout.
+Waits for multiple  worker threads to terminate up to the specified timeout.   This function can signal the thread to terminate before wait starts, or just wait passively if specified.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ The timeout in milliseconds.
 
 ### -param WaitOnly [in]
 
-If set <b>TRUE</b>, the function will return  at the end of the timeout; otherwise it will signal the threads to terminate and return.
+If set <b>TRUE</b>, the function will wait for up to specified timeout without signaling the thread to terminate; otherwise it will signal the thread to terminate before waiting for the thread.
 
 
 ## -returns

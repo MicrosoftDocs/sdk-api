@@ -7,7 +7,7 @@ old-location: controls\ImageList_RemoveAll.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_removeall.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ImageList_RemoveAll, ImageList_RemoveAll macro [Windows Controls], _win32_ImageList_RemoveAll, _win32_ImageList_RemoveAll_cpp, commctrl/ImageList_RemoveAll, controls.ImageList_RemoveAll, controls._win32_ImageList_RemoveAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

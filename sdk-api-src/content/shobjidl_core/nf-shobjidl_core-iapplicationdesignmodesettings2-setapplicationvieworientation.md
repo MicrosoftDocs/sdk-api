@@ -4,10 +4,10 @@ title: IApplicationDesignModeSettings2::SetApplicationViewOrientation
 author: windows-sdk-content
 description: Sets the window orientation used for the design mode window.
 old-location: shell\IApplicationDesignModeSettings2_SetApplicationViewOrientation.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: FCD2FDFD-1058-45D6-B9D5-A4B845CF80AA
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IApplicationDesignModeSettings2 interface [Windows Shell],SetApplicationViewOrientation method, IApplicationDesignModeSettings2.SetApplicationViewOrientation, IApplicationDesignModeSettings2::SetApplicationViewOrientation, SetApplicationViewOrientation, SetApplicationViewOrientation method [Windows Shell], SetApplicationViewOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetApplicationViewOrientation, shobjidl_core/IApplicationDesignModeSettings2::SetApplicationViewOrientation
 ms.prod: windows-hardware
 ms.technology: windows-devices

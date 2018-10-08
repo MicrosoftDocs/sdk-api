@@ -4,10 +4,10 @@ title: ISyncMgrConflictResolutionItems::GetCount
 author: windows-sdk-content
 description: Gets item count.
 old-location: shell\ISyncMgrConflictResolutionItems_GetCount.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6842d091-210c-46de-b768-e9a145b0565d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ISyncMgrConflictResolutionItems interface, ISyncMgrConflictResolutionItems interface [Windows Shell],GetCount method, ISyncMgrConflictResolutionItems.GetCount, ISyncMgrConflictResolutionItems::GetCount, _shell_ISyncMgrConflictResolutionItems_GetCount, shell.ISyncMgrConflictResolutionItems_GetCount, syncmgr/ISyncMgrConflictResolutionItems::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

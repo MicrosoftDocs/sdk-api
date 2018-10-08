@@ -7,7 +7,7 @@ old-location: base\symenumprocessesproc.htm
 tech.root: debug
 ms.assetid: 4748b2a3-0b7b-4d9c-96ed-c4b3ba927107
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: PSYM_ENUMPROCESSES_CALLBACK, SymEnumProcessesProc, SymEnumProcessesProc callback, SymEnumProcessesProc callback function, base.symenumprocessesproc, dbghelp/SymEnumProcessesProc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1DeviceContext.DrawImage(ID2D1Effect,const D2D1_POINT_2F,cons
 title: ID2D1DeviceContext::DrawImage(ID2D1Effect,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE)
 author: windows-sdk-content
 description: Draws an image to the device context.
-old-location: direct2d\id2d1devicecontext_drawimage.htm
-tech.root: direct2d
-ms.assetid: c41d8a79-280a-451e-b07b-f904d07da5c7
+old-location: direct2d\id2d1devicecontext_drawimage2.htm
+tech.root: Direct2D
+ms.assetid: 0C44AAF6-36F7-4BBD-9469-478B1527751C
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext.DrawImage(ID2D1Effect,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Effect,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage
+ms.date: 10/05/2018
+ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext.DrawImage(ID2D1Effect,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Effect,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,9 +58,11 @@ Draws an image to the device context.
 
 
 
-### -param effect
+### -param effect [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c26569">ID2D1Effect</a>*</b>
+
+The effect to be drawn to the device context.
 
 
 ### -param targetOffset [in, optional]
@@ -91,13 +93,6 @@ Type: <b><a href="https://msdn.microsoft.com/4f01e805-aed7-4bfc-9793-42a9fdde347
 The composite mode that will be applied to the limits of the currently selected clip. The default value is <b>D2D1_COMPOSITE_MODE_SOURCE_OVER</b>
 
 
-#### - image [in]
-
-Type: <b><a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>*</b>
-
-The image to be drawn to the device context.
-
-
 ## -returns
 
 
@@ -115,7 +110,7 @@ If <i>interpolationMode</i> is <b>D2D1_INTERPOLATION_MODE_HIGH_QUALITY</b>, diff
 
 Any invalid rectangles accumulated on any effect that is drawn by this call will be discarded regardless of which portion of the image rectangle is drawn.
 
-If <i>compositeMode</i> is <b>D2D1_COMPOSITE_MODE_SOURCE_OVER</b>, <b>DrawImage</b> will use the currently selected primitive blend specified by <a href="https://msdn.microsoft.com/be04c9f7-397f-468e-91c0-3b11c68b489f">ID2D1DeviceContext::SetPrimitiveBlend</a>. If <i>compositeMode</i> is not <b>D2D1_COMPOSITE_MODE_SOURCE_OVER</b>, the image will be extended to transparent up to the current axis-aligned clip.
+If <i>compositeMode</i> is <b>D2D1_COMPOSITE_MODE_SOURCE_OVER</b>, <a href="https://msdn.microsoft.com/c41d8a79-280a-451e-b07b-f904d07da5c7">DrawImage</a> will use the currently selected primitive blend specified by <a href="https://msdn.microsoft.com/be04c9f7-397f-468e-91c0-3b11c68b489f">ID2D1DeviceContext::SetPrimitiveBlend</a>. If <i>compositeMode</i> is not <b>D2D1_COMPOSITE_MODE_SOURCE_OVER</b>, the image will be extended to transparent up to the current axis-aligned clip.
 
 If there is an image rectangle and a world transform, this is equivalent to inserting a clip effect to represent the image rectangle and a 2D affine transform to take into account the world transform.
 

@@ -4,10 +4,10 @@ title: IStartMenuPinnedList
 author: windows-sdk-content
 description: Exposes a method that unpins an application shortcut from the Start menu or the taskbar.
 old-location: shell\IStartMenuPinnedList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e1f4dbdb-34c0-4bf5-bb8b-a622a81c1617
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IStartMenuPinnedList, IStartMenuPinnedList interface [Windows Shell], IStartMenuPinnedList interface [Windows Shell],described, _shell_IStartMenuPinnedList, shell.IStartMenuPinnedList, shobjidl/IStartMenuPinnedList
 ms.prod: windows
 ms.technology: windows-sdk

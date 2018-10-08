@@ -4,10 +4,10 @@ title: IShellIconOverlayManager
 author: windows-sdk-content
 description: IShellIconOverlayManager may be altered or unavailable.
 old-location: shell\IShellIconOverlayManager.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 769c3b0b-ece4-4406-a76c-cabc37901351
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellIconOverlayManager, IShellIconOverlayManager interface [Windows Shell], IShellIconOverlayManager interface [Windows Shell],described, _win32_IShellIconOverlayManager, shell.IShellIconOverlayManager, shlobj_core/IShellIconOverlayManager
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFASFStreamConfig::GetPayloadExtension
 author: windows-sdk-content
 description: Retrieves information about an existing payload extension.
 old-location: mf\imfasfstreamconfig_getpayloadextension.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 5b3b831c-2218-4a76-8359-7f39cab53a57
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 5b3b831c-2218-4a76-8359-7f39cab53a57, GetPayloadExtension, GetPayloadExtension method [Media Foundation], GetPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetPayloadExtension method, IMFASFStreamConfig.GetPayloadExtension, IMFASFStreamConfig::GetPayloadExtension, mf.imfasfstreamconfig_getpayloadextension, wmcontainer/IMFASFStreamConfig::GetPayloadExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

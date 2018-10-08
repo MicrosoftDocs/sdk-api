@@ -7,7 +7,7 @@ old-location: mscs\clus_scsi_address.htm
 tech.root: MsCS
 ms.assetid: 05a640c7-16b4-4394-b22f-a78ab1dfab77
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PCLUS_SCSI_ADDRESS, CLUS_SCSI_ADDRESS, CLUS_SCSI_ADDRESS structure [Failover Cluster], PCLUS_SCSI_ADDRESS, PCLUS_SCSI_ADDRESS structure pointer [Failover Cluster], _wolf_clus_scsi_address, clusapi/CLUS_SCSI_ADDRESS, clusapi/PCLUS_SCSI_ADDRESS, mscs.clus_scsi_address"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accname.htm
 tech.root: WinAuto
 ms.assetid: 344e95e1-45a5-4951-b545-1a938bfc8a8c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accName method, IAccessible.get_accName, IAccessible::get_accName, _msaa_IAccessible_get_accName, get_accName, get_accName method [Windows Accessibility], get_accName method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accname, oleacc/IAccessible::get_accName, winauto.iaccessible_iaccessible__get_accname
 ms.prod: windows-hardware
 ms.technology: windows-devices

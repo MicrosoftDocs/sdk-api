@@ -4,10 +4,10 @@ title: IMFMediaSourceEx::SetD3DManager
 author: windows-sdk-content
 description: Sets a pointer to the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the media source.
 old-location: mf\imfmediasourceex_setd3dmanager.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 9E956E68-9950-4AA1-BF43-C1DCB02393F7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaSourceEx interface [Media Foundation],SetD3DManager method, IMFMediaSourceEx.SetD3DManager, IMFMediaSourceEx::SetD3DManager, SetD3DManager, SetD3DManager method [Media Foundation], SetD3DManager method [Media Foundation],IMFMediaSourceEx interface, mf.imfmediasourceex_setd3dmanager, mfidl/IMFMediaSourceEx::SetD3DManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

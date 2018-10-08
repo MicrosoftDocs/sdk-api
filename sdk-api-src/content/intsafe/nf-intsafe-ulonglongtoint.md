@@ -4,10 +4,10 @@ title: ULongLongToInt function
 author: windows-sdk-content
 description: Converts a value of type ULONGLONG to a value of type INT.
 old-location: shell\ULongLongToInt.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ed9eaef2-6781-4de5-8158-be914dcfd647
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ULongLongToInt, ULongLongToInt function [Windows Shell], _shell_ULongLongToInt, intsafe/ULongLongToInt, shell.ULongLongToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

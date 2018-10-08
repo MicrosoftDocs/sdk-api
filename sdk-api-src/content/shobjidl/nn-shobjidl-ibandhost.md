@@ -4,10 +4,10 @@ title: IBandHost
 author: windows-sdk-content
 description: Exposes methods that create and destroy bands and specifiy their availability.
 old-location: shell\IBandHost.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 8d9fe92a-812e-4fa0-954b-37aa48b52008
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBandHost, IBandHost interface [Windows Shell], IBandHost interface [Windows Shell],described, _shell_IBandHost, shell.IBandHost, shobjidl/IBandHost
 ms.prod: windows
 ms.technology: windows-sdk

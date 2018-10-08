@@ -4,10 +4,10 @@ title: IActionProgress::QueryCancel
 author: windows-sdk-content
 description: Provides information about whether the action is being canceled.
 old-location: shell\IActionProgress_QueryCancel.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a5db4344-c1b4-4e76-9291-46dafc82e88d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IActionProgress interface [Windows Shell],QueryCancel method, IActionProgress.QueryCancel, IActionProgress::QueryCancel, QueryCancel, QueryCancel method [Windows Shell], QueryCancel method [Windows Shell],IActionProgress interface, shell.IActionProgress_QueryCancel, shell_IActionProgress_QueryCancel, shobjidl_core/IActionProgress::QueryCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IShellChangeNotify::OnChange
 author: windows-sdk-content
 description: Informs a namespace extension that an event has taken place that affects its items.
 old-location: shell\IShellChangeNotify_OnChange.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 27ef6a2e-e463-4ba7-922f-20bf8e118d3a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellChangeNotify interface [Windows Shell],OnChange method, IShellChangeNotify.OnChange, IShellChangeNotify::OnChange, OnChange, OnChange method [Windows Shell], OnChange method [Windows Shell],IShellChangeNotify interface, SHCNE_ALLEVENTS, SHCNE_ASSOCCHANGED, SHCNE_ATTRIBUTES, SHCNE_CREATE, SHCNE_DELETE, SHCNE_DISKEVENTS, SHCNE_DRIVEADD, SHCNE_DRIVEADDGUI, SHCNE_DRIVEREMOVED, SHCNE_FREESPACE, SHCNE_GLOBALEVENTS, SHCNE_INTERRUPT, SHCNE_MEDIAINSERTED, SHCNE_MEDIAREMOVED, SHCNE_MKDIR, SHCNE_NETSHARE, SHCNE_NETUNSHARE, SHCNE_RENAMEFOLDER, SHCNE_RENAMEITEM, SHCNE_RMDIR, SHCNE_SERVERDISCONNECT, SHCNE_UPDATEDIR, SHCNE_UPDATEIMAGE, SHCNE_UPDATEITEM, _win32_IShellChangeNotify_OnChange, shell.IShellChangeNotify_OnChange, shlobj_core/IShellChangeNotify::OnChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

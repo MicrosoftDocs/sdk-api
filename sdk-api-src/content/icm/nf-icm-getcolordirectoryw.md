@@ -7,7 +7,7 @@ old-location: wcs\getcolordirectory.htm
 tech.root: WCS
 ms.assetid: 9e26e58b-0497-4879-963c-fae91f5740bf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: GetColorDirectory, GetColorDirectory function [Windows Color System], GetColorDirectoryA, GetColorDirectoryW, _color_GetColorDirectory, icm/GetColorDirectory, icm/GetColorDirectoryA, icm/GetColorDirectoryW, wcs.getcolordirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

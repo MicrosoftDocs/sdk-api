@@ -4,10 +4,10 @@ title: ISearchFolderItemFactory::SetScope
 author: windows-sdk-content
 description: Sets search scope, as specified.
 old-location: shell\ISearchFolderItemFactory_SetScope.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 0dd87a75-f172-4294-81cb-95207b04b3c5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetScope method, ISearchFolderItemFactory.SetScope, ISearchFolderItemFactory::SetScope, SetScope, SetScope method [Windows Shell], SetScope method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetScope, shell.ISearchFolderItemFactory_SetScope, shobjidl_core/ISearchFolderItemFactory::SetScope
 ms.prod: windows-hardware
 ms.technology: windows-devices

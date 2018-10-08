@@ -4,10 +4,10 @@ title: PathMakeSystemFolderA function
 author: windows-sdk-content
 description: Gives an existing folder the proper attributes to become a system folder.
 old-location: shell\PathMakeSystemFolder.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5b0faeb8-f8ae-481b-b5b2-cae9efe638e5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathMakeSystemFolder, PathMakeSystemFolder function [Windows Shell], PathMakeSystemFolderA, PathMakeSystemFolderW, _win32_PathMakeSystemFolder, shell.PathMakeSystemFolder, shlwapi/PathMakeSystemFolder, shlwapi/PathMakeSystemFolderA, shlwapi/PathMakeSystemFolderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

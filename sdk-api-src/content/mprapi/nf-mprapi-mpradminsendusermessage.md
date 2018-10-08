@@ -4,10 +4,10 @@ title: MprAdminSendUserMessage function
 author: windows-sdk-content
 description: The MprAdminSendUserMessage function sends a message to the user connected on the specified connection.
 old-location: rras\mpradminsendusermessage.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 3c0d8b6c-25c1-47c3-baef-d82e6d2fa52f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MprAdminSendUserMessage, MprAdminSendUserMessage function [RAS], _mpr_mpradminsendusermessage, mprapi/MprAdminSendUserMessage, rras.mpradminsendusermessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

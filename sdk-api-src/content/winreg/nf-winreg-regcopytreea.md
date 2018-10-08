@@ -4,10 +4,10 @@ title: RegCopyTreeA function
 author: windows-sdk-content
 description: Copies the specified registry key, along with its values and subkeys, to the specified destination key.
 old-location: base\regcopytree.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: d16f2b47-e537-42b0-90b3-9f9a00e61e76
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: RegCopyTree, RegCopyTree function, RegCopyTreeA, RegCopyTreeW, base.regcopytree, winreg/RegCopyTree, winreg/RegCopyTreeA, winreg/RegCopyTreeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

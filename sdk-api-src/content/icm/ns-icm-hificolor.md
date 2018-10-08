@@ -7,7 +7,7 @@ old-location: wcs\hificolor.htm
 tech.root: WCS
 ms.assetid: 65ec2b42-f7a6-48e9-8feb-cb4a8a05d19d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: HiFiCOLOR, HiFiCOLOR structure [Windows Color System], icm/HiFiCOLOR, wcs.hificolor
 ms.prod: windows
 ms.technology: windows-sdk

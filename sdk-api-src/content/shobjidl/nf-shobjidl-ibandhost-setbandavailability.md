@@ -4,10 +4,10 @@ title: IBandHost::SetBandAvailability
 author: windows-sdk-content
 description: Sets the availability of a specified band.
 old-location: shell\IBandHost_SetBandAvailability.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a3e41e8f-45dd-4160-8a65-ec82b7e9abe7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBandHost interface [Windows Shell],SetBandAvailability method, IBandHost.SetBandAvailability, IBandHost::SetBandAvailability, SetBandAvailability, SetBandAvailability method [Windows Shell], SetBandAvailability method [Windows Shell],IBandHost interface, _shell_IBandHost_SetBandAvailability, shell.IBandHost_SetBandAvailability, shobjidl/IBandHost::SetBandAvailability
 ms.prod: windows-hardware
 ms.technology: windows-devices

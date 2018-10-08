@@ -7,7 +7,7 @@ old-location: multimedia\capgetaudioformat.htm
 tech.root: Multimedia
 ms.assetid: 11a91da3-dd22-4828-9845-dc29e73c4526
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "_win32_capGetAudioFormat, capGetAudioFormat, capGetAudioFormat macro [Windows Multimedia], multimedia.capgetaudioformat, vfw/capGetAudioFormat"
 ms.prod: windows-hardware
 ms.technology: windows-devices

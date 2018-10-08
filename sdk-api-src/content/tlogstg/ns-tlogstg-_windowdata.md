@@ -4,10 +4,10 @@ title: "_WINDOWDATA"
 author: windows-sdk-content
 description: Stores window data.
 old-location: shell\WINDOWDATA.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ef83bd02-cde9-41a8-b5ad-a26794663ac2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPWINDOWDATA, WINDOWDATA, WINDOWDATA structure [Windows Shell], _WINDOWDATA, _shell_WINDOWDATA, shell.WINDOWDATA, tlogstg/WINDOWDATA"
 ms.prod: windows
 ms.technology: windows-sdk

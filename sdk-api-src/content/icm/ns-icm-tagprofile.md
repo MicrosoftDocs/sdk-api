@@ -7,7 +7,7 @@ old-location: wcs\profile.htm
 tech.root: WCS
 ms.assetid: e7f50d1a-3756-4da2-96ea-f9a5e1958be5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: "*PPROFILE, PROFILE, PROFILE structure [Windows Color System], _color_PROFILE_str, icm/PROFILE, tagPROFILE, wcs.profile"
 ms.prod: windows
 ms.technology: windows-sdk

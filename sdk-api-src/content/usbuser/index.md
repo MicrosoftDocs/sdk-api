@@ -2,7 +2,7 @@
 UID: NA:usbuser
 ms.assetid: 4c366795-5d02-392f-8b00-48074d301df6
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

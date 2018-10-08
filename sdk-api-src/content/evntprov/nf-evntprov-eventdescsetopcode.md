@@ -4,10 +4,10 @@ title: EventDescSetOpcode function
 author: windows-sdk-content
 description: Sets the Opcode member of the event descriptor.
 old-location: etw\eventdescsetopcode_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: fe16eae0-5bff-4266-9b91-4b714540bde3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/04/2018
 ms.keywords: EventDescSetOpcode, EventDescSetOpcode function [ETW], base.eventdescsetopcode_func, etw.eventdescsetopcode_func, evntprov/EventDescSetOpcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

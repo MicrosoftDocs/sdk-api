@@ -4,10 +4,10 @@ title: "_TBINFO"
 author: windows-sdk-content
 description: Used with the SFVM_GETBUTTONINFO notification to specify the number of buttons to add to the toolbar, as well as how they're added.
 old-location: shell\TBINFO_str.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: da82e861-129b-4536-b036-2238c9e4c84c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPTBINFO, TBIF_APPEND, TBIF_PREPEND, TBIF_REPLACE, TBINFO, TBINFO structure [Windows Shell], _TBINFO, _win32_TBINFO_str, shell.TBINFO_str, shlobj/TBINFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IPsecSaContextCreate0 function
 author: windows-sdk-content
 description: Creates an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextcreate0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 50b85c07-2e21-4c89-928b-8954348b9aba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPsecSaContextCreate0, IPsecSaContextCreate0 function [Filtering], fwp.ipsecsacontextcreate0, fwpmu/IPsecSaContextCreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices

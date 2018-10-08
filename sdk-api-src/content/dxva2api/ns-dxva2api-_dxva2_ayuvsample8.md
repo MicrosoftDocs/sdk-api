@@ -4,10 +4,10 @@ title: "_DXVA2_AYUVSample8"
 author: windows-sdk-content
 description: Defines an 8-bit AYUV pixel value.
 old-location: mf\dxva2_ayuvsample8.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4d296764-a00a-407d-a963-62c138976ccc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 4d296764-a00a-407d-a963-62c138976ccc, DXVA2_AYUVSample8, DXVA2_AYUVSample8 structure [Media Foundation], _DXVA2_AYUVSample8, dxva2api/DXVA2_AYUVSample8, mf.dxva2_ayuvsample8
 ms.prod: windows
 ms.technology: windows-sdk

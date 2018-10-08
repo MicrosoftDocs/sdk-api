@@ -4,10 +4,10 @@ title: IQueryContinue
 author: windows-sdk-content
 description: Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation.
 old-location: shell\IQueryContinue.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 94dee6cc-a142-4180-a562-14f4ded16884
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IQueryContinue, IQueryContinue interface [Windows Shell], IQueryContinue interface [Windows Shell],described, inet_IQueryContinue, shell.IQueryContinue, shobjidl_core/IQueryContinue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\certstoreprovwritectl.htm
 tech.root: seccrypto
 ms.assetid: 91344133-0785-4c4f-8df3-83301cf85e70
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: CertStoreProvWriteCTL, PFN_CERT_STORE_PROV_WRITE_CERT, PFN_CERT_STORE_PROV_WRITE_CERT callback, PFN_CERT_STORE_PROV_WRITE_CERT callback function [Security], PFN_CERT_STORE_PROV_WRITE_CTL, PFN_CERT_STORE_PROV_WRITE_CTL callback function [Security], _crypto2_certstoreprovwritectl, security.certstoreprovwritectl, wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT, wincrypt/PFN_CERT_STORE_PROV_WRITE_CTL
 ms.prod: windows
 ms.technology: windows-sdk

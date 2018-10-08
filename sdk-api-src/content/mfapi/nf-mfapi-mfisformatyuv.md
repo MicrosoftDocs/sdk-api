@@ -4,10 +4,10 @@ title: MFIsFormatYUV function
 author: windows-sdk-content
 description: Queries whether a FOURCC code or D3DFORMAT value is a YUV format.
 old-location: mf\mfisformatyuv.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFIsFormatYUV, MFIsFormatYUV function [Media Foundation], dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53, mf.mfisformatyuv, mfapi/MFIsFormatYUV
 ms.prod: windows-hardware
 ms.technology: windows-devices

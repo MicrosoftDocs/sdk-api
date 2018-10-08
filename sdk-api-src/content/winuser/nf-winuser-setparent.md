@@ -7,7 +7,7 @@ old-location: winmsg\setparent.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setparent.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: SetParent, SetParent function [Windows and Messages], _win32_SetParent, _win32_setparent_cpp, winmsg.setparent, winui._win32_setparent, winuser/SetParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

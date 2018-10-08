@@ -4,10 +4,10 @@ title: PathSkipRootA function
 author: windows-sdk-content
 description: Retrieves a pointer to the first character in a path following the drive letter or Universal Naming Convention (UNC) server/share path elements.
 old-location: shell\PathSkipRoot.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 528a3953-26d7-4fff-be31-9c9788d429ab
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathSkipRoot, PathSkipRoot function [Windows Shell], PathSkipRootA, PathSkipRootW, _win32_PathSkipRoot, shell.PathSkipRoot, shlwapi/PathSkipRoot, shlwapi/PathSkipRootA, shlwapi/PathSkipRootW
 ms.prod: windows-hardware
 ms.technology: windows-devices

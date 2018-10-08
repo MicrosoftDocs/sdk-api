@@ -4,10 +4,10 @@ title: IMFTimedTextNotify::Reset
 author: windows-sdk-content
 description: Resets the timed-text-notify object.
 old-location: mf\imftimedtextnotify_reset.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2743B39A-7C57-418C-897F-5B4952840135
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],Reset method, IMFTimedTextNotify.Reset, IMFTimedTextNotify::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_reset, mfmediaengine/IMFTimedTextNotify::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

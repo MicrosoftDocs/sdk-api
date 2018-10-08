@@ -4,10 +4,10 @@ title: MFCreatePropertiesFromMediaType function
 author: windows-sdk-content
 description: Creates properties from a IMFMediaType.
 old-location: mf\mfcreatepropertiesfrommediatype.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: D9B639BB-285C-40BF-B111-2C5501E41CE1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreatePropertiesFromMediaType, MFCreatePropertiesFromMediaType function [Media Foundation], mf.mfcreatepropertiesfrommediatype, mfidl/MFCreatePropertiesFromMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

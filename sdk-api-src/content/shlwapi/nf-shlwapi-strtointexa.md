@@ -4,10 +4,10 @@ title: StrToIntExA function
 author: windows-sdk-content
 description: Converts a string representing a decimal or hexadecimal number to an integer.
 old-location: shell\StrToIntEx.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2e8286c7-585f-441b-904b-f3b4e8cf95f9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: STIF_DEFAULT, STIF_SUPPORT_HEX, StrToIntEx, StrToIntEx function [Windows Shell], StrToIntExA, StrToIntExW, _win32_StrToIntEx, shell.StrToIntEx, shlwapi/StrToIntEx, shlwapi/StrToIntExA, shlwapi/StrToIntExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

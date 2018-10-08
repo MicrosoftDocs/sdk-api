@@ -4,10 +4,10 @@ title: ID2D1SvgPointCollection::RemovePointsAtEnd
 author: windows-sdk-content
 description: Removes points from the end of the array.
 old-location: direct2d\id2d1svgpointcollection_removepointsatend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F15DAC71-647D-466C-B754-6553122EC5A7
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: ID2D1SvgPointCollection interface [Direct2D],RemovePointsAtEnd method, ID2D1SvgPointCollection.RemovePointsAtEnd, ID2D1SvgPointCollection::RemovePointsAtEnd, RemovePointsAtEnd, RemovePointsAtEnd method [Direct2D], RemovePointsAtEnd method [Direct2D],ID2D1SvgPointCollection interface, d2d1svg/ID2D1SvgPointCollection::RemovePointsAtEnd, direct2d.id2d1svgpointcollection_removepointsatend
 ms.prod: windows-hardware
 ms.technology: windows-devices

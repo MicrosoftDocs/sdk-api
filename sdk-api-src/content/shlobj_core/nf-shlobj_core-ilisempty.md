@@ -4,10 +4,10 @@ title: ILIsEmpty function
 author: windows-sdk-content
 description: Verifies whether an ITEMIDLIST structure is empty.
 old-location: shell\ILIsEmpty.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bb727aad-9c4e-44dc-9c0c-4cbcbf3f9a78
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ILIsEmpty, ILIsEmpty function [Windows Shell], _shell_ILIsEmpty, shell.ILIsEmpty, shlobj_core/ILIsEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices

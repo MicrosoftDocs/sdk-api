@@ -4,10 +4,10 @@ title: SizeTMult function
 author: windows-sdk-content
 description: Multiplies one value of type size_t by another.
 old-location: shell\SizeTMult.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 078bc77b-6af3-4d13-8f98-5f52605fdf8d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

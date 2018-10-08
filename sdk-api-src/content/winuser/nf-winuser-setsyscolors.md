@@ -7,7 +7,7 @@ old-location: winmsg\setsyscolors.htm
 tech.root: winmsg
 ms.assetid: 41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: SetSysColors, SetSysColors function [Windows and Messages], _win32_setsyscolors, base.changing_the_colors_of_window_elements, base.setsyscolors, winmsg.setsyscolors, winui.setsyscolors, winuser/SetSysColors
 ms.prod: windows-hardware
 ms.technology: windows-devices

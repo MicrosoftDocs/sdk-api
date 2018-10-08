@@ -4,10 +4,10 @@ title: IAutoComplete2
 author: windows-sdk-content
 description: Extends IAutoComplete. This interface enables clients of the autocomplete object to retrieve and set a number of options that control how autocompletion operates.
 old-location: shell\IAutoComplete2.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c093719f-7176-4ba4-ae75-399e8beeebf0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAutoComplete2, IAutoComplete2 interface [Windows Shell], IAutoComplete2 interface [Windows Shell],described, _win32_IAutoComplete2, shell.IAutoComplete2, shldisp/IAutoComplete2
 ms.prod: windows
 ms.technology: windows-sdk

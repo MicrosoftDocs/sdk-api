@@ -7,7 +7,7 @@ old-location: controls\itextstory_getdisplay.htm
 tech.root: controls
 ms.assetid: e9ea7fbc-b814-4dbd-ae8a-9e260b56abab
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: GetDisplay, GetDisplay method [Windows Controls], GetDisplay method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetDisplay method, ITextStory.GetDisplay, ITextStory::GetDisplay, controls.itextstory_getdisplay, tom/ITextStory::GetDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

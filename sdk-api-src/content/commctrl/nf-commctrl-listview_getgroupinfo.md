@@ -7,7 +7,7 @@ old-location: controls\ListView_GetGroupInfo.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ListView_GetGroupInfo, ListView_GetGroupInfo macro [Windows Controls], _win32_ListView_GetGroupInfo, _win32_ListView_GetGroupInfo_cpp, commctrl/ListView_GetGroupInfo, controls.ListView_GetGroupInfo, controls._win32_ListView_GetGroupInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

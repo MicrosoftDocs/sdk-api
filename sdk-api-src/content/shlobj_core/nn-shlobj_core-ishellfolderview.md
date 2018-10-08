@@ -4,10 +4,10 @@ title: IShellFolderView
 author: windows-sdk-content
 description: Exposes methods that manipulate Shell folder views.
 old-location: shell\IShellFolderView.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e3b0b35f-6707-4e37-8470-31b1d4421d07
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellFolderView, IShellFolderView interface [Windows Shell], IShellFolderView interface [Windows Shell],described, _shell_IShellFolderView, shell.IShellFolderView, shlobj_core/IShellFolderView
 ms.prod: windows
 ms.technology: windows-sdk

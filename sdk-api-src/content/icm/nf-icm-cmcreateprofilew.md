@@ -2,13 +2,13 @@
 UID: NF:icm.CMCreateProfileW
 title: CMCreateProfileW function
 author: windows-sdk-content
-description: CMCreateProfile is no longer available for use as of Windows Vista.
-old-location: wcs\cmcreateprofile.htm
+description: Creates a display color profile from a LOGCOLORSPACE structure.
+old-location: wcs\cmcreateprofilew.htm
 tech.root: WCS
-ms.assetid: 0677e2d0-b8e8-4136-b895-9f120fa51d2c
+ms.assetid: 42bd4282-6d15-4cb1-8879-f6c714742c07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: CMCreateProfile, CMCreateProfile function [Windows Color System], CMCreateProfileW, _color_CMCreateProfile, icm/CMCreateProfile, icm/CMCreateProfileW, wcs.cmcreateprofile
+ms.date: 10/03/2018
+ms.keywords: CMCreateProfileW, CMCreateProfileW function [Windows Color System], _color_CMCreateProfileW, icm/CMCreateProfileW, wcs.cmcreateprofilew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: CMCreateProfileW (Unicode)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -37,7 +37,6 @@ api_type:
 api_location:
  - icm32.dll
 api_name:
- - CMCreateProfile
  - CMCreateProfileW
 product: Windows
 targetos: Windows
@@ -51,9 +50,9 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>CMCreateProfile</b> is no longer available for use as of Windows Vista.]
+<p class="CCE_Message">[<b>CMCreateProfileW</b> is no longer available for use as of Windows Vista.]
 
-The <b>CMCreateProfile</b> ANSI function creates a display color profile from a <a href="https://msdn.microsoft.com/b08aec07-6ac0-47be-8dc9-d604d94dedde">LOGCOLORSPACE</a> structure.
+Creates a display color profile from a <a href="https://msdn.microsoft.com/b08aec07-6ac0-47be-8dc9-d604d94dedde">LOGCOLORSPACE</a> structure.
 
 
 ## -parameters
@@ -63,12 +62,12 @@ The <b>CMCreateProfile</b> ANSI function creates a display color profile from a 
 
 ### -param lpColorSpace
 
-Pointer to a color logical space, of which the <b>lcsFilename</b> member will be <b>NULL</b>.
+Points to a logical color space, of which the <b>lcsFilename</b> member will be <b>NULL</b>.
 
 
 ### -param lpProfileData
 
-Pointer to a pointer to a buffer. If successful the function allocates and fills this buffer. It is the calling application's responsibility to free this buffer when it is no longer needed.
+Points to a pointer to a buffer. If successful the function allocates and fills this buffer. The calling application must free this buffer when it is no longer needed. Use the <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> function to free this buffer.
 
 
 ## -returns
@@ -79,7 +78,7 @@ Beginning with Windows Vista, the default CMM (Icm32.dll) will return <b>FALSE<
 
 <b>Windows Server 2003, Windows XP and Windows 2000:  </b>If this function succeeds, the return value is <b>TRUE</b>.
 
-If this function fails, the return value is <b>FALSE</b>. Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to retrieve the error.
+If this function fails, the return value is <b>FALSE</b>. If the function is not successful, the CMM should call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to set the last error to a valid error value defined in Winerror.h.
 
 
 
@@ -92,15 +91,13 @@ If this function fails, the return value is <b>FALSE</b>. Call <a href="https://
 
 Beginning with Windows Vista, CMM Implementors are no longer required to implement this method.
 
-<b>Windows Server 2003, Windows XP and Windows 2000:  </b>The Unicode version of this function is <a href="https://msdn.microsoft.com/42bd4282-6d15-4cb1-8879-f6c714742c07">CMCreateProfileW</a>.
+<b>Windows Server 2003, Windows XP and Windows 2000:  </b>CMM Implementors are required to implement this method.
 
-Only the Windows default CMM is required to export this function; it is optional for all other CMMs.
+Only the Windows default CMM is required to export this function; it is optional for all other CMMs. If a CMM does not support <b>CMCreateProfileW</b>, Windows uses the default CMM to create the profile.
 
-If a CMM does not support <b>CMCreateProfile</b>, Windows uses the default CMM to create the profile.
+The ANSI version of this function is <a href="https://msdn.microsoft.com/0677e2d0-b8e8-4136-b895-9f120fa51d2c">CMCreateProfile</a>.
 
 The CMM should set all header fields to sensible defaults. This profile should be usable as the input profile in a transform.
-
-The calling application must free the buffer allocated by this function and pointed to by the <i>lpProfileData</i> parameter. Use <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> to free the buffer.
 
 
 
@@ -116,11 +113,15 @@ The calling application must free the buffer allocated by this function and poin
 
 
 
-<a href="https://msdn.microsoft.com/42bd4282-6d15-4cb1-8879-f6c714742c07">CMCreateProfileW</a>
+<a href="https://msdn.microsoft.com/0677e2d0-b8e8-4136-b895-9f120fa51d2c">CMCreateProfile</a>
 
 
 
 <a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a>
  
 
  

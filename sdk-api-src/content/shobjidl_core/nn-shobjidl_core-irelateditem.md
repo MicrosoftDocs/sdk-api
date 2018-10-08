@@ -4,10 +4,10 @@ title: IRelatedItem
 author: windows-sdk-content
 description: Exposes methods that derive related items with specific relationships.
 old-location: shell\IRelatedItem.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f42d218c-0251-45e0-b05a-f1ccdcaf036c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IRelatedItem, IRelatedItem interface [Windows Shell], IRelatedItem interface [Windows Shell],described, _shell_IRelatedItem, shell.IRelatedItem, shobjidl_core/IRelatedItem
 ms.prod: windows
 ms.technology: windows-sdk

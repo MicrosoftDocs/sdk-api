@@ -4,10 +4,10 @@ title: IMFVideoRenderer::InitializeRenderer
 author: windows-sdk-content
 description: Sets a new mixer or presenter for the enhanced video renderer (EVR).
 old-location: mf\imfvideorenderer_initializerenderer.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e46a9596-9f3f-4430-8d45-bbc9c240be3b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFVideoRenderer interface [Media Foundation],InitializeRenderer method, IMFVideoRenderer.InitializeRenderer, IMFVideoRenderer::InitializeRenderer, InitializeRenderer, InitializeRenderer method [Media Foundation], InitializeRenderer method [Media Foundation],IMFVideoRenderer interface, e46a9596-9f3f-4430-8d45-bbc9c240be3b, evr/IMFVideoRenderer::InitializeRenderer, mf.imfvideorenderer_initializerenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

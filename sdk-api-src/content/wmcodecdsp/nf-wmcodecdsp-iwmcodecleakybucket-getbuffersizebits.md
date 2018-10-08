@@ -4,10 +4,10 @@ title: IWMCodecLeakyBucket::GetBufferSizeBits
 author: windows-sdk-content
 description: Retrieves the current size of the buffer in bits.
 old-location: mf\iwmcodecleakybucketgetbuffersizebits.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 7fa0835e-7386-4032-a94b-ef52259aeea9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetBufferSizeBits, GetBufferSizeBits method [Media Foundation], GetBufferSizeBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferSizeBits method, IWMCodecLeakyBucket.GetBufferSizeBits, IWMCodecLeakyBucket::GetBufferSizeBits, codecapi.iwmcodecleakybucketgetbuffersizebits, mf.iwmcodecleakybucketgetbuffersizebits, wmcodecdsp/IWMCodecLeakyBucket::GetBufferSizeBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

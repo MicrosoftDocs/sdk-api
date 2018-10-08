@@ -4,10 +4,10 @@ title: IMFTimedText::SetInBandEnabled
 author: windows-sdk-content
 description: Enables or disables inband mode.
 old-location: mf\imftimedtext_setinbandenabled.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4AF63D30-4A91-4DFF-96B9-0A26102B93FE
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetInBandEnabled method, IMFTimedText.SetInBandEnabled, IMFTimedText::SetInBandEnabled, SetInBandEnabled, SetInBandEnabled method [Media Foundation], SetInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setinbandenabled, mfmediaengine/IMFTimedText::SetInBandEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

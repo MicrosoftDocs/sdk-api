@@ -4,10 +4,10 @@ title: IContextMenuProvider::EmptyMenuList
 author: windows-sdk-content
 description: The IContextMenuProvider::EmptyMenuList method clears a context menu.
 old-location: mmc\icontextmenuprovider_emptymenulist.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: d8867d95-4812-499b-81cd-d0f9471fe33b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: EmptyMenuList, EmptyMenuList method [MMC], EmptyMenuList method [MMC],IContextMenuProvider interface, IContextMenuProvider interface [MMC],EmptyMenuList method, IContextMenuProvider.EmptyMenuList, IContextMenuProvider::EmptyMenuList, _slate_icontextmenuprovider_emptymenulist, mmc.icontextmenuprovider_emptymenulist, mmc/IContextMenuProvider::EmptyMenuList
 ms.prod: windows-hardware
 ms.technology: windows-devices

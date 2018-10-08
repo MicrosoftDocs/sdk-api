@@ -4,10 +4,10 @@ title: IMFSchemeHandler::BeginCreateObject
 author: windows-sdk-content
 description: Begins an asynchronous request to create an object from a URL.When the Source Resolver creates a media source from a URL, it passes the request to a scheme handler.
 old-location: mf\imfschemehandler_begincreateobject.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],BeginCreateObject method, IMFSchemeHandler.BeginCreateObject, IMFSchemeHandler::BeginCreateObject, mf.imfschemehandler_begincreateobject, mfidl/IMFSchemeHandler::BeginCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

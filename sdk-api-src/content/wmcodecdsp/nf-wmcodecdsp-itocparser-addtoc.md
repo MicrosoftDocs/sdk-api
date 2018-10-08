@@ -4,10 +4,10 @@ title: ITocParser::AddToc
 author: windows-sdk-content
 description: The AddToc method adds a table of contents to the TOC Parser object and assigns an index to the added table of contents.
 old-location: mf\itocparser_addtoc.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c99ccbb3-ba33-4d87-81a3-0de3c180554a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddToc, AddToc method [Media Foundation], AddToc method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],AddToc method, ITocParser.AddToc, ITocParser::AddToc, codecapi.itocparser_addtoc, mf.itocparser_addtoc, wmcodecdsp/ITocParser::AddToc
 ms.prod: windows-hardware
 ms.technology: windows-devices

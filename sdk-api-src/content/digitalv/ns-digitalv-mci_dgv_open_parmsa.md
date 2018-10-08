@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_open_parms.htm
 tech.root: Multimedia
 ms.assetid: 9256ab7f-1259-4c74-9766-fe3ed1c7215c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPMCI_DGV_OPEN_PARMSA, MCI_DGV_OPEN_PARMS, MCI_DGV_OPEN_PARMS structure [Windows Multimedia], MCI_DGV_OPEN_PARMSA, _win32_MCI_DGV_OPEN_PARMS_str, digitalv/MCI_DGV_OPEN_PARMS, multimedia.mci_dgv_open_parms"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFunctionInstance::GetCategory
 author: windows-sdk-content
 description: Gets the category and subcategory strings for the function instance.
 old-location: ncd\ifunctioninstance_getcategory_method.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: dfb5f144-c9b0-455e-aff9-0c07225a21f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: GetCategory, GetCategory method, GetCategory method,IFunctionInstance interface, IFunctionInstance interface,GetCategory method, IFunctionInstance.GetCategory, IFunctionInstance::GetCategory, functiondiscoveryapi/IFunctionInstance::GetCategory, ncd.ifunctioninstance_getcategory_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

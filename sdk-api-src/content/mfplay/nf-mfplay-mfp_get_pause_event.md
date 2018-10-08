@@ -4,10 +4,10 @@ title: MFP_GET_PAUSE_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PAUSE_EVENT pointer.
 old-location: mf\mfp_get_pause_event.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 492b8c37-eae0-42ea-9a62-3c2e3ee0233f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFP_GET_PAUSE_EVENT, MFP_GET_PAUSE_EVENT macro [Media Foundation], mf.mfp_get_pause_event, mfplay/MFP_GET_PAUSE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

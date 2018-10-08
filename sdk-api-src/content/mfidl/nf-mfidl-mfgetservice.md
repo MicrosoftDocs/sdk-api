@@ -4,10 +4,10 @@ title: MFGetService function
 author: windows-sdk-content
 description: Queries an object for a specified service interface.
 old-location: mf\mfgetservice.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 119e9e2f-0e26-4dfc-9c89-156b63a63640
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService function [Media Foundation], mf.mfgetservice, mfidl/MFGetService
 ms.prod: windows-hardware
 ms.technology: windows-devices

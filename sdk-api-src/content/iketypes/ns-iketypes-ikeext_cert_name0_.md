@@ -4,10 +4,10 @@ title: IKEEXT_CERT_NAME0_
 author: windows-sdk-content
 description: Specifies certificate selection &#0034;subject&#0034; criteria for an authentication method.
 old-location: fwp\ikeext_cert_name0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 50e04e10-cae1-4fcd-990e-3e9b538627ed
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IKEEXT_CERT_NAME0, IKEEXT_CERT_NAME0 structure [Filtering], IKEEXT_CERT_NAME0_, fwp.ikeext_cert_name0, iketypes/IKEEXT_CERT_NAME0
 ms.prod: windows
 ms.technology: windows-sdk

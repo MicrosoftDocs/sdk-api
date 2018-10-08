@@ -4,10 +4,10 @@ title: IRunnableTask::Suspend
 author: windows-sdk-content
 description: Requests that a task be suspended.
 old-location: shell\IRunnableTask_Suspend.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f376d8e7-65d2-4824-a20f-e8604295df3f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Suspend method, IRunnableTask.Suspend, IRunnableTask::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Suspend, shell.IRunnableTask_Suspend, shobjidl_core/IRunnableTask::Suspend
 ms.prod: windows-hardware
 ms.technology: windows-devices

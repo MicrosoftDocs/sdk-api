@@ -4,10 +4,10 @@ title: "_COMDLG_FILTERSPEC"
 author: windows-sdk-content
 description: Used generically to filter elements.
 old-location: shell\COMDLG_FILTERSPEC.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b5bb6777-a5b6-4d10-a8b8-79269fa5e2da
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: COMDLG_FILTERSPEC, COMDLG_FILTERSPEC structure [Windows Shell], _COMDLG_FILTERSPEC, shell.COMDLG_FILTERSPEC, shell_COMDLG_FILTERSPEC, shtypes/COMDLG_FILTERSPEC
 ms.prod: windows
 ms.technology: windows-sdk

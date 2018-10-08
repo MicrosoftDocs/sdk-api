@@ -4,10 +4,10 @@ title: "_MFT_OUTPUT_DATA_BUFFER"
 author: windows-sdk-content
 description: Contains information about an output buffer for a Media Foundation transform. This structure is used in the IMFTransform::ProcessOutput method.
 old-location: mf\mft_output_data_buffer.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*PMFT_OUTPUT_DATA_BUFFER, 57623c8f-f7b6-4cb3-8d54-4ee516c706c3, MFT_OUTPUT_DATA_BUFFER, MFT_OUTPUT_DATA_BUFFER structure [Media Foundation], _MFT_OUTPUT_DATA_BUFFER, mf.mft_output_data_buffer, mftransform/MFT_OUTPUT_DATA_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IDeskBand2
 author: windows-sdk-content
 description: Exposes methods to enable and query translucency effects in a deskband object.
 old-location: shell\IDeskBand2.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ba73527a-7762-45c0-8c69-87f03e55e5c6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDeskBand2, IDeskBand2 interface [Windows Shell], IDeskBand2 interface [Windows Shell],described, _shell_IDeskBand2, shell.IDeskBand2, shobjidl/IDeskBand2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: LIBRARYMANAGEDIALOGOPTIONS
 author: windows-sdk-content
 description: Used by SHShowManageLibraryUI to define options for handling a name collision when saving a library.
 old-location: shell\LIBRARYMANAGEDIALOGOPTIONS.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e5eaf131-9562-4ab0-a8bc-4eaaaa806a8f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LIBRARYMANAGEDIALOGOPTIONS, LIBRARYMANAGEDIALOGOPTIONS enumeration [Windows Shell], LMD_ALLOWUNINDEXABLENETWORKLOCATIONS, LMD_DEFAULT, _shell_LIBRARYMANAGEDIALOGOPTIONS, shell.LIBRARYMANAGEDIALOGOPTIONS, shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS, shobjidl_core/LMD_ALLOWUNINDEXABLENETWORKLOCATIONS, shobjidl_core/LMD_DEFAULT
 ms.prod: windows
 ms.technology: windows-sdk

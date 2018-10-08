@@ -4,10 +4,10 @@ title: IProfferService::ProfferService
 author: windows-sdk-content
 description: Makes a service available to other objects on the same host.
 old-location: shell\IProfferService_ProfferService.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IProfferService interface [Windows Shell],ProfferService method, IProfferService.ProfferService, IProfferService::ProfferService, ProfferService, ProfferService method [Windows Shell], ProfferService method [Windows Shell],IProfferService interface, inet_IProfferService_ProfferService, shell.IProfferService_ProfferService, shobjidl_core/IProfferService::ProfferService
 ms.prod: windows-hardware
 ms.technology: windows-devices

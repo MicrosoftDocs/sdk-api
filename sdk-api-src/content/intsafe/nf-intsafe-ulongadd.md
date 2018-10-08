@@ -4,10 +4,10 @@ title: ULongAdd function
 author: windows-sdk-content
 description: Adds two values of type ULONG.
 old-location: shell\ULongAdd.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 63726f12-ba01-4cb7-a311-95d476e68174
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DWordAdd, ULongAdd, ULongAdd function [Windows Shell], _shell_ULongAdd, intsafe/ULongAdd, shell.ULongAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SHRegGetValueA function
 author: windows-sdk-content
 description: Retrieves a registry value.
 old-location: shell\SHRegGetValue.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5650eb4c-40fd-47d7-af76-2688d62d9bca
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHRegGetValue, SHRegGetValue function [Windows Shell], SHRegGetValueA, SHRegGetValueW, _shell_SHRegGetValue, shell.SHRegGetValue, shlwapi/SHRegGetValue, shlwapi/SHRegGetValueA, shlwapi/SHRegGetValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

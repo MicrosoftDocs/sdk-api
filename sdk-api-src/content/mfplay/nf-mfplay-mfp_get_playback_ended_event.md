@@ -4,10 +4,10 @@ title: MFP_GET_PLAYBACK_ENDED_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PLAYBACK_ENDED_EVENT pointer.
 old-location: mf\mfp_get_playback_ended_event.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c15a7473-41e5-4d84-aaaa-c547dd38826b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFP_GET_PLAYBACK_ENDED_EVENT, MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation], mf.mfp_get_playback_ended_event, mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

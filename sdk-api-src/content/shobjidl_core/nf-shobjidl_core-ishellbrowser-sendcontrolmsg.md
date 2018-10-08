@@ -4,10 +4,10 @@ title: IShellBrowser::SendControlMsg
 author: windows-sdk-content
 description: Sends control messages to either the toolbar or the status bar in a Windows Explorer window.
 old-location: shell\IShellBrowser_SendControlMsg.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4494870b-45a8-478a-807a-7ed3674f69f3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SendControlMsg method, IShellBrowser.SendControlMsg, IShellBrowser::SendControlMsg, SendControlMsg, SendControlMsg method [Windows Shell], SendControlMsg method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SendControlMsg, shell.IShellBrowser_SendControlMsg, shobjidl_core/IShellBrowser::SendControlMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

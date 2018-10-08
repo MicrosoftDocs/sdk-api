@@ -4,10 +4,10 @@ title: ISyncMgrSyncItem::GetItemID
 author: windows-sdk-content
 description: Gets the unique ID of a sync item.
 old-location: shell\ISyncMgrSyncItem_GetItemID.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2add1902-1258-49ed-ad44-35d28d0776c1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemID method, ISyncMgrSyncItem.GetItemID, ISyncMgrSyncItem::GetItemID, _shell_ISyncMgrSyncItem_GetItemID, shell.ISyncMgrSyncItem_GetItemID, syncmgr/ISyncMgrSyncItem::GetItemID
 ms.prod: windows-hardware
 ms.technology: windows-devices

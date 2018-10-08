@@ -7,7 +7,7 @@ old-location: controls\ListView_SetCheckState.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcheckstate.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ListView_SetCheckState, ListView_SetCheckState macro [Windows Controls], _win32_ListView_SetCheckState, _win32_ListView_SetCheckState_cpp, commctrl/ListView_SetCheckState, controls.ListView_SetCheckState, controls._win32_ListView_SetCheckState
 ms.prod: windows-hardware
 ms.technology: windows-devices

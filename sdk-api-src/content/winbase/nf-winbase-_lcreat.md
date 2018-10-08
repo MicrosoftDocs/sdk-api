@@ -7,7 +7,7 @@ old-location: winprog\_lcreat.htm
 tech.root: devnotes
 ms.assetid: 89e19823-c720-4bfc-95d5-18942573dd94
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "_lcreat, _lcreat function [Windows API], winbase/_lcreat, winprog._lcreat"
 ms.prod: windows-hardware
 ms.technology: windows-devices

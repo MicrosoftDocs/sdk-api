@@ -4,10 +4,10 @@ title: IAssocHandlerInvoker
 author: windows-sdk-content
 description: Exposes methods that invoke an associated application handler.
 old-location: shell\IAssocHandlerInvoker.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b602280e-4237-4539-9a10-cec21c65e90d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAssocHandlerInvoker, IAssocHandlerInvoker interface [Windows Shell], IAssocHandlerInvoker interface [Windows Shell],described, _shell_IAssocHandlerInvoker, shell.IAssocHandlerInvoker, shobjidl_core/IAssocHandlerInvoker
 ms.prod: windows
 ms.technology: windows-sdk

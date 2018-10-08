@@ -4,10 +4,10 @@ title: IMFQualityAdvise2
 author: windows-sdk-content
 description: Enables a pipeline object to adjust its own audio or video quality, in response to quality messages.
 old-location: mf\imfqualityadvise2.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c6114bbc-31d8-45eb-9bf8-745b3138dd50
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFQualityAdvise2, IMFQualityAdvise2 interface [Media Foundation], IMFQualityAdvise2 interface [Media Foundation],described, mf.imfqualityadvise2, mfidl/IMFQualityAdvise2
 ms.prod: windows
 ms.technology: windows-sdk

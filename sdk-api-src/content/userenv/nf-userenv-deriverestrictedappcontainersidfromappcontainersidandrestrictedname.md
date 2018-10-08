@@ -4,10 +4,10 @@ title: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName funct
 author: windows-sdk-content
 description: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName is reserved for future use.
 old-location: shell\deriverestrictedappcontainersidfromappcontainersidandrestrictedname.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: D9E34178-3AC2-4C7A-906B-A42D69428C63
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName, DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function [Windows Shell], shell.deriverestrictedappcontainersidfromappcontainersidandrestrictedname, userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 ms.prod: windows-hardware
 ms.technology: windows-devices

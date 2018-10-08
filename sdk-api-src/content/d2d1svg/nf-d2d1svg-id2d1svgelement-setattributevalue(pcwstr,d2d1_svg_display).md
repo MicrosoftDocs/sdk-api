@@ -2,13 +2,13 @@
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY)
 author: windows-sdk-content
-description: Sets an attribute of this element using a string.
-old-location: direct2d\id2d1svgelement_setattributevalue.htm
-tech.root: direct2d
-ms.assetid: 56796F1B-5DC2-4E9C-A80E-40EA791E6784
+description: Gets an attribute of this element as a display value. This method can be used to get the value of the display property.
+old-location: direct2d\id2d1svgelement_setattributevalue_7.htm
+tech.root: Direct2D
+ms.assetid: 7B5828F9-F69D-4346-A2EB-5D00AD08B46F
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue
+ms.date: 10/05/2018
+ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets an attribute of this element using a string. 
+Gets an attribute of this element as a display value. This method can be used to get the value of the display property.
 
 
 ## -parameters
@@ -65,18 +65,11 @@ Type: <b>PCWSTR</b>
 Name of the attribute to set.
 
 
-### -param value [in]
+### -param value
 
-Type: <b>PCWSTR</b>
+Type: <b><a href="https://msdn.microsoft.com/028B78B3-FCDA-4260-8720-3DC5C2557DE5">D2D1_SVG_DISPLAY</a></b>
 
 The new value of the attribute.
-
-
-#### - type
-
-Type: <b><a href="https://msdn.microsoft.com/71991A28-FEA0-42A1-B5D0-DA13BBA77500">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
-
-The type of the string.
 
 
 ## -returns
@@ -85,10 +78,7 @@ The type of the string.
 
 Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns an HRESULT success or error code. Returns an error if the
-            attribute name is not valid on this element. Returns an error if the attribute
-            cannot be expressed as the specified type.
-          
+This method returns an HRESULT success or error code.
 
 
 

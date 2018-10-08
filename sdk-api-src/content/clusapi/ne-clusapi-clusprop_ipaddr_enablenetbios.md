@@ -7,7 +7,7 @@ old-location: mscs\clusprop_ipaddr_enablenetbios.htm
 tech.root: MsCS
 ms.assetid: 4d1610f0-6a7c-4dfa-9fec-4165f28dd7de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: CLUSPROP_IPADDR_ENABLENETBIOS, CLUSPROP_IPADDR_ENABLENETBIOS enumeration [Failover Cluster], CLUSPROP_IPADDR_ENABLENETBIOS_DISABLED, CLUSPROP_IPADDR_ENABLENETBIOS_ENABLED, CLUSPROP_IPADDR_ENABLENETBIOS_TRACK_NIC, clusapi/CLUSPROP_IPADDR_ENABLENETBIOS, clusapi/CLUSPROP_IPADDR_ENABLENETBIOS_DISABLED, clusapi/CLUSPROP_IPADDR_ENABLENETBIOS_ENABLED, clusapi/CLUSPROP_IPADDR_ENABLENETBIOS_TRACK_NIC, mscs.clusprop_ipaddr_enablenetbios
 ms.prod: windows
 ms.technology: windows-sdk

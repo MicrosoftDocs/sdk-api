@@ -7,7 +7,7 @@ old-location: controls\ListView_GetTextColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettextcolor.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ListView_GetTextColor, ListView_GetTextColor macro [Windows Controls], _win32_ListView_GetTextColor, _win32_ListView_GetTextColor_cpp, commctrl/ListView_GetTextColor, controls.ListView_GetTextColor, controls._win32_ListView_GetTextColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

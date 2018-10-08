@@ -4,10 +4,10 @@ title: "_MFStandardVideoFormat"
 author: windows-sdk-content
 description: Contains values that specify common video formats.
 old-location: mf\mfstandardvideoformat.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 559ea2e9-308b-428a-ae24-bf3fdc27e24e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 559ea2e9-308b-428a-ae24-bf3fdc27e24e, MFStandardVideoFormat, MFStandardVideoFormat enumeration [Media Foundation], MFStdVideoFormat_ATSC_HD1080i, MFStdVideoFormat_ATSC_HD720p, MFStdVideoFormat_ATSC_SD480i, MFStdVideoFormat_DVD_NTSC, MFStdVideoFormat_DVD_PAL, MFStdVideoFormat_DV_NTSC, MFStdVideoFormat_DV_PAL, MFStdVideoFormat_NTSC, MFStdVideoFormat_PAL, MFStdVideoFormat_reserved, _MFStandardVideoFormat, mf.mfstandardvideoformat, mfobjects/MFStandardVideoFormat, mfobjects/MFStdVideoFormat_ATSC_HD1080i, mfobjects/MFStdVideoFormat_ATSC_HD720p, mfobjects/MFStdVideoFormat_ATSC_SD480i, mfobjects/MFStdVideoFormat_DVD_NTSC, mfobjects/MFStdVideoFormat_DVD_PAL, mfobjects/MFStdVideoFormat_DV_NTSC, mfobjects/MFStdVideoFormat_DV_PAL, mfobjects/MFStdVideoFormat_NTSC, mfobjects/MFStdVideoFormat_PAL, mfobjects/MFStdVideoFormat_reserved
 ms.prod: windows
 ms.technology: windows-sdk

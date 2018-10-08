@@ -7,8 +7,8 @@ old-location: wcs\cmcreatetransformext.htm
 tech.root: WCS
 ms.assetid: 95b5bc2e-c790-43e0-8457-99bbbde5ecd2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: CMCreateTransformExt, CMCreateTransformExt function [Windows Color System], CMCreateTransformExtW, _color_CMCreateTransformExt, icm/CMCreateTransformExt, icm/CMCreateTransformExtW, wcs.cmcreatetransformext
+ms.date: 10/03/2018
+ms.keywords: CMCreateTransformExt, CMCreateTransformExt function [Windows Color System], _color_CMCreateTransformExt, icm/CMCreateTransformExt, wcs.cmcreatetransformext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: CMCreateTransformExtW (Unicode)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -38,7 +38,6 @@ api_location:
  - icm32.dll
 api_name:
  - CMCreateTransformExt
- - CMCreateTransformExtW
 product: Windows
 targetos: Windows
 req.typenames: 

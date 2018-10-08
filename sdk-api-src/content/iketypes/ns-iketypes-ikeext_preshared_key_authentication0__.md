@@ -4,10 +4,10 @@ title: IKEEXT_PRESHARED_KEY_AUTHENTICATION0__
 author: windows-sdk-content
 description: Stores information needed for pre-shared key authentication.
 old-location: fwp\ikeext_preshared_key_authentication0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 44cd2a76-cd8a-4c52-af41-927b13862c1e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IKEEXT_PRESHARED_KEY_AUTHENTICATION0, IKEEXT_PRESHARED_KEY_AUTHENTICATION0 structure [Filtering], IKEEXT_PRESHARED_KEY_AUTHENTICATION0__, fwp.ikeext_preshared_key_authentication0, iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION0
 ms.prod: windows
 ms.technology: windows-sdk

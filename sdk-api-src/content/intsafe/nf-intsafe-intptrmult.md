@@ -4,10 +4,10 @@ title: IntPtrMult function
 author: windows-sdk-content
 description: Multiplies two values of type INT_PTR.
 old-location: shell\IntPtrMult.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c93c088e-bef2-4999-bd6d-68d4dd493f0b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IntPtrMult, IntPtrMult function [Windows Shell], intsafe/IntPtrMult, shell.IntPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

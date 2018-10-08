@@ -7,7 +7,7 @@ old-location: winauto\uiauto_AnimationStyleEnum.htm
 tech.root: WinAuto
 ms.assetid: 0298e162-1e10-499a-9209-69c674bcb64b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AnimationStyle, AnimationStyle enumeration [Windows Accessibility], AnimationStyle_BlinkingBackground, AnimationStyle_LasVegasLights, AnimationStyle_MarchingBlackAnts, AnimationStyle_MarchingRedAnts, AnimationStyle_None, AnimationStyle_Other, AnimationStyle_Shimmer, AnimationStyle_SparkleText, uiauto.uiauto_AnimationStyleEnum, uiauto_AnimationStyleEnum, uiautomationcore/AnimationStyle, uiautomationcore/AnimationStyle_BlinkingBackground, uiautomationcore/AnimationStyle_LasVegasLights, uiautomationcore/AnimationStyle_MarchingBlackAnts, uiautomationcore/AnimationStyle_MarchingRedAnts, uiautomationcore/AnimationStyle_None, uiautomationcore/AnimationStyle_Other, uiautomationcore/AnimationStyle_Shimmer, uiautomationcore/AnimationStyle_SparkleText, winauto.uiauto_AnimationStyleEnum
 ms.prod: windows
 ms.technology: windows-sdk

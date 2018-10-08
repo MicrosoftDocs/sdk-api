@@ -4,10 +4,10 @@ title: IMFQualityAdvise::DropTime
 author: windows-sdk-content
 description: Drops samples over a specified interval of time.
 old-location: mf\imfqualityadvise_droptime.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 60d27190-7bed-427c-9018-2926c85815fe
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime, DropTime method [Media Foundation], DropTime method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],DropTime method, IMFQualityAdvise.DropTime, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

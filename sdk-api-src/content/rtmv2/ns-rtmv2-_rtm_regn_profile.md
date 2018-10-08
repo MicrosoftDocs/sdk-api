@@ -4,10 +4,10 @@ title: "_RTM_REGN_PROFILE"
 author: windows-sdk-content
 description: The RTM_REGN_PROFILE structure contains information returned during the registration process. The information is used for later function calls (such as the maximum number of routes that can be returned by a call to RtmGetEnumRoutes).
 old-location: rras\rtm_regn_profile.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 26644a09-8d49-4c9f-a7cd-5edbf93e83d0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PRTM_REGN_PROFILE, PRTM_REGN_PROFILE, PRTM_REGN_PROFILE structure pointer [RAS], RTM_REGN_PROFILE, RTM_REGN_PROFILE structure [RAS], _RTM_REGN_PROFILE, _rtmv2ref_rtm_regn_profile, rras.rtm_regn_profile, rtmv2/PRTM_REGN_PROFILE, rtmv2/RTM_REGN_PROFILE"
 ms.prod: windows
 ms.technology: windows-sdk

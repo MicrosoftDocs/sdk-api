@@ -4,10 +4,10 @@ title: IMFVideoDisplayControl::RepaintVideo
 author: windows-sdk-content
 description: Repaints the current video frame. Call this method whenever the application receives a WM_PAINT message.
 old-location: mf\imfvideodisplaycontrol_repaintvideo.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c8051883-2a48-4ca4-a7d2-c90d0d451cd2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],RepaintVideo method, IMFVideoDisplayControl.RepaintVideo, IMFVideoDisplayControl::RepaintVideo, RepaintVideo, RepaintVideo method [Media Foundation], RepaintVideo method [Media Foundation],IMFVideoDisplayControl interface, c8051883-2a48-4ca4-a7d2-c90d0d451cd2, evr/IMFVideoDisplayControl::RepaintVideo, mf.imfvideodisplaycontrol_repaintvideo
 ms.prod: windows-hardware
 ms.technology: windows-devices

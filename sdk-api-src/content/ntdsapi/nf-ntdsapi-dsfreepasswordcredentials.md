@@ -4,10 +4,10 @@ title: DsFreePasswordCredentials function
 author: windows-sdk-content
 description: Frees memory allocated for a credentials structure by the DsMakePasswordCredentials function.
 old-location: ad\dsfreepasswordcredentials.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 3d008aa8-feff-426f-911b-a447257076c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DsFreePasswordCredentials, DsFreePasswordCredentials function [Active Directory], _glines_dsfreepasswordcredentials, ad.dsfreepasswordcredentials, ntdsapi/DsFreePasswordCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

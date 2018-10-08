@@ -4,10 +4,10 @@ title: MFCreateVideoMediaTypeFromSubtype function
 author: windows-sdk-content
 description: Creates a partial video media type with a specified subtype.
 old-location: mf\mfcreatevideomediatypefromsubtype.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 3ae58096-fe11-4cc8-9887-2e13f56a958d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 3ae58096-fe11-4cc8-9887-2e13f56a958d, MFCreateVideoMediaTypeFromSubtype, MFCreateVideoMediaTypeFromSubtype function [Media Foundation], mf.mfcreatevideomediatypefromsubtype, mfapi/MFCreateVideoMediaTypeFromSubtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

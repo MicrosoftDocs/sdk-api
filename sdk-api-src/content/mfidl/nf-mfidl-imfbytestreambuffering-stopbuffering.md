@@ -4,10 +4,10 @@ title: IMFByteStreamBuffering::StopBuffering
 author: windows-sdk-content
 description: Stops any buffering that is in progress.
 old-location: mf\imfbytestreambuffering_stopbuffering.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: da342ac4-bb61-40d6-9b67-0480ac2a780f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFByteStreamBuffering interface [Media Foundation],StopBuffering method, IMFByteStreamBuffering.StopBuffering, IMFByteStreamBuffering::StopBuffering, StopBuffering, StopBuffering method [Media Foundation], StopBuffering method [Media Foundation],IMFByteStreamBuffering interface, da342ac4-bb61-40d6-9b67-0480ac2a780f, mf.imfbytestreambuffering_stopbuffering, mfidl/IMFByteStreamBuffering::StopBuffering
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_RTM_ENTITY_METHOD_OUTPUT"
 author: windows-sdk-content
 description: The RTM_ENTITY_METHOD_OUTPUT structure is used to pass information to the calling client when the routing table manager invokes a method.
 old-location: rras\rtm_entity_method_output.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 9ec05355-a912-4ed0-ace9-8823d333bab5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PRTM_ENTITY_METHOD_OUTPUT, PRTM_ENTITY_METHOD_OUTPUT, PRTM_ENTITY_METHOD_OUTPUT structure pointer [RAS], RTM_ENTITY_METHOD_OUTPUT, RTM_ENTITY_METHOD_OUTPUT structure [RAS], _RTM_ENTITY_METHOD_OUTPUT, _rtmv2ref_rtm_entity_method_output, rras.rtm_entity_method_output, rtmv2/PRTM_ENTITY_METHOD_OUTPUT, rtmv2/RTM_ENTITY_METHOD_OUTPUT"
 ms.prod: windows
 ms.technology: windows-sdk

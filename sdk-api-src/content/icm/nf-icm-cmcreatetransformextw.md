@@ -2,13 +2,13 @@
 UID: NF:icm.CMCreateTransformExtW
 title: CMCreateTransformExtW function
 author: windows-sdk-content
-description: The CMCreateTransformExt ANSI function creates a color transform that maps from an input LOGCOLORSPACE to an optional target space and then to an output device, using a set of flags that define how the transform should be created.
-old-location: wcs\cmcreatetransformext.htm
+description: The CMCreateTransformExtW Unicode function creates a color transform that maps from an input LOGCOLORSPACE to an optional target space and then to an output device. A set of flags defines how the transform should be created.
+old-location: wcs\cmcreatetransformextw.htm
 tech.root: WCS
-ms.assetid: 95b5bc2e-c790-43e0-8457-99bbbde5ecd2
+ms.assetid: fa041ecd-8c42-4675-9e53-dd34535a2fd3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: CMCreateTransformExt, CMCreateTransformExt function [Windows Color System], CMCreateTransformExtW, _color_CMCreateTransformExt, icm/CMCreateTransformExt, icm/CMCreateTransformExtW, wcs.cmcreatetransformext
+ms.date: 10/03/2018
+ms.keywords: CMCreateTransformExtW, CMCreateTransformExtW function [Windows Color System], _color_CMCreateTransformExtW, icm/CMCreateTransformExtW, wcs.cmcreatetransformextw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: CMCreateTransformExtW (Unicode)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -37,7 +37,6 @@ api_type:
 api_location:
  - icm32.dll
 api_name:
- - CMCreateTransformExt
  - CMCreateTransformExtW
 product: Windows
 targetos: Windows
@@ -51,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CMCreateTransformExt</b> ANSI function creates a color transform that maps from an input <a href="https://msdn.microsoft.com/b08aec07-6ac0-47be-8dc9-d604d94dedde">LOGCOLORSPACE</a> to an optional target space and then to an output device, using a set of flags that define how the transform should be created.
+The <b>CMCreateTransformExtW</b> Unicode function creates a color transform that maps from an input <a href="https://msdn.microsoft.com/b08aec07-6ac0-47be-8dc9-d604d94dedde">LOGCOLORSPACE</a> to an optional target space and then to an output device. A set of flags defines how the transform should be created.
 
 
 ## -parameters
@@ -71,7 +70,7 @@ Pointer to a memory-mapped device profile.
 
 ### -param lpTargetDevCharacter
 
-Pointer to a memory-mapped target profile.
+Points to a memory-mapped target profile.
 
 
 ### -param dwFlags
@@ -94,7 +93,7 @@ If this function fails, the return value is an error code having a value less th
 
 
 
-The Unicode equivalent of <b>CMCreateTransformExt</b> is <a href="https://msdn.microsoft.com/fa041ecd-8c42-4675-9e53-dd34535a2fd3">CMCreateTransformExtW</a>.
+The ANSI equivalent of <b>CMCreateTransformExtW</b> is <a href="https://msdn.microsoft.com/95b5bc2e-c790-43e0-8457-99bbbde5ecd2">CMCreateTransformExt</a>.
 
 Every CMM is required to export this function.
 
@@ -110,11 +109,15 @@ Every CMM is required to export this function.
 
 
 
-<a href="https://msdn.microsoft.com/fa041ecd-8c42-4675-9e53-dd34535a2fd3">CMCreateTransformExtW</a>
+<a href="https://msdn.microsoft.com/95b5bc2e-c790-43e0-8457-99bbbde5ecd2">CMCreateTransformExt</a>
 
 
 
 <a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/b08aec07-6ac0-47be-8dc9-d604d94dedde">LOGCOLORSPACE</a>
  
 
  

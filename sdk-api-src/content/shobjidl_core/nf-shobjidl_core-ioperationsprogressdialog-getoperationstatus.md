@@ -4,10 +4,10 @@ title: IOperationsProgressDialog::GetOperationStatus
 author: windows-sdk-content
 description: Gets operation status for progress dialog.
 old-location: shell\IOperationsProgressDialog_GetOperationStatus.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bd796369-9789-4c69-b699-eb0ec0e571b2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetOperationStatus, GetOperationStatus method [Windows Shell], GetOperationStatus method [Windows Shell],IOperationsProgressDialog interface, IOperationsProgressDialog interface [Windows Shell],GetOperationStatus method, IOperationsProgressDialog.GetOperationStatus, IOperationsProgressDialog::GetOperationStatus, _shell_IOperationsProgressDialog_GetOperationStatus, shell.IOperationsProgressDialog_GetOperationStatus, shobjidl_core/IOperationsProgressDialog::GetOperationStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

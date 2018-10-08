@@ -7,7 +7,7 @@ old-location: com\iclientsecurity_queryblanket.htm
 tech.root: com
 ms.assetid: 8761bb58-9f28-4fe6-bf24-2687608ec5e8
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IClientSecurity interface [COM],QueryBlanket method, IClientSecurity.QueryBlanket, IClientSecurity::QueryBlanket, QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_queryblanket, com.iclientsecurity_queryblanket, objidlbase/IClientSecurity::QueryBlanket
 ms.prod: windows-hardware
 ms.technology: windows-devices

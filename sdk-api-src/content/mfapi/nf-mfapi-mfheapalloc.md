@@ -4,10 +4,10 @@ title: MFHeapAlloc function
 author: windows-sdk-content
 description: Allocates a block of memory.
 old-location: mf\mfheapalloc.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 3ad97cbf-4065-4807-ad6a-68e84a3601d4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 3ad97cbf-4065-4807-ad6a-68e84a3601d4, MFHeapAlloc, MFHeapAlloc function [Media Foundation], mf.mfheapalloc, mfapi/MFHeapAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

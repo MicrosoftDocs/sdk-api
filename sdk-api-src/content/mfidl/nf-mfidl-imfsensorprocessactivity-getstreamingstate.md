@@ -4,10 +4,10 @@ title: IMFSensorProcessActivity::GetStreamingState
 author: windows-sdk-content
 description: Gets a value indicating whether the sensor is currently streaming.
 old-location: mf\imfsensorprocessactivity_getstreamingstate.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: C8A99D4B-F3D5-41D2-A956-C147900F28ED
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetStreamingState, GetStreamingState method [Media Foundation], GetStreamingState method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingState method, IMFSensorProcessActivity.GetStreamingState, IMFSensorProcessActivity::GetStreamingState, mf.imfsensorprocessactivity_getstreamingstate, mfidl/IMFSensorProcessActivity::GetStreamingState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSourceResolver::CreateObjectFromByteStream
 author: windows-sdk-content
 description: Creates a media source from a byte stream. This method is synchronous.
 old-location: mf\imfsourceresolver_createobjectfrombytestream.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e4a4aad5-0924-4251-b0da-6919ae010bf0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CreateObjectFromByteStream, CreateObjectFromByteStream method [Media Foundation], CreateObjectFromByteStream method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CreateObjectFromByteStream method, IMFSourceResolver.CreateObjectFromByteStream, IMFSourceResolver::CreateObjectFromByteStream, e4a4aad5-0924-4251-b0da-6919ae010bf0, mf.imfsourceresolver_createobjectfrombytestream, mfidl/IMFSourceResolver::CreateObjectFromByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: QueryProcessAffinityUpdateMode function
 author: windows-sdk-content
 description: Retrieves the affinity update mode of the specified process.
 old-location: base\queryprocessaffinityupdatemode.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: e1c9fab2-45a0-4ea7-bafb-91fc0f22e658
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, QueryProcessAffinityUpdateMode, QueryProcessAffinityUpdateMode function, base.queryprocessaffinityupdatemode, processthreadsapi/QueryProcessAffinityUpdateMode, winbase/QueryProcessAffinityUpdateMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

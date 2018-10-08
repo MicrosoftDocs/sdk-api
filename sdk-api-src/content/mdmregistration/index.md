@@ -2,7 +2,7 @@
 UID: NA:mdmregistration
 ms.assetid: c9640eec-4d08-33fa-b57b-ca59880510c7
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

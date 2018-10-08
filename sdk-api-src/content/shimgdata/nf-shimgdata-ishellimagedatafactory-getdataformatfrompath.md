@@ -4,10 +4,10 @@ title: IShellImageDataFactory::GetDataFormatFromPath
 author: windows-sdk-content
 description: Determines a file's format based on its extension.
 old-location: shell\IShellImageDataFactory_GetDataFormatFromPath.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ca6aa555-5997-43c6-84d1-35a24301d0a2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetDataFormatFromPath, GetDataFormatFromPath method [Windows Shell], GetDataFormatFromPath method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],GetDataFormatFromPath method, IShellImageDataFactory.GetDataFormatFromPath, IShellImageDataFactory::GetDataFormatFromPath, _shell_IShellImageDataFactory_GetDataFormatFromPath, shell.IShellImageDataFactory_GetDataFormatFromPath, shimgdata/IShellImageDataFactory::GetDataFormatFromPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

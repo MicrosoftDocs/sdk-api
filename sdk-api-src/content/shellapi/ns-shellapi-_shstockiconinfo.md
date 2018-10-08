@@ -4,10 +4,10 @@ title: "_SHSTOCKICONINFO"
 author: windows-sdk-content
 description: Receives information used to retrieve a stock Shell icon. This structure is used in a call SHGetStockIconInfo.
 old-location: shell\SHSTOCKICONINFO.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHSTOCKICONINFO, SHSTOCKICONINFO structure [Windows Shell], _SHSTOCKICONINFO, _SHSTOCKICONINFO structure [Windows Shell], _shell_SHSTOCKICONINFO, shell.SHSTOCKICONINFO, shellapi/SHSTOCKICONINFO
 ms.prod: windows
 ms.technology: windows-sdk

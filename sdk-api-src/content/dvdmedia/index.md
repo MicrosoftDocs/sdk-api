@@ -2,7 +2,7 @@
 UID: NA:dvdmedia
 ms.assetid: bb74b360-eda8-3d5b-b9ae-96c5b6a7f330
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

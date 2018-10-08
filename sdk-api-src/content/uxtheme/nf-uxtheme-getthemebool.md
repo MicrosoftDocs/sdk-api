@@ -7,7 +7,7 @@ old-location: controls\GetThemeBool.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebool.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: GetThemeBool, GetThemeBool function [Windows Controls], TMT_ALWAYSSHOWSIZINGBAR, TMT_AUTOSIZE, TMT_BGFILL, TMT_BORDERONLY, TMT_COMPOSITED, TMT_GLYPHONLY, TMT_GLYPHTRANSPARENT, TMT_INTEGRALSIZING, TMT_MIRRORIMAGE, TMT_SOURCEGROW, TMT_SOURCESHRINK, TMT_TRANSPARENT, TMT_UNIFORMSIZING, TMT_USERPICTURE, controls.GetThemeBool, controls.inet_GetThemeBool, inet_GetThemeBool, inet_GetThemeBool_cpp, uxtheme/GetThemeBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

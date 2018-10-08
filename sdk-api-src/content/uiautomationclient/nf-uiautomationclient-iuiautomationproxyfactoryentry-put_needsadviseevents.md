@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents.ht
 tech.root: WinAuto
 ms.assetid: 6a23b850-a2a0-4701-9725-e36213fcead7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],NeedsAdviseEvents property, IUIAutomationProxyFactoryEntry.NeedsAdviseEvents, IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents, NeedsAdviseEvents property [Windows Accessibility], NeedsAdviseEvents property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, put_NeedsAdviseEvents, uiauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents, uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents, winauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

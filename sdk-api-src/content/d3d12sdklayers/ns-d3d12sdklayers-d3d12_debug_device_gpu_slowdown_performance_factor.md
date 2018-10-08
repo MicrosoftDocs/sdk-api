@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_debug_device_gpu_slowdown_performance_factor.htm
 tech.root: direct3d12
 ms.assetid: C137DFAA-7AB9-49A6-882D-61ADE6E9E046
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR structure, d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, direct3d12.d3d12_debug_device_gpu_slowdown_performance_factor
 ms.prod: windows
 ms.technology: windows-sdk

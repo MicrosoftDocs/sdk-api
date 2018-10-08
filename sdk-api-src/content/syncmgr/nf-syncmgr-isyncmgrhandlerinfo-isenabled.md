@@ -4,10 +4,10 @@ title: ISyncMgrHandlerInfo::IsEnabled
 author: windows-sdk-content
 description: Gets a value that indicates whether the handler is enabled.
 old-location: shell\ISyncMgrHandlerInfo_IsEnabled.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1485ae25-20b8-4ee9-a30d-247f719047cd
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsEnabled method, ISyncMgrHandlerInfo.IsEnabled, ISyncMgrHandlerInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsEnabled, shell.ISyncMgrHandlerInfo_IsEnabled, syncmgr/ISyncMgrHandlerInfo::IsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

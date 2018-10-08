@@ -4,10 +4,10 @@ title: IMFNetResourceFilter::OnSendingRequest
 author: windows-sdk-content
 description: Called when the byte stream requests a URL.
 old-location: mf\imfnetresourcefilter_onsendingrequest.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4FE6BBE8-A8EC-4304-BC4B-4D49F8EADC25
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnSendingRequest method, IMFNetResourceFilter.OnSendingRequest, IMFNetResourceFilter::OnSendingRequest, OnSendingRequest, OnSendingRequest method [Media Foundation], OnSendingRequest method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onsendingrequest, mfidl/IMFNetResourceFilter::OnSendingRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

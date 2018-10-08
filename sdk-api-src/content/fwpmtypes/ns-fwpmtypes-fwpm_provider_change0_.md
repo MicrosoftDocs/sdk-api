@@ -4,10 +4,10 @@ title: FWPM_PROVIDER_CHANGE0_
 author: windows-sdk-content
 description: Change notification dispatched to subscribers.
 old-location: fwp\fwpm_provider_change0_struct.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: abd5c40c-5907-4f1e-8fb3-28d43ecebfc8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: FWPM_PROVIDER_CHANGE0, FWPM_PROVIDER_CHANGE0 structure [Filtering], FWPM_PROVIDER_CHANGE0_, fwp.fwpm_provider_change0_struct, fwpmtypes/FWPM_PROVIDER_CHANGE0
 ms.prod: windows
 ms.technology: windows-sdk

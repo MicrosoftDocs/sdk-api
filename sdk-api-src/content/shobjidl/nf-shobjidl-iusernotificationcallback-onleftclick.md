@@ -4,10 +4,10 @@ title: IUserNotificationCallback::OnLeftClick
 author: windows-sdk-content
 description: Called when the user clicks the icon in the notification area. The applications may launch some customary UI in response.
 old-location: shell\IUserNotificationCallback_OnLeftClick.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 0202aace-94d6-4619-8838-eea0b174ffb6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnLeftClick method, IUserNotificationCallback.OnLeftClick, IUserNotificationCallback::OnLeftClick, OnLeftClick, OnLeftClick method [Windows Shell], OnLeftClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnLeftClick, shell.IUserNotificationCallback_OnLeftClick, shobjidl/IUserNotificationCallback::OnLeftClick
 ms.prod: windows-hardware
 ms.technology: windows-devices

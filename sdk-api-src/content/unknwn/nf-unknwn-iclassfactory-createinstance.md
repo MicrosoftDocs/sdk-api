@@ -7,7 +7,7 @@ old-location: com\iclassfactory_createinstance.htm
 tech.root: com
 ms.assetid: 45d34150-9e0b-4a76-a784-c81434ec73b8
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: CreateInstance, CreateInstance method [COM], CreateInstance method [COM],IClassFactory interface, IClassFactory interface [COM],CreateInstance method, IClassFactory.CreateInstance, IClassFactory::CreateInstance, _com_iclassfactory_createinstance, com.iclassfactory_createinstance, unknwn/IClassFactory::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

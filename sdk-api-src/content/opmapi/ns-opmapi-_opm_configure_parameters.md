@@ -4,10 +4,10 @@ title: "_OPM_CONFIGURE_PARAMETERS"
 author: windows-sdk-content
 description: Contains an Output Protection Manager (OPM) or Certified Output Protection Manager (COPP) command.
 old-location: mf\opm_configure_parameters.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 60d13945-740f-46bd-9602-bacd0dac5e32
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: OPM_CONFIGURE_PARAMETERS, OPM_CONFIGURE_PARAMETERS structure [Media Foundation], _OPM_CONFIGURE_PARAMETERS, mf.opm_configure_parameters, opmapi/OPM_CONFIGURE_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk

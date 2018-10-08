@@ -7,7 +7,7 @@ old-location: coreaudio\isimpleaudiovolume_getmute.htm
 tech.root: CoreAudio
 ms.assetid: 35890423-2aac-473b-a820-ba7cb1b5e05e
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],ISimpleAudioVolume interface, ISimpleAudioVolume interface [Core Audio],GetMute method, ISimpleAudioVolume.GetMute, ISimpleAudioVolume::GetMute, ISimpleAudioVolumeGetMute, audioclient/ISimpleAudioVolume::GetMute, coreaudio.isimpleaudiovolume_getmute
 ms.prod: windows-hardware
 ms.technology: windows-devices

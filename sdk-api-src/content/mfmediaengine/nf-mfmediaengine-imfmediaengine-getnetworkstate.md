@@ -4,10 +4,10 @@ title: IMFMediaEngine::GetNetworkState
 author: windows-sdk-content
 description: Gets the current network state of the media engine.
 old-location: mf\imfmediaengine_getnetworkstate.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 7CCA902A-51E9-4B6D-B16C-643177BE1BC9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetNetworkState, GetNetworkState method [Media Foundation], GetNetworkState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNetworkState method, IMFMediaEngine.GetNetworkState, IMFMediaEngine::GetNetworkState, mf.imfmediaengine_getnetworkstate, mfmediaengine/IMFMediaEngine::GetNetworkState
 ms.prod: windows-hardware
 ms.technology: windows-devices

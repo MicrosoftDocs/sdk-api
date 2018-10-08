@@ -4,10 +4,10 @@ title: IPreviewHandler::SetFocus
 author: windows-sdk-content
 description: Directs the preview handler to set focus to itself.
 old-location: shell\IPreviewHandler_SetFocus.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 93667383-da56-4fe9-a79e-933ab9703365
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetFocus method, IPreviewHandler.SetFocus, IPreviewHandler::SetFocus, SetFocus, SetFocus method [Windows Shell], SetFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetFocus, shell.IPreviewHandler_SetFocus, shobjidl_core/IPreviewHandler::SetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

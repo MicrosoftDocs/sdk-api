@@ -7,7 +7,7 @@ old-location: com\ipersiststream_load.htm
 tech.root: com
 ms.assetid: 351e1187-9959-4542-8778-925457c3b8e3
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IPersistStream interface [COM],Load method, IPersistStream.Load, IPersistStream::Load, Load, Load method [COM], Load method [COM],IPersistStream interface, _com_ipersiststream_load, com.ipersiststream_load, objidl/IPersistStream::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices

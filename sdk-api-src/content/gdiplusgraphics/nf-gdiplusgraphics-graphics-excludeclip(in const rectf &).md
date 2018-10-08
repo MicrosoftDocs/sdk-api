@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.ExcludeClip(IN const RectF &)
 title: Graphics::ExcludeClip(IN const RectF &)
 author: windows-sdk-content
-description: The Graphics::ExcludeClip method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_RectF_rect_.htm
+description: This topic lists the ExcludeClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsexcludeclipmethods\excludeclip_53rectfamprect.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsexcludeclipmethods.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
-ms.keywords: ExcludeClip, ExcludeClip method [GDI+], ExcludeClip method [GDI+],Graphics class, Graphics class [GDI+],ExcludeClip method, Graphics.ExcludeClip, Graphics.ExcludeClip(IN const RectF &), Graphics.ExcludeClip(const RectF&), Graphics::ExcludeClip, Graphics::ExcludeClip(IN const RectF &), _gdiplus_CLASS_Graphics_ExcludeClip_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_RectF_rect_
+ms.keywords: ExcludeClip, ExcludeClip methods [GDI+], Graphics.ExcludeClip, Graphics.ExcludeClip(IN const RectF &), Graphics::ExcludeClip, Graphics::ExcludeClip(IN const RectF &), _gdiplus_CLASS_Graphics_ExcludeClip_Methods, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_Methods, gdiplusgraphics/ExcludeClip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdiplusgraphics.h
 api_name:
  - Graphics.ExcludeClip
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # Graphics::ExcludeClip(IN const RectF &)
@@ -51,52 +50,46 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::ExcludeClip</b> method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
+<span>This topic lists the 
+ExcludeClip methods of the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
+<b>Graphics</b> class, see 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
+
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/c04c1c10-e625-4031-b241-a069668a5285">ExcludeClip(Rect&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/c04c1c10-e625-4031-b241-a069668a5285">Graphics::ExcludeClip</a> method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/3123dbf3-ea4c-4597-abe8-7fb97ec669f5">ExcludeClip(RectF&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/3123dbf3-ea4c-4597-abe8-7fb97ec669f5">Graphics::ExcludeClip</a> method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7b792026-182a-4927-b268-515e3abb41d3">ExcludeClip(Region*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/7b792026-182a-4927-b268-515e3abb41d3">Graphics::ExcludeClip</a> method updates the clipping region with the portion of itself that does not overlap the specified region.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param rect [in, ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
-
-Reference to a rectangle to use to update the clipping region. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
-</strong>
-
-If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
-
-
-
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
-
-
-
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
- 
-
- 
 

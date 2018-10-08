@@ -4,10 +4,10 @@ title: ULongPtrToUIntPtr function
 author: windows-sdk-content
 description: Converts a value of type ULONG_PTR to a value of type UINT_PTR.
 old-location: shell\ULongPtrToUIntPtr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 512f7db7-af3b-4cf8-aad5-138c5da344da
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DWordPtrToUIntPtr, ULongPtrToUIntPtr, ULongPtrToUIntPtr function [Windows Shell], _shell_ULongPtrToUIntPtr, intsafe/ULongPtrToUIntPtr, shell.ULongPtrToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

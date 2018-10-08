@@ -4,10 +4,10 @@ title: IMFMediaSource::Shutdown
 author: windows-sdk-content
 description: Shuts down the media source and releases the resources it is using.
 old-location: mf\imfmediasource_shutdown.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c7f890a8-74bd-4418-bb02-a3fee62dec6d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaSource interface [Media Foundation],Shutdown method, IMFMediaSource.Shutdown, IMFMediaSource::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSource interface, c7f890a8-74bd-4418-bb02-a3fee62dec6d, mf.imfmediasource_shutdown, mfidl/IMFMediaSource::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

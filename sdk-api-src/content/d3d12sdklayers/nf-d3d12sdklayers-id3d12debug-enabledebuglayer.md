@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debug_enabledebuglayer.htm
 tech.root: direct3d12
 ms.assetid: 4C30C7C6-6071-4D69-BAB9-4CF6FED5B7D4
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: EnableDebugLayer, EnableDebugLayer method, EnableDebugLayer method,ID3D12Debug interface, ID3D12Debug interface,EnableDebugLayer method, ID3D12Debug.EnableDebugLayer, ID3D12Debug::EnableDebugLayer, d3d12sdklayers/ID3D12Debug::EnableDebugLayer, direct3d12.id3d12debug_enabledebuglayer
 ms.prod: windows-hardware
 ms.technology: windows-devices

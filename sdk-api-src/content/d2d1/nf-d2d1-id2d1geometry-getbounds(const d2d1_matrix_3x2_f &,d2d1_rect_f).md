@@ -3,12 +3,12 @@ UID: NF:d2d1.ID2D1Geometry.GetBounds(const D2D1_MATRIX_3X2_F &,D2D1_RECT_F)
 title: ID2D1Geometry::GetBounds(const D2D1_MATRIX_3X2_F &,D2D1_RECT_F)
 author: windows-sdk-content
 description: Retrieves the bounds of the geometry.
-old-location: direct2d\ID2D1Geometry_GetBounds_ptr_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F.htm
-tech.root: direct2d
-ms.assetid: 5dc79a72-60d5-4a6d-94e6-d8a476d01c19
+old-location: direct2d\ID2D1Geometry_GetBounds_ref_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F.htm
+tech.root: Direct2D
+ms.assetid: a161de0f-18ed-49e3-bf80-6bb9c3e3b332
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: GetBounds, GetBounds method [Direct2D], GetBounds method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],GetBounds method, ID2D1Geometry.GetBounds, ID2D1Geometry.GetBounds(const D2D1_MATRIX_3X2_F &,D2D1_RECT_F), ID2D1Geometry::GetBounds, ID2D1Geometry::GetBounds(const D2D1_MATRIX_3X2_F &,D2D1_RECT_F), d2d1/ID2D1Geometry::GetBounds, direct2d.ID2D1Geometry_GetBounds_ptr_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F
+ms.date: 10/05/2018
+ms.keywords: GetBounds, GetBounds method [Direct2D], GetBounds method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],GetBounds method, ID2D1Geometry.GetBounds, ID2D1Geometry.GetBounds(const D2D1_MATRIX_3X2_F &,D2D1_RECT_F), ID2D1Geometry::GetBounds, ID2D1Geometry::GetBounds(const D2D1_MATRIX_3X2_F &,D2D1_RECT_F), d2d1/ID2D1Geometry::GetBounds, direct2d.ID2D1Geometry_GetBounds_ref_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,12 +58,11 @@ Retrieves the bounds of the geometry.
 
 
 
-### -param worldTransform [in, optional]
+### -param worldTransform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
-The transform to apply to this geometry before calculating its bounds, or <b>NULL</b>.
-
+The transform to apply to this geometry before calculating its bounds.
 
 
 ### -param bounds [out]
@@ -77,7 +76,7 @@ When this method returns, contains the bounds of this geometry. If the bounds ar
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

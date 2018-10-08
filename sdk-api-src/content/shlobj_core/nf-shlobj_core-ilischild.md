@@ -4,10 +4,10 @@ title: ILIsChild function
 author: windows-sdk-content
 description: Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one SHITEMID.
 old-location: shell\ILIsChild.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e799fbcf-8254-457a-9d1b-6202dea190c1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ILIsChild, ILIsChild function [Windows Shell], _shell_ILIsChild, shell.ILIsChild, shlobj_core/ILIsChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

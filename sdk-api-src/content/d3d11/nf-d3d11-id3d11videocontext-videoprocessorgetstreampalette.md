@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorGetStreamPalette
 author: windows-sdk-content
 description: Gets the color-palette entries for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreampalette.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 009568EA-7230-42C0-B35F-AB0A1AF8EC2A
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamPalette method, ID3D11VideoContext.VideoProcessorGetStreamPalette, ID3D11VideoContext::VideoProcessorGetStreamPalette, VideoProcessorGetStreamPalette, VideoProcessorGetStreamPalette method [Media Foundation], VideoProcessorGetStreamPalette method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamPalette, mf.id3d11videocontext_videoprocessorgetstreampalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

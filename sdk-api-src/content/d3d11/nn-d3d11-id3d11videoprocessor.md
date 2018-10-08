@@ -4,10 +4,10 @@ title: ID3D11VideoProcessor
 author: windows-sdk-content
 description: Represents a video processor for Microsoft Direct3D 11.
 old-location: mf\id3d11videoprocessor.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: AF6F6781-A7F9-4196-8E91-FDFDD1924E24
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D11VideoProcessor, ID3D11VideoProcessor interface [Media Foundation], ID3D11VideoProcessor interface [Media Foundation],described, d3d11/ID3D11VideoProcessor, mf.id3d11videoprocessor
 ms.prod: windows
 ms.technology: windows-sdk

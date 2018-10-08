@@ -4,10 +4,10 @@ title: AvSetMmThreadCharacteristicsA function
 author: windows-sdk-content
 description: Associates the calling thread with the specified task.
 old-location: base\avsetmmthreadcharacteristics.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 881d3f97-e68e-40cb-b799-76784185dd37
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: AvSetMmThreadCharacteristics, AvSetMmThreadCharacteristics function, AvSetMmThreadCharacteristicsA, AvSetMmThreadCharacteristicsW, avrt/AvSetMmThreadCharacteristics, avrt/AvSetMmThreadCharacteristicsA, avrt/AvSetMmThreadCharacteristicsW, base.avsetmmthreadcharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices

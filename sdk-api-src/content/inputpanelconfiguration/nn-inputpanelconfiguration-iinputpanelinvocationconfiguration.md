@@ -4,10 +4,10 @@ title: IInputPanelInvocationConfiguration
 author: windows-sdk-content
 description: Enables Windows Store apps to opt out of the automatic invocation behavior.
 old-location: shell\iinputpanelinvocationconfiguration.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 452F46B6-3B71-4818-A528-B2A215EC9E87
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IInputPanelInvocationConfiguration, IInputPanelInvocationConfiguration interface [Windows Shell], IInputPanelInvocationConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelInvocationConfiguration, shell.iinputpanelinvocationconfiguration
 ms.prod: windows
 ms.technology: windows-sdk

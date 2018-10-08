@@ -4,10 +4,10 @@ title: SHGetFolderLocation function
 author: windows-sdk-content
 description: Deprecated. Retrieves the path of a folder as an ITEMIDLIST structure.
 old-location: shell\SHGetFolderLocation.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6fcac066-1ab0-443a-9994-b68ead3bbc20
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHGetFolderLocation, SHGetFolderLocation function [Windows Shell], _win32_SHGetFolderLocation, shell.SHGetFolderLocation, shlobj_core/SHGetFolderLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

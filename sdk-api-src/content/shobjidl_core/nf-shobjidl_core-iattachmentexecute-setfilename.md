@@ -4,10 +4,10 @@ title: IAttachmentExecute::SetFileName
 author: windows-sdk-content
 description: Specifies and stores the proposed name of the file.
 old-location: shell\IAttachmentExecute_SetFileName.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 52dc823f-4429-4c1f-8906-9e4ee3f8158e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetFileName method, IAttachmentExecute.SetFileName, IAttachmentExecute::SetFileName, SetFileName, SetFileName method [Windows Shell], SetFileName method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetFileName, shell.IAttachmentExecute_SetFileName, shobjidl_core/IAttachmentExecute::SetFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

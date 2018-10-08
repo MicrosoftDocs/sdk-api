@@ -4,10 +4,10 @@ title: StrCpyW function
 author: windows-sdk-content
 description: Copies one string to another.
 old-location: shell\StrCpy.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 83d1a8dc-fc43-4b06-b36c-c9c91d779d25
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrCpy, StrCpy function [Windows Shell], StrCpyW, _win32_StrCpy, shell.StrCpy, shlwapi/StrCpy, shlwapi/StrCpyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

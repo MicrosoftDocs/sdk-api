@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::EnableTimeUpdateTimer
 author: windows-sdk-content
 description: Enables or disables the time update timer.
 old-location: mf\imfmediaengineex_enabletimeupdatetimer.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 07128937-bb90-4ed5-85ef-e58c8a273d39
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: EnableTimeUpdateTimer, EnableTimeUpdateTimer method [Media Foundation], EnableTimeUpdateTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableTimeUpdateTimer method, IMFMediaEngineEx.EnableTimeUpdateTimer, IMFMediaEngineEx::EnableTimeUpdateTimer, mf.imfmediaengineex_enabletimeupdatetimer, mfmediaengine/IMFMediaEngineEx::EnableTimeUpdateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

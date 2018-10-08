@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_state_object_desc.htm
 tech.root: direct3d12
 ms.assetid: 034B3573-4351-4BB4-AB5C-A15DB679CD00
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: D3D12_STATE_OBJECT_DESC, D3D12_STATE_OBJECT_DESC structure, PD3D12_STATE_OBJECT_DESC, PD3D12_STATE_OBJECT_DESC structure pointer, d3d12/D3D12_STATE_OBJECT_DESC, d3d12/PD3D12_STATE_OBJECT_DESC, direct3d12.d3d12_state_object_desc
 ms.prod: windows
 ms.technology: windows-sdk

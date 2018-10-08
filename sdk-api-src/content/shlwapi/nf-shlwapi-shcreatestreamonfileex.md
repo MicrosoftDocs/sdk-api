@@ -4,10 +4,10 @@ title: SHCreateStreamOnFileEx function
 author: windows-sdk-content
 description: Opens or creates a file and retrieves a stream to read or write to that file.
 old-location: shell\SHCreateStreamOnFileEx.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f948f7dd-987d-4c2d-b650-62081133c3f4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHCreateStreamOnFileEx, SHCreateStreamOnFileEx function [Windows Shell], _shell_SHCreateStreamOnFileEx, shell.SHCreateStreamOnFileEx, shlwapi/SHCreateStreamOnFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

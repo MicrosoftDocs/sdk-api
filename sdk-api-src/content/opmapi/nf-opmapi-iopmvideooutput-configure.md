@@ -4,10 +4,10 @@ title: IOPMVideoOutput::Configure
 author: windows-sdk-content
 description: Configures a video output.
 old-location: mf\iopmvideooutput_iopmvideooutput__configure.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: b8eb3561-7e81-4f4c-bcb1-1657f8556aea
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],Configure method, IOPMVideoOutput.Configure, IOPMVideoOutput::Configure, mf.iopmvideooutput_iopmvideooutput__configure, opmapi/IOPMVideoOutput::Configure
 ms.prod: windows-hardware
 ms.technology: windows-devices

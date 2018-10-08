@@ -4,10 +4,10 @@ title: ISyncMgrControl::UpdateItem
 author: windows-sdk-content
 description: Informs Sync Center that properties of a sync item have changed.
 old-location: shell\ISyncMgrControl_UpdateItem.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateItem method, ISyncMgrControl.UpdateItem, ISyncMgrControl::UpdateItem, UpdateItem, UpdateItem method [Windows Shell], UpdateItem method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateItem, shell.ISyncMgrControl_UpdateItem, syncmgr/ISyncMgrControl::UpdateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

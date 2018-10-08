@@ -4,10 +4,10 @@ title: IMFSourceReaderEx::RemoveAllTransformsForStream
 author: windows-sdk-content
 description: Removes all of the Media Foundation transforms (MFTs) for a specified stream, with the exception of the decoder.
 old-location: mf\imfsourcereaderex_removealltransformsforstream.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 6C0617CA-8F85-4854-9E4B-8F4300FAE8E3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSourceReaderEx interface [Media Foundation],RemoveAllTransformsForStream method, IMFSourceReaderEx.RemoveAllTransformsForStream, IMFSourceReaderEx::RemoveAllTransformsForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, RemoveAllTransformsForStream, RemoveAllTransformsForStream method [Media Foundation], RemoveAllTransformsForStream method [Media Foundation],IMFSourceReaderEx interface, mf.imfsourcereaderex_removealltransformsforstream, mfreadwrite/IMFSourceReaderEx::RemoveAllTransformsForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

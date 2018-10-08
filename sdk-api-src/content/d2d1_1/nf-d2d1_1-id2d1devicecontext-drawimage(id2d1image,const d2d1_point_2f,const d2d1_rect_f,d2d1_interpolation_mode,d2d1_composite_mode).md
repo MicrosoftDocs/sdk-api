@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::DrawImage(ID2D1Image,const D2D1_POINT_2F,const D2D1_R
 author: windows-sdk-content
 description: Draws an image to the device context.
 old-location: direct2d\id2d1devicecontext_drawimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c41d8a79-280a-451e-b07b-f904d07da5c7
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext.DrawImage(ID2D1Image,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Image,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,21 +58,21 @@ Draws an image to the device context.
 
 
 
-#### - image [in]
+### -param image [in]
 
 Type: <b><a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>*</b>
 
 The image to be drawn to the device context.
 
 
-#### - targetOffset [in, optional]
+### -param targetOffset [in, optional]
 
 Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
 
 The  offset in the destination space that the image will be rendered to. The entire logical extent of the image will be rendered to the corresponding destination. If not specified, the destination origin will be (0, 0). The top-left corner of the image will be mapped to the target offset. This will not necessarily be the origin. This default value is <i>NULL</i>.
 
 
-#### - imageRectangle [in, optional]
+### -param imageRectangle [in, optional]
 
 Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
 

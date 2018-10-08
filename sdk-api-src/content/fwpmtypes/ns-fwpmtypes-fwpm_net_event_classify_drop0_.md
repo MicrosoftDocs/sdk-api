@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_CLASSIFY_DROP0_
 author: windows-sdk-content
 description: Contains information that describes a layer drop failure.
 old-location: fwp\fwpm_net_event_classify_drop0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 9688ff75-292f-44f2-b3ed-41a9dd1ef918
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP0, FWPM_NET_EVENT_CLASSIFY_DROP0 structure [Filtering], FWPM_NET_EVENT_CLASSIFY_DROP0_, fwp.fwpm_net_event_classify_drop0, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP0
 ms.prod: windows
 ms.technology: windows-sdk

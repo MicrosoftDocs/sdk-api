@@ -4,10 +4,10 @@ title: IMFMediaEngine::GetCurrentTime
 author: windows-sdk-content
 description: Gets the current playback position.
 old-location: mf\imfmediaengine_getcurrenttime.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 49FA2383-8AEC-4DDF-8998-25987EEC8223
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetCurrentTime, GetCurrentTime method [Media Foundation], GetCurrentTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentTime method, IMFMediaEngine.GetCurrentTime, IMFMediaEngine::GetCurrentTime, mf.imfmediaengine_getcurrenttime, mfmediaengine/IMFMediaEngine::GetCurrentTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

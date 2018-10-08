@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_reset.htm
 tech.root: direct3d12
 ms.assetid: 36726FB6-09DE-4723-A60E-75FCE55F2E35
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,Reset method, ID3D12GraphicsCommandList.Reset, ID3D12GraphicsCommandList::Reset, Reset, Reset method, Reset method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::Reset, direct3d12.id3d12graphicscommandlist_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

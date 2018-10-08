@@ -4,10 +4,10 @@ title: SHGetPathFromIDListA function
 author: windows-sdk-content
 description: Converts an item identifier list to a file system path.
 old-location: shell\SHGetPathFromIDList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHGetPathFromIDList, SHGetPathFromIDList function [Windows Shell], SHGetPathFromIDListA, SHGetPathFromIDListW, _win32_SHGetPathFromIDList, shell.SHGetPathFromIDList, shlobj_core/SHGetPathFromIDList, shlobj_core/SHGetPathFromIDListA, shlobj_core/SHGetPathFromIDListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

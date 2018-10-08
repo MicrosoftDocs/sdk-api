@@ -4,10 +4,10 @@ title: ASSOCKEY
 author: windows-sdk-content
 description: Specifies the type of key to be returned by IQueryAssociations::GetKey.
 old-location: shell\ASSOCKEY_str.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f4ac0ba0-4113-498f-a51b-74a37fe33d49
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ASSOCKEY, ASSOCKEY enumeration [Windows Shell], ASSOCKEY_APP, ASSOCKEY_BASECLASS, ASSOCKEY_CLASS, ASSOCKEY_SHELLEXECCLASS, _win32_ASSOCKEY_str, shell.ASSOCKEY_str, shlwapi/ASSOCKEY, shlwapi/ASSOCKEY_APP, shlwapi/ASSOCKEY_BASECLASS, shlwapi/ASSOCKEY_CLASS, shlwapi/ASSOCKEY_SHELLEXECCLASS
 ms.prod: windows
 ms.technology: windows-sdk

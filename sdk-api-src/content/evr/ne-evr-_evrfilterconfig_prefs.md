@@ -4,10 +4,10 @@ title: "_EVRFilterConfig_Prefs"
 author: windows-sdk-content
 description: Contains flags that are used to configure the Microsoft DirectShow enhanced video renderer (EVR) filter.
 old-location: mf\evrfilterconfigprefs.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 39d6845e-8655-4f8f-be39-76d704fd1177
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: EVRFilterConfigPrefs, EVRFilterConfigPrefs enumeration [Media Foundation], EVRFilterConfigPrefs_EnableQoS, EVRFilterConfigPrefs_Mask, _EVRFilterConfig_Prefs, evr/EVRFilterConfigPrefs, evr/EVRFilterConfigPrefs_EnableQoS, evr/EVRFilterConfigPrefs_Mask, mf.evrfilterconfigprefs
 ms.prod: windows
 ms.technology: windows-sdk

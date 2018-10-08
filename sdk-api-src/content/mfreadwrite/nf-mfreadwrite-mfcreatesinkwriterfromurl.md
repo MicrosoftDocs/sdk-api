@@ -4,10 +4,10 @@ title: MFCreateSinkWriterFromURL function
 author: windows-sdk-content
 description: Creates the sink writer from a URL or byte stream.
 old-location: mf\mfcreatesinkwriterfromurl.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ac6a30c7-5e44-453a-8114-8d7d65332024
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateSinkWriterFromURL, MFCreateSinkWriterFromURL function [Media Foundation], mf.mfcreatesinkwriterfromurl, mfreadwrite/MFCreateSinkWriterFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

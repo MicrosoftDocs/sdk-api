@@ -4,10 +4,10 @@ title: IDataObjectAsyncCapability::GetAsyncMode
 author: windows-sdk-content
 description: Called by a drop target to determine whether the data object supports asynchronous data extraction.
 old-location: shell\IDataObjectAsyncCapability_GetAsyncMode.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 0B7A4299-4D19-4c5a-99A5-9568F4D58061
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetAsyncMode, GetAsyncMode method [Windows Shell], GetAsyncMode method [Windows Shell],IDataObjectAsyncCapability interface, IDataObjectAsyncCapability interface [Windows Shell],GetAsyncMode method, IDataObjectAsyncCapability.GetAsyncMode, IDataObjectAsyncCapability::GetAsyncMode, shell.IDataObjectAsyncCapability_GetAsyncMode, shldisp/IDataObjectAsyncCapability::GetAsyncMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

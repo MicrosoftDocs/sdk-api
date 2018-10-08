@@ -4,10 +4,10 @@ title: ISuspensionDependencyManager::GroupChildWithParent
 author: windows-sdk-content
 description: ISuspensionDependencyManager::GroupChildWithParent method
 old-location: shell\ISuspensionDependencyManager_GroupChildWithParent.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: E9E5FDCB-83AA-4EC1-9CE2-1EABDD7DF39C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GroupChildWithParent, GroupChildWithParent method [Windows Shell], GroupChildWithParent method [Windows Shell],ISuspensionDependencyManager interface, ISuspensionDependencyManager interface [Windows Shell],GroupChildWithParent method, ISuspensionDependencyManager.GroupChildWithParent, ISuspensionDependencyManager::GroupChildWithParent, shell.ISuspensionDependencyManager_GroupChildWithParent, shobjidl_core/ISuspensionDependencyManager::GroupChildWithParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

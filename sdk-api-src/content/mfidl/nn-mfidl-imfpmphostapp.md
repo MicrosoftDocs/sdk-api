@@ -4,10 +4,10 @@ title: IMFPMPHostApp
 author: windows-sdk-content
 description: Allows a media source to create a Windows Runtime object in the Protected Media Path (PMP) process.
 old-location: mf\imfpmphostapp.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ca24930d-bd1e-4c12-8246-1e505a98944a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFPMPHostApp, IMFPMPHostApp interface [Media Foundation], IMFPMPHostApp interface [Media Foundation],described, mf.imfpmphostapp, mfidl/IMFPMPHostApp
 ms.prod: windows
 ms.technology: windows-sdk

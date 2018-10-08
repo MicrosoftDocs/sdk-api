@@ -4,10 +4,10 @@ title: "_TRACE_PERIODIC_CAPTURE_STATE_INFO"
 author: windows-sdk-content
 description: Information relating to a periodic capture state.
 old-location: etw\trace_periodic_capture_state_info.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 6C032D97-4B37-48D2-BD1A-35B8BA48B8AB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/04/2018
 ms.keywords: "*PTRACE_PERIODIC_CAPTURE_STATE_INFO, PTRACE_PERIODIC_CAPTURE_STATE_INFO, PTRACE_PERIODIC_CAPTURE_STATE_INFO structure pointer [ETW], TRACE_PERIODIC_CAPTURE_STATE_INFO, TRACE_PERIODIC_CAPTURE_STATE_INFO structure [ETW], _TRACE_PERIODIC_CAPTURE_STATE_INFO, etw.trace_periodic_capture_state_info, evntrace/PTRACE_PERIODIC_CAPTURE_STATE_INFO, evntrace/TRACE_PERIODIC_CAPTURE_STATE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

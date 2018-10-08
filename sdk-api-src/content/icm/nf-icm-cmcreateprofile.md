@@ -7,8 +7,8 @@ old-location: wcs\cmcreateprofile.htm
 tech.root: WCS
 ms.assetid: 0677e2d0-b8e8-4136-b895-9f120fa51d2c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: CMCreateProfile, CMCreateProfile function [Windows Color System], CMCreateProfileW, _color_CMCreateProfile, icm/CMCreateProfile, icm/CMCreateProfileW, wcs.cmcreateprofile
+ms.date: 10/03/2018
+ms.keywords: CMCreateProfile, CMCreateProfile function [Windows Color System], _color_CMCreateProfile, icm/CMCreateProfile, wcs.cmcreateprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: CMCreateProfileW (Unicode)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -38,7 +38,6 @@ api_location:
  - icm32.dll
 api_name:
  - CMCreateProfile
- - CMCreateProfileW
 product: Windows
 targetos: Windows
 req.typenames: 

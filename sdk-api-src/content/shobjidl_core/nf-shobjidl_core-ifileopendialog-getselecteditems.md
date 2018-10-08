@@ -4,10 +4,10 @@ title: IFileOpenDialog::GetSelectedItems
 author: windows-sdk-content
 description: Gets the currently selected items in the dialog. These items may be items selected in the view, or text selected in the file name edit box.
 old-location: shell\IFileOpenDialog_GetSelectedItems.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5fc53607-60d2-4d23-b11e-779c26c02b0f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows Shell], GetSelectedItems method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetSelectedItems method, IFileOpenDialog.GetSelectedItems, IFileOpenDialog::GetSelectedItems, shell.IFileOpenDialog_GetSelectedItems, shell_IFileOpenDialog_GetSelectedItems, shobjidl_core/IFileOpenDialog::GetSelectedItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

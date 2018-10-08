@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::CreateEffect
 author: windows-sdk-content
 description: Creates an effect for the specified class ID.
 old-location: direct2d\id2d1devicecontext_createeffect.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: dfe587f9-e92f-4367-a503-edd446a91cb8
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: CreateEffect, CreateEffect method [Direct2D], CreateEffect method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateEffect method, ID2D1DeviceContext.CreateEffect, ID2D1DeviceContext::CreateEffect, d2d1_1/ID2D1DeviceContext::CreateEffect, direct2d.id2d1devicecontext_createeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

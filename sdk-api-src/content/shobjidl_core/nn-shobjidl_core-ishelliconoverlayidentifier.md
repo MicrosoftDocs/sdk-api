@@ -4,10 +4,10 @@ title: IShellIconOverlayIdentifier
 author: windows-sdk-content
 description: Exposes methods that handle all communication between icon overlay handlers and the Shell.
 old-location: shell\IShellIconOverlayIdentifier.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c093bc13-def7-411d-b741-50996ffad84b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface [Windows Shell], IShellIconOverlayIdentifier interface [Windows Shell],described, _win32_IShellIconOverlayIdentifier, shell.IShellIconOverlayIdentifier, shobjidl_core/IShellIconOverlayIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

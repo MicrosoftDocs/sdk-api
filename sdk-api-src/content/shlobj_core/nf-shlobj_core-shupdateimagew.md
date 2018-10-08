@@ -4,10 +4,10 @@ title: SHUpdateImageW function
 author: windows-sdk-content
 description: Notifies the Shell that an image in the system image list has changed.
 old-location: shell\SHUpdateImage.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHUpdateImage, SHUpdateImage function [Windows Shell], SHUpdateImageA, SHUpdateImageW, _win32_SHUpdateImage, shell.SHUpdateImage, shlobj_core/SHUpdateImage, shlobj_core/SHUpdateImageA, shlobj_core/SHUpdateImageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,ULONGLONG &)
 title: CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG &)
 author: windows-sdk-content
-description: The GetWBEMINT64(LPCWSTR, ULONGLONG&) method retrieves a 64-bit integer property.
-old-location: wmi\cinstance_getwbemint64_lpcwstr__ulonglong__.htm
+description: The GetWBEMINT64 method retrieves a 64-bit integer property.
+old-location: wmi\cinstance_getwbemint64_lpcwstr__longlong__.htm
 tech.root: WmiSdk
-ms.assetid: 2764cd4e-9ff7-4a6d-b08b-48347cfd3031
+ms.assetid: b585e740-eade-4f81-908c-98dd88540cb1
 ms.author: windowssdkdev
 ms.date: 09/27/2018
-ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,ULONGLONG &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG &), CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG&), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__ulonglong__
+ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,ULONGLONG &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,LONGLONG&), CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG &), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__longlong__
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -57,7 +57,7 @@ req.redist:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetWBEMINT64(LPCWSTR, ULONGLONG&amp;)</b> method retrieves a 64-bit integer property.
+The <b>GetWBEMINT64</b> method retrieves a 64-bit integer property.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Name of the 64-bit integer property retrieved.
 
 ### -param i64Value [ref]
 
-Buffer to receive the 64-bit integer property.
+Buffer to receive the 64-bit integer value.
 
 
 ## -returns

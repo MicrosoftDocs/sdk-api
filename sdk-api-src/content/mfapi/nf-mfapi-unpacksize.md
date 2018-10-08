@@ -4,10 +4,10 @@ title: UnpackSize function
 author: windows-sdk-content
 description: Gets the low-order and high-order UINT32 values from a UINT64 value that represnets a size.
 old-location: mf\unpacksize.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: A98C2908-E566-4E2F-BED8-10C7D649F8B2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: UnpackSize, UnpackSize function [Media Foundation], mf.unpacksize, mfapi/UnpackSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

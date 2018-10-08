@@ -4,10 +4,10 @@ title: STPFLAG
 author: windows-sdk-content
 description: Used by the ITaskbarList4::SetTabProperties method to specify tab properties.
 old-location: shell\STPFLAG.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7d50e4fe-1689-4dbd-b367-f4881d8d5d78
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: STPFLAG, STPFLAG enumeration [Windows Shell], STPF_NONE, STPF_USEAPPPEEKALWAYS, STPF_USEAPPPEEKWHENACTIVE, STPF_USEAPPTHUMBNAILALWAYS, STPF_USEAPPTHUMBNAILWHENACTIVE, _shell_STPFLAG, shell.STPFLAG, shobjidl_core/STPFLAG, shobjidl_core/STPF_NONE, shobjidl_core/STPF_USEAPPPEEKALWAYS, shobjidl_core/STPF_USEAPPPEEKWHENACTIVE, shobjidl_core/STPF_USEAPPTHUMBNAILALWAYS, shobjidl_core/STPF_USEAPPTHUMBNAILWHENACTIVE
 ms.prod: windows
 ms.technology: windows-sdk

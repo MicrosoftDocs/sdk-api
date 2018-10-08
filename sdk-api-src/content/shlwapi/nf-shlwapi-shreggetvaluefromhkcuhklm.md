@@ -4,10 +4,10 @@ title: SHRegGetValueFromHKCUHKLM function
 author: windows-sdk-content
 description: Obtains specified information from the registry.
 old-location: shell\SHRegGetValueFromHKCUHKLM.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5c4b13f4-0dd8-476e-9e89-ace23d541389
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHRegGetValueFromHKCUHKLM, SHRegGetValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetValueFromHKCUHKLM, shell.SHRegGetValueFromHKCUHKLM, shlwapi/SHRegGetValueFromHKCUHKLM
 ms.prod: windows-hardware
 ms.technology: windows-devices

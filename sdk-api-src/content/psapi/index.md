@@ -2,7 +2,7 @@
 UID: NA:psapi
 ms.assetid: 0a012eb9-3ffa-3edd-aeb2-4021d99f8c55
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

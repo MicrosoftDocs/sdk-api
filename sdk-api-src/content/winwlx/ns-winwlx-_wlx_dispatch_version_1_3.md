@@ -7,7 +7,7 @@ old-location: security\wlx_dispatch_version_1_3.htm
 tech.root: secauthn
 ms.assetid: 47e343b8-ee54-45de-98c6-0ec75b45aa90
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3 structure pointer [Security], WLX_DISPATCH_VERSION_1_3, WLX_DISPATCH_VERSION_1_3 structure [Security], _WLX_DISPATCH_VERSION_1_3, _gina_wlx_dispatch_version_1_3, security.wlx_dispatch_version_1_3, winwlx/PWLX_DISPATCH_VERSION_1_3, winwlx/WLX_DISPATCH_VERSION_1_3"
 ms.prod: windows
 ms.technology: windows-sdk

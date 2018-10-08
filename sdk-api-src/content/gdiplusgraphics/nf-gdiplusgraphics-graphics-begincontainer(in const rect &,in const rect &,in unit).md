@@ -3,12 +3,12 @@ UID: NF:gdiplusgraphics.Graphics.BeginContainer(IN const Rect &,IN const Rect &,
 title: Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit)
 author: windows-sdk-content
 description: The Graphics::BeginContainer method begins a new graphics container.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_.htm
+old-location: gdiplus\_gdiplus_CLASS_Graphics_BeginContainer_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsbegincontainermethods\begincontainer_69rectampdstrect_rectampsrcrect_unitunit.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsbegincontainermethods\begincontainer.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
-ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(IN const Rect &,IN const Rect &,IN Unit), Graphics.BeginContainer(const Rect&,const Rect&,Unit), Graphics::BeginContainer, Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit), _gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_
+ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(), Graphics.BeginContainer(IN const Rect &,IN const Rect &,IN Unit), Graphics::BeginContainer, Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit), _gdiplus_CLASS_Graphics_BeginContainer_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::BeginContainer</b> method begins a new graphics container.
+The <b>Graphics::BeginContainer</b> method begins a new graphics container. 
 
 
 ## -parameters
@@ -59,27 +59,21 @@ The <b>Graphics::BeginContainer</b> method begins a new graphics container.
 
 
 
-### -param dstrect [in, ref]
+### -param dstrect
 
-Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
-
-Reference to a rectangle that, together with 
-					<i>srcrect</i>, specifies a transformation for the container. 
+TBD
 
 
-### -param srcrect [in, ref]
+### -param srcrect
 
-Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
-
-Reference to a rectangle that, together with 
-					<i>dstrect</i>, specifies a transformation for the container. 
+TBD
 
 
-### -param unit [in]
+### -param unit
 
-Type: <b><a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a></b>
+TBD
 
-Unit of measure for the container. 
+
 
 
 ## -returns
@@ -104,12 +98,6 @@ The <b>Graphics::BeginContainer</b> method returns a value of type
 				<a href="https://msdn.microsoft.com/en-us/library/ms536334(v=VS.85).aspx">GraphicsContainer</a>. When you have finished using a container, pass that value to the <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> method. The 
 				GraphicsContainer data type is defined in Gdiplusenums.h.
 
-The 
-				<i>dstrect</i> and 
-				<i>srcrect</i> parameters specify a transformation. It is the transformation that, when applied to 
-				<i>srcrect</i>, results in 
-				<i>dstrect</i>.
-
 When you call the <b>Graphics::BeginContainer</b> method of a 
 				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, an information block that holds the state of the 
 				<b>Graphics</b> object is put on a stack. The <b>Graphics::BeginContainer</b> method returns a value that identifies that information block. When you pass the identifying value to the <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> method, the information block is removed from the stack and is used to restore the 
@@ -127,34 +115,39 @@ For more information about graphics containers, see <a href="https://msdn.micros
 
 #### Examples
 
-The following example calls the <b>Graphics::BeginContainer</b> method to create a graphics container. The code specifies a transformation for the container by passing two rectangles to the <b>Graphics::BeginContainer</b> method. The code calls 
-						<a href="https://msdn.microsoft.com/77f8e3d0-56f4-4fd5-b18c-b4734e98a987">Graphics::FillEllipse</a> twice: once inside the container and once outside the container (after the call to <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>).
+The following example sets a clipping region for a 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and begins a graphics container. It then sets an additional clipping region for the container and draws rectangles that demonstrate the effective clipping region inside the container.
 
 
 ```cpp
-VOID Example_BeginContainer2(HDC hdc)
+VOID Example_BeginContainer(HDC hdc)
 {
    Graphics graphics(hdc);
 
-   // Define a translation and scale transformation for the container.
-   Rect srcRect(0, 0, 200, 100);
-   Rect destRect(100, 100, 200, 200);
+   // Set the clipping region for the Graphics object.
+   graphics.SetClip(Rect(10, 10, 150, 150));
 
-   // Create a graphics container with a (100, 100) translation 
-   // and (1, 2) scale.
-   GraphicsContainer container;
-   container = graphics.BeginContainer(destRect, srcRect, UnitPixel);
+   // Begin a graphics container.
+   GraphicsContainer container = graphics.BeginContainer();
 
-   // Fill an ellipse in the container.
+   // Set an additional clipping region for the container.
+   graphics.SetClip(Rect(100, 50, 100, 75));
+
+   // Fill a red rectangle in the container.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&redBrush, 0, 0, 100, 60);
+   graphics.FillRectangle(&redBrush, 0, 0, 400, 400);
 
-   // End the container.
+   // End the container, and fill the same rectangle with blue. 
    graphics.EndContainer(container);
+   SolidBrush blueBrush(Color(128, 0, 0, 255));
+   graphics.FillRectangle(&blueBrush, 0, 0, 400, 400);
 
-   // Fill the same ellipse outside the container.
-   SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&blueBrush, 0, 0, 100, 60);
+   // Set the clipping region to infinite, and draw the outlines 
+   // of the two previous clipping regions.
+   graphics.ResetClip();
+   Pen blackPen(Color(255, 0, 0, 0), 2.0f);
+   graphics.DrawRectangle(&blackPen, 10, 10, 150, 150);
+   graphics.DrawRectangle(&blackPen, 100, 50, 100, 75);
 }
 ```
 

@@ -4,10 +4,10 @@ title: PowerSettingUnregisterNotification function
 author: windows-sdk-content
 description: Cancels a registration to receive notification when a power setting changes.
 old-location: base\powersettingunregisternotification.htm
-tech.root: Power
+tech.root: power
 ms.assetid: 9853c347-4528-43bb-8326-13bcd819b8a6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: PowerSettingUnregisterNotification, PowerSettingUnregisterNotification function, base.powersettingunregisternotification, powersetting/PowerSettingUnregisterNotification, powrprof/PowerSettingUnregisterNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

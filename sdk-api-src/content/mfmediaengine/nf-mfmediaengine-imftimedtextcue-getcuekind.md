@@ -4,10 +4,10 @@ title: IMFTimedTextCue::GetCueKind
 author: windows-sdk-content
 description: Gets the kind of timed-text cue.
 old-location: mf\imftimedtextcue_getcuekind.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 1BEB539D-4A51-4866-A627-5754525E7C8F
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetCueKind, GetCueKind method [Media Foundation], GetCueKind method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetCueKind method, IMFTimedTextCue.GetCueKind, IMFTimedTextCue::GetCueKind, mf.imftimedtextcue_getcuekind, mfmediaengine/IMFTimedTextCue::GetCueKind
 ms.prod: windows-hardware
 ms.technology: windows-devices

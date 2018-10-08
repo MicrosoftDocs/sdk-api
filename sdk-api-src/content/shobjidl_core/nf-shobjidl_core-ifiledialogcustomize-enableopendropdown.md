@@ -4,10 +4,10 @@ title: IFileDialogCustomize::EnableOpenDropDown
 author: windows-sdk-content
 description: Enables a drop-down list on the Open or Save button in the dialog.
 old-location: shell\IFileDialogCustomize_EnableOpenDropDown.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b4626030-0fc7-4329-b897-01f4ce8728a0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: EnableOpenDropDown, EnableOpenDropDown method [Windows Shell], EnableOpenDropDown method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EnableOpenDropDown method, IFileDialogCustomize.EnableOpenDropDown, IFileDialogCustomize::EnableOpenDropDown, shell.IFileDialogCustomize_EnableOpenDropDown, shell_IFileDialogCustomize_EnableOpenDropDown, shobjidl_core/IFileDialogCustomize::EnableOpenDropDown
 ms.prod: windows-hardware
 ms.technology: windows-devices

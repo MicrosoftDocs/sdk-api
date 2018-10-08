@@ -4,10 +4,10 @@ title: UIntPtrToIntPtr function
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type INT_PTR.
 old-location: shell\UIntPtrToIntPtr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c922b108-47af-46fe-9753-66cad96ec352
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SizeTToIntPtr, SizeTToPtrdiffT, UIntPtrToIntPtr, UIntPtrToIntPtr function [Windows Shell], _shell_UIntPtrToIntPtr, intsafe/UIntPtrToIntPtr, shell.UIntPtrToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

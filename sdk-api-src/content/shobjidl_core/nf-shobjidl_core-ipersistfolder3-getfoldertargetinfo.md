@@ -4,10 +4,10 @@ title: IPersistFolder3::GetFolderTargetInfo
 author: windows-sdk-content
 description: Provides the location and attributes of a folder shortcut's target folder.
 old-location: shell\IPersistFolder3_GetFolderTargetInfo.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 97a343af-0998-4718-8293-1eb4d2ac0c8a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetFolderTargetInfo, GetFolderTargetInfo method [Windows Shell], GetFolderTargetInfo method [Windows Shell],IPersistFolder3 interface, IPersistFolder3 interface [Windows Shell],GetFolderTargetInfo method, IPersistFolder3.GetFolderTargetInfo, IPersistFolder3::GetFolderTargetInfo, _win32_IPersistFolder3_GetFolderTargetInfo, shell.IPersistFolder3_GetFolderTargetInfo, shobjidl_core/IPersistFolder3::GetFolderTargetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

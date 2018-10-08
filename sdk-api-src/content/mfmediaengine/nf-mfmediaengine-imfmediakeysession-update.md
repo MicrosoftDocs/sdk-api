@@ -4,10 +4,10 @@ title: IMFMediaKeySession::Update
 author: windows-sdk-content
 description: Passes in a key value with any associated data required by the Content Decryption Module for the given key system.
 old-location: mf\imfmediakeysession_update.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 29e66037-5f18-4724-b6f2-d85555e6af69
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],Update method, IMFMediaKeySession.Update, IMFMediaKeySession::Update, Update, Update method [Media Foundation], Update method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_update, mfmediaengine/IMFMediaKeySession::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices

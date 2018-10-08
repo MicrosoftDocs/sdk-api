@@ -4,10 +4,10 @@ title: IDeskBar
 author: windows-sdk-content
 description: Exposes methods that enable desk bar manipulation.
 old-location: shell\IDeskBar.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 78b9666b-f913-4745-975e-f8dd6e9f89b4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDeskBar, IDeskBar interface [Windows Shell], IDeskBar interface [Windows Shell],described, _win32_IDeskBar, shell.IDeskBar, shobjidl_core/IDeskBar
 ms.prod: windows
 ms.technology: windows-sdk

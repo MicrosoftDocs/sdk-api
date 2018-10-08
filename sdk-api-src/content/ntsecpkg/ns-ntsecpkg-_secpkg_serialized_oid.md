@@ -7,7 +7,7 @@ old-location: security\secpkg_serialized_oid.htm
 tech.root: secauthn
 ms.assetid: 54CF931B-AD1F-4370-A2AF-5DF4BC9EA007
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID structure pointer [Security], SECPKG_SERIALIZED_OID, SECPKG_SERIALIZED_OID structure [Security], _SECPKG_SERIALIZED_OID, ntsecpkg/PSECPKG_SERIALIZED_OID, ntsecpkg/SECPKG_SERIALIZED_OID, security.secpkg_serialized_oid"
 ms.prod: windows
 ms.technology: windows-sdk

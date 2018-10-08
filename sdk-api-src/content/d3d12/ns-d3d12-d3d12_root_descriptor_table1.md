@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_descriptor_table1.htm
 tech.root: direct3d12
 ms.assetid: 1D9D1846-2BE2-4B88-8D23-5A27173918DD
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR_TABLE1, D3D12_ROOT_DESCRIPTOR_TABLE1 structure, d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1, direct3d12.d3d12_root_descriptor_table1
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\cryptcatstore.htm
 tech.root: seccrypto
 ms.assetid: 65a15797-453c-4f47-8ea1-c92e616b50aa
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: CRYPTCATSTORE, CRYPTCATSTORE structure [Security], CRYPTCATSTORE_, CRYPTCAT_OPEN_EXCLUDE_PAGE_HASHES, CRYPTCAT_OPEN_FLAGS_MASK, CRYPTCAT_OPEN_INCLUDE_PAGE_HASHES, CRYPTCAT_OPEN_NO_CONTENT_HCRYPTMSG, CRYPTCAT_OPEN_SORTED, CRYPTCAT_OPEN_VERIFYSIGHASH, mscat/CRYPTCATSTORE, security.cryptcatstore
 ms.prod: windows
 ms.technology: windows-sdk

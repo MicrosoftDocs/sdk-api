@@ -4,10 +4,10 @@ title: MFCreateSensorProfile function
 author: windows-sdk-content
 description: Creates a sensor profile, based on the specified type, index, and optional constraints.
 old-location: mf\mfcreatesensorprofile.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 76D14E98-0DB5-4D2C-9F6A-17D9B3CAA73E
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateSensorProfile, MFCreateSensorProfile function [Media Foundation], mf.mfcreatesensorprofile, mfidl/MFCreateSensorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

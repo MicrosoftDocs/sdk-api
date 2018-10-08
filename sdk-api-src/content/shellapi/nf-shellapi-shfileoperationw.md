@@ -4,10 +4,10 @@ title: SHFileOperationW function
 author: windows-sdk-content
 description: Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by IFileOperation.
 old-location: shell\SHFileOperation.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7807015f-52c5-46f5-9e90-4e3e60ddf705
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHFileOperation, SHFileOperation function [Windows Shell], SHFileOperationA, SHFileOperationW, _win32_SHFileOperation, shell.SHFileOperation, shellapi/SHFileOperation, shellapi/SHFileOperationA, shellapi/SHFileOperationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFolderView2::SetRedraw
 author: windows-sdk-content
 description: Sets redraw on and off.
 old-location: shell\IFolderView2_SetRedraw.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 870a72e2-25fc-421f-bd46-961bf71981cc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetRedraw method, IFolderView2.SetRedraw, IFolderView2::SetRedraw, SetRedraw, SetRedraw method [Windows Shell], SetRedraw method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetRedraw, shell.IFolderView2_SetRedraw, shobjidl_core/IFolderView2::SetRedraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

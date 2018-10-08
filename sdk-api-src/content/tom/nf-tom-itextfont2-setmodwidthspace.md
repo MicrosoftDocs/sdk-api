@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setmodwidthspace.htm
 tech.root: controls
 ms.assetid: df3ea127-1f47-4173-ad2c-0a7af4c8454c
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetModWidthSpace method, ITextFont2.SetModWidthSpace, ITextFont2::SetModWidthSpace, SetModWidthSpace, SetModWidthSpace method [Windows Controls], SetModWidthSpace method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmodwidthspace, tom/ITextFont2::SetModWidthSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MsiGetProductPropertyW function
 author: windows-sdk-content
 description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database.
 old-location: setup\msigetproductproperty.htm
-tech.root: MSI
+tech.root: msi
 ms.assetid: 724f6034-c492-4bab-97dc-d9b2f75e9642
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MsiGetProductProperty, MsiGetProductProperty function, MsiGetProductPropertyA, MsiGetProductPropertyW, _msi_msigetproductproperty, msi/MsiGetProductProperty, msi/MsiGetProductPropertyA, msi/MsiGetProductPropertyW, setup.msigetproductproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

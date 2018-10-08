@@ -4,10 +4,10 @@ title: IMFSensorProcessActivity::GetProcessId
 author: windows-sdk-content
 description: Gets the ID of the process with which the activity is associated.
 old-location: mf\imfsensorprocessactivity_getprocessid.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: E4277F4B-8CBB-4910-991B-1234AFEB49B3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetProcessId, GetProcessId method [Media Foundation], GetProcessId method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetProcessId method, IMFSensorProcessActivity.GetProcessId, IMFSensorProcessActivity::GetProcessId, mf.imfsensorprocessactivity_getprocessid, mfidl/IMFSensorProcessActivity::GetProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices

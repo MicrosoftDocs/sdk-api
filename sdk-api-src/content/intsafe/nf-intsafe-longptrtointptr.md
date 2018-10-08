@@ -4,10 +4,10 @@ title: LongPtrToIntPtr function
 author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type INT_PTR.
 old-location: shell\LongPtrToIntPtr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 727fc291-b2cc-447e-b640-51c451a14a51
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LongPtrToIntPtr, LongPtrToIntPtr function [Windows Shell], SSIZETToIntPtr, _shell_LongPtrToIntPtr, intsafe/LongPtrToIntPtr, shell.LongPtrToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

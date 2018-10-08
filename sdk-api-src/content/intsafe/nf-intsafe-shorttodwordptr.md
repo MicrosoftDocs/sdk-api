@@ -4,10 +4,10 @@ title: ShortToDWordPtr function
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type DWORD_PTR.
 old-location: shell\ShortToDWordPtr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e5d0bb74-adde-48c7-b2df-1ba86d528db1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ShortToDWordPtr, ShortToDWordPtr function [Windows Shell], intsafe/ShortToDWordPtr, shell.ShortToDWordPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

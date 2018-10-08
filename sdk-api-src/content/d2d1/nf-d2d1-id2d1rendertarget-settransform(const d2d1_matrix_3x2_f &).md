@@ -3,12 +3,12 @@ UID: NF:d2d1.ID2D1RenderTarget.SetTransform(const D2D1_MATRIX_3X2_F &)
 title: ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F &)
 author: windows-sdk-content
 description: Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.
-old-location: direct2d\ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F.htm
-tech.root: direct2d
-ms.assetid: c358ea97-c42e-4912-a4e4-9a30935bd95b
+old-location: direct2d\ID2D1RenderTarget_SetTransform_ref_D2D_MATRIX_3X2_F.htm
+tech.root: Direct2D
+ms.assetid: 8987ed2c-aafe-43f0-ae56-5915067c8561
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ID2D1RenderTarget interface [Direct2D],SetTransform method, ID2D1RenderTarget.SetTransform, ID2D1RenderTarget.SetTransform(const D2D1_MATRIX_3X2_F &), ID2D1RenderTarget::SetTransform, ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F &), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetTransform, direct2d.ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F
+ms.date: 10/05/2018
+ms.keywords: ID2D1RenderTarget interface [Direct2D],SetTransform method, ID2D1RenderTarget.SetTransform, ID2D1RenderTarget.SetTransform(const D2D1_MATRIX_3X2_F &), ID2D1RenderTarget::SetTransform, ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F &), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetTransform, direct2d.ID2D1RenderTarget_SetTransform_ref_D2D_MATRIX_3X2_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,9 +58,9 @@ Applies the specified transform to the render target, replacing the existing tra
 
 
 
-### -param transform [in]
+### -param transform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 The transform to apply to the render target.
 

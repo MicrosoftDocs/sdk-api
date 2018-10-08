@@ -4,10 +4,10 @@ title: IMFTimedTextFormattedText::GetText
 author: windows-sdk-content
 description: Gets the text in the formatted timed-text object.
 old-location: mf\imftimedtextformattedtext_gettext.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 0D734EF8-BE52-404D-BEEC-504ECB0F7107
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetText, GetText method [Media Foundation], GetText method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetText method, IMFTimedTextFormattedText.GetText, IMFTimedTextFormattedText::GetText, mf.imftimedtextformattedtext_gettext, mfmediaengine/IMFTimedTextFormattedText::GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

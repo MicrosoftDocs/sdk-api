@@ -4,10 +4,10 @@ title: IFileOperation::SetProperties
 author: windows-sdk-content
 description: Declares a set of properties and values to be set on an item or items.
 old-location: shell\IFileOperation_SetProperties.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b54efc12-42e9-4a90-a4d9-0e75bcdba0d6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProperties method, IFileOperation.SetProperties, IFileOperation::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProperties, shell.IFileOperation_SetProperties, shobjidl_core/IFileOperation::SetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

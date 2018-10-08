@@ -4,10 +4,10 @@ title: IMFTopologyServiceLookup::LookupService
 author: windows-sdk-content
 description: Retrieves an interface from the enhanced video renderer (EVR), or from the video mixer or video presenter.
 old-location: mf\imftopologyservicelookup_lookupservice.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ba0dbfdf-1bab-42ba-910f-04a3f37be955
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTopologyServiceLookup interface [Media Foundation],LookupService method, IMFTopologyServiceLookup.LookupService, IMFTopologyServiceLookup::LookupService, LookupService, LookupService method [Media Foundation], LookupService method [Media Foundation],IMFTopologyServiceLookup interface, ba0dbfdf-1bab-42ba-910f-04a3f37be955, evr/IMFTopologyServiceLookup::LookupService, mf.imftopologyservicelookup_lookupservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

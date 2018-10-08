@@ -4,10 +4,10 @@ title: MFPutWorkItem2 function
 author: windows-sdk-content
 description: Puts an asynchronous operation on a work queue, with a specified priority.
 old-location: mf\mfputworkitem2.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: C49818B3-83FF-40CE-B68A-F60F3277F7B8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFPutWorkItem2, MFPutWorkItem2 function [Media Foundation], mf.mfputworkitem2, mfapi/MFPutWorkItem2
 ms.prod: windows-hardware
 ms.technology: windows-devices

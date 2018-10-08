@@ -4,10 +4,10 @@ title: ULongPtrMult function
 author: windows-sdk-content
 description: Multiplies one value of type ULONG_PTR by another.
 old-location: shell\ULongPtrMult.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e3ee5794-b872-4286-b4f3-1c5cab0e42a8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ULongPtrMult, ULongPtrMult function [Windows Shell], _shell_ULongPtrMult, intsafe/ULongPtrMult, shell.ULongPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

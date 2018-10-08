@@ -4,10 +4,10 @@ title: IStream_ReadStr function
 author: windows-sdk-content
 description: Reads from a stream and writes into a string.
 old-location: shell\IStream_ReadStr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e3f140c4-4033-4c82-af2c-4a7744461920
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IStream_ReadStr, IStream_ReadStr function [Windows Shell], _shell_IStream_ReadStr, shell.IStream_ReadStr, shlwapi/IStream_ReadStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

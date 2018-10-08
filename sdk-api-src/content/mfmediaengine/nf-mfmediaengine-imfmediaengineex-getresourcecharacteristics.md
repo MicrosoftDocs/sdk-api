@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::GetResourceCharacteristics
 author: windows-sdk-content
 description: Gets various flags that describe the media resource.
 old-location: mf\imfmediaengineex_getresourcecharacteristics.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 534595D7-007F-450B-A1C7-FA08F3958417
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetResourceCharacteristics, GetResourceCharacteristics method [Media Foundation], GetResourceCharacteristics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetResourceCharacteristics method, IMFMediaEngineEx.GetResourceCharacteristics, IMFMediaEngineEx::GetResourceCharacteristics, mf.imfmediaengineex_getresourcecharacteristics, mfmediaengine/IMFMediaEngineEx::GetResourceCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices

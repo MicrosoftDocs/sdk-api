@@ -7,7 +7,7 @@ old-location: winprog\fnfciclose.htm
 tech.root: devnotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

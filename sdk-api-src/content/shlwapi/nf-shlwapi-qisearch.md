@@ -4,10 +4,10 @@ title: QISearch function
 author: windows-sdk-content
 description: A table-driven implementation of the IUnknown::QueryInterface method.
 old-location: shell\QISearch.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 8429778b-bc9c-43f6-8d75-0fb78e36e790
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: QISearch, QISearch function [Windows Shell], _win32_QISearch, shell.QISearch, shlwapi/QISearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

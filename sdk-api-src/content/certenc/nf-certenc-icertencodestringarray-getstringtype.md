@@ -7,7 +7,7 @@ old-location: security\icertencodestringarray_getstringtype.htm
 tech.root: seccrypto
 ms.assetid: 7020f364-4f92-46b8-a8e8-360d8e0fa051
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetStringType method, GetStringType, GetStringType method [Security], GetStringType method [Security],CCertEncodeStringArray object, GetStringType method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetStringType method, ICertEncodeStringArray.GetStringType, ICertEncodeStringArray::GetStringType, _certsrv_icertencodestringarray_getstringtype, certenc/ICertEncodeStringArray::GetStringType, security.icertencodestringarray_getstringtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

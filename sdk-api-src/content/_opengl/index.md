@@ -2,7 +2,7 @@
 UID: TP:opengl
 ms.assetid: f3b832d0-ebcb-33ea-bfb2-aa910e23d054
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

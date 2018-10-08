@@ -4,10 +4,10 @@ title: MFCreateTopoLoader function
 author: windows-sdk-content
 description: Creates a new instance of the topology loader.
 old-location: mf\mfcreatetopoloader.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 0c0173ef-9c29-465c-b725-ce38b220f94f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 0c0173ef-9c29-465c-b725-ce38b220f94f, MFCreateTopoLoader, MFCreateTopoLoader function [Media Foundation], mf.mfcreatetopoloader, mfidl/MFCreateTopoLoader
 ms.prod: windows-hardware
 ms.technology: windows-devices

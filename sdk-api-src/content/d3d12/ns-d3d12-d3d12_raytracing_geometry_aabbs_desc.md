@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_raytracing_geometry_aabbs_desc.htm
 tech.root: direct3d12
 ms.assetid: A9FA270E-2B97-4DAC-891F-0DF83F8F9522
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: D3D12_RAYTRACING_GEOMETRY_AABBS_DESC, D3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure, PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC, PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure pointer, d3d12/D3D12_RAYTRACING_GEOMETRY_AABBS_DESC, d3d12/PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC, direct3d12.d3d12_raytracing_geometry_aabbs_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,5 +67,5 @@ The number of AABBs pointed to in the contiguous array at <i>AABBs</i>.
 
 ### -field AABBs
 
-the GPU memory location where an array of AABB descriptions is to be found, including the data stride between AABBs.  The address and stride must each be aligned to 4 bytes, defined as The address must be aligned to 16 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants"> D3D12_RAYTRACING_AABB_BYTE_ALIGNMENT</a>.  The stride can be 0.
+the GPU memory location where an array of AABB descriptions is to be found, including the data stride between AABBs.  The address and stride must each be aligned to 8 bytes, defined as The address must be aligned to 16 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants"> D3D12_RAYTRACING_AABB_BYTE_ALIGNMENT</a>.  The stride can be 0.
 

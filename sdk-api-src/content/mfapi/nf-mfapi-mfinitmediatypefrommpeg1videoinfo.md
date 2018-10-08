@@ -4,10 +4,10 @@ title: MFInitMediaTypeFromMPEG1VideoInfo function
 author: windows-sdk-content
 description: Initializes a media type from a DirectShow MPEG1VIDEOINFO structure.
 old-location: mf\mfinitmediatypefrommpeg1videoinfo.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2506ae6e-a3bb-4d36-8c70-837a42cfb272
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 2506ae6e-a3bb-4d36-8c70-837a42cfb272, MFInitMediaTypeFromMPEG1VideoInfo, MFInitMediaTypeFromMPEG1VideoInfo function [Media Foundation], mf.mfinitmediatypefrommpeg1videoinfo, mfapi/MFInitMediaTypeFromMPEG1VideoInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

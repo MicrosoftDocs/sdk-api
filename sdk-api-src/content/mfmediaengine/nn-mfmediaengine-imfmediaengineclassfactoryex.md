@@ -4,10 +4,10 @@ title: IMFMediaEngineClassFactoryEx
 author: windows-sdk-content
 description: Extension for the IMFMediaEngineClassFactory interface.
 old-location: mf\imfmediaengineclassfactoryex.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: d672ee59-f702-49c7-8ccf-5ba0260c9b23
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], IMFMediaEngineClassFactoryEx interface [Media Foundation],described, mf.imfmediaengineclassfactoryex, mfmediaengine/IMFMediaEngineClassFactoryEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:cryptxml
 ms.assetid: e497c4fa-87da-33ab-bbf3-091ef09db322
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

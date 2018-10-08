@@ -4,10 +4,10 @@ title: IDirect3DCryptoSession9::EncryptionBlt
 author: windows-sdk-content
 description: Reads encrypted data from a protected surface.
 old-location: mf\idirect3dcryptosession9_encryptionblt.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 42aa21d3-7c38-4058-b766-454be8b1ae80
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],EncryptionBlt method, IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

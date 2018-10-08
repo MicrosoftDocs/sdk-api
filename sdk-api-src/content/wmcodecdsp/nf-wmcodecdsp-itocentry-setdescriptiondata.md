@@ -4,10 +4,10 @@ title: ITocEntry::SetDescriptionData
 author: windows-sdk-content
 description: The SetDescriptionData method associates a caller-supplied data block with the entry.
 old-location: mf\itocentry_setdescriptiondata.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 260d7699-cf75-4179-9f2b-bc3bc49c94e6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetDescriptionData method, ITocEntry.SetDescriptionData, ITocEntry::SetDescriptionData, SetDescriptionData, SetDescriptionData method [Media Foundation], SetDescriptionData method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptiondata, mf.itocentry_setdescriptiondata, wmcodecdsp/ITocEntry::SetDescriptionData
 ms.prod: windows-hardware
 ms.technology: windows-devices

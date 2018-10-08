@@ -7,7 +7,7 @@ old-location: mscs\resutil_ulargeint_data.htm
 tech.root: MsCS
 ms.assetid: 44b937dc-e2f1-4c2d-9689-35b772103b8d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PRESUTIL_ULARGEINT_DATA, PRESUTIL_ULARGEINT_DATA, PRESUTIL_ULARGEINT_DATA structure pointer [Failover Cluster], RESUTIL_ULARGEINT_DATA, RESUTIL_ULARGEINT_DATA structure [Failover Cluster], _wolf_resutil_ulargeint_data, mscs.resutil_ulargeint_data, resapi/PRESUTIL_ULARGEINT_DATA, resapi/RESUTIL_ULARGEINT_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

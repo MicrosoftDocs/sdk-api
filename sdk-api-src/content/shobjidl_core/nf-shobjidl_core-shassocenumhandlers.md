@@ -4,10 +4,10 @@ title: SHAssocEnumHandlers function
 author: windows-sdk-content
 description: Returns an enumeration object for a specified set of file name extension handlers.
 old-location: shell\SHAssocEnumHandlers.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 83db466b-e00c-4015-879f-c5c222f45b8c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ASSOC_FILTER_NONE, ASSOC_FILTER_RECOMMENDED, SHAssocEnumHandlers, SHAssocEnumHandlers function [Windows Shell], _shell_SHAssocEnumHandlers, shell.SHAssocEnumHandlers, shobjidl_core/SHAssocEnumHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices

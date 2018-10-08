@@ -4,10 +4,10 @@ title: GetAppContainerFolderPath function
 author: windows-sdk-content
 description: Gets the path of the local app data folder for the specified app container.
 old-location: shell\getappcontainerfolderpath.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7D3AB78D-C094-4F89-8032-13F3C137E910
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetAppContainerFolderPath, GetAppContainerFolderPath function [Windows Shell], shell.getappcontainerfolderpath, userenv/GetAppContainerFolderPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

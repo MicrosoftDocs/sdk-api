@@ -4,10 +4,10 @@ title: IFileDialogCustomize::RemoveAllControlItems
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IFileDialogCustomize_RemoveAllControlItems.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2b706b8a-9c67-4f76-8ebe-af412fcd14cd
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],RemoveAllControlItems method, IFileDialogCustomize.RemoveAllControlItems, IFileDialogCustomize::RemoveAllControlItems, RemoveAllControlItems, RemoveAllControlItems method [Windows Shell], RemoveAllControlItems method [Windows Shell],IFileDialogCustomize interface, _shell_IFileDialogCustomize_RemoveAllControlItems, shell.IFileDialogCustomize_RemoveAllControlItems, shobjidl_core/IFileDialogCustomize::RemoveAllControlItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

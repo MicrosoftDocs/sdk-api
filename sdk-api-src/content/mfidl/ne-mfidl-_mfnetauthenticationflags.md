@@ -4,10 +4,10 @@ title: "_MFNetAuthenticationFlags"
 author: windows-sdk-content
 description: Specifies how the user's credentials will be used.
 old-location: mf\mfnetauthenticationflags.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4a2f5537-b78c-49a6-9b66-d3ca34c3fc67
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 4a2f5537-b78c-49a6-9b66-d3ca34c3fc67, MFNET_AUTHENTICATION_CLEAR_TEXT, MFNET_AUTHENTICATION_LOGGED_ON_USER, MFNET_AUTHENTICATION_PROXY, MFNetAuthenticationFlags, MFNetAuthenticationFlags enumeration [Media Foundation], _MFNetAuthenticationFlags, mf.mfnetauthenticationflags, mfidl/MFNET_AUTHENTICATION_CLEAR_TEXT, mfidl/MFNET_AUTHENTICATION_LOGGED_ON_USER, mfidl/MFNET_AUTHENTICATION_PROXY, mfidl/MFNetAuthenticationFlags
 ms.prod: windows
 ms.technology: windows-sdk

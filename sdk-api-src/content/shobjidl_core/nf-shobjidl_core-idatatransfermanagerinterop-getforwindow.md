@@ -4,10 +4,10 @@ title: IDataTransferManagerInterop::GetForWindow
 author: windows-sdk-content
 description: Gets the DataTransferManager instance for the specified window.
 old-location: shell\idatatransfermanagerinterop_getforwindow.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 129CEEBF-0D02-4746-8F9B-4F5F5A95E6A2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Shell], GetForWindow method [Windows Shell],IDataTransferManagerInterop interface, IDataTransferManagerInterop interface [Windows Shell],GetForWindow method, IDataTransferManagerInterop.GetForWindow, IDataTransferManagerInterop::GetForWindow, shell.idatatransfermanagerinterop_getforwindow, shobjidl_core/IDataTransferManagerInterop::GetForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

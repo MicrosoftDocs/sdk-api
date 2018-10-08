@@ -4,10 +4,10 @@ title: IMFSharingEngineClassFactory::CreateInstance
 author: windows-sdk-content
 description: Creates an instance of the media sharing engine.
 old-location: mf\imfsharingengineclassfactory_createinstance.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 8410FA9C-22C1-412D-90ED-55F19F21B8BD
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFSharingEngineClassFactory interface, IMFSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFSharingEngineClassFactory.CreateInstance, IMFSharingEngineClassFactory::CreateInstance, mf.imfsharingengineclassfactory_createinstance, mfsharingengine/IMFSharingEngineClassFactory::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

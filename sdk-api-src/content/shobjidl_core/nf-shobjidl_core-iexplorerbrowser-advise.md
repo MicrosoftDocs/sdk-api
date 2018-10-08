@@ -4,10 +4,10 @@ title: IExplorerBrowser::Advise
 author: windows-sdk-content
 description: Initiates a connection with IExplorerBrowser for event callbacks.
 old-location: shell\IExplorerBrowser_Advise.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b77f9c41-248e-4f16-a9ff-6ff5437df11c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Advise method, IExplorerBrowser.Advise, IExplorerBrowser::Advise, _shell_IExplorerBrowser_Advise, shell.IExplorerBrowser_Advise, shobjidl_core/IExplorerBrowser::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

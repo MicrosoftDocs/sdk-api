@@ -4,10 +4,10 @@ title: SizeTAdd function
 author: windows-sdk-content
 description: Adds two values of type size_t.
 old-location: shell\SizeTAdd.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1cabc944-0819-4a24-ab61-6d5375ba1573
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SizeTAdd, SizeTAdd function [Windows Shell], _shell_SizeTAdd, intsafe/SizeTAdd, shell.SizeTAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

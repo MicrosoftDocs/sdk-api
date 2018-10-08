@@ -4,10 +4,10 @@ title: IMFSensorActivitiesReport::GetActivityReportByDeviceName
 author: windows-sdk-content
 description: Retrieves an IMFSensorActivityReport based on the specified device name.
 old-location: mf\imfsensoractivityreport_getactivityreportbydevicename.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 66FDBCE0-E3F3-43A4-B34A-7FE6C7F3F918
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetActivityReportByDeviceName, GetActivityReportByDeviceName method [Media Foundation], GetActivityReportByDeviceName method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReportByDeviceName method, IMFSensorActivitiesReport.GetActivityReportByDeviceName, IMFSensorActivitiesReport::GetActivityReportByDeviceName, mf.imfsensoractivityreport_getactivityreportbydevicename, mfidl/IMFSensorActivitiesReport::GetActivityReportByDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

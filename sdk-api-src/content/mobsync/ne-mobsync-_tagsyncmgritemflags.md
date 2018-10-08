@@ -4,10 +4,10 @@ title: "_tagSYNCMGRITEMFLAGS"
 author: windows-sdk-content
 description: Specifies information for the current item in the SYNCMGRITEM structure.
 old-location: shell\syncmgr_syncmgritemflags.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6297f10b-9a2c-4077-9dca-e5c0850d125a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SYNCMGRITEMFLAGS, SYNCMGRITEMFLAGS enumeration [Windows Shell], SYNCMGRITEM_HASPROPERTIES, SYNCMGRITEM_HIDDEN, SYNCMGRITEM_LASTUPDATETIME, SYNCMGRITEM_MAYDELETEITEM, SYNCMGRITEM_ROAMINGUSER, SYNCMGRITEM_TEMPORARY, _tagSYNCMGRITEMFLAGS, mobsync/SYNCMGRITEMFLAGS, mobsync/SYNCMGRITEM_HASPROPERTIES, mobsync/SYNCMGRITEM_HIDDEN, mobsync/SYNCMGRITEM_LASTUPDATETIME, mobsync/SYNCMGRITEM_MAYDELETEITEM, mobsync/SYNCMGRITEM_ROAMINGUSER, mobsync/SYNCMGRITEM_TEMPORARY, shell.syncmgr_syncmgritemflags, syncmgr.syncmgritemflags
 ms.prod: windows
 ms.technology: windows-sdk

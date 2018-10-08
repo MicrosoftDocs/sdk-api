@@ -4,10 +4,10 @@ title: PathFindSuffixArrayW function
 author: windows-sdk-content
 description: Determines whether a given file name has one of a list of suffixes.
 old-location: shell\PathFindSuffixArray.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e2285f7d-bb5d-48c5-bdf1-10ca410389f0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathFindSuffixArray, PathFindSuffixArray function [Windows Shell], PathFindSuffixArrayA, PathFindSuffixArrayW, _win32_PathFindSuffixArray, shell.PathFindSuffixArray, shlwapi/PathFindSuffixArray, shlwapi/PathFindSuffixArrayA, shlwapi/PathFindSuffixArrayW
 ms.prod: windows-hardware
 ms.technology: windows-devices

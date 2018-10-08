@@ -4,10 +4,10 @@ title: IBrowserService2::CreateViewWindow
 author: windows-sdk-content
 description: Deprecated. Coordinates the updating of state when creating a new browser view window.
 old-location: shell\IBrowserService2_CreateViewWindow.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f5e7f18b-86b3-4a30-bbb0-8c7f615c7186
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateViewWindow method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],CreateViewWindow method, IBrowserService2.CreateViewWindow, IBrowserService2::CreateViewWindow, shdeprecated/IBrowserService2::CreateViewWindow, shell.IBrowserService2_CreateViewWindow, zone_IBrowserService2_CreateViewWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

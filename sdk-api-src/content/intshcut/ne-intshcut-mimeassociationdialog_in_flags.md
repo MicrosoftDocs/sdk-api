@@ -4,10 +4,10 @@ title: mimeassociationdialog_in_flags
 author: windows-sdk-content
 description: Used with the MIMEAssociationDialog function to determine how it executes.
 old-location: shell\MIMEASSOCIATIONDIALOG_IN_FLAGS.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 916712a7-08ec-496d-aa83-42bf1e4bdbd8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MIMEASSOCDLG_FL_REGISTER_ASSOC, MIMEASSOCIATIONDIALOG_IN_FLAGS, MIMEASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_MIMEASSOCIATIONDIALOG_IN_FLAGS, intshcut/MIMEASSOCDLG_FL_REGISTER_ASSOC, intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS, mimeassociationdialog_in_flags, shell.MIMEASSOCIATIONDIALOG_IN_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

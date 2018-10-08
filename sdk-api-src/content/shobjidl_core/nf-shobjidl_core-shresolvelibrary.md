@@ -4,10 +4,10 @@ title: SHResolveLibrary function
 author: windows-sdk-content
 description: Resolves all locations in a library, even those locations that have been moved or renamed.
 old-location: shell\SHResolveLibrary.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a8730c09-f872-4bf8-9482-9dd5af31b509
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHResolveLibrary, SHResolveLibrary function [Windows Shell], _shell_SHResolveLibrary, shell.SHResolveLibrary, shobjidl_core/SHResolveLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

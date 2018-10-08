@@ -4,10 +4,10 @@ title: IMFSensorProfileCollection::RemoveProfile
 author: windows-sdk-content
 description: Removes the specified profile based on the specified profile ID.
 old-location: mf\imfsensorprofilecollection_removeprofile.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: E0A0C773-7B60-46C7-9B89-07DF5CAA1E84
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSensorProfileCollection interface [Media Foundation],RemoveProfile method, IMFSensorProfileCollection.RemoveProfile, IMFSensorProfileCollection::RemoveProfile, RemoveProfile, RemoveProfile method [Media Foundation], RemoveProfile method [Media Foundation],IMFSensorProfileCollection interface, mf.imfsensorprofilecollection_removeprofile, mfidl/IMFSensorProfileCollection::RemoveProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

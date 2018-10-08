@@ -4,10 +4,10 @@ title: LongPtrToULongPtr function
 author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type ULONG_PTR.
 old-location: shell\LongPtrToULongPtr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c289c4cd-abb7-4483-b0a7-6eacadefeedc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LongPtrToDWordPtr, LongPtrToSIZET, LongPtrToULongPtr, LongPtrToULongPtr function [Windows Shell], SSIZETToDWordPtr, SSIZETToSIZET, SSIZETToULongPtr, _shell_LongPtrToULongPtr, intsafe/LongPtrToULongPtr, shell.LongPtrToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

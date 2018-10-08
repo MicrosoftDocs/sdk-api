@@ -4,10 +4,10 @@ title: MFCreateASFIndexerByteStream function
 author: windows-sdk-content
 description: Creates a byte stream to access the index in an ASF stream.
 old-location: mf\mfcreateasfindexerbytestream.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: edcce9d4-9296-4b39-8e58-58ae602c250f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateASFIndexerByteStream, MFCreateASFIndexerByteStream function [Media Foundation], edcce9d4-9296-4b39-8e58-58ae602c250f, mf.mfcreateasfindexerbytestream, wmcontainer/MFCreateASFIndexerByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

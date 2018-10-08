@@ -4,10 +4,10 @@ title: "_POWER_POLICY"
 author: windows-sdk-content
 description: Contains power policy settings that are unique to each power scheme.
 old-location: base\power_policy_str.htm
-tech.root: Power
+tech.root: power
 ms.assetid: ba49fca6-04b6-4627-a653-07c3fc0dab22
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PPOWER_POLICY, POWER_POLICY, POWER_POLICY structure, PPOWER_POLICY, PPOWER_POLICY structure pointer, _POWER_POLICY, _win32_power_policy_str, base.power_policy_str, powrprof/POWER_POLICY, powrprof/PPOWER_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

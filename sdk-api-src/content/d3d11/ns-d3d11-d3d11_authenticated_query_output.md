@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_QUERY_OUTPUT
 author: windows-sdk-content
 description: Contains a response from the ID3D11VideoContext::QueryAuthenticatedChannel method.
 old-location: mf\d3d11_authenticated_query_output.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: D5650992-04D0-4DD2-A858-1E7FB979A9C2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_OUTPUT, D3D11_AUTHENTICATED_QUERY_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT, mf.d3d11_authenticated_query_output
 ms.prod: windows
 ms.technology: windows-sdk

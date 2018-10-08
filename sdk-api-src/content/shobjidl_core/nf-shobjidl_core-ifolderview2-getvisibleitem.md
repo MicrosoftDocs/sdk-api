@@ -4,10 +4,10 @@ title: IFolderView2::GetVisibleItem
 author: windows-sdk-content
 description: Gets the next visible item in relation to a given index in the view.
 old-location: shell\IFolderView2_GetVisibleItem.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5b196377-53c4-49a1-be35-39d34b1638e3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetVisibleItem, GetVisibleItem method [Windows Shell], GetVisibleItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetVisibleItem method, IFolderView2.GetVisibleItem, IFolderView2::GetVisibleItem, _shell_IFolderView2_GetVisibleItem, shell.IFolderView2_GetVisibleItem, shobjidl_core/IFolderView2::GetVisibleItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

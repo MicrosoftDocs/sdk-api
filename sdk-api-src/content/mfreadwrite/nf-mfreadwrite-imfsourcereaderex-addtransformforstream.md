@@ -4,10 +4,10 @@ title: IMFSourceReaderEx::AddTransformForStream
 author: windows-sdk-content
 description: Adds a transform, such as an audio or video effect, to a stream.
 old-location: mf\imfsourcereaderex_addtransformforstream.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 493BB3CF-044D-4E83-9FF7-BD2039358501
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddTransformForStream, AddTransformForStream method [Media Foundation], AddTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],AddTransformForStream method, IMFSourceReaderEx.AddTransformForStream, IMFSourceReaderEx::AddTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_addtransformforstream, mfreadwrite/IMFSourceReaderEx::AddTransformForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

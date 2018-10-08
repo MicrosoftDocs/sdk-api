@@ -4,10 +4,10 @@ title: IDXVAHD_Device::CreateVideoSurface
 author: windows-sdk-content
 description: Creates one or more Microsoft Direct3D video surfaces.
 old-location: mf\idxvahd_device_createvideosurface.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c467a077-104c-443d-896b-d69441aa5160
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CreateVideoSurface, CreateVideoSurface method [Media Foundation], CreateVideoSurface method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],CreateVideoSurface method, IDXVAHD_Device.CreateVideoSurface, IDXVAHD_Device::CreateVideoSurface, dxvahd/IDXVAHD_Device::CreateVideoSurface, mf.idxvahd_device_createvideosurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

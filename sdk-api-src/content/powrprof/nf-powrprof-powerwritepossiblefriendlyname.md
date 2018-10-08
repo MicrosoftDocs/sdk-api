@@ -4,10 +4,10 @@ title: PowerWritePossibleFriendlyName function
 author: windows-sdk-content
 description: Sets the friendly name for the specified possible setting of a power setting.
 old-location: base\powerwritepossiblefriendlyname.htm
-tech.root: Power
+tech.root: power
 ms.assetid: 981e813b-f3c8-44d2-ac1f-ca74f4795c85
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWritePossibleFriendlyName, PowerWritePossibleFriendlyName function, base.powerwritepossiblefriendlyname, powrprof/PowerWritePossibleFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

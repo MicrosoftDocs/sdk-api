@@ -4,10 +4,10 @@ title: IBrowserService2::SetActivateState
 author: windows-sdk-content
 description: Deprecated. Updates the value of the _uActivateState member of the BASEBROWSERDATA structure, which tracks whether the browser view window is in an activated state. The derived class makes this call to the base class.
 old-location: shell\IBrowserService2_SetActivateState.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7a822b69-892d-48dc-99b3-8d725036722d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetActivateState method, IBrowserService2.SetActivateState, IBrowserService2::SetActivateState, SetActivateState, SetActivateState method [Windows Shell], SetActivateState method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetActivateState, shell.IBrowserService2_SetActivateState, zone_IBrowserService2_SetActivateState
 ms.prod: windows-hardware
 ms.technology: windows-devices

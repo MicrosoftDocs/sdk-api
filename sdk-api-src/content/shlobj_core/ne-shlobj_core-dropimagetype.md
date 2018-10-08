@@ -4,10 +4,10 @@ title: DROPIMAGETYPE
 author: windows-sdk-content
 description: Values used with the DROPDESCRIPTION structure to specify the drop image.
 old-location: shell\DROPIMAGETYPE.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: eeaf8bd4-25ab-4ec3-9da9-9a72ba3813b9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DROPIMAGETYPE, DROPIMAGETYPE enumeration [Windows Shell], DROPIMAGE_COPY, DROPIMAGE_INVALID, DROPIMAGE_LABEL, DROPIMAGE_LINK, DROPIMAGE_MOVE, DROPIMAGE_NOIMAGE, DROPIMAGE_NONE, DROPIMAGE_WARNING, _shell_DROPIMAGETYPE, shell.DROPIMAGETYPE, shlobj_core/DROPIMAGETYPE, shlobj_core/DROPIMAGE_COPY, shlobj_core/DROPIMAGE_INVALID, shlobj_core/DROPIMAGE_LABEL, shlobj_core/DROPIMAGE_LINK, shlobj_core/DROPIMAGE_MOVE, shlobj_core/DROPIMAGE_NOIMAGE, shlobj_core/DROPIMAGE_NONE, shlobj_core/DROPIMAGE_WARNING
 ms.prod: windows
 ms.technology: windows-sdk

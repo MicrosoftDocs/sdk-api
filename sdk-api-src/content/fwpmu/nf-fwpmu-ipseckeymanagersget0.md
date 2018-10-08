@@ -4,10 +4,10 @@ title: IPsecKeyManagersGet0 function
 author: windows-sdk-content
 description: Returns a list of current Trusted Intermediary Agents (TIAs).
 old-location: fwp\ipseckeymanagersget0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 5456C126-DF5F-472D-A3A2-37C2C0C1E2FE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPsecKeyManagersGet0, IPsecKeyManagersGet0 function [Filtering], fwp.ipseckeymanagersget0, fwpmu/IPsecKeyManagersGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

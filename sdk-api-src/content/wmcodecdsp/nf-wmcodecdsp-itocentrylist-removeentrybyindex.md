@@ -4,10 +4,10 @@ title: ITocEntryList::RemoveEntryByIndex
 author: windows-sdk-content
 description: The RemoveEntryByIndex method removes an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_removeentrybyindex.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 72b9141c-2e61-42be-a4a1-910b607ab5f1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ITocEntryList interface [Media Foundation],RemoveEntryByIndex method, ITocEntryList.RemoveEntryByIndex, ITocEntryList::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocEntryList interface, codecapi.itocentrylist_removeentrybyindex, mf.itocentrylist_removeentrybyindex, wmcodecdsp/ITocEntryList::RemoveEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

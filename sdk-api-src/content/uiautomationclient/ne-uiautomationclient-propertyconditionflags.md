@@ -7,8 +7,8 @@ old-location: winauto\uiauto_PropertyConditionFlagsEnum.htm
 tech.root: WinAuto
 ms.assetid: debe8141-2a91-4774-b533-d6f3ccfc7744
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows Accessibility], PropertyConditionFlags_IgnoreCase, PropertyConditionFlags_None, uiauto.uiauto_PropertyConditionFlagsEnum, uiauto_PropertyConditionFlagsEnum, uiautomationclient/PropertyConditionFlags, uiautomationclient/PropertyConditionFlags_IgnoreCase, uiautomationclient/PropertyConditionFlags_None, winauto.uiauto_PropertyConditionFlagsEnum
+ms.date: 10/05/2018
+ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows Accessibility], PropertyConditionFlags_IgnoreCase, PropertyConditionFlags_MatchSubstring, PropertyConditionFlags_None, uiauto.uiauto_PropertyConditionFlagsEnum, uiauto_PropertyConditionFlagsEnum, uiautomationclient/PropertyConditionFlags, uiautomationclient/PropertyConditionFlags_IgnoreCase, uiautomationclient/PropertyConditionFlags_MatchSubstring, uiautomationclient/PropertyConditionFlags_None, winauto.uiauto_PropertyConditionFlagsEnum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -70,5 +70,7 @@ Comparison of string properties is not case-sensitive.
 
 ### -field PropertyConditionFlags_MatchSubstring
 
+[Windows 10 October 2018 Update (version 1809) and newer]
 
+Comparison of substring properties is enabled.
 

@@ -4,10 +4,10 @@ title: IMFMediaSourceExtension::SetDuration
 author: windows-sdk-content
 description: Sets the duration of the media source in 100-nanosecond units.
 old-location: mf\imfmediasourceextension_setduration.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: dc3dc600-ca81-40da-9edb-0af283ba9221
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetDuration method, IMFMediaSourceExtension.SetDuration, IMFMediaSourceExtension::SetDuration, SetDuration, SetDuration method [Media Foundation], SetDuration method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setduration, mfmediaengine/IMFMediaSourceExtension::SetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

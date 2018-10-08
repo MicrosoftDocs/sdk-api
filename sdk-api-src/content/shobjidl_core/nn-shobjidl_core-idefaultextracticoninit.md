@@ -4,10 +4,10 @@ title: IDefaultExtractIconInit
 author: windows-sdk-content
 description: Exposes methods to set default icons associated with an object.
 old-location: shell\IDefaultExtractIconInit.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 27b952e3-f17a-4844-8c39-2ae240179d02
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDefaultExtractIconInit, IDefaultExtractIconInit interface [Windows Shell], IDefaultExtractIconInit interface [Windows Shell],described, _shell_IDefaultExtractIconInit, shell.IDefaultExtractIconInit, shobjidl_core/IDefaultExtractIconInit
 ms.prod: windows
 ms.technology: windows-sdk

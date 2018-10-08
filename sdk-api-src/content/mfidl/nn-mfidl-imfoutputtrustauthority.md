@@ -4,10 +4,10 @@ title: IMFOutputTrustAuthority
 author: windows-sdk-content
 description: Encapsulates the functionality of one or more output protection systems that a trusted output supports.
 old-location: mf\imfoutputtrustauthority.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 21594ac0-7e3c-44a3-bbee-64316dd51824
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 21594ac0-7e3c-44a3-bbee-64316dd51824, IMFOutputTrustAuthority, IMFOutputTrustAuthority interface [Media Foundation], IMFOutputTrustAuthority interface [Media Foundation],described, mf.imfoutputtrustauthority, mfidl/IMFOutputTrustAuthority
 ms.prod: windows
 ms.technology: windows-sdk

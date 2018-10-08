@@ -4,10 +4,10 @@ title: IObjectWithFolderEnumMode::GetMode
 author: windows-sdk-content
 description: Retrieves the enumeration mode of the parsed item.
 old-location: shell\IObjectWithFolderEnumMode_GetMode.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5d331255-2295-4f7b-b2d6-1238edcc15bb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetMode, GetMode method [Windows Shell], GetMode method [Windows Shell],IObjectWithFolderEnumMode interface, IObjectWithFolderEnumMode interface [Windows Shell],GetMode method, IObjectWithFolderEnumMode.GetMode, IObjectWithFolderEnumMode::GetMode, _shell_IObjectWithFolderEnumMode_GetMode, shell.IObjectWithFolderEnumMode_GetMode, shobjidl_core/IObjectWithFolderEnumMode::GetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_PROCESS_MEMORY_EXHAUSTION_TYPE"
 author: windows-sdk-content
 description: Represents the different memory exhaustion types.
 old-location: base\process_memory_exhaustion_type.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 0A5B6B4D-B2FF-4873-85E0-3CCB3EA3BF91
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PPROCESS_MEMORY_EXHAUSTION_TYPE, PMETypeFailFastOnCommitFailure, PMETypeMax, PPROCESS_MEMORY_EXHAUSTION_TYPE, PPROCESS_MEMORY_EXHAUSTION_TYPE enumeration pointer, PROCESS_MEMORY_EXHAUSTION_TYPE, PROCESS_MEMORY_EXHAUSTION_TYPE enumeration, _PROCESS_MEMORY_EXHAUSTION_TYPE, base.process_memory_exhaustion_type, processthreadsapi/ PMETypeFailFastOnCommitFailure, processthreadsapi/ PMETypeMax, processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_TYPE, processthreadsapi/PROCESS_MEMORY_EXHAUSTION_TYPE"
 ms.prod: windows
 ms.technology: windows-sdk

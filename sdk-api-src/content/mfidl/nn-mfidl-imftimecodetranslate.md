@@ -4,10 +4,10 @@ title: IMFTimecodeTranslate
 author: windows-sdk-content
 description: Converts between Society of Motion Picture and Television Engineers (SMPTE) time codes and 100-nanosecond time units.
 old-location: mf\imftimecodetranslate.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 935ec6b3-12e6-4458-b8a1-ffeb4159d957
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTimecodeTranslate, IMFTimecodeTranslate interface [Media Foundation], IMFTimecodeTranslate interface [Media Foundation],described, mf.imftimecodetranslate, mfidl/IMFTimecodeTranslate
 ms.prod: windows
 ms.technology: windows-sdk

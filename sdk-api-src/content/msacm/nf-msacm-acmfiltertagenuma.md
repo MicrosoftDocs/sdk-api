@@ -7,7 +7,7 @@ old-location: multimedia\acmfiltertagenum.htm
 tech.root: Multimedia
 ms.assetid: eaec57c2-51b8-4842-ba78-f5726c2dc31d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "_win32_acmFilterTagEnum, acmFilterTagEnum, acmFilterTagEnum function [Windows Multimedia], acmFilterTagEnumA, acmFilterTagEnumW, msacm/acmFilterTagEnum, msacm/acmFilterTagEnumA, msacm/acmFilterTagEnumW, multimedia.acmfiltertagenum"
 ms.prod: windows-hardware
 ms.technology: windows-devices

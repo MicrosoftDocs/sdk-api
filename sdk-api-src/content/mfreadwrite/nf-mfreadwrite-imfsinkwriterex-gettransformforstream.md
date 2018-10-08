@@ -4,10 +4,10 @@ title: IMFSinkWriterEx::GetTransformForStream
 author: windows-sdk-content
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsinkwriterex_gettransformforstream.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 72EEC01F-ED62-4DD7-A18C-766D01705CAE
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSinkWriterEx interface, IMFSinkWriterEx interface [Media Foundation],GetTransformForStream method, IMFSinkWriterEx.GetTransformForStream, IMFSinkWriterEx::GetTransformForStream, mf.imfsinkwriterex_gettransformforstream, mfreadwrite/IMFSinkWriterEx::GetTransformForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

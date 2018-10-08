@@ -4,10 +4,10 @@ title: IMFSensorGroup::CreateMediaSource
 author: windows-sdk-content
 description: Creates an IMFMediaSource that virtualizes the sensor group.
 old-location: mf\imfsensorgroup_createmediasource.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2C69A81E-7159-43AA-92EA-7B1EB4A7A681
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CreateMediaSource, CreateMediaSource method [Media Foundation], CreateMediaSource method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],CreateMediaSource method, IMFSensorGroup.CreateMediaSource, IMFSensorGroup::CreateMediaSource, mf.imfsensorgroup_createmediasource, mfidl/IMFSensorGroup::CreateMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

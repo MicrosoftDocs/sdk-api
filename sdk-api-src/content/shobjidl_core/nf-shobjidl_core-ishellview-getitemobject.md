@@ -4,10 +4,10 @@ title: IShellView::GetItemObject
 author: windows-sdk-content
 description: Gets an interface that refers to data presented in the view.
 old-location: shell\IShellView_GetItemObject.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 249ce8cc-6820-4f0a-a83a-2035e88d0d9c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetItemObject method, IShellView.GetItemObject, IShellView::GetItemObject, _win32_IShellView_GetItemObject, shell.IShellView_GetItemObject, shobjidl_core/IShellView::GetItemObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

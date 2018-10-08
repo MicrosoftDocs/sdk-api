@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_COUNT_OUTPUT
 author: windows-sdk-content
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID_COUNT query.
 old-location: mf\d3d11_authenticated_query_accessibility_encryption_guid_count_output.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: C2958EC2-9D5B-471E-BB52-1F0001826C03
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_COUNT_OUTPUT, D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_COUNT_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_COUNT_OUTPUT, mf.d3d11_authenticated_query_accessibility_encryption_guid_count_output
 ms.prod: windows
 ms.technology: windows-sdk

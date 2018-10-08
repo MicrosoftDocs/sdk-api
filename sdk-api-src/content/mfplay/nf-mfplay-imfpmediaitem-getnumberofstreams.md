@@ -4,10 +4,10 @@ title: IMFPMediaItem::GetNumberOfStreams
 author: windows-sdk-content
 description: Gets the number of streams (audio, video, and other) in the media item.
 old-location: mf\imfpmediaitem_getnumberofstreams.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 65a3cfc8-9171-4206-b1b6-54bb0d3ecdd1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetNumberOfStreams method, IMFPMediaItem.GetNumberOfStreams, IMFPMediaItem::GetNumberOfStreams, mf.imfpmediaitem_getnumberofstreams, mfplay/IMFPMediaItem::GetNumberOfStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

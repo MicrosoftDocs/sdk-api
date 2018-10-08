@@ -4,10 +4,10 @@ title: IShellLinkW::SetHotkey
 author: windows-sdk-content
 description: Sets a keyboard shortcut (hot key) for a Shell link object.
 old-location: shell\IShellLink_SetHotkey.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 82cc2af8-b872-4efc-bfe4-04a50df74e28
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetHotkey method, IShellLink::SetHotkey, IShellLinkA interface [Windows Shell],SetHotkey method, IShellLinkA::SetHotkey, IShellLinkW interface [Windows Shell],SetHotkey method, IShellLinkW.SetHotkey, IShellLinkW::SetHotkey, SetHotkey, SetHotkey method [Windows Shell], SetHotkey method [Windows Shell],IShellLink interface, SetHotkey method [Windows Shell],IShellLinkA interface, SetHotkey method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetHotkey, shell.IShellLink_SetHotkey, shobjidl_core/IShellLink::SetHotkey, shobjidl_core/IShellLinkA::SetHotkey, shobjidl_core/IShellLinkW::SetHotkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

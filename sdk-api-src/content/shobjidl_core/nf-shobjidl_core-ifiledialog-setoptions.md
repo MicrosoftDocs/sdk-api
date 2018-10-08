@@ -4,10 +4,10 @@ title: IFileDialog::SetOptions
 author: windows-sdk-content
 description: Sets flags to control the behavior of the dialog.
 old-location: shell\IFileDialog_SetOptions.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 99def5c2-3fc3-416c-80a6-6009927ab63e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOptions method, IFileDialog.SetOptions, IFileDialog::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOptions, shell_IFileDialog_SetOptions, shobjidl_core/IFileDialog::SetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

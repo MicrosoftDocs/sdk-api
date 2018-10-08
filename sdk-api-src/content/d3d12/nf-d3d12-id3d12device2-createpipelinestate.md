@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device2_createpipelinestate.htm
 tech.root: direct3d12
 ms.assetid: 90557451-CB7A-4F05-8BDB-B611FE034CBB
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: CreatePipelineState, CreatePipelineState method, CreatePipelineState method,ID3D12Device2 interface, ID3D12Device2 interface,CreatePipelineState method, ID3D12Device2.CreatePipelineState, ID3D12Device2::CreatePipelineState, d3d12/ID3D12Device2::CreatePipelineState, direct3d12.id3d12device2_createpipelinestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

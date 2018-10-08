@@ -4,10 +4,10 @@ title: IShellWindows::Register
 author: windows-sdk-content
 description: Registers an open window as a Shell window; the window is specified by handle.
 old-location: shell\IShellWindows_Register.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4545cc34-2209-41a5-ab65-283f2985cce0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Register method, IShellWindows.Register, IShellWindows::Register, Register, Register method [Windows Shell], Register method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Register, exdisp/IShellWindows::Register, shell.IShellWindows_Register
 ms.prod: windows-hardware
 ms.technology: windows-devices

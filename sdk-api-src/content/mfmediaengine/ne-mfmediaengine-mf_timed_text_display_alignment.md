@@ -4,10 +4,10 @@ title: MF_TIMED_TEXT_DISPLAY_ALIGNMENT
 author: windows-sdk-content
 description: Specifies how text is aligned with the display.
 old-location: mf\mf_timed_text_display_alignment.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: CB7C4067-7410-4F20-A6E8-8DED44AF5C83
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MF_TIMED_TEXT_DISPLAY_ALIGNMENT, MF_TIMED_TEXT_DISPLAY_ALIGNMENT enumeration [Media Foundation], MF_TIMED_TEXT_DISPLAY_ALIGNMENT_AFTER, MF_TIMED_TEXT_DISPLAY_ALIGNMENT_BEFORE, MF_TIMED_TEXT_DISPLAY_ALIGNMENT_CENTER, mf.mf_timed_text_display_alignment, mfmediaengine/MF_TIMED_TEXT_DISPLAY_ALIGNMENT, mfmediaengine/MF_TIMED_TEXT_DISPLAY_ALIGNMENT_AFTER, mfmediaengine/MF_TIMED_TEXT_DISPLAY_ALIGNMENT_BEFORE, mfmediaengine/MF_TIMED_TEXT_DISPLAY_ALIGNMENT_CENTER
 ms.prod: windows
 ms.technology: windows-sdk

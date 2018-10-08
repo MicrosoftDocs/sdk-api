@@ -7,7 +7,7 @@ old-location: base\cdromisdigitalplaybackenabled.htm
 tech.root: devio
 ms.assetid: 17d1ccc6-a552-434f-84f5-471455e97dc2
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: CdromIsDigitalPlaybackEnabled, CdromIsDigitalPlaybackEnabled function, base.cdromisdigitalplaybackenabled, storprop/CdromIsDigitalPlaybackEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

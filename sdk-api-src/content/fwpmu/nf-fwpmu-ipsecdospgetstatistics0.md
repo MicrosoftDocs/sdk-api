@@ -4,10 +4,10 @@ title: IPsecDospGetStatistics0 function
 author: windows-sdk-content
 description: The IPsecDospGetStatistics0 function retrieves Internet Protocol Security (IPsec) DoS Protection statistics.
 old-location: fwp\ipsecdospgetstatistics0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: eb71e7c8-403c-4774-bc59-71e4a56ee1c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPsecDospGetStatistics0, IPsecDospGetStatistics0 function [Filtering], fwp.ipsecdospgetstatistics0, fwpmu/IPsecDospGetStatistics0
 ms.prod: windows-hardware
 ms.technology: windows-devices

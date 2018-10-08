@@ -4,10 +4,10 @@ title: DsUnquoteRdnValueA function
 author: windows-sdk-content
 description: The DsUnquoteRdnValue function is a client call that converts a quoted RDN value back to an unquoted RDN value.
 old-location: ad\dsunquoterdnvalue.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 6e3dd220-ba98-46b5-8522-93cbe2029aa4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], DsUnquoteRdnValueA, DsUnquoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsunquoterdnvalue, ad.dsunquoterdnvalue, dsparse/DsUnquoteRdnValue, dsparse/DsUnquoteRdnValueA, dsparse/DsUnquoteRdnValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFRealTimeClientEx
 author: windows-sdk-content
 description: Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclientex.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: EC5CDD23-B862-4DAE-AC01-4926C4FAD89A
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], IMFRealTimeClientEx interface [Media Foundation],described, mf.imfrealtimeclientex, mfidl/IMFRealTimeClientEx
 ms.prod: windows
 ms.technology: windows-sdk

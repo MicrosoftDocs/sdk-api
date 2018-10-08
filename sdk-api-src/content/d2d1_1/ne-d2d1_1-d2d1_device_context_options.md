@@ -4,10 +4,10 @@ title: D2D1_DEVICE_CONTEXT_OPTIONS
 author: windows-sdk-content
 description: This specifies options that apply to the device context for its lifetime.
 old-location: direct2d\__d2d1_device_context_options.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: be4e6eb7-0767-4faf-9f27-eeb3bed48244
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: D2D1_DEVICE_CONTEXT_OPTIONS, D2D1_DEVICE_CONTEXT_OPTIONS enumeration [Direct2D], D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS, D2D1_DEVICE_CONTEXT_OPTIONS_NONE, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS_NONE, direct2d.__d2d1_device_context_options
 ms.prod: windows
 ms.technology: windows-sdk

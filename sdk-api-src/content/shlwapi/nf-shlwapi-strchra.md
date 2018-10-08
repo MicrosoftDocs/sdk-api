@@ -4,10 +4,10 @@ title: StrChrA function
 author: windows-sdk-content
 description: Searches a string for the first occurrence of a character that matches the specified character. The comparison is case-sensitive.
 old-location: shell\StrChr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3e4c20cb-0b46-4f84-bbd1-860fdedde8c8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrChr, StrChr function [Windows Shell], StrChrA, StrChrW, _win32_StrChr, shell.StrChr, shlwapi/StrChr, shlwapi/StrChrA, shlwapi/StrChrW
 ms.prod: windows-hardware
 ms.technology: windows-devices

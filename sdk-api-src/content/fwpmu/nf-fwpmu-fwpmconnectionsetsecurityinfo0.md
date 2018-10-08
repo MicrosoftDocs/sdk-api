@@ -4,10 +4,10 @@ title: FwpmConnectionSetSecurityInfo0 function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor for a connection object change event.
 old-location: fwp\fwpmconnectionsetsecurityinfo0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 74c976b0-68a5-4e09-8c6f-6ccb2766e0ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: FwpmConnectionSetSecurityInfo0, FwpmConnectionSetSecurityInfo0 function [Filtering], fwp.fwpmconnectionsetsecurityinfo0, fwpmu/FwpmConnectionSetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPSEC_DOSP_OPTIONS0_
 author: windows-sdk-content
 description: Used to store configuration parameters for IPsec DoS Protection.
 old-location: fwp\ipsec_dosp_options0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 7f180a05-ce8a-4f3b-8e97-d0b6f7f9f8ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPSEC_DOSP_FLAG_DISABLE_AUTHIP, IPSEC_DOSP_FLAG_DISABLE_DEFAULT_BLOCK, IPSEC_DOSP_FLAG_ENABLE_IKEV1, IPSEC_DOSP_FLAG_ENABLE_IKEV2, IPSEC_DOSP_FLAG_FILTER_BLOCK, IPSEC_DOSP_FLAG_FILTER_EXEMPT, IPSEC_DOSP_OPTIONS0, IPSEC_DOSP_OPTIONS0 structure [Filtering], IPSEC_DOSP_OPTIONS0_, fwp.ipsec_dosp_options0, ipsectypes/IPSEC_DOSP_OPTIONS0
 ms.prod: windows
 ms.technology: windows-sdk

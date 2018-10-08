@@ -4,10 +4,10 @@ title: PathSearchAndQualifyA function
 author: windows-sdk-content
 description: Determines if a given path is correctly formatted and fully qualified.
 old-location: shell\PathSearchAndQualify.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 90da281d-349a-460a-aa5a-14e3b4ced727
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathSearchAndQualify, PathSearchAndQualify function [Windows Shell], PathSearchAndQualifyA, PathSearchAndQualifyW, _win32_PathSearchAndQualify, shell.PathSearchAndQualify, shlwapi/PathSearchAndQualify, shlwapi/PathSearchAndQualifyA, shlwapi/PathSearchAndQualifyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

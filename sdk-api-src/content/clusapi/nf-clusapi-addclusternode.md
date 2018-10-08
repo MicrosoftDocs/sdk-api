@@ -7,7 +7,7 @@ old-location: mscs\addclusternode.htm
 tech.root: MsCS
 ms.assetid: e1d3611e-10d1-4858-923a-01633d2ed78b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: AddClusterNode, AddClusterNode function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_NODE, PCLUSAPI_ADD_CLUSTER_NODE function [Failover Cluster], clusapi/AddClusterNode, clusapi/PCLUSAPI_ADD_CLUSTER_NODE, mscs.addclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices

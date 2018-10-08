@@ -4,10 +4,10 @@ title: SHGetKnownFolderIDList function
 author: windows-sdk-content
 description: Retrieves the path of a known folder as an ITEMIDLIST structure.
 old-location: shell\SHGetKnownFolderIDList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fed9cfb8-4c38-4947-99aa-278245148136
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Shell], _shell_SHGetKnownFolderIDList, shell.SHGetKnownFolderIDList, shlobj_core/SHGetKnownFolderIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

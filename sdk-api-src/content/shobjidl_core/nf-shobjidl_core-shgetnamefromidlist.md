@@ -4,10 +4,10 @@ title: SHGetNameFromIDList function
 author: windows-sdk-content
 description: Retrieves the display name of an item identified by its IDList.
 old-location: shell\SHGetNameFromIDList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d2fc1eeb-bd76-4bd7-9a4f-4142e53f0afb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHGetNameFromIDList, SHGetNameFromIDList function [Windows Shell], _shell_SHGetNameFromIDList, shell.SHGetNameFromIDList, shobjidl_core/SHGetNameFromIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SHARDAPPIDINFO
 author: windows-sdk-content
 description: Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case as an IShellItem&#8212;and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFO.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bb2b7e86-04ca-4dd0-944b-a95e8a0be1e0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHARDAPPIDINFO, SHARDAPPIDINFO structure [Windows Shell], _shell_SHARDAPPIDINFO, shell.SHARDAPPIDINFO, shlobj_core/SHARDAPPIDINFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_OPM_SET_PROTECTION_LEVEL_PARAMETERS"
 author: windows-sdk-content
 description: Contains data for the OPM_SET_PROTECTION_LEVEL command in Output Protection Manager (OPM).
 old-location: mf\opm_set_protection_level_parameters.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 074c30b2-ad79-4ace-89fb-859fac016ebf
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: OPM_SET_PROTECTION_LEVEL_PARAMETERS, OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation], _OPM_SET_PROTECTION_LEVEL_PARAMETERS, mf.opm_set_protection_level_parameters, opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk

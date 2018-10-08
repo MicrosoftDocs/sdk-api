@@ -4,10 +4,10 @@ title: "_OPM_GET_CODEC_INFO_PARAMETERS"
 author: windows-sdk-content
 description: Contains information for the OPM_GET_CODEC_INFO command.
 old-location: mf\opm_get_codec_info_parameters.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 9fb130e5-fd87-4a11-9c9e-7a106a091b35
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: OPM_GET_CODEC_INFO_PARAMETERS, OPM_GET_CODEC_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_CODEC_INFO_PARAMETERS, ksopmapi/OPM_GET_CODEC_INFO_PARAMETERS, mf.opm_get_codec_info_parameters
 ms.prod: windows
 ms.technology: windows-sdk

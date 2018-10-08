@@ -4,10 +4,10 @@ title: "_DXVACompBufferInfo"
 author: windows-sdk-content
 description: Specifies the requirements for compressed surfaces for DirectX Video Acceleration (DXVA).
 old-location: mf\dxvacompbufferinfo.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: dabef388-d883-48a6-9abc-218dc163ef63
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DXVACompBufferInfo, DXVACompBufferInfo structure [Media Foundation], _DXVACompBufferInfo, dxva9typ/DXVACompBufferInfo, mf.dxvacompbufferinfo
 ms.prod: windows
 ms.technology: windows-sdk

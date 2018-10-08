@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRangeArray.htm
 tech.root: WinAuto
 ms.assetid: 9f059173-7539-4164-b7af-182fa851d11a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IUIAutomationTextRangeArray, IUIAutomationTextRangeArray interface [Windows Accessibility], IUIAutomationTextRangeArray interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextRangeArray, uiauto_IUIAutomationTextRangeArray, uiautomationclient/IUIAutomationTextRangeArray, winauto.uiauto_IUIAutomationTextRangeArray
 ms.prod: windows
 ms.technology: windows-sdk

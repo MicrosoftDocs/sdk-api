@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_exchange_medium.htm
 tech.root: devio
 ms.assetid: 40550df0-9da4-4b02-bd57-23eae78c68df
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code, _win32_ioctl_changer_exchange_medium, base.ioctl_changer_exchange_medium, winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
 ms.prod: windows
 ms.technology: windows-sdk

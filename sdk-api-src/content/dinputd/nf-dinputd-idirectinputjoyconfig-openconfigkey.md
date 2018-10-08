@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_openconfigkey.htm
 tech.root: hid
 ms.assetid: f3e902e1-bc5d-419e-b728-2f9199dacb94
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IDirectInputJoyConfig, IDirectInputJoyConfig interface [Human Input Devices],OpenConfigKey method, IDirectInputJoyConfig.OpenConfigKey, IDirectInputJoyConfig::OpenConfigKey, OpenConfigKey, OpenConfigKey (IDirectInputJoyConfig8), OpenConfigKey method [Human Input Devices], OpenConfigKey method [Human Input Devices],IDirectInputJoyConfig interface, di_ref_d0c78a58-7e2c-46bb-a974-4996a2e488a3.xml, dinputd/IDirectInputJoyConfig::OpenConfigKey, hid.idirectinputjoyconfig8_openconfigkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFGetSystemTime function
 author: windows-sdk-content
 description: Returns the system time.
 old-location: mf\mfgetsystemtime.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e23617f6-248e-4e0b-866b-19b960ebf8eb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFGetSystemTime, MFGetSystemTime function [Media Foundation], e23617f6-248e-4e0b-866b-19b960ebf8eb, mf.mfgetsystemtime, mfidl/MFGetSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

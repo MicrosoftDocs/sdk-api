@@ -4,10 +4,10 @@ title: PowerSetRequest function
 author: windows-sdk-content
 description: Increments the count of power requests of the specified type for a power request object.
 old-location: base\powersetrequest.htm
-tech.root: Power
+tech.root: power
 ms.assetid: 85249de8-5832-4f25-bbd9-3576cfd1caa0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, PowerSetRequest, PowerSetRequest function, base.powersetrequest, winbase/PowerSetRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,6 +84,7 @@ The display remains on even if there is no user input for an extended period of 
 #### PowerRequestSystemRequired
 
 The system continues to run instead of entering sleep after a period of user inactivity. 
+                                
                                 
 
 

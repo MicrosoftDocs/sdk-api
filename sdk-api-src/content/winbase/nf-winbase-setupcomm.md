@@ -7,7 +7,7 @@ old-location: base\setupcomm.htm
 tech.root: devio
 ms.assetid: 7b42fdad-5847-4036-957e-2f71ad982d9f
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: SetupComm, SetupComm function, _win32_setupcomm, base.setupcomm, winbase/SetupComm
 ms.prod: windows-hardware
 ms.technology: windows-devices

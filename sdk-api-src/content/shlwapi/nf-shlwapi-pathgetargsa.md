@@ -4,10 +4,10 @@ title: PathGetArgsA function
 author: windows-sdk-content
 description: Finds the command line arguments within a given path.
 old-location: shell\PathGetArgs.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, PathGetArgsW, _win32_PathGetArgs, shell.PathGetArgs, shlwapi/PathGetArgs, shlwapi/PathGetArgsA, shlwapi/PathGetArgsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

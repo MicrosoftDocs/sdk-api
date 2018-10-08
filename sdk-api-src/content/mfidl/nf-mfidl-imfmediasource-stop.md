@@ -4,10 +4,10 @@ title: IMFMediaSource::Stop
 author: windows-sdk-content
 description: Stops all active streams in the media source.
 old-location: mf\imfmediasource_stop.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: aa7af7a0-a6c2-4c9e-9f98-d36716679297
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaSource interface [Media Foundation],Stop method, IMFMediaSource.Stop, IMFMediaSource::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFMediaSource interface, aa7af7a0-a6c2-4c9e-9f98-d36716679297, mf.imfmediasource_stop, mfidl/IMFMediaSource::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

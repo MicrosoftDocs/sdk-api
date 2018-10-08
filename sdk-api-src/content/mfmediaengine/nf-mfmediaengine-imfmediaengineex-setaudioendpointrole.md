@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::SetAudioEndpointRole
 author: windows-sdk-content
 description: Sets the audio device endpoint used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_setaudioendpointrole.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 00fd78ce-e046-40a0-8bad-f4a1e1f517bb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetAudioEndpointRole method, IMFMediaEngineEx.SetAudioEndpointRole, IMFMediaEngineEx::SetAudioEndpointRole, SetAudioEndpointRole, SetAudioEndpointRole method [Media Foundation], SetAudioEndpointRole method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setaudioendpointrole, mfmediaengine/IMFMediaEngineEx::SetAudioEndpointRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

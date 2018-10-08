@@ -4,10 +4,10 @@ title: IMFSinkWriter::PlaceMarker
 author: windows-sdk-content
 description: Places a marker in the specified stream.
 old-location: mf\imfsinkwriter_placemarker.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 93140993-a926-437e-bc40-9b011c4c6832
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],PlaceMarker method, IMFSinkWriter.PlaceMarker, IMFSinkWriter::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_placemarker, mfreadwrite/IMFSinkWriter::PlaceMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID2D1EllipseGeometry::GetEllipse
 author: windows-sdk-content
 description: Gets the D2D1_ELLIPSE structure that describes this ellipse geometry.
 old-location: direct2d\ID2D1EllipseGeometry_GetEllipse.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c2161bce-b7de-470f-8f3b-130dc2a3c2fc
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: GetEllipse, GetEllipse method [Direct2D], GetEllipse method [Direct2D],ID2D1EllipseGeometry interface, ID2D1EllipseGeometry interface [Direct2D],GetEllipse method, ID2D1EllipseGeometry.GetEllipse, ID2D1EllipseGeometry::GetEllipse, d2d1/ID2D1EllipseGeometry::GetEllipse, direct2d.ID2D1EllipseGeometry_GetEllipse
 ms.prod: windows-hardware
 ms.technology: windows-devices

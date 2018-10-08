@@ -4,10 +4,10 @@ title: "_USER_POWER_POLICY"
 author: windows-sdk-content
 description: Contains power policy settings that are unique to each power scheme for a user.
 old-location: base\user_power_policy_str.htm
-tech.root: Power
+tech.root: power
 ms.assetid: 616c45f6-ec80-42d9-a485-e9e778f2b971
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PUSER_POWER_POLICY, PUSER_POWER_POLICY, PUSER_POWER_POLICY structure pointer, USER_POWER_POLICY, USER_POWER_POLICY structure, _USER_POWER_POLICY, _win32_user_power_policy_str, base.user_power_policy_str, powrprof/PUSER_POWER_POLICY, powrprof/USER_POWER_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

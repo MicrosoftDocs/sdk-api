@@ -4,10 +4,10 @@ title: PathCommonPrefixW function
 author: windows-sdk-content
 description: Compares two paths to determine if they share a common prefix. A prefix is one of these types:\_&#0034;C:\\&#0034;, &#0034;.&#0034;, &#0034;..&#0034;, &#0034;..\\&#0034;.
 old-location: shell\PathCommonPrefix.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 13c32b32-8541-41c4-82d8-48d3b2439f0c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathCommonPrefix, PathCommonPrefix function [Windows Shell], PathCommonPrefixA, PathCommonPrefixW, _win32_PathCommonPrefix, shell.PathCommonPrefix, shlwapi/PathCommonPrefix, shlwapi/PathCommonPrefixA, shlwapi/PathCommonPrefixW
 ms.prod: windows-hardware
 ms.technology: windows-devices

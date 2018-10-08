@@ -4,10 +4,10 @@ title: IEnumExplorerCommand::Next
 author: windows-sdk-content
 description: Retrieves a specified number of elements that directly follow the current element.
 old-location: shell\IEnumExplorerCommand_Next.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 809e866d-128b-4a0e-9de0-c2123161134f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Next method, IEnumExplorerCommand.Next, IEnumExplorerCommand::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Next, shell.IEnumExplorerCommand_Next, shobjidl_core/IEnumExplorerCommand::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

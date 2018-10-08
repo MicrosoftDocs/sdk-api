@@ -4,10 +4,10 @@ title: IMFRateSupport::GetFastestRate
 author: windows-sdk-content
 description: Gets the fastest playback rate supported by the object.
 old-location: mf\imfratesupport_getfastestrate.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 00413771-21cb-48a7-9080-2c3d195c366b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 00413771-21cb-48a7-9080-2c3d195c366b, GetFastestRate, GetFastestRate method [Media Foundation], GetFastestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetFastestRate method, IMFRateSupport.GetFastestRate, IMFRateSupport::GetFastestRate, mf.imfratesupport_getfastestrate, mfidl/IMFRateSupport::GetFastestRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

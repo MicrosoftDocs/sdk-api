@@ -4,10 +4,10 @@ title: IMFPMPHost::CreateObjectByCLSID
 author: windows-sdk-content
 description: Creates an object in the protect media path (PMP) process, from a CLSID.
 old-location: mf\imfpmphost_createobjectbyclsid.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 787fc392-1858-41f4-a1ce-2da02a5e789f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 787fc392-1858-41f4-a1ce-2da02a5e789f, CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPHost interface, IMFPMPHost interface [Media Foundation],CreateObjectByCLSID method, IMFPMPHost.CreateObjectByCLSID, IMFPMPHost::CreateObjectByCLSID, mf.imfpmphost_createobjectbyclsid, mfidl/IMFPMPHost::CreateObjectByCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

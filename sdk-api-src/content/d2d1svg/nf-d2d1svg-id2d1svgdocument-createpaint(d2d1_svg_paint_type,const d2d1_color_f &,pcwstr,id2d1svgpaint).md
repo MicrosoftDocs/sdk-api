@@ -3,12 +3,12 @@ UID: NF:d2d1svg.ID2D1SvgDocument.CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLO
 title: ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint)
 author: windows-sdk-content
 description: Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
-old-location: direct2d\id2d1svgdocument_createpaint.htm
-tech.root: direct2d
-ms.assetid: 8AB14D87-4745-409A-A5F4-885E322698B1
+old-location: direct2d\id2d1svgdocument_createpaint_2.htm
+tech.root: Direct2D
+ms.assetid: 449b9df3-cb5c-015b-2ecc-c7617c1625c6
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreatePaint, CreatePaint method [Direct2D], CreatePaint method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePaint method, ID2D1SvgDocument.CreatePaint, ID2D1SvgDocument.CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint), ID2D1SvgDocument::CreatePaint, ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint), d2d1svg/ID2D1SvgDocument::CreatePaint, direct2d.id2d1svgdocument_createpaint
+ms.date: 10/05/2018
+ms.keywords: CreatePaint, CreatePaint method [Direct2D], CreatePaint method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePaint method, ID2D1SvgDocument.CreatePaint, ID2D1SvgDocument.CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint), ID2D1SvgDocument::CreatePaint, ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint), d2d1svg/ID2D1SvgDocument::CreatePaint, direct2d.id2d1svgdocument_createpaint_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -65,9 +65,9 @@ Type: <b><a href="https://msdn.microsoft.com/FBCD7EF5-E1DF-4FE0-98A2-40F42798FB9
 Specifies the type of paint object to create.
 
 
-### -param color [in, optional]
+### -param color [ref]
 
-Type: <b>const D2D1_COLOR_F*</b>
+Type: <b>const D2D1_COLOR_F</b>
 
 The color used if the paintType is D2D1_SVG_PAINT_TYPE_COLOR.
 

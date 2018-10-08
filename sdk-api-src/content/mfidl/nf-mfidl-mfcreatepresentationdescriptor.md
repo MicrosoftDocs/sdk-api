@@ -4,10 +4,10 @@ title: MFCreatePresentationDescriptor function
 author: windows-sdk-content
 description: Creates a presentation descriptor.
 old-location: mf\mfcreatepresentationdescriptor.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 288ab078-5490-41a2-a3b5-87a97aa57739
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 288ab078-5490-41a2-a3b5-87a97aa57739, MFCreatePresentationDescriptor, MFCreatePresentationDescriptor function [Media Foundation], mf.mfcreatepresentationdescriptor, mfidl/MFCreatePresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

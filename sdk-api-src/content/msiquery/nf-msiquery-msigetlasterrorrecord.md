@@ -4,10 +4,10 @@ title: MsiGetLastErrorRecord function
 author: windows-sdk-content
 description: The MsiGetLastErrorRecord function returns the error record that was last returned for the calling process. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetlasterrorrecord.htm
-tech.root: MSI
+tech.root: msi
 ms.assetid: 0d6f4506-367b-43d7-ba1c-2a93c1d0cc51
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MsiGetLastErrorRecord, MsiGetLastErrorRecord function, _msi_msigetlasterrorrecord, msiquery/MsiGetLastErrorRecord, setup.msigetlasterrorrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

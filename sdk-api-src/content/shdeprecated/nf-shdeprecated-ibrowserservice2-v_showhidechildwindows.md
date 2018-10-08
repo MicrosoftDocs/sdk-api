@@ -4,10 +4,10 @@ title: IBrowserService2::v_ShowHideChildWindows
 author: windows-sdk-content
 description: Deprecated. Allows a derived class to update its child windows after a sizing event.
 old-location: shell\IBrowserService2_v_ShowHideChildWindows.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b97116f7-d42e-4619-bc5b-0a55ac012f0c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_ShowHideChildWindows method, IBrowserService2.v_ShowHideChildWindows, IBrowserService2::v_ShowHideChildWindows, shdeprecated/IBrowserService2::v_ShowHideChildWindows, shell.IBrowserService2_v_ShowHideChildWindows, v_ShowHideChildWindows, v_ShowHideChildWindows method [Windows Shell], v_ShowHideChildWindows method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_ShowHideChildWindows
 ms.prod: windows-hardware
 ms.technology: windows-devices

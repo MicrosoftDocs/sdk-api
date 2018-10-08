@@ -2,13 +2,13 @@
 UID: NF:d2d1.ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F,ID2D1TessellationSink)
 title: ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F,ID2D1TessellationSink)
 author: windows-sdk-content
-description: Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.
-old-location: direct2d\ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1TessellationSink.htm
-tech.root: direct2d
-ms.assetid: 0efa4d4f-ebda-49e1-9d94-dcada7374109
+description: Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance.
+old-location: direct2d\ID2D1Geometry_Tessellate_ref_D2D_MATRIX_3X2_F_ptr_ID2D1TessellationSink.htm
+tech.root: Direct2D
+ms.assetid: 7d2762d3-1151-48b1-b0fd-507e0993717c
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ID2D1Geometry interface [Direct2D],Tessellate method, ID2D1Geometry.Tessellate, ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F,ID2D1TessellationSink), ID2D1Geometry::Tessellate, ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F,ID2D1TessellationSink), Tessellate, Tessellate method [Direct2D], Tessellate method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Tessellate, direct2d.ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1TessellationSink
+ms.date: 10/05/2018
+ms.keywords: ID2D1Geometry interface [Direct2D],Tessellate method, ID2D1Geometry.Tessellate, ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F,ID2D1TessellationSink), ID2D1Geometry::Tessellate, ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F,ID2D1TessellationSink), Tessellate, Tessellate method [Direct2D], Tessellate method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Tessellate, direct2d.ID2D1Geometry_Tessellate_ref_D2D_MATRIX_3X2_F_ptr_ID2D1TessellationSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance. 
+Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance.
 
 
 ## -parameters
@@ -58,11 +58,11 @@ Creates a set of clockwise-wound triangles that cover the geometry after it has 
 
 
 
-### -param worldTransform [in, optional]
+### -param worldTransform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
-The transform to apply to this geometry, or <b>NULL</b>.
+The transform to apply to this geometry.
 
 
 ### -param tessellationSink [in]
@@ -70,14 +70,6 @@ The transform to apply to this geometry, or <b>NULL</b>.
 Type: <b><a href="https://msdn.microsoft.com/967c702f-d16f-4a8e-ac77-a8bb35afe0a1">ID2D1TessellationSink</a>*</b>
 
 The <a href="https://msdn.microsoft.com/967c702f-d16f-4a8e-ac77-a8bb35afe0a1">ID2D1TessellationSink</a> to which the tessellated is appended.
-
-
-#### - flatteningTolerance
-
-Type: <b>FLOAT</b>
-
-The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution. 
-
 
 
 ## -returns

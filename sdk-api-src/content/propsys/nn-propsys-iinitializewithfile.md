@@ -4,10 +4,10 @@ title: IInitializeWithFile
 author: windows-sdk-content
 description: Exposes a method to initialize a handler, such as a property handler, thumbnail handler, or preview handler, with a file path.
 old-location: shell\IInitializeWithFile.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 323181ab-1dc2-4b2a-a91f-3eccd7968bcd
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IInitializeWithFile, IInitializeWithFile interface [Windows Shell], IInitializeWithFile interface [Windows Shell],described, propsys/IInitializeWithFile, shell.IInitializeWithFile, shell_IInitializeWithFile
 ms.prod: windows
 ms.technology: windows-sdk

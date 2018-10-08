@@ -4,10 +4,10 @@ title: IDirectXVideoProcessor::GetCreationParameters
 author: windows-sdk-content
 description: Retrieves the parameters that were used to create this device.
 old-location: mf\idirectxvideoprocessor_getcreationparameters.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e9ea3311-8642-4651-b9da-fbba08ec92fb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetCreationParameters method, IDirectXVideoProcessor.GetCreationParameters, IDirectXVideoProcessor::GetCreationParameters, dxva2api/IDirectXVideoProcessor::GetCreationParameters, e9ea3311-8642-4651-b9da-fbba08ec92fb, mf.idirectxvideoprocessor_getcreationparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

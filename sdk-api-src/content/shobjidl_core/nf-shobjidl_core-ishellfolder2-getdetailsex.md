@@ -4,10 +4,10 @@ title: IShellFolder2::GetDetailsEx
 author: windows-sdk-content
 description: Gets detailed information, identified by a property set identifier (FMTID) and a property identifier (PID), on an item in a Shell folder.
 old-location: shell\IShellFolder2_GetDetailsEx.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f006828c-980d-4e36-be68-3b3c238cd884
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetDetailsEx, GetDetailsEx method [Windows Shell], GetDetailsEx method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDetailsEx method, IShellFolder2.GetDetailsEx, IShellFolder2::GetDetailsEx, _win32_IShellFolder2_GetDetailsEx, shell.IShellFolder2_GetDetailsEx, shobjidl_core/IShellFolder2::GetDetailsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

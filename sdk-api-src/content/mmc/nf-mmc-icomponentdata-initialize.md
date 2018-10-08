@@ -4,10 +4,10 @@ title: IComponentData::Initialize
 author: windows-sdk-content
 description: The IComponentData::Initialize method provides an entry point to the console.
 old-location: mmc\icomponentdata_initialize.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 7893b3d6-f576-41cc-bbe5-2fcef7c327d7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IComponentData interface [MMC],Initialize method, IComponentData.Initialize, IComponentData::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],IComponentData interface, _slate_icomponentdata_initialize, mmc.icomponentdata_initialize, mmc/IComponentData::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

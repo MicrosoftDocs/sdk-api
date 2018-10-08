@@ -4,10 +4,10 @@ title: IDirectXVideoDecoderService::GetDecoderRenderTargets
 author: windows-sdk-content
 description: Retrieves the supported render targets for a specified decoder device.
 old-location: mf\idirectxvideodecoderservice_getdecoderrendertargets.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: cde04894-9042-4916-b195-60d84d0f87ec
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetDecoderRenderTargets, GetDecoderRenderTargets method [Media Foundation], GetDecoderRenderTargets method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderRenderTargets method, IDirectXVideoDecoderService.GetDecoderRenderTargets, IDirectXVideoDecoderService::GetDecoderRenderTargets, cde04894-9042-4916-b195-60d84d0f87ec, dxva2api/IDirectXVideoDecoderService::GetDecoderRenderTargets, mf.idirectxvideodecoderservice_getdecoderrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

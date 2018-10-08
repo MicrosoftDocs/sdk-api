@@ -4,10 +4,10 @@ title: MFInitAMMediaTypeFromMFMediaType function
 author: windows-sdk-content
 description: Initializes a DirectShow AM_MEDIA_TYPE structure from a Media Foundation media type.
 old-location: mf\mfinitammediatypefrommfmediatype.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: dbb69578-2563-476f-92f4-6b4e2bb2c77a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFInitAMMediaTypeFromMFMediaType, MFInitAMMediaTypeFromMFMediaType function [Media Foundation], dbb69578-2563-476f-92f4-6b4e2bb2c77a, mf.mfinitammediatypefrommfmediatype, mfapi/MFInitAMMediaTypeFromMFMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

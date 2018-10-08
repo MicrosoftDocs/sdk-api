@@ -4,10 +4,10 @@ title: MFCreateAudioRenderer function
 author: windows-sdk-content
 description: Creates the Streaming Audio Renderer.
 old-location: mf\mfcreateaudiorenderer.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 9554e39b-9d14-4b7f-862c-a1ffcf84543c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 9554e39b-9d14-4b7f-862c-a1ffcf84543c, MFCreateAudioRenderer, MFCreateAudioRenderer function [Media Foundation], mf.mfcreateaudiorenderer, mfidl/MFCreateAudioRenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

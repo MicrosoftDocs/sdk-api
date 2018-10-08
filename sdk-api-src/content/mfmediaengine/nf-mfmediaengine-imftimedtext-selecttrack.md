@@ -4,10 +4,10 @@ title: IMFTimedText::SelectTrack
 author: windows-sdk-content
 description: Selects or deselects a track of text in the timed-text component.
 old-location: mf\imftimedtext_selecttrack.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 868FE620-6FF3-4623-BB61-B47D0290D005
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SelectTrack method, IMFTimedText.SelectTrack, IMFTimedText::SelectTrack, SelectTrack, SelectTrack method [Media Foundation], SelectTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_selecttrack, mfmediaengine/IMFTimedText::SelectTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices

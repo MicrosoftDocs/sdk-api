@@ -4,10 +4,10 @@ title: MFGetSupportedSchemes function
 author: windows-sdk-content
 description: Retrieves the URL schemes that are registered for the source resolver.
 old-location: mf\mfgetsupportedschemes.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: b40315fc-7e2b-4573-a98f-840b6ce31dd3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes
 ms.prod: windows-hardware
 ms.technology: windows-devices

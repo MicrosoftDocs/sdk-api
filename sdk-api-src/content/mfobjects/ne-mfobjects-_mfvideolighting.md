@@ -4,10 +4,10 @@ title: "_MFVideoLighting"
 author: windows-sdk-content
 description: Describes the optimal lighting for viewing a particular set of video content.
 old-location: mf\mfvideolighting.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2eeca357-b7e2-40b1-b19f-2e12a833c1ca
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 2eeca357-b7e2-40b1-b19f-2e12a833c1ca, MFVideoLighting, MFVideoLighting enumeration [Media Foundation], MFVideoLighting_ForceDWORD, MFVideoLighting_Last, MFVideoLighting_Unknown, MFVideoLighting_bright, MFVideoLighting_dark, MFVideoLighting_dim, MFVideoLighting_office, _MFVideoLighting, mf.mfvideolighting, mfobjects/MFVideoLighting, mfobjects/MFVideoLighting_ForceDWORD, mfobjects/MFVideoLighting_Last, mfobjects/MFVideoLighting_Unknown, mfobjects/MFVideoLighting_bright, mfobjects/MFVideoLighting_dark, mfobjects/MFVideoLighting_dim, mfobjects/MFVideoLighting_office
 ms.prod: windows
 ms.technology: windows-sdk

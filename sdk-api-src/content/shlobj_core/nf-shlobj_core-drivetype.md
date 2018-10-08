@@ -4,10 +4,10 @@ title: DriveType function
 author: windows-sdk-content
 description: DriveType may be altered or unavailable.
 old-location: shell\DriveType.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
 ms.prod: windows-hardware
 ms.technology: windows-devices

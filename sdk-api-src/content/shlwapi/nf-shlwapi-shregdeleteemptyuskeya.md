@@ -4,10 +4,10 @@ title: SHRegDeleteEmptyUSKeyA function
 author: windows-sdk-content
 description: Deletes an empty registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegDeleteEmptyUSKey.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: adb09a2b-674c-472d-9f16-8e150476f1f5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHRegDeleteEmptyUSKey, SHRegDeleteEmptyUSKey function [Windows Shell], SHRegDeleteEmptyUSKeyA, SHRegDeleteEmptyUSKeyW, _win32_SHRegDeleteEmptyUSKey, shell.SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKeyA, shlwapi/SHRegDeleteEmptyUSKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

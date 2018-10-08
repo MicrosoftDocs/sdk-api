@@ -4,10 +4,10 @@ title: ASF_SELECTION_STATUS
 author: windows-sdk-content
 description: Defines the selection options for an ASF stream.
 old-location: mf\asf_selection_status.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 1571650b-4d5c-49ae-9e6d-77ef4ae7ae59
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 1571650b-4d5c-49ae-9e6d-77ef4ae7ae59, ASF_SELECTION_STATUS, ASF_SELECTION_STATUS enumeration [Media Foundation], ASF_STATUS_ALLDATAUNITS, ASF_STATUS_CLEANPOINTSONLY, ASF_STATUS_NOTSELECTED, mf.asf_selection_status, wmcontainer/ASF_SELECTION_STATUS, wmcontainer/ASF_STATUS_ALLDATAUNITS, wmcontainer/ASF_STATUS_CLEANPOINTSONLY, wmcontainer/ASF_STATUS_NOTSELECTED
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IRunnableTask
 author: windows-sdk-content
 description: A free-threaded interface that can be exposed by an object to allow operations to be performed on a background thread.
 old-location: shell\IRunnableTask.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 158a6688-949b-4075-a790-fd6efb88792c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IRunnableTask, IRunnableTask interface [Windows Shell], IRunnableTask interface [Windows Shell],described, _win32_IRunnableTask, shell.IRunnableTask, shobjidl_core/IRunnableTask
 ms.prod: windows
 ms.technology: windows-sdk

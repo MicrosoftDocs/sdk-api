@@ -4,10 +4,10 @@ title: IActionProgress::Begin
 author: windows-sdk-content
 description: Called when an action has begun that requires its progress be displayed to the user.
 old-location: shell\IActionProgress_Begin.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c26dd072-6d59-4c6c-a273-682ded994612
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Begin, Begin method [Windows Shell], Begin method [Windows Shell],IActionProgress interface, IActionProgress interface [Windows Shell],Begin method, IActionProgress.Begin, IActionProgress::Begin, shell.IActionProgress_Begin, shell_IActionProgress_Begin, shobjidl_core/IActionProgress::Begin
 ms.prod: windows-hardware
 ms.technology: windows-devices

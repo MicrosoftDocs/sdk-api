@@ -4,10 +4,10 @@ title: IAppVisibility
 author: windows-sdk-content
 description: Provides functionality to determine whether the display is showing Windows Store apps.
 old-location: shell\IAppVisibility.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 89E26D36-3536-45F5-9396-83CCFB26890B
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAppVisibility, IAppVisibility interface [Windows Shell], IAppVisibility interface [Windows Shell],described, shell.IAppVisibility, shobjidl_core/IAppVisibility
 ms.prod: windows
 ms.technology: windows-sdk

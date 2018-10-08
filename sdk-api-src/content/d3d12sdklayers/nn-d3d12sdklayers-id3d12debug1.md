@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debug1.htm
 tech.root: direct3d12
 ms.assetid: 3D69D0CA-5D45-49EA-BCF0-5B0ABB916261
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D12Debug1, ID3D12Debug1 interface, ID3D12Debug1 interface,described, d3d12sdklayers/ID3D12Debug1, direct3d12.id3d12debug1
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IPackageDebugSettings::DisableDebugging
 author: windows-sdk-content
 description: Disables debug mode for the processes of the specified package.
 old-location: shell\IPackageDebugSettings_DisableDebugging.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 102e57be-296e-44ec-8211-f2c2d5eae1e6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DisableDebugging, DisableDebugging method [Windows Shell], DisableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],DisableDebugging method, IPackageDebugSettings.DisableDebugging, IPackageDebugSettings::DisableDebugging, shell.IPackageDebugSettings_DisableDebugging, shobjidl_core/IPackageDebugSettings::DisableDebugging
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DsBindWithCredW function
 author: windows-sdk-content
 description: Binds to a domain controller using the specified credentials.
 old-location: ad\dsbindwithcred.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 708e3874-852c-4a57-bf4b-edaf98818fe5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DsBindWithCred, DsBindWithCred function [Active Directory], DsBindWithCredA, DsBindWithCredW, _glines_dsbindwithcred, ad.dsbindwithcred, ntdsapi/DsBindWithCred, ntdsapi/DsBindWithCredA, ntdsapi/DsBindWithCredW
 ms.prod: windows-hardware
 ms.technology: windows-devices

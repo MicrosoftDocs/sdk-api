@@ -7,7 +7,7 @@ old-location: security\scardcancel.htm
 tech.root: secauthn
 ms.assetid: abf3b4ff-4775-40e9-b68d-97dcf6a892ba
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: SCardCancel, SCardCancel function [Security], _smart_scardcancel, security.scardcancel, winscard/SCardCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

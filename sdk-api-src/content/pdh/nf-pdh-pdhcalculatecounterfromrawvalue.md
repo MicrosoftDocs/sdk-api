@@ -4,10 +4,10 @@ title: PdhCalculateCounterFromRawValue function
 author: windows-sdk-content
 description: Calculates the displayable value of two raw counter values.
 old-location: perf\pdhcalculatecounterfromrawvalue.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: fd50b1fd-29b7-49a8-bbcc-4d7f0cbd7079
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhCalculateCounterFromRawValue, PdhCalculateCounterFromRawValue function [Perf], _win32_pdhcalculatecounterfromrawvalue, base.pdhcalculatecounterfromrawvalue, pdh/PdhCalculateCounterFromRawValue, perf.pdhcalculatecounterfromrawvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

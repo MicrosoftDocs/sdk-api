@@ -7,7 +7,7 @@ old-location: base\digestfunction.htm
 tech.root: debug
 ms.assetid: 4d5d2593-d9e2-43e8-914b-11f578192085
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: DIGEST_FUNCTION, DigestFunction, DigestFunction callback, DigestFunction callback function, _win32_digestfunction, base.digestfunction, imagehlp/DigestFunction
 ms.prod: windows
 ms.technology: windows-sdk

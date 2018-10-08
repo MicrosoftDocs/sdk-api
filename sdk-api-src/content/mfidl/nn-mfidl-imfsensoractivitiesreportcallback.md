@@ -4,10 +4,10 @@ title: IMFSensorActivitiesReportCallback
 author: windows-sdk-content
 description: Interface implemented by the client to receive callbacks when sensor activity reports are available.
 old-location: mf\imfsensoractivitiesreportcallback.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 477B008D-7F0A-4084-BDFD-DF19E2A82817
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback
 ms.prod: windows
 ms.technology: windows-sdk

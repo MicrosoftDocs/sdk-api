@@ -4,10 +4,10 @@ title: "_MFT_OUTPUT_STREAM_INFO"
 author: windows-sdk-content
 description: Contains information about an output stream on a Media Foundation transform (MFT). To get these values, call IMFTransform::GetOutputStreamInfo.
 old-location: mf\mft_output_stream_info.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4181d8b8-7c1b-4f8e-a0c6-63ab039539f6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 4181d8b8-7c1b-4f8e-a0c6-63ab039539f6, MFT_OUTPUT_STREAM_INFO, MFT_OUTPUT_STREAM_INFO structure [Media Foundation], _MFT_OUTPUT_STREAM_INFO, mf.mft_output_stream_info, mftransform/MFT_OUTPUT_STREAM_INFO
 ms.prod: windows
 ms.technology: windows-sdk

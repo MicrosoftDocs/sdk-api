@@ -4,10 +4,10 @@ title: IVisualProperties::GetFont
 author: windows-sdk-content
 description: Gets the current attributes set on the font.
 old-location: shell\IVisualProperties_GetFont.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d12e2091-37cb-4a9e-abfc-8795d18bddd2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetFont, GetFont method [Windows Shell], GetFont method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetFont method, IVisualProperties.GetFont, IVisualProperties::GetFont, _shell_IVisualProperties_GetFont, shell.IVisualProperties_GetFont, shobjidl/IVisualProperties::GetFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

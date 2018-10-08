@@ -4,10 +4,10 @@ title: "_DXVAHD_STREAM_STATE_SOURCE_RECT_DATA"
 author: windows-sdk-content
 description: Specifies the source rectangle for an input stream when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_source_rect_data.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 51f2cfe6-722b-4273-abf6-e1b8fdec9808
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation], FALSE, TRUE, _DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, mf.dxvahd_stream_state_source_rect_data
 ms.prod: windows
 ms.technology: windows-sdk

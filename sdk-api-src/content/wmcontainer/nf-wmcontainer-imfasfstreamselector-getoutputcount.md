@@ -4,10 +4,10 @@ title: IMFASFStreamSelector::GetOutputCount
 author: windows-sdk-content
 description: Retrieves the number of outputs for the Advanced Systems Format (ASF) content.
 old-location: mf\imfasfstreamselector_getoutputcount.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 09f00f52-f897-46f0-afb9-ae59913e04a1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 09f00f52-f897-46f0-afb9-ae59913e04a1, GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputCount method, IMFASFStreamSelector.GetOutputCount, IMFASFStreamSelector::GetOutputCount, mf.imfasfstreamselector_getoutputcount, wmcontainer/IMFASFStreamSelector::GetOutputCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

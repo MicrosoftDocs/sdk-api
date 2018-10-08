@@ -7,7 +7,7 @@ old-location: winprog\_strtablew.htm
 tech.root: devnotes
 ms.assetid: 60CE245D-1572-46FC-B3E3-7CE421599E0E
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPSTRTABLEW, LPSTRTABLEW, LPSTRTABLEW structure pointer [Windows API], STRTABLE, STRTABLEW, STRTABLEW structure [Windows API], _StrTableW, _StrTableW structure [Windows API], advpub/LPSTRTABLEW, advpub/_StrTableW, winprog._strtablew"
 ms.prod: windows
 ms.technology: windows-sdk

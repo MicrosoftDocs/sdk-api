@@ -4,10 +4,10 @@ title: SHSaveLibraryInFolderPath function
 author: windows-sdk-content
 description: Saves an IShellLibrary object to disk.
 old-location: shell\SHSaveLibraryInFolderPath.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 953b209b-fd18-49d0-84d3-ad9b815f2a3a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHSaveLibraryInFolderPath, SHSaveLibraryInFolderPath function [Windows Shell], _shell_SHSaveLibraryInFolderPath, shell.SHSaveLibraryInFolderPath, shobjidl_core/SHSaveLibraryInFolderPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

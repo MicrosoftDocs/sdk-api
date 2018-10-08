@@ -7,7 +7,7 @@ old-location: hid\dijoyuservalues.htm
 tech.root: hid
 ms.assetid: 15424c18-c9ae-4058-97b4-f55b56daea72
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: "*LPDIJOYUSERVALUES, DIJOYUSERVALUES, DIJOYUSERVALUES structure [Human Input Devices], di_ref_bbcc635e-bb11-4ddb-9e15-0b84b4d28ea5.xml, dinputd/DIJOYUSERVALUES, hid.dijoyuservalues"
 ms.prod: windows
 ms.technology: windows-sdk

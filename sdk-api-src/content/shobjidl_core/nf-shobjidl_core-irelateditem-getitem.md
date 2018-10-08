@@ -4,10 +4,10 @@ title: IRelatedItem::GetItem
 author: windows-sdk-content
 description: Gets the IShellItem that is related to this item.
 old-location: shell\IRelatedItem_GetItem.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4aaf0016-1a0d-49ef-a001-bc4a7fe90758
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],IRelatedItem interface, IRelatedItem interface [Windows Shell],GetItem method, IRelatedItem.GetItem, IRelatedItem::GetItem, _shell_IRelatedItem_GetItem, shell.IRelatedItem_GetItem, shobjidl_core/IRelatedItem::GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

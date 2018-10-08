@@ -7,7 +7,7 @@ old-location: com\coregisterpsclsid.htm
 tech.root: com
 ms.assetid: a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: CoRegisterPSClsid, CoRegisterPSClsid function [COM], _com_CoRegisterPSClsid, com.coregisterpsclsid, combaseapi/CoRegisterPSClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

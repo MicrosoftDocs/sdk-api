@@ -7,7 +7,7 @@ old-location: com\imallocspy_predidalloc.htm
 tech.root: com
 ms.assetid: f18b6dba-c0fe-40c2-835b-01dff521d27c
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IMallocSpy interface [COM],PreDidAlloc method, IMallocSpy.PreDidAlloc, IMallocSpy::PreDidAlloc, PreDidAlloc, PreDidAlloc method [COM], PreDidAlloc method [COM],IMallocSpy interface, _com_imallocspy_predidalloc, com.imallocspy_predidalloc, objidl/IMallocSpy::PreDidAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

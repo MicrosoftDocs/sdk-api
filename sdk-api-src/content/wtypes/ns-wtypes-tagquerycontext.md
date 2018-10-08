@@ -7,7 +7,7 @@ old-location: com\querycontext.htm
 tech.root: com
 ms.assetid: 5d6a17e1-dcdd-4691-aec2-f63dbcb26027
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [COM], _com_QUERYCONTEXT, com.querycontext, tagQUERYCONTEXT, wtypes/tagQUERYCONTEXT
 ms.prod: windows
 ms.technology: windows-sdk

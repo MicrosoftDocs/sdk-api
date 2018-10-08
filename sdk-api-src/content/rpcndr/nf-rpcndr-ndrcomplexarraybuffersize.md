@@ -7,7 +7,7 @@ old-location: winprog\ndrcomplexarraybuffersize.htm
 tech.root: devnotes
 ms.assetid: 8efd63c5-7444-4b30-b642-18dfecb7d026
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: NdrComplexArrayBufferSize, NdrComplexArrayBufferSize function [Windows API], rpcndr/NdrComplexArrayBufferSize, winprog.ndrcomplexarraybuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

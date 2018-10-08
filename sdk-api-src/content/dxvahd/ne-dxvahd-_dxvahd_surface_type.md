@@ -4,10 +4,10 @@ title: "_DXVAHD_SURFACE_TYPE"
 author: windows-sdk-content
 description: Specifies the type of video surface created by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_surface_type.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 06df2d2f-9163-4672-8ea4-57f1942320c5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DXVAHD_SURFACE_TYPE, DXVAHD_SURFACE_TYPE enumeration [Media Foundation], DXVAHD_SURFACE_TYPE_VIDEO_INPUT, DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE, DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT, _DXVAHD_SURFACE_TYPE, dxvahd/DXVAHD_SURFACE_TYPE, dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_INPUT, dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE, dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT, mf.dxvahd_surface_type
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA"
 author: windows-sdk-content
 description: Specifies the color space for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
 old-location: mf\dxvahd_stream_state_input_color_space_data.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 54b53e4d-990b-4496-aae6-039f443337ae
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, mf.dxvahd_stream_state_input_color_space_data
 ms.prod: windows
 ms.technology: windows-sdk

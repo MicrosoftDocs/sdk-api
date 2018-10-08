@@ -4,10 +4,10 @@ title: SetThreadExecutionState function
 author: windows-sdk-content
 description: Enables an application to inform the system that it is in use, thereby preventing the system from entering sleep or turning off the display while the application is running.
 old-location: base\setthreadexecutionstate.htm
-tech.root: Power
+tech.root: power
 ms.assetid: 9214ea84-7636-4a78-91fd-a5a5da8199a1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ES_AWAYMODE_REQUIRED, ES_CONTINUOUS, ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, ES_USER_PRESENT, SetThreadExecutionState, SetThreadExecutionState function, _win32_setthreadexecutionstate, base.setthreadexecutionstate, winbase/SetThreadExecutionState
 ms.prod: windows-hardware
 ms.technology: windows-devices

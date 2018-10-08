@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_xml_data_provider_close.htm
 tech.root: seccrypto
 ms.assetid: 886fbe92-f9ab-49d4-968a-afeadbf2f030
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, security.pfn_crypt_xml_data_provider_close
 ms.prod: windows
 ms.technology: windows-sdk

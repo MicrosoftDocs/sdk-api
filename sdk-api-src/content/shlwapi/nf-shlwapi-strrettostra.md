@@ -4,10 +4,10 @@ title: StrRetToStrA function
 author: windows-sdk-content
 description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf and returns a pointer to an allocated string containing the display name.
 old-location: shell\StrRetToStr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 03b0dffb-8ef7-41da-9773-81ed55275802
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrRetToStr, StrRetToStr function [Windows Shell], StrRetToStrA, StrRetToStrW, _win32_StrRetToStr, shell.StrRetToStr, shlwapi/StrRetToStr, shlwapi/StrRetToStrA, shlwapi/StrRetToStrW
 ms.prod: windows-hardware
 ms.technology: windows-devices

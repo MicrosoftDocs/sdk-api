@@ -4,10 +4,10 @@ title: IRunnableTask::Resume
 author: windows-sdk-content
 description: Requests that a task resume.
 old-location: shell\IRunnableTask_Resume.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 51ff7ae2-b2db-4eee-b03b-da46ff0ec901
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Resume method, IRunnableTask.Resume, IRunnableTask::Resume, Resume, Resume method [Windows Shell], Resume method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Resume, shell.IRunnableTask_Resume, shobjidl_core/IRunnableTask::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices

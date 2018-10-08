@@ -7,7 +7,7 @@ old-location: security\wlxswitchdesktoptowinlogon.htm
 tech.root: secauthn
 ms.assetid: ed910769-94c2-455b-9788-de3795330821
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: PWLX_SWITCH_DESKTOP_TO_WINLOGON, PWLX_SWITCH_DESKTOP_TO_WINLOGON callback, WlxSwitchDesktopToWinlogon, WlxSwitchDesktopToWinlogon callback function [Security], _gina_wlxswitchdesktoptowinlogon, security.wlxswitchdesktoptowinlogon, winwlx/WlxSwitchDesktopToWinlogon
 ms.prod: windows
 ms.technology: windows-sdk

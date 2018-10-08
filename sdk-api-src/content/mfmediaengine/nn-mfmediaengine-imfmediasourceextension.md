@@ -4,10 +4,10 @@ title: IMFMediaSourceExtension
 author: windows-sdk-content
 description: Provides functionality for the Media Source Extension (MSE).
 old-location: mf\imfmediasourceextension.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2acabcc2-242d-4b3d-b5b4-680c7973201f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaSourceExtension, IMFMediaSourceExtension interface [Media Foundation], IMFMediaSourceExtension interface [Media Foundation],described, mf.imfmediasourceextension, mfmediaengine/IMFMediaSourceExtension
 ms.prod: windows
 ms.technology: windows-sdk

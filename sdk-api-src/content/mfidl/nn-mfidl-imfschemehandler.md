@@ -4,10 +4,10 @@ title: IMFSchemeHandler
 author: windows-sdk-content
 description: Creates a media source or a byte stream from a URL.
 old-location: mf\imfschemehandler.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: a342054e-2cb5-494a-a2f7-d144c72d1fa5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSchemeHandler, IMFSchemeHandler interface [Media Foundation], IMFSchemeHandler interface [Media Foundation],described, a342054e-2cb5-494a-a2f7-d144c72d1fa5, mf.imfschemehandler, mfidl/IMFSchemeHandler
 ms.prod: windows
 ms.technology: windows-sdk

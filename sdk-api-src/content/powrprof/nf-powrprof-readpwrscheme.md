@@ -4,10 +4,10 @@ title: ReadPwrScheme function
 author: windows-sdk-content
 description: Retrieves the power policy settings that are unique to the specified power scheme.
 old-location: base\readpwrscheme.htm
-tech.root: Power
+tech.root: power
 ms.assetid: a8d93820-b652-4358-8039-8987fac95dca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ReadPwrScheme, ReadPwrScheme function, _win32_readpwrscheme, base.readpwrscheme, powrprof/ReadPwrScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

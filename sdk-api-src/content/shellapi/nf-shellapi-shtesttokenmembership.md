@@ -4,10 +4,10 @@ title: SHTestTokenMembership function
 author: windows-sdk-content
 description: Uses CheckTokenMembership to test whether the given token is a member of the local group with the specified RID.
 old-location: shell\SHTestTokenMembership.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ac2d591a-f431-4da7-aa9f-0476634ec9cf
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHTestTokenMembership, SHTestTokenMembership function [Windows Shell], _win32_SHTestTokenMembership, shell.SHTestTokenMembership, shellapi/SHTestTokenMembership
 ms.prod: windows-hardware
 ms.technology: windows-devices

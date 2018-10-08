@@ -3,20 +3,20 @@ UID: NF:d2d1.ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U)
 title: ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U)
 author: windows-sdk-content
 description: Changes the size of the render target to the specified pixel size.
-old-location: direct2d\id2d1hwndrendertarget_resize.htm
-tech.root: direct2d
-ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
+old-location: direct2d\ID2D1HwndRenderTarget_Resize_ptr_D2D_SIZE_U.htm
+tech.root: Direct2D
+ms.assetid: 1a1e7aae-9660-4c35-9d7b-374f3ff28253
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ID2D1HwndRenderTarget.Resize, ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U), ID2D1HwndRenderTarget::Resize, ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U), Resize, Resize methods [Direct2D], d2d1/Resize, direct2d.id2d1hwndrendertarget_resize
+ms.date: 10/05/2018
+ms.keywords: ID2D1HwndRenderTarget interface [Direct2D],Resize method, ID2D1HwndRenderTarget.Resize, ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U), ID2D1HwndRenderTarget::Resize, ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U), Resize, Resize method [Direct2D], Resize method [Direct2D],ID2D1HwndRenderTarget interface, d2d1/ID2D1HwndRenderTarget::Resize, direct2d.ID2D1HwndRenderTarget_Resize_ptr_D2D_SIZE_U
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1HwndRenderTarget::Resize
+ - ID2D1HwndRenderTarget.Resize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,33 +50,30 @@ req.redist:
 ## -description
 
 
-<span>Changes the size of the render target to the specified pixel size.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99cee6c1-3c0c-4a6d-ab58-a90fc502e8d5">Resize(D2D1_SIZE_U&)</a>
-</td>
-<td align="left" width="63%">
 Changes the size of the render target to the specified pixel size.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a1e7aae-9660-4c35-9d7b-374f3ff28253">Resize(D2D1_SIZE_U*)</a>
-</td>
-<td align="left" width="63%">
-Changes the size of the render target to the specified pixel size.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param pixelSize [in]
+
+Type: <b><a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e6">D2D1_SIZE_U</a>*</b>
+
+The new size of the render target in device pixels.
+
+
+## -returns
+
+
+
+Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -remarks

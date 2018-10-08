@@ -4,10 +4,10 @@ title: IShellLibrary::SetDefaultSaveFolder
 author: windows-sdk-content
 description: Sets the default target folder that the library will use for save operations.
 old-location: shell\IShellLibrary_SetDefaultSaveFolder.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 0c65bd5e-22f4-450b-a1d5-75e564854b5f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetDefaultSaveFolder method, IShellLibrary.SetDefaultSaveFolder, IShellLibrary::SetDefaultSaveFolder, SetDefaultSaveFolder, SetDefaultSaveFolder method [Windows Shell], SetDefaultSaveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetDefaultSaveFolder, shell.IShellLibrary_SetDefaultSaveFolder, shobjidl_core/IShellLibrary::SetDefaultSaveFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPsecSaContextSubscriptionsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all the current IPsec security association (SA) change notification subscriptions.
 old-location: fwp\ipsecsacontextsubscriptionsget0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: eb7d8cd1-4bdb-4584-b9b9-c3667abf9bdb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPsecSaContextSubscriptionsGet0, IPsecSaContextSubscriptionsGet0 function [Filtering], fwp.ipsecsacontextsubscriptionsget0, fwpmu/IPsecSaContextSubscriptionsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

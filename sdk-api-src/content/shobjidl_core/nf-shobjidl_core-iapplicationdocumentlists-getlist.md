@@ -4,10 +4,10 @@ title: IApplicationDocumentLists::GetList
 author: windows-sdk-content
 description: Retrieves an object that represents the collection of destinations listed in the Recent or Frequent category in a Jump List.
 old-location: shell\IApplicationDocumentLists_GetList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d86bf039-81d9-4d43-9671-b107d7e925ab
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ADLT_FREQUENT, ADLT_RECENT, GetList, GetList method [Windows Shell], GetList method [Windows Shell],IApplicationDocumentLists interface, IApplicationDocumentLists interface [Windows Shell],GetList method, IApplicationDocumentLists.GetList, IApplicationDocumentLists::GetList, _shell_IApplicationDocumentLists_GetList, shell.IApplicationDocumentLists_GetList, shobjidl_core/IApplicationDocumentLists::GetList
 ms.prod: windows-hardware
 ms.technology: windows-devices

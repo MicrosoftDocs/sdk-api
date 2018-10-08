@@ -4,10 +4,10 @@ title: IsEqualPropertyKey macro
 author: windows-sdk-content
 description: Compares the members of two PROPERTYKEY structures and returns whether they are equal.
 old-location: shell\IsEqualPropertyKey.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 89218de5-95c8-440a-bde1-e4a0bc0d0549
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IsEqualPropertyKey, IsEqualPropertyKey macro [Windows Shell], _shell_IsEqualPropertyKey, propkeydef/IsEqualPropertyKey, shell.IsEqualPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

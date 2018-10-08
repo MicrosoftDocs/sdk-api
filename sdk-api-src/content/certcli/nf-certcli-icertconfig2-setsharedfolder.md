@@ -7,7 +7,7 @@ old-location: security\icertconfig2_setsharedfolder.htm
 tech.root: seccrypto
 ms.assetid: f0fc4218-ca07-4488-bd0c-bfa8bdcd2179
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: CCertConfig object [Security],SetSharedFolder method, ICertConfig2 interface [Security],SetSharedFolder method, ICertConfig2.SetSharedFolder, ICertConfig2::SetSharedFolder, SetSharedFolder, SetSharedFolder method [Security], SetSharedFolder method [Security],CCertConfig object, SetSharedFolder method [Security],ICertConfig2 interface, _certsrv_icertconfig2_setsharedfolder, certcli/ICertConfig2::SetSharedFolder, security.icertconfig2_setsharedfolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IShellWindows::Revoke
 author: windows-sdk-content
 description: Revokes a Shell window's registration and removes the window from the Shell windows collection.
 old-location: shell\IShellWindows_Revoke.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 66ca2569-b763-445b-b5b5-98ef32c64578
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Revoke method, IShellWindows.Revoke, IShellWindows::Revoke, Revoke, Revoke method [Windows Shell], Revoke method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Revoke, exdisp/IShellWindows::Revoke, shell.IShellWindows_Revoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

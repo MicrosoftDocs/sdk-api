@@ -4,10 +4,10 @@ title: IFolderBandPriv::SetAccelerators
 author: windows-sdk-content
 description: Sets accelerators.
 old-location: shell\IFolderBandPriv_SetAccelerators.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c8461870-2fe7-49ae-8a8e-c5d929d963e5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetAccelerators method, IFolderBandPriv.SetAccelerators, IFolderBandPriv::SetAccelerators, SetAccelerators, SetAccelerators method [Windows Shell], SetAccelerators method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetAccelerators, shell.IFolderBandPriv_SetAccelerators, shobjidl/IFolderBandPriv::SetAccelerators
 ms.prod: windows-hardware
 ms.technology: windows-devices

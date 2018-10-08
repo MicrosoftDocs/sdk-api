@@ -4,10 +4,10 @@ title: INameSpaceTreeControlCustomDraw::PrePaint
 author: windows-sdk-content
 description: Called before the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_PrePaint.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3d9c0616-90f2-435c-a663-9ffe4adab8a0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],PrePaint method, INameSpaceTreeControlCustomDraw.PrePaint, INameSpaceTreeControlCustomDraw::PrePaint, PrePaint, PrePaint method [Windows Shell], PrePaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_PrePaint, shell.INameSpaceTreeControlCustomDraw_PrePaint, shobjidl/INameSpaceTreeControlCustomDraw::PrePaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

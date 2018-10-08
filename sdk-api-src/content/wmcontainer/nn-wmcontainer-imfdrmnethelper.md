@@ -4,10 +4,10 @@ title: IMFDRMNetHelper
 author: windows-sdk-content
 description: Configures Windows Media Digital Rights Management (DRM) for Network Devices on a network sink.
 old-location: mf\imfdrmnethelper.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 6f4ac19a-0972-4152-a64c-6c719efb396c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], IMFDRMNetHelper interface [Media Foundation],described, mf.imfdrmnethelper, wmcontainer/IMFDRMNetHelper
 ms.prod: windows
 ms.technology: windows-sdk

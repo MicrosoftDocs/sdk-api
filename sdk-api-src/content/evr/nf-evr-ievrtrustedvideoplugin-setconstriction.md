@@ -4,10 +4,10 @@ title: IEVRTrustedVideoPlugin::SetConstriction
 author: windows-sdk-content
 description: Limits the effective video resolution.
 old-location: mf\ievrtrustedvideoplugin_setconstriction.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: f2e9b199-969f-453c-8714-fa85c89a191a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IEVRTrustedVideoPlugin interface [Media Foundation],SetConstriction method, IEVRTrustedVideoPlugin.SetConstriction, IEVRTrustedVideoPlugin::SetConstriction, SetConstriction, SetConstriction method [Media Foundation], SetConstriction method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::SetConstriction, f2e9b199-969f-453c-8714-fa85c89a191a, mf.ievrtrustedvideoplugin_setconstriction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFNetProxyLocatorFactory
 author: windows-sdk-content
 description: Creates a proxy locator object, which determines the proxy to use.
 old-location: mf\imfnetproxylocatorfactory.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 6dd5bf50-2d07-47c7-869e-035d7e92a6bc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 6dd5bf50-2d07-47c7-869e-035d7e92a6bc, IMFNetProxyLocatorFactory, IMFNetProxyLocatorFactory interface [Media Foundation], IMFNetProxyLocatorFactory interface [Media Foundation],described, mf.imfnetproxylocatorfactory, mfidl/IMFNetProxyLocatorFactory
 ms.prod: windows
 ms.technology: windows-sdk

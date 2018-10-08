@@ -4,10 +4,10 @@ title: IToc::GetDescriptor
 author: windows-sdk-content
 description: The GetDescriptor method retrieves the descriptor, previously set by SetDescriptor, of the table of contents.
 old-location: mf\itoc_getdescriptor.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4568b50f-a777-4c3d-8c71-66737d24b7cd
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescriptor method, IToc.GetDescriptor, IToc::GetDescriptor, codecapi.itoc_getdescriptor, mf.itoc_getdescriptor, wmcodecdsp/IToc::GetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

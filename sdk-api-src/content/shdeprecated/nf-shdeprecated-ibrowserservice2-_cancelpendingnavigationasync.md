@@ -4,10 +4,10 @@ title: IBrowserService2::_CancelPendingNavigationAsync
 author: windows-sdk-content
 description: Deprecated. Enables a derived class to request that the base class cancel any pending navigation.
 old-location: shell\IBrowserService2__CancelPendingNavigationAsync.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fa3605fe-ebff-48f9-a9d2-9146c719696d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CancelPendingNavigationAsync method, IBrowserService2._CancelPendingNavigationAsync, IBrowserService2::_CancelPendingNavigationAsync, _CancelPendingNavigationAsync, _CancelPendingNavigationAsync method [Windows Shell], _CancelPendingNavigationAsync method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CancelPendingNavigationAsync, shell.IBrowserService2__CancelPendingNavigationAsync, zone_IBrowserService2__CancelPendingNavigationAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

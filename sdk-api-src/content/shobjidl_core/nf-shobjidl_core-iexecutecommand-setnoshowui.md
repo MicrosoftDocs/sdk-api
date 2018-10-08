@@ -4,10 +4,10 @@ title: IExecuteCommand::SetNoShowUI
 author: windows-sdk-content
 description: Indicates whether any UI associated with the selected Shell item should be displayed.
 old-location: shell\IExecuteCommand_SetNoShowUI.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 26cec8f2-984a-4358-9082-bf6b886690eb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetNoShowUI method, IExecuteCommand.SetNoShowUI, IExecuteCommand::SetNoShowUI, SetNoShowUI, SetNoShowUI method [Windows Shell], SetNoShowUI method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetNoShowUI, shell.IExecuteCommand_SetNoShowUI, shobjidl_core/IExecuteCommand::SetNoShowUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

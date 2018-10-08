@@ -7,7 +7,7 @@ old-location: base\cdromenabledigitalplayback.htm
 tech.root: devio
 ms.assetid: a50a0c9a-21f3-4d55-97c3-144f5835b6af
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: CdromEnableDigitalPlayback, CdromEnableDigitalPlayback function, base.cdromenabledigitalplayback, storprop/CdromEnableDigitalPlayback
 ms.prod: windows-hardware
 ms.technology: windows-devices

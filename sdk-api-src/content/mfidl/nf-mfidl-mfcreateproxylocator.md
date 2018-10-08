@@ -4,10 +4,10 @@ title: MFCreateProxyLocator function
 author: windows-sdk-content
 description: Creates a default proxy locator.
 old-location: mf\mfcreateproxylocator.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 9ad707df-533a-407b-a611-49bfb019affc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 9ad707df-533a-407b-a611-49bfb019affc, MFCreateProxyLocator, MFCreateProxyLocator function [Media Foundation], mf.mfcreateproxylocator, mfidl/MFCreateProxyLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

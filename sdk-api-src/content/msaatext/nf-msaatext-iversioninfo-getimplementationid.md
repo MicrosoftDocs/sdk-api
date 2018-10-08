@@ -7,7 +7,7 @@ old-location: winauto\iversioninfo_iversioninfo__getimplementationid.htm
 tech.root: WinAuto
 ms.assetid: 018834df-bd03-4bf5-8af2-b325f7a6a586
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetImplementationID, GetImplementationID method [Windows Accessibility], GetImplementationID method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetImplementationID method, IVersionInfo.GetImplementationID, IVersionInfo::GetImplementationID, _msaa_IVersionInfo_GetImplementationID, msaa.iversioninfo_iversioninfo__getimplementationid, msaatext/IVersionInfo::GetImplementationID, winauto.iversioninfo_iversioninfo__getimplementationid
 ms.prod: windows-hardware
 ms.technology: windows-devices

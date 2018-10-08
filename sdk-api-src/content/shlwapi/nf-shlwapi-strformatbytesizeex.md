@@ -4,10 +4,10 @@ title: StrFormatByteSizeEx function
 author: windows-sdk-content
 description: Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size.
 old-location: shell\StrFormatByteSizeEx.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9ecc6427-e7bb-43ec-ab78-665ef52f8b10
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrFormatByteSizeEx, StrFormatByteSizeEx function [Windows Shell], _win32_StrFormatByteSizeEx, shell.StrFormatByteSizeEx, shlwapi/StrFormatByteSizeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

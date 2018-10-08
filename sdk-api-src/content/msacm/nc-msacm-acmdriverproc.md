@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverproc.htm
 tech.root: Multimedia
 ms.assetid: e29c157d-e56e-4242-abb8-2736d5599caa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "_win32_acmDriverProc, acmDriverProc, acmDriverProc callback, acmDriverProc callback function [Windows Multimedia], msacm/acmDriverProc, multimedia.acmdriverproc"
 ms.prod: windows
 ms.technology: windows-sdk

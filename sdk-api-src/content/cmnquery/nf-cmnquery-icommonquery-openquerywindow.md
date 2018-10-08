@@ -4,10 +4,10 @@ title: ICommonQuery::OpenQueryWindow
 author: windows-sdk-content
 description: The ICommonQuery::OpenQueryWindow method displays the directory service query dialog. This method does not return until the dialog box has been closed by the user.
 old-location: ad\icommonquery_openquerywindow.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 604c4d7a-1f85-4e5b-9879-be502c5c7bff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: CFSTR_DSOBJECTNAMES, CFSTR_DSQUERYPARAMS, CFSTR_DSQUERYSCOPE, ICommonQuery interface [Active Directory],OpenQueryWindow method, ICommonQuery.OpenQueryWindow, ICommonQuery::OpenQueryWindow, OpenQueryWindow, OpenQueryWindow method [Active Directory], OpenQueryWindow method [Active Directory],ICommonQuery interface, _glines_icommonquery_openquerywindow, ad.icommonquery__openquerywindow, ad.icommonquery_openquerywindow, cmnquery/ICommonQuery::OpenQueryWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

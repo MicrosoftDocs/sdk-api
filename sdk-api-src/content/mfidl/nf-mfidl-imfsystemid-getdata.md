@@ -4,10 +4,10 @@ title: IMFSystemId::GetData
 author: windows-sdk-content
 description: Retrieves system id data.
 old-location: mf\imfsystemid_getdata.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 5b345a8d-65d1-4780-a7b9-b1025f9fa773
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFSystemId interface, IMFSystemId interface [Media Foundation],GetData method, IMFSystemId.GetData, IMFSystemId::GetData, mf.imfsystemid_getdata, mfidl/IMFSystemId::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

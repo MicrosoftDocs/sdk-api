@@ -4,10 +4,10 @@ title: ULongPtrToInt function
 author: windows-sdk-content
 description: Converts a value of type size_t to a value of type INT.
 old-location: shell\SizeTToInt.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 65f178c1-8029-40c5-af31-03f158d90582
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SizeTToInt, SizeTToInt function [Windows Shell], ULongPtrToInt, _shell_SizeTToInt, intsafe/SizeTToInt, shell.SizeTToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

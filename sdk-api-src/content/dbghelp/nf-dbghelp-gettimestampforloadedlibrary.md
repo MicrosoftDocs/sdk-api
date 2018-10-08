@@ -7,7 +7,7 @@ old-location: base\gettimestampforloadedlibrary.htm
 tech.root: debug
 ms.assetid: 9ce7b211-5447-4624-b197-85730c4a7a10
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: GetTimestampForLoadedLibrary, GetTimestampForLoadedLibrary function, _win32_gettimestampforloadedlibrary, base.gettimestampforloadedlibrary, dbghelp/GetTimestampForLoadedLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

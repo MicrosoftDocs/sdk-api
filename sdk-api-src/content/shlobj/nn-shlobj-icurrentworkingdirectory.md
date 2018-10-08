@@ -4,10 +4,10 @@ title: ICurrentWorkingDirectory
 author: windows-sdk-content
 description: Exposes methods that enable a client to retrieve or set an object's current working directory.
 old-location: shell\ICurrentWorkingDirectory.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1fdbe616-3ca3-4f07-b89c-4c76561ba169
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ICurrentWorkingDirectory, ICurrentWorkingDirectory interface [Windows Shell], ICurrentWorkingDirectory interface [Windows Shell],described, _win32_ICurrentWorkingDirectory, shell.ICurrentWorkingDirectory, shlobj/ICurrentWorkingDirectory
 ms.prod: windows
 ms.technology: windows-sdk

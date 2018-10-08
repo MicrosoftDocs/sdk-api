@@ -2,7 +2,7 @@
 UID: TP:oprec
 ms.assetid: 74dd2980-2413-38c6-b185-1354f5891c38
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IBandSite::RemoveBand
 author: windows-sdk-content
 description: Removes a band from the band site.
 old-location: shell\IBandSite_RemoveBand.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5af20633-fab4-4fda-84c9-6bbdb9d588ec
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBandSite interface [Windows Shell],RemoveBand method, IBandSite.RemoveBand, IBandSite::RemoveBand, RemoveBand, RemoveBand method [Windows Shell], RemoveBand method [Windows Shell],IBandSite interface, _win32_IBandSite_RemoveBand, shell.IBandSite_RemoveBand, shobjidl_core/IBandSite::RemoveBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

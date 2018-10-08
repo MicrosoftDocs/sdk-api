@@ -7,7 +7,7 @@ old-location: mscs\resutilgetfiletimeproperty.htm
 tech.root: MsCS
 ms.assetid: 80e05f95-d57f-40a4-a56c-bbadcfaa144e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: PRESUTIL_GET_FILETIME_PROPERTY, PRESUTIL_GET_FILETIME_PROPERTY function [Failover Cluster], ResUtilGetFileTimeProperty, ResUtilGetFileTimeProperty function [Failover Cluster], mscs.resutilgetfiletimeproperty, resapi/PRESUTIL_GET_FILETIME_PROPERTY, resapi/ResUtilGetFileTimeProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDockingWindow::CloseDW
 author: windows-sdk-content
 description: Notifies the docking window object that it is about to be removed from the frame. The docking window object should save any persistent information at this time.
 old-location: shell\IDockingWindow_CloseDW.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 29e57436-cc8f-46e8-bc1a-b44bd803c4a8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CloseDW, CloseDW method [Windows Shell], CloseDW method [Windows Shell],IDockingWindow interface, IDockingWindow interface [Windows Shell],CloseDW method, IDockingWindow.CloseDW, IDockingWindow::CloseDW, _win32_IDockingWindow_CloseDW, shell.IDockingWindow_CloseDW, shobjidl_core/IDockingWindow::CloseDW
 ms.prod: windows-hardware
 ms.technology: windows-devices

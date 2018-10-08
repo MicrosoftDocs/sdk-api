@@ -4,10 +4,10 @@ title: IMFCaptureEngine::StartPreview
 author: windows-sdk-content
 description: Starts preview.
 old-location: mf\imfcaptureengine_startpreview.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: C5BCF990-E7F9-48E9-B082-79953F5ED27C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StartPreview method, IMFCaptureEngine.StartPreview, IMFCaptureEngine::StartPreview, StartPreview, StartPreview method [Media Foundation], StartPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startpreview, mfcaptureengine/IMFCaptureEngine::StartPreview
 ms.prod: windows-hardware
 ms.technology: windows-devices

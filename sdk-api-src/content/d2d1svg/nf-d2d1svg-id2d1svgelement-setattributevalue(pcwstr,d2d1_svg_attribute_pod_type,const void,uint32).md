@@ -2,13 +2,13 @@
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,const void,UINT32)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,const void,UINT32)
 author: windows-sdk-content
-description: Sets an attribute of this element using a string.
-old-location: direct2d\id2d1svgelement_setattributevalue.htm
-tech.root: direct2d
-ms.assetid: 56796F1B-5DC2-4E9C-A80E-40EA791E6784
+description: Sets an attribute of this element using a POD type.
+old-location: direct2d\id2d1svgelement_setattributevalue_2.htm
+tech.root: Direct2D
+ms.assetid: 8ACAA04E-8ABB-49D1-A6F8-BCCEAD1DA460
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,const void,UINT32), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,const void,UINT32), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue
+ms.date: 10/05/2018
+ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,const void,UINT32), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,const void,UINT32), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets an attribute of this element using a string. 
+Sets an attribute of this element using a POD type.
 
 
 ## -parameters
@@ -65,25 +65,25 @@ Type: <b>PCWSTR</b>
 Name of the attribute to set.
 
 
-#### - type
+### -param type
 
-Type: <b><a href="https://msdn.microsoft.com/71991A28-FEA0-42A1-B5D0-DA13BBA77500">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/B04D5E56-8E59-4907-BEA0-D954A300DAD0">D2D1_SVG_ATTRIBUTE_POD_TYPE</a></b>
 
-The type of the string.
+The POD type of the attribute.
 
 
 ### -param value [in]
 
-Type: <b>PCWSTR</b>
+Type: <b>const void*</b>
 
 The new value of the attribute.
 
 
 ### -param valueSizeInBytes
 
-TBD
+Type: <b>UINT32</b>
 
-
+The size of the new value in bytes.
 
 
 ## -returns
@@ -92,8 +92,7 @@ TBD
 
 Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns an HRESULT success or error code. Returns an error if the
-            attribute name is not valid on this element. Returns an error if the attribute
+This method returns an HRESULT success or error code. Returns an error if the attribute name is not valid on this element. Returns an error if the attribute
             cannot be expressed as the specified type.
           
 

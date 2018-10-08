@@ -4,10 +4,10 @@ title: IMFMediaSource::CreatePresentationDescriptor
 author: windows-sdk-content
 description: Retrieves a copy of the media source's presentation descriptor. Applications use the presentation descriptor to select streams and to get information about the source content.
 old-location: mf\imfmediasource_createpresentationdescriptor.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: b6ac50b7-3ef1-43cf-8126-d9a003ebd825
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CreatePresentationDescriptor, CreatePresentationDescriptor method [Media Foundation], CreatePresentationDescriptor method [Media Foundation],IMFMediaSource interface, IMFMediaSource interface [Media Foundation],CreatePresentationDescriptor method, IMFMediaSource.CreatePresentationDescriptor, IMFMediaSource::CreatePresentationDescriptor, b6ac50b7-3ef1-43cf-8126-d9a003ebd825, mf.imfmediasource_createpresentationdescriptor, mfidl/IMFMediaSource::CreatePresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

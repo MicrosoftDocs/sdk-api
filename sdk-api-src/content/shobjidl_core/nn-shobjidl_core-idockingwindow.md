@@ -4,10 +4,10 @@ title: IDockingWindow
 author: windows-sdk-content
 description: Exposes methods that notify the docking window object of changes, including showing, hiding, and impending removal. This interface is implemented by window objects that can be docked within the border space of a Windows Explorer window.
 old-location: shell\IDockingWindow.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9e80fd5e-f57d-4801-b198-73b8f5ffff6e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDockingWindow, IDockingWindow interface [Windows Shell], IDockingWindow interface [Windows Shell],described, _win32_IDockingWindow, shell.IDockingWindow, shobjidl_core/IDockingWindow
 ms.prod: windows
 ms.technology: windows-sdk

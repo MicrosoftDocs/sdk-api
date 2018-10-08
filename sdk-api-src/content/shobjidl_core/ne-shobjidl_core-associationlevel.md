@@ -4,10 +4,10 @@ title: ASSOCIATIONLEVEL
 author: windows-sdk-content
 description: Specifies the source of the default association for a file name extension. Used by methods of the IApplicationAssociationRegistration interface.
 old-location: shell\ASSOCIATIONLEVEL.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 846ce9f4-092a-420d-be73-0951efc4368f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AL_EFFECTIVE, AL_MACHINE, AL_USER, ASSOCIATIONLEVEL, ASSOCIATIONLEVEL enumeration [Windows Shell], _shell_ASSOCIATIONLEVEL, shell.ASSOCIATIONLEVEL, shobjidl_core/AL_EFFECTIVE, shobjidl_core/AL_MACHINE, shobjidl_core/AL_USER, shobjidl_core/ASSOCIATIONLEVEL
 ms.prod: windows
 ms.technology: windows-sdk

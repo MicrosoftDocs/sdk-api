@@ -4,10 +4,10 @@ title: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
 author: windows-sdk-content
 description: Contains extended information about notification limits for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNotificationLimitInformation2 information class.
 old-location: base\jobobject_notification_limit_information_2.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: AFF8986F-6BC7-4683-99AC-EC82FFA27339
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2, JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, ToleranceHigh, ToleranceIntervalLong, ToleranceIntervalMedium, ToleranceIntervalShort, ToleranceLow, ToleranceMedium, base.jobobject_notification_limit_information_2, winnt/JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -3,12 +3,12 @@ UID: NF:d2d1.ID2D1Factory.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &
 title: ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle)
 author: windows-sdk-content
 description: Creates an ID2D1StrokeStyle that describes start cap, dash pattern, and other features of a stroke.
-old-location: direct2d\ID2D1Factory_CreateStrokeStyle_ptr_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle.htm
-tech.root: direct2d
-ms.assetid: 17e8cd4c-6ba4-49d4-a883-2937ff2121d3
+old-location: direct2d\ID2D1Factory_CreateStrokeStyle_ref_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle.htm
+tech.root: Direct2D
+ms.assetid: 0b567663-8067-440b-ba96-3c3f4d2580e2
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateStrokeStyle method, ID2D1Factory.CreateStrokeStyle, ID2D1Factory.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle), ID2D1Factory::CreateStrokeStyle, ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle), d2d1/ID2D1Factory::CreateStrokeStyle, direct2d.ID2D1Factory_CreateStrokeStyle_ptr_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle
+ms.date: 10/05/2018
+ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateStrokeStyle method, ID2D1Factory.CreateStrokeStyle, ID2D1Factory.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle), ID2D1Factory::CreateStrokeStyle, ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle), d2d1/ID2D1Factory::CreateStrokeStyle, direct2d.ID2D1Factory_CreateStrokeStyle_ref_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,9 +58,9 @@ Creates an <a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3
 
 
 
-### -param strokeStyleProperties [in]
+### -param strokeStyleProperties [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/67f3701f-febd-4afe-803e-c5d9dbcd1b21">D2D1_STROKE_STYLE_PROPERTIES</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/67f3701f-febd-4afe-803e-c5d9dbcd1b21">D2D1_STROKE_STYLE_PROPERTIES</a></b>
 
 A structure that describes the stroke's line cap, dash offset, and other details of a stroke.
 
@@ -69,7 +69,7 @@ A structure that describes the stroke's line cap, dash offset, and other details
 
 Type: <b>const FLOAT*</b>
 
-An array whose elements are set to the length of each dash and space in the dash pattern. The first element sets the length of a dash, the second element sets the length of a space, the third element sets the length of a dash, and so on. The length of each dash and space in the dash pattern is the product of the element value in the array and the stroke width. 
+An array whose elements are set to the length of each dash and space in the dash pattern. The first element sets the length of a dash, the second element sets the length of a space, the third element sets the length of a dash, and so on. The length of each dash and space in the dash pattern is the product of the element value in the array and the stroke width.
 
 
 ### -param dashesCount

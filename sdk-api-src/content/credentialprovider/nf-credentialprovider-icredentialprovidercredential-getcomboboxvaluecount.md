@@ -4,10 +4,10 @@ title: ICredentialProviderCredential::GetComboBoxValueCount
 author: windows-sdk-content
 description: Gets a count of the items in the specified combo box and designates which item should have initial selection.
 old-location: shell\ICredentialProviderCredential_GetComboBoxValueCount.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 50d28ad6-ab18-4648-8e3d-1759ce6b5aeb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetComboBoxValueCount, GetComboBoxValueCount method [Windows Shell], GetComboBoxValueCount method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetComboBoxValueCount method, ICredentialProviderCredential.GetComboBoxValueCount, ICredentialProviderCredential::GetComboBoxValueCount, _shell_ICredentialProviderCredential_GetComboBoxValueCount, credentialprovider/ICredentialProviderCredential::GetComboBoxValueCount, shell.ICredentialProviderCredential_GetComboBoxValueCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

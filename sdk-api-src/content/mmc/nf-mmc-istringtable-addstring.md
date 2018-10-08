@@ -4,10 +4,10 @@ title: IStringTable::AddString
 author: windows-sdk-content
 description: Enables a snap-in to add a string to the snap-in's string table.
 old-location: mmc\istringtable_addstring.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: fd4672fb-89d1-4542-b917-58c01290c928
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: AddString, AddString method [MMC], AddString method [MMC],IStringTable interface, IStringTable interface [MMC],AddString method, IStringTable.AddString, IStringTable::AddString, _slate_istringtable_addstring, mmc.istringtable_addstring, mmc/IStringTable::AddString
 ms.prod: windows-hardware
 ms.technology: windows-devices

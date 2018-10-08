@@ -4,10 +4,10 @@ title: IPSEC_TOKEN0_
 author: windows-sdk-content
 description: Various information about an IPsec-specific access token.
 old-location: fwp\ipsec_token0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 12adf88e-05c7-4e08-bbf7-6da529387af1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPSEC_TOKEN0, IPSEC_TOKEN0 structure [Filtering], IPSEC_TOKEN0_, fwp.ipsec_token0, ipsectypes/IPSEC_TOKEN0
 ms.prod: windows
 ms.technology: windows-sdk

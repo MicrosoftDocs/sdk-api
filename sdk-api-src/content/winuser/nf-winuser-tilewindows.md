@@ -7,7 +7,7 @@ old-location: winmsg\tilewindows.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\tilewindows.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MDITILE_HORIZONTAL, MDITILE_VERTICAL, TileWindows, TileWindows function [Windows and Messages], _win32_TileWindows, _win32_tilewindows_cpp, winmsg.tilewindows, winui._win32_tilewindows, winuser/TileWindows
 ms.prod: windows-hardware
 ms.technology: windows-devices

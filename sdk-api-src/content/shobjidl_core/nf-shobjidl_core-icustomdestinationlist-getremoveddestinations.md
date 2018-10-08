@@ -4,10 +4,10 @@ title: ICustomDestinationList::GetRemovedDestinations
 author: windows-sdk-content
 description: Retrieves the current list of destinations that have been removed by the user from the existing Jump List that this custom Jump List is meant to replace.
 old-location: shell\ICustomDestinationList_GetRemovedDestinations.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 705763cf-a97f-430f-bfc3-916e943668ef
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetRemovedDestinations, GetRemovedDestinations method [Windows Shell], GetRemovedDestinations method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],GetRemovedDestinations method, ICustomDestinationList.GetRemovedDestinations, ICustomDestinationList::GetRemovedDestinations, _shell_ICustomDestinationList_GetRemovedDestinations, shell.ICustomDestinationList_GetRemovedDestinations, shobjidl_core/ICustomDestinationList::GetRemovedDestinations
 ms.prod: windows-hardware
 ms.technology: windows-devices

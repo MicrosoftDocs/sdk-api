@@ -4,10 +4,10 @@ title: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
 author: windows-sdk-content
 description: Specifies values for the luminance range of YUV data.
 old-location: mf\d3d11_video_processor_nominal_range.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 9A4E7FE2-9A41-477B-977B-A1D00D7A5E3C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE, D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, d3d11/ D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, d3d11/D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE, d3d11/D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, d3d11/D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, mf.d3d11_video_processor_nominal_range
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFileOperation
 author: windows-sdk-content
 description: Exposes methods to copy, move, rename, create, and delete Shell items as well as methods to provide progress and error dialogs. This interface replaces the SHFileOperation function.
 old-location: shell\IFileOperation.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6596607e-0699-4eb6-b0d6-7cc2e5eb49c7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFileOperation, IFileOperation interface [Windows Shell], IFileOperation interface [Windows Shell],described, _shell_IFileOperation, shell.IFileOperation, shobjidl_core/IFileOperation
 ms.prod: windows
 ms.technology: windows-sdk

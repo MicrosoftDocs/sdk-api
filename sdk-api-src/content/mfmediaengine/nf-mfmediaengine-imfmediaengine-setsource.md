@@ -4,10 +4,10 @@ title: IMFMediaEngine::SetSource
 author: windows-sdk-content
 description: Sets the URL of a media resource.
 old-location: mf\imfmediaengine_setsource.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 80C41EAB-9B8F-4723-A4A7-A17F56FF5773
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSource method, IMFMediaEngine.SetSource, IMFMediaEngine::SetSource, SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsource, mfmediaengine/IMFMediaEngine::SetSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

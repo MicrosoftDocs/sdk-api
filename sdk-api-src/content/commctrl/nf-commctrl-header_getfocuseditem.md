@@ -7,7 +7,7 @@ old-location: controls\Header_GetFocusedItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getfocuseditem.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: Header_GetFocusedItem, Header_GetFocusedItem macro [Windows Controls], _shell_Header_GetFocusedItem, _shell_Header_GetFocusedItem_cpp, commctrl/Header_GetFocusedItem, controls.Header_GetFocusedItem, controls._shell_Header_GetFocusedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

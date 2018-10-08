@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: 7598936c-85da-40bc-8e94-94543371d915
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: UiaEventArgs, UiaEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaEventArgsStruct, uiauto_UiaEventArgsStruct, uiautomationcoreapi/UiaEventArgs, winauto.uiauto_UiaEventArgsStruct
 ms.prod: windows
 ms.technology: windows-sdk

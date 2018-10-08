@@ -4,10 +4,10 @@ title: IModalWindow
 author: windows-sdk-content
 description: Exposes a method that represents a modal window. This interface is used in the Windows XP Passport Wizard.
 old-location: shell\IModalWindow.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e9d640fd-ef10-486a-a037-01b7a71179a0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IModalWindow, IModalWindow interface [Windows Shell], IModalWindow interface [Windows Shell],described, _win32_IModalWindow, shell.IModalWindow, shobjidl_core/IModalWindow
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MFCreateTrackedSample function
 author: windows-sdk-content
 description: Creates an IMFTrackedSample object that tracks the reference counts on a video media sample.
 old-location: mf\mfcreatetrackedsample.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 05FB8F94-94B2-46A5-A890-E37E501233E2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateTrackedSample, MFCreateTrackedSample function [Media Foundation], mf.mfcreatetrackedsample, mfidl/MFCreateTrackedSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

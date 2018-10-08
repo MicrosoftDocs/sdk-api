@@ -4,10 +4,10 @@ title: "_SHITEMID"
 author: windows-sdk-content
 description: Defines an item identifier.
 old-location: shell\SHITEMID.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 794c8425-2319-4339-881c-c5083ab05638
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _SHITEMID, _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID"
 ms.prod: windows
 ms.technology: windows-sdk

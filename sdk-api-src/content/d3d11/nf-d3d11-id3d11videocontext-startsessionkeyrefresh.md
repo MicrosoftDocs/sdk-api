@@ -4,10 +4,10 @@ title: ID3D11VideoContext::StartSessionKeyRefresh
 author: windows-sdk-content
 description: Gets a random number that can be used to refresh the session key.
 old-location: mf\id3d11videocontext_startsessionkeyrefresh.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 63376BFE-BA84-4268-8AA8-128BEB83AE78
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],StartSessionKeyRefresh method, ID3D11VideoContext.StartSessionKeyRefresh, ID3D11VideoContext::StartSessionKeyRefresh, StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::StartSessionKeyRefresh, mf.id3d11videocontext_startsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

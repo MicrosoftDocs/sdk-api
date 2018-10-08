@@ -4,10 +4,10 @@ title: PathIsDirectoryA function
 author: windows-sdk-content
 description: Verifies that a path is a valid directory.
 old-location: shell\PathIsDirectory.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9af3e3da-6b3a-4e81-ba50-ff7aeeb73c44
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathIsDirectory, PathIsDirectory function [Windows Shell], PathIsDirectoryA, PathIsDirectoryW, _win32_PathIsDirectory, shell.PathIsDirectory, shlwapi/PathIsDirectory, shlwapi/PathIsDirectoryA, shlwapi/PathIsDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

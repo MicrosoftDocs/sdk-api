@@ -7,7 +7,7 @@ old-location: com\olecreatepropertyframe.htm
 tech.root: com
 ms.assetid: 06f75ac2-3ee6-4209-83cf-a4e5244a18bd
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: OleCreatePropertyFrame, OleCreatePropertyFrame function [COM], _ctrl_OleCreatePropertyFrame, com.olecreatepropertyframe, olectl/OleCreatePropertyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:vdshwprv
 ms.assetid: d2e059b4-6243-3ccf-a94c-525261a35628
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

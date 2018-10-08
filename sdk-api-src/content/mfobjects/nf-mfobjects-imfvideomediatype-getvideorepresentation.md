@@ -4,10 +4,10 @@ title: IMFVideoMediaType::GetVideoRepresentation
 author: windows-sdk-content
 description: Retrieves an alternative representation of the media type.
 old-location: mf\imfvideomediatype_getvideorepresentation.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648, GetVideoRepresentation, GetVideoRepresentation method [Media Foundation], GetVideoRepresentation method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoRepresentation method, IMFVideoMediaType.GetVideoRepresentation, IMFVideoMediaType::GetVideoRepresentation, mf.imfvideomediatype_getvideorepresentation, mfobjects/IMFVideoMediaType::GetVideoRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

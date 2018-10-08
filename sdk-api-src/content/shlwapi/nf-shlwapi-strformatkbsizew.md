@@ -4,10 +4,10 @@ title: StrFormatKBSizeW function
 author: windows-sdk-content
 description: Converts a numeric value into a string that represents the number expressed as a size value in kilobytes.
 old-location: shell\StrFormatKBSize.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrFormatKBSize, StrFormatKBSize function [Windows Shell], StrFormatKBSizeA, StrFormatKBSizeW, _win32_StrFormatKBSize, shell.StrFormatKBSize, shlwapi/StrFormatKBSize, shlwapi/StrFormatKBSizeA, shlwapi/StrFormatKBSizeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

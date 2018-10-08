@@ -2,7 +2,7 @@
 UID: TP:alljoyn
 ms.assetid: 934044dd-93a8-367b-b7e2-7eb21a01df15
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

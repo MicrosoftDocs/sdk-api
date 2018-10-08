@@ -4,10 +4,10 @@ title: IBandSite
 author: windows-sdk-content
 description: Exposes methods that control band objects.
 old-location: shell\IBandSite.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d7893136-a1a3-4c4b-b8f3-e4679710d827
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBandSite, IBandSite interface [Windows Shell], IBandSite interface [Windows Shell],described, _win32_IBandSite, shell.IBandSite, shobjidl_core/IBandSite
 ms.prod: windows
 ms.technology: windows-sdk

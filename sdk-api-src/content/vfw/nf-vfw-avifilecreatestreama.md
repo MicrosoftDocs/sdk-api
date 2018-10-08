@@ -7,7 +7,7 @@ old-location: multimedia\avifilecreatestream.htm
 tech.root: Multimedia
 ms.assetid: bff87fbb-fcd8-4dd4-93d0-9cab39c30409
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: AVIFileCreateStream, AVIFileCreateStream function [Windows Multimedia], AVIFileCreateStreamA, AVIFileCreateStreamW, _win32_AVIFileCreateStream, multimedia.avifilecreatestream, vfw/AVIFileCreateStream, vfw/AVIFileCreateStreamA, vfw/AVIFileCreateStreamW
 ms.prod: windows-hardware
 ms.technology: windows-devices

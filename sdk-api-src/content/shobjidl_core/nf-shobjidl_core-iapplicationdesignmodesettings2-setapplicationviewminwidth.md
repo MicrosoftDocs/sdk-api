@@ -4,10 +4,10 @@ title: IApplicationDesignModeSettings2::SetApplicationViewMinWidth
 author: windows-sdk-content
 description: Sets the desired minimum width of the application design mode window.
 old-location: shell\IApplicationDesignModeSettings2_SetApplicationViewMinWidth.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6132E0B9-E2B9-4768-909A-9D93A3F3A11C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AVMW_320, AVMW_500, AVMW_DEFAULT, IApplicationDesignModeSettings2 interface [Windows Shell],SetApplicationViewMinWidth method, IApplicationDesignModeSettings2.SetApplicationViewMinWidth, IApplicationDesignModeSettings2::SetApplicationViewMinWidth, SetApplicationViewMinWidth, SetApplicationViewMinWidth method [Windows Shell], SetApplicationViewMinWidth method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetApplicationViewMinWidth, shobjidl_core/IApplicationDesignModeSettings2::SetApplicationViewMinWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_LENGTH)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LENGTH)
 author: windows-sdk-content
-description: Gets an attribute of this element as a string.
-old-location: direct2d\id2d1svgelement_getattributevalue.htm
-tech.root: direct2d
-ms.assetid: 3C05DC2D-6B45-4979-8BBC-CD437068B92A
+description: Gets an attribute of this element as a length value.
+old-location: direct2d\id2d1svgelement_getattributevalue_16.htm
+tech.root: Direct2D
+ms.assetid: A0946450-795F-428C-B219-CBEA3A0955FC
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_LENGTH), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LENGTH), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue
+ms.date: 10/05/2018
+ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_LENGTH), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LENGTH), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets an attribute of this element as a string. 
+Gets an attribute of this element as a length value.
 
 
 ## -parameters
@@ -67,23 +67,9 @@ The name of the attribute.
 
 ### -param value [out]
 
-Type: <b>PWSTR</b>
+Type: <b><a href="https://msdn.microsoft.com/6DD79037-0BF2-4C1B-A2E3-85EB77682FB6">D2D1_SVG_LENGTH</a>*</b>
 
 The value of the attribute.
-
-
-#### - type
-
-Type: <b><a href="https://msdn.microsoft.com/71991A28-FEA0-42A1-B5D0-DA13BBA77500">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
-
-The string type.
-
-
-#### - valueCount
-
-Type: <b>UINT32</b>
-
-The number of elements in the returned value.
 
 
 ## -returns
@@ -92,10 +78,7 @@ The number of elements in the returned value.
 
 Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns an HRESULT success or error code. Returns an error if the attribute name is not valid on this
-            element. Returns an error if the attribute cannot be expressed as the specified
-            string type.  Returns an error if the attribute is not specified.
-          
+This method returns an HRESULT success or error code.
 
 
 

@@ -7,7 +7,7 @@ old-location: com\dllgetclassobject.htm
 tech.root: com
 ms.assetid: 42c08149-c251-47f7-a81f-383975d7081c
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: DllGetClassObject, DllGetClassObject function [COM], _com_DllGetClassObject, com.dllgetclassobject, combaseapi/DllGetClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

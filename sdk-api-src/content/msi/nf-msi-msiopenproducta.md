@@ -4,10 +4,10 @@ title: MsiOpenProductA function
 author: windows-sdk-content
 description: The MsiOpenProduct function opens a product for use with the functions that access the product database. The MsiCloseHandle function must be called with the handle when the handle is no longer needed.
 old-location: setup\msiopenproduct.htm
-tech.root: MSI
+tech.root: msi
 ms.assetid: fdc5a2f5-c44a-4cb3-b206-a598bd60024b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MsiOpenProduct, MsiOpenProduct function, MsiOpenProductA, MsiOpenProductW, _msi_msiopenproduct, msi/MsiOpenProduct, msi/MsiOpenProductA, msi/MsiOpenProductW, setup.msiopenproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices

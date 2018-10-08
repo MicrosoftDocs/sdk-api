@@ -7,7 +7,7 @@ old-location: controls\COLORSCHEME.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\colorscheme.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPCOLORSCHEME, COLORSCHEME, COLORSCHEME structure [Windows Controls], LPCOLORSCHEME, LPCOLORSCHEME structure pointer [Windows Controls], _win32_COLORSCHEME, _win32_COLORSCHEME_cpp, commctrl/COLORSCHEME, commctrl/LPCOLORSCHEME, controls.COLORSCHEME, controls._win32_COLORSCHEME, tagCOLORSCHEME"
 ms.prod: windows
 ms.technology: windows-sdk

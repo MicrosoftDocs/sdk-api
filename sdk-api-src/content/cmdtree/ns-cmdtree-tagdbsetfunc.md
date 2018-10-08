@@ -7,7 +7,7 @@ old-location: indexsrv\dbsetfunc.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_5e1v.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: DBSETFUNC, DBSETFUNC structure [Indexing Service], _idxs_DBSETFUNC, cmdtree/DBSETFUNC, indexsrv.dbsetfunc, tagDBSETFUNC
 ms.prod: windows
 ms.technology: windows-sdk

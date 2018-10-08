@@ -4,10 +4,10 @@ title: IMFTimedText::RemoveTrack
 author: windows-sdk-content
 description: Removes the timed-text track with the specified identifier.
 old-location: mf\imftimedtext_removetrack.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 34B785F6-0B34-431A-91CD-3C2DCEFEDAA4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],RemoveTrack method, IMFTimedText.RemoveTrack, IMFTimedText::RemoveTrack, RemoveTrack, RemoveTrack method [Media Foundation], RemoveTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_removetrack, mfmediaengine/IMFTimedText::RemoveTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices

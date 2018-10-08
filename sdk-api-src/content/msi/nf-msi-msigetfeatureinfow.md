@@ -4,10 +4,10 @@ title: MsiGetFeatureInfoW function
 author: windows-sdk-content
 description: Returns descriptive information for a feature.
 old-location: setup\msigetfeatureinfo.htm
-tech.root: MSI
+tech.root: msi
 ms.assetid: 2553fddf-3349-4b48-86a9-be63f2d23684
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORLOCAL, INSTALLFEATUREATTRIBUTE_FAVORSOURCE, INSTALLFEATUREATTRIBUTE_FOLLOWPARENT, INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE, MsiGetFeatureInfo, MsiGetFeatureInfo function, MsiGetFeatureInfoA, MsiGetFeatureInfoW, _msi_msigetfeatureinfo, msi/MsiGetFeatureInfo, msi/MsiGetFeatureInfoA, msi/MsiGetFeatureInfoW, setup.msigetfeatureinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

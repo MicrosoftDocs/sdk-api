@@ -4,10 +4,10 @@ title: GetScaleFactorForMonitor function
 author: windows-sdk-content
 description: Gets the scale factor of a specific monitor. This function replaces GetScaleFactorForDevice.
 old-location: shell\GetScaleFactorForMonitor.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2F214512-704D-41A2-86A6-1EF880CD3DB4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Windows Shell], shell.GetScaleFactorForMonitor, shellscalingapi/GetScaleFactorForMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

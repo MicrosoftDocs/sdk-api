@@ -4,10 +4,10 @@ title: "_SHNAMEMAPPINGA"
 author: windows-sdk-content
 description: Contains the old and new path names for each file that was moved, copied, or renamed by the SHFileOperation function.
 old-location: shell\SHNAMEMAPPING.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c77f5ed6-3c7f-48dd-8bb6-33d6d3053238
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPSHNAMEMAPPINGA, LPSHNAMEMAPPING, LPSHNAMEMAPPING structure pointer [Windows Shell], SHNAMEMAPPING, SHNAMEMAPPING structure [Windows Shell], SHNAMEMAPPINGA, _SHNAMEMAPPINGA, _win32_SHNAMEMAPPING, shell.SHNAMEMAPPING, shellapi/LPSHNAMEMAPPING, shellapi/SHNAMEMAPPING"
 ms.prod: windows
 ms.technology: windows-sdk

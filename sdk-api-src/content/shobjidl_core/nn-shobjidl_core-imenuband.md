@@ -4,10 +4,10 @@ title: IMenuBand
 author: windows-sdk-content
 description: Exposes methods that allow a Component Object Model (COM) object to receive and translate appropriate messages.
 old-location: shell\IMenuBand.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 67e12738-9951-4118-b968-7959cd175cf2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMenuBand, IMenuBand interface [Windows Shell], IMenuBand interface [Windows Shell],described, _shell_IMenuBand, shell.IMenuBand, shobjidl_core/IMenuBand
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMFASFMutualExclusion::AddStreamForRecord
 author: windows-sdk-content
 description: Adds a stream number to a record in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_addstreamforrecord.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: cfbfe3be-b0a4-408a-952e-e4f996f94cee
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddStreamForRecord, AddStreamForRecord method [Media Foundation], AddStreamForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],AddStreamForRecord method, IMFASFMutualExclusion.AddStreamForRecord, IMFASFMutualExclusion::AddStreamForRecord, cfbfe3be-b0a4-408a-952e-e4f996f94cee, mf.imfasfmutualexclusion_addstreamforrecord, wmcontainer/IMFASFMutualExclusion::AddStreamForRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

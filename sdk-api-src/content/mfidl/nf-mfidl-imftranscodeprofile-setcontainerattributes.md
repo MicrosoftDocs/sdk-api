@@ -4,10 +4,10 @@ title: IMFTranscodeProfile::SetContainerAttributes
 author: windows-sdk-content
 description: Sets container configuration settings in the transcode profile.
 old-location: mf\imftranscodeprofile_setcontainerattributes.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c62021cf-85f1-4a85-9263-b7883464f5f8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetContainerAttributes method, IMFTranscodeProfile.SetContainerAttributes, IMFTranscodeProfile::SetContainerAttributes, SetContainerAttributes, SetContainerAttributes method [Media Foundation], SetContainerAttributes method [Media Foundation],IMFTranscodeProfile interface, mf.imftranscodeprofile_setcontainerattributes, mfidl/IMFTranscodeProfile::SetContainerAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

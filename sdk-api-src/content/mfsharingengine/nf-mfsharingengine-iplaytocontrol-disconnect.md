@@ -4,10 +4,10 @@ title: IPlayToControl::Disconnect
 author: windows-sdk-content
 description: Disconnects the media element from the media sharing engine.
 old-location: mf\iplaytocontrol_disconnect.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 59EA778D-25DA-4EEA-8601-F6D72486410B
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Disconnect, Disconnect method [Media Foundation], Disconnect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Disconnect method, IPlayToControl.Disconnect, IPlayToControl::Disconnect, mf.iplaytocontrol_disconnect, mfsharingengine/IPlayToControl::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

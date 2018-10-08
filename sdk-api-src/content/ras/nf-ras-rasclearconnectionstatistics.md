@@ -4,10 +4,10 @@ title: RasClearConnectionStatistics function
 author: windows-sdk-content
 description: The RasClearConnectionStatistics functions clears any accumulated statistics for the specified RAS connection.
 old-location: rras\rasclearconnectionstatistics.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: b5c87ecd-4f21-46b5-91a3-41706907157a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: RasClearConnectionStatistics, RasClearConnectionStatistics function [RAS], _ras_rasclearconnectionstatistics, ras/RasClearConnectionStatistics, rras.rasclearconnectionstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\crypt_get_time_valid_object_extra_info.htm
 tech.root: seccrypto
 ms.assetid: 3de595f9-c922-4c8f-8328-819e91a2997c
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure [Security], PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure pointer [Security], _CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, security.crypt_get_time_valid_object_extra_info, wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, wincrypt/PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

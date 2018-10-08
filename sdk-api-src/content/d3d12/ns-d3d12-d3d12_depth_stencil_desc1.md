@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_depth_stencil_desc1.htm
 tech.root: direct3d12
 ms.assetid: 0DDDC3BA-0DA5-4DA2-A265-1ABB85596132
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: D3D12_DEPTH_STENCIL_DESC1, D3D12_DEPTH_STENCIL_DESC1 structure, d3d12/D3D12_DEPTH_STENCIL_DESC1, direct3d12.d3d12_depth_stencil_desc1
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IShellItem2::GetFileTime
 author: windows-sdk-content
 description: Gets the date and time value of a specified property key.
 old-location: shell\IShellItem2_GetFileTime.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bdd1834d-ce00-45e2-8fe7-825e18e12b96
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetFileTime, GetFileTime method [Windows Shell], GetFileTime method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetFileTime method, IShellItem2.GetFileTime, IShellItem2::GetFileTime, _shell_IShellItem2_GetFileTime, shell.IShellItem2_GetFileTime, shobjidl_core/IShellItem2::GetFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

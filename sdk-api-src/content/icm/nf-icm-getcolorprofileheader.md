@@ -7,7 +7,7 @@ old-location: wcs\getcolorprofileheader.htm
 tech.root: WCS
 ms.assetid: 7006cae0-0166-4fd9-8bf9-f0f0ed249956
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: GetColorProfileHeader, GetColorProfileHeader function [Windows Color System], _color_GetColorProfileHeader, icm/GetColorProfileHeader, wcs.getcolorprofileheader
 ms.prod: windows-hardware
 ms.technology: windows-devices

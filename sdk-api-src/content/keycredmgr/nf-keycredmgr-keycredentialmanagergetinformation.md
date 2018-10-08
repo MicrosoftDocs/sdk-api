@@ -7,7 +7,7 @@ old-location: security\keycredentialmanagergetinformation.htm
 tech.root: secauthn
 ms.assetid: 21664FAC-F380-4D32-A3A3-5F9326F5C79E
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: KeyCredentialManagerGetInformation, KeyCredentialManagerGetInformation function [Security], keycredmgr/KeyCredentialManagerGetInformation, security.keycredentialmanagergetinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,8 +50,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 API to get a unique identifier of the users enrollment.
 

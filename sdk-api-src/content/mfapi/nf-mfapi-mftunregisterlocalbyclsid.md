@@ -4,10 +4,10 @@ title: MFTUnregisterLocalByCLSID function
 author: windows-sdk-content
 description: Unregisters a Media Foundation transform (MFT) from the caller's process.
 old-location: mf\mftunregisterlocalbyclsid.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ebdf50ad-99cb-4ebf-9050-da0b2d9f26df
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFTUnregisterLocalByCLSID, MFTUnregisterLocalByCLSID function [Media Foundation], mf.mftunregisterlocalbyclsid, mfapi/MFTUnregisterLocalByCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

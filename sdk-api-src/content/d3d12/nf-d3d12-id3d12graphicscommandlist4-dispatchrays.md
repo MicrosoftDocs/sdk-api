@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4_dispatchrays.htm
 tech.root: direct3d12
 ms.assetid: 157F4609-B9AF-40EC-A2E6-33D5A897A813
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: DispatchRays, DispatchRays method, DispatchRays method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,DispatchRays method, ID3D12GraphicsCommandList4.DispatchRays, ID3D12GraphicsCommandList4::DispatchRays, d3d12/ID3D12GraphicsCommandList4::DispatchRays, direct3d12.id3d12graphicscommandlist4_dispatchrays
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,6 +83,10 @@ This method can be called from graphics or compute command lists and bundles.
 
 
 A raytracing pipeline state must be set on the command list. Otherwise, the behavior of this call is undefined.
+
+There are 3 dimensions passed in to set the grid size:  width/height/depth.  These dimensions are constrained such that width*height*depth &lt;= 2^30. Exceeding this produces undefined behavior. 
+If any grid dimension is 0, no threads are launched.
+
 
 
 

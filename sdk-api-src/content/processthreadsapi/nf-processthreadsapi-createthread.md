@@ -4,10 +4,10 @@ title: CreateThread function
 author: windows-sdk-content
 description: Creates a thread to execute within the virtual address space of the calling process.
 old-location: base\createthread.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

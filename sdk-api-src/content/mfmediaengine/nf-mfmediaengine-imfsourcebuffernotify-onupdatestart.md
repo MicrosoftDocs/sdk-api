@@ -4,10 +4,10 @@ title: IMFSourceBufferNotify::OnUpdateStart
 author: windows-sdk-content
 description: Used to indicate that the source buffer has started updating.
 old-location: mf\imfsourcebuffernotify_onupdatestart.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 513ef55d-756e-4ae3-b312-6a4178bc2f42
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateStart method, IMFSourceBufferNotify.OnUpdateStart, IMFSourceBufferNotify::OnUpdateStart, OnUpdateStart, OnUpdateStart method [Media Foundation], OnUpdateStart method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdatestart, mfmediaengine/IMFSourceBufferNotify::OnUpdateStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

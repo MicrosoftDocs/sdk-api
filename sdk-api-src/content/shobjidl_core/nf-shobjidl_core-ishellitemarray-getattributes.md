@@ -4,10 +4,10 @@ title: IShellItemArray::GetAttributes
 author: windows-sdk-content
 description: Gets the attributes of the set of items contained in an IShellItemArray.
 old-location: shell\IShellItemArray_GetAttributes.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 0498ce03-9949-48bb-a1eb-b569f4171884
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetAttributes method, IShellItemArray.GetAttributes, IShellItemArray::GetAttributes, SIATTRIBFLAGS_ALLITEMS, SIATTRIBFLAGS_AND, SIATTRIBFLAGS_APPCOMPAT, SIATTRIBFLAGS_MASK, SIATTRIBFLAGS_OR, _shell_IShellItemArray_GetAttributes, shell.IShellItemArray_GetAttributes, shobjidl_core/IShellItemArray::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

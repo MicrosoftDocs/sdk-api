@@ -4,10 +4,10 @@ title: ITransferDestination::Unadvise
 author: windows-sdk-content
 description: Terminates an advisory connection.
 old-location: shell\ITransferDestination_Unadvise.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ecc3d32b-50cb-48d3-90c2-aba4614f863d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ITransferDestination interface [Windows Shell],Unadvise method, ITransferDestination.Unadvise, ITransferDestination::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],ITransferDestination interface, _shell_ITransferDestination_Unadvise, shell.ITransferDestination_Unadvise, shobjidl_core/ITransferDestination::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

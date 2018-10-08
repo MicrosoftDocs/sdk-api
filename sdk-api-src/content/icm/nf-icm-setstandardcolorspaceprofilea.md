@@ -7,7 +7,7 @@ old-location: wcs\setstandardcolorspaceprofile.htm
 tech.root: WCS
 ms.assetid: fb1d95f0-7f6c-4ad9-a382-459833f177f5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: SetStandardColorSpaceProfile, SetStandardColorSpaceProfile function [Windows Color System], SetStandardColorSpaceProfileA, SetStandardColorSpaceProfileW, _color_SetStandardColorSpaceProfile, icm/SetStandardColorSpaceProfile, icm/SetStandardColorSpaceProfileA, icm/SetStandardColorSpaceProfileW, wcs.setstandardcolorspaceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

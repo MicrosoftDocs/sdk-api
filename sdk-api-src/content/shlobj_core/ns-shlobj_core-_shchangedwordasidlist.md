@@ -4,10 +4,10 @@ title: "_SHChangeDWORDAsIDList"
 author: windows-sdk-content
 description: SHChangeDWORDAsIDList may be altered or unavailable.
 old-location: shell\SHChangeDWORDAsIDList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ebc05a9c-ed2b-41ff-93fb-9d8059fa360c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList"
 ms.prod: windows
 ms.technology: windows-sdk

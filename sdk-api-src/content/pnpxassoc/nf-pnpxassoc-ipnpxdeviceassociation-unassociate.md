@@ -4,10 +4,10 @@ title: IPNPXDeviceAssociation::Unassociate
 author: windows-sdk-content
 description: Marks an association database entry as unassociated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_unassociate.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAssociation.Unassociate, IPNPXDeviceAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXDeviceAssociation interface, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate
 ms.prod: windows-hardware
 ms.technology: windows-devices

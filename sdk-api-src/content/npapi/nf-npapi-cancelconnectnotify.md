@@ -7,7 +7,7 @@ old-location: security\cancelconnectnotify.htm
 tech.root: secauthn
 ms.assetid: 94bd969d-f94d-449c-971d-d17fff2c07e1
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

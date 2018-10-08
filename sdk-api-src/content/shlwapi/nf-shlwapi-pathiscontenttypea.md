@@ -4,10 +4,10 @@ title: PathIsContentTypeA function
 author: windows-sdk-content
 description: Determines if a file's registered content type matches the specified content type. This function obtains the content type for the specified file type and compares that string with the pszContentType. The comparison is not case-sensitive.
 old-location: shell\PathIsContentType.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 53eac496-9666-41fc-8682-f7b6583a62fe
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathIsContentType, PathIsContentType function [Windows Shell], PathIsContentTypeA, PathIsContentTypeW, _win32_PathIsContentType, shell.PathIsContentType, shlwapi/PathIsContentType, shlwapi/PathIsContentTypeA, shlwapi/PathIsContentTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

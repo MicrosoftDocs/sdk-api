@@ -4,10 +4,10 @@ title: IMFTransform::GetOutputAvailableType
 author: windows-sdk-content
 description: Gets an available media type for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputavailabletype.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: d0f75414-18cf-4e76-b875-5f373510c87b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Media Foundation], GetOutputAvailableType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputAvailableType method, IMFTransform.GetOutputAvailableType, IMFTransform::GetOutputAvailableType, d0f75414-18cf-4e76-b875-5f373510c87b, mf.imftransform_getoutputavailabletype, mftransform/IMFTransform::GetOutputAvailableType
 ms.prod: windows-hardware
 ms.technology: windows-devices

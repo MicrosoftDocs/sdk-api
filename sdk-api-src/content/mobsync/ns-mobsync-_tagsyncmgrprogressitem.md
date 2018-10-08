@@ -4,10 +4,10 @@ title: "_tagSYNCMGRPROGRESSITEM"
 author: windows-sdk-content
 description: Provides status information while a synchronization is in progress. This structure is used with the ISyncMgrSynchronizeCallback::Progress method and corresponds to a single synchronization item.
 old-location: shell\syncmgr_syncmgrprogressitem.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], _tagSYNCMGRPROGRESSITEM, mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem"
 ms.prod: windows
 ms.technology: windows-sdk

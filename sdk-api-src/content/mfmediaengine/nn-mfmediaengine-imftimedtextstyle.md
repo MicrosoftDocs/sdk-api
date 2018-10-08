@@ -4,10 +4,10 @@ title: IMFTimedTextStyle
 author: windows-sdk-content
 description: Represents the style for timed text.
 old-location: mf\imftimedtextstyle.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ED358A36-BEEF-491E-8984-938F71472F26
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], IMFTimedTextStyle interface [Media Foundation],described, mf.imftimedtextstyle, mfmediaengine/IMFTimedTextStyle
 ms.prod: windows
 ms.technology: windows-sdk

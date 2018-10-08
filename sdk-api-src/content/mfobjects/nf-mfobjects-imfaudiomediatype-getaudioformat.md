@@ -4,10 +4,10 @@ title: IMFAudioMediaType::GetAudioFormat
 author: windows-sdk-content
 description: GetAudioFormat is no longer available for use as of Windows 7.
 old-location: mf\imfaudiomediatype_getaudioformat.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 6a874e7b-9358-45e1-85be-7207bf46d93e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 6a874e7b-9358-45e1-85be-7207bf46d93e, GetAudioFormat, GetAudioFormat method [Media Foundation], GetAudioFormat method [Media Foundation],IMFAudioMediaType interface, IMFAudioMediaType interface [Media Foundation],GetAudioFormat method, IMFAudioMediaType.GetAudioFormat, IMFAudioMediaType::GetAudioFormat, mf.imfaudiomediatype_getaudioformat, mfobjects/IMFAudioMediaType::GetAudioFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

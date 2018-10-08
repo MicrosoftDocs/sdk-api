@@ -4,10 +4,10 @@ title: IMFMediaEngine::HasVideo
 author: windows-sdk-content
 description: Queries whether the current media resource contains a video stream.
 old-location: mf\imfmediaengine_hasvideo.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 30B7F4DC-B3EB-421B-998B-E098F04D4B33
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasVideo method, IMFMediaEngine.HasVideo, IMFMediaEngine::HasVideo, mf.imfmediaengine_hasvideo, mfmediaengine/IMFMediaEngine::HasVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices

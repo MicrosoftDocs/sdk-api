@@ -4,10 +4,10 @@ title: IShellFolderView::SetRedraw
 author: windows-sdk-content
 description: Allows a view to be redrawn or prevents it from being redrawn.
 old-location: shell\IShellFolderView_SetRedraw.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fe249faa-561f-4179-a478-4ff284ffa963
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetRedraw method, IShellFolderView.SetRedraw, IShellFolderView::SetRedraw, SetRedraw, SetRedraw method [Windows Shell], SetRedraw method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetRedraw, shell.IShellFolderView_SetRedraw, shlobj_core/IShellFolderView::SetRedraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

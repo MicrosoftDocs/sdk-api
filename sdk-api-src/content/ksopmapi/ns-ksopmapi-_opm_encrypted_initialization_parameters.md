@@ -4,10 +4,10 @@ title: "_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS"
 author: windows-sdk-content
 description: Contains initialization parameters for an Output Protection Manager (OPM) session.
 old-location: mf\opm_encrypted_initialization_parameters.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: abcf0b84-7370-48da-b4dd-4faded6be343
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Media Foundation], _OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, ksopmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, mf.opm_encrypted_initialization_parameters
 ms.prod: windows
 ms.technology: windows-sdk

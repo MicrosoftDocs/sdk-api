@@ -4,10 +4,10 @@ title: IDirectXVideoProcessor
 author: windows-sdk-content
 description: Represents a DirectX Video Acceleration (DXVA) video processor device.
 old-location: mf\idirectxvideoprocessor.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], IDirectXVideoProcessor interface [Media Foundation],described, a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5, dxva2api/IDirectXVideoProcessor, mf.idirectxvideoprocessor
 ms.prod: windows
 ms.technology: windows-sdk

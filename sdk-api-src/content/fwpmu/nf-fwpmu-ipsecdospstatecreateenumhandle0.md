@@ -4,10 +4,10 @@ title: IPsecDospStateCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of IPsec DoS Protection objects.
 old-location: fwp\ipsecdospstatecreateenumhandle0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 5ceb78eb-bcbf-48fe-b2a9-52a687e5ce20
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPsecDospStateCreateEnumHandle0, IPsecDospStateCreateEnumHandle0 function [Filtering], fwp.ipsecdospstatecreateenumhandle0, fwpmu/IPsecDospStateCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IShellWindows
 author: windows-sdk-content
 description: Provides access to the collection of open Shell windows.
 old-location: shell\IShellWindows.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindows interface [Windows Shell],described, _win32_IShellWindows, exdisp/IShellWindows, shell.IShellWindows
 ms.prod: windows
 ms.technology: windows-sdk

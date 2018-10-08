@@ -4,10 +4,10 @@ title: IMFSample::RemoveAllBuffers
 author: windows-sdk-content
 description: Removes all of the buffers from the sample.
 old-location: mf\imfsample_removeallbuffers.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c7ce734f-64da-4d45-905e-54a8898aa710
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveAllBuffers method, IMFSample.RemoveAllBuffers, IMFSample::RemoveAllBuffers, RemoveAllBuffers, RemoveAllBuffers method [Media Foundation], RemoveAllBuffers method [Media Foundation],IMFSample interface, c7ce734f-64da-4d45-905e-54a8898aa710, mf.imfsample_removeallbuffers, mfobjects/IMFSample::RemoveAllBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

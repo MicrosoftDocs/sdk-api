@@ -4,10 +4,10 @@ title: ADsPropSendErrorMessage function
 author: windows-sdk-content
 description: The ADsPropSendErrorMessage function adds an error message to a list of error messages displayed by calling the ADsPropShowErrorDialog function.
 old-location: ad\adspropsenderrormessage.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: a1ca8440-0b18-4439-9143-bd8119f4f6ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ADsPropSendErrorMessage, ADsPropSendErrorMessage function [Active Directory], ad.adspropsenderrormessage, adsprop/ADsPropSendErrorMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

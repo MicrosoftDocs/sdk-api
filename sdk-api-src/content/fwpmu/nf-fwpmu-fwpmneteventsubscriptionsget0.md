@@ -4,10 +4,10 @@ title: FwpmNetEventSubscriptionsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all the current net event notification subscriptions.
 old-location: fwp\fwpmneteventsubscriptionsget0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 08a5378d-b9f7-45d9-b63c-fabcd94b717c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: FwpmNetEventSubscriptionsGet0, FwpmNetEventSubscriptionsGet0 function [Filtering], fwp.fwpmneteventsubscriptionsget0, fwpmu/FwpmNetEventSubscriptionsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PathIsSlowA function
 author: windows-sdk-content
 description: PathIsSlow may be altered or unavailable.
 old-location: shell\PathIsSlow.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: f848a098-9248-453b-a957-77c35d70e528
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathIsSlow, PathIsSlow function [Windows Shell], PathIsSlowA, PathIsSlowW, _win32_PathIsSlow, shell.PathIsSlow, shlobj/PathIsSlow, shlobj/PathIsSlowA, shlobj/PathIsSlowW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -3,12 +3,12 @@ UID: NF:d2d1.ID2D1Geometry.ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT)
 title: ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT)
 author: windows-sdk-content
 description: Calculates the length of the geometry as though each segment were unrolled into a line.
-old-location: direct2d\ID2D1Geometry_ComputeLength_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT.htm
-tech.root: direct2d
-ms.assetid: 8f91ceca-c862-4173-b819-2a2668845c29
+old-location: direct2d\ID2D1Geometry_ComputeLength_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT.htm
+tech.root: Direct2D
+ms.assetid: 79945209-59c1-401e-b6da-1838d818c677
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ComputeLength, ComputeLength method [Direct2D], ComputeLength method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputeLength method, ID2D1Geometry.ComputeLength, ID2D1Geometry.ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT), ID2D1Geometry::ComputeLength, ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT), d2d1/ID2D1Geometry::ComputeLength, direct2d.ID2D1Geometry_ComputeLength_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT
+ms.date: 10/05/2018
+ms.keywords: ComputeLength, ComputeLength method [Direct2D], ComputeLength method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputeLength method, ID2D1Geometry.ComputeLength, ID2D1Geometry.ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT), ID2D1Geometry::ComputeLength, ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT), d2d1/ID2D1Geometry::ComputeLength, direct2d.ID2D1Geometry_ComputeLength_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Calculates the length of the geometry as though each segment were unrolled into a line. 
+Calculates the length of the geometry as though each segment were unrolled into a line.
 
 
 ## -parameters
@@ -58,19 +58,18 @@ Calculates the length of the geometry as though each segment were unrolled into 
 
 
 
-### -param worldTransform [in, optional]
+### -param worldTransform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
-The transform to apply to the geometry before calculating its length, or <b>NULL</b>.
+The transform to apply to the geometry before calculating its length.
 
 
-#### - flatteningTolerance
+### -param flatteningTolerance
 
 Type: <b>FLOAT</b>
 
-The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution. 
-
+The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution.
 
 
 ### -param length [out]

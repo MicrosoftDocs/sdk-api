@@ -97,7 +97,7 @@ Size, in characters, of the Unicode string indicated by <i>lpString</i>. The app
 
 ### -param lpScripts [out, optional]
 
-Pointer to a buffer in which this function retrieves a null-terminated string representing a list of scripts, using the 4-character notation used in <a href="https://msdn.microsoft.com/ca5bcdee-ea13-4745-a565-5426c462892d">ISO 15924</a>. Each script name consists of four Latin characters, and the names are retrieved in alphabetical order. Each name, including the last, is followed by a semicolon.
+Pointer to a buffer in which this function retrieves a null-terminated string representing a list of scripts, using the 4-character notation used in <a href="http://www.unicode.org/iso15924/iso15924-codes.html">ISO 15924</a>. Each script name consists of four Latin characters, and the names are retrieved in alphabetical order. Each name, including the last, is followed by a semicolon.
 
 Alternatively, this parameter contains <b>NULL</b> if <i>cchScripts</i> is set to 0. In this case, the function returns the required size for the script buffer.
 
@@ -134,7 +134,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 This function is useful as part of a strategy to mitigate security issues related to <a href="https://msdn.microsoft.com/e0ca356e-f8c1-4845-ae1e-ce2ae8987515">internationalized domain names (IDNs)</a>.
 
-The script determination is based on the script values published by the Unicode Consortium in <a href="https://msdn.microsoft.com/ca5bcdee-ea13-4745-a565-5426c462892d">http://www.unicode.org/Public/4.1.0/ucd/Scripts.txt</a>, except that the unassigned characters have the value "Zzzz" (UNASSIGNED) instead of "Zyyy" (COMMON).
+The script determination is based on the script values published by the Unicode Consortium in <a href="http://www.unicode.org/Public/4.1.0/ucd/Scripts.txt">http://www.unicode.org/Public/4.1.0/ucd/Scripts.txt</a>, except that the unassigned characters have the value "Zzzz" (UNASSIGNED) instead of "Zyyy" (COMMON).
 
 Here are some examples of the behavior of this function:
 

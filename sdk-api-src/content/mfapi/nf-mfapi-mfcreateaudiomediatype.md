@@ -4,10 +4,10 @@ title: MFCreateAudioMediaType function
 author: windows-sdk-content
 description: Creates an audio media type from a WAVEFORMATEX structure.
 old-location: mf\mfcreateaudiomediatype.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 8857e150-1746-4f3f-aaa8-db0f44787621
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 8857e150-1746-4f3f-aaa8-db0f44787621, MFCreateAudioMediaType, MFCreateAudioMediaType function [Media Foundation], mf.mfcreateaudiomediatype, mfapi/MFCreateAudioMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleclientsite_onshowwindow.htm
 tech.root: com
 ms.assetid: 9185add8-02d1-4bf3-99ff-82f64ba12ef4
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IOleClientSite interface [COM],OnShowWindow method, IOleClientSite.OnShowWindow, IOleClientSite::OnShowWindow, OnShowWindow, OnShowWindow method [COM], OnShowWindow method [COM],IOleClientSite interface, _ole_ioleclientsite_onshowwindow, com.ioleclientsite_onshowwindow, oleidl/IOleClientSite::OnShowWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

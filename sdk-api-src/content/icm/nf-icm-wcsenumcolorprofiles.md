@@ -7,7 +7,7 @@ old-location: wcs\wcsenumcolorprofiles.htm
 tech.root: WCS
 ms.assetid: 45d670ae-a2f1-4281-bcd8-0663ee3e7fe4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: WcsEnumColorProfiles, WcsEnumColorProfiles function [Windows Color System], WcsEnumColorProfilesA, WcsEnumColorProfilesW, _color_WcsEnumColorProfiles, icm/WcsEnumColorProfiles, icm/WcsEnumColorProfilesA, icm/WcsEnumColorProfilesW, wcs.wcsenumcolorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

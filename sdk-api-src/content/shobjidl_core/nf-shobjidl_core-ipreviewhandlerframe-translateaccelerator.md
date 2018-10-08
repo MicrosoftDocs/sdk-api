@@ -4,10 +4,10 @@ title: IPreviewHandlerFrame::TranslateAccelerator
 author: windows-sdk-content
 description: Directs the host to handle an keyboard shortcut passed from the preview handler.
 old-location: shell\IPreviewHandlerFrame_TranslateAccelerator.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4f33a0b1-28ad-4e2d-9e2a-e58f44ab6f00
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IPreviewHandlerFrame interface [Windows Shell],TranslateAccelerator method, IPreviewHandlerFrame.TranslateAccelerator, IPreviewHandlerFrame::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IPreviewHandlerFrame interface, _shell_IPreviewHandlerFrame_TranslateAccelerator, shell.IPreviewHandlerFrame_TranslateAccelerator, shobjidl_core/IPreviewHandlerFrame::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

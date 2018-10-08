@@ -4,10 +4,10 @@ title: IShellFolderView::Rearrange
 author: windows-sdk-content
 description: Rearrange may be altered or unavailable.
 old-location: shell\IShellFolderView_Rearrange.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9fe955db-dab3-4e53-9c1b-979794052035
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],Rearrange method, IShellFolderView.Rearrange, IShellFolderView::Rearrange, Rearrange, Rearrange method [Windows Shell], Rearrange method [Windows Shell],IShellFolderView interface, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _shell_IShellFolderView_Rearrange, shell.IShellFolderView_Rearrange, shlobj_core/IShellFolderView::Rearrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

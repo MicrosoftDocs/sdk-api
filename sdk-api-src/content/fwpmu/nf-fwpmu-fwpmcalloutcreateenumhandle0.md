@@ -4,10 +4,10 @@ title: FwpmCalloutCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of callout objects.
 old-location: fwp\fwpmcalloutcreateenumhandle0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: bd37eebb-8a07-4b67-9595-34cc96463254
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: FwpmCalloutCreateEnumHandle0, FwpmCalloutCreateEnumHandle0 function [Filtering], fwp.fwpmcalloutcreateenumhandle0_func, fwpmu/FwpmCalloutCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

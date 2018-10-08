@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getstoryranges2.htm
 tech.root: controls
 ms.assetid: ec62db67-d5e6-47d9-ad35-0fc33ba45b6b
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: GetStoryRanges2, GetStoryRanges2 method [Windows Controls], GetStoryRanges2 method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetStoryRanges2 method, ITextDocument2.GetStoryRanges2, ITextDocument2::GetStoryRanges2, controls.itextdocument2_getstoryranges2, tom/ITextDocument2::GetStoryRanges2
 ms.prod: windows-hardware
 ms.technology: windows-devices

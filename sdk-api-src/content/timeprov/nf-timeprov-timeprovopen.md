@@ -4,10 +4,10 @@ title: TimeProvOpen function
 author: windows-sdk-content
 description: A callback function that is called by the time provider manager when the time provider DLL is loaded.
 old-location: base\timeprovopen.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: cf4f8d00-4c6f-4036-a179-444ff7505ab4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: TimeProvOpen, TimeProvOpen callback, TimeProvOpen callback function, _win32_timeprovopen, base.timeprovopen, timeprov/TimeProvOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

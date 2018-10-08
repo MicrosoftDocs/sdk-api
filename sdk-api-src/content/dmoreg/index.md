@@ -2,7 +2,7 @@
 UID: NA:dmoreg
 ms.assetid: dee28265-f344-39f6-b05e-56792408e803
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

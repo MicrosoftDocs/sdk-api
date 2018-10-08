@@ -1,0 +1,99 @@
+---
+UID: NF:powersetting.PowerRegisterForEffectivePowerModeNotifications
+title: PowerRegisterForEffectivePowerModeNotifications function
+author: windows-sdk-content
+description: Registers a callback to receive effective power mode change notifications.
+old-location: base\powerregisterforeffectivepowermodenotifications.htm
+tech.root: power
+ms.assetid: 3C87643F-A8DA-4230-A216-8F46629BB6FB
+ms.author: windowssdkdev
+ms.date: 10/05/2018
+ms.keywords: PowerRegisterForEffectivePowerModeNotifications, PowerRegisterForEffectivePowerModeNotifications function, base.powerregisterforeffectivepowermodenotifications, powersetting/PowerRegisterForEffectivePowerModeNotifications
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: powersetting.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Powrprof.lib
+req.dll: Powrprof.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Powrprof.dll
+api_name:
+ - PowerRegisterForEffectivePowerModeNotifications
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# PowerRegisterForEffectivePowerModeNotifications function
+
+
+## -description
+
+
+Registers a callback to receive effective power mode change notifications. 
+
+
+## -parameters
+
+
+
+
+### -param Version
+
+Supplies the maximum effective power mode version the caller understands. If the effective power mode comes from a later version, it is reduced to a compatible version that is then passed to the callback. 
+
+As of Windows 10, version 1809 the only understood version is EFFECTIVE_POWER_MODE_V1.
+
+
+### -param Callback
+
+A pointer to the callback to call when the effective power mode changes. This will also be called once upon registration to supply the current mode. If multiple callbacks are registered using this API, those callbacks can be called concurrently.
+
+
+### -param Context
+
+Caller-specified opaque context.
+
+
+### -param RegistrationHandle
+
+A handle to the registration. Use this handle to unregister for notifications. 
+
+
+## -returns
+
+
+
+Returns S_OK (zero) if the call was successful, and a nonzero value if the call failed. 
+
+
+
+
+## -remarks
+
+
+
+Immediately after registration, the callback will be invoked with the current value of the power setting. If the registration occurs while the power mode is changing, you may receive multiple callbacks; the last callback is the most recent update. 
+
+
+

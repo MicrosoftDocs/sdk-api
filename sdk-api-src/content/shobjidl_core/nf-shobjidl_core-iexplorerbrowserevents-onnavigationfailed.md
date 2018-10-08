@@ -4,10 +4,10 @@ title: IExplorerBrowserEvents::OnNavigationFailed
 author: windows-sdk-content
 description: Notifies clients that the Explorer browser has failed to navigate to a Shell folder.
 old-location: shell\IExplorerBrowserEvents_OnNavigationFailed.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d4de3b81-4482-47c8-bb47-593aba484952
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationFailed method, IExplorerBrowserEvents.OnNavigationFailed, IExplorerBrowserEvents::OnNavigationFailed, OnNavigationFailed, OnNavigationFailed method [Windows Shell], OnNavigationFailed method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationFailed, shell.IExplorerBrowserEvents_OnNavigationFailed, shobjidl_core/IExplorerBrowserEvents::OnNavigationFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices

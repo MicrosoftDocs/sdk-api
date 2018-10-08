@@ -4,10 +4,10 @@ title: IShellApp::IsInstalled
 author: windows-sdk-content
 description: Gets a value indicating whether a specified application is currently installed.
 old-location: shell\IShellApp_IsInstalled.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 338ba632-5749-4850-b982-2247f0d0dcc5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.IsInstalled, IShellApp::IsInstalled, IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell],IShellApp interface, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices

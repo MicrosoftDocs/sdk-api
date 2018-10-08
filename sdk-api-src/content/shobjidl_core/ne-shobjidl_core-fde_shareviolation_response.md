@@ -4,10 +4,10 @@ title: FDE_SHAREVIOLATION_RESPONSE
 author: windows-sdk-content
 description: Specifies the values used by the IFileDialogEvents::OnShareViolation method to indicate an application's response to a sharing violation that occurs when a file is opened or saved.
 old-location: shell\FDE_SHAREVIOLATION_RESPONSE.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 976965f5-7806-41de-b1d4-f5bb6dc4f79b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: FDESVR_ACCEPT, FDESVR_DEFAULT, FDESVR_REFUSE, FDE_SHAREVIOLATION_RESPONSE, FDE_SHAREVIOLATION_RESPONSE enumeration [Windows Shell], shell.FDE_SHAREVIOLATION_RESPONSE, shell_FDE_SHAREVIOLATION_RESPONSE, shobjidl_core/FDESVR_ACCEPT, shobjidl_core/FDESVR_DEFAULT, shobjidl_core/FDESVR_REFUSE, shobjidl_core/FDE_SHAREVIOLATION_RESPONSE
 ms.prod: windows
 ms.technology: windows-sdk

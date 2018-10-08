@@ -7,7 +7,7 @@ old-location: wcs\wcssetdefaultcolorprofile.htm
 tech.root: WCS
 ms.assetid: 6f9e8df8-e696-4fd0-8631-5e3d23719def
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: WcsSetDefaultColorProfile, WcsSetDefaultColorProfile function [Windows Color System], _color_WcsSetDefaultColorProfile, icm/WcsSetDefaultColorProfile, wcs.wcssetdefaultcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

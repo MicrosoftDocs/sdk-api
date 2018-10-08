@@ -4,10 +4,10 @@ title: IInitializeWithBindCtx::Initialize
 author: windows-sdk-content
 description: Initializes a handler with a bind context.
 old-location: shell\IInitializeWithBindCtx_Initialize.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5cb3117f-7e9f-463f-806c-4955cebc1c2d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IInitializeWithBindCtx interface [Windows Shell],Initialize method, IInitializeWithBindCtx.Initialize, IInitializeWithBindCtx::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithBindCtx interface, _shell_IInitializeWithBindCtx_Initialize, shell.IInitializeWithBindCtx_Initialize, shobjidl_core/IInitializeWithBindCtx::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

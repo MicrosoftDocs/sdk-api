@@ -2,13 +2,13 @@
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW)
 author: windows-sdk-content
-description: Sets an attribute of this element using a string.
-old-location: direct2d\id2d1svgelement_setattributevalue.htm
-tech.root: direct2d
-ms.assetid: 56796F1B-5DC2-4E9C-A80E-40EA791E6784
+description: Sets an attribute of this element as an overflow value. This method can be used to set the value of the overflow property.
+old-location: direct2d\id2d1svgelement_setattributevalue_8.htm
+tech.root: Direct2D
+ms.assetid: C8D942A4-EBE7-433E-9B2F-2432A1305861
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue
+ms.date: 10/05/2018
+ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets an attribute of this element using a string. 
+Sets an attribute of this element as an overflow value. This method can be used to set the value of the overflow property.
 
 
 ## -parameters
@@ -65,18 +65,11 @@ Type: <b>PCWSTR</b>
 Name of the attribute to set.
 
 
-### -param value [in]
+### -param value
 
-Type: <b>PCWSTR</b>
+Type: <b><a href="https://msdn.microsoft.com/5023A745-9012-47C8-ACE6-D68218B2C17B">D2D1_SVG_OVERFLOW</a></b>
 
 The new value of the attribute.
-
-
-#### - type
-
-Type: <b><a href="https://msdn.microsoft.com/71991A28-FEA0-42A1-B5D0-DA13BBA77500">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
-
-The type of the string.
 
 
 ## -returns
@@ -85,10 +78,7 @@ The type of the string.
 
 Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns an HRESULT success or error code. Returns an error if the
-            attribute name is not valid on this element. Returns an error if the attribute
-            cannot be expressed as the specified type.
-          
+This method returns an HRESULT success or error code.
 
 
 

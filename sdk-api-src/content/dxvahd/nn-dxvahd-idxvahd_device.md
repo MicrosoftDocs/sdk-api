@@ -4,10 +4,10 @@ title: IDXVAHD_Device
 author: windows-sdk-content
 description: Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], IDXVAHD_Device interface [Media Foundation],described, dxvahd/IDXVAHD_Device, mf.idxvahd_device
 ms.prod: windows
 ms.technology: windows-sdk

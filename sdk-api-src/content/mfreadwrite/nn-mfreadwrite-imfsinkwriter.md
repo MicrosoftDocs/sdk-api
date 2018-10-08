@@ -4,10 +4,10 @@ title: IMFSinkWriter
 author: windows-sdk-content
 description: Implemented by the Microsoft Media Foundation sink writer object.
 old-location: mf\imfsinkwriter.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 76fb915e-1586-429a-88a5-bd1290799352
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], IMFSinkWriter interface [Media Foundation],described, mf.imfsinkwriter, mfreadwrite/IMFSinkWriter
 ms.prod: windows
 ms.technology: windows-sdk

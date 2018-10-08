@@ -4,10 +4,10 @@ title: IDataObjectAsyncCapability::InOperation
 author: windows-sdk-content
 description: Called by the drop source to determine whether the target is extracting data asynchronously.
 old-location: shell\IDataObjectAsyncCapability_InOperation.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 858EB8C4-88AB-40a3-B4FC-CCD19235CE55
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],InOperation method, IDataObjectAsyncCapability.InOperation, IDataObjectAsyncCapability::InOperation, InOperation, InOperation method [Windows Shell], InOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_InOperation, shldisp/IDataObjectAsyncCapability::InOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

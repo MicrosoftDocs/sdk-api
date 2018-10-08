@@ -3,20 +3,20 @@ UID: NF:d2d1.ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush)
 title: ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush)
 author: windows-sdk-content
 description: Paints the interior of the specified ellipse.
-old-location: direct2d\id2d1rendertarget_fillellipse.htm
-tech.root: direct2d
-ms.assetid: 149fb303-d2e8-416c-b28f-8bc5f1482ba6
+old-location: direct2d\ID2D1RenderTarget_FillEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush.htm
+tech.root: Direct2D
+ms.assetid: 007c5733-91d4-42c8-bd76-ae10225d3d5e
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: FillEllipse, FillEllipse methods [Direct2D], ID2D1RenderTarget.FillEllipse, ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush), ID2D1RenderTarget::FillEllipse, ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush), d2d1/FillEllipse, direct2d.id2d1rendertarget_fillellipse
+ms.date: 10/05/2018
+ms.keywords: FillEllipse, FillEllipse method [Direct2D], FillEllipse method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillEllipse method, ID2D1RenderTarget.FillEllipse, ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush), ID2D1RenderTarget::FillEllipse, ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush), d2d1/ID2D1RenderTarget::FillEllipse, direct2d.ID2D1RenderTarget_FillEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget::FillEllipse
+ - ID2D1RenderTarget.FillEllipse
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,40 +50,42 @@ req.redist:
 ## -description
 
 
-<span>Paints the interior of the specified ellipse.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/007c5733-91d4-42c8-bd76-ae10225d3d5e">FillEllipse(D2D1_ELLIPSE&,ID2D1Brush*)</a>
-</td>
-<td align="left" width="63%">
 Paints the interior of the specified ellipse.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30027ffd-f835-44a7-8c58-c8cef79f0037">FillEllipse(D2D1_ELLIPSE*,ID2D1Brush*)</a>
-</td>
-<td align="left" width="63%">
-Paints the interior of the specified ellipse.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param ellipse [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/6fed6c49-ba83-4c2b-af8a-04156ee317f0">D2D1_ELLIPSE</a></b>
+
+The position and radius, in device-independent pixels, of the ellipse to paint.
+
+
+### -param brush [in]
+
+Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+
+The brush used to paint the interior of the ellipse.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
 
 
 ## -remarks
 
 
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>FillEllipse</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="https://msdn.microsoft.com/149fb303-d2e8-416c-b28f-8bc5f1482ba6">FillEllipse</a>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples

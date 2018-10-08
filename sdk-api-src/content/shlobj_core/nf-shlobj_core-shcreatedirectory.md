@@ -4,10 +4,10 @@ title: SHCreateDirectory function
 author: windows-sdk-content
 description: Creates a new file system folder.
 old-location: shell\SHCreateDirectory.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4927429c-f457-4dda-aa0d-236eb236795c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHCreateDirectory, SHCreateDirectory function [Windows Shell], _win32_SHCreateDirectory, shell.SHCreateDirectory, shlobj_core/SHCreateDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

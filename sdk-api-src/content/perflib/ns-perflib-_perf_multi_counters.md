@@ -4,10 +4,10 @@ title: "_PERF_MULTI_COUNTERS"
 author: windows-sdk-content
 description: Provides information about the PERF_MULTI_COUNTERS block that contains the structure.
 old-location: perf\perf_multi_counters.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: 4F490C3C-F587-4E7B-B316-162EDA76EC30
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PPERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS structure [Perf], PPERF_MULTI_COUNTERS, PPERF_MULTI_COUNTERS structure pointer [Perf], _PERF_MULTI_COUNTERS, perf.perf_multi_counters, perflib/PERF_MULTI_COUNTERS, perflib/PPERF_MULTI_COUNTERS"
 ms.prod: windows
 ms.technology: windows-sdk

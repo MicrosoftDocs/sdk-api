@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::GetEffectRequiredInputRectangles
 author: windows-sdk-content
 description: Returns the input rectangles that are required to be supplied by the caller to produce the given output rectangle.
 old-location: direct2d\id2d1devicecontext_geteffectrequiredinputrectangles.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B34548A9-1E23-496F-A1D9-87B74EF67C72
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: GetEffectRequiredInputRectangles, GetEffectRequiredInputRectangles method [Direct2D], GetEffectRequiredInputRectangles method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectRequiredInputRectangles method, ID2D1DeviceContext.GetEffectRequiredInputRectangles, ID2D1DeviceContext::GetEffectRequiredInputRectangles, d2d1_1/ID2D1DeviceContext::GetEffectRequiredInputRectangles, direct2d.id2d1devicecontext_geteffectrequiredinputrectangles
 ms.prod: windows-hardware
 ms.technology: windows-devices

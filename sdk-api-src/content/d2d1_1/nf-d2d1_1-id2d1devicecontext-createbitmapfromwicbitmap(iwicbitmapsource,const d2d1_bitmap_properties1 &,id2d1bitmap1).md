@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,con
 title: ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1)
 author: windows-sdk-content
 description: Creates a Direct2D bitmap by copying a WIC bitmap.
-old-location: direct2d\id2d1devicecontext_createbitmapfromwicbitmap.htm
-tech.root: direct2d
-ms.assetid: 98BA78CD-4902-43B9-A412-895CA2A112C7
+old-location: direct2d\id2d1devicecontext_createbitmapfromwicbitmap2.htm
+tech.root: Direct2D
+ms.assetid: 74CB0A1C-2103-4C43-87C7-50C55057424D
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateBitmapFromWicBitmap, CreateBitmapFromWicBitmap method [Direct2D], CreateBitmapFromWicBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapFromWicBitmap method, ID2D1DeviceContext.CreateBitmapFromWicBitmap, ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmapFromWicBitmap, ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmapFromWicBitmap, direct2d.id2d1devicecontext_createbitmapfromwicbitmap
+ms.date: 10/05/2018
+ms.keywords: CreateBitmapFromWicBitmap, CreateBitmapFromWicBitmap method [Direct2D], CreateBitmapFromWicBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapFromWicBitmap method, ID2D1DeviceContext.CreateBitmapFromWicBitmap, ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmapFromWicBitmap, ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmapFromWicBitmap, direct2d.id2d1devicecontext_createbitmapfromwicbitmap2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -60,14 +60,14 @@ Creates a Direct2D bitmap by copying a WIC bitmap.
 
 ### -param wicBitmapSource [in]
 
-Type: <b><b>IWICBitmapSource</b>*</b>
+Type: <b><a href="https://msdn.microsoft.com/98BA78CD-4902-43B9-A412-895CA2A112C7">IWICBitmapSource</a>*</b>
 
 The WIC bitmap source to copy from.
 
 
-### -param bitmapProperties [in, optional]
+### -param bitmapProperties [in, ref, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8292da6b-8232-4ef0-967d-a53d586aa9a9">D2D1_BITMAP_PROPERTIES1</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/8292da6b-8232-4ef0-967d-a53d586aa9a9">D2D1_BITMAP_PROPERTIES1</a></b>
 
 A bitmap properties structure that specifies bitmap creation options.
 
@@ -106,19 +106,6 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </tr>
 </table>
  
-
-
-
-
-## -remarks
-
-
-
-Starting with Windows 8.1, the  <i>bitmapProperties</i> parameter is optional. When it is not specified, the created bitmap inherits the pixel format and alpha mode from  <i>wicBitmapSource</i>. For a list of supported pixel formats and alpha modes, see <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a>.
-
-When the <i>bitmapProperties</i> parameter is specified, the value in <i>bitmapProperties-&gt;pixelFormat</i> must either be <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_UNKNOWN</a> or must match the WIC pixel format in <i>wicBitmapSource</i>.
-
-When <i>bitmapProperties-&gt;pixelFormat.alphaMode</i> is set to <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_UNKNOWN</a>, the newly created bitmap inherits the alpha mode from <i>wicBitmapSource</i>. When <i>bitmapProperties-&gt;pixelFormat.alphaMode</i> is set to <b>D2D1_ALPHA_MODE_PREMULTIPLIED</b>, <b>D2D1_ALPHA_MODE_STRAIGHT</b>, or <b>D2D1_ALPHA_MODE_IGNORE</b>, this forces the newly created bitmap to use the specified alpha mode.
 
 
 

@@ -4,10 +4,10 @@ title: SHCoCreateInstance function
 author: windows-sdk-content
 description: SHCoCreateInstance may be altered or unavailable. Instead, use CoCreateInstance.
 old-location: shell\SHCoCreateInstance.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 334fc581-29b2-4576-94ec-7dd3d6e0020b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHCoCreateInstance, SHCoCreateInstance function [Windows Shell], _win32_SHCoCreateInstance, shell.SHCoCreateInstance, shlobj_core/SHCoCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

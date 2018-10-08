@@ -4,10 +4,10 @@ title: MFCreateVideoSampleAllocatorEx function
 author: windows-sdk-content
 description: Creates an object that allocates video samples that are compatible with Microsoft DirectX Graphics Infrastructure (DXGI).
 old-location: mf\mfcreatevideosampleallocatorex.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: AB2A4D0B-CDE0-462C-BF52-3F78D0093526
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IMFVideoSampleAllocatorEx, IID_IUnknown, MFCreateVideoSampleAllocatorEx, MFCreateVideoSampleAllocatorEx function [Media Foundation], mf.mfcreatevideosampleallocatorex, mfapi/MFCreateVideoSampleAllocatorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

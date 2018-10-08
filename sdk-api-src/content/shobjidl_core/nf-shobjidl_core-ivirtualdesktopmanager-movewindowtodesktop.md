@@ -4,10 +4,10 @@ title: IVirtualDesktopManager::MoveWindowToDesktop
 author: windows-sdk-content
 description: Moves a window to the specified virtual desktop.
 old-location: shell\ivirtualdesktopmanager_movewindowtodesktop.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: A8756361-E371-41C5-B3F5-BD99439878D9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],MoveWindowToDesktop method, IVirtualDesktopManager.MoveWindowToDesktop, IVirtualDesktopManager::MoveWindowToDesktop, MoveWindowToDesktop, MoveWindowToDesktop method [Windows Shell], MoveWindowToDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_movewindowtodesktop, shobjidl_core/IVirtualDesktopManager::MoveWindowToDesktop
 ms.prod: windows-hardware
 ms.technology: windows-devices

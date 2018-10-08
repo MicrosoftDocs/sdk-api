@@ -7,7 +7,7 @@ old-location: mscs\clustergetvolumepathname.htm
 tech.root: MsCS
 ms.assetid: eff2995a-d17c-4899-bff5-ead9526f859d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ClusterGetVolumePathName, ClusterGetVolumePathName function [Failover Cluster], PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster], mscs.clustergetvolumepathname, resapi/ClusterGetVolumePathName, resapi/PCLUSTER_GET_VOLUME_PATH_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices

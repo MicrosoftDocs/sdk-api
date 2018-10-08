@@ -4,10 +4,10 @@ title: PMIB_SET_TRAP_INFO
 author: windows-sdk-content
 description: The MibSetTrapInfo function passes in a handle to an event which is signaled whenever a TRAP needs to be issued.
 old-location: rras\mibsettrapinfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 28056113-82a5-4493-ba49-509db3606fa0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MibSetTrapInfo, MibSetTrapInfo callback function [RAS], PMIB_SET_TRAP_INFO, PMIB_SET_TRAP_INFO callback, _mpr_mibsettrapinfo, routprot/MibSetTrapInfo, rras.mibsettrapinfo
 ms.prod: windows
 ms.technology: windows-sdk

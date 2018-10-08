@@ -4,10 +4,10 @@ title: IntPtrToUShort function
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type USHORT.
 old-location: shell\IntPtrToUShort.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c1ab8cbc-0c45-410c-a34d-2bded36a03e8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IntPtrToUShort, IntPtrToUShort function [Windows Shell], intsafe/IntPtrToUShort, shell.IntPtrToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

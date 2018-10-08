@@ -4,10 +4,10 @@ title: IAssocHandlerInvoker::SupportsSelection
 author: windows-sdk-content
 description: Determines whether an invoker supports its selection.
 old-location: shell\IAssocHandlerInvoker_SupportsSelection.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a4000557-2a89-494c-8b0e-c67a2e2c4445
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IAssocHandlerInvoker interface [Windows Shell],SupportsSelection method, IAssocHandlerInvoker.SupportsSelection, IAssocHandlerInvoker::SupportsSelection, SupportsSelection, SupportsSelection method [Windows Shell], SupportsSelection method [Windows Shell],IAssocHandlerInvoker interface, _shell_IAssocHandlerInvoker_SupportsSelection, shell.IAssocHandlerInvoker_SupportsSelection, shobjidl_core/IAssocHandlerInvoker::SupportsSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

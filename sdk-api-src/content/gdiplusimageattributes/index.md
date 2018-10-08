@@ -2,7 +2,7 @@
 UID: NA:gdiplusimageattributes
 ms.assetid: d8928016-85de-319c-96ff-1fa2295a4199
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

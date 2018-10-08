@@ -7,7 +7,7 @@ old-location: com\ifont_releasehfont.htm
 tech.root: com
 ms.assetid: 2c2cf2e0-d0c8-4e4f-ba5a-6b08650aee68
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IFont interface [COM],ReleaseHfont method, IFont.ReleaseHfont, IFont::ReleaseHfont, ReleaseHfont, ReleaseHfont method [COM], ReleaseHfont method [COM],IFont interface, _ctrl_ifont_releasehfont, com.ifont_releasehfont, ocidl/IFont::ReleaseHfont
 ms.prod: windows-hardware
 ms.technology: windows-devices

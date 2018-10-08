@@ -7,7 +7,7 @@ old-location: controls\DPASTREAMINFO.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\dpastreaminfo.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: DPASTREAMINFO, DPASTREAMINFO structure [Windows Controls], _DPASTREAMINFO, _win32_DPASTREAMINFO, _win32_DPASTREAMINFO_cpp, controls.DPASTREAMINFO, controls._win32_DPASTREAMINFO, dpa_dsa/DPASTREAMINFO
 ms.prod: windows
 ms.technology: windows-sdk

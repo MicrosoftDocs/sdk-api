@@ -4,10 +4,10 @@ title: IMFShutdown
 author: windows-sdk-content
 description: Exposed by some Media Foundation objects that must be explicitly shut down.
 old-location: mf\imfshutdown.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c3052658-51bb-401b-8db9-3428868899d6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFShutdown, IMFShutdown interface [Media Foundation], IMFShutdown interface [Media Foundation],described, c3052658-51bb-401b-8db9-3428868899d6, mf.imfshutdown, mfidl/IMFShutdown
 ms.prod: windows
 ms.technology: windows-sdk

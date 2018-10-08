@@ -7,7 +7,7 @@ old-location: security\scardlistreaderswithdeviceinstanceid.htm
 tech.root: secauthn
 ms.assetid: D470A10B-B167-4BCA-9042-BF63B9A3A92F
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: SCardListReadersWithDeviceInstanceId, SCardListReadersWithDeviceInstanceId function [Security], SCardListReadersWithDeviceInstanceIdA, SCardListReadersWithDeviceInstanceIdW, security.scardgetreadernamefromdeviceinstanceid, security.scardlistreaderswithdeviceinstanceid, winscard/SCardListReadersWithDeviceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

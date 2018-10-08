@@ -4,10 +4,10 @@ title: AssocIsDangerous function
 author: windows-sdk-content
 description: Determines whether a file type is considered a potential security risk.
 old-location: shell\AssocIsDangerous.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4e0bc3ce-f9d2-4766-8b19-c0954d71e890
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AssocIsDangerous, AssocIsDangerous function [Windows Shell], _shell_AssocIsDangerous, shell.AssocIsDangerous, shlwapi/AssocIsDangerous
 ms.prod: windows-hardware
 ms.technology: windows-devices

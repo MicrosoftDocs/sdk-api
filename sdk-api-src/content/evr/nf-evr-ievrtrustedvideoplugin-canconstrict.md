@@ -4,10 +4,10 @@ title: IEVRTrustedVideoPlugin::CanConstrict
 author: windows-sdk-content
 description: Queries whether the plug-in can limit the effective video resolution.
 old-location: mf\ievrtrustedvideoplugin_canconstrict.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee, CanConstrict, CanConstrict method [Media Foundation], CanConstrict method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],CanConstrict method, IEVRTrustedVideoPlugin.CanConstrict, IEVRTrustedVideoPlugin::CanConstrict, evr/IEVRTrustedVideoPlugin::CanConstrict, mf.ievrtrustedvideoplugin_canconstrict
 ms.prod: windows-hardware
 ms.technology: windows-devices

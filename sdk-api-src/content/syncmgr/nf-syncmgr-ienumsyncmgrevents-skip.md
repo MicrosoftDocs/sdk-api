@@ -4,10 +4,10 @@ title: IEnumSyncMgrEvents::Skip
 author: windows-sdk-content
 description: Skips forward the specified number of events in the enumeration.
 old-location: shell\IEnumSyncMgrEvents_Skip.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6e8257e8-fab3-407c-a6d0-26a7a9ca0961
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Skip method, IEnumSyncMgrEvents.Skip, IEnumSyncMgrEvents::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Skip, shell.IEnumSyncMgrEvents_Skip, syncmgr/IEnumSyncMgrEvents::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

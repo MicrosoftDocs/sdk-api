@@ -4,10 +4,10 @@ title: ID2D1SvgPointCollection::GetPoints
 author: windows-sdk-content
 description: Gets points from the points array.
 old-location: direct2d\id2d1svgpointcollection_getpoints.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 886039FB-0640-4B20-84E2-4B3EC2AFA234
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: GetPoints, GetPoints method [Direct2D], GetPoints method [Direct2D],ID2D1SvgPointCollection interface, ID2D1SvgPointCollection interface [Direct2D],GetPoints method, ID2D1SvgPointCollection.GetPoints, ID2D1SvgPointCollection::GetPoints, d2d1svg/ID2D1SvgPointCollection::GetPoints, direct2d.id2d1svgpointcollection_getpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSinkWriterEx
 author: windows-sdk-content
 description: Extends the IMFSinkWriter interface.
 old-location: mf\imfsinkwriterex.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 77E6CB22-E3B5-4D5E-8876-48582F75AA5C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSinkWriterEx, IMFSinkWriterEx interface [Media Foundation], IMFSinkWriterEx interface [Media Foundation],described, mf.imfsinkwriterex, mfreadwrite/IMFSinkWriterEx
 ms.prod: windows
 ms.technology: windows-sdk

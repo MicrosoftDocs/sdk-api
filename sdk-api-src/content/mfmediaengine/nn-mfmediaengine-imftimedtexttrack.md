@@ -4,10 +4,10 @@ title: IMFTimedTextTrack
 author: windows-sdk-content
 description: Represents a track of timed text.
 old-location: mf\imftimedtexttrack.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 55232D19-F3D0-42C7-8B24-C2A7768B2C7E
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], IMFTimedTextTrack interface [Media Foundation],described, mf.imftimedtexttrack, mfmediaengine/IMFTimedTextTrack
 ms.prod: windows
 ms.technology: windows-sdk

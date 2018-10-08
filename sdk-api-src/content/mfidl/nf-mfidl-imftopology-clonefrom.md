@@ -4,10 +4,10 @@ title: IMFTopology::CloneFrom
 author: windows-sdk-content
 description: Converts this topology into a copy of another topology.
 old-location: mf\imftopology_clonefrom.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: b455aa57-9785-4741-bc3b-1f99cbf4e3d9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],CloneFrom method, IMFTopology.CloneFrom, IMFTopology::CloneFrom, b455aa57-9785-4741-bc3b-1f99cbf4e3d9, mf.imftopology_clonefrom, mfidl/IMFTopology::CloneFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices

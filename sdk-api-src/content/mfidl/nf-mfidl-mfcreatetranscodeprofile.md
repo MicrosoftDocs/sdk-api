@@ -4,10 +4,10 @@ title: MFCreateTranscodeProfile function
 author: windows-sdk-content
 description: Creates an empty transcode profile object.
 old-location: mf\mfcreatetranscodeprofile.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

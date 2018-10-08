@@ -4,10 +4,10 @@ title: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT
 author: windows-sdk-content
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_OUTPUT_ID query.
 old-location: mf\d3d11_authenticated_query_output_id_output.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: A7706E2B-B817-4D1C-B09D-D1803E0F8BFE
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, mf.d3d11_authenticated_query_output_id_output
 ms.prod: windows
 ms.technology: windows-sdk

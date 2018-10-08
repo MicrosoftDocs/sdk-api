@@ -7,7 +7,7 @@ old-location: wcs\convertcolornametoindex.htm
 tech.root: WCS
 ms.assetid: b4424cbe-0a11-419e-88d7-0aa4a57db0eb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: ConvertColorNameToIndex, ConvertColorNameToIndex function [Windows Color System], _color_ConvertColorNameToIndex, icm/ConvertColorNameToIndex, wcs.convertcolornametoindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

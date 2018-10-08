@@ -2,13 +2,13 @@
 UID: NF:d2d1.ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap)
 title: ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap)
 author: windows-sdk-content
-description: Creates a Direct2D bitmap from a pointer to in-memory source data.
-old-location: direct2d\ID2D1RenderTarget_CreateBitmap_D2D_SIZE_U_ptr_void_UINT32_ptr_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap.htm
-tech.root: direct2d
-ms.assetid: 76e91383-6da7-47ae-9d5e-a83d78556b29
+description: Creates an ID2D1BitmapBrush from the specified bitmap.
+old-location: direct2d\ID2D1RenderTarget_CreateBitmapBrush_ptr_ID2D1Bitmap_ref_D2D1_BITMAP_BRUSH_PROPERTIES_ref_D2D1_BRUSH_PROPERTIES_ptr_ptr_ID2D1BitmapBrush.htm
+tech.root: Direct2D
+ms.assetid: 9c3be6a0-ac67-4dc1-9c5a-0ee47343cb86
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateBitmap, CreateBitmap method [Direct2D], CreateBitmap method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateBitmap method, ID2D1RenderTarget.CreateBitmap, ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap), ID2D1RenderTarget::CreateBitmap, ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap), d2d1/ID2D1RenderTarget::CreateBitmap, direct2d.ID2D1RenderTarget_CreateBitmap_D2D_SIZE_U_ptr_void_UINT32_ptr_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap
+ms.date: 10/05/2018
+ms.keywords: CreateBitmap, CreateBitmapBrush method [Direct2D], CreateBitmapBrush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateBitmapBrush method, ID2D1RenderTarget.CreateBitmap, ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap), ID2D1RenderTarget::CreateBitmap, ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap), ID2D1RenderTarget::CreateBitmapBrush, d2d1/ID2D1RenderTarget::CreateBitmapBrush, direct2d.ID2D1RenderTarget_CreateBitmapBrush_ptr_ID2D1Bitmap_ref_D2D1_BITMAP_BRUSH_PROPERTIES_ref_D2D1_BRUSH_PROPERTIES_ptr_ptr_ID2D1BitmapBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget.CreateBitmap
+ - ID2D1RenderTarget.CreateBitmapBrush
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a Direct2D bitmap from a pointer to in-memory source data.
+Creates an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> from the specified bitmap.
 
 
 ## -parameters
@@ -60,44 +60,57 @@ Creates a Direct2D bitmap from a pointer to in-memory source data.
 
 ### -param size
 
-Type: <b><a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e6">D2D1_SIZE_U</a></b>
-
-The dimension of the bitmap to create in pixels.
+TBD
 
 
-#### - srcData [in, optional]
+### -param srcData
 
-Type: <b>void*</b>
-
-A pointer to the memory location of the image data, or <b>NULL</b> to create an uninitialized bitmap.
+TBD
 
 
-#### - pitch
+### -param pitch
 
-Type: <b>UINT32</b>
-
-The byte count of each scanline, which is equal to (the image width in pixels × the number of bytes per pixel) + memory padding. If <i>srcData</i> is <b>NULL</b>, this value is ignored. (Note that pitch is also sometimes called <i>stride</i>.)
+TBD
 
 
-### -param bitmapProperties [in]
+### -param bitmapProperties
 
-Type: <b>const <a href="https://msdn.microsoft.com/050246fd-f91a-4a2a-858a-5f0447e3ecbf">D2D1_BITMAP_PROPERTIES</a>*</b>
-
-The pixel format and dots per inch (DPI) of the bitmap to create.
+TBD
 
 
-### -param bitmap [out]
+### -param bitmap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>*</b>
 
-When this method returns, contains a pointer to a pointer to the new bitmap. This parameter is passed uninitialized.
+The bitmap contents of the new brush.
+
+
+#### - bitmapBrush [out]
+
+Type: <b><a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>**</b>
+
+When this method returns, contains a pointer to a pointer to the new brush. This parameter is passed uninitialized.
+
+
+#### - bitmapBrushProperties [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/e252d1b4-2f34-4479-94fc-636d4115b00c">D2D1_BITMAP_BRUSH_PROPERTIES</a></b>
+
+The extend modes and interpolation mode of the new brush. 
+
+
+#### - brushProperties [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/37b2fc18-a320-41c0-8717-dcd561a2f2df">D2D1_BRUSH_PROPERTIES</a></b>
+
+The opacity and transform of the new brush.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -106,6 +119,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/8f78b30a-7507-4dd8-b6f4-12d88e3c9a1d">How to Create a Bitmap Brush</a>
 
 
 

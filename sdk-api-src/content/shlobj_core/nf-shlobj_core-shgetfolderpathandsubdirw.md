@@ -4,10 +4,10 @@ title: SHGetFolderPathAndSubDirW function
 author: windows-sdk-content
 description: Gets the path of a folder and appends a user-provided subfolder path.
 old-location: shell\SHGetFolderPathAndSubDir.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7e92e136-1036-4c96-931f-6e0129fb839a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPathAndSubDir, SHGetFolderPathAndSubDir function [Windows Shell], SHGetFolderPathAndSubDirA, SHGetFolderPathAndSubDirW, _shell_SHGetFolderPathAndSubDir, shell.SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDirA, shlobj_core/SHGetFolderPathAndSubDirW
 ms.prod: windows-hardware
 ms.technology: windows-devices

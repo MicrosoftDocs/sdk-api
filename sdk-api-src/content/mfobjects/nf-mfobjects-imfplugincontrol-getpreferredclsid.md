@@ -4,10 +4,10 @@ title: IMFPluginControl::GetPreferredClsid
 author: windows-sdk-content
 description: Searches the preferred list for a class identifier (CLSID) that matches a specified key name.
 old-location: mf\imfplugincontrol_imfplugincontrol__getpreferredclsid.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c78843ed-b666-4b81-a7ed-66e514d0d342
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetPreferredClsid, GetPreferredClsid method [Media Foundation], GetPreferredClsid method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetPreferredClsid method, IMFPluginControl.GetPreferredClsid, IMFPluginControl::GetPreferredClsid, mf.imfplugincontrol_imfplugincontrol__getpreferredclsid, mfobjects/IMFPluginControl::GetPreferredClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

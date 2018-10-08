@@ -4,10 +4,10 @@ title: IDestinationStreamFactory::GetDestinationStream
 author: windows-sdk-content
 description: Gets an empty stream that receives the new version of the file being copied.
 old-location: shell\IDestinationStreamFactory_GetDestinationStream.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4903a3a1-12b7-4094-aac8-6e8525998c3c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetDestinationStream, GetDestinationStream method [Windows Shell], GetDestinationStream method [Windows Shell],IDestinationStreamFactory interface, IDestinationStreamFactory interface [Windows Shell],GetDestinationStream method, IDestinationStreamFactory.GetDestinationStream, IDestinationStreamFactory::GetDestinationStream, shell.IDestinationStreamFactory_GetDestinationStream, shell_IDestinationStreamFactory_GetDestinationStream, shobjidl_core/IDestinationStreamFactory::GetDestinationStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

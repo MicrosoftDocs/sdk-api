@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_targetinformation.htm
 tech.root: secauthn
 ms.assetid: 8a5a6bd6-8678-4544-a631-5ee4347bc685
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation structure pointer [Security], SecPkgContext_TargetInformation, SecPkgContext_TargetInformation structure [Security], _SecPkgContext_TargetInformation, security.secpkgcontext_targetinformation, sspi/PSecPkgContext_TargetInformation, sspi/SecPkgContext_TargetInformation"
 ms.prod: windows
 ms.technology: windows-sdk

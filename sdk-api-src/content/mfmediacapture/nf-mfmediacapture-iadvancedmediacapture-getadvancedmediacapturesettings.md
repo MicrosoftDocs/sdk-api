@@ -4,10 +4,10 @@ title: IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
 author: windows-sdk-content
 description: Gets the advanced media capture settings.
 old-location: mf\iadvancedmediacapture_getadvancedmediacapturesettings.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 88c65141-9cc3-4da3-adee-06727152ba8b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetAdvancedMediaCaptureSettings, GetAdvancedMediaCaptureSettings method [Media Foundation], GetAdvancedMediaCaptureSettings method [Media Foundation],IAdvancedMediaCapture interface, IAdvancedMediaCapture interface [Media Foundation],GetAdvancedMediaCaptureSettings method, IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings, IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings, mf.iadvancedmediacapture_getadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

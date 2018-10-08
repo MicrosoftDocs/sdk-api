@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_gettimeoflastchange.htm
 tech.root: com
 ms.assetid: fef6f7e5-7d91-4737-98a4-c9779c6c2be5
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],GetTimeOfLastChange method, IRunningObjectTable.GetTimeOfLastChange, IRunningObjectTable::GetTimeOfLastChange, _com_irunningobjecttable_gettimeoflastchange, com.irunningobjecttable_gettimeoflastchange, objidl/IRunningObjectTable::GetTimeOfLastChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

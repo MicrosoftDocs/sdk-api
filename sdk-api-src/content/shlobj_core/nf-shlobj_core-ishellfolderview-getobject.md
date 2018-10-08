@@ -4,10 +4,10 @@ title: IShellFolderView::GetObject
 author: windows-sdk-content
 description: Gets an item from the view.
 old-location: shell\IShellFolderView_GetObject.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a231e92f-b467-4fd7-929d-92259272a734
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetObject method, IShellFolderView.GetObject, IShellFolderView::GetObject, _shell_IShellFolderView_GetObject, shell.IShellFolderView_GetObject, shlobj_core/IShellFolderView::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

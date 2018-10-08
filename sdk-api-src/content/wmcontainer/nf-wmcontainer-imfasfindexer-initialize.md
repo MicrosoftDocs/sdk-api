@@ -4,10 +4,10 @@ title: IMFASFIndexer::Initialize
 author: windows-sdk-content
 description: Initializes the indexer object.
 old-location: mf\imfasfindexer_initialize.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: c02931d3-7b43-43a9-9e4e-00945ba3c8d8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],Initialize method, IMFASFIndexer.Initialize, IMFASFIndexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFIndexer interface, c02931d3-7b43-43a9-9e4e-00945ba3c8d8, mf.imfasfindexer_initialize, wmcontainer/IMFASFIndexer::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

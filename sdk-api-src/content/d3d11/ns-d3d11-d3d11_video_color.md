@@ -4,10 +4,10 @@ title: D3D11_VIDEO_COLOR
 author: windows-sdk-content
 description: Defines a color value for Microsoft Direct3D 11 video.
 old-location: mf\d3d11_video_color.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: F8E070EE-F8F6-4AAF-9A8A-6D0AF6B857B5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: D3D11_VIDEO_COLOR, D3D11_VIDEO_COLOR structure [Media Foundation], d3d11/D3D11_VIDEO_COLOR, mf.d3d11_video_color
 ms.prod: windows
 ms.technology: windows-sdk

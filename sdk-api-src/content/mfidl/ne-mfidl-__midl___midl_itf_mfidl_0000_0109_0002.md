@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_mfidl_0000_0109_0002"
 author: windows-sdk-content
 description: Specifies whether a stream associated with an IMFSensorDevice is an input or an output stream.
 old-location: mf\mfsensorstreamtype.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 598AE9EC-3B8D-419A-A6A9-02DCDD459162
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFSensorStreamType, MFSensorStreamType enumeration [Media Foundation], MFSensorStreamType_Input, MFSensorStreamType_Output, MFSensorStreamType_Unknown, __MIDL___MIDL_itf_mfidl_0000_0109_0002, mf.mfsensorstreamtype, mfidl/MFSensorStreamType, mfidl/MFSensorStreamType_Input, mfidl/MFSensorStreamType_Output, mfidl/MFSensorStreamType_Unknown
 ms.prod: windows
 ms.technology: windows-sdk

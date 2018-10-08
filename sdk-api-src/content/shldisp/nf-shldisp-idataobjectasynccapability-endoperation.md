@@ -4,10 +4,10 @@ title: IDataObjectAsyncCapability::EndOperation
 author: windows-sdk-content
 description: Notifies the data object that the asynchronous data extraction has ended.
 old-location: shell\IDataObjectAsyncCapability_EndOperation.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: CF9D2A95-12AF-4538-882D-B391F2E087ED
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: EndOperation, EndOperation method [Windows Shell], EndOperation method [Windows Shell],IDataObjectAsyncCapability interface, IDataObjectAsyncCapability interface [Windows Shell],EndOperation method, IDataObjectAsyncCapability.EndOperation, IDataObjectAsyncCapability::EndOperation, shell.IDataObjectAsyncCapability_EndOperation, shldisp/IDataObjectAsyncCapability::EndOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

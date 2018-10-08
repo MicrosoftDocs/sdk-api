@@ -4,10 +4,10 @@ title: ITrayDeskBand
 author: windows-sdk-content
 description: Exposes methods that show, hide, and query deskbands.
 old-location: shell\ITrayDeskBand.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4542bd20-b7ca-4ab9-9c25-9f6eeabd7c2e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], ITrayDeskBand interface [Windows Shell],described, _shell_ITrayDeskBand, shell.ITrayDeskBand, shobjidl/ITrayDeskBand
 ms.prod: windows
 ms.technology: windows-sdk

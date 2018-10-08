@@ -4,10 +4,10 @@ title: ShortSub function
 author: windows-sdk-content
 description: Subtracts one value of type SHORT from another.
 old-location: shell\ShortSub.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: df438d87-5786-4c55-81f2-534fa9532f09
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ShortSub, ShortSub function [Windows Shell], intsafe/ShortSub, shell.ShortSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

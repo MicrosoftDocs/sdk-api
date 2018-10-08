@@ -4,10 +4,10 @@ title: PowerSetActiveScheme function
 author: windows-sdk-content
 description: Sets the active power scheme for the current user.
 old-location: base\powersetactivescheme.htm
-tech.root: Power
+tech.root: power
 ms.assetid: e56bc3f4-2141-4be7-8479-12f8d59971af
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: PowerSetActiveScheme, PowerSetActiveScheme function, base.powersetactivescheme, powersetting/PowerSetActiveScheme, powrprof/PowerSetActiveScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

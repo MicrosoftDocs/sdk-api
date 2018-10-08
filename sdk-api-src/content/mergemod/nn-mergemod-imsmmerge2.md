@@ -4,10 +4,10 @@ title: IMsmMerge2
 author: windows-sdk-content
 description: The IMsmMerge interface and the IMsmMerge2 interface provide interfaces to the Merge object.The IMsmMerge2 interface provides a way for the client merge tool to utilize the new configurable-module functionality.
 old-location: setup\imsmmerge2_interface.htm
-tech.root: MSI
+tech.root: msi
 ms.assetid: cda5698d-4aee-4771-9989-628162b433ef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IMsmMerge2, IMsmMerge2 interface, IMsmMerge2 interface,described, _msi_imsmmerge2_interface, mergemod/IMsmMerge2, setup.imsmmerge2_interface
 ms.prod: windows
 ms.technology: windows-sdk

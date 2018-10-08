@@ -7,7 +7,7 @@ old-location: mscs\clusworkerterminateex.htm
 tech.root: MsCS
 ms.assetid: e2dda7c0-01d4-49e5-bc57-3fa07495d536
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ClusWorkerTerminateEx, ClusWorkerTerminateEx function [Failover Cluster], mscs.clusworkerterminateex, resapi/ClusWorkerTerminateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Waits for a worker thread to terminate up to the specified timeout.  Optionally,  signals the thread to terminate at the end of the timeout.
+Waits for a worker thread to terminate up to the specified timeout.  This function can signal the thread to terminate before wait starts, or just wait passively if specified.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The timeout in milliseconds.
 
 ### -param WaitOnly [in]
 
-If set <b>TRUE</b>, the function will return  at the end of the timeout; otherwise it will signal the thread to terminate and return.
+If set <b>TRUE</b>, the function will wait for up to specified timeout without signaling the thread to terminate; otherwise it will signal the thread to terminate before waiting for the thread.
 
 
 ## -returns

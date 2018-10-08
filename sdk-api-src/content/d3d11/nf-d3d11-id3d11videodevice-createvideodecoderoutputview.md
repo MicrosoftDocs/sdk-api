@@ -4,10 +4,10 @@ title: ID3D11VideoDevice::CreateVideoDecoderOutputView
 author: windows-sdk-content
 description: Creates a resource view for a video decoder, describing the output sample for the decoding operation.
 old-location: mf\id3d11videodevice_createvideodecoderoutputview.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 8A3D72CF-B641-4219-8C88-FCE5231CF2F6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView method [Media Foundation], CreateVideoDecoderOutputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoDecoderOutputView method, ID3D11VideoDevice.CreateVideoDecoderOutputView, ID3D11VideoDevice::CreateVideoDecoderOutputView, d3d11/ID3D11VideoDevice::CreateVideoDecoderOutputView, mf.id3d11videodevice_createvideodecoderoutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices

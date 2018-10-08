@@ -4,10 +4,10 @@ title: IMFMuxStreamMediaTypeManager::AddStreamConfiguration
 author: windows-sdk-content
 description: Registers a stream configuration, which defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_addstreamconfiguration.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 9A647B60-ACA0-4878-A75B-54CA093DEDD0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddStreamConfiguration, AddStreamConfiguration method [Media Foundation], AddStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],AddStreamConfiguration method, IMFMuxStreamMediaTypeManager.AddStreamConfiguration, IMFMuxStreamMediaTypeManager::AddStreamConfiguration, mf.imfmuxstreammediatypemanager_addstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::AddStreamConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

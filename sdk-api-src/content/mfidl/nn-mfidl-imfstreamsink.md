@@ -4,10 +4,10 @@ title: IMFStreamSink
 author: windows-sdk-content
 description: Represents a stream on a media sink object.
 old-location: mf\imfstreamsink.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: fe403cab-b901-4c8e-a23c-788ee65c4689
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], IMFStreamSink interface [Media Foundation],described, fe403cab-b901-4c8e-a23c-788ee65c4689, mf.imfstreamsink, mfidl/IMFStreamSink
 ms.prod: windows
 ms.technology: windows-sdk

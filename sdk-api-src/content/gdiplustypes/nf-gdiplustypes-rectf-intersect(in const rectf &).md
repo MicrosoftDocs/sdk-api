@@ -2,21 +2,21 @@
 UID: NF:gdiplustypes.RectF.Intersect(IN const RectF &)
 title: RectF::Intersect(IN const RectF &)
 author: windows-sdk-content
-description: The RectF::Intersect method replaces this rectangle with the intersection of itself and another rectangle.
-old-location: gdiplus\_gdiplus_CLASS_RectF_Intersect_rect_.htm
+description: This topic lists the Intersect methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
+old-location: gdiplus\_gdiplus_CLASS_RectF_Intersect_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfintersectmethods\intersect_18rect.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfintersectmethods.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
-ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],RectF class, RectF class [GDI+],Intersect method, RectF.Intersect, RectF.Intersect(IN const RectF &), RectF.Intersect(const RectF&), RectF::Intersect, RectF::Intersect(IN const RectF &), _gdiplus_CLASS_RectF_Intersect_rect_, gdiplus._gdiplus_CLASS_RectF_Intersect_rect_
+ms.keywords: Intersect, Intersect methods [GDI+], RectF.Intersect, RectF.Intersect(IN const RectF &), RectF::Intersect, RectF::Intersect(IN const RectF &), _gdiplus_CLASS_RectF_Intersect_Methods, gdiplus._gdiplus_CLASS_RectF_Intersect_Methods, gdiplustypes/Intersect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdiplustypes.h
 api_name:
  - RectF.Intersect
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # RectF::Intersect(IN const RectF &)
@@ -51,56 +50,35 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>RectF::Intersect</b> method replaces this rectangle with the intersection of itself and another rectangle.
+<span>This topic lists the 
+			Intersect methods of the 
+			<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> class. For a complete list of methods for the 
+			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/f14f1693-b0f3-4e68-8245-846aef1ed299">RectF Methods</a>. 
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/6472A5EF-768E-4114-8BB0-CF641DD5337D">Intersect(RectF&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/6472A5EF-768E-4114-8BB0-CF641DD5337D">RectF::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
 
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/94375436-B522-454F-A66E-1D3B99CDCCF7">Intersect(RectF&,RectF&,RectF&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/94375436-B522-454F-A66E-1D3B99CDCCF7">RectF::Intersect</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param rect [in]
-
-Type: <b>const RectF&amp;</b>
-
-Reference to a rectangle that will be intersected with this rectangle. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
-
-If the intersection of the two rectangles is not empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/4b57bc29-cec2-4a66-9227-6a31d8f1d4de">Intersect Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
-
-
-
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
-
-
-
-<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
-
-
-
-<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
 

@@ -4,10 +4,10 @@ title: IMFCaptureRecordSink
 author: windows-sdk-content
 description: Controls the recording sink.
 old-location: mf\imfcapturerecordsink.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: AEF5923D-C4ED-4BEA-A969-163ED837A5BD
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], IMFCaptureRecordSink interface [Media Foundation],described, mf.imfcapturerecordsink, mfcaptureengine/IMFCaptureRecordSink
 ms.prod: windows
 ms.technology: windows-sdk

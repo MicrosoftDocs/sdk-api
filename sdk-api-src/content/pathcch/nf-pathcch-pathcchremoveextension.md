@@ -4,10 +4,10 @@ title: PathCchRemoveExtension function
 author: windows-sdk-content
 description: Removes the file name extension from a path, if one is present.This function differs from PathRemoveExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchRemoveExtension.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9adfb054-6d62-41bb-9036-0bf670ea24b2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathCchRemoveExtension, PathCchRemoveExtension function [Windows Shell], pathcch/PathCchRemoveExtension, shell.PathCchRemoveExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

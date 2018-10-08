@@ -7,7 +7,7 @@ old-location: controls\ListView_SetInfoTip.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinfotip.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ListView_SetInfoTip, ListView_SetInfoTip macro [Windows Controls], _win32_ListView_SetInfoTip, _win32_ListView_SetInfoTip_cpp, commctrl/ListView_SetInfoTip, controls.ListView_SetInfoTip, controls._win32_ListView_SetInfoTip
 ms.prod: windows-hardware
 ms.technology: windows-devices

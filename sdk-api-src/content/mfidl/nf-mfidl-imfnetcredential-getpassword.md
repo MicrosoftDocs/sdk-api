@@ -4,10 +4,10 @@ title: IMFNetCredential::GetPassword
 author: windows-sdk-content
 description: Retrieves the password.
 old-location: mf\imfnetcredential_getpassword.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ab7a4999-4a08-472c-bb7e-7068f2e2ac34
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetPassword, GetPassword method [Media Foundation], GetPassword method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetPassword method, IMFNetCredential.GetPassword, IMFNetCredential::GetPassword, ab7a4999-4a08-472c-bb7e-7068f2e2ac34, mf.imfnetcredential_getpassword, mfidl/IMFNetCredential::GetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices

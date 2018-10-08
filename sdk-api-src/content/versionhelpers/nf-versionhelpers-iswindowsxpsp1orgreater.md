@@ -4,10 +4,10 @@ title: IsWindowsXPSP1OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 1 (SP1) version.
 old-location: base\iswindowsxpsp1orgreater.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: F8921444-B13D-4522-84F2-4792F4F37EA5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IsWindowsXPSP1OrGreater, IsWindowsXPSP1OrGreater function, base.iswindowsxpsp1orgreater, versionhelpers/IsWindowsXPSP1OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

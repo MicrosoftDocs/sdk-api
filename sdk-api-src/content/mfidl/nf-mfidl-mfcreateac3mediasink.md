@@ -4,10 +4,10 @@ title: MFCreateAC3MediaSink function
 author: windows-sdk-content
 description: Creates an instance of the AC-3 media sink.
 old-location: mf\mfcreateac3mediasink.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 49203EBF-24F3-4D9D-85EC-77BD8780BB41
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateAC3MediaSink, MFCreateAC3MediaSink function [Media Foundation], mf.mfcreateac3mediasink, mfidl/MFCreateAC3MediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

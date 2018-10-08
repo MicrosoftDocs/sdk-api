@@ -4,10 +4,10 @@ title: IntlStrEqNW macro
 author: windows-sdk-content
 description: Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings.
 old-location: shell\IntlStrEqN.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ed777144-398c-4f36-bcc3-f6ba123ebfa7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IntlStrEqN, IntlStrEqN function [Windows Shell], IntlStrEqNA, IntlStrEqNW, _win32_IntlStrEqN, shell.IntlStrEqN, shlwapi/IntlStrEqN, shlwapi/IntlStrEqNA, shlwapi/IntlStrEqNW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getpositionsubsuper.htm
 tech.root: controls
 ms.assetid: c7e53a94-b218-47d1-b366-3bbf7779516e
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: GetPositionSubSuper, GetPositionSubSuper method [Windows Controls], GetPositionSubSuper method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetPositionSubSuper method, ITextFont2.GetPositionSubSuper, ITextFont2::GetPositionSubSuper, controls.itextfont2_getpositionsubsuper, tom/ITextFont2::GetPositionSubSuper
 ms.prod: windows-hardware
 ms.technology: windows-devices

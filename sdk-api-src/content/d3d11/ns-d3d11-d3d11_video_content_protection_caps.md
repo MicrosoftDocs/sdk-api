@@ -4,10 +4,10 @@ title: D3D11_VIDEO_CONTENT_PROTECTION_CAPS
 author: windows-sdk-content
 description: Describes the content-protection capabilities of a graphics driver.
 old-location: mf\d3d11_video_content_protection_caps.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 15691779-DC30-4C0C-86D0-497F2BD60614
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: D3D11_VIDEO_CONTENT_PROTECTION_CAPS, D3D11_VIDEO_CONTENT_PROTECTION_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_CONTENT_PROTECTION_CAPS, mf.d3d11_video_content_protection_caps
 ms.prod: windows
 ms.technology: windows-sdk

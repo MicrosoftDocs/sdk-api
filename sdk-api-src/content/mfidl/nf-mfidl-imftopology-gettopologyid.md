@@ -4,10 +4,10 @@ title: IMFTopology::GetTopologyID
 author: windows-sdk-content
 description: Gets the identifier of the topology.
 old-location: mf\imftopology_gettopologyid.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: f7d33d20-1b58-4b88-9a98-1004a5c42dfa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetTopologyID, GetTopologyID method [Media Foundation], GetTopologyID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetTopologyID method, IMFTopology.GetTopologyID, IMFTopology::GetTopologyID, f7d33d20-1b58-4b88-9a98-1004a5c42dfa, mf.imftopology_gettopologyid, mfidl/IMFTopology::GetTopologyID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CItemIDFactory::IsDelegateFolder
 author: windows-sdk-content
 description: Gets a Boolean value specifying whether the factory is a delegate folder.
 old-location: shell\citemidfactory_isdelegatefolder.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 269DFCDF-A5F7-4367-8B08-3A5015BB04FE
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],IsDelegateFolder method, CItemIDFactory.IsDelegateFolder, CItemIDFactory::IsDelegateFolder, IsDelegateFolder, IsDelegateFolder method [Windows Shell], IsDelegateFolder method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_isdelegatefolder, shidfact/CItemIDFactory::IsDelegateFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

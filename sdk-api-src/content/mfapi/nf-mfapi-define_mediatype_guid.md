@@ -4,10 +4,10 @@ title: DEFINE_MEDIATYPE_GUID macro
 author: windows-sdk-content
 description: Defines a media subtype GUID from a FOURCC code, D3DFORMAT value, or audio format type.
 old-location: mf\define_mediatype_guid_macro.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: be094ccc-a475-480a-a345-bdad70b11f45
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DEFINE_MEDIATYPE_GUID, DEFINE_MEDIATYPE_GUID macro [Media Foundation], be094ccc-a475-480a-a345-bdad70b11f45, mf.define_mediatype_guid_macro, mfapi/DEFINE_MEDIATYPE_GUID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFMuxStreamSampleManager
 author: windows-sdk-content
 description: Provides the ability to retrieve IMFSample objects for individual substreams within the output of a multiplexed media source.
 old-location: mf\imfmuxstreamsamplemanager.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: DABA5955-1366-4CEE-ABDF-7CC0F3788A8E
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], IMFMuxStreamSampleManager interface [Media Foundation],described, mf.imfmuxstreamsamplemanager, mfobjects/IMFMuxStreamSampleManager
 ms.prod: windows
 ms.technology: windows-sdk

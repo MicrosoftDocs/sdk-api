@@ -4,10 +4,10 @@ title: IMFAttributes::SetGUID
 author: windows-sdk-content
 description: Associates a GUID value with a key.
 old-location: mf\imfattributes_setguid.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: d73b53f5-4a8f-4903-986d-fbf4277a2d45
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetGUID method, IMFAttributes.SetGUID, IMFAttributes::SetGUID, SetGUID, SetGUID method [Media Foundation], SetGUID method [Media Foundation],IMFAttributes interface, d73b53f5-4a8f-4903-986d-fbf4277a2d45, mf.imfattributes_setguid, mfobjects/IMFAttributes::SetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices

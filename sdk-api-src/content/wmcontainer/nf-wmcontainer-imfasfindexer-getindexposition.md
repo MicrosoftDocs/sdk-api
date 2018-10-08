@@ -4,10 +4,10 @@ title: IMFASFIndexer::GetIndexPosition
 author: windows-sdk-content
 description: Retrieves the offset of the index object from the start of the content.
 old-location: mf\imfasfindexer_getindexposition.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 7ef0e36c-1be5-44ac-8f6a-e29805c99e78
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 7ef0e36c-1be5-44ac-8f6a-e29805c99e78, GetIndexPosition, GetIndexPosition method [Media Foundation], GetIndexPosition method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexPosition method, IMFASFIndexer.GetIndexPosition, IMFASFIndexer::GetIndexPosition, mf.imfasfindexer_getindexposition, wmcontainer/IMFASFIndexer::GetIndexPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

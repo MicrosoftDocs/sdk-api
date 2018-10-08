@@ -2,21 +2,21 @@
 UID: NF:d2d1.ID2D1RenderTarget.CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget)
 title: ID2D1RenderTarget::CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget)
 author: windows-sdk-content
-description: Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
-old-location: direct2d\id2d1rendertarget_createcompatiblerendertarget.htm
-tech.root: direct2d
-ms.assetid: 4a799a7c-0d2f-460f-99f9-24c6cf7c4537
+description: Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target.
+old-location: direct2d\ID2D1RenderTarget_CreateCompatibleRenderTarget_overload2.htm
+tech.root: Direct2D
+ms.assetid: a276af2d-b9bf-465b-86cf-f5bc27c3447f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget methods [Direct2D], ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget.CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget), ID2D1RenderTarget::CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget), d2d1/CreateCompatibleRenderTarget, direct2d.id2d1rendertarget_createcompatiblerendertarget
+ms.date: 10/05/2018
+ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget method [Direct2D], CreateCompatibleRenderTarget method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateCompatibleRenderTarget method, ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget.CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget), ID2D1RenderTarget::CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget), d2d1/ID2D1RenderTarget::CreateCompatibleRenderTarget, direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_overload2, direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_ptr_D2D_SIZE_F_ptr_D2D_SIZE_U_ptr_D2D1_PIXEL_FORMAT_D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_ptr_ptr_ID2D1BitmapRenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget::CreateCompatibleRenderTarget
+ - ID2D1RenderTarget.CreateCompatibleRenderTarget
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,69 +50,75 @@ req.redist:
 ## -description
 
 
-<span>Creates a new  bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/043d18f4-0cf6-47eb-9a1e-aa676a947bd6">CreateCompatibleRenderTarget(D2D1_SIZE_F,D2D1_SIZE_U,D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget**)</a>
-</td>
-<td align="left" width="63%">
-Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a276af2d-b9bf-465b-86cf-f5bc27c3447f">CreateCompatibleRenderTarget(D2D1_SIZE_F*,D2D1_SIZE_U*,D2D1_PIXEL_FORMAT*,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget**)</a>
-</td>
-<td align="left" width="63%">
 Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target. 
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e36fbf45-9827-4ea0-ac52-676ba826a7d3">CreateCompatibleRenderTarget(ID2D1BitmapRenderTarget**)</a>
-</td>
-<td align="left" width="63%">
-Creates a new  bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same size, DPI, and pixel format (but not alpha mode) as the current render target.  
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8687186-abea-4412-83f7-b0d89b453d9d">CreateCompatibleRenderTarget(D2D1_SIZE_F,ID2D1BitmapRenderTarget**)</a>
-</td>
-<td align="left" width="63%">
-Creates a new  bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same pixel format (but not alpha mode) as the current render target.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/948f9ab7-22d4-427c-9b48-fe0a018b9626">CreateCompatibleRenderTarget(D2D1_SIZE_F,D2D1_SIZE_U,ID2D1BitmapRenderTarget**)</a>
-</td>
-<td align="left" width="63%">
-Creates a bitmap render target for use during intermediate off-screen drawing that is compatible with the current render target. The new bitmap render target has the same pixel format (but not alpha mode) as the current render target.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a80f460-56b2-4049-9de9-8fcde06c063c">CreateCompatibleRenderTarget(D2D1_SIZE_F,D2D1_SIZE_U,D2D1_PIXEL_FORMAT,ID2D1BitmapRenderTarget**)</a>
-</td>
-<td align="left" width="63%">
-Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param desiredSize [in, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a>*</b>
+
+The desired size of the new render target in device-independent pixels if it should be different from the original render target, or <b>NULL</b>. For more information, see the Remarks section. 
+
+
+### -param desiredPixelSize [in, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e6">D2D1_SIZE_U</a>*</b>
+
+The desired size of the new render target in pixels if it should be different from the original render target, or <b>NULL</b>. For more information, see the Remarks section.
+
+
+### -param desiredFormat [in, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/e95afd9c-5793-4cb7-bcb8-aae4d28b6532">D2D1_PIXEL_FORMAT</a>*</b>
+
+The desired pixel format and alpha mode of the new render target, or <b>NULL</b>. If the pixel format is set to <b>DXGI_FORMAT_UNKNOWN</b> or if this parameter is null, the new render target uses the same pixel format as the original render target. If the alpha mode is <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_UNKNOWN</a> or this parameter is <b>NULL</b>, the alpha mode of the new render target defaults to <b>D2D1_ALPHA_MODE_PREMULTIPLIED</b>. For information about supported pixel formats, see  <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel  Formats and Alpha Modes</a>.
+
+
+### -param options
+
+Type: <b><a href="https://msdn.microsoft.com/c20bf016-2304-4bd3-88ad-42d81e69c302">D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS</a></b>
+
+A value that specifies whether the new render target must be compatible with GDI.
+
+
+### -param bitmapRenderTarget [out]
+
+Type: <b><a href="https://msdn.microsoft.com/f298d4f7-acb8-4fbe-89f7-2410e3b753bd">ID2D1BitmapRenderTarget</a>**</b>
+
+When this method returns, contains the address of  a pointer to a new bitmap render target. This parameter is passed uninitialized.
+
+
+## -returns
+
+
+
+Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This method creates a render target that can be used for intermediate offscreen drawing. The intermediate render target is created in the same location (on the same adapter or in system memory) as the original render target, which allows efficient rendering of the intermediate results to the final target. The DPI, bit depth, pixel format (with the exception of alpha mode), and color space all default to those of the original render target.
+
+The pixel size and DPI of the new render target can be modified by specifying values for <i>desiredSize</i> or <i>desiredPixelSize</i>:  
+
+<ul>
+<li>If <i>desiredSize</i> is specified but <i>desiredPixelSize</i> is not, the pixel size is computed from the desired size using the parent target DPI. If the <i>desiredSize</i> maps to a integer-pixel size, the DPI of the compatible render target is the same as the DPI of the parent target.  If <i>desiredSize</i> maps to a fractional-pixel size, the pixel size is rounded up to the nearest integer and the DPI for the compatible render target is slightly higher than the DPI of the parent render target. In all cases, the coordinate (<i>desiredSize</i>.width, <i>desiredSize</i>.height) maps to the lower-right corner of the compatible render target.</li>
+<li>If the <i>desiredPixelSize</i> is specified and <i>desiredSize</i>  is not, the DPI of the new render target is the same as the original render target.</li>
+<li>If both <i>desiredSize</i>  and <i>desiredPixelSize</i> are specified, the DPI of the new render target is computed to account for the difference in scale.</li>
+<li>If neither <i>desiredSize</i> nor <i>desiredPixelSize</i> is specified, the new render target size and DPI match the original render target. </li>
+</ul>
+
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: security\keycredentialmanagerfreeinformation.htm
 tech.root: secauthn
 ms.assetid: CE89671C-C70D-49C0-AA22-E39EEAA310D7
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: KeyCredentialManagerFreeInformation, KeyCredentialManagerFreeInformation function [Security], keycredmgr/KeyCredentialManagerFreeInformation, security.keycredentialmanagerfreeinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,8 +50,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 API to free the <a href="security.keycredentialmanagerinfo">KeyCredentialManagerInfo</a> pointer variable from the <a href="security.keycredentialmanagergetinformation">KeyCredentialManagerGetInformation</a> call.
 

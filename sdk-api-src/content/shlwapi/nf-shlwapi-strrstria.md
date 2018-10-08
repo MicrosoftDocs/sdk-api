@@ -4,10 +4,10 @@ title: StrRStrIA function
 author: windows-sdk-content
 description: Searches for the last occurrence of a specified substring within a string. The comparison is not case-sensitive.
 old-location: shell\StrRStrI.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 41057976-6443-40dc-96f7-f2cbd5d494de
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrRStrI, StrRStrI function [Windows Shell], StrRStrIA, StrRStrIW, _win32_StrRStrI, shell.StrRStrI, shlwapi/StrRStrI, shlwapi/StrRStrIA, shlwapi/StrRStrIW
 ms.prod: windows-hardware
 ms.technology: windows-devices

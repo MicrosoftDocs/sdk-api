@@ -4,10 +4,10 @@ title: StringGetter function
 author: windows-sdk-content
 description: Calls a member-function property getter callback for a string-type property.
 old-location: direct2d\stringgetter.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9C35AF38-1937-46DD-8DC4-BBA322E5CAAA
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: StringGetter, StringGetter function [Direct2D], d2d1effecthelpers/StringGetter, direct2d.stringgetter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPSEC_TOKEN_MODE_
 author: windows-sdk-content
 description: Different IPsec modes in which a token can be obtained.
 old-location: fwp\ipsec_token_mode.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 5f90e473-39e1-4eed-9ea1-1f20929d5a07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IPSEC_TOKEN_MODE, IPSEC_TOKEN_MODE enumeration [Filtering], IPSEC_TOKEN_MODE_, IPSEC_TOKEN_MODE_EXTENDED, IPSEC_TOKEN_MODE_MAIN, IPSEC_TOKEN_MODE_MAX, fwp.ipsec_token_mode, ipsectypes/IPSEC_TOKEN_MODE, ipsectypes/IPSEC_TOKEN_MODE_EXTENDED, ipsectypes/IPSEC_TOKEN_MODE_MAIN, ipsectypes/IPSEC_TOKEN_MODE_MAX
 ms.prod: windows
 ms.technology: windows-sdk

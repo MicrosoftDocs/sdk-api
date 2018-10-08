@@ -4,10 +4,10 @@ title: IDirect3DDeviceManager9::ResetDevice
 author: windows-sdk-content
 description: Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.
 old-location: mf\idirect3ddevicemanager9_resetdevice.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33, IDirect3DDeviceManager9 interface [Media Foundation],ResetDevice method, IDirect3DDeviceManager9.ResetDevice, IDirect3DDeviceManager9::ResetDevice, ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::ResetDevice, mf.idirect3ddevicemanager9_resetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFCreateVideoSampleFromSurface
 author: windows-sdk-content
 description: Creates a media sample that manages a Direct3D surface.
 old-location: mf\mfcreatevideosamplefromsurface.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
 ms.prod: windows
 ms.technology: windows-sdk

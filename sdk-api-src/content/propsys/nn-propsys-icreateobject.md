@@ -4,10 +4,10 @@ title: ICreateObject
 author: windows-sdk-content
 description: Exposes a method that creates an object of a specified class.
 old-location: shell\ICreateObject.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 90502b4a-dc0a-4077-83d7-e9f5445ba69b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ICreateObject, ICreateObject interface [Windows Shell], ICreateObject interface [Windows Shell],described, _shell_ICreateObject, propsys/ICreateObject, shell.ICreateObject
 ms.prod: windows
 ms.technology: windows-sdk

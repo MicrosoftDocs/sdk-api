@@ -7,7 +7,7 @@ old-location: controls\DPA_GetPtrCount.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrcount.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: DPA_GetPtrCount, DPA_GetPtrCount macro [Windows Controls], _shell_DPA_GetPtrCount, _shell_DPA_GetPtrCount_cpp, controls.DPA_GetPtrCount, controls._shell_DPA_GetPtrCount, dpa_dsa/DPA_GetPtrCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

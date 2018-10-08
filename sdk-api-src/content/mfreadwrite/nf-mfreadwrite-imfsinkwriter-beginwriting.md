@@ -4,10 +4,10 @@ title: IMFSinkWriter::BeginWriting
 author: windows-sdk-content
 description: Initializes the sink writer for writing.
 old-location: mf\imfsinkwriter_beginwriting.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 32252658-662e-4d2f-a5fe-34f24ce60094
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: BeginWriting, BeginWriting method [Media Foundation], BeginWriting method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],BeginWriting method, IMFSinkWriter.BeginWriting, IMFSinkWriter::BeginWriting, mf.imfsinkwriter_beginwriting, mfreadwrite/IMFSinkWriter::BeginWriting
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ISyncMgrResolutionHandler::RemoveFromSyncSet
 author: windows-sdk-content
 description: Deletes the conflict and removes the IShellItem from synchronization.
 old-location: shell\ISyncMgrResolutionHandler_RemoveFromSyncSet.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3f65f844-efa2-43b9-91f2-c9c0ed4e3a9e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],RemoveFromSyncSet method, ISyncMgrResolutionHandler.RemoveFromSyncSet, ISyncMgrResolutionHandler::RemoveFromSyncSet, RemoveFromSyncSet, RemoveFromSyncSet method [Windows Shell], RemoveFromSyncSet method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_RemoveFromSyncSet, shell.ISyncMgrResolutionHandler_RemoveFromSyncSet, syncmgr/ISyncMgrResolutionHandler::RemoveFromSyncSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

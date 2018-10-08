@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Region.Exclude(IN const Rect &)
 title: Region::Exclude(IN const Rect &)
 author: windows-sdk-content
-description: The Region::Exclude method updates this region to the portion of itself that does not intersect the specified rectangle's interior.
-old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_Rect_rect_.htm
+description: This topic lists the Exclude methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
+old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods\exclude_65rectamprect.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
-ms.keywords: Exclude, Exclude method [GDI+], Exclude method [GDI+],Region class, Region class [GDI+],Exclude method, Region.Exclude, Region.Exclude(IN const Rect &), Region.Exclude(const Rect&), Region::Exclude, Region::Exclude(IN const Rect &), _gdiplus_CLASS_Region_Exclude_Rect_rect_, gdiplus._gdiplus_CLASS_Region_Exclude_Rect_rect_
+ms.keywords: Exclude, Exclude methods [GDI+], Region.Exclude, Region.Exclude(IN const Rect &), Region::Exclude, Region::Exclude(IN const Rect &), _gdiplus_CLASS_Region_Exclude_Methods, gdiplus._gdiplus_CLASS_Region_Exclude_Methods, gdiplusheaders/Exclude
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdiplusheaders.h
 api_name:
  - Region.Exclude
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # Region::Exclude(IN const Rect &)
@@ -51,53 +50,52 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Region::Exclude</b> method updates this region to the portion of itself that does not intersect the specified rectangle's interior.
+<span>This topic lists the 
+			Exclude methods of the 
+			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.
 
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b8a1fd06-45d5-426d-9582-8d5e837d1824">Exclude(Rect&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/b8a1fd06-45d5-426d-9582-8d5e837d1824">Region::Exclude</a> method updates this region to the portion of itself that does not intersect the specified rectangle's interior.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b0dd721b-92bd-4423-836f-7ccc1c6be801">Exclude(RectF&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/b0dd721b-92bd-4423-836f-7ccc1c6be801">Region::Exclude</a> method updates this region to the portion of itself that does not intersect the specified rectangle's interior.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/1d987ce0-43e1-4133-817a-bec0a6fb064c">Exclude(Region*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/1d987ce0-43e1-4133-817a-bec0a6fb064c">Region::Exclude</a> method updates this region to the portion of itself that does not intersect another region.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/6202c135-6eb3-4465-bda4-b904f66ba1d3">Exclude(GraphicsPath*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/6202c135-6eb3-4465-bda4-b904f66ba1d3">Region::Exclude</a> method updates this region to the portion of itself that does not intersect the specified path's interior.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param rect [in, ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
-
-Reference to a rectangle to use to update this 
-					<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
-</strong>
-
-If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
-
-
-
-<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
-
-
-
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
- 
-
- 
 

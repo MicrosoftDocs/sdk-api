@@ -4,10 +4,10 @@ title: IActionProgress::ResetCancel
 author: windows-sdk-content
 description: Resets progress dialog after a cancellation has been completed.
 old-location: shell\IActionProgress_ResetCancel.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 28a2ee51-0a7a-4802-be55-f111be3a4d2d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IActionProgress interface [Windows Shell],ResetCancel method, IActionProgress.ResetCancel, IActionProgress::ResetCancel, ResetCancel, ResetCancel method [Windows Shell], ResetCancel method [Windows Shell],IActionProgress interface, shell.IActionProgress_ResetCancel, shell_IActionProgress_ResetCancel, shobjidl_core/IActionProgress::ResetCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

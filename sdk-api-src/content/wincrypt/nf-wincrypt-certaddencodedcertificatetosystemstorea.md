@@ -7,7 +7,7 @@ old-location: security\certaddencodedcertificatetosystemstore.htm
 tech.root: seccrypto
 ms.assetid: 72ff1bcc-eb94-4d97-89fa-d95ed9eb460e
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: CertAddEncodedCertificateToSystemStore, CertAddEncodedCertificateToSystemStore function [Security], CertAddEncodedCertificateToSystemStoreA, CertAddEncodedCertificateToSystemStoreW, security.certaddencodedcertificatetosystemstore, wincrypt/CertAddEncodedCertificateToSystemStore, wincrypt/CertAddEncodedCertificateToSystemStoreA, wincrypt/CertAddEncodedCertificateToSystemStoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices

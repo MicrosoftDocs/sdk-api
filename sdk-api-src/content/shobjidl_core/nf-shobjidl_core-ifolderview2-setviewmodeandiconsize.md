@@ -4,10 +4,10 @@ title: IFolderView2::SetViewModeAndIconSize
 author: windows-sdk-content
 description: Sets and applies the view mode and image size.
 old-location: shell\IFolderView2_SetViewModeAndIconSize.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 52724e5d-074f-4715-9dca-50ed22d8519e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetViewModeAndIconSize method, IFolderView2.SetViewModeAndIconSize, IFolderView2::SetViewModeAndIconSize, SetViewModeAndIconSize, SetViewModeAndIconSize method [Windows Shell], SetViewModeAndIconSize method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetViewModeAndIconSize, shell.IFolderView2_SetViewModeAndIconSize, shobjidl_core/IFolderView2::SetViewModeAndIconSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

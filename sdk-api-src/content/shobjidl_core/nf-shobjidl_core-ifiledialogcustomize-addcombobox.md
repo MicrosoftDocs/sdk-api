@@ -4,10 +4,10 @@ title: IFileDialogCustomize::AddComboBox
 author: windows-sdk-content
 description: Adds a combo box to the dialog.
 old-location: shell\IFileDialogCustomize_AddComboBox.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fdb7d682-5182-4bc0-b256-5073bd55c96d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AddComboBox, AddComboBox method [Windows Shell], AddComboBox method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddComboBox method, IFileDialogCustomize.AddComboBox, IFileDialogCustomize::AddComboBox, shell.IFileDialogCustomize_AddComboBox, shell_IFileDialogCustomize_AddComboBox, shobjidl_core/IFileDialogCustomize::AddComboBox
 ms.prod: windows-hardware
 ms.technology: windows-devices

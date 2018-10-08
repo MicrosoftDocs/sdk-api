@@ -4,10 +4,10 @@ title: ISyncMgrSyncItemContainer::GetSyncItemCount
 author: windows-sdk-content
 description: Gets a count of the sync items in the container.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemCount.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bbe37dff-d758-41ca-872d-4607d605011d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetSyncItemCount, GetSyncItemCount method [Windows Shell], GetSyncItemCount method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItemCount method, ISyncMgrSyncItemContainer.GetSyncItemCount, ISyncMgrSyncItemContainer::GetSyncItemCount, _shell_ISyncMgrSyncItemContainer_GetSyncItemCount, shell.ISyncMgrSyncItemContainer_GetSyncItemCount, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

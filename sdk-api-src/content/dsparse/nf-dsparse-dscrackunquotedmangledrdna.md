@@ -4,10 +4,10 @@ title: DsCrackUnquotedMangledRdnA function
 author: windows-sdk-content
 description: The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used.
 old-location: ad\dscrackunquotedmangledrdn.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 30711d2d-f541-46b4-a301-a0f9fc7d6676
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DsCrackUnquotedMangledRdn, DsCrackUnquotedMangledRdn function [Active Directory], DsCrackUnquotedMangledRdnA, DsCrackUnquotedMangledRdnW, _glines_dscrackunquotedmangledrdn, ad.dscrackunquotedmangledrdn, dsparse/DsCrackUnquotedMangledRdn, dsparse/DsCrackUnquotedMangledRdnA, dsparse/DsCrackUnquotedMangledRdnW
 ms.prod: windows-hardware
 ms.technology: windows-devices

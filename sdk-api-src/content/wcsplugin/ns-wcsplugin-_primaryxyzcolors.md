@@ -7,7 +7,7 @@ old-location: wcs\primaryxyzcolors.htm
 tech.root: WCS
 ms.assetid: 386d71ae-5997-4086-b034-7de356eed0a9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: PrimaryXYZColors, PrimaryXYZColors structure [Windows Color System], _PrimaryXYZColors, _color_PrimaryXYZColors_str, wcs.primaryxyzcolors, wcsplugin/PrimaryXYZColors
 ms.prod: windows
 ms.technology: windows-sdk

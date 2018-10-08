@@ -4,10 +4,10 @@ title: "_MFOffset"
 author: windows-sdk-content
 description: Specifies an offset as a fixed-point real number.
 old-location: mf\mfoffset.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFOffset, MFOffset structure [Media Foundation], _MFOffset, e93539fe-3e4a-4b34-8d6a-b3f300a70ffc, mf.mfoffset, mfobjects/MFOffset
 ms.prod: windows
 ms.technology: windows-sdk

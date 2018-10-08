@@ -4,10 +4,10 @@ title: GetProcessId function
 author: windows-sdk-content
 description: Retrieves the process identifier of the specified process.
 old-location: base\getprocessid.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 9a024147-8bfe-427a-af12-a63f23328e38
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: GetProcessId, GetProcessId function, base.getprocessid, processthreadsapi/GetProcessId, winbase/GetProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -3,12 +3,12 @@ UID: NF:d2d1.ID2D1RenderTarget.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACI
 title: ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &)
 author: windows-sdk-content
 description: Applies the opacity mask described by the specified bitmap to a brush and uses that brush to paint a region of the render target.
-old-location: direct2d\ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ptr_D2D_RECT_F_ptr_D2D_RECT_F_ptr_D2D1_GAMMA.htm
-tech.root: direct2d
-ms.assetid: 9d482d3e-f957-4dd4-ba40-c8ef9c522f72
+old-location: direct2d\ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ref_D2D_RECT_F_ref_D2D_RECT_F_D2D1_GAMMA.htm
+tech.root: Direct2D
+ms.assetid: b55cc9f3-7378-4ffd-bc71-8e06a2fb9f9e
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: FillOpacityMask, FillOpacityMask method [Direct2D], FillOpacityMask method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillOpacityMask method, ID2D1RenderTarget.FillOpacityMask, ID2D1RenderTarget.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &), ID2D1RenderTarget::FillOpacityMask, ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &), d2d1/ID2D1RenderTarget::FillOpacityMask, direct2d.ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ptr_D2D_RECT_F_ptr_D2D_RECT_F_ptr_D2D1_GAMMA
+ms.date: 10/05/2018
+ms.keywords: FillOpacityMask, FillOpacityMask method [Direct2D], FillOpacityMask method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillOpacityMask method, ID2D1RenderTarget.FillOpacityMask, ID2D1RenderTarget.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &), ID2D1RenderTarget::FillOpacityMask, ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &), d2d1/ID2D1RenderTarget::FillOpacityMask, direct2d.ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ref_D2D_RECT_F_ref_D2D_RECT_F_D2D1_GAMMA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,23 +76,23 @@ The brush used to paint the region of the render target specified by <i>destinat
 
 Type: <b><a href="https://msdn.microsoft.com/ea14d7eb-b8cc-4ab8-8f51-9174748ee6a2">D2D1_OPACITY_MASK_CONTENT</a></b>
 
-The type of content the opacity mask contains. The value is used to determine the color space in which the opacity mask is blended. 
+The type of content the opacity mask contains. The value is used to determine the color space in which the opacity mask is blended.
 
 <div class="alert"><b>Note</b>  Starting with Windows 8, the <a href="https://msdn.microsoft.com/ea14d7eb-b8cc-4ab8-8f51-9174748ee6a2">D2D1_OPACITY_MASK_CONTENT</a> is not required. See the <a href="https://msdn.microsoft.com/5D5BF7E9-AC5A-49B7-A04E-97B8377243FE">ID2D1DeviceContext::FillOpacityMask</a> method, which has no <b>D2D1_OPACITY_MASK_CONTENT</b> parameter.</div>
 <div> </div>
 
-### -param destinationRectangle [in, optional]
+### -param destinationRectangle [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
-The region of the render target to paint, in device-independent pixels, or <b>NULL</b>. If <b>NULL</b> is specified, the brush paints a rectangle the same size as <i>sourceRectangle</i>, but positioned on the origin. If <i>sourceRectangle</i> isn't specified, the brush paints a rectangle the same size as the <i>opacityMask</i> bitmap and positioned on the origin.
+The region of the render target to paint, in device-independent pixels. 
 
 
-### -param sourceRectangle [in, optional]
+### -param sourceRectangle [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
-The region of the bitmap to use as the opacity mask, in device-independent pixels, or <b>NULL</b>. If <b>NULL</b> is specified, the entire bitmap is used. 
+The region of the bitmap to use as the opacity mask, in device-independent pixels.
 
 
 ## -returns

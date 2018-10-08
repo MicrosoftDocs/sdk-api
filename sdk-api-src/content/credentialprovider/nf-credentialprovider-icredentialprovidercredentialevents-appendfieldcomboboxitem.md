@@ -4,10 +4,10 @@ title: ICredentialProviderCredentialEvents::AppendFieldComboBoxItem
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that a combo box needs an item appended and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_AppendFieldComboBoxItem.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 3d434b2c-29be-4301-9271-89688ec8d048
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: AppendFieldComboBoxItem, AppendFieldComboBoxItem method [Windows Shell], AppendFieldComboBoxItem method [Windows Shell],ICredentialProviderCredentialEvents interface, ICredentialProviderCredentialEvents interface [Windows Shell],AppendFieldComboBoxItem method, ICredentialProviderCredentialEvents.AppendFieldComboBoxItem, ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_AppendFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_AppendFieldComboBoxItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

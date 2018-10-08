@@ -4,10 +4,10 @@ title: MFP_MEDIAITEM_CREATED_EVENT
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_CREATED event.
 old-location: mf\mfp_mediaitem_created_event.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 68e4076f-c03c-4780-9731-67eb6e78ec8b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFP_MEDIAITEM_CREATED_EVENT, MFP_MEDIAITEM_CREATED_EVENT structure [Media Foundation], mf.mfp_mediaitem_created_event, mfplay/MFP_MEDIAITEM_CREATED_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

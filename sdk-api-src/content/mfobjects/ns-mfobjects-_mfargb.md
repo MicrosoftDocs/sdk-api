@@ -4,10 +4,10 @@ title: "_MFARGB"
 author: windows-sdk-content
 description: Describes an ARGB color value.
 old-location: mf\mfargb.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: ce7ac174-9f00-42a4-9b48-ed86b406d83e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFARGB, MFARGB structure [Media Foundation], _MFARGB, ce7ac174-9f00-42a4-9b48-ed86b406d83e, mf.mfargb, mfobjects/MFARGB
 ms.prod: windows
 ms.technology: windows-sdk

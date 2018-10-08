@@ -4,10 +4,10 @@ title: MFCreateDeviceSource function
 author: windows-sdk-content
 description: Creates a media source for a hardware capture device.
 old-location: mf\mfcreatedevicesource.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 9f80b604-1cc2-4d0d-b94e-a2b9dab1fdde
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateDeviceSource, MFCreateDeviceSource function [Media Foundation], mf.mfcreatedevicesource, mfidl/MFCreateDeviceSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

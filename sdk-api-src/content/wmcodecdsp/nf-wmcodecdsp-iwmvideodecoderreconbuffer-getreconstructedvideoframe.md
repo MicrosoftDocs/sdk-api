@@ -4,10 +4,10 @@ title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame
 author: windows-sdk-content
 description: Note  This method is obsolete and should not be used. Retrieves the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffergetreconstructedvideoframe.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 6e952923-2043-4b0d-b936-c570373a3544
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetReconstructedVideoFrame, GetReconstructedVideoFrame method [Media Foundation], GetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframe, mf.iwmvideodecoderreconbuffergetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

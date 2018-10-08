@@ -4,10 +4,10 @@ title: "_DXVA2_DecodeExtensionData"
 author: windows-sdk-content
 description: Contains private data for the IDirectXVideoDecoder::Execute method.
 old-location: mf\dxva2_decodeextensiondata.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358, DXVA2_DecodeExtensionData, DXVA2_DecodeExtensionData structure [Media Foundation], _DXVA2_DecodeExtensionData, dxva2api/DXVA2_DecodeExtensionData, mf.dxva2_decodeextensiondata
 ms.prod: windows
 ms.technology: windows-sdk

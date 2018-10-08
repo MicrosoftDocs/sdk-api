@@ -4,10 +4,10 @@ title: IMFSecureChannel::SetupSession
 author: windows-sdk-content
 description: Passes the encrypted session key to the client.
 old-location: mf\imfsecurechannel_setupsession.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: a4d38056-ea6a-441e-8b77-39ffd316cb5a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFSecureChannel interface [Media Foundation],SetupSession method, IMFSecureChannel.SetupSession, IMFSecureChannel::SetupSession, SetupSession, SetupSession method [Media Foundation], SetupSession method [Media Foundation],IMFSecureChannel interface, a4d38056-ea6a-441e-8b77-39ffd316cb5a, mf.imfsecurechannel_setupsession, mfidl/IMFSecureChannel::SetupSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

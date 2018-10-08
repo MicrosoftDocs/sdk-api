@@ -7,7 +7,7 @@ old-location: controls\IMAGEINFO.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPIMAGEINFO, IMAGEINFO, IMAGEINFO structure [Windows Controls], LPIMAGEINFO, LPIMAGEINFO structure pointer [Windows Controls], _win32_IMAGEINFO, _win32_IMAGEINFO_cpp, commoncontrols/IMAGEINFO, commoncontrols/LPIMAGEINFO, controls.IMAGEINFO, controls._win32_IMAGEINFO, tagIMAGEINFO"
 ms.prod: windows
 ms.technology: windows-sdk

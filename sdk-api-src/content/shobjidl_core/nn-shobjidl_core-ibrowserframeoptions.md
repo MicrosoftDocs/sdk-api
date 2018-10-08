@@ -4,10 +4,10 @@ title: IBrowserFrameOptions
 author: windows-sdk-content
 description: Allows a browser or host to ask IShellView what kind of view behavior is supported.
 old-location: shell\IBrowserFrameOptions.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ef5773fb-8b89-4034-9059-06b107dbd76d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBrowserFrameOptions, IBrowserFrameOptions interface [Windows Shell], IBrowserFrameOptions interface [Windows Shell],described, _shell_IBrowserFrameOptions, shell.IBrowserFrameOptions, shobjidl_core/IBrowserFrameOptions
 ms.prod: windows
 ms.technology: windows-sdk

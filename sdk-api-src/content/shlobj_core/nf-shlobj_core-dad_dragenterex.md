@@ -4,10 +4,10 @@ title: DAD_DragEnterEx function
 author: windows-sdk-content
 description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.
 old-location: shell\DAD_DragEnterEx.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 32f98df7-e357-4d17-9e33-f162a6ffb7ed
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DAD_DragEnterEx, DAD_DragEnterEx function [Windows Shell], shell.DAD_DragEnterEx, shell_DAD_DragEnterEx, shlobj_core/DAD_DragEnterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

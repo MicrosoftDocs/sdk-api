@@ -4,10 +4,10 @@ title: StrNCatW function
 author: windows-sdk-content
 description: Appends a specified number of characters from the beginning of one string to the end of another.
 old-location: shell\StrNCat.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 28099350-5759-4595-8353-3452c5cf6ca8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrNCat, StrNCat function [Windows Shell], StrNCatA, StrNCatW, _win32_StrNCat, shell.StrNCat, shlwapi/StrNCat, shlwapi/StrNCatA, shlwapi/StrNCatW
 ms.prod: windows-hardware
 ms.technology: windows-devices

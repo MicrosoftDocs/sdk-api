@@ -4,10 +4,10 @@ title: WriteProfileStringW function
 author: windows-sdk-content
 description: Copies a string into the specified section of the Win.ini file.
 old-location: base\writeprofilestring.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: WriteProfileString, WriteProfileString function, WriteProfileStringA, WriteProfileStringW, _win32_writeprofilestring, base.writeprofilestring, winbase/WriteProfileString, winbase/WriteProfileStringA, winbase/WriteProfileStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

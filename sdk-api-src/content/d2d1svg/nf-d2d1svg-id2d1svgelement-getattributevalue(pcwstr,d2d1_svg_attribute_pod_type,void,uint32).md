@@ -2,13 +2,13 @@
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,void,UINT32)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,void,UINT32)
 author: windows-sdk-content
-description: Gets an attribute of this element as a string.
-old-location: direct2d\id2d1svgelement_getattributevalue.htm
-tech.root: direct2d
-ms.assetid: 3C05DC2D-6B45-4979-8BBC-CD437068B92A
+description: Gets an attribute of this element as a POD type.
+old-location: direct2d\id2d1svgelement_getattributevalue_2.htm
+tech.root: Direct2D
+ms.assetid: E28EA740-E5A6-4C5F-95DB-D3CF8F8922F8
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,void,UINT32), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,void,UINT32), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue
+ms.date: 10/05/2018
+ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,void,UINT32), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,void,UINT32), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets an attribute of this element as a string. 
+Gets an attribute of this element as a POD type.
 
 
 ## -parameters
@@ -65,32 +65,25 @@ Type: <b>PCWSTR</b>
 The name of the attribute.
 
 
-#### - type
+### -param type
 
-Type: <b><a href="https://msdn.microsoft.com/71991A28-FEA0-42A1-B5D0-DA13BBA77500">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/B04D5E56-8E59-4907-BEA0-D954A300DAD0">D2D1_SVG_ATTRIBUTE_POD_TYPE</a></b>
 
-The string type.
+The POD type of the value.
 
 
 ### -param value [out]
 
-Type: <b>PWSTR</b>
+Type: <b>void*</b>
 
 The value of the attribute.
 
 
 ### -param valueSizeInBytes
 
-TBD
-
-
-
-
-#### - valueCount
-
 Type: <b>UINT32</b>
 
-The number of elements in the returned value.
+The size of the value in bytes.
 
 
 ## -returns
@@ -99,9 +92,10 @@ The number of elements in the returned value.
 
 Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns an HRESULT success or error code. Returns an error if the attribute name is not valid on this
-            element. Returns an error if the attribute cannot be expressed as the specified
-            string type.  Returns an error if the attribute is not specified.
+This method returns an HRESULT success or error code. Returns an error if the
+            attribute is not specified. Returns an error if the attribute name is not valid
+            on this element. Returns an error if the attribute cannot be expressed as the
+            specified POD type.
           
 
 

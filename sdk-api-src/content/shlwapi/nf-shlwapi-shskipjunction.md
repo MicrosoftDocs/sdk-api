@@ -4,10 +4,10 @@ title: SHSkipJunction function
 author: windows-sdk-content
 description: Checks a bind context to see if it is safe to bind to a particular component object.
 old-location: shell\SHSkipJunction.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 73af64a4-57eb-43db-91bb-75fe7134ad28
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHSkipJunction, SHSkipJunction function [Windows Shell], _win32_SHSkipJunction, shell.SHSkipJunction, shlwapi/SHSkipJunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

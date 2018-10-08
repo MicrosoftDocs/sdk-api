@@ -7,7 +7,7 @@ old-location: base\flushinstructioncache.htm
 tech.root: debug
 ms.assetid: 6267adde-8169-4673-97ec-78c66e2135c1
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: FlushInstructionCache, FlushInstructionCache function, _win32_flushinstructioncache, base.flushinstructioncache, processthreadsapi/FlushInstructionCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

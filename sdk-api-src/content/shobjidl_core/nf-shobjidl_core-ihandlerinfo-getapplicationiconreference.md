@@ -4,10 +4,10 @@ title: IHandlerInfo::GetApplicationIconReference
 author: windows-sdk-content
 description: Retrieves the icon of the application that implemented the handler.
 old-location: shell\IHandlerInfo_GetApplicationIconReference.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: be886508-16a5-4a77-9fa4-b6a8d028c9e9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetApplicationIconReference, GetApplicationIconReference method [Windows Shell], GetApplicationIconReference method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationIconReference method, IHandlerInfo.GetApplicationIconReference, IHandlerInfo::GetApplicationIconReference, shell.IHandlerInfo_GetApplicationIconReference, shobjidl_core/IHandlerInfo::GetApplicationIconReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

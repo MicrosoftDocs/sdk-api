@@ -4,10 +4,10 @@ title: DragAcceptFiles function
 author: windows-sdk-content
 description: Registers whether a window accepts dropped files.
 old-location: shell\DragAcceptFiles.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1f16f6e4-7847-4bc7-adce-995876db24bd
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DragAcceptFiles, DragAcceptFiles function [Windows Shell], _win32_DragAcceptFiles, shell.DragAcceptFiles, shellapi/DragAcceptFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

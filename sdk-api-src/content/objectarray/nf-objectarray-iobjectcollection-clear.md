@@ -4,10 +4,10 @@ title: IObjectCollection::Clear
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: shell\IObjectCollection_Clear.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b32ce885-aafe-4c81-8e7a-74f67fa15180
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Clear, Clear method [Windows Shell], Clear method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],Clear method, IObjectCollection.Clear, IObjectCollection::Clear, _shell_IObjectCollection_Clear, objectarray/IObjectCollection::Clear, shell.IObjectCollection_Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

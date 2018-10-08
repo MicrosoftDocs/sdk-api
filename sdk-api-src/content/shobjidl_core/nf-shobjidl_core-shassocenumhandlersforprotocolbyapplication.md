@@ -4,10 +4,10 @@ title: SHAssocEnumHandlersForProtocolByApplication function
 author: windows-sdk-content
 description: Gets an enumeration interface that provides access to handlers associated with a given protocol.
 old-location: shell\SHAssocEnumHandlersForProtocolByApplication.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 8bc3b9ce-5909-46a0-b5f1-35ab808aaa55
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHAssocEnumHandlersForProtocolByApplication, SHAssocEnumHandlersForProtocolByApplication function [Windows Shell], _shell_SHAssocEnumHandlersForProtocolByApplication, shell.SHAssocEnumHandlersForProtocolByApplication, shobjidl_core/SHAssocEnumHandlersForProtocolByApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

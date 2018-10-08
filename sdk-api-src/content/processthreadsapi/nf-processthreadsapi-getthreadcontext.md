@@ -7,7 +7,7 @@ old-location: base\getthreadcontext.htm
 tech.root: debug
 ms.assetid: 3b65283e-34d2-4374-87fe-fa8ae45fbbcf
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: GetThreadContext, GetThreadContext function, _win32_getthreadcontext, base.getthreadcontext, processthreadsapi/GetThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:mmc.IConsoleNameSpace.GetParentItem
 title: IConsoleNameSpace::GetParentItem
 author: windows-sdk-content
-description: Enables the snap-in to retrieve the handle to a parent item in the scope view.
-old-location: mmc\iconsolenamespace_getparentitem.htm
-tech.root: MMC
-ms.assetid: 6F053540-D14D-4E5A-891C-00B140A5DFBC
+description: The IConsoleNameSpace2::GetParentItem method enables the snap-in to retrieve the handle to a parent item in the scope view.
+old-location: mmc\iconsolenamespace2_getparentitem.htm
+tech.root: mmc
+ms.assetid: c4534440-9fbe-41f1-bdf3-767c931a241b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: GetParentItem, GetParentItem method [MMC], GetParentItem method [MMC],IConsoleNameSpace interface, IConsoleNameSpace interface [MMC],GetParentItem method, IConsoleNameSpace.GetParentItem, IConsoleNameSpace::GetParentItem, mmc.iconsolenamespace_getparentitem, mmc/IConsoleNameSpace::GetParentItem
+ms.date: 10/05/2018
+ms.keywords: GetParentItem, GetParentItem method [MMC], GetParentItem method [MMC],IConsoleNameSpace interface, GetParentItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetParentItem method, IConsoleNameSpace.GetParentItem, IConsoleNameSpace2 interface [MMC],GetParentItem method, IConsoleNameSpace2::GetParentItem, IConsoleNameSpace::GetParentItem, _slate_iconsolenamespace2_getparentitem, mmc.iconsolenamespace2_getparentitem, mmc/IConsoleNameSpace2::GetParentItem, mmc/IConsoleNameSpace::GetParentItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mmc.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,6 +38,7 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsoleNameSpace.GetParentItem
+ - IConsoleNameSpace2.GetParentItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,7 +51,7 @@ req.redist:
 ## -description
 
 
-Enables the snap-in to retrieve the handle to a parent item in the scope view.
+The <b>IConsoleNameSpace2::GetParentItem</b> method enables the snap-in to retrieve the handle to a parent item in the scope view.
 
 
 ## -parameters
@@ -104,6 +105,10 @@ If the given item has no parent, <b>NULL</b> is returned.
 
 
 <a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
+
+
+
+<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
  
 
  

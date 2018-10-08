@@ -4,10 +4,10 @@ title: UIntPtrToLong function
 author: windows-sdk-content
 description: Converts a value of type size_t to a value of type LONG.
 old-location: shell\SizeTToLong.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1904fefa-eb31-4fda-ad0b-8ad6d2b62210
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SizeTToLong, SizeTToLong function [Windows Shell], UIntPtrToLong, _shell_SizeTToLong, intsafe/SizeTToLong, shell.SizeTToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

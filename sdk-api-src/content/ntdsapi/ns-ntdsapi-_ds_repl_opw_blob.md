@@ -4,10 +4,10 @@ title: "_DS_REPL_OPW_BLOB"
 author: windows-sdk-content
 description: The DS_REPL_OPW_BLOB structure describes a replication task currently executing or pending execution.
 old-location: ad\ds_repl_opw_blob.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 14676159-cc31-4254-b174-dcd84d9ceec1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DS_REPL_OPW_BLOB, DS_REPL_OPW_BLOB structure [Active Directory], DS_REPL_OP_TYPE_ADD, DS_REPL_OP_TYPE_DELETE, DS_REPL_OP_TYPE_MODIFY, DS_REPL_OP_TYPE_SYNC, DS_REPL_OP_TYPE_UPDATE_REFS, _DS_REPL_OPW_BLOB, ad.ds_repl_opw_blob, ntdsapi/DS_REPL_OPW_BLOB
 ms.prod: windows
 ms.technology: windows-sdk

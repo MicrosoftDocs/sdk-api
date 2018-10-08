@@ -4,10 +4,10 @@ title: EnterUmsSchedulingMode function
 author: windows-sdk-content
 description: Converts the calling thread into a user-mode scheduling (UMS) scheduler thread.
 old-location: base\enterumsschedulingmode.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: EnterUmsSchedulingMode, EnterUmsSchedulingMode function, base.enterumsschedulingmode, winbase/EnterUmsSchedulingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFolderView2::SetViewProperty
 author: windows-sdk-content
 description: Caches a property for an item in the view's property cache.
 old-location: shell\IFolderView2_SetViewProperty.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 76d91df0-8c90-45dc-9637-910b0874e9fa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetViewProperty method, IFolderView2.SetViewProperty, IFolderView2::SetViewProperty, SetViewProperty, SetViewProperty method [Windows Shell], SetViewProperty method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetViewProperty, shell.IFolderView2_SetViewProperty, shobjidl_core/IFolderView2::SetViewProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

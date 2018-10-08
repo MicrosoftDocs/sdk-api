@@ -7,7 +7,7 @@ old-location: com\iglobaloptions.htm
 tech.root: com
 ms.assetid: c5e823be-521d-4eb4-8836-fdd2cac6f15d
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions interface [COM],described, _com_iglobaloptions, com.iglobaloptions, objidlbase/IGlobalOptions
 ms.prod: windows
 ms.technology: windows-sdk

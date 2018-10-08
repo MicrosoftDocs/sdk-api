@@ -4,10 +4,10 @@ title: SHOpenWithDialog function
 author: windows-sdk-content
 description: Displays the Open With dialog box.
 old-location: shell\SHOpenWithDialog.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 026bfb34-a8a5-4bd7-9bc0-4aa395e6d535
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHOpenWithDialog, SHOpenWithDialog function [Windows Shell], _shell_SHOpenWithDialog, shell.SHOpenWithDialog, shlobj_core/SHOpenWithDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

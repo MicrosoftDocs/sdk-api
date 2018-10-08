@@ -4,10 +4,10 @@ title: ID2D1CommandSink::DrawGlyphRun
 author: windows-sdk-content
 description: Indicates the glyphs to be drawn.
 old-location: direct2d\id2d1commandsink_drawglyphrun.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5b40a999-0046-458e-b7bc-95037d73833c
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct2D], DrawGlyphRun method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawGlyphRun method, ID2D1CommandSink.DrawGlyphRun, ID2D1CommandSink::DrawGlyphRun, d2d1_1/ID2D1CommandSink::DrawGlyphRun, direct2d.id2d1commandsink_drawglyphrun
 ms.prod: windows-hardware
 ms.technology: windows-devices

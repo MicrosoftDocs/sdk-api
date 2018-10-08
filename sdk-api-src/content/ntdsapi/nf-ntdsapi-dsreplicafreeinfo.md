@@ -4,10 +4,10 @@ title: DsReplicaFreeInfo function
 author: windows-sdk-content
 description: Frees the replication state data structure allocated by the DsReplicaGetInfo or DsReplicaGetInfo2 functions.
 old-location: ad\dsreplicafreeinfo.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 32ce378e-a178-4970-b3bd-3887866e97af
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DsReplicaFreeInfo, DsReplicaFreeInfo function [Active Directory], ad.dsreplicafreeinfo, ntdsapi/DsReplicaFreeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

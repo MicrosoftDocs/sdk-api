@@ -4,10 +4,10 @@ title: MprAdminAcceptReauthenticationEx function
 author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminAcceptReauthenticationEx function whenever the quarantine state of the client changes.
 old-location: rras\mpradminacceptreauthenticationex.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 32ea0cb5-f67d-4dcc-b5d0-705b6847b163
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MprAdminAcceptReauthenticationEx, MprAdminAcceptReauthenticationEx callback, MprAdminAcceptReauthenticationEx callback function [RAS], mprapi/MprAdminAcceptReauthenticationEx, rras.mpradminacceptreauthenticationex
 ms.prod: windows-hardware
 ms.technology: windows-devices

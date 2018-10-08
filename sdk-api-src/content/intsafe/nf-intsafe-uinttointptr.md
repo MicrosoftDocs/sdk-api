@@ -4,10 +4,10 @@ title: UIntToIntPtr function
 author: windows-sdk-content
 description: Converts a value of type UINT to a value of type INT_PTR.
 old-location: shell\UIntToIntPtr.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 055213c7-a412-4c44-bb21-4d4914cd97c8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: UIntToIntPtr, UIntToIntPtr function [Windows Shell], UIntToPtrdiffT, _shell_UIntToIntPtr, intsafe/UIntToIntPtr, shell.UIntToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

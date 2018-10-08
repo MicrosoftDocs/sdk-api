@@ -4,10 +4,10 @@ title: IMFMediaEngine::SetPreload
 author: windows-sdk-content
 description: Sets the preload flag.
 old-location: mf\imfmediaengine_setpreload.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 3480C16F-E4E4-469C-BE27-711044691A49
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetPreload method, IMFMediaEngine.SetPreload, IMFMediaEngine::SetPreload, SetPreload, SetPreload method [Media Foundation], SetPreload method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setpreload, mfmediaengine/IMFMediaEngine::SetPreload
 ms.prod: windows-hardware
 ms.technology: windows-devices

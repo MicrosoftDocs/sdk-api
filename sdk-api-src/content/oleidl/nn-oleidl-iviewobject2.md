@@ -7,7 +7,7 @@ old-location: com\iviewobject2.htm
 tech.root: com
 ms.assetid: b150ca4b-c53c-4bcb-85fa-461f9fa8b63b
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IViewObject2, IViewObject2 interface [COM], IViewObject2 interface [COM],described, _ole_iviewobject2, com.iviewobject2, oleidl/IViewObject2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISearchFolderItemFactory::SetCondition
 author: windows-sdk-content
 description: Sets the ICondition of the search. When this method is not called, the resulting search will have no filters applied.
 old-location: shell\ISearchFolderItemFactory_SetCondition.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 6ac5acc3-e522-4b6f-a31c-c0850445e00c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetCondition method, ISearchFolderItemFactory.SetCondition, ISearchFolderItemFactory::SetCondition, SetCondition, SetCondition method [Windows Shell], SetCondition method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetCondition, shell.ISearchFolderItemFactory_SetCondition, shobjidl_core/ISearchFolderItemFactory::SetCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

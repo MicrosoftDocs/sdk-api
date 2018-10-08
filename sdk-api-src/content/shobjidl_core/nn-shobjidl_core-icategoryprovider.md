@@ -4,10 +4,10 @@ title: ICategoryProvider
 author: windows-sdk-content
 description: Exposes a list of categorizers registered on an IShellFolder.
 old-location: shell\ICategoryProvider.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bab74832-6f24-4f3a-b8cb-68506f293b3c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ICategoryProvider, ICategoryProvider interface [Windows Shell], ICategoryProvider interface [Windows Shell],described, inet_ICategoryProvider, shell.ICategoryProvider, shobjidl_core/ICategoryProvider
 ms.prod: windows
 ms.technology: windows-sdk

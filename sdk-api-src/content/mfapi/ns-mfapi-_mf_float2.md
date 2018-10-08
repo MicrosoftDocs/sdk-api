@@ -4,10 +4,10 @@ title: "_MF_FLOAT2"
 author: windows-sdk-content
 description: A vector with two components.
 old-location: mf\mf_float2.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 88855E0D-382D-44F5-A4D9-2A65EF4F580C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MF_FLOAT2, MF_FLOAT2 structure [Media Foundation], PMF_FLOAT2, PMF_FLOAT2 structure pointer [Media Foundation], _MF_FLOAT2, mf.mf_float2, mfapi/MF_FLOAT2, mfapi/PMF_FLOAT2
 ms.prod: windows
 ms.technology: windows-sdk

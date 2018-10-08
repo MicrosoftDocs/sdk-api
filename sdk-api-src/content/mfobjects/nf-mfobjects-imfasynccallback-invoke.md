@@ -4,10 +4,10 @@ title: IMFAsyncCallback::Invoke
 author: windows-sdk-content
 description: Called when an asynchronous operation is completed.
 old-location: mf\imfasynccallback_invoke.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 22473605-637e-4783-a8cb-98248b0a0327
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 22473605-637e-4783-a8cb-98248b0a0327, IMFAsyncCallback interface [Media Foundation],Invoke method, IMFAsyncCallback.Invoke, IMFAsyncCallback::Invoke, Invoke, Invoke method [Media Foundation], Invoke method [Media Foundation],IMFAsyncCallback interface, mf.imfasynccallback_invoke, mfobjects/IMFAsyncCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

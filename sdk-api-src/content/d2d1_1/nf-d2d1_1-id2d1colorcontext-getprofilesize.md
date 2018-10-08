@@ -4,10 +4,10 @@ title: ID2D1ColorContext::GetProfileSize
 author: windows-sdk-content
 description: Gets the size of the color profile associated with the bitmap.
 old-location: direct2d\id2d1colorcontext_getprofilesize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ceae8c7d-80b5-4052-ac43-85f9802c209e
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/05/2018
 ms.keywords: GetProfileSize, GetProfileSize method [Direct2D], GetProfileSize method [Direct2D],ID2D1ColorContext interface, ID2D1ColorContext interface [Direct2D],GetProfileSize method, ID2D1ColorContext.GetProfileSize, ID2D1ColorContext::GetProfileSize, d2d1_1/ID2D1ColorContext::GetProfileSize, direct2d.id2d1colorcontext_getprofilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

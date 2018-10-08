@@ -4,10 +4,10 @@ title: FwpmSessionDestroyEnumHandle0 function
 author: windows-sdk-content
 description: Frees a handle returned by FwpmSessionCreateEnumHandle0.
 old-location: fwp\fwpmsessiondestroyenumhandle0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 468793d1-451d-4116-b635-f45edff10211
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: FwpmSessionDestroyEnumHandle0, FwpmSessionDestroyEnumHandle0 function [Filtering], fwp.fwpmsessiondestroyenumhandle0_func, fwpmu/FwpmSessionDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

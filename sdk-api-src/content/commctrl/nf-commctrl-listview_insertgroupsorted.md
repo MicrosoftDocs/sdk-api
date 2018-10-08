@@ -7,7 +7,7 @@ old-location: controls\ListView_InsertGroupSorted.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertgroupsorted.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ListView_InsertGroupSorted, ListView_InsertGroupSorted macro [Windows Controls], _win32_ListView_InsertGroupSorted, _win32_ListView_InsertGroupSorted_cpp, commctrl/ListView_InsertGroupSorted, controls.ListView_InsertGroupSorted, controls._win32_ListView_InsertGroupSorted
 ms.prod: windows-hardware
 ms.technology: windows-devices

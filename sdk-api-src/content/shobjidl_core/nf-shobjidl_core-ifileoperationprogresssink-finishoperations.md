@@ -4,10 +4,10 @@ title: IFileOperationProgressSink::FinishOperations
 author: windows-sdk-content
 description: Performs caller-implemented actions after the last operation performed by the call to IFileOperation is complete.
 old-location: shell\IFileOperationProgressSink_FinishOperations.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5d2d05c3-525d-4113-bb08-63395facf191
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: FinishOperations, FinishOperations method [Windows Shell], FinishOperations method [Windows Shell],IFileOperationProgressSink interface, IFileOperationProgressSink interface [Windows Shell],FinishOperations method, IFileOperationProgressSink.FinishOperations, IFileOperationProgressSink::FinishOperations, _shell_IFileOperationProgressSink_FinishOperations, shell.IFileOperationProgressSink_FinishOperations, shobjidl_core/IFileOperationProgressSink::FinishOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

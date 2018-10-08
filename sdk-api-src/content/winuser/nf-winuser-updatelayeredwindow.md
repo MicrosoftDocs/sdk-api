@@ -7,8 +7,8 @@ old-location: winmsg\updatelayeredwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\updatelayeredwindow.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: ULW_ALPHA, ULW_COLORKEY, ULW_OPAQUE, UpdateLayeredWindow, UpdateLayeredWindow function [Windows and Messages], _win32_UpdateLayeredWindow, _win32_updatelayeredwindow_cpp, winmsg.updatelayeredwindow, winui._win32_updatelayeredwindow, winuser/UpdateLayeredWindow
+ms.date: 10/05/2018
+ms.keywords: ULW_ALPHA, ULW_COLORKEY, ULW_EX_NORESIZE, ULW_OPAQUE, UpdateLayeredWindow, UpdateLayeredWindow function [Windows and Messages], _win32_UpdateLayeredWindow, _win32_updatelayeredwindow_cpp, winmsg.updatelayeredwindow, winui._win32_updatelayeredwindow, winuser/UpdateLayeredWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,6 +165,17 @@ Use <i>crKey</i> as the transparency color.
 </td>
 <td width="60%">
 Draw an opaque layered window. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ULW_EX_NORESIZE"></a><a id="ulw_ex_noresize"></a><dl>
+<dt><b>ULW_EX_NORESIZE</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
+Force the <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
 
 </td>
 </tr>

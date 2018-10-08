@@ -4,10 +4,10 @@ title: IThumbnailHandlerFactory
 author: windows-sdk-content
 description: Exposes a method for retrieving the thumbnail handler of an item. Implement this interface if you want to specify what extractor is used for a child IDList.
 old-location: shell\IThumbnailHandlerFactory.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 83a9f676-ba03-4a0b-abe6-65f70c8babac
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IThumbnailHandlerFactory, IThumbnailHandlerFactory interface [Windows Shell], IThumbnailHandlerFactory interface [Windows Shell],described, _shell_IThumbnailHandlerFactory, shell.IThumbnailHandlerFactory, shobjidl_core/IThumbnailHandlerFactory
 ms.prod: windows
 ms.technology: windows-sdk

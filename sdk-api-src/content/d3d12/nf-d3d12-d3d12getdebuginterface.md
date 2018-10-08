@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12getdebuginterface.htm
 tech.root: direct3d12
 ms.assetid: 6D1D6B73-3C2C-4BE0-B75D-2CD39DAC9499
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: D3D12GetDebugInterface, D3D12GetDebugInterface function, d3d12/D3D12GetDebugInterface, direct3d12.d3d12getdebuginterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

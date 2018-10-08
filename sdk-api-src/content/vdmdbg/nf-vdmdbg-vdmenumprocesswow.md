@@ -7,7 +7,7 @@ old-location: winprog\vdmenumprocesswow.htm
 tech.root: devnotes
 ms.assetid: fd79ff50-cac2-40e0-86ad-2d6af97c99a9
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: VDMEnumProcessWOW, VDMEnumProcessWOW function [Windows API], vdmdbg/VDMEnumProcessWOW, winprog.vdmenumprocesswow
 ms.prod: windows-hardware
 ms.technology: windows-devices

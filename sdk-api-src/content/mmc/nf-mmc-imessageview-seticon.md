@@ -4,10 +4,10 @@ title: IMessageView::SetIcon
 author: windows-sdk-content
 description: The IMessageView::SetIcon method enables a snap-in to set the icon for the result pane message displayed using the MMC message OCX control.
 old-location: mmc\imessageview_seticon.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 61389d5b-cf0a-465e-9b3b-1bcdef4f92b1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IMessageView interface [MMC],SetIcon method, IMessageView.SetIcon, IMessageView::SetIcon, SetIcon, SetIcon method [MMC], SetIcon method [MMC],IMessageView interface, _slate_imessageview_seticon, mmc.imessageview_seticon, mmc/IMessageView::SetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

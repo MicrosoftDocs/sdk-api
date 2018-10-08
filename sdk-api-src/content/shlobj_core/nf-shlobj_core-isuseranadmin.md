@@ -4,10 +4,10 @@ title: IsUserAnAdmin function
 author: windows-sdk-content
 description: IsUserAnAdmin may be altered or unavailable.
 old-location: shell\IsUserAnAdmin.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: fe698d32-32f6-4b2b-ad0c-5d9ec815177f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IsUserAnAdmin, IsUserAnAdmin function [Windows Shell], _win32_IsUserAnAdmin, shell.IsUserAnAdmin, shlobj_core/IsUserAnAdmin
 ms.prod: windows-hardware
 ms.technology: windows-devices

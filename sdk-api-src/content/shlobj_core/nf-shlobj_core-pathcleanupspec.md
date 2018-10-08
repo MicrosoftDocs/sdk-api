@@ -4,10 +4,10 @@ title: PathCleanupSpec function
 author: windows-sdk-content
 description: PathCleanupSpec may be altered or unavailable.
 old-location: shell\PathCleanupSpec.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 593fd2b7-44ae-4309-a185-97e42f3cc0fa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathCleanupSpec, PathCleanupSpec function [Windows Shell], _win32_PathCleanupSpec, shell.PathCleanupSpec, shlobj_core/PathCleanupSpec
 ms.prod: windows-hardware
 ms.technology: windows-devices

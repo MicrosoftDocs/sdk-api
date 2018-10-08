@@ -4,10 +4,10 @@ title: D3D11_VIDEO_PROCESSOR_STREAM
 author: windows-sdk-content
 description: Contains stream-level data for the ID3D11VideoContext::VideoProcessorBlt method.
 old-location: mf\d3d11_video_processor_stream.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: B861D00B-2FF2-4F8F-AD40-0EE6A9706A0C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM, D3D11_VIDEO_PROCESSOR_STREAM structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_STREAM, mf.d3d11_video_processor_stream
 ms.prod: windows
 ms.technology: windows-sdk

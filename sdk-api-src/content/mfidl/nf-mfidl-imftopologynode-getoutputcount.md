@@ -4,10 +4,10 @@ title: IMFTopologyNode::GetOutputCount
 author: windows-sdk-content
 description: Retrieves the number of output streams that currently exist on this node.
 old-location: mf\imftopologynode_getoutputcount.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: dc964c38-9dac-491f-9d70-b1ba7b7001ad
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputCount method, IMFTopologyNode.GetOutputCount, IMFTopologyNode::GetOutputCount, dc964c38-9dac-491f-9d70-b1ba7b7001ad, mf.imftopologynode_getoutputcount, mfidl/IMFTopologyNode::GetOutputCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

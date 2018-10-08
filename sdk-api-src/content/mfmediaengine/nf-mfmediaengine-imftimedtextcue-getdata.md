@@ -4,10 +4,10 @@ title: IMFTimedTextCue::GetData
 author: windows-sdk-content
 description: Gets the data content of the timed-text cue.
 old-location: mf\imftimedtextcue_getdata.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 18884B70-DE34-494E-A029-6DD48AB0BA13
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetData method, IMFTimedTextCue.GetData, IMFTimedTextCue::GetData, mf.imftimedtextcue_getdata, mfmediaengine/IMFTimedTextCue::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

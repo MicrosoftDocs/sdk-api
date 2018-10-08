@@ -4,10 +4,10 @@ title: IOpenSearchSource
 author: windows-sdk-content
 description: Exposes a method to get search results from a custom client-side OpenSearch data source.
 old-location: shell\IOpenSearchSource.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 8d5d376f-b59d-4420-a6be-d64459cb6aa3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IOpenSearchSource, IOpenSearchSource interface [Windows Shell], IOpenSearchSource interface [Windows Shell],described, _shell_IOpenSearchSource, shell.IOpenSearchSource, shobjidl_core/IOpenSearchSource
 ms.prod: windows
 ms.technology: windows-sdk

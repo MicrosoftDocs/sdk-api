@@ -4,10 +4,10 @@ title: INotifyReplica
 author: windows-sdk-content
 description: Exposes a method that provides an object's creator with the means to notify the object that it may be subject to subsequent reconciliation. The briefcase reconciler is responsible for implementing this interface.
 old-location: shell\INotifyReplica.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: aa04d5b0-8483-4024-91d0-65d69d6891ca
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: INotifyReplica, INotifyReplica interface [Windows Shell], INotifyReplica interface [Windows Shell],described, _win32_INotifyReplica, reconcil/INotifyReplica, shell.INotifyReplica
 ms.prod: windows
 ms.technology: windows-sdk

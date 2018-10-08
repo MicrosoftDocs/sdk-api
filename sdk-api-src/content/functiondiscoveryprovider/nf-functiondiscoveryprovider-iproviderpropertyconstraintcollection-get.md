@@ -4,10 +4,10 @@ title: IProviderPropertyConstraintCollection::Get
 author: windows-sdk-content
 description: Gets the name and value of the specified property constraint, by property key.
 old-location: ncd\iproviderpropertyconstraintcollection_get.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: 0388d895-07bb-490c-9fce-0821a51d765a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: Get, Get method, Get method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,Get method, IProviderPropertyConstraintCollection.Get, IProviderPropertyConstraintCollection::Get, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Get, ncd.iproviderpropertyconstraintcollection_get
 ms.prod: windows-hardware
 ms.technology: windows-devices

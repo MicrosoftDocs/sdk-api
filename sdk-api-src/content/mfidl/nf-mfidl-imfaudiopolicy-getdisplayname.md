@@ -4,10 +4,10 @@ title: IMFAudioPolicy::GetDisplayName
 author: windows-sdk-content
 description: Retrieves the display name of the audio session. The Windows volume control displays this name.
 old-location: mf\imfaudiopolicy_getdisplayname.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 7826b4a1-5887-46a5-b312-91159596ccf5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 7826b4a1-5887-46a5-b312-91159596ccf5, GetDisplayName, GetDisplayName method [Media Foundation], GetDisplayName method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetDisplayName method, IMFAudioPolicy.GetDisplayName, IMFAudioPolicy::GetDisplayName, mf.imfaudiopolicy_getdisplayname, mfidl/IMFAudioPolicy::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

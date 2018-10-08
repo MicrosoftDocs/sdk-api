@@ -4,10 +4,10 @@ title: "_DS_REPL_CURSORS"
 author: windows-sdk-content
 description: The DS_REPL_CURSORS structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 function to provide replication state data with respect to all replicas of a given naming context.
 old-location: ad\ds_repl_cursors.htm
-tech.root: AD
+tech.root: ad
 ms.assetid: 0fe5ad72-d3f3-42a8-a36f-ca1fc9c55c50
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: DS_REPL_CURSORS, DS_REPL_CURSORS structure [Active Directory], _DS_REPL_CURSORS, _glines_ds_repl_cursors, ad.ds__repl__cursors, ad.ds_repl_cursors, ntdsapi/DS_REPL_CURSORS
 ms.prod: windows
 ms.technology: windows-sdk

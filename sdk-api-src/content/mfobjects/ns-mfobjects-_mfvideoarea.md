@@ -4,10 +4,10 @@ title: "_MFVideoArea"
 author: windows-sdk-content
 description: Specifies a rectangular area within a video frame.
 old-location: mf\mfvideoarea.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: d22b8b9c-399b-4fce-a173-833005b5bf03
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFVideoArea, MFVideoArea structure [Media Foundation], _MFVideoArea, d22b8b9c-399b-4fce-a173-833005b5bf03, mf.mfvideoarea, mfobjects/MFVideoArea
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PathCreateFromUrlAlloc function
 author: windows-sdk-content
 description: Creates a path from a file URL.
 old-location: shell\PathCreateFromUrlAlloc.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 274411cd-5922-4db8-8775-feb93cae32dd
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: PathCreateFromUrlAlloc, PathCreateFromUrlAlloc function [Windows Shell], _shell_PathCreateFromUrlAlloc, shell.PathCreateFromUrlAlloc, shlwapi/PathCreateFromUrlAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

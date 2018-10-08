@@ -4,10 +4,10 @@ title: IApplicationDesignModeSettings2::GetApplicationSizeBounds
 author: windows-sdk-content
 description: This methods retrieves the size bounds supported by the application.
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationSizeBounds.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7DFAFE5A-8F19-471C-9B09-43645F26F156
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetApplicationSizeBounds, GetApplicationSizeBounds method [Windows Shell], GetApplicationSizeBounds method [Windows Shell],IApplicationDesignModeSettings2 interface, IApplicationDesignModeSettings2 interface [Windows Shell],GetApplicationSizeBounds method, IApplicationDesignModeSettings2.GetApplicationSizeBounds, IApplicationDesignModeSettings2::GetApplicationSizeBounds, shell.IApplicationDesignModeSettings2_GetApplicationSizeBounds, shobjidl_core/IApplicationDesignModeSettings2::GetApplicationSizeBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

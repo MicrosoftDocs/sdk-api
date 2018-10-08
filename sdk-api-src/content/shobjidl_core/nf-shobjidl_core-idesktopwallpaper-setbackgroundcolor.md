@@ -4,10 +4,10 @@ title: IDesktopWallpaper::SetBackgroundColor
 author: windows-sdk-content
 description: Sets the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
 old-location: shell\IDesktopWallpaper_SetBackgroundColor.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9CA14C0B-4727-4702-9EB0-4D24003EB456
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetBackgroundColor method, IDesktopWallpaper.SetBackgroundColor, IDesktopWallpaper::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Windows Shell], SetBackgroundColor method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetBackgroundColor, shobjidl_core/IDesktopWallpaper::SetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetMenuContextHelpId function
 author: windows-sdk-content
 description: Retrieves the Help context identifier associated with the specified menu.
 old-location: shell\GetMenuContextHelpId.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
 ms.prod: windows-hardware
 ms.technology: windows-devices

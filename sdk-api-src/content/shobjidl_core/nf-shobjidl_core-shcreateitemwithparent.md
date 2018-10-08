@@ -4,10 +4,10 @@ title: SHCreateItemWithParent function
 author: windows-sdk-content
 description: Create a Shell item, given a parent folder and a child item ID.
 old-location: shell\SHCreateItemWithParent.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 8fb84a20-d8f2-4c7c-bfb1-a22791b8636a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHCreateItemWithParent, SHCreateItemWithParent function [Windows Shell], _shell_SHCreateItemWithParent, shell.SHCreateItemWithParent, shobjidl_core/SHCreateItemWithParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

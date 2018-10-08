@@ -4,10 +4,10 @@ title: IMFPMediaPlayer::GetNativeVideoSize
 author: windows-sdk-content
 description: Gets the size and aspect ratio of the video.
 old-location: mf\imfpmediaplayer_getnativevideosize.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 6f0f09fb-d41c-4662-a20c-2a1d04b39df5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetNativeVideoSize method, IMFPMediaPlayer.GetNativeVideoSize, IMFPMediaPlayer::GetNativeVideoSize, mf.imfpmediaplayer_getnativevideosize, mfplay/IMFPMediaPlayer::GetNativeVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ScreenSaverProc function
 author: windows-sdk-content
 description: Receives messages sent to the specified screen saver window.
 old-location: shell\ScreenSaverProc.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: cc013841-41fc-404a-a239-4118f70542b5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ScreenSaverProc, ScreenSaverProc function [Windows Shell], _win32_ScreenSaverProc, scrnsave/ScreenSaverProc, shell.ScreenSaverProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

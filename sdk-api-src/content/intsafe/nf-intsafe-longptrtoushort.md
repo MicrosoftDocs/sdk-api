@@ -4,10 +4,10 @@ title: LongPtrToUShort function
 author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type USHORT.
 old-location: shell\LongPtrToUShort.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d20be0c8-f228-4fed-847b-d28d99ade476
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LongPtrToUShort, LongPtrToUShort function [Windows Shell], intsafe/LongPtrToUShort, shell.LongPtrToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

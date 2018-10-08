@@ -4,10 +4,10 @@ title: MFCreate2DMediaBuffer function
 author: windows-sdk-content
 description: Creates a system-memory buffer object to hold 2D image data.
 old-location: mf\mfcreate2dmediabuffer.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 7D999070-87BD-46AF-A4F0-C0A23DC1C876
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreate2DMediaBuffer, MFCreate2DMediaBuffer function [Media Foundation], mf.mfcreate2dmediabuffer, mfapi/MFCreate2DMediaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

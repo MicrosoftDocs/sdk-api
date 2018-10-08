@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setoldnumbers.htm
 tech.root: controls
 ms.assetid: f510781e-ede9-41dc-ae69-3b0ca52a6773
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetOldNumbers method, ITextFont2.SetOldNumbers, ITextFont2::SetOldNumbers, SetOldNumbers, SetOldNumbers method [Windows Controls], SetOldNumbers method [Windows Controls],ITextFont2 interface, controls.itextfont2_setoldnumbers, tom/ITextFont2::SetOldNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices

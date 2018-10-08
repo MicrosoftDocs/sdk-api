@@ -4,10 +4,10 @@ title: "_L2TP_CONFIG_PARAMS1"
 author: windows-sdk-content
 description: Used to get and set the device configuration for Layer 2 Tunneling Protocool (L2TP) on a RAS Server.
 old-location: rras\l2tp_config_params.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 7459054f-62c6-4ead-b969-884efc75ea80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: "*PL2TP_CONFIG_PARAMS1, L2TP_CONFIG_PARAMS, L2TP_CONFIG_PARAMS structure [RAS], L2TP_CONFIG_PARAMS1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, _L2TP_CONFIG_PARAMS0, _L2TP_CONFIG_PARAMS1, mprapi/L2TP_CONFIG_PARAMS, rras.l2tp_config_params"
 ms.prod: windows
 ms.technology: windows-sdk

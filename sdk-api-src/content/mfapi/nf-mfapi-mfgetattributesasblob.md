@@ -4,10 +4,10 @@ title: MFGetAttributesAsBlob function
 author: windows-sdk-content
 description: Converts the contents of an attribute store to a byte array.
 old-location: mf\mfgetattributesasblob.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetAttributesAsBlob function [Media Foundation], mf.mfgetattributesasblob, mfapi/MFGetAttributesAsBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

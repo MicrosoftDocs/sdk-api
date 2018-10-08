@@ -7,7 +7,7 @@ old-location: controls\Header_GetItemRect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemrect.htm
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: Header_GetItemRect, Header_GetItemRect macro [Windows Controls], _win32_Header_GetItemRect, _win32_Header_GetItemRect_cpp, commctrl/Header_GetItemRect, controls.Header_GetItemRect, controls._win32_Header_GetItemRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: LongToChar function
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type CHAR.
 old-location: shell\LongToChar.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1abf1466-3491-4719-8dd2-82e4ba2506c5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LongToChar, LongToChar function [Windows Shell], _shell_LongToChar, intsafe/LongToChar, shell.LongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

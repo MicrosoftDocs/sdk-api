@@ -4,10 +4,10 @@ title: IDesktopWallpaper::SetSlideshowOptions
 author: windows-sdk-content
 description: Sets the desktop wallpaper slideshow settings for shuffle and timing.
 old-location: shell\IDesktopWallpaper_SetSlideshowOptions.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: B3106354-C321-4770-834F-D2EF790AE114
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DSO_SHUFFLEIMAGES, IDesktopWallpaper interface [Windows Shell],SetSlideshowOptions method, IDesktopWallpaper.SetSlideshowOptions, IDesktopWallpaper::SetSlideshowOptions, SetSlideshowOptions, SetSlideshowOptions method [Windows Shell], SetSlideshowOptions method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetSlideshowOptions, shobjidl_core/IDesktopWallpaper::SetSlideshowOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMFSchemeHandler::EndCreateObject
 author: windows-sdk-content
 description: Completes an asynchronous request to create an object from a URL.
 old-location: mf\imfschemehandler_endcreateobject.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: e3f88904-c30f-4d40-ac79-c83b0a06f1fa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],EndCreateObject method, IMFSchemeHandler.EndCreateObject, IMFSchemeHandler::EndCreateObject, e3f88904-c30f-4d40-ac79-c83b0a06f1fa, mf.imfschemehandler_endcreateobject, mfidl/IMFSchemeHandler::EndCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

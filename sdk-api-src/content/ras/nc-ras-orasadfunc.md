@@ -4,10 +4,10 @@ title: ORASADFUNC
 author: windows-sdk-content
 description: The ORASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.
 old-location: rras\orasadfunc.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: d3ad49e3-6807-419d-8d05-f703f5327020
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: ORASADFunc, ORASADFunc callback, ORASADFunc callback function [RAS], _ras_orasadfunc, ras/ORASADFunc, rras.orasadfunc
 ms.prod: windows
 ms.technology: windows-sdk

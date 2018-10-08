@@ -7,7 +7,7 @@ old-location: wcs\namedcolor.htm
 tech.root: WCS
 ms.assetid: 75509e0d-368e-4b2d-8076-613efcfc8d31
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: NAMEDCOLOR, NAMEDCOLOR structure [Windows Color System], icm/NAMEDCOLOR, wcs.namedcolor
 ms.prod: windows
 ms.technology: windows-sdk

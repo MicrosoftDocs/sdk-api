@@ -7,7 +7,7 @@ old-location: com\isequalclsid.htm
 tech.root: com
 ms.assetid: f55ae128-8667-45df-a93e-37812a3409b5
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IsEqualCLSID, IsEqualCLSID function [COM], _com_IsEqualCLSID, com.isequalclsid, guiddef/IsEqualCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

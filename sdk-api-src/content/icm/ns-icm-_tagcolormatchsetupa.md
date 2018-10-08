@@ -7,7 +7,7 @@ old-location: wcs\colormatchsetup.htm
 tech.root: WCS
 ms.assetid: 920c9ac2-bb77-4805-9345-15611db1aade
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: "*LPCOLORMATCHSETUPA, *PCOLORMATCHSETUPA, COLORMATCHSETUP, COLORMATCHSETUP structure [Windows Color System], COLORMATCHSETUPA, _color_COLORMATCHSETUP_str, _tagCOLORMATCHSETUPA, _tagCOLORMATCHSETUPW, icm/COLORMATCHSETUP, wcs.colormatchsetup"
 ms.prod: windows
 ms.technology: windows-sdk

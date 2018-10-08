@@ -4,10 +4,10 @@ title: IControlbar::Detach
 author: windows-sdk-content
 description: The IControlbar::Detach method breaks the association between a control and the control bar. This command removes or detaches the control from the control bar on which it is displayed.
 old-location: mmc\icontrolbar_detach.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: a40fc3a4-40ff-4752-abd9-e4dd906bc27f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: Detach, Detach method [MMC], Detach method [MMC],IControlbar interface, IControlbar interface [MMC],Detach method, IControlbar.Detach, IControlbar::Detach, _slate_icontrolbar_detach, mmc.icontrolbar_detach, mmc/IControlbar::Detach
 ms.prod: windows-hardware
 ms.technology: windows-devices

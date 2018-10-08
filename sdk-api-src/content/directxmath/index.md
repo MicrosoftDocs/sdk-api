@@ -2,7 +2,7 @@
 UID: NA:directxmath
 ms.assetid: 76b0c74d-e0c1-3e0a-9ce0-89c07ed6f8da
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

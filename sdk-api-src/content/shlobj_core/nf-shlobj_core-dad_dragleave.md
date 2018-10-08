@@ -4,10 +4,10 @@ title: DAD_DragLeave function
 author: windows-sdk-content
 description: Unlocks the window locked by the DAD_DragEnterEx function.
 old-location: shell\DAD_DragLeave.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 5b2b8f04-c746-48d0-9fca-eda2c6b9ff2a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: DAD_DragLeave, DAD_DragLeave function [Windows Shell], shell.DAD_DragLeave, shell_DAD_DragLeave, shlobj_core/DAD_DragLeave
 ms.prod: windows-hardware
 ms.technology: windows-devices

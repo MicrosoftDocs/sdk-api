@@ -4,10 +4,10 @@ title: SHSetKnownFolderPath function
 author: windows-sdk-content
 description: Redirects a known folder to a new location.
 old-location: shell\SHSetKnownFolderPath.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: b5758086-93d1-49d6-b9ac-ba8927f3bd1e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: KF_FLAG_DONT_UNEXPAND, SHSetKnownFolderPath, SHSetKnownFolderPath function [Windows Shell], _shell_SHSetKnownFolderPath, shell.SHSetKnownFolderPath, shlobj_core/SHSetKnownFolderPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

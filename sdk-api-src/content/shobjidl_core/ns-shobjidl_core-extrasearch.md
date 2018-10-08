@@ -4,10 +4,10 @@ title: EXTRASEARCH
 author: windows-sdk-content
 description: Used by an IEnumExtraSearch enumerator object to return information on the search objects supported by a Shell Folder object.
 old-location: shell\EXTRASEARCH.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d930a00b-3084-4da7-8915-0bebdb33df9b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPEXTRASEARCH, EXTRASEARCH, EXTRASEARCH structure [Windows Shell], LPEXTRASEARCH, LPEXTRASEARCH structure pointer [Windows Shell], _win32_EXTRASEARCH, shell.EXTRASEARCH, shobjidl_core/EXTRASEARCH, shobjidl_core/LPEXTRASEARCH"
 ms.prod: windows
 ms.technology: windows-sdk

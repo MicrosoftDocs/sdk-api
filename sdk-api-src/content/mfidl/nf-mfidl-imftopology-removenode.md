@@ -4,10 +4,10 @@ title: IMFTopology::RemoveNode
 author: windows-sdk-content
 description: Removes a node from the topology.
 old-location: mf\imftopology_removenode.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 0dbafd3f-315b-4135-aecd-ad46f2c19886
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology interface [Media Foundation],RemoveNode method, IMFTopology.RemoveNode, IMFTopology::RemoveNode, RemoveNode, RemoveNode method [Media Foundation], RemoveNode method [Media Foundation],IMFTopology interface, mf.imftopology_removenode, mfidl/IMFTopology::RemoveNode
 ms.prod: windows-hardware
 ms.technology: windows-devices

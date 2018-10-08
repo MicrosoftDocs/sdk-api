@@ -4,10 +4,10 @@ title: FwpmSystemPortsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all of the system port types.
 old-location: fwp\fwpmsystemportsget0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 675b1078-8f8e-4a97-aa01-fbf8fbe2b50f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: FwpmSystemPortsGet0, FwpmSystemPortsGet0 function [Filtering], fwp.fwpmsystemportsget0, fwpmu/FwpmSystemPortsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

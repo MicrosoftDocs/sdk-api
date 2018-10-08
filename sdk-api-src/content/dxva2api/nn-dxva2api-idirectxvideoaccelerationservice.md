@@ -4,10 +4,10 @@ title: IDirectXVideoAccelerationService
 author: windows-sdk-content
 description: Provides DirectX Video Acceleration (DXVA) services from a Direct3D device.
 old-location: mf\idirectxvideoaccelerationservice.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17, IDirectXVideoAccelerationService, IDirectXVideoAccelerationService interface [Media Foundation], IDirectXVideoAccelerationService interface [Media Foundation],described, dxva2api/IDirectXVideoAccelerationService, mf.idirectxvideoaccelerationservice
 ms.prod: windows
 ms.technology: windows-sdk

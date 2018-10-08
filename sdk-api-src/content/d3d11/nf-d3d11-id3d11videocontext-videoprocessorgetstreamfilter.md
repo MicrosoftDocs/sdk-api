@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorGetStreamFilter
 author: windows-sdk-content
 description: Gets the image filter settings for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamfilter.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: E18146E9-FBF4-4A1E-AC6C-7500CDA9DC59
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamFilter method, ID3D11VideoContext.VideoProcessorGetStreamFilter, ID3D11VideoContext::VideoProcessorGetStreamFilter, VideoProcessorGetStreamFilter, VideoProcessorGetStreamFilter method [Media Foundation], VideoProcessorGetStreamFilter method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamFilter, mf.id3d11videocontext_videoprocessorgetstreamfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

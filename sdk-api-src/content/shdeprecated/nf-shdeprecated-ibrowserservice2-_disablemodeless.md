@@ -4,10 +4,10 @@ title: IBrowserService2::_DisableModeless
 author: windows-sdk-content
 description: Deprecated. Enables a derived class to ask the base class whether a modal UI is visible. A modal UI blocks minimize and close behavior in the browser window.
 old-location: shell\IBrowserService2__DisableModeless.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e13763de-a3cb-42ea-a3bc-e9324e14d336
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_DisableModeless method, IBrowserService2._DisableModeless, IBrowserService2::_DisableModeless, _DisableModeless, _DisableModeless method [Windows Shell], _DisableModeless method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_DisableModeless, shell.IBrowserService2__DisableModeless, zone_IBrowserService2__DisableModeless
 ms.prod: windows-hardware
 ms.technology: windows-devices

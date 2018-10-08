@@ -4,10 +4,10 @@ title: IShellIconOverlayManager::GetReservedOverlayInfo
 author: windows-sdk-content
 description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes from one of the reserved overlays.
 old-location: shell\IShellIconOverlayManager_GetReservedOverlayInfo.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 052e1648-359c-4202-a3ca-c5bd8a7e54e5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetReservedOverlayInfo, GetReservedOverlayInfo method [Windows Shell], GetReservedOverlayInfo method [Windows Shell],IShellIconOverlayManager interface, IShellIconOverlayManager interface [Windows Shell],GetReservedOverlayInfo method, IShellIconOverlayManager.GetReservedOverlayInfo, IShellIconOverlayManager::GetReservedOverlayInfo, _win32_IShellIconOverlayManager_GetReservedOverlayInfo, shell.IShellIconOverlayManager_GetReservedOverlayInfo, shlobj_core/IShellIconOverlayManager::GetReservedOverlayInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

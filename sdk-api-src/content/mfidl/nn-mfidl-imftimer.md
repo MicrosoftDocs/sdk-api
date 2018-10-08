@@ -4,10 +4,10 @@ title: IMFTimer
 author: windows-sdk-content
 description: Provides a timer that invokes a callback at a specified time.
 old-location: mf\imftimer.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 152594df-de3d-4f6f-9277-dba95ab3533a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface [Media Foundation], IMFTimer interface [Media Foundation],described, mf.imftimer, mfidl/IMFTimer
 ms.prod: windows
 ms.technology: windows-sdk

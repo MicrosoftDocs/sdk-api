@@ -4,10 +4,10 @@ title: IPersistSerializedPropStorage2::GetPropertyStorageBuffer
 author: windows-sdk-content
 description: Gets the serialized property storage buffer from the property store instance.
 old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageBuffer.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: a5f349e4-227e-4023-ab80-e8f9fb94dabf
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetPropertyStorageBuffer, GetPropertyStorageBuffer method [Windows Shell], GetPropertyStorageBuffer method [Windows Shell],IPersistSerializedPropStorage2 interface, IPersistSerializedPropStorage2 interface [Windows Shell],GetPropertyStorageBuffer method, IPersistSerializedPropStorage2.GetPropertyStorageBuffer, IPersistSerializedPropStorage2::GetPropertyStorageBuffer, _shell_IPersistSerializedPropStorage2_GetPropertyStorageBuffer, propsys/IPersistSerializedPropStorage2::GetPropertyStorageBuffer, shell.IPersistSerializedPropStorage2_GetPropertyStorageBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

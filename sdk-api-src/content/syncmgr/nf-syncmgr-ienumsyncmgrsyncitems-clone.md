@@ -4,10 +4,10 @@ title: IEnumSyncMgrSyncItems::Clone
 author: windows-sdk-content
 description: Not used. Clones an IEnumSyncMgrSyncItems object.
 old-location: shell\IEnumSyncMgrSyncItems_Clone.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: bf320918-9f63-494f-88af-a5fab91ef0e3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrSyncItems interface, IEnumSyncMgrSyncItems interface [Windows Shell],Clone method, IEnumSyncMgrSyncItems.Clone, IEnumSyncMgrSyncItems::Clone, _shell_IEnumSyncMgrSyncItems_Clone, shell.IEnumSyncMgrSyncItems_Clone, syncmgr/IEnumSyncMgrSyncItems::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

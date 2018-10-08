@@ -7,7 +7,7 @@ old-location: com\iolecommandtarget_querystatus.htm
 tech.root: com
 ms.assetid: 8acbf788-f113-43d9-800d-aad84db24498
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IOleCommandTarget interface [COM],QueryStatus method, IOleCommandTarget.QueryStatus, IOleCommandTarget::QueryStatus, QueryStatus, QueryStatus method [COM], QueryStatus method [COM],IOleCommandTarget interface, _ole_iolecommandtarget_querystatus, com.iolecommandtarget_querystatus, docobj/IOleCommandTarget::QueryStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

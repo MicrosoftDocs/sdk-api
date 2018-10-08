@@ -4,10 +4,10 @@ title: IContextMenuCB
 author: windows-sdk-content
 description: Exposes a method that enables the callback of a context menu. For example, to add a shield icon to a menuItem that requires elevation.
 old-location: shell\IContextMenuCB.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 1a4c183b-97cf-4c9a-af5a-bcea7c2755a5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IContextMenuCB, IContextMenuCB interface [Windows Shell], IContextMenuCB interface [Windows Shell],described, _shell_IContextMenuCB, shell.IContextMenuCB, shobjidl_core/IContextMenuCB
 ms.prod: windows
 ms.technology: windows-sdk

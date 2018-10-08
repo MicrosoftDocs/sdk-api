@@ -4,10 +4,10 @@ title: IMFRemoteProxy
 author: windows-sdk-content
 description: Exposed by objects that act as a proxy for a remote object.
 old-location: mf\imfremoteproxy.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 46af5ba7-c362-4cfd-ae6d-b698c6403a65
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 46af5ba7-c362-4cfd-ae6d-b698c6403a65, IMFRemoteProxy, IMFRemoteProxy interface [Media Foundation], IMFRemoteProxy interface [Media Foundation],described, mf.imfremoteproxy, mfidl/IMFRemoteProxy
 ms.prod: windows
 ms.technology: windows-sdk

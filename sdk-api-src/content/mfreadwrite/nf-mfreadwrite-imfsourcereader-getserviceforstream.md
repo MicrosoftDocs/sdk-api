@@ -4,10 +4,10 @@ title: IMFSourceReader::GetServiceForStream
 author: windows-sdk-content
 description: Queries the underlying media source or decoder for an interface.
 old-location: mf\imfsourcereader_getserviceforstream.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: d8868e4d-eedd-4fbd-b870-d3af48890c92
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetServiceForStream method, IMFSourceReader.GetServiceForStream, IMFSourceReader::GetServiceForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, MF_SOURCE_READER_MEDIASOURCE, mf.imfsourcereader_getserviceforstream, mfreadwrite/IMFSourceReader::GetServiceForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

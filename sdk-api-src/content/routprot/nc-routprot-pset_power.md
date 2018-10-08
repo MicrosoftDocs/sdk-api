@@ -4,10 +4,10 @@ title: PSET_POWER
 author: windows-sdk-content
 description: The SetPower function is reserved for future use.
 old-location: rras\setpower.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 595e1743-04eb-4490-8548-1ce5ce00e144
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: PSET_POWER, PSET_POWER callback, SetPower, SetPower callback function [RAS], _mpr_setpower, routprot/SetPower, rras.setpower
 ms.prod: windows
 ms.technology: windows-sdk

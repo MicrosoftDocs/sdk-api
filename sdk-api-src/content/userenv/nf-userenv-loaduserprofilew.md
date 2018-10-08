@@ -4,10 +4,10 @@ title: LoadUserProfileW function
 author: windows-sdk-content
 description: Loads the specified user's profile. The profile can be a local user profile or a roaming user profile.
 old-location: shell\LoadUserProfile.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 9ec1f8f2-8f20-4d38-9d41-70315b890336
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LoadUserProfile, LoadUserProfile function [Windows Shell], LoadUserProfileA, LoadUserProfileW, _shell_LoadUserProfile, shell.LoadUserProfile, userenv/LoadUserProfile, userenv/LoadUserProfileA, userenv/LoadUserProfileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

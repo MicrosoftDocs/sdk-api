@@ -4,10 +4,10 @@ title: MsiRecordIsNull function
 author: windows-sdk-content
 description: Reports a null record field.
 old-location: setup\msirecordisnull.htm
-tech.root: MSI
+tech.root: msi
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
 ms.prod: windows-hardware
 ms.technology: windows-devices

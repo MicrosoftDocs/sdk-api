@@ -4,10 +4,10 @@ title: ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio
 author: windows-sdk-content
 description: Sets the pixel aspect ratio for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreampixelaspectratio.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4205F6F0-4AF3-42B1-8636-64FCFC865856
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamPixelAspectRatio method, ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio, ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio method [Media Foundation], VideoProcessorSetStreamPixelAspectRatio method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, mf.id3d11videocontext_videoprocessorsetstreampixelaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices

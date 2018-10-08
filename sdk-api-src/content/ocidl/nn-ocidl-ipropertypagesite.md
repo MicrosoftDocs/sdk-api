@@ -7,7 +7,7 @@ old-location: com\ipropertypagesite.htm
 tech.root: com
 ms.assetid: a9035a10-2078-4626-8386-f9298526dfb7
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], IPropertyPageSite interface [COM],described, _ctrl_ipropertypagesite, com.ipropertypagesite, ocidl/IPropertyPageSite
 ms.prod: windows
 ms.technology: windows-sdk

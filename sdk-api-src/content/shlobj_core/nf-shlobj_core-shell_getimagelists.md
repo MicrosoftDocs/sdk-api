@@ -4,10 +4,10 @@ title: Shell_GetImageLists function
 author: windows-sdk-content
 description: Retrieves system image lists for large and small icons.
 old-location: shell\Shell_GetImageLists.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c3b73616-849c-4149-b04d-a7d389ebf700
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], _win32_Shell_GetImageLists, shell.Shell_GetImageLists, shlobj_core/Shell_GetImageLists
 ms.prod: windows-hardware
 ms.technology: windows-devices

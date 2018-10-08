@@ -2,7 +2,7 @@
 UID: NA:mmiscapi
 ms.assetid: eb97769d-c3e1-35d3-9bb8-e7b6bcb3bbed
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

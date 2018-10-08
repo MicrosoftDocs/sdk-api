@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_transformcoords.htm
 tech.root: com
 ms.assetid: c7add062-4b42-43be-a982-c881c947f8f0
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: IOleControlSite interface [COM],TransformCoords method, IOleControlSite.TransformCoords, IOleControlSite::TransformCoords, TransformCoords, TransformCoords method [COM], TransformCoords method [COM],IOleControlSite interface, XFORMCOORDS_CONTAINERTOHIMETRIC, XFORMCOORDS_EVENTCOMPAT, XFORMCOORDS_HIMETRICTOCONTAINER, XFORMCOORDS_POSITION, XFORMCOORDS_SIZE, _ctrl_iolecontrolsite_transformcoords, com.iolecontrolsite_transformcoords, ocidl/IOleControlSite::TransformCoords
 ms.prod: windows-hardware
 ms.technology: windows-devices

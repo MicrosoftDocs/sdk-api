@@ -2,21 +2,21 @@
 UID: NF:d2d1.ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush)
 title: ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush)
 author: windows-sdk-content
-description: Creates a new ID2D1SolidColorBrush that can be used to paint areas with a solid color.
-old-location: direct2d\id2d1rendertarget_createsolidcolorbrush.htm
-tech.root: direct2d
-ms.assetid: 3dbfe26f-cf36-47b0-925e-4934e0d7c390
+description: Creates a new ID2D1SolidColorBrush that has the specified color and a base opacity of 1.0f.
+old-location: direct2d\ID2D1RenderTarget_CreateSolidColorBrush_ref_COLOR_F_ptr_ptr_ID2D1SolidColorBrush.htm
+tech.root: Direct2D
+ms.assetid: 67974629-5c34-4c94-acad-586849cdb880
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush methods [Direct2D], ID2D1RenderTarget.CreateSolidColorBrush, ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), ID2D1RenderTarget::CreateSolidColorBrush, ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), d2d1/CreateSolidColorBrush, direct2d.id2d1rendertarget_createsolidcolorbrush
+ms.date: 10/05/2018
+ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [Direct2D], CreateSolidColorBrush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateSolidColorBrush method, ID2D1RenderTarget.CreateSolidColorBrush, ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), ID2D1RenderTarget::CreateSolidColorBrush, ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), d2d1/ID2D1RenderTarget::CreateSolidColorBrush, direct2d.ID2D1RenderTarget_CreateSolidColorBrush_ref_COLOR_F_ptr_ptr_ID2D1SolidColorBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget::CreateSolidColorBrush
+ - ID2D1RenderTarget.CreateSolidColorBrush
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,42 +50,37 @@ req.redist:
 ## -description
 
 
-<span>Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that can be used to paint areas with a solid color.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67974629-5c34-4c94-acad-586849cdb880">CreateSolidColorBrush(D2D1_COLOR_F&,ID2D1SolidColorBrush**)</a>
-</td>
-<td align="left" width="63%">
 Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that has the specified color and a base opacity of 1.0f. 
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6597602-92b2-491c-b9f3-5a44a6980b80">CreateSolidColorBrush(D2D1_COLOR_F&,D2D1_BRUSH_PROPERTIES&,ID2D1SolidColorBrush**)</a>
-</td>
-<td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that has the specified color and opacity.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d426ce37-da88-4ab5-b54a-48150d0c4657">CreateSolidColorBrush(D2D1_COLOR_F*,D2D1_BRUSH_PROPERTIES*,ID2D1SolidColorBrush**)</a>
-</td>
-<td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that has the specified color and opacity.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param color [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
+
+The red, green, blue, and alpha values of the brush's color.
+
+
+### -param solidColorBrush [out]
+
+Type: <b><a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a>**</b>
+
+When this method returns, contains the address of a pointer to the new brush. This parameter is passed uninitialized.
+
+
+## -returns
+
+
+
+Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -see-also

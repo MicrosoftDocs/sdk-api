@@ -4,10 +4,10 @@ title: IDragSourceHelper::InitializeFromBitmap
 author: windows-sdk-content
 description: Initializes the drag-image manager for a windowless control.
 old-location: shell\IDragSourceHelper_InitializeFromBitmap.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: d50be9c9-f407-4386-bb8f-04c849205359
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromBitmap method, IDragSourceHelper.InitializeFromBitmap, IDragSourceHelper::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Shell], InitializeFromBitmap method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromBitmap, shell.IDragSourceHelper_InitializeFromBitmap, shobjidl_core/IDragSourceHelper::InitializeFromBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

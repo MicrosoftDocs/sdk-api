@@ -4,10 +4,10 @@ title: ISyncMgrConflictFolder::GetConflictIDList
 author: windows-sdk-content
 description: Maps a conflict to its IShellItem.
 old-location: shell\ISyncMgrConflictFolder_GetConflictIDList.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 2a0794dd-ffa6-4a7b-af1a-1605092ead07
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetConflictIDList, GetConflictIDList method [Windows Shell], GetConflictIDList method [Windows Shell],ISyncMgrConflictFolder interface, ISyncMgrConflictFolder interface [Windows Shell],GetConflictIDList method, ISyncMgrConflictFolder.GetConflictIDList, ISyncMgrConflictFolder::GetConflictIDList, _shell_ISyncMgrConflictFolder_GetConflictIDList, shell.ISyncMgrConflictFolder_GetConflictIDList, syncmgr/ISyncMgrConflictFolder::GetConflictIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

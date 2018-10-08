@@ -4,10 +4,10 @@ title: StrChrNIW function
 author: windows-sdk-content
 description: Searches a string for the first occurrence of a specified character. The comparison is not case-sensitive.
 old-location: shell\StrChrNIW.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 01F2CC10-F59A-45dd-8A18-7DC33BDD717F
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrChrNIW, StrChrNIW function [Windows Shell], shell.StrChrNIW, shlwapi/StrChrNIW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: LongPtrToLong function
 author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type LONG.
 old-location: shell\LongPtrToLong.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: e57140d5-bd92-48e3-8e3a-a112559e3e0c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: LongPtrToLong, LongPtrToLong function [Windows Shell], SSIZETToLong, _shell_LongPtrToLong, intsafe/LongPtrToLong, shell.LongPtrToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

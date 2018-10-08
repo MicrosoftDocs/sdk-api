@@ -4,10 +4,10 @@ title: ISyncMgrSyncItem
 author: windows-sdk-content
 description: Exposes methods that act on and retrieve information from a single sync item, allowing handlers to manage sync items as independent objects.
 old-location: shell\ISyncMgrSyncItem.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 322c2ebe-f1ab-4de4-b8d5-2fba1e69ddda
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], ISyncMgrSyncItem interface [Windows Shell],described, _shell_ISyncMgrSyncItem, shell.ISyncMgrSyncItem, syncmgr/ISyncMgrSyncItem
 ms.prod: windows
 ms.technology: windows-sdk

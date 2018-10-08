@@ -4,10 +4,10 @@ title: INameSpaceTreeControl::GetRootItems
 author: windows-sdk-content
 description: Gets an array of the root items.
 old-location: shell\INameSpaceTreeControl_GetRootItems.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ca957f8c-ac8e-472e-b762-ddc45e20462d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetRootItems, GetRootItems method [Windows Shell], GetRootItems method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetRootItems method, INameSpaceTreeControl.GetRootItems, INameSpaceTreeControl::GetRootItems, _shell_INameSpaceTreeControl_GetRootItems, shell.INameSpaceTreeControl_GetRootItems, shobjidl_core/INameSpaceTreeControl::GetRootItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

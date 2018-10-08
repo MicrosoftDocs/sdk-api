@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::GetAudioEndpointRole
 author: windows-sdk-content
 description: Gets the audio device endpoint role used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_getaudioendpointrole.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: f63fa14e-44e6-41b9-a8c9-4b8eb66e98e0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetAudioEndpointRole, GetAudioEndpointRole method [Media Foundation], GetAudioEndpointRole method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioEndpointRole method, IMFMediaEngineEx.GetAudioEndpointRole, IMFMediaEngineEx::GetAudioEndpointRole, mf.imfmediaengineex_getaudioendpointrole, mfmediaengine/IMFMediaEngineEx::GetAudioEndpointRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

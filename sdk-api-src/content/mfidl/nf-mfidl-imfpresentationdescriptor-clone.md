@@ -4,10 +4,10 @@ title: IMFPresentationDescriptor::Clone
 author: windows-sdk-content
 description: Creates a copy of this presentation descriptor.
 old-location: mf\imfpresentationdescriptor_clone.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 084b3adf-092a-4869-92e1-982db209bd5b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: 084b3adf-092a-4869-92e1-982db209bd5b, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],Clone method, IMFPresentationDescriptor.Clone, IMFPresentationDescriptor::Clone, mf.imfpresentationdescriptor_clone, mfidl/IMFPresentationDescriptor::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID3D11VideoProcessorEnumerator
 author: windows-sdk-content
 description: Enumerates the video processor capabilities of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videoprocessorenumerator.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 8713B4C6-B08E-4616-92A7-05280CCE7AB3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: ID3D11VideoProcessorEnumerator, ID3D11VideoProcessorEnumerator interface [Media Foundation], ID3D11VideoProcessorEnumerator interface [Media Foundation],described, d3d11/ID3D11VideoProcessorEnumerator, mf.id3d11videoprocessorenumerator
 ms.prod: windows
 ms.technology: windows-sdk

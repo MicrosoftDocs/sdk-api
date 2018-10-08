@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentStyleId.htm
 tech.root: WinAuto
 ms.assetid: 0A27D032-5FC2-4095-A454-C1D6E7255D2A
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: CurrentStyleId property [Windows Accessibility], CurrentStyleId property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentStyleId property, IUIAutomationStylesPattern.CurrentStyleId, IUIAutomationStylesPattern.get_CurrentStyleId, IUIAutomationStylesPattern::CurrentStyleId, IUIAutomationStylesPattern::get_CurrentStyleId, get_CurrentStyleId, uiautomationclient/IUIAutomationStylesPattern::CurrentStyleId, uiautomationclient/IUIAutomationStylesPattern::get_CurrentStyleId, winauto.uiauto_IUIAutomationStylesPattern_CurrentStyleId
 ms.prod: windows-hardware
 ms.technology: windows-devices

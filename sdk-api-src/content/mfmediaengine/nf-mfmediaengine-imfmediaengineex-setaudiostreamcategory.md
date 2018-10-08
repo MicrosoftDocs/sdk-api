@@ -4,10 +4,10 @@ title: IMFMediaEngineEx::SetAudioStreamCategory
 author: windows-sdk-content
 description: Sets the audio stream category for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_setaudiostreamcategory.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 55906e89-4064-4355-ad44-7d7d973ddb2c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetAudioStreamCategory method, IMFMediaEngineEx.SetAudioStreamCategory, IMFMediaEngineEx::SetAudioStreamCategory, SetAudioStreamCategory, SetAudioStreamCategory method [Media Foundation], SetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::SetAudioStreamCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

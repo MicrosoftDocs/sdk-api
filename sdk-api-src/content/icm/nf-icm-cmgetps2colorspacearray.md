@@ -7,7 +7,7 @@ old-location: wcs\cmgetps2colorspacearray.htm
 tech.root: WCS
 ms.assetid: 2d7178e0-1535-48ce-8dbe-abd0d95cc294
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: CMGetPS2ColorSpaceArray, CMGetPS2ColorSpaceArray function [Windows Color System], _color_CMGetPS2ColorSpaceArray, icm/CMGetPS2ColorSpaceArray, wcs.cmgetps2colorspacearray
 ms.prod: windows-hardware
 ms.technology: windows-devices

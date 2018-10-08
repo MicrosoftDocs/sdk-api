@@ -7,7 +7,7 @@ old-location: multimedia\avistreamstarttime.htm
 tech.root: Multimedia
 ms.assetid: 6bfa053f-26ca-4dc8-8896-11ee9f0d9b77
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: AVIStreamStartTime, AVIStreamStartTime macro [Windows Multimedia], _win32_AVIStreamStartTime, multimedia.avistreamstarttime, vfw/AVIStreamStartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IKnownFolderManager::GetFolderByName
 author: windows-sdk-content
 description: Gets an object that represents a known folder identified by its canonical name.
 old-location: shell\IKnownFolderManager_GetFolderByName.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: cfabc06c-825d-488d-919e-4cd9109eae52
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetFolderByName, GetFolderByName method [Windows Shell], GetFolderByName method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolderByName method, IKnownFolderManager.GetFolderByName, IKnownFolderManager::GetFolderByName, _shell_IKnownFolderManager_GetFolderByName, shell.IKnownFolderManager_GetFolderByName, shobjidl_core/IKnownFolderManager::GetFolderByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

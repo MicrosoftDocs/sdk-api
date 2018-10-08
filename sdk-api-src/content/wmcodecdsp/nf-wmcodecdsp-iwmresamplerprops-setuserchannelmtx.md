@@ -4,10 +4,10 @@ title: IWMResamplerProps::SetUserChannelMtx
 author: windows-sdk-content
 description: Specifies the channel matrix.
 old-location: mf\iwmresamplerpropssetuserchannelmtx.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: d7f225a9-c63d-4b4e-b75a-ed6156e594a0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetUserChannelMtx method, IWMResamplerProps.SetUserChannelMtx, IWMResamplerProps::SetUserChannelMtx, SetUserChannelMtx, SetUserChannelMtx method [Media Foundation], SetUserChannelMtx method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssetuserchannelmtx, mf.iwmresamplerpropssetuserchannelmtx, wmcodecdsp/IWMResamplerProps::SetUserChannelMtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

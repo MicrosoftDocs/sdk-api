@@ -4,10 +4,10 @@ title: SHFree function
 author: windows-sdk-content
 description: Frees the memory allocated by SHAlloc.
 old-location: shell\SHFree.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: c9a532ad-ae24-4505-9e7b-577b90365441
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: SHFree, SHFree function [Windows Shell], _win32_SHFree, shell.SHFree, shlobj_core/SHFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

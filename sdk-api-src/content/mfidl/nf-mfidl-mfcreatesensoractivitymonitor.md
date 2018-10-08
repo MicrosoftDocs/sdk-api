@@ -4,10 +4,10 @@ title: MFCreateSensorActivityMonitor function
 author: windows-sdk-content
 description: Initializes a new instance of the IMFSensorActivityMonitor interface.
 old-location: mf\mfcreatesensoractivitymonitor.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

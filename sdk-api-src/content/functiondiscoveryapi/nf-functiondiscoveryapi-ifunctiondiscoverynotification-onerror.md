@@ -4,10 +4,10 @@ title: IFunctionDiscoveryNotification::OnError
 author: windows-sdk-content
 description: Receives errors that occur during asynchronous query processing.
 old-location: ncd\ifunctiondiscoverynotification_onerror.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: c4dcc4e9-7acf-44d3-b337-1ac01afa19b0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: IFunctionDiscoveryNotification interface,OnError method, IFunctionDiscoveryNotification.OnError, IFunctionDiscoveryNotification::OnError, OnError, OnError method, OnError method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnError, ncd.ifunctiondiscoverynotification_onerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MFPutWaitingWorkItem function
 author: windows-sdk-content
 description: Queues a work item that waits for an event to be signaled.
 old-location: mf\mfputwaitingworkitem.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: BBD80C60-E42F-4B3B-96E3-E01058A27DB8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: MFPutWaitingWorkItem, MFPutWaitingWorkItem function [Media Foundation], mf.mfputwaitingworkitem, mfapi/MFPutWaitingWorkItem, mfplat/MFPutWaitingWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

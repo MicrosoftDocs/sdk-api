@@ -7,7 +7,7 @@ old-location: wcs\cmcheckcolors.htm
 tech.root: WCS
 ms.assetid: 496845e9-1868-469a-bfe4-cf2f2f9046a6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/03/2018
 ms.keywords: CMCheckColors, CMCheckColors function [Windows Color System], _color_CMCheckColors, icm/CMCheckColors, wcs.cmcheckcolors
 ms.prod: windows-hardware
 ms.technology: windows-devices

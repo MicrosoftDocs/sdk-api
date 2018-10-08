@@ -4,10 +4,10 @@ title: StrCmpNCA function
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
 old-location: shell\StrCmpNC.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4b4f18d3-9325-4bd9-ac65-af7f3012fdaa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: StrCmpNC, StrCmpNC function [Windows Shell], StrCmpNCA, StrCmpNCW, _shell_StrCmpNC, shell.StrCmpNC, shlwapi/StrCmpNC, shlwapi/StrCmpNCA, shlwapi/StrCmpNCW
 ms.prod: windows-hardware
 ms.technology: windows-devices

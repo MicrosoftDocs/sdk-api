@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmap(D2D1_SIZE_U,const void,UINT32,con
 title: ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1)
 author: windows-sdk-content
 description: Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the DrawBitmap and ID2D1BitmapBrush APIs. In addition, color context information can be passed to the bitmap.
-old-location: direct2d\id2d1devicecontext_createbitmap.htm
-tech.root: direct2d
-ms.assetid: 8292da6b-8232-4ef0-967d-a53d586aa9a9
+old-location: direct2d\id2d1devicecontext_createbitmap2.htm
+tech.root: Direct2D
+ms.assetid: 2CB537C1-9398-4C5D-BAF9-52D9AD294D2A
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: CreateBitmap, CreateBitmap method [Direct2D], CreateBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmap method, ID2D1DeviceContext.CreateBitmap, ID2D1DeviceContext.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmap, ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmap, direct2d.id2d1devicecontext_createbitmap
+ms.date: 10/05/2018
+ms.keywords: CreateBitmap, CreateBitmap method [Direct2D], CreateBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmap method, ID2D1DeviceContext.CreateBitmap, ID2D1DeviceContext.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmap, ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmap, direct2d.id2d1devicecontext_createbitmap2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,9 +77,9 @@ Type: <b>UINT32</b>
 The pitch of the source data, if specified.
 
 
-### -param bitmapProperties [in]
+### -param bitmapProperties [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/c9371ce3-f6fc-4fe6-ada6-0aa64a8f29a2">D2D1_BITMAP_PROPERTIES1</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/c9371ce3-f6fc-4fe6-ada6-0aa64a8f29a2">D2D1_BITMAP_PROPERTIES1</a></b>
 
 The properties of the bitmap to be created.
 

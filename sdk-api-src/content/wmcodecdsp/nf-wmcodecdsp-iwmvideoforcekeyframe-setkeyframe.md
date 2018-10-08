@@ -4,10 +4,10 @@ title: IWMVideoForceKeyFrame::SetKeyFrame
 author: windows-sdk-content
 description: Specifies that the current frame will be encoded as a key frame.
 old-location: mf\iwmvideoforcekeyframesetkeyframe.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 5cfebe9f-45b1-4cba-8813-6c9405657323
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IWMVideoForceKeyFrame interface [Media Foundation],SetKeyFrame method, IWMVideoForceKeyFrame.SetKeyFrame, IWMVideoForceKeyFrame::SetKeyFrame, SetKeyFrame, SetKeyFrame method [Media Foundation], SetKeyFrame method [Media Foundation],IWMVideoForceKeyFrame interface, codecapi.iwmvideoforcekeyframe_setkeyframe, codecapi.iwmvideoforcekeyframesetkeyframe, mf.iwmvideoforcekeyframesetkeyframe, wmcodecdsp/IWMVideoForceKeyFrame::SetKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

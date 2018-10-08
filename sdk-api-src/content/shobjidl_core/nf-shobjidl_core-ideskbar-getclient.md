@@ -4,10 +4,10 @@ title: IDeskBar::GetClient
 author: windows-sdk-content
 description: Gets the client object.
 old-location: shell\IDeskBar_GetClient.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 003b400c-03a4-47c0-a6b8-04aa65ac573c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetClient, GetClient method [Windows Shell], GetClient method [Windows Shell],IDeskBar interface, IDeskBar interface [Windows Shell],GetClient method, IDeskBar.GetClient, IDeskBar::GetClient, _win32_IDeskBar_GetClient, shell.IDeskBar_GetClient, shobjidl_core/IDeskBar::GetClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

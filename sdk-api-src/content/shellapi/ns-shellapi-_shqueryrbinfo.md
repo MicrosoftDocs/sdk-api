@@ -4,10 +4,10 @@ title: "_SHQUERYRBINFO"
 author: windows-sdk-content
 description: Contains the size and item count information retrieved by the SHQueryRecycleBin function.
 old-location: shell\SHQUERYRBINFO.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 7e9bc7e9-5712-45e7-a424-0afb62f26450
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: "*LPSHQUERYRBINFO, LPSHQUERYRBINFO, LPSHQUERYRBINFO structure pointer [Windows Shell], SHQUERYRBINFO, SHQUERYRBINFO structure [Windows Shell], _SHQUERYRBINFO, _win32_SHQUERYRBINFO, shell.SHQUERYRBINFO, shellapi/LPSHQUERYRBINFO, shellapi/SHQUERYRBINFO"
 ms.prod: windows
 ms.technology: windows-sdk

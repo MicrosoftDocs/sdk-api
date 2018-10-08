@@ -4,10 +4,10 @@ title: INameSpaceTreeControlDropHandler::OnDropPosition
 author: windows-sdk-content
 description: Called when the item is being dropped within the same level (within the same parent folder) in the tree.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDropPosition.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 72d14961-85d1-428c-b2de-70c49c91b5b0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDropPosition method, INameSpaceTreeControlDropHandler.OnDropPosition, INameSpaceTreeControlDropHandler::OnDropPosition, OnDropPosition, OnDropPosition method [Windows Shell], OnDropPosition method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDropPosition, shell.INameSpaceTreeControlDropHandler_OnDropPosition, shobjidl/INameSpaceTreeControlDropHandler::OnDropPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

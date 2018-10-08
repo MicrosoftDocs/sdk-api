@@ -4,10 +4,10 @@ title: ITocEntry::GetDescriptionData
 author: windows-sdk-content
 description: The GetDescriptionData method gets a description data block that was previously associated with the entry by a call to SetDescriptionData.
 old-location: mf\itocentry_getdescriptiondata.htm
-tech.root: MedFound
+tech.root: medfound
 ms.assetid: 4000b67c-e34e-4bce-9a0d-c56c9fc0f41e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetDescriptionData, GetDescriptionData method [Media Foundation], GetDescriptionData method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptionData method, ITocEntry.GetDescriptionData, ITocEntry::GetDescriptionData, codecapi.itocentry_getdescriptiondata, mf.itocentry_getdescriptiondata, wmcodecdsp/ITocEntry::GetDescriptionData
 ms.prod: windows-hardware
 ms.technology: windows-devices

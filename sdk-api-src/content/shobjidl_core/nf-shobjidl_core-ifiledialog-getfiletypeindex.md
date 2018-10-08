@@ -4,10 +4,10 @@ title: IFileDialog::GetFileTypeIndex
 author: windows-sdk-content
 description: Gets the currently selected file type.
 old-location: shell\IFileDialog_GetFileTypeIndex.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ae5b08a1-a97d-433b-88dc-938abe028384
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: GetFileTypeIndex, GetFileTypeIndex method [Windows Shell], GetFileTypeIndex method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileTypeIndex method, IFileDialog.GetFileTypeIndex, IFileDialog::GetFileTypeIndex, shell.IFileDialog_GetFileTypeIndex, shell_IFileDialog_GetFileTypeIndex, shobjidl_core/IFileDialog::GetFileTypeIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\symenumeratemodules64.htm
 tech.root: debug
 ms.assetid: d2372521-eff7-4ac4-a0f3-1267ef50db6e
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.keywords: SymEnumerateModules, SymEnumerateModules function, SymEnumerateModules64, SymEnumerateModules64 function, SymEnumerateModulesW64, _win32_symenumeratemodules64, base.symenumeratemodules64, dbghelp/SymEnumerateModules, dbghelp/SymEnumerateModules64, dbghelp/SymEnumerateModulesW64
 ms.prod: windows-hardware
 ms.technology: windows-devices

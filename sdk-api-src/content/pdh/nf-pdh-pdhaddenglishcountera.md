@@ -4,10 +4,10 @@ title: PdhAddEnglishCounterA function
 author: windows-sdk-content
 description: Adds the specified language-neutral counter to the query.
 old-location: perf\pdhaddenglishcounter.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: 6a94b40d-0105-4358-93e1-dae603a35cc4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/05/2018
 ms.keywords: PdhAddEnglishCounter, PdhAddEnglishCounter function [Perf], PdhAddEnglishCounterA, PdhAddEnglishCounterW, pdh/PdhAddEnglishCounter, pdh/PdhAddEnglishCounterA, pdh/PdhAddEnglishCounterW, perf.pdhaddenglishcounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

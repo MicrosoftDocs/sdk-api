@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_setdocumentpara.htm
 tech.root: controls
 ms.assetid: d35d57e9-a005-48cd-a92d-381dc490d44f
 ms.author: windowssdkdev
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetDocumentPara method, ITextDocument2.SetDocumentPara, ITextDocument2::SetDocumentPara, SetDocumentPara, SetDocumentPara method [Windows Controls], SetDocumentPara method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setdocumentpara, tom/ITextDocument2::SetDocumentPara
 ms.prod: windows-hardware
 ms.technology: windows-devices

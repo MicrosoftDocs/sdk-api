@@ -4,10 +4,10 @@ title: IShellView::SaveViewState
 author: windows-sdk-content
 description: Saves the Shell's view settings so the current state can be restored during a subsequent browsing session.
 old-location: shell\IShellView_SaveViewState.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: 4bc36340-1e52-48cf-8b9a-e32115cda88b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: IShellView interface [Windows Shell],SaveViewState method, IShellView.SaveViewState, IShellView::SaveViewState, SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell],IShellView interface, _win32_IShellView_SaveViewState, shell.IShellView_SaveViewState, shobjidl_core/IShellView::SaveViewState
 ms.prod: windows-hardware
 ms.technology: windows-devices

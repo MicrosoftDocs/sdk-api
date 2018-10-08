@@ -4,10 +4,10 @@ title: INameSpaceTreeControlEvents::OnItemStateChanging
 author: windows-sdk-content
 description: Called before the state of an item changes.
 old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanging.htm
-tech.root: Shell
+tech.root: shell
 ms.assetid: ed0f431a-f3e2-4a95-a16e-6e38568dd91f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemStateChanging method, INameSpaceTreeControlEvents.OnItemStateChanging, INameSpaceTreeControlEvents::OnItemStateChanging, OnItemStateChanging, OnItemStateChanging method [Windows Shell], OnItemStateChanging method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemStateChanging, shell.INameSpaceTreeControlEvents_OnItemStateChanging, shobjidl/INameSpaceTreeControlEvents::OnItemStateChanging
 ms.prod: windows-hardware
 ms.technology: windows-devices
