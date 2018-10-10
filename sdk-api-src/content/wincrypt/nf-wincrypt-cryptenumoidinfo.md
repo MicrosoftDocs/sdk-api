@@ -118,7 +118,7 @@ If the callback function has stopped the enumeration, this function returns <b>F
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
  
 
  

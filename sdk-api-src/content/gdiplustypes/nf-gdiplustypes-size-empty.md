@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Size::Empty</b> method determines whether a 
-			<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object is empty.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object is empty.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If the
 
 
 A 
-				<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object is defined as empty if the 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object is defined as empty if the 
 				<b>Width</b> and 
 				<b>Height</b> data members are both equal to zero.
 
@@ -113,15 +113,15 @@ if(size.Empty())
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
 
 
 
-<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
  
 
  

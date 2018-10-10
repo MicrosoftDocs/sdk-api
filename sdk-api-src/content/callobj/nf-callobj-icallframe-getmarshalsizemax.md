@@ -52,7 +52,7 @@ req.redist:
 
 Retrieves an upper bound on the number of bytes needed to marshal the call frame.
 
-Usually an interface proxy calls this method to learn how big a buffer is needed, allocates the buffer, and then calls the <a href="https://msdn.microsoft.com/cab40c31-1f89-4da9-a1e0-ef946b34665c">Marshal</a> method to carry out the marshalling.
+Usually an interface proxy calls this method to learn how big a buffer is needed, allocates the buffer, and then calls the <a href="https://msdn.microsoft.com/en-us/library/ms693325(v=VS.85).aspx">Marshal</a> method to carry out the marshalling.
 
 
 ## -parameters
@@ -62,12 +62,12 @@ Usually an interface proxy calls this method to learn how big a buffer is needed
 
 ### -param pmshlContext [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/4ecc4646-db3f-4d0e-9c45-b78a288156e1">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms682388(v=VS.85).aspx">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
 
 
 ### -param mshlflags [in]
 
-Indicates whether the data to be marshaled is to be transmitted back to the client process â€” the normal case â€” or written to a global table, where it can be retrieved by multiple clients. For a list of values, see the <a href="https://msdn.microsoft.com/42a482be-d4b8-4f2e-ae43-1d210cb44c7c">MSHLFLAGS</a> enumeration.
+Indicates whether the data to be marshaled is to be transmitted back to the client process â€” the normal case â€” or written to a global table, where it can be retrieved by multiple clients. For a list of values, see the <a href="https://msdn.microsoft.com/en-us/library/ms680759(v=VS.85).aspx">MSHLFLAGS</a> enumeration.
 
 
 ### -param pcbBufferNeeded [out]
@@ -119,7 +119,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
  
 
  

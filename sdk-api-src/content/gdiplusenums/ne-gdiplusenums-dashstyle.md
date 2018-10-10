@@ -94,7 +94,7 @@ Specifies a user-defined, custom dashed line.
 
 
 A custom dashed line is created by calling the 
-				<a href="https://msdn.microsoft.com/bfddd867-a2b1-4f2b-9c99-cc2112e13fa0">Pen::SetDashPattern</a> method, which takes an array of values for the dash lengths and the space lengths.
+				<a href="https://msdn.microsoft.com/en-us/library/ms535049(v=VS.85).aspx">Pen::SetDashPattern</a> method, which takes an array of values for the dash lengths and the space lengths.
 
 
 

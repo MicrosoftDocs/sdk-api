@@ -51,7 +51,7 @@ req.redist:
 
 
 These flags enumerate reasons why URLs are included or excluded from the current crawl scope. The 
-<a href="https://msdn.microsoft.com/018c240b-491c-4974-8059-ee7331672e6b">ISearchCrawlScopeManager::IncludedInCrawlScopeEx</a> method returns a pointer to this enumeration to explain why a specified URL is either included or excluded from the current crawl scope.
+<a href="https://msdn.microsoft.com/en-us/library/Bb266491(v=VS.85).aspx">ISearchCrawlScopeManager::IncludedInCrawlScopeEx</a> method returns a pointer to this enumeration to explain why a specified URL is either included or excluded from the current crawl scope.
 
 
 ## -enum-fields
@@ -71,7 +71,7 @@ The URL has been included or excluded by a default rule. Default rules are set d
 
 ### -field CLUSIONREASON_USER
 
-The URL has been included or excluded by a user rule. User rules are set either by the user through Control Panel or by a calling application through the <a href="https://msdn.microsoft.com/8b731941-f1f6-402e-8cee-3c493e3c369d">ISearchCrawlScopeManager</a> interface.
+The URL has been included or excluded by a user rule. User rules are set either by the user through Control Panel or by a calling application through the <a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> interface.
 
 
 ### -field CLUSIONREASON_GROUPPOLICY

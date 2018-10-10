@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the style of a specified date and time picker (DTP) control. Use this macro or send the <a href="https://msdn.microsoft.com/8983898f-e23a-4247-838c-56364f695429">DTM_GETMCSTYLE</a> message explicitly.
+Gets the style of a specified date and time picker (DTP) control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761763(v=VS.85).aspx">DTM_GETMCSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the style of a specified date and time picker (DTP) control. Use this macro
 
 ### -param hdp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the DTP control.
 

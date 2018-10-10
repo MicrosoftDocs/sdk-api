@@ -76,7 +76,7 @@ This method returns a SIZE_T object, containing the size required in bytes.
 
 
 
-Refer to the remarks and examples for <a href="https://msdn.microsoft.com/572A95A6-A02F-4512-9BDE-2A8CA58A0A27">CreatePipelineLibrary</a>. 
+Refer to the remarks and examples for <a href="https://msdn.microsoft.com/en-us/library/Mt709133(v=VS.85).aspx">CreatePipelineLibrary</a>. 
 
 
 
@@ -86,7 +86,7 @@ Refer to the remarks and examples for <a href="https://msdn.microsoft.com/572A95
 
 
 
-<a href="https://msdn.microsoft.com/7A1D750D-51F1-48F6-9D74-6439A147F1EC">ID3D12PipelineLibrary</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt709145(v=VS.85).aspx">ID3D12PipelineLibrary</a>
  
 
  

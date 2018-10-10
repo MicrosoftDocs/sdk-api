@@ -90,7 +90,7 @@ The <i>hicTargetDev</i> and <i>ptd</i> parameters give information on the target
 Renders the object to the <i>hdcDraw</i> device context as though it were printed to a printer. Thus, the text services object can optimize for the printer (for example, not painting the background color, if white). Also, certain screen-specific elements (such as the selection) should not be rendered.
 
 
-<a href="https://msdn.microsoft.com/66798915-af6f-4a18-813b-872bf0298824">ITextServices::TxGetNaturalSize</a> should render the <i>lprcClient</i> rectangle, starting at the current scrolling position.
+<a href="https://msdn.microsoft.com/en-us/library/Bb787672(v=VS.85).aspx">ITextServices::TxGetNaturalSize</a> should render the <i>lprcClient</i> rectangle, starting at the current scrolling position.
 
 </td>
 </tr>
@@ -226,7 +226,7 @@ The return value is an <b>HRESULT</b> code.
 
 This method allows the host to implement transparent hit testing on text.
 
-For more information, see the Remarks section in <a href="https://msdn.microsoft.com/5fb14a41-2e73-4760-ba77-f1bfd2a1184b">ITextServices::TxDraw</a> and <a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">ITextServices::OnTxSetCursor</a>.
+For more information, see the Remarks section in <a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">ITextServices::TxDraw</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">ITextServices::OnTxSetCursor</a>.
 
 
 
@@ -240,11 +240,11 @@ For more information, see the Remarks section in <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">OnTxSetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">OnTxSetCursor</a>
 
 
 
@@ -252,11 +252,11 @@ For more information, see the Remarks section in <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/5fb14a41-2e73-4760-ba77-f1bfd2a1184b">TxDraw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">TxDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

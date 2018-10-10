@@ -102,7 +102,7 @@ After this function returns, this value contains the number of bytes that were c
 
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://msdn.microsoft.com/a1b60660-a4c5-4880-8cd4-48d8717c77c3">CRYPT_CONTEXTS</a> structure that receives the set of contexts retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa376218(v=VS.85).aspx">CRYPT_CONTEXTS</a> structure that receives the set of contexts retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
 If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://msdn.microsoft.com/0ee83ca1-2fe6-4ff2-823e-888b3e66f310">BCryptFreeBuffer</a> function.
 
@@ -287,7 +287,7 @@ NTSTATUS EnumContexts_SelfAlloc()
 
 
 
-<a href="https://msdn.microsoft.com/a1b60660-a4c5-4880-8cd4-48d8717c77c3">CRYPT_CONTEXTS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376218(v=VS.85).aspx">CRYPT_CONTEXTS</a>
  
 
  

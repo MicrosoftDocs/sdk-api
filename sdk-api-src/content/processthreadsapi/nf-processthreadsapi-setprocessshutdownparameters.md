@@ -178,7 +178,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Applications running in the system security context do not get shut down by the operating system. They get notified of shutdown or logoff through the callback function installable via 
-<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
+<a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
 
 
 
@@ -200,7 +200,7 @@ Applications running in the system security context do not get shut down by the 
 
 
 
-<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>
+<a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Represents a point, radius pair that makes up part of a <a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a>.
+Represents a point, radius pair that makes up part of a <a href="https://msdn.microsoft.com/en-us/library/Dn890751(v=VS.85).aspx">D2D1_INK_BEZIER_SEGMENT</a>.
 
 
 ## -struct-fields

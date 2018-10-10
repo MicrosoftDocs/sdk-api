@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Indentifiers for properties of the <a href="https://msdn.microsoft.com/1def972d-8172-9217-8ce7-abce4a93f6e1">RGB to Hue effect</a>.
+Indentifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn900459(v=VS.85).aspx">RGB to Hue effect</a>.
 
 
 ## -enum-fields
@@ -62,7 +62,7 @@ Indentifiers for properties of the <a href="https://msdn.microsoft.com/1def972d-
 
 The D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE property is an enumeration value which indicates the color space to convert to. 
           The default value for the property is D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE.
-          See the <a href="https://msdn.microsoft.com/DD87B97F-553A-4E36-A245-5ED15F33C62B">D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE</a> enumeration for more information.
+          See the <a href="https://msdn.microsoft.com/en-us/library/Dn890743(v=VS.85).aspx">D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE</a> enumeration for more information.
 
 
 ### -field D2D1_RGBTOHUE_PROP_FORCE_DWORD
@@ -75,7 +75,7 @@ The D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE property is an enumeration value which
 
 
 
-<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
 
 
 
@@ -83,7 +83,7 @@ The D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE property is an enumeration value which
 
 
 
-<a href="https://msdn.microsoft.com/1def972d-8172-9217-8ce7-abce4a93f6e1">RGB to Hue effect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900459(v=VS.85).aspx">RGB to Hue effect</a>
  
 
  

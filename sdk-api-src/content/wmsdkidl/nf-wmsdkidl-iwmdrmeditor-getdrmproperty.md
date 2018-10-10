@@ -57,7 +57,7 @@ req.redist:
 ]
 
 
-The <b>GetDRMProperty</b> method retrieves the specified <a href="wmformat_glossary.htm">DRM</a> property.
+The <b>GetDRMProperty</b> method retrieves the specified <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> property.
 
 
 

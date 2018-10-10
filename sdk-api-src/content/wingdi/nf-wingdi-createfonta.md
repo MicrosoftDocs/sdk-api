@@ -870,7 +870,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 ```
 
 
-For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
+For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
 
 <div class="code"></div>
 

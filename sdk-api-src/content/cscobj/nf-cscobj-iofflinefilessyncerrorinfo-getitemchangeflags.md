@@ -108,7 +108,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/df1dd351-eb18-46e6-b778-852f551adfd1">IOfflineFilesSyncErrorInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530625(v=VS.85).aspx">IOfflineFilesSyncErrorInfo</a>
  
 
  

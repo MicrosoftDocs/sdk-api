@@ -122,7 +122,7 @@ If this method is called for the WPD_COMMAND_STORAGE_FORMAT command and the <i>p
 
 
 
-<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
  
 
  

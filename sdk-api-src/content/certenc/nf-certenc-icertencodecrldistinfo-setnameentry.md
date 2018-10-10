@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>SetNameEntry</b> method sets a name at a specified index of a distribution point in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution information array.
+The <b>SetNameEntry</b> method sets a name at a specified index of a distribution point in a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) distribution information array.
 
 
 ## -parameters
@@ -119,7 +119,7 @@ The name is an IA5 string specifying a URL in the format <i>Service</i><b>://</b
 </dl>
 </td>
 <td width="60%">
-The name is a registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+The name is a registered <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Specifies the name.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -149,19 +149,19 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/e9c0053f-263f-4d7b-9356-bc33af989dbe">ICertEncodeCRLDistInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383911(v=VS.85).aspx">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a564af61-fb5e-46b7-a818-333b4d5e2f25">ICertEncodeCRLDistInfo::GetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383945(v=VS.85).aspx">ICertEncodeCRLDistInfo::GetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf">ICertEncodeCRLDistInfo::GetNameChoice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383950(v=VS.85).aspx">ICertEncodeCRLDistInfo::GetNameChoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce27adfd-e21a-4e8d-882e-72041f97958a">ICertEncodeCRLDistInfo::SetNameCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383982(v=VS.85).aspx">ICertEncodeCRLDistInfo::SetNameCount</a>
  
 
  

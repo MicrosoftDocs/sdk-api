@@ -60,28 +60,28 @@ Describes the stroke that outlines a shape.
 
 ### -field startCap
 
-Type: <b><a href="https://msdn.microsoft.com/acf4365e-b9df-459e-a746-016339cd09ac">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368079(v=VS.85).aspx">D2D1_CAP_STYLE</a></b>
 
 The cap to use at the start of each open figure.
 
 
 ### -field endCap
 
-Type: <b><a href="https://msdn.microsoft.com/acf4365e-b9df-459e-a746-016339cd09ac">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368079(v=VS.85).aspx">D2D1_CAP_STYLE</a></b>
 
 The cap to use at the end of each open figure.
 
 
 ### -field dashCap
 
-Type: <b><a href="https://msdn.microsoft.com/acf4365e-b9df-459e-a746-016339cd09ac">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368079(v=VS.85).aspx">D2D1_CAP_STYLE</a></b>
 
 The cap to use at the start and end of each dash.
 
 
 ### -field lineJoin
 
-Type: <b><a href="https://msdn.microsoft.com/4368e93e-af69-4555-ac2b-c9c576c81372">D2D1_LINE_JOIN</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368130(v=VS.85).aspx">D2D1_LINE_JOIN</a></b>
 
 The line join to use.
 
@@ -95,7 +95,7 @@ The limit beyond which miters are either clamped or converted to bevels.
 
 ### -field dashStyle
 
-Type: <b><a href="https://msdn.microsoft.com/0c1807e3-51e6-440a-bd80-9b43ed7a39f5">D2D1_DASH_STYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368087(v=VS.85).aspx">D2D1_DASH_STYLE</a></b>
 
 The type of dash to use.
 
@@ -109,7 +109,7 @@ The location of the first dash, relative to the start of the figure.
 
 ### -field transformType
 
-Type: <b><a href="https://msdn.microsoft.com/99c2c5c8-49ce-4865-befa-e9f92905a260">D2D1_STROKE_TRANSFORM_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447016(v=VS.85).aspx">D2D1_STROKE_TRANSFORM_TYPE</a></b>
 
 The rule that determines what render target properties affect the nib of the stroke.
 

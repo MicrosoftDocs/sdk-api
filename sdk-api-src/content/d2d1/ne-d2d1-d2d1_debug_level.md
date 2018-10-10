@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Indicates the type of information provided by the <a href="https://msdn.microsoft.com/7c28e00b-ebb9-4b79-939c-64eade1351ad">Direct2D Debug Layer</a>.  
+Indicates the type of information provided by the <a href="https://msdn.microsoft.com/en-us/library/Ee794277(v=VS.85).aspx">Direct2D Debug Layer</a>.  
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ Direct2D sends error messages, warnings, and additional diagnostic information t
 
 
 
-To receive debugging messages, you must install the <a href="https://msdn.microsoft.com/7c28e00b-ebb9-4b79-939c-64eade1351ad">Direct2D Debug Layer</a>.
+To receive debugging messages, you must install the <a href="https://msdn.microsoft.com/en-us/library/Ee794277(v=VS.85).aspx">Direct2D Debug Layer</a>.
 
 
 
@@ -97,11 +97,11 @@ To receive debugging messages, you must install the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/2765d34e-978c-4121-82c9-2780d54e2850">D2D1_FACTORY_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368102(v=VS.85).aspx">D2D1_FACTORY_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c28e00b-ebb9-4b79-939c-64eade1351ad">Direct2D Debug Layer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee794277(v=VS.85).aspx">Direct2D Debug Layer</a>
  
 
  

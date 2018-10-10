@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Adds a string to a list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a> message explicitly.
+Adds a string to a list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ The string to add.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a>.
 	
 
 

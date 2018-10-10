@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the width of a column in report or list view. You can use this macro or send the <a href="https://msdn.microsoft.com/06e8ec36-3bc5-4516-ac29-17c36fb6d962">LVM_GETCOLUMNWIDTH</a> message explicitly. 
+Gets the width of a column in report or list view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774915(v=VS.85).aspx">LVM_GETCOLUMNWIDTH</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the width of a column in report or list view. You can use this macro or sen
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control. 
 

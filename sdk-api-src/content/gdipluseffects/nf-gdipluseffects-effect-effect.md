@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/7b32aad2-ba44-46a6-8315-d55fed2d9391">Effect</a> object. 
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms534433(v=VS.85).aspx">Effect</a> object. 
 
 
 ## -parameters
