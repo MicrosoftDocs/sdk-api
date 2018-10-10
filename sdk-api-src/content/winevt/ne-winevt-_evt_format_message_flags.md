@@ -7,7 +7,7 @@ old-location: wes\evt_format_message_flags.htm
 tech.root: WES
 ms.assetid: 6a8ed14a-1952-4fcf-ac66-12c1fecd363f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: EVT_FORMAT_MESSAGE_FLAGS, EVT_FORMAT_MESSAGE_FLAGS enumeration [EventLog], EvtFormatMessageChannel, EvtFormatMessageEvent, EvtFormatMessageId, EvtFormatMessageKeyword, EvtFormatMessageLevel, EvtFormatMessageOpcode, EvtFormatMessageProvider, EvtFormatMessageTask, EvtFormatMessageXml, _EVT_FORMAT_MESSAGE_FLAGS, wes.evt_format_message_flags, winevt/EVT_FORMAT_MESSAGE_FLAGS, winevt/EvtFormatMessageChannel, winevt/EvtFormatMessageEvent, winevt/EvtFormatMessageId, winevt/EvtFormatMessageKeyword, winevt/EvtFormatMessageLevel, winevt/EvtFormatMessageOpcode, winevt/EvtFormatMessageProvider, winevt/EvtFormatMessageTask, winevt/EvtFormatMessageXml
 ms.prod: windows
 ms.technology: windows-sdk

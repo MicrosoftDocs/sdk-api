@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyNameLength(U,)
 title: ID2D1Properties::GetPropertyNameLength(U,)
 author: windows-sdk-content
-description: Gets the number of characters for the given property name.
-old-location: direct2d\id2d1properties_getpropertynamelength.htm
+description: Gets the number of characters for the given property name. This is a template overload. See Remarks.
+old-location: direct2d\id2d1properties_getpropertynamelength2.htm
 tech.root: Direct2D
-ms.assetid: 9c4b86d1-db5b-41cd-9dd4-85a8bb03dd20
+ms.assetid: 245A71F7-4034-4D65-A9EB-9A33FC8DED05
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: GetPropertyNameLength, GetPropertyNameLength method [Direct2D], GetPropertyNameLength method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyNameLength method, ID2D1Properties.GetPropertyNameLength, ID2D1Properties.GetPropertyNameLength(U,), ID2D1Properties::GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength(U,), ID2D1Properties::GetPropertyNameLength(UINT32), d2d1_1/ID2D1Properties::GetPropertyNameLength, direct2d.id2d1properties_getpropertynamelength
+ms.date: 10/09/2018
+ms.keywords: GetPropertyNameLength, GetPropertyNameLength method [Direct2D], GetPropertyNameLength method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyNameLength method, ID2D1Properties.GetPropertyNameLength, ID2D1Properties.GetPropertyNameLength(U,), ID2D1Properties::GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength(U), ID2D1Properties::GetPropertyNameLength(U,), d2d1_1/ID2D1Properties::GetPropertyNameLength, direct2d.id2d1properties_getpropertynamelength2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets  the number of characters for the given property name.  
+Gets  the number of characters for the given property name.  This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets  the number of characters for the given property name.
 
 ### -param index
 
-Type: <b>UINT32</b>
+Type: <b>U</b>
 
 The index of the property name to retrieve.
 
@@ -88,6 +88,14 @@ This method returns the size in characters of the name corresponding to the give
 
 
 The value returned by this method can be used to ensure that the buffer size for <a href="https://msdn.microsoft.com/36873134-cb0e-4ba2-bddb-95b2cc92afff">GetPropertyName</a> is appropriate. 
+
+
+<pre class="syntax">template&lt;typename U&gt;
+    UINT32 GetPropertyNameLength(
+        U index
+        ) CONST;
+</pre>
+
 
 
 

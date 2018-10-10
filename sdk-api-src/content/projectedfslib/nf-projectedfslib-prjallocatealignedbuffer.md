@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjAllocateAlignedBuffer
 title: PrjAllocateAlignedBuffer function
 author: windows-sdk-content
-description: TBD.
+description: Allocates a buffer that meets the memory alignment requirements of the virtualization instance's storage device.
 old-location: projfs\prjallocatealignedbuffer.htm
 tech.root: ProjFS
 ms.assetid: 49B723CC-976D-44C6-91D9-0FB26CFD45CA
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjAllocateAlignedBuffer, PrjAllocateAlignedBuffer function, ProjFS.prjallocatealignedbuffer, projectedfslib/PrjAllocateAlignedBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjAllocateAlignedBuffer
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Allocates a buffer that meets the memory alignment requirements of the virtualization instance's storage device.
 
 
 ## -parameters
@@ -59,12 +60,12 @@ TBD
 
 ### -param namespaceVirtualizationContext [in]
 
-TBD
+Opaque handle for the virtualization instance.
 
 
 ### -param size [in]
 
-TBD
+The size of the buffer required, in bytes.
 
 
 ## -returns

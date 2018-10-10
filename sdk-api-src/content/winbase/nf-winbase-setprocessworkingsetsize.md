@@ -4,10 +4,10 @@ title: SetProcessWorkingSetSize function
 author: windows-sdk-content
 description: Sets the minimum and maximum working set sizes for the specified process.
 old-location: base\setprocessworkingsetsize.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 8bc0053c-f687-43b5-a435-df1e813a5204
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: SetProcessWorkingSetSize, SetProcessWorkingSetSize function, _win32_setprocessworkingsetsize, base.setprocessworkingsetsize, winbase/SetProcessWorkingSetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

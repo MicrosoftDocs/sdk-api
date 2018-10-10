@@ -7,7 +7,7 @@ old-location: multimedia\capfilealloc.htm
 tech.root: Multimedia
 ms.assetid: 579c5406-f44a-4ea2-9822-f09a890489fb
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "_win32_capFileAlloc, capFileAlloc, capFileAlloc macro [Windows Multimedia], multimedia.capfilealloc, vfw/capFileAlloc"
 ms.prod: windows-hardware
 ms.technology: windows-devices

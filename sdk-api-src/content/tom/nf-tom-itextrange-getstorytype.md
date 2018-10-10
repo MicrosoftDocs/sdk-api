@@ -4,10 +4,10 @@ title: ITextRange::GetStoryType
 author: windows-sdk-content
 description: Get the type of the range's story.
 old-location: controls\ITextRange_GetStoryType.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorytype.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetStoryType, GetStoryType method [Windows Controls], GetStoryType method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStoryType method, ITextRange.GetStoryType, ITextRange::GetStoryType, _win32_ITextRange_GetStoryType, _win32_ITextRange_GetStoryType_cpp, controls.ITextRange_GetStoryType, controls._win32_ITextRange_GetStoryType, tom/ITextRange::GetStoryType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,7 +132,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -140,7 +140,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

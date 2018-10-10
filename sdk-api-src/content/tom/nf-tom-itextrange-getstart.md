@@ -4,10 +4,10 @@ title: ITextRange::GetStart
 author: windows-sdk-content
 description: Gets the start character position of the range.
 old-location: controls\ITextRange_GetStart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstart.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetStart, GetStart method [Windows Controls], GetStart method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStart method, ITextRange.GetStart, ITextRange::GetStart, _win32_ITextRange_GetStart, _win32_ITextRange_GetStart_cpp, controls.ITextRange_GetStart, controls._win32_ITextRange_GetStart, tom/ITextRange::GetStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,11 +85,11 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773947(v=VS.85).aspx">GetEnd</a>
+<a href="https://msdn.microsoft.com/eed9c5f1-416d-4604-8a69-50b284454bb0">GetEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -97,11 +97,11 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787823(v=VS.85).aspx">SetStart</a>
+<a href="https://msdn.microsoft.com/146c335e-de5a-4418-a0af-51febde720eb">SetStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

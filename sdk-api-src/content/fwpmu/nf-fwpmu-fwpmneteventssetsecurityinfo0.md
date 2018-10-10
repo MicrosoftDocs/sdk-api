@@ -4,10 +4,10 @@ title: FwpmNetEventsSetSecurityInfo0 function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a network event object.
 old-location: fwp\fwpmneteventssetsecurityinfo0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: ce4f76be-caee-49f3-98b6-ee4309bca484
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FwpmNetEventsSetSecurityInfo0, FwpmNetEventsSetSecurityInfo0 function [Filtering], fwp.fwpmneteventssetsecurityinfo0, fwpmu/FwpmNetEventsSetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

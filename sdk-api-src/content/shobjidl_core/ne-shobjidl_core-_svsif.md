@@ -133,11 +133,15 @@ The <b>SVSIF</b> type used to refer to members of the <b>_SVSIF</b> enumeration 
 
                 
 
-
-```
-typedef UINT SVSIF;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef UINT SVSIF;</pre>
+</td>
+</tr>
+</table></span></div>
 
 

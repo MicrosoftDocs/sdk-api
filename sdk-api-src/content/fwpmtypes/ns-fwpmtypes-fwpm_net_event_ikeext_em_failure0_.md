@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_IKEEXT_EM_FAILURE0_
 author: windows-sdk-content
 description: The FWPM_NET_EVENT_IKEEXT_EM_FAILURE0 structure contains information that describes an IKE Extended Mode (EM) failure.Note  FWPM_NET_EVENT_IKEEXT_EM_FAILURE0 is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows Vista.
 old-location: fwp\fwpm_net_event_ikeext_em_failure0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 53b28166-8f19-4891-aeb0-603628d95053
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_EM_FAILURE0, FWPM_NET_EVENT_IKEEXT_EM_FAILURE0 structure [Filtering], FWPM_NET_EVENT_IKEEXT_EM_FAILURE0_, FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE, fwp.fwpm_net_event_ikeext_em_failure0, fwpmtypes/FWPM_NET_EVENT_IKEEXT_EM_FAILURE0
 ms.prod: windows
 ms.technology: windows-sdk

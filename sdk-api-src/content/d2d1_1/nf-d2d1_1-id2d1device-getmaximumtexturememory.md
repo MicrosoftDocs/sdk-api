@@ -7,7 +7,7 @@ old-location: direct2d\id2d1device_getmaximumtexturememory.htm
 tech.root: Direct2D
 ms.assetid: 0EAF3618-61A8-4332-8B62-1F37335A47A8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetMaximumTextureMemory, GetMaximumTextureMemory method [Direct2D], GetMaximumTextureMemory method [Direct2D],ID2D1Device interface, ID2D1Device interface [Direct2D],GetMaximumTextureMemory method, ID2D1Device.GetMaximumTextureMemory, ID2D1Device::GetMaximumTextureMemory, d2d1_1/ID2D1Device::GetMaximumTextureMemory, direct2d.id2d1device_getmaximumtexturememory
 ms.prod: windows-hardware
 ms.technology: windows-devices

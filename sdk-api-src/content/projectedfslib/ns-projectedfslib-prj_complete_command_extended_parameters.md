@@ -2,12 +2,12 @@
 UID: NS:projectedfslib.PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 title: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 author: windows-sdk-content
-description: TBD.
+description: Specifies parameters required for completing certain callbacks.
 old-location: projfs\prj_complete_command_extended_parameters.htm
 tech.root: ProjFS
 ms.assetid: 1E13CED8-41DF-4206-AA60-751424424011
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS, PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure, ProjFS.prj_complete_command_extended_parameters, projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Specifies parameters required for completing certain callbacks.
 
 
 ## -struct-fields
@@ -64,31 +65,29 @@ TBD
 
 ### -field DUMMYUNIONNAME
 
-TBD
-
 
 
 #### notifyOperation
 
-TBD
+Used if the commandType is PRJ_COMPLETE_COMMAND_TYPE_NOTIFY_OPERATION.
 
 
 
 ##### NotificationMask
 
-TBD
+A new set of notifications the provider wishes to receive.
 
 
 
 #### enumeration
 
-TBD
+Used if the commandType is PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION.
 
 
 
 ##### DirEntryBufferHandle
 
-TBD
+An opaque handle to a directory entry buffer. This must be the value passed in the dirEntryBufferHandle parameter of the <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback being completed.
 
 
 ### -field DUMMYUNIONNAME.Notification
@@ -109,6 +108,22 @@ TBD
 ### -field DUMMYUNIONNAME.Enumeration.DirEntryBufferHandle
 
  
+
+
+
+
+#### - commandType
+
+The type of command.
+
+
+## -remarks
+
+
+
+For any callback except <a href="projfs.prj_cancel_command_cb">PRJ_CANCEL_COMMAND_CB</a>, the provider may opt to process the callback asynchronously. To do so it returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) from the callback. Once the provider has finished processing the callback. 
+
+If the provider calls this function for the commandId passed by the <a href="projfs.prj_cancel_command_cb">PRJ_CANCEL_COMMAND_CB</a> callback it is not an error, however it is a no-op because the I/O that caused the callback invocation identified by commandId has already ended.
 
 
 

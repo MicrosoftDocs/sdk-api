@@ -2,13 +2,13 @@
 UID: NS:projectedfslib.PRJ_NOTIFICATION_MAPPING
 title: PRJ_NOTIFICATION_MAPPING
 author: windows-sdk-content
-description: TBD.
+description: Describes a notification mapping, which is a pairing between a directory (referred to as a &#0034;notification root&#0034;) and a set of notifications, expressed as a bit mask.
 old-location: projfs\prj_notification_mapping.htm
 tech.root: ProjFS
 ms.assetid: 758E1ADB-8C16-46D9-B796-57C0B875790D
 ms.author: windowssdkdev
-ms.date: 10/02/2018
-ms.keywords: PPRJ_NOTIFICATION_MAPPING, PPRJ_NOTIFICATION_MAPPING structure pointer, PRJ_NOTIFICATION_MAPPING, PRJ_NOTIFICATION_MAPPING structure, ProjFS.prj_notification_mapping, projectedfslib/PPRJ_NOTIFICATION_MAPPING, projectedfslib/PRJ_NOTIFICATION_MAPPING
+ms.date: 10/09/2018
+ms.keywords: PRJ_NOTIFICATION_MAPPING, PRJ_NOTIFICATION_MAPPING structure, ProjFS.prj_notification_mapping, projectedfslib/PRJ_NOTIFICATION_MAPPING
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_NOTIFICATION_MAPPING
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Describes a notification mapping, which is a pairing between a directory (referred to as a "notification root") and a set of notifications, expressed as a bit mask.
 
 
 ## -struct-fields
@@ -59,10 +60,31 @@ TBD
 
 ### -field NotificationBitMask
 
-TBD
+A bit mask representing a set of notifications.
 
 
 ### -field NotificationRoot
 
-TBD
+The directory that the notification mapping is paired to.
+
+
+## -remarks
+
+
+
+PRJ_NOTIFICATION_MAPPING describes a "notification mapping", which is a pairing between a directory (referred to as a "notification root") and a set of notifications, expressed as a bit mask, which ProjFS should send for that directory and its descendants. A notification mapping can also be established for a single file. 
+
+
+The provider puts an array of zero or more PRJ_NOTIFICATION_MAPPING structures in the NotificationMappings member of the options parameter of PrjStartVirtualizing to configure notifications for the virtualization root. 
+
+
+If the provider does not specify any notification mappings, ProjFS will default to sending the notifications PRJ_NOTIFICATION_FILE_OPENED, PRJ_NOTIFICATION_NEW_FILE_CREATED, and PRJ_NOTIFICATION_FILE_OVERWRITTEN for all files and directories in the virtualization instance. 
+
+
+The directory or file is specified relative to the virtualization root, with an empty string representing the virtualization root itself. 
+
+
+If the provider specifies multiple notification mappings, and some are descendants of others, the mappings must be specified in descending depth. Notification mappings at deeper levels override higher-level ones for their descendants.
+
+
 

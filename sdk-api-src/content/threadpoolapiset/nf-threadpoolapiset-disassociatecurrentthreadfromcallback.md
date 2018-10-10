@@ -4,10 +4,10 @@ title: DisassociateCurrentThreadFromCallback function
 author: windows-sdk-content
 description: Removes the association between the currently executing callback function and the object that initiated the callback. The current thread will no longer count as executing a callback on behalf of the object.
 old-location: base\disassociatecurrentthreadfromcallback.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: f25f936c-2570-4e8c-807b-42000cd878bb
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: DisassociateCurrentThreadFromCallback, DisassociateCurrentThreadFromCallback function, base.disassociatecurrentthreadfromcallback, threadpoolapiset/DisassociateCurrentThreadFromCallback, winbase/DisassociateCurrentThreadFromCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

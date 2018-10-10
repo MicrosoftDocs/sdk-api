@@ -2,12 +2,12 @@
 UID: NE:projectedfslib.PRJ_STARTVIRTUALIZING_FLAGS
 title: PRJ_STARTVIRTUALIZING_FLAGS
 author: windows-sdk-content
-description: TBD.
+description: Flags to provide when starting a virtualization instance.
 old-location: projfs\prj_startvirtualizing_flags.htm
 tech.root: ProjFS
 ms.assetid: AF67668B-E9BC-4320-AB1F-1E78CA700D8E
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PRJ_FLAG_NONE, PRJ_FLAG_USE_NEGATIVE_PATH_CACHE, PRJ_STARTVIRTUALIZING_FLAGS, PRJ_STARTVIRTUALIZING_FLAGS enumeration, ProjFS.prj_startvirtualizing_flags, projectedfslib/PRJ_FLAG_NONE, projectedfslib/PRJ_FLAG_USE_NEGATIVE_PATH_CACHE, projectedfslib/PRJ_STARTVIRTUALIZING_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_STARTVIRTUALIZING_FLAGS
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Flags to provide when starting a virtualization instance.
 
 
 ## -enum-fields
@@ -59,10 +60,12 @@ TBD
 
 ### -field PRJ_FLAG_NONE
 
-TBD
+No flags.
 
 
 ### -field PRJ_FLAG_USE_NEGATIVE_PATH_CACHE
 
-TBD
+Specifies that ProjFS should maintain a "negative path cache" for the virtualization instance. If the negative path cache is active, then if the provider indicates that a file path does not exist by returning HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) from its <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback, ProjFS will fail subsequent opens of that path without calling the <i>PRJ_GET_PLACEHOLDER_INFO_CB</i> callback again. 
+
+To resume receiving the <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> for paths the provider has indicated do not exist, the provider must call <a href="projfs.prjclearnegativepathcache">PrjClearNegativePathCache</a>.
 

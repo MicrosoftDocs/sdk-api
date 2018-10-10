@@ -7,7 +7,7 @@ old-location: direct2d\id2d1spritebatch_addsprites.htm
 tech.root: Direct2D
 ms.assetid: 49EA1F42-76C3-4505-B46A-422A336A13F6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: AddSprites, AddSprites method [Direct2D], AddSprites method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],AddSprites method, ID2D1SpriteBatch.AddSprites, ID2D1SpriteBatch::AddSprites, d2d1_3/ID2D1SpriteBatch::AddSprites, direct2d.id2d1spritebatch_addsprites
 ms.prod: windows-hardware
 ms.technology: windows-devices

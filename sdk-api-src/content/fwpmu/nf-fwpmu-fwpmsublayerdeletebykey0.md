@@ -4,10 +4,10 @@ title: FwpmSubLayerDeleteByKey0 function
 author: windows-sdk-content
 description: Deletes a sublayer from the system by its key.
 old-location: fwp\fwpmsublayerdeletebykey0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 4aa238a6-1a47-4fdc-b02b-f10cf0e90040
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FwpmSubLayerDeleteByKey0, FwpmSubLayerDeleteByKey0 function [Filtering], fwp.fwpmsublayerdeletebykey0_func, fwpmu/FwpmSubLayerDeleteByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\wbem_genus_type.htm
 tech.root: WmiSdk
 ms.assetid: 5433C3F7-3499-4AC1-9E26-0BB943B69C4D
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: WBEM_GENUS_CLASS, WBEM_GENUS_INSTANCE, WBEM_GENUS_TYPE, WBEM_GENUS_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_GENUS_TYPE, wbemcli/WBEM_GENUS_CLASS, wbemcli/WBEM_GENUS_INSTANCE, wbemcli/WBEM_GENUS_TYPE, wmi.wbem_genus_type
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_deletevalue.htm
 tech.root: WmiSdk
 ms.assetid: 5f2956cf-8901-441f-b1bd-4b2f21d74683
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: DeleteValue, DeleteValue method [Windows Management Instrumentation], DeleteValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],DeleteValue method, IWbemContext.DeleteValue, IWbemContext::DeleteValue, _hmm_iwbemcontext_deletevalue, wbemcli/IWbemContext::DeleteValue, wmi.iwbemcontext_deletevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

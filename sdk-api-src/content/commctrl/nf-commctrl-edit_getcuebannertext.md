@@ -4,10 +4,10 @@ title: Edit_GetCueBannerText macro
 author: windows-sdk-content
 description: Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the EM_GETCUEBANNER message explicitly.
 old-location: controls\Edit_GetCueBannerText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getcuebannertext.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: Edit_GetCueBannerText, Edit_GetCueBannerText macro [Windows Controls], _win32_Edit_GetCueBannerText, _win32_Edit_GetCueBannerText_cpp, commctrl/Edit_GetCueBannerText, controls.Edit_GetCueBannerText, controls._win32_Edit_GetCueBannerText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761572(v=VS.85).aspx">EM_GETCUEBANNER</a> message explicitly. 
+Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/311b783a-cd78-440f-bfc2-f5108ae7d1f8">EM_GETCUEBANNER</a> message explicitly. 
 
 
 ## -parameters
@@ -60,21 +60,21 @@ Gets the text that is displayed as a textual cue, or tip, in an edit control. Yo
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the edit control. 
 
 
 ### -param lpwText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
 
 A  pointer to a Unicode string that receives the text that is set as the cue banner. 
 
 
 ### -param cchText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LONG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
 A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string referenced by <i>lpcwText</i>.
 
@@ -83,7 +83,7 @@ A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string reference
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -97,11 +97,11 @@ A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string reference
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761572(v=VS.85).aspx">EM_GETCUEBANNER</a>
+<a href="https://msdn.microsoft.com/311b783a-cd78-440f-bfc2-f5108ae7d1f8">EM_GETCUEBANNER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit Controls</a>
 
 
 

@@ -4,10 +4,10 @@ title: GetLocalTime function
 author: windows-sdk-content
 description: Retrieves the current local date and time.
 old-location: base\getlocaltime.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: a63fcd36-de48-4437-a823-837884cc2bf9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetLocalTime, GetLocalTime function, _win32_getlocaltime, base.getlocaltime, sysinfoapi/GetLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

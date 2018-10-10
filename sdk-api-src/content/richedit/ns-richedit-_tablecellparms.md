@@ -4,10 +4,10 @@ title: "_tableCellParms"
 author: windows-sdk-content
 description: Defines the attributes of cells in a table row.
 old-location: controls\tablecellparms.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 75bf07bd-103b-4f35-b421-5a7559c7b90e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: TABLECELLPARMS, TABLECELLPARMS structure [Windows Controls], _tableCellParms, controls.tablecellparms, richedit/TABLECELLPARMS
 ms.prod: windows
 ms.technology: windows-sdk

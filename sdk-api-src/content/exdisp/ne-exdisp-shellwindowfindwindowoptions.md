@@ -62,7 +62,7 @@ Specifies options for finding window in the Shell windows collection.
 
 ### -field SWFO_NEEDDISPATCH
 
-The window must have an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. 
+The window must have an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. 
             
 
 

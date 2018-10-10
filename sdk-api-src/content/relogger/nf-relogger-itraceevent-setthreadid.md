@@ -7,7 +7,7 @@ old-location: etw\ievent_setthreadid.htm
 tech.root: etw
 ms.assetid: 9f5d293e-da87-4b83-9407-fc4179a42a46
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetThreadId method, ITraceEvent.SetThreadId, ITraceEvent::SetThreadId, SetThreadId, SetThreadId method [ETW], SetThreadId method [ETW],ITraceEvent interface, etw.ievent_setthreadid, relogger/ITraceEvent::SetThreadId
 ms.prod: windows-hardware
 ms.technology: windows-devices

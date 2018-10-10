@@ -4,10 +4,10 @@ title: ListBox_SetItemData macro
 author: windows-sdk-content
 description: Sets the application-defined value associated with the specified list box item. You can use this macro or send the LB_SETITEMDATA message explicitly.
 old-location: controls\ListBox_SetItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemdata.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ListBox_SetItemData, ListBox_SetItemData macro [Windows Controls], _win32_ListBox_SetItemData, _win32_ListBox_SetItemData_cpp, controls.ListBox_SetItemData, controls._win32_ListBox_SetItemData, windowsx/ListBox_SetItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761346(v=VS.85).aspx">LB_SETITEMDATA</a> message explicitly.
+Sets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ The item data to set.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761346(v=VS.85).aspx">LB_SETITEMDATA</a>.
+For more information, see <a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a>.
 	
 
 

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory1_createdrawingstateblock.htm
 tech.root: Direct2D
 ms.assetid: 1FB96165-3575-4B8B-B8BC-BB94BA5F97CE
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: CreateDrawingStateBlock, CreateDrawingStateBlock method [Direct2D], CreateDrawingStateBlock method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateDrawingStateBlock method, ID2D1Factory1.CreateDrawingStateBlock, ID2D1Factory1.CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION1,IDWriteRenderingParams,ID2D1DrawingStateBlock1), ID2D1Factory1::CreateDrawingStateBlock, ID2D1Factory1::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION1,IDWriteRenderingParams,ID2D1DrawingStateBlock1), d2d1_1/ID2D1Factory1::CreateDrawingStateBlock, direct2d.id2d1factory1_createdrawingstateblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/E1BFF353-8445-435C-8F7A-E93BF
 The drawing state description structure.
 
 
-#### - textRenderingParams [in, optional]
+### -param textRenderingParams [in, optional]
 
 Type: <b><a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>*</b>
 

@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyName(U,PWSTR,UINT32,)
 title: ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,)
 author: windows-sdk-content
-description: Gets the property name that corresponds to the given index.
-old-location: direct2d\id2d1properties_getpropertyname.htm
+description: Gets the property name that corresponds to the given index. This is a template overload. See Remarks.
+old-location: direct2d\id2d1properties_getpropertyname2.htm
 tech.root: Direct2D
-ms.assetid: 36873134-cb0e-4ba2-bddb-95b2cc92afff
+ms.assetid: 777BF543-F2AF-4B17-BF2B-845D713EA5CA
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: GetPropertyName, GetPropertyName method [Direct2D], GetPropertyName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyName method, ID2D1Properties.GetPropertyName, ID2D1Properties.GetPropertyName(U,PWSTR,UINT32,), ID2D1Properties::GetPropertyName, ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,), ID2D1Properties::GetPropertyName(UINT32,PWSTR,UINT32), d2d1_1/ID2D1Properties::GetPropertyName, direct2d.id2d1properties_getpropertyname
+ms.date: 10/09/2018
+ms.keywords: GetPropertyName, GetPropertyName method [Direct2D], GetPropertyName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyName method, ID2D1Properties.GetPropertyName, ID2D1Properties.GetPropertyName(U,PWSTR,UINT32,), ID2D1Properties::GetPropertyName, ID2D1Properties::GetPropertyName(U,PWSTR,UINT32), ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,), d2d1_1/ID2D1Properties::GetPropertyName, direct2d.id2d1properties_getpropertyname2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the property name that corresponds to the given index.
+Gets the property name that corresponds to the given index. This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the property name that corresponds to the given index.
 
 ### -param index
 
-Type: <b>UINT32</b>
+Type: <b>U</b>
 
 The index of the property for which the name is being returned.
 
@@ -122,6 +122,16 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 This method returns an empty string if <i>index</i> is invalid. If the method returns <b>RESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b>, <i>name</i> will still be filled and truncated.
+
+
+<pre class="syntax">template&lt;typename U&gt;
+    HRESULT GetPropertyName(
+        U index,
+        _Out_writes_(nameCount) PWSTR name,
+        UINT32 nameCount
+        ) CONST;
+</pre>
+
 
 
 

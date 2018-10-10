@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_status_parms.htm
 tech.root: Multimedia
 ms.assetid: bbc09d4c-4231-48a8-97f6-54cbb32303b1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "*LPMCI_DGV_STATUS_PARMSW, MCI_DGV_STATUS_PARMS, MCI_DGV_STATUS_PARMS structure [Windows Multimedia], MCI_DGV_STATUS_PARMSW, _win32_MCI_DGV_STATUS_PARMS_str, digitalv/MCI_DGV_STATUS_PARMS, multimedia.mci_dgv_status_parms"
 ms.prod: windows
 ms.technology: windows-sdk

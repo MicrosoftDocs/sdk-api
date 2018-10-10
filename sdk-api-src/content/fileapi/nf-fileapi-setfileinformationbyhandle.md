@@ -302,9 +302,13 @@ SMB 3.0 does not support rename of alternate data streams on file shares with co
 
 The following C++ example shows how to create a file and mark it for deletion when the handle is closed.
 
-
-```cpp
-//...
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//...
   HANDLE hFile = CreateFile( TEXT("tempfile"), 
                              GENERIC_READ | GENERIC_WRITE | DELETE,
                              0 /* exclusive access */,
@@ -320,7 +324,7 @@ The following C++ example shows how to create a file and mark it for deletion wh
 
     BOOL fResult = SetFileInformationByHandle( hFile, 
                                                FileDispositionInfo, 
-                                               &fdi, 
+                                               &amp;fdi, 
                                                sizeof(FILE_DISPOSITION_INFO) );
 
     if (fResult)
@@ -350,10 +354,10 @@ The following C++ example shows how to create a file and mark it for deletion wh
               GetLastError() );
  }
 //...
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

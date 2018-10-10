@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRectangleClip.SetRight(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetRight(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the Right property of a clip rectangle.
-old-location: directcomp\idcompositionrectangleclip_setright_float.htm
+description: Animates the value of the Right property of a clip rectangle.
+old-location: directcomp\idcompositionrectangleclip_setright_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: FB27BB00-239A-42A8-86D3-C78E2E8E820B
+ms.assetid: 5514B37F-1F52-4A4B-89F7-830B1672A758
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetRight method, IDCompositionRectangleClip.SetRight, IDCompositionRectangleClip.SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight, IDCompositionRectangleClip::SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight(float), SetRight, SetRight method [DirectComposition], SetRight method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetRight, directcomp.idcompositionrectangleclip_setright_float
+ms.date: 10/09/2018
+ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetRight method, IDCompositionRectangleClip.SetRight, IDCompositionRectangleClip.SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight, IDCompositionRectangleClip::SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight(IDCompositionAnimation*), SetRight, SetRight method [DirectComposition], SetRight method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetRight, directcomp.idcompositionrectangleclip_setright_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,8 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the Right property of a clip rectangle. The Right property specifies the x-coordinate of the lower-right corner of the clip rectangle.
-      
+Animates the value of the Right property of a clip rectangle. The Right property specifies the x-coordinate of the lower-right corner of the clip rectangle.
 
 
 ## -parameters
@@ -59,19 +58,11 @@ Changes the value of the Right property of a clip rectangle. The Right property 
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - right [in]
-
-Type: <b>float</b>
-
-The new value of the Right property, in pixels. This parameter has a numerical limit of -2^21 to 2^21. 
-            The API accepts numbers outside of this range, but they are always clamped to this range.
+An animation object that determines how the value of the Right property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -81,7 +72,6 @@ The new value of the Right property, in pixels. This parameter has a numerical l
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
-            
 
 
 
@@ -90,12 +80,12 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>right</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the Right property unless this method is called again. If the Right  property was previously animated, calling this method replaces the previous animation with the new animation. 
 
-      
 
-If the Right property was previously animated, this method removes the animation and sets the Right property to the specified static value.
-      
+
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+
 
 
 

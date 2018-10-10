@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_LINE_JOIN.htm
 tech.root: Direct2D
 ms.assetid: 4368e93e-af69-4555-ac2b-c9c576c81372
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: D2D1_LINE_JOIN, D2D1_LINE_JOIN enumeration [Direct2D], D2D1_LINE_JOIN_BEVEL, D2D1_LINE_JOIN_MITER, D2D1_LINE_JOIN_MITER_OR_BEVEL, D2D1_LINE_JOIN_ROUND, d2d1/D2D1_LINE_JOIN, d2d1/D2D1_LINE_JOIN_BEVEL, d2d1/D2D1_LINE_JOIN_MITER, d2d1/D2D1_LINE_JOIN_MITER_OR_BEVEL, d2d1/D2D1_LINE_JOIN_ROUND, direct2d.D2D1_LINE_JOIN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ A miter limit affects how sharp miter joins are allowed to be.
 
 The following illustration shows  different line join settings for the same stroked path geometry.  
 
-<img alt="Illustration of line join settings" src="./images/StrokeStyle_Join.png"/>
+<img alt="Illustration of line join settings" src="images/StrokeStyle_Join.png"/>
 
 
 

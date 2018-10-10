@@ -2,12 +2,12 @@
 UID: NS:projectedfslib.PRJ_FILE_BASIC_INFO
 title: PRJ_FILE_BASIC_INFO
 author: windows-sdk-content
-description: TBD.
+description: Basic information about an item.
 old-location: projfs\prj_file_basic_info.htm
 tech.root: ProjFS
 ms.assetid: 5B5D157E-DEAF-47F2-BDB2-2CF3D307CB7F
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PRJ_FILE_BASIC_INFO, PRJ_FILE_BASIC_INFO structure, ProjFS.prj_file_basic_info, projectedfslib/PRJ_FILE_BASIC_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_FILE_BASIC_INFO
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Basic information about an item.
 
 
 ## -struct-fields
@@ -59,35 +60,35 @@ TBD
 
 ### -field IsDirectory
 
-TBD
+Specifies whether the item is a directory.
 
 
 ### -field FileSize
 
-TBD
+Size of the item, in bytes.
 
 
 ### -field CreationTime
 
-TBD
+Creation time of the item.
 
 
 ### -field LastAccessTime
 
-TBD
+Last time the item was accessed.
 
 
 ### -field LastWriteTime
 
-TBD
+Last time the item was written to.
 
 
 ### -field ChangeTime
 
-TBD
+The last time the item was changed.
 
 
 ### -field FileAttributes
 
-TBD
+Attributes of the item.
 

@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionLinearTransferEffect.SetAlphaSlope(IDCompositionAnima
 title: IDCompositionLinearTransferEffect::SetAlphaSlope(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the slope of the linear function for the alpha channel.
-old-location: directcomp\idcompositionlineartransfereffect_setalphaslope.htm
+old-location: directcomp\idcompositionlineartransfereffect_setalphaslope_2.htm
 tech.root: directcomp
-ms.assetid: 2FC6E287-D71B-40DC-A8A8-95B031327771
+ms.assetid: 8992B338-5426-4DB7-8ACB-8E5E3C702BFF
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaSlope method, IDCompositionLinearTransferEffect.SetAlphaSlope, IDCompositionLinearTransferEffect.SetAlphaSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetAlphaSlope, IDCompositionLinearTransferEffect::SetAlphaSlope(IDCompositionAnimation), SetAlphaSlope, SetAlphaSlope method [DirectComposition], SetAlphaSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaSlope, directcomp.idcompositionlineartransfereffect_setalphaslope
+ms.date: 10/09/2018
+ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaSlope method, IDCompositionLinearTransferEffect.SetAlphaSlope, IDCompositionLinearTransferEffect.SetAlphaSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetAlphaSlope, IDCompositionLinearTransferEffect::SetAlphaSlope(IDCompositionAnimation), SetAlphaSlope, SetAlphaSlope method [DirectComposition], SetAlphaSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaSlope, directcomp.idcompositionlineartransfereffect_setalphaslope_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the slope of the linear function for the alpha channel. 
+Sets the slope of the linear function for the alpha channel.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Sets the slope of the linear function for the alpha channel.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - alphaSlope [in]
-
-Type: <b>float</b>
-
-The slope of the linear function for the alpha channel.
+An animation that represents how the slope of the linear function for the alpha channel changes over time. This parameter must not be NULL.
 
 
 ## -returns

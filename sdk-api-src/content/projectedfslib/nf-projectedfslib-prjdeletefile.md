@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjDeleteFile
 title: PrjDeleteFile function
 author: windows-sdk-content
-description: TBD.
+description: Enables a provider to delete an item that has been cached on the local file system.
 old-location: projfs\prjdeletefile.htm
 tech.root: ProjFS
 ms.assetid: 4F3529FC-5658-4768-AC72-29178C9595F0
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjDeleteFile, PrjDeleteFile function, ProjFS.prjdeletefile, projectedfslib/PrjDeleteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjDeleteFile
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Enables a provider to delete an item that has been cached on the local file system.
 
 
 ## -parameters
@@ -59,29 +60,44 @@ TBD
 
 ### -param namespaceVirtualizationContext [in]
 
-TBD
+An opaque handle for the virtualization instance.
 
 
 ### -param destinationFileName [in]
 
-TBD
+A null-terminated Unicode string specifying the path, relative to the virtualization root, to the file or directory to be deleted.
 
 
 ### -param updateFlags [in, optional]
 
-TBD
+Flags to control the delete operation should be allowed given the state of the file.
 
 
 ### -param failureReason [out, optional]
 
-TBD
+Optional pointer to receive a code describing the reason a delete failed.
 
 
 ## -returns
 
 
 
-TBD
+If an HRESULT_FROM_WIN32(ERROR_FILE_SYSTEM_VIRTUALIZATION_INVALID_OPERATION) error is returned, the update failed due to the item's state and the value of updateFlags. failureReason, if specified, will describe the reason for the failure.
+
+
+
+
+## -remarks
+
+
+
+If the item is still in the provider's backing store, deleting it from the local file system changes it to a virtual item. 
+
+
+This routine cannot be called on a virtual file/directory. 
+
+
+If the file/directory to be deleted is in any state other than "placeholder", the provider must specify an appropriate combination of <a href="projfs.prj_update_types">PRJ_UPDATE_TYPES</a> values in the updateFlags parameter. This helps guard against accidental loss of data. 
 
 
 

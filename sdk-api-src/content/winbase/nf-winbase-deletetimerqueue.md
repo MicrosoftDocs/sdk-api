@@ -7,7 +7,7 @@ old-location: base\deletetimerqueue.htm
 tech.root: Sync
 ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueue, base.deletetimerqueue, winbase/DeleteTimerQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

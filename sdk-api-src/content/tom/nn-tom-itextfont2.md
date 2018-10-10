@@ -4,10 +4,10 @@ title: ITextFont2
 author: windows-sdk-content
 description: In the Text Object Model (TOM), applications access text-range attributes by using a pair of dual interfaces, ITextFont and ITextPara.
 old-location: controls\itextfont2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: d2d43bfd-7cdf-458a-822d-e3965bfe2284
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], ITextFont2 interface [Windows Controls],described, controls.itextfont2, tom/ITextFont2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,9 +50,9 @@ req.redist:
 ## -description
 
 
-In the Text Object Model (TOM), applications access text-range attributes by using a pair of dual interfaces, <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>.
+In the Text Object Model (TOM), applications access text-range attributes by using a pair of dual interfaces, <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> and <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>.
 
-The <b>ITextFont2</b> interface extends <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>, providing the programming equivalent of the Microsoft Word format-font dialog.
+The <b>ITextFont2</b> interface extends <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>, providing the programming equivalent of the Microsoft Word format-font dialog.
 
 
 ## -inheritance

@@ -4,10 +4,10 @@ title: RtwqEndRegisterWorkQueueWithMMCSS function
 author: windows-sdk-content
 description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqendregisterworkqueuewithmmcss.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 887dec6f-c3ba-4139-b80b-6a2e05bfa1f9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: RtwqEndRegisterWorkQueueWithMMCSS, RtwqEndRegisterWorkQueueWithMMCSS function, base.rtwqendregisterworkqueuewithmmcss, rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

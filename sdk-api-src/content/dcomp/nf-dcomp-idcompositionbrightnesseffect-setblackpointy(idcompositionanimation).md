@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimatio
 title: IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the y value of the black point.
-old-location: directcomp\idcompositionbrightnesseffect_setblackpointy.htm
+old-location: directcomp\idcompositionbrightnesseffect_setblackpointy_2.htm
 tech.root: directcomp
-ms.assetid: 0E480983-07A7-4C58-BE2B-BCEDD2EA1A1A
+ms.assetid: 3469E62F-4DAF-4FC7-9BBE-3B246260B1D5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointY method, IDCompositionBrightnessEffect.SetBlackPointY, IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointY, IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation), SetBlackPointY, SetBlackPointY method [DirectComposition], SetBlackPointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy
+ms.date: 10/09/2018
+ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointY method, IDCompositionBrightnessEffect.SetBlackPointY, IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointY, IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation), SetBlackPointY, SetBlackPointY method [DirectComposition], SetBlackPointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the y value of the black point.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - blackPointY [in]
-
-Type: <b>float</b>
-
-The y value of the black point.
+An animation that represents how the y value of the black point changes over time. This parameter must not be NULL.
 
 
 ## -returns

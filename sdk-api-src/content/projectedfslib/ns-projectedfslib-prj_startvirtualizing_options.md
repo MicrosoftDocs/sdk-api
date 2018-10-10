@@ -2,12 +2,12 @@
 UID: NS:projectedfslib.PRJ_STARTVIRTUALIZING_OPTIONS
 title: PRJ_STARTVIRTUALIZING_OPTIONS
 author: windows-sdk-content
-description: TBD.
+description: Options to provide when starting a virtualization instance.
 old-location: projfs\prj_startvirtualizing_options.htm
 tech.root: ProjFS
 ms.assetid: 5FF20B04-29A6-4310-ACD6-35E189B87C9E
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PRJ_STARTVIRTUALIZING_OPTIONS, PRJ_STARTVIRTUALIZING_OPTIONS structure, ProjFS.prj_startvirtualizing_options, projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_STARTVIRTUALIZING_OPTIONS
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Options to provide when starting a virtualization instance.
 
 
 ## -struct-fields
@@ -59,25 +60,25 @@ TBD
 
 ### -field Flags
 
-TBD
+A flag for starting virtualization. 
 
 
 ### -field PoolThreadCount
 
-TBD
+The number of threads the provider wants to create to service callbacks.
 
 
 ### -field ConcurrentThreadCount
 
-TBD
+The maximum number of threads the provider wants to run concurrently to process callbacks.
 
 
 ### -field NotificationMappings
 
-TBD
+An array of zero or more notification mappings. See the Remarks section of PRJ_NOTIFICATION MAPPING for more details.
 
 
 ### -field NotificationMappingsCount
 
-TBD
+The number of notification mappings provided in NotificationMappings.
 

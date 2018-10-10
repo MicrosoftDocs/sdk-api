@@ -4,10 +4,10 @@ title: ListView_SetIconSpacing macro
 author: windows-sdk-content
 description: Sets the spacing between icons in list-view controls set to the LVS_ICON style. You can use this macro or send the LVM_SETICONSPACING message explicitly.
 old-location: controls\ListView_SetIconSpacing.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_seticonspacing.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ListView_SetIconSpacing, ListView_SetIconSpacing macro [Windows Controls], _win32_ListView_SetIconSpacing, _win32_ListView_SetIconSpacing_cpp, commctrl/ListView_SetIconSpacing, controls.ListView_SetIconSpacing, controls._win32_ListView_SetIconSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the spacing between icons in list-view controls set to the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_ICON</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761176(v=VS.85).aspx">LVM_SETICONSPACING</a> message explicitly. 
+Sets the spacing between icons in list-view controls set to the <a href="List_view_window_styles.htm">LVS_ICON</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/2dd3d9df-5b0d-445e-9201-d766fa218f90">LVM_SETICONSPACING</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the spacing between icons in list-view controls set to the <a href="https:/
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 

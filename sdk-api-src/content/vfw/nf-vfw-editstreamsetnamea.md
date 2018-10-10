@@ -7,7 +7,7 @@ old-location: multimedia\editstreamsetname.htm
 tech.root: Multimedia
 ms.assetid: 33542ad1-4bee-4051-8b75-f5328086250b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: EditStreamSetName, EditStreamSetName function [Windows Multimedia], EditStreamSetNameA, EditStreamSetNameW, _win32_EditStreamSetName, multimedia.editstreamsetname, vfw/EditStreamSetName, vfw/EditStreamSetNameA, vfw/EditStreamSetNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\imofcompiler_compilefile.htm
 tech.root: WmiSdk
 ms.assetid: caf13a5c-2aca-4acb-8210-909737bf1022
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: CompileFile, CompileFile method [Windows Management Instrumentation], CompileFile method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CompileFile method, IMofCompiler.CompileFile, IMofCompiler::CompileFile, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_DONT_ADD_TO_LIST, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, _hmm_imofcompiler_compilefile, wbemcli/IMofCompiler::CompileFile, wmi.imofcompiler_compilefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 The <b>IMofCompiler::CompileFile</b> method compiles a MOF file (including 
     binary MOFs) and stores the information in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI repository</a>. 
+    <a href="gloss_w.htm">WMI repository</a>. 
     This method performs the same operation as the <a href="https://msdn.microsoft.com/9858da09-fb91-43a4-9817-83b10e2ee08f">Mofcomp</a> 
     command.
 

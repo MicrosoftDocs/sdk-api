@@ -4,10 +4,10 @@ title: CloseThreadpoolTimer function
 author: windows-sdk-content
 description: Releases the specified timer object.
 old-location: base\closethreadpooltimer.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: c1270c5d-a1f5-4481-a343-c1ff3301a56e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: CloseThreadpoolTimer, CloseThreadpoolTimer function, base.closethreadpooltimer, threadpoolapiset/CloseThreadpoolTimer, winbase/CloseThreadpoolTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

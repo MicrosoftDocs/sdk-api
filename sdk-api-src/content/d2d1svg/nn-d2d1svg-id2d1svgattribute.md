@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgattribute.htm
 tech.root: Direct2D
 ms.assetid: 7B11D05C-6CD5-4609-B76A-719B92437314
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ID2D1SvgAttribute, ID2D1SvgAttribute interface [Direct2D], ID2D1SvgAttribute interface [Direct2D],described, d2d1svg/ID2D1SvgAttribute, direct2d.id2d1svgattribute
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,12 +2,12 @@
 UID: NS:winuser.tagPOINTER_DEVICE_PROPERTY
 title: tagPOINTER_DEVICE_PROPERTY
 author: windows-sdk-content
-description: Contains device properties (Human Interface Device (HID) global items that correspond to HID usages).
+description: Contains pointer-based device properties (Human Interface Device (HID) global items that correspond to HID usages).
 old-location: input_pointerdevice\pointer_device_property.htm
 tech.root: Input_PointerDevice
 ms.assetid: 2c96379e-7c9f-440c-a98b-bda38bacd33f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: POINTER_DEVICE_PROPERTY, POINTER_DEVICE_PROPERTY structure, input_pointerdevice.pointer_device_property, tagPOINTER_DEVICE_PROPERTY, unifiedinputstack.pointer_device_property, winuser/POINTER_DEVICE_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains device properties (Human Interface Device (HID) global items that correspond to HID usages).
+Contains pointer-based device properties (Human Interface Device (HID) global items that correspond to HID usages).
 
 
 ## -struct-fields

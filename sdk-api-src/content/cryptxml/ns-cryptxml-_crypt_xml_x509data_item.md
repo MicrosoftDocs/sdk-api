@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPT_XML_X509DATA_ITEM</b> structure represents  <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> data that is to be encoded in an X509Data named element.
+The <b>CRYPT_XML_X509DATA_ITEM</b> structure represents  <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> data that is to be encoded in an X509Data named element.
 
 
 ## -struct-fields
@@ -123,7 +123,7 @@ The X.509 data is a certificate.
 </dl>
 </td>
 <td width="60%">
-The X.509 data is a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL).
+The X.509 data is a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -144,12 +144,12 @@ The X.509 data is a custom format.
 
 ### -field IssuerSerial
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433850(v=VS.85).aspx">CRYPT_XML_ISSUER_SERIAL</a> structure that contains serial number data.
+A <a href="https://msdn.microsoft.com/8d74e119-c7ea-4c7c-9d2a-e81f7ae40310">CRYPT_XML_ISSUER_SERIAL</a> structure that contains serial number data.
 
 
 ### -field SKI
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433847(v=VS.85).aspx">CRYPT_XML_DATA_BLOB</a> structure that contains SKI data.
+A <a href="https://msdn.microsoft.com/dc7e23d6-923c-40d2-9cf7-9a529c0634ce">CRYPT_XML_DATA_BLOB</a> structure that contains SKI data.
 
 
 ### -field wszSubjectName
@@ -159,15 +159,15 @@ A pointer to a null-terminated Unicode string that contains the subject name.
 
 ### -field Certificate
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433847(v=VS.85).aspx">CRYPT_XML_DATA_BLOB</a> structure that contains certificate data.
+A <a href="https://msdn.microsoft.com/dc7e23d6-923c-40d2-9cf7-9a529c0634ce">CRYPT_XML_DATA_BLOB</a> structure that contains certificate data.
 
 
 ### -field CRL
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433847(v=VS.85).aspx">CRYPT_XML_DATA_BLOB</a> that contains a CRL.
+A <a href="https://msdn.microsoft.com/dc7e23d6-923c-40d2-9cf7-9a529c0634ce">CRYPT_XML_DATA_BLOB</a> that contains a CRL.
 
 
 ### -field Custom
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains custom data.
+A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains custom data.
 

@@ -62,7 +62,7 @@ The <b>BluetoothFindNextRadio</b> function finds the next Bluetooth radio.
 
 ### -param hFind [in]
 
-Handle returned by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Aa362786(v=VS.85).aspx">BluetoothFindFirstRadio</a> function. Use <a href="https://msdn.microsoft.com/en-us/library/Aa362792(v=VS.85).aspx">BluetoothFindRadioClose</a> to close this handle when it is no longer needed. 
+Handle returned by a previous call to the <a href="https://msdn.microsoft.com/f31bb18b-c129-417f-ab87-cf114a2e094f">BluetoothFindFirstRadio</a> function. Use <a href="https://msdn.microsoft.com/859771b1-d06c-414b-81cb-bb3913fd0380">BluetoothFindRadioClose</a> to close this handle when it is no longer needed. 
 
 
 ### -param phRadio [out]
@@ -127,19 +127,19 @@ Out of memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362926(v=VS.85).aspx">BLUETOOTH_FIND_RADIO_PARAMS</a>
+<a href="https://msdn.microsoft.com/b997203d-e7e4-43aa-b751-e419483020ac">BLUETOOTH_FIND_RADIO_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362786(v=VS.85).aspx">BluetoothFindFirstRadio</a>
+<a href="https://msdn.microsoft.com/f31bb18b-c129-417f-ab87-cf114a2e094f">BluetoothFindFirstRadio</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362792(v=VS.85).aspx">BluetoothFindRadioClose</a>
+<a href="https://msdn.microsoft.com/859771b1-d06c-414b-81cb-bb3913fd0380">BluetoothFindRadioClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362797(v=VS.85).aspx">BluetoothGetRadioInfo</a>
+<a href="https://msdn.microsoft.com/0c596f49-70f9-4a58-842c-e01dcf69bd01">BluetoothGetRadioInfo</a>
 
 
 

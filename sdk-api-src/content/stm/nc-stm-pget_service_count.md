@@ -100,7 +100,7 @@ Operation succeeded but no services are available.
 </td>
 <td width="60%">
 No services are available in the table or the operation failed. Call 
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a> to obtain more information.
+<a href="_win32_getlasterror">GetLastError</a> to obtain more information.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ No services are available in the table or the operation failed. Call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a>
+<a href="_win32_getlasterror">GetLastError</a>
 
 
 

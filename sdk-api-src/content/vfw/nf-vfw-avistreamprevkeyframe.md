@@ -7,7 +7,7 @@ old-location: multimedia\avistreamprevkeyframe.htm
 tech.root: Multimedia
 ms.assetid: 69933c8f-7e4e-45b2-aa72-ac127f3c8d05
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: AVIStreamPrevKeyFrame, AVIStreamPrevKeyFrame macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrame, multimedia.avistreamprevkeyframe, vfw/AVIStreamPrevKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,15 +79,19 @@ The search performed by this macro does not include the frame at the specified p
 
 The <b>AVIStreamPrevKeyFrame</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamPrevKeyFrame(pavi, lPos) \ 
     AVIStreamFindSample(pavi, lPos - 1, FIND_PREV | FIND_KEY) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

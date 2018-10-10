@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_huetorgb_prop.htm
 tech.root: Direct2D
 ms.assetid: 293E05B7-DA10-4E71-B519-0AF99EE007EC
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: D2D1_HUETORGB_PROP, D2D1_HUETORGB_PROP enumeration [Direct2D], D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE, d2d1effects_2/D2D1_HUETORGB_PROP, d2d1effects_2/D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE, direct2d.d2d1_huetorgb_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890774(v=VS.85).aspx">Hue to RGB effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/18e92535-9e89-bf8d-b8c3-a49b645fc417">Hue to RGB effect</a>.
 
 
 ## -enum-fields
@@ -62,7 +62,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/libr
 
 The D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property is an enumeration value which indicates which color space to convert from. 
           The default value for the property is D2D1_HUETORGB_INPUT_COLOR_SPACE_HUE_SATURATION_VALUE.
-          See <a href="https://msdn.microsoft.com/en-us/library/Dn890729(v=VS.85).aspx">D2D1_HUETORGB_INPUT_COLOR_SPACE</a> enumeration for more information.
+          See <a href="https://msdn.microsoft.com/2A8166D8-73F5-4D29-BCD2-7F4FE70AA9A1">D2D1_HUETORGB_INPUT_COLOR_SPACE</a> enumeration for more information.
 
 
 ### -field D2D1_HUETORGB_PROP_FORCE_DWORD
@@ -75,7 +75,7 @@ The D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property is an enumeration value which 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
 
 
 
@@ -83,7 +83,7 @@ The D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property is an enumeration value which 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890774(v=VS.85).aspx">Hue to RGB effect</a>
+<a href="https://msdn.microsoft.com/18e92535-9e89-bf8d-b8c3-a49b645fc417">Hue to RGB effect</a>
  
 
  

@@ -61,7 +61,7 @@ Identifies unordered-access view options for a buffer resource.
 ### -field D3D11_BUFFER_UAV_FLAG_RAW
 
 Resource contains raw, unstructured data.  Requires the UAV format to be DXGI_FORMAT_R32_TYPELESS.
-        For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+        For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
 
 
 ### -field D3D11_BUFFER_UAV_FLAG_APPEND

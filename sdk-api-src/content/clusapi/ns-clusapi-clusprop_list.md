@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Accesses the beginning of a  <a href="https://msdn.microsoft.com/en-us/library/Aa371809(v=VS.85).aspx">property list</a>.
+Accesses the beginning of a  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ Structure describing the name of the first property in the list.
 
 
 
-For information about property lists, see  <a href="https://msdn.microsoft.com/en-us/library/Aa371809(v=VS.85).aspx">Property Lists</a>.
+For information about property lists, see  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">Property Lists</a>.
 
 
 

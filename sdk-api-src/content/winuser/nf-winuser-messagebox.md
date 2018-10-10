@@ -7,7 +7,7 @@ old-location: dlgbox\messagebox.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messagebox.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_CANCELTRYCONTINUE, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_HELP, MB_ICONASTERISK, MB_ICONERROR, MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_ICONSTOP, MB_ICONWARNING, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_RIGHT, MB_RTLREADING, MB_SERVICE_NOTIFICATION, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_TOPMOST, MB_YESNO, MB_YESNOCANCEL, MessageBox, MessageBox function [Dialog Boxes], MessageBoxA, MessageBoxW, _win32_MessageBox, _win32_messagebox_cpp, dlgbox.messagebox, winui._win32_messagebox, winuser/MessageBox, winuser/MessageBoxA, winuser/MessageBoxW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ The message box contains three push buttons: <b>Abort</b>, <b>Retry</b>, and <b>
 </dl>
 </td>
 <td width="60%">
- Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx">WM_HELP</a> message to the owner.
+ Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="_win32_WM_HELP">WM_HELP</a> message to the owner.
 
 </td>
 </tr>
@@ -420,7 +420,7 @@ To specify other options, use one or more of the following values.
 </dl>
 </td>
 <td width="60%">
- Same as desktop of the interactive window station. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms687096(v=VS.85).aspx">Window Stations</a>.
+ Same as desktop of the interactive window station. For more information, see <a href="_win32_Window_Stations">Window Stations</a>.
 					
                     		
 					
@@ -459,7 +459,7 @@ Displays message and caption text using right-to-left reading order on Hebrew an
 </dl>
 </td>
 <td width="60%">
-The message box becomes the foreground window. Internally, the system calls the <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function for the message box.
+The message box becomes the foreground window. Internally, the system calls the <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> function for the message box.
 
 </td>
 </tr>
@@ -487,7 +487,7 @@ The caller is a service notifying the user of an event. The function displays a 
 
 If this flag is set, the <i>hWnd</i> parameter must be <b>NULL</b>. This is so that the message box can appear on a desktop other than the desktop corresponding to the <i>hWnd</i>.
 
-For information on security considerations in regard to using this flag, see <a href="https://msdn.microsoft.com/en-us/library/ms683502(v=VS.85).aspx">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
+For information on security considerations in regard to using this flag, see <a href="_win32_interactive_services">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
 
 </td>
 </tr>
@@ -638,19 +638,19 @@ The following system icons can be used in a message box by setting the <i>uType<
 <th>Flag values</th>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONHAND, MB_ICONSTOP, and MB_ICONERROR" src="./images/MB_ICONHAND.png"/></td>
+<td><img alt="Icon for MB_ICONHAND, MB_ICONSTOP, and MB_ICONERROR" src="images/MB_ICONHAND.png"/></td>
 <td><b>MB_ICONHAND</b>, <b>MB_ICONSTOP</b>, or <b>MB_ICONERROR</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONQUESTION" src="./images/MB_ICONQUESTION.png"/></td>
+<td><img alt="Icon for MB_ICONQUESTION" src="images/MB_ICONQUESTION.png"/></td>
 <td><b>MB_ICONQUESTION</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONEXCLAMATION and MB_ICONWARNING" src="./images/MB_ICONEXCLAMATION.png"/></td>
+<td><img alt="Icon for MB_ICONEXCLAMATION and MB_ICONWARNING" src="images/MB_ICONEXCLAMATION.png"/></td>
 <td><b>MB_ICONEXCLAMATION</b> or <b>MB_ICONWARNING</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONASTERISK and MB_ICONINFORMATION" src="./images/MB_ICONASTERISK.png"/></td>
+<td><img alt="Icon for MB_ICONASTERISK and MB_ICONINFORMATION" src="images/MB_ICONASTERISK.png"/></td>
 <td><b>MB_ICONASTERISK</b> or <b>MB_ICONINFORMATION</b></td>
 </tr>
 </table>
@@ -667,9 +667,13 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 In the following example, the application displays a message box that prompts the user for an action after an error condition has occurred. The message box displays the message that describes the error condition and how to resolve it. The <b>MB_CANCELTRYCONTINUE</b> style directs <b>MessageBox</b> to provide three buttons with which the user can choose how to proceed. The <b>MB_DEFBUTTON2</b> style sets the default focus on the second button of the message box, in this case, the <b>Try Again</b> button.
 
-
-```cpp
-int DisplayResourceNAMessageBox()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int DisplayResourceNAMessageBox()
 {
     int msgboxID = MessageBox(
         NULL,
@@ -692,15 +696,15 @@ int DisplayResourceNAMessageBox()
     }
 
     return msgboxID;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following image shows the output from the preceding code example:
 
-<img alt="Message box" src="./images/MessageBox_02.png"/>
+<img alt="Message box" src="images/MessageBox_02.png"/>
 
-For another message box example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Displaying a Message Box</a>.
+For another message box example, see <a href="using_dialog_boxes.htm">Displaying a Message Box</a>.
 
 
 
@@ -714,7 +718,7 @@ For another message box example, see <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
 
 
 
@@ -726,11 +730,11 @@ For another message box example, see <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>
+<a href="https://msdn.microsoft.com/aca871a0-4767-4a7d-ab12-6eb7d03577ef">MessageBoxEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645511(v=VS.85).aspx">MessageBoxIndirect</a>
+<a href="https://msdn.microsoft.com/3834bf46-0952-4e5c-bda4-6997576192d9">MessageBoxIndirect</a>
 
 
 
@@ -742,7 +746,7 @@ For another message box example, see <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>
  
 
  

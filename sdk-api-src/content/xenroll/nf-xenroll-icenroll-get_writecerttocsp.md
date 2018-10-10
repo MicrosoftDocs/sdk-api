@@ -100,28 +100,32 @@ To explicitly force that the Certificate Enrollment Control not attempt to write
 
 #### Examples
 
-
-```cpp
-BOOL     bWriteCSP;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL     bWriteCSP;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the WriteCertToCSP value
-hr = pEnroll->get_WriteCertToCSP( &bWriteCSP );
+hr = pEnroll-&gt;get_WriteCertToCSP( &amp;bWriteCSP );
 if (FAILED( hr ))
     printf("Failed get_WriteCertToCSP - %x\n", hr );
 else
     printf( "WriteCertToCSP: %d\n", bWriteCSP );
 
 // set the WriteCertToCSP value
-hr = pEnroll->put_WriteCertToCSP( TRUE );
+hr = pEnroll-&gt;put_WriteCertToCSP( TRUE );
 if (FAILED( hr ))
     printf("Failed put_WriteCertToCSP - %x\n", hr );
 else
-    printf( "WriteCertToCSP set to TRUE\n" );
-```
-
-
+    printf( "WriteCertToCSP set to TRUE\n" );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

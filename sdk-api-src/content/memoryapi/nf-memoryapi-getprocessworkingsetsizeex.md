@@ -4,10 +4,10 @@ title: GetProcessWorkingSetSizeEx function
 author: windows-sdk-content
 description: Retrieves the minimum and maximum working set sizes of the specified process.
 old-location: base\getprocessworkingsetsizeex.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: d2de0bf2-012b-480c-a1a5-54e4d3928381
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetProcessWorkingSetSizeEx, GetProcessWorkingSetSizeEx function, QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, base.getprocessworkingsetsizeex, memoryapi/GetProcessWorkingSetSizeEx, winbase/GetProcessWorkingSetSizeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

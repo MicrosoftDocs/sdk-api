@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetAlphaYIntercept(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetAlphaYIntercept(IDCompositionAnimation)
 author: windows-sdk-content
-description: Sets the Y-intercept of the linear function for the alpha channel.
-old-location: directcomp\idcompositionlineartransfereffect_setalphayintercept.htm
+description: Sets the Y-intercept of the linear function for the Alpha channel.
+old-location: directcomp\idcompositionlineartransfereffect_setalphayintercept_2.htm
 tech.root: directcomp
-ms.assetid: D234752E-E69D-4D64-A052-720BC4424BAE
+ms.assetid: 805D778A-DDB2-4BF6-9029-65A55C1F490F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaYIntercept method, IDCompositionLinearTransferEffect.SetAlphaYIntercept, IDCompositionLinearTransferEffect.SetAlphaYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept(IDCompositionAnimation), SetAlphaYIntercept, SetAlphaYIntercept method [DirectComposition], SetAlphaYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaYIntercept, directcomp.idcompositionlineartransfereffect_setalphayintercept
+ms.date: 10/09/2018
+ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaYIntercept method, IDCompositionLinearTransferEffect.SetAlphaYIntercept, IDCompositionLinearTransferEffect.SetAlphaYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept(IDCompositionAnimation), SetAlphaYIntercept, SetAlphaYIntercept method [DirectComposition], SetAlphaYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaYIntercept, directcomp.idcompositionlineartransfereffect_setalphayintercept_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the Y-intercept of the linear function for the alpha channel.
+Sets the Y-intercept of the linear function for the Alpha channel.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Sets the Y-intercept of the linear function for the alpha channel.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - alphaYIntercept [in]
-
-Type: <b>float</b>
-
-The Y-intercept of the linear function for the alpha channel.
+An animation that represents how the the Y-intercept of the linear function for the alpha channel. changes over time. This parameter must not be NULL.
 
 
 ## -returns

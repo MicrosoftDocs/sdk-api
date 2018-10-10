@@ -4,10 +4,10 @@ title: SetProcessShutdownParameters function
 author: windows-sdk-content
 description: Sets shutdown parameters for the currently calling process. This function sets a shutdown order for a process relative to the other processes in the system.
 old-location: base\setprocessshutdownparameters.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: c467950e-31e1-4608-a08a-0736a5524e0e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: SHUTDOWN_NORETRY, SetProcessShutdownParameters, SetProcessShutdownParameters function, _win32_setprocessshutdownparameters, base.setprocessshutdownparameters, processthreadsapi/SetProcessShutdownParameters, winbase/SetProcessShutdownParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,7 +178,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Applications running in the system security context do not get shut down by the operating system. They get notified of shutdown or logoff through the callback function installable via 
-<a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
+<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
 
 
 
@@ -200,7 +200,7 @@ Applications running in the system security context do not get shut down by the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a>
+<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>
  
 
  

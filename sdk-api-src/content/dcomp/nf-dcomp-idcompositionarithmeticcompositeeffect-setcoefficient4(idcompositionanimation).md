@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositi
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the fourth coefficient for the equation used to composite the two input images.
-old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient4.htm
+old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient4_2.htm
 tech.root: directcomp
-ms.assetid: EA0FC8FC-831C-4EE8-995C-CA6B013C9A91
+ms.assetid: F495A5CC-4FAA-482F-83E4-C6CF887EA00F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient4 method, IDCompositionArithmeticCompositeEffect.SetCoefficient4, IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient4, IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation), SetCoefficient4, SetCoefficient4 method [DirectComposition], SetCoefficient4 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient4, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4
+ms.date: 10/09/2018
+ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient4 method, IDCompositionArithmeticCompositeEffect.SetCoefficient4, IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient4, IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation), SetCoefficient4, SetCoefficient4 method [DirectComposition], SetCoefficient4 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient4, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the fourth coefficient for the equation used to composite the two input ima
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - Coefficient4 [in]
-
-Type: <b>float</b>
-
-The fourth coefficient for the equation used to composite the two input images.
+An animation that represents how the value of the fourth coefficient changes over time. This parameter must not be NULL.
 
 
 ## -returns

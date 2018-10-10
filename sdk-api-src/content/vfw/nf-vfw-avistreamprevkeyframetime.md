@@ -7,7 +7,7 @@ old-location: multimedia\avistreamprevkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 0da49be2-b017-4d41-b9da-3c1310fa0289
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: AVIStreamPrevKeyFrameTime, AVIStreamPrevKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrameTime, multimedia.avistreamprevkeyframetime, vfw/AVIStreamPrevKeyFrameTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,16 +79,20 @@ The search performed by this macro includes the frame that corresponds to the sp
 
 The <b>AVIStreamPrevKeyFrameTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamPrevKeyFrameTime(pavi, time) \ 
     AVIStreamSampleToTime(pavi, AVIStreamPrevKeyFrame(pavi, 
     AVIStreamTimeToSample(pavi, time))) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

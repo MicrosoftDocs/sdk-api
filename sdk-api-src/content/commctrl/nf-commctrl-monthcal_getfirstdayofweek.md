@@ -4,10 +4,10 @@ title: MonthCal_GetFirstDayOfWeek macro
 author: windows-sdk-content
 description: Retrieves the first day of the week for a month calendar control. You can use this macro or send the MCM_GETFIRSTDAYOFWEEK message explicitly.
 old-location: controls\MonthCal_GetFirstDayOfWeek.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getfirstdayofweek.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: MonthCal_GetFirstDayOfWeek, MonthCal_GetFirstDayOfWeek macro [Windows Controls], _win32_MonthCal_GetFirstDayOfWeek, _win32_MonthCal_GetFirstDayOfWeek_cpp, commctrl/MonthCal_GetFirstDayOfWeek, controls.MonthCal_GetFirstDayOfWeek, controls._win32_MonthCal_GetFirstDayOfWeek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760958(v=VS.85).aspx">MCM_GETFIRSTDAYOFWEEK</a> message explicitly. 
+Retrieves the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/bbbc1c45-5693-4a79-908a-ec6e8ef8b218">MCM_GETFIRSTDAYOFWEEK</a> message explicitly. 
 
 
 ## -parameters

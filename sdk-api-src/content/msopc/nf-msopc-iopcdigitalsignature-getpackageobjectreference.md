@@ -110,32 +110,36 @@ The   <a href="https://msdn.microsoft.com/2ce40bc7-754a-4f69-9348-75603e2257a4">
 
 When the signature is generated and serialized as signature markup, the reference and the referenced  package-specific <b>Object</b> element are signed. The following markup shows the package-specific <b>Reference</b> element and the package-specific <b>Object</b> element in the resultant signature markup.
 
-
-```xml
-<!-- Signature markup. -->
-<Signature>
-    <SignedInfo>
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;!-- Signature markup. --&gt;
+&lt;Signature&gt;
+    &lt;SignedInfo&gt;
         [...]
-        <!-- A reference to the package-specific <Object> that
-        is, or will be, signed. -->
-        <Reference URI="#idPackageObject">
+        &lt;!-- A reference to the package-specific &lt;Object&gt; that
+        is, or will be, signed. --&gt;
+        &lt;Reference URI="#idPackageObject"&gt;
              [...]
-        </Reference>
-    </SignedInfo>
+        &lt;/Reference&gt;
+    &lt;/SignedInfo&gt;
     [...]
-    <!-- The package-specific <Object> element. -->
-    <Object Id="idPackageObject">
-        <!-- This element contains the <Reference> elements that
+    &lt;!-- The package-specific &lt;Object&gt; element. --&gt;
+    &lt;Object Id="idPackageObject"&gt;
+        &lt;!-- This element contains the &lt;Reference&gt; elements that
         refer to parts and relationships in the package that are
-        or will be signed. -->
-        <Manifest>
+        or will be signed. --&gt;
+        &lt;Manifest&gt;
             [...] 
-        </Manifest>
-    </Object>
-</Signature>
-```
-
-
+        &lt;/Manifest&gt;
+    &lt;/Object&gt;
+&lt;/Signature&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Thread Safety
 

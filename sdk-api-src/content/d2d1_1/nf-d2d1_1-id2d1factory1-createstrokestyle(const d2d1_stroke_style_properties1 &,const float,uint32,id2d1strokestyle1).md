@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1Factory1.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIE
 title: ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,const FLOAT,UINT32,ID2D1StrokeStyle1)
 author: windows-sdk-content
 description: Creates a ID2D1StrokeStyle1 object.
-old-location: direct2d\id2d1factory1_createstrokestyle.htm
+old-location: direct2d\id2d1factory1_createstrokestyle2.htm
 tech.root: Direct2D
-ms.assetid: 1812cd62-e2d7-4f56-ac72-4b0a2b77fd14
+ms.assetid: 4DEB9CDE-ABE2-47CB-BB06-27535F89D793
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateStrokeStyle method, ID2D1Factory1.CreateStrokeStyle, ID2D1Factory1.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,const FLOAT,UINT32,ID2D1StrokeStyle1), ID2D1Factory1::CreateStrokeStyle, ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,const FLOAT,UINT32,ID2D1StrokeStyle1), d2d1_1/ID2D1Factory1::CreateStrokeStyle, direct2d.id2d1factory1_createstrokestyle
+ms.date: 10/09/2018
+ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateStrokeStyle method, ID2D1Factory1.CreateStrokeStyle, ID2D1Factory1.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,const FLOAT,UINT32,ID2D1StrokeStyle1), ID2D1Factory1::CreateStrokeStyle, ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,const FLOAT,UINT32,ID2D1StrokeStyle1), d2d1_1/ID2D1Factory1::CreateStrokeStyle, direct2d.id2d1factory1_createstrokestyle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,9 +58,9 @@ Creates a <a href="https://msdn.microsoft.com/7afaa6f8-8e25-42ec-9afb-a5342bba11
 
 
 
-### -param strokeStyleProperties [in]
+### -param strokeStyleProperties [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/6bed0f23-be10-4265-8edd-ccf82ce0e683">D2D1_STROKE_STYLE_PROPERTIES1</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/6bed0f23-be10-4265-8edd-ccf82ce0e683">D2D1_STROKE_STYLE_PROPERTIES1</a></b>
 
 The stroke style properties to apply.
 

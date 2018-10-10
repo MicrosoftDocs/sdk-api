@@ -4,10 +4,10 @@ title: IRichEditOleCallback::GetClipboardData
 author: windows-sdk-content
 description: Allows the client to supply its own clipboard object.
 old-location: controls\IRichEditOleCallback_GetClipboardData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetclipboarddata.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetClipboardData, GetClipboardData method [Windows Controls], GetClipboardData method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetClipboardData method, IRichEditOleCallback.GetClipboardData, IRichEditOleCallback::GetClipboardData, RECO_COPY, RECO_CUT, _win32_IRichEditOleCallback_GetClipboardData, _win32_IRichEditOleCallback_GetClipboardData_cpp, controls.IRichEditOleCallback_GetClipboardData, controls._win32_IRichEditOleCallback_GetClipboardData, richole/IRichEditOleCallback::GetClipboardData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Allows the client to supply its own clipboard object.
 
 ### -param lpchrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>*</b>
 
 The clipboard object range. 
 
@@ -126,11 +126,11 @@ Returns <b>S_OK</b> on success. If the return value is <b>E_NOTIMPL</b>, the ric
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://msdn.microsoft.com/2c3ba341-f62f-4c95-9547-6d50fcf3d6b4">IRichEditOleCallback</a>
 
 
 

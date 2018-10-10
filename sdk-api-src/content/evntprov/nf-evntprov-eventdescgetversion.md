@@ -7,7 +7,7 @@ old-location: etw\eventdescgetversion_func.htm
 tech.root: etw
 ms.assetid: 3881f089-d0c6-4d46-929a-09777df13f61
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: EventDescGetVersion, EventDescGetVersion function [ETW], base.eventdescgetversion_func, etw.eventdescgetversion_func, evntprov/EventDescGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

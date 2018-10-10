@@ -91,9 +91,13 @@ If this method fails, the handler is still shown in the Sync Center folder and S
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::GetHandlerInfo(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::GetHandlerInfo(
                              __out ISyncMgrHandlerInfo **ppHandlerInfo)
 {
     *ppHandlerInfo = NULL;
@@ -101,9 +105,9 @@ STDMETHODIMP CMyDeviceHandler::GetHandlerInfo(
                                 (void **) ppHandlerInfo);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

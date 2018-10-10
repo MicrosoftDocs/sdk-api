@@ -7,7 +7,7 @@ old-location: wmi\chstring_mid_int_.htm
 tech.root: WmiSdk
 ms.assetid: dfc52075-2323-438e-9fe9-7ca3f2de2e35
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],Mid method, CHString.Mid, CHString.Mid(int), CHString::Mid, CHString::Mid(int), Mid, Mid method [Windows Management Instrumentation], Mid method [Windows Management Instrumentation],CHString interface, chstring/CHString::Mid, wmi.chstring_mid_int_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,13 +91,17 @@ The <a href="https://msdn.microsoft.com/2036813b-f991-4ca3-95d3-8bbe858aae09">Mi
 
 The following code example shows the use of <b>CHString::Mid</b>.
 
-
-```cpp
-CHString s( L"abcdef" );
-assert( s.Mid( 2, 3 ) == L"cde" );
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s( L"abcdef" );
+assert( s.Mid( 2, 3 ) == L"cde" );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

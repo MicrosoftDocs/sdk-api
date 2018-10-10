@@ -4,10 +4,10 @@ title: ImageList_Remove function
 author: windows-sdk-content
 description: Removes an image from an image list.
 old-location: controls\ImageList_Remove.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_remove.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ImageList_Remove, ImageList_Remove function [Windows Controls], _win32_ImageList_Remove, _win32_ImageList_Remove_cpp, commctrl/ImageList_Remove, controls.ImageList_Remove, controls._win32_ImageList_Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ When an image is removed, the indexes of the remaining images are adjusted so th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761405(v=VS.85).aspx">ImageList_RemoveAll</a>
+<a href="https://msdn.microsoft.com/ed52381a-d5a4-42b6-8782-dcfe41fef99f">ImageList_RemoveAll</a>
  
 
  

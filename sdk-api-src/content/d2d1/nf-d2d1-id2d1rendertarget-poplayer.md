@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_PopLayer.htm
 tech.root: Direct2D
 ms.assetid: 6ab05160-4f42-477f-a5bf-f16863b0635c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],PopLayer method, ID2D1RenderTarget.PopLayer, ID2D1RenderTarget::PopLayer, PopLayer, PopLayer method [Direct2D], PopLayer method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::PopLayer, direct2d.ID2D1RenderTarget_PopLayer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -88,9 +88,13 @@ The <a href="https://msdn.microsoft.com/f50cfafb-e709-4819-9e1a-679fbb54c7e0">Re
 
 The following C++ example implements a <b>IStylusPlugin::DataInterest Method</b> method that sets up a plug-in to receive <a href="https://msdn.microsoft.com/13fb831c-e3e8-4e04-81ce-d4658be105a0">IStylusPlugin::StylusDown Method</a>, <a href="https://msdn.microsoft.com/c6a3d563-4776-4ac6-bdc3-798192ba4546">IStylusPlugin::Packets Method</a>, <a href="https://msdn.microsoft.com/b0f9e49c-6a16-43c5-a653-d6142e58019a">IStylusPlugin::StylusUp Method</a>, <a href="https://msdn.microsoft.com/586e7fee-6340-46b6-941f-1316b2925e1c">IStylusPlugin::StylusInRange Method</a> and <a href="https://msdn.microsoft.com/236589f8-a6ae-4db3-8be4-68c5babeb9f0">IStylusPlugin::Error Method</a> notifications.
 
-
-```cpp
-STDMETHODIMP CPacketModifier::DataInterest( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CPacketModifier::DataInterest( 
         /* [retval][out] */ RealTimeStylusDataInterest *pDataInterest)
 {
 	*pDataInterest = (RealTimeStylusDataInterest)(RTSDI_StylusDown | RTSDI_Packets | 
@@ -98,10 +102,10 @@ STDMETHODIMP CPacketModifier::DataInterest(
 												  RTSDI_Error);
 	return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

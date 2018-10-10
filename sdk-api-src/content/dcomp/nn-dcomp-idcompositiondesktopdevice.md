@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondesktopdevice.htm
 tech.root: directcomp
 ms.assetid: 0FCDCDC2-541A-4EB5-A7FF-492AB5C25F7B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IDCompositionDesktopDevice, IDCompositionDesktopDevice interface [DirectComposition], IDCompositionDesktopDevice interface [DirectComposition],described, dcomp/IDCompositionDesktopDevice, directcomp.idcompositiondesktopdevice
 ms.prod: windows
 ms.technology: windows-sdk

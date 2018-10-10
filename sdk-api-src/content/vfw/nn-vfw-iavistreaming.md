@@ -8,7 +8,7 @@ old-location: multimedia\iavistreaming.htm
 tech.root: Multimedia
 ms.assetid: ff8ed190-5e90-4be1-8f14-0d288ce0837c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IAVIStreaming, IAVIStreaming interface [Windows Multimedia], IAVIStreaming interface [Windows Multimedia],described, _win32_IAVIStreaming, multimedia.iavistreaming, vfw/IAVIStreaming
 ms.prod: windows
 ms.technology: windows-sdk

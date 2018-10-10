@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjFillDirEntryBuffer
 title: PrjFillDirEntryBuffer function
 author: windows-sdk-content
-description: TBD.
+description: Provides information for one file or directory to an enumeration.
 old-location: projfs\prjfilldirentrybuffer.htm
 tech.root: ProjFS
 ms.assetid: CBCB0A0E-9227-42EF-B747-62783400AD16
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjFillDirEntryBuffer, PrjFillDirEntryBuffer function, ProjFS.prjfilldirentrybuffer, projectedfslib/PrjFillDirEntryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjFillDirEntryBuffer
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Provides information for one file or directory to an enumeration.
 
 
 ## -parameters
@@ -59,24 +60,42 @@ TBD
 
 ### -param fileName [in]
 
-TBD
+A pointer to a null-terminated string that contains the name of the entry
 
 
 ### -param fileBasicInfo [in, optional]
 
-TBD
+Basic information about the entry to be filled.
 
 
 ### -param dirEntryBufferHandle [in]
 
-TBD
+An opaque handle to a structure that receives information about the filled entries.
 
 
 ## -returns
 
 
 
-TBD
+HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) indicates that dirEntryBufferHandle doesn't have enough space for the new entry.
+
+
+
+
+## -remarks
+
+
+
+The provider uses this routine to service a <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback. When processing the callback, the provider calls this routine for each matching file or directory in the enumeration. 
+
+
+If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) when adding an entry to the enumeration, the provider returns S_OK from the callback and waits for the next <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback. 
+
+
+The provider resumes filling the enumeration with the entry it was trying to add when it got HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER). 
+
+
+If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) for the first file or directory in the enumeration, the provider must return HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) from its <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
 
 
 

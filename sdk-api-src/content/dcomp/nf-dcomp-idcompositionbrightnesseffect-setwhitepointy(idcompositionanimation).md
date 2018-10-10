@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePointY(IDCompositionAnimatio
 title: IDCompositionBrightnessEffect::SetWhitePointY(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the y value of the white point.
-old-location: directcomp\idcompositionbrightnesseffect_setwhitepointy.htm
+old-location: directcomp\idcompositionbrightnesseffect_setwhitepointy_2.htm
 tech.root: directcomp
-ms.assetid: 2F0FA710-6281-4D25-84E1-25A50DBB92E5
+ms.assetid: 4B946372-578B-4799-AC61-58EEAAC5C267
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointY method, IDCompositionBrightnessEffect.SetWhitePointY, IDCompositionBrightnessEffect.SetWhitePointY(IDCompositionAnimation), IDCompositionBrightnessEffect::SetWhitePointY, IDCompositionBrightnessEffect::SetWhitePointY(IDCompositionAnimation), SetWhitePointY, SetWhitePointY method [DirectComposition], SetWhitePointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointY, directcomp.idcompositionbrightnesseffect_setwhitepointy
+ms.date: 10/09/2018
+ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointY method, IDCompositionBrightnessEffect.SetWhitePointY, IDCompositionBrightnessEffect.SetWhitePointY(IDCompositionAnimation), IDCompositionBrightnessEffect::SetWhitePointY, IDCompositionBrightnessEffect::SetWhitePointY(IDCompositionAnimation), SetWhitePointY, SetWhitePointY method [DirectComposition], SetWhitePointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointY, directcomp.idcompositionbrightnesseffect_setwhitepointy_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the y value of the white point.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - whitePointY [in]
-
-Type: <b>float</b>
-
-The y value of the white point.
+An animation that represents how the y value of the white point changes over time. This parameter must not be NULL.
 
 
 ## -returns

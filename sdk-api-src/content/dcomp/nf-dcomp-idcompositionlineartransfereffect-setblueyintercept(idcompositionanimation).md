@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionA
 title: IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the blue channel.
-old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept.htm
+old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept_2.htm
 tech.root: directcomp
-ms.assetid: 1687DE56-E737-47F6-BBA4-43AAED572AA7
+ms.assetid: A75B26EB-CEA2-45E3-999D-9A49A261AA54
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueYIntercept method, IDCompositionLinearTransferEffect.SetBlueYIntercept, IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetBlueYIntercept, IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation), SetBlueYIntercept, SetBlueYIntercept method [DirectComposition], SetBlueYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept
+ms.date: 10/09/2018
+ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueYIntercept method, IDCompositionLinearTransferEffect.SetBlueYIntercept, IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetBlueYIntercept, IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation), SetBlueYIntercept, SetBlueYIntercept method [DirectComposition], SetBlueYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the Y-intercept of the linear function for the blue channel.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - blueYIntercept [in]
-
-Type: <b>float</b>
-
-The Y-intercept of the linear function for the blue channel. 
+An animation that represents how the Y-intercept of the linear function for the blue channel changes over time. This parameter must not be NULL.
 
 
 ## -returns

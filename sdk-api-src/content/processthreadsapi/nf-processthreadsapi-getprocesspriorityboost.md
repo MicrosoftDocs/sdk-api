@@ -4,10 +4,10 @@ title: GetProcessPriorityBoost function
 author: windows-sdk-content
 description: Retrieves the priority boost control state of the specified process.
 old-location: base\getprocesspriorityboost.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: b47944f2-b724-4eec-9dcf-2d14a7b77456
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetProcessPriorityBoost, GetProcessPriorityBoost function, _win32_getprocesspriorityboost, base.getprocesspriorityboost, processthreadsapi/GetProcessPriorityBoost
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjFileNameMatch
 title: PrjFileNameMatch function
 author: windows-sdk-content
-description: TBD.
+description: Determines whether a file name matches a search pattern.
 old-location: projfs\prjfilenamematch.htm
 tech.root: ProjFS
 ms.assetid: 2BE57189-0F68-4CCD-8796-964EFDE0A02E
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjFileNameMatch, PrjFileNameMatch function, ProjFS.prjfilenamematch, projectedfslib/PrjFileNameMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjFileNameMatch
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Determines whether a file name matches a search pattern.
 
 
 ## -parameters
@@ -59,19 +60,28 @@ TBD
 
 ### -param fileNameToCheck [in]
 
-TBD
+A null-terminated Unicode string of at most MAX_PATH characters specifying the file name to check against pattern. 
 
 
 ### -param pattern [in]
 
-TBD
+A null-terminated Unicode string of at most MAX_PATH characters specifying the pattern to compare against fileNameToCheck.
 
 
 ## -returns
 
 
 
-TBD
+True if fileNameToCheck matches pattern, False otherwise.
+
+
+
+
+## -remarks
+
+
+
+The provider must use this routine when processing a <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback to determine whether a name in its backing store matches the searchExpression passed to the callback. This routine performs pattern matching in the same way the file system does when it is processing a directory enumeration
 
 
 

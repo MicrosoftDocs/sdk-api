@@ -7,7 +7,7 @@ old-location: etw\tdhenumeratemanifestproviderevents.htm
 tech.root: etw
 ms.assetid: 93A03E1D-4047-49F1-987B-FB7BE03E0483
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: TdhEnumerateManifestProviderEvents, TdhEnumerateManifestProviderEvents function [ETW], etw.tdhenumeratemanifestproviderevents, tdh/TdhEnumerateManifestProviderEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

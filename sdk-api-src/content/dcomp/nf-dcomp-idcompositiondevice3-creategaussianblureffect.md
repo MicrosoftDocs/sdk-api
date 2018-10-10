@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice3_creategaussianblureffect.htm
 tech.root: directcomp
 ms.assetid: D05C7A70-107A-4246-9391-7B00ECAA0B80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: CreateGaussianBlurEffect, CreateGaussianBlurEffect method [DirectComposition], CreateGaussianBlurEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateGaussianBlurEffect method, IDCompositionDevice3.CreateGaussianBlurEffect, IDCompositionDevice3::CreateGaussianBlurEffect, dcomp/IDCompositionDevice3::CreateGaussianBlurEffect, directcomp.idcompositiondevice3_creategaussianblureffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

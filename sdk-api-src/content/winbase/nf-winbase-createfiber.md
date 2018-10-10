@@ -4,10 +4,10 @@ title: CreateFiber function
 author: windows-sdk-content
 description: Allocates a fiber object, assigns it a stack, and sets up execution to begin at the specified start address, typically the fiber function. This function does not schedule the fiber.
 old-location: base\createfiber.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 3e44776b-7ef2-43fb-a2ae-e8ab7e20644b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: CreateFiber, CreateFiber function, _win32_createfiber, base.createfiber, winbase/CreateFiber
 ms.prod: windows-hardware
 ms.technology: windows-devices

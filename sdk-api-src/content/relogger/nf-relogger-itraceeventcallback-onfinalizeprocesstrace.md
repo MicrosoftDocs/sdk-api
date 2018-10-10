@@ -7,7 +7,7 @@ old-location: etw\ieventcallback_onfinalizeprocesstrace.htm
 tech.root: etw
 ms.assetid: b152b6fd-4af5-4781-9c88-c71364ef86ff
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnFinalizeProcessTrace method, ITraceEventCallback.OnFinalizeProcessTrace, ITraceEventCallback::OnFinalizeProcessTrace, OnFinalizeProcessTrace, OnFinalizeProcessTrace method [ETW], OnFinalizeProcessTrace method [ETW],ITraceEventCallback interface, etw.ieventcallback_onfinalizeprocesstrace, relogger/ITraceEventCallback::OnFinalizeProcessTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

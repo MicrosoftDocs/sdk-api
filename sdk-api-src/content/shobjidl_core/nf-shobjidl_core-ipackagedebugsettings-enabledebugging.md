@@ -3,20 +3,20 @@ UID: NF:shobjidl_core.IPackageDebugSettings.EnableDebugging
 title: IPackageDebugSettings::EnableDebugging
 author: windows-sdk-content
 description: Enables debug mode for the processes of the specified package.
-old-location: shell\IPackageDebugSettings_EnableDebugging.htm
-tech.root: shell
-ms.assetid: a3afae41-b46e-47c8-95bb-a0aa747c6353
+old-location: winrt\ipackagedebugsettings_enabledebugging.htm
+tech.root: WinRT
+ms.assetid: 6219e8d7-0631-482f-b602-b0453d4b1e70
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: EnableDebugging, EnableDebugging method [Windows Shell], EnableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnableDebugging method, IPackageDebugSettings.EnableDebugging, IPackageDebugSettings::EnableDebugging, shell.IPackageDebugSettings_EnableDebugging, shobjidl_core/IPackageDebugSettings::EnableDebugging
+ms.date: 09/26/2018
+ms.keywords: EnableDebugging, EnableDebugging method [Windows Runtime], EnableDebugging method [Windows Runtime],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Runtime],EnableDebugging method, IPackageDebugSettings.EnableDebugging, IPackageDebugSettings::EnableDebugging, shobjidl_core/IPackageDebugSettings::EnableDebugging, winrt.ipackagedebugsettings_enabledebugging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - Shobjidl_core.h
+ - shobjidl_core.h
 api_name:
  - IPackageDebugSettings.EnableDebugging
 product: Windows
@@ -60,15 +60,21 @@ Enables debug mode for the processes of the specified package.
 
 ### -param packageFullName [in]
 
+Type: <b>LPCWSTR</b>
+
 The package full name.
 
 
 ### -param debuggerCommandLine [in]
 
+Type: <b>LPCWSTR</b>
+
 The command line to use to launch processes from this package. This parameter is optional.
 
 
 ### -param environment [in]
+
+Type: <b>PZZWSTR</b>
 
 Any environment strings to pass to processes. This parameter is optional.
 
@@ -76,6 +82,8 @@ Any environment strings to pass to processes. This parameter is optional.
 ## -returns
 
 
+
+Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -105,11 +113,7 @@ To restore normal operation, call the <a href="https://msdn.microsoft.com/ad7efe
 
 
 
-<a href="https://msdn.microsoft.com/102e57be-296e-44ec-8211-f2c2d5eae1e6">DisableDebugging</a>
-
-
-
-<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+<a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a>
  
 
  

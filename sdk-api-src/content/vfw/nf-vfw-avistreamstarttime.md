@@ -7,7 +7,7 @@ old-location: multimedia\avistreamstarttime.htm
 tech.root: Multimedia
 ms.assetid: 6bfa053f-26ca-4dc8-8896-11ee9f0d9b77
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: AVIStreamStartTime, AVIStreamStartTime macro [Windows Multimedia], _win32_AVIStreamStartTime, multimedia.avistreamstarttime, vfw/AVIStreamStartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,15 +72,19 @@ Handle to an open stream.
 
 The <b>AVIStreamStartTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamStartTime(pavi) \ 
     AVIStreamSampleToTime(pavi, AVIStreamStart(pavi)) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

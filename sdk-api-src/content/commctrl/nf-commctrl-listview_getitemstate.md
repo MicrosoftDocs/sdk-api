@@ -4,10 +4,10 @@ title: ListView_GetItemState macro
 author: windows-sdk-content
 description: Gets the state of a list-view item. You can use this macro or send the LVM_GETITEMSTATE message explicitly.
 old-location: controls\ListView_GetItemState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemstate.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_GetItemState, ListView_GetItemState macro [Windows Controls], _win32_ListView_GetItemState, _win32_ListView_GetItemState_cpp, commctrl/ListView_GetItemState, controls.ListView_GetItemState, controls._win32_ListView_GetItemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the state of a list-view item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761053(v=VS.85).aspx">LVM_GETITEMSTATE</a> message explicitly. 
+Gets the state of a list-view item. You can use this macro or send the <a href="https://msdn.microsoft.com/862960ed-a64a-4d66-b384-9228932eae6f">LVM_GETITEMSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -161,7 +161,7 @@ An item's state information includes a set of bit flags as well as image list in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775102(v=VS.85).aspx">ListView_SetItemState</a>
+<a href="https://msdn.microsoft.com/b90900f1-833b-418c-8ddc-76c0743b77f9">ListView_SetItemState</a>
  
 
  

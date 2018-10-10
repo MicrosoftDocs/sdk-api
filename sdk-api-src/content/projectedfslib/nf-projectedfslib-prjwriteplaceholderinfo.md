@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjWritePlaceholderInfo
 title: PrjWritePlaceholderInfo function
 author: windows-sdk-content
-description: TBD.
+description: Sends file or directory metadata to ProjFS.
 old-location: projfs\prjwriteplaceholderinfo.htm
 tech.root: ProjFS
 ms.assetid: EAEA2D05-2FCF-46A7-AEBD-9CF085D868E1
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjWritePlaceholderInfo, PrjWritePlaceholderInfo function, ProjFS.prjwriteplaceholderinfo, projectedfslib/PrjWritePlaceholderInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjWritePlaceholderInfo
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Sends file or directory metadata to ProjFS.
 
 
 ## -parameters
@@ -59,29 +60,46 @@ TBD
 
 ### -param namespaceVirtualizationContext [in]
 
-TBD
+Opaque handle for the virtualization instance. This must be the value from the VirtualizationInstanceHandle member of the callbackData passed to the provider in the <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback.
 
 
 ### -param destinationFileName [in]
 
-TBD
+A null-terminated Unicode string specifying the path, relative to the virtualization root, to the file or directory for which to create a placeholder. 
+
+This must be a match to the FilePathName member of the callbackData parameter passed to the provider in the <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback. The provider should use the PrjFileNameCompare function to determine whether the two names match. 
+
+
+For example, if the <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback specifies “dir1\dir1\FILE.TXT” in callbackData-&gt;FilePathName, and the provider’s backing store contains a file called “File.txt” in the dir1\dir2 directory, and <a href="projfs.prjfilenamecompare">PrjFileNameCompare</a> returns 0 when comparing the names “FILE.TXT” and “File.txt”, then the provider specifies “dir1\dir2\File.txt” as the value of this parameter.
 
 
 ### -param placeholderInfo [in]
 
-TBD
+A pointer to the metadata for the file or directory.
 
 
 ### -param placeholderInfoSize [in]
 
-TBD
+Size in bytes of the buffer pointed to by placeholderInfo.
 
 
 ## -returns
 
 
 
-TBD
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The provider uses this routine to provide the data requested in an invocation of its <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback, or it may use it to proactively lay down a placeholder. 
+
+
+The EaInformation, SecurityInformation, and StreamsInformation members of <a href="projfs.prj_placeholder_info">PRJ_PLACEHOLDER_INFO</a> are optional. If the provider does not wish to provide extended attributes, custom security descriptors, or alternate data streams, it must set these fields to 0.
 
 
 

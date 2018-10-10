@@ -4,10 +4,10 @@ title: Static_GetIcon macro
 author: windows-sdk-content
 description: Retrieves a handle to the icon associated with a static control that has the SS_ICON style. You can use this macro or send the STM_GETICON message explicitly.
 old-location: controls\Static_GetIcon.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_geticon.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: Static_GetIcon, Static_GetIcon macro [Windows Controls], _win32_Static_GetIcon, _win32_Static_GetIcon_cpp, controls.Static_GetIcon, controls._win32_Static_GetIcon, windowsx/Static_GetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Retrieves a handle to the icon associated with a static control that has the SS_ICON style. 
- You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760775(v=VS.85).aspx">STM_GETICON</a> message explicitly. 
+ You can use this macro or send the <a href="https://msdn.microsoft.com/e6b0a006-696b-401d-b894-b1db697c8939">STM_GETICON</a> message explicitly. 
 
 
 

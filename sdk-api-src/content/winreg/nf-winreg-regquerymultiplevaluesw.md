@@ -4,10 +4,10 @@ title: RegQueryMultipleValuesW function
 author: windows-sdk-content
 description: Retrieves the type and data for a list of value names associated with an open registry key.
 old-location: base\regquerymultiplevalues.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: RegQueryMultipleValues, RegQueryMultipleValues function, RegQueryMultipleValuesA, RegQueryMultipleValuesW, _win32_regquerymultiplevalues, base.regquerymultiplevalues, winreg/RegQueryMultipleValues, winreg/RegQueryMultipleValuesA, winreg/RegQueryMultipleValuesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

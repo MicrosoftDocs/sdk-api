@@ -4,10 +4,10 @@ title: IKEEXT_MM_SA_STATE_
 author: windows-sdk-content
 description: States for the Main Mode (MM) negotiation exchanges that are part of the Authenticated Internet Protocol (AuthIP) and Internet Key Exchange (IKE) protocols.
 old-location: fwp\ikeext_mm_sa_state.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 5af48053-23b7-489f-82b7-743153aea641
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IKEEXT_MM_SA_STATE, IKEEXT_MM_SA_STATE enumeration [Filtering], IKEEXT_MM_SA_STATE_, IKEEXT_MM_SA_STATE_COMPLETE, IKEEXT_MM_SA_STATE_FINAL, IKEEXT_MM_SA_STATE_FINAL_SENT, IKEEXT_MM_SA_STATE_MAX, IKEEXT_MM_SA_STATE_NONE, IKEEXT_MM_SA_STATE_SA_SENT, IKEEXT_MM_SA_STATE_SSPI_SENT, fwp.ikeext_mm_sa_state, iketypes/IKEEXT_MM_SA_STATE, iketypes/IKEEXT_MM_SA_STATE_COMPLETE, iketypes/IKEEXT_MM_SA_STATE_FINAL, iketypes/IKEEXT_MM_SA_STATE_FINAL_SENT, iketypes/IKEEXT_MM_SA_STATE_MAX, iketypes/IKEEXT_MM_SA_STATE_NONE, iketypes/IKEEXT_MM_SA_STATE_SA_SENT, iketypes/IKEEXT_MM_SA_STATE_SSPI_SENT
 ms.prod: windows
 ms.technology: windows-sdk

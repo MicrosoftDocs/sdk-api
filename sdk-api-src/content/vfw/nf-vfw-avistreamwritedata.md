@@ -7,7 +7,7 @@ old-location: multimedia\avistreamwritedata.htm
 tech.root: Multimedia
 ms.assetid: 2ca91df6-4721-4282-8b88-81e76d2ab94f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: AVIStreamWriteData, AVIStreamWriteData function [Windows Multimedia], _win32_AVIStreamWriteData, multimedia.avistreamwritedata, vfw/AVIStreamWriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1Factory1.CreateDrawingStateBlock(ID2D1DrawingStateBlock1)
 title: ID2D1Factory1::CreateDrawingStateBlock(ID2D1DrawingStateBlock1)
 author: windows-sdk-content
 description: Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target.
-old-location: direct2d\id2d1factory1_createdrawingstateblock.htm
+old-location: direct2d\id2d1factory1_createdrawingstateblock3.htm
 tech.root: Direct2D
-ms.assetid: 1FB96165-3575-4B8B-B8BC-BB94BA5F97CE
+ms.assetid: 7A414E4A-9FD9-4028-9254-950F58421965
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: CreateDrawingStateBlock, CreateDrawingStateBlock method [Direct2D], CreateDrawingStateBlock method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateDrawingStateBlock method, ID2D1Factory1.CreateDrawingStateBlock, ID2D1Factory1.CreateDrawingStateBlock(ID2D1DrawingStateBlock1), ID2D1Factory1::CreateDrawingStateBlock, ID2D1Factory1::CreateDrawingStateBlock(ID2D1DrawingStateBlock1), d2d1_1/ID2D1Factory1::CreateDrawingStateBlock, direct2d.id2d1factory1_createdrawingstateblock
+ms.date: 10/09/2018
+ms.keywords: CreateDrawingStateBlock, CreateDrawingStateBlock method [Direct2D], CreateDrawingStateBlock method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateDrawingStateBlock method, ID2D1Factory1.CreateDrawingStateBlock, ID2D1Factory1.CreateDrawingStateBlock(ID2D1DrawingStateBlock1), ID2D1Factory1::CreateDrawingStateBlock, ID2D1Factory1::CreateDrawingStateBlock(ID2D1DrawingStateBlock1), d2d1_1/ID2D1Factory1::CreateDrawingStateBlock, direct2d.id2d1factory1_createdrawingstateblock3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -65,20 +65,6 @@ Creates a new drawing state block, this can be used in subsequent
 Type: <b><a href="https://msdn.microsoft.com/F3A364F6-2C30-4DDE-A5C7-7B58758F111F">ID2D1DrawingStateBlock1</a>**</b>
 
 The address of the newly created drawing state block.
-
-
-#### - drawingStateDescription [in, optional]
-
-Type: <b>const <a href="https://msdn.microsoft.com/E1BFF353-8445-435C-8F7A-E93BFE58A794">D2D1_DRAWING_STATE_DESCRIPTION1</a>*</b>
-
-The drawing state description structure.
-
-
-#### - textRenderingParams [in, optional]
-
-Type: <b><a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>*</b>
-
-The DirectWrite rendering params interface.
 
 
 ## -returns

@@ -2,13 +2,13 @@
 UID: NF:d2d1_3.ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS)
 title: ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS)
 author: windows-sdk-content
-description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
-old-location: direct2d\id2d1devicecontext3_drawspritebatch.htm
+description: Renders all sprites in the given sprite batch to the device context using the specified drawing options.
+old-location: direct2d\id2d1devicecontext3_drawspritebatch_2.htm
 tech.root: Direct2D
-ms.assetid: 407529D4-6FA3-4C09-876C-03A8A8D1390D
+ms.assetid: 28A499C2-7B77-4DF0-9EA7-21B7640B9D22
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],DrawSpriteBatch method, ID2D1DeviceContext3.DrawSpriteBatch, ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), ID2D1DeviceContext3::DrawSpriteBatch, ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), d2d1_3/ID2D1DeviceContext3::DrawSpriteBatch, direct2d.id2d1devicecontext3_drawspritebatch
+ms.date: 10/09/2018
+ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],DrawSpriteBatch method, ID2D1DeviceContext3.DrawSpriteBatch, ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), ID2D1DeviceContext3::DrawSpriteBatch, ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), d2d1_3/ID2D1DeviceContext3::DrawSpriteBatch, direct2d.id2d1devicecontext3_drawspritebatch_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Renders part or all of the given sprite batch to the device context using the specified drawing options.
+Renders all sprites in the given sprite batch to the device context using the specified drawing options.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The sprite batch to draw.
 
 Type: <b><a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>*</b>
 
-The bitmap from which the sprites are to be sourced. Each sprite's source rectangle refers to a portion of this bitmap.
+The bitmap from which the sprites are to be sourced. Each sprite’s source rectangle refers to a portion of this bitmap.
 
 
 ### -param interpolationMode
@@ -84,20 +84,6 @@ The interpolation mode to use when drawing this sprite batch. This determines ho
 Type: <b><a href="https://msdn.microsoft.com/64B7D987-A79C-412C-8D12-53E21DD8DDD9">D2D1_SPRITE_OPTIONS</a></b>
 
 The additional drawing options, if any, to be used for this sprite batch.
-
-
-#### - spriteCount
-
-Type: <b>UINT32</b>
-
-The number of sprites to draw.
-
-
-#### - startIndex
-
-Type: <b>UINT32</b>
-
-The index of the first sprite in the sprite batch to draw.
 
 
 ## -returns

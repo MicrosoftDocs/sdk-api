@@ -4,10 +4,10 @@ title: IPSEC_AUTH_TYPE_
 author: windows-sdk-content
 description: Indicates the type of hash algorithm used in an IPsec SA for data origin authentication and integrity protection.
 old-location: fwp\ipsec_auth_type_enum.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 9130ffa3-b757-42fa-b6bb-d380f2dbdbcb
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IPSEC_AUTH_AES_128, IPSEC_AUTH_AES_192, IPSEC_AUTH_AES_256, IPSEC_AUTH_MAX, IPSEC_AUTH_MD5, IPSEC_AUTH_SHA_1, IPSEC_AUTH_SHA_256, IPSEC_AUTH_TYPE, IPSEC_AUTH_TYPE enumeration [Filtering], IPSEC_AUTH_TYPE_, fwp.ipsec_auth_type_enum, ipsectypes/IPSEC_AUTH_AES_128, ipsectypes/IPSEC_AUTH_AES_192, ipsectypes/IPSEC_AUTH_AES_256, ipsectypes/IPSEC_AUTH_MAX, ipsectypes/IPSEC_AUTH_MD5, ipsectypes/IPSEC_AUTH_SHA_1, ipsectypes/IPSEC_AUTH_SHA_256, ipsectypes/IPSEC_AUTH_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

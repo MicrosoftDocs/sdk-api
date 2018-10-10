@@ -4,10 +4,10 @@ title: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0_
 author: windows-sdk-content
 description: Various statistics common to IKE and Authip.
 old-location: fwp\ikeext_ip_version_specific_common_statistics0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 0cacb7de-9f20-47ac-b040-8d65ede3bef3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0, IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 structure [Filtering], IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0_, fwp.ikeext_ip_version_specific_common_statistics0, iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: FWPM_SERVICE_STATE_
 author: windows-sdk-content
 description: Specifies the current state of the filter engine.
 old-location: fwp\fwpm_service_state.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 80a3695a-71ac-4c8b-897e-80c4231ad570
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FWPM_SERVICE_RUNNING, FWPM_SERVICE_START_PENDING, FWPM_SERVICE_STATE, FWPM_SERVICE_STATE enumeration [Filtering], FWPM_SERVICE_STATE_, FWPM_SERVICE_STATE_MAX, FWPM_SERVICE_STOPPED, FWPM_SERVICE_STOP_PENDING, fwp.fwpm_service_state, fwpmtypes/FWPM_SERVICE_RUNNING, fwpmtypes/FWPM_SERVICE_START_PENDING, fwpmtypes/FWPM_SERVICE_STATE, fwpmtypes/FWPM_SERVICE_STATE_MAX, fwpmtypes/FWPM_SERVICE_STOPPED, fwpmtypes/FWPM_SERVICE_STOP_PENDING
 ms.prod: windows
 ms.technology: windows-sdk

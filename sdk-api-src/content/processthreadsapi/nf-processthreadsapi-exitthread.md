@@ -4,10 +4,10 @@ title: ExitThread function
 author: windows-sdk-content
 description: Ends the calling thread.
 old-location: base\exitthread.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e7f6d054-c535-4521-a3b4-800a9174732f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ExitThread, ExitThread function, _win32_exitthread, base.exitthread, processthreadsapi/ExitThread, winbase/ExitThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

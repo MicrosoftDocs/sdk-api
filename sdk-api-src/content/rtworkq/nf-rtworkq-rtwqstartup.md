@@ -4,10 +4,10 @@ title: RtwqStartup function
 author: windows-sdk-content
 description: Initializes the platform.
 old-location: base\rtwqstartup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 101e73ec-34ec-49af-999d-5410f46ff319
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: RtwqStartup, RtwqStartup function, base.rtwqstartup, rtworkq/RtwqStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

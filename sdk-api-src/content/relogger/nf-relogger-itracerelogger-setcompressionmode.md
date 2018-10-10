@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_setcompressionmode.htm
 tech.root: etw
 ms.assetid: 2a758af0-2316-4c4b-8717-ee1ebad205ee
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: ITraceRelogger interface [ETW],SetCompressionMode method, ITraceRelogger.SetCompressionMode, ITraceRelogger::SetCompressionMode, SetCompressionMode, SetCompressionMode method [ETW], SetCompressionMode method [ETW],ITraceRelogger interface, etw.itracerelogger_setcompressionmode, relogger/ITraceRelogger::SetCompressionMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

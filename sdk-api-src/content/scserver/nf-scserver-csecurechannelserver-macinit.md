@@ -114,28 +114,32 @@ The <b>MACInit</b> method begins a message authentication code (MAC) session. Th
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 g_pAppSCServer = new CsecureChannelServer();
 if( dwRead )
 {
     // MAC the parameters.
     HMAC hMAC;
     
-    g_pAppSCServer->MACInit(&hMAC);
-    g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pTmpData), dwRead);
-    g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD));
-    g_pAppSCServer->MACFinal(hMAC, abMac);
+    g_pAppSCServer-&gt;MACInit(&amp;hMAC);
+    g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pTmpData), dwRead);
+    g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD));
+    g_pAppSCServer-&gt;MACFinal(hMAC, abMac);
     
-    g_pAppSCServer->EncryptParam(pTmpData, dwRead);
+    g_pAppSCServer-&gt;EncryptParam(pTmpData, dwRead);
     
     memcpy(pData, pTmpData, dwRead);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

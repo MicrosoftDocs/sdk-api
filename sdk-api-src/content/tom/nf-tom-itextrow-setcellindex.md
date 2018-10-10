@@ -4,10 +4,10 @@ title: ITextRow::SetCellIndex
 author: windows-sdk-content
 description: Sets the index of the active cell.
 old-location: controls\itextrow_setcellindex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4b31ed10-f153-4614-ba96-95271fe4b218
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellIndex method, ITextRow.SetCellIndex, ITextRow::SetCellIndex, SetCellIndex, SetCellIndex method [Windows Controls], SetCellIndex method [Windows Controls],ITextRow interface, controls.itextrow_setcellindex, tom/ITextRow::SetCellIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,144 @@
+---
+UID: NC:prsht.LPFNPSPCALLBACKA
+title: LPFNPSPCALLBACKA
+author: windows-sdk-content
+description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.
+old-location: controls\PropSheetPageProc.htm
+tech.root: Controls
+ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetpageproc.htm
+ms.author: windowssdkdev
+ms.date: 10/09/2018
+ms.keywords: LPFNPSPCALLBACK, LPFNPSPCALLBACK callback, LPFNPSPCALLBACK callback function [Windows Controls], LPFNPSPCALLBACKA, LPFNPSPCALLBACKW, PSPCB_ADDREF, PSPCB_CREATE, PSPCB_RELEASE, _win32_PropSheetPageProc, _win32_PropSheetPageProc_cpp, controls.PropSheetPageProc, controls._win32_PropSheetPageProc, prsht/LPFNPSPCALLBACK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: prsht.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Prsht.h
+api_name:
+ - LPFNPSPCALLBACK
+ - LPFNPSPCALLBACK
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# LPFNPSPCALLBACKA callback function
+
+
+## -description
+
+
+Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.
+
+
+## -parameters
+
+
+
+
+### -param hwnd
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Reserved; must be <b>NULL</b>.
+
+
+### -param uMsg [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Action flag. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PSPCB_ADDREF"></a><a id="pspcb_addref"></a><dl>
+<dt><b>PSPCB_ADDREF</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> or later. A page is being created. The return value is not used.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PSPCB_CREATE"></a><a id="pspcb_create"></a><dl>
+<dt><b>PSPCB_CREATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+A dialog box for a page is being created. Return nonzero to allow it to be created, or zero to prevent it.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PSPCB_RELEASE"></a><a id="pspcb_release"></a><dl>
+<dt><b>PSPCB_RELEASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+A page is being destroyed. The return value is ignored.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param *ppsp [in, out]
+
+Type: <b>LPPROPSHEETPAGE</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure that defines the page being created or destroyed. See the Remarks section for further discussion.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The return value depends on the value of the <i>uMsg</i> parameter.
+
+
+
+
+## -remarks
+
+
+
+An application must specify the address of this callback function in the <b>pfnCallback</b> member of a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure before passing the structure to the <a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a> function.
+
+<div class="alert"><b>Note</b>  The property sheet is in the process of manipulating the list of pages when this function is called. Do not attempt to add, remove, or insert pages while handling this notification. Doing so will have unpredictable results.</div>
+<div> </div>
+With the exception of the <b>lParam</b> member, your application should not modify the <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure. Doing so will have unpredictable results. The <b>lParam</b> member contains application-defined data and can be modified as needed.
+
+
+

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effect_getinput.htm
 tech.root: Direct2D
 ms.assetid: fca22cc2-2299-4f74-8dc9-d931b899d4fb
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetInput, GetInput method [Direct2D], GetInput method [Direct2D],ID2D1Effect interface, ID2D1Effect interface [Direct2D],GetInput method, ID2D1Effect.GetInput, ID2D1Effect::GetInput, d2d1_1/ID2D1Effect::GetInput, direct2d.id2d1effect_getinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

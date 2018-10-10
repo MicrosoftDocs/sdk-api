@@ -4,10 +4,10 @@ title: UpdateProcThreadAttribute function
 author: windows-sdk-content
 description: Updates the specified attribute in a list of attributes for process and thread creation.
 old-location: base\updateprocthreadattribute.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -525,6 +525,19 @@ The following mitigation options are available for the image loading policy:
 </dd>
 </dl>
 </dd>
+<dd>
+<b>Windows 10, version 1809:  </b>The following value is available only in  Windows 10, version 1809 or later. 
+
+<dl>
+<dd>
+<dl>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_SPECULATIVE_STORE_BYPASS_DISABLE_ALWAYS_ON </b> (0x00000001ui64 &lt;&lt; 24)This flag can be used by processes to disable the Speculative Store Bypass (SSB) feature of CPUs that may be vulnerable to speculative execution side channel attacks involving SSB (CVE-2018-3639).
+
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
 </dl>
 
 
@@ -532,7 +545,7 @@ The  <b>DWORD</b> or <b>DWORD64</b> pointed to by <i>lpValue</i> can be one or m
 
 <b>PROCESS_CREATION_CHILD_PROCESS_RESTRICTED</b>                                         0x01
 
-The process being created is not allowed to create child processes.  This restriction becomes a property of the token as which the process runs.
+The process being created is not allowed to create child processes.  This restriction becomes a property of the token as which the process runs. It should be noted that this restriction is only effective in sandboxed applications (such as AppContainer) which ensure privileged process handles are not accessible to the process. For example, if a process restricting child process creation is able to access another process handle with PROCESS_CREATE_PROCESS or PROCESS_VM_WRITE access rights, then it may be possible to bypass the child process restriction.
 
 <b>PROCESS_CREATION_CHILD_PROCESS_OVERRIDE</b>                                           0x02
 
@@ -556,16 +569,20 @@ In order to launch the child process with the same protection level as the paren
 
 The following example launches a child process with the same protection level as the parent process:
 
-
-```cpp
-DWORD ProtectionLevel = PROTECTION_LEVEL_SAME;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD ProtectionLevel = PROTECTION_LEVEL_SAME;
 SIZE_T AttributeListSize;
 
 STARTUPINFOEXW StartupInfoEx = { 0 };
 
 StartupInfoEx.StartupInfo.cb = sizeof(StartupInfoEx);
 
-InitializeProcThreadAttributeList(NULL, 1, 0, &AttributeListSize)
+InitializeProcThreadAttributeList(NULL, 1, 0, &amp;AttributeListSize)
 
 
 StartupInfoEx.lpAttributeList = (LPPROC_THREAD_ATTRIBUTE_LIST) HeapAlloc(
@@ -577,7 +594,7 @@ StartupInfoEx.lpAttributeList = (LPPROC_THREAD_ATTRIBUTE_LIST) HeapAlloc(
 if (InitializeProcThreadAttributeList(StartupInfoEx.lpAttributeList,
                                       1,
                                       0,
-                                      &AttributeListSize) == FALSE)
+                                      &amp;AttributeListSize) == FALSE)
 {
     Result = GetLastError();
     goto exitFunc;
@@ -586,7 +603,7 @@ if (InitializeProcThreadAttributeList(StartupInfoEx.lpAttributeList,
 if (UpdateProcThreadAttribute(StartupInfoEx.lpAttributeList,
                               0,
                               PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL,
-                              &ProtectionLevel,
+                              &amp;ProtectionLevel,
                               sizeof(ProtectionLevel),
                               NULL,
                               NULL) == FALSE)
@@ -605,15 +622,15 @@ if (CreateProcessW(ApplicationName,
                    EXTENDED_STARTUPINFO_PRESENT | CREATE_PROTECTED_PROCESS,
                    Environment,
                    CurrentDirectory,
-                   (LPSTARTUPINFOW)&StartupInfoEx,
-                   &ProcessInformation) == FALSE)
+                   (LPSTARTUPINFOW)&amp;StartupInfoEx,
+                   &amp;ProcessInformation) == FALSE)
 {
     Result = GetLastError();
     goto exitFunc;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

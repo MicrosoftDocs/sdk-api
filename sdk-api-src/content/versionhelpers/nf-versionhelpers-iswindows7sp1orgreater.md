@@ -4,10 +4,10 @@ title: IsWindows7SP1OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 7 with Service Pack 1 (SP1) version.
 old-location: base\iswindows7sp1orgreater.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: E8AD3423-91EF-4ECE-9EF2-808C68CEA861
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IsWindows7SP1OrGreater, IsWindows7SP1OrGreater function, base.iswindows7sp1orgreater, versionhelpers/IsWindows7SP1OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,18 +85,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows 7 with SP1 or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindows7SP1OrGreater())
     {
        MessageBox(NULL, "You need at least Windows 7 with SP1", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

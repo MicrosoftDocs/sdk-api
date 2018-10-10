@@ -7,7 +7,7 @@ old-location: etw\property_data_descriptor_struct.htm
 tech.root: etw
 ms.assetid: 38e6f5b1-fce5-45e4-ac7a-09ba40d29837
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: "*PPROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR structure [ETW], _PROPERTY_DATA_DESCRIPTOR, etw.property_data_descriptor_struct, tdh.property_data_descriptor_struct, tdh/PROPERTY_DATA_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

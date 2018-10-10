@@ -7,7 +7,7 @@ old-location: base\rtlfirstentryslist.htm
 tech.root: Sync
 ms.assetid: 945d65a3-a2d2-4865-86ec-0ced0934dc1e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: RtlFirstEntrySList, RtlFirstEntrySList function, base.rtlfirstentryslist, winnt/RtlFirstEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices

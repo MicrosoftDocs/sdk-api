@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlruntime_evaluatemodel.htm
 tech.root: MachineLearning
 ms.assetid: F96A1CCD-02BD-4E93-830D-9975A03658E2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: EvaluateModel, EvaluateModel method, EvaluateModel method,IWinMLRuntime interface, IWinMLRuntime interface,EvaluateModel method, IWinMLRuntime.EvaluateModel, IWinMLRuntime::EvaluateModel, MachineLearning.iwinmlruntime_evaluatemodel, winml/IWinMLRuntime::EvaluateModel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,6 +51,8 @@ req.redist:
 
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Evaluates a WinML model.
 

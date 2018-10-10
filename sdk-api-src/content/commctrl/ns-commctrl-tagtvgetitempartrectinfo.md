@@ -4,10 +4,10 @@ title: tagTVGETITEMPARTRECTINFO
 author: windows-sdk-content
 description: Contains information for identifying the &#0034;hit zone&#0034; for a specified part of a tree item. The structure is used with the TVM_GETITEMPARTRECT message and the TreeView_GetItemPartRect macro.
 old-location: controls\TVGETITEMPARTRECTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvgetitempartrectinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: TVGETITEMPARTRECTINFO, TVGETITEMPARTRECTINFO structure [Windows Controls], _shell_TVGETITEMPARTRECTINFO, _shell_TVGETITEMPARTRECTINFO_cpp, commctrl/TVGETITEMPARTRECTINFO, controls.TVGETITEMPARTRECTINFO, controls._shell_TVGETITEMPARTRECTINFO, tagTVGETITEMPARTRECTINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information for identifying the "hit zone" for a specified part of a tree item. The structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773606(v=VS.85).aspx">TVM_GETITEMPARTRECT</a> message and the <a href="https://msdn.microsoft.com/en-us/library/Bb773847(v=VS.85).aspx">TreeView_GetItemPartRect</a> macro.
+Contains information for identifying the "hit zone" for a specified part of a tree item. The structure is used with the <a href="https://msdn.microsoft.com/4fa5d167-9649-4346-89c2-8a48e8d4d2f6">TVM_GETITEMPARTRECT</a> message and the <a href="https://msdn.microsoft.com/1a0175dc-5ce9-472e-91bc-b58a087b0e77">TreeView_GetItemPartRect</a> macro.
 
 
 ## -struct-fields

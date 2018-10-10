@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Bitmap_GetSize.htm
 tech.root: Direct2D
 ms.assetid: 6ab1d67d-d7ee-41a0-a298-738b1520ff3b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetSize, GetSize method [Direct2D], GetSize method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],GetSize method, ID2D1Bitmap.GetSize, ID2D1Bitmap::GetSize, d2d1/ID2D1Bitmap::GetSize, direct2d.ID2D1Bitmap_GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

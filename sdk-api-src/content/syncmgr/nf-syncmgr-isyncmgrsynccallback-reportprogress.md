@@ -132,9 +132,13 @@ The maximum length of a progress string is MAX_SYNCMGR_PROGRESSTEXT. This consta
 
 The following example shows the usage of <b>ISyncMgrSyncCallback::ReportProgress</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Synchronize(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 {
     ...
 
@@ -145,18 +149,18 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
     // Construct a string to display in the Sync Center folder.
     // Report the progress to Sync Center.
     SYNCMGR_CANCEL_REQUEST nCancelRequest;
-    hr = pCallback->ReportProgress(pszItemID,
+    hr = pCallback-&gt;ReportProgress(pszItemID,
                                    pszProgressText,
                                    SYNCMGR_PS_UPDATING,
                                    uCurrentStep,
                                    uMaxStep,
-                                   &nCancelRequest);
+                                   &amp;nCancelRequest);
     if (SUCCEEDED(hr))
     {
         if (nCancelRequest != SYNCMGR_CR_NONE)
         {
             // Synchronization was canceled.
-            hr = pCallback->ReportProgress(pszItemID,
+            hr = pCallback-&gt;ReportProgress(pszItemID,
                                            pszProgressText,
                                            SYNCMGR_PS_CANCELED,
                                            uCurrentStep,
@@ -166,9 +170,9 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
     }
     ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

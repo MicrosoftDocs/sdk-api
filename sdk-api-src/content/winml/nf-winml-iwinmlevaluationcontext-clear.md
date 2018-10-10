@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlevaluationcontext_clear.htm
 tech.root: MachineLearning
 ms.assetid: DBA33BEB-0843-463C-8EB8-BF86C7D106AC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: Clear, Clear method, Clear method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,Clear method, IWinMLEvaluationContext.Clear, IWinMLEvaluationContext::Clear, MachineLearning.iwinmlevaluationcontext_clear, winml/IWinMLEvaluationContext::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,6 +51,8 @@ req.redist:
 
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Clears the bindings for a model.
 

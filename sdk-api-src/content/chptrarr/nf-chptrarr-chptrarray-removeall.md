@@ -7,7 +7,7 @@ old-location: wmi\chptrarray_removeall.htm
 tech.root: WmiSdk
 ms.assetid: 51de0ff1-e8e9-4484-80d6-51179ef82a51
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: "?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Management Instrumentation],RemoveAll method, CHPtrArray.RemoveAll, CHPtrArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,13 +52,13 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa384922(v=VS.85).aspx">CHPtrArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>RemoveAll</b> method removes all the <a href="https://msdn.microsoft.com/en-us/library/Aa384922(v=VS.85).aspx">CHPtrArray</a> members from this array.
+The <b>RemoveAll</b> method removes all the <a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a> members from this array.
 
 
 ## -parameters
@@ -91,11 +91,11 @@ The <b>RemoveAll</b> method does not return an error if the array is empty.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384922(v=VS.85).aspx">CHPtrArray</a>
+<a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa392773(v=VS.85).aspx">Provider Framework Utility Classes</a>
+<a href="https://msdn.microsoft.com/d2414a72-3435-4035-bcd9-b3ec87f5709c">Provider Framework Utility Classes</a>
  
 
  

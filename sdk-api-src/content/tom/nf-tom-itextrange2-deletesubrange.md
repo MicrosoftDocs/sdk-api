@@ -4,10 +4,10 @@ title: ITextRange2::DeleteSubrange
 author: windows-sdk-content
 description: Deletes a subrange from a range.
 old-location: controls\itextrange2_deletesubrange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: ad75725d-ad92-45fc-a0a9-3227bfb99284
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: DeleteSubrange, DeleteSubrange method [Windows Controls], DeleteSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],DeleteSubrange method, ITextRange2.DeleteSubrange, ITextRange2::DeleteSubrange, controls.itextrange2_deletesubrange, tom/ITextRange2::DeleteSubrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

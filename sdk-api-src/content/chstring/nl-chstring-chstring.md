@@ -7,7 +7,7 @@ old-location: wmi\chstring.htm
 tech.root: WmiSdk
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: "??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation],described, _hmm_chstring, chstring/CHString, wmi.chstring"
 ms.prod: windows
 ms.technology: windows-sdk

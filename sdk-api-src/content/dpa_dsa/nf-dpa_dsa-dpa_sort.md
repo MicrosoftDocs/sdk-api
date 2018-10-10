@@ -4,10 +4,10 @@ title: DPA_Sort function
 author: windows-sdk-content
 description: Sorts the items in a Dynamic Pointer Array (DPA).
 old-location: controls\DPA_Sort.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_sort.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: DPA_Sort, DPA_Sort function [Windows Controls], _win32_DPA_Sort, _win32_DPA_Sort_cpp, controls.DPA_Sort, controls._win32_DPA_Sort, dpa_dsa/DPA_Sort
 ms.prod: windows-hardware
 ms.technology: windows-devices

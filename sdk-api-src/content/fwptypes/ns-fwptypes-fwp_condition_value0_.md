@@ -4,10 +4,10 @@ title: FWP_CONDITION_VALUE0_
 author: windows-sdk-content
 description: Contains values that are used in filter conditions when testing for matching filters.
 old-location: fwp\fwp_condition_value0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: edc34005-dbc1-45a4-b6c7-fbb8b13fa388
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FWP_CONDITION_VALUE0, FWP_CONDITION_VALUE0 structure [Filtering], FWP_CONDITION_VALUE0_, fwp.fwp_condition_value0, fwptypes/FWP_CONDITION_VALUE0
 ms.prod: windows
 ms.technology: windows-sdk

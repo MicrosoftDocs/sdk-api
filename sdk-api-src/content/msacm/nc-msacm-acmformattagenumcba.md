@@ -7,7 +7,7 @@ old-location: multimedia\acmformattagenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 4ab42348-0fd2-418f-a2e6-db478d3a3e33
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ACMFORMATTAGENUMCB, ACMFORMATTAGENUMCB callback, ACMFORMATTAGENUMCB callback function [Windows Multimedia], ACMFORMATTAGENUMCBA, ACMFORMATTAGENUMCBW, _win32_acmFormatTagEnumCallback, acmFormatTagEnumCallback, msacm/ACMFORMATTAGENUMCB, msacm/ACMFORMATTAGENUMCBA, msacm/ACMFORMATTAGENUMCBW, multimedia.acmformattagenumcallback
 ms.prod: windows
 ms.technology: windows-sdk

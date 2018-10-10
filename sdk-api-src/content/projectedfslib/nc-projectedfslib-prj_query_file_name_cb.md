@@ -2,12 +2,12 @@
 UID: NC:projectedfslib.PRJ_QUERY_FILE_NAME_CB
 title: PRJ_QUERY_FILE_NAME_CB
 author: windows-sdk-content
-description: TBD.
+description: Determines whether a given file path exists in the provider's backing store.
 old-location: projfs\prj_query_file_name_cb.htm
 tech.root: ProjFS
 ms.assetid: 1B218D41-AF24-48C2-9E11-7E0455CE15AC
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PRJ_QUERY_FILE_NAME_CB, PRJ_QUERY_FILE_NAME_CB callback, PRJ_QUERY_FILE_NAME_CB callback function, ProjFS.prj_query_file_name_cb, projectedfslib/PRJ_QUERY_FILE_NAME_CB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,13 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - UserDefined
 api_location:
- -
+ - projectedfslib.h
 api_name:
- - PRJ_QUERY_FILE_NAME_CB callback
+ - PRJ_QUERY_FILE_NAME_CB
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Determines whether a given file path exists in the provider's backing store.
 
 
 ## -parameters
@@ -59,14 +60,24 @@ TBD
 
 ### -param callbackData [in]
 
-TBD
+Information about the operation.
 
 
 ## -returns
 
 
 
-TBD
+S_OK: The queried file path exists in the provider's store. 
+
+
+HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND): The queried file path does not exist in the provider's store. 
+
+
+HRESULT_FROM_WIN32(ERROR_IO_PENDING): 
+The provider wishes to complete the operation at a later time. 
+
+
+An appropriate HRESULT error code if the provider fails the operation.
 
 
 

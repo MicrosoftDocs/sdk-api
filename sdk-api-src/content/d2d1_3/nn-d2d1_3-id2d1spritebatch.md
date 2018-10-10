@@ -7,7 +7,7 @@ old-location: direct2d\id2d1spritebatch.htm
 tech.root: Direct2D
 ms.assetid: D33958D5-D31C-47DC-B172-CADB1F1B81AE
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ID2D1SpriteBatch, ID2D1SpriteBatch interface [Direct2D], ID2D1SpriteBatch interface [Direct2D],described, d2d1_3/ID2D1SpriteBatch, direct2d.id2d1spritebatch
 ms.prod: windows
 ms.technology: windows-sdk

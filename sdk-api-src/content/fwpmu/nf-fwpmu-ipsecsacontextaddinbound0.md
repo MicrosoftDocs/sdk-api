@@ -4,10 +4,10 @@ title: IPsecSaContextAddInbound0 function
 author: windows-sdk-content
 description: The IPsecSaContextAddInbound0 function adds an inbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddInbound0 is the specific implementation of IPsecSaContextAddInbound used in Windows Vista.
 old-location: fwp\ipsecsacontextaddinbound0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: e0798bcb-847d-481e-b9f0-b18c0bbad22c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IPsecSaContextAddInbound0, IPsecSaContextAddInbound0 function [Filtering], fwp.ipsecsacontextaddinbound0, fwpmu/IPsecSaContextAddInbound0
 ms.prod: windows-hardware
 ms.technology: windows-devices

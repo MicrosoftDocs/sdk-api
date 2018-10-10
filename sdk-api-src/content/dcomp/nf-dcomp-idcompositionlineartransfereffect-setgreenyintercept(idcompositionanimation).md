@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionLinearTransferEffect.SetGreenYIntercept(IDComposition
 title: IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the green channel.
-old-location: directcomp\idcompositionlineartransfereffect_setgreenyintercept.htm
+old-location: directcomp\idcompositionlineartransfereffect_setgreenyintercept_2.htm
 tech.root: directcomp
-ms.assetid: E6929FA8-39E2-447A-939E-7BAC7BD1FF70
+ms.assetid: 73631804-5749-4764-9335-42F04D6BCB62
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenYIntercept method, IDCompositionLinearTransferEffect.SetGreenYIntercept, IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetGreenYIntercept, IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation), SetGreenYIntercept, SetGreenYIntercept method [DirectComposition], SetGreenYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenYIntercept, directcomp.idcompositionlineartransfereffect_setgreenyintercept
+ms.date: 10/09/2018
+ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenYIntercept method, IDCompositionLinearTransferEffect.SetGreenYIntercept, IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetGreenYIntercept, IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation), SetGreenYIntercept, SetGreenYIntercept method [DirectComposition], SetGreenYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenYIntercept, directcomp.idcompositionlineartransfereffect_setgreenyintercept_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the Y-intercept of the linear function for the green channel.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - greenYIntercept [in]
-
-Type: <b>float</b>
-
-The Y-intercept of the linear function for the green channel.
+An animation that represents how the Y-intercept of the linear function for the green channel changes over time. This parameter must not be NULL.
 
 
 ## -returns

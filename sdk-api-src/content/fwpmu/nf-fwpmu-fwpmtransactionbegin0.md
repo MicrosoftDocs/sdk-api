@@ -4,10 +4,10 @@ title: FwpmTransactionBegin0 function
 author: windows-sdk-content
 description: Begins an explicit transaction within the current session.
 old-location: fwp\fwpmtransactionbegin0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 9eaf1101-7cf3-4eb2-9ca0-47108a5c80c7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FWPM_TXN_READ_ONLY, FwpmTransactionBegin0, FwpmTransactionBegin0 function [Filtering], fwp.fwpmtransactionbegin0_func, fwpmu/FwpmTransactionBegin0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,11 +170,15 @@ For a read-only transaction, the caller needs <a href="https://msdn.microsoft.co
 
 The following C++ example illustrates wrapping the <a href="https://msdn.microsoft.com/ca11187e-3a91-438f-9a7f-606da7c88f6d">FwpmFilterAdd0</a> function in an FWP transaction.
 
-
-```cpp
-#include <windows.h>
-#include <fwpmu.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;fwpmu.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Fwpuclnt.lib")
 
@@ -184,7 +188,7 @@ void main()
 
     FWPM_FILTER0      fwpFilter;
 
-    RtlZeroMemory(&fwpFilter, sizeof(FWPM_FILTER0));
+    RtlZeroMemory(&amp;fwpFilter, sizeof(FWPM_FILTER0));
     fwpFilter.layerKey = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4;
     fwpFilter.action.type = FWP_ACTION_BLOCK;
     fwpFilter.weight.type = FWP_EMPTY;
@@ -194,7 +198,7 @@ void main()
     DWORD fwpTxStatus = ERROR_SUCCESS;
 
     printf("Opening filter engine.\n");
-    result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &engineHandle);
+    result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &amp;engineHandle);
       if (result != ERROR_SUCCESS)
       {            
         printf("FwpmEngineOpen0 failed (%d).\n", result);
@@ -209,7 +213,7 @@ void main()
         return;
     }
 
-    result = FwpmFilterAdd0(engineHandle, &fwpFilter, NULL, NULL);
+    result = FwpmFilterAdd0(engineHandle, &amp;fwpFilter, NULL, NULL);
       if (result != ERROR_SUCCESS)
       {            
         printf("FwpmFilterAdd0 failed (%d).\n", result);
@@ -230,10 +234,10 @@ void main()
     return;
 }
 // ----------------------------------------------------------------------
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

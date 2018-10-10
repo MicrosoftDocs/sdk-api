@@ -62,7 +62,7 @@ Creates a DirectX Video Acceleration (DXVA) services object. Call this function 
 
 ### -param pDD
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface of a Direct3D device.
+A pointer to the <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface of a Direct3D device.
           
 
 

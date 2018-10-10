@@ -7,7 +7,7 @@ old-location: multimedia\acmformatenum.htm
 tech.root: Multimedia
 ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "_win32_acmFormatEnum, acmFormatEnum, acmFormatEnum function [Windows Multimedia], acmFormatEnumA, acmFormatEnumW, msacm/acmFormatEnum, msacm/acmFormatEnumA, msacm/acmFormatEnumW, multimedia.acmformatenum"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -217,9 +217,13 @@ This function will return MMSYSERR_NOERROR (zero) if no suitable ACM drivers are
 
 The following example shows how to enumerate formats that have the WAVE_FORMAT_MPEGLAYER3 format tag.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 MMRESULT EnumerateMP3Codecs()
 {
     DWORD cbMaxSize = 0;
@@ -230,7 +234,7 @@ MMRESULT EnumerateMP3Codecs()
     BYTE *pFormat = NULL;   // Caller allocated.
 
     // Find the largest format buffer needed.
-    result = acmMetrics(NULL, ACM_METRIC_MAX_SIZE_FORMAT, &cbMaxSize);
+    result = acmMetrics(NULL, ACM_METRIC_MAX_SIZE_FORMAT, &amp;cbMaxSize);
     if (result != MMSYSERR_NOERROR)
     {
         return result;
@@ -247,10 +251,10 @@ MMRESULT EnumerateMP3Codecs()
 
     // Ask for WAVE_FORMAT_MPEGLAYER3 formats.
     WAVEFORMATEX* pWaveFormat = (WAVEFORMATEX*)pFormat;
-    pWaveFormat->wFormatTag = WAVE_FORMAT_MPEGLAYER3;
+    pWaveFormat-&gt;wFormatTag = WAVE_FORMAT_MPEGLAYER3;
 
     // Set up the acmFormatDetails structure.
-    ZeroMemory(&acmFormatDetails, sizeof(acmFormatDetails));
+    ZeroMemory(&amp;acmFormatDetails, sizeof(acmFormatDetails));
     acmFormatDetails.cbStruct = sizeof(ACMFORMATDETAILS);
     acmFormatDetails.pwfx = pWaveFormat; 
     acmFormatDetails.cbwfx = cbMaxSize;
@@ -260,22 +264,26 @@ MMRESULT EnumerateMP3Codecs()
     // the pFormat buffer.
     acmFormatDetails.dwFormatTag = WAVE_FORMAT_MPEGLAYER3;
 
-    result = acmFormatEnum(NULL, &acmFormatDetails, acmFormatEnumCallback,
+    result = acmFormatEnum(NULL, &amp;acmFormatDetails, acmFormatEnumCallback,
         0, ACM_FORMATENUMF_WFORMATTAG);
 
     delete [] pFormat;
 
     return result;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next example shows the callback function for the previous example. The callback function is called once for each matching format or until the callback returns <b>FALSE</b>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL CALLBACK acmFormatEnumCallback(
   HACMDRIVERID       hadid,      
   LPACMFORMATDETAILS pafd,       
@@ -286,9 +294,9 @@ BOOL CALLBACK acmFormatEnumCallback(
     BOOL bContinue = TRUE;
     MPEGLAYER3WAVEFORMAT *pMP3WaveFormat = NULL;
 
-    if (pafd->pwfx->wFormatTag == WAVE_FORMAT_MPEGLAYER3)
+    if (pafd-&gt;pwfx-&gt;wFormatTag == WAVE_FORMAT_MPEGLAYER3)
     {
-        pMP3WaveFormat = (MPEGLAYER3WAVEFORMAT*)pafd->pwfx;
+        pMP3WaveFormat = (MPEGLAYER3WAVEFORMAT*)pafd-&gt;pwfx;
 
         // TODO: Examine the format. 
 
@@ -298,10 +306,10 @@ BOOL CALLBACK acmFormatEnumCallback(
 
     return bContinue;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

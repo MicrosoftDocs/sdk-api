@@ -7,7 +7,7 @@ old-location: etw\tdhsetdecodingparameter.htm
 tech.root: etw
 ms.assetid: 00a286f4-cf0f-46d5-a797-bb7494a68034
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: TdhSetDecodingParameter, TdhSetDecodingParameter function [ETW], etw.tdhsetdecodingparameter, tdh/TdhSetDecodingParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

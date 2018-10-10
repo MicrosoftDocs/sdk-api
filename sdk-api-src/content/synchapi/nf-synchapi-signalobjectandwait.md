@@ -7,7 +7,7 @@ old-location: base\signalobjectandwait.htm
 tech.root: Sync
 ms.assetid: 2b1ce22b-8edb-4685-99f4-4fc38eec202a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: SignalObjectAndWait, SignalObjectAndWait function, _win32_signalobjectandwait, base.signalobjectandwait, synchapi/SignalObjectAndWait
 ms.prod: windows-hardware
 ms.technology: windows-devices

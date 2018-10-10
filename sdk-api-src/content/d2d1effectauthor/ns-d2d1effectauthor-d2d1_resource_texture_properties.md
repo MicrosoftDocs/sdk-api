@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_resource_texture_properties.htm
 tech.root: Direct2D
 ms.assetid: 23a524a4-2226-497f-a20b-74cda924c429
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: D2D1_RESOURCE_TEXTURE_PROPERTIES, D2D1_RESOURCE_TEXTURE_PROPERTIES structure [Direct2D], d2d1effectauthor/D2D1_RESOURCE_TEXTURE_PROPERTIES, direct2d.d2d1_resource_texture_properties
 ms.prod: windows
 ms.technology: windows-sdk

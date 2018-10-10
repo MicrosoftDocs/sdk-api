@@ -4,10 +4,10 @@ title: TreeView_SetAutoScrollInfo macro
 author: windows-sdk-content
 description: Sets information used to determine auto-scroll characteristics. Use this macro or send the TVM_SETAUTOSCROLLINFO message explicitly.
 old-location: controls\TreeView_SetAutoScrollInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setautoscrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: TreeView_SetAutoScrollInfo, TreeView_SetAutoScrollInfo macro [Windows Controls], _shell_TreeView_SetAutoScrollInfo, _shell_TreeView_SetAutoScrollInfo_cpp, commctrl/TreeView_SetAutoScrollInfo, controls.TreeView_SetAutoScrollInfo, controls._shell_TreeView_SetAutoScrollInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets information used to determine auto-scroll characteristics. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773738(v=VS.85).aspx">TVM_SETAUTOSCROLLINFO</a> message explicitly.
+Sets information used to determine auto-scroll characteristics. Use this macro or send the <a href="https://msdn.microsoft.com/de55933f-1caa-4193-84de-0486c41e8f1f">TVM_SETAUTOSCROLLINFO</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ Specifies the redraw time interval. Redraw at every elasped interval, until the 
 
 
 
-Autoscroll information is used to scroll a nonvisible item into view. The control must have the <a href="https://msdn.microsoft.com/en-us/library/Bb759981(v=VS.85).aspx">TVS_EX_AUTOHSCROLL</a> extended style. For information on extended styles, see Tree-View Control Extended Styles.
+Autoscroll information is used to scroll a nonvisible item into view. The control must have the <a href="Tree_View_Control_Window_Extended_Styles.htm">TVS_EX_AUTOHSCROLL</a> extended style. For information on extended styles, see Tree-View Control Extended Styles.
 
 
 

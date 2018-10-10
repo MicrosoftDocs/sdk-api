@@ -3,12 +3,12 @@ UID: NF:d2d1_1helper.Matrix4x4F.ReinterpretBaseType(const D2D1_MATRIX_4X4_F)
 title: Matrix4x4F::ReinterpretBaseType(const D2D1_MATRIX_4X4_F)
 author: windows-sdk-content
 description: Converts the specified D2D1_MATRIX_4X4_F matrix to a Matrix4x4F without making a copy.
-old-location: direct2d\matrix4x4f_reinterpretbasetype.htm
+old-location: direct2d\matrix4x4f_reinterpretbasetype_const_d2d1_matrix_4x4_f__pmatrix_.htm
 tech.root: Direct2D
-ms.assetid: 379F9F01-EE5E-438B-BD0A-F0EB6B92E28F
+ms.assetid: 204EF85B-BDD4-4A54-96DB-39421F36A75C
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: Matrix4x4F interface [Direct2D],ReinterpretBaseType method, Matrix4x4F.ReinterpretBaseType, Matrix4x4F.ReinterpretBaseType(const D2D1_MATRIX_4X4_F), Matrix4x4F::ReinterpretBaseType, Matrix4x4F::ReinterpretBaseType(const D2D1_MATRIX_4X4_F), ReinterpretBaseType, ReinterpretBaseType method [Direct2D], ReinterpretBaseType method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::ReinterpretBaseType, direct2d.matrix4x4f_reinterpretbasetype
+ms.date: 10/09/2018
+ms.keywords: Matrix4x4F interface [Direct2D],ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix) method, Matrix4x4F.ReinterpretBaseType, Matrix4x4F.ReinterpretBaseType(const D2D1_MATRIX_4X4_F), Matrix4x4F::ReinterpretBaseType, Matrix4x4F::ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix), Matrix4x4F::ReinterpretBaseType(const D2D1_MATRIX_4X4_F), ReinterpretBaseType, ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix) method [Direct2D], ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix) method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix), direct2d.matrix4x4f_reinterpretbasetype_const_d2d1_matrix_4x4_f__pmatrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d2d1_1helper.h
 api_name:
- - Matrix4x4F.ReinterpretBaseType
+ - Matrix4x4F.ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix)
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -60,7 +60,7 @@ Converts the specified <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-95
 
 ### -param pMatrix
 
-Type: <b><a href="https://msdn.microsoft.com/204EF85B-BDD4-4A54-96DB-39421F36A75C">D2D1_MATRIX_4X4_F</a>*</b>
+Type: <b>const <b>D2D1_MATRIX_4X4_F</b></b>
 
 The matrix to convert.
 

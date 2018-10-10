@@ -4,10 +4,10 @@ title: DSA_DeleteAllItems function
 author: windows-sdk-content
 description: Deletes all items from a dynamic structure array (DSA).
 old-location: controls\DSA_DeleteAllItems.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_deleteallitems.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: DSA_DeleteAllItems, DSA_DeleteAllItems function [Windows Controls], _shell_DSA_DeleteAllItems, _shell_DSA_DeleteAllItems_cpp, controls.DSA_DeleteAllItems, controls._shell_DSA_DeleteAllItems, dpa_dsa/DSA_DeleteAllItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

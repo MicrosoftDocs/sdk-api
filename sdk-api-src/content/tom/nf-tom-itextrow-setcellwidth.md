@@ -4,10 +4,10 @@ title: ITextRow::SetCellWidth
 author: windows-sdk-content
 description: Sets the active cell width in twips.
 old-location: controls\itextrow_setcellwidth.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 321c5255-9cd5-46ea-a592-165d288bc452
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellWidth method, ITextRow.SetCellWidth, ITextRow::SetCellWidth, SetCellWidth, SetCellWidth method [Windows Controls], SetCellWidth method [Windows Controls],ITextRow interface, controls.itextrow_setcellwidth, tom/ITextRow::SetCellWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FwpmCalloutSetSecurityInfoByKey0 function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a callout object.
 old-location: fwp\fwpmcalloutsetsecurityinfobykey0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: c85b3eb1-29c8-47f1-9d68-8e65e06b5492
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FwpmCalloutSetSecurityInfoByKey0, FwpmCalloutSetSecurityInfoByKey0 function [Filtering], fwp.fwpmcalloutsetsecurityinfobykey0_func, fwpmu/FwpmCalloutSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FWP_BYTE_ARRAY16_
 author: windows-sdk-content
 description: Stores an array of exactly 16 bytes.
 old-location: fwp\fwp_byte_array16_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 254ee02f-747d-46e4-9851-141db57e1aa7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FWP_BYTE_ARRAY16, FWP_BYTE_ARRAY16 structure [Filtering], FWP_BYTE_ARRAY16_, fwp.fwp_byte_array16_struct, fwptypes/FWP_BYTE_ARRAY16
 ms.prod: windows
 ms.technology: windows-sdk

@@ -110,11 +110,15 @@ To find the localized name of a store, you can also use the <a href="https://msd
 
 The following example  shows querying a store for its local name property. Similar code can be used to retrieve other store properties. For a complete example that uses this function, see <a href="https://msdn.microsoft.com/9fb368c9-a0d7-4c5f-9a38-7ef8f7283354">Example C Program: Setting and Getting Certificate Store Properties</a>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
 
 
 //--------------------------------------------------------------------
@@ -133,7 +137,7 @@ if(CertGetStoreProperty(
     NULL,     // NULL on the first call  
               // to establish the length of the string
               // to be returned
-    &cbData))
+    &amp;cbData))
 {
      printf("The length of the property is %d. \n",cbData);
 }
@@ -163,7 +167,7 @@ if(CertGetStoreProperty(
     hCertStore,
     CERT_STORE_LOCALIZED_NAME_PROP_ID,
     pvData,
-    &cbData))
+    &amp;cbData))
 {
      printf("The localized name is %S.\n",pvData);
 }
@@ -176,10 +180,10 @@ else
 // Free memory when done.
 if (pvData)
     free(pvData);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -192,7 +196,7 @@ if (pvData)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

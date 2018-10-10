@@ -4,10 +4,10 @@ title: IPSEC_KEYMODULE_STATE0_
 author: windows-sdk-content
 description: Stores Internet Protocol Security (IPsec) keying module specific information.
 old-location: fwp\ipsec_keymodule_state0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 5df02d3b-c61a-4c4b-a9ef-182c97a35f41
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IPSEC_KEYMODULE_STATE0, IPSEC_KEYMODULE_STATE0 structure [Filtering], IPSEC_KEYMODULE_STATE0_, fwp.ipsec_keymodule_state0_struct, ipsectypes/IPSEC_KEYMODULE_STATE0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -143,9 +143,13 @@ To set the window region of a window, call the <a href="https://msdn.microsoft.c
 
 The following code shows how you pass in the handle of an existing region.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRGN hrgn = CreateRectRgn(0,0,0,0);
 int regionType = GetWindowRgn(hwnd, hrgn);
 if (regionType != ERROR) 
@@ -153,10 +157,10 @@ if (regionType != ERROR)
 /* hrgn contains window region */ 
 }
 DeleteObject(hrgn); /* finished with region */
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -3,12 +3,12 @@ UID: NF:d2d1_3.ID2D1ImageSourceFromWic.EnsureCached(const D2D1_RECT_U &)
 title: ID2D1ImageSourceFromWic::EnsureCached(const D2D1_RECT_U &)
 author: windows-sdk-content
 description: Ensures that a specified region of the image source cache is populated.
-old-location: direct2d\id2d1imagesourcefromwic_ensurecached.htm
+old-location: direct2d\id2d1imagesourcefromwic_ensurecached_2.htm
 tech.root: Direct2D
-ms.assetid: 3FF4E140-8318-4306-97EC-22BCCF69AD6E
+ms.assetid: 3829C754-EB3E-4B16-B099-DBAC898D11F0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: EnsureCached, EnsureCached method [Direct2D], EnsureCached method [Direct2D],ID2D1ImageSourceFromWic interface, ID2D1ImageSourceFromWic interface [Direct2D],EnsureCached method, ID2D1ImageSourceFromWic.EnsureCached, ID2D1ImageSourceFromWic.EnsureCached(const D2D1_RECT_U &), ID2D1ImageSourceFromWic::EnsureCached, ID2D1ImageSourceFromWic::EnsureCached(const D2D1_RECT_U &), d2d1_3/ID2D1ImageSourceFromWic::EnsureCached, direct2d.id2d1imagesourcefromwic_ensurecached
+ms.date: 10/09/2018
+ms.keywords: EnsureCached, EnsureCached method [Direct2D], EnsureCached method [Direct2D],ID2D1ImageSourceFromWic interface, ID2D1ImageSourceFromWic interface [Direct2D],EnsureCached method, ID2D1ImageSourceFromWic.EnsureCached, ID2D1ImageSourceFromWic.EnsureCached(const D2D1_RECT_U &), ID2D1ImageSourceFromWic::EnsureCached, ID2D1ImageSourceFromWic::EnsureCached(const D2D1_RECT_U &), d2d1_3/ID2D1ImageSourceFromWic::EnsureCached, direct2d.id2d1imagesourcefromwic_ensurecached_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -61,9 +61,9 @@ Ensures that a specified region of the image source cache is populated.
 
 
 
-### -param rectangleToFill [in, optional]
+### -param rectangleToFill [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8607d194-cb0b-431a-926a-e56b946e49ff">D2D1_RECT_U</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/8607d194-cb0b-431a-926a-e56b946e49ff">D2D1_RECT_U</a></b>
 
 Specifies the region of the image, in pixels, that should be populated in the cache. By default, this is the entire extent of the image.
 
@@ -88,7 +88,7 @@ This API loads image data into caches of image sources, if that data was not alr
 
 The provided region must be constructed to include the scale with which the image source will subsequently be drawn.  
       These coordinates must be provided in local coordinates.  
-      This means that they must be adjusted prior to calling the API according to the DPI and other relevant transforms, 
+      This means that they must be adjusted prior to calling the API according to the DPI and other relevant transforms,
       which can include the world transform and brush transforms.
 
 This operation is only supported when the image source has been initialized using the D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND option.

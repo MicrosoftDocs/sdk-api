@@ -4,10 +4,10 @@ title: IImageList2::GetStatistics
 author: windows-sdk-content
 description: Gets an image list statistics structure.
 old-location: controls\IImageList2_GetStatistics.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getstatistics.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetStatistics, GetStatistics method [Windows Controls], GetStatistics method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetStatistics method, IImageList2.GetStatistics, IImageList2::GetStatistics, _shell_IImageList2_GetStatistics, _shell_IImageList2_GetStatistics_cpp, commoncontrols/IImageList2::GetStatistics, controls.IImageList2_GetStatistics, controls._shell_IImageList2_GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Gets an image list statistics structure.
 
 ### -param pils [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761397(v=VS.85).aspx">IMAGELISTSTATS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/EF2D2A36-283E-475E-B635-AE7E5423A674">IMAGELISTSTATS</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761397(v=VS.85).aspx">IMAGELISTSTATS</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/EF2D2A36-283E-475E-B635-AE7E5423A674">IMAGELISTSTATS</a> structure.
 
 
 ## -returns

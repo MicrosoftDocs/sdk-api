@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient1(IDCompositi
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient1(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the first coefficient for the equation used to composite the two input images.
-old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1.htm
+old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1_2.htm
 tech.root: directcomp
-ms.assetid: 060B4349-6143-4C97-A433-A1073F82A257
+ms.assetid: 475F112E-5A00-47C1-97F9-E2BB2CBD10D2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient1 method, IDCompositionArithmeticCompositeEffect.SetCoefficient1, IDCompositionArithmeticCompositeEffect.SetCoefficient1(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient1, IDCompositionArithmeticCompositeEffect::SetCoefficient1(IDCompositionAnimation), SetCoefficient1, SetCoefficient1 method [DirectComposition], SetCoefficient1 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient1, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1
+ms.date: 10/09/2018
+ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient1 method, IDCompositionArithmeticCompositeEffect.SetCoefficient1, IDCompositionArithmeticCompositeEffect.SetCoefficient1(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient1, IDCompositionArithmeticCompositeEffect::SetCoefficient1(IDCompositionAnimation), SetCoefficient1, SetCoefficient1 method [DirectComposition], SetCoefficient1 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient1, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the first coefficient for the equation used to composite the two input imag
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - Coeffcient1 [in]
-
-Type: <b>float</b>
-
-Specifies the first coefficient for the equation used to composite the two input images.
+An animation that represents how the value changes over time. This parameter must not be NULL.
 
 
 ## -returns

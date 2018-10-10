@@ -3,12 +3,12 @@ UID: NF:d2d1_3.ID2D1DeviceContext2.CreateInk(const D2D1_INK_POINT,ID2D1Ink)
 title: ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT,ID2D1Ink)
 author: windows-sdk-content
 description: Creates a new ID2D1Ink object that starts at the given point.
-old-location: direct2d\id2d1devicecontext2_createink.htm
+old-location: direct2d\id2d1devicecontext2_createink2.htm
 tech.root: Direct2D
-ms.assetid: 3079f5d4-3b7d-c3dd-86cd-cca40674bf49
+ms.assetid: c98ecb40-1039-a9fa-9596-0d42719a1cc7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: CreateInk, CreateInk method [Direct2D], CreateInk method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateInk method, ID2D1DeviceContext2.CreateInk, ID2D1DeviceContext2.CreateInk(const D2D1_INK_POINT,ID2D1Ink), ID2D1DeviceContext2::CreateInk, ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT,ID2D1Ink), d2d1_3/ID2D1DeviceContext2::CreateInk, direct2d.id2d1devicecontext2_createink
+ms.date: 10/09/2018
+ms.keywords: CreateInk, CreateInk method [Direct2D], CreateInk method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateInk method, ID2D1DeviceContext2.CreateInk, ID2D1DeviceContext2.CreateInk(const D2D1_INK_POINT,ID2D1Ink), ID2D1DeviceContext2::CreateInk, ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT,ID2D1Ink), d2d1_3/ID2D1DeviceContext2::CreateInk, direct2d.id2d1devicecontext2_createink2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,9 +58,9 @@ Creates a new <a href="https://msdn.microsoft.com/4B6DD4C2-8E91-4AEA-AFB5-21B4FD
 
 
 
-### -param startPoint [ref]
+### -param startPoint
 
-Type: <b>const <a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a>*</b>
 
 The starting point of the first segment of the first stroke in the new ink object.
 

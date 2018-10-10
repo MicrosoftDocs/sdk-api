@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This GUID applies to both logon and credential UI.
 
-This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://msdn.microsoft.com/en-us/library/Hh706931(v=VS.85).aspx">ICredentialProviderUser::GetValue</a>.
+This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">ICredentialProviderUser::GetValue</a>.
 
 
 
@@ -88,11 +88,11 @@ This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706922(v=VS.85).aspx">ICredentialProviderUser</a>
+<a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706931(v=VS.85).aspx">ICredentialProviderUser::GetValue</a>
+<a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">ICredentialProviderUser::GetValue</a>
  
 
  

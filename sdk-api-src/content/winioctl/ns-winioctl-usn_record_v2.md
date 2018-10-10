@@ -80,15 +80,19 @@ The size in bytes of any change
        <a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a> function. In C, you can 
        determine a record size by using the following code example.
 
-
-```cpp
-  MaximumChangeJournalRecordSize = 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>  MaximumChangeJournalRecordSize = 
       ( MaximumComponentLength * sizeof(WCHAR) 
         + sizeof(USN_RECORD)   - sizeof(WCHAR) );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To maintain compatibility across version changes of the change journal software, use a run-time calculation 
        to determine the size of the <b>USN_RECORD_V2</b> structure. For 
        more information about compatibility across version changes, see the Remarks section in this topic.

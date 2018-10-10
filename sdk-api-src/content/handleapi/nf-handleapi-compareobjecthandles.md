@@ -4,10 +4,10 @@ title: CompareObjectHandles function
 author: windows-sdk-content
 description: Compares two object handles to determine if they refer to the same underlying kernel object.
 old-location: base\compareobjecthandles.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 06F22A46-0999-4622-8D62-23465C92A997
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareobjecthandles, handleapi/CompareObjectHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

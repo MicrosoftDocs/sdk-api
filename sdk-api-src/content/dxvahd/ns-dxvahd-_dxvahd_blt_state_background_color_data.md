@@ -83,28 +83,32 @@ The default background color is full-range RGB black, with opaque alpha.
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetBackgroundColor(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetBackgroundColor(
     IDXVAHD_VideoProcessor *pVP,
     BOOL bYCbCr,
-    const DXVAHD_COLOR& color
+    const DXVAHD_COLOR&amp; color
     )
 {
     DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA data = { bYCbCr, color };
 
-    HRESULT hr = pVP->SetVideoProcessBltState(
+    HRESULT hr = pVP-&gt;SetVideoProcessBltState(
         DXVAHD_BLT_STATE_BACKGROUND_COLOR,
         sizeof (data),
-        &data
+        &amp;data
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

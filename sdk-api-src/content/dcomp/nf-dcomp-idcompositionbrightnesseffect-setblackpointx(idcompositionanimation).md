@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointX(IDCompositionAnimatio
 title: IDCompositionBrightnessEffect::SetBlackPointX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the x value of the black point.
-old-location: directcomp\idcompositionbrightnesseffect_setblackpointx.htm
+old-location: directcomp\idcompositionbrightnesseffect_setblackpointx_2.htm
 tech.root: directcomp
-ms.assetid: 983AF3B1-628D-4E4C-99C2-C590457F7B8A
+ms.assetid: E575DB19-9C28-4C4F-9339-16F562542D32
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointX method, IDCompositionBrightnessEffect.SetBlackPointX, IDCompositionBrightnessEffect.SetBlackPointX(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX(IDCompositionAnimation), SetBlackPointX, SetBlackPointX method [DirectComposition], SetBlackPointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx
+ms.date: 10/09/2018
+ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointX method, IDCompositionBrightnessEffect.SetBlackPointX, IDCompositionBrightnessEffect.SetBlackPointX(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX(IDCompositionAnimation), SetBlackPointX, SetBlackPointX method [DirectComposition], SetBlackPointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the x value of the black point.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - blackPointX [in]
-
-Type: <b>float</b>
-
-The x value of the black point.
+An animation that represents how the x value of the black point changes over time. This parameter must not be NULL.
 
 
 ## -returns

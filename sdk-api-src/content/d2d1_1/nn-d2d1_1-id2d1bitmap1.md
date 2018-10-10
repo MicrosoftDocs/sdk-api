@@ -7,7 +7,7 @@ old-location: direct2d\id2d1bitmap1.htm
 tech.root: Direct2D
 ms.assetid: 669a9377-248c-4a86-b447-ed117fff43a6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ID2D1Bitmap1, ID2D1Bitmap1 interface [Direct2D], ID2D1Bitmap1 interface [Direct2D],described, d2d1_1/ID2D1Bitmap1, direct2d.id2d1bitmap1
 ms.prod: windows
 ms.technology: windows-sdk

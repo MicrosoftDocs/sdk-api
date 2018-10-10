@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionscaletransform_setscaley_float.htm
 tech.root: directcomp
 ms.assetid: D47D6FA3-D5D2-47BD-8DE0-6E0EE08EE7C4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform.SetScaleY, IDCompositionScaleTransform.SetScaleY(float), IDCompositionScaleTransform::SetScaleY, IDCompositionScaleTransform::SetScaleY(float), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetScaleY, directcomp.idcompositionscaletransform_setscaley_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

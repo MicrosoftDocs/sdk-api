@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjDoesNameContainWildCards
 title: PrjDoesNameContainWildCards function
 author: windows-sdk-content
-description: TBD.
+description: Determines whether a name contains wildcard characters.
 old-location: projfs\prjdoesnamecontainwildcards.htm
 tech.root: ProjFS
 ms.assetid: AE1896D4-0DFB-477F-ADD8-C6C14DAD27CD
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjDoesNameContainWildCards, PrjDoesNameContainWildCards function, ProjFS.prjdoesnamecontainwildcards, projectedfslib/PrjDoesNameContainWildCards
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjDoesNameContainWildCards
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Determines whether a name contains wildcard characters.
 
 
 ## -parameters
@@ -59,14 +60,14 @@ TBD
 
 ### -param fileName [in]
 
-TBD
+A null-terminated Unicode string to check for wildcard characters.
 
 
 ## -returns
 
 
 
-TBD
+True if fileName contains wildcards, False otherwise.
 
 
 

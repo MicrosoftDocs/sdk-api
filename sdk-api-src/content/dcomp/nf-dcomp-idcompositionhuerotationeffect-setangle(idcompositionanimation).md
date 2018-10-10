@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation)
 title: IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the angle to rotate the hue.
-old-location: directcomp\idcompositionhuerotationeffect_setangle.htm
+old-location: directcomp\idcompositionhuerotationeffect_setangle_2.htm
 tech.root: directcomp
-ms.assetid: BA98A918-EE51-40C7-9392-D5E0D78580F8
+ms.assetid: F0D73D46-D649-47F3-B1F1-FD995228A3EC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionHueRotationEffect interface [DirectComposition],SetAngle method, IDCompositionHueRotationEffect.SetAngle, IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation), IDCompositionHueRotationEffect::SetAngle, IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionHueRotationEffect interface, dcomp/IDCompositionHueRotationEffect::SetAngle, directcomp.idcompositionhuerotationeffect_setangle
+ms.date: 10/09/2018
+ms.keywords: IDCompositionHueRotationEffect interface [DirectComposition],SetAngle method, IDCompositionHueRotationEffect.SetAngle, IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation), IDCompositionHueRotationEffect::SetAngle, IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionHueRotationEffect interface, dcomp/IDCompositionHueRotationEffect::SetAngle, directcomp.idcompositionhuerotationeffect_setangle_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,21 +58,17 @@ Sets the angle to rotate the hue.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - amountDegrees [in]
-
-Type: <b>float</b>
-
-The angle to rotate the hue. The effect calculates a color matrix based on the rotation angle (θ) according to the following matrix equations:
+An animation that represents how the angle value changes over time. 
+          The effect calculates a color matrix based on the rotation angle (θ) according to the following matrix equations:
           
 
 <img alt="Matrix equation" src="images/hue_formula.png"/>
+This parameter must not be NULL.
+
 
 ## -returns
 

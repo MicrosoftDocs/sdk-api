@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgstrokedasharray.htm
 tech.root: Direct2D
 ms.assetid: D3C82EC8-4172-48FE-AE8C-5F15BDBBCD30
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ID2D1SvgStrokeDashArray, ID2D1SvgStrokeDashArray interface [Direct2D], ID2D1SvgStrokeDashArray interface [Direct2D],described, d2d1svg/ID2D1SvgStrokeDashArray, direct2d.id2d1svgstrokedasharray
 ms.prod: windows
 ms.technology: windows-sdk

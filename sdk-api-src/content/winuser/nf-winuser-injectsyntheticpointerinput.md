@@ -7,7 +7,7 @@ old-location: input_pointerdevice\injectsyntheticpointerinput.htm
 tech.root: Input_PointerDevice
 ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - DllExport
 api_location:
- -
+ - User32.dll
 api_name:
  - InjectSyntheticPointerInput
 product: Windows
@@ -69,17 +70,17 @@ Array of injected pointers.
 The type must match the <i>pointerType</i> parameter of the <a href="input_pointerdevice.createsyntheticpointerdevice">CreateSyntheticPointerDevice</a> call that created the injection device. 
 
 
-For <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a> this must be one of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_DEFAULT</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_INDIRECT</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_NONE</a>. For more information about touch feedback settings, see <a href="https://docs.microsoft.com/windows/desktop/api/_input_touchinjection/">InitializeTouchInjection</a>. 
-
-
-For <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_PEN</a> this must be one of <a href="input_pointerdevice.pointer_feedback_mode">PEN_FEEDBACK_DEFAULT</a>, <b>PEN_FEEDBACK_INDIRECT</b>, or <b>PEN_FEEDBACK_NONE</b>.
-
 The ptPixelLocation for each POINTER_TYPE_INFO is specified relative to top left of the virtual screen:
 
 
 ### -param count [in]
 
-TBD
+The number of contacts. 
+
+
+For <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a> this value must be greater than 0 and less than or equal to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">MAX_TOUCH_COUNT</a>. 
+
+For <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_PEN</a> this value must be 1.
 
 
 ## -returns

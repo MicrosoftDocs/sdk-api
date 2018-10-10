@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRotateTransform.SetCenterY(IDCompositionAnimation)
 title: IDCompositionRotateTransform::SetCenterY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the CenterY property of a 2D rotation transform.
-old-location: directcomp\idcompositionrotatetransform_setcentery_float.htm
+description: Animates the value of the CenterY property of a 2D rotation transform.
+old-location: directcomp\idcompositionrotatetransform_setcentery_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 7D4EF6C3-A0BA-42C4-841C-A40EEF5122F5
+ms.assetid: AD53EEF7-4DCE-4B6D-9A72-010033958155
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform.SetCenterY, IDCompositionRotateTransform.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterY, IDCompositionRotateTransform::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetCenterY, directcomp.idcompositionrotatetransform_setcentery_float
+ms.date: 10/09/2018
+ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform.SetCenterY, IDCompositionRotateTransform.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterY, IDCompositionRotateTransform::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetCenterY, directcomp.idcompositionrotatetransform_setcentery_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the CenterY property of a 2D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed.
+Animates the value of the CenterY property of a 2D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the CenterY property of a 2D rotation transform. The Center
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - centerY [in]
-
-Type: <b>float</b>
-
-The new y-coordinate of the center point.
+An animation object that determines how the value of the CenterY property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>centerY</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the CenterY property unless this method is called again. If the CenterY property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the CenterY property was previously animated, this method removes the animation and sets the CenterY property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

@@ -4,10 +4,10 @@ title: ITextPara2::SetTrimPunctuationAtStart
 author: windows-sdk-content
 description: Sets whether to trim the leading space of a punctuation symbol at the start of a line.
 old-location: controls\itextpara2_settrimpunctuationatstart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f08f67ca-5767-4986-8af1-b3a11a1065aa
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetTrimPunctuationAtStart method, ITextPara2.SetTrimPunctuationAtStart, ITextPara2::SetTrimPunctuationAtStart, SetTrimPunctuationAtStart, SetTrimPunctuationAtStart method [Windows Controls], SetTrimPunctuationAtStart method [Windows Controls],ITextPara2 interface, controls.itextpara2_settrimpunctuationatstart, tom/ITextPara2::SetTrimPunctuationAtStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Sets whether to trim the leading space of a punctuation symbol at the start of a
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> that indicates whether to trim the leading space of a punctuation symbol. It can be one of the following values.
+A <a href="About_Text_Object_Model.htm">tomBool</a> that indicates whether to trim the leading space of a punctuation symbol. It can be one of the following values.
 
 <table class="clsStd">
 <tr>

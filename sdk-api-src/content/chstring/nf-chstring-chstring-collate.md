@@ -7,7 +7,7 @@ old-location: wmi\chstring_collate.htm
 tech.root: WmiSdk
 ms.assetid: b6c88b83-a369-4cb2-9297-df9c5911d08f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],Collate method, CHString.Collate, CHString::Collate, Collate, Collate method [Windows Management Instrumentation], Collate method [Windows Management Instrumentation],CHString interface, _hmm_chstring_collate, chstring/CHString::Collate, wmi.chstring_collate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,23 +90,27 @@ The <b>Collate</b> method performs a case-sensitive comparison of the strings ac
 
 The following code example shows how to use <b>CHString::Collate</b>:
 
-
-```cpp
-CHString str1 = L"co-op";
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString str1 = L"co-op";
 CHString str2 = L"con";
 
 int n;
 
 // collation uses language rules, such as ignoring dashes
 n = str1.Collate(str2);
-assert(n > 0);
+assert(n &gt; 0);
 
 // comparison is a strict ASCII comparison with no language rules
 n = str1.Compare(str2);
-assert(n < 0);
-```
-
-
+assert(n &lt; 0);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

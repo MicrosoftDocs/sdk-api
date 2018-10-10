@@ -7,7 +7,7 @@ old-location: direct2d\vector4f.htm
 tech.root: Direct2D
 ms.assetid: 0664EEFB-E3F7-4393-A595-D2BEF74E0492
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: Vector4F, Vector4F function [Direct2D], d2d1_1helper/Vector4F, direct2d.vector4f
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>SignatureInformation</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a> object that contains information about the primary signature used to sign the certificate request. This property is web enabled.
+The <b>SignatureInformation</b> property retrieves the <a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a> object that contains information about the primary signature used to sign the certificate request. This property is web enabled.
 
 This property is read-only.
 
@@ -63,38 +63,38 @@ This property is read-only.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a> object contains information about the hash, public key and signature algorithms used for the primary signature that signs the certificate request. A CMC request can have a primary signature plus zero or more certificate-based signatures. Certificate-based signatures can be included in a request if, for example, one or more additional parties must vouch for the identity of the entity requesting the new certificate. You can call the <a href="https://msdn.microsoft.com/en-us/library/Aa377486(v=VS.85).aspx">SignerCertificates</a> property to retrieve a collection of these additional certificate-based signatures.
+The <a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a> object contains information about the hash, public key and signature algorithms used for the primary signature that signs the certificate request. A CMC request can have a primary signature plus zero or more certificate-based signatures. Certificate-based signatures can be included in a request if, for example, one or more additional parties must vouch for the identity of the entity requesting the new certificate. You can call the <a href="https://msdn.microsoft.com/0b963fe2-32bd-4f99-9d4f-b17cb2d65909">SignerCertificates</a> property to retrieve a collection of these additional certificate-based signatures.
 
 The primary signature is typically created by using the private key that matches the public key in the inner PKCS #10 request object. Because the private key is usually created to enroll a new request in a certificate hierarchy, the primary signature is not certificate-based, and you must call the <b>SignatureInformation</b> property to retrieve it.
 
- If the <a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a> object does not exist when the <b>SignatureInformation</b> property is called or creation of the signature was deferred during initialization, this property:<ul>
+ If the <a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a> object does not exist when the <b>SignatureInformation</b> property is called or creation of the signature was deferred during initialization, this property:<ul>
 <li>Retrieves the innermost PKCS #10 request object.</li>
 <li>Retrieves and duplicates the signature information from the inner request.</li>
-<li>Attempts to retrieve the private key associated with the inner PKCS #10 and sets the <a href="https://msdn.microsoft.com/en-us/library/Aa377283(v=VS.85).aspx">NullSigned</a> property if no private key can be found.</li>
-<li>Retrieves the hash algorithm, if one is specified, from the template associated with the inner request and sets the <a href="https://msdn.microsoft.com/en-us/library/Aa379054(v=VS.85).aspx">HashAlgorithm</a> property.</li>
-<li>Retrieves the asymmetric algorithm, if one is specified, from the private key associated with the inner request and sets the <a href="https://msdn.microsoft.com/en-us/library/Aa379059(v=VS.85).aspx">PublicKeyAlgorithm</a> property.</li>
-<li>Retrieves the private key flags from the template and sets the <a href="https://msdn.microsoft.com/en-us/library/Aa965846(v=VS.85).aspx">AlternateSignatureAlgorithm</a> if appropriate </li>
+<li>Attempts to retrieve the private key associated with the inner PKCS #10 and sets the <a href="https://msdn.microsoft.com/99cefeed-caec-401e-bdcd-d167472b2cbd">NullSigned</a> property if no private key can be found.</li>
+<li>Retrieves the hash algorithm, if one is specified, from the template associated with the inner request and sets the <a href="https://msdn.microsoft.com/b5242975-50e5-49d6-be1f-3a09ada03593">HashAlgorithm</a> property.</li>
+<li>Retrieves the asymmetric algorithm, if one is specified, from the private key associated with the inner request and sets the <a href="https://msdn.microsoft.com/f964328f-15a6-4d8e-a2cf-73c8d74995e8">PublicKeyAlgorithm</a> property.</li>
+<li>Retrieves the private key flags from the template and sets the <a href="https://msdn.microsoft.com/e62ecdf1-56d8-4707-8e5d-deef4d79a34c">AlternateSignatureAlgorithm</a> if appropriate </li>
 </ul>
 
 
 You must initialize the CMC request object before calling this property. For more information, see the following topics:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377669(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/be0e2cda-5481-49ab-9a12-6dc52981fd24">Initialize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377610(v=VS.85).aspx">InitializeDecode</a>
+<a href="https://msdn.microsoft.com/40084cb0-eb48-485d-aa45-8ddb577f2d4f">InitializeDecode</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377613(v=VS.85).aspx">InitializeFromCertificate</a>
+<a href="https://msdn.microsoft.com/7500b714-4608-4da6-85ad-20cea30853cc">InitializeFromCertificate</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377616(v=VS.85).aspx">InitializeFromInnerRequest</a>
+<a href="https://msdn.microsoft.com/b63bfaaa-a8af-4c72-a191-447230adae72">InitializeFromInnerRequest</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377257(v=VS.85).aspx">InitializeFromInnerRequestTemplateName</a>
+<a href="https://msdn.microsoft.com/abf7617e-1194-4303-a214-23fbaf20eccf">InitializeFromInnerRequestTemplateName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377622(v=VS.85).aspx">InitializeFromTemplateName</a>
+<a href="https://msdn.microsoft.com/d6c15fcb-1883-4d87-af29-721102676535">InitializeFromTemplateName</a>
 </li>
 </ul>
 
@@ -107,11 +107,11 @@ You must initialize the CMC request object before calling this property. For mor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377133(v=VS.85).aspx">IX509CertificateRequestCmc</a>
+<a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377505(v=VS.85).aspx">IX509CertificateRequestPkcs10</a>
+<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_colormanagement_prop.htm
 tech.root: Direct2D
 ms.assetid: 1003B981-5F12-4CE9-B4A5-2E96CAEE6AC8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: D2D1_COLORMANAGEMENT_PROP, D2D1_COLORMANAGEMENT_PROP enumeration [Direct2D], D2D1_COLORMANAGEMENT_PROP_ALPHA_MODE, D2D1_COLORMANAGEMENT_PROP_DESTINATION_COLOR_CONTEXT, D2D1_COLORMANAGEMENT_PROP_DESTINATION_RENDERING_INTENT, D2D1_COLORMANAGEMENT_PROP_QUALITY, D2D1_COLORMANAGEMENT_PROP_SOURCE_COLOR_CONTEXT, D2D1_COLORMANAGEMENT_PROP_SOURCE_RENDERING_INTENT, d2d1effects/D2D1_COLORMANAGEMENT_PROP, d2d1effects/D2D1_COLORMANAGEMENT_PROP_ALPHA_MODE, d2d1effects/D2D1_COLORMANAGEMENT_PROP_DESTINATION_COLOR_CONTEXT, d2d1effects/D2D1_COLORMANAGEMENT_PROP_DESTINATION_RENDERING_INTENT, d2d1effects/D2D1_COLORMANAGEMENT_PROP_QUALITY, d2d1effects/D2D1_COLORMANAGEMENT_PROP_SOURCE_COLOR_CONTEXT, d2d1effects/D2D1_COLORMANAGEMENT_PROP_SOURCE_RENDERING_INTENT, direct2d.d2d1_colormanagement_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for the properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706318(v=VS.85).aspx">Color management effect</a>.
+Identifiers for the properties of the <a href="https://msdn.microsoft.com/7351C4B4-F289-4236-BB42-1B3BD8753248">Color management effect</a>.
         
 
 
@@ -74,7 +74,7 @@ The default value is NULL.
 Which ICC rendering intent to use. 
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934228(v=VS.85).aspx">D2D1_COLORMANAGEMENT_RENDERING_INTENT</a>.
+The type is <a href="https://msdn.microsoft.com/64161335-7974-4B8D-9385-045A94625FE1">D2D1_COLORMANAGEMENT_RENDERING_INTENT</a>.
 
 The default value is D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL.
 
@@ -94,7 +94,7 @@ The default value is NULL.
 Which ICC rendering intent to use. 
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934228(v=VS.85).aspx">D2D1_COLORMANAGEMENT_RENDERING_INTENT</a>.
+The type is <a href="https://msdn.microsoft.com/64161335-7974-4B8D-9385-045A94625FE1">D2D1_COLORMANAGEMENT_RENDERING_INTENT</a>.
 
 The default value is D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL.
 
@@ -104,7 +104,7 @@ The default value is D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL.
 How to interpret alpha data that is contained in the input image. 
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934225(v=VS.85).aspx">D2D1_COLORMANAGEMENT_ALPHA_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/CEC066A7-085E-4657-B9CF-9F8B8E8F4FFE">D2D1_COLORMANAGEMENT_ALPHA_MODE</a>.
 
 The default value is D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED.
 
@@ -114,7 +114,7 @@ The default value is D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED.
 The quality level of the transform. 
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934227(v=VS.85).aspx">D2D1_COLORMANAGEMENT_QUALITY</a>.
+The type is <a href="https://msdn.microsoft.com/99BB95AE-E5C6-4D56-9EB9-740DD7D0EFEF">D2D1_COLORMANAGEMENT_QUALITY</a>.
 
 The default value is D2D1_COLORMANAGEMENT_QUALITY_NORMAL.
 

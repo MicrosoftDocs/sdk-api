@@ -7,7 +7,7 @@ old-location: wes\evt_channel_reference_flags.htm
 tech.root: WES
 ms.assetid: 4f86dce0-1b01-4258-af86-b3fe1eca010a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: EVT_CHANNEL_REFERENCE_FLAGS, EVT_CHANNEL_REFERENCE_FLAGS enumeration [EventLog], EvtChannelReferenceImported, _EVT_CHANNEL_REFERENCE_FLAGS, wes.evt_channel_reference_flags, winevt/EVT_CHANNEL_REFERENCE_FLAGS, winevt/EvtChannelReferenceImported
 ms.prod: windows
 ms.technology: windows-sdk

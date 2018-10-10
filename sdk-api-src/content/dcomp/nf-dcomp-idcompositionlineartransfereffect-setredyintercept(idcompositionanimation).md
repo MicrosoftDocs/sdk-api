@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedYIntercept(IDCompositionAn
 title: IDCompositionLinearTransferEffect::SetRedYIntercept(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the red channel.
-old-location: directcomp\idcompositionlineartransfereffect_setredyintercept.htm
+old-location: directcomp\idcompositionlineartransfereffect_setredyintercept_2.htm
 tech.root: directcomp
-ms.assetid: 142286DA-6A07-404C-97B8-C356DE6C63A9
+ms.assetid: 29D4DF13-834C-4BBE-818A-64770C68CB69
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedYIntercept method, IDCompositionLinearTransferEffect.SetRedYIntercept, IDCompositionLinearTransferEffect.SetRedYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetRedYIntercept, IDCompositionLinearTransferEffect::SetRedYIntercept(IDCompositionAnimation), SetRedYIntercept, SetRedYIntercept method [DirectComposition], SetRedYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept
+ms.date: 10/09/2018
+ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedYIntercept method, IDCompositionLinearTransferEffect.SetRedYIntercept, IDCompositionLinearTransferEffect.SetRedYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetRedYIntercept, IDCompositionLinearTransferEffect::SetRedYIntercept(IDCompositionAnimation), SetRedYIntercept, SetRedYIntercept method [DirectComposition], SetRedYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the Y-intercept of the linear function for the red channel.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - redYIntercept [in]
-
-Type: <b>float</b>
-
-The Y-intercept of the linear function for the red channel.
+An animation that represents how the Y-intercept of the linear function for the red channel changes over time. This parameter must not be NULL.
 
 
 ## -returns

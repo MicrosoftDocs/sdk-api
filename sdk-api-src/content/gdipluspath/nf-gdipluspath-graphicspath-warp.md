@@ -61,7 +61,7 @@ The <b>GraphicsPath::Warp</b> method applies a warp transformation to this path.
 
 ### -param destPoints [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>*</b>
 
 Pointer to an array of points that, along with the <i>srcRect</i> parameter, defines the warp transformation. 
 
@@ -76,23 +76,23 @@ Integer that specifies the number of points in the
 
 ### -param srcRect [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
 
 Reference to a rectangle that, along with the <i>destPoints</i> parameter, defines the warp transformation. 
 
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>*</b>
 
-Optional. Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object that represents a transformation to be applied along with the warp. If this parameter is <b>NULL</b>, no transformation is applied. The default value is <b>NULL</b>. 
+Optional. Pointer to a <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> object that represents a transformation to be applied along with the warp. If this parameter is <b>NULL</b>, no transformation is applied. The default value is <b>NULL</b>. 
 
 
 ### -param warpMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534406(v=VS.85).aspx">WarpMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/fd3d4d59-ee65-4a1c-93b9-473327c170ce">WarpMode</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534406(v=VS.85).aspx">WarpMode</a> enumeration that specifies the kind of warp to be applied. The default value is WarpModePerspective. 
+Optional. Element of the <a href="https://msdn.microsoft.com/fd3d4d59-ee65-4a1c-93b9-473327c170ce">WarpMode</a> enumeration that specifies the kind of warp to be applied. The default value is WarpModePerspective. 
 
 
 ### -param flatness [in]
@@ -106,13 +106,13 @@ Optional. Real number that influences the number of line segments that are used 
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -121,7 +121,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object stores a collection of data points that represent lines and curves. The <b>GraphicsPath::Warp</b> method converts those data points so that they represent only lines. The <i>flatness</i> parameter influences the number of lines that are stored. The original data points that represented curves are lost.
+A <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object stores a collection of data points that represent lines and curves. The <b>GraphicsPath::Warp</b> method converts those data points so that they represent only lines. The <i>flatness</i> parameter influences the number of lines that are stored. The original data points that represented curves are lost.
 
 If the 
 				<i>count</i> parameter has a value of 4, the warp transformation is defined as shown in the following table.
@@ -184,11 +184,15 @@ A transformation specified by a source rectangle and three destination points ma
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds a closed figure to the path. The code defines a warp transformation by specifying a source rectangle and an array of four destination points. The source rectangle and destination points are passed to the <b>Warp</b> method. The code draws the path twice: once before it has been warped and once after it has been warped.
+The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds a closed figure to the path. The code defines a warp transformation by specifying a source rectangle and an array of four destination points. The source rectangle and destination points are passed to the <b>Warp</b> method. The code draws the path twice: once before it has been warped and once after it has been warped.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID WarpExample(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -210,7 +214,7 @@ VOID WarpExample(HDC hdc)
 
    // Draw the path before applying a warp transformation.
    Pen bluePen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&bluePen, &path);
+   graphics.DrawPath(&amp;bluePen, &amp;path);
 
    // Define a warp transformation, and warp the path.
    RectF srcRect(10.0f, 50.0f, 50.0f, 100.0f);
@@ -224,20 +228,20 @@ VOID WarpExample(HDC hdc)
    path.Warp(destPts, 4, srcRect);
 
    // Draw the warped path.
-   graphics.DrawPath(&bluePen, &path);
+   graphics.DrawPath(&amp;bluePen, &amp;path);
 
    // Draw the source rectangle and the destination polygon.
    Pen blackPen(Color(255, 0, 0, 0));
-   graphics.DrawRectangle(&blackPen, srcRect);
-   graphics.DrawLine(&blackPen, destPts[0], destPts[1]);
-   graphics.DrawLine(&blackPen, destPts[0], destPts[2]);
-   graphics.DrawLine(&blackPen, destPts[1], destPts[3]);
-   graphics.DrawLine(&blackPen, destPts[2], destPts[3]);
+   graphics.DrawRectangle(&amp;blackPen, srcRect);
+   graphics.DrawLine(&amp;blackPen, destPts[0], destPts[1]);
+   graphics.DrawLine(&amp;blackPen, destPts[0], destPts[2]);
+   graphics.DrawLine(&amp;blackPen, destPts[1], destPts[3]);
+   graphics.DrawLine(&amp;blackPen, destPts[2], destPts[3]);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -246,47 +250,47 @@ VOID WarpExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536364(v=VS.85).aspx">Flattening Paths</a>
+<a href="https://msdn.microsoft.com/8ce77146-dc28-4c0b-bcf0-dad4bf3d86e8">Flattening Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535530(v=VS.85).aspx">GraphicsPath::Flatten</a>
+<a href="https://msdn.microsoft.com/947b3e68-67ad-47fb-80bb-b5a678f71381">GraphicsPath::Flatten</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535564(v=VS.85).aspx">GraphicsPath::Outline</a>
+<a href="https://msdn.microsoft.com/f896fcfd-2094-46f0-a9f8-469f13dccfa2">GraphicsPath::Outline</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535572(v=VS.85).aspx">GraphicsPath::Widen</a>
+<a href="https://msdn.microsoft.com/e8351fb1-b11f-4da7-9cc4-dc3ab685f29d">GraphicsPath::Widen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534406(v=VS.85).aspx">WarpMode</a>
+<a href="https://msdn.microsoft.com/fd3d4d59-ee65-4a1c-93b9-473327c170ce">WarpMode</a>
  
 
  

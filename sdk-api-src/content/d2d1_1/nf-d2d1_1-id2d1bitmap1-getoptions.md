@@ -7,7 +7,7 @@ old-location: direct2d\id2d1bitmap1_getoptions.htm
 tech.root: Direct2D
 ms.assetid: 63e13172-7c6a-49af-aef9-83bf12a1f7d5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetOptions, GetOptions method [Direct2D], GetOptions method [Direct2D],ID2D1Bitmap1 interface, ID2D1Bitmap1 interface [Direct2D],GetOptions method, ID2D1Bitmap1.GetOptions, ID2D1Bitmap1::GetOptions, d2d1_1/ID2D1Bitmap1::GetOptions, direct2d.id2d1bitmap1_getoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

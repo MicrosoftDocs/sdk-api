@@ -7,7 +7,7 @@ old-location: input_pointerdevice\getpointerdeviceproperties.htm
 tech.root: Input_PointerDevice
 ms.assetid: dbb81637-217a-49b1-9e81-2068cf4c0951
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetPointerDeviceProperties, GetPointerDeviceProperties function, input_pointerdevice.getpointerdeviceproperties, unifiedinputstack.getpointerdeviceproperties, winuser/GetPointerDeviceProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

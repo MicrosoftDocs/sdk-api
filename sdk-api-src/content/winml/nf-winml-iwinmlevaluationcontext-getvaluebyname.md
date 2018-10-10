@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlevaluationcontext_getvaluebyname.htm
 tech.root: MachineLearning
 ms.assetid: 750A799F-A5A7-48D2-958B-D03423C0CE09
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: GetValueByName, GetValueByName method, GetValueByName method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,GetValueByName method, IWinMLEvaluationContext.GetValueByName, IWinMLEvaluationContext::GetValueByName, MachineLearning.iwinmlevaluationcontext_getvaluebyname, winml/IWinMLEvaluationContext::GetValueByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,6 +51,8 @@ req.redist:
 
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Returns the input/output description for the specific binding name.
 

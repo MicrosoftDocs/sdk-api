@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjMarkDirectoryAsPlaceholder
 title: PrjMarkDirectoryAsPlaceholder function
 author: windows-sdk-content
-description: TBD.
+description: Converts an existing directory to a directory placeholder.
 old-location: projfs\prjmarkdirectoryasplaceholder.htm
 tech.root: ProjFS
 ms.assetid: 6C92275E-B9A6-4556-A709-8EFBAEDB94B5
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjMarkDirectoryAsPlaceholder, PrjMarkDirectoryAsPlaceholder function, ProjFS.prjmarkdirectoryasplaceholder, projectedfslib/PrjMarkDirectoryAsPlaceholder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjMarkDirectoryAsPlaceholder
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Converts an existing directory to a directory placeholder.
 
 
 ## -parameters
@@ -59,29 +60,42 @@ TBD
 
 ### -param rootPathName [in]
 
-TBD
+A null-terminated Unicode string specifying the full path to the virtualization root.
 
 
 ### -param targetPathName [in, optional]
 
-TBD
+A null-terminated Unicode string specifying the path, relative to the virtualization root, to the directory to convert to a placeholder. 
+
+
+If this parameter is not specified or is an empty string, then this means the caller wants to designate rootPathName as the virtualization root. The provider only needs to do this one time, upon establishing a new virtualization instance.
 
 
 ### -param versionInfo [in, optional]
 
-TBD
+Optional version information for the target placeholder. The provider chooses what information to put in the <a href="projfs.prj_placeholder_version_info">PRJ_PLACEHOLDER_VERSION_INFO</a> structure. If not specified, the placeholder gets zeros for its version information.
 
 
 ### -param virtualizationInstanceID [in]
 
-TBD
+A value that identifies the virtualization instance.
 
 
 ## -returns
 
 
 
-TBD
+HRESULT_FROM_WIN32(ERROR_REPARSE_POINT_ENCOUNTERED) typically means the directory at targetPathName has a reparse point on it. HRESULT_FROM_WIN32(ERROR_DIRECTORY) typically means the targetPathName does not specify a directory.
+
+
+
+
+## -remarks
+
+
+
+The provider must use this API to designate the virtualization root before calling <a href="projfs.prjstartvirtualizing">PrjStartVirtualizing</a>. 
+
 
 
 

@@ -4,10 +4,10 @@ title: TimeProvClose function
 author: windows-sdk-content
 description: A callback function that is called by the time provider manager to shut down the time provider.
 old-location: base\timeprovclose.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: ca8f5c8b-8c46-46eb-8d15-4c0c8a8437dd
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: TimeProvClose, TimeProvClose callback, TimeProvClose callback function, _win32_timeprovclose, base.timeprovclose, timeprov/TimeProvClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -3,12 +3,12 @@ UID: NN:shobjidl_core.IContactManagerInterop
 title: IContactManagerInterop
 author: windows-sdk-content
 description: Enables access to ContactManager methods in an app that manages multiple windows.
-old-location: shell\IContactManagerInterop.htm
-tech.root: shell
-ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C
+old-location: winrt\icontactmanagerinterop.htm
+tech.root: WinRT
+ms.assetid: 49328E9C-895C-4F8A-8F1C-0E2A08C291E5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Shell], IContactManagerInterop interface [Windows Shell],described, shell.IContactManagerInterop, shobjidl_core/IContactManagerInterop
+ms.date: 09/26/2018
+ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Runtime], IContactManagerInterop interface [Windows Runtime],described, shobjidl_core/IContactManagerInterop, winrt.icontactmanagerinterop
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - Shobjidl_core.h
+ - shobjidl_core.h
 api_name:
  - IContactManagerInterop
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Enables access to <b>ContactManager</b> methods in an app that manages multiple windows.
+Enables access to <a href="https://msdn.microsoft.com/a3771b9a-e0df-4cfb-8829-e82de88ac742">ContactManager</a> methods in an app that manages multiple windows.
 
 
 ## -inheritance
@@ -70,7 +70,7 @@ The <b>IContactManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2B32B3DB-A423-4BDF-9ED1-9C1BB5B0533D">ShowContactCardForWindow</a>
+<a href="https://msdn.microsoft.com/4BF4A5A4-9BF0-4BF0-BC2B-04C4C0C25C36">ShowContactCardForWindow</a>
 </td>
 <td align="left" width="63%">
 Displays the UI for a contact on the specified window.
@@ -78,4 +78,15 @@ Displays the UI for a contact on the specified window.
 </td>
 </tr>
 </table> 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a3771b9a-e0df-4cfb-8829-e82de88ac742">ContactManager</a>
+ 
+
+ 
 

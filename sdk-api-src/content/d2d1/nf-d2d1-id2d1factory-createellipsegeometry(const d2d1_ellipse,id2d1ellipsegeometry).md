@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateEllipseGeometry_ptr_D2D1_ELLIPSE_ptr_p
 tech.root: Direct2D
 ms.assetid: 2c656119-b410-4269-85d0-5f0e5f430b7a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: CreateEllipseGeometry, CreateEllipseGeometry method [Direct2D], CreateEllipseGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateEllipseGeometry method, ID2D1Factory.CreateEllipseGeometry, ID2D1Factory.CreateEllipseGeometry(const D2D1_ELLIPSE,ID2D1EllipseGeometry), ID2D1Factory::CreateEllipseGeometry, ID2D1Factory::CreateEllipseGeometry(const D2D1_ELLIPSE,ID2D1EllipseGeometry), d2d1/ID2D1Factory::CreateEllipseGeometry, direct2d.ID2D1Factory_CreateEllipseGeometry_ptr_D2D1_ELLIPSE_ptr_ptr_ID2D1EllipseGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

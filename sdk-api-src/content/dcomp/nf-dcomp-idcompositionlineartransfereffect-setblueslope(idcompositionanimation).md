@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueSlope(IDCompositionAnimat
 title: IDCompositionLinearTransferEffect::SetBlueSlope(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the slope of the linear function for the blue channel.
-old-location: directcomp\idcompositionlineartransfereffect_setblueslope.htm
+old-location: directcomp\idcompositionlineartransfereffect_setblueslope_2.htm
 tech.root: directcomp
-ms.assetid: 4A93A05C-D68B-4DAE-9E01-AFABFFB94E81
+ms.assetid: 57B9FD7A-8A6C-4660-9CF9-13F47438D5DE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueSlope method, IDCompositionLinearTransferEffect.SetBlueSlope, IDCompositionLinearTransferEffect.SetBlueSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetBlueSlope, IDCompositionLinearTransferEffect::SetBlueSlope(IDCompositionAnimation), SetBlueSlope, SetBlueSlope method [DirectComposition], SetBlueSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope
+ms.date: 10/09/2018
+ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueSlope method, IDCompositionLinearTransferEffect.SetBlueSlope, IDCompositionLinearTransferEffect.SetBlueSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetBlueSlope, IDCompositionLinearTransferEffect::SetBlueSlope(IDCompositionAnimation), SetBlueSlope, SetBlueSlope method [DirectComposition], SetBlueSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the slope of the linear function for the blue channel.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - blueSlope [in]
-
-Type: <b>float</b>
-
-The slope of the linear function for the Blue channel.
+An animation that represents how the slope of the linear function for the blue channel changes over time. This parameter must not be NULL.
 
 
 ## -returns

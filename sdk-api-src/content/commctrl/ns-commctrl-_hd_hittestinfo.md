@@ -4,10 +4,10 @@ title: "_HD_HITTESTINFO"
 author: windows-sdk-content
 description: Contains information about a hit test. This structure is used with the HDM_HITTEST message and it supersedes the HD_HITTESTINFO structure.
 old-location: controls\HDHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdhittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "*LPHDHITTESTINFO, HDHITTESTINFO, HDHITTESTINFO structure [Windows Controls], HHT_ABOVE, HHT_BELOW, HHT_NOWHERE, HHT_ONDIVIDER, HHT_ONDIVOPEN, HHT_ONDROPDOWN, HHT_ONFILTER, HHT_ONFILTERBUTTON, HHT_ONHEADER, HHT_ONITEMSTATEICON, HHT_ONOVERFLOW, HHT_TOLEFT, HHT_TORIGHT, LPHDHITTESTINFO, LPHDHITTESTINFO structure pointer [Windows Controls], _HD_HITTESTINFO, _win32_HDHITTESTINFO, _win32_HDHITTESTINFO_cpp, commctrl/HDHITTESTINFO, commctrl/LPHDHITTESTINFO, controls.HDHITTESTINFO, controls._win32_HDHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information about a hit test. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775349(v=VS.85).aspx">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure. 
+Contains information about a hit test. This structure is used with the <a href="https://msdn.microsoft.com/ff866bd1-9f2a-457c-921d-549610ab9088">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure. 
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POIN
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The variable that receives information about the results of a hit test. This member can be one or more of the values listed below. Two of these values can be combined, such as when the position is above and to the left of the client area.
 
@@ -143,7 +143,7 @@ The point is inside the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 5.80</a> The point is over the filter area.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> The point is over the filter area.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The point is inside the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 5.80</a> The point is on the filter button.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> The point is on the filter button.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00</a> and <b>Windows Vista. </b> The point is within the state icon of the item.  If style <a href="https://msdn.microsoft.com/en-us/library/Bb775241(v=VS.85).aspx">HDS_CHECKBOXES</a> is specified, the point is within the checkbox of the item.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista. </b> The point is within the state icon of the item.  If style <a href="Header_Control_Styles.htm">HDS_CHECKBOXES</a> is specified, the point is within the checkbox of the item.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00</a> and <b>Windows Vista.</b> The point is within the split button of the item.  The style HDF_SPLITBUTTON must be set on the item.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> The point is within the split button of the item.  The style HDF_SPLITBUTTON must be set on the item.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00</a> and <b>Windows Vista.</b> The point is within the overflow button of the header control.  The style <a href="https://msdn.microsoft.com/en-us/library/Bb775241(v=VS.85).aspx">HDS_OVERFLOW</a> must be set on the header control.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> The point is within the overflow button of the header control.  The style <a href="Header_Control_Styles.htm">HDS_OVERFLOW</a> must be set on the header control.
 
 </td>
 </tr>

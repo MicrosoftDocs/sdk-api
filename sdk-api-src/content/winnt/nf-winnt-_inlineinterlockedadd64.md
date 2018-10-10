@@ -7,7 +7,7 @@ old-location: base\interlockedadd64.htm
 tech.root: Sync
 ms.assetid: ab37292f-4291-4cca-826c-d6488e141db8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: InterlockedAdd64, InterlockedAdd64 function, _InlineInterlockedAdd64, base.interlockedadd64, winnt/InterlockedAdd64
 ms.prod: windows-hardware
 ms.technology: windows-devices

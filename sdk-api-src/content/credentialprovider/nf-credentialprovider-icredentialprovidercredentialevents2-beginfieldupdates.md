@@ -83,19 +83,19 @@ A call to this method must be made at the beginning of the code that updates the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706912(v=VS.85).aspx">ICredentialProviderCredential2</a>
+<a href="https://msdn.microsoft.com/C1C4BF88-3151-4a8b-A1EE-9616DCB6EA58">ICredentialProviderCredential2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706916(v=VS.85).aspx">ICredentialProviderCredential2::EndFieldUpdates</a>
+<a href="https://msdn.microsoft.com/D05A558E-79D9-4063-A714-F54D8EB8BBF8">ICredentialProviderCredential2::EndFieldUpdates</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706917(v=VS.85).aspx">ICredentialProviderCredential2::SetFieldOptions</a>
+<a href="https://msdn.microsoft.com/5507E8DE-5746-4031-900B-3EF5C97BC2EE">ICredentialProviderCredential2::SetFieldOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706914(v=VS.85).aspx">ICredentialProviderCredentialEvents2</a>
+<a href="https://msdn.microsoft.com/47290FF7-1785-4470-B3A9-F35C5028A6FE">ICredentialProviderCredentialEvents2</a>
  
 
  

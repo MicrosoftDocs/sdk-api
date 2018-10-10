@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.GetSubProperties(U,ID2D1Properties,)
 title: ID2D1Properties::GetSubProperties(U,ID2D1Properties,)
 author: windows-sdk-content
-description: Gets the sub-properties of the provided property by index.
-old-location: direct2d\id2d1properties_getsubproperties.htm
+description: Gets the sub-properties of the provided property by index. This is a template overload.
+old-location: direct2d\id2d1properties_getsubproperties2.htm
 tech.root: Direct2D
-ms.assetid: 6ba7ba8e-63fd-44a1-9a03-565b2e2a128c
+ms.assetid: D7A79C72-6BFC-4603-82AD-FFEEA91B6CBE
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: GetSubProperties, GetSubProperties method [Direct2D], GetSubProperties method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetSubProperties method, ID2D1Properties.GetSubProperties, ID2D1Properties.GetSubProperties(U,ID2D1Properties,), ID2D1Properties::GetSubProperties, ID2D1Properties::GetSubProperties(U,ID2D1Properties,), ID2D1Properties::GetSubProperties(UINT32,ID2D1Properties**), d2d1_1/ID2D1Properties::GetSubProperties, direct2d.id2d1properties_getsubproperties
+ms.date: 10/09/2018
+ms.keywords: GetSubProperties, GetSubProperties method [Direct2D], GetSubProperties method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetSubProperties method, ID2D1Properties.GetSubProperties, ID2D1Properties.GetSubProperties(U,ID2D1Properties,), ID2D1Properties::GetSubProperties, ID2D1Properties::GetSubProperties(U,ID2D1Properties**), ID2D1Properties::GetSubProperties(U,ID2D1Properties,), d2d1_1/ID2D1Properties::GetSubProperties, direct2d.id2d1properties_getsubproperties2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the sub-properties of the provided property by index.
+Gets the sub-properties of the provided property by index. This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the sub-properties of the provided property by index.
 
 ### -param index
 
-Type: <b>UINT32</b>
+Type: <b>U</b>
 
 The index of the  sub-properties to be retrieved.
 
@@ -113,6 +113,15 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 If there are no sub-properties, <i>subProperties</i> will be <b>NULL</b>, and <b>D2DERR_NO_SUBPROPERTIES</b> will be returned.
       
+
+
+<pre class="syntax">template&lt;typename U&gt;
+          HRESULT GetSubProperties(
+          U index,
+          _Outptr_opt_ ID2D1Properties **subProperties
+          ) CONST;
+        </pre>
+
 
 
 

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_streamasgeometry.htm
 tech.root: Direct2D
 ms.assetid: 385A4C6F-69D9-46A2-ABA4-9E1AA77D6CF4
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ID2D1Ink interface [Direct2D],StreamAsGeometry method, ID2D1Ink.StreamAsGeometry, ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,FLOAT,ID2D1SimplifiedGeometrySink), ID2D1Ink::StreamAsGeometry, ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,FLOAT,ID2D1SimplifiedGeometrySink), StreamAsGeometry, StreamAsGeometry method [Direct2D], StreamAsGeometry method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::StreamAsGeometry, direct2d.id2d1ink_streamasgeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443
 The world transform to be used in determining the geometric representation.
 
 
-#### - flatteningTolerance
+### -param flatteningTolerance
 
 Type: <b>FLOAT</b>
 

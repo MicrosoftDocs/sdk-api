@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_setoutputfilename.htm
 tech.root: etw
 ms.assetid: ed3f8bcd-88c7-4d05-a396-41ee8f35bc97
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: ITraceRelogger interface [ETW],SetOutputFilename method, ITraceRelogger.SetOutputFilename, ITraceRelogger::SetOutputFilename, SetOutputFilename, SetOutputFilename method [ETW], SetOutputFilename method [ETW],ITraceRelogger interface, etw.itracerelogger_setoutputfilename, relogger/ITraceRelogger::SetOutputFilename
 ms.prod: windows-hardware
 ms.technology: windows-devices

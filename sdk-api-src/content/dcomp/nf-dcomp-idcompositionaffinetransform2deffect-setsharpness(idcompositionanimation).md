@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAni
 title: IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the sharpness of the effect.
-old-location: directcomp\idcompositionaffinetransform2deffect_setsharpness.htm
+old-location: directcomp\idcompositionaffinetransform2deffect_setsharpness_2.htm
 tech.root: directcomp
-ms.assetid: F55B942C-F55E-4F19-A838-568F4BF4ED47
+ms.assetid: 68369AAC-3EBC-419C-A055-90BF4C662A42
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetSharpness method, IDCompositionAffineTransform2DEffect.SetSharpness, IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation), IDCompositionAffineTransform2DEffect::SetSharpness, IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation), SetSharpness, SetSharpness method [DirectComposition], SetSharpness method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetSharpness, directcomp.idcompositionaffinetransform2deffect_setsharpness
+ms.date: 10/09/2018
+ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetSharpness method, IDCompositionAffineTransform2DEffect.SetSharpness, IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation), IDCompositionAffineTransform2DEffect::SetSharpness, IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation), SetSharpness, SetSharpness method [DirectComposition], SetSharpness method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetSharpness, directcomp.idcompositionaffinetransform2deffect_setsharpness_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the sharpness of the effect.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - sharpness [in]
-
-Type: <b>float</b>
-
-Specifies the sharpness of the effect.
+An animation that represents how the sharpness value changes over time. This parameter must not be NULL.
 
 
 ## -returns

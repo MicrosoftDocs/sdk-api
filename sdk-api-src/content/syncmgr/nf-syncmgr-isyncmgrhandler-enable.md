@@ -99,16 +99,20 @@ If the handler does not need to perform any actions when it is activated, it can
 
 The following example shows a simple implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Enable(__in BOOL fEnable)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Enable(__in BOOL fEnable)
 {
     return E_NOTIMPL;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_CreateMesh.htm
 tech.root: Direct2D
 ms.assetid: 6c0036d8-1f91-4d90-a301-b58bde8da974
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: CreateMesh, CreateMesh method [Direct2D], CreateMesh method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateMesh method, ID2D1RenderTarget.CreateMesh, ID2D1RenderTarget::CreateMesh, d2d1/ID2D1RenderTarget::CreateMesh, direct2d.ID2D1RenderTarget_CreateMesh
 ms.prod: windows-hardware
 ms.technology: windows-devices

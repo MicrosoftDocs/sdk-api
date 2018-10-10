@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_createclasspart.htm
 tech.root: WmiSdk
 ms.assetid: 6826bd2a-6036-4017-a58e-621fc2361031
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: CreateClassPart, CreateClassPart method [Windows Management Instrumentation], CreateClassPart method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],CreateClassPart method, IWbemPath.CreateClassPart, IWbemPath::CreateClassPart, _hmm_iwbempath_createclasspart, wmi.iwbempath_createclasspart, wmiutils/IWbemPath::CreateClassPart
 ms.prod: windows-hardware
 ms.technology: windows-devices

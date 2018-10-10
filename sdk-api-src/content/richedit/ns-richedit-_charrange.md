@@ -4,10 +4,10 @@ title: "_charrange"
 author: windows-sdk-content
 description: Specifies a range of characters in a rich edit control.If the cpMin and cpMax members are equal, the range is empty. The range includes everything if cpMin is 0 and cpMax is &#8211;1.
 old-location: controls\CHARRANGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charrange.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: CHARRANGE, CHARRANGE structure [Windows Controls], _charrange, _win32_CHARRANGE_str, _win32_CHARRANGE_str_cpp, controls.CHARRANGE, controls._win32_CHARRANGE_str, richedit/CHARRANGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,11 +79,11 @@ Character position immediately following the last character in the range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788001(v=VS.85).aspx">EM_EXGETSEL</a>
+<a href="https://msdn.microsoft.com/60fcf13e-6c45-4f4e-9b54-70f0985122fb">EM_EXGETSEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788007(v=VS.85).aspx">EM_EXSETSEL</a>
+<a href="https://msdn.microsoft.com/85a0d1d4-1826-4ac5-b823-de81a051441d">EM_EXSETSEL</a>
 
 
 

@@ -4,10 +4,10 @@ title: GetProfileStringW function
 author: windows-sdk-content
 description: Retrieves the string associated with a key in the specified section of the Win.ini file.
 old-location: base\getprofilestring.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 70987969-7ad5-4eb6-bcd0-ce8709864ee7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetProfileString, GetProfileString function, GetProfileStringA, GetProfileStringW, _win32_getprofilestring, base.getprofilestring, winbase/GetProfileString, winbase/GetProfileStringA, winbase/GetProfileStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

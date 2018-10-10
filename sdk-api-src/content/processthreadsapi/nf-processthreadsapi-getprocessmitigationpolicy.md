@@ -4,11 +4,11 @@ title: GetProcessMitigationPolicy function
 author: windows-sdk-content
 description: Retrieves mitigation policy settings for the calling process.
 old-location: base\getprocessmitigationpolicy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
+ms.date: 10/09/2018
+ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,6 +206,20 @@ The <i>lpBuffer</i> parameter points to a <a href="https://msdn.microsoft.com/7D
 The policy regarding image loading for the process, which determines the types of executable images that are allowed to be mapped into the process. When turned on, images cannot be loaded from some locations, such a remote devices or files that have the low mandatory label.
 
 The <i>lpBuffer</i> parameter points to a <a href="https://msdn.microsoft.com/C5B414D0-C209-4669-9E02-D7E453E242B1">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that specifies the policy flags for image loading.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ProcessSideChannelIsolationPolicy"></a><a id="processsidechannelisolationpolicy"></a><a id="PROCESSSIDECHANNELISOLATIONPOLICY"></a><dl>
+<dt><b>ProcessSideChannelIsolationPolicy</b></dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10, version 1809 and above: The policy regarding isolation of side channels for the specified process.
+
+
+The <i>lpBuffer</i> parameter points to a <a href="base.process_mitigation_side_channel_isolation_policy">PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY</a>structure that specifies the policy flags for side channel isolation.
+
 
 </td>
 </tr>

@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjCompleteCommand
 title: PrjCompleteCommand function
 author: windows-sdk-content
-description: TBD.
+description: Indicates that the provider has completed processing a callback from which it had previously returned HRESULT_FROM_WIN32(ERROR_IO_PENDING).
 old-location: projfs\prjcompletecommand.htm
 tech.root: ProjFS
 ms.assetid: 9A47FAB5-A085-41C9-861C-E74F2F5AF474
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjCompleteCommand, PrjCompleteCommand function, ProjFS.prjcompletecommand, projectedfslib/PrjCompleteCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjCompleteCommand
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Indicates that the provider has completed processing a callback from which it had previously returned HRESULT_FROM_WIN32(ERROR_IO_PENDING).
 
 
 ## -parameters
@@ -59,29 +60,29 @@ TBD
 
 ### -param namespaceVirtualizationContext [in]
 
-TBD
+Opaque handle for the virtualization instance. This must be the value from the VirtualizationInstanceHandle member of the callbackData passed to the provider in the callback that is being complete.
 
 
 ### -param commandId [in]
 
-TBD
+A value identifying the callback invocation that the provider is completing. This must be the value from the CommandId member of the callbackData passed to the provider in the callback that is being completed.
 
 
 ### -param completionResult [in]
 
-TBD
+The final HRESULT of the operation.
 
 
 ### -param extendedParameters [in, optional]
 
-TBD
+Optional pointer to extended parameters required for completing certain callbacks.
 
 
 ## -returns
 
 
 
-TBD
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

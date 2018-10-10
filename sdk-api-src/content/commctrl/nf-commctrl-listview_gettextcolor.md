@@ -4,10 +4,10 @@ title: ListView_GetTextColor macro
 author: windows-sdk-content
 description: Gets the text color of a list-view control. You can use this macro or send the LVM_GETTEXTCOLOR message explicitly.
 old-location: controls\ListView_GetTextColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettextcolor.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ListView_GetTextColor, ListView_GetTextColor macro [Windows Controls], _win32_ListView_GetTextColor, _win32_ListView_GetTextColor_cpp, commctrl/ListView_GetTextColor, controls.ListView_GetTextColor, controls._win32_ListView_GetTextColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761079(v=VS.85).aspx">LVM_GETTEXTCOLOR</a> message explicitly. 
+Gets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/51685e61-dd0a-4c21-8c66-31cf72c2b3e4">LVM_GETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the text color of a list-view control. You can use this macro or send the <
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjFreeAlignedBuffer
 title: PrjFreeAlignedBuffer function
 author: windows-sdk-content
-description: TBD.
+description: Frees an allocated buffer.
 old-location: projfs\prjfreealignedbuffer.htm
 tech.root: ProjFS
 ms.assetid: EE5AC099-CB39-48B1-BB7B-8C9B436AA4A3
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjFreeAlignedBuffer, PrjFreeAlignedBuffer function, ProjFS.prjfreealignedbuffer, projectedfslib/PrjFreeAlignedBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjFreeAlignedBuffer
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Frees an allocated buffer.
 
 
 ## -parameters
@@ -59,14 +60,14 @@ TBD
 
 ### -param buffer [in]
 
-TBD
+The buffer to free.
 
 
 ## -returns
 
 
 
-TBD
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

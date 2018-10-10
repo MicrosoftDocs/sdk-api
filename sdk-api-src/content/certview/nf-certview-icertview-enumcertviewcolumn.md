@@ -55,7 +55,7 @@ req.redist:
 The <b>EnumCertViewColumn</b> method obtains an instance of a column-enumeration sequence for the database schema.
 
 Note that this enumeration sequence cannot be used to enumerate the column values, only the database schema. Use 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386239(v=VS.85).aspx">IEnumCERTVIEWROW::EnumCertViewColumn</a> if you need to enumerate the data values of the columns.
+<a href="https://msdn.microsoft.com/78fd2431-c4c7-4df9-856a-69665fa8c063">IEnumCERTVIEWROW::EnumCertViewColumn</a> if you need to enumerate the data values of the columns.
 
 
 ## -parameters
@@ -118,7 +118,7 @@ Column information mask.
 
 ### -param ppenum [out]
 
-A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a> type. This method fails if the <i>ppenum</i> parameter is <b>NULL</b>.
+A pointer to a pointer of <a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a> type. This method fails if the <i>ppenum</i> parameter is <b>NULL</b>.
 
 
 ## -returns
@@ -126,12 +126,12 @@ A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa38
 
 
 <h3>C++</h3>
- If the method succeeds, the method returns S_OK, and *<i>ppenum</i> is set to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a> type.
+ If the method succeeds, the method returns S_OK, and *<i>ppenum</i> is set to a pointer of <a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a> type.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is an <a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a> object.
+ The return value is an <a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a> object.
 
 
 
@@ -141,7 +141,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a> object can be used to enumerate the view's columns and retrieve each column's information.
+<a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a> object can be used to enumerate the view's columns and retrieve each column's information.
 
 
 
@@ -151,15 +151,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">EnumCERTVIEWCOLUMN</a>
+<a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">EnumCERTVIEWCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a>
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a>
+<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a>
  
 
  

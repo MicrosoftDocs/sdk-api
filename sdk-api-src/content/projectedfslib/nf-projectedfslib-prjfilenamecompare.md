@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjFileNameCompare
 title: PrjFileNameCompare function
 author: windows-sdk-content
-description: TBD.
+description: Compares two file names and returns a value that indicates their relative collation order.
 old-location: projfs\prjfilenamecompare.htm
 tech.root: ProjFS
 ms.assetid: A20C2E31-918D-4AE8-9C54-D88BB5DC21E7
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjFileNameCompare, PrjFileNameCompare function, ProjFS.prjfilenamecompare, projectedfslib/PrjFileNameCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjFileNameCompare
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Compares two file names and returns a value that indicates their relative collation order.
 
 
 ## -parameters
@@ -59,19 +60,31 @@ TBD
 
 ### -param fileName1 [in]
 
-TBD
+A null-terminated Unicode string specifying the first name to compare.
 
 
 ### -param fileName2 [in]
 
-TBD
+A null-terminated Unicode string specifying the second name to compare.
 
 
 ## -returns
 
 
 
-TBD
+<ul>
+<li>&lt;0 indicates fileName1 is before fileName2 in collation order</li>
+<li>0 indicates fileName1 is equal to fileName2</li>
+<li>&gt;0 indicates fileName1 is after fileName2 in collation order</li>
+</ul>
+
+
+
+## -remarks
+
+
+
+The provider may use this routine to determine how to sort file names in the same order that the file system does.
 
 
 

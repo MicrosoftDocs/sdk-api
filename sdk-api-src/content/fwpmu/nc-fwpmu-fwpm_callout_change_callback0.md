@@ -4,10 +4,10 @@ title: FWPM_CALLOUT_CHANGE_CALLBACK0
 author: windows-sdk-content
 description: Is used to add custom behavior to the callout change notification process.
 old-location: fwp\fwpm_callout_change_callback0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 82c678a5-adba-42ea-b85c-4bbdcec78673
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FWPM_CALLOUT_CHANGE_CALLBACK0, FWPM_CALLOUT_CHANGE_CALLBACK0 callback, FWPM_CALLOUT_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_callout_change_callback0_func, fwpmu/FWPM_CALLOUT_CHANGE_CALLBACK0
 ms.prod: windows
 ms.technology: windows-sdk

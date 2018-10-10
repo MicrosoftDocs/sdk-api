@@ -3,12 +3,12 @@ UID: NF:d2d1_3.ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F &
 title: ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink)
 author: windows-sdk-content
 description: Retrieves a geometric representation of this ink object.
-old-location: direct2d\id2d1ink_streamasgeometry.htm
+old-location: direct2d\id2d1ink_streamasgeometry_2.htm
 tech.root: Direct2D
-ms.assetid: 385A4C6F-69D9-46A2-ABA4-9E1AA77D6CF4
+ms.assetid: 48111638-A7F9-410B-8BBE-5DB54430F4BF
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: ID2D1Ink interface [Direct2D],StreamAsGeometry method, ID2D1Ink.StreamAsGeometry, ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink), ID2D1Ink::StreamAsGeometry, ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink), StreamAsGeometry, StreamAsGeometry method [Direct2D], StreamAsGeometry method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::StreamAsGeometry, direct2d.id2d1ink_streamasgeometry
+ms.date: 10/09/2018
+ms.keywords: ID2D1Ink interface [Direct2D],StreamAsGeometry method, ID2D1Ink.StreamAsGeometry, ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink), ID2D1Ink::StreamAsGeometry, ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink), StreamAsGeometry, StreamAsGeometry method [Direct2D], StreamAsGeometry method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::StreamAsGeometry, direct2d.id2d1ink_streamasgeometry_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -65,9 +65,9 @@ Type: <b><a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069DDF6E2
 The ink style to be used in determining the geometric representation.
 
 
-### -param worldTransform [in, optional]
+### -param worldTransform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 The world transform to be used in determining the geometric representation.
 

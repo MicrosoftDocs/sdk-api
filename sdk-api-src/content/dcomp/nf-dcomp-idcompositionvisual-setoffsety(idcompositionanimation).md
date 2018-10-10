@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual_setoffsety_float.htm
 tech.root: directcomp
 ms.assetid: 7FF2433A-1741-4177-85C8-F5AE0D920EB4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetY method, IDCompositionVisual.SetOffsetY, IDCompositionVisual.SetOffsetY(IDCompositionAnimation), IDCompositionVisual::SetOffsetY, IDCompositionVisual::SetOffsetY(IDCompositionAnimation), IDCompositionVisual::SetOffsetY(float), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetY, directcomp.idcompositionvisual_setoffsety_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

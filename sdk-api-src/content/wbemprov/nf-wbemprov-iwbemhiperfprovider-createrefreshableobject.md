@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfprovider_createrefreshableobject.htm
 tech.root: WmiSdk
 ms.assetid: 1eb414e0-cdf6-4caa-88a5-8da17a32449c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: CreateRefreshableObject, CreateRefreshableObject method [Windows Management Instrumentation], CreateRefreshableObject method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableObject method, IWbemHiPerfProvider.CreateRefreshableObject, IWbemHiPerfProvider::CreateRefreshableObject, _hmm_iwbemhiperfprovider_createrefreshableobject, wbemprov/IWbemHiPerfProvider::CreateRefreshableObject, wmi.iwbemhiperfprovider_createrefreshableobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. If the pointer must call back into WMI during its execution, the provider calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on it.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. If the pointer must call back into WMI during its execution, the provider calls <a href="_com_iunknown_addref">AddRef</a> on it.
 
 
 ### -param pTemplate [in]
@@ -137,9 +137,13 @@ The supplied instance template will contain an object with the key properties fi
 The following code example describes how to implement 
 <b>CreateRefreshableObject</b>.
 
-
-```cpp
-HRESULT CMyHiPerfProvider::CreateRefreshableObject(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CMyHiPerfProvider::CreateRefreshableObject(
   /* [in] */IWbemServices *pNamespace,
   /* [in] */IWbemObjectAccess *pTemplate,
   /* [in] */IWbemRefresher *pRefresher,
@@ -154,9 +158,9 @@ HRESULT CMyHiPerfProvider::CreateRefreshableObject(
   // the IMyRefresher interface.
   IMyRefresher* pMyRefr = NULL;
 
-  HRESULT hres = pRefresher->QueryInterface(
+  HRESULT hres = pRefresher-&gt;QueryInterface(
     IID_IMyRefresher,
-    (void**) &pMyRefr );
+    (void**) &amp;pMyRefr );
 
   if ( SUCCEEDED( hres ) )
   {
@@ -170,44 +174,44 @@ HRESULT CMyHiPerfProvider::CreateRefreshableObject(
 
       // Clone the object, then get an
       // IWbemObjectAccess pointer.
-      pTemplate->QueryInterface(
+      pTemplate-&gt;QueryInterface(
         IID_IWbemClassObject,
-        (void**) &pTemplateObj );
+        (void**) &amp;pTemplateObj );
 
-      pTemplateObj->Clone( &pCloneObj );
+      pTemplateObj-&gt;Clone( &amp;pCloneObj );
 
-      pCloneObj->QueryInterface(
+      pCloneObj-&gt;QueryInterface(
         IID_IWbemObjectAccess,
-        (void**) &pCloneAcc );
+        (void**) &amp;pCloneAcc );
 
       // Generate a unique identifier.
       // For example, use:
-      /**plId = InterlockedIncrement( &m_lLastId );*/
+      /**plId = InterlockedIncrement( &amp;m_lLastId );*/
 
       // Add the object to an array of
       // objects to refresh.
       //For example, use:
-      /*pMyRefr->AddInstance( *plId, pCloneAcc );*/
+      /*pMyRefr-&gt;AddInstance( *plId, pCloneAcc );*/
 
       // Maintains AddRef from QI
       *ppRefreshable = pCloneAcc;
 
-      pTemplateObj->Release();
-      pCloneObj->Release();
+      pTemplateObj-&gt;Release();
+      pCloneObj-&gt;Release();
     }
     else
     {
       hres = WBEM_E_NOT_FOUND;
     }
 
-    pMyRefr->Release();
+    pMyRefr-&gt;Release();
   }
 
   return hres;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: Header_GetOrderArray macro
 author: windows-sdk-content
 description: Gets the current left-to-right order of items in a header control. You can use this macro or send the HDM_GETORDERARRAY message explicitly.
 old-location: controls\Header_GetOrderArray.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getorderarray.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: Header_GetOrderArray, Header_GetOrderArray macro [Windows Controls], _win32_Header_GetOrderArray, _win32_Header_GetOrderArray_cpp, commctrl/Header_GetOrderArray, controls.Header_GetOrderArray, controls._win32_Header_GetOrderArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775343(v=VS.85).aspx">HDM_GETORDERARRAY</a> message explicitly. 
+Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/b287d3c1-ae61-41a4-a884-dc008eb24ad8">HDM_GETORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the current left-to-right order of items in a header control. You can use t
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
@@ -70,7 +70,7 @@ A handle to a header control.
 Type: <b>int</b>
 
 The number of integer elements that 
-					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://msdn.microsoft.com/en-us/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a>).
+					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://msdn.microsoft.com/0e6d2131-53b4-4927-bd0f-577b8eaf237a">HDM_GETITEMCOUNT</a>).
 
 
 ### -param lpi
@@ -86,9 +86,13 @@ A pointer to an array of integers that receive the index values for items in the
 
 The number of elements in <i>lpiArray</i> is specified in <i>iSize</i> and must be equal to the number of items in the control. For example, the following code fragment will reserve enough memory to hold the index values. 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 int iItems,
 
     *lpiArray;
@@ -101,9 +105,9 @@ if((iItems = SendMessage(hwndHD, HDM_GETITEMCOUNT, 0,0))!=-1)
 
     if(!(lpiArray = calloc(iItems,sizeof(int))))
 
-MessageBox(hwnd, "Out of memory.","Error", MB_OK);
-```
-
-
+MessageBox(hwnd, "Out of memory.","Error", MB_OK);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

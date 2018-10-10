@@ -87,7 +87,7 @@ A pointer to a null-terminated string that contains the title of the message box
 
 Type: <b>UINT</b>
 
-The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
+The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
 
 
 You must specify the buttons to be displayed by setting one and only one of the following flags.
@@ -218,18 +218,22 @@ Do not confuse "Do not show this dialog box" with "Remember this answer". <b>SHM
 			
             	
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 int iResult = SHMessageBoxCheck(hwnd, 
                                 TEXT("Do you want to exit without saving?"),
                                 TEXT("Warning"), 
                                 MB_YESNO, 
                                 IDNO,
-                                TEXT("{d9108ba3-9a61-4398-bfbc-b02102c77e8a}");
-```
-
-
+                                TEXT("{d9108ba3-9a61-4398-bfbc-b02102c77e8a}");</pre>
+</td>
+</tr>
+</table></span></div>
 If the user selects <b>In the future, do not show me this</b> dialog box and clicks the <b>Yes</b> button, <b>SHMessageBoxCheck</b> returns IDYES. However, the next time this code is executed, <b>SHMessageBoxCheck</b> does not return IDYES, even though the user selected <b>Yes</b> originally. Instead, it returns IDNO, because that is the value specified by <i>iDefault</i>.
 
 The default button displayed by the message box should agree with your <i>iDefault</i> value. The lack of support for the MB_DEFBUTTON2 flag means that <i>iDefault</i> should be set to IDOK if you have specified the MB_OK or MB_OKCANCEL flag. The <i>iDefault</i> value should be set to IDYES if you have set the MB_YESNO flag.

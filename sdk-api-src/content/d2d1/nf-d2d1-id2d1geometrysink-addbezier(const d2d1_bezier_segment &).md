@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GeometrySink_AddBezier_ref_D2D1_BEZIER_SEGMENT.htm
 tech.root: Direct2D
 ms.assetid: f6633960-eff5-4e51-9b08-c8a07c5e11d3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: AddBezier, AddBezier method [Direct2D], AddBezier method [Direct2D],ID2D1GeometrySink interface, ID2D1GeometrySink interface [Direct2D],AddBezier method, ID2D1GeometrySink.AddBezier, ID2D1GeometrySink.AddBezier(const D2D1_BEZIER_SEGMENT &), ID2D1GeometrySink::AddBezier, ID2D1GeometrySink::AddBezier(const D2D1_BEZIER_SEGMENT &), d2d1/ID2D1GeometrySink::AddBezier, direct2d.ID2D1GeometrySink_AddBezier_ref_D2D1_BEZIER_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

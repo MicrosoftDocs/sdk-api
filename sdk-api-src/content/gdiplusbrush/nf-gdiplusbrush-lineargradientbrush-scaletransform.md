@@ -75,23 +75,23 @@ Real number that specifies the amount to scale in the y direction.
 
 ### -param order [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a></b>
+Type: <b><a href="https://msdn.microsoft.com/df4771b2-f3c0-41c3-b2a9-4eb460162f84">MatrixOrder</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a> enumeration that specifies the order of the multiplication. MatrixOrderPrepend specifies that the scaling matrix is on the left, and MatrixOrderAppend specifies that the scaling matrix is on the right. The default value is MatrixOrderPrepend. 
+Optional. Element of the <a href="https://msdn.microsoft.com/df4771b2-f3c0-41c3-b2a9-4eb460162f84">MatrixOrder</a> enumeration that specifies the order of the multiplication. MatrixOrderPrepend specifies that the scaling matrix is on the left, and MatrixOrderAppend specifies that the scaling matrix is on the right. The default value is MatrixOrderPrepend. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -114,9 +114,13 @@ The order of matrix multiplication is important. In general, the matrix product 
 
 The following example creates a linear gradient brush and uses it to fill a rectangle. Next, the code modifies the brush's transformation matrix, applying a composite transformation, and then fills a rectangle with the transformed brush.
 
-
-```cpp
-VOID Example_ScaleTrans(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_ScaleTrans(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -127,18 +131,18 @@ VOID Example_ScaleTrans(HDC hdc)
       LinearGradientModeHorizontal);
 
    // Fill a large area with the linear gradient brush (no transformation).
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 800, 150);
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 800, 150);
 
    // Apply a composite transformation: first translate, then scale.
    linGrBrush.TranslateTransform(60, 0);            // horizontal translation
    linGrBrush.ScaleTransform(2, MatrixOrderAppend); // horizontal doubling
 
    // Fill a large area with the transformed linear gradient brush.
-   myGraphics.FillRectangle(&linGrBrush, 0, 200, 800, 150);  
-}
-```
-
-
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 200, 800, 150);  
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -147,51 +151,51 @@ VOID Example_ScaleTrans(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533806(v=VS.85).aspx">Filling Shapes with a Gradient Brush</a>
+<a href="https://msdn.microsoft.com/e37b4c3a-b753-483a-990f-da3bcc70acf5">Filling Shapes with a Gradient Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535338(v=VS.85).aspx">LinearGradientBrush::MultiplyTransform</a>
+<a href="https://msdn.microsoft.com/3a12c39a-a8bc-4960-a107-c8cb87af7ced">LinearGradientBrush::MultiplyTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535340(v=VS.85).aspx">LinearGradientBrush::RotateTransform</a>
+<a href="https://msdn.microsoft.com/03a1a931-36a0-434b-b444-f9a6a01fb5b8">LinearGradientBrush::RotateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535350(v=VS.85).aspx">LinearGradientBrush::TranslateTransform</a>
+<a href="https://msdn.microsoft.com/ccf868a8-b5ea-40f7-b153-90b082a55374">LinearGradientBrush::TranslateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534144(v=VS.85).aspx">LinearGradientMode</a>
+<a href="https://msdn.microsoft.com/ad3cce3d-67f3-4f7a-84d0-4319425de07a">LinearGradientMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+<a href="https://msdn.microsoft.com/62215ae0-b095-42b2-911c-aa7607a8b61a">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a>
+<a href="https://msdn.microsoft.com/df4771b2-f3c0-41c3-b2a9-4eb460162f84">MatrixOrder</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/4acf3d70-f119-4a5b-a20d-8adea453556f">Transformations</a>
  
 
  

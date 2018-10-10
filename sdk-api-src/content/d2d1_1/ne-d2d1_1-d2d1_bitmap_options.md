@@ -7,7 +7,7 @@ old-location: direct2d\__d2d1_bitmap_options.htm
 tech.root: Direct2D
 ms.assetid: c080e23e-99c4-46ed-8b21-be26dec288af
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: D2D1_BITMAP_OPTIONS, D2D1_BITMAP_OPTIONS enumeration [Direct2D], D2D1_BITMAP_OPTIONS_CANNOT_DRAW, D2D1_BITMAP_OPTIONS_CPU_READ, D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE, D2D1_BITMAP_OPTIONS_NONE, D2D1_BITMAP_OPTIONS_TARGET, d2d1_1/D2D1_BITMAP_OPTIONS, d2d1_1/D2D1_BITMAP_OPTIONS_CANNOT_DRAW, d2d1_1/D2D1_BITMAP_OPTIONS_CPU_READ, d2d1_1/D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE, d2d1_1/D2D1_BITMAP_OPTIONS_NONE, d2d1_1/D2D1_BITMAP_OPTIONS_TARGET, direct2d.__d2d1_bitmap_options
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ The bitmap works with <a href="https://msdn.microsoft.com/40797258-84a0-44ee-8b6
 
 <div class="alert"><b>Note</b>  You should only use <b>D2D1_BITMAP_OPTIONS_CANNOT_DRAW</b> is when the purpose of the bitmap is to be a target only or when the bitmap will be mapped .</div>
 <div> </div>
-<b>D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE</b> means that it is possible to get a DC associated with this bitmap.  This must be used in conjunction with <b>D2D1_BITMAP_OPTIONS_TARGET</b>. The <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> must be either <b>DXGI_FORMAT_B8G8R8A8_UNORM</b> or <b>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</b>.
+<b>D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE</b> means that it is possible to get a DC associated with this bitmap.  This must be used in conjunction with <b>D2D1_BITMAP_OPTIONS_TARGET</b>. The <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> must be either <b>DXGI_FORMAT_B8G8R8A8_UNORM</b> or <b>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</b>.
 
 
 

@@ -3,12 +3,12 @@ UID: NF:d2d1_3.ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F &)
 title: ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F &)
 author: windows-sdk-content
 description: Sets the transform to apply to this style's nib shape.
-old-location: direct2d\id2d1inkstyle_setnibtransform.htm
+old-location: direct2d\id2d1inkstyle_setnibtransform_2.htm
 tech.root: Direct2D
-ms.assetid: AE51951F-D8EA-46DD-8239-E1EAD2D9BD5C
+ms.assetid: CA8AD85B-F292-4E8B-A7FE-D9E8E269F644
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibTransform method, ID2D1InkStyle.SetNibTransform, ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F &), ID2D1InkStyle::SetNibTransform, ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F &), SetNibTransform, SetNibTransform method [Direct2D], SetNibTransform method [Direct2D],ID2D1InkStyle interface, d2d1_3/ID2D1InkStyle::SetNibTransform, direct2d.id2d1inkstyle_setnibtransform
+ms.date: 10/09/2018
+ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibTransform method, ID2D1InkStyle.SetNibTransform, ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F &), ID2D1InkStyle::SetNibTransform, ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F &), SetNibTransform, SetNibTransform method [Direct2D], SetNibTransform method [Direct2D],ID2D1InkStyle interface, d2d1_3/ID2D1InkStyle::SetNibTransform, direct2d.id2d1inkstyle_setnibtransform_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,9 +58,9 @@ Sets the transform to apply to this style's nib shape.
 
 
 
-### -param transform [in]
+### -param transform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 The transform to apply to this style’s nib shape. Note that the translation components of the transform matrix are ignored for the purposes of rendering.
 

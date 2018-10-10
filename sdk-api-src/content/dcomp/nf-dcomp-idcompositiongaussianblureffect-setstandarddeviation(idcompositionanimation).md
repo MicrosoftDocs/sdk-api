@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionGaussianBlurEffect.SetStandardDeviation(IDComposition
 title: IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the amount of blur to be applied to the image.
-old-location: directcomp\idcompositiongaussianblureffect_setstandarddeviation.htm
+old-location: directcomp\idcompositiongaussianblureffect_setstandarddeviation_2.htm
 tech.root: directcomp
-ms.assetid: 8C4BD86D-F15A-4F5C-9411-2C89A74E8370
+ms.assetid: EBDB097C-4B79-4E38-A09E-48FAFE6E5553
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionGaussianBlurEffect.SetStandardDeviation, IDCompositionGaussianBlurEffect.SetStandardDeviation(IDCompositionAnimation), IDCompositionGaussianBlurEffect::SetStandardDeviation, IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation, directcomp.idcompositiongaussianblureffect_setstandarddeviation
+ms.date: 10/09/2018
+ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionGaussianBlurEffect.SetStandardDeviation, IDCompositionGaussianBlurEffect.SetStandardDeviation(IDCompositionAnimation), IDCompositionGaussianBlurEffect::SetStandardDeviation, IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation, directcomp.idcompositiongaussianblureffect_setstandarddeviation_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,20 +58,13 @@ Sets the amount of blur to be applied to the image.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - amount [in]
-
-Type: <b>float</b>
-
-The amount of blur to be applied to the image. You can compute the blur radius of the kernel by multiplying the standard deviation by 3.
-            The units of both the standard deviation and blur radius are DIPs. A value of zero DIPs disables this effect entirely.
-          
+An animation that represents how the amount of blur changes over time. You can compute the blur radius of the kernel by multiplying the standard deviation by 3. 
+          The units of both the standard deviation and blur radius are DIPs. A value of zero DIPs disables this effect entirely. 
+          This parameter must not be NULL.
 
 
 ## -returns

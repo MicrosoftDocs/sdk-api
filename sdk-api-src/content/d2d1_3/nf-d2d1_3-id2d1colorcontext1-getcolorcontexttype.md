@@ -7,7 +7,7 @@ old-location: direct2d\id2d1colorcontext1_getcolorcontexttype.htm
 tech.root: Direct2D
 ms.assetid: 9A9E4EE4-943B-4332-B9F1-269CF629A8FA
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetColorContextType, GetColorContextType method [Direct2D], GetColorContextType method [Direct2D],ID2D1ColorContext1 interface, ID2D1ColorContext1 interface [Direct2D],GetColorContextType method, ID2D1ColorContext1.GetColorContextType, ID2D1ColorContext1::GetColorContextType, d2d1_3/ID2D1ColorContext1::GetColorContextType, direct2d.id2d1colorcontext1_getcolorcontexttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

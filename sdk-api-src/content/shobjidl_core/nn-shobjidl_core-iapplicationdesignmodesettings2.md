@@ -145,39 +145,43 @@ This interface is acquired by cocreating CLSID_ApplicationDesignModeSettings. It
 
 In this example, Visual Studio is launching an application in design mode that has overridden the minimum width on a display of size 1366x768. It is then enabling a slider control that allows the user to dynamically change the applications width. To do this, it needs to use the new <a href="https://msdn.microsoft.com/6132E0B9-E2B9-4768-909A-9D93A3F3A11C">SetApplicationViewMinWidth</a> and <a href="https://msdn.microsoft.com/7DFAFE5A-8F19-471C-9B09-43645F26F156">GetApplicationSizeBounds</a>APIs to compute the minimum and maximum sizes allowed for this type of application.
 
-
-```cpp
-ComPtr<IApplicationDesignModeSettings> spDesignModeSettings;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ComPtr&lt;IApplicationDesignModeSettings&gt; spDesignModeSettings;
 
 // CoCreate the design mode settings object
-HRESULT hr = CoCreateInstance(CLSID_ApplicationDesignModeSettings, nullptr, CLSCTX_INPROC, IID_PPV_ARGS(&spDesignModeSettings));
+HRESULT hr = CoCreateInstance(CLSID_ApplicationDesignModeSettings, nullptr, CLSCTX_INPROC, IID_PPV_ARGS(&amp;spDesignModeSettings));
 if (SUCCEEDED(hr))
 {
-    ComPtr<IInitializeWithWindow> spInitializeWithWindow;
-    hr = pDesignModeSettings->QueryInterface(IID_PPV_ARGS(&spInitializeWithWindow);
+    ComPtr&lt;IInitializeWithWindow&gt; spInitializeWithWindow;
+    hr = pDesignModeSettings-&gt;QueryInterface(IID_PPV_ARGS(&amp;spInitializeWithWindow);
     if (SUCCEEDED(hr))
     {
         // Before we set any design mode state, we must first initialize the
         // design mode settings object with a proxy core window. Since apps
         // running in design mode don't have an actual core window, we must
         // supply an HWND that can be used as a proxy.
-        hr = spInitializeWithWindow->Initialize(hwndProxyCoreWindow);
+        hr = spInitializeWithWindow-&gt;Initialize(hwndProxyCoreWindow);
     }
 
     if (SUCCEEDED(hr))
     {
         // Set the native display size to 1366x768
         SIZE sizeDisplay = {1366, 768};
-        hr = spDesignModeSettings->SetNativeDisplaySize(sizeDisplay);
+        hr = spDesignModeSettings-&gt;SetNativeDisplaySize(sizeDisplay);
         if (SUCCEEDED(hr))
         {
             // Set the native display orientation to landscape
-            hr = spDesignModeSettings->SetNativeDisplayOrientation(NDO_LANDSCAPE);
+            hr = spDesignModeSettings-&gt;SetNativeDisplayOrientation(NDO_LANDSCAPE);
             if (SUCCEEDED(hr))
             {
                 // Set the scale factor to 100%
                 DEVICE_SCALE_FACTOR scaleFactor = SCALE_100_PERCENT;
-                hr = spDesignModeSettings->SetScaleFactor(scaleFactor);
+                hr = spDesignModeSettings-&gt;SetScaleFactor(scaleFactor);
             }
         }
     }
@@ -186,12 +190,12 @@ if (SUCCEEDED(hr))
     {
 
         // Override the app’s minimum width
-        hr = spDesignModeSettings->SetApplicationViewMinWidth(AVMW_320);
+        hr = spDesignModeSettings-&gt;SetApplicationViewMinWidth(AVMW_320);
         if (SUCCEEDED(hr))
         {
             SIZE sizeAppMin;
             SIZE sizeAppMax;
-            hr = spDesignModeSettings->GetApplicationSizeBounds(&sizeAppMin, &sizeAppMax);
+            hr = spDesignModeSettings-&gt;GetApplicationSizeBounds(&amp;sizeAppMin, &amp;sizeAppMax);
             if (SUCCEEDED(hr))
             {
                 // Push the min and max size to the slider control,
@@ -201,11 +205,11 @@ if (SUCCEEDED(hr))
                 // Start by sizing the app to its min bound, so compute the                         
                 // resulting view orientation
                 APPLICATION_VIEW_ORIENTATION viewOrientation;
-                hr = spDesignModeSettings->GetApplicationViewOrientation(sizeAppMin, &viewOrientation);
+                hr = spDesignModeSettings-&gt;GetApplicationViewOrientation(sizeAppMin, &amp;viewOrientation);
                 if (SUCCEEDED(hr))
                 {
                     // Set the app view orientation
-                    hr = spDesignModeSettings->SetApplicationViewOrientation(viewOrientation);
+                    hr = spDesignModeSettings-&gt;SetApplicationViewOrientation(viewOrientation);
                 }
             }
         }
@@ -214,13 +218,13 @@ if (SUCCEEDED(hr))
     if (SUCCEEDED(hr))
     {
         // Set the adjacent display edges so that the app is touching just the left edge of the screen
-        hr = spDesignModeSettings->SetAdjacentDisplayEdges(ADE_LEFT);
+        hr = spDesignModeSettings-&gt;SetAdjacentDisplayEdges(ADE_LEFT);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

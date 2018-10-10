@@ -3,12 +3,12 @@ UID: NF:d2d1_3.ID2D1DeviceContext2.CreateInkStyle(const D2D1_INK_STYLE_PROPERTIE
 title: ID2D1DeviceContext2::CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1InkStyle)
 author: windows-sdk-content
 description: Creates a new ID2D1InkStyle object, for use with ink rendering methods such as DrawInk.
-old-location: direct2d\id2d1devicecontext2_createinkstyle.htm
+old-location: direct2d\id2d1devicecontext2_createinkstyle2.htm
 tech.root: Direct2D
-ms.assetid: 6d219a50-da5f-b5ff-e819-70b2dc5f538c
+ms.assetid: 167cd3d8-3a10-7af8-c181-1cbc4ec32b46
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: CreateInkStyle, CreateInkStyle method [Direct2D], CreateInkStyle method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateInkStyle method, ID2D1DeviceContext2.CreateInkStyle, ID2D1DeviceContext2.CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1InkStyle), ID2D1DeviceContext2::CreateInkStyle, ID2D1DeviceContext2::CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1InkStyle), d2d1_3/ID2D1DeviceContext2::CreateInkStyle, direct2d.id2d1devicecontext2_createinkstyle
+ms.date: 10/09/2018
+ms.keywords: CreateInkStyle, CreateInkStyle method [Direct2D], CreateInkStyle method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateInkStyle method, ID2D1DeviceContext2.CreateInkStyle, ID2D1DeviceContext2.CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1InkStyle), ID2D1DeviceContext2::CreateInkStyle, ID2D1DeviceContext2::CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1InkStyle), d2d1_3/ID2D1DeviceContext2::CreateInkStyle, direct2d.id2d1devicecontext2_createinkstyle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -59,9 +59,9 @@ Creates a new <a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069D
 
 
 
-### -param inkStyleProperties [ref]
+### -param inkStyleProperties [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a>*</b>
 
 The properties of the ink style to be created.
 

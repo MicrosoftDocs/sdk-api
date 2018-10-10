@@ -4,10 +4,10 @@ title: FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0_
 author: windows-sdk-content
 description: Used to subscribe for change notifications.
 old-location: fwp\fwpm_provider_context_subscription0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 44c01600-7cb6-45f4-a2e1-746f200ee772
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0, FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0 structure [Filtering], FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0_, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_provider_context_subscription0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0
 ms.prod: windows
 ms.technology: windows-sdk

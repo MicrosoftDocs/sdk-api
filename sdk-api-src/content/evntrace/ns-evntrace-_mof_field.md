@@ -7,7 +7,7 @@ old-location: etw\mof_field.htm
 tech.root: etw
 ms.assetid: 64ff1191-2177-4d51-afcd-b58d510e9ae8
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: "*PMOF_FIELD, MOF_FIELD, MOF_FIELD structure [ETW], PMOF_FIELD, PMOF_FIELD structure pointer [ETW], _MOF_FIELD, _evt_mof_field, base.mof_field, etw.mof_field, evntrace/MOF_FIELD, evntrace/PMOF_FIELD"
 ms.prod: windows
 ms.technology: windows-sdk

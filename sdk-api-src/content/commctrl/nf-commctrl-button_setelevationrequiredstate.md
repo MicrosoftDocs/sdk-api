@@ -4,10 +4,10 @@ title: Button_SetElevationRequiredState macro
 author: windows-sdk-content
 description: Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the BCM_SETSHIELD message explicitly.
 old-location: controls\Button_SetElevationRequiredState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setelevationrequiredstate.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: Button_SetElevationRequiredState, Button_SetElevationRequiredState macro [Windows Controls], _shell_Button_SetElevationRequiredState, _shell_Button_SetElevationRequiredState_cpp, commctrl/Button_SetElevationRequiredState, controls.Button_SetElevationRequiredState, controls._shell_Button_SetElevationRequiredState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775979(v=VS.85).aspx">BCM_SETSHIELD</a> message explicitly. 
+Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the <a href="https://msdn.microsoft.com/2ce2a006-7136-415b-824b-46b282b100f4">BCM_SETSHIELD</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Sets the elevation required state for a specified button or command link to disp
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the button control. 
 
 
 ### -param fRequired [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 <b>TRUE</b> to draw an elevated icon, or <b>FALSE</b> otherwise.
 

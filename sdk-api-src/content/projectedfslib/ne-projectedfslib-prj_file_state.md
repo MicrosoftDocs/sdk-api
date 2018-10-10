@@ -2,12 +2,12 @@
 UID: NE:projectedfslib.PRJ_FILE_STATE
 title: PRJ_FILE_STATE
 author: windows-sdk-content
-description: TBD.
+description: The state of an item.
 old-location: projfs\prj_file_state.htm
 tech.root: ProjFS
 ms.assetid: 9474C21B-47D4-468F-A970-0B0CBCF357A3
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PRJ_FILE_STATE, PRJ_FILE_STATE enumeration, PRJ_FILE_STATE_DIRTY_PLACEHOLDER, PRJ_FILE_STATE_FULL, PRJ_FILE_STATE_HYDRATED_PLACEHOLDER, PRJ_FILE_STATE_PLACEHOLDER, PRJ_FILE_STATE_TOMBSTONE, ProjFS.prj_file_state, projectedfslib/PRJ_FILE_STATE, projectedfslib/PRJ_FILE_STATE_DIRTY_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_FULL, projectedfslib/PRJ_FILE_STATE_HYDRATED_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_TOMBSTONE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_FILE_STATE
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+The state of an item.
 
 
 ## -enum-fields
@@ -59,25 +60,34 @@ TBD
 
 ### -field PRJ_FILE_STATE_PLACEHOLDER
 
-TBD
+The item is a placeholder.
 
 
 ### -field PRJ_FILE_STATE_HYDRATED_PLACEHOLDER
 
-TBD
+The item is a hydrated placeholder, i.e., the item's content has been written to disk.
 
 
 ### -field PRJ_FILE_STATE_DIRTY_PLACEHOLDER
 
-TBD
+The placeholder item's metadata has been modified.
 
 
 ### -field PRJ_FILE_STATE_FULL
 
-TBD
+The item is full.
 
 
 ### -field PRJ_FILE_STATE_TOMBSTONE
 
-TBD
+The item is a tombstone.
+
+
+## -remarks
+
+
+
+The PRJ_FILE_STATE_FULL and PRJ_FILE_STATE_TOMBSTONE bits will not appear in combination with each other or any other bit.
+
+
 

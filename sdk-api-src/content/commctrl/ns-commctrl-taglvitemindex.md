@@ -4,10 +4,10 @@ title: tagLVITEMINDEX
 author: windows-sdk-content
 description: Contains index information about a list-view item.
 old-location: controls\LVITEMINDEX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitemindex.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "*PLVITEMINDEX, LVITEMINDEX, LVITEMINDEX structure [Windows Controls], PLVITEMINDEX, PLVITEMINDEX structure pointer [Windows Controls], _shell_LVITEMINDEX, _shell_LVITEMINDEX_cpp, commctrl/LVITEMINDEX, commctrl/PLVITEMINDEX, controls.LVITEMINDEX, controls._shell_LVITEMINDEX, tagLVITEMINDEX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The index of the group the item belongs to.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774959(v=VS.85).aspx">ListView_GetItemIndexRect</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774986(v=VS.85).aspx">ListView_GetNextItemIndex</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb775097(v=VS.85).aspx">ListView_SetItemIndexState</a> macros. It is also used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761046(v=VS.85).aspx">LVM_GETITEMINDEXRECT</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761059(v=VS.85).aspx">LVM_GETNEXTITEMINDEX</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb761190(v=VS.85).aspx">LVM_SETITEMINDEXSTATE</a> messages.
+This structure is used with the <a href="https://msdn.microsoft.com/eaf8e840-c057-41d4-bfc5-fdd66be8c6be">ListView_GetItemIndexRect</a>, <a href="https://msdn.microsoft.com/94a8e032-37c8-4ba0-99fe-6c2d77f0f2ee">ListView_GetNextItemIndex</a>, and <a href="https://msdn.microsoft.com/f1531cbd-d04a-4a12-9f29-d65122a1fb2c">ListView_SetItemIndexState</a> macros. It is also used with the <a href="https://msdn.microsoft.com/17704d24-c029-4d41-b198-04d1e78698e0">LVM_GETITEMINDEXRECT</a>, <a href="https://msdn.microsoft.com/84cfeb24-83b5-4028-a4ca-97c39ae3c817">LVM_GETNEXTITEMINDEX</a>, and <a href="https://msdn.microsoft.com/9fea6420-320a-4d2a-84b5-7923fbb14655">LVM_SETITEMINDEXSTATE</a> messages.
 
 
 

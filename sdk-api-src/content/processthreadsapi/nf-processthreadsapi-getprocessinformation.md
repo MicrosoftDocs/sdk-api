@@ -4,10 +4,10 @@ title: GetProcessInformation function
 author: windows-sdk-content
 description: Retrieves information about the specified process.
 old-location: base\getprocessinformation.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 2b075405-b7b6-4da0-b78d-45eaa9c6c8cd
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetProcessInformation, GetProcessInformation function, base.getprocessinformation, processthreadsapi/GetProcessInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

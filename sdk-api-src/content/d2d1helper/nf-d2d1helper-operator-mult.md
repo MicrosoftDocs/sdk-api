@@ -7,7 +7,7 @@ old-location: direct2d\operator__const__amp_d2d1_matrix_3x2_f_const__amp_d2d1_ma
 tech.root: Direct2D
 ms.assetid: ba810ab8-53fe-4c7d-8e47-043ae57e4323
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: direct2d.operator__const__amp_d2d1_matrix_3x2_f_const__amp_d2d1_matrix_3x2_f_, operator*, operator* function [Direct2D], operator*(const D2D1_MATRIX_3X2_F&,const D2D1_MATRIX_3X2_F&), windowsnumerics/operator*
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: etw\trace_guid_info.htm
 tech.root: etw
 ms.assetid: 2c484adf-605d-420b-8059-942b35305acd
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: "*PTRACE_GUID_INFO, PTRACE_GUID_INFO, PTRACE_GUID_INFO structure pointer [ETW], TRACE_GUID_INFO, TRACE_GUID_INFO structure [ETW], _TRACE_GUID_INFO, etw.trace_guid_info, evntrace/PTRACE_GUID_INFO, evntrace/TRACE_GUID_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

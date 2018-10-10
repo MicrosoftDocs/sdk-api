@@ -2,21 +2,21 @@
 UID: NF:shobjidl_core.IPackageDebugSettings.RegisterForPackageStateChanges
 title: IPackageDebugSettings::RegisterForPackageStateChanges
 author: windows-sdk-content
-description: Register for package state-change notifications.
-old-location: shell\IPackageDebugSettings_RegisterForPackageStateChanges.htm
-tech.root: shell
-ms.assetid: D0E26154-DADB-499D-A434-8211196E2F5F
+description: Registers for changes in the state of the processes of the specified package.
+old-location: winrt\ipackagedebugsettings_registerforpackagestatechanges.htm
+tech.root: WinRT
+ms.assetid: B53CF95C-FD40-45E2-869B-32F089986D13
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: IPackageDebugSettings interface [Windows Shell],RegisterForPackageStateChanges method, IPackageDebugSettings.RegisterForPackageStateChanges, IPackageDebugSettings::RegisterForPackageStateChanges, RegisterForPackageStateChanges, RegisterForPackageStateChanges method [Windows Shell], RegisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_RegisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges
+ms.date: 09/26/2018
+ms.keywords: IPackageDebugSettings interface [Windows Runtime],RegisterForPackageStateChanges method, IPackageDebugSettings.RegisterForPackageStateChanges, IPackageDebugSettings::RegisterForPackageStateChanges, RegisterForPackageStateChanges, RegisterForPackageStateChanges method [Windows Runtime], RegisterForPackageStateChanges method [Windows Runtime],IPackageDebugSettings interface, shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges, winrt.ipackagedebugsettings_registerforpackagestatechanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - Shobjidl_core.h
+ - shobjidl_core.h
 api_name:
  - IPackageDebugSettings.RegisterForPackageStateChanges
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Register for package state-change notifications.
+Registers for changes in the state of the processes of the specified package.
 
 
 ## -parameters
@@ -60,35 +60,32 @@ Register for package state-change notifications.
 
 ### -param packageFullName [in]
 
+Type: <b>LPCWSTR</b>
+
 The package full name.
 
 
 ### -param pPackageExecutionStateChangeNotification [in]
 
-Package state-change notifications are delivered by the <a href="https://msdn.microsoft.com/254986AF-4572-4D63-B055-1C05A8FB0417">OnStateChanged</a> function on <i>pPackageExecutionStateChangeNotification</i>.
+Type: <b>IPackageExecutionStateChangeNotification*</b>
+
+A pointer to the <a href="https://msdn.microsoft.com/6AD9A9CD-933B-432F-A124-48092588C5DF">IPackageExecutionStateChangeNotification</a> interface that represent the change notification.
 
 
 ### -param pdwCookie [out]
 
-A unique registration identifier for the current listener. Use this identifier  to unregister for package state-change notifications by using the <a href="https://msdn.microsoft.com/CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB">UnregisterForPackageStateChanges</a> method.
+Type: <b>DWORD*</b>
+
+A pointer to a variable that receives the cookie that is used to unregister by calling <a href="https://msdn.microsoft.com/7EC7CCCB-1AE6-458C-A92C-4D303717EA15">UnregisterForPackageStateChanges</a>. 
 
 
 ## -returns
 
 
 
+Type: <b>HRESULT</b>
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
-
-## -remarks
-
-
-
-Notifications are raised when the package enters the running,
-suspending, and
-suspended states.
 
 
 
@@ -98,15 +95,7 @@ suspended states.
 
 
 
-<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
-
-
-
-<a href="https://msdn.microsoft.com/6AD9A9CD-933B-432F-A124-48092588C5DF">IPackageExecutionStateChangeNotification</a>
-
-
-
-<a href="https://msdn.microsoft.com/CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB">UnregisterForPackageStateChanges</a>
+<a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a>
  
 
  

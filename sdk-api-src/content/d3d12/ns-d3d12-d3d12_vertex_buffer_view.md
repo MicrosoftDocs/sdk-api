@@ -77,7 +77,7 @@ Specifies the size in bytes of each vertex entry.
 
 
 
-Use this structure with the <a href="https://msdn.microsoft.com/en-us/library/Dn986883(v=VS.85).aspx">IASetVertexBuffers</a> method.
+Use this structure with the <a href="https://msdn.microsoft.com/AADD6CEF-376D-43AB-86E6-37B5D7DD0B25">IASetVertexBuffers</a> method.
 
 
 
@@ -87,7 +87,7 @@ Use this structure with the <a href="https://msdn.microsoft.com/en-us/library/Dn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

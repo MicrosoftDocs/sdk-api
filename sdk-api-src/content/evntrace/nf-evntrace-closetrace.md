@@ -7,7 +7,7 @@ old-location: etw\closetrace.htm
 tech.root: etw
 ms.assetid: 25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: CloseTrace, CloseTrace function [ETW], _evt_closetrace, base.closetrace, etw.closetrace, evntrace/CloseTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

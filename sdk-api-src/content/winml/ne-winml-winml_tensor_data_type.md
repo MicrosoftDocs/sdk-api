@@ -7,7 +7,7 @@ old-location: machinelearning\winml_tensor_data_type.htm
 tech.root: MachineLearning
 ms.assetid: A8EB60A1-F769-460F-8C94-5D1DE3A1820F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: MachineLearning.winml_tensor_data_type, WINML_TENSOR_BOOLEAN, WINML_TENSOR_COMPLEX128, WINML_TENSOR_COMPLEX64, WINML_TENSOR_DATA_TYPE, WINML_TENSOR_DATA_TYPE enumeration, WINML_TENSOR_DOUBLE, WINML_TENSOR_FLOAT, WINML_TENSOR_FLOAT16, WINML_TENSOR_INT16, WINML_TENSOR_INT32, WINML_TENSOR_INT64, WINML_TENSOR_INT8, WINML_TENSOR_STRING, WINML_TENSOR_UINT16, WINML_TENSOR_UINT32, WINML_TENSOR_UINT64, WINML_TENSOR_UINT8, WINML_TENSOR_UNDEFINED, winml/WINML_TENSOR_BOOLEAN, winml/WINML_TENSOR_COMPLEX128, winml/WINML_TENSOR_COMPLEX64, winml/WINML_TENSOR_DATA_TYPE, winml/WINML_TENSOR_DOUBLE, winml/WINML_TENSOR_FLOAT, winml/WINML_TENSOR_FLOAT16, winml/WINML_TENSOR_INT16, winml/WINML_TENSOR_INT32, winml/WINML_TENSOR_INT64, winml/WINML_TENSOR_INT8, winml/WINML_TENSOR_STRING, winml/WINML_TENSOR_UINT16, winml/WINML_TENSOR_UINT32, winml/WINML_TENSOR_UINT64, winml/WINML_TENSOR_UINT8, winml/WINML_TENSOR_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,6 +51,8 @@ req.redist:
 
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Specifies the different data types of WinML tensors.
 

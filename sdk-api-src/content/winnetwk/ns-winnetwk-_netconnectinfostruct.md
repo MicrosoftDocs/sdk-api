@@ -2,21 +2,21 @@
 UID: NS:winnetwk._NETCONNECTINFOSTRUCT
 title: "_NETCONNECTINFOSTRUCT"
 author: windows-sdk-content
-description: The NETCONNECTINFOSTRUCT structure contains information about the performance of a network. It is used by the NPGetConnectionPerformance function.
-old-location: security\netconnectinfostruct.htm
-tech.root: secauthn
-ms.assetid: 0309667e-cb6c-406f-bb48-ed16602d38b2
+description: Contains information about the expected performance of a connection used to access a network resource.
+old-location: wnet\netconnectinfostruct_str.htm
+tech.root: WNet
+ms.assetid: 977c717d-7624-46ab-b17d-25f42ef68be8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: "*LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT structure pointer [Security], NETCONNECTINFOSTRUCT, NETCONNECTINFOSTRUCT structure [Security], WNCON_DYNAMIC, WNCON_FORNETCARD, WNCON_NOTROUTED, WNCON_SLOWLINK, _NETCONNECTINFOSTRUCT, _mnp_netconnectinfostruct, security.netconnectinfostruct, winnetwk/LPNETCONNECTINFOSTRUCT, winnetwk/NETCONNECTINFOSTRUCT"
+ms.date: 09/26/2018
+ms.keywords: "*LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT structure pointer [Windows Networking (WNet)], NETCONNECTINFOSTRUCT, NETCONNECTINFOSTRUCT structure [Windows Networking (WNet)], WNCON_DYNAMIC, WNCON_FORNETCARD, WNCON_NOTROUTED, WNCON_SLOWLINK, _NETCONNECTINFOSTRUCT, _win32_netconnectinfostruct_str, winnetwk/LPNETCONNECTINFOSTRUCT, winnetwk/NETCONNECTINFOSTRUCT, wnet.netconnectinfostruct_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,8 +50,9 @@ req.redist:
 ## -description
 
 
-The <b>NETCONNECTINFOSTRUCT</b> structure contains information about the performance of a network. It is used by the 
-<a href="https://msdn.microsoft.com/8ab9fa3b-50f4-492d-a352-8e215b2d62c1">NPGetConnectionPerformance</a> function.
+The
+				<b>NETCONNECTINFOSTRUCT</b> structure contains information about the expected performance of a connection used to access a network resource. The information is returned by the 
+<a href="https://msdn.microsoft.com/3ec4a397-e0d4-419c-9e12-6d76a87b1ca0">MultinetGetConnectionPerformance</a> function.
 
 
 ## -struct-fields
@@ -61,12 +62,19 @@ The <b>NETCONNECTINFOSTRUCT</b> structure contains information about the perform
 
 ### -field cbStructure
 
-The size of the <b>NETCONNECTINFOSTRUCT</b> structure, in bytes. This is filled in by the caller to indicate the size of the structure passed in. The network provider should leave this field unchanged and can assume that the structure is large enough to contain all fields up to and including <b>dwOptDataSize</b>.
+Type: <b>DWORD</b>
+
+The size, in bytes, of the 
+<b>NETCONNECTINFOSTRUCT</b> structure. The caller must supply this value.
 
 
 ### -field dwFlags
 
-This is a bitmask which may have one or more of the following flags.
+Type: <b>DWORD</b>
+
+A set of bit flags describing the connection. This member can be one or more of the following values. 
+
+
 
 <table>
 <tr>
@@ -79,12 +87,12 @@ This is a bitmask which may have one or more of the following flags.
 </dl>
 </td>
 <td width="60%">
-If set, the information returned is for the performance of the netcard used for the connection. This information is returned if information about the actual connection is not available. 
+In the absence of information about the actual connection, the information returned applies to the performance of the network card. 
 
 
 
 
-If not set, the information returned is for the current connection with the resource, with any routing degradation taken into consideration.
+If this flag is not set, information is being returned for the current connection with the resource, with any routing degradation taken into consideration.
 
 </td>
 </tr>
@@ -94,12 +102,12 @@ If not set, the information returned is for the current connection with the reso
 </dl>
 </td>
 <td width="60%">
-If set, the connection is not treated as being routed. In other words, routing is not taken into account when estimating the performance. This means actual performance may be much less than the information returned. 
+The connection is not being routed. 
 
 
 
 
-If not set, the connection may be going through routers that limit performance.
+If this flag is not set, the connection may be going through routers that limit performance. Consequently, if WNCON_FORNETCARD is set, actual performance may be much less than the information returned.
 
 </td>
 </tr>
@@ -109,12 +117,7 @@ If not set, the connection may be going through routers that limit performance.
 </dl>
 </td>
 <td width="60%">
-If set, the connection is known at some point to be over a medium that is typically slow (for example, a modem using a normal quality phone line). 
-
-
-
-
-Providers that return a value in <b>dwSpeed</b> do not have to set this bit.
+The connection is over a medium that is typically slow (for example, over a modem using a normal quality phone line). You should not set the WNCON_SLOWLINK bit if the <b>dwSpeed</b> member is set to a nonzero value.
 
 </td>
 </tr>
@@ -124,7 +127,7 @@ Providers that return a value in <b>dwSpeed</b> do not have to set this bit.
 </dl>
 </td>
 <td width="60%">
-If set, some of the information returned is dynamically recalculated. If that is the case, reissuing this request on the connection may return different, more current, information.
+Some of the information returned is calculated dynamically, so reissuing this request may return different (and more current) information.
 
 </td>
 </tr>
@@ -134,15 +137,65 @@ If set, some of the information returned is dynamically recalculated. If that is
 
 ### -field dwSpeed
 
-The speed of the media to the network resource in units of 100bps. For example, a 1,200 baud point-to-point link returns 12.
+Type: <b>DWORD</b>
+
+Speed of the media to the network resource, in  100 bits-per-second (bps). 
+
+
+
+
+For example, a 1200 baud point-to-point link returns 12. A value of zero indicates that no information is available. A value of one indicates that the actual value is greater than the maximum that can be represented by the member.
 
 
 ### -field dwDelay
 
-The delay introduced by the network when sending information, in milliseconds. In other words, the time between when the network starts to send data and the time it is received. This is in addition to any latency that was incorporated into the calculation of <b>dwSpeed</b>, so the value returned will be zero for accessing most resources.
+Type: <b>DWORD</b>
+
+One-way delay time that the network introduces when sending information, in milliseconds. (The delay is the time between when the network begins sending data and the time that the data starts being received.) This delay is in addition to any latency incorporated in the calculation of the <b>dwSpeed</b> member; therefore the value of this member is zero for most resources. 
+
+
+
+
+A value of zero indicates that no information is available. A value of one indicates that the actual value is greater than the maximum that can be represented by the member.
 
 
 ### -field dwOptDataSize
 
-A recommendation for the size of data, in bytes, that is most efficiently sent through the network when an application makes a single request to the network resource. For example, for a disk network resource, this value might be 2048 or 512 when writing a block of data.
+Type: <b>DWORD</b>
+
+Size of data that an application should use when making a single request to the network resource, in bytes. 
+
+
+
+
+For example, for a disk network resource, this value might be 2048 or 512 when writing a block of data. A value of zero indicates that no information is available.
+
+
+## -remarks
+
+
+
+ The <b>NETCONNECTINFOSTRUCT</b> structure is used in the 
+<a href="https://msdn.microsoft.com/3ec4a397-e0d4-419c-9e12-6d76a87b1ca0">MultinetGetConnectionPerformance</a> function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3ec4a397-e0d4-419c-9e12-6d76a87b1ca0">MultinetGetConnectionPerformance</a>
+
+
+
+<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows Networking (WNet) Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/7969ccbb-d1ae-4a1f-8b9c-862cc6ddef1a">Windows Networking Structures</a>
+ 
+
+ 
 

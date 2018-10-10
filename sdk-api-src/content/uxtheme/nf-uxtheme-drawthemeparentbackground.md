@@ -4,10 +4,10 @@ title: DrawThemeParentBackground function
 author: windows-sdk-content
 description: Draws the part of a parent control that is covered by a partially-transparent or alpha-blended child control.
 old-location: controls\DrawThemeParentBackground.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackground.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: DrawThemeParentBackground, DrawThemeParentBackground function [Windows Controls], controls.DrawThemeParentBackground, controls.inet_DrawThemeParentBackground, inet_DrawThemeParentBackground, inet_DrawThemeParentBackground_cpp, uxtheme/DrawThemeParentBackground
 ms.prod: windows-hardware
 ms.technology: windows-devices

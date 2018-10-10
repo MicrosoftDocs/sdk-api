@@ -76,23 +76,27 @@ The following example implementation by a list item provider calculates the boun
             based on its height and position within the containing list box.
 			
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE ListItemProvider::get_BoundingRectangle(UiaRect * pRetVal)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE ListItemProvider::get_BoundingRectangle(UiaRect * pRetVal)
 {
     if (pRetVal == NULL) return E_INVALIDARG;
 
     UiaRect parentRect;
-    HRESULT hr = m_parentProvider->get_BoundingRectangle(&parentRect);
-    pRetVal->left = parentRect.left;
-    pRetVal->top = parentRect.top + (m_pParentControl->m_itemHeight * m_itemIndex);
-    pRetVal->width = parentRect.width;
-    pRetVal->height = m_pParentControl->m_itemHeight;
+    HRESULT hr = m_parentProvider-&gt;get_BoundingRectangle(&amp;parentRect);
+    pRetVal-&gt;left = parentRect.left;
+    pRetVal-&gt;top = parentRect.top + (m_pParentControl-&gt;m_itemHeight * m_itemIndex);
+    pRetVal-&gt;width = parentRect.width;
+    pRetVal-&gt;height = m_pParentControl-&gt;m_itemHeight;
     return S_OK;
-}             
-```
-
-
+}             </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: wmi\iwbembackuprestoreex_resume.htm
 tech.root: WmiSdk
 ms.assetid: fa31860b-36f5-4182-a58c-b8747af0e628
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Resume method, IWbemBackupRestoreEx.Resume, IWbemBackupRestoreEx::Resume, Resume, Resume method [Windows Management Instrumentation], Resume method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Resume, wmi.iwbembackuprestoreex_resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,13 +82,17 @@ The <b>Resume</b> method should always be called when the <a href="https://msdn.
 
 The following C++ example shows how to call the <b>IWbemBackUpRestoreEx::Resume</b> method.
 
-
-```cpp
-// The pInt variable is of type IWbemBackupRestoreEx*
-pInt->Resume();
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The pInt variable is of type IWbemBackupRestoreEx*
+pInt-&gt;Resume();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

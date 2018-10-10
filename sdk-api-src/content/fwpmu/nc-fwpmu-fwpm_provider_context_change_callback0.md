@@ -4,10 +4,10 @@ title: FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
 author: windows-sdk-content
 description: Is used to add custom behavior to the provider context change notification process.
 old-location: fwp\fwpm_provider_context_change_callback0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 21628bab-ee4d-40e8-8042-97d5462c1013
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0, FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback, FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_provider_context_change_callback0_func, fwpmu/FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
 ms.prod: windows
 ms.technology: windows-sdk

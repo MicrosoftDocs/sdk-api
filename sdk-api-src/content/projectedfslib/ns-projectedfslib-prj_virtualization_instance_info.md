@@ -2,12 +2,12 @@
 UID: NS:projectedfslib.PRJ_VIRTUALIZATION_INSTANCE_INFO
 title: PRJ_VIRTUALIZATION_INSTANCE_INFO
 author: windows-sdk-content
-description: TBD.
+description: Information about a virtualization instance.
 old-location: projfs\prj_virtualization_instance_info.htm
 tech.root: ProjFS
 ms.assetid: B6532FDF-F190-4C10-BF5C-96BDF477BB4A
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PRJ_VIRTUALIZATION_INSTANCE_INFO, PRJ_VIRTUALIZATION_INSTANCE_INFO structure, ProjFS.prj_virtualization_instance_info, projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_VIRTUALIZATION_INSTANCE_INFO
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Information about a virtualization instance.
 
 
 ## -struct-fields
@@ -59,10 +60,10 @@ TBD
 
 ### -field InstanceID
 
-TBD
+An ID corresponding to a specific virtualization instance.
 
 
 ### -field WriteAlignment
 
-TBD
+The value used for the byteOffset and length parameters of <a href="projfs.prjwritefiledata">PrjWriteFileData</a>.
 

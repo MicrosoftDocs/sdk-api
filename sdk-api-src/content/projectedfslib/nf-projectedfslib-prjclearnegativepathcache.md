@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjClearNegativePathCache
 title: PrjClearNegativePathCache function
 author: windows-sdk-content
-description: TBD.
+description: Purges the virtualization instance's negative path cache, if it is active.
 old-location: projfs\prjclearnegativepathcache.htm
 tech.root: ProjFS
 ms.assetid: 90E37386-C647-476C-A53D-C479411DF8F9
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjClearNegativePathCache, PrjClearNegativePathCache function, ProjFS.prjclearnegativepathcache, projectedfslib/PrjClearNegativePathCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjClearNegativePathCache
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Purges the virtualization instance's negative path cache, if it is active.
 
 
 ## -parameters
@@ -59,19 +60,31 @@ TBD
 
 ### -param namespaceVirtualizationContext [in]
 
-TBD
+Opaque handle for the virtualization instance.
 
 
 ### -param totalEntryNumber [out, optional]
 
-TBD
+Optional pointer to a variable that receives the number of paths that were in the cache before it was purged.
 
 
 ## -returns
 
 
 
-TBD
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+If the negative path cache is active, then if the provider indicates that a file path does not exist by returning HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) from its <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback, ProjFS will fail subsequent opens of that path without calling the <i>PRJ_GET_PLACEHOLDER_INFO_CB</i> callback again. This helps improve performance of virtualization instances that host workloads that frequently probe for the presence of a file by trying to open it. 
+
+
+To resume receiving the <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback for paths the provider has indicated do not exist, the provider must call this routine.
 
 
 

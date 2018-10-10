@@ -4,10 +4,10 @@ title: ITextPara::SetNoLineNumber
 author: windows-sdk-content
 description: Determines whether to suppress line numbering of paragraphs in a range.
 old-location: controls\ITextPara_SetNoLineNumber.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setnolinenumber.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ITextPara interface [Windows Controls],SetNoLineNumber method, ITextPara.SetNoLineNumber, ITextPara::SetNoLineNumber, SetNoLineNumber, SetNoLineNumber method [Windows Controls], SetNoLineNumber method [Windows Controls],ITextPara interface, _win32_ITextPara_SetNoLineNumber, _win32_ITextPara_SetNoLineNumber_cpp, controls.ITextPara_SetNoLineNumber, controls._win32_ITextPara_SetNoLineNumber, tom/ITextPara::SetNoLineNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -199,7 +199,7 @@ This property concerns the numbering of paragraphs in a range. If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -207,7 +207,7 @@ This property concerns the numbering of paragraphs in a range. If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int
 title: IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets an element of the transform matrix of the effect.
-old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement.htm
+old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement_2.htm
 tech.root: directcomp
-ms.assetid: C673951B-2347-4A71-9413-68670B6E11CB
+ms.assetid: 7BD6F43D-4E3B-4D50-BB9C-FAF27E9B50C1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetTransformMatrixElement method, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,IDCompositionAnimation), IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation), SetTransformMatrixElement, SetTransformMatrixElement method [DirectComposition], SetTransformMatrixElement method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement
+ms.date: 10/09/2018
+ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetTransformMatrixElement method, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,IDCompositionAnimation), IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation), SetTransformMatrixElement, SetTransformMatrixElement method [DirectComposition], SetTransformMatrixElement method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,21 +69,14 @@ The row of the element.
 
 Type: <b>int</b>
 
-The column of the element.
+The columen of the element.
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - value [in]
-
-Type: <b>float</b>
-
-The new value of the element.
+An animation that represents how the element value changes over time. This parameter must not be NULL.
 
 
 ## -returns

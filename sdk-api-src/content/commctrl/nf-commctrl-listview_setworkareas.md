@@ -4,10 +4,10 @@ title: ListView_SetWorkAreas macro
 author: windows-sdk-content
 description: Sets the working areas within a list-view control. You can use this macro or send the LVM_SETWORKAREAS message explicitly.
 old-location: controls\ListView_SetWorkAreas.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setworkareas.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761223(v=VS.85).aspx">LVM_SETWORKAREAS</a> message explicitly. 
+Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/87ac192d-f481-43ac-b8a5-c754cf33e487">LVM_SETWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the working areas within a list-view control. You can use this macro or sen
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 
@@ -85,7 +85,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
  
 
  

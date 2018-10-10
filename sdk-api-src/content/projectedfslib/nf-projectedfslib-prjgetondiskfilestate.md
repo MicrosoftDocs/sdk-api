@@ -2,12 +2,12 @@
 UID: NF:projectedfslib.PrjGetOnDiskFileState
 title: PrjGetOnDiskFileState function
 author: windows-sdk-content
-description: TBD.
+description: Gets the on-disk file state for a file or directory.
 old-location: projfs\prjgetondiskfilestate.htm
 tech.root: ProjFS
 ms.assetid: E302C472-1360-43D9-8AB9-26C93F97F00F
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PrjGetOnDiskFileState, PrjGetOnDiskFileState function, ProjFS.prjgetondiskfilestate, projectedfslib/PrjGetOnDiskFileState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PrjGetOnDiskFileState
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Gets the on-disk file state for a file or directory.
 
 
 ## -parameters
@@ -57,25 +58,33 @@ TBD
 
 
 
-### -param destinationFileName
+### -param destinationFileName [in]
 
-TBD
-
-
-### -param fileState
-
-TBD
+A null-terminated Unicode string specifying the full path to the file whose state is to be queried.
 
 
+### -param fileState [out]
 
-
+This is a combination of one or more PRJ_FILE_STATE values describing the file state.
 
 
 ## -returns
 
 
 
-TBD
+HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) indicates destinationFileName does not exist. HRESULT_FROM_WIN32(ERROR_PATH_NOT_FOUND) indicates that an intermediate component of the path to destinationFileName does not exist.
+
+
+
+
+## -remarks
+
+
+
+This routine tells the caller what the ProjFS caching state is of the specified file or directory. For example, the caller can use this routine to determine whether the given item is a placeholder or full file. 
+
+
+A running provider should be cautious if using this routine on files or directories within one of its virtualization instances, as it may cause callbacks to be invoked in the provider. Depending on the design of the provider this may lead to deadlocks.
 
 
 

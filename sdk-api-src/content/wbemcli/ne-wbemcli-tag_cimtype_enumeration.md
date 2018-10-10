@@ -7,7 +7,7 @@ old-location: wmi\cimtype_enumeration.htm
 tech.root: WmiSdk
 ms.assetid: ab67954c-ead2-4906-9680-503612d3f12d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: CIMTYPE_ENUMERATION, CIMTYPE_ENUMERATION enumeration [Windows Management Instrumentation], CIM_BOOLEAN, CIM_CHAR16, CIM_DATETIME, CIM_EMPTY, CIM_FLAG_ARRAY, CIM_ILLEGAL, CIM_OBJECT, CIM_REAL32, CIM_REAL64, CIM_REFERENCE, CIM_SINT16, CIM_SINT32, CIM_SINT64, CIM_SINT8, CIM_STRING, CIM_UINT16, CIM_UINT32, CIM_UINT64, CIM_UINT8, tag_CIMTYPE_ENUMERATION, wbemcli/CIMTYPE_ENUMERATION, wbemcli/CIM_BOOLEAN, wbemcli/CIM_CHAR16, wbemcli/CIM_DATETIME, wbemcli/CIM_EMPTY, wbemcli/CIM_FLAG_ARRAY, wbemcli/CIM_ILLEGAL, wbemcli/CIM_OBJECT, wbemcli/CIM_REAL32, wbemcli/CIM_REAL64, wbemcli/CIM_REFERENCE, wbemcli/CIM_SINT16, wbemcli/CIM_SINT32, wbemcli/CIM_SINT64, wbemcli/CIM_SINT8, wbemcli/CIM_STRING, wbemcli/CIM_UINT16, wbemcli/CIM_UINT32, wbemcli/CIM_UINT64, wbemcli/CIM_UINT8, wmi.cimtype_enumeration
 ms.prod: windows
 ms.technology: windows-sdk

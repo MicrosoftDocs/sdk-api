@@ -4,10 +4,10 @@ title: PFNDPAMERGE
 author: windows-sdk-content
 description: Defines the prototype for the merge function used by DPA_Merge.
 old-location: controls\PFNDPAMERGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamerge.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGE, PFNDPAMERGE callback, PFNDPAMERGE callback function [Windows Controls], _shell_PFNDPAMERGE, _shell_PFNDPAMERGE_cpp, controls.PFNDPAMERGE, controls._shell_PFNDPAMERGE, dpa_dsa/PFNDPAMERGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines the prototype for the merge function used by <a href="https://msdn.microsoft.com/en-us/library/Bb775629(v=VS.85).aspx">DPA_Merge</a>.
+Defines the prototype for the merge function used by <a href="https://msdn.microsoft.com/c2d8ffab-1cd1-4328-9740-524c39b6821c">DPA_Merge</a>.
 
 
 ## -parameters
@@ -150,7 +150,7 @@ The callback function might not modify the dynamic pointer arrays (DPAs) involve
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775723(v=VS.85).aspx">PFNDPAMERGECONST</a>
+<a href="https://msdn.microsoft.com/2ae5f250-c79e-4ca5-98c4-b15ed7d5b90a">PFNDPAMERGECONST</a>
  
 
  

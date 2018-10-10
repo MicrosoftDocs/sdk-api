@@ -4,10 +4,10 @@ title: ITextRange::FindText
 author: windows-sdk-content
 description: Searches up to Count characters for the text given by bstr. The starting position and direction are also specified by Count, and the matching criteria are given by Flags.
 old-location: controls\ITextRange_FindText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtext.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FindText, FindText method [Windows Controls], FindText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindText method, ITextRange.FindText, ITextRange::FindText, _win32_ITextRange_FindText, _win32_ITextRange_FindText_cpp, controls.ITextRange_FindText, controls._win32_ITextRange_FindText, tom/ITextRange::FindText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,8 +151,8 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 The <b>ITextRange::FindText</b> method can also match special characters by using a caret (^) followed by a special letter. For a list of special characters, see the Special list available in the Microsoft Word 
 				<b>Find and Replace</b> dialog box. For example, <code>^p</code> matches the next paragraph mark. Note, <code>^c</code> can be used to represent the Clipboard contents in the string to be replaced. Thus, using <code>^c</code> in the find string enables you to search for rich text. For more details, see the Word Help files. 
 
-As a comparison with the <b>ITextRange::FindText</b> method, the <a href="https://msdn.microsoft.com/en-us/library/Bb773923(v=VS.85).aspx">ITextRange::FindTextStart</a> method searches forward or backward from the range's Start 
-				<i>cp</i>, and the <a href="https://msdn.microsoft.com/en-us/library/Bb773921(v=VS.85).aspx">ITextRange::FindTextEnd</a> method searches forward or backward from the range's End 
+As a comparison with the <b>ITextRange::FindText</b> method, the <a href="https://msdn.microsoft.com/babf0228-1315-4f76-9e4e-590df3034d9c">ITextRange::FindTextStart</a> method searches forward or backward from the range's Start 
+				<i>cp</i>, and the <a href="https://msdn.microsoft.com/2d4ebabf-973d-467f-a80e-80c8abf5194e">ITextRange::FindTextEnd</a> method searches forward or backward from the range's End 
 				<i>cp</i>. For more details, see the descriptions of these methods.
 
 The following are several code snippets that show the <b>ITextRange::FindText</b> methods.
@@ -161,9 +161,13 @@ Example #1. The following Microsoft Visual Basic for Applications (VBA) program 
 
 
 
-
-```
-Sub PrintComments (r As ITextRange)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Sub PrintComments (r As ITextRange)
     r.SetRange 0, 0                                      'r = insertion pt at start of story
     Do While r.FindText("/*") And r.FindTextEnd("*/")    'Select comment
         r.MoveStart tomCharacter, 2                      'But do not include the opening or 
@@ -171,38 +175,50 @@ Sub PrintComments (r As ITextRange)
         r.MoveEnd tomCharacter, -2                       
         Print r                                          'Show the folks
     Loop
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 Instead of these comments being printed, they could be inserted into another edit instance and saved to a file, or they could be inserted into separate cells in a table or spreadsheet.
 
 To print all lines containing one or more occurrences of the word "laser", replace the loop by the following code:
 
-
-```
-    While r.FindText("laser")            // Select next occurrence of "laser"
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    While r.FindText("laser")            // Select next occurrence of "laser"
         r.Expand tomLine                // Select enclosing line    
         Print r                    // Print the line
-    Wend
-```
-
-
+    Wend</pre>
+</td>
+</tr>
+</table></span></div>
 Example #2. The following program prints a telephone list, given a story that contains an address list. The address list entries are separated by two or more paragraph marks, and each entry has the following form.
 
-
-```
-Person/Business Name
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Person/Business Name
 Address (one or more lines)
-(area code) telephone number 
-```
-
-
+(area code) telephone number </pre>
+</td>
+</tr>
+</table></span></div>
 Note the use of the character <code>^p</code> in the <b>FindText</b> string argument to locate a pair of consecutive paragraph marks.
 
-
-```
-Sub PrintTelephoneList (r As ITextRange)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Sub PrintTelephoneList (r As ITextRange)
     r.SetRange 0, 0                 // r = insertion point at start of story
     r.MoveWhile C1_WHITE            // Bypass any initial white space
     Do
@@ -215,33 +231,41 @@ Sub PrintTelephoneList (r As ITextRange)
         r.EndOf tomParagraph, 1        // Select line with telephone number
         Print r                    // Print it
     Loop While r.FindText("^p^p")        // Find two consecutive para marks
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 Example #3. The following subroutine replaces all occurrences of the string, str1, in a range by str2:
 
-
-```
-Sub Replace ( tr As ITextRange, str1 As String, str2 As String )
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Sub Replace ( tr As ITextRange, str1 As String, str2 As String )
     Dim r As ITextRange
     r = tr.Duplicate                // Copy tr parameters to r
     r.End = r.Start                    // Convert to insertion point at Start
     While r.FindText(str1, tr.End - r.End)        // Match next occurrence of str
         r = str2                // Replace it with rep
     Wend                        // Iterate till no more matches
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 Example #4. The following line of code inserts a blank before the first occurrence of a right parenthesis, "(", that follows an occurrence of HRESULT. 
 
-
-```
-    If r.FindText("HRESULT") And r.FindText("(") Then r = " ("
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    If r.FindText("HRESULT") And r.FindText("(") Then r = " ("</pre>
+</td>
+</tr>
+</table></span></div>
 To do this for all such occurrences, change the If into a While/Wend loop in the above line of code. This an example of a <b>FIND/REPLACE</b> macro that cannot be run with <b>Find and Replace</b> dialog boxes.
 
 
@@ -256,15 +280,15 @@ To do this for all such occurrences, change the If into a While/Wend loop in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773921(v=VS.85).aspx">FindTextEnd</a>
+<a href="https://msdn.microsoft.com/2d4ebabf-973d-467f-a80e-80c8abf5194e">FindTextEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773923(v=VS.85).aspx">FindTextStart</a>
+<a href="https://msdn.microsoft.com/babf0228-1315-4f76-9e4e-590df3034d9c">FindTextStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -272,7 +296,7 @@ To do this for all such occurrences, change the If into a While/Wend loop in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

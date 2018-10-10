@@ -4,10 +4,10 @@ title: ListView_SetTileViewInfo macro
 author: windows-sdk-content
 description: Sets information that a list-view control uses in tile view. You can use this macro or send the LVM_SETTILEVIEWINFO message explicitly.
 old-location: controls\ListView_SetTileViewInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileviewinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ListView_SetTileViewInfo, ListView_SetTileViewInfo macro [Windows Controls], _win32_ListView_SetTileViewInfo, _win32_ListView_SetTileViewInfo_cpp, commctrl/ListView_SetTileViewInfo, controls.ListView_SetTileViewInfo, controls._win32_ListView_SetTileViewInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets information that a list-view control uses in tile view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761212(v=VS.85).aspx">LVM_SETTILEVIEWINFO</a> message explicitly. 
+Sets information that a list-view control uses in tile view. You can use this macro or send the <a href="https://msdn.microsoft.com/1c4f2aff-1ce1-484a-9360-3efbe870b39b">LVM_SETTILEVIEWINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -69,13 +69,13 @@ A handle to the list-view control.
 
 Type: <b>PLVTILEVIEWINFO</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774768(v=VS.85).aspx">LVTILEVIEWINFO</a>
+<a href="https://msdn.microsoft.com/5169e3bd-1805-4a19-b5f1-098c100a7625">LVTILEVIEWINFO</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetTileViewInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetTileViewInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

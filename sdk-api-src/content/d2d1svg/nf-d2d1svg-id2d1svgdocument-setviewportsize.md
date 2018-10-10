@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgdocument_setviewportsize.htm
 tech.root: Direct2D
 ms.assetid: 2915630B-A76B-40E7-8586-B0B0EFD30780
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ID2D1SvgDocument interface [Direct2D],SetViewportSize method, ID2D1SvgDocument.SetViewportSize, ID2D1SvgDocument::SetViewportSize, SetViewportSize, SetViewportSize method [Direct2D], SetViewportSize method [Direct2D],ID2D1SvgDocument interface, d2d1svg/ID2D1SvgDocument::SetViewportSize, direct2d.id2d1svgdocument_setviewportsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

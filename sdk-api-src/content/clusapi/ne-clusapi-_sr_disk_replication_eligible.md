@@ -124,11 +124,11 @@ Other.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt421319(v=VS.85).aspx">SR_RESOURCE_TYPE_DISK_INFO</a>
+<a href="https://msdn.microsoft.com/8A53714D-D125-4B83-B51D-DF0EADE4C4E0">SR_RESOURCE_TYPE_DISK_INFO</a>
  
 
  

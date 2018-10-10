@@ -4,10 +4,10 @@ title: tagNMBCHOTITEM
 author: windows-sdk-content
 description: Contains information about the movement of the mouse over a button control.
 old-location: controls\NMBCHOTITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbchotitem.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "*LPNMBCHOTITEM, HICF_ENTERING, HICF_LEAVING, LPNMBCHOTITEM, LPNMBCHOTITEM structure pointer [Windows Controls], NMBCHOTITEM, NMBCHOTITEM structure [Windows Controls], _win32_NMBCHOTITEM_str, _win32_NMBCHOTITEM_str_cpp, commctrl/LPNMBCHOTITEM, commctrl/NMBCHOTITEM, controls.NMBCHOTITEM, controls._win32_NMBCHOTITEM_str, tagNMBCHOTITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Contains information about the movement of the mouse over a button control.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure. 
 
 
 ### -field dwFlags
@@ -105,11 +105,11 @@ The mouse is leaving the button.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775984(v=VS.85).aspx">BCN_HOTITEMCHANGE</a>
+<a href="https://msdn.microsoft.com/92882e21-b69d-4326-94e9-ae69a0d00a83">BCN_HOTITEMCHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775943(v=VS.85).aspx">Buttons</a>
+<a href="https://msdn.microsoft.com/f96da91c-e3b3-4dfa-92f3-276eb468612d">Buttons</a>
 
 
 
@@ -117,7 +117,7 @@ The mouse is leaving the button.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a>
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a>
 
 
 

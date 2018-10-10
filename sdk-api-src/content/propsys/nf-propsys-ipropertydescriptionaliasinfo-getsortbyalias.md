@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface containing the primary sort column.
+Gets the address of a pointer to the <a href="shell.IPropertyDescription">IPropertyDescription</a> interface containing the primary sort column.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ Gets the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/l
 
 Type: <b>REFIID</b>
 
-A reference to the identifier of the requested <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface.
+A reference to the identifier of the requested <a href="shell.IPropertyDescription">IPropertyDescription</a> interface.
 
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface for the calling object.
+When this method returns successfully, contains the address of a pointer to the <a href="shell.IPropertyDescription">IPropertyDescription</a> interface for the calling object.
 
 
 ## -returns
@@ -88,11 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761517(v=VS.85).aspx">IPropertyDescriptionAliasInfo</a>
+<a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761513(v=VS.85).aspx">IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases</a>
+<a href="shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases">IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases</a>
  
 
  

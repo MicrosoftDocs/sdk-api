@@ -3,12 +3,12 @@ UID: NF:d2d1_3.ID2D1ImageSourceFromWic.TrimCache(const D2D1_RECT_U &)
 title: ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &)
 author: windows-sdk-content
 description: This method trims the populated regions of the image source cache to just the specified rectangle.
-old-location: direct2d\id2d1imagesourcefromwic_trimcache.htm
+old-location: direct2d\id2d1imagesourcefromwic_trimcache_2.htm
 tech.root: Direct2D
-ms.assetid: 8C6A42BB-D7CA-4766-BE59-B9F8150C0AC1
+ms.assetid: AAC04CD2-D59B-42F0-90C9-F230EECE2028
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: ID2D1ImageSourceFromWic interface [Direct2D],TrimCache method, ID2D1ImageSourceFromWic.TrimCache, ID2D1ImageSourceFromWic.TrimCache(const D2D1_RECT_U &), ID2D1ImageSourceFromWic::TrimCache, ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &), TrimCache, TrimCache method [Direct2D], TrimCache method [Direct2D],ID2D1ImageSourceFromWic interface, d2d1_3/ID2D1ImageSourceFromWic::TrimCache, direct2d.id2d1imagesourcefromwic_trimcache
+ms.date: 10/09/2018
+ms.keywords: ID2D1ImageSourceFromWic interface [Direct2D],TrimCache method, ID2D1ImageSourceFromWic.TrimCache, ID2D1ImageSourceFromWic.TrimCache(const D2D1_RECT_U &), ID2D1ImageSourceFromWic::TrimCache, ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &), TrimCache, TrimCache method [Direct2D], TrimCache method [Direct2D],ID2D1ImageSourceFromWic interface, d2d1_3/ID2D1ImageSourceFromWic::TrimCache, direct2d.id2d1imagesourcefromwic_trimcache_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,9 +58,9 @@ This method trims the populated regions of the image source cache to just the sp
 
 
 
-### -param rectangleToPreserve [in, optional]
+### -param rectangleToPreserve [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8607d194-cb0b-431a-926a-e56b946e49ff">D2D1_RECT_U</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/8607d194-cb0b-431a-926a-e56b946e49ff">D2D1_RECT_U</a></b>
 
 Specifies the region of the image, in pixels, which should be preserved in the image source cache. 
           Regions which are outside of the rectangle are evicted from the cache. By default, this is an empty rectangle, 

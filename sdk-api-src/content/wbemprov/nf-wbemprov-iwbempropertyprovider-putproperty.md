@@ -7,7 +7,7 @@ old-location: wmi\iwbempropertyprovider_putproperty.htm
 tech.root: WmiSdk
 ms.assetid: a1c25c5c-e0f9-461d-96ba-7d6d00d24d33
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: IWbemPropertyProvider interface [Windows Management Instrumentation],PutProperty method, IWbemPropertyProvider.PutProperty, IWbemPropertyProvider::PutProperty, PutProperty, PutProperty method [Windows Management Instrumentation], PutProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, _hmm_iwbempropertyprovider_putproperty, wbemprov/IWbemPropertyProvider::PutProperty, wmi.iwbempropertyprovider_putproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

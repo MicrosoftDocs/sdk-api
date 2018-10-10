@@ -7,7 +7,7 @@ old-location: etw\event_extended_item_related_activityid.htm
 tech.root: etw
 ms.assetid: cabc11ca-e65e-4ffd-9832-7fb4f77417e4
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure [ETW], PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure pointer [ETW], _EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, base.event_extended_item_related_activityid, etw.event_extended_item_related_activityid, evntcons/EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, evntcons/PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID"
 ms.prod: windows
 ms.technology: windows-sdk

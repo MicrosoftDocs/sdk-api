@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionhuerotationeffect.htm
 tech.root: directcomp
 ms.assetid: BD11C779-78C6-4961-9DF1-2521B8F91FF5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IDCompositionHueRotationEffect, IDCompositionHueRotationEffect interface [DirectComposition], IDCompositionHueRotationEffect interface [DirectComposition],described, dcomp/IDCompositionHueRotationEffect, directcomp.idcompositionhuerotationeffect
 ms.prod: windows
 ms.technology: windows-sdk

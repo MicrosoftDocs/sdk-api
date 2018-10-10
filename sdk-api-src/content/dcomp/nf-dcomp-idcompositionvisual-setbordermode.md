@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual_setbordermode.htm
 tech.root: directcomp
 ms.assetid: 88C77869-B08D-43F6-8A1E-A112743C0404
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetBorderMode method, IDCompositionVisual.SetBorderMode, IDCompositionVisual::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetBorderMode, directcomp.idcompositionvisual_setbordermode
 ms.prod: windows-hardware
 ms.technology: windows-devices

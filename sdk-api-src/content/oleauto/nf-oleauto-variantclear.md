@@ -147,13 +147,17 @@ Variants containing arrays with outstanding references cannot be cleared.  Attem
 
 The following example shows how to clear an array of variants, where <code>celt</code> is the number of elements in the array.
 
-
-```cpp
-for(int i = 0; i < celt; ++i)
-   VariantClear(&rgvar[i]);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>for(int i = 0; i &lt; celt; ++i)
+   VariantClear(&amp;rgvar[i]);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

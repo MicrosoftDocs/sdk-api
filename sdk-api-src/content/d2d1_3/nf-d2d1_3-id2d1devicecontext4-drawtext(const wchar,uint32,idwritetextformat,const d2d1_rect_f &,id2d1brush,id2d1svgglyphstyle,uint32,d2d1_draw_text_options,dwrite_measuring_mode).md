@@ -3,12 +3,12 @@ UID: NF:d2d1_3.ID2D1DeviceContext4.DrawText(const WCHAR,UINT32,IDWriteTextFormat
 title: ID2D1DeviceContext4::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE)
 author: windows-sdk-content
 description: Draws the text within the given layout rectangle.
-old-location: direct2d\id2d1devicecontext4_drawtext.htm
+old-location: direct2d\id2d1devicecontext4_drawtext_2.htm
 tech.root: Direct2D
-ms.assetid: 7C701D94-5DBB-4143-B88B-A0D7BB124FC5
+ms.assetid: 1B7DA239-9788-44E9-86A8-205E8CCDD065
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: DrawText, DrawText method [Direct2D], DrawText method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawText method, ID2D1DeviceContext4.DrawText, ID2D1DeviceContext4.DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), ID2D1DeviceContext4::DrawText, ID2D1DeviceContext4::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), d2d1_3/ID2D1DeviceContext4::DrawText, direct2d.id2d1devicecontext4_drawtext
+ms.date: 10/09/2018
+ms.keywords: DrawText, DrawText method [Direct2D], DrawText method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawText method, ID2D1DeviceContext4.DrawText, ID2D1DeviceContext4.DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), ID2D1DeviceContext4::DrawText, ID2D1DeviceContext4::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), d2d1_3/ID2D1DeviceContext4::DrawText, direct2d.id2d1devicecontext4_drawtext_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,6 +51,7 @@ req.redist:
 
 
 Draws the text within the given layout rectangle.
+        
 
 By default, this method performs baseline snapping and renders color versions of glyphs in color fonts.
 
@@ -81,9 +82,9 @@ Type: <b><a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d29693
 An object that describes formatting details of the text to draw, such as the font, the font size, and flow direction.
 
 
-### -param layoutRect [in]
+### -param layoutRect [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
 The size and position of the area in which the text is drawn.
 

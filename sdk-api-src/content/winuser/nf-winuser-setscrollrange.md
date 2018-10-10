@@ -4,10 +4,10 @@ title: SetScrollRange function
 author: windows-sdk-content
 description: The SetScrollRange function sets the minimum and maximum scroll box positions for the specified scroll bar.
 old-location: controls\SetScrollRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollrange.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollRange, SetScrollRange function [Windows Controls], _win32_SetScrollRange, _win32_SetScrollRange_cpp, controls.SetScrollRange, controls._win32_SetScrollRange, winuser/SetScrollRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 The <b>SetScrollRange</b> function sets the minimum and maximum scroll box positions for the specified scroll bar. 
 
 
-<div class="alert"><b>Note</b>  The <b>SetScrollRange</b> function is provided for backward compatibility. New applications should use the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>SetScrollRange</b> function is provided for backward compatibility. New applications should use the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -160,9 +160,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 You can use <b>SetScrollRange</b> to hide the scroll bar by setting 
 				<i>nMinPos</i> and 
-				<i>nMaxPos</i> to the same value. An application should not call the <b>SetScrollRange</b> function to hide a scroll bar while processing a scroll bar message. New applications should use the <a href="https://msdn.microsoft.com/en-us/library/Bb787601(v=VS.85).aspx">ShowScrollBar</a> function to hide the scroll bar. 
+				<i>nMaxPos</i> to the same value. An application should not call the <b>SetScrollRange</b> function to hide a scroll bar while processing a scroll bar message. New applications should use the <a href="https://msdn.microsoft.com/a3c66874-b2a8-485a-9b03-bc28db74ca6c">ShowScrollBar</a> function to hide the scroll bar. 
 
-If the call to <b>SetScrollRange</b> immediately follows a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb787597(v=VS.85).aspx">SetScrollPos</a> function, the 
+If the call to <b>SetScrollRange</b> immediately follows a call to the <a href="https://msdn.microsoft.com/068d874d-ea9e-4953-93b3-9e90141d4e50">SetScrollPos</a> function, the 
 				<i>bRedraw</i> parameter in <b>SetScrollPos</b> must be zero to prevent the scroll bar from being drawn twice. 
 
 The default range for a standard scroll bar is 0 through 100. The default range for a scroll bar control is empty (both the 
@@ -172,22 +172,22 @@ The default range for a standard scroll bar is 0 through 100. The default range 
 				<i>nMaxPos</i> parameters must not be greater than the value of MAXLONG. 
 
 Because the messages that indicate scroll bar position, 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a> and 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a>, are limited to 16 bits of position data, applications that rely solely on those messages for position data have a practical maximum value of 65,535 for the <b>SetScrollRange</b> function's 
+				<a href="https://msdn.microsoft.com/197e522f-defd-4356-8521-5b5dfda596da">WM_HSCROLL</a> and 
+				<a href="https://msdn.microsoft.com/495733b8-1aac-4ff7-b0be-15f14581f41c">WM_VSCROLL</a>, are limited to 16 bits of position data, applications that rely solely on those messages for position data have a practical maximum value of 65,535 for the <b>SetScrollRange</b> function's 
 				<i>nMaxPos</i> parameter. 
 
-However, because the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb787597(v=VS.85).aspx">SetScrollPos</a>, <b>SetScrollRange</b>, <a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb787585(v=VS.85).aspx">GetScrollPos</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb787587(v=VS.85).aspx">GetScrollRange</a> functions support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a> and 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a> messages. See <b>GetScrollInfo</b> for a description of the technique. 
+However, because the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a>, <a href="https://msdn.microsoft.com/068d874d-ea9e-4953-93b3-9e90141d4e50">SetScrollPos</a>, <b>SetScrollRange</b>, <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>, <a href="https://msdn.microsoft.com/8d8c43df-c444-4c0a-82e5-bdc568161561">GetScrollPos</a>, and <a href="https://msdn.microsoft.com/883a7d53-7dc0-4b0c-bcda-e1f022dad12a">GetScrollRange</a> functions support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the 
+				<a href="https://msdn.microsoft.com/197e522f-defd-4356-8521-5b5dfda596da">WM_HSCROLL</a> and 
+				<a href="https://msdn.microsoft.com/495733b8-1aac-4ff7-b0be-15f14581f41c">WM_VSCROLL</a> messages. See <b>GetScrollInfo</b> for a description of the technique. 
 
-If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/en-us/library/Bb787567(v=VS.85).aspx">SBM_SETRANGE</a> message to the window to set scroll bar information.  This allows <b>SetScrollRange</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_SETRANGE</b> message, the <b>SetScrollRange</b> function fails.
+If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/9cf84354-3944-4c10-9b59-39427b840868">SBM_SETRANGE</a> message to the window to set scroll bar information.  This allows <b>SetScrollRange</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_SETRANGE</b> message, the <b>SetScrollRange</b> function fails.
 
 
 #### Examples
 
 
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Using the Owner-Display Clipboard Format</a>.
+For an example, see <a href="https://msdn.microsoft.com/377fb2cc-5b46-481a-8222-9291e504ae2c">Using the Owner-Display Clipboard Format</a>.
 
 <div class="code"></div>
 
@@ -198,15 +198,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>
+<a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787585(v=VS.85).aspx">GetScrollPos</a>
+<a href="https://msdn.microsoft.com/8d8c43df-c444-4c0a-82e5-bdc568161561">GetScrollPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787587(v=VS.85).aspx">GetScrollRange</a>
+<a href="https://msdn.microsoft.com/883a7d53-7dc0-4b0c-bcda-e1f022dad12a">GetScrollRange</a>
 
 
 
@@ -214,15 +214,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>
+<a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787597(v=VS.85).aspx">SetScrollPos</a>
+<a href="https://msdn.microsoft.com/068d874d-ea9e-4953-93b3-9e90141d4e50">SetScrollPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787601(v=VS.85).aspx">ShowScrollBar</a>
+<a href="https://msdn.microsoft.com/a3c66874-b2a8-485a-9b03-bc28db74ca6c">ShowScrollBar</a>
  
 
  

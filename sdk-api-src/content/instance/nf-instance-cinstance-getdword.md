@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getdword.htm
 tech.root: WmiSdk
 ms.assetid: 02690232-a887-4de3-a850-84ad8ffa9ee0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: "?GetDWORD@CInstance@@QBE_NPBGAAK@Z, ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z, CInstance interface [Windows Management Instrumentation],GetDWORD method, CInstance.GetDWORD, CInstance::GetDWORD, GetDWORD, GetDWORD method [Windows Management Instrumentation], GetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdword, instance/CInstance::GetDWORD, wmi.cinstance_getdword"
 ms.prod: windows-hardware
 ms.technology: windows-devices

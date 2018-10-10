@@ -4,10 +4,10 @@ title: IRtwqAsyncCallback
 author: windows-sdk-content
 description: Callback interface to notify the application when an asynchronous method completes.
 old-location: base\irtwqasynccallback.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: E595C072-98F8-4231-9C8F-A8393D751DE6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IRtwqAsyncCallback, IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,described, base.irtwqasynccallback, rtworkq/IRtwqAsyncCallback
 ms.prod: windows
 ms.technology: windows-sdk

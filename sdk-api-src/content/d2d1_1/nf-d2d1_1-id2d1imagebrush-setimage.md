@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagebrush_setimage.htm
 tech.root: Direct2D
 ms.assetid: 2d9bfb45-ea4f-44b0-aa29-0cae86768270
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetImage method, ID2D1ImageBrush.SetImage, ID2D1ImageBrush::SetImage, SetImage, SetImage method [Direct2D], SetImage method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetImage, direct2d.id2d1imagebrush_setimage
 ms.prod: windows-hardware
 ms.technology: windows-devices

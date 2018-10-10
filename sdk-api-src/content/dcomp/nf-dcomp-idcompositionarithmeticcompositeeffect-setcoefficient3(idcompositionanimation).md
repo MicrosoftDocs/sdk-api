@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient3(IDCompositi
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient3(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the third coefficient for the equation used to composite the two input images.
-old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient3.htm
+old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient3_2.htm
 tech.root: directcomp
-ms.assetid: B7A5698B-486A-4C8D-8FD0-22EA237DFBC1
+ms.assetid: C08978C7-7028-4E48-B19F-1FC682E0FB82
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient3 method, IDCompositionArithmeticCompositeEffect.SetCoefficient3, IDCompositionArithmeticCompositeEffect.SetCoefficient3(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient3, IDCompositionArithmeticCompositeEffect::SetCoefficient3(IDCompositionAnimation), SetCoefficient3, SetCoefficient3 method [DirectComposition], SetCoefficient3 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient3, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient3
+ms.date: 10/09/2018
+ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient3 method, IDCompositionArithmeticCompositeEffect.SetCoefficient3, IDCompositionArithmeticCompositeEffect.SetCoefficient3(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient3, IDCompositionArithmeticCompositeEffect::SetCoefficient3(IDCompositionAnimation), SetCoefficient3, SetCoefficient3 method [DirectComposition], SetCoefficient3 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient3, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient3_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the third coefficient for the equation used to composite the two input imag
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - Coefficient3 [in]
-
-Type: <b>float</b>
-
-The third coefficient for the equation used to composite the two input images.
+An animation that represents how the value of the third coefficient changes over time. This parameter must not be NULL.
 
 
 ## -returns

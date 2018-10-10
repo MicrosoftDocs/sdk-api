@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 AddLines methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -64,19 +64,19 @@ AddLines methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535599(v=VS.85).aspx">AddLines(Point*,INT)</a>
+<a href="https://msdn.microsoft.com/ac4897b6-4796-45ca-b29b-b9917c7a9c33">AddLines(Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535599(v=VS.85).aspx">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
+The <a href="https://msdn.microsoft.com/ac4897b6-4796-45ca-b29b-b9917c7a9c33">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535600(v=VS.85).aspx">AddLines(PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/8b530334-98d8-4f73-88d5-e585c4b8e8ea">AddLines(PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535600(v=VS.85).aspx">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
+The <a href="https://msdn.microsoft.com/8b530334-98d8-4f73-88d5-e585c4b8e8ea">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
 
 </td>
 </tr>

@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePointX(IDCompositionAnimatio
 title: IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the x value of the white point.
-old-location: directcomp\idcompositionbrightnesseffect_setwhitepointx.htm
+old-location: directcomp\idcompositionbrightnesseffect_setwhitepointx_2.htm
 tech.root: directcomp
-ms.assetid: 323885D9-3974-4876-9FD7-22F066026AF4
+ms.assetid: 8724AB82-ED50-47C7-A4AE-31A12E3834F5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointX method, IDCompositionBrightnessEffect.SetWhitePointX, IDCompositionBrightnessEffect.SetWhitePointX(IDCompositionAnimation), IDCompositionBrightnessEffect::SetWhitePointX, IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation), SetWhitePointX, SetWhitePointX method [DirectComposition], SetWhitePointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx
+ms.date: 10/09/2018
+ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointX method, IDCompositionBrightnessEffect.SetWhitePointX, IDCompositionBrightnessEffect.SetWhitePointX(IDCompositionAnimation), IDCompositionBrightnessEffect::SetWhitePointX, IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation), SetWhitePointX, SetWhitePointX method [DirectComposition], SetWhitePointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the x value of the white point.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - whitePointX [in]
-
-Type: <b>float</b>
-
-The x value of the white point. This value must be between 0 and 1.
+An animation that represents how the x value of the white point changes over time. This parameter must not be NULL.
 
 
 ## -returns

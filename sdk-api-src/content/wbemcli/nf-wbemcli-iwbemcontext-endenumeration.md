@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_endenumeration.htm
 tech.root: WmiSdk
 ms.assetid: bbd12aec-55ee-4cee-bf27-85f12467e06f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],EndEnumeration method, IWbemContext.EndEnumeration, IWbemContext::EndEnumeration, _hmm_iwbemcontext_endenumeration, wbemcli/IWbemContext::EndEnumeration, wmi.iwbemcontext_endenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

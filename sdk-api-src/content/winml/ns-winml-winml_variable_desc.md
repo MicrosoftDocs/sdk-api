@@ -7,7 +7,7 @@ old-location: machinelearning\winml_variable_desc.htm
 tech.root: MachineLearning
 ms.assetid: 94FBC8E4-13BD-49A5-A720-0827479A43A6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: MachineLearning.winml_variable_desc, PWINML_VARIABLE_DESC, PWINML_VARIABLE_DESC structure pointer, WINML_VARIABLE_DESC, WINML_VARIABLE_DESC structure, winml/PWINML_VARIABLE_DESC, winml/WINML_VARIABLE_DESC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,6 +51,8 @@ req.redist:
 
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Contains description properties of the variable.
 

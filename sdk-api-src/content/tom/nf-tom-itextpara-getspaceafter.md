@@ -4,10 +4,10 @@ title: ITextPara::GetSpaceAfter
 author: windows-sdk-content
 description: Retrieves the amount of vertical space below a paragraph.
 old-location: controls\ITextPara_GetSpaceAfter.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspaceafter.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetSpaceAfter, GetSpaceAfter method [Windows Controls], GetSpaceAfter method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetSpaceAfter method, ITextPara.GetSpaceAfter, ITextPara::GetSpaceAfter, _win32_ITextPara_GetSpaceAfter, _win32_ITextPara_GetSpaceAfter_cpp, controls.ITextPara_GetSpaceAfter, controls._win32_ITextPara_GetSpaceAfter, tom/ITextPara::GetSpaceAfter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,11 +126,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774023(v=VS.85).aspx">GetSpaceBefore</a>
+<a href="https://msdn.microsoft.com/86c453b5-e839-42d6-9ef8-d2c1c0f54af3">GetSpaceBefore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -138,15 +138,15 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787817(v=VS.85).aspx">SetSpaceAfter</a>
+<a href="https://msdn.microsoft.com/3e4fb12e-a7ac-4776-be66-ad5e4fdf9370">SetSpaceAfter</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787820(v=VS.85).aspx">SetSpaceBefore</a>
+<a href="https://msdn.microsoft.com/003aa8d2-f80e-4925-8e25-dcb3ea6d95cf">SetSpaceBefore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

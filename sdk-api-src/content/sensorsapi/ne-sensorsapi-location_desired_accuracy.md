@@ -2,20 +2,20 @@
 UID: NE:sensorsapi.LOCATION_DESIRED_ACCURACY
 title: LOCATION_DESIRED_ACCURACY
 author: windows-sdk-content
-description: The LOCATION_DESIRED_ACCURACY enumeration type defines values for the SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY property.
-old-location: sensors\location_desired_accuracy.htm
-tech.root: sensors
-ms.assetid: 21eefb20-b5ad-43c7-a1aa-92731c856363
+description: Defines the possible desired accuracy types.
+old-location: winlocation\location_desired_accuracy.htm
+tech.root: LocationAPI
+ms.assetid: 5d3fc14b-fbf1-4140-8277-44e72a50e028
 ms.author: windowssdkdev
 ms.date: 09/26/2018
-ms.keywords: LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices], LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY_HIGH, Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml, sensors.location_desired_accuracy, sensorsapi/LOCATION_DESIRED_ACCURACY, sensorsapi/LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsapi/LOCATION_DESIRED_ACCURACY_HIGH
+ms.keywords: LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY enumeration [WinLocation], LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY_HIGH, sensorsapi/LOCATION_DESIRED_ACCURACY, sensorsapi/LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsapi/LOCATION_DESIRED_ACCURACY_HIGH, winlocation.location_desired_accuracy
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7,Available in Windows 7.
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - SensorsApi.h
+ - sensorsApi.h
 api_name:
  - LOCATION_DESIRED_ACCURACY
 product: Windows
@@ -50,7 +50,10 @@ req.redist:
 ## -description
 
 
-The <b>LOCATION_DESIRED_ACCURACY </b>enumeration type defines values for the <a href="https://msdn.microsoft.com/1BF1568D-A889-4158-9C6D-160D9B06F0DE">SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY</a> property.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>API.
+]
+
+Defines the possible desired accuracy types.
 
 
 ## -enum-fields
@@ -60,12 +63,12 @@ The <b>LOCATION_DESIRED_ACCURACY </b>enumeration type defines values for the <a 
 
 ### -field LOCATION_DESIRED_ACCURACY_DEFAULT
 
-Indicates that the sensor should use the accuracy for which it can optimize power and other such cost considerations.
+The sensor should use the accuracy for which it can optimize power use and other cost considerations.
 
 
 ### -field LOCATION_DESIRED_ACCURACY_HIGH
 
-Indicates that the sensor should deliver the highest-accuracy report possible. This includes using services that might charge money, or consuming higher levels of battery power or connection bandwidth.
+The sensor should deliver the most accurate report possible. This includes using services that might charge money, or consuming higher levels of battery power or connection bandwidth.
 
 
 ## -see-also
@@ -73,7 +76,11 @@ Indicates that the sensor should deliver the highest-accuracy report possible. T
 
 
 
-<a href="https://msdn.microsoft.com/8c7f378c-b4e6-4074-8b6a-571068b5ab80">ISensorDriver::OnGetProperties</a>
+<a href="https://msdn.microsoft.com/caa34e34-7370-4e42-9c0f-00498f5fc37d">GetDesiredAccuracy</a>
+
+
+
+<a href="https://msdn.microsoft.com/85623570-3b48-42ea-babd-fe4282629d92">SetDesiredAccuracy</a>
  
 
  

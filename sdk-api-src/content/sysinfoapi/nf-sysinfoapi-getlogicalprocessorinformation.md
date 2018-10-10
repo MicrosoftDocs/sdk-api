@@ -4,10 +4,10 @@ title: GetLogicalProcessorInformation function
 author: windows-sdk-content
 description: Retrieves information about logical processors and related hardware.
 old-location: base\getlogicalprocessorinformation.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 904d2d35-f419-4e8f-a689-f39ed926644c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

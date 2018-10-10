@@ -2,12 +2,12 @@
 UID: NE:projectedfslib.PRJ_COMPLETE_COMMAND_TYPE
 title: PRJ_COMPLETE_COMMAND_TYPE
 author: windows-sdk-content
-description: TBD.
+description: Specifies command types.
 old-location: projfs\prj_complete_command_type.htm
 tech.root: ProjFS
 ms.assetid: AE9CD44C-0E68-4E35-8A7E-89B33E796AF0
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/09/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_TYPE, PRJ_COMPLETE_COMMAND_TYPE enumeration, PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, PRJ_COMPLETE_COMMAND_TYPE_NOTIFY_OPERATION, ProjFS.prj_complete_command_type, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_NOTIFY_OPERATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_COMPLETE_COMMAND_TYPE
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+Specifies command types.
 
 
 ## -enum-fields
@@ -62,10 +63,10 @@ TBD
 
 ### -field PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION
 
-TBD
+The provider is completing a call to its <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
 
 
 #### - PRJ_COMPLETE_COMMAND_TYPE_NOTIFY_OPERATION
 
-TBD
+The provider is completing a call to its <a href="projfs.prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback.
 

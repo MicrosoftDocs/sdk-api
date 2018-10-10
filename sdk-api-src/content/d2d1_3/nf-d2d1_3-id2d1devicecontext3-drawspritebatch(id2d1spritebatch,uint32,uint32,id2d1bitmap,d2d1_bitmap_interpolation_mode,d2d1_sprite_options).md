@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext3_drawspritebatch.htm
 tech.root: Direct2D
 ms.assetid: 407529D4-6FA3-4C09-876C-03A8A8D1390D
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],DrawSpriteBatch method, ID2D1DeviceContext3.DrawSpriteBatch, ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,UINT32,UINT32,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), ID2D1DeviceContext3::DrawSpriteBatch, ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,UINT32,UINT32,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), d2d1_3/ID2D1DeviceContext3::DrawSpriteBatch, direct2d.id2d1devicecontext3_drawspritebatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,14 +65,14 @@ Type: <b><a href="https://msdn.microsoft.com/D33958D5-D31C-47DC-B172-CADB1F1B81A
 The sprite batch to draw.
 
 
-#### - startIndex
+### -param startIndex
 
 Type: <b>UINT32</b>
 
 The index of the first sprite in the sprite batch to draw.
 
 
-#### - spriteCount
+### -param spriteCount
 
 Type: <b>UINT32</b>
 

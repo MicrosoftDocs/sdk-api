@@ -7,7 +7,7 @@ old-location: etw\etw_trace_partition_information.htm
 tech.root: etw
 ms.assetid: 8D8F8E79-B273-417A-B8C2-6CE4FC454C07
 ms.author: windowssdkdev
-ms.date: 10/04/2018
+ms.date: 10/05/2018
 ms.keywords: "*PETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION structure [ETW], PETW_TRACE_PARTITION_INFORMATION, PETW_TRACE_PARTITION_INFORMATION structure pointer [ETW], Process, VmDirectUvm, VmHost, VmHostedUvm, _ETW_TRACE_PARTITION_INFORMATION, etw.etw_trace_partition_information, evntrace/ETW_TRACE_PARTITION_INFORMATION, evntrace/PETW_TRACE_PARTITION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

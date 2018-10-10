@@ -820,9 +820,13 @@ For more information about the stores that are automatically migrated, see <a hr
 The following example shows opening several certificate stores of different store provider types.  The example uses the <b>CreateMyDACL</b> function, defined in the <a href="https://msdn.microsoft.com/f8ec202f-4f34-4123-8f3c-cfc5960b4dc2">Creating a DACL</a> topic, to ensure  the open file is created with a proper DACL. For more examples of opening other store provider types, see 
 <a href="https://msdn.microsoft.com/975a56d1-aa45-470e-b385-753baa1911ff">Example C Code for Opening Certificate Stores</a>.
 
-
-```cpp
-//-------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-------------------------------------------------------------------
 // Open a system store, in this case, the My store.
 
 HCERTSTORE hSysStore = NULL;
@@ -884,7 +888,7 @@ sa.bInheritHandle = FALSE;
 
 // Call function to set the DACL. The DACL is set in the 
 // SECURITY_ATTRIBUTES lpSecurityDescriptor member.
-if (!CreateMyDACL(&sa))
+if (!CreateMyDACL(&amp;sa))
 {
      // Error encountered; generate message and exit.
      printf("Failed CreateMyDACL.\n");
@@ -897,7 +901,7 @@ if (hFile = CreateFile(
      GENERIC_READ|GENERIC_WRITE,   // Access mode: Read from and
                                    // write to this file
      0,                            // Share mode
-     &sa,                          // Uses the DACL created 
+     &amp;sa,                          // Uses the DACL created 
                                    // previously 
      OPEN_ALWAYS,                  // How to create
      FILE_ATTRIBUTE_NORMAL,        // File attributes
@@ -985,10 +989,10 @@ else
 {
     printf("An error occurred during closing of the file.\n");
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -1009,7 +1013,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

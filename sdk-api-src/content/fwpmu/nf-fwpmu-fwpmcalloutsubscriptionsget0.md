@@ -4,10 +4,10 @@ title: FwpmCalloutSubscriptionsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all the current callout change notification subscriptions.
 old-location: fwp\fwpmcalloutsubscriptionsget0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 72e51167-c69e-4412-b83e-c66f91c9b96e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FwpmCalloutSubscriptionsGet0, FwpmCalloutSubscriptionsGet0 function [Filtering], fwp.fwpmcalloutsubscriptionsget0_func, fwpmu/FwpmCalloutSubscriptionsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

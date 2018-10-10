@@ -2,13 +2,13 @@
 UID: NS:projectedfslib.PRJ_CALLBACKS
 title: PRJ_CALLBACKS
 author: windows-sdk-content
-description: TBD.
+description: A set of callback routines to where the provider stores its implementation of the callback.
 old-location: projfs\prj_callbacks.htm
 tech.root: ProjFS
 ms.assetid: 2FFF6A39-92C0-4BD1-B293-AC5650B2575C
 ms.author: windowssdkdev
-ms.date: 10/02/2018
-ms.keywords: PPRJ_CALLBACKS, PPRJ_CALLBACKS structure pointer, PRJ_CALLBACKS, PRJ_CALLBACKS structure, ProjFS.prj_callbacks, projectedfslib/PPRJ_CALLBACKS, projectedfslib/PRJ_CALLBACKS
+ms.date: 10/09/2018
+ms.keywords: PRJ_CALLBACKS, PRJ_CALLBACKS structure, ProjFS.prj_callbacks, projectedfslib/PRJ_CALLBACKS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -30,11 +30,12 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - HeaderDef
 api_location:
- -
+ - projectedfslib.h
 api_name:
  - PRJ_CALLBACKS
 product: Windows
@@ -49,7 +50,7 @@ req.redist:
 ## -description
 
 
-TBD
+A set of callback routines to where the provider stores its implementation of the callback.
 
 
 ## -struct-fields
@@ -59,17 +60,17 @@ TBD
 
 ### -field StartDirectoryEnumerationCallback
 
-TBD
+A pointer to the StartDirectoryEnumerationCallback.
 
 
 ### -field EndDirectoryEnumerationCallback
 
-TBD
+A pointer to the EndDirectoryEnumerationCallback.
 
 
 ### -field GetDirectoryEnumerationCallback
 
-TBD
+A pointer to the GetDirectoryEnumerationCallback.
 
 
 ### -field GetPlaceholderInfoCallback
@@ -79,12 +80,12 @@ TBD
 
 ### -field GetFileDataCallback
 
-TBD
+A pointer to the GetFileDataCallback.
 
 
 ### -field QueryFileNameCallback
 
-TBD
+A pointer to the QueryFileNameCallback.
 
 
 ### -field NotificationCallback
@@ -94,15 +95,35 @@ TBD
 
 ### -field CancelCommandCallback
 
-TBD
+A pointer to the CancelCommandCallback.
 
 
 #### - GetPlaceholderInformationCallback
 
-TBD
+A pointer to the GetPlaceholderInformationCallback.
 
 
 #### - NotifyOperationCallback
 
-TBD
+A pointer to the NotifyOperationCallback.
+
+
+## -remarks
+
+
+
+The provider must supply implementations for StartDirectoryEnumerationCallback, EndDirectoryEnumerationCallback, GetDirectoryEnumerationCallback, GetPlaceholderInformationCallback, and GetFileDataCallback. 
+
+
+
+The QueryFileNameCallback, NotifyOperationCallback, and CancelCommandCallback callbacks are optional.
+
+<ul>
+<li>If the provider does not supply an implementation of QueryFileNameCallback, ProjFS will invoke the directory enumeration callbacks to determine the existence of a file path in the provider's store.</li>
+<li>If the provider does not supply an implementation of NotifyOperationCallback, it will not get any notifications from ProjFS.</li>
+<li>If the provider does not supply an implementation of CancelCommandCallback, none of the other callbacks will be cancellable. The provider will process all callbacks synchronously.</li>
+</ul>
+
+
+
 

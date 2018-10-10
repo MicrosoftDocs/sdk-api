@@ -4,10 +4,10 @@ title: IImageList2::PreloadImages
 author: windows-sdk-content
 description: Preloads images, as specified.
 old-location: controls\IImageList2_PreloadImages.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\preloadimages.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IImageList2 interface [Windows Controls],PreloadImages method, IImageList2.PreloadImages, IImageList2::PreloadImages, PreloadImages, PreloadImages method [Windows Controls], PreloadImages method [Windows Controls],IImageList2 interface, _shell_IImageList2_PreloadImages, _shell_IImageList2_PreloadImages_cpp, commoncontrols/IImageList2::PreloadImages, controls.IImageList2_PreloadImages, controls._shell_IImageList2_PreloadImages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Preloads images, as specified.
 
 ### -param pimldp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c3579946-d690-4f32-9662-b4e1b3f06aba">IMAGELISTDRAWPARAMS</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a> structure containing information about an image list draw operation.
+A pointer to an <a href="https://msdn.microsoft.com/c3579946-d690-4f32-9662-b4e1b3f06aba">IMAGELISTDRAWPARAMS</a> structure containing information about an image list draw operation.
 
 
 ## -returns

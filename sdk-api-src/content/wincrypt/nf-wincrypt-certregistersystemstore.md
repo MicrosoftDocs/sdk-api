@@ -225,9 +225,13 @@ To unregister a system store that has been registered by this function, call <a 
 
 The following example shows adding a system store to a registry system store collection. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/bc4268ea-f657-4789-9d0a-6e5354508f86">Example C Program: Listing System and Physical Stores</a>.
 
-
-```cpp
-//--------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//--------------------------------------------------------------------
 // Declare and initialize variables.
 
 LPCWSTR pvSystemName= L"NEWSTORE";  // For this setting of 
@@ -248,10 +252,10 @@ else
   printf("The system store did not register. \n");
   exit(1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -284,7 +288,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

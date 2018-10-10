@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionEffectGroup.SetOpacity(IDCompositionAnimation)
 title: IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the Opacity property.
-old-location: directcomp\idcompositioneffectgroup_setopacity_double.htm
+description: Animates the value of the Opacity property.
+old-location: directcomp\idcompositioneffectgroup_setopacity_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: B82E6BEB-CF92-4EA6-8157-5AA0A41282F1
+ms.assetid: 9BD576D6-51CA-41A5-AF8F-FEA77C17C872
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_double
+ms.date: 10/09/2018
+ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation*), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the Opacity property.
+Animates the value of the Opacity property. 
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the Opacity property.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - opacity [in]
-
-Type: <b>float</b>
-
-The new value of the Opacity property.
+An animation that represents how the value of the Opacity property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,15 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-The opacity is interpreted as completely transparent for all values less than or equal to 0, and as completely opaque for all values greater than or equal to 1. All values between 0 and 1 represent partial opacity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the Opacity property unless this method is called again. If the Opacity property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-This method fails if the <i>opacity</i> parameter is NaN, positive infinity, or negative infinity.
-
-
-
-If the Opacity property was previously animated, this method removes the animation and sets the Opacity property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected compostion effect group. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

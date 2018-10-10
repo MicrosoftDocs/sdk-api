@@ -4,10 +4,10 @@ title: IKEEXT_CREDENTIAL2_
 author: windows-sdk-content
 description: Is used to store credential information used for the authentication.
 old-location: fwp\ikeext_credential2.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: b27689ef-5e2a-4163-a4d7-40f8939d4c66
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IKEEXT_CREDENTIAL2, IKEEXT_CREDENTIAL2 structure [Filtering], IKEEXT_CREDENTIAL2_, fwp.ikeext_credential2, iketypes/IKEEXT_CREDENTIAL2
 ms.prod: windows
 ms.technology: windows-sdk

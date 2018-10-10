@@ -7,7 +7,7 @@ old-location: wmi\chstring_compare.htm
 tech.root: WmiSdk
 ms.assetid: 6e587dd3-b3ae-4afa-9582-b3867d2fb7ef
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: "?Compare@CHString@@QBEHPBG@Z, ?Compare@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],Compare method, CHString.Compare, CHString::Compare, Compare, Compare method [Windows Management Instrumentation], Compare method [Windows Management Instrumentation],CHString interface, _hmm_chstring_compare, chstring/CHString::Compare, wmi.chstring_compare"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,16 +92,20 @@ The <b>Compare</b> method, which performs a case-sensitive comparison of the str
 
 The following code example shows the use of <b>CHString::Compare</b>:
 
-
-```cpp
-CHString s1( L"abc" );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s1( L"abc" );
 CHString s2( L"ABC" );
 
-assert( s1.Compare( s2 ) > 0 ); // Compare with another CHString.
-assert( s1.Compare( L"abc" ) == 0 ); // Compare with LPCWSTR string.
-```
-
-
+assert( s1.Compare( s2 ) &gt; 0 ); // Compare with another CHString.
+assert( s1.Compare( L"abc" ) == 0 ); // Compare with LPCWSTR string.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

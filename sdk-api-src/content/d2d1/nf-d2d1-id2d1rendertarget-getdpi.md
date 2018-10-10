@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_GetDpi.htm
 tech.root: Direct2D
 ms.assetid: 72a25b78-96fd-42bf-9e71-6bb80efea0ac
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetDpi method, ID2D1RenderTarget.GetDpi, ID2D1RenderTarget::GetDpi, d2d1/ID2D1RenderTarget::GetDpi, direct2d.ID2D1RenderTarget_GetDpi
 ms.prod: windows-hardware
 ms.technology: windows-devices

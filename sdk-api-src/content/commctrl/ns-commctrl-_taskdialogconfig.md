@@ -4,10 +4,10 @@ title: "_TASKDIALOGCONFIG"
 author: windows-sdk-content
 description: The TASKDIALOGCONFIG structure contains information used to display a task dialog. The TaskDialogIndirect function uses this structure.
 old-location: controls\TASKDIALOGCONFIG.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstructures\taskdialogconfig.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: TASKDIALOGCONFIG, TASKDIALOGCONFIG structure [Windows Controls], TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TDF_ALLOW_DIALOG_CANCELLATION, TDF_CALLBACK_TIMER, TDF_CAN_BE_MINIMIZED, TDF_ENABLE_HYPERLINKS, TDF_EXPANDED_BY_DEFAULT, TDF_EXPAND_FOOTER_AREA, TDF_NO_DEFAULT_RADIO_BUTTON, TDF_POSITION_RELATIVE_TO_WINDOW, TDF_RTL_LAYOUT, TDF_SHOW_MARQUEE_PROGRESS_BAR, TDF_SHOW_PROGRESS_BAR, TDF_SIZE_TO_CONTENT, TDF_USE_COMMAND_LINKS, TDF_USE_COMMAND_LINKS_NO_ICON, TDF_USE_HICON_FOOTER, TDF_USE_HICON_MAIN, TDF_VERIFICATION_FLAG_CHECKED, TDIF_SIZE_TO_CONTENT, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, _TASKDIALOGCONFIG, _shell_TASKDIALOGCONFIG, _shell_TASKDIALOGCONFIG_cpp, commctrl/TASKDIALOGCONFIG, controls.TASKDIALOGCONFIG, controls._shell_TASKDIALOGCONFIG
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>TASKDIALOGCONFIG</b> structure contains information used to display a task dialog. The <a href="https://msdn.microsoft.com/en-us/library/Bb760544(v=VS.85).aspx">TaskDialogIndirect</a> function uses this structure.
+The <b>TASKDIALOGCONFIG</b> structure contains information used to display a task dialog. The <a href="https://msdn.microsoft.com/59547418-319d-4672-9b5d-1c2e6aae0655">TaskDialogIndirect</a> function uses this structure.
 
 
 ## -struct-fields
@@ -100,15 +100,19 @@ Specifies the behavior of the task dialog. This parameter can be a combination o
 Enables hyperlink processing for the strings specified in the <b>pszContent</b>, <b>pszExpandedInformation</b> and <b>pszFooter</b> members. When enabled, these members may point to strings that contain hyperlinks in the following form:
 
 
-
-```
-<A HREF="executablestring">Hyperlink Text</A>
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>&lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Warning: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</b>
 
-<div class="alert"><b>Note</b>  Task Dialogs will not actually execute any hyperlinks. Hyperlink execution must be handled in the callback function specified by <b>pfCallback</b>. For more details, see <a href="https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx">TaskDialogCallbackProc</a>.</div>
+<div class="alert"><b>Note</b>  Task Dialogs will not actually execute any hyperlinks. Hyperlink execution must be handled in the callback function specified by <b>pfCallback</b>. For more details, see <a href="https://msdn.microsoft.com/4229df67-3e99-4606-917f-8122e1a6a5ee">TaskDialogCallbackProc</a>.</div>
 <div> </div>
 </td>
 </tr>
@@ -365,7 +369,7 @@ The task dialog contains the push button: <b>Close</b>.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the string to be used for the task dialog title.  This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. If this parameter is <b>NULL</b>, the filename of the executable program is used.
+Pointer that references the string to be used for the task dialog title.  This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. If this parameter is <b>NULL</b>, the filename of the executable program is used.
 
 
 ### -field DUMMYUNIONNAME
@@ -384,7 +388,7 @@ A handle to an Icon that is to be displayed in the task dialog.  This member is 
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the icon to be displayed in the task dialog. This parameter is ignored if the USE_HICON_MAIN flag is specified. Otherwise, if this parameter is <b>NULL</b> or the <b>hInstance</b> parameter is <b>NULL</b>, no icon will be displayed. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro or one of the following predefined values:
+Pointer that references the icon to be displayed in the task dialog. This parameter is ignored if the USE_HICON_MAIN flag is specified. Otherwise, if this parameter is <b>NULL</b> or the <b>hInstance</b> parameter is <b>NULL</b>, no icon will be displayed. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro or one of the following predefined values:
 					
 
 <table>
@@ -440,14 +444,14 @@ A shield icon appears in the task dialog.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the string to be used for the main instruction. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.
+Pointer that references the string to be used for the main instruction. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro.
 
 
 ### -field pszContent
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the string to be used for the dialog's primary content. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. If the ENABLE_HYPERLINKS flag is specified for the <b>dwFlags</b> member, then this string may contain hyperlinks in the form: &lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;.  <b>WARNING: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</b>
+Pointer that references the string to be used for the dialog's primary content. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. If the ENABLE_HYPERLINKS flag is specified for the <b>dwFlags</b> member, then this string may contain hyperlinks in the form: &lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;.  <b>WARNING: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</b>
 
 
 ### -field cButtons
@@ -459,16 +463,16 @@ The number of entries in the <b>pButtons</b> array that is used to create button
 
 ### -field pButtons
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb787475(v=VS.85).aspx">TASKDIALOG_BUTTON</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/43215c95-bc32-4411-bdd6-82d2fbe36bcf">TASKDIALOG_BUTTON</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb787475(v=VS.85).aspx">TASKDIALOG_BUTTON</a> structures containing the definition of the custom buttons that are to be displayed in the task dialog.  This array must contain at least the number of entries that are specified by the <b>cButtons</b> member.
+Pointer to an array of <a href="https://msdn.microsoft.com/43215c95-bc32-4411-bdd6-82d2fbe36bcf">TASKDIALOG_BUTTON</a> structures containing the definition of the custom buttons that are to be displayed in the task dialog.  This array must contain at least the number of entries that are specified by the <b>cButtons</b> member.
 
 
 ### -field nDefaultButton
 
 Type: <b>int</b>
 
-The default button for the task dialog.  This may be any of the values specified in <b>nButtonID</b> members of one of the <a href="https://msdn.microsoft.com/en-us/library/Bb787475(v=VS.85).aspx">TASKDIALOG_BUTTON</a> structures in the <b>pButtons</b> array, or one of the IDs corresponding to the buttons specified in the <b>dwCommonButtons</b> member:
+The default button for the task dialog.  This may be any of the values specified in <b>nButtonID</b> members of one of the <a href="https://msdn.microsoft.com/43215c95-bc32-4411-bdd6-82d2fbe36bcf">TASKDIALOG_BUTTON</a> structures in the <b>pButtons</b> array, or one of the IDs corresponding to the buttons specified in the <b>dwCommonButtons</b> member:
 
 <table class="clsStd">
 <tr>
@@ -510,9 +514,9 @@ The number of entries in the <b>pRadioButtons</b> array that is used to create r
 
 ### -field pRadioButtons
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb787475(v=VS.85).aspx">TASKDIALOG_BUTTON</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/43215c95-bc32-4411-bdd6-82d2fbe36bcf">TASKDIALOG_BUTTON</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb787475(v=VS.85).aspx">TASKDIALOG_BUTTON</a> structures containing the definition of the radio buttons that are to be displayed in the task dialog.  This array must contain at least the number of entries that are specified by the <b>cRadioButtons</b> member. This parameter can be <b>NULL</b>.
+Pointer to an array of <a href="https://msdn.microsoft.com/43215c95-bc32-4411-bdd6-82d2fbe36bcf">TASKDIALOG_BUTTON</a> structures containing the definition of the radio buttons that are to be displayed in the task dialog.  This array must contain at least the number of entries that are specified by the <b>cRadioButtons</b> member. This parameter can be <b>NULL</b>.
 
 
 ### -field nDefaultRadioButton
@@ -526,28 +530,28 @@ The button ID of the radio button that is selected by default. If this value doe
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the string to be used to label the verification checkbox. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. If this parameter is <b>NULL</b>, the verification checkbox is not displayed in the task dialog. If the <i>pfVerificationFlagChecked</i> parameter of <a href="https://msdn.microsoft.com/en-us/library/Bb760544(v=VS.85).aspx">TaskDialogIndirect</a> is <b>NULL</b>, the checkbox is not enabled.
+Pointer that references the string to be used to label the verification checkbox. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. If this parameter is <b>NULL</b>, the verification checkbox is not displayed in the task dialog. If the <i>pfVerificationFlagChecked</i> parameter of <a href="https://msdn.microsoft.com/59547418-319d-4672-9b5d-1c2e6aae0655">TaskDialogIndirect</a> is <b>NULL</b>, the checkbox is not enabled.
 
 
 ### -field pszExpandedInformation
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the string to be used for displaying additional information. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.   The additional information is displayed either immediately below the content or below the footer text depending on whether the TDF_EXPAND_FOOTER_AREA flag is specified.  If the TDF_ENABLE_HYPERLINKS flag is specified for the <b>dwFlags</b> member, then this string may contain hyperlinks in the form: &lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;. <b>WARNING: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</b>
+Pointer that references the string to be used for displaying additional information. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro.   The additional information is displayed either immediately below the content or below the footer text depending on whether the TDF_EXPAND_FOOTER_AREA flag is specified.  If the TDF_ENABLE_HYPERLINKS flag is specified for the <b>dwFlags</b> member, then this string may contain hyperlinks in the form: &lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;. <b>WARNING: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</b>
 
 
 ### -field pszExpandedControlText
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the string to be used to label the button for collapsing the expandable information. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. This member is ignored when the <b>pszExpandedInformation</b> member is <b>NULL</b>.  If this member is <b>NULL</b> and the <b>pszCollapsedControlText</b> is specified, then the <b>pszCollapsedControlText</b> value will be used for this member as well.
+Pointer that references the string to be used to label the button for collapsing the expandable information. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. This member is ignored when the <b>pszExpandedInformation</b> member is <b>NULL</b>.  If this member is <b>NULL</b> and the <b>pszCollapsedControlText</b> is specified, then the <b>pszCollapsedControlText</b> value will be used for this member as well.
 
 
 ### -field pszCollapsedControlText
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the string to be used to label the button for expanding the expandable information. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. This member is ignored when the <b>pszExpandedInformation</b> member is <b>NULL</b>.  If this member is <b>NULL</b> and the <b>pszCollapsedControlText</b> is specified, then the <b>pszCollapsedControlText</b> value will be used for this member as well.
+Pointer that references the string to be used to label the button for expanding the expandable information. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. This member is ignored when the <b>pszExpandedInformation</b> member is <b>NULL</b>.  If this member is <b>NULL</b> and the <b>pszCollapsedControlText</b> is specified, then the <b>pszCollapsedControlText</b> value will be used for this member as well.
 
 
 ### -field DUMMYUNIONNAME2
@@ -566,23 +570,27 @@ A handle to an Icon that is to be displayed in the footer of the task dialog.  T
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer that references the icon to be displayed in the footer area of the task dialog. This parameter is ignored if the TDF_USE_HICON_FOOTER flag is specified, or if <b>pszFooter</b> is <b>NULL</b>. Otherwise, if this parameter is <b>NULL</b> or the <b>hInstance</b> parameter is <b>NULL</b>, no icon is displayed. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro or one of the predefined values listed for <b>pszMainIcon</b>.
+Pointer that references the icon to be displayed in the footer area of the task dialog. This parameter is ignored if the TDF_USE_HICON_FOOTER flag is specified, or if <b>pszFooter</b> is <b>NULL</b>. Otherwise, if this parameter is <b>NULL</b> or the <b>hInstance</b> parameter is <b>NULL</b>, no icon is displayed. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro or one of the predefined values listed for <b>pszMainIcon</b>.
 
 
 ### -field pszFooter
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
-Pointer to the string to be used in the footer area of the task dialog. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. If the TDF_ENABLE_HYPERLINKS flag is specified for the <b>dwFlags</b> member, then this string may contain hyperlinks in this form. 
+Pointer to the string to be used in the footer area of the task dialog. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. If the TDF_ENABLE_HYPERLINKS flag is specified for the <b>dwFlags</b> member, then this string may contain hyperlinks in this form. 
 
 
 
-
-```
-<A HREF="executablestring">Hyperlink Text</A>
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>&lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Warning</b>  Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</div>
 <div> </div>
 
@@ -590,7 +598,7 @@ Pointer to the string to be used in the footer area of the task dialog. This par
 
 Type: <b>PFTASKDIALOGCALLBACK</b>
 
-Pointer to an application-defined callback function. For more information see <a href="https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx">TaskDialogCallbackProc</a>.
+Pointer to an application-defined callback function. For more information see <a href="https://msdn.microsoft.com/4229df67-3e99-4606-917f-8122e1a6a5ee">TaskDialogCallbackProc</a>.
 
 
 ### -field lpCallbackData

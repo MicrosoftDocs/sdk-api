@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedSlope(IDCompositionAnimati
 title: IDCompositionLinearTransferEffect::SetRedSlope(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the slope of the linear function for the red channel.
-old-location: directcomp\idcompositionlineartransfereffect_setredslope.htm
+old-location: directcomp\idcompositionlineartransfereffect_setredslope_2.htm
 tech.root: directcomp
-ms.assetid: 226B0410-8E4E-478D-A0A0-11005DA430A7
+ms.assetid: 4681DF2E-BEA6-423D-9E14-8938CFB7C73F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedSlope method, IDCompositionLinearTransferEffect.SetRedSlope, IDCompositionLinearTransferEffect.SetRedSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetRedSlope, IDCompositionLinearTransferEffect::SetRedSlope(IDCompositionAnimation), SetRedSlope, SetRedSlope method [DirectComposition], SetRedSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedSlope, directcomp.idcompositionlineartransfereffect_setredslope
+ms.date: 10/09/2018
+ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedSlope method, IDCompositionLinearTransferEffect.SetRedSlope, IDCompositionLinearTransferEffect.SetRedSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetRedSlope, IDCompositionLinearTransferEffect::SetRedSlope(IDCompositionAnimation), SetRedSlope, SetRedSlope method [DirectComposition], SetRedSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedSlope, directcomp.idcompositionlineartransfereffect_setredslope_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the slope of the linear function for the red channel. 
+Sets the slope of the linear function for the red channel.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Sets the slope of the linear function for the red channel.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - redSlope [in]
-
-Type: <b>float</b>
-
-The slope of the linear function for the red channel. 
+An animation that represents how the slope of the linear function for the red channel changes over time. This parameter must not be NULL.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: SetThreadpoolThreadMaximum function
 author: windows-sdk-content
 description: Sets the maximum number of threads that the specified thread pool can allocate to process callbacks.
 old-location: base\setthreadpoolthreadmaximum.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 381849cf-6835-40f2-be68-0522b16e4822
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: SetThreadpoolThreadMaximum, SetThreadpoolThreadMaximum function, base.setthreadpoolthreadmaximum, threadpoolapiset/SetThreadpoolThreadMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: tagLVFOOTERINFO
 author: windows-sdk-content
 description: Contains information on a footer in a list-view control.
 old-location: controls\LVFOOTERINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooterinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "*LPLVFOOTERINFO, LPLVFOOTERINFO, LPLVFOOTERINFO structure pointer [Windows Controls], LVFOOTERINFO, LVFOOTERINFO structure [Windows Controls], _shell_LVFOOTERINFO, _shell_LVFOOTERINFO_cpp, commctrl/LPLVFOOTERINFO, commctrl/LVFOOTERINFO, controls.LVFOOTERINFO, controls._shell_LVFOOTERINFO, tagLVFOOTERINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ The number of items in the footer. When this structure is used to get informatio
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761268(v=VS.85).aspx">ListView_GetFooterInfo</a> macro and the <a href="https://msdn.microsoft.com/en-us/library/Bb774927(v=VS.85).aspx">LVM_GETFOOTERINFO</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/941d86d8-96f4-4eeb-83b2-c00b279a2cc2">ListView_GetFooterInfo</a> macro and the <a href="https://msdn.microsoft.com/5734e151-50c0-46df-8f2c-220c4910a590">LVM_GETFOOTERINFO</a> message.
 
 The creation of footers in list-view controls is currently not supported.
 

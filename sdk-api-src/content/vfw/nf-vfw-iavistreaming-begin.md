@@ -7,7 +7,7 @@ old-location: multimedia\iavistreaming_begin.htm
 tech.root: Multimedia
 ms.assetid: 9bd76fc3-6c31-4e29-b482-82ee0a505656
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],Begin method, IAVIStreaming.Begin, IAVIStreaming::Begin, _win32_IAVIStreaming_Begin, multimedia.iavistreaming_begin, vfw/IAVIStreaming::Begin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,15 +97,19 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Begin</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Begin(LONG lStart, LONG lEnd, LONG lRate); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

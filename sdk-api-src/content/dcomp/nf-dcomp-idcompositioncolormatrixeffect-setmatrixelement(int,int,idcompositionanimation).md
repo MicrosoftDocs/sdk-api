@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrixElement(int,int,IDComposit
 title: IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets an element of the color matrix.
-old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement.htm
+old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement_2.htm
 tech.root: directcomp
-ms.assetid: 4F78FA9F-8115-4D60-B119-F60968AAB1D4
+ms.assetid: 370B4908-0474-4AD1-8D0A-735090F438FD
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrixElement method, IDCompositionColorMatrixEffect.SetMatrixElement, IDCompositionColorMatrixEffect.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionColorMatrixEffect::SetMatrixElement, IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrixElement, directcomp.idcompositioncolormatrixeffect_setmatrixelement
+ms.date: 10/09/2018
+ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrixElement method, IDCompositionColorMatrixEffect.SetMatrixElement, IDCompositionColorMatrixEffect.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionColorMatrixEffect::SetMatrixElement, IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrixElement, directcomp.idcompositioncolormatrixeffect_setmatrixelement_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,18 +72,11 @@ Type: <b>int</b>
 The column of the element.
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - value [in]
-
-Type: <b>float</b>
-
-The new value of the element.
+An animation that represents how the element value changes over time. This parameter must not be NULL.
 
 
 ## -returns

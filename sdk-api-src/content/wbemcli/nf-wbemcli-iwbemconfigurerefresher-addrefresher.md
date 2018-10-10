@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_addrefresher.htm
 tech.root: WmiSdk
 ms.assetid: 17eaf6b0-e2e1-4a23-952d-2439da89f765
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/09/2018
 ms.keywords: AddRefresher, AddRefresher method [Windows Management Instrumentation], AddRefresher method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddRefresher method, IWbemConfigureRefresher.AddRefresher, IWbemConfigureRefresher::AddRefresher, _hmm_iwbemconfigurerefresher_addrefresher, wbemcli/IWbemConfigureRefresher::AddRefresher, wmi.iwbemconfigurerefresher_addrefresher
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 Users should not add recursively nested refreshers. The returned identifier can be used by the 
-<a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">Remove</a> function to remove the refresher. Although it is not necessary for the client to explicitly remove added refreshers, the client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the refreshers when they are no longer required.
+<a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">Remove</a> function to remove the refresher. Although it is not necessary for the client to explicitly remove added refreshers, the client must call <a href="_com_iunknown_release">Release</a> on the refreshers when they are no longer required.
 
 
 
