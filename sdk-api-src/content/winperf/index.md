@@ -2,7 +2,7 @@
 UID: NA:winperf
 ms.assetid: 0224ed0c-d13b-3116-b174-aad1f2d5f9ac
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

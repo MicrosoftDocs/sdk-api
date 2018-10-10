@@ -2,7 +2,7 @@
 UID: NA:dimm
 ms.assetid: a6c31233-9940-3eb5-af16-714df7c4f041
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -70,7 +70,7 @@ When selecting from a list or 2D grid there are primary pieces of information th
 <li>The current item as you select</li>
 <li>The total count</li>
 </ul>
-<img alt="Image of an Excel spreadsheet showing multiple cells selected. Selection starts in the upper right on cell F5 and ends in the lower left on cell D7." src="images/ISelectionPattern2.png"/>
+<img alt="Image of an Excel spreadsheet showing multiple cells selected. Selection starts in the upper right on cell F5 and ends in the lower left on cell D7." src="./images/ISelectionPattern2.png"/>
 The above image illustrates the end state of a 2D selection:
 
 

@@ -2,7 +2,7 @@
 UID: NA:lmsvc
 ms.assetid: e72fb0a7-4464-305a-b375-cb18be871dc6
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:mfplay
 ms.assetid: da41ae68-1d65-3a09-8082-43710ac22c6c
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

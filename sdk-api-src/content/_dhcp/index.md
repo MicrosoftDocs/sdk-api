@@ -2,7 +2,7 @@
 UID: TP:dhcp
 ms.assetid: b6e81add-dd29-38a3-a1c3-f32ac92fded0
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

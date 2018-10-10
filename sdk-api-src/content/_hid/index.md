@@ -2,7 +2,7 @@
 UID: TP:hid
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

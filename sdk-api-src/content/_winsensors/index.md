@@ -2,7 +2,7 @@
 UID: TP:winsensors
 ms.assetid: f5d46aad-1a36-3ec7-9968-cbf8b3e24824
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

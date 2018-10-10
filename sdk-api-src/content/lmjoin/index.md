@@ -2,7 +2,7 @@
 UID: NA:lmjoin
 ms.assetid: 4f6c1090-622c-3d78-bb3f-e7adfe000004
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

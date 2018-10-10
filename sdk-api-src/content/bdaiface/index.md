@@ -2,13 +2,12 @@
 UID: NA:bdaiface
 ms.assetid: c1391053-4104-38c7-9fee-0ff090101ae6
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mstv
-archived: true
 ---
 
 # Bdaiface.h header

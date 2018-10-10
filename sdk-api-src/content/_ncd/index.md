@@ -2,7 +2,7 @@
 UID: TP:ncd
 ms.assetid: e1a7e0e3-7a4f-305f-9c8c-47beba62ae6d
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

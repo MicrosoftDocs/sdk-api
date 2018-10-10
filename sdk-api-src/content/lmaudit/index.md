@@ -2,7 +2,7 @@
 UID: NA:lmaudit
 ms.assetid: b9242b97-d957-30bf-bdab-86e75830b4d2
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:storageprovider
 ms.assetid: e40e10d9-a646-3f5f-805f-3492778bf552
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

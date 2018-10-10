@@ -2,13 +2,12 @@
 UID: NA:qnetwork
 ms.assetid: d78c8ba2-4d4a-339e-9f7a-20fed6653b9d
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
-archived: true
 ---
 
 # Qnetwork.h header

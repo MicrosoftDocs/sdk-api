@@ -2,7 +2,7 @@
 UID: NA:tsgauthenticationengine
 ms.assetid: fc55d3c8-843c-3168-b01a-4ba9d145b87c
 ms.author: windowssdkdev
-ms.date: 10/08/2018
+ms.date: 10/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
