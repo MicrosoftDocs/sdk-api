@@ -88,35 +88,27 @@ The following table lists the defined opt-in options for multitouch.
 
 The following example demonstrates how to enable multitouch using the <a href="https://msdn.microsoft.com/93eabb45-0b0e-495f-9b64-43ad8060b958">RealTimeStylus3</a> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-CComQIPtr&lt;IRealTimeStylus3&gt; spRealTimeStylus3 = g_spRealTimeStylus;
+
+```cpp
+
+CComQIPtr<IRealTimeStylus3> spRealTimeStylus3 = g_spRealTimeStylus;
 if(spRealTimeStylus3 == NULL)
 {
     return FALSE;
 }
-HRESULT hr = spRealTimeStylus3-&gt;put_MultiTouchEnabled(TRUE);
+HRESULT hr = spRealTimeStylus3->put_MultiTouchEnabled(TRUE);
 if(FAILED(hr))
 {
     return FALSE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The following example shows how to explicitly set the TABLET_ENABLE_MULTITOUCHDATA property on a window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    
+
+```cpp
+    
     //Set the window property
     ATOM m_atom = ::GlobalAddAtom(MICROSOFT_TABLETPENSERVICE_PROPERTY);
     m_dwProperty = TABLET_ENABLE_MULTITOUCHDATA;
@@ -136,10 +128,10 @@ The following example shows how to explicitly set the TABLET_ENABLE_MULTITOUCHDA
     case WM_TABLET_QUERYSYSTEMGESTURESTATUS:
         return TABLET_ENABLE_MULTITOUCHDATA;
     }    
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

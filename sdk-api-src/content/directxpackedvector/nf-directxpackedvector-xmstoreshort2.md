@@ -85,23 +85,19 @@ This function takes a vector, clamps it to the range -32767.0f to 32767.0f, conv
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>static const XMVECTOR  Min = {-32767.0f, -32767.0f, -32767.0f, -32767.0f};
+
+```
+static const XMVECTOR  Min = {-32767.0f, -32767.0f, -32767.0f, -32767.0f};
 static const XMVECTOR  Max = {32767.0f, 32767.0f, 32767.0f, 32767.0f};
 XMVECTOR               N;
 N = XMVectorClamp(V, Min, Max);
 N = XMVectorRound(N);
 
-pDestination-&gt;x = (int16_t)N.x; // 2 bytes to address pDestination
-pDestination-&gt;y = (int16_t)N.y; // 2 bytes to address (uint8_t*)pDestination + 2</pre>
-</td>
-</tr>
-</table></span></div>
+pDestination->x = (int16_t)N.x; // 2 bytes to address pDestination
+pDestination->y = (int16_t)N.y; // 2 bytes to address (uint8_t*)pDestination + 2
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

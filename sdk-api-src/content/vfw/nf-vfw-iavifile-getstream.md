@@ -101,20 +101,16 @@ Remember to increment the reference count maintained by the <b>AddRef</b> method
 
 For handlers written in C++, GetStream has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT GetStream(PAVISTREAM *ppStream, 
     DWORD fccType, LONG lParam); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

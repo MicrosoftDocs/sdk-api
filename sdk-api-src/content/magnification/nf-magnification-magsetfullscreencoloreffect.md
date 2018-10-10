@@ -87,13 +87,9 @@ The full-screen magnifier uses the color transformation matrix to apply a color 
 
 The following example defines two color transformation matrices for use with <b>MagSetFullscreenColorEffect</b>. The <code>g_MagEffectGrayscale</code> matrix converts the screen colors to grayscale. The <code>g_MagEffectIdentity</code> matrix is the identity matrix, which restores the original screen colors.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Initialize color transformation matrices used to apply grayscale and to 
+
+```cpp
+// Initialize color transformation matrices used to apply grayscale and to 
 // restore the original screen color.
 MAGCOLOREFFECT g_MagEffectGrayscale = {0.3f,  0.3f,  0.3f,  0.0f,  0.0f,
                                        0.6f,  0.6f,  0.6f,  0.0f,  0.0f,
@@ -112,14 +108,14 @@ BOOL SetColorGrayscale(__in BOOL fGrayscaleOn)
     // Apply the color matrix required to either apply grayscale to the screen 
     // colors or to show the regular colors.
     PMAGCOLOREFFECT pEffect = 
-                (fGrayscaleOn ? &amp;g_MagEffectGrayscale : &amp;g_MagEffectIdentity);
+                (fGrayscaleOn ? &g_MagEffectGrayscale : &g_MagEffectIdentity);
 
     return MagSetFullscreenColorEffect(pEffect);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

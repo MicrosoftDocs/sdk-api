@@ -133,25 +133,21 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt64VectorAlloc">PropVariantToInt64VectorAlloc</a> to access a <b>LONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid. The application is expecting propvar to contain a vector of LONGLONG values.
 LONGLONG *prgLongs;
 ULONG cElems;
-HRESULT hr = PropVariantToInt64VectorAlloc(propvar, &amp;prgLongs, &amp;cElems);
+HRESULT hr = PropVariantToInt64VectorAlloc(propvar, &prgLongs, &cElems);
 if (SUCCEEDED(hr))
 {
      // prgLongs now points to a vector of cElems LONGLONGs.
      CoTaskMemFree(prgLongs);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

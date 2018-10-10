@@ -166,25 +166,21 @@ The application returns S_OK to indicate that an operation should be continued a
 
 The following C++ code shows an example implementation of <b>Begin3</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT Begin3(GUID  EventId, DWORD  dwEstimatedTicks, OPAQUECOMMAND*  pContext)
 {
     WCHAR strGuid[64];
-    StringFromGUID2(reinterpret_cast&lt;GUID&amp;&gt;(EventId),(LPOLESTR)strGuid, 64);
+    StringFromGUID2(reinterpret_cast<GUID&>(EventId),(LPOLESTR)strGuid, 64);
     // TODO: Display the message "IWMDMProgress3::Begin3 called." 
     // followed by the strGuid value.
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

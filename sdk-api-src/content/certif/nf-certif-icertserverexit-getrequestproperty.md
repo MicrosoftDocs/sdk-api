@@ -333,24 +333,20 @@ You must call
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR      bstrPropName = NULL;
+
+```cpp
+BSTR      bstrPropName = NULL;
 VARIANT   varProp;
 
-VariantInit( &amp;varProp );
+VariantInit( &varProp );
 
 bstrPropName = SysAllocString(L"RequestID");
 
 // Retrieve the request property.
 // pCertServerExit has been used to call SetContext previously.
-hr = pCertServerExit-&gt;GetRequestProperty( bstrPropName,
+hr = pCertServerExit->GetRequestProperty( bstrPropName,
                                           PROPTYPE_LONG,
-                                          &amp;varProp );
+                                          &varProp );
 if (FAILED(hr))
 {
     printf("Failed GetRequestProperty [%x]\n", hr);
@@ -363,12 +359,12 @@ else
 }
 
 // Done processing.
-VariantClear( &amp;varProp );
+VariantClear( &varProp );
 if ( NULL != bstrPropName )
-    SysFreeString( bstrPropName );</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrPropName );
+```
+
+
 
 
 

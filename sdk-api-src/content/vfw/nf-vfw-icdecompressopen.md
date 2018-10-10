@@ -90,19 +90,15 @@ If this parameter is nonzero, a compressor handle is not returned unless it can 
 
 The <b>ICDecompressOpen</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define ICDecompressOpen(fccType, fccHandler, lpbiIn, lpbiOut) \ 
     ICLocate(fccType, fccHandler, lpbiIn, lpbiOut, ICMODE_DECOMPRESS); 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

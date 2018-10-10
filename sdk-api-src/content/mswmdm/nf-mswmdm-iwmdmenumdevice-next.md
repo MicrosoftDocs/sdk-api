@@ -101,16 +101,12 @@ The returned device interface(s) are based on a cached list of devices. If a Plu
 
 If you only want to retrieve a single interface at a time, you do not need to allocate an array for this method, as shown in the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Get a device enumerator to examine each device.
-CComPtr&lt;IWMDeviceManager2&gt; pIWMDevMgr2;
-hr = m_IWMDeviceMgr-&gt;QueryInterface (__uuidof(IWMDeviceManager2), (void**) &amp;pIWMDevMgr2);
+CComPtr<IWMDeviceManager2> pIWMDevMgr2;
+hr = m_IWMDeviceMgr->QueryInterface (__uuidof(IWMDeviceManager2), (void**) &pIWMDevMgr2);
 if (hr == S_OK)
 {
     // TODO: Display a message that the application retrieved IWMDeviceManager2.
@@ -123,8 +119,8 @@ else
 }
 
 // Enumerate through the devices using the faster EnumDevices2 plug-and-play method.
-CComPtr&lt;IWMDMEnumDevice&gt; pEnumDevice;
-hr = pIWMDevMgr2-&gt;EnumDevices2(&amp;pEnumDevice);
+CComPtr<IWMDMEnumDevice> pEnumDevice;
+hr = pIWMDevMgr2->EnumDevices2(&pEnumDevice);
 if (hr != S_OK)
 {
     //.TODO: Display a message that an error occurred in calling EnumDevices2.
@@ -134,7 +130,7 @@ if (hr != S_OK)
 // Enumerate through devices.
 IWMDMDevice *pIWMDMDevice;
 ULONG ulFetched = 0;
-while(pEnumDevice-&gt;Next(1, &amp;pIWMDMDevice, &amp;ulFetched) == S_OK)
+while(pEnumDevice->Next(1, &pIWMDMDevice, &ulFetched) == S_OK)
 {
     if (ulFetched != 1)
     {
@@ -142,10 +138,10 @@ while(pEnumDevice-&gt;Next(1, &amp;pIWMDMDevice, &amp;ulFetched) == S_OK)
     }
     // Do some stuff here....
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

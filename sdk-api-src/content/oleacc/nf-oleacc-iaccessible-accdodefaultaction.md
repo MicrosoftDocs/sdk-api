@@ -130,13 +130,9 @@ Also, while <b>accDoDefaultAction</b> is supposed to return immediately, some im
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example shows a possible implementation for a custom list control whose default action is a double-click a child item. To prevent blocking, the method posts a custom message that, when received by the control window, triggers an action, such as displaying item properties.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Assume a previous definition such as this: 
 // #define CUSTOMLB_DEFERDOUBLECLICK   (WM_USER + 1) 
 
@@ -155,31 +151,27 @@ HRESULT STDMETHODCALLTYPE AccServer::accDoDefaultAction(
     }
     return S_OK;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function performs the default action on a control.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT DoAction(IAccessible* pAcc)
 {
         VARIANT varId;
         varId.vt = VT_I4;
         varId.lVal = CHILDID_SELF;
-        return pAcc-&gt;accDoDefaultAction(varId);
+        return pAcc->accDoDefaultAction(varId);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -99,13 +99,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/80c24a7a-feed-40a3-bbdf-ff971e8aac68">PathGradientBrush::SetSurroundColors</a> method sets the color along the entire boundary to aqua. The 
 						<a href="https://msdn.microsoft.com/91d3fc66-4c0d-4b44-beae-59f13b80483d">FillRectangle Methods</a> method uses the path gradient brush to paint a rectangle that contains the ellipse.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetCenter(HDC hdc)
+
+```cpp
+VOID Example_SetCenter(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -114,7 +110,7 @@ The following example creates a
    path.AddEllipse(0, 0, 200, 100);
 
    // Use the path to construct a brush.
-   PathGradientBrush pthGrBrush(&amp;path);
+   PathGradientBrush pthGrBrush(&path);
 
    // Set the color at the center of the path to blue.
    pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
@@ -122,13 +118,13 @@ The following example creates a
    // Set the color along the entire boundary of the path to aqua.
    Color colors[] = {Color(255, 0, 255, 255)};
    INT count = 1;
-   pthGrBrush.SetSurroundColors(colors, &amp;count);
+   pthGrBrush.SetSurroundColors(colors, &count);
 
-   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 300, 300); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&pthGrBrush, 0, 0, 300, 300); 
+}
+```
+
+
 
 
 

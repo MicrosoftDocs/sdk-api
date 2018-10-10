@@ -100,17 +100,13 @@ For example, if two introductory host pages were added to an array called <b>hpa
 
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define ARRAYSIZE(a)    (sizeof(a)/sizeof(a[0]))
-g_iwe-&gt;AddPages(&amp;hpages[2], ARRAYSIZE(hpages)-2, &amp;nPages);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define ARRAYSIZE(a)    (sizeof(a)/sizeof(a[0]))
+g_iwe->AddPages(&hpages[2], ARRAYSIZE(hpages)-2, &nPages);
+```
+
+
 Do not confuse wizard pages, which are <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structures, with hosted HTML pages. One wizard dialog page can host many sequential HTML pages. This method supplies the number of wizard dialog pages added by the wizard extension, not the number of server-side HTML pages which are displayed in it.
 
 

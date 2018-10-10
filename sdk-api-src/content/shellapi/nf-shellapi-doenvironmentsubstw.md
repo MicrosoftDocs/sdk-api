@@ -149,13 +149,9 @@ The environment variables that correspond to file system folders can be mapped t
 
 The following console application demonstrates the use of <b>DoEnvironmentSubstW</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #include "stdafx.h"
 #include "windows.h"
 #include "windef.h"
@@ -171,9 +167,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	WORD string_length = LOWORD(result);
 
 	return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

@@ -251,13 +251,9 @@ The following restrictions apply when setting the NotBefore and NotAfter certifi
 
 The following example calls the <b>SetCertificateProperty</b> method to set the NotBefore certificate property. The example assumes pServer is valid and the <a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a> method has been called.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```cpp
+HRESULT hr;
 ICertServerPolicy *pServer;
 SYSTEMTIME st;
 BSTR bstrPropName;
@@ -271,16 +267,16 @@ if (NULL == bstrPropName)
 }
 
 // Set the 'NotBefore' property to Noon on Jan. 1, 2000.
-memset( &amp;st, 0, sizeof(SYSTEMTIME));
+memset( &st, 0, sizeof(SYSTEMTIME));
 st.wYear = 2000;
 st.wMonth = 1;     // Jan.
 st.wDay = 1;       // 1st day of month.
 st.wHour = 12;     // Noon.
 
 // Place the date into VARIANT required format.
-VariantInit( &amp;vPropValue );
+VariantInit( &vPropValue );
 vPropValue.vt = VT_DATE;
-if ( !SystemTimeToVariantTime( &amp;st, &amp;vPropValue.date))
+if ( !SystemTimeToVariantTime( &st, &vPropValue.date))
 {
     printf("Unable to convert time.\n");
     SysFreeString(bstrPropName);
@@ -288,19 +284,19 @@ if ( !SystemTimeToVariantTime( &amp;st, &amp;vPropValue.date))
 }
 
 // Set the NotBefore property in the certificate:
-hr = pServer-&gt;SetCertificateProperty(bstrPropName,
+hr = pServer->SetCertificateProperty(bstrPropName,
                                      PROPTYPE_DATE, 
-                                     &amp;vPropValue);
+                                     &vPropValue);
 SysFreeString(bstrPropName);
-VariantClear(&amp;vPropValue);
+VariantClear(&vPropValue);
 if (FAILED(hr))
 {
     printf("SetCertificateProperty failed [%x]\n", hr);
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

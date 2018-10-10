@@ -114,13 +114,9 @@ The following example demonstrates several methods of the
 						<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>class including <a href="https://msdn.microsoft.com/3abf3b42-d72e-413e-9daf-ba0e8146695e">PathGradientBrush::SetBlend</a>, <a href="https://msdn.microsoft.com/c87dbdab-68ea-4fac-9d37-1a12dfcf5335">PathGradientBrush::GetBlendCount</a>, and <b>PathGradientBrush::GetBlend</b>. The code creates a 
 						<b>PathGradientBrush</b>object and calls the <b>PathGradientBrush::SetBlend</b> method to establish a set of blend factors and blend positions for the brush. Then the code calls the <b>PathGradientBrush::GetBlendCount</b> method to retrieve the number of blend factors. After the number of blend factors is retrieved, the code allocates two buffers: one to receive the array of blend factors and one to receive the array of blend positions. Then the code calls the <b>PathGradientBrush::GetBlend</b> method to retrieve the blend factors and the blend positions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetBlend(HDC hdc)
+
+```cpp
+VOID Example_GetBlend(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -129,7 +125,7 @@ The following example demonstrates several methods of the
    path.AddEllipse(0, 0, 200, 100);
 
    // Use the path to construct a brush.
-   PathGradientBrush pthGrBrush(&amp;path);
+   PathGradientBrush pthGrBrush(&path);
 
    // Set the color at the center of the path to blue.
    pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
@@ -137,7 +133,7 @@ The following example demonstrates several methods of the
    // Set the color along the entire boundary of the path to aqua.
    Color colors[] = {Color(255, 0, 255, 255)};
    INT count = 1;
-   pthGrBrush.SetSurroundColors(colors, &amp;count);
+   pthGrBrush.SetSurroundColors(colors, &count);
 
    // Set blend factors and positions for the path gradient brush.
    REAL fac[] = {
@@ -155,7 +151,7 @@ The following example demonstrates several methods of the
    pthGrBrush.SetBlend(fac, pos, 4);
 
    // Fill the ellipse with the path gradient brush.
-   graphics.FillEllipse(&amp;pthGrBrush, 0, 0, 200, 100);
+   graphics.FillEllipse(&pthGrBrush, 0, 0, 200, 100);
 
    // Obtain information about the path gradient brush.
    INT blendCount = pthGrBrush.GetBlendCount();
@@ -164,7 +160,7 @@ The following example demonstrates several methods of the
 
    pthGrBrush.GetBlend(factors, positions, blendCount);
 
-   for(INT j = 0; j &lt; blendCount; ++j)
+   for(INT j = 0; j < blendCount; ++j)
    {
       // Inspect or use the value in factors[j].
       // Inspect or use the value in positions[j].    
@@ -172,10 +168,10 @@ The following example demonstrates several methods of the
 
    delete [] factors;
    delete [] positions; 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

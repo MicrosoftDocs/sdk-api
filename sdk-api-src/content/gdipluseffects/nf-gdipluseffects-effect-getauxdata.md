@@ -111,23 +111,19 @@ For the classes in the preceding list, <a href="https://msdn.microsoft.com/6b3d0
 
 The following code passes the address of a <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method. Then the code prints the blue-channel lookup table created by ApplyEffect.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Bitmap bm(L"Picture.bmp");
+
+```cpp
+Bitmap bm(L"Picture.bmp");
 
 BrightnessContrastParams briConParams;
 briConParams.brightnessLevel = 0;
 briConParams.contrastLevel = 25;
 
 BrightnessContrast briCon;
-briCon.SetParameters(&amp;briConParams);
+briCon.SetParameters(&briConParams);
 briCon.UseAuxData(TRUE);
 	
-bm.ApplyEffect(&amp;briCon, NULL);
+bm.ApplyEffect(&briCon, NULL);
 
 VOID* data = briCon.GetAuxData();
 
@@ -142,13 +138,13 @@ if(1024 != size || NULL == data)
 ColorLUTParams* tables = (ColorLUTParams*)data;
    
 // Print the lookup table for the blue channel.
-for(UINT j = 0; j &lt; 256; ++j)
+for(UINT j = 0; j < 256; ++j)
 {
-   printf("%u, %u\n", j, tables-&gt;lutB[j]);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   printf("%u, %u\n", j, tables->lutB[j]);
+}
+```
+
+
 
 
 

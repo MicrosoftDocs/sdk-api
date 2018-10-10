@@ -100,13 +100,9 @@ If you set the alignment of a
 The following example creates a 
 						<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object, sets the dash style and the dash cap, and draws a dashed line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetCustomStartCap(HDC hdc)
+
+```cpp
+VOID Example_SetCustomStartCap(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -120,11 +116,11 @@ The following example creates a
    pen.SetDashCap(DashCapTriangle);
 
    // Draw a line using the pen.
-   graphics.DrawLine(&amp;pen, 20, 20, 200, 100);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawLine(&pen, 20, 20, 200, 100);
+}
+```
+
+
 
 
 

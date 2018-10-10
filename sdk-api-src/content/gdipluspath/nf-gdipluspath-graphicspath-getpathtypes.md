@@ -100,21 +100,17 @@ A <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">Grap
 
 The following example creates a path and adds a sequence of three connected lines to the path. The code calls the <a href="https://msdn.microsoft.com/52bbe19b-298f-4297-9d23-a7b3b1f1e004">GraphicsPath::GetPointCount</a> method to determine the number of bytes in the path's array of point types and then allocates a buffer large enough to hold that array. Then the code calls the <b>GraphicsPath::GetPathTypes</b> method to fill the buffer with the array of point types.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>GraphicsPath path;
+
+```cpp
+GraphicsPath path;
 Point pts[] = {Point(0, 0), Point(2, 2), Point(3, 3), Point(0, 5)};
 path.AddLines(pts, 4);
 INT num = path.GetPointCount();
 BYTE* pTypes = new BYTE[num];
-path.GetPathTypes(pTypes, num);</pre>
-</td>
-</tr>
-</table></span></div>
+path.GetPathTypes(pTypes, num);
+```
+
+
 
 
 

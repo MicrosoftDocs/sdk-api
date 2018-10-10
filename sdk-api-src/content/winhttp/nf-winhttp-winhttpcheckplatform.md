@@ -87,20 +87,16 @@ For more information, see <a href="https://msdn.microsoft.com/354ab65d-5e46-451d
 
 The following example shows how to determine whether the current platform is supported.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    if (WinHttpCheckPlatform( ))
+
+```cpp
+    if (WinHttpCheckPlatform( ))
         printf("This platform is supported by WinHTTP.\n");
     else
         printf("This platform is NOT supported by WinHTTP.\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -153,13 +153,9 @@ biometric sensor. Link to the Winbio.lib static library and include the followin
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT LocateSensor( )
+
+```cpp
+HRESULT LocateSensor( )
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -173,7 +169,7 @@ biometric sensor. Link to the Winbio.lib static library and include the followin
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -183,7 +179,7 @@ biometric sensor. Link to the Winbio.lib static library and include the followin
 
     // Locate the sensor.
     wprintf_s(L"\n Tap the sensor once...\n");
-    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
+    hr = WinBioLocateSensor( sessionHandle, &unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -205,10 +201,10 @@ e_Exit:
     return hr;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
