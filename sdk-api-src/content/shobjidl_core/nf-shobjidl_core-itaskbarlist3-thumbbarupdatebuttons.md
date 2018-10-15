@@ -103,13 +103,9 @@ Thumbnail toolbars are displayed only when thumbnails are being displayed on the
 
 The following example shows how to use <b>ThumbBarUpdateButtons</b> to change the text and image on an existing button in a thumbnail toolbar on the extended taskbar.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT UpdateThumbarButton(HWND hwnd)
+
+```cpp
+HRESULT UpdateThumbarButton(HWND hwnd)
 {
     // Define a single structure for the button to update. The ID is that
     // of an existing button, so the other information (bitmap index and 
@@ -125,19 +121,19 @@ The following example shows how to use <b>ThumbBarUpdateButtons</b> to change th
     HRESULT hr = CoCreateInstance(CLSID_TaskbarList, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&amp;ptbl);
+                                  IID_PPV_ARGS(&ptbl);
 
     if (SUCCEEDED(hr))
     {
         // Update the toolbar. In this case, only the single button is updated.
-        hr = ptbl-&gt;ThumbBarUpdateButtons(hwnd, 1, &amp;thbButton);
-        ptbl-&gt;Release();
+        hr = ptbl->ThumbBarUpdateButtons(hwnd, 1, &thbButton);
+        ptbl->Release();
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

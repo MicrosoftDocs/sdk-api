@@ -106,13 +106,9 @@ This structure represents the definition of HDR10 metadata used with HEVC, not H
 
 Example: Mastering display with DCI-P3 color primaries and D65 white point, maximum luminance of 1000 nits and minimum luminance of 0.001 nits; content has maximum luminance of 2000 nits and maximum frame average light level (MaxFALL) of 500 nits.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RedPrimary[0] = 0.680 * 50000;
+
+```cpp
+RedPrimary[0] = 0.680 * 50000;
 RedPrimary[1] = 0.320 * 50000;
 GreenPrimary[0] = 0.265 * 50000;
 GreenPrimary[1] = 0.690 * 50000;
@@ -123,10 +119,10 @@ WhitePoint[1] = 0.3290 * 50000;
 MaxMasteringLuminance = 1000 * 10000;
 MinMasteringLuminance = 0.001 * 10000;
 MaxContentLightLevel = 2000;
-MaxFrameAverageLightLevel = 500;</pre>
-</td>
-</tr>
-</table></span></div>
+MaxFrameAverageLightLevel = 500;
+```
+
+
 This structure is used in conjunction with the <a href="https://msdn.microsoft.com/03EBBB29-EAC3-4FE7-9CA7-D9F62CFDA8FB">SetHDRMetaData</a> method.
 
 

@@ -90,23 +90,19 @@ The return value from the method is ignored by Windows Media Device Manager.
 
 The following C++ code is a simple implementation of the <b>Progress2</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT Progress(DWORD  dwTranspiredTicks)
 {
     // TODO: Display the message: "IWMDMProgress::Progress called." 
     // followed by the dwTranspiredTicks value.
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

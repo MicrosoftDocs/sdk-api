@@ -96,16 +96,12 @@ Returns S_OK if the items are the same, S_FALSE if they are different, or an err
 
 The data type used in the second parameter, SICHINTF, is defined as: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef DWORD SICHINTF;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef DWORD SICHINTF;
+```
+
+
 
 
 

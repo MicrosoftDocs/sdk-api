@@ -152,13 +152,9 @@ For more information about the stores that are automatically migrated, see <a hr
 
 The following example shows a simplified method for opening the most common system certificate stores. For another example that uses this function, see <a href="https://msdn.microsoft.com/cf87791c-b98c-4dd7-b346-336c4b1a88ca">Example C Program: Certificate Store Operations</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//--------------------------------------------------------------------
+
+```cpp
+//--------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCERTSTORE  hSystemStore;              // system store handle
@@ -188,10 +184,10 @@ if(!CertCloseStore(hSystemStore, 0))
 {
   printf("Unable to close the CA system store.\n");
   exit(1);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

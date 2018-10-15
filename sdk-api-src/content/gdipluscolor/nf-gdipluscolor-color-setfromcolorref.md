@@ -88,13 +88,9 @@ A 32-bit GDI<b>COLORREF</b> value contains three, 8-bit color components. The mo
 
 The following example creates a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object and sets a GDI<b>COLORREF</b> value. The code then sets the <b>Color</b> object to the value of the GDI<b>COLORREF</b> value, creates a pen, and draws a line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetFromCOLORREF(HDC hdc)
+
+```cpp
+VOID Example_SetFromCOLORREF(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -111,11 +107,11 @@ The following example creates a <a href="https://msdn.microsoft.com/dae648fd-130
    Pen pen((gdipColor), 10);
 
    // Draw a line.
-   graphics.DrawLine(&amp;pen, 0, 0, 200, 100);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawLine(&pen, 0, 0, 200, 100);
+}
+```
+
+
 
 
 

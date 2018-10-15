@@ -186,13 +186,9 @@ A successful call to this method generates an EXITEVENT_CERTRETRIEVEPENDING even
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR    bstrCA = NULL;
+
+```cpp
+BSTR    bstrCA = NULL;
 long    nReqID, nDisp;
 
 // In this example, the request ID is hard-coded.
@@ -203,7 +199,7 @@ bstrCA = SysAllocString(L"server01\\myCAName");
 
 // pCertRequest is previously instantiated ICertRequest
 // object pointer. Retrieve the status for the specified request.
-hr = pCertRequest-&gt;RetrievePending( nReqID, bstrCA, &amp;nDisp );
+hr = pCertRequest->RetrievePending( nReqID, bstrCA, &nDisp );
 if (FAILED(hr))
 {
     printf("Failed RetrievePending [%x]\n", hr);
@@ -215,10 +211,10 @@ else
 }
 // Free BSTR resource.
 if ( NULL != bstrCA )
-    SysFreeString( bstrCA );</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrCA );
+```
+
+
 
 
 

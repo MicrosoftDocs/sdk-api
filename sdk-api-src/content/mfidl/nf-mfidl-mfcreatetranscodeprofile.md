@@ -108,21 +108,17 @@ For example code that uses this function, see the following topics:
 
 The following example creates a transcode profile for Windows Media Audio (WMA).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>template &lt;class Q&gt;
+
+```cpp
+template <class Q>
 HRESULT GetCollectionObject(IMFCollection *pCollection, DWORD index, Q **ppObj)
 {
     IUnknown *pUnk;
-    HRESULT hr = pCollection-&gt;GetElement(index, &amp;pUnk);
+    HRESULT hr = pCollection->GetElement(index, &pUnk);
     if (SUCCEEDED(hr))
     {
-        hr = pUnk-&gt;QueryInterface(IID_PPV_ARGS(ppObj));
-        pUnk-&gt;Release();
+        hr = pUnk->QueryInterface(IID_PPV_ARGS(ppObj));
+        pUnk->Release();
     }
     return hr;
 }
@@ -138,7 +134,7 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     DWORD dwMTCount = 0;
     
     // Create an empty transcode profile.
-    HRESULT hr = MFCreateTranscodeProfile(&amp;pProfile);
+    HRESULT hr = MFCreateTranscodeProfile(&pProfile);
     if (FAILED(hr))
     {
         goto done;
@@ -150,17 +146,17 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     // Sort the results.
 
     DWORD dwFlags = 
-        (MFT_ENUM_FLAG_ALL &amp; (~MFT_ENUM_FLAG_FIELDOFUSE)) | 
+        (MFT_ENUM_FLAG_ALL & (~MFT_ENUM_FLAG_FIELDOFUSE)) | 
         MFT_ENUM_FLAG_SORTANDFILTER;
 
     hr = MFTranscodeGetAudioOutputAvailableTypes(MFAudioFormat_WMAudioV9, 
-        dwFlags, NULL, &amp;pAvailableTypes);
+        dwFlags, NULL, &pAvailableTypes);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pAvailableTypes-&gt;GetElementCount(&amp;dwMTCount);
+    hr = pAvailableTypes->GetElementCount(&dwMTCount);
     if (FAILED(hr))
     {
         goto done;
@@ -172,65 +168,65 @@ HRESULT CreateTranscodeProfile(IMFTranscodeProfile **ppProfile)
     }
 
     // Get the first audio type in the collection and make a copy.
-    hr = GetCollectionObject(pAvailableTypes, 0, &amp;pAudioType);
+    hr = GetCollectionObject(pAvailableTypes, 0, &pAudioType);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = MFCreateAttributes(&amp;pAudioAttrs, 0);       
+    hr = MFCreateAttributes(&pAudioAttrs, 0);       
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pAudioType-&gt;CopyAllItems(pAudioAttrs);
+    hr = pAudioType->CopyAllItems(pAudioAttrs);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Set the audio attributes on the profile.
-    hr = pProfile-&gt;SetAudioAttributes(pAudioAttrs);
+    hr = pProfile->SetAudioAttributes(pAudioAttrs);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Set the container attributes.
-    hr = MFCreateAttributes(&amp;pContainer, 1);
+    hr = MFCreateAttributes(&pContainer, 1);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pContainer-&gt;SetGUID(MF_TRANSCODE_CONTAINERTYPE, MFTranscodeContainerType_ASF);
+    hr = pContainer->SetGUID(MF_TRANSCODE_CONTAINERTYPE, MFTranscodeContainerType_ASF);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pProfile-&gt;SetContainerAttributes(pContainer);
+    hr = pProfile->SetContainerAttributes(pContainer);
     if (FAILED(hr))
     {
         goto done;
     }
 
     *ppProfile = pProfile;
-    (*ppProfile)-&gt;AddRef();
+    (*ppProfile)->AddRef();
 
 done:
-    SafeRelease(&amp;pProfile);
-    SafeRelease(&amp;pAvailableTypes);
-    SafeRelease(&amp;pAudioType);
-    SafeRelease(&amp;pAudioAttrs);
-    SafeRelease(&amp;pContainer);
+    SafeRelease(&pProfile);
+    SafeRelease(&pAvailableTypes);
+    SafeRelease(&pAudioType);
+    SafeRelease(&pAudioAttrs);
+    SafeRelease(&pContainer);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -123,18 +123,14 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 An IME independent software vendor (ISV) can define private styles for an IME in the IME_REGWORD_STYLE_USER_FIRST and IME_REGWORD_STYLE_USER_LAST values. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define MSIME_NOUN (IME_REGWORD_STYLE_USER_FIRST)
+
+```cpp
+#define MSIME_NOUN (IME_REGWORD_STYLE_USER_FIRST)
 #define MSIME_VERB (IME_REGWORD_STYLE_USER_FIRST + 1)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

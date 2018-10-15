@@ -117,13 +117,9 @@ The graphics device may define additional vendor-specific GUIDs. The driver prov
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
     // Initialize the video descriptor.
 
     g_VideoDesc.SampleWidth                         = VIDEO_MAIN_WIDTH;
@@ -146,11 +142,11 @@ The graphics device may define additional vendor-specific GUIDs. The driver prov
     UINT count;
     GUID* guids = NULL;
 
-    hr = g_pDXVAVPS-&gt;GetVideoProcessorDeviceGuids(&amp;g_VideoDesc, &amp;count, &amp;guids);
-</pre>
-</td>
-</tr>
-</table></span></div>
+    hr = g_pDXVAVPS->GetVideoProcessorDeviceGuids(&g_VideoDesc, &count, &guids);
+
+```
+
+
 
 
 

@@ -89,13 +89,9 @@ If <b>GetItemInfo</b> fails, the sync item is still shown in the handler's folde
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceSyncItem::GetItemInfo(
+
+```cpp
+STDMETHODIMP CMyDeviceSyncItem::GetItemInfo(
                               __out ISyncMgrSyncItemInfo **ppItemInfo)
 {
     *ppItemInfo = NULL;
@@ -103,9 +99,9 @@ The following example shows an implementation of this method.
     HRESULT hr = QueryInterface(IID_ISyncMgrSyncItemInfo, (void**)ppItemInfo);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

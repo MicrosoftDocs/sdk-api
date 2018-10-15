@@ -418,14 +418,10 @@ If the video is interlaced, the media samples may carry flags that describe the 
 
 Use the bit mask AMINTERLACE_FieldPatternMask to check the field pattern flags in <b>dwInterlaceFlags</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-switch (dwInterlaceFlags &amp; AMINTERLACE_FieldPatternMask)
+
+```cpp
+
+switch (dwInterlaceFlags & AMINTERLACE_FieldPatternMask)
 {
 case AMINTERLACE_FieldPatField1Only:
     // Stream never contains a Field 2.
@@ -439,20 +435,16 @@ case AMINTERLACE_FieldPatBothRegular:
 case AMINTERLACE_FieldPatBothIrregular:
     // Random pattern of Field 1 and Field 2.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Use the bit mask AMINTERLACE_DisplayModeMask to check the display mode flags in <b>dwInterlaceFlags</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-switch (dwInterlaceFlags &amp; AMINTERLACE_DisplayModeMask)
+
+```cpp
+
+switch (dwInterlaceFlags & AMINTERLACE_DisplayModeMask)
 {
 case AMINTERLACE_DisplayModeBobOnly:
     // Bob display mode only.
@@ -463,54 +455,46 @@ case AMINTERLACE_DisplayModeWeaveOnly:
 case AMINTERLACE_DisplayModeBobOrWeave:
     // Either bob or weave mode.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Interlaced video samples must have valid time stamps. Otherwise, it is not guaranteed that the display driver can deinterlace the video. If you need to display an interlaced video frame with no time stamp, set the AM_VIDEO_FLAG_WEAVE flag on the sample as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IMediaSample2* pSample2 = NULL;
-hr = pSample-&gt;QueryInterface(IID_IMediaSample2, (void**)&amp;pSample2);
+hr = pSample->QueryInterface(IID_IMediaSample2, (void**)&pSample2);
 if (SUCCEEDED(hr))
 {
     AM_SAMPLE2_PROPERTIES Prop;
-    hr = pSample2-&gt;GetProperties(sizeof(Prop), (BYTE*)&amp;Prop);
+    hr = pSample2->GetProperties(sizeof(Prop), (BYTE*)&Prop);
     if (SUCCEEDED(hr))
     {
         Prop.dwTypeSpecificFlags = AM_VIDEO_FLAG_WEAVE;
-        hr = pSample2-&gt;SetProperties(sizeof(Prop), (BYTE*)&amp;Prop);
+        hr = pSample2->SetProperties(sizeof(Prop), (BYTE*)&Prop);
     }
-    pSample2-&gt;Release();
+    pSample2->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 This causes the driver to display the two fields as one frame, using weave mode, without deinterlacing.
 
 <h3><a id="Extended_Color_Information"></a><a id="extended_color_information"></a><a id="EXTENDED_COLOR_INFORMATION"></a>Extended Color Information</h3>
 If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> member, you can cast the <b>dwControlFlags</b> value to a <b>DXVA_ExtendedFormat</b> structure to access the extended color information, as shown in the following code.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VIDEOINFOHEADER2 *pVIH2;
-DXVA_ExtendedFormat&amp; flags = (DXVA_ExtendedFormat&amp;)pVIH2-&gt;dwControlFlags;
-</pre>
-</td>
-</tr>
-</table></span></div>
+DXVA_ExtendedFormat& flags = (DXVA_ExtendedFormat&)pVIH2->dwControlFlags;
+
+```
+
+
 Ignore the <b>SampleFormat</b> member of the <b>DXVA_ExtendedFormat</b> structure, because it corresponds to the lower 8 bits of <b>dwControlFlags</b>, which are reserved for the AMCONTROL_xxx flags. The <b>DXVA_ExtendedFormat</b> structure is documented in the Windows DDK documentation.
 
 

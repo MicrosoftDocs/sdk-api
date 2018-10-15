@@ -79,21 +79,17 @@ The search performed by this macro includes the frame that corresponds to the sp
 
 The <b>AVIStreamNextKeyFrameTime</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamNextKeyFrameTime(pavi, time) \ 
     AVIStreamSampleToTime(pavi, \ 
     AVIStreamNextKeyFrame(pavi, \ 
     AVIStreamTimeToSample(pavi, time))) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

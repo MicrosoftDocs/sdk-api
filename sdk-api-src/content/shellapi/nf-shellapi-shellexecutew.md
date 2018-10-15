@@ -496,16 +496,12 @@ Because <b>ShellExecute</b> can delegate execution to Shell extensions (data sou
 
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)
+```
+
+
 There are certainly instances where <b>ShellExecute</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to <i>always</i> initalize COM before using this function.
 
 This method allows you to execute any commands in a folder's shortcut menu or stored in the registry.
@@ -514,54 +510,38 @@ To open a folder, use either of the following calls:
 
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ShellExecute(handle, NULL, &lt;fully_qualified_path_to_folder&gt;, NULL, NULL, SW_SHOWNORMAL);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ShellExecute(handle, NULL, <fully_qualified_path_to_folder>, NULL, NULL, SW_SHOWNORMAL);
+```
+
+
 or
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ShellExecute(handle, "open", &lt;fully_qualified_path_to_folder&gt;, NULL, NULL, SW_SHOWNORMAL);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ShellExecute(handle, "open", <fully_qualified_path_to_folder>, NULL, NULL, SW_SHOWNORMAL);
+```
+
+
 To explore a folder, use the following call:
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ShellExecute(handle, "explore", &lt;fully_qualified_path_to_folder&gt;, NULL, NULL, SW_SHOWNORMAL);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ShellExecute(handle, "explore", <fully_qualified_path_to_folder>, NULL, NULL, SW_SHOWNORMAL);
+```
+
+
 To launch the Shell's Find utility for a directory, use the following call.
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ShellExecute(handle, "find", &lt;fully_qualified_path_to_folder&gt;, NULL, NULL, 0);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ShellExecute(handle, "find", <fully_qualified_path_to_folder>, NULL, NULL, 0);
+```
+
+
 If <i>lpOperation</i> is <b>NULL</b>, the function opens the file specified by <i>lpFile</i>. If <i>lpOperation</i> is "open" or "explore", the function  attempts to open or explore the folder.
 
 To obtain information about the application that is launched as a result of calling <b>ShellExecute</b>, use <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a>.

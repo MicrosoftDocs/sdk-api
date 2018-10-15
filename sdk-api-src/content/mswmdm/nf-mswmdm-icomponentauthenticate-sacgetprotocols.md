@@ -99,13 +99,9 @@ This method is implemented by a service provider, and never called by an applica
 
 The following method demonstrates a service provider's implementation of the <b>SACGetProtocols</b> method. It does this by calling <a href="https://msdn.microsoft.com/42878774-9c8b-4d80-a17e-6682da4d34ab">CSecureChannelServer::SACGetProtocols</a> on its private <a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer</a> member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 STDMETHODIMP CMyServiceProvider::SACGetProtocols(
     DWORD **ppdwProtocols,
     DWORD  *pdwProtocolCount)
@@ -116,17 +112,17 @@ STDMETHODIMP CMyServiceProvider::SACGetProtocols(
     if(g_pAppSCServer == NULL)
        return hr;
 
-    hr = g_pAppSCServer-&gt;SACGetProtocols(
+    hr = g_pAppSCServer->SACGetProtocols(
         ppdwProtocols,
         pdwProtocolCount
     );
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

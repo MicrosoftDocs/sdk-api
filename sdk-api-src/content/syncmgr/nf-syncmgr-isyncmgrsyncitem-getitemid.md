@@ -97,13 +97,9 @@ In older Sync Manager implementations, this data was retrieved through the <a hr
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceSyncItem::GetItemID(__out LPWSTR *ppszItemID)
+
+```cpp
+STDMETHODIMP CMyDeviceSyncItem::GetItemID(__out LPWSTR *ppszItemID)
 {
     HRESULT hr = S_OK;
     *ppszName = NULL;
@@ -112,7 +108,7 @@ The following example shows an implementation of this method.
     if (_pszItemID == NULL)
     {
         LPOLESTR pszItemID = NULL;
-        hr = StringFromCLSID(_guidItemID, &amp;_pszItemID);
+        hr = StringFromCLSID(_guidItemID, &_pszItemID);
     }
 
     if (SUCCEEDED(hr))
@@ -123,9 +119,9 @@ The following example shows an implementation of this method.
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

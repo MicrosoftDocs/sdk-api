@@ -95,13 +95,9 @@ You do not have to allocate or deallocate memory for the array of points or the 
 
 The following example creates and draws a path that has a line, a rectangle, an ellipse, and a curve. The code gets the path's points and types by passing the address of a <a href="https://msdn.microsoft.com/b8e9a4cb-72e1-4646-956a-50801176a3bd">PathData</a> object to the <b>GraphicsPath::GetPathData</b> method. Then the code draws each of the path's data points.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID GetPathDataExample(HDC hdc)
+
+```cpp
+VOID GetPathDataExample(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -122,27 +118,27 @@ The following example creates and draws a path that has a line, a rectangle, an 
 
    // Draw the path.
    Pen pen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;pen, &amp;path);
+   graphics.DrawPath(&pen, &path);
 
    // Get the path data.
    PathData pathData;
-   path.GetPathData(&amp;pathData);
+   path.GetPathData(&pathData);
 
    // Draw the path's data points.
    SolidBrush brush(Color(255, 255, 0, 0));
-   for(INT j = 0; j &lt; pathData.Count; ++j)
+   for(INT j = 0; j < pathData.Count; ++j)
    {
       graphics.FillEllipse(
-         &amp;brush, 
+         &brush, 
          pathData.Points[j].X - 3.0f, 
          pathData.Points[j].Y - 3.0f,
          6.0f,
          6.0f);
    }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

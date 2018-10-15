@@ -107,30 +107,26 @@ The following example creates an
 						<b>X</b> and 
 						<b>Y</b> data members returned by <b>Image::GetBounds</b> to specify the upper-left corner of the source rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetBounds(HDC hdc)
+
+```cpp
+VOID Example_GetBounds(HDC hdc)
 {
    Graphics graphics(hdc);
 
    Image image(L"SampleMetafile2.emf");
-   graphics.DrawImage(&amp;image, 0, 0);
+   graphics.DrawImage(&image, 0, 0);
 
    // Get the bounding rectangle for the image (metafile).
    RectF boundsRect;
    Unit unit;
-   image.GetBounds(&amp;boundsRect, &amp;unit);
+   image.GetBounds(&boundsRect, &unit);
 
    // Attempt to draw 75 percent of the image.
    // Less than 75 percent of the image will be visible because the
    // upper-left corner of the image's bounding rectangle is not (0, 0).
    RectF dstRect(250.0f, 0.0f, 100.0f, 50.0f);
    graphics.DrawImage(
-      &amp;image,
+      &image,
       dstRect,                  // destination rectangle
       0.0f, 0.0f,               // upper-left corner of source rectangle 
       0.75f*boundsRect.Width,   // width of source rectangle
@@ -140,16 +136,16 @@ The following example creates an
    // Draw 75 percent of the image.
    dstRect.Y = 80.0f;
    graphics.DrawImage(
-      &amp;image,
+      &image,
       dstRect,                       // destination rectangle
       boundsRect.X, boundsRect.Y,    // upper-left corner of source rectangle
       0.75f*boundsRect.Width,        // width of source rectangle
       boundsRect.Height,             // height of source rectangle
       UnitPixel);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The preceding code, along with a particular file, SampleMetafile2.emf, produced the following output. Note that the first attempt (upper-right) to draw 75 percent of the image shows only about 30 percent of the image.
 
 

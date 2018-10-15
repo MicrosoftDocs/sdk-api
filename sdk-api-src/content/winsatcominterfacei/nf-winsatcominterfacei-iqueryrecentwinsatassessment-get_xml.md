@@ -78,15 +78,11 @@ To retrieve summary information about the assessment, call the <a href="https://
 
 The following example shows how to use an XPath query to get data from the most recent formal assessment.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;winsatcominterfacei.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <winsatcominterfacei.h>
 
 #pragma comment(lib, "ole32.lib")
 #pragma comment(lib, "oleaut32.lib")
@@ -108,7 +104,7 @@ void main(void)
         NULL,
         CLSCTX_INPROC_SERVER,
         __uuidof(IQueryRecentWinSATAssessment),
-        (void**)&amp;pAssessment);
+        (void**)&pAssessment);
 
     if (FAILED(hr))
     {
@@ -117,23 +113,23 @@ void main(void)
     }
 
     // Query the assessment for the nodes that match the XPath expression.
-    hr = pAssessment-&gt;get_XML(bstrXPath, NULL, &amp;pNodes);
+    hr = pAssessment->get_XML(bstrXPath, NULL, &pNodes);
     if (FAILED(hr))
     {
-        wprintf(L"pAssessment-&gt;get_XML failed with 0x%x.\n", hr);
+        wprintf(L"pAssessment->get_XML failed with 0x%x.\n", hr);
         goto cleanup;
     }
 
-    hr = pNodes-&gt;get_length(&amp;NodeCount);
+    hr = pNodes->get_length(&NodeCount);
     wprintf(L"There were %d results found for the XPath query.\n\n", NodeCount);
 
     // Loop through the results.
-    for (long i = 0; i &lt; NodeCount; i++)
+    for (long i = 0; i < NodeCount; i++)
     {
-        hr = pNodes-&gt;nextNode(&amp;pNode);
+        hr = pNodes->nextNode(&pNode);
         if (pNode)
         {
-            hr = pNode-&gt;get_text(&amp;bstrTime);
+            hr = pNode->get_text(&bstrTime);
             if (S_OK == hr)
             {
                 wprintf(L"Total runtime of the assessment: %s\n", bstrTime);
@@ -141,16 +137,16 @@ void main(void)
             }
             else
             {
-                wprintf(L"pNode-&gt;get_text failed with 0x%x.\n", hr);
+                wprintf(L"pNode->get_text failed with 0x%x.\n", hr);
                 goto cleanup;
             }
 
-            pNode-&gt;Release();
+            pNode->Release();
             pNode = NULL;
         }
         else
         {
-            wprintf(L"pNodes-&gt;nextNode failed with 0x%x.\n", hr);
+            wprintf(L"pNodes->nextNode failed with 0x%x.\n", hr);
             goto cleanup;
         }
     }
@@ -158,20 +154,20 @@ void main(void)
 cleanup:
 
     if (pAssessment)
-        pAssessment-&gt;Release();
+        pAssessment->Release();
 
     if (pNodes)
-        pNodes-&gt;Release();
+        pNodes->Release();
 
     if (bstrXPath)
         SysFreeString(bstrXPath);
 
     CoUninitialize();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -119,13 +119,9 @@ This function is called after the storage adapter has been removed from the pipe
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterDetach
 //
@@ -153,14 +149,14 @@ EngineAdapterDetach(
 
     // Retrieve the context from the pipeline and assign it to a local
     // variable.
-    context = (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+    context = (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
     if (context == NULL)
     {
         goto cleanup;
     }
 
     // Set the context on the pipeline to NULL.
-    Pipeline-&gt;EngineContext = NULL;
+    Pipeline->EngineContext = NULL;
 
     // If your adapter supports software-based template hashing and you
     // opened a Cryptography Next Generation (CNG) hash object handle
@@ -172,25 +168,25 @@ EngineAdapterDetach(
     // that remain attached to the context block. These structures can 
     // include the most recent feature set, the current enrollment template, 
     // and other custom defined objects.
-    if (context-&gt;FeatureSet != NULL)
+    if (context->FeatureSet != NULL)
     {
-        _AdapterRelease(context-&gt;FeatureSet);
-        context-&gt;FeatureSet = NULL;
-        context-&gt;FeatureSetSize = 0;
+        _AdapterRelease(context->FeatureSet);
+        context->FeatureSet = NULL;
+        context->FeatureSetSize = 0;
     }
 
-    if (context-&gt;Enrollment.Template != NULL)
+    if (context->Enrollment.Template != NULL)
     {
-        _AdapterRelease(context-&gt;Enrollment.Template);
-        context-&gt;Enrollment.Template = NULL;
-        context-&gt;Enrollment.TemplateSize = 0;
-        context-&gt;Enrollment.SampleCount = 0;
+        _AdapterRelease(context->Enrollment.Template);
+        context->Enrollment.Template = NULL;
+        context->Enrollment.TemplateSize = 0;
+        context->Enrollment.SampleCount = 0;
     }
 
-    if (context-&gt;SomePointerField != NULL)
+    if (context->SomePointerField != NULL)
     {
-        _AdapterRelease(context-&gt;SomePointerField);
-        context-&gt;SomePointerField = NULL;
+        _AdapterRelease(context->SomePointerField);
+        context->SomePointerField = NULL;
     }
 
     // Release the context block.
@@ -200,10 +196,10 @@ cleanup:
 
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

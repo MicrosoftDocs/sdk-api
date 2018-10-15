@@ -175,15 +175,11 @@ This function behaves like the standard Win32 	<a href="https://msdn.microsoft.c
 
 The following C++ example illustrates initialization of a security descriptor object using <b>FwpmEngineGetSecurityInfo0</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;fwpmu.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <fwpmu.h>
+#include <stdio.h>
 
 #pragma comment(lib, "Fwpuclnt.lib")
 
@@ -201,7 +197,7 @@ void main()
 
     securityDescriptor = (PSECURITY_DESCRIPTOR) malloc(sizeof(SECURITY_DESCRIPTOR));
 
-    result = FwpmEngineOpen0( NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &amp;engineHandle );
+    result = FwpmEngineOpen0( NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &engineHandle );
     if (result != ERROR_SUCCESS)
     {
         printf("FwpmEngineOpen0 failed.\n");
@@ -215,7 +211,7 @@ void main()
                  NULL,
                  NULL,
                  NULL,
-                 &amp;securityDescriptor);
+                 &securityDescriptor);
 
     if (result != ERROR_SUCCESS)
     {
@@ -225,10 +221,10 @@ void main()
 
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

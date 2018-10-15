@@ -158,18 +158,14 @@ The task will run on Saturday.
 
 The following C++ shows how to  combine the <b>rgfDaysOfTheWeek</b> flags. The example runs a task on every other Sunday, Wednesday, and Friday.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>WEEKLY example;
+
+```cpp
+WEEKLY example;
 example.WeeksInterval = 2;
-example.rgfDaysOfTheWeek = TASK_SUNDAY | TASK_WEDNESDAY | TASK_FRIDAY;</pre>
-</td>
-</tr>
-</table></span></div>
+example.rgfDaysOfTheWeek = TASK_SUNDAY | TASK_WEDNESDAY | TASK_FRIDAY;
+```
+
+
 
 
 
