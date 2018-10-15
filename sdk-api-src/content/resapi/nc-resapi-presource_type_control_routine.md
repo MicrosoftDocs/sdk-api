@@ -4,10 +4,10 @@ title: PRESOURCE_TYPE_CONTROL_ROUTINE
 author: windows-sdk-content
 description: Performs an operation that applies to a resource type.
 old-location: mscs\resourcetypecontrol.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: dc4a6e6e-f968-4502-88d0-dc692341528d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: PRESOURCE_TYPE_CONTROL_ROUTINE, PRESOURCE_TYPE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceTypeControl, ResourceTypeControl callback, ResourceTypeControl callback function [Failover Cluster], _wolf_resourcetypecontrol, mscs.resourcetypecontrol, resapi/PRESOURCE_TYPE_CONTROL_ROUTINE, resapi/ResourceTypeControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ Some control codes should be handled by the <a href="https://msdn.microsoft.com/
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

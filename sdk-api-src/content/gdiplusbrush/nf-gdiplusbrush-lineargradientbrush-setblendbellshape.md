@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setblendbellshape.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetBlendBellShape method, LinearGradientBrush.SetBlendBellShape, LinearGradientBrush::SetBlendBellShape, SetBlendBellShape, SetBlendBellShape method [GDI+], SetBlendBellShape method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,14 +77,14 @@ Optional. Real number that specifies the percentage of the gradient's ending col
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -106,9 +106,13 @@ The ending color in a bell-shaped blend is a percentage of the gamut between the
 
 The following example creates a linear gradient brush, sets a bell-shaped blend, and uses the brush to fill a rectangle. Twice more, the code sets a bell-shaped blend with different values and, each time, uses the brush to fill a rectangle.
 
-
-```cpp
-VOID Example_SetBlendBell(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetBlendBell(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -119,17 +123,17 @@ VOID Example_SetBlendBell(HDC hdc)
       Color(255, 0, 0, 255));  // blue
 
    linGrBrush.SetBlendBellShape(0.5f, 0.6f);
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 500, 50);
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 500, 50);
 
    linGrBrush.SetBlendBellShape(0.5f, 0.8f); 
-   myGraphics.FillRectangle(&linGrBrush, 0, 75, 500, 50);
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 75, 500, 50);
 
    linGrBrush.SetBlendBellShape(0.5f, 1.0f); 
-   myGraphics.FillRectangle(&linGrBrush, 0, 150, 500, 50);
-}
-```
-
-
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 150, 500, 50);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -138,35 +142,35 @@ VOID Example_SetBlendBell(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533914(v=VS.85).aspx">Creating a Linear Gradient</a>
+<a href="https://msdn.microsoft.com/9b0236b2-be6b-4918-a106-5b0e6c3dd5ff">Creating a Linear Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535328(v=VS.85).aspx">LinearGradientBrush::GetBlend</a>
+<a href="https://msdn.microsoft.com/2eadd02c-75fd-4317-a925-68a5d32b139e">LinearGradientBrush::GetBlend</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535342(v=VS.85).aspx">LinearGradientBrush::SetBlend</a>
+<a href="https://msdn.microsoft.com/e2b96c7b-083c-47ef-9b29-3ec403f41462">LinearGradientBrush::SetBlend</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535344(v=VS.85).aspx">LinearGradientBrush::SetBlendTriangularShape</a>
+<a href="https://msdn.microsoft.com/58e513f0-8300-424b-b4bf-dc96a58a9ea8">LinearGradientBrush::SetBlendTriangularShape</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533811(v=VS.85).aspx">Using a Brush to Fill Shapes</a>
+<a href="https://msdn.microsoft.com/8ccf2c4a-6f99-465f-8adf-0f7fcd002f79">Using a Brush to Fill Shapes</a>
  
 
  

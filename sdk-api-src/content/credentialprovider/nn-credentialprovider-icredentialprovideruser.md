@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUser.htm
 tech.root: shell
 ms.assetid: 8EE5FA54-E20E-4d24-AD73-2AE1F0090950
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], ICredentialProviderUser interface [Windows Shell],described, credentialprovider/ICredentialProviderUser, shell.ICredentialProviderUser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ Provides methods used to retrieve certain properties of an individual user inclu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderUser</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICredentialProviderUser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderUser</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICredentialProviderUser</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ICredentialProviderUser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh706928(v=VS.85).aspx">GetProviderID</a>
+<a href="https://msdn.microsoft.com/7BD6C532-0266-4579-96FA-91D0AF7E6C4C">GetProviderID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the account provider for this user.
@@ -79,7 +79,7 @@ Retrieves the ID of the account provider for this user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh706929(v=VS.85).aspx">GetSid</a>
+<a href="https://msdn.microsoft.com/FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48">GetSid</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's SID.
@@ -88,7 +88,7 @@ Retrieves the user's SID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh706930(v=VS.85).aspx">GetStringValue</a>
+<a href="https://msdn.microsoft.com/97FFD00F-6141-472c-A60C-A9A282190C9D">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves string properties from the <b>ICredentialProviderUser</b> object based on the input value.
@@ -97,7 +97,7 @@ Retrieves string properties from the <b>ICredentialProviderUser</b> object based
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh706931(v=VS.85).aspx">GetValue</a>
+<a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified property value set for the user.
@@ -128,15 +128,15 @@ Third-parties do not implement this interface. An implementation is included wit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706920(v=VS.85).aspx">ICredentialProviderSetUserArray</a>
+<a href="https://msdn.microsoft.com/85422EF5-8A8E-4e14-BD32-953C31A9D401">ICredentialProviderSetUserArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706923(v=VS.85).aspx">ICredentialProviderUserArray</a>
+<a href="https://msdn.microsoft.com/50FC43C1-B148-4e42-AB38-3559BD056855">ICredentialProviderUserArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
  
 
  

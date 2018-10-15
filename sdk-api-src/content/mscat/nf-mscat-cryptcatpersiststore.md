@@ -7,7 +7,7 @@ old-location: security\cryptcatpersiststore.htm
 tech.root: seccrypto
 ms.assetid: 2a564b0e-fcc6-4702-8173-d18df7064e53
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CryptCATPersistStore, CryptCATPersistStore function [Security], mscat/CryptCATPersistStore, security.cryptcatpersiststore
 ms.prod: windows-hardware
 ms.technology: windows-devices

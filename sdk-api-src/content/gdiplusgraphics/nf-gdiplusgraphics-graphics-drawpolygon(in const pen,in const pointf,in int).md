@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPolygon_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpolygonmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DrawPolygon, DrawPolygon methods [GDI+], Graphics.DrawPolygon, Graphics.DrawPolygon(IN const Pen,IN const PointF,IN INT), Graphics::DrawPolygon, Graphics::DrawPolygon(IN const Pen,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_DrawPolygon_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawPolygon_Methods, gdiplusgraphics/DrawPolygon
 ms.prod: windows-hardware
 ms.technology: windows-devices

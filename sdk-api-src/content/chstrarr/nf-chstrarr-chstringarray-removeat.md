@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -95,25 +95,33 @@ In the process of removing elements,  <b>RemoveAt</b> shifts down all the elemen
 
 The following code example shows the use of <b>CHStringArray::RemoveAt</b>.
 
-
-```cpp
-CHStringArray array;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHStringArray array;
 
 array.Add( L"String 1" ); // Element 0
 array.Add( L"String 2" ); // Element 1
 array.RemoveAt( 0 );  // Element 1 moves to 0.
-assert ( array[0] == L"String 2" );
-```
-
-
+assert ( array[0] == L"String 2" );</pre>
+</td>
+</tr>
+</table></span></div>
 The results from this program are as follows.
 
-
-```cpp
-[0] = String 2
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[0] = String 2</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -122,7 +130,7 @@ The results from this program are as follows.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a>
+<a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\crl_find_issued_for_para.htm
 tech.root: seccrypto
 ms.assetid: a5c04859-00bb-4b7d-a98c-5b17bf0fa38a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: "*PCRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA structure [Security], PCRL_FIND_ISSUED_FOR_PARA, PCRL_FIND_ISSUED_FOR_PARA structure pointer [Security], _CRL_FIND_ISSUED_FOR_PARA, _crypto2_crl_find_issued_for_para, security.crl_find_issued_for_para, wincrypt/CRL_FIND_ISSUED_FOR_PARA, wincrypt/PCRL_FIND_ISSUED_FOR_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

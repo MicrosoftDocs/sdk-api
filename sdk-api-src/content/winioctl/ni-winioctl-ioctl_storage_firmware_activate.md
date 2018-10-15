@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_FIRMWARE_ACTIVATE
 author: windows-sdk-content
 description: Windows applications can use this control code to activate a firmware image on a specified device.
 old-location: fs\ioctl_storage_firmware_activate.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 000BEB58-D91E-4859-AC31-A4C72B84A982
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Files], fs.ioctl_storage_firmware_activate, winioctl/IOCTL_STORAGE_FIRMWARE_ACTIVATE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,9 +54,13 @@ Windows applications can use this control code to activate a firmware image on a
 
 To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-
-```cpp
-BOOL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
                     (DWORD)        IOCTL_STORAGE_FIRMWARE_ACTIVATE, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
@@ -64,10 +68,10 @@ BOOL
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer
                     (LPDWORD)      lpBytesReturned, // number of bytes returned
-                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure
-```
-
-
+                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

@@ -4,10 +4,10 @@ title: EvtGetEventInfo function
 author: windows-sdk-content
 description: Gets information that identifies the structured XML query that selected the event and the channel or log file that contained the event.
 old-location: wes\evtgeteventinfo.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 69aa22a1-10c1-43bd-ae3b-d7641bed2065
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtGetEventInfo, EvtGetEventInfo function [EventLog], wes.evtgeteventinfo, winevt/EvtGetEventInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

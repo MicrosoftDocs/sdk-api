@@ -4,10 +4,10 @@ title: IsWindowsXPOrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP version.
 old-location: base\iswindowsxporgreater.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 48B7FAD6-569F-4CF5-A413-857679363736
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IsWindowsXPOrGreater, IsWindowsXPOrGreater function, base.iswindowsxporgreater, versionhelpers/IsWindowsXPOrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,18 +85,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows XP or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindowsXPOrGreater())
     {
        MessageBox(NULL, "You need at least Windows XP", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

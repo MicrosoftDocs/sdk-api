@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx">XMXDEC4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/5b46e0fb-e4a5-49c4-8084-0c631d43d4f7">XMXDEC4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx">XMXDEC4</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/5b46e0fb-e4a5-49c4-8084-0c631d43d4f7">XMXDEC4</a> structure to load. 
 
 
 ## -returns
@@ -78,25 +78,29 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVECTOR vectorOut;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR vectorOut;
 
 uint32_t Element;
 static const uint32_t SignExtend[] = {0x00000000, 0xFFFFFC00};
 
-Element = pSource->v & 0x3FF;
-vectorOut.x = (float)(int16_t)(Element | SignExtend[Element >> 9]);
-Element = (pSource->v >> 10) & 0x3FF;
-vectorOut.y = (float)(int16_t)(Element | SignExtend[Element >> 9]);
-Element = (pSource->v >> 20) & 0x3FF;
-vectorOut.z = (float)(int16_t)(Element | SignExtend[Element >> 9]);
-vectorOut.w = (float)(pSource->v >> 30);
+Element = pSource-&gt;v &amp; 0x3FF;
+vectorOut.x = (float)(int16_t)(Element | SignExtend[Element &gt;&gt; 9]);
+Element = (pSource-&gt;v &gt;&gt; 10) &amp; 0x3FF;
+vectorOut.y = (float)(int16_t)(Element | SignExtend[Element &gt;&gt; 9]);
+Element = (pSource-&gt;v &gt;&gt; 20) &amp; 0x3FF;
+vectorOut.z = (float)(int16_t)(Element | SignExtend[Element &gt;&gt; 9]);
+vectorOut.w = (float)(pSource-&gt;v &gt;&gt; 30);
 
-return vectorOut;
-```
-
-
+return vectorOut;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

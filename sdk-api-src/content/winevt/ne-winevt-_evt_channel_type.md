@@ -4,10 +4,10 @@ title: "_EVT_CHANNEL_TYPE"
 author: windows-sdk-content
 description: Defines the type of a channel.
 old-location: wes\evt_channel_type.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 5650dd28-b0ef-4d74-abc6-85ed2bd56b38
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EVT_CHANNEL_TYPE, EVT_CHANNEL_TYPE enumeration [EventLog], EvtChannelTypeAdmin, EvtChannelTypeAnalytic, EvtChannelTypeDebug, EvtChannelTypeOperational, _EVT_CHANNEL_TYPE, wes.evt_channel_type, winevt/EVT_CHANNEL_TYPE, winevt/EvtChannelTypeAdmin, winevt/EvtChannelTypeAnalytic, winevt/EvtChannelTypeDebug, winevt/EvtChannelTypeOperational
 ms.prod: windows
 ms.technology: windows-sdk

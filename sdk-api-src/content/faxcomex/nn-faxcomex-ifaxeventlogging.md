@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxeventlogging_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xt3_cpp.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxEventLogging, IFaxEventLogging interface [Fax Service], IFaxEventLogging interface [Fax Service],described, _mfax_faxeventlogging_cpp, fax._mfax_faxeventlogging_cpp, faxcomex/IFaxEventLogging
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IFaxEventLogging</b> interface defines a configuration object used by a f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxEventLogging</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxEventLogging</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxEventLogging</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxEventLogging</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,19 +71,19 @@ The <b>IFaxEventLogging</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686986(v=VS.85).aspx">Refresh</a>
+<a href="https://msdn.microsoft.com/f7ccdd18-3287-49fd-aa2a-5a713da44877">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686986(v=VS.85).aspx">IFaxEventLogging::Refresh</a> method refreshes <b>IFaxEventLogging</b> interface information from the fax server.
+The <a href="https://msdn.microsoft.com/f7ccdd18-3287-49fd-aa2a-5a713da44877">IFaxEventLogging::Refresh</a> method refreshes <b>IFaxEventLogging</b> interface information from the fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684805(v=VS.85).aspx">Save</a>
+<a href="https://msdn.microsoft.com/04783d57-a568-4848-b563-a8ef8544089d">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684805(v=VS.85).aspx">IFaxEventLogging::Save</a> method saves the <b>IFaxEventLogging</b> interface's data.
+The <a href="https://msdn.microsoft.com/04783d57-a568-4848-b563-a8ef8544089d">IFaxEventLogging::Save</a> method saves the <b>IFaxEventLogging</b> interface's data.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684805(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685053(v=VS.85).aspx">GeneralEventsLevel</a>
+<a href="https://msdn.microsoft.com/8ab80241-44ab-49e3-97b9-d4c0e8cfa096">GeneralEventsLevel</a>
 
 
 </td>
@@ -107,14 +107,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685053(v=VS.85).aspx">IFaxEventLogging::get_GeneralEventsLevel</a> property indicates the level of detail at which the fax service logs general events in the application log. General events include those that are not related to initialization and termination or to inbound and outbound transmissions.
+The <a href="https://msdn.microsoft.com/8ab80241-44ab-49e3-97b9-d4c0e8cfa096">IFaxEventLogging::get_GeneralEventsLevel</a> property indicates the level of detail at which the fax service logs general events in the application log. General events include those that are not related to initialization and termination or to inbound and outbound transmissions.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685116(v=VS.85).aspx">InboundEventsLevel</a>
+<a href="https://msdn.microsoft.com/aa223f94-cc2b-4704-9b57-22e1cb7d1a89">InboundEventsLevel</a>
 
 
 </td>
@@ -123,14 +123,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685116(v=VS.85).aspx">IFaxEventLogging::get_InboundEventsLevel</a> property indicates the level of detail at which the fax service logs events about inbound fax transmissions in the application log.
+The <a href="https://msdn.microsoft.com/aa223f94-cc2b-4704-9b57-22e1cb7d1a89">IFaxEventLogging::get_InboundEventsLevel</a> property indicates the level of detail at which the fax service logs events about inbound fax transmissions in the application log.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685042(v=VS.85).aspx">InitEventsLevel</a>
+<a href="https://msdn.microsoft.com/5a8f73d1-c612-4589-91bc-84a4659faefd">InitEventsLevel</a>
 
 
 </td>
@@ -139,14 +139,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685042(v=VS.85).aspx">IFaxEventLogging::get_InitEventsLevel</a> property indicates the level of detail at which the fax service logs initialization (starting the server) and termination (shutting down the server) events in the application log.
+The <a href="https://msdn.microsoft.com/5a8f73d1-c612-4589-91bc-84a4659faefd">IFaxEventLogging::get_InitEventsLevel</a> property indicates the level of detail at which the fax service logs initialization (starting the server) and termination (shutting down the server) events in the application log.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687455(v=VS.85).aspx">OutboundEventsLevel</a>
+<a href="https://msdn.microsoft.com/115e661c-4f44-4ed3-a591-ffa89d55d72b">OutboundEventsLevel</a>
 
 
 </td>
@@ -155,7 +155,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687455(v=VS.85).aspx">IFaxEventLogging::get_OutboundEventsLevel</a> property indicates the level of detail at which the fax service logs events about outbound fax transmissions in the application log.
+The <a href="https://msdn.microsoft.com/115e661c-4f44-4ed3-a591-ffa89d55d72b">IFaxEventLogging::get_OutboundEventsLevel</a> property indicates the level of detail at which the fax service logs events about outbound fax transmissions in the application log.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687455(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxEventLogging</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> object.
+A default implementation of <b>IFaxEventLogging</b> is provided as the <a href="https://msdn.microsoft.com/c46f1b55-8211-4c9b-a622-356f2ea2db36">FaxEventLogging</a> object.
 
 
 

@@ -4,10 +4,10 @@ title: ITextHost::TxScrollWindowEx
 author: windows-sdk-content
 description: Requests the text host to scroll the content of the specified client area.
 old-location: controls\ITextHost_TxScrollWindowEx.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxscrollwindowex.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ITextHost interface [Windows Controls],TxScrollWindowEx method, ITextHost.TxScrollWindowEx, ITextHost::TxScrollWindowEx, SW_ERASE, SW_INVALIDATE, SW_SCROLLCHILDREN, SW_SMOOTHSCROLL, TxScrollWindowEx, TxScrollWindowEx method [Windows Controls], TxScrollWindowEx method [Windows Controls],ITextHost interface, _win32_ITextHost_TxScrollWindowEx, _win32_ITextHost_TxScrollWindowEx_cpp, controls.ITextHost_TxScrollWindowEx, controls._win32_ITextHost_TxScrollWindowEx, textserv/ITextHost::TxScrollWindowEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,7 +118,7 @@ Scrolling flags. This parameter can be one of the following values.
 </td>
 <td width="60%">
 Erases the newly invalidated region by sending a 
-								<a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message to the window when specified with the SW_INVALIDATE flag.
+								<a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8acbe1">WM_ERASEBKGND</a> message to the window when specified with the SW_INVALIDATE flag.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Scrolls all child windows that intersect the rectangle pointed to by the
 								<i>lprcScroll</i> parameter. The child windows are scrolled by the number of pixels specified by the 
 								<i>dx</i> and 
 								<i>dy</i> parameters. The system sends a 
-								<a href="https://msdn.microsoft.com/en-us/library/ms632631(v=VS.85).aspx">WM_MOVE</a> message to all child windows that intersect the 
+								<a href="https://msdn.microsoft.com/552ddc26-fe63-449b-8c82-bb927a2c1c41">WM_MOVE</a> message to all child windows that intersect the 
 								<i>lprcScroll</i> rectangle, even if they do not move.
 
 </td>
@@ -155,7 +155,7 @@ Scrolls all child windows that intersect the rectangle pointed to by the
 </td>
 <td width="60%">
 Scrolls using smooth scrolling. Use the 
-								<a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> portion of the 
+								<a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a> portion of the 
 								<i>fuScroll</i> parameter to indicate how much time the smooth-scrolling operation should take.
 
 </td>
@@ -191,7 +191,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -203,7 +203,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

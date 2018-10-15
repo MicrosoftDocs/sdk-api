@@ -7,7 +7,7 @@ old-location: shell\CommandLineToArgvW.htm
 tech.root: shell
 ms.assetid: 9889a016-b7a5-402b-8305-6f7c199d41b3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _shell_CommandLineToArgvW, shell.CommandLineToArgvW, shellapi/CommandLineToArgvW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ The address returned by <b>CommandLineToArgvW</b> is the address of the first el
 
 <b>CommandLineToArgvW</b> allocates a block of contiguous memory for pointers to the argument strings, and for the argument strings themselves; the calling application must free the memory used by the argument list when it is no longer needed. To free the memory, use a single call to the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
 
-For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="https://msdn.microsoft.com/library/88w63h9k(v=VS.85).aspx">Argument Definitions</a> and <a href="https://msdn.microsoft.com/library/17w5ykft(v=VS.85).aspx">Parsing C++ Command-Line Arguments</a>.
+For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="6148cbf3-ebe8-44f2-b277-de4b723991c7">Argument Definitions</a> and <a href="e634e733-ac2f-4298-abe2-7e9288c94951">Parsing C++ Command-Line Arguments</a>.
 
 The <a href="https://msdn.microsoft.com/08dfcab2-eb6e-49a4-80eb-87d4076c98c6">GetCommandLineW</a> function can be used to get a command line string that is suitable for use as the <i>lpCmdLine</i> parameter.
 
@@ -127,11 +127,15 @@ This special interpretation controls the "in quotes" mode tracked by the parser.
 
 The following example demonstrates how to parse a Unicode command-line string. The code frees the memory for the argument list at exit.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <shellapi.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;shellapi.h&gt;
 
 int __cdecl main()
 {
@@ -139,22 +143,22 @@ int __cdecl main()
    int nArgs;
    int i;
 
-   szArglist = CommandLineToArgvW(GetCommandLineW(), &nArgs);
+   szArglist = CommandLineToArgvW(GetCommandLineW(), &amp;nArgs);
    if( NULL == szArglist )
    {
       wprintf(L"CommandLineToArgvW failed\n");
       return 0;
    }
-   else for( i=0; i<nArgs; i++) printf("%d: %ws\n", i, szArglist[i]);
+   else for( i=0; i&lt;nArgs; i++) printf("%d: %ws\n", i, szArglist[i]);
 
 // Free memory allocated for CommandLineToArgvW arguments.
 
    LocalFree(szArglist);
 
    return(1);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

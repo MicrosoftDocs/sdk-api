@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected.
 tech.root: WinAuto
 ms.assetid: dafa51b9-7dfd-46ad-89cc-8c3af3df8ea0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CachedIsSelected property [Windows Accessibility], CachedIsSelected property [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],CachedIsSelected property, IUIAutomationSelectionItemPattern.CachedIsSelected, IUIAutomationSelectionItemPattern.get_CachedIsSelected, IUIAutomationSelectionItemPattern::CachedIsSelected, IUIAutomationSelectionItemPattern::get_CachedIsSelected, get_CachedIsSelected, uiauto.uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected, uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::CachedIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::get_CachedIsSelected, winauto.uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices

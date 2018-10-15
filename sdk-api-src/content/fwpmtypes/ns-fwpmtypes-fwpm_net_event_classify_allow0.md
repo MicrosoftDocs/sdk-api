@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_CLASSIFY_ALLOW0
 author: windows-sdk-content
 description: Contains information that describes allowed traffic as enforced by the WFP classify engine.
 old-location: fwp\fwpm_net_event_classify_allow0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 4c7b665e-b248-4506-8d5f-bd27b05d8d50
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_ALLOW0, FWPM_NET_EVENT_CLASSIFY_ALLOW0 structure [Filtering], fwp.fwpm_net_event_classify_allow0, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_ALLOW0
 ms.prod: windows
 ms.technology: windows-sdk

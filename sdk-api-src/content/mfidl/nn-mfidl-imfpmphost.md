@@ -7,7 +7,7 @@ old-location: mf\imfpmphost.htm
 tech.root: medfound
 ms.assetid: fab1fb42-07c5-4a74-b6f5-0950b2c3ba46
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost interface [Media Foundation],described, fab1fb42-07c5-4a74-b6f5-0950b2c3ba46, mf.imfpmphost, mfidl/IMFPMPHost
 ms.prod: windows
 ms.technology: windows-sdk

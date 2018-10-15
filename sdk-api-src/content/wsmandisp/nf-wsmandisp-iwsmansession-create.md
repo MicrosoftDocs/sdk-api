@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a new instance of a resource and returns the <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">endpoint reference</a> (EPR) of the new object.
+Creates a new instance of a resource and returns the <a href="windows_remote_management_glossary.htm">endpoint reference</a> (EPR) of the new object.
 
 
 ## -parameters
@@ -65,10 +65,10 @@ The identifier of the resource to create.
 This parameter can contain one of the following:
 
 <ul>
-<li>URI with one or more  <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">selectors</a>. Be aware that the <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">WMI plug-in</a> does not support creating any resource other than a WS-Management protocol listener.</li>
+<li>URI with one or more  <a href="windows_remote_management_glossary.htm">selectors</a>. Be aware that the <a href="windows_remote_management_glossary.htm">WMI plug-in</a> does not support creating any resource other than a WS-Management protocol listener.</li>
 <li>
-<a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object which may contain selectors,  <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">fragments</a>, or <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">options</a>.</li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see  <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
+<a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object which may contain selectors,  <a href="windows_remote_management_glossary.htm">fragments</a>, or <a href="windows_remote_management_glossary.htm">options</a>.</li>
+<li><a href="windows_remote_management_glossary.htm">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see  <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
 </ul>
 
 ### -param resource [in]
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
     update existing instances of a resource. After you obtain the new resource URI, you can call 
     <a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">IWSManSession::Get</a> to retrieve the new object. The new object 
     contains any properties that the resource provider assigns when creating the new object. For example, if you 
-    create a new WS-Management protocol<a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">listener</a> and retrieve the listener object using <a href="https://msdn.microsoft.com/873242fd-9da3-42f4-a18e-258fedba77ec">Session.Get</a>, then you also obtain the <b>Port</b>, <b>Enabled</b>, and <b>ListeningOn</b> properties.
+    create a new WS-Management protocol<a href="windows_remote_management_glossary.htm">listener</a> and retrieve the listener object using <a href="https://msdn.microsoft.com/873242fd-9da3-42f4-a18e-258fedba77ec">Session.Get</a>, then you also obtain the <b>Port</b>, <b>Enabled</b>, and <b>ListeningOn</b> properties.
 
 
 

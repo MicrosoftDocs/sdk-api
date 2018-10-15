@@ -4,10 +4,10 @@ title: ColorF::ColorF(UINT32,FLOAT)
 author: windows-sdk-content
 description: Instantiates a new instance of the ColorF class that contains the specified RGB and alpha values.
 old-location: direct2d\colorf_colorf_uint32_rgb__float_a_.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 1edb46b1-9700-4c0d-b987-660034e8fb55
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ColorF, ColorF interface [Direct2D],ColorF(UINT32,FLOAT) constructor, ColorF(UINT32,FLOAT) constructor [Direct2D], ColorF(UINT32,FLOAT) constructor [Direct2D],ColorF interface, ColorF.ColorF, ColorF.ColorF(UINT32,FLOAT), ColorF::ColorF, ColorF::ColorF(UINT32,FLOAT), ColorF::ColorF(UINT32,FLOAT)(UINT32,FLOAT), D2D1.ColorF.ColorF(UINT32,FLOAT), D2D1::ColorF::ColorF(UINT32,FLOAT), d2d1helper/ColorF::ColorF(UINT32,FLOAT), direct2d.colorf_colorf_uint32_rgb__float_a_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ The alpha value for the color to be constructed. An alpha channel value ranges f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
 
 
 

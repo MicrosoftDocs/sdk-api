@@ -4,10 +4,10 @@ title: FreeClusterCrypt function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclustercrypt.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FreeClusterCrypt, FreeClusterCrypt function [Failover Cluster], PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT function [Failover Cluster], mscs.freeclustercrypt, resapi/FreeClusterCrypt, resapi/PFREE_CLUSTER_CRYPT
 ms.prod: windows-hardware
 ms.technology: windows-devices

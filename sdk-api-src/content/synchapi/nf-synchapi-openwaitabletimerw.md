@@ -4,10 +4,10 @@ title: OpenWaitableTimerW function
 author: windows-sdk-content
 description: Opens an existing named waitable timer object.
 old-location: base\openwaitabletimer.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 0f9b49ea-5d04-449c-9b7d-f79ab28b548b
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: OpenWaitableTimer, OpenWaitableTimer function, OpenWaitableTimerA, OpenWaitableTimerW, _win32_openwaitabletimer, base.openwaitabletimer, synchapi/OpenWaitableTimer, synchapi/OpenWaitableTimerA, synchapi/OpenWaitableTimerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

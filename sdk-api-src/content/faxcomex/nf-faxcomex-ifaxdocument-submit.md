@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_submit_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_97w4.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxDocument interface [Fax Service],Submit method, IFaxDocument.Submit, IFaxDocument::Submit, Submit, Submit method [Fax Service], Submit method [Fax Service],IFaxDocument interface, _mfax_faxdocument.submit, fax._mfax_faxdocument_cpp_mfax_faxdocument_submit_cpp, fax._mfax_faxdocument_submit, faxcomex/IFaxDocument::Submit
 ms.prod: windows-hardware
 ms.technology: windows-devices

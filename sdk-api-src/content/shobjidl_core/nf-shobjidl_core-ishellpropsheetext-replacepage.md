@@ -7,7 +7,7 @@ old-location: shell\IShellPropSheetExt_ReplacePage.htm
 tech.root: shell
 ms.assetid: 0addd55c-756e-41f6-998e-0f464b609aac
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IShellPropSheetExt interface [Windows Shell],ReplacePage method, IShellPropSheetExt.ReplacePage, IShellPropSheetExt::ReplacePage, ReplacePage, ReplacePage method [Windows Shell], ReplacePage method [Windows Shell],IShellPropSheetExt interface, _win32_IShellPropSheetExt_ReplacePage, _win32_ishellpropsheetext_win32_ishellpropsheetext_replacepage_cpp, shell.IShellPropSheetExt_ReplacePage, shobjidl_core/IShellPropSheetExt::ReplacePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ The parameter to pass to the function specified by the <i>pfnReplacePage</i> par
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to a function that the property sheet handler calls to replace a page to the property sheet. The function takes a property sheet handle returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function and the <i>lParam</i> parameter passed to the <b>ReplacePage</b> method.
+A pointer to a function that the property sheet handler calls to replace a page to the property sheet. The function takes a property sheet handle returned by the <a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a> function and the <i>lParam</i> parameter passed to the <b>ReplacePage</b> method.
 
 
 ## -returns
@@ -101,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To replace a page, a property sheet handler fills a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure, calls <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>, and then calls the function specified by <i>pfnReplacePage</i>.
+To replace a page, a property sheet handler fills a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure, calls <a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a>, and then calls the function specified by <i>pfnReplacePage</i>.
 
 
 

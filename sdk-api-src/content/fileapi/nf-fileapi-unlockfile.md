@@ -4,10 +4,10 @@ title: UnlockFile function
 author: windows-sdk-content
 description: Unlocks a region in an open file.
 old-location: fs\unlockfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6a930f83-3918-4688-ac60-d1de6857f479
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: UnlockFile, UnlockFile function [Files], _win32_unlockfile, base.unlockfile, fileapi/UnlockFile, fs.unlockfile, winbase/UnlockFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

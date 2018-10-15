@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnextsample.htm
 tech.root: Multimedia
 ms.assetid: 3ce1086f-4364-4d3c-a60e-7a82ecf8d708
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: AVIStreamNextSample, AVIStreamNextSample macro [Windows Multimedia], _win32_AVIStreamNextSample, multimedia.avistreamnextsample, vfw/AVIStreamNextSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,15 +79,19 @@ The sample position returned does not include the sample specified by <i>lPos</i
 
 The <b>AVIStreamNextSample</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamNextSample(pavi, lPos) \ 
     AVIStreamFindSample(pavi, lPos + 1, FIND_NEXT | FIND_ANY) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawEllipse_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawellipsemethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DrawEllipse, DrawEllipse methods [GDI+], Graphics.DrawEllipse, Graphics.DrawEllipse(IN const Pen,IN const RectF &), Graphics::DrawEllipse, Graphics::DrawEllipse(IN const Pen,IN const RectF &), _gdiplus_CLASS_Graphics_DrawEllipse_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawEllipse_Methods, gdiplusgraphics/DrawEllipse
 ms.prod: windows-hardware
 ms.technology: windows-devices

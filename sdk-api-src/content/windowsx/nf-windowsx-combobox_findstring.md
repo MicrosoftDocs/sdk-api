@@ -4,10 +4,10 @@ title: ComboBox_FindString macro
 author: windows-sdk-content
 description: Finds the first string in a combo box list that begins with the specified string. You can use this macro or send the CB_FINDSTRING message explicitly.
 old-location: controls\ComboBox_FindString.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_findstring.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ComboBox_FindString, ComboBox_FindString macro [Windows Controls], _win32_ComboBox_FindString, _win32_ComboBox_FindString_cpp, controls.ComboBox_FindString, controls._win32_ComboBox_FindString, windowsx/ComboBox_FindString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Finds the first string in a combo box list that begins with the specified string. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775835(v=VS.85).aspx">CB_FINDSTRING</a> message explicitly.
+Finds the first string in a combo box list that begins with the specified string. You can use this macro or send the <a href="https://msdn.microsoft.com/872a72d5-4d8e-41c7-ac6b-eeb571403623">CB_FINDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ The string to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775835(v=VS.85).aspx">CB_FINDSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/872a72d5-4d8e-41c7-ac6b-eeb571403623">CB_FINDSTRING</a>.
 	
 
 

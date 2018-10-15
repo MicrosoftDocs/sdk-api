@@ -4,10 +4,10 @@ title: "_POLICY_LSA_SERVER_ROLE"
 author: windows-sdk-content
 description: Defines values that indicate the role of an LSA server.
 old-location: security\policy_lsa_server_role.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: a2bcc380-8873-436b-a0d6-e4deb23669bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PPOLICY_LSA_SERVER_ROLE, POLICY_LSA_SERVER_ROLE, POLICY_LSA_SERVER_ROLE enumeration [Security], PPOLICY_LSA_SERVER_ROLE, PPOLICY_LSA_SERVER_ROLE enumeration pointer [Security], PolicyServerRoleBackup, PolicyServerRolePrimary, _POLICY_LSA_SERVER_ROLE, _lsa_policy_lsa_server_role, ntsecapi/POLICY_LSA_SERVER_ROLE, ntsecapi/PPOLICY_LSA_SERVER_ROLE, ntsecapi/PolicyServerRoleBackup, ntsecapi/PolicyServerRolePrimary, security.policy_lsa_server_role"
 ms.prod: windows
 ms.technology: windows-sdk

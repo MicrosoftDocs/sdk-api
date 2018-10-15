@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\faxinto_z_ifaxoutgoingjob2.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxOutgoingJob2, IFaxOutgoingJob2 interface [Fax Service], IFaxOutgoingJob2 interface [Fax Service],described, _mfax_faxoutgoingjob2_cpp, fax._mfax_faxoutgoingjob2_cpp, faxcomex/IFaxOutgoingJob2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes an object that is used by a fax client application to retrieve information about an outgoing fax job in a fax server's queue. It inherits all the functionality of the <a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a> interface. Additionally, it provides new read-only properties to indicate whether the outgoing fax has a cover page, the schedule type of the fax, and the address of its recipient.
+Describes an object that is used by a fax client application to retrieve information about an outgoing fax job in a fax server's queue. It inherits all the functionality of the <a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a> interface. Additionally, it provides new read-only properties to indicate whether the outgoing fax has a cover page, the schedule type of the fax, and the address of its recipient.
 
 
 
@@ -60,7 +60,7 @@ Describes an object that is used by a fax client application to retrieve informa
 
 
 
-A default implementation of <b>IFaxOutgoingJob2</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object. On Windows XP and earlier, the <b>FaxOutgoingJob</b> object implements <a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>.
+A default implementation of <b>IFaxOutgoingJob2</b> is provided as the <a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a> object. On Windows XP and earlier, the <b>FaxOutgoingJob</b> object implements <a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>.
 
 
 

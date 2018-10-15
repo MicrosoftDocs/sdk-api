@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioncompositeeffect_setmode.htm
 tech.root: directcomp
 ms.assetid: E93FAAA1-A9C3-466A-9023-99745EA6A49B
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IDCompositionCompositeEffect interface [DirectComposition],SetMode method, IDCompositionCompositeEffect.SetMode, IDCompositionCompositeEffect::SetMode, SetMode, SetMode method [DirectComposition], SetMode method [DirectComposition],IDCompositionCompositeEffect interface, dcomp/IDCompositionCompositeEffect::SetMode, directcomp.idcompositioncompositeeffect_setmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

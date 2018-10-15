@@ -4,10 +4,10 @@ title: BCryptFinishHash function
 author: windows-sdk-content
 description: Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to BCryptHashData.
 old-location: security\bcryptfinishhash_func.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCryptFinishHash, BCryptFinishHash function [Security], bcrypt/BCryptFinishHash, security.bcryptfinishhash_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

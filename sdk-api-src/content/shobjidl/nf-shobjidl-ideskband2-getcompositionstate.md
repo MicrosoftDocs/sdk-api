@@ -7,7 +7,7 @@ old-location: shell\IDeskBand2_GetCompositionState.htm
 tech.root: shell
 ms.assetid: 77c9203b-39a1-4923-a5df-68861e19e9f1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetCompositionState, GetCompositionState method [Windows Shell], GetCompositionState method [Windows Shell],IDeskBand2 interface, IDeskBand2 interface [Windows Shell],GetCompositionState method, IDeskBand2.GetCompositionState, IDeskBand2::GetCompositionState, _shell_IDeskBand2_GetCompositionState, shell.IDeskBand2_GetCompositionState, shobjidl/IDeskBand2::GetCompositionState
 ms.prod: windows-hardware
 ms.technology: windows-devices

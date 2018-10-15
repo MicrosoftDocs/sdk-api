@@ -4,10 +4,10 @@ title: FwpmSessionCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of session objects.
 old-location: fwp\fwpmsessioncreateenumhandle0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 018944eb-698b-4d3e-a9ba-253b8bbebea7
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmSessionCreateEnumHandle0, FwpmSessionCreateEnumHandle0 function [Filtering], fwp.fwpmsessioncreateenumhandle0_func, fwpmu/FwpmSessionCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_save_cpp.
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62ud.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],Save method, IFaxOutgoingArchive.Save, IFaxOutgoingArchive::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.save, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_save_cpp, fax._mfax_faxoutgoingarchive_save, faxcomex/IFaxOutgoingArchive::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

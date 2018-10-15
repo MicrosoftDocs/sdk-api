@@ -7,7 +7,7 @@ old-location: mf\itocentrylist_addentry.htm
 tech.root: medfound
 ms.assetid: 4ac41f10-4bb5-4d50-9f7b-7c8710476162
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: AddEntry, AddEntry method [Media Foundation], AddEntry method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntry method, ITocEntryList.AddEntry, ITocEntryList::AddEntry, codecapi.itocentrylist_addentry, mf.itocentrylist_addentry, wmcodecdsp/ITocEntryList::AddEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

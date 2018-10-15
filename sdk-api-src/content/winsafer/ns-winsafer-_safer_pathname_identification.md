@@ -4,10 +4,10 @@ title: "_SAFER_PATHNAME_IDENTIFICATION"
 author: windows-sdk-content
 description: Represents a path identification rule.
 old-location: security\safer_pathname_identification.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: d845a750-2931-4c17-be78-92843e2bd76f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION structure pointer [Security], SAFER_PATHNAME_IDENTIFICATION, SAFER_PATHNAME_IDENTIFICATION structure [Security], _SAFER_PATHNAME_IDENTIFICATION, _mnp_safer_pathname_identification, security.safer_pathname_identification, winsafer/PSAFER_PATHNAME_IDENTIFICATION, winsafer/SAFER_PATHNAME_IDENTIFICATION"
 ms.prod: windows
 ms.technology: windows-sdk

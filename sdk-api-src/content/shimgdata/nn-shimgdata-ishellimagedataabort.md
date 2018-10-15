@@ -7,7 +7,7 @@ old-location: shell\IShellImageDataAbort.htm
 tech.root: shell
 ms.assetid: 98a79c41-a384-4486-af51-a33cd5f0750e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
 ms.prod: windows
 ms.technology: windows-sdk

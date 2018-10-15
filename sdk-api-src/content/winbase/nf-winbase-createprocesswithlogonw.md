@@ -7,7 +7,7 @@ old-location: base\createprocesswithlogonw.htm
 tech.root: ProcThread
 ms.assetid: dcfdcd5b-0269-4081-b1db-e272171c27a2
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithLogonW, CreateProcessWithLogonW function, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, _win32_createprocesswithlogonw, base.createprocesswithlogonw, winbase/CreateProcessWithLogonW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -184,7 +184,7 @@ If <i>lpApplicationName</i> is <b>NULL</b>, the first white space–delimited to
 <li>The 16-bit Windows system directory. There is no function that obtains the path of this directory, but it is searched.</li>
 <li>The Windows directory. Use the 
 <a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a> function to get the path of this directory.</li>
-<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://msdn.microsoft.com/en-us/library/Hh449546(v=VS.85).aspx">ShellExecute</a> function.</li>
+<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="_win32_ShellExecute_cpp">ShellExecute</a> function.</li>
 </ol>
 The system adds a null character to the command line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
 
@@ -242,7 +242,7 @@ This flag is enabled by default.
 </td>
 <td width="60%">
 The new process is the root process of a new process group. The process group includes all processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier, which is returned in the <i>lpProcessInfo</i> parameter. Process groups are used by the 
-<a href="https://msdn.microsoft.com/library/ms683155(v=VS.85).aspx">GenerateConsoleCtrlEvent</a> function to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes. 
+<a href="base.generateconsolectrlevent">GenerateConsoleCtrlEvent</a> function to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes. 
 
 
 
@@ -310,7 +310,7 @@ An environment block can contain Unicode or ANSI characters. If the environment 
 An ANSI environment block is terminated by two 0 (zero) bytes: one for the last string and one more to terminate the block. A Unicode environment block is terminated by four zero bytes: two for the last string and two more to terminate the block.
 
 To retrieve a copy of the environment block for a specific user, use the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762270(v=VS.85).aspx">CreateEnvironmentBlock</a> function.
+<a href="_shell_createenvironmentblock">CreateEnvironmentBlock</a> function.
 
 
 ### -param lpCurrentDirectory [in, optional]
@@ -374,7 +374,7 @@ Note that the function returns before the process has finished initialization. I
 By default, 
 <b>CreateProcessWithLogonW</b> does not load the specified user profile into the <b>HKEY_USERS</b> registry key. This means that access to information in the <b>HKEY_CURRENT_USER</b> registry key may not produce results that are consistent with a normal interactive logon. It is your responsibility to load the user registry hive into <b>HKEY_USERS</b> before calling 
 <b>CreateProcessWithLogonW</b>, by using <b>LOGON_WITH_PROFILE</b>, or by calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a> function.
+<a href="_shell_loaduserprofile">LoadUserProfile</a> function.
 
 If the <i>lpEnvironment</i> parameter is NULL, the new process uses an environment block created from the profile of the user specified by <i>lpUserName</i>. If the HOMEDRIVE and HOMEPATH variables are not set, <b>CreateProcessWithLogonW</b> modifies the environment block to use the drive and path of the user's working directory.
 
@@ -425,12 +425,16 @@ CreateProcessWithLogonW(..., szCmdline, ...)</code></pre>
 
 The following example demonstrates how to call this function.
 
-
-```cpp
-
-#include <windows.h>
-#include <stdio.h>
-#include <userenv.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;userenv.h&gt;
 
 void DisplayError(LPWSTR pszAPI)
 {
@@ -440,7 +444,7 @@ void DisplayError(LPWSTR pszAPI)
         FORMAT_MESSAGE_FROM_SYSTEM,
         NULL, GetLastError(), 
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), 
-        (LPWSTR)&lpvMessageBuffer, 0, NULL);
+        (LPWSTR)&amp;lpvMessageBuffer, 0, NULL);
 
     //
     //... now display this string
@@ -479,15 +483,15 @@ void wmain(int argc, WCHAR *argv[])
     // TO DO: change NULL to '.' to use local account database
     //
     if (!LogonUser(argv[1], NULL, argv[2], LOGON32_LOGON_INTERACTIVE, 
-            LOGON32_PROVIDER_DEFAULT, &hToken))
+            LOGON32_PROVIDER_DEFAULT, &amp;hToken))
         DisplayError(L"LogonUser");
 
-    if (!CreateEnvironmentBlock(&lpvEnv, hToken, TRUE))
+    if (!CreateEnvironmentBlock(&amp;lpvEnv, hToken, TRUE))
         DisplayError(L"CreateEnvironmentBlock");
 
     dwSize = sizeof(szUserProfile)/sizeof(WCHAR);
 
-    if (!GetUserProfileDirectory(hToken, szUserProfile, &dwSize))
+    if (!GetUserProfileDirectory(hToken, szUserProfile, &amp;dwSize))
         DisplayError(L"GetUserProfileDirectory");
 
     //
@@ -496,7 +500,7 @@ void wmain(int argc, WCHAR *argv[])
     if (!CreateProcessWithLogonW(argv[1], NULL, argv[2], 
             LOGON_WITH_PROFILE, NULL, argv[3], 
             CREATE_UNICODE_ENVIRONMENT, lpvEnv, szUserProfile, 
-            &si, &pi))
+            &amp;si, &amp;pi))
         DisplayError(L"CreateProcessWithLogonW");
 
     if (!DestroyEnvironmentBlock(lpvEnv))
@@ -506,10 +510,10 @@ void wmain(int argc, WCHAR *argv[])
     CloseHandle(pi.hProcess);
     CloseHandle(pi.hThread);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -522,7 +526,7 @@ void wmain(int argc, WCHAR *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762270(v=VS.85).aspx">CreateEnvironmentBlock</a>
+<a href="_shell_createenvironmentblock">CreateEnvironmentBlock</a>
 
 
 

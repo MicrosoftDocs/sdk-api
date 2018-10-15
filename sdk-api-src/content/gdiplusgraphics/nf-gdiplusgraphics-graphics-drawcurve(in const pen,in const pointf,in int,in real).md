@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCurve_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawcurvemethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DrawCurve, DrawCurve methods [GDI+], Graphics.DrawCurve, Graphics.DrawCurve(IN const Pen,IN const PointF,IN INT,IN REAL), Graphics::DrawCurve, Graphics::DrawCurve(IN const Pen,IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_Graphics_DrawCurve_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Methods, gdiplusgraphics/DrawCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 DrawCurve methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 
@@ -65,55 +65,55 @@ DrawCurve methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536069(v=VS.85).aspx">DrawCurve(Pen*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/d09ad926-70aa-4a67-9038-04cde05d4fa1">DrawCurve(Pen*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536069(v=VS.85).aspx">Graphics::DrawCurve</a> method draws a cardinal spline.
+The <a href="https://msdn.microsoft.com/d09ad926-70aa-4a67-9038-04cde05d4fa1">Graphics::DrawCurve</a> method draws a cardinal spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536070(v=VS.85).aspx">DrawCurve(Pen*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/c42c3e85-d967-4b68-983b-fa96be63d1e8">DrawCurve(Pen*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536070(v=VS.85).aspx">Graphics::DrawCurve</a> method draws a cardinal spline.
+The <a href="https://msdn.microsoft.com/c42c3e85-d967-4b68-983b-fa96be63d1e8">Graphics::DrawCurve</a> method draws a cardinal spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536141(v=VS.85).aspx">DrawCurve(Pen*,Point*,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/8ddd046f-f95a-4949-9499-52400432664c">DrawCurve(Pen*,Point*,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536141(v=VS.85).aspx">Graphics::DrawCurve</a> method draws a cardinal spline. 
+The <a href="https://msdn.microsoft.com/8ddd046f-f95a-4949-9499-52400432664c">Graphics::DrawCurve</a> method draws a cardinal spline. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536072(v=VS.85).aspx">DrawCurve(Pen*,PointF*,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/9dde3399-20d9-4b42-83d1-f1ed94fae879">DrawCurve(Pen*,PointF*,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536072(v=VS.85).aspx">Graphics::DrawCurve</a> method draws a cardinal spline.
+The <a href="https://msdn.microsoft.com/9dde3399-20d9-4b42-83d1-f1ed94fae879">Graphics::DrawCurve</a> method draws a cardinal spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536139(v=VS.85).aspx">DrawCurve(Pen*,Point*,INT,INT,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/1a953600-bea1-468b-bec2-bf91f37e29f5">DrawCurve(Pen*,Point*,INT,INT,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536139(v=VS.85).aspx">Graphics::DrawCurve</a> method draws a cardinal spline.
+The <a href="https://msdn.microsoft.com/1a953600-bea1-468b-bec2-bf91f37e29f5">Graphics::DrawCurve</a> method draws a cardinal spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536140(v=VS.85).aspx">DrawCurve(Pen*,PointF*,INT,INT,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/c2bbcffa-5550-4111-af46-9659e6eb72a6">DrawCurve(Pen*,PointF*,INT,INT,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536140(v=VS.85).aspx">Graphics::DrawCurve</a> method draws a cardinal spline.
+The <a href="https://msdn.microsoft.com/c2bbcffa-5550-4111-af46-9659e6eb72a6">Graphics::DrawCurve</a> method draws a cardinal spline.
 
 </td>
 </tr>

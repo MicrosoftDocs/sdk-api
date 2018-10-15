@@ -4,10 +4,10 @@ title: SleepConditionVariableSRW function
 author: windows-sdk-content
 description: Sleeps on the specified condition variable and releases the specified lock as an atomic operation.
 old-location: base\sleepconditionvariablesrw.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 133f710f-5304-4b92-bec4-d9e8863bfa6d
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: SleepConditionVariableSRW, SleepConditionVariableSRW function, base.sleepconditionvariablesrw, synchapi/SleepConditionVariableSRW, winbase/SleepConditionVariableSRW
 ms.prod: windows-hardware
 ms.technology: windows-devices

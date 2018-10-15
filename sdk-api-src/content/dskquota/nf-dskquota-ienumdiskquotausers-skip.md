@@ -4,10 +4,10 @@ title: IEnumDiskQuotaUsers::Skip
 author: windows-sdk-content
 description: Skips over the specified number of user quota entries that are next in the enumeration sequence.
 old-location: fs\ienumdiskquotausers_skip.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: b37462aa-cd1c-4986-ad23-f9523c962d19
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Skip method, IEnumDiskQuotaUsers.Skip, IEnumDiskQuotaUsers::Skip, Skip, Skip method [Files], Skip method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_skip, base.ienumdiskquotausers_skip, dskquota/IEnumDiskQuotaUsers::Skip, fs.ienumdiskquotausers_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

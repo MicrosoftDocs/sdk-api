@@ -7,7 +7,7 @@ old-location: mf\mfcreatewicbitmapbuffer.htm
 tech.root: medfound
 ms.assetid: 029B7CC6-5B12-4A19-B6CD-B0D7E3F314B6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: MFCreateWICBitmapBuffer, MFCreateWICBitmapBuffer function [Media Foundation], mf.mfcreatewicbitmapbuffer, mfapi/MFCreateWICBitmapBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

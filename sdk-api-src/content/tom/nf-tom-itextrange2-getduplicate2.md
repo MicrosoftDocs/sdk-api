@@ -4,10 +4,10 @@ title: ITextRange2::GetDuplicate2
 author: windows-sdk-content
 description: Gets a duplicate of a range object.
 old-location: controls\itextrange2_getduplicate2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 6dce56b6-463a-49d4-8e4b-397e2841544c
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetDuplicate2 method, ITextRange2.GetDuplicate2, ITextRange2::GetDuplicate2, controls.itextrange2_getduplicate2, tom/ITextRange2::GetDuplicate2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-If this range is an <a href="https://msdn.microsoft.com/75a4e233-6672-4407-bd68-ba8a7072b7b1">ITextSelection2</a> object, the duplicate returned is an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object. See the <a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">ITextRange::FindText</a> method for more information. 
+If this range is an <a href="https://msdn.microsoft.com/75a4e233-6672-4407-bd68-ba8a7072b7b1">ITextSelection2</a> object, the duplicate returned is an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object. See the <a href="https://msdn.microsoft.com/e0c95f5b-e147-4c1f-ae1a-def36b0be5c1">ITextRange::FindText</a> method for more information. 
 
 
 

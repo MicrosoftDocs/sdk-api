@@ -101,7 +101,7 @@ The
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSNOTREADY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSASYSNOTREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +113,7 @@ This error is returned if the Windows Sockets implementation cannot function at 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAVERNOTSUPPORTED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAVERNOTSUPPORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -124,7 +124,7 @@ The Winsock.dll version is out of range. This error is returned if the version o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +135,7 @@ A blocking Windows Sockets 1.1 operation is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROCLIM</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROCLIM</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -146,7 +146,7 @@ A limit on the number of tasks supported by the Windows Sockets implementation h
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -269,7 +269,7 @@ The following chart gives examples of how
 <td>1.0</td>
 <td>---</td>
 <td>---</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAVERNOTSUPPORTED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAVERNOTSUPPORTED</a></td>
 </tr>
 <tr>
 <td>1.0 1.1</td>
@@ -311,9 +311,13 @@ The following chart gives examples of how
 The following code fragment demonstrates how a Windows Sockets SPI client, which supports only version 2 of Windows Sockets SPI, makes a 
 <b>WSPStartup</b> call:
 
-
-```cpp
-WORD wVersionRequested;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WORD wVersionRequested;
 WSPDATA WSPData;
  
 int err;
@@ -330,7 +334,7 @@ LPWSPPROC_TABLE lpProcTable =
  
 wVersionRequested = MAKEWORD( 2, 2 );
  
-err = WSPStartup( wVersionRequested, &WSPData, lpProtocolBuffer, upcallTable, lpProcTable );
+err = WSPStartup( wVersionRequested, &amp;WSPData, lpProtocolBuffer, upcallTable, lpProcTable );
 if ( err != 0 ) {
     /* Tell the user that we could not find a usable */
     /* Windows Sockets service provider.                     */
@@ -352,35 +356,39 @@ if ( LOBYTE( WSPData.wVersion ) != 2 ||
 }
  
 /* The Windows Sockets service provider is acceptable. Proceed. */
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 And this code fragment demonstrates how a Windows Sockets service provider that supports only version 2.2 performs the 
 <b>WSPStartup</b> negotiation:
 
-
-```cpp
-/* Make sure that the version requested is >= 2.2.  */
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/* Make sure that the version requested is &gt;= 2.2.  */
 /* The low byte is the major version and the high   */
 /* byte is the minor version.                       */
  
-if ( (LOBYTE( wVersionRequested ) < 2) ||
-     ((LOBYTE( wVersionRequested ) == 2) &&
-     (HIBYTE( wVersionRequested ) < 2))) {
+if ( (LOBYTE( wVersionRequested ) &lt; 2) ||
+     ((LOBYTE( wVersionRequested ) == 2) &amp;&amp;
+     (HIBYTE( wVersionRequested ) &lt; 2))) {
     return WSAVERNOTSUPPORTED;
 }
  
 /* Since we only support 2.2, set both wVersion and  */
 /* wHighVersion to 2.2.                              */
  
-lpWSPData->wVersion = MAKEWORD( 2, 2 );
-lpWSPData->wHighVersion = MAKEWORD( 2, 2 );
+lpWSPData-&gt;wVersion = MAKEWORD( 2, 2 );
+lpWSPData-&gt;wHighVersion = MAKEWORD( 2, 2 );
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Once the Windows Sockets SPI client has made a successful 
 <b>WSPStartup</b> call, it can proceed to make other Windows Sockets SPI calls as needed. When it has finished using the services of the Windows Sockets service provider, the client must call 
 <a href="https://msdn.microsoft.com/401a8c78-48f5-4f80-9708-6d75877fe738">WSPCleanup</a> in order to allow the Windows Sockets service provider to free any resources allocated for the client.
@@ -426,7 +434,7 @@ A service thread can be safely used if these two design rules are carefully foll
 
 
 Several other cautions apply to the use of internal service threads. First, threads generally carry some performance penalty. Use as few as possible, and avoid thread transitions wherever possible. Second, your code should always check for errors in creating threads and fail gracefully and informatively (for example, with 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
+<a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a>) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
 
 A layered service provider supplies an implementation of this function, but it is also a client of this function when it calls 
 <b>WSPStartup</b> to initialize the next layer in the protocol chain. The call to the next layer's 

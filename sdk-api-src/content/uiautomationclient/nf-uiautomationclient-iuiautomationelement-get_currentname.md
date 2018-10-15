@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentName.htm
 tech.root: WinAuto
 ms.assetid: 1a56f9ae-ac5a-4444-8ab4-083db124ead6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CurrentName property [Windows Accessibility], CurrentName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentName property, IUIAutomationElement.CurrentName, IUIAutomationElement.get_CurrentName, IUIAutomationElement::CurrentName, IUIAutomationElement::get_CurrentName, get_CurrentName, uiauto.uiauto_IUIAutomationElement_CurrentName, uiauto_IUIAutomationElement_CurrentName, uiautomationclient/IUIAutomationElement::CurrentName, uiautomationclient/IUIAutomationElement::get_CurrentName, winauto.uiauto_IUIAutomationElement_CurrentName
 ms.prod: windows-hardware
 ms.technology: windows-devices

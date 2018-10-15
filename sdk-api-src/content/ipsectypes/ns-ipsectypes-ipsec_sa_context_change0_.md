@@ -4,10 +4,10 @@ title: IPSEC_SA_CONTEXT_CHANGE0_
 author: windows-sdk-content
 description: Contains information about an IPsec security association (SA) context change.
 old-location: fwp\ipsec_sa_context_change0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: a81df783-72d8-4374-a3f8-44c3491a98db
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IPSEC_SA_CONTEXT_CHANGE0, IPSEC_SA_CONTEXT_CHANGE0 structure [Filtering], IPSEC_SA_CONTEXT_CHANGE0_, fwp.ipsec_sa_context_change0, ipsectypes/IPSEC_SA_CONTEXT_CHANGE0
 ms.prod: windows
 ms.technology: windows-sdk

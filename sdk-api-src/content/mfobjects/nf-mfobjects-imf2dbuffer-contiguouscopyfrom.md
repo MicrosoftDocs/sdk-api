@@ -7,7 +7,7 @@ old-location: mf\imf2dbuffer_contiguouscopyfrom.htm
 tech.root: medfound
 ms.assetid: 84634782-7805-4e2b-a043-7e49adef5c2a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: 84634782-7805-4e2b-a043-7e49adef5c2a, ContiguousCopyFrom, ContiguousCopyFrom method [Media Foundation], ContiguousCopyFrom method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],ContiguousCopyFrom method, IMF2DBuffer.ContiguousCopyFrom, IMF2DBuffer::ContiguousCopyFrom, mf.imf2dbuffer_contiguouscopyfrom, mfobjects/IMF2DBuffer::ContiguousCopyFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices

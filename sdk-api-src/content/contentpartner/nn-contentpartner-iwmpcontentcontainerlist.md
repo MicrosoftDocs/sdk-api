@@ -53,16 +53,16 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
-The <b>IWMPContentContainerList</b> interface represents a list of one or more content containers. Content containers are represented by the <a href="https://msdn.microsoft.com/en-us/library/Dd563130(v=VS.85).aspx">IWMPContentContainer</a> interface.
+The <b>IWMPContentContainerList</b> interface represents a list of one or more content containers. Content containers are represented by the <a href="https://msdn.microsoft.com/32a68af3-9270-4ac1-b133-a2770220dfcb">IWMPContentContainer</a> interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainerList</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWMPContentContainerList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainerList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPContentContainerList</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,7 +75,7 @@ The <b>IWMPContentContainerList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563132(v=VS.85).aspx">GetContainer</a>
+<a href="https://msdn.microsoft.com/8922aeed-0598-4dc8-86ac-e113697fcea9">GetContainer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the content container at the specified index.
@@ -84,7 +84,7 @@ Retrieves the content container at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563133(v=VS.85).aspx">GetContainerCount</a>
+<a href="https://msdn.microsoft.com/e1ed4873-5d07-4a96-bd99-31ceeb423f98">GetContainerCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of content containers in the container list.
@@ -93,7 +93,7 @@ Retrieves the count of content containers in the container list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563134(v=VS.85).aspx">GetTransactionType</a>
+<a href="https://msdn.microsoft.com/8712d134-9dd3-4964-ae53-f63c8b69818d">GetTransactionType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the current transaction.
@@ -108,7 +108,7 @@ Retrieves the type of the current transaction.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564243(v=VS.85).aspx">Reference for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/e6f45a50-029e-4347-9b25-10e9e32a56eb">Reference for Type 1 Online Stores</a>
  
 
  

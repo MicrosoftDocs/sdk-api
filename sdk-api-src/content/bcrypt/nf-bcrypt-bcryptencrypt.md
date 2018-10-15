@@ -4,10 +4,10 @@ title: BCryptEncrypt function
 author: windows-sdk-content
 description: Encrypts a block of data.
 old-location: security\bcryptencrypt_func.htm
-tech.root: Benchmark
+tech.root: seccng
 ms.assetid: 69fe4530-4b7c-40db-a85c-f9dc458735e7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptEncrypt, BCryptEncrypt function [Security], bcrypt/BCryptEncrypt, security.bcryptencrypt_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ The address of a buffer that contains the <a href="https://msdn.microsoft.com/af
 
 This parameter is optional and can be <b>NULL</b> if no IV is used.
 
- The required size of the IV can be obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375464(v=VS.85).aspx">BCryptGetProperty</a> function to get the <b>BCRYPT_BLOCK_LENGTH</b> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
+ The required size of the IV can be obtained by calling the <a href="https://msdn.microsoft.com/5c62ca3a-843e-41a7-9340-41785fbb15f4">BCryptGetProperty</a> function to get the <b>BCRYPT_BLOCK_LENGTH</b> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
 
 
 ### -param cbIV [in]
@@ -134,7 +134,7 @@ If the key is a symmetric key, this can be zero or the following value.
 <td width="60%">
 Allows the encryption algorithm to pad the data to the next block size. If this flag is not specified, the size of the plaintext specified in the <i>cbInput</i> parameter must be a multiple of the algorithm's block size.
 
- The block size can be obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375464(v=VS.85).aspx">BCryptGetProperty</a> function to get the <b>BCRYPT_BLOCK_LENGTH</b> property for the key. This will provide the size of a block for the algorithm.
+ The block size can be obtained by calling the <a href="https://msdn.microsoft.com/5c62ca3a-843e-41a7-9340-41785fbb15f4">BCryptGetProperty</a> function to get the <b>BCRYPT_BLOCK_LENGTH</b> property for the key. This will provide the size of a block for the algorithm.
 
 This flag must not be used with the authenticated encryption modes (AES-CCM and AES-GCM).
 
@@ -169,7 +169,7 @@ Do not use any padding. The <i>pPaddingInfo</i> parameter is not used. The size 
 </dl>
 </td>
 <td width="60%">
-Use the Optimal Asymmetric Encryption Padding (OAEP) scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa375526(v=VS.85).aspx">BCRYPT_OAEP_PADDING_INFO</a> structure.
+Use the Optimal Asymmetric Encryption Padding (OAEP) scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/19f48f2d-e952-4a01-8112-f298c79919b2">BCRYPT_OAEP_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ The algorithm does not support encryption.
 
 The <i>pbInput</i> and <i>pbOutput</i> parameters can point to the same buffer. In this case, this function will perform the encryption in place. It is possible that the encrypted data size will be larger than the unencrypted data size, so the buffer must be large enough to hold the encrypted data.
 
-Depending on what processor modes a provider supports, <b>BCryptEncrypt</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptEncrypt</b> function must refer to nonpaged (or locked) memory.
+Depending on what processor modes a provider supports, <b>BCryptEncrypt</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptEncrypt</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
@@ -295,7 +295,7 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375391(v=VS.85).aspx">BCryptDecrypt</a>
+<a href="https://msdn.microsoft.com/62286f6b-0d57-4691-83fc-2b9a9740af71">BCryptDecrypt</a>
  
 
  

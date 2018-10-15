@@ -4,10 +4,10 @@ title: WofWimAddEntry function
 author: windows-sdk-content
 description: Adds a single WIM data source to a volume such that files can be created on the volume which are stored within the WIM.
 old-location: fs\wofwimaddentry.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 53CE16AE-E14D-4E51-87E2-DDF88D5CE806
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: WofWimAddEntry, WofWimAddEntry function [Files], fs.wofwimaddentry, wofapi/WofWimAddEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

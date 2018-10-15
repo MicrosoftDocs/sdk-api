@@ -7,7 +7,7 @@ old-location: shell\IFileDialog.htm
 tech.root: shell
 ms.assetid: 9341bb68-2410-4e03-8acd-fef29287b61c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IFileDialog, IFileDialog interface [Windows Shell], IFileDialog interface [Windows Shell],described, shell.IFileDialog, shell_IFileDialog, shobjidl_core/IFileDialog
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: tagUpdateImpactLevel
 author: windows-sdk-content
 description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
 old-location: base\updateimpactlevel.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: UpdateImpactLevel, UpdateImpactLevel enumeration, UpdateImpactLevel_High, UpdateImpactLevel_Low, UpdateImpactLevel_Medium, UpdateImpactLevel_None, base.updateimpactlevel, tagUpdateImpactLevel, waasapitypes/ UpdateImpactLevel_Medium, waasapitypes/ UpdateImpactLevel_None, waasapitypes/UpdateImpactLevel, waasapitypes/UpdateImpactLevel_High, waasapitypes/UpdateImpactLevel_Low
 ms.prod: windows
 ms.technology: windows-sdk

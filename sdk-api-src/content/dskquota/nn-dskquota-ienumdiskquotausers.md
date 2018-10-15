@@ -4,10 +4,10 @@ title: IEnumDiskQuotaUsers
 author: windows-sdk-content
 description: Enumerates user quota entries on the volume.
 old-location: fs\ienumdiskquotausers.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f5916b17-66ed-46d4-87f1-5ee2ef57c1a1
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: IEnumDiskQuotaUsers, IEnumDiskQuotaUsers interface [Files], IEnumDiskQuotaUsers interface [Files],described, _win32_ienumdiskquotausers, base.ienumdiskquotausers, dskquota/IEnumDiskQuotaUsers, fs.ienumdiskquotausers
 ms.prod: windows
 ms.technology: windows-sdk

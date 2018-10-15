@@ -4,10 +4,10 @@ title: BCryptDestroyHash function
 author: windows-sdk-content
 description: Destroys a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptdestroyhash_func.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 067dac61-98b9-478c-ac4d-e141961865e9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCryptDestroyHash, BCryptDestroyHash function [Security], bcrypt/BCryptDestroyHash, security.bcryptdestroyhash_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

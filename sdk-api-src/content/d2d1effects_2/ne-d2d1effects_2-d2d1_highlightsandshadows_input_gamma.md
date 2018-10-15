@@ -4,10 +4,10 @@ title: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
 author: windows-sdk-content
 description: Values for the D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA property of the Highlights and Shadows effect.
 old-location: direct2d\d2d1_highlightsandshadows_input_gamma.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: F56C9933-B340-4E8B-85BE-CE04E90C9ADC
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA, D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA enumeration [Direct2D], D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR, D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_SRGB, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_SRGB, direct2d.d2d1_highlightsandshadows_input_gamma
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890728(v=VS.85).aspx">D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</a> property 
-        of the <a href="https://msdn.microsoft.com/en-us/library/Dn890773(v=VS.85).aspx">Highlights and Shadows effect</a>.
+Values for the <a href="https://msdn.microsoft.com/2E4BACCB-EF29-44FB-8427-C10211BC4899">D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</a> property 
+        of the <a href="https://msdn.microsoft.com/ebbb7d99-9144-ffff-af73-d89e7d269924">Highlights and Shadows effect</a>.
 
 
 ## -enum-fields

@@ -4,10 +4,10 @@ title: "_CRYPT_PROVIDER_REFS"
 author: windows-sdk-content
 description: Contains a collection of provider references.
 old-location: security\crypt_provider_refs.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: e2aaaa02-96e3-4447-b19b-b9db07b49135
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PCRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS structure [Security], PCRYPT_PROVIDER_REFS, PCRYPT_PROVIDER_REFS structure pointer [Security], _CRYPT_PROVIDER_REFS, bcrypt/CRYPT_PROVIDER_REFS, bcrypt/PCRYPT_PROVIDER_REFS, security.crypt_provider_refs"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IDockingWindowSite.htm
 tech.root: shell
 ms.assetid: 7418a6af-74ce-4435-8ed9-af106df0f95b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IDockingWindowSite, IDockingWindowSite interface [Windows Shell], IDockingWindowSite interface [Windows Shell],described, _win32_IDockingWindowSite, shell.IDockingWindowSite, shlobj_core/IDockingWindowSite
 ms.prod: windows
 ms.technology: windows-sdk

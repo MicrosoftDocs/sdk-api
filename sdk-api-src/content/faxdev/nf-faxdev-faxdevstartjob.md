@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevstartjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_5ode.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: FaxDevStartJob, FaxDevStartJob function [Fax Service], _mfax_faxdevstartjob, fax._mfax_faxdevstartjob, faxdev/FaxDevStartJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,11 +112,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 The <b>FaxDevStartJob</b> function provides an opportunity for the fax service provider to perform call setup.
 
-The fax service calls <b>FaxDevStartJob</b> at the beginning of a new fax job and once for each fax operation. This is because each operation executes in a separate thread. It calls <b>FaxDevStartJob</b> just before the <a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a> function call for a fax send operation, and just before the <a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a> function call for a fax receive operation. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693484(v=VS.85).aspx">Operating in a Multithreaded Environment</a>.
+The fax service calls <b>FaxDevStartJob</b> at the beginning of a new fax job and once for each fax operation. This is because each operation executes in a separate thread. It calls <b>FaxDevStartJob</b> just before the <a href="https://msdn.microsoft.com/9ec25812-658f-4d64-85c4-8ab66be5d93e">FaxDevSend</a> function call for a fax send operation, and just before the <a href="https://msdn.microsoft.com/3f37c113-2971-4092-8753-b0d30b8ce6c1">FaxDevReceive</a> function call for a fax receive operation. For more information, see <a href="https://msdn.microsoft.com/af0e3837-5fcb-43da-a951-70b70a9722b1">Operating in a Multithreaded Environment</a>.
 
-The FSP should create an I/O completion packet and call the <a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a> function when the FSP changes its status. One example of a status change is when the FSP finishes receiving or sending fax transmission pages. The completion packet must be a <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure. The FSP must allocate memory for the structure from the heap indicated by the <i>HeapHandle</i> parameter passed to the <a href="https://msdn.microsoft.com/en-us/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a> function. The fax service provider must pass the size of the memory allocated to the <i>dwNumberOfBytesTransferred</i> parameter of the PostQueuedCompletionStatus method. The fax service frees any memory allocated for the completion packet structure.
+The FSP should create an I/O completion packet and call the <a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a> function when the FSP changes its status. One example of a status change is when the FSP finishes receiving or sending fax transmission pages. The completion packet must be a <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a> structure. The FSP must allocate memory for the structure from the heap indicated by the <i>HeapHandle</i> parameter passed to the <a href="https://msdn.microsoft.com/74c4ebad-c1a5-48a4-9ced-548ab21b3c3c">FaxDevInitialize</a> function. The fax service provider must pass the size of the memory allocated to the <i>dwNumberOfBytesTransferred</i> parameter of the PostQueuedCompletionStatus method. The fax service frees any memory allocated for the completion packet structure.
 
-The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> parameters to post completion packets for FSP status changes. This method of status notification optimizes performance because the fax service does not need to poll FSPs to obtain updated status information. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms692918(v=VS.85).aspx">Creating a Completion Packet</a>.
+The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> parameters to post completion packets for FSP status changes. This method of status notification optimizes performance because the fax service does not need to poll FSPs to obtain updated status information. For more information, see <a href="https://msdn.microsoft.com/d9a99db4-d8f1-4951-8f12-da743c03487f">Creating a Completion Packet</a>.
 
 
 
@@ -126,27 +126,27 @@ The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> para
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a>
+<a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/402583fd-aef8-4197-a41e-870825c58351">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684550(v=VS.85).aspx">FaxDevEndJob</a>
+<a href="https://msdn.microsoft.com/f5a0c728-1a3f-46aa-8de8-f47a18425e1a">FaxDevEndJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a>
+<a href="https://msdn.microsoft.com/74c4ebad-c1a5-48a4-9ced-548ab21b3c3c">FaxDevInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a>
+<a href="https://msdn.microsoft.com/3f37c113-2971-4092-8753-b0d30b8ce6c1">FaxDevReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a>
+<a href="https://msdn.microsoft.com/9ec25812-658f-4d64-85c4-8ab66be5d93e">FaxDevSend</a>
 
 
 
@@ -154,7 +154,7 @@ The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> para
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/a8788e8a-e97c-4082-8e89-b6f4a7568d3a">Using the Fax Service Provider API</a>
  
 
  

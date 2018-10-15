@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList_DeleteTab.htm
 tech.root: shell
 ms.assetid: bf1b3d27-5cd3-44c8-81e6-d9418d30ffe3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: DeleteTab, DeleteTab method [Windows Shell], DeleteTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],DeleteTab method, ITaskbarList.DeleteTab, ITaskbarList::DeleteTab, _win32_ITaskbarList_DeleteTab, shell.ITaskbarList_DeleteTab, shobjidl_core/ITaskbarList::DeleteTab
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_RB_HITTESTINFO"
 author: windows-sdk-content
 description: Contains information specific to a hit test operation. This structure is used with the RB_HITTEST message.
 old-location: controls\RBHITTESTINFO.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rbhittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: "*LPRBHITTESTINFO, LPRBHITTESTINFO, LPRBHITTESTINFO structure pointer [Windows Controls], RBHITTESTINFO, RBHITTESTINFO structure [Windows Controls], RBHT_CAPTION, RBHT_CHEVRON, RBHT_CLIENT, RBHT_GRABBER, RBHT_NOWHERE, RBHT_SPLITTER, _RB_HITTESTINFO, _win32_RBHITTESTINFO, _win32_RBHITTESTINFO_cpp, commctrl/LPRBHITTESTINFO, commctrl/RBHITTESTINFO, controls.RBHITTESTINFO, controls._win32_RBHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information specific to a hit test operation. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774494(v=VS.85).aspx">RB_HITTEST</a> message. 
+Contains information specific to a hit test operation. This structure is used with the <a href="https://msdn.microsoft.com/8f27db21-50d8-438f-a44c-2e65dd93fa2a">RB_HITTEST</a> message. 
 
 
 ## -struct-fields

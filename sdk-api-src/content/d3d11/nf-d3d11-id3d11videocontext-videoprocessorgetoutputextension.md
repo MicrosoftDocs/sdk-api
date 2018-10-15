@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetoutputextension.htm
 tech.root: medfound
 ms.assetid: 3B979D5D-CB3D-4B67-9BE3-277005076604
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputExtension method, ID3D11VideoContext.VideoProcessorGetOutputExtension, ID3D11VideoContext::VideoProcessorGetOutputExtension, VideoProcessorGetOutputExtension, VideoProcessorGetOutputExtension method [Media Foundation], VideoProcessorGetOutputExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputExtension, mf.id3d11videocontext_videoprocessorgetoutputextension
 ms.prod: windows-hardware
 ms.technology: windows-devices

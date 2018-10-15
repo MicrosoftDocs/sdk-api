@@ -4,10 +4,10 @@ title: TokenBindingGenerateMessage function
 author: windows-sdk-content
 description: Assembles the list of token bindings and generates the final message for the client device to the server.
 old-location: security\tokenbindinggeneratemessage.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DISK_DETECTION_INFO"
 author: windows-sdk-content
 description: Contains detected drive parameters.
 old-location: fs\disk_detection_info_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 57ca68f4-f748-4bc4-90c3-13d545716d87
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: "*PDISK_DETECTION_INFO, DISK_DETECTION_INFO, DISK_DETECTION_INFO structure [Files], DetectExInt13, DetectInt13, DetectNone, PDISK_DETECTION_INFO, PDISK_DETECTION_INFO structure pointer [Files], _DISK_DETECTION_INFO, _win32_disk_detection_info_str, base.disk_detection_info_str, fs.disk_detection_info_str, winioctl/DISK_DETECTION_INFO, winioctl/PDISK_DETECTION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

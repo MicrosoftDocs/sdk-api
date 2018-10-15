@@ -4,10 +4,10 @@ title: IPSEC_SA_DETAILS1_
 author: windows-sdk-content
 description: Is used to store information returned when enumerating IPsec security associations (SAs).
 old-location: fwp\ipsec_sa_details1_struct.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 257e7ac0-9cb4-45aa-b7e5-107bb3483ab9
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IPSEC_SA_DETAILS1, IPSEC_SA_DETAILS1 structure [Filtering], IPSEC_SA_DETAILS1_, fwp.ipsec_sa_details1_struct, ipsectypes/IPSEC_SA_DETAILS1
 ms.prod: windows
 ms.technology: windows-sdk

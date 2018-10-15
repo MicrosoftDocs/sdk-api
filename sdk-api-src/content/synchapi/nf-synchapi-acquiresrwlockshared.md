@@ -4,10 +4,10 @@ title: AcquireSRWLockShared function
 author: windows-sdk-content
 description: Acquires a slim reader/writer (SRW) lock in shared mode.
 old-location: base\acquiresrwlockshared.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 86e6d915-c25d-4aee-9ec6-acb970da7069
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: AcquireSRWLockShared, AcquireSRWLockShared function, base.acquiresrwlockshared, synchapi/AcquireSRWLockShared, winbase/AcquireSRWLockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -93,27 +93,31 @@ This method schedules a new storyboard by creating the storyboard, applying the 
 
 The following example creates a storyboard for a specified transition and animation variable.
 
-
-```cpp
-// Get the current time and schedule a single-transition storyboard
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get the current time and schedule a single-transition storyboard
 
 UI_ANIMATION_SECONDS secondsNow;
-hr = m_pAnimationTimer->GetTime(
-    &secondsNow
+hr = m_pAnimationTimer-&gt;GetTime(
+    &amp;secondsNow
     );
 if (SUCCEEDED(hr))
 {
-    hr = m_pAnimationManager->ScheduleTransition(
+    hr = m_pAnimationManager-&gt;ScheduleTransition(
         m_pAnimationVariableY,
         pTransitionParabolic,
         secondsNow
         );
     ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

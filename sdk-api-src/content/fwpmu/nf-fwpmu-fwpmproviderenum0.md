@@ -4,10 +4,10 @@ title: FwpmProviderEnum0 function
 author: windows-sdk-content
 description: Returns the next page of results from the provider enumerator.
 old-location: fwp\fwpmproviderenum0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 7c178688-64f4-49a9-907c-890f7d5030be
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmProviderEnum0, FwpmProviderEnum0 function [Filtering], fwp.fwpmproviderenum0_func, fwpmu/FwpmProviderEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

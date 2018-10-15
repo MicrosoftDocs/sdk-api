@@ -4,10 +4,10 @@ title: "_FILE_RENAME_INFO"
 author: windows-sdk-content
 description: Contains the name to which the file should be renamed.
 old-location: fs\file_rename_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f4de0130-66fd-4847-bb6f-3f16fe17ca6e
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: "*PFILE_RENAME_INFO, FILE_RENAME_INFO, FILE_RENAME_INFO structure [Files], PFILE_RENAME_INFO, PFILE_RENAME_INFO structure pointer [Files], _FILE_RENAME_INFO, fileextd/FILE_RENAME_INFO, fileextd/PFILE_RENAME_INFO, fs.file_rename_info, winbase/FILE_RENAME_INFO, winbase/PFILE_RENAME_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

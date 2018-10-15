@@ -7,7 +7,7 @@ old-location: shell\PathCommonPrefix.htm
 tech.root: shell
 ms.assetid: 13c32b32-8541-41c4-82d8-48d3b2439f0c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: PathCommonPrefix, PathCommonPrefix function [Windows Shell], PathCommonPrefixA, PathCommonPrefixW, _win32_PathCommonPrefix, shell.PathCommonPrefix, shlwapi/PathCommonPrefix, shlwapi/PathCommonPrefixA, shlwapi/PathCommonPrefixW
 ms.prod: windows-hardware
 ms.technology: windows-devices

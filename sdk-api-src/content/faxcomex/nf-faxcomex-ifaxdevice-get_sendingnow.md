@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_sendingnow_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3vzr.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxDevice interface [Fax Service],SendingNow property, IFaxDevice.SendingNow, IFaxDevice.get_SendingNow, IFaxDevice::SendingNow, IFaxDevice::get_SendingNow, SendingNow property [Fax Service], SendingNow property [Fax Service],IFaxDevice interface, _mfax_faxdevice.sendingnow, fax._mfax_faxdevice_cpp_mfax_faxdevice_sendingnow_cpp, fax._mfax_faxdevice_sendingnow, faxcomex/IFaxDevice::SendingNow, faxcomex/IFaxDevice::get_SendingNow, get_SendingNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

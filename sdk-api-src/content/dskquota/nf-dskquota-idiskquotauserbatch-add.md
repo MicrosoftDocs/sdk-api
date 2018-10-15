@@ -4,10 +4,10 @@ title: IDiskQuotaUserBatch::Add
 author: windows-sdk-content
 description: Adds an IDiskQuotaUser pointer to the batch list.
 old-location: fs\idiskquotauserbatch_add.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8b0876d2-55ba-4eaa-b317-8ea1d2f5ff4f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: Add, Add method [Files], Add method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],Add method, IDiskQuotaUserBatch.Add, IDiskQuotaUserBatch::Add, _win32_idiskquotauserbatch_add, base.idiskquotauserbatch_add, dskquota/IDiskQuotaUserBatch::Add, fs.idiskquotauserbatch_add
 ms.prod: windows-hardware
 ms.technology: windows-devices

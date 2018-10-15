@@ -4,10 +4,10 @@ title: "__BCRYPT_KEY_LENGTHS_STRUCT"
 author: windows-sdk-content
 description: Defines the range of key sizes that are supported by the provider.
 old-location: security\bcrypt_key_lengths_struct.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 0ce50187-6376-4e14-aaa8-ecc401c7a973
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_AUTH_TAG_LENGTHS_STRUCT, BCRYPT_AUTH_TAG_LENGTHS_STRUCT structure [Security], BCRYPT_KEY_LENGTHS_STRUCT, BCRYPT_KEY_LENGTHS_STRUCT structure [Security], __BCRYPT_KEY_LENGTHS_STRUCT, bcrypt/BCRYPT_AUTH_TAG_LENGTHS_STRUCT, bcrypt/BCRYPT_KEY_LENGTHS_STRUCT, security.bcrypt_key_lengths_struct
 ms.prod: windows
 ms.technology: windows-sdk

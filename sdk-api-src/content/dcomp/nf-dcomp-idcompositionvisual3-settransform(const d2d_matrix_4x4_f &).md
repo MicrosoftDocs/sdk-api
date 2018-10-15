@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual3_settransform_1.htm
 tech.root: directcomp
 ms.assetid: 1deb9c84-1a5b-5dac-af0f-ae6b49a9c473
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetTransform method, IDCompositionVisual3.SetTransform, IDCompositionVisual3.SetTransform(const D2D_MATRIX_4X4_F &), IDCompositionVisual3::SetTransform, IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F &), IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F&), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetTransform, directcomp.idcompositionvisual3_settransform_1
 ms.prod: windows-hardware
 ms.technology: windows-devices

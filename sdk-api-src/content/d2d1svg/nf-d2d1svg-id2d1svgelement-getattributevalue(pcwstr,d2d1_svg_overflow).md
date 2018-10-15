@@ -4,10 +4,10 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW)
 author: windows-sdk-content
 description: Gets an attribute of this element as an overflow value. This method can be used to get the value of the overflow property.
 old-location: direct2d\id2d1svgelement_getattributevalue_8.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: EFF6BFCD-BEC0-469C-ABDB-4495C73B7643
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_8
 ms.prod: windows-hardware
 ms.technology: windows-devices

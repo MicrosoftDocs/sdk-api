@@ -7,7 +7,7 @@ old-location: shell\SHLoadIndirectString.htm
 tech.root: shell
 ms.assetid: f0265cd8-deb8-4bca-b379-39aff49c7df1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: SHLoadIndirectString, SHLoadIndirectString function [Windows Shell], _shell_SHLoadIndirectString, shell.SHLoadIndirectString, shlwapi/SHLoadIndirectString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,15 +120,12 @@ This form can be used when a resource is changed but still uses the same index o
 
 </li>
 <li><b>PRI file path and resource ID</b><pre class="syntax" xml:space="preserve"><code>@{PRIFilepath?resource}</code></pre>
-The Package Resource Index (PRI) is a binary format introduced in Windows 8 that contains indexed resources or references to resources. The .pri file is bundled as part of an app's package. For more information on .pri files, see <a href="https://msdn.microsoft.com/library/Hh694557(v=VS.110).aspx">Creating and retrieving resources in Windows Store apps</a>.
+The Package Resource Index (PRI) is a binary format introduced in Windows 8 that contains indexed resources or references to resources. The .pri file is bundled as part of an app's package. For more information on .pri files, see <a href="4f0d7226-dde6-4241-b4fc-a79a8607ac98">Creating and retrieving resources in Windows Store apps</a>.
 
 The string is extracted from the .pri file named, using the <i>resource</i> as a locator. The retrieved string is copied to the output buffer and the function returns S_OK. The string is extracted based on the current Shell environment or <a href="https://msdn.microsoft.com/bab9ae0f-8609-494d-b943-7905eed8ee93">ResourceContext</a>.
 
 An example of this type of indirect string is shown here.
                         
-                            
-
-<div class="code"><span codelanguage=""><table>
                             <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -142,17 +139,12 @@ An example of this type of indirect string is shown here.
 </table></span></div>
 
 
-
-
 </li>
 <li><b>Package name and resource ID</b><pre class="syntax" xml:space="preserve"><code>@{PackageFullName?resource}</code></pre>
 The string is extracted from the Resources.pri file stored in the app's root directory of the package identified by <i>PackageFullName</i>, using the <i>resource</i> as a locator. The retrieved string is copied to the output buffer and the function returns S_OK. The string is extracted based on the app's environment or <a href="https://msdn.microsoft.com/bab9ae0f-8609-494d-b943-7905eed8ee93">ResourceContext</a>.
 
 <div class="alert"><b>Note</b>  This string must refer to a package installed for the current user. If it does not, the call will fail.</div>
 <div> </div>
-An example of this type of indirect string is shown here. In this example, the reference name is fully-qualified, but it contains no namespace (for example, "resources"). The deployment stack expands the name to look for it in all namespaces.
-
-<div class="code"><span codelanguage=""><table>
 An example of this type of indirect string is shown here. In this example, the reference name is fully-qualified, but it contains no namespace (for example, "resources"). The deployment stack expands the name to look for it in all namespaces.<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -166,11 +158,6 @@ An example of this type of indirect string is shown here. In this example, the r
 </table></span></div>
 
 
-
-
-In this next example, the fully-qualified reference name does specify a namespace to limit the lookup to.
-
-<div class="code"><span codelanguage=""><table>
 In this next example, the fully-qualified reference name does specify a namespace to limit the lookup to.<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -182,8 +169,6 @@ In this next example, the fully-qualified reference name does specify a namespac
 </td>
 </tr>
 </table></span></div>
-
-
 
 
 </li>

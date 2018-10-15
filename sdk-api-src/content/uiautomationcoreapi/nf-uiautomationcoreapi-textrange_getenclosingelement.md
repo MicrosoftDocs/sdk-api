@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_GetEnclosingElementConPat.htm
 tech.root: WinAuto
 ms.assetid: 842754a0-1fe7-4432-ab7f-716ef870df92
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: TextRange_GetEnclosingElement, TextRange_GetEnclosingElement function [Windows Accessibility], uiauto.uiauto_TextRange_GetEnclosingElementConPat, uiauto_TextRange_GetEnclosingElementConPat, uiautomationcoreapi/TextRange_GetEnclosingElement, winauto.uiauto_TextRange_GetEnclosingElementConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

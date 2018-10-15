@@ -4,10 +4,10 @@ title: "_RM_PROCESS_INFO"
 author: windows-sdk-content
 description: Describes an application that is to be registered with the Restart Manager.
 old-location: rstmgr\rm_process_info.htm
-tech.root: RstMgr
+tech.root: rstmgr
 ms.assetid: 27e593f9-8ff0-4de4-87ca-7fa5f324468a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PRM_PROCESS_INFO, RM_PROCESS_INFO, RM_PROCESS_INFO structure [Restart Mgr], _RM_PROCESS_INFO, restartmanager/_RM_PROCESS_INFO, rstmgr.rm_process_info"
 ms.prod: windows
 ms.technology: windows-sdk

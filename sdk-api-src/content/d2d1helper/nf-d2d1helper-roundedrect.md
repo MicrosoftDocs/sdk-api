@@ -4,10 +4,10 @@ title: RoundedRect function
 author: windows-sdk-content
 description: Creates a D2D1_ROUNDED_RECT structure.
 old-location: direct2d\roundedrect.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 200119a2-941c-493f-9e56-c9f306dc5322
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: RoundedRect, RoundedRect function [Direct2D], d2d1helper/RoundedRect, direct2d.roundedrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368158(v=VS.85).aspx">D2D1_ROUNDED_RECT</a> structure.
+Creates a <a href="https://msdn.microsoft.com/7069ca65-170e-42fc-8c1a-849a2f25c36f">D2D1_ROUNDED_RECT</a> structure.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368158(v=VS.85).as
 
 ### -param rect [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
 The size and position of the rectangle.
 
@@ -87,7 +87,7 @@ The y-radius for the quarter ellipse that is drawn to replace every corner of th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368158(v=VS.85).aspx">D2D1_ROUNDED_RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/7069ca65-170e-42fc-8c1a-849a2f25c36f">D2D1_ROUNDED_RECT</a></b>
 
 The new rounded rectangle.
 

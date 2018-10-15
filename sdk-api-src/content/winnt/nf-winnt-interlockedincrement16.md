@@ -4,10 +4,10 @@ title: InterlockedIncrement16 function
 author: windows-sdk-content
 description: Increments (increases by one) the value of the specified 16-bit variable as an atomic operation.
 old-location: base\interlockedincrement16.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 93460ed0-2c2c-4686-a8ed-02669c4df214
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: InterlockedIncrement16, InterlockedIncrement16 function, base.interlockedincrement16, winnt/InterlockedIncrement16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 16-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/2ddez55b(v=VS.85).aspx">_InterlockedIncrement16</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="37700615-f372-438b-bcef-d76e11839482">_InterlockedIncrement16</a>.
 
 This function generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

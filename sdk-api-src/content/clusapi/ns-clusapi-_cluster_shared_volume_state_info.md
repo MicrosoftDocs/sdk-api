@@ -4,10 +4,10 @@ title: "_CLUSTER_SHARED_VOLUME_STATE_INFO"
 author: windows-sdk-content
 description: Represents information about the state of a Cluster Shared Volume (CSV).
 old-location: mscs\cluster_shared_volume_state_info.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 0E0DEF0B-C755-4B34-90D8-56BFEFEF2525
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE_INFO, CLUSTER_SHARED_VOLUME_STATE_INFO, CLUSTER_SHARED_VOLUME_STATE_INFO structure [Failover Cluster], PCLUSTER_SHARED_VOLUME_STATE_INFO, PCLUSTER_SHARED_VOLUME_STATE_INFO structure pointer [Failover Cluster], _CLUSTER_SHARED_VOLUME_STATE_INFO, clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO, clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO, mscs.cluster_shared_volume_state_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The node name  of the node that hosts the CSV.
 
 ### -field VolumeState
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh706768(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
+A <a href="https://msdn.microsoft.com/B27C110C-939F-42D4-960E-702CA1B141F9">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
 
 
 ## -see-also
@@ -78,15 +78,15 @@ A <a href="https://msdn.microsoft.com/en-us/library/Hh706768(v=VS.85).aspx">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn806623(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
+<a href="https://msdn.microsoft.com/B0926E1A-CA39-44FE-989C-B8BDD86F9683">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

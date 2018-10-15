@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawString_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawstringmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DrawString, DrawString methods [GDI+], Graphics.DrawString, Graphics.DrawString(IN const WCHAR,IN INT,IN const Font,IN const RectF &,IN const StringFormat,IN const Brush), Graphics::DrawString, Graphics::DrawString(IN const WCHAR,IN INT,IN const Font,IN const RectF &,IN const StringFormat,IN const Brush), _gdiplus_CLASS_Graphics_DrawString_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawString_Methods, gdiplusgraphics/DrawString
 ms.prod: windows-hardware
 ms.technology: windows-devices

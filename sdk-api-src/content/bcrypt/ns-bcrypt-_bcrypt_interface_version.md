@@ -4,10 +4,10 @@ title: "_BCRYPT_INTERFACE_VERSION"
 author: windows-sdk-content
 description: Contains version information for a programmatic interface for a CNG provider.
 old-location: security\bcrypt_interface_version.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: d89e819e-7cbc-4f19-85c5-08c1ecab3bdd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PBCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION structure [Security], PBCRYPT_INTERFACE_VERSION, PBCRYPT_INTERFACE_VERSION structure pointer [Security], _BCRYPT_INTERFACE_VERSION, bcrypt/BCRYPT_INTERFACE_VERSION, bcrypt/PBCRYPT_INTERFACE_VERSION, security.bcrypt_interface_version"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITextStoryRanges2::Item2
 author: windows-sdk-content
 description: Gets an ITextRange2 object for a story, by index, in a stories collection.
 old-location: controls\itextstoryranges2_item2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 0e77584e-e7ea-44ee-bce8-6f3b84d106bb
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ITextStoryRanges2 interface [Windows Controls],Item2 method, ITextStoryRanges2.Item2, ITextStoryRanges2::Item2, Item2, Item2 method [Windows Controls], Item2 method [Windows Controls],ITextStoryRanges2 interface, controls.itextstoryranges2_item2, tom/ITextStoryRanges2::Item2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The first story has an index of 1, and the last story  has an index equal to the count  retrieved by the <a href="https://msdn.microsoft.com/en-us/library/Bb773939(v=VS.85).aspx">ITextStoryRanges::GetCount</a> method. Negative index values count from the last story to the first; that is, an index of –1 gets the last story in the collection, and an index of –<i>count</i> gets the first story.
+The first story has an index of 1, and the last story  has an index equal to the count  retrieved by the <a href="https://msdn.microsoft.com/ef7f5b30-c3d1-4b8f-ad2d-925e09cab462">ITextStoryRanges::GetCount</a> method. Negative index values count from the last story to the first; that is, an index of –1 gets the last story in the collection, and an index of –<i>count</i> gets the first story.
 
 
 

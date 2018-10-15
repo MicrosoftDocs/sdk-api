@@ -4,10 +4,10 @@ title: "_BCRYPT_OAEP_PADDING_INFO"
 author: windows-sdk-content
 description: Used to provide options for the Optimal Asymmetric Encryption Padding (OAEP) scheme.
 old-location: security\bcrypt_oaep_padding_info.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 19f48f2d-e952-4a01-8112-f298c79919b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_OAEP_PADDING_INFO, BCRYPT_OAEP_PADDING_INFO structure [Security], _BCRYPT_OAEP_PADDING_INFO, bcrypt/BCRYPT_OAEP_PADDING_INFO, security.bcrypt_oaep_padding_info
 ms.prod: windows
 ms.technology: windows-sdk

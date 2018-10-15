@@ -7,7 +7,7 @@ old-location: base\avrtwaitonthreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: 11318ce3-d938-4bb5-adb1-28dd15e8cd80
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: AvRtWaitOnThreadOrderingGroup, AvRtWaitOnThreadOrderingGroup function, avrt/AvRtWaitOnThreadOrderingGroup, base.avrtwaitonthreadorderinggroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,11 +88,15 @@ If the thread ordering group is deleted during the wait, this function eventuall
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <avrt.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;avrt.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Avrt.lib")
 
@@ -107,10 +111,10 @@ int main( void )
 
 return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

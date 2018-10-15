@@ -4,10 +4,10 @@ title: "_TXFS_TRANSACTION_ACTIVE_INFO"
 author: windows-sdk-content
 description: Contains the flag that indicates whether transactions were active or not when a snapshot was taken.
 old-location: fs\txfs_transaction_active_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 72ab7652-7841-4195-a109-1caf65b629f1
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: "*PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO structure pointer [Files], TXFS_TRANSACTION_ACTIVE_INFO, TXFS_TRANSACTION_ACTIVE_INFO structure [Files], _TXFS_TRANSACTION_ACTIVE_INFO, fs.txfs_transaction_active_info, winioctl/PTXFS_TRANSACTION_ACTIVE_INFO, winioctl/TXFS_TRANSACTION_ACTIVE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

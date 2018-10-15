@@ -4,10 +4,10 @@ title: ResUtilDupString function
 author: windows-sdk-content
 description: Duplicates a null-terminated Unicode string.
 old-location: mscs\resutildupstring.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 7d993247-ea8c-46a0-a11e-e03b981ed4ae
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: PRESUTIL_DUP_STRING, PRESUTIL_DUP_STRING function [Failover Cluster], ResUtilDupString, ResUtilDupString function [Failover Cluster], _wolf_resutildupstring, mscs.resutildupstring, resapi/PRESUTIL_DUP_STRING, resapi/ResUtilDupString
 ms.prod: windows-hardware
 ms.technology: windows-devices

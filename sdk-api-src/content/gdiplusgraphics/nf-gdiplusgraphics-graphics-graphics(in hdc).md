@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_hdc_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_42hdc.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: Graphics, Graphics class [GDI+],Graphics constructor, Graphics constructor [GDI+], Graphics constructor [GDI+],Graphics class, Graphics.Graphics, Graphics.Graphics(HDC), Graphics.Graphics(IN HDC), Graphics::Graphics, Graphics::Graphics(IN HDC), _gdiplus_CLASS_Graphics_Graphics_hdc_, gdiplus._gdiplus_CLASS_Graphics_Graphics_hdc_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: EvtRender function
 author: windows-sdk-content
 description: Renders an XML fragment based on the rendering context that you specify.
 old-location: wes\evtrender.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
 ms.prod: windows-hardware
 ms.technology: windows-devices

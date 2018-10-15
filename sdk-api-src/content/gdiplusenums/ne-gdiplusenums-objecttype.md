@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ObjectType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\objecttype.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: ObjectType, ObjectType enumeration [GDI+], ObjectTypeBrush, ObjectTypeCustomLineCap, ObjectTypeFont, ObjectTypeGraphics, ObjectTypeImageAttributes, ObjectTypeInvalid, ObjectTypeMax, ObjectTypeMin, ObjectTypePath, ObjectTypePen, ObjectTypeRegion, ObjectTypeStringFormat, _gdiplus_ENUM_ObjectType, gdiplus._gdiplus_ENUM_ObjectType, gdiplusenums/ObjectType, gdiplusenums/ObjectTypeBrush, gdiplusenums/ObjectTypeCustomLineCap, gdiplusenums/ObjectTypeFont, gdiplusenums/ObjectTypeGraphics, gdiplusenums/ObjectTypeImageAttributes, gdiplusenums/ObjectTypeInvalid, gdiplusenums/ObjectTypeMax, gdiplusenums/ObjectTypeMin, gdiplusenums/ObjectTypePath, gdiplusenums/ObjectTypePen, gdiplusenums/ObjectTypeRegion, gdiplusenums/ObjectTypeStringFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ Minimum enumeration value. Currently, it is ObjectTypeBrush.
 
 
 
-To determine whether the object type value of an EMF+ record is valid, call <a href="https://msdn.microsoft.com/en-us/library/ms534087(v=VS.85).aspx">ObjectTypeIsValid</a>.
+To determine whether the object type value of an EMF+ record is valid, call <a href="https://msdn.microsoft.com/7cfdbad5-3d32-4383-85da-cfe338f1664e">ObjectTypeIsValid</a>.
 
 
 

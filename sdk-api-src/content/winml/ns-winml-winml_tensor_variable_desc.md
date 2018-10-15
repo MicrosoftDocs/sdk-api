@@ -7,7 +7,7 @@ old-location: machinelearning\winml_tensor_variable_desc.htm
 tech.root: MachineLearning
 ms.assetid: 71D65FC6-7A2B-40D6-B040-213C8BC77BE0
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: MachineLearning.winml_tensor_variable_desc, PWINML_TENSOR_VARIABLE_DESC, PWINML_TENSOR_VARIABLE_DESC structure pointer, WINML_TENSOR_VARIABLE_DESC, WINML_TENSOR_VARIABLE_DESC structure, winml/PWINML_TENSOR_VARIABLE_DESC, winml/WINML_TENSOR_VARIABLE_DESC
 ms.prod: windows
 ms.technology: windows-sdk

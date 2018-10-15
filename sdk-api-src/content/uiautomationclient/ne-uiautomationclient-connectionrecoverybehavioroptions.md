@@ -7,7 +7,7 @@ old-location: winauto\uiauto_connectionrecoverybehavioroptions.htm
 tech.root: WinAuto
 ms.assetid: B731C970-49AF-4BD7-9D30-DFBB76120499
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: ConnectionRecoveryBehaviorOptions, ConnectionRecoveryBehaviorOptions enumeration [Windows Accessibility], ConnectionRecoveryBehaviorOptions_Disabled, ConnectionRecoveryBehaviorOptions_Enabled, uiautomationclient/ConnectionRecoveryBehaviorOptions, uiautomationclient/ConnectionRecoveryBehaviorOptions_Disabled, uiautomationclient/ConnectionRecoveryBehaviorOptions_Enabled, winauto.uiauto_connectionrecoverybehavioroptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Contains possible values for the <a href="winauto.uiauto_iuiautomation6_connectionrecoverybehavior">ConnectionRecoveryBehavior</a> property, which indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
 

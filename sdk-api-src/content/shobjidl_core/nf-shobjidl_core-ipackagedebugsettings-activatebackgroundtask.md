@@ -3,20 +3,20 @@ UID: NF:shobjidl_core.IPackageDebugSettings.ActivateBackgroundTask
 title: IPackageDebugSettings::ActivateBackgroundTask
 author: windows-sdk-content
 description: Activates the specified background task.
-old-location: winrt\ipackagedebugsettings_activatebackgroundtask.htm
-tech.root: WinRT
-ms.assetid: 5ACDAB41-5904-409B-86B2-96865B761868
+old-location: shell\IPackageDebugSettings_ActivateBackgroundTask.htm
+tech.root: shell
+ms.assetid: 30ef83f0-cad1-4aee-9b70-0fe7189aff9e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: ActivateBackgroundTask, ActivateBackgroundTask method [Windows Runtime], ActivateBackgroundTask method [Windows Runtime],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Runtime],ActivateBackgroundTask method, IPackageDebugSettings.ActivateBackgroundTask, IPackageDebugSettings::ActivateBackgroundTask, shobjidl_core/IPackageDebugSettings::ActivateBackgroundTask, winrt.ipackagedebugsettings_activatebackgroundtask
+ms.date: 10/10/2018
+ms.keywords: ActivateBackgroundTask, ActivateBackgroundTask method [Windows Shell], ActivateBackgroundTask method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],ActivateBackgroundTask method, IPackageDebugSettings.ActivateBackgroundTask, IPackageDebugSettings::ActivateBackgroundTask, shell.IPackageDebugSettings_ActivateBackgroundTask, shobjidl_core/IPackageDebugSettings::ActivateBackgroundTask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - shobjidl_core.h
+ - Shobjidl_core.h
 api_name:
  - IPackageDebugSettings.ActivateBackgroundTask
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Activates the specified background task.
+Activates the specified background task. 
 
 
 ## -parameters
@@ -60,18 +60,23 @@ Activates the specified background task.
 
 ### -param taskId [in]
 
-Type: <b>LPCGUID</b>
-
-The ID that represents the background task to activate.
+The identifier of the background task to activate.
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Use the <b>ActivateBackgroundTask</b> method to test the code that handles your  background tasks.
 
 
 
@@ -81,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a>
+<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
  
 
  

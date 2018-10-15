@@ -4,10 +4,10 @@ title: "_EVT_EVENT_PROPERTY_ID"
 author: windows-sdk-content
 description: Defines the values that determine the query information to retrieve.
 old-location: wes\evt_subscription_event_property_id.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 19e20da3-5b6b-4f56-b30b-0408695f2267
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EVT_EVENT_PROPERTY_ID, EVT_EVENT_PROPERTY_ID enumeration [EventLog], EvtEventPath, EvtEventPropertyIdEND, EvtEventQueryIDs, _EVT_EVENT_PROPERTY_ID, wes.evt_subscription_event_property_id, winevt/EVT_EVENT_PROPERTY_ID, winevt/EvtEventPath, winevt/EvtEventPropertyIdEND, winevt/EvtEventQueryIDs
 ms.prod: windows
 ms.technology: windows-sdk

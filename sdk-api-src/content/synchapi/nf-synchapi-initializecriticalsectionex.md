@@ -4,10 +4,10 @@ title: InitializeCriticalSectionEx function
 author: windows-sdk-content
 description: Initializes a critical section object with a spin count and optional flags.
 old-location: base\initializecriticalsectionex.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: da84b187-0eb7-4363-8e68-8a525586d7d9
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: CRITICAL_SECTION_NO_DEBUG_INFO, InitializeCriticalSectionEx, InitializeCriticalSectionEx function, base.initializecriticalsectionex, synchapi/InitializeCriticalSectionEx, winbase/InitializeCriticalSectionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

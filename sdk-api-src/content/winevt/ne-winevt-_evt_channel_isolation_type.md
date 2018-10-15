@@ -4,10 +4,10 @@ title: "_EVT_CHANNEL_ISOLATION_TYPE"
 author: windows-sdk-content
 description: Defines the default access permissions to apply to the channel.
 old-location: wes\evt_channel_isolation_type.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 63b01c20-f413-451d-b34d-b2496ebf8181
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EVT_CHANNEL_ISOLATION_TYPE, EVT_CHANNEL_ISOLATION_TYPE enumeration [EventLog], EvtChannelIsolationTypeApplication, EvtChannelIsolationTypeCustom, EvtChannelIsolationTypeSystem, _EVT_CHANNEL_ISOLATION_TYPE, wes.evt_channel_isolation_type, winevt/EVT_CHANNEL_ISOLATION_TYPE, winevt/EvtChannelIsolationTypeApplication, winevt/EvtChannelIsolationTypeCustom, winevt/EvtChannelIsolationTypeSystem
 ms.prod: windows
 ms.technology: windows-sdk

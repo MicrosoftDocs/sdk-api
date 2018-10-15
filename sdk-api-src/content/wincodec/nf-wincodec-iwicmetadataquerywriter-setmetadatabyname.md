@@ -67,7 +67,7 @@ The name of the metadata item.
 
 ### -param pvarValue [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 The metadata to set.
 
@@ -125,7 +125,7 @@ If the value set is a nested metadata block then use variant type <code>VT_UNKNO
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>
+<a href="_stg_propvariant">PROPVARIANT</a>
 
 
 

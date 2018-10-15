@@ -4,10 +4,10 @@ title: BCryptGenerateSymmetricKey function
 author: windows-sdk-content
 description: Creates a key object for use with a symmetrical key encryption algorithm from a supplied key.
 old-location: security\bcryptgeneratesymmetrickey_func.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: c55d714f-f47e-4ddf-97b9-985c0441bb2d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCryptGenerateSymmetricKey, BCryptGenerateSymmetricKey function [Security], bcrypt/BCryptGenerateSymmetricKey, security.bcryptgeneratesymmetrickey_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

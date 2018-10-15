@@ -7,7 +7,7 @@ old-location: gdi\addfontresource.htm
 tech.root: gdi
 ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -184,7 +184,7 @@ If the function fails, the return value is zero. No extended error information i
 
 
 
-Any application that adds or removes fonts from the system font table should notify other windows of the change by sending a <a href="https://msdn.microsoft.com/4774308e-2f18-4a35-a769-56871f3c29a2">WM_FONTCHANGE</a> message to all top-level windows in the operating system. The application should send this message by calling the <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a> function and setting the <i>hwnd</i> parameter to HWND_BROADCAST.
+Any application that adds or removes fonts from the system font table should notify other windows of the change by sending a <a href="https://msdn.microsoft.com/4774308e-2f18-4a35-a769-56871f3c29a2">WM_FONTCHANGE</a> message to all top-level windows in the operating system. The application should send this message by calling the <a href="_win32_sendmessage_cpp">SendMessage</a> function and setting the <i>hwnd</i> parameter to HWND_BROADCAST.
 
 When an application no longer needs a font resource that it loaded by calling the <b>AddFontResource</b> function, it must remove that resource by calling the <a href="https://msdn.microsoft.com/ccc0ac8b-e373-47a9-a362-64fd79a33d0c">RemoveFontResource</a> function.
 
@@ -218,7 +218,7 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="_win32_sendmessage_cpp">SendMessage</a>
  
 
  

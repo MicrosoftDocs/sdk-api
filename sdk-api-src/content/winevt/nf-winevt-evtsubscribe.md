@@ -4,10 +4,10 @@ title: EvtSubscribe function
 author: windows-sdk-content
 description: Creates a subscription that will receive current and future events from a channel or log file that match the specified query criteria.
 old-location: wes\evtsubscribe.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: e7c4c5f9-2a5a-4004-8f19-13eb61c4346b
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, winevt/EvtSubscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices

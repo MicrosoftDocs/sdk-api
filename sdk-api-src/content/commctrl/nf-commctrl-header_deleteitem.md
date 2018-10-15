@@ -4,10 +4,10 @@ title: Header_DeleteItem macro
 author: windows-sdk-content
 description: Deletes an item from a header control. You can use this macro or send the HDM_DELETEITEM message explicitly.
 old-location: controls\Header_DeleteItem.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_deleteitem.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: Header_DeleteItem, Header_DeleteItem macro [Windows Controls], _win32_Header_DeleteItem, _win32_Header_DeleteItem_cpp, commctrl/Header_DeleteItem, controls.Header_DeleteItem, controls._win32_Header_DeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Deletes an item from a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775310(v=VS.85).aspx">HDM_DELETEITEM</a> message explicitly. 
+Deletes an item from a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/1dd1f233-2812-41ae-8a36-c42b9ac70ffc">HDM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Deletes an item from a header control. You can use this macro or send the <a hre
 
 ### -param hwndHD
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the header control. 
 

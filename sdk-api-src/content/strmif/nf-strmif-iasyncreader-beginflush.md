@@ -88,26 +88,30 @@ For more information, see <a href="https://msdn.microsoft.com/868218c4-3e1a-4da0
 
 The following example shows how a downstream input pin should call this method:
 
-
-```cpp
-
-m_pReader->BeginFlush(); 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+m_pReader-&gt;BeginFlush(); 
 while (1) {
     IMediaSample *pSample;
     DWORD_PTR dwUnused;
-    m_pReader->WaitForNext(0, &pSample, &dwUnused);
+    m_pReader-&gt;WaitForNext(0, &amp;pSample, &amp;dwUnused);
     if(pSample) { 
-        pSample->Release();  
+        pSample-&gt;Release();  
     } 
     else {  // No more samples.
         break;
     }
 }
-m_pReader->EndFlush();
-
-```
-
-
+m_pReader-&gt;EndFlush();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

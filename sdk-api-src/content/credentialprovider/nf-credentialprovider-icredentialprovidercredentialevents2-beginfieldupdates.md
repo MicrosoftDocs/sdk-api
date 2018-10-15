@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents2_BeginFieldUpdates.htm
 tech.root: shell
 ms.assetid: 2E7EB8B4-ED6F-4954-88D3-FB79D80E53B2
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: BeginFieldUpdates, BeginFieldUpdates method [Windows Shell], BeginFieldUpdates method [Windows Shell],ICredentialProviderCredentialEvents2 interface, ICredentialProviderCredentialEvents2 interface [Windows Shell],BeginFieldUpdates method, ICredentialProviderCredentialEvents2.BeginFieldUpdates, ICredentialProviderCredentialEvents2::BeginFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::BeginFieldUpdates, shell.ICredentialProviderCredentialEvents2_BeginFieldUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,19 +83,19 @@ A call to this method must be made at the beginning of the code that updates the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706912(v=VS.85).aspx">ICredentialProviderCredential2</a>
+<a href="https://msdn.microsoft.com/C1C4BF88-3151-4a8b-A1EE-9616DCB6EA58">ICredentialProviderCredential2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706916(v=VS.85).aspx">ICredentialProviderCredential2::EndFieldUpdates</a>
+<a href="https://msdn.microsoft.com/D05A558E-79D9-4063-A714-F54D8EB8BBF8">ICredentialProviderCredential2::EndFieldUpdates</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706917(v=VS.85).aspx">ICredentialProviderCredential2::SetFieldOptions</a>
+<a href="https://msdn.microsoft.com/5507E8DE-5746-4031-900B-3EF5C97BC2EE">ICredentialProviderCredential2::SetFieldOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706914(v=VS.85).aspx">ICredentialProviderCredentialEvents2</a>
+<a href="https://msdn.microsoft.com/47290FF7-1785-4470-B3A9-F35C5028A6FE">ICredentialProviderCredentialEvents2</a>
  
 
  

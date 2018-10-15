@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6fll.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Priority property, IFaxOutgoingJob.Priority, IFaxOutgoingJob.get_Priority, IFaxOutgoingJob::Priority, IFaxOutgoingJob::get_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.priority, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp, fax._mfax_faxoutgoingjob_priority, faxcomex/IFaxOutgoingJob::Priority, faxcomex/IFaxOutgoingJob::get_Priority, get_Priority
 ms.prod: windows-hardware
 ms.technology: windows-devices

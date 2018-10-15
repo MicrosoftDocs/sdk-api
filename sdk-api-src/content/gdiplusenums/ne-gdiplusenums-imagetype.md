@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ImageType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagetype.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: ImageType, ImageType enumeration [GDI+], ImageTypeBitmap, ImageTypeMetafile, ImageTypeUnknown, _gdiplus_ENUM_ImageType, gdiplus._gdiplus_ENUM_ImageType, gdiplusenums/ImageType, gdiplusenums/ImageTypeBitmap, gdiplusenums/ImageTypeMetafile, gdiplusenums/ImageTypeUnknown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>ImageType</b> enumeration indicates whether an image is a bitmap or a metafile. The 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535395(v=VS.85).aspx">Image::GetType</a> method returns an element of this enumeration.
+			<a href="https://msdn.microsoft.com/2a0a73b1-692e-414a-919e-92f4b141d3d0">Image::GetType</a> method returns an element of this enumeration.
 
 
 ## -enum-fields
@@ -80,7 +80,7 @@ Indicates a metafile image.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535395(v=VS.85).aspx">Image::GetType</a>
+<a href="https://msdn.microsoft.com/2a0a73b1-692e-414a-919e-92f4b141d3d0">Image::GetType</a>
  
 
  

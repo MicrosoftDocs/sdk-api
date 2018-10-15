@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawArc_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawarcmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DrawArc, DrawArc methods [GDI+], Graphics.DrawArc, Graphics.DrawArc(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Graphics::DrawArc, Graphics::DrawArc(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawArc_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawArc_Methods, gdiplusgraphics/DrawArc
 ms.prod: windows-hardware
 ms.technology: windows-devices

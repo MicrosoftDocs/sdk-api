@@ -4,10 +4,10 @@ title: RemoveClusterGroupDependency function
 author: windows-sdk-content
 description: Removes a dependency between two cluster groups.
 old-location: mscs\removeclustergroupdependency.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: da264d42-28ee-4589-a790-51da9f788ee9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY function [Failover Cluster], RemoveClusterGroupDependency, RemoveClusterGroupDependency function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY, clusapi/RemoveClusterGroupDependency, mscs.removeclustergroupdependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ The group <i>hDependentGroup</i> depends on
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 

@@ -4,10 +4,10 @@ title: EvtOpenEventMetadataEnum function
 author: windows-sdk-content
 description: Gets a handle that you use to enumerate the list of events that the provider defines.
 old-location: wes\evtopeneventmetadataenum.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: e1d2e5d5-89db-4bda-9803-37f26d1fe30f
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtOpenEventMetadataEnum, EvtOpenEventMetadataEnum function [EventLog], wes.evtopeneventmetadataenum, winevt/EvtOpenEventMetadataEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

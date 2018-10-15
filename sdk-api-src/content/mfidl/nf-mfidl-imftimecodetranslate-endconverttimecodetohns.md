@@ -7,7 +7,7 @@ old-location: mf\imftimecodetranslate_endconverttimecodetohns.htm
 tech.root: medfound
 ms.assetid: d1b8b8ba-d03a-4a45-8788-38dbb2be8c6a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: EndConvertTimecodeToHNS, EndConvertTimecodeToHNS method [Media Foundation], EndConvertTimecodeToHNS method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],EndConvertTimecodeToHNS method, IMFTimecodeTranslate.EndConvertTimecodeToHNS, IMFTimecodeTranslate::EndConvertTimecodeToHNS, mf.imftimecodetranslate_endconverttimecodetohns, mfidl/IMFTimecodeTranslate::EndConvertTimecodeToHNS
 ms.prod: windows-hardware
 ms.technology: windows-devices

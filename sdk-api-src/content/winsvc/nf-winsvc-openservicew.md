@@ -4,10 +4,10 @@ title: OpenServiceW function
 author: windows-sdk-content
 description: Opens an existing service.
 old-location: base\openservice.htm
-tech.root: Services
+tech.root: services
 ms.assetid: e0a42613-95ad-4d0f-a464-c6df33014064
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: OpenService, OpenService function, OpenServiceA, OpenServiceW, _win32_openservice, base.openservice, winsvc/OpenService, winsvc/OpenServiceA, winsvc/OpenServiceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FindNextChangeNotification function
 author: windows-sdk-content
 description: Requests that the operating system signal a change notification handle the next time it detects an appropriate change.
 old-location: fs\findnextchangenotification.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 0f93cc96-6e3b-4c03-aa5a-7a74d054a7ff
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: FindNextChangeNotification, FindNextChangeNotification function [Files], _win32_findnextchangenotification, base.findnextchangenotification, fileapi/FindNextChangeNotification, fs.findnextchangenotification, winbase/FindNextChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

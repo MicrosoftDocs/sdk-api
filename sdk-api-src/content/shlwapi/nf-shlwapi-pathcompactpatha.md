@@ -7,7 +7,7 @@ old-location: shell\PathCompactPath.htm
 tech.root: shell
 ms.assetid: b8184c98-1f86-4714-baf8-af4ef3e71cf2
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: PathCompactPath, PathCompactPath function [Windows Shell], PathCompactPathA, PathCompactPathW, _win32_PathCompactPath, shell.PathCompactPath, shlwapi/PathCompactPath, shlwapi/PathCompactPathA, shlwapi/PathCompactPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,10 +105,14 @@ This function uses the font currently selected in <i>hDC</i> to calculate the wi
 
 
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 HDC hdc;  /* display DC handle to current font metrics */ 
@@ -138,19 +142,19 @@ lpStr4 = buffer_4;
 // Variable to get the return from "PathCompactPath".
 int retval;
 
-cout << "The un-truncated path is                " << lpStr1 << endl;
+cout &lt;&lt; "The un-truncated path is                " &lt;&lt; lpStr1 &lt;&lt; endl;
 
 retval = PathCompactPath(hdc,lpStr1,125);
-cout << "The truncated path at 125 pixels is :   " << lpStr1 << endl;
+cout &lt;&lt; "The truncated path at 125 pixels is :   " &lt;&lt; lpStr1 &lt;&lt; endl;
 
 retval = PathCompactPath(hdc,lpStr2,120);
-cout << "The truncated path at 120 pixels is :   " << lpStr2 << endl;
+cout &lt;&lt; "The truncated path at 120 pixels is :   " &lt;&lt; lpStr2 &lt;&lt; endl;
 
 retval = PathCompactPath(hdc,lpStr3,110);
-cout << "The truncated path at 110 pixels is :   " << lpStr3 << endl;
+cout &lt;&lt; "The truncated path at 110 pixels is :   " &lt;&lt; lpStr3 &lt;&lt; endl;
 
 retval = PathCompactPath(hdc,lpStr4,25);
-cout << "The truncated path at  25 pixels is :   " << lpStr4 << endl;
+cout &lt;&lt; "The truncated path at  25 pixels is :   " &lt;&lt; lpStr4 &lt;&lt; endl;
 }
 
 OUTPUT:
@@ -159,9 +163,9 @@ The un-truncated path is                C:\path1\path2\sample.txt
 The truncated path at 125 pixels is :   C:\path1\...\sample.txt
 The truncated path at 120 pixels is :   C:\pat...\sample.txt
 The truncated path at 110 pixels is :   C:\p...\sample.txt
-The truncated path at  25 pixels is :   ...\sample.txt
-```
-
-
+The truncated path at  25 pixels is :   ...\sample.txt</pre>
+</td>
+</tr>
+</table></span></div>
 
 

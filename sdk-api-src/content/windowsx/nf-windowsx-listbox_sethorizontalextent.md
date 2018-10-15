@@ -4,10 +4,10 @@ title: ListBox_SetHorizontalExtent macro
 author: windows-sdk-content
 description: Set the width by which a list box can be scrolled horizontally (the scrollable width).
 old-location: controls\ListBox_SetHorizontalExtent.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_sethorizontalextent.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ListBox_SetHorizontalExtent, ListBox_SetHorizontalExtent macro [Windows Controls], _win32_ListBox_SetHorizontalExtent, _win32_ListBox_SetHorizontalExtent_cpp, controls.ListBox_SetHorizontalExtent, controls._win32_ListBox_SetHorizontalExtent, windowsx/ListBox_SetHorizontalExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Set the width by which a list box can be scrolled horizontally (the scrollable width). If the width of the list box is smaller than this value, the horizontal scroll bar horizontally scrolls items in the list box. If the width of the list box is equal to or greater than this value, the horizontal scroll bar is hidden. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761344(v=VS.85).aspx">LB_SETHORIZONTALEXTENT</a> message explicitly.
+Set the width by which a list box can be scrolled horizontally (the scrollable width). If the width of the list box is smaller than this value, the horizontal scroll bar horizontally scrolls items in the list box. If the width of the list box is equal to or greater than this value, the horizontal scroll bar is hidden. You can use this macro or send the <a href="https://msdn.microsoft.com/7d59b6de-2a22-4246-936b-4c669d285392">LB_SETHORIZONTALEXTENT</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The number of pixels by which the list box can be scrolled.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761344(v=VS.85).aspx">LB_SETHORIZONTALEXTENT</a>.
+For more information, see <a href="https://msdn.microsoft.com/7d59b6de-2a22-4246-936b-4c669d285392">LB_SETHORIZONTALEXTENT</a>.
 	
 
 

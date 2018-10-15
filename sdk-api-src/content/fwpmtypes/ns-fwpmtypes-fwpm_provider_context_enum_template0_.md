@@ -4,10 +4,10 @@ title: FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Used for enumerating provider contexts.
 old-location: fwp\fwpm_provider_context_enum_template0_struct.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 0d43931a-93ae-43dd-9c5b-3989799e7b60
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0, FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0 structure [Filtering], FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0_, fwp.fwpm_provider_context_enum_template0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk

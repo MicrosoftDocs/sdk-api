@@ -4,10 +4,10 @@ title: TreeView_SetBorder macro
 author: windows-sdk-content
 description: Sets the size of the border for the items in a tree-view control. You can use this macro or send the TVM_SETBORDER message explicitly.
 old-location: controls\TreeView_SetBorder.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setborder.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: TVSBF_XBORDER, TVSBF_YBORDER, TreeView_SetBorder, TreeView_SetBorder macro [Windows Controls], _win32_TreeView_SetBorder, _win32_TreeView_SetBorder_cpp, commctrl/TreeView_SetBorder, controls.TreeView_SetBorder, controls._win32_TreeView_SetBorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[Intended for internal use; not recommended for use in applications. This macro may not be supported in future versions of Windows.]
 
-Sets the size of the border for the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Ee663567(v=VS.85).aspx">TVM_SETBORDER</a> message explicitly.
+Sets the size of the border for the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/468b46ae-2ab2-4753-a0af-7c644f75ce62">TVM_SETBORDER</a> message explicitly.
 
 
 ## -parameters
@@ -130,7 +130,7 @@ The item border is set just for spacing purposes. A successful setting triggers 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee663567(v=VS.85).aspx">TVM_SETBORDER</a>
+<a href="https://msdn.microsoft.com/468b46ae-2ab2-4753-a0af-7c644f75ce62">TVM_SETBORDER</a>
  
 
  

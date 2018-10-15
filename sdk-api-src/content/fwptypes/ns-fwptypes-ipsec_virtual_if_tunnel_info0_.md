@@ -4,10 +4,10 @@ title: IPSEC_VIRTUAL_IF_TUNNEL_INFO0_
 author: windows-sdk-content
 description: Is used to store information specific to virtual interface tunneling.
 old-location: fwp\ipsec_virtual_if_tunnel_info0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 91af0790-865f-44f5-b6c8-fd048bf99125
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IPSEC_VIRTUAL_IF_TUNNEL_INFO0, IPSEC_VIRTUAL_IF_TUNNEL_INFO0 structure [Filtering], IPSEC_VIRTUAL_IF_TUNNEL_INFO0_, fwp.ipsec_virtual_if_tunnel_info0, fwptypes/IPSEC_VIRTUAL_IF_TUNNEL_INFO0
 ms.prod: windows
 ms.technology: windows-sdk

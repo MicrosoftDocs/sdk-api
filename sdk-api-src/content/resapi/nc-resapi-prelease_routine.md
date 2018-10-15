@@ -4,10 +4,10 @@ title: PRELEASE_ROUTINE
 author: windows-sdk-content
 description: Releases the quorum resource from arbitration.
 old-location: mscs\release.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release
 ms.prod: windows
 ms.technology: windows-sdk

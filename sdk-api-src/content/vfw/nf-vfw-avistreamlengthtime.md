@@ -7,7 +7,7 @@ old-location: multimedia\avistreamlengthtime.htm
 tech.root: Multimedia
 ms.assetid: 550d04b2-d5d4-4acc-97d3-8cd180de1545
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: AVIStreamLengthTime, AVIStreamLengthTime macro [Windows Multimedia], _win32_AVIStreamLengthTime, multimedia.avistreamlengthtime, vfw/AVIStreamLengthTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,15 +72,19 @@ Handle to an open stream.
 
 The <b>AVIStreamLengthTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamLengthTime(pavi) \ 
     AVIStreamSampleToTime(pavi, AVIStreamLength(pavi)) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

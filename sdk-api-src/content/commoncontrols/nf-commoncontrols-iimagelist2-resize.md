@@ -4,10 +4,10 @@ title: IImageList2::Resize
 author: windows-sdk-content
 description: Resizes the current image.
 old-location: controls\IImageList2_Resize.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\resize.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IImageList2 interface [Windows Controls],Resize method, IImageList2.Resize, IImageList2::Resize, Resize, Resize method [Windows Controls], Resize method [Windows Controls],IImageList2 interface, _shell_IImageList2_Resize, _shell_IImageList2_Resize_cpp, commoncontrols/IImageList2::Resize, controls.IImageList2_Resize, controls._shell_IImageList2_Resize
 ms.prod: windows-hardware
 ms.technology: windows-devices

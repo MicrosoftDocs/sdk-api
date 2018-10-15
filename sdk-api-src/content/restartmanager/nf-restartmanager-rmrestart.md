@@ -4,10 +4,10 @@ title: RmRestart function
 author: windows-sdk-content
 description: Restarts applications and services that have been shut down by the RmShutdown function and that have been registered to be restarted using the RegisterApplicationRestart function.
 old-location: rstmgr\rmrestart.htm
-tech.root: RstMgr
+tech.root: rstmgr
 ms.assetid: e0939b31-0233-40d2-96cf-bbabe9488a12
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: RmRestart, RmRestart function [Restart Mgr], restartmanager/RmRestart, rstmgr.rmrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices

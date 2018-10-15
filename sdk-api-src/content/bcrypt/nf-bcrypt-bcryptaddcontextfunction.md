@@ -4,10 +4,10 @@ title: BCryptAddContextFunction function
 author: windows-sdk-content
 description: Adds a cryptographic function to the list of functions that are supported by an existing CNG context.
 old-location: security\bcryptaddcontextfunction.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 4f5b6db0-775d-42de-b9d9-a99fb11c89f2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptAddContextFunction, BCryptAddContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptAddContextFunction, security.bcryptaddcontextfunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -295,7 +295,7 @@ If the function added is already in the list, it will be removed and inserted at
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375492(v=VS.85).aspx">BCryptRemoveContextFunction</a>
+<a href="https://msdn.microsoft.com/b8b1df66-f66f-4efc-9c8e-fca32e0278c5">BCryptRemoveContextFunction</a>
  
 
  

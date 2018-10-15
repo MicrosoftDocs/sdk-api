@@ -7,7 +7,7 @@ old-location: mf\mft_input_stream_info.htm
 tech.root: medfound
 ms.assetid: de3d6d70-3525-42a0-bc1a-2625e7ebd918
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: MFT_INPUT_STREAM_INFO, MFT_INPUT_STREAM_INFO structure [Media Foundation], _MFT_INPUT_STREAM_INFO, de3d6d70-3525-42a0-bc1a-2625e7ebd918, mf.mft_input_stream_info, mftransform/MFT_INPUT_STREAM_INFO
 ms.prod: windows
 ms.technology: windows-sdk

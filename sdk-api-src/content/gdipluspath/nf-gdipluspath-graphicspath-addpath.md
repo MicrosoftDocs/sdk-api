@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\addpath.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: AddPath, AddPath method [GDI+], AddPath method [GDI+],GraphicsPath class, FALSE, GraphicsPath class [GDI+],AddPath method, GraphicsPath.AddPath, GraphicsPath::AddPath, TRUE, _gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>GraphicsPath::AddPath</b> method adds a path to this path.
 
 ### -param addingPath [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>*</b>
 
 Pointer to the path to be added. 
 
@@ -89,12 +89,12 @@ Specifies that the first figure in the added path is separate from the last figu
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -110,11 +110,15 @@ Even if the value of the <i>connect</i> parameter is <b>TRUE</b>, this method mi
 
 
 
-The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> objects: <i>path1</i> and <i>path2</i>. The code adds an open figure consisting of an arc and a Bézier spline to each path. The code calls the <b>GraphicsPath::AddPath</b> method of <i>path1</i> to add <i>path2</i> to <i>path1</i>. The second argument is <b>TRUE</b>, which specifies that all four items (two arcs and two Bézier splines) belong to the same figure.
+The following example creates two <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> objects: <i>path1</i> and <i>path2</i>. The code adds an open figure consisting of an arc and a Bézier spline to each path. The code calls the <b>GraphicsPath::AddPath</b> method of <i>path1</i> to add <i>path2</i> to <i>path1</i>. The second argument is <b>TRUE</b>, which specifies that all four items (two arcs and two Bézier splines) belong to the same figure.
 
-
-```cpp
-VOID AddPathExample(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID AddPathExample(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -126,14 +130,14 @@ VOID AddPathExample(HDC hdc)
    path2.AddArc(10, 110, 50, 20, 0.0f, 150.0f);
    path2.AddBezier(10, 150, 60, 150, 10, 180, 60, 180);
  
-   path1.AddPath(&path2, TRUE);
+   path1.AddPath(&amp;path2, TRUE);
 
    Pen pen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&pen, &path1);
-}
-```
-
-
+   graphics.DrawPath(&amp;pen, &amp;path1);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -142,31 +146,31 @@ VOID AddPathExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535542(v=VS.85).aspx">AddEllipse Methods</a>
+<a href="https://msdn.microsoft.com/39074cd8-267d-485a-8175-d0a25dcf9097">AddEllipse Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535547(v=VS.85).aspx">AddRectangle Methods</a>
+<a href="https://msdn.microsoft.com/b86c87c0-7d6b-4e9d-b276-a98ac9a33772">AddRectangle Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
  
 
  

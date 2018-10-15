@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_GetTextConPat.htm
 tech.root: WinAuto
 ms.assetid: 1c8ba026-0c85-46a0-a667-daba0191b115
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: TextRange_GetText, TextRange_GetText function [Windows Accessibility], uiauto.uiauto_TextRange_GetTextConPat, uiauto_TextRange_GetTextConPat, uiautomationcoreapi/TextRange_GetText, winauto.uiauto_TextRange_GetTextConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

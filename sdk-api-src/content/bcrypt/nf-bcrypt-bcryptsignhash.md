@@ -4,10 +4,10 @@ title: BCryptSignHash function
 author: windows-sdk-content
 description: Creates a signature of a hash value.
 old-location: security\bcryptsignhash_func.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: f402ea9e-89ae-4ccc-9591-aa2328287c0e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptSignHash, BCryptSignHash function [Security], bcrypt/BCryptSignHash, security.bcryptsignhash_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

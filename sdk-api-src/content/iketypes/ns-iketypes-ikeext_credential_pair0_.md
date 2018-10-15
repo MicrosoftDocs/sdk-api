@@ -4,10 +4,10 @@ title: IKEEXT_CREDENTIAL_PAIR0_
 author: windows-sdk-content
 description: Is used to store credential information used for the authentication.
 old-location: fwp\ikeext_credential_pair0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 35dcc31f-8acd-4b7d-901d-3b2e9cde1690
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IKEEXT_CREDENTIAL_PAIR0, IKEEXT_CREDENTIAL_PAIR0 structure [Filtering], IKEEXT_CREDENTIAL_PAIR0_, fwp.ikeext_credential_pair0, iketypes/IKEEXT_CREDENTIAL_PAIR0
 ms.prod: windows
 ms.technology: windows-sdk

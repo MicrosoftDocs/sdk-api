@@ -136,9 +136,13 @@ Existing decoders that do not take these extra steps to recognize the PropertyHa
 
 #### Examples
 
-
-```cpp
-BYTE rgValue[] = {...};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BYTE rgValue[] = {...};
 
 TraceLoggingWrite(
    g_hProvider,
@@ -150,9 +154,9 @@ TraceLoggingWrite(
       ( 0x0, 0x1, 0x2 ),
       3,
       "MyCustomField"
-   ));
-```
-
-
+   ));</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -4,10 +4,10 @@ title: UnlockServiceDatabase function
 author: windows-sdk-content
 description: Unlocks a service control manager database by releasing the specified lock.
 old-location: base\unlockservicedatabase.htm
-tech.root: Services
+tech.root: services
 ms.assetid: 3277d175-ab0b-43ce-965f-f8087d0124e4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: UnlockServiceDatabase, UnlockServiceDatabase function, _win32_unlockservicedatabase, base.unlockservicedatabase, winsvc/UnlockServiceDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

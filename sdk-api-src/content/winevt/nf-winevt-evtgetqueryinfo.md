@@ -4,10 +4,10 @@ title: EvtGetQueryInfo function
 author: windows-sdk-content
 description: Gets information about a query that you ran that identifies the list of channels or log files that the query attempted to access. The function also gets a list of return codes that indicates the success or failure of each access.
 old-location: wes\evtgetqueryinfo.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 311a2060-90d9-41ec-b489-c07d3e813187
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtGetQueryInfo, EvtGetQueryInfo function [EventLog], wes.evtgetqueryinfo, winevt/EvtGetQueryInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

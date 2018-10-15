@@ -4,10 +4,10 @@ title: IKEEXT_SA_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Is an enumeration template used for enumerating IKE/AuthIP security associations (SAs).
 old-location: fwp\ikeext_sa_enum_template0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 69bb80de-e512-4fbd-a62f-40bb211e6b26
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IKEEXT_SA_ENUM_TEMPLATE0, IKEEXT_SA_ENUM_TEMPLATE0 structure [Filtering], IKEEXT_SA_ENUM_TEMPLATE0_, fwp.ikeext_sa_enum_template0, iketypes/IKEEXT_SA_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk

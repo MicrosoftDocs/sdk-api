@@ -4,10 +4,10 @@ title: RmRegisterResources function
 author: windows-sdk-content
 description: Registers resources to a Restart Manager session.
 old-location: rstmgr\rmregisterresources.htm
-tech.root: RstMgr
+tech.root: rstmgr
 ms.assetid: 9ac94461-bf75-4517-b47e-23d82474efe8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: RmRegisterResources, RmRegisterResources function [Restart Mgr], restartmanager/RmRegisterResources, rstmgr.rmregisterresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

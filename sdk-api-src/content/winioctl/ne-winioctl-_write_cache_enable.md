@@ -4,10 +4,10 @@ title: "_WRITE_CACHE_ENABLE"
 author: windows-sdk-content
 description: Indicates whether the write cache is enabled or disabled.
 old-location: fs\write_cache_enable.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3ed8bc79-d8f9-4a57-a37c-46202d639a63
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: WRITE_CACHE_ENABLE, WRITE_CACHE_ENABLE enumeration [Files], WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, _WRITE_CACHE_ENABLE, fs.write_cache_enable, winioctl/WRITE_CACHE_ENABLE, winioctl/WriteCacheDisabled, winioctl/WriteCacheEnableUnknown, winioctl/WriteCacheEnabled
 ms.prod: windows
 ms.technology: windows-sdk

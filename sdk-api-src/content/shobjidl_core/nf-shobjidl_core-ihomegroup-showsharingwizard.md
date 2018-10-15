@@ -7,7 +7,7 @@ old-location: shell\IHomeGroup_ShowSharingWizard.htm
 tech.root: shell
 ms.assetid: D73A97EE-B427-4c53-B023-3662D864E801
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: HGSC_DOCUMENTSLIBRARY, HGSC_MUSICLIBRARY, HGSC_NONE, HGSC_PICTURESLIBRARY, HGSC_PRINTERS, HGSC_VIDEOSLIBRARY, IHomeGroup interface [Windows Shell],ShowSharingWizard method, IHomeGroup.ShowSharingWizard, IHomeGroup::ShowSharingWizard, ShowSharingWizard, ShowSharingWizard method [Windows Shell], ShowSharingWizard method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_ShowSharingWizard, shell.IHomeGroup_ShowSharingWizard, shobjidl_core/IHomeGroup::ShowSharingWizard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -182,50 +182,54 @@ This method must be called from a single-threaded apartment (STA) thread.
 
 The following code shows an example use of <b>ShowSharingWizard</b>.
 
-
-```cpp
-HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
 if (SUCCEEDED(hr))
 {
     IHomeGroup *phg;
     
-    hr = CoCreateInstance(CLSID_HomeGroup, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&phg));
+    hr = CoCreateInstance(CLSID_HomeGroup, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;phg));
     if (SUCCEEDED(hr))
     {
         HOMEGROUPSHARINGCHOICES sharingchoices;
 
-        hr = phg->ShowSharingWizard(NULL, &sharingchoices);
+        hr = phg-&gt;ShowSharingWizard(NULL, &amp;sharingchoices);
         if (SUCCEEDED(hr))
         {
             \\ The user selected to share.
             
-            if (sharingchoices & HGSC_MUSICLIBRARY)
+            if (sharingchoices &amp; HGSC_MUSICLIBRARY)
             {
                 \\ Music
             }
-            if (sharingchoices & HGSC_PICTURESLIBRARY)
+            if (sharingchoices &amp; HGSC_PICTURESLIBRARY)
             {
                 \\ Pictures
             }
-            if (sharingchoices & HGSC_VIDEOSLIBRARY)
+            if (sharingchoices &amp; HGSC_VIDEOSLIBRARY)
             {
                 \\ Videos
             }
-            if (sharingchoices & HGSC_DOCUMENTSLIBRARY)
+            if (sharingchoices &amp; HGSC_DOCUMENTSLIBRARY)
             {
                 \\ Documents
             }
-            if (sharingchoices & HGSC_PRINTERS)
+            if (sharingchoices &amp; HGSC_PRINTERS)
             {
                 \\ Printers
             }
         }
-        phg->Release();
+        phg-&gt;Release();
     }
     CoUninitialize();
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

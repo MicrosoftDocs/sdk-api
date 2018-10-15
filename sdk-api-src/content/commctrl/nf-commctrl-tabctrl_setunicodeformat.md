@@ -4,10 +4,10 @@ title: TabCtrl_SetUnicodeFormat macro
 author: windows-sdk-content
 description: Sets the Unicode character format flag for the control.
 old-location: controls\TabCtrl_SetUnicodeFormat.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: TabCtrl_SetUnicodeFormat, TabCtrl_SetUnicodeFormat macro [Windows Controls], _win32_TabCtrl_SetUnicodeFormat, _win32_TabCtrl_SetUnicodeFormat_cpp, commctrl/TabCtrl_SetUnicodeFormat, controls.TabCtrl_SetUnicodeFormat, controls._win32_TabCtrl_SetUnicodeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760643(v=VS.85).aspx">TCM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/4a9bacfc-d1b7-432a-9b61-b0fe18576679">TCM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Sets the Unicode character format flag for the control. This message allows you 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the control. 
 
 
 ### -param fUnicode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Determines the character set that is used by the control. If this value is nonzero, the control will use Unicode characters. If this value is zero, the control will use ANSI characters. 
 
@@ -77,7 +77,7 @@ Determines the character set that is used by the control. If this value is nonze
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760672(v=VS.85).aspx">TabCtrl_GetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/2750b27d-e4a7-416e-b76f-53c26baba399">TabCtrl_GetUnicodeFormat</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\app_memory_information.htm
 tech.root: ProcThread
 ms.assetid: A2D0CDED-0E8B-41D6-8435-BDB4E5445DE4
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: "*PAPP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION structure, PAPP_MEMORY_INFORMATION, PAPP_MEMORY_INFORMATION structure pointer, _APP_MEMORY_INFORMATION, base.app_memory_information, processthreadsapi/APP_MEMORY_INFORMATION, processthreadsapi/PAPP_MEMORY_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

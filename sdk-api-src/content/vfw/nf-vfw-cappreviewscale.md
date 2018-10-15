@@ -7,7 +7,7 @@ old-location: multimedia\cappreviewscale.htm
 tech.root: Multimedia
 ms.assetid: 32f432a7-76be-4b75-8863-bc67cdcda781
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: "_win32_capPreviewScale, capPreviewScale, capPreviewScale macro [Windows Multimedia], multimedia.cappreviewscale, vfw/capPreviewScale"
 ms.prod: windows-hardware
 ms.technology: windows-devices

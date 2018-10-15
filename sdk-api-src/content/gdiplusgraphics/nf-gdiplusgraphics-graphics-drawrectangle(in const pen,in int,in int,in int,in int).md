@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangle_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglemethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DrawRectangle, DrawRectangle methods [GDI+], Graphics.DrawRectangle, Graphics.DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT), Graphics::DrawRectangle, Graphics::DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawRectangle_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawRectangle_Methods, gdiplusgraphics/DrawRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 DrawRectangle methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -64,37 +64,37 @@ DrawRectangle methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536001(v=VS.85).aspx">DrawRectangle(Pen*,Rect&)</a>
+<a href="https://msdn.microsoft.com/078c1737-6a59-4add-826d-54343673a46e">DrawRectangle(Pen*,Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536001(v=VS.85).aspx">Graphics::DrawRectangle</a> method draws a rectangle.
+The <a href="https://msdn.microsoft.com/078c1737-6a59-4add-826d-54343673a46e">Graphics::DrawRectangle</a> method draws a rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536006(v=VS.85).aspx">DrawRectangle(Pen*,RectF&)</a>
+<a href="https://msdn.microsoft.com/cf3f26ad-2aec-4986-a884-95763e63013e">DrawRectangle(Pen*,RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536006(v=VS.85).aspx">Graphics::DrawRectangle</a> method draws a rectangle.
+The <a href="https://msdn.microsoft.com/cf3f26ad-2aec-4986-a884-95763e63013e">Graphics::DrawRectangle</a> method draws a rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx">DrawRectangle(Pen*,INT,INT,INT,INT)</a>
+<a href="https://msdn.microsoft.com/cf8d183a-3b94-442b-87ec-b4ef3c561b1b">DrawRectangle(Pen*,INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx">Graphics::DrawRectangle</a> method draws a rectangle.
+The <a href="https://msdn.microsoft.com/cf8d183a-3b94-442b-87ec-b4ef3c561b1b">Graphics::DrawRectangle</a> method draws a rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536004(v=VS.85).aspx">DrawRectangle(Pen*,REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/f612527a-724f-47cf-b81e-a46736d04551">DrawRectangle(Pen*,REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536004(v=VS.85).aspx">Graphics::DrawRectangle</a> method draws a rectangle.
+The <a href="https://msdn.microsoft.com/f612527a-724f-47cf-b81e-a46736d04551">Graphics::DrawRectangle</a> method draws a rectangle.
 
 </td>
 </tr>

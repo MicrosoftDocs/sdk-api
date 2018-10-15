@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHostProviderFromHwndFunction.htm
 tech.root: WinAuto
 ms.assetid: 8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: UiaHostProviderFromHwnd, UiaHostProviderFromHwnd function [Windows Accessibility], uiauto.uiauto_UiaHostProviderFromHwndFunction, uiauto_UiaHostProviderFromHwndFunction, uiautomationcoreapi/UiaHostProviderFromHwnd, winauto.uiauto_UiaHostProviderFromHwndFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,15 +99,19 @@ The object retrieved by this function is useful only for responding to calls to 
 The following example returns the host provider for the window that hosts the control served by 
             this provider.
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProviderSimple** pRetVal)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProviderSimple** pRetVal)
 {
     return UiaHostProviderFromHwnd(controlHWnd, pRetVal); 
-} 
-```
-
-
+} </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

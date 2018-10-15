@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getgammacorrection_28.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: GetGammaCorrection, GetGammaCorrection method [GDI+], GetGammaCorrection method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetGammaCorrection method, PathGradientBrush.GetGammaCorrection, PathGradientBrush::GetGammaCorrection, _gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,23 +78,23 @@ If gamma correction is enabled, this method returns <b>TRUE</b>; otherwise, it r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535087(v=VS.85).aspx">PathGradientBrush::SetGammaCorrection</a>
+<a href="https://msdn.microsoft.com/30daa9ad-9e69-4322-aa12-573c2a709e27">PathGradientBrush::SetGammaCorrection</a>
  
 
  

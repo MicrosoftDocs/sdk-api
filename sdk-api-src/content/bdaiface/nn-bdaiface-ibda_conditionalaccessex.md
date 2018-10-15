@@ -55,9 +55,9 @@ Provides access to a device's Conditional Access Service (CAS), which manages ac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ConditionalAccessEx</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_ConditionalAccessEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ConditionalAccessEx</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_ConditionalAccessEx</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IBDA_ConditionalAccessEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693263(v=VS.85).aspx">CheckEntitlementToken</a>
+<a href="https://msdn.microsoft.com/ea581065-b10b-4a2a-9090-99d6fd140ea9">CheckEntitlementToken</a>
 </td>
 <td align="left" width="63%">
 Checks the access availability of content that is identified by an entitlement token.
@@ -79,7 +79,7 @@ Checks the access availability of content that is identified by an entitlement t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693264(v=VS.85).aspx">CloseMmiDialog</a>
+<a href="https://msdn.microsoft.com/30cba76b-ae52-4c87-a88e-faa9ad3f12f9">CloseMmiDialog</a>
 </td>
 <td align="left" width="63%">
 Notifies the CAS that the media sink device (MSD) has closed a user interface (MMI) dialog.
@@ -88,7 +88,7 @@ Notifies the CAS that the media sink device (MSD) has closed a user interface (M
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693265(v=VS.85).aspx">CreateDialogRequestNumber</a>
+<a href="https://msdn.microsoft.com/cabe06c8-ead5-4e1d-83c3-e7b96b05fc4a">CreateDialogRequestNumber</a>
 </td>
 <td align="left" width="63%">
 Gets a new dialog request number.
@@ -97,7 +97,7 @@ Gets a new dialog request number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693266(v=VS.85).aspx">OpenBroadcastMmi</a>
+<a href="https://msdn.microsoft.com/15390805-ff09-4dca-b00d-ad2f3641911b">OpenBroadcastMmi</a>
 </td>
 <td align="left" width="63%">
 Responds to a BroadcastMMI event.
@@ -106,7 +106,7 @@ Responds to a BroadcastMMI event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693267(v=VS.85).aspx">SetCaptureToken</a>
+<a href="https://msdn.microsoft.com/b9e3d319-c76c-45df-aca3-d5447605b7c0">SetCaptureToken</a>
 </td>
 <td align="left" width="63%">
 Requests special events that are identified by a capture token.

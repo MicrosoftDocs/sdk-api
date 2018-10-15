@@ -7,7 +7,7 @@ old-location: mf\mf_transcode_sink_info.htm
 tech.root: medfound
 ms.assetid: b8f66128-88d5-4fe0-99f3-59621080be5c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: MF_TRANSCODE_SINK_INFO, MF_TRANSCODE_SINK_INFO structure [Media Foundation], _MF_TRANSCODE_SINK_INFO, mf.mf_transcode_sink_info, mfidl/MF_TRANSCODE_SINK_INFO
 ms.prod: windows
 ms.technology: windows-sdk

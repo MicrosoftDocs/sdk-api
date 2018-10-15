@@ -4,10 +4,10 @@ title: "_CRYPT_CONTEXTS"
 author: windows-sdk-content
 description: Contains a set of CNG configuration context identifiers.
 old-location: security\crypt_contexts.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: a1b60660-a4c5-4880-8cd4-48d8717c77c3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PCRYPT_CONTEXTS, CRYPT_CONTEXTS, CRYPT_CONTEXTS structure [Security], PCRYPT_CONTEXTS, PCRYPT_CONTEXTS structure pointer [Security], _CRYPT_CONTEXTS, bcrypt/CRYPT_CONTEXTS, bcrypt/PCRYPT_CONTEXTS, security.crypt_contexts"
 ms.prod: windows
 ms.technology: windows-sdk

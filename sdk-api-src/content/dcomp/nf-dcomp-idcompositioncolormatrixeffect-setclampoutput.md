@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioncolormatrixeffect_setclampoutput.htm
 tech.root: directcomp
 ms.assetid: 2C4EF887-18CF-49A2-96F5-02B81939BBA9
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetClampOutput method, IDCompositionColorMatrixEffect.SetClampOutput, IDCompositionColorMatrixEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetClampOutput, directcomp.idcompositioncolormatrixeffect_setclampoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPSEC_V4_UDP_ENCAPSULATION0_
 author: windows-sdk-content
 description: Stores the User Datagram Protocol (UDP) encapsulation ports for Encapsulating Security Payload (ESP) encapsulation.
 old-location: fwp\ipsec_v4_udp_encapsulation0_struct.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 69cddec0-7311-4833-8b24-293ad714054e
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IPSEC_V4_UDP_ENCAPSULATION0, IPSEC_V4_UDP_ENCAPSULATION0 structure [Filtering], IPSEC_V4_UDP_ENCAPSULATION0_, fwp.ipsec_v4_udp_encapsulation0_struct, ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0
 ms.prod: windows
 ms.technology: windows-sdk

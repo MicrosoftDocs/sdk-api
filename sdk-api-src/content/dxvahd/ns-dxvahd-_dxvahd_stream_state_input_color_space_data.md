@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_input_color_space_data.htm
 tech.root: medfound
 ms.assetid: 54b53e4d-990b-4496-aae6-039f443337ae
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, mf.dxvahd_stream_state_input_color_space_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -223,9 +223,13 @@ If the device supports xvYCC, it returns the <b>DXVAHD_DEVICE_CAPS_xvYCC</b> cap
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetInputColorSpace(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetInputColorSpace(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     BOOL bPlayback,     // TRUE = playback, FALSE = video processing
@@ -242,19 +246,19 @@ HRESULT DXVAHD_SetInputColorSpace(
         YCbCr_xvYCC ? 1 : 0
     };
 
-    HRESULT hr = pVP->SetVideoProcessStreamState(
+    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
         stream,
         DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE,
         sizeof(data),
-        &data
+        &amp;data
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

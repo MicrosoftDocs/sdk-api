@@ -7,7 +7,7 @@ old-location: dataxchg\ddeenablecallback.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeenablecallback.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: DdeEnableCallback, DdeEnableCallback function [Data Exchange], EC_DISABLE, EC_ENABLEALL, EC_ENABLEONE, EC_QUERYWAITING, _win32_DdeEnableCallback, _win32_ddeenablecallback_cpp, dataxchg.ddeenablecallback, ddeml/DdeEnableCallback, winui._win32_ddeenablecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Enables or disables transactions for a specific conversation or for all conversa
 
 Type: <b>DWORD</b>
 
-The application-instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application-instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a> function. 
 
 
 ### -param hConv [in]
@@ -118,29 +118,29 @@ A server application can disable the following transactions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648716(v=VS.85).aspx">XTYP_ADVSTART</a>
+<a href="https://msdn.microsoft.com/8911e722-5656-4ca6-8b0a-6bdf8281611a">XTYP_ADVSTART</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648717(v=VS.85).aspx">XTYP_ADVSTOP</a>
+<a href="https://msdn.microsoft.com/67dfa463-6a44-43a5-93be-a39c19c87c1c">XTYP_ADVSTOP</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648722(v=VS.85).aspx">XTYP_EXECUTE</a>
+<a href="https://msdn.microsoft.com/6001eb7d-59c0-49ec-97ce-26132891188c">XTYP_EXECUTE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648724(v=VS.85).aspx">XTYP_POKE</a>
+<a href="https://msdn.microsoft.com/63c6115e-24f8-4f35-8397-8be63110b21f">XTYP_POKE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648726(v=VS.85).aspx">XTYP_REQUEST</a>
+<a href="https://msdn.microsoft.com/e776b995-6a64-4398-9e29-c151f3ef4c1d">XTYP_REQUEST</a>
 </li>
 </ul>
 A client application can disable the following transactions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648714(v=VS.85).aspx">XTYP_ADVDATA</a>
+<a href="https://msdn.microsoft.com/c6e61785-b98c-4ffa-9d23-339e1c66cb4d">XTYP_ADVDATA</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms648729(v=VS.85).aspx">XTYP_XACT_COMPLETE</a>
+<a href="https://msdn.microsoft.com/d34a6fab-0e3c-44fe-b25f-7011228fe261">XTYP_XACT_COMPLETE</a>
 </li>
 </ul>
 </td>
@@ -173,7 +173,7 @@ If the function fails, the return value is zero.
 If the 
 						<i>wCmd</i> parameter is <b>EC_QUERYWAITING</b>, and the application transaction queue contains one or more unprocessed transactions that are not being processed, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://msdn.microsoft.com/ea7d758e-bf88-49a9-a51f-9be26376a1ed">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -200,23 +200,23 @@ If <b>DdeEnableCallback</b> is called with <b>EC_QUERYWAITING</b> and the functi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648745(v=VS.85).aspx">DdeConnect</a>
+<a href="https://msdn.microsoft.com/6dfe446f-43e2-4dbc-940b-df9036c5f7aa">DdeConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648746(v=VS.85).aspx">DdeConnectList</a>
+<a href="https://msdn.microsoft.com/26e49ba5-ff60-49cd-84af-f86055d69da0">DdeConnectList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648749(v=VS.85).aspx">DdeDisconnect</a>
+<a href="https://msdn.microsoft.com/e8564954-5abc-4ee1-b246-61fc023c5986">DdeDisconnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 

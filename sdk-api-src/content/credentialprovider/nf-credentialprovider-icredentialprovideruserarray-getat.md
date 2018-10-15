@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUserArray_GetAt.htm
 tech.root: shell
 ms.assetid: E768CC54-4392-4d5f-BB90-4AA91E5D8B00
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ Retrieves a specified user from the array.
 
 ### -param userIndex [in]
 
-The 0-based array index of the user. The size of the array can be obtained through the <a href="https://msdn.microsoft.com/en-us/library/Hh706926(v=VS.85).aspx">GetCount</a> method.
+The 0-based array index of the user. The size of the array can be obtained through the <a href="https://msdn.microsoft.com/524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA">GetCount</a> method.
 
 
 ### -param user [out]
 
-The address of a pointer to an object that, when this method returns successfully, represents the specified user. It is the responsibility of the caller to free this object when it is no longer needed by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> method.
+The address of a pointer to an object that, when this method returns successfully, represents the specified user. It is the responsibility of the caller to free this object when it is no longer needed by calling its <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method.
 
 
 ## -returns
@@ -101,7 +101,7 @@ The index specified in <i>userIndex</i> is out of range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706923(v=VS.85).aspx">ICredentialProviderUserArray</a>
+<a href="https://msdn.microsoft.com/50FC43C1-B148-4e42-AB38-3559BD056855">ICredentialProviderUserArray</a>
  
 
  

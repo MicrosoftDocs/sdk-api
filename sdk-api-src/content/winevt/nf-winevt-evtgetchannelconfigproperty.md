@@ -4,10 +4,10 @@ title: EvtGetChannelConfigProperty function
 author: windows-sdk-content
 description: Gets the specified channel configuration property.
 old-location: wes\evtgetchannelconfigproperty.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 0f84f51c-716e-4a70-b31c-2b4f40b3fd83
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtGetChannelConfigProperty, EvtGetChannelConfigProperty function [EventLog], wes.evtgetchannelconfigproperty, winevt/EvtGetChannelConfigProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

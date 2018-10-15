@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_DISK_ATTRIBUTES
 author: windows-sdk-content
 description: Retrieves the attributes of the specified disk device.
 old-location: fs\ioctl_disk_get_disk_attributes.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3fa9fabb-91ef-4306-90b6-c3dd17f3e298
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: IOCTL_DISK_GET_DISK_ATTRIBUTES, IOCTL_DISK_GET_DISK_ATTRIBUTES control, IOCTL_DISK_GET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_get_disk_attributes, winioctl/IOCTL_DISK_GET_DISK_ATTRIBUTES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,13 @@ Retrieves the attributes of the specified disk device.
 To perform this operation, call the 
     <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following 
     parameters.
-
-```cpp
-BOOL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to device 
                  IOCTL_DISK_GET_DISK_ATTRIBUTES, // dwIoControlCode(LPVOID)       NULL,            // lpInBuffer 
@@ -65,10 +69,10 @@ DeviceIoControl( (HANDLE)       hDevice,         // handle to device
                  (LPVOID)       lpOutBuffer,     // output buffer:GET_DISK_ATTRIBUTES
                  (DWORD)        nOutBufferSize,  // size of output buffer
                  (LPDWORD)      lpBytesReturned, // number of bytes returned
-                 (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure
-```
-
-
+                 (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

@@ -7,7 +7,7 @@ old-location: base\tpsetcallbackfinalizationcallback.htm
 tech.root: ProcThread
 ms.assetid: 425898A7-5E98-490A-912A-A409D1E2DFDE
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: TpSetCallbackFinalizationCallback, TpSetCallbackFinalizationCallback function, base.tpsetcallbackfinalizationcallback, winnt/TpSetCallbackFinalizationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

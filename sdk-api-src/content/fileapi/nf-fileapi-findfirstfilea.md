@@ -4,10 +4,10 @@ title: FindFirstFileA function
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
 old-location: fs\findfirstfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: FindFirstFile, FindFirstFile function [Files], FindFirstFileA, FindFirstFileW, _win32_findfirstfile, base.findfirstfile, fileapi/FindFirstFile, fileapi/FindFirstFileA, fileapi/FindFirstFileW, fs.findfirstfile, winbase/FindFirstFile, winbase/FindFirstFileA, winbase/FindFirstFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -264,11 +264,15 @@ Yes
 
 The following C++ example shows you a minimal use of <b>FindFirstFile</b>.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
 
 void _tmain(int argc, TCHAR *argv[])
 {
@@ -282,7 +286,7 @@ void _tmain(int argc, TCHAR *argv[])
    }
 
    _tprintf (TEXT("Target file is %s\n"), argv[1]);
-   hFind = FindFirstFile(argv[1], &FindFileData);
+   hFind = FindFirstFile(argv[1], &amp;FindFileData);
    if (hFind == INVALID_HANDLE_VALUE) 
    {
       printf ("FindFirstFile failed (%d)\n", GetLastError());
@@ -295,10 +299,10 @@ void _tmain(int argc, TCHAR *argv[])
       FindClose(hFind);
    }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For another example, see 
      <a href="https://msdn.microsoft.com/ab0d977d-f71c-4a18-9b1d-2221169324f0">Listing the Files in a Directory</a>.
 

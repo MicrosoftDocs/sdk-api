@@ -4,10 +4,10 @@ title: FWPM_CONNECTION_SUBSCRIPTION0_
 author: windows-sdk-content
 description: Stores information used to subscribe to notifications about a connection object.
 old-location: fwp\fwpm_connection_subscription0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 020490f1-ccbe-41aa-b6ad-022be9c9bef4
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FWPM_CONNECTION_SUBSCRIPTION0, FWPM_CONNECTION_SUBSCRIPTION0 structure [Filtering], FWPM_CONNECTION_SUBSCRIPTION0_, fwp.fwpm_connection_subscription0, fwpmtypes/FWPM_CONNECTION_SUBSCRIPTION0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLines_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinesmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DrawLines, DrawLines methods [GDI+], Graphics.DrawLines, Graphics.DrawLines(IN const Pen,IN const Point,IN INT), Graphics::DrawLines, Graphics::DrawLines(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawLines_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawLines_Methods, gdiplusgraphics/DrawLines
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 DrawLines methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -64,19 +64,19 @@ DrawLines methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536017(v=VS.85).aspx">DrawLines(Pen*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/b6f16c76-f92f-4948-8bfa-73c528de26ae">DrawLines(Pen*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536017(v=VS.85).aspx">Graphics::DrawLines</a> method draws a sequence of connected lines.
+The <a href="https://msdn.microsoft.com/b6f16c76-f92f-4948-8bfa-73c528de26ae">Graphics::DrawLines</a> method draws a sequence of connected lines.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536019(v=VS.85).aspx">DrawLines(Pen*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/ea0d1b7b-f278-4a44-a99f-77801031d51e">DrawLines(Pen*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536019(v=VS.85).aspx">Graphics::DrawLines</a> method draws a sequence of connected lines.
+The <a href="https://msdn.microsoft.com/ea0d1b7b-f278-4a44-a99f-77801031d51e">Graphics::DrawLines</a> method draws a sequence of connected lines.
 
 </td>
 </tr>

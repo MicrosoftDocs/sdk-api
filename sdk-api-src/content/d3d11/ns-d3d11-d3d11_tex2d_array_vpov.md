@@ -7,7 +7,7 @@ old-location: mf\d3d11_tex2d_array_vpov.htm
 tech.root: medfound
 ms.assetid: DF059392-3E4B-45D2-A3CD-A0C61C8D628F
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: D3D11_TEX2D_ARRAY_VPOV, D3D11_TEX2D_ARRAY_VPOV structure [Media Foundation], d3d11/D3D11_TEX2D_ARRAY_VPOV, mf.d3d11_tex2d_array_vpov
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ The number of textures in the array.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447791(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
+<a href="https://msdn.microsoft.com/EC7AFE44-877C-4FB0-9E61-FCD504A334D3">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
  
 
  

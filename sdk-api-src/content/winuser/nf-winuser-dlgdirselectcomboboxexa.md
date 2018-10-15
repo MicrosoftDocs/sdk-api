@@ -4,10 +4,10 @@ title: DlgDirSelectComboBoxExA function
 author: windows-sdk-content
 description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name.
 old-location: controls\DlgDirSelectComboBoxEx.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirselectcomboboxex.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: DlgDirSelectComboBoxEx, DlgDirSelectComboBoxEx function [Windows Controls], DlgDirSelectComboBoxExA, DlgDirSelectComboBoxExW, _win32_DlgDirSelectComboBoxEx, _win32_DlgDirSelectComboBoxEx_cpp, controls.DlgDirSelectComboBoxEx, controls._win32_DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxExA, winuser/DlgDirSelectComboBoxExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Retrieves the current selection from a combo box filled by using the <a href="https://msdn.microsoft.com/en-us/library/Bb775935(v=VS.85).aspx">DlgDirListComboBox</a> function. The selection is interpreted as a drive letter, a file, or a directory name. 
+Retrieves the current selection from a combo box filled by using the <a href="https://msdn.microsoft.com/65b27196-8e85-483d-9965-e7cbc1b09b5e">DlgDirListComboBox</a> function. The selection is interpreted as a drive letter, a file, or a directory name. 
 
 
 ## -parameters
@@ -113,11 +113,11 @@ The <b>DlgDirSelectComboBoxEx</b> function does not allow more than one file nam
 
 If the string is as long or longer than the buffer, the buffer contains the truncated string with a terminating null character.
 
-<b>DlgDirSelectComboBoxEx</b> sends <a href="https://msdn.microsoft.com/en-us/library/Bb775845(v=VS.85).aspx">CB_GETCURSEL</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a> messages to the combo box. 
+<b>DlgDirSelectComboBoxEx</b> sends <a href="https://msdn.microsoft.com/47bf87f6-637f-48e9-849e-b2acbe5a6a7b">CB_GETCURSEL</a> and <a href="https://msdn.microsoft.com/f84e302a-65bb-45c8-958b-1cb438fb5a7a">CB_GETLBTEXT</a> messages to the combo box. 
 
-You can use this function with all three types of combo boxes (<a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_SIMPLE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_DROPDOWN</a>, and CBS_DROPDOWNLIST). 
+You can use this function with all three types of combo boxes (<a href="Combo_Box_Styles.htm">CBS_SIMPLE</a>, <a href="Combo_Box_Styles.htm">CBS_DROPDOWN</a>, and CBS_DROPDOWNLIST). 
 
-<b>Security Warning:  </b>Improper use of this function can cause problems for your application. For instance, the <i>nCount</i> parameter should be set properly for both ANSI and Unicode versions. Failure to do so could lead to a buffer overflow. You should review <a href="https://msdn.microsoft.com/en-us/library/Bb773171(v=VS.85).aspx">Security Considerations: Microsoft Windows Controls</a> before continuing.
+<b>Security Warning:  </b>Improper use of this function can cause problems for your application. For instance, the <i>nCount</i> parameter should be set properly for both ANSI and Unicode versions. Failure to do so could lead to a buffer overflow. You should review <a href="https://msdn.microsoft.com/d5396fa1-452e-40e1-beaf-ae04690048f1">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
 <b>Windows 95 or later</b>: <b>DlgDirSelectComboBoxExW</b> is supported by the Microsoft Layer for Unicode (MSLU). To use this, you must add certain files to your application, as outlined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=198351">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
@@ -129,15 +129,15 @@ You can use this function with all three types of combo boxes (<a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775845(v=VS.85).aspx">CB_GETCURSEL</a>
+<a href="https://msdn.microsoft.com/47bf87f6-637f-48e9-849e-b2acbe5a6a7b">CB_GETCURSEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a>
+<a href="https://msdn.microsoft.com/f84e302a-65bb-45c8-958b-1cb438fb5a7a">CB_GETLBTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775935(v=VS.85).aspx">DlgDirListComboBox</a>
+<a href="https://msdn.microsoft.com/65b27196-8e85-483d-9965-e7cbc1b09b5e">DlgDirListComboBox</a>
 
 
 

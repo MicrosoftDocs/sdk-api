@@ -4,10 +4,10 @@ title: BCryptSetProperty function
 author: windows-sdk-content
 description: Sets the value of a named property for a CNG object.
 old-location: security\bcryptsetproperty_func.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 687f3410-d28b-4ce2-a2a1-c564f757c668
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCryptSetProperty, BCryptSetProperty function [Security], bcrypt/BCryptSetProperty, security.bcryptsetproperty_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

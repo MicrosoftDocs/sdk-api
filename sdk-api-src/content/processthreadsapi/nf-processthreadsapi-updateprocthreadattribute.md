@@ -7,7 +7,7 @@ old-location: base\updateprocthreadattribute.htm
 tech.root: ProcThread
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -531,7 +531,7 @@ The following mitigation options are available for the image loading policy:
 <dl>
 <dd>
 <dl>
-<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_SPECULATIVE_STORE_BYPASS_DISABLE_ALWAYS_ON </b> (0x00000001ui64 &lt;&lt; 24)This flag can be used by processes to disable the Speculative Store Bypass (SSB) feature of CPUs that may be vulnerable to speculative execution side channel attacks involving SSB (CVE-2018-3639).
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_SPECULATIVE_STORE_BYPASS_DISABLE_ALWAYS_ON </b> (0x00000001ui64 &lt;&lt; 24)This flag can be used by processes to disable the Speculative Store Bypass (SSB) feature of CPUs that may be vulnerable to speculative execution side channel attacks involving SSB (CVE-2018-3639). This flag is only supported by certain Intel CPUs that have the requisite hardware features. On CPUs that do not support this feature, the flag has no effect.
 
 </dd>
 </dl>
@@ -569,16 +569,20 @@ In order to launch the child process with the same protection level as the paren
 
 The following example launches a child process with the same protection level as the parent process:
 
-
-```cpp
-DWORD ProtectionLevel = PROTECTION_LEVEL_SAME;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD ProtectionLevel = PROTECTION_LEVEL_SAME;
 SIZE_T AttributeListSize;
 
 STARTUPINFOEXW StartupInfoEx = { 0 };
 
 StartupInfoEx.StartupInfo.cb = sizeof(StartupInfoEx);
 
-InitializeProcThreadAttributeList(NULL, 1, 0, &AttributeListSize)
+InitializeProcThreadAttributeList(NULL, 1, 0, &amp;AttributeListSize)
 
 
 StartupInfoEx.lpAttributeList = (LPPROC_THREAD_ATTRIBUTE_LIST) HeapAlloc(
@@ -590,7 +594,7 @@ StartupInfoEx.lpAttributeList = (LPPROC_THREAD_ATTRIBUTE_LIST) HeapAlloc(
 if (InitializeProcThreadAttributeList(StartupInfoEx.lpAttributeList,
                                       1,
                                       0,
-                                      &AttributeListSize) == FALSE)
+                                      &amp;AttributeListSize) == FALSE)
 {
     Result = GetLastError();
     goto exitFunc;
@@ -599,7 +603,7 @@ if (InitializeProcThreadAttributeList(StartupInfoEx.lpAttributeList,
 if (UpdateProcThreadAttribute(StartupInfoEx.lpAttributeList,
                               0,
                               PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL,
-                              &ProtectionLevel,
+                              &amp;ProtectionLevel,
                               sizeof(ProtectionLevel),
                               NULL,
                               NULL) == FALSE)
@@ -618,15 +622,15 @@ if (CreateProcessW(ApplicationName,
                    EXTENDED_STARTUPINFO_PRESENT | CREATE_PROTECTED_PROCESS,
                    Environment,
                    CurrentDirectory,
-                   (LPSTARTUPINFOW)&StartupInfoEx,
-                   &ProcessInformation) == FALSE)
+                   (LPSTARTUPINFOW)&amp;StartupInfoEx,
+                   &amp;ProcessInformation) == FALSE)
 {
     Result = GetLastError();
     goto exitFunc;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

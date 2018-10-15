@@ -4,10 +4,10 @@ title: ReleaseSemaphore function
 author: windows-sdk-content
 description: Increases the count of the specified semaphore object by a specified amount.
 old-location: base\releasesemaphore.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 9d444318-4d66-4ec3-a65d-bd3b75db9d9b
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ReleaseSemaphore, ReleaseSemaphore function, _win32_releasesemaphore, base.releasesemaphore, synchapi/ReleaseSemaphore, winbase/ReleaseSemaphore
 ms.prod: windows-hardware
 ms.technology: windows-devices

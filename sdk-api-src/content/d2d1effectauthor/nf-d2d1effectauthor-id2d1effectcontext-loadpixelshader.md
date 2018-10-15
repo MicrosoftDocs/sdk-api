@@ -4,10 +4,10 @@ title: ID2D1EffectContext::LoadPixelShader
 author: windows-sdk-content
 description: Loads the given shader by its unique ID.
 old-location: direct2d\id2d1contextinternal_loadpixelshader.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 7A5F58DD-8A43-406D-AC3B-2FB99BE7FBF6
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ID2D1EffectContext interface [Direct2D],LoadPixelShader method, ID2D1EffectContext.LoadPixelShader, ID2D1EffectContext::LoadPixelShader, LoadPixelShader, LoadPixelShader method [Direct2D], LoadPixelShader method [Direct2D],ID2D1EffectContext interface, d2d1effectauthor/ID2D1EffectContext::LoadPixelShader, direct2d.id2d1contextinternal_loadpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

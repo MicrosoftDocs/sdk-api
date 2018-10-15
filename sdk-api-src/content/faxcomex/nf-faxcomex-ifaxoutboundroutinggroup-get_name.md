@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0s6d.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxOutboundRoutingGroup interface [Fax Service],Name property, IFaxOutboundRoutingGroup.Name, IFaxOutboundRoutingGroup.get_Name, IFaxOutboundRoutingGroup::Name, IFaxOutboundRoutingGroup::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxOutboundRoutingGroup interface, _mfax_faxoutboundroutinggroup.name, fax._mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_name_cpp, fax._mfax_faxoutboundroutinggroup_name, faxcomex/IFaxOutboundRoutingGroup::Name, faxcomex/IFaxOutboundRoutingGroup::get_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

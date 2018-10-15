@@ -4,10 +4,10 @@ title: TryAcquireSRWLockShared function
 author: windows-sdk-content
 description: Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.
 old-location: base\tryacquiresrwlockshared.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: e7b0c273-c1d4-4a1c-a824-f519fb52ad8f
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

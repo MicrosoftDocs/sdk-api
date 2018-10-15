@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_LineJoin.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\linejoin.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: LineJoin, LineJoin enumeration [GDI+], LineJoinBevel, LineJoinMiter, LineJoinMiterClipped, LineJoinRound, _gdiplus_ENUM_LineJoin, gdiplus._gdiplus_ENUM_LineJoin, gdiplusenums/LineJoin, gdiplusenums/LineJoinBevel, gdiplusenums/LineJoinMiter, gdiplusenums/LineJoinMiterClipped, gdiplusenums/LineJoinRound
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,10 +87,10 @@ The miter length is the distance from the intersection of the line walls on the 
 
 When using <b><b>LineJoinMiter</b></b> and the actual ratio exceeds the miter limit, the corner is clipped perpendicular to the miter at a distance from the inner corner that is the product of the miter limit and the pen width. 
 
-<img alt="Illustration showing two lines with a corner that is clipped: the outside walls of the lines do not meet at a point" src="./images/linejoinmiter.png"/>
+<img alt="Illustration showing two lines with a corner that is clipped: the outside walls of the lines do not meet at a point" src="images/linejoinmiter.png"/>
 When using <b><b>LineJoinMiterClipped</b></b> and the miter limit is exceeded, the join is drawn as if its type were <b><b>LineJoinBevel</b></b>; that is, when the line walls on the inside of the join meet, then a joining line is drawn between the line walls on the outside of the join.
 
-<img alt="Illustration showing two lines with a corner that is beveled" src="./images/linejoinbevel.png"/>
+<img alt="Illustration showing two lines with a corner that is beveled" src="images/linejoinbevel.png"/>
 
 
 
@@ -99,11 +99,11 @@ When using <b><b>LineJoinMiterClipped</b></b> and the miter limit is exceeded, t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535053(v=VS.85).aspx">Pen::SetLineJoin</a>
+<a href="https://msdn.microsoft.com/277824b0-fa76-4b7b-97a0-c2be79a4b06f">Pen::SetLineJoin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535054(v=VS.85).aspx">Pen::SetMiterLimit</a>
+<a href="https://msdn.microsoft.com/2fd2ac24-40e6-49a6-a514-1233e2075f45">Pen::SetMiterLimit</a>
  
 
  

@@ -4,10 +4,10 @@ title: FwpmProviderCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of providers.
 old-location: fwp\fwpmprovidercreateenumhandle0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: f32d728d-eacc-4027-a1b1-31272425fd26
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmProviderCreateEnumHandle0, FwpmProviderCreateEnumHandle0 function [Filtering], fwp.fwpmprovidercreateenumhandle0_func, fwpmu/FwpmProviderCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SetLocalTime function
 author: windows-sdk-content
 description: Sets the current local time and date.
 old-location: base\setlocaltime.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: c2d2bac7-4171-4b8b-81e8-0e8a1b2794e6
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: SetLocalTime, SetLocalTime function, _win32_setlocaltime, base.setlocaltime, sysinfoapi/SetLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_TXF_LOG_RECORD_TRUNCATE"
 author: windows-sdk-content
 description: Contains the record for a truncate operation.
 old-location: fs\txf_log_record_truncate.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9b6e9be5-39e7-47e3-846f-ea2e5e04597f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: "*PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE structure pointer [Files], TXF_LOG_RECORD_TRUNCATE, TXF_LOG_RECORD_TRUNCATE structure [Files], _TXF_LOG_RECORD_TRUNCATE, fs.txf_log_record_truncate, txfw32/PTXF_LOG_RECORD_TRUNCATE, txfw32/TXF_LOG_RECORD_TRUNCATE"
 ms.prod: windows
 ms.technology: windows-sdk

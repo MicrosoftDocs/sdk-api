@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::DrawGlyphRun
 author: windows-sdk-content
 description: Draws the specified glyphs.
 old-location: direct2d\ID2D1RenderTarget_DrawGlyphRun.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 064ede6c-139c-4160-9c50-460179d46f97
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct2D], DrawGlyphRun method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawGlyphRun method, ID2D1RenderTarget.DrawGlyphRun, ID2D1RenderTarget::DrawGlyphRun, d2d1/ID2D1RenderTarget::DrawGlyphRun, direct2d.ID2D1RenderTarget_DrawGlyphRun
 ms.prod: windows-hardware
 ms.technology: windows-devices

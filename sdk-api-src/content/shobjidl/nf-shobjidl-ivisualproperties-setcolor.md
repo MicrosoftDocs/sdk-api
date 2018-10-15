@@ -7,7 +7,7 @@ old-location: shell\IVisualProperties_SetColor.htm
 tech.root: shell
 ms.assetid: 24e351af-687d-454a-9f0a-e7c07175dbd3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetColor method, IVisualProperties.SetColor, IVisualProperties::SetColor, SetColor, SetColor method [Windows Shell], SetColor method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetColor, shell.IVisualProperties_SetColor, shobjidl/IVisualProperties::SetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

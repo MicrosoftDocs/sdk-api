@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Complement_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regioncomplementmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: Complement, Complement methods [GDI+], Region.Complement, Region.Complement(IN const RectF &), Region::Complement, Region::Complement(IN const RectF &), _gdiplus_CLASS_Region_Complement_Methods, gdiplus._gdiplus_CLASS_Region_Complement_Methods, gdiplusheaders/Complement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 <span>This topic lists the 
 			Complement methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
+			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -61,37 +61,37 @@ req.redist:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534918(v=VS.85).aspx">Complement(Rect&)</a>
+<a href="https://msdn.microsoft.com/a83d400f-0a3d-4486-a9a7-831455908ff8">Complement(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534918(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
+The <a href="https://msdn.microsoft.com/a83d400f-0a3d-4486-a9a7-831455908ff8">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534919(v=VS.85).aspx">Complement(RectF&)</a>
+<a href="https://msdn.microsoft.com/40ddcb50-60f7-48b6-a0cb-b0c946f9acf2">Complement(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534919(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
+The <a href="https://msdn.microsoft.com/40ddcb50-60f7-48b6-a0cb-b0c946f9acf2">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534917(v=VS.85).aspx">Complement(Region*)</a>
+<a href="https://msdn.microsoft.com/084846dd-1459-40f4-9db2-db8995d37bd7">Complement(Region*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534917(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of another region that does not intersect this region.
+The <a href="https://msdn.microsoft.com/084846dd-1459-40f4-9db2-db8995d37bd7">Region::Complement</a> method updates this region to the portion of another region that does not intersect this region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534829(v=VS.85).aspx">Complement(GraphicsPath*)</a>
+<a href="https://msdn.microsoft.com/003454a9-5439-463c-939d-a48555ac91b6">Complement(GraphicsPath*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534829(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified path's interior that does not intersect this region.
+The <a href="https://msdn.microsoft.com/003454a9-5439-463c-939d-a48555ac91b6">Region::Complement</a> method updates this region to the portion of the specified path's interior that does not intersect this region.
 
 </td>
 </tr>

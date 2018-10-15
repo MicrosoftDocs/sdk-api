@@ -4,10 +4,10 @@ title: RegisterWaitForSingleObject function
 author: windows-sdk-content
 description: Directs a wait thread in the thread pool to wait on the object.
 old-location: base\registerwaitforsingleobject.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: d0cd8b28-6e20-449a-94dd-cca2be46b812
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: RegisterWaitForSingleObject, RegisterWaitForSingleObject function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTEINWAITTHREAD, WT_EXECUTELONGFUNCTION, WT_EXECUTEONLYONCE, WT_TRANSFER_IMPERSONATION, _win32_registerwaitforsingleobject, base.registerwaitforsingleobject, winbase/RegisterWaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

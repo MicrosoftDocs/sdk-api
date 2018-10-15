@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensorprofilecollection.htm
 tech.root: medfound
 ms.assetid: 0EEA1C89-4B8B-4ECC-AF34-EB516C91997A
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: MFCreateSensorProfileCollection, MFCreateSensorProfileCollection function [Media Foundation], mf.mfcreatesensorprofilecollection, mfidl/MFCreateSensorProfileCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Creates a sensor profile collection.
 
 ### -param ppSensorProfile [out]
 
-On success, points to an <a href="https://msdn.microsoft.com/en-us/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a> containing the sensor profile collection.
+On success, points to an <a href="mf.imfsensorprofilecollection">IMFSensorProfileCollection</a> containing the sensor profile collection.
 
 
 ## -returns

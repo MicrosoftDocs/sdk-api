@@ -4,10 +4,10 @@ title: IDiskQuotaControl::GetQuotaLogFlags
 author: windows-sdk-content
 description: Retrieves the flags that control the logging of user-related quota events on the volume.
 old-location: fs\idiskquotacontrol_getquotalogflags.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 79ba4f8a-9f89-4c15-9d17-b61960d12b62
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: GetQuotaLogFlags, GetQuotaLogFlags method [Files], GetQuotaLogFlags method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetQuotaLogFlags method, IDiskQuotaControl.GetQuotaLogFlags, IDiskQuotaControl::GetQuotaLogFlags, _win32_idiskquotacontrol_getquotalogflags, base.idiskquotacontrol_getquotalogflags, dskquota/IDiskQuotaControl::GetQuotaLogFlags, fs.idiskquotacontrol_getquotalogflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

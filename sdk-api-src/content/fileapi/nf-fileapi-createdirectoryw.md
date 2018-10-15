@@ -4,10 +4,10 @@ title: CreateDirectoryW function
 author: windows-sdk-content
 description: Creates a new directory.
 old-location: fs\createdirectory.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA, CreateDirectoryW, _win32_createdirectory, base.createdirectory, fileapi/CreateDirectory, fileapi/CreateDirectoryA, fileapi/CreateDirectoryW, fs.createdirectory, winbase/CreateDirectory, winbase/CreateDirectoryA, winbase/CreateDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

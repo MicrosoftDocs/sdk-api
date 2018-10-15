@@ -7,7 +7,7 @@ old-location: mf\imfmediastream_requestsample.htm
 tech.root: medfound
 ms.assetid: 3838167b-5774-47f5-9b8d-2882eaa97167
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: 3838167b-5774-47f5-9b8d-2882eaa97167, IMFMediaStream interface [Media Foundation],RequestSample method, IMFMediaStream.RequestSample, IMFMediaStream::RequestSample, RequestSample, RequestSample method [Media Foundation], RequestSample method [Media Foundation],IMFMediaStream interface, mf.imfmediastream_requestsample, mfidl/IMFMediaStream::RequestSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

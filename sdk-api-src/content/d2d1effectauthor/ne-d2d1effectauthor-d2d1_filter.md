@@ -4,10 +4,10 @@ title: D2D1_FILTER
 author: windows-sdk-content
 description: Represents filtering modes that a transform may select to use on input textures.
 old-location: direct2d\d2d1_filter.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: cd978d3c-ae41-4321-95dd-46b186acf002
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: D2D1_FILTER, D2D1_FILTER enumeration [Direct2D], D2D1_FILTER_ANISOTROPIC, D2D1_FILTER_MIN_LINEAR_MAG_MIP_POINT, D2D1_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D2D1_FILTER_MIN_MAG_LINEAR_MIP_POINT, D2D1_FILTER_MIN_MAG_MIP_LINEAR, D2D1_FILTER_MIN_MAG_MIP_POINT, D2D1_FILTER_MIN_MAG_POINT_MIP_LINEAR, D2D1_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, D2D1_FILTER_MIN_POINT_MAG_MIP_LINEAR, d2d1effectauthor/D2D1_FILTER, d2d1effectauthor/D2D1_FILTER_ANISOTROPIC, d2d1effectauthor/D2D1_FILTER_MIN_LINEAR_MAG_MIP_POINT, d2d1effectauthor/D2D1_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d2d1effectauthor/D2D1_FILTER_MIN_MAG_LINEAR_MIP_POINT, d2d1effectauthor/D2D1_FILTER_MIN_MAG_MIP_LINEAR, d2d1effectauthor/D2D1_FILTER_MIN_MAG_MIP_POINT, d2d1effectauthor/D2D1_FILTER_MIN_MAG_POINT_MIP_LINEAR, d2d1effectauthor/D2D1_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, d2d1effectauthor/D2D1_FILTER_MIN_POINT_MAG_MIP_LINEAR, direct2d.d2d1_filter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ Use anisotropic interpolation for minification, magnification, and mip-level sam
 
 
 
-This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/en-us/library/Ff476132(v=VS.85).aspx">D3D11_FILTER</a>.
+This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/873b7910-4686-4f0c-a674-2aa3585a9b36">D3D11_FILTER</a>.
 
 
 
@@ -123,7 +123,7 @@ This enumeration has the same numeric values as <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476132(v=VS.85).aspx">D3D11_FILTER</a>
+<a href="https://msdn.microsoft.com/873b7910-4686-4f0c-a674-2aa3585a9b36">D3D11_FILTER</a>
  
 
  

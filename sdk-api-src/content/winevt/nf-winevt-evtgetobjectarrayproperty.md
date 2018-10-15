@@ -4,10 +4,10 @@ title: EvtGetObjectArrayProperty function
 author: windows-sdk-content
 description: Gets a provider metadata property from the specified object in the array.
 old-location: wes\evtgetobjectarrayproperty.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: a522f0a8-6050-4082-acdf-e700ebfa7efc
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtGetObjectArrayProperty, EvtGetObjectArrayProperty function [EventLog], wes.evtgetobjectarrayproperty, winevt/EvtGetObjectArrayProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

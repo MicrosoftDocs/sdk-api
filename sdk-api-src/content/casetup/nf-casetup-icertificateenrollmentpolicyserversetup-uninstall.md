@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentpolicyserversetup_uninstall.htm
 tech.root: seccrypto
 ms.assetid: 3E53903A-B716-45E7-B0EB-0D1226291275
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],UnInstall method, ICertificateEnrollmentPolicyServerSetup.UnInstall, ICertificateEnrollmentPolicyServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::UnInstall, security.icertificateenrollmentpolicyserversetup_uninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,7 +94,7 @@ You can set the following values for authentication type  in the first element o
 <td width="60%">
 The user must be a local administrator.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">ErrorString</a> property value is set to "You have to be the local machine administrator in order to run this setup."
+The <a href="https://msdn.microsoft.com/CA9103BD-96CA-4FF3-B78D-A1F1345E58D3">ErrorString</a> property value is set to "You have to be the local machine administrator in order to run this setup."
 
 </td>
 </tr>
@@ -105,9 +105,9 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">Er
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a> object has been initialized. An object is initialized when you successfully call <a href="https://msdn.microsoft.com/en-us/library/Ff808373(v=VS.85).aspx">InitializeInstallDefaults</a>.
+The <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> object has been initialized. An object is initialized when you successfully call <a href="https://msdn.microsoft.com/C7E82D9B-DC1A-4268-8973-5D07D977451D">InitializeInstallDefaults</a>.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">ErrorString</a> property value is set to "The object has been initialized. You cannot call UnInstall on an initialized object."
+The <a href="https://msdn.microsoft.com/CA9103BD-96CA-4FF3-B78D-A1F1345E58D3">ErrorString</a> property value is set to "The object has been initialized. You cannot call UnInstall on an initialized object."
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">Er
 
 
 
-You can call this method to remove the CEP service. However, because you cannot call the <b>UnInstall</b> method on an <a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a> object that has already been initialized, you must create a new <b>ICertificateEnrollmentPolicyServerSetup</b> before calling <b>UnInstall</b>.
+You can call this method to remove the CEP service. However, because you cannot call the <b>UnInstall</b> method on an <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> object that has already been initialized, you must create a new <b>ICertificateEnrollmentPolicyServerSetup</b> before calling <b>UnInstall</b>.
 
 When the <i>pAuthKeyBasedRenewal</i> parameter is NULL, this  function performs the following actions:
 
@@ -130,13 +130,13 @@ When the <i>pAuthKeyBasedRenewal</i> parameter is NULL, this  function performs 
 Initializes Windows Management Instrumentation (WMI).
 
 </li>
-<li>Attempts to delete the %Windir%\Systemdata\Cep directory and all application subdirectories that may exist. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Ff808374(v=VS.85).aspx">Install</a> Remarks section.</li>
+<li>Attempts to delete the %Windir%\Systemdata\Cep directory and all application subdirectories that may exist. For more information, see the <a href="https://msdn.microsoft.com/66572F97-CE34-4C6B-9083-269A1AE2876D">Install</a> Remarks section.</li>
 <li>
 Attempts to delete the application pool and all applications in the pool.
 
 </li>
 <li>
-Attempts to update the security descriptor of the Deleted Objects container in Active Directory to deny access by the computer. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Ff808374(v=VS.85).aspx">Install</a> Remarks section.
+Attempts to update the security descriptor of the Deleted Objects container in Active Directory to deny access by the computer. For more information, see the <a href="https://msdn.microsoft.com/66572F97-CE34-4C6B-9083-269A1AE2876D">Install</a> Remarks section.
 
 </li>
 </ul>
@@ -150,15 +150,15 @@ When the <i>pAuthKeyBasedRenewal</i> parameter contains values for the authentic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a>
+<a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808373(v=VS.85).aspx">InitializeInstallDefaults</a>
+<a href="https://msdn.microsoft.com/C7E82D9B-DC1A-4268-8973-5D07D977451D">InitializeInstallDefaults</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808374(v=VS.85).aspx">Install</a>
+<a href="https://msdn.microsoft.com/66572F97-CE34-4C6B-9083-269A1AE2876D">Install</a>
  
 
  

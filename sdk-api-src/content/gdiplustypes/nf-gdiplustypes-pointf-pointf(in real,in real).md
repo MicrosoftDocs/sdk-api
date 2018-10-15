@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_49x_y.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(IN REAL,IN REAL), PointF.PointF(REAL,REAL), PointF::PointF, PointF::PointF(IN REAL,IN REAL), _gdiplus_CLASS_PointF_PointF_x_y_, gdiplus._gdiplus_CLASS_PointF_PointF_x_y_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object using two real numbers to specify the 
+Creates a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object using two real numbers to specify the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -65,14 +65,14 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).as
 
 Type: <b>REAL</b>
 
-Real number that specifies the x-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object. 
+Real number that specifies the x-coordinate of the <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object. 
 
 
 ### -param y [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the y-coordinate of the <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object. 
+Real number that specifies the y-coordinate of the <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object. 
 
 
 ## -see-also
@@ -80,7 +80,7 @@ Real number that specifies the y-coordinate of the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
 
 
 
@@ -88,7 +88,7 @@ Real number that specifies the y-coordinate of the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
  
 
  

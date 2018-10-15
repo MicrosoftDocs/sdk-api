@@ -7,7 +7,7 @@ old-location: base\getmaximumprocessorgroupcount.htm
 tech.root: ProcThread
 ms.assetid: 7762ec89-5892-4af3-9032-bf084aef9075
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: GetMaximumProcessorGroupCount, GetMaximumProcessorGroupCount function, base.getmaximumprocessorgroupcount, winbase/GetMaximumProcessorGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

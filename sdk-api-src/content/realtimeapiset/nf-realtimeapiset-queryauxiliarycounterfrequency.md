@@ -4,10 +4,10 @@ title: QueryAuxiliaryCounterFrequency function
 author: windows-sdk-content
 description: Queries the auxiliary counter frequency.
 old-location: base\queryauxiliarycounterfrequency.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 71E00DF2-7F67-43D2-9D6D-BFE9FEA4B30A
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency function, base.queryauxiliarycounterfrequency, realtimeapiset/QueryAuxiliaryCounterFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,10 +83,14 @@ You can determine the availability of the auxiliary counter by comparing the ret
 
 The following sample describes how to call <b>QueryAuxiliaryCounterFrequency</b> to retrieve the counter frequency.
 
-
-```cpp
-#include <stdio.h> 
-#include <windows.h> 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;stdio.h&gt; 
+#include &lt;windows.h&gt; 
 int 
 wmain (int argc, wchar_t* argv[]) 
 {
@@ -94,7 +98,7 @@ wmain (int argc, wchar_t* argv[])
    ULONGLONG AuxiliaryCounterFrequency;
    HRESULT Result;
 
-   Result = QueryAuxiliaryCounterFrequency(&AuxiliaryCounterFrequency); 
+   Result = QueryAuxiliaryCounterFrequency(&amp;AuxiliaryCounterFrequency); 
    if (SUCCEEDED(Result)) {
       wprintf(L"Auxiliary counter frequency is: %llu.\n", AuxiliaryCounterFrequency);
    } 
@@ -107,9 +111,9 @@ wmain (int argc, wchar_t* argv[])
 
    return 0; 
 } 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -4,10 +4,10 @@ title: Button_GetState macro
 author: windows-sdk-content
 description: Retrieves the state of a button or check box. You can use this macro or send the BM_GETSTATE message explicitly.
 old-location: controls\Button_GetState.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getstate.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: Button_GetState, Button_GetState macro [Windows Controls], _win32_Button_GetState, _win32_Button_GetState_cpp, controls.Button_GetState, controls._win32_Button_GetState, windowsx/Button_GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the state of a button or check box.  You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775988(v=VS.85).aspx">BM_GETSTATE</a> message explicitly. 
+Retrieves the state of a button or check box.  You can use this macro or send the <a href="https://msdn.microsoft.com/ca4c2f1a-b657-490a-ac8b-5f0cfef64d76">BM_GETSTATE</a> message explicitly. 
 
 
 
@@ -71,11 +71,11 @@ A handle to the button control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb849163(v=VS.85).aspx">Button_GetCheck</a>
+<a href="https://msdn.microsoft.com/b572c67a-1e03-4897-adbf-c193ce09c231">Button_GetCheck</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb849168(v=VS.85).aspx">Button_SetState</a>
+<a href="https://msdn.microsoft.com/16549d51-6b9d-4b76-a395-3ede92010390">Button_SetState</a>
 
 
 

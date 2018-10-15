@@ -4,10 +4,10 @@ title: MARK_HANDLE_INFO32
 author: windows-sdk-content
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 old-location: fs\mark_handle_info32.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8ef16cfd-7adc-469f-8bf6-9fd45366cded
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: "*PMARK_HANDLE_INFO32, MARK_HANDLE_INFO32, MARK_HANDLE_INFO32 structure [Files], MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Files], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, fs.mark_handle_info32, winioctl/MARK_HANDLE_INFO32, winioctl/PMARK_HANDLE_INFO32"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITextRow::Apply
 author: windows-sdk-content
 description: Applies the formatting attributes of this text row object to the specified rows in the associated ITextRange2.
 old-location: controls\itextrow_apply.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: f09f73d3-c71f-43f1-b671-aba392e1fb49
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: Apply, Apply method [Windows Controls], Apply method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],Apply method, ITextRow.Apply, ITextRow::Apply, controls.itextrow_apply, tom/ITextRow::Apply, tomCellStructureChangeOnly, tomRowApplyDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

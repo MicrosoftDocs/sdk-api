@@ -4,10 +4,10 @@ title: EvtQuery function
 author: windows-sdk-content
 description: Runs a query to retrieve events from a channel or log file that match the specified query criteria.
 old-location: wes\evtquery.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 06b67ec4-74ab-47d7-b7b9-1180e7dee725
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtQuery, EvtQuery function [EventLog], wes.evtquery, winevt/EvtQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

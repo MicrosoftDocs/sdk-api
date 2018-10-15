@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamautoprocessingmode.ht
 tech.root: medfound
 ms.assetid: 92579A03-AA8A-4D9B-8150-F5FDDBAFC1C1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamAutoProcessingMode method, ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode, ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode, VideoProcessorSetStreamAutoProcessingMode, VideoProcessorSetStreamAutoProcessingMode method [Media Foundation], VideoProcessorSetStreamAutoProcessingMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode, mf.id3d11videocontext_videoprocessorsetstreamautoprocessingmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ Enables or disables automatic processing features on the video processor.
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447799(v=VS.85).aspx">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/en-us/library/Hh447788(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessor</a>.
+A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 
 ### -param StreamIndex [in]
 
-The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://msdn.microsoft.com/en-us/library/Hh447802(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
+The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
 
 
 ### -param Enable [in]
@@ -96,7 +96,7 @@ By default, the driver might perform certain processing tasks automatically duri
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447703(v=VS.85).aspx">ID3D11VideoContext</a>
+<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
  
 
  

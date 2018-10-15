@@ -4,10 +4,10 @@ title: FreeClusterHealthFaultArray function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclusterhealthfaultarray.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: f8c29dc0-dde0-4782-8a54-52a40f6f1586
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: FreeClusterHealthFaultArray, FreeClusterHealthFaultArray function [Failover Cluster], mscs.freeclusterhealthfaultarray, resapi/FreeClusterHealthFaultArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

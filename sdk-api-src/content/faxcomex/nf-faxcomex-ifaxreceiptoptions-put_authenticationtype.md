@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticat
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7g11.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: AuthenticationType property [Fax Service], AuthenticationType property [Fax Service],IFaxReceiptOptions interface, IFaxReceiptOptions interface [Fax Service],AuthenticationType property, IFaxReceiptOptions.AuthenticationType, IFaxReceiptOptions.put_AuthenticationType, IFaxReceiptOptions::AuthenticationType, IFaxReceiptOptions::get_AuthenticationType, IFaxReceiptOptions::put_AuthenticationType, _mfax_faxreceiptoptions.authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticationtype_cpp, faxcomex/IFaxReceiptOptions::AuthenticationType, faxcomex/IFaxReceiptOptions::get_AuthenticationType, faxcomex/IFaxReceiptOptions::put_AuthenticationType, put_AuthenticationType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -74,15 +74,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/6c3d1358-6819-42e3-9be0-896ed7e2d463">FaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690119(v=VS.85).aspx">IFaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/95bcade2-eb0c-4e6f-8f3b-9d001f999992">IFaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693387(v=VS.85).aspx">Setting Receipt Options</a>
+<a href="https://msdn.microsoft.com/4558e770-c6ae-4892-a2b3-40c59f6275fa">Setting Receipt Options</a>
  
 
  

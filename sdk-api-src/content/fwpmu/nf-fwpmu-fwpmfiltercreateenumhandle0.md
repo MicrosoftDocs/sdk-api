@@ -4,10 +4,10 @@ title: FwpmFilterCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of filter objects.
 old-location: fwp\fwpmfiltercreateenumhandle0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: fd8ffa91-a205-441c-9145-da8b441cef28
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmFilterCreateEnumHandle0, FwpmFilterCreateEnumHandle0 function [Filtering], fwp.fwpmfiltercreateenumhandle0_func, fwpmu/FwpmFilterCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

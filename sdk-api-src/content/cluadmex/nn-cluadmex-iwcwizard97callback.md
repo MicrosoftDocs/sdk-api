@@ -4,10 +4,10 @@ title: IWCWizard97Callback
 author: windows-sdk-content
 description: The IWCWizard97Callback interface is called by a Failover Cluster Administrator extension to add a Wizard97 property page to a Wizard97 wizard, such as the Cluster Application Wizard.
 old-location: mscs\iwcwizard97callback.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: cbde3bcf-8242-49dc-9ac0-a4b078ea526e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: IWCWizard97Callback, IWCWizard97Callback interface [Failover Cluster], IWCWizard97Callback interface [Failover Cluster],described, _wolf_iwcwizard97callback, cluadmex/IWCWizard97Callback, mscs.iwcwizard97callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,15 +54,15 @@ req.redist:
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IWCWizard97Callback</b> interface is called by a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> extension to add a 
+    <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extension to add a 
     Wizard97 property page to a Wizard97 wizard, such as the Cluster Application Wizard.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCWizard97Callback</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWCWizard97Callback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCWizard97Callback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWCWizard97Callback</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,7 +75,7 @@ The <b>IWCWizard97Callback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370512(v=VS.85).aspx">AddWizard97Page</a>
+<a href="https://msdn.microsoft.com/c5de70da-2a08-4142-8f21-53a98e28fd42">AddWizard97Page</a>
 </td>
 <td align="left" width="63%">
 Adds a property page to a Wizard97 wizard.
@@ -84,7 +84,7 @@ Adds a property page to a Wizard97 wizard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370515(v=VS.85).aspx">EnableNext</a>
+<a href="https://msdn.microsoft.com/aac4dd75-aa98-4db0-8201-33d4c115896b">EnableNext</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the <b>Next</b> or <b>Finish</b> button on a 
@@ -100,11 +100,11 @@ Enables or disables the <b>Next</b> or <b>Finish</b> button on a
 
 
 Use the piCallback pointer that you receive when Cluster Administrator calls your 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370733(v=VS.85).aspx">IWEExtendWizard97::CreateWizard97Pages</a> 
+     <a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">IWEExtendWizard97::CreateWizard97Pages</a> 
      method to call the methods of the 
      <b>IWCWizard97Callback</b> interface.
 
-To add non-Wizard97 pages use <a href="https://msdn.microsoft.com/en-us/library/Aa370517(v=VS.85).aspx">IWCWizardCallback</a>.
+To add non-Wizard97 pages use <a href="https://msdn.microsoft.com/0d5f45c4-6091-4ea4-875a-69be7f1258db">IWCWizardCallback</a>.
 
 
 
@@ -114,15 +114,15 @@ To add non-Wizard97 pages use <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369061(v=VS.85).aspx">Failover Cluster Administrator Callback Interfaces</a>
+<a href="https://msdn.microsoft.com/4a2b0c21-1b3f-4037-a143-02956e6996ce">Failover Cluster Administrator Callback Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370517(v=VS.85).aspx">IWCWizardCallback</a>
+<a href="https://msdn.microsoft.com/0d5f45c4-6091-4ea4-875a-69be7f1258db">IWCWizardCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370733(v=VS.85).aspx">IWEExtendWizard97::CreateWizard97Pages</a>
+<a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">IWEExtendWizard97::CreateWizard97Pages</a>
  
 
  

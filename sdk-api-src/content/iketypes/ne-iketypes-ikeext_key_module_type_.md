@@ -4,10 +4,10 @@ title: IKEEXT_KEY_MODULE_TYPE_
 author: windows-sdk-content
 description: Specifies the type of keying module.
 old-location: fwp\ikeext_key_module_type.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: a9268b07-343a-4a51-bc70-3e624facf617
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IKEEXT_KEY_MODULE_AUTHIP, IKEEXT_KEY_MODULE_IKE, IKEEXT_KEY_MODULE_IKEV2, IKEEXT_KEY_MODULE_MAX, IKEEXT_KEY_MODULE_TYPE, IKEEXT_KEY_MODULE_TYPE enumeration [Filtering], IKEEXT_KEY_MODULE_TYPE_, fwp.ikeext_key_module_type, iketypes/IKEEXT_KEY_MODULE_AUTHIP, iketypes/IKEEXT_KEY_MODULE_IKE, iketypes/IKEEXT_KEY_MODULE_IKEV2, iketypes/IKEEXT_KEY_MODULE_MAX, iketypes/IKEEXT_KEY_MODULE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

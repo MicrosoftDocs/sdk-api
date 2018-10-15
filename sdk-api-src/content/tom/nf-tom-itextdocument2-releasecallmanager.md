@@ -4,10 +4,10 @@ title: ITextDocument2::ReleaseCallManager
 author: windows-sdk-content
 description: Releases the call manager.
 old-location: controls\itextdocument2_releasecallmanager.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 4d17fdcb-502c-43ab-9f74-7247a1f14f45
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],ReleaseCallManager method, ITextDocument2.ReleaseCallManager, ITextDocument2::ReleaseCallManager, ReleaseCallManager, ReleaseCallManager method [Windows Controls], ReleaseCallManager method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_releasecallmanager, tom/ITextDocument2::ReleaseCallManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

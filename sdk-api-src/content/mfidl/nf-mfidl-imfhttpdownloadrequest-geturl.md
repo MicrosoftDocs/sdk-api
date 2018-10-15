@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_geturl.htm
 tech.root: medfound
 ms.assetid: 38FAD6B8-8C50-492C-BC53-6F301D49083F
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetURL method, IMFHttpDownloadRequest.GetURL, IMFHttpDownloadRequest::GetURL, mf.imfhttpdownloadrequest_geturl, mfidl/IMFHttpDownloadRequest::GetURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

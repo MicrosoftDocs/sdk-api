@@ -132,7 +132,7 @@ The <i>bufptr</i> parameter points to an array of
 </dl>
 </td>
 <td width="60%">
-Return information about shared resources, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of <a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structures. Shares from all scopes are returned. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name and the <b>NetShareEnum</b> function enumerates shares for all the unscoped names.
+Return information about shared resources, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of <a href="fs.share_info_503">SHARE_INFO_503</a> structures. Shares from all scopes are returned. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name and the <b>NetShareEnum</b> function enumerates shares for all the unscoped names.
 
 <b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
 
@@ -213,14 +213,18 @@ The following code sample demonstrates how to retrieve information about each sh
 <b>NetShareEnum</b>, specifying information level 502 (<a href="https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8">SHARE_INFO_502</a>). If the call succeeds, the code loops through the entries and prints information about each share. The sample also calls the 
 <a href="https://msdn.microsoft.com/24a98229-11e4-45ef-988b-c2cf831275e7">IsValidSecurityDescriptor</a> function to validate the <b>shi502_security_descriptor</b> member. Finally, the code sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
-#include <windows.h>
-#include <stdio.h>
-#include <lm.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;lm.h&gt;
 
 #pragma comment(lib, "Netapi32.lib")
 #pragma comment(lib, "Advapi32.lib")
@@ -238,7 +242,7 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
       lpszServer = lpszArgv[1];
       break;
    default:
-      printf("Usage: NetShareEnum <servername>\n");
+      printf("Usage: NetShareEnum &lt;servername&gt;\n");
       return;
    }
    //
@@ -251,7 +255,7 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
    //
    do // begin do
    {
-      res = NetShareEnum (lpszServer, 502, (LPBYTE *) &BufPtr, MAX_PREFERRED_LENGTH, &er, &tr, &resume);
+      res = NetShareEnum (lpszServer, 502, (LPBYTE *) &amp;BufPtr, MAX_PREFERRED_LENGTH, &amp;er, &amp;tr, &amp;resume);
       //
       // If the call succeeds,
       //
@@ -262,14 +266,14 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
          // Loop through the entries;
          //  print retrieved data.
          //
-         for(i=1;i<=er;i++)
+         for(i=1;i&lt;=er;i++)
          {
-            printf("%-20S%-30S%-8u",p->shi502_netname, p->shi502_path, p->shi502_current_uses);
+            printf("%-20S%-30S%-8u",p-&gt;shi502_netname, p-&gt;shi502_path, p-&gt;shi502_current_uses);
             //
             // Validate the value of the 
             //  shi502_security_descriptor member.
             //
-            if (IsValidSecurityDescriptor(p->shi502_security_descriptor))
+            if (IsValidSecurityDescriptor(p-&gt;shi502_security_descriptor))
                printf("Yes\n");
             else
                printf("No\n");
@@ -289,10 +293,10 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
    while (res==ERROR_MORE_DATA); // end do
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -331,7 +335,7 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a>
+<a href="fs.share_info_503">SHARE_INFO_503</a>
  
 
  

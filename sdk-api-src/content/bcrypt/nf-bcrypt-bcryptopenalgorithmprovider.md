@@ -4,10 +4,10 @@ title: BCryptOpenAlgorithmProvider function
 author: windows-sdk-content
 description: Loads and initializes a CNG provider.
 old-location: security\bcryptopenalgorithmprovider_func.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: aceba9c0-19e6-4f3c-972a-752feed4a9f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_ALG_HANDLE_HMAC_FLAG, BCRYPT_HASH_REUSABLE_FLAG, BCRYPT_PROV_DISPATCH, BCryptOpenAlgorithmProvider, BCryptOpenAlgorithmProvider function [Security], MS_PRIMITIVE_PROVIDER, bcrypt/BCryptOpenAlgorithmProvider, security.bcryptopenalgorithmprovider_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

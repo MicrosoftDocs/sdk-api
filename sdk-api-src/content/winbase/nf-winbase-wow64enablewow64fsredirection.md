@@ -4,10 +4,10 @@ title: Wow64EnableWow64FsRedirection function
 author: windows-sdk-content
 description: Enables or disables file system redirection for the calling thread.
 old-location: fs\wow64enablewow64fsredirection.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8d11a7ba-540d-4bd0-881a-a61605357dd8
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, winbase/Wow64EnableWow64FsRedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -176,9 +176,13 @@ No
 
 #### Examples
 
-
-```cpp
-#ifdef _WIN32_WINNT
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifdef _WIN32_WINNT
 #undef _WIN32_WINNT
 #endif
 #define _WIN32_WINNT 0x0501
@@ -188,7 +192,7 @@ No
 #endif
 #define NTDDI_VERSION 0x05010000
 
-#include <Windows.h>
+#include &lt;Windows.h&gt;
 
 void main()
  {
@@ -226,10 +230,10 @@ void main()
     // Use the file handle
    }
  }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

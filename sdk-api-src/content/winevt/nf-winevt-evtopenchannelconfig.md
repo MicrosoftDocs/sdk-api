@@ -4,10 +4,10 @@ title: EvtOpenChannelConfig function
 author: windows-sdk-content
 description: Gets a handle that you use to read or modify a channel's configuration property.
 old-location: wes\evtopenchannelconfig.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: d197f04e-01e8-4ef6-a9ca-61e5178d825b
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtOpenChannelConfig, EvtOpenChannelConfig function [EventLog], wes.evtopenchannelconfig, winevt/EvtOpenChannelConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

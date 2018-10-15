@@ -4,10 +4,10 @@ title: PBEGIN_RESTYPECALL_AS_USER_ROUTINE
 author: windows-sdk-content
 description: The PBEGIN_RESTYPECALL_AS_USER_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcetypecontrolasuser.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 0A95F509-0B07-4E6C-B200-FCF11A0A95F0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: BeginResourceTypeControlAsUser, BeginResourceTypeControlAsUser callback, BeginResourceTypeControlAsUser callback function [Failover Cluster], PBEGIN_RESTYPECALL_AS_USER_ROUTINE, PBEGIN_RESTYPECALL_AS_USER_ROUTINE callback function [Failover Cluster], mscs.beginresourcetypecontrolasuser, resapi/BeginResourceTypeControlAsUser, resapi/PBEGIN_RESTYPECALL_AS_USER_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

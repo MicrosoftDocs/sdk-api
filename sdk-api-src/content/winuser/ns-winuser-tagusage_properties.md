@@ -7,7 +7,7 @@ old-location: input_pointerdevice\usage_properties.htm
 tech.root: Input_PointerDevice
 ms.assetid: 387E241E-2FE9-46C0-9B7C-5357731339BF
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: "*PUSAGE_PROPERTIES, PUSAGE_PROPERTIES, PUSAGE_PROPERTIES structure pointer, USAGE_PROPERTIES, USAGE_PROPERTIES structure, input_pointerdevice.usage_properties, tagUSAGE_PROPERTIES, winuser/PUSAGE_PROPERTIES, winuser/USAGE_PROPERTIES"
 ms.prod: windows
 ms.technology: windows-sdk

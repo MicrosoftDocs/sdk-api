@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform_setangle_idcompositionanim
 tech.root: directcomp
 ms.assetid: 85C62F2A-06B2-48FE-8416-16DEDC86E516
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetAngle method, IDCompositionRotateTransform.SetAngle, IDCompositionRotateTransform.SetAngle(IDCompositionAnimation), IDCompositionRotateTransform::SetAngle, IDCompositionRotateTransform::SetAngle(IDCompositionAnimation), IDCompositionRotateTransform::SetAngle(IDCompositionAnimation*), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetAngle, directcomp.idcompositionrotatetransform_setangle_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

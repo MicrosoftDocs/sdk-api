@@ -4,10 +4,10 @@ title: "_BCRYPT_RSAKEY_BLOB"
 author: windows-sdk-content
 description: Used as a header for an RSA public key or private key BLOB in memory.
 old-location: security\bcrypt_rsakey_blob.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: bbf3f4b9-5c69-4212-bb23-34bb2c84185c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_RSAFULLPRIVATE_MAGIC, BCRYPT_RSAKEY_BLOB, BCRYPT_RSAKEY_BLOB structure [Security], BCRYPT_RSAPRIVATE_MAGIC, BCRYPT_RSAPUBLIC_MAGIC, _BCRYPT_RSAKEY_BLOB, bcrypt/BCRYPT_RSAKEY_BLOB, security.bcrypt_rsakey_blob
 ms.prod: windows
 ms.technology: windows-sdk

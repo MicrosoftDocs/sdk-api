@@ -7,7 +7,7 @@ old-location: base\setprocessinformation.htm
 tech.root: ProcThread
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

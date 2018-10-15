@@ -4,10 +4,10 @@ title: BCRYPT_MULTI_OPERATION_TYPE
 author: windows-sdk-content
 description: The BCRYPT_MULTI_OPERATION_TYPE enumeration specifies type of multi-operation that is passed to the BCryptProcessMultiOperations function.
 old-location: security\bcrypt_multi_operation_type.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: C87714F6-CB25-4215-B1BA-C09AAA875D00
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_MULTI_OPERATION_TYPE, BCRYPT_MULTI_OPERATION_TYPE enumeration [Security], BCRYPT_OPERATION_TYPE_HASH, bcrypt/BCRYPT_MULTI_OPERATION_TYPE, bcrypt/BCRYPT_OPERATION_TYPE_HASH, security.bcrypt_multi_operation_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-operation that  is passed to the <a href="https://msdn.microsoft.com/en-us/library/Mt845764(v=VS.85).aspx">BCryptProcessMultiOperations</a> function.
+The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-operation that  is passed to the <a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a> function.
 
 
 ## -enum-fields
@@ -68,7 +68,7 @@ A hash operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845764(v=VS.85).aspx">BCryptProcessMultiOperations</a>
+<a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_createmediaitemfromobject.htm
 tech.root: medfound
 ms.assetid: d647df89-b874-448e-ae41-ee3bcb55521f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CreateMediaItemFromObject, CreateMediaItemFromObject method [Media Foundation], CreateMediaItemFromObject method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromObject method, IMFPMediaPlayer.CreateMediaItemFromObject, IMFPMediaPlayer::CreateMediaItemFromObject, mf.imfpmediaplayer_createmediaitemfromobject, mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

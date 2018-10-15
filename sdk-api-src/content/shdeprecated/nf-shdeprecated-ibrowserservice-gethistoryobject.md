@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetHistoryObject.htm
 tech.root: shell
 ms.assetid: 409d76e8-5501-437d-92d3-55e1676a80b8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetHistoryObject, GetHistoryObject method [Windows Shell], GetHistoryObject method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetHistoryObject method, IBrowserService.GetHistoryObject, IBrowserService::GetHistoryObject, shdeprecated/IBrowserService::GetHistoryObject, shell.IBrowserService_GetHistoryObject, zone_IBrowserService_GetHistoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,10 +95,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If <i>pstm</i> is not <b>NULL</b>, you can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> to get a pointer to <a href="https://msdn.microsoft.com/library/Aa768215(v=VS.85).aspx">IPersistHistory</a>.
+If <i>pstm</i> is not <b>NULL</b>, you can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> to get a pointer to <a href="_inet_IPersistHistory_Interface">IPersistHistory</a>.
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> and <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> can be passed to <a href="https://msdn.microsoft.com/library/Aa768216(v=VS.85).aspx">IPersistHistory::LoadHistory</a>.
+<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> and <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> can be passed to <a href="_inet_IPersistHistory_Interface_inet_IPersistHistory_LoadHistory_Method_cpp">IPersistHistory::LoadHistory</a>.
 
 The calling application must release all three pointers if non-<b>NULL</b>.
 

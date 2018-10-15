@@ -4,10 +4,10 @@ title: UnlockFileEx function
 author: windows-sdk-content
 description: Unlocks a region in the specified file. This function can operate either synchronously or asynchronously.
 old-location: fs\unlockfileex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 78e2a75e-ff67-4039-b609-fb5004718c45
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

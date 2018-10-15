@@ -4,10 +4,10 @@ title: DPA_Clone function
 author: windows-sdk-content
 description: Duplicates a dynamic pointer array (DPA).
 old-location: controls\DPA_Clone.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_clone.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: DPA_Clone, DPA_Clone function [Windows Controls], _shell_DPA_Clone, _shell_DPA_Clone_cpp, controls.DPA_Clone, controls._shell_DPA_Clone, dpa_dsa/DPA_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ When <b>NULL</b>, a new array is copied from <i>hdpaSource</i>.
 
                     
 
-This parameter can also contain an array created with <a href="https://msdn.microsoft.com/en-us/library/Bb775603(v=VS.85).aspx">DPA_Create</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775605(v=VS.85).aspx">DPA_CreateEx</a>. The data is overwritten but the original delta size and heap handle retained.
+This parameter can also contain an array created with <a href="https://msdn.microsoft.com/03bbfe08-69df-41da-85c8-41a96d9dac09">DPA_Create</a> or <a href="https://msdn.microsoft.com/a77ad74e-3bb5-414a-9cd7-db4b1c6e8116">DPA_CreateEx</a>. The data is overwritten but the original delta size and heap handle retained.
 
 
 ## -returns

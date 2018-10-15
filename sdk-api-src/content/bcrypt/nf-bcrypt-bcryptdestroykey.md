@@ -4,10 +4,10 @@ title: BCryptDestroyKey function
 author: windows-sdk-content
 description: Destroys a key.
 old-location: security\bcryptdestroykey_func.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 98c02e55-6489-4901-8a7a-021baac41965
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCryptDestroyKey, BCryptDestroyKey function [Security], bcrypt/BCryptDestroyKey, security.bcryptdestroykey_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

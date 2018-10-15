@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationtextpattern2_rangefromannotation.htm
 tech.root: WinAuto
 ms.assetid: C79678D7-2CF4-4DBC-BD0B-7DE22AF25AF9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IUIAutomationTextPattern2 interface [Windows Accessibility],RangeFromAnnotation method, IUIAutomationTextPattern2.RangeFromAnnotation, IUIAutomationTextPattern2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],IUIAutomationTextPattern2 interface, uiautomationclient/IUIAutomationTextPattern2::RangeFromAnnotation, winauto.uiauto_iuiautomationtextpattern2_rangefromannotation
 ms.prod: windows-hardware
 ms.technology: windows-devices

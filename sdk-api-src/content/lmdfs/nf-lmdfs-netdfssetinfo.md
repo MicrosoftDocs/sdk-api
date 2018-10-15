@@ -233,12 +233,16 @@ The following code sample demonstrates how to associate a comment with a DFS lin
      <b>NetDfsSetInfo</b> function. The sample specifies information level 100 
      (<a href="https://msdn.microsoft.com/763ba0f0-01e9-47cf-bbe5-93e13aa83aa0">DFS_INFO_100</a>).
 
-
-```cpp
-#include <windows.h>
-#include <lm.h>
-#include <lmdfs.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
+#include &lt;lmdfs.h&gt;
+#include &lt;stdio.h&gt;
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain(int argc, wchar_t *argv[])
@@ -248,18 +252,18 @@ void wmain(int argc, wchar_t *argv[])
    //
    // Check command line arguments.
    //
-   if (argc<2)
+   if (argc&lt;2)
       wprintf(L"Syntax: %s DfsEntryPath [\"Comment\"]\n", argv[0]);
    else
    {
       //
       // Fill in DFS_INFO_100 structure member.
       //
-      dfsData.Comment = argc < 3 ? NULL : argv[2];
+      dfsData.Comment = argc &lt; 3 ? NULL : argv[2];
       //
       // Call the NetDfsSetInfo function, specifying level 100.
       //
-      res = NetDfsSetInfo(argv[1], NULL, NULL, 100, (LPBYTE) &dfsData);
+      res = NetDfsSetInfo(argv[1], NULL, NULL, 100, (LPBYTE) &amp;dfsData);
       //
       // Display the result of the call.
       //
@@ -270,10 +274,10 @@ void wmain(int argc, wchar_t *argv[])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

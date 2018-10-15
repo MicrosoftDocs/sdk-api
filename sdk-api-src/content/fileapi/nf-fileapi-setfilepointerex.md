@@ -4,10 +4,10 @@ title: SetFilePointerEx function
 author: windows-sdk-content
 description: Moves the file pointer of the specified file.
 old-location: fs\setfilepointerex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a6fdfa00-626d-425d-b00e-c174b19ea4b9
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointerEx, SetFilePointerEx function [Files], _win32_setfilepointerex, base.setfilepointerex, fileapi/SetFilePointerEx, fs.setfilepointerex, winbase/SetFilePointerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

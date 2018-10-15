@@ -4,10 +4,10 @@ title: EvtArchiveExportedLog function
 author: windows-sdk-content
 description: Adds localized strings to the events in the specified log file.
 old-location: wes\evtarchiveexportedlog.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 0a8f9958-03af-4310-9f9e-b79e84a30a04
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtArchiveExportedLog, EvtArchiveExportedLog function [EventLog], wes.evtarchiveexportedlog, winevt/EvtArchiveExportedLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

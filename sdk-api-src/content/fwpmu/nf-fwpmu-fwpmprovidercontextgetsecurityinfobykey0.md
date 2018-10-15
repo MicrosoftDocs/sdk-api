@@ -4,10 +4,10 @@ title: FwpmProviderContextGetSecurityInfoByKey0 function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a provider context object.
 old-location: fwp\fwpmprovidercontextgetsecurityinfobykey0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: da2740e5-352b-4f00-bfeb-2eeaab3f470a
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmProviderContextGetSecurityInfoByKey0, FwpmProviderContextGetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidercontextgetsecurityinfobykey0_func, fwpmu/FwpmProviderContextGetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

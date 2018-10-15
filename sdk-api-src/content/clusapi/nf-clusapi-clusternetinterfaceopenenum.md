@@ -4,10 +4,10 @@ title: ClusterNetInterfaceOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through the installed network interfaces.
 old-location: mscs\clusternetinterfaceopenenum.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: fd300162-2472-4bd2-91d6-357397c4134c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ClusterNetInterfaceOpenEnum, ClusterNetInterfaceOpenEnum function [Failover Cluster], clusapi/ClusterNetInterfaceOpenEnum, mscs.clusternetinterfaceopenenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Opens an 
-    enumerator for iterating through the installed <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interfaces</a>.
+    enumerator for iterating through the installed <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a>.
 
 
 ## -parameters

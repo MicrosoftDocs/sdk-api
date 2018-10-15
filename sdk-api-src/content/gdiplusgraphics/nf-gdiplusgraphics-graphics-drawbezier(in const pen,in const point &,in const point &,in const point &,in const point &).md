@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBezier_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziermethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: DrawBezier, DrawBezier methods [GDI+], Graphics.DrawBezier, Graphics.DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &), Graphics::DrawBezier, Graphics::DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &), _gdiplus_CLASS_Graphics_DrawBezier_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Methods, gdiplusgraphics/DrawBezier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 DrawBezier methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -64,37 +64,37 @@ DrawBezier methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536148(v=VS.85).aspx">DrawBezier(Pen*,POINT&,POINT&,POINT&,POINT&)</a>
+<a href="https://msdn.microsoft.com/e4e313e5-1f3d-4d5b-97b0-c62a9a1b1d81">DrawBezier(Pen*,POINT&,POINT&,POINT&,POINT&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536148(v=VS.85).aspx">Graphics::DrawBezier</a> method draws a Bézier spline.
+The <a href="https://msdn.microsoft.com/e4e313e5-1f3d-4d5b-97b0-c62a9a1b1d81">Graphics::DrawBezier</a> method draws a Bézier spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536151(v=VS.85).aspx">DrawBezier(Pen*,INT,INT,INT,INT,INT,INT,INT,INT)</a>
+<a href="https://msdn.microsoft.com/339c0b59-3dd7-4224-a8e9-58a77327d6cc">DrawBezier(Pen*,INT,INT,INT,INT,INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536151(v=VS.85).aspx">Graphics::DrawBezier</a> method draws a Bézier spline.
+The <a href="https://msdn.microsoft.com/339c0b59-3dd7-4224-a8e9-58a77327d6cc">Graphics::DrawBezier</a> method draws a Bézier spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536149(v=VS.85).aspx">DrawBezier(Pen*,POINTF&,POINTF&,POINTF&,POINTF&)</a>
+<a href="https://msdn.microsoft.com/fe837ec5-08ab-47c2-b53b-c7a50078a426">DrawBezier(Pen*,POINTF&,POINTF&,POINTF&,POINTF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536149(v=VS.85).aspx">Graphics::DrawBezier</a> method draws a Bézier spline.
+The <a href="https://msdn.microsoft.com/fe837ec5-08ab-47c2-b53b-c7a50078a426">Graphics::DrawBezier</a> method draws a Bézier spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536150(v=VS.85).aspx">DrawBezier(Pen*,REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/8cc50b20-3c78-4462-bee5-f7fce4815bc1">DrawBezier(Pen*,REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536150(v=VS.85).aspx">Graphics::DrawBezier</a> method draws a Bézier spline.
+The <a href="https://msdn.microsoft.com/8cc50b20-3c78-4462-bee5-f7fce4815bc1">Graphics::DrawBezier</a> method draws a Bézier spline.
 
 </td>
 </tr>

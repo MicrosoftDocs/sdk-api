@@ -7,7 +7,7 @@ old-location: gdi\polytext.htm
 tech.root: gdi
 ms.assetid: 6f03e2ff-c15f-498c-8c3d-33106222279e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*LPPOLYTEXTW, *NPPOLYTEXTW, *PPOLYTEXTW, POLYTEXT, POLYTEXT structure [Windows GDI], POLYTEXTA, POLYTEXTW, PPOLYTEXT, PPOLYTEXT structure pointer [Windows GDI], _win32_POLYTEXT_str, gdi.polytext, tagPOLYTEXTW, wingdi/POLYTEXT, wingdi/POLYTEXTA, wingdi/POLYTEXTW, wingdi/PPOLYTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

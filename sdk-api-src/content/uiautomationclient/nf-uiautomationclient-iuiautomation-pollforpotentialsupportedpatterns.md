@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_PollForPotentialSupportedPatterns.htm
 tech.root: WinAuto
 ms.assetid: 1319420e-17d6-4d0f-81c5-46b22b644e68
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],PollForPotentialSupportedPatterns method, IUIAutomation.PollForPotentialSupportedPatterns, IUIAutomation::PollForPotentialSupportedPatterns, PollForPotentialSupportedPatterns, PollForPotentialSupportedPatterns method [Windows Accessibility], PollForPotentialSupportedPatterns method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_PollForPotentialSupportedPatterns, uiauto_IUIAutomation_PollForPotentialSupportedPatterns, uiautomationclient/IUIAutomation::PollForPotentialSupportedPatterns, winauto.uiauto_IUIAutomation_PollForPotentialSupportedPatterns
 ms.prod: windows-hardware
 ms.technology: windows-devices

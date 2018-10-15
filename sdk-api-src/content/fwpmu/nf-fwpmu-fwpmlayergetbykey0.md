@@ -4,10 +4,10 @@ title: FwpmLayerGetByKey0 function
 author: windows-sdk-content
 description: Retrieves a layer object.
 old-location: fwp\fwpmlayergetbykey0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: b276449e-890c-482d-9bc2-47d44a5ea32b
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmLayerGetByKey0, FwpmLayerGetByKey0 function [Filtering], fwp.fwpmlayergetbykey0_func, fwpmu/FwpmLayerGetByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

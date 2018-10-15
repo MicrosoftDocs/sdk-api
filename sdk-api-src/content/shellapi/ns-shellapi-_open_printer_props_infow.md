@@ -7,7 +7,7 @@ old-location: shell\OPEN_PRINTER_PROPS_INFO.htm
 tech.root: shell
 ms.assetid: c5cabb04-20a2-40ce-aa4d-180b73db8eac
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: "*POPEN_PRINTER_PROPS_INFOW, OPEN_PRINTER_PROPS_INFO, OPEN_PRINTER_PROPS_INFO structure [Windows Shell], OPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFOW, POPEN_PRINTER_PROPS_INFO, POPEN_PRINTER_PROPS_INFO structure pointer [Windows Shell], _OPEN_PRINTER_PROPS_INFOW, _shell_OPEN_PRINTER_PROPS_INFO, shell.OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFOA, shellapi/OPEN_PRINTER_PROPS_INFOW, shellapi/POPEN_PRINTER_PROPS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

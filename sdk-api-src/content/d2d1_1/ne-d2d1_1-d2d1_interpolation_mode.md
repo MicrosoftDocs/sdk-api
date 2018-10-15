@@ -4,10 +4,10 @@ title: D2D1_INTERPOLATION_MODE
 author: windows-sdk-content
 description: This is used to specify the quality of image scaling with ID2D1DeviceContext::DrawImage and with the 2D affine transform effect.
 old-location: direct2d\__d2d1_image_interpolation_mode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 7a32f551-afad-4eb2-953f-a9acc71d7776
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: D2D1_INTERPOLATION_MODE, D2D1_INTERPOLATION_MODE enumeration [Direct2D], D2D1_INTERPOLATION_MODE_ANISOTROPIC, D2D1_INTERPOLATION_MODE_CUBIC, D2D1_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, D2D1_INTERPOLATION_MODE_LINEAR, D2D1_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1_1/D2D1_INTERPOLATION_MODE, d2d1_1/D2D1_INTERPOLATION_MODE_ANISOTROPIC, d2d1_1/D2D1_INTERPOLATION_MODE_CUBIC, d2d1_1/D2D1_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, d2d1_1/D2D1_INTERPOLATION_MODE_LINEAR, d2d1_1/D2D1_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1_1/D2D1_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.__D2D1_INTERPOLATION_MODE, direct2d.__d2d1_image_interpolation_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-This is used to specify the quality of image scaling with  <a href="https://msdn.microsoft.com/c41d8a79-280a-451e-b07b-f904d07da5c7">ID2D1DeviceContext::DrawImage</a> and with the <a href="https://msdn.microsoft.com/en-us/library/Hh706309(v=VS.85).aspx">2D affine transform effect</a>. 
+This is used to specify the quality of image scaling with  <a href="https://msdn.microsoft.com/c41d8a79-280a-451e-b07b-f904d07da5c7">ID2D1DeviceContext::DrawImage</a> and with the <a href="https://msdn.microsoft.com/E8973EBE-764C-4220-BB1E-3BFD4853582D">2D affine transform effect</a>. 
 
 
 ## -enum-fields

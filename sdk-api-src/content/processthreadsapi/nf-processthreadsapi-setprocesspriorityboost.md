@@ -7,7 +7,7 @@ old-location: base\setprocesspriorityboost.htm
 tech.root: ProcThread
 ms.assetid: 211069cb-4b4c-49bc-ad3c-1be184999670
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: SetProcessPriorityBoost, SetProcessPriorityBoost function, _win32_setprocesspriorityboost, base.setprocesspriorityboost, processthreadsapi/SetProcessPriorityBoost
 ms.prod: windows-hardware
 ms.technology: windows-devices

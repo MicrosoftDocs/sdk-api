@@ -4,10 +4,10 @@ title: FWPM_SYSTEM_PORTS_CALLBACK0
 author: windows-sdk-content
 description: Is used to add custom behavior to the system port subscription process.
 old-location: fwp\fwpm_system_ports_callback0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 91bf0d89-f760-4de9-8e9b-ece93b6c84ae
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FWPM_SYSTEM_PORTS_CALLBACK0, FWPM_SYSTEM_PORTS_CALLBACK0 callback, FWPM_SYSTEM_PORTS_CALLBACK0 callback function [Filtering], fwp.fwpm_system_ports_callback0_func, fwpmu/FWPM_SYSTEM_PORTS_CALLBACK0
 ms.prod: windows
 ms.technology: windows-sdk

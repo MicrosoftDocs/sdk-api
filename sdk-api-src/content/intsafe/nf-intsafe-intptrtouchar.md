@@ -7,7 +7,7 @@ old-location: shell\IntPtrToUChar.htm
 tech.root: shell
 ms.assetid: f6428be2-bca6-4fda-a247-0f0eff2483d8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IntPtrToUChar, IntPtrToUChar function [Windows Shell], intsafe/IntPtrToUChar, shell.IntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

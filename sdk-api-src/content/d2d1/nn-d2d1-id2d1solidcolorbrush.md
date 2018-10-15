@@ -4,10 +4,10 @@ title: ID2D1SolidColorBrush
 author: windows-sdk-content
 description: Paints an area with a solid color.
 old-location: direct2d\ID2D1SolidColorBrush.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: a15c2696-3122-461e-806e-2195a50a3e92
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ID2D1SolidColorBrush, ID2D1SolidColorBrush interface [Direct2D], ID2D1SolidColorBrush interface [Direct2D],described, d2d1/ID2D1SolidColorBrush, direct2d.ID2D1SolidColorBrush
 ms.prod: windows
 ms.technology: windows-sdk

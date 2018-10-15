@@ -4,10 +4,10 @@ title: ListView_MoveGroup macro
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\ListView_MoveGroup.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_movegroup.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ListView_MoveGroup, ListView_MoveGroup macro [Windows Controls], _win32_ListView_MoveGroup, _win32_ListView_MoveGroup_cpp, commctrl/ListView_MoveGroup, controls.ListView_MoveGroup, controls._win32_ListView_MoveGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ This macro is not implemented.
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

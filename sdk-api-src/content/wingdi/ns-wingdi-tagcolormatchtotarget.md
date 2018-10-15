@@ -7,7 +7,7 @@ old-location: gdi\emrcolormatchtotarget.htm
 tech.root: gdi
 ms.assetid: 9b89b703-b670-40eb-b95f-d07e8731e71b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PEMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET structure [Windows GDI], PEMRCOLORMATCHTOTARGET, PEMRCOLORMATCHTOTARGET structure pointer [Windows GDI], _win32_EMRCOLORMATCHTOTARGET_str, gdi.emrcolormatchtotarget, tagCOLORMATCHTOTARGET, wingdi/EMRCOLORMATCHTOTARGET, wingdi/PEMRCOLORMATCHTOTARGET"
 ms.prod: windows
 ms.technology: windows-sdk

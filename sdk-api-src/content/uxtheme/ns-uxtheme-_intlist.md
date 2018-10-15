@@ -4,10 +4,10 @@ title: "_INTLIST"
 author: windows-sdk-content
 description: Contains an array or list of int data items from a visual style.
 old-location: controls\INTLIST.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: "*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST, PINTLIST structure pointer [Windows Controls], _INTLIST, controls.INTLIST, controls.inet_INTLIST, inet_INTLIST, inet_INTLIST_cpp, uxtheme/INTLIST, uxtheme/PINTLIST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ List of integers. The constant MAX_INTLIST_COUNT, by definition, is equal to 402
 
 
 
-The lists are returned by <a href="https://msdn.microsoft.com/en-us/library/Bb759752(v=VS.85).aspx">GetThemeIntList</a>.
+The lists are returned by <a href="https://msdn.microsoft.com/123ddb53-4447-4b6b-a311-61da47090e94">GetThemeIntList</a>.
 
 
 

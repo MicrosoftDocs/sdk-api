@@ -7,7 +7,7 @@ old-location: multimedia\acmstreamprepareheader.htm
 tech.root: Multimedia
 ms.assetid: ab90ac5f-6f39-4d26-96fc-5258d4e353cd
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: "_win32_acmStreamPrepareHeader, acmStreamPrepareHeader, acmStreamPrepareHeader function [Windows Multimedia], msacm/acmStreamPrepareHeader, multimedia.acmstreamprepareheader"
 ms.prod: windows-hardware
 ms.technology: windows-devices

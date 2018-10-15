@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_getstream.htm
 tech.root: Multimedia
 ms.assetid: 66ab2d8f-39f5-4eec-a873-c6f554e3b8ff
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: GetStream, GetStream method [Windows Multimedia], GetStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],GetStream method, IAVIFile.GetStream, IAVIFile::GetStream, _win32_IAVIFile_GetStream, multimedia.iavifile_getstream, vfw/IAVIFile::GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,16 +101,20 @@ Remember to increment the reference count maintained by the <b>AddRef</b> method
 
 For handlers written in C++, GetStream has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT GetStream(PAVISTREAM *ppStream, 
     DWORD fccType, LONG lParam); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

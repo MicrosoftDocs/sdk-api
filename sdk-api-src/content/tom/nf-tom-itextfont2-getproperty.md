@@ -4,10 +4,10 @@ title: ITextFont2::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextfont2_getproperty.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 1894788a-5612-43a2-af77-131d02fe1261
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetProperty method, ITextFont2.GetProperty, ITextFont2::GetProperty, controls.itextfont2_getproperty, tom/ITextFont2::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

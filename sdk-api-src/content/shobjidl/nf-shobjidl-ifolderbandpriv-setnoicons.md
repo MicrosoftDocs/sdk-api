@@ -7,7 +7,7 @@ old-location: shell\IFolderBandPriv_SetNoIcons.htm
 tech.root: shell
 ms.assetid: 5bec29d9-8b05-4b4e-9cfc-0b9fd2d9fd2f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoIcons method, IFolderBandPriv.SetNoIcons, IFolderBandPriv::SetNoIcons, SetNoIcons, SetNoIcons method [Windows Shell], SetNoIcons method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoIcons, shell.IFolderBandPriv_SetNoIcons, shobjidl/IFolderBandPriv::SetNoIcons
 ms.prod: windows-hardware
 ms.technology: windows-devices

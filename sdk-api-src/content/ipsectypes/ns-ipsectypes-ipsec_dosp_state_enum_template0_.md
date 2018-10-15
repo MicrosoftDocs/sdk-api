@@ -4,10 +4,10 @@ title: IPSEC_DOSP_STATE_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: The IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure.
 old-location: fwp\ipsec_dosp_state_enum_template0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: bfc34949-dd80-4fcd-8147-2fed62bce387
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IPSEC_DOSP_STATE_ENUM_TEMPLATE0, IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure [Filtering], IPSEC_DOSP_STATE_ENUM_TEMPLATE0_, fwp.ipsec_dosp_state_enum_template0, ipsectypes/IPSEC_DOSP_STATE_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk

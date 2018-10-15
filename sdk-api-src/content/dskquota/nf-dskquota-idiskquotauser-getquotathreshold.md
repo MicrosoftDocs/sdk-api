@@ -4,10 +4,10 @@ title: IDiskQuotaUser::GetQuotaThreshold
 author: windows-sdk-content
 description: Retrieves the user's warning threshold value on the volume.
 old-location: fs\idiskquotauser_getquotathreshold.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 58b925f3-b40a-4fab-86c6-725e04e6f721
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: GetQuotaThreshold, GetQuotaThreshold method [Files], GetQuotaThreshold method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaThreshold method, IDiskQuotaUser.GetQuotaThreshold, IDiskQuotaUser::GetQuotaThreshold, _win32_idiskquotauser_getquotathreshold, base.idiskquotauser_getquotathreshold, dskquota/IDiskQuotaUser::GetQuotaThreshold, fs.idiskquotauser_getquotathreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices

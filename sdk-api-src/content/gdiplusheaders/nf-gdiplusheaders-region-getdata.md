@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdata.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: GetData, GetData method [GDI+], GetData method [GDI+],Region class, Region class [GDI+],GetData method, Region.GetData, Region::GetData, _gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_, gdiplus._gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ Type: <b>UINT</b>
 Integer that specifies the size, in bytes, of the 
 					<i>buffer</i> array. The size of the 
 					<i>buffer</i> array can be greater than or equal to the number of bytes required to store the region data. The exact number of bytes required can be determined by calling the 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534766(v=VS.85).aspx">Region::GetDataSize</a> method. 
+					<a href="https://msdn.microsoft.com/748cbc1c-cf0c-461f-ac14-52cf882a33b4">Region::GetDataSize</a> method. 
 
 
 ### -param sizeFilled [out]
@@ -90,14 +90,14 @@ Optional. Pointer to an
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the 
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the 
 						<b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -107,7 +107,7 @@ If the method fails, it returns one of the other elements of the
 
 
 The 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534766(v=VS.85).aspx">Region::GetDataSize</a> method can be used before the <b>Region::GetData</b> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data and set the 
+				<a href="https://msdn.microsoft.com/748cbc1c-cf0c-461f-ac14-52cf882a33b4">Region::GetDataSize</a> method can be used before the <b>Region::GetData</b> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data and set the 
 				<i>buffer</i> parameter to point to the buffer.
 
 
@@ -117,9 +117,13 @@ The
 
 The following example creates a region from a path and then gets the data that describes the region.
 
-
-```cpp
-VOID Example_GetData(HDC)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetData(HDC)
 
 {
    Point points[] = {
@@ -133,7 +137,7 @@ VOID Example_GetData(HDC)
    path.AddClosedCurve(points, 6);
    
    // Create a region from a path.
-   Region pathRegion(&path); 
+   Region pathRegion(&amp;path); 
       
    // Get the region data.
    UINT bufferSize = 0;
@@ -143,14 +147,14 @@ VOID Example_GetData(HDC)
    bufferSize = pathRegion.GetDataSize();
    
    pData = new BYTE[bufferSize];
-   pathRegion.GetData(pData, bufferSize, &sizeFilled);
+   pathRegion.GetData(pData, bufferSize, &amp;sizeFilled);
    
    // Inspect or use the region data.
    ...
    delete pData;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ImageFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imageflags.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: ImageFlags, ImageFlags enumeration [GDI+], ImageFlagsCaching, ImageFlagsColorSpaceCMYK, ImageFlagsColorSpaceGRAY, ImageFlagsColorSpaceRGB, ImageFlagsColorSpaceYCBCR, ImageFlagsColorSpaceYCCK, ImageFlagsHasAlpha, ImageFlagsHasRealDPI, ImageFlagsHasRealPixelSize, ImageFlagsHasTranslucent, ImageFlagsNone, ImageFlagsPartiallyScalable, ImageFlagsReadOnly, ImageFlagsScalable, _gdiplus_ENUM_ImageFlags, gdiplus._gdiplus_ENUM_ImageFlags, gdiplusimaging/ImageFlags, gdiplusimaging/ImageFlagsCaching, gdiplusimaging/ImageFlagsColorSpaceCMYK, gdiplusimaging/ImageFlagsColorSpaceGRAY, gdiplusimaging/ImageFlagsColorSpaceRGB, gdiplusimaging/ImageFlagsColorSpaceYCBCR, gdiplusimaging/ImageFlagsColorSpaceYCCK, gdiplusimaging/ImageFlagsHasAlpha, gdiplusimaging/ImageFlagsHasRealDPI, gdiplusimaging/ImageFlagsHasRealPixelSize, gdiplusimaging/ImageFlagsHasTranslucent, gdiplusimaging/ImageFlagsNone, gdiplusimaging/ImageFlagsPartiallyScalable, gdiplusimaging/ImageFlagsReadOnly, gdiplusimaging/ImageFlagsScalable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,8 @@ req.product: GDI+ 1.0
 
 
 The <b>ImageFlags</b> enumeration specifies the attributes of the pixel data contained in an 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object. The 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535376(v=VS.85).aspx">Image::GetFlags</a> method returns an element of this enumeration.
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object. The 
+			<a href="https://msdn.microsoft.com/4a519863-9a4a-41c5-891e-4d7747ca0c07">Image::GetFlags</a> method returns an element of this enumeration.
 
 
 ## -enum-fields
@@ -136,7 +136,7 @@ Specifies that the pixel data can be cached for faster access.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535376(v=VS.85).aspx">Image::GetFlags</a>
+<a href="https://msdn.microsoft.com/4a519863-9a4a-41c5-891e-4d7747ca0c07">Image::GetFlags</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\IAppPublisher_GetCategories.htm
 tech.root: shell
 ms.assetid: 139a5094-8bb3-4b5d-938d-ba4af5d52d94
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetCategories, GetCategories method [Windows Shell], GetCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetCategories method, IAppPublisher.GetCategories, IAppPublisher::GetCategories, inet_IAppPublisher_GetCategories, shappmgr/IAppPublisher::GetCategories, shell.IAppPublisher_GetCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,12 +94,16 @@ The Add/Remove Programs Control Panel Application passes the ID returned for a c
 
 The following example shows how to calculate the size of the array of <a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a> structures that is returned by <b>IAppPublisher::GetCategories</b>.
 
-
-```cpp
-size_t CategoryListArraySize = sizeof(APPCATEGORYINFO) * pInfoList->cCategory;
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>size_t CategoryListArraySize = sizeof(APPCATEGORYINFO) * pInfoList-&gt;cCategory;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: EvtSetChannelConfigProperty function
 author: windows-sdk-content
 description: Sets the specified configuration property of a channel.
 old-location: wes\evtsetchannelconfigproperty.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: f5f11bd9-5eb0-4afe-8c8b-57fa3850ad56
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtSetChannelConfigProperty, EvtSetChannelConfigProperty function [EventLog], wes.evtsetchannelconfigproperty, winevt/EvtSetChannelConfigProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

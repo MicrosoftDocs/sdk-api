@@ -4,10 +4,10 @@ title: CLUSTER_GROUP_PRIORITY
 author: windows-sdk-content
 description: Specifies the priority level of a group.
 old-location: mscs\cluster_group_priority.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: CF2B9D74-72EC-4BBD-85C9-1BB0535580FB
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: CLUSTER_GROUP_PRIORITY, CLUSTER_GROUP_PRIORITY enumeration [Failover Cluster], PriorityDisabled, PriorityHigh, PriorityLow, PriorityMedium, clusapi/CLUSTER_GROUP_PRIORITY, clusapi/PriorityDisabled, clusapi/PriorityHigh, clusapi/PriorityLow, clusapi/PriorityMedium, msclus/CLUSTER_GROUP_PRIORITY, msclus/PriorityDisabled, msclus/PriorityHigh, msclus/PriorityLow, msclus/PriorityMedium, mscs.cluster_group_priority
 ms.prod: windows
 ms.technology: windows-sdk

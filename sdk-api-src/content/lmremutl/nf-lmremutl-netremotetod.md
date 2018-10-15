@@ -97,11 +97,15 @@ The following code sample demonstrates how to retrieve and print the current dat
 <b>NetRemoteTOD</b> function. To do this, the sample uses the 
 <a href="https://msdn.microsoft.com/bf89f071-5c04-40c2-a7b7-4e59fc9eaa02">TIME_OF_DAY_INFO</a> structure. Finally, the sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 #pragma comment(lib, "netapi32.lib")
 
 #ifndef UNICODE
@@ -114,7 +118,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPTSTR pszServerName = NULL;
 
-   if (argc > 2)
+   if (argc &gt; 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -127,7 +131,7 @@ int wmain(int argc, wchar_t *argv[])
    // Call the NetRemoteTOD function.
    //
    nStatus = NetRemoteTOD((LPCWSTR) pszServerName,
-                          (LPBYTE *)&pBuf);
+                          (LPBYTE *)&amp;pBuf);
    //
    // If the function succeeds, display the current date and time.
    //
@@ -136,9 +140,9 @@ int wmain(int argc, wchar_t *argv[])
       if (pBuf != NULL)
       {
          fprintf(stderr, "\nThe current date is: %d/%d/%d\n",
-                 pBuf->tod_month, pBuf->tod_day, pBuf->tod_year);
+                 pBuf-&gt;tod_month, pBuf-&gt;tod_day, pBuf-&gt;tod_year);
          fprintf(stderr, "The current time is: %d:%d:%d\n",
-                 pBuf->tod_hours, pBuf->tod_mins, pBuf->tod_secs);
+                 pBuf-&gt;tod_hours, pBuf-&gt;tod_mins, pBuf-&gt;tod_secs);
       }
    }
    //
@@ -153,10 +157,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

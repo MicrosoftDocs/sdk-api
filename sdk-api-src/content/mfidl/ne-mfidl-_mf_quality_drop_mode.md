@@ -7,7 +7,7 @@ old-location: mf\mf_quality_drop_mode.htm
 tech.root: medfound
 ms.assetid: e40751d2-9abf-4fe6-8829-9b1fbf4531e8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: MF_DROP_MODE_1, MF_DROP_MODE_2, MF_DROP_MODE_3, MF_DROP_MODE_4, MF_DROP_MODE_5, MF_DROP_MODE_NONE, MF_NUM_DROP_MODES, MF_QUALITY_DROP_MODE, MF_QUALITY_DROP_MODE enumeration [Media Foundation], _MF_QUALITY_DROP_MODE, e40751d2-9abf-4fe6-8829-9b1fbf4531e8, mf.mf_quality_drop_mode, mfidl/MF_DROP_MODE_1, mfidl/MF_DROP_MODE_2, mfidl/MF_DROP_MODE_3, mfidl/MF_DROP_MODE_4, mfidl/MF_DROP_MODE_5, mfidl/MF_DROP_MODE_NONE, mfidl/MF_NUM_DROP_MODES, mfidl/MF_QUALITY_DROP_MODE
 ms.prod: windows
 ms.technology: windows-sdk

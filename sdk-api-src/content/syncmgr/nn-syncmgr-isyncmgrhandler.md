@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler.htm
 tech.root: shell
 ms.assetid: 39579030-1cf5-4e82-a5e7-cb3415903d02
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], ISyncMgrHandler interface [Windows Shell],described, _shell_ISyncMgrHandler, shell.ISyncMgrHandler, syncmgr/ISyncMgrHandler
 ms.prod: windows
 ms.technology: windows-sdk

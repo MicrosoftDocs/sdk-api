@@ -7,7 +7,7 @@ old-location: mediastreaming\ideviceicon.htm
 tech.root: mediastreaming
 ms.assetid: F86C9107-447D-47F7-A711-0687A30EF58E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: IDeviceIcon, IDeviceIcon interface [Media Streaming API], IDeviceIcon interface [Media Streaming API],described, mediastreaming.ideviceicon, windows/IDeviceIcon
 ms.prod: windows
 ms.technology: windows-sdk

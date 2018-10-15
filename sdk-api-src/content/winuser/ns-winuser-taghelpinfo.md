@@ -7,7 +7,7 @@ old-location: shell\HELPINFO_str.htm
 tech.root: shell
 ms.assetid: 8320fb68-294b-487b-ab5a-6611bb57cff0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: "*LPHELPINFO, HELPINFO, HELPINFO structure [Windows Shell], HELPINFO_MENUITEM, HELPINFO_WINDOW, LPHELPINFO, LPHELPINFO structure pointer [Windows Shell], _win32_HELPINFO_str, _win32_helpinfo_str_cpp, shell.HELPINFO_str, tagHELPINFO, winuser/HELPINFO, winuser/LPHELPINFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: BCryptSecretAgreement function
 author: windows-sdk-content
 description: Creates a secret agreement value from a private and a public key.
 old-location: security\bcryptsecretagreement.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
 ms.prod: windows-hardware
 ms.technology: windows-devices

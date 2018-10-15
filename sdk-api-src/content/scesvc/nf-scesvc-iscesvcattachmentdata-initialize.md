@@ -4,10 +4,10 @@ title: ISceSvcAttachmentData::Initialize
 author: windows-sdk-content
 description: The Initialize method informs the Security Configuration snap-in that the snap-in extension is loaded, and it establishes a context for communications.
 old-location: security\iscesvcattachmentdata_initialize.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 2c5d087d-774b-4cfb-a458-9a5b1c6106c7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: ISceSvcAttachmentData interface [Security],Initialize method, ISceSvcAttachmentData.Initialize, ISceSvcAttachmentData::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISceSvcAttachmentData interface, _config_iscesvcattachmentdata_initialize, scesvc/ISceSvcAttachmentData::Initialize, security.iscesvcattachmentdata_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

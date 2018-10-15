@@ -4,10 +4,10 @@ title: "_SR_RESOURCE_TYPE_ELIGIBLE_TARGET_DATADISKS"
 author: windows-sdk-content
 description: Describes a set of retrieved data disks that can be used as target sites for replication.
 old-location: mscs\sr_resource_type_query_eligible_target_datadisks.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 3179737F-E4E5-4123-ACFE-235BD0579C52
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS structure pointer [Failover Cluster], SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS, SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS structure [Failover Cluster], _SR_RESOURCE_TYPE_ELIGIBLE_TARGET_DATADISKS, clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS, clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS, mscs.sr_resource_type_query_eligible_target_datadisks"
 ms.prod: windows
 ms.technology: windows-sdk

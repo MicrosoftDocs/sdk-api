@@ -4,10 +4,10 @@ title: PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2
 author: windows-sdk-content
 description: Retrieves a handle to a notification event.
 old-location: mscs\getnotifyeventhandle.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: DCA68080-B405-47E9-BC35-613EA56D1E59
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 callback, PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, mscs.getnotifyeventhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ If the operation fails, the function returns a system error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
  
 
  

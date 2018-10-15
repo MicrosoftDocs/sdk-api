@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole.h
 tech.root: WinAuto
 ms.assetid: 9159e114-edc6-4dfa-b32f-a5a786dabe99
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CurrentRole property [Windows Accessibility], CurrentRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentRole property, IUIAutomationLegacyIAccessiblePattern.CurrentRole, IUIAutomationLegacyIAccessiblePattern.get_CurrentRole, IUIAutomationLegacyIAccessiblePattern::CurrentRole, IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, get_CurrentRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

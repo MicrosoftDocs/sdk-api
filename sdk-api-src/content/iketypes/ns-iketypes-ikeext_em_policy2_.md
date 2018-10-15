@@ -4,10 +4,10 @@ title: IKEEXT_EM_POLICY2_
 author: windows-sdk-content
 description: Is used to store AuthIP's extended mode negotiation policy.
 old-location: fwp\ikeext_em_policy2.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 01e3122b-812f-4c01-a514-dc0d513de822
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IKEEXT_EM_POLICY2, IKEEXT_EM_POLICY2 structure [Filtering], IKEEXT_EM_POLICY2_, fwp.ikeext_em_policy2, iketypes/IKEEXT_EM_POLICY2
 ms.prod: windows
 ms.technology: windows-sdk

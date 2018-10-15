@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetBrowserIndex.htm
 tech.root: shell
 ms.assetid: 293d7641-7858-4aa9-983c-6b25a05930d9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetBrowserIndex, GetBrowserIndex method [Windows Shell], GetBrowserIndex method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetBrowserIndex method, IBrowserService.GetBrowserIndex, IBrowserService::GetBrowserIndex, shdeprecated/IBrowserService::GetBrowserIndex, shell.IBrowserService_GetBrowserIndex, zone_IBrowserService_GetBrowserIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

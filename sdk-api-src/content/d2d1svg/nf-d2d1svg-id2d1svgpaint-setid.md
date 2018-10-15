@@ -4,10 +4,10 @@ title: ID2D1SvgPaint::SetId
 author: windows-sdk-content
 description: Sets the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.
 old-location: direct2d\id2d1svgpaint_setid.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: E9888C0D-6C71-4C41-ACD5-41BA8D6C04EE
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ID2D1SvgPaint interface [Direct2D],SetId method, ID2D1SvgPaint.SetId, ID2D1SvgPaint::SetId, SetId, SetId method [Direct2D], SetId method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetId, direct2d.id2d1svgpaint_setid
 ms.prod: windows-hardware
 ms.technology: windows-devices

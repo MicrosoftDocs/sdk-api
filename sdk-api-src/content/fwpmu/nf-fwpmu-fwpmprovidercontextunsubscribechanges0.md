@@ -4,10 +4,10 @@ title: FwpmProviderContextUnsubscribeChanges0 function
 author: windows-sdk-content
 description: Is used to cancel a provider context change subscription and stop receiving change notifications.
 old-location: fwp\fwpmprovidercontextunsubscribechanges0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 15c24c24-4aba-4570-aad2-56f8748c03e7
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmProviderContextUnsubscribeChanges0, FwpmProviderContextUnsubscribeChanges0 function [Filtering], fwp.fwpmprovidercontextunsubscribechanges0_func, fwpmu/FwpmProviderContextUnsubscribeChanges0
 ms.prod: windows-hardware
 ms.technology: windows-devices

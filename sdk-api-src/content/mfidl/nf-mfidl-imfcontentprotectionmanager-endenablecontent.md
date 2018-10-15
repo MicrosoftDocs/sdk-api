@@ -7,7 +7,7 @@ old-location: mf\imfcontentprotectionmanager_endenablecontent.htm
 tech.root: medfound
 ms.assetid: 10893a0c-5476-4b7d-aad7-845a4ba70335
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: 10893a0c-5476-4b7d-aad7-845a4ba70335, EndEnableContent, EndEnableContent method [Media Foundation], EndEnableContent method [Media Foundation],IMFContentProtectionManager interface, IMFContentProtectionManager interface [Media Foundation],EndEnableContent method, IMFContentProtectionManager.EndEnableContent, IMFContentProtectionManager::EndEnableContent, mf.imfcontentprotectionmanager_endenablecontent, mfidl/IMFContentProtectionManager::EndEnableContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

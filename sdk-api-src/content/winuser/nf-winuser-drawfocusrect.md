@@ -7,7 +7,7 @@ old-location: gdi\drawfocusrect.htm
 tech.root: gdi
 ms.assetid: a910d04f-fe4d-4fc9-a518-abac864da6f3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: DrawFocusRect, DrawFocusRect function [Windows GDI], _win32_DrawFocusRect, gdi.drawfocusrect, winuser/DrawFocusRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ This function draws a rectangle that cannot be scrolled. To scroll an area conta
 
 #### Examples
 
-For an example, see "Creating an Owner-Drawn List Box" in <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Using List Boxes</a>.
+For an example, see "Creating an Owner-Drawn List Box" in <a href="_win32_Using_List_Boxes_cpp">Using List Boxes</a>.
 
 <div class="code"></div>
 

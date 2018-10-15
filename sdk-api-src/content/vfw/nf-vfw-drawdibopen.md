@@ -7,7 +7,7 @@ old-location: multimedia\drawdibopen.htm
 tech.root: Multimedia
 ms.assetid: bf0f0c56-df07-455e-9e00-38dc94ababb3
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: DrawDibOpen, DrawDibOpen function [Windows Multimedia], _win32_DrawDibOpen, multimedia.drawdibopen, vfw/DrawDibOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

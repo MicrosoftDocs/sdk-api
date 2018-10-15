@@ -7,7 +7,7 @@ old-location: winauto\accsetrunningutilitystate.htm
 tech.root: WinAuto
 ms.assetid: 0AEDDE0D-D8E2-4C9E-AB2B-2FF0ACC3695D
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: ANRUS_ON_SCREEN_KEYBOARD_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE_NODUCK, ANRUS_TOUCH_MODIFICATION_ACTIVE, AccSetRunningUtilityState, AccSetRunningUtilityState function [Windows Accessibility], oleacc/AccSetRunningUtilityState, winauto.accsetrunningutilitystate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -188,9 +188,13 @@ This function requires the calling process to have UIAccess or higher privileges
 
 This code example shows how to call the <b>AccSetRunningUtilityState</b> function.
 
-
-```cpp
-if (SUCCEEDED(hr))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr))
 {
     // Tell the system that an AT application has registered with the 
     // touch redirector.
@@ -202,10 +206,10 @@ if (SUCCEEDED(hr))
         MyErrorHandler(hr); // Application-defined error handler
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

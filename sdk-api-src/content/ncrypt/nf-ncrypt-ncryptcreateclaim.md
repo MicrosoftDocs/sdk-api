@@ -4,10 +4,10 @@ title: NCryptCreateClaim function
 author: windows-sdk-content
 description: Creates a key attestation claim.
 old-location: security\ncryptcreateclaim.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: EBEE3A67-0693-4B85-88B1-580CB2152703
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: NCryptCreateClaim, NCryptCreateClaim function [Security], ncrypt/NCryptCreateClaim, security.ncryptcreateclaim
 ms.prod: windows-hardware
 ms.technology: windows-devices

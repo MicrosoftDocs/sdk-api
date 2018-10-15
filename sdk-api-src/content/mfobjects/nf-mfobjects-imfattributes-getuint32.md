@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getuint32.htm
 tech.root: medfound
 ms.assetid: e47495e0-3274-4ce2-9fd3-d2fb2afb7578
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetUINT32, GetUINT32 method [Media Foundation], GetUINT32 method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUINT32 method, IMFAttributes.GetUINT32, IMFAttributes::GetUINT32, e47495e0-3274-4ce2-9fd3-d2fb2afb7578, mf.imfattributes_getuint32, mfobjects/IMFAttributes::GetUINT32
 ms.prod: windows-hardware
 ms.technology: windows-devices

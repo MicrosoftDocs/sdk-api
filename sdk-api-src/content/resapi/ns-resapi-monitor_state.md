@@ -4,10 +4,10 @@ title: MONITOR_STATE
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\monitor_state.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 2e5a1c19-4382-42de-8535-4bcf57a9b845
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: "*PMONITOR_STATE, MONITOR_STATE, MONITOR_STATE structure [Failover Cluster], PMONITOR_STATE, PMONITOR_STATE structure pointer [Failover Cluster], mscs.monitor_state, resapi/MONITOR_STATE, resapi/PMONITOR_STATE"
 ms.prod: windows
 ms.technology: windows-sdk

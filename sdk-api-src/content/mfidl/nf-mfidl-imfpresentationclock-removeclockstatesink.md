@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_removeclockstatesink.htm
 tech.root: medfound
 ms.assetid: c037183d-a81f-4f49-9e02-06dc2476471f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IMFPresentationClock interface [Media Foundation],RemoveClockStateSink method, IMFPresentationClock.RemoveClockStateSink, IMFPresentationClock::RemoveClockStateSink, RemoveClockStateSink, RemoveClockStateSink method [Media Foundation], RemoveClockStateSink method [Media Foundation],IMFPresentationClock interface, c037183d-a81f-4f49-9e02-06dc2476471f, mf.imfpresentationclock_removeclockstatesink, mfidl/IMFPresentationClock::RemoveClockStateSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

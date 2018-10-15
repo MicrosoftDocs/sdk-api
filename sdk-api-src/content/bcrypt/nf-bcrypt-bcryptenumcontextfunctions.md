@@ -4,10 +4,10 @@ title: BCryptEnumContextFunctions function
 author: windows-sdk-content
 description: Obtains the cryptographic functions for a context in the specified configuration table.
 old-location: security\bcryptenumcontextfunctions.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 81bdfd47-7001-4e63-a8b3-33dae99f2c66
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptEnumContextFunctions, BCryptEnumContextFunctions function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptEnumContextFunctions, security.bcryptenumcontextfunctions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -198,9 +198,9 @@ After this function returns, this value contains the number of bytes that were c
 
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa376220(v=VS.85).aspx">CRYPT_CONTEXT_FUNCTIONS</a> structure that receives the set of context functions retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="https://msdn.microsoft.com/c576f39c-a03a-47aa-90b7-500736070c6f">CRYPT_CONTEXT_FUNCTIONS</a> structure that receives the set of context functions retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
-If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa375445(v=VS.85).aspx">BCryptFreeBuffer</a> function.
+If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://msdn.microsoft.com/0ee83ca1-2fe6-4ff2-823e-888b3e66f310">BCryptFreeBuffer</a> function.
 
 If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the variable pointed to by the <i>pcbBuffer</i> parameter and return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
@@ -293,15 +293,19 @@ No context functions that match the specified criteria were found.
 
 The following example shows how to use the <b>BCryptEnumContextFunctions</b> function to enumerate the key storage functions for all contexts in the local-machine configuration table.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Bcrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Bcrypt.h&gt;
 #pragma comment(lib, "Bcrypt.lib")
 
 #ifndef NT_SUCCESS
-#define NT_SUCCESS(Status) ((NTSTATUS)(Status) >= 0)
+#define NT_SUCCESS(Status) ((NTSTATUS)(Status) &gt;= 0)
 #endif
 
 NTSTATUS EnumContextFunctions()
@@ -312,35 +316,35 @@ NTSTATUS EnumContextFunctions()
     
     // Get the contexts for the local machine. 
     // CNG will allocate the memory for us.
-    status = BCryptEnumContexts(CRYPT_LOCAL, &uSize, &pContexts);
+    status = BCryptEnumContexts(CRYPT_LOCAL, &amp;uSize, &amp;pContexts);
     if(NT_SUCCESS(status))
     {
         // Enumerate the context identifiers.
         for(ULONG uContextIndex = 0; 
-            uContextIndex < pContexts->cContexts; 
+            uContextIndex &lt; pContexts-&gt;cContexts; 
             uContextIndex++)
         {
             wprintf(L"Context functions for %s:\n", 
-                pContexts->rgpszContexts[uContextIndex]);
+                pContexts-&gt;rgpszContexts[uContextIndex]);
 
             // Get the functions for this context.
             // CNG will allocate the memory for us.
             PCRYPT_CONTEXT_FUNCTIONS pContextFunctions = NULL;
             status = BCryptEnumContextFunctions(
                 CRYPT_LOCAL, 
-                pContexts->rgpszContexts[uContextIndex], 
+                pContexts-&gt;rgpszContexts[uContextIndex], 
                 NCRYPT_SCHANNEL_INTERFACE, 
-                &uSize, 
-                &pContextFunctions);
+                &amp;uSize, 
+                &amp;pContextFunctions);
             if(NT_SUCCESS(status))
             {
                 // Enumerate the functions.
                 for(ULONG i = 0; 
-                    i < pContextFunctions->cFunctions; 
+                    i &lt; pContextFunctions-&gt;cFunctions; 
                     i++)
                 {
                     wprintf(L"\t%s\n", 
-                        pContextFunctions->rgpszFunctions[i]);
+                        pContextFunctions-&gt;rgpszFunctions[i]);
                 }
 
                 // Free the context functions buffer.
@@ -354,10 +358,10 @@ NTSTATUS EnumContextFunctions()
 
     return status;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -366,7 +370,7 @@ NTSTATUS EnumContextFunctions()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376220(v=VS.85).aspx">CRYPT_CONTEXT_FUNCTIONS</a>
+<a href="https://msdn.microsoft.com/c576f39c-a03a-47aa-90b7-500736070c6f">CRYPT_CONTEXT_FUNCTIONS</a>
  
 
  

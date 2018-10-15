@@ -7,7 +7,7 @@ old-location: security\cms_key_info.htm
 tech.root: seccrypto
 ms.assetid: 4aec1184-d375-48a0-8b98-d5ff5932d297
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: "*PCMS_KEY_INFO, CMS_KEY_INFO, CMS_KEY_INFO structure [Security], PCMS_KEY_INFO, PCMS_KEY_INFO structure pointer [Security], _CMS_KEY_INFO, security.cms_key_info, wincrypt/CMS_KEY_INFO, wincrypt/PCMS_KEY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

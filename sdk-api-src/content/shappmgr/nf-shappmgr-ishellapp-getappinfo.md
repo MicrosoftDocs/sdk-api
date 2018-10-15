@@ -7,7 +7,7 @@ old-location: shell\IShellApp_GetAppInfo.htm
 tech.root: shell
 ms.assetid: 8842c12e-2b59-49d6-8140-5a402509a0dd
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetAppInfo, GetAppInfo method [Windows Shell], GetAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetAppInfo method, IShellApp.GetAppInfo, IShellApp::GetAppInfo, inet_IShellApp_GetAppInfo, shappmgr/IShellApp::GetAppInfo, shell.IShellApp_GetAppInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,30 +100,34 @@ Add/Remove Programs in the Control Panel will set the dwMask member of the <a hr
 
 Here is a sample of how to use the dwMask bits::
 
-
-```cpp
-HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
 {
-    if (sizeof(APPINFODATA) != pData->cbSize)
+    if (sizeof(APPINFODATA) != pData-&gt;cbSize)
         return E_FAIL;
 
     // First save off the mask of requested data items.
 
-    const DWORD dwMask = pData->dwMask;
+    const DWORD dwMask = pData-&gt;dwMask;
 
     // Zero-out the mask.  Bits will be set as items are obtained. 
 
-    pData->dwMask = 0;
+    pData-&gt;dwMask = 0;
 
     // Call an internal function that obtains data and sets
-    // bits in pData->dwMask for each item obtained.
+    // bits in pData-&gt;dwMask for each item obtained.
 
     return get_app_info_data(pData, dwMask);
 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

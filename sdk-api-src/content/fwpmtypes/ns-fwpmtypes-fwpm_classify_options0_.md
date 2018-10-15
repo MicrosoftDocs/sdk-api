@@ -4,10 +4,10 @@ title: FWPM_CLASSIFY_OPTIONS0_
 author: windows-sdk-content
 description: The FWPM_CLASSIFY_OPTIONS0 structure is used to store FWPM_CLASSIFY_OPTION0 structures.
 old-location: fwp\fwpm_classify_options0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 5d1f7807-4188-4a57-83fc-99683254e3a5
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FWPM_CLASSIFY_OPTIONS0, FWPM_CLASSIFY_OPTIONS0 structure [Filtering], FWPM_CLASSIFY_OPTIONS0_, fwp.fwpm_classify_options0, fwpmtypes/FWPM_CLASSIFY_OPTIONS0
 ms.prod: windows
 ms.technology: windows-sdk

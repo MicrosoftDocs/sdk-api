@@ -4,10 +4,10 @@ title: BufferedPaintInit function
 author: windows-sdk-content
 description: Initialize buffered painting for the current thread.
 old-location: controls\BufferedPaintInit.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintinit.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: BufferedPaintInit, BufferedPaintInit function [Windows Controls], _shell_BufferedPaintInit, _shell_BufferedPaintInit_cpp, controls.BufferedPaintInit, controls._shell_BufferedPaintInit, uxtheme/BufferedPaintInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,13 +77,13 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<b>BufferedPaintInit</b> is called before <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb773252(v=VS.85).aspx">BeginBufferedAnimation</a> for each thread that uses these functions.
+<b>BufferedPaintInit</b> is called before <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a> or <a href="https://msdn.microsoft.com/ca7204b3-3166-4911-96f9-16a0f59ecb09">BeginBufferedAnimation</a> for each thread that uses these functions.
 
-Each call to <b>BufferedPaintInit</b> should be matched with a call to <a href="https://msdn.microsoft.com/en-us/library/Bb773284(v=VS.85).aspx">BufferedPaintUnInit</a> when calls to buffered paint APIs are no longer needed. 
+Each call to <b>BufferedPaintInit</b> should be matched with a call to <a href="https://msdn.microsoft.com/e6d3cae8-2f4a-4436-99c0-0606eccd3048">BufferedPaintUnInit</a> when calls to buffered paint APIs are no longer needed. 
 			An application may call this API multiple times, as long as each call to <b>BufferedPaintInit</b> is balanced with a call to <b>BufferedPaintUnInit</b>.
 
 
-This function only needs to be called once in the lifetime of a thread. Typically, this function is called before creating the main application window, or during <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a>. Call <a href="https://msdn.microsoft.com/en-us/library/Bb773284(v=VS.85).aspx">BufferedPaintUnInit</a> after destroying the window, or during <a href="https://msdn.microsoft.com/en-us/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a>.
+This function only needs to be called once in the lifetime of a thread. Typically, this function is called before creating the main application window, or during <a href="https://msdn.microsoft.com/d484d0fc-bad0-4fcb-bf4b-37cbc50846ee">WM_CREATE</a>. Call <a href="https://msdn.microsoft.com/e6d3cae8-2f4a-4436-99c0-0606eccd3048">BufferedPaintUnInit</a> after destroying the window, or during <a href="https://msdn.microsoft.com/64ab268d-0e90-4401-81d3-a4da64196001">WM_NCDESTROY</a>.
 
 
 

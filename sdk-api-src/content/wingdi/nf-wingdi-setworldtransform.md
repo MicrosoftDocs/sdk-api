@@ -7,7 +7,7 @@ old-location: gdi\setworldtransform.htm
 tech.root: gdi
 ms.assetid: d103a4dd-949e-4f18-ac90-bb0e51011233
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: SetWorldTransform, SetWorldTransform function [Windows GDI], _win32_SetWorldTransform, gdi.setworldtransform, wingdi/SetWorldTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

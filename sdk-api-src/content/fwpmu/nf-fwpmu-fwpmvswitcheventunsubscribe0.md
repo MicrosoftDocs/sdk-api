@@ -4,10 +4,10 @@ title: FwpmvSwitchEventUnsubscribe0 function
 author: windows-sdk-content
 description: Is used to cancel a vSwitch event subscription and stop receiving notifications.
 old-location: fwp\fwpmvswitcheventunsubscribe0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: adc258b4-c4ee-4ff8-8174-42c58377ea32
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmvSwitchEventUnsubscribe0, FwpmvSwitchEventUnsubscribe0 function [Filtering], fwp.fwpmvswitcheventunsubscribe0, fwpmu/FwpmvSwitchEventUnsubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices

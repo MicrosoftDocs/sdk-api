@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_minorbuild_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2vdw.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxServer interface [Fax Service],MinorBuild property, IFaxServer.MinorBuild, IFaxServer.get_MinorBuild, IFaxServer::MinorBuild, IFaxServer::get_MinorBuild, MinorBuild property [Fax Service], MinorBuild property [Fax Service],IFaxServer interface, _mfax_faxserver.minorbuild, fax._mfax_faxserver_cpp_mfax_faxserver_minorbuild_cpp, fax._mfax_faxserver_minorbuild, faxcomex/IFaxServer::MinorBuild, faxcomex/IFaxServer::get_MinorBuild, get_MinorBuild
 ms.prod: windows-hardware
 ms.technology: windows-devices

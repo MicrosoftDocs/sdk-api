@@ -7,7 +7,7 @@ old-location: mf\mfcreatesourcereaderfrommediasource.htm
 tech.root: medfound
 ms.assetid: 924e1813-b025-435b-9770-52503a9eb619
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaSource function [Media Foundation], mf.mfcreatesourcereaderfrommediasource, mfreadwrite/MFCreateSourceReaderFromMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

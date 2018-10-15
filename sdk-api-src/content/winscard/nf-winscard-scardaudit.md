@@ -128,7 +128,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -147,9 +147,13 @@ This function is not redirected. An application calling the <b>SCardAudit</b> fu
 
 #### Examples
 
-
-```cpp
-// hContext was set by a previous call to SCardEstablishContext.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// hContext was set by a previous call to SCardEstablishContext.
 lReturn = SCardAudit (hContext,
                       SCARD_AUDIT_CHV_SUCCESS);
 
@@ -158,9 +162,9 @@ if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardAudit - %x\n", lReturn);
     // Take appropriate action
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

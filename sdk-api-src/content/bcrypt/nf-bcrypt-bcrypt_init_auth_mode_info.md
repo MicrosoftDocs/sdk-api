@@ -4,10 +4,10 @@ title: BCRYPT_INIT_AUTH_MODE_INFO macro
 author: windows-sdk-content
 description: Initializes a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure for use in calls to BCryptEncrypt and BCryptDecrypt functions.
 old-location: security\bcrypt_init_auth_mode_info.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 5c825337-bd60-48e4-9d71-bfd1d38ab171
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_INIT_AUTH_MODE_INFO, BCRYPT_INIT_AUTH_MODE_INFO macro [Security], bcrypt/BCRYPT_INIT_AUTH_MODE_INFO, security.bcrypt_init_auth_mode_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>BCRYPT_INIT_AUTH_MODE_INFO</b> macro  initializes a <a href="https://msdn.microsoft.com/en-us/library/Cc562981(v=VS.85).aspx">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure for use in calls to <a href="https://msdn.microsoft.com/en-us/library/Aa375421(v=VS.85).aspx">BCryptEncrypt</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa375391(v=VS.85).aspx">BCryptDecrypt</a> functions.
+The <b>BCRYPT_INIT_AUTH_MODE_INFO</b> macro  initializes a <a href="https://msdn.microsoft.com/6c00f458-7198-44fe-bdb6-2c2eb9995bd9">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure for use in calls to <a href="https://msdn.microsoft.com/69fe4530-4b7c-40db-a85c-f9dc458735e7">BCryptEncrypt</a> and <a href="https://msdn.microsoft.com/62286f6b-0d57-4691-83fc-2b9a9740af71">BCryptDecrypt</a> functions.
 
 
 ## -parameters

@@ -4,10 +4,10 @@ title: LockFileEx function
 author: windows-sdk-content
 description: Locks the specified file for exclusive access by the calling process. This function can operate either synchronously or asynchronously and can request either an exclusive or a shared lock.
 old-location: fs\lockfileex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 30931ed0-495c-4b50-964a-c507d4ebc2be
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: LOCKFILE_EXCLUSIVE_LOCK, LOCKFILE_FAIL_IMMEDIATELY, LockFileEx, LockFileEx function [Files], _win32_lockfileex, base.lockfileex, fileapi/LockFileEx, fs.lockfileex, winbase/LockFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

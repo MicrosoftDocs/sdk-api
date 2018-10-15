@@ -7,7 +7,7 @@ old-location: shell\IHomeGroup_IsMember.htm
 tech.root: shell
 ms.assetid: 9ce98b11-46fd-4168-828d-a5ba8f71b7c9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.IsMember, IHomeGroup::IsMember, IsMember, IsMember method [Windows Shell], IsMember method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_IsMember, shell.IHomeGroup_IsMember, shobjidl_core/IHomeGroup::IsMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,12 +84,16 @@ The following code snippet shows how to create an instance of <a href="https://m
          
                 
 
-
-```
-#include "shobjidl.h"
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include "shobjidl.h"
 #include "atlbase.h"   // For COM smart pointers
                     
-CComPtr<IHomeGroup> spHomeGroup;
+CComPtr&lt;IHomeGroup&gt; spHomeGroup;
 HRESULT hr = S_OK;
 BOOL fIsHGMember = FALSE;
 
@@ -101,16 +105,16 @@ if (FAILED(hr)) return hr;
 hr = CoCreateInstance(CLSID_HomeGroup, 
                       NULL, 
                       CLSCTX_INPROC_SERVER, 
-                      IID_PPV_ARGS(&spHomeGroup));
+                      IID_PPV_ARGS(&amp;spHomeGroup));
 
 if (FAILED(hr)) return hr;
 
 // fIsHGMember receives the value TRUE if the local computer is a member of a 
 // HomeGroup, or FALSE if the computer is not a HomeGroup member.
-hr = spHomeGroup->IsMember(&fIsHGMember);
-```
-
-
+hr = spHomeGroup-&gt;IsMember(&amp;fIsHGMember);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,7 +123,7 @@ hr = spHomeGroup->IsMember(&fIsHGMember);
 
 
 
-<a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a>
+<a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a>
 
 
 

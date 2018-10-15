@@ -7,7 +7,7 @@ old-location: winauto\uiauto_coalesceeventsoptions_enum.htm
 tech.root: WinAuto
 ms.assetid: 2CE5A02A-40B4-43BE-863E-08AD9B2A9F75
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CoalesceEventsOptions, CoalesceEventsOptions enumeration [Windows Accessibility], CoalesceEventsOptions_Disabled, CoalesceEventsOptions_Enabled, uiautomationclient/CoalesceEventsOptions, uiautomationclient/CoalesceEventsOptions_Disabled, uiautomationclient/CoalesceEventsOptions_Enabled, winauto.uiauto_coalesceeventsoptions_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Contains possible values for the <a href="winauto.uiauto_iuiautomation6_coalesceevents">CoalesceEvents</a> property, which indicates whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
 

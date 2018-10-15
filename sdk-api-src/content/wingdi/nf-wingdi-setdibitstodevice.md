@@ -7,7 +7,7 @@ old-location: gdi\setdibitstodevice.htm
 tech.root: gdi
 ms.assetid: 41225400-12e3-47ba-8b88-ac1d5b0fa90f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBitsToDevice, SetDIBitsToDevice function [Windows GDI], _win32_SetDIBitsToDevice, gdi.setdibitstodevice, wingdi/SetDIBitsToDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

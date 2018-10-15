@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retrydelay_cp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4309.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],RetryDelay property, IFaxOutgoingQueue.RetryDelay, IFaxOutgoingQueue.get_RetryDelay, IFaxOutgoingQueue.put_RetryDelay, IFaxOutgoingQueue::RetryDelay, IFaxOutgoingQueue::get_RetryDelay, IFaxOutgoingQueue::put_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.retrydelay, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retrydelay_cpp, fax._mfax_faxoutgoingqueue_retrydelay, faxcomex/IFaxOutgoingQueue::RetryDelay, faxcomex/IFaxOutgoingQueue::get_RetryDelay, faxcomex/IFaxOutgoingQueue::put_RetryDelay, put_RetryDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

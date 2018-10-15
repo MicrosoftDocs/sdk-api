@@ -4,10 +4,10 @@ title: "_RM_FILTER_INFO"
 author: windows-sdk-content
 description: Contains information about modifications to restart or shutdown actions.
 old-location: rstmgr\rm_filter_info.htm
-tech.root: RstMgr
+tech.root: rstmgr
 ms.assetid: b0fd12e4-20e3-48d1-a2db-c1e0334ed427
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PRM_FILTER_INFO, PRM_FILTER_INFO, PRM_FILTER_INFO structure pointer [Restart Mgr], RM_FILTER_INFO, RM_FILTER_INFO structure [Restart Mgr], _RM_FILTER_INFO, restartmanager/PRM_FILTER_INFO, restartmanager/RM_FILTER_INFO, rstmgr.rm_filter_info"
 ms.prod: windows
 ms.technology: windows-sdk

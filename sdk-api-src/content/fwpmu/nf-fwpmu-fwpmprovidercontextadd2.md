@@ -4,10 +4,10 @@ title: FwpmProviderContextAdd2 function
 author: windows-sdk-content
 description: Adds a new provider context to the system.
 old-location: fwp\fwpmprovidercontextadd2.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 07c6b1fc-55bb-4526-a24b-0e22f147e5cc
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmProviderContextAdd2, FwpmProviderContextAdd2 function [Filtering], fwp.fwpmprovidercontextadd2, fwpmu/FwpmProviderContextAdd2
 ms.prod: windows-hardware
 ms.technology: windows-devices

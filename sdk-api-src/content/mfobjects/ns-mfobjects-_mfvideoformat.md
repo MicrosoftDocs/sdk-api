@@ -7,7 +7,7 @@ old-location: mf\mfvideoformat.htm
 tech.root: medfound
 ms.assetid: 7fbc4a35-117c-4f0c-9e9b-ff44e30a1618
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: 7fbc4a35-117c-4f0c-9e9b-ff44e30a1618, MFVIDEOFORMAT, MFVIDEOFORMAT structure [Media Foundation], _MFVIDEOFORMAT, mf.mfvideoformat, mfobjects/MFVIDEOFORMAT
 ms.prod: windows
 ms.technology: windows-sdk

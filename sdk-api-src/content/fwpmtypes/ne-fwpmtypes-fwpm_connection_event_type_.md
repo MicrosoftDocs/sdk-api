@@ -4,10 +4,10 @@ title: FWPM_CONNECTION_EVENT_TYPE_
 author: windows-sdk-content
 description: Specifies the type of connection object change event.
 old-location: fwp\fwpm_connection_event_type.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 654b0b66-17b3-4108-af10-1047d07ab2ee
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FWPM_CONNECTION_EVENT_ADD, FWPM_CONNECTION_EVENT_DELETE, FWPM_CONNECTION_EVENT_MAX, FWPM_CONNECTION_EVENT_TYPE, FWPM_CONNECTION_EVENT_TYPE enumeration [Filtering], FWPM_CONNECTION_EVENT_TYPE_, fwp.fwpm_connection_event_type, fwpmtypes/FWPM_CONNECTION_EVENT_ADD, fwpmtypes/FWPM_CONNECTION_EVENT_DELETE, fwpmtypes/FWPM_CONNECTION_EVENT_MAX, fwpmtypes/FWPM_CONNECTION_EVENT_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

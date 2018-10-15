@@ -7,7 +7,7 @@ old-location: security\iocspproperty_name_method.htm
 tech.root: seccrypto
 ms.assetid: 33980a7c-0ae5-470b-a55a-f3e19c8846a6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IOCSPProperty interface [Security],Name property, IOCSPProperty.Name, IOCSPProperty.get_Name, IOCSPProperty::Name, IOCSPProperty::get_Name, Name property [Security], Name property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Name, certadm/IOCSPProperty::get_Name, get_Name, security.iocspproperty_name_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-For possible values of <i>pVal</i>, see <a href="https://msdn.microsoft.com/en-us/library/Aa386325(v=VS.85).aspx">OCSPServiceProperties</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa386372(v=VS.85).aspx">ProviderProperties</a>.
+For possible values of <i>pVal</i>, see <a href="https://msdn.microsoft.com/d792283b-dde9-46b7-8483-b3011b4433eb">OCSPServiceProperties</a> or <a href="https://msdn.microsoft.com/60ac0123-9696-4893-ae2a-278b4e70c098">ProviderProperties</a>.
 
 
 
@@ -73,7 +73,7 @@ For possible values of <i>pVal</i>, see <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386391(v=VS.85).aspx">IOCSPProperty</a>
+<a href="https://msdn.microsoft.com/854848f0-ea89-4c25-a8a5-40f1e4d229be">IOCSPProperty</a>
  
 
  

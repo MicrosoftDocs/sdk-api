@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefromwaveformatex.htm
 tech.root: medfound
 ms.assetid: 91a201a6-06cf-4445-ad62-fdabb3848d51
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: 91a201a6-06cf-4445-ad62-fdabb3848d51, MFInitMediaTypeFromWaveFormatEx, MFInitMediaTypeFromWaveFormatEx function [Media Foundation], mf.mfinitmediatypefromwaveformatex, mfapi/MFInitMediaTypeFromWaveFormatEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

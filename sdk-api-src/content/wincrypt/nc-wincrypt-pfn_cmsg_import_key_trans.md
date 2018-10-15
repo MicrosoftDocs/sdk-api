@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_import_key_trans.htm
 tech.root: seccrypto
 ms.assetid: ad8051a9-a8ca-47fc-8b4c-d6c085ff1db8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: PFN_CMSG_IMPORT_KEY_TRANS, PFN_CMSG_IMPORT_KEY_TRANS callback, PFN_CMSG_IMPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_import_key_trans, wincrypt/PFN_CMSG_IMPORT_KEY_TRANS
 ms.prod: windows
 ms.technology: windows-sdk

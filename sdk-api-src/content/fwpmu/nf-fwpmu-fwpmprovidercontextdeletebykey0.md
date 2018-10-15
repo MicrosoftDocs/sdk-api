@@ -4,10 +4,10 @@ title: FwpmProviderContextDeleteByKey0 function
 author: windows-sdk-content
 description: Removes a provider context from the system.
 old-location: fwp\fwpmprovidercontextdeletebykey0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 453ab1f7-d137-4252-9445-7195624a5465
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmProviderContextDeleteByKey0, FwpmProviderContextDeleteByKey0 function [Filtering], fwp.fwpmprovidercontextdeletebykey0_func, fwpmu/FwpmProviderContextDeleteByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

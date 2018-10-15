@@ -7,7 +7,7 @@ old-location: shell\IQueryAssociations_GetString.htm
 tech.root: shell
 ms.assetid: 72463664-783b-4375-a6ba-43633a82ec7e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetString, GetString method [Windows Shell], GetString method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetString method, IQueryAssociations.GetString, IQueryAssociations::GetString, _win32_IQueryAssociations_GetString, shell.IQueryAssociations_GetString, shlwapi/IQueryAssociations::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices

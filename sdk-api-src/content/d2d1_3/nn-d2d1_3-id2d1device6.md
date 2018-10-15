@@ -4,10 +4,10 @@ title: ID2D1Device6
 author: windows-sdk-content
 description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the ID2D1Device5 interface, plus it enables the creation of ID2D1DeviceContext6 objects.
 old-location: direct2d\id2d1device6.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 4C8AA3D6-E08E-45CE-958A-DBC8C9EB7B97
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ID2D1Device6, ID2D1Device6 interface [Direct2D], ID2D1Device6 interface [Direct2D],described, d2d1_3/ID2D1Device6, direct2d.id2d1device6
 ms.prod: windows
 ms.technology: windows-sdk

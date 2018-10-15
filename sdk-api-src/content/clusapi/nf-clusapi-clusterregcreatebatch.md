@@ -4,10 +4,10 @@ title: ClusterRegCreateBatch function
 author: windows-sdk-content
 description: Creates a batch that will execute commands on a cluster registry key.
 old-location: mscs\clusterregcreatebatch.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ClusterRegCreateBatch, ClusterRegCreateBatch function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH, clusapi/ClusterRegCreateBatch, mscs.clusterregcreatebatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ The pointer to the handle of the created batch.
 
 
 The function returns one of the following 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
 
 
 

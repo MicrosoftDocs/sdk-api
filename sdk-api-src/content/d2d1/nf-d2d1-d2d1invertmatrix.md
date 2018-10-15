@@ -4,10 +4,10 @@ title: D2D1InvertMatrix function
 author: windows-sdk-content
 description: Tries to invert the specified matrix.
 old-location: direct2d\d2d1invertmatrix.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: af01b6df-ada9-4e21-98f0-356b96d1017a
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: D2D1InvertMatrix, D2D1InvertMatrix function [Direct2D], d2d1/D2D1InvertMatrix, direct2d.d2d1invertmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Tries to invert the specified matrix.
 
 ### -param matrix [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The matrix to invert.
 

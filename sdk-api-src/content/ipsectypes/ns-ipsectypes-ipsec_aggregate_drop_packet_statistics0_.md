@@ -4,10 +4,10 @@ title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_
 author: windows-sdk-content
 description: Stores aggregate IPsec kernel packet drop statistics.Note  IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 is the specific implementation of IPSEC_AGGREGATE_DROP_PACKET_STATISTICS used in Windows Vista.
 old-location: fwp\ipsec_aggregate_drop_packet_statistics0_struct.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: f7c955af-97ec-4c27-a9de-d1498398608e
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0, IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 structure [Filtering], IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_, fwp.ipsec_aggregate_drop_packet_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

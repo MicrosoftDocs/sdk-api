@@ -4,10 +4,10 @@ title: IOCTL_DISK_FORMAT_TRACKS_EX
 author: windows-sdk-content
 description: Formats a specified, contiguous set of tracks on a floppy disk.
 old-location: fs\ioctl_disk_format_tracks_ex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 50ca069e-efc5-46d8-bf8f-ff44e1593a76
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS_EX, IOCTL_DISK_FORMAT_TRACKS_EX control, IOCTL_DISK_FORMAT_TRACKS_EX control code [Files], _win32_ioctl_disk_format_tracks_ex, base.ioctl_disk_format_tracks_ex, fs.ioctl_disk_format_tracks_ex, winioctl/IOCTL_DISK_FORMAT_TRACKS_EX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,9 +54,13 @@ Formats a specified, contiguous set of tracks on a floppy disk.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to device
   IOCTL_DISK_FORMAT_TRACKS_EX, // dwIoControlCode(LPVOID) lpInBuffer,         // input buffer 
   (DWORD) nInBufferSize,       // size of input buffer
@@ -64,10 +68,10 @@ BOOL DeviceIoControl(
   (DWORD) nOutBufferSize,      // size of output buffer
   (LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

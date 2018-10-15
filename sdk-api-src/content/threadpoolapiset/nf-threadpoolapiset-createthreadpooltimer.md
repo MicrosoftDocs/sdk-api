@@ -7,7 +7,7 @@ old-location: base\createthreadpooltimer.htm
 tech.root: ProcThread
 ms.assetid: 1fa98b79-e646-4e48-9979-1817d2c1b713
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: CreateThreadpoolTimer, CreateThreadpoolTimer function, base.createthreadpooltimer, threadpoolapiset/CreateThreadpoolTimer, winbase/CreateThreadpoolTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

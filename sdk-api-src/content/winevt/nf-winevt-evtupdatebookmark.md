@@ -4,10 +4,10 @@ title: EvtUpdateBookmark function
 author: windows-sdk-content
 description: Updates the bookmark with information that identifies the specified event.
 old-location: wes\evtupdatebookmark.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: aa31f0cf-b37a-40bb-922e-2b987b8a9dcf
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtUpdateBookmark, EvtUpdateBookmark function [EventLog], wes.evtupdatebookmark, winevt/EvtUpdateBookmark
 ms.prod: windows-hardware
 ms.technology: windows-devices

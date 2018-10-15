@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_GetAttributeValue.htm
 tech.root: WinAuto
 ms.assetid: a72e780e-30e3-4feb-8f47-46b9f1714061
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetAttributeValue method, ITextRangeProvider.GetAttributeValue, ITextRangeProvider::GetAttributeValue, uiauto.uiauto_ITextRangeProvider_GetAttributeValue, uiauto_ITextRangeProvider_GetAttributeValue, uiautomationcore/ITextRangeProvider::GetAttributeValue, winauto.uiauto_ITextRangeProvider_GetAttributeValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d211
 Receives one of the following. 
 
 <ul>
-<li>The address of an object representing the value of the specified attribute. The data type of the value varies depending on the specified attribute. For example, if <i>attributeId</i> is <a href="https://msdn.microsoft.com/en-us/library/Ee671662(v=VS.85).aspx">UIA_FontNameAttributeId</a>,  <b>GetAttributeValue</b> returns a string that represents the font name of the text range,  but if <i>attributeId</i> is <a href="https://msdn.microsoft.com/en-us/library/Ee671662(v=VS.85).aspx">UIA_IsItalicAttributeId</a>,  <b>GetAttributeValue</b> returns a boolean.
+<li>The address of an object representing the value of the specified attribute. The data type of the value varies depending on the specified attribute. For example, if <i>attributeId</i> is <a href="uiauto_textattribute_ids.htm">UIA_FontNameAttributeId</a>,  <b>GetAttributeValue</b> returns a string that represents the font name of the text range,  but if <i>attributeId</i> is <a href="uiauto_textattribute_ids.htm">UIA_IsItalicAttributeId</a>,  <b>GetAttributeValue</b> returns a boolean.
 
 
 

@@ -4,10 +4,10 @@ title: SystemTimeToTzSpecificLocalTime function
 author: windows-sdk-content
 description: Converts a time in Coordinated Universal Time (UTC) to a specified time zone's corresponding local time.
 old-location: base\systemtimetotzspecificlocaltime.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: f3a87ec2-67a0-418f-af6e-6c0b5547cffb
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: SystemTimeToTzSpecificLocalTime, SystemTimeToTzSpecificLocalTime function, _win32_systemtimetotzspecificlocaltime, base.systemtimetotzspecificlocaltime, timezoneapi/SystemTimeToTzSpecificLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

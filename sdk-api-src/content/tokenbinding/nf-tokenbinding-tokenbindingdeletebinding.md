@@ -4,10 +4,10 @@ title: TokenBindingDeleteBinding function
 author: windows-sdk-content
 description: Deletes the token binding key that is associated with the specified target string.
 old-location: security\tokenbindingdeletebinding.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 4258CC92-580E-403C-9AE4-4BB726255464
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: TokenBindingDeleteBinding, TokenBindingDeleteBinding function [Security], security.tokenbindingdeletebinding, tokenbinding/TokenBindingDeleteBinding
 ms.prod: windows-hardware
 ms.technology: windows-devices

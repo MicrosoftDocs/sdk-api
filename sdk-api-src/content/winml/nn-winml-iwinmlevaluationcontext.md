@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlevaluationcontext.htm
 tech.root: MachineLearning
 ms.assetid: D4C9B16A-B351-41E4-AD42-20C25F3CC404
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IWinMLEvaluationContext, IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,described, MachineLearning.iwinmlevaluationcontext, winml/IWinMLEvaluationContext
 ms.prod: windows
 ms.technology: windows-sdk

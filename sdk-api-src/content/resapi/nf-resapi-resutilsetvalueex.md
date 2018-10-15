@@ -4,10 +4,10 @@ title: ResUtilSetValueEx function
 author: windows-sdk-content
 description: Sets a value in the cluster database.
 old-location: mscs\resutilsetvalueex.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: AE0D9AF5-3161-453F-95FC-C759640AF58B
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ResUtilSetValueEx, ResUtilSetValueEx function [Failover Cluster], mscs.resutilsetvalueex, resapi/ResUtilSetValueEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

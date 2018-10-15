@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizehigh_
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4je0.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],SizeHigh property, IFaxOutgoingArchive.SizeHigh, IFaxOutgoingArchive.get_SizeHigh, IFaxOutgoingArchive::SizeHigh, IFaxOutgoingArchive::get_SizeHigh, SizeHigh property [Fax Service], SizeHigh property [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.sizehigh, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizehigh_cpp, fax._mfax_faxoutgoingarchive_sizehigh, faxcomex/IFaxOutgoingArchive::SizeHigh, faxcomex/IFaxOutgoingArchive::get_SizeHigh, get_SizeHigh
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialWithFieldOptions_GetFieldOption
 tech.root: shell
 ms.assetid: DE5E6F0E-F4FD-43ce-A1EB-F45C04C85239
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetFieldOptions, GetFieldOptions method [Windows Shell], GetFieldOptions method [Windows Shell],ICredentialProviderCredentialWithFieldOptions interface, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],GetFieldOptions method, ICredentialProviderCredentialWithFieldOptions.GetFieldOptions, ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, credentialprovider/ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions_GetFieldOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The ID of the field in the logon or credential UI.
 
 ### -param options [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Hh706885(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS</a> value that, when this method returns successfully, receives one or more flags that specify the current options for the field.
+A pointer to an <a href="https://msdn.microsoft.com/6E8623D0-7FC3-4ccb-B17A-CB12A0508F15">CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS</a> value that, when this method returns successfully, receives one or more flags that specify the current options for the field.
 
 
 ## -returns
@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706917(v=VS.85).aspx">ICredentialProviderCredentialEvents2::SetFieldOptions</a>
+<a href="https://msdn.microsoft.com/5507E8DE-5746-4031-900B-3EF5C97BC2EE">ICredentialProviderCredentialEvents2::SetFieldOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706918(v=VS.85).aspx">ICredentialProviderCredentialWithFieldOptions</a>
+<a href="https://msdn.microsoft.com/37C391D7-23C2-4053-BC7F-62F8AFD50DA3">ICredentialProviderCredentialWithFieldOptions</a>
  
 
  

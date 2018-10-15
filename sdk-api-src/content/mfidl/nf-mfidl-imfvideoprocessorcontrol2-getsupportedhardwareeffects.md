@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol2_getsupportedhardwareeffects.htm
 tech.root: medfound
 ms.assetid: 0D5FE2B8-B8DD-40DE-8B41-40E773976BE6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetSupportedHardwareEffects, GetSupportedHardwareEffects method [Media Foundation], GetSupportedHardwareEffects method [Media Foundation],IMFVideoProcessorControl2 interface, IMFVideoProcessorControl2 interface [Media Foundation],GetSupportedHardwareEffects method, IMFVideoProcessorControl2.GetSupportedHardwareEffects, IMFVideoProcessorControl2::GetSupportedHardwareEffects, mf.imfvideoprocessorcontrol2_getsupportedhardwareeffects, mfidl/IMFVideoProcessorControl2::GetSupportedHardwareEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_LENGTH_INFO
 author: windows-sdk-content
 description: Retrieves the length of the specified disk, volume, or partition.
 old-location: fs\ioctl_disk_get_length_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8d4bd6e3-f0f3-40d6-b0ba-75155282f64a
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/10/2018
 ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Files], _win32_ioctl_disk_get_length_info, base.ioctl_disk_get_length_info, fs.ioctl_disk_get_length_info, winioctl/IOCTL_DISK_GET_LENGTH_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,18 +54,22 @@ Retrieves the length of the specified disk, volume, or partition.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,              // handle to device
   IOCTL_DISK_GET_LENGTH_INFO,    // dwIoControlCodeNULL,                          // lpInBuffer0,                             // nInBufferSize(LPVOID) lpOutBuffer,          // output buffer
   (DWORD) nOutBufferSize,        // size of output buffer
   (LPDWORD) lpBytesReturned,     // number of bytes returned
   (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

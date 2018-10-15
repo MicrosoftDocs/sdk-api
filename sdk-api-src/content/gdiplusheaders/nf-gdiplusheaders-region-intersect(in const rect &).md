@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Intersect_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionintersectmethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: Intersect, Intersect methods [GDI+], Region.Intersect, Region.Intersect(IN const Rect &), Region::Intersect, Region::Intersect(IN const Rect &), _gdiplus_CLASS_Region_Intersect_Methods, gdiplus._gdiplus_CLASS_Region_Intersect_Methods, gdiplusheaders/Intersect
 ms.prod: windows-hardware
 ms.technology: windows-devices

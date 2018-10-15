@@ -7,7 +7,7 @@ old-location: gdi\copyrect.htm
 tech.root: gdi
 ms.assetid: 9349ba83-59d6-49d0-ac9d-a4d9589748dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: CopyRect, CopyRect function [Windows GDI], _win32_CopyRect, gdi.copyrect, winuser/CopyRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

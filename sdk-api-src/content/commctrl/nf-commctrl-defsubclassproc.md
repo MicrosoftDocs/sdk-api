@@ -7,7 +7,7 @@ old-location: shell\DefSubclassProc.htm
 tech.root: shell
 ms.assetid: 43b1efa5-11da-4a95-8d81-b0d8ae64733a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: DefSubclassProc, DefSubclassProc function [Windows Shell], commctrl/DefSubclassProc, inet_DefSubclassProc, shell.DefSubclassProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ You do not need to call the default window procedure; this function calls it aut
 
 The SUBCLASS module defines helper functions that are used to subclass windows. The code maintains a single property on the subclassed window and dispatches various subclass callbacks to its clients as required. The client is provided reference data and a default processing API.
 
-A subclass callback is identified by a unique pairing of a callback function pointer and an unsigned ID value. Each callback can also store a single <b>DWORD</b> of reference data, which is passed to the callback function when it is called to filter messages. No reference counting is performed for the callback; it may repeatedly call <a href="https://msdn.microsoft.com/en-us/library/Bb762102(v=VS.85).aspx">SetWindowSubclass</a> to alter the value of its reference data element.
+A subclass callback is identified by a unique pairing of a callback function pointer and an unsigned ID value. Each callback can also store a single <b>DWORD</b> of reference data, which is passed to the callback function when it is called to filter messages. No reference counting is performed for the callback; it may repeatedly call <a href="https://msdn.microsoft.com/0b11144d-eb4e-462c-96d3-38c4bac48f2a">SetWindowSubclass</a> to alter the value of its reference data element.
 
 <div class="alert"><b>Warning</b>  You cannot use the subclassing helper functions to subclass a window across threads.</div>
 <div> </div>
@@ -117,15 +117,15 @@ A subclass callback is identified by a unique pairing of a callback function poi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776430(v=VS.85).aspx">GetWindowSubclass</a>
+<a href="https://msdn.microsoft.com/3969f18e-3e12-4770-8596-2c2c6519c2a7">GetWindowSubclass</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762094(v=VS.85).aspx">RemoveWindowSubclass</a>
+<a href="https://msdn.microsoft.com/09f27240-f3af-4791-afcb-a82bda79712a">RemoveWindowSubclass</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762102(v=VS.85).aspx">SetWindowSubclass</a>
+<a href="https://msdn.microsoft.com/0b11144d-eb4e-462c-96d3-38c4bac48f2a">SetWindowSubclass</a>
  
 
  

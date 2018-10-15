@@ -7,7 +7,7 @@ old-location: base\avrevertmmthreadcharacteristics.htm
 tech.root: ProcThread
 ms.assetid: 2ae0d34c-3819-46fa-9779-5de8a57e5281
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: AvRevertMmThreadCharacteristics, AvRevertMmThreadCharacteristics function, avrt/AvRevertMmThreadCharacteristics, base.avrevertmmthreadcharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices

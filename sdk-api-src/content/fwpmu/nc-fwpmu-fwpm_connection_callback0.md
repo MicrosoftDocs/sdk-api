@@ -4,10 +4,10 @@ title: FWPM_CONNECTION_CALLBACK0
 author: windows-sdk-content
 description: Is used to add custom behavior to the connection object subscription process.
 old-location: fwp\fwpm_connection_callback0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 92aac379-6145-4556-a4cd-6a27fda4d910
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FWPM_CONNECTION_CALLBACK0, FWPM_CONNECTION_CALLBACK0 callback, FWPM_CONNECTION_CALLBACK0 callback function [Filtering], fwp.fwpm_connection_callback0, fwpmu/FWPM_CONNECTION_CALLBACK0
 ms.prod: windows
 ms.technology: windows-sdk

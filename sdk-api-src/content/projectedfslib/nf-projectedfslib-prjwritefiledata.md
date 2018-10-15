@@ -7,7 +7,7 @@ old-location: projfs\prjwritefiledata.htm
 tech.root: ProjFS
 ms.assetid: A09D8E74-D574-41C6-A586-86E03839DA89
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: PrjWriteFileData, PrjWriteFileData function, ProjFS.prjwritefiledata, projectedfslib/PrjWriteFileData
 ms.prod: windows-hardware
 ms.technology: windows-devices

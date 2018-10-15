@@ -4,10 +4,10 @@ title: ITextRange::SetChar
 author: windows-sdk-content
 description: Sets the character at the starting position of the range.
 old-location: controls\ITextRange_SetChar.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setchar.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: ITextRange interface [Windows Controls],SetChar method, ITextRange.SetChar, ITextRange::SetChar, SetChar, SetChar method [Windows Controls], SetChar method [Windows Controls],ITextRange interface, _win32_ITextRange_SetChar, _win32_ITextRange_SetChar_cpp, controls.ITextRange_SetChar, controls._win32_ITextRange_SetChar, tom/ITextRange::SetChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,9 +118,13 @@ Frequently on systems that do not have automatic word-wrapping, documents have h
 
 
 
-
-```
-    Sub EnableWrap(r As ITextRange)   // Convert false hard CRs to soft
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    Sub EnableWrap(r As ITextRange)   // Convert false hard CRs to soft
         r.SetRange 0, 0               // r is set at start of story
         While r.Move(tomParagraph)    // Go to start of next paragraph
             If r.MoveWhile(C1_WHITE, 1) = 0 Then    // Next char isn't white space
@@ -128,19 +132,23 @@ Frequently on systems that do not have automatic word-wrapping, documents have h
                 r.SetChar = Asc(" ")    // Replace CR by blank
             End If
         Wend        // Loop till no more CRs in story
-    End Sub
-```
-
-
+    End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 Alternatively, you could use the following inside the IF loop.
 
-
-```
-r.MoveStart tomCharacter, -1        // Select previous char (the CR)
-r = " "        // Replace it with a blank
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>r.MoveStart tomCharacter, -1        // Select previous char (the CR)
+r = " "        // Replace it with a blank</pre>
+</td>
+</tr>
+</table></span></div>
 This approach enables you to wrap the text to other widths. However, the algorithm isn't perfect: it assumes that a hard carriage return that is followed by anything other than white space (blank, tab, line feed, carriage return, and so forth) should be replaced by a blank. The algorithm also assumes that the carriage return character is a single character like carriage return  or the Unicode end-of-paragraph (EOP) 0x2029 character. And, the combination carriage return and line feed isn't matched and would require writing and executing more code (or use <code>FindText(^p)</code>). Another caution is that there are other cases, such as mixed code and documentation, where the algorithm does not work correctly. 
 
 However, <b>ITextRange::SetChar</b> is more efficient than a replace operation that is accomplished by a delete followed by an insertion. Thus, rewriting the code without using <b>ITextRange::SetChar</b> would probably be much slower. 
@@ -159,7 +167,7 @@ The <i>Char</i> property, which can do most things that a characters collection 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -167,7 +175,7 @@ The <i>Char</i> property, which can do most things that a characters collection 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

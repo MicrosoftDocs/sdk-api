@@ -4,10 +4,10 @@ title: NCryptGetProtectionDescriptorInfo function
 author: windows-sdk-content
 description: Retrieves a protection descriptor rule string.
 old-location: security\ncryptgetprotectiondescriptorinfo.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: EF4777D5-E218-4868-8D25-58E0EF8C9D30
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: NCRYPT_PROTECTION_INFO_TYPE_DESCRIPTOR_STRING, NCryptGetProtectionDescriptorInfo, NCryptGetProtectionDescriptorInfo function [Security], ncryptprotect/NCryptGetProtectionDescriptorInfo, security.ncryptgetprotectiondescriptorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

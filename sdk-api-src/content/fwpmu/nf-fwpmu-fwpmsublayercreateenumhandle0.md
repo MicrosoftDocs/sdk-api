@@ -4,10 +4,10 @@ title: FwpmSubLayerCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of sublayers.
 old-location: fwp\fwpmsublayercreateenumhandle0_func.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: a8acff10-8395-4ef8-8976-7a99cd498a7d
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: FwpmSubLayerCreateEnumHandle0, FwpmSubLayerCreateEnumHandle0 function [Filtering], fwp.fwpmsublayercreateenumhandle0_func, fwpmu/FwpmSubLayerCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

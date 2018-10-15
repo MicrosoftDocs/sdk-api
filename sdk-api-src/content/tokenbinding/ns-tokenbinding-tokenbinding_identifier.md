@@ -4,10 +4,10 @@ title: TOKENBINDING_IDENTIFIER
 author: windows-sdk-content
 description: Contains the information for representing a token binding identifier that results from a token binding message exchange.
 old-location: security\tokenbinding_identifier.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 301E099E-B621-41E1-BF9B-3AF8C53F9227
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: TOKENBINDING_IDENTIFIER, TOKENBINDING_IDENTIFIER structure [Security], TOKENBINDING_SIGNATURE_ALGORITHM_ECDSAP256, TOKENBINDING_SIGNATURE_ALGORITHM_RSA, security.tokenbinding_identifier, tokenbinding/TOKENBINDING_IDENTIFIER
 ms.prod: windows
 ms.technology: windows-sdk

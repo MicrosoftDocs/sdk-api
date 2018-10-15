@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addnotificationevent
 tech.root: WinAuto
 ms.assetid: B7597727-76B9-4D8E-B247-6461815FA57E
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: AddNotificationEventHandler, AddNotificationEventHandler method [Windows Accessibility], AddNotificationEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddNotificationEventHandler method, IUIAutomationEventHandlerGroup.AddNotificationEventHandler, IUIAutomationEventHandlerGroup::AddNotificationEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddNotificationEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addnotificationeventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Registers a method that handles notification events.
 <div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div><div> </div>

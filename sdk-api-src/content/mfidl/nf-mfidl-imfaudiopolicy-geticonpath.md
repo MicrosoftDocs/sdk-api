@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy_geticonpath.htm
 tech.root: medfound
 ms.assetid: f2114f15-4357-4b5a-b384-695165d887de
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetIconPath, GetIconPath method [Media Foundation], GetIconPath method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetIconPath method, IMFAudioPolicy.GetIconPath, IMFAudioPolicy::GetIconPath, f2114f15-4357-4b5a-b384-695165d887de, mf.imfaudiopolicy_geticonpath, mfidl/IMFAudioPolicy::GetIconPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

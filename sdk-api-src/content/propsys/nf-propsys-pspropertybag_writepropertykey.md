@@ -60,9 +60,9 @@ Sets the property key value of a property in a property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -76,7 +76,7 @@ A null-terminated property name string.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that specifies the property key value to store in the property.
+A <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that specifies the property key value to store in the property.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845058(v=VS.85).aspx">PSPropertyBag_ReadPropertyKey</a>
+<a href="shell.PSPropertyBag_ReadPropertyKey">PSPropertyBag_ReadPropertyKey</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdi\emrsetarcdirection.htm
 tech.root: gdi
 ms.assetid: d33d329f-7f66-4995-b80f-656c96ea105b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: "*PEMRSETARCDIRECTION, EMRSETARCDIRECTION, EMRSETARCDIRECTION structure [Windows GDI], PEMRSETARCDIRECTION, PEMRSETARCDIRECTION structure pointer [Windows GDI], _win32_EMRSETARCDIRECTION_str, gdi.emrsetarcdirection, tagEMRSETARCDIRECTION, wingdi/EMRSETARCDIRECTION, wingdi/PEMRSETARCDIRECTION"
 ms.prod: windows
 ms.technology: windows-sdk

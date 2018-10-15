@@ -7,7 +7,7 @@ old-location: mf\imfasfsplitter_getselectedstreams.htm
 tech.root: medfound
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,21 +133,25 @@ To get the number of selected streams, set <i>pwStreamNumbers</i> to <b>NULL</b>
 
 The following code shows these steps:
 
-
-```cpp
-HRESULT DisplaySelectedStreams(IMFASFSplitter *pSplitter)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DisplaySelectedStreams(IMFASFSplitter *pSplitter)
 {
     WORD count = 0;
-    HRESULT hr = pSplitter->GetSelectedStreams(NULL, &count);
+    HRESULT hr = pSplitter-&gt;GetSelectedStreams(NULL, &amp;count);
     if (hr == MF_E_BUFFERTOOSMALL)
     {
         WORD *pStreamIds = new (std::nothrow) WORD[count];
         if (pStreamIds)
         {
-            hr = pSplitter->GetSelectedStreams(pStreamIds, &count);
+            hr = pSplitter-&gt;GetSelectedStreams(pStreamIds, &amp;count);
             if (SUCCEEDED(hr))
             {
-                for (WORD i = 0; i < count; i++)
+                for (WORD i = 0; i &lt; count; i++)
                 {
                     printf("Selected stream ID: %d\n", pStreamIds[i]);
                 }
@@ -161,10 +165,10 @@ HRESULT DisplaySelectedStreams(IMFASFSplitter *pSplitter)
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Alternatively, you can allocate an array that is equal to the total number of streams and pass that to <i>pwStreamNumbers</i>.
 
 Before calling this method, initialize <code>*pwNumStreams</code>  to the number of elements in <i>pwStreamNumbers</i>. If <i>pwStreamNumbers</i> is <b>NULL</b>, set <code>*pwNumStreams</code> to zero.

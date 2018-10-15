@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser.htm
 tech.root: shell
 ms.assetid: 138d90e3-a1f0-4faf-88ca-16c7a46df0ca
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IShellBrowser, IShellBrowser interface [Windows Shell], IShellBrowser interface [Windows Shell],described, _win32_IShellBrowser, shell.IShellBrowser, shobjidl_core/IShellBrowser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -198,9 +198,9 @@ Windows Explorer and the <b>Open File</b> common dialog box are examples of impl
 
 
 
-Objects that have access to the site chain of the browser can get a reference to the browser on <b>IShellBrowser</b> using  <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">IServiceProvider::QueryService</a>, with Service IDs such as SID_STopLevelBrowser and SID_SCommDlgBrowser. See the Knowledge Base article <a href="http://go.microsoft.com/fwlink/p/?linkid=200322">Retrieve the Top-Level IWebBrowser2 Interface from an ActiveX Control</a> for more information on using service IDs.
+Objects that have access to the site chain of the browser can get a reference to the browser on <b>IShellBrowser</b> using  <a href="_inet_IServiceProvider_QueryService_Method">IServiceProvider::QueryService</a>, with Service IDs such as SID_STopLevelBrowser and SID_SCommDlgBrowser. See the Knowledge Base article <a href="http://go.microsoft.com/fwlink/p/?linkid=200322">Retrieve the Top-Level IWebBrowser2 Interface from an ActiveX Control</a> for more information on using service IDs.
 
-<b>Windows 7 and later</b>.  Windows Explorer context menus  can support in-place navigation by using  <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">IServiceProvider::QueryService</a> with the Service ID SID_SlnPlaceBrowser.
+<b>Windows 7 and later</b>.  Windows Explorer context menus  can support in-place navigation by using  <a href="_inet_IServiceProvider_QueryService_Method">IServiceProvider::QueryService</a> with the Service ID SID_SlnPlaceBrowser.
 
 
 

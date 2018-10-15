@@ -4,10 +4,10 @@ title: D2D1_SPOTDIFFUSE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Spot-diffuse lighting effect.
 old-location: direct2d\d2d1_spotdiffuse_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 64F7B03C-DD29-4B23-9C8B-2D0390AD61B0
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: D2D1_SPOTDIFFUSE_PROP, D2D1_SPOTDIFFUSE_PROP enumeration [Direct2D], D2D1_SPOTDIFFUSE_PROP_COLOR, D2D1_SPOTDIFFUSE_PROP_DIFFUSE_CONSTANT, D2D1_SPOTDIFFUSE_PROP_FOCUS, D2D1_SPOTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, D2D1_SPOTDIFFUSE_PROP_LIGHT_POSITION, D2D1_SPOTDIFFUSE_PROP_LIMITING_CONE_ANGLE, D2D1_SPOTDIFFUSE_PROP_POINTS_AT, D2D1_SPOTDIFFUSE_PROP_SCALE_MODE, D2D1_SPOTDIFFUSE_PROP_SURFACE_SCALE, d2d1effects/D2D1_SPOTDIFFUSE_PROP, d2d1effects/D2D1_SPOTDIFFUSE_PROP_COLOR, d2d1effects/D2D1_SPOTDIFFUSE_PROP_DIFFUSE_CONSTANT, d2d1effects/D2D1_SPOTDIFFUSE_PROP_FOCUS, d2d1effects/D2D1_SPOTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_SPOTDIFFUSE_PROP_LIGHT_POSITION, d2d1effects/D2D1_SPOTDIFFUSE_PROP_LIMITING_CONE_ANGLE, d2d1effects/D2D1_SPOTDIFFUSE_PROP_POINTS_AT, d2d1effects/D2D1_SPOTDIFFUSE_PROP_SCALE_MODE, d2d1effects/D2D1_SPOTDIFFUSE_PROP_SURFACE_SCALE, direct2d.d2d1_spotdiffuse_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706326(v=VS.85).aspx">Spot-diffuse lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/9048D664-28DB-4DB6-9B95-3A61A1EDF5EC">Spot-diffuse lighting effect</a>.
         
 
 
@@ -149,7 +149,7 @@ The default value is {1.0f, 1.0f}.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934265(v=VS.85).aspx">D2D1_SPOTDIFFUSE_SCALE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/020EE783-9792-4A0F-AA1B-39B787007BEE">D2D1_SPOTDIFFUSE_SCALE_MODE</a>.
             
 
 The default value is D2D1_SPOTDIFFUSE_SCALE_MODE_LINEAR.

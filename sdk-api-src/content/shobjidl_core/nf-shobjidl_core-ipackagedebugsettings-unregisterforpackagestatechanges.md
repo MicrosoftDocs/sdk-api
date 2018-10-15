@@ -2,21 +2,21 @@
 UID: NF:shobjidl_core.IPackageDebugSettings.UnregisterForPackageStateChanges
 title: IPackageDebugSettings::UnregisterForPackageStateChanges
 author: windows-sdk-content
-description: Unregisters for changes in the state of the processes of the specified package.
-old-location: winrt\ipackagedebugsettings_unregisterforpackagestatechanges.htm
-tech.root: WinRT
-ms.assetid: 7EC7CCCB-1AE6-458C-A92C-4D303717EA15
+description: Stops receiving package state-change notifications associated with a previous call to RegisterForPackageStateChanges.
+old-location: shell\IPackageDebugSettings_UnregisterForPackageStateChanges.htm
+tech.root: shell
+ms.assetid: CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IPackageDebugSettings interface [Windows Runtime],UnregisterForPackageStateChanges method, IPackageDebugSettings.UnregisterForPackageStateChanges, IPackageDebugSettings::UnregisterForPackageStateChanges, UnregisterForPackageStateChanges, UnregisterForPackageStateChanges method [Windows Runtime], UnregisterForPackageStateChanges method [Windows Runtime],IPackageDebugSettings interface, shobjidl_core/IPackageDebugSettings::UnregisterForPackageStateChanges, winrt.ipackagedebugsettings_unregisterforpackagestatechanges
+ms.date: 10/10/2018
+ms.keywords: IPackageDebugSettings interface [Windows Shell],UnregisterForPackageStateChanges method, IPackageDebugSettings.UnregisterForPackageStateChanges, IPackageDebugSettings::UnregisterForPackageStateChanges, UnregisterForPackageStateChanges, UnregisterForPackageStateChanges method [Windows Shell], UnregisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_UnregisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::UnregisterForPackageStateChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - shobjidl_core.h
+ - Shobjidl_core.h
 api_name:
  - IPackageDebugSettings.UnregisterForPackageStateChanges
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Unregisters for changes in the state of the processes of the specified package.
+Stops receiving package state-change notifications associated with a previous call to <a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a>.
 
 
 ## -parameters
@@ -67,18 +67,23 @@ TBD
 
 #### - pdwCookie [in]
 
-Type: <b>DWORD</b>
-
-A cookie that was returned by <a href="https://msdn.microsoft.com/B53CF95C-FD40-45E2-869B-32F089986D13">RegisterForPackageStateChanges</a> to identify the registation to unregister. 
+The notification to cancel. This identifier is returned by a previous call to the  <a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a> method.
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Call the <b>UnregisterForPackageStateChanges</b> to stop receiving package state-change notifications associated with a previous call to the <a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a> method.
 
 
 
@@ -88,7 +93,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a>
+<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+
+
+
+<a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a>
  
 
  

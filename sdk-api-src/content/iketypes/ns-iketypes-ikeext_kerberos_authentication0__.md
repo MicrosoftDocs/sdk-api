@@ -4,10 +4,10 @@ title: IKEEXT_KERBEROS_AUTHENTICATION0__
 author: windows-sdk-content
 description: Contains information needed for preshared key authentication.
 old-location: fwp\ikeext_kerberos_authentication0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: 2dd626c2-4b70-450a-ad6a-a978f1d93bbf
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IKEEXT_KERBEROS_AUTHENTICATION0, IKEEXT_KERBEROS_AUTHENTICATION0 structure [Filtering], IKEEXT_KERBEROS_AUTHENTICATION0__, IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, fwp.ikeext_kerberos_authentication0, iketypes/IKEEXT_KERBEROS_AUTHENTICATION0
 ms.prod: windows
 ms.technology: windows-sdk

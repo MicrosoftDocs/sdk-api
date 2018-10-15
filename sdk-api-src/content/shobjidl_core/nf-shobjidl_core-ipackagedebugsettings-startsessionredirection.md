@@ -2,21 +2,21 @@
 UID: NF:shobjidl_core.IPackageDebugSettings.StartSessionRedirection
 title: IPackageDebugSettings::StartSessionRedirection
 author: windows-sdk-content
-description: Starts redirection for the specified session identifier.
-old-location: winrt\ipackagedebugsettings_startsessionredirection.htm
-tech.root: WinRT
-ms.assetid: 686CF2EC-CEE7-4E6A-9E97-9DD80AE89131
+description: Causes background tasks for the specified package to activate in the specified user session.
+old-location: shell\IPackageDebugSettings_StartSessionRedirection.htm
+tech.root: shell
+ms.assetid: a9f40c32-afbe-4f1f-9693-72a757d93a05
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IPackageDebugSettings interface [Windows Runtime],StartSessionRedirection method, IPackageDebugSettings.StartSessionRedirection, IPackageDebugSettings::StartSessionRedirection, StartSessionRedirection, StartSessionRedirection method [Windows Runtime], StartSessionRedirection method [Windows Runtime],IPackageDebugSettings interface, shobjidl_core/IPackageDebugSettings::StartSessionRedirection, winrt.ipackagedebugsettings_startsessionredirection
+ms.date: 10/10/2018
+ms.keywords: IPackageDebugSettings interface [Windows Shell],StartSessionRedirection method, IPackageDebugSettings.StartSessionRedirection, IPackageDebugSettings::StartSessionRedirection, StartSessionRedirection, StartSessionRedirection method [Windows Shell], StartSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartSessionRedirection, shobjidl_core/IPackageDebugSettings::StartSessionRedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - shobjidl_core.h
+ - Shobjidl_core.h
 api_name:
  - IPackageDebugSettings.StartSessionRedirection
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Starts redirection for the specified session identifier.
+Causes background tasks for the specified package to activate  in the specified user session.
 
 
 ## -parameters
@@ -60,23 +60,17 @@ Starts redirection for the specified session identifier.
 
 ### -param packageFullName [in]
 
-Type: <b>LPCWSTR</b>
-
 The package full name.
 
 
 ### -param sessionId [in]
 
-Type: <b>ULONG</b>
-
-The session identifier.
+The identifier of the session which background tasks are redirected to.
 
 
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -88,7 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a>
+<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+
+
+
+<a href="https://msdn.microsoft.com/6edd4f9a-c9e8-45eb-a86b-a04116530aad">StopSessionRedirection</a>
  
 
  

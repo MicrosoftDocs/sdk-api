@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: 4D92FFD9-1E83-4DE3-B20C-5203E4D7E3A2
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IUIAutomationEventHandlerGroup, IUIAutomationEventHandlerGroup interface [Windows Accessibility], IUIAutomationEventHandlerGroup interface [Windows Accessibility],described, uiautomationclient/IUIAutomationEventHandlerGroup, winauto.uiauto_IUIAutomationEventHandlerGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Exposes methods for adding one or more events to a  collection for bulk registration through the <a href="winauto.uauto_iuiautomation6_createeventhandlergroup">CreateEventHandlerGroup</a> and <a href="winauto.uiauto_iuiautomation6_addeventhandlergroup">AddEventHandlerGroup</a> methods defined in <a href="winauto.uiauto_IUIAutomation6">IUIAutomation6</a>. <div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div>
 <div> </div>

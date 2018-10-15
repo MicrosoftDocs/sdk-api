@@ -7,7 +7,7 @@ old-location: base\getprocessorsystemcycletime.htm
 tech.root: ProcThread
 ms.assetid: 231c2a26-4a2e-4c66-a652-eb9c886369b2
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: GetProcessorSystemCycleTime, GetProcessorSystemCycleTime function, base.getprocessorsystemcycletime, sysinfoapi/GetProcessorSystemCycleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

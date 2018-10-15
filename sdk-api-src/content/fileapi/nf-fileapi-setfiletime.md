@@ -4,10 +4,10 @@ title: SetFileTime function
 author: windows-sdk-content
 description: Sets the date and time that the specified file or directory was created, last accessed, or last modified.
 old-location: base\setfiletime.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 75d988e4-22a3-4084-a5f8-1fca73ccd542
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: SetFileTime, SetFileTime function, _win32_setfiletime, base.setfiletime, fileapi/SetFileTime, winbase/SetFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

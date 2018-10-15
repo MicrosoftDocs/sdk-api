@@ -4,10 +4,10 @@ title: ISceSvcAttachmentData::FreeBuffer
 author: windows-sdk-content
 description: The FreeBuffer method frees memory allocated by the Security Configuration snap-in.
 old-location: security\iscesvcattachmentdata_freebuffer.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 3645547e-5d6e-42df-802b-cf8b1a4c1e11
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],FreeBuffer method, ISceSvcAttachmentData.FreeBuffer, ISceSvcAttachmentData::FreeBuffer, _config_iscesvcattachmentdata_freebuffer, scesvc/ISceSvcAttachmentData::FreeBuffer, security.iscesvcattachmentdata_freebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

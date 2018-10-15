@@ -7,7 +7,7 @@ old-location: base\rtwqunjoinworkqueue.htm
 tech.root: ProcThread
 ms.assetid: 360f595a-ee9b-4979-a763-6d7cbf31d2ea
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: RtwqUnjoinWorkQueue, RtwqUnjoinWorkQueue function, base.rtwqunjoinworkqueue, rtworkq/RtwqUnjoinWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_IFaxConfiguration_AutoCreateAccountOnConnect.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\autocreateaccountonconnect.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: AutoCreateAccountOnConnect property [Fax Service], AutoCreateAccountOnConnect property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],AutoCreateAccountOnConnect property, IFaxConfiguration.AutoCreateAccountOnConnect, IFaxConfiguration.get_AutoCreateAccountOnConnect, IFaxConfiguration::AutoCreateAccountOnConnect, IFaxConfiguration::get_AutoCreateAccountOnConnect, IFaxConfiguration::put_AutoCreateAccountOnConnect, _mfax_IFaxConfiguration_AutoCreateAccountOnConnect, fax._mfax_IFaxConfiguration_AutoCreateAccountOnConnect, faxcomex/IFaxConfiguration::AutoCreateAccountOnConnect, faxcomex/IFaxConfiguration::get_AutoCreateAccountOnConnect, faxcomex/IFaxConfiguration::put_AutoCreateAccountOnConnect, get_AutoCreateAccountOnConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

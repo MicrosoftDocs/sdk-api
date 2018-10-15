@@ -7,7 +7,7 @@ old-location: security\cryptcatputmemberinfo.htm
 tech.root: seccrypto
 ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CryptCATPutMemberInfo, CryptCATPutMemberInfo function [Security], mscat/CryptCATPutMemberInfo, security.cryptcatputmemberinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

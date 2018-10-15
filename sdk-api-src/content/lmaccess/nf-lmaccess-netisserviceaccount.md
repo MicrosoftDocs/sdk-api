@@ -4,10 +4,10 @@ title: NetIsServiceAccount function
 author: windows-sdk-content
 description: Tests whether the specified standalone managed service account (sMSA) or group managed service account (gMSA) exists in the Netlogon store on the specified server.
 old-location: security\netisserviceaccount.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 975e7c0d-d803-4d78-99ed-d07369341674
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: NetIsServiceAccount, NetIsServiceAccount function [Security], lmaccess/NetIsServiceAccount, security.netisserviceaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

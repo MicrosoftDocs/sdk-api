@@ -4,10 +4,10 @@ title: BCryptDecrypt function
 author: windows-sdk-content
 description: Decrypts a block of data.
 old-location: security\bcryptdecrypt_func.htm
-tech.root: SecCNG
+tech.root: seccng
 ms.assetid: 62286f6b-0d57-4691-83fc-2b9a9740af71
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptDecrypt, BCryptDecrypt function [Security], bcrypt/BCryptDecrypt, security.bcryptdecrypt_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>BCryptDecrypt</b> function decrypts a block of data.
 
 ### -param hKey [in, out]
 
-The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <a href="https://msdn.microsoft.com/en-us/library/Aa375453(v=VS.85).aspx">BCryptGenerateSymmetricKey</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa375451(v=VS.85).aspx">BCryptGenerateKeyPair</a>, or <a href="https://msdn.microsoft.com/6b9683f4-10f2-40e4-9757-a1f01991bef7">BCryptImportKey</a>.
+The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <a href="https://msdn.microsoft.com/c55d714f-f47e-4ddf-97b9-985c0441bb2d">BCryptGenerateSymmetricKey</a>, <a href="https://msdn.microsoft.com/cdf0de2e-2445-45e3-91ba-89791a0c0642">BCryptGenerateKeyPair</a>, or <a href="https://msdn.microsoft.com/6b9683f4-10f2-40e4-9757-a1f01991bef7">BCryptImportKey</a>.
 
 
 ### -param pbInput [in]

@@ -4,10 +4,10 @@ title: EvtFormatMessage function
 author: windows-sdk-content
 description: Formats a message string.
 old-location: wes\evtformatmessage.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 744fe166-b12c-49d4-ab13-b2ef6a6f9625
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EvtFormatMessage, EvtFormatMessage function [EventLog], wes.evtformatmessage, winevt/EvtFormatMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

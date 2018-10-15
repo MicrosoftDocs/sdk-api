@@ -4,10 +4,10 @@ title: IKEEXT_AUTHENTICATION_METHOD0_
 author: windows-sdk-content
 description: Specifies various parameters for IKE/AuthIP authentication.
 old-location: fwp\ikeext_authentication_method0.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: ce11d9ac-2636-432b-9bc7-3509f52478d9
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IKEEXT_AUTHENTICATION_METHOD0, IKEEXT_AUTHENTICATION_METHOD0 structure [Filtering], IKEEXT_AUTHENTICATION_METHOD0_, fwp.ikeext_authentication_method0, iketypes/IKEEXT_AUTHENTICATION_METHOD0
 ms.prod: windows
 ms.technology: windows-sdk

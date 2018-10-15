@@ -4,10 +4,10 @@ title: "_EVT_QUERY_PROPERTY_ID"
 author: windows-sdk-content
 description: Defines the identifiers that identify the query information that you can retrieve.
 old-location: wes\evt_query_property_id.htm
-tech.root: WES
+tech.root: wes
 ms.assetid: 69a17378-088e-42e7-b7da-0ccc642f44d1
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: EVT_QUERY_PROPERTY_ID, EVT_QUERY_PROPERTY_ID enumeration [EventLog], EvtQueryNames, EvtQueryPropertyIdEND, EvtQueryStatuses, _EVT_QUERY_PROPERTY_ID, wes.evt_query_property_id, winevt/EVT_QUERY_PROPERTY_ID, winevt/EvtQueryNames, winevt/EvtQueryPropertyIdEND, winevt/EvtQueryStatuses
 ms.prod: windows
 ms.technology: windows-sdk

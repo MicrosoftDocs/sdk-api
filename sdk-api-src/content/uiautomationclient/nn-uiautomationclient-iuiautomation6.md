@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6.htm
 tech.root: WinAuto
 ms.assetid: FA42D0D0-E6D6-41C6-BCF1-6F9C02D2BE1D
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IUIAutomation6, IUIAutomation6 interface [Windows Accessibility], IUIAutomation6 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation6, winauto.uiauto_IUIAutomation6
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Extends the <a href="https://msdn.microsoft.com/BCF67DB0-DF5B-4CED-9C32-01F126494129">IUIAutomation5</a> interface to expose additional methods for controlling Microsoft UI Automation functionality.
 

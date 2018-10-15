@@ -7,7 +7,7 @@ old-location: mf\mfnet_proxysettings.htm
 tech.root: medfound
 ms.assetid: b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: MFNET_PROXYSETTINGS, MFNET_PROXYSETTINGS enumeration [Media Foundation], MFNET_PROXYSETTING_AUTO, MFNET_PROXYSETTING_BROWSER, MFNET_PROXYSETTING_MANUAL, MFNET_PROXYSETTING_NONE, _MFNET_PROXYSETTINGS, b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0, mf.mfnet_proxysettings, mfidl/MFNET_PROXYSETTINGS, mfidl/MFNET_PROXYSETTING_AUTO, mfidl/MFNET_PROXYSETTING_BROWSER, mfidl/MFNET_PROXYSETTING_MANUAL, mfidl/MFNET_PROXYSETTING_NONE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -62,15 +62,19 @@ KEYBOARD_ATTRIBUTES specifies the attributes of a keyboard.
 
 Specifies the keyboard type and subtype in a KEYBOARD_ID structure:
 
-
-```
-typedef struct _KEYBOARD_ID {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _KEYBOARD_ID {
   UCHAR  Type;
   UCHAR  Subtype;
-} KEYBOARD_ID, *PKEYBOARD_ID;
-```
-
-
+} KEYBOARD_ID, *PKEYBOARD_ID;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\StrStrNW.htm
 tech.root: shell
 ms.assetid: e7aac4c7-b2d5-43d8-97f5-1b11ebb24ee1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: StrStrNW, StrStrNW function [Windows Shell], _shell_StrStrNW, shell.StrStrNW, shlwapi/StrStrNW
 ms.prod: windows-hardware
 ms.technology: windows-devices

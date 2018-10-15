@@ -2,21 +2,21 @@
 UID: NF:shobjidl_core.IPackageDebugSettings.EnumerateBackgroundTasks
 title: IPackageDebugSettings::EnumerateBackgroundTasks
 author: windows-sdk-content
-description: Enumerates background tasks for the processes of the specified package.
-old-location: winrt\ipackagedebugsettings_enumeratebackgroundtasks.htm
-tech.root: WinRT
-ms.assetid: C86103F6-6893-483C-8237-CBBA71C784D2
+description: Gets the background tasks that are provided by the specified package.
+old-location: shell\IPackageDebugSettings_EnumerateBackgroundTasks.htm
+tech.root: shell
+ms.assetid: 14a516c8-fb15-41b6-807c-b14d81148e0e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: EnumerateBackgroundTasks, EnumerateBackgroundTasks method [Windows Runtime], EnumerateBackgroundTasks method [Windows Runtime],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Runtime],EnumerateBackgroundTasks method, IPackageDebugSettings.EnumerateBackgroundTasks, IPackageDebugSettings::EnumerateBackgroundTasks, shobjidl_core/IPackageDebugSettings::EnumerateBackgroundTasks, winrt.ipackagedebugsettings_enumeratebackgroundtasks
+ms.date: 10/10/2018
+ms.keywords: EnumerateBackgroundTasks, EnumerateBackgroundTasks method [Windows Shell], EnumerateBackgroundTasks method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnumerateBackgroundTasks method, IPackageDebugSettings.EnumerateBackgroundTasks, IPackageDebugSettings::EnumerateBackgroundTasks, shell.IPackageDebugSettings_EnumerateBackgroundTasks, shobjidl_core/IPackageDebugSettings::EnumerateBackgroundTasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - shobjidl_core.h
+ - Shobjidl_core.h
 api_name:
  - IPackageDebugSettings.EnumerateBackgroundTasks
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Enumerates background tasks for the processes of the specified package.
+Gets the background tasks that are provided by the specified package.
 
 
 ## -parameters
@@ -60,39 +60,38 @@ Enumerates background tasks for the processes of the specified package.
 
 ### -param packageFullName [in]
 
-Type: <b>LPCWSTR</b>
-
-The package full name.
+The package full name to query for background tasks.
 
 
 ### -param taskCount [out]
 
-Type: <b>ULONG*</b>
-
-A pointer to a variable that receives the number of background tasks that were enumerated.
+The count of <i>taskIds</i> and <i>taskNames</i> entries.
 
 
 ### -param taskIds [out]
 
-Type: <b>LPCGUID*</b>
-
-A pointer to memory space that receives a pointer to the array of IDs that represent all of the background tasks that were enumerated.
+An array of background task identifiers. You can use these identifiers in the <a href="https://msdn.microsoft.com/30ef83f0-cad1-4aee-9b70-0fe7189aff9e">ActivateBackgroundTask</a> method to activate specified tasks.
 
 
 ### -param taskNames [out]
 
-Type: <b>LPCWSTR**</b>
-
-A pointer to memory space that receives a pointer to the string of names for all of the background tasks that were enumerated.
+An array of task names that corresponds with background <i>taskIds</i>.
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Both parameters <i>taskIds</i> and <i>taskNames</i> have the same ordering of tasks. If you need to know the user-readable task name associated with <i>taskId[0]</i>, refer to <i>taskNames[0]</i>.
 
 
 
@@ -102,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a>
+<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
  
 
  

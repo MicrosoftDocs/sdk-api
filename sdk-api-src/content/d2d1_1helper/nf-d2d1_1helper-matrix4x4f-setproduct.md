@@ -4,10 +4,10 @@ title: Matrix4x4F::SetProduct
 author: windows-sdk-content
 description: Multiplies the two matrices and stores the result in this matrix.
 old-location: direct2d\matrix4x4f_setproduct.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: CC12D975-B08A-4671-9F61-CBAC343AC126
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: Matrix4x4F interface [Direct2D],SetProduct method, Matrix4x4F.SetProduct, Matrix4x4F::SetProduct, SetProduct, SetProduct method [Direct2D], SetProduct method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::SetProduct, direct2d.matrix4x4f_setproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,14 @@ Multiplies the two matrices and stores the result in this matrix.
 
 ### -param a [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
 
 The first matrix to multiply.
 
 
 ### -param b [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
 
 The second matrix to multiply.
 
@@ -86,7 +86,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

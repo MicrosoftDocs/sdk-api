@@ -4,10 +4,10 @@ title: ClusterRegReadBatchReplyNextCommand function
 author: windows-sdk-content
 description: Reads the next command from a read batch result.
 old-location: mscs\clusterregreadbatchreplynextcommand.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 4E0DEB5C-36AA-480C-913C-235DE9AEA58D
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/09/2018
 ms.keywords: ClusterRegReadBatchReplyNextCommand, ClusterRegReadBatchReplyNextCommand function [Failover Cluster], clusapi/ClusterRegReadBatchReplyNextCommand, mscs.clusterregreadbatchreplynextcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,12 +63,12 @@ Reads the next command from a read batch result.
 
 ### -param hRegReadBatchReply [in]
 
-A handle to a read batch result that was created by calling the <a href="https://msdn.microsoft.com/A164EB9F-290E-446E-98E9-95C6C3C3D00C">ClusterRegCloseReadBatch</a> function.  You must close this handle later by calling the  <a href="https://msdn.microsoft.com/en-us/library/Hh706742(v=VS.85).aspx">ClusterRegCloseReadBatchReply</a> function.
+A handle to a read batch result that was created by calling the <a href="https://msdn.microsoft.com/A164EB9F-290E-446E-98E9-95C6C3C3D00C">ClusterRegCloseReadBatch</a> function.  You must close this handle later by calling the  <a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a> function.
 
 
 ### -param pBatchCommand [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh706767(v=VS.85).aspx">CLUSTER_READ_BATCH_COMMAND</a> structure that contains information about the read command.
+A pointer to a <a href="https://msdn.microsoft.com/BE7D4B99-27C0-4CAA-BFDC-669737E17D86">CLUSTER_READ_BATCH_COMMAND</a> structure that contains information about the read command.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh706767(v=VS.8
 
 
 The function returns one of the following 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
 
 
 
@@ -95,7 +95,7 @@ The number of records in the read batch results is equal to the number of comman
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706767(v=VS.85).aspx">CLUSTER_READ_BATCH_COMMAND</a>
+<a href="https://msdn.microsoft.com/BE7D4B99-27C0-4CAA-BFDC-669737E17D86">CLUSTER_READ_BATCH_COMMAND</a>
 
 
 
@@ -103,7 +103,7 @@ The number of records in the read batch results is equal to the number of comman
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706742(v=VS.85).aspx">ClusterRegCloseReadBatchReply</a>
+<a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a>
  
 
  

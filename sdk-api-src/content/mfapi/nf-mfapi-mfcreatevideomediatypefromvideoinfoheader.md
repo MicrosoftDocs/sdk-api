@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomediatypefromvideoinfoheader.htm
 tech.root: medfound
 ms.assetid: 922ab0b5-2363-4073-9252-a71b79e03573
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: 922ab0b5-2363-4073-9252-a71b79e03573, MFCreateVideoMediaTypeFromVideoInfoHeader, MFCreateVideoMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfcreatevideomediatypefromvideoinfoheader, mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Ee663600(v=VS.85).aspx">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

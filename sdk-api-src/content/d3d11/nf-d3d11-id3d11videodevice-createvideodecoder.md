@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_createvideodecoder.htm
 tech.root: medfound
 ms.assetid: 7EC2C7C3-F2EB-4357-BD53-308ABFFC9BE8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: CreateVideoDecoder, CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoDecoder method, ID3D11VideoDevice.CreateVideoDecoder, ID3D11VideoDevice::CreateVideoDecoder, d3d11/ID3D11VideoDevice::CreateVideoDecoder, mf.id3d11videodevice_createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

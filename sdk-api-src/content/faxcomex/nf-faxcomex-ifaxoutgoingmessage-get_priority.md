@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_priority_
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_92ex.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Priority property, IFaxOutgoingMessage.Priority, IFaxOutgoingMessage.get_Priority, IFaxOutgoingMessage::Priority, IFaxOutgoingMessage::get_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.priority, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_priority_cpp, fax._mfax_faxoutgoingmessage_priority, faxcomex/IFaxOutgoingMessage::Priority, faxcomex/IFaxOutgoingMessage::get_Priority, get_Priority
 ms.prod: windows-hardware
 ms.technology: windows-devices

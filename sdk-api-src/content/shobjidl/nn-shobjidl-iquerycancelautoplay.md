@@ -7,7 +7,7 @@ old-location: shell\IQueryCancelAutoPlay.htm
 tech.root: shell
 ms.assetid: 7dd470cd-163b-43e1-80d9-cdaa8b615858
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: IQueryCancelAutoPlay, IQueryCancelAutoPlay interface [Windows Shell], IQueryCancelAutoPlay interface [Windows Shell],described, _shell_IQueryCancelAutoPlay, shell.IQueryCancelAutoPlay, shobjidl/IQueryCancelAutoPlay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ A valid use of <b>IQueryCancelAutoPlay</b> is illustrated in the following scena
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc144202(v=VS.85).aspx">Autoplay in Windows XP: Automatically Detect and React to New Devices on a System</a>
+<a href="autoplay">Autoplay in Windows XP: Automatically Detect and React to New Devices on a System</a>
  
 
  

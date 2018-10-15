@@ -4,10 +4,10 @@ title: RtlInterlockedPushEntrySList function
 author: windows-sdk-content
 description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlinterlockedpushentryslist.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 0d52bc3a-9f43-4bc2-99c2-1a0efa7b29cd
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function, base.rtlinterlockedpushentryslist, winnt/RtlInterlockedPushEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices

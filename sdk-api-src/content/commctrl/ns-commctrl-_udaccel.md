@@ -4,10 +4,10 @@ title: "_UDACCEL"
 author: windows-sdk-content
 description: Contains acceleration information for an up-down control.
 old-location: controls\UDACCEL.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\updown\structures\udaccel.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: "*LPUDACCEL, LPUDACCEL, LPUDACCEL structure pointer [Windows Controls], UDACCEL, UDACCEL structure [Windows Controls], _UDACCEL, _win32_UDACCEL, _win32_UDACCEL_cpp, commctrl/LPUDACCEL, commctrl/UDACCEL, controls.UDACCEL, controls._win32_UDACCEL"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Contains acceleration information for an up-down control.
 
 ### -field nSec
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Amount of elapsed time, in seconds, before the position change increment specified by 
 					<b>nInc</b> is used. 
@@ -68,7 +68,7 @@ Amount of elapsed time, in seconds, before the position change increment specifi
 
 ### -field nInc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Position change increment to use after the time specified by 
 					<b>nSec</b> elapses. 

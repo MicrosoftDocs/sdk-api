@@ -4,10 +4,10 @@ title: IPSEC_TOKEN_PRINCIPAL_
 author: windows-sdk-content
 description: An access token principal.
 old-location: fwp\ipsec_token_principal.htm
-tech.root: FWP
+tech.root: fwp
 ms.assetid: f61944aa-2545-4fdd-8bae-6271d4535acc
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: IPSEC_TOKEN_PRINCIPAL, IPSEC_TOKEN_PRINCIPAL enumeration [Filtering], IPSEC_TOKEN_PRINCIPAL_, IPSEC_TOKEN_PRINCIPAL_LOCAL, IPSEC_TOKEN_PRINCIPAL_MAX, IPSEC_TOKEN_PRINCIPAL_PEER, fwp.ipsec_token_principal, ipsectypes/IPSEC_TOKEN_PRINCIPAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_LOCAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_MAX, ipsectypes/IPSEC_TOKEN_PRINCIPAL_PEER
 ms.prod: windows
 ms.technology: windows-sdk

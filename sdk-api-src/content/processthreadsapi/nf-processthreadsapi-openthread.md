@@ -7,7 +7,7 @@ old-location: base\openthread.htm
 tech.root: ProcThread
 ms.assetid: d020ecc5-89d1-4a0d-a197-15a66e269e86
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/10/2018
 ms.keywords: OpenThread, OpenThread function, _win32_openthread, base.openthread, processthreadsapi/OpenThread, winbase/OpenThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

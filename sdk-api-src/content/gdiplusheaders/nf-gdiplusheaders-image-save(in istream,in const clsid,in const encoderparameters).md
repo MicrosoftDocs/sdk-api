@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Save_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesavemethods.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 ms.keywords: Image.Save, Image.Save(IN IStream,IN const CLSID,IN const EncoderParameters), Image::Save, Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters), Save, Save methods [GDI+], _gdiplus_CLASS_Image_Save_Methods, gdiplus._gdiplus_CLASS_Image_Save_Methods, gdiplusheaders/Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,8 +52,8 @@ req.redist:
 
 <span>This topic lists the 
 			Save methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> class. For a complete list of methods for the 
-			<b>Image</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms535366(v=VS.85).aspx">Image Methods</a>.
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> class. For a complete list of methods for the 
+			<b>Image</b> class, see <a href="https://msdn.microsoft.com/70dbe346-790c-47e3-8e85-6154fc340982">Image Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -62,19 +62,19 @@ req.redist:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535407(v=VS.85).aspx">Save(WCHAR*,CLSID*,EncoderParameters*)</a>
+<a href="https://msdn.microsoft.com/e2c57259-fe82-40dc-86a3-3f4110e6c0ee">Save(WCHAR*,CLSID*,EncoderParameters*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535407(v=VS.85).aspx">Image::Save</a> method saves this image to a file.
+The <a href="https://msdn.microsoft.com/e2c57259-fe82-40dc-86a3-3f4110e6c0ee">Image::Save</a> method saves this image to a file.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535406(v=VS.85).aspx">Save(IStream*,CLSID*,EncoderParameters*)</a>
+<a href="https://msdn.microsoft.com/6387b64d-4510-42a8-9f35-5e1577f6c2cb">Save(IStream*,CLSID*,EncoderParameters*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535406(v=VS.85).aspx">Image::Save</a> method saves this image to a stream.
+The <a href="https://msdn.microsoft.com/6387b64d-4510-42a8-9f35-5e1577f6c2cb">Image::Save</a> method saves this image to a stream.
 
 </td>
 </tr>

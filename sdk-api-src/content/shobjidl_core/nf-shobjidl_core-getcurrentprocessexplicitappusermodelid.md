@@ -7,7 +7,7 @@ old-location: shell\GetCurrentProcessExplicitAppUserModelID.htm
 tech.root: shell
 ms.assetid: d3af052b-1f58-4c56-914b-a8283aceef5b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/10/2018
 ms.keywords: GetCurrentProcessExplicitAppUserModelID, GetCurrentProcessExplicitAppUserModelID function [Windows Shell], _shell_GetCurrentProcessExplicitAppUserModelID, _shell_GetCurrentProcessExplicitAppUserModelID_cpp, shell.GetCurrentProcessExplicitAppUserModelID, shobjidl_core/GetCurrentProcessExplicitAppUserModelID
 ms.prod: windows-hardware
 ms.technology: windows-devices

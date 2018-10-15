@@ -7,7 +7,7 @@ old-location: gdi\scalewindowextex.htm
 tech.root: gdi
 ms.assetid: c34f0978-74dd-4839-99f2-a106f3d2c0f9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/10/2018
 ms.keywords: ScaleWindowExtEx, ScaleWindowExtEx function [Windows GDI], _win32_ScaleWindowExtEx, gdi.scalewindowextex, wingdi/ScaleWindowExtEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,15 +107,19 @@ If the function fails, the return value is zero.
 
 The window extents are modified as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     xNewWE = (xOldWE * Xnum) / Xdenom 
     yNewWE = (yOldWE * Ynum) / Ydenom 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
