@@ -2,12 +2,13 @@
 UID: NA:systemmediatransportcontrolsinterop
 ms.assetid: fcfbb073-ac49-3b82-bfbf-200fe034062c
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mediatransport
+archived: true
 ---
 
 # Systemmediatransportcontrolsinterop.h header

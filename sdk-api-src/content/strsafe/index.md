@@ -2,7 +2,7 @@
 UID: NA:strsafe
 ms.assetid: 78dcf013-3681-341c-ba02-94f4150489b6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

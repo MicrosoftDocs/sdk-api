@@ -2,7 +2,7 @@
 UID: TP:hyperv
 ms.assetid: 61481173-288c-3c51-981d-d766e94aef88
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

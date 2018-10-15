@@ -2,7 +2,7 @@
 UID: NA:d3d9caps
 ms.assetid: 9e673793-a9e8-36aa-ba1d-9887d36549c5
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

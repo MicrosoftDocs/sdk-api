@@ -2,12 +2,13 @@
 UID: NA:wmp
 ms.assetid: decba095-2dbc-3d2b-9f9a-dbd7dd739bd9
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
+archived: true
 ---
 
 # Wmp.h header

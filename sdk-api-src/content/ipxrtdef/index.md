@@ -2,7 +2,7 @@
 UID: NA:ipxrtdef
 ms.assetid: b37109dc-4bfd-32a5-8382-30f9516d3f3d
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

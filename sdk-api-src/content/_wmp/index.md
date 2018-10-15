@@ -2,11 +2,12 @@
 UID: TP:wmp
 ms.assetid: 3fef26d9-3534-3463-99c7-69be76d785ec
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
+archived: true
 ---
 
 # Windows Media Player SDK

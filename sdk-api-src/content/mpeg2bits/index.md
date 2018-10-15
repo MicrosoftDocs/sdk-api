@@ -2,12 +2,13 @@
 UID: NA:mpeg2bits
 ms.assetid: 37fd74c2-5cd8-3b7c-8a05-3c6f72f309de
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mstv
+archived: true
 ---
 
 # Mpeg2Bits.h header

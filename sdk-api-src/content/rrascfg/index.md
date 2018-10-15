@@ -2,7 +2,7 @@
 UID: NA:rrascfg
 ms.assetid: 33fe5403-6b0a-3226-bec3-81a70b16d14e
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

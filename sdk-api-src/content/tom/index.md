@@ -2,7 +2,7 @@
 UID: NA:tom
 ms.assetid: 84a9101d-928d-31d6-bdda-1eeb41a87e0a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
