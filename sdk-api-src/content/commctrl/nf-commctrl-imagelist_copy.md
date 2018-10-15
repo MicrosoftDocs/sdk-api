@@ -88,7 +88,7 @@ The zero-based index of the image to be used as the source of the copy operation
 
 ### -param uFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 the bit flag value that specifies the type of copy operation to be made. This parameter can be one of the following values: 
 
@@ -125,7 +125,7 @@ The source and destination images exchange positions within the image list.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 

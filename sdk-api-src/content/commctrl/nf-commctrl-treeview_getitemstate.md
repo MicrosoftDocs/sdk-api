@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves some or all of a tree-view item's state attributes. You can use this macro or send the <a href="https://msdn.microsoft.com/89aaaa82-2809-4e4e-a325-5666a57c5cbb">TVM_GETITEMSTATE</a> message explicitly. 
+Retrieves some or all of a tree-view item's state attributes. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773614(v=VS.85).aspx">TVM_GETITEMSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves some or all of a tree-view item's state attributes. You can use this m
 
 ### -param hwndTV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -74,7 +74,7 @@ Handle to the item.
 
 ### -param mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
-Mask used to specify the states to query for. It is equivalent to the <b>stateMask</b> member of <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a>. 
+Mask used to specify the states to query for. It is equivalent to the <b>stateMask</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a>. 
 

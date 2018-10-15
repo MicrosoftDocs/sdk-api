@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Retrieves the canonical name of the property, given its <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
+Retrieves the canonical name of the property, given its <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Retrieves the canonical name of the property, given its <a href="shell.PROPERTYK
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that identifies the requested property.
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that identifies the requested property.
 
 
 ### -param ppszCanonicalName [out]
@@ -103,7 +103,7 @@ The property's canonical name is obtained.
 </dl>
 </td>
 <td width="60%">
-Indicates that the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+Indicates that the <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ It is the responsibility of the calling application to use <a href="https://msdn
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetNameFromPropertyKey">PSGetNameFromPropertyKey</a> to read a value from serialized property storage.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776502(v=VS.85).aspx">PSGetNameFromPropertyKey</a> to read a value from serialized property storage.
 
 
 ```cpp
@@ -149,19 +149,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.IPropertyDescription_GetCanonicalName">IPropertyDescription::GetCanonicalName</a>
+<a href="https://msdn.microsoft.com/library/Bb761525(v=VS.85).aspx">IPropertyDescription::GetCanonicalName</a>
 
 
 
-<a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a>
 
 
 
-<a href="shell.PSGetPropertyKeyFromName">PSGetPropertyKeyFromName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762081(v=VS.85).aspx">PSGetPropertyKeyFromName</a>
 
 
 
-<a href="shell.PSStringFromPropertyKey">PSStringFromPropertyKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762089(v=VS.85).aspx">PSStringFromPropertyKey</a>
  
 
  

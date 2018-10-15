@@ -94,12 +94,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function releases the memory and references held by each structure in the array before setting the structures to zero.
 
-This function performs the same action as <a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>, but returns an <b>HRESULT</b>.
+This function performs the same action as <a href="https://msdn.microsoft.com/en-us/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>, but returns an <b>HRESULT</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.FreePropVariantArray">FreePropVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>
 
 
 

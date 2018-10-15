@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The edge mode for the <a href="https://msdn.microsoft.com/D3D569F5-9496-4633-93E2-26665FFC3B37">Border effect</a>. 
+The edge mode for the <a href="https://msdn.microsoft.com/en-us/library/Hh706314(v=VS.85).aspx">Border effect</a>. 
 
 
 ## -enum-fields

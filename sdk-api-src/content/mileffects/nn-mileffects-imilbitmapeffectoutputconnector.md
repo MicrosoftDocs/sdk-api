@@ -70,16 +70,16 @@ The <b>IMILBitmapEffectOutputConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9912c276-9941-43da-a0c3-b54c1ac78727">GetConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735265(v=VS.85).aspx">GetConnection</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a> associated with the output connector.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a> associated with the output connector.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/336e5340-e394-4486-9e38-69744ea2d0cb">GetNumberConnections</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735266(v=VS.85).aspx">GetNumberConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of connections the output connector has.

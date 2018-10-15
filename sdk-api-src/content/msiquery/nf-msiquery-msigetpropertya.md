@@ -144,7 +144,7 @@ UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
 
 
 
-<a href="database_functions.htm">Installer State Access Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
 
 
 

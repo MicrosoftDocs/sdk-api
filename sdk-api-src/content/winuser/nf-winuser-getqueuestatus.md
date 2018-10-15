@@ -85,7 +85,7 @@ The types of messages for which to check. This parameter can be one or more of t
 </dl>
 </td>
 <td width="60%">
-An input, <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a>, <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>, <a href="https://msdn.microsoft.com/28d87c2f-b2bb-4176-910b-0addea6beb93">WM_HOTKEY</a>, or posted message is in the queue.
+An input, <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>, <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646279(v=VS.85).aspx">WM_HOTKEY</a>, or posted message is in the queue.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ A posted message (other than those listed here) is in the queue.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/28d87c2f-b2bb-4176-910b-0addea6beb93">WM_HOTKEY</a> message is in the queue.
+A <a href="https://msdn.microsoft.com/en-us/library/ms646279(v=VS.85).aspx">WM_HOTKEY</a> message is in the queue.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ An input message is in the queue.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/67d9d82d-fab0-4aec-a337-7a9cb2b0b586">WM_KEYUP</a>, <a href="https://msdn.microsoft.com/0e37149f-445c-4b20-ad68-fdf39428ac91">WM_KEYDOWN</a>, <a href="https://msdn.microsoft.com/a4f62575-fb84-4390-a1d1-1a62629de55f">WM_SYSKEYUP</a>, or <a href="https://msdn.microsoft.com/a3c03dbf-1be7-49ff-b931-1981786b74ce">WM_SYSKEYDOWN</a> message is in the queue.
+A <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646287(v=VS.85).aspx">WM_SYSKEYUP</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms646286(v=VS.85).aspx">WM_SYSKEYDOWN</a> message is in the queue.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ A <a href="https://msdn.microsoft.com/67d9d82d-fab0-4aec-a337-7a9cb2b0b586">WM_K
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> message or mouse-button message (<a href="https://msdn.microsoft.com/6efa298f-85f7-40ab-a64b-16b5071f2437">WM_LBUTTONUP</a>, <a href="https://msdn.microsoft.com/da1a7d7c-6e49-4097-8b43-dcee7bd5fb3f">WM_RBUTTONDOWN</a>, and so on).
+A <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message or mouse-button message (<a href="https://msdn.microsoft.com/en-us/library/ms645608(v=VS.85).aspx">WM_LBUTTONUP</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a>, and so on).
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ A <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_M
 </dl>
 </td>
 <td width="60%">
-A mouse-button message (<a href="https://msdn.microsoft.com/6efa298f-85f7-40ab-a64b-16b5071f2437">WM_LBUTTONUP</a>, <a href="https://msdn.microsoft.com/da1a7d7c-6e49-4097-8b43-dcee7bd5fb3f">WM_RBUTTONDOWN</a>, and so on).
+A mouse-button message (<a href="https://msdn.microsoft.com/en-us/library/ms645608(v=VS.85).aspx">WM_LBUTTONUP</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a>, and so on).
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ A mouse-button message (<a href="https://msdn.microsoft.com/6efa298f-85f7-40ab-a
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> message is in the queue.
+A <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message is in the queue.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ A posted message (other than those listed here) is in the queue.
 </dl>
 </td>
 <td width="60%">
-A raw input message is in the queue. For more information, see <a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>.
+A raw input message is in the queue. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>.
 
 <b>Windows 2000:  </b>This flag is not supported.
 
@@ -230,7 +230,7 @@ A message sent by another thread or application is in the queue.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> message is in the queue.
+A <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message is in the queue.
 
 </td>
 </tr>
@@ -245,7 +245,7 @@ A <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_T
 Type: <strong>Type: <b>DWORD</b>
 </strong>
 
-The high-order word of the return value indicates the types of messages currently in the queue. The low-order word indicates the types of messages that have been added to the queue and that are still in the queue since the last call to the <b>GetQueueStatus</b>, <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>, or <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a> function. 
+The high-order word of the return value indicates the types of messages currently in the queue. The low-order word indicates the types of messages that have been added to the queue and that are still in the queue since the last call to the <b>GetQueueStatus</b>, <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> function. 
 
 
 
@@ -254,9 +254,9 @@ The high-order word of the return value indicates the types of messages currentl
 
 
 
-The presence of a QS_ flag in the return value does not guarantee that a subsequent call to the <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a> or <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a> function will return a message. <b>GetMessage</b> and <b>PeekMessage</b> perform some internal filtering that may cause the message to be processed internally. For this reason, the return value from <b>GetQueueStatus</b> should be considered only a hint as to whether <b>GetMessage</b> or <b>PeekMessage</b> should be called. 
+The presence of a QS_ flag in the return value does not guarantee that a subsequent call to the <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> function will return a message. <b>GetMessage</b> and <b>PeekMessage</b> perform some internal filtering that may cause the message to be processed internally. For this reason, the return value from <b>GetQueueStatus</b> should be considered only a hint as to whether <b>GetMessage</b> or <b>PeekMessage</b> should be called. 
 
-The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a> or <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <b>PeekMessage</b> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <b>PeekMessage</b> multiple times to get messages in different ranges. 
+The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <b>PeekMessage</b> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <b>PeekMessage</b> multiple times to get messages in different ranges. 
 
 
 
@@ -270,19 +270,19 @@ The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they
 
 
 
-<a href="https://msdn.microsoft.com/5d76901c-bb7e-4a84-b449-f0d58ebf31d8">GetInputState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644935(v=VS.85).aspx">GetInputState</a>
 
 
 
-<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
 
 
 

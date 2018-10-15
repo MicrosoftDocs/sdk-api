@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Returned by the <a href="https://msdn.microsoft.com/bf588987-019b-402b-989c-8e868a697257">GetThemeMargins</a> function to define the margins of windows that have visual styles applied.
+Returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb759755(v=VS.85).aspx">GetThemeMargins</a> function to define the margins of windows that have visual styles applied.
 
 
 ## -struct-fields
@@ -91,7 +91,7 @@ Height of the bottom border that retains its size.
 
 
 
-<a href="https://msdn.microsoft.com/bf588987-019b-402b-989c-8e868a697257">GetThemeMargins</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb759755(v=VS.85).aspx">GetThemeMargins</a>
  
 
  

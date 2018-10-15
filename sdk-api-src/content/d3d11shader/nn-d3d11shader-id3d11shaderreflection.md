@@ -55,9 +55,9 @@ A shader-reflection interface accesses shader information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11ShaderReflection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D11ShaderReflection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ID3D11ShaderReflection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/095fc6e0-972a-43d1-9738-16d7f0846e26">GetBitwiseInstructionCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476611(v=VS.85).aspx">GetBitwiseInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of bitwise instructions.
@@ -88,7 +88,7 @@ Get a constant buffer by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b0e16c9-f45a-42d0-bd96-32dfa859b35d">GetConstantBufferByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476613(v=VS.85).aspx">GetConstantBufferByName</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer by name.
@@ -97,7 +97,7 @@ Get a constant buffer by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4876bcc8-44b6-4e26-9f0e-cd915b39acb8">GetConversionInstructionCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476614(v=VS.85).aspx">GetConversionInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of conversion instructions.
@@ -106,7 +106,7 @@ Gets the number of conversion instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88bebd52-5da0-473e-8f26-63a82ce99938">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476615(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a shader description.
@@ -115,7 +115,7 @@ Get a shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df34dc7e-e6aa-442d-905e-4ae11b62a781">GetGSInputPrimitive</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476616(v=VS.85).aspx">GetGSInputPrimitive</a>
 </td>
 <td align="left" width="63%">
 Gets the geometry-shader input-primitive description.
@@ -124,7 +124,7 @@ Gets the geometry-shader input-primitive description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6483634d-6050-4218-98ee-a7062efcbe64">GetInputParameterDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476617(v=VS.85).aspx">GetInputParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Get an input-parameter description for a shader.
@@ -133,7 +133,7 @@ Get an input-parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b10eb64b-18ff-4248-be6e-a9c45bce3e99">GetMinFeatureLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476618(v=VS.85).aspx">GetMinFeatureLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the minimum feature level.
@@ -142,7 +142,7 @@ Gets the minimum feature level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b732d024-cc94-4292-ad11-e51b5d9328ff">GetMovcInstructionCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476619(v=VS.85).aspx">GetMovcInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of Movc instructions.
@@ -151,7 +151,7 @@ Gets the number of Movc instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de12c547-90a8-48c5-911a-3b0c91001038">GetMovInstructionCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476620(v=VS.85).aspx">GetMovInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of Mov instructions.
@@ -160,7 +160,7 @@ Gets the number of Mov instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2182f64-0d0e-4b1c-a566-f33fe7a0b093">GetNumInterfaceSlots</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476621(v=VS.85).aspx">GetNumInterfaceSlots</a>
 </td>
 <td align="left" width="63%">
 Gets the number of interface slots in a shader.
@@ -169,7 +169,7 @@ Gets the number of interface slots in a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7fc27fae-d17a-4247-bd79-e02956890efd">GetOutputParameterDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476622(v=VS.85).aspx">GetOutputParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Get an output-parameter description for a shader.
@@ -178,7 +178,7 @@ Get an output-parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91a1a3ac-1dd4-4d91-aaea-196a99d5d684">GetPatchConstantParameterDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476623(v=VS.85).aspx">GetPatchConstantParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Get a patch-constant parameter description for a shader.
@@ -187,7 +187,7 @@ Get a patch-constant parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BC70E68A-8909-42F9-9AEE-017BA682D635">GetRequiresFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ542458(v=VS.85).aspx">GetRequiresFlags</a>
 </td>
 <td align="left" width="63%">
 Gets a group of flags that indicates the requirements of a shader.
@@ -196,7 +196,7 @@ Gets a group of flags that indicates the requirements of a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bd540f5-513d-4dd5-ab28-b0e8083231eb">GetResourceBindingDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476624(v=VS.85).aspx">GetResourceBindingDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description of how a resource is bound to a shader.
@@ -205,7 +205,7 @@ Get a description of how a resource is bound to a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4bddcc0-c2fd-4dac-b999-cfbe1d318777">GetResourceBindingDescByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476625(v=VS.85).aspx">GetResourceBindingDescByName</a>
 </td>
 <td align="left" width="63%">
 Get a description of how a resource is bound to a shader. 
@@ -214,7 +214,7 @@ Get a description of how a resource is bound to a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3f7b22d-75d6-4169-9336-26056c969195">GetThreadGroupSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff728742(v=VS.85).aspx">GetThreadGroupSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
@@ -223,7 +223,7 @@ Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c21756f-40f0-4459-852b-445053aa03e8">GetVariableByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476626(v=VS.85).aspx">GetVariableByName</a>
 </td>
 <td align="left" width="63%">
 Gets a variable by name.
@@ -232,7 +232,7 @@ Gets a variable by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e57cdb67-90b6-4d5d-967b-5de3a9bbaf78">IsSampleFrequencyShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476627(v=VS.85).aspx">IsSampleFrequencyShader</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a shader is a sample frequency shader.
@@ -246,7 +246,7 @@ Indicates whether a shader is a sample frequency shader.
 
 
 
-An <b>ID3D11ShaderReflection</b> interface can be retrieved for a shader by using  <a href="https://msdn.microsoft.com/601cc907-2878-4c9b-bc48-0575fd4479e8">D3DReflect</a>.  The following code illustrates retrieving a <b>ID3D11ShaderReflection</b>  from a shader.
+An <b>ID3D11ShaderReflection</b> interface can be retrieved for a shader by using  <a href="https://msdn.microsoft.com/en-us/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.  The following code illustrates retrieving a <b>ID3D11ShaderReflection</b>  from a shader.
           
 
 
@@ -268,11 +268,11 @@ D3DReflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBuffe
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476161(v=VS.85).aspx">Shader Interfaces</a>
  
 
  

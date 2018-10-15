@@ -91,9 +91,9 @@ Optional. Specifies the mapping mode to use in the converted metafile. For a lis
 
 ### -param eFlags [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/b45a2569-a1f8-4888-9dcd-518373f1ceb1">EmfToWmfBitsFlags</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlags</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/b45a2569-a1f8-4888-9dcd-518373f1ceb1">EmfToWmfBitsFlags</a> enumeration that specifies options for the conversion. The default value is <a href="https://msdn.microsoft.com/b45a2569-a1f8-4888-9dcd-518373f1ceb1">EmfToWmfBitsFlagsDefault</a>.
+Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlags</a> enumeration that specifies options for the conversion. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfToWmfBitsFlagsDefault</a>.
 
 
 ## -returns
@@ -114,7 +114,7 @@ If the method succeeds and the buffer pointer is <b>NULL</b>, the return value i
 
 When you call <b>Metafile::EmfToWmfBits</b> to determine the size of the required buffer, you must pass the same value for <i>eFlags</i> that you pass later when you call <b>Metafile::EmfToWmfBits</b> to perform the conversion. Otherwise, the size returned by the first call to <b>Metafile::EmfToWmfBits</b> will be incorrect.
 
-This method cannot convert metafiles of type <a href="https://msdn.microsoft.com/b45a2569-a1f8-4888-9dcd-518373f1ceb1">EmfTypeEmfPlusOnly</a>. If you use this method to convert a metafile of type <a href="https://msdn.microsoft.com/b45a2569-a1f8-4888-9dcd-518373f1ceb1">EmfTypeEmfPlusDual</a>, the Enhanced Metafile (EMF) records in that metafile are converted, but the EMF+ records are not converted.
+This method cannot convert metafiles of type <a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfTypeEmfPlusOnly</a>. If you use this method to convert a metafile of type <a href="https://msdn.microsoft.com/en-us/library/ms534113(v=VS.85).aspx">EmfTypeEmfPlusDual</a>, the Enhanced Metafile (EMF) records in that metafile are converted, but the EMF+ records are not converted.
 
 This method converts an enhanced metafile into a WMF metafile so that its picture can be displayed in an application that recognizes the older format.
 
@@ -176,7 +176,7 @@ delete[] buffer;
 
 
 
-<a href="https://msdn.microsoft.com/985c412f-10ba-4ce9-b0e1-89f5b643c22a">EmfType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a>
 
 
 
@@ -184,11 +184,11 @@ delete[] buffer;
 
 
 
-<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077">Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a href="https://msdn.microsoft.com/e4b99f11-cab0-4713-8112-aab93c78378d">DwmEnableBlurBehindWindow</a> function.
+Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969508(v=VS.85).aspx">DwmEnableBlurBehindWindow</a> function.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a hr
 
 ### -field dwFlags
 
-A bitwise combination of <a href="https://msdn.microsoft.com/d6dd552c-1f3b-4f16-8705-f5016ed55d9e">DWM Blur Behind</a> constant values that indicates which of the members of this structure have been set.
+A bitwise combination of <a href="https://msdn.microsoft.com/en-us/library/Aa969533(v=VS.85).aspx">DWM Blur Behind</a> constant values that indicates which of the members of this structure have been set.
 
 
 ### -field fEnable
