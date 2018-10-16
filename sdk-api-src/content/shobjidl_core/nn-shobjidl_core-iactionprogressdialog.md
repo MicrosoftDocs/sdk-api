@@ -7,7 +7,7 @@ old-location: shell\IActionProgressDialog.htm
 tech.root: shell
 ms.assetid: f3c0e4ae-f93f-4ee2-873a-d9370044e922
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IActionProgressDialog, IActionProgressDialog interface [Windows Shell], IActionProgressDialog interface [Windows Shell],described, _shell_IActionProgressDialog, shell.IActionProgressDialog, shobjidl_core/IActionProgressDialog
 ms.prod: windows
 ms.technology: windows-sdk

@@ -83,14 +83,18 @@ Returns an <b>HRESULT</b> value.
 
 Digital zoom is applied after the image is captured. The effect of digital zoom is to multiply the optical magnification by a factor <i>m</i>, which can be calculated as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 m = ( (Z'cur - Z'min) * (m-max - 1) ) / (Z'max - Z'min) ) + 1
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 where
 
 <ul>

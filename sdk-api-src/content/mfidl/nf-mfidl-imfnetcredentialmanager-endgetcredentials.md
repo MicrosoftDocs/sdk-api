@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialmanager_endgetcredentials.htm
 tech.root: medfound
 ms.assetid: 99914ded-1b9a-4373-9974-e1d1b1abd4e2
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 99914ded-1b9a-4373-9974-e1d1b1abd4e2, EndGetCredentials, EndGetCredentials method [Media Foundation], EndGetCredentials method [Media Foundation],IMFNetCredentialManager interface, IMFNetCredentialManager interface [Media Foundation],EndGetCredentials method, IMFNetCredentialManager.EndGetCredentials, IMFNetCredentialManager::EndGetCredentials, mf.imfnetcredentialmanager_endgetcredentials, mfidl/IMFNetCredentialManager::EndGetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

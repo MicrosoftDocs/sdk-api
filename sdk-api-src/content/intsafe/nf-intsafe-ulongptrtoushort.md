@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToUShort.htm
 tech.root: shell
 ms.assetid: 0d565dc6-833c-49b4-b01c-13762c946111
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ULongPtrToUShort, ULongPtrToUShort function [Windows Shell], intsafe/ULongPtrToUShort, shell.ULongPtrToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

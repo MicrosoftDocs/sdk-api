@@ -7,7 +7,7 @@ old-location: base\openprivatenamespace.htm
 tech.root: sync
 ms.assetid: 268b4932-2553-4883-8a26-002997fbc59e
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: OpenPrivateNamespace, OpenPrivateNamespace function, OpenPrivateNamespaceA, OpenPrivateNamespaceW, base.openprivatenamespace, winbase/OpenPrivateNamespace, winbase/OpenPrivateNamespaceA, winbase/OpenPrivateNamespaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

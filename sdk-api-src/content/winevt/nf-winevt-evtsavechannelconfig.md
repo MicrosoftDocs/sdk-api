@@ -7,7 +7,7 @@ old-location: wes\evtsavechannelconfig.htm
 tech.root: wes
 ms.assetid: 3f3eff67-24b6-448e-bb61-0bc851d9bdfa
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: EvtSaveChannelConfig, EvtSaveChannelConfig function [EventLog], wes.evtsavechannelconfig, winevt/EvtSaveChannelConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

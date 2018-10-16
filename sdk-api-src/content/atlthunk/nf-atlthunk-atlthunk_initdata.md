@@ -88,9 +88,13 @@ This function does not return a value.
 
 An ATL thunk has a signature of WNDPROC. See the following sample for more info on an implementation.
 
-
-```cpp
- LRESULT CALLBACK AtlThunk(  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> LRESULT CALLBACK AtlThunk(  
    _In_ HWND   hwnd,  
    _In_ UINT   uMsg,  
    _In_ WPARAM wParam, 
@@ -101,10 +105,10 @@ An ATL thunk has a signature of WNDPROC. See the following sample for more info 
    static WNDPROC Proc; 
    return Proc((HWND)FirstParameter, uMsg, wParam, lParam); 
  } 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 An arbitrary number of AtlThunk functions can be created; FirstParameter and Proc are set (differently) for each one.
 
 

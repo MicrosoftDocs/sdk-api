@@ -7,7 +7,7 @@ old-location: mf\mfgetattributestring.htm
 tech.root: medfound
 ms.assetid: 6CA416AB-5EA1-4A85-A421-1CDD3D111296
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: MFGetAttributeString, MFGetAttributeString function [Media Foundation], mf.mfgetattributestring, mfapi/MFGetAttributeString
 ms.prod: windows-hardware
 ms.technology: windows-devices

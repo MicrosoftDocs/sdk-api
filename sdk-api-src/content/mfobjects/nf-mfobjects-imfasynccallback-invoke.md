@@ -7,7 +7,7 @@ old-location: mf\imfasynccallback_invoke.htm
 tech.root: medfound
 ms.assetid: 22473605-637e-4783-a8cb-98248b0a0327
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 22473605-637e-4783-a8cb-98248b0a0327, IMFAsyncCallback interface [Media Foundation],Invoke method, IMFAsyncCallback.Invoke, IMFAsyncCallback::Invoke, Invoke, Invoke method [Media Foundation], Invoke method [Media Foundation],IMFAsyncCallback interface, mf.imfasynccallback_invoke, mfobjects/IMFAsyncCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

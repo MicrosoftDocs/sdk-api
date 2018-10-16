@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandlerVisuals_SetBackgroundColor.htm
 tech.root: shell
 ms.assetid: ebb261bf-6770-4302-9c0c-09388c07bdf2
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetBackgroundColor method, IPreviewHandlerVisuals.SetBackgroundColor, IPreviewHandlerVisuals::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Windows Shell], SetBackgroundColor method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetBackgroundColor, shell.IPreviewHandlerVisuals_SetBackgroundColor, shobjidl_core/IPreviewHandlerVisuals::SetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

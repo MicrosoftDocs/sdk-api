@@ -7,7 +7,7 @@ old-location: direct2d\layerparameters1.htm
 tech.root: direct2d
 ms.assetid: 8E882B23-CD6C-4CEB-9297-837B4E278BB7
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: LayerParameters1, LayerParameters1 function [Direct2D], d2d1_1helper/LayerParameters1, direct2d.layerparameters1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Hh847947(v=VS.85).aspx">D2D1_LAYER_PARAMETERS1</a> struct that contains the content bounds, mask information, opacity settings, and other options for a layer resource.
+Returns a <a href="https://msdn.microsoft.com/D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A">D2D1_LAYER_PARAMETERS1</a> struct that contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Returns a <a href="https://msdn.microsoft.com/en-us/library/Hh847947(v=VS.85).as
 
 ### -param contentBounds [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
 The content bounds of the layer. Content outside these bounds is not guaranteed to render.
 
@@ -74,14 +74,14 @@ The geometric mask specifies the area of the layer that is composited into the r
 
 ### -param maskAntialiasMode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368061(v=VS.85).aspx">D2D1_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE</a></b>
 
 A value that specifies the antialiasing mode for the geometricMask.  
 
 
 ### -param maskTransform
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 A value that specifies the transform that is applied to the geometric mask when composing the layer.
 
@@ -103,7 +103,7 @@ is mapped to the layer, and the alpha channel of each mapped brush pixel is mult
 
 ### -param layerOptions
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh997712(v=VS.85).aspx">D2D1_LAYER_OPTIONS1</a></b>
+Type: <b><a href="https://msdn.microsoft.com/13C9EDE7-A1D0-4359-8EF3-77FF763B9244">D2D1_LAYER_OPTIONS1</a></b>
 
 Additional options for the layer creation.
 
@@ -112,7 +112,7 @@ Additional options for the layer creation.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh847947(v=VS.85).aspx">D2D1_LAYER_PARAMETERS1</a></b>
+Type: <b><a href="https://msdn.microsoft.com/D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A">D2D1_LAYER_PARAMETERS1</a></b>
 
 The filled layer parameters struct.
 

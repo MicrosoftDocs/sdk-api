@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setproperty.htm
 tech.root: controls
 ms.assetid: c4d35fed-9bf5-431e-96c9-b1d51d51703a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetProperty method, ITextFont2.SetProperty, ITextFont2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextFont2 interface, controls.itextfont2_setproperty, tom/ITextFont2::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

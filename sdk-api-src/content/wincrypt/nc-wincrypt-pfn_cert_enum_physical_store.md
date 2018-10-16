@@ -7,7 +7,7 @@ old-location: security\certenumphysicalstorecallback.htm
 tech.root: seccrypto
 ms.assetid: 0651730a-39f2-4598-a81c-d05e6d282e6c
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CertEnumPhysicalStoreCallback, PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,7 +146,7 @@ Returns <b>TRUE</b> if the function succeeds, <b>FALSE</b> if it fails.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

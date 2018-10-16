@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionscaletransform.htm
 tech.root: directcomp
 ms.assetid: 8e59c484-b7c5-446a-a5d6-e00371e2c08a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionScaleTransform, IDCompositionScaleTransform interface [DirectComposition], IDCompositionScaleTransform interface [DirectComposition],described, dcomp/IDCompositionScaleTransform, directcomp.idcompositionscaletransform
 ms.prod: windows
 ms.technology: windows-sdk

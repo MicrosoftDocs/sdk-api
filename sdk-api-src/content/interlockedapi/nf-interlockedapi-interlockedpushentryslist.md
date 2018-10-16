@@ -7,7 +7,7 @@ old-location: base\interlockedpushentryslist.htm
 tech.root: sync
 ms.assetid: 60e3b6f7-f556-4699-be90-db7330cfb8ca
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: InterlockedPushEntrySList, InterlockedPushEntrySList function, _win32_interlockedpushentryslist, base.interlockedpushentryslist, interlockedapi/InterlockedPushEntrySList, winbase/InterlockedPushEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices

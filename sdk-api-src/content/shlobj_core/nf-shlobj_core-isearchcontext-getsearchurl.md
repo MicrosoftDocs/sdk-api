@@ -7,7 +7,7 @@ old-location: shell\ISearchContext_GetSearchURL.htm
 tech.root: shell
 ms.assetid: b2c9034f-65a2-414c-b440-330413ae63ce
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetSearchURL method [Windows Shell], GetSearchURL method [Windows Shell],ISearchContext interface, GetSearchUrl, ISearchContext interface [Windows Shell],GetSearchURL method, ISearchContext.GetSearchUrl, ISearchContext::GetSearchURL, ISearchContext::GetSearchUrl, _shell_ISearchContext_GetSearchURL, shell.ISearchContext_GetSearchURL, shlobj_core/ISearchContext::GetSearchURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rstmgr\rmregisterresources.htm
 tech.root: rstmgr
 ms.assetid: 9ac94461-bf75-4517-b47e-23d82474efe8
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: RmRegisterResources, RmRegisterResources function [Restart Mgr], restartmanager/RmRegisterResources, rstmgr.rmregisterresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

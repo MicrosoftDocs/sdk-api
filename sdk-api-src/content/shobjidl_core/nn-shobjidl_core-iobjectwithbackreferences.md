@@ -7,7 +7,7 @@ old-location: shell\IObjectWithBackReferences.htm
 tech.root: shell
 ms.assetid: 9ce0edc6-c2b1-4222-a12b-daf94efcb233
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IObjectWithBackReferences, IObjectWithBackReferences interface [Windows Shell], IObjectWithBackReferences interface [Windows Shell],described, _shell_IObjectWithBackReferences, shell.IObjectWithBackReferences, shobjidl_core/IObjectWithBackReferences
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,13 @@ This interface was available in Windows Vista with Service Pack 1 (SP1), but i
                 
                 
 
-
-```cpp
-object,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>object,
     uuid(321a6a6a-d61f-4bf3-97ae-14be2986bb36),
     pointer_default(unique)
 ]
@@ -104,16 +108,20 @@ interface IObjectWithBackReferences : IUnknown
 {
     HRESULT RemoveBackReferences();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ fragment can be used to enable access to this interface.
                 
 
-
-```cpp
-struct 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>struct 
     __declspec(uuid("321a6a6a-d61f-4bf3-97ae-14be2986bb36")) 
     __declspec(novtable)
 IObjectWithBackReferences : public IUnknown
@@ -121,9 +129,9 @@ IObjectWithBackReferences : public IUnknown
     public:
         virtual HRESULT __stdcall RemoveBackReferences() = 0;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

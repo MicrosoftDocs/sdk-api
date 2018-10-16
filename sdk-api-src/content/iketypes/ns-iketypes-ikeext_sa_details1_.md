@@ -7,7 +7,7 @@ old-location: fwp\ikeext_sa_details1.htm
 tech.root: fwp
 ms.assetid: b4b8767b-399a-49f0-91fd-59c2206742de
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IKEEXT_SA_DETAILS1, IKEEXT_SA_DETAILS1 structure [Filtering], IKEEXT_SA_DETAILS1_, fwp.ikeext_sa_details1, iketypes/IKEEXT_SA_DETAILS1
 ms.prod: windows
 ms.technology: windows-sdk

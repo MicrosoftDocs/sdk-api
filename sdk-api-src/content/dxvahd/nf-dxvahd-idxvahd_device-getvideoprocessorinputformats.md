@@ -7,7 +7,7 @@ old-location: mf\idxvahd_device_getvideoprocessorinputformats.htm
 tech.root: medfound
 ms.assetid: b660d111-7bd1-4345-b229-1825d830bab4
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: GetVideoProcessorInputFormats, GetVideoProcessorInputFormats method [Media Foundation], GetVideoProcessorInputFormats method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorInputFormats method, IDXVAHD_Device.GetVideoProcessorInputFormats, IDXVAHD_Device::GetVideoProcessorInputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorInputFormats, mf.idxvahd_device_getvideoprocessorinputformats
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,13 +86,17 @@ The list of formats can include both <b>D3DFORMAT</b> values, such as <b>D3DFMT_
 
 #### Examples
 
-
-```cpp
-// Checks whether a DXVA-HD device supports a specified input format.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Checks whether a DXVA-HD device supports a specified input format.
 
 HRESULT CheckInputFormatSupport(
     IDXVAHD_Device          *pDXVAHD,
-    const DXVAHD_VPDEVCAPS& caps,
+    const DXVAHD_VPDEVCAPS&amp; caps,
     D3DFORMAT               d3dformat
     )
 {
@@ -102,7 +106,7 @@ HRESULT CheckInputFormatSupport(
         return E_OUTOFMEMORY;
     }
 
-    HRESULT hr = pDXVAHD->GetVideoProcessorInputFormats(
+    HRESULT hr = pDXVAHD-&gt;GetVideoProcessorInputFormats(
         caps.InputFormatCount, 
         pFormats
         );
@@ -113,7 +117,7 @@ HRESULT CheckInputFormatSupport(
     }
 
     UINT index;
-    for (index = 0; index < caps.InputFormatCount; index++)
+    for (index = 0; index &lt; caps.InputFormatCount; index++)
     {
         if (pFormats[index] == d3dformat)
         {
@@ -129,10 +133,10 @@ done:
     delete [] pFormats;
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

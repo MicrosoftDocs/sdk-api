@@ -7,7 +7,7 @@ old-location: mf\dxvahd_blt_state_output_color_space_data.htm
 tech.root: medfound
 ms.assetid: ec817ebc-dc3f-4101-863a-218f0a8c998a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation], _DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, mf.dxvahd_blt_state_output_color_space_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -225,9 +225,13 @@ If the output format is a wide-gamut RGB format, output might fall outside the n
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetOutputColorSpace(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetOutputColorSpace(
     IDXVAHD_VideoProcessor *pVP,
     BOOL bPlayback,     // TRUE = playback, FALSE = video processing
     UINT RGB_Range,     // 0 = 0-255, 1 = 16-235
@@ -243,18 +247,18 @@ HRESULT DXVAHD_SetOutputColorSpace(
         YCbCr_xvYCC ? 1 : 0
     };
 
-    HRESULT hr = pVP->SetVideoProcessBltState(
+    HRESULT hr = pVP-&gt;SetVideoProcessBltState(
         DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE,
         sizeof(data),
-        &data
+        &amp;data
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\avimakefilefromstreams.htm
 tech.root: Multimedia
 ms.assetid: 5c7a7564-188a-46b7-84ad-de2b1e3db621
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: AVIMakeFileFromStreams, AVIMakeFileFromStreams function [Windows Multimedia], _win32_AVIMakeFileFromStreams, multimedia.avimakefilefromstreams, vfw/AVIMakeFileFromStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

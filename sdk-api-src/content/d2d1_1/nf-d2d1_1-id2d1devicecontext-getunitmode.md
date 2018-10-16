@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_getunitmode.htm
 tech.root: direct2d
 ms.assetid: d1c6476d-151b-4f2a-9aae-726de219567c
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetUnitMode, GetUnitMode method [Direct2D], GetUnitMode method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetUnitMode method, ID2D1DeviceContext.GetUnitMode, ID2D1DeviceContext::GetUnitMode, d2d1_1/ID2D1DeviceContext::GetUnitMode, direct2d.id2d1devicecontext_getunitmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetKeepTogether.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkeeptogether.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ITextPara interface [Windows Controls],SetKeepTogether method, ITextPara.SetKeepTogether, ITextPara::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextPara interface, _win32_ITextPara_SetKeepTogether, _win32_ITextPara_SetKeepTogether_cpp, controls.ITextPara_SetKeepTogether, controls._win32_ITextPara_SetKeepTogether, tom/ITextPara::SetKeepTogether
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -184,7 +184,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the PFE_KEEP effect described in the <a href="https://msdn.microsoft.com/en-us/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a> structure. 
+This property corresponds to the PFE_KEEP effect described in the <a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a> structure. 
 
 
 
@@ -198,11 +198,11 @@ This property corresponds to the PFE_KEEP effect described in the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a>
+<a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a>
 
 
 
@@ -210,7 +210,7 @@ This property corresponds to the PFE_KEEP effect described in the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

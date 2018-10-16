@@ -7,7 +7,7 @@ old-location: security\bcrypt_dh_parameter_header.htm
 tech.root: seccng
 ms.assetid: 5d023653-6197-4f08-8c71-e1d10f6b1860
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: BCRYPT_DH_PARAMETERS_MAGIC, BCRYPT_DH_PARAMETER_HEADER, BCRYPT_DH_PARAMETER_HEADER structure [Security], _BCRYPT_DH_PARAMETER_HEADER, bcrypt/BCRYPT_DH_PARAMETER_HEADER, security.bcrypt_dh_parameter_header
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,9 +90,13 @@ This structure is used as a header for a larger buffer. The single memory block 
 
 The following example shows how to calculate the sizes needed for this buffer and how to fill in the members of this structure.
 
-
-```cpp
-// In this example, the rgbModulus variable is a byte array that contains the modulus in big-endian byte order. 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// In this example, the rgbModulus variable is a byte array that contains the modulus in big-endian byte order. 
 // The rgbGenerator variable is a byte array that contains the generator in big-endian byte order.
 
 ULONG cbDHParams = sizeof(BCRYPT_DH_PARAMETER_HEADER) +     (cbKeySize * 2);
@@ -105,24 +109,24 @@ if(!pbDHParams)
 
 BCRYPT_DH_PARAMETER_HEADER *pDHParamHeader;
 pDHParamHeader = (BCRYPT_DH_PARAMETER_HEADER*)pbDHParams;
-pDHParamHeader->cbLength = cbDHParams;
-pDHParamHeader->cbKeyLength = cbKeySize;
-pDHParamHeader->dwMagic = BCRYPT_DH_PARAMETERS_MAGIC;
+pDHParamHeader-&gt;cbLength = cbDHParams;
+pDHParamHeader-&gt;cbKeyLength = cbKeySize;
+pDHParamHeader-&gt;dwMagic = BCRYPT_DH_PARAMETERS_MAGIC;
 
 // Add the modulus to the parameters.
 // The rgbModulus argument is a byte array that contains the modulus.
 PBYTE pbTemp = (PBYTE)pbDHParams + sizeof(BCRYPT_DH_PARAMETER_HEADER);
-CopyMemory(pbTemp, rgbModulus, pDHParamHeader->cbKeyLength);
+CopyMemory(pbTemp, rgbModulus, pDHParamHeader-&gt;cbKeyLength);
 
 // Add the generator to the parameters.
 // The rgbGenerator argument is a byte array that contains the generator.
-pbTemp += pDHParamHeader->cbKeyLength;
-CopyMemory(pbTemp, rgbGenerator, pDHParamHeader->cbKeyLength);
+pbTemp += pDHParamHeader-&gt;cbKeyLength;
+CopyMemory(pbTemp, rgbGenerator, pDHParamHeader-&gt;cbKeyLength);
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

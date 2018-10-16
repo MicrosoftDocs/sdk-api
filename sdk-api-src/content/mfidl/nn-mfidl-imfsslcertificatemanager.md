@@ -7,7 +7,7 @@ old-location: mf\imfsslcertificatemanager.htm
 tech.root: medfound
 ms.assetid: 62e4227d-6bc9-4011-acee-6278fe388830
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFSSLCertificateManager, IMFSSLCertificateManager interface [Media Foundation], IMFSSLCertificateManager interface [Media Foundation],described, mf.imfsslcertificatemanager, mfidl/IMFSSLCertificateManager
 ms.prod: windows
 ms.technology: windows-sdk

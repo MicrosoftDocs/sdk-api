@@ -7,7 +7,7 @@ old-location: shell\KNOWNFOLDER_DEFINITION.htm
 tech.root: shell
 ms.assetid: 08bd8406-68fa-4e02-9a64-ed5e62f8639b
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: KNOWNFOLDER_DEFINITION, KNOWNFOLDER_DEFINITION structure [Windows Shell], _shell_KNOWNFOLDER_DEFINITION, shell.KNOWNFOLDER_DEFINITION, shobjidl_core/KNOWNFOLDER_DEFINITION
 ms.prod: windows
 ms.technology: windows-sdk

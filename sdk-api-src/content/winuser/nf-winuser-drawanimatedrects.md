@@ -7,7 +7,7 @@ old-location: gdi\drawanimatedrects.htm
 tech.root: gdi
 ms.assetid: 54a9234a-0056-4cfe-9158-86635dc31bc6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: DrawAnimatedRects, DrawAnimatedRects function [Windows GDI], _win32_DrawAnimatedRects, gdi.drawanimatedrects, winuser/DrawAnimatedRects
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\certaddencodedctltostore.htm
 tech.root: seccrypto
 ms.assetid: 4239d43e-187d-4f40-99ae-6f914b7577ac
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCTLToStore, CertAddEncodedCTLToStore function [Security], _crypto2_certaddencodedctltostore, security.certaddencodedctltostore, wincrypt/CertAddEncodedCTLToStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -255,7 +255,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\mftoponode_attribute_update.htm
 tech.root: medfound
 ms.assetid: 94c89067-9b3e-4d24-9192-a68e284c5d99
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 94c89067-9b3e-4d24-9192-a68e284c5d99, MFTOPONODE_ATTRIBUTE_UPDATE, MFTOPONODE_ATTRIBUTE_UPDATE structure [Media Foundation], _MFTOPONODE_ATTRIBUTE_UPDATE, mf.mftoponode_attribute_update, mfidl/MFTOPONODE_ATTRIBUTE_UPDATE
 ms.prod: windows
 ms.technology: windows-sdk

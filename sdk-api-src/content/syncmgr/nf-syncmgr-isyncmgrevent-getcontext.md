@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEvent_GetContext.htm
 tech.root: shell
 ms.assetid: 849e2bfe-daf7-422a-909c-03608ef1e325
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetContext, GetContext method [Windows Shell], GetContext method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetContext method, ISyncMgrEvent.GetContext, ISyncMgrEvent::GetContext, _shell_ISyncMgrEvent_GetContext, shell.ISyncMgrEvent_GetContext, syncmgr/ISyncMgrEvent::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

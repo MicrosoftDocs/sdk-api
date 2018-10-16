@@ -7,7 +7,7 @@ old-location: controls\DELETEITEMSTRUCT.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxstructures\deleteitemstruct.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*LPDELETEITEMSTRUCT, *PDELETEITEMSTRUCT, DELETEITEMSTRUCT, DELETEITEMSTRUCT structure [Windows Controls], ODT_COMBOBOX, ODT_LISTBOX, PDELETEITEMSTRUCT, PDELETEITEMSTRUCT structure pointer [Windows Controls], _win32_DELETEITEMSTRUCT_str, _win32_DELETEITEMSTRUCT_str_cpp, controls.DELETEITEMSTRUCT, controls._win32_DELETEITEMSTRUCT_str, tagDELETEITEMSTRUCT, winuser/DELETEITEMSTRUCT, winuser/PDELETEITEMSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,10 +50,10 @@ req.redist:
 ## -description
 
 
-Describes a deleted list box or combo box item. The <i>lParam</i> parameter of a <a href="https://msdn.microsoft.com/en-us/library/Bb761362(v=VS.85).aspx">WM_DELETEITEM</a> message contains a pointer to this structure. When an item is removed from a list box or combo box or when a list box or combo box is destroyed, the system sends the <b>WM_DELETEITEM</b> message to the owner for each deleted item. 
+Describes a deleted list box or combo box item. The <i>lParam</i> parameter of a <a href="https://msdn.microsoft.com/c3adf8fb-45f2-44f1-8821-6ffa7d76dc78">WM_DELETEITEM</a> message contains a pointer to this structure. When an item is removed from a list box or combo box or when a list box or combo box is destroyed, the system sends the <b>WM_DELETEITEM</b> message to the owner for each deleted item. 
 
 
-The system sends a <a href="https://msdn.microsoft.com/en-us/library/Bb761362(v=VS.85).aspx">WM_DELETEITEM</a> message only for items deleted from an owner-drawn list box (with the <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">LBS_OWNERDRAWFIXED</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">LBS_OWNERDRAWVARIABLE</a> style) or owner-drawn combo box (with the <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_OWNERDRAWFIXED</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_OWNERDRAWVARIABLE</a> style).
+The system sends a <a href="https://msdn.microsoft.com/c3adf8fb-45f2-44f1-8821-6ffa7d76dc78">WM_DELETEITEM</a> message only for items deleted from an owner-drawn list box (with the <a href="List_Box_Styles.htm">LBS_OWNERDRAWFIXED</a> or <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style) or owner-drawn combo box (with the <a href="Combo_Box_Styles.htm">CBS_OWNERDRAWFIXED</a> or <a href="Combo_Box_Styles.htm">CBS_OWNERDRAWVARIABLE</a> style).
 
 
 ## -struct-fields
@@ -129,7 +129,7 @@ Application-defined data for the item. This value is passed to the control in th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761362(v=VS.85).aspx">WM_DELETEITEM</a>
+<a href="https://msdn.microsoft.com/c3adf8fb-45f2-44f1-8821-6ffa7d76dc78">WM_DELETEITEM</a>
  
 
  

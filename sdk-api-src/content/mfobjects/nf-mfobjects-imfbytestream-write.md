@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_write.htm
 tech.root: medfound
 ms.assetid: d1f1195a-b6ee-441c-af8b-fce3dc163e95
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFByteStream interface [Media Foundation],Write method, IMFByteStream.Write, IMFByteStream::Write, Write, Write method [Media Foundation], Write method [Media Foundation],IMFByteStream interface, d1f1195a-b6ee-441c-af8b-fce3dc163e95, mf.imfbytestream_write, mfobjects/IMFByteStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,9 +116,13 @@ This interface is available on the following platforms if the Windows Media Form
 The following example writes data from a media buffer to a byte stream. For more information about media buffers, see <a href="https://msdn.microsoft.com/3ee073ea-7bac-4971-9167-93a4e541ab77">Media Buffers</a>.
         
 
-
-```cpp
-//-------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-------------------------------------------------------------------
 // WriteBufferToByteStream
 //
 // Writes data from a media buffer to a byte stream.
@@ -135,11 +139,11 @@ HRESULT WriteBufferToByteStream(
     DWORD cbWritten = 0;
     BYTE *pMem = NULL;
 
-    hr = pBuffer->Lock(&pMem, NULL, &cbData);
+    hr = pBuffer-&gt;Lock(&amp;pMem, NULL, &amp;cbData);
 
     if (SUCCEEDED(hr))
     {
-        hr = pStream->Write(pMem, cbData, &cbWritten);
+        hr = pStream-&gt;Write(pMem, cbData, &amp;cbWritten);
     }
 
     if (SUCCEEDED(hr))
@@ -152,19 +156,23 @@ HRESULT WriteBufferToByteStream(
 
     if (pMem)
     {
-        pBuffer->Unlock();
+        pBuffer-&gt;Unlock();
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following function template writes a typed variable to a byte stream.
 
-
-```
-template <class T>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>template &lt;class T&gt;
 HRESULT WriteToStream(
     IMFByteStream *pStream, // Pointer to the byte stream.
     const T* p,             // Data to write to the stream.
@@ -174,16 +182,16 @@ HRESULT WriteToStream(
     ULONG cbWritten = 0;
     HRESULT hr = S_OK;
 
-    hr = pStream->Write((const BYTE*)p, cb, &cbWritten);
-    if (SUCCEEDED(hr) && (cbWritten != cb))
+    hr = pStream-&gt;Write((const BYTE*)p, cb, &amp;cbWritten);
+    if (SUCCEEDED(hr) &amp;&amp; (cbWritten != cb))
     {
         hr = E_FAIL;
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

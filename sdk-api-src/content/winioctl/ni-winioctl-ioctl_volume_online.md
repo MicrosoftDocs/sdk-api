@@ -4,10 +4,10 @@ title: IOCTL_VOLUME_ONLINE
 author: windows-sdk-content
 description: Brings a volume online.
 old-location: fs\ioctl_volume_online.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: fa857959-c10e-4c64-8249-4bbf44e15eb9
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IOCTL_VOLUME_ONLINE, IOCTL_VOLUME_ONLINE control, IOCTL_VOLUME_ONLINE control code [Files], fs.ioctl_volume_online, winioctl/IOCTL_VOLUME_ONLINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,16 +57,20 @@ Brings a volume online.
 To perform this operation, call the 
    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,             // handle to device
   IOCTL_VOLUME_ONLINE,          // dwIoControlCodeNULL,                         // lpInBuffer0,                            // nInBufferSizeNULL,                         // lpOutBuffer0,                            // nOutBufferSize(LPDWORD) lpBytesReturned,    // number of bytes returned
   (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

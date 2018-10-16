@@ -7,7 +7,7 @@ old-location: shell\StrCmp.htm
 tech.root: shell
 ms.assetid: 12530a04-776c-4506-86d1-07e2c3569a36
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: StrCmp, StrCmp function [Windows Shell], StrCmpW, _win32_StrCmp, shell.StrCmp, shlwapi/StrCmp, shlwapi/StrCmpW
 ms.prod: windows-hardware
 ms.technology: windows-devices

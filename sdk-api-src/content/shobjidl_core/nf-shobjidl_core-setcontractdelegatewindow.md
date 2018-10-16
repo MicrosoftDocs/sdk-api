@@ -7,7 +7,7 @@ old-location: shell\SetContractDelegateWindow.htm
 tech.root: shell
 ms.assetid: 681B2BEC-87C7-40F8-8795-B7965C3FBCCE
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: SetContractDelegateWindow, SetContractDelegateWindow function [Windows Shell], shell.SetContractDelegateWindow, shobjidl_core/SetContractDelegateWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

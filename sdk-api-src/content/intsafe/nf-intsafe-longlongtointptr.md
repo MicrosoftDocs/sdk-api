@@ -7,7 +7,7 @@ old-location: shell\LongLongToIntPtr.htm
 tech.root: shell
 ms.assetid: fb10650f-6536-491c-8897-0f826b506e5a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: Int64ToIntPtr, Int64ToPtrdiffT, LongLongToIntPtr, LongLongToIntPtr function [Windows Shell], intsafe/LongLongToIntPtr, shell.LongLongToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

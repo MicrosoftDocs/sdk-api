@@ -7,7 +7,7 @@ old-location: security\crypt_providers.htm
 tech.root: seccng
 ms.assetid: aef0e173-d3df-466e-ac2a-c686cae5edc9
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PCRYPT_PROVIDERS, CRYPT_PROVIDERS, CRYPT_PROVIDERS structure [Security], PCRYPT_PROVIDERS, PCRYPT_PROVIDERS structure pointer [Security], _CRYPT_PROVIDERS, bcrypt/CRYPT_PROVIDERS, bcrypt/PCRYPT_PROVIDERS, security.crypt_providers"
 ms.prod: windows
 ms.technology: windows-sdk

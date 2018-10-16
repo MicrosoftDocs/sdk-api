@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_GetCurrentView.htm
 tech.root: shell
 ms.assetid: e7c05a67-f739-487d-872a-3598b790d5c9
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetCurrentView method, IExplorerBrowser.GetCurrentView, IExplorerBrowser::GetCurrentView, _shell_IExplorerBrowser_GetCurrentView, shell.IExplorerBrowser_GetCurrentView, shobjidl_core/IExplorerBrowser::GetCurrentView
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesupportssourcetransfer_shouldtransfersource.htm
 tech.root: medfound
 ms.assetid: 7409a6be-7114-42e2-b878-c68d846106c6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],ShouldTransferSource method, IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource, IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource, ShouldTransferSource, ShouldTransferSource method [Media Foundation], ShouldTransferSource method [Media Foundation],IMFMediaEngineSupportsSourceTransfer interface, mf.imfmediaenginesupportssourcetransfer_shouldtransfersource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

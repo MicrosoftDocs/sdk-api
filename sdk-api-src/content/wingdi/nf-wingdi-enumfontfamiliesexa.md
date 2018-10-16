@@ -7,7 +7,7 @@ old-location: gdi\enumfontfamiliesex.htm
 tech.root: gdi
 ms.assetid: 4d70906d-8005-4c4a-869e-16dd3e6fa3f2
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: EnumFontFamiliesEx, EnumFontFamiliesEx function [Windows GDI], EnumFontFamiliesExA, EnumFontFamiliesExW, _win32_EnumFontFamiliesEx, gdi.enumfontfamiliesex, wingdi/EnumFontFamiliesEx, wingdi/EnumFontFamiliesExA, wingdi/EnumFontFamiliesExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -185,9 +185,13 @@ Enumerates all styles of a font in a specific character set.
 
 The following code sample shows how these values are used.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // To enumerate all styles and charsets of all fonts: 
 lf.lfFaceName[0] = '\0';
 lf.lfCharSet = DEFAULT_CHARSET;
@@ -201,13 +205,17 @@ if (FAILED(hr))
 }
 
 lf.lfCharSet = DEFAULT_CHARSET;
-
-```
-
-
-
-```cpp
-
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // To enumerate all styles of all fonts for the ANSI character set 
 lf.lfFaceName[0] = '\0';
 lf.lfCharSet = ANSI_CHARSET;
@@ -220,10 +228,10 @@ if (FAILED(hr))
 }
 
 lf.lfCharSet = ANSI_CHARSET;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The callback functions for <a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">EnumFontFamilies</a> and <b>EnumFontFamiliesEx</b> are very similar. The main difference is that the <a href="https://msdn.microsoft.com/2e848e47-5b5f-46ad-9963-55d6bb6748a9">ENUMLOGFONTEX</a> structure includes a script field.
 
 Note, based on the values of <b>lfCharSet</b> and <b>lfFaceName</b>, <b>EnumFontFamiliesEx</b> will enumerate the same font as many times as there are distinct character sets in the font. This can create an extensive list of fonts which can be burdensome to a user. For example, the Century Schoolbook font can appear for the Baltic, Western, Greek, Turkish, and Cyrillic character sets. To avoid this, an application should filter the list of fonts.

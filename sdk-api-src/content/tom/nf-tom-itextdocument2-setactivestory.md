@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_setactivestory.htm
 tech.root: controls
 ms.assetid: 2c71673c-5119-4906-99e0-1a2aa04589e1
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetActiveStory method, ITextDocument2.SetActiveStory, ITextDocument2::SetActiveStory, SetActiveStory, SetActiveStory method [Windows Controls], SetActiveStory method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setactivestory, tom/ITextDocument2::SetActiveStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

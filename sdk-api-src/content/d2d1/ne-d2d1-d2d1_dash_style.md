@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_DASH_STYLE.htm
 tech.root: direct2d
 ms.assetid: 0c1807e3-51e6-440a-bd80-9b43ed7a39f5
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: D2D1_DASH_STYLE, D2D1_DASH_STYLE enumeration [Direct2D], D2D1_DASH_STYLE_CUSTOM, D2D1_DASH_STYLE_DASH, D2D1_DASH_STYLE_DASH_DOT, D2D1_DASH_STYLE_DASH_DOT_DOT, D2D1_DASH_STYLE_DOT, D2D1_DASH_STYLE_SOLID, d2d1/D2D1_DASH_STYLE, d2d1/D2D1_DASH_STYLE_CUSTOM, d2d1/D2D1_DASH_STYLE_DASH, d2d1/D2D1_DASH_STYLE_DASH_DOT, d2d1/D2D1_DASH_STYLE_DASH_DOT_DOT, d2d1/D2D1_DASH_STYLE_DOT, d2d1/D2D1_DASH_STYLE_SOLID, direct2d.D2D1_DASH_STYLE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ The dash pattern is specified by an array of floating-point values.
 The following illustration shows several available dash styles. 
       
 
-<img alt="Illustration of available dash styles" src="./images/StrokeStyle_DashStyle.png"/>
+<img alt="Illustration of available dash styles" src="images/StrokeStyle_DashStyle.png"/>
 
 #### Examples
 
@@ -116,15 +116,19 @@ The following example creates a stroke that uses a custom dash pattern.
         
         
 
-
-```cpp
-// Dash array for dashStyle D2D1_DASH_STYLE_CUSTOM
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Dash array for dashStyle D2D1_DASH_STYLE_CUSTOM
 float dashes[] = {1.0f, 2.0f, 2.0f, 3.0f, 2.0f, 2.0f};
 
 // Stroke Style with Dash Style -- Custom
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory->CreateStrokeStyle(
+    hr = m_pD2DFactory-&gt;CreateStrokeStyle(
         D2D1::StrokeStyleProperties(
             D2D1_CAP_STYLE_FLAT,
             D2D1_CAP_STYLE_FLAT,
@@ -135,27 +139,31 @@ if (SUCCEEDED(hr))
             0.0f),
         dashes,
         ARRAYSIZE(dashes),
-        &m_pStrokeStyleCustomOffsetZero
+        &amp;m_pStrokeStyleCustomOffsetZero
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next example uses the stroke style when drawing a line.
 
-
-```cpp
-m_pRenderTarget->DrawLine(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>m_pRenderTarget-&gt;DrawLine(
     D2D1::Point2F(0, 310),
     D2D1::Point2F(200, 310),
     m_pCornflowerBlueBrush,
     10.0f,
     m_pStrokeStyleCustomOffsetZero
     );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

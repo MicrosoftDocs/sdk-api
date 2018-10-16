@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_geteffectinvalidrectanglecount.htm
 tech.root: direct2d
 ms.assetid: C0B70DA1-C9BF-47AC-BF3E-2A741DACD2E8
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetEffectInvalidRectangleCount, GetEffectInvalidRectangleCount method [Direct2D], GetEffectInvalidRectangleCount method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectInvalidRectangleCount method, ID2D1DeviceContext.GetEffectInvalidRectangleCount, ID2D1DeviceContext::GetEffectInvalidRectangleCount, d2d1_1/ID2D1DeviceContext::GetEffectInvalidRectangleCount, direct2d.id2d1devicecontext_geteffectinvalidrectanglecount
 ms.prod: windows-hardware
 ms.technology: windows-devices

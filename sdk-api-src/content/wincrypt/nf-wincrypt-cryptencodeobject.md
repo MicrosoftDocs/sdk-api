@@ -7,7 +7,7 @@ old-location: security\cryptencodeobject.htm
 tech.root: seccrypto
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CryptEncodeObject, CryptEncodeObject function [Security], _crypto2_cryptencodeobject, security.cryptencodeobject, wincrypt/CryptEncodeObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -189,7 +189,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Object Encoding and Decoding Functions</a>
+<a href="cryptography_functions.htm">Object Encoding and Decoding Functions</a>
  
 
  

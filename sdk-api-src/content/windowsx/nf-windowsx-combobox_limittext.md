@@ -7,7 +7,7 @@ old-location: controls\ComboBox_LimitText.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_limittext.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ComboBox_LimitText, ComboBox_LimitText macro [Windows Controls], _win32_ComboBox_LimitText, _win32_ComboBox_LimitText_cpp, controls.ComboBox_LimitText, controls._win32_ComboBox_LimitText, windowsx/ComboBox_LimitText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775877(v=VS.85).aspx">CB_LIMITTEXT</a> message explicitly.
+Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/95b7d07a-594b-4096-afbb-4dab77bdc41d">CB_LIMITTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The maximum number of characters.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775877(v=VS.85).aspx">CB_LIMITTEXT</a>.
+For more information, see <a href="https://msdn.microsoft.com/95b7d07a-594b-4096-afbb-4dab77bdc41d">CB_LIMITTEXT</a>.
 
 
 

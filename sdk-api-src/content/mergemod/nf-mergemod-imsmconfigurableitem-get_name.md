@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_name.htm
 tech.root: msi
 ms.assetid: 310fcf76-457b-43d0-b33b-181b32480042
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: IMsmConfigurableItem interface,get_Name method, IMsmConfigurableItem.get_Name, IMsmConfigurableItem::get_Name, _msi_get_name_function, get_Name, get_Name method, get_Name method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Name, setup.imsmconfigurableitem_get_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

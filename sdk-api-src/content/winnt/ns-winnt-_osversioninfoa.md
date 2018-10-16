@@ -7,7 +7,7 @@ old-location: base\osversioninfo_str.htm
 tech.root: sysinfo
 ms.assetid: a173df17-dad2-4330-aa66-4ff789fd7cc2
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*LPOSVERSIONINFOA, *POSVERSIONINFOA, OSVERSIONINFO, OSVERSIONINFO structure, OSVERSIONINFOA, OSVERSIONINFOW, VER_PLATFORM_WIN32_NT, _OSVERSIONINFOA, _OSVERSIONINFOW, _win32_osversioninfo_str, base.osversioninfo_str, winnt/OSVERSIONINFO, winnt/OSVERSIONINFOA, winnt/OSVERSIONINFOW"
 ms.prod: windows
 ms.technology: windows-sdk

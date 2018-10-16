@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxSetScrollRange.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetscrollrange.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetScrollRange method, ITextHost.TxSetScrollRange, ITextHost::TxSetScrollRange, TxSetScrollRange, TxSetScrollRange method [Windows Controls], TxSetScrollRange method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetScrollRange, _win32_ITextHost_TxSetScrollRange_cpp, controls.ITextHost_TxSetScrollRange, controls._win32_ITextHost_TxSetScrollRange, textserv/ITextHost::TxSetScrollRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,11 +113,11 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls Overview</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls Overview</a>
  
 
  

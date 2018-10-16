@@ -7,7 +7,7 @@ old-location: setup\msienumcomponentsex.htm
 tech.root: msi
 ms.assetid: c804cd64-7bb5-4dd1-aca2-94455cc99a15
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumComponentsEx, MsiEnumComponentsEx function [Setup API], MsiEnumComponentsExA, MsiEnumComponentsExW, NULL, User SID, msi/MsiEnumComponentsEx, msi/MsiEnumComponentsExA, msi/MsiEnumComponentsExW, s-1-1-0, setup.msienumcomponentsex
 ms.prod: windows-hardware
 ms.technology: windows-devices

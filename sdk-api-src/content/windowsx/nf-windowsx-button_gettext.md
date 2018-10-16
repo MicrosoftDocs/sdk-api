@@ -7,7 +7,7 @@ old-location: controls\Button_GetText.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettext.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: Button_GetText, Button_GetText macro [Windows Controls], _win32_Button_GetText, _win32_Button_GetText_cpp, controls.Button_GetText, controls._win32_Button_GetText, windowsx/Button_GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ The maximum number of characters to copy to the buffer, including the NULL termi
 
 
 
-The macro expands to a call to <a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a>.
+The macro expands to a call to <a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a>.
 	
 
 

@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_getvideoprocessordeviceguids.htm
 tech.root: medfound
 ms.assetid: 26b52407-7c75-4731-aff3-41376aa9ac3a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 26b52407-7c75-4731-aff3-41376aa9ac3a, GetVideoProcessorDeviceGuids, GetVideoProcessorDeviceGuids method [Media Foundation], GetVideoProcessorDeviceGuids method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorDeviceGuids method, IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids, IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,9 +117,13 @@ The graphics device may define additional vendor-specific GUIDs. The driver prov
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     // Initialize the video descriptor.
 
     g_VideoDesc.SampleWidth                         = VIDEO_MAIN_WIDTH;
@@ -142,11 +146,11 @@ The graphics device may define additional vendor-specific GUIDs. The driver prov
     UINT count;
     GUID* guids = NULL;
 
-    hr = g_pDXVAVPS->GetVideoProcessorDeviceGuids(&g_VideoDesc, &count, &guids);
-
-```
-
-
+    hr = g_pDXVAVPS-&gt;GetVideoProcessorDeviceGuids(&amp;g_VideoDesc, &amp;count, &amp;guids);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

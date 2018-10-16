@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_settags.htm
 tech.root: direct2d
 ms.assetid: 56898541-8c4a-4dbb-aa34-cc957b1f17ff
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetTags method, ID2D1CommandSink.SetTags, ID2D1CommandSink::SetTags, SetTags, SetTags method [Direct2D], SetTags method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetTags, direct2d.id2d1commandsink_settags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ctl_context.htm
 tech.root: seccrypto
 ms.assetid: 780edddf-1b44-4292-9156-4dfd5100adb8
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PCTL_CONTEXT, CTL_CONTEXT, CTL_CONTEXT structure [Security], PCCTL_CONTEXT, PCCTL_CONTEXT structure pointer [Security], PCTL_CONTEXT, PCTL_CONTEXT structure pointer [Security], _CTL_CONTEXT, _crypto2_ctl_context, security.ctl_context, wincrypt/CTL_CONTEXT, wincrypt/PCCTL_CONTEXT, wincrypt/PCTL_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ The <b>CTL_CONTEXT</b> structure contains both the encoded and decoded represent
 <a href="https://msdn.microsoft.com/83b015b5-a650-4a81-a9f0-c3e8a9805c81">CTL_INFO</a> as its <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">inner content</a>.
 
 CryptoAPI 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">low-level message functions</a> can be used to extract additional signer information.
+<a href="cryptography_functions.htm">low-level message functions</a> can be used to extract additional signer information.
 
 A <b>CTL_CONTEXT</b> returned by any CryptoAPI function must be freed by calling the 
 <a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a> function.

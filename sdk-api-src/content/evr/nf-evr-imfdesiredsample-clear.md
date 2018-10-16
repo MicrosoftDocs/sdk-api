@@ -7,7 +7,7 @@ old-location: mf\imfdesiredsample_clear.htm
 tech.root: medfound
 ms.assetid: d5c6c1c2-c122-47b6-82b3-28b54bafc7b8
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFDesiredSample interface, IMFDesiredSample interface [Media Foundation],Clear method, IMFDesiredSample.Clear, IMFDesiredSample::Clear, d5c6c1c2-c122-47b6-82b3-28b54bafc7b8, evr/IMFDesiredSample::Clear, mf.imfdesiredsample_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

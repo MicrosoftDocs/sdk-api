@@ -140,9 +140,13 @@ For an extended discussion and example of making queries in C++ and WMI, see Mak
 <div class="code"></div>
 In the following code, more than one object is requested:
 
-
-```cpp
-HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
 {
     HRESULT    hRes = WBEM_S_NO_ERROR;
 
@@ -152,26 +156,26 @@ HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
         ULONG            uReturned;
         IWbemClassObject*    apObj[10];
 
-        hRes = pEnum->Next( WBEM_INFINITE, 10, apObj, &uReturned );
+        hRes = pEnum-&gt;Next( WBEM_INFINITE, 10, apObj, &amp;uReturned );
 
         if ( SUCCEEDED( hRes ) )
         {
             // Do something with the objects.
             //ProcessObjects( uReturned,  apObj );
 
-            for ( ULONG n = 0; n < uReturned; n++ )
+            for ( ULONG n = 0; n &lt; uReturned; n++ )
             {
-                apObj[n]->Release();
+                apObj[n]-&gt;Release();
             }
 
         }    // If Enum succeeded...
     }    // While Enum is returning objects...
 
     return hRes;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

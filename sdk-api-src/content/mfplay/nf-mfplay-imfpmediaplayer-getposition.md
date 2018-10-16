@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getposition.htm
 tech.root: medfound
 ms.assetid: e3401c66-0dc7-46ef-9a38-088d605a3038
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetPosition method, IMFPMediaPlayer.GetPosition, IMFPMediaPlayer::GetPosition, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getposition, mfplay/IMFPMediaPlayer::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -169,9 +169,13 @@ The playback position is calculated relative to the start time of the media item
 
 The following code gets the current position, in 100-nanosecond units, as a <b>LONGLONG</b> value.
 
-
-```
-HRESULT GetPositionHNS(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT GetPositionHNS(
     IMFPMediaPlayer *pPlayer, 
     LONGLONG *phnsPosition    // Receives the position in hns.
 )
@@ -179,24 +183,24 @@ HRESULT GetPositionHNS(
     HRESULT hr = S_OK;
 
     PROPVARIANT var;
-    PropVariantInit(&var);
+    PropVariantInit(&amp;var);
 
     *phnsPosition = 0;
 
-    hr = pPlayer->GetPosition(MFP_POSITIONTYPE_100NS, &var);
+    hr = pPlayer-&gt;GetPosition(MFP_POSITIONTYPE_100NS, &amp;var);
 
     if (SUCCEEDED(hr))
     {
         *phnsPosition = var.hVal.QuadPart;
     }
 
-    PropVariantClear(&var);
+    PropVariantClear(&amp;var);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

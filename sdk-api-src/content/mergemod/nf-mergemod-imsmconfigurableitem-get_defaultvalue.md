@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_defaultvalue.htm
 tech.root: msi
 ms.assetid: b62e5a8c-4b1f-4d9e-9df6-6438e715e16a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: IMsmConfigurableItem interface,get_DefaultValue method, IMsmConfigurableItem.get_DefaultValue, IMsmConfigurableItem::get_DefaultValue, _msi_get_defaultvalue_function, get_DefaultValue, get_DefaultValue method, get_DefaultValue method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_DefaultValue, setup.imsmconfigurableitem_get_defaultvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

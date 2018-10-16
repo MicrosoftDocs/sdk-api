@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_GRADIENT_STOP.htm
 tech.root: direct2d
 ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: D2D1_GRADIENT_STOP, D2D1_GRADIENT_STOP structure [Direct2D], d2d1/D2D1_GRADIENT_STOP, direct2d.D2D1_GRADIENT_STOP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ A value that indicates the relative position of the gradient stop in the brush. 
 
 ### -field color
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
 
 The color of the gradient stop.
 
@@ -90,9 +90,13 @@ Gradient stops with a position outside the [0, 1] range cannot be seen explicitl
 The following example creates an array of gradient stops, then uses them to create 
         an <a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a>.
 
-
-```cpp
-// Create an array of gradient stops to put in the gradient stop
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create an array of gradient stops to put in the gradient stop
 // collection that will be used in the gradient brush.
 ID2D1GradientStopCollection *pGradientStops = NULL;
 
@@ -103,39 +107,43 @@ gradientStops[1].color = D2D1::ColorF(D2D1::ColorF::ForestGreen, 1);
 gradientStops[1].position = 1.0f;
 // Create the ID2D1GradientStopCollection from a previously
 // declared array of D2D1_GRADIENT_STOP structs.
-hr = m_pRenderTarget->CreateGradientStopCollection(
+hr = m_pRenderTarget-&gt;CreateGradientStopCollection(
     gradientStops,
     2,
     D2D1_GAMMA_2_2,
     D2D1_EXTEND_MODE_CLAMP,
-    &pGradientStops
+    &amp;pGradientStops
     );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next code example uses the <a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a> to 
         create an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a>.
 
-
-```cpp
-// The line that determines the direction of the gradient starts at
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The line that determines the direction of the gradient starts at
 // the upper-left corner of the square and ends at the lower-right corner.
 
 if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateLinearGradientBrush(
+    hr = m_pRenderTarget-&gt;CreateLinearGradientBrush(
         D2D1::LinearGradientBrushProperties(
             D2D1::Point2F(0, 0),
             D2D1::Point2F(150, 150)),
         pGradientStops,
-        &m_pLinearGradientBrush
+        &amp;m_pLinearGradientBrush
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -144,19 +152,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">CreateGradientStopCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756678(v=VS.85).aspx">How to Create a Linear Gradient Brush</a>
+<a href="https://msdn.microsoft.com/3cf5acc6-2f17-49d4-aca5-a84a846d1749">How to Create a Linear Gradient Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756679(v=VS.85).aspx">How to Create a Radial Gradient Brush</a>
+<a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a>
 
 
 

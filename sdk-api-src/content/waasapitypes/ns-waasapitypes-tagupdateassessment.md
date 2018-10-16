@@ -7,7 +7,7 @@ old-location: base\updateassessment.htm
 tech.root: sysinfo
 ms.assetid: BD456DF6-4A29-41B4-8EB4-8F29910981E7
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment, tagUpdateAssessment, waasapitypes/UpdateAssessment
 ms.prod: windows
 ms.technology: windows-sdk

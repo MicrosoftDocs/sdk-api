@@ -168,14 +168,18 @@ The application returns S_OK to the calling method to indicate that the operatio
 
 The following C++ code shows an example implementation of <b>Progress3</b>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Progress3(GUID  EventId, DWORD  dwTranspiredTicks, OPAQUECOMMAND*  pContext)
 {
     WCHAR strGuid[64];
     ZeroMemory(strGuid, 64);
-    StringFromGUID2(reinterpret_cast<GUID&>(EventId),(LPOLESTR)strGuid, 64);
+    StringFromGUID2(reinterpret_cast&lt;GUID&amp;&gt;(EventId),(LPOLESTR)strGuid, 64);
     // TODO: Display the message: "Progress3 called. GUID value: " 
     // followed by the strGUID value.
     // TODO: Display the message: "Progress3 dwTranspiredTicks: " 
@@ -183,10 +187,10 @@ HRESULT Progress3(GUID  EventId, DWORD  dwTranspiredTicks, OPAQUECOMMAND*  pCont
 
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

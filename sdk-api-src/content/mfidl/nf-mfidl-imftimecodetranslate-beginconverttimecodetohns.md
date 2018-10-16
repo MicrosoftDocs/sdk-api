@@ -7,7 +7,7 @@ old-location: mf\imftimecodetranslate_beginconverttimecodetohns.htm
 tech.root: medfound
 ms.assetid: 4e25d5e4-b4d7-4ca4-81c9-12c6d712322d
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: BeginConvertTimecodeToHNS, BeginConvertTimecodeToHNS method [Media Foundation], BeginConvertTimecodeToHNS method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],BeginConvertTimecodeToHNS method, IMFTimecodeTranslate.BeginConvertTimecodeToHNS, IMFTimecodeTranslate::BeginConvertTimecodeToHNS, mf.imftimecodetranslate_beginconverttimecodetohns, mfidl/IMFTimecodeTranslate::BeginConvertTimecodeToHNS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,9 +131,13 @@ When the asynchronous method completes, the callback object's <a href="https://m
 
 The value of <i>pPropVarTimecode</i> is a 64-bit unsigned value typed as a <b>LONGLONG</b>. The upper <b>DWORD</b> contains the range. (A <i>range</i> is a continuous series of time codes.) The lower <b>DWORD</b> contains the time code in the form of a hexadecimal number <i>0xhhmmssff</i>,  where each 2-byte sequence is read as a decimal value.
 
-
-```cpp
-void CreateTimeCode(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CreateTimeCode(
     DWORD dwFrames,
     DWORD dwSeconds,
     DWORD dwMinutes,
@@ -142,24 +146,24 @@ void CreateTimeCode(
     PROPVARIANT *pvar
     )
 {
-    ULONGLONG ullTimecode = ((ULONGLONG)dwRange) << 32;
+    ULONGLONG ullTimecode = ((ULONGLONG)dwRange) &lt;&lt; 32;
 
     ullTimecode +=   dwFrames  % 10;
-    ullTimecode += (( (ULONGLONG)dwFrames )  / 10) << 4;
-    ullTimecode += (( (ULONGLONG)dwSeconds ) % 10) << 8;
-    ullTimecode += (( (ULONGLONG)dwSeconds ) / 10) << 12;
-    ullTimecode += (( (ULONGLONG)dwMinutes ) % 10) << 16;
-    ullTimecode += (( (ULONGLONG)dwMinutes ) / 10) << 20;
-    ullTimecode += (( (ULONGLONG)dwHours )   % 10) << 24;
-    ullTimecode += (( (ULONGLONG)dwHours )   / 10) << 28;
+    ullTimecode += (( (ULONGLONG)dwFrames )  / 10) &lt;&lt; 4;
+    ullTimecode += (( (ULONGLONG)dwSeconds ) % 10) &lt;&lt; 8;
+    ullTimecode += (( (ULONGLONG)dwSeconds ) / 10) &lt;&lt; 12;
+    ullTimecode += (( (ULONGLONG)dwMinutes ) % 10) &lt;&lt; 16;
+    ullTimecode += (( (ULONGLONG)dwMinutes ) / 10) &lt;&lt; 20;
+    ullTimecode += (( (ULONGLONG)dwHours )   % 10) &lt;&lt; 24;
+    ullTimecode += (( (ULONGLONG)dwHours )   / 10) &lt;&lt; 28;
 
-    pvar->vt = VT_I8;
-    pvar->hVal.QuadPart = (LONGLONG)ullTimecode;
+    pvar-&gt;vt = VT_I8;
+    pvar-&gt;hVal.QuadPart = (LONGLONG)ullTimecode;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

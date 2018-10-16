@@ -7,7 +7,7 @@ old-location: fwp\fwp_filter_enum_type_enum.htm
 tech.root: fwp
 ms.assetid: 842ddac3-52d0-4c29-9db3-8534a0c84659
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: FWP_FILTER_ENUM_FULLY_CONTAINED, FWP_FILTER_ENUM_OVERLAPPING, FWP_FILTER_ENUM_TYPE, FWP_FILTER_ENUM_TYPE enumeration [Filtering], FWP_FILTER_ENUM_TYPE_, FWP_FILTER_ENUM_TYPE_MAX, fwp.fwp_filter_enum_type_enum, fwptypes/FWP_FILTER_ENUM_FULLY_CONTAINED, fwptypes/FWP_FILTER_ENUM_OVERLAPPING, fwptypes/FWP_FILTER_ENUM_TYPE, fwptypes/FWP_FILTER_ENUM_TYPE_MAX
 ms.prod: windows
 ms.technology: windows-sdk

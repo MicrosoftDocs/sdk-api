@@ -7,7 +7,7 @@ old-location: security\cryptgetmessagesignercount.htm
 tech.root: seccrypto
 ms.assetid: d18bda8b-b333-4b1e-8ed5-f8eff04b3168
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CryptGetMessageSignerCount, CryptGetMessageSignerCount function [Security], _crypto2_cryptgetmessagesignercount, security.cryptgetmessagesignercount, wincrypt/CryptGetMessageSignerCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

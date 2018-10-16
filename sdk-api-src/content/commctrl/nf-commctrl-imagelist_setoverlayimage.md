@@ -7,7 +7,7 @@ old-location: controls\ImageList_SetOverlayImage.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setoverlayimage.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ImageList_SetOverlayImage, ImageList_SetOverlayImage function [Windows Controls], _win32_ImageList_SetOverlayImage, _win32_ImageList_SetOverlayImage_cpp, commctrl/ImageList_SetOverlayImage, controls.ImageList_SetOverlayImage, controls._win32_ImageList_SetOverlayImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ The one-based index of the overlay mask.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
@@ -94,7 +94,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-An overlay mask is an image drawn transparently over another image. To draw an overlay mask over an image, call the <a href="https://msdn.microsoft.com/en-us/library/Bb761533(v=VS.85).aspx">ImageList_Draw</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761536(v=VS.85).aspx">ImageList_DrawEx</a> function. The <i>fStyle</i> parameter of these functions can use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro to specify an overlay mask index. 
+An overlay mask is an image drawn transparently over another image. To draw an overlay mask over an image, call the <a href="https://msdn.microsoft.com/d50d94e4-89cb-4992-b98b-84b22ff11191">ImageList_Draw</a> or <a href="https://msdn.microsoft.com/f531f9b8-a2f5-488b-952b-f439efd83a77">ImageList_DrawEx</a> function. The <i>fStyle</i> parameter of these functions can use the <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a> macro to specify an overlay mask index. 
 
 A call to this method fails and returns E_INVALIDARG unless the image list is created using a mask.
 

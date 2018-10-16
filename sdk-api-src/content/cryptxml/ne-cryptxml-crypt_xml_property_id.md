@@ -7,7 +7,7 @@ old-location: security\crypt_xml_property_id.htm
 tech.root: seccrypto
 ms.assetid: 7b396245-6dc5-4018-821e-a70db5f0d068
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CRYPT_XML_PROPERTY_DOC_DECLARATION, CRYPT_XML_PROPERTY_ID, CRYPT_XML_PROPERTY_ID enumeration [Security], CRYPT_XML_PROPERTY_MAX_HEAP_SIZE, CRYPT_XML_PROPERTY_MAX_SIGNATURES, CRYPT_XML_PROPERTY_SIGNATURE_LOCATION, CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET, cryptxml/CRYPT_XML_PROPERTY_DOC_DECLARATION, cryptxml/CRYPT_XML_PROPERTY_ID, cryptxml/CRYPT_XML_PROPERTY_MAX_HEAP_SIZE, cryptxml/CRYPT_XML_PROPERTY_MAX_SIGNATURES, cryptxml/CRYPT_XML_PROPERTY_SIGNATURE_LOCATION, cryptxml/CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET, security.crypt_xml_property_id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,13 +100,13 @@ Specifies the maximum number of <b>Signature</b> elements when parsing an XML do
 ### -field CRYPT_XML_PROPERTY_DOC_DECLARATION
 
 Specifies whether to write an XML document declaration. This property is used with the 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd433820(v=VS.85).aspx">CryptXmlEncode</a> function. The default property is <b>TRUE</b>.
+     <a href="https://msdn.microsoft.com/fb0cd00c-f410-486e-8910-41c0463f6a74">CryptXmlEncode</a> function. The default property is <b>TRUE</b>.
 
 
 ### -field CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET
 
 Specifies an encoding character set of XML fragments for custom elements. This property is used with the 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd433829(v=VS.85).aspx">CryptXmlOpenToDecode</a> function. 
+     <a href="https://msdn.microsoft.com/b6a77d62-b92d-4b83-949f-14a0ce3ce025">CryptXmlOpenToDecode</a> function. 
      The default character set is inherited from the opened document.
 
 

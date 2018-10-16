@@ -7,7 +7,7 @@ old-location: projfs\prj_virtualization_instance_info.htm
 tech.root: ProjFS
 ms.assetid: B6532FDF-F190-4C10-BF5C-96BDF477BB4A
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PRJ_VIRTUALIZATION_INSTANCE_INFO, PRJ_VIRTUALIZATION_INSTANCE_INFO structure, ProjFS.prj_virtualization_instance_info, projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

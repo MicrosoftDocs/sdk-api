@@ -4,10 +4,10 @@ title: GetCurrentUmsThread function
 author: windows-sdk-content
 description: Returns the user-mode scheduling (UMS) thread context of the calling UMS thread.
 old-location: base\getcurrentumsthread.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: f2e20816-919a-443d-96d3-94e98afc28f2
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetCurrentUmsThread, GetCurrentUmsThread function, base.getcurrentumsthread, winbase/GetCurrentUmsThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext2_createimagesourcefromwic3.htm
 tech.root: direct2d
 ms.assetid: 78e39978-099f-1096-ed7a-5b2dc68bb9c3
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CreateImageSourceFromWic, CreateImageSourceFromWic method [Direct2D], CreateImageSourceFromWic method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateImageSourceFromWic method, ID2D1DeviceContext2.CreateImageSourceFromWic, ID2D1DeviceContext2.CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic), ID2D1DeviceContext2::CreateImageSourceFromWic, ID2D1DeviceContext2::CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic), d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromWic, direct2d.id2d1devicecontext2_createimagesourcefromwic3
 ms.prod: windows-hardware
 ms.technology: windows-devices

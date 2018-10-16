@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionturbulenceeffect_setnumoctaves.htm
 tech.root: directcomp
 ms.assetid: 759F03F2-4CA2-454D-8AAE-C18B5E3FD3D0
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetNumOctaves method, IDCompositionTurbulenceEffect.SetNumOctaves, IDCompositionTurbulenceEffect::SetNumOctaves, SetNumOctaves, SetNumOctaves method [DirectComposition], SetNumOctaves method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetNumOctaves, directcomp.idcompositionturbulenceeffect_setnumoctaves
 ms.prod: windows-hardware
 ms.technology: windows-devices

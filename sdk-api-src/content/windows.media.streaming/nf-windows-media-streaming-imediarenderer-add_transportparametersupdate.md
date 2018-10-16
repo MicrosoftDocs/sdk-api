@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_add_transportparametersupdate.htm
 tech.root: mediastreaming
 ms.assetid: 34D11925-387B-414F-A176-336BBCF87821
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],add_TransportParametersUpdate method, IMediaRenderer.add_TransportParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::add_TransportParametersUpdate, IMediaRenderer::streaming, add_TransportParametersUpdate, add_TransportParametersUpdate method [Media Streaming API], add_TransportParametersUpdate method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_add_transportparametersupdate, windows/IMediaRenderer::add_TransportParametersUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

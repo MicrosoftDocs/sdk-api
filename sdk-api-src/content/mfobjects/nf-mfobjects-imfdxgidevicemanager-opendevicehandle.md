@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanager_opendevicehandle.htm
 tech.root: medfound
 ms.assetid: B025DF73-1F85-46F3-9AD4-2385BD515DDD
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],OpenDeviceHandle method, IMFDXGIDeviceManager.OpenDeviceHandle, IMFDXGIDeviceManager::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_opendevicehandle, mfobjects/IMFDXGIDeviceManager::OpenDeviceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

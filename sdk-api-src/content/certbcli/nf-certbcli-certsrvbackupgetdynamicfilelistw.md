@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetdynamicfilelist.htm
 tech.root: seccrypto
 ms.assetid: ff60b705-5ac6-4e61-9b88-9ffc2dc9adce
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CertSrvBackupGetDynamicFileList, CertSrvBackupGetDynamicFileList function [Security], CertSrvBackupGetDynamicFileListW, _certsrv_certsrvbackupgetdynamicfilelist, certbcli/CertSrvBackupGetDynamicFileList, certbcli/CertSrvBackupGetDynamicFileListW, security.certsrvbackupgetdynamicfilelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ A handle to a Certificate Services backup context.
 
 ### -param ppwszzFileList [out]
 
-A pointer to a <b>WCHAR</b> pointer that will receive the list of null-terminated dynamic file names used by Certificate Services. There is a null character after every file name and an extra null character at the end of the list. The file name will be in the UNC form "\\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". When you have finished using this allocated memory, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa376580(v=VS.85).aspx">CertSrvBackupFree</a> function.
+A pointer to a <b>WCHAR</b> pointer that will receive the list of null-terminated dynamic file names used by Certificate Services. There is a null character after every file name and an extra null character at the end of the list. The file name will be in the UNC form "\\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". When you have finished using this allocated memory, free it by calling the <a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a> function.
 
 Before calling this function, setting *<i>ppwszzFileList</i> to <b>NULL</b> is optional.
 
@@ -89,16 +89,20 @@ The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
 
 
-Use this function to retrieve a list of the Certificate Services dynamic file names. These files are separate from the Certificate Services database and log files, and they are not backed up by the Certificate Services backup APIs. As a result, some other means must be used to back up the dynamic files. An example of a Certificate Services dynamic file is the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL).
+Use this function to retrieve a list of the Certificate Services dynamic file names. These files are separate from the Certificate Services database and log files, and they are not backed up by the Certificate Services backup APIs. As a result, some other means must be used to back up the dynamic files. An example of a Certificate Services dynamic file is the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
 
 This function's name in the Certadm.dll is <b>CertSrvBackupGetDynamicFileListW</b>. You must use this form of the name when calling <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVBACKUPGETDYNAMICFILELISTW</b> in the Certbcli.h header file.
 
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPGETDYNAMICFILELISTW* pfnGetDynFiles;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPGETDYNAMICFILELISTW* pfnGetDynFiles;
 char * szGetDynFilesFunc = "CertSrvBackupGetDynamicFileListW";
 WCHAR *    pwszzDynFiles;
 DWORD      nListBytes=0;
@@ -118,7 +122,7 @@ if ( NULL == pfnGetDynFiles )
 
 // Determine the names of the dynamic files.
 // hCSBC was set by an earlier call to CertSrvBackupPrepare.
-hr = pfnGetDynFiles(hCSBC, &pwszzDynFiles, &nListBytes);
+hr = pfnGetDynFiles(hCSBC, &amp;pwszzDynFiles, &amp;nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetDynFiles call [%x]\n", hr);
@@ -142,10 +146,10 @@ else
     // pfnBackupFree is the address of the 
     // CertSrvBackupFree function.
     pfnBackupFree(pwszzDynFiles);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -154,11 +158,11 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376580(v=VS.85).aspx">CertSrvBackupFree</a>
+<a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

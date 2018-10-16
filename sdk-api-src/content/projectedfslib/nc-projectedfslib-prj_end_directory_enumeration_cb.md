@@ -7,7 +7,7 @@ old-location: projfs\prj_end_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: E9DA86AC-E884-4DB3-977D-6D8EDA2A8E12
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PRJ_END_DIRECTORY_ENUMERATION_CB, PRJ_END_DIRECTORY_ENUMERATION_CB callback, PRJ_END_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_end_directory_enumeration_cb, projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,16 +68,42 @@ The provider can access this buffer only while the callback is running. If it wi
 
 ### -param enumerationId [in]
 
-An identifier for this enumeration session.
+An identifier for this enumeration session. See the Remarks section of <a href="projfs.prj_start_directory_enumeration_cb">PRJ_START_DIRECTORY_ENUMERATION_CB</a> for more information.
 
 
 ## -returns
 
 
 
-S_OK: The provider successfully completed the operation.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The provider successfully completed the operation.
 
-HRESULT_FROM_WIN32(ERROR_IO_PENDING): The provider wishes to complete the operation at a later time.
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_IO_PENDING)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The provider wishes to complete the operation at a later time.
+
+</td>
+</tr>
+</table>
+ 
 
 The provider should not return any other value from this callback.
 

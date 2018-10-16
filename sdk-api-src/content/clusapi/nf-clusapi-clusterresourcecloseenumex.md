@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcecloseenumex.htm
 tech.root: mscs
 ms.assetid: 643CA960-F4F1-4028-B0A3-5258E9421D62
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: ClusterResourceCloseEnumEx, ClusterResourceCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM_EX, mscs.clusterresourcecloseenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ the function returns a different <a href="https://msdn.microsoft.com/4a3a8feb-a0
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
  
 
  

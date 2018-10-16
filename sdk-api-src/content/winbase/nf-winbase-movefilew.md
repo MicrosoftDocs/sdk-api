@@ -4,10 +4,10 @@ title: MoveFileW function
 author: windows-sdk-content
 description: Moves an existing file or a directory, including its children.
 old-location: fs\movefile.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: baa3cc02-0a61-4463-b2f1-0d7aaefa126b
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: MoveFile, MoveFile function [Files], MoveFileA, MoveFileW, _win32_movefile, base.movefile, fs.movefile, rename file [Files], winbase/MoveFile, winbase/MoveFileA, winbase/MoveFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_xml_enum_alg_info.htm
 tech.root: seccrypto
 ms.assetid: d4e4752a-347c-45b0-97f2-6a692088c908
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: PFN_CRYPT_XML_ENUM_ALG_INFO, PFN_CRYPT_XML_ENUM_ALG_INFO callback, PFN_CRYPT_XML_ENUM_ALG_INFO callback function [Security], cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO, security.pfn_crypt_xml_enum_alg_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 The <i>PFN_CRYPT_XML_ENUM_ALG_INFO</i> callback function enumerates predefined and registered 
- <a href="https://msdn.microsoft.com/en-us/library/Dd433843(v=VS.85).aspx">CRYPT_XML_ALGORITHM_INFO</a> entries.
+ <a href="https://msdn.microsoft.com/ab6ec092-d25d-4ca0-8206-b7e5ad36d69b">CRYPT_XML_ALGORITHM_INFO</a> entries.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <i>PFN_CRYPT_XML_ENUM_ALG_INFO</i> callback function enumerates predefined a
 
 ### -param *pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433843(v=VS.85).aspx">CRYPT_XML_ALGORITHM_INFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/ab6ec092-d25d-4ca0-8206-b7e5ad36d69b">CRYPT_XML_ALGORITHM_INFO</a> structure.
 
 
 ### -param *pvArg [in, out, optional]

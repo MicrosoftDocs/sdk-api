@@ -7,7 +7,7 @@ old-location: base\initoncebegininitialize.htm
 tech.root: sync
 ms.assetid: f342e85c-ac81-4470-89ce-a9d0fc5e8f89
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_CHECK_ONLY, InitOnceBeginInitialize, InitOnceBeginInitialize function, base.initoncebegininitialize, synchapi/InitOnceBeginInitialize, winbase/InitOnceBeginInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpaint_setpainttype.htm
 tech.root: direct2d
 ms.assetid: C6F1D646-2ADD-4F1A-940E-8D20DFBBBAC1
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ID2D1SvgPaint interface [Direct2D],SetPaintType method, ID2D1SvgPaint.SetPaintType, ID2D1SvgPaint::SetPaintType, SetPaintType, SetPaintType method [Direct2D], SetPaintType method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetPaintType, direct2d.id2d1svgpaint_setpainttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

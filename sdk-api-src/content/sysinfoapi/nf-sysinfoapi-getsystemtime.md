@@ -7,7 +7,7 @@ old-location: base\getsystemtime.htm
 tech.root: sysinfo
 ms.assetid: 9ed8386b-f035-446f-b0f8-12e0d3f23aac
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetSystemTime, GetSystemTime function, _win32_getsystemtime, base.getsystemtime, sysinfoapi/GetSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfcreateaggregatesource.htm
 tech.root: medfound
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,9 +118,13 @@ The aggregated media source is useful for combining  streams from separate media
 
 #### Examples
 
-
-```cpp
-HRESULT CreateAggregatedSource(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CreateAggregatedSource(
     IMFMediaSource *pSource1,
     IMFMediaSource *pSource2,
     IMFMediaSource **ppAggSource
@@ -130,27 +134,27 @@ HRESULT CreateAggregatedSource(
 
     IMFCollection *pCollection = NULL;
 
-    HRESULT hr = MFCreateCollection(&pCollection);
+    HRESULT hr = MFCreateCollection(&amp;pCollection);
 
     if (SUCCEEDED(hr))
     {
-        hr = pCollection->AddElement(pSource1);
+        hr = pCollection-&gt;AddElement(pSource1);
     }
     if (SUCCEEDED(hr))
     {
-        hr = pCollection->AddElement(pSource2);
+        hr = pCollection-&gt;AddElement(pSource2);
     }
     if (SUCCEEDED(hr))
     {
         hr = MFCreateAggregateSource(pCollection, ppAggSource);
     }
-    SafeRelease(&pCollection);
+    SafeRelease(&amp;pCollection);
     return hr;    
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

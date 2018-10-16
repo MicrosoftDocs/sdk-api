@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_shutdown.htm
 tech.root: medfound
 ms.assetid: 8B7BCEAC-7A30-4B60-AD0E-E8DCE404DDE9
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Shutdown method, IMFMediaEngine.Shutdown, IMFMediaEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_shutdown, mfmediaengine/IMFMediaEngine::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

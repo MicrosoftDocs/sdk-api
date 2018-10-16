@@ -7,7 +7,7 @@ old-location: security\bcrypt_algorithm_identifier_struct.htm
 tech.root: seccng
 ms.assetid: a49a21c9-5668-4709-b52a-f6cacd944845
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], _BCRYPT_ALGORITHM_IDENTIFIER, bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>BCRYPT_ALGORITHM_IDENTIFIER</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Aa375422(v=VS.85).aspx">BCryptEnumAlgorithms</a> function to contain a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic algorithm</a> identifier.
+The <b>BCRYPT_ALGORITHM_IDENTIFIER</b> structure is used with the <a href="https://msdn.microsoft.com/7fa227c0-2b80-49ab-8a19-72f8444d5507">BCryptEnumAlgorithms</a> function to contain a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic algorithm</a> identifier.
 
 
 ## -struct-fields
@@ -60,12 +60,12 @@ The <b>BCRYPT_ALGORITHM_IDENTIFIER</b> structure is used with the <a href="https
 
 ### -field pszName
 
-A pointer to a null-terminated Unicode string that contains the string identifier of the algorithm. The <a href="https://msdn.microsoft.com/en-us/library/Aa375534(v=VS.85).aspx">CNG Algorithm Identifiers</a> topic contains the predefined algorithm identifiers.
+A pointer to a null-terminated Unicode string that contains the string identifier of the algorithm. The <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> topic contains the predefined algorithm identifiers.
 
 
 ### -field dwClass
 
-Specifies the class of the algorithm. This can be one of the <a href="https://msdn.microsoft.com/en-us/library/Aa376201(v=VS.85).aspx">CNG Interface Identifiers</a>.
+Specifies the class of the algorithm. This can be one of the <a href="https://msdn.microsoft.com/509c89ff-0c73-4e57-9c39-400522f2086e">CNG Interface Identifiers</a>.
 
 
 ### -field dwFlags
@@ -78,7 +78,7 @@ A set of flags that specify other information about the algorithm. There are cur
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375422(v=VS.85).aspx">BCryptEnumAlgorithms</a>
+<a href="https://msdn.microsoft.com/7fa227c0-2b80-49ab-8a19-72f8444d5507">BCryptEnumAlgorithms</a>
  
 
  

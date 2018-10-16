@@ -7,7 +7,7 @@ old-location: controls\ListView_GetSelectionMark.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectionmark.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ListView_GetSelectionMark, ListView_GetSelectionMark macro [Windows Controls], _win32_ListView_GetSelectionMark, _win32_ListView_GetSelectionMark_cpp, commctrl/ListView_GetSelectionMark, controls.ListView_GetSelectionMark, controls._win32_ListView_GetSelectionMark
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb761071(v=VS.85).aspx">LVM_GETSELECTIONMARK</a> message. 
+Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/21daf7d7-1217-4608-93f9-c390546f1591">LVM_GETSELECTIONMARK</a> message. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the selection mark from a list-view control. You can use this macro or expl
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 
@@ -79,7 +79,7 @@ The selection mark is the item index from which a multiple selection starts.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775112(v=VS.85).aspx">ListView_SetSelectionMark</a>
+<a href="https://msdn.microsoft.com/75cb06d0-3d6f-4523-b912-3c12e368f17e">ListView_SetSelectionMark</a>
  
 
  

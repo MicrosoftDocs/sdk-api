@@ -7,7 +7,7 @@ old-location: security\icertview2_setresultcolumncount.htm
 tech.root: seccrypto
 ms.assetid: f98b2f45-be9f-47ba-9c6b-63a2912288ac
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CCertView object [Security],SetResultColumnCount method, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetResultColumnCount method, ICertView.SetResultColumnCount, ICertView2 interface [Security],SetResultColumnCount method, ICertView2::SetResultColumnCount, ICertView::SetResultColumnCount, SetResultColumnCount, SetResultColumnCount method [Security], SetResultColumnCount method [Security],CCertView object, SetResultColumnCount method [Security],ICertView interface, SetResultColumnCount method [Security],ICertView2 interface, certview/ICertView2::SetResultColumnCount, certview/ICertView::SetResultColumnCount, security.icertview2_setresultcolumncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ The number of columns in the result set will be the number of columns in the Cer
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -120,30 +120,34 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 Before calling the <b>SetResultColumnCount</b> method, it is necessary to establish a connection with a Certificate Services server by calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">OpenConnection</a> method first. After the connection is established, this method can be called once, and only once, to specify the maximum number of columns in the result set.
+<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">OpenConnection</a> method first. After the connection is established, this method can be called once, and only once, to specify the maximum number of columns in the result set.
 
 If the <i>cResultColumn</i> parameter is set to a positive number (not one of the predefined constants), the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385442(v=VS.85).aspx">SetResultColumn</a> method must be called to specify which  columns to include in the  result set. Note that <b>SetResultColumn</b> fails if it is called more than the number of columns specified by <b>SetResultColumnCount</b>.
+<a href="https://msdn.microsoft.com/c13bdc3a-e623-49df-bba0-34c4c178dc3b">SetResultColumn</a> method must be called to specify which  columns to include in the  result set. Note that <b>SetResultColumn</b> fails if it is called more than the number of columns specified by <b>SetResultColumnCount</b>.
 
 
 #### Examples
 
-
-```cpp
-HRESULT    hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT    hr;
 // Specify the result set for logged requests.
 // pCertView is pointer to ICertView (which has an Open Connection)
-hr = pCertView->SetResultColumnCount(CV_COLUMN_LOG_DEFAULT);
+hr = pCertView-&gt;SetResultColumnCount(CV_COLUMN_LOG_DEFAULT);
 if (S_OK != hr)
     printf("Failed ICertView::SetResultColumnCount - %x\n", hr);
 else
 {
     // Retrieve data rows by means of ICertView::OpenView.
     // ...
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -152,23 +156,23 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a>
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a>
+<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">ICertView::OpenConnection</a>
+<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">ICertView::OpenConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385439(v=VS.85).aspx">ICertView::SetRestriction</a>
+<a href="https://msdn.microsoft.com/a2dc8675-1d75-4c15-a9f7-971274ab044c">ICertView::SetRestriction</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385442(v=VS.85).aspx">ICertView::SetResultColumn</a>
+<a href="https://msdn.microsoft.com/c13bdc3a-e623-49df-bba0-34c4c178dc3b">ICertView::SetResultColumn</a>
  
 
  

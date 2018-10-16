@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_drawbitmap4.htm
 tech.root: direct2d
 ms.assetid: DD89AEC7-D1B5-45B2-AAE3-CD2E2E6E6D25
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Direct2D], DrawBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawBitmap method, ID2D1DeviceContext.DrawBitmap, ID2D1DeviceContext.DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_INTERPOLATION_MODE,const D2D1_RECT_F,const D2D1_MATRIX_4X4_F), ID2D1DeviceContext::DrawBitmap, ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_INTERPOLATION_MODE,const D2D1_RECT_F,const D2D1_MATRIX_4X4_F), d2d1_1/ID2D1DeviceContext::DrawBitmap, direct2d.id2d1devicecontext_drawbitmap4
 ms.prod: windows-hardware
 ms.technology: windows-devices

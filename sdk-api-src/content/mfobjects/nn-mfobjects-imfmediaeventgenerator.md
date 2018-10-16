@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventgenerator.htm
 tech.root: medfound
 ms.assetid: a37d0840-c896-43a0-b3d1-c2a6aaff1b25
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFMediaEventGenerator, IMFMediaEventGenerator interface [Media Foundation], IMFMediaEventGenerator interface [Media Foundation],described, a37d0840-c896-43a0-b3d1-c2a6aaff1b25, mf.imfmediaeventgenerator, mfobjects/IMFMediaEventGenerator
 ms.prod: windows
 ms.technology: windows-sdk

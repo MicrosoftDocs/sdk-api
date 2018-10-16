@@ -7,7 +7,7 @@ old-location: mscs\clusworkersterminate.htm
 tech.root: mscs
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices

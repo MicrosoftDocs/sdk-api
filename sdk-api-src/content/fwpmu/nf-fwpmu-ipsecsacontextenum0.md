@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextenum0.htm
 tech.root: fwp
 ms.assetid: 67ef4ec6-904b-4b15-a38f-a708448a8646
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPsecSaContextEnum0, IPsecSaContextEnum0 function [Filtering], fwp.ipsecsacontextenum0, fwpmu/IPsecSaContextEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\rgb.htm
 tech.root: gdi
 ms.assetid: e1dcb5f8-c026-4a4e-8541-928a057bf0ae
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB
 ms.prod: windows-hardware
 ms.technology: windows-devices

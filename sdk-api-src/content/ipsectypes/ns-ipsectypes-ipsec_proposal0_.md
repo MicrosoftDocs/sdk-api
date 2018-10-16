@@ -7,7 +7,7 @@ old-location: fwp\ipsec_proposal0_struct.htm
 tech.root: fwp
 ms.assetid: bc551733-dbba-4d66-8054-fbf4bbfa28b5
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPSEC_PROPOSAL0, IPSEC_PROPOSAL0 structure [Filtering], IPSEC_PROPOSAL0_, fwp.ipsec_proposal0_struct, ipsectypes/IPSEC_PROPOSAL0
 ms.prod: windows
 ms.technology: windows-sdk

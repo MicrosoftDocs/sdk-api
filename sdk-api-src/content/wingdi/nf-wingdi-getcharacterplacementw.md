@@ -7,7 +7,7 @@ old-location: gdi\getcharacterplacement.htm
 tech.root: gdi
 ms.assetid: 80d3f4b3-503b-4abb-826c-e5c09972ba2f
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GCP_CLASSIN, GCP_DIACRITIC, GCP_DISPLAYZWG, GCP_GLYPHSHAPE, GCP_JUSTIFY, GCP_KASHIDA, GCP_LIGATE, GCP_MAXEXTENT, GCP_NEUTRALOVERRIDE, GCP_NUMERICOVERRIDE, GCP_NUMERICSLATIN, GCP_NUMERICSLOCAL, GCP_REORDER, GCP_SYMSWAPOFF, GCP_USEKERNING, GetCharacterPlacement, GetCharacterPlacement function [Windows GDI], GetCharacterPlacementA, GetCharacterPlacementW, _win32_GetCharacterPlacement, gdi.getcharacterplacement, wingdi/GetCharacterPlacement, wingdi/GetCharacterPlacementA, wingdi/GetCharacterPlacementW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -220,7 +220,7 @@ Certain languages only. Override the normal handling of numerics and treat them 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="https://msdn.microsoft.com/en-us/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ Arabic/Thai only. Use standard Latin glyphs for numbers and override the system 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="https://msdn.microsoft.com/en-us/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -346,7 +346,7 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a>
+<a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a>
 
 
 

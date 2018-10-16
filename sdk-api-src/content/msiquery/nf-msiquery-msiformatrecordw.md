@@ -7,7 +7,7 @@ old-location: setup\msiformatrecord.htm
 tech.root: msi
 ms.assetid: 574f51b1-a5cf-46c8-bfa3-449839872cf3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: MsiFormatRecord, MsiFormatRecord function, MsiFormatRecordA, MsiFormatRecordW, _msi_msiformatrecord, msiquery/MsiFormatRecord, msiquery/MsiFormatRecordA, msiquery/MsiFormatRecordW, setup.msiformatrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

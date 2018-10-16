@@ -7,7 +7,7 @@ old-location: mf\imfcollection_getelement.htm
 tech.root: medfound
 ms.assetid: a45983a8-4061-40e1-a11a-67de0867e553
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: GetElement, GetElement method [Media Foundation], GetElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElement method, IMFCollection.GetElement, IMFCollection::GetElement, a45983a8-4061-40e1-a11a-67de0867e553, mf.imfcollection_getelement, mfobjects/IMFCollection::GetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,31 +93,35 @@ This method does not remove the object from the collection. To remove an object,
 
 #### Examples
 
-
-```cpp
-//  Gets an interface pointer from a collection (IMFCollection).
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Gets an interface pointer from a collection (IMFCollection).
 //
 //  Q: Interface type
 
-template <class Q>
+template &lt;class Q&gt;
 HRESULT GetCollectionObject(IMFCollection *pCollection, 
     DWORD dwIndex, Q **ppObject)
 {
     *ppObject = NULL;   // zero output
 
     IUnknown *pUnk = NULL;
-    HRESULT hr = pCollection->GetElement(dwIndex, &pUnk);
+    HRESULT hr = pCollection-&gt;GetElement(dwIndex, &amp;pUnk);
     if (SUCCEEDED(hr))
     {
-        hr = pUnk->QueryInterface(IID_PPV_ARGS(ppObject));
-        pUnk->Release();
+        hr = pUnk-&gt;QueryInterface(IID_PPV_ARGS(ppObject));
+        pUnk-&gt;Release();
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

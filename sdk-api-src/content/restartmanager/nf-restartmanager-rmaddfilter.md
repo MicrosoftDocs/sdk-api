@@ -7,7 +7,7 @@ old-location: rstmgr\rmaddfilter.htm
 tech.root: rstmgr
 ms.assetid: 63d1d1d2-d7b7-4d6c-99f9-b849229e171f
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: RmAddFilter, RmAddFilter function [Restart Mgr], restartmanager/RmAddFilter, rstmgr.rmaddfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

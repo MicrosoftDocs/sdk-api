@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedIsEnabled.htm
 tech.root: WinAuto
 ms.assetid: e3b6bf79-51a7-46bf-91af-4448df8e4be7
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: CachedIsEnabled property [Windows Accessibility], CachedIsEnabled property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsEnabled property, IUIAutomationElement.CachedIsEnabled, IUIAutomationElement.get_CachedIsEnabled, IUIAutomationElement::CachedIsEnabled, IUIAutomationElement::get_CachedIsEnabled, get_CachedIsEnabled, uiauto.uiauto_IUIAutomationElement_CachedIsEnabled, uiauto_IUIAutomationElement_CachedIsEnabled, uiautomationclient/IUIAutomationElement::CachedIsEnabled, uiautomationclient/IUIAutomationElement::get_CachedIsEnabled, winauto.uiauto_IUIAutomationElement_CachedIsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

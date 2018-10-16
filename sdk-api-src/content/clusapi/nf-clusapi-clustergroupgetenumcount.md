@@ -7,7 +7,7 @@ old-location: mscs\clustergroupgetenumcount.htm
 tech.root: mscs
 ms.assetid: 068cd55e-4220-447c-bf2f-a515503b7cc9
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: ClusterGroupGetEnumCount, ClusterGroupGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT function [Failover Cluster], _wolf_clustergroupgetenumcount, clusapi/ClusterGroupGetEnumCount, clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, mscs.clustergroupgetenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-Returns the number of <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a> associated with a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT</b> type defines a pointer to this function.
+Returns the number of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> associated with a 
+    <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT</b> type defines a pointer to this function.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: security\ncryptsecretagreement.htm
 tech.root: seccng
 ms.assetid: b5bf3eac-1fae-43e2-84b6-e8e5e255d7c5
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptSecretAgreement, NCryptSecretAgreement function [Security], ncrypt/NCryptSecretAgreement, security.ncryptsecretagreement
 ms.prod: windows-hardware
 ms.technology: windows-devices

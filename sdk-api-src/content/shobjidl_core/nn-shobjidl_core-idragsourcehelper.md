@@ -7,7 +7,7 @@ old-location: shell\IDragSourceHelper.htm
 tech.root: shell
 ms.assetid: d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDragSourceHelper, IDragSourceHelper interface [Windows Shell], IDragSourceHelper interface [Windows Shell],described, _win32_IDragSourceHelper, shell.IDragSourceHelper, shobjidl_core/IDragSourceHelper
 ms.prod: windows
 ms.technology: windows-sdk

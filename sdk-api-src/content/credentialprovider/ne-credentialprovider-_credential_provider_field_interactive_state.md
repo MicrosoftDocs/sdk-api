@@ -7,7 +7,7 @@ old-location: shell\CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE.htm
 tech.root: shell
 ms.assetid: 745ac5f0-fcfe-4f42-ab4c-c933f1d3870b
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CPFIS_DISABLED, CPFIS_FOCUSED, CPFIS_NONE, CPFIS_READONLY, CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE enumeration [Windows Shell], _CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, _shell_CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, credentialprovider/CPFIS_DISABLED, credentialprovider/CPFIS_FOCUSED, credentialprovider/CPFIS_NONE, credentialprovider/CPFIS_READONLY, credentialprovider/CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, shell.CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb776025(v=VS.85).aspx">ICredentialProviderCredential::GetFieldState</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb776015(v=VS.85).aspx">ICredentialProviderCredentialEvents::SetFieldInteractiveState</a>.
+Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states. Used by <a href="https://msdn.microsoft.com/9a709835-cf89-464d-a257-d16a1312ab44">ICredentialProviderCredential::GetFieldState</a> and <a href="https://msdn.microsoft.com/649f0f65-78dd-4232-b471-9a18d1448f1d">ICredentialProviderCredentialEvents::SetFieldInteractiveState</a>.
 
 
 ## -enum-fields

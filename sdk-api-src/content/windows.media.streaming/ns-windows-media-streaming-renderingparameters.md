@@ -7,7 +7,7 @@ old-location: mediastreaming\renderingparameters.htm
 tech.root: mediastreaming
 ms.assetid: d5a558e1-75c3-4276-a6e7-4b688f871031
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: RenderingParameters, RenderingParameters structure [Media Streaming API], mediastreaming.renderingparameters, windows/RenderingParameters
 ms.prod: windows
 ms.technology: windows-sdk

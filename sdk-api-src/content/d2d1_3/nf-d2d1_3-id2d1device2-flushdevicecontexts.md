@@ -7,7 +7,7 @@ old-location: direct2d\id2d1device2_flushdevicecontexts.htm
 tech.root: direct2d
 ms.assetid: 914A64BA-61CD-4A66-91D8-F7CC040AF67A
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: FlushDeviceContexts, FlushDeviceContexts method [Direct2D], FlushDeviceContexts method [Direct2D],ID2D1Device2 interface, ID2D1Device2 interface [Direct2D],FlushDeviceContexts method, ID2D1Device2.FlushDeviceContexts, ID2D1Device2::FlushDeviceContexts, d2d1_3/ID2D1Device2::FlushDeviceContexts, direct2d.id2d1device2_flushdevicecontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices

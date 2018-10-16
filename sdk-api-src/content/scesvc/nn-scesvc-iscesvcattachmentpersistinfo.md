@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentpersistinfo.htm
 tech.root: secmgmt
 ms.assetid: 3cd4bde2-55f6-4ab1-b175-7689b0cc529b
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], ISceSvcAttachmentPersistInfo interface [Security],described, _config_iscesvcattachmentpersistinfo, scesvc/ISceSvcAttachmentPersistInfo, security.iscesvcattachmentpersistinfo
 ms.prod: windows
 ms.technology: windows-sdk

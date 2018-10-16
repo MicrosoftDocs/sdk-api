@@ -4,10 +4,10 @@ title: IDiskQuotaControl::SetQuotaLogFlags
 author: windows-sdk-content
 description: Controls the logging of user-related quota events on the volume.
 old-location: fs\idiskquotacontrol_setquotalogflags.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 8e5a1637-ad10-4a36-8493-b57c254ae273
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetQuotaLogFlags method, IDiskQuotaControl.SetQuotaLogFlags, IDiskQuotaControl::SetQuotaLogFlags, SetQuotaLogFlags, SetQuotaLogFlags method [Files], SetQuotaLogFlags method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setquotalogflags, base.idiskquotacontrol_setquotalogflags, dskquota/IDiskQuotaControl::SetQuotaLogFlags, fs.idiskquotacontrol_setquotalogflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

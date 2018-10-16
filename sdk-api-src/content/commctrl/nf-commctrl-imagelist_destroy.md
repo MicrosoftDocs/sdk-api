@@ -7,7 +7,7 @@ old-location: controls\ImageList_Destroy.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_destroy.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ImageList_Destroy, ImageList_Destroy function [Windows Controls], _win32_ImageList_Destroy, _win32_ImageList_Destroy_cpp, commctrl/ImageList_Destroy, controls.ImageList_Destroy, controls._win32_ImageList_Destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ A handle to the image list to destroy.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 

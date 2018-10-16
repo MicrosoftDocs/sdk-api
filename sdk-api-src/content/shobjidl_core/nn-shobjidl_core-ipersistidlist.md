@@ -7,7 +7,7 @@ old-location: shell\IPersistIDList.htm
 tech.root: shell
 ms.assetid: b367dc07-8a50-4562-bd73-57c73c781d81
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPersistIDList, IPersistIDList interface [Windows Shell], IPersistIDList interface [Windows Shell],described, inet_IPersistIDList, shell.IPersistIDList, shobjidl_core/IPersistIDList
 ms.prod: windows
 ms.technology: windows-sdk

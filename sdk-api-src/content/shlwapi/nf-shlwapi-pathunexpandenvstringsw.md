@@ -7,7 +7,7 @@ old-location: shell\PathUnExpandEnvStrings.htm
 tech.root: shell
 ms.assetid: cfab1ee0-03f3-4e0f-a29d-5331fec022b5
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: PathUnExpandEnvStrings, PathUnExpandEnvStrings function [Windows Shell], PathUnExpandEnvStringsA, PathUnExpandEnvStringsW, _win32_PathUnExpandEnvStrings, shell.PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStringsA, shlwapi/PathUnExpandEnvStringsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

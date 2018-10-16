@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicecontroller_removedevice.htm
 tech.root: mediastreaming
 ms.assetid: 07002D00-4E7B-4679-A521-A6F4B3148923
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDeviceController interface [Media Streaming API],RemoveDevice method, IDeviceController.RemoveDevice, IDeviceController.streaming, IDeviceController::RemoveDevice, IDeviceController::streaming, RemoveDevice, RemoveDevice method [Media Streaming API], RemoveDevice method [Media Streaming API],IDeviceController interface, mediastreaming.idevicecontroller_removedevice, windows/IDeviceController::RemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfpmpserver.htm
 tech.root: medfound
 ms.assetid: ba6dc70a-d77d-41de-afe1-65f2efcc4a95
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFPMPServer, IMFPMPServer interface [Media Foundation], IMFPMPServer interface [Media Foundation],described, ba6dc70a-d77d-41de-afe1-65f2efcc4a95, mf.imfpmpserver, mfidl/IMFPMPServer
 ms.prod: windows
 ms.technology: windows-sdk

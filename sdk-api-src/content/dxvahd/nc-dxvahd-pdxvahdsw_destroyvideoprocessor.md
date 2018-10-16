@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_destroyvideoprocessor.htm
 tech.root: medfound
 ms.assetid: 46667a66-3638-4cf0-9966-3e659d00f914
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PDXVAHDSW_DestroyVideoProcessor, PDXVAHDSW_DestroyVideoProcessor callback, PDXVAHDSW_DestroyVideoProcessor callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyVideoProcessor, mf.pdxvahdsw_destroyvideoprocessor
 ms.prod: windows
 ms.technology: windows-sdk

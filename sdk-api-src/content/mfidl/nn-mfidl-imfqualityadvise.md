@@ -7,7 +7,7 @@ old-location: mf\imfqualityadvise.htm
 tech.root: medfound
 ms.assetid: 20681ce7-e07e-4e34-9238-ec23cc6bfc84
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: 20681ce7-e07e-4e34-9238-ec23cc6bfc84, IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], IMFQualityAdvise interface [Media Foundation],described, mf.imfqualityadvise, mfidl/IMFQualityAdvise
 ms.prod: windows
 ms.technology: windows-sdk

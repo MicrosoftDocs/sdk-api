@@ -7,7 +7,7 @@ old-location: controls\ComboBox_GetCount.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcount.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ComboBox_GetCount, ComboBox_GetCount macro [Windows Controls], _win32_ComboBox_GetCount, _win32_ComboBox_GetCount_cpp, controls.ComboBox_GetCount, controls._win32_ComboBox_GetCount, windowsx/ComboBox_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the number of items in the list box of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775841(v=VS.85).aspx">CB_GETCOUNT</a> message explicitly.
+Gets the number of items in the list box of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/69667724-5452-4fcc-afc3-0d98d3beedc8">CB_GETCOUNT</a> message explicitly.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: fwp\ikeextgetstatistics1.htm
 tech.root: fwp
 ms.assetid: c1742e08-a998-4773-a216-cfbbee8608b7
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IkeextGetStatistics1, IkeextGetStatistics1 function [Filtering], fwp.ikeextgetstatistics1, fwpmu/IkeextGetStatistics1
 ms.prod: windows-hardware
 ms.technology: windows-devices

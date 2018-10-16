@@ -7,7 +7,7 @@ old-location: fwp\ikeext_certificate_credential1.htm
 tech.root: fwp
 ms.assetid: 78ae9cfe-2a4f-48cd-9a4f-fd5193df0ed0
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IKEEXT_CERTIFICATE_CREDENTIAL1, IKEEXT_CERTIFICATE_CREDENTIAL1 structure [Filtering], IKEEXT_CERTIFICATE_CREDENTIAL1_, IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT, fwp.ikeext_certificate_credential1, iketypes/IKEEXT_CERTIFICATE_CREDENTIAL1
 ms.prod: windows
 ms.technology: windows-sdk

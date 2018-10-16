@@ -4,10 +4,10 @@ title: "_CACHE_RELATIONSHIP"
 author: windows-sdk-content
 description: Describes cache attributes. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\cache_relationship.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: f8fe521b-02d6-4c58-8ef8-653280add111
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PCACHE_RELATIONSHIP, CACHE_RELATIONSHIP, CACHE_RELATIONSHIP structure, PCACHE_RELATIONSHIP, PCACHE_RELATIONSHIP structure pointer, _CACHE_RELATIONSHIP, base.cache_relationship, winnt/CACHE_RELATIONSHIP, winnt/PCACHE_RELATIONSHIP"
 ms.prod: windows
 ms.technology: windows-sdk

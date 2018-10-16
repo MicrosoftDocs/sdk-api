@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicecontroller_adddevice.htm
 tech.root: mediastreaming
 ms.assetid: 9D7DD7C2-21C0-4DD2-BB71-613203097692
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: AddDevice, AddDevice method [Media Streaming API], AddDevice method [Media Streaming API],IDeviceController interface, IDeviceController interface [Media Streaming API],AddDevice method, IDeviceController.AddDevice, IDeviceController.streaming, IDeviceController::AddDevice, IDeviceController::streaming, mediastreaming.idevicecontroller_adddevice, windows/IDeviceController::AddDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

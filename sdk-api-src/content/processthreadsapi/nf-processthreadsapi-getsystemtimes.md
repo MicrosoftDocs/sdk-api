@@ -7,7 +7,7 @@ old-location: base\getsystemtimes.htm
 tech.root: sysinfo
 ms.assetid: 84f674e7-536b-4ae0-b523-6a17cb0a1c17
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetSystemTimes, GetSystemTimes function, base.getsystemtimes, processthreadsapi/GetSystemTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

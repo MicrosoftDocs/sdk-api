@@ -7,7 +7,7 @@ old-location: controls\itextstrings_item.htm
 tech.root: controls
 ms.assetid: 8eed4bc6-75a8-440e-a334-543e7b996df0
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ITextStrings interface [Windows Controls],Item method, ITextStrings.Item, ITextStrings::Item, Item, Item method [Windows Controls], Item method [Windows Controls],ITextStrings interface, controls.itextstrings_item, tom/ITextStrings::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

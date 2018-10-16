@@ -4,10 +4,10 @@ title: IOCTL_DISK_REASSIGN_BLOCKS_EX
 author: windows-sdk-content
 description: Directs the disk device to map one or more blocks to its spare-block pool.
 old-location: fs\ioctl_disk_reassign_blocks_ex.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 126ffefa-165b-4ca1-a905-1aebc8e790c7
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Files], base.ioctl_disk_reassign_blocks_ex, fs.ioctl_disk_reassign_blocks_ex, winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,18 +55,22 @@ Directs the disk device to map one or more blocks to its spare-block pool.
 To perform this operation, call the 
     <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following 
     parameters.
-
-```cpp
-BOOL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE) hDevice,              // handle to device 
                  IOCTL_DISK_REASSIGN_BLOCKS_EX, // dwIoControlCode(LPVOID) lpInBuffer,           // input buffer
                  (DWORD) nInBufferSize,         // size of input buffer 
                  (LPVOID) NULL,                 // lpOutBuffer(DWORD) 0,                     // nOutBufferSize(LPDWORD) lpBytesReturned,     // number of bytes returned
-                 (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure
-```
-
-
+                 (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

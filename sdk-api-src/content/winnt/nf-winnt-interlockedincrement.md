@@ -7,7 +7,7 @@ old-location: base\interlockedincrement.htm
 tech.root: sync
 ms.assetid: 87eda7fb-966d-4630-9da6-8933b53daadd
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winnt/InterlockedIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 32-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/2ddez55b(v=VS.85).aspx">_InterlockedIncrement</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="37700615-f372-438b-bcef-d76e11839482">_InterlockedIncrement</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

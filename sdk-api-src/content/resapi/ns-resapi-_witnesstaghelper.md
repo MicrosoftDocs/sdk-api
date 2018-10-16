@@ -7,7 +7,7 @@ old-location: mscs\witnesstaghelper.htm
 tech.root: mscs
 ms.assetid: FFE7EF63-4025-4CC5-B3F8-FF07FA67AFD1
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cluster], WitnessTagHelper, WitnessTagHelper structure [Failover Cluster], _WitnessTagHelper, mscs.witnesstaghelper, resapi/PWitnessTagHelper, resapi/WitnessTagHelper
 ms.prod: windows
 ms.technology: windows-sdk

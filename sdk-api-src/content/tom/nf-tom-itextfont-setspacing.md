@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetSpacing.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacing.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSpacing method, ITextFont.SetSpacing, ITextFont::SetSpacing, SetSpacing, SetSpacing method [Windows Controls], SetSpacing method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSpacing, _win32_ITextFont_SetSpacing_cpp, controls.ITextFont_SetSpacing, controls._win32_ITextFont_SetSpacing, tom/ITextFont::SetSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,11 +146,11 @@ Displayed text typically has an intercharacter spacing value of zero. Positive v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774025(v=VS.85).aspx">GetSpacing</a>
+<a href="https://msdn.microsoft.com/3392f160-4fe0-41f4-8069-c11576ddb83d">GetSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -158,7 +158,7 @@ Displayed text typically has an intercharacter spacing value of zero. Positive v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\imftopologynodeattributeeditor_updatenodeattributes.htm
 tech.root: medfound
 ms.assetid: a769b0bd-a43f-478b-a6e4-bbef05942616
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFTopologyNodeAttributeEditor interface [Media Foundation],UpdateNodeAttributes method, IMFTopologyNodeAttributeEditor.UpdateNodeAttributes, IMFTopologyNodeAttributeEditor::UpdateNodeAttributes, UpdateNodeAttributes, UpdateNodeAttributes method [Media Foundation], UpdateNodeAttributes method [Media Foundation],IMFTopologyNodeAttributeEditor interface, a769b0bd-a43f-478b-a6e4-bbef05942616, mf.imftopologynodeattributeeditor_updatenodeattributes, mfidl/IMFTopologyNodeAttributeEditor::UpdateNodeAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

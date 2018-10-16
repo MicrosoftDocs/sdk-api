@@ -7,7 +7,7 @@ old-location: projfs\prjwriteplaceholderinfo.htm
 tech.root: ProjFS
 ms.assetid: EAEA2D05-2FCF-46A7-AEBD-9CF085D868E1
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PrjWritePlaceholderInfo, PrjWritePlaceholderInfo function, ProjFS.prjwriteplaceholderinfo, projectedfslib/PrjWritePlaceholderInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

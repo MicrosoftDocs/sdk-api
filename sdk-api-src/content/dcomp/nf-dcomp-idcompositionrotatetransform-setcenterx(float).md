@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform_setcenterx_float.htm
 tech.root: directcomp
 ms.assetid: A1E2E033-031E-4781-9FCC-DC3190CCAB61
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetCenterX method, IDCompositionRotateTransform.SetCenterX, IDCompositionRotateTransform.SetCenterX(float), IDCompositionRotateTransform::SetCenterX, IDCompositionRotateTransform::SetCenterX(float), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetCenterX, directcomp.idcompositionrotatetransform_setcenterx_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

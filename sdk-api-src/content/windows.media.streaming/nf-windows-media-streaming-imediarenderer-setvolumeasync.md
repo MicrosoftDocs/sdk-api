@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_setvolumeasync.htm
 tech.root: mediastreaming
 ms.assetid: 422668F3-F5D6-440A-8BF1-A85B17E9A853
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetVolumeAsync method, IMediaRenderer.SetVolumeAsync, IMediaRenderer.streaming, IMediaRenderer::SetVolumeAsync, IMediaRenderer::streaming, SetVolumeAsync, SetVolumeAsync method [Media Streaming API], SetVolumeAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setvolumeasync, windows/IMediaRenderer::SetVolumeAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

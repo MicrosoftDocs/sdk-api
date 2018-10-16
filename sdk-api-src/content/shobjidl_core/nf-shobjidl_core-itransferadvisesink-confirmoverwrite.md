@@ -7,7 +7,7 @@ old-location: shell\ITransferAdviseSink_ConfirmOverwrite.htm
 tech.root: shell
 ms.assetid: 1c7705c5-1a56-47c2-9b9b-3f72a4323cd7
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ConfirmOverwrite, ConfirmOverwrite method [Windows Shell], ConfirmOverwrite method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],ConfirmOverwrite method, ITransferAdviseSink.ConfirmOverwrite, ITransferAdviseSink::ConfirmOverwrite, _shell_ITransferAdviseSink_ConfirmOverwrite, shell.ITransferAdviseSink_ConfirmOverwrite, shobjidl_core/ITransferAdviseSink::ConfirmOverwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

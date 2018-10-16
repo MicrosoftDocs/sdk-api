@@ -7,7 +7,7 @@ old-location: mscs\changerestypeprocessfordumps.htm
 tech.root: mscs
 ms.assetid: 6E5CA26D-F58A-41A4-9ED0-35FA363B7025
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: ChangeResTypeProcessForDumps, ChangeResTypeProcessForDumps callback, ChangeResTypeProcessForDumps callback function [Failover Cluster], PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS, PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changerestypeprocessfordumps, resapi/ChangeResTypeProcessForDumps, resapi/PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
 ms.prod: windows
 ms.technology: windows-sdk

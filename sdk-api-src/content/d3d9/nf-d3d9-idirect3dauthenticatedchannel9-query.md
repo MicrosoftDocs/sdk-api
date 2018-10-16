@@ -7,7 +7,7 @@ old-location: mf\idirect3dauthenticatedchannel9_query.htm
 tech.root: medfound
 ms.assetid: 370ed31d-5b75-4767-b8d8-33cb2ff49fee
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IDirect3DAuthenticatedChannel9 interface [Media Foundation],Query method, IDirect3DAuthenticatedChannel9.Query, IDirect3DAuthenticatedChannel9::Query, Query, Query method [Media Foundation], Query method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, d3d9/IDirect3DAuthenticatedChannel9::Query, mf.idirect3dauthenticatedchannel9_query
 ms.prod: windows-hardware
 ms.technology: windows-devices

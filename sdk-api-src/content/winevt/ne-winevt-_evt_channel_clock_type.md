@@ -7,7 +7,7 @@ old-location: wes\evt_channel_clock_type.htm
 tech.root: wes
 ms.assetid: 575a6667-b832-46e8-8704-0612e04b8669
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: EVT_CHANNEL_CLOCK_TYPE, EVT_CHANNEL_CLOCK_TYPE enumeration [EventLog], EvtChannelClockTypeQPC, EvtChannelClockTypeSystemTime, _EVT_CHANNEL_CLOCK_TYPE, wes.evt_channel_clock_type, winevt/EVT_CHANNEL_CLOCK_TYPE, winevt/EvtChannelClockTypeQPC, winevt/EvtChannelClockTypeSystemTime
 ms.prod: windows
 ms.technology: windows-sdk

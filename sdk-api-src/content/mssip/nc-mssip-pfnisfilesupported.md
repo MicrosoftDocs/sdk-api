@@ -7,7 +7,7 @@ old-location: security\pfnisfilesupported.htm
 tech.root: seccrypto
 ms.assetid: cf12d057-328a-4975-b7e5-842c4ea2e760
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: mssip/pfnIsFileSupported, pfnIsFileSupported, pfnIsFileSupported callback, pfnIsFileSupported callback function [Security], security.pfnisfilesupported
 ms.prod: windows
 ms.technology: windows-sdk

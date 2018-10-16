@@ -7,7 +7,7 @@ old-location: mf\iwmcodecleakybucketsetbuffersizebits.htm
 tech.root: medfound
 ms.assetid: b602e8ca-8446-4f94-bcd0-193084d96565
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IWMCodecLeakyBucket interface [Media Foundation],SetBufferSizeBits method, IWMCodecLeakyBucket.SetBufferSizeBits, IWMCodecLeakyBucket::SetBufferSizeBits, SetBufferSizeBits, SetBufferSizeBits method [Media Foundation], SetBufferSizeBits method [Media Foundation],IWMCodecLeakyBucket interface, codecapi.iwmcodecleakybucketsetbuffersizebits, mf.iwmcodecleakybucketsetbuffersizebits, wmcodecdsp/IWMCodecLeakyBucket::SetBufferSizeBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

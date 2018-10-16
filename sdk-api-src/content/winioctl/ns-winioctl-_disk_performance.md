@@ -4,10 +4,10 @@ title: "_DISK_PERFORMANCE"
 author: windows-sdk-content
 description: Provides disk performance information.
 old-location: fs\disk_performance_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 938ec37b-450e-4ebf-ad2b-9f1ac5f56112
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Files], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Files], _DISK_PERFORMANCE, _win32_disk_performance_str, base.disk_performance_str, fs.disk_performance_str, winioctl/DISK_PERFORMANCE, winioctl/PDISK_PERFORMANCE"
 ms.prod: windows
 ms.technology: windows-sdk

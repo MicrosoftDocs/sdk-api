@@ -7,7 +7,7 @@ old-location: security\certgetintendedkeyusage.htm
 tech.root: seccrypto
 ms.assetid: d09c3626-f864-4774-8511-3e912f62e520
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CertGetIntendedKeyUsage, CertGetIntendedKeyUsage function [Security], _crypto2_certgetintendedkeyusage, security.certgetintendedkeyusage, wincrypt/CertGetIntendedKeyUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

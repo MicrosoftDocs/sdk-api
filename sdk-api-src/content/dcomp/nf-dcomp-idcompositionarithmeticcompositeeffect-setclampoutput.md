@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionarithmeticcompositeeffect_setclampoutput.h
 tech.root: directcomp
 ms.assetid: 6558E6E7-FEF3-43F0-8508-197BA1DE3D10
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetClampOutput method, IDCompositionArithmeticCompositeEffect.SetClampOutput, IDCompositionArithmeticCompositeEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetClampOutput, directcomp.idcompositionarithmeticcompositeeffect_setclampoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

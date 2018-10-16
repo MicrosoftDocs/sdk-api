@@ -7,7 +7,7 @@ old-location: security\bcryptquerycontextfunctionconfiguration.htm
 tech.root: seccng
 ms.assetid: 4eea9efe-bf45-4926-86fc-9b12b6d292cd
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryContextFunctionConfiguration, BCryptQueryContextFunctionConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryContextFunctionConfiguration, security.bcryptquerycontextfunctionconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -297,23 +297,27 @@ The specified context or function could not be found.
 
 Each cryptographic function has only one set of configuration information, so although the <i>ppBuffer</i> parameter appears to be a used as an array, this function treats this as an array with only one element. The following example helps clarify how this parameter is used.
 
-
-```cpp
-// Get the function configuration information.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get the function configuration information.
 CRYPT_CONTEXT_FUNCTION_CONFIG FuncConfig;
 ULONG uSize = sizeof(FuncConfig);
-PCRYPT_CONTEXT_FUNCTION_CONFIG pFuncConfig = &FuncConfig;
+PCRYPT_CONTEXT_FUNCTION_CONFIG pFuncConfig = &amp;FuncConfig;
 status = BCryptQueryContextFunctionConfiguration(
     CRYPT_LOCAL, 
     pszContext, 
     NCRYPT_SCHANNEL_INTERFACE,
     pszFunction,
-    &uSize, 
-    &pFuncConfig);
-
-```
-
-
+    &amp;uSize, 
+    &amp;pFuncConfig);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>BCryptQueryContextFunctionConfiguration</b> can be called only in user mode.
 
 

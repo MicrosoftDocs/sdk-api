@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1SimplifiedGeometrySink_Close.htm
 tech.root: direct2d
 ms.assetid: 9dbbe5c6-d21c-4408-9208-53c7c051b22a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],Close method, ID2D1SimplifiedGeometrySink.Close, ID2D1SimplifiedGeometrySink::Close, d2d1/ID2D1SimplifiedGeometrySink::Close, direct2d.ID2D1SimplifiedGeometrySink_Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

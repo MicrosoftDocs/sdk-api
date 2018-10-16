@@ -7,7 +7,7 @@ old-location: mscs\clustergroupgetenumcountex.htm
 tech.root: mscs
 ms.assetid: 28FCEC17-78C6-4902-BC4C-832BE3347380
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: ClusterGroupGetEnumCountEx, ClusterGroupGetEnumCountEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX function [Failover Cluster], clusapi/ClusterGroupGetEnumCountEx, clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, mscs.clustergroupgetenumcountex
 ms.prod: windows-hardware
 ms.technology: windows-devices

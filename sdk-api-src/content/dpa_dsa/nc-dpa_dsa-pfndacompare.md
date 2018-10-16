@@ -7,7 +7,7 @@ old-location: controls\PFNDACOMPARE.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompare.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: PFNDACOMPARE, PFNDACOMPARE callback, PFNDACOMPARE callback function [Windows Controls], PFNDPACOMPARE, PFNDSACOMPARE, _shell_PFNDACOMPARE, _shell_PFNDACOMPARE_cpp, controls.PFNDACOMPARE, controls._shell_PFNDACOMPARE, dpa_dsa/PFNDACOMPARE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines the prototype for the compare function used by <a href="https://msdn.microsoft.com/en-us/library/Bb775670(v=VS.85).aspx">DSA_Sort</a>.
+Defines the prototype for the compare function used by <a href="https://msdn.microsoft.com/cf9c56fd-eeca-414a-8c3f-a962d41b1161">DSA_Sort</a>.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ Additional data passed to <i>pfnCmp</i>.
 
 Type: <b>int</b>
 
-The meaning of the return values depends on the function that uses this callback prototype. The return values for <a href="https://msdn.microsoft.com/en-us/library/Bb775670(v=VS.85).aspx">DSA_Sort</a> are the following.
+The meaning of the return values depends on the function that uses this callback prototype. The return values for <a href="https://msdn.microsoft.com/cf9c56fd-eeca-414a-8c3f-a962d41b1161">DSA_Sort</a> are the following.
                         
                         
 

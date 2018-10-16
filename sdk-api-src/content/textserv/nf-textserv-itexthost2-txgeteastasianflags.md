@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txgeteastasianflags.htm
 tech.root: controls
 ms.assetid: 3D704159-795A-4BD6-B699-EC311D9B780C
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ES_NOIME, ES_SELFIME, ITextHost2 interface [Windows Controls],TxGetEastAsianFlags method, ITextHost2.TxGetEastAsianFlags, ITextHost2::TxGetEastAsianFlags, TxGetEastAsianFlags, TxGetEastAsianFlags method [Windows Controls], TxGetEastAsianFlags method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgeteastasianflags, textserv/ITextHost2::TxGetEastAsianFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>.
+Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include <a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a>.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The East Asian flags.
 </tr>
 <tr>
 <td width="40%"><a id="ES_NOIME"></a><a id="es_noime"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_NOIME</a></b></dt>
+<dt><b><a href="Rich_Edit_Control_Styles.htm">ES_NOIME</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -81,7 +81,7 @@ IME input is suppressed.
 </tr>
 <tr>
 <td width="40%"><a id="ES_SELFIME"></a><a id="es_selfime"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a></b></dt>
+<dt><b><a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a></b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -7,7 +7,7 @@ old-location: mf\imfattributes.htm
 tech.root: medfound
 ms.assetid: e12259f4-b631-4d4a-a296-c1cc6334b962
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFAttributes, IMFAttributes interface [Media Foundation], IMFAttributes interface [Media Foundation],described, e12259f4-b631-4d4a-a296-c1cc6334b962, mf.imfattributes, mfobjects/IMFAttributes
 ms.prod: windows
 ms.technology: windows-sdk

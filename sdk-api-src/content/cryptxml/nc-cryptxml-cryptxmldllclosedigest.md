@@ -7,7 +7,7 @@ old-location: security\cryptxmldllclosedigest.htm
 tech.root: seccrypto
 ms.assetid: 97f720b9-f937-4469-abe9-62bf35ebdd7a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CryptXmlDllCloseDigest, CryptXmlDllCloseDigest callback, CryptXmlDllCloseDigest callback function [Security], cryptxml/CryptXmlDllCloseDigest, security.cryptxmldllclosedigest
 ms.prod: windows
 ms.technology: windows-sdk

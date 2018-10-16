@@ -7,7 +7,7 @@ old-location: wes\evt_render_flags.htm
 tech.root: wes
 ms.assetid: e7206481-c734-425f-a2b6-fa0d9a2b66c1
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: EVT_RENDER_FLAGS, EVT_RENDER_FLAGS enumeration [EventLog], EvtRenderBookmark, EvtRenderEventValues, EvtRenderEventXml, _EVT_RENDER_FLAGS, wes.evt_render_flags, winevt/EVT_RENDER_FLAGS, winevt/EvtRenderBookmark, winevt/EvtRenderEventValues, winevt/EvtRenderEventXml
 ms.prod: windows
 ms.technology: windows-sdk

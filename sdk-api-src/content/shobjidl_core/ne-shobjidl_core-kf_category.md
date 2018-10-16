@@ -7,7 +7,7 @@ old-location: shell\KF_CATEGORY.htm
 tech.root: shell
 ms.assetid: 2ca0d3e2-bb4c-4a28-90d6-fe2852373b88
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: KF_CATEGORY, KF_CATEGORY enumeration [Windows Shell], KF_CATEGORY_COMMON, KF_CATEGORY_FIXED, KF_CATEGORY_PERUSER, KF_CATEGORY_VIRTUAL, _shell_KF_CATEGORY, shell.KF_CATEGORY, shobjidl_core/KF_CATEGORY, shobjidl_core/KF_CATEGORY_COMMON, shobjidl_core/KF_CATEGORY_FIXED, shobjidl_core/KF_CATEGORY_PERUSER, shobjidl_core/KF_CATEGORY_VIRTUAL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,12 +92,16 @@ The <b>KF_CATEGORY</b> type is defined in Shobjidl.h as shown here.
 
                 
 
-
-```
-typedef DWORD KF_CATEGORY;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD KF_CATEGORY;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

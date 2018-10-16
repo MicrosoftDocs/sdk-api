@@ -7,7 +7,7 @@ old-location: shell\IShellDetails_GetDetailsOf.htm
 tech.root: shell
 ms.assetid: 5442dc80-9ecf-4e47-a84d-6da4327696ef
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell],IShellDetails interface, IShellDetails interface [Windows Shell],GetDetailsOf method, IShellDetails.GetDetailsOf, IShellDetails::GetDetailsOf, _win32_IShellDetails_GetDetailsOf, shell.IShellDetails_GetDetailsOf, shlobj_core/IShellDetails::GetDetailsOf
 ms.prod: windows-hardware
 ms.technology: windows-devices

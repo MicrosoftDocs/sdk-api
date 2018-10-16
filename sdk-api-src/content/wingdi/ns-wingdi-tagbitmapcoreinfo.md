@@ -7,7 +7,7 @@ old-location: gdi\bitmapcoreinfo.htm
 tech.root: gdi
 ms.assetid: cb6cb9da-8f7f-47e9-980a-aa77fe04c80c
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*LPBITMAPCOREINFO, *PBITMAPCOREINFO, BITMAPCOREINFO, BITMAPCOREINFO structure [Windows GDI], PBITMAPCOREINFO, PBITMAPCOREINFO structure pointer [Windows GDI], _win32_BITMAPCOREINFO_str, gdi.bitmapcoreinfo, tagBITMAPCOREINFO, wingdi/BITMAPCOREINFO, wingdi/PBITMAPCOREINFO"
 ms.prod: windows
 ms.technology: windows-sdk

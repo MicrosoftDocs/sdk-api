@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setalphayintercept_2.
 tech.root: directcomp
 ms.assetid: 805D778A-DDB2-4BF6-9029-65A55C1F490F
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaYIntercept method, IDCompositionLinearTransferEffect.SetAlphaYIntercept, IDCompositionLinearTransferEffect.SetAlphaYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept(IDCompositionAnimation), SetAlphaYIntercept, SetAlphaYIntercept method [DirectComposition], SetAlphaYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaYIntercept, directcomp.idcompositionlineartransfereffect_setalphayintercept_2
 ms.prod: windows-hardware
 ms.technology: windows-devices

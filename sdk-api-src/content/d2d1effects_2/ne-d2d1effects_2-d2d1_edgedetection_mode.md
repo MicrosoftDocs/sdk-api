@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_edgedetection_mode.htm
 tech.root: direct2d
 ms.assetid: 22C57518-8617-44F3-BC04-42605A77985C
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: D2D1_EDGEDETECTION_MODE, D2D1_EDGEDETECTION_MODE enumeration [Direct2D], D2D1_EDGEDETECTION_MODE_PREWITT, D2D1_EDGEDETECTION_MODE_SOBEL, d2d1effects_2/D2D1_EDGEDETECTION_MODE, d2d1effects_2/D2D1_EDGEDETECTION_MODE_PREWITT, d2d1effects_2/D2D1_EDGEDETECTION_MODE_SOBEL, direct2d.d2d1_edgedetection_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890723(v=VS.85).aspx">D2D1_EDGEDETECTION_PROP_MODE</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Dn890763(v=VS.85).aspx">Edge Detection effect</a>.
+Values for the <a href="https://msdn.microsoft.com/F3B94BDC-120E-4B44-9AA8-595AAEFD1F61">D2D1_EDGEDETECTION_PROP_MODE</a> property of the <a href="https://msdn.microsoft.com/d22868cf-95fe-690e-66ac-268d7e116aee">Edge Detection effect</a>.
 
 
 ## -enum-fields

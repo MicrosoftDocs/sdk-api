@@ -4,10 +4,10 @@ title: FindNextFileW function
 author: windows-sdk-content
 description: Continues a file search from a previous call to the FindFirstFile, FindFirstFileEx, or FindFirstFileTransacted functions.
 old-location: fs\findnextfile.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: db7acb83-2da6-40bf-9962-5cfe54e257a5
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: FindNextFile, FindNextFile function [Files], FindNextFileA, FindNextFileW, _win32_findnextfile, base.findnextfile, fileapi/FindNextFile, fileapi/FindNextFileA, fileapi/FindNextFileW, fs.findnextfile, winbase/FindNextFile, winbase/FindNextFileA, winbase/FindNextFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

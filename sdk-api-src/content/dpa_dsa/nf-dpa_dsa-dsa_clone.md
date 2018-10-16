@@ -7,7 +7,7 @@ old-location: controls\DSA_Clone.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_clone.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: DSA_Clone, DSA_Clone function [Windows Controls], _shell_DSA_Clone, _shell_DSA_Clone_cpp, controls.DSA_Clone, controls._shell_DSA_Clone, dpa_dsa/DSA_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

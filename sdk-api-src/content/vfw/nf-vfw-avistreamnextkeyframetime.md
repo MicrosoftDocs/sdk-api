@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnextkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 5eb338aa-6ccb-4adc-a46c-9f796c36a121
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: AVIStreamNextKeyFrameTime, AVIStreamNextKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNextKeyFrameTime, multimedia.avistreamnextkeyframetime, vfw/AVIStreamNextKeyFrameTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,17 +79,21 @@ The search performed by this macro includes the frame that corresponds to the sp
 
 The <b>AVIStreamNextKeyFrameTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamNextKeyFrameTime(pavi, time) \ 
     AVIStreamSampleToTime(pavi, \ 
     AVIStreamNextKeyFrame(pavi, \ 
     AVIStreamTimeToSample(pavi, time))) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

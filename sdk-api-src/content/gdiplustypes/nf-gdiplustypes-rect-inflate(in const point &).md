@@ -52,8 +52,8 @@ req.redist:
 
 <span>This topic lists the 
 			Inflate methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534961(v=VS.85).aspx">Rect Methods</a>. 
+			<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> class. For a complete list of methods for the 
+			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/fe6960fa-db73-4806-a2c2-675782eed41d">Rect Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -61,19 +61,19 @@ req.redist:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534983(v=VS.85).aspx">Inflate(Point&)</a>
+<a href="https://msdn.microsoft.com/598dbe05-0edb-4c3b-ba2f-5ecf0ce47ce4">Inflate(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534983(v=VS.85).aspx">Rect::Inflate</a> method expands the rectangle by the value of <i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
+The <a href="https://msdn.microsoft.com/598dbe05-0edb-4c3b-ba2f-5ecf0ce47ce4">Rect::Inflate</a> method expands the rectangle by the value of <i>point</i>.<b>X</b><i>point</i>.<b>Y</b> on the top and bottom edges.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534982(v=VS.85).aspx">Inflate(INT,INT)</a>
+<a href="https://msdn.microsoft.com/0601f59d-4ded-4224-b9c8-36499c3d381f">Inflate(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534982(v=VS.85).aspx">Rect::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
+The <a href="https://msdn.microsoft.com/0601f59d-4ded-4224-b9c8-36499c3d381f">Rect::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
 
 </td>
 </tr>

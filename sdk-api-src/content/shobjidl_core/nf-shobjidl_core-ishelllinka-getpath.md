@@ -7,7 +7,7 @@ old-location: shell\IShellLink_GetPath.htm
 tech.root: shell
 ms.assetid: 7c60f5a2-dc21-4b13-a201-1fab04c53bb4
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IShellLink interface, GetPath method [Windows Shell],IShellLinkA interface, GetPath method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetPath method, IShellLink::GetPath, IShellLinkA interface [Windows Shell],GetPath method, IShellLinkA.GetPath, IShellLinkA::GetPath, IShellLinkW interface [Windows Shell],GetPath method, IShellLinkW::GetPath, SLGP_RAWPATH, SLGP_RELATIVEPRIORITY, SLGP_SHORTPATH, SLGP_UNCPRIORITY, _win32_IShellLink_GetPath, shell.IShellLink_GetPath, shobjidl_core/IShellLink::GetPath, shobjidl_core/IShellLinkA::GetPath, shobjidl_core/IShellLinkW::GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

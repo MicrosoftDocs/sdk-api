@@ -7,7 +7,7 @@ old-location: mf\dxva2createdirect3ddevicemanager9.htm
 tech.root: medfound
 ms.assetid: b06e9c68-80ee-4997-bcf7-f05879aa5776
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: DXVA2CreateDirect3DDeviceManager9, DXVA2CreateDirect3DDeviceManager9 function [Media Foundation], b06e9c68-80ee-4997-bcf7-f05879aa5776, dxva2api/DXVA2CreateDirect3DDeviceManager9, mf.dxva2createdirect3ddevicemanager9
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,9 +89,13 @@ Windows Store apps must use <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4E
 
 #### Examples
 
-
-```cpp
-HRESULT CreateD3DDeviceManager(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CreateD3DDeviceManager(
     IDirect3DDevice9 *pDevice, 
     UINT *pReset, 
     IDirect3DDeviceManager9 **ppManager
@@ -101,14 +105,14 @@ HRESULT CreateD3DDeviceManager(
 
     IDirect3DDeviceManager9 *pD3DManager = NULL;
 
-    HRESULT hr = DXVA2CreateDirect3DDeviceManager9(&resetToken, &pD3DManager);
+    HRESULT hr = DXVA2CreateDirect3DDeviceManager9(&amp;resetToken, &amp;pD3DManager);
 
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pD3DManager->ResetDevice(pDevice, resetToken);
+    hr = pD3DManager-&gt;ResetDevice(pDevice, resetToken);
 
     if (FAILED(hr))
     {
@@ -116,19 +120,19 @@ HRESULT CreateD3DDeviceManager(
     }
 
     *ppManager = pD3DManager;
-    (*ppManager)->AddRef();
+    (*ppManager)-&gt;AddRef();
 
     *pReset = resetToken;
 
 
 done:
-    SafeRelease(&pD3DManager);
+    SafeRelease(&amp;pD3DManager);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

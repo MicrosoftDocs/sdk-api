@@ -7,7 +7,7 @@ old-location: shell\STPFLAG.htm
 tech.root: shell
 ms.assetid: 7d50e4fe-1689-4dbd-b367-f4881d8d5d78
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: STPFLAG, STPFLAG enumeration [Windows Shell], STPF_NONE, STPF_USEAPPPEEKALWAYS, STPF_USEAPPPEEKWHENACTIVE, STPF_USEAPPTHUMBNAILALWAYS, STPF_USEAPPTHUMBNAILWHENACTIVE, _shell_STPFLAG, shell.STPFLAG, shobjidl_core/STPFLAG, shobjidl_core/STPF_NONE, shobjidl_core/STPF_USEAPPPEEKALWAYS, shobjidl_core/STPF_USEAPPPEEKWHENACTIVE, shobjidl_core/STPF_USEAPPTHUMBNAILALWAYS, shobjidl_core/STPF_USEAPPTHUMBNAILWHENACTIVE
 ms.prod: windows
 ms.technology: windows-sdk

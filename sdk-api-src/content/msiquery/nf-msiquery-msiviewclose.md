@@ -7,7 +7,7 @@ old-location: setup\msiviewclose.htm
 tech.root: msi
 ms.assetid: bd38be52-d76c-4f1b-bc29-12f93aac2aa9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: MsiViewClose, MsiViewClose function, _msi_msiviewclose, msiquery/MsiViewClose, setup.msiviewclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="database_functions.htm">General Database Access Functions</a>
  
 
  

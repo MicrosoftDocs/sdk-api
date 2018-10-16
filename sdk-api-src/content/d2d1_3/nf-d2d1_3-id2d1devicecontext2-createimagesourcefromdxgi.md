@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext2_createimagesourcefromdxgi.htm
 tech.root: direct2d
 ms.assetid: 5ea6ba4c-9bd6-a909-82d5-c4690dc9a24e
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CreateImageSourceFromDxgi, CreateImageSourceFromDxgi method [Direct2D], CreateImageSourceFromDxgi method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateImageSourceFromDxgi method, ID2D1DeviceContext2.CreateImageSourceFromDxgi, ID2D1DeviceContext2::CreateImageSourceFromDxgi, d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromDxgi, direct2d.id2d1devicecontext2_createimagesourcefromdxgi
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\certselectiongetserializedblob.htm
 tech.root: seccrypto
 ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-The <b>CertSelectionGetSerializedBlob</b> function is a helper function used to retrieve a serialized certificate <a href="https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx">BLOB</a> from a <a href="https://msdn.microsoft.com/en-us/library/Ff394770(v=VS.85).aspx">CERT_SELECTUI_INPUT</a> structure.
+The <b>CertSelectionGetSerializedBlob</b> function is a helper function used to retrieve a serialized certificate <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> from a <a href="https://msdn.microsoft.com/8953cddd-86b6-4781-8dca-b5fd3d298bc8">CERT_SELECTUI_INPUT</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>CertSelectionGetSerializedBlob</b> function is a helper function used to 
 
 ### -param pcsi [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff394770(v=VS.85).aspx">CERT_SELECTUI_INPUT</a> structure that contains the certificate store and certificate context chain information.
+A pointer to a <a href="https://msdn.microsoft.com/8953cddd-86b6-4781-8dca-b5fd3d298bc8">CERT_SELECTUI_INPUT</a> structure that contains the certificate store and certificate context chain information.
 
 
 ### -param ppOutBuffer [out]
@@ -82,7 +82,7 @@ A pointer to a <b>ULONG</b> to receive the size, in bytes, of the BLOB received 
 
 If the function succeeds, the function returns <b>S_OK</b>. 
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. 	If both <b>hStore</b> and <b>prgpChain</b> parameters are not <b>NULL</b>, return <b>E_INVALIDARG</b>. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. 	If both <b>hStore</b> and <b>prgpChain</b> parameters are not <b>NULL</b>, return <b>E_INVALIDARG</b>. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -92,9 +92,9 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-The returned serialized BLOB is passed to the <a href="https://msdn.microsoft.com/en-us/library/Aa375178(v=VS.85).aspx">CredUIPromptForWindowsCredentials</a> function in the <i>pvInAuthBuffer</i> parameter to allow a user to select a certificate by using the credential selection UI.
+The returned serialized BLOB is passed to the <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> function in the <i>pvInAuthBuffer</i> parameter to allow a user to select a certificate by using the credential selection UI.
 
-The certificates that are serialized in the BLOB returned in the buffer pointed to by the <i>ppOutBuffer</i>  parameter of this function are dependent on the values  of the <b>hStore</b> and <b>prgpChain</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Ff394770(v=VS.85).aspx">CERT_SELECTUI_INPUT</a> structure. 
+The certificates that are serialized in the BLOB returned in the buffer pointed to by the <i>ppOutBuffer</i>  parameter of this function are dependent on the values  of the <b>hStore</b> and <b>prgpChain</b> members of the <a href="https://msdn.microsoft.com/8953cddd-86b6-4781-8dca-b5fd3d298bc8">CERT_SELECTUI_INPUT</a> structure. 
 
 <table>
 <tr>

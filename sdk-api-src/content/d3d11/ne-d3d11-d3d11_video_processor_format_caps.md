@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_format_caps.htm
 tech.root: medfound
 ms.assetid: E14D25B7-9F97-465A-ADA5-820BB2952E00
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_FORMAT_CAPS, D3D11_VIDEO_PROCESSOR_FORMAT_CAPS enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_PALETTE_INTERLACED, D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_INTERLACED, D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_LUMA_KEY, D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_PROCAMP, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_CAPS, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_PALETTE_INTERLACED, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_INTERLACED, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_LUMA_KEY, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_PROCAMP, mf.d3d11_video_processor_format_caps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ Similarly, a device that supports deinterlacing is not required to support deint
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447678(v=VS.85).aspx">Direct3D 11 Video Enumerations</a>
+<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
  
 
  

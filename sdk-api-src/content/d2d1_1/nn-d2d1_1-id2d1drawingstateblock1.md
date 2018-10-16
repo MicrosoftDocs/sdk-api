@@ -7,7 +7,7 @@ old-location: direct2d\id2d1drawingstateblock1.htm
 tech.root: direct2d
 ms.assetid: F3A364F6-2C30-4DDE-A5C7-7B58758F111F
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ID2D1DrawingStateBlock1, ID2D1DrawingStateBlock1 interface [Direct2D], ID2D1DrawingStateBlock1 interface [Direct2D],described, d2d1_1/ID2D1DrawingStateBlock1, direct2d.id2d1drawingstateblock1
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_settop_float.htm
 tech.root: directcomp
 ms.assetid: 7D3AB5CC-7295-4160-9AAB-91C61A445B24
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTop method, IDCompositionRectangleClip.SetTop, IDCompositionRectangleClip.SetTop(float), IDCompositionRectangleClip::SetTop, IDCompositionRectangleClip::SetTop(float), SetTop, SetTop method [DirectComposition], SetTop method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTop, directcomp.idcompositionrectangleclip_settop_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

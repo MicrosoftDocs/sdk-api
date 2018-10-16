@@ -7,7 +7,7 @@ old-location: security\lsafreememory.htm
 tech.root: secmgmt
 ms.assetid: 6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: LsaFreeMemory, LsaFreeMemory function [Security], _lsa_lsafreememory, ntsecapi/LsaFreeMemory, security.lsafreememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ Pointer to memory buffer that was allocated by an LSA function call. If <b>LsaFr
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ You can use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>
 
 
 

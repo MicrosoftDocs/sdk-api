@@ -7,7 +7,7 @@ old-location: input_pointerdevice\injectsyntheticpointerinput.htm
 tech.root: Input_PointerDevice
 ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

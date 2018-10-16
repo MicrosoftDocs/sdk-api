@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_gettotallength.htm
 tech.root: medfound
 ms.assetid: E52D44B5-F24F-4234-A67D-0F764A3864DB
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTotalLength method, IMFHttpDownloadRequest.GetTotalLength, IMFHttpDownloadRequest::GetTotalLength, mf.imfhttpdownloadrequest_gettotallength, mfidl/IMFHttpDownloadRequest::GetTotalLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

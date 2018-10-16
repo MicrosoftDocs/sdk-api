@@ -4,10 +4,10 @@ title: "_TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY"
 author: windows-sdk-content
 description: Contains information about a locked transaction.
 old-location: fs\txfs_list_transaction_locked_files_entry.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY_FLAG_CREATED, TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY_FLAG_DELETED, _TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, fs.txfs_list_transaction_locked_files_entry, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

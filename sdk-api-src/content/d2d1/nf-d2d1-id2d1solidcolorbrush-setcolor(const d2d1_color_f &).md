@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1SolidColorBrush_SetColor_ref_COLOR_F.htm
 tech.root: direct2d
 ms.assetid: f11d3528-e444-4a55-b522-0dad6ddcd735
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ID2D1SolidColorBrush interface [Direct2D],SetColor method, ID2D1SolidColorBrush.SetColor, ID2D1SolidColorBrush.SetColor(const D2D1_COLOR_F &), ID2D1SolidColorBrush::SetColor, ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F &), SetColor, SetColor method [Direct2D], SetColor method [Direct2D],ID2D1SolidColorBrush interface, d2d1/ID2D1SolidColorBrush::SetColor, direct2d.ID2D1SolidColorBrush_SetColor_ref_COLOR_F
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual.htm
 tech.root: directcomp
 ms.assetid: 462dfc20-ad5a-425c-94b5-f21ab05f5af8
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionVisual, IDCompositionVisual interface [DirectComposition], IDCompositionVisual interface [DirectComposition],described, dcomp/IDCompositionVisual, directcomp.idcompositionvisual
 ms.prod: windows
 ms.technology: windows-sdk

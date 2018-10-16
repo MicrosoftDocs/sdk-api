@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionturbulenceeffect_setstitchable.htm
 tech.root: directcomp
 ms.assetid: A73474FD-FECE-4654-8B6C-F44C2DDD7D9C
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetStitchable method, IDCompositionTurbulenceEffect.SetStitchable, IDCompositionTurbulenceEffect::SetStitchable, SetStitchable, SetStitchable method [DirectComposition], SetStitchable method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetStitchable, directcomp.idcompositionturbulenceeffect_setstitchable
 ms.prod: windows-hardware
 ms.technology: windows-devices

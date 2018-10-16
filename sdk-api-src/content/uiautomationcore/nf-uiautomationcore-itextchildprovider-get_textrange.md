@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextChildProvider_TextRange.htm
 tech.root: WinAuto
 ms.assetid: 7BF4999C-901A-4007-AA93-CDE32D666CBF
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: ITextChildProvider interface [Windows Accessibility],TextRange property, ITextChildProvider.TextRange, ITextChildProvider.get_TextRange, ITextChildProvider::TextRange, ITextChildProvider::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility],ITextChildProvider interface, get_TextRange, uiautomationcore/ITextChildProvider::TextRange, uiautomationcore/ITextChildProvider::get_TextRange, winauto.uiauto_ITextChildProvider_TextRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

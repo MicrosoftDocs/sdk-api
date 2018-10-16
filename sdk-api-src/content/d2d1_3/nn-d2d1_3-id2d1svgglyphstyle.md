@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgglyphstyle.htm
 tech.root: direct2d
 ms.assetid: FE01771A-D82A-4610-8014-E0C0C0C5402E
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ID2D1SvgGlyphStyle, ID2D1SvgGlyphStyle interface [Direct2D], ID2D1SvgGlyphStyle interface [Direct2D],described, d2d1_3/ID2D1SvgGlyphStyle, direct2d.id2d1svgglyphstyle
 ms.prod: windows
 ms.technology: windows-sdk

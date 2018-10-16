@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry_Outline_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D
 tech.root: direct2d
 ms.assetid: 28ca0da9-f510-44b3-a10a-7dbae8b24c54
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ID2D1Geometry interface [Direct2D],Outline method, ID2D1Geometry.Outline, ID2D1Geometry.Outline(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink), ID2D1Geometry::Outline, ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink), Outline, Outline method [Direct2D], Outline method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Outline, direct2d.ID2D1Geometry_Outline_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink
 ms.prod: windows-hardware
 ms.technology: windows-devices

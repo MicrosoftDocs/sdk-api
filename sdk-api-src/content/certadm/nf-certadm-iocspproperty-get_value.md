@@ -7,7 +7,7 @@ old-location: security\iocspproperty_value_method.htm
 tech.root: seccrypto
 ms.assetid: 6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IOCSPProperty interface [Security],Value property, IOCSPProperty.Value, IOCSPProperty.get_Value, IOCSPProperty::Value, IOCSPProperty::get_Value, IOCSPProperty::put_Value, Value property [Security], Value property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Value, certadm/IOCSPProperty::get_Value, certadm/IOCSPProperty::put_Value, get_Value, security.iocspproperty_value_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-For possible values of <i>newVal</i> and <i>pVal</i>, see <a href="https://msdn.microsoft.com/en-us/library/Aa386325(v=VS.85).aspx">OCSPServiceProperties</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa386372(v=VS.85).aspx">ProviderProperties</a>.
+For possible values of <i>newVal</i> and <i>pVal</i>, see <a href="https://msdn.microsoft.com/d792283b-dde9-46b7-8483-b3011b4433eb">OCSPServiceProperties</a> or <a href="https://msdn.microsoft.com/60ac0123-9696-4893-ae2a-278b4e70c098">ProviderProperties</a>.
 
 
 
@@ -74,7 +74,7 @@ For possible values of <i>newVal</i> and <i>pVal</i>, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386391(v=VS.85).aspx">IOCSPProperty</a>
+<a href="https://msdn.microsoft.com/854848f0-ea89-4c25-a8a5-40f1e4d229be">IOCSPProperty</a>
  
 
  

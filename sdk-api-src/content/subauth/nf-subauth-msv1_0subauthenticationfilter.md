@@ -187,14 +187,18 @@ A pointer to a value that receives the time at which the user should log off the
 
 A pointer to a value that receives the time at which the user should be logged off the system. This time is used to control the logon lifetime and is specified as a GMT-relative system time. If the user is not to be automatically logged off, specify a large positive value, as follows:
 
-
-```cpp
-KickoffTime->HighPart = 0x7FFFFFFF;
-KickoffTime->LowPart = 0xFFFFFFFF;
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>KickoffTime-&gt;HighPart = 0x7FFFFFFF;
+KickoffTime-&gt;LowPart = 0xFFFFFFFF;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -returns
 

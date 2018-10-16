@@ -7,7 +7,7 @@ old-location: setup\imsmerror_get_databasekeys.htm
 tech.root: msi
 ms.assetid: 7c256f03-208c-4adf-9b57-7648064f0dce
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: IMsmError interface,get_DatabaseKeys method, IMsmError.get_DatabaseKeys, IMsmError::get_DatabaseKeys, _msi_get_databasekeys_function, get_DatabaseKeys, get_DatabaseKeys method, get_DatabaseKeys method,IMsmError interface, mergemod/IMsmError::get_DatabaseKeys, setup.imsmerror_get_databasekeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

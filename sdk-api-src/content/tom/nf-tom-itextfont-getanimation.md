@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetAnimation.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getanimation.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetAnimation, GetAnimation method [Windows Controls], GetAnimation method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetAnimation method, ITextFont.GetAnimation, ITextFont::GetAnimation, _win32_ITextFont_GetAnimation, _win32_ITextFont_GetAnimation_cpp, controls.ITextFont_GetAnimation, controls._win32_ITextFont_GetAnimation, tom/ITextFont::GetAnimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,15 +65,15 @@ Type: <b>long*</b>
 One of the following animation types. 
 					
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomNoAnimation</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomLasVegasLights</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBlinkingBackground</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSparkleText</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMarchingBlackAnts</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMarchingRedAnts</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomShimmer</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomWipeDown</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomWipeRight</a>
+<a href="tomconstants.htm">tomNoAnimation</a>
+<a href="tomconstants.htm">tomLasVegasLights</a>
+<a href="tomconstants.htm">tomBlinkingBackground</a>
+<a href="tomconstants.htm">tomSparkleText</a>
+<a href="tomconstants.htm">tomMarchingBlackAnts</a>
+<a href="tomconstants.htm">tomMarchingRedAnts</a>
+<a href="tomconstants.htm">tomShimmer</a>
+<a href="tomconstants.htm">tomWipeDown</a>
+<a href="tomconstants.htm">tomWipeRight</a>
 
 ## -returns
 
@@ -125,7 +125,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -133,11 +133,11 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774127(v=VS.85).aspx">SetAnimation</a>
+<a href="https://msdn.microsoft.com/e3edc0c9-0f75-4b6a-a4c4-b7659bbb89cf">SetAnimation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

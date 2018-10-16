@@ -7,7 +7,7 @@ old-location: base\service_preshutdown_info.htm
 tech.root: services
 ms.assetid: b9d2362c-e4d7-4072-88c2-5294b3838095
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*LPSERVICE_PRESHUTDOWN_INFO, LPSERVICE_PRESHUTDOWN_INFO, LPSERVICE_PRESHUTDOWN_INFO structure pointer, SERVICE_PRESHUTDOWN_INFO, SERVICE_PRESHUTDOWN_INFO structure, _SERVICE_PRESHUTDOWN_INFO, base.service_preshutdown_info, winsvc/LPSERVICE_PRESHUTDOWN_INFO, winsvc/SERVICE_PRESHUTDOWN_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\certverifyvaliditynesting.htm
 tech.root: seccrypto
 ms.assetid: dc73a21d-5b55-45c4-80d2-220508d9f762
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CertVerifyValidityNesting, CertVerifyValidityNesting function [Security], _crypto2_certverifyvaliditynesting, security.certverifyvaliditynesting, wincrypt/CertVerifyValidityNesting
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ Returns <b>TRUE</b> if the <b>NotBefore</b> time of the subject's certificate is
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

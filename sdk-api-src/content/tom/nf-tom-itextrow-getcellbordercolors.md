@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellbordercolors.htm
 tech.root: controls
 ms.assetid: 2cc0a3b0-3988-4dff-9553-a86d37f4011f
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetCellBorderColors, GetCellBorderColors method [Windows Controls], GetCellBorderColors method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellBorderColors method, ITextRow.GetCellBorderColors, ITextRow::GetCellBorderColors, controls.itextrow_getcellbordercolors, tom/ITextRow::GetCellBorderColors
 ms.prod: windows-hardware
 ms.technology: windows-devices

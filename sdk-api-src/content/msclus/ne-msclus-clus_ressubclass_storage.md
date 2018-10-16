@@ -7,7 +7,7 @@ old-location: mscs\clus_ressubclass_storage.htm
 tech.root: mscs
 ms.assetid: 10e2fe05-ea17-4f9d-a26d-eed6aa3abb04
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: CLUS_RESSUBCLASS_STORAGE, CLUS_RESSUBCLASS_STORAGE enumeration [Failover Cluster], CLUS_RESSUBCLASS_STORAGE_DISK, CLUS_RESSUBCLASS_STORAGE_REPLICATION, CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, clusapi/CLUS_RESSUBCLASS_STORAGE, clusapi/CLUS_RESSUBCLASS_STORAGE_DISK, clusapi/CLUS_RESSUBCLASS_STORAGE_REPLICATION, clusapi/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, msclus/CLUS_RESSUBCLASS_STORAGE, msclus/CLUS_RESSUBCLASS_STORAGE_DISK, msclus/CLUS_RESSUBCLASS_STORAGE_REPLICATION, msclus/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, mscs.clus_ressubclass_storage
 ms.prod: windows
 ms.technology: windows-sdk

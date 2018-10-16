@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink_updatevideo.htm
 tech.root: medfound
 ms.assetid: B541D209-BB03-4FCF-834C-82002037C357
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],UpdateVideo method, IMFCapturePreviewSink.UpdateVideo, IMFCapturePreviewSink::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_updatevideo, mfcaptureengine/IMFCapturePreviewSink::UpdateVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Updates the video frame.  Call this method when the preview window receives a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> or <a href="https://msdn.microsoft.com/en-us/library/ms632646(v=VS.85).aspx">WM_SIZE</a> message.
+Updates the video frame.  Call this method when the preview window receives a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> or <a href="https://msdn.microsoft.com/e3e14dcd-9236-48bd-a692-6985d8146f81">WM_SIZE</a> message.
 
 
 ## -parameters

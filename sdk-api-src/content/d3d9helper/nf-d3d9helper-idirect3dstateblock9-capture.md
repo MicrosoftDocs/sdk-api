@@ -65,7 +65,7 @@ Capture the current value of states that are included in a stateblock.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails because capture cannot be done while in record mode, the return value is D3DERR_INVALIDCALL.
 
@@ -78,25 +78,29 @@ If the method succeeds, the return value is D3D_OK. If the method fails because 
 
 The Capture method captures current values for states within an existing state block. It does not capture the entire state of the device. For example:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 IDirect3DStateBlock9* pStateBlock = NULL;
 
-pd3dDevice->BeginStateBlock();
+pd3dDevice-&gt;BeginStateBlock();
 // Add the ZENABLE state to the stateblock 
-pd3dDevice->SetRenderState ( D3DRS_ZENABLE, D3DZB_TRUE );
-pd3dDevice->EndStateBlock ( &pStateBlock );
+pd3dDevice-&gt;SetRenderState ( D3DRS_ZENABLE, D3DZB_TRUE );
+pd3dDevice-&gt;EndStateBlock ( &amp;pStateBlock );
     
 // Change the current value that is stored in the state block
-pd3dDevice->SetRenderState ( D3DRS_ZENABLE, D3DZB_FALSE );
-pStateBlock->Capture();			
+pd3dDevice-&gt;SetRenderState ( D3DRS_ZENABLE, D3DZB_FALSE );
+pStateBlock-&gt;Capture();			
 
-pStateBlock->Release();
-
-```
-
-
+pStateBlock-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 Creating an empty stateblock and calling the Capture method does nothing if no states have been set.
 
 The Capture method  will not capture information for lights that are explicitly or implicitly created after the stateblock is created.
@@ -109,7 +113,7 @@ The Capture method  will not capture information for lights that are explicitly 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>
+<a href="https://msdn.microsoft.com/bb0dfea8-14ba-4d9d-acb7-9748258e0f35">IDirect3DStateBlock9</a>
  
 
  

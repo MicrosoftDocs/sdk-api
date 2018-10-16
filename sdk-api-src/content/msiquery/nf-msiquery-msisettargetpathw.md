@@ -7,7 +7,7 @@ old-location: setup\msisettargetpath.htm
 tech.root: msi
 ms.assetid: bfd39656-4901-442f-940d-424d440caf70
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: MsiSetTargetPath, MsiSetTargetPath function, MsiSetTargetPathA, MsiSetTargetPathW, _msi_msisettargetpath, msiquery/MsiSetTargetPath, msiquery/MsiSetTargetPathA, msiquery/MsiSetTargetPathW, setup.msisettargetpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Location Functions</a>
+<a href="database_functions.htm">Installer Location Functions</a>
  
 
  

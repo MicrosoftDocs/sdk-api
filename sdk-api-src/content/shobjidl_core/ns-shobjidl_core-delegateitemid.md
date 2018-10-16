@@ -7,7 +7,7 @@ old-location: shell\DELEGATEITEMID.htm
 tech.root: shell
 ms.assetid: 986591cf-97c5-4328-900e-b49f0f0859a5
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PDELEGATEITEMID, DELEGATEITEMID, DELEGATEITEMID structure [Windows Shell], shell.DELEGATEITEMID, shell_DELEGATEITEMID, shobjidl_core/DELEGATEITEMID"
 ms.prod: windows
 ms.technology: windows-sdk

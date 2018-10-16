@@ -7,7 +7,7 @@ old-location: security\winverifytrustex.htm
 tech.root: seccrypto
 ms.assetid: 209c9953-a4a5-4ff0-961f-92e97ccce23d
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CERT_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrustEx, WinVerifyTrustEx function [Security], Zero, security.winverifytrustex, wintrust/WinVerifyTrustEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

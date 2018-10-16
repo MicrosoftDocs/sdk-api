@@ -7,7 +7,7 @@ old-location: setup\msisourcelistenummediadisks.htm
 tech.root: msi
 ms.assetid: 29bf12f4-f9e0-4853-8f03-a31a855b2ad6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListEnumMediaDisks, MsiSourceListEnumMediaDisks function, MsiSourceListEnumMediaDisksA, MsiSourceListEnumMediaDisksW, NULL, User SID, msi/MsiSourceListEnumMediaDisks, msi/MsiSourceListEnumMediaDisksA, msi/MsiSourceListEnumMediaDisksW, s-1-1-0, setup.msisourcelistenummediadisks
 ms.prod: windows-hardware
 ms.technology: windows-devices

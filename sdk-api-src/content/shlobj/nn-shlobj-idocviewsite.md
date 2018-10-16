@@ -7,7 +7,7 @@ old-location: shell\IDocViewSite.htm
 tech.root: shell
 ms.assetid: 031e0079-842e-4357-acb2-5d1160094e18
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDocViewSite, IDocViewSite interface [Windows Shell], IDocViewSite interface [Windows Shell],described, _win32_IDocViewSite, shell.IDocViewSite, shlobj/IDocViewSite
 ms.prod: windows
 ms.technology: windows-sdk

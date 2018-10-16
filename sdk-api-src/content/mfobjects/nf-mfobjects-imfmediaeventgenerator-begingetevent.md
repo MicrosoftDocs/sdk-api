@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventgenerator_begingetevent.htm
 tech.root: medfound
 ms.assetid: a2afddac-46e9-4928-8b5b-44f3fc7c33d3
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: BeginGetEvent, BeginGetEvent method [Media Foundation], BeginGetEvent method [Media Foundation],IMFMediaEventGenerator interface, IMFMediaEventGenerator interface [Media Foundation],BeginGetEvent method, IMFMediaEventGenerator.BeginGetEvent, IMFMediaEventGenerator::BeginGetEvent, a2afddac-46e9-4928-8b5b-44f3fc7c33d3, mf.imfmediaeventgenerator_begingetevent, mfobjects/IMFMediaEventGenerator::BeginGetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -168,9 +168,13 @@ Do not call <b>BeginGetEvent</b> a second time before calling <a href="https://m
 
 The following code shows a typical implementation of <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> for the <b>BeginGetEvent</b> method. The <b>Invoke</b> method calls <a href="https://msdn.microsoft.com/6b38e984-d818-4f69-af28-8b54153faebb">EndGetEvent</a> to get the event data. Then it calls <b>BeginGetEvent</b> again to request another event.
 
-
-```
-//////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////
 //  Name: CEventHandler::Invoke
 //  Callback for asynchronous BeginGetEvent method.
 //
@@ -190,19 +194,19 @@ HRESULT CEventHandler::Invoke(IMFAsyncResult *pAsyncResult)
     // Get the event from the event queue.
     // Assume that m_pEventGenerator is a valid pointer to the
     // event generator's IMFMediaEventGenerator interface.
-    hr = m_pEventGenerator->EndGetEvent(pAsyncResult, &pEvent);
+    hr = m_pEventGenerator-&gt;EndGetEvent(pAsyncResult, &amp;pEvent);
 
     // Get the event type.
     if (SUCCEEDED(hr))
     {
-        hr = pEvent->GetType(&meType);
+        hr = pEvent-&gt;GetType(&amp;meType);
     }
 
     // Get the event status. If the operation that triggered the event 
     // did not succeed, the status is a failure code.
     if (SUCCEEDED(hr))
     {
-        hr = pEvent->GetStatus(&hrStatus);
+        hr = pEvent-&gt;GetStatus(&amp;hrStatus);
     }
 
     if (SUCCEEDED(hr))
@@ -215,15 +219,15 @@ HRESULT CEventHandler::Invoke(IMFAsyncResult *pAsyncResult)
     // CEventHandler class, which implements the callback.
     if (fGetAnotherEvent)
     {
-        hr = m_pEventGenerator->BeginGetEvent(this, NULL);
+        hr = m_pEventGenerator-&gt;BeginGetEvent(this, NULL);
     }
 
     SAFE_RELEASE(pEvent);
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

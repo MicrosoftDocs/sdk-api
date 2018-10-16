@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_CreateCompatibleRenderTarget_overload2.
 tech.root: direct2d
 ms.assetid: a276af2d-b9bf-465b-86cf-f5bc27c3447f
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget method [Direct2D], CreateCompatibleRenderTarget method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateCompatibleRenderTarget method, ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget.CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget), ID2D1RenderTarget::CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget), d2d1/ID2D1RenderTarget::CreateCompatibleRenderTarget, direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_overload2, direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_ptr_D2D_SIZE_F_ptr_D2D_SIZE_U_ptr_D2D1_PIXEL_FORMAT_D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_ptr_ptr_ID2D1BitmapRenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

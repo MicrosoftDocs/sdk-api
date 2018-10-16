@@ -7,7 +7,7 @@ old-location: gdi\enummetafileproc.htm
 tech.root: gdi
 ms.assetid: ebef5a3f-0dd7-49df-a07d-c55c5e8c868c
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: MFENUMPROC, MFENUMPROC callback, MFENUMPROC callback function [Windows GDI], _win32_EnumMetaFileProc, gdi.enummetafileproc, wingdi/MFENUMPROC
 ms.prod: windows
 ms.technology: windows-sdk

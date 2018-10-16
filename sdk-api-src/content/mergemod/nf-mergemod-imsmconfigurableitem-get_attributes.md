@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_attributes.htm
 tech.root: msi
 ms.assetid: 347451e9-0623-4d31-a9f5-7cb95f234717
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: IMsmConfigurableItem interface,get_Attributes method, IMsmConfigurableItem.get_Attributes, IMsmConfigurableItem::get_Attributes, _msi_get_attributes_function, get_Attributes, get_Attributes method, get_Attributes method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Attributes, setup.imsmconfigurableitem_get_attributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

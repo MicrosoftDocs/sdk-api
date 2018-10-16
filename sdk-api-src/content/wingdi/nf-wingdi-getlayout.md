@@ -7,7 +7,7 @@ old-location: gdi\getlayout.htm
 tech.root: gdi
 ms.assetid: 2bbc0bef-55e5-4f11-a195-d379e95e44bf
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetLayout, GetLayout function [Windows GDI], _win32_GetLayout, gdi.getlayout, wingdi/GetLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ If the function fails, it returns GDI_ERROR. For extended error information, cal
 
 
 
-The layout specifies the order in which text and graphics are revealed in a window or device context. The default is left to right. The <b>GetLayout</b> function tells you if the default has been changed through a call to <a href="https://msdn.microsoft.com/81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d">SetLayout</a>. For more information, see "Window Layout and Mirroring" in <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Window Features</a>.
+The layout specifies the order in which text and graphics are revealed in a window or device context. The default is left to right. The <b>GetLayout</b> function tells you if the default has been changed through a call to <a href="https://msdn.microsoft.com/81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d">SetLayout</a>. For more information, see "Window Layout and Mirroring" in <a href="_win32_Window_Features_cpp">Window Features</a>.
 
 
 

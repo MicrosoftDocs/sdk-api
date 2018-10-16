@@ -7,7 +7,7 @@ old-location: shell\ICategorizer.htm
 tech.root: shell
 ms.assetid: 59c80328-0f82-4289-b55d-045f0cd3dc81
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ICategorizer, ICategorizer interface [Windows Shell], ICategorizer interface [Windows Shell],described, inet_ICategorizer, shell.ICategorizer, shobjidl_core/ICategorizer
 ms.prod: windows
 ms.technology: windows-sdk

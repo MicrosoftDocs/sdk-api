@@ -7,7 +7,7 @@ old-location: security\ncryptfreebuffer_func.htm
 tech.root: seccng
 ms.assetid: 15f19999-cf64-4a30-b38d-9372066add0a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: NCryptFreeBuffer, NCryptFreeBuffer function [Security], ncrypt/NCryptFreeBuffer, security.ncryptfreebuffer_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDiskQuotaUser::GetQuotaUsedText
 author: windows-sdk-content
 description: Retrieves the user's quota used value for the volume.
 old-location: fs\idiskquotauser_getquotausedtext.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 401362a3-ee68-4af1-9ea5-c871c060ef33
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetQuotaUsedText, GetQuotaUsedText method [Files], GetQuotaUsedText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsedText method, IDiskQuotaUser.GetQuotaUsedText, IDiskQuotaUser::GetQuotaUsedText, _win32_idiskquotauser_getquotausedtext, base.idiskquotauser_getquotausedtext, dskquota/IDiskQuotaUser::GetQuotaUsedText, fs.idiskquotauser_getquotausedtext
 ms.prod: windows-hardware
 ms.technology: windows-devices

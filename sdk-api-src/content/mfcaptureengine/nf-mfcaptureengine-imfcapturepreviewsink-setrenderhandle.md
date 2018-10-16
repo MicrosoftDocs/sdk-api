@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink_setrenderhandle.htm
 tech.root: medfound
 ms.assetid: 98D3EFC4-841D-41EC-BC5C-E67029663864
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderHandle method, IMFCapturePreviewSink.SetRenderHandle, IMFCapturePreviewSink::SetRenderHandle, SetRenderHandle, SetRenderHandle method [Media Foundation], SetRenderHandle method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrenderhandle, mfcaptureengine/IMFCapturePreviewSink::SetRenderHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

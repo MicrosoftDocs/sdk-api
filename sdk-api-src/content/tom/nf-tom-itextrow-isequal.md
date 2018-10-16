@@ -7,7 +7,7 @@ old-location: controls\itextrow_isequal.htm
 tech.root: controls
 ms.assetid: 2e516a4d-0f3b-475b-969d-661662bfaeef
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ITextRow interface [Windows Controls],IsEqual method, ITextRow.IsEqual, ITextRow::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextRow interface, controls.itextrow_isequal, tom/ITextRow::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices

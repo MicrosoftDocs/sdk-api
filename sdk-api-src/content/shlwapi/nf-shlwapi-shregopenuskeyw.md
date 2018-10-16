@@ -7,7 +7,7 @@ old-location: shell\SHRegOpenUSKey.htm
 tech.root: shell
 ms.assetid: 756430a9-a495-412e-95c3-a93222bc467a
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: SHRegOpenUSKey, SHRegOpenUSKey function [Windows Shell], SHRegOpenUSKeyA, SHRegOpenUSKeyW, _win32_SHRegOpenUSKey, shell.SHRegOpenUSKey, shlwapi/SHRegOpenUSKey, shlwapi/SHRegOpenUSKeyA, shlwapi/SHRegOpenUSKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

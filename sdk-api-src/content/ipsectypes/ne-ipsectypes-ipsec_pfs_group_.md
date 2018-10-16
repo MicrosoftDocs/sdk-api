@@ -7,7 +7,7 @@ old-location: fwp\ipsec_pfs_group_enum.htm
 tech.root: fwp
 ms.assetid: 0f0ea028-859b-42ca-a4e3-fe23f0836883
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPSEC_PFS_1, IPSEC_PFS_14, IPSEC_PFS_2, IPSEC_PFS_2048, IPSEC_PFS_24, IPSEC_PFS_ECP_256, IPSEC_PFS_ECP_384, IPSEC_PFS_GROUP, IPSEC_PFS_GROUP enumeration [Filtering], IPSEC_PFS_GROUP_, IPSEC_PFS_MAX, IPSEC_PFS_MM, IPSEC_PFS_NONE, fwp.ipsec_pfs_group_enum, ipsectypes/IPSEC_PFS_1, ipsectypes/IPSEC_PFS_14, ipsectypes/IPSEC_PFS_2, ipsectypes/IPSEC_PFS_2048, ipsectypes/IPSEC_PFS_24, ipsectypes/IPSEC_PFS_ECP_256, ipsectypes/IPSEC_PFS_ECP_384, ipsectypes/IPSEC_PFS_GROUP, ipsectypes/IPSEC_PFS_MAX, ipsectypes/IPSEC_PFS_MM, ipsectypes/IPSEC_PFS_NONE
 ms.prod: windows
 ms.technology: windows-sdk

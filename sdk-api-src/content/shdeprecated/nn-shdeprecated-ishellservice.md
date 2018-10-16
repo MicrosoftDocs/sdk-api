@@ -7,7 +7,7 @@ old-location: shell\IShellService.htm
 tech.root: shell
 ms.assetid: 0b845907-a879-4f87-a6f5-8cc86dfe03ff
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IShellService, IShellService interface [Windows Shell], IShellService interface [Windows Shell],described, shdeprecated/IShellService, shell.IShellService, zone_IShellService
 ms.prod: windows
 ms.technology: windows-sdk

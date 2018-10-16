@@ -7,7 +7,7 @@ old-location: security\pfsce_free_info.htm
 tech.root: secmgmt
 ms.assetid: e7cafdbc-9ca2-4bb1-b8ed-d5553acaf7bc
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: PFSCE_FREE_INFO, PFSCE_FREE_INFO callback, PFSCE_FREE_INFO callback function [Security], _config_pfsce_free_info, scesvc/PFSCE_FREE_INFO, security.pfsce_free_info
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusternetworkenum.htm
 tech.root: mscs
 ms.assetid: 41cfb436-7494-4065-b287-075c4c771278
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: CLUSTER_NETWORK_ENUM_NETINTERFACES, ClusterNetworkEnum, ClusterNetworkEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_ENUM, PCLUSAPI_CLUSTER_NETWORK_ENUM function [Failover Cluster], _wolf_clusternetworkenum, clusapi/ClusterNetworkEnum, clusapi/PCLUSAPI_CLUSTER_NETWORK_ENUM, mscs.clusternetworkenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-Enumerates <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a> on a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>, returning the name of one object with each call. The <b>PCLUSAPI_CLUSTER_NETWORK_ENUM</b> type defines a pointer to this function.
+Enumerates <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> on a 
+    <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>, returning the name of one object with each call. The <b>PCLUSAPI_CLUSTER_NETWORK_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -75,14 +75,14 @@ The index used to identify the next entry to be enumerated. This parameter shoul
 ### -param lpdwType [out]
 
 A pointer to the type of object returned. The following value of the 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309153(v=VS.85).aspx">CLUSTER_NETWORK_ENUM</a> enumeration is returned with 
+       <a href="https://msdn.microsoft.com/f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095">CLUSTER_NETWORK_ENUM</a> enumeration is returned with 
        each call.
 
 
 
 #### CLUSTER_NETWORK_ENUM_NETINTERFACES (1)
 
-The object is a <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a>.
+The object is a <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>.
 
 
 ### -param lpszName [out]
@@ -114,7 +114,7 @@ The function returns one of the following values.
 The <b>ClusterNetworkEnum</b> function is typically 
      used to iterate through a collection of objects of one or more types belonging to a network object. If, for 
      example, an application wants to enumerate all of the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a> objects on a network, it 
+     <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a> objects on a network, it 
      calls <a href="https://msdn.microsoft.com/59f6fd26-1d96-4b04-858d-bfd3e4d25d01">ClusterNetworkOpenEnum</a> to 
      open a network enumerator that can process network interface objects. The <i>dwType</i> 
      parameter is set to <b>CLUSTER_NETWORK_ENUM_NETINTERFACES</b> to specify network interfaces 
@@ -127,12 +127,12 @@ The <b>ClusterNetworkEnum</b> function is typically
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
      information on sizing buffers, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
+     <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -143,11 +143,11 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309153(v=VS.85).aspx">CLUSTER_NETWORK_ENUM</a>
+<a href="https://msdn.microsoft.com/f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095">CLUSTER_NETWORK_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371731(v=VS.85).aspx">Cluster Network Management Functions</a>
+<a href="https://msdn.microsoft.com/7908db54-f432-4aee-aaf4-91f763ffa3a0">Cluster Network Management Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronize_setitemstatus.htm
 tech.root: shell
 ms.assetid: 311e916c-46a0-4eb2-a5e3-8da417ae7d71
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetItemStatus method, ISyncMgrSynchronize.SetItemStatus, ISyncMgrSynchronize::SetItemStatus, SetItemStatus, SetItemStatus method [Windows Shell], SetItemStatus method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetItemStatus, shell.syncmgr_isyncmgrsynchronize_setitemstatus, syncmgr.isyncmgrsynchronize_setitemstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

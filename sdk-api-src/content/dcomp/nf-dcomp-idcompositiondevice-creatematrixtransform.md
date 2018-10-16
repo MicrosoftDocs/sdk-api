@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_creatematrixtransform.htm
 tech.root: directcomp
 ms.assetid: 79291366-2fb2-4130-a642-4993648d8aa6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [DirectComposition], CreateMatrixTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateMatrixTransform method, IDCompositionDevice.CreateMatrixTransform, IDCompositionDevice::CreateMatrixTransform, dcomp/IDCompositionDevice::CreateMatrixTransform, directcomp.idcompositiondevice_creatematrixtransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

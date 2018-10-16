@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_openmodule.htm
 tech.root: msi
 ms.assetid: 37225e61-c24f-4a44-8fdf-673590a6e09d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: IMsmMerge interface,OpenModule method, IMsmMerge.OpenModule, IMsmMerge::OpenModule, OpenModule, OpenModule method, OpenModule method,IMsmMerge interface, _msi_openmodule_function, mergemod/IMsmMerge::OpenModule, setup.imsmmerge_openmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

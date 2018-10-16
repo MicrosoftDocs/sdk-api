@@ -7,7 +7,7 @@ old-location: fwp\ipseckeymanagerunregisteranddelete0.htm
 tech.root: fwp
 ms.assetid: 6A200451-3528-4728-A2D1-643385BA23E6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPsecKeyManagerUnregisterAndDelete0, IPsecKeyManagerUnregisterAndDelete0 function [Filtering], fwp.ipseckeymanagerunregisteranddelete0, fwpmu/IPsecKeyManagerUnregisterAndDelete0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\Edit_ScrollCaret.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scrollcaretl.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: Edit_ScrollCaret, Edit_ScrollCaret macro [Windows Controls], _win32_Edit_ScrollCaret, _win32_Edit_ScrollCaret_cpp, controls.Edit_ScrollCaret, controls._win32_Edit_ScrollCaret, windowsx/Edit_ScrollCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761637(v=VS.85).aspx">EM_SCROLLCARET</a> message explicitly.
+Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/7a33034d-9369-49f8-a881-0c1d2cedff6a">EM_SCROLLCARET</a> message explicitly.
 
 
 ## -parameters

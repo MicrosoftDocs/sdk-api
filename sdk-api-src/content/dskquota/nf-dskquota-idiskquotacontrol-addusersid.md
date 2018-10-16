@@ -4,10 +4,10 @@ title: IDiskQuotaControl::AddUserSid
 author: windows-sdk-content
 description: Adds a new quota entry on the volume for the specified user. The user is identified by security identifier (SID).
 old-location: fs\idiskquotacontrol_addusersid.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: a82b36a9-7270-4b4a-b850-67916864c052
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: AddUserSid, AddUserSid method [Files], AddUserSid method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],AddUserSid method, IDiskQuotaControl.AddUserSid, IDiskQuotaControl::AddUserSid, _win32_idiskquotacontrol_addusersid, base.idiskquotacontrol_addusersid, dskquota/IDiskQuotaControl::AddUserSid, fs.idiskquotacontrol_addusersid
 ms.prod: windows-hardware
 ms.technology: windows-devices

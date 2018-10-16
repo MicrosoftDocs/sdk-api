@@ -7,7 +7,7 @@ old-location: base\gettickcount.htm
 tech.root: sysinfo
 ms.assetid: 22201c82-a49a-4972-9f49-6baf6d23a1ea
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetTickCount, GetTickCount function, _win32_gettickcount, base.gettickcount, sysinfoapi/GetTickCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

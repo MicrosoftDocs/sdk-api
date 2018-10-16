@@ -4,10 +4,10 @@ title: "_FORMAT_PARAMETERS"
 author: windows-sdk-content
 description: Contains information used in formatting a contiguous set of disk tracks.
 old-location: fs\format_parameters_str.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 81fcfd8e-abb9-4c0b-b23d-302aa3645a6f
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Files], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Files], _FORMAT_PARAMETERS, _win32_format_parameters_str, base.format_parameters_str, fs.format_parameters_str, winioctl/FORMAT_PARAMETERS, winioctl/PFORMAT_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsurface_suspenddraw.htm
 tech.root: directcomp
 ms.assetid: B3CD2007-502C-48EF-989E-4C690B2B65D8
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionSurface interface [DirectComposition],SuspendDraw method, IDCompositionSurface.SuspendDraw, IDCompositionSurface::SuspendDraw, SuspendDraw, SuspendDraw method [DirectComposition], SuspendDraw method [DirectComposition],IDCompositionSurface interface, dcomp/IDCompositionSurface::SuspendDraw, directcomp.idcompositionsurface_suspenddraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

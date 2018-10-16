@@ -7,7 +7,7 @@ old-location: rstmgr\rm_write_status_callback.htm
 tech.root: rstmgr
 ms.assetid: 607a6b96-8509-4599-907c-edb8410d7921
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: RM_WRITE_STATUS_CALLBACK, RM_WRITE_STATUS_CALLBACK callback, RM_WRITE_STATUS_CALLBACK callback function [Restart Mgr], restartmanager/RM_WRITE_STATUS_CALLBACK, rstmgr.rm_write_status_callback
 ms.prod: windows
 ms.technology: windows-sdk

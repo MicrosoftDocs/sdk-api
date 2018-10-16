@@ -7,7 +7,7 @@ old-location: security\crypt_context_function_providers.htm
 tech.root: seccng
 ms.assetid: 5e175ac2-38eb-44c4-a01a-fb436e833546
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS structure [Security], PCRYPT_CONTEXT_FUNCTION_PROVIDERS, PCRYPT_CONTEXT_FUNCTION_PROVIDERS structure pointer [Security], _CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/PCRYPT_CONTEXT_FUNCTION_PROVIDERS, security.crypt_context_function_providers"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ An array of pointers to null-terminated Unicode strings that contain the identif
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375425(v=VS.85).aspx">BCryptEnumContextFunctionProviders</a>
+<a href="https://msdn.microsoft.com/82776e61-03bb-463b-8767-fa4f70fe1341">BCryptEnumContextFunctionProviders</a>
  
 
  

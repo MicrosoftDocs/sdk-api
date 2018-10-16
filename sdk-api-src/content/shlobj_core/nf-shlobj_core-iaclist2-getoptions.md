@@ -7,7 +7,7 @@ old-location: shell\IACList2_GetOptions.htm
 tech.root: shell
 ms.assetid: 767c1972-8bc8-46d5-abf0-8c5749c0bf0e
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, ACLO_FILESYSONLY, ACLO_MYCOMPUTER, ACLO_NONE, GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IACList2 interface, IACList2 interface [Windows Shell],GetOptions method, IACList2.GetOptions, IACList2::GetOptions, _win32_IACList2_GetOptions, shell.IACList2_GetOptions, shlobj_core/IACList2::GetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

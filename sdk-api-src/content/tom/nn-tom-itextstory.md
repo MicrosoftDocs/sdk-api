@@ -7,7 +7,7 @@ old-location: controls\itextstory.htm
 tech.root: controls
 ms.assetid: 8b52c6e8-c250-4cfb-979e-770df9f94010
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory interface [Windows Controls],described, controls.itextstory, tom/ITextStory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>ITextStory</b> interface methods are used to access shared data from multiple stories, which is stored in the parent <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a> instance. 
+The <b>ITextStory</b> interface methods are used to access shared data from multiple stories, which is stored in the parent <a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a> instance. 
 
 The stories can be "edited" simultaneously by using individual <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> methods, and displayed independently of one another. In addition, one story at a time can be UI active; that is, it receives keyboard and mouse input. 
 

@@ -4,10 +4,10 @@ title: "_STORAGE_SPEC_VERSION"
 author: windows-sdk-content
 description: Storage specification version.
 old-location: fs\storage_spec_version.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 470DBBC0-A7D7-42A6-97D0-44AEAC990576
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION structure pointer [Files], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION structure [Files], _STORAGE_SPEC_VERSION, fs.storage_spec_version, winioctl/PSTORAGE_SPEC_VERSION, winioctl/_STORAGE_SPEC_VERSION"
 ms.prod: windows
 ms.technology: windows-sdk

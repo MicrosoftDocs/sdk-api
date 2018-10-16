@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1StrokeStyle_GetDashOffset.htm
 tech.root: direct2d
 ms.assetid: db540976-95a7-47c9-aeec-d5f874d22764
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetDashOffset, GetDashOffset method [Direct2D], GetDashOffset method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashOffset method, ID2D1StrokeStyle.GetDashOffset, ID2D1StrokeStyle::GetDashOffset, d2d1/ID2D1StrokeStyle::GetDashOffset, direct2d.ID2D1StrokeStyle_GetDashOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

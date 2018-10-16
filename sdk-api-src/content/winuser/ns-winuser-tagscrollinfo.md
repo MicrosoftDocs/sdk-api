@@ -7,7 +7,7 @@ old-location: controls\SCROLLINFO.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*LPSCROLLINFO, LPCSCROLLINFO, LPCSCROLLINFO structure pointer [Windows Controls], SCROLLINFO, SCROLLINFO structure [Windows Controls], SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_SCROLLINFO_str, _win32_SCROLLINFO_str_cpp, controls.SCROLLINFO, controls._win32_SCROLLINFO_str, tagSCROLLINFO, winuser/LPCSCROLLINFO, winuser/SCROLLINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/en-us/library/Bb787571(v=VS.85).aspx">SBM_SETSCROLLINFO</a> message), or retrieved by the <a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/en-us/library/Bb787563(v=VS.85).aspx">SBM_GETSCROLLINFO</a> message). 
+The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/e0e42a81-67be-4d40-88c8-77398b068617">SBM_SETSCROLLINFO</a> message), or retrieved by the <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/3b43430f-b55f-43ec-8558-baf5c953064f">SBM_GETSCROLLINFO</a> message). 
 
 
 ## -struct-fields
@@ -173,7 +173,7 @@ Specifies the position of the scroll box.
 
 Type: <b>int</b>
 
-Specifies the immediate position of a scroll box that the user is dragging. An application can retrieve this value while processing the SB_THUMBTRACK request code. An application cannot set the immediate scroll position; the <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function ignores this member. 
+Specifies the immediate position of a scroll box that the user is dragging. An application can retrieve this value while processing the SB_THUMBTRACK request code. An application cannot set the immediate scroll position; the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function ignores this member. 
 
 
 ## -see-also
@@ -181,7 +181,7 @@ Specifies the immediate position of a scroll box that the user is dragging. An a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>
+<a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>
 
 
 
@@ -189,15 +189,15 @@ Specifies the immediate position of a scroll box that the user is dragging. An a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787563(v=VS.85).aspx">SBM_GETSCROLLINFO</a>
+<a href="https://msdn.microsoft.com/3b43430f-b55f-43ec-8558-baf5c953064f">SBM_GETSCROLLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787571(v=VS.85).aspx">SBM_SETSCROLLINFO</a>
+<a href="https://msdn.microsoft.com/e0e42a81-67be-4d40-88c8-77398b068617">SBM_SETSCROLLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>
+<a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a>
  
 
  

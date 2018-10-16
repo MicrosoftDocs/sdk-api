@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetSelRange.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setselrange.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: MonthCal_SetSelRange, MonthCal_SetSelRange macro [Windows Controls], _win32_MonthCal_SetSelRange, _win32_MonthCal_SetSelRange_cpp, commctrl/MonthCal_SetSelRange, controls.MonthCal_SetSelRange, controls._win32_MonthCal_SetSelRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the selection for a month calendar control to a given date range. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761014(v=VS.85).aspx">MCM_SETSELRANGE</a> message explicitly. 
+Sets the selection for a month calendar control to a given date range. You can use this macro or send the <a href="https://msdn.microsoft.com/750b0c83-6baa-4caa-a738-feae8751a70e">MCM_SETSELRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the selection for a month calendar control to a given date range. You can u
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 

@@ -7,7 +7,7 @@ old-location: controls\DSA_GetItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitem.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: DSA_GetItem, DSA_GetItem function [Windows Controls], _win32_DSA_GetItem, _win32_DSA_GetItem_cpp, controls.DSA_GetItem, controls._win32_DSA_GetItem, dpa_dsa/DSA_GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ Using the element pointer that this function retrieves, you can modify the data 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775661(v=VS.85).aspx">DSA_GetItemPtr</a>
+<a href="https://msdn.microsoft.com/2e25edf8-9973-49ec-bc6c-b0dc48560832">DSA_GetItemPtr</a>
  
 
  

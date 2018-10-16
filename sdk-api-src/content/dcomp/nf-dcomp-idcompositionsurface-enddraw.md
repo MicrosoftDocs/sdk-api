@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsurface_enddraw.htm
 tech.root: directcomp
 ms.assetid: 127195F7-6000-4D8C-B850-3E4D40BC4082
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: EndDraw, EndDraw method [DirectComposition], EndDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],EndDraw method, IDCompositionSurface.EndDraw, IDCompositionSurface::EndDraw, dcomp/IDCompositionSurface::EndDraw, directcomp.idcompositionsurface_enddraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

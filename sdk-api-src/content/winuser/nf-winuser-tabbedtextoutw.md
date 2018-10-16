@@ -7,7 +7,7 @@ old-location: gdi\tabbedtextout.htm
 tech.root: gdi
 ms.assetid: 1cb78a75-752d-4e06-afdf-cd797f209114
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: TabbedTextOut, TabbedTextOut function [Windows GDI], TabbedTextOutA, TabbedTextOutW, _win32_TabbedTextOut, gdi.tabbedtextout, winuser/TabbedTextOut, winuser/TabbedTextOutA, winuser/TabbedTextOutW
 ms.prod: windows-hardware
 ms.technology: windows-devices

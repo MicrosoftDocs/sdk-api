@@ -7,7 +7,7 @@ old-location: fwp\ikeext_ipv6_cga_authentication0.htm
 tech.root: fwp
 ms.assetid: 6b472140-f3e3-45b9-81f3-9c428b687fe4
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IKEEXT_IPV6_CGA_AUTHENTICATION0, IKEEXT_IPV6_CGA_AUTHENTICATION0 structure [Filtering], IKEEXT_IPV6_CGA_AUTHENTICATION0_, fwp.ikeext_ipv6_cga_authentication0, iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0
 ms.prod: windows
 ms.technology: windows-sdk

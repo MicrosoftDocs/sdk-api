@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform_setangle_float.htm
 tech.root: directcomp
 ms.assetid: 1CF4C203-46CA-488D-B164-0D2212EA63AC
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetAngle method, IDCompositionRotateTransform.SetAngle, IDCompositionRotateTransform.SetAngle(float), IDCompositionRotateTransform::SetAngle, IDCompositionRotateTransform::SetAngle(float), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetAngle, directcomp.idcompositionrotatetransform_setangle_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

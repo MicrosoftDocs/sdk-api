@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetCurSel.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setcursel.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: PropSheet_SetCurSel, PropSheet_SetCurSel macro [Windows Controls], _win32_PropSheet_SetCurSel, _win32_PropSheet_SetCurSel_cpp, controls.PropSheet_SetCurSel, controls._win32_PropSheet_SetCurSel, prsht/PropSheet_SetCurSel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Activates the specified page in a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774611(v=VS.85).aspx">PSM_SETCURSEL</a> message explicitly.
+Activates the specified page in a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/800aadde-cabc-424e-8e63-60fc7ce952d7">PSM_SETCURSEL</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ Zero-based index of the page. An application can specify the index or the handle
 
 
 
-The window that is losing the activation receives the <a href="https://msdn.microsoft.com/en-us/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a> notification code, and the window that is gaining the activation receives the <a href="https://msdn.microsoft.com/en-us/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a> notification code.
+The window that is losing the activation receives the <a href="https://msdn.microsoft.com/470cd6ff-73ad-451a-a861-4d3324a8a8db">PSN_KILLACTIVE</a> notification code, and the window that is gaining the activation receives the <a href="https://msdn.microsoft.com/0cf918b7-9f0d-4dec-8df1-a1d2d8ac6463">PSN_SETACTIVE</a> notification code.
 
 
 

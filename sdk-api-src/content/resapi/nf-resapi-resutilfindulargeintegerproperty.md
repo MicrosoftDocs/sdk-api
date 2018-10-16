@@ -7,7 +7,7 @@ old-location: mscs\resutilfindulargeintegerproperty.htm
 tech.root: mscs
 ms.assetid: BA4DD6F0-07DB-4601-B8EB-E79B49F2829F
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: PRESUTIL_FIND_ULARGEINTEGER_PROPERTY, PRESUTIL_FIND_ULARGEINTEGER_PROPERTY function [Failover Cluster], ResUtilFindULargeIntegerProperty, ResUtilFindULargeIntegerProperty function [Failover Cluster], mscs.resutilfindulargeintegerproperty, resapi/PRESUTIL_FIND_ULARGEINTEGER_PROPERTY, resapi/ResUtilFindULargeIntegerProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

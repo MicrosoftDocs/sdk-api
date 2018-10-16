@@ -7,7 +7,7 @@ old-location: controls\CreateMappedBitmap.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createmappedbitmap.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Windows Controls], _win32_CreateMappedBitmap, _win32_CreateMappedBitmap_cpp, commctrl/CreateMappedBitmap, controls.CreateMappedBitmap, controls._win32_CreateMappedBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,21 +61,21 @@ Creates a bitmap for use in a toolbar.
 
 ### -param hInstance
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
 
 Handle to the module instance with the executable file that contains the bitmap resource. 
 
 
 ### -param idBitmap
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT_PTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT_PTR</a></b>
 
 Resource identifier of the bitmap resource. 
 
 
 ### -param wFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Bitmap flag. This parameter can be zero or the following value: 
 
@@ -102,7 +102,7 @@ Uses a bitmap as a mask.
 
 Type: <b>LPCOLORMAP</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb760448(v=VS.85).aspx">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
+Pointer to a <a href="https://msdn.microsoft.com/50838fd1-1886-4c6d-ad09-9646036ae9cf">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
 
 
 ### -param iNumMaps
@@ -117,7 +117,7 @@ Number of color maps pointed to by
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HBITMAP</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
 
 Returns the handle to the bitmap if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
@@ -137,15 +137,19 @@ This function is fully supported only for images with color maps; that is, image
 
 The following example code creates a bitmap from a resource and makes the color black appear transparent by mapping it to the system color for a button face.
 
-
-```cpp
-DWORD backgroundColor = GetSysColor(COLOR_BTNFACE);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD backgroundColor = GetSysColor(COLOR_BTNFACE);
 COLORMAP colorMap;
 colorMap.from = RGB(0, 0, 0);
 colorMap.to = backgroundColor;
-HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &colorMap, 1);
-```
-
-
+HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &amp;colorMap, 1);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

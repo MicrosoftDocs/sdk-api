@@ -7,7 +7,7 @@ old-location: security\icertencodealtname.htm
 tech.root: seccrypto
 ms.assetid: e0ecfcb0-f2ca-4e1c-a054-c83c03d55465
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ICertEncodeAltName, ICertEncodeAltName interface [Security], ICertEncodeAltName interface [Security],described, _certsrv_icertencodealtname, certenc/ICertEncodeAltName, security.icertencodealtname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.redist:
 The <b>ICertEncodeAltName</b> interface provides methods for handling alternate names used in certificate extensions.
 
 A certificate extension can be created using an alternate name array stored in an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388215(v=VS.85).aspx">extension handler</a> COM object. Each element in the array is a structure that contains a name string and a name choice.
+<a href="https://msdn.microsoft.com/a33ac417-b5f9-4ad7-a26e-13cdb1e4ac1b">extension handler</a> COM object. Each element in the array is a structure that contains a name string and a name choice.
 
 This interface is useful for encoding and decoding szOID_SUBJECT_ALT_NAME2 "2.5.29.17" extensions; the SDK sample policy module uses this interface.
 
@@ -64,9 +64,9 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeAltName</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeAltName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeAltName</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertEncodeAltName</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -79,16 +79,16 @@ The <b>ICertEncodeAltName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383300(v=VS.85).aspx">Decode</a>
+<a href="https://msdn.microsoft.com/0507d3a5-b8c3-4f2e-996f-e1e32957f475">Decode</a>
 </td>
 <td align="left" width="63%">
-Decodes an <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1)-encoded alternate name extension and stores the resulting array of strings in the extension handler.
+Decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded alternate name extension and stores the resulting array of strings in the extension handler.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383302(v=VS.85).aspx">Encode</a>
+<a href="https://msdn.microsoft.com/34136053-1c25-4f6b-8bd6-699fffb6670b">Encode</a>
 </td>
 <td align="left" width="63%">
 Performs ASN.1 encoding on an alternate name array stored in the extension handler and returns the name array as an array of ASN.1-encoded strings.
@@ -97,7 +97,7 @@ Performs ASN.1 encoding on an alternate name array stored in the extension handl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383304(v=VS.85).aspx">GetName</a>
+<a href="https://msdn.microsoft.com/25a3f36b-1c09-4b2e-84b7-a725d366fd77">GetName</a>
 </td>
 <td align="left" width="63%">
 Returns the alternate name at a specified index of an alternate name array.
@@ -106,7 +106,7 @@ Returns the alternate name at a specified index of an alternate name array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383307(v=VS.85).aspx">GetNameChoice</a>
+<a href="https://msdn.microsoft.com/3b21fbc7-cba1-49b1-bad6-232f717e3056">GetNameChoice</a>
 </td>
 <td align="left" width="63%">
 Returns a name choice at a specified index of an alternate name array.
@@ -115,7 +115,7 @@ Returns a name choice at a specified index of an alternate name array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383598(v=VS.85).aspx">GetNameCount</a>
+<a href="https://msdn.microsoft.com/3f5e5c5d-e21b-452b-837c-5b44daa884b8">GetNameCount</a>
 </td>
 <td align="left" width="63%">
 Returns the count of names in an alternate name array.
@@ -124,7 +124,7 @@ Returns the count of names in an alternate name array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383627(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/99aa43fe-534b-4696-8bfc-7049b16be1cf">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets an alternate name array to a specified number of elements and clears the values.
@@ -133,7 +133,7 @@ Resets an alternate name array to a specified number of elements and clears the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383657(v=VS.85).aspx">SetNameEntry</a>
+<a href="https://msdn.microsoft.com/5da07c09-9213-4604-b058-5e69df646b09">SetNameEntry</a>
 </td>
 <td align="left" width="63%">
 Sets a name and name choice at a specified index of an alternate name array.

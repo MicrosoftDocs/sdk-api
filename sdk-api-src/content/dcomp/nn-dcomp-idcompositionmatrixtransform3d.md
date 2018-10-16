@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionmatrixtransform3d.htm
 tech.root: directcomp
 ms.assetid: 56C9A564-2504-4940-B850-D280C8E0CF82
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDCompositionMatrixTransform3D, IDCompositionMatrixTransform3D interface [DirectComposition], IDCompositionMatrixTransform3D interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform3D, directcomp.idcompositionmatrixtransform3d
 ms.prod: windows
 ms.technology: windows-sdk

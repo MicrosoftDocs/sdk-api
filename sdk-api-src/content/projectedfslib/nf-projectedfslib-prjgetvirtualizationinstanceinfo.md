@@ -7,7 +7,7 @@ old-location: projfs\prjgetvirtualizationinstanceinfo.htm
 tech.root: ProjFS
 ms.assetid: 0C04D13F-862C-4E4C-9BC1-13E6FAC86E99
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PrjGetVirtualizationInstanceInfo, PrjGetVirtualizationInstanceInfo function, ProjFS.prjgetvirtualizationinstanceinfo, projectedfslib/PrjGetVirtualizationInstanceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

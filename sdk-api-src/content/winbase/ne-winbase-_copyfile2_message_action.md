@@ -4,10 +4,10 @@ title: "_COPYFILE2_MESSAGE_ACTION"
 author: windows-sdk-content
 description: Returned by the CopyFile2ProgressRoutine callback function to indicate what action should be taken for the pending copy operation.
 old-location: fs\copyfile2_message_action.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 0beae28e-f493-4ae1-a4d9-3df69de166b7
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: COPYFILE2_MESSAGE_ACTION, COPYFILE2_MESSAGE_ACTION enumeration [Files], COPYFILE2_PROGRESS_CANCEL, COPYFILE2_PROGRESS_CONTINUE, COPYFILE2_PROGRESS_PAUSE, COPYFILE2_PROGRESS_QUIET, COPYFILE2_PROGRESS_STOP, _COPYFILE2_MESSAGE_ACTION, fs.copyfile2_message_action, winbase/COPYFILE2_MESSAGE_ACTION, winbase/COPYFILE2_PROGRESS_CANCEL, winbase/COPYFILE2_PROGRESS_CONTINUE, winbase/COPYFILE2_PROGRESS_PAUSE, winbase/COPYFILE2_PROGRESS_QUIET, winbase/COPYFILE2_PROGRESS_STOP
 ms.prod: windows
 ms.technology: windows-sdk

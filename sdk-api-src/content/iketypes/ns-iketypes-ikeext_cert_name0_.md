@@ -7,7 +7,7 @@ old-location: fwp\ikeext_cert_name0.htm
 tech.root: fwp
 ms.assetid: 50e04e10-cae1-4fcd-990e-3e9b538627ed
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IKEEXT_CERT_NAME0, IKEEXT_CERT_NAME0 structure [Filtering], IKEEXT_CERT_NAME0_, fwp.ikeext_cert_name0, iketypes/IKEEXT_CERT_NAME0
 ms.prod: windows
 ms.technology: windows-sdk

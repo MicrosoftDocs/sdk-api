@@ -108,11 +108,11 @@ The method succeeded.
 Certain links on a discovery page have targets that should be displayed only after the user has been authenticated. The discovery page, Windows Media Player, and the online store's plug-in use the following steps to authenticate the user and display the target webpage:
 
 <ol>
-<li>Script on a discovery page calls the <a href="https://msdn.microsoft.com/en-us/library/Dd562951(v=VS.85).aspx">External.authenticate</a> method.</li>
+<li>Script on a discovery page calls the <a href="https://msdn.microsoft.com/db4cd2c6-b735-40b1-af96-82a40bda9d97">External.authenticate</a> method.</li>
 <li>Windows Media Player displays a dialog box to obtain a user name and password.</li>
 <li>Windows Media Player calls <b>IWMPContentPartner::Authenticate</b>, which initiates the authentication attempt and returns immediately.</li>
-<li>When the authentication attempt is complete, the online store's plug-in calls <a href="https://msdn.microsoft.com/en-us/library/Dd563150(v=VS.85).aspx">IWMPContentPartnerCallback::Notify</a>, passing wmpcnAuthResult and a Boolean value that indicates whether the attempt was successful.</li>
-<li>If the authentication attempt was successful, Windows Media Player calls <a href="https://msdn.microsoft.com/en-us/library/Dd563165(v=VS.85).aspx">IWMPContentPartner::GetItemInfo</a>, passing g_szItemInfo_AuthenticationSuccessURL, to obtain the URL of an authentication-success webpage. In this call, Windows Media Player passes the same index that the discovery page passed to the <b>External.authenticate</b> method.</li>
+<li>When the authentication attempt is complete, the online store's plug-in calls <a href="https://msdn.microsoft.com/e8402662-7e14-4be7-bc2d-45338bf2a226">IWMPContentPartnerCallback::Notify</a>, passing wmpcnAuthResult and a Boolean value that indicates whether the attempt was successful.</li>
+<li>If the authentication attempt was successful, Windows Media Player calls <a href="https://msdn.microsoft.com/b7355c45-fb58-45f4-b7e4-3dd2c3f8c918">IWMPContentPartner::GetItemInfo</a>, passing g_szItemInfo_AuthenticationSuccessURL, to obtain the URL of an authentication-success webpage. In this call, Windows Media Player passes the same index that the discovery page passed to the <b>External.authenticate</b> method.</li>
 <li>Windows Media Player displays the authentication-success webpage.</li>
 </ol>
 To decrypt the information supplied in <i>userInfo</i> and <i>pwdInfo</i>, use the <b>CryptUnprotectData</b> function, which is documented in the Cryptography section of the Windows SDK. You must set the CRYPTPROTECT_UI_FORBIDDEN flag in the <i>dwFlags</i> parameter. Set the optional and reserved parameters to <b>NULL</b>.
@@ -125,7 +125,7 @@ To decrypt the information supplied in <i>userInfo</i> and <i>pwdInfo</i>, use t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

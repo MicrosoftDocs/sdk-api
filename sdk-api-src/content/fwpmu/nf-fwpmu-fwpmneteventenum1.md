@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventenum1.htm
 tech.root: fwp
 ms.assetid: b320ab18-2713-479c-a635-da3c5a3e1d10
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: FwpmNetEventEnum1, FwpmNetEventEnum1 function [Filtering], fwp.fwpmneteventenum1, fwpmu/FwpmNetEventEnum1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1vec3length.htm
 tech.root: direct2d
 ms.assetid: 0E305151-63EA-4865-B9C4-5F685D17FD5A
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: D2D1Vec3Length, D2D1Vec3Length function [Direct2D], d2d1_1/D2D1Vec3Length, direct2d.d2d1vec3length
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\computer_name_format_str.htm
 tech.root: sysinfo
 ms.assetid: 249830be-acd7-4417-ac33-c0fb2d87c4af
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: COMPUTER_NAME_FORMAT, COMPUTER_NAME_FORMAT enumeration, ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameMax, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, _COMPUTER_NAME_FORMAT, _win32_computer_name_format_str, base.computer_name_format_str, sysinfoapi/COMPUTER_NAME_FORMAT, sysinfoapi/ComputerNameDnsDomain, sysinfoapi/ComputerNameDnsFullyQualified, sysinfoapi/ComputerNameDnsHostname, sysinfoapi/ComputerNameMax, sysinfoapi/ComputerNameNetBIOS, sysinfoapi/ComputerNamePhysicalDnsDomain, sysinfoapi/ComputerNamePhysicalDnsFullyQualified, sysinfoapi/ComputerNamePhysicalDnsHostname, sysinfoapi/ComputerNamePhysicalNetBIOS
 ms.prod: windows
 ms.technology: windows-sdk

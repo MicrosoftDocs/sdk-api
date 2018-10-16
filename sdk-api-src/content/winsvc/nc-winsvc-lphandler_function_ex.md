@@ -7,7 +7,7 @@ old-location: base\handlerex.htm
 tech.root: services
 ms.assetid: bb1b863f-e29f-496f-a50e-9ea524fe8603
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: HandlerEx, HandlerEx callback, HandlerEx callback function, LPHANDLER_FUNCTION_EX, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_DEVICEEVENT, SERVICE_CONTROL_HARDWAREPROFILECHANGE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_POWEREVENT, SERVICE_CONTROL_PRESHUTDOWN, SERVICE_CONTROL_SESSIONCHANGE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, SERVICE_CONTROL_TIMECHANGE, SERVICE_CONTROL_TRIGGEREVENT, SERVICE_CONTROL_USERMODEREBOOT, _win32_handlerex, base.handlerex, winsvc/HandlerEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -522,7 +522,7 @@ Be sure to handle Plug and Play device events as quickly as possible; otherwise,
     to start another thread to perform the operation asynchronously.
 
 Services can also use the 
-    <a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a> function to receive 
+    <a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive 
     shutdown notification. This notification is received when the running applications are shutting down, which occurs 
     before services are shut down.
 

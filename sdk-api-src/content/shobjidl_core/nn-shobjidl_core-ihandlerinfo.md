@@ -7,7 +7,7 @@ old-location: shell\IHandlerInfo.htm
 tech.root: shell
 ms.assetid: f0b8da9f-75ee-418d-8df6-fa0d7c600e62
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IHandlerInfo, IHandlerInfo interface [Windows Shell], IHandlerInfo interface [Windows Shell],described, shell.IHandlerInfo, shobjidl_core/IHandlerInfo
 ms.prod: windows
 ms.technology: windows-sdk

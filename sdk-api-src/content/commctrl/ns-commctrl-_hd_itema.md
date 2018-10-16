@@ -7,7 +7,7 @@ old-location: controls\HDITEM.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\structures\hditem.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*LPHDITEMA, Combining Flags:, Display:, HDFT_HASNOVALUE, HDFT_ISDATE, HDFT_ISNUMBER, HDFT_ISSTRING, HDF_BITMAP, HDF_BITMAP_ON_RIGHT, HDF_CENTER, HDF_CHECKBOX, HDF_CHECKED, HDF_FIXEDWIDTH, HDF_IMAGE, HDF_JUSTIFYMASK, HDF_LEFT, HDF_OWNERDRAW, HDF_RIGHT, HDF_RTLREADING, HDF_SORTDOWN, HDF_SORTUP, HDF_SPLITBUTTON, HDF_STRING, HDITEM, HDITEM structure [Windows Controls], HDITEMA, HDITEMW, HDI_BITMAP, HDI_DI_SETITEM, HDI_FILTER, HDI_FORMAT, HDI_HEIGHT, HDI_IMAGE, HDI_LPARAM, HDI_ORDER, HDI_STATE, HDI_TEXT, HDI_WIDTH, LPHDITEM, LPHDITEM structure pointer [Windows Controls], Text Justification:, _HD_ITEMA, _win32_HDITEM, _win32_HDITEM_cpp, commctrl/HDITEM, commctrl/HDITEMA, commctrl/HDITEMW, commctrl/LPHDITEM, controls.HDITEM, controls._win32_HDITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Contains information about an item in a header control. This structure supersede
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Flags indicating which other structure members contain valid data or must be filled in. This member can be a combination of the following values: 
 
@@ -87,7 +87,7 @@ The <b>hbm</b> member is valid.
 </dl>
 </td>
 <td width="60%">
-While handling the message <a href="https://msdn.microsoft.com/en-us/library/Bb775335(v=VS.85).aspx">HDM_GETITEM</a>, the header control may not have all the values needed to complete the request.  In this case, the control must call the application back for the values via the <a href="https://msdn.microsoft.com/en-us/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification.  If HDI_DI_SETITEM has been passed in the <b>HDM_GETITEM</b> message, the control will cache any values returned from HDN_GETDISPINFO (otherwise the values remain unset.)
+While handling the message <a href="https://msdn.microsoft.com/fb1330d3-fd28-490c-9caa-4b2b5ff86ba0">HDM_GETITEM</a>, the header control may not have all the values needed to complete the request.  In this case, the control must call the application back for the values via the <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification.  If HDI_DI_SETITEM has been passed in the <b>HDM_GETITEM</b> message, the control will cache any values returned from HDN_GETDISPINFO (otherwise the values remain unset.)
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ The <b>iOrder</b> member is valid and specifies the item's order value.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00 and later</a>. The <b>state</b> member is valid.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. The <b>state</b> member is valid.
 
 </td>
 </tr>
@@ -196,14 +196,14 @@ The width or height of the item.
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
-A pointer to an item string. If the text is being retrieved from the control, this member must be initialized to point to a character buffer. If this member is set to LPSTR_TEXTCALLBACK, the control will request text information for this item by sending an <a href="https://msdn.microsoft.com/en-us/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification code. Note that although the header control allows a string of any length to be stored as item text, only the first 260 <b>TCHAR</b><b>s</b> are displayed.
+A pointer to an item string. If the text is being retrieved from the control, this member must be initialized to point to a character buffer. If this member is set to LPSTR_TEXTCALLBACK, the control will request text information for this item by sending an <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification code. Note that although the header control allows a string of any length to be stored as item text, only the first 260 <b>TCHAR</b><b>s</b> are displayed.
 
 
 ### -field hbm
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HBITMAP</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
 
 A handle to the item bitmap. 
 
@@ -338,7 +338,7 @@ The preceding value can be combined with:
 </dl>
 </td>
 <td width="60%">
-Display an image from an image list. Specify the image list by sending an <a href="https://msdn.microsoft.com/en-us/library/Bb775365(v=VS.85).aspx">HDM_SETIMAGELIST</a> message. Specify the index of the image in the <b>iImage</b> member of this structure.
+Display an image from an image list. Specify the image list by sending an <a href="https://msdn.microsoft.com/1d7f07fa-f6f4-422a-949c-97d0388343e3">HDM_SETIMAGELIST</a> message. Specify the index of the image in the <b>iImage</b> member of this structure.
 
 </td>
 </tr>
@@ -369,7 +369,7 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00 and later</a>. Draws a down-arrow on this item. This is typically used to indicate that information in the current window is sorted on this column in descending order. This flag cannot be combined with HDF_IMAGE or HDF_BITMAP.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. Draws a down-arrow on this item. This is typically used to indicate that information in the current window is sorted on this column in descending order. This flag cannot be combined with HDF_IMAGE or HDF_BITMAP.
 
 </td>
 </tr>
@@ -380,7 +380,7 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00 and later</a>. Draws an up-arrow on this item. This is typically used to indicate that information in the current window is sorted on this column in ascending order. This flag cannot be combined with HDF_IMAGE or HDF_BITMAP.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. Draws an up-arrow on this item. This is typically used to indicate that information in the current window is sorted on this column in ascending order. This flag cannot be combined with HDF_IMAGE or HDF_BITMAP.
 
 </td>
 </tr>
@@ -391,7 +391,7 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00 and later</a>. The item displays a checkbox.  The flag is only valid when the <a href="https://msdn.microsoft.com/en-us/library/Bb775241(v=VS.85).aspx">HDS_CHECKBOXES</a> style is first set on the header control. 
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. The item displays a checkbox.  The flag is only valid when the <a href="Header_Control_Styles.htm">HDS_CHECKBOXES</a> style is first set on the header control. 
 
 </td>
 </tr>
@@ -402,7 +402,7 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00 and later</a>. The item displays a checked checkbox. The flag is only valid when HDF_CHECKBOX is also set.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. The item displays a checked checkbox. The flag is only valid when HDF_CHECKBOX is also set.
 
 </td>
 </tr>
@@ -413,7 +413,7 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00 and later</a>. The width of the item cannot be modified by a user action to resize it.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. The width of the item cannot be modified by a user action to resize it.
 
 </td>
 </tr>
@@ -424,7 +424,7 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00 and later</a>.  The item displays a split button.  The HDN_DROPDOWN notification is sent when the split button is clicked.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>.  The item displays a split button.  The HDN_DROPDOWN notification is sent when the split button is clicked.
 
 </td>
 </tr>
@@ -434,7 +434,7 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
 Application-defined item data. 
 
@@ -443,7 +443,7 @@ Application-defined item data.
 
 Type: <b>int</b>
 
-The zero-based index of an image within the image list. The specified image will be displayed in the header item in addition to any image specified in the <b>hbm</b>  field. If <b>iImage</b> is set to I_IMAGECALLBACK, the control requests text information for this item by using an <a href="https://msdn.microsoft.com/en-us/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification code. To clear the image, set this value to I_IMAGENONE.
+The zero-based index of an image within the image list. The specified image will be displayed in the header item in addition to any image specified in the <b>hbm</b>  field. If <b>iImage</b> is set to I_IMAGECALLBACK, the control requests text information for this item by using an <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification code. To clear the image, set this value to I_IMAGENONE.
 
 
 ### -field iOrder
@@ -455,7 +455,7 @@ The order in which the item appears within the header control, from left to righ
 
 ### -field type
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The type of filter specified by <b>pvFilter</b>. The possible types include: 
 
@@ -502,7 +502,7 @@ Ignore <b>pvFilter</b>.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.00 and later</a>. Date data. The <b>pvFilter</b> member is a pointer to a <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. Date data. The <b>pvFilter</b> member is a pointer to a <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure.
 
 </td>
 </tr>
@@ -514,12 +514,12 @@ Ignore <b>pvFilter</b>.
 
 Type: <b>void*</b>
 
-The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775251(v=VS.85).aspx">HDTEXTFILTER</a> structure.
+The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://msdn.microsoft.com/4c43553e-e02e-42ad-9a1f-e8f608f66941">HDTEXTFILTER</a> structure.
 
 
 ### -field state
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The state. The only valid, supported value for this member is the following:
 
@@ -547,7 +547,7 @@ The item has keyboard focus.
 
 
 
-<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

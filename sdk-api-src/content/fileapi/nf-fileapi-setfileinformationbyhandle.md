@@ -4,10 +4,10 @@ title: SetFileInformationByHandle function
 author: windows-sdk-content
 description: Sets the file information for the specified file.
 old-location: fs\setfileinformationbyhandle.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -302,9 +302,13 @@ SMB 3.0 does not support rename of alternate data streams on file shares with co
 
 The following C++ example shows how to create a file and mark it for deletion when the handle is closed.
 
-
-```cpp
-//...
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//...
   HANDLE hFile = CreateFile( TEXT("tempfile"), 
                              GENERIC_READ | GENERIC_WRITE | DELETE,
                              0 /* exclusive access */,
@@ -320,7 +324,7 @@ The following C++ example shows how to create a file and mark it for deletion wh
 
     BOOL fResult = SetFileInformationByHandle( hFile, 
                                                FileDispositionInfo, 
-                                               &fdi, 
+                                               &amp;fdi, 
                                                sizeof(FILE_DISPOSITION_INFO) );
 
     if (fResult)
@@ -350,10 +354,10 @@ The following C++ example shows how to create a file and mark it for deletion wh
               GetLastError() );
  }
 //...
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

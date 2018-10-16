@@ -7,7 +7,7 @@ old-location: security\bcrypt_dsa_parameter_header_v2.htm
 tech.root: seccng
 ms.assetid: 25FF89D8-1E3E-433B-AC5C-1CADC09A49D0
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: BCRYPT_DSA_PARAMETERS_MAGIC_V2, BCRYPT_DSA_PARAMETER_HEADER_V2, BCRYPT_DSA_PARAMETER_HEADER_V2 structure [Security], PBCRYPT_DSA_PARAMETER_HEADER_V2, PBCRYPT_DSA_PARAMETER_HEADER_V2 structure pointer [Security], _BCRYPT_DSA_PARAMETER_HEADER_V2, bcrypt/BCRYPT_DSA_PARAMETER_HEADER_V2, bcrypt/PBCRYPT_DSA_PARAMETER_HEADER_V2, security.bcrypt_dsa_parameter_header_v2
 ms.prod: windows
 ms.technology: windows-sdk

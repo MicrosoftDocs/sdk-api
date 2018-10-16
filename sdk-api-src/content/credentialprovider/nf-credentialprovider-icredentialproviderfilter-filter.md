@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderFilter_Filter.htm
 tech.root: shell
 ms.assetid: 3ba60965-6f18-427f-851d-b92c71eb03d2
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, Filter, Filter method [Windows Shell], Filter method [Windows Shell],ICredentialProviderFilter interface, ICredentialProviderFilter interface [Windows Shell],Filter method, ICredentialProviderFilter.Filter, ICredentialProviderFilter::Filter, _shell_ICredentialProviderFilter_Filter, credentialprovider/ICredentialProviderFilter::Filter, shell.ICredentialProviderFilter_Filter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Evaluates whether a list of credential providers should be allowed to provide cr
 
 ### -param cpus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
+Type: <b><a href="https://msdn.microsoft.com/86025d1d-b13d-4f61-824a-fd471e449567">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> value that declares the scenarios in which a credential provider is supported.
+A pointer to a <a href="https://msdn.microsoft.com/86025d1d-b13d-4f61-824a-fd471e449567">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> value that declares the scenarios in which a credential provider is supported.
 
 
 ### -param dwFlags [in]

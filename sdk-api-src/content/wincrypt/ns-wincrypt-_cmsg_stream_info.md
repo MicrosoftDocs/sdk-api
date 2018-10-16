@@ -7,7 +7,7 @@ old-location: security\cmsg_stream_info.htm
 tech.root: seccrypto
 ms.assetid: a4e7f6e8-351f-4981-b223-50b65f503394
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PCMSG_STREAM_INFO, CMSG_STREAM_INFO, CMSG_STREAM_INFO structure [Security], PCMSG_STREAM_INFO, PCMSG_STREAM_INFO structure pointer [Security], _CMSG_STREAM_INFO, _crypto2_cmsg_stream_info, cbData, fFinal, pbData, pvArg, security.cmsg_stream_info, wincrypt/CMSG_STREAM_INFO, wincrypt/PCMSG_STREAM_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,10 +76,14 @@ The address of a callback function used to read from and write data to a disk wh
 
 The callback function must have the following signature and parameters:
 
-
-```cpp
-#include <windows.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Wincrypt.h&gt;
 
 BOOL WINAPI CmsgStreamOutputCallback(
   IN const void *pvArg,  //in
@@ -87,10 +91,10 @@ BOOL WINAPI CmsgStreamOutputCallback(
   IN DWORD cbData,       //in
   IN BOOL fFinal         //in
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Value</th>
@@ -151,7 +155,7 @@ A pointer to the argument to pass to the callback function. Typically, this is u
 
 
 Messages can be so large that processing them all at once by storing the whole message in memory can be difficult, if not impossible. It is possible to process large messages without encountering memory limitations by streaming the data that is to be processed into manageable sized blocks. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">low-level message functions</a> can be used with streaming to encode or decode a message. Any level of nesting of messages is supported when streaming to encode and streaming to decode.
+<a href="cryptography_functions.htm">low-level message functions</a> can be used with streaming to encode or decode a message. Any level of nesting of messages is supported when streaming to encode and streaming to decode.
 
 The input message to be processed as a stream feeds into 
 <a href="https://msdn.microsoft.com/d27d75f0-1646-4926-b375-59e52b00326c">CryptMsgUpdate</a> one block at a time, with the application determining the size of the block. As the streamed message is processed for encoding or decoding, the resulting output data is passed back to the application through an application-specified callback function that is specified by the <b>pfnStreamOutput</b> member.

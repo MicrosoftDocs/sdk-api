@@ -7,7 +7,7 @@ old-location: rstmgr\rmgetlist.htm
 tech.root: rstmgr
 ms.assetid: de4feea4-2b45-4430-a4b3-8ca26c455e42
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: RmGetList, RmGetList function [Restart Mgr], restartmanager/RmGetList, rstmgr.rmgetlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

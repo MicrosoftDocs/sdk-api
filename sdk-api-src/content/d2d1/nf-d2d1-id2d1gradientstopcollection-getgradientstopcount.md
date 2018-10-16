@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GradientStopCollection_GetGradientStopCount.htm
 tech.root: direct2d
 ms.assetid: 1c3ef4b0-e781-4177-81a4-b39add8468a0
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetGradientStopCount, GetGradientStopCount method [Direct2D], GetGradientStopCount method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetGradientStopCount method, ID2D1GradientStopCollection.GetGradientStopCount, ID2D1GradientStopCollection::GetGradientStopCount, d2d1/ID2D1GradientStopCollection::GetGradientStopCount, direct2d.ID2D1GradientStopCollection_GetGradientStopCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

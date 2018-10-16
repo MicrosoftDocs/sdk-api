@@ -7,7 +7,7 @@ old-location: shell\StrStr.htm
 tech.root: shell
 ms.assetid: b1de5007-6773-4dea-8a15-ccd5f6924a13
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: StrStr, StrStr function [Windows Shell], StrStrA, StrStrW, _win32_StrStr, shell.StrStr, shlwapi/StrStr, shlwapi/StrStrA, shlwapi/StrStrW
 ms.prod: windows-hardware
 ms.technology: windows-devices

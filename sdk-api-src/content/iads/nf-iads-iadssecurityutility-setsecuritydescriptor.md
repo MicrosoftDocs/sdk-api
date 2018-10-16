@@ -131,9 +131,13 @@ Access control entries must appear in the following order in a security descript
 
 The following code example shows how to set a security descriptor for a file.
 
-
-```vb
-Dim dacl as IADsAccessControlList
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim dacl as IADsAccessControlList
 Dim sd as IADsSecurityDescriptor
 Dim newAce as New AccessControlEntry
 Dim sdUtil as New ADsSecurityUtility
@@ -152,17 +156,17 @@ sd.DiscretionaryAcl = dacl
 sdUtil.SetSecurityDescriptor "c:\specs\adsixml.doc", ADS_PATH_FILE, sd, ADS_SD_FORMAT_IID
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set dacl = Nothing
     Set sd = Nothing
     Set newAce = Nothing
     Set sdUtil = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

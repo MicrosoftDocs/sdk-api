@@ -7,7 +7,7 @@ old-location: gdi\getupdaterect.htm
 tech.root: gdi
 ms.assetid: e54483a1-8738-4b22-a24e-c0b31f6ca9d6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetUpdateRect, GetUpdateRect function [Windows GDI], _win32_GetUpdateRect, gdi.getupdaterect, winuser/GetUpdateRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

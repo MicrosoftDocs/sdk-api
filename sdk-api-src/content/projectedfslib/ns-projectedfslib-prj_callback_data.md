@@ -7,7 +7,7 @@ old-location: projfs\prj_callback_data.htm
 tech.root: ProjFS
 ms.assetid: 569204FF-97F5-4FE2-9885-94C88AB5A6FE
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PRJ_CALLBACK_DATA, PRJ_CALLBACK_DATA structure, ProjFS.prj_callback_data, projectedfslib/PRJ_CALLBACK_DATA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

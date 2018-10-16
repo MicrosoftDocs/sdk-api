@@ -7,7 +7,7 @@ old-location: setup\ivalidate_closecub.htm
 tech.root: msi
 ms.assetid: be0d21ee-bb15-4c6d-9d69-741adf047863
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/12/2018
 ms.keywords: CloseCUB, CloseCUB method, CloseCUB method,IValidate interface, IValidate interface,CloseCUB method, IValidate.CloseCUB, IValidate::CloseCUB, evalcom2/IValidate::CloseCUB, setup.ivalidate_closecub
 ms.prod: windows-hardware
 ms.technology: windows-devices

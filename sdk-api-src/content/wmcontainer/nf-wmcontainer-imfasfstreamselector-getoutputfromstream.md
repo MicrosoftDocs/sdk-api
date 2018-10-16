@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getoutputfromstream.htm
 tech.root: medfound
 ms.assetid: a7ff421b-3ef3-406a-ae05-8d8bf9f4357f
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: GetOutputFromStream, GetOutputFromStream method [Media Foundation], GetOutputFromStream method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputFromStream method, IMFASFStreamSelector.GetOutputFromStream, IMFASFStreamSelector::GetOutputFromStream, a7ff421b-3ef3-406a-ae05-8d8bf9f4357f, mf.imfasfstreamselector_getoutputfromstream, wmcontainer/IMFASFStreamSelector::GetOutputFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

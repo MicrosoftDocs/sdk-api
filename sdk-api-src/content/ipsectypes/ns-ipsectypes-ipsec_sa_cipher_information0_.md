@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_cipher_information0_struct.htm
 tech.root: fwp
 ms.assetid: 2a5105ad-b77f-46b7-9a79-50514b88e7ce
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPSEC_SA_CIPHER_INFORMATION0, IPSEC_SA_CIPHER_INFORMATION0 structure [Filtering], IPSEC_SA_CIPHER_INFORMATION0_, fwp.ipsec_sa_cipher_information0_struct, ipsectypes/IPSEC_SA_CIPHER_INFORMATION0
 ms.prod: windows
 ms.technology: windows-sdk

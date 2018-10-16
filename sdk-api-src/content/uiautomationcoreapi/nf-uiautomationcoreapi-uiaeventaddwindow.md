@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaEventAddWindowFunction.htm
 tech.root: WinAuto
 ms.assetid: 1044dbe0-1b66-41f4-916d-eb23c0a0c92b
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: UiaEventAddWindow, UiaEventAddWindow function [Windows Accessibility], uiauto.uiauto_UiaEventAddWindowFunction, uiauto_UiaEventAddWindowFunction, uiautomationcoreapi/UiaEventAddWindow, winauto.uiauto_UiaEventAddWindowFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\UrlCompare.htm
 tech.root: shell
 ms.assetid: d5c9e003-b85b-4f9f-b231-e3e4b71d4ce6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: UrlCompare, UrlCompare function [Windows Shell], UrlCompareA, UrlCompareW, _win32_UrlCompare, shell.UrlCompare, shlwapi/UrlCompare, shlwapi/UrlCompareA, shlwapi/UrlCompareW
 ms.prod: windows-hardware
 ms.technology: windows-devices

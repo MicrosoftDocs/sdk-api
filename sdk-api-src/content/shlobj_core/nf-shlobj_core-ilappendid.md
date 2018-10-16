@@ -7,7 +7,7 @@ old-location: shell\ILAppendID.htm
 tech.root: shell
 ms.assetid: d1bb5993-fe23-42d4-a2c5-8e54e6e37d09
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ILAppendID, ILAppendID function [Windows Shell], _win32_ILAppendID, shell.ILAppendID, shlobj_core/ILAppendID
 ms.prod: windows-hardware
 ms.technology: windows-devices

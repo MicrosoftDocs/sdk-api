@@ -7,7 +7,7 @@ old-location: multimedia\avigetfromclipboard.htm
 tech.root: Multimedia
 ms.assetid: 17115441-8809-4fc2-9749-0e9d4c4f9cac
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: AVIGetFromClipboard, AVIGetFromClipboard function [Windows Multimedia], _win32_AVIGetFromClipboard, multimedia.avigetfromclipboard, vfw/AVIGetFromClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetExitCodeProcess function
 author: windows-sdk-content
 description: Retrieves the termination status of the specified process.
 old-location: base\getexitcodeprocess.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 210f7595-ac12-4bb2-bd77-819649ebec10
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetExitCodeProcess, GetExitCodeProcess function, _win32_getexitcodeprocess, base.getexitcodeprocess, processthreadsapi/GetExitCodeProcess, winbase/GetExitCodeProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

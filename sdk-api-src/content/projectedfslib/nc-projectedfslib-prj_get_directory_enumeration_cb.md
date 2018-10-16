@@ -7,7 +7,7 @@ old-location: projfs\prj_get_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: 45E7E7F9-9E54-44C8-9915-43CCECF85DB6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PRJ_GET_DIRECTORY_ENUMERATION_CB, PRJ_GET_DIRECTORY_ENUMERATION_CB callback, PRJ_GET_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_get_directory_enumeration_cb, projectedfslib/PRJ_GET_DIRECTORY_ENUMERATION_CB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -30,13 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - UserDefined
 api_location:
- -
+ - projectedfslib.h
 api_name:
- - PRJ_GET_DIRECTORY_ENUMERATION_CB callback
+ - PRJ_GET_DIRECTORY_ENUMERATION_CB
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -59,17 +60,52 @@ Requests directory enumeration information from the provider.
 
 ### -param callbackData [in]
 
-Information about the operation.
+Information about the operation. The following <i>callbackData</i> members are necessary to implement this callback:<dl>
+<dd><b>FilePathName</b>Identifies the directory to be enumerated.
+
+</dd>
+<dd><b>VersionInfo</b>Provides version information for the directory to be enumerated.
+
+</dd>
+<dd><b>Flags</b>Flags to control what is returned in the enumeration.  Valid values are:
+
+<table>
+<tr>
+<td>PRJ_CB_DATA_FLAG_ENUM_RETURN_SINGLE_ENTRY</td>
+<td>This bit is set if the user is requesting only one entry from the enumeration.  The provider may treat this as a hint, and may opt to return more than one entry to make an enumeration that returns one item at a time more efficient. 
+In such a case ProjFS will return single entry to the user, invoking the provider only when it needs more entries.</td>
+</tr>
+<tr>
+<td>PRJ_CB_DATA_FLAG_ENUM_RESTART_SCAN</td>
+<td>This bit is set if the enumeration is to start at the first entry in the directory.  On the first invocation of this callback for an enumeration session the provider must treat this flag as set, regardless of its value. All enumerations must start at the first entry. 
+On subsequent invocations of this callback the provider must honor this value.</td>
+</tr>
+</table>
+ 
+
+</dd>
+</dl>
+
+
+The provider can access this buffer only while the callback is running. If it wishes to pend the operation and it requires data from this buffer, it must make its own copy of it. 
 
 
 ### -param enumerationId [in]
 
-TBD
+An identifier for this enumeration session.
 
 
 ### -param searchExpression [in, optional]
 
-A pointer to a null-terminated Unicode string specifying a search expression. The search expression may include wildcard characters.
+A pointer to a null-terminated Unicode string specifying a search expression. The search expression may include wildcard characters. The provider should use the <a href="projfs.prjdoesnamecontainwildcards">PrjDoesNameContainWildCards</a> function to determine whether wildcards are present in <b>searchExpression</b>, and it should use the <a href="projfs.prjfilenamematch">PrjFileNameMatch</a> function to determine whether an entry in its backing store matches a search expression containing wildcards.
+
+This parameter is optional and may be NULL.<ul>
+<li>If this parameter is not NULL, the provider must return only those directory entries whose names match the search expression.</li>
+<li>If this parameter is NULL, the provider must return all directory entries.</li>
+</ul>
+
+
+The provider should capture the value of this parameter on the first invocation of this callback for an enumeration session and use it on subsequent invocations, ignoring this parameter on those invocations unless <b>PRJ_CB_DATA_FLAG_ENUM_RESTART_SCAN</b> is specified in the <b>Flags</b> member of <b>callbackData</b>.  In that case the provider must re-capture the value of <b>searchExpression.</b>
 
 
 ### -param dirEntryBufferHandle [in]
@@ -81,16 +117,50 @@ An opaque handle to a structure that receives the results of the enumeration fro
 
 
 
-S_OK: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
 The provider successfully added at least one entry to dirEntryBufferHandle, or no entries in the provider’s store match searchExpression. 
 
 
-HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER): The provider received this error from <a href="projfs.prjfilldirentrybuffer">PrjFillDirEntryBuffer</a> for the first file or directory it tried to add to dirEntryBufferHandle. 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The provider received this error from <a href="projfs.prjfilldirentrybuffer">PrjFillDirEntryBuffer</a> for the first file or directory it tried to add to dirEntryBufferHandle. 
 
 
-HRESULT_FROM_WIN32(ERROR_IO_PENDING): 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_IO_PENDING)</b></dt>
+</dl>
+</td>
+<td width="60%">
+ 
 The provider wishes to complete the operation at a later time. 
 
+
+</td>
+</tr>
+</table>
+ 
 
 An appropriate HRESULT error code if the provider fails the operation.
 
@@ -101,14 +171,7 @@ An appropriate HRESULT error code if the provider fails the operation.
 
 
 
-The provider should use the PrjDoesNameContainWildCards routine to determine whether wildcards are present in searchExpression, and it should use the PrjFileNameMatch routine to determine whether an entry in its backing store matches a search expression containing wildcards. 
-
-
-This parameter is optional and may be NULL. 
-<ul>
-<li>If this parameter is not NULL, the provider must return only those directory entries whose names match the search expression.</li>
-<li>If this parameter is NULL, the provider must return all directory entries.</li>
-</ul>The provider should capture the value of this parameter on the first invocation of this callback for an enumeration session and use it on subsequent invocations, ignoring this parameter on those invocations unless PRJ_CB_DATA_FLAG_ENUM_RESTART_SCAN is specified in the Flags member of callbackData. In that case the provider must re-capture the value of searchExpression. 
+ProjFS invokes this callback one or more times after invoking <a href="projfs.prj_start_directory_enumeration_cb">PRJ_START_DIRECTORY_ENUMERATION_CB</a>.  See the Remarks section of <i>PRJ_START_DIRECTORY_ENUMERATION_CB</i> for more information.
 
 
 

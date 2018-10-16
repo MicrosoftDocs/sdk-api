@@ -7,7 +7,7 @@ old-location: security\icertencodecrldistinfo_decode.htm
 tech.root: seccrypto
 ms.assetid: 3df104a5-fbd7-4eb1-a6b2-b3e51afa15bf
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeCRLDistInfo object, Decode method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],Decode method, ICertEncodeCRLDistInfo.Decode, ICertEncodeCRLDistInfo::Decode, _certsrv_icertencodecrldistinfo_decode, certenc/ICertEncodeCRLDistInfo::Decode, security.icertencodecrldistinfo_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Decode</b> method decodes an <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1)-encoded <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) distribution information extension and stores the resulting array in the COM object.
+The <b>Decode</b> method decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution information extension and stores the resulting array in the COM object.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ An ASN.1-encoded CRL distribution information extension.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -85,7 +85,7 @@ This method places the decoded contents of <i>strBinary</i> into the object's ar
 
 #### Examples
 
-For an example that uses the <b>Decode</b> method, see the <a href="https://msdn.microsoft.com/en-us/library/Aa383932(v=VS.85).aspx">ICertEncodeCRLDistInfo::Encode</a> method.
+For an example that uses the <b>Decode</b> method, see the <a href="https://msdn.microsoft.com/46520e3a-1f15-4d1c-9f44-b9b420fb4f25">ICertEncodeCRLDistInfo::Encode</a> method.
 
 <div class="code"></div>
 
@@ -96,11 +96,11 @@ For an example that uses the <b>Decode</b> method, see the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383911(v=VS.85).aspx">ICertEncodeCRLDistInfo</a>
+<a href="https://msdn.microsoft.com/e9c0053f-263f-4d7b-9356-bc33af989dbe">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383932(v=VS.85).aspx">ICertEncodeCRLDistInfo::Encode</a>
+<a href="https://msdn.microsoft.com/46520e3a-1f15-4d1c-9f44-b9b420fb4f25">ICertEncodeCRLDistInfo::Encode</a>
  
 
  

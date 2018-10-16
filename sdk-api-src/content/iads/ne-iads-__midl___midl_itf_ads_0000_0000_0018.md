@@ -209,40 +209,48 @@ The following code example shows how to use
      <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> to open an object on fabrikam with 
      secure authentication for the WinNT provider.
 
-
-```vb
-Const ADS_SECURE_AUTHENTICATION = 1
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Const ADS_SECURE_AUTHENTICATION = 1
 
 Dim dso As IADsOpenDSObject
 Dim domain As IADsDomain
  
 Set dso = GetObject("WinNT:")
-Set domain = dso.OpenDSObject("WinNT://Fabrikam", vbNullString, vbNullString, ADS_SECURE_AUTHENTICATION)
-```
-
-
+Set domain = dso.OpenDSObject("WinNT://Fabrikam", vbNullString, vbNullString, ADS_SECURE_AUTHENTICATION)</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how the <b>ADS_SECURE_AUTHENTICATION</b> flag is used 
      with <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> for validating the user bound as 
      "JeffSmith". The user name can be of the UPN format: "JeffSmith@Fabrikam.com", as well as the distinguished name 
      format: "CN=JeffSmith,DC=Fabrikam,DC=COM".
 
-
-```cpp
-IADs *pObject = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADs *pObject = NULL;
 HRESULT hr;
 hr = ADsOpenObject(_bstr_t("LDAP://CN=JeffSmith, DC=fabrikam, DC=com"),
                    NULL,
                    NULL,
                    ADS_SECURE_AUTHENTICATION, 
                    IID_IADs,
-                   (void**) &pObject);
+                   (void**) &amp;pObject);
 if (hr != S_OK)
     {} // Handle open object errors here.
 else
-    {} // Object was retrieved, continue processing here.
-```
-
-
+    {} // Object was retrieved, continue processing here.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

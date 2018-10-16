@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_pushlayer.htm
 tech.root: direct2d
 ms.assetid: 071d7d7a-12d7-4611-812c-103e2b9a5e56
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PushLayer method, ID2D1CommandSink.PushLayer, ID2D1CommandSink::PushLayer, PushLayer, PushLayer method [Direct2D], PushLayer method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PushLayer, direct2d.id2d1commandsink_pushlayer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cryptxmldllverifysignature.htm
 tech.root: seccrypto
 ms.assetid: 6e864156-37bd-4f2a-b2e9-f7269aa70241
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CryptXmlDllVerifySignature, CryptXmlDllVerifySignature callback, CryptXmlDllVerifySignature callback function [Security], cryptxml/CryptXmlDllVerifySignature, security.cryptxmldllverifysignature
 ms.prod: windows
 ms.technology: windows-sdk

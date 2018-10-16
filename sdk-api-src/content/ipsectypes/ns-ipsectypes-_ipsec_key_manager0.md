@@ -7,7 +7,7 @@ old-location: fwp\ipsec_key_manager0.htm
 tech.root: fwp
 ms.assetid: 942F38AF-13F4-4A2E-A504-5085EC90E74C
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPSEC_KEY_MANAGER0, IPSEC_KEY_MANAGER0 structure [Filtering], IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY, _IPSEC_KEY_MANAGER0, fwp.ipsec_key_manager0, ipsectypes/IPSEC_KEY_MANAGER0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\__d2d1_threading_mode.htm
 tech.root: direct2d
 ms.assetid: 21fba5ee-3d31-4142-b66a-94b343e1c6eb
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: D2D1_THREADING_MODE, D2D1_THREADING_MODE enumeration [Direct2D], D2D1_THREADING_MODE_MULTI_THREADED, D2D1_THREADING_MODE_SINGLE_THREADED, d2d1_1/D2D1_THREADING_MODE, d2d1_1/D2D1_THREADING_MODE_MULTI_THREADED, d2d1_1/D2D1_THREADING_MODE_SINGLE_THREADED, direct2d.__d2d1_threading_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,11 +80,11 @@ Resources may be invoked from multiple threads. Resources use interlocked refere
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404298(v=VS.85).aspx">D2D1_CREATION_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/657439fe-dc17-42af-9e2c-2f3cb769a5a3">D2D1_CREATION_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ569217(v=VS.85).aspx">Multithreaded Direct2D Apps</a>
+<a href="https://msdn.microsoft.com/FDD770D4-817F-44D9-86C4-15DD04D214AE">Multithreaded Direct2D Apps</a>
  
 
  

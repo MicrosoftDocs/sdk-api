@@ -7,7 +7,7 @@ old-location: shell\FreeKnownFolderDefinitionFields.htm
 tech.root: shell
 ms.assetid: 0ad17dd3-e612-403a-b8c3-e93d5f259c1f
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: FreeKnownFolderDefinitionFields, FreeKnownFolderDefinitionFields function [Windows Shell], _shell_FreeKnownFolderDefinitionFields, shell.FreeKnownFolderDefinitionFields, shobjidl_core/FreeKnownFolderDefinitionFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

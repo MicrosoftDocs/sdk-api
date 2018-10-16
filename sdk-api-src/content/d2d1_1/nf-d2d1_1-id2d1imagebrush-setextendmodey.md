@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagebrush_setextendmodey.htm
 tech.root: direct2d
 ms.assetid: 8c71dff4-f682-4649-8e29-41bcd4b911a6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetExtendModeY method, ID2D1ImageBrush.SetExtendModeY, ID2D1ImageBrush::SetExtendModeY, SetExtendModeY, SetExtendModeY method [Direct2D], SetExtendModeY method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetExtendModeY, direct2d.id2d1imagebrush_setextendmodey
 ms.prod: windows-hardware
 ms.technology: windows-devices

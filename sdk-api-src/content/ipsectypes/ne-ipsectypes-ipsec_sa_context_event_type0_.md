@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_context_event_type0.htm
 tech.root: fwp
 ms.assetid: 3e179d08-2962-4196-9c7e-c16c9cddf489
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IPSEC_SA_CONTEXT_EVENT_ADD, IPSEC_SA_CONTEXT_EVENT_DELETE, IPSEC_SA_CONTEXT_EVENT_MAX, IPSEC_SA_CONTEXT_EVENT_TYPE0, IPSEC_SA_CONTEXT_EVENT_TYPE0 enumeration [Filtering], IPSEC_SA_CONTEXT_EVENT_TYPE0_, fwp.ipsec_sa_context_event_type0, ipsectypes/IPSEC_SA_CONTEXT_EVENT_ADD, ipsectypes/IPSEC_SA_CONTEXT_EVENT_DELETE, ipsectypes/IPSEC_SA_CONTEXT_EVENT_MAX, ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0
 ms.prod: windows
 ms.technology: windows-sdk

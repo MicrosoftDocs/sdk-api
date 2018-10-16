@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentHasKeyboardFocus.htm
 tech.root: WinAuto
 ms.assetid: 90ef17df-1658-4199-8e8c-0cd21724dcf6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: CurrentHasKeyboardFocus property [Windows Accessibility], CurrentHasKeyboardFocus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentHasKeyboardFocus property, IUIAutomationElement.CurrentHasKeyboardFocus, IUIAutomationElement.get_CurrentHasKeyboardFocus, IUIAutomationElement::CurrentHasKeyboardFocus, IUIAutomationElement::get_CurrentHasKeyboardFocus, get_CurrentHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CurrentHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

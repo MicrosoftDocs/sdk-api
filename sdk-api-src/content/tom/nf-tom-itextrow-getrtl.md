@@ -7,7 +7,7 @@ old-location: controls\itextrow_getrtl.htm
 tech.root: controls
 ms.assetid: 60261327-71f1-4bc3-97ac-b9c5ee3d44c0
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetRTL, GetRTL method [Windows Controls], GetRTL method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetRTL method, ITextRow.GetRTL, ITextRow::GetRTL, controls.itextrow_getrtl, tom/ITextRow::GetRTL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Gets whether this row has right-to-left orientation.
 
 Type: <b>long*</b>
 
- A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates whether this row has right-to-left orientation.
+ A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates whether this row has right-to-left orientation.
 
 
 ## -returns

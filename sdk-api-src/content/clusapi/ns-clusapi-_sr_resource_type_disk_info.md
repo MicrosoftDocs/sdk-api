@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_disk_info.htm
 tech.root: mscs
 ms.assetid: 8A53714D-D125-4B83-B51D-DF0EADE4C4E0
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_DISK_INFO, SR_RESOURCE_TYPE_DISK_INFO structure [Failover Cluster], _SR_RESOURCE_TYPE_DISK_INFO, clusapi/PSR_RESOURCE_TYPE_DISK_INFO, clusapi/SR_RESOURCE_TYPE_DISK_INFO, msclus/PSR_RESOURCE_TYPE_DISK_INFO, msclus/SR_RESOURCE_TYPE_DISK_INFO, mscs.sr_resource_type_disk_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,11 +81,11 @@ The cluster resource identifier of the disk.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt164371(v=VS.85).aspx">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
+<a href="https://msdn.microsoft.com/EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
  
 
  

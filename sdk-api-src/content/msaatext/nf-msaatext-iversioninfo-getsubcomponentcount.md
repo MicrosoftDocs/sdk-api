@@ -7,7 +7,7 @@ old-location: winauto\iversioninfo_iversioninfo__getsubcomponentcount.htm
 tech.root: WinAuto
 ms.assetid: d1a169f1-db47-4c5b-9515-1f2660cfae17
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: GetSubcomponentCount, GetSubcomponentCount method [Windows Accessibility], GetSubcomponentCount method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetSubcomponentCount method, IVersionInfo.GetSubcomponentCount, IVersionInfo::GetSubcomponentCount, _msaa_IVersionInfo_GetSubcomponentCount, msaa.iversioninfo_iversioninfo__getsubcomponentcount, msaatext/IVersionInfo::GetSubcomponentCount, winauto.iversioninfo_iversioninfo__getsubcomponentcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

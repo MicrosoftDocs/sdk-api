@@ -7,7 +7,7 @@ old-location: security\ncryptbufferdesc_struct.htm
 tech.root: seccng
 ms.assetid: ae4673ab-81cd-4604-bafa-8d8c66003aba
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PBCryptBufferDesc, BCryptBufferDesc, NCRYPTBUFFER_VERSION, NCryptBufferDesc, NCryptBufferDesc structure [Security], PNCryptBufferDesc, PNCryptBufferDesc structure pointer [Security], _BCryptBufferDesc, bcrypt/NCryptBufferDesc, bcrypt/PNCryptBufferDesc, security.ncryptbufferdesc_struct"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>NCryptBufferDesc</b> structure is used to receieve a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa376245(v=VS.85).aspx">NCryptBuffer</a> structures.
+The <b>NCryptBufferDesc</b> structure is used to receieve a collection of <a href="https://msdn.microsoft.com/474d3c0d-ae14-448a-a56d-25abc7e5de88">NCryptBuffer</a> structures.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The number of elements in the <b>pBuffers</b> array. You can test the value rece
 
 ### -field pBuffers
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Aa376245(v=VS.85).aspx">NCryptBuffer</a> structures that contain the buffer information. The <b>cBuffers</b> member contains the number of elements in this array.
+An array of <a href="https://msdn.microsoft.com/474d3c0d-ae14-448a-a56d-25abc7e5de88">NCryptBuffer</a> structures that contain the buffer information. The <b>cBuffers</b> member contains the number of elements in this array.
 
 
 ## -remarks

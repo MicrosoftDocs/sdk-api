@@ -7,7 +7,7 @@ old-location: projfs\prjdeletefile.htm
 tech.root: ProjFS
 ms.assetid: 4F3529FC-5658-4768-AC72-29178C9595F0
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PrjDeleteFile, PrjDeleteFile function, ProjFS.prjdeletefile, projectedfslib/PrjDeleteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

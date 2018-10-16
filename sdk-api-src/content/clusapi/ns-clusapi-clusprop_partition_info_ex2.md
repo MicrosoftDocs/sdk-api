@@ -7,7 +7,7 @@ old-location: mscs\clusprop_partition_info_ex2.htm
 tech.root: mscs
 ms.assetid: D6D26335-80D0-4949-99B4-FE18DD2FFF3C
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: "*PCLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2 structure [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX2, mscs.clusprop_partition_info_ex2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the <a href="https://msdn.microsoft.com/en-us/library/Mt446028(v=VS.85).aspx">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2</a> control code.
+A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the <a href="https://msdn.microsoft.com/FA742D78-D89D-472D-B5C9-6C8D95883CD1">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2</a> control code.
 
 
 ## -struct-fields
@@ -60,13 +60,13 @@ A value list entry that contains partition information for a storage class resou
 
 ### -field CLUSPROP_PARTITION_INFO_EX
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb309113(v=VS.85).aspx">CLUSPROP_PARTITION_INFO_EX</a> structure that describes the format, 
+A <a href="https://msdn.microsoft.com/b1343a04-b8bd-469a-a620-985eeb89401c">CLUSPROP_PARTITION_INFO_EX</a> structure that describes the format, 
      type, and length of the partition information.
 
 
 ### -field CLUS_PARTITION_INFO_EX2
 
-A <a href="https://msdn.microsoft.com/en-us/library/Mt432354(v=VS.85).aspx">CLUS_PARTITION_INFO_EX2</a> structure that contains the values of the partition information.
+A <a href="https://msdn.microsoft.com/1B6690DB-9D23-4D0C-98B7-3066C5452CD1">CLUS_PARTITION_INFO_EX2</a> structure that contains the values of the partition information.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Mt432354(v=VS.85).aspx">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

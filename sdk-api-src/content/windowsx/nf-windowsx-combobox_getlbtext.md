@@ -7,7 +7,7 @@ old-location: controls\ComboBox_GetLBText.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getlbtext.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ComboBox_GetLBText, ComboBox_GetLBText macro [Windows Controls], _win32_ComboBox_GetLBText, _win32_ComboBox_GetLBText_cpp, controls.ComboBox_GetLBText, controls._win32_ComboBox_GetLBText, windowsx/ComboBox_GetLBText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets a string from a list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a> message explicitly.
+Gets a string from a list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/f84e302a-65bb-45c8-958b-1cb438fb5a7a">CB_GETLBTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The zero-based index of the item.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 
-A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://msdn.microsoft.com/en-us/library/Bb856478(v=VS.85).aspx">ComboBox_GetLBTextLen</a> to retrieve the length of the string. 
+A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://msdn.microsoft.com/09e65c79-c154-4c1e-b143-07d6c0f6b661">ComboBox_GetLBTextLen</a> to retrieve the length of the string. 
 
 
 
@@ -84,7 +84,7 @@ A pointer to the buffer that will receive the string. The buffer must have suffi
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a>.
+For more information, see <a href="https://msdn.microsoft.com/f84e302a-65bb-45c8-958b-1cb438fb5a7a">CB_GETLBTEXT</a>.
 	
 
 

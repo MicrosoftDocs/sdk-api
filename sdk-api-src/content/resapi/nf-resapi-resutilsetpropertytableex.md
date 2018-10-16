@@ -7,7 +7,7 @@ old-location: mscs\resutilsetpropertytableex.htm
 tech.root: mscs
 ms.assetid: 82f5f5d5-8ec1-4693-b66c-f141a8999803
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX function [Failover Cluster], ResUtilSetPropertyTableEx, ResUtilSetPropertyTableEx function [Failover Cluster], _wolf_resutilsetpropertytableex, mscs.resutilsetpropertytableex, resapi/PRESUTIL_SET_PROPERTY_TABLE_EX, resapi/ResUtilSetPropertyTableEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

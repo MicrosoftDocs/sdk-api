@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_CanNavigateNow.htm
 tech.root: shell
 ms.assetid: 7ff5260f-767b-49b3-bcfd-5d1ff4b3f9f9
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CanNavigateNow, CanNavigateNow method [Windows Shell], CanNavigateNow method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],CanNavigateNow method, IBrowserService.CanNavigateNow, IBrowserService::CanNavigateNow, shdeprecated/IBrowserService::CanNavigateNow, shell.IBrowserService_CanNavigateNow, zone_IBrowserService_CanNavigateNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

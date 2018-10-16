@@ -7,7 +7,7 @@ old-location: gdi\patblt.htm
 tech.root: gdi
 ms.assetid: 6deea8ef-b55d-4086-a54e-3f89bb17c6cd
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: BLACKNESS, DSTINVERT, PATCOPY, PATINVERT, PatBlt, PatBlt function [Windows GDI], WHITENESS, _win32_PatBlt, gdi.patblt, wingdi/PatBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,7 +172,7 @@ Not all devices support the <b>PatBlt</b> function. For more information, see th
 
 #### Examples
 
-For an example, see "Example of Menu-Item Bitmaps" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Example of Menu-Item Bitmaps" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

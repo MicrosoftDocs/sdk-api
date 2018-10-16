@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_FIRMWARE_GET_INFO
 author: windows-sdk-content
 description: Windows applications can use this control code to query the storage device for detailed firmware information.
 old-location: fs\ioctl_storage_firmware_get_info.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: DBF40C42-2282-4F0E-B83A-D3154D7EF332
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_GET_INFO, IOCTL_STORAGE_FIRMWARE_GET_INFO control, IOCTL_STORAGE_FIRMWARE_GET_INFO control code [Files], fs.ioctl_storage_firmware_get_info, winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,9 +54,13 @@ Windows applications can use this control code to query the storage device for d
 
 To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-
-```cpp
-BOOL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
                     (DWORD)        IOCTL_STORAGE_FIRMWARE_GET_INFO, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
@@ -64,10 +68,10 @@ BOOL
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer
                     (LPDWORD)      lpBytesReturned, // number of bytes returned
-                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure
-```
-
-
+                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

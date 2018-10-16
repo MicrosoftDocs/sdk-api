@@ -7,7 +7,7 @@ old-location: mf\imfshutdown.htm
 tech.root: medfound
 ms.assetid: c3052658-51bb-401b-8db9-3428868899d6
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: IMFShutdown, IMFShutdown interface [Media Foundation], IMFShutdown interface [Media Foundation],described, c3052658-51bb-401b-8db9-3428868899d6, mf.imfshutdown, mfidl/IMFShutdown
 ms.prod: windows
 ms.technology: windows-sdk

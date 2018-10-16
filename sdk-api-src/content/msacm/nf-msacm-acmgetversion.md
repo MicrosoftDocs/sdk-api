@@ -7,7 +7,7 @@ old-location: multimedia\acmgetversion.htm
 tech.root: Multimedia
 ms.assetid: 5a710149-0c3a-4dde-8069-db2e42826080
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "_win32_acmGetVersion, acmGetVersion, acmGetVersion function [Windows Multimedia], msacm/acmGetVersion, multimedia.acmgetversion"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,21 +81,25 @@ Win32 applications must verify that the ACM version is at least 0x03320000 (vers
 
 To display the ACM version for a user, an application should use the following format (note that the values should be printed as unsigned decimals):
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 { 
     DWORD   dw; 
     TCHAR   ach[10]; 
  
     dw = acmGetVersion(); 
     _stprintf_s(ach, TEXT("%u.%.02u"), 
-        HIWORD(dw) >> 8, HIWORD(dw) & 0x00FF); 
+        HIWORD(dw) &gt;&gt; 8, HIWORD(dw) &amp; 0x00FF); 
 } 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

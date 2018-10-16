@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_IsEnabled.htm
 tech.root: shell
 ms.assetid: 1485ae25-20b8-4ee9-a30d-247f719047cd
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsEnabled method, ISyncMgrHandlerInfo.IsEnabled, ISyncMgrHandlerInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsEnabled, shell.ISyncMgrHandlerInfo_IsEnabled, syncmgr/ISyncMgrHandlerInfo::IsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,17 +94,21 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 The following example shows an implementation of this method that calls a private class function to retrieve the enabled state.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::IsEnabled()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::IsEnabled()
 {
     // Return a previously-calculated value.
     return (_fIsEnabled ? S_OK : S_FALSE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

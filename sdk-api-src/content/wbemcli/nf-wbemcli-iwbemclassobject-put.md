@@ -108,7 +108,7 @@ If <i>pVal</i> is to contain an embedded
 <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>, the caller must call <b>IWbemClassObject::QueryInterface</b> for <b>IID_IUnknown</b> and place the resulting pointer in the <b>VARIANT</b> using a type of <b>VT_UNKNOWN</b>. The original embedded object is copied during the 
 <b>Put</b> operation, and so cannot be modified by the operation.
 
-The pointer is treated as read-only. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> after this call is complete.
+The pointer is treated as read-only. The caller must call <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> after this call is complete.
 
 Use this parameter only when creating new properties in a CIM class definition and <i>pVal</i> is <b>NULL</b> or points to a <b>VARIANT</b> of type <b>VT_NULL</b>. In such a case, the <i>vtType</i> parameter specifies the CIM type of the property. In every other case, <i>vtType</i> must be 0 (zero). Also, <i>vtType</i> must be 0 (zero) when the underlying object is an instance (even if <i>pVal</i> is <b>NULL</b>), because the type of the property is fixed and cannot be changed. In other words, use <i>vtType</i> if, and only if, <i>pVal</i> is <b>NULL</b> or points to a <b>VT_NULL</b><b>VARIANT</b>, and the underlying object is a CIM class.
 
@@ -172,44 +172,52 @@ The
 
 The following code example shows how to set the class name for a new CIM class.
 
-
-```cpp
-// pObj is an empty object from IWbemServices::GetObject
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pObj is an empty object from IWbemServices::GetObject
 // Set up the property value.
 VARIANT v; 
-VariantInit(&v);
-V_VT(&v) = VT_BSTR;
-V_BSTR(&v) = SysAllocString(L"MyClass");
+VariantInit(&amp;v);
+V_VT(&amp;v) = VT_BSTR;
+V_BSTR(&amp;v) = SysAllocString(L"MyClass");
 
 // Write it.
 LPCWSTR strClassProp = L"__CLASS";
-pObj->Put(strClassProp, 0, &v, 0);
+pObj-&gt;Put(strClassProp, 0, &amp;v, 0);
 
 // Clean up.
-VariantClear(&v);
-```
-
-
+VariantClear(&amp;v);</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows  how to set the value of the  SomeUint64 property.  Be aware that the <b>BSTR</b> value must be in decimal format and not hexadecimal.
 
-
-```cpp
-// pObj is an instance containing a uint64 property
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pObj is an instance containing a uint64 property
 // Set up the property value.
 VARIANT v; 
-VariantInit(&v);
-V_VT(&v) = VT_BSTR;
-V_BSTR(&v) = SysAllocString(L"1033"); // - decimal format, not hex
+VariantInit(&amp;v);
+V_VT(&amp;v) = VT_BSTR;
+V_BSTR(&amp;v) = SysAllocString(L"1033"); // - decimal format, not hex
 
 // Write it.
 LPCWSTR strClassProp = L"SomeUint64";
-pObj->Put(strClassProp, 0, &v, CIM_UINT64);
+pObj-&gt;Put(strClassProp, 0, &amp;v, CIM_UINT64);
 
 // Clean up.
-VariantClear(&v);
-```
-
-
+VariantClear(&amp;v);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -218,7 +226,7 @@ VariantClear(&v);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>
+<a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>
 
 
 

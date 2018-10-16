@@ -7,7 +7,7 @@ old-location: projfs\prj_query_file_name_cb.htm
 tech.root: ProjFS
 ms.assetid: 1B218D41-AF24-48C2-9E11-7E0455CE15AC
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: PRJ_QUERY_FILE_NAME_CB, PRJ_QUERY_FILE_NAME_CB callback, PRJ_QUERY_FILE_NAME_CB callback function, ProjFS.prj_query_file_name_cb, projectedfslib/PRJ_QUERY_FILE_NAME_CB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -67,17 +67,60 @@ Information about the operation.
 
 
 
-S_OK: The queried file path exists in the provider's store. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The queried file path exists in the provider's store.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The queried file path does not exist in the provider's store.
 
-HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND): The queried file path does not exist in the provider's store. 
-
-
-HRESULT_FROM_WIN32(ERROR_IO_PENDING): 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_IO_PENDING)</b></dt>
+</dl>
+</td>
+<td width="60%">
 The provider wishes to complete the operation at a later time. 
 
 
+</td>
+</tr>
+</table>
+ 
+
 An appropriate HRESULT error code if the provider fails the operation.
+
+
+
+
+## -remarks
+
+
+
+This callback is optional.  If the provider does not supply an implementation of this callback, ProjFS will invoke the provider’s directory enumeration callbacks to determine the existence of a file path in the provider's store.
+
+The provider should use <a href="projfs.prjfilenamecompare">PrjFileNameCompare</a> as the comparison routine when searching its backing store for the specified file.
 
 
 

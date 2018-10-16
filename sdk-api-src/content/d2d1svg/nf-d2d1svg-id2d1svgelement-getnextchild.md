@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_getnextchild.htm
 tech.root: direct2d
 ms.assetid: 41D48F64-3C90-4CB1-91F5-32FC04042471
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetNextChild, GetNextChild method [Direct2D], GetNextChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetNextChild method, ID2D1SvgElement.GetNextChild, ID2D1SvgElement::GetNextChild, d2d1svg/ID2D1SvgElement::GetNextChild, direct2d.id2d1svgelement_getnextchild
 ms.prod: windows-hardware
 ms.technology: windows-devices

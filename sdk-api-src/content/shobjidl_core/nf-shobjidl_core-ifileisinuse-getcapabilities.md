@@ -7,7 +7,7 @@ old-location: shell\IFileIsInUse_GetCapabilities.htm
 tech.root: shell
 ms.assetid: d2ce674a-4c06-401d-bfb0-bc2a086ef89c
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetCapabilities method, IFileIsInUse.GetCapabilities, IFileIsInUse::GetCapabilities, OF_CAP_CANCLOSE, OF_CAP_CANSWITCHTO, _shell_IFileIsInUse_GetCapabilities, shell.IFileIsInUse_GetCapabilities, shobjidl_core/IFileIsInUse::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

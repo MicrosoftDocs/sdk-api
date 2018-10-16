@@ -7,7 +7,7 @@ old-location: wes\evtrender.htm
 tech.root: wes
 ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
 ms.prod: windows-hardware
 ms.technology: windows-devices

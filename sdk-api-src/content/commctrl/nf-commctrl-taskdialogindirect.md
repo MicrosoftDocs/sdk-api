@@ -7,7 +7,7 @@ old-location: controls\TaskDialogIndirect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialogindirect.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: TaskDialogIndirect, TaskDialogIndirect function [Windows Controls], _shell_TaskDialogIndirect, _shell_TaskDialogIndirect_cpp, commctrl/TaskDialogIndirect, controls.TaskDialogIndirect, controls._shell_TaskDialogIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ The <b>TaskDialogIndirect</b> function creates, displays, and operates a task di
 
 ### -param pTaskConfig [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb787473(v=VS.85).aspx">TASKDIALOGCONFIG</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/6ca94c55-6589-4a20-afba-49b566adeba2">TASKDIALOGCONFIG</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787473(v=VS.85).aspx">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
+Pointer to a <a href="https://msdn.microsoft.com/6ca94c55-6589-4a20-afba-49b566adeba2">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
 
 
 ### -param pnButton [out, optional]
@@ -120,7 +120,7 @@ Address of a variable that receives one of the button IDs specified in the <b>pR
 
 ### -param pfVerificationFlagChecked [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
 
 Address of a variable that receives one of the following values.
 
@@ -147,7 +147,7 @@ If this parameter is <b>NULL</b>, the verification checkbox is disabled.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 This function can return one of these values.
 
@@ -210,15 +210,19 @@ The operation failed.
 
 
 
-When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="https://msdn.microsoft.com/en-us/library/Bb787473(v=VS.85).aspx">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
+When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="https://msdn.microsoft.com/6ca94c55-6589-4a20-afba-49b566adeba2">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
 
  If you create a task dialog while a dialog box is present, use a handle to the dialog box as the <i>hWndParent</i> parameter. The <i>hWndParent</i> parameter should not identify a child window, such as a control in a dialog box. 
 
 The parent window should not be hidden or disabled when this function is called. 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 int nButtonPressed                  = 0;
 TASKDIALOGCONFIG config             = {0};
 const TASKDIALOG_BUTTON buttons[]   = { 
@@ -233,7 +237,7 @@ config.pszContent                   = L"Remember your changed password.";
 config.pButtons                     = buttons;
 config.cButtons                     = ARRAYSIZE(buttons);
 
-TaskDialogIndirect(&config, &nButtonPressed, NULL, NULL);
+TaskDialogIndirect(&amp;config, &amp;nButtonPressed, NULL, NULL);
 switch (nButtonPressed)
 {
     case IDOK:
@@ -242,10 +246,10 @@ switch (nButtonPressed)
         break; // user canceled the dialog
     default:
         break; // should never happen
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -258,7 +262,7 @@ switch (nButtonPressed)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
  
 
  

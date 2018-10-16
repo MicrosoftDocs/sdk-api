@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_ReportProgress.htm
 tech.root: shell
 ms.assetid: fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportProgress method, ISyncMgrSyncCallback.ReportProgress, ISyncMgrSyncCallback::ReportProgress, ReportProgress, ReportProgress method [Windows Shell], ReportProgress method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportProgress, shell.ISyncMgrSyncCallback_ReportProgress, syncmgr/ISyncMgrSyncCallback::ReportProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,9 +132,13 @@ The maximum length of a progress string is MAX_SYNCMGR_PROGRESSTEXT. This consta
 
 The following example shows the usage of <b>ISyncMgrSyncCallback::ReportProgress</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Synchronize(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 {
     ...
 
@@ -145,18 +149,18 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
     // Construct a string to display in the Sync Center folder.
     // Report the progress to Sync Center.
     SYNCMGR_CANCEL_REQUEST nCancelRequest;
-    hr = pCallback->ReportProgress(pszItemID,
+    hr = pCallback-&gt;ReportProgress(pszItemID,
                                    pszProgressText,
                                    SYNCMGR_PS_UPDATING,
                                    uCurrentStep,
                                    uMaxStep,
-                                   &nCancelRequest);
+                                   &amp;nCancelRequest);
     if (SUCCEEDED(hr))
     {
         if (nCancelRequest != SYNCMGR_CR_NONE)
         {
             // Synchronization was canceled.
-            hr = pCallback->ReportProgress(pszItemID,
+            hr = pCallback-&gt;ReportProgress(pszItemID,
                                            pszProgressText,
                                            SYNCMGR_PS_CANCELED,
                                            uCurrentStep,
@@ -166,9 +170,9 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
     }
     ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

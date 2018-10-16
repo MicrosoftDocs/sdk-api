@@ -7,7 +7,7 @@ old-location: gdi\createcompatibledc.htm
 tech.root: gdi
 ms.assetid: 6ddc3705-2995-41af-af94-258aed597e17
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CreateCompatibleDC, CreateCompatibleDC function [Windows GDI], _win32_CreateCompatibleDC, gdi.createcompatibledc, wingdi/CreateCompatibleDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

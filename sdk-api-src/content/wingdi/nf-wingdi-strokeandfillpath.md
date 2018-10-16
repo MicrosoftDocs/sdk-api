@@ -7,7 +7,7 @@ old-location: gdi\strokeandfillpath.htm
 tech.root: gdi
 ms.assetid: 936af9e5-707d-4d43-9035-e8239e3759a2
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: StrokeAndFillPath, StrokeAndFillPath function [Windows GDI], _win32_StrokeAndFillPath, gdi.strokeandfillpath, wingdi/StrokeAndFillPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

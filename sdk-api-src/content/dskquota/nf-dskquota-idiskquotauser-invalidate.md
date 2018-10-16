@@ -4,10 +4,10 @@ title: IDiskQuotaUser::Invalidate
 author: windows-sdk-content
 description: Invalidates the quota information stored in the quota user object.
 old-location: fs\idiskquotauser_invalidate.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 23a51df4-0578-43fe-99cd-491f709accab
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: IDiskQuotaUser interface [Files],Invalidate method, IDiskQuotaUser.Invalidate, IDiskQuotaUser::Invalidate, Invalidate, Invalidate method [Files], Invalidate method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_invalidate, base.idiskquotauser_invalidate, dskquota/IDiskQuotaUser::Invalidate, fs.idiskquotauser_invalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices

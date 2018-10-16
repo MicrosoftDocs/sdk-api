@@ -7,7 +7,7 @@ old-location: dlgbox\printdlgex_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\printdlgex.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*LPPRINTDLGEXW, LPPRINTDLGEX, LPPRINTDLGEX structure pointer [Dialog Boxes], PD_ALLPAGES, PD_COLLATE, PD_CURRENTPAGE, PD_DISABLEPRINTTOFILE, PD_ENABLEPRINTTEMPLATE, PD_ENABLEPRINTTEMPLATEHANDLE, PD_EXCLUSIONFLAGS, PD_EXCL_COPIESANDCOLLATE, PD_HIDEPRINTTOFILE, PD_NOCURRENTPAGE, PD_NOPAGENUMS, PD_NOSELECTION, PD_NOWARNING, PD_PAGENUMS, PD_PRINTTOFILE, PD_RESULT_APPLY, PD_RESULT_CANCEL, PD_RESULT_PRINT, PD_RETURNDC, PD_RETURNDEFAULT, PD_RETURNIC, PD_SELECTION, PD_USEDEVMODECOPIES, PD_USEDEVMODECOPIESANDCOLLATE, PD_USELARGETEMPLATE, PRINTDLGEX, PRINTDLGEX structure [Dialog Boxes], PRINTDLGEXA, PRINTDLGEXW, _win32_PRINTDLGEX_str, _win32_printdlgex_str_cpp, commdlg/LPPRINTDLGEX, commdlg/PRINTDLGEX, commdlg/PRINTDLGEXA, commdlg/PRINTDLGEXW, dlgbox.printdlgex_str, tagPDEXA, tagPDEXW, winui._win32_printdlgex_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Contains information that the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function uses to initialize the <a href="https://msdn.microsoft.com/en-us/library/ms646966(v=VS.85).aspx">Print property sheet</a>. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
+Contains information that the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function uses to initialize the <a href="https://msdn.microsoft.com/b52b71cc-a583-4a21-8a53-501ab442e6f8">Print property sheet</a>. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
 
 
 ## -struct-fields
@@ -78,9 +78,9 @@ A handle to the window that owns the property sheet. This member must be a valid
 
 Type: <b>HGLOBAL</b>
 
-A handle to a movable global memory object that contains a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure. If <b>hDevMode</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVMODE</b> structure and initialize its members. The <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVMODE</b> members indicate the user's input.
+A handle to a movable global memory object that contains a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure. If <b>hDevMode</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVMODE</b> structure and initialize its members. The <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVMODE</b> members indicate the user's input.
 
-If <b>hDevMode</b> is <b>NULL</b> on input, <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> allocates memory for the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
+If <b>hDevMode</b> is <b>NULL</b> on input, <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> allocates memory for the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
 
 For more information about the <b>hDevMode</b> and <b>hDevNames</b> members, see the Remarks section at the end of this topic. 
 
@@ -89,9 +89,9 @@ For more information about the <b>hDevMode</b> and <b>hDevNames</b> members, see
 
 Type: <b>HGLOBAL</b>
 
-A handle to a movable global memory object that contains a <a href="https://msdn.microsoft.com/en-us/library/ms646833(v=VS.85).aspx">DEVNAMES</a> structure. If <b>hDevNames</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVNAMES</b> structure and initialize its members. The <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVNAMES</b> members contain information for the printer chosen by the user. You can use this information to create a device context or an information context.
+A handle to a movable global memory object that contains a <a href="https://msdn.microsoft.com/b0de190f-8203-4af8-be9d-594400c7ba30">DEVNAMES</a> structure. If <b>hDevNames</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVNAMES</b> structure and initialize its members. The <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVNAMES</b> members contain information for the printer chosen by the user. You can use this information to create a device context or an information context.
 
-The <b>hDevNames</b> member can be <b>NULL</b>, in which case, <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> allocates memory for the <a href="https://msdn.microsoft.com/en-us/library/ms646833(v=VS.85).aspx">DEVNAMES</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
+The <b>hDevNames</b> member can be <b>NULL</b>, in which case, <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> allocates memory for the <a href="https://msdn.microsoft.com/b0de190f-8203-4af8-be9d-594400c7ba30">DEVNAMES</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
 
 For more information about the <b>hDevMode</b> and <b>hDevNames</b> members, see the Remarks section at the end of this topic. 
 
@@ -107,13 +107,13 @@ A handle to a device context or an information context, depending on whether the
 
 Type: <b>DWORD</b>
 
-A set of bit flags that you can use to initialize the <b>Print</b> property sheet. When the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function returns, it sets these flags to indicate the user's input. This member can be one or more of the following values. 
+A set of bit flags that you can use to initialize the <b>Print</b> property sheet. When the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function returns, it sets these flags to indicate the user's input. This member can be one or more of the following values. 
 
-To ensure that <a href="https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx">PrintDlg</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> returns the correct values in the <b>dmCopies</b> and <b>dmCollate</b> members of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure, set <b>PD_RETURNDC</b> = <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> = <b>TRUE</b>. In so doing, the <b>nCopies</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms646843(v=VS.85).aspx">PRINTDLG</a> structure   is always 1 and <b>PD_COLLATE</b> is always <b>FALSE</b>.
+To ensure that <a href="https://msdn.microsoft.com/c8dd658e-04a2-489f-99cc-50810feb3df7">PrintDlg</a> or <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> returns the correct values in the <b>dmCopies</b> and <b>dmCollate</b> members of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure, set <b>PD_RETURNDC</b> = <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> = <b>TRUE</b>. In so doing, the <b>nCopies</b> member of the <a href="https://msdn.microsoft.com/8f60de4d-39c2-40e5-bb7f-348c55019232">PRINTDLG</a> structure   is always 1 and <b>PD_COLLATE</b> is always <b>FALSE</b>.
 
-To ensure that <a href="https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx">PrintDlg</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> returns the correct values in <b>nCopies</b> and <b>PD_COLLATE</b>, set <b>PD_RETURNDC</b> = <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> = <b>FALSE</b>. In so doing, <b>dmCopies</b> is always 1 and  <b>dmCollate</b> is always <b>FALSE</b>.
+To ensure that <a href="https://msdn.microsoft.com/c8dd658e-04a2-489f-99cc-50810feb3df7">PrintDlg</a> or <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> returns the correct values in <b>nCopies</b> and <b>PD_COLLATE</b>, set <b>PD_RETURNDC</b> = <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> = <b>FALSE</b>. In so doing, <b>dmCopies</b> is always 1 and  <b>dmCollate</b> is always <b>FALSE</b>.
 
-Starting with Windows Vista, when you call <a href="https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx">PrintDlg</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> with  <b>PD_RETURNDC</b> set to <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> set to <b>FALSE</b>, the <b>PrintDlg</b> or <b>PrintDlgEx</b> function sets the number of copies in the  <b>nCopies</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms646843(v=VS.85).aspx">PRINTDLG</a> structure, and  it sets the number of copies in the structure represented by the <b>hDC</b> member of the <b>PRINTDLG</b> structure. 
+Starting with Windows Vista, when you call <a href="https://msdn.microsoft.com/c8dd658e-04a2-489f-99cc-50810feb3df7">PrintDlg</a> or <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> with  <b>PD_RETURNDC</b> set to <b>TRUE</b> and <b>PD_USEDEVMODECOPIESANDCOLLATE</b> set to <b>FALSE</b>, the <b>PrintDlg</b> or <b>PrintDlgEx</b> function sets the number of copies in the  <b>nCopies</b> member of the <a href="https://msdn.microsoft.com/8f60de4d-39c2-40e5-bb7f-348c55019232">PRINTDLG</a> structure, and  it sets the number of copies in the structure represented by the <b>hDC</b> member of the <b>PRINTDLG</b> structure. 
 
 
 When making calls to GDI, you must ignore the value of <b>nCopies</b>, consider the value as 1, and use the returned <b>hDC</b> to avoid printing duplicate copies.
@@ -143,7 +143,7 @@ The default flag that indicates that the <b>All</b> radio button is initially se
 <td width="60%">
 If this flag is set, the <b>Collate</b> check box is selected.
 
-If this flag is set when the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function returns, the application must simulate collation of multiple copies. For more information, see the description of the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag.
+If this flag is set when the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function returns, the application must simulate collation of multiple copies. For more information, see the description of the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag.
 
 See <b>PD_NOPAGENUMS</b>.
 
@@ -266,7 +266,7 @@ Prevents the warning message from being displayed when an error occurs.
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the <b>Pages</b> radio button is selected. If none of the <b>PD_PAGENUMS</b>, <b>PD_SELECTION</b>, or <b>PD_CURRENTPAGE</b> flags is set, the <b>All</b> radio button is selected. If this flag is set when the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function returns, the <b>lpPageRanges</b> member indicates the page ranges specified by the user. 
+If this flag is set, the <b>Pages</b> radio button is selected. If none of the <b>PD_PAGENUMS</b>, <b>PD_SELECTION</b>, or <b>PD_CURRENTPAGE</b> flags is set, the <b>All</b> radio button is selected. If this flag is set when the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function returns, the <b>lpPageRanges</b> member indicates the page ranges specified by the user. 
 
 </td>
 </tr>
@@ -277,7 +277,7 @@ If this flag is set, the <b>Pages</b> radio button is selected. If none of the <
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the <b>Print to File</b> check box is selected. If this flag is set when <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> returns, the offset indicated by the <b>wOutputOffset</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms646833(v=VS.85).aspx">DEVNAMES</a> structure contains the string "FILE:". When you call the <a href="https://msdn.microsoft.com/53143463-b9fc-4378-aea9-da6c73a7cd03">StartDoc</a> function to start the printing operation, specify this "FILE:" string in the <b>lpszOutput</b> member of the <a href="https://msdn.microsoft.com/329bf0d9-399b-4f64-a029-361ef7558aeb">DOCINFO</a> structure. Specifying this string causes the print subsystem to query the user for the name of the output file. 
+If this flag is set, the <b>Print to File</b> check box is selected. If this flag is set when <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> returns, the offset indicated by the <b>wOutputOffset</b> member of the <a href="https://msdn.microsoft.com/b0de190f-8203-4af8-be9d-594400c7ba30">DEVNAMES</a> structure contains the string "FILE:". When you call the <a href="https://msdn.microsoft.com/53143463-b9fc-4378-aea9-da6c73a7cd03">StartDoc</a> function to start the printing operation, specify this "FILE:" string in the <b>lpszOutput</b> member of the <a href="https://msdn.microsoft.com/329bf0d9-399b-4f64-a029-361ef7558aeb">DOCINFO</a> structure. Specifying this string causes the print subsystem to query the user for the name of the output file. 
 
 </td>
 </tr>
@@ -288,7 +288,7 @@ If this flag is set, the <b>Print to File</b> check box is selected. If this fla
 </dl>
 </td>
 <td width="60%">
-Causes <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> to return a device context matching the selections the user made in the property sheet. The device context is returned in <b>hDC</b>.
+Causes <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> to return a device context matching the selections the user made in the property sheet. The device context is returned in <b>hDC</b>.
 
 </td>
 </tr>
@@ -299,7 +299,7 @@ Causes <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx"
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function does not display the property sheet. Instead, it sets the <b>hDevNames</b> and <b>hDevMode</b> members to handles to <a href="https://msdn.microsoft.com/en-us/library/ms646833(v=VS.85).aspx">DEVNAMES</a> and <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structures that are initialized for the system default printer. Both <b>hDevNames</b> and <b>hDevMode</b> must be <b>NULL</b>, or <b>PrintDlgEx</b> returns an error. 
+If this flag is set, the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function does not display the property sheet. Instead, it sets the <b>hDevNames</b> and <b>hDevMode</b> members to handles to <a href="https://msdn.microsoft.com/b0de190f-8203-4af8-be9d-594400c7ba30">DEVNAMES</a> and <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structures that are initialized for the system default printer. Both <b>hDevNames</b> and <b>hDevMode</b> must be <b>NULL</b>, or <b>PrintDlgEx</b> returns an error. 
 
 </td>
 </tr>
@@ -395,7 +395,7 @@ Excludes the <b>Copies</b> and <b>Collate</b> controls from the printer driver p
 
 Type: <b>DWORD</b>
 
-On input, set this member to the initial number of page ranges specified in the <b>lpPageRanges</b> array. When the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function returns, <b>nPageRanges</b> indicates the number of user-specified page ranges stored in the <b>lpPageRanges</b> array. If the <b>PD_NOPAGENUMS</b> flag is specified, this value is not valid. 
+On input, set this member to the initial number of page ranges specified in the <b>lpPageRanges</b> array. When the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function returns, <b>nPageRanges</b> indicates the number of user-specified page ranges stored in the <b>lpPageRanges</b> array. If the <b>PD_NOPAGENUMS</b> flag is specified, this value is not valid. 
 
 
 ### -field nMaxPageRanges
@@ -409,7 +409,7 @@ The size, in array elements, of the <b>lpPageRanges</b> buffer. This value indic
 
 Type: <b>LPPRINTPAGERANGE</b>
 
-Pointer to a buffer containing an array of <a href="https://msdn.microsoft.com/en-us/library/ms646846(v=VS.85).aspx">PRINTPAGERANGE</a> structures. On input, the array contains the initial page ranges to display in the <b>Pages</b> edit control. When the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function returns, the array contains the page ranges specified by the user. If the <b>PD_NOPAGENUMS</b> flag is specified, this value is not valid. If the <b>PD_NOPAGENUMS</b> flag is not specified, <b>lpPageRanges</b> must be non-<b>NULL</b>. 
+Pointer to a buffer containing an array of <a href="https://msdn.microsoft.com/e751d902-1ea8-4b34-8f71-32ba12bb6def">PRINTPAGERANGE</a> structures. On input, the array contains the initial page ranges to display in the <b>Pages</b> edit control. When the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function returns, the array contains the page ranges specified by the user. If the <b>PD_NOPAGENUMS</b> flag is specified, this value is not valid. If the <b>PD_NOPAGENUMS</b> flag is not specified, <b>lpPageRanges</b> must be non-<b>NULL</b>. 
 
 
 ### -field nMinPage
@@ -430,7 +430,7 @@ The maximum value for the page ranges specified in the <b>Pages</b> edit control
 
 Type: <b>DWORD</b>
 
-Contains the initial number of copies for the <b>Copies</b> edit control if <b>hDevMode</b> is <b>NULL</b>; otherwise, the <b>dmCopies</b> member of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure contains the initial value. When <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> returns, <b>nCopies</b> contains the actual number of copies the application must print. This value depends on whether the application or the printer driver is responsible for printing multiple copies. If the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag is set in the <b>Flags</b> member, <b>nCopies</b> is always 1 on return, and the printer driver is responsible for printing multiple copies. If the flag is not set, the application is responsible for printing the number of copies specified by <b>nCopies</b>. For more information, see the description of the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag. 
+Contains the initial number of copies for the <b>Copies</b> edit control if <b>hDevMode</b> is <b>NULL</b>; otherwise, the <b>dmCopies</b> member of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure contains the initial value. When <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> returns, <b>nCopies</b> contains the actual number of copies the application must print. This value depends on whether the application or the printer driver is responsible for printing multiple copies. If the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag is set in the <b>Flags</b> member, <b>nCopies</b> is always 1 on return, and the printer driver is responsible for printing multiple copies. If the flag is not set, the application is responsible for printing the number of copies specified by <b>nCopies</b>. For more information, see the description of the <b>PD_USEDEVMODECOPIESANDCOLLATE</b> flag. 
 
 
 ### -field hInstance
@@ -453,9 +453,9 @@ Type: <b>LPUNKNOWN</b>
 
 A pointer to an application-defined  callback object. 
 
-The object should contain the <a href="https://msdn.microsoft.com/en-us/library/ms646896(v=VS.85).aspx">IPrintDialogCallback</a> class to receive messages for the child dialog box in the lower portion of the <b>General</b> page. 
+The object should contain the <a href="https://msdn.microsoft.com/51902f34-d0ab-4b49-9302-a8e6e9bd7061">IPrintDialogCallback</a> class to receive messages for the child dialog box in the lower portion of the <b>General</b> page. 
 
-The callback object should also contain the <a href="https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx">IObjectWithSite</a> class to receive a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms646897(v=VS.85).aspx">IPrintDialogServices</a> interface. The <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function calls <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> on the callback object for both <b>IID_IPrintDialogCallback</b> and <b>IID_IObjectWithSite</b> to determine which interfaces are supported. 
+The callback object should also contain the <a href="_ole_IObjectWithSite">IObjectWithSite</a> class to receive a pointer to the <a href="https://msdn.microsoft.com/f8572f39-bccd-40ed-b556-3cac19920f15">IPrintDialogServices</a> interface. The <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function calls <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> on the callback object for both <b>IID_IPrintDialogCallback</b> and <b>IID_IObjectWithSite</b> to determine which interfaces are supported. 
 
 If you do not want to retrieve any of the callback information, set <b>lpCallback</b> to <b>NULL</b>. 
 
@@ -472,7 +472,7 @@ The number of property page handles in the
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-Contains an array of property page handles to add to the <b>Print</b> property sheet. The additional property pages follow the <b>General</b> page. Use the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function to create these additional pages. When the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function returns, all the <b>HPROPSHEETPAGE</b> handles in the <b>lphPropertyPages</b> array have been destroyed. If <b>nPropertyPages</b> is zero, <b>lphPropertyPages</b> should be <b>NULL</b>. 
+Contains an array of property page handles to add to the <b>Print</b> property sheet. The additional property pages follow the <b>General</b> page. Use the <a href="_win32_CreatePropertySheetPage">CreatePropertySheetPage</a> function to create these additional pages. When the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function returns, all the <b>HPROPSHEETPAGE</b> handles in the <b>lphPropertyPages</b> array have been destroyed. If <b>nPropertyPages</b> is zero, <b>lphPropertyPages</b> should be <b>NULL</b>. 
 
 
 ### -field nStartPage
@@ -486,7 +486,7 @@ The property page that is initially displayed. To display the <b>General</b> pag
 
 Type: <b>DWORD</b>
 
-On input, set this member to zero. If the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function returns S_OK, <b>dwResultAction</b> contains the outcome of the dialog. If <b>PrintDlgEx</b> returns an error, this member should be ignored. The <b>dwResultAction</b> member can be one of the following values. 
+On input, set this member to zero. If the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function returns S_OK, <b>dwResultAction</b> contains the outcome of the dialog. If <b>PrintDlgEx</b> returns an error, this member should be ignored. The <b>dwResultAction</b> member can be one of the following values. 
 
 
 
@@ -531,13 +531,13 @@ The user clicked the <b>Print</b> button. The <b>PRINTDLGEX</b> structure contai
 
 
 
-If both <b>hDevMode</b> and <b>hDevNames</b> are <b>NULL</b>, <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> initializes the property sheet using the current default printer. To initialize the property sheet for a different printer, use the <b>wDeviceOffset</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms646833(v=VS.85).aspx">DEVNAMES</a> structure to specify the name of the printer. 
+If both <b>hDevMode</b> and <b>hDevNames</b> are <b>NULL</b>, <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> initializes the property sheet using the current default printer. To initialize the property sheet for a different printer, use the <b>wDeviceOffset</b> member of the <a href="https://msdn.microsoft.com/b0de190f-8203-4af8-be9d-594400c7ba30">DEVNAMES</a> structure to specify the name of the printer. 
 
-Note that the <b>dmDeviceName</b> member of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure also specifies a printer name. However, <b>dmDeviceName</b> is limited to 32 characters, and the <b>wDeviceOffset</b> name is not. If the <b>wDeviceOffset</b> and <b>dmDeviceName</b> names are not the same, <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> initializes the property sheet using the printer specified by <b>wDeviceOffset</b>. 
+Note that the <b>dmDeviceName</b> member of the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure also specifies a printer name. However, <b>dmDeviceName</b> is limited to 32 characters, and the <b>wDeviceOffset</b> name is not. If the <b>wDeviceOffset</b> and <b>dmDeviceName</b> names are not the same, <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> initializes the property sheet using the printer specified by <b>wDeviceOffset</b>. 
 
-If the PD_RETURNDEFAULT flag is set and both <b>hDevMode</b> and <b>hDevNames</b> are <b>NULL</b>, <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> uses the <b>hDevNames</b> and <b>hDevMode</b> members to return information about the current default printer without displaying the dialog box.
+If the PD_RETURNDEFAULT flag is set and both <b>hDevMode</b> and <b>hDevNames</b> are <b>NULL</b>, <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> uses the <b>hDevNames</b> and <b>hDevMode</b> members to return information about the current default printer without displaying the dialog box.
 
-During the execution of <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>, the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> and <b>DEVNAMES</b> structures that you specified in the <b>PRINTDLGEX</b> structure may not always contain current data. For this reason, application-specific property pages as well as <a href="https://msdn.microsoft.com/en-us/library/ms646896(v=VS.85).aspx">IPrintDialogCallback</a> routines for the initial page should use the <a href="https://msdn.microsoft.com/en-us/library/ms646897(v=VS.85).aspx">IPrintDialogServices</a> interface to retrieve information about the state of the current printer. 
+During the execution of <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a>, the <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> and <b>DEVNAMES</b> structures that you specified in the <b>PRINTDLGEX</b> structure may not always contain current data. For this reason, application-specific property pages as well as <a href="https://msdn.microsoft.com/51902f34-d0ab-4b49-9302-a8e6e9bd7061">IPrintDialogCallback</a> routines for the initial page should use the <a href="https://msdn.microsoft.com/f8572f39-bccd-40ed-b556-3cac19920f15">IPrintDialogServices</a> interface to retrieve information about the state of the current printer. 
 
 
 
@@ -547,7 +547,7 @@ During the execution of <a href="https://msdn.microsoft.com/en-us/library/ms6469
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/28573019-f0bd-4a8e-a1a1-48559f658a81">Common Dialog Box Library</a>
 
 
 
@@ -559,19 +559,19 @@ During the execution of <a href="https://msdn.microsoft.com/en-us/library/ms6469
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646833(v=VS.85).aspx">DEVNAMES</a>
+<a href="https://msdn.microsoft.com/b0de190f-8203-4af8-be9d-594400c7ba30">DEVNAMES</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646896(v=VS.85).aspx">IPrintDialogCallback</a>
+<a href="https://msdn.microsoft.com/51902f34-d0ab-4b49-9302-a8e6e9bd7061">IPrintDialogCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646897(v=VS.85).aspx">IPrintDialogServices</a>
+<a href="https://msdn.microsoft.com/f8572f39-bccd-40ed-b556-3cac19920f15">IPrintDialogServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>
+<a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a>
 
 
 

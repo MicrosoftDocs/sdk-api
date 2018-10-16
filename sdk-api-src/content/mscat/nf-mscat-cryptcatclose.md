@@ -7,7 +7,7 @@ old-location: security\cryptcatclose.htm
 tech.root: seccrypto
 ms.assetid: f6fa2d10-0049-4d5e-9688-566e5c11d64e
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CryptCATClose, CryptCATClose function [Security], mscat/CryptCATClose, security.cryptcatclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

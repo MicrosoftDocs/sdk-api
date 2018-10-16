@@ -7,7 +7,7 @@ old-location: base\queryservicedynamicinformation.htm
 tech.root: services
 ms.assetid: 499b63fd-e77b-4b90-9ee7-ff4b7b12c431
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: QueryServiceDynamicInformation, QueryServiceDynamicInformation function, SERVICE_DYNAMIC_INFORMATION_LEVEL_START_REASON, base.queryservicedynamicinformation, winsvc/QueryServiceDynamicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -126,16 +126,20 @@ To find the buffer size for the name, call the method once with <b>NULL</b> for 
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // pKsTopo is an IKsTopologyInfo pointer.
 // iNode is the index of a node.
 DWORD cbName = 0;
-hr = pKsTopo->get_NodeName(iNode, NULL, 0, &cbName);
+hr = pKsTopo-&gt;get_NodeName(iNode, NULL, 0, &amp;cbName);
 if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
 {
-    if (cbName > sizeof(WCHAR))
+    if (cbName &gt; sizeof(WCHAR))
     {
         WCHAR *nodeName = new WCHAR[cbName / sizeof(WCHAR)];
         if (nodeName == NULL)
@@ -144,16 +148,16 @@ if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
         }
         else
         {
-            hr = pKsTopo->get_NodeName(iNode, nodeName, cbName, &cbName);
+            hr = pKsTopo-&gt;get_NodeName(iNode, nodeName, cbName, &amp;cbName);
             /* ... */
             delete [] nodeName;
         }
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

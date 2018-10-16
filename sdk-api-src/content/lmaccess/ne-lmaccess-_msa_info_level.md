@@ -7,7 +7,7 @@ old-location: security\msa_info_level.htm
 tech.root: secmgmt
 ms.assetid: 06BD0881-30B3-4966-9F6E-29601D86B30F
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PMSA_INFO_LEVEL, MSA_INFO_LEVEL, MSA_INFO_LEVEL enumeration [Security], MsaInfoLevel0, MsaInfoLevelMax, _MSA_INFO_LEVEL, lmaccess/MSA_INFO_LEVEL, lmaccess/MsaInfoLevel0, lmaccess/MsaInfoLevelMax, security.msa_info_level"
 ms.prod: windows
 ms.technology: windows-sdk

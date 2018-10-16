@@ -7,7 +7,7 @@ old-location: mscs\resutilgetenvironmentwithnetname.htm
 tech.root: mscs
 ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/12/2018
 ms.keywords: PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME function [Failover Cluster], ResUtilGetEnvironmentWithNetName, ResUtilGetEnvironmentWithNetName function [Failover Cluster], _wolf_resutilgetenvironmentwithnetname, mscs.resutilgetenvironmentwithnetname, resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, resapi/ResUtilGetEnvironmentWithNetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ the function returns <b>NULL</b>. For more information, call <a href="https://ms
 The  <b>ResUtilGetEnvironmentWithNetName</b> function appends environment variables to the current environment block. Pass the returned environment block to  <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> when starting the resource to achieve the following effects:
 
 <ul>
-<li>Clients and the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> can locate the resource by using the name of the Network Name resource.</li>
+<li>Clients and the <a href="c_gly.htm">cluster</a> can locate the resource by using the name of the Network Name resource.</li>
 <li>If the resource calls <a href="https://msdn.microsoft.com/8ca3e611-e5fb-4909-adf6-98eb8552c9e1">GetComputerName</a>, <a href="https://msdn.microsoft.com/eae3f75d-7ec7-42ae-b207-e3ebaa33346e">GetComputerNameEx</a>, or <a href="https://msdn.microsoft.com/2526ecb5-927b-40c8-8d8f-919e7986ff05">gethostbyname</a>, the network name will be returned regardless of which node is currently hosting the resource.</li>
 </ul>
 If the resource identified by <i>hResource</i> is not dependent on a Network Name resource,  <b>ResUtilGetEnvironmentWithNetName</b> returns <b>NULL</b>.

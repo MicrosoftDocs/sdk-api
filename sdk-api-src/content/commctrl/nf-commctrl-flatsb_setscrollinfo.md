@@ -7,7 +7,7 @@ old-location: controls\FlatSB_SetScrollInfo.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: FlatSB_SetScrollInfo, FlatSB_SetScrollInfo function [Windows Controls], SB_HORZ, SB_VERT, SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, _win32_FlatSB_SetScrollInfo, _win32_FlatSB_SetScrollInfo_cpp, commctrl/FlatSB_SetScrollInfo, controls.FlatSB_SetScrollInfo, controls._win32_FlatSB_SetScrollInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/en-us/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function. 
+Sets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function. 
 
 
 ## -parameters
@@ -102,7 +102,7 @@ Sets the information for the vertical scroll bar.
 
 Type: <b>LPSCROLLINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure that contains the new information for the specified scroll bar. The <b>cbSize</b> and 
+A pointer to a <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure that contains the new information for the specified scroll bar. The <b>cbSize</b> and 
 					<b>fMask</b> members of the structure must be filled in prior to calling <b>FlatSB_SetScrollInfo</b>. The <b>fMask</b> member specifies which members of the structure contain valid information and can be any combination of the following values: 
 
 <table>
@@ -127,7 +127,7 @@ Disables the scroll bar if the new information would cause the scroll bar to be 
 </td>
 <td width="60%">
 Sets the page information for the flat scroll bar. The 
-						<b>nPage</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure must contain the new page value. 
+						<b>nPage</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure must contain the new page value. 
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Sets the page information for the flat scroll bar. The
 </td>
 <td width="60%">
 Sets the position information for the flat scroll bar. The 
-						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure must contain the new position value. 
+						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure must contain the new position value. 
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Sets the position information for the flat scroll bar. The
 <td width="60%">
 Sets the range information for the flat scroll bar. The 
 						<b>nMin</b> and 
-						<b>nMax</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure must contain the new range values.
+						<b>nMax</b> members of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure must contain the new range values.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ Specifies whether the scroll bar should be redrawn immediately to reflect the ch
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
 
 
 ## -returns

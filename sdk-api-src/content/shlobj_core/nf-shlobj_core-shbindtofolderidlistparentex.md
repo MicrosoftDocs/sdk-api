@@ -7,7 +7,7 @@ old-location: shell\SHBindToFolderIDListParentEx.htm
 tech.root: shell
 ms.assetid: 4f9b68cb-d0ae-45f7-90f5-2db1da3ab599
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: SHBindToFolderIDListParentEx, SHBindToFolderIDListParentEx function [Windows Shell], _shell_SHBindToFolderIDListParentEx, shell.SHBindToFolderIDListParentEx, shlobj_core/SHBindToFolderIDListParentEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

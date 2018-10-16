@@ -7,7 +7,7 @@ old-location: security\certaddcrllinktostore.htm
 tech.root: seccrypto
 ms.assetid: 2fde63ed-7522-4400-a16b-059a001e7c26
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_USE_EXISTING, CertAddCRLLinkToStore, CertAddCRLLinkToStore function [Security], _crypto2_certaddcrllinktostore, security.certaddcrllinktostore, wincrypt/CertAddCRLLinkToStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -239,7 +239,7 @@ To remove the CRL context link from the certificate store, use the  <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

@@ -4,10 +4,10 @@ title: GetDriveTypeA function
 author: windows-sdk-content
 description: Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or network drive.
 old-location: fs\getdrivetype.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: b3989a3f-fc90-4ea0-8d3e-8e57068a08bc
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: GetDriveType, GetDriveType function [Files], GetDriveTypeA, GetDriveTypeW, _win32_getdrivetype, base.getdrivetype, fileapi/GetDriveType, fileapi/GetDriveTypeA, fileapi/GetDriveTypeW, fs.getdrivetype, winbase/GetDriveType, winbase/GetDriveTypeA, winbase/GetDriveTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

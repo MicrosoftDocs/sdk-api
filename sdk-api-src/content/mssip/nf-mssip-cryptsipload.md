@@ -7,7 +7,7 @@ old-location: security\cryptsipload.htm
 tech.root: seccrypto
 ms.assetid: 3378ecee-bd5d-45e5-9a1f-a3734d086782
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CryptSIPLoad, CryptSIPLoad function [Security], mssip/CryptSIPLoad, security.cryptsipload
 ms.prod: windows-hardware
 ms.technology: windows-devices

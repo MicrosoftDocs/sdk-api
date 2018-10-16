@@ -7,7 +7,7 @@ old-location: mf\mf_mse_ready.htm
 tech.root: medfound
 ms.assetid: 7455B92F-CC2D-4743-935D-F5EBFD834397
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: MF_MSE_READY, MF_MSE_READY enumeration [Media Foundation], MF_MSE_READY_CLOSED, MF_MSE_READY_ENDED, MF_MSE_READY_OPEN, mf.mf_mse_ready, mfmediaengine/MF_MSE_READY, mfmediaengine/MF_MSE_READY_CLOSED, mfmediaengine/MF_MSE_READY_ENDED, mfmediaengine/MF_MSE_READY_OPEN
 ms.prod: windows
 ms.technology: windows-sdk

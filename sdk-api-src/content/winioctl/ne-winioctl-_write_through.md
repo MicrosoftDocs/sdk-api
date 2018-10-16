@@ -4,10 +4,10 @@ title: "_WRITE_THROUGH"
 author: windows-sdk-content
 description: Specifies whether a storage device supports write-through caching.
 old-location: fs\write_through.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 8bb26be1-ad02-4cf0-8505-021f922f34bf
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: WRITE_THROUGH, WRITE_THROUGH enumeration [Files], WriteThroughNotSupported, WriteThroughSupported, WriteThroughUnknown, _WRITE_THROUGH, fs.write_through, winioctl/WRITE_THROUGH, winioctl/WriteThroughNotSupported, winioctl/WriteThroughSupported, winioctl/WriteThroughUnknown
 ms.prod: windows
 ms.technology: windows-sdk

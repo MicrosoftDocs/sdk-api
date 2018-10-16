@@ -4,10 +4,10 @@ title: ReadDirectoryChangesExW function
 author: windows-sdk-content
 description: Retrieves information that describes the changes within the specified directory, which can include extended information if that information type is specified.
 old-location: fs\readdirectorychangesexw.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 90C2F258-094C-4A0E-80E7-3FA241D288EA
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_ACCESS, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, ReadDirectoryChangesExW, ReadDirectoryChangesExW function [Files], fs.readdirectorychangesexw, winbase/ReadDirectoryChangesExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

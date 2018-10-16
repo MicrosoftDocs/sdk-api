@@ -7,7 +7,7 @@ old-location: controls\ImageList_Merge.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_merge.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ImageList_Merge, ImageList_Merge function [Windows Controls], _win32_ImageList_Merge, _win32_ImageList_Merge_cpp, commctrl/ImageList_Merge, controls.ImageList_Merge, controls._win32_ImageList_Merge
 ms.prod: windows-hardware
 ms.technology: windows-devices

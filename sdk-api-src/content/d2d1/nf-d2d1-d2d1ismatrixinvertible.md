@@ -7,7 +7,7 @@ old-location: direct2d\d2d1ismatrixinvertible.htm
 tech.root: direct2d
 ms.assetid: c8ba9c60-dfc4-4872-81e0-e68dfd13f00e
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: D2D1IsMatrixInvertible, D2D1IsMatrixInvertible function [Direct2D], d2d1/D2D1IsMatrixInvertible, direct2d.d2d1ismatrixinvertible
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Indicates whether the specified matrix is invertible.
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The matrix to test.
 

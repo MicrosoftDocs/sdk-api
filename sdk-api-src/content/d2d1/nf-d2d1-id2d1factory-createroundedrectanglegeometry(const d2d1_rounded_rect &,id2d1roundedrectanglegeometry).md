@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateRoundedRectangleGeometry_ref_D2D1_ROUN
 tech.root: direct2d
 ms.assetid: a779a6ad-2d86-416f-8f3f-1ccc90c13572
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: CreateRoundedRectangleGeometry, CreateRoundedRectangleGeometry method [Direct2D], CreateRoundedRectangleGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateRoundedRectangleGeometry method, ID2D1Factory.CreateRoundedRectangleGeometry, ID2D1Factory.CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry), ID2D1Factory::CreateRoundedRectangleGeometry, ID2D1Factory::CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry), d2d1/ID2D1Factory::CreateRoundedRectangleGeometry, direct2d.ID2D1Factory_CreateRoundedRectangleGeometry_ref_D2D1_ROUNDED_RECT_ptr_ptr_ID2D1RoundedRectangleGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

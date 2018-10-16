@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Wraps an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface in an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface.
+Wraps an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface in an <a href="shell.IPropertyStore">IPropertyStore</a> interface.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Specifies the access mode to enforce. grfMode should match the access mode used 
 
 #### STGM_READ
 
-Calls to <a href="https://msdn.microsoft.com/en-us/library/Ff536963(v=VS.85).aspx">IPropertyStore::SetValue</a>update an internal cache of properties, and calls to <a href="https://msdn.microsoft.com/en-us/library/Ff536957(v=VS.85).aspx">IPropertyStore::Commit</a>call the appropriate <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> methods to write out the changed properties.
+Calls to <a href="shell.IPropertyStore_SetValue">IPropertyStore::SetValue</a>update an internal cache of properties, and calls to <a href="shell.IPropertyStore_Commit">IPropertyStore::Commit</a>call the appropriate <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> methods to write out the changed properties.
 
 
 
@@ -119,7 +119,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function wraps an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface in an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface. Any value other than <b>STGM_READ</b> for <i>grfMode</i>, causes calls to <a href="https://msdn.microsoft.com/en-us/library/Ff536963(v=VS.85).aspx">IPropertyStore::SetValue</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff536957(v=VS.85).aspx">IPropertyStore::Commit</a> to fail with <b>STG_E_ACCESSDENIED.</b>
+This function wraps an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface in an <a href="shell.IPropertyStore">IPropertyStore</a> interface. Any value other than <b>STGM_READ</b> for <i>grfMode</i>, causes calls to <a href="shell.IPropertyStore_SetValue">IPropertyStore::SetValue</a> and <a href="shell.IPropertyStore_Commit">IPropertyStore::Commit</a> to fail with <b>STG_E_ACCESSDENIED.</b>
 
 
 

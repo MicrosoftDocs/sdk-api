@@ -7,7 +7,7 @@ old-location: controls\ScrollBar_Show.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_show.htm
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: ScrollBar_Show, ScrollBar_Show macro [Windows Controls], _win32_ScrollBar_Show, _win32_ScrollBar_Show_cpp, controls.ScrollBar_Show, controls._win32_ScrollBar_Show, windowsx/ScrollBar_Show
 ms.prod: windows-hardware
 ms.technology: windows-devices

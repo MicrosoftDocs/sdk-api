@@ -4,10 +4,10 @@ title: USN_RECORD_V3
 author: windows-sdk-content
 description: Contains the information for an update sequence number (USN) change journal version 3.0 record.
 old-location: fs\usn_record_v3.htm
-tech.root: FileIO
+tech.root: fileio
 ms.assetid: 6d95c5d1-6c6b-498f-a00d-eaa540e8b15b
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/12/2018
 ms.keywords: "*PUSN_RECORD_V3, PUSN_RECORD_V3, PUSN_RECORD_V3 structure pointer [Files], USN_REASON_BASIC_INFO_CHANGE, USN_REASON_CLOSE, USN_REASON_COMPRESSION_CHANGE, USN_REASON_DATA_EXTEND, USN_REASON_DATA_OVERWRITE, USN_REASON_DATA_TRUNCATION, USN_REASON_EA_CHANGE, USN_REASON_ENCRYPTION_CHANGE, USN_REASON_FILE_CREATE, USN_REASON_FILE_DELETE, USN_REASON_HARD_LINK_CHANGE, USN_REASON_INDEXABLE_CHANGE, USN_REASON_INTEGRITY_CHANGE, USN_REASON_NAMED_DATA_EXTEND, USN_REASON_NAMED_DATA_OVERWRITE, USN_REASON_NAMED_DATA_TRUNCATION, USN_REASON_OBJECT_ID_CHANGE, USN_REASON_RENAME_NEW_NAME, USN_REASON_RENAME_OLD_NAME, USN_REASON_REPARSE_POINT_CHANGE, USN_REASON_SECURITY_CHANGE, USN_REASON_STREAM_CHANGE, USN_REASON_TRANSACTED_CHANGE, USN_RECORD_V3, USN_RECORD_V3 structure [Files], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_CLIENT_REPLICATION_MANAGEMENT, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, fs.usn_record_v3, winioctl/PUSN_RECORD_V3, winioctl/USN_RECORD_V3"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,15 +79,19 @@ The size in bytes of any change
        <a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a> function. In C, you can 
        determine a record size by using the following code example.
 
-
-```cpp
-  MaximumChangeJournalRecordSize = 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>  MaximumChangeJournalRecordSize = 
       QuadAlign( (MaximumComponentLength - 1) * sizeof(WCHAR) 
        + sizeof(USN_RECORD_V3) );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To maintain compatibility across version changes of the change journal software, use a run-time calculation 
        to determine the size of the <b>USN_RECORD_V3</b> structure. For 
        more information about compatibility across version changes, see the Remarks section in this topic.

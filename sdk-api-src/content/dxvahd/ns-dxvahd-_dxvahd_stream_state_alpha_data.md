@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_alpha_data.htm
 tech.root: medfound
 ms.assetid: 51135d6e-4f97-44d9-b1d5-f7d2095ee6f1
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/15/2018
 ms.keywords: DXVAHD_STREAM_STATE_ALPHA_DATA, DXVAHD_STREAM_STATE_ALPHA_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_ALPHA_DATA, dxvahd/DXVAHD_STREAM_STATE_ALPHA_DATA, mf.dxvahd_stream_state_alpha_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,9 +96,13 @@ To get the device capabilities, call <a href="https://msdn.microsoft.com/93acad9
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetPlanarAlpha(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetPlanarAlpha(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     BOOL bEnable,
@@ -107,19 +111,19 @@ HRESULT DXVAHD_SetPlanarAlpha(
 {
     DXVAHD_STREAM_STATE_ALPHA_DATA alpha = { bEnable, fAlpha };
 
-    HRESULT hr = pVP->SetVideoProcessStreamState(
+    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
         stream,
         DXVAHD_STREAM_STATE_ALPHA,
         sizeof(alpha),
-        &alpha
+        &amp;alpha
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
