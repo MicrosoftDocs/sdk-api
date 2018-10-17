@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1DrawingStateBlock_SetTextRenderingParams.htm
 tech.root: direct2d
 ms.assetid: 449bd558-a3f1-4168-a803-d2f00b2250d2
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: ID2D1DrawingStateBlock interface [Direct2D],SetTextRenderingParams method, ID2D1DrawingStateBlock.SetTextRenderingParams, ID2D1DrawingStateBlock::SetTextRenderingParams, SetTextRenderingParams, SetTextRenderingParams method [Direct2D], SetTextRenderingParams method [Direct2D],ID2D1DrawingStateBlock interface, d2d1/ID2D1DrawingStateBlock::SetTextRenderingParams, direct2d.ID2D1DrawingStateBlock_SetTextRenderingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

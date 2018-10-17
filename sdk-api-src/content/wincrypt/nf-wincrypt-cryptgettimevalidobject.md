@@ -7,7 +7,7 @@ old-location: security\cryptgettimevalidobject.htm
 tech.root: seccrypto
 ms.assetid: dd639b43-1560-4e9f-a778-9e20484ae012
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: CRYPT_ACCUMULATIVE_TIMEOUT, CRYPT_CACHE_ONLY_RETRIEVAL, CRYPT_CHECK_FRESHNESS_TIME_VALIDITY, CRYPT_DONT_CHECK_TIME_VALIDITY, CRYPT_DONT_VERIFY_SIGNATURE, CRYPT_KEEP_TIME_VALID, CRYPT_OCSP_ONLY_RETRIEVAL, CRYPT_WIRE_ONLY_RETRIEVAL, CryptGetTimeValidObject, CryptGetTimeValidObject function [Security], TIME_VALID_OID_GET_CRL, TIME_VALID_OID_GET_CRL_FROM_CERT, TIME_VALID_OID_GET_CTL, TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CERT, TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CRL, security.cryptgettimevalidobject, wincrypt/CryptGetTimeValidObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

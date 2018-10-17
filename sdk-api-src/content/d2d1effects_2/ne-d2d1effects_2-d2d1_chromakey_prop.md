@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_chromakey_prop.htm
 tech.root: direct2d
 ms.assetid: B68F7F68-12F5-4650-84ED-D1EE0B670964
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: D2D1_CHROMAKEY_PROP, D2D1_CHROMAKEY_PROP enumeration [Direct2D], D2D1_CHROMAKEY_PROP_COLOR, D2D1_CHROMAKEY_PROP_FEATHER, D2D1_CHROMAKEY_PROP_INVERT_ALPHA, D2D1_CHROMAKEY_PROP_TOLERANCE, d2d1effects_2/D2D1_CHROMAKEY_PROP, d2d1effects_2/D2D1_CHROMAKEY_PROP_COLOR, d2d1effects_2/D2D1_CHROMAKEY_PROP_FEATHER, d2d1effects_2/D2D1_CHROMAKEY_PROP_INVERT_ALPHA, d2d1effects_2/D2D1_CHROMAKEY_PROP_TOLERANCE, direct2d.d2d1_chromakey_prop
 ms.prod: windows
 ms.technology: windows-sdk

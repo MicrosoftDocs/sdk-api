@@ -7,7 +7,7 @@ old-location: security\ssl_extra_cert_chain_policy_para.htm
 tech.root: seccrypto
 ms.assetid: 3422693a-3fad-4ed8-9fab-d9a185476123
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: "*PHTTPSPolicyCallbackData, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHTYPE_CLIENT, AUTHTYPE_SERVER, HTTPSPolicyCallbackData, HTTPSPolicyCallbackData structure [Security], PHTTPSPolicyCallbackData, PHTTPSPolicyCallbackData structure pointer [Security], PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, PSSL_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], SECURITY_FLAG_IGNORE_CERT_CN_INVALID, SECURITY_FLAG_IGNORE_CERT_DATE_INVALID, SECURITY_FLAG_IGNORE_REVOCATION, SECURITY_FLAG_IGNORE_UNKNOWN_CA, SECURITY_FLAG_IGNORE_WRONG_USAGE, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, SSL_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], _HTTPSPolicyCallbackData, security.ssl_extra_cert_chain_policy_para, wincrypt/PHTTPSPolicyCallbackData, wincrypt/PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/SSL_EXTRA_CERT_CHAIN_POLICY_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

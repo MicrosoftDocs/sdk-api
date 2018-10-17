@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_blend_description.htm
 tech.root: direct2d
 ms.assetid: 5f4c7248-9303-4451-92f1-4b230efd627a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: D2D1_BLEND_DESCRIPTION, D2D1_BLEND_DESCRIPTION structure [Direct2D], d2d1effectauthor/D2D1_BLEND_DESCRIPTION, direct2d.d2d1_blend_description
 ms.prod: windows
 ms.technology: windows-sdk

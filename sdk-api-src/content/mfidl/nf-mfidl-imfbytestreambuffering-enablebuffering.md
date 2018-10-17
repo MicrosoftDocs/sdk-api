@@ -7,7 +7,7 @@ old-location: mf\imfbytestreambuffering_enablebuffering.htm
 tech.root: medfound
 ms.assetid: 5f7418ff-32e5-49b3-b7b3-6686e6562d51
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: 5f7418ff-32e5-49b3-b7b3-6686e6562d51, EnableBuffering, EnableBuffering method [Media Foundation], EnableBuffering method [Media Foundation],IMFByteStreamBuffering interface, IMFByteStreamBuffering interface [Media Foundation],EnableBuffering method, IMFByteStreamBuffering.EnableBuffering, IMFByteStreamBuffering::EnableBuffering, mf.imfbytestreambuffering_enablebuffering, mfidl/IMFByteStreamBuffering::EnableBuffering
 ms.prod: windows-hardware
 ms.technology: windows-devices

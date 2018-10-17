@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext2_drawink.htm
 tech.root: direct2d
 ms.assetid: d7c27267-c0c3-d21c-7980-3d92396509c7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: DrawInk, DrawInk method [Direct2D], DrawInk method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],DrawInk method, ID2D1DeviceContext2.DrawInk, ID2D1DeviceContext2::DrawInk, d2d1_3/ID2D1DeviceContext2::DrawInk, direct2d.id2d1devicecontext2_drawink
 ms.prod: windows-hardware
 ms.technology: windows-devices

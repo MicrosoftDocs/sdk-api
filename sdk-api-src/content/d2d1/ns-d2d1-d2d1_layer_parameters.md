@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_LAYER_PARAMETERS.htm
 tech.root: direct2d
 ms.assetid: ce575df6-9464-4672-9a0e-ff7e016d9354
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: D2D1_LAYER_PARAMETERS, D2D1_LAYER_PARAMETERS structure [Direct2D], d2d1/D2D1_LAYER_PARAMETERS, direct2d.D2D1_LAYER_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GradientStopCollection.htm
 tech.root: direct2d
 ms.assetid: 982abf9c-4778-4871-a494-5843f0c0addc
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: ID2D1GradientStopCollection, ID2D1GradientStopCollection interface [Direct2D], ID2D1GradientStopCollection interface [Direct2D],described, d2d1/ID2D1GradientStopCollection, direct2d.ID2D1GradientStopCollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfactivate_activateobject.htm
 tech.root: medfound
 ms.assetid: 120b8070-6732-450d-8334-b3910f7bb4d2
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: 120b8070-6732-450d-8334-b3910f7bb4d2, ActivateObject, ActivateObject method [Media Foundation], ActivateObject method [Media Foundation],IMFActivate interface, IMFActivate interface [Media Foundation],ActivateObject method, IMFActivate.ActivateObject, IMFActivate::ActivateObject, mf.imfactivate_activateobject, mfobjects/IMFActivate::ActivateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

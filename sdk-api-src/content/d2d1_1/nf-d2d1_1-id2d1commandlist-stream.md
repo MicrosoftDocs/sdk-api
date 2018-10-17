@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandlist_stream.htm
 tech.root: direct2d
 ms.assetid: 52e6da86-c7c6-48e7-b0ff-a54770663f14
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: ID2D1CommandList interface [Direct2D],Stream method, ID2D1CommandList.Stream, ID2D1CommandList::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1CommandList interface, d2d1_1/ID2D1CommandList::Stream, direct2d.id2d1commandlist_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrush.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/15/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+], TextureBrush class [GDI+],described, _gdiplus_CLASS_TextureBrush_Class, gdiplus._gdiplus_CLASS_TextureBrush_Class, gdiplusbrush/TextureBrush
 ms.prod: windows
 ms.technology: windows-sdk

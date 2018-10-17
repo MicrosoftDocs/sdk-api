@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SolidBrush_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrush_81color.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/15/2018
 ms.keywords: SolidBrush, SolidBrush class [GDI+],SolidBrush constructor, SolidBrush constructor [GDI+], SolidBrush constructor [GDI+],SolidBrush class, SolidBrush.SolidBrush, SolidBrush.SolidBrush(const SolidBrush &), SolidBrush::SolidBrush, SolidBrush::SolidBrush(const SolidBrush &), _gdiplus_CLASS_SolidBrush_SolidBrush_color_, gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_
 ms.prod: windows-hardware
 ms.technology: windows-devices

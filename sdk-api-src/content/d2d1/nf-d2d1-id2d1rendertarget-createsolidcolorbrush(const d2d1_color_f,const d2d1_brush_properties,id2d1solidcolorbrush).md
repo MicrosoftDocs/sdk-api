@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_CreateSolidColorBrush_ptr_COLOR_F_ptr_D
 tech.root: direct2d
 ms.assetid: d426ce37-da88-4ab5-b54a-48150d0c4657
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [Direct2D], CreateSolidColorBrush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateSolidColorBrush method, ID2D1RenderTarget.CreateSolidColorBrush, ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F,const D2D1_BRUSH_PROPERTIES,ID2D1SolidColorBrush), ID2D1RenderTarget::CreateSolidColorBrush, ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F,const D2D1_BRUSH_PROPERTIES,ID2D1SolidColorBrush), d2d1/ID2D1RenderTarget::CreateSolidColorBrush, direct2d.ID2D1RenderTarget_CreateSolidColorBrush_ptr_COLOR_F_ptr_D2D1_BRUSH_PROPERTIES_ptr_ptr_ID2D1SolidColorBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

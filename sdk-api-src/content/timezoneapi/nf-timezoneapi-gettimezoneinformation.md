@@ -7,7 +7,7 @@ old-location: base\gettimezoneinformation.htm
 tech.root: sysinfo
 ms.assetid: 3d7601a5-6d22-4b1a-a222-9db46d21a3c7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: GetTimeZoneInformation, GetTimeZoneInformation function, _win32_gettimezoneinformation, base.gettimezoneinformation, timezoneapi/GetTimeZoneInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

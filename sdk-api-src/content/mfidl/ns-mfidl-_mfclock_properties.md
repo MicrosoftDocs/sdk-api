@@ -7,7 +7,7 @@ old-location: mf\mfclock_properties.htm
 tech.root: medfound
 ms.assetid: 1efc6602-9851-40e5-85aa-0335d4e899a2
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: 1efc6602-9851-40e5-85aa-0335d4e899a2, MFCLOCK_JITTER_DPC, MFCLOCK_JITTER_ISR, MFCLOCK_JITTER_PASSIVE, MFCLOCK_PROPERTIES, MFCLOCK_PROPERTIES structure [Media Foundation], _MFCLOCK_PROPERTIES, mf.mfclock_properties, mfidl/MFCLOCK_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

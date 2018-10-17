@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_gettagnamelength.htm
 tech.root: direct2d
 ms.assetid: FD73B8E6-4490-4BF2-9A65-6661DB3594E1
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: GetTagNameLength, GetTagNameLength method [Direct2D], GetTagNameLength method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetTagNameLength method, ID2D1SvgElement.GetTagNameLength, ID2D1SvgElement::GetTagNameLength, d2d1svg/ID2D1SvgElement::GetTagNameLength, direct2d.id2d1svgelement_gettagnamelength
 ms.prod: windows-hardware
 ms.technology: windows-devices

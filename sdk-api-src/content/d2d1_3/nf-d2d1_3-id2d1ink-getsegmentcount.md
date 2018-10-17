@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_getsegmentcount.htm
 tech.root: direct2d
 ms.assetid: 8222B527-FEEE-4456-8C0E-35437CB81DE5
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: GetSegmentCount, GetSegmentCount method [Direct2D], GetSegmentCount method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetSegmentCount method, ID2D1Ink.GetSegmentCount, ID2D1Ink::GetSegmentCount, d2d1_3/ID2D1Ink::GetSegmentCount, direct2d.id2d1ink_getsegmentcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

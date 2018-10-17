@@ -7,7 +7,7 @@ old-location: mf\imfsslcertificatemanager_begingetclientcertificate.htm
 tech.root: medfound
 ms.assetid: e375cb97-bb43-4852-9671-dd8fdea34cef
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: BeginGetClientCertificate, BeginGetClientCertificate method [Media Foundation], BeginGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],BeginGetClientCertificate method, IMFSSLCertificateManager.BeginGetClientCertificate, IMFSSLCertificateManager::BeginGetClientCertificate, mf.imfsslcertificatemanager_begingetclientcertificate, mfidl/IMFSSLCertificateManager::BeginGetClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

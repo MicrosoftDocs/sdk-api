@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_item_method.htm
 tech.root: seccrypto
 ms.assetid: 33fce781-f65d-433a-b2ba-0f694cee1220
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],Item property, IOCSPPropertyCollection.Item, IOCSPPropertyCollection.get_Item, IOCSPPropertyCollection::Item, IOCSPPropertyCollection::get_Item, Item property [Security], Item property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::Item, certadm/IOCSPPropertyCollection::get_Item, get_Item, security.iocsppropertycollection_item_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

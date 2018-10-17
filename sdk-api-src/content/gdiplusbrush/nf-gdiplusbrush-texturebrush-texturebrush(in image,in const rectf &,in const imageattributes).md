@@ -2,21 +2,21 @@
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
 title: TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
 author: windows-sdk-content
-description: This topic lists the constructors of the TextureBrush class. For a complete class listing, see TextureBrush Class.
-old-location: gdiplus\_gdiplus_CLASS_TextureBrush_Constructors.htm
+description: Creates a TextureBrush object based on an image, a defining rectangle, and a set of image properties.
+old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_RectF_dstRect_ImageAttributes_imageAttributes_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_76imageimage_rectfampdstrect_imageattrib.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
+ms.date: 10/15/2018
+ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), TextureBrush.TextureBrush(Image*,RectF&,ImageAttributes*), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_RectF_dstRect_ImageAttributes_imageAttributes_, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_RectF_dstRect_ImageAttributes_imageAttributes_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusbrush.h
+ - Gdiplus.dll
 api_name:
  - TextureBrush.TextureBrush
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
@@ -50,77 +51,62 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> class. For a complete class listing, see <b>TextureBrush Class</b>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6197576-4e78-4a20-b7be-e01da179b08f">TextureBrush(Image*,WrapMode)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image and a wrap mode. The size of the brush defaults to the size of the image, so the entire image is used by the brush.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e38397a-2308-4108-bf69-f3d3035dee8d">TextureBrush(Image*,WrapMode,Rect&)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f710eab-81fb-4c43-810f-1ead3c9b2510">TextureBrush(Image*,wrapMode,RectF&)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac2013c6-8810-4592-83be-354f8f46be89">TextureBrush(Image*,Rect&,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
 Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ff10237-99fe-41c7-b051-2da96869f1a6">TextureBrush(Image*,RectF&,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5056797a-970a-469f-a80f-38182aca55e0">TextureBrush(Image*,WrapMode,INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f955c5c-8a32-4fec-a26a-67a0d2cb9ac7">TextureBrush(Image*,WrapMode,REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param image [in]
+
+Type: <b><a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>*</b>
+
+Pointer to an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object that contains the bitmap of the image to use. 
+
+
+### -param dstRect [in, ref]
+
+Type: <b><a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
+
+Reference to a rectangle that defines the size of this texture brush and the portion of the image to be used by this texture brush. If the <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object is created from a metafile, the brush uses the entire image, which is scaled to fit the size of the brush. 
+
+
+### -param imageAttributes [in]
+
+Type: <b><a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>*</b>
+
+Optional. Pointer to an <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object that contains properties of the image. The default value is <b>NULL</b>. 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+
+
+
+<a href="https://msdn.microsoft.com/12e1e132-a93f-4438-8a1d-9036a43a8fd8">Filling a Shape with an Image Texture</a>
+
+
+
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+
+
+
+<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a>
+ 
+
+ 
 

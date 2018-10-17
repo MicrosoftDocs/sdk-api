@@ -2,21 +2,21 @@
 UID: NS:evntprov._EVENT_DATA_DESCRIPTOR
 title: "_EVENT_DATA_DESCRIPTOR"
 author: windows-sdk-content
-description: Defines one of the data items of the event data.
-old-location: etw\event_data_descriptor.htm
-tech.root: etw
-ms.assetid: 452ce6f6-3857-4f88-b501-44dd6091b97e
+description: The EVENT_DATA_DESCRIPTOR structure is used with the user mode EventWrite and the kernel mode EtwWrite functions to send events. The EVENT_DATA_DESCRIPTOR structure describes the event payload.
+old-location: devtest\event_data_descriptor.htm
+tech.root: devtest
+ms.assetid: eb2b7ab6-52da-4d16-b315-6adab3131a05
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: "*PEVENT_DATA_DESCRIPTOR, EVENT_DATA_DESCRIPTOR, EVENT_DATA_DESCRIPTOR structure [ETW], PEVENT_DATA_DESCRIPTOR, PEVENT_DATA_DESCRIPTOR structure pointer [ETW], _EVENT_DATA_DESCRIPTOR, base.event_data_descriptor, etw.event_data_descriptor, evntprov/EVENT_DATA_DESCRIPTOR, evntprov/PEVENT_DATA_DESCRIPTOR"
+ms.date: 09/26/2018
+ms.keywords: "*PEVENT_DATA_DESCRIPTOR, EVENT_DATA_DESCRIPTOR, EVENT_DATA_DESCRIPTOR structure [Driver Development Tools], Event Data Descriptor, Event Data Descriptor structure [Driver Development Tools], PEVENT_DATA_DESCRIPTOR, PEVENT_DATA_DESCRIPTOR structure pointer [Driver Development Tools], _EVENT_DATA_DESCRIPTOR, devtest.event_data_descriptor, etw_km_b9fc0f87-ef8a-43ef-aa07-33badda6ae53.xml, evntprov/EVENT_DATA_DESCRIPTOR, evntprov/PEVENT_DATA_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
-req.include-header: 
+req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - Evntprov.h
+ - evntprov.h
 api_name:
  - EVENT_DATA_DESCRIPTOR
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>EVENT_DATA_DESCRIPTOR </b> structure defines one of the data items of the event data.
+The EVENT_DATA_DESCRIPTOR structure is used with the user mode <a href="http://go.microsoft.com/fwlink/p/?linkid=103400">EventWrite</a> and the kernel mode <a href="https://msdn.microsoft.com/b9d4f6da-694d-4737-9cbe-3666e693c0a2">EtwWrite</a> functions to send events. The EVENT_DATA_DESCRIPTOR structure describes the event payload. 
 
 
 ## -struct-fields
@@ -60,12 +60,12 @@ The <b>EVENT_DATA_DESCRIPTOR </b> structure defines one of the data items of the
 
 ### -field Ptr
 
-A pointer to the data.
+A pointer to the event descriptor data.
 
 
 ### -field Size
 
-The size, in bytes, of the data.
+The size of the payload field, in bytes.
 
 
 ### -field DUMMYUNIONNAME
@@ -75,7 +75,7 @@ The size, in bytes, of the data.
 
 ### -field DUMMYUNIONNAME.Reserved
 
- 
+Reserved for future use.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
@@ -85,7 +85,7 @@ The size, in bytes, of the data.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Type
 
-Reserved.
+ 
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Reserved1
@@ -104,18 +104,35 @@ Reserved.
 
 
 
-If your event data consists of multiple data items, you would create an array of <b>EVENT_DATA_DESCRIPTOR </b> structures and call the <a href="https://msdn.microsoft.com/a5823ad0-0710-4fd2-9b44-a60a42f138fd">EventDataDescCreate</a> macro to initialize each element with this information. For an example, see <a href="https://msdn.microsoft.com/76e7202e-74ce-40a3-a04b-9af5117fe20e">Writing Manifest-based Events</a>. 
+The most convenient method of populating the EVENT_DATA_DESCRIPTOR structure is to use the <b>EventDataDescCreate</b> macro. This macro is declared in Evntprov.h and its use is documented in the Microsoft Windows SDK documentation. The following example uses the <b>EventDataDescCreate</b> macro to populate an array of three EVENT_DATA_DESCRIPTOR structures. This array is then passed to the <b>EtwWrite</b> function. 
 
-Note that the total data size of the event (not just this data item) is the lesser of 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre> EventDataDescCreate(&amp;EventDataDescriptor[0],
+                            (PVOID)&amp;DeviceName.Length,
+ sizeof(USHORT));
 
-<ul>
-<li>64 KB</li>
-</ul>
-And
-
-<ul>
-<li>The session's buffer size minus the size of the buffer's header (0x48 bytes) minus the sum of the size of the <a href="https://msdn.microsoft.com/479091ae-7229-433b-b93b-8da6cc18df89">EVENT_HEADER</a> structure and each extended data item (the <a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">EVENT_HEADER_EXTENDED_DATA_ITEM</a> structure) that the controller wants to include in the event data.</li>
-</ul>
+ EventDataDescCreate(&amp;EventDataDescriptor[1],
+                            (PVOID)DeviceName.Buffer,
+ DeviceName.Length);
+ 
+ EventDataDescCreate(&amp;EventDataDescriptor[2],
+                            (PVOID)&amp;Status,
+ sizeof(ULONG));
+ 
+ EtwWrite(RegHandle,            // Handle from EtwRegister
+                 &amp;StartEvent,          // EventDescriptor
+                 NULL,                 // Activity ID
+                 3,                    // Number of data items
+ EventDataDescriptor); // Array of data descriptors
+    }              </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -124,27 +141,19 @@ And
 
 
 
-<a href="https://msdn.microsoft.com/479091ae-7229-433b-b93b-8da6cc18df89">EVENT_HEADER</a>
+<a href="https://msdn.microsoft.com/b9d4f6da-694d-4737-9cbe-3666e693c0a2">EtwWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://msdn.microsoft.com/cfe84b3d-fed2-4624-9899-8451e5b39de0">Event Descriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5823ad0-0710-4fd2-9b44-a60a42f138fd">EventDataDescCreate</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>
-
-
-
-<a href="https://msdn.microsoft.com/76e7202e-74ce-40a3-a04b-9af5117fe20e">Writing Manifest-based Events</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=103400">EventWrite</a>
  
 
  

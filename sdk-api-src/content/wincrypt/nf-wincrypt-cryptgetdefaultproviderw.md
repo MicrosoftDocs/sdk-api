@@ -7,7 +7,7 @@ old-location: security\cryptgetdefaultprovider.htm
 tech.root: seccrypto
 ms.assetid: 5d15641e-1ad7-441d-9423-65fd51de9812
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptGetDefaultProvider, CryptGetDefaultProvider function [Security], CryptGetDefaultProviderA, CryptGetDefaultProviderW, _crypto2_cryptgetdefaultprovider, security.cryptgetdefaultprovider, wincrypt/CryptGetDefaultProvider, wincrypt/CryptGetDefaultProviderA, wincrypt/CryptGetDefaultProviderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

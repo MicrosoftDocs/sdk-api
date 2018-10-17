@@ -4,10 +4,10 @@ title: FormatMessage function
 author: windows-sdk-content
 description: Formats a message string.
 old-location: base\formatmessage.htm
-tech.root: Benchmark
+tech.root: debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/02/2018
 ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORMAT_MESSAGE_FROM_HMODULE, FORMAT_MESSAGE_FROM_STRING, FORMAT_MESSAGE_FROM_SYSTEM, FORMAT_MESSAGE_IGNORE_INSERTS, FORMAT_MESSAGE_MAX_WIDTH_MASK, FormatMessage, FormatMessage function, FormatMessageA, FormatMessageW, _win32_formatmessage, base.formatmessage, winbase/FormatMessage, winbase/FormatMessageA, winbase/FormatMessageW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,9 +114,7 @@ In previous versions of Windows, this value was not available for use when compi
 
 
 
-<b>Windows 10:  </b><b>LocalFree</b> is not in the modern SDK, so it cannot be used to free the result buffer. Instead, use <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree (GetProcessHeap(), allocatedMessage)</a>. In this case, this is the same as calling <b>LocalFree</b> on memory.
-
-Important: <b> LocalAlloc()</b> has different options: <b>LMEM_FIXED</b>, and  <b>LMEM_MOVABLE</b>. <b>FormatMessage()</b> uses <b>LMEM_FIXED</b>, so <b>HeapFree</b> can be used. If <b>LMEM_MOVABLE</b> is used, <b>HeapFree</b> cannot be used.
+<b>Windows 10:  </b><b> LocalAlloc()</b> has different options: <b>LMEM_FIXED</b>, and  <b>LMEM_MOVABLE</b>. <b>FormatMessage()</b> uses <b>LMEM_FIXED</b>, so <b>HeapFree</b> can be used. If <b>LMEM_MOVABLE</b> is used, <b>HeapFree</b> cannot be used.
 
 
 

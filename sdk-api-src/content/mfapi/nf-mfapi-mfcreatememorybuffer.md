@@ -7,7 +7,7 @@ old-location: mf\mfcreatememorybuffer.htm
 tech.root: medfound
 ms.assetid: 1f79d057-7ef7-4662-9f82-ceadc23276f0
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: 1f79d057-7ef7-4662-9f82-ceadc23276f0, MFCreateMemoryBuffer, MFCreateMemoryBuffer function [Media Foundation], mf.mfcreatememorybuffer, mfapi/MFCreateMemoryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

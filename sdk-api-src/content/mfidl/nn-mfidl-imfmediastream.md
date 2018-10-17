@@ -7,7 +7,7 @@ old-location: mf\imfmediastream.htm
 tech.root: medfound
 ms.assetid: 66d07292-3bfe-4e68-b26f-890996262b98
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: 66d07292-3bfe-4e68-b26f-890996262b98, IMFMediaStream, IMFMediaStream interface [Media Foundation], IMFMediaStream interface [Media Foundation],described, mf.imfmediastream, mfidl/IMFMediaStream
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_ink_point.htm
 tech.root: direct2d
 ms.assetid: C18E7B04-12B8-4EB9-BAFB-24FBA99210E9
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: D2D1_INK_POINT, D2D1_INK_POINT structure [Direct2D], d2d1_3/D2D1_INK_POINT, direct2d.d2d1_ink_point
 ms.prod: windows
 ms.technology: windows-sdk

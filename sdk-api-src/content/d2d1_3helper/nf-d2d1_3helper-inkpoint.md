@@ -7,7 +7,7 @@ old-location: direct2d\inkpoint.htm
 tech.root: direct2d
 ms.assetid: 6ab8c30d-1ab8-1148-5cce-29797c5f5ad5
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: InkPoint, InkPoint function [Direct2D], d2d1_3helper/InkPoint, direct2d.inkpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

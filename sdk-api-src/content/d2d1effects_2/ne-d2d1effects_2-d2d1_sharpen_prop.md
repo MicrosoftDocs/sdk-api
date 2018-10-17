@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_sharpen_prop.htm
 tech.root: direct2d
 ms.assetid: 73ED06C4-A8FB-4312-8BB8-3B9C885E9FEC
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: D2D1_SHARPEN_PROP, D2D1_SHARPEN_PROP enumeration [Direct2D], D2D1_SHARPEN_PROP_SHARPNESS, D2D1_SHARPEN_PROP_THRESHOLD, d2d1effects_2/D2D1_SHARPEN_PROP, d2d1effects_2/D2D1_SHARPEN_PROP_SHARPNESS, d2d1effects_2/D2D1_SHARPEN_PROP_THRESHOLD, direct2d.d2d1_sharpen_prop
 ms.prod: windows
 ms.technology: windows-sdk

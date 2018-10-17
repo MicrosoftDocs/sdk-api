@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRangeValueProvider_IsReadOnly.htm
 tech.root: WinAuto
 ms.assetid: 5edb8de2-3c42-4df4-b6f8-5dd0e812d749
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],IsReadOnly property, IRangeValueProvider.IsReadOnly, IRangeValueProvider.get_IsReadOnly, IRangeValueProvider::IsReadOnly, IRangeValueProvider::get_IsReadOnly, IsReadOnly property [Windows Accessibility], IsReadOnly property [Windows Accessibility],IRangeValueProvider interface, get_IsReadOnly, uiauto.uiauto_IRangeValueProvider_IsReadOnly, uiauto_IRangeValueProvider_IsReadOnly, uiautomationcore/IRangeValueProvider::IsReadOnly, uiautomationcore/IRangeValueProvider::get_IsReadOnly, winauto.uiauto_IRangeValueProvider_IsReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

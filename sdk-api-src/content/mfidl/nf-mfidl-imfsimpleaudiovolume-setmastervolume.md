@@ -7,7 +7,7 @@ old-location: mf\imfsimpleaudiovolume_setmastervolume.htm
 tech.root: medfound
 ms.assetid: 42b51817-3c2a-463a-a533-19c327c57354
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: 42b51817-3c2a-463a-a533-19c327c57354, IMFSimpleAudioVolume interface [Media Foundation],SetMasterVolume method, IMFSimpleAudioVolume.SetMasterVolume, IMFSimpleAudioVolume::SetMasterVolume, SetMasterVolume, SetMasterVolume method [Media Foundation], SetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, mf.imfsimpleaudiovolume_setmastervolume, mfidl/IMFSimpleAudioVolume::SetMasterVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

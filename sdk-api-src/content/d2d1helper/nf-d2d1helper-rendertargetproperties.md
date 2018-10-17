@@ -7,7 +7,7 @@ old-location: direct2d\rendertargetproperties.htm
 tech.root: direct2d
 ms.assetid: d384ff93-220f-4714-a76a-b8b495496d79
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: RenderTargetProperties, RenderTargetProperties function [Direct2D], d2d1helper/RenderTargetProperties, direct2d.rendertargetproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

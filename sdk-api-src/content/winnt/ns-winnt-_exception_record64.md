@@ -356,9 +356,13 @@ The third array element specifies the underlying <b>NTSTATUS</b> code that resul
 
 To enable a debugger to debug a target that is running on a different architecture (32-bit versus 64-bit), use one of the explicit forms of this structure.
 
-
-```cpp
-typedef struct _EXCEPTION_RECORD32 {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _EXCEPTION_RECORD32 {
     DWORD    ExceptionCode;
     DWORD ExceptionFlags;
     DWORD ExceptionRecord;
@@ -375,10 +379,10 @@ typedef struct _EXCEPTION_RECORD64 {
     DWORD NumberParameters;
     DWORD __unusedAlignment;
     DWORD64 ExceptionInformation[EXCEPTION_MAXIMUM_PARAMETERS];
-} EXCEPTION_RECORD64, *PEXCEPTION_RECORD64;
-```
-
-
+} EXCEPTION_RECORD64, *PEXCEPTION_RECORD64;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

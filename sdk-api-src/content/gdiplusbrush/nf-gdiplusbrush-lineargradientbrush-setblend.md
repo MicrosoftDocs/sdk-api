@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlend_blendFactors_b
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setblend.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/15/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetBlend method, LinearGradientBrush.SetBlend, LinearGradientBrush::SetBlend, SetBlend, SetBlend method [GDI+], SetBlend method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetBlend_blendFactors_blendPositions_count_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlend_blendFactors_blendPositions_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

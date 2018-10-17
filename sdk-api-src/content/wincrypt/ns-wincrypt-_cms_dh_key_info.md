@@ -7,7 +7,7 @@ old-location: security\cms_dh_key_info.htm
 tech.root: seccrypto
 ms.assetid: ecfd8a63-95f9-4026-b31b-671ea58b683f
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: "*PCMS_DH_KEY_INFO, CMS_DH_KEY_INFO, CMS_DH_KEY_INFO structure [Security], PCMS_DH_KEY_INFO, PCMS_DH_KEY_INFO structure pointer [Security], _CMS_DH_KEY_INFO, security.cms_dh_key_info, wincrypt/CMS_DH_KEY_INFO, wincrypt/PCMS_DH_KEY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\crypt_retrieve_aux_info.htm
 tech.root: seccrypto
 ms.assetid: 33ea51e7-c3e3-4cf8-ade0-099cb8b2e651
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: "*PCRYPT_RETRIEVE_AUX_INFO, CRYPT_RETRIEVE_AUX_INFO, CRYPT_RETRIEVE_AUX_INFO structure [Security], PCRYPT_RETRIEVE_AUX_INFO, PCRYPT_RETRIEVE_AUX_INFO structure pointer [Security], _CRYPT_RETRIEVE_AUX_INFO, _crypto2_crypt_retrieve_aux_info, security.crypt_retrieve_aux_info, wincrypt/CRYPT_RETRIEVE_AUX_INFO, wincrypt/PCRYPT_RETRIEVE_AUX_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

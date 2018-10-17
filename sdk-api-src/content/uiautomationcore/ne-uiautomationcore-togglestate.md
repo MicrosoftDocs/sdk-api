@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ToggleState.htm
 tech.root: WinAuto
 ms.assetid: 242031d6-2d55-478d-b029-5a3b0a251601
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: ToggleState, ToggleState enumeration [Windows Accessibility], ToggleState_Indeterminate, ToggleState_Off, ToggleState_On, uiauto.uiauto_ToggleState, uiauto_ToggleState, uiautomationcore/ToggleState, uiautomationcore/ToggleState_Indeterminate, uiautomationcore/ToggleState_Off, uiautomationcore/ToggleState_On, winauto.uiauto_ToggleState
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfspatialaudioobjectbuffer_getmetadataitems.htm
 tech.root: medfound
 ms.assetid: 19BF7AC6-B21F-47D1-8573-48C5E4869574
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: GetMetadataItems, GetMetadataItems method [Media Foundation], GetMetadataItems method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetMetadataItems method, IMFSpatialAudioObjectBuffer.GetMetadataItems, IMFSpatialAudioObjectBuffer::GetMetadataItems, mf.imfspatialaudioobjectbuffer_getmetadataitems, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetMetadataItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_GetTextRenderingParams.htm
 tech.root: direct2d
 ms.assetid: 563a13c9-7f13-4b38-afa1-72e847dc8349
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: GetTextRenderingParams, GetTextRenderingParams method [Direct2D], GetTextRenderingParams method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetTextRenderingParams method, ID2D1RenderTarget.GetTextRenderingParams, ID2D1RenderTarget::GetTextRenderingParams, d2d1/ID2D1RenderTarget::GetTextRenderingParams, direct2d.ID2D1RenderTarget_GetTextRenderingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

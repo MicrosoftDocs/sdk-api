@@ -7,7 +7,7 @@ old-location: base\regloadkey.htm
 tech.root: sysinfo
 ms.assetid: 536395aa-03ba-430d-a66d-fcabdc9dfe22
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: RegLoadKey, RegLoadKey function, RegLoadKeyA, RegLoadKeyW, _win32_regloadkey, base.regloadkey, winreg/RegLoadKey, winreg/RegLoadKeyA, winreg/RegLoadKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

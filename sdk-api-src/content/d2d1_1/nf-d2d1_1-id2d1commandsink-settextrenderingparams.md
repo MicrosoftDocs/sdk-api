@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_settextrendeingparams.htm
 tech.root: direct2d
 ms.assetid: e847f2e3-6d2d-45e6-b1ef-bf393ed53e2b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetTextRenderingParams method, ID2D1CommandSink.SetTextRenderingParams, ID2D1CommandSink::SetTextRenderingParams, SetTextRenderingParams, SetTextRenderingParams method [Direct2D], SetTextRenderingParams method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetTextRenderingParams, direct2d.id2d1commandsink_settextrendeingparams
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\getfirmwareenvironmentvariable.htm
 tech.root: sysinfo
 ms.assetid: 18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: GetFirmwareEnvironmentVariable, GetFirmwareEnvironmentVariable function, GetFirmwareEnvironmentVariableA, GetFirmwareEnvironmentVariableW, base.getfirmwareenvironmentvariable, winbase/GetFirmwareEnvironmentVariable, winbase/GetFirmwareEnvironmentVariableA, winbase/GetFirmwareEnvironmentVariableW
 ms.prod: windows-hardware
 ms.technology: windows-devices

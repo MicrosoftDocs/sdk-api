@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_ELLIPSE.htm
 tech.root: direct2d
 ms.assetid: 6fed6c49-ba83-4c2b-af8a-04156ee317f0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: D2D1_ELLIPSE, D2D1_ELLIPSE structure [Direct2D], d2d1/D2D1_ELLIPSE, direct2d.D2D1_ELLIPSE
 ms.prod: windows
 ms.technology: windows-sdk

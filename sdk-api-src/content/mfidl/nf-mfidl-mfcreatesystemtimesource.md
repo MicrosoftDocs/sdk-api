@@ -7,7 +7,7 @@ old-location: mf\mfcreatesystemtimesource.htm
 tech.root: medfound
 ms.assetid: f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: MFCreateSystemTimeSource, MFCreateSystemTimeSource function [Media Foundation], f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f, mf.mfcreatesystemtimesource, mfidl/MFCreateSystemTimeSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

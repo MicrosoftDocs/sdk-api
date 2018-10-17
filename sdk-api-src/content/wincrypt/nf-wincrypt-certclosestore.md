@@ -7,7 +7,7 @@ old-location: security\certclosestore.htm
 tech.root: seccrypto
 ms.assetid: a93fdd65-359e-4046-910d-347c3af01280
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: CERT_CLOSE_STORE_CHECK_FLAG, CERT_CLOSE_STORE_FORCE_FLAG, CertCloseStore, CertCloseStore function [Security], _crypto2_certclosestore, security.certclosestore, wincrypt/CertCloseStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

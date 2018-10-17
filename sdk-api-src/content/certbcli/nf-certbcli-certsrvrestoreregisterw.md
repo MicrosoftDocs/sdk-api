@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregister.htm
 tech.root: seccrypto
 ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: CertSrvRestoreRegister, CertSrvRestoreRegister function [Security], CertSrvRestoreRegisterW, FNCERTSRVRESTOREREGISTERW, FNCERTSRVRESTOREREGISTERW function [Security], _certsrv_certsrvrestoreregister, certbcli/CertSrvRestoreRegister, certbcli/CertSrvRestoreRegisterW, certbcli/FNCERTSRVRESTOREREGISTERW, security.certsrvrestoreregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservicesex.htm
 tech.root: medfound
 ms.assetid: 12d4f0f4-9a6d-4782-b5ae-4add6608782a
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: IMFWorkQueueServicesEx, IMFWorkQueueServicesEx interface [Media Foundation], IMFWorkQueueServicesEx interface [Media Foundation],described, mf.imfworkqueueservicesex, mfidl/IMFWorkQueueServicesEx
 ms.prod: windows
 ms.technology: windows-sdk

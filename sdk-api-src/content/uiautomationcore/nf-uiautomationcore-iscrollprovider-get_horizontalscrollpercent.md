@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_HorizontalScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 02affb6c-cacb-4305-beb3-7ccef8f0662a
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: HorizontalScrollPercent property [Windows Accessibility], HorizontalScrollPercent property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontalScrollPercent property, IScrollProvider.HorizontalScrollPercent, IScrollProvider.get_HorizontalScrollPercent, IScrollProvider::HorizontalScrollPercent, IScrollProvider::get_HorizontalScrollPercent, get_HorizontalScrollPercent, uiauto.uiauto_IScrollProvider_HorizontalScrollPercent, uiauto_IScrollProvider_HorizontalScrollPercent, uiautomationcore/IScrollProvider::HorizontalScrollPercent, uiautomationcore/IScrollProvider::get_HorizontalScrollPercent, winauto.uiauto_IScrollProvider_HorizontalScrollPercent
 ms.prod: windows-hardware
 ms.technology: windows-devices

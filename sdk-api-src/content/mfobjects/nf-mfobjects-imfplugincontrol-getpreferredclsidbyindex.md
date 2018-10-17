@@ -7,7 +7,7 @@ old-location: mf\imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex.htm
 tech.root: medfound
 ms.assetid: d99511ec-ac22-4166-b944-b0136ffcf01a
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [Media Foundation], GetPreferredClsidByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetPreferredClsidByIndex method, IMFPluginControl.GetPreferredClsidByIndex, IMFPluginControl::GetPreferredClsidByIndex, mf.imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex, mfobjects/IMFPluginControl::GetPreferredClsidByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

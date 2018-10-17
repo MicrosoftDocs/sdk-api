@@ -7,7 +7,7 @@ old-location: base\regdisablereflectionkey.htm
 tech.root: sysinfo
 ms.assetid: 294a1d28-d09f-44a3-8bc0-6fae50c3a8f8
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: RegDisableReflectionKey, RegDisableReflectionKey function, base.regdisablereflectionkey, winreg/RegDisableReflectionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

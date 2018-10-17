@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f.htm
 tech.root: direct2d
 ms.assetid: 113861DF-2E6D-4930-82DC-AA592882E21C
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: Matrix4x4F, Matrix4x4F class [Direct2D], Matrix4x4F class [Direct2D],described, d2d1_1helper/Matrix4x4F, direct2d.matrix4x4f
 ms.prod: windows
 ms.technology: windows-sdk

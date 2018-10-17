@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_createbitmap2.htm
 tech.root: direct2d
 ms.assetid: 2CB537C1-9398-4C5D-BAF9-52D9AD294D2A
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: CreateBitmap, CreateBitmap method [Direct2D], CreateBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmap method, ID2D1DeviceContext.CreateBitmap, ID2D1DeviceContext.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmap, ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmap, direct2d.id2d1devicecontext_createbitmap2
 ms.prod: windows-hardware
 ms.technology: windows-devices

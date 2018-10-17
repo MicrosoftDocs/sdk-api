@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterEvent.htm
 tech.root: WinAuto
 ms.assetid: 17a95b6c-5dfb-45b3-92a9-0291b7d7120f
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterEvent method, IUIAutomationRegistrar.RegisterEvent, IUIAutomationRegistrar::RegisterEvent, RegisterEvent, RegisterEvent method [Windows Accessibility], RegisterEvent method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterEvent, uiauto_IUIAutomationRegistrar_RegisterEvent, uiautomationcore/IUIAutomationRegistrar::RegisterEvent, winauto.uiauto_IUIAutomationRegistrar_RegisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

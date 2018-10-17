@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1LinearGradientBrush_GetStartPoint.htm
 tech.root: direct2d
 ms.assetid: 8b79b265-4bf4-48e7-99c9-64a52d8cb6d0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: GetStartPoint, GetStartPoint method [Direct2D], GetStartPoint method [Direct2D],ID2D1LinearGradientBrush interface, ID2D1LinearGradientBrush interface [Direct2D],GetStartPoint method, ID2D1LinearGradientBrush.GetStartPoint, ID2D1LinearGradientBrush::GetStartPoint, d2d1/ID2D1LinearGradientBrush::GetStartPoint, direct2d.ID2D1LinearGradientBrush_GetStartPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

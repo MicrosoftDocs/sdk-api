@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getuint64.htm
 tech.root: medfound
 ms.assetid: f3240fff-48d8-4d88-8c75-15f00bfe72ed
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: GetUINT64, GetUINT64 method [Media Foundation], GetUINT64 method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUINT64 method, IMFAttributes.GetUINT64, IMFAttributes::GetUINT64, f3240fff-48d8-4d88-8c75-15f00bfe72ed, mf.imfattributes_getuint64, mfobjects/IMFAttributes::GetUINT64
 ms.prod: windows-hardware
 ms.technology: windows-devices

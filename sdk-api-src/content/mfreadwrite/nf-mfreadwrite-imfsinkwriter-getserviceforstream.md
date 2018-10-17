@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_getserviceforstream.htm
 tech.root: medfound
 ms.assetid: 166f8f71-e52d-43b1-9137-e4bf79bf5421
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],GetServiceForStream method, IMFSinkWriter.GetServiceForStream, IMFSinkWriter::GetServiceForStream, mf.imfsinkwriter_getserviceforstream, mfreadwrite/IMFSinkWriter::GetServiceForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

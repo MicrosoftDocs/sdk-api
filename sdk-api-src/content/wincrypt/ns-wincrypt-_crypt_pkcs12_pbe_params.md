@@ -7,7 +7,7 @@ old-location: security\crypt_pkcs12_pbe_params.htm
 tech.root: seccrypto
 ms.assetid: 8923bb7f-b26a-4ffc-98a3-3ae74e941329
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: CRYPT_PKCS12_PBE_PARAMS, CRYPT_PKCS12_PBE_PARAMS structure [Security], _CRYPT_PKCS12_PBE_PARAMS, security.crypt_pkcs12_pbe_params, wincrypt/CRYPT_PKCS12_PBE_PARAMS
 ms.prod: windows
 ms.technology: windows-sdk

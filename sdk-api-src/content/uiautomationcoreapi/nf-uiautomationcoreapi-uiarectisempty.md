@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRectIsEmptyFunction.htm
 tech.root: WinAuto
 ms.assetid: a1bcf983-a40c-4a9f-95f8-3124d62e07a3
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: UiaRectIsEmpty, UiaRectIsEmpty function [Windows Accessibility], uiauto.uiauto_UiaRectIsEmptyFunction, uiauto_UiaRectIsEmptyFunction, uiautomationcoreapi/UiaRectIsEmpty, winauto.uiauto_UiaRectIsEmptyFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

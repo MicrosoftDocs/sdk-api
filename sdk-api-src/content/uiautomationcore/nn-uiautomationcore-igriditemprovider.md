@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IGridItemProvider.htm
 tech.root: WinAuto
 ms.assetid: 334a10f1-8bfc-4935-9eee-6176a3e8a4f1
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: IGridItemProvider, IGridItemProvider interface [Windows Accessibility], IGridItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridItemProvider, uiauto_IGridItemProvider, uiautomationcore/IGridItemProvider, winauto.uiauto_IGridItemProvider
 ms.prod: windows
 ms.technology: windows-sdk

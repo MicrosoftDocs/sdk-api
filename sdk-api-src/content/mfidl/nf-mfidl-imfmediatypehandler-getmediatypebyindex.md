@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler_getmediatypebyindex.htm
 tech.root: medfound
 ms.assetid: a1827675-bbc4-45d8-8c6e-644b0d2addd4
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: GetMediaTypeByIndex, GetMediaTypeByIndex method [Media Foundation], GetMediaTypeByIndex method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeByIndex method, IMFMediaTypeHandler.GetMediaTypeByIndex, IMFMediaTypeHandler::GetMediaTypeByIndex, a1827675-bbc4-45d8-8c6e-644b0d2addd4, mf.imfmediatypehandler_getmediatypebyindex, mfidl/IMFMediaTypeHandler::GetMediaTypeByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

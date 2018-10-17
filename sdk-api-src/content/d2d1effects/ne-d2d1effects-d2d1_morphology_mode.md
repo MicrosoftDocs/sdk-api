@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_morphology_mode.htm
 tech.root: direct2d
 ms.assetid: 59402C6A-1F69-4766-A328-2EE6868F09DD
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: D2D1_MORPHOLOGY_MODE, D2D1_MORPHOLOGY_MODE enumeration [Direct2D], D2D1_MORPHOLOGY_MODE_DILATE, D2D1_MORPHOLOGY_MODE_ERODE, d2d1effects/D2D1_MORPHOLOGY_MODE, d2d1effects/D2D1_MORPHOLOGY_MODE_DILATE, d2d1effects/D2D1_MORPHOLOGY_MODE_ERODE, direct2d.d2d1_morphology_mode
 ms.prod: windows
 ms.technology: windows-sdk

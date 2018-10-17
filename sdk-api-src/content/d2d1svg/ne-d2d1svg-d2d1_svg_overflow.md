@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_svg_overflow.htm
 tech.root: direct2d
 ms.assetid: 5023A745-9012-47C8-ACE6-D68218B2C17B
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: D2D1_SVG_OVERFLOW, D2D1_SVG_OVERFLOW enumeration [Direct2D], D2D1_SVG_OVERFLOW_FORCE_DWORD, D2D1_SVG_OVERFLOW_HIDDEN, D2D1_SVG_OVERFLOW_VISIBLE, d2d1svg/D2D1_SVG_OVERFLOW, d2d1svg/D2D1_SVG_OVERFLOW_FORCE_DWORD, d2d1svg/D2D1_SVG_OVERFLOW_HIDDEN, d2d1svg/D2D1_SVG_OVERFLOW_VISIBLE, direct2d.d2d1_svg_overflow
 ms.prod: windows
 ms.technology: windows-sdk

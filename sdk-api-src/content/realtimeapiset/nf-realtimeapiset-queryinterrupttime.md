@@ -7,7 +7,7 @@ old-location: base\queryinterrupttime.htm
 tech.root: sysinfo
 ms.assetid: FB2B179B-5E44-4201-86E2-DB386607FD90
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: QueryInterruptTime, QueryInterruptTime function, base.queryinterrupttime, realtimeapiset/QueryInterruptTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

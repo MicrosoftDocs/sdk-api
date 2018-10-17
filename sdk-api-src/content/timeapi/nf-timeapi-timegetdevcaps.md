@@ -7,7 +7,7 @@ old-location: multimedia\timegetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 7b5a9675-1152-4c9e-bc79-fe9afa5c563c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: "_win32_timeGetDevCaps, mmsystem/timeGetDevCaps, multimedia.timegetdevcaps, timeGetDevCaps, timeGetDevCaps function [Windows Multimedia], timeapi/timeGetDevCaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

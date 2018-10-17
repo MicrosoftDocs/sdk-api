@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamextension.htm
 tech.root: medfound
 ms.assetid: 33A2DC3D-4B92-45B5-B67A-7F3AA55F061B
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamExtension method, ID3D11VideoContext.VideoProcessorGetStreamExtension, ID3D11VideoContext::VideoProcessorGetStreamExtension, VideoProcessorGetStreamExtension, VideoProcessorGetStreamExtension method [Media Foundation], VideoProcessorGetStreamExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamExtension, mf.id3d11videocontext_videoprocessorgetstreamextension
 ms.prod: windows-hardware
 ms.technology: windows-devices

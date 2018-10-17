@@ -7,7 +7,7 @@ old-location: security\cert_private_key_validity.htm
 tech.root: seccrypto
 ms.assetid: 4764174f-eecc-402e-8395-d3e2be0b0ae6
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: "*PCERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY structure [Security], PCERT_PRIVATE_KEY_VALIDITY, PCERT_PRIVATE_KEY_VALIDITY structure pointer [Security], _CERT_PRIVATE_KEY_VALIDITY, _crypto2_cert_private_key_validity, security.cert_private_key_validity, wincrypt/CERT_PRIVATE_KEY_VALIDITY, wincrypt/PCERT_PRIVATE_KEY_VALIDITY"
 ms.prod: windows
 ms.technology: windows-sdk

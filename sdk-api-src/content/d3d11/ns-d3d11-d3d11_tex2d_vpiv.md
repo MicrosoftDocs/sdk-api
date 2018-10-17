@@ -7,7 +7,7 @@ old-location: mf\d3d11_tex2d_vpiv.htm
 tech.root: medfound
 ms.assetid: F174DF16-6E2F-4AE1-80D9-7565F96DE03A
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: D3D11_TEX2D_VPIV, D3D11_TEX2D_VPIV structure [Media Foundation], d3d11/D3D11_TEX2D_VPIV, mf.d3d11_tex2d_vpiv
 ms.prod: windows
 ms.technology: windows-sdk

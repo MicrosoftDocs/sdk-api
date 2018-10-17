@@ -7,7 +7,7 @@ old-location: mf\imfpmphostapp_lockprocess.htm
 tech.root: medfound
 ms.assetid: ee3da924-a90a-4736-812e-f392631177c2
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: IMFPMPHostApp interface [Media Foundation],LockProcess method, IMFPMPHostApp.LockProcess, IMFPMPHostApp::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPHostApp interface, mf.imfpmphostapp_lockprocess, mfidl/IMFPMPHostApp::LockProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

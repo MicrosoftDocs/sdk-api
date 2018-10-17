@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_extract_encoded_signature_parameters_func.htm
 tech.root: seccrypto
 ms.assetid: 2b990a1d-8913-49bc-920f-253b38871eb6
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback function [Security], security.pfn_crypt_extract_encoded_signature_parameters_func, wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
 ms.prod: windows
 ms.technology: windows-sdk

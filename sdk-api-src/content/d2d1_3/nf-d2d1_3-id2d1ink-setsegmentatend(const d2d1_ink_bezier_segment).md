@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_setsegmentatend.htm
 tech.root: direct2d
 ms.assetid: E80083E4-7BBB-4AF5-81EB-49E68D6521F7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/16/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetSegmentAtEnd method, ID2D1Ink.SetSegmentAtEnd, ID2D1Ink.SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT), ID2D1Ink::SetSegmentAtEnd, ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT), SetSegmentAtEnd, SetSegmentAtEnd method [Direct2D], SetSegmentAtEnd method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetSegmentAtEnd, direct2d.id2d1ink_setsegmentatend
 ms.prod: windows-hardware
 ms.technology: windows-devices

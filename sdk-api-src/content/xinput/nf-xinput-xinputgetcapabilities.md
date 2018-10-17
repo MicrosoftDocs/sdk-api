@@ -63,7 +63,7 @@ Retrieves the capabilities and features of a connected controller.
 
 ### -param dwUserIndex [in]
 
-Index of the user's controller. Can be a value in the range 0–3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://msdn.microsoft.com/en-us/library/Ee417001(v=VS.85).aspx">Multiple Controllers</a>. 
+Index of the user's controller. Can be a value in the range 0–3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="getting_started_with_xinput.htm">Multiple Controllers</a>. 
 
 
 ### -param dwFlags [in]
@@ -87,7 +87,7 @@ Any value of <i>dwflags</i> other than the above or 0 is illegal and will result
 
 ### -param pCapabilities [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419269(v=VS.85).aspx">XINPUT_CAPABILITIES</a> structure that receives the controller capabilities.
+Pointer to an <a href="https://msdn.microsoft.com/B156DBFD-2F78-421D-A996-D4911142139E">XINPUT_CAPABILITIES</a> structure that receives the controller capabilities.
 
 
 ## -returns
@@ -126,11 +126,11 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3), Windows Vista (XInput 9.1.0)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://msdn.microsoft.com/D261219D-0175-4690-8F1F-BDAACE2E7424">XInputGetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419268(v=VS.85).aspx">XInputSetState</a>
+<a href="https://msdn.microsoft.com/FA494AEB-9FB9-4AF4-95AB-01048A60D924">XInputSetState</a>
  
 
  
