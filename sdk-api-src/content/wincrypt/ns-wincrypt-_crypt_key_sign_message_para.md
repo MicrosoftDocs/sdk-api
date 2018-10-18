@@ -7,7 +7,7 @@ old-location: security\crypt_key_sign_message_para.htm
 tech.root: seccrypto
 ms.assetid: d5426ad6-2181-42ce-99f2-cc6cc83e20a8
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: "*PCRYPT_KEY_SIGN_MESSAGE_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_KEY_SIGN_MESSAGE_PARA, CRYPT_KEY_SIGN_MESSAGE_PARA structure [Security], PCRYPT_KEY_SIGN_MESSAGE_PARA, PCRYPT_KEY_SIGN_MESSAGE_PARA structure pointer [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _CRYPT_KEY_SIGN_MESSAGE_PARA, security.crypt_key_sign_message_para, wincrypt/CRYPT_KEY_SIGN_MESSAGE_PARA, wincrypt/PCRYPT_KEY_SIGN_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

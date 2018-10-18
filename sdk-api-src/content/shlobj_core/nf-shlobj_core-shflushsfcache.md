@@ -7,7 +7,7 @@ old-location: shell\SHFlushSFCache.htm
 tech.root: shell
 ms.assetid: 2e39b6b1-e60c-411c-aabc-5a3511f0693b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: SHFlushSFCache, SHFlushSFCache function [Windows Shell], _win32_SHFlushSFCache, shell.SHFlushSFCache, shlobj_core/SHFlushSFCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

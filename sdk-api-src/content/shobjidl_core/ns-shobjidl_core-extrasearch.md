@@ -7,7 +7,7 @@ old-location: shell\EXTRASEARCH.htm
 tech.root: shell
 ms.assetid: d930a00b-3084-4da7-8915-0bebdb33df9b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: "*LPEXTRASEARCH, EXTRASEARCH, EXTRASEARCH structure [Windows Shell], LPEXTRASEARCH, LPEXTRASEARCH structure pointer [Windows Shell], _win32_EXTRASEARCH, shell.EXTRASEARCH, shobjidl_core/EXTRASEARCH, shobjidl_core/LPEXTRASEARCH"
 ms.prod: windows
 ms.technology: windows-sdk

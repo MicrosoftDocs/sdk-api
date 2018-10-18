@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1BitmapBrush_SetBitmap.htm
 tech.root: direct2d
 ms.assetid: 776dba7f-11d0-4055-9071-8719ac192f00
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetBitmap method, ID2D1BitmapBrush.SetBitmap, ID2D1BitmapBrush::SetBitmap, SetBitmap, SetBitmap method [Direct2D], SetBitmap method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetBitmap, direct2d.ID2D1BitmapBrush_SetBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

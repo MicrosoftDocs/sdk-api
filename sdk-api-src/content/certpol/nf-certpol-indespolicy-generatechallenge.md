@@ -7,7 +7,7 @@ old-location: security\indespolicy_generatechallenge.htm
 tech.root: seccrypto
 ms.assetid: e09ef64c-5b4c-41ef-942a-1080cd566a5b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: GenerateChallenge, GenerateChallenge method [Security], GenerateChallenge method [Security],INDESPolicy interface, INDESPolicy interface [Security],GenerateChallenge method, INDESPolicy.GenerateChallenge, INDESPolicy::GenerateChallenge, certpol/INDESPolicy::GenerateChallenge, security.indespolicy_generatechallenge
 ms.prod: windows-hardware
 ms.technology: windows-devices

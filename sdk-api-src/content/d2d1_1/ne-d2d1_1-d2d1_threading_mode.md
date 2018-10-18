@@ -7,7 +7,7 @@ old-location: direct2d\__d2d1_threading_mode.htm
 tech.root: direct2d
 ms.assetid: 21fba5ee-3d31-4142-b66a-94b343e1c6eb
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: D2D1_THREADING_MODE, D2D1_THREADING_MODE enumeration [Direct2D], D2D1_THREADING_MODE_MULTI_THREADED, D2D1_THREADING_MODE_SINGLE_THREADED, d2d1_1/D2D1_THREADING_MODE, d2d1_1/D2D1_THREADING_MODE_MULTI_THREADED, d2d1_1/D2D1_THREADING_MODE_SINGLE_THREADED, direct2d.__d2d1_threading_mode
 ms.prod: windows
 ms.technology: windows-sdk

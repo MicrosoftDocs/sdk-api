@@ -7,7 +7,7 @@ old-location: security\cryptregisteroidinfo.htm
 tech.root: seccrypto
 ms.assetid: 7a5b4800-3182-4cd4-b17a-c6d4e11f7047
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: CryptRegisterOIDInfo, CryptRegisterOIDInfo function [Security], _crypto2_cryptregisteroidinfo, security.cryptregisteroidinfo, wincrypt/CryptRegisterOIDInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

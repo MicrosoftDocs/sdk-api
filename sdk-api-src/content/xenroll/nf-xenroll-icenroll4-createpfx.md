@@ -7,7 +7,7 @@ old-location: security\icenroll4_createpfx.htm
 tech.root: seccrypto
 ms.assetid: 37b69fc6-db16-4491-b596-4ef76e5414b3
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.keywords: CEnroll object [Security],createPFX method, ICEnroll4 interface [Security],createPFX method, ICEnroll4.createPFX, ICEnroll4::createPFX, _xen_icenroll4_createpfx, createPFX, createPFX method [Security], createPFX method [Security],CEnroll object, createPFX method [Security],ICEnroll4 interface, security.icenroll4_createpfx, xenroll/ICEnroll4::createPFX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ A password for the PFX-format message. This value can be empty or <b>NULL</b> to
 
 ### -param pstrPFX [out]
 
-A pointer to a <b>BSTR</b> that receives the base64-encoded PFX format certificate information. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the base64-encoded PFX format certificate information. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns

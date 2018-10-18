@@ -81,9 +81,13 @@ Identifies the <b>high layer information</b> field in the B-LLI information elem
 The following are the manifest constants associated with the 
 <b>ATM_BHLI</b> structure:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 /* 
  *  values used for the HighLayerInfoType field in struct ATM_BHLI
  */
@@ -92,10 +96,10 @@ The following are the manifest constants associated with the
 #define BHLI_UserSpecific          0x01   /* User Specific                       */
 #define BHLI_HighLayerProfile      0x02   /* High layer profile (only in UNI3.0) */
 #define BHLI_VendorSpecificAppId   0x03   /* Vendor-Specific Application ID      */
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

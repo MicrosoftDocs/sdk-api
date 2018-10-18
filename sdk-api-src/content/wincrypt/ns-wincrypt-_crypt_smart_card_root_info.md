@@ -7,7 +7,7 @@ old-location: security\crypt_smart_card_root_info.htm
 tech.root: seccrypto
 ms.assetid: 165a1a9e-e426-4823-8d1b-f13c338964c9
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: "*PCRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO structure [Security], PCRYPT_SMART_CARD_ROOT_INFO, PCRYPT_SMART_CARD_ROOT_INFO structure pointer [Security], _CRYPT_SMART_CARD_ROOT_INFO, security.crypt_smart_card_root_info, wincrypt/CRYPT_SMART_CARD_ROOT_INFO, wincrypt/PCRYPT_SMART_CARD_ROOT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\dxva2_decodeexecuteparams.htm
 tech.root: medfound
 ms.assetid: e0e95e9b-6d53-4b90-a933-243023dc31ef
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: DXVA2_DecodeExecuteParams, DXVA2_DecodeExecuteParams structure [Media Foundation], _DXVA2_DecodeExecuteParams, dxva2api/DXVA2_DecodeExecuteParams, e0e95e9b-6d53-4b90-a933-243023dc31ef, mf.dxva2_decodeexecuteparams
 ms.prod: windows
 ms.technology: windows-sdk

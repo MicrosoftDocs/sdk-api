@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_AddSeparator.htm
 tech.root: shell
 ms.assetid: e2d0f1c7-9296-4651-8910-89dcfe5a6a68
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: AddSeparator, AddSeparator method [Windows Shell], AddSeparator method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddSeparator method, IFileDialogCustomize.AddSeparator, IFileDialogCustomize::AddSeparator, shell.IFileDialogCustomize_AddSeparator, shell_IFileDialogCustomize_AddSeparator, shobjidl_core/IFileDialogCustomize::AddSeparator
 ms.prod: windows-hardware
 ms.technology: windows-devices

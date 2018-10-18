@@ -7,7 +7,7 @@ old-location: shell\PathStripToRoot.htm
 tech.root: shell
 ms.assetid: ce9a1a40-2a03-44d2-80bc-0dc10654550b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: PathStripToRoot, PathStripToRoot function [Windows Shell], PathStripToRootA, PathStripToRootW, _win32_PathStripToRoot, shell.PathStripToRoot, shlwapi/PathStripToRoot, shlwapi/PathStripToRootA, shlwapi/PathStripToRootW
 ms.prod: windows-hardware
 ms.technology: windows-devices

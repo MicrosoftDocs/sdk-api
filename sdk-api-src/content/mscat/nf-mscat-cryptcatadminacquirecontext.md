@@ -7,7 +7,7 @@ old-location: security\cryptcatadminacquirecontext.htm
 tech.root: seccrypto
 ms.assetid: 693af055-fa93-4526-aa9c-3a659f8ff78f
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: CryptCATAdminAcquireContext, CryptCATAdminAcquireContext function [Security], mscat/CryptCATAdminAcquireContext, security.cryptcatadminacquirecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

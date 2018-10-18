@@ -7,7 +7,7 @@ old-location: shell\IUserNotificationCallback_OnBalloonUserClick.htm
 tech.root: shell
 ms.assetid: b7360a2b-30ed-459e-ab6d-56a2127c2668
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnBalloonUserClick method, IUserNotificationCallback.OnBalloonUserClick, IUserNotificationCallback::OnBalloonUserClick, OnBalloonUserClick, OnBalloonUserClick method [Windows Shell], OnBalloonUserClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnBalloonUserClick, shell.IUserNotificationCallback_OnBalloonUserClick, shobjidl/IUserNotificationCallback::OnBalloonUserClick
 ms.prod: windows-hardware
 ms.technology: windows-devices

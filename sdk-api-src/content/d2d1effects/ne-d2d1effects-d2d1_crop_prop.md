@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_crop_prop.htm
 tech.root: direct2d
 ms.assetid: E9C00E8A-AD1E-475C-9B81-A5EB995669C6
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: D2D1_CROP_PROP, D2D1_CROP_PROP enumeration [Direct2D], D2D1_CROP_PROP_BORDER_MODE, D2D1_CROP_PROP_RECT, d2d1effects/D2D1_CROP_PROP, d2d1effects/D2D1_CROP_PROP_BORDER_MODE, d2d1effects/D2D1_CROP_PROP_RECT, direct2d.d2d1_crop_prop
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\SHGetDesktopFolder.htm
 tech.root: shell
 ms.assetid: 121cbd41-d512-4f33-b89c-d0dd9933df87
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: SHGetDesktopFolder, SHGetDesktopFolder function [Windows Shell], _win32_SHGetDesktopFolder, shell.SHGetDesktopFolder, shlobj_core/SHGetDesktopFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

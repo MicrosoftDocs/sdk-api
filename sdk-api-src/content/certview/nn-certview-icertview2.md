@@ -7,7 +7,7 @@ old-location: security\icertview2.htm
 tech.root: seccrypto
 ms.assetid: c29f1db3-0cdf-463e-a202-47fbba8e1c81
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: ICertView2, ICertView2 interface [Security], ICertView2 interface [Security],described, _certsrv_icertview2, certview/ICertView2, security.icertview2
 ms.prod: windows
 ms.technology: windows-sdk

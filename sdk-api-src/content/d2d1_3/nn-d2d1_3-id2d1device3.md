@@ -7,7 +7,7 @@ old-location: direct2d\id2d1device3.htm
 tech.root: direct2d
 ms.assetid: 60CB6308-85BE-424B-9950-1C8617D08A09
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1Device3, ID2D1Device3 interface [Direct2D], ID2D1Device3 interface [Direct2D],described, d2d1_3/ID2D1Device3, direct2d.id2d1device3
 ms.prod: windows
 ms.technology: windows-sdk

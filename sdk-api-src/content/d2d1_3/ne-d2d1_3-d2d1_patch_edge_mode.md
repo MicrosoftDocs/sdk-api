@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_patch_edge_mode.htm
 tech.root: direct2d
 ms.assetid: 5AE38632-B068-4A14-9DAB-67FD58E3894B
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: D2D1_PATCH_EDGE_MODE, D2D1_PATCH_EDGE_MODE enumeration [Direct2D], D2D1_PATCH_EDGE_MODE_ALIASED, D2D1_PATCH_EDGE_MODE_ALIASED_INFLATED, D2D1_PATCH_EDGE_MODE_ANTIALIASED, d2d1_3/D2D1_PATCH_EDGE_MODE, d2d1_3/D2D1_PATCH_EDGE_MODE_ALIASED, d2d1_3/D2D1_PATCH_EDGE_MODE_ALIASED_INFLATED, d2d1_3/D2D1_PATCH_EDGE_MODE_ANTIALIASED, direct2d.d2d1_patch_edge_mode
 ms.prod: windows
 ms.technology: windows-sdk

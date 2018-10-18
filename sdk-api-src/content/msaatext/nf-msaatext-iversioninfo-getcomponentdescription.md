@@ -7,7 +7,7 @@ old-location: winauto\iversioninfo_iversioninfo__getcomponentdescription.htm
 tech.root: WinAuto
 ms.assetid: bb689adb-bd94-4c62-b408-33e1aa694c89
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: GetComponentDescription, GetComponentDescription method [Windows Accessibility], GetComponentDescription method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetComponentDescription method, IVersionInfo.GetComponentDescription, IVersionInfo::GetComponentDescription, _msaa_IVersionInfo_GetComponentDescription, msaa.iversioninfo_iversioninfo__getcomponentdescription, msaatext/IVersionInfo::GetComponentDescription, winauto.iversioninfo_iversioninfo__getcomponentdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

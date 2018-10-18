@@ -7,7 +7,7 @@ old-location: security\ienroll4_castorenamewstr.htm
 tech.root: seccrypto
 ms.assetid: 4c016649-a780-45c1-94a4-fb08c15c4e0f
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.keywords: CAStoreNameWStr property [Security], CAStoreNameWStr property [Security],IEnroll interface, IEnroll interface [Security],CAStoreNameWStr property, IEnroll.CAStoreNameWStr, IEnroll.get_CAStoreNameWStr, IEnroll::CAStoreNameWStr, IEnroll::get_CAStoreNameWStr, IEnroll::put_CAStoreNameWStr, get_CAStoreNameWStr, security.ienroll4_castorenamewstr, xenroll/IEnroll::CAStoreNameWStr, xenroll/IEnroll::get_CAStoreNameWStr, xenroll/IEnroll::put_CAStoreNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

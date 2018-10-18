@@ -7,7 +7,7 @@ old-location: shell\ICategoryProvider_CreateCategory.htm
 tech.root: shell
 ms.assetid: 3703c061-4d21-4c36-900a-9ccacf4d482a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: CreateCategory, CreateCategory method [Windows Shell], CreateCategory method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],CreateCategory method, ICategoryProvider.CreateCategory, ICategoryProvider::CreateCategory, inet_ICategoryProvider_CreateCategory, shell.ICategoryProvider_CreateCategory, shobjidl_core/ICategoryProvider::CreateCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

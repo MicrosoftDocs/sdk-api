@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__ResizeView.htm
 tech.root: shell
 ms.assetid: 12b38906-f22a-490d-9b2f-192eb43a8305
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeView method, IBrowserService2._ResizeView, IBrowserService2::_ResizeView, _ResizeView, _ResizeView method [Windows Shell], _ResizeView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeView, shell.IBrowserService2__ResizeView, zone_IBrowserService2__ResizeView
 ms.prod: windows-hardware
 ms.technology: windows-devices

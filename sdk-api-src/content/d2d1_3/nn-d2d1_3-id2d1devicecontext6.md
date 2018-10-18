@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext6.htm
 tech.root: direct2d
 ms.assetid: 474788F4-8AD7-4D5C-BF0B-9542E69620A9
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1DeviceContext6, ID2D1DeviceContext6 interface [Direct2D], ID2D1DeviceContext6 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext6, direct2d.id2d1devicecontext6
 ms.prod: windows
 ms.technology: windows-sdk

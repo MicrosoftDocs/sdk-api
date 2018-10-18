@@ -7,7 +7,7 @@ old-location: shell\LongToUChar.htm
 tech.root: shell
 ms.assetid: 04c675f0-8193-4a21-a00f-03f010896b31
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: LongToUChar, LongToUChar function [Windows Shell], _shell_LongToUChar, intsafe/LongToUChar, shell.LongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

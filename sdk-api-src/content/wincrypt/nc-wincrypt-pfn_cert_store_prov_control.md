@@ -7,7 +7,7 @@ old-location: security\certstoreprovcontrol.htm
 tech.root: seccrypto
 ms.assetid: 0725d562-d04c-4fde-97f4-a294290266ee
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: CertStoreProvControl, CertStoreProvControl callback function [Security], PFN_CERT_STORE_PROV_CONTROL, PFN_CERT_STORE_PROV_CONTROL callback, _crypto2_certstoreprovcontrol, security.certstoreprovcontrol, wincrypt/CertStoreProvControl
 ms.prod: windows
 ms.technology: windows-sdk

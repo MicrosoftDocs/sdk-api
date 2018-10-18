@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewCB.htm
 tech.root: shell
 ms.assetid: 0cd2bce8-d77a-4140-869b-707aaa279796
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IShellFolderViewCB, IShellFolderViewCB interface [Windows Shell], IShellFolderViewCB interface [Windows Shell],described, _win32_IShellFolderViewCB, shell.IShellFolderViewCB, shlobj_core/IShellFolderViewCB
 ms.prod: windows
 ms.technology: windows-sdk

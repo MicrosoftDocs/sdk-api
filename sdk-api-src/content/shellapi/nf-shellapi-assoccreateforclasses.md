@@ -7,7 +7,7 @@ old-location: shell\AssocCreateForClasses.htm
 tech.root: shell
 ms.assetid: 43257507-dd5e-4622-8445-c132187fd1e5
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: AssocCreateForClasses, AssocCreateForClasses function [Windows Shell], _shell_AssocCreateForClasses, shell.AssocCreateForClasses, shellapi/AssocCreateForClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

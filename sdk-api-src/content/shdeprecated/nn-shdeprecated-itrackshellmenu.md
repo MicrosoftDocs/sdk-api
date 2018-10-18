@@ -7,7 +7,7 @@ old-location: shell\ITrackShellMenu.htm
 tech.root: shell
 ms.assetid: 187796db-2932-482e-833a-b4674f009b71
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: ITrackShellMenu, ITrackShellMenu interface [Windows Shell], ITrackShellMenu interface [Windows Shell],described, _shell_ITrackShellMenu, shdeprecated/ITrackShellMenu, shell.ITrackShellMenu
 ms.prod: windows
 ms.technology: windows-sdk

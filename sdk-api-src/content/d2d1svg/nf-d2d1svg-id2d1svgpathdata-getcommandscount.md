@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpathdata_getcommandscount.htm
 tech.root: direct2d
 ms.assetid: FF5AC30D-6EEF-4963-BC1C-979F8747DABA
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: GetCommandsCount, GetCommandsCount method [Direct2D], GetCommandsCount method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetCommandsCount method, ID2D1SvgPathData.GetCommandsCount, ID2D1SvgPathData::GetCommandsCount, d2d1svg/ID2D1SvgPathData::GetCommandsCount, direct2d.id2d1svgpathdata_getcommandscount
 ms.prod: windows-hardware
 ms.technology: windows-devices

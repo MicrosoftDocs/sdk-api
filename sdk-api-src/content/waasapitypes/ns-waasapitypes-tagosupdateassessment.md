@@ -7,7 +7,7 @@ old-location: base\osupdateassessment.htm
 tech.root: sysinfo
 ms.assetid: D76D0587-E31E-48D2-9DF6-33444E4CA325
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: OSUpdateAssessment, OSUpdateAssessment structure, base.osupdateassessment, tagOSUpdateAssessment, waasapitypes/OSUpdateAssessment
 ms.prod: windows
 ms.technology: windows-sdk

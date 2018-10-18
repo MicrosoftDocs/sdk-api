@@ -7,7 +7,7 @@ old-location: shell\IApplicationDesignModeSettings_SetNativeDisplaySize.htm
 tech.root: shell
 ms.assetid: fc301573-6550-4e21-b82b-7800bbf34ea6
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetNativeDisplaySize method, IApplicationDesignModeSettings.SetNativeDisplaySize, IApplicationDesignModeSettings::SetNativeDisplaySize, SetNativeDisplaySize, SetNativeDisplaySize method [Windows Shell], SetNativeDisplaySize method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetNativeDisplaySize, shobjidl_core/IApplicationDesignModeSettings::SetNativeDisplaySize
 ms.prod: windows-hardware
 ms.technology: windows-devices

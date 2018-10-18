@@ -7,7 +7,7 @@ old-location: shell\DefSubclassProc.htm
 tech.root: shell
 ms.assetid: 43b1efa5-11da-4a95-8d81-b0d8ae64733a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: DefSubclassProc, DefSubclassProc function [Windows Shell], commctrl/DefSubclassProc, inet_DefSubclassProc, shell.DefSubclassProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

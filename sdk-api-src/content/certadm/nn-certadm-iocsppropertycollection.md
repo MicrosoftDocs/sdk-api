@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection.htm
 tech.root: seccrypto
 ms.assetid: 8c700357-0cb4-4780-9ff1-ac57c46f9183
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], IOCSPPropertyCollection interface [Security],described, certadm/IOCSPPropertyCollection, security.iocsppropertycollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagesourcefromwic.htm
 tech.root: direct2d
 ms.assetid: EA1F1377-A314-4375-AB86-A36CFE5AF0C8
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1ImageSourceFromWic, ID2D1ImageSourceFromWic interface [Direct2D], ID2D1ImageSourceFromWic interface [Direct2D],described, d2d1_3/ID2D1ImageSourceFromWic, direct2d.id2d1imagesourcefromwic
 ms.prod: windows
 ms.technology: windows-sdk

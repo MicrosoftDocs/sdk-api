@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transformgraph_setoutputnode.htm
 tech.root: direct2d
 ms.assetid: 46C92F32-6D1B-49B8-B44A-F5415E670D9C
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],SetOutputNode method, ID2D1TransformGraph.SetOutputNode, ID2D1TransformGraph::SetOutputNode, SetOutputNode, SetOutputNode method [Direct2D], SetOutputNode method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::SetOutputNode, direct2d.id2d1transformgraph_setoutputnode
 ms.prod: windows-hardware
 ms.technology: windows-devices

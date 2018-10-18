@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getcurrentimage.htm
 tech.root: medfound
 ms.assetid: 25ec4c23-04dd-4e18-9cc1-de9e57271e8f
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: 25ec4c23-04dd-4e18-9cc1-de9e57271e8f, GetCurrentImage, GetCurrentImage method [Media Foundation], GetCurrentImage method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetCurrentImage method, IMFVideoDisplayControl.GetCurrentImage, IMFVideoDisplayControl::GetCurrentImage, evr/IMFVideoDisplayControl::GetCurrentImage, mf.imfvideodisplaycontrol_getcurrentimage
 ms.prod: windows-hardware
 ms.technology: windows-devices

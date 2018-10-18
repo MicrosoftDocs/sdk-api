@@ -7,7 +7,7 @@ old-location: shell\WriteCabinetState.htm
 tech.root: shell
 ms.assetid: cbd08812-eedc-4ba7-827e-1e5d1e3e6368
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: WriteCabinetState, WriteCabinetState function [Windows Shell], _win32_WriteCabinetState, shell.WriteCabinetState, shlobj_core/WriteCabinetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

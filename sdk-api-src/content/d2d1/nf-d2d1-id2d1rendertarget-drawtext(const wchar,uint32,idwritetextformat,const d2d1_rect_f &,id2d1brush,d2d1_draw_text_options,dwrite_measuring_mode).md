@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextForma
 tech.root: direct2d
 ms.assetid: 226de985-0d7a-4891-83a0-b1f022ff8bd3
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: DrawText, DrawText method [Direct2D], DrawText method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawText method, ID2D1RenderTarget.DrawText, ID2D1RenderTarget.DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), ID2D1RenderTarget::DrawText, ID2D1RenderTarget::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), d2d1/ID2D1RenderTarget::DrawText, direct2d.ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ref_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices

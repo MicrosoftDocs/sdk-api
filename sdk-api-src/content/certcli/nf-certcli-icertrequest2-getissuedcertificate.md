@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getissuedcertificate.htm
 tech.root: seccrypto
 ms.assetid: ea7f6013-a55d-4a76-9c9e-df180ba9bb79
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: CCertRequest object [Security],GetIssuedCertificate method, CR_DISP_DENIED, CR_DISP_ERROR, CR_DISP_INCOMPLETE, CR_DISP_ISSUED, CR_DISP_ISSUED_OUT_OF_BAND, CR_DISP_UNDER_SUBMISSION, GetIssuedCertificate, GetIssuedCertificate method [Security], GetIssuedCertificate method [Security],CCertRequest object, GetIssuedCertificate method [Security],ICertRequest interface, GetIssuedCertificate method [Security],ICertRequest2 interface, GetIssuedCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetIssuedCertificate method, ICertRequest2 interface [Security],GetIssuedCertificate method, ICertRequest2.GetIssuedCertificate, ICertRequest2::GetIssuedCertificate, ICertRequest3 interface [Security],GetIssuedCertificate method, ICertRequest3::GetIssuedCertificate, ICertRequest::GetIssuedCertificate, _certsrv_icertrequest2_getissuedcertificate, certcli/ICertRequest2::GetIssuedCertificate, certcli/ICertRequest3::GetIssuedCertificate, certcli/ICertRequest::GetIssuedCertificate, security.icertrequest2_getissuedcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cert_context.htm
 tech.root: seccrypto
 ms.assetid: f0a3200e-6541-423d-a4a3-595a31026eea
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: "*PCERT_CONTEXT, CERT_CONTEXT, CERT_CONTEXT structure [Security], PCCERT_CONTEXT, PCCERT_CONTEXT structure pointer [Security], PCERT_CONTEXT, PCERT_CONTEXT structure pointer [Security], _CERT_CONTEXT, _crypto2_cert_context, security.cert_context, wincrypt/CERT_CONTEXT, wincrypt/PCCERT_CONTEXT, wincrypt/PCERT_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

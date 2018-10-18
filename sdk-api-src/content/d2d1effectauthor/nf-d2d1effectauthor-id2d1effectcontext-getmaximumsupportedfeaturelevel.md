@@ -7,7 +7,7 @@ old-location: direct2d\id2d1contextinternal_getfeaturelevel.htm
 tech.root: direct2d
 ms.assetid: BDB553F8-C19D-46FC-A3CF-7E525DA81CE2
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: GetMaximumSupportedFeatureLevel, GetMaximumSupportedFeatureLevel method [Direct2D], GetMaximumSupportedFeatureLevel method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],GetMaximumSupportedFeatureLevel method, ID2D1EffectContext.GetMaximumSupportedFeatureLevel, ID2D1EffectContext::GetMaximumSupportedFeatureLevel, d2d1effectauthor/ID2D1EffectContext::GetMaximumSupportedFeatureLevel, direct2d.id2d1contextinternal_getfeaturelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

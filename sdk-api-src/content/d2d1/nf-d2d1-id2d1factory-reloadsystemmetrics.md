@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_ReloadSystemMetrics.htm
 tech.root: direct2d
 ms.assetid: 32c831c4-73e1-49f8-8d58-4248ae99fe37
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1Factory interface [Direct2D],ReloadSystemMetrics method, ID2D1Factory.ReloadSystemMetrics, ID2D1Factory::ReloadSystemMetrics, ReloadSystemMetrics, ReloadSystemMetrics method [Direct2D], ReloadSystemMetrics method [Direct2D],ID2D1Factory interface, d2d1/ID2D1Factory::ReloadSystemMetrics, direct2d.ID2D1Factory_ReloadSystemMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices

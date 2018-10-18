@@ -7,7 +7,7 @@ old-location: direct2d\id2d1gradientstopcollection1_getbufferprecision.htm
 tech.root: direct2d
 ms.assetid: 6a59c903-0fa8-4d2c-b426-8d3c3410c6bd
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: GetBufferPrecision, GetBufferPrecision method [Direct2D], GetBufferPrecision method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetBufferPrecision method, ID2D1GradientStopCollection1.GetBufferPrecision, ID2D1GradientStopCollection1::GetBufferPrecision, d2d1_1/ID2D1GradientStopCollection1::GetBufferPrecision, direct2d.id2d1gradientstopcollection1_getbufferprecision
 ms.prod: windows-hardware
 ms.technology: windows-devices

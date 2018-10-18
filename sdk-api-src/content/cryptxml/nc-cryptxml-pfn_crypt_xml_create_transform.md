@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_xml_create_transform.htm
 tech.root: seccrypto
 ms.assetid: d9228015-d5e7-4c72-9561-be4ee5fa4264
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: PFN_CRYPT_XML_CREATE_TRANSFORM, PFN_CRYPT_XML_CREATE_TRANSFORM callback, PFN_CRYPT_XML_CREATE_TRANSFORM callback function [Security], cryptxml/PFN_CRYPT_XML_CREATE_TRANSFORM, security.pfn_crypt_xml_create_transform
 ms.prod: windows
 ms.technology: windows-sdk

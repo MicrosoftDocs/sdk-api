@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentCanMaximize.htm
 tech.root: WinAuto
 ms.assetid: fa367c47-57be-4e4e-909a-02cca682d1c0
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: CurrentCanMaximize property [Windows Accessibility], CurrentCanMaximize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentCanMaximize property, IUIAutomationWindowPattern.CurrentCanMaximize, IUIAutomationWindowPattern.get_CurrentCanMaximize, IUIAutomationWindowPattern::CurrentCanMaximize, IUIAutomationWindowPattern::get_CurrentCanMaximize, get_CurrentCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize, uiauto_IUIAutomationWindowPattern_CurrentCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CurrentCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CurrentCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize
 ms.prod: windows-hardware
 ms.technology: windows-devices

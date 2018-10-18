@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_EnableOpenDropDown.htm
 tech.root: shell
 ms.assetid: b4626030-0fc7-4329-b897-01f4ce8728a0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: EnableOpenDropDown, EnableOpenDropDown method [Windows Shell], EnableOpenDropDown method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EnableOpenDropDown method, IFileDialogCustomize.EnableOpenDropDown, IFileDialogCustomize::EnableOpenDropDown, shell.IFileDialogCustomize_EnableOpenDropDown, shell_IFileDialogCustomize_EnableOpenDropDown, shobjidl_core/IFileDialogCustomize::EnableOpenDropDown
 ms.prod: windows-hardware
 ms.technology: windows-devices

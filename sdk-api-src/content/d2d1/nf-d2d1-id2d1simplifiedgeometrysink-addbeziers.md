@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1SimplifiedGeometrySink_AddBeziers.htm
 tech.root: direct2d
 ms.assetid: 9f079b38-b8ba-40b2-a5ed-4c9732cfd0c6
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: AddBeziers, AddBeziers method [Direct2D], AddBeziers method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],AddBeziers method, ID2D1SimplifiedGeometrySink.AddBeziers, ID2D1SimplifiedGeometrySink::AddBeziers, d2d1/ID2D1SimplifiedGeometrySink::AddBeziers, direct2d.ID2D1SimplifiedGeometrySink_AddBeziers
 ms.prod: windows-hardware
 ms.technology: windows-devices

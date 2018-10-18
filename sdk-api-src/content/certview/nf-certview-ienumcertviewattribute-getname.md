@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_getname.htm
 tech.root: seccrypto
 ms.assetid: c2409bf1-0571-479e-8499-010d52cfb776
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetName method, IEnumCERTVIEWATTRIBUTE.GetName, IEnumCERTVIEWATTRIBUTE::GetName, _certsrv_ienumcertviewattribute_getname, certview/IEnumCERTVIEWATTRIBUTE::GetName, security.ienumcertviewattribute_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices

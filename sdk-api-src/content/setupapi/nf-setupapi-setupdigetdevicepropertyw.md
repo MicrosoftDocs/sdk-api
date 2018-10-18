@@ -4,7 +4,7 @@ title: SetupDiGetDevicePropertyW function
 author: windows-sdk-content
 description: The SetupDiGetDeviceProperty function retrieves a device instance property.
 old-location: devinst\setupdigetdeviceproperty.htm
-tech.root: Benchmark
+tech.root: devinst
 ms.assetid: eac31612-e80b-44ad-b4d4-a4aa014e833f
 ms.author: windowssdkdev
 ms.date: 09/26/2018

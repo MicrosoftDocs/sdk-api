@@ -7,7 +7,7 @@ old-location: mf\itoccollection.htm
 tech.root: medfound
 ms.assetid: 10d6fc04-4444-4a47-911f-3d5bec548e28
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], ITocCollection interface [Media Foundation],described, codecapi.itoccollection, mf.itoccollection, wmcodecdsp/ITocCollection
 ms.prod: windows
 ms.technology: windows-sdk

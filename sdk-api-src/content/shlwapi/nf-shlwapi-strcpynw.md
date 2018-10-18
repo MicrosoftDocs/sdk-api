@@ -7,7 +7,7 @@ old-location: shell\StrCpyN.htm
 tech.root: shell
 ms.assetid: 7e21414d-0d82-40b9-b32f-5eaf351166da
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: StrCpyN, StrCpyN function [Windows Shell], StrCpyNW, _win32_StrCpyN, shell.StrCpyN, shlwapi/StrCpyN, shlwapi/StrCpyNW
 ms.prod: windows-hardware
 ms.technology: windows-devices

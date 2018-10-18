@@ -7,7 +7,7 @@ old-location: shell\IVisualProperties.htm
 tech.root: shell
 ms.assetid: 0f4921ad-18b4-447e-8e4b-0a40ce430137
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], IVisualProperties interface [Windows Shell],described, _shell_IVisualProperties, shell.IVisualProperties, shobjidl/IVisualProperties
 ms.prod: windows
 ms.technology: windows-sdk

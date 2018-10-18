@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetvolume.htm
 tech.root: Multimedia
 ms.assetid: 4e5da2cd-b83d-4ac3-80e1-d8ac4c6e1c42
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: MCIWndSetVolume, MCIWndSetVolume macro [Windows Multimedia], _win32_MCIWndSetVolume, multimedia.mciwndsetvolume, vfw/MCIWndSetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

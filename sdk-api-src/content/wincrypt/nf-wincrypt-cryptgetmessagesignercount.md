@@ -7,7 +7,7 @@ old-location: security\cryptgetmessagesignercount.htm
 tech.root: seccrypto
 ms.assetid: d18bda8b-b333-4b1e-8ed5-f8eff04b3168
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: CryptGetMessageSignerCount, CryptGetMessageSignerCount function [Security], _crypto2_cryptgetmessagesignercount, security.cryptgetmessagesignercount, wincrypt/CryptGetMessageSignerCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

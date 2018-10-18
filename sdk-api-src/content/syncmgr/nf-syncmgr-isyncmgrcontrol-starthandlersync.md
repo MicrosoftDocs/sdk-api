@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_StartHandlerSync.htm
 tech.root: shell
 ms.assetid: ab0e6634-d30a-4f56-94ff-3b032c789cec
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartHandlerSync method, ISyncMgrControl.StartHandlerSync, ISyncMgrControl::StartHandlerSync, StartHandlerSync, StartHandlerSync method [Windows Shell], StartHandlerSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartHandlerSync, shell.ISyncMgrControl_StartHandlerSync, syncmgr/ISyncMgrControl::StartHandlerSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

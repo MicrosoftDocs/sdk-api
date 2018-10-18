@@ -7,7 +7,7 @@ old-location: direct2d\convertcolorspace.htm
 tech.root: direct2d
 ms.assetid: 979E6FC2-52EB-4D58-B05C-523243F05B71
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ConvertColorSpace, ConvertColorSpace function [Direct2D], d2d1_1helper/ConvertColorSpace, direct2d.convertcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

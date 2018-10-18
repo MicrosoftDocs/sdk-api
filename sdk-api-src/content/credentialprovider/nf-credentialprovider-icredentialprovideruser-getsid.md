@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUser_GetSid.htm
 tech.root: shell
 ms.assetid: FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: GetSid, GetSid method [Windows Shell], GetSid method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetSid method, ICredentialProviderUser.GetSid, ICredentialProviderUser::GetSid, credentialprovider/ICredentialProviderUser::GetSid, shell.ICredentialProviderUser_GetSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink5.htm
 tech.root: direct2d
 ms.assetid: E83C96CD-FB95-4113-933D-35BE995C7BDD
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1CommandSink5, ID2D1CommandSink5 interface [Direct2D], ID2D1CommandSink5 interface [Direct2D],described, d2d1_3/ID2D1CommandSink5, direct2d.id2d1commandsink5
 ms.prod: windows
 ms.technology: windows-sdk

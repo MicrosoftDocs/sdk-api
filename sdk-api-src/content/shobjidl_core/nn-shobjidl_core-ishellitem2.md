@@ -7,7 +7,7 @@ old-location: shell\IShellItem2.htm
 tech.root: shell
 ms.assetid: e54d8385-ec67-4825-ad7c-431807a4fcb4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IShellItem2, IShellItem2 interface [Windows Shell], IShellItem2 interface [Windows Shell],described, _shell_IShellItem2, shell.IShellItem2, shobjidl_core/IShellItem2
 ms.prod: windows
 ms.technology: windows-sdk

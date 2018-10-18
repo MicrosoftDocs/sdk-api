@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_temperatureandtint_prop.htm
 tech.root: direct2d
 ms.assetid: 7295BFD0-773A-488A-BE86-CE1B202BCAC6
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: D2D1_TEMPERATUREANDTINT_PROP, D2D1_TEMPERATUREANDTINT_PROP enumeration [Direct2D], D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE, D2D1_TEMPERATUREANDTINT_PROP_TINT, d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP, d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE, d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP_TINT, direct2d.d2d1_temperatureandtint_prop
 ms.prod: windows
 ms.technology: windows-sdk

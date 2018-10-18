@@ -7,7 +7,7 @@ old-location: security\cryptsipputsigneddatamsg.htm
 tech.root: seccrypto
 ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: CryptSIPPutSignedDataMsg, CryptSIPPutSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPPutSignedDataMsg, security.cryptsipputsigneddatamsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

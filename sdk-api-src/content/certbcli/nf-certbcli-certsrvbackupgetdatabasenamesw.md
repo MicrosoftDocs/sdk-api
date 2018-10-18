@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetdatabasenames.htm
 tech.root: seccrypto
 ms.assetid: 5e62be79-693a-4543-8d83-262f00686c99
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBackupGetDatabaseNames function [Security], CertSrvBackupGetDatabaseNamesW, _certsrv_certsrvbackupgetdatabasenames, certbcli/CertSrvBackupGetDatabaseNames, certbcli/CertSrvBackupGetDatabaseNamesW, security.certsrvbackupgetdatabasenames
 ms.prod: windows-hardware
 ms.technology: windows-devices

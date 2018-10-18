@@ -7,7 +7,7 @@ old-location: security\icenroll4_hashalgid.htm
 tech.root: seccrypto
 ms.assetid: 46f371a3-7254-4f54-b147-402f2a37e277
 ms.author: windowssdkdev
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.keywords: CEnroll object [Security],HashAlgID property, HashAlgID property [Security], HashAlgID property [Security],CEnroll object, HashAlgID property [Security],ICEnroll3 interface, HashAlgID property [Security],ICEnroll4 interface, ICEnroll3 interface [Security],HashAlgID property, ICEnroll3.HashAlgID, ICEnroll3.get_HashAlgID, ICEnroll3::get_HashAlgID, ICEnroll3::put_HashAlgID, ICEnroll4 interface [Security],HashAlgID property, ICEnroll4.HashAlgID, ICEnroll4::HashAlgID, ICEnroll4::get_HashAlgID, ICEnroll4::put_HashAlgID, get_HashAlgID, security.icenroll4_hashalgid, xenroll/ICEnroll3::HashAlgID, xenroll/ICEnroll3::get_HashAlgID, xenroll/ICEnroll3::put_HashAlgID, xenroll/ICEnroll4::HashAlgID, xenroll/ICEnroll4::get_HashAlgID, xenroll/ICEnroll4::put_HashAlgID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,11 +79,15 @@ The values for this property are <a href="https://msdn.microsoft.com/4165b820-30
 
 #### Examples
 
-
-```cpp
-// Code to set the hash algorithm ID.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Code to set the hash algorithm ID.
 // hr is HRESULT variable.
-hr = pEnroll->put_HashAlgID( CALG_MD4 );
+hr = pEnroll-&gt;put_HashAlgID( CALG_MD4 );
 if ( FAILED( hr ) )    
     printf("Failed put_HashAlgID [%x]\n", hr);
 
@@ -91,14 +95,14 @@ if ( FAILED( hr ) )
 // Code to retrieve the hash algorithm ID.
 DWORD dwHashID;
 
-hr = pEnroll->get_HashAlgID( &dwHashID );
+hr = pEnroll-&gt;get_HashAlgID( &amp;dwHashID );
 if ( FAILED( hr ) )    
     printf("Failed get_HashAlgID [%x]\n", hr);
 else
-    printf("HashAlgID: %d\n", dwHashID);
-```
-
-
+    printf("HashAlgID: %d\n", dwHashID);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

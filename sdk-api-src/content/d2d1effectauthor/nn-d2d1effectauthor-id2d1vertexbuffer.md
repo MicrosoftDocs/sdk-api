@@ -7,7 +7,7 @@ old-location: direct2d\id2d1vertexbuffer.htm
 tech.root: direct2d
 ms.assetid: 1DBCDF93-83C6-4B02-9E94-8024D7849DF7
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1VertexBuffer, ID2D1VertexBuffer interface [Direct2D], ID2D1VertexBuffer interface [Direct2D],described, d2d1effectauthor/ID2D1VertexBuffer, direct2d.id2d1vertexbuffer
 ms.prod: windows
 ms.technology: windows-sdk

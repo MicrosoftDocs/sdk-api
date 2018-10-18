@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetFolder.htm
 tech.root: shell
 ms.assetid: 3f300c70-cae8-43bb-95d4-25ac4be9b4c4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFolder method, IFileDialog.SetFolder, IFileDialog::SetFolder, SetFolder, SetFolder method [Windows Shell], SetFolder method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFolder, shell_IFileDialog_SetFolder, shobjidl_core/IFileDialog::SetFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

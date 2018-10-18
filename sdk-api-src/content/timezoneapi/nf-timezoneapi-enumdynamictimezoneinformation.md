@@ -7,7 +7,7 @@ old-location: base\enumdynamictimezoneinformation.htm
 tech.root: sysinfo
 ms.assetid: EBB2366A-86FE-4764-B7F9-5D305993CE0A
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: EnumDynamicTimeZoneInformation, EnumDynamicTimeZoneInformation function, base.enumdynamictimezoneinformation, timezoneapi/EnumDynamicTimeZoneInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

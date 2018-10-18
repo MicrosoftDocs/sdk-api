@@ -2,21 +2,21 @@
 UID: NN:dshowasf.IConfigAsfWriter2
 title: IConfigAsfWriter2
 author: windows-sdk-content
-description: The IConfigAsfWriter2 interface extends the IConfigAsfWriter interface, which configures the WM ASF Writer filter.
-old-location: dshow\iconfigasfwriter2.htm
-tech.root: DirectShow
-ms.assetid: fd931a95-3678-46de-8f17-9e7c27087398
+description: The IConfigAsfWriter2 interface inherits from the IConfigAsfWriter interface and provides additional methods to support the capabilities introduced in the Windows Media Format 9 Series SDK such as two-pass encoding and support for interlaced output.
+old-location: wmformat\iconfigasfwriter2.htm
+tech.root: wmformat
+ms.assetid: c597ac93-7ec4-43dd-bc8a-16ba9c4611f4
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], IConfigAsfWriter2 interface [DirectShow],described, IConfigAsfWriter2Interface, dshow.iconfigasfwriter2, dshowasf/IConfigAsfWriter2
+ms.date: 09/27/2018
+ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [windows Media Format], IConfigAsfWriter2 interface [windows Media Format],described, IConfigAsfWriter2Interface, dshowasf/IConfigAsfWriter2, wmformat.iconfigasfwriter2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Requires Dshowasf.h, Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - Dshowasf.h
+ - dshowasf.h
 api_name:
  - IConfigAsfWriter2
 product: Windows
@@ -51,14 +51,14 @@ req.redist:
 
 
 
-The <code>IConfigAsfWriter2</code> interface extends the <a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter</a> interface, which configures the <a href="https://msdn.microsoft.com/1b12f65f-8d77-4d38-aad9-92bb15cc0426">WM ASF Writer</a> filter. The <code>IConfigAsfWriter2</code> interface provides additional methods to support the capabilities introduced in the Windows Media Format 9 Series SDK, such as two-pass encoding and support for interlaced output.
+The <b>IConfigAsfWriter2</b> interface inherits from the <a href="https://msdn.microsoft.com/481c0819-c18d-42e3-aebe-f156c414428d">IConfigAsfWriter</a> interface and provides additional methods to support the capabilities introduced in the Windows Media Format 9 Series SDK such as two-pass encoding and support for interlaced output.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter2</b> interface inherits from <a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter</a>. <b>IConfigAsfWriter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter2</b> interface inherits from <a href="https://msdn.microsoft.com/481c0819-c18d-42e3-aebe-f156c414428d">IConfigAsfWriter</a>. <b>IConfigAsfWriter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IConfigAsfWriter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a875d02-3814-46a1-9eee-61bad36475fc">GetParam</a>
+<a href="https://msdn.microsoft.com/81d915a1-6190-46e3-a5cb-7f5fc242b8dd">GetParam</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of the specified filter configuration parameter.
@@ -82,7 +82,7 @@ Retrieves the current value of the specified filter configuration parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca2ec239-ffb9-4030-9160-77a0c9be0a07">ResetMultiPassState</a>
+<a href="https://msdn.microsoft.com/b6687af7-f3cd-4e92-9c76-dddff9063fa0">ResetMultiPassState</a>
 </td>
 <td align="left" width="63%">
 Resets the filter when a preprocessing encoding pass is canceled before it is completed.
@@ -91,7 +91,7 @@ Resets the filter when a preprocessing encoding pass is canceled before it is co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0294837c-0cf2-4a05-bef4-16d13864f759">SetParam</a>
+<a href="https://msdn.microsoft.com/b8067fb2-c379-4b26-b4f7-c790604e3edc">SetParam</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the specified filter configuration parameter.
@@ -100,7 +100,7 @@ Sets the value of the specified filter configuration parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/374331ec-6665-4ed9-b4ee-6d33b1e2ef2c">StreamNumFromPin</a>
+<a href="https://msdn.microsoft.com/f645a742-e6dc-4041-8a56-3bbb5188a9a9">StreamNumFromPin</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream number associated with the specified input pin.
@@ -115,11 +115,7 @@ Retrieves the stream number associated with the specified input pin.
 
 
 
-<a href="https://msdn.microsoft.com/dffda43a-5831-4889-864f-81351b9e2bb3">Creating ASF Files in DirectShow</a>
-
-
-
-<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter</a>
+<a href="https://msdn.microsoft.com/481c0819-c18d-42e3-aebe-f156c414428d">IConfigAsfWriter</a>
  
 
  

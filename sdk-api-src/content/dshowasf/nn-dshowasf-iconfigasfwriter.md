@@ -2,21 +2,21 @@
 UID: NN:dshowasf.IConfigAsfWriter
 title: IConfigAsfWriter
 author: windows-sdk-content
-description: The IConfigAsfWriter interface configures the WM ASF Writer filter.
-old-location: dshow\iconfigasfwriter.htm
-tech.root: DirectShow
-ms.assetid: 50fd7825-4844-4a7f-b949-4abfff5ef30f
+description: The IConfigAsfWriter interface is implemented by the DirectShow WM ASF Writer filter and provides methods for getting and setting the profiles and indexing mode.
+old-location: wmformat\iconfigasfwriter.htm
+tech.root: wmformat
+ms.assetid: 481c0819-c18d-42e3-aebe-f156c414428d
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], IConfigAsfWriter interface [DirectShow],described, IConfigAsfWriterInterface, dshow.iconfigasfwriter, dshowasf/IConfigAsfWriter
+ms.date: 09/27/2018
+ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [windows Media Format], IConfigAsfWriter interface [windows Media Format],described, IConfigAsfWriterInterface, dshowasf/IConfigAsfWriter, wmformat.iconfigasfwriter
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Requires Dshowasf.h, Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - Dshowasf.h
+ - dshowasf.h
 api_name:
  - IConfigAsfWriter
 product: Windows
@@ -51,9 +51,7 @@ req.redist:
 
 
 
-The <code>IConfigAsfWriter</code> interface configures the <a href="https://msdn.microsoft.com/1b12f65f-8d77-4d38-aad9-92bb15cc0426">WM ASF Writer</a> filter. It provides methods for getting and setting the profiles and indexing mode.
-
-When the WM ASF Writer filter is created, it is configured automatically with a default ASF audio-visual profile based on the incoming streams. A profile describes various attributes of an ASF file such as bit rate, number and type of streams, compression quality, and so on. The filter uses the profile to determine what kind of ASF file to write, how many input pins to create, and what media types to accept. When the WM ASF Writer filter is first created, it is configured automatically with the following default profile: WMProfile_V80_256Video. However, using this profile is not recommended because it does not use the Windows Media Audio and Video 9 Series codecs.
+The <b>IConfigAsfWriter</b> interface is implemented by the DirectShow <a href="https://msdn.microsoft.com/a902c92e-836d-492c-b2d2-89c216125774">WM ASF Writer</a> filter and provides methods for getting and setting the profiles and indexing mode. The filter uses the profile to determine how many input pins to create, and what media types to accept at connection time. When the WM ASF Writer filter is first created, it is configured automatically with the following default profile: WMProfile_V80_256Video. (Use of this profile is not recommended because it does not use the Windows Media Audio and Video 9 Series codecs.)
 
 
 
@@ -75,61 +73,61 @@ The <b>IConfigAsfWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89156f64-7a20-4226-9f01-5b1bd4a1fe98">ConfigureFilterUsingProfile</a>
+<a href="https://msdn.microsoft.com/278e5109-ba22-4a1c-9c6a-5cfcb9f57d37">ConfigureFilterUsingProfile</a>
 </td>
 <td align="left" width="63%">
-Sets an ASF profile on the WM ASF Writer filter.
+The recommended way to set a profile. Configures the filter to write an ASF file based on the specified application-defined profile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8cfb3b22-aa6b-42e0-bbb5-876932e8bd82">ConfigureFilterUsingProfileGuid</a>
+<a href="https://msdn.microsoft.com/94161ee7-1b74-47af-9d77-568abe6237c3">ConfigureFilterUsingProfileGuid</a>
 </td>
 <td align="left" width="63%">
-Sets a predefined system profile on the filter. (Deprecated.)
+Configures the filter to write an ASF file based on the specified predefined Windows Media Format SDK profile GUID. (Obsolete.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e532001a-e2ff-4ad4-8fef-2fa5b051d1f5">ConfigureFilterUsingProfileId</a>
+<a href="https://msdn.microsoft.com/b0375785-83db-4540-aca9-7ba0bb81c1ef">ConfigureFilterUsingProfileId</a>
 </td>
 <td align="left" width="63%">
-Sets a Windows Media Format 4.0 profile on the filter. (Deprecated.)
+Configures the filter to write an ASF file with a profile identifier (ID) index from the system profile list. (Obsolete. For Windows Media Format 4.0 profiles only.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91">GetCurrentProfile</a>
+<a href="https://msdn.microsoft.com/7f6e7085-982b-4234-b890-950efdcdb559">GetCurrentProfile</a>
 </td>
 <td align="left" width="63%">
-Retrieves the application-defined ASF profile.
+Retrieves the application-defined profile.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8958f8d3-40ff-44b1-a817-5dca30636306">GetCurrentProfileGuid</a>
+<a href="https://msdn.microsoft.com/e7a2ecc0-48d4-446c-852a-0d7677cbbe71">GetCurrentProfileGuid</a>
 </td>
 <td align="left" width="63%">
-Retrieves the GUID of the filter's current system profile, if any. (Deprecated.)
+Retrieves the current profile GUID defined by the Windows Media Format SDK.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37288625-368f-41d4-bfdc-bb2fd144f455">GetCurrentProfileId</a>
+<a href="https://msdn.microsoft.com/a5162bb1-5fcb-449e-b8d3-624b863e656d">GetCurrentProfileId</a>
 </td>
 <td align="left" width="63%">
-Retrieves the identifier of the filter's profile, only when the filter is using a Windows Media Format 4.0 profile. (Deprecated.)
+Retrieves the current profile ID. (Deprecated. For Windows Media Format 4.0 profiles only.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70d9a2e7-2f5a-4f87-b42c-3a225c42a44b">GetIndexMode</a>
+<a href="https://msdn.microsoft.com/beb874ea-d0d5-4323-a817-47984911da4c">GetIndexMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current index mode.
@@ -138,7 +136,7 @@ Retrieves the current index mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7f5d13a-d36e-4da2-babc-0446e5697b61">SetIndexMode</a>
+<a href="https://msdn.microsoft.com/104e29f4-a1e5-4e26-a9ef-52ef52d6f5b2">SetIndexMode</a>
 </td>
 <td align="left" width="63%">
 Enables the application to control whether the file will be indexed and therefore seekable.
@@ -153,7 +151,7 @@ Enables the application to control whether the file will be indexed and therefor
 
 
 
-<a href="https://msdn.microsoft.com/dffda43a-5831-4889-864f-81351b9e2bb3">Creating ASF Files in DirectShow</a>
+<a href="https://msdn.microsoft.com/66f483b5-3886-48b4-bc43-7c3517abd20d">DirectShow QASF Reference</a>
  
 
  

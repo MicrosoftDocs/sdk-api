@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_Close.htm
 tech.root: WinAuto
 ms.assetid: 925484e2-6ad1-49ca-b2d4-a6436e7a3ddd
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],Close method, IUIAutomationWindowPattern.Close, IUIAutomationWindowPattern::Close, uiauto.uiauto_IUIAutomationWindowPattern_Close, uiauto_IUIAutomationWindowPattern_Close, uiautomationclient/IUIAutomationWindowPattern::Close, winauto.uiauto_IUIAutomationWindowPattern_Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

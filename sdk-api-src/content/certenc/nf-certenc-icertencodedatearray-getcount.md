@@ -7,7 +7,7 @@ old-location: security\icertencodedatearray_getcount.htm
 tech.root: seccrypto
 ms.assetid: 25c61f42-b190-44c3-b2ba-57861bdfbce3
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeDateArray object, GetCount method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetCount method, ICertEncodeDateArray.GetCount, ICertEncodeDateArray::GetCount, _certsrv_icertencodedatearray_getcount, certenc/ICertEncodeDateArray::GetCount, security.icertencodedatearray_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

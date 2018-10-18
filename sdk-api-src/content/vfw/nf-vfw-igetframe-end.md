@@ -7,7 +7,7 @@ old-location: multimedia\igetframe_end.htm
 tech.root: Multimedia
 ms.assetid: dc5423c7-4f21-4941-adda-6f4665e86210
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],End method, IGetFrame.End, IGetFrame::End, _win32_IGetFrame_End, multimedia.igetframe_end, vfw/IGetFrame::End
 ms.prod: windows-hardware
 ms.technology: windows-devices

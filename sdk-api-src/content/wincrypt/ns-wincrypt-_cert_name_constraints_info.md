@@ -7,7 +7,7 @@ old-location: security\cert_name_constraints_info.htm
 tech.root: seccrypto
 ms.assetid: 16a57c4b-905f-40c0-b298-71f0534bfa5a
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: "*PCERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO structure [Security], PCERT_NAME_CONSTRAINTS_INFO, PCERT_NAME_CONSTRAINTS_INFO structure pointer [Security], _CERT_NAME_CONSTRAINTS_INFO, _crypto2_cert_name_constraints_info, security.cert_name_constraints_info, wincrypt/CERT_NAME_CONSTRAINTS_INFO, wincrypt/PCERT_NAME_CONSTRAINTS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

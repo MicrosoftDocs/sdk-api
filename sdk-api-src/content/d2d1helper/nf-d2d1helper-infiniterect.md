@@ -7,7 +7,7 @@ old-location: direct2d\infiniterect.htm
 tech.root: direct2d
 ms.assetid: c2f75645-3197-4afa-81ac-8a362ce99620
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: InfiniteRect, InfiniteRect function [Direct2D], d2d1helper/InfiniteRect, direct2d.infiniterect
 ms.prod: windows-hardware
 ms.technology: windows-devices

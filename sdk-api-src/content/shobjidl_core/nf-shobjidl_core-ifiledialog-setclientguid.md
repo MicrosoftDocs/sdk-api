@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetClientGuid.htm
 tech.root: shell
 ms.assetid: 2ab7d8bb-068d-4c5b-b273-68c7fc4f9956
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetClientGuid method, IFileDialog.SetClientGuid, IFileDialog::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetClientGuid, shell_IFileDialog_SetClientGuid, shobjidl_core/IFileDialog::SetClientGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

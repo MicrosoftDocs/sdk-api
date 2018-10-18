@@ -7,7 +7,7 @@ old-location: shell\IParentAndItem.htm
 tech.root: shell
 ms.assetid: 5cca426f-73fb-4b39-8eb0-16c01673c311
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IParentAndItem, IParentAndItem interface [Windows Shell], IParentAndItem interface [Windows Shell],described, _shell_IParentAndItem, shell.IParentAndItem, shobjidl_core/IParentAndItem
 ms.prod: windows
 ms.technology: windows-sdk

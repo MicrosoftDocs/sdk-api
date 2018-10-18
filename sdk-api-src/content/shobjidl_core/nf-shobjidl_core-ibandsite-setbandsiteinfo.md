@@ -7,7 +7,7 @@ old-location: shell\IBandSite_SetBandSiteInfo.htm
 tech.root: shell
 ms.assetid: 2658a49d-d60f-483b-bbe1-e1390e9dc35e
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IBandSite interface [Windows Shell],SetBandSiteInfo method, IBandSite.SetBandSiteInfo, IBandSite::SetBandSiteInfo, SetBandSiteInfo, SetBandSiteInfo method [Windows Shell], SetBandSiteInfo method [Windows Shell],IBandSite interface, _win32_IBandSite_SetBandSiteInfo, shell.IBandSite_SetBandSiteInfo, shobjidl_core/IBandSite::SetBandSiteInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

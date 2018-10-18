@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_PopAxisAlignedClip.htm
 tech.root: direct2d
 ms.assetid: 0f0a2826-2356-4ced-a372-5bb59dd394ee
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],PopAxisAlignedClip method, ID2D1RenderTarget.PopAxisAlignedClip, ID2D1RenderTarget::PopAxisAlignedClip, PopAxisAlignedClip, PopAxisAlignedClip method [Direct2D], PopAxisAlignedClip method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::PopAxisAlignedClip, direct2d.ID2D1RenderTarget_PopAxisAlignedClip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection_count_method.htm
 tech.root: seccrypto
 ms.assetid: 85e340f3-d625-49ea-93d8-28a44ca05ec8
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.keywords: Count property [Security], Count property [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],Count property, IOCSPCAConfigurationCollection.Count, IOCSPCAConfigurationCollection.get_Count, IOCSPCAConfigurationCollection::Count, IOCSPCAConfigurationCollection::get_Count, certadm/IOCSPCAConfigurationCollection::Count, certadm/IOCSPCAConfigurationCollection::get_Count, get_Count, security.iocspcaconfigurationcollection_count_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

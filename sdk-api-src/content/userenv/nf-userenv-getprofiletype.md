@@ -7,7 +7,7 @@ old-location: shell\GetProfileType.htm
 tech.root: shell
 ms.assetid: 55ee76c8-1735-43eb-a98e-9e6c87ee1ba7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: GetProfileType, GetProfileType function [Windows Shell], PT_MANDATORY, PT_ROAMING, PT_ROAMING_PREEXISTING, PT_TEMPORARY, _shell_GetProfileType, shell.GetProfileType, userenv/GetProfileType
 ms.prod: windows-hardware
 ms.technology: windows-devices

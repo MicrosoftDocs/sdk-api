@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_MakeProminent.htm
 tech.root: shell
 ms.assetid: 7e7b1573-cbd7-49eb-a26d-e2aba0bb4495
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/17/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],MakeProminent method, IFileDialogCustomize.MakeProminent, IFileDialogCustomize::MakeProminent, MakeProminent, MakeProminent method [Windows Shell], MakeProminent method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_MakeProminent, shell_IFileDialogCustomize_MakeProminent, shobjidl_core/IFileDialogCustomize::MakeProminent
 ms.prod: windows-hardware
 ms.technology: windows-devices
