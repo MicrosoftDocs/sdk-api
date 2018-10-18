@@ -344,13 +344,9 @@ The following example code, to be included as part of a larger program, shows ho
 			
 			
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 int nButtonPressed = 0;
 TaskDialog(NULL, hInst, 
     MAKEINTRESOURCE(IDS_APPLICATION_TITLE),
@@ -358,7 +354,7 @@ TaskDialog(NULL, hInst,
     MAKEINTRESOURCE(IDS_SOMECONTENT), 
     TDCBF_OK_BUTTON | TDCBF_CANCEL_BUTTON,
     TD_WARNING_ICON, 
-    &amp;nButtonPressed);
+    &nButtonPressed);
 
 if (IDOK == nButtonPressed)
 {
@@ -367,10 +363,10 @@ if (IDOK == nButtonPressed)
 else if (IDCANCEL == nButtonPressed)
 {
     // Cancel pressed
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -85,22 +85,18 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows Vista with SP1 or later, use the following test.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;VersionHelpers.h&gt;
+
+```cpp
+#include <VersionHelpers.h>
 …
     if (!IsWindowsVistaSP1OrGreater())
     {
        MessageBox(NULL, "You need at least Windows Vista with SP1", "Version Not Supported", MB_OK);
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

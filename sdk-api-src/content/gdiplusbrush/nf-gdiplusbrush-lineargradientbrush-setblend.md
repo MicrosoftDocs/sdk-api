@@ -112,13 +112,9 @@ A
 
 The following example creates a linear gradient brush, sets a custom blend, and uses the brush to fill a rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetBlend(HDC hdc)
+
+```cpp
+VOID Example_SetBlend(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -133,11 +129,11 @@ The following example creates a linear gradient brush, sets a custom blend, and 
       LinearGradientModeHorizontal);
 
    linGrBrush.SetBlend(factors, positions, 4);
-   myGraphics.FillRectangle(&amp;linGrBrush, rect);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   myGraphics.FillRectangle(&linGrBrush, rect);
+}
+```
+
+
 
 
 

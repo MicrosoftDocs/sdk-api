@@ -99,20 +99,16 @@ Because memory device contexts allow both color and monochrome bitmaps, the form
 
 Note: When a memory device context is created, it initially has a 1-by-1 monochrome bitmap selected into it. If this memory device context is used in <b>CreateCompatibleBitmap</b>, the bitmap that is created is a <i>monochrome</i> bitmap. To create a color bitmap, use the <b>HDC</b> that was used to create the memory device context, as shown in the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
     HDC memDC = CreateCompatibleDC ( hDC );
     HBITMAP memBM = CreateCompatibleBitmap ( hDC, nWidth, nHeight );
     SelectObject ( memDC, memBM );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 If an application sets the <i>nWidth</i> or <i>nHeight</i> parameters to zero, <b>CreateCompatibleBitmap</b> returns the handle to a 1-by-1 pixel, monochrome bitmap.
 
 If a DIB section, which is a bitmap created by the <a href="https://msdn.microsoft.com/9276ec84-2860-42be-a9f8-d4efb8d25eec">CreateDIBSection</a> function, is selected into the device context identified by the <i>hdc</i> parameter, <b>CreateCompatibleBitmap</b> creates a DIB section.

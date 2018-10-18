@@ -96,13 +96,9 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateHandle
 
 The following example shows the usage of <b>ISyncMgrControl::UpdateHandler</b> by a handler's procedure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void CMyDeviceHandler::MiscProc(...)
+
+```cpp
+void CMyDeviceHandler::MiscProc(...)
 {
     ...
 
@@ -111,20 +107,20 @@ The following example shows the usage of <b>ISyncMgrControl::UpdateHandler</b> b
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&amp;pControl));
+                          IID_PPV_ARGS(&pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center that properties on the handler have changed.
-        hr = pControl-&gt;UpdateHandler(s_szMySyncHandlerID, SYNCMGR_CF_WAIT);
-        pControl-&gt;Release();
+        hr = pControl->UpdateHandler(s_szMySyncHandlerID, SYNCMGR_CF_WAIT);
+        pControl->Release();
     }
 
     ...
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -94,24 +94,20 @@ This is an inline function, with its source code provided in the header. It is n
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VARIANT var;
 
-HRESULT hr = InitVariantFromGUIDAsBuffer(FMTID_DocSummaryInformation, &amp;var);
+```cpp
+VARIANT var;
+
+HRESULT hr = InitVariantFromGUIDAsBuffer(FMTID_DocSummaryInformation, &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_ARRAY | VT_UI1.
-    VariantClear(&amp;var);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&var);
+}
+```
+
+
 
 
 

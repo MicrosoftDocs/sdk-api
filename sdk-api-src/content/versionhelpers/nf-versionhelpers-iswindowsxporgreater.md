@@ -85,22 +85,18 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows XP or later, use the following test.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;VersionHelpers.h&gt;
+
+```cpp
+#include <VersionHelpers.h>
 …
     if (!IsWindowsXPOrGreater())
     {
        MessageBox(NULL, "You need at least Windows XP", "Version Not Supported", MB_OK);
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

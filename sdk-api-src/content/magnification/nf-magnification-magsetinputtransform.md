@@ -103,13 +103,9 @@ This function requires the calling process to have UIAccess privileges.  If the 
 
 The following example sets the input transformation for the full-screen magnifier.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Description:
+
+```cpp
+// Description:
 //   Applies an input transformation to adjust pen and touch input to account 
 //   for the current magnification factor.
 //
@@ -119,7 +115,7 @@ BOOL SetInputTranform()
     float magLevel;
     int xOffset, yOffset;
 
-    BOOL fResult = MagGetFullscreenTransform(&amp;magLevel, &amp;xOffset, &amp;yOffset);
+    BOOL fResult = MagGetFullscreenTransform(&magLevel, &xOffset, &yOffset);
     if (fResult)
     {
         // Assume that pen or touch input occurs only in the primary monitor.
@@ -137,15 +133,15 @@ BOOL SetInputTranform()
         rcSource.right  = rcSource.left + (int)(rcDest.right / magLevel);
         rcSource.bottom = rcSource.top  + (int)(rcDest.bottom / magLevel);
 
-        fResult = MagSetInputTransform(TRUE, &amp;rcSource, &amp;rcDest);
+        fResult = MagSetInputTransform(TRUE, &rcSource, &rcDest);
     }
 
     return fResult;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

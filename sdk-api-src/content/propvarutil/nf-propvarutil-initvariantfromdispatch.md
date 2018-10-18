@@ -96,25 +96,21 @@ This is an inline function, with its source code provided in the header. It is n
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromDispatch">InitVariantFromDispatch</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IDispatch *pDispatch;
+
+```cpp
+// IDispatch *pDispatch;
 // Assume variable pDispatch is initialized and valid.
 VARIANT var;
 
-HRESULT hr = InitVariantFromDispatch(pDispatch, &amp;var);
+HRESULT hr = InitVariantFromDispatch(pDispatch, &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_DISPATCH.
-    VariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&propvar);
+}
+```
+
+
 
 

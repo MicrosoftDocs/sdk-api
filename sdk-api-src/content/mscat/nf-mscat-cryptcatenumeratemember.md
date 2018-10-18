@@ -90,23 +90,19 @@ Do not free the returned pointer nor any of the members pointed to by the return
 
 The following pseudocode example shows how to use this function to enumerate all of the members of a catalog.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CRYPTCATMEMBER *pMember = NULL;
+
+```cpp
+CRYPTCATMEMBER *pMember = NULL;
 
 for(pMember = CryptCATEnumerateMember(hCatalog, pMember); 
     NULL != pMember; 
     pMember = CryptCATEnumerateMember(hCatalog, pMember))
 {
    // Use the catalog member.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

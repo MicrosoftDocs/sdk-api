@@ -88,35 +88,31 @@ If the clipping region of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42
 
 The following example creates a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and sets its clipping region to a rectangle. The code fills two ellipses that intersect the rectangular clipping region. The first ellipse is clipped, but the second ellipse is not clipped because it is filled after a call to <b>Graphics::ResetClip</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_ResetClip(HDC hdc)
+
+```cpp
+VOID Example_ResetClip(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // Set the clipping region, and draw its outline.
    graphics.SetClip(Rect(100, 50, 200, 120));
    Pen blackPen(Color(255, 0, 0, 0), 2.0f);
-   graphics.DrawRectangle(&amp;blackPen, 100, 50, 200, 120);
+   graphics.DrawRectangle(&blackPen, 100, 50, 200, 120);
 
    // Fill a clipped ellipse in red.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&amp;redBrush, 80, 40, 100, 70);
+   graphics.FillEllipse(&redBrush, 80, 40, 100, 70);
 
    // Reset the clipping region.
    graphics.ResetClip();
 
    // Fill an unclipped ellipse with blue.
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&amp;blueBrush, 160, 150, 100, 60);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&blueBrush, 160, 150, 100, 60);
+}
+```
+
+
 
 
 

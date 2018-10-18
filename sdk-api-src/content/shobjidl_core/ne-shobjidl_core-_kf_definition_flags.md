@@ -96,16 +96,12 @@ Create the folder when the user first logs on. Normally a known folder is not cr
 
 The <b>KF_DEFINITION_FLAGS</b> type is defined in Shobjidl.h as shown here.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef DWORD KF_DEFINITION_FLAGS;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef DWORD KF_DEFINITION_FLAGS;
+```
+
+
 
 
 

@@ -123,13 +123,9 @@ A C/C++ client calls the <b>ADsOpenObject</b> helper function to bind to an ADSI
 
 The  credentials passed to the <b>ADsOpenObject</b> function are used only with the particular object bound to and do not affect the security context of the calling thread. This means that, in the example below, the call to <b>ADsOpenObject</b> will use different credentials than the call to <a href="https://msdn.microsoft.com/595b2c7f-584c-4343-a75c-327d8ed4ceb1">ADsGetObject</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```cpp
+HRESULT hr;
 IADs *padsRoot1;
 IADs *padsRoot2;
 
@@ -138,15 +134,15 @@ hr = ADsOpenObject(L"LDAP://rootDSE",
     pwszPassword,
     ADS_SECURE_AUTHENTICATION,
     IID_IADs,
-    (LPVOID*)&amp;padsRoot1);
+    (LPVOID*)&padsRoot1);
 
 hr = ADsGetObject(L"LDAP://rootDSE",
     IID_IADs,
-    (LPVOID*)&amp;padsRoot2);
-</pre>
-</td>
-</tr>
-</table></span></div>
+    (LPVOID*)&padsRoot2);
+
+```
+
+
 To work with the WinNT: provider, you can pass in <i>lpszUsername</i> as one of the following strings:
 
 <ul>
@@ -165,13 +161,9 @@ If Kerberos authentication is required for the successful completion of a specif
 
 The following code example shows how to bind to a directory service object with the requested user credentials.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADs *pObject;
+
+```cpp
+IADs *pObject;
 LPWSTR szUsername = NULL;
 LPWSTR szPassword = NULL
 HRESULT hr;
@@ -183,10 +175,10 @@ hr = ADsOpenObject(L"LDAP://CN=Jeff,DC=Fabrikam,DC=com",
                    "etercespot",
                    ADS_SECURE_AUTHENTICATION, 
                    IID_IADs,
-                   (void**) &amp;pObject);</pre>
-</td>
-</tr>
-</table></span></div>
+                   (void**) &pObject);
+```
+
+
 
 
 

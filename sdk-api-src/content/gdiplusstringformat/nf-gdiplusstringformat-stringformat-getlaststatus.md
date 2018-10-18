@@ -101,13 +101,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object, calls two 
 						<b>StringFormat</b> methods, and then checks the status to see if an error occurred during the construction or either of the method calls.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>StringFormat stringFormat;
+
+```cpp
+StringFormat stringFormat;
 stringFormat.SetAlignment(StringAlignmentCenter);
 HotkeyPrefix hotkeyPrefix = stringFormat.GetHotkeyPrefix();
 
@@ -118,10 +114,10 @@ if (stringFormat.GetLastStatus() == Ok)
 else
 {
    // An error occurred since the previous call to GetLastStatus.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

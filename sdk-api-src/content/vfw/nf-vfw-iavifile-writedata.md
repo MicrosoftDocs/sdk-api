@@ -114,19 +114,15 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>WriteData</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT WriteData(DWORD fcc, LPVOID lpBuffer, LONG cbBuffer); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
