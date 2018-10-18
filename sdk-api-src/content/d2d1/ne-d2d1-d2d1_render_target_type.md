@@ -82,7 +82,7 @@ The render target uses hardware rendering only.
 
 
 
-Not every render target supports hardware rendering. For more information, see the <a href="https://msdn.microsoft.com/8a67babd-20c7-47f4-8dd3-8c0320d89ad6">Render Targets Overview</a>. 
+Not every render target supports hardware rendering. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Dd756755(v=VS.85).aspx">Render Targets Overview</a>. 
 
 
 
@@ -92,11 +92,11 @@ Not every render target supports hardware rendering. For more information, see t
 
 
 
-<a href="https://msdn.microsoft.com/360900bd-1353-4a92-865c-ad34d5e98123">D2D1_RENDER_TARGET_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368155(v=VS.85).aspx">D2D1_RENDER_TARGET_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a67babd-20c7-47f4-8dd3-8c0320d89ad6">Render Targets Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756755(v=VS.85).aspx">Render Targets Overview</a>
  
 
  

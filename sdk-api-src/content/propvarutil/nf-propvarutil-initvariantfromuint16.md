@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with an unsigned 16-bit integer value.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with an unsigned 16-bit integer value.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Source <b>USHORT</b> value.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns
@@ -94,7 +94,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt16">InitVariantFromUInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762338(v=VS.85).aspx">InitVariantFromUInt16</a>.
 
 
 ```cpp
@@ -118,15 +118,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromUInt16">InitPropVariantFromUInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762309(v=VS.85).aspx">InitPropVariantFromUInt16</a>
 
 
 
-<a href="shell.VariantToUInt16">VariantToUInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776623(v=VS.85).aspx">VariantToUInt16</a>
 
 
 
-<a href="shell.VariantToUInt16WithDefault">VariantToUInt16WithDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776626(v=VS.85).aspx">VariantToUInt16WithDefault</a>
  
 
  

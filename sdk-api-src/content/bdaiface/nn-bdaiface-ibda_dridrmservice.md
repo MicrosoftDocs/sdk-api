@@ -57,9 +57,9 @@ For more information about PBDA, download the specification from <a href="http:/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DRIDRMService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_DRIDRMService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DRIDRMService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_DRIDRMService</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>IBDA_DRIDRMService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/145e4716-05e1-41b8-98f3-72e719ca8b9f">GetDRMStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797841(v=VS.85).aspx">GetDRMStatus</a>
 </td>
 <td align="left" width="63%">
 Gets status information about the supported DRM services  that are set for an MTD. 
@@ -82,7 +82,7 @@ Gets status information about the supported DRM services  that are set for an MT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01918e99-17e6-4c24-bb85-ba71cf68cf09">GetPairingStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797842(v=VS.85).aspx">GetPairingStatus</a>
 </td>
 <td align="left" width="63%">
 Gets status information about secure pairing between an MTD and an MSD in the graph.
@@ -92,7 +92,7 @@ Gets status information about secure pairing between an MTD and an MSD in the gr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95e59f33-0ff4-4618-b1e8-c43fe60b9434">SetDRM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797843(v=VS.85).aspx">SetDRM</a>
 </td>
 <td align="left" width="63%">
 Sets the DRM service used by an MTD.

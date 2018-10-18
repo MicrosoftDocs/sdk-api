@@ -80,5 +80,5 @@ Plaintext user name and password authentication.
 
 ### -field X509AuthCertificate
 
-A client authentication certificate (suitable for <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Secure Sockets Layer protocol</a> (SSL) client authentication) that is installed locally and that has an associated private key.  This certificate is used by the server to verify the client's identity.
+A client authentication certificate (suitable for <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">Secure Sockets Layer protocol</a> (SSL) client authentication) that is installed locally and that has an associated private key.  This certificate is used by the server to verify the client's identity.
 

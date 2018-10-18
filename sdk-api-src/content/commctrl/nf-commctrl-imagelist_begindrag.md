@@ -90,7 +90,7 @@ The y-coordinate of the location of the drag position relative to the upper-left
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 
@@ -101,7 +101,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-This function creates a temporary image list that is used for dragging. In response to subsequent <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> messages, you can move the drag image by using the <a href="https://msdn.microsoft.com/a7d7fcd4-ba03-43ba-ae37-df8d4173c64d">ImageList_DragMove</a> function. To end the drag operation, you can use the <a href="https://msdn.microsoft.com/54465b0d-6bbe-4c50-8124-cbf3115d0848">ImageList_EndDrag</a> function. 
+This function creates a temporary image list that is used for dragging. In response to subsequent <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages, you can move the drag image by using the <a href="https://msdn.microsoft.com/en-us/library/Bb761530(v=VS.85).aspx">ImageList_DragMove</a> function. To end the drag operation, you can use the <a href="https://msdn.microsoft.com/en-us/library/Bb761541(v=VS.85).aspx">ImageList_EndDrag</a> function. 
 
 
 

@@ -53,7 +53,7 @@ req.redist:
 The <b>IExtendContextMenu::Command</b> method is called if one of the items you added to the context menu with 
 <a href="https://msdn.microsoft.com/d4fc7bfd-b017-466e-81f2-74f13aec4b52">IExtendContextMenu::AddMenuItems</a> is subsequently selected. MMC calls 
 Command with the command ID you specified and another pointer to the same 
-<a href="_ole_idataobject">IDataObject</a> interface.
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A value that specifies the command identifier of the menu item.
 ### -param piDataObject [in]
 
 A pointer to the 
-<a href="_ole_idataobject">IDataObject</a> interface on the object whose context menu was displayed.
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the object whose context menu was displayed.
 
 
 ## -returns
@@ -108,7 +108,7 @@ MMC sends the snap-in the MMCC_STANDARD_VIEW_SELECT command when the user clicks
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 

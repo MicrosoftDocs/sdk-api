@@ -51,7 +51,7 @@ req.redist:
 
 
 The <b>CertSrvBackupClose</b>  function closes the file opened by the 
-<a href="https://msdn.microsoft.com/5ddce73f-c693-437a-9eae-d7eaf482ee05">CertSrvBackupOpenFile</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa376584(v=VS.85).aspx">CertSrvBackupOpenFile</a> function.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 
-For every successful call to <a href="https://msdn.microsoft.com/5ddce73f-c693-437a-9eae-d7eaf482ee05">CertSrvBackupOpenFile</a>, there should be a subsequent call to <b>CertSrvBackupClose</b>. Upon completion of backing up a  file, the file needs to be closed.
+For every successful call to <a href="https://msdn.microsoft.com/en-us/library/Aa376584(v=VS.85).aspx">CertSrvBackupOpenFile</a>, there should be a subsequent call to <b>CertSrvBackupClose</b>. Upon completion of backing up a  file, the file needs to be closed.
 
 
 #### Examples
@@ -119,15 +119,15 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/5ddce73f-c693-437a-9eae-d7eaf482ee05">CertSrvBackupOpenFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376584(v=VS.85).aspx">CertSrvBackupOpenFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfc72002-40ee-4854-a026-b956acd5d758">CertSrvBackupRead</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376586(v=VS.85).aspx">CertSrvBackupRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

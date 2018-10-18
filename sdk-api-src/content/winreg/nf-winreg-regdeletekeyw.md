@@ -115,7 +115,7 @@ If the function fails, the return value is a nonzero error code defined in Winer
 A deleted key is not removed until the last handle to it is closed.
 
 The subkey to be deleted must not have subkeys. To delete a key and all its subkeys, you need to enumerate the subkeys and delete them individually. To delete keys recursively, use the 
-<a href="https://msdn.microsoft.com/984813a9-e191-498f-8288-b8a4c567112b">RegDeleteTree</a> or <a href="_win32_shdeletekey_cpp">SHDeleteKey</a> function.
+<a href="https://msdn.microsoft.com/984813a9-e191-498f-8288-b8a4c567112b">RegDeleteTree</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb773486(v=VS.85).aspx">SHDeleteKey</a> function.
 
 
 #### Examples
@@ -159,7 +159,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="_win32_shdeletekey_cpp">SHDeleteKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773486(v=VS.85).aspx">SHDeleteKey</a>
  
 
  

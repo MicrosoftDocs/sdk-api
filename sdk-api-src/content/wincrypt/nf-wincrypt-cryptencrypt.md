@@ -399,7 +399,7 @@ For examples that use this function, see  <a href="https://msdn.microsoft.com/a2
 
 
 
-<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
  
 
  

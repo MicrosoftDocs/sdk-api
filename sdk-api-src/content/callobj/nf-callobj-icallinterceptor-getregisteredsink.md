@@ -60,7 +60,7 @@ Retrieves the registered event sink.
 
 ### -param ppsink [out]
 
-A pointer to a pointer to the event sink. See <a href="https://msdn.microsoft.com/2f1e1b8d-6150-45e9-89e2-524d80df558d">ICallFrameEvents</a>.
+A pointer to a pointer to the event sink. See <a href="https://msdn.microsoft.com/en-us/library/ms680109(v=VS.85).aspx">ICallFrameEvents</a>.
 
 
 ## -returns
@@ -118,7 +118,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/d0a72c87-598b-4ebe-bc93-65e0927a4c3d">ICallInterceptor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693378(v=VS.85).aspx">ICallInterceptor</a>
  
 
  

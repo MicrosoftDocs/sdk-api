@@ -66,7 +66,7 @@ Indicates a default view.
 
 ### -field D3D12_BUFFER_UAV_FLAG_RAW
 
-Resource contains raw, unstructured data.  Requires the UAV format to be <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R32_TYPELESS</a>.
+Resource contains raw, unstructured data.  Requires the UAV format to be <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R32_TYPELESS</a>.
             For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/9e991ab0-9648-484a-9a2c-5391ee5abf20">Raw Views of Buffers</a>.
           
 

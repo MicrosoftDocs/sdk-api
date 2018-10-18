@@ -88,7 +88,7 @@ With the <b>GetIcon</b> method, each property page
 
 
 
-<a href="https://msdn.microsoft.com/e41afb20-5bb8-475f-a056-53d7be8f4bf0">IGetClusterUIInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370234(v=VS.85).aspx">IGetClusterUIInfo</a>
  
 
  
