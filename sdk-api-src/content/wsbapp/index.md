@@ -2,7 +2,7 @@
 UID: NA:wsbapp
 ms.assetid: 25365414-f99f-3165-b2b0-c348a91b1253
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

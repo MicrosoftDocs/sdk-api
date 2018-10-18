@@ -2,7 +2,7 @@
 UID: TP:nap
 ms.assetid: da2f9760-5388-3a9b-87b5-2055fc52784f
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:netsh
 ms.assetid: 27853dd3-deab-3c04-b057-b805862bd855
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

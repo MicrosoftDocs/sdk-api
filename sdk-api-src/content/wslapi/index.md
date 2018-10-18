@@ -2,7 +2,7 @@
 UID: NA:wslapi
 ms.assetid: 2121fef1-ac3f-3125-89eb-c62ad915f5a2
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

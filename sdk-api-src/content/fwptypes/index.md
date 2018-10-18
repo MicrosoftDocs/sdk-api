@@ -2,7 +2,7 @@
 UID: NA:fwptypes
 ms.assetid: 7b41e74f-a163-3d17-835e-8346c2dab457
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

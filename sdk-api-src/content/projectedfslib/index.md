@@ -2,7 +2,7 @@
 UID: NA:projectedfslib
 ms.assetid: a01433cf-71ee-3901-a4c5-9de9add9d979
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

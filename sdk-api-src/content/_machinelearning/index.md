@@ -2,7 +2,7 @@
 UID: TP:machinelearning
 ms.assetid: 528d7026-7368-3c15-91e7-6246f06cf947
 ms.author: windowssdkdev
-ms.date: 10/15/2018
+ms.date: 10/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
