@@ -65,7 +65,7 @@ The number of display modes in the array that the <b>displayMode</b> member spec
 
 ### -field displayMode
 
-An array of <a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a> structures that describe characteristics of display devices. 
+An array of <a href="https://msdn.microsoft.com/en-us/library/Ff554037(v=VS.85).aspx">DisplayMode</a> structures that describe characteristics of display devices. 
 
 
 ## -see-also
@@ -73,7 +73,7 @@ An array of <a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c163243
 
 
 
-<a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff554037(v=VS.85).aspx">DisplayMode</a>
 
 
 

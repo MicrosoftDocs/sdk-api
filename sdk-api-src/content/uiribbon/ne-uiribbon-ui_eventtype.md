@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifies the types of events associated with a <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a>.
+Identifies the types of events associated with a <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a>.
 
 
 ## -enum-fields
@@ -60,27 +60,27 @@ Identifies the types of events associated with a <a href="https://msdn.microsoft
 
 ### -field UI_EVENTTYPE_ApplicationMenuOpened
 
-The <a href="https://msdn.microsoft.com/815e0462-ea45-44b1-81bf-f5797b22e920">ApplicationMenu</a> opened.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371601(v=VS.85).aspx">ApplicationMenu</a> opened.
 
 
 ### -field UI_EVENTTYPE_RibbonMinimized
 
-The <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a> minimized.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> minimized.
 
 
 ### -field UI_EVENTTYPE_RibbonExpanded
 
-The <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a> expanded.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> expanded.
 
 
 ### -field UI_EVENTTYPE_ApplicationModeSwitched
 
-The <a href="https://msdn.microsoft.com/8e9d85c5-33e4-4212-b9e4-2fc3b492c273">application mode</a> changed.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd940486(v=VS.85).aspx">application mode</a> changed.
 
 
 ### -field UI_EVENTTYPE_TabActivated
 
-A <a href="https://msdn.microsoft.com/2e73a89c-4d31-4075-93c8-e43213a20791">Tab</a> activated.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd316894(v=VS.85).aspx">Tab</a> activated.
 
 
 ### -field UI_EVENTTYPE_MenuOpened
@@ -90,23 +90,23 @@ A menu opened.
 
 ### -field UI_EVENTTYPE_CommandExecuted
 
-A <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> executed.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> executed.
 
 
 ### -field UI_EVENTTYPE_TooltipShown
 
-A <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> tooltip displayed.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> tooltip displayed.
 
 
 ## -remarks
 
 
 
-<b>UI_EVENTTYPE_TabActivated</b> is fired for both core tabs and contextual tabs; the <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a> event system does not distinguish between the two.
+<b>UI_EVENTTYPE_TabActivated</b> is fired for both core tabs and contextual tabs; the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> event system does not distinguish between the two.
 
 <b>UI_EVENTTYPE_MenuOpened</b> and <b>UI_EVENTTYPE_MenuClosed</b> are fired when either a regular menu or a gallery menu is opened or closed.
 
-No event is fired when the <a href="https://msdn.microsoft.com/59aa35c3-a844-46b3-b066-c9a321fb0891">QuickAccessToolbar</a> menu is opened or closed.
+No event is fired when the <a href="https://msdn.microsoft.com/en-us/library/Dd371713(v=VS.85).aspx">QuickAccessToolbar</a> menu is opened or closed.
 
 
 
@@ -117,7 +117,7 @@ No event is fired when the <a href="https://msdn.microsoft.com/59aa35c3-a844-46b
 
 
 
-<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
 
 
 

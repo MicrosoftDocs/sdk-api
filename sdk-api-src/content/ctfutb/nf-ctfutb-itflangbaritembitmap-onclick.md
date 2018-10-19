@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param click [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/7fd151dd-e4be-4ec8-b373-2115717d5ef4">TfLBIClick</a> values that indicate which mouse button was used to click the bitmap.
+Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629055(v=VS.85).aspx">TfLBIClick</a> values that indicate which mouse button was used to click the bitmap.
 
 
 ### -param pt [in]
@@ -116,7 +116,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/3bae0422-625e-4f7d-9845-5353ad3ff335">ITfLangBarItemBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628706(v=VS.85).aspx">ITfLangBarItemBitmap</a>
 
 
 

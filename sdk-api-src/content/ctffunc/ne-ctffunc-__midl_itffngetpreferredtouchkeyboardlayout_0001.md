@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Elements of the <b>TKBLayoutType</b> enumeration are passed by an IME in a call to <a href="https://msdn.microsoft.com/03C14744-A4A3-4C62-8E7F-CDCC638BBCA1">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a> to specify the type of layout.
+Elements of the <b>TKBLayoutType</b> enumeration are passed by an IME in a call to <a href="https://msdn.microsoft.com/en-us/library/Hh802865(v=VS.85).aspx">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a> to specify the type of layout.
 
 
 
@@ -80,7 +80,7 @@ The touch keyboard is to use a touch-optimized layout.
 
 
 
-<a href="https://msdn.microsoft.com/03C14744-A4A3-4C62-8E7F-CDCC638BBCA1">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802865(v=VS.85).aspx">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a>
  
 
  

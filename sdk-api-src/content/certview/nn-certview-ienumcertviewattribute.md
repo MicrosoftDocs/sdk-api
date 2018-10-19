@@ -53,7 +53,7 @@ req.redist:
 The <b>IEnumCERTVIEWATTRIBUTE</b> interface represents an attribute-enumeration sequence that contains the   certificate attributes for the current row of the row-enumeration sequence.
 
 The attribute-enumeration sequence is obtained by a call to 
-the <a href="https://msdn.microsoft.com/53a70f66-3805-429e-8ef6-01b00b666b72">IEnumCERTVIEWROW::EnumCertViewAttribute</a> method. After this enumeration sequence is obtained, the methods of the <b>IEnumCERTVIEWATTRIBUTE</b> interface can be used to perform the following tasks:<ul>
+the <a href="https://msdn.microsoft.com/en-us/library/Aa386234(v=VS.85).aspx">IEnumCERTVIEWROW::EnumCertViewAttribute</a> method. After this enumeration sequence is obtained, the methods of the <b>IEnumCERTVIEWATTRIBUTE</b> interface can be used to perform the following tasks:<ul>
 <li>Navigate through the enumeration of certificate attributes.</li>
 <li>Retrieve the name and value of the attributes in the enumeration.</li>
 <li>Clone an exact copy of the certificate attribute object.</li>
@@ -67,9 +67,9 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWATTRIBUTE</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IEnumCERTVIEWATTRIBUTE</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWATTRIBUTE</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEnumCERTVIEWATTRIBUTE</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -82,42 +82,42 @@ The <b>IEnumCERTVIEWATTRIBUTE</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6144514a-cd64-42ce-a856-ff942b129e5a">Clone</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386160(v=VS.85).aspx">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the attribute-enumeration sequence object in its current state.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2409bf1-0571-479e-8499-010d52cfb776">GetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386164(v=VS.85).aspx">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the current attribute in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a03a6da4-d286-487e-a292-8a02626325a8">GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386166(v=VS.85).aspx">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the current attribute in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386168(v=VS.85).aspx">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next  attribute in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f5b8ee0-2820-481b-8836-b2926aec0933">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386170(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves to the beginning of the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/546e7ad7-73f2-4f6e-8d02-a9ca5401ecce">Skip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386172(v=VS.85).aspx">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of attributes in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
@@ -130,11 +130,11 @@ Skips a specified number of attributes in the attribute-enumeration sequence.</p
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/53a70f66-3805-429e-8ef6-01b00b666b72">IEnumCERTVIEWROW::EnumCertViewAttribute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386234(v=VS.85).aspx">IEnumCERTVIEWROW::EnumCertViewAttribute</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the extended style for a specified tree-view control. Use this macro or send the <a href="https://msdn.microsoft.com/adc74cc5-e741-4966-bf49-a4b0c67e645a">TVM_GETEXTENDEDSTYLE</a> message explicitly.
+Retrieves the extended style for a specified tree-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773580(v=VS.85).aspx">TVM_GETEXTENDEDSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the extended style for a specified tree-view control. Use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -69,7 +69,7 @@ Handle to the tree-view control.
 
 
 
-The extended styles for a tree-view control have nothing to do with the extended styles used with function <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> or function <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a>.
+The extended styles for a tree-view control have nothing to do with the extended styles used with function <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> or function <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>.
       
 
 

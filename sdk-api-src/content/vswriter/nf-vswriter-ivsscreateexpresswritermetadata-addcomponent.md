@@ -126,7 +126,7 @@ A Boolean value that indicates whether the component can be optionally backed up
 ### -param bSelectableForRestore [in]
 
 A Boolean value that determines whether a component can be individually restored when it has not been 
-      <a href="vssgloss_e.htm">explicitly included</a> in 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa384655(v=VS.85).aspx">explicitly included</a> in 
       the backup document. If the component was explicitly added to the backup document, it can always be 
       individually selected for restore; in this case, this flag has no meaning. 
       

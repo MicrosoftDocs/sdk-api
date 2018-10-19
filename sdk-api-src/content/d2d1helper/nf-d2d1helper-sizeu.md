@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e6">D2D1_SIZE_U</a> structure that contains the specified width and height.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368162(v=VS.85).aspx">D2D1_SIZE_U</a> structure that contains the specified width and height.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The height of the size. The default value is 0.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e6">D2D1_SIZE_U</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368162(v=VS.85).aspx">D2D1_SIZE_U</a></b>
 
 The new size structure.
 

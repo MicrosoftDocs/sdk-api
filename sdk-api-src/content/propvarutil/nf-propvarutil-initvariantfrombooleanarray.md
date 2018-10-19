@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure from an array of Boolean values.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure from an array of Boolean values.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The number of elements in the array.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns
@@ -99,7 +99,7 @@ Creates a VT_ARRAY | VT_BOOL variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>.
 
 
 ```cpp
@@ -124,11 +124,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="shell.VariantToBooleanArray">VariantToBooleanArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a>
  
 
  

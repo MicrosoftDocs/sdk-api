@@ -52,7 +52,7 @@ req.redist:
 
 Used by the 
     <a href="https://msdn.microsoft.com/4afadb62-2bea-46ef-b0d6-e327ac96d16f">SetClusterServiceAccountPassword</a> 
-    function to return the results of a <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> user 
+    function to return the results of a <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a> user 
     account password change for each cluster node.
 
 

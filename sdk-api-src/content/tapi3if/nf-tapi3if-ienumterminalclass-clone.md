@@ -130,8 +130,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/1da0a82a-fde4-440c-ac6c-e9b85a7ec3fe">IEnumTerminalClass</a> interface returned by <b>IEnumTerminalClass::Clone</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/1da0a82a-fde4-440c-ac6c-e9b85a7ec3fe">IEnumTerminalClass</a> interface returned by <b>IEnumTerminalClass::Clone</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
 <b>IEnumTerminalClass</b> interface to free resources associated with it.
 
 

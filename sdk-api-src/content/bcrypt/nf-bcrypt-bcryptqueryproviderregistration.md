@@ -214,14 +214,14 @@ Retrieve the signature interface.
 A pointer to a <b>ULONG</b> value that, on entry, contains the size, in bytes, of the buffer pointed to by the <i>ppBuffer</i> parameter. On exit, this value receives either the number of bytes copied to the buffer or the required size, in bytes, of the buffer.
 
 
-<div class="alert"><b>Note</b>  This is the total size, in bytes, of the entire buffer, not just the size of the <a href="https://msdn.microsoft.com/ca0ac386-9435-49f0-95fe-503aa7183517">CRYPT_PROVIDER_REG</a> structure. The buffer must be able to hold other data for the providers in addition to the <b>CRYPT_PROVIDER_REG</b> structure.</div>
+<div class="alert"><b>Note</b>  This is the total size, in bytes, of the entire buffer, not just the size of the <a href="https://msdn.microsoft.com/en-us/library/Aa376233(v=VS.85).aspx">CRYPT_PROVIDER_REG</a> structure. The buffer must be able to hold other data for the providers in addition to the <b>CRYPT_PROVIDER_REG</b> structure.</div>
 <div> </div>
 
 
 
 ### -param ppBuffer [in, out]
 
-A pointer to a buffer pointer that receives a <a href="https://msdn.microsoft.com/ca0ac386-9435-49f0-95fe-503aa7183517">CRYPT_PROVIDER_REG</a> structure and other data that describes the provider.
+A pointer to a buffer pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/Aa376233(v=VS.85).aspx">CRYPT_PROVIDER_REG</a> structure and other data that describes the provider.
 
 If this parameter is <b>NULL</b>, this function will return <b>STATUS_BUFFER_TOO_SMALL</b> and place in the value pointed to by the <i>pcbBuffer</i> parameter, the required size, in bytes, of all data.
 
@@ -314,7 +314,7 @@ No provider could be found that matches the specified criteria.
 
 
 
-<a href="https://msdn.microsoft.com/ca0ac386-9435-49f0-95fe-503aa7183517">CRYPT_PROVIDER_REG</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376233(v=VS.85).aspx">CRYPT_PROVIDER_REG</a>
  
 
  

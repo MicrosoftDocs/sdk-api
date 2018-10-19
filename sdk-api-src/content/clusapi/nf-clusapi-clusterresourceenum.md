@@ -51,9 +51,9 @@ req.redist:
 ## -description
 
 
-Enumerates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a> dependent resources, 
-    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a>, or both. It returns the name of one 
-    <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object</a> with each call. The <b>PCLUSAPI_CLUSTER_RESOURCE_ENUM</b> type defines a pointer to this function.
+Enumerates a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource's</a> dependent resources, 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a>, or both. It returns the name of one 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster object</a> with each call. The <b>PCLUSAPI_CLUSTER_RESOURCE_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ The type of object returned by
        <b>ClusterResourceEnum</b>.
 
 
-The possible values are one of the following <a href="https://msdn.microsoft.com/8b59ab43-7e03-4ddf-82cc-9945e9da6462">CLUSTER_RESOURCE_ENUM</a> enumeration values:
+The possible values are one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb309166(v=VS.85).aspx">CLUSTER_RESOURCE_ENUM</a> enumeration values:
 
 
 
@@ -130,18 +130,18 @@ The function returns one of the following values.
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating null character in the count. For more information on 
-     sizing buffers, see <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+     sizing buffers, see <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
 
 Do not call <b>ClusterResourceEnum</b> from any 
      resource DLL entry point function. 
      <b>ClusterResourceEnum</b> can safely be called from a 
      worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -152,7 +152,7 @@ See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">En
 
 
 
-<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Cluster Resource Management Functions</a>
 
 
 

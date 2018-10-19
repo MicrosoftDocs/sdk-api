@@ -52,9 +52,9 @@ req.redist:
 
 <p class="CCE_Message">[Windows Search 2.x is available for use in the operating system specified in the 
 
-Requirements section. It might be altered or unavailable in later versions. Use the <a href="https://msdn.microsoft.com/3590cdab-5831-4372-adf7-61814031c931">Windows Search API</a> instead.]
+Requirements section. It might be altered or unavailable in later versions. Use the <a href="https://msdn.microsoft.com/en-us/library/Ee872061(v=VS.85).aspx">Windows Search API</a> instead.]
 
-Used by <a href="https://msdn.microsoft.com/ea05f4df-4caf-404f-8890-a109ca88555c">IResultsViewer::SortOrderProperty</a> to indicate or set how a query is to be sorted.
+Used by <a href="https://msdn.microsoft.com/en-us/library/Aa965786(v=VS.85).aspx">IResultsViewer::SortOrderProperty</a> to indicate or set how a query is to be sorted.
 
 
 ## -enum-fields
