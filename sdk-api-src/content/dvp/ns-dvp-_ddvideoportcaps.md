@@ -4,10 +4,10 @@ title: "_DDVIDEOPORTCAPS"
 author: windows-sdk-content
 description: The DDVIDEOPORTCAPS structure describes the capabilities and alignment restrictions of a hardware video port.
 old-location: display\ddvideoportcaps.htm
-tech.root: Display
+tech.root: display
 ms.assetid: ea85f189-7308-48ad-b159-1809749f8183
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS, DDVIDEOPORTCAPS structure [Display Devices], _DDVIDEOPORTCAPS, ddstrcts_6955b71e-772c-41a5-9aa0-7d0247fc9d0a.xml, display.ddvideoportcaps, dvp/DDVIDEOPORTCAPS"
 ms.prod: windows
 ms.technology: windows-sdk

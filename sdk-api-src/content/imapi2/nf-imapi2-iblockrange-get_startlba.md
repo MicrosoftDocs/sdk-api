@@ -7,7 +7,7 @@ old-location: imapi\iblockrange_get_startlba.htm
 tech.root: imapi
 ms.assetid: 6891aebd-3795-4e1c-a065-1579a984de41
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: IBlockRange interface [IMAPI],get_StartLba method, IBlockRange.get_StartLba, IBlockRange::get_StartLba, get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI],IBlockRange interface, imapi.iblockrange_get_startlba, imapi2/IBlockRange::get_StartLba
 ms.prod: windows-hardware
 ms.technology: windows-devices

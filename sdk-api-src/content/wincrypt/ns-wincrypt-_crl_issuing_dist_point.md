@@ -7,7 +7,7 @@ old-location: security\crl_issuing_dist_point.htm
 tech.root: seccrypto
 ms.assetid: cdac9e96-5b26-4398-8863-16ea2c43f11e
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*PCRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT structure [Security], PCRL_ISSUING_DIST_POINT, PCRL_ISSUING_DIST_POINT structure pointer [Security], _CRL_ISSUING_DIST_POINT, _crypto2_crl_issuing_dist_point, security.crl_issuing_dist_point, wincrypt/CRL_ISSUING_DIST_POINT, wincrypt/PCRL_ISSUING_DIST_POINT"
 ms.prod: windows
 ms.technology: windows-sdk

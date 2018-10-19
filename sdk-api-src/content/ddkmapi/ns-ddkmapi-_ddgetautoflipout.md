@@ -4,10 +4,10 @@ title: "_DDGETAUTOFLIPOUT"
 author: windows-sdk-content
 description: The DDGETAUTOFLIPOUT structure contains the handle and polarity information returned from the DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE and DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE function identifiers of the DxApi function.
 old-location: display\ddgetautoflipout.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 48a64f86-9816-441d-9e4e-bd3f32d51728
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPDDGETAUTOFLIPOUT, DDGETAUTOFLIPOUT, DDGETAUTOFLIPOUT structure [Display Devices], LPDDGETAUTOFLIPOUT, LPDDGETAUTOFLIPOUT structure pointer [Display Devices], _DDGETAUTOFLIPOUT, ddkmapi/DDGETAUTOFLIPOUT, ddkmapi/LPDDGETAUTOFLIPOUT, ddstrcts_b11ef13a-2e8d-4676-b270-29b926abee91.xml, display.ddgetautoflipout"
 ms.prod: windows
 ms.technology: windows-sdk

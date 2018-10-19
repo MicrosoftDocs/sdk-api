@@ -4,10 +4,10 @@ title: EngUnlockSurface function
 author: windows-sdk-content
 description: The EngUnlockSurface function causes GDI to unlock the surface.
 old-location: display\engunlocksurface.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 49d089e3-c900-4f81-a6ee-420a5558a4ff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngUnlockSurface, EngUnlockSurface function [Display Devices], display.engunlocksurface, gdifncs_a7050a36-0beb-4f7e-857c-5d1e13d5f530.xml, winddi/EngUnlockSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\iblockrange.htm
 tech.root: imapi
 ms.assetid: abebc651-0575-4b76-9fe8-2cea3d617582
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: IBlockRange, IBlockRange interface [IMAPI], IBlockRange interface [IMAPI],described, imapi.iblockrange, imapi2/IBlockRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Use this interface to retrieve information about a single continuous range of se
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRange</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBlockRange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRange</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IBlockRange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

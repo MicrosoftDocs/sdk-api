@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT)
 title: Graphics::DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT)
 author: windows-sdk-content
-description: This topic lists the DrawRectangle methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangle_Methods.htm
+description: The Graphics::DrawRectangle method draws a rectangle.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_INT_x_INT_y_INT_width_INT_height_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglemethods\drawrectangle_31penpen_intx_inty_intwidth_intheight.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: DrawRectangle, DrawRectangle methods [GDI+], Graphics.DrawRectangle, Graphics.DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT), Graphics::DrawRectangle, Graphics::DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawRectangle_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawRectangle_Methods, gdiplusgraphics/DrawRectangle
+ms.date: 10/16/2018
+ms.keywords: DrawRectangle, DrawRectangle method [GDI+], DrawRectangle method [GDI+],Graphics class, Graphics class [GDI+],DrawRectangle method, Graphics.DrawRectangle, Graphics.DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT), Graphics.DrawRectangle(const Pen*,INT,INT,INT,INT), Graphics::DrawRectangle, Graphics::DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_INT_x_INT_y_INT_width_INT_height_, gdiplus._gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_INT_x_INT_y_INT_width_INT_height_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusgraphics.h
+ - Gdiplus.dll
 api_name:
  - Graphics.DrawRectangle
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Graphics::DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT)
@@ -50,55 +51,90 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-DrawRectangle methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+The <b>Graphics::DrawRectangle</b> method draws a rectangle.
 
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536001(v=VS.85).aspx">DrawRectangle(Pen*,Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536001(v=VS.85).aspx">Graphics::DrawRectangle</a> method draws a rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536006(v=VS.85).aspx">DrawRectangle(Pen*,RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536006(v=VS.85).aspx">Graphics::DrawRectangle</a> method draws a rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx">DrawRectangle(Pen*,INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx">Graphics::DrawRectangle</a> method draws a rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536004(v=VS.85).aspx">DrawRectangle(Pen*,REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536004(v=VS.85).aspx">Graphics::DrawRectangle</a> method draws a rectangle.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param pen [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> that is used to draw the rectangle. 
+
+
+### -param x [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the x-coordinate of the upper-left corner of the rectangle. 
+
+
+### -param y [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the y-coordinate of the upper-left corner of the rectangle. 
+
+
+### -param width [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the width of the rectangle. 
+
+
+### -param height [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the height of the rectangle. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1c0c0e09-2304-4d68-9dd0-22b0861a2492">DrawRectangles Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/91d3fc66-4c0d-4b44-beae-59f13b80483d">FillRectangle Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+
+
+
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+ 
+
+ 
 

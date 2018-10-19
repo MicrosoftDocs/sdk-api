@@ -60,7 +60,7 @@ Describes the blend state.
 
 ### -field AlphaToCoverageEnable
 
-Specifies whether to use alpha-to-coverage as a multisampling technique when setting a pixel to a render target. For more info about using alpha-to-coverage, see <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">Alpha-To-Coverage</a>.
+Specifies whether to use alpha-to-coverage as a multisampling technique when setting a pixel to a render target. For more info about using alpha-to-coverage, see <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">Alpha-To-Coverage</a>.
           
 
 
@@ -73,7 +73,7 @@ Specifies whether to enable independent blending in simultaneous render targets.
 ### -field RenderTarget
 
 An array of  <a href="https://msdn.microsoft.com/911158CF-5F4F-4211-8CC6-F73BDB697BC5">D3D12_RENDER_TARGET_BLEND_DESC</a> structures that describe the blend states for render targets; these correspond to the eight render targets
-            that can be bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a> at one time.
+            that can be bound to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a> at one time.
           
 
 

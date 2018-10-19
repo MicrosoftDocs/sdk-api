@@ -4,10 +4,10 @@ title: EngReadStateEvent function
 author: windows-sdk-content
 description: The EngReadStateEvent function returns the current state of the specified event object:\_signaled or nonsignaled.
 old-location: display\engreadstateevent.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 32dddcc0-4cf2-467f-b1a6-03c9892d3473
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngReadStateEvent, EngReadStateEvent function [Display Devices], display.engreadstateevent, gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml, winddi/EngReadStateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

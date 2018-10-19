@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnSetFocus.htm
 tech.root: shell
 ms.assetid: 107a2ce8-2914-423a-bda7-4aeb112965bc
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnSetFocus method, IBrowserService2.OnSetFocus, IBrowserService2::OnSetFocus, OnSetFocus, OnSetFocus method [Windows Shell], OnSetFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnSetFocus, shell.IBrowserService2_OnSetFocus, zone_IBrowserService2_OnSetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/77180e4c-95a6-41a4-93d9-033381ae7543">WM_SETFOCUS</a> message. The derived class handles the message.
 
 
 ## -parameters

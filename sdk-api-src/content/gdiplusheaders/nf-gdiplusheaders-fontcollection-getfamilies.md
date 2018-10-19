@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfami
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getfamilies.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: FontCollection class [GDI+],GetFamilies method, FontCollection.GetFamilies, FontCollection::GetFamilies, GetFamilies, GetFamilies method [GDI+], GetFamilies method [GDI+],FontCollection class, _gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_, gdiplus._gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ Integer that specifies the number of font families in this font collection.
 
 ### -param gpfamilies [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a>*</b>
 
-Pointer to an array that receives the <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> objects.
+Pointer to an array that receives the <a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a> objects.
 
 
 ### -param numFound [out]
@@ -84,10 +84,10 @@ Pointer to an <b>INT</b> that receives the number of font families found in this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.  If the method fails, it returns one of the other elements of the <b>Status</b> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.  If the method fails, it returns one of the other elements of the <b>Status</b> enumeration.
 
 
 
@@ -101,11 +101,15 @@ A font family consists of a single font type with related styles. An example of 
 
 #### Examples
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, gets the <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> objects contained within the collection, and uses one of the font families to draw text.
+The following example creates a <a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a> object, gets the <a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a> objects contained within the collection, and uses one of the font families to draw text.
 
-
-```cpp
-VOID Example_GetFamilies(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetFamilies(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -119,20 +123,20 @@ VOID Example_GetFamilies(HDC hdc)
    // fontCollection.
    FontFamily families[3];
    int numFamilies;
-   fontCollection.GetFamilies(3, families, &numFamilies);
+   fontCollection.GetFamilies(3, families, &amp;numFamilies);
 
    // Create a Font object from the first FontFamily object in the array.
-   Font myFont(&families[0], 16);
+   Font myFont(&amp;families[0], 16);
 
    // Use myFont to draw text.
    SolidBrush solidbrush(Color(255, 0, 0, 0));
    WCHAR string[] = L"This is an Arial font";
    graphics.DrawString(string,
-                       21, &myFont, PointF(0, 0), &solidbrush);
-}
-```
-
-
+                       21, &amp;myFont, PointF(0, 0), &amp;solidbrush);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -141,23 +145,23 @@ VOID Example_GetFamilies(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a>
+<a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536187(v=VS.85).aspx">FontCollection::GetFamilyCount</a>
+<a href="https://msdn.microsoft.com/0f278a78-ba91-4225-bf8d-aca7f70ca099">FontCollection::GetFamilyCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
+<a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

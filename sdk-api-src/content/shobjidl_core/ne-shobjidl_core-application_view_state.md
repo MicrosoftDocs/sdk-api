@@ -7,7 +7,7 @@ old-location: shell\APPLICATION_VIEW_STATE.htm
 tech.root: shell
 ms.assetid: A79F66BD-2972-4f30-9284-E88B8201F38D
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: APPLICATION_VIEW_STATE, APPLICATION_VIEW_STATE enumeration [Windows Shell], AVS_FILLED, AVS_FULLSCREEN_LANDSCAPE, AVS_FULLSCREEN_PORTRAIT, AVS_SNAPPED, shell.APPLICATION_VIEW_STATE, shobjidl_core/APPLICATION_VIEW_STATE, shobjidl_core/AVS_FILLED, shobjidl_core/AVS_FULLSCREEN_LANDSCAPE, shobjidl_core/AVS_FULLSCREEN_PORTRAIT, shobjidl_core/AVS_SNAPPED
 ms.prod: windows
 ms.technology: windows-sdk

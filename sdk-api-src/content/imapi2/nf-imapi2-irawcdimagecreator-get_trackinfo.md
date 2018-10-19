@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_get_trackinfo.htm
 tech.root: imapi
 ms.assetid: e6bc12fe-9274-4339-baf5-80a80512759e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_TrackInfo method, IRawCDImageCreator.get_TrackInfo, IRawCDImageCreator::get_TrackInfo, get_TrackInfo, get_TrackInfo method [IMAPI], get_TrackInfo method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_trackinfo, imapi2/IRawCDImageCreator::get_TrackInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

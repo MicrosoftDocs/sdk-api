@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster2_get_item.htm
 tech.root: imapi
 ms.assetid: e909acb9-850b-404d-a2f7-efb37faf3506
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Item method, IDiscMaster2.get_Item, IDiscMaster2::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_item, imapi2/IDiscMaster2::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,13 +135,17 @@ To enumerate all identifiers, call the <a href="https://msdn.microsoft.com/f148a
     The following sample demonstrates how to re-enumerate optical 
     drives in order to accurately account for drives added or removed  after the initial creation of the <a href="https://msdn.microsoft.com/cdca44d4-6ab5-4c2f-91ba-bef79b1d457e">IDiscMaster2</a> object. This is accomplished via the <b>IDiscMaster2::get_Item</b> and <a href="https://msdn.microsoft.com/b1e0ec8f-4c66-4648-ad76-2998200ea574">IDiscMaster2::get_Count</a> methods:
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
-#include <imapi2.h>
-#include <objbase.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;imapi2.h&gt;
+#include &lt;objbase.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "ole32.lib")
 #pragma comment(lib, "user32.lib")
@@ -162,7 +166,7 @@ int __cdecl _tmain(int argc, TCHAR* argv[])
         CoCreateInstance(
             CLSID_MsftDiscMaster2,
             NULL, CLSCTX_ALL,
-            IID_PPV_ARGS(&discMaster)
+            IID_PPV_ARGS(&amp;discMaster)
         );   
 
         if(FAILED(hr)){
@@ -179,7 +183,7 @@ int __cdecl _tmain(int argc, TCHAR* argv[])
     do{
         // Get the number of drives 
         if (SUCCEEDED(hr)){
-            hr = discMaster->get_Count(&lValue);
+            hr = discMaster-&gt;get_Count(&amp;lValue);
             if (SUCCEEDED(hr)){
                 _tprintf(TEXT("\nTotal number of drives = %d\n"), lValue);
             }
@@ -187,29 +191,29 @@ int __cdecl _tmain(int argc, TCHAR* argv[])
 
         // Print all the optical drives attached to the system 
         if (SUCCEEDED(hr)){
-            for(LONG iCount = 0; iCount < lValue; iCount++) {
-                hr = discMaster->get_Item(iCount, &bstrDeviceName);
+            for(LONG iCount = 0; iCount &lt; lValue; iCount++) {
+                hr = discMaster-&gt;get_Item(iCount, &amp;bstrDeviceName);
                 _tprintf(TEXT("\nUnique identifier of the disc device associated with index %d is: %s\n"), iCount, bstrDeviceName);
             }            
         }
 
         // Prompt the user to unhook or add drives
-        if (iCounter < 1){
+        if (iCounter &lt; 1){
             MessageBox(NULL,TEXT("Please un-hook or add drives and hit OK"), TEXT("Manual Action"), MB_OK);
             _tprintf(TEXT("\nGetting the altered configuration ... \n"));
         }
         iCounter++;
-    }while(iCounter < 2);
+    }while(iCounter &lt; 2);
 
-    discMaster->Release();
+    discMaster-&gt;Release();
     CoUninitialize();   
     bComInitialised = FALSE;   
 
     return 0;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpaint_getcolor.htm
 tech.root: direct2d
 ms.assetid: 17B4A208-9658-4BD3-AFC3-33D25CD58B6F
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetColor, GetColor method [Direct2D], GetColor method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetColor method, ID2D1SvgPaint.GetColor, ID2D1SvgPaint::GetColor, d2d1svg/ID2D1SvgPaint::GetColor, direct2d.id2d1svgpaint_getcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -132,9 +132,13 @@ Servers expose elements as either elements (child IDs) or full objects (<a href=
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows an implementation for an object that does not have any children, or whose children are elements rather than objects.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT STDMETHODCALLTYPE AccServer::get_accChild( 
     VARIANT varChild,
     IDispatch **ppdispChild)
@@ -147,10 +151,10 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accChild(
     *ppdispChild = NULL;    
     return S_FALSE;     
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

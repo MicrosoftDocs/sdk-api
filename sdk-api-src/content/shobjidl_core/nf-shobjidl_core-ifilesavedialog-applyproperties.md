@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog_ApplyProperties.htm
 tech.root: shell
 ms.assetid: 3de64914-b64e-47e8-8f84-6c64d849ffa9
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ApplyProperties, ApplyProperties method [Windows Shell], ApplyProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],ApplyProperties method, IFileSaveDialog.ApplyProperties, IFileSaveDialog::ApplyProperties, shell.IFileSaveDialog_ApplyProperties, shell_IFileSaveDialog_ApplyProperties, shobjidl_core/IFileSaveDialog::ApplyProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

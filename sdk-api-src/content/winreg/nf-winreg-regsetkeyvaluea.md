@@ -7,7 +7,7 @@ old-location: base\regsetkeyvalue.htm
 tech.root: sysinfo
 ms.assetid: e27d2dd6-b139-4ac1-8dd8-527022333364
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: RegSetKeyValue, RegSetKeyValue function, RegSetKeyValueA, RegSetKeyValueW, base.regsetkeyvalue, winreg/RegSetKeyValue, winreg/RegSetKeyValueA, winreg/RegSetKeyValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

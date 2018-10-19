@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr.htm
 tech.root: TSF
 ms.assetid: 26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], ITfCategoryMgr interface [Text Services Framework],described, _tsf_itfcategorymgr_ref, msctf/ITfCategoryMgr, tsf.itfcategorymgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -206,11 +206,11 @@ Removes the DWORD value for a GUID from the Windows registry.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

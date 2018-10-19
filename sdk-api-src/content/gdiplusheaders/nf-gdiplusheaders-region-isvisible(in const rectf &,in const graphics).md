@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Region.IsVisible(IN const RectF &,IN const Graphics)
 title: Region::IsVisible(IN const RectF &,IN const Graphics)
 author: windows-sdk-content
-description: This topic lists the IsVisible methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
-old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Methods.htm
+description: The Region::IsVisible method determines whether a rectangle intersects this region.
+old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_RectF_rect_Graphics_g_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_24rectfamprect_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: IsVisible, IsVisible methods [GDI+], Region.IsVisible, Region.IsVisible(IN const RectF &,IN const Graphics), Region::IsVisible, Region::IsVisible(IN const RectF &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Methods, gdiplus._gdiplus_CLASS_Region_IsVisible_Methods, gdiplusheaders/IsVisible
+ms.date: 10/16/2018
+ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN const RectF &,IN const Graphics), Region.IsVisible(const RectF&,const Graphics*), Region::IsVisible, Region::IsVisible(IN const RectF &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_RectF_rect_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_RectF_rect_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusheaders.h
+ - Gdiplus.dll
 api_name:
  - Region.IsVisible
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Region::IsVisible(IN const RectF &,IN const Graphics)
@@ -50,88 +51,64 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			IsVisible methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>. 
+The <b>Region::IsVisible</b> method determines whether a rectangle intersects this region.
 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534797(v=VS.85).aspx">IsVisible(Rect&,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534797(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534801(v=VS.85).aspx">IsVisible(Point&,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534801(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534796(v=VS.85).aspx">IsVisible(RectF&,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534796(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534798(v=VS.85).aspx">IsVisible(INT,INT,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534798(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534795(v=VS.85).aspx">IsVisible(PointF&,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534795(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534799(v=VS.85).aspx">IsVisible(REAL,REAL,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534799(v=VS.85).aspx">Region::IsVisible</a> method determines whether a point is inside this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534800(v=VS.85).aspx">IsVisible(INT,INT,INT,INT,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534800(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534802(v=VS.85).aspx">IsVisible(REAL,REAL,REAL,REAL,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534802(v=VS.85).aspx">Region::IsVisible</a> method determines whether a rectangle intersects this region.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param rect [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
+
+Reference to a rectangle to test. 
+
+
+### -param g [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
+
+Optional. Pointer to a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. The default value is <b>NULL</b>. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>BOOL</b>
+</strong>
+
+If the rectangle intersects this region, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  A region contains its border.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+ 
+
+ 
 

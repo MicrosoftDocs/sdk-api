@@ -7,7 +7,7 @@ old-location: base\iswindows8_1orgreater.htm
 tech.root: sysinfo
 ms.assetid: E391B568-5E43-42C7-B186-8CA524331FFE
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IsWindows8Point1OrGreater, IsWindows8Point1OrGreater function, base.iswindows8_1orgreater, versionhelpers/IsWindows8Point1OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,18 +88,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows 8.1 or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindows8Point1OrGreater())
     {
        MessageBox(NULL, "You need at least Windows 8.1", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

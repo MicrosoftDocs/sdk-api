@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_showfloating.htm
 tech.root: TSF
 ms.assetid: f49987c7-476d-4add-9d43-83de78693420
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],ShowFloating method, ITfLangBarMgr.ShowFloating, ITfLangBarMgr::ShowFloating, ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework],ITfLangBarMgr interface, TF_SFT_DESKBAND, TF_SFT_DOCK, TF_SFT_EXTRAICONSONMINIMIZED, TF_SFT_HIDDEN, TF_SFT_HIGHTRANSPARENCY, TF_SFT_LABELS, TF_SFT_LOWTRANSPARENCY, TF_SFT_MINIMIZED, TF_SFT_NOEXTRAICONSONMINIMIZED, TF_SFT_NOLABELS, TF_SFT_NOTRANSPARENCY, TF_SFT_SHOWNORMAL, _tsf_itflangbarmgr_showfloating_ref, ctfutb/ITfLangBarMgr::ShowFloating, tsf.itflangbarmgr_showfloating
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -245,7 +245,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628748(v=VS.85).aspx">ITfLangBarMgr</a>
+<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
 
 
 

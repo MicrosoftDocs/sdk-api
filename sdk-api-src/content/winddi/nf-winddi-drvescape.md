@@ -4,10 +4,10 @@ title: DrvEscape function
 author: windows-sdk-content
 description: The DrvEscape function is used for retrieving information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the iEsc parameter.
 old-location: display\drvescape.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 7b59dc85-27f4-4529-847e-6027dae8a45a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvEscape, DrvEscape function [Display Devices], ddifncs_14e6aa7f-fe76-48bb-9161-bdcc1a67309f.xml, display.drvescape, winddi/DrvEscape
 ms.prod: windows-hardware
 ms.technology: windows-devices

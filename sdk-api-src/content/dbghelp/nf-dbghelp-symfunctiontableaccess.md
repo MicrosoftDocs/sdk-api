@@ -98,9 +98,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 This function supersedes the <b>SymFunctionTableAccess</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymFunctionTableAccess</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymFunctionTableAccess SymFunctionTableAccess64
 #else
 PVOID
@@ -109,10 +113,10 @@ SymFunctionTableAccess(
     __in HANDLE hProcess,
     __in DWORD AddrBase
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

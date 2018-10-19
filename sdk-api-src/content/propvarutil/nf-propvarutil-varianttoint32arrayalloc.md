@@ -7,7 +7,7 @@ old-location: properties\VariantToInt32ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 6010ee34-d7d2-4b8b-a49b-0f2aa88a3b54
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: VariantToInt32ArrayAlloc, VariantToInt32ArrayAlloc function [Windows Properties], _shell_VariantToInt32ArrayAlloc, properties.VariantToInt32ArrayAlloc, propvarutil/VariantToInt32ArrayAlloc, shell.VariantToInt32ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

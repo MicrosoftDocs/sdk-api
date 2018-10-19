@@ -7,7 +7,7 @@ old-location: shell\FILE_USAGE_TYPE.htm
 tech.root: shell
 ms.assetid: 32b0e148-499a-401d-837c-8cea74cf9cac
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: FILE_USAGE_TYPE, FILE_USAGE_TYPE enumeration [Windows Shell], FUT_EDITING, FUT_GENERIC, FUT_PLAYING, _shell_FILE_USAGE_TYPE, shell.FILE_USAGE_TYPE, shobjidl_core/FILE_USAGE_TYPE, shobjidl_core/FUT_EDITING, shobjidl_core/FUT_GENERIC, shobjidl_core/FUT_PLAYING
 ms.prod: windows
 ms.technology: windows-sdk

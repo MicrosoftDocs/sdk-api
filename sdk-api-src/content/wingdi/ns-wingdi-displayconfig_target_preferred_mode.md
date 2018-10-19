@@ -4,10 +4,10 @@ title: DISPLAYCONFIG_TARGET_PREFERRED_MODE
 author: windows-sdk-content
 description: The DISPLAYCONFIG_TARGET_PREFERRED_MODE structure contains information about the preferred mode of a display.
 old-location: display\displayconfig_target_preferred_mode.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 1a4926ca-36d2-466c-b3d2-b59d34a89ee6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: CCD_Structures_d19517fa-c72d-47bf-9198-c447efe1ba90.xml, DISPLAYCONFIG_TARGET_PREFERRED_MODE, DISPLAYCONFIG_TARGET_PREFERRED_MODE structure [Display Devices], display.displayconfig_target_preferred_mode, wingdi/DISPLAYCONFIG_TARGET_PREFERRED_MODE
 ms.prod: windows
 ms.technology: windows-sdk

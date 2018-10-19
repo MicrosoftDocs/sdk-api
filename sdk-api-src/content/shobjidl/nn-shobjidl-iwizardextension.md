@@ -7,7 +7,7 @@ old-location: shell\IWizardExtension.htm
 tech.root: shell
 ms.assetid: f2d69f18-73de-44c1-9543-909e509b1c4f
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IWizardExtension, IWizardExtension interface [Windows Shell], IWizardExtension interface [Windows Shell],described, _shell_IWizardExtension, shell.IWizardExtension, shobjidl/IWizardExtension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The <b>IWizardExtension</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2d9a5012-3b5e-4e55-984b-70a932bab569">AddPages</a>
 </td>
 <td align="left" width="63%">
-Adds extension pages to the wizard by filling an array with handles to <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structures representing those pages.
+Adds extension pages to the wizard by filling an array with handles to <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structures representing those pages.
 
 </td>
 </tr>

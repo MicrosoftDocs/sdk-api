@@ -4,10 +4,10 @@ title: EngDebugPrint function
 author: windows-sdk-content
 description: The EngDebugPrint function prints the specified debug message to the kernel debugger.
 old-location: display\engdebugprint.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 2480adec-68b6-4ffe-8b20-2ca7cb1a4d79
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngDebugPrint, EngDebugPrint function [Display Devices], display.engdebugprint, gdifncs_e3529861-721f-41f3-aedc-12ef88353b24.xml, winddi/EngDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,9 +94,13 @@ The <i>DebugMessage</i> parameter is a variable argument ASCII C string; that is
 
 An example use of <b>EngDebugPrint</b> follows:
 
-
-```
-#define STANDARD_DEBUG_PREFIX     "Permedia: "
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define STANDARD_DEBUG_PREFIX     "Permedia: "
 LONG bank;
 LONG width;
 ...
@@ -109,10 +113,10 @@ VOID MyDebugPrint(PCHAR DebugMessage, ...)
     va_end(ap);
 }
 ...
-MyDebugPrint("Bank: %lx; Width: %ld", bank, width);
-```
-
-
+MyDebugPrint("Bank: %lx; Width: %ld", bank, width);</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the Permedia (<i>3dlabs.htm</i> and <i>Perm3.htm</i>) and FrameBuffer (<i>Framebuf.htm) </i>sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="http://go.microsoft.com/fwlink/p/?linkid=21859">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
 <div> </div>
 

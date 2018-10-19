@@ -4,10 +4,10 @@ title: "_DD_GETVPORTOUTPUTFORMATDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTOUTPUTFORMATDATA structure contains the information required for the driver to return all of the output formats that the video port extensions (VPE) object supports for a given input format.
 old-location: display\dd_getvportoutputformatdata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 3033a4e9-3f94-4702-9db8-098a358ab1c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA structure [Display Devices], _DD_GETVPORTOUTPUTFORMATDATA, ddrawint/DD_GETVPORTOUTPUTFORMATDATA, ddstrcts_c8b41b3c-cb15-46d2-aa72-f59301276ffe.xml, display.dd_getvportoutputformatdata"
 ms.prod: windows
 ms.technology: windows-sdk

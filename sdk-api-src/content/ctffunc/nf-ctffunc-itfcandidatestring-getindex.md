@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatestring_getindex.htm
 tech.root: TSF
 ms.assetid: 16ec9a89-db57-41ad-9e32-db0b24abda13
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: GetIndex, GetIndex method [Text Services Framework], GetIndex method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetIndex method, ITfCandidateString.GetIndex, ITfCandidateString::GetIndex, _tsf_itfcandidatestring_getindex_ref, ctffunc/ITfCandidateString::GetIndex, tsf.itfcandidatestring_getindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538497(v=VS.85).aspx">ITfCandidateString</a>
+<a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString</a>
  
 
  

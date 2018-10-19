@@ -7,7 +7,7 @@ old-location: security\cryptcontextaddref.htm
 tech.root: seccrypto
 ms.assetid: 074666a7-369c-43bc-97d9-3bcc9703976b
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CryptContextAddRef, CryptContextAddRef function [Security], _crypto2_cryptcontextaddref, security.cryptcontextaddref, wincrypt/CryptContextAddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,9 +123,13 @@ This function increases the <a href="https://msdn.microsoft.com/ce589e18-02ac-42
 
 The following example increments the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a> on an acquired CSP handle.
 
-
-```cpp
-//--------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//--------------------------------------------------------------------
 // hCryptProv is a HCRYPTPROV variable that was previously acquired
 // by using CryptAcquireContext or CryptAcquireCertificatePrivateKey.
 
@@ -145,10 +149,10 @@ else
 //  The reference count on hCryptProv is now greater than one. The 
 //  first call to CryptReleaseContext will not release the provider 
 //  handle. A second call to CryptReleaseContext would be needed to 
-//  release the context.
-```
-
-
+//  release the context.</pre>
+</td>
+</tr>
+</table></span></div>
 For another example that uses this function, see <a href="https://msdn.microsoft.com/e8d2503c-a38f-44f6-a653-ae9c7bf903bd">Example C Program: Using CryptAcquireContext</a>.
 
 <div class="code"></div>
@@ -168,7 +172,7 @@ For another example that uses this function, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

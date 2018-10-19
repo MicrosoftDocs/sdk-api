@@ -4,10 +4,10 @@ title: PDX_FLIPVIDEOPORT
 author: windows-sdk-content
 description: The DxFlipVideoPort callback function is called when a client of the video miniport driver wants to flip the video port extensions (VPE) object or when autoflipping is enabled.
 old-location: display\dxflipvideoport.htm
-tech.root: Display
+tech.root: display
 ms.assetid: d6047c90-1163-475a-a55b-95ccb0570e3e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DxFlipVideoPort, DxFlipVideoPort callback function [Display Devices], PDX_FLIPVIDEOPORT, PDX_FLIPVIDEOPORT callback, VideoMiniPort_DxApiFunctions_ae9b2d92-5f47-4897-af4e-d8f7cb0f8b39.xml, display.dxflipvideoport, dxmini/DxFlipVideoPort
 ms.prod: windows
 ms.technology: windows-sdk

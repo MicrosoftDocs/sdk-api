@@ -4,10 +4,10 @@ title: "_DD_SURFACE_INT"
 author: windows-sdk-content
 description: The DD_SURFACE_INT structure contains the DirectDrawSurface object's interface information.
 old-location: display\dd_surface_int.htm
-tech.root: Display
+tech.root: display
 ms.assetid: b06f204c-e59a-4f13-ac6d-ff0860378312
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_SURFACE_INT, DD_SURFACE_INT, DD_SURFACE_INT structure [Display Devices], _DD_SURFACE_INT, ddrawint/DD_SURFACE_INT, ddstrcts_3cca7be6-adbb-4d60-a970-891adb294d72.xml, display.dd_surface_int"
 ms.prod: windows
 ms.technology: windows-sdk

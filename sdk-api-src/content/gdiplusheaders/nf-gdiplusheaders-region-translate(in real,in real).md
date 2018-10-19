@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Translate_REAL_dx_REAL_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiontranslatemethods\translate_17realdx_realdy.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: Region class [GDI+],Translate method, Region.Translate, Region.Translate(IN REAL,IN REAL), Region.Translate(REAL,REAL), Region::Translate, Region::Translate(IN REAL,IN REAL), Translate, Translate method [GDI+], Translate method [GDI+],Region class, _gdiplus_CLASS_Region_Translate_REAL_dx_REAL_dy_, gdiplus._gdiplus_CLASS_Region_Translate_REAL_dx_REAL_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices

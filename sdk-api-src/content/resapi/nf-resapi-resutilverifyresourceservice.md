@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Verifies that a named <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">service</a> is starting or currently running. The <b>PRESUTIL_VERIFY_RESOURCE_SERVICE</b> type defines a pointer to this function.
+Verifies that a named <a href="s_gly.htm">service</a> is starting or currently running. The <b>PRESUTIL_VERIFY_RESOURCE_SERVICE</b> type defines a pointer to this function.
 
 
 ## -parameters

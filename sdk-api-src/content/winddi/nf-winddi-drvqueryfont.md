@@ -4,10 +4,10 @@ title: DrvQueryFont function
 author: windows-sdk-content
 description: The DrvQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
 old-location: display\drvqueryfont.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 2ba6c8e3-9707-48dd-98d9-072f3eee8cd0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvQueryFont, DrvQueryFont function [Display Devices], ddifncs_b8a9ed0f-ad7f-47a3-b2d4-bbdd40386bd2.xml, display.drvqueryfont, winddi/DrvQueryFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetrectanglemethods.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: GetRectangle, GetRectangle methods [GDI+], PathGradientBrush.GetRectangle, PathGradientBrush.GetRectangle(OUT RectF), PathGradientBrush::GetRectangle, PathGradientBrush::GetRectangle(OUT RectF), _gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods, gdipluspath/GetRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

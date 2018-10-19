@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollection_12.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: PrivateFontCollection, PrivateFontCollection class [GDI+],PrivateFontCollection constructor, PrivateFontCollection constructor [GDI+], PrivateFontCollection constructor [GDI+],PrivateFontCollection class, PrivateFontCollection.PrivateFontCollection, PrivateFontCollection::PrivateFontCollection, _gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_, gdiplus._gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates an empty <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object.
+Creates an empty <a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a> object.
 
 
 ## -parameters

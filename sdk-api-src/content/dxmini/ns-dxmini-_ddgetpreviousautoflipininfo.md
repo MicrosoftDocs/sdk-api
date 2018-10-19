@@ -4,10 +4,10 @@ title: "_DDGETPREVIOUSAUTOFLIPININFO"
 author: windows-sdk-content
 description: The DDGETPREVIOUSAUTOFLIPININFO structure provides the video port extensions (VPE) object information.
 old-location: display\ddgetpreviousautoflipininfo.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 44816bbe-9ec2-4f96-a18c-442359aa36ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDDGETPREVIOUSAUTOFLIPININFO, DDGETPREVIOUSAUTOFLIPININFO, DDGETPREVIOUSAUTOFLIPININFO structure [Display Devices], PDDGETPREVIOUSAUTOFLIPININFO, PDDGETPREVIOUSAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_4327df9a-a51c-4fd6-9cd6-ef0665c6562e.xml, _DDGETPREVIOUSAUTOFLIPININFO, display.ddgetpreviousautoflipininfo, dxmini/DDGETPREVIOUSAUTOFLIPININFO, dxmini/PDDGETPREVIOUSAUTOFLIPININFO"
 ms.prod: windows
 ms.technology: windows-sdk

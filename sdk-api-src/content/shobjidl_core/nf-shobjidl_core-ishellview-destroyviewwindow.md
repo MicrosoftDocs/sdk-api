@@ -7,7 +7,7 @@ old-location: shell\IShellView_DestroyViewWindow.htm
 tech.root: shell
 ms.assetid: b0dfc200-4438-4f11-a426-c82eeb9cc745
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: DestroyViewWindow, DestroyViewWindow method [Windows Shell], DestroyViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],DestroyViewWindow method, IShellView.DestroyViewWindow, IShellView::DestroyViewWindow, _win32_IShellView_DestroyViewWindow, shell.IShellView_DestroyViewWindow, shobjidl_core/IShellView::DestroyViewWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

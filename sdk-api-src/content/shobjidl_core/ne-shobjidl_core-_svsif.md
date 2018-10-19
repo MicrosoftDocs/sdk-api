@@ -7,7 +7,7 @@ old-location: shell\SVSIF.htm
 tech.root: shell
 ms.assetid: 3b0a7ec3-f365-48ec-86b0-ffd4c345deaf
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: SVSI_CHECK, SVSI_CHECK2, SVSI_DESELECT, SVSI_DESELECTOTHERS, SVSI_EDIT, SVSI_ENSUREVISIBLE, SVSI_FOCUSED, SVSI_KEYBOARDSELECT, SVSI_NOTAKEFOCUS, SVSI_POSITIONITEM, SVSI_SELECT, SVSI_SELECTIONMARK, SVSI_TRANSLATEPT, _SVSIF, _SVSIF enumeration [Windows Shell], _shell_SVSIF, shell.SVSIF, shobjidl_core/SVSI_CHECK, shobjidl_core/SVSI_CHECK2, shobjidl_core/SVSI_DESELECT, shobjidl_core/SVSI_DESELECTOTHERS, shobjidl_core/SVSI_EDIT, shobjidl_core/SVSI_ENSUREVISIBLE, shobjidl_core/SVSI_FOCUSED, shobjidl_core/SVSI_KEYBOARDSELECT, shobjidl_core/SVSI_NOTAKEFOCUS, shobjidl_core/SVSI_POSITIONITEM, shobjidl_core/SVSI_SELECT, shobjidl_core/SVSI_SELECTIONMARK, shobjidl_core/SVSI_TRANSLATEPT, shobjidl_core/_SVSIF
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,11 +133,15 @@ The <b>SVSIF</b> type used to refer to members of the <b>_SVSIF</b> enumeration 
 
                 
 
-
-```
-typedef UINT SVSIF;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef UINT SVSIF;</pre>
+</td>
+</tr>
+</table></span></div>
 
 

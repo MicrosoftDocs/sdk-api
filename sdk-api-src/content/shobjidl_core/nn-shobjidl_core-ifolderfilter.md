@@ -7,7 +7,7 @@ old-location: shell\IFolderFilter.htm
 tech.root: shell
 ms.assetid: fd69c11c-f4c3-4681-ae85-385460e96be9
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IFolderFilter, IFolderFilter interface [Windows Shell], IFolderFilter interface [Windows Shell],described, _shell_IFolderFilter, shell.IFolderFilter, shobjidl_core/IFolderFilter
 ms.prod: windows
 ms.technology: windows-sdk

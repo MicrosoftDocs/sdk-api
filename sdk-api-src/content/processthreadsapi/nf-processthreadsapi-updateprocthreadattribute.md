@@ -569,16 +569,20 @@ In order to launch the child process with the same protection level as the paren
 
 The following example launches a child process with the same protection level as the parent process:
 
-
-```cpp
-DWORD ProtectionLevel = PROTECTION_LEVEL_SAME;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD ProtectionLevel = PROTECTION_LEVEL_SAME;
 SIZE_T AttributeListSize;
 
 STARTUPINFOEXW StartupInfoEx = { 0 };
 
 StartupInfoEx.StartupInfo.cb = sizeof(StartupInfoEx);
 
-InitializeProcThreadAttributeList(NULL, 1, 0, &AttributeListSize)
+InitializeProcThreadAttributeList(NULL, 1, 0, &amp;AttributeListSize)
 
 
 StartupInfoEx.lpAttributeList = (LPPROC_THREAD_ATTRIBUTE_LIST) HeapAlloc(
@@ -590,7 +594,7 @@ StartupInfoEx.lpAttributeList = (LPPROC_THREAD_ATTRIBUTE_LIST) HeapAlloc(
 if (InitializeProcThreadAttributeList(StartupInfoEx.lpAttributeList,
                                       1,
                                       0,
-                                      &AttributeListSize) == FALSE)
+                                      &amp;AttributeListSize) == FALSE)
 {
     Result = GetLastError();
     goto exitFunc;
@@ -599,7 +603,7 @@ if (InitializeProcThreadAttributeList(StartupInfoEx.lpAttributeList,
 if (UpdateProcThreadAttribute(StartupInfoEx.lpAttributeList,
                               0,
                               PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL,
-                              &ProtectionLevel,
+                              &amp;ProtectionLevel,
                               sizeof(ProtectionLevel),
                               NULL,
                               NULL) == FALSE)
@@ -618,15 +622,15 @@ if (CreateProcessW(ApplicationName,
                    EXTENDED_STARTUPINFO_PRESENT | CREATE_PROTECTED_PROCESS,
                    Environment,
                    CurrentDirectory,
-                   (LPSTARTUPINFOW)&StartupInfoEx,
-                   &ProcessInformation) == FALSE)
+                   (LPSTARTUPINFOW)&amp;StartupInfoEx,
+                   &amp;ProcessInformation) == FALSE)
 {
     Result = GetLastError();
     goto exitFunc;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

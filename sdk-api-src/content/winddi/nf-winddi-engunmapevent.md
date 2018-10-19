@@ -4,10 +4,10 @@ title: EngUnmapEvent function
 author: windows-sdk-content
 description: The EngUnmapEvent function cleans up the kernel-mode resources allocated for a mapped user-mode event.
 old-location: display\engunmapevent.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 3be72e38-e7ea-407b-87e4-c6293d6160f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngUnmapEvent, EngUnmapEvent function [Display Devices], display.engunmapevent, gdifncs_0f5f2320-13d2-471a-93b6-739f9ecbd620.xml, winddi/EngUnmapEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

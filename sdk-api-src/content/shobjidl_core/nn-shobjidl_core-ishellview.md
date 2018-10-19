@@ -7,7 +7,7 @@ old-location: shell\IShellView.htm
 tech.root: shell
 ms.assetid: 91438583-e4f1-456f-a130-2a45846fd725
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IShellView, IShellView interface [Windows Shell], IShellView interface [Windows Shell],described, _win32_IShellView, _win32_IShellView_cpp, shell.IShellView, shobjidl_core/IShellView
 ms.prod: windows
 ms.technology: windows-sdk

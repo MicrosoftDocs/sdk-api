@@ -4,10 +4,10 @@ title: EngQueryDeviceAttribute function
 author: windows-sdk-content
 description: The EngQueryDeviceAttribute function allows the driver to query the system about particular attributes of the device.
 old-location: display\engquerydeviceattribute.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 767d0d78-c17f-461b-8ca6-04a00dc456de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngQueryDeviceAttribute, EngQueryDeviceAttribute function [Display Devices], display.engquerydeviceattribute, gdifncs_1f76b3e8-f265-4959-a7f0-4bc433936be7.xml, winddi/EngQueryDeviceAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

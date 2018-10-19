@@ -65,7 +65,7 @@ For a nonobject RPC interface on the server-side, it points to an RPC server int
 
 ### -field pfnAllocate
 
-Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
+Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
 
 
 ### -field pfnFree
@@ -105,12 +105,12 @@ Array of function pointers to bind and unbind function pairs for the implicit ge
 
 ### -field apfnExprEval
 
-Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/">size_is</a>(param1 + param2). 
+Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/1f3f3629-f668-460d-86fd-16ef22449973">size_is</a>(param1 + param2). 
 
 
 ### -field aXmitQuintuple
 
-Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/3dd1a242-03ec-49b4-ac96-87ef186e41d2">transmit_as</a> and <a href="https://msdn.microsoft.com/ae44d220-e8f3-47a3-8f5e-a2668ac75411">represent_as</a>  types.
+Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/3dd1a242-03ec-49b4-ac96-87ef186e41d2">transmit_as</a> and <a href="https://msdn.microsoft.com/">represent_as</a>  types.
 
 
 ### -field pFormatTypes

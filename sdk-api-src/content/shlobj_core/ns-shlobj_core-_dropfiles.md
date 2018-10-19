@@ -7,7 +7,7 @@ old-location: shell\DROPFILES.htm
 tech.root: shell
 ms.assetid: e1f80529-2151-4ff6-95e0-afff67f2f117
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPDROPFILES, DROPFILES, DROPFILES structure [Windows Shell], LPDROPFILES, LPDROPFILES structure pointer [Windows Shell], _DROPFILES, _win32_DROPFILES, shell.DROPFILES, shlobj_core/DROPFILES, shlobj_core/LPDROPFILES"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\certduplicatecertificatechain.htm
 tech.root: seccrypto
 ms.assetid: fea72a3e-5a22-47c7-8f6e-0d76fc3339f8
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CertDuplicateCertificateChain, CertDuplicateCertificateChain function [Security], _crypto2_certduplicatecertificatechain, security.certduplicatecertificatechain, wincrypt/CertDuplicateCertificateChain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ If the function fails, <b>NULL</b> is returned.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
  
 
  

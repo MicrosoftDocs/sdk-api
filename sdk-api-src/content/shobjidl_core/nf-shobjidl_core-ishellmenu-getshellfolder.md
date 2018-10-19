@@ -7,7 +7,7 @@ old-location: shell\IShellMenu_GetShellFolder.htm
 tech.root: shell
 ms.assetid: 6f88e1ee-950f-41b8-ad53-3bd7e8772f42
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetShellFolder, GetShellFolder method [Windows Shell], GetShellFolder method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetShellFolder method, IShellMenu.GetShellFolder, IShellMenu::GetShellFolder, SMINIT_CACHED, SMINIT_DEFAULT, SMINIT_HORIZONTAL, SMINIT_RESTRICT_DRAGDROP, SMINIT_TOPLEVEL, SMINIT_VERTICAL, _shell_IShellMenu_GetShellFolder, shell.IShellMenu_GetShellFolder, shobjidl_core/IShellMenu::GetShellFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_UpdateProgress.htm
 tech.root: shell
 ms.assetid: c61d4440-bcd3-46a7-8aeb-e5d80d0d53eb
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],UpdateProgress method, IFileOperationProgressSink.UpdateProgress, IFileOperationProgressSink::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_UpdateProgress, shell.IFileOperationProgressSink_UpdateProgress, shobjidl_core/IFileOperationProgressSink::UpdateProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itffnpropertyuistatus_getstatus.htm
 tech.root: TSF
 ms.assetid: aef8c1b4-3cda-4fa3-ae8c-a8f8da4840b5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, ITfFnPropertyUIStatus interface [Text Services Framework],GetStatus method, ITfFnPropertyUIStatus.GetStatus, ITfFnPropertyUIStatus::GetStatus, TF_PROPUI_STATUS_SAVETOFILE, _tsf_itffnpropertyuistatus_getstatus_ref, ctffunc/ITfFnPropertyUIStatus::GetStatus, tsf.itffnpropertyuistatus_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param refguidProp [in]
 
-Specifies the property identifier. This can be a custom identifier or one of the <a href="https://msdn.microsoft.com/en-us/library/ms629017(v=VS.85).aspx">predefined property</a> identifiers.
+Specifies the property identifier. This can be a custom identifier or one of the <a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">predefined property</a> identifiers.
 
 
 ### -param pdw [out]
@@ -140,7 +140,7 @@ The text service does not support this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538963(v=VS.85).aspx">ITfFnPropertyUIStatus</a>
+<a href="https://msdn.microsoft.com/5583ae98-02a5-4303-9674-b8a85b52442a">ITfFnPropertyUIStatus</a>
 
 
 

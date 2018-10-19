@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_rect_parms.htm
 tech.root: Multimedia
 ms.assetid: b73e6344-f5d8-4d21-bda9-ac076bf79dc8
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPMCI_DGV_FREEZE_PARMS, *LPMCI_DGV_PUT_PARMS, *LPMCI_DGV_RECT_PARMS, *LPMCI_DGV_UNFREEZE_PARMS, *LPMCI_DGV_WHERE_PARMS, MCI_DGV_FREEZE_PARMS, MCI_DGV_PUT_PARMS, MCI_DGV_RECT_PARMS, MCI_DGV_RECT_PARMS structure [Windows Multimedia], MCI_DGV_UNFREEZE_PARMS, MCI_DGV_WHERE_PARMS, _win32_MCI_DGV_RECT_PARMS_str, digitalv/MCI_DGV_RECT_PARMS, multimedia.mci_dgv_rect_parms"
 ms.prod: windows
 ms.technology: windows-sdk

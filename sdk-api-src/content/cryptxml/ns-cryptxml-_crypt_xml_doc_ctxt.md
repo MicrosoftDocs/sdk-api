@@ -7,7 +7,7 @@ old-location: security\crypt_xml_doc_ctxt.htm
 tech.root: seccrypto
 ms.assetid: b57cccb1-b26f-4710-b888-f864cc9ae3be
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*PCRYPT_XML_DOC_CTXT, CRYPT_XML_DOC_CTXT, CRYPT_XML_DOC_CTXT structure [Security], PCRYPT_XML_DOC_CTXT, PCRYPT_XML_DOC_CTXT structure pointer [Security], _CRYPT_XML_DOC_CTXT, cryptxml/CRYPT_XML_DOC_CTXT, cryptxml/PCRYPT_XML_DOC_CTXT, security.crypt_xml_doc_ctxt"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The handle of the document context.
 
 ### -field pTransformsConfig
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433867(v=VS.85).aspx">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure that contains information about the transform chain engine.
+A pointer to a <a href="https://msdn.microsoft.com/ad18ee99-685d-4a79-bd91-492df20edb8c">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure that contains information about the transform chain engine.
 
 
 ### -field cSignature
@@ -80,5 +80,5 @@ The number of elements in the array pointed to by the <b>rgpSignature</b> member
 
 ### -field rgpSignature
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433864(v=VS.85).aspx">CRYPT_XML_SIGNATURE</a> structures that contain XML signature information.
+A pointer to an array of <a href="https://msdn.microsoft.com/d9930946-aec0-42a4-949f-af8b2e9c6e6c">CRYPT_XML_SIGNATURE</a> structures that contain XML signature information.
 

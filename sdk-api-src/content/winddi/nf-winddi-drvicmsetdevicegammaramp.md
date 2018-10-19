@@ -4,10 +4,10 @@ title: DrvIcmSetDeviceGammaRamp function
 author: windows-sdk-content
 description: The DrvIcmSetDeviceGammaRamp function sets the hardware gamma ramp of the specified display device.
 old-location: display\drvicmsetdevicegammaramp.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 0ea0c60c-fa12-4dd0-a6cc-45eacf4b73c0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvIcmSetDeviceGammaRamp, DrvIcmSetDeviceGammaRamp function [Display Devices], ddifncs_4f81d949-51a0-4d83-b779-e9e950c2851d.xml, display.drvicmsetdevicegammaramp, winddi/DrvIcmSetDeviceGammaRamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

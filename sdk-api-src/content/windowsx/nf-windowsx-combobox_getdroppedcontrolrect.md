@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775847(v=VS.85).aspx">CB_GETDROPPEDCONTROLRECT</a> message explicitly.
+Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the <a href="https://msdn.microsoft.com/fd8d78c0-e1a8-49c8-9e35-a105d00b863c">CB_GETDROPPEDCONTROLRECT</a> message explicitly.
 
 
 ## -parameters

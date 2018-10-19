@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.FillClosedCurve(IN const Brush,IN const PointF,IN INT)
 title: Graphics::FillClosedCurve(IN const Brush,IN const PointF,IN INT)
 author: windows-sdk-content
-description: This topic lists the FillClosedCurve methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_FillClosedCurve_Methods.htm
+description: The Graphics::FillClosedCurve method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_PointF_points_INT_count_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillclosedcurvemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillclosedcurvemethods\fillclosedcurve_47brushbrush_pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: FillClosedCurve, FillClosedCurve methods [GDI+], Graphics.FillClosedCurve, Graphics.FillClosedCurve(IN const Brush,IN const PointF,IN INT), Graphics::FillClosedCurve, Graphics::FillClosedCurve(IN const Brush,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_FillClosedCurve_Methods, gdiplus._gdiplus_CLASS_Graphics_FillClosedCurve_Methods, gdiplusgraphics/FillClosedCurve
+ms.date: 10/16/2018
+ms.keywords: FillClosedCurve, FillClosedCurve method [GDI+], FillClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],FillClosedCurve method, Graphics.FillClosedCurve, Graphics.FillClosedCurve(IN const Brush,IN const PointF,IN INT), Graphics.FillClosedCurve(const Brush*,const PointF*,INT), Graphics::FillClosedCurve, Graphics::FillClosedCurve(IN const Brush,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusgraphics.h
+ - Gdiplus.dll
 api_name:
  - Graphics.FillClosedCurve
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Graphics::FillClosedCurve(IN const Brush,IN const PointF,IN INT)
@@ -50,55 +51,84 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-FillClosedCurve methods of the 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
+The <b>Graphics::FillClosedCurve</b> method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline.
 
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d62af2ea-ca86-4b5e-9129-1cf64661bc49">FillClosedCurve(Brush*,Point*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d62af2ea-ca86-4b5e-9129-1cf64661bc49">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2aea6910-6fd0-4611-9de6-65ee0b65421e">FillClosedCurve(Brush*,PointF*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/2aea6910-6fd0-4611-9de6-65ee0b65421e">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2295d45-36b6-4236-837c-9c7498932408">FillClosedCurve(Brush*,Point*,INT,FillMode,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a2295d45-36b6-4236-837c-9c7498932408">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill, according to a specified mode, the interior of the spline.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d498872d-66ec-4e97-996f-78d07f0ea99a">FillClosedCurve(Brush*,PointF*,INT,FillMode,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d498872d-66ec-4e97-996f-78d07f0ea99a">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill, according to a specified mode, the interior of the spline.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param brush [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>*</b>
+
+Pointer to a 
+					<a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object that is used to paint the interior of the spline. 
+
+
+### -param points [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>*</b>
+
+Pointer to an array of points that this method uses to create a closed cardinal spline. Each point in the array is a point on the spline. 
+
+
+### -param count [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the number of points in the 
+					<i>points</i> array. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns <b>Ok</b>, which is an element of the 
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the 
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+
+
+
+<a href="https://msdn.microsoft.com/4fc62f00-7006-4ade-bfcc-091a3a97d889">Cardinal Splines</a>
+
+
+
+<a href="https://msdn.microsoft.com/0bb84f55-18d0-4a4c-bc5b-7803aa807954">Drawing Cardinal Splines</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+
+
+
+<a href="https://msdn.microsoft.com/e0fb8ba1-1783-4b36-93d8-f1242425d8bd">Open and Closed Curves</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+
+
+
+<a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a>
+ 
+
+ 
 

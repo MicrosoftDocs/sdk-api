@@ -7,7 +7,7 @@ old-location: direct2d\__d2d1_device_context_options.htm
 tech.root: direct2d
 ms.assetid: be4e6eb7-0767-4faf-9f27-eeb3bed48244
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: D2D1_DEVICE_CONTEXT_OPTIONS, D2D1_DEVICE_CONTEXT_OPTIONS enumeration [Direct2D], D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS, D2D1_DEVICE_CONTEXT_OPTIONS_NONE, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS_NONE, direct2d.__d2d1_device_context_options
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The device context is created with default options.
 
 ### -field D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS
 
-Distribute rendering work across multiple threads. Refer to <a href="https://msdn.microsoft.com/en-us/library/Dd372260(v=VS.85).aspx">Improving the performance of Direct2D apps</a> for additional notes on the use of this flag.
+Distribute rendering work across multiple threads. Refer to <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd372260(v=vs.85).aspx">Improving the performance of Direct2D apps</a> for additional notes on the use of this flag.
 
 
 ### -field D2D1_DEVICE_CONTEXT_OPTIONS_FORCE_DWORD

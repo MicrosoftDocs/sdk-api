@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielement.htm
 tech.root: TSF
 ms.assetid: 1f39aa06-3c94-4959-b857-ca61498d5b5c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], ITfCandidateListUIElement interface [Text Services Framework],described, _tsf_itfcandidatelistuielement_ref, msctf/ITfCandidateListUIElement, tsf.itfcandidatelistuielement
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringVectorAlloc.htm
 tech.root: properties
 ms.assetid: bf2cacc9-89d5-4823-99da-9747636b3795
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PropVariantToStringVectorAlloc, PropVariantToStringVectorAlloc function [Windows Properties], _shell_PropVariantToStringVectorAlloc, properties.PropVariantToStringVectorAlloc, propvarutil/PropVariantToStringVectorAlloc, shell.PropVariantToStringVectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,25 +141,29 @@ If a <b>BSTR</b> in the source <a href="https://msdn.microsoft.com/e86cc279-826d
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToStringVectorAlloc">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// IPropertyStore *ppropstore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
-HRESULT hr = ppropstore->GetValue(PKEY_Keywords, &propvar);
+HRESULT hr = ppropstore-&gt;GetValue(PKEY_Keywords, &amp;propvar);
 if (SUCCEEDED(hr))
 {
          // PKEY_Keywords is expected to produce a VT_VECTOR | VT_LPWSTR, or VT_EMPTY
          // PropVariantToStringVectorAlloc will return an error for VT_EMPTY
          LPWSTR *prgKeywords;
          ULONG cElem;
-         hr = PropVariantToStringVectorAlloc (propvar, &prgKeywords, &cElem);
+         hr = PropVariantToStringVectorAlloc (propvar, &amp;prgKeywords, &amp;cElem);
          if (SUCCEEDED(hr))
          {
                  // prgKeywords contains cElem strings
-                 for (ULONG i = 0; i < cElem; i++)
+                 for (ULONG i = 0; i &lt; cElem; i++)
                  {
                           CoTaskMemFree(prgKeywords[i]);
                  }
@@ -169,11 +173,11 @@ if (SUCCEEDED(hr))
          {
                  // propvar either is VT_EMPTY, or contains something other than a vector of  strings
          }
-         PropVariantClear(&propvar);
-}
-```
-
-
+         PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -182,23 +186,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
+<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
+<a href="shell.PropVariantGetStringElem">PropVariantGetStringElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
+<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776619(v=VS.85).aspx">VariantToStringArray</a>
+<a href="shell.VariantToStringArray">VariantToStringArray</a>
  
 
  

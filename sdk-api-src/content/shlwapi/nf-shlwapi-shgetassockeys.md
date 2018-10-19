@@ -7,7 +7,7 @@ old-location: shell\shgetassockeys.htm
 tech.root: shell
 ms.assetid: 0DCB7E41-5986-40CA-A68D-EC6688EB42C0
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: SHGetAssocKeys, SHGetAssocKeys function [Windows Shell], shell.shgetassockeys, shlwapi/SHGetAssocKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

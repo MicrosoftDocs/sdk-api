@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt64VectorAlloc.htm
 tech.root: properties
 ms.assetid: 88947036-3745-48c6-ba61-dc139c3801d5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PropVariantToUInt64VectorAlloc, PropVariantToUInt64VectorAlloc function [Windows Properties], _shell_PropVariantToUInt64VectorAlloc, properties.PropVariantToUInt64VectorAlloc, propvarutil/PropVariantToUInt64VectorAlloc, shell.PropVariantToUInt64VectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,23 +131,27 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776575(v=VS.85).aspx">PropVariantToUInt64VectorAlloc</a> to access a <b>ULONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToUInt64VectorAlloc">PropVariantToUInt64VectorAlloc</a> to access a <b>ULONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid. The application is expecting propvar to contain a vector of ULONGLONG values.
 ULONGLONG *prgLongs;
 ULONG cElems;
-HRESULT hr = PropVariantToUInt64VectorAlloc(propvar, &prgLongs, &cElems);
+HRESULT hr = PropVariantToUInt64VectorAlloc(propvar, &amp;prgLongs, &amp;cElems);
 if (SUCCEEDED(hr))
 {
      // prgLongs now points to a vector of cElems ULONGLONGs.
      CoTaskMemFree(prgLongs);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -156,23 +160,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762314(v=VS.85).aspx">InitPropVariantFromUInt64Vector</a>
+<a href="shell.InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776530(v=VS.85).aspx">PropVariantGetUInt64Elem</a>
+<a href="shell.PropVariantGetUInt64Elem">PropVariantGetUInt64Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776573(v=VS.85).aspx">PropVariantToUInt64</a>
+<a href="shell.PropVariantToUInt64">PropVariantToUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776574(v=VS.85).aspx">PropVariantToUInt64Vector</a>
+<a href="shell.PropVariantToUInt64Vector">PropVariantToUInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776632(v=VS.85).aspx">VariantToUInt64Array</a>
+<a href="shell.VariantToUInt64Array">VariantToUInt64Array</a>
  
 
  

@@ -4,10 +4,10 @@ title: PDD_MOCOMPCB_GETGUIDS
 author: windows-sdk-content
 description: The DdMoCompGetGuids callback function retrieves the number of GUIDs the driver supports.
 old-location: display\ddmocompgetguids.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 22c6a3f2-4a27-4a4b-a021-8f2be04e4f87
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DdMoCompGetGuids, DdMoCompGetGuids callback function [Display Devices], PDD_MOCOMPCB_GETGUIDS, PDD_MOCOMPCB_GETGUIDS callback, ddfncs_224ee005-4c85-41cc-afcf-2958c31dfd45.xml, ddrawint/DdMoCompGetGuids, display.ddmocompgetguids
 ms.prod: windows
 ms.technology: windows-sdk

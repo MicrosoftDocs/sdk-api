@@ -4,10 +4,10 @@ title: "_XFORML"
 author: windows-sdk-content
 description: The FLOATOBJ_XFORM structure describes an arbitrary linear two-dimensional transform, such as for geometric wide lines.
 old-location: display\floatobj_xform.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 0c58a0df-4a0a-46e2-90de-dc50b8077709
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPFLOATOBJ_XFORM, *PFLOATOBJ_XFORM, *PXFORML, FAR *LPFLOATOBJ_XFORM, FAR *LPFLOATOBJ_XFORM structure [Display Devices], FLOATOBJ_XFORM, FLOATOBJ_XFORM structure [Display Devices], PFLOATOBJ_XFORM, PFLOATOBJ_XFORM structure pointer [Display Devices], XFORML, _XFORML, display.floatobj_xform, grstrcts_a53b73a9-2233-4cdf-bc65-d7db00c3ec9b.xml, winddi/FAR *LPFLOATOBJ_XFORM, winddi/FLOATOBJ_XFORM, winddi/PFLOATOBJ_XFORM"
 ms.prod: windows
 ms.technology: windows-sdk

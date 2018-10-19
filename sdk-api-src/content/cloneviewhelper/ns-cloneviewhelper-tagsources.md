@@ -4,10 +4,10 @@ title: tagSources
 author: windows-sdk-content
 description: The Sources structure contains a Video Present Network (VidPN) topology.
 old-location: display\sources.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: Sources, Sources structure [Display Devices], TMM_Ref_e15dfa1e-b8f8-464e-b683-c968113fbf64.xml, cloneviewhelper/Sources, display.sources, tagSources
 ms.prod: windows
 ms.technology: windows-sdk

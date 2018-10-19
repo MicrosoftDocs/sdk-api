@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.GetVisibleClipBounds(OUT RectF)
 title: Graphics::GetVisibleClipBounds(OUT RectF)
 author: windows-sdk-content
-description: This topic lists the GetVisibleClipBounds methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods.htm
+description: The Graphics::GetVisibleClipBounds method gets a rectangle that encloses the visible clipping region of this Graphics object.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_GetVisibleClipBounds_RectF_rect_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetvisibleclipboundsmethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetvisibleclipboundsmethods\getvisibleclipbounds_27rectfrect.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds methods [GDI+], Graphics.GetVisibleClipBounds, Graphics.GetVisibleClipBounds(OUT RectF), Graphics::GetVisibleClipBounds, Graphics::GetVisibleClipBounds(OUT RectF), _gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods, gdiplusgraphics/GetVisibleClipBounds
+ms.date: 10/16/2018
+ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds method [GDI+], GetVisibleClipBounds method [GDI+],Graphics class, Graphics class [GDI+],GetVisibleClipBounds method, Graphics.GetVisibleClipBounds, Graphics.GetVisibleClipBounds(OUT RectF), Graphics.GetVisibleClipBounds(RectF*), Graphics::GetVisibleClipBounds, Graphics::GetVisibleClipBounds(OUT RectF), _gdiplus_CLASS_Graphics_GetVisibleClipBounds_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusgraphics.h
+ - Gdiplus.dll
 api_name:
  - Graphics.GetVisibleClipBounds
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Graphics::GetVisibleClipBounds(OUT RectF)
@@ -50,39 +51,62 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-GetVisibleClipBounds methods of the 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
+The <b>Graphics::GetVisibleClipBounds</b> method gets a rectangle that encloses the visible clipping region of this 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this 
+			<b>Graphics</b> object and the clipping region of the window.
 
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af09b26b-6963-475f-91ce-4df219706d28">GetVisibleClipBounds(Rect*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/af09b26b-6963-475f-91ce-4df219706d28">Graphics::GetVisibleClipBounds</a>
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dda12bab-2ffc-4fca-9280-3bc88798fac2">GetVisibleClipBounds(RectF*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/dda12bab-2ffc-4fca-9280-3bc88798fac2">Graphics::GetVisibleClipBounds</a>
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param rect [out]
+
+Type: <b>RectF*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object that receives the rectangle that encloses the visible clipping region. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns Ok, which is an element of the 
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the 
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b46ce1d3-c2b5-4dbf-86b7-2e6f52ab2787">GetClipBounds Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+
+
+
+<a href="https://msdn.microsoft.com/73733baf-6cbf-4220-b89d-0cd6856acc46">Graphics::IsVisibleClipEmpty</a>
+
+
+
+<a href="https://msdn.microsoft.com/35425397-49b2-4388-a99f-a80b0b2027dc">IsVisible Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+ 
+
+ 
 

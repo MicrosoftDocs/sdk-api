@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_reinterpretbasetype_const_d2d1_matrix_4x4_f__p
 tech.root: direct2d
 ms.assetid: 204EF85B-BDD4-4A54-96DB-39421F36A75C
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: Matrix4x4F interface [Direct2D],ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix) method, Matrix4x4F.ReinterpretBaseType, Matrix4x4F.ReinterpretBaseType(const D2D1_MATRIX_4X4_F), Matrix4x4F::ReinterpretBaseType, Matrix4x4F::ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix), Matrix4x4F::ReinterpretBaseType(const D2D1_MATRIX_4X4_F), ReinterpretBaseType, ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix) method [Direct2D], ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix) method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix), direct2d.matrix4x4f_reinterpretbasetype_const_d2d1_matrix_4x4_f__pmatrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverdetails.htm
 tech.root: Multimedia
 ms.assetid: f8fcce73-1cac-463d-8e2d-1372d6b64614
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "_win32_acmDriverDetails, acmDriverDetails, acmDriverDetails function [Windows Multimedia], acmDriverDetailsA, acmDriverDetailsW, msacm/acmDriverDetails, msacm/acmDriverDetailsA, msacm/acmDriverDetailsW, multimedia.acmdriverdetails"
 ms.prod: windows-hardware
 ms.technology: windows-devices

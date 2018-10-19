@@ -7,7 +7,7 @@ old-location: tsf\itfuielement_getguid.htm
 tech.root: TSF
 ms.assetid: 0456761e-58fc-4cda-a576-829dd2c1235f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetGUID method, ITfUIElement.GetGUID, ITfUIElement::GetGUID, msctf/ITfUIElement::GetGUID, tsf.itfuielement_getguid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -61,7 +61,7 @@ req.redist:
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle that was previously returned by <a href="https://msdn.microsoft.com/en-us/library/Ff536266(v=VS.85).aspx">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle that was previously returned by <a href="https://msdn.microsoft.com/0af685a5-f5c2-4448-b8b2-f5cd9ed77047">BatteryClassInitializeDevice</a>.
 
 
 ### -param Irp [in, out]
@@ -102,11 +102,11 @@ IOCTL_BATTERY_SET_INFORMATION
 
 </li>
 </ul>
-The standard battery IOCTLs correspond to <a href="https://msdn.microsoft.com/en-us/library/Ff536286(v=VS.85).aspx">battery miniclass driver routines</a> (BatteryMini<i>Xxx</i> routines). 
+The standard battery IOCTLs correspond to <a href="https://msdn.microsoft.com/de362d42-0185-4519-a5a6-b16e76d4dc4c">battery miniclass driver routines</a> (BatteryMini<i>Xxx</i> routines). 
 
 When the miniclass driver is called with an <a href="https://msdn.microsoft.com/c6436b34-22bd-4e65-bfb0-b2c4d9962e29">IRP_MJ_DEVICE_CONTROL</a> request, it should determine whether the IRP contains any private IOCTL defined by the miniclass driver. If so, the miniclass driver should satisfy the request, complete the IRP, and return.
 
-If the IRP contains a public IOCTL, the driver should pass the IRP to the class driver's <b>BatteryClassIoctl</b> routine. This routine examines the IRP, determines whether it applies to the caller's battery device, and if so, calls the appropriate <a href="https://msdn.microsoft.com/en-us/library/Ff536286(v=VS.85).aspx">BatteryMiniXxx</a> routine to perform the requested operation. 
+If the IRP contains a public IOCTL, the driver should pass the IRP to the class driver's <b>BatteryClassIoctl</b> routine. This routine examines the IRP, determines whether it applies to the caller's battery device, and if so, calls the appropriate <a href="https://msdn.microsoft.com/de362d42-0185-4519-a5a6-b16e76d4dc4c">BatteryMiniXxx</a> routine to perform the requested operation. 
 
 If <b>BatteryClassIoctl</b> returns STATUS_NOT_SUPPORTED for the IRP, the miniclass driver must either complete the IRP or forward it to the next-lower driver.
 
@@ -118,19 +118,19 @@ If <b>BatteryClassIoctl</b> returns STATUS_NOT_SUPPORTED for the IRP, the minicl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536273(v=VS.85).aspx">BatteryMiniQueryInformation</a>
+<a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536274(v=VS.85).aspx">BatteryMiniQueryStatus</a>
+<a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536275(v=VS.85).aspx">BatteryMiniQueryTag</a>
+<a href="https://msdn.microsoft.com/030b7f5f-8ace-4dfc-8330-97aace86a1eb">BatteryMiniQueryTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536276(v=VS.85).aspx">BatteryMiniSetInformation</a>
+<a href="https://msdn.microsoft.com/ebfcabb7-7447-486d-b980-7cb5456332f4">BatteryMiniSetInformation</a>
  
 
  

@@ -4,10 +4,10 @@ title: XFORMOBJ_iGetFloatObjXform function
 author: windows-sdk-content
 description: The XFORMOBJ_iGetFloatObjXform function downloads a FLOATOBJ transform to the driver.
 old-location: display\xformobj_igetfloatobjxform.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 761c6061-841b-4187-a826-575d2a5086db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: XFORMOBJ_iGetFloatObjXform, XFORMOBJ_iGetFloatObjXform function [Display Devices], display.xformobj_igetfloatobjxform, gdifncs_26b564b5-f2ca-448a-9ca8-f34e7f8fb57a.xml, winddi/XFORMOBJ_iGetFloatObjXform
 ms.prod: windows-hardware
 ms.technology: windows-devices

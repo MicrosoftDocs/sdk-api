@@ -4,10 +4,10 @@ title: FLOATOBJ_SubFloat function
 author: windows-sdk-content
 description: The FLOATOBJ_SubFloat function subtracts the value of type FLOATL from the FLOATOBJ, and returns with the result in the first parameter.
 old-location: display\floatobj_subfloat.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 0fa69283-3236-43bc-9c16-6bd220ad4e0c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: FLOATOBJ_SubFloat, FLOATOBJ_SubFloat function [Display Devices], display.floatobj_subfloat, gdifncs_9f655d6e-8ef0-45e5-9d0e-963a30460920.xml, winddi/FLOATOBJ_SubFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

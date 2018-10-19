@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_getselection.htm
 tech.root: TSF
 ms.assetid: e2052daf-4168-4266-ae8d-a09ecbfeb422
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetSelection method, ITextStoreACP.GetSelection, ITextStoreACP::GetSelection, _tsf_itextstoreacp_getselection_ref, textstor/ITextStoreACP::GetSelection, tsf.itextstoreacp_getselection
 ms.prod: windows-hardware
 ms.technology: windows-devices

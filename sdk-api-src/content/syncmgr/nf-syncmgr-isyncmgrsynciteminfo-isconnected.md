@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo_IsConnected.htm
 tech.root: shell
 ms.assetid: 12ecfdba-87fb-4b73-8dac-0279f3f140fc
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsConnected method, ISyncMgrSyncItemInfo.IsConnected, ISyncMgrSyncItemInfo::IsConnected, IsConnected, IsConnected method [Windows Shell], IsConnected method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsConnected, shell.ISyncMgrSyncItemInfo_IsConnected, syncmgr/ISyncMgrSyncItemInfo::IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,15 +88,19 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 The following example shows an implementation of this method that calls a private class function to retrieve the connected state.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::IsConnected()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::IsConnected()
 {
     return (_IsConnected() ? S_OK : S_FALSE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

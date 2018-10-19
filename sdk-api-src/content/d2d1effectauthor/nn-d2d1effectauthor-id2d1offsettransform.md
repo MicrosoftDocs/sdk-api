@@ -7,7 +7,7 @@ old-location: direct2d\id2d1offsettransform.htm
 tech.root: direct2d
 ms.assetid: 0809C0FC-2F7B-49D8-A695-AD451C9BD17F
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ID2D1OffsetTransform, ID2D1OffsetTransform interface [Direct2D], ID2D1OffsetTransform interface [Direct2D],described, d2d1effectauthor/ID2D1OffsetTransform, direct2d.id2d1offsettransform
 ms.prod: windows
 ms.technology: windows-sdk

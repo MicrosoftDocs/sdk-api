@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_channel_selector.htm
 tech.root: direct2d
 ms.assetid: 92BC07F7-4CB5-487E-9AFB-255C8EF1C6BA
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: D2D1_CHANNEL_SELECTOR, D2D1_CHANNEL_SELECTOR enumeration [Direct2D], D2D1_CHANNEL_SELECTOR_A, D2D1_CHANNEL_SELECTOR_B, D2D1_CHANNEL_SELECTOR_G, D2D1_CHANNEL_SELECTOR_R, d2d1effects/D2D1_CHANNEL_SELECTOR, d2d1effects/D2D1_CHANNEL_SELECTOR_A, d2d1effects/D2D1_CHANNEL_SELECTOR_B, d2d1effects/D2D1_CHANNEL_SELECTOR_G, d2d1effects/D2D1_CHANNEL_SELECTOR_R, direct2d.d2d1_channel_selector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the color channel the <a href="https://msdn.microsoft.com/en-us/library/Hh706330(v=VS.85).aspx">Displacement map effect</a>extracts the intensity from and uses it to spatially displace the image in the X or Y direction.
+Specifies the color channel the <a href="https://msdn.microsoft.com/07AA64B1-B570-428E-924F-D7DF3E4DB3F8">Displacement map effect</a>extracts the intensity from and uses it to spatially displace the image in the X or Y direction.
 
 
 ## -enum-fields

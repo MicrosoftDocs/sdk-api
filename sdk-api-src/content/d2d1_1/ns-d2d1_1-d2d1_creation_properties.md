@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_creation_properties.htm
 tech.root: direct2d
 ms.assetid: 657439fe-dc17-42af-9e2c-2f3cb769a5a3
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: D2D1_CREATION_PROPERTIES, D2D1_CREATION_PROPERTIES structure [Direct2D], PD2D1_CREATION_PROPERTIES, PD2D1_CREATION_PROPERTIES structure pointer [Direct2D], d2d1_1/D2D1_CREATION_PROPERTIES, d2d1_1/PD2D1_CREATION_PROPERTIES, direct2d.d2d1_creation_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the options with which the <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> device, factory, and device context are created.
+Specifies the options with which the <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> device, factory, and device context are created.
 
 
 
@@ -78,7 +78,7 @@ The device context options that the root objects should be created with.
 
 
 
-The root objects referred to here are the <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> device, Direct2D factory and the Direct2D device context.
+The root objects referred to here are the <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> device, Direct2D factory and the Direct2D device context.
 
 
 
@@ -89,11 +89,11 @@ The root objects referred to here are the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404272(v=VS.85).aspx">D2D1CreateDevice</a>
+<a href="https://msdn.microsoft.com/5ed3ec21-b609-41b6-9568-6ede460bc395">D2D1CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404273(v=VS.85).aspx">D2D1CreateDeviceContext</a>
+<a href="https://msdn.microsoft.com/0e56d057-20a5-47b7-aec9-63c8e31f349b">D2D1CreateDeviceContext</a>
  
 
  

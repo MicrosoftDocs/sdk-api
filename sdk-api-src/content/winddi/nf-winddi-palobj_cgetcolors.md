@@ -4,10 +4,10 @@ title: PALOBJ_cGetColors function
 author: windows-sdk-content
 description: The PALOBJ_cGetColors function copies RGB colors from an indexed palette.
 old-location: display\palobj_cgetcolors.htm
-tech.root: Display
+tech.root: display
 ms.assetid: c6bce32f-4daa-41e4-a495-8a3b56d70efc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: PALOBJ_cGetColors, PALOBJ_cGetColors function [Display Devices], display.palobj_cgetcolors, gdifncs_b7181e52-6f68-4901-9d52-1791a973e6d6.xml, winddi/PALOBJ_cGetColors
 ms.prod: windows-hardware
 ms.technology: windows-devices

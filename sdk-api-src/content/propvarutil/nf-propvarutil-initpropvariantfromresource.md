@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromResource.htm
 tech.root: properties
 ms.assetid: c958f823-f820-4b0b-86ed-84ad18befbd1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: InitPropVariantFromResource, InitPropVariantFromResource function [Windows Properties], properties.InitPropVariantFromResource, propvarutil/InitPropVariantFromResource, shell.InitPropVariantFromResource, shell_InitPropVariantFromResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,25 +99,29 @@ This function creates a VT_LPWSTR propvariant. If the specified resource does no
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762304(v=VS.85).aspx">InitPropVariantFromResource</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromResource">InitPropVariantFromResource</a>.
 
-
-```cpp
-// HINSTANCE hinst;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// HINSTANCE hinst;
 // UINT id;
 // Assume variables hinst and id are initialized and valid.
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromResource(hinst, id, &propvar);
+HRESULT hr = InitPropVariantFromResource(hinst, id, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_LPWSTR.
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -126,23 +130,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
+<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762334(v=VS.85).aspx">InitVariantFromResource</a>
+<a href="shell.InitVariantFromResource">InitVariantFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="https://msdn.microsoft.com/9d878af7-a7b1-4d24-89ff-c567e4a8accd">LoadString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776563(v=VS.85).aspx">PropVariantToStringWithDefault</a>
+<a href="shell.PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
  
 
  

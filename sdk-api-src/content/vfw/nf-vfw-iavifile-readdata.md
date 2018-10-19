@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_readdata.htm
 tech.root: Multimedia
 ms.assetid: 52071d08-1e95-4b4b-b85c-3fcca2c666aa
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],ReadData method, IAVIFile.ReadData, IAVIFile::ReadData, ReadData, ReadData method [Windows Multimedia], ReadData method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_ReadData, multimedia.iavifile_readdata, vfw/IAVIFile::ReadData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,15 +114,19 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>ReadData</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT ReadData(DWORD fcc, LPVOID lp, LONG *lpcb); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

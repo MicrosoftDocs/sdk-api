@@ -7,7 +7,7 @@ old-location: shell\EXP_DARWIN_LINK_str.htm
 tech.root: shell
 ms.assetid: 016c539e-6035-4752-99b6-71e2d7199bf0
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPEXP_DARWIN_LINK, EXP_DARWIN_ID_SIG, EXP_DARWIN_LINK, EXP_DARWIN_LINK structure [Windows Shell], LPEXP_DARWIN_LINK, LPEXP_DARWIN_LINK structure pointer [Windows Shell], _win32_EXP_DARWIN_LINK_str, shell.EXP_DARWIN_LINK_str, shlobj_core/EXP_DARWIN_LINK, shlobj_core/LPEXP_DARWIN_LINK"
 ms.prod: windows
 ms.technology: windows-sdk

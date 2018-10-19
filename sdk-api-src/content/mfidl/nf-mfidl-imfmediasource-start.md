@@ -227,18 +227,22 @@ For more information, see <a href="https://msdn.microsoft.com/82db6f32-ad94-4563
 The following example starts playback at 1 second into the presentation.
         
 
-
-```
-PROPVARIANT var;
-PropVariantInit(&var);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT var;
+PropVariantInit(&amp;var);
 var.vt = VT_I8;
 var.hVal.QuadPart = 10000000; // 10^7 = 1 second.
 
-hr = pSource->Start(pPresentationDescriptor, NULL, &var);
-
-```
-
-
+hr = pSource-&gt;Start(pPresentationDescriptor, NULL, &amp;var);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

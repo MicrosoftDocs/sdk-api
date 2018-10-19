@@ -7,7 +7,7 @@ old-location: shell\IFileIsInUse.htm
 tech.root: shell
 ms.assetid: 68a4ab3d-165e-4917-8915-77f15901dbad
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IFileIsInUse, IFileIsInUse interface [Windows Shell], IFileIsInUse interface [Windows Shell],described, _shell_IFileIsInUse, shell.IFileIsInUse, shobjidl_core/IFileIsInUse
 ms.prod: windows
 ms.technology: windows-sdk

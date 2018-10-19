@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory.htm
 tech.root: direct2d
 ms.assetid: cef6115c-98e8-49e6-b419-271b43ce2938
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ID2D1Factory, ID2D1Factory interface [Direct2D], ID2D1Factory interface [Direct2D],described, d2d1/ID2D1Factory, direct2d.ID2D1Factory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1drawingstateblock1_getdescription1.htm
 tech.root: direct2d
 ms.assetid: F3A66B9F-0C95-4CFA-AA44-A50891545E31
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetDescription, GetDescription method [Direct2D], GetDescription method [Direct2D],ID2D1DrawingStateBlock1 interface, ID2D1DrawingStateBlock1 interface [Direct2D],GetDescription method, ID2D1DrawingStateBlock1.GetDescription, ID2D1DrawingStateBlock1::GetDescription, d2d1_1/ID2D1DrawingStateBlock1::GetDescription, direct2d.id2d1drawingstateblock1_getdescription1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DD_GETVPORTFLIPSTATUSDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTFLIPSTATUSDATA structure contains the flip status information for the specified surface.
 old-location: display\dd_getvportflipstatusdata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 64be9019-a75f-42db-a636-b767f87c1858
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA structure [Display Devices], _DD_GETVPORTFLIPSTATUSDATA, ddrawint/DD_GETVPORTFLIPSTATUSDATA, ddstrcts_a1239418-1670-477d-b96e-d21dc2b9647b.xml, display.dd_getvportflipstatusdata"
 ms.prod: windows
 ms.technology: windows-sdk

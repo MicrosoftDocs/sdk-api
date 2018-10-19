@@ -4,10 +4,10 @@ title: "_DD_DESTROYPALETTEDATA"
 author: windows-sdk-content
 description: The DD_DESTROYPALETTEDATA structure contains information necessary to destroy the specified palette.
 old-location: display\dd_destroypalettedata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: e309f782-bd0b-4703-b58c-e202fd87b904
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA structure [Display Devices], _DD_DESTROYPALETTEDATA, ddrawint/DD_DESTROYPALETTEDATA, ddstrcts_850bb816-b0df-4877-8903-c85b15074e30.xml, display.dd_destroypalettedata"
 ms.prod: windows
 ms.technology: windows-sdk

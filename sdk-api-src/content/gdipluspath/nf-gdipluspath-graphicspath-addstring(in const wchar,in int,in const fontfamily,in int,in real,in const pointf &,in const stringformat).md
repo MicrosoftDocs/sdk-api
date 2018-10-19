@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddstringmethods.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: AddString, AddString methods [GDI+], GraphicsPath.AddString, GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const PointF &,IN const StringFormat), GraphicsPath::AddString, GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const PointF &,IN const StringFormat), _gdiplus_CLASS_GraphicsPath_AddString_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddString_Methods, gdipluspath/AddString
 ms.prod: windows-hardware
 ms.technology: windows-devices

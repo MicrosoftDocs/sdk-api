@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onselectionchange.htm
 tech.root: TSF
 ms.assetid: e33932b0-f5ce-4325-809d-ec06cb4a49a6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnSelectionChange method, ITextStoreAnchorSink.OnSelectionChange, ITextStoreAnchorSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onselectionchange_ref, textstor/ITextStoreAnchorSink::OnSelectionChange, tsf.itextstoreanchorsink_onselectionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

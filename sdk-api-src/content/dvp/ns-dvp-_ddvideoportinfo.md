@@ -4,10 +4,10 @@ title: "_DDVIDEOPORTINFO"
 author: windows-sdk-content
 description: The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the DD_VIDEOPORT_LOCAL structure.
 old-location: display\ddvideoportinfo.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 65423d9e-d3b8-4545-8afe-09b3375dbac2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO, DDVIDEOPORTINFO structure [Display Devices], _DDVIDEOPORTINFO, ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml, display.ddvideoportinfo, dvp/DDVIDEOPORTINFO"
 ms.prod: windows
 ms.technology: windows-sdk

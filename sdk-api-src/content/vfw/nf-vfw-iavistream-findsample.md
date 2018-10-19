@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_findsample.htm
 tech.root: Multimedia
 ms.assetid: 77927e6c-beee-4774-b727-5cd608cefb3d
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: FindSample, FindSample method [Windows Multimedia], FindSample method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],FindSample method, IAVIStream.FindSample, IAVIStream::FindSample, _win32_IAVIStream_FindSample, multimedia.iavistream_findsample, vfw/IAVIStream::FindSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,15 +126,19 @@ If key frames are not significant in your custom format, return the position spe
 
 For handlers written in C++, <b>FindSample</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LONG FindSample(LONG lPos, LONG lFlags) 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

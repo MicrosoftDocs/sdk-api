@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1BitmapRenderTarget.htm
 tech.root: direct2d
 ms.assetid: f298d4f7-acb8-4fbe-89f7-2410e3b753bd
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ID2D1BitmapRenderTarget, ID2D1BitmapRenderTarget interface [Direct2D], ID2D1BitmapRenderTarget interface [Direct2D],described, d2d1/ID2D1BitmapRenderTarget, direct2d.ID2D1BitmapRenderTarget
 ms.prod: windows
 ms.technology: windows-sdk

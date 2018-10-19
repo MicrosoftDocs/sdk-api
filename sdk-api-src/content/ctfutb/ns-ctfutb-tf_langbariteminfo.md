@@ -7,7 +7,7 @@ old-location: tsf\tf_langbariteminfo.htm
 tech.root: TSF
 ms.assetid: 4a826a2c-4cae-4cbf-8a25-38337dcd498d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: TF_LANGBARITEMINFO, TF_LANGBARITEMINFO structure [Text Services Framework], _tsf_tf_langbariteminfo_ref, ctfutb/TF_LANGBARITEMINFO, tsf.tf_langbariteminfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,14 @@ Contains a <b>GUID</b> value that identifies the language bar item.
 
 ### -field dwStyle
 
-Contains a combination of one or more of the <a href="https://msdn.microsoft.com/en-us/library/ms629078(v=VS.85).aspx">TF_LBI_STYLE_*</a> values.
+Contains a combination of one or more of the <a href="https://msdn.microsoft.com/9180a666-774f-401b-bea3-68d5396fab30">TF_LBI_STYLE_*</a> values.
 
 
 ### -field ulSort
 
 Specifies the sort order of the language bar item, relative to other language bar items owned by the text service. A lower number indicates that the item will be displayed prior to an item with a higher sort number.
 
-This value is only used if <b>clsidService</b> identifies a registered text service. For more information about registering a text service, see <a href="https://msdn.microsoft.com/en-us/library/ms628573(v=VS.85).aspx">ITfInputProcessorProfiles::Register</a>.
+This value is only used if <b>clsidService</b> identifies a registered text service. For more information about registering a text service, see <a href="https://msdn.microsoft.com/264bc32e-60a2-4dff-a212-5682d30a769e">ITfInputProcessorProfiles::Register</a>.
 
 
 ### -field szDescription

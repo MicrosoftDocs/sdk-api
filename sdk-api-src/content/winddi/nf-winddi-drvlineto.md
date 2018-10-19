@@ -4,10 +4,10 @@ title: DrvLineTo function
 author: windows-sdk-content
 description: The DrvLineTo function draws a single, solid, integer-only cosmetic line.
 old-location: display\drvlineto.htm
-tech.root: Display
+tech.root: display
 ms.assetid: e1e5dd93-444d-4176-9f7f-8aa220cddf78
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvLineTo, DrvLineTo function [Display Devices], ddifncs_85694fcd-95b7-4b3e-8f00-bec09b3d9a32.xml, display.drvlineto, winddi/DrvLineTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

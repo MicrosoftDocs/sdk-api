@@ -4,10 +4,10 @@ title: FLOATOBJ_DivFloat function
 author: windows-sdk-content
 description: The FLOATOBJ_DivFloat function divides the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.
 old-location: display\floatobj_divfloat.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 47ebf68c-6dfa-43d3-8bc9-1f0b8f030974
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: FLOATOBJ_DivFloat, FLOATOBJ_DivFloat function [Display Devices], display.floatobj_divfloat, gdifncs_b815b21c-c9fb-4334-857f-e6e66053014a.xml, winddi/FLOATOBJ_DivFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

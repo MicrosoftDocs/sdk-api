@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyDescription.htm
 tech.root: properties
 ms.assetid: 03d98a40-1bfb-4df3-bc8b-eee6c49014d7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PSGetPropertyDescription, PSGetPropertyDescription function [Windows Properties], properties.PSGetPropertyDescription, propsys/PSGetPropertyDescription, shell.PSGetPropertyDescription, shell_PSGetPropertyDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Gets an instance of a property description interface for a property specified by a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure.
+Gets an instance of a property description interface for a property specified by a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Gets an instance of a property description interface for a property specified by
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
+Reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
 
 
 ### -param riid [in]
@@ -76,7 +76,7 @@ Reference to the interface ID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761517(v=VS.85).aspx">IPropertyDescriptionAliasInfo</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb761505(v=VS.85).aspx">IPropertyDescriptionSearchInfo</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>, <a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>, or <a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The <i>ppv</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+The <a href="shell.PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -140,23 +140,27 @@ We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, t
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a> to get the property description for the ratings property.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a> to get the property description for the ratings property.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IPropertyDescription *pPropDesc;
 
-```cpp
-IPropertyDescription *pPropDesc;
-
-HRESULT hr = PSGetPropertyDescription(PKEY_Ratings, IID_PPV_ARGS(&pPropDesc));
+HRESULT hr = PSGetPropertyDescription(PKEY_Ratings, IID_PPV_ARGS(&amp;pPropDesc));
 
 if (SUCCEEDED(hr))
 {
     // pPropDesc is now valid.
  
-    pPropDesc->Release();
-}
-```
-
-
+    pPropDesc-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -165,11 +169,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a>
+<a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762082(v=VS.85).aspx">PSGetPropertySystem</a>
+<a href="shell.PSGetPropertySystem">PSGetPropertySystem</a>
  
 
  

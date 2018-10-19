@@ -7,7 +7,7 @@ old-location: shell\IStartMenuPinnedList_RemoveFromList.htm
 tech.root: shell
 ms.assetid: 8c725c4b-4de6-433b-a647-3c13674084f2
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IStartMenuPinnedList interface [Windows Shell],RemoveFromList method, IStartMenuPinnedList.RemoveFromList, IStartMenuPinnedList::RemoveFromList, RemoveFromList, RemoveFromList method [Windows Shell], RemoveFromList method [Windows Shell],IStartMenuPinnedList interface, _shell_IStartMenuPinnedList_RemoveFromList, shell.IStartMenuPinnedList_RemoveFromList, shobjidl/IStartMenuPinnedList::RemoveFromList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,9 +102,13 @@ If an item is pinned to both the <b>Start</b> menu and the taskbar, one call to 
 
 This example demonstrates the use of <b>IStartMenuPinnedList::RemoveFromList</b>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr = CoInitializeEx(NULL,COINIT_APARTMENTTHREADED);
 
 if (SUCCEEDED(hr))
@@ -112,7 +116,7 @@ if (SUCCEEDED(hr))
     IShellItem *pitem;
     hr = SHCreateItemFromParsingName(TEXT("Path to the shortcut"), 
                                      NULL, 
-                                     IID_PPV_ARGS(&pitem));     
+                                     IID_PPV_ARGS(&amp;pitem));     
 
     //
     // Do setup work here to remove the link, including the unpinning
@@ -126,21 +130,21 @@ if (SUCCEEDED(hr))
         hr = CoCreateInstance(CLSID_StartMenuPin, 
                               NULL, 
                               CLSCTX_INPROC_SERVER, 
-                              IID_PPV_ARGS(&pStartMenuPinnedList));
+                              IID_PPV_ARGS(&amp;pStartMenuPinnedList));
         
         if (SUCCEEDED(hr))
         {
-            hr = pStartMenuPinnedList->RemoveFromList(pitem);
-            pStartMenuPinnedList->Release();
+            hr = pStartMenuPinnedList-&gt;RemoveFromList(pitem);
+            pStartMenuPinnedList-&gt;Release();
         }
         
-        pitem->Release();
+        pitem-&gt;Release();
     }
 }
 
-CoUnitialize();
-```
-
-
+CoUnitialize();</pre>
+</td>
+</tr>
+</table></span></div>
 
 

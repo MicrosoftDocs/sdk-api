@@ -7,7 +7,7 @@ old-location: tsf\itfcontext.htm
 tech.root: TSF
 ms.assetid: ca98c7bb-7348-405d-976a-18012b0886c6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfContext interface [Text Services Framework],described, _tsf_itfcontext_ref, msctf/ITfContext, tsf.itfcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -215,31 +215,35 @@ An edit context object is created by calling <a href="https://msdn.microsoft.com
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT         hr;
 ITfDocumentMgr  *pFocusDoc;
 
-hr = pThreadMgr->GetFocus(&pFocusDoc);
+hr = pThreadMgr-&gt;GetFocus(&amp;pFocusDoc);
 if(SUCCEEDED(hr))
 {
     ITfContext *pContext;
 
-    hr = pFocusDoc->GetTop(&pContext);
+    hr = pFocusDoc-&gt;GetTop(&amp;pContext);
     if(SUCCEEDED(hr))
     {
         //Use the context. 
         
-        pContext->Release();
+        pContext-&gt;Release();
     }
 
-    pFocusDoc->Release();
+    pFocusDoc-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -257,7 +261,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

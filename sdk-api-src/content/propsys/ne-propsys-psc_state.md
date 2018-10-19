@@ -7,7 +7,7 @@ old-location: properties\PSC_STATE.htm
 tech.root: properties
 ms.assetid: f6a09b32-e642-4c11-ae89-fed787b4913c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PSC_DIRTY, PSC_NORMAL, PSC_NOTINSOURCE, PSC_STATE, PSC_STATE enumeration [Windows Properties], properties.PSC_STATE, propsys/PSC_DIRTY, propsys/PSC_NORMAL, propsys/PSC_NOTINSOURCE, propsys/PSC_STATE, shell.PSC_STATE, shell_PSC_STATE
 ms.prod: windows
 ms.technology: windows-sdk

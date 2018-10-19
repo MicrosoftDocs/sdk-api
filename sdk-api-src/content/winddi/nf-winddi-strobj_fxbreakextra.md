@@ -4,10 +4,10 @@ title: STROBJ_fxBreakExtra function
 author: windows-sdk-content
 description: The STROBJ_fxBreakExtra function retrieves the amount of extra space to be added to each space character in a string when displaying and/or printing justified text.
 old-location: display\strobj_fxbreakextra.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 857068ab-2c47-402b-a64a-691bdc52a298
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: STROBJ_fxBreakExtra, STROBJ_fxBreakExtra function [Display Devices], display.strobj_fxbreakextra, gdifncs_cfaecb83-e351-447e-ba9d-63ef6dc3f4d8.xml, winddi/STROBJ_fxBreakExtra
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_get_startofleadoutlimit.htm
 tech.root: imapi
 ms.assetid: 07397f94-fd32-4507-89dd-53de7f25b231
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartOfLeadoutLimit method, IRawCDImageCreator.get_StartOfLeadoutLimit, IRawCDImageCreator::get_StartOfLeadoutLimit, get_StartOfLeadoutLimit, get_StartOfLeadoutLimit method [IMAPI], get_StartOfLeadoutLimit method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startofleadoutlimit, imapi2/IRawCDImageCreator::get_StartOfLeadoutLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

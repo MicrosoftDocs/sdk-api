@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Region.IsVisible(IN INT,IN INT,IN const Graphics)
 title: Region::IsVisible(IN INT,IN INT,IN const Graphics)
 author: windows-sdk-content
-description: This topic lists the IsVisible methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
-old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Methods.htm
+description: The Region::IsVisible method determines whether a point is inside this region.
+old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_Graphics_g_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_51intx_inty_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: IsVisible, IsVisible methods [GDI+], Region.IsVisible, Region.IsVisible(IN INT,IN INT,IN const Graphics), Region::IsVisible, Region::IsVisible(IN INT,IN INT,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Methods, gdiplus._gdiplus_CLASS_Region_IsVisible_Methods, gdiplusheaders/IsVisible
+ms.date: 10/16/2018
+ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN INT,IN INT,IN const Graphics), Region.IsVisible(INT,INT,const Graphics*), Region::IsVisible, Region::IsVisible(IN INT,IN INT,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusheaders.h
+ - Gdiplus.dll
 api_name:
  - Region.IsVisible
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Region::IsVisible(IN INT,IN INT,IN const Graphics)
@@ -50,88 +51,121 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			IsVisible methods of the 
-			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>. 
+The <b>Region::IsVisible</b> method determines whether a point is inside this region.
 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3aa51167-6128-40e9-9031-fbc829380ff3">IsVisible(Rect&,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/3aa51167-6128-40e9-9031-fbc829380ff3">Region::IsVisible</a> method determines whether a rectangle intersects this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8becaa4-26bd-4767-8110-f1882dce332e">IsVisible(Point&,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f8becaa4-26bd-4767-8110-f1882dce332e">Region::IsVisible</a> method determines whether a point is inside this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c393f0ca-4e55-4a9c-941c-b03b629badf3">IsVisible(RectF&,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c393f0ca-4e55-4a9c-941c-b03b629badf3">Region::IsVisible</a> method determines whether a rectangle intersects this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e7059c0-2029-4178-961a-88738894ee83">IsVisible(INT,INT,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6e7059c0-2029-4178-961a-88738894ee83">Region::IsVisible</a> method determines whether a point is inside this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6613d68b-ec68-4eca-ba86-6f2956afa418">IsVisible(PointF&,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6613d68b-ec68-4eca-ba86-6f2956afa418">Region::IsVisible</a> method determines whether a point is inside this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0c156d8-1fb5-428e-9e70-da8f4ca7c9fa">IsVisible(REAL,REAL,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b0c156d8-1fb5-428e-9e70-da8f4ca7c9fa">Region::IsVisible</a> method determines whether a point is inside this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff24048a-4b64-4ff0-9b63-2811bf495d1e">IsVisible(INT,INT,INT,INT,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ff24048a-4b64-4ff0-9b63-2811bf495d1e">Region::IsVisible</a> method determines whether a rectangle intersects this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f17c61a5-4178-484d-8119-cb8907b45846">IsVisible(REAL,REAL,REAL,REAL,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f17c61a5-4178-484d-8119-cb8907b45846">Region::IsVisible</a> method determines whether a rectangle intersects this region.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param x [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the x-coordinate of the point to test. 
+
+
+### -param y [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the y-coordinate of the point to test. 
+
+
+### -param g [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
+
+Optional. Pointer to a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the point. The default value is <b>NULL</b>. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>BOOL</b>
+</strong>
+
+If the point is inside this region, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  A region contains its border.</div>
+<div> </div>
+
+#### Examples
+
+
+
+The following example creates a region from a path and then tests to determine whether a point is inside the region.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_IsVisibleXY(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   Point points[] = {
+      Point(110, 20),
+      Point(120, 30),
+      Point(100, 60),
+      Point(120, 70),
+      Point(150, 60),
+      Point(140, 10)};
+
+   GraphicsPath path;
+   SolidBrush solidBrush(Color(255, 255, 0, 0));
+
+   path.AddClosedCurve(points, 6);
+
+   // Create a region from a path.
+   Region pathRegion(&amp;path);
+   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
+
+   // Check to see whether the point (125, 40) is in the region.
+   INT x = 125;
+   INT y = 40;
+   if(pathRegion.IsVisible(x, y, &amp;graphics))
+   {
+
+      // The point is in the region.
+   }
+
+   // Fill a small circle centered at the point (125, 40).
+   SolidBrush brush(Color(255, 0, 0, 0));
+   graphics.FillEllipse(&amp;brush, x - 4, y - 4, 8, 8);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+ 
+
+ 
 

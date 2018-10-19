@@ -4,10 +4,10 @@ title: DrvDisableDirectDraw function
 author: windows-sdk-content
 description: The DrvDisableDirectDraw function disables hardware for DirectDraw use.
 old-location: display\drvdisabledirectdraw.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 7675019e-ac05-40e8-a934-a0928800ebe3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvDisableDirectDraw, DrvDisableDirectDraw function [Display Devices], ddfncs_7abbe471-0671-4e98-8eba-ceb25216d961.xml, display.drvdisabledirectdraw, winddi/DrvDisableDirectDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

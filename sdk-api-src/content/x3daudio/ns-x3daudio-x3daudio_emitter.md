@@ -177,12 +177,16 @@ For user-defined distance curves, the distance field of the first point must be 
 If an emitter moves beyond a distance of (<b>CurveDistanceScaler</b> × 1.0f), the last point on the curve is used to compute the volume output level. The last point is determined by the following:
 
 
-
-```
-X3DAUDIO_DISTANCE_CURVE.pPoints[PointCount-1].DSPSetting)
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>X3DAUDIO_DISTANCE_CURVE.pPoints[PointCount-1].DSPSetting)</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Inner_Radius_and_Inner_Radius_Angle"></a><a id="inner_radius_and_inner_radius_angle"></a><a id="INNER_RADIUS_AND_INNER_RADIUS_ANGLE"></a>Inner Radius and Inner Radius Angle</h3>
 <b>InnerRadius</b> is used to specify an area of smooth transition around the origin point as a sound travels directly through, above or below the listener. Elevation is accounted for by specifying an <b>InnerRadiusAngle</b>, whereby a sound whose elevation increases or decreases, will eventually start to bleed the sound into more than just two speakers.
 
@@ -195,7 +199,7 @@ When Inner Radius and Inner Radius Angle are not used, emitters are audible in t
 Inner Radius and Inner Radius Angle have no effect on emitters positioned outside of the cones they describe. Inside of the cone, they will gradually cause the sound to bleed into the opposite speakers, until the sound will be equally heard in all speakers when the emitter is at the same position as (or directly above or below) the listener.
 
 
-<img alt="Inner radius and inner radius angle" src="./images/x3daudio_emitter_structure.png"/>
+<img alt="Inner radius and inner radius angle" src="images/x3daudio_emitter_structure.png"/>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 

@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.FillRectangle(IN const Brush,IN const RectF &)
 title: Graphics::FillRectangle(IN const Brush,IN const RectF &)
 author: windows-sdk-content
-description: This topic lists the FillRectangle methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangle_Methods.htm
+description: The Graphics::FillRectangle method uses a brush to fill the interior of a rectangle.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_RectF_rect_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglemethods\fillrectangle_26brushbrush_rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: FillRectangle, FillRectangle methods [GDI+], Graphics.FillRectangle, Graphics.FillRectangle(IN const Brush,IN const RectF &), Graphics::FillRectangle, Graphics::FillRectangle(IN const Brush,IN const RectF &), _gdiplus_CLASS_Graphics_FillRectangle_Methods, gdiplus._gdiplus_CLASS_Graphics_FillRectangle_Methods, gdiplusgraphics/FillRectangle
+ms.date: 10/16/2018
+ms.keywords: FillRectangle, FillRectangle method [GDI+], FillRectangle method [GDI+],Graphics class, Graphics class [GDI+],FillRectangle method, Graphics.FillRectangle, Graphics.FillRectangle(IN const Brush,IN const RectF &), Graphics.FillRectangle(const Brush*,const RectF&), Graphics::FillRectangle, Graphics::FillRectangle(IN const Brush,IN const RectF &), _gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusgraphics.h
+ - Gdiplus.dll
 api_name:
  - Graphics.FillRectangle
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Graphics::FillRectangle(IN const Brush,IN const RectF &)
@@ -50,55 +51,61 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-FillRectangle methods of the 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
+The <b>Graphics::FillRectangle</b> method uses a brush to fill the interior of a rectangle.
 
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bee33174-f60f-415e-a1af-75aa3ad87342">FillRectangle(Brush*,Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/bee33174-f60f-415e-a1af-75aa3ad87342">Graphics::FillRectangle</a> method uses a brush to fill the interior of a rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e8ec281-ff99-4fc7-bbf0-77d1ca3f128e">FillRectangle(Brush*,RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/8e8ec281-ff99-4fc7-bbf0-77d1ca3f128e">Graphics::FillRectangle</a> method uses a brush to fill the interior of a rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eff3454e-f4d7-4cc2-9385-268d9ced2715">FillRectangle(Brush*,INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/eff3454e-f4d7-4cc2-9385-268d9ced2715">Graphics::FillRectangle</a> method uses a brush to fill the interior of a rectangle. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e08959c2-9e11-49a3-b5e0-9bd732329606">FillRectangle(Brush*,REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e08959c2-9e11-49a3-b5e0-9bd732329606">Graphics::FillRectangle</a> method uses a brush to fill the interior of a rectangle. 
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param brush [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> that is used to paint the interior of the rectangle. 
+
+
+### -param rect [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
+
+Reference to the rectangle to be filled. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+ 
+
+ 
 

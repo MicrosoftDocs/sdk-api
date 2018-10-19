@@ -4,10 +4,10 @@ title: DrvSynchronizeSurface function
 author: windows-sdk-content
 description: The DrvSynchronizeSurface function informs the driver that GDI needs to write to the specified surface. This function allows drawing operations performed by a device's coprocessor to be coordinated with GDI.
 old-location: display\drvsynchronizesurface.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 717e0738-71a0-45e1-a479-337fab2998ab
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvSynchronizeSurface, DrvSynchronizeSurface function [Display Devices], ddifncs_ab69a2cb-5b19-4a94-a78e-2c21d2950ff8.xml, display.drvsynchronizesurface, winddi/DrvSynchronizeSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

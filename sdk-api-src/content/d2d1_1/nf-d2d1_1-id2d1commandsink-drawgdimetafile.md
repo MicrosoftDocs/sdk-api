@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_drawmetafile.htm
 tech.root: direct2d
 ms.assetid: 5D986C99-BB7D-4A46-A147-E907F1031E92
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawGdiMetafile method, ID2D1CommandSink.DrawGdiMetafile, ID2D1CommandSink::DrawGdiMetafile, d2d1_1/ID2D1CommandSink::DrawGdiMetafile, direct2d.id2d1commandsink_drawmetafile
 ms.prod: windows-hardware
 ms.technology: windows-devices

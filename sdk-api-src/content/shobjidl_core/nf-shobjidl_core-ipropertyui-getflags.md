@@ -7,7 +7,7 @@ old-location: properties\IPropertyUI_GetFlags.htm
 tech.root: properties
 ms.assetid: 8ADF50C1-CD6C-489c-9599-2AEB5C5FF00C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: GetFlags, GetFlags method [Windows Properties], GetFlags method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetFlags method, IPropertyUI.GetFlags, IPropertyUI::GetFlags, _shell_IPropertyUI_GetFlags, properties.IPropertyUI_GetFlags, shell.IPropertyUI_GetFlags, shobjidl_core/IPropertyUI::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
 
 
 ## -parameters
@@ -74,9 +74,9 @@ The PROPID of the property.
 
 ### -param pflags [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762529(v=VS.85).aspx">PROPERTYUI_FLAGS</a>*</b>
+Type: <b><a href="shell.PROPERTYUI_FLAGS">PROPERTYUI_FLAGS</a>*</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb762529(v=VS.85).aspx">PROPERTYUI_FLAGS</a> for the property.
+The <a href="shell.PROPERTYUI_FLAGS">PROPERTYUI_FLAGS</a> for the property.
 
 
 ## -returns

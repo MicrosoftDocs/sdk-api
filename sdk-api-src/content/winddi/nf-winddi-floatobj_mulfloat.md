@@ -4,10 +4,10 @@ title: FLOATOBJ_MulFloat function
 author: windows-sdk-content
 description: The FLOATOBJ_MulFloat function multiplies the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.
 old-location: display\floatobj_mulfloat.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 7b4189f7-b80b-4543-b713-b0b2d06ef81e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: FLOATOBJ_MulFloat, FLOATOBJ_MulFloat function [Display Devices], display.floatobj_mulfloat, gdifncs_39da7310-f7d3-4ceb-8bd5-c2a0eaab0068.xml, winddi/FLOATOBJ_MulFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

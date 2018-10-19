@@ -7,7 +7,7 @@ old-location: tsf\itfreadonlyproperty_getcontext.htm
 tech.root: TSF
 ms.assetid: 2f6becd7-c4d0-45ed-8038-1f706d8e60c7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetContext method, ITfReadOnlyProperty.GetContext, ITfReadOnlyProperty::GetContext, _tsf_itfreadonlyproperty_getcontext_ref, msctf/ITfReadOnlyProperty::GetContext, tsf.itfreadonlyproperty_getcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

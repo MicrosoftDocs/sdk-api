@@ -7,7 +7,7 @@ old-location: shell\ShellExecute.htm
 tech.root: shell
 ms.assetid: 8b1f3978-a0ee-4684-8a37-98e270b63897
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: NULL, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, ShellExecute, ShellExecute function [Windows Shell], ShellExecuteA, ShellExecuteW, _win32_ShellExecute, _win32_ShellExecute_cpp, edit, explore, find, open, print, shell.ShellExecute, shellapi/ShellExecute, shellapi/ShellExecuteA, shellapi/ShellExecuteW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -175,7 +175,7 @@ Activates the window and displays it in its current size and position.
 
 #### SW_SHOWDEFAULT (10)
 
-Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial show state of its main window.
+Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with this flag to set the initial show state of its main window.
 
 
 
@@ -271,7 +271,7 @@ Activates the window and displays it in its current size and position.
 
 ##### - nShowCmd.SW_SHOWDEFAULT (10)
 
-Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial show state of its main window.
+Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with this flag to set the initial show state of its main window.
 
 
 ##### - nShowCmd.SW_SHOWMAXIMIZED (3)
@@ -496,12 +496,16 @@ Because <b>ShellExecute</b> can delegate execution to Shell extensions (data sou
 
                 
 
-
-```
-CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)</pre>
+</td>
+</tr>
+</table></span></div>
 There are certainly instances where <b>ShellExecute</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to <i>always</i> initalize COM before using this function.
 
 This method allows you to execute any commands in a folder's shortcut menu or stored in the registry.
@@ -510,38 +514,54 @@ To open a folder, use either of the following calls:
 
 				
 
-
-```
-ShellExecute(handle, NULL, <fully_qualified_path_to_folder>, NULL, NULL, SW_SHOWNORMAL);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ShellExecute(handle, NULL, &lt;fully_qualified_path_to_folder&gt;, NULL, NULL, SW_SHOWNORMAL);</pre>
+</td>
+</tr>
+</table></span></div>
 or
 
-
-```
-ShellExecute(handle, "open", <fully_qualified_path_to_folder>, NULL, NULL, SW_SHOWNORMAL);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ShellExecute(handle, "open", &lt;fully_qualified_path_to_folder&gt;, NULL, NULL, SW_SHOWNORMAL);</pre>
+</td>
+</tr>
+</table></span></div>
 To explore a folder, use the following call:
 				
 
-
-```
-ShellExecute(handle, "explore", <fully_qualified_path_to_folder>, NULL, NULL, SW_SHOWNORMAL);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ShellExecute(handle, "explore", &lt;fully_qualified_path_to_folder&gt;, NULL, NULL, SW_SHOWNORMAL);</pre>
+</td>
+</tr>
+</table></span></div>
 To launch the Shell's Find utility for a directory, use the following call.
 				
 
-
-```
-ShellExecute(handle, "find", <fully_qualified_path_to_folder>, NULL, NULL, 0);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ShellExecute(handle, "find", &lt;fully_qualified_path_to_folder&gt;, NULL, NULL, 0);</pre>
+</td>
+</tr>
+</table></span></div>
 If <i>lpOperation</i> is <b>NULL</b>, the function opens the file specified by <i>lpFile</i>. If <i>lpOperation</i> is "open" or "explore", the function  attempts to open or explore the folder.
 
 To obtain information about the application that is launched as a result of calling <b>ShellExecute</b>, use <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a>.

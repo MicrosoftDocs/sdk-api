@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getlaststatus_22.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: FontCollection class [GDI+],GetLastStatus method, FontCollection.GetLastStatus, FontCollection::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],FontCollection class, _gdiplus_CLASS_FontCollection_GetLastStatus_, gdiplus._gdiplus_CLASS_FontCollection_GetLastStatus_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>FontCollection::GetLastStatus</b> method returns a value that indicates the result of this <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> object's previous method call.
+The <b>FontCollection::GetLastStatus</b> method returns a value that indicates the result of this <a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a> object's previous method call.
 
 
 ## -parameters
@@ -65,14 +65,14 @@ The <b>FontCollection::GetLastStatus</b> method returns a value that indicates t
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-The <b>FontCollection::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+The <b>FontCollection::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
-If the previous method invoked on this <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> object succeeded, <b>FontCollection::GetLastStatus</b> returns Ok.
+If the previous method invoked on this <a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a> object succeeded, <b>FontCollection::GetLastStatus</b> returns Ok.
 
-If the previous method failed, then <b>FontCollection::GetLastStatus</b> returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration that indicates the nature of the failure.
+If the previous method failed, then <b>FontCollection::GetLastStatus</b> returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration that indicates the nature of the failure.
 
 
 
@@ -81,20 +81,24 @@ If the previous method failed, then <b>FontCollection::GetLastStatus</b> returns
 
 
 
-You can call <b>FontCollection::GetLastStatus</b> immediately after constructing a <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> object to determine whether the constructor succeeded. <b>FontCollection::GetLastStatus</b> returns Ok if the constructor succeeded. Otherwise, it returns a value that indicates the nature of the failure.
+You can call <b>FontCollection::GetLastStatus</b> immediately after constructing a <a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a> object to determine whether the constructor succeeded. <b>FontCollection::GetLastStatus</b> returns Ok if the constructor succeeded. Otherwise, it returns a value that indicates the nature of the failure.
 
-Note that the implementation of <b>FontCollection::GetLastStatus</b> in the <a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> and <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> classes is different from the implementation of this method in other classes. Also, the implementation of <b>FontCollection::GetLastStatus</b> in the <b>Font</b> class is different from the implementation of <b>FontCollection::GetLastStatus</b> in the <b>FontCollection</b> class.
+Note that the implementation of <b>FontCollection::GetLastStatus</b> in the <a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> and <a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a> classes is different from the implementation of this method in other classes. Also, the implementation of <b>FontCollection::GetLastStatus</b> in the <b>Font</b> class is different from the implementation of <b>FontCollection::GetLastStatus</b> in the <b>FontCollection</b> class.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, checks the status of a method call, and, if successful, draws text.
+The following example creates a <a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a> object, checks the status of a method call, and, if successful, draws text.
 
-
-```cpp
-VOID Example_GetLastStatus(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetLastStatus(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -108,7 +112,7 @@ VOID Example_GetLastStatus(HDC hdc)
    // fontCollection.
    FontFamily families[3];
    int numFamilies;
-   fontCollection.GetFamilies(3, families, &numFamilies);
+   fontCollection.GetFamilies(3, families, &amp;numFamilies);
 
    // Verify that the call to GetFamilies was successful.
    Status status = fontCollection.GetLastStatus();
@@ -117,18 +121,18 @@ VOID Example_GetLastStatus(HDC hdc)
    if (status == Ok)
    {
       // Create a Font object from the first FontFamily object in the array.
-      Font myFont(&families[0], 16);
+      Font myFont(&amp;families[0], 16);
 
       // Use myFont to draw text.
       SolidBrush solidbrush(Color(255, 0, 0, 0));
       WCHAR string[] = L"The call was successful";
       graphics.DrawString(string,
-                          23, &myFont, PointF(0, 0), &solidbrush);
+                          23, &amp;myFont, PointF(0, 0), &amp;solidbrush);
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -137,15 +141,15 @@ VOID Example_GetLastStatus(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a>
+<a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
+<a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

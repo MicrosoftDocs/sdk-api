@@ -7,7 +7,7 @@ old-location: shell\SUBCLASSPROC_Function.htm
 tech.root: shell
 ms.assetid: 44e4cbe0-8252-4bcc-885e-d8af856e8ad7
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: SUBCLASSPROC, SUBCLASSPROC callback, SUBCLASSPROC callback function [Windows Shell], commctrl/SUBCLASSPROC, inet_SUBCLASSPROC_Function, shell.SUBCLASSPROC_Function
 ms.prod: windows
 ms.technology: windows-sdk

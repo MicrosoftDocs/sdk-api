@@ -189,9 +189,13 @@ Indicates that the memory pages within the region are private (that is, not shar
 
 To enable a debugger to debug a target that is running on a different architecture (32-bit versus 64-bit), use one of the explicit forms of this structure.
 
-
-```cpp
-typedef struct _MEMORY_BASIC_INFORMATION32 {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _MEMORY_BASIC_INFORMATION32 {
     DWORD BaseAddress;
     DWORD AllocationBase;
     DWORD AllocationProtect;
@@ -211,10 +215,10 @@ typedef struct DECLSPEC_ALIGN(16) _MEMORY_BASIC_INFORMATION64 {
     DWORD     Protect;
     DWORD     Type;
     DWORD     __alignment2;
-} MEMORY_BASIC_INFORMATION64, *PMEMORY_BASIC_INFORMATION64;
-```
-
-
+} MEMORY_BASIC_INFORMATION64, *PMEMORY_BASIC_INFORMATION64;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

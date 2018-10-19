@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_TEXT_ANTIALIAS_MODE.htm
 tech.root: direct2d
 ms.assetid: d2c829d7-9892-4cbb-9993-12bb7d77fc25
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: D2D1_TEXT_ANTIALIAS_MODE, D2D1_TEXT_ANTIALIAS_MODE enumeration [Direct2D], D2D1_TEXT_ANTIALIAS_MODE_ALIASED, D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, d2d1/D2D1_TEXT_ANTIALIAS_MODE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_ALIASED, d2d1/D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, d2d1/D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, direct2d.D2D1_TEXT_ANTIALIAS_MODE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,16 +94,16 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/be6161ed-d
 can downgrade the default quality to grayscale or aliased:
 
 <ul>
-<li>If the <a href="https://msdn.microsoft.com/en-us/library/Dd368118(v=VS.85).aspx">DWRITE_RENDERING_MODE</a> value  is <b>DWRITE_RENDERING_MODE_ALIASED </b>, then the 
+<li>If the <a href="https://msdn.microsoft.com/c6b2c15a-be22-49ce-affd-1369e23f4d6b">DWRITE_RENDERING_MODE</a> value  is <b>DWRITE_RENDERING_MODE_ALIASED </b>, then the 
 
 default text antialiasing mode is aliased.  To change the DirectWrite rendering mode of an <a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>, use the  <a href="https://msdn.microsoft.com/ab4b29a5-72a7-49dc-9131-696f888b0355">ID2D1RenderTarget::SetTextRenderingParams</a> method. </li>
-<li>If the <a href="https://msdn.microsoft.com/en-us/library/Dd368118(v=VS.85).aspx">DWRITE_RENDERING_MODE</a> value is <b>DWRITE_RENDERING_MODE_OUTLINE</b>, then the default text 
+<li>If the <a href="https://msdn.microsoft.com/c6b2c15a-be22-49ce-affd-1369e23f4d6b">DWRITE_RENDERING_MODE</a> value is <b>DWRITE_RENDERING_MODE_OUTLINE</b>, then the default text 
 
 antialiasing mode is grayscale.</li>
-<li>If the render target has an alpha channel and is not set to <a href="https://msdn.microsoft.com/en-us/library/Dd368058(v=VS.85).aspx">D2D1_ALPHA_MODE_IGNORE</a>, then 
+<li>If the render target has an alpha channel and is not set to <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_IGNORE</a>, then 
 
 the default text antialiasing mode is grayscale.</li>
-<li>If <a href="https://msdn.microsoft.com/905e9c76-d09e-4df8-8343-520d856ec6b8">ID2D1RenderTarget::PushLayer</a>  is called without <a href="https://msdn.microsoft.com/en-us/library/Dd368124(v=VS.85).aspx">D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</a> 
+<li>If <a href="https://msdn.microsoft.com/905e9c76-d09e-4df8-8343-520d856ec6b8">ID2D1RenderTarget::PushLayer</a>  is called without <a href="https://msdn.microsoft.com/d278211a-e99c-429d-9752-45c305f52ed8">D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</a> 
 
 (and the corresponding <a href="https://msdn.microsoft.com/6ab05160-4f42-477f-a5bf-f16863b0635c">PopLayer</a> has not  been called yet), then the default text 
 

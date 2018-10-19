@@ -4,10 +4,10 @@ title: "_HEAPALIGNMENT"
 author: windows-sdk-content
 description: The HEAPALIGNMENT structure contains data specifying the alignment requirements for a given display memory heap.
 old-location: display\heapalignment.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 546029c7-c92e-4940-841f-235c7dc50e8e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPHEAPALIGNMENT, HEAPALIGNMENT, HEAPALIGNMENT structure [Display Devices], _HEAPALIGNMENT, ddstrcts_ec77ce92-8153-4be6-8720-f8070efce79a.xml, display.heapalignment, dmemmgr/HEAPALIGNMENT"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyKeyFromName.htm
 tech.root: properties
 ms.assetid: a80301d9-8b4e-4a17-8e24-4362ba3b1ab5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PSGetPropertyKeyFromName, PSGetPropertyKeyFromName function [Windows Properties], properties.PSGetPropertyKeyFromName, propsys/PSGetPropertyKeyFromName, shell.PSGetPropertyKeyFromName, shell_PSGetPropertyKeyFromName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Pointer to a property name as a null-terminated, Unicode string.
 
 ### -param ppropkey [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="shell.PROPERTYKEY">PROPERTYKEY</a>*</b>
 
 When this function returns, contains the requested property key.
 
@@ -130,26 +130,30 @@ The canonical property name does not exist in the schema subsystem cache.
 
 Property keys uniquely identify a property. For example, <code>PKEY_Keywords</code> corresponds to <code>System.Keywords</code>. This function succeeds only for properties registered as part of the property schema.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a> for a list of legacy property names that are also supported by the function.
+See <a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a> for a list of legacy property names that are also supported by the function.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762081(v=VS.85).aspx">PSGetPropertyKeyFromName</a> to obtain the property key for <code>System.Keywords</code>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyKeyFromName">PSGetPropertyKeyFromName</a> to obtain the property key for <code>System.Keywords</code>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPERTYKEY key;
 
-```cpp
-PROPERTYKEY key;
-
-HRESULT hr = PSGetPropertyKeyFromName(L"System.Keywords", &key);
+HRESULT hr = PSGetPropertyKeyFromName(L"System.Keywords", &amp;key);
 
 if (SUCCEEDED(hr))
 {
     // The property key is now valid.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -158,19 +162,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761544(v=VS.85).aspx">IPropertyDescription::GetPropertyKey</a>
+<a href="shell.IPropertyDescription_GetPropertyKey">IPropertyDescription::GetPropertyKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776502(v=VS.85).aspx">PSGetNameFromPropertyKey</a>
+<a href="shell.PSGetNameFromPropertyKey">PSGetNameFromPropertyKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a>
+<a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762085(v=VS.85).aspx">PSPropertyKeyFromString</a>
+<a href="shell.PSPropertyKeyFromString">PSPropertyKeyFromString</a>
  
 
  

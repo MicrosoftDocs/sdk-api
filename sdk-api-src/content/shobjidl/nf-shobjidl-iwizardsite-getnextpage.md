@@ -7,7 +7,7 @@ old-location: shell\IWizardSite_GetNextPage.htm
 tech.root: shell
 ms.assetid: 61f9b288-40d0-4e36-84e7-6b7bd5d3f5f1
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetNextPage, GetNextPage method [Windows Shell], GetNextPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetNextPage method, IWizardSite.GetNextPage, IWizardSite::GetNextPage, _shell_IWizardSite_GetNextPage, shell.IWizardSite_GetNextPage, shobjidl/IWizardSite::GetNextPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
+Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ TBD
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a handle variable of type <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> for the wizard page following the extension page.
+A pointer to a handle variable of type <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> for the wizard page following the extension page.
 
 
 ## -returns

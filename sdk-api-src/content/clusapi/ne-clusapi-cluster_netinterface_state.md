@@ -52,7 +52,7 @@ req.redist:
 
 
 Enumerates the possible values of the state of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a>.
+    <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>.
 
 
 ## -enum-fields
@@ -95,7 +95,7 @@ The network interface can communicate with all other network interfaces whose st
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
@@ -103,7 +103,7 @@ The network interface can communicate with all other network interfaces whose st
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367768(v=VS.85).aspx">State Property of the ClusNetInterface Object</a>
+<a href="https://msdn.microsoft.com/3bc6bec3-bfe4-4ab4-8ad3-c42eba6d7cba">State Property of the ClusNetInterface Object</a>
  
 
  

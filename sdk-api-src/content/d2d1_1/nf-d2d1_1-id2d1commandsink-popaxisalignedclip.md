@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_popaxisalignedclip.htm
 tech.root: direct2d
 ms.assetid: 602cede8-dce1-4032-b099-b8088bc57459
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PopAxisAlignedClip method, ID2D1CommandSink.PopAxisAlignedClip, ID2D1CommandSink::PopAxisAlignedClip, PopAxisAlignedClip, PopAxisAlignedClip method [Direct2D], PopAxisAlignedClip method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PopAxisAlignedClip, direct2d.id2d1commandsink_popaxisalignedclip
 ms.prod: windows-hardware
 ms.technology: windows-devices

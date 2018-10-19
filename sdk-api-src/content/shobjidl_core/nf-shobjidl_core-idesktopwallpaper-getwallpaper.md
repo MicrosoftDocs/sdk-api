@@ -7,7 +7,7 @@ old-location: shell\IDesktopWallpaper_GetWallpaper.htm
 tech.root: shell
 ms.assetid: A5AC5EB3-2091-4547-8B6A-C60C4E90DFBC
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetWallpaper, GetWallpaper method [Windows Shell], GetWallpaper method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetWallpaper method, IDesktopWallpaper.GetWallpaper, IDesktopWallpaper::GetWallpaper, shell.IDesktopWallpaper_GetWallpaper, shobjidl_core/IDesktopWallpaper::GetWallpaper
 ms.prod: windows-hardware
 ms.technology: windows-devices

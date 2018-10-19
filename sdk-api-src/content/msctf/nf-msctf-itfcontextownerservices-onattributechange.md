@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownerservices_onattributechange.htm
 tech.root: TSF
 ms.assetid: 8aae92e2-ae08-4e87-88f1-ece448323866
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnAttributeChange method, ITfContextOwnerServices.OnAttributeChange, ITfContextOwnerServices::OnAttributeChange, OnAttributeChange, OnAttributeChange method [Text Services Framework], OnAttributeChange method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_onattributechange_ref, msctf/ITfContextOwnerServices::OnAttributeChange, tsf.itfcontextownerservices_onattributechange
 ms.prod: windows-hardware
 ms.technology: windows-devices

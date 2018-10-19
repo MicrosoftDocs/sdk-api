@@ -7,7 +7,7 @@ old-location: shell\IRegTreeItem_SetCheckState.htm
 tech.root: shell
 ms.assetid: 0ba25491-8d18-4040-a256-9078b91e4f3f
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: FALSE, IRegTreeItem interface [Windows Shell],SetCheckState method, IRegTreeItem.SetCheckState, IRegTreeItem::SetCheckState, SetCheckState, SetCheckState method [Windows Shell], SetCheckState method [Windows Shell],IRegTreeItem interface, TRUE, _win32_IRegTreeItem_SetCheckState, shell.IRegTreeItem_SetCheckState, shobjidl_core/IRegTreeItem::SetCheckState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760017(v=VS.85).aspx">Tree-View Controls</a>
+<a href="_win32_Tree_View_Controls">Tree-View Controls</a>
  
 
  

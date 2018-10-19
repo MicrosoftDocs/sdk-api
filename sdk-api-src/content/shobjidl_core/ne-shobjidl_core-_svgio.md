@@ -7,7 +7,7 @@ old-location: shell\SVGIO.htm
 tech.root: shell
 ms.assetid: 06ed616b-8121-4ea0-bd05-632888d0f376
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: SVGIO_ALLVIEW, SVGIO_BACKGROUND, SVGIO_CHECKED, SVGIO_FLAG_VIEWORDER, SVGIO_SELECTION, SVGIO_TYPE_MASK, _SVGIO, _SVGIO enumeration [Windows Shell], _shell_SVGIO, shell.SVGIO, shobjidl_core/SVGIO_ALLVIEW, shobjidl_core/SVGIO_BACKGROUND, shobjidl_core/SVGIO_CHECKED, shobjidl_core/SVGIO_FLAG_VIEWORDER, shobjidl_core/SVGIO_SELECTION, shobjidl_core/SVGIO_TYPE_MASK, shobjidl_core/_SVGIO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,11 +94,15 @@ Used with the <a href="https://msdn.microsoft.com/f93e2d30-7b50-48e8-a3e7-6fa29a
 
 The <b>SVGIO</b> type used to refer to members of the <b>_SVGIO</b> enumeration is defined in Shobjidl.h as shown here.
 
-
-```
-typedef int SVGIO;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef int SVGIO;</pre>
+</td>
+</tr>
+</table></span></div>
 
 

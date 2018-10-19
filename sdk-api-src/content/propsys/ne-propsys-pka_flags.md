@@ -7,7 +7,7 @@ old-location: properties\PKA_FLAGS.htm
 tech.root: properties
 ms.assetid: 57cc5966-7983-4ecd-abee-36e5cc5401b6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PKA_APPEND, PKA_DELETE, PKA_FLAGS, PKA_FLAGS enumeration [Windows Properties], PKA_SET, _shell_PKA_FLAGS, properties.PKA_FLAGS, propsys/PKA_APPEND, propsys/PKA_DELETE, propsys/PKA_FLAGS, propsys/PKA_SET, shell.PKA_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

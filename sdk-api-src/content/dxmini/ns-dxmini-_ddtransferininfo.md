@@ -4,10 +4,10 @@ title: "_DDTRANSFERININFO"
 author: windows-sdk-content
 description: The DDTRANSFERININFO structure contains the transfer information for the surface
 old-location: display\ddtransferininfo.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 9e5f938d-0db6-4df6-a9c2-49840fef8c03
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDDTRANSFERININFO, DDTRANSFERININFO, DDTRANSFERININFO structure [Display Devices], PDDTRANSFERININFO, PDDTRANSFERININFO structure pointer [Display Devices], Video_Structs_2585fa9a-a3ea-4bc0-a5b8-1911262203ba.xml, _DDTRANSFERININFO, display.ddtransferininfo, dxmini/DDTRANSFERININFO, dxmini/PDDTRANSFERININFO"
 ms.prod: windows
 ms.technology: windows-sdk

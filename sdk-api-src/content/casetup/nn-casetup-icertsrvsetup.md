@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup.htm
 tech.root: seccrypto
 ms.assetid: 6792a0d6-d304-481d-a97b-5fb7033c7eae
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup interface [Security],described, casetup/ICertSrvSetup, security.icertsrvsetup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,9 +50,9 @@ req.redist:
 ## -description
 
 
-The <b>ICertSrvSetup</b> interface defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Services</a> computer.
+The <b>ICertSrvSetup</b> interface defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Services</a> computer.
 
-Microsoft provides an implementation of this interface in the <b>CCertSrvSetup</b> class. For installation, you must call the <a href="https://msdn.microsoft.com/en-us/library/Bb736394(v=VS.85).aspx">InitializeDefaults</a> method before accessing any properties or calling any other methods on the <b>CCertSrvSetup</b> object.
+Microsoft provides an implementation of this interface in the <b>CCertSrvSetup</b> class. For installation, you must call the <a href="https://msdn.microsoft.com/dff7e2e2-291a-4ea9-858a-8d98d96f79ac">InitializeDefaults</a> method before accessing any properties or calling any other methods on the <b>CCertSrvSetup</b> object.
 
 In C++, you create an instance of this interface by calling the <b>CoCreateInstance</b> function with the <b>CLSID_CCertSrvSetup</b> class identifier.
 
@@ -60,7 +60,7 @@ In C++, you create an instance of this interface by calling the <b>CoCreateInsta
 <li>Online Responder Service</li>
 <li>Network Device Enrollment Service</li>
 </ul>
-In addition, the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) service has limited functionality:
+In addition, the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) service has limited functionality:
 
 <ul>
 <li>V2 templates are not supported; therefore, autoenrollment is not supported.</li>
@@ -72,10 +72,10 @@ In addition, the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetup</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertSrvSetup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetup</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertSrvSetup</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -88,16 +88,16 @@ The <b>ICertSrvSetup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736386(v=VS.85).aspx">CAImportPFX</a>
+<a href="https://msdn.microsoft.com/a661b74b-04ba-49b9-bde2-3e368ae6228e">CAImportPFX</a>
 </td>
 <td align="left" width="63%">
-Imports a CA certificate and its associated <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> into the "LocalMachine" store.
+Imports a CA certificate and its associated <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> into the "LocalMachine" store.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736387(v=VS.85).aspx">GetCASetupProperty</a>
+<a href="https://msdn.microsoft.com/7da5f111-206d-40e1-9c40-4782118c3d49">GetCASetupProperty</a>
 </td>
 <td align="left" width="63%">
 Gets a property value for a CA configuration.
@@ -106,7 +106,7 @@ Gets a property value for a CA configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736388(v=VS.85).aspx">GetExistingCACertificates</a>
+<a href="https://msdn.microsoft.com/fd8c7bac-b6db-41f2-a648-e01ebd09c41c">GetExistingCACertificates</a>
 </td>
 <td align="left" width="63%">
 Gets the collection of <b>CCertSrvSetupKeyInformation</b>  objects that represent valid CA certificates currently installed on the computer.
@@ -115,10 +115,10 @@ Gets the collection of <b>CCertSrvSetupKeyInformation</b>  objects that represen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736389(v=VS.85).aspx">GetHashAlgorithmList</a>
+<a href="https://msdn.microsoft.com/451c240d-8df9-4f4a-ab0e-56c5252d3b50">GetHashAlgorithmList</a>
 </td>
 <td align="left" width="63%">
-Gets the list of <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx">hashing algorithms</a> supported by the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) for an asymmetric key signature algorithm.
+Gets the list of <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing algorithms</a> supported by the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) for an asymmetric key signature algorithm.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Gets the types of CAs that can be installed on a computer under the caller conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736394(v=VS.85).aspx">InitializeDefaults</a>
+<a href="https://msdn.microsoft.com/dff7e2e2-291a-4ea9-858a-8d98d96f79ac">InitializeDefaults</a>
 </td>
 <td align="left" width="63%">
 Initializes a <b>CCertSrvSetup</b> object with default values to enable installation of a CA role.
@@ -178,7 +178,7 @@ Installs a CA role as configured in the <b>CCertSrvSetup</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736396(v=VS.85).aspx">IsPropertyEditable</a>
+<a href="https://msdn.microsoft.com/2facae59-aa96-4ac7-97e1-ff094022681a">IsPropertyEditable</a>
 </td>
 <td align="left" width="63%">
 Indicates to the caller whether a specified property can be edited.
@@ -187,7 +187,7 @@ Indicates to the caller whether a specified property can be edited.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736397(v=VS.85).aspx">PostUnInstall</a>
+<a href="https://msdn.microsoft.com/e5ec32ec-616c-4460-bd1c-6e70c61b5234">PostUnInstall</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented and is reserved for future use.
@@ -196,7 +196,7 @@ This method is not implemented and is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736398(v=VS.85).aspx">PreUnInstall</a>
+<a href="https://msdn.microsoft.com/2872a7fb-fe96-4ace-b5f4-af88350835ab">PreUnInstall</a>
 </td>
 <td align="left" width="63%">
 Temporarily saves role-specific state information.
@@ -205,7 +205,7 @@ Temporarily saves role-specific state information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736399(v=VS.85).aspx">SetCADistinguishedName</a>
+<a href="https://msdn.microsoft.com/d513d4fd-abc7-44e6-822e-955de8613d55">SetCADistinguishedName</a>
 </td>
 <td align="left" width="63%">
 Sets a CA common name and an optional distinguished name suffix.
@@ -214,7 +214,7 @@ Sets a CA common name and an optional distinguished name suffix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736400(v=VS.85).aspx">SetCASetupProperty</a>
+<a href="https://msdn.microsoft.com/91df1926-a4b6-4ba2-ab59-0258293fc1c0">SetCASetupProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property value for a CA configuration.
@@ -223,7 +223,7 @@ Sets a property value for a CA configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736401(v=VS.85).aspx">SetDatabaseInformation</a>
+<a href="https://msdn.microsoft.com/ae690d59-21fe-4429-8e80-ee2ce19a7090">SetDatabaseInformation</a>
 </td>
 <td align="left" width="63%">
 Sets the database related information for the CA role.
@@ -232,7 +232,7 @@ Sets the database related information for the CA role.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736402(v=VS.85).aspx">SetParentCAInformation</a>
+<a href="https://msdn.microsoft.com/73c4782d-579d-48d7-b999-f15a2443bbca">SetParentCAInformation</a>
 </td>
 <td align="left" width="63%">
 Sets the parent CA information for a subordinate CA configuration.
@@ -241,7 +241,7 @@ Sets the parent CA information for a subordinate CA configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb736403(v=VS.85).aspx">SetWebCAInformation</a>
+<a href="https://msdn.microsoft.com/6c8d6b06-d36c-496f-8d5a-da20f09a2b0a">SetWebCAInformation</a>
 </td>
 <td align="left" width="63%">
 Sets the CA information for the Certification Authority Web Enrollment role.
@@ -259,7 +259,7 @@ Sets the CA information for the Certification Authority Web Enrollment role.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736384(v=VS.85).aspx">CAErrorId</a>
+<a href="https://msdn.microsoft.com/462fb4a6-2aad-46d4-98e0-32c095eff5c7">CAErrorId</a>
 
 
 </td>
@@ -275,7 +275,7 @@ Gets the ID for additional error information related to a failed CA specificatio
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736385(v=VS.85).aspx">CAErrorString</a>
+<a href="https://msdn.microsoft.com/154397f8-aa0e-4d74-b18e-b68b46fdfcdb">CAErrorString</a>
 
 
 </td>
@@ -296,7 +296,7 @@ Gets the string data for additional error information related to a failed CA spe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

@@ -4,10 +4,10 @@ title: DrvTextOut function
 author: windows-sdk-content
 description: The DrvTextOut function is the entry point from GDI that calls for the driver to render a set of glyphs at specified positions.
 old-location: display\drvtextout.htm
-tech.root: Display
+tech.root: display
 ms.assetid: f2f61687-d833-4d09-8cd5-99e81436c1c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvTextOut, DrvTextOut function [Display Devices], ddifncs_e78c3647-65af-427c-8153-0046e031e345.xml, display.drvtextout, winddi/DrvTextOut
 ms.prod: windows-hardware
 ms.technology: windows-devices

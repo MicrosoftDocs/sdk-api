@@ -7,7 +7,7 @@ old-location: security\crypthashpublickeyinfo.htm
 tech.root: seccrypto
 ms.assetid: b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CryptHashPublicKeyInfo, CryptHashPublicKeyInfo function [Security], _crypto2_crypthashpublickeyinfo, security.crypthashpublickeyinfo, wincrypt/CryptHashPublicKeyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashPublicKeyInfo</b> function encodes the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> information in a 
 <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure and computes the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the encoded bytes. The hash created is used with 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">key identifier functions</a>.
+<a href="cryptography_functions.htm">key identifier functions</a>.
 
 
 ## -parameters
@@ -179,7 +179,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

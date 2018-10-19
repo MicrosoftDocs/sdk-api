@@ -7,7 +7,7 @@ old-location: security\rtldecryptmemory.htm
 tech.root: seccrypto
 ms.assetid: 8ecc5007-92ce-4e32-a093-dcb75ee8ba62
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlDecryptMemory, RtlDecryptMemory function [Security], ntsecapi/RtlDecryptMemory, security.rtldecryptmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

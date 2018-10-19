@@ -7,7 +7,7 @@ old-location: security\crypt_bit_blob.htm
 tech.root: seccrypto
 ms.assetid: 6f102ff3-bfff-4415-a5d8-ca2c226074b3
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*PCRYPT_BIT_BLOB, CRYPT_BIT_BLOB, CRYPT_BIT_BLOB structure [Security], PCRYPT_BIT_BLOB, PCRYPT_BIT_BLOB structure pointer [Security], _CRYPT_BIT_BLOB, _crypto2_crypt_bit_blob, security.crypt_bit_blob, wincrypt/CRYPT_BIT_BLOB, wincrypt/PCRYPT_BIT_BLOB"
 ms.prod: windows
 ms.technology: windows-sdk

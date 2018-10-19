@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transform.htm
 tech.root: direct2d
 ms.assetid: 8A0CD795-A6D8-4817-9676-58C11DDAAEBD
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ID2D1Transform, ID2D1Transform interface [Direct2D], ID2D1Transform interface [Direct2D],described, d2d1effectauthor/ID2D1Transform, direct2d.id2d1transform
 ms.prod: windows
 ms.technology: windows-sdk

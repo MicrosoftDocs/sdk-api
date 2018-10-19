@@ -264,9 +264,13 @@ Even in catastrophic cases, you must release the references for decoupled provid
 The following example describes how to structure 
      <b>PutInstanceAsync</b>.
 
-
-```cpp
-HRESULT CStdProvider::PutInstanceAsync( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CStdProvider::PutInstanceAsync( 
             /* [in] */ IWbemClassObject __RPC_FAR *pInst,
             /* [in] */ long lFlags,
             /* [in] */ IWbemContext __RPC_FAR *pCtx,
@@ -282,10 +286,10 @@ HRESULT CStdProvider::PutInstanceAsync(
    }
 
    return WBEM_E_PROVIDER_NOT_CAPABLE;   
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

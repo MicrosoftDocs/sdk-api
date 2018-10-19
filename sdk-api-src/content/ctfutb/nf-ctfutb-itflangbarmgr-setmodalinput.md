@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_setmodalinput.htm
 tech.root: TSF
 ms.assetid: 754376e0-e7e4-4bd2-b89c-43d211634c65
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],SetModalInput method, ITfLangBarMgr.SetModalInput, ITfLangBarMgr::SetModalInput, SetModalInput, SetModalInput method [Text Services Framework], SetModalInput method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_setmodalinput_ref, ctfutb/ITfLangBarMgr::SetModalInput, tsf.itflangbarmgr_setmodalinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628748(v=VS.85).aspx">ITfLangBarMgr</a>
+<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
 
 
 

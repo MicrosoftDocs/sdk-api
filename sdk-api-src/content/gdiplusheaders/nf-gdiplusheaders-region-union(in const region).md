@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Region.Union(IN const Region)
 title: Region::Union(IN const Region)
 author: windows-sdk-content
-description: This topic lists the Union methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
-old-location: gdiplus\_gdiplus_CLASS_Region_Union_Methods.htm
+description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of another region.
+old-location: gdiplus\_gdiplus_CLASS_Region_Union_region_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods\union_26region.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: Region.Union, Region.Union(IN const Region), Region::Union, Region::Union(IN const Region), Union, Union methods [GDI+], _gdiplus_CLASS_Region_Union_Methods, gdiplus._gdiplus_CLASS_Region_Union_Methods, gdiplusheaders/Union
+ms.date: 10/16/2018
+ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN const Region), Region.Union(const Region*), Region::Union, Region::Union(IN const Region), Union, Union method [GDI+], Union method [GDI+],Region class, _gdiplus_CLASS_Region_Union_region_, gdiplus._gdiplus_CLASS_Region_Union_region_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusheaders.h
+ - Gdiplus.dll
 api_name:
  - Region.Union
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Region::Union(IN const Region)
@@ -50,52 +51,51 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Union methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>. 
+The <b>Region::Union</b> method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of another region.
 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534789(v=VS.85).aspx">Union(Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534789(v=VS.85).aspx">Region::Union</a> method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of the specified rectangle's interior.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534791(v=VS.85).aspx">Union(RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534791(v=VS.85).aspx">Region::Union</a> method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of the specified rectangle's interior.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534790(v=VS.85).aspx">Union(Region*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534790(v=VS.85).aspx">Region::Union</a> method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of another region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534792(v=VS.85).aspx">Union(GraphicsPath*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534792(v=VS.85).aspx">Region::Union</a> method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of the specified path's interior.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param region [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>*</b>
+
+Pointer to a 
+					<b>Region</b> object to use to update this region. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+
+
+
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+ 
+
+ 
 

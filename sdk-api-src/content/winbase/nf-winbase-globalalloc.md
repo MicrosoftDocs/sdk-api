@@ -197,11 +197,15 @@ To free the memory, use the
 
 The following code shows a simple use of <b>GlobalAlloc</b> and <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;tchar.h&gt;
 
 void _cdecl main()
 {
@@ -226,10 +230,10 @@ void _cdecl main()
     // Free the memory when finished with it
     GlobalFree(pSD);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

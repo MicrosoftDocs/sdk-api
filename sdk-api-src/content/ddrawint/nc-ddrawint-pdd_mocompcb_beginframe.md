@@ -4,10 +4,10 @@ title: PDD_MOCOMPCB_BEGINFRAME
 author: windows-sdk-content
 description: The DdMoCompBeginFrame callback function starts decoding a new frame.
 old-location: display\ddmocompbeginframe.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 0038aedc-2e4f-4d89-878f-7f6f751015cc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DdMoCompBeginFrame, DdMoCompBeginFrame callback function [Display Devices], PDD_MOCOMPCB_BEGINFRAME, PDD_MOCOMPCB_BEGINFRAME callback, ddfncs_5bfa2d81-42a3-4615-be52-605e5e3a2b14.xml, ddrawint/DdMoCompBeginFrame, display.ddmocompbeginframe
 ms.prod: windows
 ms.technology: windows-sdk

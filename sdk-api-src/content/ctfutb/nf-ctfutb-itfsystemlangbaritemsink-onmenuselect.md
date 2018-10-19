@@ -7,7 +7,7 @@ old-location: tsf\itfsystemlangbaritemsink_onmenuselect.htm
 tech.root: TSF
 ms.assetid: 43c20f95-64b5-458a-8469-0d8b284b66dd
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],OnMenuSelect method, ITfSystemLangBarItemSink.OnMenuSelect, ITfSystemLangBarItemSink::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfSystemLangBarItemSink interface, _tsf_itfsystemlangbaritemsink_onmenuselect_ref, ctfutb/ITfSystemLangBarItemSink::OnMenuSelect, tsf.itfsystemlangbaritemsink_onmenuselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param wID [in]
 
-Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="https://msdn.microsoft.com/en-us/library/ms628781(v=VS.85).aspx">ITfMenu::AddMenuItem</a>.
+Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="https://msdn.microsoft.com/c00048d1-d7c1-4ea3-a132-5f5aa570148f">ITfMenu::AddMenuItem</a>.
 
 
 ## -returns
@@ -111,7 +111,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628957(v=VS.85).aspx">ITfSystemLangBarItemSink</a>
+<a href="https://msdn.microsoft.com/a88b20ec-fc54-4814-9ca1-131664b4f377">ITfSystemLangBarItemSink</a>
  
 
  

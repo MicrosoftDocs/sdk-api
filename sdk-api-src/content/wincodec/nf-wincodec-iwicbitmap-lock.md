@@ -131,9 +131,13 @@ Locks are exclusive for writing but can be shared for reading. You cannot call <
 
 In the following example, an <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a> is created and the image data is cleared using an <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 
     IWICImagingFactory *pFactory = NULL;
     IWICBitmap *pBitmap = NULL;
@@ -150,17 +154,17 @@ In the following example, an <a href="https://msdn.microsoft.com/15dcc80d-ef58-4
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IWICImagingFactory,
-        (LPVOID*)&pFactory
+        (LPVOID*)&amp;pFactory
         );
 
     if (SUCCEEDED(hr))
     {
-        hr = pFactory->CreateBitmap(uiWidth, uiHeight, formatGUID, WICBitmapCacheOnDemand, &pBitmap);
+        hr = pFactory-&gt;CreateBitmap(uiWidth, uiHeight, formatGUID, WICBitmapCacheOnDemand, &amp;pBitmap);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pBitmap->Lock(&rcLock, WICBitmapLockWrite, &pLock);
+        hr = pBitmap-&gt;Lock(&amp;rcLock, WICBitmapLockWrite, &amp;pLock);
 
         if (SUCCEEDED(hr))
         {
@@ -168,35 +172,35 @@ In the following example, an <a href="https://msdn.microsoft.com/15dcc80d-ef58-4
             UINT cbStride = 0;
             BYTE *pv = NULL;
 
-            hr = pLock->GetStride(&cbStride);
+            hr = pLock-&gt;GetStride(&amp;cbStride);
 
             if (SUCCEEDED(hr))
             {
-                hr = pLock->GetDataPointer(&cbBufferSize, &pv);
+                hr = pLock-&gt;GetDataPointer(&amp;cbBufferSize, &amp;pv);
             }
 
             // Clear the image data
             ZeroMemory(pv, cbBufferSize);
 
             // Release the bitmap lock.
-            pLock->Release();
+            pLock-&gt;Release();
         }
     }
 
     if (pBitmap)
     {
-        pBitmap->Release();
+        pBitmap-&gt;Release();
     }
 
     if (pFactory)
     {
-        pFactory->Release();
+        pFactory-&gt;Release();
     }
 
     return hr;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

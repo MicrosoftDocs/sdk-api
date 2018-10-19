@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofilesex.htm
 tech.root: TSF
 ms.assetid: c3d811df-dfa4-4de1-abb9-ff0291258c8c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework], ITfInputProcessorProfilesEx interface [Text Services Framework],described, msctf/ITfInputProcessorProfilesEx, tsf.itfinputprocessorprofilesex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1blendtransform_getdescription.htm
 tech.root: direct2d
 ms.assetid: 7608A055-FD44-406E-86C7-DF575718D936
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetDescription, GetDescription method [Direct2D], GetDescription method [Direct2D],ID2D1BlendTransform interface, ID2D1BlendTransform interface [Direct2D],GetDescription method, ID2D1BlendTransform.GetDescription, ID2D1BlendTransform::GetDescription, d2d1effectauthor/ID2D1BlendTransform::GetDescription, direct2d.id2d1blendtransform_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

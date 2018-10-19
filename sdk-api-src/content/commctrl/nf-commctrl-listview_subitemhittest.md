@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Determines which list-view item or subitem is located at a given position. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761229(v=VS.85).aspx">LVM_SUBITEMHITTEST</a> message explicitly. 
+Determines which list-view item or subitem is located at a given position. You can use this macro or send the <a href="https://msdn.microsoft.com/1468febb-af0d-4c04-b0b1-cda5ec77aa2c">LVM_SUBITEMHITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Determines which list-view item or subitem is located at a given position. You c
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control that will be hit-tested. 
 
@@ -69,5 +69,5 @@ A handle to the list-view control that will be hit-tested.
 
 Type: <b>LPLVHITTESTINFO</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774754(v=VS.85).aspx">LVHITTESTINFO</a> structure. The <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure within <b>LVHITTESTINFO</b> must be set to the client coordinates to be hit-tested. 
+A pointer to an <a href="https://msdn.microsoft.com/1906cc92-e6e6-470c-86d5-042578833391">LVHITTESTINFO</a> structure. The <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure within <b>LVHITTESTINFO</b> must be set to the client coordinates to be hit-tested. 
 

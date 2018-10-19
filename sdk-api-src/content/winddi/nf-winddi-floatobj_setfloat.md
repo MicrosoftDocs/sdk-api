@@ -4,10 +4,10 @@ title: FLOATOBJ_SetFloat function
 author: windows-sdk-content
 description: The FLOATOBJ_SetFloat function assigns the value of type FLOATL to the FLOATOBJ.
 old-location: display\floatobj_setfloat.htm
-tech.root: Display
+tech.root: display
 ms.assetid: ba2c33fa-9489-482d-b27e-79537425cc4b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: FLOATOBJ_SetFloat, FLOATOBJ_SetFloat function [Display Devices], display.floatobj_setfloat, gdifncs_3bf0c118-feea-48f1-8e20-d3b43408a860.xml, winddi/FLOATOBJ_SetFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_deleteproperty_method.htm
 tech.root: seccrypto
 ms.assetid: 0f9a3e47-3757-42a9-bef2-93b8f304f618
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Security], DeleteProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],DeleteProperty method, IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ A string that contains the name of the property to remove.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a>
+<a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a>
  
 
  

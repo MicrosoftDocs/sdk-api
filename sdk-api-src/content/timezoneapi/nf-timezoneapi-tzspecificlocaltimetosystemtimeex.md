@@ -7,7 +7,7 @@ old-location: base\tzspecificlocaltimetosystemtimeex.htm
 tech.root: sysinfo
 ms.assetid: C202F91E-FFFF-412D-A968-3B7AE60A5846
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: TzSpecificLocalTimeToSystemTimeEx, TzSpecificLocalTimeToSystemTimeEx function, base.tzspecificlocaltimetosystemtimeex, timezoneapi/TzSpecificLocalTimeToSystemTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

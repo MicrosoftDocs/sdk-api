@@ -174,9 +174,6 @@ Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
       <b>ClusterGetVolumeNameForVolumeMountPoint</b> 
       function used <b>TCHAR</b>-based data types instead of 
       <b>WCHAR</b>-based data types. The UNICODE preprocessor define must be set before ResApi.h 
-      is included.
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
       is included.<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -188,8 +185,6 @@ Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
 </td>
 </tr>
 </table></span></div>
-
-
 
 
 The 

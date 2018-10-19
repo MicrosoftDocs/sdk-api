@@ -4,10 +4,10 @@ title: DrvAssertMode function
 author: windows-sdk-content
 description: The DrvAssertMode function sets the mode of the specified physical device to either the mode specified when the PDEV was initialized or to the default mode of the hardware.
 old-location: display\drvassertmode.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 29846ffd-b721-4d61-9983-07a2575f9fe8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvAssertMode, DrvAssertMode function [Display Devices], ddifncs_2ff05b29-d53b-44b9-a7fc-2c050f1ba778.xml, display.drvassertmode, winddi/DrvAssertMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

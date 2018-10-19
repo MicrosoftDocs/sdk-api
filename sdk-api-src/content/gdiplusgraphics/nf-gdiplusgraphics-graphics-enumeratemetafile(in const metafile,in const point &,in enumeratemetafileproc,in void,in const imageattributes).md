@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.EnumerateMetafile(IN const Metafile,IN const Point &,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes)
 title: Graphics::EnumerateMetafile(IN const Metafile,IN const Point &,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes)
 author: windows-sdk-content
-description: This topic lists the EnumerateMetafile methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_EnumerateMetafile_Methods.htm
+description: The Graphics::EnumerateMetafile method calls an application-defined callback function for each record in a specified metafile. You can use this method to display a metafile by calling PlayRecord in the callback function.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_Point_destPoint_EnumerateMetafileProc_ca.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsenumeratemetafilemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsenumeratemetafilemethods\enumeratemetafile.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: EnumerateMetafile, EnumerateMetafile methods [GDI+], Graphics.EnumerateMetafile, Graphics.EnumerateMetafile(IN const Metafile,IN const Point &,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), Graphics::EnumerateMetafile, Graphics::EnumerateMetafile(IN const Metafile,IN const Point &,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), _gdiplus_CLASS_Graphics_EnumerateMetafile_Methods, gdiplus._gdiplus_CLASS_Graphics_EnumerateMetafile_Methods, gdiplusgraphics/EnumerateMetafile
+ms.date: 10/16/2018
+ms.keywords: EnumerateMetafile, EnumerateMetafile method [GDI+], EnumerateMetafile method [GDI+],Graphics class, Graphics class [GDI+],EnumerateMetafile method, Graphics.EnumerateMetafile, Graphics.EnumerateMetafile(IN const Metafile,IN const Point &,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), Graphics.EnumerateMetafile(const Metafile*,const Metafile&,EnumerateMetafileProc,VOID*,ImageAttributes*), Graphics::EnumerateMetafile, Graphics::EnumerateMetafile(IN const Metafile,IN const Point &,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), _gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_Point_destPoint_EnumerateMetafileProc_ca, gdiplus._gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_Point_destPoint_EnumerateMetafileProc_ca
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusgraphics.h
+ - Gdiplus.dll
 api_name:
  - Graphics.EnumerateMetafile
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Graphics::EnumerateMetafile(IN const Metafile,IN const Point &,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes)
@@ -50,119 +51,63 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-EnumerateMetafile methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+The <b>Graphics::EnumerateMetafile</b> method calls an application-defined callback function for each record in a specified metafile. You can use this method to display a metafile by calling 
+			<a href="https://msdn.microsoft.com/a1214c49-63ff-4fac-9603-dce5240d9691">PlayRecord</a> in the callback function.
 
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535981(v=VS.85).aspx">EnumerateMetafile(Metafile*,Rect&,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535981(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535983(v=VS.85).aspx">EnumerateMetafile(Metafile*,RectF&,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535983(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535989(v=VS.85).aspx">EnumerateMetafile(Metafile*,PointF&,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535989(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535977(v=VS.85).aspx">EnumerateMetafile(Metafile*,Metafile&,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535977(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535980(v=VS.85).aspx">EnumerateMetafile(Metafile*,Point*,INT,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535980(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535986(v=VS.85).aspx">EnumerateMetafile(Metafile*,Rect&,Rect&,Unit,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535986(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535984(v=VS.85).aspx">EnumerateMetafile(Metafile*,Point&,Rect&,Unit,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535984(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535982(v=VS.85).aspx">EnumerateMetafile(Metafile*,RectF&,RectF&,Unit,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535982(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535985(v=VS.85).aspx">EnumerateMetafile(Metafile*,Point*,INT,Rect&,Unit,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535985(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535988(v=VS.85).aspx">EnumerateMetafile(Metafile*,Point*,INT,RectF&,Unit,EnumerateMetafileProc,VOID*,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535988(v=VS.85).aspx">Graphics::EnumerateMetafile</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms535274(v=VS.85).aspx">Metafile::PlayRecord</a> in the callback function.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param metafile [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>*</b>
+
+Pointer to a metafile to be enumerated. 
+
+
+### -param destPoint [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a></b>
+
+Reference to a point that specifies the upper-left corner of the displayed metafile. 
+
+
+### -param callback [in]
+
+Type: <b>EnumerateMetafileProc</b>
+
+Pointer to an application-defined callback function. The prototype for the callback function is given in Gdiplustypes.h. 
+
+
+### -param callbackData [in]
+
+Type: <b>VOID*</b>
+
+Optional. Pointer to a block of data that is passed to the callback function. The default value is <b>NULL</b>. 
+
+
+### -param imageAttributes [in]
+
+Type: <b><a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>*</b>
+
+Optional. Pointer to an 
+					<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object that specifies color adjustments for the displayed metafile. The default value is <b>NULL</b>. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the 
+						<b>Status</b> enumeration.
+
+If the method fails, it returns one of the other elements of the 
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
 

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_bitmap_properties1.htm
 tech.root: direct2d
 ms.assetid: c9371ce3-f6fc-4fe6-ada6-0aa64a8f29a2
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: D2D1_BITMAP_PROPERTIES1, D2D1_BITMAP_PROPERTIES1 structure [Direct2D], PD2D1_BITMAP_PROPERTIES1, PD2D1_BITMAP_PROPERTIES1 structure pointer [Direct2D], d2d1_1/D2D1_BITMAP_PROPERTIES1, d2d1_1/PD2D1_BITMAP_PROPERTIES1, direct2d.d2d1_bitmap_properties1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ This structure allows a <a href="https://msdn.microsoft.com/669a9377-248c-4a86-b
 
 ### -field pixelFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368138(v=VS.85).aspx">D2D1_PIXEL_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e95afd9c-5793-4cb7-bcb8-aae4d28b6532">D2D1_PIXEL_FORMAT</a></b>
 
 The DXGI format and alpha mode to create the bitmap with.
 
@@ -82,7 +82,7 @@ The bitmap dpi in the y direction.
 
 ### -field bitmapOptions
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446984(v=VS.85).aspx">D2D1_BITMAP_OPTIONS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c080e23e-99c4-46ed-8b21-be26dec288af">D2D1_BITMAP_OPTIONS</a></b>
 
 The special creation options of the bitmap.
 

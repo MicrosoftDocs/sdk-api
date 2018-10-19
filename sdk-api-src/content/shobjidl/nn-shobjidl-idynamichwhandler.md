@@ -7,7 +7,7 @@ old-location: shell\IDynamicHWHandler.htm
 tech.root: shell
 ms.assetid: 924a765f-76b2-4a45-8dc5-74b5e75b437d
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IDynamicHWHandler, IDynamicHWHandler interface [Windows Shell], IDynamicHWHandler interface [Windows Shell],described, _shell_IDynamicHWHandler, shell.IDynamicHWHandler, shobjidl/IDynamicHWHandler
 ms.prod: windows
 ms.technology: windows-sdk

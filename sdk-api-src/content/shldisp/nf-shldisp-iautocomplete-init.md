@@ -7,7 +7,7 @@ old-location: shell\IAutoComplete_Init.htm
 tech.root: shell
 ms.assetid: e5ee36b7-11b4-4eca-ae8e-eefa6245f287
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IAutoComplete interface [Windows Shell],Init method, IAutoComplete.Init, IAutoComplete::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IAutoComplete interface, _win32_IAutoComplete_Init, shell.IAutoComplete_Init, shldisp/IAutoComplete::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ A pointer to an optional, null-terminated Unicode string that gives the registry
 
 Type: <b>LPCWSTR</b>
 
-A pointer to an optional null-terminated Unicode string that specifies the format to be used if the user enters text and presses CTRL+ENTER. Set this parameter to <b>NULL</b> to disable quick completion. Otherwise, the autocomplete object treats <i>pwszQuickComplete</i> as a <a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> format string and the text in the edit box as its associated argument, to produce a new string. For example, set <i>pwszQuickComplete</i> to "http://www.%s.com/". When a user enters "MyURL" into the edit box and presses CTRL+ENTER, the text in the edit box is updated to "http://www.MyURL.com/".
+A pointer to an optional null-terminated Unicode string that specifies the format to be used if the user enters text and presses CTRL+ENTER. Set this parameter to <b>NULL</b> to disable quick completion. Otherwise, the autocomplete object treats <i>pwszQuickComplete</i> as a <a href="https://msdn.microsoft.com/9eaafe87-04da-4273-babb-b16d26bfdf70">StringCchPrintf</a> format string and the text in the edit box as its associated argument, to produce a new string. For example, set <i>pwszQuickComplete</i> to "http://www.%s.com/". When a user enters "MyURL" into the edit box and presses CTRL+ENTER, the text in the edit box is updated to "http://www.MyURL.com/".
 
 
 ## -returns

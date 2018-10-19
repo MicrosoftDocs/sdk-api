@@ -7,7 +7,7 @@ old-location: security\cert_x942_dh_validation_params.htm
 tech.root: seccrypto
 ms.assetid: 26c367d5-c338-4db3-9973-ce21dcddf7ca
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*PCERT_X942_DH_VALIDATION_PARAMS, CERT_942_DH_VALIDATION_PARAMS, CERT_942_DH_VALIDATION_PARAMS structure [Security], CERT_X942_DH_VALIDATION_PARAMS, CERT_X942_DH_VALIDATION_PARAMS structure [Security], PCERT942_DH_VALIDATION_PARAMS, PCERT942_DH_VALIDATION_PARAMS structure pointer [Security], _CERT_X942_DH_VALIDATION_PARAMS, _crypto2_cert_x942_dh_validation_params, security.cert_x942_dh_validation_params, wincrypt/CERT_X942_DH_VALIDATION_PARAMS, wincrypt/PCERT942_DH_VALIDATION_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

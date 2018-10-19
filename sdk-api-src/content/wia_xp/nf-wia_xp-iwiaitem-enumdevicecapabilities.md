@@ -85,9 +85,9 @@ Specifies a flag that selects the type of capabilities to enumerate. Can be set 
 
 ### -param ppIEnumWIA_DEV_CAPS [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a>**</b>
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> interface created by <b>IWiaItem::EnumDeviceCapabilities</b>.
+Pointer to <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a> interface created by <b>IWiaItem::EnumDeviceCapabilities</b>.
 
 
 ## -returns

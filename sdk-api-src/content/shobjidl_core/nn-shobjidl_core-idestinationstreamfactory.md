@@ -7,7 +7,7 @@ old-location: shell\IDestinationStreamFactory.htm
 tech.root: shell
 ms.assetid: 7cedf8eb-b4ef-4889-bd7b-a734e939e872
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IDestinationStreamFactory, IDestinationStreamFactory interface [Windows Shell], IDestinationStreamFactory interface [Windows Shell],described, shell.IDestinationStreamFactory, shell_IDestinationStreamFactory, shobjidl_core/IDestinationStreamFactory
 ms.prod: windows
 ms.technology: windows-sdk

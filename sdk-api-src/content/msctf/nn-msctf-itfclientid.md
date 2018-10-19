@@ -7,7 +7,7 @@ old-location: tsf\itfclientid.htm
 tech.root: TSF
 ms.assetid: ccb06ed3-67e2-4e46-8037-ff215ba23601
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfClientId, ITfClientId interface [Text Services Framework], ITfClientId interface [Text Services Framework],described, _tsf_itfclientid_ref, msctf/ITfClientId, tsf.itfclientid
 ms.prod: windows
 ms.technology: windows-sdk

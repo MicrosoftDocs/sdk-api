@@ -4,10 +4,10 @@ title: FLOATOBJ_Sub function
 author: windows-sdk-content
 description: The FLOATOBJ_Sub function subtracts the second FLOATOBJ from the first, and returns with the result in the first parameter.
 old-location: display\floatobj_sub.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 0ba6edfa-2de6-4eaa-8853-0e20c01cedf8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: FLOATOBJ_Sub, FLOATOBJ_Sub function [Display Devices], display.floatobj_sub, gdifncs_b1e31de5-5ada-4dc0-9946-a758cae47594.xml, winddi/FLOATOBJ_Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices

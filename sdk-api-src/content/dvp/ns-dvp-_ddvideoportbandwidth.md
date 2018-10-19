@@ -4,10 +4,10 @@ title: "_DDVIDEOPORTBANDWIDTH"
 author: windows-sdk-content
 description: The DDVIDEOPORTBANDWIDTH structure describes the bandwidth characteristics of an overlay when used with a particular video port extensions (VPE) object/pixel format configuration.
 old-location: display\ddvideoportbandwidth.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 3e13874d-294e-4161-8131-f78799b2e90e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH structure [Display Devices], _DDVIDEOPORTBANDWIDTH, ddstrcts_e3e483bd-3cb2-41e2-9563-c6d8e5970c21.xml, display.ddvideoportbandwidth, dvp/DDVIDEOPORTBANDWIDTH"
 ms.prod: windows
 ms.technology: windows-sdk

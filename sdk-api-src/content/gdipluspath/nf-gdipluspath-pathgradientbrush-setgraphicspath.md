@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setgraphicspath.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: PathGradientBrush class [GDI+],SetGraphicsPath method, PathGradientBrush.SetGraphicsPath, PathGradientBrush::SetGraphicsPath, SetGraphicsPath, SetGraphicsPath method [GDI+], SetGraphicsPath method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Type: <b>const GraphicsPath*</b>
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 This method is not implemented.

@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_totalsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 86af52be-d1ea-4ccb-b1b4-e301d70cac53
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_TotalSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia, IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_totalsectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

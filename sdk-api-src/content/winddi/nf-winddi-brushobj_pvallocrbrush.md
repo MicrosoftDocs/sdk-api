@@ -4,10 +4,10 @@ title: BRUSHOBJ_pvAllocRbrush function
 author: windows-sdk-content
 description: The BRUSHOBJ_pvAllocRbrush function allocates memory for the driver's realization of a specified brush.
 old-location: display\brushobj_pvallocrbrush.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 10900536-6c48-4a96-92d2-025660ccff7e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: BRUSHOBJ_pvAllocRbrush, BRUSHOBJ_pvAllocRbrush function [Display Devices], display.brushobj_pvallocrbrush, gdifncs_1858340b-edd3-4fbb-b214-6863301a93fa.xml, winddi/BRUSHOBJ_pvAllocRbrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

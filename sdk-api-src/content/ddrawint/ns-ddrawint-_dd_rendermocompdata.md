@@ -4,10 +4,10 @@ title: "_DD_RENDERMOCOMPDATA"
 author: windows-sdk-content
 description: The DD_RENDERMOCOMPDATA structure contains the information required to render a frame.
 old-location: display\dd_rendermocompdata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: a890707f-b773-4b66-8817-68efdb8d47f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA structure [Display Devices], _DD_RENDERMOCOMPDATA, ddrawint/DD_RENDERMOCOMPDATA, ddstrcts_ac8e2378-be85-4257-a664-d757ec914561.xml, display.dd_rendermocompdata"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CLIPOBJ_ppoGetPath function
 author: windows-sdk-content
 description: The CLIPOBJ_ppoGetPath function creates a PATHOBJ structure that contains the outline of the specified clip region.
 old-location: display\clipobj_ppogetpath.htm
-tech.root: Display
+tech.root: display
 ms.assetid: c87d1580-ab24-49a7-b497-87d781be6e5f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: CLIPOBJ_ppoGetPath, CLIPOBJ_ppoGetPath function [Display Devices], display.clipobj_ppogetpath, gdifncs_576284af-4aef-45be-b10a-2504c8e3451f.xml, winddi/CLIPOBJ_ppoGetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

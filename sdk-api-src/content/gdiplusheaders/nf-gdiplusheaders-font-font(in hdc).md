@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_Font_hdc_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_8hdc.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(HDC), Font.Font(IN HDC), Font::Font, Font::Font(IN HDC), _gdiplus_CLASS_Font_Font_hdc_, gdiplus._gdiplus_CLASS_Font_Font_hdc_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ A device context is a structure that is maintained internally. It is associated 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_IntersectsWith_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\intersectswith.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: IntersectsWith, IntersectsWith method [GDI+], IntersectsWith method [GDI+],Rect class, Rect class [GDI+],IntersectsWith method, Rect.IntersectsWith, Rect::IntersectsWith, _gdiplus_CLASS_Rect_IntersectsWith_rect_, gdiplus._gdiplus_CLASS_Rect_IntersectsWith_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,23 +83,23 @@ If the intersection of the two rectangles is not empty, this method returns <b>T
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534975(v=VS.85).aspx">Intersect Methods</a>
+<a href="https://msdn.microsoft.com/b391c256-5165-4c5c-a45a-dee74e32d391">Intersect Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

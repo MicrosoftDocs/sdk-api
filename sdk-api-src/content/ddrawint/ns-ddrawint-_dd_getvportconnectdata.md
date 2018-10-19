@@ -4,10 +4,10 @@ title: "_DD_GETVPORTCONNECTDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTCONNECTDATA structure contains the connection combinations supported by the specified video port extensions (VPE) object.
 old-location: display\dd_getvportconnectdata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 74cea50f-b8fd-4c32-815f-19f075b74838
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA structure [Display Devices], _DD_GETVPORTCONNECTDATA, ddrawint/DD_GETVPORTCONNECTDATA, ddstrcts_56b2c83f-8798-4960-8fb6-062ccd1d5dd3.xml, display.dd_getvportconnectdata"
 ms.prod: windows
 ms.technology: windows-sdk

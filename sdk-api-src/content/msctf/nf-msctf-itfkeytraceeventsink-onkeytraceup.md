@@ -7,7 +7,7 @@ old-location: tsf\itfkeytraceeventsink_onkeytraceup.htm
 tech.root: TSF
 ms.assetid: 5b86de82-2c27-4824-91bb-39001b5a19e7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfKeyTraceEventSink interface [Text Services Framework],OnKeyTraceUp method, ITfKeyTraceEventSink.OnKeyTraceUp, ITfKeyTraceEventSink::OnKeyTraceUp, OnKeyTraceUp, OnKeyTraceUp method [Text Services Framework], OnKeyTraceUp method [Text Services Framework],ITfKeyTraceEventSink interface, _tsf_itfkeytraceeventsink_onkeytraceup_ref, msctf/ITfKeyTraceEventSink::OnKeyTraceUp, tsf.itfkeytraceeventsink_onkeytraceup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,12 +59,12 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param wParam [in]
 
-The WPARAM of the key event. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>.
+The WPARAM of the key event. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYUP</a>.
 
 
 ### -param lParam [in]
 
-The LPARAM of the key event. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>.
+The LPARAM of the key event. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYUP</a>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>
+<a href="_win32_wm_keyup">WM_KEYUP</a>
  
 
  

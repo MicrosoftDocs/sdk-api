@@ -4,10 +4,10 @@ title: DrvQueryDriverInfo function
 author: windows-sdk-content
 description: The DrvQueryDriverInfo function returns requested driver-specific information.
 old-location: display\drvquerydriverinfo.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 94691c91-f6e9-4f48-8da2-bde5354ed94c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvQueryDriverInfo, DrvQueryDriverInfo function [Display Devices], ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml, display.drvquerydriverinfo, winddi/DrvQueryDriverInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

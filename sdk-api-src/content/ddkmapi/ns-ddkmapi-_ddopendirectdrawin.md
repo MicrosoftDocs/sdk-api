@@ -4,10 +4,10 @@ title: "_DDOPENDIRECTDRAWIN"
 author: windows-sdk-content
 description: The DDOPENDIRECTDRAWIN structure contains the Microsoft DirectDraw object information.
 old-location: display\ddopendirectdrawin.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 62a15685-5420-46cf-ae50-14bb8d97a3ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPDDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN structure [Display Devices], LPDDOPENDIRECTDRAWIN, LPDDOPENDIRECTDRAWIN structure pointer [Display Devices], _DDOPENDIRECTDRAWIN, ddkmapi/DDOPENDIRECTDRAWIN, ddkmapi/LPDDOPENDIRECTDRAWIN, ddstrcts_bd64cbc2-e2e3-4929-b127-9151f8b45819.xml, display.ddopendirectdrawin"
 ms.prod: windows
 ms.technology: windows-sdk

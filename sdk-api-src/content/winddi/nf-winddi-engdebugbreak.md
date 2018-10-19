@@ -4,10 +4,10 @@ title: EngDebugBreak function
 author: windows-sdk-content
 description: The EngDebugBreak function causes a breakpoint in the current process to occur.
 old-location: display\engdebugbreak.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 068529cc-f614-426b-9593-bd153f5d5541
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngDebugBreak, EngDebugBreak function [Display Devices], display.engdebugbreak, gdifncs_d6a74791-c6aa-4bf0-9f8b-8a52587a660f.xml, winddi/EngDebugBreak
 ms.prod: windows-hardware
 ms.technology: windows-devices

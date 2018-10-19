@@ -60,7 +60,7 @@ Contains information on a footer item.
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Set of flags that specify which members of this structure contain data to be set or which members are being requested. This parameter must be one of the following values:
 
@@ -102,7 +102,7 @@ The index of the item.
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer. The calling process is responsible for allocating the buffer.
 
@@ -116,7 +116,7 @@ The number of <b>WCHAR</b><b>s</b> in the buffer pointed to by <b>pszText</b>,  
 
 ### -field state
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Indicates the item's state. The <b>stateMask</b> member indicates the valid bits of this member. Currently, <b>state</b> must be set to the following:
 
@@ -141,7 +141,7 @@ Bit indicating focus state. Set if the item is in focus, otherwise cleared.
 
 ### -field stateMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Value specifying which bits of the <b>state</b> member will be retrieved or modified. Currently, this value must be the following:
 
@@ -168,7 +168,7 @@ The LVFIS_FOCUSED bit of member <b>state</b> is valid. For example, setting this
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761270(v=VS.85).aspx">ListView_GetFooterItem</a> macro and the <a href="https://msdn.microsoft.com/en-us/library/Bb774928(v=VS.85).aspx">LVM_GETFOOTERITEM</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/4993d464-445a-4f16-8100-f65458a5927f">ListView_GetFooterItem</a> macro and the <a href="https://msdn.microsoft.com/92f55719-c265-433f-84fc-a673680c7ad9">LVM_GETFOOTERITEM</a> message.
 
 
 

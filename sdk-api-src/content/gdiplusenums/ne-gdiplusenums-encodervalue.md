@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_EncoderValue.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\encodervalue.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: EncoderValue, EncoderValue enumeration [GDI+], EncoderValueColorTypeCMYK, EncoderValueColorTypeYCCK, EncoderValueCompressionCCITT3, EncoderValueCompressionCCITT4, EncoderValueCompressionLZW, EncoderValueCompressionNone, EncoderValueCompressionRle, EncoderValueFlush, EncoderValueFrameDimensionPage, EncoderValueFrameDimensionResolution, EncoderValueFrameDimensionTime, EncoderValueLastFrame, EncoderValueMultiFrame, EncoderValueRenderNonProgressive, EncoderValueRenderProgressive, EncoderValueScanMethodInterlaced, EncoderValueScanMethodNonInterlaced, EncoderValueTransformFlipHorizontal, EncoderValueTransformFlipVertical, EncoderValueTransformRotate180, EncoderValueTransformRotate270, EncoderValueTransformRotate90, EncoderValueVersionGif87, EncoderValueVersionGif89, _gdiplus_ENUM_EncoderValue, gdiplus._gdiplus_ENUM_EncoderValue, gdiplusenums/EncoderValue, gdiplusenums/EncoderValueColorTypeCMYK, gdiplusenums/EncoderValueColorTypeYCCK, gdiplusenums/EncoderValueCompressionCCITT3, gdiplusenums/EncoderValueCompressionCCITT4, gdiplusenums/EncoderValueCompressionLZW, gdiplusenums/EncoderValueCompressionNone, gdiplusenums/EncoderValueCompressionRle, gdiplusenums/EncoderValueFlush, gdiplusenums/EncoderValueFrameDimensionPage, gdiplusenums/EncoderValueFrameDimensionResolution, gdiplusenums/EncoderValueFrameDimensionTime, gdiplusenums/EncoderValueLastFrame, gdiplusenums/EncoderValueMultiFrame, gdiplusenums/EncoderValueRenderNonProgressive, gdiplusenums/EncoderValueRenderProgressive, gdiplusenums/EncoderValueScanMethodInterlaced, gdiplusenums/EncoderValueScanMethodNonInterlaced, gdiplusenums/EncoderValueTransformFlipHorizontal, gdiplusenums/EncoderValueTransformFlipVertical, gdiplusenums/EncoderValueTransformRotate180, gdiplusenums/EncoderValueTransformRotate270, gdiplusenums/EncoderValueTransformRotate90, gdiplusenums/EncoderValueVersionGif87, gdiplusenums/EncoderValueVersionGif89
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>EncoderValue</b> enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see <a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a> .
+The <b>EncoderValue</b> enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see <a href="https://msdn.microsoft.com/f9a5b4b1-4e25-42c8-a96b-a3104841e5f3">Using Image Encoders and Decoders</a> .
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: tsf\itfspeechuiserver_updateballoon.htm
 tech.root: TSF
 ms.assetid: 5ef25aa6-afc4-4c91-8e49-cb5a7ecec36a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],UpdateBalloon method, ITfSpeechUIServer.UpdateBalloon, ITfSpeechUIServer::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::UpdateBalloon, tsf.itfspeechuiserver_updateballoon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param style [in]
 
-Contains a <a href="https://msdn.microsoft.com/en-us/library/ms629054(v=VS.85).aspx">TfLBBalloonStyle</a> element that specifies the balloon style.
+Contains a <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle</a> element that specifies the balloon style.
 
 
 ### -param pch [in]

@@ -7,7 +7,7 @@ old-location: shell\UrlFixupW.htm
 tech.root: shell
 ms.assetid: 3750d027-847f-4f33-851d-a10be7562bcb
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: UrlFixupW, UrlFixupW function [Windows Shell], _win32_UrlFixupW, shell.UrlFixupW, shlwapi/UrlFixupW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,13 +114,17 @@ This function is available only in a Unicode version.
 
 This example shows how to use <b>UrlFixupW</b>. Notice that the last four autocorrections were probably not what the user intended and demonstrate limitations of the heuristic used by the function.
 
-
-```cpp
-
-#include <windows.h>
-#include <shlwapi.h>
-#include <stdio.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;shlwapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;tchar.h&gt;
 
 void sample(LPCWSTR pszUrl)
 {
@@ -162,9 +166,9 @@ someone@example.com         failed
 htpp:wwwmicrosoft.com       http://wwwmicrosoft.com
 htps:\\www.microsoft.com    http://www.microsoft.com
 http:someone@example.com    http://someone@example.com
-                
-```
-
-
+                </pre>
+</td>
+</tr>
+</table></span></div>
 
 

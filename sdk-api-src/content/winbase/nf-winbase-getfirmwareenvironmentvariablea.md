@@ -7,7 +7,7 @@ old-location: base\getfirmwareenvironmentvariable.htm
 tech.root: sysinfo
 ms.assetid: 18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetFirmwareEnvironmentVariable, GetFirmwareEnvironmentVariable function, GetFirmwareEnvironmentVariableA, GetFirmwareEnvironmentVariableW, base.getfirmwareenvironmentvariable, winbase/GetFirmwareEnvironmentVariable, winbase/GetFirmwareEnvironmentVariableA, winbase/GetFirmwareEnvironmentVariableW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,9 +99,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Starting with Windows 10, version 1803, Universal Windows apps can read and write Unified Extensible Firmware Interface (UEFI) firmware variables. See <a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>for details.
+Starting with Windows 10, version 1803, Universal Windows apps can read and write Unified Extensible Firmware Interface (UEFI) firmware variables. See <a href="base.access_uefi_firmware_variables_from_a_universal_windows_app">Access UEFI firmware variables from a Universal Windows App</a>for details.
 
-To read a firmware environment variable, the user account that the app is running under must have the <a href="https://msdn.microsoft.com/library/windows/desktop/bb530716(v=vs.85).aspx">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>.
+To read a firmware environment variable, the user account that the app is running under must have the <a href="https://msdn.microsoft.com/library/windows/desktop/bb530716(v=vs.85).aspx">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="base.access_uefi_firmware_variables_from_a_universal_windows_app">Access UEFI firmware variables from a Universal Windows App</a>.
 
 Starting with Windows 10, version 1803, reading Unified Extensible Firmware Interface (UEFI) variables is also supported from User-Mode Driver Framework (UMDF) drivers. Writing UEFI variables from UMDF drivers is not supported.
 
@@ -122,7 +122,7 @@ If you are creating a backup application, you can use this function to save all 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>
+<a href="base.access_uefi_firmware_variables_from_a_universal_windows_app">Access UEFI firmware variables from a Universal Windows App</a>
 
 
 

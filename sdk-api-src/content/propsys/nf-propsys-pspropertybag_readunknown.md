@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadUnknown.htm
 tech.root: properties
 ms.assetid: 87921F52-308F-4ed7-8390-A3C0217ACEFD
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PSPropertyBag_ReadUnknown, PSPropertyBag_ReadUnknown function [Windows Properties], properties.PSPropertyBag_ReadUnknown, propsys/PSPropertyBag_ReadUnknown, shell.PSPropertyBag_ReadUnknown, shell_PSPropertyBag_ReadUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Reads a given property of an unknown data value in a property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object, that represents the property bag in which the property is stored.
+A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object, that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -76,7 +76,7 @@ A pointer to a null-terminated property name string.
 
 Type: <b>REFIID</b>
 
-A reference to the IID of the interface to retrieve through <i>ppv</i>. This interface IID should be <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> or an interface derived from <b>IPropertyBag</b>.
+A reference to the IID of the interface to retrieve through <i>ppv</i>. This interface IID should be <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> or an interface derived from <b>IPropertyBag</b>.
 
 
 ### -param ppv [out]
@@ -102,7 +102,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> and <a href="https://msdn.microsoft.com/library/Aa768205(v=VS.85).aspx">IPersistPropertyBag</a> optimize Save As Text functionality. <b>IPropertyBag</b> and <a href="https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx">IPropertyBag2</a> provide an object with a property bag in which the object can save its properties persistently. <b>IPropertyBag2</b> allows the object to obtain type information for each property: <a href="https://msdn.microsoft.com/library/Aa768194(v=VS.85).aspx">IPropertyBag2::Read</a> causes one or more properties to be read from the property bag, and <a href="https://msdn.microsoft.com/library/Aa768195(v=VS.85).aspx">IPropertyBag2::Write</a> causes one or more properties to be saved into the property bag.
+<a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> and <a href="_inet_IPersistPropertyBag_Interface">IPersistPropertyBag</a> optimize Save As Text functionality. <b>IPropertyBag</b> and <a href="_inet_IPropertyBag2_Interface">IPropertyBag2</a> provide an object with a property bag in which the object can save its properties persistently. <b>IPropertyBag2</b> allows the object to obtain type information for each property: <a href="_inet_IPropertyBag2_Read_Method">IPropertyBag2::Read</a> causes one or more properties to be read from the property bag, and <a href="_inet_IPropertyBag2_Write_Method">IPropertyBag2::Write</a> causes one or more properties to be saved into the property bag.
 
 
 
@@ -112,7 +112,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845081(v=VS.85).aspx">PSPropertyBag_WriteUnknown</a>
+<a href="shell.PSPropertyBag_WriteUnknown">PSPropertyBag_WriteUnknown</a>
  
 
  

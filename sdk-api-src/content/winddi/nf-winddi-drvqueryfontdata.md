@@ -4,10 +4,10 @@ title: DrvQueryFontData function
 author: windows-sdk-content
 description: The DrvQueryFontData function retrieves information about a realized font.
 old-location: display\drvqueryfontdata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 3f6efd3c-3ddf-4ce6-9527-730e01c45e74
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvQueryFontData, DrvQueryFontData function [Display Devices], ddifncs_6992339b-a8e8-4bdf-b7a4-7a3087f62051.xml, display.drvqueryfontdata, winddi/DrvQueryFontData
 ms.prod: windows-hardware
 ms.technology: windows-devices

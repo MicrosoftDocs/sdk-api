@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring_getbitcount.htm
 tech.root: seccrypto
 ms.assetid: 9fbaaf03-02b8-4c6f-8cc2-3fd897fdc81d
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CCertEncodeBitString object [Security],GetBitCount method, GetBitCount, GetBitCount method [Security], GetBitCount method [Security],CCertEncodeBitString object, GetBitCount method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitCount method, ICertEncodeBitString.GetBitCount, ICertEncodeBitString::GetBitCount, _certsrv_icertencodebitstring_getbitcount, certenc/ICertEncodeBitString::GetBitCount, security.icertencodebitstring_getbitcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,8 +52,8 @@ req.redist:
 
 
 The <b>GetBitCount</b> method returns the number of bits in a bit string that belongs to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383767(v=VS.85).aspx">CertEncodeBitString</a> object and has been initialized by an earlier call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383873(v=VS.85).aspx">ICertEncodeBitString::Decode</a>.
+<a href="https://msdn.microsoft.com/51178b67-46da-49f8-9bd7-a500e846e0a8">CertEncodeBitString</a> object and has been initialized by an earlier call to 
+<a href="https://msdn.microsoft.com/65856db4-97db-4c9b-ac12-1a9262c7b4e9">ICertEncodeBitString::Decode</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A pointer to a <b>Long</b> that will receive the number of bits in the bit strin
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of bits in the bit string.
@@ -86,7 +86,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383767(v=VS.85).aspx">ICertEncodeBitString</a>
+<a href="https://msdn.microsoft.com/51178b67-46da-49f8-9bd7-a500e846e0a8">ICertEncodeBitString</a>
  
 
  

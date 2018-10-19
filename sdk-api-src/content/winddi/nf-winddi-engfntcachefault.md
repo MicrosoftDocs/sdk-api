@@ -4,10 +4,10 @@ title: EngFntCacheFault function
 author: windows-sdk-content
 description: The EngFntCacheFault function reports an error to the font engine if the font driver encountered an error reading from or writing to a font data cache.
 old-location: display\engfntcachefault.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 27a44779-64df-4a3f-b8b8-9e0417010969
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngFntCacheFault, EngFntCacheFault function [Display Devices], display.engfntcachefault, gdifncs_f6395707-6ff6-4396-b280-77d4256db07b.xml, winddi/EngFntCacheFault
 ms.prod: windows-hardware
 ms.technology: windows-devices

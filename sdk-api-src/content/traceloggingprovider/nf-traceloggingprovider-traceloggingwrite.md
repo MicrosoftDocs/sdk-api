@@ -86,16 +86,20 @@ The maximum number of event data descriptors is 128. Since each parameter can ha
 
 #### Examples
 
-
-```cpp
-TraceLoggingWrite(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>TraceLoggingWrite(
 	g_hMyProvider,
 	"MyEventName",
 	TraceLoggingString(szValue1, "MyValue1"), // Field name MyValue1
 	TraceLoggingInt32(value2, "MyValue2")); // Field name MyValue2
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

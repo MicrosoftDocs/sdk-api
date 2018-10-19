@@ -7,7 +7,7 @@ old-location: shell\IKnownFolderManager.htm
 tech.root: shell
 ms.assetid: ba7dbef7-2732-49e8-b573-a3b731bdc633
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IKnownFolderManager, IKnownFolderManager interface [Windows Shell], IKnownFolderManager interface [Windows Shell],described, _shell_IKnownFolderManager, shell.IKnownFolderManager, shobjidl_core/IKnownFolderManager
 ms.prod: windows
 ms.technology: windows-sdk

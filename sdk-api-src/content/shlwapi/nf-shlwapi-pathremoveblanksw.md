@@ -7,7 +7,7 @@ old-location: shell\PathRemoveBlanks.htm
 tech.root: shell
 ms.assetid: 0f496855-3ea7-4193-b895-fd4ea26ef6c5
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: PathRemoveBlanks, PathRemoveBlanks function [Windows Shell], PathRemoveBlanksA, PathRemoveBlanksW, _win32_PathRemoveBlanks, shell.PathRemoveBlanks, shlwapi/PathRemoveBlanks, shlwapi/PathRemoveBlanksA, shlwapi/PathRemoveBlanksW
 ms.prod: windows-hardware
 ms.technology: windows-devices

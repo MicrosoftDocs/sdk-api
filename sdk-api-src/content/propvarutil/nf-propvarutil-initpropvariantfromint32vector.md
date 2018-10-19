@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromInt32Vector.htm
 tech.root: properties
 ms.assetid: 67173750-7b76-47fc-aec3-7e4e39a73532
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: InitPropVariantFromInt32Vector, InitPropVariantFromInt32Vector function [Windows Properties], properties.InitPropVariantFromInt32Vector, propvarutil/InitPropVariantFromInt32Vector, shell.InitPropVariantFromInt32Vector, shell_InitPropVariantFromInt32Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,24 +99,28 @@ Creates a VT_VECTOR | VT_I4 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762300(v=VS.85).aspx">InitPropVariantFromInt32Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt32Vector">InitPropVariantFromInt32Vector</a>.
 
-
-```cpp
-LONG rgLongs[] = {1, 2, 7};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LONG rgLongs[] = {1, 2, 7};
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromInt32Vector(rgLongs, ARRAYSIZE(rgLongs), &propvar);
+HRESULT hr = InitPropVariantFromInt32Vector(rgLongs, ARRAYSIZE(rgLongs), &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_I4.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -125,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762299(v=VS.85).aspx">InitPropVariantFromInt32</a>
+<a href="shell.InitPropVariantFromInt32">InitPropVariantFromInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762329(v=VS.85).aspx">InitVariantFromInt32</a>
+<a href="shell.InitVariantFromInt32">InitVariantFromInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776551(v=VS.85).aspx">PropVariantToInt32Vector</a>
+<a href="shell.PropVariantToInt32Vector">PropVariantToInt32Vector</a>
  
 
  

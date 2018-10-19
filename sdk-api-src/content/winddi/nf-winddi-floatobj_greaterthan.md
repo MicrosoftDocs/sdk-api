@@ -4,10 +4,10 @@ title: FLOATOBJ_GreaterThan function
 author: windows-sdk-content
 description: The FLOATOBJ_GreaterThan function determines whether the first FLOATOBJ is greater than the second FLOATOBJ.
 old-location: display\floatobj_greaterthan.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 45e743e4-a72d-413a-9ee3-79eab517c87e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: FLOATOBJ_GreaterThan, FLOATOBJ_GreaterThan function [Display Devices], display.floatobj_greaterthan, gdifncs_ac52408a-8df9-4fe2-bf33-35bdfb9fa5d8.xml, winddi/FLOATOBJ_GreaterThan
 ms.prod: windows-hardware
 ms.technology: windows-devices

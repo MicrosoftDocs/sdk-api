@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagebrush_getimage.htm
 tech.root: direct2d
 ms.assetid: b5be6722-1ef5-40a5-babb-179f91412765
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetImage, GetImage method [Direct2D], GetImage method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetImage method, ID2D1ImageBrush.GetImage, ID2D1ImageBrush::GetImage, d2d1_1/ID2D1ImageBrush::GetImage, direct2d.id2d1imagebrush_getimage
 ms.prod: windows-hardware
 ms.technology: windows-devices

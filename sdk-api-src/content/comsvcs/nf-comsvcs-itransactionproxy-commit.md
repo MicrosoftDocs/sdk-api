@@ -110,8 +110,8 @@ The transaction was aborted.
 Calling <b>ITransactionProxy::Commit</b> attempts to commit a transaction. However, the transaction aborts under the following conditions:
 
 <ul>
-<li>If a participating object returns from a method after calling <a href="https://msdn.microsoft.com/en-us/library/ms686120(v=VS.85).aspx">SetAbort</a>.</li>
-<li>If an object calls <a href="https://msdn.microsoft.com/en-us/library/ms687629(v=VS.85).aspx">DisableCommit</a> and returns without calling <a href="https://msdn.microsoft.com/en-us/library/ms681803(v=VS.85).aspx">EnableCommit</a> or <a href="https://msdn.microsoft.com/en-us/library/ms684201(v=VS.85).aspx">SetComplete</a>.</li>
+<li>If a participating object returns from a method after calling <a href="https://msdn.microsoft.com/c254305f-1fc5-417e-b93b-d5e2b36e9e39">SetAbort</a>.</li>
+<li>If an object calls <a href="https://msdn.microsoft.com/e83d1223-9b8e-4a92-b98d-9d2b6ed34721">DisableCommit</a> and returns without calling <a href="https://msdn.microsoft.com/6571aadc-bf5a-48c3-817a-66ce444ef96a">EnableCommit</a> or <a href="https://msdn.microsoft.com/8ff25b68-fcb3-4e11-9c74-b49b31806796">SetComplete</a>.</li>
 <li>If an error causes the Microsoft Distributed Transaction Coordinator (DTC) to abort.</li>
 </ul>
 When the method returns, whether the transaction commits or aborts, the transaction ends.
@@ -124,7 +124,7 @@ When the method returns, whether the transaction commits or aborts, the transact
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681620(v=VS.85).aspx">ITransactionProxy</a>
+<a href="https://msdn.microsoft.com/58d40456-fd4f-4690-a679-3fa58b2f3cda">ITransactionProxy</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\certverifyrevocation.htm
 tech.root: seccrypto
 ms.assetid: 2d6fb244-5273-4530-bec4-e5451fe26f2e
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CERT_VERIFY_CACHE_ONLY_BASED_REVOCATION, CERT_VERIFY_REV_ACCUMULATIVE_TIMEOUT_FLAG, CERT_VERIFY_REV_CHAIN_FLAG, CERT_VERIFY_REV_SERVER_OCSP_FLAG, CertVerifyRevocation, CertVerifyRevocation function [Security], _crypto2_certverifyrevocation, security.certverifyrevocation, wincrypt/CertVerifyRevocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -296,7 +296,7 @@ If <i>rgpvContext</i>[2] is found to be revoked, the <b>dwIndex</b> member of <i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

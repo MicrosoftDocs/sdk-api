@@ -4,10 +4,10 @@ title: "_DD_BLTDATA"
 author: windows-sdk-content
 description: The DD_BLTDATA structure contains the information relevant to the driver for doing bit block transfers.
 old-location: display\dd_bltdata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: e39bdfc4-89d0-4440-93d3-1b455cc9a8e5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_BLTDATA, DD_BLTDATA, DD_BLTDATA structure [Display Devices], _DD_BLTDATA, ddrawint/DD_BLTDATA, ddstrcts_0697bd98-66f4-4f58-b407-c3bcc73eee86.xml, display.dd_bltdata"
 ms.prod: windows
 ms.technology: windows-sdk

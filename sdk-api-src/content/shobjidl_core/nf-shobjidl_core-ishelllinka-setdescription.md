@@ -7,7 +7,7 @@ old-location: shell\IShellLink_SetDescription.htm
 tech.root: shell
 ms.assetid: 4bec482e-04e6-4cde-ab8e-23c5a1463bdf
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IShellLink interface [Windows Shell],SetDescription method, IShellLink::SetDescription, IShellLinkA interface [Windows Shell],SetDescription method, IShellLinkA.SetDescription, IShellLinkA::SetDescription, IShellLinkW interface [Windows Shell],SetDescription method, IShellLinkW::SetDescription, SetDescription, SetDescription method [Windows Shell], SetDescription method [Windows Shell],IShellLink interface, SetDescription method [Windows Shell],IShellLinkA interface, SetDescription method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetDescription, shell.IShellLink_SetDescription, shobjidl_core/IShellLink::SetDescription, shobjidl_core/IShellLinkA::SetDescription, shobjidl_core/IShellLinkW::SetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

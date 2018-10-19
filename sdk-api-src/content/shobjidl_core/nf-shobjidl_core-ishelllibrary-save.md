@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_Save.htm
 tech.root: shell
 ms.assetid: 2a7de829-f0bc-4ace-aed4-83d0611ae292
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IShellLibrary interface [Windows Shell],Save method, IShellLibrary.Save, IShellLibrary::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_Save, shell.IShellLibrary_Save, shobjidl_core/IShellLibrary::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,9 +112,13 @@ For convenience, <a href="https://msdn.microsoft.com/953b209b-fd18-49d0-84d3-ad9
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/953b209b-fd18-49d0-84d3-ad9b815f2a3a">SHSaveLibraryInFolderPath</a>, which wraps this method.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // from shobjidl.h
 //
 __inline HRESULT SHSaveLibraryInFolderPath(
@@ -134,30 +138,30 @@ __inline HRESULT SHSaveLibraryInFolderPath(
     HRESULT hr = SHCreateItemFromParsingName(
       pszFolderPath, 
       NULL, 
-      IID_PPV_ARGS(&psiFolder));
+      IID_PPV_ARGS(&amp;psiFolder));
 
     if (SUCCEEDED(hr))
     {
         IShellItem *psiSavedTo;
-        hr = plib->Save(psiFolder, pszLibraryName, lsf, &psiSavedTo);
+        hr = plib-&gt;Save(psiFolder, pszLibraryName, lsf, &amp;psiSavedTo);
 
         if (SUCCEEDED(hr))
         {
             if (ppszSavedToPath)
             {
-                hr = psiSavedTo->GetDisplayName(
+                hr = psiSavedTo-&gt;GetDisplayName(
                   SIGDN_DESKTOPABSOLUTEPARSING, 
                   ppszSavedToPath);
             }
-            psiSavedTo->Release();
+            psiSavedTo-&gt;Release();
         }
-        psiFolder->Release();
+        psiFolder-&gt;Release();
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

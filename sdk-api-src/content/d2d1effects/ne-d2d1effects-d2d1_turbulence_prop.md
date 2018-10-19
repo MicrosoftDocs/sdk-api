@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_turbulence_prop.htm
 tech.root: direct2d
 ms.assetid: C045CA4D-C6B0-47CD-A479-DC3FDFF8D697
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: D2D1_TURBULENCE_PROP, D2D1_TURBULENCE_PROP enumeration [Direct2D], D2D1_TURBULENCE_PROP_BASE_FREQUENCY, D2D1_TURBULENCE_PROP_NOISE, D2D1_TURBULENCE_PROP_NUM_OCTAVES, D2D1_TURBULENCE_PROP_OFFSET, D2D1_TURBULENCE_PROP_SEED, D2D1_TURBULENCE_PROP_SIZE, D2D1_TURBULENCE_PROP_STITCHABLE, d2d1effects/D2D1_TURBULENCE_PROP, d2d1effects/D2D1_TURBULENCE_PROP_BASE_FREQUENCY, d2d1effects/D2D1_TURBULENCE_PROP_NOISE, d2d1effects/D2D1_TURBULENCE_PROP_NUM_OCTAVES, d2d1effects/D2D1_TURBULENCE_PROP_OFFSET, d2d1effects/D2D1_TURBULENCE_PROP_SEED, d2d1effects/D2D1_TURBULENCE_PROP_SIZE, d2d1effects/D2D1_TURBULENCE_PROP_STITCHABLE, direct2d.d2d1_turbulence_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706378(v=VS.85).aspx">Turbulence effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/86C1990E-958C-46D7-840A-E4A17F1D1740">Turbulence effect</a>.
         
 
 
@@ -119,7 +119,7 @@ The default value is 0.
 The turbulence noise mode. This property can be either fractal sum or turbulence. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. 
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934353(v=VS.85).aspx">D2D1_TURBULENCE_NOISE</a>.
+The type is <a href="https://msdn.microsoft.com/6D2C57B9-AE6E-43CF-AF76-299BC7FCFC06">D2D1_TURBULENCE_NOISE</a>.
             
 
 The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.

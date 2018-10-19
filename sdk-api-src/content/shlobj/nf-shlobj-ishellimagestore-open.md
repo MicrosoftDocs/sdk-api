@@ -7,7 +7,7 @@ old-location: shell\IShellImageStore_Open.htm
 tech.root: shell
 ms.assetid: 2aebf791-7681-42b3-8ffe-46e103e7c036
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IShellImageStore interface [Windows Shell],Open method, IShellImageStore.Open, IShellImageStore::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IShellImageStore interface, _win32_IShellImageStore_Open, shell.IShellImageStore_Open, shlobj/IShellImageStore::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

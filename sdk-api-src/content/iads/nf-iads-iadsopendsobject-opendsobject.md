@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IADsOpenDSObject::OpenDSObject</b> method binds to an ADSI object, using the given credentials, and retrieves an  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> pointer to the specified object.
+The <b>IADsOpenDSObject::OpenDSObject</b> method binds to an ADSI object, using the given credentials, and retrieves an  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> pointer to the specified object.
 <div class="alert"><b>Important</b>  It is not recommended that you use this method with the WinNT Provider. For more information, please see KB article 218497, <a href="http://go.microsoft.com/fwlink/p/?linkid=83981">User Authentication Issues with the Active Directory Service Interfaces WinNT Provider</a>.</div><div> </div>
 
 ## -parameters
@@ -80,14 +80,14 @@ Authentication flags used to define the binding options. For more information, s
 
 ### -param ppOleDsObj [out]
 
-Pointer to a pointer to an  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the requested object.
+Pointer to a pointer to an  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the requested object.
 
 
 ## -returns
 
 
 
-This method supports the standard return values, including <b>S_OK</b> when the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface has been successfully retrieved using these credentials.
+This method supports the standard return values, including <b>S_OK</b> when the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface has been successfully retrieved using these credentials.
       
 
 For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
@@ -105,9 +105,13 @@ When <i>lnReserved</i> is set, the behavior of <b>OpenDSObject</b> depends on th
 
 The <b>IADsOpenDSObject::OpenDSObject</b> method maintains the authenticated and encrypted user credentials in the cache. Cached credentials may be used in subsequent operations for binding to any other directory objects. The ADSI client applications should not cache the credentials supplied by the user. Instead, they should rely on ADSI infrastructure to perform  caching. To use the cached credentials, <i>lpszPassword</i> and <i>lpszUserName</i> must remain unchanged in any subsequent calls of <b>OpenDSObject</b>. The following code example shows this operation.
 
-
-```vb
-Dim dso As IADsOpenDSObject
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim dso As IADsOpenDSObject
 Dim obj1, obj2 As IADs
 Dim szUsername As String
 Dim szPassword As String
@@ -134,15 +138,19 @@ Set obj2 = dso.OpenDSObject( _
     ADS_SECURE_AUTHENTICATION + ADS_SERVER_BIND)
 
 MsgBox obj2.Class
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The  credentials passed to the <b>IADsOpenDSObject::OpenDSObject</b> function are used only with the particular object bound to and do not affect the security context of the calling thread. This means that, in the following code example, the  call to <b>IADsOpenDSObject::OpenDSObject</b> will use different credentials than the  call to <b>GetObject</b>.
 
-
-```vb
-Dim dso As IADsOpenDSObject
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim dso As IADsOpenDSObject
 Dim obj1, obj2 As IADs
 Dim szUsername As String
 Dim szPassword As String
@@ -159,10 +167,10 @@ Set obj1 = dso.OpenDSObject( _
     ADS_SECURE_AUTHENTICATION + ADS_SERVER_BIND)
 
 ' Bind to another object with the default credentials.
-Set obj2 = GetObject("LDAP://server1/CN=Dept2,DC=Fabrikam,DC=com")
-```
-
-
+Set obj2 = GetObject("LDAP://server1/CN=Dept2,DC=Fabrikam,DC=com")</pre>
+</td>
+</tr>
+</table></span></div>
 With a serverless binding, the server name, "server1", is not stated explicitly. The default server is used instead. Only the LDAP provider supports the serverless binding. To use this feature, the client computer must be on an Active Directory domain. To attempt a serverless binding from a computer, you must bind as a domain user.
 
 For credential caching to work properly, it is important to keep an object reference outstanding to maintain the cache handle. In the example given above, an attempt to open "obj2" after releasing "obj1" will result in an authentication failure.
@@ -186,9 +194,13 @@ With the LDAP provider for Active Directory, you may pass in <i>lpszUserName</i>
 
 The following code example shows how to use <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> to open the "Administrator" user object on "Fabrikam" with Secure Authentication through the LDAP provider.
 
-
-```vb
-Dim dso As IADsOpenDSObject
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim dso As IADsOpenDSObject
 Dim domain As IADsDomain
 Dim szUsername As String
 Dim szPassword As String
@@ -203,46 +215,50 @@ Set domain = dso.OpenDSObject("LDAP://Fabrikam", szUsername, _
                               ADS_SECURE_AUTHENTICATION)
 
 Cleanup:
-    If (Err.Number <> 0 ) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number &lt;&gt; 0 ) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set dso = Nothing
-    Set domain = Nothing
-```
-
-
+    Set domain = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example uses <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> to open an Active Directory object through the LDAP provider.
 
-
-```cpp
-IADsOpenDSObject *pDSO = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsOpenDSObject *pDSO = NULL;
 HRESULT hr = S_OK;
  
-hr = ADsGetObject(L"LDAP:", IID_IADsOpenDSObject, (void**) &pDSO);
+hr = ADsGetObject(L"LDAP:", IID_IADsOpenDSObject, (void**) &amp;pDSO);
 if (SUCCEEDED(hr))
 {
     IDispatch *pDisp;
-    hr = pDSO->OpenDSObject(CComBSTR("LDAP://DC=Fabrikam, DC=com"), 
+    hr = pDSO-&gt;OpenDSObject(CComBSTR("LDAP://DC=Fabrikam, DC=com"), 
                        CComBSTR("jeffsmith@Fabrikam.com"),
                        CComBSTR("passwordhere"),
                        ADS_SECURE_AUTHENTICATION, 
-                       &pDisp);
-    pDSO->Release();
+                       &amp;pDisp);
+    pDSO-&gt;Release();
     if (SUCCEEDED(hr))
     {
         IADs *pADs;
-        hr = pDisp->QueryInterface(IID_IADs, (void**) &pADs);
-        pDisp->Release();
+        hr = pDisp-&gt;QueryInterface(IID_IADs, (void**) &amp;pADs);
+        pDisp-&gt;Release();
         if (SUCCEEDED(hr))
         {
         // Perform an object manipulation here.
-            pADs->Release();
+            pADs-&gt;Release();
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -276,7 +292,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\icenroll4_writecerttocsp.htm
 tech.root: seccrypto
 ms.assetid: cc622f5b-e6d0-48c5-8535-29d6d4b02129
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CEnroll object [Security],WriteCertToCSP property, ICEnroll interface [Security],WriteCertToCSP property, ICEnroll.WriteCertToCSP, ICEnroll.get_WriteCertToCSP, ICEnroll2 interface [Security],WriteCertToCSP property, ICEnroll2.WriteCertToCSP, ICEnroll2::get_WriteCertToCSP, ICEnroll2::put_WriteCertToCSP, ICEnroll3 interface [Security],WriteCertToCSP property, ICEnroll3.WriteCertToCSP, ICEnroll3::get_WriteCertToCSP, ICEnroll3::put_WriteCertToCSP, ICEnroll4 interface [Security],WriteCertToCSP property, ICEnroll4.WriteCertToCSP, ICEnroll4::WriteCertToCSP, ICEnroll4::get_WriteCertToCSP, ICEnroll4::put_WriteCertToCSP, ICEnroll::get_WriteCertToCSP, ICEnroll::put_WriteCertToCSP, WriteCertToCSP property [Security], WriteCertToCSP property [Security],CEnroll object, WriteCertToCSP property [Security],ICEnroll interface, WriteCertToCSP property [Security],ICEnroll2 interface, WriteCertToCSP property [Security],ICEnroll3 interface, WriteCertToCSP property [Security],ICEnroll4 interface, get_WriteCertToCSP, security.icenroll4_writecerttocsp, xenroll/ICEnroll2::WriteCertToCSP, xenroll/ICEnroll2::get_WriteCertToCSP, xenroll/ICEnroll2::put_WriteCertToCSP, xenroll/ICEnroll3::WriteCertToCSP, xenroll/ICEnroll3::get_WriteCertToCSP, xenroll/ICEnroll3::put_WriteCertToCSP, xenroll/ICEnroll4::WriteCertToCSP, xenroll/ICEnroll4::get_WriteCertToCSP, xenroll/ICEnroll4::put_WriteCertToCSP, xenroll/ICEnroll::WriteCertToCSP, xenroll/ICEnroll::get_WriteCertToCSP, xenroll/ICEnroll::put_WriteCertToCSP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,28 +100,32 @@ To explicitly force that the Certificate Enrollment Control not attempt to write
 
 #### Examples
 
-
-```cpp
-BOOL     bWriteCSP;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL     bWriteCSP;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the WriteCertToCSP value
-hr = pEnroll->get_WriteCertToCSP( &bWriteCSP );
+hr = pEnroll-&gt;get_WriteCertToCSP( &amp;bWriteCSP );
 if (FAILED( hr ))
     printf("Failed get_WriteCertToCSP - %x\n", hr );
 else
     printf( "WriteCertToCSP: %d\n", bWriteCSP );
 
 // set the WriteCertToCSP value
-hr = pEnroll->put_WriteCertToCSP( TRUE );
+hr = pEnroll-&gt;put_WriteCertToCSP( TRUE );
 if (FAILED( hr ))
     printf("Failed put_WriteCertToCSP - %x\n", hr );
 else
-    printf( "WriteCertToCSP set to TRUE\n" );
-```
-
-
+    printf( "WriteCertToCSP set to TRUE\n" );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

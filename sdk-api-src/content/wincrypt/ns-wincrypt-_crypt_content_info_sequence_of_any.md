@@ -7,7 +7,7 @@ old-location: security\crypt_content_info_sequence_of_any.htm
 tech.root: seccrypto
 ms.assetid: b47cc15d-b92d-4e8a-a8b8-6217d07a0495
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure [Security], PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure pointer [Security], _CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, _crypto2_crypt_content_info_sequence_of_any, security.crypt_content_info_sequence_of_any, wincrypt/CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, wincrypt/PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget.htm
 tech.root: direct2d
 ms.assetid: 40629be9-5840-4bde-b369-56bbfd791775
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ID2D1RenderTarget, ID2D1RenderTarget interface [Direct2D], ID2D1RenderTarget interface [Direct2D],described, d2d1/ID2D1RenderTarget, direct2d.ID2D1RenderTarget
 ms.prod: windows
 ms.technology: windows-sdk

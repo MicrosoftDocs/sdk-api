@@ -7,7 +7,7 @@ old-location: shell\IParentAndItem_SetParentAndItem.htm
 tech.root: shell
 ms.assetid: 398bb0c1-39f1-4a51-9382-421639ab7b8e
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IParentAndItem interface [Windows Shell],SetParentAndItem method, IParentAndItem.SetParentAndItem, IParentAndItem::SetParentAndItem, SetParentAndItem, SetParentAndItem method [Windows Shell], SetParentAndItem method [Windows Shell],IParentAndItem interface, _shell_IParentAndItem_SetParentAndItem, shell.IParentAndItem_SetParentAndItem, shobjidl_core/IParentAndItem::SetParentAndItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

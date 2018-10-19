@@ -97,7 +97,7 @@ Contains the latest service pack that is  installed on the node. If a Service Pa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

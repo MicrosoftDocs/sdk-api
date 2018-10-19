@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_createcommandlist.htm
 tech.root: direct2d
 ms.assetid: f34710dc-7845-457f-9b27-51ae937d9f74
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CreateCommandList, CreateCommandList method [Direct2D], CreateCommandList method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateCommandList method, ID2D1DeviceContext.CreateCommandList, ID2D1DeviceContext::CreateCommandList, d2d1_1/ID2D1DeviceContext::CreateCommandList, direct2d.id2d1devicecontext_createcommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

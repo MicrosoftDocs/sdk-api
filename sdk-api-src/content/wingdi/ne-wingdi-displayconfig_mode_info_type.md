@@ -4,10 +4,10 @@ title: DISPLAYCONFIG_MODE_INFO_TYPE
 author: windows-sdk-content
 description: The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that is contained within the DISPLAYCONFIG_MODE_INFO structure is either source or target mode.
 old-location: display\displayconfig_mode_info_type.htm
-tech.root: Display
+tech.root: display
 ms.assetid: d5ddb1d5-6b74-471f-86f0-fee72f30b648
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: CCD_Enumerations_e8e863ac-c37b-4818-a968-e2658c3103e1.xml, DISPLAYCONFIG_MODE_INFO_TYPE, DISPLAYCONFIG_MODE_INFO_TYPE enumeration [Display Devices], DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE, DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32, DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE, DISPLAYCONFIG_MODE_INFO_TYPE_TARGET, display.displayconfig_mode_info_type, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_TARGET
 ms.prod: windows
 ms.technology: windows-sdk

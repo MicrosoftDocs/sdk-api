@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetsource.htm
 tech.root: Multimedia
 ms.assetid: 3ac01055-7d17-499f-af2e-e50fc08e5520
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: MCIWndGetSource, MCIWndGetSource macro [Windows Multimedia], _win32_MCIWndGetSource, multimedia.mciwndgetsource, vfw/MCIWndGetSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IColumnProvider_GetColumnInfo.htm
 tech.root: shell
 ms.assetid: 87196252-3835-4828-ad0a-0edcafb286b7
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetColumnInfo method, IColumnProvider.GetColumnInfo, IColumnProvider::GetColumnInfo, _win32_IColumnProvider_GetColumnInfo, shell.IColumnProvider_GetColumnInfo, shlobj/IColumnProvider::GetColumnInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

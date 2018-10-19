@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcdeventargs_get_currentaction.htm
 tech.root: imapi
 ms.assetid: 2a29f77e-e895-4cb0-b1f0-83df07931893
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2RawCDEventArgs.get_CurrentAction, IDiscFormat2RawCDEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_currentaction, imapi2/IDiscFormat2RawCDEventArgs::get_CurrentAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

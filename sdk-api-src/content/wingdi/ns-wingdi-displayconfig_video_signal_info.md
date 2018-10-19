@@ -4,10 +4,10 @@ title: DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 author: windows-sdk-content
 description: The DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure contains information about the video signal for a display.
 old-location: display\displayconfig_video_signal_info.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 960089fe-dbb7-41a1-af73-0002cfce6da2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCONFIG_VIDEO_SIGNAL_INFO, DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices], display.displayconfig_video_signal_info, wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 ms.prod: windows
 ms.technology: windows-sdk

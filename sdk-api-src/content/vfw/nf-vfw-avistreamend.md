@@ -7,7 +7,7 @@ old-location: multimedia\avistreamend.htm
 tech.root: Multimedia
 ms.assetid: 9c132953-1b24-4a5f-b2e9-b5569a579696
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: AVIStreamEnd, AVIStreamEnd macro [Windows Multimedia], _win32_AVIStreamEnd, multimedia.avistreamend, vfw/AVIStreamEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,15 +74,19 @@ The sample number returned is not a valid sample number for reading data. It rep
 
 The <b>AVIStreamEnd</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamEnd(pavi) \ 
     (AVIStreamStart(pavi) + AVIStreamLength(pavi)) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

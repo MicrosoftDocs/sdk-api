@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IX509Extension</b> interface can be used to define an extension for a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a>. Certificate extensions provide information about key usage, certificate policies and constraints, alternative name forms, and more. An extension consists of an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID), a Boolean value that identifies whether the extension is critical, and a byte array that contains the extension value as shown by the following <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) syntax.
+The <b>IX509Extension</b> interface can be used to define an extension for a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. Certificate extensions provide information about key usage, certificate policies and constraints, alternative name forms, and more. An extension consists of an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID), a Boolean value that identifies whether the extension is critical, and a byte array that contains the extension value as shown by the following <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) syntax.
 <pre class="syntax" xml:space="preserve"><code>
 Extension ::= SEQUENCE 
 {
@@ -58,7 +58,7 @@ Extension ::= SEQUENCE
    critical            BOOLEAN DEFAULT FALSE,
    extnValue           OCTETSTRING
 }
-</code></pre>The Certificate Enrollment API contains the following interfaces, derived from <b>IX509Extension</b>, that you can use to create the various extensions used most commonly in a public key infrastructure (PKI) that relies on a Windows <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate server</a>.<div class="alert"><b>Note</b>  Do not use the <b>IX509Extension</b> base interface to represent any extension that can be represented by one of the following interfaces. Enrollment behavior is undefined if the appropriate interface is not used.</div>
+</code></pre>The Certificate Enrollment API contains the following interfaces, derived from <b>IX509Extension</b>, that you can use to create the various extensions used most commonly in a public key infrastructure (PKI) that relies on a Windows <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate server</a>.<div class="alert"><b>Note</b>  Do not use the <b>IX509Extension</b> base interface to represent any extension that can be represented by one of the following interfaces. Enrollment behavior is undefined if the appropriate interface is not used.</div>
 <div> </div>
 <table>
 <tr>
@@ -67,67 +67,67 @@ Extension ::= SEQUENCE
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378081(v=VS.85).aspx">IX509ExtensionAlternativeNames</a>
+<a href="https://msdn.microsoft.com/facfcc85-c1ca-47a1-90a6-10522b15cc65">IX509ExtensionAlternativeNames</a>
 </td>
 <td>Defines an <b>AlternativeNames</b> extension that contains one or more alternative name forms for the subject of the certificate request.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378098(v=VS.85).aspx">IX509ExtensionAuthorityKeyIdentifier</a>
+<a href="https://msdn.microsoft.com/68889c3e-25ea-440a-a776-ef3d11dc6b54">IX509ExtensionAuthorityKeyIdentifier</a>
 </td>
-<td>Defines an <b>AuthorityKeyIdentifier</b> extension that enables identification of the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> that corresponds to the certification authority <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> that signed an issued certificate. It is used  by certificate path building software on a Windows server to find the certification authority certificate.</td>
+<td>Defines an <b>AuthorityKeyIdentifier</b> extension that enables identification of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> that corresponds to the certification authority <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> that signed an issued certificate. It is used  by certificate path building software on a Windows server to find the certification authority certificate.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378108(v=VS.85).aspx">IX509ExtensionBasicConstraints</a>
+<a href="https://msdn.microsoft.com/81a1d567-191f-463c-ba67-0867025d8756">IX509ExtensionBasicConstraints</a>
 </td>
 <td>Defines a <b>BasicConstraints</b> extension that identifies whether the entity can be used as a certification authority and, if so, the number of subordinate certification authorities that can exist beneath it in the certificate chain.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378121(v=VS.85).aspx">IX509ExtensionCertificatePolicies</a>
+<a href="https://msdn.microsoft.com/d35d155c-fb81-4d7e-b5c9-82ac5af4b79e">IX509ExtensionCertificatePolicies</a>
 </td>
 <td>Defines a <b>CertificatePolicies</b> extension that identifies the policies under which the certificate has been issued and the purposes for which it can be used.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378132(v=VS.85).aspx">IX509ExtensionEnhancedKeyUsage</a>
+<a href="https://msdn.microsoft.com/0b9606d0-351c-4d2d-b876-545a9c2cf916">IX509ExtensionEnhancedKeyUsage</a>
 </td>
 <td>Defines an <b>EnhancedKeyUsage</b> extension that identifies one or more uses of the public key contained in the certificate.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378144(v=VS.85).aspx">IX509ExtensionKeyUsage</a>
+<a href="https://msdn.microsoft.com/4325e6aa-99bb-4c9a-9b19-c5352ebf27b9">IX509ExtensionKeyUsage</a>
 </td>
 <td>Defines a <b>KeyUsage</b> extension that restricts the operations that can be performed by the public key contained in the certificate.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378155(v=VS.85).aspx">IX509ExtensionMSApplicationPolicies</a>
+<a href="https://msdn.microsoft.com/35b6449e-5a82-4f47-bdda-5356f44bb1fd">IX509ExtensionMSApplicationPolicies</a>
 </td>
 <td>Defines an <b>MSApplicationPolicies</b> extension that can be used by an application to filter certificates on the basis of permitted use. Permitted uses are identified by object identifiers (OIDs).</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378177(v=VS.85).aspx">IX509ExtensionSmimeCapabilities</a>
+<a href="https://msdn.microsoft.com/06dca62d-282b-4bdd-bc8d-4d2e6eb226b5">IX509ExtensionSmimeCapabilities</a>
 </td>
 <td>Defines an <b>SmimeCapabilities</b> extension that identifies the decryption capabilities of an email recipient so that the sender of the email can choose the most secure encryption algorithm supported by both parties. </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378215(v=VS.85).aspx">IX509ExtensionSubjectKeyIdentifier</a>
+<a href="https://msdn.microsoft.com/dcf28967-65e0-4669-b1b1-b3d42f1b3d6b">IX509ExtensionSubjectKeyIdentifier</a>
 </td>
 <td>Defines a <b>SubjectKeyIdentifier</b> extension that differentiates between multiple public keys held by the certificate owner. The extension value is typically a SHA-1 hash of the key.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378274(v=VS.85).aspx">IX509ExtensionTemplate</a>
+<a href="https://msdn.microsoft.com/2ac24ee9-f31f-4501-a4f0-321580ec2fa9">IX509ExtensionTemplate</a>
 </td>
 <td>Defines a <b>Template</b> extension that identifies the version 2 template to use when issuing or renewing a certificate.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378276(v=VS.85).aspx">IX509ExtensionTemplateName</a>
+<a href="https://msdn.microsoft.com/9a2d0219-6fe3-4a75-8d28-281c0b863a35">IX509ExtensionTemplateName</a>
 </td>
 <td>Defines a <b>TemplateName</b> extension that identifies the version 1 template to use when issuing or renewing a certificate.</td>
 </tr>
@@ -136,7 +136,7 @@ Extension ::= SEQUENCE
 
 
 
-Most of the extensions that can be created by using the preceding  interfaces are defined by the version 3 <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> syntax standard. To create the version 3 extensions for which Microsoft does not provide a custom object, you can use the <b>IX509Extension</b> interface. These extensions are identified in the following table.<table>
+Most of the extensions that can be created by using the preceding  interfaces are defined by the version 3 <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> syntax standard. To create the version 3 extensions for which Microsoft does not provide a custom object, you can use the <b>IX509Extension</b> interface. These extensions are identified in the following table.<table>
 <tr>
 <th>Extension/OID</th>
 <th>Description</th>
@@ -151,7 +151,7 @@ Most of the extensions that can be created by using the preceding  interfaces ar
 <td><b>CrlDistributionPoints</b>(XCN_OID_CRL_DIST_POINTS)
 
 </td>
-<td>Contains the URI of the base <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL).</td>
+<td>Contains the URI of the base <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).</td>
 </tr>
 <tr>
 <td><b>FreshestCRL</b>(XCN_OID_FRESHEST_CRL)
@@ -196,15 +196,15 @@ Most of the extensions that can be created by using the preceding  interfaces ar
 
 Finally, you can use the <b>IX509Extension</b> interface to define private extensions that contain information that is unique to a specific community.
 
-Extensions are added to the <b>Attributes</b> structure of a PKCS #10 request and to the <b>TaggedAttributes</b> structure of a CMC request. To add extensions to either request format, you must first add them to an <a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a> collection and use the collection to initialize an <a href="https://msdn.microsoft.com/en-us/library/Aa377090(v=VS.85).aspx">IX509AttributeExtensions</a> object. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Aa379077(v=VS.85).aspx">PKCS #10 Extensions</a> and the <a href="https://msdn.microsoft.com/en-us/library/Aa374900(v=VS.85).aspx">CMC Extensions</a> topics.
+Extensions are added to the <b>Attributes</b> structure of a PKCS #10 request and to the <b>TaggedAttributes</b> structure of a CMC request. To add extensions to either request format, you must first add them to an <a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a> collection and use the collection to initialize an <a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a> object. For more information, see the <a href="https://msdn.microsoft.com/26fa8476-a0ad-4114-a1e7-ed3d4fc9d30e">PKCS #10 Extensions</a> and the <a href="https://msdn.microsoft.com/3aa9175b-f889-4d5d-8eb2-a8a42f9fe750">CMC Extensions</a> topics.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Extension</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509Extension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Extension</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509Extension</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -217,10 +217,10 @@ The <b>IX509Extension</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378511(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/a01a371b-7dc2-4204-8029-269ac4a9c0d5">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initializes an <b>IX509Extension</b> object from an OID and a byte array that contains the <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Distinguished Encoding Rules</a> (DER) encoded extension.
+Initializes an <b>IX509Extension</b> object from an OID and a byte array that contains the <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) encoded extension.
 
 [WebEnabled]
 
@@ -236,7 +236,7 @@ Initializes an <b>IX509Extension</b> object from an OID and a byte array that co
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a>
+<a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a>
 
 
 </td>
@@ -250,7 +250,7 @@ Specifies and retrieves a Boolean value that identifies whether the certificate 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a>
+<a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a>
 
 
 </td>
@@ -262,7 +262,7 @@ Retrieves the OID for the certificate extension.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378524(v=VS.85).aspx">RawData</a>
+<a href="https://msdn.microsoft.com/779ad765-e767-4594-afdb-49fe79a8e64b">RawData</a>
 
 
 </td>
@@ -279,23 +279,23 @@ Retrieves a byte array that contains the extension value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374874(v=VS.85).aspx">Certificate Enrollment API</a>
+<a href="https://msdn.microsoft.com/ae6ab5fc-598e-43b8-a260-2cd94dc2648f">Certificate Enrollment API</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375929(v=VS.85).aspx">ICryptAttribute</a>
+<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377090(v=VS.85).aspx">IX509AttributeExtensions</a>
+<a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a>
+<a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a>
  
 
  

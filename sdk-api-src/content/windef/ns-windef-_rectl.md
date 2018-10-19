@@ -4,10 +4,10 @@ title: "_RECTL"
 author: windows-sdk-content
 description: The RECTL structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 old-location: display\rectl.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 709f8262-829e-4cda-bb0b-564307edfd24
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPRECTL, *PRECTL, LPRECTL, LPRECTL structure pointer [Display Devices], PRECTL, PRECTL structure pointer [Display Devices], RECTL, RECTL structure [Display Devices], _RECTL, display.rectl, grstrcts_9ae84b3b-7f9e-4296-a6da-4565cd170470.xml, windef/LPRECTL, windef/PRECTL, windef/RECTL"
 ms.prod: windows
 ms.technology: windows-sdk

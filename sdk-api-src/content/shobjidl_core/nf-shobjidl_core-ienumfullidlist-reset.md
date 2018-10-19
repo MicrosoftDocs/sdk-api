@@ -7,7 +7,7 @@ old-location: shell\IEnumFullIDList_Reset.htm
 tech.root: shell
 ms.assetid: 9682cfc4-544b-43bd-bd57-edbce50dce75
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Reset method, IEnumFullIDList.Reset, IEnumFullIDList::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Reset, shell.IEnumFullIDList_Reset, shobjidl_core/IEnumFullIDList::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

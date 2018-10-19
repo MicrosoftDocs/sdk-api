@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_GetPropertyDescriptionListFromString.ht
 tech.root: properties
 ms.assetid: 73e61bf0-32d0-4c2c-bf2e-b28ea00cbfd3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: GetPropertyDescriptionListFromString, GetPropertyDescriptionListFromString method [Windows Properties], GetPropertyDescriptionListFromString method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionListFromString method, IPropertySystem.GetPropertyDescriptionListFromString, IPropertySystem::GetPropertyDescriptionListFromString, properties.IPropertySystem_GetPropertyDescriptionListFromString, propsys/IPropertySystem::GetPropertyDescriptionListFromString, shell.IPropertySystem_GetPropertyDescriptionListFromString, shell_IPropertySystem_GetPropertyDescriptionListFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface pointer.
+The address of an <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface pointer.
 
 
 ## -returns
@@ -126,7 +126,7 @@ Indicates <i>ppv</i> is <b>NULL</b>.
 
 The property description list string ("proplist") syntax consists of a sequence of canonical property names, with flags associated with each property name. The string starts with "prop:". The syntax looks like this: <code>prop:[flags]propertyname[endflags];</code>
 
-The flags are optional and can be any of those below. Note: These flags translate to the <a href="https://msdn.microsoft.com/en-us/library/Bb762528(v=VS.85).aspx">PROPDESC_VIEW_FLAGS</a> enum.
+The flags are optional and can be any of those below. Note: These flags translate to the <a href="shell.PROPDESC_VIEW_FLAGS">PROPDESC_VIEW_FLAGS</a> enum.
 
 <table class="clsStd">
 <tr>
@@ -227,7 +227,7 @@ The endflags are also optional and can be the following:
 It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, eliminating the possibility of a coding error.
 
 For more information about property schemas, see 
-            <a href="https://msdn.microsoft.com/library/Cc144135(v=VS.85).aspx">Property Schemas</a>.
+            <a href="shell.Building_Property_Handlers_Property_Schemas">Property Schemas</a>.
 
 
 
@@ -237,7 +237,7 @@ For more information about property schemas, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

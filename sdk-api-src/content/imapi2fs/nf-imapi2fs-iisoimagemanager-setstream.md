@@ -7,7 +7,7 @@ old-location: imapi\iisoimagemanager_setstream.htm
 tech.root: imapi
 ms.assetid: 3ee540aa-8ccc-40cb-afc8-b1790cabee6e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: IIsoImageManager interface [IMAPI],SetStream method, IIsoImageManager.SetStream, IIsoImageManager::SetStream, SetStream, SetStream method [IMAPI], SetStream method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_setstream, imapi2fs/IIsoImageManager::SetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

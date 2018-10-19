@@ -7,7 +7,7 @@ old-location: direct2d\id2d1contextinternal_createvertexbuffer.htm
 tech.root: direct2d
 ms.assetid: 8E59527F-B6CE-4E25-B7F7-2D03BC1ACAFD
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CreateVertexBuffer, CreateVertexBuffer method [Direct2D], CreateVertexBuffer method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateVertexBuffer method, ID2D1EffectContext.CreateVertexBuffer, ID2D1EffectContext::CreateVertexBuffer, d2d1effectauthor/ID2D1EffectContext::CreateVertexBuffer, direct2d.id2d1contextinternal_createvertexbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

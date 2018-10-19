@@ -4,10 +4,10 @@ title: XLATEOBJ_hGetColorTransform function
 author: windows-sdk-content
 description: The XLATEOBJ_hGetColorTransform function returns the color transform for the specified translation object.
 old-location: display\xlateobj_hgetcolortransform.htm
-tech.root: Display
+tech.root: display
 ms.assetid: dd109ae8-c368-4e8a-bf25-405ed96484e3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: XLATEOBJ_hGetColorTransform, XLATEOBJ_hGetColorTransform function [Display Devices], display.xlateobj_hgetcolortransform, gdifncs_6df99fb8-f6ad-4fe8-a140-c004700b9d33.xml, winddi/XLATEOBJ_hGetColorTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

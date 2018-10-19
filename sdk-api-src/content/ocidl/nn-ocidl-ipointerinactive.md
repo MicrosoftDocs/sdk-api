@@ -59,7 +59,7 @@ However, an object, such as a control, needs to be able to control the mouse poi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPointerInactive</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPointerInactive</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPointerInactive</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPointerInactive</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

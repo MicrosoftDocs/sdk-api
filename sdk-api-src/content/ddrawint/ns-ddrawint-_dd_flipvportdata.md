@@ -4,10 +4,10 @@ title: "_DD_FLIPVPORTDATA"
 author: windows-sdk-content
 description: The DD_FLIPVPORTDATA structure contains the information necessary for the video port extensions (VPE) object to perform a flip.
 old-location: display\dd_flipvportdata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 1bc6dc12-1213-47d7-9e6f-2396a41cc6d0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA, DD_FLIPVPORTDATA structure [Display Devices], _DD_FLIPVPORTDATA, ddrawint/DD_FLIPVPORTDATA, ddstrcts_9af598a7-a7fc-40f2-a1dd-355964f60da9.xml, display.dd_flipvportdata"
 ms.prod: windows
 ms.technology: windows-sdk

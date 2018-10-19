@@ -7,7 +7,7 @@ old-location: base\queryunbiasedinterrupttimeprecise.htm
 tech.root: sysinfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices

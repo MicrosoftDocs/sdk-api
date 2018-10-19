@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effectimpl.htm
 tech.root: direct2d
 ms.assetid: 3D87A908-FC57-4AA9-A508-C402D8413363
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ID2D1EffectImpl, ID2D1EffectImpl interface [Direct2D], ID2D1EffectImpl interface [Direct2D],described, d2d1effectauthor/ID2D1EffectImpl, direct2d.id2d1effectimpl
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_unadvisesink.htm
 tech.root: TSF
 ms.assetid: 08c78d99-a6ff-4ac1-9357-77bbae70400f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],UnadviseSink method, ITextStoreACP2.UnadviseSink, ITextStoreACP2::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::UnadviseSink, tsf.itextstoreacp2_unadvisesink
 ms.prod: windows-hardware
 ms.technology: windows-devices

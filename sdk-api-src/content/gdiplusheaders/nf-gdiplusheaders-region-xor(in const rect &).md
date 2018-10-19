@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Region.Xor(IN const Rect &)
 title: Region::Xor(IN const Rect &)
 author: windows-sdk-content
-description: This topic lists the Xor methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
-old-location: gdiplus\_gdiplus_CLASS_Region_Xor_Methods.htm
+description: The Region::Xor method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
+old-location: gdiplus\_gdiplus_CLASS_Region_Xor_Rect_rect_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods\xor_60rectamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: Region.Xor, Region.Xor(IN const Rect &), Region::Xor, Region::Xor(IN const Rect &), Xor, Xor methods [GDI+], _gdiplus_CLASS_Region_Xor_Methods, gdiplus._gdiplus_CLASS_Region_Xor_Methods, gdiplusheaders/Xor
+ms.date: 10/16/2018
+ms.keywords: Region class [GDI+],Xor method, Region.Xor, Region.Xor(IN const Rect &), Region.Xor(const Rect&), Region::Xor, Region::Xor(IN const Rect &), Xor, Xor method [GDI+], Xor method [GDI+],Region class, _gdiplus_CLASS_Region_Xor_Rect_rect_, gdiplus._gdiplus_CLASS_Region_Xor_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusheaders.h
+ - Gdiplus.dll
 api_name:
  - Region.Xor
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Region::Xor(IN const Rect &)
@@ -50,51 +51,50 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Xor methods of the <a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.  
+The <b>Region::Xor</b> method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06a4b045-996c-4f99-8bce-ec42ea09c170">Xor(Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/06a4b045-996c-4f99-8bce-ec42ea09c170">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36b37252-3f26-4b2c-af60-eaedfbb8a954">Xor(RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/36b37252-3f26-4b2c-af60-eaedfbb8a954">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3c06c92-7c53-468d-8397-acb6ec42f4f0">Xor(Region*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f3c06c92-7c53-468d-8397-acb6ec42f4f0">Region::Xor</a> method updates this region to the nonintersecting portions of itself and another region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7255a65-aeff-4e7c-848b-67aecd7af864">Xor(GraphicsPath*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d7255a65-aeff-4e7c-848b-67aecd7af864">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified path's interior.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param rect [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
+
+Reference to a rectangle to use to update this region. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+
+
+
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+ 
+
+ 
 

@@ -7,7 +7,7 @@ old-location: base\getsystemdirectory.htm
 tech.root: sysinfo
 ms.assetid: 79f045b2-40d9-498a-b720-e729c92bf50b
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetSystemDirectory, GetSystemDirectory function, GetSystemDirectoryA, GetSystemDirectoryW, _win32_getsystemdirectory, base.getsystemdirectory, sysinfoapi/GetSystemDirectory, sysinfoapi/GetSystemDirectoryA, sysinfoapi/GetSystemDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

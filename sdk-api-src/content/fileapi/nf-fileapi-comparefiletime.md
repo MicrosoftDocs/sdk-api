@@ -7,7 +7,7 @@ old-location: base\comparefiletime.htm
 tech.root: sysinfo
 ms.assetid: 38161826-3a43-42a3-a49d-415b5f7451c5
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CompareFileTime, CompareFileTime function, _win32_comparefiletime, base.comparefiletime, fileapi/CompareFileTime, winbase/CompareFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

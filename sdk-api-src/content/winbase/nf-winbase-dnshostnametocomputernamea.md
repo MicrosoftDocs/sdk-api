@@ -7,7 +7,7 @@ old-location: base\dnshostnametocomputername.htm
 tech.root: sysinfo
 ms.assetid: d5646fe6-9112-42cd-ace9-00dd1b590ecb
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: DnsHostnameToComputerName, DnsHostnameToComputerName function, DnsHostnameToComputerNameA, DnsHostnameToComputerNameW, _win32_dnshostnametocomputername, base.dnshostnametocomputername, winbase/DnsHostnameToComputerName, winbase/DnsHostnameToComputerNameA, winbase/DnsHostnameToComputerNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

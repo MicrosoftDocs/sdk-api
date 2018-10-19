@@ -7,7 +7,7 @@ old-location: security\icenroll4_enablesmimecapabilities.htm
 tech.root: seccrypto
 ms.assetid: 057033ab-f2e0-4d60-b47f-73973f82f806
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CEnroll object [Security],EnableSMIMECapabilities property, EnableSMIMECapabilities property [Security], EnableSMIMECapabilities property [Security],CEnroll object, EnableSMIMECapabilities property [Security],ICEnroll3 interface, EnableSMIMECapabilities property [Security],ICEnroll4 interface, ICEnroll3 interface [Security],EnableSMIMECapabilities property, ICEnroll3.EnableSMIMECapabilities, ICEnroll3.get_EnableSMIMECapabilities, ICEnroll3::get_EnableSMIMECapabilities, ICEnroll3::put_EnableSMIMECapabilities, ICEnroll4 interface [Security],EnableSMIMECapabilities property, ICEnroll4.EnableSMIMECapabilities, ICEnroll4::EnableSMIMECapabilities, ICEnroll4::get_EnableSMIMECapabilities, ICEnroll4::put_EnableSMIMECapabilities, get_EnableSMIMECapabilities, security.icenroll4_enablesmimecapabilities, xenroll/ICEnroll3::EnableSMIMECapabilities, xenroll/ICEnroll3::get_EnableSMIMECapabilities, xenroll/ICEnroll3::put_EnableSMIMECapabilities, xenroll/ICEnroll4::EnableSMIMECapabilities, xenroll/ICEnroll4::get_EnableSMIMECapabilities, xenroll/ICEnroll4::put_EnableSMIMECapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

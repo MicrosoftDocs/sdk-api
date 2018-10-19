@@ -7,7 +7,7 @@ old-location: shell\IFileViewerSite_GetPinnedWindow.htm
 tech.root: shell
 ms.assetid: ef5b4668-1e74-42c2-903e-8d4cf5e2f74e
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetPinnedWindow, GetPinnedWindow method [Windows Shell], GetPinnedWindow method [Windows Shell],IFileViewerSite interface, IFileViewerSite interface [Windows Shell],GetPinnedWindow method, IFileViewerSite.GetPinnedWindow, IFileViewerSite::GetPinnedWindow, _win32_IFileViewerSite_GetPinnedWindow, shell.IFileViewerSite_GetPinnedWindow, shlobj/IFileViewerSite::GetPinnedWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

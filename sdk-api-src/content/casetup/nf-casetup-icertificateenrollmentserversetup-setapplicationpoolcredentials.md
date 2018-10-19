@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentserversetup_setapplicationpoolcrede
 tech.root: seccrypto
 ms.assetid: E85DA115-C705-44B8-B4D4-E862634CDC41
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetApplicationPoolCredentials method, ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials, ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, SetApplicationPoolCredentials, SetApplicationPoolCredentials method [Security], SetApplicationPoolCredentials method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, security.icertificateenrollmentserversetup_setapplicationpoolcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,9 +95,9 @@ The <i>bstrUsername</i> and <i>bstrPassword</i> arguments cannot be <b>NULL</b> 
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a> object has not been initialized.
+The <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> object has not been initialized.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
+The <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">Er
 
 
 
-The <b>SetApplicationPoolCredentials</b> method determines whether the user credentials are valid and whether the account is a member of the IIS_IUSRS group. If an error is encountered, the <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">ErrorString</a> property can be set to any of the following:<ul>
+The <b>SetApplicationPoolCredentials</b> method determines whether the user credentials are valid and whether the account is a member of the IIS_IUSRS group. If an error is encountered, the <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property can be set to any of the following:<ul>
 <li>"Setup is unable to obtain security information for the account."</li>
 <li>"Setup is unable to check the membership of the account."</li>
 <li>"The account is not a member of the local machine's IIS_IUSRS group."</li>
@@ -128,7 +128,7 @@ The <b>SetApplicationPoolCredentials</b> method determines whether the user cred
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a>
+<a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a>
  
 
  

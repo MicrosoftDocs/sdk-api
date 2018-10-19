@@ -7,7 +7,7 @@ old-location: security\crypt_password_credentials.htm
 tech.root: seccrypto
 ms.assetid: 21461344-1080-4603-bda1-a92dfda68c15
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*PCRYPT_PASSWORD_CREDENTIALSA, CRYPT_PASSWORD_CREDENTIALS, CRYPT_PASSWORD_CREDENTIALS structure [Security], CRYPT_PASSWORD_CREDENTIALSA, CRYPT_PASSWORD_CREDENTIALSW, PCRYPT_PASSWORD_CREDENTIALS, PCRYPT_PASSWORD_CREDENTIALS structure pointer [Security], _CRYPT_PASSWORD_CREDENTIALSA, security.crypt_password_credentials, wincrypt/CRYPT_PASSWORD_CREDENTIALS, wincrypt/CRYPT_PASSWORD_CREDENTIALSA, wincrypt/CRYPT_PASSWORD_CREDENTIALSW, wincrypt/PCRYPT_PASSWORD_CREDENTIALS"
 ms.prod: windows
 ms.technology: windows-sdk

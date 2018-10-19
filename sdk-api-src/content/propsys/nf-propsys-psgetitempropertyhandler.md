@@ -7,7 +7,7 @@ old-location: properties\PSGetItemPropertyHandler.htm
 tech.root: properties
 ms.assetid: 7b7fd260-c863-41f7-8594-4ee435090228
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Type: <b>BOOL</b>
 
 Type: <b>REFIID</b>
 
-Reference to the IID of the interface the handler object should return. This should be <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
+Reference to the IID of the interface the handler object should return. This should be <a href="shell.IPropertyStore">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
 
 
 ### -param ppv [out]
@@ -107,34 +107,38 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-This function is supported in Windows XP and Windows Vista. For applications supported only on Windows Vista or later, it is recommended that you use <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> instead of <a href="https://msdn.microsoft.com/en-us/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a>. That method provides a richer set of properties in the property store that is returned.
+This function is supported in Windows XP and Windows Vista. For applications supported only on Windows Vista or later, it is recommended that you use <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> instead of <a href="shell.PSGetItemPropertyHandler">PSGetItemPropertyHandler</a>. That method provides a richer set of properties in the property store that is returned.
 
 This function is approximately equivalent to passing the GPS_HANDLERPROPERTIESONLY flag to <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a>.
 
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://msdn.microsoft.com/en-us/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a>. COM must remain initialized for the lifetime of this object.
+You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="shell.PSGetItemPropertyHandler">PSGetItemPropertyHandler</a>. COM must remain initialized for the lifetime of this object.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a> to obtain a property handler for an item.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetItemPropertyHandler">PSGetItemPropertyHandler</a> to obtain a property handler for an item.
 
-
-```cpp
-// IShellItem *psi;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IShellItem *psi;
 // Assume variable psi is valid and initialized.
 IPropertyStore *pStore;
 
-HRESULT hr = PSGetItemPropertyHandler(psi, FALSE, IID_PPV_ARGS(&pStore));
+HRESULT hr = PSGetItemPropertyHandler(psi, FALSE, IID_PPV_ARGS(&amp;pStore));
 
 if (SUCCEEDED(hr))
 {
     // pStore is now valid and contains properties exposed through the 
     // property handler for the item.
  
-    pStore->Release();
-}
-```
-
-
+    pStore-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

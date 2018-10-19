@@ -7,7 +7,7 @@ old-location: shell\IDesktopWallpaper_GetPosition.htm
 tech.root: shell
 ms.assetid: 28D057DD-63CF-4078-9E0C-7DB61E1683EF
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: GetPosition, GetPosition method [Windows Shell], GetPosition method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetPosition method, IDesktopWallpaper.GetPosition, IDesktopWallpaper::GetPosition, shell.IDesktopWallpaper_GetPosition, shobjidl_core/IDesktopWallpaper::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

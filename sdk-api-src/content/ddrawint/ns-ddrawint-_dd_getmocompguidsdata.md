@@ -4,10 +4,10 @@ title: "_DD_GETMOCOMPGUIDSDATA"
 author: windows-sdk-content
 description: The DD_GETMOCOMPGUIDSDATA structure contains the motion compensation GUID information.
 old-location: display\dd_getmocompguidsdata.htm
-tech.root: Display
+tech.root: display
 ms.assetid: d1507771-c2bc-4d10-a49e-57a3b60ac604
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PDD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA structure [Display Devices], _DD_GETMOCOMPGUIDSDATA, ddrawint/DD_GETMOCOMPGUIDSDATA, ddstrcts_fb041d18-05e9-4ef4-bb69-6dedf60bec78.xml, display.dd_getmocompguidsdata"
 ms.prod: windows
 ms.technology: windows-sdk

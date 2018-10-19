@@ -7,7 +7,7 @@ old-location: tsf\itfkeyeventsink_ontestkeydown.htm
 tech.root: TSF
 ms.assetid: 3d8056ef-c012-4989-91ce-65ae8cd39404
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnTestKeyDown method, ITfKeyEventSink.OnTestKeyDown, ITfKeyEventSink::OnTestKeyDown, OnTestKeyDown, OnTestKeyDown method [Text Services Framework], OnTestKeyDown method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_ontestkeydown_ref, msctf/ITfKeyEventSink::OnTestKeyDown, tsf.itfkeyeventsink_ontestkeydown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,12 +64,12 @@ Pointer to the input context that receives the key event.
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keydown">WM_KEYDOWN</a>.
 
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keydown">WM_KEYDOWN</a>.
 
 
 ### -param pfEaten [out]
@@ -114,7 +114,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>
+<a href="_win32_wm_keydown">WM_KEYDOWN</a>
  
 
  

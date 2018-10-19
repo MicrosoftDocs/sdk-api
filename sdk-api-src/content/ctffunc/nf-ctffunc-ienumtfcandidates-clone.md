@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcandidates_clone.htm
 tech.root: TSF
 ms.assetid: 7e7fc6d9-69eb-4457-be28-2b28b9eeeabb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfCandidates interface, IEnumTfCandidates interface [Text Services Framework],Clone method, IEnumTfCandidates.Clone, IEnumTfCandidates::Clone, _tsf_ienumtfcandidates_clone_ref, ctffunc/IEnumTfCandidates::Clone, tsf.ienumtfcandidates_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538125(v=VS.85).aspx">IEnumTfCandidates</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="https://msdn.microsoft.com/4daef7e9-e5ab-4eb8-acb6-a475b84d4de6">IEnumTfCandidates</a> interface pointer that receives the new enumerator.
 
 
 ## -returns

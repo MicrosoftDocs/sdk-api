@@ -4,10 +4,10 @@ title: "_VIDEOPARAMETERS"
 author: windows-sdk-content
 description: The video miniport driver receives a pointer to a VIDEOPARAMETERS structure in the InputBuffer member of a VIDEO_REQUEST_PACKET when the IOCTL request is IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS.
 old-location: display\videoparameters.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 1f889c5b-2a9a-468e-8612-a7c5359f92d4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPVIDEOPARAMETERS, *PVIDEOPARAMETERS, LPVIDEOPARAMETERS, LPVIDEOPARAMETERS structure pointer [Display Devices], PVIDEOPARAMETERS, PVIDEOPARAMETERS structure pointer [Display Devices], VIDEOPARAMETERS, VIDEOPARAMETERS structure [Display Devices], Video_Structs_58a5b287-2296-4c62-be8e-33147cfe0167.xml, _VIDEOPARAMETERS, display.videoparameters, tvout/LPVIDEOPARAMETERS, tvout/PVIDEOPARAMETERS, tvout/VIDEOPARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

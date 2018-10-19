@@ -7,8 +7,8 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateClip_REAL_dx_REAL_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicstranslateclipmethods\translateclip_63realdx_realdy.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: Graphics class [GDI+],TranslateClip method, Graphics.TranslateClip, Graphics.TranslateClip(IN REAL,IN REAL), Graphics.TranslateClip(REAL,REAL), Graphics::TranslateClip, Graphics::TranslateClip(IN REAL,IN REAL), TranslateClip, TranslateClip method [GDI+], TranslateClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_TranslateClip_REAL_dx_REAL_dy_, gdiplus._gdiplus_CLASS_Graphics_TranslateClip_REAL_dx_REAL_dy_
+ms.date: 10/16/2018
+ms.keywords: Graphics class [GDI+],TranslateClip method, Graphics.TranslateClip, Graphics.TranslateClip(IN REAL,IN REAL), Graphics.TranslateClip(REAL,REAL), Graphics::TranslateClip, Graphics::TranslateClip(IN REAL,IN REAL), Graphics::TranslateClip,Graphics::TranslateClip(IN REAL,IN REAL), TranslateClip, TranslateClip method [GDI+], TranslateClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_TranslateClip_REAL_dx_REAL_dy_, gdiplus._gdiplus_CLASS_Graphics_TranslateClip_REAL_dx_REAL_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

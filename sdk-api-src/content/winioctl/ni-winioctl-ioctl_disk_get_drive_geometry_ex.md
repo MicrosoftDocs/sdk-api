@@ -51,9 +51,13 @@ req.redist:
 
 
 Retrieves extended information about the physical disk's geometry: type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL DeviceIoControl(
   (HANDLE) hDevice,                 // handle to volume
   IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, // dwIoControlCode
@@ -63,10 +67,10 @@ BOOL DeviceIoControl(
   (DWORD) nOutBufferSize,           // size of output buffer
   (LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

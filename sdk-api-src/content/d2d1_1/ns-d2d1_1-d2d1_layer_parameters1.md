@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_layer_parameters1.htm
 tech.root: direct2d
 ms.assetid: D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: D2D1_LAYER_PARAMETERS1, D2D1_LAYER_PARAMETERS1 structure [Direct2D], d2d1_1/D2D1_LAYER_PARAMETERS1, direct2d.d2d1_layer_parameters1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Contains the content bounds, mask information, opacity settings, and other optio
 
 ### -field contentBounds
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
 The content bounds of the layer. Content outside these bounds is not guaranteed to render.
 
@@ -74,14 +74,14 @@ The geometric mask specifies the area of the layer that is composited into the r
 
 ### -field maskAntialiasMode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368061(v=VS.85).aspx">D2D1_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE</a></b>
 
 A value that specifies the antialiasing mode for the geometricMask.  
 
 
 ### -field maskTransform
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 A value that specifies the transform that is applied to the geometric mask when composing the layer.
 
@@ -103,7 +103,7 @@ is mapped to the layer, and the alpha channel of each mapped brush pixel is mult
 
 ### -field layerOptions
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh997712(v=VS.85).aspx">D2D1_LAYER_OPTIONS1</a></b>
+Type: <b><a href="https://msdn.microsoft.com/13C9EDE7-A1D0-4359-8EF3-77FF763B9244">D2D1_LAYER_OPTIONS1</a></b>
 
 Additional options for the layer creation.
 
@@ -113,7 +113,7 @@ Additional options for the layer creation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756654(v=VS.85).aspx">Layers Overview</a>
+<a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>
  
 
  

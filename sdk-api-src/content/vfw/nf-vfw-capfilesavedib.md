@@ -7,7 +7,7 @@ old-location: multimedia\capfilesavedib.htm
 tech.root: Multimedia
 ms.assetid: bab1c97d-e84e-43ff-9b66-79b903a610eb
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "_win32_capFileSaveDIB, capFileSaveDIB, capFileSaveDIB macro [Windows Multimedia], multimedia.capfilesavedib, vfw/capFileSaveDIB"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: EngQueryPerformanceCounter function
 author: windows-sdk-content
 description: The EngQueryPerformanceCounter function queries the performance counter.
 old-location: display\engqueryperformancecounter.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 6f351bd7-586e-4fd0-ad20-779b18eaa4dc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngQueryPerformanceCounter, EngQueryPerformanceCounter function [Display Devices], display.engqueryperformancecounter, gdifncs_8a5d6431-cd14-42cd-bcd4-2d27342bc08a.xml, winddi/EngQueryPerformanceCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

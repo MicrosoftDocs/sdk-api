@@ -4,10 +4,10 @@ title: WNDOBJ_vSetConsumer function
 author: windows-sdk-content
 description: The WNDOBJ_vSetConsumer function sets a driver-defined value in the pvConsumer field of the specified WNDOBJ structure.
 old-location: display\wndobj_vsetconsumer.htm
-tech.root: Display
+tech.root: display
 ms.assetid: c7b550b8-1a3f-4d69-93d1-241044cb4bbd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: WNDOBJ_vSetConsumer, WNDOBJ_vSetConsumer function [Display Devices], display.wndobj_vsetconsumer, gdifncs_759188da-41cc-45c8-845f-80d23e60e88b.xml, winddi/WNDOBJ_vSetConsumer
 ms.prod: windows-hardware
 ms.technology: windows-devices

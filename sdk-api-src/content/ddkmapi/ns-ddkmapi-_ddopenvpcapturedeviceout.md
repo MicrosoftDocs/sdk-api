@@ -4,10 +4,10 @@ title: "_DDOPENVPCAPTUREDEVICEOUT"
 author: windows-sdk-content
 description: The DDOPENVPCAPTUREDEVICEOUT structure contains the video port extensions (VPE) capture handle.
 old-location: display\ddopenvpcapturedeviceout.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 5979ccd5-7c35-4088-96b3-15e4416d5471
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*LPDDOPENVPCAPTUREDEVICEOUT, DDOPENVPCAPTUREDEVICEOUT, DDOPENVPCAPTUREDEVICEOUT structure [Display Devices], LPDDOPENVPCAPTUREDEVICEOUT, LPDDOPENVPCAPTUREDEVICEOUT structure pointer [Display Devices], _DDOPENVPCAPTUREDEVICEOUT, ddkmapi/DDOPENVPCAPTUREDEVICEOUT, ddkmapi/LPDDOPENVPCAPTUREDEVICEOUT, ddstrcts_b477f183-6c80-47db-a9ee-5bcbe7162774.xml, display.ddopenvpcapturedeviceout"
 ms.prod: windows
 ms.technology: windows-sdk

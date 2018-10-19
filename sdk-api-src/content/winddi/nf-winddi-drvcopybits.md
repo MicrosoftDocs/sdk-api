@@ -4,10 +4,10 @@ title: DrvCopyBits function
 author: windows-sdk-content
 description: The DrvCopyBits function translates between device-managed raster surfaces and GDI standard-format bitmaps.
 old-location: display\drvcopybits.htm
-tech.root: Display
+tech.root: display
 ms.assetid: c2d42c7a-3d6e-416c-a194-2228cc1b0fd9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: DrvCopyBits, DrvCopyBits function [Display Devices], ddifncs_95bc17c2-b4ae-4883-8866-cd9dded1f30d.xml, display.drvcopybits, winddi/DrvCopyBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

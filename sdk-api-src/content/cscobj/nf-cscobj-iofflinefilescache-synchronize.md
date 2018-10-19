@@ -98,7 +98,7 @@ Flags to control the behavior of the entire sync operation. Behaviors such as sy
 Fill sparse files in the cache.  Setting this flag results in an enumeration of the local copies in the 
         cache. Any sparsely cached files that are found are filled so that they are no longer sparse. Sparsely cached 
         files are not available for offline use. For more information, see the 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb530567(v=VS.85).aspx">IOfflineFilesFileItem::IsSparse</a> 
+        <a href="https://msdn.microsoft.com/6f731b25-f4f0-4635-af00-dbd1ba4e5f11">IOfflineFilesFileItem::IsSparse</a> 
         method.
 
 
@@ -220,7 +220,7 @@ This flag is ignored if the <b>OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT</b> flag i
          <b>OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT</b> flag is set, this flag indicates that new files that exist only on the client will not be created on the server.
 
 If, rather than providing an implementation of 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb530623(v=VS.85).aspx">IOfflineFilesSyncConflictHandler</a>, you 
+       <a href="https://msdn.microsoft.com/f3d5ed0e-727d-43e1-9d29-2a0a71bb8a64">IOfflineFilesSyncConflictHandler</a>, you 
        want all sync conflicts to be resolved in a "keep local", "keep remote" or 
        "keep latest" manner, set one (and only one) of the following flag values. Note that these 
        flag values are ignored if the <i>pISyncConflictHandler</i> parameter is not <b>NULL</b>.
@@ -246,7 +246,7 @@ Keep the copy with the latest last-change time. This resolution is sometimes cal
 
 ### -param pISyncConflictHandler [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530623(v=VS.85).aspx">IOfflineFilesSyncConflictHandler</a> 
+An <a href="https://msdn.microsoft.com/f3d5ed0e-727d-43e1-9d29-2a0a71bb8a64">IOfflineFilesSyncConflictHandler</a> 
      interface pointer to a conflict handler implementation. If provided, the sync operation calls the conflict 
      handler to resolve sync conflicts as they are encountered during the operation.  The handler receives a code 
      describing the type of conflict then returns a code indicating if the conflict has been resolved or some other 
@@ -263,7 +263,7 @@ Interface to an event sink that will receive progress events during the operatio
 ### -param pSyncId [in]
 
 A unique ID applied to this sync operation.  This ID will be included with all published events 
-     (<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>) related to this operation. This 
+     (<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>) related to this operation. This 
      parameter is optional and can be <b>NULL</b>.
 
 
@@ -275,7 +275,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 Returns <code>HRESULT_FROM_WIN32(ERROR_CANCELLED)</code> if the operation is canceled.
 
-Monitor <a href="https://msdn.microsoft.com/en-us/library/Bb530637(v=VS.85).aspx">IOfflineFilesSyncProgress</a> events to 
+Monitor <a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a> events to 
        detect failures associated with individual files.
 
 
@@ -289,7 +289,7 @@ If the <i>bAsync</i> parameter is <b>TRUE</b>, the caller is required to provide
 
 If a sync operation is canceled while in progress, files that have been synchronized up to that point remain synchronized.
 
-If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single synchronization operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="https://msdn.microsoft.com/en-us/library/Bb530639(v=VS.85).aspx">IOfflineFilesSyncProgress::SyncItemResult</a> method to obtain the result for each processed file and directory.
+If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single synchronization operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="https://msdn.microsoft.com/2a93d52e-6b91-4d91-9372-5f0718621841">IOfflineFilesSyncProgress::SyncItemResult</a> method to obtain the result for each processed file and directory.
 
 <table>
 <tr>
@@ -299,46 +299,46 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530597(v=VS.85).aspx">Begin</a>
+<a href="https://msdn.microsoft.com/d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43">Begin</a>
 </td>
 <td>Called at the start of the operation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530637(v=VS.85).aspx">IOfflineFilesSyncProgress</a>
+<a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530638(v=VS.85).aspx">SyncItemBegin</a>
+<a href="https://msdn.microsoft.com/c1cdbc30-bcc9-4023-a3a2-070fb9958609">SyncItemBegin</a>
 </td>
 <td>Called at the start of processing for each file.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530637(v=VS.85).aspx">IOfflineFilesSyncProgress</a>
+<a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530639(v=VS.85).aspx">SyncItemResult</a>
+<a href="https://msdn.microsoft.com/2a93d52e-6b91-4d91-9372-5f0718621841">SyncItemResult</a>
 </td>
 <td>Called after each file is synchronized.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530599(v=VS.85).aspx">QueryAbort</a>
+<a href="https://msdn.microsoft.com/24b95898-0fe6-420b-83f2-ac77f493aeab">QueryAbort</a>
 </td>
 <td>Called periodically during the sync operation to detect a request for cancellation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530598(v=VS.85).aspx">End</a>
+<a href="https://msdn.microsoft.com/b3d09f2e-29d5-496f-a046-4ba067e642a6">End</a>
 </td>
 <td>Called at the end of the operation.</td>
 </tr>
@@ -346,9 +346,9 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
  
 
 If the calling code also listens for published sync events, the Sync ID may be specified through the 
-    <i>pSyncId</i> parameter.  The same ID value is transmitted through the <a href="https://msdn.microsoft.com/en-us/library/Bb530559(v=VS.85).aspx">SyncBegin</a>, 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb530564(v=VS.85).aspx">SyncFileResult</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb530563(v=VS.85).aspx">SyncEnd</a> published events 
-    (<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>) generated from this operation.
+    <i>pSyncId</i> parameter.  The same ID value is transmitted through the <a href="https://msdn.microsoft.com/ba09be0a-52bc-4715-9756-383954277a31">SyncBegin</a>, 
+    <a href="https://msdn.microsoft.com/3770e966-7481-449e-9b57-44a7329d26db">SyncFileResult</a>, and <a href="https://msdn.microsoft.com/2b4b32b9-7268-4f79-8eac-640a6c62b0c1">SyncEnd</a> published events 
+    (<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>) generated from this operation.
 
 
 
@@ -358,19 +358,19 @@ If the calling code also listens for published sync events, the Sync ID may be s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530522(v=VS.85).aspx">IOfflineFilesEvents2::BackgroundSyncBegin</a>
+<a href="https://msdn.microsoft.com/84b71228-904a-4042-8d13-422ae77f7ba5">IOfflineFilesEvents2::BackgroundSyncBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530524(v=VS.85).aspx">IOfflineFilesEvents2::BackgroundSyncEnd</a>
+<a href="https://msdn.microsoft.com/d41a2152-8100-47a7-a994-a0fe9fae4dc4">IOfflineFilesEvents2::BackgroundSyncEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530567(v=VS.85).aspx">IOfflineFilesFileItem::IsSparse</a>
+<a href="https://msdn.microsoft.com/6f731b25-f4f0-4635-af00-dbd1ba4e5f11">IOfflineFilesFileItem::IsSparse</a>
  
 
  

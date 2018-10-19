@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCache_SetValueAndState.htm
 tech.root: properties
 ms.assetid: 2f330b24-339f-420b-871f-6f2ac7bc578c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: IPropertyStoreCache interface [Windows Properties],SetValueAndState method, IPropertyStoreCache.SetValueAndState, IPropertyStoreCache::SetValueAndState, SetValueAndState, SetValueAndState method [Windows Properties], SetValueAndState method [Windows Properties],IPropertyStoreCache interface, properties.IPropertyStoreCache_SetValueAndState, propsys/IPropertyStoreCache::SetValueAndState, shell.IPropertyStoreCache_SetValueAndState, shell_IPropertyStoreCache_SetValueAndState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Sets value and state data for a property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure identifying the property.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure identifying the property.
 
 
 ### -param ppropvar [in]
@@ -81,9 +81,9 @@ TBD
 
 #### - pstate [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a></b>
+Type: <b><a href="shell.PSC_STATE">PSC_STATE</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a> enumeration declaring the state of the property.
+A value from the <a href="shell.PSC_STATE">PSC_STATE</a> enumeration declaring the state of the property.
 
 
 ## -returns

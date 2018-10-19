@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods\contains_77x_y.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/16/2018
 ms.keywords: Contains, Contains method [GDI+], Contains method [GDI+],RectF class, RectF class [GDI+],Contains method, RectF.Contains, RectF.Contains(IN REAL,IN REAL), RectF.Contains(REAL,REAL), RectF::Contains, RectF::Contains(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Contains_x_y_, gdiplus._gdiplus_CLASS_RectF_Contains_x_y_
 ms.prod: windows-hardware
 ms.technology: windows-devices

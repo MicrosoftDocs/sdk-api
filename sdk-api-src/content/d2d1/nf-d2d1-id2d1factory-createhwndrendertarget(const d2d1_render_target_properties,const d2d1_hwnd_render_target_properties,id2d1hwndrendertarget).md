@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateHwndRenderTarget_ptr_D2D1_RENDER_TARGE
 tech.root: direct2d
 ms.assetid: 1e522cc1-7527-458d-8124-0f0a97089fc6
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget method [Direct2D], CreateHwndRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateHwndRenderTarget method, ID2D1Factory.CreateHwndRenderTarget, ID2D1Factory.CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES,const D2D1_HWND_RENDER_TARGET_PROPERTIES,ID2D1HwndRenderTarget), ID2D1Factory::CreateHwndRenderTarget, ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES,const D2D1_HWND_RENDER_TARGET_PROPERTIES,ID2D1HwndRenderTarget), d2d1/ID2D1Factory::CreateHwndRenderTarget, direct2d.ID2D1Factory_CreateHwndRenderTarget_ptr_D2D1_RENDER_TARGET_PROPERTIES_ptr_D2D1_HWND_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1HwndRenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_STROBJ"
 author: windows-sdk-content
 description: The STROBJ class, or text string object, contains an enumeration of glyph handles and positions for the device driver.
 old-location: display\strobj.htm
-tech.root: Display
+tech.root: display
 ms.assetid: efe53cb8-39b9-4931-bac2-9c61efd9d457
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: STROBJ, STROBJ structure [Display Devices], _STROBJ, display.strobj, grstrcts_fcaba370-f9bd-40e8-819a-c5277d6d89b6.xml, winddi/STROBJ
 ms.prod: windows
 ms.technology: windows-sdk

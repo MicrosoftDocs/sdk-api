@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromUInt16.htm
 tech.root: properties
 ms.assetid: 2f4b0c6b-2d68-4ea6-a7fb-7884071dcfbe
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: InitPropVariantFromUInt16, InitPropVariantFromUInt16 function [Windows Properties], properties.InitPropVariantFromUInt16, propvarutil/InitPropVariantFromUInt16, shell.InitPropVariantFromUInt16, shell_InitPropVariantFromUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,22 +94,26 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762309(v=VS.85).aspx">InitPropVariantFromUInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt16">InitPropVariantFromUInt16</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
 
-```cpp
-PROPVARIANT propvar;
-
-HRESULT hr = InitPropVariantFromUInt16(5, &propvar);
+HRESULT hr = InitPropVariantFromUInt16(5, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_UI2.
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -118,15 +122,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762338(v=VS.85).aspx">InitVariantFromUInt16</a>
+<a href="shell.InitVariantFromUInt16">InitVariantFromUInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776565(v=VS.85).aspx">PropVariantToUInt16</a>
+<a href="shell.PropVariantToUInt16">PropVariantToUInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776568(v=VS.85).aspx">PropVariantToUInt16WithDefault</a>
+<a href="shell.PropVariantToUInt16WithDefault">PropVariantToUInt16WithDefault</a>
  
 
  

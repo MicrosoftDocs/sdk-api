@@ -4,10 +4,10 @@ title: "_GLYPHBITS"
 author: windows-sdk-content
 description: The GLYPHBITS structure is used to define a glyph bitmap.
 old-location: display\glyphbits.htm
-tech.root: Display
+tech.root: display
 ms.assetid: d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: GLYPHBITS, GLYPHBITS structure [Display Devices], _GLYPHBITS, display.glyphbits, grstrcts_597a08d2-215a-4bef-8f5b-a90ded3165fc.xml, winddi/GLYPHBITS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IAppVisibilityEvents_LauncherVisibilityChange.htm
 tech.root: shell
 ms.assetid: 26789ef4-015a-4dfd-8265-e27b50c565c4
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: IAppVisibilityEvents interface [Windows Shell],LauncherVisibilityChange method, IAppVisibilityEvents.LauncherVisibilityChange, IAppVisibilityEvents::LauncherVisibilityChange, LauncherVisibilityChange, LauncherVisibilityChange method [Windows Shell], LauncherVisibilityChange method [Windows Shell],IAppVisibilityEvents interface, shell.IAppVisibilityEvents_LauncherVisibilityChange, shobjidl_core/IAppVisibilityEvents::LauncherVisibilityChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

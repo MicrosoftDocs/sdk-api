@@ -132,7 +132,7 @@ Ascertains whether TCP is enabled.
 <a href="https://msdn.microsoft.com/81c6536c-303c-4eac-a75a-54e9df29e299">GetEnableUDP</a>
 </td>
 <td align="left" width="63%">
-Ascertains whether <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> is enabled.
+Ascertains whether <a href="wmformat_glossary.htm">UDP</a> is enabled.
 
 </td>
 </tr>

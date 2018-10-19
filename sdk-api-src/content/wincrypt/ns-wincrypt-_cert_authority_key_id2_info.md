@@ -7,7 +7,7 @@ old-location: security\cert_authority_key_id2_info.htm
 tech.root: seccrypto
 ms.assetid: 0a5005a5-71be-4f4d-8de8-c7452402b646
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: "*PCERT_AUTHORITY_KEY_ID2_INFO, CERT_AUTHORITY_KEY_ID2_INFO, CERT_AUTHORITY_KEY_ID2_INFO structure [Security], PCERT_AUTHORITY_KEY_ID2_INFO, PCERT_AUTHORITY_KEY_ID2_INFO structure pointer [Security], _CERT_AUTHORITY_KEY_ID2_INFO, _crypto2_cert_authority_key_id2_info, security.cert_authority_key_id2_info, wincrypt/CERT_AUTHORITY_KEY_ID2_INFO, wincrypt/PCERT_AUTHORITY_KEY_ID2_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

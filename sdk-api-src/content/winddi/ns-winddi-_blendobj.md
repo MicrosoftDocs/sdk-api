@@ -4,10 +4,10 @@ title: "_BLENDOBJ"
 author: windows-sdk-content
 description: The BLENDOBJ structure controls blending by specifying the blending functions for source and destination bitmaps.
 old-location: display\blendobj.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 1bbe5cb6-8722-45bb-ae43-01bc4460f08d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: "*PBLENDOBJ, BLENDOBJ, BLENDOBJ structure [Display Devices], PBLENDOBJ, PBLENDOBJ structure pointer [Display Devices], _BLENDOBJ, display.blendobj, grstrcts_0d4470ae-12b0-41f4-8209-49b346e4829d.xml, winddi/BLENDOBJ, winddi/PBLENDOBJ"
 ms.prod: windows
 ms.technology: windows-sdk

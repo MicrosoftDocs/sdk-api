@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RectangleGeometry.htm
 tech.root: direct2d
 ms.assetid: bb5f65ba-34d4-418b-863c-2431046bce8e
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ID2D1RectangleGeometry, ID2D1RectangleGeometry interface [Direct2D], ID2D1RectangleGeometry interface [Direct2D],described, d2d1/ID2D1RectangleGeometry, direct2d.ID2D1RectangleGeometry
 ms.prod: windows
 ms.technology: windows-sdk

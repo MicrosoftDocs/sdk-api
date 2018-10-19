@@ -7,7 +7,7 @@ old-location: shell\ConnectToConnectionPoint.htm
 tech.root: shell
 ms.assetid: f0c6051e-cced-4f38-a35d-d4c184d39084
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: ConnectToConnectionPoint, ConnectToConnectionPoint function [Windows Shell], _win32_ConnectToConnectionPoint, shell.ConnectToConnectionPoint, shlwapi/ConnectToConnectionPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

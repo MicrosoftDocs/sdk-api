@@ -4,10 +4,10 @@ title: GetDisplayConfigBufferSizes function
 author: windows-sdk-content
 description: The GetDisplayConfigBufferSizes function retrieves the size of the buffers that are required to call the QueryDisplayConfig function.
 old-location: display\getdisplayconfigbuffersizes.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 5ec7f521-28b5-4922-a3fc-aa4433de69e0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayConfigBufferSizes, GetDisplayConfigBufferSizes function [Display Devices], display.getdisplayconfigbuffersizes, winuser/GetDisplayConfigBufferSizes
 ms.prod: windows-hardware
 ms.technology: windows-devices

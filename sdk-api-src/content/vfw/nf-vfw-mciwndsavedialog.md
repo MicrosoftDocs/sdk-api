@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsavedialog.htm
 tech.root: Multimedia
 ms.assetid: 3ab1121f-5122-424b-a1df-ceeb57751dac
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

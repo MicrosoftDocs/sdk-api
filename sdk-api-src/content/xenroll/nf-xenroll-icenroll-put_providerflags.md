@@ -7,7 +7,7 @@ old-location: security\icenroll4_providerflags.htm
 tech.root: seccrypto
 ms.assetid: ddf92921-368f-4769-b2c1-b9d6a94b0fcb
 ms.author: windowssdkdev
-ms.date: 10/17/2018
+ms.date: 10/18/2018
 ms.keywords: CEnroll object [Security],ProviderFlags property, ICEnroll interface [Security],ProviderFlags property, ICEnroll.ProviderFlags, ICEnroll.put_ProviderFlags, ICEnroll2 interface [Security],ProviderFlags property, ICEnroll2.ProviderFlags, ICEnroll2::get_ProviderFlags, ICEnroll2::put_ProviderFlags, ICEnroll3 interface [Security],ProviderFlags property, ICEnroll3.ProviderFlags, ICEnroll3::get_ProviderFlags, ICEnroll3::put_ProviderFlags, ICEnroll4 interface [Security],ProviderFlags property, ICEnroll4.ProviderFlags, ICEnroll4::ProviderFlags, ICEnroll4::get_ProviderFlags, ICEnroll4::put_ProviderFlags, ICEnroll::get_ProviderFlags, ICEnroll::put_ProviderFlags, ProviderFlags property [Security], ProviderFlags property [Security],CEnroll object, ProviderFlags property [Security],ICEnroll interface, ProviderFlags property [Security],ICEnroll2 interface, ProviderFlags property [Security],ICEnroll3 interface, ProviderFlags property [Security],ICEnroll4 interface, put_ProviderFlags, security.icenroll4_providerflags, xenroll/ICEnroll2::ProviderFlags, xenroll/ICEnroll2::get_ProviderFlags, xenroll/ICEnroll2::put_ProviderFlags, xenroll/ICEnroll3::ProviderFlags, xenroll/ICEnroll3::get_ProviderFlags, xenroll/ICEnroll3::put_ProviderFlags, xenroll/ICEnroll4::ProviderFlags, xenroll/ICEnroll4::get_ProviderFlags, xenroll/ICEnroll4::put_ProviderFlags, xenroll/ICEnroll::ProviderFlags, xenroll/ICEnroll::get_ProviderFlags, xenroll/ICEnroll::put_ProviderFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

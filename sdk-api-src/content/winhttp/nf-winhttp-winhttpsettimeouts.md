@@ -180,9 +180,13 @@ A value of 0 or -1 sets a time-out to wait infinitely.  A value greater than 0 s
 This example shows how to set new time-out values using 
 <b>WinHttpSetTimeouts</b>.
 
-
-```cpp
-    // Use WinHttpOpen to obtain an HINTERNET handle.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // Use WinHttpOpen to obtain an HINTERNET handle.
     HINTERNET hSession = WinHttpOpen(L"A WinHTTP Example Program/1.0", 
                                     WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,
                                     WINHTTP_NO_PROXY_NAME, 
@@ -202,10 +206,10 @@ This example shows how to set new time-out values using
     {
         printf("Error %u in WinHttpOpen.\n", GetLastError());
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

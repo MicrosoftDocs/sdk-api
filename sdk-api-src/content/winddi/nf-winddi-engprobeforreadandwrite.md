@@ -4,10 +4,10 @@ title: EngProbeForReadAndWrite function
 author: windows-sdk-content
 description: The EngProbeForReadAndWrite function probes a structure for read and write accessibility.
 old-location: display\engprobeforreadandwrite.htm
-tech.root: Display
+tech.root: display
 ms.assetid: 1b618bee-7069-410b-9a3d-65ee4b25874c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/18/2018
 ms.keywords: EngProbeForReadAndWrite, EngProbeForReadAndWrite function [Display Devices], display.engprobeforreadandwrite, gdifncs_a27f9e58-49c2-4c85-9f84-3aadc8776752.xml, winddi/EngProbeForReadAndWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

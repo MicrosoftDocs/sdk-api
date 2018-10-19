@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteStream.htm
 tech.root: properties
 ms.assetid: 48C3E7F7-ED7E-4797-A66A-A8529BF2A79C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/18/2018
 ms.keywords: PSPropertyBag_WriteStream, PSPropertyBag_WriteStream function [Windows Properties], properties.PSPropertyBag_WriteStream, propsys/PSPropertyBag_WriteStream, shell.PSPropertyBag_WriteStream, shell_PSPropertyBag_WriteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Writes a data stream to a property in a property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -104,7 +104,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845063(v=VS.85).aspx">PSPropertyBag_ReadStream</a>
+<a href="shell.PSPropertyBag_ReadStream">PSPropertyBag_ReadStream</a>
  
 
  
