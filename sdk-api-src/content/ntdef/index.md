@@ -2,7 +2,7 @@
 UID: NA:ntdef
 ms.assetid: 2b32bfac-ffb7-339b-bf8b-ff83be6543e4
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

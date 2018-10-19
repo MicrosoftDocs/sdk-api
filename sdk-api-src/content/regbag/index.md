@@ -2,7 +2,7 @@
 UID: NA:regbag
 ms.assetid: 58224248-7176-32f2-ae6f-57666dad29aa
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:dssec
 ms.assetid: 5f549b69-b5f5-3588-bcc6-2cf4c79520f1
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:wpdauto
 ms.assetid: 1534bd35-a9fd-3d4f-9602-4f8af31bb141
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

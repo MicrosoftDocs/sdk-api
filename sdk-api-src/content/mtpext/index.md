@@ -2,7 +2,7 @@
 UID: NA:mtpext
 ms.assetid: 09ea83bf-1f92-314b-b3d6-6211f5c56af1
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

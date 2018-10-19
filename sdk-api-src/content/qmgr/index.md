@@ -2,7 +2,7 @@
 UID: NA:qmgr
 ms.assetid: d0fc121e-b38a-3c8a-9aa0-8f0655d0f82f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

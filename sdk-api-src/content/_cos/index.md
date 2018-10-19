@@ -2,7 +2,7 @@
 UID: TP:cos
 ms.assetid: fa1a2831-adb6-3c65-849b-78572fe3c364
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

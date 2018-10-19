@@ -2,7 +2,7 @@
 UID: TP:rstmgr
 ms.assetid: 88c95c3a-2373-3cd7-9ebf-098346488dff
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

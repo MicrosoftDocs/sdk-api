@@ -2,7 +2,7 @@
 UID: NA:srrestoreptapi
 ms.assetid: 0b824675-9c58-370f-8e3e-03c2bb18bc20
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

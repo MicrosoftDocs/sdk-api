@@ -2,7 +2,7 @@
 UID: NA:interlockedapi
 ms.assetid: fe90fd84-157f-3510-a20e-c2dbc58d69c2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
