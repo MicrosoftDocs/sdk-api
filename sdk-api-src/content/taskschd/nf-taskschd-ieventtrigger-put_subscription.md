@@ -74,20 +74,16 @@ For more information about writing a query string for certain events, see <a hre
 The following query string defines a subscription to all level 2 events in the System channel.
 
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>"&lt;QueryList&gt;
-    &lt;Query Id='1'&gt;
-        &lt;Select Path='System'&gt;*[System/Level=2]&lt;/Select&gt;
-    &lt;/Query&gt;
-&lt;/QueryList&gt;"</pre>
-</td>
-</tr>
-</table></span></div>
+
+```xml
+"<QueryList>
+    <Query Id='1'>
+        <Select Path='System'>*[System/Level=2]</Select>
+    </Query>
+</QueryList>"
+```
+
+
 
 
 

@@ -118,13 +118,9 @@ The following example creates an
 						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object based on a JPEG file. The code calls the <b>Image::GetThumbnailImage</b> method of that 
 						<b>Image</b> object and then displays the thumbnail image along with the main image.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetThumbnail(HDC hdc)
+
+```cpp
+VOID Example_GetThumbnail(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -133,20 +129,20 @@ The following example creates an
    Image* pThumbnail = image.GetThumbnailImage(40, 40, NULL, NULL);
 
    // Draw the original and the thumbnail images.
-   graphics.DrawImage(&amp;image, 10, 10, image.GetWidth(), image.GetHeight());
+   graphics.DrawImage(&image, 10, 10, image.GetWidth(), image.GetHeight());
    graphics.DrawImage(
       pThumbnail, 
       150, 
       10, 
-      pThumbnail-&gt;GetWidth(), 
-      pThumbnail-&gt;GetHeight());
+      pThumbnail->GetWidth(), 
+      pThumbnail->GetHeight());
 
    delete pThumbnail;
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

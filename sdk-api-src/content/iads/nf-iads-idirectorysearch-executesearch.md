@@ -113,21 +113,17 @@ When using the special value of 0xFFFFFFFF for <i>dwNumberAttributes</i>, LDAP r
 
 The following C++ code example shows how to invoke  <b>IDirectorySearch::ExecuteSearch</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPWSTR pszAttr[] = { L"ADsPath", L"Name", L"samAccountName" };
+
+```cpp
+LPWSTR pszAttr[] = { L"ADsPath", L"Name", L"samAccountName" };
 ADS_SEARCH_HANDLE hSearch;
 DWORD dwCount= sizeof(pszAttr)/sizeof(LPWSTR);
  
 // Search for users with a last name that begins with "h".
-hr = m_pSearch-&gt;ExecuteSearch(L"(&amp;(objectClass=user)(sn=h*))", pszAttr, dwCount, &amp;hSearch );</pre>
-</td>
-</tr>
-</table></span></div>
+hr = m_pSearch->ExecuteSearch(L"(&(objectClass=user)(sn=h*))", pszAttr, dwCount, &hSearch );
+```
+
+
 
 
 

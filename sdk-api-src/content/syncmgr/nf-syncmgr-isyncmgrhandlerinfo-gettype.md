@@ -89,19 +89,15 @@ Typically, this value does not change. However, Sync Center calls this method wh
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceHandler::GetType(__out SYNCMGR_HANDLER_TYPE *pnType)
+
+```cpp
+STDMETHODIMP CMyDeviceHandler::GetType(__out SYNCMGR_HANDLER_TYPE *pnType)
 {
     *pnType = SYNCMGR_HT_DEVICE;
     return S_OK;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

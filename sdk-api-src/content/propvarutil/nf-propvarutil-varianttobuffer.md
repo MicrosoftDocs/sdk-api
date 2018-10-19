@@ -148,13 +148,9 @@ If the value has more than <i>cb</i> bytes, then <a href="shell.VariantToBuffer"
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBuffer">VariantToBuffer</a> to access a structure that has been stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialized and valid. 
 // The application expects var to hold a WIN32_FIND_DATAW structure 
 // with sizeof(WIN32_FIND_DATAW) bytes.
@@ -166,16 +162,16 @@ if (VariantGetElementCount(var) == sizeof(WIN32_FIND_DATAW))
 {
     WIN32_FIND_DATAW wfd;
 
-    hr = VariantToBuffer(var, &amp;wfd, sizeof(wfd));
+    hr = VariantToBuffer(var, &wfd, sizeof(wfd));
 
     if (SUCCEEDED(hr))
     {
         // wfd is now initialized.
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

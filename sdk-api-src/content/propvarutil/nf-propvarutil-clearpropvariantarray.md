@@ -95,19 +95,15 @@ This function performs the same action as <a href="shell.FreePropVariantArray">F
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT rgpropvar[5];
+
+```cpp
+// PROPVARIANT rgpropvar[5];
 // Assume all 5 propvariants are initialized and valid.
 
-ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
-</td>
-</tr>
-</table></span></div>
+ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));
+```
+
+
 
 
 

@@ -98,18 +98,14 @@ If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is not 
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDouble">VariantToDouble</a> to access a <b>DOUBLE</b> value stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialize and valid.
 // The application expects var to hold a VT_R8 value.
 DOUBLE dblValue;
 
-HRESULT hr = VariantToDouble(var, &amp; dblValue);
+HRESULT hr = VariantToDouble(var, & dblValue);
 
 if (SUCCEEDED(hr))
 {
@@ -118,10 +114,10 @@ if (SUCCEEDED(hr))
 else
 {
     // dblValue is always FALSE.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

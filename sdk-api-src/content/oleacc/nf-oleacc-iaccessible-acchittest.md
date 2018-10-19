@@ -186,13 +186,9 @@ When this method is used in certain situations, additional usage notes apply. Fo
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows a possible implementation for a custom list box.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // m_pControl is the control that returns this accessible object. 
 // m_hwnd is the HWND of the control window. 
 //  
@@ -209,44 +205,40 @@ HRESULT STDMETHODCALLTYPE AccServer::accHitTest(
     // Not in our window. 
     if (WindowFromPoint(pt) != m_hwnd)
     {
-        pvarChild-&gt;vt = VT_EMPTY;
+        pvarChild->vt = VT_EMPTY;
         return S_FALSE;
     }
 
     else  // In our window; return list item, or self if in blank space. 
     {
-        pvarChild-&gt;vt = VT_I4;
-        ScreenToClient(m_hwnd, &amp;pt);
+        pvarChild->vt = VT_I4;
+        ScreenToClient(m_hwnd, &pt);
         // IndexFromY returns the 0-based index of the item at that point, 
         // or -1 if the point is not on any item.
-        int index = m_pControl-&gt;IndexFromY(pt.y);
-        if (index &gt;= 0)
+        int index = m_pControl->IndexFromY(pt.y);
+        if (index >= 0)
         {
             // Increment, because the child array is 1-based. 
-            pvarChild-&gt;lVal = index + 1;
+            pvarChild->lVal = index + 1;
         }
         else
         {
-            pvarChild-&gt;lVal = CHILDID_SELF;
+            pvarChild->lVal = CHILDID_SELF;
 
         }
         return S_OK;
     }
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function selects the item at a specified point on the screen within the list represented by <i>pAcc</i>. It is assumed that a single selection is wanted.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT SelectItemAtPoint(IAccessible* pAcc, POINT point)
 {
     if (pAcc == NULL)
@@ -255,17 +247,17 @@ HRESULT SelectItemAtPoint(IAccessible* pAcc, POINT point)
     }
     VARIANT varChild;
 
-    HRESULT hr = pAcc-&gt;accHitTest(point.x, point.y, &amp;varChild);        
-    if ((hr == S_OK) &amp;&amp; (varChild.lVal != CHILDID_SELF))
+    HRESULT hr = pAcc->accHitTest(point.x, point.y, &varChild);        
+    if ((hr == S_OK) && (varChild.lVal != CHILDID_SELF))
     {
-        return pAcc-&gt;accSelect((SELFLAG_TAKEFOCUS | SELFLAG_TAKESELECTION), varChild);
+        return pAcc->accSelect((SELFLAG_TAKEFOCUS | SELFLAG_TAKESELECTION), varChild);
     }
     return S_FALSE;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

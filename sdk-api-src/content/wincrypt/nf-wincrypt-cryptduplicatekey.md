@@ -150,13 +150,9 @@ A handle to the original key is not valid.
 
 The following example shows the creation of a session key that is a duplicate of an existing session key. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/e57274cf-42d3-445b-97f1-dd574010290f">Example C Program: Duplicating a Session Key</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//--------------------------------------------------------------------
+
+```cpp
+//--------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTKEY    hDuplicateKey;
@@ -168,7 +164,7 @@ if (CryptDuplicateKey(
      hOriginalKey, 
      NULL, 
      0, 
-     &amp;hDuplicateKey))
+     &hDuplicateKey))
 {
    printf("The session key has been duplicated. \n");
 }
@@ -189,10 +185,10 @@ if (CryptDestroyKey(hDuplicateKey))
 else
 {
   printf("The handle could not be released.\n");
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

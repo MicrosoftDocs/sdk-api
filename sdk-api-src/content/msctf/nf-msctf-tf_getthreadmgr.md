@@ -104,13 +104,9 @@ The following example demonstrates a function that will attempt to obtain a copy
 </div>
 <div> </div>
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 typedef HRESULT (WINAPI *PTF_GETTHREADMGR)(ITfThreadMgr **pptim);
 
 HRESULT GetThreadMgr(ITfThreadMgr **pptm)
@@ -132,7 +128,7 @@ HRESULT GetThreadMgr(ITfThreadMgr **pptm)
 
         if(pfnGetThreadMgr)
         {
-            hr = (*pfnGetThreadMgr)(&amp;pThreadMgr);
+            hr = (*pfnGetThreadMgr)(&pThreadMgr);
         }
         
         FreeLibrary(hMSCTF);
@@ -146,17 +142,17 @@ HRESULT GetThreadMgr(ITfThreadMgr **pptm)
                                 NULL, 
                                 CLSCTX_INPROC_SERVER, 
                                 IID_ITfThreadMgr, 
-                                (void**)&amp;pThreadMgr);
+                                (void**)&pThreadMgr);
     }
 
     *pptm = pThreadMgr;
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

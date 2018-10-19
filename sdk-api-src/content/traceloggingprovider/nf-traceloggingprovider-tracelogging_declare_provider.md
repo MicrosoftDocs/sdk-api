@@ -73,21 +73,17 @@ If the header file that you use this macro in is used in both C and C++ code, yo
 enclose TRACELOGGING_DECLARE_PROVIDER in an extern "C" region so
 that the provider handle variable is declared as C-compatible. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    #ifdef __cplusplus
+
+```
+    #ifdef __cplusplus
     extern "C" {
     #endif
     TRACELOGGING_DECLARE_PROVIDER(g_hMyProvider);
     #ifdef __cplusplus
     } // extern "C"
-    #endif</pre>
-</td>
-</tr>
-</table></span></div>
+    #endif
+```
+
+
 
 

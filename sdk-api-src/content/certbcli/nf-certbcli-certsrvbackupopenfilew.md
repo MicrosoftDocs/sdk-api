@@ -105,13 +105,9 @@ The name of this  function in Certadm.dll is <b>CertSrvBackupOpenFileW</b>. You 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVBACKUPOPENFILEW* pfnOpenFile;
+
+```cpp
+FNCERTSRVBACKUPOPENFILEW* pfnOpenFile;
 char * szBackupOpenFunc = "CertSrvBackupOpenFileW";
 LARGE_INTEGER liFileSize;
 HRESULT       hr=0;
@@ -136,7 +132,7 @@ if ( NULL == pfnOpenFile )
 hr = pfnOpenFile(hCSBC,
                 pwszFile,
                 0,
-                &amp;liFileSize);
+                &liFileSize);
 if (FAILED(hr))
 {
     printf("Failed pfnOpenFile call [%x] %ws\n",
@@ -147,10 +143,10 @@ if (FAILED(hr))
 
 // Use the opened file as needed.
 // When you have finished using the file, call CertSrvBackupClose.
-// ...</pre>
-</td>
-</tr>
-</table></span></div>
+// ...
+```
+
+
 
 
 

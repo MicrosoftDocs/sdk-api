@@ -422,15 +422,11 @@ The following example shows how to export a cryptographic key or a key pair in a
 <a href="https://msdn.microsoft.com/72f5d30a-efd5-4bf5-8057-cb73e5aa0514">Example C Program: Signing a Hash and Verifying the Hash Signature</a>. For another example that uses this function, see <a href="https://msdn.microsoft.com/a7f2fdd1-9514-4cda-bae2-2f379dd9a27d">Example C Program: Exporting a Session Key</a>.
 				
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Wincrypt.h>
 
 BOOL GetExportedKey(
     HCRYPTKEY hKey, 
@@ -452,7 +448,7 @@ BOOL GetExportedKey(
         dwBlobType,
         0,    
         NULL, 
-        &amp;dwBlobLength)) 
+        &dwBlobLength)) 
     {
         printf("Size of the BLOB for the public key determined. \n");
     }
@@ -480,7 +476,7 @@ BOOL GetExportedKey(
         dwBlobType,    
         0,    
         *ppbKeyBlob,    
-        &amp;dwBlobLength))
+        &dwBlobLength))
     {
         printf("Contents have been written to the BLOB. \n");
         *pdwBlobLen = dwBlobLength;
@@ -495,10 +491,10 @@ BOOL GetExportedKey(
     }
 
     return TRUE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

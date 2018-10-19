@@ -88,13 +88,9 @@ The <b>ADS_STATUS_INVALID_SEARCHPREF</b> status value may be set if you set a va
 
 The following code example shows how to use the <b>ADS_STATUSENUM</b> enumeration with the <a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">IDirectorySearch::SetSearchPreference</a> method to determine the status of a search preference.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/***************************************************************************
+
+```cpp
+/***************************************************************************
 
     SetAndCheckSearchTimeout()
 
@@ -117,7 +113,7 @@ HRESULT SetAndCheckSearchTimeout(IDirectorySearch *pSearch,
     SearchPref.vValue.Integer = dwTimeout;
     SearchPref.dwStatus = ADS_STATUS_S_OK;
 
-    hr = pSearch-&gt;SetSearchPreference(&amp;SearchPref, 1);
+    hr = pSearch->SetSearchPreference(&SearchPref, 1);
     if(S_OK != hr)
     {
         return hr;
@@ -126,10 +122,10 @@ HRESULT SetAndCheckSearchTimeout(IDirectorySearch *pSearch,
     *pStatus = SearchPref.dwStatus;
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

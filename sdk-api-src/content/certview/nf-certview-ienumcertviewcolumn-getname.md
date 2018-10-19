@@ -101,26 +101,22 @@ If the column-enumeration sequence is not referencing a valid column, <b>GetName
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR       bstrColName = NULL;
+
+```cpp
+BSTR       bstrColName = NULL;
 HRESULT    hr;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
-hr = pEnumCol-&gt;GetName(&amp;bstrColName);
+hr = pEnumCol->GetName(&bstrColName);
 if (S_OK == hr)
     printf("Column name is %ws\n", bstrColName);
 
 // done processing, clear resources
 if (NULL != bstrColName)
-    SysFreeString(bstrColName);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString(bstrColName);
+```
+
+
 
 
 

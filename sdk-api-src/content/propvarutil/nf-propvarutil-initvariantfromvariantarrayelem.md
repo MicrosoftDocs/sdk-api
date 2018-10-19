@@ -127,32 +127,28 @@ You can use <a href="shell.VariantGetElementCount">VariantGetElementCount</a> to
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromVariantArrayElem">InitVariantFromVariantArrayElem</a> in an iteration statement to access the values in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume var is initialized and valid.
 UINT cElem = VariantGetElementCount(var);
-HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
+HRESULT hr = <mark type="const">S_OK</mark>;
 
-for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
+for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
 {
     VARIANT varElem = {0};
 
-    hr = InitVariantFromVariantArrayElem(var, iElem, &amp;varElem);
+    hr = InitVariantFromVariantArrayElem(var, iElem, &varElem);
 
     if (SUCCEEDED(hr))
     {
         // varElem is now valid.
-        VariantClear(&amp;varElem);
+        VariantClear(&varElem);
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

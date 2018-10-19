@@ -86,19 +86,15 @@ This file handler method is typically not used.
 
 For handlers written in C++, <b>EndRecord</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT EndRecord(VOID); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -111,13 +111,9 @@ All resources in the host application associated with each Command are released.
 
 The following example demonstrates a basic implementation of the <b>IUIApplication::OnDestroyUICommand</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 //  FUNCTION:    OnDestroyUICommand(UINT, UI_COMMANDTYPE, IUICommandHandler*)
 //
 //  PURPOSE:    Called for each Command specified in the Ribbon markup 
@@ -138,10 +134,10 @@ STDMETHODIMP CApplication::OnDestroyUICommand(
 {
     return E_NOTIMPL;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <div class="code"></div>
 
 

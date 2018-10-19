@@ -137,23 +137,19 @@ See <a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByNam
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyKeyFromName">PSGetPropertyKeyFromName</a> to obtain the property key for <code>System.Keywords</code>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPERTYKEY key;
 
-HRESULT hr = PSGetPropertyKeyFromName(L"System.Keywords", &amp;key);
+```cpp
+PROPERTYKEY key;
+
+HRESULT hr = PSGetPropertyKeyFromName(L"System.Keywords", &key);
 
 if (SUCCEEDED(hr))
 {
     // The property key is now valid.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

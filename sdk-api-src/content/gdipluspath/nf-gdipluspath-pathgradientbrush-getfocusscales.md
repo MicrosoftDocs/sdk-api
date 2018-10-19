@@ -106,13 +106,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>object based on a triangular path. The code sets the focus scales of the path gradient brush to (0.2, 0.2) and then uses the path gradient brush to fill an area that contains the triangular path. Finally, the code calls the <b>PathGradientBrush::GetFocusScales</b> method of the 
 						<b>PathGradientBrush</b>object to obtain the values of the x focus scale and the y focus scale.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetFocusScales(HDC hdc)
+
+```cpp
+VOID Example_GetFocusScales(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -140,19 +136,19 @@ The following example creates a
    // Fill a rectangle that is larger than the triangle
    // specified in the Point array. The portion of the
    // rectangle outside the triangle will not be painted.
-   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 200, 200);
+   graphics.FillRectangle(&pthGrBrush, 0, 0, 200, 200);
 
    // Obtain information about the path gradient brush.
    REAL xScale = 0.0f;
    REAL yScale = 0.0f;
-   pthGrBrush.GetFocusScales(&amp;xScale, &amp;yScale);
+   pthGrBrush.GetFocusScales(&xScale, &yScale);
 
    // The value of xScale is now 0.2.
    // The value of yScale is now 0.2. 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -72,23 +72,19 @@ A provider for a fragment root should return a pointer to its own implementation
 The following example implementation for a list item provider returns the provider for the parent list box.
 			
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT STDMETHODCALLTYPE ListItemProvider::get_FragmentRoot(IRawElementProviderFragmentRoot** pRetVal)
+
+```cpp
+HRESULT STDMETHODCALLTYPE ListItemProvider::get_FragmentRoot(IRawElementProviderFragmentRoot** pRetVal)
 {
     if (pRetVal == NULL) return E_INVALIDARG;
-    IRawElementProviderFragmentRoot* pRoot = static_cast&lt;IRawElementProviderFragmentRoot*&gt;(m_parentProvider);
-    pRoot-&gt;AddRef();
+    IRawElementProviderFragmentRoot* pRoot = static_cast<IRawElementProviderFragmentRoot*>(m_parentProvider);
+    pRoot->AddRef();
     *pRetVal = pRoot;
     return S_OK;
-}            </pre>
-</td>
-</tr>
-</table></span></div>
+}            
+```
+
+
 
 
 

@@ -101,27 +101,23 @@ Creates a VT_VECTOR | VT_FILETIME propvariant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// FILETIME rgFileTime[];
+
+```cpp
+// FILETIME rgFileTime[];
 // Assume variable rgFileTime is initialized and valid.
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromFileTimeVector(rgFileTime, ARRAYSIZE(rgFileTime), &amp;propvar);
+HRESULT hr = InitPropVariantFromFileTimeVector(rgFileTime, ARRAYSIZE(rgFileTime), &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_FILETIME.
  
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 

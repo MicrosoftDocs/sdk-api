@@ -121,16 +121,12 @@ The method returns <b>S_OK</b>.
 To make sure that the start end is active and that the ambiguous 
 				character position is displayed at the end of the line, execute the following code: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>selection.Flags = tomSelStartActive + tomSelAtEOL</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+selection.Flags = tomSelStartActive + tomSelAtEOL
+```
+
+
 The 
 				Flags property is useful because an <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> object can select itself. With <b>SetFlags</b>, you can change the active end from the default value of End, select the caret position for an ambiguous 
 				character position, or change the Insert/Overtype mode.

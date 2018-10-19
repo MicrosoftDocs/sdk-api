@@ -151,13 +151,9 @@ See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">Pr
 
 For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(hr)) {
+
+```cpp
+if (SUCCEEDED(hr)) {
   // Call succeeded, check HRESULT value returned
   switch (HRESULT_CODE(hr)){
     case CHANNEL_ACQUIRED:
@@ -195,10 +191,10 @@ For more information about COM error codes, see <a href="_com_error_handling">Er
       break;
   }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
