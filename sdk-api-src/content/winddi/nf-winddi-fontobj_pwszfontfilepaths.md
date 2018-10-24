@@ -7,7 +7,7 @@ old-location: display\fontobj_pwszfontfilepaths.htm
 tech.root: display
 ms.assetid: a175a282-4d0c-4379-b2f8-5e7e8cf7a137
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: FONTOBJ_pwszFontFilePaths, FONTOBJ_pwszFontFilePaths function [Display Devices], display.fontobj_pwszfontfilepaths, gdifncs_51e9e4ce-3de8-4b6c-8d7f-ccd19b9bd449.xml, winddi/FONTOBJ_pwszFontFilePaths
 ms.prod: windows-hardware
 ms.technology: windows-devices

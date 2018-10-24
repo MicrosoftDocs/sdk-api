@@ -7,7 +7,7 @@ old-location: rras\message.htm
 tech.root: rras
 ms.assetid: 94f3069f-c282-4dea-84f9-48645f4e1593
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: "*PMESSAGE, MESSAGE, MESSAGE structure [RAS], PMESSAGE, PMESSAGE structure pointer [RAS], _MESSAGE, _mpr_message, routprot/MESSAGE, routprot/PMESSAGE, rras.message"
 ms.prod: windows
 ms.technology: windows-sdk

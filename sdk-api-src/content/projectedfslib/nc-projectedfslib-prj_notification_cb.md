@@ -7,7 +7,7 @@ old-location: projfs\prj_notification_cb.htm
 tech.root: ProjFS
 ms.assetid: 7F149A78-2668-4BF2-88D3-1E40CA469AA6
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PRJ_NOTIFICATION_CB, PRJ_NOTIFICATION_CB callback, PRJ_NOTIFICATION_CB callback function, ProjFS.prj_notification_cb, projectedfslib/PRJ_NOTIFICATION_CB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ TRUE if the <b>FilePathName</b> field in <i>callbackData</i> refers to a directo
 
 ### -param notification [in]
 
-A <a href="projfs.prj_notification">PRJ_NOTIFICATION</a>value specifying the notification.
+A <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification">PRJ_NOTIFICATION</a>value specifying the notification.
 
 
 ### -param destinationFileName [in, optional]
@@ -87,7 +87,7 @@ If <b>notification</b> is <b>PRJ_NOTIFICATION_PRE_RENAME </b>or <b>PRJ_NOTIFICAT
 
 ### -param operationParameters [in, out]
 
-A pointer to a <a href="projfs.prj_notification_parameters">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
+A pointer to a <a href="https://msdn.microsoft.com/596DC712-C6DD-4834-9E0F-CA21B0BC3BB3">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
 
 <b>PRJ_NOTIFICATION_FILE_OPENED</b>, <b>PRJ_NOTIFICATION_NEW_FILE_CREATED</b>, or <b>PRJ_NOTIFICATION_FILE_OVERWRITTEN</b><dl>
 <dd>
@@ -191,7 +191,7 @@ An appropriate HRESULT error code if the provider fails the operation. For pre-o
 This callback is optional. If the provider does not supply an implementation of this callback, it will not receive notifications. 
 
 
-The provider registers for the notifications it wishes to receive when it calls <a href="projfs.prjstartvirtualizing">PrjStartVirtualizing</a>.
+The provider registers for the notifications it wishes to receive when it calls <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing">PrjStartVirtualizing</a>.
 
 
 

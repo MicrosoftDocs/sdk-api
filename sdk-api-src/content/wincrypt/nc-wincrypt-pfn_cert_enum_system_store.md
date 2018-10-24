@@ -4,10 +4,10 @@ title: PFN_CERT_ENUM_SYSTEM_STORE
 author: windows-sdk-content
 description: The CertEnumSystemStoreCallback callback function formats and presents information on each system store found by a call to CertEnumSystemStore.
 old-location: security\certenumsystemstorecallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f070a9bd-be0b-49d0-9cab-a5d6f05d4e22
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CERT_SYSTEM_STORE_LOCATION_MASK, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertEnumSystemStoreCallback, PFN_CERT_ENUM_SYSTEM_STORE, PFN_CERT_ENUM_SYSTEM_STORE callback, PFN_CERT_ENUM_SYSTEM_STORE callback function [Security], security.certenumsystemstorecallback, wincrypt/PFN_CERT_ENUM_SYSTEM_STORE
 ms.prod: windows
 ms.technology: windows-sdk

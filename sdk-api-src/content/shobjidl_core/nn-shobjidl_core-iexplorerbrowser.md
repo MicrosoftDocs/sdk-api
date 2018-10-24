@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser.htm
 tech.root: shell
 ms.assetid: da2cf5d4-5a68-4d18-807b-b9d4e2712c10
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IExplorerBrowser, IExplorerBrowser interface [Windows Shell], IExplorerBrowser interface [Windows Shell],described, _shell_IExplorerBrowser, shell.IExplorerBrowser, shobjidl_core/IExplorerBrowser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -218,7 +218,7 @@ For example code that shows typical use of <b>IExplorerBrowser</b> and its metho
 
 After calling this object's <a href="https://msdn.microsoft.com/4b86646a-a20c-4bb5-a4c8-5c2e11e18862">Initialize</a> method, its <a href="https://msdn.microsoft.com/b6fc4aa6-f689-4b3e-a922-f8361d33b6dd">Destroy</a> method must be called to free any windowed resources that were generated in the call to <b>Initialize</b>.
 
-The object that hosts the ExplorerBrowser object should derive from <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> and implement <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> to respond to any queries for service. For example, the number of panes shown by the browser can be controlled by implementing <a href="https://msdn.microsoft.com/b940adc2-dfef-49c5-b86c-d0da83db0aad">IExplorerPaneVisibility</a> and responding to any SID_ExplorerPaneVisibility service requests.
+The object that hosts the ExplorerBrowser object should derive from <a href="_inet_IServiceProvider_Interface">IServiceProvider</a> and implement <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> to respond to any queries for service. For example, the number of panes shown by the browser can be controlled by implementing <a href="https://msdn.microsoft.com/b940adc2-dfef-49c5-b86c-d0da83db0aad">IExplorerPaneVisibility</a> and responding to any SID_ExplorerPaneVisibility service requests.
 
 Frames are disabled by default. To enable frames and get the default set of panes, set the <a href="https://msdn.microsoft.com/4e2983bc-cad2-4bcc-8169-57b5274b2142">EBO_SHOWFRAMES</a> flag using the <a href="https://msdn.microsoft.com/b2f8fe1b-afcd-4fb0-b96b-41e38c7fea0b">IExplorerBrowser::SetOptions</a> method. The default panes, listed as <a href="https://msdn.microsoft.com/b940adc2-dfef-49c5-b86c-d0da83db0aad">IExplorerPaneVisibility</a> constants, are these: 
 
@@ -246,7 +246,7 @@ The Shell architecture has three main components: the browser, the views, and th
 
 If an application uses the default implementation provided by CLSID_ExplorerBrowser, inserting it into the window of an application and then browsing to a location, ExplorerBrowser creates the proper <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> as specified by the location that it is browsing to. The application can then ask ExplorerBrowser to give it an interface on the current view, allowing the application to manipulate the view directly if required. The default implementation of the Windows Explorer view object, created by <a href="https://msdn.microsoft.com/7edd6786-7d74-4065-8cf1-cbb489007a46">SHCreateShellFolderViewEx</a>, supports the interface <b>IShellView</b>. You may verify that you have the default Shell folder view object by calling <a href="https://msdn.microsoft.com/e7c05a67-f739-487d-872a-3598b790d5c9">IExplorerBrowser::GetCurrentView</a> and then calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on the object returned using the interface ID IID_CDefView.
 
-<b>Windows 7 and later</b>. CExplorerBrowser can support in-place navigation by using <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">IServiceProvider::QueryService</a> with the Service ID SID_SlnPlaceBrowser. When using SID_SInPlaceBrowser, the CExplorerBrowser state cannot be set to EBO_NAVIGATEONCE.
+<b>Windows 7 and later</b>. CExplorerBrowser can support in-place navigation by using <a href="_inet_IServiceProvider_QueryService_Method">IServiceProvider::QueryService</a> with the Service ID SID_SlnPlaceBrowser. When using SID_SInPlaceBrowser, the CExplorerBrowser state cannot be set to EBO_NAVIGATEONCE.
 
 
 

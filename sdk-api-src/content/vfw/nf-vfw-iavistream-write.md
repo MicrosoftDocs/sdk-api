@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_write.htm
 tech.root: Multimedia
 ms.assetid: 31252348-0830-4b1c-82a3-9f68818094da
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Write method, IAVIStream.Write, IAVIStream::Write, Write, Write method [Windows Multimedia], Write method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Write, multimedia.iavistream_write, vfw/IAVIStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,17 +117,21 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Write</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Write(LONG lStart, LONG lSamples, LPVOID lpBuffer, 
     LONG cbBuffer, DWORD dwFlags, LONG *plSampWritten, 
     LONG *plBytesWritten); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

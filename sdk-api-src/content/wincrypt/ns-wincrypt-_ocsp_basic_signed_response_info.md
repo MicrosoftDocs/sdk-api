@@ -4,10 +4,10 @@ title: "_OCSP_BASIC_SIGNED_RESPONSE_INFO"
 author: windows-sdk-content
 description: Contains a basic online certificate status protocol (OCSP) response with a signature.
 old-location: security\ocsp_basic_signed_response_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4b88a946-030f-490a-b46a-c42507e1268d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*POCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO structure [Security], POCSP_BASIC_SIGNED_RESPONSE_INFO, POCSP_BASIC_SIGNED_RESPONSE_INFO structure pointer [Security], _OCSP_BASIC_SIGNED_RESPONSE_INFO, security.ocsp_basic_signed_response_info, wincrypt/OCSP_BASIC_SIGNED_RESPONSE_INFO, wincrypt/POCSP_BASIC_SIGNED_RESPONSE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

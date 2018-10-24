@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHei
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getthumbnailimage.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetThumbnailImage, GetThumbnailImage method [GDI+], GetThumbnailImage method [GDI+],Image class, Image class [GDI+],GetThumbnailImage method, Image.GetThumbnailImage, Image::GetThumbnailImage, _gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_, gdiplus._gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::GetThumbnailImage</b> method gets a thumbnail image from this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.
 
 
 ## -parameters
@@ -92,11 +92,11 @@ Optional. Pointer to a block of memory that contains data to be used by the call
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>*</b>
 </strong>
 
 This method returns a pointer to an 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that contains the thumbnail image.
+						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object that contains the thumbnail image.
 
 
 
@@ -115,12 +115,16 @@ A thumbnail image is a small copy of an image. Some image files have a thumbnail
 
 
 The following example creates an 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a JPEG file. The code calls the <b>Image::GetThumbnailImage</b> method of that 
+						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object based on a JPEG file. The code calls the <b>Image::GetThumbnailImage</b> method of that 
 						<b>Image</b> object and then displays the thumbnail image along with the main image.
 
-
-```cpp
-VOID Example_GetThumbnail(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetThumbnail(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -129,20 +133,20 @@ VOID Example_GetThumbnail(HDC hdc)
    Image* pThumbnail = image.GetThumbnailImage(40, 40, NULL, NULL);
 
    // Draw the original and the thumbnail images.
-   graphics.DrawImage(&image, 10, 10, image.GetWidth(), image.GetHeight());
+   graphics.DrawImage(&amp;image, 10, 10, image.GetWidth(), image.GetHeight());
    graphics.DrawImage(
       pThumbnail, 
       150, 
       10, 
-      pThumbnail->GetWidth(), 
-      pThumbnail->GetHeight());
+      pThumbnail-&gt;GetWidth(), 
+      pThumbnail-&gt;GetHeight());
 
    delete pThumbnail;
 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -151,19 +155,19 @@ VOID Example_GetThumbnail(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533827(v=VS.85).aspx">Creating Thumbnail Images</a>
+<a href="https://msdn.microsoft.com/96f95d00-6f96-4b8a-b84b-010203433d74">Creating Thumbnail Images</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/ddde257c-41a6-4f6e-8d81-10d66c60085c">Images, Bitmaps, and Metafiles</a>
  
 
  

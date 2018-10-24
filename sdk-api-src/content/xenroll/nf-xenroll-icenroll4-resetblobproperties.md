@@ -4,10 +4,10 @@ title: ICEnroll4::resetBlobProperties
 author: windows-sdk-content
 description: Resets the properties of a BLOB.
 old-location: security\icenroll4_resetblobproperties.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4ee3c056-27b0-4606-bdf6-63e5e4439274
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CEnroll object [Security],resetBlobProperties method, ICEnroll4 interface [Security],resetBlobProperties method, ICEnroll4.resetBlobProperties, ICEnroll4::resetBlobProperties, resetBlobProperties, resetBlobProperties method [Security], resetBlobProperties method [Security],CEnroll object, resetBlobProperties method [Security],ICEnroll4 interface, security.icenroll4_resetblobproperties, xenroll/ICEnroll4::resetBlobProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

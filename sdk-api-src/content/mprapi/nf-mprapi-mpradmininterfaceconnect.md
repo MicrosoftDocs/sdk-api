@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfaceconnect.htm
 tech.root: rras
 ms.assetid: 21440495-9372-42c7-8e40-8f3d5812f187
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MprAdminInterfaceConnect, MprAdminInterfaceConnect function [RAS], _mpr_mpradmininterfaceconnect, mprapi/MprAdminInterfaceConnect, rras.mpradmininterfaceconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

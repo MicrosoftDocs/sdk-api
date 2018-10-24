@@ -7,7 +7,7 @@ old-location: htmlhelp\iitwordwheel_count.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelcount.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/22/2018
 ms.keywords: Count, Count method [HTML Help Workshop], Count method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Count method, IITWordWheel.Count, IITWordWheel::Count, htmlhelp.iitwordwheel_count, infotech/IITWordWheel::Count, refIITWordWheelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ The <i>pcEntries</i> parameter was an invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670057(v=VS.85).aspx">IITWordWheel</a>
+<a href="https://msdn.microsoft.com/9734c73e-9325-4a6d-bbf3-3f87f96a662e">IITWordWheel</a>
  
 
  

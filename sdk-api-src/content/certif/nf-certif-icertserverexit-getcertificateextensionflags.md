@@ -4,10 +4,10 @@ title: ICertServerExit::GetCertificateExtensionFlags
 author: windows-sdk-content
 description: Gets the flags from the extension acquired by the most recent call to ICertServerExit::GetCertificateExtension.
 old-location: security\icertserverexit_getcertificateextensionflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerExit object, GetCertificateExtensionFlags method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtensionFlags method, ICertServerExit.GetCertificateExtensionFlags, ICertServerExit::GetCertificateExtensionFlags, _certsrv_icertserverexit_getcertificateextensionflags, certif/ICertServerExit::GetCertificateExtensionFlags, security.icertserverexit_getcertificateextensionflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 
 The <b>GetCertificateExtensionFlags</b> method gets the flags from the extension acquired by the most recent call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385068(v=VS.85).aspx">ICertServerExit::GetCertificateExtension</a>.
+<a href="https://msdn.microsoft.com/ba2d2e5f-230e-4e69-8d86-dad9c743e5ee">ICertServerExit::GetCertificateExtension</a>.
 
 
 ## -parameters
@@ -70,12 +70,12 @@ A pointer to a <b>LONG</b> variable that will contain the extension flags.
 
 
 <h3>C++</h3>
- If the method succeeds, the method returns S_OK, and *<i>pExtFlags</i> is set to the variable that contains the flags from the extension acquired by the most recent call to <a href="https://msdn.microsoft.com/en-us/library/Aa385068(v=VS.85).aspx">ICertServerExit::GetCertificateExtension</a>.
+ If the method succeeds, the method returns S_OK, and *<i>pExtFlags</i> is set to the variable that contains the flags from the extension acquired by the most recent call to <a href="https://msdn.microsoft.com/ba2d2e5f-230e-4e69-8d86-dad9c743e5ee">ICertServerExit::GetCertificateExtension</a>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is the flags from the extension acquired by the most recent call to <a href="https://msdn.microsoft.com/en-us/library/Aa385068(v=VS.85).aspx">ICertServerExit::GetCertificateExtension</a>.
+ The return value is the flags from the extension acquired by the most recent call to <a href="https://msdn.microsoft.com/ba2d2e5f-230e-4e69-8d86-dad9c743e5ee">ICertServerExit::GetCertificateExtension</a>.
 
 
 
@@ -136,7 +136,7 @@ One of the following origin flags can also be returned.<table>
 <tr>
 <td>EXTENSION_ORIGIN_ADMIN</td>
 <td>The administrator set the extension. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383257(v=VS.85).aspx">ICertAdmin::SetCertificateExtension</a>.</td>
+<a href="https://msdn.microsoft.com/d26061da-acc3-45d8-93de-f2d431d350a6">ICertAdmin::SetCertificateExtension</a>.</td>
 </tr>
 <tr>
 <td>EXTENSION_ORIGIN_SERVER</td>
@@ -149,7 +149,7 @@ One of the following origin flags can also be returned.<table>
 <tr>
 <td>EXTENSION_ORIGIN_IMPORTEDCERT</td>
 <td>The extension was extracted from an imported certificate (the certificate was passed to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383245(v=VS.85).aspx">ICertAdmin::ImportCertificate</a>).</td>
+<a href="https://msdn.microsoft.com/b79a726e-5823-468b-869d-382e6fd73b44">ICertAdmin::ImportCertificate</a>).</td>
 </tr>
 <tr>
 <td>EXTENSION_ORIGIN_PKCS7</td>
@@ -181,34 +181,38 @@ Predefined masks are provided for ease of use in determining which flags are set
 It is safe to use the high 8 bits of EXTENSION_POLICY_MASK for custom data. These bits will be saved persistently in the database but will not be written to the certificate extensions.
 
 You must call 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385079(v=VS.85).aspx">ICertServerExit::SetContext</a> prior to using this method.
+<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a> prior to using this method.
 
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 LONG     ExtFlags;
 
 // pCertServerExit has been used to call SetContext previously.
-hr = pCertServerExit->GetCertificateExtensionFlags(&ExtFlags);
+hr = pCertServerExit-&gt;GetCertificateExtensionFlags(&amp;ExtFlags);
 
 // More than one policy flag may be set.
-LONG ExtPolicyFlags = ExtFlags & EXTENSION_POLICY_MASK;
+LONG ExtPolicyFlags = ExtFlags &amp; EXTENSION_POLICY_MASK;
 
-if (ExtPolicyFlags & EXTENSION_CRITICAL_FLAG)
+if (ExtPolicyFlags &amp; EXTENSION_CRITICAL_FLAG)
 {
     // Perform the desired operation.
 }
 
-if (ExtPolicyFlags & EXTENSION_DISABLE_FLAG)
+if (ExtPolicyFlags &amp; EXTENSION_DISABLE_FLAG)
 {
     // Perform the desired operation.
 }
 
 // Only one origin flag can be set.
-switch (ExtFlags & EXTENSION_ORIGIN_MASK)
+switch (ExtFlags &amp; EXTENSION_ORIGIN_MASK)
 {
     case EXTENSION_ORIGIN_REQUEST:
         // Extension was set in certificate request.
@@ -233,10 +237,10 @@ switch (ExtFlags & EXTENSION_ORIGIN_MASK)
         break;
     default:
         break;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -249,19 +253,19 @@ switch (ExtFlags & EXTENSION_ORIGIN_MASK)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383257(v=VS.85).aspx">ICertAdmin::SetCertificateExtension</a>
+<a href="https://msdn.microsoft.com/d26061da-acc3-45d8-93de-f2d431d350a6">ICertAdmin::SetCertificateExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385055(v=VS.85).aspx">ICertServerExit</a>
+<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385068(v=VS.85).aspx">ICertServerExit::GetCertificateExtension</a>
+<a href="https://msdn.microsoft.com/ba2d2e5f-230e-4e69-8d86-dad9c743e5ee">ICertServerExit::GetCertificateExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386208(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetFlags</a>
+<a href="https://msdn.microsoft.com/c175eba9-ea7c-4018-876a-2db732cb57c4">IEnumCERTVIEWEXTENSION::GetFlags</a>
  
 
  

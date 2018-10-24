@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommand_Invoke.htm
 tech.root: shell
 ms.assetid: 3ea545a4-5f4c-4f98-9e56-b7c7eed5f821
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IExplorerCommand interface [Windows Shell],Invoke method, IExplorerCommand.Invoke, IExplorerCommand::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IExplorerCommand interface, _shell_IExplorerCommand_Invoke, shell.IExplorerCommand_Invoke, shobjidl_core/IExplorerCommand::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

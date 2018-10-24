@@ -7,7 +7,7 @@ old-location: shell\ITransferAdviseSink_UpdateProgress.htm
 tech.root: shell
 ms.assetid: 931029e8-48ff-4d24-8818-57b7103fffdf
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],UpdateProgress method, ITransferAdviseSink.UpdateProgress, ITransferAdviseSink::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_UpdateProgress, shell.ITransferAdviseSink_UpdateProgress, shobjidl_core/ITransferAdviseSink::UpdateProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

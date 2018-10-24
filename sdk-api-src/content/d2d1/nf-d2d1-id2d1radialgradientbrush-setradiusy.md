@@ -4,10 +4,10 @@ title: ID2D1RadialGradientBrush::SetRadiusY
 author: windows-sdk-content
 description: Specifies the y-radius of the gradient ellipse, in the brush's coordinate space.
 old-location: direct2d\ID2D1RadialGradientBrush_SetRadiusY.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 49fc1355-5754-4ad3-aa18-460e26d79818
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ID2D1RadialGradientBrush interface [Direct2D],SetRadiusY method, ID2D1RadialGradientBrush.SetRadiusY, ID2D1RadialGradientBrush::SetRadiusY, SetRadiusY, SetRadiusY method [Direct2D], SetRadiusY method [Direct2D],ID2D1RadialGradientBrush interface, d2d1/ID2D1RadialGradientBrush::SetRadiusY, direct2d.ID2D1RadialGradientBrush_SetRadiusY
 ms.prod: windows-hardware
 ms.technology: windows-devices

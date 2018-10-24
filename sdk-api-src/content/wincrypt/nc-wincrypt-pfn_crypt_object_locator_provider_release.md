@@ -4,10 +4,10 @@ title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 author: windows-sdk-content
 description: Releases the provider.
 old-location: security\pfn_crypt_object_locator_provider_release.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: DDF1243D-A6C8-426A-A800-018E7FF7E182
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CRYPT_OBJECT_LOCATOR_RELEASE_DLL_UNLOAD, CRYPT_OBJECT_LOCATOR_RELEASE_PROCESS_EXIT, CRYPT_OBJECT_LOCATOR_RELEASE_SERVICE_STOP, CRYPT_OBJECT_LOCATOR_RELEASE_SYSTEM_SHUTDOWN, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback function [Security], security.pfn_crypt_object_locator_provider_release, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6_RemoveEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: 43BDE7F5-67DF-4DE5-AEDE-068421375E07
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: IUIAutomation6 interface [Windows Accessibility],RemoveEventHandlerGroup method, IUIAutomation6.RemoveEventHandlerGroup, IUIAutomation6::RemoveEventHandlerGroup, RemoveEventHandlerGroup, RemoveEventHandlerGroup method [Windows Accessibility], RemoveEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, uiautomationclient/IUIAutomation6::RemoveEventHandlerGroup, winauto.uiauto_IUIAutomation6_RemoveEventHandlerGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,11 +93,11 @@ It is possible for an event to be delivered to an event handler after the handle
 
 
 
-<a href="winauto.uiauto_iuiautomation6_addeventhandlergroup">AddEventHandlerGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-addeventhandlergroup">AddEventHandlerGroup</a>
 
 
 
-<a href="winauto.iuiautomation6">IUIAutomation6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
  
 
  

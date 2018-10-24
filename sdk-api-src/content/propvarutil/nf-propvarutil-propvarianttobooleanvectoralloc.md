@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBooleanVectorAlloc.htm
 tech.root: properties
 ms.assetid: 241f43b6-5ff0-4ce6-b0a4-59dc9cb6cf8f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PropVariantToBooleanVectorAlloc, PropVariantToBooleanVectorAlloc function [Windows Properties], _shell_PropVariantToBooleanVectorAlloc, properties.PropVariantToBooleanVectorAlloc, propvarutil/PropVariantToBooleanVectorAlloc, shell.PropVariantToBooleanVectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,26 +131,30 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776533(v=VS.85).aspx">PropVariantToBooleanVectorAlloc</a> to access a Boolean vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToBooleanVectorAlloc">PropVariantToBooleanVectorAlloc</a> to access a Boolean vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid. The application is 
 // expecting propvar to contain a vector of Boolean values.
 BOOL *prgFlags;
 ULONG cFlags;
-HRESULT hr = PropVariantToBooleanVectorAlloc(propvar, &prgFlags, &cFlags);
+HRESULT hr = PropVariantToBooleanVectorAlloc(propvar, &amp;prgFlags, &amp;cFlags);
 
 if (SUCCEEDED(hr))
 {
      // The prgFlags variable now points to a vector that contains a count
      // of cFlags flags.
      CoTaskMemFree(prgFlags);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -159,19 +163,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
+<a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776506(v=VS.85).aspx">IsPropVariantVector</a>
+<a href="shell.IsPropVariantVector">IsPropVariantVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776519(v=VS.85).aspx">PropVariantGetBooleanElem</a>
+<a href="shell.PropVariantGetBooleanElem">PropVariantGetBooleanElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
+<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
  
 
  

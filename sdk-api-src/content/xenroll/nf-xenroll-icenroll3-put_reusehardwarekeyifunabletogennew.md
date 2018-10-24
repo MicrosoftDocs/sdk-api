@@ -4,10 +4,10 @@ title: ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines the action taken by the certificate enrollment control object if an error is encountered when generating a new key.
 old-location: security\icenroll4_reusehardwarekeyifunabletogennew.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5a9d5f78-bf88-4e24-9685-7c504f9f2e38
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CEnroll object [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll3 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll3.ReuseHardwareKeyIfUnableToGenNew, ICEnroll3.put_ReuseHardwareKeyIfUnableToGenNew, ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew, ICEnroll4 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll4.ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::put_ReuseHardwareKeyIfUnableToGenNew, ReuseHardwareKeyIfUnableToGenNew property [Security], ReuseHardwareKeyIfUnableToGenNew property [Security],CEnroll object, ReuseHardwareKeyIfUnableToGenNew property [Security],ICEnroll3 interface, ReuseHardwareKeyIfUnableToGenNew property [Security],ICEnroll4 interface, put_ReuseHardwareKeyIfUnableToGenNew, security.icenroll4_reusehardwarekeyifunabletogennew, xenroll/ICEnroll3::ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::put_ReuseHardwareKeyIfUnableToGenNew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,11 +78,15 @@ This property is a Boolean value. This property affects only <a href="https://ms
 
 #### Examples
 
-
-```cpp
-// Code to set the reuse H/W key status.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Code to set the reuse H/W key status.
 // hr is HRESULT variable.
-hr = pEnroll->put_ReuseHardwareKeyIfUnableToGenNew( FALSE );
+hr = pEnroll-&gt;put_ReuseHardwareKeyIfUnableToGenNew( FALSE );
 if ( FAILED( hr ) )    
     printf("Failed put_ReuseHardwareKeyIfUnableToGenNew [%x]\n", hr);
 
@@ -90,15 +94,15 @@ if ( FAILED( hr ) )
 // Code to retrieve the reuse H/W key status.
 BOOL bReuse;
 
-hr = pEnroll->get_ReuseHardwareKeyIfUnableToGenNew( &bReuse );
+hr = pEnroll-&gt;get_ReuseHardwareKeyIfUnableToGenNew( &amp;bReuse );
 if ( FAILED( hr ) )
     printf("Failed get_ReuseHardwareKeyIfUnableToGenNew [%x]\n", hr);
 else
     printf("Hardware key %s be reused if unable"
-        " to generate a new key.\n", bReuse ? "will" : "will not");
-```
-
-
+        " to generate a new key.\n", bReuse ? "will" : "will not");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

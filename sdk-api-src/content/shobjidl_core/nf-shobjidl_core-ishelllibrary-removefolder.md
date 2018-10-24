@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_RemoveFolder.htm
 tech.root: shell
 ms.assetid: 2ba2c504-e96c-4b56-b2f2-196c0b74c9eb
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IShellLibrary interface [Windows Shell],RemoveFolder method, IShellLibrary.RemoveFolder, IShellLibrary::RemoveFolder, RemoveFolder, RemoveFolder method [Windows Shell], RemoveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_RemoveFolder, shell.IShellLibrary_RemoveFolder, shobjidl_core/IShellLibrary::RemoveFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,9 +87,13 @@ For convenience, <a href="https://msdn.microsoft.com/34de407c-54f0-4be9-a383-4bf
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/34de407c-54f0-4be9-a383-4bf1baa63eef">SHRemoveFolderPathFromLibrary</a>, which wraps this method.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // from shobjidl.h
 //
 __inline HRESULT SHRemoveFolderPathFromLibrary(
@@ -105,20 +109,20 @@ __inline HRESULT SHRemoveFolderPathFromLibrary(
         IShellItem *psiFolder;
         hr = SHCreateItemFromIDList (
           pidlFolder, 
-          IID_PPV_ARGS(&psiFolder));
+          IID_PPV_ARGS(&amp;psiFolder));
 
         if (SUCCEEDED(hr))
         {
-            hr = plib->RemoveFolder(psiFolder);
-            psiFolder->Release();
+            hr = plib-&gt;RemoveFolder(psiFolder);
+            psiFolder-&gt;Release();
         }
         CoTaskMemFree(pidlFolder);
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

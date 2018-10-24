@@ -58,7 +58,7 @@ Writes formatted data to the specified string. The size of the destination buffe
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192497">sprintf, swprintf, _stprintf</a></li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms647550(v=VS.85).aspx">wsprintf</a>
+<a href="https://msdn.microsoft.com/5f373cb3-8cb9-4516-8a18-8971bb430d42">wsprintf</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/1d2b472b-6b34-4867-897c-eca60921d414">wnsprintf</a>
@@ -166,7 +166,7 @@ Compared to  the functions it replaces, <b>StringCchPrintf</b> provides addition
 
 Behavior is undefined if the strings pointed to by <i>pszDest</i>, <i>pszFormat</i>, or any argument strings overlap.
 
-Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a> if you require the handling of null string pointer values.
+Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/e3904cd0-fcb9-4b54-9895-513a95f4a6f7">StringCchPrintfEx</a> if you require the handling of null string pointer values.
 
 <b>StringCchPrintf</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use.
 
@@ -199,9 +199,13 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 The following example shows a simple use of <b>StringCchPrintf</b>, using four arguments.
 
-
-```cpp
-TCHAR pszDest[30]; 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>TCHAR pszDest[30]; 
 size_t cchDest = 30;
 
 LPCTSTR pszFormat = TEXT("%s %d + %d = %d.");
@@ -209,10 +213,10 @@ TCHAR* pszTxt = TEXT("The answer is");
 
 HRESULT hr = StringCchPrintf(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);
 
-// The resultant string at pszDest is "The answer is 1 + 2 = 3."
-```
-
-
+// The resultant string at pszDest is "The answer is 1 + 2 = 3."</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -225,15 +229,15 @@ HRESULT hr = StringCchPrintf(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647510(v=VS.85).aspx">StringCbPrintf</a>
+<a href="https://msdn.microsoft.com/224c8840-06c6-4144-8f23-8705ac8ef887">StringCbPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a>
+<a href="https://msdn.microsoft.com/e3904cd0-fcb9-4b54-9895-513a95f4a6f7">StringCchPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647546(v=VS.85).aspx">StringCchVPrintf</a>
+<a href="https://msdn.microsoft.com/82cc5a7c-e4c5-4a88-9bb5-d3f02dc3d7f5">StringCchVPrintf</a>
  
 
  

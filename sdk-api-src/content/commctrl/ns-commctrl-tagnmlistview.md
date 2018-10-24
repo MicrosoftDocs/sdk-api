@@ -60,10 +60,10 @@ Contains information about a list-view notification message. This structure is t
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification message. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification message. 
 
 
 ### -field iItem
@@ -82,24 +82,24 @@ Identifies the subitem, or zero if none.
 
 ### -field uNewState
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-New item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">List-View Item States</a>. 
+New item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="https://msdn.microsoft.com/21827f4a-f133-489b-bbd2-6979d1928b40">List-View Item States</a>. 
 
 
 ### -field uOldState
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Old item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">List-View Item States</a>.
+Old item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="https://msdn.microsoft.com/21827f4a-f133-489b-bbd2-6979d1928b40">List-View Item States</a>.
 
 
 ### -field uChanged
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Set of flags that indicate the item attributes that have changed. This member is zero for notifications that do not use it. Otherwise, it can have the same values as the 
-					<b>mask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. 
+					<b>mask</b> member of the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure. 
 
 
 ### -field ptAction
@@ -112,7 +112,7 @@ Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
 Application-defined value of the item. This member is undefined for notification messages that do not use it. 
 

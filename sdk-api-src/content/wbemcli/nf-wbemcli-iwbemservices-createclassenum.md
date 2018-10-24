@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_createclassenum.htm
 tech.root: WmiSdk
 ms.assetid: 23122b38-5671-4454-be79-85c6bc34daa0
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: CreateClassEnum, CreateClassEnum method [Windows Management Instrumentation], CreateClassEnum method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateClassEnum method, IWbemServices.CreateClassEnum, IWbemServices::CreateClassEnum, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenum, wbemcli/IWbemServices::CreateClassEnum, wmi.iwbemservices_createclassenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ req.redist:
 
 The 
 <b>IWbemServices::CreateClassEnum</b> method returns an enumerator for all classes that satisfy selection criteria. The caller must use the returned enumerator to retrieve the class definitions, calling 
-<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> to obtain each class or blocks of classes. It finishes by calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IEnumWbemClassObject::Release</a>.
+<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> to obtain each class or blocks of classes. It finishes by calling <a href="_com_iunknown_release">IEnumWbemClassObject::Release</a>.
 <div class="alert"><b>Note</b>  It is not an error for the returned enumerator to have 0 (zero) elements.</div><div> </div>
 
 ## -parameters
@@ -132,7 +132,7 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 
 ### -param ppEnum [out]
 
-Receives the pointer to the enumerator. The returned object has a positive reference count. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the pointer when it is no longer required.
+Receives the pointer to the enumerator. The returned object has a positive reference count. The caller must call <a href="_com_iunknown_release">Release</a> on the pointer when it is no longer required.
 
 
 ## -returns

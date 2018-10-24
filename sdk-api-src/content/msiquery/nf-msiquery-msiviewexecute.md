@@ -7,7 +7,7 @@ old-location: setup\msiviewexecute.htm
 tech.root: msi
 ms.assetid: 12b2373f-425a-4035-bdb4-be1a5469f1d7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/23/2018
 ms.keywords: MsiViewExecute, MsiViewExecute function, _msi_msiviewexecute, msiquery/MsiViewExecute, setup.msiviewexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="database_functions.htm">General Database Access Functions</a>
  
 
  

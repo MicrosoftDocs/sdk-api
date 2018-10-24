@@ -7,7 +7,7 @@ old-location: rras\rasgetconnectstatus.htm
 tech.root: rras
 ms.assetid: 3b2a2f8d-b1ff-44d2-ba49-60877ca6c104
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RasGetConnectStatus, RasGetConnectStatus function [RAS], RasGetConnectStatusA, RasGetConnectStatusW, _ras_rasgetconnectstatus, ras/RasGetConnectStatus, ras/RasGetConnectStatusA, ras/RasGetConnectStatusW, rras.rasgetconnectstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

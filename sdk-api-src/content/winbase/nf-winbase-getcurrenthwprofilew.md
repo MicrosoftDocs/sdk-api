@@ -7,7 +7,7 @@ old-location: base\getcurrenthwprofile.htm
 tech.root: sysinfo
 ms.assetid: 152067bb-3896-43ef-a882-12a159f92cc7
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetCurrentHwProfile, GetCurrentHwProfile function, GetCurrentHwProfileA, GetCurrentHwProfileW, _win32_getcurrenthwprofile, base.getcurrenthwprofile, winbase/GetCurrentHwProfile, winbase/GetCurrentHwProfileA, winbase/GetCurrentHwProfileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,16 +98,20 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;tchar.h&gt;
 
 void main(void) 
 {
    HW_PROFILE_INFO   HwProfInfo;
-   if (!GetCurrentHwProfile(&HwProfInfo)) 
+   if (!GetCurrentHwProfile(&amp;HwProfInfo)) 
    {
       _tprintf(TEXT("GetCurrentHwProfile failed with error %lx\n"), 
                  GetLastError());
@@ -117,10 +121,10 @@ void main(void)
    _tprintf(TEXT("Profile Guid = %s\n"), HwProfInfo.szHwProfileGuid);
    _tprintf(TEXT("Friendly Name = %s\n"), HwProfInfo.szHwProfileName);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

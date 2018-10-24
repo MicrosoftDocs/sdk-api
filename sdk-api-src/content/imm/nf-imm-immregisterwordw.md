@@ -7,7 +7,7 @@ old-location: intl\immregisterword.htm
 tech.root: Intl
 ms.assetid: c5a507f3-5908-4f44-be7a-7feba8bfe378
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/19/2018
 ms.keywords: Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmRegisterWord, ImmRegisterWord function [Internationalization for Windows Applications], ImmRegisterWordA, ImmRegisterWordW, _win32_ImmRegisterWord, imm/ImmRegisterWord, imm/ImmRegisterWordA, imm/ImmRegisterWordW, intl.immregisterword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,14 +123,18 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 An IME independent software vendor (ISV) can define private styles for an IME in the IME_REGWORD_STYLE_USER_FIRST and IME_REGWORD_STYLE_USER_LAST values. For example:
 
-
-```cpp
-#define MSIME_NOUN (IME_REGWORD_STYLE_USER_FIRST)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define MSIME_NOUN (IME_REGWORD_STYLE_USER_FIRST)
 #define MSIME_VERB (IME_REGWORD_STYLE_USER_FIRST + 1)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: ICertEncodeDateArray::Encode
 author: windows-sdk-content
 description: Returns an Abstract Syntax Notation One (ASN.1)-encoded string of the date array stored in this object.
 old-location: security\icertencodedatearray_encode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 102ca165-c320-4e18-986f-7375fbc617e0
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CCertEncodeDateArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeDateArray object, Encode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Encode method, ICertEncodeDateArray.Encode, ICertEncodeDateArray::Encode, _certsrv_icertencodedatearray_encode, certenc/ICertEncodeDateArray::Encode, security.icertencodedatearray_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,13 +51,13 @@ req.redist:
 ## -description
 
 
-The <b>Encode</b> method returns an <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1)-encoded string of the date array stored in this object.
+The <b>Encode</b> method returns an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded string of the date array stored in this object.
 
-Use the <a href="https://msdn.microsoft.com/en-us/library/Aa384001(v=VS.85).aspx">Decode</a> method to decode the encoded string into an <b>CertEncodeDateArray</b> object.
+Use the <a href="https://msdn.microsoft.com/79937ef7-4b1a-4132-9ef4-23b2857c7fac">Decode</a> method to decode the encoded string into an <b>CertEncodeDateArray</b> object.
 
 Before using this method, you must call both the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384030(v=VS.85).aspx">Reset</a> method to size the array and the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384036(v=VS.85).aspx">SetValue</a> method to set each array element.
+<a href="https://msdn.microsoft.com/f09087aa-ae10-4a59-9b59-5f8b72254ce6">Reset</a> method to size the array and the 
+<a href="https://msdn.microsoft.com/e05a7aa1-81ad-4564-a6a5-65b8ac816598">SetValue</a> method to set each array element.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ TBD
 
 #### - pbstrBinary [out]
 
-A pointer to a <b>BSTR</b> that will contain the encoded <b>Date</b> array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that will contain the encoded <b>Date</b> array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -84,7 +84,7 @@ A pointer to a <b>BSTR</b> that will contain the encoded <b>Date</b> array. When
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the ASN.1-encoded string that represents the <b>DATE</b> array.
@@ -97,19 +97,19 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383991(v=VS.85).aspx">ICertEncodeDateArray</a>
+<a href="https://msdn.microsoft.com/9973c49a-d886-4cc4-b75e-7ff46f56d51c">ICertEncodeDateArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384001(v=VS.85).aspx">ICertEncodeDateArray::Decode</a>
+<a href="https://msdn.microsoft.com/79937ef7-4b1a-4132-9ef4-23b2857c7fac">ICertEncodeDateArray::Decode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384030(v=VS.85).aspx">ICertEncodeDateArray::Reset</a>
+<a href="https://msdn.microsoft.com/f09087aa-ae10-4a59-9b59-5f8b72254ce6">ICertEncodeDateArray::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384036(v=VS.85).aspx">ICertEncodeDateArray::SetValue</a>
+<a href="https://msdn.microsoft.com/e05a7aa1-81ad-4564-a6a5-65b8ac816598">ICertEncodeDateArray::SetValue</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: intl\scriptgetglyphabcwidth.htm
 tech.root: Intl
 ms.assetid: 71611c9c-f8f6-4064-b153-f31a8cbb7761
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/19/2018
 ms.keywords: ScriptGetGlyphABCWidth, ScriptGetGlyphABCWidth function [Internationalization for Windows Applications], _win32_ScriptGetGlyphABCWidth, intl.scriptgetglyphabcwidth, usp10/ScriptGetGlyphABCWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">ABC width</a> of a given glyph.
+Retrieves the <a href="uniscribe_glossary.htm">ABC width</a> of a given glyph.
 
 
 ## -parameters

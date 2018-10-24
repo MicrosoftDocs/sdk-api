@@ -7,7 +7,7 @@ old-location: intl\makelcid.htm
 tech.root: Intl
 ms.assetid: 2f8893a0-f916-4a62-a423-e525cf281fa4
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/19/2018
 ms.keywords: MAKELCID, MAKELCID macro [Internationalization for Windows Applications], _win32_MAKELCID, intl.makelcid, winnt/MAKELCID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: perf\perf_counter_identity.htm
 tech.root: perfctrs
 ms.assetid: a18d2546-642b-4e83-be05-4b4aae1f2d2c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: "*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY structure [Perf], PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY structure [Perf], _PERF_COUNTER_IDENTITY, base.perf_counter_identity, perf.perf_counter_identity, perflib/PERF_COUNTER_IDENTITY"
 ms.prod: windows
 ms.technology: windows-sdk

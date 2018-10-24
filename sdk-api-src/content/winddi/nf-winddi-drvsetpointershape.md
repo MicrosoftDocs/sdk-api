@@ -7,7 +7,7 @@ old-location: display\drvsetpointershape.htm
 tech.root: display
 ms.assetid: 3cc186df-572b-48ed-ac0b-56c8d91a9794
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DrvSetPointerShape, DrvSetPointerShape function [Display Devices], ddifncs_86472b92-edfc-4811-8b35-e690136a2430.xml, display.drvsetpointershape, winddi/DrvSetPointerShape
 ms.prod: windows-hardware
 ms.technology: windows-devices

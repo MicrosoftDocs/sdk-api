@@ -4,10 +4,10 @@ title: "_CRYPT_XML_OBJECT"
 author: windows-sdk-content
 description: Describes an Object element in the signature.
 old-location: security\crypt_xml_object.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b151efb2-8801-451a-83ec-e9045c2e0b81
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCRYPT_XML_OBJECT, CRYPT_XML_OBJECT, CRYPT_XML_OBJECT structure [Security], PCRYPT_XML_OBJECT, PCRYPT_XML_OBJECT structure pointer [Security], _CRYPT_XML_OBJECT, cryptxml/CRYPT_XML_OBJECT, cryptxml/PCRYPT_XML_OBJECT, security.crypt_xml_object"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,12 +85,12 @@ Optional. A pointer to a null-terminated wide character string that contains the
 
 ### -field Manifest
 
-Optional. A <a href="https://msdn.microsoft.com/en-us/library/Dd433863(v=VS.85).aspx">CRYPT_XML_REFERENCES</a> structure that specifies an array of references.
+Optional. A <a href="https://msdn.microsoft.com/25414b2d-3283-4e2f-a23c-ccebff1409e2">CRYPT_XML_REFERENCES</a> structure that specifies an array of references.
 
 
 ### -field Encoded
 
-Optional. A <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains the XML part of the entire <b>Object</b> element.
+Optional. A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains the XML part of the entire <b>Object</b> element.
 
 <div class="alert"><b>Note</b>  This field is empty when the <b>Object</b> element does not contain
     any elements.

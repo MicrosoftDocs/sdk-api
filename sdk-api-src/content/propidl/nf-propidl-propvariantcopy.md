@@ -7,7 +7,7 @@ old-location: properties\PropVariantCopy.htm
 tech.root: properties
 ms.assetid: f17f1722-f041-414c-b838-f1f83427ff0c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Windows Properties], _shell_PropVariantCopy, properties.PropVariantCopy, propidl/PropVariantCopy, shell.PropVariantCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices

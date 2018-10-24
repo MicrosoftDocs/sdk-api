@@ -7,7 +7,7 @@ old-location: imapi\imultisessionsequential.htm
 tech.root: imapi
 ms.assetid: b8124597-e75a-4f95-a25c-8cf59f452548
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IMultisessionSequential, IMultisessionSequential interface [IMAPI], IMultisessionSequential interface [IMAPI],described, imapi.imultisessionsequential, imapi2/IMultisessionSequential
 ms.prod: windows
 ms.technology: windows-sdk

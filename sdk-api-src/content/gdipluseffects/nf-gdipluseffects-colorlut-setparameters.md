@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorLUT_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutmethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: ColorLUT class [GDI+],SetParameters method, ColorLUT.SetParameters, ColorLUT::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],ColorLUT class, _gdiplus_CLASS_ColorLUT_SetParameters_, gdiplus._gdiplus_CLASS_ColorLUT_SetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a> object.
+The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/d13dc185-e6f2-4a0f-b972-e9b6ce0859c6">ColorLUT</a> object.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ TBD
 
 #### - parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534061(v=VS.85).aspx">ColorLUTParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/6ae866ac-6335-428a-bb11-ec793b69c2b7">ColorLUTParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534061(v=VS.85).aspx">ColorLUTParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://msdn.microsoft.com/6ae866ac-6335-428a-bb11-ec793b69c2b7">ColorLUTParams</a> structure that specifies the parameters.
 
 
 ## -returns
@@ -87,11 +87,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a>
+<a href="https://msdn.microsoft.com/d13dc185-e6f2-4a0f-b972-e9b6ce0859c6">ColorLUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536236(v=VS.85).aspx">ColorLUT::GetParameters</a>
+<a href="https://msdn.microsoft.com/d181fb37-a854-4d37-9406-801caa1a9eb2">ColorLUT::GetParameters</a>
  
 
  

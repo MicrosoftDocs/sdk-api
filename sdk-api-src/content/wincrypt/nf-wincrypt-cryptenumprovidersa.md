@@ -4,10 +4,10 @@ title: CryptEnumProvidersA function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptenumproviders.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptEnumProviders, CryptEnumProviders function [Security], CryptEnumProvidersA, CryptEnumProvidersW, _crypto2_cryptenumproviders, security.cryptenumproviders, wincrypt/CryptEnumProviders, wincrypt/CryptEnumProvidersA, wincrypt/CryptEnumProvidersW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -188,11 +188,15 @@ This function  enumerates the providers available on a computer. The provider ty
 
 The following example shows a loop listing all available cryptographic service providers. For another example that uses the  <b>CryptEnumProviders</b> function, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
-
-```cpp
-#include <stdio.h>
-#include <windows.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;Wincrypt.h&gt;
 #pragma comment(lib, "advapi32.lib")
 
 void main()
@@ -220,9 +224,9 @@ void main()
            dwIndex,
            NULL,
            0,
-           &dwType,
+           &amp;dwType,
            NULL,
-           &cbName
+           &amp;cbName
            ))
     {
 
@@ -242,9 +246,9 @@ void main()
                dwIndex++,
                NULL,
                0,
-               &dwType,
+               &amp;dwType,
                pszName,
-               &cbName
+               &amp;cbName
                ))
         {
             printf ("     %4.0d\t%s\n",dwType, pszName);
@@ -260,10 +264,10 @@ void main()
 
     printf("\nProvider types and provider names "
         "have been listed.\n");
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -276,7 +280,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

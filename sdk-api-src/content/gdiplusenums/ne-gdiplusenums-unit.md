@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_Unit.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\unit.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Unit, Unit enumeration [GDI+], UnitDisplay, UnitDocument, UnitInch, UnitMillimeter, UnitPixel, UnitPoint, UnitWorld, _gdiplus_ENUM_Unit, gdiplus._gdiplus_ENUM_Unit, gdiplusenums/Unit, gdiplusenums/UnitDisplay, gdiplusenums/UnitDocument, gdiplusenums/UnitInch, gdiplusenums/UnitMillimeter, gdiplusenums/UnitPixel, gdiplusenums/UnitPoint, gdiplusenums/UnitWorld
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY"
 author: windows-sdk-content
 description: Used to impose restrictions on what system calls can be invoked by a process.
 old-location: base\process_mitigation_system_call_disable_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: dfcdf4ae-c779-477c-8df6-de24b8037d62
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: "*PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY structure pointer, PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY structure, _PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, base.process_mitigation_system_call_disable_policy, winnt/PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY, winnt/PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

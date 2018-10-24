@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_84pointamppoint_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN const Point &,IN const Graphics), Region.IsVisible(const Point&,const Graphics*), Region::IsVisible, Region::IsVisible(IN const Point &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,7 +156,7 @@ The following example creates a region from a path and then tests to determine w
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 

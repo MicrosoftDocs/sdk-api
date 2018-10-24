@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_SetEmptyText.htm
 tech.root: shell
 ms.assetid: 2b87333e-f120-468e-8e9f-c652806059e9
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetEmptyText method, IExplorerBrowser.SetEmptyText, IExplorerBrowser::SetEmptyText, SetEmptyText, SetEmptyText method [Windows Shell], SetEmptyText method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetEmptyText, shell.IExplorerBrowser_SetEmptyText, shobjidl_core/IExplorerBrowser::SetEmptyText
 ms.prod: windows-hardware
 ms.technology: windows-devices

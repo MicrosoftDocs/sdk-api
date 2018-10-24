@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2_put_usestreamingwrite12.htm
 tech.root: imapi
 ms.assetid: c0fa6248-c582-423d-8983-81cd56d9abdd
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_UseStreamingWrite12 method, IWriteEngine2.put_UseStreamingWrite12, IWriteEngine2::put_UseStreamingWrite12, imapi.iwriteengine2_put_usestreamingwrite12, imapi2/IWriteEngine2::put_UseStreamingWrite12, put_UseStreamingWrite12, put_UseStreamingWrite12 method [IMAPI], put_UseStreamingWrite12 method [IMAPI],IWriteEngine2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

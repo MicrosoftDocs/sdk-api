@@ -7,7 +7,7 @@ old-location: shell\ColorAdjustLuma.htm
 tech.root: shell
 ms.assetid: d113ad59-cde4-4f11-b7f1-53b3fb69ec10
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ColorAdjustLuma, ColorAdjustLuma function [Windows Shell], _win32_ColorAdjustLuma, shell.ColorAdjustLuma, shlwapi/ColorAdjustLuma
 ms.prod: windows-hardware
 ms.technology: windows-devices

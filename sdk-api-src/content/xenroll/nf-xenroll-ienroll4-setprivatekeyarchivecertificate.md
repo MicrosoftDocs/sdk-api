@@ -4,10 +4,10 @@ title: IEnroll4::SetPrivateKeyArchiveCertificate
 author: windows-sdk-content
 description: The SetPrivateKeyArchiveCertificate method specifies the certificate used to archive the private key. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_setprivatekeyarchivecertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e37a8055-4074-425b-8f88-69b898855824
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IEnroll4 interface [Security],SetPrivateKeyArchiveCertificate method, IEnroll4.SetPrivateKeyArchiveCertificate, IEnroll4::SetPrivateKeyArchiveCertificate, SetPrivateKeyArchiveCertificate, SetPrivateKeyArchiveCertificate method [Security], SetPrivateKeyArchiveCertificate method [Security],IEnroll4 interface, security.ienroll4_setprivatekeyarchivecertificate, xenroll/IEnroll4::SetPrivateKeyArchiveCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

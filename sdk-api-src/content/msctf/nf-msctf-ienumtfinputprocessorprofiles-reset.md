@@ -7,7 +7,7 @@ old-location: tsf\ienumtfinputprocessorprofiles_reset.htm
 tech.root: TSF
 ms.assetid: ffb78b29-8d05-4622-a026-69af0d86c9c2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Reset method, IEnumTfInputProcessorProfiles.Reset, IEnumTfInputProcessorProfiles::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Reset, tsf.ienumtfinputprocessorprofiles_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

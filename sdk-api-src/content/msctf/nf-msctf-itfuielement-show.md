@@ -7,7 +7,7 @@ old-location: tsf\itfuielement_show.htm
 tech.root: TSF
 ms.assetid: 423543d9-f3aa-4a42-89f6-dd1d48967c73
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],Show method, ITfUIElement.Show, ITfUIElement::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::Show, tsf.itfuielement_show
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\SetInputScopeXML.htm
 tech.root: TSF
 ms.assetid: bd770852-412a-4097-b22f-02f240516770
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SetInputScopeXML, SetInputScopeXML function [Text Services Framework], inputscope/SetInputScopeXML, tsf.SetInputScopeXML
 ms.prod: windows-hardware
 ms.technology: windows-devices

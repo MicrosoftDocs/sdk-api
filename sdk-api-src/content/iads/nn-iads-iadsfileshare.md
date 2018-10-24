@@ -55,7 +55,7 @@ The <b>IADsFileShare</b> interface is a dual interface that inherits from <a hre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsFileShare</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsFileShare</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsFileShare</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsFileShare</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -332,38 +332,46 @@ To bind to a file share, using the WinNT system provider, you can explicitly bin
 
 The following code example demonstrates how to bind to the file service and enumerate the container to display the names of the shares in that container.
 
-
-```vb
-Dim fs as IADsFileService
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fs as IADsFileService
 Dim share As IADsFileShare
 On Error GoTo Cleanup
 
 Set fs = GetObject("WinNT://aComputer/LanmanServer")
 
 For Each share In fs
-    MsgBox("Share: " & share.name)
+    MsgBox("Share: " &amp; share.name)
 Next share
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set fs = Nothing
     Set share = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example demonstrates how to bind directly to a file share.
 
-
-```vb
-Dim fs as IADsFileShare
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fs as IADsFileShare
 On Error Resume Next
-Set fs = GetObject("WinNT://aComputer/LanmanServer/_file_share_name_")
-```
-
-
+Set fs = GetObject("WinNT://aComputer/LanmanServer/_file_share_name_")</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -380,7 +388,7 @@ Set fs = GetObject("WinNT://aComputer/LanmanServer/_file_share_name_")
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

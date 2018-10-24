@@ -7,7 +7,7 @@ old-location: htmlhelp\iitdatabase_getobject.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasegetobject.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/22/2018
 ms.keywords: GetObject, GetObject method [HTML Help Workshop], GetObject method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],GetObject method, IITDatabase.GetObject, IITDatabase::GetObject, htmlhelp.iitdatabase_getobject, infotech/IITDatabase::GetObject, refIITDatabaseGetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,7 +147,7 @@ The memory required for internal structures could not be allocated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">IITDatabase</a>
+<a href="https://msdn.microsoft.com/16051c95-5fad-43ea-9b85-a4754077dc3c">IITDatabase</a>
  
 
  

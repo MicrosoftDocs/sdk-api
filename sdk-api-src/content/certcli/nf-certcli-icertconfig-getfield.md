@@ -4,10 +4,10 @@ title: ICertConfig::GetField
 author: windows-sdk-content
 description: Gets a specific field from the current record of the configuration database. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getfield.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8e477fa7-d0e7-43f3-98b5-79c924a1a29c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: Authority, CCertConfig object [Security],GetField method, CommonName, Config, Country, Description, ExchangeCertificate, Flags, GetField, GetField method [Security], GetField method [Security],CCertConfig object, GetField method [Security],ICertConfig interface, GetField method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetField method, ICertConfig.GetField, ICertConfig2 interface [Security],GetField method, ICertConfig2::GetField, ICertConfig::GetField, Locality, OrgUnit, Organization, SanitizedName, SanitizedShortName, Server, ShortName, SignatureCertificate, State, WebEnrollmentServers, _certsrv_icertconfig_getfield, certcli/ICertConfig2::GetField, certcli/ICertConfig::GetField, security.icertconfig2_getfield
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>GetField</b> method gets a specific field from the current record of the configuration database. This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a> interface.
+The <b>GetField</b> method gets a specific field from the current record of the configuration database. This method was first defined in the <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a> interface.
 
 
 ## -parameters
@@ -175,8 +175,8 @@ Organizational unit.
 </dl>
 </td>
 <td width="60%">
-CA name that is <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">sanitized</a> according to the rules described in 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">GetConfig</a>.
+CA name that is <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">sanitized</a> according to the rules described in 
+<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">GetConfig</a>.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ CA name that is <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.
 </td>
 <td width="60%">
 CA name that is sanitized and shortened according to the rules described in 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">GetConfig</a>.
+<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">GetConfig</a>.
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ Reference computer name.
 </td>
 <td width="60%">
 SanitizedShortName, but with the '!xxx' sequences, as described in 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">GetConfig</a>, translated back into the original text.
+<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">GetConfig</a>, translated back into the original text.
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ SanitizedShortName, but with the '!xxx' sequences, as described in
 </dl>
 </td>
 <td width="60%">
-Name of the file that contains the CA certificate (also known as the CA <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">signature certificate</a>); this may or may not be a <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">root certificate</a>.
+Name of the file that contains the CA certificate (also known as the CA <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">signature certificate</a>); this may or may not be a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">root certificate</a>.
 
 </td>
 </tr>
@@ -257,7 +257,7 @@ TBD
 
 #### - pbstrOut [out, retval]
 
-A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -267,7 +267,7 @@ A pointer to a <b>BSTR</b> that receives the data from the field. When you have 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the data for the field.
@@ -286,14 +286,18 @@ When you specify "Flags" in the <i>strFieldName</i> parameter, the retrieved dat
 
 #### Examples
 
-
-```cpp
-    BSTR  bstrFieldName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    BSTR  bstrFieldName = NULL;
     BSTR  bstrFieldValue = NULL;
     HRESULT    hr;
 
     // Specify the field to retrieve, for example, "CommonName".
-    bstrFieldName = SysAllocString(L"<FIELDNAMEHERE>");
+    bstrFieldName = SysAllocString(L"&lt;FIELDNAMEHERE&gt;");
     if (NULL == bstrFieldName)
     {
         printf("Memory allocation failed for bstrFieldName.\n");
@@ -301,7 +305,7 @@ When you specify "Flags" in the <i>strFieldName</i> parameter, the retrieved dat
     }
 
     // pConfig is a previously instantiated ICertConfig object.
-    hr = pConfig->GetField(bstrFieldName, &bstrFieldValue);
+    hr = pConfig-&gt;GetField(bstrFieldName, &amp;bstrFieldValue);
     if (FAILED(hr))
     {
         printf("Failed GetField - [%x]\n", hr);
@@ -317,10 +321,10 @@ error:
         SysFreeString(bstrFieldName);
 
     if (bstrFieldValue)
-        SysFreeString(bstrFieldValue);
-```
-
-
+        SysFreeString(bstrFieldValue);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -329,11 +333,11 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">CCertConfig</a>
+<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">CCertConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex.htm
 tech.root: imapi
 ms.assetid: 37e65b57-ec53-405c-a7bd-34c2df15d5d7
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], IDiscRecorder2Ex interface [IMAPI],described, imapi.idiscrecorder2ex, imapi2/IDiscRecorder2Ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Note that you cannot access this functionality from script.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder2Ex</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDiscRecorder2Ex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder2Ex</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IDiscRecorder2Ex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

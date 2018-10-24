@@ -7,7 +7,7 @@ old-location: projfs\prj_get_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: 45E7E7F9-9E54-44C8-9915-43CCECF85DB6
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PRJ_GET_DIRECTORY_ENUMERATION_CB, PRJ_GET_DIRECTORY_ENUMERATION_CB callback, PRJ_GET_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_get_directory_enumeration_cb, projectedfslib/PRJ_GET_DIRECTORY_ENUMERATION_CB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ An identifier for this enumeration session.
 
 ### -param searchExpression [in, optional]
 
-A pointer to a null-terminated Unicode string specifying a search expression. The search expression may include wildcard characters. The provider should use the <a href="projfs.prjdoesnamecontainwildcards">PrjDoesNameContainWildCards</a> function to determine whether wildcards are present in <b>searchExpression</b>, and it should use the <a href="projfs.prjfilenamematch">PrjFileNameMatch</a> function to determine whether an entry in its backing store matches a search expression containing wildcards.
+A pointer to a null-terminated Unicode string specifying a search expression. The search expression may include wildcard characters. The provider should use the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjdoesnamecontainwildcards">PrjDoesNameContainWildCards</a> function to determine whether wildcards are present in <b>searchExpression</b>, and it should use the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamematch">PrjFileNameMatch</a> function to determine whether an entry in its backing store matches a search expression containing wildcards.
 
 This parameter is optional and may be NULL.<ul>
 <li>If this parameter is not NULL, the provider must return only those directory entries whose names match the search expression.</li>
@@ -110,7 +110,7 @@ The provider should capture the value of this parameter on the first invocation 
 
 ### -param dirEntryBufferHandle [in]
 
-An opaque handle to a structure that receives the results of the enumeration from the provider. The provider uses the <a href="projfs.prjfilldirentrybuffer">PrjFillDirEntryBuffer</a> routine to fill the structure.
+An opaque handle to a structure that receives the results of the enumeration from the provider. The provider uses the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer">PrjFillDirEntryBuffer</a> routine to fill the structure.
 
 
 ## -returns
@@ -141,7 +141,7 @@ The provider successfully added at least one entry to dirEntryBufferHandle, or n
 </dl>
 </td>
 <td width="60%">
-The provider received this error from <a href="projfs.prjfilldirentrybuffer">PrjFillDirEntryBuffer</a> for the first file or directory it tried to add to dirEntryBufferHandle. 
+The provider received this error from <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer">PrjFillDirEntryBuffer</a> for the first file or directory it tried to add to dirEntryBufferHandle. 
 
 
 </td>
@@ -171,7 +171,7 @@ An appropriate HRESULT error code if the provider fails the operation.
 
 
 
-ProjFS invokes this callback one or more times after invoking <a href="projfs.prj_start_directory_enumeration_cb">PRJ_START_DIRECTORY_ENUMERATION_CB</a>.  See the Remarks section of <i>PRJ_START_DIRECTORY_ENUMERATION_CB</i> for more information.
+ProjFS invokes this callback one or more times after invoking <a href="https://msdn.microsoft.com/09F284D4-BF39-42C9-A89B-DDC8201362EE">PRJ_START_DIRECTORY_ENUMERATION_CB</a>.  See the Remarks section of <i>PRJ_START_DIRECTORY_ENUMERATION_CB</i> for more information.
 
 
 

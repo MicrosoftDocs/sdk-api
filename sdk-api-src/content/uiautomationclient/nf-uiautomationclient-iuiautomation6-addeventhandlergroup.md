@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6_AddEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: 8F131A7C-BC03-4967-9ED8-624086DEA112
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: AddEventHandlerGroup, AddEventHandlerGroup method [Windows Accessibility], AddEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],AddEventHandlerGroup method, IUIAutomation6.AddEventHandlerGroup, IUIAutomation6::AddEventHandlerGroup, uiautomationclient/IUIAutomation6::AddEventHandlerGroup, winauto.uiauto_IUIAutomation6_AddEventHandlerGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Registers a collection of event handler methods specified with the <a href="winauto.uauto_iuiautomation6_createeventhandlergroup">CreateEventHandlerGroup</a>.
+Registers a collection of event handler methods specified with the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-createeventhandlergroup">CreateEventHandlerGroup</a>.
 <div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div><div> </div>
 
 ## -parameters
@@ -91,11 +91,11 @@ Before implementing an event handler, you should be familiar with the threading 
 
 
 
-<a href="winauto.iuiautomation6">IUIAutomation6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
 
 
 
-<a href="winauto.uiauto_iuiautomation6_removeeventhandlergroup">RemoveEventHandlerGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-removeeventhandlergroup">RemoveEventHandlerGroup</a>
  
 
  

@@ -91,11 +91,15 @@ The data type of
 
 The following C++ example shows how to initialize and add conditions to a filter.
 
-
-```cpp
-#include <windows.h>
-#include <fwpmu.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;fwpmu.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Fwpuclnt.lib")
 
@@ -113,7 +117,7 @@ void main()
     fwpApplicationByteBlob = (FWP_BYTE_BLOB*) malloc(sizeof(FWP_BYTE_BLOB));
     
     printf("Retrieving application identifier for filter testing.\n"); 
-    result = FwpmGetAppIdFromFileName0(FILE0_PATH, &fwpApplicationByteBlob);
+    result = FwpmGetAppIdFromFileName0(FILE0_PATH, &amp;fwpApplicationByteBlob);
     if (result != ERROR_SUCCESS)
     {
         printf("FwpmGetAppIdFromFileName failed (%d).\n", result);
@@ -137,20 +141,20 @@ void main()
       ++conCount;
 
       // Add conditions and condition count to a filter.
-      memset(&fwpFilter, 0, sizeof(FWPM_FILTER0));
+      memset(&amp;fwpFilter, 0, sizeof(FWPM_FILTER0));
 
       fwpFilter.numFilterConditions = conCount;
-      if (conCount > 0)
+      if (conCount &gt; 0)
         fwpFilter.filterCondition = fwpConditions;
 
       // Finish initializing filter...
 
     return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

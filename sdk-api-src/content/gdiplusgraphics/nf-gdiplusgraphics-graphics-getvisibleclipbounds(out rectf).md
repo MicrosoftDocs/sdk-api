@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetVisibleClipBounds_RectF_rect_.h
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetvisibleclipboundsmethods\getvisibleclipbounds_27rectfrect.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds method [GDI+], GetVisibleClipBounds method [GDI+],Graphics class, Graphics class [GDI+],GetVisibleClipBounds method, Graphics.GetVisibleClipBounds, Graphics.GetVisibleClipBounds(OUT RectF), Graphics.GetVisibleClipBounds(RectF*), Graphics::GetVisibleClipBounds, Graphics::GetVisibleClipBounds(OUT RectF), _gdiplus_CLASS_Graphics_GetVisibleClipBounds_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

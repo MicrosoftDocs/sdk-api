@@ -4,10 +4,10 @@ title: PFN_CRYPT_GET_SIGNER_CERTIFICATE
 author: windows-sdk-content
 description: The CryptGetSignerCertificateCallback user supplied callback function is used with the CRYPT_VERIFY_MESSAGE_PARA structure to get and verify a message signer's certificate.
 old-location: security\cryptgetsignercertificatecallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 557ebb26-cce0-4c41-b49c-769b2831cf35
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptGetSignerCertificateCallback, CryptGetSignerCertificateCallback callback function [Security], PFN_CRYPT_GET_SIGNER_CERTIFICATE, PFN_CRYPT_GET_SIGNER_CERTIFICATE callback, security.cryptgetsignercertificatecallback, wincrypt/CryptGetSignerCertificateCallback
 ms.prod: windows
 ms.technology: windows-sdk

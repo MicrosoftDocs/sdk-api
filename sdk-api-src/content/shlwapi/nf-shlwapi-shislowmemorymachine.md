@@ -7,7 +7,7 @@ old-location: shell\SHIsLowMemoryMachine.htm
 tech.root: shell
 ms.assetid: 3a91156d-eef9-4d3c-9cb8-fd50bfa94354
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ILMM_IE4, SHIsLowMemoryMachine, SHIsLowMemoryMachine function [Windows Shell], _shell_SHIsLowMemoryMachine, shell.SHIsLowMemoryMachine, shlwapi/SHIsLowMemoryMachine
 ms.prod: windows-hardware
 ms.technology: windows-devices

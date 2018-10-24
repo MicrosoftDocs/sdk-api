@@ -7,7 +7,7 @@ old-location: wmi\iwbemshutdown_shutdown.htm
 tech.root: WmiSdk
 ms.assetid: b6eb56ae-5869-413f-a455-22616b04c18f
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: IWbemShutdown interface [Windows Management Instrumentation],Shutdown method, IWbemShutdown.Shutdown, IWbemShutdown::Shutdown, Shutdown, Shutdown method [Windows Management Instrumentation], Shutdown method [Windows Management Instrumentation],IWbemShutdown interface, wbemcli/IWbemShutdown::Shutdown, wmi.iwbemshutdown_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

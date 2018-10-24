@@ -7,7 +7,7 @@ old-location: shell\ILaunchTargetViewSizePreference.htm
 tech.root: shell
 ms.assetid: 3535E9EF-265E-4278-8E0D-60AA8A34C316
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ILaunchTargetViewSizePreference, ILaunchTargetViewSizePreference interface [Windows Shell], ILaunchTargetViewSizePreference interface [Windows Shell],described, shell.ILaunchTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference
 ms.prod: windows
 ms.technology: windows-sdk

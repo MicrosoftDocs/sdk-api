@@ -4,10 +4,10 @@ title: GetCurrentProcess function
 author: windows-sdk-content
 description: Retrieves a pseudo handle for the current process.
 old-location: base\getcurrentprocess.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 0471790c-3bb9-4180-8676-941e655b1812
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: GetCurrentProcess, GetCurrentProcess function, _win32_getcurrentprocess, base.getcurrentprocess, processthreadsapi/GetCurrentProcess, winbase/GetCurrentProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

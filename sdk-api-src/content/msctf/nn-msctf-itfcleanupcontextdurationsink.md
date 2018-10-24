@@ -7,7 +7,7 @@ old-location: tsf\itfcleanupcontextdurationsink.htm
 tech.root: TSF
 ms.assetid: 2bbdc26a-5543-4de4-b347-2062be593c4b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfCleanupContextDurationSink, ITfCleanupContextDurationSink interface [Text Services Framework], ITfCleanupContextDurationSink interface [Text Services Framework],described, _tsf_itfcleanupcontextdurationsink_ref, msctf/ITfCleanupContextDurationSink, tsf.itfcleanupcontextdurationsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ A text service can use the notifications of this interface to prevent itself fro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -72,15 +72,19 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNCLOSE(fnFileClose)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCLOSE(fnFileClose)
 {
     return ( CloseHandle((HANDLE)hf) == TRUE ) ? 0 : -1;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_SetFolderType.htm
 tech.root: shell
 ms.assetid: e3e3f356-6ffd-46b9-b8a5-1b0c9df01abe
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetFolderType method, IShellLibrary.SetFolderType, IShellLibrary::SetFolderType, SetFolderType, SetFolderType method [Windows Shell], SetFolderType method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetFolderType, shell.IShellLibrary_SetFolderType, shobjidl_core/IShellLibrary::SetFolderType
 ms.prod: windows-hardware
 ms.technology: windows-devices

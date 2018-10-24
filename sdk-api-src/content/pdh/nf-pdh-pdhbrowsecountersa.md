@@ -7,7 +7,7 @@ old-location: perf\pdhbrowsecounters.htm
 tech.root: perfctrs
 ms.assetid: 4e9e4b20-a573-4f6d-97e8-63bcc675032b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: PdhBrowseCounters, PdhBrowseCounters function [Perf], PdhBrowseCountersA, PdhBrowseCountersW, _win32_pdhbrowsecounters, base.pdhbrowsecounters, pdh/PdhBrowseCounters, pdh/PdhBrowseCountersA, pdh/PdhBrowseCountersW, perf.pdhbrowsecounters
 ms.prod: windows-hardware
 ms.technology: windows-devices

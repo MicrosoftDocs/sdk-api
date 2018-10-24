@@ -4,10 +4,10 @@ title: PFXIsPFXBlob function
 author: windows-sdk-content
 description: The PFXIsPFXBlob function attempts to decode the outer layer of a BLOB as a PFX packet.
 old-location: security\pfxispfxblob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 28984407-0a28-48e1-9d67-37a6e9db7601
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PFXIsPFXBlob, PFXIsPFXBlob function [Security], _crypto2_pfxispfxblob, security.pfxispfxblob, wincrypt/PFXIsPFXBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

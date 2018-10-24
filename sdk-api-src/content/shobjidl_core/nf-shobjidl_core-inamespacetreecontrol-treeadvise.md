@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_TreeAdvise.htm
 tech.root: shell
 ms.assetid: d59b9772-7061-4ea5-964a-75deb293b407
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],TreeAdvise method, INameSpaceTreeControl.TreeAdvise, INameSpaceTreeControl::TreeAdvise, TreeAdvise, TreeAdvise method [Windows Shell], TreeAdvise method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_TreeAdvise, shell.INameSpaceTreeControl_TreeAdvise, shobjidl_core/INameSpaceTreeControl::TreeAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

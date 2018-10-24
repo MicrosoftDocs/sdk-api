@@ -7,7 +7,7 @@ old-location: display\drvplgblt.htm
 tech.root: display
 ms.assetid: 5bd478f1-0c01-4d7f-9ed1-af84e5bbe773
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DrvPlgBlt, DrvPlgBlt function [Display Devices], ddifncs_7ede9dd6-c295-42b1-96f0-966ce103cc2e.xml, display.drvplgblt, winddi/DrvPlgBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,12 +107,16 @@ Pointer to a <a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247
 
 Pointer to three POINTFIX structures that define a parallelogram in the destination surface. Define <i>pptfx</i>[0] as A, <i>pptfx</i>[1] as B, and <i>pptfx</i>[2] as C. A, B, and C define three vertices of a parallelogram. A fourth implicit vertex is given as:
 
-
-```
-    D = B + C − A
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    D = B + C − A</pre>
+</td>
+</tr>
+</table></span></div>
 <b>DrvPlgBlt</b> is never called with A, B, and C collinear.
 
 
@@ -202,12 +206,16 @@ The source rectangle at <i>prcl</i> is considered to be a geometric rectangle wh
 
 The upper-left corner of the source rectangle is mapped to the first point, A. The upper-right corner of the source rectangle is mapped to the second point, B. The lower-left corner of the source rectangle is mapped to the third point, C. The lower right corner of the source rectangle is mapped to the implicit point in the parallelogram defined by treating the three given points as vectors and computing:
 
-
-```
-    D = B + C - A
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    D = B + C - A</pre>
+</td>
+</tr>
+</table></span></div>
 Note that a stretch blt can be expressed exactly as a parallelogram blt, but the coordinates given for the destination will have a fractional part of 0.5.
 
 <b>DrvPlgBlt</b> is optional for graphics drivers. It is provided only for certain types of rotation. The driver should call <a href="https://msdn.microsoft.com/a25a0fcd-1a61-483a-ba22-1214a9806b70">EngPlgBlt</a> if <b>DrvPlgBlt</b> is called to perform operations it does not support.

@@ -7,7 +7,7 @@ old-location: shell\THUMBBUTTON.htm
 tech.root: shell
 ms.assetid: c13657b2-5b96-45ae-b339-b06b13aca65d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*LPTHUMBBUTTON, LPTHUMBBUTTON, LPTHUMBBUTTON structure pointer [Windows Shell], THUMBBUTTON, THUMBBUTTON structure [Windows Shell], _shell_THUMBBUTTON, shell.THUMBBUTTON, shobjidl_core/LPTHUMBBUTTON, shobjidl_core/THUMBBUTTON"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ A combination of <a href="https://msdn.microsoft.com/601a2517-cfce-4edb-b2ca-e2e
 
 
 
-When a button is clicked, a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message that contains the button ID is sent to the associated application window. The application handles whatever action it has assigned to the button.
+When a button is clicked, a <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> message that contains the button ID is sent to the associated application window. The application handles whatever action it has assigned to the button.
 
 <h3><a id="Button_Images"></a><a id="button_images"></a><a id="BUTTON_IMAGES"></a>Button Images</h3>
 When using an icon, specified through the <b>hIcon</b> member, the taskbar makes its own copy of the icon. It is the caller's responsibility to free the handle it passed in <b>hIcon</b> when it is no longer needed.

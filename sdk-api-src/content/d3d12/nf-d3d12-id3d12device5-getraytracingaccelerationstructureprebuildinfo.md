@@ -99,7 +99,7 @@ This method is on the device interface as opposed to command list on the assumpt
 
 
 
-<a href="direct3d12.id3d12device5">ID3D12Device5</a>
+<a href="https://msdn.microsoft.com/2D72898B-F512-4E0D-8FAC-A53EA6FE614A">ID3D12Device5</a>
  
 
  

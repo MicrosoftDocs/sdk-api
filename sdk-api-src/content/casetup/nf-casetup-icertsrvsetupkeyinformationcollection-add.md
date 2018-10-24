@@ -4,10 +4,10 @@ title: ICertSrvSetupKeyInformationCollection::Add
 author: windows-sdk-content
 description: Adds an ICertSrvSetupKeyInformation object to the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_add.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8f342787-13f7-4bca-8320-61bb5112ee34
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Add method, ICertSrvSetupKeyInformationCollection.Add, ICertSrvSetupKeyInformationCollection::Add, casetup/ICertSrvSetupKeyInformationCollection::Add, security.icertsrvsetupkeyinformationcollection_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object to the collection.
+The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object to the collection.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -param pIKeyInformation [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object.
+A pointer to an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object.
 
 
 ## -see-also
@@ -68,7 +68,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736373(v=VS.85).aspx">ICertSrvSetupKeyInformationCollection</a>
+<a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a>
  
 
  

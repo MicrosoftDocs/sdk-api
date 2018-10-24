@@ -7,7 +7,7 @@ old-location: projfs\prj_callback_data.htm
 tech.root: ProjFS
 ms.assetid: 569204FF-97F5-4FE2-9885-94C88AB5A6FE
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PRJ_CALLBACK_DATA, PRJ_CALLBACK_DATA structure, ProjFS.prj_callback_data, projectedfslib/PRJ_CALLBACK_DATA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,8 @@ A value that uniquely identifies a particular invocation of a callback. The prov
 
 
 <ul>
-<li>In calls to <a href="projfs.prjcompletecommand">PrjCompleteCommand</a> to signal completion of a callback from which it earlier returned HRESULT_FROM_WIN32(ERROR_IO_PENDING).</li>
-<li>When ProjFS sends a <a href="projfs.prj_cancel_command_cb">PRJ_CANCEL_COMMAND_CB</a> callback. The commandId in the <i>PRJ_CANCEL_COMMAND_CB</i> call identifies an earlier invocation of a callback that the provider should cancel.</li>
+<li>In calls to <a href="https://msdn.microsoft.com/9A47FAB5-A085-41C9-861C-E74F2F5AF474">PrjCompleteCommand</a> to signal completion of a callback from which it earlier returned HRESULT_FROM_WIN32(ERROR_IO_PENDING).</li>
+<li>When ProjFS sends a <a href="https://msdn.microsoft.com/8C646A8C-7C55-4F54-965A-04ACAC64C65D">PRJ_CANCEL_COMMAND_CB</a> callback. The commandId in the <i>PRJ_CANCEL_COMMAND_CB</i> call identifies an earlier invocation of a callback that the provider should cancel.</li>
 </ul>
 
 ### -field FileId
@@ -105,9 +105,9 @@ Version information if the target of the callback is a placeholder or partial fi
 
 ### -field TriggeringProcessId
 
-The process identifier for the process that triggered this callback. If this information is not available, this will be 0. Callbacks that supply this information include: <a href="projfs.prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a>, 
-<a href="projfs.prj_get_file_data_cb">PRJ_GET_FILE_DATA_CB</a>, and 
-<a href="projfs.prj_notification_cb">PRJ_NOTIFICATION_CB</a>.
+The process identifier for the process that triggered this callback. If this information is not available, this will be 0. Callbacks that supply this information include: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a>, 
+<a href="https://msdn.microsoft.com/8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E">PRJ_GET_FILE_DATA_CB</a>, and 
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a>.
 
 
 ### -field TriggeringProcessImageFileName
@@ -117,7 +117,7 @@ A null-terminated Unicode string specifying the image file name corresponding to
 
 ### -field InstanceContext
 
-A pointer to context information defined by the provider. The provider passes this context in the instanceContext parameter of <a href="projfs.prjstartvirtualizing">PrjStartVirtualizing</a>. 
+A pointer to context information defined by the provider. The provider passes this context in the instanceContext parameter of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing">PrjStartVirtualizing</a>. 
 
 
 If the provider did not specify such a context, this value will be NULL.

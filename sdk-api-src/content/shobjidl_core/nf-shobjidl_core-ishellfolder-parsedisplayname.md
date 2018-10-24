@@ -7,7 +7,7 @@ old-location: shell\IShellFolder_ParseDisplayName.htm
 tech.root: shell
 ms.assetid: 099e71b0-04f2-4f82-aa00-7581bd357900
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IShellFolder interface [Windows Shell],ParseDisplayName method, IShellFolder.ParseDisplayName, IShellFolder2 interface [Windows Shell],ParseDisplayName method, IShellFolder2::ParseDisplayName, IShellFolder::ParseDisplayName, ParseDisplayName, ParseDisplayName method [Windows Shell], ParseDisplayName method [Windows Shell],IShellFolder interface, ParseDisplayName method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_ParseDisplayName, shell.IShellFolder_ParseDisplayName, shobjidl_core/IShellFolder2::ParseDisplayName, shobjidl_core/IShellFolder::ParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,13 +85,17 @@ A null-terminated Unicode string with the display name. Because each Shell folde
     
                         
 
-
-```cpp
-::{CLSID for Control Panel}\::{CLSID for printers folder}
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>::{CLSID for Control Panel}\::{CLSID for printers folder}
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param pchEaten [out]
 
@@ -142,27 +146,31 @@ Do not use the SFGAO_VALIDATE flag in <i>pdwAttributes</i> to verify the existen
 
 Querying for some attributes may be relatively slow and use significant amounts of memory. For example, to determine if a file is shared, the Shell will load network components. This procedure may require the loading of several DLLs. The purpose of <i>pdwAttributes</i> is to allow you to restrict the query to only that information that is needed. The following code fragment illustrates how to find out if a file is compressed.
 
-
-```cpp
-LPITEMIDLIST pidl;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPITEMIDLIST pidl;
 ULONG cbEaten;
 DWORD dwAttribs = SFGAO_COMPRESSED;
 
-hres = psf->ParseDisplayName(NULL,
+hres = psf-&gt;ParseDisplayName(NULL,
                              NULL,
                              lpwszDisplayName,
-                             &cbEaten,  // This can be NULL
-                             &pidl,
-                             &dwAttribs);
+                             &amp;cbEaten,  // This can be NULL
+                             &amp;pidl,
+                             &amp;dwAttribs);
 
-if(dwAttribs & SFGAO_COMPRESSED)
+if(dwAttribs &amp; SFGAO_COMPRESSED)
 {
     // Do something with the compressed file
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Since <i>pdwAttributes</i> is an in/out parameter, it should always be initialized. If you pass in an uninitialized value, some of the bits may be inadvertantly set. <b>IShellFolder::ParseDisplayName</b> will then query for the corresponding attributes, which may lead to undesirable delays or memory demands. If you do not wish to query for attributes, set <i>pdwAttributes</i> to <b>NULL</b> to avoid unpredictable behavior.
 
 This method is similar to the <a href="https://msdn.microsoft.com/bf18320c-1ff3-4280-bd67-70f6c2998285">IParseDisplayName::ParseDisplayName</a> method.

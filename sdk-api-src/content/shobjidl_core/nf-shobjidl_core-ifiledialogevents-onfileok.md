@@ -7,7 +7,7 @@ old-location: shell\IFileDialogEvents_OnFileOk.htm
 tech.root: shell
 ms.assetid: 81277122-b2fe-40af-85f8-d578925856a1
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFileOk method, IFileDialogEvents.OnFileOk, IFileDialogEvents::OnFileOk, OnFileOk, OnFileOk method [Windows Shell], OnFileOk method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFileOk, shell_IFileDialogEvents_OnFileOk, shobjidl_core/IFileDialogEvents::OnFileOk
 ms.prod: windows-hardware
 ms.technology: windows-devices

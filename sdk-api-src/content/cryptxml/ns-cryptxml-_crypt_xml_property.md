@@ -4,10 +4,10 @@ title: "_CRYPT_XML_PROPERTY"
 author: windows-sdk-content
 description: Contains information about a CryptXML property.
 old-location: security\crypt_xml_property.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 287c205a-56ba-40ae-a664-9bccef2e9655
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY structure [Security], PCRYPT_XML_PROPERTY, PCRYPT_XML_PROPERTY structure pointer [Security], _CRYPT_XML_PROPERTY, cryptxml/CRYPT_XML_PROPERTY, cryptxml/PCRYPT_XML_PROPERTY, security.crypt_xml_property"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The <b>CRYPT_XML_PROPERTY</b> structure contains information about a CryptXML pr
 
 ### -field dwPropId
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Dd433861(v=VS.85).aspx">CRYPT_XML_PROPERTY_ID</a> enumeration that specifies the property type.
+A value of the <a href="https://msdn.microsoft.com/7b396245-6dc5-4018-821e-a70db5f0d068">CRYPT_XML_PROPERTY_ID</a> enumeration that specifies the property type.
 
 
 ### -field pvValue

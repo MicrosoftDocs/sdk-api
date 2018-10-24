@@ -2,21 +2,21 @@
 UID: NF:gdiplustypes.Rect.Contains(IN const Point &)
 title: Rect::Contains(IN const Point &)
 author: windows-sdk-content
-description: This topic lists the Contains methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
-old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_Methods.htm
+description: The Rect::Contains method determines whether a point is inside this rectangle.
+old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_pt_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods\contains.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
-ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect.Contains(IN const Point &), Rect::Contains, Rect::Contains(IN const Point &), _gdiplus_CLASS_Rect_Contains_Methods, gdiplus._gdiplus_CLASS_Rect_Contains_Methods, gdiplustypes/Contains
+ms.date: 10/19/2018
+ms.keywords: Contains, Contains method [GDI+], Contains method [GDI+],Rect class, Rect class [GDI+],Contains method, Rect.Contains, Rect.Contains(IN const Point &), Rect.Contains(const Point&), Rect::Contains, Rect::Contains(IN const Point &), _gdiplus_CLASS_Rect_Contains_pt_, gdiplus._gdiplus_CLASS_Rect_Contains_pt_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplustypes.h
+ - Gdiplus.dll
 api_name:
  - Rect.Contains
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Rect::Contains(IN const Point &)
@@ -50,43 +51,60 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			Contains methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534961(v=VS.85).aspx">Rect Methods</a>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534985(v=VS.85).aspx">Contains(Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534985(v=VS.85).aspx">Rect::Contains</a> method determines whether another rectangle is inside this rectangle.
+The <b>Rect::Contains</b> method determines whether a point is inside this rectangle.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534984(v=VS.85).aspx">Contains(Point&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534984(v=VS.85).aspx">Rect::Contains</a> method determines whether a point is inside this rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534986(v=VS.85).aspx">Contains(INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534986(v=VS.85).aspx">Rect::Contains</a><i>x</i><i>y</i>) is inside this rectangle.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param pt [in]
+
+Type: <b>const Point&amp;</b>
+
+Reference to a point to be tested. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>BOOL</b>
+</strong>
+
+If the point is inside the rectangle, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7f409554-5d84-4294-bbc9-55f57f40dc56">Contains Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+ 
+
+ 
 

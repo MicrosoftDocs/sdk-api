@@ -4,10 +4,10 @@ title: D2D1_3DTRANSFORM_INTERPOLATION_MODE
 author: windows-sdk-content
 description: The interpolation mode the 3D transform effect uses on the image. There are 5 scale modes that range in quality and speed.
 old-location: direct2d\d2d1_3dtransform_interpolation_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 27251557-2185-4405-B67C-D1693A8BBE9B
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: D2D1_3DTRANSFORM_INTERPOLATION_MODE, D2D1_3DTRANSFORM_INTERPOLATION_MODE enumeration [Direct2D], D2D1_3DTRANSFORM_INTERPOLATION_MODE_ANISOTROPIC, D2D1_3DTRANSFORM_INTERPOLATION_MODE_CUBIC, D2D1_3DTRANSFORM_INTERPOLATION_MODE_LINEAR, D2D1_3DTRANSFORM_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_3DTRANSFORM_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_3DTRANSFORM_INTERPOLATION_MODE, d2d1effects/D2D1_3DTRANSFORM_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects/D2D1_3DTRANSFORM_INTERPOLATION_MODE_CUBIC, d2d1effects/D2D1_3DTRANSFORM_INTERPOLATION_MODE_LINEAR, d2d1effects/D2D1_3DTRANSFORM_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_3DTRANSFORM_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_3dtransform_interpolation_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Dn441538(v=VS.85).aspx">3D transform effect</a> uses on the image. There are 5 scale modes that range in quality and speed.
+The interpolation mode the <a href="https://msdn.microsoft.com/BC2F2837-40F0-4293-A190-8B5F81BB01B6">3D transform effect</a> uses on the image. There are 5 scale modes that range in quality and speed.
         
 
 

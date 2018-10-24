@@ -7,7 +7,7 @@ old-location: wmi\iwbemrefresher_refresh.htm
 tech.root: WmiSdk
 ms.assetid: 6de85040-c938-41dc-8240-0e21e89c7716
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: IWbemRefresher interface [Windows Management Instrumentation],Refresh method, IWbemRefresher.Refresh, IWbemRefresher::Refresh, Refresh, Refresh method [Windows Management Instrumentation], Refresh method [Windows Management Instrumentation],IWbemRefresher interface, _hmm_iwbemrefresher_refresh, wbemcli/IWbemRefresher::Refresh, wmi.iwbemrefresher_refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,13 @@ The provider should only access the objects and enumerators in a refresher in re
 The following code example describes how to implement 
 <b>Refresh</b>.
 
-
-```cpp
-HRESULT CMyHiPerfProviderRefresher::Refresh(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CMyHiPerfProviderRefresher::Refresh(
 /* [in] */long lFlags
 )
 {
@@ -110,10 +114,10 @@ HRESULT CMyHiPerfProviderRefresher::Refresh(
    
 
   return WBEM_S_NO_ERROR;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

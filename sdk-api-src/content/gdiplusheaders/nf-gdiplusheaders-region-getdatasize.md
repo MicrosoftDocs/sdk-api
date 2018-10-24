@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetDataSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdatasize.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetDataSize, GetDataSize method [GDI+], GetDataSize method [GDI+],Region class, Region class [GDI+],GetDataSize method, Region.GetDataSize, Region::GetDataSize, _gdiplus_CLASS_Region_GetDataSize_, gdiplus._gdiplus_CLASS_Region_GetDataSize_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This method returns the number of bytes of region data.
 
 
 
-The <b>Region::GetDataSize</b> method can be used before the <a href="https://msdn.microsoft.com/en-us/library/ms534765(v=VS.85).aspx">Region::GetData</a> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data that is obtained by the <b>Region::GetData</b>.
+The <b>Region::GetDataSize</b> method can be used before the <a href="https://msdn.microsoft.com/36f30045-1307-4477-83e3-546c536a7f5e">Region::GetData</a> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data that is obtained by the <b>Region::GetData</b>.
 
 
 #### Examples
@@ -86,9 +86,13 @@ The <b>Region::GetDataSize</b> method can be used before the <a href="https://ms
 
 The following example creates a region from a path and then gets the data that describes the region.
 
-
-```cpp
-VOID Example_GetData(HDC)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetData(HDC)
 {
    Point points[] = 
       Point(110, 20),
@@ -102,7 +106,7 @@ VOID Example_GetData(HDC)
    path.AddClosedCurve(points, 6);
 
    // Create a region from a path.
-   Region pathRegion(&path); 
+   Region pathRegion(&amp;path); 
 
    // Get the region data.
    UINT bufferSize = 0;
@@ -111,11 +115,11 @@ VOID Example_GetData(HDC)
 
    bufferSize = pathRegion.GetDataSize();
    pData = (BYTE*)malloc(bufferSize*sizeof(BYTE));
-   pathRegion.GetData(pData, bufferSize, &sizeFilled);
-}
-```
-
-
+   pathRegion.GetData(pData, bufferSize, &amp;sizeFilled);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -124,11 +128,11 @@ VOID Example_GetData(HDC)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534765(v=VS.85).aspx">Region::GetData</a>
+<a href="https://msdn.microsoft.com/36f30045-1307-4477-83e3-546c536a7f5e">Region::GetData</a>
  
 
  

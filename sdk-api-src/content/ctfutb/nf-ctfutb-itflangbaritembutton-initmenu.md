@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembutton_initmenu.htm
 tech.root: TSF
 ms.assetid: 6f9debf8-1c25-4228-abd2-2b2a099cf5cd
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],InitMenu method, ITfLangBarItemButton.InitMenu, ITfLangBarItemButton::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_initmenu_ref, ctfutb/ITfLangBarItemButton::InitMenu, tsf.itflangbaritembutton_initmenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_ME
 
 ### -param pMenu [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628780(v=VS.85).aspx">ITfMenu</a> interface that the language bar button uses to add items to the menu that the language bar displays for the button.
+Pointer to an <a href="https://msdn.microsoft.com/303115e1-8d52-4a0a-b05e-b5c92b8b3e2a">ITfMenu</a> interface that the language bar button uses to add items to the menu that the language bar displays for the button.
 
 
 ## -returns
@@ -107,7 +107,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628717(v=VS.85).aspx">ITfLangBarItemButton</a>
+<a href="https://msdn.microsoft.com/098a8cdc-ff34-4729-9b34-279c499d40a8">ITfLangBarItemButton</a>
 
 
 

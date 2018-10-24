@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetHeight_graphics_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\fontgetheightmethods\getheight_62graphics.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Font class [GDI+],GetHeight method, Font.GetHeight, Font.GetHeight(IN const Graphics), Font.GetHeight(const Graphics*), Font::GetHeight, Font::GetHeight(IN const Graphics), GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Font class, _gdiplus_CLASS_Font_GetHeight_graphics_, gdiplus._gdiplus_CLASS_Font_GetHeight_graphics_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetInt64Elem.htm
 tech.root: properties
 ms.assetid: 6dd7212a-587f-4f9e-a2e5-dbd2a9c15a5b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PropVariantGetInt64Elem, PropVariantGetInt64Elem function [Windows Properties], _shell_PropVariantGetInt64Elem, properties.PropVariantGetInt64Elem, propvarutil/PropVariantGetInt64Elem, shell.PropVariantGetInt64Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,37 +103,41 @@ This helper function works for<a href="https://msdn.microsoft.com/e86cc279-826d-
 <li>VT_VECTOR | VT_I8</li>
 <li>VT_ARRAY | VT_I8</li>
 </ul>
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_I8, <i>iElem</i> must be 0. Otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="https://msdn.microsoft.com/en-us/library/Bb776522(v=VS.85).aspx">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_I8, <i>iElem</i> must be 0. Otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="shell.PropVariantGetElementCount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776526(v=VS.85).aspx">PropVariantGetInt64Elem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantGetInt64Elem">PropVariantGetInt64Elem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume propvar is initialized and valid;
 
-if ((propvar.vt & VT_TYPEMASK) == VT_I8)
+if ((propvar.vt &amp; VT_TYPEMASK) == VT_I8)
 {
     UINT cElem = PropVariantGetElementCount(propvar);
-    HRESULT hr = <mark type="const">S_OK</mark>;
+    HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
 
-    for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
+    for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
     {
         LONGLONG nValue;
-        hr = PropVariantGetInt64Elem(propvar, iElem, &nValue);
+        hr = PropVariantGetInt64Elem(propvar, iElem, &amp;nValue);
 
         if (SUCCEEDED(hr))
         {
             // nValue is valid now
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -142,7 +146,7 @@ if ((propvar.vt & VT_TYPEMASK) == VT_I8)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a>
+<a href="shell.PropVariantGetElem">PropVariantGetElem</a>
  
 
  

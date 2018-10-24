@@ -4,10 +4,10 @@ title: "_CRYPT_XML_KEY_INFO"
 author: windows-sdk-content
 description: Encapsulates key information data.
 old-location: security\crypt_xml_key_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO structure [Security], _CRYPT_XML_KEY_INFO, cryptxml/CRYPT_XML_KEY_INFO, security.crypt_xml_key_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ The number of items in the array pointed to by the <b>rgKeyInfo</b> member.
 
 ### -field rgKeyInfo
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433856(v=VS.85).aspx">CRYPT_XML_KEY_INFO_ITEM</a> structures that contain key information.
+A pointer to an array of <a href="https://msdn.microsoft.com/3fbb1623-d493-49f1-a004-74ec8d22520e">CRYPT_XML_KEY_INFO_ITEM</a> structures that contain key information.
 
 
 ### -field hVerifyKey

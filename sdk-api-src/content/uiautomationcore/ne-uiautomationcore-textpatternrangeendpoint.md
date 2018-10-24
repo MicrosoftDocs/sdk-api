@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextPatternRangeEndpointEnum.htm
 tech.root: WinAuto
 ms.assetid: 4a294376-a401-4380-ba5a-b899548290b7
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: TextPatternRangeEndpoint, TextPatternRangeEndpoint enumeration [Windows Accessibility], TextPatternRangeEndpoint_End, TextPatternRangeEndpoint_Start, uiauto.uiauto_TextPatternRangeEndpointEnum, uiauto_TextPatternRangeEndpointEnum, uiautomationcore/TextPatternRangeEndpoint, uiautomationcore/TextPatternRangeEndpoint_End, uiautomationcore/TextPatternRangeEndpoint_Start, winauto.uiauto_TextPatternRangeEndpointEnum
 ms.prod: windows
 ms.technology: windows-sdk

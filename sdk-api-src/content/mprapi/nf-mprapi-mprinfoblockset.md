@@ -7,7 +7,7 @@ old-location: rras\mprinfoblockset.htm
 tech.root: rras
 ms.assetid: 55912927-d886-46d1-a5c1-e10f19c117ab
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MprInfoBlockSet, MprInfoBlockSet function [RAS], _mpr_mprinfoblockset, mprapi/MprInfoBlockSet, rras.mprinfoblockset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,7 +123,7 @@ One (or more) required parameters is <b>NULL</b>, or no block of type <i>dwInfoT
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The call failed. Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

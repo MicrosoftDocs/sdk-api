@@ -4,10 +4,10 @@ title: GetCurrentProcessorNumber function
 author: windows-sdk-content
 description: Retrieves the number of the processor the current thread was running on during the call to this function.
 old-location: base\getcurrentprocessornumber.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1f2bebc7-a548-409a-ab74-78a4b55c8fa7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: GetCurrentProcessorNumber, GetCurrentProcessorNumber function, base.getcurrentprocessornumber, processthreadsapi/GetCurrentProcessorNumber, winbase/GetCurrentProcessorNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\ITfInputScope.htm
 tech.root: TSF
 ms.assetid: b2a045dd-dc2c-489d-bcb9-80710faef9c2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfInputScope, ITfInputScope interface [Text Services Framework], ITfInputScope interface [Text Services Framework],described, _tsf_itfinputscope_ref, inputscope/ITfInputScope, tsf.ITfInputScope
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,9 +57,13 @@ The interface ID is IID_ITfInputScope.
 The document context is used by the speech and handwriting recognition engine and is set by a text input processor by calling the <a href="https://msdn.microsoft.com/4098525c-8d29-419a-9484-9e70420416bc">SetInputScope</a> method. A TSF-aware application does not call <b>SetInputScope</b> directly, but rather implements either <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a> or <a href="https://msdn.microsoft.com/630646df-dd47-4dbf-9787-f9d697ad8d7a">ITfContextOwner</a> to get a pointer to <b>ITfInputScope</b>.
 
 To get the pointer to the <b>ITfInputScope</b> interface, the text input processor or TSF-aware application calls <a href="https://msdn.microsoft.com/5c04ff8e-5686-4802-b312-71dddaf0155e">ITfContext::GetAppProperty</a>, passing in <b>GUID_PROP_INPUTSCOPE</b> and a pointer to the <a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">ITFReadOnlyProperty</a> interface, as in the following example.
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 extern const GUID GUID_PROP_INPUTSCOPE;
 // 
 // The TIP can call this to get the input scope of the document mgr. 
@@ -67,19 +71,19 @@ extern const GUID GUID_PROP_INPUTSCOPE;
 HRESULT GetInputScope(ITfContext *pic, ITfRange *pRange, TfEditCookie ec, ITfInutScope **ppiscope){
     ITFReadOnlyProperty *prop;
     HRESULT hr;
-    If (SUCCEEDED(hr = pic->GetAppProperty(GUID_PROP_INPUTSCOPE, &prop))
+    If (SUCCEEDED(hr = pic-&gt;GetAppProperty(GUID_PROP_INPUTSCOPE, &amp;prop))
     {   VARIANT var;
-        If (SUCCEEDED(hr = prop->GetValue(ec, pRange, &var)))
-        {  hr = var.punkVal->QueryInterface(IID_ITfInputScope, (void **)ppiscope);
+        If (SUCCEEDED(hr = prop-&gt;GetValue(ec, pRange, &amp;var)))
+        {  hr = var.punkVal-&gt;QueryInterface(IID_ITfInputScope, (void **)ppiscope);
         }
-        prop->Release();
+        prop-&gt;Release();
     }
     return hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -inheritance
 

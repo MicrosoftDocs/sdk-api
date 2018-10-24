@@ -7,7 +7,7 @@ old-location: display\displaymode.htm
 tech.root: display
 ms.assetid: dc189bb6-e2c4-422c-8350-4c1632439478
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DisplayMode, DisplayMode structure [Display Devices], TMM_Ref_37fe6fb5-e095-4bc7-8d92-a4d305bbadcb.xml, cloneviewhelper/DisplayMode, display.displaymode, tagDisplayMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ A single wide-character string that contains the name of the display device.
 
 ### -field devMode
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff552837(v=VS.85).aspx">DEVMODEW</a> structure that contains characteristics of the display device. 
+A <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODEW</a> structure that contains characteristics of the display device. 
 
 
 ## -see-also
@@ -73,11 +73,11 @@ A <a href="https://msdn.microsoft.com/en-us/library/Ff552837(v=VS.85).aspx">DEVM
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff552837(v=VS.85).aspx">DEVMODEW</a>
+<a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODEW</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554039(v=VS.85).aspx">DisplayModes</a>
+<a href="https://msdn.microsoft.com/0add7a43-571f-4854-b019-d3601f915d48">DisplayModes</a>
 
 
 

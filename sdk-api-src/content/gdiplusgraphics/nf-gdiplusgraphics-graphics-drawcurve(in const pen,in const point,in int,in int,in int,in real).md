@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawcurvemethods\drawcurve_60penpen_pointpoints_intcount_intoffset_.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: DrawCurve, DrawCurve method [GDI+], DrawCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawCurve method, Graphics.DrawCurve, Graphics.DrawCurve(IN const Pen,IN const Point,IN INT,IN INT,IN INT,IN REAL), Graphics.DrawCurve(const Pen*,const Point*,INT,INT,INT,REAL), Graphics::DrawCurve, Graphics::DrawCurve(IN const Pen,IN const Point,IN INT,IN INT,IN INT,IN REAL), _gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_INT_offset_INT_numberOfSegments_REA, gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_INT_offset_INT_numberOfSegments_REA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -198,7 +198,7 @@ The following example draws a cardinal spline.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

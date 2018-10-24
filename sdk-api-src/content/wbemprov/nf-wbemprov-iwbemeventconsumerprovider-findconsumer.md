@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventconsumerprovider_findconsumer.htm
 tech.root: WmiSdk
 ms.assetid: 196c839a-5b8f-4ff6-b6cf-3483db275e8b
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: FindConsumer, FindConsumer method [Windows Management Instrumentation], FindConsumer method [Windows Management Instrumentation],IWbemEventConsumerProvider interface, IWbemEventConsumerProvider interface [Windows Management Instrumentation],FindConsumer method, IWbemEventConsumerProvider.FindConsumer, IWbemEventConsumerProvider::FindConsumer, _hmm_iwbemeventconsumerprovider_findconsumer, wbemprov/IWbemEventConsumerProvider::FindConsumer, wmi.iwbemeventconsumerprovider_findconsumer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 The 
 <b>FindConsumer</b> function locates and returns sink objects to which WMI can send events. WMI passes in a pointer to a logical consumer object, then 
 <b>FindConsumer</b> locates the physical consumer associated with the logical consumer. Finally, 
-<b>FindConsumer</b> returns to WMI a pointer to the sink belonging to the physical consumer. WMI calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the sink and begins to deliver the appropriate events to the sink. WMI releases the sink after a configurable period of time with no deliveries. If necessary, WMI can call 
+<b>FindConsumer</b> returns to WMI a pointer to the sink belonging to the physical consumer. WMI calls <a href="_com_iunknown_addref">AddRef</a> on the sink and begins to deliver the appropriate events to the sink. WMI releases the sink after a configurable period of time with no deliveries. If necessary, WMI can call 
 <b>FindConsumer</b> again to load the sink again.
 
 
@@ -69,7 +69,7 @@ Pointer to the logical consumer object to which the event objects are to be deli
 
 ### -param ppConsumer [out]
 
-Returns an event object sink to Windows Management. Windows Management calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> for this pointer and deliver the events associated with the logical consumer to this sink. Eventually, after a suitable time-out, Windows Management calls <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> for the pointer.
+Returns an event object sink to Windows Management. Windows Management calls <a href="_com_iunknown_addref">AddRef</a> for this pointer and deliver the events associated with the logical consumer to this sink. Eventually, after a suitable time-out, Windows Management calls <a href="_com_iunknown_release">Release</a> for the pointer.
 
 
 ## -returns
@@ -116,7 +116,7 @@ This approach optimizes performance by having a dedicated sink ready to receive 
 Divide logical consumers into groups and provide a different sink for each group.
 
 This approach compromises between performance and efficiency. The hybrid approach can involve having a few different log files, possibly with each tied to the type of message to be logged. Multiple COM objects handle multiple open files. An event consumer provider taking this approach reads the log file name during the 
-<b>FindConsumer</b> call, opens the file, and returns the sink that logs all messages into this file. The provider closes the file on the last call to the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> method. With this approach, the consumer preserves efficiency because it has information on exactly which file to use; the consumer is not required to search for or open a new file. Also, the consumer can save memory by combining sinks that log different messages to the same file.
+<b>FindConsumer</b> call, opens the file, and returns the sink that logs all messages into this file. The provider closes the file on the last call to the <a href="_com_iunknown_release">Release</a> method. With this approach, the consumer preserves efficiency because it has information on exactly which file to use; the consumer is not required to search for or open a new file. Also, the consumer can save memory by combining sinks that log different messages to the same file.
 
 </li>
 </ul>
@@ -129,9 +129,13 @@ The following code example describes an implementation of
 <b>FindConsumer</b>. In the implementation following, assume two sinks exist for receiving events, one for each of the two different registered event filters. To determine which sink 
 <b>FindConsumer</b> sends back to WMI, the code examines the incoming logical consumer object.
 
-
-```cpp
-HRESULT MyEventConsumerClass::FindConsumer(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT MyEventConsumerClass::FindConsumer(
    /* [in] */ IWbemClassObject __RPC_FAR *pLogicalConsumer,
    /* [out] */ IWbemUnboundObjectSink __RPC_FAR *__RPC_FAR *ppConsumer
    )
@@ -140,40 +144,40 @@ HRESULT MyEventConsumerClass::FindConsumer(
    // ====================================================
 
    VARIANT v;    
-   VariantInit(&v);
+   VariantInit(&amp;v);
 
    HRESULT hRes = WBEM_E_NOT_FOUND;
    *ppConsumer = 0;
 
-   pLogicalConsumer->Get(_bstr_t(L"Name"), 0, &v, 0, 0);
+   pLogicalConsumer-&gt;Get(_bstr_t(L"Name"), 0, &amp;v, 0, 0);
 
    // Decide which of the two logical consumers to send back.
    // =======================================================
 
-   if (_wcsicmp(V_BSTR(&v), L"Consumer1") == 0)
+   if (_wcsicmp(V_BSTR(&amp;v), L"Consumer1") == 0)
    {
 
     //send back the Consumer1 sink to WMI
     // For example:
-      /*hRes =  m_pConsumer1->
+      /*hRes =  m_pConsumer1-&gt;
          QueryInterface(IID_IWbemUnboundObjectSink,
                            (LPVOID*)ppConsumer);*/
    }
-   else if (_wcsicmp(V_BSTR(&v), L"Consumer2") == 0)
+   else if (_wcsicmp(V_BSTR(&amp;v), L"Consumer2") == 0)
    {
     //send back the Consumer2 sink to WMI
     // For example:
-      /*hRes =  m_pConsumer2->
+      /*hRes =  m_pConsumer2-&gt;
           QueryInterface(IID_IWbemUnboundObjectSink,
                             (LPVOID*)ppConsumer);*/
    }
 
-   VariantClear(&v);
+   VariantClear(&amp;v);
    return hRes;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_GetCredentialCount.htm
 tech.root: shell
 ms.assetid: 7d940d46-d4c2-4ab5-8559-416d78d3579e
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetCredentialCount, GetCredentialCount method [Windows Shell], GetCredentialCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialCount method, ICredentialProvider.GetCredentialCount, ICredentialProvider::GetCredentialCount, credentialprovider/ICredentialProvider::GetCredentialCount, shell.ICredentialProvider_GetCredentialCount, shell_ICredentialProvider_GetCredentialCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A pointer to a <b>DWORD</b> value that receives the index of the credential to b
 
 Type: <b>BOOL*</b>
 
-A pointer to a <b>BOOL</b> value indicating if the default credential identified by <i>pdwDefault</i> should be used for an auto logon attempt. An auto logon attempt means the Logon UI or Credential UI will immediately call <a href="https://msdn.microsoft.com/en-us/library/Bb776026(v=VS.85).aspx">GetSerialization</a> on the provider's default tile.
+A pointer to a <b>BOOL</b> value indicating if the default credential identified by <i>pdwDefault</i> should be used for an auto logon attempt. An auto logon attempt means the Logon UI or Credential UI will immediately call <a href="https://msdn.microsoft.com/c5f7ba25-c38a-431a-b4ad-0e2409f763a3">GetSerialization</a> on the provider's default tile.
 
 
 ## -returns
@@ -103,7 +103,7 @@ When a Logon UI or Credential UI is ready for user interaction, a default creden
 <li>If <i>pdwDefault</i> is from the last logged on provider and there isn't already a default with auto logon, then <i>pdwDefault</i> will be used as the default.</li>
 <li>If no default has been specified, then <i>pdwDefault</i> will be used as the default.</li>
 </ul>
-If the number of valid credentials change, the credential provider should call <a href="https://msdn.microsoft.com/en-us/library/Bb776006(v=VS.85).aspx">CredentialsChanged</a> on the  <a href="https://msdn.microsoft.com/en-us/library/Bb776007(v=VS.85).aspx">ICredentialProviderEvents</a> instance provided in <a href="https://msdn.microsoft.com/en-us/library/Bb776037(v=VS.85).aspx">Advise</a>.
+If the number of valid credentials change, the credential provider should call <a href="https://msdn.microsoft.com/bff835ed-01b9-4620-a97c-c64a2445e02a">CredentialsChanged</a> on the  <a href="https://msdn.microsoft.com/bf303b9d-2d6c-4de5-9bca-fc71d4f18903">ICredentialProviderEvents</a> instance provided in <a href="https://msdn.microsoft.com/5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9">Advise</a>.
 
 <h3><a id="Credential_Provider_Best_Practices"></a><a id="credential_provider_best_practices"></a><a id="CREDENTIAL_PROVIDER_BEST_PRACTICES"></a>Credential Provider Best Practices</h3>
 Credential providers handle extremely sensitive user secrets in order to complete logon and unlock requests. As a best practice, secret information such as passwords and PINs should be handled with the utmost care. Proper techniques for handling secret information within a credential provider are: 

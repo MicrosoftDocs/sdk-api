@@ -4,10 +4,10 @@ title: RtwqRegisterPlatformWithMMCSS function
 author: windows-sdk-content
 description: Registers the standard platform work queues with the Multimedia Class Scheduler Service (MMCSS).
 old-location: base\rtwqregisterplatformwithmmcss.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 17ba1e77-f1b0-4575-b96c-bf42813279ce
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: RtwqRegisterPlatformWithMMCSS, RtwqRegisterPlatformWithMMCSS function, base.rtwqregisterplatformwithmmcss, rtworkq/RtwqRegisterPlatformWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

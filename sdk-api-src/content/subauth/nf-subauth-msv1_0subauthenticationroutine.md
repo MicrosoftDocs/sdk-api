@@ -132,7 +132,7 @@ Returns the members of the <a href="https://msdn.microsoft.com/18cf7194-4309-47b
 <td width="60%">
 Write the data contained in the <b>Parameters</b> member of the <i>UserAll</i> structure back to the SAM database.
 
-If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, <b>Msv1_0SubAuthenticationRoutine</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/">MIDL_user_allocate</a> function.
+If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, <b>Msv1_0SubAuthenticationRoutine</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">MIDL_user_allocate</a> function.
 
 </td>
 </tr>
@@ -191,14 +191,18 @@ A pointer to a value that receives the time at which the user should log off the
 
 A pointer to a value that receives the time at which the user should be logged off the system. This time is used to control the logon lifetime and is specified as a GMT-relative system time. If the user is not to be logged off, specify a large positive value, such as:
 
-
-```cpp
-KickoffTime->HighPart = 0x7FFFFFFF;
-KickoffTime->LowPart = 0xFFFFFFFF;
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>KickoffTime-&gt;HighPart = 0x7FFFFFFF;
+KickoffTime-&gt;LowPart = 0xFFFFFFFF;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -returns
 

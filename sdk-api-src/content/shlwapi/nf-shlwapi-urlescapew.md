@@ -7,7 +7,7 @@ old-location: shell\UrlEscape.htm
 tech.root: shell
 ms.assetid: 52ee1501-2cd4-4193-8363-0af91673ec88
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: URL_BROWSER_MODE, URL_DONT_ESCAPE_EXTRA_INFO, URL_ESCAPE_ASCII_URI_COMPONENT, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SEGMENT_ONLY, URL_ESCAPE_SPACES_ONLY, UrlEscape, UrlEscape function [Windows Shell], UrlEscapeA, UrlEscapeW, _win32_UrlEscape, shell.UrlEscape, shlwapi/UrlEscape, shlwapi/UrlEscapeA, shlwapi/UrlEscapeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -304,40 +304,44 @@ By default, <b>UrlEscape</b> ignores any text following a # or ? character. The 
 
 The following examples show the effect of the various flags on a URL. The example URL is not valid but is exaggerated for demonstration purposes.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // The full original URL
-http://microsoft.com/test/t%e<s t.asp?url=/{ex% ample</abc.asp?frame=true#fr%agment    
+http://microsoft.com/test/t%e&lt;s t.asp?url=/{ex% ample&lt;/abc.asp?frame=true#fr%agment    
 
 // URL_ESCAPE_SPACES_ONLY 
 // Only space characters are escaped. Other unsafe characters are ignored.
 // Note: This flag expects the server portion of the URL to be omitted.
-Original = test/t%e<s t.asp?url=/{ex% ample</abc.asp?frame=true#fr%agment
-Result   = test/t%e<s%20t.asp?url=/{ex%%20ample</abc.asp?frame=true#fr%agment
+Original = test/t%e&lt;s t.asp?url=/{ex% ample&lt;/abc.asp?frame=true#fr%agment
+Result   = test/t%e&lt;s%20t.asp?url=/{ex%%20ample&lt;/abc.asp?frame=true#fr%agment
 
 // URL_ESCAPE_SPACES_ONLY | URL_DONT_ESCAPE_EXTRA_INFO
 // Spaces in the segment are converted into their escape sequences, but
 // spaces in the query are not.
-Original = test/t%e<s t.asp?url=/{ex% ample</abc.asp?frame=true#fr%agment
-Result   = test/t%e<s%20t.asp?url=/{ex% ample</abc.asp?frame=true#fr%agment
+Original = test/t%e&lt;s t.asp?url=/{ex% ample&lt;/abc.asp?frame=true#fr%agment
+Result   = test/t%e&lt;s%20t.asp?url=/{ex% ample&lt;/abc.asp?frame=true#fr%agment
 
 // URL_ESCAPE_PERCENT
 // Here only the segment and query are supplied and the server component is
 // omitted, although that is not required. Only the segment is considered.
 // All unsafe characters plus the % character are converted in the segment.
-Original = test/t%e<s t.asp?url=/{ex% ample</abc.asp?frame=true#fr%agment
-Result   = test/t%25e%3Cs%20t.asp?url=/{ex% ample</abc.asp?frame=true#fr%agment
+Original = test/t%e&lt;s t.asp?url=/{ex% ample&lt;/abc.asp?frame=true#fr%agment
+Result   = test/t%25e%3Cs%20t.asp?url=/{ex% ample&lt;/abc.asp?frame=true#fr%agment
 
 // URL_ESCAPE_SEGMENT_ONLY
 // Note: This flag expects only the segment, omitting the server and query 
 //       components.
 // The / character is escaped as well as the usual unsafe characters.
-Original = test/t%e<s t.asp
-Result   = test%2Ft%e%3Cs%20t.asp
-```
-
-
+Original = test/t%e&lt;s t.asp
+Result   = test%2Ft%e%3Cs%20t.asp</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -346,7 +350,7 @@ Result   = test%2Ft%e%3Cs%20t.asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
  
 
  

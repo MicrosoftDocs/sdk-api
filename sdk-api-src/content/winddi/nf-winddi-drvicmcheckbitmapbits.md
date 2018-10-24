@@ -7,7 +7,7 @@ old-location: display\drvicmcheckbitmapbits.htm
 tech.root: display
 ms.assetid: afde9270-3bbf-4f78-97ca-20ddfae83a2d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DrvIcmCheckBitmapBits, DrvIcmCheckBitmapBits function [Display Devices], ddifncs_f7d444c6-446a-4c46-9f5e-73407323c2d7.xml, display.drvicmcheckbitmapbits, winddi/DrvIcmCheckBitmapBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

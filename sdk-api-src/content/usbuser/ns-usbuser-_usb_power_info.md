@@ -4,10 +4,10 @@ title: "_USB_POWER_INFO"
 author: windows-sdk-content
 description: The USB_POWER_INFO structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve device power state that the host controller power policy specifies for the indicated system power state.
 old-location: buses\usb_power_info.htm
-tech.root: UsbRef
+tech.root: usbref
 ms.assetid: b4f35d7e-b0e3-44d9-8e41-1752cb0af5ef
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/23/2018
 ms.keywords: "*PUSB_POWER_INFO, PUSB_POWER_INFO, PUSB_POWER_INFO structure pointer [Buses], USB_POWER_INFO, USB_POWER_INFO structure [Buses], _USB_POWER_INFO, buses.usb_power_info, usbstrct_95ba66ea-20ee-4e05-8294-3b3bd06f7116.xml, usbuser/PUSB_POWER_INFO, usbuser/USB_POWER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

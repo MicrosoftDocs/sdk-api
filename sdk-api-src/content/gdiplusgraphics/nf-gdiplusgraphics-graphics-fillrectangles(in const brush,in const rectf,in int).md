@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangles_Brush_brush_RectF_r
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglesmethods\fillrectangles_20brushbrush_rectfrects_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: FillRectangles, FillRectangles method [GDI+], FillRectangles method [GDI+],Graphics class, Graphics class [GDI+],FillRectangles method, Graphics.FillRectangles, Graphics.FillRectangles(IN const Brush,IN const RectF,IN INT), Graphics.FillRectangles(const Brush*,const RectF*,INT), Graphics::FillRectangles, Graphics::FillRectangles(IN const Brush,IN const RectF,IN INT), _gdiplus_CLASS_Graphics_FillRectangles_Brush_brush_RectF_rects_INT_count_, gdiplus._gdiplus_CLASS_Graphics_FillRectangles_Brush_brush_RectF_rects_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

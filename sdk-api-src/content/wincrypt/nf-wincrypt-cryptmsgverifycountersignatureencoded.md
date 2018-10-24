@@ -4,10 +4,10 @@ title: CryptMsgVerifyCountersignatureEncoded function
 author: windows-sdk-content
 description: Verifies a countersignature in terms of the SignerInfo structure (as defined by PKCS #7).
 old-location: security\cryptmsgverifycountersignatureencoded.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b0332360-a737-4b48-b592-0c55d493a02d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptMsgVerifyCountersignatureEncoded, CryptMsgVerifyCountersignatureEncoded function [Security], _crypto2_cryptmsgverifycountersignatureencoded, security.cryptmsgverifycountersignatureencoded, wincrypt/CryptMsgVerifyCountersignatureEncoded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -244,11 +244,11 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

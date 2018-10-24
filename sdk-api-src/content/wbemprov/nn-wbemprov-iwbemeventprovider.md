@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventprovider.htm
 tech.root: WmiSdk
 ms.assetid: 4b92923a-659d-4340-8843-eb42aea69d47
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: IWbemEventProvider, IWbemEventProvider interface [Windows Management Instrumentation], IWbemEventProvider interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovider, wbemprov/IWbemEventProvider, wmi.iwbemeventprovider
 ms.prod: windows
 ms.technology: windows-sdk

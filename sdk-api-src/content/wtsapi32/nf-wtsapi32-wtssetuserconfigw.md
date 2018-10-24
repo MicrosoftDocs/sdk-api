@@ -126,16 +126,20 @@ If the value of the  <i>WTSConfigClass</i> parameter corresponds to an integer v
      in the call to <b>WTSSetUserConfig</b>, as in the 
      following example:
 
-
-```cpp
-WTSSetUserConfig( strServer.GetBuffer(0), 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WTSSetUserConfig( strServer.GetBuffer(0), 
                   m_strName.GetBuffer(0), 
                   WTSUserConfigfAllowLogonTerminalServer, 
-                  (LPWSTR) &dwEnable, 
-                  sizeof(DWORD));
-```
-
-
+                  (LPWSTR) &amp;dwEnable, 
+                  sizeof(DWORD));</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

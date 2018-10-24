@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Brush_brush_INT_x_INT_y_IN
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpiemethods\fillpie_28brushbrush_intx_inty_intwidth_intheigh.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: FillPie, FillPie method [GDI+], FillPie method [GDI+],Graphics class, Graphics class [GDI+],FillPie method, Graphics.FillPie, Graphics.FillPie(IN const Brush,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), Graphics.FillPie(const Brush*,INT,INT,INT,INT,REAL,REAL), Graphics::FillPie, Graphics::FillPie(IN const Brush,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillPie_Brush_brush_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sw, gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -176,7 +176,7 @@ The following example defines a pie and then fills it.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

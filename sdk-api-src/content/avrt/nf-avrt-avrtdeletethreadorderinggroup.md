@@ -4,10 +4,10 @@ title: AvRtDeleteThreadOrderingGroup function
 author: windows-sdk-content
 description: Deletes the specified thread ordering group created by the caller. It cleans up resources for the thread ordering group, including the context information, and returns.
 old-location: base\avrtdeletethreadorderinggroup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: fa881a0f-3087-4605-9c42-880f6694c018
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: AvRtDeleteThreadOrderingGroup, AvRtDeleteThreadOrderingGroup function, avrt/AvRtDeleteThreadOrderingGroup, base.avrtdeletethreadorderinggroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,11 +88,15 @@ If the parent thread times out and attempts to call this function, the function 
 
 The following code deletes a thread ordering group.
 
-
-```cpp
-#include <windows.h>
-#include <avrt.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;avrt.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Avrt.lib")
 
@@ -108,10 +112,10 @@ int main( void )
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

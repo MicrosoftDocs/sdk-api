@@ -4,10 +4,10 @@ title: WinUsb_QueryPipe function
 author: windows-sdk-content
 description: The WinUsb_QueryPipe function retrieves information about the specified endpoint and the associated pipe for an interface.
 old-location: buses\winusb_querypipe.htm
-tech.root: UsbRef
+tech.root: usbref
 ms.assetid: cbc0a988-27ee-46f5-be03-fe79eedd128a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/23/2018
 ms.keywords: WinUsb_QueryPipe, WinUsb_QueryPipe function [Buses], buses.winusb_querypipe, winusb/WinUsb_QueryPipe, winusbfunc_1a0b0ae5-25b3-47b5-bc32-165be320831b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

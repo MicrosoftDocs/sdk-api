@@ -7,7 +7,7 @@ old-location: htmlhelp\iitproplist_setpersist2.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsetpersist.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/22/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SetPersist method, IITPropList.SetPersist, IITPropList.SetPersist(BOOL), IITPropList::SetPersist, IITPropList::SetPersist(BOOL), SetPersist, SetPersist method [HTML Help Workshop], SetPersist method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_setpersist2, infotech/IITPropList::SetPersist, refIITPropListSetPersist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ By default, properties are created with a persistence state of TRUE.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/09200749-bd1d-4266-895e-29e21525bac2">IITPropList</a>
  
 
  

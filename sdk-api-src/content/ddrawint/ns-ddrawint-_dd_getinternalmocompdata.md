@@ -7,7 +7,7 @@ old-location: display\dd_getinternalmocompdata.htm
 tech.root: display
 ms.assetid: 5d8f722f-7574-485e-9ff2-568cd0ae23f7
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA structure [Display Devices], _DD_GETINTERNALMOCOMPDATA, ddrawint/DD_GETINTERNALMOCOMPDATA, ddstrcts_02721b17-cf19-462c-b588-039431b8d548.xml, display.dd_getinternalmocompdata"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfsourcesingle.htm
 tech.root: TSF
 ms.assetid: 01e60ede-b871-4b38-b2ee-24f79c5b3e80
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfSourceSingle, ITfSourceSingle interface [Text Services Framework], ITfSourceSingle interface [Text Services Framework],described, _tsf_itfsourcesingle_ref, msctf/ITfSourceSingle, tsf.itfsourcesingle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,43 +113,51 @@ For more information about advise sinks that can be installed by each implementa
 <b>ITfThreadMgr</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSourceSingle *pSourceSingle;
 
-hr = pThreadManager->QueryInterface(IID_ITfSourceSingle, (LPVOID*)&pSourceSingle);
+hr = pThreadManager-&gt;QueryInterface(IID_ITfSourceSingle, (LPVOID*)&amp;pSourceSingle);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSourceSingle interface. 
     
-    pSourceSingle->Release();
+    pSourceSingle-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>ITfContext</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSourceSingle *pSourceSingle;
 
-hr = pContext->QueryInterface(IID_ITfSourceSingle, (LPVOID*)&pSourceSingle);
+hr = pContext-&gt;QueryInterface(IID_ITfSourceSingle, (LPVOID*)&amp;pSourceSingle);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSourceSingle interface. 
     
-    pSourceSingle->Release();
+    pSourceSingle-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -173,7 +181,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

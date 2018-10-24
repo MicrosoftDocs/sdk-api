@@ -4,10 +4,10 @@ title: D2D1_CONTRAST_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Contrast effect.
 old-location: direct2d\d2d1_contrast_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 04215468-F6AA-4AA4-8F03-4858CE57FC14
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: D2D1_CONTRAST_PROP, D2D1_CONTRAST_PROP enumeration [Direct2D], D2D1_CONTRAST_PROP_CLAMP_INPUT, D2D1_CONTRAST_PROP_CONTRAST, d2d1effects_2/D2D1_CONTRAST_PROP, d2d1effects_2/D2D1_CONTRAST_PROP_CLAMP_INPUT, d2d1effects_2/D2D1_CONTRAST_PROP_CONTRAST, direct2d.d2d1_contrast_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890716(v=VS.85).aspx">Contrast effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/c0cc0f86-f6d4-e951-0cdd-dbad488e0793">Contrast effect</a>.
 
 
 ## -enum-fields
@@ -79,11 +79,11 @@ The D2D1_CONTRAST_PROP_CLAMP_INPUT property is a boolean value indicating whethe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890716(v=VS.85).aspx">Contrast effect</a>
+<a href="https://msdn.microsoft.com/c0cc0f86-f6d4-e951-0cdd-dbad488e0793">Contrast effect</a>
 
 
 

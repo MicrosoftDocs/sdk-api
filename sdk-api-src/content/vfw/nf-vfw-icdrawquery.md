@@ -7,7 +7,7 @@ old-location: multimedia\icdrawquery.htm
 tech.root: Multimedia
 ms.assetid: 5cd673e3-af82-4c24-b0d5-4c3cb7c7ab71
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ICDrawQuery, ICDrawQuery macro [Windows Multimedia], _win32_ICDrawQuery, multimedia.icdrawquery, vfw/ICDrawQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

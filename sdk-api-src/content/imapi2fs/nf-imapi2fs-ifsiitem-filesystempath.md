@@ -7,7 +7,7 @@ old-location: imapi\ifsiitem_filesystempath.htm
 tech.root: imapi
 ms.assetid: c6b969e2-9b1c-402e-81ea-ced13fca4551
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: FileSystemPath, FileSystemPath method [IMAPI], FileSystemPath method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemPath method, IFsiItem.FileSystemPath, IFsiItem::FileSystemPath, imapi.ifsiitem_filesystempath, imapi2fs/IFsiItem::FileSystemPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

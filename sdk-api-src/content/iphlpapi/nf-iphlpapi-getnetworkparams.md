@@ -169,15 +169,19 @@ The <b>GetNetworkParams</b> function and the
 
 The following example retrieves the network parameters for the local computer and prints information from the returned data.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // Link with IPHlpAPI.lib
 //
-#include <winsock2.h>
-#include <iphlpapi.h>
-#include <stdio.h>
-#include <windows.h>
+#include &lt;winsock2.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
 #pragma comment(lib, "IPHLPAPI.lib")
 
 #define MALLOC(x) HeapAlloc(GetProcessHeap(), 0, (x))
@@ -202,7 +206,7 @@ int __cdecl main()
 
 // Make an initial call to GetAdaptersInfo to get
 // the necessary size into the ulOutBufLen variable
-    if (GetNetworkParams(pFixedInfo, &ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
+    if (GetNetworkParams(pFixedInfo, &amp;ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
         FREE(pFixedInfo);
         pFixedInfo = (FIXED_INFO *) MALLOC(ulOutBufLen);
         if (pFixedInfo == NULL) {
@@ -211,22 +215,22 @@ int __cdecl main()
         }
     }
 
-    if (dwRetVal = GetNetworkParams(pFixedInfo, &ulOutBufLen) == NO_ERROR) {
+    if (dwRetVal = GetNetworkParams(pFixedInfo, &amp;ulOutBufLen) == NO_ERROR) {
 
-        printf("Host Name: %s\n", pFixedInfo->HostName);
-        printf("Domain Name: %s\n", pFixedInfo->DomainName);
+        printf("Host Name: %s\n", pFixedInfo-&gt;HostName);
+        printf("Domain Name: %s\n", pFixedInfo-&gt;DomainName);
 
         printf("DNS Servers:\n");
-        printf("\t%s\n", pFixedInfo->DnsServerList.IpAddress.String);
+        printf("\t%s\n", pFixedInfo-&gt;DnsServerList.IpAddress.String);
 
-        pIPAddr = pFixedInfo->DnsServerList.Next;
+        pIPAddr = pFixedInfo-&gt;DnsServerList.Next;
         while (pIPAddr) {
-            printf("\t%s\n", pIPAddr->IpAddress.String);
-            pIPAddr = pIPAddr->Next;
+            printf("\t%s\n", pIPAddr-&gt;IpAddress.String);
+            pIPAddr = pIPAddr-&gt;Next;
         }
 
         printf("Node Type: ");
-        switch (pFixedInfo->NodeType) {
+        switch (pFixedInfo-&gt;NodeType) {
         case BROADCAST_NODETYPE:
             printf("Broadcast node\n");
             break;
@@ -240,23 +244,23 @@ int __cdecl main()
             printf("Hybrid node\n");
             break;
         default:
-            printf("Unknown node type %0lx\n", pFixedInfo->NodeType);
+            printf("Unknown node type %0lx\n", pFixedInfo-&gt;NodeType);
             break;
         }
 
-        printf("DHCP scope name: %s\n", pFixedInfo->ScopeId);
+        printf("DHCP scope name: %s\n", pFixedInfo-&gt;ScopeId);
 
-        if (pFixedInfo->EnableRouting)
+        if (pFixedInfo-&gt;EnableRouting)
             printf("Routing: enabled\n");
         else
             printf("Routing: disabled\n");
 
-        if (pFixedInfo->EnableProxy)
+        if (pFixedInfo-&gt;EnableProxy)
             printf("ARP proxy: enabled\n");
         else
             printf("ARP Proxy: disabled\n");
 
-        if (pFixedInfo->EnableDns)
+        if (pFixedInfo-&gt;EnableDns)
             printf("DNS: enabled\n");
         else
             printf("DNS: disabled\n");
@@ -272,10 +276,10 @@ int __cdecl main()
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

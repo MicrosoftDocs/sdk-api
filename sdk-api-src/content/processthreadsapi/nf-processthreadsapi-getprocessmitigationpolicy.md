@@ -4,10 +4,10 @@ title: GetProcessMitigationPolicy function
 author: windows-sdk-content
 description: Retrieves mitigation policy settings for the calling process.
 old-location: base\getprocessmitigationpolicy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -218,7 +218,7 @@ The <i>lpBuffer</i> parameter points to a <a href="https://msdn.microsoft.com/C5
 Windows 10, version 1809 and above: The policy regarding isolation of side channels for the specified process.
 
 
-The <i>lpBuffer</i> parameter points to a <a href="base.process_mitigation_side_channel_isolation_policy">PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY</a>structure that specifies the policy flags for side channel isolation.
+The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_process_mitigation_side_channel_isolation_policy">PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY</a>structure that specifies the policy flags for side channel isolation.
 
 
 </td>

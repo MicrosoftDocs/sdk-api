@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrSyncItems_Skip.htm
 tech.root: shell
 ms.assetid: a07038de-84dc-4371-b72f-c835efd73ffc
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Skip method, IEnumSyncMgrSyncItems.Skip, IEnumSyncMgrSyncItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Skip, shell.IEnumSyncMgrSyncItems_Skip, syncmgr/IEnumSyncMgrSyncItems::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

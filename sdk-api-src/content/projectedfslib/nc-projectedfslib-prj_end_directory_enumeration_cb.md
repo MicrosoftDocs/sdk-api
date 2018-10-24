@@ -7,7 +7,7 @@ old-location: projfs\prj_end_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: E9DA86AC-E884-4DB3-977D-6D8EDA2A8E12
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PRJ_END_DIRECTORY_ENUMERATION_CB, PRJ_END_DIRECTORY_ENUMERATION_CB callback, PRJ_END_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_end_directory_enumeration_cb, projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The provider can access this buffer only while the callback is running. If it wi
 
 ### -param enumerationId [in]
 
-An identifier for this enumeration session. See the Remarks section of <a href="projfs.prj_start_directory_enumeration_cb">PRJ_START_DIRECTORY_ENUMERATION_CB</a> for more information.
+An identifier for this enumeration session. See the Remarks section of <a href="https://msdn.microsoft.com/09F284D4-BF39-42C9-A89B-DDC8201362EE">PRJ_START_DIRECTORY_ENUMERATION_CB</a> for more information.
 
 
 ## -returns

@@ -3,25 +3,25 @@ UID: NS:fwptypes.FWP_TOKEN_INFORMATION_
 title: FWP_TOKEN_INFORMATION_
 author: windows-sdk-content
 description: The FWP_TOKEN_INFORMATION structure defines a set of security identifiers that are used for user-mode classification.
-old-location: netvista\fwp_token_information.htm
-tech.root: NetVista
-ms.assetid: e30a5441-3f36-4da9-a066-9937a484de84
+old-location: fwp\fwp_token_information.htm
+tech.root: fwp
+ms.assetid: 30bc6d4b-e3a8-4adf-82d5-adaf30f042ff
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: FWP_TOKEN_INFORMATION, FWP_TOKEN_INFORMATION structure [Network Drivers Starting with Windows Vista], FWP_TOKEN_INFORMATION_, fwptypes/FWP_TOKEN_INFORMATION, netvista.fwp_token_information, wfp_ref_3_struct_1_top_fwp_A-Z_1026929a-bdaa-49f7-9d11-e5bba3174348.xml
+ms.date: 10/12/2018
+ms.keywords: FWP_TOKEN_INFORMATION, FWP_TOKEN_INFORMATION structure [Filtering], FWP_TOKEN_INFORMATION_, fwp.fwp_token_information, fwptypes/FWP_TOKEN_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
-req.include-header: Fwpsk.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - fwptypes.h
+ - Fwptypes.h
 api_name:
  - FWP_TOKEN_INFORMATION
 product: Windows
@@ -50,8 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>FWP_TOKEN_INFORMATION</b> structure defines a set of security identifiers that are used for user-mode
-  classification.
+The <b>FWP_TOKEN_INFORMATION</b> structure defines a set of security identifiers that are used for user-mode classification.
 
 
 ## -struct-fields
@@ -61,45 +60,20 @@ The <b>FWP_TOKEN_INFORMATION</b> structure defines a set of security identifiers
 
 ### -field sidCount
 
-The number of <a href="https://msdn.microsoft.com/37c299ab-16a6-4fa2-8ac9-55d75cc98f60">SID_AND_ATTRIBUTES</a> structures in the array pointed to by the 
-     <b>sids</b> member.
+The number of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures stored in the <b>sids</b> array.
 
 
 ### -field sids
 
-An array of <a href="https://msdn.microsoft.com/37c299ab-16a6-4fa2-8ac9-55d75cc98f60">SID_AND_ATTRIBUTES</a> structures. Each structure represents a security
-     identifier and its attributes.
+An array of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures containing user and group security information.
 
 
 ### -field restrictedSidCount
 
-The number of <a href="https://msdn.microsoft.com/37c299ab-16a6-4fa2-8ac9-55d75cc98f60">SID_AND_ATTRIBUTES</a> structures in the array pointed to by the 
-     <b>restrictedSids</b> member.
+The number of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures stored in the <b>restrictedSids</b> array.
 
 
 ### -field restrictedSids
 
-An array of <a href="https://msdn.microsoft.com/37c299ab-16a6-4fa2-8ac9-55d75cc98f60">SID_AND_ATTRIBUTES</a> structures. Each structure represents a security
-     identifier and its attributes.
-
-
-## -remarks
-
-
-
-The <b>FWP_TOKEN_INFORMATION</b> structure is used for user-mode classification. This structure is not used
-    by callout drivers.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/7632d9be-dd16-40d2-b7b4-2d4efb6aaa99">FWP_DATA_TYPE</a>
- 
-
- 
+An array of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures containing restricted SIDs security information.
 

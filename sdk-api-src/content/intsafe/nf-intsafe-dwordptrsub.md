@@ -7,7 +7,7 @@ old-location: shell\DWordPtrSub.htm
 tech.root: shell
 ms.assetid: cfe9ec32-ed6a-42fa-9891-3ce2e88cd5d0
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DWordPtrSub, DWordPtrSub function [Windows Shell], _shell_DWordPtrSub, intsafe/DWordPtrSub, shell.DWordPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

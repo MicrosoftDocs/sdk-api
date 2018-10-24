@@ -4,10 +4,10 @@ title: "_WINUSB_SETUP_PACKET"
 author: windows-sdk-content
 description: The WINUSB_SETUP_PACKET structure describes a USB setup packet.
 old-location: buses\winusb_setup_packet.htm
-tech.root: UsbRef
+tech.root: usbref
 ms.assetid: b2e6bebc-81c1-4f52-870d-43c72740f8e2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/23/2018
 ms.keywords: "*PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET structure pointer [Buses], WINUSB_SETUP_PACKET, WINUSB_SETUP_PACKET structure [Buses], _WINUSB_SETUP_PACKET, buses.winusb_setup_packet, usbstrct_8a7725be-7ee3-4715-8498-3168b011c2dd.xml, winusb/PWINUSB_SETUP_PACKET, winusb/WINUSB_SETUP_PACKET"
 ms.prod: windows
 ms.technology: windows-sdk

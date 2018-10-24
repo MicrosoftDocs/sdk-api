@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getdouble.htm
 tech.root: WmiSdk
 ms.assetid: 39360e69-0d54-4b1f-8de8-0abf81e9238b
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetDOUBLE method, CInstance.GetDOUBLE, CInstance::GetDOUBLE, GetDOUBLE, GetDOUBLE method [Windows Management Instrumentation], GetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdouble, instance/CInstance::GetDOUBLE, wmi.cinstance_getdouble
 ms.prod: windows-hardware
 ms.technology: windows-devices

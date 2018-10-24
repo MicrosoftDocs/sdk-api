@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink.htm
 tech.root: shell
 ms.assetid: 24b20e05-d8be-4060-a966-7b32d9225403
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IFileOperationProgressSink, IFileOperationProgressSink interface [Windows Shell], IFileOperationProgressSink interface [Windows Shell],described, _shell_IFileOperationProgressSink, shell.IFileOperationProgressSink, shobjidl_core/IFileOperationProgressSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -261,20 +261,24 @@ The following example passes <b>IFileOperationProgressSink</b> to an instance of
 
                 
 
-
-```
-IFileOperation *pfo;
-CoCreateInstance(CLSID_FileOperation, NULL, CLSCTX_ALL, IID_IFileOperation, (void **)&m_pFO)
-HRESULT hr = SHCreateFileOperation(hwnd, 0, IID_PPV_ARGS(&pfo));
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IFileOperation *pfo;
+CoCreateInstance(CLSID_FileOperation, NULL, CLSCTX_ALL, IID_IFileOperation, (void **)&amp;m_pFO)
+HRESULT hr = SHCreateFileOperation(hwnd, 0, IID_PPV_ARGS(&amp;pfo));
 if (SUCCEEDED(hr))
 {
     // Advise to get notifications
     DWORD dwCookie;
-    hr = pfo->Advise(SAFECAST(this, IFileOperationProgressSink*), &dwCookie);
-}
-```
-
-
+    hr = pfo-&gt;Advise(SAFECAST(this, IFileOperationProgressSink*), &amp;dwCookie);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

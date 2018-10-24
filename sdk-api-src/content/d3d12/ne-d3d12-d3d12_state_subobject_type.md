@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The type of a state subobject. Use with <a href="direct3d12.d3d12_state_subobject">D3D12_STATE_SUBOBJECT</a>.
+The type of a state subobject. Use with <a href="https://msdn.microsoft.com/D721F0F2-B061-4BDC-83F7-7B08DDC39F34">D3D12_STATE_SUBOBJECT</a>.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ Subobject type is <a href="http://docs.microsoft.com/windows/desktop/d3d12/ns-d3
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 
-Subobject type is <a href="direct3d12.d3d12_subobject_to_exports_association">D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
+Subobject type is <a href="https://msdn.microsoft.com/B44B2F0C-D330-41AE-844C-F8B4D5697027">D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION

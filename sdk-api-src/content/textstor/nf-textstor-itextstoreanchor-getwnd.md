@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getwnd.htm
 tech.root: TSF
 ms.assetid: e77b5218-45e4-4fe1-a41f-1d7b5887ba30
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetWnd method, ITextStoreAnchor.GetWnd, ITextStoreAnchor::GetWnd, textstor/ITextStoreAnchor::GetWnd, tsf.itextstoreanchor_getwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

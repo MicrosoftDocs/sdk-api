@@ -7,7 +7,7 @@ old-location: wmi\wbemauthenticationlevelenum.htm
 tech.root: WmiSdk
 ms.assetid: 1789b25a-e9a0-42a3-97c2-077e902a2f41
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAuthenticationLevelDefault, WbemAuthenticationLevelEnum, WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation], WbemAuthenticationLevelNone, WbemAuthenticationLevelPkt, WbemAuthenticationLevelPktIntegrity, WbemAuthenticationLevelPktPrivacy, _hmm_wbemauthenticationlevelenum, wbemdisp/WbemAuthenticationLevelCall, wbemdisp/WbemAuthenticationLevelConnect, wbemdisp/WbemAuthenticationLevelDefault, wbemdisp/WbemAuthenticationLevelEnum, wbemdisp/WbemAuthenticationLevelNone, wbemdisp/WbemAuthenticationLevelPkt, wbemdisp/WbemAuthenticationLevelPktIntegrity, wbemdisp/WbemAuthenticationLevelPktPrivacy, wmi.wbemauthenticationlevelenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,39 +61,47 @@ Script languages must use one of the following:
 <li>
 The short name. For example, for <b>WbemAuthenticationLevelPktPrivacy</b> use "PktPrivacy".
 
-
-```vb
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>
 strComputer = "RemoteComputer"
 Set objWMIServices = GetObject("WINMGMTS:" _
-    & "{authenticationLevel=pktPrivacy}!\\" _
-    & strComputer & "\ROOT\CIMV2")
-```
-
-
+    &amp; "{authenticationLevel=pktPrivacy}!\\" _
+    &amp; strComputer &amp; "\ROOT\CIMV2")</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 <li>
 Windows Script Host (WSH) XML file format in the script. For example, this means that the script can use the  <b>WbemAuthenticationLevelPkt</b> constant directly.
 
 The following WSH script sets the authentication level. To run the script, save the text in a file with a .wsf extension.
 
-
-```vb
-<?xml version="1.0" encoding="US-ASCII"?>
-<job>
-<reference object="WbemScripting.SWbemLocator"/>
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;?xml version="1.0" encoding="US-ASCII"?&gt;
+&lt;job&gt;
+&lt;reference object="WbemScripting.SWbemLocator"/&gt;
+&lt;script language="VBScript"&gt;
     set service = GetObject("winmgmts:")
     ' Following line uses a symbolic 
     ' constant from the WMI type library
     service.Security_.authenticationLevel = _
         WbemAuthenticationLevelPktPrivacy
-</script>
-</job>
-
-```
-
-For more information, see 
+&lt;/script&gt;
+&lt;/job&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>For more information, see 
 <a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.</li>
 </ul>
 

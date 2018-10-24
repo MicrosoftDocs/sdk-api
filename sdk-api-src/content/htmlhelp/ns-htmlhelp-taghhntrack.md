@@ -7,7 +7,7 @@ old-location: htmlhelp\hhntrack_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhntrack.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/22/2018
 ms.keywords: HHNTRACK, HHNTRACK structure [HTML Help Workshop], htmlhelp.hhntrack_structure, htmlhelp/HHNTRACK, tagHHNTRACK, vsconStrhhntrack
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,12 +70,12 @@ A multi-byte, zero-terminated string that specifies the current topic (before th
 
 ### -field idAction
 
-Specifies the action the user is about to take. This is an <a href="https://msdn.microsoft.com/en-us/library/ms524361(v=VS.85).aspx">HHACT_</a> constant. 
+Specifies the action the user is about to take. This is an <a href="https://msdn.microsoft.com/E09BFFD7-8E44-47ba-BAFD-4582FF9430A7">HHACT_</a> constant. 
 
 
 ### -field phhWinType
 
-A pointer to the current <a href="https://msdn.microsoft.com/en-us/library/ms524363(v=VS.85).aspx">HH_WINTYPE</a> structure. 
+A pointer to the current <a href="https://msdn.microsoft.com/61614318-9785-4f1e-A9E7-366C04DE4FFE">HH_WINTYPE</a> structure. 
 
 
 ## -see-also
@@ -83,7 +83,7 @@ A pointer to the current <a href="https://msdn.microsoft.com/en-us/library/ms524
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About structures</a>
+<a href="https://msdn.microsoft.com/E75CA82E-9759-47d8-AF84-5842EDAB019D">About structures</a>
  
 
  

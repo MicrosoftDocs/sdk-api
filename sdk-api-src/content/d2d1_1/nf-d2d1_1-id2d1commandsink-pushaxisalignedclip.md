@@ -4,10 +4,10 @@ title: ID2D1CommandSink::PushAxisAlignedClip
 author: windows-sdk-content
 description: Pushes a clipping rectangle onto the clip and layer stack.
 old-location: direct2d\id2d1commandsink_pushaxisalignedclip.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 09e20780-2ebd-417e-9953-421f49dba4dd
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PushAxisAlignedClip method, ID2D1CommandSink.PushAxisAlignedClip, ID2D1CommandSink::PushAxisAlignedClip, PushAxisAlignedClip, PushAxisAlignedClip method [Direct2D], PushAxisAlignedClip method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PushAxisAlignedClip, direct2d.id2d1commandsink_pushaxisalignedclip
 ms.prod: windows-hardware
 ms.technology: windows-devices

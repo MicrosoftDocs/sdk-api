@@ -7,7 +7,7 @@ old-location: properties\VariantGetInt64Elem.htm
 tech.root: properties
 ms.assetid: 285705d3-3b8e-40ad-abf2-1adc5adda3d8
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: VariantGetInt64Elem, VariantGetInt64Elem function [Windows Properties], _shell_VariantGetInt64Elem, properties.VariantGetInt64Elem, propvarutil/VariantGetInt64Elem, shell.VariantGetInt64Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices

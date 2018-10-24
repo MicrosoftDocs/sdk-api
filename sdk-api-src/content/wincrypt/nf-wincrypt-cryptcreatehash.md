@@ -4,10 +4,10 @@ title: CryptCreateHash function
 author: windows-sdk-content
 description: Initiates the hashing of a stream of data. It creates and returns to the calling application a handle to a cryptographic service provider (CSP) hash object.
 old-location: security\cryptcreatehash.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CRYPT_SECRETDIGEST, CryptCreateHash, CryptCreateHash function [Security], _crypto2_cryptcreatehash, security.cryptcreatehash, wincrypt/CryptCreateHash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -243,9 +243,13 @@ The following example shows initiating the hashing of a stream of data. It creat
 <a href="https://msdn.microsoft.com/15d4a05d-5888-4532-91fd-6cd94afe0b99">Example C Program: Creating and Hashing a Session Key</a>.
 For another example that uses this function, see <a href="https://msdn.microsoft.com/72f5d30a-efd5-4bf5-8057-cb73e5aa0514">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
 
-
-```cpp
-//--------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//--------------------------------------------------------------------
 //  Declare variables.
 
 HCRYPTPROV hCryptProv;
@@ -256,7 +260,7 @@ HCRYPTHASH hHash;
 
 
 if(CryptAcquireContext(
-   &hCryptProv, 
+   &amp;hCryptProv, 
    NULL, 
    NULL, 
    PROV_RSA_FULL, 
@@ -277,7 +281,7 @@ if(CryptCreateHash(
    CALG_MD5, 
    0, 
    0, 
-   &hHash)) 
+   &amp;hHash)) 
 {
     printf("An empty hash object has been created. \n");
 }
@@ -296,10 +300,10 @@ if(hHash)
    CryptDestroyHash(hHash);
 if(hCryptProv) 
    CryptReleaseContext(hCryptProv,0);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -344,7 +348,7 @@ if(hCryptProv)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

@@ -4,10 +4,10 @@ title: ICertEncodeStringArray::GetStringType
 author: windows-sdk-content
 description: Returns the type of string values that the string array contains.
 old-location: security\icertencodestringarray_getstringtype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7020f364-4f92-46b8-a8e8-360d8e0fa051
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetStringType method, GetStringType, GetStringType method [Security], GetStringType method [Security],CCertEncodeStringArray object, GetStringType method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetStringType method, ICertEncodeStringArray.GetStringType, ICertEncodeStringArray::GetStringType, _certsrv_icertencodestringarray_getstringtype, certenc/ICertEncodeStringArray::GetStringType, security.icertencodestringarray_getstringtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ A pointer to a <b>Long</b> that  represents the string type. For a list of strin
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value indicates the type of strings in the string array. For a list of string types, see Remarks.
@@ -132,7 +132,7 @@ The following table lists the types of strings that the string array can  contai
 </tr>
 <tr>
 <td>CERT_RDN_UNICODE_STRING</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> characters (16 bit).</td>
+<td><a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> characters (16 bit).</td>
 </tr>
 </table>
  
@@ -140,7 +140,7 @@ The following table lists the types of strings that the string array can  contai
 
 #### Examples
 
-For an example that uses the <b>GetStringType</b> method, see the <a href="https://msdn.microsoft.com/en-us/library/Aa385015(v=VS.85).aspx">ICertEncodeStringArray::Encode</a> method.
+For an example that uses the <b>GetStringType</b> method, see the <a href="https://msdn.microsoft.com/d8fc51ea-4d83-402a-a4ac-ce55d385905c">ICertEncodeStringArray::Encode</a> method.
 
 <div class="code"></div>
 
@@ -151,11 +151,11 @@ For an example that uses the <b>GetStringType</b> method, see the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385013(v=VS.85).aspx">ICertEncodeStringArray</a>
+<a href="https://msdn.microsoft.com/5515c25e-f788-4222-8f66-f5d86bd2a3a3">ICertEncodeStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385019(v=VS.85).aspx">ICertEncodeStringArray::Reset</a>
+<a href="https://msdn.microsoft.com/125524ae-236d-4507-9c00-76a016bf6c62">ICertEncodeStringArray::Reset</a>
  
 
  

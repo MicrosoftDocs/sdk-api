@@ -7,7 +7,7 @@ old-location: wcs\checkcolorsingamut.htm
 tech.root: WCS
 ms.assetid: 87bee1a6-e3dd-4d0b-ad8a-9584833d9463
 ms.author: windowssdkdev
-ms.date: 10/03/2018
+ms.date: 10/19/2018
 ms.keywords: CheckColorsInGamut, CheckColorsInGamut function [Windows Color System], _color_CheckColorsInGamut, wcs.checkcolorsingamut, wingdi/CheckColorsInGamut
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB triples lies in the output <a href="https://msdn.microsoft.com/en-us/library/Dd316909(v=VS.85).aspx">gamut</a> of a specified device. The RGB triples are interpreted in the input logical color space.
+The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB triples lies in the output <a href="g.htm">gamut</a> of a specified device. The RGB triples are interpreted in the input logical color space.
 
 
 ## -parameters

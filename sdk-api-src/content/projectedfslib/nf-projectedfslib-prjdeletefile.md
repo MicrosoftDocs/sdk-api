@@ -7,7 +7,7 @@ old-location: projfs\prjdeletefile.htm
 tech.root: ProjFS
 ms.assetid: 4F3529FC-5658-4768-AC72-29178C9595F0
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PrjDeleteFile, PrjDeleteFile function, ProjFS.prjdeletefile, projectedfslib/PrjDeleteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ If the item is still in the provider's backing store, deleting it from the local
 This routine cannot be called on a virtual file/directory. 
 
 
-If the file/directory to be deleted is in any state other than "placeholder", the provider must specify an appropriate combination of <a href="projfs.prj_update_types">PRJ_UPDATE_TYPES</a> values in the updateFlags parameter. This helps guard against accidental loss of data. 
+If the file/directory to be deleted is in any state other than "placeholder", the provider must specify an appropriate combination of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a> values in the updateFlags parameter. This helps guard against accidental loss of data. 
 
 
 

@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacegetcredentials.htm
 tech.root: rras
 ms.assetid: 0ec18926-1ee9-4e28-9284-9d95d06be2e4
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MprAdminInterfaceGetCredentials, MprAdminInterfaceGetCredentials function [RAS], _mpr_mpradmininterfacegetcredentials, mprapi/MprAdminInterfaceGetCredentials, rras.mpradmininterfacegetcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -160,7 +160,7 @@ The <i>lpwsUserName</i>, <i>lpwsPassword</i>, and <i>lpwsDomainName</i> paramete
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -191,7 +191,7 @@ Note that the order of the parameters in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

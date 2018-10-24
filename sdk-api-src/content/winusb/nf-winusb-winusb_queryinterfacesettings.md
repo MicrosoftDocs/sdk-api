@@ -4,10 +4,10 @@ title: WinUsb_QueryInterfaceSettings function
 author: windows-sdk-content
 description: The WinUsb_QueryInterfaceSettings function retrieves the interface descriptor for the specified alternate interface settings for a particular interface handle.
 old-location: buses\winusb_queryinterfacesettings.htm
-tech.root: UsbRef
+tech.root: usbref
 ms.assetid: fe36e441-60eb-4df3-8100-6c441c599a60
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/23/2018
 ms.keywords: WinUsb_QueryInterfaceSettings, WinUsb_QueryInterfaceSettings function [Buses], buses.winusb_queryinterfacesettings, winusb/WinUsb_QueryInterfaceSettings, winusbfunc_e69535c0-faad-4708-823c-f343e8ae2e9d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

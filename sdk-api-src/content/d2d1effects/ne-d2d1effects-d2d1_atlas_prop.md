@@ -4,10 +4,10 @@ title: D2D1_ATLAS_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Atlas effect.
 old-location: direct2d\d2d1_atlas_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7450C113-F1F0-433C-928B-19B0FF21B69B
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: D2D1_ATLAS_PROP, D2D1_ATLAS_PROP enumeration [Direct2D], D2D1_ATLAS_PROP_INPUT_PADDING_RECT, D2D1_ATLAS_PROP_INPUT_RECT, d2d1effects/D2D1_ATLAS_PROP, d2d1effects/D2D1_ATLAS_PROP_INPUT_PADDING_RECT, d2d1effects/D2D1_ATLAS_PROP_INPUT_RECT, direct2d.d2d1_atlas_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh780337(v=VS.85).aspx">Atlas effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/D35E32CB-4DF7-408F-A717-1E421DDC8763">Atlas effect</a>.
         
 
 

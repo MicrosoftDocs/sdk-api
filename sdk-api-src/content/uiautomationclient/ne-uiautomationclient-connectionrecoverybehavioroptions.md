@@ -7,7 +7,7 @@ old-location: winauto\uiauto_connectionrecoverybehavioroptions.htm
 tech.root: WinAuto
 ms.assetid: B731C970-49AF-4BD7-9D30-DFBB76120499
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: ConnectionRecoveryBehaviorOptions, ConnectionRecoveryBehaviorOptions enumeration [Windows Accessibility], ConnectionRecoveryBehaviorOptions_Disabled, ConnectionRecoveryBehaviorOptions_Enabled, uiautomationclient/ConnectionRecoveryBehaviorOptions, uiautomationclient/ConnectionRecoveryBehaviorOptions_Disabled, uiautomationclient/ConnectionRecoveryBehaviorOptions_Enabled, winauto.uiauto_connectionrecoverybehavioroptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains possible values for the <a href="winauto.uiauto_iuiautomation6_connectionrecoverybehavior">ConnectionRecoveryBehavior</a> property, which indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
+Contains possible values for the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_connectionrecoverybehavior">ConnectionRecoveryBehavior</a> property, which indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
 
 
 ## -enum-fields
@@ -73,7 +73,7 @@ Connection recovery is enabled.
 
 
 
-<a href="winauto.uiauto_iuiautomation6_connectionrecoverybehavior">ConnectionRecoveryBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_connectionrecoverybehavior">ConnectionRecoveryBehavior</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_Font_HDC_hdc_LOGFONTW_logfont_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_71hdchdc_logfontwlogfont.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(HDC,const LOGFONTW*), Font.Font(IN HDC,IN const LOGFONTW), Font::Font, Font::Font(IN HDC,IN const LOGFONTW), _gdiplus_CLASS_Font_Font_HDC_hdc_LOGFONTW_logfont_, gdiplus._gdiplus_CLASS_Font_Font_HDC_hdc_LOGFONTW_logfont_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 

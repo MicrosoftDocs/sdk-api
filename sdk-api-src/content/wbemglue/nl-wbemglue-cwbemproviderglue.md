@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue.htm
 tech.root: WmiSdk
 ms.assetid: 493027c2-e54d-4fad-9e33-98d1ceab8860
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue class [Windows Management Instrumentation], CWbemProviderGlue class [Windows Management Instrumentation],described, _hmm_cwbemproviderglue, wbemglue/CWbemProviderGlue, wmi.cwbemproviderglue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Called when the DLL_PROCESS_ATTACH value is sent to <a href="https://msdn.micros
 <a href="https://msdn.microsoft.com/5157d823-d3a1-46d2-8ae8-07e904001a14">FrameworkLogoffDLL</a>
 </td>
 <td align="left" width="63%">
-Called by <a href="https://msdn.microsoft.com/en-us/library/ms690368(v=VS.85).aspx">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
+Called by <a href="_com_dllcanunloadnow">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
 
 </td>
 </tr>

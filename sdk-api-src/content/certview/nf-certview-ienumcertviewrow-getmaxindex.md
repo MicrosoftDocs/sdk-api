@@ -4,10 +4,10 @@ title: IEnumCERTVIEWROW::GetMaxIndex
 author: windows-sdk-content
 description: Retrieves the maximum valid index value after all the rows in the row-enumeration sequence have been referenced.
 old-location: security\ienumcertviewrow_getmaxindex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 65ba80db-b7ee-46fa-b044-eab554720ce9
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetMaxIndex, GetMaxIndex method [Security], GetMaxIndex method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],GetMaxIndex method, IEnumCERTVIEWROW.GetMaxIndex, IEnumCERTVIEWROW::GetMaxIndex, certview/IEnumCERTVIEWROW::GetMaxIndex, security.ienumcertviewrow_getmaxindex, security.ienumcertviewrow_getmaxtindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ A pointer to a <b>LONG</b> variable that contains the maximum index value for th
 
 If traversal to the last row has not occurred, this method fails with a return value of E_UNEXPECTED.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the maximum index value for the row-enumeration sequence. This method fails if traversal to the last row has not occurred.
@@ -96,19 +96,19 @@ To navigate through the row-enumeration sequence, call the following methods.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386255(v=VS.85).aspx">IEnumCERTVIEWROW::Reset</a>
+<a href="https://msdn.microsoft.com/76bee5db-0443-4673-a59c-0198587736dc">IEnumCERTVIEWROW::Reset</a>
 </td>
 <td>Moves to the beginning of the enumeration sequence.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386249(v=VS.85).aspx">IEnumCERTVIEWROW::Next</a>
+<a href="https://msdn.microsoft.com/6e471ee9-4b69-468c-a724-e43bd93419d9">IEnumCERTVIEWROW::Next</a>
 </td>
 <td>Moves to the next row in the enumeration sequence.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386260(v=VS.85).aspx">IEnumCERTVIEWROW::Skip</a>
+<a href="https://msdn.microsoft.com/9115262e-00bb-4446-906d-7a57fd5781d1">IEnumCERTVIEWROW::Skip</a>
 </td>
 <td>Skips a specified number of rows.</td>
 </tr>
@@ -118,24 +118,28 @@ To navigate through the row-enumeration sequence, call the following methods.
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certview.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certview.h&gt;
 
 long nMax;
 
 //  Determine the maximum row index.
-hr = pRow->GetMaxIndex(&nMax);
+hr = pRow-&gt;GetMaxIndex(&amp;nMax);
 if (FAILED(hr))
     printf("Failed GetMaxIndex [%x]\n", hr);
 else
     printf("Max index is: %d\n", nMax);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -148,15 +152,15 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386249(v=VS.85).aspx">IEnumCERTVIEWROW::Next</a>
+<a href="https://msdn.microsoft.com/6e471ee9-4b69-468c-a724-e43bd93419d9">IEnumCERTVIEWROW::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386255(v=VS.85).aspx">IEnumCERTVIEWROW::Reset</a>
+<a href="https://msdn.microsoft.com/76bee5db-0443-4673-a59c-0198587736dc">IEnumCERTVIEWROW::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386260(v=VS.85).aspx">IEnumCERTVIEWROW::Skip</a>
+<a href="https://msdn.microsoft.com/9115262e-00bb-4446-906d-7a57fd5781d1">IEnumCERTVIEWROW::Skip</a>
  
 
  

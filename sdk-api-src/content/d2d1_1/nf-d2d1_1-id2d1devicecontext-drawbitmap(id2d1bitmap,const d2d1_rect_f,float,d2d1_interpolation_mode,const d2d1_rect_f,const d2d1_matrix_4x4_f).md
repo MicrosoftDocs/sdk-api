@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F,FLOAT,D2D1_I
 author: windows-sdk-content
 description: Draws a bitmap to the render target.
 old-location: direct2d\id2d1devicecontext_drawbitmap3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 08A0EA95-E620-4BF5-B2CA-FA69BCFDDBC6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Direct2D], DrawBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawBitmap method, ID2D1DeviceContext.DrawBitmap, ID2D1DeviceContext.DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F,FLOAT,D2D1_INTERPOLATION_MODE,const D2D1_RECT_F,const D2D1_MATRIX_4X4_F), ID2D1DeviceContext::DrawBitmap, ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F,FLOAT,D2D1_INTERPOLATION_MODE,const D2D1_RECT_F,const D2D1_MATRIX_4X4_F), d2d1_1/ID2D1DeviceContext::DrawBitmap, direct2d.id2d1devicecontext_drawbitmap3
 ms.prod: windows-hardware
 ms.technology: windows-devices

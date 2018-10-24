@@ -106,21 +106,25 @@ To be visible to the Windows Biometric Framework, the <b>WbioQueryEngineInterfac
 
 The following pseudocode shows one possible implementation of this function. 
 
-
-```cpp
-HRESULT
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
 WINAPI
 WbioQueryEngineInterface(
     __out PWINBIO_ENGINE_INTERFACE *EngineInterface)
 {
     // g_EngineInterface is a global variable.
-    *EngineInterface = &g_EngineInterface;
+    *EngineInterface = &amp;g_EngineInterface;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

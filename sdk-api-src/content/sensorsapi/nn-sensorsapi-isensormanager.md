@@ -65,22 +65,26 @@ You retrieve a pointer to this interface by calling the COM <b>CoCreateInstance<
 
 The following example code creates an instance of the sensor manager. 
 
-
-```cpp
-// Create the sensor manager.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create the sensor manager.
 hr = CoCreateInstance(CLSID_SensorManager, 
                         NULL, CLSCTX_INPROC_SERVER,
-                        IID_PPV_ARGS(&pSensorManager));
+                        IID_PPV_ARGS(&amp;pSensorManager));
 
 if(hr == HRESULT_FROM_WIN32(ERROR_ACCESS_DISABLED_BY_POLICY))
 {
     // Unable to retrieve sensor manager due to 
     // group policy settings. Alert the user.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

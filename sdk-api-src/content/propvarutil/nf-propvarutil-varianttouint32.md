@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32.htm
 tech.root: properties
 ms.assetid: 24421477-8930-4c8f-8fee-5d8367123c7e
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: VariantToUInt32, VariantToUInt32 function [Windows Properties], _shell_VariantToUInt32, properties.VariantToUInt32, propvarutil/VariantToUInt32, shell.VariantToUInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices

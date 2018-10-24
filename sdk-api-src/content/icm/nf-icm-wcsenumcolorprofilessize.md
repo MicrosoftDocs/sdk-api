@@ -7,7 +7,7 @@ old-location: wcs\wcsenumcolorprofilessize.htm
 tech.root: WCS
 ms.assetid: 1fc76f8a-dad5-4447-bffc-2df58b4201de
 ms.author: windowssdkdev
-ms.date: 10/03/2018
+ms.date: 10/19/2018
 ms.keywords: WcsEnumColorProfilesSize, WcsEnumColorProfilesSize function [Windows Color System], _color_WcsEnumColorProfilesSize, icm/WcsEnumColorProfilesSize, wcs.wcsenumcolorprofilessize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\chstring_chstring_lpcstr_.htm
 tech.root: WmiSdk
 ms.assetid: 0a12cbd2-7fc5-4d82-a85a-dcc1d538a839
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: "??0CHString@@QAE@PBD@Z, ??0CHString@@QEAA@PEBD@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(LPCSTR), CHString::CHString, CHString::CHString(LPCSTR), chstring/CHString::CHString, wmi.chstring_chstring_lpcstr_"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,9 +108,13 @@ Enables you to construct a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bc
 
 The following code example shows how to use <a href="https://msdn.microsoft.com/d49e1600-d5d4-4c44-81c5-1b8c53b768de">CHString::CHString</a>.
 
-
-```cpp
-CHString s1;                    // Empty string
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s1;                    // Empty string
 CHString s2( L"cat" );          // From a C string literal
 CHString s3 = s2;               // Copy constructor
 CHString s4( s2 + " " + s3 );   // From a string expression
@@ -118,9 +122,9 @@ CHString s4( s2 + " " + s3 );   // From a string expression
 CHString s5( 'x' );             // s5 = "x"
 CHString s6( 'x', 6 );          // s6 = "xxxxxx"
 
-CHString city = L"Philadelphia"; // NOT the assignment operator
-```
-
-
+CHString city = L"Philadelphia"; // NOT the assignment operator</pre>
+</td>
+</tr>
+</table></span></div>
 
 

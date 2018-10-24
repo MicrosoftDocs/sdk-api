@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_getupperbound.htm
 tech.root: WmiSdk
 ms.assetid: 77c200f9-c63b-4842-881f-5c077e4618b8
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: "?GetUpperBound@CHStringArray@@QBEHXZ, ?GetUpperBound@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetUpperBound method, CHStringArray.GetUpperBound, CHStringArray::GetUpperBound, GetUpperBound, GetUpperBound method [Windows Management Instrumentation], GetUpperBound method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getupperbound, chstrarr/CHStringArray::GetUpperBound, wmi.chstringarray_getupperbound"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,10 +53,10 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetUpperBound</b> method gets the current upper bound of an array. Because array indexes are zero-based, this function returns a value that is one less than <a href="https://msdn.microsoft.com/5db50c38-a9c7-4711-925e-291cebf2b6f1">GetSize</a>.
@@ -83,7 +83,7 @@ If the <b>GetUpperBound</b> method is successful, it returns the upper bounds of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a>
+<a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a>
 
 
 

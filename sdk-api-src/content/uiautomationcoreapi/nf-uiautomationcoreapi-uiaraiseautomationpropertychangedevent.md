@@ -7,7 +7,7 @@ old-location: winauto\uiauto_RaiseAutoPropChangedEventFunction.htm
 tech.root: WinAuto
 ms.assetid: ec9da198-eb1d-4883-9b5c-539c92bd530b
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: UiaRaiseAutomationPropertyChangedEvent, UiaRaiseAutomationPropertyChangedEvent function [Windows Accessibility], uiauto.uiauto_RaiseAutoPropChangedEventFunction, uiauto_RaiseAutoPropChangedEventFunction, uiautomationcoreapi/UiaRaiseAutomationPropertyChangedEvent, winauto.uiauto_RaiseAutoPropChangedEventFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,14 +78,14 @@ The identifier for the property that changed. For a list of property IDs, see <a
 
 ### -param oldValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
 
 The old value of the property.
 
 
 ### -param newValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
 
 The new value of the property.
 

@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemmgr_getitems.htm
 tech.root: TSF
 ms.assetid: b6342d4b-e2b6-47d7-9f66-b3aa329c480d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetItems, GetItems method [Text Services Framework], GetItems method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItems method, ITfLangBarItemMgr.GetItems, ITfLangBarItemMgr::GetItems, _tsf_itflangbaritemmgr_getitems_ref, ctfutb/ITfLangBarItemMgr::GetItems, tsf.itflangbaritemmgr_getitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,17 +64,17 @@ Specifies the number of items to obtain the status for.
 
 ### -param ppItem [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a> interface pointers that receive the item interfaces. This array must be at least <i>ulCount</i> elements in length.
+Pointer to an array of <a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a> interface pointers that receive the item interfaces. This array must be at least <i>ulCount</i> elements in length.
 
 
 ### -param pInfo
 
-[in, out] Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms629074(v=VS.85).aspx">TF_LANGBARITEMINFO</a> structures that receive the information for each item. This array must be at least <i>ulCount</i> elements in length.
+[in, out] Pointer to an array of <a href="https://msdn.microsoft.com/4a826a2c-4cae-4cbf-8a25-38337dcd498d">TF_LANGBARITEMINFO</a> structures that receive the information for each item. This array must be at least <i>ulCount</i> elements in length.
 
 
 ### -param pdwStatus
 
-[in, out] Pointer to an array of <b>DWORD</b> values that receive the status of each item. Each element in this array receives zero or a combination of one or more of the <a href="https://msdn.microsoft.com/en-us/library/ms629077(v=VS.85).aspx">TF_LBI_STATUS_*</a> values. This array must be at least <i>ulCount</i> elements in length.
+[in, out] Pointer to an array of <b>DWORD</b> values that receive the status of each item. Each element in this array receives zero or a combination of one or more of the <a href="https://msdn.microsoft.com/5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc">TF_LBI_STATUS_*</a> values. This array must be at least <i>ulCount</i> elements in length.
 
 
 ### -param pcFetched
@@ -137,15 +137,15 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a>
+<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628723(v=VS.85).aspx">ITfLangBarItemMgr</a>
+<a href="https://msdn.microsoft.com/a7fa257f-e600-4554-8b23-f73323f37e69">ITfLangBarItemMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629074(v=VS.85).aspx">TF_LANGBARITEMINFO</a>
+<a href="https://msdn.microsoft.com/4a826a2c-4cae-4cbf-8a25-38337dcd498d">TF_LANGBARITEMINFO</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_EnableItem.htm
 tech.root: shell
 ms.assetid: 2e88fb21-201c-47b9-b341-1a8d9358a455
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: EnableItem, EnableItem method [Windows Shell], EnableItem method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableItem method, ISyncMgrControl.EnableItem, ISyncMgrControl::EnableItem, _shell_ISyncMgrControl_EnableItem, shell.ISyncMgrControl_EnableItem, syncmgr/ISyncMgrControl::EnableItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,9 +121,13 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>EnableItem</
 
 The following example shows the usage of <a href="https://msdn.microsoft.com/92a9525c-bf06-4720-a3e2-5352fa693c8e">ISyncMgrControl::EnableHandler</a> by a handler's procedure.
 
-
-```cpp
-void MiscProc(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void MiscProc(...)
 {
     ...
 
@@ -132,24 +136,24 @@ void MiscProc(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center to disable the item.
-        hr = pControl->EnableItem(FALSE, 
+        hr = pControl-&gt;EnableItem(FALSE, 
                                   s_szMySyncHandlerID,
                                   s_szMySyncHandlerMusicContentID, 
                                   hwnd,
                                   SYNCMGR_CF_WAIT);
-        pControl->Release();
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

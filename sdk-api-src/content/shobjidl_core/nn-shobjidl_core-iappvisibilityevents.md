@@ -7,7 +7,7 @@ old-location: shell\IAppVisibilityEvents.htm
 tech.root: shell
 ms.assetid: F6BABF7D-FA05-4A68-878F-A27A6990EC3F
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IAppVisibilityEvents, IAppVisibilityEvents interface [Windows Shell], IAppVisibilityEvents interface [Windows Shell],described, shell.IAppVisibilityEvents, shobjidl_core/IAppVisibilityEvents
 ms.prod: windows
 ms.technology: windows-sdk

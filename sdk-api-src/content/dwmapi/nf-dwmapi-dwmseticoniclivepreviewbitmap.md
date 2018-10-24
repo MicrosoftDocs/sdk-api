@@ -101,18 +101,22 @@ Returns <b>S_OK</b> if the function succeeds, or an error value otherwise. Note 
 
 A <i>live preview</i> (also known as a <i>Peek preview</i>) of a window appears when a user moves the mouse pointer over the window's thumbnail in the taskbar or gives the thumbnail focus in the ALT+TAB window. This view is a full-sized view of the window and can be a snapshot or an iconic representation.
 
-A window typically calls the <b>DwmSetIconicLivePreviewBitmap</b> function in response to a <a href="https://msdn.microsoft.com/en-us/library/Dd938874(v=VS.85).aspx">WM_DWMSENDICONICLIVEPREVIEWBITMAP</a> message. The returned bitmap must not be larger than the client area of the window or frame and must have 32-bit color depth.
+A window typically calls the <b>DwmSetIconicLivePreviewBitmap</b> function in response to a <a href="https://msdn.microsoft.com/24bf3b42-a850-4aa5-966a-29baab6b4d21">WM_DWMSENDICONICLIVEPREVIEWBITMAP</a> message. The returned bitmap must not be larger than the client area of the window or frame and must have 32-bit color depth.
 
 The Desktop Window Manager (DWM) uses a copy of the bitmap, but the caller retains ownership of the original bitmap and is responsible for freeing the resources that it uses when it is no longer needed. The DWM does not keep its copy of the bitmap when the DWM stops displaying the live preview representation.
 
 
 #### Examples
 
- To set a static, iconic bitmap to use as a live preview for the application's window, an application calls the <b>DwmSetIconicLivePreviewBitmap</b> function. To set this bitmap, the application must call <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> to set window attributes for non-client rendering to  <b>DWMWA_FORCE_ICONIC_REPRESENTATION</b> and <b>DWMWA_HAS_ICONIC_BITMAP</b>,  as shown in the following code. 
+ To set a static, iconic bitmap to use as a live preview for the application's window, an application calls the <b>DwmSetIconicLivePreviewBitmap</b> function. To set this bitmap, the application must call <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> to set window attributes for non-client rendering to  <b>DWMWA_FORCE_ICONIC_REPRESENTATION</b> and <b>DWMWA_HAS_ICONIC_BITMAP</b>,  as shown in the following code. 
 
-
-```cpp
-            // Set DWM window attributes to provide the iconic bitmap, and 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>            // Set DWM window attributes to provide the iconic bitmap, and 
             // to always render the thumbnail using the iconic bitmap.
             BOOL fForceIconic = TRUE;
             BOOL fHasIconicBitmap = TRUE;
@@ -120,28 +124,32 @@ The Desktop Window Manager (DWM) uses a copy of the bitmap, but the caller retai
             DwmSetWindowAttribute(
                 hwnd,
                 DWMWA_FORCE_ICONIC_REPRESENTATION,
-                &fForceIconic,
+                &amp;fForceIconic,
                 sizeof(fForceIconic));
 
             DwmSetWindowAttribute(
                 hwnd,
                 DWMWA_HAS_ICONIC_BITMAP,
-                &fHasIconicBitmap,
+                &amp;fHasIconicBitmap,
                 sizeof(fHasIconicBitmap));
+</pre>
+</td>
+</tr>
+</table></span></div>
+Then, the application calls <b>DwmSetIconicLivePreviewBitmap</b>  to respond to the <a href="https://msdn.microsoft.com/24bf3b42-a850-4aa5-966a-29baab6b4d21">WM_DWMSENDICONICLIVEPREVIEWBITMAP</a> message, as shown in the following code.
 
-```
-
-
-Then, the application calls <b>DwmSetIconicLivePreviewBitmap</b>  to respond to the <a href="https://msdn.microsoft.com/en-us/library/Dd938874(v=VS.85).aspx">WM_DWMSENDICONICLIVEPREVIEWBITMAP</a> message, as shown in the following code.
-
-
-```cpp
-        case WM_DWMSENDICONICLIVEPREVIEWBITMAP:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        case WM_DWMSENDICONICLIVEPREVIEWBITMAP:
         {
             // This window is being asked to provide a bitmap to show in Peek preview.
             // This indicates the thumbnail in the taskbar is being previewed.
             RECT rectWindow = {0, 0, 0, 0};
-            if (GetClientRect(hwnd, &rectWindow))
+            if (GetClientRect(hwnd, &amp;rectWindow))
             {
                 nWidth = rectWindow.right - rectWindow.left;
                 nHeight = rectWindow.bottom - rectWindow.top;
@@ -155,10 +163,10 @@ Then, the application calls <b>DwmSetIconicLivePreviewBitmap</b>  to respond to 
             }
         }
         break;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For the complete example, see the  <a href="https://msdn.microsoft.com/43fe71e7-4e5c-46fb-876b-e26996071665">Customize an Iconic Thumbnail and a Live Preview Bitmap</a> sample.
 
 

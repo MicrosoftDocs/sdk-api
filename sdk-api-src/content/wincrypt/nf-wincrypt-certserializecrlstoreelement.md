@@ -4,10 +4,10 @@ title: CertSerializeCRLStoreElement function
 author: windows-sdk-content
 description: The CertSerializeCRLStoreElement function serializes an encoded certificate revocation list (CRL) context and the encoded representation of its properties.
 old-location: security\certserializecrlstoreelement.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4ab053cd-d3d4-483c-b0ff-b8de63d88707
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CertSerializeCRLStoreElement, CertSerializeCRLStoreElement function [Security], _crypto2_certserializecrlstoreelement, security.certserializecrlstoreelement, wincrypt/CertSerializeCRLStoreElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ If the function fails, the return value is <b>FALSE</b>. For extended error info
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

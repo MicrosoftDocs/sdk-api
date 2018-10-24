@@ -7,7 +7,7 @@ old-location: tsf\tsruntype.htm
 tech.root: TSF
 ms.assetid: 47da6ff6-34c9-4c36-a254-ce8396723fcb
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: TS_RT_HIDDEN, TS_RT_OPAQUE, TS_RT_PLAIN, TsRunType, TsRunType enumeration [Text Services Framework], __MIDL___MIDL_itf_textstor_0000_0000_0003, _tsf_tsruntype_ref, textstor/TS_RT_HIDDEN, textstor/TS_RT_OPAQUE, textstor/TS_RT_PLAIN, textstor/TsRunType, tsf.tsruntype
 ms.prod: windows
 ms.technology: windows-sdk

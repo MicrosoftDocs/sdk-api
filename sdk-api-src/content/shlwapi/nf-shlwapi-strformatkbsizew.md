@@ -7,7 +7,7 @@ old-location: shell\StrFormatKBSize.htm
 tech.root: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: StrFormatKBSize, StrFormatKBSize function [Windows Shell], StrFormatKBSizeA, StrFormatKBSizeW, _win32_StrFormatKBSize, shell.StrFormatKBSize, shlwapi/StrFormatKBSize, shlwapi/StrFormatKBSizeA, shlwapi/StrFormatKBSizeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

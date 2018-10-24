@@ -7,7 +7,7 @@ old-location: wmi\chstring_format.htm
 tech.root: WmiSdk
 ms.assetid: 95d24b0e-3580-4a5d-8dad-50d44ef1ca39
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: CHString.Format, CHString.Format(UINT,, CHString::Format, CHString::Format methods [Windows Management Instrumentation], CHString::Format(UINT,, Format, chstring/CHString::Format, wmi.chstring_format
 ms.prod: windows-hardware
 ms.technology: windows-devices

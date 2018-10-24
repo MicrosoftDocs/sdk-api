@@ -7,7 +7,7 @@ old-location: shell\SHBrowseForFolder.htm
 tech.root: shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SHBrowseForFolder, SHBrowseForFolder function [Windows Shell], SHBrowseForFolderA, SHBrowseForFolderW, _win32_SHBrowseForFolder, shell.SHBrowseForFolder, shlobj_core/SHBrowseForFolder, shlobj_core/SHBrowseForFolderA, shlobj_core/SHBrowseForFolderW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,15 +121,19 @@ As of Windows XP, <b>SHBrowseForFolder</b> supports custom filtering on the con
 <div> </div>
 If <b>SHBrowseForFolder</b> returns a PIDL to a shortcut, sending that PIDL to <a href="https://msdn.microsoft.com/f043ffa2-37c1-465d-aed6-0475e721fbde">SHGetPathFromIDList</a> returns the path of the shortcut itself rather than the path of its target. The path to the shortcut's target can be obtained by using the <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> interface as shown in this example.
 
-
-```
-#include 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include 
 
 // Macros for interface casts
 #ifdef __cplusplus
 #define IID_PPV_ARG(IType, ppType) IID_##IType, reinterpret_cast(static_cast(ppType))
 #else
-#define IID_PPV_ARG(IType, ppType) &IID_##IType, (void**)(ppType)
+#define IID_PPV_ARG(IType, ppType) &amp;IID_##IType, (void**)(ppType)
 #endif
 
 // Retrieves the UIObject interface for the specified full PIDL
@@ -140,17 +144,17 @@ STDAPI SHGetUIObjectFromFullPIDL(LPCITEMIDLIST pidl, HWND hwnd, REFIID riid, voi
 
     *ppv = NULL;
 
-    HRESULT hr = SHBindToParent(pidl, IID_PPV_ARG(IShellFolder, &psf), &pidlChild);
+    HRESULT hr = SHBindToParent(pidl, IID_PPV_ARG(IShellFolder, &amp;psf), &amp;pidlChild);
     if (SUCCEEDED(hr))
     {
-        hr = psf->GetUIObjectOf(hwnd, 1, &pidlChild, riid, NULL, ppv);
-        psf->Release();
+        hr = psf-&gt;GetUIObjectOf(hwnd, 1, &amp;pidlChild, riid, NULL, ppv);
+        psf-&gt;Release();
     }
     return hr;
 }
  
 #define ILSkip(pidl, cb)       ((LPITEMIDLIST)(((BYTE*)(pidl))+cb))
-#define ILNext(pidl)           ILSkip(pidl, (pidl)->mkid.cb)
+#define ILNext(pidl)           ILSkip(pidl, (pidl)-&gt;mkid.cb)
  
 HRESULT SHILClone(LPCITEMIDLIST pidl, LPITEMIDLIST *ppidl)
 {
@@ -159,11 +163,11 @@ HRESULT SHILClone(LPCITEMIDLIST pidl, LPITEMIDLIST *ppidl)
     if (pidl)
     {
         LPCITEMIDLIST pidl_temp = pidl;
-        cbTotal += sizeof (pidl_temp->mkid.cb);
+        cbTotal += sizeof (pidl_temp-&gt;mkid.cb);
 
-        while (pidl_temp->mkid.cb) 
+        while (pidl_temp-&gt;mkid.cb) 
         {
-            cbTotal += pidl_temp->mkid.cb;
+            cbTotal += pidl_temp-&gt;mkid.cb;
             pidl_temp += ILNext (pidl_temp);
         }
     }
@@ -184,12 +188,12 @@ STDAPI SHGetTargetFolderIDList(LPCITEMIDLIST pidlFolder, LPITEMIDLIST *ppidl)
 	
     *ppidl = NULL;
     
-    HRESULT hr = SHGetUIObjectFromFullPIDL(pidlFolder, NULL, IID_PPV_ARG(IShellLink, &psl));
+    HRESULT hr = SHGetUIObjectFromFullPIDL(pidlFolder, NULL, IID_PPV_ARG(IShellLink, &amp;psl));
     
     if (SUCCEEDED(hr))
     {
-        hr = psl->GetIDList(ppidl);
-        psl->Release();
+        hr = psl-&gt;GetIDList(ppidl);
+        psl-&gt;Release();
     }
     
     // It's not a folder shortcut so get the PIDL normally.
@@ -208,7 +212,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 	
     *pszPath = 0;
 
-    HRESULT hr = SHGetTargetFolderIDList(pidlFolder, &pidlTarget);
+    HRESULT hr = SHGetTargetFolderIDList(pidlFolder, &amp;pidlTarget);
     
     if (SUCCEEDED(hr))
     {
@@ -217,13 +221,17 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
     }
     
     return *pszPath ? S_OK : E_FAIL;
-}
-```
-
-
-
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 // Retrieves the UIObject interface for the specified full PIDLstatic 
 HRESULT SHGetUIObjectFromFullPIDL(LPCITEMIDLIST pidl, HWND hwnd, REFIID riid, void **ppv)
 {    
@@ -231,11 +239,11 @@ HRESULT SHGetUIObjectFromFullPIDL(LPCITEMIDLIST pidl, HWND hwnd, REFIID riid, vo
     IShellFolder* psf;    
     *ppv = NULL;    
     
-    HRESULT hr = SHBindToParent(pidl, IID_IShellFolder, (LPVOID*)&psf, &pidlChild);    
+    HRESULT hr = SHBindToParent(pidl, IID_IShellFolder, (LPVOID*)&amp;psf, &amp;pidlChild);    
     if (SUCCEEDED(hr))    
     {        
-        hr = psf->GetUIObjectOf(hwnd, 1, &pidlChild, riid, NULL, ppv);        
-        psf->Release();    
+        hr = psf-&gt;GetUIObjectOf(hwnd, 1, &amp;pidlChild, riid, NULL, ppv);        
+        psf-&gt;Release();    
     }    
     return hr;
 }
@@ -246,11 +254,11 @@ static HRESULT SHILClone(LPCITEMIDLIST pidl, LPITEMIDLIST *ppidl)
     if (pidl)
     {        
         LPCITEMIDLIST pidl_temp = pidl;        
-        cbTotal += pidl_temp->mkid.cb;        
+        cbTotal += pidl_temp-&gt;mkid.cb;        
         
-        while (pidl_temp->mkid.cb)         
+        while (pidl_temp-&gt;mkid.cb)         
         {            
-            cbTotal += pidl_temp->mkid.cb;            
+            cbTotal += pidl_temp-&gt;mkid.cb;            
             pidl_temp = ILNext(pidl_temp);        
         }    
     }    
@@ -269,11 +277,11 @@ static HRESULT SHGetTargetFolderIDList(LPCITEMIDLIST pidlFolder, LPITEMIDLIST *p
     IShellLink *psl;    
     *ppidl = NULL;    
     
-    HRESULT hr = SHGetUIObjectFromFullPIDL(pidlFolder, NULL, IID_IShellLink, (LPVOID*)&psl);    
+    HRESULT hr = SHGetUIObjectFromFullPIDL(pidlFolder, NULL, IID_IShellLink, (LPVOID*)&amp;psl);    
     if (SUCCEEDED(hr))    
     {        
-        hr = psl->GetIDList(ppidl);        
-        psl->Release();    
+        hr = psl-&gt;GetIDList(ppidl);        
+        psl-&gt;Release();    
     }    
     
     // It's not a folder shortcut so get the PIDL normally.    
@@ -290,7 +298,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
     LPITEMIDLIST pidlTarget;    
     *pszPath = 0;    
     
-    HRESULT hr = SHGetTargetFolderIDList(pidlFolder, &pidlTarget);    
+    HRESULT hr = SHGetTargetFolderIDList(pidlFolder, &amp;pidlTarget);    
     if (SUCCEEDED(hr))    
     {        
         SHGetPathFromIDListW(pidlTarget, pszPath);   
@@ -300,10 +308,10 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
     }    
     
     return *pszPath ? S_OK : E_FAIL;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -312,7 +320,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646960(v=VS.85).aspx">Open and Save as Dialog Boxes</a>
+<a href="_win32_open_and_save_as_dialog_boxes">Open and Save as Dialog Boxes</a>
  
 
  

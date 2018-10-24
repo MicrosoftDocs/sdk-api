@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentryget.htm
 tech.root: rras
 ms.assetid: 98e88364-4757-4b43-8316-6d4d9b3c2f29
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MprAdminMIBEntryGet, MprAdminMIBEntryGet function [RAS], _mpr_mpradminmibentryget, mprapi/MprAdminMIBEntryGet, rras.mpradminmibentryget
 ms.prod: windows-hardware
 ms.technology: windows-devices

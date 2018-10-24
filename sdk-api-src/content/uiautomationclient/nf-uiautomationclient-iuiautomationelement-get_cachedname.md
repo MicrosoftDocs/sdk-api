@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedName.htm
 tech.root: WinAuto
 ms.assetid: 9d70a40c-9bcf-4ca9-90dd-05d25ddb7e89
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: CachedName property [Windows Accessibility], CachedName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedName property, IUIAutomationElement.CachedName, IUIAutomationElement.get_CachedName, IUIAutomationElement::CachedName, IUIAutomationElement::get_CachedName, get_CachedName, uiauto.uiauto_IUIAutomationElement_CachedName, uiauto_IUIAutomationElement_CachedName, uiautomationclient/IUIAutomationElement::CachedName, uiautomationclient/IUIAutomationElement::get_CachedName, winauto.uiauto_IUIAutomationElement_CachedName
 ms.prod: windows-hardware
 ms.technology: windows-devices

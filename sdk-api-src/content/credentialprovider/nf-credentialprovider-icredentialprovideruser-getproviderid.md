@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUser_GetProviderID.htm
 tech.root: shell
 ms.assetid: 7BD6C532-0266-4579-96FA-91D0AF7E6C4C
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetProviderID, GetProviderID method [Windows Shell], GetProviderID method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetProviderID method, ICredentialProviderUser.GetProviderID, ICredentialProviderUser::GetProviderID, credentialprovider/ICredentialProviderUser::GetProviderID, shell.ICredentialProviderUser_GetProviderID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This GUID applies to both logon and credential UI.
 
-This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://msdn.microsoft.com/en-us/library/Hh706931(v=VS.85).aspx">ICredentialProviderUser::GetValue</a>.
+This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">ICredentialProviderUser::GetValue</a>.
 
 
 
@@ -88,11 +88,11 @@ This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706922(v=VS.85).aspx">ICredentialProviderUser</a>
+<a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706931(v=VS.85).aspx">ICredentialProviderUser::GetValue</a>
+<a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">ICredentialProviderUser::GetValue</a>
  
 
  

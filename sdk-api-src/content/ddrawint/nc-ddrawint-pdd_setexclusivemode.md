@@ -7,7 +7,7 @@ old-location: display\ddsetexclusivemode.htm
 tech.root: display
 ms.assetid: c322a4ac-0900-4f31-9e02-923afdad5fd6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DdSetExclusiveMode, DdSetExclusiveMode callback function [Display Devices], PDD_SETEXCLUSIVEMODE, PDD_SETEXCLUSIVEMODE callback, ddfncs_5ac6ee85-d0b5-414d-89c6-01f8a1e11488.xml, ddrawint/DdSetExclusiveMode, display.ddsetexclusivemode
 ms.prod: windows
 ms.technology: windows-sdk

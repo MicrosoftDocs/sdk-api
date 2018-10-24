@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_AddItemToSession.htm
 tech.root: shell
 ms.assetid: 1de3d6c0-cdf8-48fa-b7ff-2dc75f6757fc
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: AddItemToSession, AddItemToSession method [Windows Shell], AddItemToSession method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],AddItemToSession method, ISyncMgrSyncCallback.AddItemToSession, ISyncMgrSyncCallback::AddItemToSession, _shell_ISyncMgrSyncCallback_AddItemToSession, shell.ISyncMgrSyncCallback_AddItemToSession, syncmgr/ISyncMgrSyncCallback::AddItemToSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,9 +89,13 @@ Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if
 
 The following example shows the usage of <b>ISyncMgrSyncCallback::AddItemToSession</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
-
-```cpp
-HRESULT CMyDeviceHandler::Synchronize(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CMyDeviceHandler::Synchronize(...)
 {
     ...
 
@@ -102,28 +106,28 @@ HRESULT CMyDeviceHandler::Synchronize(...)
     // Check for additional items to sync.
     IEnumString *penumItemIDs = NULL;
     
-    hr = pCallback->QueryForAdditionalItems(&penumItemIDs);
+    hr = pCallback-&gt;QueryForAdditionalItems(&amp;penumItemIDs);
     if (hr == S_OK)
     {
         while (hr == S_OK)
         {
             LPWSTR pszItemID;
             ULONG cFetched;
-            hr = penumItemIDs->Next(1, &pszItemID, &cFetched);
-            if ((hr == S_OK) && (cFetched == 1))
+            hr = penumItemIDs-&gt;Next(1, &amp;pszItemID, &amp;cFetched);
+            if ((hr == S_OK) &amp;&amp; (cFetched == 1))
             {
                 // Add this item to the set of items we are syncing.
-                hr = pCallback->AddItemToSession(pszItemID);
+                hr = pCallback-&gt;AddItemToSession(pszItemID);
                 CoTaskMemFree(pszItemID);
             }
         }
-        penumItemIDs->Release();
+        penumItemIDs-&gt;Release();
     }
     ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

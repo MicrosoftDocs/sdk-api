@@ -90,26 +90,30 @@ For information about the <b>IPictureDisp</b> interface, see the Microsoft Platf
 
 #### Examples
 
-
-```cpp
-
-CComPtr<IMSVidCtl> m_pVideoControl; // Pointer to the Video Control.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr&lt;IMSVidCtl&gt; m_pVideoControl; // Pointer to the Video Control.
 
 /* Build and run the filter graph (not shown). */
 
 // Find the video renderer
-CComPtr<IMSVidVideoRenderer> pVideo;
-hr = m_pVideoControl->get_VideoRendererActive(&pVideo);
+CComPtr&lt;IMSVidVideoRenderer&gt; pVideo;
+hr = m_pVideoControl-&gt;get_VideoRendererActive(&amp;pVideo);
 if (SUCCEEDED(hr))
 {
     // Capture the image.
-    CComPtr<IPictureDisp> pPic;
-    hr = pVideo->Capture(&pPic);
+    CComPtr&lt;IPictureDisp&gt; pPic;
+    hr = pVideo-&gt;Capture(&amp;pPic);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

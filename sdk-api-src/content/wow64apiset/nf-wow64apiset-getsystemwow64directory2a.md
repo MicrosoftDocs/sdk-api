@@ -7,7 +7,7 @@ old-location: base\getsystemwow64directory2.htm
 tech.root: sysinfo
 ms.assetid: 938370BE-6EAB-4198-9AF3-ED8889E1E41F
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetSystemWow64Directory2, GetSystemWow64Directory2 function, GetSystemWow64Directory2A, GetSystemWow64Directory2W, base.getsystemwow64directory2, wow64apiset/GetSystemWow64Directory2, wow64apiset/GetSystemWow64Directory2A, wow64apiset/GetSystemWow64Directory2W
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ULongToIntPtr.htm
 tech.root: shell
 ms.assetid: 0d7cd4f0-03fd-43a2-b3e9-10441f65bf78
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DWordToIntPtr, DWordToPtrdiffT, ULongToIntPtr, ULongToIntPtr function [Windows Shell], ULongToPtrdiffT, _shell_ULongToIntPtr, intsafe/ULongToIntPtr, shell.ULongToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

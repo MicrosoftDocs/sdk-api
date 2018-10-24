@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Limits the length of text that can be entered into an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761607(v=VS.85).aspx">EM_LIMITTEXT</a> message explicitly.
+Limits the length of text that can be entered into an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/5a605de7-8dc7-4c54-8f18-e0b08c720856">EM_LIMITTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The maximum number of characters.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761607(v=VS.85).aspx">EM_LIMITTEXT</a>.
+For more information, see <a href="https://msdn.microsoft.com/5a605de7-8dc7-4c54-8f18-e0b08c720856">EM_LIMITTEXT</a>.
 
 
 

@@ -125,9 +125,13 @@ If fewer than the requested number of elements remain in the sequence, <b>Next</
 
 The following code implements <b>IEnumVariant::Next</b>. A complete example implementation of the <b>IEnumVariant</b> interface is available in the COM Fundamentals Lines sample (Enumvar.cpp).
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CEnumVariant::Next(ULONG cElements, VARIANT * pvar, ULONG * pcElementFetched)
 {
    HRESULT hr;
@@ -141,16 +145,16 @@ CEnumVariant::Next(ULONG cElements, VARIANT * pvar, ULONG * pcElementFetched)
    if (pvar == NULL)
       return E_INVALIDARG;
 
-   for (l=0; l<cElements; l++)
-      VariantInit(&pvar[l]);
+   for (l=0; l&lt;cElements; l++)
+      VariantInit(&amp;pvar[l]);
 
    // Retrieve the next cElements elements.
    // m_lLBound+m_cElements = # of elements in the m_psa collection.
 
-   for (l1=m_lCurrent, l2=0; l1<(long)(m_lLBound+m_cElements) &&
-      l2<cElements; l1++, l2++)
+   for (l1=m_lCurrent, l2=0; l1&lt;(long)(m_lLBound+m_cElements) &amp;&amp;
+      l2&lt;cElements; l1++, l2++)
    {
-      hr = SafeArrayGetElement(m_psa, &l1, &pvar[l2]); 
+      hr = SafeArrayGetElement(m_psa, &amp;l1, &amp;pvar[l2]); 
       if (FAILED(hr))
          goto error; 
    }
@@ -159,16 +163,16 @@ CEnumVariant::Next(ULONG cElements, VARIANT * pvar, ULONG * pcElementFetched)
       *pcElementFetched = l2;
    m_lCurrent = l1;
 
-   return  (l2 < cElements) ? S_FALSE : NOERROR;
+   return  (l2 &lt; cElements) ? S_FALSE : NOERROR;
 
 error:
-   for (l=0; l<cElements; l++)
-      VariantClear(&pvar[l]);
+   for (l=0; l&lt;cElements; l++)
+      VariantClear(&amp;pvar[l]);
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

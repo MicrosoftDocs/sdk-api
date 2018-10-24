@@ -7,7 +7,7 @@ old-location: rras\rasgeterrorstring.htm
 tech.root: rras
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Specifies the size, in characters, of the buffer pointed to by <i>lpszErrorStrin
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h. There is no <a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a> information set by the 
+If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h. There is no <a href="_win32_getlasterror">GetLastError</a> information set by the 
 <b>RasGetErrorString</b> function.
 
 <table>
@@ -120,14 +120,18 @@ There is no way to determine in advance the exact size in characters of an error
 
 The following code obtains an error string for the RAS error 633.
 
-
-```cpp
-
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
 #include "rasdlg.h"
-#include <tchar.h>
+#include &lt;tchar.h&gt;
 
 #define  ERROR_VAL 633
 #define  BUFFER_SIZE 256
@@ -149,10 +153,10 @@ DWORD __cdecl wmain(){
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -161,11 +165,11 @@ DWORD __cdecl wmain(){
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366574(v=VS.85).aspx">GlobalAlloc</a>
+<a href="_win32_globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="_win32_loadstring">LoadString</a>
 
 
 

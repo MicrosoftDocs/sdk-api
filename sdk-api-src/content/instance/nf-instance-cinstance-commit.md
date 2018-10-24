@@ -7,7 +7,7 @@ old-location: wmi\cinstance_commit.htm
 tech.root: WmiSdk
 ms.assetid: 699dadf9-18b5-4c6d-a5c4-59ea8a85f089
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: "?Commit@CInstance@@QAEJXZ, ?Commit@CInstance@@QEAAJXZ, CInstance interface [Windows Management Instrumentation],Commit method, CInstance.Commit, CInstance::Commit, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_commit, instance/CInstance::Commit, wmi.cinstance_commit"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -55,7 +55,7 @@ The <b>IADsFileServiceOperations</b> interface is a dual interface that inherits
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsFileServiceOperations</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>, <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>, and <a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a>. <b>IADsFileServiceOperations</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsFileServiceOperations</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>, <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>, and <a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a>. <b>IADsFileServiceOperations</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -324,31 +324,39 @@ Gets the status of the service.
 
 To bind to a file service operations object, use the ADsPath string that identifies the "LanmanServer" service on the host computer, as shown in the following code example.
 
-
-```vb
-Dim fso As IADsFileServiceOperations
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso As IADsFileServiceOperations
 On Error Resume Next
 
 ' Replace aDomain with the domain that the computer is located on.
 ' Replace aComputer with the name of the computer.
-Set fso = GetObject("WinNT://aDomain/aComputer/LanmanServer")
-```
-
-
+Set fso = GetObject("WinNT://aDomain/aComputer/LanmanServer")</pre>
+</td>
+</tr>
+</table></span></div>
 From this point, you can handle the file service object as just a service object, applying any of the methods of <a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a> to the file service object. For example, you can examine the operational status of the file service, start or stop the file service, or change its password.
 
 However, the <b>IADsFileServiceOperations</b> interface allows you to work with open resources and active sessions of the file service. See the following example.
 
-
-```vb
-For Each r in fso.Resources
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>For Each r in fso.Resources
 MsgBox r.User
 MsgBox r.Path
 MsgBox r.LockCount
-Next
-```
-
-
+Next</pre>
+</td>
+</tr>
+</table></span></div>
 For more information about active sessions and open resources, see  <a href="https://msdn.microsoft.com/54621f0d-7478-4a6f-a96f-f3f93e64b281">IADsSession</a> and  <a href="https://msdn.microsoft.com/217749a4-55dc-457f-8582-1513ff3b0666">IADsResource</a>.
 
 
@@ -383,7 +391,7 @@ For more information about active sessions and open resources, see  <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

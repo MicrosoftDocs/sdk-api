@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_querymediainfo.htm
 tech.root: imapi
 ms.assetid: 5e97d5e5-1a10-4ef2-b083-427d4070283f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaInfo method, IDiscRecorder.QueryMediaInfo, IDiscRecorder::QueryMediaInfo, QueryMediaInfo, QueryMediaInfo method [IMAPI], QueryMediaInfo method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_querymediainfo, base.idiscrecorder_querymediainfo, imapi.idiscrecorder_querymediainfo, imapi/IDiscRecorder::QueryMediaInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\PathAddExtension.htm
 tech.root: shell
 ms.assetid: 2c113d11-11d5-4362-bad5-c859d65aca2a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PathAddExtension, PathAddExtension function [Windows Shell], PathAddExtensionA, PathAddExtensionW, _win32_PathAddExtension, shell.PathAddExtension, shlwapi/PathAddExtension, shlwapi/PathAddExtensionA, shlwapi/PathAddExtensionW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,10 +98,14 @@ If there is already a file name extension present, no extension will be added. I
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main( void )
@@ -127,20 +131,20 @@ void main( void )
      lpStr4 = N_String;
 
      // Path 1 without the file name extension.
-     cout << "The original path string 1 is  " << lpStr1 << endl;
+     cout &lt;&lt; "The original path string 1 is  " &lt;&lt; lpStr1 &lt;&lt; endl;
 
      int ret_1 = PathAddExtension(lpStr1,lpStr3);
-     cout << "The modified path string 1 is  " << lpStr1 << endl;
+     cout &lt;&lt; "The modified path string 1 is  " &lt;&lt; lpStr1 &lt;&lt; endl;
 
     // Path 2 with the file name extension already there.
-    cout << "The original path string 2 is  " << lpStr2 << endl;
+    cout &lt;&lt; "The original path string 2 is  " &lt;&lt; lpStr2 &lt;&lt; endl;
     int ret_2 = PathAddExtension(lpStr2,lpStr3);
-    cout << "The modified path string 2 is  " << lpStr2<< endl;
+    cout &lt;&lt; "The modified path string 2 is  " &lt;&lt; lpStr2&lt;&lt; endl;
 
     // Path 3 null string as a path.
     int ret_3 = PathAddExtension(lpStr4,lpStr3);
-    cout << "The return value is " << ret_3<< endl;
-    cout << "The modified path on a null string is " << lpStr4<< endl;
+    cout &lt;&lt; "The return value is " &lt;&lt; ret_3&lt;&lt; endl;
+    cout &lt;&lt; "The modified path on a null string is " &lt;&lt; lpStr4&lt;&lt; endl;
 
 }
 
@@ -152,9 +156,9 @@ The original path string 2 is  file.doc
 The modified path string 2 is  file.doc
 The return value is 1
 The modified path on a null string is .txt
-The return value is 1
-```
-
-
+The return value is 1</pre>
+</td>
+</tr>
+</table></span></div>
 
 

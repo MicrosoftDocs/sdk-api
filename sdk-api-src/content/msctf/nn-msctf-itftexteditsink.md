@@ -7,7 +7,7 @@ old-location: tsf\itftexteditsink.htm
 tech.root: TSF
 ms.assetid: 50f44525-eb3a-4db2-90c2-3e0c6c6146e3
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfTextEditSink, ITfTextEditSink interface [Text Services Framework], ITfTextEditSink interface [Text Services Framework],described, _tsf_itftexteditsink_ref, msctf/ITfTextEditSink, tsf.itftexteditsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ Receives a notification upon completion of an ITfEditSession::DoEditSession meth
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

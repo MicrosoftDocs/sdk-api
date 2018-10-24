@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_getmethod.htm
 tech.root: WmiSdk
 ms.assetid: d4775fe0-62bf-40a6-8e2c-7bc8c3d92e1f
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: GetMethod, GetMethod method [Windows Management Instrumentation], GetMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethod method, IWbemClassObject.GetMethod, IWbemClassObject::GetMethod, _hmm_iwbemclassobject_getmethod, wbemcli/IWbemClassObject::GetMethod, wmi.iwbemclassobject_getmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,17 +111,21 @@ For a method, the in and out parameters are described as properties in an
 
 For example, consider the following method:
 
-
-```
-Class MyClass{
+<div class="code"><span codelanguage="mof"><table>
+<tr>
+<th>mof</th>
+</tr>
+<tr>
+<td>
+<pre>Class MyClass{
     [key] string KeyVal;
     sint32 PropVal;
     sint32 ExampleMethod([in] sint32 Parm1, [in] uint32 Parm2, 
       [out] string Parm3);
-};
-```
-
-
+};</pre>
+</td>
+</tr>
+</table></span></div>
 In this example, the class has a single method. When the user calls 
 <b>IWbemClassObject::GetMethod</b>, the <i>ppInSignature</i> parameter receives an 
 <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which contains two properties: <b>Parm1</b> and <b>Parm2</b>. The <i>ppOutSignature</i> parameter contains two properties, <b>Parm3</b> and <b>ReturnValue</b>.

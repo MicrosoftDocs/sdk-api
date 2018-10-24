@@ -4,10 +4,10 @@ title: IsCatalogFile function
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether the specified file is a catalog file.
 old-location: security\iscatalogfile.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: eeba34d4-08aa-456a-8fdc-16795cbce36a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IsCatalogFile, IsCatalogFile function [Security], mscat/IsCatalogFile, security.iscatalogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\tfgravity.htm
 tech.root: TSF
 ms.assetid: 844925e7-4c3e-41e7-b560-586c85530cb4
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: TF_GRAVITY_BACKWARD, TF_GRAVITY_FORWARD, TfGravity, TfGravity enumeration [Text Services Framework], __MIDL_ITfRange_0001, _tsf_tfgravity_ref, msctf/TF_GRAVITY_BACKWARD, msctf/TF_GRAVITY_FORWARD, msctf/TfGravity, tsf.tfgravity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The anchor has forward gravity.
 
 
 
-For more information about anchor gravity, see <a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>.
+For more information about anchor gravity, see <a href="ranges.htm">Anchor Gravity</a>.
 
 
 
@@ -82,7 +82,7 @@ For more information about anchor gravity, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="ranges.htm">Anchor Gravity</a>
 
 
 

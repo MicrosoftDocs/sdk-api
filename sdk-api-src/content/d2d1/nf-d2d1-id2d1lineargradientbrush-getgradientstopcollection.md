@@ -4,10 +4,10 @@ title: ID2D1LinearGradientBrush::GetGradientStopCollection
 author: windows-sdk-content
 description: Retrieves the ID2D1GradientStopCollection associated with this linear gradient brush.
 old-location: direct2d\ID2D1LinearGradientBrush_GetGradientStopCollection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2433d8ed-112e-4620-b207-42bf9e084e23
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetGradientStopCollection, GetGradientStopCollection method [Direct2D], GetGradientStopCollection method [Direct2D],ID2D1LinearGradientBrush interface, ID2D1LinearGradientBrush interface [Direct2D],GetGradientStopCollection method, ID2D1LinearGradientBrush.GetGradientStopCollection, ID2D1LinearGradientBrush::GetGradientStopCollection, d2d1/ID2D1LinearGradientBrush::GetGradientStopCollection, direct2d.ID2D1LinearGradientBrush_GetGradientStopCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

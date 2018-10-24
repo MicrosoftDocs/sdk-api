@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Name</b> property gets the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa377896(v=VS.85).aspx">IAzObjectPicker</a> object.
+The <b>Name</b> property gets the name of the <a href="https://msdn.microsoft.com/767f30c9-6071-4f04-876d-b8b2392e650c">IAzObjectPicker</a> object.
 
 This property is read-only.
 

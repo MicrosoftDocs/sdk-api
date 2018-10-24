@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IWiaDevMgr::GetImageDlg</b> method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) device and write the image to a specified file. This method combines the functionality of <a href="https://msdn.microsoft.com/en-us/library/ms630148(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlg</a> to completely encapsulate image acquisition within a single API call.
+The <b>IWiaDevMgr::GetImageDlg</b> method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) device and write the image to a specified file. This method combines the functionality of <a href="https://msdn.microsoft.com/5c58b0f9-42a9-4d20-97a5-526b6937d495">IWiaDevMgr::SelectDeviceDlg</a> to completely encapsulate image acquisition within a single API call.
 
 
 ## -parameters
@@ -109,14 +109,14 @@ Specifies dialog box behavior. Can be set to the following values:
 
 Type: <b>LONG</b>
 
-Specifies what type of data the image is intended to represent. For a list of image intent values, see <a href="https://msdn.microsoft.com/en-us/library/ms630190(v=VS.85).aspx">Image Intent Constants</a>.
+Specifies what type of data the image is intended to represent. For a list of image intent values, see <a href="https://msdn.microsoft.com/171228d9-a619-49aa-964e-f72a7f294a9d">Image Intent Constants</a>.
 
 
 ### -param pItemRoot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a>*</b>
 
-Pointer to the interface of the hierarchical tree of <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects returned by <a href="https://msdn.microsoft.com/en-us/library/ms630141(v=VS.85).aspx">IWiaDevMgr::CreateDevice</a>.
+Pointer to the interface of the hierarchical tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects returned by <a href="https://msdn.microsoft.com/d3c1e264-7f60-49d7-ba2c-2f06919fc807">IWiaDevMgr::CreateDevice</a>.
 
 
 ### -param bstrFilename [in]
@@ -141,7 +141,7 @@ Type: <b>HRESULT</b>
 
 <b>IWiaDevMgr::GetImageDlg</b> returns S_FALSE if the user cancels the device selection or image acquisition dialog boxes, WIA_S_NO_DEVICE_AVAILABLE if no WIA device is currently available, E_NOTIMPL if no UI is available, and S_OK if the data is transferred successfully.
 
-<b>IWiaDevMgr::GetImageDlg</b> returns a value specified in <a href="https://msdn.microsoft.com/en-us/library/ms630183(v=VS.85).aspx">Error Codes</a>, or a standard COM error if it fails for any reason other than those specified.
+<b>IWiaDevMgr::GetImageDlg</b> returns a value specified in <a href="https://msdn.microsoft.com/3abbe92b-32b7-4820-b208-45c847243078">Error Codes</a>, or a standard COM error if it fails for any reason other than those specified.
 
 
 
@@ -150,7 +150,7 @@ Type: <b>HRESULT</b>
 
 
 
-Invoking this method displays a dialog box that enables users to acquire images. It can also display the <b>Select Device</b> dialog box created by the <a href="https://msdn.microsoft.com/en-us/library/ms630148(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlg</a> method. 
+Invoking this method displays a dialog box that enables users to acquire images. It can also display the <b>Select Device</b> dialog box created by the <a href="https://msdn.microsoft.com/5c58b0f9-42a9-4d20-97a5-526b6937d495">IWiaDevMgr::SelectDeviceDlg</a> method. 
 
 If the application passes <b>NULL</b> for the value of the <i>pItemRoot</i> parameter, <b>IWiaDevMgr::GetImageDlg</b> displays the <b>Select Device</b> dialog box that lets the user select the WIA input device. If the application specifies a WIA input device by passing a pointer to the device's item tree through the <i>pItemRoot</i> parameter, <b>IWiaDevMgr::GetImageDlg</b> does not display the <b>Select Device</b> dialog box. Instead, it will use the specified input device to acquire the image.
 

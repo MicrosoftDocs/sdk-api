@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateHandler.htm
 tech.root: shell
 ms.assetid: d961aef7-c559-4caa-894e-e86836b142c0
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandler method, ISyncMgrControl.UpdateHandler, ISyncMgrControl::UpdateHandler, UpdateHandler, UpdateHandler method [Windows Shell], UpdateHandler method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandler, shell.ISyncMgrControl_UpdateHandler, syncmgr/ISyncMgrControl::UpdateHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,13 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateHandle
 
 The following example shows the usage of <b>ISyncMgrControl::UpdateHandler</b> by a handler's procedure.
 
-
-```cpp
-void CMyDeviceHandler::MiscProc(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CMyDeviceHandler::MiscProc(...)
 {
     ...
 
@@ -107,20 +111,20 @@ void CMyDeviceHandler::MiscProc(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center that properties on the handler have changed.
-        hr = pControl->UpdateHandler(s_szMySyncHandlerID, SYNCMGR_CF_WAIT);
-        pControl->Release();
+        hr = pControl-&gt;UpdateHandler(s_szMySyncHandlerID, SYNCMGR_CF_WAIT);
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

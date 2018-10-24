@@ -7,7 +7,7 @@ old-location: shell\SHCREATEPROCESSINFOW_str.htm
 tech.root: shell
 ms.assetid: f51d22c5-ea3e-4040-9761-7555f8f7e0aa
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW structure pointer [Windows Shell], SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SHCREATEPROCESSINFOW, SHCREATEPROCESSINFOW structure [Windows Shell], _SHCREATEPROCESSINFOW, _win32_SHCREATEPROCESSINFOW_str, shell.SHCREATEPROCESSINFOW_str, shellapi/PSHCREATEPROCESSINFOW, shellapi/SHCREATEPROCESSINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -227,12 +227,16 @@ A pointer to a <a href="https://msdn.microsoft.com/78d84499-7e56-4ff7-a8cd-1cf1b
 
 				
 
-
-```
-sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";</pre>
+</td>
+</tr>
+</table></span></div>
 In this case, the application receives three parameters: <i>An, example:, and "quoted text"</i>.
 
 

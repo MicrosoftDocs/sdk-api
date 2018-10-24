@@ -7,7 +7,7 @@ old-location: tsf\itfreadonlyproperty.htm
 tech.root: TSF
 ms.assetid: f4021a3d-6b86-469f-8943-770e7ef0cf99
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], ITfReadOnlyProperty interface [Text Services Framework],described, _tsf_itfreadonlyproperty_ref, msctf/ITfReadOnlyProperty, tsf.itfreadonlyproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ An instance of this interface is obtained by using <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -4,10 +4,10 @@ title: "_CERT_ALT_NAME_ENTRY"
 author: windows-sdk-content
 description: Contains an alternative name in one of a variety of name forms.
 old-location: security\cert_alt_name_entry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1353ef56-cae7-43f2-a31f-2bb3b502450e
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY structure [Security], PCERT_ALT_NAME_ENTRY, PCERT_ALT_NAME_ENTRY structure pointer [Security], _CERT_ALT_NAME_ENTRY, _crypto2_cert_alt_name_entry, security.cert_alt_name_entry, wincrypt/CERT_ALT_NAME_ENTRY, wincrypt/PCERT_ALT_NAME_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

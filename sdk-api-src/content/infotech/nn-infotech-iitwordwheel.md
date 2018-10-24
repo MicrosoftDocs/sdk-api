@@ -7,7 +7,7 @@ old-location: htmlhelp\iitwordwheel.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelinterface.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/22/2018
 ms.keywords: IITWordWheel, IITWordWheel interface [HTML Help Workshop], IITWordWheel interface [HTML Help Workshop],described, htmlhelp.iitwordwheel, infotech/IITWordWheel, refIITWordWheelInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>IITWordWheel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670055(v=VS.85).aspx">Close</a>
+<a href="https://msdn.microsoft.com/0fb211e7-2fd2-4ab1-b808-921399c85b7f">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a word wheel.
@@ -81,7 +81,7 @@ Closes a word wheel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670056(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/aea24a95-ca64-4918-b664-5a54407b5801">Count</a>
 </td>
 <td align="left" width="63%">
 Returns the number of entries in a word wheel.
@@ -92,7 +92,7 @@ Returns the number of entries in a word wheel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670060(v=VS.85).aspx">Lookup(,IITResultSet,)</a>
+<a href="https://msdn.microsoft.com/3276511f-c7c2-40ce-9502-8804d3777da2">Lookup(LONG,IITResultSet,LONG)</a>
 </td>
 <td align="left" width="63%">
 Looks up an entry and returns contents as a result set.
@@ -103,7 +103,7 @@ Looks up an entry and returns contents as a result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670059(v=VS.85).aspx">Lookup(,LPVOID,DWORD)</a>
+<a href="https://msdn.microsoft.com/d4275bc2-a623-46c0-88e2-b2951fa0232e">Lookup(LONG,LPVOID,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Looks up an entry and returns contents in a buffer.
@@ -114,7 +114,7 @@ Looks up an entry and returns contents in a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670058(v=VS.85).aspx">Lookup(LPCVOID,BOOL,)</a>
+<a href="https://msdn.microsoft.com/9242a7dd-83d4-4d30-8285-721778800744">Lookup(LPCVOID,BOOL,LONG)</a>
 </td>
 <td align="left" width="63%">
 Returns the word wheel entry that is closest to the specified prefix.
@@ -125,7 +125,7 @@ Returns the word wheel entry that is closest to the specified prefix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670061(v=VS.85).aspx">Open</a>
+<a href="https://msdn.microsoft.com/63b88fad-ebfe-42ed-8cf0-cb4a5f98294b">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a word wheel.

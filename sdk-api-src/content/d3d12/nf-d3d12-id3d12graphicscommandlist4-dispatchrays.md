@@ -96,7 +96,7 @@ If any grid dimension is 0, no threads are launched.
 
 
 
-<a href="direct3d12.id3d12graphicscommandlist4">ID3D12GraphicsCommandList4</a>
+<a href="https://msdn.microsoft.com/2385E66F-CD42-4826-B508-3EF6144179BD">ID3D12GraphicsCommandList4</a>
  
 
  

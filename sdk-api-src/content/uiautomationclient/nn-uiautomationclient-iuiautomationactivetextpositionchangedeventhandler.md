@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationActiveTextPositionChangedEventHandler.
 tech.root: WinAuto
 ms.assetid: 038AD911-2FDB-42E5-86E0-76C58F765114
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: IUIAutomationActiveTextPositionChangedEventHandler, IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility], IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationActiveTextPositionChangedEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.<div class="alert"><b>Note</b>  This interface is implemented by the application to handle events that it has subscribed to by calling <a href="winauto.uiauto_iuiautomation6_addactivetextpositionchangedeventhandler">AddActiveTextPositionChangedEventHandler</a>.
+Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.<div class="alert"><b>Note</b>  This interface is implemented by the application to handle events that it has subscribed to by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-addactivetextpositionchangedeventhandler">AddActiveTextPositionChangedEventHandler</a>.
 			</div>
 <div> </div>
 

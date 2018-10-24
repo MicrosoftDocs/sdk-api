@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Save_stream_clsidEncoder_encoderParam
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesavemethods\save_32stream_clsidencoder_encoderparams.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Image class [GDI+],Save method, Image.Save, Image.Save(IN IStream,IN const CLSID,IN const EncoderParameters), Image.Save(IStream*,const CLSID*,const EncoderParameters*), Image::Save, Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters), Save, Save method [GDI+], Save method [GDI+],Image class, _gdiplus_CLASS_Image_Save_stream_clsidEncoder_encoderParams_, gdiplus._gdiplus_CLASS_Image_Save_stream_clsidEncoder_encoderParams_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,7 +118,7 @@ image.Save(myStream, ...); // Do not do this.</code></pre>
 #### Examples
 
 The following example creates two 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> objects: one constructed from a JPEG file and one constructed from a PNG file. The code creates a compound file with two streams and saves the two images to those streams.
+						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> objects: one constructed from a JPEG file and one constructed from a PNG file. The code creates a compound file with two streams and saves the two images to those streams.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -231,7 +231,7 @@ Exit:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 

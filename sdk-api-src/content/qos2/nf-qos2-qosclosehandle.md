@@ -110,9 +110,13 @@ See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetD
 
 The Winsock2.h header file must be included to use Winsock defined identifiers or functions.
 
-
-```cpp
-int CleanUpQos( HANDLE qosHandle, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int CleanUpQos( HANDLE qosHandle, 
            SOCKET connSocket, 
            QOS_FLOWID qosFlowId, 
            DWORD qosFlags // qosFlags must be 0 
@@ -147,10 +151,10 @@ int CleanUpQos( HANDLE qosHandle,
 
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

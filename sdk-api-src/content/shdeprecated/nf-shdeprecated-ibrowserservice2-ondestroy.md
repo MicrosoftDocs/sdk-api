@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnDestroy.htm
 tech.root: shell
 ms.assetid: 103456a8-d4d1-46f7-b002-a8daa166db29
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnDestroy method, IBrowserService2.OnDestroy, IBrowserService2::OnDestroy, OnDestroy, OnDestroy method [Windows Shell], OnDestroy method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnDestroy, shell.IBrowserService2_OnDestroy, zone_IBrowserService2_OnDestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a> message. The derived class handles the message.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: base\valent_str.htm
 tech.root: sysinfo
 ms.assetid: 7881eea8-e4e3-48cf-ba8f-b5c23910ae7d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PVALENTA, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, value_entA, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW"
 ms.prod: windows
 ms.technology: windows-sdk

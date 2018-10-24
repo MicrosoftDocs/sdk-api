@@ -4,10 +4,10 @@ title: CryptSignHashA function
 author: windows-sdk-content
 description: Signs data.
 old-location: security\cryptsignhash.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -315,9 +315,13 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 
 The following example shows signing data by first hashing the data to be signed and then signing the hash by using the <b>CryptSignHash</b> function.
 
-
-```cpp
-//-------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTPROV hProv;
@@ -357,7 +361,7 @@ if(CryptSignHash(
    szDescription, 
    0, 
    NULL, 
-   &dwSigLen)) 
+   &amp;dwSigLen)) 
 {
      printf("Signature length %d found.\n",dwSigLen);
 }
@@ -387,7 +391,7 @@ if(CryptSignHash(
    szDescription, 
    0, 
    pbSignature, 
-   &dwSigLen)) 
+   &amp;dwSigLen)) 
 {
      printf("pbSignature is the hash signature.\n");
 }
@@ -400,10 +404,10 @@ else
 // Destroy the hash object.
 
 if(hHash) 
-  CryptDestroyHash(hHash);
-```
-
-
+  CryptDestroyHash(hHash);</pre>
+</td>
+</tr>
+</table></span></div>
 For a complete example including the  context for this code, see 
 <a href="https://msdn.microsoft.com/72f5d30a-efd5-4bf5-8057-cb73e5aa0514">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
 
@@ -436,7 +440,7 @@ For a complete example including the  context for this code, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_getdefaultfilesystemforimport.htm
 tech.root: imapi
 ms.assetid: bbac5b93-669f-45ea-9a3d-e2dd7f8bdcf6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetDefaultFileSystemForImport, GetDefaultFileSystemForImport method [IMAPI], GetDefaultFileSystemForImport method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],GetDefaultFileSystemForImport method, IFileSystemImage.GetDefaultFileSystemForImport, IFileSystemImage::GetDefaultFileSystemForImport, imapi.ifilesystemimage_getdefaultfilesystemforimport, imapi2fs/IFileSystemImage::GetDefaultFileSystemForImport
 ms.prod: windows-hardware
 ms.technology: windows-devices

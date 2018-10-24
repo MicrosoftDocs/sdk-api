@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_clone.htm
 tech.root: Multimedia
 ms.assetid: 7112056e-5e25-4262-abe3-5cbb0675a475
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: Clone, Clone method [Windows Multimedia], Clone method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Clone method, IAVIEditStream.Clone, IAVIEditStream::Clone, _win32_IAVIEditStream_Clone, multimedia.iavieditstream_clone, vfw/IAVIEditStream::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,15 +87,19 @@ The method returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Clone</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Clone(PAVISTREAM *ppResult); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

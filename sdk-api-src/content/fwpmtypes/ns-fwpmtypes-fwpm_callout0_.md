@@ -2,26 +2,26 @@
 UID: NS:fwpmtypes.FWPM_CALLOUT0_
 title: FWPM_CALLOUT0_
 author: windows-sdk-content
-description: The FWPM_CALLOUT0 structure defines the data that is required for a callout driver to add a callout to the filter engine.Note  FWPM_CALLOUT0 is a specific version of FWPM_CALLOUT.
-old-location: netvista\fwpm_callout0.htm
-tech.root: NetVista
-ms.assetid: a6f19d6d-4fce-4774-86c1-10d1bf77315f
+description: Stores the state associated with a callout.
+old-location: fwp\fwpm_callout0_struct.htm
+tech.root: fwp
+ms.assetid: 4f565de5-5bc9-4508-9e4b-28d14a82a9a5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: FWPM_CALLOUT0, FWPM_CALLOUT0 structure [Network Drivers Starting with Windows Vista], FWPM_CALLOUT0_, fwpmtypes/FWPM_CALLOUT0, netvista.fwpm_callout0, wfp_ref_3_struct_2_fwpm_A-Z_53d3ca0d-80eb-43d6-9272-892e14bb4000.xml
+ms.date: 10/12/2018
+ms.keywords: FWPM_CALLOUT0, FWPM_CALLOUT0 structure [Filtering], FWPM_CALLOUT0_, FWPM_CALLOUT_FLAG_PERSISTENT, FWPM_CALLOUT_FLAG_REGISTERED, FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT, fwp.fwpm_callout0_struct, fwpmtypes/FWPM_CALLOUT0
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
-req.include-header: Fwpmk.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwpmtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - fwpmtypes.h
+ - Fwpmtypes.h
 api_name:
  - FWPM_CALLOUT0
 product: Windows
@@ -50,9 +50,8 @@ req.redist:
 ## -description
 
 
-The <b>FWPM_CALLOUT0</b> structure defines the data that is required for a callout driver to add a callout
-  to the filter engine.
-<div class="alert"><b>Note</b>  <b>FWPM_CALLOUT0</b> is a specific version of <b>FWPM_CALLOUT</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+The <b>FWPM_CALLOUT0</b> structure stores the state associated with a callout.
+
 
 ## -struct-fields
 
@@ -61,98 +60,89 @@ The <b>FWPM_CALLOUT0</b> structure defines the data that is required for a callo
 
 ### -field calloutKey
 
-A GUID that uniquely identifies the callout. This must be the same value as the GUID that is
-     specified for the 
-     <b>calloutKey</b> member of the 
-     <a href="https://msdn.microsoft.com/df6e9980-6c9b-4d01-a1d5-e5242a3ebc66">FWPS_CALLOUT0</a> structure when the callout
-     driver registers the callout with the filter engine.
+Uniquely identifies the session. 
+
+If the GUID is initialized to zero in the
+   call to <a href="https://msdn.microsoft.com/e4f79262-6345-49e9-a50c-9f8a82f2df0e">FwpmCalloutAdd0</a>, the base filtering engine (BFE) will generate one.
 
 
 ### -field displayData
 
-An 
-     <a href="https://msdn.microsoft.com/dfd92824-feea-4f57-ba2f-b2d56dee48ad">FWPM_DISPLAY_DATA0</a> structure that
-     specifies a name and description for the callout.
+A <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> structure that contains human-readable annotations associated with the callout.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
 
 
 ### -field flags
 
-Flags that specify callout-specific parameters. Possible flags are:
-     
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="FWPM_CALLOUT_FLAG_PERSISTENT"></a><a id="fwpm_callout_flag_persistent"></a><dl>
+<dt><b>FWPM_CALLOUT_FLAG_PERSISTENT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The callout is persistent across reboots. As a result, it can be referenced by boot-time and other persistent filters.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT"></a><a id="fwpm_callout_flag_uses_provider_context"></a><dl>
+<dt><b>FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The callout needs access to the provider context stored in the filter invoking the callout.  If this flag is set, the provider context will be copied from the <a href="https://msdn.microsoft.com/e1925824-01c2-426a-a8f0-4d5882812a9e">FWPM_FILTER0</a> structure to the <b>FWPS_FILTER0</b> 
+structure. The <b>FWPS_FILTER0</b> structure is documented in the WDK.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FWPM_CALLOUT_FLAG_REGISTERED"></a><a id="fwpm_callout_flag_registered"></a><dl>
+<dt><b>FWPM_CALLOUT_FLAG_REGISTERED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The callout is currently registered in the kernel.  This flag must not be set when adding new callouts.  It is used only in querying the state of existing callouts.
 
-
-
-#### FWPM_CALLOUT_FLAG_PERSISTENT
-
-This flag indicates that the callout is to be persistent across system reboots. A persistent
-       callout can be referenced by boot-time and persistent filters.
-
-
-
-#### FWPM_CALLOUT_FLAG_REGISTERED
-
-This flag indicates that an existing callout is registered. For more information on registering
-       callouts, see 
-       <a href="https://msdn.microsoft.com/1f003775-4b93-44cd-8c58-18e0e3fb5656">FwpsCalloutRegister0</a>. Do not set
-       this flag when adding new callouts.
-
-
-
-#### FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT
-
-This flag indicates that the callout uses the provider context from the corresponding 
-       <a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a> filter structure.
+</td>
+</tr>
+</table>
+ 
 
 
 ### -field providerKey
 
-A pointer to a GUID that identifies the provider with which the callout that is being added to the
-     filter engine is associated. If the callout is not associated with a particular provider, a callout
-     driver should set this member to <b>NULL</b>. For more information about providers, see the Windows Filtering
-     Platform section in the Microsoft Windows SDK documentation.
+Uniquely identifies the provider associated with the callout. If the member is non-NULL, only objects associated with the specified provider will be returned.
 
 
 ### -field providerData
 
-A 
-     <a href="https://msdn.microsoft.com/dd0e5743-e261-4a53-b496-ac577d63b69f">FWP_BYTE_BLOB</a> structure that describes any
-     provider-specific data that is associated with the callout. If the callout is not associated with a
-     particular provider or if the provider does not associate any provider-specific data with callouts, a
-     callout driver should set the 
-     <b>Size</b> member of this structure to zero and the 
-     <b>Data</b> member of this structure to <b>NULL</b>.
+A <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context information with the object.
 
 
 ### -field applicableLayer
 
-The management identifier for the filtering layer at which the callout is applicable. For more
-     information, see 
-     <a href="netvista.management_filtering_layer_identifiers">Management Filtering Layer
-     Identifiers</a>.
+Specifies the layer in which the callout can be used. Only filters in this layer can invoke the callout. For more information, see <a href="https://msdn.microsoft.com/3b2daef1-558b-4e3a-a98a-f4dfa80a29c0">Filtering Layer Identifiers</a>.
 
 
 ### -field calloutId
 
-This member is not used when a callout driver uses the FWPM_CALLOUT0 structure to add a callout to
-     the filter engine.
-     
-
-If a callout driver retrieves an FWPM_CALLOUT0 structure from the filter engine, this member contains
-     the run-time identifier for the callout.
+   LUID identifying the callout. This is the <b>calloutId</b> stored in the
+   <b>FWPS_ACTION0</b> structure for filters that invoke a callout. The <b>FWPS_ACTION0</b> structure is documented in the WDK.
 
 
 ## -remarks
 
 
 
-A callout driver passes a pointer to an initialized FWPM_CALLOUT0 structure to the 
-    <a href="https://msdn.microsoft.com/f88a31c4-f42c-487d-b6d8-f8f609f2faff">FwpmCalloutAdd0</a> function when adding a
-    callout to the filter engine.
+The first six members of this structure contain data supplied when adding objects.
 
-Callout drivers do not typically add their callouts to the filter engine. In most situations this is
-    handled by a user-mode Windows Filtering Platform management application.
+The last member, <b>calloutId</b>, provides additional information returned when getting/enumerating objects.
+
+<b>FWPM_CALLOUT0</b> is a specific implementation of FWPM_CALLOUT. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -162,27 +152,7 @@ Callout drivers do not typically add their callouts to the filter engine. In mos
 
 
 
-<a href="https://msdn.microsoft.com/dfd92824-feea-4f57-ba2f-b2d56dee48ad">FWPM_DISPLAY_DATA0</a>
-
-
-
-<a href="https://msdn.microsoft.com/df6e9980-6c9b-4d01-a1d5-e5242a3ebc66">FWPS_CALLOUT0</a>
-
-
-
-<a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a>
-
-
-
-<a href="https://msdn.microsoft.com/dd0e5743-e261-4a53-b496-ac577d63b69f">FWP_BYTE_BLOB</a>
-
-
-
-<a href="https://msdn.microsoft.com/f88a31c4-f42c-487d-b6d8-f8f609f2faff">FwpmCalloutAdd0</a>
-
-
-
-<a href="https://msdn.microsoft.com/1f003775-4b93-44cd-8c58-18e0e3fb5656">FwpsCalloutRegister0</a>
+<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
  
 
  

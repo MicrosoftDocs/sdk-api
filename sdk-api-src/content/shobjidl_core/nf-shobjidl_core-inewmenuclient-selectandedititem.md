@@ -7,7 +7,7 @@ old-location: shell\INewMenuClient_SelectAndEditItem.htm
 tech.root: shell
 ms.assetid: f731e69f-8ff0-42ff-96f8-04236f53d962
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: INewMenuClient interface [Windows Shell],SelectAndEditItem method, INewMenuClient.SelectAndEditItem, INewMenuClient::SelectAndEditItem, NMCSAEI_EDIT, NMCSAEI_SELECT, SelectAndEditItem, SelectAndEditItem method [Windows Shell], SelectAndEditItem method [Windows Shell],INewMenuClient interface, _shell_INewMenuClient_SelectAndEditItem, shell.INewMenuClient_SelectAndEditItem, shobjidl_core/INewMenuClient::SelectAndEditItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

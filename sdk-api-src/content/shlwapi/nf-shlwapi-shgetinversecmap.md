@@ -7,7 +7,7 @@ old-location: shell\SHGetInverseCMAP.htm
 tech.root: shell
 ms.assetid: 46d5ccd2-3c5d-431b-b27b-6a7a95043e0a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SHGetInverseCMAP, SHGetInverseCMAP function [Windows Shell], _shell_SHGetInverseCMAP, shell.SHGetInverseCMAP, shlwapi/SHGetInverseCMAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,9 +113,6 @@ For example, the method for determining a color in the halftone palette that is 
 <li>Decompose the color into its red, green, and blue components. In this case, the red component is 0x30, the green component is 0x60 and the blue component is 0x40.</li>
 <li>Reassemble the color into 555 format. The formula for reducing a 24-bit RGB color into 555 format is shown here.
 
-                        
-
-<div class="code"><span codelanguage=""><table>
                         <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -126,8 +123,6 @@ For example, the method for determining a color in the halftone palette that is 
 </td>
 </tr>
 </table></span></div>
-
-
 In this example, the value in 555 format is ((0x30 / 8) &lt;&lt; 10) + ((0x60 / 8) &lt;&lt; 5) + (0x40 / 8) = 6536.
 
 </li>

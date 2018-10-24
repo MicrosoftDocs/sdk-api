@@ -52,7 +52,7 @@ req.redist:
 
 
 Enumerates the possible values of the state of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>.
+    <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ All of the network interfaces on the network are unavailable, which means that t
 
 ### -field ClusterNetworkDown
 
-The network is not operational; none of the <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a> on the network 
+The network is not operational; none of the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> on the network 
        can communicate.
 
 
@@ -94,7 +94,7 @@ The network is operational; all of the nodes in the cluster can communicate.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
@@ -102,7 +102,7 @@ The network is operational; all of the nodes in the cluster can communicate.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367984(v=VS.85).aspx">State Property of the ClusNetwork Object</a>
+<a href="https://msdn.microsoft.com/abf1f90f-8044-40cf-b360-f80accb9cc58">State Property of the ClusNetwork Object</a>
  
 
  

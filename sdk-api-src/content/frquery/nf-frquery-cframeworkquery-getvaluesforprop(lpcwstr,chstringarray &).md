@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_getvaluesforprop_lpcwstr_chstringarray__.htm
 tech.root: WmiSdk
 ms.assetid: 94e9d581-d4f6-499a-88bd-eeef1ce5133f
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: "?GetValuesForProp@CFrameworkQuery@@QAEJPBGAAVCHStringArray@@@Z, ?GetValuesForProp@CFrameworkQuery@@QEAAJPEBGAEAVCHStringArray@@@Z, CFrameworkQuery interface [Windows Management Instrumentation],GetValuesForProp method, CFrameworkQuery.GetValuesForProp, CFrameworkQuery.GetValuesForProp(LPCWSTR,CHStringArray &), CFrameworkQuery::GetValuesForProp, CFrameworkQuery::GetValuesForProp(CHStringArray&,LPCWSTR), CFrameworkQuery::GetValuesForProp(LPCWSTR,CHStringArray &), GetValuesForProp, GetValuesForProp method [Windows Management Instrumentation], GetValuesForProp method [Windows Management Instrumentation],CFrameworkQuery interface, frquery/CFrameworkQuery::GetValuesForProp, wmi.cframeworkquery_getvaluesforprop_lpcwstr_chstringarray__"
 ms.prod: windows-hardware
 ms.technology: windows-devices

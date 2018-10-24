@@ -4,10 +4,10 @@ title: CryptCATAdminReleaseCatalogContext function
 author: windows-sdk-content
 description: Releases a handle to a catalog context previously returned by the CryptCATAdminAddCatalog function.
 old-location: security\cryptcatadminreleasecatalogcontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6cc13013-2c0a-4934-a866-30b69cbcf934
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptCATAdminReleaseCatalogContext, CryptCATAdminReleaseCatalogContext function [Security], mscat/CryptCATAdminReleaseCatalogContext, security.cryptcatadminreleasecatalogcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

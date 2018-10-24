@@ -7,7 +7,7 @@ old-location: projfs\prjwritefiledata.htm
 tech.root: ProjFS
 ms.assetid: A09D8E74-D574-41C6-A586-86E03839DA89
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PrjWriteFileData, PrjWriteFileData function, ProjFS.prjwritefiledata, projectedfslib/PrjWriteFileData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ TBD
 Opaque handle for the virtualization instance. 
 
 
-If the provider is servicing a <a href="projfs.prj_get_file_data_cb">PRJ_GET_FILE_DATA_CB</a> callback, this must be the value from the VirtualizationInstanceHandle member of the callbackData passed to the provider in the callback.
+If the provider is servicing a <a href="https://msdn.microsoft.com/8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E">PRJ_GET_FILE_DATA_CB</a> callback, this must be the value from the VirtualizationInstanceHandle member of the callbackData passed to the provider in the callback.
 
 
 ### -param dataStreamId [in]
@@ -71,12 +71,12 @@ If the provider is servicing a <a href="projfs.prj_get_file_data_cb">PRJ_GET_FIL
 Identifier for the data stream to write to. 
 
 
-If the provider is servicing a <a href="projfs.prj_get_file_data_cb">PRJ_GET_FILE_DATA_CB</a> callback, this must be the value from the DataStreamId member of the callbackData passed to the provider in the callback.
+If the provider is servicing a <a href="https://msdn.microsoft.com/8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E">PRJ_GET_FILE_DATA_CB</a> callback, this must be the value from the DataStreamId member of the callbackData passed to the provider in the callback.
 
 
 ### -param buffer [in]
 
-Pointer to a buffer containing the data to write. The buffer must be at least as large as the value of the length parameter in bytes. The provider should use <a href="projfs.prjallocatealignedbuffer">PrjAllocateAlignedBuffer</a> to ensure that the buffer meets the storage device’s alignment requirements.
+Pointer to a buffer containing the data to write. The buffer must be at least as large as the value of the length parameter in bytes. The provider should use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjallocatealignedbuffer">PrjAllocateAlignedBuffer</a> to ensure that the buffer meets the storage device’s alignment requirements.
 
 
 ### -param byteOffset [in]
@@ -102,20 +102,20 @@ HRESULT_FROM_WIN32(ERROR_OFFSET_ALIGNMENT_VIOLATION) indicates that the user's h
 
 
 
-The provider uses this routine to provide the data requested in an invocation of its <a href="projfs.prj_get_file_data_cb">PRJ_GET_FILE_DATA_CB</a> callback. 
+The provider uses this routine to provide the data requested in an invocation of its <a href="https://msdn.microsoft.com/8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E">PRJ_GET_FILE_DATA_CB</a> callback. 
 
 
-The provider’s <a href="projfs.prj_get_file_data_cb">PRJ_GET_FILE_DATA_CB</a> callback is invoked when the system needs to ensure that a file contains data. When the provider calls <b>PrjWriteFileData</b> to supply the requested data the system uses the user’s FILE_OBJECT to write that data to the file. However the system cannot control whether that FILE_OBJECT was opened for buffered or unbuffered I/O. If the FILE_OBJECT was opened for unbuffered I/O, reads and writes to the file must adhere to certain alignment requirements. The provider can meet those alignment requirements by doing two things: 
+The provider’s <a href="https://msdn.microsoft.com/8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E">PRJ_GET_FILE_DATA_CB</a> callback is invoked when the system needs to ensure that a file contains data. When the provider calls <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a> to supply the requested data the system uses the user’s FILE_OBJECT to write that data to the file. However the system cannot control whether that FILE_OBJECT was opened for buffered or unbuffered I/O. If the FILE_OBJECT was opened for unbuffered I/O, reads and writes to the file must adhere to certain alignment requirements. The provider can meet those alignment requirements by doing two things: 
 <ul>
-<li>Use <a href="projfs.prjallocatealignedbuffer">PrjAllocateAlignedBuffer</a> to allocate the buffer to pass to buffer.</li>
-<li>Ensure that byteOffset and length are integer multiples of the storage device’s alignment requirement (length does not have to meet this requirement if byteOffset + length is equal to the end of the file). The provider can use <a href="projfs.prjgetvirtualizationinstanceinfo">PrjGetVirtualizationInstanceInfo</a> to retrieve the storage device’s alignment requirement.</li>
+<li>Use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjallocatealignedbuffer">PrjAllocateAlignedBuffer</a> to allocate the buffer to pass to buffer.</li>
+<li>Ensure that byteOffset and length are integer multiples of the storage device’s alignment requirement (length does not have to meet this requirement if byteOffset + length is equal to the end of the file). The provider can use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjgetvirtualizationinstanceinfo">PrjGetVirtualizationInstanceInfo</a> to retrieve the storage device’s alignment requirement.</li>
 </ul>
 
 
-The system leaves it up to the provider to calculate proper alignment because when processing a <a href="projfs.prj_get_file_data_cb">PRJ_GET_FILE_DATA_CB</a> callback the provider may opt to return the requested data across multiple <b>PrjWriteFileData</b> calls, each returning part of the total requested data. 
+The system leaves it up to the provider to calculate proper alignment because when processing a <a href="https://msdn.microsoft.com/8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E">PRJ_GET_FILE_DATA_CB</a> callback the provider may opt to return the requested data across multiple <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a> calls, each returning part of the total requested data. 
 
 
-Note that if the provider is going to write the entire file in a single call to <b>PrjWriteFileData</b>, i.e. from byteOffset = 0 to length = size of the file, the provider does not have to do any alignment calculations. However it must still use <a href="projfs.prjallocatealignedbuffer">PrjAllocateAlignedBuffer</a> to ensure that buffer meets the storage device’s alignment requirements. See the <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">File Buffering</a> topic for more information on buffered vs unbuffered I/O.
+Note that if the provider is going to write the entire file in a single call to <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a>, i.e. from byteOffset = 0 to length = size of the file, the provider does not have to do any alignment calculations. However it must still use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjallocatealignedbuffer">PrjAllocateAlignedBuffer</a> to ensure that buffer meets the storage device’s alignment requirements. See the <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">File Buffering</a> topic for more information on buffered vs unbuffered I/O.
 
 
 

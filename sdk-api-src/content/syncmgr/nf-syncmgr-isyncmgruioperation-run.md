@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrUIOperation_Run.htm
 tech.root: shell
 ms.assetid: 66dd853e-0fb0-4736-982a-e0183cb51842
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ISyncMgrUIOperation interface [Windows Shell],Run method, ISyncMgrUIOperation.Run, ISyncMgrUIOperation::Run, Run, Run method [Windows Shell], Run method [Windows Shell],ISyncMgrUIOperation interface, _shell_ISyncMgrUIOperation_Run, shell.ISyncMgrUIOperation_Run, syncmgr/ISyncMgrUIOperation::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,9 +89,13 @@ The handler itself, not the UI, is expected to use the <a href="https://msdn.mic
 
 The following example shows the outline of an implementation of this method. In this case, the implementation is that which would be returned when <a href="https://msdn.microsoft.com/54336c43-348b-4767-94e4-fe7dc47c0876">GetObject</a> is called with the SYNCMGR_OBJECTID_QueryBeforeDelete object ID.
 
-
-```cpp
-STDMETHODIMP CQueryBeforeDelete::Run(__in HWND hwndOwner)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CQueryBeforeDelete::Run(__in HWND hwndOwner)
 {
     HRESULT hr = S_OK;
 
@@ -99,9 +103,9 @@ STDMETHODIMP CQueryBeforeDelete::Run(__in HWND hwndOwner)
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

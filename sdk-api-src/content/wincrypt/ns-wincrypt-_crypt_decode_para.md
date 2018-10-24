@@ -4,10 +4,10 @@ title: "_CRYPT_DECODE_PARA"
 author: windows-sdk-content
 description: Used by the CryptDecodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
 old-location: security\crypt_decode_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 08ed4627-8cbf-415f-b0d0-2c4b9ed9aed1
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCRYPT_DECODE_PARA, CRYPT_DECODE_PARA, CRYPT_DECODE_PARA structure [Security], PCRYPT_DECODE_PARA, PCRYPT_DECODE_PARA structure pointer [Security], _CRYPT_DECODE_PARA, security.crypt_decode_para, wincrypt/CRYPT_DECODE_PARA, wincrypt/PCRYPT_DECODE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

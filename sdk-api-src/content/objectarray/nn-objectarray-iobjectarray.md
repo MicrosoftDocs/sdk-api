@@ -7,7 +7,7 @@ old-location: shell\IObjectArray.htm
 tech.root: shell
 ms.assetid: ab0bb213-dc9c-4853-98d7-668e7ca76583
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray interface [Windows Shell],described, _shell_IObjectArray, objectarray/IObjectArray, shell.IObjectArray
 ms.prod: windows
 ms.technology: windows-sdk

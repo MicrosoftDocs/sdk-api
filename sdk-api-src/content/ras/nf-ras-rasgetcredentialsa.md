@@ -7,7 +7,7 @@ old-location: rras\rasgetcredentials.htm
 tech.root: rras
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RasGetCredentials, RasGetCredentials function [RAS], RasGetCredentialsA, RasGetCredentialsW, _ras_rasgetcredentials, ras/RasGetCredentials, ras/RasGetCredentialsA, ras/RasGetCredentialsW, rras.rasgetcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -197,12 +197,16 @@ To retrieve a pre-shared key, use the RASCM_PreSharedKey flag in the RASCREDENTI
 
 The following sample code creates the "RasEntryName" phone book entry, sets its credentials using <a href="https://msdn.microsoft.com/5ebfffb7-9158-4414-982c-e187600aa1ab">RasSetCredentials</a>, and then retrieves those credentials using <b>RasGetCredentials</b>.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 #include "ras.h"
-#include <stdio.h>
-#include <tchar.h>
+#include &lt;stdio.h&gt;
+#include &lt;tchar.h&gt;
 #include "strsafe.h"
 
 #define PHONE_NUMBER_LENGTH 7
@@ -230,15 +234,15 @@ DWORD __cdecl wmain(){
         wprintf(L"HeapAlloc failed!\n");
         return 0;
     }
-    // The RASENTRY->dwSize member has to be initialized or the RRAS RasValidateEntryName() and 
+    // The RASENTRY-&gt;dwSize member has to be initialized or the RRAS RasValidateEntryName() and 
     // RasSetEntryProperties APIs will fail below.
-    lpentry->dwSize = sizeof(RASENTRY);
-    lpentry->dwFramingProtocol = RASFP_Ppp;
-    lpentry->dwfOptions = 0;
-    lpentry->dwType = RASFP_Ppp;
-    dwRet |= StringCchCopyN(lpentry->szLocalPhoneNumber, RAS_MaxPhoneNumber, lpszPhoneNumber, PHONE_NUMBER_LENGTH);
-    dwRet |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszDeviceName, DEVICE_NAME_LENGTH);
-    dwRet |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszDeviceType, DEVICE_TYPE_LENGTH);
+    lpentry-&gt;dwSize = sizeof(RASENTRY);
+    lpentry-&gt;dwFramingProtocol = RASFP_Ppp;
+    lpentry-&gt;dwfOptions = 0;
+    lpentry-&gt;dwType = RASFP_Ppp;
+    dwRet |= StringCchCopyN(lpentry-&gt;szLocalPhoneNumber, RAS_MaxPhoneNumber, lpszPhoneNumber, PHONE_NUMBER_LENGTH);
+    dwRet |= StringCchCopyN(lpentry-&gt;szDeviceName, RAS_MaxDeviceName, lpszDeviceName, DEVICE_NAME_LENGTH);
+    dwRet |= StringCchCopyN(lpentry-&gt;szDeviceType, RAS_MaxDeviceType, lpszDeviceType, DEVICE_TYPE_LENGTH);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RASENTRY structure initilization failed!\n");
         HeapFree(GetProcessHeap(), 0, lpentry);
@@ -254,7 +258,7 @@ DWORD __cdecl wmain(){
         }
 
     // Create and set the new entry's properties
-    dwRet = RasSetEntryProperties(NULL, lpszEntry, lpentry, lpentry->dwSize, NULL, 0);
+    dwRet = RasSetEntryProperties(NULL, lpszEntry, lpentry, lpentry-&gt;dwSize, NULL, 0);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RasSetEntryProperties failed: Error = %d\n", dwRet);
         HeapFree(GetProcessHeap(), 0, lpentry);
@@ -271,30 +275,30 @@ DWORD __cdecl wmain(){
         wprintf(L"HeapAlloc failed!\n");
         return 0;
     }
-    // The RASCREDENTIALS->dwsize member must be initialized or the RRAS RasSetCredentials() and 
+    // The RASCREDENTIALS-&gt;dwsize member must be initialized or the RRAS RasSetCredentials() and 
     // RasGetCredentials() APIs will fail below
-    lpCred->dwSize = sizeof(RASCREDENTIALS);
+    lpCred-&gt;dwSize = sizeof(RASCREDENTIALS);
 
     // The entry's credentials must first be set with RasSetCredentials() before they can be 
     // retrieved with RasGetCredentials(). The values below are used to set the new entry's credentials.
-    dwRet |= StringCchCopyN(lpCred->szDomain, DNLEN, lpszDomainName, DOMAIN_NAME_LENGTH);
-    dwRet |= StringCchCopyN(lpCred->szUserName, UNLEN, lpszUserName, USER_NAME_LENGTH);
+    dwRet |= StringCchCopyN(lpCred-&gt;szDomain, DNLEN, lpszDomainName, DOMAIN_NAME_LENGTH);
+    dwRet |= StringCchCopyN(lpCred-&gt;szUserName, UNLEN, lpszUserName, USER_NAME_LENGTH);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RASCREDENTIALS structure initilization failed!\n");
         HeapFree(GetProcessHeap(), 0, lpCred);
         return 0;
     }
     // The username, password, and Domain credentials are valid
-    lpCred->dwMask = RASCM_UserName | RASCM_Password | RASCM_Domain;
+    lpCred-&gt;dwMask = RASCM_UserName | RASCM_Password | RASCM_Domain;
     
     // Set the newly created entry's credentials
     dwRet = RasSetCredentials(NULL, lpszEntry, lpCred, FALSE);
     
     // The same RASCREDENTIALS structure is used to 'set' and 'get' the credentials. Therefore, zero out 
     // its values. (this proves RasGetCredentials works below!) 
-    dwRet |= StringCchCopyN(lpCred->szDomain, DNLEN, L"", 0);
-    dwRet |= StringCchCopyN(lpCred->szUserName, UNLEN, L"", 0);
-    dwRet |= StringCchCopyN(lpCred->szPassword, UNLEN, L"", 0);
+    dwRet |= StringCchCopyN(lpCred-&gt;szDomain, DNLEN, L"", 0);
+    dwRet |= StringCchCopyN(lpCred-&gt;szUserName, UNLEN, L"", 0);
+    dwRet |= StringCchCopyN(lpCred-&gt;szPassword, UNLEN, L"", 0);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RASCREDENTIALS structure reset failed!\n");
         HeapFree(GetProcessHeap(), 0, lpCred);
@@ -305,7 +309,7 @@ DWORD __cdecl wmain(){
     // Grab the newly created entry's credentials
     dwRet = RasGetCredentials(NULL, lpszEntry, lpCred);
     if(dwRet == ERROR_SUCCESS){
-        wprintf(L"The following credentials were retrieved for the entry: %s\n\tUser name: %s\n\tPassword: %s\n\tDomain: %s\n", lpszEntry, lpCred->szUserName, lpCred->szPassword, lpCred->szDomain);
+        wprintf(L"The following credentials were retrieved for the entry: %s\n\tUser name: %s\n\tPassword: %s\n\tDomain: %s\n", lpszEntry, lpCred-&gt;szUserName, lpCred-&gt;szPassword, lpCred-&gt;szDomain);
     }else{
         wprintf(L"RasValidateEntryName failed: Error = %d\n", dwRet);
     }
@@ -320,10 +324,10 @@ DWORD __cdecl wmain(){
     HeapFree(GetProcessHeap(), 0, lpCred);
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

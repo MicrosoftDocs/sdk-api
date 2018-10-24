@@ -7,7 +7,7 @@ old-location: wmi\chstring_getbuffersetlength.htm
 tech.root: WmiSdk
 ms.assetid: de40f3a3-1880-426d-b3c2-864f0f45f218
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetBufferSetLength method, CHString.GetBufferSetLength, CHString::GetBufferSetLength, GetBufferSetLength, GetBufferSetLength method [Windows Management Instrumentation], GetBufferSetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffersetlength, chstring/CHString::GetBufferSetLength, wmi.chstring_getbuffersetlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,13 @@ Note that if you keep track of the string length yourself, you should not append
 
 The following code example shows the use of <b>CHString::GetBufferSetLength</b>.
 
-
-```cpp
-CHString str;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString str;
 LPWSTR pstr = str.GetBufferSetLength(3);
 pstr[0] = 'I';
 pstr[1] = 'c';
@@ -108,10 +112,10 @@ pstr[2] = 'e';
 // because GetBufferSetLength() set it for you.
 
 str += " hockey is best!";
-printf( "str: %S\n", (LPCWSTR)str );
-```
-
-
+printf( "str: %S\n", (LPCWSTR)str );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

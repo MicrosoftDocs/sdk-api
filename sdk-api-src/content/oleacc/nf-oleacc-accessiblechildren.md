@@ -7,7 +7,7 @@ old-location: winauto\accessiblechildren.htm
 tech.root: WinAuto
 ms.assetid: dc9262d8-f57f-41f8-8945-d95f38d197e9
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: AccessibleChildren, AccessibleChildren function [Windows Accessibility], _msaa_AccessibleChildren, msaa.accessiblechildren, oleacc/AccessibleChildren, winauto.accessiblechildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,9 +81,9 @@ Specifies the number of children to retrieve. To retrieve the current number of 
 
 ### -param rgvarChildren [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structures that receives information about the container's children. If the <b>vt</b> member of an array element is VT_I4, then the <b>lVal</b> member for that element is the child ID. If the <b>vt</b> member of an array element is VT_DISPATCH, then the <b>pdispVal</b> member for that element is the address of the child object's <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface.
+Pointer to an array of <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> structures that receives information about the container's children. If the <b>vt</b> member of an array element is VT_I4, then the <b>lVal</b> member for that element is the child ID. If the <b>vt</b> member of an array element is VT_DISPATCH, then the <b>pdispVal</b> member for that element is the address of the child object's <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface.
 
 
 ### -param pcObtained [out]
@@ -155,9 +155,13 @@ The following example function displays a view of the element tree below the ele
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
 {
     HRESULT hr;
@@ -168,7 +172,7 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
     {
         return E_INVALIDARG;
     }
-    hr = pAcc->get_accChildCount(&childCount);
+    hr = pAcc-&gt;get_accChildCount(&amp;childCount);
     if (FAILED(hr))
     {
         return hr;
@@ -178,14 +182,14 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
         return S_FALSE;
     }
     VARIANT* pArray = new VARIANT[childCount];
-    hr = AccessibleChildren(pAcc, 0L, childCount, pArray, &returnCount);
+    hr = AccessibleChildren(pAcc, 0L, childCount, pArray, &amp;returnCount);
     if (FAILED(hr))
     {
         return hr;
     };
 
     // Iterate through children.
-    for (int x = 0; x < returnCount; x++)
+    for (int x = 0; x &lt; returnCount; x++)
     {
         VARIANT vtChild = pArray[x];
         // If it's an accessible object, get the IAccessible, and recurse.
@@ -193,10 +197,10 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
         {
             IDispatch* pDisp = vtChild.pdispVal;
             IAccessible* pChild = NULL;
-            hr = pDisp->QueryInterface(IID_IAccessible, (void**) &pChild);
+            hr = pDisp-&gt;QueryInterface(IID_IAccessible, (void**) &amp;pChild);
             if (hr == S_OK)
             {
-                for (int y = 0; y < depth; y++)
+                for (int y = 0; y &lt; depth; y++)
                 {
                     printf("  ");
                 }
@@ -204,15 +208,15 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
                 printf("(Object) ");
                 PrintRole(pChild, CHILDID_SELF);
                 WalkTreeWithAccessibleChildren(pChild, depth + 1);
-                pChild->Release();
+                pChild-&gt;Release();
             }
-            pDisp->Release();
+            pDisp-&gt;Release();
         }
         // Else it's a child element so we have to call accNavigate on the parent,
         //   and we do not recurse because child elements can't have children.
         else
         {
-            for (int y = 0; y < depth; y++)
+            for (int y = 0; y &lt; depth; y++)
             {
                 printf("  ");
             }
@@ -224,10 +228,10 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
     delete[] pArray;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

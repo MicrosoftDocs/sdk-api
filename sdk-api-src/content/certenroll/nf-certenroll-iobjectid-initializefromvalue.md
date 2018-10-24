@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>InitializeFromValue</b> method initializes the object from a string that contains a dotted decimal <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID). This method is web enabled. 
+The <b>InitializeFromValue</b> method initializes the object from a string that contains a dotted decimal <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID). This method is web enabled. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A <b>BSTR</b> variable that contains the dotted decimal representation of the AS
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -122,15 +122,15 @@ The object is already initialized.
 
 
 
-You can call the following properties to retrieve information about an initialized <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> object:<ul>
+You can call the following properties to retrieve information about an initialized <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> object:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376795(v=VS.85).aspx">FriendlyName</a>
+<a href="https://msdn.microsoft.com/9360f652-afeb-4f30-a423-402f397b9255">FriendlyName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376800(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/3d3842a9-73b6-4fb8-83cf-ac65c5a09acb">Name</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376802(v=VS.85).aspx">Value</a>
+<a href="https://msdn.microsoft.com/9ccb681a-f31b-4d31-ae56-25efd2af2b2c">Value</a>
 </li>
 </ul>
 
@@ -143,7 +143,7 @@ You can call the following properties to retrieve information about an initializ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectID</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectID</a>
  
 
  

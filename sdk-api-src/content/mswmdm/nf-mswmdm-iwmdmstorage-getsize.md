@@ -99,18 +99,22 @@ For folders or abstract objects (such as abstract playlists), the size is zero.
 
 The following C++ code retrieves the size of a file, in kilobytes.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get size of file in kilobytes.
 DWORD lowSize = 0;
 DWORD highSize = 0;
-hr = pStorage->GetSize(&lowSize, &highSize);
+hr = pStorage-&gt;GetSize(&amp;lowSize, &amp;highSize);
 //TODO: Display the file size.
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
