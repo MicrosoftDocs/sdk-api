@@ -2,7 +2,7 @@
 UID: NA:winreg
 ms.assetid: 7eb36e33-d454-3b76-a359-7d06c195c1ee
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

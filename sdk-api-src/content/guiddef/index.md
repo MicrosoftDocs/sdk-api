@@ -2,7 +2,7 @@
 UID: NA:guiddef
 ms.assetid: 75578e64-4354-3b83-b942-378563dbe52a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
